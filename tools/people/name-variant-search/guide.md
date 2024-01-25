@@ -1,3 +1,0 @@
-# Guide
-
-Instructions, screenshots, etc..
