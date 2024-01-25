@@ -21,7 +21,6 @@
   * [Misc](tools/image-video/misc.md)
 * [People](tools/people/README.md)
   * [Name Variant Search](tools/people/name-variant-search/README.md)
-    * [Guide](tools/people/name-variant-search/guide.md)
 * [Maps & Satellites](tools/maps-and-satellites.md)
 * [Transport](tools/transport.md)
 * [Websites](tools/websites.md)
