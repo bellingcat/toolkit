@@ -1,2 +1,3 @@
-# Page 1
+# Guide
 
+Instructions, screenshots, etc..
