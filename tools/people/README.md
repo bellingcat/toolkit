@@ -4,8 +4,6 @@ description: Find someone by phone, email, or username
 
 # People
 
-[Name Variant Search](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/mvJPLhESfJylE176Z6jG/)
-
 | Type    | Name                                                                                            | Description                                                                                                                                                                                                                                                                                         | Free?     | Guide                                                                               | country-specific?          |
 | ------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------- | -------------------------- |
 | 📞      | [TrueCaller](https://www.truecaller.com/)                                                       | App that gathers phonenumbers and names from contact lists.                                                                                                                                                                                                                                         | yes       | Do not give permission to your actual contact lists                                 |                            |
