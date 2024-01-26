@@ -38,4 +38,8 @@ Bellingcat
 
 ## Guide
 
-How to use it. Instructions, screenshots, and examples\
+How to use it. Instructions, screenshots, and examples
+
+## Maintainer
+
+This tool page is maintained by @liliakai (discord, twitter, gmail)
