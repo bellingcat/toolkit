@@ -45,9 +45,3 @@ Enter a name and press enter. Add suggested variants to refine results. Use the 
 ## Maintainer
 
 This tool page is maintained by @liliakai (discord, twitter, gmail)
-
-
-
-{% content-ref url="https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/snippet/5800" %}
-[Footer Links](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/snippet/5800)
-{% endcontent-ref %}
