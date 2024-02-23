@@ -8,15 +8,16 @@ export async function generateStaticParams(params) {
   return tools;
 }
 
-function processMarkdownFile(filepath, name, slug = []) {
-  const page = name.replace('.md', '');
+function processMarkdownFile(filepath, filename, slug = []) {
+  const page = filename.replace('.md', '');
   const markdownWithMeta = fs.readFileSync(filepath, 'utf-8');
   const { data: frontmatter } = matter(markdownWithMeta)
+  const title = frontmatter.title || page.replaceAll('-', ' ');
 
   if (page !== 'README') {
     slug = [...slug, page];
   }
-  return { slug, filepath, frontmatter };
+  return { slug, frontmatter, title, href: `/${slug.join('/')}` };
 }
 
 function getPaths(pathname, slug = []) {
@@ -48,14 +49,24 @@ function getPaths(pathname, slug = []) {
 function getStaticParams(slug) {
   const pathname = path.join('gitbook', slug.join('/'));
   if (fs.existsSync(pathname)) {
-    return path.join(pathname, 'README.md');
+    // directory
+    const files = fs.readdirSync(pathname).map((filename) => {
+      if (filename[0] === "." || filename === "README.md") { return null; } // ignore
+      const filepath = path.join(pathname, filename);
+      return processMarkdownFile(filepath, filename, slug);
+    }).filter(post => { return post && post });
+    return { files, filepath: path.join(pathname, 'README.md') }
   }
-  return path.join('gitbook', slug.join('/') + '.md');
+  // markdown file
+  return {
+      filepath: path.join('gitbook', slug.join('/') + '.md')
+  };
 }
 
 export default function ToolPage({ params: { slug } }) {
-  const filepath = getStaticParams(slug);
-  console.log('toolpage', slug, filepath);
+  const { filepath, files } = getStaticParams(slug);
+
+  console.log('toolpage', slug, filepath, files);
   const markdownWithMeta = fs.readFileSync(filepath, 'utf-8');
   const { data: frontmatter, content } = matter(markdownWithMeta)
 
@@ -64,7 +75,15 @@ export default function ToolPage({ params: { slug } }) {
     <div className="container my-5">
       <div className="row">
         <div className="col-lg-10 m-auto">
-          <div className='post-body p-5 m-auto' dangerouslySetInnerHTML={{ __html: marked.parse(content) }}>
+          <div className='prose p-5 m-auto' dangerouslySetInnerHTML={{ __html: marked.parse(content) }}>
+          </div>
+          { frontmatter.description && <p>{frontmatter.description}</p> }
+          <div className="flex flex-col">
+          {
+            files && files.map((file) => {
+              return <a href={file.href} key={file.title}>{file.title}</a>
+            })
+          }
           </div>
         </div>
       </div>
