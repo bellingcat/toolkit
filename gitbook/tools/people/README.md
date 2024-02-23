@@ -1,5 +1,5 @@
 ---
-description: Find someone by phone, email, or username
+description: Find someone by phone, email, or username.
 ---
 
 # People
