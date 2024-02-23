@@ -53,7 +53,9 @@ function getStaticParams(slug) {
 
     // Create a list of subpages
     const files = fs.readdirSync(pathname).map((filename) => {
-      if (filename[0] === "." || filename === "README.md" || filename === "SUMMARY.md") { return null; } // ignore
+      if (filename[0] === "." || filename === "README.md" || filename === "SUMMARY.md") {
+        return null; // ignore special files
+      }
       let filepath = null;
 
       if (path.extname(filename) == ".md") {
