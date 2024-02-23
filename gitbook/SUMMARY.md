@@ -19,7 +19,7 @@
   * [Facial Recognition](tools/image-video/facial-recognition.md)
   * [Metadata](tools/image-video/metadata.md)
   * [Misc](tools/image-video/misc.md)
-* [People](tools/people.md)
+* [People](tools/people/README.md)
 * [Maps & Satellites](tools/maps-and-satellites.md)
 * [Transport](tools/transport.md)
 * [Websites](tools/websites.md)
