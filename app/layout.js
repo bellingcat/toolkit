@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
           <h1 className="text-xl font-bold"><a href='/'>{metadata.title}</a></h1>
         </header>
         <div className="flex">
-          <nav className="p-4">
+          <nav className="p-4 nav">
             <div className='prose p-5 m-auto'
               dangerouslySetInnerHTML={{ __html: marked.parse(content) }}
             ></div>

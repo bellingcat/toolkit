@@ -31,3 +31,5 @@ body {
     text-wrap: balance;
   }
 }
+
+.nav h1 { display: none; } /* Hide "Table of Contents" */
