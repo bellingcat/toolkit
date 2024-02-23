@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="p-4 border-b-1 border-slate-200">
+        <header className="p-4 border-b border-slate-200">
           <h1 className="text-xl font-bold"><a href='/'>{metadata.title}</a></h1>
         </header>
         <div className="flex">
@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
               dangerouslySetInnerHTML={{ __html: marked.parse(content) }}
             ></div>
           </nav>
-          <main className="flex min-h-screen flex-col items-center justify-between p-24">
+          <main className="flex min-h-screen flex-col items-center justify-between p-24 border-l">
             <div>{children}</div>
           </main>
         </div>
