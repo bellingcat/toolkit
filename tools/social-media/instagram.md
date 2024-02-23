@@ -1,7 +1,0 @@
-# Instagram
-
-| Name                                                      | Description                                                                                                                                                                                                            | Free? |
-| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
-| [InstaLoader](https://github.com/instaloader/instaloader) | GitHub - scrape information from public accounts. Does not use the official API, and allows downloading pictures and videos along with their captions and other metadata from Instagram. Similar to twint for Twitter. | yes   |
-| [StorySaver](https://www.storysaver.net/)                 | Download public Instagram Stories, Highlights and Videos.                                                                                                                                                              | yes   |
-| Bellingcat Insta Location Search                          | Github - Finds Instagram location IDs near a specified latitude and longitude                                                                                                                                          | yes   |
