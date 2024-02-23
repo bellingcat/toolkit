@@ -5,8 +5,10 @@ import {marked} from 'marked'
 import { notFound } from 'next/navigation'
 
 export async function generateStaticParams(params) {
-  const tools = getPaths('gitbook');
-  return tools;
+  // This function will be called at build time
+  // It will generate routes based on the files in the gitbook directory
+  const pages = getPaths('gitbook');
+  return pages;
 }
 
 function processMarkdownFile(filepath, filename, slug = []) {
