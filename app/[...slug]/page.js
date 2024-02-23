@@ -49,13 +49,21 @@ function getPaths(pathname, slug = []) {
 
 function getStaticParams(slug) {
   const pathname = path.join('gitbook', slug.join('/'));
-  if (fs.existsSync(pathname)) {
-    // directory
+  if (fs.existsSync(pathname)) { // directory
+
+    // Create a list of subpages
     const files = fs.readdirSync(pathname).map((filename) => {
-      if (filename[0] === "." || filename === "README.md") { return null; } // ignore
-      const filepath = path.join(pathname, filename);
+      if (filename[0] === "." || filename === "README.md" || filename === "SUMMARY.md") { return null; } // ignore
+      let filepath = null;
+
+      if (path.extname(filename) == ".md") {
+        filepath = path.join(pathname, filename);
+      } else {
+        filepath = path.join(pathname, filename, 'README.md');
+      }
       return processMarkdownFile(filepath, filename, slug);
     }).filter(post => { return post && post });
+
     return { files, filepath: path.join(pathname, 'README.md') }
   }
   // markdown file
