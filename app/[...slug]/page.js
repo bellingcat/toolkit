@@ -2,6 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import {marked} from 'marked'
+import { notFound } from 'next/navigation'
 
 export async function generateStaticParams(params) {
   const tools = getPaths('gitbook');
@@ -67,7 +68,12 @@ export default function ToolPage({ params: { slug } }) {
   const { filepath, files } = getStaticParams(slug);
 
   console.log('toolpage', slug, filepath, files);
-  const markdownWithMeta = fs.readFileSync(filepath, 'utf-8');
+  let markdownWithMeta = '';
+  try {
+    markdownWithMeta = fs.readFileSync(filepath, 'utf-8');
+  } catch (e) {
+    return notFound();
+  }
   const { data: frontmatter, content } = matter(markdownWithMeta)
 
   return (
