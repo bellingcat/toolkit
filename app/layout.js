@@ -8,7 +8,7 @@ import {marked} from 'marked'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Bellingcat Toolkit",
+  title: "Bellingcat's Online Investigation Toolkit",
   description: "Bellingcat’s freely available online open source investigation toolkit. This toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more.",
 };
 function getSummary(pathname) {
