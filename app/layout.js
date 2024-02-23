@@ -18,12 +18,16 @@ function getSummary(pathname) {
 
 export default function RootLayout({ children }) {
   const summary = getSummary('gitbook/SUMMARY.md');
-  const content = marked.parse(summary.content).replace(/README.md/g, '/').replace(/\.md/g, '').replace(/tools/g, '/tools').replace(/resources/g, '/resources');
+  const content = marked.parse(summary.content)
+    .replace(/README.md/g, '/')
+    .replace(/\.md/g, '')
+    .replace(/tools/g, '/tools')
+    .replace(/resources/g, '/resources')
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="p-4">
-          <h1 className="text-4xl font-bold"><a href='/'>{metadata.title}</a></h1>
+        <header className="p-4 border-b-1 border-slate-200">
+          <h1 className="text-xl font-bold"><a href='/'>{metadata.title}</a></h1>
         </header>
         <div className="flex">
           <nav className="p-4">
