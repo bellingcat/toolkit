@@ -4,10 +4,11 @@ import matter from 'gray-matter'
 import {marked} from 'marked'
 import { notFound } from 'next/navigation'
 
+const markdownRoot = 'gitbook';
 export async function generateStaticParams(params) {
   // This function will be called at build time
   // It will generate routes based on the files in the gitbook directory
-  const pages = getPaths('gitbook');
+  const pages = getPaths(markdownRoot);
   return pages;
 }
 
@@ -31,7 +32,7 @@ function getPaths(pathname, slug = []) {
     if (filename[0] === ".") { return null; } // ignore hidden files
 
     const filepath = path.join(pathname, filename);
-    if (filepath === 'gitbook/README.md') {
+    if (filepath === `${markdownRoot}/README.md`) {
       return null; // Special case for the root README
     }
 
@@ -50,7 +51,7 @@ function getPaths(pathname, slug = []) {
 }
 
 function getStaticParams(slug) {
-  const pathname = path.join('gitbook', slug.join('/'));
+  const pathname = path.join(markdownRoot, slug.join('/'));
   if (fs.existsSync(pathname)) { // directory
 
     // Create a list of subpages
@@ -72,7 +73,7 @@ function getStaticParams(slug) {
   }
   // markdown file
   return {
-      filepath: path.join('gitbook', slug.join('/') + '.md')
+      filepath: path.join(markdownRoot, slug.join('/') + '.md')
   };
 }
 
