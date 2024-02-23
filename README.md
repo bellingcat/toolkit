@@ -1,5 +1,5 @@
 ---
-description: 'Last Update: August 2023'
+description: 'Last Update: February 2023'
 ---
 
 # Home
@@ -30,3 +30,4 @@ Bellingcat links:
 * [Twitter](http://www.twitter.com/bellingcat)
 * [Twitch](https://www.twitch.tv/bellingcat\_live)
 * [Soundcloud](https://soundcloud.com/bellingcat)
+

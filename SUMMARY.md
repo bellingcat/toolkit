@@ -1,6 +1,8 @@
+# Table of contents
+
 * [Home](README.md)
 
-## ⚒ Tools
+## ⚒️ Tools
 
 * [Social Media](tools/social-media/README.md)
   * [Twitter](tools/social-media/twitter.md)
