@@ -22,7 +22,8 @@ export default function RootLayout({ children }) {
   const content = marked.parse(
     summary.content.replace(/\((.*)\)/g, `(/${webRoot}/$1)`)
     .replace(/README.md/g, '')
-    .replace(/\.md/g, ''));
+    .replace(/\.md/g, '')
+  );
     console.log(content)
   return (
     <html lang="en">
