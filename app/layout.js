@@ -4,6 +4,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import {marked} from 'marked'
+import {webRoot, markdownRoot} from '@/next.config.js'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,12 +18,12 @@ function getSummary(pathname) {
 }
 
 export default function RootLayout({ children }) {
-  const summary = getSummary('gitbook/SUMMARY.md');
-  const content = marked.parse(summary.content)
+  const summary = getSummary(`${markdownRoot}/SUMMARY.md`);
+  const content = marked.parse(summary.content.replace(/\((.*)\)/g, `(/${webRoot}/$1)`))
     .replace(/README.md/g, '/')
-    .replace(/\.md/g, '')
-    .replace(/tools/g, '/tools')
-    .replace(/resources/g, '/resources')
+    .replace(/\.md/g, '');
+    console.log(content
+    )
   return (
     <html lang="en">
       <body className={inter.className}>

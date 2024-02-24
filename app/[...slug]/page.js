@@ -3,8 +3,8 @@ import path from 'path'
 import matter from 'gray-matter'
 import {marked} from 'marked'
 import { notFound } from 'next/navigation'
+import {webRoot, markdownRoot} from '@/next.config.js'
 
-const markdownRoot = 'gitbook';
 export async function generateStaticParams(params) {
   // This function will be called at build time
   // It will generate routes based on the files in the gitbook directory
