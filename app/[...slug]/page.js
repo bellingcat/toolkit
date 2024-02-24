@@ -3,7 +3,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import {marked} from 'marked'
 import { notFound } from 'next/navigation'
-import {webRoot, markdownRoot} from '@/next.config.js'
+import {webRoot, markdownRoot} from '@/config.js'
 
 export async function generateStaticParams(params) {
   // This function will be called at build time
