@@ -95,7 +95,7 @@ export default function ToolPage({ params: { slug } }) {
         <div className="col-lg-10 m-auto">
           <div className='prose p-5 m-auto' dangerouslySetInnerHTML={{ __html: marked.parse(content) }}>
           </div>
-          { frontmatter.description && <p>{frontmatter.description}</p> }
+          { frontmatter.description && <p class='mb-2'>{frontmatter.description}</p> }
           <div className="subpages columns-2">
           {
             files && files.map((file) => { return <Card title={file.title} href={file.href} key={file.title} /> })
@@ -113,8 +113,8 @@ function Card(props) {
   return (
     <a href={props.href}>
       <div class="max-w-sm rounded overflow-hidden border mb-4">
-        <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2">{props.title}</div>
+        <div class="px-6 py-4 hover:text-blue-500">
+          <div class="font-bold text-xl mb-2 text-inherit">{props.title}</div>
           <p class="text-gray-700 text-base">{props.description}</p>
         </div>
         {
