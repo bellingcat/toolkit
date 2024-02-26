@@ -4,7 +4,7 @@ const config = {
 };
 
 if (process.env.NODE_ENV === 'development') {
-  config.webroot = '';
+  config.webRoot = '';
 }
 
 module.exports = config;

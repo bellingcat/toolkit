@@ -20,7 +20,7 @@ function getSummary(pathname) {
 export default function RootLayout({ children }) {
   const summary = getSummary(`${markdownRoot}/SUMMARY.md`);
   const content = marked.parse(
-    summary.content.replace(/\((.*)\)/g, `(/${webRoot}/$1)`)
+    summary.content.replace(/\((.*)\)/g, (_, p1) => `(/${path.join(webRoot,p1)})`)
     .replace(/README.md/g, '')
     .replace(/\.md/g, '')
   );
