@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project.
+
+The goal is to generate static content pages from markdown files which are
+organized and maintained on gitbook.
+
+We can then extend them with additional filter views and other useful features.
 
 ## Getting Started
 
@@ -16,21 +21,20 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Build locally
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Create a static export in the folder `/out` and serve it with a generic webserver
 
-## Learn More
+```
+npm run build
+cd ./out && python3 -m http.server
+```
+Open [http://localhost:8000](http://localhost:8000) with your browser to see the result.
 
-To learn more about Next.js, take a look at the following resources:
+## Deploy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ Gitbook syncs automatically to the
+`/gitbook` folder in the main branch of this repository.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Then merge changes to the `deploy` branch to kick off a build.
+Be sure to test locally to check for rendering bugs or breaking changes.
