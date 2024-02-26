@@ -1,5 +1,5 @@
 ---
-description: Last updated at 24/01/24
+description: research, people, free, bellingcat
 ---
 
 # About
