@@ -24,7 +24,6 @@ export default function RootLayout({ children }) {
     .replace(/README.md/g, '')
     .replace(/\.md/g, '')
   );
-    console.log(content)
   return (
     <html lang="en">
       <body className={inter.className}>

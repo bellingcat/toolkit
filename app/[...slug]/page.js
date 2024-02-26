@@ -80,7 +80,6 @@ function getStaticParams(slug) {
 export default function ToolPage({ params: { slug } }) {
   const { filepath, files } = getStaticParams(slug);
 
-  console.log('toolpage', slug, filepath, files);
   let markdownWithMeta = '';
   try {
     markdownWithMeta = fs.readFileSync(filepath, 'utf-8');
