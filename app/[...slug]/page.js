@@ -21,7 +21,7 @@ function processMarkdownFile(filepath, filename, slug = []) {
   if (page !== 'README') {
     slug = [...slug, page];
   }
-  return { slug, frontmatter, title, href: `/${slug.join('/')}` };
+  return { slug, frontmatter, title, href: `/${path.join(webRoot, slug.join('/'))}` };
 }
 
 function getPaths(pathname, slug = []) {
