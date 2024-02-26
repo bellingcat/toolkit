@@ -96,11 +96,9 @@ export default function ToolPage({ params: { slug } }) {
           <div className='prose p-5 m-auto' dangerouslySetInnerHTML={{ __html: marked.parse(content) }}>
           </div>
           { frontmatter.description && <p>{frontmatter.description}</p> }
-          <div className="flex flex-col">
+          <div className="subpages columns-2">
           {
-            files && files.map((file) => {
-              return <a href={file.href} key={file.title}>{file.title}</a>
-            })
+            files && files.map((file) => { return <Card title={file.title} href={file.href} key={file.title} /> })
           }
           </div>
         </div>
@@ -110,3 +108,23 @@ export default function ToolPage({ params: { slug } }) {
   )
 }
 
+
+function Card(props) {
+  return (
+    <a href={props.href}>
+      <div class="max-w-sm rounded overflow-hidden border mb-4">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">{props.title}</div>
+          <p class="text-gray-700 text-base">{props.description}</p>
+        </div>
+        {
+          props.tags && tags.map((tag) => {
+            return <div class="px-6 pt-4 pb-2" key={tag}>
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{tag}</span>
+            </div>
+          })
+        }
+      </div>
+    </a>
+  );
+}

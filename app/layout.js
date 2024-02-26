@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
               dangerouslySetInnerHTML={{ __html: marked.parse(content) }}
             ></div>
           </nav>
-          <main className="flex min-h-screen flex-col items-center justify-between p-24 border-l">
+          <main className="flex min-h-screen flex-col items-center justify-between px-24 border-l">
             <div>{children}</div>
           </main>
         </div>
