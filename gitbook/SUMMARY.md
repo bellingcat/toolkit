@@ -1,3 +1,5 @@
+# Table of contents
+
 * [Home](README.md)
 
 ## ⚒️ Tools
@@ -26,7 +28,7 @@
 
 ## 📖 Resources
 
-* [Non-English](resources/non-english.md)
+* [International](resources/international.md)
 * [Stay Safe](resources/stay-safe.md)
 * [Archiving](resources/archiving.md)
 * [Data Visualization](resources/data-visualization.md)
