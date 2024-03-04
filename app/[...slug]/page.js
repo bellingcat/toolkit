@@ -4,6 +4,7 @@ import matter from 'gray-matter'
 import {marked} from 'marked'
 import { notFound } from 'next/navigation'
 import {webRoot, markdownRoot} from '@/config.js'
+import Card from '@/components/card'
 
 export async function generateStaticParams(params) {
   // This function will be called at build time
@@ -98,7 +99,9 @@ export default function ToolPage({ params: { slug } }) {
           { frontmatter.description && <p class='mb-2'>{frontmatter.description}</p> }
           <div className="subpages columns-2">
           {
-            files && files.map((file) => { return <Card title={file.title} href={file.href} key={file.title} /> })
+            files && files.map((file) => {
+              return <Card title={file.title} href={file.href} key={file.title} />
+            })
           }
           </div>
         </div>
@@ -109,22 +112,3 @@ export default function ToolPage({ params: { slug } }) {
 }
 
 
-function Card(props) {
-  return (
-    <a href={props.href}>
-      <div class="max-w-sm rounded overflow-hidden border mb-4">
-        <div class="px-6 py-4 hover:text-blue-500">
-          <div class="font-bold text-xl mb-2 text-inherit">{props.title}</div>
-          <p class="text-gray-700 text-base">{props.description}</p>
-        </div>
-        {
-          props.tags && tags.map((tag) => {
-            return <div class="px-6 pt-4 pb-2" key={tag}>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{tag}</span>
-            </div>
-          })
-        }
-      </div>
-    </a>
-  );
-}
