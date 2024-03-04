@@ -1,3 +1,3 @@
 # Table of contents
 
-* [About](README.md)
+* [Name Variant Search](README.md)
