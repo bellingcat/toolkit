@@ -33,8 +33,9 @@ Open [http://localhost:8000](http://localhost:8000) with your browser to see the
 
 ## Deploy
 
- Gitbook syncs automatically to the
-`/gitbook` folder in the main branch of this repository.
+Gitbook syncs markdown files automatically to the `/gitbook` folder in the main
+branch of this repository.
 
-Then merge changes to the `deploy` branch to kick off a build.
 Be sure to test locally to check for rendering bugs or breaking changes.
+
+Github pages builds from the `deploy` branch of this repository. Merge changes from `main` to `deploy` to kick off a build.
