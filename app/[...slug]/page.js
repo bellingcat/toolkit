@@ -5,6 +5,7 @@ import {marked} from 'marked'
 import { notFound } from 'next/navigation'
 import {webRoot, markdownRoot} from '@/config.js'
 import Card from '@/components/card'
+import Tags from '@/components/tags'
 
 export async function generateStaticParams(params) {
   // This function will be called at build time
@@ -88,15 +89,24 @@ export default function ToolPage({ params: { slug } }) {
     return notFound();
   }
   const { data: frontmatter, content } = matter(markdownWithMeta)
+  const tags = parseTags(frontmatter.description);
 
   return (
     <>
     <div className="container my-5">
       <div className="row">
         <div className="col-lg-10 m-auto">
+          <div className="flex justify-start">
+          {
+            tags && tags.map((tag) => {
+              return <div className="pt-4 pb-2" key={tag}>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{tag}</span>
+              </div>
+            })
+          }
+          </div>
           <div className='prose p-5 m-auto' dangerouslySetInnerHTML={{ __html: marked.parse(content) }}>
           </div>
-          { frontmatter.description && <p class='mb-2'>{frontmatter.description}</p> }
           <div className="subpages columns-2">
           {
             files && files.map((file) => {
