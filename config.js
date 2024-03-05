@@ -1,5 +1,5 @@
 const config = {
-  webRoot: 'toolkit',
+  webRoot: process.env.WEB_ROOT || 'toolkit',
   markdownRoot: 'gitbook',
 };
 
