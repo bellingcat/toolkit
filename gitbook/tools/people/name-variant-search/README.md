@@ -1,10 +1,10 @@
 ---
-description: research, people, free, bellingcat
+description: people, free, bellingcat
 ---
 
 # Name Variant Search
 
-When researching an individual online, it is useful to search not only for their full legal name but also for many variants. This can become tedious and time consuming for the researcher and can be streamlined.
+When researching an individual online, it is useful to search not only for their full legal name but also for many variants. This could become tedious and time consuming for the researcher and can be streamlined.
 
 Given a person's name, this tool will generate various plausible alternative forms of the name and streamline the work of researching each one. It also offers a few filters for various social media platforms.
 
