@@ -3,7 +3,7 @@ const config = {
   markdownRoot: 'gitbook',
 };
 
-if (process.env.NODE_ENV === 'development' || process.env.NODE_ENV === 'staging') {
+if (process.env.NODE_ENV === 'development') {
   config.webRoot = '';
 }
 
