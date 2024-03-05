@@ -14,16 +14,25 @@ export async function generateStaticParams(params) {
   return pages;
 }
 
+function parseTags(str) {
+  if (!str) { return []; }
+  return str.split(',').map((tag) => tag.trim());
+}
+
 function processMarkdownFile(filepath, filename, slug = []) {
   const page = filename.replace('.md', '');
   const markdownWithMeta = fs.readFileSync(filepath, 'utf-8');
   const { data: frontmatter } = matter(markdownWithMeta)
   const title = frontmatter.title || page.replaceAll('-', ' ');
+  const tags = parseTags(frontmatter.description);
 
   if (page !== 'README') {
     slug = [...slug, page];
   }
-  return { slug, frontmatter, title, href: `/${path.join(webRoot, slug.join('/'))}` };
+  return {
+    slug, frontmatter, title, tags,
+    href: `/${path.join(webRoot, slug.join('/'))}`
+  };
 }
 
 function getPaths(pathname, slug = []) {
