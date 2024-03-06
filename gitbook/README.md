@@ -4,9 +4,11 @@ Welcome to [Bellingcat](https://www.bellingcat.com/)’s freely available online
 
 This toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more.&#x20;
 
-
+We hope that this toolkit will help you discover new tools or learn more about tools you already know.
 
 If you have any feedback, please get in touch with Johanna Wild via toolkit@bellingcat.com.
+
+
 
 Follow Bellingcat's work:
 
@@ -25,7 +27,7 @@ Follow Bellingcat's work:
 * [X](tools/social-media/youtube.md)
 * [Youtube](https://www.youtube.com/@bellingcatofficial/videos)
 
-_Bellingcat is a non-profit and the ability to carry out our work is dependent on the kind support of individual donors. If you would like to support our work, you can do so_ [_here_](https://www.bellingcat.com/donate/)_._
+Bellingcat is a non-profit and the ability to carry out our work is dependent on the kind support of individual donors. If you would like to support our work, you can so [here](https://www.bellingcat.com/donate/).&#x20;
 
 We also provide [workshops](https://www.bellingcat.com/workshops/) on open source investigative methods and tools. For those of you interested in becoming a Bellingcat volunteer, have a look at our [volunteer community page](https://sites.google.com/bellingcat.com/bellingcat-volunteer-community/home).
 
