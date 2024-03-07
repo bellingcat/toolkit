@@ -12,11 +12,7 @@ description: people, free, bellingcat
 {% tab title="First Tab" %}
 Some info in a tab
 
-|                  |   |   |
-| ---------------- | - | - |
-| A table in a tab |   |   |
-|                  |   |   |
-|                  |   |   |
+<table><thead><tr><th></th><th data-type="checkbox"></th><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>A table in a tab</td><td>true</td><td>3</td></tr><tr><td></td><td>true</td><td>1</td></tr><tr><td></td><td>true</td><td>5</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Second Tab" %}
