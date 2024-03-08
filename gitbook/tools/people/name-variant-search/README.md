@@ -26,14 +26,6 @@ Internet
 
 ### Limitations & Ethical Considerations <a href="#limitations-and-ethical-considerations" id="limitations-and-ethical-considerations"></a>
 
-The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.
-
-### Last updates <a href="#last-updates" id="last-updates"></a>
-
-Information for each tool about when the tool information was last updated by Bellingcat.
-
-### Ethical considerations <a href="#ethical-considerations" id="ethical-considerations"></a>
-
 Please use this tool ethically.
 
 ### Guide <a href="#guide" id="guide"></a>
