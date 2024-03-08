@@ -3,7 +3,8 @@ import path from 'path'
 import matter from 'gray-matter'
 import {marked} from 'marked'
 import { notFound } from 'next/navigation'
-import {webRoot, markdownRoot} from '@/config.js'
+import {markdownRoot} from '@/config.js'
+import {parseTags, getPaths, processMarkdownFile} from '@/paths.js'
 import Card from '@/components/card'
 import Tags from '@/components/tags'
 
@@ -12,53 +13,6 @@ export async function generateStaticParams(params) {
   // It will generate routes based on the files in the gitbook directory
   const pages = getPaths(markdownRoot);
   return pages;
-}
-
-function parseTags(str) {
-  if (!str) { return []; }
-  return str.split(',').map((tag) => tag.trim());
-}
-
-function processMarkdownFile(filepath, filename, slug = []) {
-  const page = filename.replace('.md', '');
-  const markdownWithMeta = fs.readFileSync(filepath, 'utf-8');
-  const { data: frontmatter } = matter(markdownWithMeta)
-  const title = frontmatter.title || page.replaceAll('-', ' ');
-  const tags = parseTags(frontmatter.description);
-
-  if (page !== 'README') {
-    slug = [...slug, page];
-  }
-  return {
-    slug, frontmatter, title, tags,
-    href: `/${path.join(webRoot, slug.join('/'))}`
-  };
-}
-
-function getPaths(pathname, slug = []) {
-
-  const files = fs.readdirSync(pathname);
-
-  const paths = files.flatMap((filename) => {
-    if (filename[0] === ".") { return null; } // ignore hidden files
-
-    const filepath = path.join(pathname, filename);
-    if (filepath === `${markdownRoot}/README.md`) {
-      return null; // Special case for the root README
-    }
-
-    if (path.extname(filename) == ".md") {
-      if (filename === 'SUMMARY.md') {
-        return null;
-      }
-      // markdown file
-      return processMarkdownFile(filepath, filename, slug);
-    } else {
-      // directory
-      return [ ...getPaths(filepath, [...slug, filename])];
-    }
-  });
-  return paths.filter(post => { return post && post });
 }
 
 function getStaticParams(slug) {
@@ -91,14 +45,13 @@ function getStaticParams(slug) {
 export default function ToolPage({ params: { slug } }) {
   const { filepath, files } = getStaticParams(slug);
 
-  let markdownWithMeta = '';
+  let tool = null
   try {
-    markdownWithMeta = fs.readFileSync(filepath, 'utf-8');
+    tool = processMarkdownFile(filepath);
   } catch (e) {
     return notFound();
   }
-  const { data: frontmatter, content } = matter(markdownWithMeta)
-  const tags = parseTags(frontmatter.description);
+  const { content, tags } = tool;
 
   return (
     <>
