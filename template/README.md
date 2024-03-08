@@ -28,10 +28,6 @@ Information on the requirement for using a tool, for instance, API key, e-mail a
 
 The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.
 
-## Last updates
-
-Information for each tool about when the tool information was last updated by Bellingcat.
-
 ## Guide
 
 https://guide.example.com
