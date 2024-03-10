@@ -16,7 +16,6 @@
   * [Misc](tools/social-media/misc.md)
   * [Multiple Networks](tools/social-media/multiple-networks.md)
 * [Image/Video](tools/image-video/README.md)
-  * [InVID](tools/image-video/invid/README.md)
   * [Reverse Image Search](tools/image-video/reverse-image-search.md)
   * [Facial Recognition](tools/image-video/facial-recognition.md)
   * [Metadata](tools/image-video/metadata.md)
