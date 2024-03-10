@@ -3,7 +3,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import {marked} from 'marked'
 import { notFound } from 'next/navigation'
-import {markdownRoot} from '@/config.js'
+import {markdownRoot, webRoot} from '@/config.js'
 import {parseTags, getPaths, processMarkdownFile} from '@/paths.js'
 import Card from '@/components/card'
 import Tags from '@/components/tags'
@@ -11,7 +11,7 @@ import Tags from '@/components/tags'
 export async function generateStaticParams(params) {
   // This function will be called at build time
   // It will generate routes based on the files in the gitbook directory
-  const pages = getPaths(markdownRoot);
+  const pages = getPaths(markdownRoot, [], markdownRoot, webRoot);
   return pages;
 }
 
@@ -31,7 +31,7 @@ function getStaticParams(slug) {
       } else {
         filepath = path.join(pathname, filename, 'README.md');
       }
-      return processMarkdownFile(filepath, filename, slug);
+      return processMarkdownFile(filepath, filename, slug, webRoot);
     }).filter(post => { return post && post });
 
     return { files, filepath: path.join(pathname, 'README.md') }
@@ -47,7 +47,7 @@ export default function ToolPage({ params: { slug } }) {
 
   let tool = null
   try {
-    tool = processMarkdownFile(filepath);
+    tool = processMarkdownFile(filepath, slug[slug.length - 1], slug, webRoot);
   } catch (e) {
     return notFound();
   }

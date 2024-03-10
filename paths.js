@@ -1,14 +1,13 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
-import {webRoot, markdownRoot} from '@/config.js'
 
 function parseTags(str) {
   if (!str) { return []; }
   return str.split(',').map((tag) => tag.trim());
 }
 
-function processMarkdownFile(filepath, filename, slug = []) {
+function processMarkdownFile(filepath, filename, slug = [], webRoot) {
   const page = filename.replace('.md', '');
   const markdownWithMeta = fs.readFileSync(filepath, 'utf-8');
   const { data: frontmatter, content } = matter(markdownWithMeta)
@@ -24,7 +23,8 @@ function processMarkdownFile(filepath, filename, slug = []) {
   };
 }
 
-function getPaths(pathname, slug = []) {
+function getPaths(pathname, slug = [], markdownRoot = 'gitbook', webRoot = '') {
+  console.log(arguments);
 
   const files = fs.readdirSync(pathname);
 
@@ -41,10 +41,10 @@ function getPaths(pathname, slug = []) {
         return null;
       }
       // markdown file
-      return processMarkdownFile(filepath, filename, slug);
+      return processMarkdownFile(filepath, filename, slug, webRoot);
     } else {
       // directory
-      return [ ...getPaths(filepath, [...slug, filename])];
+      return [ ...getPaths(filepath, [...slug, filename], markdownRoot, webRoot)];
     }
   });
   return paths.filter(post => { return post && post });
