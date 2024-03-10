@@ -10,7 +10,7 @@ description: youtube, facebook
 
 ## Description
 
-A browser extension to help journalists verify images and videos on online, including Facebook or Youtube. Twitter does not work anymore due to their change of API policy. It provides contextual data, metadata, reverse image search (Google, Yandex, Baidu), image forensics, and magnifier.&#x20;
+A browser extension to help journalists verify images and videos online, including Facebook or Youtube. Twitter does not work anymore due to their change of API policy. It provides contextual data, metadata, reverse image search (Google, Yandex, Baidu), keyframes, thumbnails, magnification.
 
 ## Is it free?
 
@@ -18,7 +18,7 @@ A browser extension to help journalists verify images and videos on online, incl
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>null</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
@@ -26,7 +26,7 @@ Internet
 
 ## Limitations & Ethical Considerations
 
-More information needed.
+Some advanced features like image forensics, OCR, and gif verification are reserved for journalists fact checkers and researchers, and you need to apply to unlock them.
 
 ## Guide
 
