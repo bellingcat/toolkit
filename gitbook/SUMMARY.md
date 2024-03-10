@@ -5,7 +5,8 @@
 ## ⚒️ Tools
 
 * [Social Media](tools/social-media/README.md)
-  * [Twitter/X](tools/social-media/twitter.md)
+  * [Twitter/X](tools/social-media/twitter/README.md)
+    * [Botometer](tools/social-media/twitter/botometer/README.md)
   * [Facebook](tools/social-media/facebook.md)
   * [Youtube](tools/social-media/youtube.md)
   * [Instagram](tools/social-media/instagram.md)
