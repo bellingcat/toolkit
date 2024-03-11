@@ -7,6 +7,7 @@
 * [Social Media](tools/social-media/README.md)
   * [Twitter/X](tools/social-media/twitter/README.md)
     * [Twitter Advanced Search](tools/social-media/twitter/twitter-advanced-search/README.md)
+    * [Twitter Location Search](tools/social-media/twitter/twitter-location-search/README.md)
     * [Twitter Audit](tools/social-media/twitter/twitter-audit/README.md)
     * [Hoaxy](tools/social-media/twitter/hoaxy/README.md)
   * [Facebook](tools/social-media/facebook.md)
