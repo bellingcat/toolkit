@@ -6,7 +6,8 @@
 
 * [Social Media](tools/social-media/README.md)
   * [Twitter/X](tools/social-media/twitter/README.md)
-    * [Botometer](tools/social-media/twitter/botometer/README.md)
+    * [Twitter Audit](tools/social-media/twitter/twitter-audit/README.md)
+    * [Hoaxy](tools/social-media/twitter/hoaxy/README.md)
   * [Facebook](tools/social-media/facebook.md)
   * [Youtube](tools/social-media/youtube.md)
   * [Instagram](tools/social-media/instagram.md)
