@@ -38,7 +38,4 @@ Not available for free anymore if you are interested in searching for tweet. You
 
 This page is last updated at 06-03-24
 
-## Updated by
-
-<table><thead><tr><th data-type="users" data-multiple></th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/M287qnNGifXoTpjOpJbwaSDYpvp2">johanna</a></td></tr><tr><td></td></tr></tbody></table>
-
+<table><thead><tr><th data-type="users" data-multiple>Updated by</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/M287qnNGifXoTpjOpJbwaSDYpvp2">johanna</a></td></tr><tr><td></td></tr></tbody></table>
