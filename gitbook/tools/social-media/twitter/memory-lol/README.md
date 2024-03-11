@@ -32,11 +32,5 @@ Public access is limited to the past 60 days. Unrestricted access is available t
 
 [Travis Brown](https://github.com/travisbrown)
 
-## Last updated
-
-This page is last updated at 11-03-24
-
-## Updated by
-
-<table><thead><tr><th data-type="users" data-multiple></th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
+<table><thead><tr><th data-type="users" data-multiple>Updated by</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr></tbody></table>
 
