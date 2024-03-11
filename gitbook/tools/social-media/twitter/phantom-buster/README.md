@@ -16,7 +16,7 @@ Scape and automate actions on most major social media platforms: Twitter, Linked
 
 ## Cost
 
-Starting from 56€/month, after a 2-week free trial
+Free to try.
 
 ## Level of difficulty
 
@@ -24,19 +24,18 @@ Starting from 56€/month, after a 2-week free trial
 
 ## Requirements
 
-A PhantomBuster account and your logged-in session cookie for Twitter (or other networks).&#x20;
+A PhantomBuster account.
 
-## Limitations
+## Limitations & Ethical Considerations
 
-The tools will use your logged-in session cookie for the social network you are accessing. Over aggressive use of the system or other bot-like behavior may get your account rate limited or banned.
+Bot-like behavior may get you rate limited or banned on the social networks you are scraping.
 
 ## Guide
 
-Detailed guides and tutorials are provided on the platform.
+https://guide.example.com
 
 ## Tool provider
 
-The Phantom Company is a for-profit business registered in Paris, France.
+PhantomBuster
 
-<table><thead><tr><th data-type="users" data-multiple>Updated by</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
-
+<table><thead><tr><th data-type="users" data-multiple>Page Maintainer</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
