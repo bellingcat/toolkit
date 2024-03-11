@@ -6,6 +6,7 @@
 
 * [Social Media](tools/social-media/README.md)
   * [Twitter/X](tools/social-media/twitter/README.md)
+    * [Twitter List Copy](tools/social-media/twitter/twitter-list-copy/README.md)
     * [Twitter Audit](tools/social-media/twitter/twitter-audit/README.md)
     * [Hoaxy](tools/social-media/twitter/hoaxy/README.md)
   * [Facebook](tools/social-media/facebook.md)
