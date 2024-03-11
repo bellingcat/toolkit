@@ -6,7 +6,7 @@ description: youtube, facebook
 
 ## URL
 
-[https://www.invid-project.eu/verify](https://www.invid-project.eu/verify)
+{% embed url="http://www.invid-project.eu/verify" %}
 
 ## Description
 

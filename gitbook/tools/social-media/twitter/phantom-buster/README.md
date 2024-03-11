@@ -14,15 +14,13 @@ Extract tweets, followers, hashtag search results, media, and likes on Twitter/X
 
 Scape and automate actions on most major social media platforms: Twitter, LinkedIn, Facebook, Instagram, Youtube, Github, Reddit, Slack
 
-&#x20;
-
 ## Cost
 
 Free to try.
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>null</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
@@ -47,4 +45,3 @@ This page is last updated at 08-03-24
 ## Updated by
 
 <table><thead><tr><th data-type="users" data-multiple></th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
-
