@@ -2,7 +2,7 @@
 
 ## URL
 
-[Twitter advanced search](http://twitter.com/search-advanced)
+[https://twitter.com/search-advanced](https://twitter.com/search-advanced)
 
 ## Description
 
