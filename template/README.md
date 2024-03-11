@@ -12,7 +12,7 @@ https://example.com
 
 Brief description of the tool, what problem does it solve, and/or an example use case
 
-## Is it free?
+## Cost
 
 * [x] Free
 
