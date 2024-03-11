@@ -4,6 +4,8 @@ description: twitter
 
 # memory.lol
 
+Seems to be broken and the github project is inactive.
+
 ## URL
 
 [https://github.com/travisbrown/memory.lol/](https://github.com/travisbrown/memory.lol/)
