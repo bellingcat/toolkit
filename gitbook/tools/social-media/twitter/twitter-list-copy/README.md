@@ -4,6 +4,8 @@ description: twitter
 
 # Twitter List Copy
 
+No longer working. [https://github.com/Noleli/listcopy/issues/13](https://github.com/Noleli/listcopy/issues/13)
+
 ## URL
 
 [https://projects.noahliebman.net/listcopy/connect.php](https://projects.noahliebman.net/listcopy/connect.php)
