@@ -14,7 +14,7 @@ Detect bot accounts in a list of Twitter followers.
 
 ## Cost
 
-Starting at $9/month to regularly audit your own followers. Higher tier plans allow auditing anyone's followers.
+TwitterAudit is not free. Plans start at $9/month to regularly audit your own followers. Higher tier plans allow auditing anyone's followers.
 
 ## Level of difficulty
 
