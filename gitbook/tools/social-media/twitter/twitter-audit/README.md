@@ -14,7 +14,7 @@ Detect bot accounts in a list of Twitter followers.
 
 ## Cost
 
-Starting at $7/month to regularly audit your own followers. Higher tier plans allow auditing anyone's followers.
+Starting at $9/month to regularly audit your own followers. Higher tier plans allow auditing anyone's followers.
 
 ## Level of difficulty
 
@@ -22,25 +22,10 @@ Starting at $7/month to regularly audit your own followers. Higher tier plans al
 
 ## Requirements
 
-
-
-## Limitations & Ethical Considerations
-
-
-
-## Guide
-
-
+Internet and a subscription plan
 
 ## Tool provider
 
 Fedica is a social media management platform which includes a variety of data analysis services.
 
-## Last updated
-
-This page is last updated at 08-03-24
-
-## Updated by
-
-<table><thead><tr><th data-type="users" data-multiple></th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
-
+<table><thead><tr><th data-type="users" data-multiple>Page Maintainer</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
