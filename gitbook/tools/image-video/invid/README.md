@@ -12,7 +12,7 @@ description: youtube, facebook
 
 A browser extension to help journalists verify images and videos online, including Facebook or Youtube. Twitter does not work anymore due to their change of API policy. It provides contextual data, metadata, reverse image search (Google, Yandex, Baidu), keyframes, thumbnails, magnification.
 
-## Is it free?
+## Cost
 
 * [x] Free
 
