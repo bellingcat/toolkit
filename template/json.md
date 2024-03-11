@@ -1,9 +1,10 @@
 # JSON
 
-{% code title="tool.json" overflow="wrap" lineNumbers="true" %}
+{% code overflow="wrap" %}
 ```json
 {
-    tags: ["tag1", "tag2", "tag3"]
+    "tags": ["tag1", "tag2", "tag3"],
+    "updatedAt": "11-03-2024"
 }
 ```
 {% endcode %}

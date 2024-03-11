@@ -36,11 +36,5 @@ https://guide.example.com
 
 Name the tool provider (and potentially info on them)
 
-## Last updated
-
-This page is last updated at 08-03-24
-
-## Updated by
-
-<table><thead><tr><th data-type="users" data-multiple></th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
+<table><thead><tr><th data-type="users" data-multiple>Page maintainer</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
 
