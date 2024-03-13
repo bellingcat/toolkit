@@ -5,7 +5,7 @@
     "name": "Name Variant Search",
     "description": "Simple tool to help search for different ways of writing a name.",
     "url": "https://bellingcat.github.io/name-variant-search/",
-    "tags": ["people", "search", "google"],
+    "tags": ["free", "people", "search", "google"],
     "updatedAt": "11-03-2024"
 }
 ```
