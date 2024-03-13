@@ -15,7 +15,6 @@
   * [Misc](categories/social-media/misc.md)
   * [Multiple Networks](categories/social-media/multiple-networks.md)
 * [Image/Video](categories/image-video/README.md)
-  * [InVID](categories/image-video/invid.md)
   * [Reverse Image Search](categories/image-video/reverse-image-search.md)
   * [Facial Recognition](categories/image-video/facial-recognition.md)
   * [Metadata](categories/image-video/metadata.md)
@@ -41,6 +40,7 @@
 ## More
 
 * [All Tools](more/all-tools/README.md)
+  * [InVID](more/all-tools/invid.md)
   * [Hoaxy](more/all-tools/hoaxy.md)
   * [Phantom Buster](more/all-tools/phantom-buster.md)
   * [Twitter Advanced Search](more/all-tools/twitter-advanced-search.md)
