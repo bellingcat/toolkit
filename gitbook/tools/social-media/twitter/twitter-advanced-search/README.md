@@ -1,4 +1,4 @@
-# Twitter Advanced Search
+# Twitter advanced search
 
 ## URL
 
@@ -6,11 +6,11 @@
 
 ## Description
 
-Twitter's built in advanced search supports filtering by keywords, hashtags, language, author, receiver,  mentions, replies, links, minimum number of replies/likes/reposts, and dates. Just open the link above and fill in the form.
+Twitter's built in advanced search supports filtering by keywords, hashtags, language, author, receiver, mentions, replies, links, minimum number of replies/likes/reposts, and dates. Just open the link above and fill in the form.
 
 ## Cost
 
-* [x] Free
+Free
 
 ## Level of difficulty
 
