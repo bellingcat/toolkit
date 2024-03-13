@@ -1,7 +1,3 @@
----
-description: tag1, tag2, tag3
----
-
 # Tool Name
 
 ## URL
@@ -15,6 +11,8 @@ Brief description of the tool, what problem does it solve, and/or an example use
 ## Cost
 
 * [x] Free
+* [ ] Partially Free
+* [ ] Paid
 
 ## Level of difficulty
 
@@ -24,17 +22,35 @@ Brief description of the tool, what problem does it solve, and/or an example use
 
 Information on the requirement for using a tool, for instance, API key, e-mail address etc.
 
-## Limitations & Ethical Considerations
+## Limitations
 
 The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.
 
+## Ethical Considerations
+
+The ethical considerations of each tool should be described.
+
 ## Guide
 
-https://guide.example.com
+Link to a guide on this tool
 
 ## Tool provider
 
 Name the tool provider (and potentially info on them)
+
+## Advertising Trackers
+
+This tool has not been checked for advertising trackers yet.
+
+OR
+
+This tool uses tracking cookies. Use with caution.
+
+OR
+
+This tool does not appear to use tracking cookies.
+
+
 
 <table><thead><tr><th data-type="users" data-multiple>Page maintainer</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
 
