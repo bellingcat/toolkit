@@ -1,7 +1,0 @@
-# JSON
-
-```
-{
-    tags: ["twitter"]
-}
-```
