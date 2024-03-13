@@ -1,16 +1,12 @@
----
-description: twitter
----
-
-# Twitter advanced search
+# Twitter Advanced Search
 
 ## URL
 
-[Twitter advanced search](http://twitter.com/search-advanced)
+[https://twitter.com/search-advanced](https://twitter.com/search-advanced)
 
 ## Description
 
-Search by date, keywords, etc.
+Twitter's built in advanced search supports filtering by keywords, hashtags, language, author, receiver,  mentions, replies, links, minimum number of replies/likes/reposts, and dates. Just open the link above and fill in the form.
 
 ## Cost
 
@@ -24,7 +20,4 @@ Search by date, keywords, etc.
 
 Twitter/X
 
-## Updated by
-
 <table><thead><tr><th data-type="users" data-multiple>Page Maintainers</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
-
