@@ -30,12 +30,10 @@ There are many legitimate reasons to use variations of one's name online. Consid
 
 ### Guide <a href="#guide" id="guide"></a>
 
-[Guide](guide.md)
+[Guide](../../tools/people/name-variant-search/guide.md)
 
 ### Tool provider <a href="#tool-provider" id="tool-provider"></a>
 
 Bellingcat
-
-
 
 <table><thead><tr><th data-type="users" data-multiple>Page Maintainer</th></tr></thead><tbody><tr><td></td></tr><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>

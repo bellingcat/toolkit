@@ -24,7 +24,7 @@ Follow Bellingcat's work:
 * [Reddit](https://www.reddit.com/r/bellingcat/)
 * [Soundcloud](https://soundcloud.com/bellingcat)
 * [Twitch](https://www.twitch.tv/bellingcat\_live)
-* [X](tools/social-media/youtube.md)
+* [X](categories/social-media/youtube.md)
 * [Youtube](https://www.youtube.com/@bellingcatofficial/videos)
 
 Bellingcat is a non-profit and the ability to carry out our work is dependent on the kind support of individual donors. If you would like to support our work, you can so [here](https://www.bellingcat.com/donate/).&#x20;
