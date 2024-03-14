@@ -41,7 +41,7 @@
 * [All Tools](more/all-tools/README.md)
   * [Hoaxy](tools/hoaxy/README.md)
   * [InVID](tools/invid/README.md)
-  * [Name Variant Search](tools/name-variant-search.md)
+  * [Name Variant Search](tools/name-variant-search/README.md)
   * [Phantom Buster](tools/phantom-buster/README.md)
   * [Twitter Advanced Search](tools/twitter-advanced-search/README.md)
   * [Twitter Location Search](tools/twitter-location-search/README.md)
