@@ -1,6 +1,0 @@
----
-description: twitter
----
-
-# Hoaxy
-
