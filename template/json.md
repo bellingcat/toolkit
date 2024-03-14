@@ -15,7 +15,7 @@ description: This is the JSON codeblock for this tool
 ```
 {% endcode %}
 
-Keep the codeblock updated with accurate information. Only edit the **values** (words to the right of the `:` on each line, in light blue font) and do not change the key names (left side, slightly darker blue) or any of the other formatting. See below for an explanation of each line.&#x20;
+Keep the codeblock updated with accurate information. Only edit the **values** (words to the right of the `:` on each line, in light blue font) and do not change the key names (left side, slightly darker blue) or any of the other formatting. Every line should end in a comma except the last line. Every key and value should be enclosed in quotation marks. See below for an explanation of each line.&#x20;
 
 ## name, description, url
 
