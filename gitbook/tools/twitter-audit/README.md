@@ -1,5 +1,5 @@
 ---
-description: twitter
+description: Detect bot accounts in a list of Twitter followers.
 ---
 
 # Twitter Audit
