@@ -1,5 +1,5 @@
 ---
-description: Search for geocoded tweets by their distance from some coordinates.
+description: twitter, location
 ---
 
 # Twitter Location Search
@@ -12,17 +12,9 @@ description: Search for geocoded tweets by their distance from some coordinates.
 
 Insert in the search box: `geocode:[coordinates],[radius-km]`
 
-Example: To see tweets within 2 kilometers of central Madrid, enter the search term
-
-`geocode:40.427544,-3.696136,2km`
-
-Click the link to see the search results:
-
-[https://twitter.com/search?geocode:40.427544,-3.696136,2km](https://twitter.com/search?geocode:40.427544,-3.696136,2km)
+Example: To see tweets around central Madrid enter `geocode:40.427544,-3.696136,2km`
 
 Only works with km, so 500m = 0.5km. Be aware that it's easy to fake a geolocation for a tweet.
-
-
 
 ## Cost
 
