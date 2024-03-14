@@ -6,7 +6,7 @@ description: youtube, facebook
 
 ## URL
 
-{% embed url="http://www.invid-project.eu/verify" %}
+[https://www.invid-project.eu/verify](https://www.invid-project.eu/verify)
 
 ## Description
 
@@ -24,7 +24,7 @@ A browser extension to help journalists verify images and videos online, includi
 
 Internet
 
-## Limitations & Ethical Considerations
+## Limitations
 
 Some advanced features like image forensics, OCR, and gif verification are reserved for journalists fact checkers and researchers, and you need to apply to unlock them.
 
@@ -38,10 +38,10 @@ InVID is organized by a consortium of European research groups and businesses, c
 
 The InVID project has received funding from the European Union’s Horizon 2020 research and innovation programme.
 
-## Last updated
+## Research on InVID
 
-This page is last updated at 08-03-24
+As part of the Bellingcat hackathon in 2023, a team of researchers investigated InVID's ability to detect synthetic images.
 
-## Updated by
+[https://github.com/PaniOpos/synthethic-disinfo-bellingcat](https://github.com/PaniOpos/synthethic-disinfo-bellingcat)
 
-<table><thead><tr><th data-type="users" data-multiple></th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
+<table><thead><tr><th data-type="users" data-multiple>Page Maintainer</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
