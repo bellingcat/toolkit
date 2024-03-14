@@ -23,7 +23,7 @@ These are self explanatory and not likely to change. They should match the infor
 
 ## tags
 
-This list of tags will determine which category pages the tool appears on. Tags should be lowercase with dashes between words and no spaces: e.g., "facial-recognition".
+This list of tags will determine which category pages the tool appears on. Tags should be lowercase with dashes between words and no spaces: e.g., "facial-recognition". Seperate tags with a comma `,`.
 
 If a tool is completely free to use, include the tag "free".
 
