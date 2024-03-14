@@ -1,12 +1,9 @@
 # Twitter/X
 
-
-
-| Name                                                                                                    | Description                                                                                                   | Cost                                                         | Details                                                    |
-| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------- |
-| [**Twitter advanced search**](http://twitter.com/search-advanced)                                       | Search twitter by keywords, accounts, engagement, dates, and more                                             | <mark style="background-color:green;">Free</mark>            | [Details](../../tools/twitter-advanced-search/README.md) |
-| [**Twitter location-based search**](https://twitter.com/search?q=geocode%3A40.427544%2C-3.696136%2C2km) | Search for geocoded tweets by their distance from some coordinates.                                           | <mark style="background-color:green;">Free</mark>            | [Details](../../tools/twitter-location-search/README.md) |
-| [**PhantomBuster**](https://phantombuster.com/)                                                         | Extract tweets, followers, hashtag results, media, and likes.                                                 | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/phantom-buster/README.md)          |
-| [**Hoaxy**](https://hoaxy.osome.iu.edu/)                                                                | Visualizes the spread of information online using the Twitter Search API. It is also possible to upload data. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/hoaxy/README.md)                   |
-| [**TwitterAudit**](https://twitteraudit.com/)                                                           | Audit your followers for fake bot accounts.                                                                   | <mark style="background-color:green;">Free</mark>            | [Details](../../tools/twitter-audit/README.md)           |
-| [**Twitter Video Downloader**](https://twittervideodownloader.com/)                                     | Download videos from tweets in multiple resolutions.                                                          | <mark style="background-color:green;">Free</mark>            |                                                            |
+| Name | Description | Cost | Details |
+| --- | --- | --- | --- |
+| [**PhantomBuster**](https://phantombuster.com) | Scrape content and automate actions on social media |  | [Details](/more/all-tools/phantom-buster) |
+| [**Twitter advanced search**](http://twitter.com/search-advanced) | Search twitter by keywords, accounts, engagement, dates, and more |  | [Details](/more/all-tools/twitter-advanced-search) |
+| [**Twitter Audit**](https://twitteraudit.com/) | Audit your followers for bots | <mark style="background-color:red;">Paid</mark> | [Details](/more/all-tools/twitter-audit) |
+| [**Twitter Location Search**](undefined) | Search for geocoded tweets by their distance from some coordinates. |  | [Details](/more/all-tools/twitter-location-search) |
+| [**Twitter Video Downloader**](https://twittervideodownloader.com/) | A brief one-line description. |  | [Details](/more/all-tools/twitter-video-downloader) |
