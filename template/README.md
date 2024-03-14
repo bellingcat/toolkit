@@ -1,3 +1,7 @@
+---
+description: A brief, one line description of this tool
+---
+
 # Tool Name
 
 ## URL
@@ -6,13 +10,15 @@ https://example.com
 
 ## Description
 
-Brief description of the tool, what problem does it solve, and/or an example use case
+A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case?
 
 ## Cost
 
 * [x] Free
 * [ ] Partially Free
 * [ ] Paid
+
+Pricing or subscription information, if relevant.
 
 ## Level of difficulty
 
@@ -40,17 +46,9 @@ Name the tool provider (and potentially info on them)
 
 ## Advertising Trackers
 
-This tool has not been checked for advertising trackers yet.
-
-OR
-
-This tool uses tracking cookies. Use with caution.
-
-OR
-
-This tool does not appear to use tracking cookies.
-
-
+* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool does not appear to use tracking cookies.
 
 <table><thead><tr><th data-type="users" data-multiple>Page maintainer</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
 
