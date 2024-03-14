@@ -30,12 +30,12 @@ There are many legitimate reasons to use variations of one's name online. Consid
 
 ### Guide <a href="#guide" id="guide"></a>
 
-[Guide](guide.md)
+Enter a name and press enter. Add suggested variants to refine results. Use the checkboxes to filter by site.
+
+<figure><img src=".gitbook/assets/Screenshot 2024-01-25 at 16.58.10.png" alt=""><figcaption></figcaption></figure>
 
 ### Tool provider <a href="#tool-provider" id="tool-provider"></a>
 
 Bellingcat
-
-
 
 <table><thead><tr><th data-type="users" data-multiple>Page Maintainer</th></tr></thead><tbody><tr><td></td></tr><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
