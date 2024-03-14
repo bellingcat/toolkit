@@ -1,5 +1,5 @@
 ---
-description: people, free, bellingcat
+description: Simple tool to help search for different ways of writing a name.
 ---
 
 # Name Variant Search
