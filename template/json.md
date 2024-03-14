@@ -15,7 +15,7 @@ description: This is the JSON codeblock for this tool
 ```
 {% endcode %}
 
-Keep the codeblock updated with accurate information. Only edit the **values** (words to the right of the `:` on each line, in light blue font) and do not change the key names (left side, slightly darker blue). See below for an explanation of each line.&#x20;
+Keep the codeblock updated with accurate information. Only edit the **values** (words to the right of the `:` on each line, in light blue font) and do not change the key names (left side, slightly darker blue) or any of the other formatting. See below for an explanation of each line.&#x20;
 
 ## name, description, url
 
