@@ -3,7 +3,6 @@
 
 
 ```json
-// Some code
 {
     "name": "InVID",
     "description": "Verification plugin to help journalists verify images and videos.",
