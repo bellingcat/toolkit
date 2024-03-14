@@ -1,5 +1,5 @@
 ---
-description: Simple tool to help search for different ways of writing a name
+description: people, free, bellingcat
 ---
 
 # Name Variant Search
@@ -26,7 +26,7 @@ Internet
 
 ### Ethical Considerations <a href="#limitations-and-ethical-considerations" id="limitations-and-ethical-considerations"></a>
 
-There are many legitimate reasons to use variations of one's name online. Consider the privacy and safety of your research subjects when publishing.&#x20;
+There are many legitimate reasons to use variations of one's name online. Consider the ethical implications of
 
 ### Guide <a href="#guide" id="guide"></a>
 
@@ -35,5 +35,7 @@ There are many legitimate reasons to use variations of one's name online. Consid
 ### Tool provider <a href="#tool-provider" id="tool-provider"></a>
 
 Bellingcat
+
+
 
 <table><thead><tr><th data-type="users" data-multiple>Page Maintainer</th></tr></thead><tbody><tr><td></td></tr><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>

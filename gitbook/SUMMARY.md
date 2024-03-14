@@ -39,7 +39,7 @@
 ## More
 
 * [All Tools](more/all-tools/README.md)
-  * [Hoaxy](tools/hoaxy/README.md)
+  * [Hoaxy](more/all-tools/hoaxy.md)
   * [InVID](tools/invid/README.md)
   * [Name Variant Search](tools/name-variant-search/README.md)
   * [Phantom Buster](tools/phantom-buster/README.md)
