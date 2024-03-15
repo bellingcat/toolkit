@@ -1,5 +1,5 @@
 ---
-description: Visualize the spread of claims and factchecking.
+description: twitter
 ---
 
 # Hoaxy
@@ -12,11 +12,11 @@ description: Visualize the spread of claims and factchecking.
 
 Visualize the spread of claims and factchecking.
 
-## Cost
+## Is it free?
 
-* [x] Partially Free
+* [x] Free
 
-Twitter live search not free anymore but it is possible to upload own data
+partially: Twitter live search not free anymore but it is possible to upload own data
 
 ## Level of difficulty
 
