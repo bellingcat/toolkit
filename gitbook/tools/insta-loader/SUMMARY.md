@@ -1,3 +1,4 @@
 # Table of contents
 
-* [Page](README.md)
+* [InstaLoader](README.md)
+* [JSON](json.md)
