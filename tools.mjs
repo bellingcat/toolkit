@@ -2,25 +2,42 @@ import fs from 'fs';
 
 /* Example
 createTool({
-  name: 'InstaLoader',
+  name: 'Tool Name',
+  description: 'A brief one-line description of the tool.',
+  tags: ['category'],
+  url: 'https://example.com',
+  cost: 'Free',
+});
+createTool({
+  name: 'Insta Loader',
   description: 'Download pictures (or videos) along with their captions and other metadata from Instagram.',
   tags: ['instagram'],
   url: 'https://instaloader.github.io/',
+  cost: 'Free',
 });
 */
 
+function toolToJson(tool) {
+  const json = JSON.stringify(tool, null, 2);
+  const jsonTemplate = fs.readFileSync('template/json.md', 'utf-8');
+  return jsonTemplate.replace(/```(json)?\n([\s\S]+)\n```/, '```json\n'+json+'\n```');
+}
+
+function toolToReadme(tool) {
+  const template = fs.readFileSync('template/README.md', 'utf-8');
+  return template.
+    replace("# Tool Name", `# ${tool.name}`).
+    replace(/description: .*/g, `description: ${tool.description}`).
+    replace("https://example.com", tool.url);
+}
 function createTool(tool) {
   const { name, tags } = tool;
   console.log('Creating tool', name);
   const slug = name.toLowerCase().replace(/\s/g, '-');
   const pathname = `gitbook/tools/${slug}`;
   fs.mkdirSync(pathname, { recursive: true });
-  fs.copyFileSync('template/README.md', `${pathname}/README.md`);
-
-  const json = JSON.stringify(tool, null, 2);
-  const jsonTemplate = fs.readFileSync('template/json.md', 'utf-8');
-  const markdown = jsonTemplate.replace(/```(json)?\n([\s\S]+)\n```/, '```json\n'+json+'\n```');
-  fs.writeFileSync(`${pathname}/json.md`, markdown);
+  fs.writeFileSync(`${pathname}/json.md`, toolToJson(tool));
+  fs.writeFileSync(`${pathname}/README.md`, toolToReadme(tool));
 }
 
 async function createToolOnGitbook(name) {
