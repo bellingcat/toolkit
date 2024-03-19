@@ -60,7 +60,15 @@ function renderCost(cost) {
   }
 }
 
+function getSummary(pathname) {
+  return fs.readFileSync(path.join(pathname, 'SUMMARY.md'), 'utf-8');
+}
+
 function renderRelativeLink(category, tool) {
+  const summary = getSummary('gitbook');
+  if (!summary.match(path.relative('gitbook/', tool.filepath))) {
+    return null;
+  }
   return path.relative(path.dirname(category.filepath), tool.filepath);
 }
 
