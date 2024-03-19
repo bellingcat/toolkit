@@ -7,7 +7,8 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "InstaLoader",
+  "name": "Insta Loader",
+  "description": "Download pictures (or videos) along with their captions and other metadata from Instagram.",
   "tags": [
     "instagram"
   ],

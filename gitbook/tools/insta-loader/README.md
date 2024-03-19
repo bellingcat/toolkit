@@ -1,8 +1,8 @@
 ---
-description: A brief, one line description of this tool
+description: Download pictures (or videos) along with their captions and other metadata from Instagram.
 ---
 
-# InstaLoader
+# Insta Loader
 
 ## URL
 
