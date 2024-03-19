@@ -16,6 +16,8 @@ Scape and automate actions on most major social media platforms: Twitter, Linked
 
 ## Cost
 
+* [x] Partially Free
+
 Free to try.
 
 ## Level of difficulty

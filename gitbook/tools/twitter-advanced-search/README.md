@@ -14,7 +14,7 @@ Twitter's built in advanced search supports filtering by keywords, hashtags, lan
 
 ## Cost
 
-Free
+* [x] Free
 
 ## Level of difficulty
 
