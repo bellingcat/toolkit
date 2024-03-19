@@ -7,8 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-    "name": "Tool Name",
-    "description": "A brief one-line description.",
     "url": "https://example.com",
     "tags": ["tag1", "tag2", "tag3"]
 }
