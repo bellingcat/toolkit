@@ -7,12 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Insta Loader",
-  "description": "Download pictures (or videos) along with their captions and other metadata from Instagram.",
+  "name": "Story Saver",
+  "description": "Download public Instagram Stories, Highlights and Videos.",
   "tags": [
     "instagram"
   ],
-  "url": "https://instaloader.github.io/"
+  "url": "https://storysaver.net/",
   "cost": "Free"
 }
 ```

@@ -1,7 +1,8 @@
 # Instagram
 
-| Name                                                                                            | Description                                                                                                                                                                                                            | Free? |
-| ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
-| [InstaLoader](https://github.com/instaloader/instaloader)                                       | GitHub - scrape information from public accounts. Does not use the official API, and allows downloading pictures and videos along with their captions and other metadata from Instagram. Similar to twint for Twitter. | yes   |
-| [StorySaver](https://www.storysaver.net/)                                                       | Download public Instagram Stories, Highlights and Videos.                                                                                                                                                              | yes   |
-| [Bellingcat Insta Location Search](https://github.com/bellingcat/telegram-phone-number-checker) | Github - Finds Instagram location IDs near a specified latitude and longitude                                                                                                                                          | yes   |
+| Name | Description | Cost | Details |
+| --- | --- | --- | --- |
+| [**Bellingcat Insta Location Search**](https://github.com/bellingcat/telegram-phone-number-checker) | Finds Instagram location IDs near a specified latitude and longitude | <mark style="background-color:green;">Free</mark> | [Details](../../tools/bellingcat-insta-location-search/README.md) |
+| [**Insta Loader**](https://github.com/instaloader/instaloader) | Download pictures (or videos) along with their captions and other metadata from Instagram. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/insta-loader/README.md) |
+| [**Phantom Buster**](https://phantombuster.com) | Scrape content and automate actions on social media | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/phantom-buster/README.md) |
+| [**Story Saver**](https://storysaver.net/) | Download public Instagram Stories, Highlights and Videos. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/story-saver/README.md) |

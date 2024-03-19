@@ -7,12 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Insta Loader",
-  "description": "Download pictures (or videos) along with their captions and other metadata from Instagram.",
+  "name": "Bellingcat Insta Location Search",
+  "description": "Finds Instagram location IDs near a specified latitude and longitude",
   "tags": [
     "instagram"
   ],
-  "url": "https://instaloader.github.io/"
+  "url": "https://github.com/bellingcat/telegram-phone-number-checker",
   "cost": "Free"
 }
 ```
