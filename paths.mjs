@@ -29,7 +29,7 @@ function processMarkdownFile(filepath, filename, slug = [], webRoot) {
   const cost = (content.match(/\[x\] Partially Free/) && 'Partially Free') || (content.match(/\[x\] Free/) && 'Free') || (content.match(/\[x\] Paid/) && 'Paid') || null;
 
   // get JSON data from JSON.md if it exists
-  const jsonFilePath = filepath.replace('README.md', 'JSON.md');
+  const jsonFilePath = filepath.replace('README.md', 'json.md');
   const json = markdownToJson(jsonFilePath);
 
   if (page !== 'README') {
