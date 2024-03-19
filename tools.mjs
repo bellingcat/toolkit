@@ -3,6 +3,7 @@ import fs from 'fs';
 /* Example
 createTool({
   name: 'InstaLoader',
+  description: 'Download pictures (or videos) along with their captions and other metadata from Instagram.',
   tags: ['instagram'],
   url: 'https://instaloader.github.io/',
 });
