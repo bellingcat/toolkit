@@ -8,13 +8,6 @@ createTool({
   url: 'https://example.com',
   cost: 'Free',
 });
-createTool({
-  name: 'Insta Loader',
-  description: 'Download pictures (or videos) along with their captions and other metadata from Instagram.',
-  tags: ['instagram'],
-  url: 'https://instaloader.github.io/',
-  cost: 'Free',
-});
 */
 
 function toolToJson(tool) {
@@ -81,3 +74,4 @@ async function createTeam(name) {
   });
   const data = await response.json();
 }
+export default { createTool, createToolOnGitbook };
