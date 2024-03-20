@@ -14,7 +14,6 @@ description: This is the JSON codeblock for this tool
   "tags": [
     "telegram"
   ],
-  "guide": "[How to Archive Telegram Content to Document Russia's Invasion of Ukraine](https://www.bellingcat.com/resources/how-tos/2022/03/08/how-to-archive-telegram-content-to-document-russias-invasion-of-ukraine/) "
 }
 ```
 {% endcode %}
