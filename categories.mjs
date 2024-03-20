@@ -67,6 +67,9 @@ function getSummary(pathname) {
 function renderRelativeLink(category, tool) {
   const summary = getSummary('gitbook');
   if (!summary.match(path.relative('gitbook/', tool.filepath))) {
+    if (tool.guide) {
+      return `[Guide](${tool.guide})`;
+    }
     return '';
   }
   return `[Details](${path.relative(path.dirname(category.filepath), tool.filepath)})`;
