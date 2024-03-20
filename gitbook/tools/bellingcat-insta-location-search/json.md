@@ -10,7 +10,8 @@ description: This is the JSON codeblock for this tool
   "name": "Bellingcat Insta Location Search",
   "description": "Finds Instagram location IDs near a specified latitude and longitude",
   "tags": [
-    "instagram"
+    "instagram",
+    "most-used"
   ],
   "url": "https://github.com/bellingcat/instagram-location-search",
   "cost": "Free"
