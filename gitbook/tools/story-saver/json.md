@@ -12,7 +12,7 @@ description: This is the JSON codeblock for this tool
   "tags": [
     "instagram"
   ],
-  "url": "https://storysaver.net/",
+  "url": "https://storysaver.net",
   "cost": "Free"
 }
 ```

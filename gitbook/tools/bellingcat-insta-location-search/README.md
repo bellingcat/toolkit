@@ -6,7 +6,7 @@ description: Finds Instagram location IDs near a specified latitude and longitud
 
 ## URL
 
-https://github.com/bellingcat/telegram-phone-number-checker
+https://github.com/bellingcat/instagram-location-search
 
 ## Description
 

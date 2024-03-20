@@ -6,7 +6,7 @@ description: Download pictures (or videos) along with their captions and other m
 
 ## URL
 
-https://instaloader.github.io/
+https://instaloader.github.io
 
 ## Description
 

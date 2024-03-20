@@ -6,7 +6,7 @@ description: Download public Instagram Stories, Highlights and Videos.
 
 ## URL
 
-https://storysaver.net/
+https://storysaver.net
 
 ## Description
 

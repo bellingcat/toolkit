@@ -12,7 +12,7 @@ description: This is the JSON codeblock for this tool
   "tags": [
     "instagram"
   ],
-  "url": "https://github.com/bellingcat/telegram-phone-number-checker",
+  "url": "https://github.com/bellingcat/instagram-location-search",
   "cost": "Free"
 }
 ```
