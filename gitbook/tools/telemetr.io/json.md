@@ -13,7 +13,7 @@ description: This is the JSON codeblock for this tool
   "cost": "Free",
   "tags": [
     "telegram"
-  ],
+  ]
 }
 ```
 {% endcode %}
