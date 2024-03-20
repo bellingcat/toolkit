@@ -19,7 +19,7 @@ function getTools(pathname) {
 }
 
 const tools = getTools('gitbook/tools');
-const whitelist = ['twitter', 'instagram']; // only twitter for now
+const whitelist = ['twitter', 'instagram', 'facebook']; // only twitter for now
 
 getPaths('gitbook/categories').filter((category) => {
   const tag = category.slug.slice(-1)[0];
