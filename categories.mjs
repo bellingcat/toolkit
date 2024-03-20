@@ -39,7 +39,7 @@ getPaths('gitbook/categories').filter((category) => {
 });
 
 function renderCategory(category, categoryTools = []) {
-  return renderTitle(category) + renderTable(categoryTools);
+  return renderTitle(category) + renderTable(categoryTools, category);
 }
 function renderTitle(category) {
   return `# ${category.title}\n\n`;
@@ -67,15 +67,15 @@ function getSummary(pathname) {
 function renderRelativeLink(category, tool) {
   const summary = getSummary('gitbook');
   if (!summary.match(path.relative('gitbook/', tool.filepath))) {
-    return null;
+    return '';
   }
-  return path.relative(path.dirname(category.filepath), tool.filepath);
+  return `[Details](${path.relative(path.dirname(category.filepath), tool.filepath)})`;
 }
 
-function renderTable(data) {
+function renderTable(tools, category) {
   return (
-    "| Name | Description | Cost | Details |\n| --- | --- | --- | --- |\n" + data.map((row) => { 
-      return `| [**${row.title}**](${row.url}) | ${row.description} | ${renderCost(row.cost)} | [Details](${row.rel}) |`
+    "| Name | Description | Cost | Details |\n| --- | --- | --- | --- |\n" + tools.map((row) => {
+      return `| [**${row.title}**](${row.url}) | ${row.description} | ${renderCost(row.cost)} | ${renderRelativeLink(category, row)} |`
     }).join("\n")
   );
 }
