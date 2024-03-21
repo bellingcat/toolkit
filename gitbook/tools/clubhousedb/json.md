@@ -8,7 +8,8 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "clubhouse"
+    "clubhouse",
+    "other-networks"
   ],
   "name": "ClubhouseDB",
   "url": "https://clubhousedb.com/",

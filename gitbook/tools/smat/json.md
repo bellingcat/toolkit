@@ -13,11 +13,12 @@ description: This is the JSON codeblock for this tool
     "gab",
     "gettr",
     "parler",
-    "multiple-networks"
+    "multiple-networks",
+    "other-networks"
   ],
   "name": "SMAT",
   "url": "https://www.smat-app.com",
-  "description": "Search messages, count links, see activity & timeline",
+  "description": "Search messages, count links, see activity & timeline of a search term on Gab, Parler, 4chan, 8kun, .win, poal, telegram, Gettr, Bitchute, Tiktok",
   "cost": "Free"
 }
 ```

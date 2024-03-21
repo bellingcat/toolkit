@@ -11,7 +11,8 @@ description: This is the JSON codeblock for this tool
     "vkontakte",
     "odnoklassniki",
     "tiktok",
-    "clubhouse"
+    "clubhouse",
+    "other-networks"
   ],
   "name": "Search4Faces",
   "url": "https://search4faces.com",

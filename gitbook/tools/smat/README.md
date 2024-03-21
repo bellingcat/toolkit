@@ -1,5 +1,5 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: Search messages, count links, see activity & timeline of a search term on Gab, Parler, 4chan, 8kun, .win, poal, telegram, Gettr, Bitchute, Tiktok
 ---
 
 # SMAT

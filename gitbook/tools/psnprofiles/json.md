@@ -8,11 +8,12 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "playstation"
+    "playstation",
+    "other-networks"
   ],
   "name": "PSNprofiles",
   "url": "https://psnprofiles.com/",
-  "description": "Search username, see daily activity, games played, country, and profile pic",
+  "description": "Search PlayStation username, see daily activity, games played, country, and profile pic",
   "cost": "Free"
 }
 ```

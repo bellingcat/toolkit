@@ -8,7 +8,8 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "4chan"
+    "4chan",
+    "other-networks"
   ],
   "name": "4plebs",
   "url": "https://4plebs.org/",

@@ -8,7 +8,8 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "skype"
+    "skype",
+    "other-networks"
   ],
   "name": "Skypli",
   "url": "https://www.skypli.com/",

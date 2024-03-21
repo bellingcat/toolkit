@@ -8,11 +8,12 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "minecraft"
+    "minecraft",
+    "other-networks"
   ],
   "name": "NameMC",
   "url": "https://namemc.com/",
-  "description": "Find usernames, track username changes",
+  "description": "Find usernames, track username changes on minecraft",
   "cost": "Free"
 }
 ```

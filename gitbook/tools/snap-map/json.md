@@ -8,7 +8,8 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "snapchat"
+    "snapchat",
+    "other-networks"
   ],
   "name": "Snap Map",
   "url": "http://map.snapchat.com/",

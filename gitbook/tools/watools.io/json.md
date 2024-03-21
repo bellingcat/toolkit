@@ -8,7 +8,8 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "whatsapp"
+    "whatsapp",
+    "other-networks"
   ],
   "name": "WAtools.io",
   "url": "http://watools.io/",

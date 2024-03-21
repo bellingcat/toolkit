@@ -15,7 +15,7 @@
   * [Twitter/X](categories/social-media/twitter.md)
   * [Vkontakte](categories/social-media/vkontakte.md)
   * [Youtube](categories/social-media/youtube.md)
-  * [Other Networks](categories/social-media/misc.md)
+  * [Other Networks](categories/social-media/other-networks.md)
   * [Multiple Networks](categories/social-media/multiple-networks.md)
 * [Image/Video](categories/image-video/README.md)
   * [Reverse Image Search](categories/image-video/reverse-image-search.md)

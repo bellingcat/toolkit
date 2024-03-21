@@ -1,5 +1,5 @@
 ---
-description: Find usernames, track username changes
+description: Find usernames, track username changes on minecraft
 ---
 
 # NameMC

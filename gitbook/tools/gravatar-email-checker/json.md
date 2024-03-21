@@ -8,9 +8,10 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "gravatar"
+    "gravatar",
+    "other-networks"
   ],
-  "name": "Email Checker",
+  "name": "Gravatar Email Checker",
   "url": "https://en.gravatar.com/site/check/",
   "description": "Check if an email address has been used to comment on blogs and whether there is a profile image attached.",
   "cost": "Free"

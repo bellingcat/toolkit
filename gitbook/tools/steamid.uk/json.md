@@ -8,7 +8,8 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "steam"
+    "steam",
+    "other-networks"
   ],
   "name": "SteamId.uk",
   "url": "http://steamid.uk/",

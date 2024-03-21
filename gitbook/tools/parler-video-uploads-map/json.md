@@ -8,7 +8,8 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "parler"
+    "parler",
+    "other-networks"
   ],
   "name": "Parler Video Uploads Map",
   "url": "https://kylemcdonald.net/parler/map/",

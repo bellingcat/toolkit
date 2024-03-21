@@ -2,7 +2,7 @@
 description: Check if an email address has been used to comment on blogs and whether there is a profile image attached.
 ---
 
-# Email Checker
+# Gravatar Email Checker
 
 ## URL
 

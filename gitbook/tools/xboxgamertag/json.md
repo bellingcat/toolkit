@@ -8,7 +8,8 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "xbox"
+    "xbox",
+    "other-networks"
   ],
   "name": "XboxGamertag",
   "url": "https://xboxgamertag.com/",
