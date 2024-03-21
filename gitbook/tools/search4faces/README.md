@@ -1,5 +1,5 @@
 ---
-description:  Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse) 
+description: Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse)
 ---
 
 # Search4Faces

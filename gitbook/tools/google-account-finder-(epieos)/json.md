@@ -12,7 +12,7 @@ description: This is the JSON codeblock for this tool
   ],
   "name": "Google Account Finder (EPIEOS)",
   "url": "https://tools.epieos.com/google-account.php",
-  "description": "Find the profile picture and public Google Map Reviews + Photos associated with a G-mail adress. Also checks for phone numbers, and checks for email addresses on social networks ",
+  "description": "Find the profile picture and public Google Map Reviews + Photos associated with a G-mail adress. Also checks for phone numbers, and checks for email addresses on social networks",
   "cost": "Free"
 }
 ```

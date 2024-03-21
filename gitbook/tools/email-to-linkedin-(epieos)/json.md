@@ -8,7 +8,7 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "linkedIn"
+    "linkedin"
   ],
   "name": "Email to LinkedIn (Epieos)",
   "url": "https://tools.epieos.com/linkedin.php",
