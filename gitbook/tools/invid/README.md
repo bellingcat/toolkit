@@ -6,7 +6,7 @@ description: youtube, facebook
 
 ## URL
 
-[https://www.invid-project.eu/verify](https://www.invid-project.eu/verify)
+{% embed url="http://www.invid-project.eu/verify" %}
 
 ## Description
 
@@ -38,4 +38,10 @@ InVID is organized by a consortium of European research groups and businesses, c
 
 The InVID project has received funding from the European Union’s Horizon 2020 research and innovation programme.
 
-<table><thead><tr><th data-type="users" data-multiple>Page Maintainers</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
+## Last updated
+
+This page is last updated at 08-03-24
+
+## Updated by
+
+<table><thead><tr><th data-type="users" data-multiple></th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
