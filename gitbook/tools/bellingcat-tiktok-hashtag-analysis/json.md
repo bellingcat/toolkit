@@ -12,7 +12,8 @@ description: This is the JSON codeblock for this tool
   "description": "Github - Bellingcat built - Helps to download posts and videos from TikTok for a given set of hashtags over a period of time.",
   "cost": "Free",
   "tags": [
-    "tiktok"
+    "tiktok",
+    "most-used"
   ],
   "guide": "[This New Tool Lets You Analyse TikTok Hashtags](https://www.bellingcat.com/resources/how-tos/2022/05/11/this-new-tool-lets-you-analyse-tiktok-hashtags/)                                             "
 }
