@@ -5,6 +5,7 @@
 | [**Bellingcat Phonenumber Check**](https://github.com/bellingcat/telegram-phone-number-checker) | Github - check whether a specific phone number is connected to a Telegram account. | <mark style="background-color:green;">Free</mark> |  |
 | [**Geogramint**](https://github.com/Alb-310/Geogramint) | Github - Find Telegram groups and users near a geographical location | <mark style="background-color:green;">Free</mark> |  |
 | [**Intelligence X Telegram Search**](https://intelx.io/tools?tab=telegram) | Google-based search engine for Telegram (includes Telegago) | <mark style="background-color:green;">Free</mark> |  |
+| [**snscrape**](https://github.com/JustAnotherArchivist/snscrape) | Comand-line tool for scraping multiple social media platforms without using official API, especially Twitter and Telegram | <mark style="background-color:green;">Free</mark> |  |
 | [**Telegago**](http://bit.ly/telegago) | Google-based search engine for Telegram. | <mark style="background-color:green;">Free</mark> |  |
 | [**TelegramDB**](http://telegramdb.org/) | Database of Telegram channels | <mark style="background-color:green;">Free</mark> |  |
 | [**Telemetr.io**](http://telemetr.io/) | Telegram channel analytics | <mark style="background-color:green;">Free</mark> |  |
