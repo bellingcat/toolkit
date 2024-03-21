@@ -8,14 +8,11 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "vkontakte",
-    "odnoklassniki",
-    "tiktok",
-    "clubhouse"
+    "reddit"
   ],
-  "name": "Search4Faces",
-  "url": "https://search4faces.com",
-  "description": " Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse) ",
+  "name": "Redective",
+  "url": "https://www.redective.com/",
+  "description": "Analyse Reddit profiles - incl word frequency and active hours",
   "cost": "Free"
 }
 ```

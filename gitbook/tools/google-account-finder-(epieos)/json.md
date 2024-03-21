@@ -8,14 +8,11 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "vkontakte",
-    "odnoklassniki",
-    "tiktok",
-    "clubhouse"
+    "google"
   ],
-  "name": "Search4Faces",
-  "url": "https://search4faces.com",
-  "description": " Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse) ",
+  "name": "Google Account Finder (EPIEOS)",
+  "url": "https://tools.epieos.com/google-account.php",
+  "description": "Find the profile picture and public Google Map Reviews + Photos associated with a G-mail adress. Also checks for phone numbers, and checks for email addresses on social networks ",
   "cost": "Free"
 }
 ```

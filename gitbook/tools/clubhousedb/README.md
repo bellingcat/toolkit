@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: Search users, number of followers/following, and date of registry
 ---
 
-# SMAT
+# ClubhouseDB
 
 ## URL
 
-https://www.smat-app.com
+https://clubhousedb.com/
 
 ## Description
 

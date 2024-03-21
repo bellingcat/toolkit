@@ -8,14 +8,11 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "vkontakte",
-    "odnoklassniki",
-    "tiktok",
-    "clubhouse"
+    "vkontakte"
   ],
-  "name": "Search4Faces",
-  "url": "https://search4faces.com",
-  "description": " Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse) ",
+  "name": "Bellingcat VK Scraper",
+  "url": "https://github.com/bellingcat/vk-url-scraper",
+  "description": "Github - scrape data, and especially media links like videos and photos, from vk.com URLs.",
   "cost": "Free"
 }
 ```

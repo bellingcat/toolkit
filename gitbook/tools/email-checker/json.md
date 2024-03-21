@@ -8,14 +8,11 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "vkontakte",
-    "odnoklassniki",
-    "tiktok",
-    "clubhouse"
+    "gravatar"
   ],
-  "name": "Search4Faces",
-  "url": "https://search4faces.com",
-  "description": " Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse) ",
+  "name": "Email Checker",
+  "url": "https://en.gravatar.com/site/check/",
+  "description": "Check if an email address has been used to comment on blogs and whether there is a profile image attached.",
   "cost": "Free"
 }
 ```

@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: See public comments left by an account, profile photos used, and very basic facial recognition
 ---
 
-# SMAT
+# Vk.watch
 
 ## URL
 
-https://www.smat-app.com
+http://vk.watch/
 
 ## Description
 

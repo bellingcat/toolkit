@@ -8,14 +8,11 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "vkontakte",
-    "odnoklassniki",
-    "tiktok",
-    "clubhouse"
+    "minecraft"
   ],
-  "name": "Search4Faces",
-  "url": "https://search4faces.com",
-  "description": " Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse) ",
+  "name": "NameMC",
+  "url": "https://namemc.com/",
+  "description": "Find usernames, track username changes",
   "cost": "Free"
 }
 ```

@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description:  Lookup player names, view (more) previously used names, and when accounts befriended eachother (Free). View screenshots of account, (bulk) seach based on previously used names (paid). 
 ---
 
-# SMAT
+# SteamId.uk
 
 ## URL
 
-https://www.smat-app.com
+http://steamid.uk/
 
 ## Description
 

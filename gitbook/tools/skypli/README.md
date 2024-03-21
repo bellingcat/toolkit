@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: undefined
 ---
 
-# SMAT
+# Skypli
 
 ## URL
 
-https://www.smat-app.com
+https://www.skypli.com/
 
 ## Description
 

@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: Search gamertags, see games played and recorded game clips
 ---
 
-# SMAT
+# XboxGamertag
 
 ## URL
 
-https://www.smat-app.com
+https://xboxgamertag.com/
 
 ## Description
 

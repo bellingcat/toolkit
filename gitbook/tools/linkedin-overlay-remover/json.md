@@ -8,14 +8,11 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "vkontakte",
-    "odnoklassniki",
-    "tiktok",
-    "clubhouse"
+    "linkedin"
   ],
-  "name": "Search4Faces",
-  "url": "https://search4faces.com",
-  "description": " Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse) ",
+  "name": "LinkedIn Overlay Remover",
+  "url": "http://addons.mozilla.org/nl/firefox/addon/linkedin-overlay-remover/",
+  "description": "Removes the overlay that displays over a linkedin profile.",
   "cost": "Free"
 }
 ```

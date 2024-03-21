@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: Find usernames, track username changes
 ---
 
-# SMAT
+# NameMC
 
 ## URL
 
-https://www.smat-app.com
+https://namemc.com/
 
 ## Description
 

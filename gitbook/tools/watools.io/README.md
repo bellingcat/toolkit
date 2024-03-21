@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: Track whatsapp activity, number, profile picture
 ---
 
-# SMAT
+# WAtools.io
 
 ## URL
 
-https://www.smat-app.com
+http://watools.io/
 
 ## Description
 

@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: A map showing the approximate (100ft) location of where Parler videos have been uploaded.
 ---
 
-# SMAT
+# Parler Video Uploads Map
 
 ## URL
 
-https://www.smat-app.com
+https://kylemcdonald.net/parler/map/
 
 ## Description
 

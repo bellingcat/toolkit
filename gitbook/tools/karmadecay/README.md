@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: Reverse image search for Reddit
 ---
 
-# SMAT
+# KarmaDecay
 
 ## URL
 
-https://www.smat-app.com
+http://karmadecay.com/
 
 ## Description
 

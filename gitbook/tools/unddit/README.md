@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: Display removed (by mods) and deleted (by users) comments/posts for Reddit.
 ---
 
-# SMAT
+# Unddit
 
 ## URL
 
-https://www.smat-app.com
+https://www.unddit.com/
 
 ## Description
 

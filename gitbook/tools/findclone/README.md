@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: Searches images from VK profiles (within certain limits)
 ---
 
-# SMAT
+# FindClone
 
 ## URL
 
-https://www.smat-app.com
+https://findclone.ru/
 
 ## Description
 

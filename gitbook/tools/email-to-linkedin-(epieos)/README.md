@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: Check if an email address is connected to a LinkedIn Profile
 ---
 
-# SMAT
+# Email to LinkedIn (Epieos)
 
 ## URL
 
-https://www.smat-app.com
+https://tools.epieos.com/linkedin.php
 
 ## Description
 

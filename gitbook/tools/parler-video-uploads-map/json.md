@@ -8,14 +8,11 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "vkontakte",
-    "odnoklassniki",
-    "tiktok",
-    "clubhouse"
+    "parler"
   ],
-  "name": "Search4Faces",
-  "url": "https://search4faces.com",
-  "description": " Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse) ",
+  "name": "Parler Video Uploads Map",
+  "url": "https://kylemcdonald.net/parler/map/",
+  "description": "A map showing the approximate (100ft) location of where Parler videos have been uploaded.",
   "cost": "Free"
 }
 ```

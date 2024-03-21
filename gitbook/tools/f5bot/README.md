@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: Sends you an email when a keyword is mentioned on Reddit.
 ---
 
-# SMAT
+# F5Bot
 
 ## URL
 
-https://www.smat-app.com
+https://f5bot.com/
 
 ## Description
 

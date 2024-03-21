@@ -8,15 +8,13 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "vkontakte",
-    "odnoklassniki",
-    "tiktok",
-    "clubhouse"
+    "snapchat"
   ],
-  "name": "Search4Faces",
-  "url": "https://search4faces.com",
-  "description": " Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse) ",
-  "cost": "Free"
+  "name": "Snap Map",
+  "url": "http://map.snapchat.com/",
+  "description": "Searchable map of geotagged snaps.",
+  "cost": "Free",
+  "guide": " [Here’s how](https://twitter.com/AricToler/status/1054805284802228224) you download a Snap. "
 }
 ```
 {% endcode %}

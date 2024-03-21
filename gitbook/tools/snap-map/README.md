@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: Searchable map of geotagged snaps.
 ---
 
-# SMAT
+# Snap Map
 
 ## URL
 
-https://www.smat-app.com
+http://map.snapchat.com/
 
 ## Description
 

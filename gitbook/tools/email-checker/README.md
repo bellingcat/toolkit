@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: Check if an email address has been used to comment on blogs and whether there is a profile image attached.
 ---
 
-# SMAT
+# Email Checker
 
 ## URL
 
-https://www.smat-app.com
+https://en.gravatar.com/site/check/
 
 ## Description
 

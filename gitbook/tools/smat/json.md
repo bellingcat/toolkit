@@ -7,13 +7,18 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "SMAT",
-  "url": "https://www.smat-app.com/timeline?searchTerm=election&startDate=2020-09-27&endDate=2020-10-27&websites=twitter&aggRedditBy=author&numberOf=10&interval=day&limit=1000&changepoint=false",
-  "description": "Disinformation tracker. Works by pulling data from Gab, Parler, 4chan, 8kun, .win, poal, telegram, Gettr, Bitchute, Tiktok",
-  "cost": "Free",
   "tags": [
+    "8chan",
+    "8kun",
+    "gab",
+    "gettr",
+    "parler",
     "multiple-networks"
-  ]
+  ],
+  "name": "SMAT",
+  "url": "https://www.smat-app.com",
+  "description": "Search messages, count links, see activity & timeline",
+  "cost": "Free"
 }
 ```
 {% endcode %}

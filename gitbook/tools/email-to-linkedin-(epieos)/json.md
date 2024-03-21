@@ -8,14 +8,11 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "vkontakte",
-    "odnoklassniki",
-    "tiktok",
-    "clubhouse"
+    "linkedIn"
   ],
-  "name": "Search4Faces",
-  "url": "https://search4faces.com",
-  "description": " Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse) ",
+  "name": "Email to LinkedIn (Epieos)",
+  "url": "https://tools.epieos.com/linkedin.php",
+  "description": "Check if an email address is connected to a LinkedIn Profile",
   "cost": "Free"
 }
 ```

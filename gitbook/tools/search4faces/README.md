@@ -1,12 +1,12 @@
 ---
-description: Search a databaes of 84 million TikTok accounts
+description:  Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse) 
 ---
 
 # Search4Faces
 
 ## URL
 
-https://search4faces.com/tt00/index.html
+https://search4faces.com
 
 ## Description
 

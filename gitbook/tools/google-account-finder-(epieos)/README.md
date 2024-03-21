@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: Find the profile picture and public Google Map Reviews + Photos associated with a G-mail adress. Also checks for phone numbers, and checks for email addresses on social networks 
 ---
 
-# SMAT
+# Google Account Finder (EPIEOS)
 
 ## URL
 
-https://www.smat-app.com
+https://tools.epieos.com/google-account.php
 
 ## Description
 

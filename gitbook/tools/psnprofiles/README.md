@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: Search username, see daily activity, games played, country, and profile pic
 ---
 
-# SMAT
+# PSNprofiles
 
 ## URL
 
-https://www.smat-app.com
+https://psnprofiles.com/
 
 ## Description
 

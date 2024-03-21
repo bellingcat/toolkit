@@ -8,15 +8,13 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "vkontakte",
-    "odnoklassniki",
-    "tiktok",
-    "clubhouse"
+    "reddit"
   ],
-  "name": "Search4Faces",
-  "url": "https://search4faces.com",
-  "description": " Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse) ",
-  "cost": "Free"
+  "name": "Unddit",
+  "url": "https://www.unddit.com/",
+  "description": "Display removed (by mods) and deleted (by users) comments/posts for Reddit.",
+  "cost": "Free",
+  "guide": "inactive due to Reddit api changes"
 }
 ```
 {% endcode %}

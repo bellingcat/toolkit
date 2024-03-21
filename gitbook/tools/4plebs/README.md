@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: Searchable archive of specific 4chan boards. Makes it possible to read threads after they are purged from 4chan.
 ---
 
-# SMAT
+# 4plebs
 
 ## URL
 
-https://www.smat-app.com
+https://4plebs.org/
 
 ## Description
 

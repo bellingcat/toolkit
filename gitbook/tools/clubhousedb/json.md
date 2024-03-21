@@ -8,14 +8,11 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "vkontakte",
-    "odnoklassniki",
-    "tiktok",
     "clubhouse"
   ],
-  "name": "Search4Faces",
-  "url": "https://search4faces.com",
-  "description": " Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse) ",
+  "name": "ClubhouseDB",
+  "url": "https://clubhousedb.com/",
+  "description": "Search users, number of followers/following, and date of registry",
   "cost": "Free"
 }
 ```

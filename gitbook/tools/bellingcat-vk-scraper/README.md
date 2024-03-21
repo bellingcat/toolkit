@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: Github - scrape data, and especially media links like videos and photos, from vk.com URLs.
 ---
 
-# SMAT
+# Bellingcat VK Scraper
 
 ## URL
 
-https://www.smat-app.com
+https://github.com/bellingcat/vk-url-scraper
 
 ## Description
 

@@ -8,14 +8,11 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "vkontakte",
-    "odnoklassniki",
-    "tiktok",
-    "clubhouse"
+    "4chan"
   ],
-  "name": "Search4Faces",
-  "url": "https://search4faces.com",
-  "description": " Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse) ",
+  "name": "4plebs",
+  "url": "https://4plebs.org/",
+  "description": "Searchable archive of specific 4chan boards. Makes it possible to read threads after they are purged from 4chan.",
   "cost": "Free"
 }
 ```

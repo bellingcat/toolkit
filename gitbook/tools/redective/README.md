@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: Analyse Reddit profiles - incl word frequency and active hours
 ---
 
-# SMAT
+# Redective
 
 ## URL
 
-https://www.smat-app.com
+https://www.redective.com/
 
 ## Description
 

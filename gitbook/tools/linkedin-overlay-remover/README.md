@@ -1,12 +1,12 @@
 ---
-description: Search messages, count links, see activity & timeline
+description: Removes the overlay that displays over a linkedin profile.
 ---
 
-# SMAT
+# LinkedIn Overlay Remover
 
 ## URL
 
-https://www.smat-app.com
+http://addons.mozilla.org/nl/firefox/addon/linkedin-overlay-remover/
 
 ## Description
 
