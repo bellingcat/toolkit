@@ -1,8 +1,10 @@
 ---
-description: Download pictures (or videos) along with their captions and other metadata from Instagram.
+description: >-
+  Download pictures (or videos) along with their captions and other metadata
+  from Instagram.
 ---
 
-# Insta Loader
+# InstaLoader
 
 ## URL
 
@@ -49,6 +51,3 @@ Name the tool provider (and potentially info on them)
 * [x] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
-
-<table><thead><tr><th data-type="users" data-multiple>Page maintainer</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
-

@@ -7,8 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Insta Loader",
-  "description": "Download pictures (or videos) along with their captions and other metadata from Instagram.",
   "tags": [
     "instagram"
   ],
@@ -18,7 +16,9 @@ description: This is the JSON codeblock for this tool
 ```
 {% endcode %}
 
-Keep the codeblock updated with accurate information. Only edit the **values** (words to the right of the `:` on each line, in light blue font) and do not change the key names (left side, slightly darker blue) or any of the other formatting. Every line should end in a comma except the last line. Every key and value should be enclosed in quotation marks. See below for an explanation of each line.&#x20;
+Keep the codeblock updated with accurate information. Only edit the **values** (words to the right of the `:` on each line, in light blue font) and do not change the key names (left side, slightly darker blue) or any of the other formatting. Every line should end in a comma except the last line. Every key and value should be enclosed in quotation marks. You can validate your changes using a tool like [https://jsonlint.com/](https://jsonlint.com/) or [https://json-gui.esstudio.site/](https://json-gui.esstudio.site/)
+
+See below for an explanation of each line.
 
 ## name, description, url
 
@@ -27,6 +27,3 @@ These are self explanatory and not likely to change. They should match the infor
 ## tags
 
 This list of tags will determine which category pages the tool appears on. Tags should be lowercase with dashes between words and no spaces: e.g., "facial-recognition". Seperate tags with a comma `,`.
-
-If a tool is completely free to use, include the tag "free".
-
