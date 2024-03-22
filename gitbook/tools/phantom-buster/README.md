@@ -1,5 +1,5 @@
 ---
-description: twitter, linkedin
+description: Scape and automate actions on most major social media platforms
 ---
 
 # Phantom Buster
