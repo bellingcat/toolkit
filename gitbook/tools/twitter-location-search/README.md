@@ -1,5 +1,5 @@
 ---
-description: twitter, location
+description: Search twitter by latitude and longitude coordinates and distance
 ---
 
 # Twitter Location Search
@@ -32,4 +32,7 @@ Twitter/X
 
 [https://www.bellingcat.com/resources/2021/05/19/geofenced-searches-on-twitter-a-case-study-detailing-south-asias-covid-crisis/](https://www.bellingcat.com/resources/2021/05/19/geofenced-searches-on-twitter-a-case-study-detailing-south-asias-covid-crisis/)
 
-<table><thead><tr><th data-type="users" data-multiple>Page Maintainer</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
+| Page Maintainer                                   |
+| ------------------------------------------------- |
+| [Volunteer needed](mailto:toolkit@bellingcat.com) |
+|                                                   |
