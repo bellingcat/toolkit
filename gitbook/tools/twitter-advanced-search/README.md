@@ -24,4 +24,7 @@ Twitter's built in advanced search supports filtering by keywords, hashtags, lan
 
 Twitter/X
 
-<table><thead><tr><th data-type="users" data-multiple>Page Maintainers</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
+| Page Maintainers |
+| ---------------- |
+| Volunteer Needed |
+|                  |
