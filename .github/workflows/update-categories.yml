@@ -20,9 +20,7 @@ jobs:
         run: |
           node categories.mjs
           if git diff --exit-code; then
-            echo "::set-env name=changes_exist::false"
-          else
-            echo "::set-env name=changes_exist::true"
+            echo "{changes_exist}={true}" >> "$GITHUB_ENV"
           fi
 
       - name: Commit changes
