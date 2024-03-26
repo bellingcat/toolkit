@@ -19,10 +19,14 @@ jobs:
       - name: Run node script to update categories
         run: |
           node categories.mjs
-          git diff --exit-code || exit 0
+          if [ -n "$(git status --porcelain)" ]; then
+            exit 1
+          else
+            echo "No changes to commit."
+            exit 0
+          fi
 
       - name: Commit changes
-        if: success()
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -30,14 +34,11 @@ jobs:
           git commit -m "Update categories"
 
       - name: Push changes
-        if: success()
         uses: ad-m/github-push-action@master
         with:
           branch: update-categories-${{ github.run_number }}
-          force: true
 
       - name: Create Pull Request
-        if: success()
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
