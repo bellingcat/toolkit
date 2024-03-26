@@ -1,0 +1,44 @@
+name: Update Categories
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run node script to update categories
+        run: |
+          node categories.mjs
+          git diff --exit-code || exit 0
+
+      - name: Commit changes
+        if: success()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Update categories"
+
+      - name: Push changes
+        if: success()
+        uses: ad-m/github-push-action@master
+        with:
+          branch: update-categories-${{ github.run_number }}
+          force: true
+
+      - name: Create Pull Request
+        if: success()
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: update-categories-${{ github.run_number }}
+          commit-message: "Update categories"
+          title: "Update Categories"
+          body: "This pull request updates the categories."
