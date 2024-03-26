@@ -13,6 +13,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Install dependencies
+                run: npm install
+
       - name: Run node script to update categories
         run: |
           node categories.mjs
