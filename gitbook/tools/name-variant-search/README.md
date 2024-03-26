@@ -38,4 +38,6 @@ Enter a name and press enter. Add suggested variants to refine results. Use the 
 
 Bellingcat
 
-<table><thead><tr><th data-type="users" data-multiple>Page Maintainer</th></tr></thead><tbody><tr><td></td></tr><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
+| Page Maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
