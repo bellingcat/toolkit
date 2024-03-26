@@ -17,6 +17,7 @@ jobs:
         run: npm install
 
       - name: Run node script to update categories
+        continue-on-error: true
         run: |
           node categories.mjs
           if [ -n "$(git status --porcelain)" ]; then
