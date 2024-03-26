@@ -9,9 +9,7 @@ description: This is the JSON codeblock for this tool
 {
   "name": "Skopenow",
   "url": "http://skopenow.com/",
-  "tags": [
-    "facebook", "twitter"
-  ],
+  "tags": ["facebook", "twitter", "linkedin", "instagram", "crunchbase", "pinterest", "multiple-networks"],
   "description": "Social Media Investigations - name, phone, email, username searches"
 }
 ```
