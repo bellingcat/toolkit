@@ -20,10 +20,10 @@ jobs:
         run: |
           node categories.mjs
           if [ -n "$(git status --porcelain)" ]; then
-            exit 1
+            exit 0
           else
             echo "No changes to commit."
-            exit 0
+            exit 1
           fi
 
       - name: Commit changes
