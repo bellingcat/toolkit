@@ -19,9 +19,14 @@ jobs:
       - name: Run node script to update categories
         run: |
           node categories.mjs
+          if git diff --exit-code; then
+            echo "::set-env name=changes_exist::false"
+          else
+            echo "::set-env name=changes_exist::true"
+          fi
 
       - name: Commit changes
-        if: git diff --exit-code origin/main
+        if: ${{ env.changes_exist == 'true' }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -29,13 +34,13 @@ jobs:
           git commit -m "Update categories"
 
       - name: Push changes
-        if: git diff --exit-code origin/main
+        if: ${{ env.changes_exist == 'true' }}
         uses: ad-m/github-push-action@master
         with:
           branch: update-categories-${{ github.run_number }}
 
       - name: Create Pull Request
-        if: git diff --exit-code origin/main
+        if: ${{ env.changes_exist == 'true' }}
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
