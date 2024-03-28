@@ -15,4 +15,3 @@ createTool({
   tags: []
 });
 createToolOnGitbook(toolName);
-console.log('Tool created');

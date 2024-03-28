@@ -47,13 +47,14 @@ async function createToolOnGitbook(name) {
 
 async function findSpace(name) {
   const response = await fetch('https://api.gitbook.com/v1/collections/jQKvylm6WgaH5IFrlIMh/spaces', {
-    method: 'POST',
+    method: 'GET',
     headers: {
           "Authorization": `Bearer ${process.env.GITBOOK_API_TOKEN}`
     },
   });
   console.log(response);
   const data = await response.json();
+  console.log(data);
   return data.items.find((space) => space.title === name);
 }
 

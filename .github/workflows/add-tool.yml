@@ -9,14 +9,6 @@ on:
         required: true
 
 jobs:
-  log-the-inputs:
-    runs-on: ubuntu-latest
-    steps:
-      - run: |
-          echo "Creating tool: $TOOL_NAME"
-        env:
-          TOOL_NAME: ${{ inputs.toolName }}
-
   build:
     runs-on: ubuntu-latest
 
