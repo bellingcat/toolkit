@@ -36,6 +36,10 @@ function createTool(tool, opts={}) {
   fs.mkdirSync(pathname, { recursive: true });
   fs.writeFileSync(`${pathname}/json.md`, toolToJson(tool));
   fs.writeFileSync(`${pathname}/README.md`, toolToReadme(tool));
+  console.log("Tool created");
+  console.log("Slug: ", slug);
+  console.log("Monorepo project directory: ", pathname);
+  console.log("Commit message template:", "GITBOOK-peakvisor-{change_request_number}: {change_request_subject}");
 }
 
 async function createToolOnGitbook(name) {
@@ -52,7 +56,6 @@ async function findSpace(name) {
           "Authorization": `Bearer ${process.env.GITBOOK_API_TOKEN}`
     },
   });
-  console.log(response);
   const data = await response.json();
   console.log(data);
   return data.items.find((space) => space.title === name);
@@ -71,7 +74,6 @@ async function createSpace(name) {
           "Authorization": `Bearer ${process.env.GITBOOK_API_TOKEN}`
     },
   });
-  console.log(response);
   const data = await response.json();
   const updated = await renameSpace(data, name)
   console.log(updated);
@@ -87,7 +89,6 @@ async function renameSpace(space, name) {
           },
     body: JSON.stringify({ "title": name }),
   });
-  console.log(response);
   space = await response.json();
   return space;
 }
