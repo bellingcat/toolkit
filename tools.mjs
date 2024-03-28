@@ -71,9 +71,9 @@ async function createSpace(name) {
     },
   });
   console.log(response);
-  const space = await response.json();
-  const updated = await renameSpace(space, name)
-  console.log(space);
+  const data = await response.json();
+  const updated = await renameSpace(data, name)
+  console.log(updated);
 }
 
 async function renameSpace(space, name) {
