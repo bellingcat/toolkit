@@ -1,41 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project.
+---
+description: A brief, one line description of this tool
+---
 
-The goal is to generate static content pages from markdown files which are
-organized and maintained on gitbook.
+# Tool Name
 
-We can then extend them with additional filter views and other useful features.
+## URL
 
-## Getting Started
+https://example.com
 
-First, run the development server:
+## Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Cost
 
-## Build locally
+* [x] Free
+* [ ] Partially Free
+* [ ] Paid
 
-Create a static export in the folder `/out` and serve it with a generic webserver
+\[\[Pricing or subscription information, if relevant.]]
 
-```
-npm run build
-cd ./out && python3 -m http.server
-```
-Open [http://localhost:8000](http://localhost:8000) with your browser to see the result.
+## Level of difficulty
 
-## Deploy
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
-Gitbook syncs markdown files automatically to the `/gitbook` folder in the main
-branch of this repository.
+## Requirements
 
-Be sure to test locally to check for rendering bugs or breaking changes.
+\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
 
-Github pages builds from the `deploy` branch of this repository. Merge changes from `main` to `deploy` to kick off a build.
+## Limitations
+
+\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+
+## Ethical Considerations
+
+\[\[The ethical considerations of each tool should be described.]]
+
+## Guide
+
+\[\[Link to a guide on this tool]]
+
+## Tool provider
+
+\[\[Name the tool provider (and potentially info on them)]]
+
+## Advertising Trackers
+
+* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool does not appear to use tracking cookies.
+
+| Page maintainer                                                |
+| -------------------------------------------------------------- |
+| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
+|                                                                |
+
