@@ -49,16 +49,23 @@ async function createToolOnGitbook(name) {
   console.log("Team and space created. Don't forget to add the team to the space.");
 }
 
-async function findSpace(name) {
-  const response = await fetch('https://api.gitbook.com/v1/collections/jQKvylm6WgaH5IFrlIMh/spaces', {
+async function findSpace(name, page='') {
+  const response = await fetch('https://api.gitbook.com/v1/collections/jQKvylm6WgaH5IFrlIMh/spaces?' + new URLSearchParams({ page: page }), {
     method: 'GET',
     headers: {
-          "Authorization": `Bearer ${process.env.GITBOOK_API_TOKEN}`
+      "Authorization": `Bearer ${process.env.GITBOOK_API_TOKEN}`
     },
   });
   const data = await response.json();
-  console.log(data);
-  return data.items.find((space) => space.title === name);
+  const space = data.items.find((space) => space.title === name);
+  if (space) {
+    console.log('Space found');
+    return space;
+  }
+  if (data.next) {
+    return await findSpace(name, data.next.page);
+  }
+  console.log('Space found');
 }
 
 async function createSpace(name) {
@@ -93,15 +100,22 @@ async function renameSpace(space, name) {
   return space;
 }
 
-async function findTeam(name) {
-  const response = await fetch('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams', {
+async function findTeam(name, page='') {
+  const response = await fetch('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams?' + new URLSearchParams({ page: page }), {
         method: 'GET',
         headers: {
           "Authorization": `Bearer ${process.env.GITBOOK_API_TOKEN}`,
         }
   });
   const data = await response.json();
-  return data.items.find((team) => team.title === name);
+  const team = data.items.find((team) => team.title === name);
+  if (team) {
+    console.log('Team found');
+    return team;
+  }
+  if (data.next) {
+    return await findSpace(name, data.next.page);
+  }
 }
 
 async function createTeam(name) {
