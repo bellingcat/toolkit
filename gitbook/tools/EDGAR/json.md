@@ -7,8 +7,8 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-    "url": "https://example.com",
-    "tags": ["tag1", "tag2", "tag3"]
+    "url": "https://www.sec.gov/edgar/search/",
+    "tags": ["law", "search"]
 }
 ```
 {% endcode %}
