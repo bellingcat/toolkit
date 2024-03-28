@@ -1,4 +1,4 @@
-name: Update Categories
+name: Add Tool
 
 on:
   workflow_dispatch:
