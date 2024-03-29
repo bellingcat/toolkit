@@ -19,7 +19,7 @@ function getTools(pathname) {
 }
 
 const tools = getTools('gitbook/tools');
-const whitelist = ['twitter', 'instagram', 'facebook', 'youtube', 'telegram', 'tiktok', 'discord', 'multiple-networks', 'linkedin', 'reddit', 'vkontakte', 'other-networks'];
+const whitelist = ['twitter', 'instagram', 'facebook', 'youtube', 'telegram', 'tiktok', 'discord', 'multiple-networks', 'linkedin', 'reddit', 'vkontakte', 'other-networks', 'reverse-image-search'];
 
 getPaths('gitbook/categories').filter((category) => {
   const tag = category.slug.slice(-1)[0];
