@@ -9,10 +9,8 @@ on:
         required: true
 
 jobs:
-  gitbook:
+  add-space:
     runs-on: ubuntu-latest
-    outputs:
-      url: ${{ steps.node.outputs.url }}
 
     steps:
       - name: Checkout code
@@ -26,13 +24,10 @@ jobs:
         env:
           TOOL_NAME: ${{ inputs.toolName }}
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
-        run: echo "url=$(node add-space.mjs $TOOL_NAME)" >> "$GITHUB_OUTPUT"
+        run: node add-space.mjs $TOOL_NAME
 
-  build:
+  add-tool:
     runs-on: ubuntu-latest
-    outputs:
-      monorepo: gitbook/tools/${{ steps.node.outputs.slug }}
-      template: "GITBOOK-${{ steps.final.outputs.slug }}-{change_request_number}: {change_request_subject}"
 
     steps:
       - name: Checkout code
@@ -46,13 +41,9 @@ jobs:
         env:
           TOOL_NAME: ${{ inputs.toolName }}
         run: |
-          echo "slug=$(node add-tool.mjs $TOOL_NAME)" >> "$GITHUB_OUTPUT"
-          if git status --porcelain; then
-            echo "{changes_exist}={true}" >> "$GITHUB_ENV"
-          fi
+          node add-tool.mjs $TOOL_NAME
 
       - name: Commit changes
-        if: ${{ env.changes_exist == 'true' }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -60,17 +51,15 @@ jobs:
           git commit -m "Add $TOOL_NAME"
 
       - name: Push changes
-        if: ${{ env.changes_exist == 'true' }}
         uses: ad-m/github-push-action@master
         with:
           branch: add-tool-${{ inputs.toolName }}
 
       - name: Create Pull Request
-        if: ${{ env.changes_exist == 'true' }}
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: add-tool-${{ inputs.ToolName }}
-          commit-message: "Add Tool: ${{ inputs.ToolName }}"
-          title: "Add Tool: ${{ inputs.ToolName }}"
+          branch: add-tool-${{ inputs.toolName }}
+          commit-message: "Add Tool: ${{ inputs.toolName }}"
+          title: "Add Tool: ${{ inputs.toolName }}"
           body: "This pull request adds a new tool."
