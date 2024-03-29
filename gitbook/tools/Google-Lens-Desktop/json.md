@@ -8,6 +8,7 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
+    "most-used",
     "reverse-image-search"
   ],
   "name": "Google Lens Desktop",
