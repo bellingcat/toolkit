@@ -1,12 +1,12 @@
 ---
-description: Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse)
+description: Check how similar two faces are
 ---
 
-# Search4Faces
+# Amazon Rekognition
 
 ## URL
 
-https://search4faces.com
+undefined
 
 ## Description
 

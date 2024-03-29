@@ -8,16 +8,10 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "facial-recognition",
-    "vkontakte",
-    "odnoklassniki",
-    "tiktok",
-    "clubhouse",
-    "other-networks"
+    "facial-recognition"
   ],
-  "name": "Search4Faces",
-  "url": "https://search4faces.com",
-  "description": "Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse)",
+  "name": "Amazon Rekognition",
+  "description": "Check how similar two faces are",
   "cost": "Free"
 }
 ```

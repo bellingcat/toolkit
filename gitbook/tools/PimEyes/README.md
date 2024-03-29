@@ -1,12 +1,12 @@
 ---
-description: Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse)
+description: Face Search Engine & Reverse Image Search.
 ---
 
-# Search4Faces
+# PimEyes
 
 ## URL
 
-https://search4faces.com
+https://pimeyes.com/en
 
 ## Description
 

@@ -1,12 +1,12 @@
 ---
-description: Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse)
+description: Practical face restoration algorithm for *old photos* or *AI-generated faces*
 ---
 
-# Search4Faces
+# GFPGAN
 
 ## URL
 
-https://search4faces.com
+https://replicate.com/tencentarc/gfpgan
 
 ## Description
 

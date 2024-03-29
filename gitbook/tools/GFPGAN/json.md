@@ -8,16 +8,11 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "facial-recognition",
-    "vkontakte",
-    "odnoklassniki",
-    "tiktok",
-    "clubhouse",
-    "other-networks"
+    "facial-recognition"
   ],
-  "name": "Search4Faces",
-  "url": "https://search4faces.com",
-  "description": "Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse)",
+  "name": "GFPGAN",
+  "url": "https://replicate.com/tencentarc/gfpgan",
+  "description": "Practical face restoration algorithm for *old photos* or *AI-generated faces*",
   "cost": "Free"
 }
 ```

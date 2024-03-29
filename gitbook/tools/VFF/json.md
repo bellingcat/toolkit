@@ -8,16 +8,11 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "facial-recognition",
-    "vkontakte",
-    "odnoklassniki",
-    "tiktok",
-    "clubhouse",
-    "other-networks"
+    "facial-recognition"
   ],
-  "name": "Search4Faces",
-  "url": "https://search4faces.com",
-  "description": "Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse)",
+  "name": "VFF",
+  "url": "https://www.robots.ox.ac.uk/~vgg/software/vff/",
+  "description": "VGG Face Finder (VFF) Engine  Visual Geometry Group and released under the BSD-2 clause. VFF is a web application that serves as a web engine to perform searches for faces over an user-defined image dataset. It is based on the original application created by VGG to perform visual searchers over a large dataset of images from BBC News.",
   "cost": "Free"
 }
 ```

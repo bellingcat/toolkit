@@ -9,16 +9,12 @@ description: This is the JSON codeblock for this tool
 {
   "tags": [
     "facial-recognition",
-    "vkontakte",
-    "odnoklassniki",
-    "tiktok",
-    "clubhouse",
-    "other-networks"
+    "reverse-image-search"
   ],
-  "name": "Search4Faces",
-  "url": "https://search4faces.com",
-  "description": "Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse)",
-  "cost": "Free"
+  "name": "PimEyes",
+  "url": "https://pimeyes.com/en",
+  "description": "Face Search Engine & Reverse Image Search.",
+  "cost": "Partially Free"
 }
 ```
 {% endcode %}
