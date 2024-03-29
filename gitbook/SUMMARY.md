@@ -51,3 +51,4 @@
   * [Twitter Video Downloader](tools/twitter-video-downloader/README.md)
   * [Twitter Audit](tools/twitter-audit/README.md)
   * [EDGAR](tools/EDGAR/README.md)
+  * [EDGAR Suite] (tools/EDGAR-Suite/README.md)
