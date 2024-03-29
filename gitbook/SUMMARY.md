@@ -52,3 +52,4 @@
   * [Twitter Audit](tools/twitter-audit/README.md)
   * [EDGAR](tools/EDGAR/README.md)
   * [EDGAR Suite](tools/EDGAR-Suite/README.md)
+  * [Global Forest Watch](tools/Global-Forest-Watch/README.md)
