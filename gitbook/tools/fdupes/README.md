@@ -1,12 +1,12 @@
 ---
-description: Allows you to search for YouTube videos by coordinates rather than keywords. Three different search functions, location, topic, and channel.
+description: Github - Locating exact matches of duplicate files.
 ---
 
-# YouTube Geofind
+# fdupes
 
 ## URL
 
-https://mattw.io/youtube-geofind/location
+https://github.com/adrianlopezroche/fdupes
 
 ## Description
 

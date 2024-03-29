@@ -8,12 +8,11 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "youtube",
     "image-misc"
   ],
-  "name": "YouTube Geofind",
-  "url": "https://mattw.io/youtube-geofind/location",
-  "description": "Allows you to search for YouTube videos by coordinates rather than keywords. Three different search functions, location, topic, and channel.",
+  "name": "Cleanup.Pictures",
+  "url": "https://cleanup.pictures/",
+  "defined": "Web tool for quickly removing objects from an image.",
   "cost": "Free"
 }
 ```

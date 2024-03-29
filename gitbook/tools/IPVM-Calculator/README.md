@@ -1,12 +1,12 @@
 ---
-description: Allows you to search for YouTube videos by coordinates rather than keywords. Three different search functions, location, topic, and channel.
+description: undefined
 ---
 
-# YouTube Geofind
+# IPVM Calculator
 
 ## URL
 
-https://mattw.io/youtube-geofind/location
+https://calculator.ipvm.com/
 
 ## Description
 

@@ -8,12 +8,11 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "youtube",
     "image-misc"
   ],
-  "name": "YouTube Geofind",
-  "url": "https://mattw.io/youtube-geofind/location",
-  "description": "Allows you to search for YouTube videos by coordinates rather than keywords. Three different search functions, location, topic, and channel.",
+  "name": "RenRot",
+  "url": "https://github.com/andy-shev/RenRot",
+  "detects": "Github - Attempts to rename image filenames to their original name, and rotate them to the original orientation.",
   "cost": "Free"
 }
 ```

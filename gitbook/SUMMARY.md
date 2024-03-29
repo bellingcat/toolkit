@@ -21,7 +21,7 @@
   * [Reverse Image Search](categories/image-video/reverse-image-search.md)
   * [Facial Recognition](categories/image-video/facial-recognition.md)
   * [Metadata](categories/image-video/metadata.md)
-  * [Misc](categories/image-video/misc.md)
+  * [Misc](categories/image-video/image-misc.md)
 * [People](categories/people.md)
 * [Maps & Satellites](categories/maps-and-satellites.md)
 * [Transport](categories/transport.md)

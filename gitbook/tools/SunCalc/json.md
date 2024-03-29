@@ -8,13 +8,14 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "youtube",
-    "image-misc"
+    "image-misc",
+    "shadow-analysis"
   ],
-  "name": "YouTube Geofind",
-  "url": "https://mattw.io/youtube-geofind/location",
-  "description": "Allows you to search for YouTube videos by coordinates rather than keywords. Three different search functions, location, topic, and channel.",
-  "cost": "Free"
+  "name": "SunCalc",
+  "url": "http://suncalc.org/",
+  "description": "Shadow analysis; Make an approximation of the time of the day using shadow direction.",
+  "cost": "Free",
+  "guide": " [Using the Sun and Shadows for Geolocation](https://www.bellingcat.com/resources/2020/12/03/using-the-sun-and-the-shadows-for-geolocation/) "
 }
 ```
 {% endcode %}
