@@ -41,7 +41,7 @@ function createTool(tool, opts={}) {
   debug("Tool created");
   debug("Slug: ", slug);
   debug("Monorepo project directory: ", pathname);
-  debug("Commit message template:", "GITBOOK-peakvisor-{change_request_number}: {change_request_subject}");
+  debug("Commit message template:", `GITBOOK-${slug}-{change_request_number}: {change_request_subject}`);
   return slug;
 }
 
