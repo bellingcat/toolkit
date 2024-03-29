@@ -9,8 +9,30 @@ on:
         required: true
 
 jobs:
+  gitbook:
+    runs-on: ubuntu-latest
+    outputs:
+      url: ${{ steps.node.outputs.url }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run node script to create a gitbook space and team
+        id: node
+        env:
+          TOOL_NAME: ${{ inputs.toolName }}
+          GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
+        run: echo "url=$(node add-space.mjs $TOOL_NAME)" >> "$GITHUB_OUTPUT"
+
   build:
     runs-on: ubuntu-latest
+    outputs:
+      monorepo: gitbook/tools/${{ steps.node.outputs.slug }}
+      template: "GITBOOK-${{ steps.final.outputs.slug }}-{change_request_number}: {change_request_subject}"
 
     steps:
       - name: Checkout code
@@ -20,11 +42,11 @@ jobs:
         run: npm install
 
       - name: Run node script to generate new tool
+        id: node
         env:
           TOOL_NAME: ${{ inputs.toolName }}
-          GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
         run: |
-          node add-tool.mjs $TOOL_NAME
+          echo "slug=$(node add-tool.mjs $TOOL_NAME)" >> "$GITHUB_OUTPUT"
           if git diff --exit-code; then
             echo "{changes_exist}={true}" >> "$GITHUB_ENV"
           fi

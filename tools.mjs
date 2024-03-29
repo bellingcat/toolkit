@@ -9,7 +9,11 @@ createTool({
   cost: 'Free',
 });
 */
-
+function debug(...args) {
+  if (process.env.DEBUG) {
+    console.debug(...args);
+  }
+}
 function toolToJson(tool) {
   const json = JSON.stringify(tool, null, 2);
   const jsonTemplate = fs.readFileSync('template/json.md', 'utf-8');
@@ -25,8 +29,8 @@ function toolToReadme(tool) {
 }
 function createTool(tool, opts={}) {
   const { name, tags } = tool;
-  console.log('Creating tool', name);
-  const slug = name.toLowerCase().replace(/\s/g, '-');
+  debug('Creating tool', name);
+  const slug = name.replace(/\s/g, '-');
   const pathname = `gitbook/tools/${slug}`;
 
   if (!opts.overwrite && fs.existsSync(pathname)) {
@@ -36,17 +40,19 @@ function createTool(tool, opts={}) {
   fs.mkdirSync(pathname, { recursive: true });
   fs.writeFileSync(`${pathname}/json.md`, toolToJson(tool));
   fs.writeFileSync(`${pathname}/README.md`, toolToReadme(tool));
-  console.log("Tool created");
-  console.log("Slug: ", slug);
-  console.log("Monorepo project directory: ", pathname);
-  console.log("Commit message template:", "GITBOOK-peakvisor-{change_request_number}: {change_request_subject}");
+  debug("Tool created");
+  debug("Slug: ", slug);
+  debug("Monorepo project directory: ", pathname);
+  debug("Commit message template:", "GITBOOK-peakvisor-{change_request_number}: {change_request_subject}");
+  return slug;
 }
 
 async function createToolOnGitbook(name) {
-  console.log('Creating tool on Gitbook', name);
-  await createSpace(name);
+  debug('Creating tool on Gitbook', name);
+  const space = await createSpace(name);
   await createTeam(name);
-  console.log("Team and space created. Don't forget to add the team to the space.");
+
+  return space.urls.app;
 }
 
 async function findSpace(name, page='') {
@@ -59,22 +65,20 @@ async function findSpace(name, page='') {
   const data = await response.json();
   const space = data.items.find((space) => space.title === name);
   if (space) {
-    console.log('Space found');
     return space;
   }
   if (data.next) {
     return await findSpace(name, data.next.page);
   }
-  console.log('Space found');
 }
 
 async function createSpace(name) {
   const space = await findSpace(name);
   if (space) {
-    console.log('Space already exists');
-    return;
+    debug('Space already exists');
+    return space;
   }
-  console.log('Duplicating the template space');
+  debug('Duplicating the template space');
   const response = await fetch('https://api.gitbook.com/v1/spaces/LWUcuebJXer3XFC0YLqM/duplicate', {
     method: 'POST',
     headers: {
@@ -83,11 +87,11 @@ async function createSpace(name) {
   });
   const data = await response.json();
   const updated = await renameSpace(data, name)
-  console.log(updated);
+  return updated;
 }
 
 async function renameSpace(space, name) {
-  console.log('Renaming space to', name);
+  debug('Renaming space to', name);
   const response = await fetch(`https://api.gitbook.com/v1/spaces/${space.id}`, {
     method: 'PATCH',
     headers: {
@@ -110,7 +114,6 @@ async function findTeam(name, page='') {
   const data = await response.json();
   const team = data.items.find((team) => team.title === name);
   if (team) {
-    console.log('Team found');
     return team;
   }
   if (data.next) {
@@ -121,10 +124,10 @@ async function findTeam(name, page='') {
 async function createTeam(name) {
   const team = await findTeam(name);
   if (team) {
-    console.log('Team already exists');
+    debug('Team already exists');
     return;
   }
-  console.log('Creating team', name);
+  debug('Creating team', name);
   const response = await fetch('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams', {
         method: 'PUT',
         headers: {
@@ -134,6 +137,6 @@ async function createTeam(name) {
         body: JSON.stringify({ "title": name }),
   });
   const data = await response.json();
-  console.log(data);
+  debug(data);
 }
 export default { createTool, createToolOnGitbook };
