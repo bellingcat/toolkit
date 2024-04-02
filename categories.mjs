@@ -92,7 +92,7 @@ function renderRelativeLink(category, tool) {
       return `Guide: ${tool.guide}`;
     }
     if (tool.details) {
-      return tool.details;
+      return tool.details.replace('\n',' ');;
     }
     return '';
   }
