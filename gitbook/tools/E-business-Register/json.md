@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "E-business Register",
   "url": "https://ariregister.rik.ee/eng",
   "description": "Search companies and individuals in Estonia.",
-  "cost": "Paid",
   "details": "Registry, Estonia",
   "tags": [
+    "registry",
     "companies-and-finance",
     "estonia"
   ]

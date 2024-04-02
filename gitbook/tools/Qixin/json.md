@@ -10,7 +10,6 @@ description: This is the JSON codeblock for this tool
   "name": "Qixin",
   "url": "",
   "description": "Similar to QCC",
-  "cost": "Paid",
   "details": "Other, China",
   "tags": [
     "companies-and-finance",

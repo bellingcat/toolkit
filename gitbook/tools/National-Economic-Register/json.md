@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "National Economic Register",
   "url": "https://ner.economy.ae/Search\\_By\\_BN.aspx",
   "description": "Search businesses licences in Arabic or English - find names, emails, phonenumbers.",
-  "cost": "Paid",
   "details": "Registry, United Arab Emirates",
   "tags": [
+    "registry",
     "companies-and-finance",
     "united arab emirates"
   ]

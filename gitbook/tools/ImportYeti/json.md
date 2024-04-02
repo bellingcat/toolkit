@@ -10,8 +10,7 @@ description: This is the JSON codeblock for this tool
   "name": "ImportYeti",
   "url": "https://www.importyeti.com/",
   "description": "Search 60 million US customs sea shipment records, find company suppliers.",
-  "cost": "Paid",
-  "details": "Other, United States",
+  "details": "United States",
   "tags": [
     "companies-and-finance",
     "united states"

@@ -10,7 +10,6 @@ description: This is the JSON codeblock for this tool
   "name": "QCC",
   "url": "https://www.qcc.com/",
   "description": "Private website, one of the biggest information providers, with basic registration information, shareholder structure, beneficial owners, business authorization certificates, patent information, etc.",
-  "cost": "Paid",
   "details": "Other, China",
   "tags": [
     "companies-and-finance",

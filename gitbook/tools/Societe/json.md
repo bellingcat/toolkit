@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "Societe",
   "url": "http://societe.com/",
   "description": "Search companies and individuals in France.",
-  "cost": "Paid",
   "details": "Registry, France",
   "tags": [
+    "registry",
     "companies-and-finance",
     "france"
   ]

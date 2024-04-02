@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "OpenCorporates",
   "url": "http://opencorporates.com/",
   "description": "<p>A good place to start companies research as it covers so many jurisdictions.<br>Site owner English company<br>Data sources Primary public sources.<br>Read the data use licence.<br>Searches are free, though some features require a login (which they may provide if you agree to freely share your results).<br>Fields returned (differ per country) Company Number; Status; Incorporation Date; Company Type; Jurisdiction; Directors / Officers; Registered Address; Registry Page; Branches; Shareholdings in other companies ; Subsidiaries; Trademark registrations; Events</p>",
-  "cost": "Paid",
   "details": "Registry, Global, [Using OpenCorporates for Investigations (20 min)](https://www.youtube.com/watch?v=G\\_swgQEUGh8), [OpenCorporates API for Beginners (35 min)](https://tcij.org/summer-conference-event/a-beginners-guide-to-using-the-opencorporates-api-to-power-your-investigation/)",
   "tags": [
+    "registry",
     "companies-and-finance",
     "global"
   ]

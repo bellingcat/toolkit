@@ -10,7 +10,6 @@ description: This is the JSON codeblock for this tool
   "name": "Cninfo",
   "url": "http://www.cninfo.com.cn/new/index",
   "description": "Chinese public companies financial reports and regular announcements.",
-  "cost": "Paid",
   "details": "Other, China",
   "tags": [
     "companies-and-finance",

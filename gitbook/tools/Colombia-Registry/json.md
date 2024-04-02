@@ -10,7 +10,6 @@ description: This is the JSON codeblock for this tool
   "name": "Colombia Registry",
   "url": "https://www.rues.org.co/",
   "description": "Colombian business registry.",
-  "cost": "Paid",
   "details": "Registry, Colombia",
   "tags": [
     "companies-and-finance",

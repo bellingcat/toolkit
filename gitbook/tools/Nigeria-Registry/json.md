@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "Nigeria Registry",
   "url": "https://publicsearch.cac.gov.ng/ComSearch/",
   "description": "Check if a company is registered in Nigeria. Limited information available.",
-  "cost": "Paid",
   "details": "Registry, Nigeria",
   "tags": [
+    "registry",
     "companies-and-finance",
     "nigeria"
   ]

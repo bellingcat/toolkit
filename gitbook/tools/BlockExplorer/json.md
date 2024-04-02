@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "BlockExplorer",
   "url": "https://blockexplorer.com/",
   "description": "Following a bitcoin trail or following a bitcoin account?",
-  "cost": "Paid",
   "details": "Crypto, Global",
   "tags": [
+    "crypto",
     "companies-and-finance",
     "global"
   ]

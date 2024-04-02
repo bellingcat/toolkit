@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "European e-Justice portal",
   "url": "https://e-justice.europa.eu/home.do?action=home",
   "description": "<p>Site owner European Union<br>Consolidates official national registers for all member states.<br>Site might contain data not available on OpenCorporates.<br>Fields returned Registered office; Registration number; Company type; Business Register ID; EUID</p>",
-  "cost": "Paid",
   "details": "Registry, European Union, Iceland, Liechtenstein, Norway",
   "tags": [
+    "registry",
     "companies-and-finance",
     "european union, iceland, liechtenstein, norway"
   ]

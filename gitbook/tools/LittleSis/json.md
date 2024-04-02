@@ -10,8 +10,7 @@ description: This is the JSON codeblock for this tool
   "name": "LittleSis",
   "url": "https://littlesis.org/",
   "description": "Connects dots between influential / wealthy individuals in (mostly US) politics and business.",
-  "cost": "Paid",
-  "details": "Other, United States",
+  "details": "United States",
   "tags": [
     "companies-and-finance",
     "united states"

@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "Zefix",
   "url": "http://zefix.ch/en/search/entity/welcome",
   "description": "Search companies and individuals in Switzerland.",
-  "cost": "Paid",
   "details": "Registry, Switzerland",
   "tags": [
+    "registry",
     "companies-and-finance",
     "switzerland"
   ]

@@ -10,7 +10,7 @@ description: This is the JSON codeblock for this tool
   "name": "Reportaziende.it",
   "url": "http://reportaziende.it/",
   "description": "Offers detailed information about Italian companies with revenues over 5 million euro. It details revenue, net income or liabilities. The basic searching service is free, but it is possible to buy reports and specific information about a company.",
-  "cost": "Paid",
+  "cost": "Partially Free",
   "details": "Other, Italy",
   "tags": [
     "companies-and-finance",

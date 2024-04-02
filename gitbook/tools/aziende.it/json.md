@@ -10,7 +10,6 @@ description: This is the JSON codeblock for this tool
   "name": "aziende.it",
   "url": "http://aziende.it/",
   "description": "Offers pretty much the same service reportaziende.it does. Once again valid way to validate data and information gathered.",
-  "cost": "Paid",
   "details": "Other, Italy",
   "tags": [
     "companies-and-finance",

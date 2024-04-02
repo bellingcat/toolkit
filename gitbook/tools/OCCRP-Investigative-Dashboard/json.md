@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "OCCRP Investigative Dashboard",
   "url": "http://data.occrp.org/",
   "description": "Search 178 million public records and leaks from 236 sources on company and individual names.",
-  "cost": "Paid",
   "details": "Leak, Global",
   "tags": [
+    "leaks",
     "companies-and-finance",
     "global"
   ]

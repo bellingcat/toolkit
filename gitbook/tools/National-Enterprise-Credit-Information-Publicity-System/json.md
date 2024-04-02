@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "National Enterprise Credit Information Publicity System",
   "url": "http://www.gsxt.gov.cn/index.html",
   "description": "Companies registered in China, including registered capital, legal representative, incorporation date, penalty history and business irregularity records.",
-  "cost": "Paid",
   "details": "Registry, China",
   "tags": [
+    "registry",
     "companies-and-finance",
     "china"
   ]

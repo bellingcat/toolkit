@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "Court Enforcement Information Publicity",
   "url": "http://zxgk.court.gov.cn/",
   "description": "Chinese individuals and companies listed by the court as involved in dishonest practices.",
-  "cost": "Paid",
   "details": "Registry, China",
   "tags": [
+    "registry",
     "companies-and-finance",
     "china"
   ]

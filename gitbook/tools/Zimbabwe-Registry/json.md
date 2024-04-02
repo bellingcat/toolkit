@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "Zimbabwe Registry",
   "url": "https://zimeservices.pfms.gov.zw/irj/portal/anonymous",
   "description": "Search for companies in Zimbabwe. Database requires you to register with a foreign passport number. Information is not necessarily up-to-date as records are still being digitised.",
-  "cost": "Paid",
   "details": "Registry, Zimbabwe",
   "tags": [
+    "registry",
     "companies-and-finance",
     "zimbabwe"
   ]

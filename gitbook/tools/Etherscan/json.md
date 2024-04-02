@@ -13,6 +13,7 @@ description: This is the JSON codeblock for this tool
   "cost": "Paid",
   "details": "Crypto, Global",
   "tags": [
+    "crypto",
     "companies-and-finance",
     "global"
   ]

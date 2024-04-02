@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "ICIJ Offshore Leaks Database",
   "url": "http://offshoreleaks.icij.org/",
   "description": "Find out who’s behind more than 810k offshore companies, foundations and trusts from the Panama Papers, the Offshore Leaks, the Bahamas Leaks and the Paradise Papers investigations.",
-  "cost": "Paid",
   "details": "Leak, Global, [How to use the Offshore Leaks Database](https://offshoreleaks.icij.org/pages/howtouse), [How to use ICIJ's Offshore Leaks Database (part 1) (2 min)](https://www.youtube.com/watch?v=k0G83QXrMWA)",
   "tags": [
+    "leaks",
     "companies-and-finance",
     "global"
   ]

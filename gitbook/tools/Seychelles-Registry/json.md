@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "Seychelles Registry",
   "url": "http://www.registry.gov.sc/BizRegistration/WebSearchBusiness.aspx",
   "description": "Check if a company is registered in the Seychelles. Limited information available.",
-  "cost": "Paid",
   "details": "Registry, Seychelles",
   "tags": [
+    "registry",
     "companies-and-finance",
     "seychelles"
   ]

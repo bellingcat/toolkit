@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "Info Imprese",
   "url": "http://infoimprese.it/",
   "description": "A second database of Italian companies that basically reflects registroimprese.it. Offers the same service of registroimprese.it, but it often reports more details about a company’s activity and purpose, which can help a lot in the investigation. It is perfect to validate the results you may have previously found on registroimprese.it.",
-  "cost": "Paid",
   "details": "Registry, Italy",
   "tags": [
+    "registry",
     "companies-and-finance",
     "italy"
   ]

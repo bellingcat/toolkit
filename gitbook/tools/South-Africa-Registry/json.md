@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "South Africa Registry",
   "url": "http://www.cipc.co.za/za/",
   "description": "Search for companies in South Africa. Database is searchable by company name and company registration number. One can also search by individual director, but director searches require an individual's ID number.",
-  "cost": "Paid",
   "details": "Registry, South Africa",
   "tags": [
+    "registry",
     "companies-and-finance",
     "south africa"
   ]

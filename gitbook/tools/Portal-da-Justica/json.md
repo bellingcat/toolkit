@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "Portal da Justiça",
   "url": "http://publicacoes.mj.pt/DetalhePublicacao.aspx",
   "description": "Search companies and individuals in Portugal.",
-  "cost": "Paid",
   "details": "Registry, Portugal",
   "tags": [
+    "registry",
     "companies-and-finance",
     "portugal"
   ]

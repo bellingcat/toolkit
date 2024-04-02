@@ -13,6 +13,7 @@ description: This is the JSON codeblock for this tool
   "cost": "Paid",
   "details": "Registry, Spain",
   "tags": [
+    "registry",
     "companies-and-finance",
     "spain"
   ]

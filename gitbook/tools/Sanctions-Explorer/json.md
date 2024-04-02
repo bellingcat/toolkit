@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "Sanctions Explorer",
   "url": "https://sanctionsexplorer.org/",
   "description": "Database of OFAC/UN/EU sanctions",
-  "cost": "Paid",
   "details": "Sanctions, Global",
   "tags": [
+    "sanctions",
     "companies-and-finance",
     "global"
   ]

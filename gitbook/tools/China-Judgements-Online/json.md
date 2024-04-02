@@ -10,7 +10,6 @@ description: This is the JSON codeblock for this tool
   "name": "China Judgements Online",
   "url": "https://wenshu.court.gov.cn/",
   "description": "Judgements given out by Chinese regional courts",
-  "cost": "Paid",
   "details": "Other, China",
   "tags": [
     "companies-and-finance",

@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "Companies House",
   "url": "http://beta.companieshouse.gov.uk/",
   "description": "Search companies and individuals in the United Kingdom and Gibraltar.",
-  "cost": "Paid",
   "details": "Registry, United Kingdom",
   "tags": [
+    "registry",
     "companies-and-finance",
     "united kingdom"
   ]

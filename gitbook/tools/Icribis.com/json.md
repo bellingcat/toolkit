@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "Icribis.com",
   "url": "http://icribis.com/",
   "description": "Great portal. Offers further information such as VAT n., Chamber of Commerce registration number, revenue range, estimate of personnel employed. Usually well kept and updated. Only “obstacle” you have to create a socket puppet with a social security number. The basic searching service is free, but it is possible to buy reports and specific information about a company.",
-  "cost": "Paid",
   "details": "Registry, Italy",
   "tags": [
+    "registry",
     "companies-and-finance",
     "italy"
   ]

@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "Registro Imprese",
   "url": "http://www.registroimprese.it/",
   "description": "The official Italian companies registry and offers a wide array of basic information and data company’s purpose, legal email address, locations (legal HQ and operative offices or warehouses, etc). A few times it reports the date of establishment or when a company started providing a specific service/activity. It is only in Italian but has a very easy interface. The basic searching service is free, but it is possible to buy reports and specific information about a company. Same old story as for any other national registry.",
-  "cost": "Paid",
   "details": "Registry, Italy",
   "tags": [
+    "registry",
     "companies-and-finance",
     "italy"
   ]

@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "OBFC Registry/",
   "url": "http://www.obfc.org.ls/registry/",
   "description": "Search for companies, directors and shareholders in Lesotho. Information is comprehensive and up-to-date.",
-  "cost": "Paid",
   "details": "Registry, Lesotho",
   "tags": [
+    "registry",
     "companies-and-finance",
     "lesotho"
   ]

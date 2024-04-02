@@ -10,8 +10,7 @@ description: This is the JSON codeblock for this tool
   "name": "Guidamonaci.it",
   "url": "http://guidamonaci.it/",
   "description": "As much an ace of spades as a potential flop. One out of three it presents a detailed overview of a company (VAT n., Revenue, Employees, Offices, Activity, mail). Two out of three it offers some basic information and it may be able to add in some more details. Requires registration with a socket puppet. Sometimes its data and information are not up to date.",
-  "cost": "Paid",
-  "details": "Other, Italy",
+  "details": "Italy",
   "tags": [
     "companies-and-finance",
     "italy"

@@ -10,9 +10,9 @@ description: This is the JSON codeblock for this tool
   "name": "Ecuador Registry",
   "url": "https://appscvsconsultas.supercias.gob.ec/consultaCompanias/societario/busquedaCompanias.jsf",
   "description": "Ecuadorian business registry.",
-  "cost": "Paid",
   "details": "Registry, Ecuador",
   "tags": [
+    "registry",
     "companies-and-finance",
     "ecuador"
   ]
