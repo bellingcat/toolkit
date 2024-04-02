@@ -12,7 +12,7 @@ description: This is the JSON codeblock for this tool
   ],
   "name": "RenRot",
   "url": "https://github.com/andy-shev/RenRot",
-  "detects": "Github - Attempts to rename image filenames to their original name, and rotate them to the original orientation.",
+  "description": "Github - Attempts to rename image filenames to their original name, and rotate them to the original orientation.",
   "cost": "Free"
 }
 ```

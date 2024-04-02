@@ -1,5 +1,5 @@
 ---
-description: undefined
+description: Image workspace; lets you arrange images in groups, organize them, etc.
 ---
 
 # PureRef

@@ -13,9 +13,8 @@ description: This is the JSON codeblock for this tool
   ],
   "name": "VIC",
   "url": "http://www.robots.ox.ac.uk/~vgg/software/vic/",
-  "deploy": "The VGG Image Classification (VIC) Engine is an open source project developed at the Visual Geometry Group and released under the BSD-2 clause. VIC is a web application that serves as a web engine to perform image classification queries over an user-defined image dataset. It is based on the original application created by VGG to perform visual searchers over a large dataset of images from BBC News.",
-  "cost": "Free",
-  "guide": " "
+  "description": "The VGG Image Classification (VIC) Engine is an open source project developed at the Visual Geometry Group and released under the BSD-2 clause. VIC is a web application that serves as a web engine to perform image classification queries over an user-defined image dataset. It is based on the original application created by VGG to perform visual searchers over a large dataset of images from BBC News.",
+  "cost": "Free"
 }
 ```
 {% endcode %}

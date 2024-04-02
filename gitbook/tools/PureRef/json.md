@@ -12,7 +12,7 @@ description: This is the JSON codeblock for this tool
   ],
   "name": "PureRef",
   "url": "https://www.pureref.com/index.php",
-  "developed": "Image workspace; lets you arrange images in groups, organize them, etc.",
+  "description": "Image workspace; lets you arrange images in groups, organize them, etc.",
   "cost": "Free"
 }
 ```

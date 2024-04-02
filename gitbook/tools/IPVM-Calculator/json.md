@@ -12,7 +12,7 @@ description: This is the JSON codeblock for this tool
   ],
   "name": "IPVM Calculator",
   "url": "https://calculator.ipvm.com/",
-  "developed": "Tool for simulating camera views (for geolocations).",
+  "description": "Tool for simulating camera views (for geolocations).",
   "cost": "Free"
 }
 ```

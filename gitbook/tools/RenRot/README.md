@@ -1,5 +1,5 @@
 ---
-description: undefined
+description: Github - Attempts to rename image filenames to their original name, and rotate them to the original orientation.
 ---
 
 # RenRot

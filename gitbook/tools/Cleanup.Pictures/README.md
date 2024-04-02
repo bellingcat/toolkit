@@ -1,5 +1,5 @@
 ---
-description: undefined
+description: Web tool for quickly removing objects from an image.
 ---
 
 # Cleanup.Pictures

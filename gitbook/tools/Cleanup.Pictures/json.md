@@ -12,7 +12,7 @@ description: This is the JSON codeblock for this tool
   ],
   "name": "Cleanup.Pictures",
   "url": "https://cleanup.pictures/",
-  "defined": "Web tool for quickly removing objects from an image.",
+  "description": "Web tool for quickly removing objects from an image.",
   "cost": "Free"
 }
 ```

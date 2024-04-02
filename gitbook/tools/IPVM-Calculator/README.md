@@ -1,5 +1,5 @@
 ---
-description: undefined
+description: Tool for simulating camera views (for geolocations).
 ---
 
 # IPVM Calculator
