@@ -10,7 +10,7 @@ description: This is the JSON codeblock for this tool
   "name": "Whatcms.org",
   "url": "http://whatcms.org/",
   "description": "What content-management system is this website using?",
-  "cost": "Paid",
+  "cost": "Free",
   "details": " ",
   "tags": [
     "websites"

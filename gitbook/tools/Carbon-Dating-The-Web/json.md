@@ -10,7 +10,7 @@ description: This is the JSON codeblock for this tool
   "name": "Carbon Dating The Web",
   "url": "https://carbondate.cs.odu.edu/",
   "description": "This is a simple application that estimates when a webpage was created. Unfortunately, Carbon Dating won’t show when a page was updated, only created.",
-  "cost": "Paid",
+  "cost": "Free",
   "details": " ",
   "tags": [
     "websites"

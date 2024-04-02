@@ -10,7 +10,7 @@ description: This is the JSON codeblock for this tool
   "name": "Geo IP Tools",
   "url": "http://geoiptool.com/",
   "description": "Check your own IP, handy to check if your VPN is working.",
-  "cost": "Paid",
+  "cost": "Free",
   "details": " ",
   "tags": [
     "websites"

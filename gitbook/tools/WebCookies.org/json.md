@@ -10,7 +10,7 @@ description: This is the JSON codeblock for this tool
   "name": "WebCookies.org",
   "url": "http://webcookies.org/",
   "description": "A website security and privacy scanner that, among many other features (mostly focused on GDPR compliance) aggregates large amount of information about advertiser and analytics identifiers of scanned websites, as well as the /ads.txt files.",
-  "cost": "Paid",
+  "cost": "Free",
   "details": " ",
   "tags": [
     "websites"

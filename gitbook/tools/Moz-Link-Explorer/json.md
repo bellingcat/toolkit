@@ -10,7 +10,7 @@ description: This is the JSON codeblock for this tool
   "name": "Moz Link Explorer",
   "url": "http://moz.com/link-explorer",
   "description": "Analyse the links of any website.",
-  "cost": "Paid",
+  "cost": "Free",
   "details": " ",
   "tags": [
     "websites"

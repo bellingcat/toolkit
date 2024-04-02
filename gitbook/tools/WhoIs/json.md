@@ -10,7 +10,7 @@ description: This is the JSON codeblock for this tool
   "name": "WhoIs",
   "url": "http://whois.net/",
   "description": "For domain name search and information. Try either [whois.net](http://whois.net/) or [whois.icann.org](http://whois.icann.org/)",
-  "cost": "Paid",
+  "cost": "Free",
   "details": " ",
   "tags": [
     "websites"

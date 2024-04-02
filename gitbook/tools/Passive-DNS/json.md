@@ -10,8 +10,8 @@ description: This is the JSON codeblock for this tool
   "name": "Passive DNS",
   "url": "https://community.riskiq.com/",
   "description": "Collects, stores and analyses data from thousands of passive DNS collection sensors.",
-  "cost": "Paid",
-  "details": " ",
+  "cost": "Partially Free",
+  "details": "15 searches per day",
   "tags": [
     "websites"
   ]

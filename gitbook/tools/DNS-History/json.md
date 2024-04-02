@@ -10,7 +10,7 @@ description: This is the JSON codeblock for this tool
   "name": "DNS History",
   "url": "http://completedns.com/",
   "description": "Collection of historical DNS information.",
-  "cost": "Paid",
+  "cost": "Free",
   "details": " ",
   "tags": [
     "websites"

@@ -10,7 +10,7 @@ description: This is the JSON codeblock for this tool
   "name": "Finitimus",
   "url": "http://www.finitimus.com/",
   "description": "Finitimus allows users to find the publish date for articles and other Internet content, with a click of a button.",
-  "cost": "Paid",
+  "cost": "Free",
   "details": " ",
   "tags": [
     "websites"

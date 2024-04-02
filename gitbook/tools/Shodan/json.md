@@ -10,7 +10,7 @@ description: This is the JSON codeblock for this tool
   "name": "Shodan",
   "url": "http://shodan.io/",
   "description": "Internet of things search engine.",
-  "cost": "Paid",
+  "cost": "Partially",
   "details": " ",
   "tags": [
     "websites"

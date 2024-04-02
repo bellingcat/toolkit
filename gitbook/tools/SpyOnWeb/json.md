@@ -10,7 +10,7 @@ description: This is the JSON codeblock for this tool
   "name": "SpyOnWeb",
   "url": "http://spyonweb.com/",
   "description": "Find out related websites via their tracking code.",
-  "cost": "Paid",
+  "cost": "Free",
   "details": " ",
   "tags": [
     "websites"

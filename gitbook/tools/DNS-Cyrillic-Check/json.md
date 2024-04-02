@@ -10,7 +10,7 @@ description: This is the JSON codeblock for this tool
   "name": "DNS Cyrillic Check",
   "url": "https://holdintegrity.com/checker",
   "description": "Check if malicious or Cyrillic domains are registered",
-  "cost": "Paid",
+  "cost": "Free",
   "details": " ",
   "tags": [
     "websites"
