@@ -39,7 +39,8 @@ const whitelist = [
   'people',
   'maps-and-satellites',
   'transport',
-  'websites'
+  'websites',
+  'companies-and-finance'
 ];
 
 getPaths('gitbook/categories').filter((category) => {
