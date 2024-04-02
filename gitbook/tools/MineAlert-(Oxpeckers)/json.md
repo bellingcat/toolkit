@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "MineAlert (Oxpeckers)",
+  "url": "https://mine-alert.oxpeckers.org/#/map",
+  "description": "Mining licenses in South Africa alongside water licenses and the threats to groundwater, mapped",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "⛏️",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

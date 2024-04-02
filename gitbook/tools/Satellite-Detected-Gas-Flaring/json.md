@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "Satellite Detected Gas Flaring",
+  "url": "https://viirs.skytruth.org/apps/heatmap/flaringmap.html#lat=52.33314\\&lon=6.46027\\&zoom=7\\&offset=27",
+  "description": "",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "🔥",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

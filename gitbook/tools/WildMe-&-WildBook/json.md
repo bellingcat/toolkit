@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "WildMe & WildBook",
+  "url": "https://wildme.org/#/platforms/bass",
+  "description": "Open source pattern recognition software to identify unique whales, sharks, zebras, jaguars, skunks, fish and much more.",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "🐳",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

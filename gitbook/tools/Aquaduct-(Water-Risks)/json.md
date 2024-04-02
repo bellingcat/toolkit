@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "Aquaduct (Water Risks)",
+  "url": "https://wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false\\&basemap=hydro\\&indicator=bwd\\_cat\\&lat=40.979898069620155\\&lng=13.293457031250002\\&mapMode=view\\&month=1\\&opacity=0.5\\&ponderation=DEF\\&predefined=false\\&projection=absolute\\&scenario=optimistic\\&scope=baseline\\&timeScale=annual\\&year=baseline\\&zoom=5",
+  "description": "Water and drought risks mapped, globally.",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "💧",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

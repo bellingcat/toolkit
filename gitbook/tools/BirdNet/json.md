@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "BirdNet",
+  "url": "https://birdnet.cornell.edu/map",
+  "description": "Identify bird sounds - find bird sounds on a global map.",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "🐦",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

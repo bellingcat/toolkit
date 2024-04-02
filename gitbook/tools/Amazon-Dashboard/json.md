@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "Amazon Dashboard",
+  "url": "https://globalfiredata.org/pages/amazon-dashboard/",
+  "description": "Tracks individual fires, and categorizes them (Savanna - small clear & agriculture - understory - deforestation)",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "🔥",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

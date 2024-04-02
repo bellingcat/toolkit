@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "Global Palm Oil Map",
+  "url": "https://developers.google.com/earth-engine/datasets/catalog/BIOPAMA\\_GlobalOilPalm\\_v1",
+  "description": "Global map of Palm Oil plantations, 2019 (small holders & industrial)",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "🌳",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

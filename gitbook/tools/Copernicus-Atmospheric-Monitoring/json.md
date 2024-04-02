@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "Copernicus Atmospheric Monitoring",
+  "url": "https://atmosphere.copernicus.eu/charts/cams/",
+  "description": "Global forecasts of aerosols, c02, methane, nitrogen dioxide, and others.",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "🗺️, [What Oil, Satellite Technology and Iraq can Tell us About Pollution](https://www.bellingcat.com/resources/2021/04/15/what-oil-satellite-technology-and-iraq-can-tell-us-about-pollution/)",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

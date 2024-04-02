@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "Tiger Trade (EIA)",
+  "url": "https://tomaszjohnson.carto.com/builder/72829b4c-b009-4e4a-8001-148ca848dcd7/embed?state=%7B%22map%22%3A%7B%22ne%22%3A%5B0.9667509997666425%2C2.3730468750000004%5D%2C%22sw%22%3A%5B64.20637724320852%2C164.79492187500003%5D%2C%22center%22%3A%5B39.232253141714914%2C83.58398437500001%5D%2C%22zoom%22%3A4%7D%7D",
+  "description": "Trade in tiger (parts) mapped",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "🐯",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

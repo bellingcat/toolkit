@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "Open Water Oil Spill Identification",
+  "url": "https://response.restoration.noaa.gov/sites/default/files/OWJA\\_2016.pdf",
+  "description": "PDF of US dep of Commerce to assess color/appearance and structure/distribution of oil spilled on the water.",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "🛢️",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

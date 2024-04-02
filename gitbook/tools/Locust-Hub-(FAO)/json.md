@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "Locust Hub (FAO)",
+  "url": "https://locust-hub-hqfao.hub.arcgis.com/",
+  "description": "A map visualizing locust movements globally",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "🦗, [How To Track Desert Locust Swarms](https://www.bellingcat.com/resources/how-tos/2020/06/23/how-to-track-desert-locust-swarms/)",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

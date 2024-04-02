@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "Global Forest Watch (Biodiversity)",
+  "url": "https://www.globalforestwatch.org/map/?mainMap=eyJzaG93QW5hbHlzaXMiOnRydWV9\\&map=eyJjZW50ZXIiOnsibGF0IjoyMy4xNDQxMDM3NTUzMzc0MSwibG5nIjozNC4yOTg0NTEzNDg5NDIyNX0sInpvb20iOjIuNjkzMjM4NzU2MTQwNDI5NCwiZGF0YXNldHMiOlt7ImRhdGFzZXQiOiJlbmRlbWljLWJpcmQtYXJlYXMiLCJvcGFjaXR5IjoxLCJ2aXNpYmlsaXR5Ijp0cnVlLCJsYXllcnMiOlsiYmlyZGxpZmUtZW5kZW1pYy1iaXJkLWFyZWFzLTIwMTQiXSwiaXNvIjoiIn0seyJkYXRhc2V0IjoidGlnZXItY29uc2VydmF0aW9uLWxhbmRzY2FwZXMiLCJvcGFjaXR5IjoxLCJ2aXNpYmlsaXR5Ijp0cnVlLCJsYXllcnMiOlsidGlnZXItY29uc2VydmF0aW9uLWxhbmRzY2FwZXMiXSwiaXNvIjoiIn1dfQ%3D%3D\\&mapMenu=eyJtZW51U2VjdGlvbiI6ImRhdGFzZXRzIiwiZGF0YXNldENhdGVnb3J5IjoiYmlvZGl2ZXJzaXR5In0%3D\\&mapPrompts=eyJvcGVuIjp0cnVlLCJzdGVwc0tleSI6InN1YnNjcmliZVRvQXJlYSIsInN0ZXBzSW5kZXgiOjAsImZvcmNlIjp0cnVlfQ%3D%3D",
+  "description": "Global Forest Watch also includes maps with biodiversity hotspots, including birds and tigers",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "🐦🐯",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

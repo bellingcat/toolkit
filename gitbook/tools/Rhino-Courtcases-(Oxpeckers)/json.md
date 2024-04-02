@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "Rhino Courtcases (Oxpeckers)",
+  "url": "https://oxpeckers.org/rhinocourtcasesmap/",
+  "description": "Courtcases in Southern Africa related to Rhino poaching, mapped",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "🦏",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

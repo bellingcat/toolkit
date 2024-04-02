@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "FLASH Environment Assessment Tool (UNOCHA)",
+  "url": "https://www.eecentre.org/resources/feat/",
+  "description": "For identifying harmful substances and their effect on the environment after industry has been destroyed.",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "☢️",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

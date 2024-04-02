@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "World Database Protected Areas",
+  "url": "https://www.protectedplanet.net/en/thematic-areas/wdpa?tab=WDPA",
+  "description": "The most comprehensive global database on terrestrial and marine protected areas.",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "🗺️",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

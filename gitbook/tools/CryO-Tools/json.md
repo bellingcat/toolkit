@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "CryO Tools",
+  "url": "",
+  "description": "Scientific tools for investigating the cryosphere (areas with snow & ice)",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "🧊",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

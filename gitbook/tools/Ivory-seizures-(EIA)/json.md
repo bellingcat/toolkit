@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "Ivory seizures (EIA)",
+  "url": "https://eia-international.org/wildlife/wildlife-trade-maps/large-scale-elephant-ivory-seizures/",
+  "description": "Large scale ivory seizuers globally, mapped",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "🐘",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "Explosive Detonation Velocities",
+  "url": "",
+  "description": "A wikipedia list of detonation velocities of various materials.",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "🔥, See [this tweet by Quantian1](https://twitter.com/quantian1/status/1290695231910875136) on the Beirut explosion, video footage, and assessing which material might have caused the explosion.",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

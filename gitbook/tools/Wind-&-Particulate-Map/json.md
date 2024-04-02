@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "Wind & Particulate Map",
+  "url": "https://earth.nullschool.net/#current/particulates/surface/level/overlay=pm2.5/orthographic=-28.21,30.66,553",
+  "description": "Map that visualizes wind, particulaes, and other data",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

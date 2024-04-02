@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "Merlin",
+  "url": "https://merlin.allaboutbirds.org/",
+  "description": "Identify birds (visually), through an app.",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "🐦",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

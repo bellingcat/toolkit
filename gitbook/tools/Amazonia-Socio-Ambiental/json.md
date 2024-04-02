@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "Amazonia Socio Ambiental",
+  "url": "https://www.amazoniasocioambiental.org/en/",
+  "description": "Amazon rainforest maps and shapefiles of natural protected areas, concessions, indigenous territories, oil, mining, roads, fires, deforestation in bolivia, brazil, colombia, ecuador, guyanas and suriname, peru, venezuela",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "🌳",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }

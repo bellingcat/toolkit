@@ -7,13 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Pulse GHGsat",
-  "url": "https://pulse.ghgsat.com/",
-  "description": "Global Methane Concentration per week",
+  "name": "Brazil CAR - Cadastro Ambiental Rural",
+  "url": "https://www.car.gov.br/#/",
+  "description": "CAR is an electronic public register of scope national, mandatory for all rural properties. Cadaster of rural properties that can be explored through their owners.",
   "cost": "Free",
-  "details": "🛰️",
+  "details": "🌳",
   "tags": [
-    "maps-and-satellites",
     "environment-and-wildlife"
   ]
 }
