@@ -1,12 +1,12 @@
 ---
-description: Track whatsapp activity, number, profile picture. Check if number is used, download profile pic, check online status.
+description: Simple tool to help search for different ways of writing a name.
 ---
 
-# WAtools.io
+# Bellingcat Name Variant Search
 
 ## URL
 
-http://watools.io/
+https://bellingcat.github.io/name-variant-search/
 
 ## Description
 

@@ -7,15 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Watools.io",
-  "url": "http://watools.io/",
+  "name": "Epieos",
+  "url": "https://tools.epieos.com/holehe.php",
+  "description": "Checks where an email has been used. Based on Holehe.",
   "cost": "Paid",
-  "details": "📞\n",
+  "details": "📧\nRegistration required",
   "tags": [
-    "whatsapp",
-    "other-networks",
-    "people",
-    "phone-number"
+    "people"
   ]
 }
 ```

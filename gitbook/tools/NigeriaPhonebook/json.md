@@ -7,15 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Watools.io",
-  "url": "http://watools.io/",
-  "cost": "Paid",
-  "details": "📞\n",
+  "name": "NigeriaPhonebook",
+  "url": "https://nigeriaphonebook.com/",
+  "description": "Look up by name, state, and phone number. Last names are partially censored for free accounts.",
+  "cost": "Free",
+  "details": "📞🗣️\nNigeria",
   "tags": [
-    "whatsapp",
-    "other-networks",
-    "people",
-    "phone-number"
+    "people"
   ]
 }
 ```

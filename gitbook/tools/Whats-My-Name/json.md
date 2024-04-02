@@ -7,15 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Watools.io",
-  "url": "http://watools.io/",
-  "cost": "Paid",
-  "details": "📞\n",
+  "name": "Whats My Name",
+  "url": "https://whatsmyname.app/",
+  "description": "Search username on 270+ platforms",
+  "cost": "Free",
+  "details": "🗣️\n",
   "tags": [
-    "whatsapp",
-    "other-networks",
-    "people",
-    "phone-number"
+    "people"
   ]
 }
 ```

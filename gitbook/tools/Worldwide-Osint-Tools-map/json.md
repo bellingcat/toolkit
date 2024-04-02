@@ -7,15 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Watools.io",
-  "url": "http://watools.io/",
-  "cost": "Paid",
-  "details": "📞\n",
+  "name": "Worldwide Osint Tools map",
+  "url": "https://cipher387.github.io/osintmap/",
+  "description": "Global overview of yellow/white pages, court cases, business registries etc.",
+  "cost": "Free",
+  "details": "📞🗣️\n",
   "tags": [
-    "whatsapp",
-    "other-networks",
-    "people",
-    "phone-number"
+    "people"
   ]
 }
 ```

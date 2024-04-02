@@ -7,15 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Watools.io",
-  "url": "http://watools.io/",
-  "cost": "Paid",
-  "details": "📞\n",
+  "name": "Blackbird",
+  "url": "https://github.com/p1ngul1n0/blackbird",
+  "description": "Check usernames on 574 websites and social networks",
+  "cost": "Free",
+  "details": "🗣️\nEasy to use web interface on this [website](https://blackbird-osint.herokuapp.com/)",
   "tags": [
-    "whatsapp",
-    "other-networks",
-    "people",
-    "phone-number"
+    "people"
   ]
 }
 ```

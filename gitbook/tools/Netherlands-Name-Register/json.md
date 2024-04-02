@@ -7,15 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Watools.io",
-  "url": "http://watools.io/",
-  "cost": "Paid",
-  "details": "📞\n",
+  "name": "Netherlands Name Register",
+  "url": "https://www.meertens.knaw.nl/nvb/naam/is/Giancarlo",
+  "description": "Find out how common a name is in the Netherlands based on census data",
+  "cost": "Free",
+  "details": "🗣️\nThe Netherlands",
   "tags": [
-    "whatsapp",
-    "other-networks",
-    "people",
-    "phone-number"
+    "people"
   ]
 }
 ```

@@ -36,6 +36,7 @@ const whitelist = [
   'facial-recognition',
   'metadata',
   'image-misc',
+  'people'
 ];
 
 getPaths('gitbook/categories').filter((category) => {
@@ -86,6 +87,9 @@ function renderRelativeLink(category, tool) {
   if (!summary.match(path.relative('gitbook/', tool.filepath))) {
     if (tool.guide) {
       return `Guide: ${tool.guide}`;
+    }
+    if (tool.details) {
+      return tool.details;
     }
     return '';
   }

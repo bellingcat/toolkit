@@ -7,15 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Watools.io",
-  "url": "http://watools.io/",
-  "cost": "Paid",
-  "details": "📞\n",
+  "name": "Rasit",
+  "url": "https://www.ratsit.se/",
+  "description": "Look up phone numbers/names (Sweden)",
+  "cost": "Free",
+  "details": "📞🗣️\nSweden",
   "tags": [
-    "whatsapp",
-    "other-networks",
-    "people",
-    "phone-number"
+    "people"
   ]
 }
 ```

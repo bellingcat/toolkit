@@ -1,12 +1,12 @@
 ---
-description: Track whatsapp activity, number, profile picture. Check if number is used, download profile pic, check online status.
+description: Username and domain check website. Easy to see on which platforms a single username has been used. Many mismatches.
 ---
 
-# WAtools.io
+# Namecheck
 
 ## URL
 
-http://watools.io/
+http://namechk.com/
 
 ## Description
 

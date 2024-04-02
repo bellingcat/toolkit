@@ -7,15 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Watools.io",
-  "url": "http://watools.io/",
-  "cost": "Paid",
-  "details": "📞\n",
+  "name": "FastPeopleSearch",
+  "url": "http://fastpeoplesearch.com/",
+  "description": "Mostly good for US.",
+  "cost": "Free",
+  "details": "📞🗣️\nmostly United States",
   "tags": [
-    "whatsapp",
-    "other-networks",
-    "people",
-    "phone-number"
+    "people"
   ]
 }
 ```

@@ -1,12 +1,12 @@
 ---
-description: Track whatsapp activity, number, profile picture. Check if number is used, download profile pic, check online status.
+description: Search username on 270+ platforms
 ---
 
-# WAtools.io
+# Whats My Name
 
 ## URL
 
-http://watools.io/
+https://whatsmyname.app/
 
 ## Description
 

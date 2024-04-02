@@ -7,15 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Watools.io",
-  "url": "http://watools.io/",
-  "cost": "Paid",
-  "details": "📞\n",
+  "name": "Namecheck",
+  "url": "http://namechk.com/",
+  "description": "Username and domain check website. Easy to see on which platforms a single username has been used. Many mismatches.",
+  "cost": "Free",
+  "details": "🗣️\n",
   "tags": [
-    "whatsapp",
-    "other-networks",
-    "people",
-    "phone-number"
+    "people"
   ]
 }
 ```

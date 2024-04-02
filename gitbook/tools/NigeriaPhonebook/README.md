@@ -1,12 +1,12 @@
 ---
-description: Track whatsapp activity, number, profile picture. Check if number is used, download profile pic, check online status.
+description: Look up by name, state, and phone number. Last names are partially censored for free accounts.
 ---
 
-# WAtools.io
+# NigeriaPhonebook
 
 ## URL
 
-http://watools.io/
+https://nigeriaphonebook.com/
 
 ## Description
 

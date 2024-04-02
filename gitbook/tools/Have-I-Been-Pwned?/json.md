@@ -7,15 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Watools.io",
-  "url": "http://watools.io/",
-  "cost": "Paid",
-  "details": "📞\n",
+  "name": "Have I Been Pwned?",
+  "url": "https://haveibeenpwned.com/",
+  "description": "Does email or phone appear in data breaches?",
+  "cost": "Free",
+  "details": "📞📧\n",
   "tags": [
-    "whatsapp",
-    "other-networks",
-    "people",
-    "phone-number"
+    "people"
   ]
 }
 ```

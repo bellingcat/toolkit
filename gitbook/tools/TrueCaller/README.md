@@ -1,12 +1,12 @@
 ---
-description: Track whatsapp activity, number, profile picture. Check if number is used, download profile pic, check online status.
+description: App that gathers phonenumbers and names from contact lists.
 ---
 
-# WAtools.io
+# TrueCaller
 
 ## URL
 
-http://watools.io/
+https://www.truecaller.com/
 
 ## Description
 

@@ -7,15 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Watools.io",
-  "url": "http://watools.io/",
-  "cost": "Paid",
-  "details": "📞\n",
+  "name": "The Law Pages",
+  "url": "https://www.thelawpages.com/court-cases/court-case-search.php?mode=1",
+  "description": "Search criminal court case details in the UK, such as sentence, hearing, defendant, etc.",
+  "cost": "Free",
+  "details": "🗣️\nUnited Kingdom",
   "tags": [
-    "whatsapp",
-    "other-networks",
-    "people",
-    "phone-number"
+    "people"
   ]
 }
 ```

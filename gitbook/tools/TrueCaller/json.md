@@ -7,15 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Watools.io",
-  "url": "http://watools.io/",
-  "cost": "Paid",
-  "details": "📞\n",
+  "name": "TrueCaller",
+  "url": "https://www.truecaller.com/",
+  "description": "App that gathers phonenumbers and names from contact lists.",
+  "cost": "Free",
+  "details": "📞\nDo not give permission to your actual contact lists",
   "tags": [
-    "whatsapp",
-    "other-networks",
-    "people",
-    "phone-number"
+    "people"
   ]
 }
 ```

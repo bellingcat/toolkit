@@ -7,15 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Watools.io",
-  "url": "http://watools.io/",
-  "cost": "Paid",
-  "details": "📞\n",
+  "name": "Bellingcat Name Variant Search",
+  "url": "https://bellingcat.github.io/name-variant-search/",
+  "description": "Simple tool to help search for different ways of writing a name.",
+  "cost": "Free",
+  "details": "🗣️\n",
   "tags": [
-    "whatsapp",
-    "other-networks",
-    "people",
-    "phone-number"
+    "people"
   ]
 }
 ```

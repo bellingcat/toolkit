@@ -1,12 +1,12 @@
 ---
-description: Track whatsapp activity, number, profile picture. Check if number is used, download profile pic, check online status.
+description: Check usernames on 574 websites and social networks
 ---
 
-# WAtools.io
+# Blackbird
 
 ## URL
 
-http://watools.io/
+https://github.com/p1ngul1n0/blackbird
 
 ## Description
 

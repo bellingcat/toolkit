@@ -1,12 +1,12 @@
 ---
-description: Track whatsapp activity, number, profile picture. Check if number is used, download profile pic, check online status.
+description: People search through email, phone, name
 ---
 
-# WAtools.io
+# Spokeo
 
 ## URL
 
-http://watools.io/
+http://spokeo.com/
 
 ## Description
 

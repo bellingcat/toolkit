@@ -1,12 +1,12 @@
 ---
-description: Track whatsapp activity, number, profile picture. Check if number is used, download profile pic, check online status.
+description: Global overview of yellow/white pages, court cases, business registries etc.
 ---
 
-# WAtools.io
+# Worldwide Osint Tools map
 
 ## URL
 
-http://watools.io/
+https://cipher387.github.io/osintmap/
 
 ## Description
 

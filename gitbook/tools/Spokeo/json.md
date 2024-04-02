@@ -7,15 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Watools.io",
-  "url": "http://watools.io/",
+  "name": "Spokeo",
+  "url": "http://spokeo.com/",
+  "description": "People search through email, phone, name",
   "cost": "Paid",
-  "details": "📞\n",
+  "details": "📞🗣️📧\n",
   "tags": [
-    "whatsapp",
-    "other-networks",
-    "people",
-    "phone-number"
+    "people"
   ]
 }
 ```

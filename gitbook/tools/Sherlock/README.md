@@ -1,12 +1,12 @@
 ---
-description: Track whatsapp activity, number, profile picture. Check if number is used, download profile pic, check online status.
+description: Check usernames on 300 websites and social networks
 ---
 
-# WAtools.io
+# Sherlock
 
 ## URL
 
-http://watools.io/
+https://github.com/sherlock-project/sherlock
 
 ## Description
 

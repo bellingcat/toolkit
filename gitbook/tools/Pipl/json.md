@@ -7,15 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Watools.io",
-  "url": "http://watools.io/",
+  "name": "Pipl",
+  "url": "http://pipl.com/",
+  "description": "Identity information for professionals",
   "cost": "Paid",
-  "details": "📞\n",
+  "details": "📞🗣️📧\n",
   "tags": [
-    "whatsapp",
-    "other-networks",
-    "people",
-    "phone-number"
+    "people"
   ]
 }
 ```

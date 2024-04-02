@@ -7,15 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Watools.io",
-  "url": "http://watools.io/",
-  "cost": "Paid",
-  "details": "📞\n",
+  "name": "MenoM3ay",
+  "url": "https://play.google.com/store/apps/details?id=com.okdme.menoma3ay\\&hl=en\\_CA\\&gl=US",
+  "description": "Caller ID service (mobile app)",
+  "cost": "Free",
+  "details": "📞\nmostly Arab-speaking world",
   "tags": [
-    "whatsapp",
-    "other-networks",
-    "people",
-    "phone-number"
+    "people"
   ]
 }
 ```

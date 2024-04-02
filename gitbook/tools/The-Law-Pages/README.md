@@ -1,12 +1,12 @@
 ---
-description: Track whatsapp activity, number, profile picture. Check if number is used, download profile pic, check online status.
+description: Search criminal court case details in the UK, such as sentence, hearing, defendant, etc.
 ---
 
-# WAtools.io
+# The Law Pages
 
 ## URL
 
-http://watools.io/
+https://www.thelawpages.com/court-cases/court-case-search.php?mode=1
 
 ## Description
 

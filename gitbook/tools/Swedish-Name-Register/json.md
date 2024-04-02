@@ -7,15 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Watools.io",
-  "url": "http://watools.io/",
-  "cost": "Paid",
-  "details": "📞\n",
+  "name": "Swedish Name Register",
+  "url": "https://scb.se/hitta-statistik/sverige-i-siffror/namnsok/",
+  "description": "Find out how common a name is in Sweden based on census data",
+  "cost": "Free",
+  "details": "🗣️\nSweden",
   "tags": [
-    "whatsapp",
-    "other-networks",
-    "people",
-    "phone-number"
+    "people"
   ]
 }
 ```

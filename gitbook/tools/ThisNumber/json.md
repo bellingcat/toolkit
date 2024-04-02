@@ -7,15 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Watools.io",
-  "url": "http://watools.io/",
-  "cost": "Paid",
+  "name": "ThisNumber",
+  "url": "https://sur.ly/o/numberway.com/AA000014",
+  "description": "An international directory of white pages and yellow pages phone books, and online directory enquiries. It's a free, independent and up-to-date guide to telephone directories on the web.",
+  "cost": "Free",
   "details": "📞\n",
   "tags": [
-    "whatsapp",
-    "other-networks",
-    "people",
-    "phone-number"
+    "people"
   ]
 }
 ```

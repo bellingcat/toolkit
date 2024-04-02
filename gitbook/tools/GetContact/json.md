@@ -7,15 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Watools.io",
-  "url": "http://watools.io/",
-  "cost": "Paid",
-  "details": "📞\n",
+  "name": "GetContact",
+  "url": "https://www.getcontact.com/en/",
+  "description": "Phonenumber ID app - draws from crowdsourced contactbooks",
+  "cost": "Free",
+  "details": "📞\nDo not give permission to your actual contact lists.",
   "tags": [
-    "whatsapp",
-    "other-networks",
-    "people",
-    "phone-number"
+    "people"
   ]
 }
 ```
