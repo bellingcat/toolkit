@@ -7,8 +7,14 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-    "url": "https://example.com",
-    "tags": ["tag1", "tag2", "tag3"]
+  "name": "Global Forest Watch",
+  "url": "https://www.globalforestwatch.org/topics/fires/",
+  "description": "Helps detect changes in forest cover (i.e., to track deforestation). Also includes Global Fire Watch (VIRSS data)",
+  "cost": "Free",
+  "details": "📍\nMore environmental maps are in this tab 🌳🐯.",
+  "tags": [
+    "maps-and-satellites"
+  ]
 }
 ```
 {% endcode %}
@@ -24,6 +30,4 @@ These are self explanatory and not likely to change. They should match the infor
 This list of tags will determine which category pages the tool appears on. Tags should be lowercase with dashes between words and no spaces: e.g., "facial-recognition". Seperate tags with a comma `,`.
 
 If a tool is completely free to use, include the tag "free".
-
-If the tool is focused on one specific country (or a limited number of them), tag it with the name of the country as well as "international".
 

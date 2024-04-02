@@ -9,16 +9,18 @@ description: This is the JSON codeblock for this tool
 {
   "name": "YouTube location-based search",
   "url": "http://youtube.github.io/geo-search-tool/search.html",
-  "description": "Location-based search on YouTube, but it's unclear whether it shows where it was uploaded, from which server, or only filters on keywords (e.g. “Paris” in title shows up in Paris)",
+  "description": "Location-based search on YouTube, but it's unclear whether it shows where it was uploaded, from which server, or only filters on keywords (e.g. “Paris” in title shows up in Paris).",
   "cost": "Free",
+  "details": "🖼️\n",
   "tags": [
-    "youtube"
+    "youtube",
+    "maps-and-satellites"
   ]
 }
 ```
 {% endcode %}
 
-Keep the codeblock updated with accurate information. Only edit the **values** (words to the right of the `:` on each line, in light blue font) and do not change the key names (left side, slightly darker blue) or any of the other formatting. Every line should end in a comma except the last line. Every key and value should be enclosed in quotation marks. See below for an explanation of each line.&#x20;
+Keep the codeblock updated with accurate information. Only edit the **values** (words to the right of the `:` on each line, in dark blue font). Do not change the key names (left side, slightly light blue) or any of the other formatting. Every line should end in a comma except the last line. Every key and value should be enclosed in quotation marks. See below for an explanation of each line.&#x20;
 
 ## name, description, url
 

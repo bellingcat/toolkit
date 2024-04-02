@@ -1,12 +1,12 @@
 ---
-description: A brief, one line description of this tool
+description: Helps detect changes in forest cover (i.e., to track deforestation). Also includes Global Fire Watch (VIRSS data)
 ---
 
-# Tool Name
+# Global Forest Watch
 
 ## URL
 
-https://example.com
+https://www.globalforestwatch.org/topics/fires/
 
 ## Description
 

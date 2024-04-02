@@ -36,7 +36,8 @@ const whitelist = [
   'facial-recognition',
   'metadata',
   'image-misc',
-  'people'
+  'people',
+  'maps-and-satellites'
 ];
 
 getPaths('gitbook/categories').filter((category) => {
