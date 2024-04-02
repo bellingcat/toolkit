@@ -7,12 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "mapy.cz",
-  "url": "http://mapy.cz",
-  "description": "Mapping service for Czechia",
-  "cost": "Free",
+  "name": "DNS Trails",
+  "url": "http://dnstrails.com/",
+  "description": "The World's Largest Repository of historical DNS data",
+  "cost": "Paid",
+  "details": " ",
   "tags": [
-    "maps-and-satellites"
+    "websites"
   ]
 }
 ```

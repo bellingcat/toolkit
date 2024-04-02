@@ -7,12 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "mapy.cz",
-  "url": "http://mapy.cz",
-  "description": "Mapping service for Czechia",
-  "cost": "Free",
+  "name": "Whatcms.org",
+  "url": "http://whatcms.org/",
+  "description": "What content-management system is this website using?",
+  "cost": "Paid",
+  "details": " ",
   "tags": [
-    "maps-and-satellites"
+    "websites"
   ]
 }
 ```

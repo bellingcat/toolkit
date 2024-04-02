@@ -7,12 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "mapy.cz",
-  "url": "http://mapy.cz",
-  "description": "Mapping service for Czechia",
-  "cost": "Free",
+  "name": "WebCookies.org",
+  "url": "http://webcookies.org/",
+  "description": "A website security and privacy scanner that, among many other features (mostly focused on GDPR compliance) aggregates large amount of information about advertiser and analytics identifiers of scanned websites, as well as the /ads.txt files.",
+  "cost": "Paid",
+  "details": " ",
   "tags": [
-    "maps-and-satellites"
+    "websites"
   ]
 }
 ```

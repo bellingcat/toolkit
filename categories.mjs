@@ -38,7 +38,8 @@ const whitelist = [
   'image-misc',
   'people',
   'maps-and-satellites',
-  'transport'
+  'transport',
+  'websites'
 ];
 
 getPaths('gitbook/categories').filter((category) => {

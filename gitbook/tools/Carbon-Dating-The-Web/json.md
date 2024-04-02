@@ -7,12 +7,13 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "mapy.cz",
-  "url": "http://mapy.cz",
-  "description": "Mapping service for Czechia",
-  "cost": "Free",
+  "name": "Carbon Dating The Web",
+  "url": "https://carbondate.cs.odu.edu/",
+  "description": "This is a simple application that estimates when a webpage was created. Unfortunately, Carbon Dating won’t show when a page was updated, only created.",
+  "cost": "Paid",
+  "details": " ",
   "tags": [
-    "maps-and-satellites"
+    "websites"
   ]
 }
 ```

@@ -133,8 +133,7 @@
  |
 | [**find2places**](http://github.com/musafir-py/find2places) | Allows querying Google Maps API for two specific places in precise distance from each other within given radius. Useful for geolocating photos and videos. It’s a script, no user-friendly interface. | <mark style="background-color:green;">Free</mark> | 📍
  |
-| [**mapy.cz**](http://mapy.cz) | Mapping service for Czechia | <mark style="background-color:green;">Free</mark> |
- |
+| [**mapy.cz**](http://mapy.cz) | Mapping service for Czechia | <mark style="background-color:green;">Free</mark> |  |
 | [**overpass-turbo**](https://overpass-turbo.eu/) | A web based data mining tool for OpenStreetMap. | <mark style="background-color:green;">Free</mark> | 📍
  |
 | [**satellites.pro**](https://satellites.pro/) | Combines different satellite services Includes web based Apple Maps satellite view (which has better imagery from e.g. Afghanistan than Google has, for example). | <mark style="background-color:green;">Free</mark> | 🛰️
