@@ -10,8 +10,7 @@ description: This is the JSON codeblock for this tool
   "tags": [
     "instagram"
   ],
-  "url": "https://instaloader.github.io",
-  "cost": "Free"
+  "url": "https://instaloader.github.io"
 }
 ```
 {% endcode %}
