@@ -8,11 +8,11 @@ description: >-
 
 ## URL
 
-https://instaloader.github.io
+[https://instaloader.github.io](https://instaloader.github.io)
 
 ## Description
 
-A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case?
+An easy and free instagram scraper
 
 ## Cost
 
@@ -20,31 +20,21 @@ A full description of the tool, any background information needed to use it. Wha
 * [ ] Partially Free
 * [ ] Paid
 
-Pricing or subscription information, if relevant.
-
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>null</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
-Information on the requirement for using a tool, for instance, API key, e-mail address etc.
+For private content you need Instagram username and password
 
 ## Limitations
 
-The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.
-
-## Ethical Considerations
-
-The ethical considerations of each tool should be described.
-
-## Guide
-
-Link to a guide on this tool
+Possible issues with this tool may include hitting rate limits or risking account banning due to frequent access.
 
 ## Tool provider
 
-Name the tool provider (and potentially info on them)
+This is an open source software project developed by [Alexander Graf](https://github.com/aandergr) and sponsored by [rocketapi-io](https://github.com/rocketapi-io).
 
 ## Advertising Trackers
 
