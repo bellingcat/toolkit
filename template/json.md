@@ -25,3 +25,5 @@ This list of tags will determine which category pages the tool appears on. Tags 
 
 If a tool is completely free to use, include the tag "free".
 
+If the tool is focused on one specific country (or a limited number of them), tag it with the name of the country as well as "international".
+
