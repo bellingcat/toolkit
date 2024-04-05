@@ -46,4 +46,4 @@ jobs:
           branch: remove-tool-${{ inputs.toolName }}
           commit-message: "Remove Tool: ${{ inputs.toolName }}"
           title: "Remove Tool: ${{ inputs.toolName }}"
-          body: "This pull request removes a tool."
+          body: "This pull request removes ${{ inputs.toolName }} from gitbook/tools and from SUMMARY.md."
