@@ -1,4 +1,5 @@
 name: Add Tool
+run-name: Add ${{ inputs.toolName }} by @${{ github.actor }}
 
 on:
   workflow_dispatch:
