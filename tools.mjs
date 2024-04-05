@@ -137,4 +137,18 @@ async function createTeam(name) {
   const data = await response.json();
   debug(data);
 }
-export default { createTool, createToolOnGitbook };
+function removeTool(toolName) {
+  // Remove the tool directory
+  if (fs.existsSync(`gitbook/tools/${toolName}`)) {
+    fs.rmSync(`gitbook/tools/${toolName}`, { recursive: true });
+  } else {
+    throw new Error(`Tool ${toolName} not found`);
+  }
+
+  // Read the SUMMARY.md file and remove the markdown link to this tool
+  const summary = fs.readFileSync('gitbook/SUMMARY.md', 'utf-8');
+  const newSummary = summary.replace(new RegExp(`  \\* \\[.*\\]\\(tools/${toolName}\\/README.md\\)\n`), '');
+  fs.writeFileSync('gitbook/SUMMARY.md', newSummary);
+}
+
+export default { createTool, createToolOnGitbook, removeTool };
