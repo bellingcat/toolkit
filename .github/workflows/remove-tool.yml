@@ -1,0 +1,49 @@
+name: Remove Tool
+run-name: Remove ${{ inputs.toolName }} by @${{ github.actor }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      toolName:
+        description: 'Folder name in gitbook/tools'
+        type: string
+        required: true
+
+jobs:
+  remove-tool:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run node script to generate new tool
+        id: node
+        env:
+          TOOL_NAME: ${{ inputs.toolName }}
+        run: |
+          node remove-tool.mjs $TOOL_NAME
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Remove $TOOL_NAME"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: remove-tool-${{ inputs.toolName }}
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: remove-tool-${{ inputs.toolName }}
+          commit-message: "Remove Tool: ${{ inputs.toolName }}"
+          title: "Remove Tool: ${{ inputs.toolName }}"
+          body: "This pull request removes a tool."
