@@ -15,9 +15,9 @@ description: This is the JSON codeblock for this tool
 
 Keep the codeblock updated with accurate information. Only edit the **values** (words to the right of the `:` on each line, in dark blue font). Do not change the key names (left side, slightly light blue) or any of the other formatting. Every line should end in a comma except the last line. Every key and value should be enclosed in quotation marks. See below for an explanation of each line.&#x20;
 
-## name, description
+## name, description (optional)
 
-Optional! If omitted, the name and description will be copied from the page title and page description of the main content.
+If omitted, the name and description will be copied from the page title and page description of the main content. If present, the JSON values override the main content.
 
 ## url
 
