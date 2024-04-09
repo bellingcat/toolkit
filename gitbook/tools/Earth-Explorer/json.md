@@ -9,7 +9,7 @@ description: This is the JSON codeblock for this tool
 {
   "url": "https://earthexplorer.usgs.gov/",
   "tags": [
-    "satellite-imagery",
+    "satellite-imagery"
   ]
 }
 ```
