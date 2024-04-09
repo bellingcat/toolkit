@@ -11,9 +11,12 @@ description: This is the JSON codeblock for this tool
   "url": "http://maps.google.com/",
   "description": "Google’s mapping service offering satellite imagery, street maps, and streetview. Many 3D modelled places in Americas, Australia, Europe, N Africa, and SE Asia. Probably the easiest-to-navigate mapping service of all. No historical satellite imagery, but historic Streetview images available in many places.",
   "cost": "Free",
-  "details": "🛰️🖼️📍\n[How (Not) To Report On Russian Disinformation](https://www.bellingcat.com/resources/how-tos/2020/04/15/how-not-to-report-on-russian-disinformation/)",
+  "details": "[How (Not) To Report On Russian Disinformation](https://www.bellingcat.com/resources/how-tos/2020/04/15/how-not-to-report-on-russian-disinformation/)",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites",
+    "maps",
+    "street-view"
   ]
 }
 ```

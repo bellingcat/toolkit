@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "http://earth.esa.int/web/guest/eoli",
   "description": "Consolidates European Space Agency’s earth observation data on topics such as temperature, agriculture, and ice sheets.",
   "cost": "Free",
-  "details": "🛰️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites"
   ]
 }
 ```

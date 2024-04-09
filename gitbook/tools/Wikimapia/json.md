@@ -13,7 +13,9 @@ description: This is the JSON codeblock for this tool
   "cost": "Free",
   "details": "🖼️📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps",
+    "street-view"
   ]
 }
 ```

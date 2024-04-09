@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "http://en.mappy.com/",
   "description": "Mapping service (and streetview in a couple of French cities \\[double check this!])",
   "cost": "Free",
-  "details": "🛰️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites"
   ]
 }
 ```

@@ -11,9 +11,11 @@ description: This is the JSON codeblock for this tool
   "url": "http://yandex.com/maps",
   "description": "Yandex's mapping service offering satellite imagery, street maps, and streetview (“Panorama”). It also crowdsources a lot of 'streetview' imagery through the \"mirror\" function, from both vehicles and pedestrians.",
   "cost": "Free",
-  "details": "🛰️🖼️📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites",
+    "maps",
+    "street-view"
   ]
 }
 ```

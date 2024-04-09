@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "https://www.statcan.gc.ca/eng/lode/databases",
   "description": "Database of \\~4.4. million buildings in Canada (comes in GIS format) from Statistics Canada.",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps"
   ]
 }
 ```

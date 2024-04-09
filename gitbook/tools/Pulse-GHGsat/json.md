@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "https://pulse.ghgsat.com/",
   "description": "Global Methane Concentration per week",
   "cost": "Free",
-  "details": "🛰️",
   "tags": [
     "maps-and-satellites",
+    "satellites",
     "environment-and-wildlife"
   ]
 }

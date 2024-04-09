@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "http://mapa.sk/",
   "description": "Mapping service for Slovakia",
   "cost": "Free",
-  "details": "🛰️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites"
   ]
 }
 ```

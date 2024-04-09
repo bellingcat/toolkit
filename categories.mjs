@@ -37,11 +37,13 @@ const whitelist = [
   'metadata',
   'image-misc',
   'people',
-  'maps-and-satellites',
   'transport',
   'websites',
   'companies-and-finance',
-  'environment-and-wildlife'
+  'environment-and-wildlife',
+  'maps',
+  'satellites',
+  'street-view'
 ];
 
 getPaths('gitbook/categories').filter((category) => {

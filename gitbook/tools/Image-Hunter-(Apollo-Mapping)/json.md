@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "https://imagehunter.apollomapping.com/",
   "description": "Find available high-res images per location",
   "cost": "Paid",
-  "details": "🖼️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "street-view"
   ]
 }
 ```

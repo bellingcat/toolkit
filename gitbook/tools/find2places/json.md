@@ -11,9 +11,10 @@ description: This is the JSON codeblock for this tool
   "url": "http://github.com/musafir-py/find2places",
   "description": "Allows querying Google Maps API for two specific places in precise distance from each other within given radius. Useful for geolocating photos and videos. It’s a script, no user-friendly interface.",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps",
+    "geolocation"
   ]
 }
 ```

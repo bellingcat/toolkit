@@ -30,7 +30,7 @@
 | [**Open Water Oil Spill Identification**](https://response.restoration.noaa.gov/sites/default/files/OWJA\_2016.pdf) | PDF of US dep of Commerce to assess color/appearance and structure/distribution of oil spilled on the water. | <mark style="background-color:green;">Free</mark> | 🛢️ |
 | [**Pangolin trade (EIA)**](https://eia-international.org/wildlife/wildlife-trade-maps/illegal-trade-seizures-pangolins/) | Pangolin seizures globally, mapped. | <mark style="background-color:green;">Free</mark> | 🛃 |
 | [**Poach Tracker (Oxpeckers)**](https://oxpeckers.org/poach-tracker-map/) | Rhino death's across Southern Africa, mapped. | <mark style="background-color:green;">Free</mark> | 🦏 |
-| [**Pulse GHGsat**](https://pulse.ghgsat.com/) | Global Methane Concentration per week | <mark style="background-color:green;">Free</mark> | 🛰️ |
+| [**Pulse GHGsat**](https://pulse.ghgsat.com/) | Global Methane Concentration per week | <mark style="background-color:green;">Free</mark> |  |
 | [**Rhino Courtcases (Oxpeckers)**](https://oxpeckers.org/rhinocourtcasesmap/) | Courtcases in Southern Africa related to Rhino poaching, mapped | <mark style="background-color:green;">Free</mark> | 🦏 |
 | [**Rhino seizures (EIA)**](https://eia-international.org/wildlife/wildlife-trade-maps/rhino-horn-illegal-trade-seizures/) | Rhino incidents and traded horn, mapped globally | <mark style="background-color:green;">Free</mark> | 🦏 |
 | [**River Runner Global**](https://river-runner-global.samlearner.com/) | Calculate which water stream a drop of rain will follow | <mark style="background-color:green;">Free</mark> | 💧 |

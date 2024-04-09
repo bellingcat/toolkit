@@ -11,9 +11,10 @@ description: This is the JSON codeblock for this tool
   "url": "http://geotips.net/",
   "description": "Service with information (i.e., road types, sign types, license plate types, etc.) for geolocations",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps",
+    "geolocation"
   ]
 }
 ```

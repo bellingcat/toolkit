@@ -11,10 +11,10 @@ description: This is the JSON codeblock for this tool
   "url": "http://youtube.github.io/geo-search-tool/search.html",
   "description": "Location-based search on YouTube, but it's unclear whether it shows where it was uploaded, from which server, or only filters on keywords (e.g. “Paris” in title shows up in Paris).",
   "cost": "Free",
-  "details": "🖼️\n",
   "tags": [
     "youtube",
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "street-view"
   ]
 }
 ```

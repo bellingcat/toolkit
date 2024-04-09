@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "https://gpsjam.org/",
   "description": "Daily maps of GPS interference",
   "cost": "Free",
-  "details": "🛰️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites"
   ]
 }
 ```

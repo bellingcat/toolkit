@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "https://gaode.com/",
   "description": "Popular mapping service in mainland China. When it comes to navigation for drivers and individuals using public transportation, Gaode Maps seems to be a better job than Baidu Maps.",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps"
   ]
 }
 ```

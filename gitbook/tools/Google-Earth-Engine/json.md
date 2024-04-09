@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "https://developers.google.com/earth-engine/datasets/catalog",
   "description": "Open-access satellite imagery and analytical framework. Virtually any satellite imagery collected from NASA, NOAA, USGS, etc. is available. Moderate and coarse resolution imagery rather than high-resolution commercial imagery. There's a learning curve with Javascript.",
   "cost": "Free",
-  "details": "🛰️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites"
   ]
 }
 ```

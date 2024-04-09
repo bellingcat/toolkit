@@ -11,9 +11,11 @@ description: This is the JSON codeblock for this tool
   "url": "https://chrome.google.com/webstore/detail/map-switcher/fanpjcbgdinjeknjikpfnldfpnnpkelb",
   "description": "Chrome extension: Switch between different map services. Convert coordinates and directions and jump to the same location on another map.",
   "cost": "Free",
-  "details": "🛰️📍🖼️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites",
+    "maps",
+    "street-view"
   ]
 }
 ```

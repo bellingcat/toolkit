@@ -11,9 +11,10 @@ description: This is the JSON codeblock for this tool
   "url": "http://openstreetmap.org/",
   "description": "OpenStreetMap is a collaborative project to create a free editable map of the world.",
   "cost": "Free",
-  "details": "📍\n[How Schoolchildren Became Pawns in Cameroon’s Anglophone Crisis](https://www.bellingcat.com/news/africa/2021/07/16/how-schoolchildren-became-pawns-in-cameroons-anglophone-crisis/)",
+  "details": "[How Schoolchildren Became Pawns in Cameroon’s Anglophone Crisis](https://www.bellingcat.com/news/africa/2021/07/16/how-schoolchildren-became-pawns-in-cameroons-anglophone-crisis/)",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps"
   ]
 }
 ```

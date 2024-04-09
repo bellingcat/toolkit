@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "http://mapillary.com/",
   "description": "Crowdsourced street-level photos. A useful addition to Google StreetView. Little to no coverage in countries like Syria, Iraq, etc.",
   "cost": "Free",
-  "details": "🖼️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "street-view"
   ]
 }
 ```

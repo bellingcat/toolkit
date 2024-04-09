@@ -11,9 +11,10 @@ description: This is the JSON codeblock for this tool
   "url": "https://openinframap.org/#2/26/12",
   "description": "Power lines, telecoms, solar, oil, gas & water infrastructure mapped globally.",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps",
+    "infrastructure"
   ]
 }
 ```

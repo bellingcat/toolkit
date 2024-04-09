@@ -11,9 +11,11 @@ description: This is the JSON codeblock for this tool
   "url": "http://map.baidu.com/",
   "description": "Baidu’s mapping service offering satellite imagery, street maps, and streetview (“Panorama” - zh:百度全景).",
   "cost": "Free",
-  "details": "🛰️🖼️📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps",
+    "satellite-imagery",
+    "street-view"
   ]
 }
 ```

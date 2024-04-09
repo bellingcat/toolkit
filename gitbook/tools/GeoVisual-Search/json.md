@@ -11,9 +11,12 @@ description: This is the JSON codeblock for this tool
   "url": "http://search.descarteslabs.com/?layer=naip\\_v2\\_rgb\\_2014-2015#lat=39.2322531\\&lng=-100.8544921\\&skipTut=true\\&zoom=5",
   "description": "Search engine that lets users visually query images for similar geographic features. The platform from Descartes Labs is built on satellite imagery from Landsat, the National Agriculture Imagery Program (NAIP), and PlanetScope.",
   "cost": "Free",
-  "details": "🛰️\n[yes](https://medium.com/descarteslabs-team/searching-the-world-wide-world-357828cf479a)",
+  "details": "[Guide](https://medium.com/descarteslabs-team/searching-the-world-wide-world-357828cf479a)",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites",
+    "reverse-image-search",
+    "geolocation"
   ]
 }
 ```

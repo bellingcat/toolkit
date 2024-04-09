@@ -11,9 +11,10 @@ description: This is the JSON codeblock for this tool
   "url": "https://demo.f4map.com/#lat=52.5208538\\&lon=13.4061429\\&zoom=17\\&camera.theta=80\\&camera.phi=-60.734",
   "description": "Global map of 3D buildings and the shadows they cast at morning, noon, evening.",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps",
+    "shadow-analysis"
   ]
 }
 ```

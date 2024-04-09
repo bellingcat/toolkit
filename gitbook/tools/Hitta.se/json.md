@@ -11,9 +11,13 @@ description: This is the JSON codeblock for this tool
   "url": "http://hitta.se/",
   "description": "Mapping service for Sweden",
   "cost": "Free",
-  "details": "🛰️🖼️📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites",
+    "maps",
+    "street-view",
+    "sweden",
+    "international"
   ]
 }
 ```

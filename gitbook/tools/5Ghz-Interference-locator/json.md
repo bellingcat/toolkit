@@ -11,9 +11,10 @@ description: This is the JSON codeblock for this tool
   "url": "https://orbtwz.users.earthengine.app/view/radarinterferencetracker",
   "description": "Tool that can help indicate military radar activity close to 5Ghz frequency",
   "cost": "Free",
-  "details": "🛰️\n[https://medium.com/@HarelDan/x-marks-the-spot-579cdb1f534b](https://medium.com/@HarelDan/x-marks-the-spot-579cdb1f534b)",
+  "details": "Guide: [https://medium.com/@HarelDan/x-marks-the-spot-579cdb1f534b](https://medium.com/@HarelDan/x-marks-the-spot-579cdb1f534b)",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellite-imagery"
   ]
 }
 ```

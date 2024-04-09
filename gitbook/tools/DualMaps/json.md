@@ -11,9 +11,10 @@ description: This is the JSON codeblock for this tool
   "url": "http://data.mashedworld.com/dualmaps/map.htm",
   "description": "Combines Google’s road maps, aerial view, and street view in one embeddable tool.",
   "cost": "Paid",
-  "details": "🛰️📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites",
+    "maps"
   ]
 }
 ```

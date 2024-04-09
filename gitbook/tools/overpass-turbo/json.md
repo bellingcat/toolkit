@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "https://overpass-turbo.eu/",
   "description": "A web based data mining tool for OpenStreetMap.",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps"
   ]
 }
 ```

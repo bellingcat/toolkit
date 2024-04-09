@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "http://map.what3words.com/",
   "description": "Entire world divided into 3m by 3m squares, and each square is given a 3 word address. For example, the what3words address for Nelson's column in trafalgar square is: cube.soccer.these. This website is especially useful when referring to remote locations and when you are unable to write down a lengthy sentence of exact coordinates.",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps"
   ]
 }
 ```

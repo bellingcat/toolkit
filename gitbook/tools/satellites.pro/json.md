@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "https://satellites.pro/",
   "description": "Combines different satellite services Includes web based Apple Maps satellite view (which has better imagery from e.g. Afghanistan than Google has, for example).",
   "cost": "Free",
-  "details": "🛰️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites"
   ]
 }
 ```

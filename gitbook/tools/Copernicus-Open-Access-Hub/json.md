@@ -11,9 +11,10 @@ description: This is the JSON codeblock for this tool
   "url": "http://scihub.copernicus.eu/",
   "description": "The site for the European Space Agency and for images from Copernicus’ six Sentinel satellites. Better resolution than Landsat. See explanation from the website GISGeography on how to download free images.",
   "cost": "Free",
-  "details": "🛰️\n[yes](https://gisgeography.com/how-to-download-sentinel-satellite-data/)",
+  "details": "[Guide](https://gisgeography.com/how-to-download-sentinel-satellite-data/)",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites"
   ]
 }
 ```

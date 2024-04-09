@@ -12,7 +12,9 @@ description: This is the JSON codeblock for this tool
   "description": "Mapping service for Czechia",
   "cost": "Free",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps",
+    "czechia"
   ]
 }
 ```

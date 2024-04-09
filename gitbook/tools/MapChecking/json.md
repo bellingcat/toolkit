@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "https://www.mapchecking.com/",
   "description": "This tool helps you estimate and fact-check the maximum number of people standing in a given area.",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps"
   ]
 }
 ```

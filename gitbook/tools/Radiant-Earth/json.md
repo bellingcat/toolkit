@@ -11,9 +11,10 @@ description: This is the JSON codeblock for this tool
   "url": "http://radiant.earth/",
   "description": "A non-profit group that helps the global development community discover, explore and analyze satellite, drone and aerial imagery archives. Radiant Earth is working with Code of Africa, among others. Apply to gain assistance via their website. Or contact Radiant Earth.",
   "cost": "Paid",
-  "details": "🛰️📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites",
+    "maps"
   ]
 }
 ```

@@ -9,11 +9,11 @@ description: This is the JSON codeblock for this tool
 {
   "name": "UTM grid zones",
   "url": "http://dmap.co.uk/utmworld.htm",
-  "description": ".",
+  "description": "An overview of the Universal Transverse Mercator coordinate system.",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps"
   ]
 }
 ```

@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "https://map.openseamap.org/",
   "description": "Sea map of borders, special zones, shipping lanes, with overlays of MarineTraffic and other sources",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps"
   ]
 }
 ```

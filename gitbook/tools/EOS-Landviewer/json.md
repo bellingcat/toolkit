@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "http://eos.com/landviewer",
   "description": "EOS Landviewer provides free services for up to 10 images. More images and analysis are available to journalists at a discount. Contact: Artem Seredyuk artem.seredyuk@eosda.com. EOS is in the process of developing a service provisionally called EOS Media that will be providing free images and analysis of major natural disasters.",
   "cost": "Paid",
-  "details": "🛰️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites"
   ]
 }
 ```

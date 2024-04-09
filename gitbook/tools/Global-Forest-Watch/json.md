@@ -11,9 +11,10 @@ description: This is the JSON codeblock for this tool
   "url": "https://www.globalforestwatch.org/topics/fires/",
   "description": "Helps detect changes in forest cover (i.e., to track deforestation). Also includes Global Fire Watch (VIRSS data)",
   "cost": "Free",
-  "details": "📍🌳",
+  "details": "🌳",
   "tags": [
     "maps-and-satellites",
+    "maps",
     "environment-and-wildlife"
   ]
 }

@@ -11,9 +11,10 @@ description: This is the JSON codeblock for this tool
   "url": "https://geohints.com/",
   "description": "Overview of different traffic lights, utility poles, bollards etc on Google Streetview",
   "cost": "Free",
-  "details": "🖼️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "street-view",
+    "geolocation"
   ]
 }
 ```

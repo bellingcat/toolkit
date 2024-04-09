@@ -11,9 +11,11 @@ description: This is the JSON codeblock for this tool
   "url": "https://trident.yuiseki.net/",
   "description": "AI help for querying Overpass Turbo. Simply write what features you're looking for on a map.",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps",
+    "geolocation",
+    "artificial-intelligence"
   ]
 }
 ```

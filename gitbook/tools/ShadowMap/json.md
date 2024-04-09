@@ -11,9 +11,10 @@ description: This is the JSON codeblock for this tool
   "url": "https://app.shadowmap.org/",
   "description": "Global map of 3D buildlings and the shadows they cast at a specific time a day",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps",
+    "shadow-analysis"
   ]
 }
 ```

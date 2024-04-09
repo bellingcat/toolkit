@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "https://www.echosec.net/",
   "description": "Aggregated location-based searches on Twitter, VK, Foursquare.",
   "cost": "Paid",
-  "details": "🖼️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "street-view"
   ]
 }
 ```

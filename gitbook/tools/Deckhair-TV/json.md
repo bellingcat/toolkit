@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "https://tv.deckchair.com/",
   "description": "Open webcams from hotels (??); some of them are strategically located",
   "cost": "Free",
-  "details": "🖼️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "street-view"
   ]
 }
 ```

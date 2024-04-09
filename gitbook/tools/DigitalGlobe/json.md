@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "http://discover.digitalglobe.com/",
   "description": "Satellite imagery vendor. Preview available via the catalogue, search tool very easy to use.",
   "cost": "Paid",
-  "details": "🛰️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites"
   ]
 }
 ```

@@ -11,9 +11,11 @@ description: This is the JSON codeblock for this tool
   "url": "https://gjirafa.biz/",
   "description": "Mapping service for Albania (specially Kosovo)",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps",
+    "albania",
+    "international"
   ]
 }
 ```

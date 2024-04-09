@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "http://industryabout.com/country-territories-3",
   "description": "Maps per country showing industrial plants, e.g. power, hydroelectric, nuclear, coal, oil refineries, etc.",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps"
   ]
 }
 ```

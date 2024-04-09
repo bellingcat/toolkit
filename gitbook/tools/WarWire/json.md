@@ -11,9 +11,10 @@ description: This is the JSON codeblock for this tool
   "url": "http://warwire.net/",
   "description": "Location-based searches on Twitter, VK, and Instagram.",
   "cost": "Paid",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps",
+    "vkontakte"
   ]
 }
 ```

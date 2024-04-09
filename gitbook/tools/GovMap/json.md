@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "https://www.govmap.gov.il/?c=227012.95,707790.18\\&z=8\\&b=1",
   "description": "Very high res imagery for Israel/Palestine",
   "cost": "Free",
-  "details": "🛰️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites"
   ]
 }
 ```

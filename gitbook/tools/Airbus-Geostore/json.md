@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "http://intelligence-airbusds.com/geostore",
   "description": "Platform to get a preview of their imagery and order images.",
   "cost": "Paid",
-  "details": "🛰️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellite-imagery"
   ]
 }
 ```

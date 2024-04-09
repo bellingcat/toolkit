@@ -13,7 +13,9 @@ description: This is the JSON codeblock for this tool
   "cost": "Free",
   "details": "📍\n[Mahbere Dego: Clues to a Clifftop Massacre in Ethiopia](https://www.bellingcat.com/news/2021/04/01/mahbere-dego-clues-to-a-clifftop-massacre-in-ethiopia/)",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps",
+    "geolocation"
   ]
 }
 ```

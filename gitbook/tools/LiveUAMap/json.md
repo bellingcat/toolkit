@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "https://liveuamap.com/",
   "description": "Timeline of news and zones of control in conflict / civil unrest areas, globally",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps"
   ]
 }
 ```

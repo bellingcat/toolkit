@@ -11,9 +11,11 @@ description: This is the JSON codeblock for this tool
   "url": "http://www.qgis.org/",
   "description": "Open source GIS programme. Has many user add-ons, including creating 3D landscapes using LiDAR data. Steep learning curve.",
   "cost": "Free",
-  "details": "📍\n[yes](https://www.qgis.org/en/site/forusers/trainingmaterial/index.html)",
+  "details": "[Guide](https://www.qgis.org/en/site/forusers/trainingmaterial/index.html)",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps",
+    "satellites"
   ]
 }
 ```

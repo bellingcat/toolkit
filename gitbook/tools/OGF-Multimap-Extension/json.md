@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "https://wiki.opengeofiction.net/index.php/Help:Using\\_the\\_MultiMaps\\_extension",
   "description": "Highlights locations from a given Wikipedia article on the OGF map",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps"
   ]
 }
 ```

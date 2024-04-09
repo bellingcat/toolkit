@@ -11,9 +11,11 @@ description: This is the JSON codeblock for this tool
   "url": "http://carte.ma/",
   "description": "Mapping/streetview service for Morocco",
   "cost": "Free",
-  "details": "🖼️\n",
   "tags": [
-    "maps-and-satellites"
+    "morroco",
+    "international",
+    "maps-and-satellites",
+    "street-view"
   ]
 }
 ```

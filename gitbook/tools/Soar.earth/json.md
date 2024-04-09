@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "https://soar.earth/?pos=-24.806025673047216%2C112.37019712776902%2C7",
   "description": "Aerial, satellite and drone imagery on a global map.",
   "cost": "Paid",
-  "details": "🛰️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites"
   ]
 }
 ```

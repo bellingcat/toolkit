@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "http://wego.here.com/",
   "description": "More recent satellite imagery from places like Afghanistan and Iran than Google has.",
   "cost": "Free",
-  "details": "🛰️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites"
   ]
 }
 ```

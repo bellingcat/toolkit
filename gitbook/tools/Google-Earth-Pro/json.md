@@ -11,9 +11,12 @@ description: This is the JSON codeblock for this tool
   "url": "https://www.google.com/earth/download/gep/agree.html",
   "description": "More functions than the web-based version. Make sure to check download additional layers, such as overlays for Bing Maps, Geonames, and Wikimapia.",
   "cost": "Free",
-  "details": "🛰️🖼️📍\n[How to Identify Burnt Villages through Satellite Imagery](https://www.bellingcat.com/resources/how-tos/2018/09/04/identify-burnt-villages-satellite-imagery%E2%80%8A-case-studies-california-nigeria-myanmar/)",
+  "details": "[How to Identify Burnt Villages through Satellite Imagery](https://www.bellingcat.com/resources/how-tos/2018/09/04/identify-burnt-villages-satellite-imagery%E2%80%8A-case-studies-california-nigeria-myanmar/)",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites",
+    "maps",
+    "street-view"
   ]
 }
 ```

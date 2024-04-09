@@ -11,9 +11,11 @@ description: This is the JSON codeblock for this tool
   "url": "https://labs.tib.eu/geoestimation/",
   "description": "Platform that estimates image location using deep learning/AI.",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps",
+    "geolocation",
+    "artificial-intelligence"
   ]
 }
 ```

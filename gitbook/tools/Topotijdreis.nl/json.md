@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "http://topotijdreis.nl",
   "description": "Over 200 years of maps and topography from the Netherlands.",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps"
   ]
 }
 ```

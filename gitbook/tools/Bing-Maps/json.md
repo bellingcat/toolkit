@@ -11,9 +11,11 @@ description: This is the JSON codeblock for this tool
   "url": "http://bing.com/maps",
   "description": "Microsoft Bing’s mapping service offering satellite imagery and street maps. (Streetview only appears in some countries, use a VPN and go US if it's not there)",
   "cost": "Free",
-  "details": "🛰️🖼️📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps",
+    "satellite-imagery",
+    "street-view"
   ]
 }
 ```

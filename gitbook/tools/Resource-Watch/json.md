@@ -9,11 +9,11 @@ description: This is the JSON codeblock for this tool
 {
   "name": "Resource Watch",
   "url": "https://resourcewatch.org/data/explore",
-  "description": "<p><br>A nonprofit platform, still in beta, that provides hundreds of data sets on the state of the planet’s resources and citizens. It is sponsored by the World Resources Institute and other organizations.<br></p>",
+  "description": "A nonprofit platform, still in beta, that provides hundreds of data sets on the state of the planet’s resources and citizens. It is sponsored by the World Resources Institute and other organizations.",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps"
   ]
 }
 ```

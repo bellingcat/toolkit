@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "http://descarteslabs.com/",
   "description": "A commercial service that collects data daily from public and commercial imagery providers. Will help journalists. “We do not charge for these requests, only ask that they are credited,” as mentioned on GIJN.",
   "cost": "Paid",
-  "details": "🛰️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites"
   ]
 }
 ```

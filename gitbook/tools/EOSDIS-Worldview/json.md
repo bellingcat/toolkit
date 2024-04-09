@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "https://worldview.earthdata.nasa.gov/",
   "description": "Visually explore the past and the present of this dynamic planet from a satellite's perspective. Select from an array of stories below to learn more about Worldview, the satellite imagery we provide and events occurring around the world.",
   "cost": "Free",
-  "details": "🛰️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites"
   ]
 }
 ```

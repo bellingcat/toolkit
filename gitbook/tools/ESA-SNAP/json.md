@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "http://step.esa.int/main/toolboxes/snap",
   "description": "A remote sensing program created by the European Space Agency which lets you perform various enhancements and manipulations to remotely sensed data.",
   "cost": "Free",
-  "details": "🛰️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites"
   ]
 }
 ```

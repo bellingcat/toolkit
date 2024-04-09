@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "http://geograph.org/",
   "description": "Georeferenced images.",
   "cost": "Free",
-  "details": "🖼️\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "street-view"
   ]
 }
 ```

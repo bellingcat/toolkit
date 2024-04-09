@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "http://synnatschke.de/geo-tools/coordinate-converter.php",
   "description": "Convert geographic coordinates between different notation styles.",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps"
   ]
 }
 ```

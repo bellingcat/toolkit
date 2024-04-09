@@ -11,9 +11,9 @@ description: This is the JSON codeblock for this tool
   "url": "https://map.nbr.org/interactivemap/",
   "description": "South China Sea maps with oil and gas fields, fishing areas, air defense zones and administrative, claimed, disputed zones, submarine data cables.",
   "cost": "Free",
-  "details": "📍\n",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "maps"
   ]
 }
 ```

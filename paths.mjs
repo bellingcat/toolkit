@@ -12,7 +12,12 @@ function markdownToJson(filepath) {
     const markdown = fs.readFileSync(filepath, 'utf-8');
     const matches = markdown.match(/```(json)?\n([\s\S]+)\n```/);
     if (matches) {
-      return JSON.parse(matches[2]);
+      try {
+        return JSON.parse(matches[2]);
+      } catch (e) {
+        console.error(`Error parsing JSON in ${filepath}`);
+        throw e;
+      }
     }
   }
   return {};

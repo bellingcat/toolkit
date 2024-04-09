@@ -11,9 +11,10 @@ description: This is the JSON codeblock for this tool
   "url": "http://apps.sentinel-hub.com/sentinel-playground",
   "description": "A user-friendly place for Sentinel 2/Landsat images. Updated every 5-10 days with new imagery, dependent on cloud cover. Ability to explore a variety of GIS variables eg NDVI or NDWO. The EO Browser facilitates time-lapse reviews. Generally low resolution of 10m/px.",
   "cost": "Free",
-  "details": "🛰️\n[Using Time-Lapse Satellite Imagery To Detect Infrastructure Changes](https://www.bellingcat.com/resources/how-tos/2018/11/19/using-time-lapse-satellite-imagery-detect-infrastructure-changes-case-studies-via-myanmar-nigeria-south-china-sea/)",
+  "details": "[Using Time-Lapse Satellite Imagery To Detect Infrastructure Changes](https://www.bellingcat.com/resources/how-tos/2018/11/19/using-time-lapse-satellite-imagery-detect-infrastructure-changes-case-studies-via-myanmar-nigeria-south-china-sea/)",
   "tags": [
-    "maps-and-satellites"
+    "maps-and-satellites",
+    "satellites"
   ]
 }
 ```
