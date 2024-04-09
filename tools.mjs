@@ -1,4 +1,7 @@
 import fs from 'fs';
+import path from 'path';
+import pkg from './paths.mjs'
+const {processMarkdownFile} = pkg;
 
 /* Example
 createTool({
@@ -151,4 +154,29 @@ function removeTool(toolName) {
   fs.writeFileSync('gitbook/SUMMARY.md', newSummary);
 }
 
-export default { createTool, createToolOnGitbook, removeTool };
+function getTools() {
+  const pathname = 'gitbook/tools';
+  return fs.readdirSync(pathname).flatMap((filename) => {
+    if (filename[0] === ".") { return null; } // ignore hidden files
+
+    // process README.md in each tool directory
+    const filepath = path.join(pathname, filename, 'README.md');
+    if (fs.existsSync(filepath)) {
+      return processMarkdownFile(filepath, filename, [], 'more/all-tools');
+    }
+
+    throw new Error(`No README.md found in ${filename}`);
+
+  });
+}
+
+function updateToolJSON(tool, json) {
+  const slug = tool.slug.slice(-1);
+  const pathname = `gitbook/tools/${slug}/json.md`;
+
+  console.log('Updating', pathname);
+  fs.writeFileSync(pathname, toolToJson(json));
+  tool.json = json;
+}
+
+export default { createTool, createToolOnGitbook, getTools, removeTool, updateToolJSON };

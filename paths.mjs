@@ -41,10 +41,12 @@ function processMarkdownFile(filepath, filename, slug = [], webRoot) {
     slug = [...slug, page];
   }
   return {
+    content,
     ...data,
-    slug, title, content, filepath, filename, cost,
+    slug, title, filepath, filename, cost,
     href: `/${path.join(webRoot, slug.join('/'))}`,
-    ...json // json overrides content
+    ...json, // json name/description values override content
+    json     // the original json structure
   };
 }
 

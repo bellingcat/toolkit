@@ -1,24 +1,11 @@
 import fs from 'fs';
 import path from 'path';
+import tools from './tools.mjs'
+const { getTools } = tools;
 import pkg from './paths.mjs'
 const {getPaths, processMarkdownFile} = pkg;
 
-function getTools(pathname) {
-  return fs.readdirSync(pathname).flatMap((filename) => {
-    if (filename[0] === ".") { return null; } // ignore hidden files
-
-    // process README.md in each tool directory
-    const filepath = path.join(pathname, filename, 'README.md');
-    if (fs.existsSync(filepath)) {
-      return processMarkdownFile(filepath, filename, [], 'more/all-tools');
-    }
-
-    throw new Error(`No README.md found in ${filename}`);
-
-  });
-}
-
-const tools = getTools('gitbook/tools');
+const allTools = getTools();
 const whitelist = [
   'twitter',
   'instagram',
@@ -42,7 +29,7 @@ const whitelist = [
   'companies-and-finance',
   'environment-and-wildlife',
   'maps',
-  'satellites',
+  'satellite-imagery',
   'street-view'
 ];
 
@@ -50,7 +37,7 @@ getPaths('gitbook/categories').filter((category) => {
   const tag = category.slug.slice(-1)[0];
   return category.filename !== 'README.md' && whitelist.includes(tag);
 }).forEach((category) => {
-  const categoryTools = tools.filter((tool) => {
+  const categoryTools = allTools.filter((tool) => {
     return tool.tags && tool.tags.includes(category.slug.slice(-1)[0]);
   }).map((tool) => {
     return {
