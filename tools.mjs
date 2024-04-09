@@ -178,17 +178,10 @@ function updateToolJSON(tool, json) {
   tool.json = json;
 }
 
-function rewriteJSON() {
-  getTools().forEach((tool) => {
-    updateToolJSON(tool, tool.json);
-  });
-}
-
 export default {
   createTool,
   createToolOnGitbook,
   getTools,
   removeTool,
   updateToolJSON,
-  rewriteJSON
 };

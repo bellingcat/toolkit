@@ -17,6 +17,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Validate and format JSON
+        run: node lint-json.mjs
+
       - name: Run node script to update categories
         run: |
           node categories.mjs
