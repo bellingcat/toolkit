@@ -29,9 +29,14 @@ jobs:
 
       - uses: dorny/paths-filter@v3
         id: changes
+        with:
+          base: HEAD
+          filters: |
+            all:
+              - '**'
 
       - name: Commit changes
-        if: steps.changes.outputs.src == 'true'
+        if: steps.changes.outputs.all == 'true'
 
         run: |
           git config --local user.email "action@github.com"
