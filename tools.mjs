@@ -171,12 +171,24 @@ function getTools() {
 }
 
 function updateToolJSON(tool, json) {
-  const slug = tool.slug.slice(-1);
-  const pathname = `gitbook/tools/${slug}/json.md`;
+  const pathname = tool.jsonFilePath;
 
   console.log('Updating', pathname);
   fs.writeFileSync(pathname, toolToJson(json));
   tool.json = json;
 }
 
-export default { createTool, createToolOnGitbook, getTools, removeTool, updateToolJSON };
+function rewriteJSON() {
+  getTools().forEach((tool) => {
+    updateToolJSON(tool, tool.json);
+  });
+}
+
+export default {
+  createTool,
+  createToolOnGitbook,
+  getTools,
+  removeTool,
+  updateToolJSON,
+  rewriteJSON
+};

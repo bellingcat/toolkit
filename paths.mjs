@@ -43,8 +43,9 @@ function processMarkdownFile(filepath, filename, slug = [], webRoot) {
   return {
     content,
     ...data,
-    slug, title, filepath, filename, cost,
+    slug, title, filename, filepath, jsonFilePath,
     href: `/${path.join(webRoot, slug.join('/'))}`,
+    cost,
     ...json, // json name/description values override content
     json     // the original json structure
   };
