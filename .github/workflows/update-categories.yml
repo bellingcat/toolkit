@@ -23,7 +23,7 @@ jobs:
       - name: Run node script to update categories
         run: |
           node categories.mjs
-          if git diff --exit-code; then
+          if $(git diff --exit-code); then
             echo "{changes_exist}={true}" >> "$GITHUB_ENV"
           fi
 
