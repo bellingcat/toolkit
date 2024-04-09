@@ -27,8 +27,12 @@ jobs:
             echo "{changes_exist}={true}" >> "$GITHUB_ENV"
           fi
 
+      - uses: dorny/paths-filter@v3
+        id: changes
+
       - name: Commit changes
-        if: ${{ env.changes_exist == 'true' }}
+        if: steps.changes.outputs.src == 'true'
+
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -36,13 +40,13 @@ jobs:
           git commit -m "Update categories"
 
       - name: Push changes
-        if: ${{ env.changes_exist == 'true' }}
+        if: steps.changes.outputs.src == 'true'
         uses: ad-m/github-push-action@master
         with:
           branch: update-categories-${{ github.run_number }}
 
       - name: Create Pull Request
-        if: ${{ env.changes_exist == 'true' }}
+        if: steps.changes.outputs.src == 'true'
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
