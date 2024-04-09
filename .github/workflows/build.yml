@@ -1,4 +1,4 @@
-name: Update Categories
+name: Build
 
 on:
   push:
@@ -34,21 +34,32 @@ jobs:
           filters: |
             all:
               - '**'
+            categories:
+              - 'gitbook/categories/**'
+            tools:
+              - 'gitbook/tools/**'
 
-      - name: Commit changes
-        if: steps.changes.outputs.all == 'true'
-
+      - name: Commit categories
+        if: steps.changes.outputs.categories == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m "Update categories"
+          git commit -m "Update Categories"
+
+      - name: Commit tools
+        if: steps.changes.outputs.tools == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Update Tools"
 
       - name: Push changes
         if: steps.changes.outputs.all == 'true'
         uses: ad-m/github-push-action@master
         with:
-          branch: update-categories-${{ github.run_number }}
+          branch: build-${{ github.run_number }}
 
       - name: Create Pull Request
         if: steps.changes.outputs.all == 'true'
@@ -56,6 +67,5 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: update-categories-${{ github.run_number }}
-          commit-message: "Update categories"
           title: "Update Categories"
-          body: "This pull request updates the categories."
+          body: "This pull request updates the build based on latest changes."
