@@ -11,7 +11,6 @@ description: This is the JSON codeblock for this tool
   "url": "http://wikimapia.org/",
   "description": "Crowdsourced information related to geographic locations. Possibility to switch between Google/Bing/OSM. Massive amount of UCG information. Can be laggy, and need to refresh page after a view searches. Lost Google API.",
   "cost": "Free",
-  "details": "🖼️📍\n",
   "tags": [
     "maps-and-satellites",
     "maps",
