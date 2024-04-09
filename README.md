@@ -5,4 +5,5 @@ Markdown content for each tool is managed on gitbook and synced to this reposito
 An automatic workflow will regenerate tool lists and other markdown pages which
 are then synced back to gitbook for rendering.
 
+[![Build Status](https://github.com/bellingcat/toolkit/actions/workflows/update-categories.yml/badge.svg)](https://github.com/bellingcat/toolkit/actions/workflows/update-categories.yml)
 
