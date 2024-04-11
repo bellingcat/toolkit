@@ -32,7 +32,7 @@ jobs:
         env:
           TOOL_NAME: ${{ inputs.toolName }}
         run: |
-          node add-tool.mjs $TOOL_NAME
+          node add-tool.mjs "$TOOL_NAME"
           if git status --porcelain; then
             echo "{changes_exist}={true}" >> "$GITHUB_ENV"
           fi
