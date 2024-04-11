@@ -44,7 +44,16 @@ jobs:
         run: |
           node add-tool.mjs $TOOL_NAME
 
+      - uses: dorny/paths-filter@v3
+        id: changes
+        with:
+          base: HEAD
+          filters: |
+            tools:
+              - 'gitbook/tools/**'
+
       - name: Commit changes
+        if: steps.changes.outputs.tools == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -52,15 +61,8 @@ jobs:
           git commit -m "Add $TOOL_NAME"
 
       - name: Push changes
+        if: steps.changes.outputs.tools == 'true'
         uses: ad-m/github-push-action@master
         with:
-          branch: add-tool-${{ inputs.toolName }}
+          branch: main
 
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: add-tool-${{ inputs.toolName }}
-          commit-message: "Add Tool: ${{ inputs.toolName }}"
-          title: "Add Tool: ${{ inputs.toolName }}"
-          body: "This pull request adds a new tool."
