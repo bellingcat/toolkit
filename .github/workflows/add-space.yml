@@ -25,7 +25,7 @@ jobs:
       - name: Create Gitbook Space and Team
         id: node
         env:
-          TOOL_NAME: ${{ inputs.toolName }}
+          TOOL_NAME: ${{ inputs.spaceName }}
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
         run: echo "url=$(node add-space.mjs $TOOL_NAME)" >> "$GITHUB_OUTPUT"
 
