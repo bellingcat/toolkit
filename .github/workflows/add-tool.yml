@@ -33,12 +33,12 @@ jobs:
           TOOL_NAME: ${{ inputs.toolName }}
         run: |
           node add-tool.mjs "$TOOL_NAME"
-          if $(git status --porcelain); then
-            echo "changes_exist=true" >> "$GITHUB_OUTPUT"
+          if git status --porcelain; then
+            echo "changes=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Commit changes
-        if: ${{ steps.add-folder.outputs.changes_exist == 'true' }}
+      - name: Commit changes ${{ steps.add-folder.outputs.changes }}
+        if: ${{ steps.add-folder.outputs.changes == 'true' }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -46,7 +46,7 @@ jobs:
           git commit -m "Add $TOOL_NAME"
 
       - name: Push changes
-        if: ${{ steps.add-folder.outputs.changes_exist == 'true' }}
+        if: ${{ steps.add-folder.outputs.changes == 'true' }}
         uses: ad-m/github-push-action@master
         with:
           branch: main
