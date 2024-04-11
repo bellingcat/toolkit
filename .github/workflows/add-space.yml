@@ -12,8 +12,6 @@ on:
 jobs:
   add-space:
     runs-on: ubuntu-latest
-    outputs:
-      url: ${{ steps.node.outputs.url }}
 
     steps:
       - name: Checkout code
@@ -27,15 +25,5 @@ jobs:
         env:
           TOOL_NAME: ${{ inputs.spaceName }}
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
-        run: echo "url=$(node add-space.mjs $TOOL_NAME)" >> "$GITHUB_OUTPUT"
+        run: node add-space.mjs $TOOL_NAME
 
-      - name: ${{ steps.node.outputs.url }}
-        run: echo ${{ steps.node.outputs.url }}
-  result:
-    runs-on: ubuntu-latest
-    needs: add-space
-    name: ${{ needs.add-space.outputs.url }}
-    steps:
-       - env:
-          url: ${{needs.add-space.outputs.url}}
-         run: echo "$URL"

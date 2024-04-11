@@ -13,9 +13,7 @@ createTool({
 });
 */
 function debug(...args) {
-  if (process.env.DEBUG) {
     console.debug(...args);
-  }
 }
 function toolToJson(tool) {
   const json = JSON.stringify(tool, null, 2);
