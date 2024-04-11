@@ -23,9 +23,6 @@ jobs:
       - name: Run node script to update categories
         run: |
           node categories.mjs
-          if git status --porcelain; then
-            echo "{changes_exist}={true}" >> "$GITHUB_ENV"
-          fi
 
       - uses: dorny/paths-filter@v3
         id: changes
