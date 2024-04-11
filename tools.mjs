@@ -31,7 +31,7 @@ function toolToReadme(tool) {
 function createTool(tool, opts={}) {
   const { name, tags } = tool;
   debug('Creating tool', name);
-  const slug = name.replace(/\s/g, '-');
+  const slug = name.replace(/\s/g, '-').toLowerCase();
   const pathname = `gitbook/tools/${slug}`;
 
   if (!opts.overwrite && fs.existsSync(pathname)) {
