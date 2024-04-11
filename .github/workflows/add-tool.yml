@@ -38,8 +38,11 @@ jobs:
           fi
 
       - name: Commit changes ${{ steps.add-folder.outputs.changes }}
+        env:
+          TOOL_NAME: ${{ inputs.toolName }}
         if: ${{ steps.add-folder.outputs.changes == 'true' }}
         run: |
+          git status --porcelain
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
