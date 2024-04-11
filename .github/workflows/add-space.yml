@@ -33,3 +33,6 @@ jobs:
         run: echo ${{ steps.node.outputs.url }}
   result:
     name: ${{ jobs.add-space.outputs.url }}
+    steps:
+      - name: Echo url
+        run: echo ${{ jobs.add-space.outputs.url }}
