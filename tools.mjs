@@ -64,6 +64,9 @@ async function findSpace(name, page='') {
     },
   });
   const data = await response.json();
+  if (data.error) {
+    throw new Error(data.error.message);
+  }
   const space = data.items.find((space) => space.title === name);
   if (space) {
     return space;
@@ -118,7 +121,7 @@ async function findTeam(name, page='') {
     return team;
   }
   if (data.next) {
-    return await findSpace(name, data.next.page);
+    return await findTeam(name, data.next.page);
   }
 }
 
