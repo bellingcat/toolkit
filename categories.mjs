@@ -5,7 +5,7 @@ const { getTools } = tools;
 import pkg from './paths.mjs'
 const {getPaths, processMarkdownFile} = pkg;
 
-const allTools = getTools();
+const allTools = getTools().filter((tool) => tool.draft !== true );
 const whitelist = [
   'twitter',
   'instagram',
