@@ -33,7 +33,7 @@ jobs:
           TOOL_NAME: ${{ inputs.toolName }}
         run: |
           node add-tool.mjs "$TOOL_NAME"
-          if [ -n "$(git status --porcelain)" ];
+          if [ -n "$(git status --porcelain)" ]; then
             echo "changes=true" >> "$GITHUB_OUTPUT"
           fi
 
