@@ -21,14 +21,14 @@ jobs:
         run: npm install
 
       - name: Create Gitbook Space and Team (click here for the link!)
-        id: node
+        id: add-space
         env:
           TOOL_NAME: ${{ inputs.toolName }}
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
         run: node add-space.mjs $TOOL_NAME
 
       - name: Create new tool folder (click here for git sync config!)
-        id: node
+        id: add-folder
         env:
           TOOL_NAME: ${{ inputs.toolName }}
         run: |
