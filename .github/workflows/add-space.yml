@@ -32,6 +32,7 @@ jobs:
       - name: ${{ steps.node.outputs.url }}
         run: echo ${{ steps.node.outputs.url }}
   result:
+    runs-on: ubuntu-latest
     needs: add-space
     name: ${{ needs.add-space.outputs.url }}
     steps:
