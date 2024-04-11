@@ -13,4 +13,3 @@ const slug = createTool({
   url: 'https://example.com',
   tags: []
 });
-console.log(slug);
