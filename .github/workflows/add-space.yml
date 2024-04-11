@@ -1,5 +1,5 @@
-name: Add Space (testing)
-run-name: Add ${{ inputs.spaceName }} by @${{ github.actor }}
+name: Add Space
+run-name: Add Team & Space for ${{ inputs.spaceName }} by @${{ github.actor }}
 
 on:
   workflow_dispatch:
