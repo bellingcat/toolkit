@@ -35,16 +35,17 @@ function createTool(tool, opts={}) {
   const pathname = `gitbook/tools/${slug}`;
 
   if (!opts.overwrite && fs.existsSync(pathname)) {
-    throw new Error(`Directory ${pathname} already exists`);
+    debug("Tool already exists");
+  } else {
+    fs.mkdirSync(pathname, { recursive: true });
+    fs.writeFileSync(`${pathname}/json.md`, toolToJson(tool));
+    fs.writeFileSync(`${pathname}/README.md`, toolToReadme(tool));
+    debug("Tool created");
   }
-
-  fs.mkdirSync(pathname, { recursive: true });
-  fs.writeFileSync(`${pathname}/json.md`, toolToJson(tool));
-  fs.writeFileSync(`${pathname}/README.md`, toolToReadme(tool));
-  debug("Tool created");
-  debug("Slug: ", slug);
-  debug("Monorepo project directory: ", pathname);
-  debug("Commit message template:", `GITBOOK-${slug}-{change_request_number}: {change_request_subject}`);
+  debug("******GITSYNC CONFIGURATION******");
+  debug("Monorepo project directory :", pathname);
+  debug("Commit message template    :", `GITBOOK-${slug}-{change_request_number}: {change_request_subject}`);
+  debug("*********************************");
   return slug;
 }
 
