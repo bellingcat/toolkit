@@ -10,23 +10,6 @@ on:
         required: true
 
 jobs:
-  add-space:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Create Gitbook Space and Team (click here!)
-        id: node
-        env:
-          TOOL_NAME: ${{ inputs.toolName }}
-          GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
-        run: node add-space.mjs $TOOL_NAME
-
   add-tool:
     runs-on: ubuntu-latest
 
@@ -37,7 +20,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Create new tool folder
+      - name: Create Gitbook Space and Team (click here for the link!)
+        id: node
+        env:
+          TOOL_NAME: ${{ inputs.toolName }}
+          GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
+        run: node add-space.mjs $TOOL_NAME
+
+      - name: Create new tool folder (click here for git sync config!)
         id: node
         env:
           TOOL_NAME: ${{ inputs.toolName }}
