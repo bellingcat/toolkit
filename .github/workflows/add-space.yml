@@ -1,0 +1,35 @@
+name: Add Space (testing)
+run-name: Add ${{ inputs.spaceName }} by @${{ github.actor }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      spaceName:
+        description: 'Space Name'
+        type: string
+        required: true
+
+jobs:
+  add-space:
+    runs-on: ubuntu-latest
+    outputs:
+      url: ${{ steps.node.outputs.url }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Create Gitbook Space and Team
+        id: node
+        env:
+          TOOL_NAME: ${{ inputs.toolName }}
+          GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
+        run: echo "url=$(node add-space.mjs $TOOL_NAME)" >> "$GITHUB_OUTPUT"
+
+      - name: ${{ steps.node.outputs.url }}
+        run: echo ${{ steps.node.outputs.url }}
+  result:
+    name: ${{ jobs.add-space.outputs.url }}
