@@ -25,7 +25,7 @@ jobs:
         env:
           TOOL_NAME: ${{ inputs.toolName }}
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
-        run: node add-space.mjs $TOOL_NAME
+        run: node add-space.mjs "$TOOL_NAME"
 
       - name: Create new tool folder (look here for git sync config!)
         id: add-folder
