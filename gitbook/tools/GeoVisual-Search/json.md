@@ -28,6 +28,10 @@ Keep the codeblock updated with accurate information. Only edit the **values** (
 
 If omitted, the name and description will be copied from the page title and page description of the main content. If present, the JSON values override the main content.
 
+## draft (optional)
+
+If set to `true`, this prevents this tool from being listed in relevant category pages. Useful if the tool does not yet have a url and description set. Omit or set to false to publish.
+
 ## url
 
 A hyperlink directly to the tool, for quick-access from the category page. Be sure to use the secure (http**S**) version if possible.
