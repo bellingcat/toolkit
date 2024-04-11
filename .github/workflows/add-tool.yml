@@ -33,17 +33,12 @@ jobs:
           TOOL_NAME: ${{ inputs.toolName }}
         run: |
           node add-tool.mjs $TOOL_NAME
-
-      - uses: dorny/paths-filter@v3
-        id: changes
-        with:
-          base: HEAD
-          filters: |
-            tools:
-              - 'gitbook/tools/**'
+          if git status --porcelain; then
+            echo "{changes_exist}={true}" >> "$GITHUB_ENV"
+          fi
 
       - name: Commit changes
-        if: steps.changes.outputs.tools == 'true'
+        if: ${{ env.changes_exist == 'true' }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -51,7 +46,7 @@ jobs:
           git commit -m "Add $TOOL_NAME"
 
       - name: Push changes
-        if: steps.changes.outputs.tools == 'true'
+        if: ${{ env.changes_exist == 'true' }}
         uses: ad-m/github-push-action@master
         with:
           branch: main
