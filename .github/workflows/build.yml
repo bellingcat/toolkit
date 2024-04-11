@@ -66,6 +66,6 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: update-categories-${{ github.run_number }}
-          title: "Update Categories"
+          branch: update-build-${{ github.run_number }}
+          title: "Update Build"
           body: "This pull request updates the build based on latest changes."
