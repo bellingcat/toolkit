@@ -142,7 +142,6 @@ async function createTeam(name) {
         body: JSON.stringify({ "title": name }),
   });
   const data = await response.json();
-  debug(data);
 }
 function removeTool(toolName) {
   // Remove the tool directory
