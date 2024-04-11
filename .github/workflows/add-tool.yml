@@ -20,25 +20,26 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Create Gitbook Space and Team (click here for the link!)
+      - name: Create Gitbook Space and Team (look here for the link!)
         id: add-space
         env:
           TOOL_NAME: ${{ inputs.toolName }}
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
         run: node add-space.mjs $TOOL_NAME
 
-      - name: Create new tool folder (click here for git sync config!)
+      - name: Create new tool folder (look here for git sync config!)
         id: add-folder
         env:
           TOOL_NAME: ${{ inputs.toolName }}
         run: |
           node add-tool.mjs "$TOOL_NAME"
-          if git status --porcelain; then
+          if $(git status --porcelain); then
             echo "{changes_exist}={true}" >> "$GITHUB_ENV"
+            echo "{changes_exist}={true}" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Commit changes
-        if: ${{ env.changes_exist == 'true' }}
+        if: ${{ steps.add-folder.outputs.changes_exist == 'true' }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -46,7 +47,7 @@ jobs:
           git commit -m "Add $TOOL_NAME"
 
       - name: Push changes
-        if: ${{ env.changes_exist == 'true' }}
+        if: ${{ steps.add-folder.outputs.changes_exist == 'true' }}
         uses: ad-m/github-push-action@master
         with:
           branch: main
