@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run node script to create a gitbook space and team
+      - name: Create Gitbook Space and Team
         id: node
         env:
           TOOL_NAME: ${{ inputs.toolName }}
@@ -37,7 +37,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run node script to generate new tool
+      - name: Create new tool folder
         id: node
         env:
           TOOL_NAME: ${{ inputs.toolName }}
