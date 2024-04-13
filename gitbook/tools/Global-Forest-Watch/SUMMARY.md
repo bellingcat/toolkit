@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Tool Name](README.md)
+* [Global Forest Watch](README.md)
 * [JSON](json.md)

@@ -1,5 +1,7 @@
 ---
-description: Helps detect changes in forest cover (i.e., to track deforestation). Also includes Global Fire Watch (VIRSS data)
+description: >-
+  Helps detect changes in forest cover (i.e., to track deforestation). Also
+  includes Global Fire Watch (VIRSS data)
 ---
 
 # Global Forest Watch
@@ -26,7 +28,7 @@ https://www.globalforestwatch.org/topics/fires/
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+There is no requirements to use this tool, including no e-mail address is requested.&#x20;
 
 ## Limitations
 
@@ -46,12 +48,11 @@ https://www.globalforestwatch.org/topics/fires/
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer                  |
+| -------------------------------- |
+| BL - "Bellingcat volunteer team" |
+|                                  |
