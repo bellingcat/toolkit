@@ -44,7 +44,7 @@ There is no requirements to use this tool, including no e-mail address is reques
 
 ## Tool provider
 
-The World Resources Institute (WRI) established Global Forest Watch in 1997. The World Resources Institute is a global research non-profit organization established in 1982, with offices in all the continents, they utilize research-based methodologies to address critical needs worldwide and in specific target regions. WRI efforts aim to fulfill essential human needs, conserve and rehabilitate natural environments, mitigate climate instability, and foster the development of robust and adaptable communities.
+The World Resources Institute (WRI) established Global Forest Watch in 1997. WRI is a global research non-profit organization established in 1982. With offices around the world, they utilize research-based methodologies to address critical needs worldwide and in specific target regions. WRI efforts aim to fulfill essential human necessities, conserve and rehabilitate natural environments, mitigate climate instability, and foster the development of  adaptable communities.
 
 ## Advertising Trackers
 
