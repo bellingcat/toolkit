@@ -1,4 +1,4 @@
-name: Tools Updated
+name: Check for tool updates
 
 on:
   schedule:
@@ -16,7 +16,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run node script to update categories
+      - name: Check for updates
         run: |
           node last-updated.mjs
 
