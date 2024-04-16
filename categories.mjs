@@ -5,7 +5,13 @@ const { getTools } = tools;
 import pkg from './paths.mjs'
 const {getPaths, processMarkdownFile} = pkg;
 
-const allTools = getTools().filter((tool) => tool.draft !== true );
+const allTools = getTools().filter((tool) => !tool.draft );
+const mostUsed = processMarkdownFile('gitbook/most-used.md', 'most-used', [], '');
+const mostUsedTools = allTools.filter((tool) => tool.tags.includes('most-used'));
+const content = renderCategory(mostUsed, mostUsedTools);
+console.log('writing', 'gitbook/most-used.md');
+fs.writeFileSync('gitbook/most-used.md', content);
+
 const whitelist = [
   'twitter',
   'instagram',
