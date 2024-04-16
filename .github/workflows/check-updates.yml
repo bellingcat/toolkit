@@ -1,4 +1,5 @@
-name: Check for tool updates
+name: Tools Updated
+run-name: Check for tool updates - Run {{ github.run_number }}
 
 on:
   schedule:
