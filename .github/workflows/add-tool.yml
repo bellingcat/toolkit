@@ -27,14 +27,16 @@ jobs:
 
       - name: Mask secrets
         run: |
-          echo SECRET_EMAIL=${{ inputs.email }} >> $GITHUB_ENV
+          echo 'Masking email'
+          INPUT_EMAIL==$(jq -r '.inputs.email' $GITHUB_EVENT_PATH)
+          echo ::add-mask::$INPUT_EMAIL
+          echo SECRET_EMAIL=$INPUT_EMAIL >> $GITHUB_ENV
 
       - name: Create Gitbook Space and Team (look here for the link!)
         id: add-space
         env:
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
         run: |
-          echo ::add-mask::$SECRET_EMAIL
           node add-space.mjs "$TOOL_NAME" "$SECRET_EMAIL"
 
       - name: Create new tool folder (look here for git sync config!)
