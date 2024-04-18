@@ -49,10 +49,15 @@ function createTool(tool, opts={}) {
   return slug;
 }
 
-async function createToolOnGitbook(name) {
-  debug('Creating tool on Gitbook', name);
-  const space = await createSpace(name);
-  await createTeam(name);
+async function createToolOnGitbook(toolName, email) {
+  debug('Creating tool on Gitbook', toolName);
+  const space = await createSpace(toolName);
+  const team = await createTeam(toolName);
+
+  if (email) {
+    await addTeamMember(team, email);
+    debug("Added 1 team member");
+  }
 
   return space.urls.app;
 }
@@ -126,11 +131,23 @@ async function findTeam(name, page='') {
   }
 }
 
+async function addTeamMember(team, email) {
+  debug('Adding team member', email);
+  const response = await fetch(`https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams/${team.id}/members`, {
+    method: 'PUT',
+    headers: {
+      "Authorization": `Bearer ${process.env.GITBOOK_API_TOKEN}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({ "add": [email] })
+  });
+}
+
 async function createTeam(name) {
   const team = await findTeam(name);
   if (team) {
     debug('Team already exists');
-    return;
+    return team;
   }
   debug('Creating team', name);
   const response = await fetch('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams', {
@@ -142,6 +159,7 @@ async function createTeam(name) {
         body: JSON.stringify({ "title": name }),
   });
   const data = await response.json();
+  return data;
 }
 function removeTool(toolName) {
   // Remove the tool directory

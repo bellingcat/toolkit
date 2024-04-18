@@ -8,10 +8,16 @@ on:
         description: 'Tool Name'
         type: string
         required: true
+      email:
+        description: 'Team Member Email (optional)'
+        type: string
 
 jobs:
   add-tool:
     runs-on: ubuntu-latest
+    env:
+      EMAIL: ${{ inputs.email }}
+      TOOL_NAME: ${{ inputs.toolName }}
 
     steps:
       - name: Checkout code
@@ -23,14 +29,11 @@ jobs:
       - name: Create Gitbook Space and Team (look here for the link!)
         id: add-space
         env:
-          TOOL_NAME: ${{ inputs.toolName }}
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
-        run: node add-space.mjs "$TOOL_NAME"
+        run: node add-space.mjs "$TOOL_NAME" "$EMAIL"
 
       - name: Create new tool folder (look here for git sync config!)
         id: add-folder
-        env:
-          TOOL_NAME: ${{ inputs.toolName }}
         run: |
           node add-tool.mjs "$TOOL_NAME"
           if [ -n "$(git status --porcelain)" ]; then
@@ -38,8 +41,6 @@ jobs:
           fi
 
       - name: Commit changes ${{ steps.add-folder.outputs.changes }}
-        env:
-          TOOL_NAME: ${{ inputs.toolName }}
         if: ${{ steps.add-folder.outputs.changes == 'true' }}
         run: |
           git status --porcelain
