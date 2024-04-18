@@ -25,10 +25,12 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Mask secrets
+        run: echo SECRET_EMAIL=${{ inputs.email }} >> $GITHUB_ENV
+
       - name: Create Gitbook Space and Team (look here for the link!)
         id: add-space
         env:
-          SECRET_EMAIL: ${{ inputs.email }}
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
         run: |
           node add-space.mjs "$TOOL_NAME" "$SECRET_EMAIL"
