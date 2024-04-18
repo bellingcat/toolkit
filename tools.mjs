@@ -132,7 +132,6 @@ async function findTeam(name, page='') {
 }
 
 async function addTeamMember(team, email) {
-  debug('Adding team member', email);
   const response = await fetch(`https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams/${team.id}/members`, {
     method: 'PUT',
     headers: {

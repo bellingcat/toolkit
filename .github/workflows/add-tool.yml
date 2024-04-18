@@ -16,7 +16,6 @@ jobs:
   add-tool:
     runs-on: ubuntu-latest
     env:
-      EMAIL: ${{ inputs.email }}
       TOOL_NAME: ${{ inputs.toolName }}
 
     steps:
@@ -30,7 +29,7 @@ jobs:
         id: add-space
         env:
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
-        run: node add-space.mjs "$TOOL_NAME" "$EMAIL"
+        run: node add-space.mjs "$TOOL_NAME" "${{ inputs.email }}"
 
       - name: Create new tool folder (look here for git sync config!)
         id: add-folder
