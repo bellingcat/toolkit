@@ -7,11 +7,16 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "draft": true,
   "name": "Baidu Maps",
-  "description": "A brief one-line description of the tool.",
-  "url": "https://example.com",
-  "tags": []
+  "url": "http://map.baidu.com/",
+  "description": "Baidu’s mapping service offering satellite imagery, street maps, and streetview (“Panorama” - zh:百度全景).",
+  "cost": "Free",
+  "tags": [
+    "maps-and-satellites",
+    "maps",
+    "satellite-imagery",
+    "street-view"
+  ]
 }
 ```
 {% endcode %}

@@ -1,12 +1,12 @@
 ---
-description: A brief one-line description of the tool.
+description: Baidu’s mapping service offering satellite imagery, street maps, and streetview (“Panorama” - zh:百度全景).
 ---
 
 # Baidu Maps
 
 ## URL
 
-https://example.com
+http://map.baidu.com/
 
 ## Description
 
