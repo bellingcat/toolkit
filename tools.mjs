@@ -56,6 +56,7 @@ async function createToolOnGitbook(toolName, email) {
 
   if (email) {
     await addTeamMember(team, email);
+    await addTeamMember({id : "6RIWbZ6uKR8m6kwje0s7"}, email); // Tool Page Maintainers team
     debug("Added 1 team member");
   }
 
