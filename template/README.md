@@ -36,9 +36,9 @@ https://example.com
 
 \[\[The ethical considerations of each tool should be described.]]
 
-## Guide
+## Guides and articles
 
-\[\[Link to a guide on this tool]]
+\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
 
 ## Tool provider
 
