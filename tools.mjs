@@ -28,6 +28,11 @@ function toolToReadme(tool) {
     replace(/description: .*/g, `description: ${tool.description}`).
     replace("https://example.com", tool.url);
 }
+function toolToSummary(tool) {
+  const template = fs.readFileSync('template/SUMMARY.md', 'utf-8');
+  return template.
+    replace("Tool Name", `${tool.name}`).
+}
 function createTool(tool, opts={}) {
   const { name, tags } = tool;
   debug('Creating tool', name);
@@ -40,6 +45,7 @@ function createTool(tool, opts={}) {
     fs.mkdirSync(pathname, { recursive: true });
     fs.writeFileSync(`${pathname}/json.md`, toolToJson(tool));
     fs.writeFileSync(`${pathname}/README.md`, toolToReadme(tool));
+    fs.writeFileSync(`${pathname}/SUMMARY.md`, toolToSummary(tool));
     debug("Tool created");
   }
   debug("******GITSYNC CONFIGURATION******");
