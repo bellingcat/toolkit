@@ -7,11 +7,16 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "draft": true,
   "name": "Tencent Maps",
-  "description": "A brief one-line description of the tool.",
-  "url": "https://example.com",
-  "tags": []
+  "url": "http://map.qq.com/",
+  "description": "Tencent Maps (formerly SOSO Maps) is a desktop and web mapping service application and technology provided by Chinese company Tencent, offering satellite imagery, street maps, street view (coverage) and historical view perspectives.",
+  "cost": "Free",
+  "tags": [
+    "maps-and-satellites",
+    "maps",
+    "street-view",
+    "satellite-imagery"
+  ]
 }
 ```
 {% endcode %}
