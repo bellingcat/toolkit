@@ -31,7 +31,6 @@
 | [**Resource Watch**](https://resourcewatch.org/data/explore) | A nonprofit platform, still in beta, that provides hundreds of data sets on the state of the planet’s resources and citizens. It is sponsored by the World Resources Institute and other organizations. | <mark style="background-color:green;">Free</mark> |  |
 | [**ShadowMap**](https://app.shadowmap.org/) | Global map of 3D buildlings and the shadows they cast at a specific time a day | <mark style="background-color:green;">Free</mark> |  |
 | [**TRIDENT**](https://trident.yuiseki.net/) | AI help for querying Overpass Turbo. Simply write what features you're looking for on a map. | <mark style="background-color:green;">Free</mark> |  |
-| [**Tencent Maps**](http://map.qq.com/) | Tencent Maps (formerly SOSO Maps) is a desktop and web mapping service application and technology provided by Chinese company Tencent, offering satellite imagery, street maps, street view (coverage) and historical view perspectives. | <mark style="background-color:green;">Free</mark> |  |
 | [**Topotijdreis.nl**](http://topotijdreis.nl) | Over 200 years of maps and topography from the Netherlands. | <mark style="background-color:green;">Free</mark> |  |
 | [**UTM grid zones**](http://dmap.co.uk/utmworld.htm) | An overview of the Universal Transverse Mercator coordinate system. | <mark style="background-color:green;">Free</mark> |  |
 | [**WarWire**](http://warwire.net/) | Location-based searches on Twitter, VK, and Instagram. | <mark style="background-color:red;">Paid</mark> |  |
