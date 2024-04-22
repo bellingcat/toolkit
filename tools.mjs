@@ -30,8 +30,7 @@ function toolToReadme(tool) {
 }
 function toolToSummary(tool) {
   const template = fs.readFileSync('template/SUMMARY.md', 'utf-8');
-  return template.
-    replace("Tool Name", `${tool.name}`).
+  return template.replace("Tool Name", `${tool.name}`);
 }
 function createTool(tool, opts={}) {
   const { name, tags } = tool;
