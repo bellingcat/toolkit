@@ -60,7 +60,12 @@ async function createToolOnGitbook(toolName, email) {
     debug("Added 1 team member");
   }
 
-  return space.urls.app;
+  if (space.urls) {
+    return space.urls.app;
+  } else {
+    debug('Error: No URL found');
+    debug(space);
+  }
 }
 
 async function findSpace(name, page='') {
