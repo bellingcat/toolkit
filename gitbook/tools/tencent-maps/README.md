@@ -1,12 +1,12 @@
 ---
-description: A brief one-line description of the tool.
+description: Tencent Maps (formerly SOSO Maps) is a desktop and web mapping service application and technology provided by Chinese company Tencent, offering satellite imagery, street maps, street view (coverage) and historical view perspectives.
 ---
 
 # Tencent Maps
 
 ## URL
 
-https://example.com
+http://map.qq.com/
 
 ## Description
 
@@ -36,9 +36,9 @@ https://example.com
 
 \[\[The ethical considerations of each tool should be described.]]
 
-## Guides and articles
+## Guide
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+\[\[Link to a guide on this tool]]
 
 ## Tool provider
 
