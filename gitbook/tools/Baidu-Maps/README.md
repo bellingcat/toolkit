@@ -112,7 +112,7 @@ By utilizing these resources, users can enhance their Baidu Maps experience, whe
 
 ## Tool provider
 
-Baidu Inc [http://www.baidu.com/](http://www.baidu.com/)
+Baidu Inc [http://www.baidu.com/](http://www.baidu.com/) - China
 
 ## Advertising Trackers
 
@@ -120,7 +120,7 @@ Baidu Inc [http://www.baidu.com/](http://www.baidu.com/)
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer  |
-| ---------------- |
-| Volunteer needed |
-|                  |
+| Page maintainer |
+| --------------- |
+| Unassigned      |
+|                 |
