@@ -7,6 +7,7 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
+  "draft": true,
   "name": "GeoVisual Search",
   "url": "http://search.descarteslabs.com/?layer=naip\\_v2\\_rgb\\_2014-2015#lat=39.2322531\\&lng=-100.8544921\\&skipTut=true\\&zoom=5",
   "description": "Search engine that lets users visually query images for similar geographic features. The platform from Descartes Labs is built on satellite imagery from Landsat, the National Agriculture Imagery Program (NAIP), and PlanetScope.",
