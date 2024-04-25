@@ -42,4 +42,4 @@ Bellingcat
 | ------------------------- |
 | Bellingcat Volunteer Team |
 
-[Test](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/lNz8Nj9sEeupTlwdbBaN/)
+[Test](https://app.gitbook.com/s/NTTgCvQ5sHsy1ZiVO9VN/#description)
