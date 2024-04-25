@@ -1,12 +1,12 @@
 ---
-description: A brief one-line description of the tool.
+description: Live marine vessel tracker.
 ---
 
 # VesselFinder
 
 ## URL
 
-https://example.com
+http://vesselfinder.com/
 
 ## Description
 

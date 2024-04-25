@@ -7,11 +7,18 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "draft": true,
   "name": "Hitta.se",
-  "description": "A brief one-line description of the tool.",
-  "url": "https://example.com",
-  "tags": []
+  "url": "http://hitta.se/",
+  "description": "Mapping service for Sweden",
+  "cost": "Free",
+  "tags": [
+    "maps-and-satellites",
+    "maps",
+    "street-view",
+    "sweden",
+    "international",
+    "satellite-imagery"
+  ]
 }
 ```
 {% endcode %}

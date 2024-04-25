@@ -7,11 +7,14 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "draft": true,
   "name": "FleetMon",
-  "description": "A brief one-line description of the tool.",
-  "url": "https://example.com",
-  "tags": []
+  "url": "http://fleetmon.com/",
+  "description": "Vessel position tracking, including a global vessel and port database. Tools for the shipping industry, Maritime News and a lively community of shipspotters. You’ll need an account to access information.",
+  "cost": "Paid",
+  "details": "⛵\n",
+  "tags": [
+    "transport"
+  ]
 }
 ```
 {% endcode %}

@@ -1,12 +1,12 @@
 ---
-description: A brief one-line description of the tool.
+description: An open, community-based project, providing (near) real-time information on the movements of ships and their locations in harbours and ports.
 ---
 
 # MarineTraffic
 
 ## URL
 
-https://example.com
+http://marinetraffic.com/
 
 ## Description
 

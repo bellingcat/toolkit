@@ -7,11 +7,14 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "draft": true,
   "name": "MarineTraffic",
-  "description": "A brief one-line description of the tool.",
-  "url": "https://example.com",
-  "tags": []
+  "url": "http://marinetraffic.com/",
+  "description": "An open, community-based project, providing (near) real-time information on the movements of ships and their locations in harbours and ports.",
+  "cost": "Free",
+  "details": "⛵\n[Suez Canal: Satellite Clues on a Stricken Cargo Ship](https://www.bellingcat.com/resources/2021/03/26/suez-canal-satellite-clues-on-a-stricken-cargo-ship/)",
+  "tags": [
+    "transport"
+  ]
 }
 ```
 {% endcode %}

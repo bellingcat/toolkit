@@ -7,11 +7,14 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "draft": true,
   "name": "VesselFinder",
-  "description": "A brief one-line description of the tool.",
-  "url": "https://example.com",
-  "tags": []
+  "url": "http://vesselfinder.com/",
+  "description": "Live marine vessel tracker.",
+  "cost": "Free",
+  "details": "⛵\n",
+  "tags": [
+    "transport"
+  ]
 }
 ```
 {% endcode %}
