@@ -24,7 +24,7 @@ Free
 
 Internet
 
-### Ethical Considerations <a href="#limitations-and-ethical-considerations" id="limitations-and-ethical-considerations"></a>
+### Ethical Considerations <a href="#ethical-considerations" id="ethical-considerations"></a>
 
 There are many legitimate reasons to use variations of one's name online. Consider the ethical implications of
 
