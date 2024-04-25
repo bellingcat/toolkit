@@ -159,29 +159,20 @@ async function createSpace(name) {
     return space;
   }
   debug('Duplicating the template space');
-  const response = await fetch('https://api.gitbook.com/v1/spaces/LWUcuebJXer3XFC0YLqM/duplicate', {
+  const data = apiCall('https://api.gitbook.com/v1/spaces/LWUcuebJXer3XFC0YLqM/duplicate', {
     method: 'POST',
-    headers: {
-          "Authorization": `Bearer ${process.env.GITBOOK_API_TOKEN}`
-    },
   });
-  const data = await response.json();
   const updated = await renameSpace(data, name)
   return updated;
 }
 
 async function renameSpace(space, name) {
   debug('Renaming space to', name);
-  const response = await fetch(`https://api.gitbook.com/v1/spaces/${space.id}`, {
+  const data = await apiCall(`https://api.gitbook.com/v1/spaces/${space.id}`, {
     method: 'PATCH',
-    headers: {
-            "Authorization": `Bearer ${process.env.GITBOOK_API_TOKEN}`,
-            "Content-Type": "application/json"
-          },
     body: JSON.stringify({ "title": name }),
   });
-  space = await response.json();
-  return space;
+  return data;
 }
 
 async function findTeam(name, page='') {
@@ -202,12 +193,8 @@ async function findTeam(name, page='') {
 }
 
 async function addTeamMember(team, email) {
-  const response = await fetch(`https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams/${team.id}/members`, {
+  const data = await apiCall(`https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams/${team.id}/members`, {
     method: 'PUT',
-    headers: {
-      "Authorization": `Bearer ${process.env.GITBOOK_API_TOKEN}`,
-      "Content-Type": "application/json"
-    },
     body: JSON.stringify({ "add": [email] })
   });
 }
@@ -219,15 +206,10 @@ async function createTeam(name) {
     return team;
   }
   debug('Creating team', name);
-  const response = await fetch('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams', {
-        method: 'PUT',
-        headers: {
-          "Authorization": `Bearer ${process.env.GITBOOK_API_TOKEN}`,
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({ "title": name }),
+  const data = await apiCall('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams', {
+    method: 'PUT',
+    body: JSON.stringify({ "title": name }),
   });
-  const data = await response.json();
   return data;
 }
 function removeTool(toolName) {
