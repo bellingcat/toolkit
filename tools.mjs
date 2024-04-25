@@ -133,22 +133,11 @@ async function createToolOnGitbook(toolName, email) {
 }
 
 async function findSpace(name, page='') {
-  const response = await fetch('https://api.gitbook.com/v1/collections/jQKvylm6WgaH5IFrlIMh/spaces?' + new URLSearchParams({ page: page }), {
-    method: 'GET',
-    headers: {
-      "Authorization": `Bearer ${process.env.GITBOOK_API_TOKEN}`
-    },
-  });
-  const data = await response.json();
-  if (data.error) {
-    throw new Error(data.error.message);
-  }
-  const space = data.items.find((space) => space.title === name);
+  console.log("searching for existing space", page);
+  const spaces = JSON.parse(fs.readFileSync('spaces.json', 'utf-8'));
+  const space = spaces.find((space) => space.title === name);
   if (space) {
     return space;
-  }
-  if (data.next) {
-    return await findSpace(name, data.next.page);
   }
 }
 
@@ -176,19 +165,10 @@ async function renameSpace(space, name) {
 }
 
 async function findTeam(name, page='') {
-  const response = await fetch('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams?' + new URLSearchParams({ page: page }), {
-        method: 'GET',
-        headers: {
-          "Authorization": `Bearer ${process.env.GITBOOK_API_TOKEN}`,
-        }
-  });
-  const data = await response.json();
-  const team = data.items.find((team) => team.title === name);
+  const teams = JSON.parse(fs.readFileSync('spaces.json', 'utf-8'));
+  const team = teams.find((team) => team.title === name);
   if (team) {
     return team;
-  }
-  if (data.next) {
-    return await findTeam(name, data.next.page);
   }
 }
 

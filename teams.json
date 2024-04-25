@@ -1,0 +1,882 @@
+[
+  {
+    "object": "team",
+    "id": "0T83IjoTIanEJdEIByVy",
+    "title": "Yandex Maps",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T02:08:20.872Z"
+  },
+  {
+    "object": "team",
+    "id": "0rFcKiHkKLeRlObSg98K",
+    "title": "Zotero",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-10T22:13:36.518Z"
+  },
+  {
+    "object": "team",
+    "id": "1NxHFSua4liHutC1l9ja",
+    "title": "MW Geofind",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-05T02:16:25.333Z"
+  },
+  {
+    "object": "team",
+    "id": "29CvCrZ78xkqFDSib3xg",
+    "title": "North Data",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-07T23:35:43.460Z"
+  },
+  {
+    "object": "team",
+    "id": "2DcCOhDpkdqMUa8YTjrA",
+    "title": "WaTools",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-08T00:00:48.853Z"
+  },
+  {
+    "object": "team",
+    "id": "2KzzlDtilRcwg1LZM5MC",
+    "title": "PixPlot",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T22:21:37.096Z"
+  },
+  {
+    "object": "team",
+    "id": "4IAEgMH03a5Rbwb3tcKw",
+    "title": "Earth Explorer",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-03-28T20:55:47.371Z"
+  },
+  {
+    "object": "team",
+    "id": "4VBXZE0hBFN60tpJZHDf",
+    "title": "Maltego",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T01:30:44.447Z"
+  },
+  {
+    "object": "team",
+    "id": "5qTFA148VnV46jTVaOpz",
+    "title": "Mapillary",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T19:37:00.829Z"
+  },
+  {
+    "object": "team",
+    "id": "673acxHl77pNIxr5Oy4Z",
+    "title": "On-Chain-Investigations-Tools-List",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-11T01:52:34.559Z"
+  },
+  {
+    "object": "team",
+    "id": "6IxTzUc51ZlxHoHQCRQO",
+    "title": "Global Fishing Watch Map",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-02T00:57:03.110Z"
+  },
+  {
+    "object": "team",
+    "id": "6K1dO9Pue24EEssS8WQQ",
+    "title": "RAWGraphs",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-05T01:03:07.470Z"
+  },
+  {
+    "object": "team",
+    "id": "6RIWbZ6uKR8m6kwje0s7",
+    "title": "Tool Page Maintainers",
+    "members": 14,
+    "spaces": 1,
+    "createdAt": "2024-03-05T14:43:16.105Z"
+  },
+  {
+    "object": "team",
+    "id": "6mOJJOXfhfgGZo664on5",
+    "title": "Open Measures",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-21T19:11:50.331Z"
+  },
+  {
+    "object": "team",
+    "id": "7CIimXXsTRsTaINza5uH",
+    "title": "4plebs",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-21T19:45:07.613Z"
+  },
+  {
+    "object": "team",
+    "id": "9F2YvQu4QzjwbbAC28mM",
+    "title": "Ethtective",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-11T01:47:12.046Z"
+  },
+  {
+    "object": "team",
+    "id": "9jofmGONUxKnmgVrpGfc",
+    "title": "kai-test2",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2024-04-22T14:39:59.800Z"
+  },
+  {
+    "object": "team",
+    "id": "A8t4Dy3lYrPa8xQSaIJ6",
+    "title": "Blockchain.com Explorer",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-11T01:19:55.350Z"
+  },
+  {
+    "object": "team",
+    "id": "ACPjFhPdIqIdxD4H6uWt",
+    "title": "NASA Worldview",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-24T20:56:00.552Z"
+  },
+  {
+    "object": "team",
+    "id": "AKlJ5ZH3Gfj7kX4GqNpI",
+    "title": "GovMap",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T20:52:06.955Z"
+  },
+  {
+    "object": "team",
+    "id": "BGHvP82JnMOIWuz85eIz",
+    "title": "WalletExplorer.com",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-11T01:24:27.105Z"
+  },
+  {
+    "object": "team",
+    "id": "BWaiFLpuECyNcl8YIRgf",
+    "title": "Kai testing",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2024-04-11T17:02:31.638Z"
+  },
+  {
+    "object": "team",
+    "id": "Bs75ftG9ExvdyIGql2jP",
+    "title": "Internet Archive",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-21T19:28:05.715Z"
+  },
+  {
+    "object": "team",
+    "id": "CWVB6Qz9veUBIzHmIif0",
+    "title": "Open Source Munitions Portal",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T23:06:38.988Z"
+  },
+  {
+    "object": "team",
+    "id": "Dj2ySu25JWGUoI0PFIPE",
+    "title": "Telegram Group Joiner",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T21:19:40.200Z"
+  },
+  {
+    "object": "team",
+    "id": "Dk8b7EMi1lDn1AAI1vXc",
+    "title": "WhatsMyName",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T01:59:15.198Z"
+  },
+  {
+    "object": "team",
+    "id": "FTQeEdNHW9crCfaH7g6q",
+    "title": "CAT-UXO",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T23:13:30.450Z"
+  },
+  {
+    "object": "team",
+    "id": "Fj6deP4zeQuAwNt3CCGv",
+    "title": "Satellites.pro",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T00:13:01.240Z"
+  },
+  {
+    "object": "team",
+    "id": "GFiibfFLvdsZgaeZRavJ",
+    "title": "KartaView",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-04T23:27:54.555Z"
+  },
+  {
+    "object": "team",
+    "id": "GWOMNMyp7AsLtwXXgy0C",
+    "title": "QGIS",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T03:19:21.530Z"
+  },
+  {
+    "object": "team",
+    "id": "HGauOmLZ0m8oOVac2zJe",
+    "title": "Datasette",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-08T00:58:06.833Z"
+  },
+  {
+    "object": "team",
+    "id": "HMXBhmG2xOjOYXYh0vdg",
+    "title": "EDGAR Suite",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-03-28T20:15:13.421Z"
+  },
+  {
+    "object": "team",
+    "id": "HOECyMfazPSX7eymTjeS",
+    "title": "OpenStreetMap Search Tool",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T19:34:50.033Z"
+  },
+  {
+    "object": "team",
+    "id": "HqOt7hrPSzzumHa1HrRh",
+    "title": "MyShipTracking",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-30T21:31:58.438Z"
+  },
+  {
+    "object": "team",
+    "id": "I33E8EM8Jr7n5LPOWEnW",
+    "title": "Linkedin Ad Library",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-09T23:13:48.246Z"
+  },
+  {
+    "object": "team",
+    "id": "IODAVbsTiOGijYjV2Jcc",
+    "title": "Telepathy",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T21:04:35.069Z"
+  },
+  {
+    "object": "team",
+    "id": "K5Sw1exVgYg5IMiOMKBG",
+    "title": "Deepfake-O-Meter",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T22:40:12.620Z"
+  },
+  {
+    "object": "team",
+    "id": "KjcLE0jsl9c7jNAxu2n6",
+    "title": "TGStat",
+    "members": 2,
+    "spaces": 2,
+    "createdAt": "2024-03-30T01:21:47.471Z"
+  },
+  {
+    "object": "team",
+    "id": "KuTAv0thZ4rGlnLNZMSK",
+    "title": "Geospy.ai",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T23:25:29.850Z"
+  },
+  {
+    "object": "team",
+    "id": "NPTzlCI6I4WRxcso7gnS",
+    "title": "Meta Content Library and API",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T21:15:33.227Z"
+  },
+  {
+    "object": "team",
+    "id": "NZRSMaVTAZ9DgMvwsdHj",
+    "title": "ShipFinder",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-24T21:07:52.804Z"
+  },
+  {
+    "object": "team",
+    "id": "OH8OpRyGcrMx3BH7jA4u",
+    "title": "Time.Graphics",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-04T22:40:16.182Z"
+  },
+  {
+    "object": "team",
+    "id": "OLWFgntaYt0C4GQp63C7",
+    "title": "MarineTraffic",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-24T20:25:13.967Z"
+  },
+  {
+    "object": "team",
+    "id": "OUJnlfks7TYMB4yfyDLm",
+    "title": "Navtex",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-30T21:19:00.232Z"
+  },
+  {
+    "object": "team",
+    "id": "OczijvSUHlJiOXJUSoUk",
+    "title": "AutoStitch",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-08T00:43:38.882Z"
+  },
+  {
+    "object": "team",
+    "id": "PF7l1ZzcXlauK3c60FUG",
+    "title": "EDGAR",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-27T21:05:09.614Z"
+  },
+  {
+    "object": "team",
+    "id": "PMcD0hFOrRkT1zwHwQ5Q",
+    "title": "ShadeMap",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T02:01:08.551Z"
+  },
+  {
+    "object": "team",
+    "id": "PSmBTrrZuK8FchDeTJGX",
+    "title": "Fact Check Explorer",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-11T19:01:07.790Z"
+  },
+  {
+    "object": "team",
+    "id": "PniQ5d7sm3p1Xwhc8Cgk",
+    "title": "TikTok Ad Library",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-09T23:01:24.056Z"
+  },
+  {
+    "object": "team",
+    "id": "SQYrwRdwUOanmi0kfMlg",
+    "title": "3xpl",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-11T01:28:49.243Z"
+  },
+  {
+    "object": "team",
+    "id": "TQzgXihAkPKYTG2kySfX",
+    "title": "Logseq",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-11T01:13:09.861Z"
+  },
+  {
+    "object": "team",
+    "id": "TYsDAHSXUuQEIxFiZXdu",
+    "title": "4CAT",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-08T00:51:54.832Z"
+  },
+  {
+    "object": "team",
+    "id": "TtqOrB6i5nY6MAbpgNtI",
+    "title": "WalletScan",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-11T01:33:57.339Z"
+  },
+  {
+    "object": "team",
+    "id": "UKZMsyH7ahlJHtTjcHRm",
+    "title": "Telegago",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T21:22:51.994Z"
+  },
+  {
+    "object": "team",
+    "id": "V3vnXKTnNDtTY50xBziD",
+    "title": "InstaLoader",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-19T13:28:48.712Z"
+  },
+  {
+    "object": "team",
+    "id": "VyuYJRA8lTiECuL0LTjI",
+    "title": "Omnivore",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-11T17:49:11.357Z"
+  },
+  {
+    "object": "team",
+    "id": "WPWIu5fNru5M18ZVpFaR",
+    "title": "Google Maps",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T19:30:37.293Z"
+  },
+  {
+    "object": "team",
+    "id": "XQY0Wa2Yrnz3Lo74hzDg",
+    "title": "Telemetrio",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T20:56:41.389Z"
+  },
+  {
+    "object": "team",
+    "id": "Xl2VEy03Yg0YXf7PbIcr",
+    "title": "Bing Maps",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T20:43:34.826Z"
+  },
+  {
+    "object": "team",
+    "id": "YKsLPli4hWqzjuAwa9Ge",
+    "title": "Baidu Maps",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-18T00:28:11.590Z"
+  },
+  {
+    "object": "team",
+    "id": "Z62CDuPdQ10nBKbvbIjD",
+    "title": "X Ads Repository",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-09T23:11:18.170Z"
+  },
+  {
+    "object": "team",
+    "id": "ZJMj8lot4Gpk0xG0ysDf",
+    "title": "Flightradar24",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-10T22:18:09.605Z"
+  },
+  {
+    "object": "team",
+    "id": "ZQ3fcr2uBPtwS004lB9s",
+    "title": "kai-test",
+    "members": 1,
+    "spaces": 0,
+    "createdAt": "2024-04-22T13:33:54.435Z"
+  },
+  {
+    "object": "team",
+    "id": "ZqDeHD0SsyuLVBvD1RX0",
+    "title": "Copernicus Data Space Ecosystem",
+    "members": 2,
+    "spaces": 0,
+    "createdAt": "2024-04-03T21:36:33.804Z"
+  },
+  {
+    "object": "team",
+    "id": "ZzWMo4ZUVfPngwCpZlYD",
+    "title": "Google Earth Pro",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T19:26:37.394Z"
+  },
+  {
+    "object": "team",
+    "id": "bzhVvgEuI4uCR4vC2Kul",
+    "title": "Liveuamap",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-15T18:33:36.402Z"
+  },
+  {
+    "object": "team",
+    "id": "c0H4nr3rk1OHjQAG8uxw",
+    "title": "TelegramDB",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T21:25:36.742Z"
+  },
+  {
+    "object": "team",
+    "id": "cRPHfQNnT1KNr3FMvAID",
+    "title": "Suncalc",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T01:54:19.322Z"
+  },
+  {
+    "object": "team",
+    "id": "d28XROU2umRjeNBQ3UXn",
+    "title": "Google Ads Transparency Center",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-09T23:06:37.174Z"
+  },
+  {
+    "object": "team",
+    "id": "dF0xw4ML9atnBuYM42w2",
+    "title": "TikTok Hashtag Analysis",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T22:35:35.548Z"
+  },
+  {
+    "object": "team",
+    "id": "f2c4OoEnsThy5lm9MOku",
+    "title": "Name Variant Search",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-04T12:42:08.517Z"
+  },
+  {
+    "object": "team",
+    "id": "fKnGDN23pPLevqQA3UaC",
+    "title": "Blender",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T22:10:01.392Z"
+  },
+  {
+    "object": "team",
+    "id": "fcsyfPwY1Tq9mK2gMGJI",
+    "title": "Wikimapia",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-15T18:31:58.419Z"
+  },
+  {
+    "object": "team",
+    "id": "hcFVrsFUr0C8yaVQozrf",
+    "title": "InVID",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-10T22:26:12.774Z"
+  },
+  {
+    "object": "team",
+    "id": "hnDeMUlqJ4eb3PbgI5WH",
+    "title": "Google Earth Engine",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T03:26:31.827Z"
+  },
+  {
+    "object": "team",
+    "id": "iTardhauobsC0JUxMi0A",
+    "title": "Neo4j",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-05T00:51:32.343Z"
+  },
+  {
+    "object": "team",
+    "id": "iiwandq96eYFPR4117eX",
+    "title": "Hunchly",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T19:20:31.078Z"
+  },
+  {
+    "object": "team",
+    "id": "jThJHDOkDd0vLPQ1ykyh",
+    "title": "Here WeGo",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-30T21:38:25.575Z"
+  },
+  {
+    "object": "team",
+    "id": "ja6CoGxrqTxQ1CSfqavJ",
+    "title": "Obsidian",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-11T01:15:26.561Z"
+  },
+  {
+    "object": "team",
+    "id": "k07DU1JPJflzBJ5mMgQR",
+    "title": "Gephi",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T21:29:50.112Z"
+  },
+  {
+    "object": "team",
+    "id": "kQfZsheCyDBdgXjWLqdG",
+    "title": "Meta Ad Library",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-09T23:08:27.245Z"
+  },
+  {
+    "object": "team",
+    "id": "kRuYhpKMfjCoE2Y7SVM3",
+    "title": "TikTok-Api",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T22:32:37.972Z"
+  },
+  {
+    "object": "team",
+    "id": "km5QU4kVDKLwCHRwhAyI",
+    "title": "Lumen",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-07T23:51:15.260Z"
+  },
+  {
+    "object": "team",
+    "id": "l9tWPBRFEhRj7KmYTZY0",
+    "title": "Earth Online",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T03:32:23.524Z"
+  },
+  {
+    "object": "team",
+    "id": "mNVGbqSRXVjbzoEKNzMh",
+    "title": "Snap Political Ads Library",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-09T23:04:13.277Z"
+  },
+  {
+    "object": "team",
+    "id": "nOVJpjZ69hF01fB4zPTu",
+    "title": "FleetMon",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-24T21:14:27.356Z"
+  },
+  {
+    "object": "team",
+    "id": "oLQ2yfNyzkWM75GxEbl8",
+    "title": "ExifTool",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-10T22:42:37.417Z"
+  },
+  {
+    "object": "team",
+    "id": "obmuCHSA703OTW1EKGlS",
+    "title": "Breadcrumbs",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-11T01:44:05.830Z"
+  },
+  {
+    "object": "team",
+    "id": "on97fn4oZRNgiktCENVI",
+    "title": "Yaddnet",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-30T17:38:26.185Z"
+  },
+  {
+    "object": "team",
+    "id": "oo8veHKxXJhWYMRQilJR",
+    "title": "Chainabuse",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-11T01:38:01.658Z"
+  },
+  {
+    "object": "team",
+    "id": "pvw2yDoNwqTqxmnbofdi",
+    "title": "Overpass Turbo",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T03:23:56.459Z"
+  },
+  {
+    "object": "team",
+    "id": "qECfYkYiA1VXbSIj2xS1",
+    "title": "Have I Been Pwned",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T01:52:59.820Z"
+  },
+  {
+    "object": "team",
+    "id": "qOXHGrWIbTxBJYj61yKV",
+    "title": "KakaoMap",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-24T20:03:02.074Z"
+  },
+  {
+    "object": "team",
+    "id": "qyEuFDkIYPVmpaPvfUqS",
+    "title": "ADS-B Exchange",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-10T22:37:34.315Z"
+  },
+  {
+    "object": "team",
+    "id": "r2FtSNwQBbujdRZHTPwh",
+    "title": "MapSwitcher",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-02T00:54:31.985Z"
+  },
+  {
+    "object": "team",
+    "id": "rtJJwNx8aRHdBMtQYE11",
+    "title": "Apple Maps",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T22:28:28.522Z"
+  },
+  {
+    "object": "team",
+    "id": "sHhA1ItNgU4qIEJuXGcc",
+    "title": "F4map",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-04T22:25:14.729Z"
+  },
+  {
+    "object": "team",
+    "id": "sWPgvSmJC29rogZQZIMX",
+    "title": "VesselFinder",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-24T21:01:06.890Z"
+  },
+  {
+    "object": "team",
+    "id": "tG4a7jdDPpOwxdc9CaCb",
+    "title": "Index Database",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T03:08:28.670Z"
+  },
+  {
+    "object": "team",
+    "id": "uNslLW9ZAfJeHpHtYP2t",
+    "title": "Search4Faces",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-08T00:11:15.411Z"
+  },
+  {
+    "object": "team",
+    "id": "uS6B43ZKCy654447MlQG",
+    "title": "Global Forest Watch",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-28T20:35:27.377Z"
+  },
+  {
+    "object": "team",
+    "id": "vQ3hVuDJhkhTmLErta1A",
+    "title": "Hitta.se",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-22T13:31:06.272Z"
+  },
+  {
+    "object": "team",
+    "id": "vqmLoGjOqX7I4VWTNhay",
+    "title": "Snscrape",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T22:24:47.604Z"
+  },
+  {
+    "object": "team",
+    "id": "w27MunK3CpygPB13FX4w",
+    "title": "Sentinel Hub Playground",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T03:13:24.693Z"
+  },
+  {
+    "object": "team",
+    "id": "wdf0oK7isXooLFpv5LYx",
+    "title": "Intelx.io",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T02:57:37.309Z"
+  },
+  {
+    "object": "team",
+    "id": "xTh1IpVL6Kh56nOJ9kQ1",
+    "title": "NASA Firms",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T02:06:13.275Z"
+  },
+  {
+    "object": "team",
+    "id": "xVN55MzFEFpXTt0GZdq7",
+    "title": "Bulletpicker.com",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T23:17:12.966Z"
+  },
+  {
+    "object": "team",
+    "id": "yCQoip34htBY09MbCHVG",
+    "title": "ACLED",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-08T01:28:15.900Z"
+  },
+  {
+    "object": "team",
+    "id": "yPJc3AniWUiqSD1eMu2D",
+    "title": "Tencent Maps",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-21T19:56:08.344Z"
+  },
+  {
+    "object": "team",
+    "id": "zaT3T2l0W5M1NHTinqUd",
+    "title": "PeakVisor",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-03-28T16:53:42.448Z"
+  }
+]
