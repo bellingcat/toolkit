@@ -54,6 +54,65 @@ function createTool(tool, opts={}) {
   return slug;
 }
 
+async function apiCall(url, params) {
+  debug('API call', url, params);
+  const response = await fetch(url, {
+    method: params.method,
+    headers: {
+      "Authorization": `Bearer ${process.env.GITBOOK_API_TOKEN}`,
+      headers: { "Content-Type": "application/json" },
+      ...params.headers,
+    },
+    body: JSON.stringify(params.body),
+    signal: AbortSignal.timeout( 10 * 1000 ), // 10 seconds
+  });
+
+  debug('API response', response.status);
+  // check rate limit headers
+  if (response.headers.get('x-ratelimit-remaining') === '0') {
+    console.log('Rate limit exceeded');
+  }
+  const contentType = response.headers.get("content-type");
+  if (contentType && contentType.indexOf("application/json") !== -1) {
+    const data = await response.json();
+    if (data.error) {
+      throw new Error(`${data.error.message} (${data.error.code})`);
+    }
+    return data;
+  } else {
+    const data = await response.text();
+    throw new Error('API call returned: ', data);
+  }
+}
+
+async function getToolSpaces(page='') {
+  const data = await apiCall('https://api.gitbook.com/v1/collections/jQKvylm6WgaH5IFrlIMh/spaces?' + new URLSearchParams({ page: page }), {
+    method: 'GET',
+  });
+  if (data.next) {
+    console.log(data.items.map((item) => item.title));
+    if (data.next.page === data.items[0].id) {
+      // hack! gitbook api bug??
+      console.log("next page is same as current page!");
+      return data.items.concat(await getToolSpaces('gFyhkyGIUQeagl5h4HEp'));
+    }
+    if (data.next.page) {
+      return data.items.concat(await getToolSpaces(data.next.page));
+    }
+  }
+  return data.items;
+}
+
+async function getTeams(page='') {
+  const data = await apiCall('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams?' + new URLSearchParams({ page: page }), {
+    method: 'GET',
+  });
+  if (data.next && data.next.page) {
+    return data.items.concat(await getTeams(data.next.page));
+  }
+  return data.items;
+}
+
 async function createToolOnGitbook(toolName, email) {
   debug('Creating tool on Gitbook', toolName);
   const space = await createSpace(toolName);
@@ -212,7 +271,9 @@ function updateToolJSON(tool, json) {
 export default {
   createTool,
   createToolOnGitbook,
+  getTeams,
   getTools,
+  getToolSpaces,
   removeTool,
   updateToolJSON,
 };
