@@ -2,7 +2,6 @@
 
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
-| [**Baidu Maps**](http://map.baidu.com/) | Baidu’s mapping service offering satellite imagery, street maps, and streetview (“Panorama” - zh:百度全景). | <mark style="background-color:green;">Free</mark> |  |
 | [**Bing Maps**](http://bing.com/maps) | Microsoft Bing’s mapping service offering satellite imagery and street maps. (Streetview only appears in some countries, use a VPN and go US if it's not there) | <mark style="background-color:green;">Free</mark> |  |
 | [**Carte.ma**](http://carte.ma/) | Mapping/streetview service for Morocco | <mark style="background-color:green;">Free</mark> |  |
 | [**Deckhair TV**](https://tv.deckchair.com/) | Open webcams from hotels (??); some of them are strategically located | <mark style="background-color:green;">Free</mark> |  |
@@ -18,6 +17,7 @@
 | [**Photo-Map.RU**](http://photo-map.ru/) | Geotagged VK posts. | <mark style="background-color:green;">Free</mark> |  |
 | [**Wikimapia**](http://wikimapia.org/) | Crowdsourced information related to geographic locations. Possibility to switch between Google/Bing/OSM. Massive amount of UCG information. Can be laggy, and need to refresh page after a view searches. Lost Google API. | <mark style="background-color:green;">Free</mark> |  |
 | [**Yandex Maps**](http://yandex.com/maps) | Yandex's mapping service offering satellite imagery, street maps, and streetview (“Panorama”). It also crowdsources a lot of 'streetview' imagery through the "mirror" function, from both vehicles and pedestrians. | <mark style="background-color:green;">Free</mark> |  |
+| [**Baidu Maps**](http://map.baidu.com/) | Baidu’s mapping service offering satellite imagery, street maps, and streetview (“Panorama” - zh:百度全景). | <mark style="background-color:green;">Free</mark> |  |
 | [**Hitta.se**](http://hitta.se/) | Mapping service for Sweden | <mark style="background-color:green;">Free</mark> |  |
 | [**Tencent Maps**](http://map.qq.com/) | Tencent Maps (formerly SOSO Maps) is a desktop and web mapping service application and technology provided by Chinese company Tencent, offering satellite imagery, street maps, street view (coverage) and historical view perspectives. | <mark style="background-color:green;">Free</mark> |  |
 | [**Twitter Location Search**](undefined) | Search for geocoded tweets by their distance from some coordinates. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/twitter-location-search/README.md) |

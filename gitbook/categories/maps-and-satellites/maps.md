@@ -3,7 +3,6 @@
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
 | [**(Canada) Open Database of Buildings**](https://www.statcan.gc.ca/eng/lode/databases) | Database of \~4.4. million buildings in Canada (comes in GIS format) from Statistics Canada. | <mark style="background-color:green;">Free</mark> |  |
-| [**Baidu Maps**](http://map.baidu.com/) | Baidu’s mapping service offering satellite imagery, street maps, and streetview (“Panorama” - zh:百度全景). | <mark style="background-color:green;">Free</mark> |  |
 | [**Bing Maps**](http://bing.com/maps) | Microsoft Bing’s mapping service offering satellite imagery and street maps. (Streetview only appears in some countries, use a VPN and go US if it's not there) | <mark style="background-color:green;">Free</mark> |  |
 | [**DualMaps**](http://data.mashedworld.com/dualmaps/map.htm) | Combines Google’s road maps, aerial view, and street view in one embeddable tool. | <mark style="background-color:red;">Paid</mark> |  |
 | [**F4Map**](https://demo.f4map.com/#lat=52.5208538\&lon=13.4061429\&zoom=17\&camera.theta=80\&camera.phi=-60.734) | Global map of 3D buildings and the shadows they cast at morning, noon, evening. | <mark style="background-color:green;">Free</mark> |  |
@@ -35,6 +34,7 @@
 | [**WarWire**](http://warwire.net/) | Location-based searches on Twitter, VK, and Instagram. | <mark style="background-color:red;">Paid</mark> |  |
 | [**Wikimapia**](http://wikimapia.org/) | Crowdsourced information related to geographic locations. Possibility to switch between Google/Bing/OSM. Massive amount of UCG information. Can be laggy, and need to refresh page after a view searches. Lost Google API. | <mark style="background-color:green;">Free</mark> |  |
 | [**Yandex Maps**](http://yandex.com/maps) | Yandex's mapping service offering satellite imagery, street maps, and streetview (“Panorama”). It also crowdsources a lot of 'streetview' imagery through the "mirror" function, from both vehicles and pedestrians. | <mark style="background-color:green;">Free</mark> |  |
+| [**Baidu Maps**](http://map.baidu.com/) | Baidu’s mapping service offering satellite imagery, street maps, and streetview (“Panorama” - zh:百度全景). | <mark style="background-color:green;">Free</mark> |  |
 | [**converting coordinates**](http://synnatschke.de/geo-tools/coordinate-converter.php) | Convert geographic coordinates between different notation styles. | <mark style="background-color:green;">Free</mark> |  |
 | [**find2places**](http://github.com/musafir-py/find2places) | Allows querying Google Maps API for two specific places in precise distance from each other within given radius. Useful for geolocating photos and videos. It’s a script, no user-friendly interface. | <mark style="background-color:green;">Free</mark> |  |
 | [**Hitta.se**](http://hitta.se/) | Mapping service for Sweden | <mark style="background-color:green;">Free</mark> |  |
