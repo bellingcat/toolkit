@@ -40,7 +40,7 @@ https://guide.example.com
 
 PhantomBuster
 
-| Page Maintainer                                   |
-| ------------------------------------------------- |
-| [Volunteer needed](mailto:toolkit@bellingcat.com) |
-|                                                   |
+| Page Maintainer |
+| --------------- |
+| Unassigned      |
+|                 |
