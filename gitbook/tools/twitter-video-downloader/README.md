@@ -28,8 +28,8 @@ Internet
 
 vssmartniceman97@gmail.com
 
-| Page Maintainer                                   |
-| ------------------------------------------------- |
-| [Volunteer needed](mailto:toolkit@bellingcat.com) |
-|                                                   |
+| Page Maintainer |
+| --------------- |
+| Unassigned      |
+|                 |
 
