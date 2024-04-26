@@ -28,7 +28,7 @@ Internet and a subscription plan
 
 Fedica is a social media management platform which includes a variety of data analysis services.
 
-| Page Maintainer                                   |
-| ------------------------------------------------- |
-| [Volunteer needed](mailto:toolkit@bellingcat.com) |
-|                                                   |
+| Page Maintainer |
+| --------------- |
+| Unassigned      |
+|                 |
