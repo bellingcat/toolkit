@@ -34,11 +34,5 @@ Not available for free anymore if you are interested in searching for tweet. You
 
 [Hoaxy](https://hoaxy.osome.iu.edu/faq#faq-q10) is a joint project of the Indiana University Network Science Institute ([IUNI](https://iuni.iu.edu/)) and the Center for Complex Networks and Systems Research ([CNetS](http://cnets.indiana.edu/)).
 
-## Last updated
-
-This page is last updated at 06-03-24
-
-## Updated by
-
-<table><thead><tr><th data-type="users" data-multiple></th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/M287qnNGifXoTpjOpJbwaSDYpvp2">johanna</a></td></tr><tr><td></td></tr></tbody></table>
+<table><thead><tr><th data-type="users" data-multiple>Page Maintainers</th></tr></thead><tbody><tr><td></td></tr><tr><td></td></tr></tbody></table>
 
