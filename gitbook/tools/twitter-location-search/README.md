@@ -32,7 +32,7 @@ Twitter/X
 
 [https://www.bellingcat.com/resources/2021/05/19/geofenced-searches-on-twitter-a-case-study-detailing-south-asias-covid-crisis/](https://www.bellingcat.com/resources/2021/05/19/geofenced-searches-on-twitter-a-case-study-detailing-south-asias-covid-crisis/)
 
-| Page Maintainer                                   |
-| ------------------------------------------------- |
-| [Volunteer needed](mailto:toolkit@bellingcat.com) |
-|                                                   |
+| Page Maintainer |
+| --------------- |
+| Unassigned      |
+|                 |
