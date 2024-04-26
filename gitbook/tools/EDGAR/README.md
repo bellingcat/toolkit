@@ -52,8 +52,8 @@ Search by keyword, company name, location or name of an individual.&#x20;
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer  |
-| ---------------- |
-| Volunteer needed |
-|                  |
+| Page maintainer |
+| --------------- |
+| Unassigned      |
+|                 |
 
