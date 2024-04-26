@@ -21,16 +21,16 @@ Features:
 * **Search:** search by location name.
 * **Distance measure:** measure distance between points in metres.
 * **Placemarks**: create shareable placemarks.
-* **Streetview:** street view imagery**.**
+* **Streetview:** street view imagery\*\*.\*\*
 * **3D:** visualise areas in 3D.
 * **Satellite imagery**
 
 Baidu Maps is available in the following formats:
 
 * Web
-* Phone App
+* Mobile
 
-<figure><img src=".gitbook/assets/Screenshot 2024-04-18 at 11.39.48 AM.png" alt=""><figcaption><p>Baidu Maps Screenshot</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot%202024-04-18%20at%2011.39.48%E2%80%AFAM.png" alt=""><figcaption><p>Baidu Maps Screenshot</p></figcaption></figure>
 
 For open source researchers, Baidu Maps can be an invaluable tool in various capacities:
 
@@ -59,7 +59,7 @@ These use cases demonstrate Baidu Maps' potential as a tool beyond simple naviga
 ## Requirements
 
 * **Web**: any modern web browser
-* **Phone App**: iOS and Android (to use the Baidu Maps APP, you will have to register your cell phone number in it).
+* **Mobile**: iOS and Android (to use the Baidu Maps APP, you will have to register your cell phone number in it).
 * **Developer Platform**_:_ email address.
 
 ## Limitations
@@ -86,7 +86,7 @@ When using Baidu Maps, it is important to consider various ethical implications:
 
 To effectively use Baidu Maps, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
 
-**Official Wiki**&#x20;
+**Official Wiki**
 
 * **No official wiki in English**
 
@@ -106,7 +106,7 @@ To effectively use Baidu Maps, especially for beginners or those looking to refi
 
 **Community and Support**
 
-* &#x20;**No community support in English**
+* **No community support in English**
 
 By utilizing these resources, users can enhance their Baidu Maps experience, whether for personal navigation, planning trips, or developing custom mapping solutions.
 
