@@ -19,6 +19,7 @@ One of the key problems Baidu Maps solves is navigation and location-based searc
 Features:
 
 * **Search:** search by location name.
+* **Language:** Chinese.
 * **Distance measure:** measure distance between points in metres.
 * **Placemarks**: create shareable placemarks.
 * **Streetview:** street view imagery\*\*.\*\*
