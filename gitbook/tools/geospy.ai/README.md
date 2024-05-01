@@ -1,48 +1,42 @@
 ---
-description: A brief one-line description of the tool.
+description: AI-based geolocation tool for images.
 ---
 
 # Geospy.ai
 
 ## URL
 
-https://example.com
+[https://geospy.ai/](https://geospy.ai/)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Drag-and-drop solution to geolocate images. No authentication is required. You can upload an image, and the platform returns geographic coordinates along with a short text description of the picture's main visual features.
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+Freemium model. There are paid enterprise plans for API access.
 
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
-## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+It is not open-source. Users can geolocate only one image at a time in the free version. Use with caution as the AI prediction might be incorrect.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
-
-## Guides and articles
-
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+The platform misses clear privacy and policy guidelines. Be aware when handling sensitive information.
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+[Graylark](https://graylark.io/)
 
 ## Advertising Trackers
 
@@ -54,4 +48,3 @@ https://example.com
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
