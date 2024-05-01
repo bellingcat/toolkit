@@ -1,12 +1,12 @@
 ---
-description: A brief one-line description of the tool.
+description: More recent satellite imagery from places like Afghanistan and Iran than Google has.
 ---
 
-# Here WeGo
+# HERE WeGo
 
 ## URL
 
-https://example.com
+http://wego.here.com/
 
 ## Description
 

@@ -7,11 +7,14 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "draft": true,
-  "name": "Here WeGo",
-  "description": "A brief one-line description of the tool.",
-  "url": "https://example.com",
-  "tags": []
+  "name": "HERE WeGo",
+  "url": "http://wego.here.com/",
+  "description": "More recent satellite imagery from places like Afghanistan and Iran than Google has.",
+  "cost": "Free",
+  "tags": [
+    "maps-and-satellites",
+    "satellite-imagery"
+  ]
 }
 ```
 {% endcode %}
