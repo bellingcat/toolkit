@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import pkg from './paths.mjs'
-const {processMarkdownFile} = pkg;
+const {getPaths, processMarkdownFile} = pkg;
 
 /* Example
 createTool({
@@ -250,12 +250,47 @@ function updateToolJSON(tool, json) {
   tool.json = json;
 }
 
+function getCategories() {
+  const whitelist = [
+    'twitter',
+    'instagram',
+    'facebook',
+    'youtube',
+    'telegram',
+    'tiktok',
+    'discord',
+    'multiple-networks',
+    'linkedin',
+    'reddit',
+    'vkontakte',
+    'other-networks',
+    'reverse-image-search',
+    'facial-recognition',
+    'metadata',
+    'image-misc',
+    'people',
+    'transport',
+    'websites',
+    'companies-and-finance',
+    'environment-and-wildlife',
+    'maps',
+    'satellite-imagery',
+    'street-view'
+  ];
+
+  return getPaths('gitbook/categories').filter((category) => {
+    const tag = category.slug.slice(-1)[0];
+    return category.filename !== 'README.md' && whitelist.includes(tag);
+  });
+}
+
 export default {
   createTool,
   createToolOnGitbook,
   getTeams,
   getTools,
   getToolSpaces,
+  getCategories,
   removeTool,
   updateToolJSON,
 };

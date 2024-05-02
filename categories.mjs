@@ -1,9 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 import tools from './tools.mjs'
-const { getTools } = tools;
+const { getTools, getCategories } = tools;
 import pkg from './paths.mjs'
-const {getPaths, processMarkdownFile} = pkg;
+const {processMarkdownFile} = pkg;
 
 const allTools = getTools().filter((tool) => !tool.draft );
 const mostUsed = processMarkdownFile('gitbook/most-used.md', 'most-used', [], '');
@@ -12,37 +12,7 @@ const content = renderCategory(mostUsed, mostUsedTools);
 console.log('writing', 'gitbook/most-used.md');
 fs.writeFileSync('gitbook/most-used.md', content);
 
-const whitelist = [
-  'twitter',
-  'instagram',
-  'facebook',
-  'youtube',
-  'telegram',
-  'tiktok',
-  'discord',
-  'multiple-networks',
-  'linkedin',
-  'reddit',
-  'vkontakte',
-  'other-networks',
-  'reverse-image-search',
-  'facial-recognition',
-  'metadata',
-  'image-misc',
-  'people',
-  'transport',
-  'websites',
-  'companies-and-finance',
-  'environment-and-wildlife',
-  'maps',
-  'satellite-imagery',
-  'street-view'
-];
-
-getPaths('gitbook/categories').filter((category) => {
-  const tag = category.slug.slice(-1)[0];
-  return category.filename !== 'README.md' && whitelist.includes(tag);
-}).forEach((category) => {
+getCategories().forEach((category) => {
   const categoryTools = allTools.filter((tool) => {
     return tool.tags && tool.tags.includes(category.slug.slice(-1)[0]);
   }).map((tool) => {
