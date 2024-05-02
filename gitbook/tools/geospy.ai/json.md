@@ -11,7 +11,7 @@ description: This is the JSON codeblock for this tool
   "name": "Geospy.ai",
   "description": "Image geolocation platform.",
   "url": "https://graylark.io/",
-  "tags": [free,geolocation,ai]
+  "tags": [ "free" , "geolocation" , "ai"]
 }
 ```
 {% endcode %}
