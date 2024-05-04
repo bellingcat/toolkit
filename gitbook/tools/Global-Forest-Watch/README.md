@@ -1,18 +1,27 @@
 ---
 description: >-
-  Helps detect changes in forest cover (i.e., to track deforestation). Also
-  includes Global Fire Watch (VIRSS data)
+  It helps to detect changes in forest cover (i.e., to track deforestation),
+  fires, land use, and more. It also includes Global Fire Watch (VIRSS data)
 ---
 
 # Global Forest Watch
 
 ## URL
 
-https://www.globalforestwatch.org/topics/fires/
+https://www.globalforestwatch.org/
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+**Features**\
+Forest Change: rates of forest change, forest extent, and drivers of deforestation. \
+Fires: Rates and location of fires. \
+Land use: Commodities, conservation, infrastructure, concessions, and people. \
+Land cover: tree cover, forest landscape and integrity, and others.\
+Biodiversity: Global biodiversity intactness, key biodiversity areas, amongst others.\
+Climate: Carbon flux, carbon density, and potential carbon gains.\
+\
+\
+
 
 ## Cost
 
@@ -28,7 +37,11 @@ https://www.globalforestwatch.org/topics/fires/
 
 ## Requirements
 
-There is no requirements to use this tool, including no e-mail address is requested.&#x20;
+There are no requirements to use this tool, and no e-mail address is requested. \
+**Using with no account:** Explore features such as deforestation, fires, land cover, land use, biodiversity, and weather data from 2001 on (in most of the regions). \
+\
+However, researchers who want to optimize their research can create an account, sign up for alerts in an area of interest, analyze data, and receive email notifications when new alerts are available.\
+**To create an account:** After providing an email, you can use generic information on contact and affiliation.&#x20;
 
 ## Limitations
 
@@ -36,7 +49,7 @@ There is no requirements to use this tool, including no e-mail address is reques
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Minimal ethical considerations, as the&#x20;
 
 ## Guide
 
@@ -44,7 +57,7 @@ There is no requirements to use this tool, including no e-mail address is reques
 
 ## Tool provider
 
-The World Resources Institute (WRI) established Global Forest Watch in 1997. WRI is a global research non-profit organization established in 1982. With offices around the world, they utilize research-based methodologies to address critical needs worldwide and in specific target regions. WRI efforts aim to fulfill essential human necessities, conserve and rehabilitate natural environments, mitigate climate instability, and foster the development of  adaptable communities.
+The World Resources Institute (WRI), a global research non-profit organization established in 1982, established Global Forest Watch in 1997. With offices worldwide, WRI utilizes research-based methodologies to address critical needs worldwide and in specific target regions. WRI efforts aim to fulfill essential human necessities, conserve and rehabilitate natural environments, mitigate climate instability, and foster the development of adaptable communities.
 
 ## Advertising Trackers
 
