@@ -18,7 +18,12 @@ Fires: Rates and location of fires. \
 Land use: Commodities, conservation, infrastructure, concessions, and people. \
 Land cover: tree cover, forest landscape and integrity, and others.\
 Biodiversity: Global biodiversity intactness, key biodiversity areas, amongst others.\
-Climate: Carbon flux, carbon density, and potential carbon gains.\
+Climate: Carbon flux, carbon density, and potential carbon gains.
+
+**Benefits**\
+\-The data can be exported.\
+\-Interactive and easy visualization.\
+\-Tutorials on using the features are available through the website and are accessible. \
 \
 \
 
@@ -49,7 +54,19 @@ However, researchers who want to optimize their research can create an account, 
 
 ## Ethical Considerations
 
-Minimal ethical considerations, as the&#x20;
+There are minimal ethical considerations, as it is configured with a combination of sources (below). Still, moral considerations should be given attention when using the data to take action, as per the limitations delineated above. \
+\
+Sources used by Global Forest Watch\
+World Topographic Map: © Mapbox, © OpenStreetMap, USGS, Landsat, Natural Earth and Open Addresses\
+Dark Matter: Carto\
+Satellite: Google Satellite\
+Landsat: Landsat OLI, USGS Earth Observation and Science Center, and Google Earth Engine\
+Labels: © Mapbox, © OpenStreetMap\
+Streets: © Mapbox, © OpenStreetMap\
+Political Boundaries: © Mapbox, © OpenStreetMap\
+Terrestrial Ecoregions: RESOLVE, 2017\
+River Basins: © Mapbox, © OpenStreetMap\
+Planet Mosaics: © Planet Labs Inc. Mosaics can also be downloaded from https://www.planet.com/nicfi/.
 
 ## Guide
 
@@ -57,7 +74,7 @@ Minimal ethical considerations, as the&#x20;
 
 ## Tool provider
 
-The World Resources Institute (WRI), a global research non-profit organization established in 1982, established Global Forest Watch in 1997. With offices worldwide, WRI utilizes research-based methodologies to address critical needs worldwide and in specific target regions. WRI efforts aim to fulfill essential human necessities, conserve and rehabilitate natural environments, mitigate climate instability, and foster the development of adaptable communities.
+The World Resources Institute (WRI), a global research non-profit organization established in 1982, established Global Forest Watch in 1997. With offices worldwide, WRI utilizes research-based methodologies to address critical needs in specific target regions. WRI efforts aim to fulfill essential human necessities, conserve and rehabilitate natural environments, mitigate climate instability, and foster the development of adaptable communities.
 
 ## Advertising Trackers
 
