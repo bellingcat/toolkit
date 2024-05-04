@@ -50,11 +50,11 @@ However, researchers who want to optimize their research can create an account, 
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+Like all data from satellite imagery, we can not say that the data is 100% accurate.
 
 ## Ethical Considerations
 
-There are minimal ethical considerations, as it is configured with a combination of sources (below). Still, moral considerations should be given attention when using the data to take action, as per the limitations delineated above. \
+There are minimal ethical considerations, as it is configured with a combination of sources (below). Still, consider the limitations when using the data to take action. \
 \
 Sources used by Global Forest Watch\
 World Topographic Map: © Mapbox, © OpenStreetMap, USGS, Landsat, Natural Earth and Open Addresses\
@@ -70,7 +70,7 @@ Planet Mosaics: © Planet Labs Inc. Mosaics can also be downloaded from https://
 
 ## Guide
 
-\[\[Link to a guide on this tool]]
+Step-by-step guide: https://www.globalforestwatch.org/help/map/guides/&#x20;
 
 ## Tool provider
 
