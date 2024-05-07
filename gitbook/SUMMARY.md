@@ -59,4 +59,4 @@
   * [Global Forest Watch](tools/Global-Forest-Watch/README.md)
   * [Earth Explorer](tools/Earth-Explorer/README.md)
   * [Maltego](tools/Maltego/README.md)
-  * [PeakVisor] (tools/peakvisor/README.md)
+  * [PeakVisor](tools/peakvisor/README.md)
