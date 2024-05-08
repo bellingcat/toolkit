@@ -8,7 +8,7 @@ description: This is the JSON codeblock for this tool
 ```json
 {
     "url": "https://peakvisor.com",
-    "tags": ["maps-and-satellites", "free", "mountains", "coastlines", "canyons", "photofit"]
+    "tags": ["maps", "maps-and-satellites", "free", "mountains", "coastlines", "canyons", "photofit"]
 }
 ```
 {% endcode %}
