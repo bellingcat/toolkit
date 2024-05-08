@@ -36,7 +36,7 @@
 | [**converting coordinates**](http://synnatschke.de/geo-tools/coordinate-converter.php) | Convert geographic coordinates between different notation styles. | <mark style="background-color:green;">Free</mark> |  |
 | [**F4Map**](https://demo.f4map.com/#lat=52.5208538\&lon=13.4061429\&zoom=17\&camera.theta=80\&camera.phi=-60.734) | Global map of 3D buildings and the shadows they cast at morning, noon, evening. | <mark style="background-color:green;">Free</mark> |  |
 | [**find2places**](http://github.com/musafir-py/find2places) | Allows querying Google Maps API for two specific places in precise distance from each other within given radius. Useful for geolocating photos and videos. It’s a script, no user-friendly interface. | <mark style="background-color:green;">Free</mark> |  |
-| [**Hitta.se**](http://hitta.se/) | Mapping service for Sweden | <mark style="background-color:green;">Free</mark> |  |
+| [**Hitta.se**](http://hitta.se/) | Mapping service for Sweden | <mark style="background-color:green;">Free</mark> | [Details](../../tools/hitta.se/README.md) |
 | [**mapy.cz**](http://mapy.cz) | Mapping service for Czechia | <mark style="background-color:green;">Free</mark> |  |
 | [**overpass-turbo**](https://overpass-turbo.eu/) | A web based data mining tool for OpenStreetMap. | <mark style="background-color:green;">Free</mark> |  |
 | [**Peakvisor**](http://peakvisor.com/panorama.html?lat=45.9420159\&lng=7.8699421\&alt=4598\&yaw=0.00\&pitch=0.00\&hfov=62.93) | Mountain identification tool. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/peakvisor/README.md) |
