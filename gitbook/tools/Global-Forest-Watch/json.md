@@ -16,7 +16,7 @@ description: This is the JSON codeblock for this tool
     "maps-and-satellites",
     "maps",
     "environment-and-wildlife",
-    "fires"
+    "fires",
     "deforestation"
   ]
 }
