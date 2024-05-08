@@ -23,7 +23,7 @@ description: This is the JSON codeblock for this tool
 ```
 {% endcode %}
 
-Keep the codeblock updated with accurate information. Only edit the **values** (words to the right of the `:` on each line, in dark blue font). Do not change the key names (left side, slightly light blue) or any of the other formatting. Every line should end in a comma except the last line. Every key and value should be enclosed in quotation marks. See below for an explanation of each line.
+Keep the codeblock updated with accurate information. Only edit the **values** (words to the right of the `:` on each line, in dark blue font). Do not change the key names (left side, slightly light blue) or any of the other formatting. Every line should end in a comma except the last line. Every key and value should be enclosed in quotation marks. See below for an explanation of each line.&#x20;
 
 ## name, description (optional)
 
@@ -35,7 +35,7 @@ If set to `true`, this prevents this tool from being listed in relevant category
 
 ## url
 
-[https://www.globalforestwatch.org/](https://www.globalforestwatch.org/)&#x20;
+A hyperlink directly to the tool, for quick-access from the category page. Be sure to use the secure (http**S**) version if possible.
 
 ## tags
 
@@ -44,3 +44,4 @@ This list of tags will determine which category pages the tool appears on. Tags 
 If a tool is completely free to use, include the tag "free".
 
 If the tool is focused on one specific country (or a limited number of them), tag it with the name of the country as well as "international".
+
