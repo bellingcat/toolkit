@@ -1,16 +1,16 @@
 ---
-description: Searches archived Telegram channels and provides channel analytics.
+description: A brief, one line description of this tool
 ---
 
-# TGstat
+# Tool Name
 
 ## URL
 
-http://tgstat.com/
+https://example.com
 
 ## Description
 
-A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case?
+\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
 
 ## Cost
 
@@ -18,31 +18,31 @@ A full description of the tool, any background information needed to use it. Wha
 * [ ] Partially Free
 * [ ] Paid
 
-Pricing or subscription information, if relevant.
+\[\[Pricing or subscription information, if relevant.]]
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>null</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
-Information on the requirement for using a tool, for instance, API key, e-mail address etc.
+\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
 
 ## Limitations
 
-The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.
+\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
 
 ## Ethical Considerations
 
-The ethical considerations of each tool should be described.
+\[\[The ethical considerations of each tool should be described.]]
 
-## Guide
+## Guides and articles
 
-Link to a guide on this tool
+\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
 
 ## Tool provider
 
-Name the tool provider (and potentially info on them)
+\[\[Name the tool provider (and potentially info on them)]]
 
 ## Advertising Trackers
 
@@ -50,5 +50,8 @@ Name the tool provider (and potentially info on them)
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-<table><thead><tr><th data-type="users" data-multiple>Page maintainer</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
+| Page maintainer                                                |
+| -------------------------------------------------------------- |
+| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
+|                                                                |
 
