@@ -1,12 +1,12 @@
 ---
-description: A brief one-line description of the tool.
+description: OpenStreetCam (now KartaView) is a project to collect crowdsourced street-level photographs for improving OpenStreetMap. Collected imagery is published under a CC-BY-SA license and most of the project's code is open source.
 ---
 
 # KartaView
 
 ## URL
 
-https://example.com
+http://kartaview/) (Previously Openstreetcam
 
 ## Description
 
@@ -36,9 +36,9 @@ https://example.com
 
 \[\[The ethical considerations of each tool should be described.]]
 
-## Guides and articles
+## Guide
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+\[\[Link to a guide on this tool]]
 
 ## Tool provider
 

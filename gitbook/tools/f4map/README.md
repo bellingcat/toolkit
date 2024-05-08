@@ -1,12 +1,12 @@
 ---
-description: A brief one-line description of the tool.
+description: Global map of 3D buildings and the shadows they cast at morning, noon, evening.
 ---
 
-# F4map
+# F4Map
 
 ## URL
 
-https://example.com
+https://demo.f4map.com/#lat=52.5208538\&lon=13.4061429\&zoom=17\&camera.theta=80\&camera.phi=-60.734
 
 ## Description
 
@@ -36,9 +36,9 @@ https://example.com
 
 \[\[The ethical considerations of each tool should be described.]]
 
-## Guides and articles
+## Guide
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+\[\[Link to a guide on this tool]]
 
 ## Tool provider
 
