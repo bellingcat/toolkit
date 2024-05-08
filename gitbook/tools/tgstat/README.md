@@ -1,12 +1,12 @@
 ---
-description: A brief, one line description of this tool
+description: Searches archived Telegram channels and provides channel analytics.
 ---
 
-# Tool Name
+# TGstat
 
 ## URL
 
-https://example.com
+http://tgstat.com/
 
 ## Description
 

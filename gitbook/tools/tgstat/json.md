@@ -7,9 +7,14 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-    "draft": true,
-    "url": "https://example.com",
-    "tags": ["tag1", "tag2", "tag3"]
+  "name": "TGstat",
+  "url": "http://tgstat.com/",
+  "description": "Searches archived Telegram channels and provides channel analytics.",
+  "cost": "Free",
+  "tags": [
+    "telegram",
+    "most-used"
+  ]
 }
 ```
 {% endcode %}
