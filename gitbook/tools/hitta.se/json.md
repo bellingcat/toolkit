@@ -21,7 +21,7 @@ description: This is the JSON codeblock for this tool
     "people-search",
     "company-data",
     "geolocation",
-    "financial"
+    "financial",
     "financial-information"
   ]
 }
