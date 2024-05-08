@@ -10,5 +10,4 @@
 | [**TelegramDB**](http://telegramdb.org/) | Database of Telegram channels | <mark style="background-color:green;">Free</mark> |  |
 | [**Telemetr.io**](http://telemetr.io/) | Telegram channel analytics | <mark style="background-color:green;">Free</mark> |  |
 | [**Telepathy**](https://github.com/jordanwildon/Telepathy) | GitHub - "swiss army knife" for investigating Telegram c | <mark style="background-color:green;">Free</mark> |  |
-| [**TGstat**](http://tgstat.com/) | Searches archived Telegram channels and provides channel analytics. | <mark style="background-color:green;">Free</mark> |  |
 | [**tlgrm.eu channels**](http://tlgrm.eu/channels) | Search Telegram channels. | <mark style="background-color:green;">Free</mark> |  |
