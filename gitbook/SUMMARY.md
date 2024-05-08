@@ -60,3 +60,4 @@
   * [Earth Explorer](tools/Earth-Explorer/README.md)
   * [Maltego](tools/maltego/README.md)
   * [PeakVisor](tools/peakvisor/README.md)
+  * [Hitta.se](tools/Hitta.se/README.md)
