@@ -1,3 +1,4 @@
 # Table of contents
 
-* [Page](README.md)
+* [PeakVisor (Web version, not Smartphone app)](README.md)
+* [JSON](json.md)
