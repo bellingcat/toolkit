@@ -61,3 +61,4 @@
   * [Maltego](tools/maltego/README.md)
   * [PeakVisor](tools/peakvisor/README.md)
   * [Hitta.se](tools/hitta.se/README.md)
+  * [Hunchly](tools/hunchly/README.md)
