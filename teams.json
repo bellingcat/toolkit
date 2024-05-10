@@ -886,5 +886,13 @@
     "members": 1,
     "spaces": 1,
     "createdAt": "2024-03-28T16:53:42.448Z"
+  },
+  {
+    "object": "team",
+    "id": "OfTWzhh0KpoWvxdzTnky",
+    "title": "Pinpoint",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2024-05-10T23:10:29.236Z"
   }
 ]
