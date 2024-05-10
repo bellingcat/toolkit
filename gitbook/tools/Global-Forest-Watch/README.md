@@ -23,10 +23,7 @@ Climate: Carbon flux, carbon density, and potential carbon gains.
 **Benefits**\
 \-The data can be exported.\
 \-Interactive and easy visualization.\
-\-Tutorials on using the features are available through the website and are accessible. \
-\
-\
-
+\-Tutorials on using the features are available through the website and are accessible.&#x20;
 
 ## Cost
 
