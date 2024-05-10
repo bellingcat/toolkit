@@ -66,7 +66,7 @@ function createTool(tool, opts={}) {
 }
 
 async function apiCall(url, params) {
-  debug('API call', url, params);
+  //debug('API call', url, params);
   const response = await fetch(url, {
     method: params.method,
     headers: {
@@ -78,7 +78,7 @@ async function apiCall(url, params) {
     signal: AbortSignal.timeout( 10 * 1000 ), // 10 seconds
   });
 
-  debug('API response', response.status);
+  //debug('API response', response.status);
   // check rate limit headers
   if (response.headers.get('x-ratelimit-remaining') === '0') {
     console.log('Rate limit exceeded');
@@ -144,7 +144,7 @@ async function createToolOnGitbook(toolName, email) {
 }
 
 async function findSpace(name, page='') {
-  console.log("searching for existing space", page);
+  debug("searching for existing space", page);
   const spaces = readSpaces();
   const space = spaces.find((space) => space.title === name);
   if (space) {
