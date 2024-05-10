@@ -1,10 +1,10 @@
 import fs from 'fs';
 import pkg from './tools.mjs'
-const {getToolSpaces, getTeams, writeSpaces, writeTeams} = pkg;
+const {fetchSpaces, fetchTeams, writeSpaces, writeTeams} = pkg;
 
 // script to get spaces from gitbook and save them to a json file
-const spaces = await getToolSpaces();
+const spaces = await fetchSpaces();
 writeSpaces(spaces);
 
-const teams = await getTeams();
+const teams = await fetchTeams();
 writeTeams(teams);

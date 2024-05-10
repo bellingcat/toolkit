@@ -85,30 +85,31 @@ async function apiCall(url, params) {
   }
 }
 
-async function getToolSpaces(page='') {
+async function fetchSpaces(page='') {
   const data = await apiCall('https://api.gitbook.com/v1/collections/jQKvylm6WgaH5IFrlIMh/spaces?' + new URLSearchParams({ page: page }), {
     method: 'GET',
   });
+  console.log(data.items.map((item) => `${item.id} ${item.title}`));
   if (data.next) {
-    console.log(data.items.map((item) => item.title));
+    console.log('next', data.next);
     if (data.next.page === data.items[0].id) {
-      // hack! gitbook api bug??
       console.log("next page is same as current page!");
-      return data.items.concat(await getToolSpaces('gFyhkyGIUQeagl5h4HEp'));
+      // hack! gitbook api bug: the last item is the same as the first time. take the id of the second to last item as the next page
+      return data.items.concat(await fetchSpaces(data.items[data.items.length-2].id));
     }
     if (data.next.page) {
-      return data.items.concat(await getToolSpaces(data.next.page));
+      return data.items.concat(await fetchSpaces(data.next.page));
     }
   }
   return data.items;
 }
 
-async function getTeams(page='') {
+async function fetchTeams(page='') {
   const data = await apiCall('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams?' + new URLSearchParams({ page: page }), {
     method: 'GET',
   });
   if (data.next && data.next.page) {
-    return data.items.concat(await getTeams(data.next.page));
+    return data.items.concat(await fetchTeams(data.next.page));
   }
   return data.items;
 }
@@ -134,7 +135,7 @@ async function createToolOnGitbook(toolName, email) {
 
 async function findSpace(name, page='') {
   console.log("searching for existing space", page);
-  const spaces = JSON.parse(fs.readFileSync('spaces.json', 'utf-8'));
+  const spaces = readSpaces();
   const space = spaces.find((space) => space.title === name);
   if (space) {
     return space;
@@ -147,12 +148,39 @@ async function createSpace(name) {
     debug('Space already exists');
     return space;
   }
-  debug('Duplicating the template space');
-  const data = apiCall('https://api.gitbook.com/v1/spaces/LWUcuebJXer3XFC0YLqM/duplicate', {
+
+  debug('Creating a new empty space', name);
+  const response = await apiCall('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/spaces', {
     method: 'POST',
+    body: JSON.stringify({
+      title: name,
+      emoji: '🛠️',
+      parent: 'jQKvylm6WgaH5IFrlIMh'
+    }),
   });
-  const updated = await renameSpace(data, name)
-  return updated;
+  const data = await response.json();
+
+  // update spaces.json
+  const spaces = readSpaces();
+  spaces.push(data);
+  writeSpaces(spaces);
+
+  return data;
+}
+
+function readSpaces() {
+  return JSON.parse(fs.readFileSync('spaces.json', 'utf-8'));
+}
+function writeSpaces(spaces) {
+  console.log('writing', spaces.length, 'spaces to',  'spaces.json');
+  fs.writeFileSync('spaces.json', JSON.stringify(spaces, null, 2));
+}
+function readTeams() {
+  return JSON.parse(fs.readFileSync('teams.json', 'utf-8'));
+}
+function writeTeams(teams) {
+  console.log('writing', teams.length, 'teams to',  'teams.json');
+  fs.writeFileSync('teams.json', JSON.stringify(teams, null, 2));
 }
 
 async function renameSpace(space, name) {
@@ -165,7 +193,7 @@ async function renameSpace(space, name) {
 }
 
 async function findTeam(name, page='') {
-  const teams = JSON.parse(fs.readFileSync('spaces.json', 'utf-8'));
+  const teams = readTeams();
   const team = teams.find((team) => team.title === name);
   if (team) {
     return team;
@@ -190,6 +218,12 @@ async function createTeam(name) {
     method: 'PUT',
     body: JSON.stringify({ "title": name }),
   });
+
+  // update spaces.json
+  const teams = readTeams();
+  teams.push(data);
+  writeTeams(teams);
+
   return data;
 }
 function removeTool(toolName) {
@@ -240,10 +274,12 @@ function getCategories() {
 export default {
   createTool,
   createToolOnGitbook,
-  getTeams,
+  fetchTeams,
+  fetchSpaces,
   getTools,
-  getToolSpaces,
   getCategories,
   removeTool,
   updateToolJSON,
+  writeSpaces,
+  writeTeams,
 };
