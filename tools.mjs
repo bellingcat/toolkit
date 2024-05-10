@@ -47,10 +47,21 @@ function createTool(tool, opts={}) {
     fs.writeFileSync(`${pathname}/SUMMARY.md`, toolToSummary(tool));
     debug("Tool created");
   }
-  debug("******GITSYNC CONFIGURATION******");
-  debug("Monorepo project directory :", pathname);
-  debug("Commit message template    :", `GITBOOK-${slug}-{change_request_number}: {change_request_subject}`);
-  debug("*********************************");
+  debug("");
+  debug("*************************************");
+  debug("**** Monorepo: Project directory ****")
+  debug("*************************************");
+  debug("");
+  debug(pathname);
+  debug("");
+  debug("");
+  debug("**********************************************");
+  debug("**** Commit messages: Use custom template ****")
+  debug("**********************************************");
+  debug("                              ");
+  debug(`GITBOOK-${slug}-{change_request_number}: {change_request_subject}`);
+  debug("                              ");
+  debug("                              ");
   return slug;
 }
 
