@@ -60,7 +60,7 @@ async function apiCall(url, params) {
     method: params.method,
     headers: {
       "Authorization": `Bearer ${process.env.GITBOOK_API_TOKEN}`,
-      headers: { "Content-Type": "application/json" },
+      "Content-Type": "application/json",
       ...params.headers,
     },
     body: JSON.stringify(params.body),
@@ -80,8 +80,7 @@ async function apiCall(url, params) {
     }
     return data;
   } else {
-    const data = await response.text();
-    throw new Error('API call returned: ', data);
+    return response;
   }
 }
 
@@ -150,7 +149,7 @@ async function createSpace(name) {
   }
 
   debug('Creating a new empty space', name);
-  const response = await apiCall('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/spaces', {
+  const data = await apiCall('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/spaces', {
     method: 'POST',
     body: {
       title: name,
@@ -158,7 +157,6 @@ async function createSpace(name) {
       parent: 'jQKvylm6WgaH5IFrlIMh'
     },
   });
-  const data = await response.json();
 
   // update spaces.json
   const spaces = readSpaces();
@@ -203,10 +201,13 @@ async function findTeam(name, page='') {
 }
 
 async function addTeamMember(team, email) {
-  const data = await apiCall(`https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams/${team.id}/members`, {
+  const response = await apiCall(`https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams/${team.id}/members`, {
     method: 'PUT',
     body: { "add": [email] }
   });
+  if (response.status !== 204) {
+    throw new Error(`Failed to add team member to ${team}`);
+  }
 }
 
 async function createTeam(name) {
