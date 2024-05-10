@@ -15,6 +15,19 @@ createTool({
 function debug(...args) {
     console.debug(...args);
 }
+function toolToCategories(tool) {
+  let categories = getCategories();
+
+  let template = fs.readFileSync('template/categories.md', 'utf-8');
+  for (const category of categories) {
+    // if the category slug is in the tool tags
+    if (tool.tags.includes(category.slug.slice(-1)[0])) {
+      // replace the line [ ] (Tool Name)[link] with [x] (Tool Name)[link]
+      template = template.replace(`[ ] [${category.title}]`, `[x] [${category.title}]`);
+    }
+  }
+  return template;
+}
 function toolToJson(tool) {
   const json = JSON.stringify(tool, null, 2);
   const jsonTemplate = fs.readFileSync('template/json.md', 'utf-8');
@@ -45,6 +58,7 @@ function createTool(tool, opts={}) {
     fs.writeFileSync(`${pathname}/json.md`, toolToJson(tool));
     fs.writeFileSync(`${pathname}/README.md`, toolToReadme(tool));
     fs.writeFileSync(`${pathname}/SUMMARY.md`, toolToSummary(tool));
+    fs.writeFileSync(`${pathname}/categories.md`, toolToCategories(tool));
     debug("Tool created");
   }
   debug("");
@@ -278,6 +292,13 @@ function updateToolJSON(tool, json) {
   tool.json = json;
 }
 
+function updateToolCategories(tool) {
+  const pathname = tool.jsonFilePath.replace('json.md', 'categories.md');
+
+  console.log('Updating', pathname);
+  fs.writeFileSync(pathname, toolToCategories(tool));
+}
+
 function getCategories() {
   return getPaths('gitbook/categories').filter((category) => {
     const tag = category.slug.slice(-1)[0];
@@ -294,6 +315,7 @@ export default {
   getCategories,
   removeTool,
   updateToolJSON,
+  updateToolCategories,
   writeSpaces,
   writeTeams,
 };
