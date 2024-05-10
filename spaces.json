@@ -503,34 +503,6 @@
   },
   {
     "object": "space",
-    "id": "NTTgCvQ5sHsy1ZiVO9VN",
-    "title": "Twitter Video Downloader",
-    "emoji": "1f6e0",
-    "visibility": "private",
-    "createdAt": "2024-03-11T12:45:10.647Z",
-    "updatedAt": "2024-04-26T22:52:08.000Z",
-    "editMode": "locked",
-    "urls": {
-      "location": "/spaces/NTTgCvQ5sHsy1ZiVO9VN",
-      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/NTTgCvQ5sHsy1ZiVO9VN/"
-    },
-    "organization": "WQpOq5ZFue4N6m65QCJq",
-    "parent": "jQKvylm6WgaH5IFrlIMh",
-    "gitSync": {
-      "installationProvider": "github",
-      "operation": {
-        "startedAt": "2024-04-26T22:52:23.108Z",
-        "state": "success",
-        "completedAt": "2024-04-26T22:52:27.454Z"
-      },
-      "url": "https://github.com/bellingcat/toolkit/blob/main",
-      "updatedAt": "2024-03-13T23:54:44.798Z"
-    },
-    "revision": "oPyq9Cg6eePHOeMq1IKB",
-    "defaultLevel": "inherit"
-  },
-  {
-    "object": "space",
     "id": "JKmcPSP4pf2j8sIhwBux",
     "title": "Index Database",
     "emoji": "1f6e0",

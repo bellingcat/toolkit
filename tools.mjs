@@ -172,6 +172,8 @@ function readSpaces() {
   return JSON.parse(fs.readFileSync('spaces.json', 'utf-8'));
 }
 function writeSpaces(spaces) {
+  // remove duplicate spaces by id
+  spaces = spaces.filter((space, index, self) => self.findIndex((s) => s.id === space.id) === index);
   console.log('writing', spaces.length, 'spaces to',  'spaces.json');
   fs.writeFileSync('spaces.json', JSON.stringify(spaces, null, 2));
 }
