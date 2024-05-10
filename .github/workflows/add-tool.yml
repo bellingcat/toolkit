@@ -68,7 +68,7 @@ jobs:
           git commit -m "Add Tool $TOOL_NAME"
 
       - name: Push changes
-        if: ${{ steps.add-folder.outputs.changes == 'true' }}
+        if: ${{ steps.add-folder.outputs.changes == 'true' || steps.add-space.outputs.changes == 'true' }}
         uses: ad-m/github-push-action@master
         with:
           branch: main
