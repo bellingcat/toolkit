@@ -561,6 +561,14 @@
   },
   {
     "object": "team",
+    "id": "dwX8QEXybqIBVWQ8jKTI",
+    "title": "OpenSanctions",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2024-05-10T20:51:10.521Z"
+  },
+  {
+    "object": "team",
     "id": "f2c4OoEnsThy5lm9MOku",
     "title": "Name Variant Search",
     "members": 2,
