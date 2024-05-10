@@ -251,36 +251,9 @@ function updateToolJSON(tool, json) {
 }
 
 function getCategories() {
-  const whitelist = [
-    'twitter',
-    'instagram',
-    'facebook',
-    'youtube',
-    'telegram',
-    'tiktok',
-    'discord',
-    'multiple-networks',
-    'linkedin',
-    'reddit',
-    'vkontakte',
-    'other-networks',
-    'reverse-image-search',
-    'facial-recognition',
-    'metadata',
-    'image-misc',
-    'people',
-    'transport',
-    'websites',
-    'companies-and-finance',
-    'environment-and-wildlife',
-    'maps',
-    'satellite-imagery',
-    'street-view'
-  ];
-
   return getPaths('gitbook/categories').filter((category) => {
     const tag = category.slug.slice(-1)[0];
-    return category.filename !== 'README.md' && whitelist.includes(tag);
+    return category.filename !== 'README.md';
   });
 }
 
