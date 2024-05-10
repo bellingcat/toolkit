@@ -152,11 +152,11 @@ async function createSpace(name) {
   debug('Creating a new empty space', name);
   const response = await apiCall('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/spaces', {
     method: 'POST',
-    body: JSON.stringify({
+    body: {
       title: name,
       emoji: '🛠️',
       parent: 'jQKvylm6WgaH5IFrlIMh'
-    }),
+    },
   });
   const data = await response.json();
 
@@ -189,7 +189,7 @@ async function renameSpace(space, name) {
   debug('Renaming space to', name);
   const data = await apiCall(`https://api.gitbook.com/v1/spaces/${space.id}`, {
     method: 'PATCH',
-    body: JSON.stringify({ "title": name }),
+    body: { "title": name },
   });
   return data;
 }
@@ -205,7 +205,7 @@ async function findTeam(name, page='') {
 async function addTeamMember(team, email) {
   const data = await apiCall(`https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams/${team.id}/members`, {
     method: 'PUT',
-    body: JSON.stringify({ "add": [email] })
+    body: { "add": [email] }
   });
 }
 
@@ -218,7 +218,7 @@ async function createTeam(name) {
   debug('Creating team', name);
   const data = await apiCall('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams', {
     method: 'PUT',
-    body: JSON.stringify({ "title": name }),
+    body: { "title": name },
   });
 
   // update spaces.json
