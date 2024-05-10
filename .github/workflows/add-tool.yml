@@ -37,6 +37,18 @@ jobs:
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
         run: |
           node add-space.mjs "$TOOL_NAME" "$EMAIL"
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit changes ${{ steps.add-space.outputs.changes }}
+        if: ${{ steps.add-space.outputs.changes == 'true' }}
+        run: |
+          git status --porcelain
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Add Space $TOOL_NAME"
 
       - name: Create new tool folder (look here for git sync config!)
         id: add-folder
@@ -53,7 +65,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m "Add $TOOL_NAME"
+          git commit -m "Add Tool $TOOL_NAME"
 
       - name: Push changes
         if: ${{ steps.add-folder.outputs.changes == 'true' }}
