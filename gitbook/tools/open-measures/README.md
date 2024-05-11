@@ -34,7 +34,7 @@ Enterprise Features:
 * Everything in Pro.
 * **Detailed Analysis:** a dedicated Analyst dashboard.
 * **Visualisation:** Network graph.
-* **Multi-media imagery analysis**: images and video Media application. multi media
+* **Multi-media imagery analysis**: images and video media application. Multi media.
 * **Custom crawl social media crawls**: access to custom crawl requests of keywords, profiles, and channels.
 
 Open Measures provides a[ Command Line Interface (CLI)](https://gitlab.com/openmeasures/smat-cli) for quickly accessing bulk data and a [Jupyter Notebook](https://colab.research.google.com/drive/1kDyRIC0NBOj4Egn\_VdK837QBNqDERRi\_?usp=sharing) for accessing the API.&#x20;
@@ -73,7 +73,6 @@ Open Measures says the Pro and Enterprise solutions are paid for all users but t
 When using Open Measures for research purposes, it's imperative to consider the following ethical aspects:
 
 * **Privacy and Consent**: Although Open Measures archives public posts, researchers should be mindful of the privacy expectations of individuals who made those posts. Not all users understand or anticipate their contributions being analyzed or quoted in research.
-* **Data Anonymization**: Take steps to anonymize identifiable information within datasets derived from 4plebs. This includes usernames, locations, or any other personally identifiable information, unless obtaining direct consent from the individuals is feasible.
 * **Bias and Representativeness**: Acknowledge that the data collected from Open Measures may not be representative of broader populations or viewpoints. Research findings should be contextualized within the scope and limitations of the data source.
 * **Ethical Use of Content**: Be cautious and respectful when using content that may be sensitive, offensive, or controversial. Researchers should critically evaluate the necessity and implications of including such content in their work.
 * **The Oxygen of Amplification**_**:**_ Think carefully about what you publish not to unwittingly amplify some of the messaging present on 4Chan (see: Phillips, W. (2018) _The Oxygen of Amplification_, _Data & Society_. Data & Society Research Institute. Available at: [https://datasociety.net/library/oxygen-of-amplification/](https://datasociety.net/library/oxygen-of-amplification/) (Accessed: 22 April 2024)).
@@ -119,8 +118,6 @@ To effectively use Open Measures, especially for beginners or those looking to r
 **Community and Support**
 
 * &#x20;Support only for Pro and Enterprise options.&#x20;
-
-By utilizing these resources, users can enhance their Open Measures experience, whether for personal navigation, planning trips, or developing custom mapping solutions.
 
 ## Tool provider
 
