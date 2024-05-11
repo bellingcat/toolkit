@@ -49,10 +49,9 @@ The example below shows the results of searching for the term _Bellingcat_ acros
 
 ## Ethical Considerations
 
-When using 4plebs for research purposes, it's imperative to consider the following ethical aspects:
+When using 4plebs for research purposes, the volunteer page maintainer suggests to consider the following ethical aspects:
 
 * **Privacy and Consent**: Although 4plebs archives public posts, researchers should be mindful of the privacy expectations of individuals who made those posts. Not all users understand or anticipate their contributions being analyzed or quoted in research.
-* **Data Anonymization**: Take steps to anonymize identifiable information within datasets derived from 4plebs. This includes usernames, locations, or any other personally identifiable information, unless obtaining direct consent from the individuals is feasible.
 * **Bias and Representativeness**: Acknowledge that the data collected from 4plebs may not be representative of broader populations or viewpoints. Research findings should be contextualized within the scope and limitations of the data source.
 * **Ethical Use of Content**: Be cautious and respectful when using content that may be sensitive, offensive, or controversial. Researchers should critically evaluate the necessity and implications of including such content in their work.
 * **Compliance with Institutional Guidelines**: Ensure that your research adheres to the ethics guidelines and approval requirements set by your institution or research body.
