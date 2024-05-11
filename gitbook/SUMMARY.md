@@ -66,3 +66,4 @@
   * [4plebs](tools/4plebs/README.md)
   * [Open Measures](tools/open-measures/README.md)
   * [Telegago](tools/telegago/README.md)
+  *  [TelegramDB](tools/telegramdb/README.md)
