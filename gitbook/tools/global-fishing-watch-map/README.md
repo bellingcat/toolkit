@@ -74,7 +74,7 @@ Global Fishing Watch is available in the following formats:
 
 ## Limitations
 
-The Global Fishing Watch Map, while a revolutionary tool in monitoring and visualizing maritime activities, does have its set of limitations:
+The Global Fishing Watch Map, while useful when monitoring and visualizing maritime activities, does have its set of limitations:
 
 * **Data Delay**: The platform cannot display real-time data due to processing times, leading to potential delays in the information presented.
 * **Data Coverage**: Not all regions or vessels may be tracked effectively due to limitations in satellite coverage or non-participation in AIS (Automatic Identification System) broadcasting.
@@ -128,8 +128,6 @@ To effectively use Global Fishing Watch Map, especially for beginners or those l
 
 * In-application support available.
 * [https://globalfishingwatch.org/help-faqs/](https://globalfishingwatch.org/help-faqs/)
-
-By utilizing these resources, users can enhance their Global Fishing Watch Map experience, whether for personal navigation, planning trips, or developing custom mapping.&#x20;
 
 ## Tool provider
 
