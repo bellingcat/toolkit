@@ -10,13 +10,13 @@ description: This is the JSON codeblock for this tool
   "draft": true,
   "name": "Open Measures",
   "description": "A brief one-line description of the tool.",
-  "url": "https://example.com",
-  "tags": []
+  "url": "https://openmeasures.io/",
+  "tags": ["smat", "4chan", "8kun", "bitChute", "bluesky", "fediverse", "gab", "gettr", "odysee", "mewe", "minds", "ok", "parler", "poal", "rumble", "rutube", "scored", "telegram", "tiktok", "truth-social", "vk", "wimkin", "extremism", "misinformation", "disinformation", "sense-making", "online", "social-media", "web-crawler", "web-scraper"]
 }
 ```
 {% endcode %}
 
-Keep the codeblock updated with accurate information. Only edit the **values** (words to the right of the `:` on each line, in dark blue font). Do not change the key names (left side, slightly light blue) or any of the other formatting. Every line should end in a comma except the last line. Every key and value should be enclosed in quotation marks. See below for an explanation of each line.&#x20;
+Keep the codeblock updated with accurate information. Only edit the **values** (words to the right of the `:` on each line, in dark blue font). Do not change the key names (left side, slightly light blue) or any of the other formatting. Every line should end in a comma except the last line. Every key and value should be enclosed in quotation marks. See below for an explanation of each line.
 
 ## name, description (optional)
 
@@ -37,4 +37,3 @@ This list of tags will determine which category pages the tool appears on. Tags 
 If a tool is completely free to use, include the tag "free".
 
 If the tool is focused on one specific country (or a limited number of them), tag it with the name of the country as well as "international".
-
