@@ -1,48 +1,89 @@
 ---
-description: Database of Telegram channels
+description: >-
+  TelegramDB is a searchable database service for exploring public Telegram
+  groups and channels via a dedicated bot.
 ---
 
 # TelegramDB
 
 ## URL
 
-http://telegramdb.org/
+[https://telegramdb.org](https://telegramdb.org)
 
 ## Description
 
-A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case?
+TelegramDB is a comprehensive search service for Telegram, providing users with the ability to explore and analyze over 30 million Telegram groups and channels. Utilizing a bot (@tgdb\_bot) as its primary interface, TelegramDB facilitates searches for public chats, offering insights such as group membership numbers and chat statistics. This tool is tailored to assist users in navigating and extracting valuable information from Telegram’s extensive network, enhancing both casual browsing and detailed investigations.
+
+#### Commands
+
+#### Here's a detailed description of some common commands used by the TelegramDB bot (@tgdb\_bot) to navigate and utilize its functionalities:
+
+#### /search
+
+This command allows users to perform keyword-based searches to find groups and channels on Telegram. Users can specify whether they want to find only groups, only channels, or both. The basic search is free and provides up to 20 results, but users can extend this with purchased credits for more detailed results.
+
+#### /group and /channel
+
+These commands are specialized versions of the /search command, tailored specifically to either groups or channels, respectively. Using /group will limit the search results to groups only, while /channel will do the same for channels. These commands help users quickly access specific types of Telegram communities.
+
+#### /where
+
+The /where command is used to discover public groups in which a specified user has been a member. This function is particularly useful for tracking user activity or understanding the reach and influence of users within the Telegram ecosystem. It requires premium access, paid for through credits, to retrieve more than the basic number of results.
+
+#### /resolve
+
+This command converts Telegram IDs and usernames into detailed information about a user, group, or channel. It helps users quickly gather detailed data about entities on Telegram without having to navigate through the app or website. /resolve can take either an ID or a username as input and provide corresponding Telegram data.
+
+#### /language
+
+Allows users to change the language of the bot interactions. Currently, it supports English and Italian, making it accessible to a broader audience. This command enhances user experience by allowing non-English speakers to utilize the bot in their native language.
+
+#### Inline mode
+
+This feature enables users to resolve usernames and IDs directly from any chat without having to navigate to the bot chat. It streamlines the process of information retrieval, making it faster and more integrated into the regular use of Telegram.
+
+#### /members
+
+A newer addition to the bot's capabilities, the /members command allows users to retrieve a list of all members within a specified group, including those with hidden membership. The results are provided in a .csv file format, suitable for data analysis and further processing in tools like Maltego.
+
+These commands collectively enhance the functionality of the TelegramDB bot, making it a powerful tool for users who need to navigate and analyze public Telegram data efficiently.
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
-Pricing or subscription information, if relevant.
+<!---->
+
+* **Free**: Basic searches and functions with limited results.
+* **Paid**: Advanced search functions and additional results available through a credit-based payment system, including cryptocurrency options.
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>null</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
 ## Requirements
 
-Information on the requirement for using a tool, for instance, API key, e-mail address etc.
+* Telegram account to interact with @tgdb\_bot.
+* Purchase of credits for premium features.
 
 ## Limitations
 
-The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.
+* Focuses solely on public Telegram content; does not access private group chats or channels.
+* Dependence on the availability and legality of the data on Telegram, which might include sensitive or inappropriate content.
 
 ## Ethical Considerations
 
-The ethical considerations of each tool should be described.
+The service collects and indexes public Telegram data, raising potential concerns regarding privacy and data use. Users must consider the ethical implications of accessing and using data from public groups, especially in regions with stringent privacy laws. TelegramDB commits to GDPR compliance, offering mechanisms for data deletion and rectification.
 
 ## Guide
 
-Link to a guide on this tool
+n/a
 
 ## Tool provider
 
-Name the tool provider (and potentially info on them)
+n/a
 
 ## Advertising Trackers
 
@@ -50,5 +91,8 @@ Name the tool provider (and potentially info on them)
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-<table><thead><tr><th data-type="users" data-multiple>Page maintainer</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
+| Page maintainer |
+| --------------- |
+| Martin Sona     |
+|                 |
 

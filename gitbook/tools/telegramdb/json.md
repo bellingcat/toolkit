@@ -7,14 +7,24 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "TelegramDB",
-  "url": "http://telegramdb.org/",
-  "description": "Database of Telegram channels",
-  "cost": "Free",
-  "tags": [
-    "telegram"
-  ]
+    "url": "https://telegramdb.org",
+    "tags": [
+        "search-engine",
+        "osint",
+        "telegram",
+        "telegram-bot",
+        "social-network",
+        "telegram-bots",
+        "social-network-analysis",
+        "telegram-channels",
+        "telegram-group-scraper",
+        "osint-tool",
+        "osint-tools",
+        "telegram-db",
+        "telegram-chats"
+    ]
 }
+
 ```
 {% endcode %}
 
@@ -23,10 +33,6 @@ Keep the codeblock updated with accurate information. Only edit the **values** (
 ## name, description (optional)
 
 If omitted, the name and description will be copied from the page title and page description of the main content. If present, the JSON values override the main content.
-
-## draft (optional)
-
-If set to `true`, this prevents this tool from being listed in relevant category pages. Useful if the tool does not yet have a url and description set. Omit or set to false to publish.
 
 ## url
 
