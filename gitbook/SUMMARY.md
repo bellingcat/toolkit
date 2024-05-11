@@ -68,3 +68,4 @@
   * [Telegago](tools/telegago/README.md)
   * [TelegramDB](tools/telegramdb/README.md)
   * [PixPlot](tools/pixplot/README.md)
+  * [Global Fishing Watch Map](tools/global-fishing-watch-map/README.md)
