@@ -1,7 +1,7 @@
 ---
 description: >-
-  MW Geofind is a tool designed to help users identify YouTube videos that are
-  tagged with a specific location, facilitating the exploration of global
+  MW Geofind is a tool designed to help users identify YouTube videos that have
+  been tagged with a specific location, facilitating the exploration of global
   content from a geographical perspective.
 ---
 
@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-MW Geofind is an online tool designed for identifying Youtube videos that have been tagged with a specific geographical location. Open source researchers can use the tool to find videos from a specific location.&#x20;
+MW Geofind is an online tool designed for identifying Youtube videos that have been tagged with a specific geographical location.
 
 **Features:**
 
@@ -68,7 +68,7 @@ MW Geofind is subjected to the following limitations:
 
 * **API rate limits:** searches are rate limited by YouTube. The application was allotted `1,000,000 quota units` which was the default at the time it was made (for more details see [Stack Overflow](https://stackoverflow.com/questions/15568405/how-can-i-calculate-my-youtube-api-usage/15580411#15580411)).&#x20;
 * **Geographical Coverage**: Its effectiveness and accuracy might vary across different geographical locations.
-* **Accuracy of location tags:** It is important to independently verify the location of any video that you find via the tool. The provided location might not be correct since Youtube users might provide incorrect location information.
+* **Accuracy of location tags:** It is important to independently verify the location of any video that you find via the tool. The provided location might not be correct since Youtube users might add incorrect location information to their videos.
 
 Be aware that the tool is not able to provide all videos that can be found on Youtube from a specific location, it will only provide a selection of videos. Please read more about the limitations of this tool here: [https://github.com/mattwright324/youtube-geofind/wiki](https://github.com/mattwright324/youtube-geofind/wiki).
 
@@ -77,7 +77,6 @@ Be aware that the tool is not able to provide all videos that can be found on Yo
 When using MW Geofind for research purposes, researchers should be aware of several ethical considerations:
 
 * **Privacy and Confidentiality**: Ensuring that the data collected or used does not infringe on individual privacy rights or reveal confidential information.
-* **Consent and Transparency**: Obtaining consent from individuals whose data may be collected or analyzed and being transparent about the purpose of the research.
 * **Compliance with Laws and Regulations**: Adhering to all applicable laws, regulations, and ethical guidelines related to data protection, privacy, and research activities.
 
 ## Guides and articles
@@ -104,8 +103,6 @@ To effectively use MW Geofind, especially for beginners or those looking to refi
 **Community and Support**
 
 * [https://github.com/mattwright324/youtube-geofind/issues](https://github.com/mattwright324/youtube-geofind/issues)
-
-By utilizing these resources, users can enhance their MW Geofind experience, whether for personal navigation, planning trips, or developing custom mapping solutions.
 
 ## Tool provider
 
