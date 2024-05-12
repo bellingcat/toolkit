@@ -7,7 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "draft": true,
   "name": "MW Geofind",
   "description": "MW Geofind is a tool designed to help users identify the filming location of YouTube videos, facilitating the exploration of global content from a geographical perspective.",
   "url": "https://mattw.io/youtube-geofind/location",
