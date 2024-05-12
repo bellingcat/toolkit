@@ -1,16 +1,52 @@
 ---
-description: A brief one-line description of the tool.
+description: >-
+  MW Geofind is a tool designed to help users identify YouTube videos that are
+  tagged with a specific location, facilitating the exploration of global
+  content from a geographical perspective.
 ---
 
 # MW Geofind
 
 ## URL
 
-https://example.com
+[https://mattw.io/youtube-geofind/location](https://mattw.io/youtube-geofind/location)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+MW Geofind is an online tool designed for identifying Youtube videos that have been tagged with a specific geographical location. Open source researchers can use the tool to find videos from a specific location.&#x20;
+
+**Features:**
+
+_**Channel Search**_
+
+* **Channel Search**: search channel(s) for geotagged videos by username, channel or playlist. These can be submitted as a comma separated list of multiple videos, playlists, or channels.
+
+_**Topic and Location search**_
+
+* **Topic search**: search by keywords with keyword operators for boolean searches.
+* **Location search**: search by a named location, the users current location or a random location for a user specified radius.
+  * **Keywords**: search by keywords with keyword operators for boolean searches.
+* **Filter search results**: Sort by and filter search results by timeframe, language, safe search, duration, page limit, live events only, licensed with creative commons, high quality only and 3D only.
+
+_**All searches**_
+
+* **Dark mode toggle**
+* **Full screen map**
+* **Geo tag list search results**: filter by language and search within the results.
+* **Map**: a map to visualise the geographic location of the tagged video.
+* **Reset map to north**
+* **Sharing:** share the search results as a link.
+* **Zoom tool:** zoom in and out on the map.
+
+Example search results for the search location _Amsterdam:_
+
+<figure><img src=".gitbook/assets/Screenshot 2024-05-10 at 10.33.15 AM.png" alt="Screenshot of search results for the search location Amsterdam. The top of the screen is a green and blue map with images of geotagged videos. The bottom of the screen is the search interface. "><figcaption><p> Screenshot of search results for the search location Amsterdam.</p></figcaption></figure>
+
+MW Geofind is available in the following formats:
+
+* Web
+
+Latest changes: [https://github.com/mattwright324/youtube-geofind/commits/master/](https://github.com/mattwright324/youtube-geofind/commits/master/)
 
 ## Cost
 
@@ -18,31 +54,62 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+* **Web:** any modern web browser.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+MW Geofind is subjected to the following limitations:
+
+* **API rate limits:** searches are rate limited by YouTube. The application was allotted `1,000,000 quota units` which was the default at the time it was made (for more details see [Stack Overflow](https://stackoverflow.com/questions/15568405/how-can-i-calculate-my-youtube-api-usage/15580411#15580411)).&#x20;
+* **Geographical Coverage**: Its effectiveness and accuracy might vary across different geographical locations.
+* **Accuracy of location tags:** It is important to independently verify the location of any video that you find via the tool. The provided location might not be correct since Youtube users might provide incorrect location information.
+
+Be aware that the tool is not able to provide all videos that can be found on Youtube from a specific location, it will only provide a selection of videos. Please read more about the limitations of this tool here: [https://github.com/mattwright324/youtube-geofind/wiki](https://github.com/mattwright324/youtube-geofind/wiki).
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+When using MW Geofind for research purposes, researchers should be aware of several ethical considerations:
+
+* **Privacy and Confidentiality**: Ensuring that the data collected or used does not infringe on individual privacy rights or reveal confidential information.
+* **Consent and Transparency**: Obtaining consent from individuals whose data may be collected or analyzed and being transparent about the purpose of the research.
+* **Compliance with Laws and Regulations**: Adhering to all applicable laws, regulations, and ethical guidelines related to data protection, privacy, and research activities.
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+To effectively use MW Geofind, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
+
+**Official Wiki**&#x20;
+
+* [https://github.com/mattwright324/youtube-geofind/wiki](https://github.com/mattwright324/youtube-geofind/wiki)
+
+**Tutorials and Articles**
+
+* _OSINT Investigations on Video Sharing Platforms Tips & Techniques_ (no date). Available at: [https://www.skopenow.com/resource-center/osint-investigations-on-video-sharing-platforms-tips-techniques](https://www.skopenow.com/resource-center/osint-investigations-on-video-sharing-platforms-tips-techniques) (Accessed: 10 May 2024).
+
+**Video Tutorials**
+
+* _How to find geotagged videos on YouTube | Geofind OSINT Tool Tutorial_ (2023). Available at: [https://www.youtube.com/watch?v=3WdeRiy1dvI](https://www.youtube.com/watch?v=3WdeRiy1dvI) (Accessed: 10 May 2024).
+* _How to find geotagged videos on YouTube – Sofia Santos | OSINT Analysis & Exercises_ (no date). Available at: [https://gralhix.com/2022/04/21/how-to-find-geotagged-videos-on-youtube/](https://gralhix.com/2022/04/21/how-to-find-geotagged-videos-on-youtube/) (Accessed: 10 May 2024).
+
+#### Developer Resources
+
+* [https://github.com/mattwright324/youtube-geofind](https://github.com/mattwright324/youtube-geofind)
+
+**Community and Support**
+
+* [https://github.com/mattwright324/youtube-geofind/issues](https://github.com/mattwright324/youtube-geofind/issues)
+
+By utilizing these resources, users can enhance their MW Geofind experience, whether for personal navigation, planning trips, or developing custom mapping solutions.
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Matthew Wright [https://mattw.io/](https://mattw.io/) - United States
 
 ## Advertising Trackers
 
@@ -50,8 +117,7 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer |
+| --------------- |
+| Unassigned      |
+|                 |
