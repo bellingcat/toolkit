@@ -4,7 +4,7 @@ description: >-
   Telegram content for OSINT purposes.
 ---
 
-# Tool Name
+# Telegago
 
 ## URL
 
