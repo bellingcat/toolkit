@@ -8,7 +8,6 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "name": "Open Measures",
-  "description": "A brief one-line description of the tool.",
   "url": "https://openmeasures.io/",
   "tags": ["smat", "4chan", "8kun", "bitChute", "bluesky", "fediverse", "gab", "gettr", "odysee", "mewe", "minds", "ok", "parler", "poal", "rumble", "rutube", "scored", "telegram", "tiktok", "truth-social", "vk", "wimkin", "extremism", "misinformation", "disinformation", "sense-making", "online", "social-media", "web-crawler", "web-scraper", "multiple-networks", "other-networks"]
 }
