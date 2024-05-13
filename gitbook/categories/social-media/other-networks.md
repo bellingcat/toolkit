@@ -2,11 +2,12 @@
 
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
-| [**4plebs**](https://4plebs.org/) | Searchable archive of specific 4chan boards. Makes it possible to read threads after they are purged from 4chan. | <mark style="background-color:green;">Free</mark> |  |
+| [**4plebs**](https://4plebs.org/) | Searchable archive of specific 4chan boards. Makes it possible to read threads after they are purged from 4chan. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/4plebs/README.md) |
 | [**ClubhouseDB**](https://clubhousedb.com/) | Search users, number of followers/following, and date of registry | <mark style="background-color:green;">Free</mark> |  |
 | [**Google Account Finder (EPIEOS)**](https://tools.epieos.com/google-account.php) | Find the profile picture and public Google Map Reviews + Photos associated with a G-mail adress. Also checks for phone numbers, and checks for email addresses on social networks | <mark style="background-color:green;">Free</mark> |  |
 | [**Gravatar Email Checker**](https://en.gravatar.com/site/check/) | Check if an email address has been used to comment on blogs and whether there is a profile image attached. | <mark style="background-color:green;">Free</mark> |  |
 | [**NameMC**](https://namemc.com/) | Find usernames, track username changes on minecraft | <mark style="background-color:green;">Free</mark> |  |
+| [**Open Measures**](https://openmeasures.io/) | Open Measures helps open source researchers investigate harmful online activity such as extremism and disinformation. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/open-measures/README.md) |
 | [**Parler Video Uploads Map**](https://kylemcdonald.net/parler/map/) | A map showing the approximate (100ft) location of where Parler videos have been uploaded. | <mark style="background-color:green;">Free</mark> |  |
 | [**PSNprofiles**](https://psnprofiles.com/) | Search PlayStation username, see daily activity, games played, country, and profile pic | <mark style="background-color:green;">Free</mark> |  |
 | [**Search4Faces**](https://search4faces.com) | Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse) | <mark style="background-color:green;">Free</mark> |  |
