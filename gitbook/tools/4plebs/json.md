@@ -9,7 +9,7 @@ description: This is the JSON codeblock for this tool
 {
   "tags": [
     "4chan",
-    "other-networks"
+    "other-networks",
     "social-media",
     "archive",
     "far-right",
