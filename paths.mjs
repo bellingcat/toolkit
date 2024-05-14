@@ -2,27 +2,6 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 
-function parseTags(str) {
-  if (!str) { return []; }
-  return str.split(',').map((tag) => tag.trim());
-}
-
-function markdownToJson(filepath) {
-  if (fs.existsSync(filepath)) {
-    const markdown = fs.readFileSync(filepath, 'utf-8');
-    const matches = markdown.match(/```(json)?\n([\s\S]+)\n```/);
-    if (matches) {
-      try {
-        return JSON.parse(matches[2]);
-      } catch (e) {
-        console.error(`Error parsing JSON in ${filepath}`);
-        throw e;
-      }
-    }
-  }
-  return {};
-}
-
 function processMarkdownFile(filepath, filename, slug = [], webRoot) {
   const page = filename.replace('.md', '');
   const markdownWithMeta = fs.readFileSync(filepath, 'utf-8');
@@ -30,24 +9,13 @@ function processMarkdownFile(filepath, filename, slug = [], webRoot) {
   const h1 = content.match(/# (.*)/);
   const title = (h1 && h1[1]) || page.replaceAll('-', ' ');
 
-  // try to get the cost from the content
-  const cost = (content.match(/\[x\] Partially Free/) && 'Partially Free') || (content.match(/\[x\] Free/) && 'Free') || (content.match(/\[x\] Paid/) && 'Paid') || null;
-
-  // get JSON data from JSON.md if it exists
-  const jsonFilePath = filepath.replace('README.md', 'json.md');
-  const json = markdownToJson(jsonFilePath);
-
   if (page !== 'README') {
     slug = [...slug, page];
   }
   return {
     content,
     ...data,
-    slug, title, filename, filepath, jsonFilePath,
-    href: `/${path.join(webRoot, slug.join('/'))}`,
-    cost,
-    ...json, // json name/description values override content
-    json     // the original json structure
+    slug, title, filename, filepath,
   };
 }
 
@@ -76,4 +44,4 @@ function getPaths(pathname, slug = [], markdownRoot = 'gitbook', webRoot = '') {
   return paths.filter(post => { return post && post });
 }
 
-export default {parseTags, getPaths, processMarkdownFile };
+export default { getPaths, processMarkdownFile };

@@ -268,6 +268,35 @@ function removeTool(toolName) {
   fs.writeFileSync('gitbook/SUMMARY.md', newSummary);
 }
 
+function markdownToJson(filepath) {
+  if (fs.existsSync(filepath)) {
+    const markdown = fs.readFileSync(filepath, 'utf-8');
+    const matches = markdown.match(/```(json)?\n([\s\S]+)\n```/);
+    if (matches) {
+      try {
+        return JSON.parse(matches[2]);
+      } catch (e) {
+        console.error(`Error parsing JSON in ${filepath}`);
+        throw e;
+      }
+    }
+  }
+  return {};
+}
+function markdownToCategories(filepath) {
+  if (fs.existsSync(filepath)) {
+    const markdown = fs.readFileSync(filepath, 'utf-8');
+    // Match lines with a checked box
+    const selected = markdown.match(/\[x\] \[.*\]\(.*\)/g);
+    if (selected) {
+      // extract the tag from the markdown link
+      return selected.map((line) => line.match(/\[x\] \[.*\]\(.*\/([a-z-]*)\)/)[1] );
+    }
+  }
+  return [];
+}
+
+
 function getTools() {
   const pathname = 'gitbook/tools';
   return fs.readdirSync(pathname).flatMap((filename) => {
@@ -276,7 +305,30 @@ function getTools() {
     // process README.md in each tool directory
     const filepath = path.join(pathname, filename, 'README.md');
     if (fs.existsSync(filepath)) {
-      return processMarkdownFile(filepath, filename, [], 'more/all-tools');
+      const markdownFile = processMarkdownFile(filepath, filename, [], 'more/all-tools');
+      const content = markdownFile.content;
+
+      // try to get the cost from the content
+      const cost = (content.match(/\[x\] Partially Free/) && 'Partially Free') || (content.match(/\[x\] Free/) && 'Free') || (content.match(/\[x\] Paid/) && 'Paid') || null;
+
+      // get JSON data from JSON.md if it exists
+      const jsonFilePath = filepath.replace('README.md', 'json.md');
+      const json = markdownToJson(jsonFilePath);
+
+      // get category data from categories.md if it exists
+      const categoriesFilePath = filepath.replace('README.md', 'categories.md');
+      const categories = markdownToCategories(categoriesFilePath);
+
+      return {
+        ...markdownFile,
+        cost,
+        tags: [], // default
+        ...json,  // JSON data overrides
+        categoriesFilePath,
+        categories,
+        jsonFilePath,
+        json, // the original json structure
+      };
     }
 
     throw new Error(`No README.md found in ${filename}`);
