@@ -313,6 +313,12 @@ function getTools() {
       // try to get the cost from the content
       const cost = (content.match(/\[x\] Partially Free/) && 'Partially Free') || (content.match(/\[x\] Free/) && 'Free') || (content.match(/\[x\] Paid/) && 'Paid') || null;
 
+      // try to get the URL from the content
+      // it may be a markdown link
+      const urlmarkdown = content.match(/## URL\n\n(.*)\n\n/);
+      const markdownLink = urlmarkdown[1].match(/\[(.*)\]\((.*)\)/);
+      const url = markdownLink ? markdownLink[2] : urlmarkdown[1];
+
       // get JSON data from JSON.md if it exists
       const jsonFilePath = path.join(toolDir, 'json.md');
       const json = markdownToJson(jsonFilePath);
@@ -321,12 +327,18 @@ function getTools() {
       const categoriesFilePath = path.join(toolDir, 'categories.md');
       const categories = markdownToCategories(categoriesFilePath);
 
+      if (url !== json.url) {
+        console.warn(`URL in README.md does not match URL in JSON.md for ${filename}`);
+        console.warn(url, json.url);
+      }
+
       // merge json.tags and categories and dedupe
       let tags = [...new Set([...json.tags, ...categories])];
 
       return {
         ...markdownFile,
         cost,
+        url,
         ...json,  // JSON data overrides
         tags,
         categoriesFilePath,
