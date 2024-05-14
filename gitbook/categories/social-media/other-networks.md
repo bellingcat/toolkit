@@ -1,4 +1,4 @@
-# Misc
+# Other Networks
 
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
