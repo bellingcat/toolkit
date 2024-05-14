@@ -2,4 +2,3 @@
 
 * [Bellingcat TikTok Date Extract](README.md)
 * [Categories](categories.md)
-* [JSON](json.md)

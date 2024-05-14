@@ -2,4 +2,3 @@
 
 * [Copernicus Open Access Hub](README.md)
 * [Categories](categories.md)
-* [JSON](json.md)

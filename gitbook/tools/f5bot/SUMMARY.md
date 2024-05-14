@@ -2,4 +2,3 @@
 
 * [F5Bot](README.md)
 * [Categories](categories.md)
-* [JSON](json.md)

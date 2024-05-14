@@ -2,4 +2,3 @@
 
 * [Social-searcher](README.md)
 * [Categories](categories.md)
-* [JSON](json.md)

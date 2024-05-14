@@ -2,4 +2,3 @@
 
 * [Reveal Image Verification Assistant](README.md)
 * [Categories](categories.md)
-* [JSON](json.md)

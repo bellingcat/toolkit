@@ -2,4 +2,3 @@
 
 * [Unitar Disaster & Damage Assessment](README.md)
 * [Categories](categories.md)
-* [JSON](json.md)

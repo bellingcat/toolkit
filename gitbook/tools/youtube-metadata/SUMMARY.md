@@ -2,4 +2,3 @@
 
 * [YouTube Metadata](README.md)
 * [Categories](categories.md)
-* [JSON](json.md)
