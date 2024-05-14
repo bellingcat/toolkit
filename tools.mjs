@@ -43,7 +43,7 @@ function toolToReadme(tool) {
 }
 function toolToSummary(tool) {
   const template = fs.readFileSync('template/SUMMARY.md', 'utf-8');
-  return template.replace("Tool Name", `${tool.name}`);
+  return template.replace("Tool Name", `${tool.title}`);
 }
 function createTool(tool, opts={}) {
   const { name, tags } = tool;
@@ -358,6 +358,12 @@ function updateToolCategories(tool) {
   fs.writeFileSync(pathname, toolToCategories(tool));
 }
 
+function updateToolSummary(tool) {
+  const pathname = path.join(tool.directory, 'SUMMARY.md');
+  console.log('Updating', pathname);
+  fs.writeFileSync(pathname, toolToSummary(tool));
+}
+
 function getCategories() {
   return getPaths('gitbook/categories').filter((category) => {
     const tag = category.slug.slice(-1)[0];
@@ -375,6 +381,7 @@ export default {
   removeTool,
   updateToolJSON,
   updateToolCategories,
+  updateToolSummary,
   writeSpaces,
   writeTeams,
 };
