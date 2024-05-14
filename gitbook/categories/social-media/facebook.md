@@ -9,5 +9,5 @@
 | [**Phantom Buster**](https://phantombuster.com) | Scrape content and automate actions on social media | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/phantom-buster/README.md) |
 | [**Skopenow**](http://skopenow.com/) | Social Media Investigations - name, phone, email, username searches | <mark style="background-color:green;">Free</mark> |  |
 | [**Sleep Stats**](https://github.com/sqren/fb-sleep-stats) | GitHub - Track user sleeping habits | <mark style="background-color:green;">Free</mark> |  |
-| [**Sowdust FB search**](http://sowsearch.info/) | [graph.tips/beta](http://graph.tips/beta) This page tries to be a simple interface to show how the current Facebook search function works, after Graph search was closed. | <mark style="background-color:green;">Free</mark> |  |
+| [**Sowdust FB search**](http://sowsearch.info) | [graph.tips/beta](http://graph.tips/beta) This page tries to be a simple interface to show how the current Facebook search function works, after Graph search was closed. | <mark style="background-color:green;">Free</mark> |  |
 | [**Who posted what**](http://whopostedwhat.com/) | Find posts on Facebook. | <mark style="background-color:green;">Free</mark> |  |
