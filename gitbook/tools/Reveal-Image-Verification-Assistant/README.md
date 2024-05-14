@@ -6,7 +6,7 @@ description: Forensic providing eight filters to detect still images alterations
 
 ## URL
 
-undefined
+https://www.rand.org/research/projects/truth-decay/fighting-disinformation/search/items/reveal-image-verification-assistant.html
 
 ## Description
 
