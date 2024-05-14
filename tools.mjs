@@ -340,6 +340,9 @@ function getTools() {
 }
 
 function updateToolJSON(tool, json) {
+  if (!json) {
+    json = tool.json;
+  }
   const pathname = tool.jsonFilePath;
 
   console.log('Updating', pathname);
