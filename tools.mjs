@@ -319,11 +319,14 @@ function getTools() {
       const categoriesFilePath = filepath.replace('README.md', 'categories.md');
       const categories = markdownToCategories(categoriesFilePath);
 
+      // merge json.tags and categories and dedupe
+      let tags = [...new Set([...json.tags, ...categories])];
+
       return {
         ...markdownFile,
         cost,
-        tags: [], // default
         ...json,  // JSON data overrides
+        tags,
         categoriesFilePath,
         categories,
         jsonFilePath,
