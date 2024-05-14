@@ -353,7 +353,7 @@ function updateToolJSON(tool, json) {
 }
 
 function updateToolCategories(tool) {
-  const pathname = tool.toolCategoriesPath;
+  const pathname = tool.categoriesFilePath;
 
   console.log('Updating', pathname);
   fs.writeFileSync(pathname, toolToCategories(tool));
