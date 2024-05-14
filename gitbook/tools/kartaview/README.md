@@ -6,7 +6,7 @@ description: OpenStreetCam (now KartaView) is a project to collect crowdsourced 
 
 ## URL
 
-http://kartaview/) (Previously Openstreetcam
+https://kartaview.org/
 
 ## Description
 

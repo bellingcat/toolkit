@@ -8,7 +8,6 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "name": "Sowdust FB search",
-  "url": "http://sowsearch.info/",
   "tags": [
     "facebook"
   ],

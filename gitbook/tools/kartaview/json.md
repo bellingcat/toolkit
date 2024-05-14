@@ -8,7 +8,6 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "name": "KartaView",
-  "url": "http://kartaview",
   "description": "OpenStreetCam (now KartaView) is a project to collect crowdsourced street-level photographs for improving OpenStreetMap. Collected imagery is published under a CC-BY-SA license and most of the project's code is open source.",
   "cost": "Free",
   "tags": [

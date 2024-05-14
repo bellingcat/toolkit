@@ -6,7 +6,7 @@ description: Check how similar two faces are
 
 ## URL
 
-undefined
+https://aws.amazon.com/rekognition/
 
 ## Description
 

@@ -6,7 +6,7 @@ description: Scape and automate actions on most major social media platforms
 
 ## URL
 
-[https://phantombuster.com/](https://phantombuster.com/automations/twitter/4130/twitter-follower-collector)
+[https://phantombuster.com/](https://phantombuster.com)
 
 ## Description
 

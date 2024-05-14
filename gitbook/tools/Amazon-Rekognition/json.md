@@ -12,6 +12,7 @@ description: This is the JSON codeblock for this tool
   ],
   "name": "Amazon Rekognition",
   "description": "Check how similar two faces are",
+  "url": "https://aws.amazon.com/rekognition/",
   "cost": "Free"
 }
 ```

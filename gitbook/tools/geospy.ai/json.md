@@ -10,7 +10,7 @@ description: This is the JSON codeblock for this tool
   "draft": true,
   "name": "Geospy.ai",
   "description": "Image geolocation platform.",
-  "url": "https://graylark.io/",
+  "url": "https://geospy.ai/",
   "tags": [
     "free",
     "geolocation",

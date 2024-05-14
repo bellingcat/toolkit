@@ -6,7 +6,11 @@ description: This page tries to be a simple interface to show how the current Fa
 
 ## URL
 
-http://sowsearch.info or http://graph.tips/beta
+http://sowsearch.info
+
+or
+
+http://graph.tips/beta
 
 ## Description
 

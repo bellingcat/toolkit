@@ -7,7 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "url": "https://cse.google.com/cse?q=%2B&cx=006368593537057042503%3Aefxu7xprihg",
   "tags": [
     "telegram",
     "osint",
