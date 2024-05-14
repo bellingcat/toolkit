@@ -1,4 +1,5 @@
 # Table of contents
 
-* [Tool Name](README.md)
+* [Telegago](README.md)
+* [Categories](categories.md)
 * [JSON](json.md)

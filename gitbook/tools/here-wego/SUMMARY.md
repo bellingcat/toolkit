@@ -1,4 +1,5 @@
 # Table of contents
 
-* [Here WeGo](README.md)
+* [HERE WeGo](README.md)
+* [Categories](categories.md)
 * [JSON](json.md)

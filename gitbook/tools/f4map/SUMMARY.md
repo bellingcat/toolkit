@@ -1,4 +1,5 @@
 # Table of contents
 
-* [F4map](README.md)
+* [F4Map](README.md)
+* [Categories](categories.md)
 * [JSON](json.md)
