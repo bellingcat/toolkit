@@ -7,20 +7,20 @@
 * [ ] [Instagram](https://bellingcat.gitbook.io/toolkit/categories/social-media/instagram)
 * [ ] [LinkedIn](https://bellingcat.gitbook.io/toolkit/categories/social-media/linkedin)
 * [ ] [Reddit](https://bellingcat.gitbook.io/toolkit/categories/social-media/reddit)
-* [x] [Telegram](https://bellingcat.gitbook.io/toolkit/categories/social-media/telegram)
-* [x] [Tiktok](https://bellingcat.gitbook.io/toolkit/categories/social-media/tiktok)
+* [ ] [Telegram](https://bellingcat.gitbook.io/toolkit/categories/social-media/telegram)
+* [ ] [Tiktok](https://bellingcat.gitbook.io/toolkit/categories/social-media/tiktok)
 * [ ] [Twitter/X](https://bellingcat.gitbook.io/toolkit/categories/social-media/twitter)
 * [ ] [Vkontakte](https://bellingcat.gitbook.io/toolkit/categories/social-media/vkontakte)
 * [ ] [Youtube](https://bellingcat.gitbook.io/toolkit/categories/social-media/youtube)
 * [ ] [Other Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/other-networks)
-* [x] [Multiple Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/multiple-networks)
+* [ ] [Multiple Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/multiple-networks)
 
 ## Image/Video
 
 * [ ] [Reverse Image Search](https://bellingcat.gitbook.io/toolkit/categories/image-video/reverse-image-search)
 * [ ] [Facial Recognition](https://bellingcat.gitbook.io/toolkit/categories/image-video/facial-recognition)
 * [ ] [Metadata](https://bellingcat.gitbook.io/toolkit/categories/image-video/metadata)
-* [x] [Misc](https://bellingcat.gitbook.io/toolkit/categories/image-video/image-misc)
+* [ ] [Misc](https://bellingcat.gitbook.io/toolkit/categories/image-video/image-misc)
 
 ## Maps & Satellites
 
