@@ -12,6 +12,10 @@ description: Search twitter by keywords, accounts, engagement, dates, and more
 
 Twitter's built in advanced search supports filtering by keywords, hashtags, language, author, receiver, mentions, replies, links, minimum number of replies/likes/reposts, and dates. Just open the link above and fill in the form.
 
+## Limitations
+
+If a user changes their handle, the [Advanced Search](https://twitter.com/search-advanced?lang=en) tool won't return tweets under the new handle that were posted under the old handle, but searching for tweets under the old handle still works.
+
 ## Cost
 
 * [x] Free
@@ -26,5 +30,5 @@ Twitter/X
 
 | Page Maintainers |
 | ---------------- |
-| Volunteer Needed |
+| Unassigned       |
 |                  |
