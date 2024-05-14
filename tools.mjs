@@ -327,9 +327,9 @@ function getTools() {
       const categoriesFilePath = path.join(toolDir, 'categories.md');
       const categories = markdownToCategories(categoriesFilePath);
 
-      if (url !== json.url) {
-        console.warn(`URL in README.md does not match URL in JSON.md for ${filename}`);
-        console.warn(url, json.url);
+      if (json.url && url !== json.url) {
+        console.warn(`URL in README.md overrided in JSON.md for ${filename}`);
+        console.warn(url, '=>', json.url);
       }
 
       // merge json.tags and categories and dedupe
