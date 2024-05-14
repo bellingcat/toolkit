@@ -20,8 +20,9 @@ function toolToCategories(tool) {
 
   let template = fs.readFileSync('template/categories.md', 'utf-8');
   for (const category of categories) {
+    const slug = category.slug.slice(-1)[0];
     // if the category slug is in the tool tags
-    if (tool.tags.includes(category.slug.slice(-1)[0])) {
+    if (tool.tags.includes(slug)) {
       // replace the line [ ] (Tool Name)[link] with [x] (Tool Name)[link]
       template = template.replace(`[ ] [${category.title}]`, `[x] [${category.title}]`);
     }
