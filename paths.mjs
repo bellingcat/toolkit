@@ -3,6 +3,7 @@ import path from 'path'
 import matter from 'gray-matter'
 
 function processMarkdownFile(filepath, filename, slug = [], webRoot) {
+  const directory = path.dirname(filepath);
   const page = filename.replace('.md', '');
   const markdownWithMeta = fs.readFileSync(filepath, 'utf-8');
   const { data, content } = matter(markdownWithMeta)
@@ -15,7 +16,7 @@ function processMarkdownFile(filepath, filename, slug = [], webRoot) {
   return {
     content,
     ...data,
-    slug, title, filename, filepath,
+    slug, title, filename, filepath, directory
   };
 }
 

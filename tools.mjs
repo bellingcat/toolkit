@@ -307,16 +307,17 @@ function getTools() {
     if (fs.existsSync(filepath)) {
       const markdownFile = processMarkdownFile(filepath, filename, [], 'more/all-tools');
       const content = markdownFile.content;
+      const toolDir = markdownFile.directory;
 
       // try to get the cost from the content
       const cost = (content.match(/\[x\] Partially Free/) && 'Partially Free') || (content.match(/\[x\] Free/) && 'Free') || (content.match(/\[x\] Paid/) && 'Paid') || null;
 
       // get JSON data from JSON.md if it exists
-      const jsonFilePath = filepath.replace('README.md', 'json.md');
+      const jsonFilePath = path.join(toolDir, 'json.md');
       const json = markdownToJson(jsonFilePath);
 
       // get category data from categories.md if it exists
-      const categoriesFilePath = filepath.replace('README.md', 'categories.md');
+      const categoriesFilePath = path.join(toolDir, 'categories.md');
       const categories = markdownToCategories(categoriesFilePath);
 
       // merge json.tags and categories and dedupe
@@ -351,7 +352,7 @@ function updateToolJSON(tool, json) {
 }
 
 function updateToolCategories(tool) {
-  const pathname = tool.jsonFilePath.replace('json.md', 'categories.md');
+  const pathname = tool.toolCategoriesPath;
 
   console.log('Updating', pathname);
   fs.writeFileSync(pathname, toolToCategories(tool));
