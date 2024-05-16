@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "private": true,
   "scripts": {
-    "build": "node lint-json.mjs && node categories.mjs"
+    "build": "node src/lint-json.mjs && node src/categories.mjs"
   },
   "dependencies": {
     "marked": "^12.0.0"
