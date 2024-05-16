@@ -18,11 +18,11 @@ jobs:
         run: npm install
 
       - name: Validate and format JSON
-        run: node lint-json.mjs
+        run: node src/lint-json.mjs
 
       - name: Run node script to update categories
         run: |
-          node categories.mjs
+          node src/categories.mjs
 
       - uses: dorny/paths-filter@v3
         id: changes

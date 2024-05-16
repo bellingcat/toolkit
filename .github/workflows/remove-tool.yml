@@ -25,7 +25,7 @@ jobs:
         env:
           TOOL_NAME: ${{ inputs.toolName }}
         run: |
-          node remove-tool.mjs $TOOL_NAME
+          node src/remove-tool.mjs $TOOL_NAME
 
       - name: Commit changes
         run: |
