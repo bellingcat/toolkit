@@ -36,7 +36,7 @@ jobs:
         env:
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
         run: |
-          node add-space.mjs "$TOOL_NAME" "$EMAIL"
+          node src/add-space.mjs "$TOOL_NAME" "$EMAIL"
           if [ -n "$(git status --porcelain)" ]; then
             echo "changes=true" >> "$GITHUB_OUTPUT"
           fi
