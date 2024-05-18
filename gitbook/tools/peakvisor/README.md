@@ -5,7 +5,7 @@ description: >-
   data. Actively in development for OSINV research.
 ---
 
-# PeakVisor (Web version, not Smartphone app)
+# PeakVisor
 
 ## URL
 
@@ -388,6 +388,8 @@ PeakVisor's promotion of remote/difficult-to-access locations and navigational a
 &#x20;[How To Use PeakVisor, The Mountaineering App, For Open-Source Research](https://www.youtube.com/watch?v=pWlukJ0v-pw)&#x20;
 
 &#x20;[Using PeakVisor For Geolocations](https://www.youtube.com/watch?v=xNqSwL9j8h4)
+
+#### Development Updates on X/Twitter: [@PVforOSINV](https://x.com/PVforOSINV)
 
 #### Video Excerpts for Specific Topics:
 
