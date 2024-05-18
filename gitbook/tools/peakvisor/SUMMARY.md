@@ -1,4 +1,4 @@
 # Table of contents
 
-* [PeakVisor (Web version, not Smartphone app)](README.md)
+* [PeakVisor](README.md)
 * [Categories](categories.md)
