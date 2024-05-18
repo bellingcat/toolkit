@@ -33,7 +33,7 @@ The web-based version has been developed specifically for Open Source research s
 
 </details>
 
-### Which OSINV Problems ('Use Cases') Users Can Solve with PeakVisor and What Data Must Be Input and Output to Achieve This
+### PeakVisor for Open Source Research: Use Cases, Data Input, PeakVisor Outputs, How to Enter Data
 
 {% tabs %}
 {% tab title="User Inputs" %}
