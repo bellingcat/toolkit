@@ -1,5 +1,5 @@
 # Table of contents
 
 * [SunCalc](README.md)
-* [JSON](json.md)
+* [Categories](categories.md)
 * [Supplementary Material](supplementary-material.md)

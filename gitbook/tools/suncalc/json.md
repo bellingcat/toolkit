@@ -9,8 +9,7 @@ description: This is the JSON codeblock for this tool
 {
   "url": "https://www.suncalc.org",
   "tags": [
-    "maps",
-    "satellite imagery"
+    "shadow-analysis"
   ]
 }
 ```
