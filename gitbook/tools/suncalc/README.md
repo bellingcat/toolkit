@@ -7,7 +7,7 @@ description: >-
 
 # SunCalc
 
-## URL&#x20;
+## URL
 
 https://www.suncalc.org
 
