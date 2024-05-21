@@ -1,5 +1,5 @@
 ---
-description: AI-based geolocation tool for images.
+description: AI-based geolocation platform for images.
 ---
 
 # Geospy.ai
@@ -10,7 +10,7 @@ description: AI-based geolocation tool for images.
 
 ## Description
 
-Drag-and-drop solution to geolocate images. No authentication is required. You can upload an image, and the platform returns geographic coordinates along with a short text description of the picture's main visual features.
+GeoSpy is an online platform that uses neural networks to estimate the geographic location of photographs by analyzing visual features. Currently, you just need to upload the file to the website, no subscription is required. As in any AI model needs to be further confirmed, but the tool might be useful for getting initial clues about the image location or confirming any meta data available.
 
 ## Cost
 
@@ -18,25 +18,31 @@ Drag-and-drop solution to geolocate images. No authentication is required. You c
 * [x] Partially Free
 * [ ] Paid
 
-Freemium model. There are paid enterprise plans for API access.
+GeoSpy currently adopts a freemium model.
 
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
+## Requirements
 
+None.
 
 ## Limitations
 
-It is not open-source. Users can geolocate only one image at a time in the free version. Use with caution as the AI prediction might be incorrect.
+You can check just one image at a time.
 
 ## Ethical Considerations
 
-The platform misses clear privacy and policy guidelines. Be aware when handling sensitive information.
+There isn't a clear privacy and policy section on the website, and the link to this document on the company's website is broken. Be aware when handling sensitive information.
+
+## Guides and articles
+
+Not found.
 
 ## Tool provider
 
-[Graylark](https://graylark.io/)
+[Graylark Technologies](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/gCXqT5ijX1OzGWGC1LLj/)
 
 ## Advertising Trackers
 
@@ -44,7 +50,7 @@ The platform misses clear privacy and policy guidelines. Be aware when handling 
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer                 |
+| ------------------------------- |
+| \[\[Bellingcat volunteer team]] |
+|                                 |
