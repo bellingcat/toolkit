@@ -2660,5 +2660,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "ghBlrjtIDtJl8An98wzJ",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "BLeSobzNUbyLEOyVj88n",
+    "title": "Equasis",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-05-22T14:03:02.297Z",
+    "updatedAt": "2024-05-22T14:03:02.297Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/BLeSobzNUbyLEOyVj88n",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/BLeSobzNUbyLEOyVj88n/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "3NHi5bddL5ax0a6ockJd",
+    "defaultLevel": "inherit"
   }
 ]
