@@ -15,7 +15,7 @@ https://www.suncalc.org
 
 <div data-full-width="true">
 
-<figure><img src=".gitbook/assets/SliderMovingSunANNOTATED (2).gif" alt=""><figcaption><p><strong>USING SUNCALC TO MEASURE THE POSITION OF THE SUN OVER TIME BY DRAGGING THE TIME SLIDER ACROSS THE                                                                   TOP OF THE SCREEN WITH LEFT MOUSE DOWN</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/SliderMovingSunANNOTATED (2).gif" alt=""><figcaption><p><strong>USING SUNCALC TO MEASURE THE POSITION OF THE SUN OVER TIME BY DRAGGING THE TIME SLIDER ACROSS THE TOP OF THE SCREEN WITH LEFT MOUSE DOWN</strong></p></figcaption></figure>
 
 </div>
 
@@ -34,7 +34,7 @@ So the perceived trajectory of the sun is the result of the superposition of thr
 
 The position of the sun along its daily trajectory in the sky (measured as changing elevation and azimuth angles) varies with the time of day.
 
-2. **Orbit:** The earth rotates annually around the sun in an eliptical orbit...&#x20;
+2. **Orbit:** The earth rotates annually around the sun in an eliptical orbit...
 
 <img src=".gitbook/assets/earthorbit.gif" alt="" data-size="original">
 
@@ -59,7 +59,7 @@ SunCalc can be used for geolocation and chronolocation in various ways:
 {% endtab %}
 
 {% tab title="SunCalc Outputs" %}
-**Major Solar Data** (for selected location and time) including&#x20;
+**Major Solar Data** (for selected location and time) including
 
 * the times of dawn, sunrise, culmination, sunset, dusk
 * duration of daylight (length of day)
@@ -85,7 +85,7 @@ SunCalc can be used for geolocation and chronolocation in various ways:
 {% endtab %}
 
 {% tab title="USE CASES" %}
-There are very many use cases for SunCalc in Open Source research because there are so many variables involved: latitude, longitude, date, time, azimuth angle, elevation angle and many different  combinations of these variables can be known in different research/investigative scenarios.
+There are very many use cases for SunCalc in Open Source research because there are so many variables involved: latitude, longitude, date, time, azimuth angle, elevation angle and many different combinations of these variables can be known in different research/investigative scenarios.
 
 **Confirmation and Elimination:** SunCalc is strongly suited to use in tandem with other tools to establish a geolocation. It can often be valuable in confirming or rejecting a candidate location found with other tools and methods. It can deliver ranges of possible and impossible values for this purpose, e.g. the yellow shaded crescent area on the map which represents coverage of all possible sun trajectories for the year.
 
@@ -130,7 +130,7 @@ The trajectory of the sun is its path through space. This is defined by the vari
 Open Source Imagery often contains shadows in the same image as the object which cast them. Trigonometry can be used to relate the height of the object, the length of the shadow and the angle of elevation of the sun. It is the elevation angle of the sun which determines the ratio of the height of an object to the height of the shadow it casts.
 
 {% hint style="danger" %}
-Beware: For accurate results, the object in a source image and the shadow it casts must be at right angles (i.e. orthogonal) to the camera. A useful tool for dealing with angles in imagery is a digital protractor.&#x20;
+Beware: For accurate results, the object in a source image and the shadow it casts must be at right angles (i.e. orthogonal) to the camera. A useful tool for dealing with angles in imagery is a digital protractor.
 
 <img src=".gitbook/assets/Protractor.gif" alt="" data-size="original">
 
@@ -194,7 +194,7 @@ None. No account is needed.
 
 ## Limitations
 
-**Accuracy:** The main limitation in the use of SunCalc for Open Source investigation is variable accuracy of the results. SunCalc itself is a very accurate tool, but the accuracy of the SunCalc input values obtained in Open Source research is often questionable. For example, taking measurements from imagery is often inexact, e.g. azimuth and elevation sun angles, shadow and object lengths which aren't at 90 degrees to the photographer.&#x20;
+**Accuracy:** The main limitation in the use of SunCalc for Open Source investigation is variable accuracy of the results. SunCalc itself is a very accurate tool, but the accuracy of the SunCalc input values obtained in Open Source research is often questionable. For example, taking measurements from imagery is often inexact, e.g. azimuth and elevation sun angles, shadow and object lengths which aren't at 90 degrees to the photographer.
 
 **Graphical Interface:** Many users find it counterintuitive that the background map in Suncalc can be moved by the user, but the geographic location point cannot. There is good design justification for this, it simply doesn't align with other tools on this point and so requires adjustment from the user.
 
@@ -218,7 +218,7 @@ SunCalc does not require a login and does not store source information, and thus
 
 <summary>Environmental Damage</summary>
 
-Promotion of remote/difficult-to-access locations through Open Source investigation could lead to sufficient numbers of new visitors to create environmental damage, but geolocation could not usually be achieved via SunCalc alone. Other tools would be needed.   Depending upon the existence of local communities and the nature of their economies, more visitors might be welcomed, or deplored, but every location has a limit on the number of visitors it can sustain without harm
+Promotion of remote/difficult-to-access locations through Open Source investigation could lead to sufficient numbers of new visitors to create environmental damage, but geolocation could not usually be achieved via SunCalc alone. Other tools would be needed. Depending upon the existence of local communities and the nature of their economies, more visitors might be welcomed, or deplored, but every location has a limit on the number of visitors it can sustain without harm
 
 </details>
 
@@ -226,7 +226,7 @@ Promotion of remote/difficult-to-access locations through Open Source investigat
 
 <summary>Risk to Communities</summary>
 
-Where SunCalc's output is used to promote remote/difficult-to-access locations with navigational assistance in accessing them, this could pose  a threat to the wellbeing, safety and way of life of local communities.&#x20;
+Where SunCalc's output is used to promote remote/difficult-to-access locations with navigational assistance in accessing them, this could pose a threat to the wellbeing, safety and way of life of local communities.
 
 </details>
 
@@ -266,7 +266,7 @@ Torsten Hoffmann, Robert-Schumann-Str. 17, 67304 Eisenberg, Germany
 
 <div>
 
-<figure><img src=".gitbook/assets/JPEG1.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/JPEG1 (1).jpg" alt=""><figcaption></figcaption></figure>
 
  
 
@@ -274,13 +274,13 @@ Torsten Hoffmann, Robert-Schumann-Str. 17, 67304 Eisenberg, Germany
 
 </div>
 
-<table><thead><tr><th width="195">Known</th><th>Known</th><th>Known</th><th>Can Calculate</th></tr></thead><tbody><tr><td>Location</td><td>Date &#x26; time</td><td></td><td>Sun angles (azimuth+elevation)</td></tr><tr><td>Sun angles (azimuth+elevation)</td><td>Date &#x26; time</td><td></td><td>Set of possible locations (<mark style="color:orange;">two? one per hemisphere?</mark>)</td></tr><tr><td>Location</td><td>Date</td><td>Sun azimuth</td><td>Sun elevation and time</td></tr><tr><td>Location </td><td>Date</td><td></td><td>Sun's trajectory, i.e. position given time, time given position, sunrise, sunset &#x26; length of daylight</td></tr></tbody></table>
+<table><thead><tr><th width="195">Known</th><th>Known</th><th>Known</th><th>Can Calculate</th></tr></thead><tbody><tr><td>Location</td><td>Date &#x26; time</td><td></td><td>Sun angles (azimuth+elevation)</td></tr><tr><td>Sun angles (azimuth+elevation)</td><td>Date &#x26; time</td><td></td><td>Set of possible locations (<mark style="color:orange;">two? one per hemisphere?</mark>)</td></tr><tr><td>Location</td><td>Date</td><td>Sun azimuth</td><td>Sun elevation and time</td></tr><tr><td>Location</td><td>Date</td><td></td><td>Sun's trajectory, i.e. position given time, time given position, sunrise, sunset &#x26; length of daylight</td></tr></tbody></table>
 
-<table><thead><tr><th width="82">Input Data</th><th width="371">Text Entry Method(s)</th><th>Graphical Interface Input</th></tr></thead><tbody><tr><td>Location co-ordinates</td><td><p>Enter Location Coordinates in the menu under the Set Lat/Long button in the Geodata section of the Suncalc Sidebar</p><p><img src=".gitbook/assets/image (4).png" alt="" data-size="original"></p></td><td>Move the underlay map with Left Mouse Drag and Drop until the chosen location is under the static red centre circle.<img src=".gitbook/assets/image (5).png" alt=""></td></tr><tr><td>Date</td><td>N/A</td><td>Left click on the date text box under "Computational path of the sun" and input the date via the Calendar window which appears.</td></tr><tr><td>Time of Day</td><td>Enter time in UTC in the time text boxes (red underline) in the time input window (see right).<img src=".gitbook/assets/image (1).png" alt=""></td><td><p>Left click the time text box under "Computational path of the sun" which opens a time input window (see left). Set the hour and minute using the slider bars. OR </p><p><img src=".gitbook/assets/image (7).png" alt="" data-size="original"></p><p>Drag the time slider across the top of the screen with Left mouse to change time.</p></td></tr><tr><td>Object Height (for Shadow Calculation)</td><td>Enter Object height (for shadow calculation) in the height text box (red underline) in the height input window (see right)<img src=".gitbook/assets/image (2).png" alt=""></td><td>Left click the height text box under Solar Data in the sidebar, which opens a height input window (see left). Set the height by pressing the 10m or 99m buttons and then the '+' or "-" buttons to adjust.</td></tr></tbody></table>
+<table><thead><tr><th width="82">Input Data</th><th width="371">Text Entry Method(s)</th><th>Graphical Interface Input</th></tr></thead><tbody><tr><td>Location co-ordinates</td><td><p>Enter Location Coordinates in the menu under the Set Lat/Long button in the Geodata section of the Suncalc Sidebar</p><p><img src=".gitbook/assets/image (4).png" alt="" data-size="original"></p></td><td>Move the underlay map with Left Mouse Drag and Drop until the chosen location is under the static red centre circle.<img src=".gitbook/assets/image (5).png" alt=""></td></tr><tr><td>Date</td><td>N/A</td><td>Left click on the date text box under "Computational path of the sun" and input the date via the Calendar window which appears.</td></tr><tr><td>Time of Day</td><td>Enter time in UTC in the time text boxes (red underline) in the time input window (see right).<img src=".gitbook/assets/image (1).png" alt=""></td><td><p>Left click the time text box under "Computational path of the sun" which opens a time input window (see left). Set the hour and minute using the slider bars. OR</p><p><img src=".gitbook/assets/image (7).png" alt="" data-size="original"></p><p>Drag the time slider across the top of the screen with Left mouse to change time.</p></td></tr><tr><td>Object Height (for Shadow Calculation)</td><td>Enter Object height (for shadow calculation) in the height text box (red underline) in the height input window (see right)<img src=".gitbook/assets/image (2).png" alt=""></td><td>Left click the height text box under Solar Data in the sidebar, which opens a height input window (see left). Set the height by pressing the 10m or 99m buttons and then the '+' or "-" buttons to adjust.</td></tr></tbody></table>
 
 <mark style="color:orange;">Need new diags to show relationships and sensitivity of variables</mark>
 
-<mark style="color:orange;">So, date changes sun's trajectory,</mark>&#x20;
+<mark style="color:orange;">So, date changes sun's trajectory,</mark>
 
 <mark style="color:orange;">location changes sun's angle</mark>
 
@@ -290,12 +290,10 @@ Torsten Hoffmann, Robert-Schumann-Str. 17, 67304 Eisenberg, Germany
 
 ***
 
-<mark style="color:orange;">Two perspectives</mark>&#x20;
+<mark style="color:orange;">Two perspectives</mark>
 
 * <mark style="color:orange;">Motion of heavenly bodies in space</mark>
 * <mark style="color:orange;">Apparent motion of sun from a viewpoint on the surface of the earth</mark>
-
-
 
 <mark style="color:orange;">The earth rotates around the sun in an eliptical orbit with a period of 1 year</mark>
 
@@ -313,6 +311,3 @@ Torsten Hoffmann, Robert-Schumann-Str. 17, 67304 Eisenberg, Germany
 | --------------- |
 | Sophie Tedling  |
 |                 |
-
-
-
