@@ -2678,5 +2678,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "3NHi5bddL5ax0a6ockJd",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "7eAPkvBn3RpUIi2qPZKI",
+    "title": "OrbTrack",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-05-22T19:24:35.975Z",
+    "updatedAt": "2024-05-22T19:24:35.975Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/7eAPkvBn3RpUIi2qPZKI",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/7eAPkvBn3RpUIi2qPZKI/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "u5A9xnJPfAdtAOguxYtf",
+    "defaultLevel": "inherit"
   }
 ]
