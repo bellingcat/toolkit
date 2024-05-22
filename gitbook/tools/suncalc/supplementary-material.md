@@ -9,3 +9,5 @@ Enter Object height (for shadow calculation) in the height text box (red underli
 
 
 <figure><img src=".gitbook/assets/JPEG1.jpg" alt="" width="188"><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/CalculatingShadowAngle.jpg" alt=""><figcaption></figcaption></figure>

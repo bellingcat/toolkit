@@ -270,7 +270,7 @@ Torsten Hoffmann, Robert-Schumann-Str. 17, 67304 Eisenberg, Germany
 
  
 
-<figure><img src=".gitbook/assets/CalculatingShadowAngle.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/CalculatingShadowAngle (1).jpg" alt=""><figcaption></figcaption></figure>
 
 </div>
 
