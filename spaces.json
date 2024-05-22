@@ -2696,5 +2696,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "u5A9xnJPfAdtAOguxYtf",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "Z2nqTBfspKqJaMpaLttO",
+    "title": "Hugin",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-05-22T19:33:44.297Z",
+    "updatedAt": "2024-05-22T19:33:44.297Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/Z2nqTBfspKqJaMpaLttO",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/Z2nqTBfspKqJaMpaLttO/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "szhpIptqU3YuvLLF8P4o",
+    "defaultLevel": "inherit"
   }
 ]
