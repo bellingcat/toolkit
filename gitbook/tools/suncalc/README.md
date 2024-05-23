@@ -182,9 +182,7 @@ Menu buttons top left and top right of the map display show menus to toggle over
 
 * [x] Free
 * [ ] Partially Free
-* [ ] Paid
-
-\[\[Pricing or subscription information, if relevant.]]
+* [ ] Paid For
 
 ## Level of difficulty
 
@@ -204,9 +202,7 @@ None. No account is needed.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
-
-#### Overview: Ethical Low Risk, High Opportunity <a href="#overview-ethical-low-risk-high-opportunity" id="overview-ethical-low-risk-high-opportunity"></a>
+#### Overview: Ethical Low Risk, High Opportunity
 
 SunCalc can and has been used in chronolocation and confirming geolocation of imagery from remote areas which claims to depict mistreatment of indigenous minorities. As such, it can be used support to work which seeks to protect human rights, indigenous peoples, minorities and the environment through accurate geolocation. In very rare cases, geolocation and chronolocation reveal the identify of people providing source information, which could put them/their contacts at risk of reprisal. Source information providers may or may not be aware of this risk, so there is a responsibility on the Open Source researcher, who may have more information for accurate risk assessment, to evaluate that risk on their behalf. Many information providers willingly undertake the risk of reprisal for the benefit of drawing public/global attention to situations and events they hope will be changed or acted upon as a result of exposure.
 
