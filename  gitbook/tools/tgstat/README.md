@@ -55,6 +55,6 @@ TGStat also has a rating system for both channel and posts. This in turn is a us
 
 **Comparison:** TGStat also solves the problem of visualizing posts reach and its relationship with other actors, channels and content. TGstat can pull up a specific channel analytics and show the relationship between channels through the “citation” section. This section shows who cites whom. Some thematic similarities in content between channels overlap.
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Sample relationship between the channel in question and other channels</p></figcaption></figure>
+<figure><img src=".gitbook/assets/IMG_0191.jpg" alt=""><figcaption><p>Sample citation showing the relationship between a channel in question and other channels</p></figcaption></figure>
 
 &#x20;
