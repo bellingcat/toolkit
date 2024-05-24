@@ -1,8 +1,8 @@
 ---
 description: >-
-  Provides dual window views of (1) a 2-D map location & (2) a 3-D rendered
+  Dual window views for any global location: (1) a 2-D map & (2) a 3-D rendered
   terrain model, with photo fitting, shade/slope mapping, sun trails & weather
-  data. Actively in development for OSINV research.
+  data. In active development for OS research.
 ---
 
 # PeakVisor
@@ -381,15 +381,11 @@ PeakVisor's promotion of remote/difficult-to-access locations and navigational a
 
 ## Guide
 
-#### Article: [More than Mountaineering: Using PeakVisor for Geolocation](https://www.bellingcat.com/resources/2023/07/13/more-than-mountaineering-using-peakvisor-for-geolocation/)
+{% hint style="info" %}
+Almost all the tutorial and guide material currently online for PeakVisor refers to the Smartphone version of the tool and for this reason is not included here as much of the functionality is not yet available in the web version for Open Source Research, and some is not applicable. PeakVisor's developers have not yet created Help content for the web version of PeakVisor as the tool is so newly developed and major changes are ongoing.
+{% endhint %}
 
-#### Video Webinars:
-
-&#x20;[How To Use PeakVisor, The Mountaineering App, For Open-Source Research](https://www.youtube.com/watch?v=pWlukJ0v-pw)&#x20;
-
-&#x20;[Using PeakVisor For Geolocations](https://www.youtube.com/watch?v=xNqSwL9j8h4)
-
-#### Development Updates on X/Twitter: [@PVforOSINV](https://x.com/PVforOSINV)
+<table><thead><tr><th width="187">Author +/ Source</th><th width="154">Format</th><th>Title and Link</th></tr></thead><tbody><tr><td>Sophie Tedling, Bellingcat Website</td><td>Article on an OS Investigation using PeakVisor</td><td><h4> <a href="https://www.bellingcat.com/resources/2023/07/13/more-than-mountaineering-using-peakvisor-for-geolocation/">More than Mountaineering: Using PeakVisor for Geolocation</a></h4></td></tr><tr><td>Sophie Tedling, YouTube, Bellingcat Channel</td><td><h4>Video Webinars:</h4></td><td> <a href="https://www.youtube.com/watch?v=xNqSwL9j8h4">Using PeakVisor For Geolocations</a></td></tr><tr><td>Sophie Tedling, YouTube, Bellingcat Channel</td><td><h4>Video Webinars:</h4></td><td> <a href="https://www.youtube.com/watch?v=pWlukJ0v-pw">How To Use PeakVisor, The Mountaineering App, For Open-Source Research</a> </td></tr><tr><td>X/Twitter</td><td>X/(Twitter) Account</td><td><a href="https://x.com/PVforOSINV">@PVforOSINV</a> </td></tr></tbody></table>
 
 #### Video Excerpts for Specific Topics:
 
