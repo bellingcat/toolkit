@@ -51,15 +51,24 @@ The Google Chrome browser must already be installed to allow the user to add Map
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+MapSwitcher is limited to the Chrome Browser, and to the list of apps provided for each, which is a good spread of commonly-used Open Source research mapping tools, but by no means exhaustive.&#x20;
+
+Technical Limitations on Switching Performance:
+
+* Where directions are specified by address (not coordinates), different services can geocode these in radically different ways. So the routes may not start or finish where they did on the input mapping service.
+* Zoom / scale may not always be exact, depending on the limitations of the input & output map services
+* Directions handle multi-segment routes (with intermediate specified locations) where possible. Only some services (google, microsoft) support this. In these cases, output services which only support single segments will show maps from the first location to the last location.
+* The Waze app may fail to handle zoom.&#x20;
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+GitHub user and developer details: [https://github.com/david-r-edgar/MapSwitcher](https://github.com/david-r-edgar/MapSwitcher)
+
+
 
 ## Tool provider
 
