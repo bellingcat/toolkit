@@ -10,7 +10,15 @@ http://map.snapchat.com/
 
 ## Description
 
-A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case?
+Snap Maps is a component of Snapchat in which users can post stories that are automatically geolocated to a specific city, town, or place. Snap Map posts appear as hot spots on a  heat map. The warmer the color of the hot spot means that there is a higher quantity of Snap Maps being posted there. Users can click anywhere near a hot spot to view posts in that area.&#x20;
+
+Snap Map posts do not last forever. Snaps that are posted to Snap Map may be viewable for [different](https://help.snapchat.com/hc/en-us/articles/7012271195796-How-to-Submit-to-Snap-Map) amounts of time. Some last for only a day or two, while others can be seen for much longer. Posts on the heat map can last up to six days.&#x20;
+
+Users can also zoom in on the map to locate specific places, such as museums and restaurants, and view public posts that posters have geotagged to that specific place. These posts can go back several months.
+
+Snap Maps is useful when a researcher knows a specific event is occuring and wants to have a more on-the-ground perspective of the event, including by geolocating events to a specific location. A Snapchat user posted a video of clashes between Israeli forces and Palestinian militia fighters in Jenin after Israeli forces launched a two-day operation there on May X, 2024. According to cues from the video, the clashes occurred on X street in Jenin.&#x20;
+
+Snap Maps is also a good place to start for researchers who are investigating human networks in a specific location. The user who posted the&#x20;
 
 ## Cost
 
@@ -24,13 +32,13 @@ A full description of the tool, any background information needed to use it. Wha
 
 ## Requirements
 
-Users must have a Snapchat account to access Snap Maps, which requires an email or phone number.
+Users must access Snap Maps through a Snapchat account, which requires an email or phone number.
 
 ## Limitations
 
 Snap Maps is currently unavailable in Cuba, North Korea, Turkey (?), Turkmenistan (?), and Ukraine.
 
-Snap Maps does not allow the user to filter Snap Map posts by date or time.&#x20;
+Snap Maps does not allow the user to filter Snap Map posts by date, time, or a specific Snapchat user.
 
 Snap Maps is not available on desktop, which can make it difficult to archive information. However, users may screen record while using Snap Maps to archive posts. Snap Maps was previously available on desktop, and previous instructions on how to archive Snap Maps posts from 2018 is available [here](https://twitter.com/AricToler/status/1054805284802228224).&#x20;
 
