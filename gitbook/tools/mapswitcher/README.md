@@ -61,6 +61,10 @@ The Google Chrome browser must already be installed to allow the user to add Map
 
 MapSwitcher is limited to the Chrome Browser, and to the list of apps provided for each, which is a good spread of commonly-used Open Source research mapping tools, but by no means exhaustive.&#x20;
 
+If you try to use MapSwitcher on an app for which is not on its input/output list you will see the following message:
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>MAP SWITCHER MESSAGE WHEN SWITCHING IS NOT POSSIBLE</p></figcaption></figure>
+
 **Technical Limitations on Switching Performance:**
 
 * Where directions are specified by address (not coordinates), different services can geocode these in radically different ways. So the routes may not start or finish where they did on the input mapping service.
