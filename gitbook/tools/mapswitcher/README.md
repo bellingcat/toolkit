@@ -16,8 +16,10 @@ Read details here: [https://github.com/david-r-edgar/MapSwitcher](https://github
 ## Description
 
 {% hint style="danger" %}
-This article describes the MapSwitcher extension for the Google Chrome browser and should not be confused with another tool of the same name for Firefox browser, developed by [František Nesveda](https://addons.mozilla.org/mk/firefox/user/15224571/) which currently supports far fewer Map formats, does not work in the same way, and can be found here [https://addons.mozilla.org/mk/firefox/addon/map-switcher/](https://addons.mozilla.org/mk/firefox/addon/map-switcher/)
+This article describes the MapSwitcher extension for the Google Chrome browser and should not be confused with another tool of the same name for Firefox browser, developed by [František Nesveda](https://addons.mozilla.org/mk/firefox/user/15224571/) which can be found here [https://addons.mozilla.org/mk/firefox/addon/map-switcher/](https://addons.mozilla.org/mk/firefox/addon/map-switcher/)
 {% endhint %}
+
+<figure><img src=".gitbook/assets/mapSwitcherScreenshot16thFeb.png" alt=""><figcaption><p><strong>THE MAPSWITCHER EXTENSION MENU OVER A GOOGLE CHROME BROWSER PAGE</strong></p></figcaption></figure>
 
 MapSwitcher is an extension for the Google Chrome browser, which can be downloaded from the [Google Chrome Store](https://app.gitbook.com/s/wj16aeUeCQ32BThaGKHz/). It aids Open Source research by assisting users to switch their focus of study from one geographical data app to another, whilst migrating the same location co-ordinates between apps. General aspect is also preserved as far as possible, i.e. zoom, direction, etc.
 
@@ -33,6 +35,12 @@ The list of different geographical data platforms which can be used with MapSwit
 
 <figure><img src=".gitbook/assets/ListofCompatible.jpg" alt=""><figcaption><p><strong>MAPSWITCHER OUTPUT SERVICE OPTIONS AS AT MAY 2024 - CHECK THE LINK ABOVE FOR CURRENT STATUS</strong></p></figcaption></figure>
 
+
+
+{% hint style="info" %}
+Currently MapSwitcher is only available for Chrome Browser, but its author, [David R Edgar](https://david-r-edgar.uk/projects.php),  planned future versions for Firefox and Microsoft Edge
+{% endhint %}
+
 ## Cost
 
 * [x] Free
@@ -43,7 +51,7 @@ The list of different geographical data platforms which can be used with MapSwit
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
-The most difficult part of using MapSwitcher is its installation as a Chrome Browser Extension, if you have not done this before.&#x20;
+The most difficult part of using MapSwitcher is its installation as a Chrome Browser Extension, if you have not done this kind of installation before.&#x20;
 
 ## Requirements
 
@@ -53,7 +61,7 @@ The Google Chrome browser must already be installed to allow the user to add Map
 
 MapSwitcher is limited to the Chrome Browser, and to the list of apps provided for each, which is a good spread of commonly-used Open Source research mapping tools, but by no means exhaustive.&#x20;
 
-Technical Limitations on Switching Performance:
+**Technical Limitations on Switching Performance:**
 
 * Where directions are specified by address (not coordinates), different services can geocode these in radically different ways. So the routes may not start or finish where they did on the input mapping service.
 * Zoom / scale may not always be exact, depending on the limitations of the input & output map services
@@ -72,7 +80,7 @@ GitHub user and developer details: [https://github.com/david-r-edgar/MapSwitcher
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+&#x20;[David R Edgar](https://david-r-edgar.uk/projects.php) 's source code for Map\_Switcher can be found on GitHub - see above.
 
 ## Advertising Trackers
 
@@ -80,7 +88,7 @@ GitHub user and developer details: [https://github.com/david-r-edgar/MapSwitcher
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat volunteer team |
+|                           |
