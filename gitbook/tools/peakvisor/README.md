@@ -263,7 +263,7 @@ There are also view types for Skiers and Hikers, each of which has functionality
 
 <details>
 
-<summary>Chosen from the View Selection Drop Down in the menu bar. This view offers an altitude above chosen viewpoint, set at an angle to the earth (rather than viewing vertically downward), elevation contour lines and map feature labels, no terrain simulation.</summary>
+<summary>Chosen from the View Selection Drop Down in the menu bar. This view offers an altitude above chosen viewpoint, set at an angle to the earth (rather than viewing vertically downward), elevation contour lines and map feature labels, no terrain simulation. CLICK for more details...</summary>
 
 * **Weather:** This is not globally available,and only provides forecasts and direct data feeds from some mountainous regions where specific marked weather station data is published with a time lag of hours, rather than days. When available, this is extremely valuable geo- and chronolocation information which can narrow down timeframes and geographical search areas. The forecast presence of the aurora borealis is also included as a coloured map overlay for relevant regions.\
   Weather data is classed as either Forecasts of temperature, precipitation and wind or as Weather Station data, which appears as a sidebar menu when available.
@@ -340,8 +340,8 @@ An email login is needed for some functions like elevation data download, locati
 
 * **Performance:** PeakVisor Web version for OSINV is a development project, so performance can be volatile whilst upgrading. See  [_Performance Issues and Their Management_](https://www.youtube.com/watch?v=xNqSwL9j8h4\&t=5353s)
 * **Urban Environments Rarely Usefully Rendered:** PeakVisor Source Data is greater than 30m/pixel in many areas, but features smaller than 30m cannot be assumed to be visible on PeakVisor Explorer View rendered terrains. Thus \*\*Urban environments\*\* will rarely be usefully rendered with respect to bulidings, but useful information can be gleaned about urban lanscapes and lines of sight.
-* R**esizing Windows:** PeakVisor 3D and 3D Explorer windows can switch zoom scale when Teleporting between viewpoint locations in the model, which means users often need to resize and adjust scale during their work.
-* Buffering Effect at Capacity Limit: PeakVisor operates at the limit of capacity when the user continuously adjusts viewpoint in 3D Explorer View, because it must constantly re-render the imagery. If buffering limits are reached, the system will 'boomerang' back to a previous location. The way to work around this is to move the viewpoint in increments.
+* **Resizing Windows:** PeakVisor 3D and 3D Explorer windows can switch zoom scale when Teleporting between viewpoint locations in the model, which means users often need to resize and adjust scale during their work.
+* **Buffering Effect at Capacity Limit:** PeakVisor operates at the limit of capacity when the user continuously adjusts viewpoint in 3D Explorer View, because it must constantly re-render the imagery. If buffering limits are reached, the system will 'boomerang' back to a previous location. The way to work around this is to move the viewpoint in increments.
 
 <div data-full-width="true">
 
