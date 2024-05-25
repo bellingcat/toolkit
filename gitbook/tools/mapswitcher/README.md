@@ -39,15 +39,15 @@ The list of different geographical data platforms which can be used with MapSwit
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
+
+The most difficult part of using MapSwitcher is its installation as a Chrome Browser Extension, if you have not done this before.&#x20;
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+The Google Chrome browser must already be installed to allow the user to add MapSwitcher as an extension. There is no account necessary to use MapSwitcher over and above what is necessary to use Google Chrome browser.
 
 ## Limitations
 
