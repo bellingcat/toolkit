@@ -13,7 +13,11 @@ https://example.com
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+\[
+
+{% hint style="danger" %}
+This article describes the MapSwitcher extension for the Google Chrome browser and should not be confused with another tool of the same name for Firefox browser, which supports far fewer Map formats and can be found here [https://addons.mozilla.org/mk/firefox/addon/map-switcher/](https://addons.mozilla.org/mk/firefox/addon/map-switcher/)
+{% endhint %}
 
 ## Cost
 
