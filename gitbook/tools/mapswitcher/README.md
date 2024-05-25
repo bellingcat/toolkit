@@ -1,5 +1,8 @@
 ---
-description: A brief one-line description of the tool.
+description: >-
+  Chrome extension switches  between online map providers, maintaining (as far
+  as possible) the map centre, zoom level, & directions of the source map.
+  Improves OS research accuracy & efficiency.
 ---
 
 # MapSwitcher
@@ -54,4 +57,3 @@ https://example.com
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
