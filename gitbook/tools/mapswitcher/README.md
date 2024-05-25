@@ -70,13 +70,11 @@ MapSwitcher is limited to the Chrome Browser, and to the list of apps provided f
 
 ## Ethical Considerations
 
-
+MapSwitcher use involves the ethical considerations surrounding the constituent mapping tools between which it interfaces.
 
 ## Guides and articles
 
 GitHub user and developer details: [https://github.com/david-r-edgar/MapSwitcher](https://github.com/david-r-edgar/MapSwitcher)
-
-
 
 ## Tool provider
 
