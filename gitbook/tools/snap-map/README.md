@@ -28,11 +28,15 @@ Information on the requirement for using a tool, for instance, API key, e-mail a
 
 ## Limitations
 
-The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.
+Snap Maps is currently unavailable in Cuba, North Korea, Turkey (?), Turkmenistan (?), and Ukraine.
+
+Snap Maps does not allow the user to filter Snap Map posts by date or time.&#x20;
+
+Snap Maps is not available on desktop, which can make it difficult to archive information. However, users may screen record while using Snap Maps to archive posts. Snap Maps was previously available on desktop, and previous instructions on how to archive Snap Maps posts from 2018 is available [here](https://twitter.com/AricToler/status/1054805284802228224).&#x20;
 
 ## Ethical Considerations
 
-Snap Map can contain graphic or explicit content unless reported or automatically taken down by Snapchat. Users can view posts on Snap Maps while turning off location services for Snapchat or keeping their location on the app private from their Snapchat friends in "Ghost Mode." Snapchat may still have access to the users' location in Ghost Mode, according to Snapchat's [policy](https://help.snapchat.com/hc/en-us/articles/15051407058068-How-My-AI-Uses-Location-Data) on location data, however.
+Snap Map can contain graphic or explicit content unless other users report to Snapchat it or it is automatically taken down by Snapchat's automated monitoring [systems](https://help.snapchat.com/hc/en-us/articles/7012271195796-How-to-Submit-to-Snap-Map). Users can view posts on Snap Maps while turning off location services for Snapchat or keeping their location on the app private from their Snapchat friends in "Ghost Mode." Snapchat may still have access to the users' location in Ghost Mode, according to Snapchat's [policy](https://help.snapchat.com/hc/en-us/articles/15051407058068-How-My-AI-Uses-Location-Data) on location data, however.&#x20;
 
 ## Guide
 
@@ -40,7 +44,9 @@ Link to a guide on this tool
 
 ## Tool provider
 
-Snapchat, Snap Inc., Santa Monica, California, USAAdvertising Trackers
+Snapchat, Snap Inc.
+
+Santa Monica, California
 
 * [x] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
