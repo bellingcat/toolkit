@@ -24,7 +24,7 @@ A full description of the tool, any background information needed to use it. Wha
 
 ## Requirements
 
-Information on the requirement for using a tool, for instance, API key, e-mail address etc.
+Users must have a Snapchat account to access Snap Maps, which requires an email or phone number.
 
 ## Limitations
 
@@ -36,7 +36,7 @@ Snap Maps is not available on desktop, which can make it difficult to archive in
 
 ## Ethical Considerations
 
-Snap Map can contain graphic or explicit content unless other users report to Snapchat it or it is automatically taken down by Snapchat's automated monitoring [systems](https://help.snapchat.com/hc/en-us/articles/7012271195796-How-to-Submit-to-Snap-Map). Users can view posts on Snap Maps while turning off location services for Snapchat or keeping their location on the app private from their Snapchat friends in "Ghost Mode." Snapchat may still have access to the users' location in Ghost Mode, according to Snapchat's [policy](https://help.snapchat.com/hc/en-us/articles/15051407058068-How-My-AI-Uses-Location-Data) on location data, however.&#x20;
+Snap Map can contain graphic or explicit content unless other users report the post to Snapchat or the post is removed by Snapchat's automated monitoring [systems](https://help.snapchat.com/hc/en-us/articles/7012271195796-How-to-Submit-to-Snap-Map). Users can view posts on Snap Maps while their location services for Snapchat are off, or while keeping their location on the app private from their Snapchat friends in "Ghost Mode." Snapchat may still have access to the users' location in Ghost Mode, according to Snapchat's [policy](https://help.snapchat.com/hc/en-us/articles/15051407058068-How-My-AI-Uses-Location-Data) on location data, however.&#x20;
 
 ## Guide
 
