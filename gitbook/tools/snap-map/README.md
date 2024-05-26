@@ -56,13 +56,13 @@ Users must access Snap Maps through a Snapchat account, which requires an email 
 
 Snap Maps is currently unavailable in Cuba, North Korea, Turkey, and Ukraine.
 
-Snap Maps does not allow the user to filter posts by date, time, or a specific Snapchat user. This can make sorting through Snap Map posts very time consuming.
+Snap Maps does not allow users to filter posts by date, time, or a specific Snapchat user. This can make sorting through Snap Map posts for a specific research project very time consuming.
 
-Snap Maps is not available on desktop, which can make it difficult to archive information. However, users may screen record while using Snap Maps to archive posts. Snap Maps was previously available on desktop, and previous instructions on how to archive Snap Maps posts from 2018 is available [here](https://twitter.com/AricToler/status/1054805284802228224).&#x20;
+Snap Maps is not available on desktop, which can make it difficult to archive information. However, users may screen record while using Snap Maps to save posts for later use. Snap Maps was previously available on desktop, and previous instructions on how to archive Snap Maps posts from 2018 is available [here](https://twitter.com/AricToler/status/1054805284802228224).&#x20;
 
 ## Ethical Considerations
 
-Snap Map can contain graphic or explicit content unless other users report the post to Snapchat or the post is removed by Snapchat's automated monitoring [systems](https://help.snapchat.com/hc/en-us/articles/7012271195796-How-to-Submit-to-Snap-Map). Users can view posts on Snap Maps while their location services for Snapchat are off, or while keeping their location on the app private from their Snapchat friends in "Ghost Mode." Snapchat may still have access to the users' location in Ghost Mode, according to Snapchat's [policy](https://help.snapchat.com/hc/en-us/articles/15051407058068-How-My-AI-Uses-Location-Data) on location data, however.&#x20;
+Snap Map can contain graphic or explicit content unless the post is removed by Snapchat's automated monitoring [systems](https://help.snapchat.com/hc/en-us/articles/7012271195796-How-to-Submit-to-Snap-Map). Users can view posts on Snap Maps while their location services for Snapchat are off, or while keeping their location on the app private from their Snapchat friends in "Ghost Mode." Snapchat may still have access to the users' location in Ghost Mode, according to Snapchat's [policy](https://help.snapchat.com/hc/en-us/articles/15051407058068-How-My-AI-Uses-Location-Data) on location data.&#x20;
 
 ## Guide
 
