@@ -10,7 +10,7 @@ http://map.snapchat.com/
 
 ## Description
 
-Snap Maps is a component of Snapchat in which users can post stories that are automatically geolocated to a specific city, town, or place. Snap Map posts appear as hot spots on a  heat map. The warmer the color of the hot spot means that there is a higher quantity of Snap Maps being posted there. Users can click anywhere near a hot spot to view posts in that area.&#x20;
+Snap Maps is Snapchat feature in which users can create public posts or "stories" that are automatically geolocated to a specific city, town, or place. Snap Map posts appear as hot spots on a heat map. The warmer the color of the hot spot means that there is a higher quantity of Snap Maps being posted there. Users can click anywhere near a hot spot to view posts in that area.&#x20;
 
 Snap Map posts do not last forever. Snaps that are posted to Snap Map may be viewable for [different](https://help.snapchat.com/hc/en-us/articles/7012271195796-How-to-Submit-to-Snap-Map) amounts of time. Some last for only a day or two, while others can be seen for much longer. Posts on the heat map can last up to six days.&#x20;
 
