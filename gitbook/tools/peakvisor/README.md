@@ -25,7 +25,7 @@ Beware that PeakVisor comes in 2 versions: the **Web-Based App, used for Open So
 
 <details>
 
-<summary>This article covers the Web-Based PeakVisor Version for Open Source research. The 2 PeakVisor versions were developed for separate purposes...</summary>
+<summary>This article covers the Web-Based PeakVisor Version for Open Source research. The 2 PeakVisor versions were developed for separate purposes...(click panel arrow for more)</summary>
 
 PeakVisor was first developed as a navigation/orientation smartphone app for mountaineers, skiers and hikers, and uses mobile phone inputs like GPS location, compass, etc. in this version of the app. It delivers augmented reality outputs where maps are superimposed over the live camera view on the mobile phone to fix location by matching map to camera views.
 
@@ -78,15 +78,15 @@ There is often more than one method to input data in the PeakVisor interface. So
 {% endtab %}
 {% endtabs %}
 
-### PeakVisor's Most Powerful Geolocation Feature: PhotoFitting
+### PhotoFitting: PeakVisor's Most Powerful Geolocation Feature:&#x20;
 
-PeakVisor's most widely-used and praised OSINV feature to date is that it provides a geolocation ["PhotoFit"](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=7590s)[ ](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=7590s)function - see below.
+PeakVisor's most widely-used and praised feature to date is that it provides a geolocation ["PhotoFit"](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=7590s)[ ](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=7590s)function - see below.
 
 <figure><img src=".gitbook/assets/anigifphotofit (1).gif" alt=""><figcaption><p><strong>THE PHOTOFITTING PROCESS: MATCHING THE PEAKVISOR TERRAIN MODEL TO THE USER'S SOURCE PHOTOGRAPH             WATCH THE MOVEMENT OF THE RED LINE AGAINST THE PHOTOGRAPH SKYLINE</strong></p></figcaption></figure>
 
 <details>
 
-<summary>PhotoFit superimposes the outline of PeakVisor's 3D rendered terrain model at the User's Test Location over the User's uploaded source image to try to find a match...</summary>
+<summary>PhotoFit superimposes the outline of PeakVisor's 3D rendered terrain model at the User's Test Location over the User's uploaded source image to try to find a match...(click panel arrow for more)</summary>
 
 As a PhotoFit user you can:-&#x20;
 
@@ -126,7 +126,7 @@ The PhotoFit feature is particularly useful where local "Streetview" imagery is 
 
 <details>
 
-<summary>PeakVisor is often used in conjunction with Google Earth Pro for geolocation research because some locations which can be recognised using PeakVisor 3D rendered models cannot be identified using Google Earth Pro.</summary>
+<summary>PeakVisor is often used in conjunction with Google Earth Pro for geolocation research because some locations which can be recognised using PeakVisor 3D rendered models cannot be identified using Google Earth Pro. (Click panel arrow for more)</summary>
 
 This is because PeakVisor's high data quality (from LIDAR satellite and maps), and realistic image rendering, capture small details in the terrain which make it identifiable. Whereas Google Earth presents more smoothed, less characteristic terrain models. This is particularly likely in extreme terrains such as mountains, canyons and coastlines.
 
@@ -164,7 +164,7 @@ As well as [**Explorer View**](./#view-three-explorer-view-3d-rendered-terrain-m
 
 <details>
 
-<summary>By default, this view is shown in a small left hand window next to a larger Explorer View rendered terrain in the right hand window, though it is possible to maximise 2D Map View as needed</summary>
+<summary>By default, this view is shown in a small left hand window next to a larger Explorer View rendered terrain in the right hand window, though it is possible to maximise 2D Map View as needed... (Click panel arrow for more)</summary>
 
 * &#x20;from altitude directly overhead above chosen viewpoint, including elevation contour lines and map feature labels, no terrain simulation
 * Left Mouse Down over the background allows the user to move around the map
@@ -178,7 +178,7 @@ As well as [**Explorer View**](./#view-three-explorer-view-3d-rendered-terrain-m
 
 <details>
 
-<summary>Chosen from the View Selection Drop Down in the menu bar. View from an altitude above chosen viewpoint, including elevation contour lines and map feature labels, no terrain simulation.</summary>
+<summary>Chosen from the View Selection Drop Down in the menu bar. View from an altitude above chosen viewpoint, including elevation contour lines and map feature labels, no terrain simulation.... (Click panel arrow for more)</summary>
 
 * Left Mouse Down changes location of map co-ordinates (latitude, longitude
 * Right Mouse Down changes viewing angles (pitch, yaw, roll) within limits
@@ -192,7 +192,7 @@ As well as [**Explorer View**](./#view-three-explorer-view-3d-rendered-terrain-m
 
 <details>
 
-<summary>Currently the default PeakVisor view after the landing page, shown simultaneously with the 2D Map in a smaller window on the left of the screen. View from a specific user-defined altitude (ground level by default), no contour lines, a few map labels, full terrain simulation (no buildings), date, sun/moon phase &#x26; time of day simulation.</summary>
+<summary>Currently the default PeakVisor view after the landing page, shown simultaneously with the 2D Map in a smaller window on the left of the screen. View from a specific user-defined altitude (ground level by default), no contour lines, a few map labels, full terrain simulation (no buildings), date, sun/moon phase &#x26; time of day simulation.... (Click panel arrow for more)</summary>
 
 * Sun and moon trail feature accessible from this view, with date and time input&#x20;
 * Left Mouse Down moves two viewing angles (pitch and yaw)
@@ -211,7 +211,7 @@ As well as [**Explorer View**](./#view-three-explorer-view-3d-rendered-terrain-m
 
 <details>
 
-<summary>Teleport to a Different User-Selected Viewpoint: SHIFT + Left Mouse Click</summary>
+<summary>Teleport to a Different User-Selected Viewpoint: SHIFT + Left Mouse Click... (Click panel arrow for more)</summary>
 
 In 3D Explorer View it is  possible to select a point in the rendered terrain model from the 3D Explorer View. This is done by pressing SHIFT and then Left Mouse Clicking over the pixel at the desired location.
 
@@ -227,7 +227,7 @@ In 3D Explorer View it is  possible to select a point in the rendered terrain mo
 
 <details>
 
-<summary>Measure Distance from the Viewpoint to a User-Selected Point: SHIFT + Left Mouse Click</summary>
+<summary>Measure Distance from the Viewpoint to a User-Selected Point: SHIFT + Left Mouse Click... (Click panel arrow for more)</summary>
 
 The distance displayed in the subwindow upon SHIFT + Left Mouse Click on the Explorer view panorama is the distance between the observer, the user-selected viewpoint location, and the object which has just been highlighted. It is simultaneousy displayed on the 2D Map as a blue line between the viewpoint (white map pin with arrow) and the chosen location (red map pin).
 
@@ -239,7 +239,7 @@ The Distance measurement feature can be used as a rapid way to determine lines o
 
 <details>
 
-<summary>Sun and Moon Trail Calculations: Use SHIFT + P with time slider to explore the relationship between location, date, time, sun azimuth and sun elevation</summary>
+<summary>Sun and Moon Trail Calculations: Use SHIFT + P with time slider to explore the relationship between location, date, time, sun azimuth and sun elevation... (Click panel arrow for more)</summary>
 
 * Use the subwindow under the Sun icon on the left sidebar to set Date on the calendar
 * Use the timeslider in the subwindow under the Sun icon to set Time
@@ -263,7 +263,7 @@ There are also view types for Skiers and Hikers, each of which has functionality
 
 <details>
 
-<summary>Chosen from the View Selection Drop Down in the menu bar. This view offers an altitude above chosen viewpoint, set at an angle to the earth (rather than viewing vertically downward), elevation contour lines and map feature labels, no terrain simulation. CLICK for more details...</summary>
+<summary>Chosen from the View Selection Drop Down in the menu bar. This view offers an altitude above chosen viewpoint, set at an angle to the earth (rather than viewing vertically downward), elevation contour lines and map feature labels, no terrain simulation. CLICK for more details...... (Click panel arrow for more)</summary>
 
 * **Weather:** This is not globally available,and only provides forecasts and direct data feeds from some mountainous regions where specific marked weather station data is published with a time lag of hours, rather than days. When available, this is extremely valuable geo- and chronolocation information which can narrow down timeframes and geographical search areas. The forecast presence of the aurora borealis is also included as a coloured map overlay for relevant regions.\
   Weather data is classed as either Forecasts of temperature, precipitation and wind or as Weather Station data, which appears as a sidebar menu when available.
@@ -279,7 +279,7 @@ There are also view types for Skiers and Hikers, each of which has functionality
 
 <details>
 
-<summary>Chosen from the View Selection Drop Down in the menu bar. This view offers an altitude above chosen viewpoint, elevation contour lines and map feature labels, information on slopes, routes and ski lift status, no terrain simulation.</summary>
+<summary>Chosen from the View Selection Drop Down in the menu bar. This view offers an altitude above chosen viewpoint, elevation contour lines and map feature labels, information on slopes, routes and ski lift status, no terrain simulation.... (Click panel arrow for more)</summary>
 
 In addition to Weather, Photo and Draw Trail functions, Ski Map Options additionally deliver
 
@@ -357,7 +357,7 @@ PeakVisor can and has been used in geolocating imagery from remote areas which c
 
 <details>
 
-<summary>Personal Privacy of, and Risk To, PeakVisor Users</summary>
+<summary>Personal Privacy of, and Risk To, PeakVisor Users... (Click panel arrow for more)</summary>
 
 PeakVisor does not as yet deal primarily in user-generated photography (although this may change over time). Currently it has the capacity to store and share images, and these are mainly of climbers, hikers and skiiers at locations they consider to be an achievement to reach. There is a small potential risk to them in publishing their presence at a particular location and time. If they understood that their images would be shared by PeakVisor, they have willingly undertaken this risk by uploading them.
 
@@ -365,7 +365,7 @@ PeakVisor does not as yet deal primarily in user-generated photography (although
 
 <details>
 
-<summary>Risk to the Environment</summary>
+<summary>Risk to the Environment... (Click panel arrow for more)</summary>
 
 Promotion of remote/difficult-to-access locations through such photography could lead to sufficient numbers of new visitors to create environmental damage, particularly if PeakVisor imagery was used by mainstream media and reached very large numbers of consumers.  PeakVisor's data accuracy and Smartphone app version make reaching such locations easier to less expert people, and so increase the numbers likely to make the attempt. Depending upon the existence of local communities and the nature of their economies, more visitors might be welcomed, or deplored, but every location has a limit on the number of visitors it can sustain without harm.&#x20;
 
@@ -373,7 +373,7 @@ Promotion of remote/difficult-to-access locations through such photography could
 
 <details>
 
-<summary>Risk to Communities</summary>
+<summary>Risk to Communities... (Click panel arrow for more)</summary>
 
 PeakVisor's promotion of remote/difficult-to-access locations and navigational assistance in accessing them could pose  a threat to the wellbeing, safety and way of life of local communities.&#x20;
 
