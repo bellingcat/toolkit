@@ -163,7 +163,7 @@ Beware: For accurate results, the object in a source image and the shadow it cas
 
 <img src=".gitbook/assets/Protractor.gif" alt="" data-size="original">
 
-These can also be found online and be transformed in 3D by graphics programs to rotate to an angle which compensates for non-orthogonal shadow images, but some accuracy is lost. Above is a digital protractor in \*.gif format to preserve transparency so that measurements can be made whilst the image beneath is visible.
+These transparent protractor imags can also be found online and be transformed in 3D by graphics programs to rotate to an angle which compensates for non-orthogonal shadow images, but some accuracy is lost. Above is a digital protractor in \*.gif format to preserve transparency so that measurements can be made whilst the image beneath is visible.
 {% endhint %}
 
 **SunCalc Shadow Length Function** allows the user to input the height of an object at the chosen location, and then displays the length of the shadow of that object for the given location, date and time. This shadow length is displayed above the input window for object height.
