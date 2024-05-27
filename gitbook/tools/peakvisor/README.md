@@ -13,7 +13,7 @@ https://peakvisor.com
 
 ## Description
 
-### PeakVisor As a Multi-Functional OSINV Tool
+### Multi-Functional Open Source Research Using PeakVisor
 
 PeakVisor is a multi-function OSINV tool for examining high-accuracy geographic data in the form of 2D and 3D maps and rendered terrain models of near-photographic quality. This geographic data is also overlaid with detailed sun/moon, slope, shadow, elevation and, where available, weather information. PeakVisor is a leading tool for dramatic terrains, e.g. mountains, coastlines, canyons...
 
@@ -33,7 +33,7 @@ The web-based version has been developed specifically for Open Source research s
 
 </details>
 
-### PeakVisor for Open Source Research: Use Cases, Data Input, PeakVisor Outputs, How to Enter Data
+### Open Source Research With PeakVisor: Use Cases, Data Input, PeakVisor Outputs, How to Enter Data
 
 {% tabs %}
 {% tab title="User Inputs" %}
