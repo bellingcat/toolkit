@@ -136,8 +136,6 @@ This is because PeakVisor's high data quality (from LIDAR satellite and maps), a
 
 {% hint style="success" %}
 Use PeakVisor in conjunction with other tools like Google Earth Pro and satellite imagery to obtain the fullest understanding of Test terrain and environment for which geolocation is needed. Exploit the differences of these tools, e.g. Google tools are quick to cover terrain in real time, strong on time-stamped historical data, strong on local photographic imagery, weak on exact photographic location, unclear on photographic aspect. PeakVisor is weak on cityscapes, sparse on local photographic imagery, slower to switch viewpoint, but strong on orientation, clear on numeric viewshed data and strong on distance measurement in 3D panoramas.
-
-<img src=".gitbook/assets/Compare GEPandPV.JPG" alt="" data-size="original">
 {% endhint %}
 
 ### Data Download from PeakVisor
@@ -156,11 +154,11 @@ PeakVisor provides an elevation data download feature for a maximum ground surfa
 
 ### FIVE Different Views for Terrain in PeakVisor
 
-1. Explorer View (3D rendered terrain model displayed with 2D Map View)
-2. 2D Map View
-3. 3D Map View
-4. Hike Map View
-5. Ski Map View
+1. [Explorer View](./#view-one-explorer-view-3d-rendered-terrain-model) (3D rendered terrain model displayed with 2D Map View)
+2. [2D Map View](./#view-two-2d-map-view)
+3. [3D Map View](./#view-three-3d-map-view)
+4. [Hike Map View](./#view-four-hike-map-view)
+5. [Ski Map View](./#view-five-ski-map-view)
 
 As well as [**Explorer View**](./#view-three-explorer-view-3d-rendered-terrain-model), which always displays a 3D rendered terrain model of a given location next to  [2D Map View](./#id-2d-map-view),  PeakVisor provides a number of other view types for its topological data:, [3D Map View](./#id-3d-map-view), [Hike Map View](./#view-four-hike-map-view), and [Ski Map view](./#view-five-ski-map-view). These are accessible from the Drop Down menu under Explorer in the Toolbar - see below:
 
