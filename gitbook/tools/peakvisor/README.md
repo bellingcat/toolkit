@@ -33,7 +33,7 @@ The web-based version has been developed specifically for Open Source research s
 
 </details>
 
-### Open Source Research With PeakVisor: Use Cases, Data Input, PeakVisor Outputs, How to Enter Data
+### Open Source Research With PeakVisor: Use Cases, Data Input, PeakVisor Outputs, How to Enter Data...(Click the four tabs to access details)
 
 {% tabs %}
 {% tab title="User Inputs" %}
@@ -199,7 +199,11 @@ In 3D Explorer View it is  possible to select a point in the rendered terrain mo
 
 </details>
 
-<figure><img src=".gitbook/assets/what is the difference between these 2 lines.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/what is the difference between these 2 lines.JPG" alt=""><figcaption><p>THE DISTANCE MEASUREMENT FUNCTION IN THE 2D WINDOW AND THE TELEPORT FUNCTION IN THE 3D EXPLORER WINDOW, WHICH SWITCHES THE VIEWPOINT TO A LOCATION IN THE 3D RENDERED VIEW SELECTED BY THE USER</p></figcaption></figure>
+
+{% hint style="danger" %}
+The developers have reports of problem using the Teleport function from users and look to resolve them by July 24 during an major upgrade.
+{% endhint %}
 
 <details>
 
