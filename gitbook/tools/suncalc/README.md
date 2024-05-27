@@ -1,7 +1,7 @@
 ---
 description: >-
   Suncalc models the relationship between the date, time of day, the geographic
-  location of a place, and the position of the sun in the sky together with the
+  location of a place, and the position of the sun in the sky, together with the
   length & direction of the shadows it casts.
 ---
 
@@ -15,13 +15,13 @@ https://www.suncalc.org
 
 <div data-full-width="true">
 
-<figure><img src=".gitbook/assets/SliderMovingSunANNOTATED (2).gif" alt=""><figcaption><p><strong>USING SUNCALC TO MEASURE THE POSITION OF THE SUN OVER TIME BY DRAGGING THE TIME SLIDER ACROSS THE TOP OF THE SCREEN WITH LEFT MOUSE DOWN</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/SliderMovingSunANNOTATED (2).gif" alt=""><figcaption><p><strong>USING SUNCALC TO MEASURE THE POSITION OF THE SUN OVER TIME BY DRAGGING THE TIME SLIDER</strong> <br><strong>ACROSS THE TOP OF THE SCREEN WITH LEFT MOUSE DOWN</strong></p></figcaption></figure>
 
 </div>
 
 <details>
 
-<summary>Suncalc works around the interplay of date, time of day, geographic location and sun height and direction. It shows the movement of the sun and sunlight phase for a certain day at a certain place. This relationship is so complex because...</summary>
+<summary>Suncalc works around the interplay of date, time of day, geographic location and sun height and direction. It shows the movement of the sun and sunlight phase for a certain day at a certain place. This relationship is so complex because... (Click for more detail)</summary>
 
 * Suncalc is modelling the relative motion of two celestial bodies (sun and earth) in space , as seen from the viewpoint of a chosen spot on the surface of the earth.
 * SunCalc's viewpoint is complicated by the fact that the chosen spot on earth is (a) spinning around the earth's axis and (b) rotating around the sun on an eliptical orbit. The sun's motion from that chosen spot is seen only as relative motion, since the the observer perceives their location to be stationary.
@@ -52,7 +52,7 @@ The length of the daytime (difference between time of sunset and time of sunrise
 
 SunCalc can be used for geolocation and chronolocation in various ways:
 
-### SunCalc for Open Source Research: Use Cases, Data Input, SunCalc Outputs, How to Enter Data
+### SunCalc for Open Source Research: Use Cases, Data Input, SunCalc Outputs, How to Enter Data... (Click each of the four tabs for more detail)
 
 {% tabs %}
 {% tab title="User Inputs" %}
@@ -115,7 +115,7 @@ The trajectory of the sun is its path through space. This is defined by the vari
 
 <details>
 
-<summary>The trajectory of the sun is its path through space. This is defined by the variation in two angles applied to the sun seen in the sky from earth: azimuth angle and elevation angle...</summary>
+<summary>The trajectory of the sun is its path through space. This is defined by the variation in two angles applied to the sun seen in the sky from earth: azimuth angle and elevation angle... (Click for more detail)</summary>
 
 <img src=".gitbook/assets/suncalcazimuth (1).JPG" alt="" data-size="original">
 
@@ -126,32 +126,6 @@ The trajectory of the sun is its path through space. This is defined by the vari
 **THE ELEVATION ANGLE OF THE SUN (VERTICAL SEXTANT ANGLE)**
 
 </details>
-
-### Objects and Their Shadows: SunCalc Shadow Length Feature
-
-<figure><img src=".gitbook/assets/SUNCALCTRAILS.JPG" alt="" width="375"><figcaption><p><strong>SUNCALC RELATES THE POSITION AND ANGLE OF THE SUN TO THE RATIO OF THE HEIGHT OF AN OBJECT TO THE HEIGHT OF THE SHADOW IT CASTS</strong></p></figcaption></figure>
-
-Open Source Imagery often contains shadows in the same image as the object which cast them. Trigonometry can be used to relate the height of the object, the length of the shadow and the angle of elevation of the sun. It is the elevation angle of the sun which determines the ratio of the height of an object to the height of the shadow it casts.
-
-{% hint style="danger" %}
-Beware: For accurate results, the object in a source image and the shadow it casts must be at right angles (i.e. orthogonal) to the camera. A useful tool for dealing with angles in imagery is a digital protractor.
-
-<img src=".gitbook/assets/Protractor.gif" alt="" data-size="original">
-
-These can be transformed in 3D by graphics programs to rotate to an angle which compensates for non-orthogonal shadow images, but some accuracy is lost. Above is a digital protractor in \*.gif format to preserve transparency so that measurements can be made whilst the image beneath is visible
-{% endhint %}
-
-**SunCalc Shadow Length Function** allows the user to input the height of an object at the chosen location, and then displays the length of the shadow of that object for the given location, date and time. This shadow length is displayed above the input window for object height.
-
-<figure><img src=".gitbook/assets/image (2).png" alt="" width="563"><figcaption><p><strong>SETTING OBJECT HEIGHT FOR SHADOW LENGTH CALCULATION</strong></p></figcaption></figure>
-
-To open the input window for shadow length, click on the Object Level text input window in the sidebar, then enter text or use the buttons to set the object height - see above.
-
-### The Animation Feature
-
-<figure><img src=".gitbook/assets/animationbutton.jpg" alt="" width="563"><figcaption><p><strong>CLICK THE TIME INPUT BUTTON ON THE INTERFACE, THEN THE START ANIMATION BUTTON ON THE "SET TIME" WINDOW</strong></p></figcaption></figure>
-
-SunCalc can run an animation showing the sun's daylight trajectory over time from dawn to dusk for the day and location chosen in the sidebar. This is activated from the Time Input Window as shown above.
 
 ### The SunCalc Interface
 
@@ -177,6 +151,32 @@ SunCalc can run an animation showing the sun's daylight trajectory over time fro
 </div>
 
 Menu buttons top left and top right of the map display show menus to toggle overlays for night, eclipse, and date and for distance measurement (Top Left Option Icon) and to set the source of the base map from 4 options (Top Right Layer Icon). See menus above.
+
+### Objects and Their Shadows: SunCalc Shadow Length Feature
+
+<figure><img src=".gitbook/assets/SUNCALCTRAILS.JPG" alt="" width="375"><figcaption><p><strong>SUNCALC RELATES THE POSITION AND ANGLE OF THE SUN TO THE RATIO OF THE HEIGHT OF AN OBJECT TO THE HEIGHT OF THE SHADOW IT CASTS</strong></p></figcaption></figure>
+
+Open Source Imagery often contains shadows in the same image as the object which cast them. Trigonometry can be used to relate the height of the object, the length of the shadow and the angle of elevation of the sun. It is the elevation angle of the sun which determines the ratio of the height of an object to the height of the shadow it casts.
+
+{% hint style="danger" %}
+Beware: For accurate results, the object in a source image and the shadow it casts must be at right angles (i.e. orthogonal) to the camera. A useful tool for dealing with angles in imagery is a transparent digital protractor. The example below can be copied and pasted for use.
+
+<img src=".gitbook/assets/Protractor.gif" alt="" data-size="original">
+
+These can also be found online and be transformed in 3D by graphics programs to rotate to an angle which compensates for non-orthogonal shadow images, but some accuracy is lost. Above is a digital protractor in \*.gif format to preserve transparency so that measurements can be made whilst the image beneath is visible.
+{% endhint %}
+
+**SunCalc Shadow Length Function** allows the user to input the height of an object at the chosen location, and then displays the length of the shadow of that object for the given location, date and time. This shadow length is displayed above the input window for object height.
+
+<figure><img src=".gitbook/assets/image (2).png" alt="" width="563"><figcaption><p><strong>SETTING OBJECT HEIGHT FOR SHADOW LENGTH CALCULATION</strong></p></figcaption></figure>
+
+To open the input window for shadow length, click on the Object Level text input window in the sidebar, then enter text or use the buttons to set the object height - see above.
+
+### The Animation Feature
+
+<figure><img src=".gitbook/assets/animationbutton.jpg" alt="" width="563"><figcaption><p><strong>CLICK THE TIME INPUT BUTTON ON THE INTERFACE, THEN THE START ANIMATION BUTTON ON THE "SET TIME" WINDOW</strong></p></figcaption></figure>
+
+SunCalc can run an animation showing the sun's daylight trajectory over time from dawn to dusk for the day and location chosen in the sidebar. This is activated from the Time Input Window as shown above.
 
 ## Cost
 
@@ -208,7 +208,7 @@ SunCalc can and has been used in chronolocation and confirming geolocation of im
 
 <details>
 
-<summary>Personal Privacy of, and Risk To, SunCalc Users</summary>
+<summary>Personal Privacy of, and Risk To, SunCalc Users ...(Click for more detail)</summary>
 
 SunCalc does not require a login and does not store source information, and thus poses negligible risk to users' privacy
 
@@ -216,7 +216,7 @@ SunCalc does not require a login and does not store source information, and thus
 
 <details>
 
-<summary>Environmental Damage</summary>
+<summary>Environmental Damage..(Click for more detail)</summary>
 
 Promotion of remote/difficult-to-access locations through Open Source investigation could lead to sufficient numbers of new visitors to create environmental damage, but geolocation could not usually be achieved via SunCalc alone. Other tools would be needed. Depending upon the existence of local communities and the nature of their economies, more visitors might be welcomed, or deplored, but every location has a limit on the number of visitors it can sustain without harm
 
@@ -224,7 +224,7 @@ Promotion of remote/difficult-to-access locations through Open Source investigat
 
 <details>
 
-<summary>Risk to Communities</summary>
+<summary>Risk to Communities...(Click for more detail)</summary>
 
 Where SunCalc's output is used to promote remote/difficult-to-access locations with navigational assistance in accessing them, this could pose a threat to the wellbeing, safety and way of life of local communities.
 
