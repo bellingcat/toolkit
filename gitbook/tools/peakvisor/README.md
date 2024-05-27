@@ -29,7 +29,7 @@ Beware that PeakVisor comes in 2 versions: the **Web-Based App, used for Open So
 
 PeakVisor was first developed as a navigation/orientation smartphone app for mountaineers, skiers and hikers, and uses mobile phone inputs like GPS location, compass, etc. in this version of the app. It delivers augmented reality outputs where maps are superimposed over the live camera view on the mobile phone to fix location by matching map to camera views.
 
-The web-based version has been developed specifically for Open Source research since 2022. It allows users to input numerical values to describe 3D geographical viewpoints in terms of  latitude, longitude, altitude, pitch, yaw, roll and horizontal angle of view. It superimposes maps over geolocation source imagery to fix location by matching map to historic recorded views. **This article covers the web-based version for Open Source research**. This is best used with a large screen and an exact pointing device like a mouse. A free login is required to access all features.
+The web-based version has been developed specifically for Open Source research since 2022 via the POPSI project (on X/Twitter: [@PVforOSINV](https://x.com/PVforOSINV)). It allows users to input numerical values to describe 3D geographical viewpoints in terms of  latitude, longitude, altitude, pitch, yaw, roll and horizontal angle of view. It superimposes maps over geolocation source imagery to fix location by matching map to historic recorded views. **This article covers the web-based version for Open Source research**. This is best used with a large screen and an exact pointing device like a mouse. A free login is required to access all features.
 
 </details>
 
