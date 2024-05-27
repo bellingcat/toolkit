@@ -1,5 +1,7 @@
 ---
-description: An open, community-based project, providing (near) real-time information on the movements of ships and their locations in harbours and ports.
+description: >-
+  An open, community-based project, providing (near) real-time information on
+  the movements of ships and their locations in harbours and ports.
 ---
 
 # MarineTraffic
@@ -9,6 +11,8 @@ description: An open, community-based project, providing (near) real-time inform
 http://marinetraffic.com/
 
 ## Description
+
+<figure><img src=".gitbook/assets/MarineTrafficMenu.JPG" alt="" width="142"><figcaption></figcaption></figure>
 
 \[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
 
@@ -54,4 +58,3 @@ http://marinetraffic.com/
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
