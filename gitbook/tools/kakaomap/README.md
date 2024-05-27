@@ -6,11 +6,15 @@ description: A brief one-line description of the tool.
 
 ## URL
 
-https://example.com
+[https://kakao.com](https://kakao.com)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+<figure><img src=".gitbook/assets/Kakao.JPG" alt=""><figcaption><p>KAKOA MAP RUNNING WITH GOOGLE TRANSLATE CHROME BROWSER EXTENTION FOR ENGLISH VERSION.</p></figcaption></figure>
+
+A mapping tool in Korean focusing on the region.
+
+Includes traffic information, weather,  pollutants, places of interest and the facility to export data.
 
 ## Cost
 
@@ -18,19 +22,19 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+Korean Language skills or run a translator extension whilst using the tool (only partially successful).
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+Korean language requirement.&#x20;
 
 ## Ethical Considerations
 
@@ -54,4 +58,3 @@ https://example.com
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
