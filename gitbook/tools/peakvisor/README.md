@@ -122,7 +122,7 @@ The PhotoFit feature is particularly useful where local "Streetview" imagery is 
 * because no images have been taken, e.g. in a very remote area OR
 * because they are unavailable for geopolitical reasons, e.g. war, government intervention.
 
-### PeakVisor Data Quality
+### Data Quality in PeakVisor
 
 <details>
 
@@ -135,12 +135,12 @@ This is because PeakVisor's high data quality (from LIDAR satellite and maps), a
 <figure><img src=".gitbook/assets/comparemodelspvgep.jpg" alt=""><figcaption><p><strong>THE CENTRAL SOURCE IMAGE IS RECOGNISABLE IN THE PEAKVISOR RENDERED MODEL OF THE TEST LOCATION THROUGH ACCURATE DEPICTION OF KEY SKYLINE FEATURES</strong></p></figcaption></figure>
 
 {% hint style="success" %}
-Use PeakVisor in conjunction with other tools like Google Earth Pro and satellite imagery to obtain the fullest understanding of Test terrain and environment for which geolocation is needed. Exploit the differences of these tools, e.g. Google tools are quick to cover terrain in real time, strong on timestamped historical data, strong on local photographic imagery, weak on exact photographic location, unclear on photographic aspect. PeakVisor is weak on cityscapes, sparse on local photographic imagery, slower to switch viewpoint, but strong on orientation, clear on numeric viewshed data and strong on distance measurement in 3D panoramas.
+Use PeakVisor in conjunction with other tools like Google Earth Pro and satellite imagery to obtain the fullest understanding of Test terrain and environment for which geolocation is needed. Exploit the differences of these tools, e.g. Google tools are quick to cover terrain in real time, strong on time-stamped historical data, strong on local photographic imagery, weak on exact photographic location, unclear on photographic aspect. PeakVisor is weak on cityscapes, sparse on local photographic imagery, slower to switch viewpoint, but strong on orientation, clear on numeric viewshed data and strong on distance measurement in 3D panoramas.
 
 <img src=".gitbook/assets/Compare GEPandPV.JPG" alt="" data-size="original">
 {% endhint %}
 
-### PeakVisor Data Download
+### Data Download from PeakVisor
 
 PeakVisor provides an elevation data download feature for a maximum ground surface rectangle area equating to 0.5 degrees square of latitude and longitude. The user can define the location and shape of the download rectangle data and save it as a \*.png file in the Data tab of the PROFILE page.
 
@@ -154,41 +154,19 @@ PeakVisor provides an elevation data download feature for a maximum ground surfa
 
 </div>
 
-### PeakVisor's FIVE Different Views for Terrain
+### FIVE Different Views for Terrain in PeakVisor
 
-As well as [**Explorer View**](./#view-three-explorer-view-3d-rendered-terrain-model), which is used to generate 3D rendered terrain models of test locations, PeakVisor provides a number of other view types for its topological data: [2D Map View](./#id-2d-map-view), [3D Map View](./#id-3d-map-view), [Hike Map View](./#view-four-hike-map-view), [Ski Map view](./#view-five-ski-map-view). These are accessible from the Drop Down menu under Explorer in the Toolbar - see below:
+1. Explorer View (3D rendered terrain model displayed with 2D Map View)
+2. 2D Map View
+3. 3D Map View
+4. Hike Map View
+5. Ski Map View
+
+As well as [**Explorer View**](./#view-three-explorer-view-3d-rendered-terrain-model), which always displays a 3D rendered terrain model of a given location next to  [2D Map View](./#id-2d-map-view),  PeakVisor provides a number of other view types for its topological data:, [3D Map View](./#id-3d-map-view), [Hike Map View](./#view-four-hike-map-view), and [Ski Map view](./#view-five-ski-map-view). These are accessible from the Drop Down menu under Explorer in the Toolbar - see below:
 
 <figure><img src=".gitbook/assets/3dmENUDROPDOWN.gif" alt="" width="487"><figcaption><p><strong>CHANGING PEAKVISOR'S VIEW SETTING USING THE DROP DOWN MENU UNDER "EXPLORER" IN THE TOOLBAR</strong></p></figcaption></figure>
 
-### VIEW ONE: 2D Map View
-
-<details>
-
-<summary>By default, this view is shown in a small left hand window next to a larger Explorer View rendered terrain in the right hand window, though it is possible to maximise 2D Map View as needed... (Click panel arrow for more)</summary>
-
-* &#x20;from altitude directly overhead above chosen viewpoint, including elevation contour lines and map feature labels, no terrain simulation
-* Left Mouse Down over the background allows the user to move around the map
-* Left Mouse down over the Map Pin allows the user to move the viewpoint of the Explorer View model
-
-</details>
-
-<figure><img src=".gitbook/assets/2Dwindowmatterhorn.JPG" alt="" width="563"><figcaption><p><strong>PEAKVISOR 2D MAP VIEW WITH CONTOUR LINES AND MAP LABELS (PLACES, PATHS, CONTOURS ETC)</strong></p></figcaption></figure>
-
-### VIEW TWO: 3D Map View
-
-<details>
-
-<summary>Chosen from the View Selection Drop Down in the menu bar. View from an altitude above chosen viewpoint, including elevation contour lines and map feature labels, no terrain simulation.... (Click panel arrow for more)</summary>
-
-* Left Mouse Down changes location of map co-ordinates (latitude, longitude
-* Right Mouse Down changes viewing angles (pitch, yaw, roll) within limits
-* Use Left and Right Mouse Down simultaneously to 'tour' a landscape feature.
-
-</details>
-
-<figure><img src=".gitbook/assets/big3Dmatterhorn.gif" alt=""><figcaption><p><strong>PEAKVISOR 3D MAP VIEW SHOWING MOUSE CONTROLS:                                                                                                                                                 LEFT MOUSE FOR LOCATION, RIGHT MOUSE FOR PITCH (VERTICAL) AND YAW (HORIZONTAL)</strong></p></figcaption></figure>
-
-### VIEW THREE: "Explorer" View (3D Rendered Terrain Model)
+### VIEW ONE: "Explorer" View (3D Rendered Terrain Model)
 
 <details>
 
@@ -258,6 +236,34 @@ When the sun is centre screen in the PeakVisor Explorer view, the yaw value in t
 {% endhint %}
 
 There are also view types for Skiers and Hikers, each of which has functionality useful for Open Source research:
+
+### VIEW TWO: 2D Map View
+
+<details>
+
+<summary>By default, this view is shown in a small left hand window next to a larger Explorer View rendered terrain in the right hand window, though it is possible to maximise 2D Map View as needed... (Click panel arrow for more)</summary>
+
+* &#x20;from altitude directly overhead above chosen viewpoint, including elevation contour lines and map feature labels, no terrain simulation
+* Left Mouse Down over the background allows the user to move around the map
+* Left Mouse down over the Map Pin allows the user to move the viewpoint of the Explorer View model
+
+</details>
+
+<figure><img src=".gitbook/assets/2Dwindowmatterhorn.JPG" alt="" width="563"><figcaption><p><strong>PEAKVISOR 2D MAP VIEW WITH CONTOUR LINES AND MAP LABELS (PLACES, PATHS, CONTOURS ETC)</strong></p></figcaption></figure>
+
+### VIEW THREE: 3D Map View
+
+<details>
+
+<summary>Chosen from the View Selection Drop Down in the menu bar. View from an altitude above chosen viewpoint, including elevation contour lines and map feature labels, no terrain simulation.... (Click panel arrow for more)</summary>
+
+* Left Mouse Down changes location of map co-ordinates (latitude, longitude
+* Right Mouse Down changes viewing angles (pitch, yaw, roll) within limits
+* Use Left and Right Mouse Down simultaneously to 'tour' a landscape feature.
+
+</details>
+
+<figure><img src=".gitbook/assets/big3Dmatterhorn.gif" alt=""><figcaption><p><strong>PEAKVISOR 3D MAP VIEW SHOWING MOUSE CONTROLS:                                                                                                                                                 LEFT MOUSE FOR LOCATION, RIGHT MOUSE FOR PITCH (VERTICAL) AND YAW (HORIZONTAL)</strong></p></figcaption></figure>
 
 ### **VIEW FOUR: Hike Map** View:-
 
