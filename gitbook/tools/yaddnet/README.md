@@ -6,11 +6,19 @@ description: A brief one-line description of the tool.
 
 ## URL
 
-https://example.com
+[https://www.yaddnet.org/](https://www.yaddnet.org/i)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+addnet, or YaDDNet, is an online platform designed to support the monitoring and sharing of maritime digital selective calling (DSC) signals. It serves a community of radio enthusiasts and professionals interested in tracking DSC traffic across various frequencies, primarily on the HF bands.
+
+The platform allows users to decode and share their received DSC signals in real-time, which can then be uploaded to the YaDDNet website. This functionality is particularly useful for verifying the reception of signals and identifying vessel positions, as it links to comprehensive databases and online vessel tracking resources​ ([AmateurRadio.com](https://www.amateurradio.com/yadd/))​​ ([YBW Forum](https://forums.ybw.com/threads/testing-your-mf-hf-dsc-using-yaddnet.495570/))​.
+
+One of the notable features of YaDDNet is its community-driven nature. Users contribute their decoded DSC signals, helping to keep the system's database of maritime mobile service identities (MMSI) up-to-date. This collaborative approach enhances the accuracy and usefulness of the data available on the platform​ ([AmateurRadio.com](https://www.amateurradio.com/yadd/))​​ (NDB List)​.
+
+For those testing their maritime MF/HF DSC equipment, YaDDNet offers a valuable tool to confirm if their transmitted signals are being received and logged by the network. This can be particularly beneficial for ensuring the operational readiness of DSC-capable radios and for maritime communication enthusiasts to track global maritime traffic​ ([YBW Forum](https://forums.ybw.com/threads/testing-your-mf-hf-dsc-using-yaddnet.495570/))​.
+
+In summary, YaDDNet is a specialized platform that facilitates the real-time sharing and verification of maritime DSC signals, supported by a community of dedicated radio operators. It is a robust tool for both hobbyists and professionals in the maritime communication field.
 
 ## Cost
 
@@ -54,4 +62,3 @@ https://example.com
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
