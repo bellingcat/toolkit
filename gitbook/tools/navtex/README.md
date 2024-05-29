@@ -1,5 +1,7 @@
 ---
-description: A brief one-line description of the tool.
+description: >-
+  A historical database providing vital navigational and meteorological
+  warnings, forecasts, and urgent maritime safety information to ships
 ---
 
 # Navtex
