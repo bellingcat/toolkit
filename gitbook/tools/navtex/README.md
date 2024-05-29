@@ -6,11 +6,36 @@ description: A brief one-line description of the tool.
 
 ## URL
 
-https://example.com
+https://www.navtex.net
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+NAVTEX (Navigational Telex) is an international automated medium frequency (MF) direct-printing service used for broadcasting maritime safety information. It provides vital navigational and meteorological warnings, forecasts, and urgent maritime safety information to ships. NAVTEX operates under the Global Maritime Distress and Safety System (GMDSS) and is a key component of ensuring safe navigation at sea.
+
+#### Key Features of NAVTEX
+
+1. **Frequency and Range**:
+   * NAVTEX broadcasts on the MF frequency of 518 kHz in English, which is the primary frequency for international broadcasts.
+   * It also operates on 490 kHz and 4209.5 kHz for national broadcasts in local languages.
+   * The service has a typical range of about 200-400 nautical miles from the transmitter, depending on the location and conditions.
+2. **Automated Reception**:
+   * Ships equipped with NAVTEX receivers can automatically receive and display messages. The receivers are designed to automatically reject duplicate messages and messages not intended for the ship’s current area, reducing the risk of information overload.
+3. **Message Content**:
+   * NAVTEX messages include navigational warnings (such as changes to navigational aids, new hazards, and construction), meteorological warnings (weather forecasts and warnings), search and rescue information, and other urgent safety information.
+4. **Standardized Format**:
+   * Messages are standardized and use a specific format that includes a header with identifiers for the transmitting station, message type, and a unique identifier to prevent duplication.
+5. **Scheduled Broadcasts**:
+   * NAVTEX messages are broadcast at regular intervals, typically every four hours, ensuring that ships receive timely updates.
+
+#### Importance in Maritime Safety
+
+NAVTEX plays a critical role in maritime safety by ensuring that ships have access to up-to-date safety information regardless of their location. The automated nature of NAVTEX allows for continuous reception of important messages without requiring manual intervention, making it an essential tool for the safety of life at sea.
+
+#### Usage and Equipment
+
+Ships are required to have NAVTEX receivers as part of their GMDSS equipment, especially if they operate in coastal areas. These receivers are designed to be highly reliable, operating continuously to ensure that no critical information is missed.
+
+In summary, NAVTEX is a crucial communication tool in the maritime industry, providing essential safety information that helps in the prevention of maritime accidents and enhances the overall safety of navigation at sea​ (NDB List)
 
 ## Cost
 
@@ -54,4 +79,3 @@ https://example.com
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
