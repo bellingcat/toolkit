@@ -1,5 +1,7 @@
 ---
-description: A brief one-line description of the tool.
+description: >-
+  Aleph offers a way to research sanctions lists, corporate registries, leaks,
+  and more
 ---
 
 # OCCRP Aleph
@@ -22,11 +24,13 @@ Aleph is a platform by OCCRP to help journalists and investigators "follow the m
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
+Aleph provides a range of tools and mechanisms to aid investigations. They are simple to use, but familiarizing yourself with the different tools and their functions may take some time.
+
 ## Requirements
 
 No account is necessary to use Aleph.&#x20;
 
-However, some datasets are only accessible to approved users. To be approved, you must sign up using [this form](https://form.asana.com/?k=hsYmAKHX1ViTzUoe410y8Q\&d=24418422500834).&#x20;
+Some datasets are only accessible to approved users. To be approved, you must sign up using [this form](https://form.asana.com/?k=hsYmAKHX1ViTzUoe410y8Q\&d=24418422500834).&#x20;
 
 ## Limitations
 
@@ -42,13 +46,15 @@ While leaked datasets can provide valuable insights and foster transparency, the
 
 ## Guides and articles
 
-[https://docs.aleph.occrp.org/users/](https://docs.aleph.occrp.org/users/)
+[https://docs.aleph.occrp.org/users/](https://docs.aleph.occrp.org/users/)&#x20;
+
+[https://humberstorylab.ca/projects/general/using-occrps-aleph-for-dark-web-data-analysis/](https://humberstorylab.ca/projects/general/using-occrps-aleph-for-dark-web-data-analysis/)&#x20;
 
 ## Tool provider
 
 {% embed url="https://www.occrp.org" %}
 
-The Organized Crime and Corrpution Reporting Project (OCCRP) is an investigative journalism organization. It envisions a more informed world where lives, livelihoods, and democracies are not threatened by crime and corruption. It's mission is to spread and strengthen investigative journalism around the world and expose crime and corruption so the public can hold power to account.
+The Organized Crime and Corruption Reporting Project (OCCRP) is an investigative journalism organization. It envisions a more informed world where lives, livelihoods, and democracies are not threatened by crime and corruption. Its mission is to spread and strengthen investigative journalism around the world and expose crime and corruption so the public can hold power to account.
 
 ## Advertising Trackers
 
