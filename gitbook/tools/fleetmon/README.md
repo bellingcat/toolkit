@@ -1,8 +1,11 @@
 ---
-description: Vessel position tracking, including a global vessel and port database. Tools for the shipping industry, Maritime News and a lively community of shipspotters. You’ll need an account to access information.
+description: >-
+  Vessel position tracking, including a global vessel and port database. Tools
+  for the shipping industry, Maritime News and a lively community of
+  shipspotters.
 ---
 
-# FleetMon
+# FleetMon - now migrated to MarineTraffic
 
 ## URL
 
@@ -54,4 +57,3 @@ http://fleetmon.com/
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-

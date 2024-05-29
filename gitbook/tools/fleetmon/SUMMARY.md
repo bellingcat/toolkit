@@ -1,4 +1,4 @@
 # Table of contents
 
-* [FleetMon](README.md)
+* [FleetMon - now migrated to MarineTraffic](README.md)
 * [Categories](categories.md)
