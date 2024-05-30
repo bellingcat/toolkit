@@ -1,8 +1,8 @@
 ---
 description: >-
   TGStat is a web-based analytics tool for Telegram that monitors active
-  channels and provides profile analytics and statistics. It can track a
-  channel’s subscribers’ growth rate, reach, and citation in
+  channels and provides profile analytics and statistics. It tracks channel
+  subscribers’ growth rate, reach, and citation index.
 ---
 
 # TGStat
@@ -92,9 +92,9 @@ TGStat has both free and paid versions. However, the most important features of 
 | --------- | -------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | **Price** | 0 RUB    | <p>1 mo – 2 490 RUB</p><p>3 mo – 7 090 RUB</p><p>6 mo – 13 390 RUB</p><p>12mo – 25 390 RUB</p> | <p>1 mo – 2 190 RUB</p><p>3 mo – 6 200 RUB</p><p>6 mo – 11 800 RUB</p><p>12mo – 22 300 RUB</p> |
 
-&#x20;**Free vs. Premium Analytics**
+**Free vs. Premium Analytics**
 
-&#x20;Below are some of the different features available in a free account vis a vis a Premium Analytics subscription. (List is not exhaustive, but focuses on main features that may be helpful for open source researchers)
+Below are some of the different features available in a free account vis a vis a Premium Analytics subscription. (List is not exhaustive, but focuses on main features that may be helpful for open source researchers)
 
 &#x20;&#x20;
 
@@ -112,8 +112,9 @@ TGStat has both free and paid versions. However, the most important features of 
 
 Below are some of the different features available in a free account vis a vis a Premium Search subscription. The number of channels users can search and the number of requests for advanced search are limited. (List is not exhaustive, but focuses on main features that may be helpful for open source researchers)
 
-|                                                      | **Free**      | **Premium Search** |
+|                                                      |               |                    |
 | ---------------------------------------------------- | ------------- | ------------------ |
+|                                                      | **Free**      | **Premium Search** |
 | Number of channels per day                           | 10            | Unlimited          |
 | Number of channels per month                         | 200           | Unlimited          |
 | Number of channel search requests per day            | 30            | Unlimited          |
@@ -150,5 +151,19 @@ The paid version of the tool requires:
 
 3\.       Paid subscription (the paywall accepts foreign credit cards)
 
-&#x20;
+
+
+### Limitations
+
+The tool has very few limitations.&#x20;
+
+The main limitation is that it requires logging in to access important features.&#x20;
+
+If not log in, users can see the channel’s “Summary” analytics.&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2024-05-30 061656 (1).png" alt="" width="563"><figcaption></figcaption></figure>
+
+If not logged in, users are unable to access the following features: summary, subscribers, citation index, citation, average post reach, subscriber engagement, post views analysis, attracting subscribers, external traffic, and top posts.
+
+<figure><img src=".gitbook/assets/Screenshot 2024-05-30 061720.png" alt="" width="563"><figcaption></figcaption></figure>
 
