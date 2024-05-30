@@ -80,15 +80,75 @@ _**Use Case**_
 
 TGStat has been particularly used in content verification, especially in tracking the spread of disinformation/ misinformation. (See: DFRLab’s lists of research involving misinformation. A good example is the following article from DFRLab: [https://dfrlab.org/2024/02/08/russian-milbloggers-falsely-accuse-kazakhstan-of-opening-a-nato-military-facility/](https://dfrlab.org/2024/02/08/russian-milbloggers-falsely-accuse-kazakhstan-of-opening-a-nato-military-facility/))
 
-
-
 ## Cost
 
-TGSTAT has both free and paid version.&#x20;
+TGStat has both free and paid versions. However, the most important features of the tool are available for free.
 
-**Free version:**
+&#x20;The versions are: Free, Premium Analytics, Premium Search
+
+&#x20;
+
+|           | **Free** | **Premium Analytics**                                                                          | **Premium Search**                                                                             |
+| --------- | -------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| **Price** | 0 RUB    | <p>1 mo – 2 490 RUB</p><p>3 mo – 7 090 RUB</p><p>6 mo – 13 390 RUB</p><p>12mo – 25 390 RUB</p> | <p>1 mo – 2 190 RUB</p><p>3 mo – 6 200 RUB</p><p>6 mo – 11 800 RUB</p><p>12mo – 22 300 RUB</p> |
+
+&#x20;**Free vs. Premium Analytics**
+
+&#x20;Below are some of the different features available in a free account vis a vis a Premium Analytics subscription. (List is not exhaustive, but focuses on main features that may be helpful for open source researchers)
+
+&#x20;&#x20;
+
+|                                     | **Free**                                        | **Premium Analytics**                                                             |
+| ----------------------------------- | ----------------------------------------------- | --------------------------------------------------------------------------------- |
+| “View Analysis” section             | Last 5 posts available for analysis             | Unlimited                                                                         |
+| “Advertising Effectiveness” section | Latest 5 activities available for analysis      | Unlimited                                                                         |
+| “Attracting Subscribers” section    | Last 6 months available for analysis            | Unlimited                                                                         |
+| “Invitation Links” section          | Last 10 invitation links available for analysis | Unlimited                                                                         |
+| “Top Posts” section                 | Not available                                   | Unlimited time period, customized view, and available for export of data to Excel |
+| Citation                            | Not available                                   | Available                                                                         |
+| Similar Channels/ Related Channels  | Not available                                   | Available                                                                         |
+
+&#x20;**Free v. Premium Seach**
+
+Below are some of the different features available in a free account vis a vis a Premium Search subscription. The number of channels users can search and the number of requests for advanced search are limited. (List is not exhaustive, but focuses on main features that may be helpful for open source researchers)
+
+|                                                      | **Free**      | **Premium Search** |
+| ---------------------------------------------------- | ------------- | ------------------ |
+| Number of channels per day                           | 10            | Unlimited          |
+| Number of channels per month                         | 200           | Unlimited          |
+| Number of channel search requests per day            | 30            | Unlimited          |
+| Number of channel search requests per month          | 500           | Unlimited          |
+| Search through full catalog of posts                 | Limited       | Available          |
+| Filter by time period                                | Limited       | Available          |
+| Filter by language, country, subject and source type |               | Available          |
+| Filter by channel and group mentions                 | Not available | Available          |
+| Export of search results to Excel                    | Not Available | Available          |
+
+Other paid features are:  Access to Stat API (fee comparison here: [https://tgstat.ru/en/api/stat](https://tgstat.ru/en/api/stat)), Access to Search API ([https://tgstat.ru/en/api/search](https://tgstat.ru/en/api/search)), Access to Callback API ([https://tgstat.ru/en/api/callback](https://tgstat.ru/en/api/callback))
 
 
 
+### Level of Difficulty
 
+2 - EASY TO USE&#x20;
+
+
+
+### Requirements
+
+The free version of the tool requires:
+
+1\.       Internet and laptop/mobile device
+
+2\.       Telegram account
+
+The paid version of the tool requires:
+
+1\.       Internet and laptop/mobile device
+
+2\.       Telegram account
+
+3\.       Paid subscription (the paywall accepts foreign credit cards)
+
+&#x20;
 
