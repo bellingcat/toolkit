@@ -1,24 +1,30 @@
 ---
-description: A brief one-line description of the tool.
+description: OpenCorporates is a repository of company registries
 ---
 
 # OpenCorporates
 
 ## URL
 
-https://example.com
+[https://opencorporates.com/](https://opencorporates.com/)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+OpenCorporates provides a unified search of corporate and legal entity-level data across 140+ jurisdictions. It is a free repository of company registries aggregated from primary public sources, published to promote corporate transparency.&#x20;
+
+Use cases as described by OpenCorporates:
+
+* [Entity verification](https://opencorporates.com/use-cases/entity-verification/)
+* [Third-party risk management](https://opencorporates.com/use-cases/third-party-risk-management/)
+* [Investigations](https://opencorporates.com/use-cases/investigations/)
+* [Data management](https://opencorporates.com/use-cases/data-management/)
+* [Business discovery](https://opencorporates.com/use-cases/business-discovery/)
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
-
-\[\[Pricing or subscription information, if relevant.]]
 
 ## Level of difficulty
 
@@ -26,7 +32,7 @@ https://example.com
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+API access requires a monthly/yearly subscription.
 
 ## Limitations
 
@@ -34,15 +40,15 @@ https://example.com
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+As this data is publicly accessible and from government sources, users should be comfortable using this tool without ethical qualms.&#x20;
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+[https://www.bellingcat.com/resources/2023/08/24/following-the-money-a-beginners-guide-to-using-the-opencorporates-api/](https://www.bellingcat.com/resources/2023/08/24/following-the-money-a-beginners-guide-to-using-the-opencorporates-api/)
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+OpenCorporates seeks to create an easy means to access corporate and legal entity data to promote corporate transparency.&#x20;
 
 ## Advertising Trackers
 
@@ -50,8 +56,7 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer |
+| --------------- |
+| Elek Krizsán    |
+|                 |
