@@ -157,7 +157,7 @@ The paid version of the tool requires:
 
 The tool has very few limitations.&#x20;
 
-The main limitation is that it requires logging in to access important features.&#x20;
+1. The main limitation is that it requires logging in to access important features.&#x20;
 
 If not log in, users can see the channel’s “Summary” analytics.&#x20;
 
@@ -167,3 +167,34 @@ If not logged in, users are unable to access the following features: summary, su
 
 <figure><img src=".gitbook/assets/Screenshot 2024-05-30 061720.png" alt="" width="563"><figcaption></figcaption></figure>
 
+2. Video "How To" guides are mostly in Russian.&#x20;
+
+### Ethical Consideration
+
+If you're considering using TGStat, it's wise to weigh these potential limitations against your needs. It might be a good option for getting a basic overview of your Telegram channel or group, but for more in-depth analysis, you might need to explore other options.
+
+* **Be mindful of data accuracy/specify data provenance:** TGStat relies on data provided by Telegram, so the accuracy of the information it presents depends on Telegram's data. Be mindful of discrepancies and seek to validate data if possible. It is advisable to specify data provenance by citing TGstat.
+* **Be mindful of over-quantification and limited scope of data:** Balance any research with other approaches so that it is not dominated only by data, numerical information, measurement, etc. Analytics tools might offer some in-depth analytics but users must be aware and specify where the limits are of the data.
+* **Privacy Concerns:** You're providing your Telegram data to a third-party service, so there are inherent privacy risks. Make sure you trust the tool and understand their data practices.
+
+### Guide
+
+Russian language guide on the following link provided by TGStat.ru (In the process of searching guides in English): [https://tgstat.com/blog/video-course-1024](https://tgstat.com/blog/video-course-1024) (Turning on the Auto Translate feature on YouTube gives a useable translation of the guide)
+
+_**Use case**_
+
+TGStat has been particularly used in content verification, especially in tracking the spread of disinformation/ misinformation. (See: DFRLab’s lists of research involving misinformation. A good example is the following article from DFRLab: [https://dfrlab.org/2024/02/08/russian-milbloggers-falsely-accuse-kazakhstan-of-opening-a-nato-military-facility/](https://dfrlab.org/2024/02/08/russian-milbloggers-falsely-accuse-kazakhstan-of-opening-a-nato-military-facility/))
+
+### Tool Provider
+
+No information at the moment. Will be updated when information is available.&#x20;
+
+### &#x20;Advertising Trackers
+
+This tool doesn't appear to use tracking cookies.&#x20;
+
+&#x20;
+
+### Page Maintainer
+
+Afton&#x20;
