@@ -104,7 +104,7 @@ Below are some of the different features available in a free account vis a vis a
 | Citation                            | Not available                                   | Available                                                                         |
 | Similar Channels/ Related Channels  | Not available                                   | Available                                                                         |
 
-&#x20;**Free v. Premium Seach**
+**Free v. Premium Seach**
 
 Below are some of the different features available in a free account vis a vis a Premium Search subscription. The number of channels users can search and the number of requests for advanced search are limited. (List is not exhaustive, but focuses on main features that may be helpful for open source researchers)
 
@@ -153,7 +153,7 @@ The paid version of the tool requires:
 
 The tool has very few limitations.&#x20;
 
-1. The main limitation is that it requires logging in to access important features.&#x20;
+1. It requires logging in to access important features.&#x20;
 
 If not log in, users can see the channel’s “Summary” analytics.&#x20;
 
