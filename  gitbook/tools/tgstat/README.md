@@ -155,7 +155,7 @@ The tool has very few limitations.&#x20;
 
 1. It requires logging in to access important features.&#x20;
 
-If not log in, users can see the channel’s “Summary” analytics.&#x20;
+If not logged in, users can see the channel’s “Summary” analytics.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2024-05-30 061656 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
