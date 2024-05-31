@@ -76,10 +76,6 @@ In addition, users can see the popularity of a channel or group overtime.
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Post frequency of channel in question (darker colors indicate heightened posting activity) </p></figcaption></figure>
 
-_**Use Case**_
-
-TGStat has been particularly used in content verification, especially in tracking the spread of disinformation/ misinformation. (See: DFRLab’s lists of research involving misinformation. A good example is the following article from DFRLab: [https://dfrlab.org/2024/02/08/russian-milbloggers-falsely-accuse-kazakhstan-of-opening-a-nato-military-facility/](https://dfrlab.org/2024/02/08/russian-milbloggers-falsely-accuse-kazakhstan-of-opening-a-nato-military-facility/))
-
 ## Cost
 
 TGStat has both free and paid versions. However, the most important features of the tool are available for free.
