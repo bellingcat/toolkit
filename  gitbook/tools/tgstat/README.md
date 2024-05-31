@@ -159,7 +159,7 @@ If not logged in, users can see the channel’s “Summary” analytics.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2024-05-30 061656 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-If not logged in, users are unable to access the following features: summary, subscribers, citation index, citation, average post reach, subscriber engagement, post views analysis, attracting subscribers, external traffic, and top posts.
+If not logged in, users are unable to access the following features: subscribers, citation index, citation, average post reach, subscriber engagement, post views analysis, attracting subscribers, external traffic, and top posts.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-05-30 061720.png" alt="" width="563"><figcaption></figcaption></figure>
 
