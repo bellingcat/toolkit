@@ -8,6 +8,8 @@ description: >-
 
 ## URL
 
+<figure><img src=".gitbook/assets/shipfinderinterface.JPG" alt=""><figcaption><p><strong>SHIPFINDER INTERFACE SHOWING VESSELS AROUND ISTANBUL, AND DETAILS OF A SELECTED VESSEL</strong></p></figcaption></figure>
+
 [https://shipfinder.co/](https://shipfinder.co/)
 
 The map-based layout is intuitive, allowing users to zoom in and out effortlessly to view vessel locations in specific areas or worldwide. The search function is robust, enabling users to quickly find and track specific ships or ports.
@@ -27,11 +29,9 @@ The app is available on both mobile and desktop platforms, ensuring users can mo
 
 The app's performance has minimal lag even when tracking multiple vessels simultaneously. The real-time updates are prompt, ensuring users have the most current information available.
 
-**Areas for Improvement**
 
-While ShipFinder is a robust application, there are a few areas where it could improve:
 
-*
+
 
 ## Cost
 
