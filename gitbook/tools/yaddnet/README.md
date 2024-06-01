@@ -10,7 +10,7 @@ description: A brief one-line description of the tool.
 
 ## Description
 
-addnet, or YaDDNet, is an online platform designed to support the monitoring and sharing of maritime digital selective calling (DSC) signals. It serves a community of radio enthusiasts and professionals interested in tracking DSC traffic across various frequencies, primarily on the HF bands.
+Yaddnet, or YaDDNet, is an online platform designed to support the monitoring and sharing of maritime digital selective calling (DSC) signals. It serves a community of radio enthusiasts and professionals interested in tracking DSC traffic across various frequencies, primarily on the HF bands.
 
 The platform allows users to decode and share their received DSC signals in real-time, which can then be uploaded to the YaDDNet website. This functionality is particularly useful for verifying the reception of signals and identifying vessel positions, as it links to comprehensive databases and online vessel tracking resources​ ([AmateurRadio.com](https://www.amateurradio.com/yadd/))​​ ([YBW Forum](https://forums.ybw.com/threads/testing-your-mf-hf-dsc-using-yaddnet.495570/))​.
 
