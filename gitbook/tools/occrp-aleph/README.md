@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-{% embed url="https://www.aleph.occrp.org" %}
+[https://www.aleph.occrp.org](https://www.aleph.occrp.org)
 
 ## Description
 
