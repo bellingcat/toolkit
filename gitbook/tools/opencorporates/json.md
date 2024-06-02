@@ -7,11 +7,14 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "draft": true,
   "name": "OpenCorporates",
-  "description": "A brief one-line description of the tool.",
-  "url": "https://example.com",
-  "tags": []
+  "url": "http://opencorporates.com/",
+  "details": "Registry, Global, [Using OpenCorporates for Investigations (20 min)](https://www.youtube.com/watch?v=G\\_swgQEUGh8), [OpenCorporates API for Beginners (35 min)](https://tcij.org/summer-conference-event/a-beginners-guide-to-using-the-opencorporates-api-to-power-your-investigation/)",
+  "tags": [
+    "registry",
+    "companies-and-finance",
+    "global"
+  ]
 }
 ```
 {% endcode %}
