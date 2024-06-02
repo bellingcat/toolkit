@@ -1,12 +1,12 @@
 ---
-description: A brief one-line description of the tool.
+description: Vessel ownership and identification records. Lists historical information. You’ll need an account to access information.
 ---
 
 # Equasis
 
 ## URL
 
-https://example.com
+http://equasis.org/
 
 ## Description
 
