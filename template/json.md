@@ -8,8 +8,7 @@ description: This is the JSON codeblock for this tool
 ```json
 {
     "draft": true,
-    "url": "https://example.com",
-    "tags": ["tag1", "tag2", "tag3"]
+    "tags": []
 }
 ```
 {% endcode %}
