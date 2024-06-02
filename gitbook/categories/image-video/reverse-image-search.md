@@ -8,3 +8,4 @@
 | [**VISE**](http://robots.ox.ac.uk/~vgg/software/vise) | (VGG Image Search Engine) This standalone application can be used to do a reverse image search on a large collection of images. | <mark style="background-color:green;">Free</mark> |  |
 | [**InVID Verification Plugin**](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/) | Verification plugin to help journalists verify images and videos. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/invid/README.md) |
 | [**KarmaDecay**](http://karmadecay.com/) | Reverse image search for Reddit | <mark style="background-color:green;">Free</mark> |  |
+| [**Maltego**](https://www.maltego.com/) | Maltego is both a search tool and a visualization tool. It can search for information and connect the pieces to show you how they are related. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/maltego/README.md) |

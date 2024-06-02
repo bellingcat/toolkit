@@ -3,6 +3,7 @@
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
 | [**Hoaxy**](https://hoaxy.osome.iu.edu/) | Visualize the spread of claims and factchecking. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/hoaxy/README.md) |
+| [**Maltego**](https://www.maltego.com/) | Maltego is both a search tool and a visualization tool. It can search for information and connect the pieces to show you how they are related. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/maltego/README.md) |
 | [**Phantom Buster**](https://phantombuster.com) | Scrape content and automate actions on social media | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/phantom-buster/README.md) |
 | [**Skopenow**](http://skopenow.com/) | Social Media Investigations - name, phone, email, username searches | <mark style="background-color:green;">Free</mark> |  |
 | [**Twitter advanced search**](https://twitter.com/search-advanced) | Search twitter by keywords, accounts, engagement, dates, and more | <mark style="background-color:green;">Free</mark> | [Details](../../tools/twitter-advanced-search/README.md) |

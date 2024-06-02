@@ -30,5 +30,6 @@
 | [**TrueCaller**](https://www.truecaller.com/) | App that gathers phonenumbers and names from contact lists. | <mark style="background-color:green;">Free</mark> | 📞 Do not give permission to your actual contact lists |
 | [**Whats My Name**](https://whatsmyname.app/) | Search username on 270+ platforms | <mark style="background-color:green;">Free</mark> | 🗣️  |
 | [**Worldwide Osint Tools map**](https://cipher387.github.io/osintmap/) | Global overview of yellow/white pages, court cases, business registries etc. | <mark style="background-color:green;">Free</mark> | 📞🗣️  |
+| [**Maltego**](https://www.maltego.com/) | Maltego is both a search tool and a visualization tool. It can search for information and connect the pieces to show you how they are related. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../tools/maltego/README.md) |
 | [**Name Variant Search**](https://bellingcat.github.io/name-variant-search/) | Simple tool to help search for different ways of writing a name. |  | [Details](../tools/name-variant-search/README.md) |
 | [**WAtools.io**](http://watools.io/) | Track whatsapp activity, number, profile picture. Check if number is used, download profile pic, check online status. | <mark style="background-color:red;">Paid</mark> | 📞  |
