@@ -8,7 +8,6 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "name": "OpenCorporates",
-  "url": "http://opencorporates.com/",
   "details": "Registry, Global, [Using OpenCorporates for Investigations (20 min)](https://www.youtube.com/watch?v=G\\_swgQEUGh8), [OpenCorporates API for Beginners (35 min)](https://tcij.org/summer-conference-event/a-beginners-guide-to-using-the-opencorporates-api-to-power-your-investigation/)",
   "tags": [
     "registry",

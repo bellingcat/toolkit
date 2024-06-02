@@ -9,8 +9,6 @@ description: This is the JSON codeblock for this tool
 {
   "draft": true,
   "name": "ShipFinder",
-  "description": "A brief one-line description of the tool.",
-  "url": "https://example.com",
   "tags": []
 }
 ```
