@@ -21,7 +21,6 @@
 | [**Pipl**](http://pipl.com/) | Identity information for professionals | <mark style="background-color:red;">Paid</mark> | 📞🗣️📧  |
 | [**Rasit**](https://www.ratsit.se/) | Look up phone numbers/names (Sweden) | <mark style="background-color:green;">Free</mark> | 📞🗣️ Sweden |
 | [**Search Systems**](https://publicrecords.searchsystems.net/) | Finding public record information online in over 70,000 databases organized by type and location to help you find property, criminal, court, birth, death, marriage, divorce records, licenses, deeds, mortgages, corporate records, business registration, and many other public record resources. | <mark style="background-color:green;">Free</mark> | 📞🗣️ US |
-| [**Sherlock**](https://github.com/sherlock-project/sherlock) | Check usernames on 300 websites and social networks | <mark style="background-color:green;">Free</mark> | 🗣️  |
 | [**Skype**]() | You can search names, emails, and phonenumbers in Skype. | <mark style="background-color:green;">Free</mark> | 📞📧  |
 | [**Spokeo**](http://spokeo.com/) | People search through email, phone, name | <mark style="background-color:red;">Paid</mark> | 📞🗣️📧  |
 | [**Swedish Name Register**](https://scb.se/hitta-statistik/sverige-i-siffror/namnsok/) | Find out how common a name is in Sweden based on census data | <mark style="background-color:green;">Free</mark> | 🗣️ Sweden |
@@ -32,4 +31,5 @@
 | [**Worldwide Osint Tools map**](https://cipher387.github.io/osintmap/) | Global overview of yellow/white pages, court cases, business registries etc. | <mark style="background-color:green;">Free</mark> | 📞🗣️  |
 | [**Maltego**](https://www.maltego.com/) | Maltego is both a search tool and a visualization tool. It can search for information and connect the pieces to show you how they are related. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../tools/maltego/README.md) |
 | [**Name Variant Search**](https://bellingcat.github.io/name-variant-search/) | Simple tool to help search for different ways of writing a name. |  | [Details](../tools/name-variant-search/README.md) |
+| [**Sherlock**](https://github.com/sherlock-project/sherlock) | Check usernames on 300 websites and social networks | <mark style="background-color:green;">Free</mark> | 🗣️  |
 | [**WAtools.io**](http://watools.io/) | Track whatsapp activity, number, profile picture. Check if number is used, download profile pic, check online status. | <mark style="background-color:red;">Paid</mark> | 📞  |
