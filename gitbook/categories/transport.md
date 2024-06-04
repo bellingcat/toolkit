@@ -2,7 +2,6 @@
 
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
-| [**ADS-B Historical Flight Viewer**](http://flight-data.adsbexchange.com/) | Look up flight history of a specific aircraft as far back as two years. Search by ICAO number. | <mark style="background-color:green;">Free</mark> | ✈️  |
 | [**AirNav RadarBox**](http://radarbox24.com/) | Live flight tracker. | <mark style="background-color:green;">Free</mark> | ✈️  |
 | [**Airfleets**](http://airfleets.net/home) | Database for aircraft details. | <mark style="background-color:green;">Free</mark> | ✈️  |
 | [**Airframes**](http://www.airframes.org/) | A database of aircraft details | <mark style="background-color:green;">Free</mark> | ✈️  |
