@@ -2,7 +2,6 @@
 
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
-| [**ADS-B Exchange Radar View**](https://globe.adsbexchange.com/) | Live flight tracker (including many miltiary aircraft) | <mark style="background-color:green;">Free</mark> | ✈️ [A Beginner's Guide To Flight Tracking](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) |
 | [**ADS-B Historical Flight Viewer**](http://flight-data.adsbexchange.com/) | Look up flight history of a specific aircraft as far back as two years. Search by ICAO number. | <mark style="background-color:green;">Free</mark> | ✈️  |
 | [**AirNav RadarBox**](http://radarbox24.com/) | Live flight tracker. | <mark style="background-color:green;">Free</mark> | ✈️  |
 | [**Airfleets**](http://airfleets.net/home) | Database for aircraft details. | <mark style="background-color:green;">Free</mark> | ✈️  |
@@ -33,6 +32,7 @@
 | [**Transit Visualisation**](https://mobility.portal.geops.io/?baselayers=geops.travic,ch.sbb.netzkarte,ch.sbb.netzkarte.dark\&lang=en\&layers=strassennamen,haltekanten,haltestellen,pois,p%C3%A4rke,geops.travic.live\&x=810000\&y=5900000\&z=5.5) | (public) transit routes visualized - near global | <mark style="background-color:green;">Free</mark> | 🚂  |
 | [**WikiRoutes**](http://wikiroutes.info/) | Public transport database. | <mark style="background-color:green;">Free</mark> | 🚂  |
 | [**Winward**](https://www.wnwd.com/) | Platform which combines maritime-related data. | <mark style="background-color:red;">Paid</mark> | ⛵  |
+| [**ADS-B Exchange**](https://globe.adsbexchange.com/) | Live flight tracker (including many miltiary aircraft) | <mark style="background-color:green;">Free</mark> | ✈️ [A Beginner's Guide To Flight Tracking](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) |
 | [**Equasis**](http://equasis.org/) | Vessel ownership and identification records. Lists historical information. You’ll need an account to access information. | <mark style="background-color:red;">Paid</mark> | ⛵  |
 | [**FleetMon - now migrated to MarineTraffic**](http://fleetmon.com/) | Vessel position tracking, including a global vessel and port database. Tools for the shipping industry, Maritime News and a lively community of shipspotters. You’ll need an account to access information. | <mark style="background-color:red;">Paid</mark> | ⛵  |
 | [**MarineTraffic**](http://marinetraffic.com/) | An open, community-based project, providing (near) real-time information on the movements of ships and their locations in harbours and ports. | <mark style="background-color:green;">Free</mark> | ⛵ [Suez Canal: Satellite Clues on a Stricken Cargo Ship](https://www.bellingcat.com/resources/2021/03/26/suez-canal-satellite-clues-on-a-stricken-cargo-ship/) |

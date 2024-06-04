@@ -2,7 +2,7 @@
 description: Live flight tracker (including many miltiary aircraft)
 ---
 
-# ADS-B Exchange Radar View
+# ADS-B Exchange
 
 ## URL
 

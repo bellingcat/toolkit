@@ -7,10 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "ADS-B Exchange Radar View",
-  "url": "https://globe.adsbexchange.com/",
-  "description": "Live flight tracker (including many miltiary aircraft)",
-  "cost": "Free",
   "details": "✈️\n[A Beginner's Guide To Flight Tracking](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)",
   "tags": [
     "transport"
