@@ -1,5 +1,5 @@
 # Table of contents
 
 * [ShadeMap](README.md)
-* [JSON](json.md)
+* [Categories](categories.md)
 * [Supplementary Material ShadeMap](supplementary-material-shademap.md)
