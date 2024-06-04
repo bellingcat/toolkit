@@ -1,8 +1,8 @@
 ---
-description: Database of \~4.4. million buildings in Canada (comes in GIS format) from Statistics Canada.
+description: A collection of open databases including of ~4.4. million buildings in Canada (in GIS format), addresses, infrastucture, facilities, and greenhouses.
 ---
 
-# (Canada) Open Database of Buildings
+# Statistics Canada
 
 ## URL
 

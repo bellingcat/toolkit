@@ -2,7 +2,6 @@
 
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
-| [**(Canada) Open Database of Buildings**](https://www.statcan.gc.ca/eng/lode/databases) | Database of \~4.4. million buildings in Canada (comes in GIS format) from Statistics Canada. | <mark style="background-color:green;">Free</mark> |  |
 | [**Bing Maps**](http://bing.com/maps) | Microsoft Bing’s mapping service offering satellite imagery and street maps. (Streetview only appears in some countries, use a VPN and go US if it's not there) | <mark style="background-color:green;">Free</mark> |  |
 | [**DualMaps**](http://data.mashedworld.com/dualmaps/map.htm) | Combines Google’s road maps, aerial view, and street view in one embeddable tool. | <mark style="background-color:red;">Paid</mark> |  |
 | [**Gaode Maps**](https://gaode.com/) | Popular mapping service in mainland China. When it comes to navigation for drivers and individuals using public transportation, Gaode Maps seems to be a better job than Baidu Maps. | <mark style="background-color:green;">Free</mark> |  |
@@ -40,6 +39,7 @@
 | [**overpass-turbo**](https://overpass-turbo.eu/) | A web based data mining tool for OpenStreetMap. | <mark style="background-color:green;">Free</mark> |  |
 | [**PeakVisor**](https://peakvisor.com) | Dual window views for any global location: (1) a 2-D map & (2) a 3-D rendered terrain model, with photo fitting, shade/slope mapping, sun trails & weather data. In active development for OS research. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/peakvisor/README.md) |
 | [**ShadowMap**](https://app.shadowmap.org/) | Global map of 3D buildlings and the shadows they cast at a specific time a day | <mark style="background-color:green;">Free</mark> |  |
+| [**Statistics Canada**](https://www.statcan.gc.ca/eng/lode/databases) | A collection of open databases including of ~4.4. million buildings in Canada (in GIS format), addresses, infrastucture, facilities, and greenhouses. | <mark style="background-color:green;">Free</mark> |  |
 | [**SunCalc**](https://www.suncalc.org) | Suncalc models the relationship between the date, time of day, the geographic location of a place, and the position of the sun in the sky, together with the length & direction of the shadows it casts. | <mark style="background-color:green;">Free</mark> |  |
 | [**Tencent Maps**](http://map.qq.com/) | Tencent Maps (formerly SOSO Maps) is a desktop and web mapping service application and technology provided by Chinese company Tencent, offering satellite imagery, street maps, street view (coverage) and historical view perspectives. | <mark style="background-color:green;">Free</mark> |  |
 | [**Twitter Location Search**](https://twitter.com/explore) | Search for geocoded tweets by their distance from some coordinates. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/twitter-location-search/README.md) |
