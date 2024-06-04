@@ -9,7 +9,7 @@ description: >-
 
 ## URL
 
-[https://](https://shademap.app/)[shademap.app](https://shademap.app/)[#url](./#url "mention")
+[shademap.app](https://shademap.app/)
 
 ## Description
 
