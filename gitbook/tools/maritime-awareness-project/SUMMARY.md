@@ -1,4 +1,4 @@
 # Table of contents
 
-* [undefined](README.md)
+* [Maritime Awareness Project](README.md)
 * [Categories](categories.md)
