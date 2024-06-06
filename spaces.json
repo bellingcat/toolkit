@@ -2858,5 +2858,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "TXz9MkJDCrsNZkrQncDL",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "RI8BGmY7nnW3exuj1mEd",
+    "title": "Chronotrains",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-06-06T16:03:07.661Z",
+    "updatedAt": "2024-06-06T16:03:07.661Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/RI8BGmY7nnW3exuj1mEd",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/RI8BGmY7nnW3exuj1mEd/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "C7N2jWJjNwtLx1sJkVZu",
+    "defaultLevel": "inherit"
   }
 ]
