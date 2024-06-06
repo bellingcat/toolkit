@@ -2894,5 +2894,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "i49k5HXE7QZfciU6toi9",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "w0HVLMpAzvUUjIR9jkr1",
+    "title": "FlightAware",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-06-06T18:16:42.883Z",
+    "updatedAt": "2024-06-06T18:16:42.883Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/w0HVLMpAzvUUjIR9jkr1",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/w0HVLMpAzvUUjIR9jkr1/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "rZM37tMZqXzrCNBzvWLL",
+    "defaultLevel": "inherit"
   }
 ]

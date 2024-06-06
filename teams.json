@@ -1022,5 +1022,13 @@
     "members": 0,
     "spaces": 0,
     "createdAt": "2024-06-06T16:14:05.998Z"
+  },
+  {
+    "object": "team",
+    "id": "ILT1X2zpjtLfPnzWmfxm",
+    "title": "FlightAware",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2024-06-06T18:16:43.240Z"
   }
 ]
