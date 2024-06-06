@@ -2876,5 +2876,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "C7N2jWJjNwtLx1sJkVZu",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "HPr4a9WteOpHXZWYSchI",
+    "title": "Datawrapper",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-06-06T16:14:05.596Z",
+    "updatedAt": "2024-06-06T16:14:05.596Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/HPr4a9WteOpHXZWYSchI",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/HPr4a9WteOpHXZWYSchI/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "i49k5HXE7QZfciU6toi9",
+    "defaultLevel": "inherit"
   }
 ]
