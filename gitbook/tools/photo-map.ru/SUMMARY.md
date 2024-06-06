@@ -1,4 +1,4 @@
 # Table of contents
 
-* [undefined](README.md)
+* [Photo-Map.RU](README.md)
 * [Categories](categories.md)
