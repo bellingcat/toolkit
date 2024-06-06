@@ -2912,5 +2912,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "rZM37tMZqXzrCNBzvWLL",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "g3WBjtvqgCVp0Mn1azRy",
+    "title": "Photo-Map.RU",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-06-06T18:34:54.733Z",
+    "updatedAt": "2024-06-06T18:34:54.733Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/g3WBjtvqgCVp0Mn1azRy",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/g3WBjtvqgCVp0Mn1azRy/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "qNsm7aS27jzngCNWDYSI",
+    "defaultLevel": "inherit"
   }
 ]
