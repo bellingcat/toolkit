@@ -1,4 +1,4 @@
 # Table of contents
 
-* [undefined](README.md)
+* [Telegram Phone Number Checker](README.md)
 * [Categories](categories.md)
