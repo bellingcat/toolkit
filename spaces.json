@@ -2840,5 +2840,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "LQcZbgoJbDMbB5P0922V",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "QnMnXt9oJZps5zRdHFfS",
+    "title": "MapChecking",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-06-06T15:50:31.877Z",
+    "updatedAt": "2024-06-06T15:50:31.877Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/QnMnXt9oJZps5zRdHFfS",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/QnMnXt9oJZps5zRdHFfS/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "TXz9MkJDCrsNZkrQncDL",
+    "defaultLevel": "inherit"
   }
 ]
