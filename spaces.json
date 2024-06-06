@@ -2786,5 +2786,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "9uojeXzbxVHQWWHwwp3w",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "P4tFUfCDKzWMIm2cjWv6",
+    "title": "Truecaller",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-06-06T15:17:40.232Z",
+    "updatedAt": "2024-06-06T15:17:40.232Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/P4tFUfCDKzWMIm2cjWv6",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/P4tFUfCDKzWMIm2cjWv6/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "sJwbEBfhOqHPfymNRqWI",
+    "defaultLevel": "inherit"
   }
 ]
