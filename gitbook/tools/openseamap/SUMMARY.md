@@ -1,4 +1,4 @@
 # Table of contents
 
-* [undefined](README.md)
+* [OpenSeaMap](README.md)
 * [Categories](categories.md)
