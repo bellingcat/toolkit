@@ -1,4 +1,4 @@
 # Table of contents
 
-* [undefined](README.md)
+* [SanctionsExplorer](README.md)
 * [Categories](categories.md)
