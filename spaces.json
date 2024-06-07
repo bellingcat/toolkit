@@ -3056,5 +3056,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "7pyvgswq5RWtQKQYluPn",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "EHPLT8ZLmPM3FyI76s93",
+    "title": "Geogramint",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-06-07T12:43:49.933Z",
+    "updatedAt": "2024-06-07T12:43:49.933Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/EHPLT8ZLmPM3FyI76s93",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/EHPLT8ZLmPM3FyI76s93/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "ipEtQiG4JtDnwKD5aJq2",
+    "defaultLevel": "inherit"
   }
 ]
