@@ -2966,5 +2966,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "OTs9FgsZJUHWHz5NCChj",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "dll34kRlUTzFgs1QYZa9",
+    "title": "Shadowmap",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-06-07T10:49:31.748Z",
+    "updatedAt": "2024-06-07T10:49:31.748Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/dll34kRlUTzFgs1QYZa9",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/dll34kRlUTzFgs1QYZa9/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "8FluHkI8ZiU2yG4SoA2X",
+    "defaultLevel": "inherit"
   }
 ]
