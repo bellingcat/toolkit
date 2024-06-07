@@ -1,4 +1,4 @@
 # Table of contents
 
-* [undefined](README.md)
+* [GeoHints](README.md)
 * [Categories](categories.md)
