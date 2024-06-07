@@ -8,6 +8,7 @@
 | [**Maltego**](https://www.maltego.com/) | Maltego is both a search tool and a visualization tool. It can search for information and connect the pieces to show you how they are related. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/maltego/README.md) |
 | [**new-fb-search**](https://gist.github.com/nemec/2ba8afa589032f20e2d6509512381114) | GitHub - so you'll have to know how to use that. | <mark style="background-color:green;">Free</mark> |  |
 | [**Phantom Buster**](https://phantombuster.com) | Scrape content and automate actions on social media | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/phantom-buster/README.md) |
+| [**Sherlock**](https://github.com/sherlock-project/sherlock) | Check usernames across more than 400 websites and social networks. | <mark style="background-color:green;">Free</mark> | 🗣️  |
 | [**Skopenow**](http://skopenow.com/) | Social Media Investigations - name, phone, email, username searches | <mark style="background-color:green;">Free</mark> |  |
 | [**Sleep Stats**](https://github.com/sqren/fb-sleep-stats) | GitHub - Track user sleeping habits | <mark style="background-color:green;">Free</mark> |  |
 | [**Sowdust FB search**](http://sowsearch.info) | [graph.tips/beta](http://graph.tips/beta) This page tries to be a simple interface to show how the current Facebook search function works, after Graph search was closed. | <mark style="background-color:green;">Free</mark> |  |

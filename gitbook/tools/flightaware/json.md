@@ -7,7 +7,7 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-    "details": "✈️ \n[Flying High: The US Connection to Venezuela’s ‘Narco-Planes’](https://www.bellingcat.com/uncategorized/2021/03/11/flying-high-the-us-connection-to-venezuelas-narco-planes/)",
+  "details": "✈️ \n[Flying High: The US Connection to Venezuela’s ‘Narco-Planes’](https://www.bellingcat.com/uncategorized/2021/03/11/flying-high-the-us-connection-to-venezuelas-narco-planes/)",
   "tags": []
 }
 ```
