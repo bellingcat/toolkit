@@ -1,12 +1,12 @@
 ---
-description: A brief one-line description of the tool.
+description: Geotagged VK posts.
 ---
 
 # Photo-Map.RU
 
 ## URL
 
-https://example.com
+http://photo-map.ru/
 
 ## Description
 
