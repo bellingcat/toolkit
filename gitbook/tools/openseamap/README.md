@@ -1,12 +1,12 @@
 ---
-description: A brief one-line description of the tool.
+description: Sea map of borders, special zones, shipping lanes, with overlays of MarineTraffic and other sources
 ---
 
 # OpenSeaMap
 
 ## URL
 
-https://example.com
+https://map.openseamap.org/
 
 ## Description
 
