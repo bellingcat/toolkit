@@ -1,12 +1,12 @@
 ---
-description: A brief one-line description of the tool.
+description: Live flight tracker.
 ---
 
 # FlightAware
 
 ## URL
 
-https://example.com
+http://flightaware.com/
 
 ## Description
 
