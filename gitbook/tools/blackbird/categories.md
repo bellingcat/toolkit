@@ -12,8 +12,8 @@
 * [ ] [Twitter/X](https://bellingcat.gitbook.io/toolkit/categories/social-media/twitter)
 * [ ] [Vkontakte](https://bellingcat.gitbook.io/toolkit/categories/social-media/vkontakte)
 * [ ] [Youtube](https://bellingcat.gitbook.io/toolkit/categories/social-media/youtube)
-* [ ] [Other Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/other-networks)
-* [ ] [Multiple Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/multiple-networks)
+* [x] [Other Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/other-networks)
+* [x] [Multiple Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/multiple-networks)
 
 ## Image/Video
 
