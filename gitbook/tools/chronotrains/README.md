@@ -1,12 +1,12 @@
 ---
-description: A brief one-line description of the tool.
+description: Map platform for checking how far you can go within five hours by train from different European destinations.
 ---
 
 # Chronotrains
 
 ## URL
 
-https://example.com
+https://www.chronotrains.com/?zoom=3.4\&lng=-4.85\&lat=40.78
 
 ## Description
 
