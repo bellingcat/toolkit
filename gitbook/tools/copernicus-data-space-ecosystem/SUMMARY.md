@@ -1,4 +1,4 @@
 # Table of contents
 
-* [undefined](README.md)
+* [Copernicus Data Space Ecosystem](README.md)
 * [Categories](categories.md)
