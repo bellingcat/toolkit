@@ -1,5 +1,4 @@
 # Table of contents
 
-* [GPSJAM](README.md)
-* [undefined](<README (1).md>)
+* [GPSJam](README.md)
 * [Categories](categories.md)
