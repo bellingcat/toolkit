@@ -3020,5 +3020,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "5EmMXZtcToPijWTfPTVw",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "9QV2LVeV6VMfR1TBMh0k",
+    "title": "SanctionsExplorer",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-06-07T11:46:22.208Z",
+    "updatedAt": "2024-06-07T11:46:22.208Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/9QV2LVeV6VMfR1TBMh0k",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/9QV2LVeV6VMfR1TBMh0k/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "IwX6cvzIUV84JF9zPEaS",
+    "defaultLevel": "inherit"
   }
 ]
