@@ -1,4 +1,4 @@
 # Table of contents
 
-* [undefined](README.md)
+* [Shadow Finder](README.md)
 * [Categories](categories.md)
