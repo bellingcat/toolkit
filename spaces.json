@@ -2984,5 +2984,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "8FluHkI8ZiU2yG4SoA2X",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "umx3X87tTqT3CdNVkfSI",
+    "title": "Shadow Finder",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-06-07T11:00:55.183Z",
+    "updatedAt": "2024-06-07T11:00:55.183Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/umx3X87tTqT3CdNVkfSI",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/umx3X87tTqT3CdNVkfSI/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "fBlUfDSnZjnet41vYjPy",
+    "defaultLevel": "inherit"
   }
 ]
