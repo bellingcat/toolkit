@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Truecaller](README.md)
+* [TrueCaller](README.md)
 * [Categories](categories.md)
