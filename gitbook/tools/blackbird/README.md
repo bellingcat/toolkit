@@ -12,6 +12,8 @@ description: Check usernames and email addresses on websites and social networks
 
 A command line tool to search for accounts by username and email address across social networks and websites.&#x20;
 
+<figure><img src=".gitbook/assets/Screen Shot 2024-06-07 at 10.00.58 AM.png" alt=""><figcaption></figcaption></figure>
+
 ## Cost
 
 * [x] Free
