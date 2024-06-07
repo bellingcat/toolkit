@@ -1,12 +1,12 @@
 ---
-description: A brief one-line description of the tool.
+description: Overview of different traffic lights, utility poles, bollards etc on Google Streetview
 ---
 
 # GeoHints
 
 ## URL
 
-https://example.com
+https://geohints.com/
 
 ## Description
 
