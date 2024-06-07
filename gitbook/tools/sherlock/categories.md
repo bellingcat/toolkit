@@ -3,17 +3,17 @@
 ## Social Media
 
 * [ ] [Discord](https://bellingcat.gitbook.io/toolkit/categories/social-media/discord)
-* [ ] [Facebook](https://bellingcat.gitbook.io/toolkit/categories/social-media/facebook)
-* [ ] [Instagram](https://bellingcat.gitbook.io/toolkit/categories/social-media/instagram)
-* [ ] [LinkedIn](https://bellingcat.gitbook.io/toolkit/categories/social-media/linkedin)
-* [ ] [Reddit](https://bellingcat.gitbook.io/toolkit/categories/social-media/reddit)
-* [ ] [Telegram](https://bellingcat.gitbook.io/toolkit/categories/social-media/telegram)
+* [x] [Facebook](https://bellingcat.gitbook.io/toolkit/categories/social-media/facebook)
+* [x] [Instagram](https://bellingcat.gitbook.io/toolkit/categories/social-media/instagram)
+* [x] [LinkedIn](https://bellingcat.gitbook.io/toolkit/categories/social-media/linkedin)
+* [x] [Reddit](https://bellingcat.gitbook.io/toolkit/categories/social-media/reddit)
+* [x] [Telegram](https://bellingcat.gitbook.io/toolkit/categories/social-media/telegram)
 * [ ] [Tiktok](https://bellingcat.gitbook.io/toolkit/categories/social-media/tiktok)
-* [ ] [Twitter/X](https://bellingcat.gitbook.io/toolkit/categories/social-media/twitter)
-* [ ] [Vkontakte](https://bellingcat.gitbook.io/toolkit/categories/social-media/vkontakte)
-* [ ] [Youtube](https://bellingcat.gitbook.io/toolkit/categories/social-media/youtube)
-* [ ] [Other Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/other-networks)
-* [ ] [Multiple Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/multiple-networks)
+* [x] [Twitter/X](https://bellingcat.gitbook.io/toolkit/categories/social-media/twitter)
+* [x] [Vkontakte](https://bellingcat.gitbook.io/toolkit/categories/social-media/vkontakte)
+* [x] [Youtube](https://bellingcat.gitbook.io/toolkit/categories/social-media/youtube)
+* [x] [Other Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/other-networks)
+* [x] [Multiple Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/multiple-networks)
 
 ## Image/Video
 

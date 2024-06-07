@@ -1,16 +1,18 @@
 ---
-description: Check usernames on 300 websites and social networks
+description: Check usernames across more than 400 websites and social networks.
 ---
 
 # Sherlock
 
 ## URL
 
-https://github.com/sherlock-project/sherlock
+[https://github.com/sherlock-project/sherlock](https://github.com/sherlock-project/sherlock)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+A command line tool by the Sherlock Project that can be used to find social media usernames across 400+ social networks. The tool allows users to search multiple usernames at once, limit searches to a list of websites, export results to a CSV file and more.&#x20;
+
+<figure><img src=".gitbook/assets/Screen Shot 2024-06-06 at 3.26.06 PM.png" alt=""><figcaption><p>A sample query on Sherlock looking for accounts that have the username "bellingcat"</p></figcaption></figure>
 
 ## Cost
 
@@ -18,31 +20,35 @@ https://github.com/sherlock-project/sherlock
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+* Python 3.6 or higher
+* Works on MacOS, Linux and Windows
 
-## Limitations
+## Limitations & Ethical Considerations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+List of supported websites can be found [here](https://github.com/sherlock-project/sherlock/blob/master/docs/sites.md).
 
-## Ethical Considerations
+Sherlock does not allow for fuzzy keyword searches, wildcards or regular expressions. It allows for bulk data input from a JSON file.
 
-\[\[The ethical considerations of each tool should be described.]]
+The results from Sherlock are fairly high-credibility, thought accounts on various websites require authentication to view or are private. There are occasional false positives, though fewer number of them compared to browser-based tools like Namechk. The tool does not have visibility into Discord, and it misses accounts on more established social networking sites, like Facebook and LinkedIn, potentially due to these sources' anti-scraping efforts.
+
+There is an [API](https://github.com/sherlock-project/api) for the project but 1) requires knowledge of Django REST Framework (DRF) to use in development , 2) has not been updated in at least 3 years.&#x20;
 
 ## Guide
 
-\[\[Link to a guide on this tool]]
+The Sherlock Project maintains a usage and intallation guide on Github: [https://github.com/sherlock-project/sherlock?tab=readme-ov-file](https://github.com/sherlock-project/sherlock?tab=readme-ov-file)
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Original creator is [Siddharth Dushantha](https://github.com/sdushantha). The Sherlock Project has more than 200+ contributors:
+
+* [https://github.com/sherlock-project](https://github.com/sherlock-project)
+* [https://sherlockproject.xyz/](https://sherlockproject.xyz/)
 
 ## Advertising Trackers
 
@@ -50,8 +56,7 @@ https://github.com/sherlock-project/sherlock
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer |
+| --------------- |
+| hande           |
+|                 |
