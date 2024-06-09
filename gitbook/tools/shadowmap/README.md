@@ -1,5 +1,7 @@
 ---
-description: Global map of 3D buildlings and the shadows they cast at a specific time a day
+description: >-
+  Tilting global map of 3D buildlings and the shadows they cast at a specific
+  time a day, but date fixed at today in free version.
 ---
 
 # ShadowMap
