@@ -32,7 +32,7 @@ https://app.shadowmap.org/
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+Fixed date (as the date of the system clock) in the free version is a major limitation of ShadowMap for Open Source investigation, because source imagery is rarely created and analysed on the same day.
 
 ## Ethical Considerations
 
