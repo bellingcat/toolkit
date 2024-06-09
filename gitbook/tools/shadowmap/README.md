@@ -10,6 +10,8 @@ https://app.shadowmap.org/
 
 ## Description
 
+<figure><img src=".gitbook/assets/oPTIMISEDShadowMap Gif.gif" alt=""><figcaption></figcaption></figure>
+
 \[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
 
 ## Cost
@@ -54,4 +56,3 @@ https://app.shadowmap.org/
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
