@@ -1,4 +1,4 @@
 # Table of contents
 
-* [undefined](README.md)
+* [Instagram Location Search](README.md)
 * [Categories](categories.md)
