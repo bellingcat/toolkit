@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-Hugin is an open-source panorama photo stitching and HDR ((High Dynamic Range imaging) merging software. It assists users in combining multiple images to create seamless panoramas and can adjust for the optical distortions in camera lenses. A common use case is producing wide-angle shots by stitching together several overlapping photos.
+Hugin is an open-source panorama photo stitching and HDR (High Dynamic Range imaging) merging software. It assists users in combining multiple images to create seamless panoramas and can adjust for the optical distortions in camera lenses. A common use case is producing wide-angle shots by stitching together several overlapping photos.
 
 The example below shows a panorama stitched from a series of images:
 
