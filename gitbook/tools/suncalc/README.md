@@ -246,7 +246,7 @@ Satellite orbit tracking at [https://www.orbtrack.org/](https://www.orbtrack.org
 
 ## Tool provider
 
-Torsten Hoffmann, Robert-Schumann-Str. 17, 67304 Eisenberg, Germany
+Torsten Hoffmann, Germany
 
 ## Advertising Trackers
 
