@@ -70,3 +70,4 @@
   * [PixPlot](tools/pixplot/README.md)
   * [Global Fishing Watch Map](tools/global-fishing-watch-map/README.md)
   * [MW Geofind](tools/mw-geofind/README.md)
+  * [Sherlock](tools/sherlock/README.md)
