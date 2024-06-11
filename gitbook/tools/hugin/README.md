@@ -1,16 +1,23 @@
 ---
-description: A brief one-line description of the tool.
+description: >-
+  Hugin is a free and open-source panorama photo stitching and HDR (High Dynamic
+  Range imaging) merging software that helps users create seamless panoramic
+  images from multiple photographs.
 ---
 
 # Hugin
 
 ## URL
 
-https://example.com
+[https://hugin.sourceforge.io/](https://hugin.sourceforge.io/)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Hugin is an open-source panorama photo stitching and HDR merging software. It assists users in combining multiple images to create seamless panoramas and can adjust for the optical distortions in camera lenses. A common use case is producing wide-angle shots by stitching together several overlapping photos.
+
+The example below shows a panorama stitched from a series of images:
+
+<figure><img src=".gitbook/assets/image (1).png" alt="Screenshot of user interface showing rocky panorama stitched from a series of images"><figcaption><p>Panorama stitched from a series of images</p></figcaption></figure>
 
 ## Cost
 
@@ -18,31 +25,76 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+Hugin is available on the following platforms:
+
+* Linux&#x20;
+* FreeBSD
+* BSD
+* Mac (not Silicon)
+* Windows
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+Hugin, like many open-source tools, may have the following limitations:
+
+* **Steeper Learning Curve**: Requires some experience to get the best results.
+* **Performance**: May be slower compared to commercial tools with optimized algorithms.
+* **User Interface**: The UI might be less intuitive and user-friendly for beginners.
+* **Support**: Limited official support; relies on community forums and documentation.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Using Hugin raises several ethical considerations:
+
+* **Privacy**: Ensure that user data and images are handled securely and adhere to privacy regulations.
+* **Transparency**: Be clear about what data is collected and how it is used.
+* **Accuracy**: Ensure the accuracy of stitched images to avoid misleading results.
+* **Attribution**: Give proper credit if using others' images, respecting copyright and intellectual property rights.
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+To effectively use Hugin, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
+
+**Official Wiki**&#x20;
+
+* [https://hugin.sourceforge.io/](https://hugin.sourceforge.io/)
+
+**Tutorials and Articles**
+
+* _Carpebble - Using Hugin_ (no date). Available at: [https://sites.google.com/site/carpebble/home/360x180-panoramas/using-hugin](https://sites.google.com/site/carpebble/home/360x180-panoramas/using-hugin) (Accessed: 3 June 2024).
+* _Creating linear panoramas with Hugin_ (no date). Available at: [http://www.dojoe.net/tutorials/linear-pano/](http://www.dojoe.net/tutorials/linear-pano/) (Accessed: 3 June 2024).
+* _Hugin Tutorials_ (no date). Available at: [https://hugin.sourceforge.io/tutorials/index.shtml](https://hugin.sourceforge.io/tutorials/index.shtml) (Accessed: 3 June 2024).
+
+**Video Tutorials**
+
+* _How To: Hi-Res Panos in Hugin - Advanced_ (2020). Available at: [https://www.youtube.com/watch?v=06jXEJMTQds](https://www.youtube.com/watch?v=06jXEJMTQds) (Accessed: 3 June 2024).
+* _Panorama stitching with Hugin Tutorial Part 1 - Introduction_ (2020). Available at: [https://www.youtube.com/watch?v=DMYlm3D3NhY](https://www.youtube.com/watch?v=DMYlm3D3NhY) (Accessed: 3 June 2024).
+* _Panorama stitching with Hugin Tutorial Part 2 - Expert Mode_ (2020). Available at: [https://www.youtube.com/watch?v=\_Ad1Mi5BzGk](https://www.youtube.com/watch?v=\_Ad1Mi5BzGk) (Accessed: 3 June 2024).
+
+#### Developer Resources
+
+* [https://sourceforge.net/projects/hugin/](https://sourceforge.net/projects/hugin/)
+
+**Community and Support**
+
+* [**User forum**](https://answers.launchpad.net/hugin)**:** help and support.
+* [**Mailing list**](https://sourceforge.net/p/hugin/mailman/)
+
+By utilizing these resources, users can enhance their Hugin experience.
+
+[https://answers.launchpad.net/hugin](https://answers.launchpad.net/hugin)
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Pablo d'Angelo (Original Author, GSoC 2007 and 2008 mentor, German translation, original CMake build, original Windows SD)
+
+Full authors list: [https://sourceforge.net/p/hugin/hugin/ci/default/tree/authors.txt](https://sourceforge.net/p/hugin/hugin/ci/default/tree/authors.txt)
 
 ## Advertising Trackers
 
@@ -50,8 +102,7 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer |
+| --------------- |
+| Unassigned      |
+|                 |
