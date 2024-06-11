@@ -1,8 +1,7 @@
 ---
 description: >-
   Chrome extension switches  between online map apps, maintaining (as far as
-  possible) the map centre, zoom level, & directions of the source map. Improves
-  OS research accuracy & efficiency.
+  possible) the map centre, zoom level, & directions of the source map.
 ---
 
 # MapSwitcher
@@ -25,7 +24,7 @@ MapSwitcher is an extension for the Google Chrome browser, which can be download
 
 This benefits of MapSwitcher for Open Source research are mainly:
 
-* **Accuracy:** Human error when handling copy and paste of system co-ordinates between apps is largely eliminated by using MapSwitcher
+* **Accuracy:** Human error when handling copy and paste of system co-ordinates between apps is largely eliminated by using MapSwitcher.
 * **Efficiency:** Research work can be performed more quickly when transfer between apps is automated using MapSwitcher.
 * **Quality:** Where MapSwitcher makes it easy for researchers to switch quickly and accurately between apps, they are more likely to check their work using more than one system, which generally leads to more accurate results.
 
@@ -38,7 +37,7 @@ The list of different geographical data platforms which can be used with MapSwit
 
 
 {% hint style="info" %}
-Currently MapSwitcher is only available for Chrome Browser, but its author, [David R Edgar](https://david-r-edgar.uk/projects.php),  planned future versions for Firefox and Microsoft Edge
+Currently MapSwitcher is only available for Chrome Browser, but its author, [David R Edgar](https://david-r-edgar.uk/projects.php),  planned future versions for Firefox and Microsoft Edge.
 {% endhint %}
 
 ## Cost
@@ -69,7 +68,7 @@ If you try to use MapSwitcher on an app for which is not on its input/output lis
 
 * Where directions are specified by address (not coordinates), different services can geocode these in radically different ways. So the routes may not start or finish where they did on the input mapping service.
 * Zoom / scale may not always be exact, depending on the limitations of the input & output map services
-* Directions handle multi-segment routes (with intermediate specified locations) where possible. Only some services (google, microsoft) support this. In these cases, output services which only support single segments will show maps from the first location to the last location.
+* Directions handle multi-segment routes (with intermediate specified locations) where possible. Only some services (Google, Microsoft) support this. In these cases, output services which only support single segments will show maps from the first location to the last location.
 * The Waze app may fail to handle zoom.&#x20;
 
 ## Ethical Considerations
