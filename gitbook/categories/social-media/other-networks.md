@@ -12,7 +12,7 @@
 | [**Parler Video Uploads Map**](https://kylemcdonald.net/parler/map/) | A map showing the approximate (100ft) location of where Parler videos have been uploaded. | <mark style="background-color:green;">Free</mark> |  |
 | [**PSNprofiles**](https://psnprofiles.com/) | Search PlayStation username, see daily activity, games played, country, and profile pic | <mark style="background-color:green;">Free</mark> |  |
 | [**Search4Faces**](https://search4faces.com) | Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse) | <mark style="background-color:green;">Free</mark> |  |
-| [**Sherlock**](https://github.com/sherlock-project/sherlock) | Check usernames across more than 400 websites and social networks. | <mark style="background-color:green;">Free</mark> | 🗣️  |
+| [**Sherlock**](https://github.com/sherlock-project/sherlock) | Check usernames across more than 400 websites and social networks. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/sherlock/README.md) |
 | [**Skypli**](https://www.skypli.com/) | undefined | <mark style="background-color:green;">Free</mark> | Guide: Inactive, up for removal  |
 | [**SMAT**](https://www.smat-app.com) | Search messages, count links, see activity & timeline of a search term on Gab, Parler, 4chan, 8kun, .win, poal, telegram, Gettr, Bitchute, Tiktok | <mark style="background-color:green;">Free</mark> |  |
 | [**Snap Map**](http://map.snapchat.com/) | Searchable map of geotagged snaps. | <mark style="background-color:green;">Free</mark> | Guide:  [Here’s how](https://twitter.com/AricToler/status/1054805284802228224) you download a Snap.  |
