@@ -37,7 +37,7 @@ Sherlock does not allow for fuzzy keyword searches, wildcards or regular express
 
 The results from Sherlock are fairly high-credibility, though accounts on various websites require authentication to view or are private. There are occasional false positives, though fewer number of them compared to browser-based tools like Namechk. The tool does not have visibility into Discord, and it misses accounts on more established social networking sites, like Facebook and LinkedIn, potentially due to these sources' anti-scraping efforts.
 
-Be aware that the fact that Sherlock finds a specific username on various platforms, does not necessarily mean that this username belongs to the same person. In the Bellingcat example, for instance, only some of the listed accounts really belong to Bellingcat. The rest of the accounts have been created by people who are not part of Bellingcat.
+Be aware that the fact that Sherlock has found a specific username on various platforms, does not necessarily mean that this username belongs to the same person. In the Bellingcat example, for instance, only some of the listed accounts really belong to Bellingcat. The rest of the accounts have been created by people who are not part of Bellingcat.
 
 There is an [API](https://github.com/sherlock-project/api) for the project but 1) requires knowledge of Django REST Framework (DRF) to use in development , 2) has not been updated in at least 3 years.&#x20;
 
