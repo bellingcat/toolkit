@@ -73,3 +73,4 @@
   * [Sherlock](tools/sherlock/README.md)
   * [MapSwitcher](tools/mapswitcher/README.md)
   * [ACLED](tools/acled/README.md)
+  * [Hugin](tools/hugin/README.md)
