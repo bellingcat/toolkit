@@ -72,3 +72,4 @@
   * [MW Geofind](tools/mw-geofind/README.md)
   * [Sherlock](tools/sherlock/README.md)
   * [MapSwitcher](tools/mapswitcher/README.md)
+  * [ACLED](tools/acled/README.md)
