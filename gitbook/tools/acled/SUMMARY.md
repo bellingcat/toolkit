@@ -1,4 +1,4 @@
 # Table of contents
 
-* [ACLED](README.md)
+* [ACLED (Armed Conflict Location & Event Data Project)](README.md)
 * [Categories](categories.md)
