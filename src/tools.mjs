@@ -236,6 +236,23 @@ async function addTeamMember(team, email) {
   }
 }
 
+async function _createTeam(name) {
+  try {
+    const data = await apiCall('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams', {
+      method: 'PUT',
+      body: { "title": name },
+    });
+    return data;
+  } catch (e) {
+    if (e.message === "This name is already taken by another team in your organization. (400)") {
+      console.log("Edge case: the team exists on gitbook but we don't know about it.");
+      const teams = await fetchTeams();
+      return teams.find((element) => element.title === name);
+    }
+    throw e;
+  }
+}
+
 async function createTeam(name) {
   const team = await findTeam(name);
   if (team) {
@@ -243,12 +260,9 @@ async function createTeam(name) {
     return team;
   }
   debug('Creating team', name);
-  const data = await apiCall('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams', {
-    method: 'PUT',
-    body: { "title": name },
-  });
+  const data = await _createTeam(name);
 
-  // update spaces.json
+  // update teams.json
   const teams = readTeams();
   teams.push(data);
   writeTeams(teams);
