@@ -15,10 +15,6 @@ description: >-
 
 Hugin is an open-source panorama photo stitching and HDR (High Dynamic Range imaging) merging software. It assists users in combining multiple images to create seamless panoramas and can adjust for the optical distortions in camera lenses. A common use case is producing wide-angle shots by stitching together several overlapping photos.
 
-The example below shows a panorama stitched from a series of images:
-
-<figure><img src=".gitbook/assets/image (1).png" alt="Screenshot of user interface showing rocky panorama stitched from a series of images"><figcaption><p>Panorama stitched from a series of images</p></figcaption></figure>
-
 ## Cost
 
 * [x] Free
@@ -53,7 +49,6 @@ Hugin, like many open-source tools, may have the following limitations:
 Using Hugin raises several ethical considerations:
 
 * **Privacy**: Ensure that user data and images are handled securely and adhere to privacy regulations.
-* **Transparency**: Be clear about what data is collected and how it is used.
 * **Accuracy**: Ensure the accuracy of stitched images to avoid misleading results.
 * **Attribution**: Give proper credit if using others' images, respecting copyright and intellectual property rights.
 
