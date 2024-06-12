@@ -3591,5 +3591,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "yDiMKTP2DhFjTEGyTwl9",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "N6WxPuOzu2tKYTl8C5q6",
+    "title": "AllTrails",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-06-12T21:33:32.848Z",
+    "updatedAt": "2024-06-12T21:33:32.848Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/N6WxPuOzu2tKYTl8C5q6",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/N6WxPuOzu2tKYTl8C5q6/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "Ix6forfMo6MWlj5tZ35d",
+    "defaultLevel": "inherit"
   }
 ]
