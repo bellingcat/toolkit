@@ -26,7 +26,7 @@ https://www.suncalc.org
 * Suncalc is modelling the relative motion of two celestial bodies (sun and earth) in space , as seen from the viewpoint of a chosen spot on the surface of the earth.
 * SunCalc's viewpoint is complicated by the fact that the chosen spot on earth is (a) spinning around the earth's axis and (b) rotating around the sun on an eliptical orbit. The sun's motion from that chosen spot is seen only as relative motion, since the the observer perceives their location to be stationary.
 
-So the perceived trajectory of the sun is the result of the superposition of three different effects: Rotation, Orbit and Tilt:-
+So the perceived trajectory of the sun is the result of the superposition of three different effects: Rotation, Orbit and Tilt:
 
 1. **Internal Rotation:** The earth rotates daily around its internal axis
 
@@ -38,7 +38,7 @@ The position of the sun along its daily trajectory in the sky (measured as chang
 
 <img src=".gitbook/assets/earthorbit.gif" alt="" data-size="original">
 
-3. **Tilt:** ...at 23.5 degrees to its internal axis of rotation, with the North Pole constantly pointing at the North Star
+3. **Tilt:** ...at 23.5 degrees to its internal axis of rotation, with the North Pole constantly pointing at the North Star.
 
 <img src=".gitbook/assets/earthtilt.gif" alt="" data-size="original">
 
@@ -81,7 +81,7 @@ SunCalc can be used for geolocation and chronolocation in various ways:
 
 **Minor Solar Data** (for selected location and time) including
 
-* Julian date ([JDE](https://aa.usno.navy.mil/data/JulianDate)), [DeltaT ](https://www.oxfordreference.com/display/10.1093/acref/9780191851193.001.0001/acref-9780191851193-e-952)(Difference between Terrestrial Time and Universal Time), Greenwish Mean Sidereal Time ([GMST](https://www2.mps.mpg.de/homes/fraenz/systems/systems3art/node10.html)), Greenwich Hour Angle ([GHA](https://my.vanderbilt.edu/astronav/overview/3-completing-a-worksheet/section-iii/gha/)), Solar [Declination Angle](https://www.sciencedirect.com/topics/engineering/solar-declination), [Right Ascension Time](https://science.nasa.gov/learn/basics-of-space-flight/chapter2-2/) (celestial equivalent of longitude), Date and Time of March, June, September and December [Solstice/Equinoxe](https://www.britannica.com/video/217727/Demystified-what-is-the-difference-between-solstice-and-equinox)s
+* Julian date ([JDE](https://aa.usno.navy.mil/data/JulianDate)), [DeltaT ](https://www.oxfordreference.com/display/10.1093/acref/9780191851193.001.0001/acref-9780191851193-e-952)(Difference between Terrestrial Time and Universal Time), Greenwish Mean Sidereal Time ([GMST](https://www2.mps.mpg.de/homes/fraenz/systems/systems3art/node10.html)), Greenwich Hour Angle ([GHA](https://my.vanderbilt.edu/astronav/overview/3-completing-a-worksheet/section-iii/gha/)), Solar [Declination Angle](https://www.sciencedirect.com/topics/engineering/solar-declination), [Right Ascension Time](https://science.nasa.gov/learn/basics-of-space-flight/chapter2-2/) (celestial equivalent of longitude), Date and Time of March, June, September and December [Solstice/Equinoxes](https://www.britannica.com/video/217727/Demystified-what-is-the-difference-between-solstice-and-equinox)
 
 **Photovolatic Data** including
 
@@ -106,7 +106,7 @@ There are very many use cases for SunCalc in Open Source research because there 
 {% endtabs %}
 
 {% hint style="danger" %}
-**Establishing the Time/Timeframe of Source Imagery:** When dealing with reseach imagery sourced from social media, remember that the time at which an image was taken is not necessarily the time at which it was posted on social media, which could be any time after it was created. Sometimes regional internet blackouts are imposed where the authorities wish to prevent publication of current affairs, and this makes reconstruction of event timing particularly difficult. Many social media platforms strip metadata like the time the image was taken before publishing. This metadata is less likely to be deleted if images are sent using a platform's file transfer service, rather than being "posted".
+**Establishing the Time/Timeframe of Source Imagery:** When dealing with research imagery sourced from social media, remember that the time at which an image was taken is not necessarily the time at which it was posted on social media, which could be any time after it was created. Sometimes regional internet blackouts are imposed where the authorities wish to prevent publication of current affairs, and this makes reconstruction of event timing particularly difficult. Many social media platforms strip metadata like the time the image was taken before publishing. This metadata is less likely to be deleted if images are sent using a platform's file transfer service, rather than being "posted".
 {% endhint %}
 
 ### Sun Trajectory: Azimuth and Elevation Angles
@@ -204,7 +204,7 @@ None. No account is needed.
 
 #### Overview: Ethical Low Risk, High Opportunity
 
-SunCalc can and has been used in chronolocation and confirming geolocation of imagery from remote areas which claims to depict mistreatment of indigenous minorities. As such, it can be used support to work which seeks to protect human rights, indigenous peoples, minorities and the environment through accurate geolocation. In very rare cases, geolocation and chronolocation reveal the identify of people providing source information, which could put them/their contacts at risk of reprisal. Source information providers may or may not be aware of this risk, so there is a responsibility on the Open Source researcher, who may have more information for accurate risk assessment, to evaluate that risk on their behalf. Many information providers willingly undertake the risk of reprisal for the benefit of drawing public/global attention to situations and events they hope will be changed or acted upon as a result of exposure.
+SunCalc can and has been used in chronolocation and confirming geolocation of imagery from remote areas which claims to depict mistreatment of indigenous minorities. As such, it can be used to support work which seeks to protect human rights, indigenous peoples, minorities and the environment through accurate geolocation. In very rare cases, geolocation and chronolocation reveal the identify of people providing source information, which could put them/their contacts at risk of reprisal. Source information providers may or may not be aware of this risk, so there is a responsibility on the Open Source researcher, who may have more information for accurate risk assessment, to evaluate that risk on their behalf. Many information providers willingly undertake the risk of reprisal for the benefit of drawing public/global attention to situations and events they hope will be changed or acted upon as a result of exposure.
 
 <details>
 
