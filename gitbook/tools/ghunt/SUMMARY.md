@@ -1,4 +1,4 @@
 # Table of contents
 
-* [undefined](README.md)
+* [Ghunt](README.md)
 * [Categories](categories.md)
