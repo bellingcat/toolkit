@@ -1,4 +1,4 @@
 # Table of contents
 
-* [undefined](README.md)
+* [DomainTools Whois Lookup](README.md)
 * [Categories](categories.md)
