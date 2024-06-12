@@ -3573,5 +3573,23 @@
     },
     "revision": "wJv3VUcS6Y9WYOlqPkNv",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "1kPU8HBBln4jevNSyaBz",
+    "title": "Ghunt",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-06-12T21:27:05.420Z",
+    "updatedAt": "2024-06-12T21:27:05.420Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/1kPU8HBBln4jevNSyaBz",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/1kPU8HBBln4jevNSyaBz/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "yDiMKTP2DhFjTEGyTwl9",
+    "defaultLevel": "inherit"
   }
 ]
