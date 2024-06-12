@@ -38,8 +38,8 @@ The ACLED Explorer enables filtering and summarizing of data, generating tables 
 * **Data download:** download results as a `.csv` file.
 * **Date Range**: filter by a customisable date range.
 * **Geographic area**: select regions or countries of interest.
-* **Grouping:** group the results by Region, Country, Admin1 or Locations.
-* **Select specific Admin1 units**
+* **Grouping:** group the results by Region, Country, Provinces or District or Locations.
+* **Select specific Provinces or District**
 * **Select specific data**: ability to select Actors or Actor Types.
 * **Toggle event types:** disaggregate the results by event types, sub event types or civilian targeting.&#x20;
 * **Time period grouping**: group results by time period day or week.
@@ -65,17 +65,17 @@ ACLED Trendfinder provides interactive tools for tracking global political viole
 * **Annual Trend graph**: a bar chart and line graph that includes a time range slider.
 * **Compare**: compare events to the previous month or year.
 * **Dark theme toggle**
-* **Data download:**: download data in `.xlsx` format.
-* **Filter by Event / Sub event Types**: filter events e.g. Battles, Protests, Riots etc
+* **Data download:** download data in `.xlsx` format.
+* **Filter by Event / Sub event Types**: filter events e.g. Battles, Protests, Riots etc.
 * **Individual event details**: when viewing subnational results these are viewable on the map and include event and sub-event type and actors involved,
 * **Map view:** see events plotted on a map.
 * **Table view**: see a table of events  by country or subnational area.
 * **Reset button**
 * **Select country**: filter by a specific country.
-* **Table View - Event Count and Change Statistics**: filterable by country, ADMIN1, Events in current Week, Yearly Average and Percentage Change.
+* **Table View - Event Count and Change Statistics**: filterable by country, Provinces or District, Events in current Week, Yearly Average and Percentage Change.
 * **Zoom tool:** zoom in and out on the map.
 
-The example below shows subnational, previous year, selected the Netherlands, All event types, compared to previous years:
+The example below shows using the ACLED Trendfinder to examine all event types in the Netherlands for a specific week compared to the previous year:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-05-16 at 8.06.44 AM.png" alt="Screenshot of ACLED Trendfinder showing map, trend graph and table with detailed results."><figcaption><p>Screenshot of ACLED Trendfinder.</p></figcaption></figure>
 
@@ -115,8 +115,8 @@ _**Conflict Exposure Calculator**_
 Shows the number of people exposed to conflict in the selected area and time period.
 
 * **Data download:**: download data in `.xlsx` format
-* **Level of aggregation**: Country, Global, Admin1 Level Location.
-* &#x20;**Filter by event or actor type and Actors.**
+* **Level of aggregation**: Country, Global, Provinces or District Level Location.
+* **Filter by event or actor type and Actors.**
 * **Filter by country:** filter by country or countries.
 * **Filter by date range.**
 * **Table View:** Country, distance, best, percentage of country population and total events.
@@ -129,7 +129,7 @@ _**ACLED Conflict Index**_
 
 Ranking violent conflict levels across the world.
 
-Example below May 2024.
+Example below: May 2024.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-05-16 at 11.31.39 AM.png" alt="Screenshot of Conflict Index."><figcaption><p>Screenshot of <em><strong>Conflict Index.</strong></em></p></figcaption></figure>
 
@@ -194,7 +194,6 @@ To effectively use ACLED, especially for beginners or those looking to refine th
 
 #### Use Cases:
 
-* Agencies (2020) _Conflict in northern Mozambique displaces over 500,000_, _Daily Sabah_. Available at: [https://www.dailysabah.com/world/africa/conflict-in-northern-mozambique-displaces-over-500000](https://www.dailysabah.com/world/africa/conflict-in-northern-mozambique-displaces-over-500000) (Accessed: 15 May 2024).
 * _Eclipse Mania, Coastal Earthquakes, Bridge Collapse, and Breaking the Ramadan Fast_ (no date). Available at: [https://gijn.org/stories/eclipse-mania-coastal-earthquakes-bridge-collapse/](https://gijn.org/stories/eclipse-mania-coastal-earthquakes-bridge-collapse/) (Accessed: 15 May 2024).
 * Ruser, N. (2018) _How to Scrape Interactive Geospatial Data_, _bellingcat_. Available at: [https://www.bellingcat.com/resources/how-tos/2018/09/05/scrape-interactive-geospatial-data/](https://www.bellingcat.com/resources/how-tos/2018/09/05/scrape-interactive-geospatial-data/) (Accessed: 15 May 2024).
 * ‘Mapping the Unknown: Using ACLED Data and GIS to Understand Conflict Zones’, _Medium_, 20 October. Available at: [https://medium.com/@avoukenas/mapping-the-unknown-using-acled-data-and-gis-to-understand-conflict-zones-f6f927e04cf1](https://medium.com/@avoukenas/mapping-the-unknown-using-acled-data-and-gis-to-understand-conflict-zones-f6f927e04cf1) (Accessed: 15 May 2024).
@@ -224,7 +223,7 @@ ACLED was created by [Clionadh Raleigh](https://acleddata.com/prof-clionadh-rale
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Unassigned      |
-|                 |
+| Page maintainer                      |
+| ------------------------------------ |
+| Bellingcat Volunteer Team/Unassigned |
+|                                      |
