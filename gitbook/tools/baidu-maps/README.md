@@ -22,7 +22,7 @@ Features:
 * **Language:** Chinese.
 * **Distance measure:** measure distance between points in metres.
 * **Placemarks**: create shareable placemarks.
-* **Streetview:** street view imagery\*\*.\*\*
+* **Streetview:** street view imagery.
 * **3D:** visualise areas in 3D.
 * **Satellite imagery**
 
@@ -31,9 +31,9 @@ Baidu Maps is available in the following formats:
 * Web
 * Mobile
 
-<figure><img src=".gitbook/assets/Screenshot%202024-04-18%20at%2011.39.48%E2%80%AFAM.png" alt=""><figcaption><p>Baidu Maps Screenshot</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-04-18 at 11.39.48 AM.png" alt=""><figcaption><p>Baidu Maps Screenshot</p></figcaption></figure>
 
-For open source researchers, Baidu Maps can be an invaluable tool in various capacities:
+Open source researchers can use Baidu Maps in various capacities:
 
 1. **Geospatial Analysis**: Researchers can use Baidu Maps for in-depth geospatial analyses of Chinese terrain, urban development, and infrastructure changes over time. This is particularly useful for environmental, urban planning, and regional studies.
 2. **Market Research**: Those analyzing market trends and consumer behaviors in China can leverage the detailed information on businesses and landmarks available on Baidu Maps. This includes studying the geographic distribution of industries, consumer hotspots, and emerging markets within the region.
@@ -121,7 +121,7 @@ Baidu Inc [http://www.baidu.com/](http://www.baidu.com/) - China
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Unassigned      |
-|                 |
+| Page maintainer                      |
+| ------------------------------------ |
+| Bellingcat Volunteer Team/Unassigned |
+|                                      |
