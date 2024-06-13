@@ -74,3 +74,4 @@
   * [MapSwitcher](tools/mapswitcher/README.md)
   * [ACLED](tools/acled/README.md)
   * [Hugin](tools/hugin/README.md)
+  * [Telepathy](tools/telepathy/README.md)
