@@ -109,8 +109,6 @@ To effectively use Baidu Maps, especially for beginners or those looking to refi
 
 * **No community support in English**
 
-By utilizing these resources, users can enhance their Baidu Maps experience, whether for personal navigation, planning trips, or developing custom mapping solutions.
-
 ## Tool provider
 
 Baidu Inc [http://www.baidu.com/](http://www.baidu.com/) - China
