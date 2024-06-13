@@ -12,6 +12,8 @@ description: Check usernames and email addresses on websites and social networks
 
 A command line tool to search for accounts by username and email address across social networks and websites.&#x20;
 
+For email address searches, it appears to query the public API endpoints of services and websites to determine whether an account has been made with that email address. This is a unique functionality compared to services like Spokeo which only take the local/username part of the address and bring back results from websites where there is an account with that username. As a result, while Blackbird may miss some valid results, it complements other email address search tools by surfacing unique results. &#x20;
+
 <figure><img src=".gitbook/assets/Screen Shot 2024-06-07 at 10.00.58 AM.png" alt=""><figcaption></figcaption></figure>
 
 ## Cost
@@ -31,8 +33,6 @@ A command line tool to search for accounts by username and email address across 
 ## Limitations & Ethical Considerations
 
 In terms of username investigations, the tool misses valid results from popular sources that can be surfaced with other tools like [Sherlock](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock).&#x20;
-
-For email address searches, it appears to query the public API endpoints of services and websites to determine whether an account has been made with that email address. This is a unique functionality compared to services like Spokeo which only take the local/username part of the address and bring back results from websites where there is an account with that username. As a result, while Blackbird may miss some valid results, it complements other email address search tools by surfacing unique results. &#x20;
 
 ## Guide
 
