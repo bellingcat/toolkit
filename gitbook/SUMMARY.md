@@ -75,3 +75,4 @@
   * [ACLED](tools/acled/README.md)
   * [Hugin](tools/hugin/README.md)
   * [Telepathy](tools/telepathy/README.md)
+  * [Liveuamap](tools/liveuamap/README.md)
