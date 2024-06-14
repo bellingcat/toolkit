@@ -269,7 +269,7 @@ There have been historical email issues around the delivery of purchased Tree Da
 
 **Interface**
 
-Some users might find the interface counterintuitive, in that
+Some users might find the interface counterintuitive, in that:
 
 * the user moves the time ruler against a fixed pointer, rather than moves the pointer to indicate the time.
 * the user moves the background map under a fixed central point of focus to select location.
@@ -278,7 +278,7 @@ Some users might find the interface counterintuitive, in that
 
 #### Overview: Ethical Low Risk, High Opportunity
 
-ShadeMap can be used in chronolocation and confirming geolocation of imagery from remote areas which claims to depict mistreatment of indigenous minorities. As such, it can be used support to work which seeks to protect human rights, indigenous peoples, minorities and the environment through accurate geolocation. In very rare cases, geolocation and chronolocation reveal the identify of people providing source information, which could put them/their contacts at risk of reprisal. Source information providers may or may not be aware of this risk, so there is a responsibility on the Open Source researcher, who may have more information for accurate risk assessment, to evaluate that risk on their behalf. Many information providers willingly undertake the risk of reprisal for the benefit of drawing public/global attention to situations and events they hope will be changed or acted upon as a result of exposure
+#### In very rare cases, geolocation and chronolocation reveal the identity of people providing source information, which could put them/their contacts at risk of reprisal. Source information providers may or may not be aware of this risk, so there is a responsibility on the Open Source researcher, who may have more information for accurate risk assessment, to evaluate that risk on their behalf.&#x20;
 
 ## Guide
 
