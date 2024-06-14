@@ -36,14 +36,9 @@ Baidu Maps is available in the following formats:
 Open source researchers can use Baidu Maps in various capacities:
 
 1. **Geospatial Analysis**: Researchers can use Baidu Maps for in-depth geospatial analyses of Chinese terrain, urban development, and infrastructure changes over time. This is particularly useful for environmental, urban planning, and regional studies.
-2. **Market Research**: Those analyzing market trends and consumer behaviors in China can leverage the detailed information on businesses and landmarks available on Baidu Maps. This includes studying the geographic distribution of industries, consumer hotspots, and emerging markets within the region.
-3. **Disaster Response and Management**: By utilizing the real-time traffic conditions and updates on natural disasters, researchers involved in humanitarian aid and disaster response can plan more efficient relief operations and analyze the impact on affected areas.
-4. **Cultural and Historical Research**: With its street view feature and detailed map data, Baidu Maps can also serve as a platform for exploring cultural landmarks, historical sites, and architectural evolution in different parts of China, offering insights into the country's heritage and societal changes.
-5. **Environmental Monitoring**: Researchers focusing on environmental conservation and climate change can use the satellite imagery provided by Baidu Maps to monitor deforestation, urban sprawl, and environmental degradation over time. _With access to detailed satellite imagery, reporters focusing on environmental issues can use Baidu Maps to document changes in landscapes, deforestation, pollution, and more, providing visual evidence to support their narratives._
-6. **Socio-Economic Analyses:** By analyzing the distribution of businesses, industries, and urban development through Baidu Maps, journalists can gather insights into economic trends, shifts in market dynamics, and the socio-economic statuses of various regions.
-7. **Coverage of Natural Disasters:** In reporting on natural disasters, journalists can use Baidu Maps’ real-time traffic data and updates on affected areas to deliver timely and accurate news, helping to inform both local residents and the international community.
-
-These use cases demonstrate Baidu Maps' potential as a tool beyond simple navigation, offering deep insights into various aspects of Chinese society, environment, and economy.
+2. **Cultural and Historical Research**: With its street view feature and detailed map data, Baidu Maps can also serve as a platform for exploring cultural landmarks, historical sites, and architectural evolution in different parts of China, offering insights into the country's heritage and societal changes.
+3. **Environmental Monitoring**: Researchers focusing on environmental conservation and climate change can use the satellite imagery provided by Baidu Maps to monitor deforestation, urban sprawl, and environmental degradation over time.&#x20;
+4. **Coverage of Natural Disasters:** In reporting on natural disasters, journalists can use Baidu Maps’ real-time traffic data and updates on affected areas to deliver timely and accurate news, helping to inform both local residents and the international community.
 
 ## Cost
 
