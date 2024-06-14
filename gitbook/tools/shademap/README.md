@@ -181,9 +181,9 @@ Shadow View draws shadows in the colour selected by the user in Settings, for th
 
 ### VIEW TWO: Hours In The Sun View
 
-The user sets a location, date and time period and ShadeMap calculates the number of hours in the sun for each pixel point on the map, displaying it as a 'mouse over' numerical value and also as a colour corresponding the to value range shown in the scale at the bottom of the screen.
+The user sets a location, date and time period and ShadeMap calculates the number of hours in the sun for each pixel point on the map, displaying it as a 'mouse over' numerical value and also as a colour corresponding to the value range shown in the scale at the bottom of the screen.
 
-Example Open Source applcations include
+Possible Open Source applications include:
 
 * Analysis of the environmental causes of terrain change in a glacial region
 * Geolocation of imagery showing distinctive shadow patterns in a region of deep canyons
@@ -200,7 +200,7 @@ Example Open Source applcations include
 
 ShadeMap calculates the annual hours of sunlight for the chosen location and displays them in a graph of days grouped by month (horizontal x axis) versus hour of the day (vertical y axis). The sun's energy for a given date and time is presented as a numerical value in kWh/m^2^ under the cursor, whilst the colour of the pixels represents the intensity of the sun's energy along a range from black (zero) through blue and green to red (highest).
 
-Example Open Source applications include analysing solar panel power generation parameters in environmental research.
+Possible Open Source applications include analysing solar panel power generation parameters in environmental research.
 
 <div data-full-width="true">
 
@@ -214,7 +214,7 @@ Example Open Source applications include analysing solar panel power generation 
 
 A specialist application of ShadeMap technology focusing on the shade profile of a given user-defined path (trail) on a given day of the year. The trail must be uploaded in GPX or KML format. Above a map of the user's trail and date a graph of the distance along the trail versus time of day is drawn to show the changing shadow patterns.
 
-Example Open Source Research applications include confirmation of geolocation of video source imagery taken by a moving camera.
+Possible Open Source Research applications include confirmation of geolocation of video source imagery taken by a moving camera.
 
 ### GPX Replay Feature - Accessible from the Search Bar Menu
 
@@ -230,8 +230,8 @@ ShadeMap offers a paid for API with the following features, where developer user
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
 ShadeMap provides data and the service for free, but if higher quality data is required, ShadeMap helps users purchase it from a third party. A free browser extension is offered, as well as a paid for API.
