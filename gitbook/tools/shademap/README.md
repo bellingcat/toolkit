@@ -15,11 +15,11 @@ description: >-
 
 <div data-full-width="true">
 
-<figure><img src=".gitbook/assets/ShortShadeMapcropped.gif" alt=""><figcaption><p>SHADE MAP SIMULATES THE SHADOW PATTERNS FROM SUNRISE TO SUNSET AS THE USER MOVES THE TIME SLIDER <br>TO CHANGE THE TIME IN RUSHON, TAJIKISTAN ON 18TH MAY</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ShortShadeMapcropped.gif" alt=""><figcaption><p>SHADE MAP SIMULATES THE SHADOW PATTERNS FROM SUNRISE TO SUNSET AS THE USER MOVES THE TIME SLIDER<br>TO CHANGE THE TIME IN RUSHON, TAJIKISTAN ON 18TH MAY</p></figcaption></figure>
 
 </div>
 
-ShadeMap can calculate shadow locations in real time and display them on a map. ShadeMap can also aggregate shadows over time to calculate how many hours of sun or shadow a specific location gets over the course of a day or over the course of an entire year. Sunlight hours and time of year are  used to calculate energy values of sunlight per unit area (square metre). In addition to mapping shadow patterns for a static location, ShadeMap's [Trail Shade](./#trail-shade) feature handles changing location uploaded as a user trail.&#x20;
+ShadeMap can calculate shadow locations in real time and display them on a map. ShadeMap can also aggregate shadows over time to calculate how many hours of sun or shadow a specific location gets over the course of a day or over the course of an entire year. Sunlight hours and time of year are used to calculate energy values of sunlight per unit area (square metre). In addition to mapping shadow patterns for a static location, ShadeMap's [Trail Shade](./#trail-shade) feature handles changing location uploaded as a user trail.
 
 {% hint style="success" %}
 ShadeMap is also available as a Chrome browser extension which displays a sun and shadow layer for online maps including: openstreetmap.org, alltrails.com, gaiagps.com, caltopo.com. This is being extended to Strava, Mountain Project, OnX Maps with more to follow...
@@ -29,16 +29,16 @@ ShadeMap is also available as a Chrome browser extension which displays a sun an
 
 <summary>Open Source research applications of ShadeMap include geolocation and environmental monitoring and analysis... (Click for examples)</summary>
 
-Geolocation can be supported directly where imagery contains shadows which can be matched to the model. Shade Map is also indirectly valuable in terms of predicting terrain properties. However, it must be offset with information on cloud cover, significant pollution, airborne volcanic ash, etc. for time periods chosen:
+Geolocation can be supported directly where imagery contains shadows which can be matched to the model. ShadeMap is also indirectly valuable in terms of predicting terrain properties. However, it must be offset with information on cloud cover, significant pollution, airborne volcanic ash, etc. for time periods chosen:
 
 * the likely condition of terrain at a given time and place with respect to ground moisture v sun exposure, e.g. this area was in high energy sun for 8 hours before this image was taken, so it would be very dry.
 * the likely snow covering over terrain at a given time and place with respect to snow melting v sun exposure, e.g. this area could have had a light snow covering since it was entirely shaded before this image was taken.
 * the likely plant life which could survive at a given place and season with respect to shade and plant species.
 * the likely condition of man-made materials at a given place and time with respect to the long term interaction of light on different building materials, e.g. bleaching effect.
 
-Shade Map's cumulative analyses of daily sunlight hours, annual sunlight hours and annual energy values allow for the types of longer term analysis used in environmental monitoring and analysis, e.g. solar panel power potential in a given region. Data downloads are offered for users' generated results, and the developers offer assistance with large data set export.![](.gitbook/assets/image-1.png)
+ShadeMap's cumulative analyses of daily sunlight hours, annual sunlight hours and annual energy values allow for the types of longer term analysis used in environmental monitoring and analysis, e.g. solar panel power potential in a given region. Data downloads are offered for users' generated results, and the developers offer assistance with large data set export.![](.gitbook/assets/image-1.png)
 
-**SUN EXPOSURE VIEW DOWNLOAD MESSAGE** \
+**SUN EXPOSURE VIEW DOWNLOAD MESSAGE**\
 **EXPLAINING THE OUTPUT AND OFFERING ASSISTANCE**
 
 </details>
@@ -79,22 +79,22 @@ The shadows displayed by default are estimates gathered through indirect means l
 
 Premium data is composed of precise measurements collected via LiDAR and photogammetry surveys. This means building layouts, roof, tree and building heights will be **exact to within 30 centimeters**. This is the most accurate shadow modeling data available.
 
-If this data is available in a given region, an Add Trees button will appear when you zoom into street level. Tree data is purchased by square kilometer and can be accessed for one month
+If this data is available in a given region, an Add Trees button will appear when you zoom into street level. Tree data is purchased by square kilometer and can be accessed for one month.
 
-* Free building data comes from volunteers at [OpenStreetMap](https://www.openstreetmap.org)&#x20;
+* Free building data comes from volunteers at [OpenStreetMap](https://www.openstreetmap.org)
 * ShadeMap buys additional building data and building heights from [Mapbox](https://shademap.app/help/mapbox.com) when the cost is manageable
 * ShadeMap relies on the less detailed [Protomaps Basemaps](https://protomaps.com/) during periods of high traffic.
 * Users requiring accurate building height and roof shape data can purchase Tree Data, which is gathered through LiDAR and photogrammetry surveys.
 
 {% embed url="https://www.youtube.com/watch?v=CN7lQhNOv4I" %}
-**DEMONSTRATING THE DIFFERENCE IN DATA QUALITY BETWEEN FREE BASE AND PAID FOR PREMIUM DATA. THIS IS BEST OBSERVED WITH A SATELLITE VIEW  SO SHADOWS OF INDIVIDUAL VISIBLE TREES & BUILDINGS SHOW UP.**
+**DEMONSTRATING THE DIFFERENCE IN DATA QUALITY BETWEEN FREE BASE AND PAID FOR PREMIUM DATA. THIS IS BEST OBSERVED WITH A SATELLITE VIEW SO SHADOWS OF INDIVIDUAL VISIBLE TREES & BUILDINGS SHOW UP.**
 {% endembed %}
 
 {% hint style="success" %}
-Purchased data costs can be controlled because users are offered data only for the area in which they are interested, charged per square kilometre (USD $2.49 as at May 2024). Thus high resolution data need only be purchased for the user's area of interest.
+Purchased data costs can be controlled because users are offered data only for the area in which they are interested, charged per square kilometre (USD $2.49 as at May 2024).&#x20;
 {% endhint %}
 
-* Users can add building data to the map via a drawing tool, which allows them to draw a building and set its height. Shade Map will then add the shadows it casts onto the map.
+* Users can add building data to the map via a drawing tool, which allows them to draw a building and set its height. ShadeMap will then add the shadows it casts onto the map.
 
 {% embed url="https://youtu.be/Q6tc4k6l-_k" %}
 **HOW TO ADD A USER DEFINED BUILDING TO SHADEMAP AND SET ITS HEIGHT**
@@ -106,22 +106,22 @@ Setting height to zero will delete the building again.
 
 ### The ShadeMap Interface
 
-There are three views in Shade Map:&#x20;
+There are three views in ShadeMap:
 
 1. [Shadow View](./#view-one-shadow-view)
 2. [Hours in the Sun View](./#view-two-hours-in-the-sun-view)
 3. [Annual Sun View](./#view-three-annual-sunlight-view).
 
-&#x20;Each can be shown with one of two backgrounds: either map (called Outdoors) or Satellite.
+Each can be shown with one of two backgrounds: either map (called Outdoors) or Satellite.
 
 ZOOMING THE MAP SCALE:
 
 {% hint style="warning" %}
-DON'T use the Mouse Scroll Wheel to Zoom the map scale BECAUSE the focus location is lost.&#x20;
+DON'T use the Mouse Scroll Wheel to zoom the map scale because the focus location is lost.
 {% endhint %}
 
 {% hint style="success" %}
-DO use the "+" and "-" tool in the bottom left of the map window to Zoom whilst maintaining a consistent focus location.
+DO use the "+" and "-" tool in the bottom left of the map window to zoom whilst maintaining a consistent focus location.
 {% endhint %}
 
 #### The Data Toolbar
@@ -144,7 +144,7 @@ Data display and exchange is managed through the bottom left interface toolbar, 
 * Interface settings around the sun direction for now, sunrise and sunset
   * Contour line units
   * Level of shadows re tree canopy (where applicable)
-  * Colour of shade&#x20;
+  * Colour of shade
 
 {% hint style="info" %}
 The coloured lines centre screen which depict the direction of the sun and its elevation through the length of its shadow concur with the system and colour scheme used in [SunCalc](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/ScmcEIAcsvKXg7S4xa8P/) app.
@@ -152,7 +152,7 @@ The coloured lines centre screen which depict the direction of the sun and its e
 
 #### The View and Drawing Toolbars
 
-View Orientation is managed through the bottom right interface toolbar, which allows
+View Orientation is managed through the bottom right interface toolbar, which allows to:
 
 * Tilt adjustment via the 3D button
 * View Selection via the Layers button
@@ -163,11 +163,11 @@ By default, shadows are displayed on top of the tree canopy. To view shadows und
 
 <div>
 
-<figure><img src=".gitbook/assets/shademapbottomrightmenu.JPG" alt="" width="170"><figcaption><p><strong>THE VIEW TOOLBAR ADJUSTS TILT AND ZOOM AND ALLOWS SELECTION OF THREE VIEW LAYERS AND TWO BASEMAPS</strong> </p></figcaption></figure>
+<figure><img src=".gitbook/assets/shademapbottomrightmenu.JPG" alt="" width="170"><figcaption><p><strong>THE VIEW TOOLBAR ADJUSTS TILT AND ZOOM AND ALLOWS SELECTION OF THREE VIEW LAYERS AND TWO BASEMAPS</strong></p></figcaption></figure>
 
  
 
-<figure><img src=".gitbook/assets/shademaptopright menu.JPG" alt=""><figcaption><p><strong>THE DRAWING TOOLBAR APPEARS SCREEN TOP RIGHT</strong> <br><strong>IN SHADOW VIEW AND HOURS IN THE SUN VIEW</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/shademaptopright menu.JPG" alt=""><figcaption><p><strong>THE DRAWING TOOLBAR APPEARS SCREEN TOP RIGHT</strong><br><strong>IN SHADOW VIEW AND HOURS IN THE SUN VIEW</strong></p></figcaption></figure>
 
 </div>
 
@@ -183,7 +183,7 @@ Shadow View draws shadows in the colour selected by the user in Settings, for th
 
 The user sets a location, date and time period and ShadeMap calculates the number of hours in the sun for each pixel point on the map, displaying it as a 'mouse over' numerical value and also as a colour corresponding the to value range shown in the scale at the bottom of the screen.
 
-Example Open Source applcations include&#x20;
+Example Open Source applcations include
 
 * Analysis of the environmental causes of terrain change in a glacial region
 * Geolocation of imagery showing distinctive shadow patterns in a region of deep canyons
@@ -212,7 +212,7 @@ Example Open Source applications include analysing solar panel power generation 
 
 <figure><img src=".gitbook/assets/ShadeMapTrailShade.JPG" alt=""><figcaption><p><strong>SHADEMAP'S TRAIL SHADE FEATURE MAPS SHADE ALONG A TRAIL OVER TIME</strong></p></figcaption></figure>
 
-A specialist application of ShadeMap technology focusing on the shade profile of a given user-defined path (trail) on a given day of the year. The trail must be uploaded in GPX or KML format. Above  a map of the user's trail and date a graph of the distance along the trail versus time of day is drawn to show the changing shadow patterns.&#x20;
+A specialist application of ShadeMap technology focusing on the shade profile of a given user-defined path (trail) on a given day of the year. The trail must be uploaded in GPX or KML format. Above a map of the user's trail and date a graph of the distance along the trail versus time of day is drawn to show the changing shadow patterns.
 
 Example Open Source Research applications include confirmation of geolocation of video source imagery taken by a moving camera.
 
@@ -240,23 +240,23 @@ ShadeMap provides data and the service for free, but if higher quality data is r
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
-ShadeMap basic features are not difficult to use, but a good understanding of the interplay of date, time, sun position and shadow direction and length is required to use its outputs effectively.&#x20;
+ShadeMap basic features are not difficult to use, but a good understanding of the interplay of date, time, sun position and shadow direction and length is required to use its outputs effectively.
 
 ## Requirements
 
-* ShadeMap is free to use without a login account.&#x20;
-* Where very high quality data is required, ShadeMap assists the user in purchasing it from a third party.&#x20;
-* Users wanting to use the ShadeMap API will need to request an API key.&#x20;
+* ShadeMap is free to use without a login account.
+* Where very high quality data is required, ShadeMap assists the user in purchasing it from a third party.
+* Users wanting to use the ShadeMap API will need to request an API key.
 
 ## Limitations
 
-**Performance:**&#x20;
+**Performance:**
 
-ShadeMap relies heavily on the graphics processing unit (GPU) of the device it is running on.&#x20;
+ShadeMap relies heavily on the graphics processing unit (GPU) of the device it is running on.
 
 Where performance is an issue:-
 
-1. &#x20;Test whether your browser supports WebGL from this [Test Page here](https://webglreport.com/?v=2) since ShadeMap will only work with browsers which do support WebGL
+1. Test whether your browser supports WebGL from this [Test Page here](https://webglreport.com/?v=2) since ShadeMap will only work with browsers which do support WebGL
 2. Reduce the size of the browser window to increase the performance.
 
 **Data Quality**
@@ -269,7 +269,7 @@ There have been historical email issues around the delivery of purchased Tree Da
 
 **Interface**
 
-Some users might find the interface counterintuitive, in that&#x20;
+Some users might find the interface counterintuitive, in that
 
 * the user moves the time ruler against a fixed pointer, rather than moves the pointer to indicate the time.
 * the user moves the background map under a fixed central point of focus to select location.
@@ -284,7 +284,7 @@ ShadeMap can be used in chronolocation and confirming geolocation of imagery fro
 
 ShadeMap's Online Help: [https://shademap.app/help/](https://shademap.app/help/)
 
-Guide for the Chrome Browser Extension:&#x20;
+Guide for the Chrome Browser Extension:
 
 {% embed url="https://www.youtube.com/watch?v=rReGMhMxUc8" %}
 **YOU TUBE VIDEO BY THE DEVELOPER ON THE SHADE MAP BROWSER EXTENSION FOR CHROME**
@@ -306,4 +306,3 @@ ShadeMap 9615 NE 195th Cir Bothell, WA 98011 US
 | --------------- |
 | Sophie Tedling  |
 |                 |
-
