@@ -35,16 +35,16 @@ Baidu Maps is available in the following formats:
 
 Open source researchers can use Baidu Maps in various capacities:
 
-1. **Geospatial Analysis**: Researchers can use Baidu Maps for in-depth geospatial analyses of Chinese terrain, urban development, and infrastructure changes over time. This is particularly useful for environmental, urban planning, and regional studies.
-2. **Cultural and Historical Research**: With its street view feature and detailed map data, Baidu Maps can also serve as a platform for exploring cultural landmarks, historical sites, and architectural evolution in different parts of China, offering insights into the country's heritage and societal changes.
+1. **Geospatial Analysis**: Researchers can use Baidu Maps for in-depth geospatial analyses of Chinese terrain, urban development, and infrastructure changes over time.&#x20;
+2. **Cultural and Historical Research**: With its street view feature and detailed map data, Baidu Maps can also serve as a platform for exploring cultural landmarks, historical sites, and architectural evolution in different parts of China.
 3. **Environmental Monitoring**: Researchers focusing on environmental conservation and climate change can use the satellite imagery provided by Baidu Maps to monitor deforestation, urban sprawl, and environmental degradation over time.&#x20;
-4. **Coverage of Natural Disasters:** In reporting on natural disasters, journalists can use Baidu Maps’ real-time traffic data and updates on affected areas to deliver timely and accurate news, helping to inform both local residents and the international community.
+4. **Coverage of Natural Disasters:** In reporting on natural disasters, journalists can use Baidu Maps’ real-time traffic data and updates on affected areas.
 
 ## Cost
 
 * [x] Free
 * [ ] Partially Free
-* [x] Paid
+* [ ] Paid
 
 (Developer API use may be charged)
 
