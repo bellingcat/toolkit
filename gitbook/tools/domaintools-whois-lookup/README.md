@@ -31,27 +31,29 @@ Of these, the following can be used without a DomainsTools license:
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
 \[\[Pricing or subscription information, if relevant.]]
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+None
 
-## Limitations
+## Limitations & Ethical Considerations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+Certain pivots and additional tools require a paid subscription to DomainTools.&#x20;
 
-## Ethical Considerations
+As part of domain privacy measures, most domain registrars offer Whois privacy services that anonymize the registrant details. As a result, you may not be able to find the real name of the individual who owns a domain or other details associated with them. Instead you will see a "Registration Private" designation where the individual's name would be, and generic email and physical addresses associated with the domain registrar. For example, Bellingcat.com's Whois record contains such privacy measures:
 
-\[\[The ethical considerations of each tool should be described.]]
+<figure><img src=".gitbook/assets/Screenshot 2024-06-15 at 2.17.31 PM.png" alt=""><figcaption></figcaption></figure>
+
+In certain instances, you may be able to surface names or addresses a ssociated with real invidiuals by going back in Whois&#x20;
 
 ## Guides and articles
 
@@ -61,7 +63,7 @@ API documentation can be found [here](https://www.domaintools.com/resources/api-
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+[DomainTools](https://www.domaintools.com/) is a provider of Whois and other DNS profile data for threat intelligence enrichment
 
 ## Advertising Trackers
 
@@ -69,7 +71,7 @@ API documentation can be found [here](https://www.domaintools.com/resources/api-
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| hande           |
+|                 |
