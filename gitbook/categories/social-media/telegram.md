@@ -11,6 +11,6 @@
 | [**Telegago**](http://bit.ly/telegago) | Telegago is a Google Custom Search Engine tailored for searching public Telegram content for OSINT purposes. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/telegago/README.md) |
 | [**TelegramDB**](https://telegramdb.org) | TelegramDB is a searchable database service for exploring public Telegram groups and channels via a dedicated bot. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/telegramdb/README.md) |
 | [**Telemetr.io**](http://telemetr.io/) | Telegram channel analytics | <mark style="background-color:green;">Free</mark> |  |
-| [**Telepathy**](https://github.com/jordanwildon/Telepathy) | GitHub - "swiss army knife" for investigating Telegram c | <mark style="background-color:green;">Free</mark> |  |
+| [**Telepathy**](https://github.com/jordanwildon/Telepathy) | Telepathy is a versatile Telegram toolkit for OSINT analysts, enabling chat archiving, memberlist gathering, user location lookup, top poster analysis, message mapping, and more. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/telepathy/README.md) |
 | [**TGstat**](http://tgstat.com/) | Searches archived Telegram channels and provides channel analytics. | <mark style="background-color:green;">Free</mark> |  |
 | [**tlgrm.eu channels**](http://tlgrm.eu/channels) | Search Telegram channels. | <mark style="background-color:green;">Free</mark> |  |
