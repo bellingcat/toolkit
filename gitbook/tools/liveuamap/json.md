@@ -7,7 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-    "url": "https://liveuamap.com/",
     "tags": ["free", "international", "news", "maps", "conflict-zones", "real-time", "mapping", "geolocation", "conflict",  "crisis", "protest", "mapping-solutions", "interactive-maps"]
 }
 ```
