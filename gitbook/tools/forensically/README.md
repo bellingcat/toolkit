@@ -1,16 +1,18 @@
 ---
-description: Web-based image forensics tool. Can easily identify fake or doctored images. Public access, information not private.
+description: >-
+  A collection of web-based image forensics tools. Can identify fake or doctored
+  images. Public access, information not private.
 ---
 
 # Forensically
 
 ## URL
 
-http://29a.ch/photo-forensics/#level-sweep
+[https://29a.ch/photo-forensics/#forensic-magnifier](https://29a.ch/photo-forensics/#forensic-magnifier)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+This collection of web-based tools is used for verifying images. Each tool's name reflects its function: Magnifier, Clone Detection, Noise Analysis, Noise Level Analysis, Meta Data, Geo Tags, etc. Forensically requires experience to fully understand each tool's function. For those new to OSINT verification techniques, watching the tutorial by the founder, Jonas Wagner may be useful.
 
 ## Cost
 
@@ -22,15 +24,15 @@ http://29a.ch/photo-forensics/#level-sweep
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>4</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+The tool does not have any requirements for its usage.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+If images are stripped of their metadata, the tool “Meta Data” on Forensically cannot be used to read the metadata of images downloaded from social media. Most images downloaded from social media have their metadata removed.
 
 ## Ethical Considerations
 
@@ -38,11 +40,11 @@ http://29a.ch/photo-forensics/#level-sweep
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+A tutorial by the founder of the tool, Jonas Wagner, is available on YouTube on how to use Forensically: [https://www.youtube.com/watch?v=XRCq8CJrI\_s](https://www.youtube.com/watch?v=XRCq8CJrI\_s)&#x20;
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Jonas Wagner is the founder of the tool. More info about him here: [https://29a.ch/about](https://29a.ch/about)
 
 ## Advertising Trackers
 
@@ -50,8 +52,7 @@ http://29a.ch/photo-forensics/#level-sweep
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat volunteer team |
+|                           |
