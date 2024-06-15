@@ -7,10 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Whats My Name",
-  "url": "https://whatsmyname.app/",
-  "description": "Search username on 270+ platforms",
-  "cost": "Free",
   "details": "🗣️\n",
   "tags": [
     "people"
