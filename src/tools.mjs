@@ -37,10 +37,13 @@ function toolToJson(tool) {
 
 function toolToReadme(tool) {
   const template = fs.readFileSync('template/README.md', 'utf-8');
-  return template.
-    replace("# Tool Name", `# ${tool.name}`).
-    replace(/description: .*/g, `description: ${tool.description}`).
-    replace("https://example.com", tool.url);
+  let readme = template.replace("# Tool Name", `# ${tool.name}`);
+  if (tool.description) {
+    readme = readme.replace(/description: .*/g, `description: ${tool.description}`);
+  }
+  if (tool.url) {
+    readme = readme.replace("https://example.com", tool.url);
+  }
 }
 function toolToSummary(tool) {
   const template = fs.readFileSync('template/SUMMARY.md', 'utf-8');
@@ -51,12 +54,13 @@ function createTool(tool, opts={}) {
   debug('Creating tool', name);
   const slug = name.replace(/\s/g, '-').toLowerCase();
   const pathname = `gitbook/tools/${slug}`;
+  const json = { draft: true, tags: [] };
 
   if (!opts.overwrite && fs.existsSync(pathname)) {
     debug("Tool already exists");
   } else {
     fs.mkdirSync(pathname, { recursive: true });
-    fs.writeFileSync(`${pathname}/json.md`, toolToJson(tool));
+    fs.writeFileSync(`${pathname}/json.md`, toolToJson(json));
     fs.writeFileSync(`${pathname}/README.md`, toolToReadme(tool));
     fs.writeFileSync(`${pathname}/SUMMARY.md`, toolToSummary(tool));
     fs.writeFileSync(`${pathname}/categories.md`, toolToCategories(tool));

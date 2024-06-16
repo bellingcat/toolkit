@@ -10,7 +10,5 @@ if (!toolName) {
 const slug = createTool({
   draft: true,
   name: toolName,
-  description: 'A brief one-line description of the tool.',
-  url: 'https://example.com',
   tags: []
 });
