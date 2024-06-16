@@ -1,16 +1,54 @@
 ---
-description: A web based data mining tool for OpenStreetMap.
+description: >-
+  Overpass Turbo is a web-based tool for querying and visualizing OpenStreetMap
+  (OSM) data, aiding in extracting specific information like locations of
+  amenities e.g. schools, hospitals, police stations
 ---
 
-# overpass-turbo
+# Overpass Turbo
 
 ## URL
 
-https://overpass-turbo.eu/
+[https://overpass-turbo.eu/](https://overpass-turbo.eu/)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Overpass Turbo is a web application designed for querying and analyzing data from OpenStreetMap (OSM), providing a user-friendly interface for conducting complex queries on OSM's expansive database. This tool is particularly valuable for users interested in geographic information systems (GIS), offering functionalities crucial for data mining, research, and decision-making in various fields like urban planning, disaster management, and environmental studies. Through Overpass Turbo, users can extract specific information such as the location of amenities, road networks, and geographical features, facilitating detailed analysis and visualization of geographic data across the globe.
+
+The full list of [amenities](https://wiki.openstreetmap.org/wiki/Key:amenity) that can be searched for is available here: [https://wiki.openstreetmap.org/wiki/Key:amenity](https://wiki.openstreetmap.org/wiki/Key:amenity)
+
+**Features:**
+
+* **Current Location**: option to centre map at users location.
+* **Coverage:** Global but can be limited in some areas.
+* **Export**: options to export in numerous formats including for data (GeoJSON, GPX, KML, raw OSM data), Map (as a PNG image or interactive Map) or the query alone. Also supports conversion options.
+* **Help**: inline help.
+* **Language:** supports multiple languages.
+* **Location search:** search by location name.
+* **Raw Data**: toggle to preview the query as raw data.
+* **Sharing:** share the current code state and map state.
+* **Toggle Data**: display data overlay.
+* **Wide map**: Toggle Wide map
+* **Wizard**: includes a wizard for building queries.
+* **Zoom to data:** zoom to include all data points.
+* **Zoom tool:** zoom in and out on the map.
+
+<figure><img src=".gitbook/assets/Screenshot 2024-03-31 at 12.44.00 PM (1).png" alt="Screenshot of Overpass Turbo with a query for drinking water fountains and a map with the fountains highlighted in red."><figcaption><p>Screenshot <a href="https://overpass-turbo.eu/">https://overpass-turbo.eu/</a></p></figcaption></figure>
+
+
+
+### **Example Use Cases**
+
+Online Open Source Investigators can leverage Overpass Turbo in numerous ways to enhance their reporting and storytelling, particularly in investigative journalism. Some applications include:
+
+* **Tracking and Reporting Urban Development:** Journalists can monitor construction projects, changes in land use, and gentrification trends, providing data-backed reports on urban growth or decline.
+* **Investigating Environmental Issues:** By analyzing data on green spaces, pollution sources, and changes in natural landscapes, reporters can uncover stories on environmental degradation, conservation efforts, and climate change impacts.
+* **Transportation and Infrastructure Reporting:** Data on road networks, public transport facilities, and infrastructure developments can inform stories on transportation challenges, government spending, and urban mobility.
+* **Disaster Reporting:** In the aftermath of natural disasters, journalists can quickly gather information on affected areas, infrastructure damage, and relief efforts to provide accurate and timely news coverage.
+
+In each of these use cases, users can precisely tailor their queries to extract specific data points from the vast repository of geographic information available on OpenStreetMap, demonstrating the flexibility and utility of Overpass Turbo for various OSINT applications.
+
+Latest features and changes: [https://github.com/tyrasd/overpass-turbo/commits/master/](https://github.com/tyrasd/overpass-turbo/commits/master/)
 
 ## Cost
 
@@ -18,40 +56,81 @@ https://overpass-turbo.eu/
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+Any modern web browser.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+* **Query Complexity and Performance:** Overpass Turbo might struggle with very complex queries or large data sets, leading to long response times or timeouts.
+* **Learning Curve:** For new users, the query language (Overpass QL) has a steep learning curve.
+* **Resource Intensity:** Running intensive queries can put a significant load on the Overpass servers, potentially leading to throttling or temporary bans.
+* **Data Currency:** While Overpass Turbo provides access to up-to-date OSM data, there may be a minor delay in data refresh rates which could impact real-time data analysis needs.
+* **Geographical Limitations:** Performance and efficiency can degrade for queries that span very large geographical areas or the entire globe.
+* **User Interface:** While functional, the user interface may not be as intuitive or user-friendly for those not familiar with geographical information systems (GIS) or coding.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+&#x20;Overpass Turbo has the following ethical considerations
+
+* **Privacy and Data Sensitivity**: While Overpass Turbo offers broad access to public OpenStreetMap (OSM) data, users should be cautious when querying or sharing data that could potentially reveal sensitive information about individuals or locations.
+* **Responsible Use of Resources**: Given the resource-intensive nature of some queries, users should consider the impact of their actions on the availability of Overpass Turbo for others. Excessive or unnecessary querying can lead to server strain, affecting the service for all users.
+* **Data Accuracy and Misuse**: Users should be aware that data obtained from Overpass Turbo, as with any crowdsourced information, may not always be accurate or up to date. Misinterpretation or misuse of this data can lead to ethical concerns, especially if used in critical applications or decision-making processes.
+* **Open Data Ethics**: Engaging with Overpass Turbo and OSM data should align with the ethics of open data usage, including respecting licensing agreements, attributing data correctly, and contributing to the data's quality and richness where possible.
 
 ## Guide
 
-\[\[Link to a guide on this tool]]
+To effectively use Overpass Turbo, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
+
+#### Official Wiki
+
+* [**Overpass API Language Guide**](https://wiki.openstreetmap.org/wiki/Overpass\_API/Language\_Guide)**:** A comprehensive guide to understanding the query language used in Overpass Turbo.
+* [**Overpass API By Example**](https://wiki.openstreetmap.org/wiki/Overpass\_API/Overpass\_API\_by\_Example)**:** Offers a wide range of example queries that can help users learn through practical scenarios.
+
+#### Tutorials and Articles
+
+* [**Learn Overpass QL in X minutes**](https://learnxinyminutes.com/docs/overpass-ql/)**:** A quick-start guide for those new to Overpass QL, focusing on key concepts and syntax.
+* [_Overpass Tutorial_](https://osm-queries.ldodds.com/tutorial/index.html) (no date). Available at: [https://osm-queries.ldodds.com/tutorial/index.html](https://osm-queries.ldodds.com/tutorial/index.html) (Accessed: 2 April 2024).
+* [_Learn Overpass._](https://osmlab.github.io/learnoverpass/en/) (no date). Available at: [https://osmlab.github.io/learnoverpass//en/](https://osmlab.github.io/learnoverpass/en/) (Accessed: 2 April 2024).
+
+#### Video Tutorials
+
+* [_A turbo introduction to Overpass_](https://www.youtube.com/watch?v=q9QI4AfwHoM) _- MInh Nguyễn_ (2019). Available at: [https://www.youtube.com/watch?v=q9QI4AfwHoM](https://www.youtube.com/watch?v=q9QI4AfwHoM) (Accessed: 2 April 2024).
+
+#### Community and Support
+
+* [**OSM Help Forum**](https://help.openstreetmap.org/)**:** A place where users can ask questions about Overpass Turbo and receive answers from the community.
+* [**Stack Overflow**](https://stackoverflow.com/questions/tagged/overpass-api)**:** Users can find or ask questions tagged with `overpass-api`, which includes topics on Overpass Turbo.
+
+By exploring these resources, users can build a strong foundation in using Overpass Turbo for their OpenStreetMap (OSM) data querying needs.
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+_overpass turbo_ is maintained by Martin Raifer (tyr.asd at gmail.com) [_Open Street Maps_](https://osmfoundation.org/wiki/About) United Kingdom
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat volunteer team |
+|                           |
 
+
+
+## See Also
+
+{% embed url="https://www.bellingcat.com/resources/how-tos/2023/05/08/finding-geolocation-leads-with-bellingcats-openstreetmap-search-tool/" %}
+Bellingcat article
+{% endembed %}
+
+{% embed url="https://osm-search.bellingcat.com/" %}
+Bellingcat tool
+{% endembed %}

@@ -1,4 +1,4 @@
 # Table of contents
 
-* [overpass-turbo](README.md)
-* [Categories](categories.md)
+* [Overpass Turbo](README.md)
+* [JSON](json.md)
