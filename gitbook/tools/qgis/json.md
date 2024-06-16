@@ -7,19 +7,41 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-    "name": "QGIS",
-    "description": "QGIS (Quantum GIS) is a free Open Source Geographic Information System (GIS).",
-    "url": "https://www.qgis.org/",
-    "tags": ["gis", "geographic-information-system", "free", "geospatial-information", "geographic-data-analysis", "mapping", "satellite", "satellite-imagery", "remote-sensing", "environment",  "geospatial", "international", "spatial-analysis"]
+  "name": "QGIS",
+  "description": "QGIS (Quantum GIS) is a free Open Source Geographic Information System (GIS).",
+  "url": "https://www.qgis.org/",
+  "tags": [
+    "gis",
+    "geographic-information-system",
+    "free",
+    "geospatial-information",
+    "geographic-data-analysis",
+    "mapping",
+    "satellite",
+    "satellite-imagery",
+    "remote-sensing",
+    "environment",
+    "geospatial",
+    "international",
+    "spatial-analysis"
+  ]
 }
 ```
 {% endcode %}
 
 Keep the codeblock updated with accurate information. Only edit the **values** (words to the right of the `:` on each line, in dark blue font). Do not change the key names (left side, slightly light blue) or any of the other formatting. Every line should end in a comma except the last line. Every key and value should be enclosed in quotation marks. See below for an explanation of each line.&#x20;
 
-## name, description, url
+## name, description (optional)
 
-These are self explanatory and not likely to change. They should match the information on the main tool page.
+If omitted, the name and description will be copied from the page title and page description of the main content. If present, the JSON values override the main content.
+
+## draft (optional)
+
+If set to `true`, this prevents this tool from being listed in relevant category pages. Useful if the tool does not yet have a url and description set. Omit or set to false to publish.
+
+## url
+
+A hyperlink directly to the tool, for quick-access from the category page. Be sure to use the secure (http**S**) version if possible.
 
 ## tags
 
