@@ -12,11 +12,23 @@ description: Check usernames and email addresses on websites and social networks
 
 A command line tool to search for accounts by username and email address across social networks and websites.&#x20;
 
+<figure><img src=".gitbook/assets/Screen Shot 2024-06-07 at 10.00.58 AM.png" alt=""><figcaption></figcaption></figure>
+
 Blackbird is integrated with [WhatsMyName](https://github.com/WebBreacher/WhatsMyName) project, witch has 600+ sites to perform accurate reverse username search. The data sources maintained by the WhatsMyName team can be found [here](https://github.com/WebBreacher/WhatsMyName/blob/main/wmn-data.json).&#x20;
 
-For email address searches, it appears to query the public API endpoints of services and websites to determine whether an account has been made with that email address. This is a unique functionality compared to services like Spokeo which only take the local/username part of the address and bring back results from websites where there is an account with that username. As a result, while Blackbird may miss some valid results, it complements other email address search tools by surfacing unique results. &#x20;
+For email address searches, it appears to query the servers of websites maintained by WhatsMyName to determine whether an account has been made with that email address. If the user has a valid account on the service, Blackbird will return a URL of the user profile in the results.&#x20;
 
-<figure><img src=".gitbook/assets/Screen Shot 2024-06-07 at 10.00.58 AM.png" alt=""><figcaption></figcaption></figure>
+Blackbird, like other username enumeration tools such as Sherlock, checks usernames against its unique collection of sources, resulting in different results for the same username compared to Sherlock. For example, Blackbird covers more NSFW and alternative social media sources (including Gab and Truth Social), while Sherlock has better results in surfacing accounts on mainstream social networks that are currently or were in the past popular, such as Linkedin, ICQ, 9Gag, Letterboxd and similar, as well.
+
+<div align="center">
+
+<figure><img src=".gitbook/assets/Screen Shot 2024-06-16 at 2.44.18 PM.png" alt="" width="375"><figcaption><p>Blackbird's list of results for "bellingcat" usernames</p></figcaption></figure>
+
+</div>
+
+<figure><img src=".gitbook/assets/Screen Shot 2024-06-16 at 2.46.36 PM.png" alt="" width="375"><figcaption><p>Sherlock's list of results for "bellingcat" usernames</p></figcaption></figure>
+
+On the other hand, the rate of false positives and invalid results are fairly low with Blackbird. As a result, Blackbird complements other email address search tools by surfacing unique results and using it conjunction with other tools is recommended to get the widest breadth of results.&#x20;
 
 ## Cost
 
@@ -34,7 +46,9 @@ For email address searches, it appears to query the public API endpoints of serv
 
 ## Limitations & Ethical Considerations
 
-In terms of username investigations, the tool misses valid results from popular sources that can be surfaced with other tools like [Sherlock](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock).&#x20;
+In terms of username investigations, the tool may miss valid results from various sources that can be surfaced with other tools like [Sherlock](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock).&#x20;
+
+
 
 ## Guide
 
