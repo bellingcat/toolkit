@@ -1,16 +1,16 @@
 ---
-description: A brief one-line description of the tool.
+description: A database of remote sensing indices and satellite imaging sensors
 ---
 
-# index-database
+# Index Database
 
 ## URL
 
-https://example.com
+[https://www.indexdatabase.de/](https://www.indexdatabase.de/)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+A searchable web index of remote sensing indices (e.g. metrics for things like vegetation health, land use, water stress) that allows users to search for relevant satellite sensors for a given application. This search may also be inverted, listing the indices it's possible to calculate from a given remote sensing dataset. The index also links different indices to their respective applications, providing references to academic literature demonstrating their usage.
 
 ## Cost
 
@@ -18,40 +18,38 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+Just a web browser.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+The index lists sensors, and not the datasets linked to each sensor -- so if you're interested in using the data there is a secondary step of searching for the dataset, which may or may not be freely available and/or accessible. Indices are listed with relevant applications and references to academic literature, however it may take some reading to work out what is right for your application.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Like any tool related to or making use of remote sensing data, the ethical considerations of IDB relate primarily to accuracy, and the broader systemic effects of developing systems for monitoring/understanding an environment or a social system that are based remotely and don't have a lot to do with the people and ecology there. It's always worth thinking about the basis for claims that are made using these tools, which are blunt generalisations across a wide range of different contexts, and give a partial view of complex systems.
 
-## Guides and articles
+## Guide
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+[https://www.indexdatabase.de/info/help.php](https://www.indexdatabase.de/info/help.php) (it's not wildly detailed)
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Institute of Crop Science and Resource Conservation (INRES) (NB -- I have tried contacting the email address listed on the site and have not heard a response)
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| Agnes Cameron   |
+|                 |
 

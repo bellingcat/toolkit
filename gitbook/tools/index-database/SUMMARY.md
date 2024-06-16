@@ -1,4 +1,4 @@
 # Table of contents
 
-* [undefined](README.md)
-* [Categories](categories.md)
+* [Index Database](README.md)
+* [JSON](json.md)
