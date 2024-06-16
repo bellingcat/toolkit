@@ -1,4 +1,4 @@
 # Table of contents
 
-* [QGIS (Quantum GIS)](README.md)
-* [JSON](json.md)
+* [QGIS](README.md)
+* [Categories](categories.md)
