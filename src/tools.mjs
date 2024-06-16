@@ -330,6 +330,10 @@ function getTools() {
       // try to get the URL from the content
       // it may be a markdown link
       const urlmarkdown = content.match(/## URL\n\n(.*)\n\n/);
+      if (urlmarkdown === null) {
+        console.log("No url markdown matched for", filepath);
+        throw new Error("README format Error");
+      }
       const markdownLink = urlmarkdown[1].match(/\[(.*)\]\((.*)\)/);
       const url = markdownLink ? markdownLink[2] : urlmarkdown[1];
 
