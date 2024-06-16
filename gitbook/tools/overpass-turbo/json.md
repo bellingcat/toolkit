@@ -7,9 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-"name": "Overpass Turbo",
-"description":"Overpass Turbo is a web-based tool for querying and visualizing OpenStreetMap (OSM) data, aiding in extracting specific information like locations of amenities e.g. schools, hospitals, police stations",
-    "url": "https://overpass-turbo.eu/",
     "tags": ["free", "international", "mapping", "environment", "geospatial-information", "geospatial", "geographic-data-analysis", "spatial-analysis", "open-street-map", "osm", "gis", "geographic-information-system", "amenities", "road-networks"]
 }
 ```
