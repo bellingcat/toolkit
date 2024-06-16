@@ -6,7 +6,7 @@ description: >-
 
 # DomainTools Whois Lookup
 
-## URL
+URL
 
 [https://whois.domaintools.com/](https://whois.domaintools.com/)
 
@@ -22,12 +22,11 @@ The main Whois page includes a mix of free and paid tools that are offered by Do
 
 Of these, the following can be used without a DomainsTools license:
 
-* Reverse NS:&#x20;
-* Reverse IP Address Lookup:&#x20;
-* Current screenshot preview: shows a preview of the most recent screenshot associated with the domain (if available)
-* Available TLDs: shows an overview of other domains with the same website name but different top level domains (TLDs) such as ".net", ".org" or  ".info".&#x20;
-
-
+* **Reverse NS:** see what other domains are served by the selected name server. This can help you understand which websites are managed by the same hosting provider or server.
+  * A name server is a computer that translates domain names (such as www.google.com) into IP addresses (like 8.8.8.8), enabling computers to find and connect with each other on the internet.
+* **Reverse IP Address Lookup:** find all the domain names associated with a specific IP address.
+* C**urrent screenshot preview:** see the most recent screenshot of the content hosted on the website (if available)
+* **Available TLDs:** see an overview of other domains with the same website name but different top level domains (TLDs) such as ".net", ".org" or  ".info".  Can be used to discover other domains associated with the website, which may be used to host discover or outdated content.&#x20;
 
 ## Cost
 
@@ -47,13 +46,11 @@ None
 
 ## Limitations & Ethical Considerations
 
-Certain pivots and additional tools require a paid subscription to DomainTools.&#x20;
+Certain pivots and additional tools (e.g. hosting history, network tools) require a paid subscription to DomainTools.&#x20;
 
 As part of domain privacy measures, most domain registrars offer Whois privacy services that anonymize the registrant details. As a result, you may not be able to find the real name of the individual who owns a domain or other details associated with them. Instead you will see a "Registration Private" designation where the individual's name would be, and generic email and physical addresses associated with the domain registrar. For example, Bellingcat.com's Whois record contains such privacy measures:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-06-15 at 2.17.31 PM.png" alt=""><figcaption></figcaption></figure>
-
-In certain instances, you may be able to surface names or addresses a ssociated with real invidiuals by going back in Whois&#x20;
 
 ## Guides and articles
 
