@@ -7,10 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "overpass-turbo",
-  "url": "https://overpass-turbo.eu/",
-  "description": "A web based data mining tool for OpenStreetMap.",
-  "cost": "Free",
   "tags": [
     "maps-and-satellites",
     "maps"
