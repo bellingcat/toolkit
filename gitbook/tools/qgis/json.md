@@ -7,8 +7,22 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-    "details": "[Guide](https://www.qgis.org/en/site/forusers/trainingmaterial/index.html)",
-    "tags": ["gis", "geographic-information-system", "free", "geospatial-information", "geographic-data-analysis", "mapping", "satellite", "satellite-imagery", "remote-sensing", "environment",  "geospatial", "international", "spatial-analysis"]
+  "details": "[Guide](https://www.qgis.org/en/site/forusers/trainingmaterial/index.html)",
+  "tags": [
+    "gis",
+    "geographic-information-system",
+    "free",
+    "geospatial-information",
+    "geographic-data-analysis",
+    "mapping",
+    "satellite",
+    "satellite-imagery",
+    "remote-sensing",
+    "environment",
+    "geospatial",
+    "international",
+    "spatial-analysis"
+  ]
 }
 ```
 {% endcode %}
