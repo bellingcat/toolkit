@@ -202,31 +202,11 @@ None. No account is needed.
 
 ## Ethical Considerations
 
-#### Overview: Ethical Low Risk, High Opportunity
-
-SunCalc can and has been used in chronolocation and confirming geolocation of imagery from remote areas which claims to depict mistreatment of indigenous minorities. As such, it can be used to support work which seeks to protect human rights, indigenous peoples, minorities and the environment through accurate geolocation. In very rare cases, geolocation and chronolocation reveal the identify of people providing source information, which could put them/their contacts at risk of reprisal. Source information providers may or may not be aware of this risk, so there is a responsibility on the Open Source researcher, who may have more information for accurate risk assessment, to evaluate that risk on their behalf. Many information providers willingly undertake the risk of reprisal for the benefit of drawing public/global attention to situations and events they hope will be changed or acted upon as a result of exposure.
-
 <details>
 
 <summary>Personal Privacy of, and Risk To, SunCalc Users ...(Click for more detail)</summary>
 
 SunCalc does not require a login and does not store source information, and thus poses negligible risk to users' privacy
-
-</details>
-
-<details>
-
-<summary>Environmental Damage..(Click for more detail)</summary>
-
-Promotion of remote/difficult-to-access locations through Open Source investigation could lead to sufficient numbers of new visitors to create environmental damage, but geolocation could not usually be achieved via SunCalc alone. Other tools would be needed. Depending upon the existence of local communities and the nature of their economies, more visitors might be welcomed, or deplored, but every location has a limit on the number of visitors it can sustain without harm
-
-</details>
-
-<details>
-
-<summary>Risk to Communities...(Click for more detail)</summary>
-
-Where SunCalc's output is used to promote remote/difficult-to-access locations with navigational assistance in accessing them, this could pose a threat to the wellbeing, safety and way of life of local communities.
 
 </details>
 
