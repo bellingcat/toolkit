@@ -10,7 +10,7 @@ https://haveibeenpwned.com/
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Have I Been Pwned allows you to search across multiple data breaches to see if your email address or phone number has been compromised.  It searches through over 700 websites and more than 100,000 pastes. When you search for an email address or phone number, the screen will either turn green, indicating no compromised accounts found, or red, indicating compromised accounts. If the screen turns red, you'll see a list of platforms or websites where your account details were compromised, along with additional information on when and what kind of data was affected. This tool is especially useful for finding where a person of interest had accounts and using those for further research.![](.gitbook/assets/image.png)
 
 ## Cost
 
@@ -18,7 +18,7 @@ https://haveibeenpwned.com/
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+
 
 ## Level of difficulty
 
@@ -54,4 +54,3 @@ https://haveibeenpwned.com/
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
