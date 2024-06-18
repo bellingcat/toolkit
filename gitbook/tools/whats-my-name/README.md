@@ -10,7 +10,11 @@ https://whatsmyname.app/
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+The website checks if a particular username exists in different platforms and websites and if it does, it links to it. It is a quick way to find where else a person of interest might have accounts. &#x20;
+
+By searching Bellingcat on WhatsMyName web, we get 37 places where such username is used. The green boxes are clickable and will take you to the user page. Beware that different people can use the same username.&#x20;
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Cost
 
@@ -30,7 +34,7 @@ https://whatsmyname.app/
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+You have to allow cookies. The tool runs searches in 500+ platforms, not everywhere. Results do not show Facebook and Instagram links.&#x20;
 
 ## Ethical Considerations
 
@@ -42,7 +46,11 @@ https://whatsmyname.app/
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+From the website:&#x20;
+
+"Website version of WhatsMyName proudly developed by OSINT Combine (https://www.osintcombine.com) in collaboration with Micah Hoffman.&#x20;
+
+Authors: Micah 'WebBreacher' Hoffman, C3n7ral051nt4g3ncy, balestek, fres621, Paradoxxs, Itsoon, K2SOsint, Lucas 'P1ngul1n0' Antoniaci"
 
 ## Advertising Trackers
 
@@ -54,4 +62,3 @@ https://whatsmyname.app/
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
