@@ -15,7 +15,7 @@ https://geohints.com/
 
 Geohints provides example images of geographical entities from different countries around the world to help open source researchers identify what country an image may come from. &#x20;
 
-GeoHints shows pictures of things like license plates, post boxes, road signs, etc. from different countries or regions. Those pictures are often but not always taken from Google StreetView.&#x20;
+GeoHints shows pictures of things like license plates, post boxes, road signs, etc. from different countries or regions. Those pictures are often (but not always) taken from Google StreetView.&#x20;
 
 Geohints was originally created for players of [https://www.geoguessr.com/](https://www.geoguessr.com/).
 
@@ -101,8 +101,6 @@ To effectively use Geohints, especially for beginners or those looking to refine
 
 * Discord service not working
 
-By utilizing these resources, users can enhance their Geohints experience, whether for personal navigation, planning trips, or developing custom mapping solutions.
-
 ## Tool provider
 
 Not clear
@@ -121,7 +119,7 @@ _Interactive maps: Sören_
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Unassigned      |
-|                 |
+| Page maintainer                      |
+| ------------------------------------ |
+| Bellingcat Volunteer Team/Unassigned |
+|                                      |
