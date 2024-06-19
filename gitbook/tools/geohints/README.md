@@ -68,7 +68,7 @@ Geohints was originally created for players of [https://www.geoguessr.com/](http
 
 GeoHints has the following limitations:
 
-* **Accuracy**: Geolocation data can sometimes be inaccurate due to various factors like signal obstruction or network issues.
+Some regions and countries have better coverage than others on GeoHints. Not much or no information might be available for some countries.
 
 ## Ethical Considerations
 
