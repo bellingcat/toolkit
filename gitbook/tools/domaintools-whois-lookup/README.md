@@ -26,7 +26,7 @@ Of these, the following can be used without a DomainsTools license:
   * A name server is a computer that translates domain names (such as www.google.com) into IP addresses (like 8.8.8.8), enabling computers to find and connect with each other on the internet.
 * **Reverse IP Address Lookup:** find all the domain names associated with a specific IP address.
 * C**urrent screenshot preview:** see the most recent screenshot of the content hosted on the website (if available)
-* **Available TLDs:** see an overview of other domains with the same website name but different top level domains (TLDs) such as ".net", ".org" or  ".info".  Can be used to discover other domains associated with the website, which may be used to host discover or outdated content.&#x20;
+* **Available TLDs:** see an overview of other domains with the same website name but different top level domains (TLDs) such as ".net", ".org" or ".info". Can be used to discover other domains associated with the website, which may be used to host discover or outdated content.
 
 ## Cost
 
@@ -44,7 +44,7 @@ None
 
 ## Limitations & Ethical Considerations
 
-Certain pivots and additional tools (e.g. hosting history, network tools) require a paid subscription to DomainTools.&#x20;
+Certain pivots and additional tools (e.g. hosting history, network tools) require a paid subscription to DomainTools.
 
 As part of domain privacy measures, most domain registrars offer Whois privacy services that anonymize the registrant details. As a result, you may not be able to find the real name of the individual who owns a domain or other details associated with them. Instead you will see a "Registration Private" designation where the individual's name would be, and generic email and physical addresses associated with the domain registrar. For example, Bellingcat.com's Whois record contains such privacy measures:
 
@@ -52,13 +52,13 @@ As part of domain privacy measures, most domain registrars offer Whois privacy s
 
 ## Guides and articles
 
-User guides by DomainsTools can be found [here](https://www.domaintools.com/wp-content/uploads/Whois-User-Guide.pdf) and [here](https://www.domaintools.com/resources/user-guides/whois-history/).&#x20;
+User guides by DomainsTools can be found [here](https://www.domaintools.com/wp-content/uploads/Whois-User-Guide.pdf) and [here](https://www.domaintools.com/resources/user-guides/whois-history/).
 
-API documentation can be found [here](https://www.domaintools.com/resources/api-documentation/whois-lookup/).&#x20;
+API documentation can be found [here](https://www.domaintools.com/resources/api-documentation/whois-lookup/).
 
 ## Tool provider
 
-[DomainTools](https://www.domaintools.com/) is a provider of Whois and other DNS profile data for threat intelligence enrichment
+[DomainTools](https://www.domaintools.com/) is a provider of Whois and other DNS profile data for threat intelligence enrichment.
 
 ## Advertising Trackers
 
