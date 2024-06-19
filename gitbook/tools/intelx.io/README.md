@@ -1,8 +1,8 @@
 ---
-description: A brief one-line description of the tool.
+description: Find user details in data breaches
 ---
 
-# intelx.io
+# Intelx.io
 
 ## URL
 
@@ -10,15 +10,21 @@ http://intelx.io/
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Intelx lets you search email addresses (and other inputs) in its database of information from the darknet, document sharing platforms, whois data, public data leaks and others. You can expect to find associated accounts, names, IP addresses, passwords, dates of birth, etc.&#x20;
+
+&#x20;In the example below, Intelx finds a particular email address in a leak of Twitter and Chegg. The twitter one shows info on names, screen names, followers and the creation time. The Chegg database shows email addresses and their passwords.
+
+![](.gitbook/assets/image.png)&#x20;
+
+By clicking on the database you can see the whole file and make a search for an email of interest.&#x20;
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
-* [ ] Paid
+* [ ] Free
+* [x] Partially Free
+* [x] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+Very limited results with a free account. Prices start at € 2.500 /Year. There's been cases when journalists were allowed to use the database for free. &#x20;
 
 ## Level of difficulty
 
@@ -34,7 +40,9 @@ http://intelx.io/
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Strong ethical considerations as you are looking into leaked data of users. Depending on the ethical and legal threshold of your work, you may or may not use it. Asses if researching a person of interest in the leaked database is worth it, if public benefit is great, does the end justifies the means?&#x20;
+
+If yes, do not use the data to hack into an account. OSINTers have used intelx before to find associated accounts - e.g. from an email address finding twitter account, to find more info on a research subject - e.g. date of birth.&#x20;
 
 ## Guides and articles
 
@@ -42,7 +50,7 @@ http://intelx.io/
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Founder info can be found at [https://intelx.io/about](https://intelx.io/about)&#x20;
 
 ## Advertising Trackers
 
@@ -54,4 +62,3 @@ http://intelx.io/
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
