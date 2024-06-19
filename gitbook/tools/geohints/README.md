@@ -1,8 +1,8 @@
 ---
 description: >-
   GeoHints is a website that provides information about things like traffic
-  lights, utility poles, bollards etc. on Google Streetview for different
-  regions of the world to help geolocate a location.
+  lights, utility poles, bollards etc. for different regions of the world to
+  help geolocate a location.
 ---
 
 # GeoHints
@@ -13,9 +13,9 @@ https://geohints.com/
 
 ## Description
 
-Geohints provides example images of geographical entities from different countries around the world to help open source researchers identify what county an image may come from. &#x20;
+Geohints provides example images of geographical entities from different countries around the world to help open source researchers identify what country an image may come from. &#x20;
 
-GeoHints shows pictures of things like license plates, post boxes, road signs, etc. from different countries or regions.&#x20;
+GeoHints shows pictures of things like license plates, post boxes, road signs, etc. from different countries or regions. Those pictures are often but not always taken from Google StreetView.&#x20;
 
 Geohints was originally created for players of [https://www.geoguessr.com/](https://www.geoguessr.com/).
 
