@@ -31,14 +31,16 @@ Baidu Maps is available in the following formats:
 * Web
 * Mobile
 
-<figure><img src=".gitbook/assets/Screenshot 2024-04-18 at 11.39.48 AM.png" alt=""><figcaption><p>Baidu Maps Screenshot</p></figcaption></figure>
+The example below shows a search for 北京 (Beijing):
+
+<figure><img src=".gitbook/assets/Screenshot 2024-06-15 at 11.33.12 AM.png" alt="Screenshot of Baidu Maps interface showing search for Beijing on a street map."><figcaption><p>Screenshot of search for Beijing.</p></figcaption></figure>
 
 Open source researchers can use Baidu Maps in various capacities:
 
 1. **Geospatial Analysis**: Researchers can use Baidu Maps for in-depth geospatial analyses of Chinese terrain, urban development, and infrastructure changes over time.&#x20;
 2. **Cultural and Historical Research**: With its street view feature and detailed map data, Baidu Maps can also serve as a platform for exploring cultural landmarks, historical sites, and architectural evolution in different parts of China.
 3. **Environmental Monitoring**: Researchers focusing on environmental conservation and climate change can use the satellite imagery provided by Baidu Maps to monitor deforestation, urban sprawl, and environmental degradation over time.&#x20;
-4. **Coverage of Natural Disasters:** In reporting on natural disasters, journalists can use Baidu Maps’ real-time traffic data and updates on affected areas.
+4. **Coverage of Natural Disasters:** Although Baidu Maps does not provide explicit natural disaster coverage its real-time traffic data can be used to identify areas affected.
 
 ## Cost
 
@@ -64,19 +66,15 @@ Baidu Maps, while offering comprehensive mapping services, particularly in China
 
 * **Geographical Restrictions**: Its most detailed coverage is limited to China, with less detailed data available for other areas.
 * **Language Barrier**: The primary interface and documentation are in Chinese, which can be a barrier for non-Chinese speakers.
-* **API Access Restrictions**: International users may experience slower access speeds or need a Chinese IP address to access certain APIs.
-* **Data Usage License**: Data extracted from Baidu Maps might have strict usage and distribution restrictions.
-* **API Rate Limits**: There are limitations on the number of API requests that can be made, which might not meet the needs of all projects.
-* **Integration Challenges**: Integrating Baidu Maps with non-Chinese software or services can sometimes face compatibility issues due to different standards or regulations.
+* **Access Speed**: International users will experience slower access speeds or need a Chinese IP address to access certain APIs. The Chinese government's [Great Firewall](https://en.wikipedia.org/wiki/Great\_Firewall) slows traffic plus Baidu's servers [are hosted China, not on a distributed content network (CDN)](https://chinese.stackexchange.com/questions/736/why-are-sites-like-youku-and-baidu-so-slow-overseas) so the distance to the nearest server is a factor.
+* **API Rate Limits**: There are limitations on the number of API requests that can be made. Although we cannot verify what these are they will impact the use of the API.
 
 ## Ethical Considerations
 
 When using Baidu Maps, it is important to consider various ethical implications:
 
-* **Privacy Concerns**: Like many mapping services, Baidu Maps gathers user data, which raises questions about data privacy and protection.
-* **Data Accuracy**: The reliability and accuracy of the data provided, particularly outside of China, can impact research and applications built on this data.
-* **Censorship and Content Control**: Being a Chinese company, Baidu Maps may adhere to government censorship laws, affecting the type of content available or omitted.
-* **Use of AI and Machine Learning**: How Baidu Maps uses AI to interpret and display data may also have ethical implications, especially in how it manages biases or interprets disputed territories.
+* **Privacy Concerns**: Like many mapping services, Baidu Maps gathers user data, which raises questions about data privacy and protection. This is particularly significant for the Baidu browser and on [mobile apps](https://citizenlab.ca/2016/02/privacy-security-issues-baidu-browser/).
+* **Censorship and Content Control**: Being a Chinese company, Baidu Maps may adhere to government censorship laws, affecting the type of content available or omitted. More information [here](https://www.hrw.org/reports/2006/china0806/3.htm).
 
 ## Guide
 
