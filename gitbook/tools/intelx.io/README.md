@@ -24,7 +24,7 @@ By clicking on the database you can see the whole file and make a search for an 
 * [x] Partially Free
 * [x] Paid
 
-Very limited results with a free account. Prices start at € 2.500 /Year. There's been cases when journalists were allowed to use the database for free. &#x20;
+Very limited results with a free account. Prices start at € 2.500 /Year. There's been cases when journalists were given free access. &#x20;
 
 ## Level of difficulty
 
@@ -40,9 +40,9 @@ Very limited results with a free account. Prices start at € 2.500 /Year. There
 
 ## Ethical Considerations
 
-Strong ethical considerations as you are looking into leaked data of users. Depending on the ethical and legal threshold of your work, you may or may not use it. Asses if researching a person of interest in the leaked database is worth it, if public benefit is great, does the end justifies the means?&#x20;
+Consider the strong ethical implications of examining leaked user data. Depending on the ethical and legal standards of your work, you may decide whether or not to use it. Assess if researching a person of interest in the leaked database is justified by the potential public benefit. Does the end justify the means?
 
-If yes, do not use the data to hack into an account. OSINTers have used intelx before to find associated accounts - e.g. from an email address finding twitter account, to find more info on a research subject - e.g. date of birth.&#x20;
+If you decide to proceed, do not use the data to hack into accounts. Instead, consider methods used by open source researchers, such as using intelx to find associated accounts (e.g., discovering a Twitter account from an email address) and to gather more information on a research subject, like their date of birth.
 
 ## Guides and articles
 
