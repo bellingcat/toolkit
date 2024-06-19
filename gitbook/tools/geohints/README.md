@@ -1,5 +1,8 @@
 ---
-description: Overview of different traffic lights, utility poles, bollards etc on Google Streetview
+description: >-
+  GeoHints is a website that provides information about things like traffic
+  lights, utility poles, bollards etc. on Google Streetview for different
+  regions of the world to help geolocate a location.
 ---
 
 # GeoHints
@@ -10,7 +13,38 @@ https://geohints.com/
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+GeoHints is a tool open source researchers use as it provides geo-spatial data and visual information to help locate and verify geographical entities such as license plates, post boxes, road signs, etc. It aids in analyzing satellite images, cross-referencing maps, and generating accurate geographical insights, making it a powerful resource for investigative work. Geohints was originally created for players of [https://www.geoguessr.com/](https://www.geoguessr.com/).
+
+Geohints provides example images of geographical entities from different countries to help in identifying what county an image may come from. &#x20;
+
+**Features**
+
+* **Architecture**
+* **Bollards**
+* **Companies:** images of beers, petrol stations and post offices from different countries.&#x20;
+* **Camera Gens** - different Google camera gens Gen 1, Gen 2, Gen 3, Gen 4, Trekker
+* **Countries** - Google Street View country coverage.&#x20;
+* **Currencies**
+* **Domains** url country domains
+* **Driving side**
+* **Flags**
+* **Follow Cars**
+* **Google Vehicles**
+* **House Numbers**
+* **License Plates**
+* **Road Lines**
+* **Nature** - plants
+* **Phone Numbers:** telephone country codes.
+* **Post Boxes**
+* **Rifts:** camera distortions
+* **Scenery**
+* **Sidewalks**
+* **Road Signs**
+* **Snow:** snow coverage in different countries.
+* **Street Suffix**
+* **Traffic Lights**
+* **Utility Poles**
+* **Years:** the years in which Google Street View cameras gathered imagery.
 
 ## Cost
 
@@ -18,31 +52,64 @@ https://geohints.com/
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+* **Web:** Any modern web browser.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+GeoHints has the following limitations:
+
+* **Accuracy**: Geolocation data can sometimes be inaccurate due to various factors like signal obstruction or network issues.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+GeoHints, like any other geolocation tool, presents several ethical considerations:
+
+* **Privacy Concerns**: Collecting and storing geolocation data can lead to privacy breaches. It's essential to ensure that users are informed and give explicit consent.
+* **Data Security**: Safeguarding the collected geolocation data from unauthorized access is crucial to prevent misuse.
+* **Usage Transparency**: Clearly communicate how the geolocation data will be used, who has access to it, and for what purposes.
+* **Bias and Discrimination**: Avoid using geolocation data in ways that could lead to discriminatory practices or biases.
+* **Anonymization**: Where possible, anonymize geolocation data to protect the identities of the individuals involved.
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+To effectively use Geohints, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
+
+**Official Wiki**&#x20;
+
+* [https://geohints.com/FAQ](https://geohints.com/FAQ)
+
+**Articles**
+
+* _Beginner’s Guide to Geoguessr 3_ (no date) _Plonk It_. Available at: [https://www.plonkit.net/beginners-guide-3](https://www.plonkit.net/beginners-guide-3) (Accessed: 13 June 2024).
+
+**Video**&#x20;
+
+* _Twitch_ (no date) _Twitch_. Available at: [https://www.twitch.tv/geohints](https://www.twitch.tv/geohints) (Accessed: 13 June 2024).
+* _What is the Best Way to Learn Geoguessr in 2023?_ (2023). Available at: [https://www.youtube.com/watch?v=j-PidoFqZFY](https://www.youtube.com/watch?v=j-PidoFqZFY) (Accessed: 13 June 2024).
+
+#### Community and Support
+
+* Discord service not working
+
+By utilizing these resources, users can enhance their Geohints experience, whether for personal navigation, planning trips, or developing custom mapping solutions.
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Not clear
+
+_Research & website: MouseWithBeer_&#x20;
+
+_Graphical work & research: PV\_93_&#x20;
+
+_United States part of Geohints: Oddtom_&#x20;
+
+_Interactive maps: Sören_
 
 ## Advertising Trackers
 
@@ -50,8 +117,7 @@ https://geohints.com/
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer |
+| --------------- |
+| Unassigned      |
+|                 |
