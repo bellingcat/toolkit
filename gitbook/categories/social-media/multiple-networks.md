@@ -2,7 +2,7 @@
 
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
-| [**Blackbird**](https://github.com/p1ngul1n0/blackbird) | Check usernames and email addresses on websites and social networks | <mark style="background-color:green;">Free</mark> | 🗣️ Easy to use web interface on this [website](https://blackbird-osint.herokuapp.com/) |
+| [**Blackbird**](https://github.com/p1ngul1n0/blackbird) | Check usernames and email addresses on websites and social networks | <mark style="background-color:green;">Free</mark> | [Details](../../tools/blackbird/README.md) |
 | [**Hashatit**](https://www.hashatit.com/) | Free tool for simultaneous hashtag search on Twitter, Facebook, Instagram, Youtube, Reddit, Flickr and Vimeo, Tumblr. With filter | <mark style="background-color:green;">Free</mark> | Guide: Inactive, up for removal  |
 | [**Have I Been Pwned?**](https://haveibeenpwned.com/) | Does email or phone appear in data breaches? | <mark style="background-color:green;">Free</mark> | 📞📧  |
 | [**holehe**](https://github.com/megadose/holehe) | holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function. | <mark style="background-color:green;">Free</mark> |  |
