@@ -13,9 +13,11 @@ https://geohints.com/
 
 ## Description
 
-Geohints provides example images of geographical entities from different countries to help identifying what county an image may come from. &#x20;
+Geohints provides example images of geographical entities from different countries around the world to help open source researchers identify what county an image may come from. &#x20;
 
-GeoHints provides information things like license plates, post boxes, road signs, etc. It aids in analyzing satellite images, cross-referencing maps, and generating accurate geographical insights, making it a powerful resource for investigative work. Geohints was originally created for players of [https://www.geoguessr.com/](https://www.geoguessr.com/).
+GeoHints shows pictures of things like license plates, post boxes, road signs, etc. from different countries or regions.&#x20;
+
+Geohints was originally created for players of [https://www.geoguessr.com/](https://www.geoguessr.com/).
 
 
 
@@ -56,7 +58,7 @@ GeoHints provides information things like license plates, post boxes, road signs
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
