@@ -13,9 +13,11 @@ https://geohints.com/
 
 ## Description
 
-GeoHints is a tool open source researchers use as it provides geo-spatial data and visual information to help locate and verify geographical entities such as license plates, post boxes, road signs, etc. It aids in analyzing satellite images, cross-referencing maps, and generating accurate geographical insights, making it a powerful resource for investigative work. Geohints was originally created for players of [https://www.geoguessr.com/](https://www.geoguessr.com/).
+Geohints provides example images of geographical entities from different countries to help identifying what county an image may come from. &#x20;
 
-Geohints provides example images of geographical entities from different countries to help in identifying what county an image may come from. &#x20;
+GeoHints provides information things like license plates, post boxes, road signs, etc. It aids in analyzing satellite images, cross-referencing maps, and generating accurate geographical insights, making it a powerful resource for investigative work. Geohints was originally created for players of [https://www.geoguessr.com/](https://www.geoguessr.com/).
+
+
 
 **Features**
 
