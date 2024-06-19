@@ -76,3 +76,4 @@
   * [Hugin](tools/hugin/README.md)
   * [Telepathy](tools/telepathy/README.md)
   * [Liveuamap](tools/liveuamap/README.md)
+  * [Blackbird](tools/blackbird/README.md)
