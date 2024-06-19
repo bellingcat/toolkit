@@ -1,8 +1,8 @@
 ---
 description: >-
   Overpass Turbo is a web-based tool for querying and visualizing OpenStreetMap
-  (OSM) data, aiding in extracting specific information like locations of
-  amenities e.g. schools, hospitals, police stations
+  data, aiding in extracting specific information like locations of amenities
+  e.g. schools, hospitals, police stations.
 ---
 
 # Overpass Turbo
@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-Overpass Turbo is a web application designed for querying and analyzing data from OpenStreetMap (OSM), providing a user-friendly interface for conducting complex queries on OSM's expansive database. This tool is particularly valuable for users interested in geographic information systems (GIS), offering functionalities crucial for data mining, research, and decision-making in various fields like urban planning, disaster management, and environmental studies. Through Overpass Turbo, users can extract specific information such as the location of amenities, road networks, and geographical features, facilitating detailed analysis and visualization of geographic data across the globe.
+Overpass Turbo is a web application designed for querying and analyzing data from OpenStreetMap (OSM), providing an interface for conducting complex queries on OSM's expansive database. This tool is particularly valuable for users interested in geographic information systems (GIS), offering functionalities crucial for data mining and research in various fields like urban planning, disaster management, and environmental studies. Through Overpass Turbo, users can extract specific information such as the location of amenities, road networks, and geographical features, facilitating detailed analysis and visualization of geographic data across the globe.
 
 The full list of [amenities](https://wiki.openstreetmap.org/wiki/Key:amenity) that can be searched for is available here: [https://wiki.openstreetmap.org/wiki/Key:amenity](https://wiki.openstreetmap.org/wiki/Key:amenity)
 
@@ -34,8 +34,6 @@ The full list of [amenities](https://wiki.openstreetmap.org/wiki/Key:amenity) th
 * **Zoom tool:** zoom in and out on the map.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-03-31 at 12.44.00 PM (1).png" alt="Screenshot of Overpass Turbo with a query for drinking water fountains and a map with the fountains highlighted in red."><figcaption><p>Screenshot <a href="https://overpass-turbo.eu/">https://overpass-turbo.eu/</a></p></figcaption></figure>
-
-
 
 ### **Example Use Cases**
 
@@ -75,7 +73,7 @@ Any modern web browser.
 
 ## Ethical Considerations
 
-&#x20;Overpass Turbo has the following ethical considerations
+Overpass Turbo has the following ethical considerations
 
 * **Privacy and Data Sensitivity**: While Overpass Turbo offers broad access to public OpenStreetMap (OSM) data, users should be cautious when querying or sharing data that could potentially reveal sensitive information about individuals or locations.
 * **Responsible Use of Resources**: Given the resource-intensive nature of some queries, users should consider the impact of their actions on the availability of Overpass Turbo for others. Excessive or unnecessary querying can lead to server strain, affecting the service for all users.
@@ -120,10 +118,8 @@ _overpass turbo_ is maintained by Martin Raifer (tyr.asd at gmail.com) [_Open St
 
 | Page maintainer           |
 | ------------------------- |
-| Bellingcat volunteer team |
+| Bellingcat Volunteer Team |
 |                           |
-
-
 
 ## See Also
 
