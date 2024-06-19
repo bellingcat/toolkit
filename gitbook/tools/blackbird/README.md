@@ -18,7 +18,7 @@ Blackbird is integrated with [WhatsMyName](https://github.com/WebBreacher/WhatsM
 
 For email address searches, it appears to query the servers of websites maintained by WhatsMyName to determine whether an account has been made with that email address. If the user has a valid account on the service, Blackbird will return a URL of the user profile in the results.&#x20;
 
-Blackbird, like other username enumeration tools such as Sherlock, checks usernames against its unique collection of sources, resulting in different results for the same username compared to Sherlock. For example, Blackbird covers more NSFW and alternative social media sources (including Gab and Truth Social), while Sherlock has better results in surfacing accounts on mainstream social networks that are currently or were in the past popular, such as Linkedin, ICQ, 9Gag, Letterboxd and similar, as well.
+Blackbird, like other username enumeration tools such as [Sherlock](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock), checks usernames against its unique collection of sources, resulting in different results for the same username compared to Sherlock. For example, Blackbird covers more NSFW and alternative social media sources (including Gab and Truth Social), while Sherlock has better results in surfacing accounts on mainstream social networks that are currently or were in the past popular, such as Linkedin, ICQ, 9Gag, Letterboxd and similar, as well.
 
 <div align="center">
 
@@ -26,7 +26,7 @@ Blackbird, like other username enumeration tools such as Sherlock, checks userna
 
 </div>
 
-<figure><img src=".gitbook/assets/Screen Shot 2024-06-16 at 2.46.36 PM.png" alt="" width="375"><figcaption><p>Sherlock's list of results for "bellingcat" usernames</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screen Shot 2024-06-16 at 2.46.36 PM.png" alt="" width="375"><figcaption><p><a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock">Sherlock</a>'s list of results for "bellingcat" usernames</p></figcaption></figure>
 
 On the other hand, the rate of false positives and invalid results are fairly low with Blackbird. As a result, Blackbird complements other email address search tools by surfacing unique results and using it conjunction with other tools is recommended to get the widest breadth of results.&#x20;
 
