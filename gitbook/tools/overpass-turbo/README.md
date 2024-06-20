@@ -1,8 +1,8 @@
 ---
 description: >-
   Overpass Turbo is a web-based tool for querying and visualizing OpenStreetMap
-  data, aiding in extracting specific information like locations of amenities
-  e.g. schools, hospitals, police stations.
+  crowd sourced data, aiding in extracting specific information like locations
+  of amenities e.g.hospitals, police stations.
 ---
 
 # Overpass Turbo
@@ -13,9 +13,9 @@ description: >-
 
 ## Description
 
-Overpass Turbo is a web application designed for querying and analyzing data from OpenStreetMap (OSM), providing an interface for conducting complex queries on OSM's expansive database. This tool is particularly valuable for users interested in geographic information systems (GIS), offering functionalities crucial for data mining and research in various fields like urban planning, disaster management, and environmental studies. Through Overpass Turbo, users can extract specific information such as the location of amenities, road networks, and geographical features, facilitating detailed analysis and visualization of geographic data across the globe.
+Overpass Turbo is a web application designed for querying and analyzing crowd sourced data from OpenStreetMap (OSM), providing an interface for conducting complex queries on OSM's expansive database. This tool is particularly valuable for users interested in geographic information systems (GIS), offering functionalities crucial for data mining and research in various fields like urban planning, disaster management, and environmental studies. Through Overpass Turbo, users can extract specific information such as the location of amenities, road networks, and geographical features, facilitating detailed analysis and visualization of geographic data across the globe.
 
-The full list of [amenities](https://wiki.openstreetmap.org/wiki/Key:amenity) that can be searched for is available here: [https://wiki.openstreetmap.org/wiki/Key:amenity](https://wiki.openstreetmap.org/wiki/Key:amenity)
+The full list of searchable map features is available [here](https://wiki.openstreetmap.org/wiki/Map\_features) and a visual guide to OSM tags is available [here](https://taginfo.openstreetmap.org/).
 
 **Features:**
 
@@ -33,7 +33,9 @@ The full list of [amenities](https://wiki.openstreetmap.org/wiki/Key:amenity) th
 * **Zoom to data:** zoom to include all data points.
 * **Zoom tool:** zoom in and out on the map.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-03-31 at 12.44.00 PM (1).png" alt="Screenshot of Overpass Turbo with a query for drinking water fountains and a map with the fountains highlighted in red."><figcaption><p>Screenshot <a href="https://overpass-turbo.eu/">https://overpass-turbo.eu/</a></p></figcaption></figure>
+The example below shows a query for Drinking Water fountain amenities:
+
+<figure><img src=".gitbook/assets/Screenshot 2024-03-31 at 12.44.00 PM (1).png" alt="Screenshot of Overpass Turbo with a query for drinking water fountains and a map with the fountains highlighted in red."><figcaption><p>Screenshot of search results for a query for Drinking Water fountain amenities.</p></figcaption></figure>
 
 ### **Example Use Cases**
 
@@ -70,13 +72,14 @@ Any modern web browser.
 * **Data Currency:** While Overpass Turbo provides access to up-to-date OSM data, there may be a minor delay in data refresh rates which could impact real-time data analysis needs.
 * **Geographical Limitations:** Performance and efficiency can degrade for queries that span very large geographical areas or the entire globe.
 * **User Interface:** While functional, the user interface may not be as intuitive or user-friendly for those not familiar with geographical information systems (GIS) or coding.
+* **Crowdsourced data**: availability of data depends on the data users have provided to OSM.
 
 ## Ethical Considerations
 
 Overpass Turbo has the following ethical considerations
 
 * **Privacy and Data Sensitivity**: While Overpass Turbo offers broad access to public OpenStreetMap (OSM) data, users should be cautious when querying or sharing data that could potentially reveal sensitive information about individuals or locations.
-* **Responsible Use of Resources**: Given the resource-intensive nature of some queries, users should consider the impact of their actions on the availability of Overpass Turbo for others. Excessive or unnecessary querying can lead to server strain, affecting the service for all users.
+* **Responsible Use of Resources**: Given the resource-intensive nature of some queries, users should consider the impact of their actions on the availability of Overpass Turbo for others. Excessive or unnecessary querying can lead to server strain, affecting the service for all users (see [Heavy Traffic](https://www.browserstack.com/guide/why-website-loading-slow)).
 * **Data Accuracy and Misuse**: Users should be aware that data obtained from Overpass Turbo, as with any crowdsourced information, may not always be accurate or up to date. Misinterpretation or misuse of this data can lead to ethical concerns, especially if used in critical applications or decision-making processes.
 * **Open Data Ethics**: Engaging with Overpass Turbo and OSM data should align with the ethics of open data usage, including respecting licensing agreements, attributing data correctly, and contributing to the data's quality and richness where possible.
 
