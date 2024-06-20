@@ -1,4 +1,3 @@
 # Table of contents
 
-* [TGstat](README.md)
-* [Categories](categories.md)
+* [TGStat](README.md)
