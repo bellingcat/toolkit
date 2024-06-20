@@ -3,7 +3,7 @@
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
 | [**4plebs**](https://4plebs.org/) | Searchable archive of specific 4chan boards. Makes it possible to read threads after they are purged from 4chan. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/4plebs/README.md) |
-| [**Blackbird**](https://github.com/p1ngul1n0/blackbird) | Check usernames and email addresses on websites and social networks | <mark style="background-color:green;">Free</mark> | 🗣️ Easy to use web interface on this [website](https://blackbird-osint.herokuapp.com/) |
+| [**Blackbird**](https://github.com/p1ngul1n0/blackbird) | Check usernames and email addresses on websites and social networks | <mark style="background-color:green;">Free</mark> | [Details](../../tools/blackbird/README.md) |
 | [**ClubhouseDB**](https://clubhousedb.com/) | Search users, number of followers/following, and date of registry | <mark style="background-color:green;">Free</mark> |  |
 | [**Google Account Finder (EPIEOS)**](https://tools.epieos.com/google-account.php) | Find the profile picture and public Google Map Reviews + Photos associated with a G-mail adress. Also checks for phone numbers, and checks for email addresses on social networks | <mark style="background-color:green;">Free</mark> |  |
 | [**Gravatar Email Checker**](https://en.gravatar.com/site/check/) | Check if an email address has been used to comment on blogs and whether there is a profile image attached. | <mark style="background-color:green;">Free</mark> |  |
