@@ -26,13 +26,15 @@ Use cases as described by OpenCorporates:
 * [x] Partially Free
 * [ ] Paid
 
+API access requires a monthly/yearly subscription.
+
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
-API access requires a monthly/yearly subscription.
+
 
 ## Limitations
 
