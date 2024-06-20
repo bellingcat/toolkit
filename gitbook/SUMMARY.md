@@ -78,4 +78,5 @@
   * [Liveuamap](tools/liveuamap/README.md)
   * [Blackbird](tools/blackbird/README.md)
   * [DomainTools Whois Lookup](tools/domaintools-whois-lookup/README.md)
+  * [Baidu Maps](tools/baidu-maps/README.md)
 
