@@ -32,15 +32,15 @@ The index lists sensors, and not the datasets linked to each sensor -- so if you
 
 ## Ethical Considerations
 
-Like any tool related to or making use of remote sensing data, the ethical considerations of IDB relate primarily to accuracy, and the broader systemic effects of developing systems for monitoring/understanding an environment or a social system that are based remotely and don't have a lot to do with the people and ecology there. It's always worth thinking about the basis for claims that are made using these tools, which are blunt generalisations across a wide range of different contexts, and give a partial view of complex systems.
+Like any tool related to or making use of remote sensing data, the ethical considerations of IDB relate primarily to accuracy, and the broader systemic effects of developing systems for monitoring/understanding an environment or a social system that are based remotely and don't have a lot to do with the people and ecology there. It's always worth thinking about the basis for claims that are made using these tools.
 
 ## Guide
 
-[https://www.indexdatabase.de/info/help.php](https://www.indexdatabase.de/info/help.php) (it's not wildly detailed)
+[https://www.indexdatabase.de/info/help.php](https://www.indexdatabase.de/info/help.php)&#x20;
 
 ## Tool provider
 
-Institute of Crop Science and Resource Conservation (INRES) (NB -- I have tried contacting the email address listed on the site and have not heard a response)
+Institute of Crop Science and Resource Conservation (INRES)
 
 ## Advertising Trackers
 
