@@ -4,7 +4,7 @@ description: >-
   and analysis through satellite imagery and geospatial data.
 ---
 
-# Google Earth Engine (GEE)
+# Google Earth Engine
 
 ## URL
 
@@ -29,7 +29,9 @@ There's a huge range of climate and weather, imagery and geophysical datasets av
 
 * **Language:** supports multiple languages.
 
-<figure><img src=".gitbook/assets/image.png" alt="Screenshot of Google Earth Engine explaining different features of the user interface.  "><figcaption><p>Screenshot of Google Earth Engine code editor <a href="https://earthengine.google.com/platform/">https://earthengine.google.com/platform/</a></p></figcaption></figure>
+The example below is from Bellingcat's [Google Earth Engine Remote Sensing tutorial](https://bellingcat.github.io/RS4OSINT/). The War at Night case study is an example use case using satellite images of Iraq taken at night to track the destruction caused by the fight against the Islamic State.
+
+<figure><img src=".gitbook/assets/Screenshot 2024-06-20 at 1.18.03 PM.png" alt="Screenshot of Google Earth Engine user interface showing the War at Night case study. The interface includes a coding IDE and a map showing the brightness of lights across time which includes a timelapse image in the actual project. "><figcaption><p>Screenshot of Google Earth Engine user interface showing the War at Night case study.</p></figcaption></figure>
 
 Full description including documentation [https://earthengine.google.com/](https://earthengine.google.com/)
 
@@ -72,17 +74,17 @@ A role on a Google Cloud project (more complicated but more secure. See: [https:
 * **Processing Power**: User code execution is limited by Google's computational resources, which might result in delays during peak usage.
 * **Learning Curve**: The platform has a steep learning curve, especially for users without a programming background.
 * **Export Restrictions**: There are limits on the size and rate at which data can be exported from the platform.
-* **API Rate Limits**: Usage of the Earth Engine API is subject to daily and per-minute rate limits to prevent abuse.
+* **API Rate Limits**: Usage of the Earth Engine API is subject to daily and per-minute [rate limits](https://developers.google.com/earth-engine/guides/usage) to prevent abuse.
 
 ## Ethical Considerations
 
 In the context of using remote sensing in online open source investigations, several ethical considerations should be considered:
 
-* **Privacy Concerns**: Remote sensing technologies can capture detailed images from space or high altitude, potentially compromising individual privacy. Journalists must balance the public interest with the rights to privacy.
+* **Privacy Concerns**: Remote sensing technologies can capture detailed images from space or high altitude, potentially compromising individual privacy. Researchers must balance the public interest with the rights to privacy.
 * **Accuracy and Misinterpretation**: Ensuring the accurate representation of data is critical. Misinterpretation of remote sensing data can lead to misinformation, shaping public opinion based on incorrect premises.
 * **Equity and Access**: The distribution of benefits from remote sensing should be equitable. Journalists should be aware of the digital divide and work towards making their findings accessible to a broader audience.
-* **Environmental Impact**: The deployment and maintenance of remote sensing technologies have environmental costs. Ethical journalism considers the ecological footprint of gathering and disseminating information.
-* **Informed Consent**: Where possible, obtaining informed consent from those being observed or whose data is being collected, even indirectly, reinforces ethical journalism practices.
+* **Environmental Impact**: The deployment and maintenance of remote sensing technologies have environmental costs. Ethical research considers the ecological footprint of gathering and disseminating information.
+* **Informed Consent**: Where possible, obtaining informed consent from those being observed or whose data is being collected, even indirectly, reinforces ethical practices.
 * **Cultural Insensitivity**: Avoids the unsolicited mapping or monitoring of culturally sensitive or sacred sites without permission from the concerned communities.
 * **Security Risks**: Guards against the misuse of remote sensing technology for malicious purposes, including espionage or cyber-attacks.
 
