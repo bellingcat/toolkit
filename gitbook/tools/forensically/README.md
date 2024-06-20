@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-This collection of web-based tools is used for verifying images. Each tool's name reflects its function: Magnifier, Clone Detection, Noise Analysis, Noise Level Analysis, Meta Data, Geo Tags, etc. Forensically requires experience to fully understand each tool's function. For those new to OSINT verification techniques, watching the tutorial by the founder, Jonas Wagner may be useful.
+This collection of web-based tools is used for verifying images. Each tool's name reflects its function: Magnifier, Clone Detection, Noise Analysis, Error Level Analysis, Meta Data, Geo Tags, etc. Forensically requires experience to fully understand each tool's function. For those new to OSINT verification techniques, watching the tutorial by the founder, Jonas Wagner, may be useful.
 
 ## Cost
 
@@ -20,11 +20,11 @@ This collection of web-based tools is used for verifying images. Each tool's nam
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>4</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
 ## Requirements
 
@@ -36,7 +36,7 @@ If images are stripped of their metadata, the tool “Meta Data” on Forensical
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+\-
 
 ## Guides and articles
 
@@ -44,7 +44,7 @@ A tutorial by the founder of the tool, Jonas Wagner, is available on YouTube on 
 
 ## Tool provider
 
-Jonas Wagner is the founder of the tool. More info about him here: [https://29a.ch/about](https://29a.ch/about)
+Jonas Wagner, Switzerland. More info about him here: [https://29a.ch/about](https://29a.ch/about)
 
 ## Advertising Trackers
 
@@ -54,5 +54,5 @@ Jonas Wagner is the founder of the tool. More info about him here: [https://29a.
 
 | Page maintainer           |
 | ------------------------- |
-| Bellingcat volunteer team |
+| Bellingcat Volunteer Team |
 |                           |
