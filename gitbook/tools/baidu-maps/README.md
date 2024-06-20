@@ -74,7 +74,7 @@ Baidu Maps, while offering comprehensive mapping services, particularly in China
 When using Baidu Maps, it is important to consider various ethical implications:
 
 * **Privacy Concerns**: Like many mapping services, Baidu Maps gathers user data, which raises questions about data privacy and protection. This is particularly significant for the Baidu browser and on [mobile apps](https://citizenlab.ca/2016/02/privacy-security-issues-baidu-browser/).
-* **Censorship and Content Control**: Being a Chinese company, Baidu Maps may adhere to government censorship laws, affecting the type of content available or omitted. More information [here](https://www.hrw.org/reports/2006/china0806/3.htm).
+* **Censorship and Content Control**: Being a Chinese company, Baidu Maps may adhere to government censorship laws, affecting the type of content available or omitted. More information [here](https://protonvpn.com/blog/great-firewall-china).
 
 ## Guide
 
