@@ -7,10 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Forensically",
-  "url": "http://29a.ch/photo-forensics/#level-sweep",
-  "description": "Web-based image forensics tool. Can easily identify fake or doctored images. Public access, information not private.",
-  "cost": "Free",
   "tags": [
     "metadata"
   ]
