@@ -80,4 +80,5 @@
   * [DomainTools Whois Lookup](tools/domaintools-whois-lookup/README.md)
   * [Baidu Maps](tools/baidu-maps/README.md)
   * [Overpass Turbo](tools/overpass-turbo/README.md)
+  * [Index Database](tools/index-database/README.md)
 
