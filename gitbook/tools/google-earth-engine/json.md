@@ -7,31 +7,19 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Google Earth Engine",
-  "url": "https://developers.google.com/earth-engine/datasets/catalog",
-  "description": "Open-access satellite imagery and analytical framework. Virtually any satellite imagery collected from NASA, NOAA, USGS, etc. is available. Moderate and coarse resolution imagery rather than high-resolution commercial imagery. There's a learning curve with Javascript.",
-  "cost": "Free",
-  "tags": [
-    "maps-and-satellites",
-    "satellite-imagery"
-  ]
+    "name":"Google Earth Engine (GEE)",
+    "description": "Google Earth Engine is a comprehensive platform for environmental monitoring and analysis through satellite imagery and geospatial data.",
+    "url": "https://code.earthengine.google.com/",
+    "tags": ["free", "international", "gis", "geographic-information-system", "geospatial-information", "geographic-data-analysis", "mapping", "satellite", "satellite-imagery", "remote-sensing", "environment",  "geospatial", "international", "spatial-analysis", "data-analysis", "deforestation", "agriculture", "water", "climate-change"]
 }
 ```
 {% endcode %}
 
 Keep the codeblock updated with accurate information. Only edit the **values** (words to the right of the `:` on each line, in dark blue font). Do not change the key names (left side, slightly light blue) or any of the other formatting. Every line should end in a comma except the last line. Every key and value should be enclosed in quotation marks. See below for an explanation of each line.&#x20;
 
-## name, description (optional)
+## name, description, url
 
-If omitted, the name and description will be copied from the page title and page description of the main content. If present, the JSON values override the main content.
-
-## draft (optional)
-
-If set to `true`, this prevents this tool from being listed in relevant category pages. Useful if the tool does not yet have a url and description set. Omit or set to false to publish.
-
-## url
-
-A hyperlink directly to the tool, for quick-access from the category page. Be sure to use the secure (http**S**) version if possible.
+These are self explanatory and not likely to change. They should match the information on the main tool page.
 
 ## tags
 
