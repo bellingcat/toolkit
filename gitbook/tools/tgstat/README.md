@@ -162,8 +162,7 @@ If you're considering using TGStat, it's wise to weigh these potential limitatio
 
 ### Ethical Consideration
 
-* **Be mindful of data accuracy/specify data provenance:** TGStat relies on data provided by Telegram, so the accuracy of the information it presents depends on Telegram's data. Be mindful of discrepancies and seek to validate data if possible. It is advisable to specify data provenance by citing TGstat.
-* **Be mindful of over-quantification and limited scope of data:** Balance any research with other approaches so that it is not dominated only by data, numerical information, measurement, etc. Analytics tools might offer some in-depth analytics but users must be aware and specify where the limits are of the data.
+* **Be mindful of data accuracy/specify data provenance:** TGStat relies on data provided by Telegram, so the accuracy of the information it presents depends on Telegram's data. It is advisable to specify data provenance by citing TGstat.
 * **Privacy Concerns:** You're providing your Telegram data to a third-party service, so there are inherent privacy risks. Make sure you trust the tool and understand their data practices.
 * **Be mindful of OPSEC concerns when logging in:** It is advisable for users to be aware of any security vulnerabilities associated with accessing the metrics through loggin in.
 
