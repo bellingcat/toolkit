@@ -158,9 +158,9 @@ If not logged in, users are unable to access the following features: subscribers
 
 2. Video "How To" guides are mostly in Russian.
 
-### Ethical Consideration
-
 If you're considering using TGStat, it's wise to weigh these potential limitations against your needs. It might be a good option for getting a basic overview of your Telegram channel or group, but for more in-depth analysis, you might need to explore other options.
+
+### Ethical Consideration
 
 * **Be mindful of data accuracy/specify data provenance:** TGStat relies on data provided by Telegram, so the accuracy of the information it presents depends on Telegram's data. Be mindful of discrepancies and seek to validate data if possible. It is advisable to specify data provenance by citing TGstat.
 * **Be mindful of over-quantification and limited scope of data:** Balance any research with other approaches so that it is not dominated only by data, numerical information, measurement, etc. Analytics tools might offer some in-depth analytics but users must be aware and specify where the limits are of the data.
