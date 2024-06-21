@@ -13,19 +13,19 @@ description: >-
 
 ## Description
 
-TGStat is a Russia-based social media analytics platform that offers comprehensive statistics and insights for public Telegram channels and open groups. With its extensive database, it provides detailed information on popular Telegram channels and members, including engagement metrics, growth trends, and audience demographics. TGStat covers statistics for over 14,000 Telegram channels, encompassing:
+TGStat is a Russia-based social media analytics platform that offers comprehensive statistics and insights for public Telegram channels and open groups. With its database, it provides detailed information on popular Telegram channels and members, including engagement metrics, growth trends, and audience demographics. TGStat indicates that it covers statistics for over 14,000 Telegram channels, encompassing:
 
-\-        Subscriber numbers
+\- Subscriber numbers
 
-\-        Average post reach
+\- Average post reach
 
-\-        Daily views
+\- Daily views
 
-\-        Share count
+\- Share count
 
-\-        Mentions
+\- Mentions
 
-\-        Posting frequency
+\- Posting frequency
 
 TGStat is useful for discovery, especially for those monitoring events in Russian-speaking countries, post-Soviet regions or far-right groups. It analyzes a diverse set of channels and public groups. The statistics are current and updated daily.
 
@@ -35,19 +35,18 @@ TGStat solves a discovery and time management issue. Telegram’s search functio
 
 **Discovery:** It assists researchers in finding relevant channels to follow on specific topics. Some features are:
 
-1. _Filter by country:_ On TGStat, users can filter channels by country. The list of countries available in the search filters are: Russia, Ukraine, Belarus, Uzbekistan, Kazakhstan, Kyrgyzstan, Iran, China, India, and Ethiopia.\
-
+1. _Filter by country:_ On TGStat, users can filter channels by country. The list of countries available in the search filters are: Russia, Ukraine, Belarus, Uzbekistan, Kazakhstan, Kyrgyzstan, Iran, China, India, and Ethiopia.
 
 <figure><img src=".gitbook/assets/IMG_0178.jpg" alt=""><figcaption><p>Public channels and open groups arranged by country</p></figcaption></figure>
 
 However, posts in public channels and open groups from other countries and languages are also often covered by TGStat analytics.\
-&#x20;
+
 
 <figure><img src=".gitbook/assets/IMG_0189.PNG" alt=""><figcaption><p>Sample public channel in another language</p></figcaption></figure>
 
 2. _Filter by theme/region:_ When researching Telegram channels in Russia, channels are grouped by region and by theme/topics. For the other countries, channels can be filtered by theme but not by regions.
 
-<figure><img src=".gitbook/assets/IMG_0184.jpg" alt=""><figcaption><p>Search by region for Russia-based channel and groups</p></figcaption></figure>
+<figure><img src=".gitbook/assets/IMG_0184.jpg" alt=""><figcaption><p>Search by region for Russia-based channels and groups</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/IMG_0185.jpg" alt=""><figcaption><p>Filter by theme/topic for Russia-based channels and groups</p></figcaption></figure>
 
@@ -57,32 +56,28 @@ However, posts in public channels and open groups from other countries and langu
 
 <figure><img src=".gitbook/assets/IMG_0191.jpg" alt=""><figcaption><p>Sample citation showing the relationship between a channel in question and other channels</p></figcaption></figure>
 
-&#x20;
-
 <figure><img src=".gitbook/assets/IMG_0192.jpg" alt=""><figcaption></figcaption></figure>
 
-Another way to see the relationship between channels is through the "similar channels" and “related channels” section of the profile in question.&#x20;
+Another way to see the relationship between channels is through the "similar channels" and “related channels” section of the profile in question.
 
 \
 In addition, users can see the popularity of a channel or group overtime.
 
 <figure><img src=".gitbook/assets/IMG_0202.jpg" alt=""><figcaption><p>After finding individual channels, users can expand their search based on the "related channels" or "similar channels" feature</p></figcaption></figure>
 
-&#x20;_**Analytics:**_ TGStat assists in analyzing content and reach.  It provides insight on the channel or group’s performance, such as subscriber numbers, subscribers acquired overtime or those acquired based on popularity of posts, reach, views per posts, and engagement metrics (likes, comments, shares) per individual posts. This enables the user to understand what type of content resonates with a particular audience.
+_**Analytics:**_ TGStat assists in analyzing content and reach. It provides insight on the channel or group’s performance, such as subscriber numbers, subscribers acquired overtime or those acquired based on popularity of posts, reach, views per posts, and engagement metrics (likes, comments, shares) per individual posts. This enables the user to understand what type of content resonates with a particular audience.
 
 <figure><img src=".gitbook/assets/IMG_0195 (1).PNG" alt=""><figcaption><p>Users can check post popularity by date and by hour after it's been published</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/IMG_0198.PNG" alt=""><figcaption><p>External traffic on channel in question</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Post frequency of channel in question (darker colors indicate heightened posting activity) </p></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Post frequency of channel in question (darker colors indicate heightened posting activity)</p></figcaption></figure>
 
 ## Cost
 
 TGStat has both free and paid versions. However, the most important features of the tool are available for free.
 
-&#x20;The versions are: Free, Premium Analytics, Premium Search
-
-&#x20;
+The versions are: Free, Premium Analytics, Premium Search
 
 |           | **Free** | **Premium Analytics**                                                                          | **Premium Search**                                                                             |
 | --------- | -------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
@@ -91,8 +86,6 @@ TGStat has both free and paid versions. However, the most important features of 
 **Free vs. Premium Analytics**
 
 Below are some of the different features available in a free account vis a vis a Premium Analytics subscription. (List is not exhaustive, but focuses on main features that may be helpful for open source researchers)
-
-&#x20;&#x20;
 
 |                                     | **Free**                                        | **Premium Analytics**                                                             |
 | ----------------------------------- | ----------------------------------------------- | --------------------------------------------------------------------------------- |
@@ -121,41 +114,35 @@ Below are some of the different features available in a free account vis a vis a
 | Filter by channel and group mentions                 | Not available | Available          |
 | Export of search results to Excel                    | Not Available | Available          |
 
-Other paid features are:  Access to Stat API (fee comparison here: [https://tgstat.ru/en/api/stat](https://tgstat.ru/en/api/stat)), Access to Search API ([https://tgstat.ru/en/api/search](https://tgstat.ru/en/api/search)), Access to Callback API ([https://tgstat.ru/en/api/callback](https://tgstat.ru/en/api/callback))
-
-
+Other paid features are: Access to Stat API (fee comparison here: [https://tgstat.ru/en/api/stat](https://tgstat.ru/en/api/stat)), Access to Search API ([https://tgstat.ru/en/api/search](https://tgstat.ru/en/api/search)), Access to Callback API ([https://tgstat.ru/en/api/callback](https://tgstat.ru/en/api/callback))
 
 ### Level of Difficulty
 
-2 - EASY TO USE&#x20;
-
-
+2 - EASY TO USE
 
 ### Requirements
 
 The free version of the tool requires:
 
-1\.       Internet and laptop/mobile device
+1\. Internet and laptop/mobile device
 
-2\.       Telegram account
+2\. Telegram account
 
 The paid version of the tool requires:
 
-1\.       Internet and laptop/mobile device
+1\. Internet and laptop/mobile device
 
-2\.       Telegram account
+2\. Telegram account
 
-3\.       Paid subscription (the paywall accepts foreign credit cards)
-
-
+3\. Paid subscription (the paywall accepts foreign credit cards)
 
 ### Limitations
 
-The tool has very few limitations.&#x20;
+The tool has very few limitations.
 
-1. It requires logging in to access important features.&#x20;
+1. It requires logging in to access important features.
 
-If not logged in, users can see the channel’s “Summary” analytics.&#x20;
+If not logged in, users can see the channel’s “Summary” analytics.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-05-30 061656 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -163,7 +150,7 @@ If not logged in, users are unable to access the following features: subscribers
 
 <figure><img src=".gitbook/assets/Screenshot 2024-05-30 061720.png" alt="" width="563"><figcaption></figcaption></figure>
 
-2. Video "How To" guides are mostly in Russian.&#x20;
+2. Video "How To" guides are mostly in Russian.
 
 ### Ethical Consideration
 
@@ -172,7 +159,7 @@ If you're considering using TGStat, it's wise to weigh these potential limitatio
 * **Be mindful of data accuracy/specify data provenance:** TGStat relies on data provided by Telegram, so the accuracy of the information it presents depends on Telegram's data. Be mindful of discrepancies and seek to validate data if possible. It is advisable to specify data provenance by citing TGstat.
 * **Be mindful of over-quantification and limited scope of data:** Balance any research with other approaches so that it is not dominated only by data, numerical information, measurement, etc. Analytics tools might offer some in-depth analytics but users must be aware and specify where the limits are of the data.
 * **Privacy Concerns:** You're providing your Telegram data to a third-party service, so there are inherent privacy risks. Make sure you trust the tool and understand their data practices.
-* **Be mindful of OPSEC concerns when logging in:** It is advisable for users to be aware of any security vulnerabilities associated with accessing the metrics through loggin in.&#x20;
+* **Be mindful of OPSEC concerns when logging in:** It is advisable for users to be aware of any security vulnerabilities associated with accessing the metrics through loggin in.
 
 ### Guide
 
@@ -184,14 +171,12 @@ TGStat has been particularly used in content verification, especially in trackin
 
 ### Tool Provider
 
-No information at the moment. Will be updated when information is available.&#x20;
+No information at the moment. Will be updated when information is available.
 
-### &#x20;Advertising Trackers
+### Advertising Trackers
 
-This tool doesn't appear to use tracking cookies.&#x20;
-
-&#x20;
+This tool doesn't appear to use tracking cookies.
 
 ### Page Maintainer
 
-Afton&#x20;
+Afton
