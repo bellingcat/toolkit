@@ -58,7 +58,7 @@ However, posts in public channels and open groups from other countries and langu
 
 <figure><img src=".gitbook/assets/IMG_0192.jpg" alt=""><figcaption></figcaption></figure>
 
-Another way to see the relationship between channels is through the "similar channels" and “related channels” section of the profile in question.
+&#x20;Another way to see the relationship between channels is through the "similar channels" and “related channels” section of the profile in question.
 
 \
 In addition, users can see the popularity of a channel or group overtime.
@@ -73,7 +73,13 @@ _**Analytics:**_ TGStat assists in analyzing content and reach. It provides insi
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Post frequency of channel in question (darker colors indicate heightened posting activity)</p></figcaption></figure>
 
+
+
 ## Cost
+
+* [ ] Free
+* [x] Partially Free
+* [ ] Paid
 
 TGStat has both free and paid versions. However, the most important features of the tool are available for free.
 
@@ -97,7 +103,7 @@ Below are some of the different features available in a free account vis a vis a
 | Citation                            | Not available                                   | Available                                                                         |
 | Similar Channels/ Related Channels  | Not available                                   | Available                                                                         |
 
-**Free v. Premium Seach**
+**Free v. Premium Search**
 
 Below are some of the different features available in a free account vis a vis a Premium Search subscription. The number of channels users can search and the number of requests for advanced search are limited. (List is not exhaustive, but focuses on main features that may be helpful for open source researchers)
 
