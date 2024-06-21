@@ -124,7 +124,7 @@ Other paid features are: Access to Stat API (fee comparison here: [https://tgsta
 
 ### Level of Difficulty
 
-2 - EASY TO USE
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ### Requirements
 
