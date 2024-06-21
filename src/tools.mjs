@@ -44,6 +44,7 @@ function toolToReadme(tool) {
   if (tool.url) {
     readme = readme.replace("https://example.com", tool.url);
   }
+  return readme;
 }
 function toolToSummary(tool) {
   const template = fs.readFileSync('template/SUMMARY.md', 'utf-8');
