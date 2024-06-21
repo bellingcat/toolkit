@@ -17,7 +17,9 @@ PixPlot is a visualization tool that allows users to explore large image collect
 
 The tool can be installed and run locally on a laptop or desktop and it can be installed and hosted on a web server to allow public access and visualisation. The Digital Methods Initiative currently provide an instance of PixPlot here: [https://pixplot.digitalmethods.net/](https://pixplot.digitalmethods.net/) where users can upload and visualise their own images.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-04-15 at 2.54.52 PM.png" alt=""><figcaption><p>PixPlot Screenshot</p></figcaption></figure>
+The example below shows clusters of 2020 Instagram Conspiracy Posts;
+
+<figure><img src=".gitbook/assets/Screenshot 2024-04-15 at 2.54.52 PM.png" alt="PixPlot Screenshot of  clusters of 2020 Instagram Conspiracy Posts"><figcaption><p>PixPlot Screenshot of  clusters of 2020 Instagram Conspiracy Posts</p></figcaption></figure>
 
 ### Use Cases for Open Source Researchers
 
@@ -57,7 +59,7 @@ PixPlot, while powerful, comes with its own set of limitations:
 * **Processing Power**: PixPlot requires a significant amount of GPU resources for processing large datasets, which might not be feasible for users with limited computational capabilities.
 * **Data Volume**: There is a practical limit on the amount of data that can be visualized efficiently, potentially excluding very large datasets from being fully analyzed without prior downsampling or segmentation.
 * **User Experience**: Users without a technical background may find the tool challenging to set up and use, as it requires familiarity with Python and data processing principles.
-* **Interactivity Scalability**: While PixPlot excels in visual granularity, navigating through thousands of images can become less intuitive, impacting the user experience in exploring very dense plots.
+* **Interactivity Scalability**: While PixPlot is good in visual granularity, navigating through thousands of images can become less intuitive, impacting the user experience in exploring very dense plots.
 * **Customization Flexibility**: Some users might find the customization options for visualization to be limited, affecting researchers who wish to apply very specific analytical lenses to their data.
 
 These limitations should be carefully considered by researchers to assess the feasibility and suitability of PixPlot for their specific project needs.
