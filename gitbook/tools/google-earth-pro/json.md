@@ -7,34 +7,19 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Google Earth Pro",
-  "url": "https://www.google.com/earth/download/gep/agree.html",
-  "description": "More functions than the web-based version. Make sure to check download additional layers, such as overlays for Bing Maps, Geonames, and Wikimapia.",
-  "cost": "Free",
-  "details": "[How to Identify Burnt Villages through Satellite Imagery](https://www.bellingcat.com/resources/how-tos/2018/09/04/identify-burnt-villages-satellite-imagery%E2%80%8A-case-studies-california-nigeria-myanmar/)",
-  "tags": [
-    "maps-and-satellites",
-    "maps",
-    "street-view",
-    "satellite-imagery"
-  ]
+    "name": "Google Earth",
+    "description": "Google Earth is a geospatial tool that provides detailed, global satellite imagery, maps, 3D terrain models, and the ability to explore geographic data interactively.",
+    "url": "https://www.google.com/earth/about/versions/",
+    "tags": ["free", "international", "gis", "geographic-information-system", "geospatial-information", "geographic-data-analysis", "mapping", "satellite", "satellite-imagery", "remote-sensing", "environment",  "geospatial", "spatial-analysis", "data-analysis", "deforestation", "agriculture", "water", "climate-change"]
 }
 ```
 {% endcode %}
 
 Keep the codeblock updated with accurate information. Only edit the **values** (words to the right of the `:` on each line, in dark blue font). Do not change the key names (left side, slightly light blue) or any of the other formatting. Every line should end in a comma except the last line. Every key and value should be enclosed in quotation marks. See below for an explanation of each line.&#x20;
 
-## name, description (optional)
+## name, description, url
 
-If omitted, the name and description will be copied from the page title and page description of the main content. If present, the JSON values override the main content.
-
-## draft (optional)
-
-If set to `true`, this prevents this tool from being listed in relevant category pages. Useful if the tool does not yet have a url and description set. Omit or set to false to publish.
-
-## url
-
-A hyperlink directly to the tool, for quick-access from the category page. Be sure to use the secure (http**S**) version if possible.
+These are self explanatory and not likely to change. They should match the information on the main tool page.
 
 ## tags
 
