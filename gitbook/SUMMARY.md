@@ -82,4 +82,4 @@
   * [Overpass Turbo](tools/overpass-turbo/README.md)
   * [Index Database](tools/index-database/README.md)
   * [QGIS](tools/QGIS/README.md)
-
+  * [OpenStreetMap Search Tool](tools/openstreetmap-search-tool/README.md)
