@@ -81,4 +81,5 @@
   * [Baidu Maps](tools/baidu-maps/README.md)
   * [Overpass Turbo](tools/overpass-turbo/README.md)
   * [Index Database](tools/index-database/README.md)
+  * [QGIS](tools/QGIS/README.md)
 
