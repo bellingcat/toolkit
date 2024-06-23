@@ -15,10 +15,6 @@ description: >-
 
 The European Space Agency's Earth Online is an extensive portal dedicated to providing a wealth of information on ESA's Earth observation activities and datasets. It serves as a comprehensive platform for scientists, researchers, and the general public interested in Earth science and environmental monitoring. Here, users can access up-to-date satellite imagery, data from Earth observation missions, and a range of tools designed to facilitate the analysis and interpretation of environmental data. Earth Online also features news, educational resources, and detailed mission information, making it a crucial resource for anyone looking to understand our planet's dynamics and changes.
 
-
-
-<figure><img src=".gitbook/assets/Screenshot 2024-04-11 at 6.14.39 PM.png" alt="Screen shot of Earth Online&#x27;s Home page which contains links to Missions, Data, News, Events and Tools."><figcaption><p>Earth Online Website Screenshot</p></figcaption></figure>
-
 ### Use Cases for European Space Agency's Earth Online
 
 The European Space Agency's Earth Online portal offers a broad array of use cases, including but not limited to:
@@ -70,7 +66,9 @@ In the context of using remote sensing in online open source investigations, sev
 
 The platform acts as a guide to the tools it hosts, the main way of discovering tools is through the search interface: [https://earth.esa.int/eogateway/search?category=Tools+and+toolboxes\&tools\_type=analysis\&sortby=RELEVANCE](https://earth.esa.int/eogateway/search?category=Tools+and+toolboxes\&tools\_type=analysis\&sortby=RELEVANCE) from here filters for the different tool types (Analysis, Processing and Visualisation) can be applied. &#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2024-04-16 at 12.57.28 PM.png" alt=""><figcaption><p>Search Interface Screenshot</p></figcaption></figure>
+The example below shows the default analysis tools search interface:
+
+<figure><img src=".gitbook/assets/Screenshot 2024-04-16 at 12.57.28 PM.png" alt="Screenshot of default analysis tools search interface."><figcaption><p>Screenshot of default analysis tools search interface.</p></figcaption></figure>
 
 ## Tool provider
 
@@ -82,8 +80,8 @@ European Space Agency [https://www.esa.int/](https://www.esa.int/)
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer  |
-| ---------------- |
-| Volunteer needed |
-|                  |
+| Page maintainer |
+| --------------- |
+| Unassigned      |
+|                 |
 
