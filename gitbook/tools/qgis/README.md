@@ -16,7 +16,7 @@ With QGIS you can access various spatial datasets and perform analysis and visua
 
 <figure><img src=".gitbook/assets/about-screenshot.png" alt="Screenshot of QGIS example with Natural Earth dataset."><figcaption><p>Screenshot of QGIS with Natural Earth dataset</p></figcaption></figure>
 
-These examples illustrate the application of QGIS in open-source intelligence (OSINT) for assessing environmental and humanitarian issues within conflict zones through spatial analysis.
+QGIS can be used by open source researchers for various tasks and projects, for instance to assess environmental and humanitarian issues within conflict zones through spatial analysis.
 
 Latest features available on the [Change Log](https://www.qgis.org/en/site/forusers/visualchangelogs.html)
 
