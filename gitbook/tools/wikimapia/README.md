@@ -24,8 +24,13 @@ Features:
 * **Language:** supports multiple languages.
 * **Measure distance:** measure distance between points in feet and metres.
 * **Map Types**: Wikimapia Satellite/Map, Bing Hybrid, Bing Map, Bing Satellite, Google Hybrid, Google Map, Google Satellite, OpenStreetMap, Google Terrain, Yahoo Satellite.
+* **Zoom tool:** zoom in and out on the map.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-04-17 at 9.20.49 AM.png" alt=""><figcaption><p>Wikimapia Screenshot</p></figcaption></figure>
+The example below shows selecting the _bridges_ category for Amsterdam:
+
+<figure><img src=".gitbook/assets/Screenshot 2024-06-23 at 10.24.30 AM.png" alt="Screenshot of selecting the bridges category for Amsterdam. The screenshot shows a street map with all the bridges in Amsterdam marked with place markers."><figcaption><p>Screenshot of selecting the <em>bridges</em> category for Amsterdam.</p></figcaption></figure>
+
+
 
 ### Use Cases for Open Source Researchers
 
@@ -58,7 +63,7 @@ Each of these use cases demonstrates how Wikimapia serves as a valuable tool for
 * **Data Accuracy**: Wikimapia's content is user-generated, leading to potential inaccuracies or outdated information.
 * **Coverage Inconsistency**: Some areas, especially in less populated or less accessible regions, may have sparse or no data.
 * **Commercial Use**: There may be restrictions on using Wikimapia data for commercial purposes without obtaining proper licenses.
-* **API Rate Limiting**: There might be limitations on the number of API requests that can be made in a certain timeframe, impacting extensive data retrieval tasks.
+* **API Rate Limiting**: There might be limitations on the number of API requests that can be made in a certain timeframe, impacting extensive data retrieval tasks. The actual [rate limits](https://api.wikimedia.org/wiki/Rate\_limits) are not clearly documented at this time.
 
 ## Ethical Considerations
 
@@ -67,7 +72,7 @@ When using Wikimapia, ethical considerations include:
 * **Privacy Concerns**: Sharing or mapping sensitive locations may infringe on individuals' or groups' privacy rights. Users should be cautious about adding locations that could compromise privacy.
 * **Misinformation**: Given the user-generated nature of the content, there is a risk of spreading misinformation. Contributors should ensure the accuracy of the information they provide.
 * **Cultural Sensitivity**: Some areas may be of cultural, historical, or religious significance. Mapping these areas requires sensitivity and respect towards local traditions and norms.
-* **Environmental Impact**: Highlighting certain natural or untouched locations could lead to increased foot traffic, potentially harming sensitive ecosystems. Users should consider the environmental impact of publicizing such areas.
+* **Environmental Impact**: Highlighting certain natural or untouched locations could lead to increased foot traffic, potentially harming sensitive ecosystems. Users should consider the environmental impact of publicising such areas.
 
 ## Guide
 
