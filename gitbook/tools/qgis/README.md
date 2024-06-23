@@ -2,7 +2,7 @@
 description: QGIS is a free Open Source Geographic Information System (GIS).
 ---
 
-# QGIS (Quantum GIS)
+# QGIS
 
 ## URL
 
@@ -90,6 +90,6 @@ To effectively use QGIS, especially for beginners or those looking to refine the
 
 | Page maintainer           |
 | ------------------------- |
-| Bellingcat volunteer team |
+| Bellingcat Volunteer Team |
 |                           |
 
