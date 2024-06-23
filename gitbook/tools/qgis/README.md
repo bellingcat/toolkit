@@ -80,7 +80,7 @@ To effectively use QGIS, especially for beginners or those looking to refine the
 
 ## Tool provider
 
-[Open Source Geospatial Foundation](https://www.osgeo.org/) (OSGeo) United States
+[Open Source Geospatial Foundation](https://www.osgeo.org/) (OSGeo), United States
 
 ## Advertising Trackers
 
