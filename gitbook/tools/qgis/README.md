@@ -45,7 +45,7 @@ While QGIS is a powerful tool for geographical information systems, it does have
 
 ## Ethical Considerations
 
-See **Remote Sensing Ethical Considerations**.&#x20;
+\-
 
 ## Guides and Articles
 
