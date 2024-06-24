@@ -18,7 +18,7 @@ Hunchly includes search functionality and history filtering of captured pages. T
 
 Hunchly creates a transparent audit trail, which is essential for ensuring the credibility and admissibility of collected data in professional and legal settings.
 
-Available as a Google Chrome plugin, Mobile application, or using Hunchly Cloud.&#x20;
+Available as a Google Chrome plugin, Mobile application, or [using Hunchly Cloud](https://youtu.be/j2-F\_ywtOjU?si=lF7aoNRqNG3ORE5S).&#x20;
 
 ## Cost
 
