@@ -9,7 +9,7 @@ description: >-
 
 URL
 
-{% embed url="https://tgstat.com/" %}
+[https://tgstat.com/](https://tgstat.com/)
 
 ## Description
 
