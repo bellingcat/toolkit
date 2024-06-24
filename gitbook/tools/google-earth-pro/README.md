@@ -5,7 +5,7 @@ description: >-
   interactively.
 ---
 
-# Google Earth
+# Google Earth Pro
 
 ## URL
 
@@ -23,17 +23,9 @@ Google Earth is a comprehensive geographic and spatial information tool suite av
 
 Each version is designed to meet specific user requirements, from desktop to mobile experiences, ensuring that users can access detailed geographic information regardless of the platform.
 
-Google Earth Web
+The example below shows a search for Amsterdam filtering layers to display only photo layers on Google Earth Pro Desktop:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-04-04 at 12.56.22 PM.png" alt=""><figcaption><p>Google Earth Web Screenshot</p></figcaption></figure>
-
-Google Earth Mobile
-
-<figure><img src=".gitbook/assets/versions__app__desktop-image.v2.jpg" alt=""><figcaption><p>Google Earth Mobile Screenshot </p></figcaption></figure>
-
-Google Earth Pro Desktop
-
-<figure><img src=".gitbook/assets/versions__pro__desktop-image.v2.png" alt=""><figcaption><p>Google Earth Desktop</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-06-24 at 1.07.47 PM.png" alt="Screenshot of a search for Amsterdam filtering layers to display only photo layers. The image shows a street map, a photo of a ship on a river and the left hand search menu filtering for photo layers."><figcaption><p>Screenshot of a search for Amsterdam filtering layers to display only photo layers on Google Earth Pro Desktop. </p></figcaption></figure>
 
 ## Example Use Cases
 
