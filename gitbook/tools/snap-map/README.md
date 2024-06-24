@@ -84,12 +84,12 @@ Link to a guide on this tool
 
 ## Tool provider
 
-Snapchat, Snap Inc.
+Snapchat, Snap Inc., USA
 
-Santa Monica, California
+
 
 * [x] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-<table><thead><tr><th data-type="users" data-multiple>Page maintainer</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai's Test Account</a></td></tr><tr><td></td></tr></tbody></table>
+<table><thead><tr><th data-type="users" data-multiple>Page maintainer</th></tr></thead><tbody><tr><td></td></tr><tr><td></td></tr></tbody></table>
