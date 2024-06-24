@@ -7,13 +7,13 @@ description: >-
 
 # TGStat
 
-## URL
+URL
 
 {% embed url="https://tgstat.com/" %}
 
 ## Description
 
-TGStat is a Russia-based social media analytics platform that offers comprehensive statistics and insights for public Telegram channels and open groups. With its database, it provides detailed information on popular Telegram channels and members, including engagement metrics, growth trends, and audience demographics. TGStat indicates that it covers statistics for over 14,000 Telegram channels, encompassing:
+TGStat is a Russia-based social media analytics platform that offers comprehensive statistics and insights for public Telegram channels and open groups. With its database, it provides detailed information on popular Telegram channels and members, including engagement metrics, growth trends, and audience demographics. TGStat covers statistics for over [14,000](https://popsters.com/blog/post/statistics-and-analytics-on-telegram) Telegram [channels](https://chrome-extension/efaidnbmnnnibpcajpcglclefindmkaj/https://cis.temple.edu/\~jiewu/research/publications/Publication\_files/Telegram\_ICWS.pdf), encompassing:
 
 \- Subscriber numbers
 
@@ -27,7 +27,7 @@ TGStat is a Russia-based social media analytics platform that offers comprehensi
 
 \- Posting frequency
 
-TGStat is useful for discovery, especially for those monitoring events in Russian-speaking countries, post-Soviet regions or far-right groups. It analyzes a diverse set of channels and public groups. The statistics are current and updated daily.
+TGStat is useful for discovery, especially for those monitoring events in Russian-speaking countries, post-Soviet regions, or far-right groups. It analyzes a diverse set of channels and public groups. The statistics are constantly being refreshed and updated in [real-time](https://databar.ai/explore/tgstat).
 
 _**What problem does it solve?**_
 
@@ -39,10 +39,10 @@ TGStat solves a discovery and time management issue. Telegram’s search functio
 
 <figure><img src=".gitbook/assets/IMG_0178.jpg" alt=""><figcaption><p>Public channels and open groups arranged by country</p></figcaption></figure>
 
-However, posts in public channels and open groups from other countries and languages are also often covered by TGStat analytics.\
+However, any public channel and open groups regardless of the language and country are covered by TGStat analytics.\
 
 
-<figure><img src=".gitbook/assets/IMG_0189.PNG" alt=""><figcaption><p>Sample public channel in another language</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-06-24 170220.png" alt=""><figcaption><p>This is a public news channel with an account in Telegram.  This is a screenshot of the TGStat analytics for this particular channel. In the upper right corner of this image shows the "channel's geo and language". The channel is mostly in Arabic, and the country is not specified. The user may not necessarily find this channel by searching the catalog grouped by country. However, users can find it by searching for the username on the site's search bar. This is to show that TGStat contains info for public channels that have an account in Telegram regardless of country and language. </p></figcaption></figure>
 
 2. _Filter by theme/region:_ When researching Telegram channels in Russia, channels are grouped by region and by theme/topics. For the other countries, channels can be filtered by theme but not by regions.
 
