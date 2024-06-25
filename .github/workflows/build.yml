@@ -24,7 +24,8 @@ jobs:
         run: |
           node src/categories.mjs
 
-      - uses: dorny/paths-filter@v3
+      - name: Detect changes
+        uses: dorny/paths-filter@v3
         id: changes
         with:
           base: HEAD
