@@ -56,14 +56,15 @@ jobs:
         if: steps.changes.outputs.all == 'true'
         uses: ad-m/github-push-action@master
         with:
-          branch: build-${{ github.run_number }}
+          branch: build
+          force: true
 
       - name: Create Pull Request
         if: steps.changes.outputs.all == 'true'
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: build-${{ github.run_number }}
+          branch: build
           commit-message: "Build: Update all"
           title: "Update Build"
           body: "This pull request updates the build based on latest changes."
