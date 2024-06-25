@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 
-function processMarkdownFile(filepath, filename, slug = [], webRoot) {
+function processMarkdownFile(filepath, filename, slug = []) {
   const directory = path.dirname(filepath);
   const page = filename.replace('.md', '');
   const markdownWithMeta = fs.readFileSync(filepath, 'utf-8');
@@ -36,7 +36,7 @@ function getPaths(pathname, slug = [], markdownRoot = 'gitbook', webRoot = '') {
         return null;
       }
       // markdown file
-      return processMarkdownFile(filepath, filename, slug, webRoot);
+      return processMarkdownFile(filepath, filename, slug);
     } else {
       // directory
       return [ ...getPaths(filepath, [...slug, filename], markdownRoot, webRoot)];
