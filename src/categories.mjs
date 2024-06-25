@@ -3,10 +3,10 @@ import path from 'path';
 import tools from './tools.mjs'
 const { getTools, getCategories } = tools;
 import pkg from './paths.mjs'
-const {processMarkdownFile} = pkg;
+const {getSummary, processMarkdownFile} = pkg;
 
 const allTools = getTools().filter((tool) => !tool.draft );
-const mostUsed = processMarkdownFile('gitbook/most-used.md', 'most-used', [], '');
+const mostUsed = processMarkdownFile('gitbook/most-used.md', 'most-used', []);
 const mostUsedTools = allTools.filter((tool) => (tool.tags || []).includes('most-used'));
 const content = renderCategory(mostUsed, mostUsedTools);
 console.log('writing', 'gitbook/most-used.md');
@@ -46,10 +46,6 @@ function renderCost(cost) {
   } else {
     return cost;
   }
-}
-
-function getSummary(pathname) {
-  return fs.readFileSync(path.join(pathname, 'SUMMARY.md'), 'utf-8');
 }
 
 function renderRelativeLink(category, tool) {

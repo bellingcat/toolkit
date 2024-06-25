@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import pkg from './paths.mjs'
-const {getPaths, processMarkdownFile} = pkg;
+const {getPaths, getSummary, processMarkdownFile} = pkg;
 
 /* Example
 createTool({
@@ -49,6 +49,40 @@ function toolToReadme(tool) {
 function toolToSummary(tool) {
   const template = fs.readFileSync('template/SUMMARY.md', 'utf-8');
   return template.replace("Tool Name", `${tool.title}`);
+}
+function publishTool(name) {
+  const slug = name.replace(/\s/g, '-').toLowerCase();
+
+  // process README.md in the tool directory
+  const filepath = path.join('gitbook', 'tools', slug);
+  const filename = 'README.md';
+  if (! fs.existsSync(filepath)) {
+    console.log("Not found: ", filepath);
+    throw new Error("Can't publish ", name, " - ", filepath, "does not exist");
+  }
+
+  const tools = getTools();
+  const tool = tools.find((x) => x.title === name || x.directory === slug);
+
+  if (!tool) {
+    console.log("No tool found: ", name);
+    throw new Error("Can't publish ", name, " - Tool not found");
+  }
+
+  const link = path.join('tools', slug);
+  const summary = getSummary('gitbook');
+
+  if (summary.match(link)) {
+    console.log("Link already found in summary: ", link);
+    throw new Error("Can't publish ", name, " - ", link, "already published");
+  }
+
+  const newSummary = summary + `  * [${tool.title}](${link})\n`;
+  fs.writeFileSync(path.join('gitbook', 'SUMMARY.md'), newSummary);
+
+  const json = tool.json;
+  delete json.draft;
+  fs.writeFileSync(tool.jsonFilePath, toolToJson(json));
 }
 function createTool(tool, opts={}) {
   const { name, tags } = tool;
@@ -325,7 +359,7 @@ function getTools() {
     // process README.md in each tool directory
     const filepath = path.join(pathname, filename, 'README.md');
     if (fs.existsSync(filepath)) {
-      const markdownFile = processMarkdownFile(filepath, filename, [], 'more/all-tools');
+      const markdownFile = processMarkdownFile(filepath, filename, []);
       const content = markdownFile.content;
       const toolDir = markdownFile.directory;
 
@@ -414,6 +448,7 @@ export default {
   fetchSpaces,
   getTools,
   getCategories,
+  publishTool,
   removeTool,
   updateToolJSON,
   updateToolCategories,

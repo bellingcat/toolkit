@@ -20,6 +20,10 @@ function processMarkdownFile(filepath, filename, slug = []) {
   };
 }
 
+function getSummary(pathname) {
+  return fs.readFileSync(path.join(pathname, 'SUMMARY.md'), 'utf-8');
+}
+
 function getPaths(pathname, slug = [], markdownRoot = 'gitbook', webRoot = '') {
   const files = fs.readdirSync(pathname);
 
@@ -45,4 +49,4 @@ function getPaths(pathname, slug = [], markdownRoot = 'gitbook', webRoot = '') {
   return paths.filter(post => { return post && post });
 }
 
-export default { getPaths, processMarkdownFile };
+export default { getPaths, getSummary, processMarkdownFile };

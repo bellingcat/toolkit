@@ -1,0 +1,48 @@
+name: Publish Tool
+run-name: Publish ${{ inputs.toolName }} by @${{ github.actor }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      toolName:
+        description: 'Tool Name'
+        type: string
+        required: true
+
+jobs:
+  publish-tool:
+    runs-on: ubuntu-latest
+    env:
+      TOOL_NAME: ${{ inputs.toolName }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Create new tool folder (look here for git sync config!)
+        id: update-summary
+        run: |
+          node src/publish-tool.mjs "$TOOL_NAME"
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit changes ${{ steps.update-summary.outputs.changes }}
+        if: ${{ steps.update-summary.outputs.changes == 'true' }}
+        run: |
+          git status --porcelain
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Publish Tool $TOOL_NAME"
+
+      - name: Push changes
+        if: ${{ steps.update-summary.outputs.changes == 'true' }}
+        uses: ad-m/github-push-action@master
+        with:
+          branch: test #FIXME
+          force: true
+
