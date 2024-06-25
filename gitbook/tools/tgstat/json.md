@@ -7,10 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "TGstat",
-  "url": "http://tgstat.com/",
-  "description": "Searches archived Telegram channels and provides channel analytics.",
-  "cost": "Free",
   "tags": [
     "telegram",
     "most-used"
