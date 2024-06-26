@@ -37,17 +37,17 @@ TGStat solves a discovery and time management issue. Telegram’s search functio
 
 1. _Filter by country:_ On TGStat, users can filter channels by country. The list of countries available in the search filters are: Russia, Ukraine, Belarus, Uzbekistan, Kazakhstan, Kyrgyzstan, Iran, China, India, and Ethiopia.
 
-<figure><img src=".gitbook/assets/IMG_0178.jpg" alt=""><figcaption><p>Public channels and open groups arranged by country</p></figcaption></figure>
+<figure><img src=".gitbook/assets/IMG_0178.jpg" alt=""><figcaption><p>This shows a catalog of public Telegram channels and open groups categorzed by country. The user can navigate to this feature by clicking “Catalog” in the upper left, then clicking “channels and groups catalog”. </p></figcaption></figure>
 
-However, any public channel and open groups regardless of the language and country are covered by TGStat analytics.
+However, users can find any public channel or open groups not covered by the countries listed in the catalog.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2024-06-24 170220.png" alt=""><figcaption><p>This is a public news channel with a Telegram account. The screenshot shows the TGStat analytics for the channel. In the upper right corner, the "channel's geo and language" is displayed. The channel is primarily in Arabic, and the specific country is not mentioned. This means that users may not be able to find this channel by browsing the catalog grouped by country. Instead, they can search for the channel's username using the site's search bar. This demonstrates that TGStat provides information for public channels on Telegram, irrespective of their country and language.</p></figcaption></figure>
 
 2. _Filter by theme/region:_ When researching Telegram channels in Russia, channels are grouped by region and by theme/topics. For the other countries, channels can be filtered by theme but not by regions.
 
-<figure><img src=".gitbook/assets/IMG_0184.jpg" alt=""><figcaption><p>For Russia-based channels, users can filter by region as shown in the image. You can navigate through this by clicking "Catalog" in the upper left corner, and then by clicking on "regional compilations." </p></figcaption></figure>
+<figure><img src=".gitbook/assets/IMG_0184.jpg" alt=""><figcaption><p>For Russia-based channels, users can filter by region as shown in the image. You can navigate through this by clicking "Catalog" in the upper left corner, and then by clicking on "regional compilations."</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/IMG_0185.jpg" alt=""><figcaption><p>For Russia-based channels, users can filter by themes/subject as shown in the image. You can navigate through this by clicking "Catalog" in the upper left corner, and then by clicking on "thematic compilations." </p></figcaption></figure>
+<figure><img src=".gitbook/assets/IMG_0185.jpg" alt=""><figcaption><p>For Russia-based channels, users can filter by themes/subject as shown in the image. You can navigate through this by clicking "Catalog" in the upper left corner, and then by clicking on "thematic compilations."</p></figcaption></figure>
 
 3. _Filter by rating:_ TGStat also has a rating system for both channel and posts. This in turn is a useful indicator of channel popularity and audience engagement.
 
