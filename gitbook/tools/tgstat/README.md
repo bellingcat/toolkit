@@ -49,7 +49,17 @@ However, users can find any public channel or open groups not covered by the cou
 
 <figure><img src=".gitbook/assets/IMG_0185.jpg" alt=""><figcaption><p>For Russia-based channels, users can filter by themes/subject as shown in the image. You can navigate through this by clicking "Catalog" in the upper left corner, and then by clicking on "thematic compilations."</p></figcaption></figure>
 
-3. _Filter by rating:_ TGStat also has a rating system for both channel and posts. This in turn is a useful indicator of channel popularity and audience engagement.
+3. _Filter by rating:_ TGStat also has a rating system for channels, groups and posts. This in turn is a useful indicator of channel popularity and audience engagement.
+
+_Channels rating:_
+
+The top 100 Telegram channels (both public and private) are rated by the most number of subscribers, by growth, by reach, and by citation (how many times, a particular channel is mentioned by other channels). Users can filter channels by country or view global rankings. TGStat also rates the top 100 channels according to topic and similarly rates them according to the most number of subscribers, growth, reach and citation. &#x20;
+
+\
+&#x20;
+
+\
+
 
 **Comparison:** TGStat also solves the problem of visualizing posts reach and its relationship with other actors, channels and content. TGstat can pull up a specific channel's analytics and show the relationship between channels through the “citation” section. This section shows who cites whom. Some thematic similarities in content between channels overlap.
 
