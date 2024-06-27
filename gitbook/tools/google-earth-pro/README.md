@@ -58,19 +58,19 @@ Google Earth's sophisticated satellite imagery and 3D geographic data enable jou
 
 While Google Earth is a powerful tool for geographical information systems, it does have some limitations that researchers should consider:
 
-* **Data Accuracy and Currency**: Data in Google Earth may not always be up to date, leading to potential discrepancies with current conditions. Users should verify important information through other sources.
-* **Resolution and Detail**: Image resolution varies across different regions, with some areas having detailed imagery and others being less clear.
-* **3D Modeling**: While Google Earth provides 3D models of some cities, not all geographical areas have detailed 3D representations.
-* **Data Privacy**: There are concerns regarding the exposure of sensitive locations, potentially compromising privacy and security.
-* **Performance**: High-quality imagery and 3D models can be resource-intensive, possibly affecting performance on less powerful computers or devices.
+* **Data Accuracy and Currency**: Data in Google Earth may not always be up to date, leading to potential discrepancies with current conditions. Users should verify important information through other sources. For more information see [How accurate is Google Earth’s measurements?](https://www.ncesc.com/geographic-faq/how-accurate-is-google-earths-measurements/)
+* **Resolution and Detail**: Image resolution varies across different regions, with some areas having detailed imagery and others being less clear. See [Spatial resolution of Google Earth Imagery](https://gis.stackexchange.com/questions/11395/spatial-resolution-of-google-earth-imagery).
+* **3D Modeling**: While Google Earth provides 3D models of some cities, not all geographical areas have detailed 3D representations. See [List of 3D Locations in Google Earth](https://list.fandom.com/wiki/List\_of\_3D\_locations\_in\_Google\_Earth).&#x20;
+* **Data Privacy**: There are concerns regarding the exposure of sensitive locations, potentially compromising privacy and security so some areas are blurred out on Google Maps. See Wikipedia's [List of satellite map images with missing or unclear data](https://en.wikipedia.org/wiki/List\_of\_satellite\_map\_images\_with\_missing\_or\_unclear\_data).
+* **Performance**: High-quality imagery and 3D models can be resource-intensive, possibly affecting performance on less powerful computers or devices. Too many _My Places_ locations can for instance cause laggy performance. For more information see [Why is Google Earth so CPU intensive?](https://www.ncesc.com/geographic-pedia/why-is-google-earth-so-cpu-intensive/)
 * **Network Dependency**: Google Earth requires an internet connection for access to maps and imagery, limiting use in offline settings.
 
 ## Ethical Considerations
 
 In the context of using remote sensing in online open source investigations, several ethical considerations should be considered:
 
-* **Privacy Concerns:** Remote sensing technologies can capture detailed images from space or high altitude, potentially compromising individual privacy. Journalists must balance the public interest with the rights to privacy.
-* **Accuracy and Misinterpretation:** Ensuring the accurate representation of data is critical. Misinterpretation of remote sensing data can lead to misinformation, shaping public opinion based on incorrect premises.
+* **Privacy Concerns:** Remote sensing technologies can capture detailed images from space or high altitude, potentially compromising individual privacy. Researchers must balance the public interest with the rights to privacy.
+* **Accuracy and Misinterpretation:** Ensuring the accurate representation of data is critical. Misinterpretation of remote sensing data can lead to misinformation, shaping public opinion based on incorrect premises. For more information on how Google tries to ensure accuracy see [here](https://www.wired.com/2014/12/google-maps-ground-truth/) and [here](https://mapsplatform.google.com/resources/blog/9-things-know-about-googles-maps-data-beyond-map/).
 * **Equity and Access:** The distribution of benefits from remote sensing should be equitable. Journalists should be aware of the digital divide and work towards making their findings accessible to a broader audience.
 * **Environmental Impact:** The deployment and maintenance of remote sensing technologies have environmental costs. Ethical journalism considers the ecological footprint of gathering and disseminating information.
 * **Informed Consent:** Where possible, obtaining informed consent from those being observed or whose data is being collected, even indirectly, reinforces ethical journalism practices.
