@@ -58,11 +58,14 @@ _Groups rating:_ Groups (public and private) are rated according to the most num
 _Posts rating_: Posts are rated by the most number of [views, by shares including through personal messages, by most numbers of comments, by forwards to channels, and by reactions](https://tgstat.ru/en/ratings/posts). \
 
 
-**Comparison:** TGStat also solves the problem of visualizing posts reach and its relationship with other user accounts, channels and content. TGstat can pull up a specific channel's analytics and show the relationship between channels through the “citation” section. This section shows who cites whom.&#x20;
+**Comparison:** TGStat also solves the problem of visualizing posts reach and its relationship with other user accounts, channels and content. TGstat can pull up a specific channel's analytics and show the relationship between accounts through the “citation” section. This section shows who cites whom.&#x20;
 
-<figure><img src=".gitbook/assets/IMG_0191.jpg" alt=""><figcaption><p>Sample citation showing the relationship between a channel in question and other channels</p></figcaption></figure>
+<figure><img src=".gitbook/assets/IMG_0214.jpeg" alt=""><figcaption><p>This image shows the “incoming mentions” on the left and “outgoing mentions” on the right.  The “incoming mentions” refer to the accounts that are discussing content from this channel. The “outgoing mentions” refer to the accounts that this channel in question is discussing. You can get to this feature by going to the main page of the channel you are researching, and clicking the blue bar called “Channel Statistics” on the right side of the page. Then clicking “Citation” on the menu to the left of the page.  </p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/IMG_0192.jpg" alt=""><figcaption></figcaption></figure>
+Users can use this feature during the preplanning stage to find other channels that might give them more information for their research. It can also show users what the channel is trying to achieve and why.&#x20;
+
+NOTE: That this feature is only available for Telegram channels and not for groups. Instead, Telegram groups, instead, have analytics for the “forwards and mentions.” \
+
 
 Another way to see the relationship between channels is through the "similar channels" and “related channels” section of the profile in question.
 
