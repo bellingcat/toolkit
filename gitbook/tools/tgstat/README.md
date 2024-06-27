@@ -53,7 +53,9 @@ However, users can find any public channel or open groups not covered by the cou
 
 _Channels rating:_ The top 100 Telegram channels (both public and private) are rated by the most number of subscribers, by growth, by reach, and by citation. Users can filter the growth metrics by daily growth, growth the previous day, weekly growth, and monthly growth. It also rates public channels by reach and citations. (how many times, a particular channel is mentioned by other channels). Users can filter channels by country or view global rankings. TGStat also rates the top 100 channels according to topic and similarly rates them according to the most number of subscribers, growth, reach and citation.
 
-_Groups rating:_
+_Groups rating:_ Groups (public and private) are rated according to the most number of participants, by growth, by messages (number of messages in a group in the last 7 days), and by active participants (“MAU’s”- Monthly Active Users - which TGStat describes as “the number of unique users who have written at least one message in a group in the last 30 days) .  And posts are rated by the most number of views, by shares including through personal messages, by most numbers of comments, by forwards to channels, and by reactions.&#x20;
+
+_Posts rating:_ Posts&#x20;
 
 \
 &#x20;
