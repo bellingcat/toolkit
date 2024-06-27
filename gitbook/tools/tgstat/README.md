@@ -55,6 +55,8 @@ _Channels rating:_
 
 The top 100 Telegram channels (both public and private) are rated by the most number of subscribers, by growth, by reach, and by citation (how many times, a particular channel is mentioned by other channels). Users can filter channels by country or view global rankings. TGStat also rates the top 100 channels according to topic and similarly rates them according to the most number of subscribers, growth, reach and citation. &#x20;
 
+_Groups rating:_
+
 \
 &#x20;
 
