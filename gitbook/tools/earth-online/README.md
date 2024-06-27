@@ -44,18 +44,18 @@ These use cases highlight the versatility of the Earth Online portal in supporti
 
 ## Limitations
 
-* **Data Availability**: While ESA's Earth Online offers extensive datasets, certain historical data or high-resolution imagery may not be readily available due to the limitations of past missions or data retention policies.
+* **Data Availability**: While ESA's Earth Online offers extensive datasets, certain historical data or high-resolution imagery may not be readily available due to the limitations of past missions or data retention policies. See the individual dataset fro more details.
 * **Learning Curve**: New users may find the interface and array of tools challenging to navigate without prior experience in satellite data analysis or familiarity with similar platforms.
-* **Access Restrictions**: Some datasets require specific permissions or qualifications for access, limiting use for certain research or educational purposes.
-* **Processing Power**: Advanced data analysis and processing tasks demand significant computational resources, which may not be feasible for all users.
-* **Update Frequency**: The update intervals for some datasets may not meet the needs of users requiring real-time or near-real-time information.
+* **Access Restrictions**: Some datasets require specific permissions or qualifications for access, limiting use for certain research or educational purposes. See [How to Access Data](https://www.esa.int/Applications/Observing\_the\_Earth/How\_to\_access\_data) for more information.
+* **Processing Power**: Advanced data analysis and processing tasks demand significant computational resources, which may not be feasible for all users. Different tools will have different processing requirements see the individual tool's documentation.
+* **Update Frequency**: The update intervals for some datasets may not meet the needs of users requiring real-time or near-real-time information. Different datasets will have different update frequency see the individual dataset's documentation.
 
 ## Ethical Considerations
 
 In the context of using remote sensing in online open source investigations, several ethical considerations should be considered:
 
 * **Privacy Concerns:** Remote sensing technologies can capture detailed images from space or high altitude, potentially compromising individual privacy. Journalists must balance the public interest with the rights to privacy.
-* **Accuracy and Misinterpretation:** Ensuring the accurate representation of data is critical. Misinterpretation of remote sensing data can lead to misinformation, shaping public opinion based on incorrect premises.
+* **Accuracy and Misinterpretation:** Ensuring the accurate representation of data is critical. Misinterpretation of remote sensing data can lead to misinformation, shaping public opinion based on incorrect premises. Different datasets and tools will have different accuracy issues, see the individual dataset's documentation.
 * **Equity and Access:** The distribution of benefits from remote sensing should be equitable. Journalists should be aware of the digital divide and work towards making their findings accessible to a broader audience.
 * **Environmental Impact:** The deployment and maintenance of remote sensing technologies have environmental costs. Ethical journalism considers the ecological footprint of gathering and disseminating information.
 * **Informed Consent:** Where possible, obtaining informed consent from those being observed or whose data is being collected, even indirectly, reinforces ethical journalism practices.
