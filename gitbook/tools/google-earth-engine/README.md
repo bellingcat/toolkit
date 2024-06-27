@@ -70,19 +70,19 @@ A role on a Google Cloud project (more complicated but more secure. See: [https:
 
 ## Limitations
 
-* **Data Availability**: Not all satellite data might be available or up-to-date.
-* **Processing Power**: User code execution is limited by Google's computational resources, which might result in delays during peak usage.
+* **Data Availability**: Not all satellite data might be available or up-to-date. Each individual data set available in the [Data Catalog](https://developers.google.com/earth-engine/datasets/catalog) details the availability of the individual dataset.
+* **Processing Power**: User code execution is limited by Google's computational resources, which might result in delays during peak usage. For more information see the [Computation Overview](https://developers.google.com/earth-engine/guides/computation\_overview).&#x20;
 * **Learning Curve**: The platform has a steep learning curve, especially for users without a programming background.
-* **Export Restrictions**: There are limits on the size and rate at which data can be exported from the platform.
-* **API Rate Limits**: Usage of the Earth Engine API is subject to daily and per-minute [rate limits](https://developers.google.com/earth-engine/guides/usage) to prevent abuse.
+* **Export Restrictions**: There are limits on the size and rate at which data can be exported from the platform. See [Earth Engine Quotas](https://developers.google.com/earth-engine/guides/usage) for more information.
+* **API Rate Limits**: Usage of the Earth Engine API is subject to daily and per-minute [rate limits](https://developers.google.com/earth-engine/guides/usage) to prevent abuse. See [Earth Engine Quotas](https://developers.google.com/earth-engine/guides/usage) for more information.
 
 ## Ethical Considerations
 
 In the context of using remote sensing in online open source investigations, several ethical considerations should be considered:
 
 * **Privacy Concerns**: Remote sensing technologies can capture detailed images from space or high altitude, potentially compromising individual privacy. Researchers must balance the public interest with the rights to privacy.
-* **Accuracy and Misinterpretation**: Ensuring the accurate representation of data is critical. Misinterpretation of remote sensing data can lead to misinformation, shaping public opinion based on incorrect premises.
-* **Equity and Access**: The distribution of benefits from remote sensing should be equitable. Journalists should be aware of the digital divide and work towards making their findings accessible to a broader audience.
+* **Accuracy and Misinterpretation**: Ensuring the accurate representation of data is critical. Misinterpretation of remote sensing data can lead to misinformation, shaping public opinion based on incorrect premises. Each dataset may have different standards for accuracy see the the [Data Catalog](https://developers.google.com/earth-engine/datasets/catalog) for more information.&#x20;
+* **Equity and Access**: The distribution of benefits from remote sensing should be equitable. Researchers should be aware of the digital divide and work towards making their findings accessible to a broader audience.
 * **Environmental Impact**: The deployment and maintenance of remote sensing technologies have environmental costs. Ethical research considers the ecological footprint of gathering and disseminating information.
 * **Informed Consent**: Where possible, obtaining informed consent from those being observed or whose data is being collected, even indirectly, reinforces ethical practices.
 * **Cultural Insensitivity**: Avoids the unsolicited mapping or monitoring of culturally sensitive or sacred sites without permission from the concerned communities.
