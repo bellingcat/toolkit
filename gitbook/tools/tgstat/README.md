@@ -77,8 +77,6 @@ _**Analytics:**_ TGStat assists in analyzing content and reach. It provides insi
 
 <figure><img src=".gitbook/assets/IMG_0195 (1).PNG" alt=""><figcaption><p>This screenshot shows a TGStat feature called “Views Analysis”. This feature allows users to check a post’s popularity by date and by hour after it's been published. This feature can be accessed through the menu on the left of the page.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/IMG_0198.PNG" alt=""><figcaption><p>External traffic on channel in question</p></figcaption></figure>
-
 ## Cost
 
 * [ ] Free
