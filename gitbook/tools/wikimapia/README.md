@@ -66,9 +66,7 @@ The example below shows selecting the _bridges_ category for Amsterdam:
 When using Wikimapia, ethical considerations include:
 
 * **Privacy Concerns**: Sharing or mapping sensitive locations may infringe on individuals' or groups' privacy rights. Users should be cautious about adding locations that could compromise privacy.
-* **Misinformation**: Given the user-generated nature of the content, there is a risk of spreading misinformation. Contributors should ensure the accuracy of the information they provide.
-* **Cultural Sensitivity**: Some areas may be of cultural, historical, or religious significance. Mapping these areas requires sensitivity and respect towards local traditions and norms.
-* **Environmental Impact**: Highlighting certain natural or untouched locations could lead to increased foot traffic, potentially harming sensitive ecosystems. Users should consider the environmental impact of publicising such areas.
+* **Misinformation**: Given the user-generated nature of the content, there is a risk of spreading misinformation. Contributors should ensure the accuracy of the information they provide. Users needs to verify any information they use from Wikimapia.
 
 ## Guide
 
@@ -99,8 +97,6 @@ To effectively use Wikimapia, especially for beginners or those looking to refin
 * [http://wikimapia.org/docs/Help/FAQ#Community](http://wikimapia.org/docs/Help/FAQ#Community)
 * [http://wikimapia.org/forum/](http://wikimapia.org/forum/index.php)
 * [https://gis.stackexchange.com/questions/tagged/wikimapia](https://gis.stackexchange.com/questions/tagged/wikimapia)
-
-By utilizing these resources, users can enhance their Wikimapia experience, whether for personal navigation, planning trips, or developing custom mapping solutions.
 
 ## Tool provider
 
