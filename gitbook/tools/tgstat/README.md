@@ -64,15 +64,14 @@ _Posts rating_: Posts are rated by the most number of [views, by shares includin
 
 Users can use this feature during the preplanning stage to find other channels that might give them more information for their research. It can also show users what the channel is trying to achieve and why.&#x20;
 
-NOTE: That this feature is only available for Telegram channels and not for groups. Instead, Telegram groups, instead, have analytics for the “forwards and mentions.” \
-
+NOTE: That this feature is only available for Telegram channels and not for groups.&#x20;
 
 Another way to see the relationship between channels is through the "similar channels" and “related channels” section of the profile in question.
 
 \
 In addition, users can see the popularity of a channel or group overtime.
 
-<figure><img src=".gitbook/assets/IMG_0202.jpg" alt=""><figcaption><p>After finding individual channels, users can expand their search based on the "related channels" or "similar channels" feature</p></figcaption></figure>
+<figure><img src=".gitbook/assets/IMG_0211.jpeg" alt=""><figcaption><p>When trying to look for more information on a research topic, or to figure out which other channels may be discussing a particular incident under investigation, TGStat users can navigate the “similar channels” or “related channels”. This can be found on the main page of the user’s TGStat profile.  </p></figcaption></figure>
 
 _**Analytics:**_ TGStat assists in analyzing content and reach. It provides insight on the channel or group’s performance, such as subscriber numbers, subscribers acquired overtime or those acquired based on popularity of posts, reach, views per posts, and engagement metrics (likes, comments, shares) per individual posts. This enables the user to understand what type of content resonates with a particular audience.
 
