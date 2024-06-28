@@ -1,5 +1,5 @@
 ---
-description: Search for username on several hundred platforms
+description: Search for usernames on several hundred platforms
 ---
 
 # WhatsMyName
@@ -12,9 +12,13 @@ https://whatsmyname.app/
 
 The website checks if a particular username exists on different platforms and websites and if it does, it links to it. It is a quick way to find where else a person of interest might have accounts. &#x20;
 
-By searching Bellingcat on WhatsMyName web, we get 37 places where this username is used. The green boxes are clickable and will take you to the user page. Beware that different people can use the same username.&#x20;
+By searching Bellingcat on WhatsMyName web, we get 37 places where this username is used. The green boxes are clickable and will take you to the user page.&#x20;
+
+By clicking on the "category filter" it is possible to narrow down the results to specifc categories of results, for example "business", "dating", or "shopping".
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Results for the username "bellingcat"</p></figcaption></figure>
+
+Beware that different people can use the same username.&#x20;
 
 There are several alternative username tools, including [Sherlock](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock) and [Blackbird](https://bellingcat.gitbook.io/toolkit/more/all-tools/blackbird).&#x20;
 
