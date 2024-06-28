@@ -10,7 +10,7 @@ http://map.snapchat.com/
 
 ## Description
 
-Snap Maps is a feature of Snapchat that allows users to post images, videos, and text captions that are automatically geolocated to a city, town, or place. Users can view public stories from most places around the world.
+Snap Maps is a feature of Snapchat that allows users to post images, videos, and text captions that are automatically tagged to a city, town, or place. Users can view public stories from most places around the world.
 
 **Access Snap Maps**: Users open the Snapchat app on their mobile device and click on the location icon on the bottom left corner of the screen to access Snap Maps.&#x20;
 
