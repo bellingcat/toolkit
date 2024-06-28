@@ -4,7 +4,7 @@ description: Search for usernames on several hundred platforms
 
 # WhatsMyName
 
-URL
+## URL
 
 https://whatsmyname.app/
 
