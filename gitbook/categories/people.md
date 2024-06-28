@@ -32,4 +32,4 @@
 | [**Sherlock**](https://github.com/sherlock-project/sherlock) | Check usernames across more than 400 websites and social networks. | <mark style="background-color:green;">Free</mark> | [Details](../tools/sherlock/README.md) |
 | [**TrueCaller**](https://www.truecaller.com/) | App that gathers phonenumbers and names from contact lists. | <mark style="background-color:green;">Free</mark> |  |
 | [**WAtools.io**](http://watools.io/) | Track whatsapp activity, number, profile picture. Check if number is used, download profile pic, check online status. | <mark style="background-color:red;">Paid</mark> | 📞  |
-| [**WhatsMyName**](https://whatsmyname.app/) | Search for a username on 270+ platforms | <mark style="background-color:green;">Free</mark> | 🗣️  |
+| [**WhatsMyName**](https://whatsmyname.app/) | Search for a username on several hundred platforms | <mark style="background-color:green;">Free</mark> | 🗣️  |
