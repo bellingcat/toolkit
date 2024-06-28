@@ -32,16 +32,12 @@ The example below shows selecting the _bridges_ category for Amsterdam:
 
 
 
-### Use Cases for Open Source Researchers
+### Use Case examples for Open Source Researchers
 
 1. **Locating Hard-to-Find Places**: Researchers can use Wikimapia to identify and access detailed information about obscure or difficult-to-locate places that might not be documented in traditional mapping tools.
 2. **Geographical Context Understanding**: By leveraging the detailed descriptions and user-contributed content in Wikimapia, researchers can gain a deeper understanding of the geographical context of specific areas, including local insights that are often missing from commercial maps.
 3. **Urban Development Tracking**: For those studying urban development, Wikimapia offers a unique perspective on the evolution of cities and neighborhoods. Researchers can observe changes in land use, expansion of residential areas, and development of infrastructure over time.
 4. **Cultural and Historical Research**: This platform allows researchers to explore the history and cultural significance of specific locations. User-contributed information provides insights into local landmarks, historical sites, and cultural narratives.
-5. **Environmental Studies**: Wikimapia can be used to monitor environmental changes, such as deforestation, urban sprawl, and the impact of human activity on natural landscapes. Researchers can find and document areas of environmental concern, contributing to conservation efforts.
-6. **Travel and Logistics Planning**: For researchers planning field trips or in-depth studies in unknown territories, Wikimapia offers detailed local knowledge that can assist in route planning, identifying resources, and understanding local conditions.
-
-Each of these use cases demonstrates how Wikimapia serves as a valuable tool for open source researchers, providing a wealth of geographical and locational information that facilitates a wide range of research activities.
 
 ## Cost
 
