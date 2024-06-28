@@ -75,8 +75,6 @@ Some regions and countries have better coverage than others on GeoHints. Not muc
 GeoHints, like any other geolocation tool, presents several ethical considerations:
 
 * **Privacy Concerns**: Collecting and storing geolocation data can lead to privacy breaches. It's essential to ensure that users are informed and give explicit consent.
-* **Data Security**: Safeguarding the collected geolocation data from unauthorized access is crucial to prevent misuse.
-* **Usage Transparency**: Clearly communicate how the geolocation data will be used, who has access to it, and for what purposes.
 * **Bias and Discrimination**: Avoid using geolocation data in ways that could lead to discriminatory practices or biases.
 * **Anonymization**: Where possible, anonymize geolocation data to protect the identities of the individuals involved.
 
