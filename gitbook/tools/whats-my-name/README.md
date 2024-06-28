@@ -1,5 +1,5 @@
 ---
-description: Search for a username on several hundred platforms
+description: Search for username on several hundred platforms
 ---
 
 # WhatsMyName
@@ -36,15 +36,15 @@ There are several alternative username tools, including [Sherlock](https://belli
 
 You have to allow cookies. The tool runs searches in 500+ platforms, not everywhere. Results do not show Facebook and Instagram links.&#x20;
 
-Be aware that the fact that Sherlock has found a specific username on various platforms does not necessarily mean that this username belongs to a specific person or organisation. In the Bellingcat example from above, only some of the listed accounts really belong to Bellingcat (for example Github, Patreon etc.). Other accounts (including Instagram) have been created by people who are not part of Bellingcat.
+Be aware that the fact that WhatsMyName has found a specific username on various platforms does not necessarily mean that this username belongs to a specific person or organisation.&#x20;
 
 ## Ethical Considerations
 
-
+\-
 
 ## Guide
 
-\[\[Link to a guide on this tool]]
+The Github repository can be found [here](https://github.com/WebBreacher/WhatsMyName).
 
 ## Tool provider
 
