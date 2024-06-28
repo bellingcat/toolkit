@@ -4,7 +4,7 @@ description: Search for a username on several hundred platforms
 
 # WhatsMyName
 
-## URL
+URL
 
 https://whatsmyname.app/
 
@@ -14,7 +14,9 @@ The website checks if a particular username exists on different platforms and we
 
 By searching Bellingcat on WhatsMyName web, we get 37 places where this username is used. The green boxes are clickable and will take you to the user page. Beware that different people can use the same username.&#x20;
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Results for the username "bellingcat"</p></figcaption></figure>
+
+There are several alternative username tools, including [Sherlock](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock) and [Blackbird](https://bellingcat.gitbook.io/toolkit/more/all-tools/blackbird).&#x20;
 
 ## Cost
 
@@ -34,9 +36,11 @@ By searching Bellingcat on WhatsMyName web, we get 37 places where this username
 
 You have to allow cookies. The tool runs searches in 500+ platforms, not everywhere. Results do not show Facebook and Instagram links.&#x20;
 
+Be aware that the fact that Sherlock has found a specific username on various platforms does not necessarily mean that this username belongs to a specific person or organisation. In the Bellingcat example from above, only some of the listed accounts really belong to Bellingcat (for example Github, Patreon etc.). Other accounts (including Instagram) have been created by people who are not part of Bellingcat.
+
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+
 
 ## Guide
 
