@@ -42,7 +42,7 @@ The video was filmed near a latin church in the center of Jenin City.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-05-26 at 2.30.57 PM.png" alt=""><figcaption></figcaption></figure>
 
-Snap Maps is also a good place to start for investigations on human networks in specific locations. Snap Map posts are linked to a specific Snapchat user, which other users can click on to view the users' public profile. The public profile includes the users' Snapchat name, username, bio, and other public posts from the user. The user who posted the video of the clashes in Jenin has several other public posts attached to their profile, including images of armed fighters with militia paraphernalia and a funeral service.
+Snap Maps is also a good place to start for investigations on human networks in specific locations. Snap Map posts are linked to a specific Snapchat user, which other users can click on to view the users' public profile. The public profile includes the users' Snapchat name, username, bio, and other public posts from the user.&#x20;
 
 ## Cost
 
