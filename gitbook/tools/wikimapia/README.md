@@ -13,9 +13,9 @@ description: >-
 
 ## Description
 
-Wikimapia is an open-content collaborative mapping project that aims to mark and describe all geographical objects in the world. It combines an interactive web map with a wiki system, allowing users to add information and edit content about any location on the globe. This tool is incredibly valuable for open source researchers as it provides a vast amount of detailed geographical and local information that might not be available through other sources.
+Wikimapia is an open-content collaborative mapping project that aims to mark and describe all geographical objects in the world. It combines an interactive web map with a wiki system, allowing users to add information and edit content about any location on the globe. This tool provides a vast amount of detailed geographical and local information that might not be available through other sources.
 
-Wikimapia can solve several problems for researchers, including locating hard-to-find places, understanding the geographical context of an area, and discovering local knowledge about specific locations. For example, an open source researcher studying urban development in emerging countries can use Wikimapia to identify newly developed areas, understand local infrastructure, and gather data on land use without requiring physical travel to the location. Can provide more accurate place names and areas than other annotated maps.
+Wikimapia can solve several problems for researchers, including locating hard-to-find places, understanding the geographical context of an area, and discovering local knowledge about specific locations. For example, an open source researcher studying urban development can use Wikimapia to identify newly developed areas, understand local infrastructure, and gather data on land use without requiring physical travel to the location. The tool is sometimes able to provide more accurate place names and areas than other annotated maps.
 
 Features:
 
