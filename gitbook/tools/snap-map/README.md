@@ -16,7 +16,7 @@ Snap Maps is a feature of Snapchat that allows users to post images, videos, and
 
 **Explore Locations**: Once on Snap Maps, users can explore different locations by zooming in and out on the map.
 
-**View Snaps**: Snap Map posts appear as hot spots on a heat map. Users can click on the colored dots on the map to view public posts posted from that location. The warmer the color of the hot spot means that there are more Snap Maps being posted there.&#x20;
+**View Snaps**: Snap Map posts appear as hot spots on a heat map. Users can click on the colored dots on the map to view public posts that are tagged as being posted from that location. The warmer the color of the hot spot means that there are more Snap Maps being posted there.&#x20;
 
 **Filter Content**: Use the search bar on the upper right corner to filter content by keywords. For example, if you're researching a specific event or topic, you can search for relevant keywords to find related Snaps.
 
