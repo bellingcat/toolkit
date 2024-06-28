@@ -66,13 +66,13 @@ Any modern web browser.
 
 ## Limitations
 
-* **Query Complexity and Performance:** Overpass Turbo might struggle with very complex queries or large data sets, leading to long response times or timeouts.
+* **Query Complexity and Performance:** Overpass Turbo might struggle with very complex queries or large data sets, leading to long response times or timeouts. There are some performance hints in [the documentation](https://wiki.openstreetmap.org/wiki/Overpass\_API/Overpass\_QL).
 * **Learning Curve:** For new users, the query language (Overpass QL) has a steep learning curve.
-* **Resource Intensity:** Running intensive queries can put a significant load on the Overpass servers, potentially leading to throttling or temporary bans.
-* **Data Currency:** While Overpass Turbo provides access to up-to-date OSM data, there may be a minor delay in data refresh rates which could impact real-time data analysis needs.
+* **Resource Intensity:** Running intensive queries can put a significant load on the Overpass servers, potentially leading to throttling or temporary bans. More information on [rate limits and quotas](https://dev.overpass-api.de/overpass-doc/en/preface/commons.html) plus a some performance advice is available at the end of [_A Turbo Introduction to Overpass_](https://upload.wikimedia.org/wikipedia/commons/f/fe/A\_turbo\_introduction\_to\_Overpass\_\(with\_notes\).pdf). &#x20;
+* **Data Currency:** While Overpass Turbo provides access to up-to-date OSM data, there may be a minor delay in data refresh rates which could impact real-time data analysis needs. See [Overpass Turbo Data Out of Date](https://www.reddit.com/r/openstreetmap/comments/jcamkz/overpass\_turbo\_data\_out\_of\_date/) for more information.
 * **Geographical Limitations:** Performance and efficiency can degrade for queries that span very large geographical areas or the entire globe.
 * **User Interface:** While functional, the user interface may not be as intuitive or user-friendly for those not familiar with geographical information systems (GIS) or coding.
-* **Crowdsourced data**: availability of data depends on the data users have provided to OSM.
+* **Crowdsourced data**: availability of data depends on the data users have provided to OSM. There is evidence that data from Volunteered Geographic Information Research can be more current in times of humanitarian crisis (the 2010 [Haiti](https://onlinelibrary.wiley.com/doi/abs/10.2202/1948-4682.1069) earthquake for example) but this may not always be the case.&#x20;
 
 ## Ethical Considerations
 
