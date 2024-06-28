@@ -1,5 +1,5 @@
 ---
-description: Search for a username on 270+ platforms
+description: Search for a username on several hundred platforms
 ---
 
 # WhatsMyName
