@@ -191,9 +191,9 @@ Personal data of its users are collected automatically. According to Section 3.6
 
 Section 5.2 of the Privacy Policy also specifies that user personal data can be transferred to government bodies of Russia “only on the grounds and in the manner established by the legislation of the Russian Federation.”&#x20;
 
-&#x20;In this [Wired article](https://web.archive.org/web/20240501205306/https://www.wired.com/story/the-kremlin-has-entered-the-chat/), concerns about user personal data on TGStat were raised.  “In its privacy policy, TGStat states clearly that it is obliged by law to hand over data to the “state authorities of the Russian Federation.” Because the company has been archiving publicly available data for years\[…] security forces could hypothetically go directly to TGStat to obtain a striking amount of information about a user without any direct assistance from Telegram.”&#x20;
+In this [Wired article](https://web.archive.org/web/20240501205306/https://www.wired.com/story/the-kremlin-has-entered-the-chat/), concerns about the users' personal data on TGStat were raised.  “In its privacy policy, TGStat states clearly that it is obliged by law to hand over data to the “state authorities of the Russian Federation.” Because the company has been archiving publicly available data for years \[…] security forces could hypothetically go directly to TGStat to obtain a striking amount of information about a user without any direct assistance from Telegram.”, Wired wrote.&#x20;
 
-TGStat founder addressed privacy concerns about the tool in the same article, saying: “The situation in Russia and the world has no influence on the activities of TGStat.” He confirmed that data can be transferred to Russian authorities but said that “all companies operating in Russia have a similar clause in their policies” and that TGStat had not received any requests from authorities or law enforcement agencies.”
+TGStat founder addressed privacy concerns about the tool in the same Wired article, saying: “The situation in Russia and the world has no influence on the activities of TGStat.” He confirmed that data can be transferred to Russian authorities but said that “all companies operating in Russia have a similar clause in their policies” and that TGStat had not received any requests from authorities or law enforcement agencies.”
 
 ### Guide
 
@@ -201,27 +201,15 @@ This is a guide in Russian provided by TGStat.ru: [https://tgstat.com/blog/video
 
 _**Use case**_
 
-TGStat has been particularly used in content verification, especially in tracking the spread of disinformation/ misinformation. (See: DFRLab’s lists of research involving misinformation. A good example is the following article from DFRLab: [https://dfrlab.org/2024/02/08/russian-milbloggers-falsely-accuse-kazakhstan-of-opening-a-nato-military-facility/](https://dfrlab.org/2024/02/08/russian-milbloggers-falsely-accuse-kazakhstan-of-opening-a-nato-military-facility/))
+TGStat has been particularly used in content verification, especially in tracking the spread of disinformation/ misinformation. (See: DFRLab’s lists of research involving misinformation. A good example is the following article from DFRLab: [https://dfrlab.org/2024/02/08/russian-milbloggers-falsely-accuse-kazakhstan-of-opening-a-nato-military-facility/](https://dfrlab.org/2024/02/08/russian-milbloggers-falsely-accuse-kazakhstan-of-opening-a-nato-military-facility/)
 
-TGStat was also used to analyze the far reaching influence of Telegram communities on Russian media outlets in the country’s war against Ukraine. ([https://dfrlab.org/2024/06/10/another-battlefield-russian-telegram/](https://dfrlab.org/2024/06/10/another-battlefield-russian-telegram/))&#x20;
+TGStat was also used to analyze the far reaching influence of Telegram communities on Russian media outlets in the country’s war against Ukraine: [https://dfrlab.org/2024/06/10/another-battlefield-russian-telegram/](https://dfrlab.org/2024/06/10/another-battlefield-russian-telegram/).
 
 ### Tool Provider
 
 According to[ TGStat’s website](https://tgstat.ru/agreement), these are the administrator’s details:
 
-Name: Individual entrepreneur Kizhikin Yuriy Aleksandrovich&#x20;
-
-INN: 616803600305&#x20;
-
-Current account: 40802810120000084203&#x20;
-
-Bank name: Bank Tochka LLC&#x20;
-
-BIC: 044525104&#x20;
-
-City: Moscow&#x20;
-
-Corr. account: 30101810745374525104 \
+Name: Individual entrepreneur Kizhikin Yuriy Aleksandrovich, Russia. \
 e-mail: ceo@tgstat.ru
 
 ### Advertising Trackers
