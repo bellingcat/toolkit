@@ -174,19 +174,19 @@ If not logged in, users can see the channel’s “Summary” analytics.
 
 If not logged in, users are unable to access the following features: subscribers, citation index, citation, average post reach, subscriber engagement, post views analysis, attracting subscribers, external traffic, and top posts.
 
-2. Video "How To" guides are mostly in Russian.
+2. There are not a lot of "How To" guides in English.&#x20;
+3. This tool can only search through the channels it covers but does not seem able to search through everything in Telegram.&#x20;
 
-If you're considering using TGStat, it's wise to weigh these potential limitations against your needs.&#x20;
+If you're considering using TGStat, weigh these potential limitations against your needs.&#x20;
 
 ### Ethical Consideration
 
 * **Be mindful of data accuracy/specify data provenance:** TGStat relies on data provided by Telegram, so the accuracy of the information it presents depends on Telegram's data. It is advisable to specify data provenance by citing TGstat.
-* **Privacy Concerns:** You're providing your Telegram data to a third-party service, so there are inherent privacy risks. Make sure you trust the tool and understand their data practices.
-* **Be mindful of OPSEC concerns when logging in:** It is advisable for users to be aware of any security vulnerabilities associated with accessing the metrics through loggin in.
+* **Privacy Concerns:**&#x20;
 
 ### Guide
 
-Russian language guide on the following link provided by TGStat.ru (In the process of searching guides in English): [https://tgstat.com/blog/video-course-1024](https://tgstat.com/blog/video-course-1024) (Turning on the Auto Translate feature on YouTube gives a useable translation of the guide)
+This is a guide in Russian provided by TGStat.ru: [https://tgstat.com/blog/video-course-1024](https://tgstat.com/blog/video-course-1024) (Turning on the Auto Translate feature on YouTube gives a useable translation of the guide).&#x20;
 
 _**Use case**_
 
@@ -194,7 +194,22 @@ TGStat has been particularly used in content verification, especially in trackin
 
 ### Tool Provider
 
-No information at the moment. Will be updated when information is available.
+According to[ TGStat’s website](https://tgstat.ru/agreement), these are the administrator’s details:
+
+Name: Individual entrepreneur Kizhikin Yuriy Aleksandrovich&#x20;
+
+INN: 616803600305&#x20;
+
+Current account: 40802810120000084203&#x20;
+
+Bank name: Bank Tochka LLC&#x20;
+
+BIC: 044525104&#x20;
+
+City: Moscow&#x20;
+
+Corr. account: 30101810745374525104 \
+e-mail: ceo@tgstat.ru
 
 ### Advertising Trackers
 
