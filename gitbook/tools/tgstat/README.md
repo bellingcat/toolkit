@@ -181,16 +181,29 @@ If you're considering using TGStat, weigh these potential limitations against yo
 
 ### Ethical Consideration
 
-* **Be mindful of data accuracy/specify data provenance:** TGStat relies on data provided by Telegram, so the accuracy of the information it presents depends on Telegram's data. It is advisable to specify data provenance by citing TGstat.
-* **Privacy Concerns:**&#x20;
+**Be mindful of data accuracy/specify data provenance**&#x20;
+
+TGStat relies on data provided by Telegram, so the accuracy of the information it presents depends on Telegram's data. It is advisable to specify data provenance by citing TGstat.
+
+**Privacy Concerns**
+
+Personal data of its users are collected automatically. According to Section 3.6 of its Privacy Policy ([https://tgstat.ru/en/privacy-policy](https://tgstat.ru/en/privacy-policy)), TGStat complies with “the requirements of current legislation in the field of personal data protection.“ It also states on Section 3.8 that the tool provider retains personal data “for as long as necessary to fulfill the purpose for which it was collected or to comply with legal and regulatory requirements.”&#x20;
+
+Section 5.2 of the Privacy Policy also specifies that user personal data can be transferred to government bodies of Russia “only on the grounds and in the manner established by the legislation of the Russian Federation.”&#x20;
+
+&#x20;In this [Wired article](https://web.archive.org/web/20240501205306/https://www.wired.com/story/the-kremlin-has-entered-the-chat/), concerns about user personal data on TGStat were raised.  “In its privacy policy, TGStat states clearly that it is obliged by law to hand over data to the “state authorities of the Russian Federation.” Because the company has been archiving publicly available data for years\[…] security forces could hypothetically go directly to TGStat to obtain a striking amount of information about a user without any direct assistance from Telegram.”&#x20;
+
+TGStat founder addressed privacy concerns about the tool in the same article, saying: “The situation in Russia and the world has no influence on the activities of TGStat.” He confirmed that data can be transferred to Russian authorities but said that “all companies operating in Russia have a similar clause in their policies” and that TGStat had not received any requests from authorities or law enforcement agencies.”
 
 ### Guide
 
-This is a guide in Russian provided by TGStat.ru: [https://tgstat.com/blog/video-course-1024](https://tgstat.com/blog/video-course-1024) (Turning on the Auto Translate feature on YouTube gives a useable translation of the guide).  This page will be updated if guides in other languages become available.&#x20;
+This is a guide in Russian provided by TGStat.ru: [https://tgstat.com/blog/video-course-1024](https://tgstat.com/blog/video-course-1024) (Turning on the Auto Translate feature on YouTube gives a usable translation of the guide).  This page will be updated if guides in other languages become available.&#x20;
 
 _**Use case**_
 
 TGStat has been particularly used in content verification, especially in tracking the spread of disinformation/ misinformation. (See: DFRLab’s lists of research involving misinformation. A good example is the following article from DFRLab: [https://dfrlab.org/2024/02/08/russian-milbloggers-falsely-accuse-kazakhstan-of-opening-a-nato-military-facility/](https://dfrlab.org/2024/02/08/russian-milbloggers-falsely-accuse-kazakhstan-of-opening-a-nato-military-facility/))
+
+TGStat was also used to analyze the far reaching influence of Telegram communities on Russian media outlets in the country’s war against Ukraine. ([https://dfrlab.org/2024/06/10/another-battlefield-russian-telegram/](https://dfrlab.org/2024/06/10/another-battlefield-russian-telegram/))&#x20;
 
 ### Tool Provider
 
