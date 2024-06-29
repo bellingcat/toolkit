@@ -57,7 +57,7 @@ TGStat solves a discovery and time management issue. Telegram’s search functio
 
 <figure><img src=".gitbook/assets/IMG_0178.jpg" alt=""><figcaption><p>This shows a catalog of public Telegram channels and open groups categorzed by country. The user can navigate to this feature by clicking “Catalog” in the upper left, then clicking “channels and groups catalog”. </p></figcaption></figure>
 
-However, users can find any public channel or open groups not covered by the countries listed in the catalog.&#x20;
+However, users can also find other public channels or open groups that are not covered by the countries listed in the catalog.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2024-06-24 170220.png" alt=""><figcaption><p>This is a public news channel with a Telegram account. The screenshot shows the TGStat analytics for the channel. In the upper right corner, the "channel's geo and language" is displayed. The channel is primarily in Arabic, and the specific country is not mentioned. This means that users may not be able to find this channel by browsing the catalog grouped by country. Instead, they can search for the channel's username using the site's search bar. This demonstrates that TGStat provides information for public channels on Telegram, irrespective of their country and language.</p></figcaption></figure>
 
