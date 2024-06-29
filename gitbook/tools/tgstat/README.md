@@ -186,7 +186,7 @@ If you're considering using TGStat, weigh these potential limitations against yo
 
 ### Guide
 
-This is a guide in Russian provided by TGStat.ru: [https://tgstat.com/blog/video-course-1024](https://tgstat.com/blog/video-course-1024) (Turning on the Auto Translate feature on YouTube gives a useable translation of the guide).&#x20;
+This is a guide in Russian provided by TGStat.ru: [https://tgstat.com/blog/video-course-1024](https://tgstat.com/blog/video-course-1024) (Turning on the Auto Translate feature on YouTube gives a useable translation of the guide).  This page will be updated if guides in other languages become available.&#x20;
 
 _**Use case**_
 
