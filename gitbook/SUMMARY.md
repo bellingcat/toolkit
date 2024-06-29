@@ -84,4 +84,4 @@
   * [QGIS](tools/qgis/README.md)
   * [OpenStreetMap Search Tool](tools/openstreetmap-search-tool/README.md)
   * [GeoHints](tools/geohints/README.md)
-  * [WhatsMyName](tools/whatsmyname/README.md)
+  * [WhatsMyName](tools/whats-my-name/README.md)
