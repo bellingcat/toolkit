@@ -78,7 +78,7 @@ _Posts rating_: Posts are rated by the most number of [views, by shares includin
 
 **Comparison:** This tool also solves the problem of visualizing posts reach and its relationship with other user accounts, channels and content. TGstat can pull up a specific channel's analytics and show the relationship between accounts through the “citation” section. This section shows who cites whom.&#x20;
 
-<figure><img src=".gitbook/assets/IMG_0214.jpeg" alt=""><figcaption><p>This image shows the “incoming mentions” on the left and “outgoing mentions” on the right.  The “incoming mentions” refer to the accounts that are discussing content from this channel. The “outgoing mentions” refer to the accounts that this channel in question is discussing. You can get to this feature by going to the main page of the channel you are researching, and clicking the blue bar called “Channel Statistics” on the right side of the page. Then clicking “Citation” on the menu to the left of the page.  </p></figcaption></figure>
+<figure><img src=".gitbook/assets/IMG_0214.jpeg" alt=""><figcaption><p>This image displays "incoming mentions" on the left and "outgoing mentions" on the right. "Incoming mentions" are channels or groups that mention this channel, while "outgoing mentions" are accounts this channel mentions. To access this feature, go to the main page of the channel you are researching, click on the blue bar labeled "Channel Statistics" on the right side of the page, then select "Citation" from the left-hand menu.</p></figcaption></figure>
 
 Users can use this feature during the preplanning stage to find other channels that might give them more information for their research. It can also show users what the channel is trying to achieve and why.&#x20;
 
@@ -176,7 +176,7 @@ If not logged in, users are unable to access the following features: subscribers
 
 2. Video "How To" guides are mostly in Russian.
 
-If you're considering using TGStat, it's wise to weigh these potential limitations against your needs. It might be a good option for getting a basic overview of your Telegram channel or group, but for more in-depth analysis, you might need to explore other options.
+If you're considering using TGStat, it's wise to weigh these potential limitations against your needs.&#x20;
 
 ### Ethical Consideration
 
