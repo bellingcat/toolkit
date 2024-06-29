@@ -216,6 +216,8 @@ e-mail: ceo@tgstat.ru
 
 This tool doesn't appear to use tracking cookies.
 
+<table><thead><tr><th width="67" data-type="checkbox"></th><th></th></tr></thead><tbody><tr><td>false</td><td>This tool has not been checked for advertising trackers yet.</td></tr><tr><td>false</td><td>This tool uses tracking cookies. Use with caution.</td></tr><tr><td>true</td><td>This tool does not appear to use tracking cookies.</td></tr></tbody></table>
+
 ### Page Maintainer
 
 Afton
