@@ -9,11 +9,15 @@ description: >-
 
 ## URL
 
-[https://tgstat.com/](https://tgstat.com/)
+[https://tgstat.com/](https://tgstat.com/)&#x20;
+
+[https://tgstat.ru/ ](https://tgstat.ru/)&#x20;
 
 ## Description
 
-TGStat is a Russia-based social media analytics platform that offers comprehensive statistics and insights for public Telegram channels and open groups. With its database, it provides detailed information on popular Telegram channels and members, including engagement metrics, growth trends, and audience demographics. TGStat covers statistics Telegram channels encompassing:
+TGStat is a Russia-based social media analytics platform that offers comprehensive statistics and insights for Telegram channels and groups. According to its website, it provides detailed information on popular Telegram channels and members, including engagement metrics, growth trends, and audience demographics.&#x20;
+
+For Telegram channels, TGStat covers statistics for:
 
 \- Subscriber numbers
 
@@ -27,9 +31,21 @@ TGStat is a Russia-based social media analytics platform that offers comprehensi
 
 \- Posting frequency
 
-Analytics for Telegram groups are&#x20;
+For Telegram groups, TGStat also provides analytics focusing on various aspects such as:
 
-TGStat is useful for discovery, especially for those monitoring events in Russian-speaking countries, post-Soviet regions, or far-right groups. It analyzes a diverse set of channels and public groups. The statistics are constantly being refreshed and updated in [real-time](https://databar.ai/explore/tgstat).
+\-Member Growth
+
+\-Engagement Metrics
+
+\-User Activity
+
+\-Member Demographics
+
+\-Content Analysis
+
+\-Administrator Insights
+
+TGStat is useful for discovery, especially for those monitoring events in Russian-speaking countries, post-Soviet regions, or far-right groups. It analyzes a diverse set of channels and groups. The statistics are constantly being refreshed and updated in [real-time](https://databar.ai/explore/tgstat).
 
 _**What problem does it solve?**_
 
@@ -60,7 +76,7 @@ _Groups rating:_ Groups (public and private) are rated according to the most num
 _Posts rating_: Posts are rated by the most number of [views, by shares including through personal messages, by most numbers of comments, by forwards to channels, and by reactions](https://tgstat.ru/en/ratings/posts). \
 
 
-**Comparison:** TGStat also solves the problem of visualizing posts reach and its relationship with other user accounts, channels and content. TGstat can pull up a specific channel's analytics and show the relationship between accounts through the “citation” section. This section shows who cites whom.&#x20;
+**Comparison:** This tool also solves the problem of visualizing posts reach and its relationship with other user accounts, channels and content. TGstat can pull up a specific channel's analytics and show the relationship between accounts through the “citation” section. This section shows who cites whom.&#x20;
 
 <figure><img src=".gitbook/assets/IMG_0214.jpeg" alt=""><figcaption><p>This image shows the “incoming mentions” on the left and “outgoing mentions” on the right.  The “incoming mentions” refer to the accounts that are discussing content from this channel. The “outgoing mentions” refer to the accounts that this channel in question is discussing. You can get to this feature by going to the main page of the channel you are researching, and clicking the blue bar called “Channel Statistics” on the right side of the page. Then clicking “Citation” on the menu to the left of the page.  </p></figcaption></figure>
 
