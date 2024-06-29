@@ -148,17 +148,15 @@ The paid version of the tool requires:
 
 ### Limitations
 
-The tool has very few limitations.
+The tool has few limitations.
 
 1. It requires logging in to access important features.
 
 If not logged in, users can see the channel’s “Summary” analytics.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-05-30 061656 (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-05-30 061656 (1).png" alt="" width="563"><figcaption><p>This shows a summary of the analytics available to users who are not logged in. This can be accessed by searching for a Telegram username on the search bar on the top of the page. Once on the channel or group’s page, click on “Statistics” to the right. Then, click on “Summary” on the menu bar to the left.</p></figcaption></figure>
 
 If not logged in, users are unable to access the following features: subscribers, citation index, citation, average post reach, subscriber engagement, post views analysis, attracting subscribers, external traffic, and top posts.
-
-<figure><img src=".gitbook/assets/Screenshot 2024-05-30 061720.png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. Video "How To" guides are mostly in Russian.
 
