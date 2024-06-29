@@ -12,4 +12,4 @@
 | [**SMAT**](https://www.smat-app.com) | Search messages, count links, see activity & timeline of a search term on Gab, Parler, 4chan, 8kun, .win, poal, telegram, Gettr, Bitchute, Tiktok | <mark style="background-color:green;">Free</mark> |  |
 | [**snscrape**](https://github.com/JustAnotherArchivist/snscrape) | Comand-line tool for scraping multiple social media platforms without using official API, especially Twitter and Telegram | <mark style="background-color:green;">Free</mark> |  |
 | [**Social-searcher**](https://www.social-searcher.com/) | Search hashtags and usernames across various platforms. | <mark style="background-color:orange;">Partially Free</mark> |  |
-| [**WhatsMyName**](https://whatsmyname.app/) | Search for usernames on several hundred platforms | <mark style="background-color:green;">Free</mark> | 🗣️  |
+| [**WhatsMyName**](https://whatsmyname.app/) | Search for usernames on several hundred platforms | <mark style="background-color:green;">Free</mark> | [Details](../../tools/whats-my-name/README.md) |
