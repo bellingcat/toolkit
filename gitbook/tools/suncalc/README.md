@@ -53,7 +53,8 @@ The length of the daytime (difference between time of sunset and time of sunrise
 </details>
 
 {% embed url="https://www.britannica.com/video/152185/role-orbit-axis-Earth-seasons" %}
-**REVIEWING THE RELATIONSHIP OF SUN, MOON, SEASONS AND TIME WITH ENCYCLOPAEDIA BRITANNICA**
+**REVIEWING THE RELATIONSHIP OF SUN, MOON, SEASONS AND TIME WITH ENCYCLOPAEDIA BRITANNICA**\
+**Copyright Encyclopedia Brittanica, Inc.**
 {% endembed %}
 
 SunCalc can be used for geolocation and chronolocation in various ways:
@@ -160,7 +161,7 @@ Menu buttons top left and top right of the map display show menus to toggle over
 
 ### Objects and Their Shadows: SunCalc Shadow Length Feature
 
-<figure><img src=".gitbook/assets/SUNCALCTRAILS.JPG" alt="" width="375"><figcaption><p><strong>SUNCALC RELATES THE POSITION AND ANGLE OF THE SUN TO THE RATIO OF THE HEIGHT OF AN OBJECT TO THE HEIGHT OF THE SHADOW IT CASTS</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/SUNCALCTRAILSscjpg.jpg" alt=""><figcaption></figcaption></figure>
 
 Open Source Imagery often contains shadows in the same image as the object which cast them. Trigonometry can be used to relate the height of the object, the length of the shadow and the angle of elevation of the sun. It is the elevation angle of the sun which determines the ratio of the height of an object to the height of the shadow it casts.
 
