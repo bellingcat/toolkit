@@ -28,19 +28,25 @@ https://www.suncalc.org
 
 So the perceived trajectory of the sun is the result of the superposition of three different effects: Rotation, Orbit and Tilt:
 
-1. **Internal Rotation:** The earth rotates daily around its internal axis
+1. **Internal Rotation:** The earth rotates daily around its internal axis.
 
 <img src=".gitbook/assets/earthspin.gif" alt="" data-size="original">
 
+_(Image from Giphy , author Dyanapyehchek @dianapietrzyk)_
+
 The position of the sun along its daily trajectory in the sky (measured as changing elevation and azimuth angles) varies with the time of day.
 
-2. **Orbit:** The earth rotates annually around the sun in an eliptical orbit...
+2. **Orbit:** The earth rotates annually around the sun in an eliptical orbit...&#x20;
 
 <img src=".gitbook/assets/earthorbit.gif" alt="" data-size="original">
+
+_(Image from Giphy, author BrainPOP @brainpop)_
 
 3. **Tilt:** ...at 23.5 degrees to its internal axis of rotation, with the North Pole constantly pointing at the North Star.
 
 <img src=".gitbook/assets/earthtilt.gif" alt="" data-size="original">
+
+_(Image from Giphy, author European Space Agency)_
 
 The length of the daytime (difference between time of sunset and time of sunrise) and the sun's trajectory in the sky vary according to season throughout the year, i.e. with the date. Latitudes tilted closer to the sun experience a warmer seasonal climate and longer days, those tilted further from the sun experience cooler seasons and shorter days.
 
@@ -117,11 +123,11 @@ The trajectory of the sun is its path through space. This is defined by the vari
 
 <summary>The trajectory of the sun is its path through space. This is defined by the variation in two angles applied to the sun seen in the sky from earth: azimuth angle and elevation angle... (Click for more detail)</summary>
 
-<img src=".gitbook/assets/suncalcazimuth (1).JPG" alt="" data-size="original">
+![](.gitbook/assets/image.png)
 
 **THE AZIMUTH ANGLE OF THE SUN (HORIZONTAL COMPASS BEARING)**
 
-<img src=".gitbook/assets/suncalcelevation (1).JPG" alt="" data-size="original">
+![](<.gitbook/assets/image (1).png>)
 
 **THE ELEVATION ANGLE OF THE SUN (VERTICAL SEXTANT ANGLE)**
 
@@ -168,7 +174,7 @@ These transparent protractor imags can also be found online and be transformed i
 
 **SunCalc Shadow Length Function** allows the user to input the height of an object at the chosen location, and then displays the length of the shadow of that object for the given location, date and time. This shadow length is displayed above the input window for object height.
 
-<figure><img src=".gitbook/assets/image (2).png" alt="" width="563"><figcaption><p><strong>SETTING OBJECT HEIGHT FOR SHADOW LENGTH CALCULATION</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption><p><strong>SETTING OBJECT HEIGHT FOR SHADOW LENGTH CALCULATION</strong></p></figcaption></figure>
 
 To open the input window for shadow length, click on the Object Level text input window in the sidebar, then enter text or use the buttons to set the object height - see above.
 
