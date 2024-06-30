@@ -165,9 +165,9 @@ Menu buttons top left and top right of the map display show menus to toggle over
 Open Source Imagery often contains shadows in the same image as the object which cast them. Trigonometry can be used to relate the height of the object, the length of the shadow and the angle of elevation of the sun. It is the elevation angle of the sun which determines the ratio of the height of an object to the height of the shadow it casts.
 
 {% hint style="danger" %}
-Beware: For accurate results, the object in a source image and the shadow it casts must be at right angles (i.e. orthogonal) to the camera. A useful tool for dealing with angles in imagery is a transparent digital protractor. The example below can be copied and pasted for personal use and is provided under a creative commons licence by pngall.com at [https://www.pngall.com/protractor-png/download/135986](https://www.pngall.com/protractor-png/download/135986)
+Beware: For accurate results, the object in a source image and the shadow it casts must be at right angles (i.e. orthogonal) to the camera. A useful tool for dealing with angles in imagery is a transparent digital protractor. The example below can be copied and pasted for personal use and is provided under a creative commons licence by pngall.com at [https://www.pngall.com/protractor-png/download/13598](https://www.pngall.com/protractor-png/download/135986)
 
-![](.gitbook/assets/image.png)
+![](.gitbook/assets/Protractor-Transparent.png)
 
 These transparent protractor images can also be found online and be transformed in 3D by graphics programs to rotate to an angle which compensates for non-orthogonal shadow images, but some accuracy is lost. Above is a digital protractor in \*.png format to preserve transparency so that measurements can be made whilst the image beneath is visible.
 {% endhint %}
