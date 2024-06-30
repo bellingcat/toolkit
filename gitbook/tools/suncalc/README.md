@@ -127,7 +127,7 @@ The trajectory of the sun is its path through space. This is defined by the vari
 
 **THE AZIMUTH ANGLE OF THE SUN (HORIZONTAL COMPASS BEARING)**
 
-![](<.gitbook/assets/image (1) (1).png>)
+<img src=".gitbook/assets/suncalcelevationSC (2).jpg" alt="" data-size="original">
 
 **THE ELEVATION ANGLE OF THE SUN (VERTICAL SEXTANT ANGLE)**
 
