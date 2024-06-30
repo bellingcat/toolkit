@@ -123,11 +123,11 @@ The trajectory of the sun is its path through space. This is defined by the vari
 
 <summary>The trajectory of the sun is its path through space. This is defined by the variation in two angles applied to the sun seen in the sky from earth: azimuth angle and elevation angle... (Click for more detail)</summary>
 
-![](.gitbook/assets/image.png)
+![](<.gitbook/assets/image (1).png>)
 
 **THE AZIMUTH ANGLE OF THE SUN (HORIZONTAL COMPASS BEARING)**
 
-![](<.gitbook/assets/image (1).png>)
+![](<.gitbook/assets/image (1) (1).png>)
 
 **THE ELEVATION ANGLE OF THE SUN (VERTICAL SEXTANT ANGLE)**
 
@@ -165,11 +165,11 @@ Menu buttons top left and top right of the map display show menus to toggle over
 Open Source Imagery often contains shadows in the same image as the object which cast them. Trigonometry can be used to relate the height of the object, the length of the shadow and the angle of elevation of the sun. It is the elevation angle of the sun which determines the ratio of the height of an object to the height of the shadow it casts.
 
 {% hint style="danger" %}
-Beware: For accurate results, the object in a source image and the shadow it casts must be at right angles (i.e. orthogonal) to the camera. A useful tool for dealing with angles in imagery is a transparent digital protractor. The example below can be copied and pasted for use.
+Beware: For accurate results, the object in a source image and the shadow it casts must be at right angles (i.e. orthogonal) to the camera. A useful tool for dealing with angles in imagery is a transparent digital protractor. The example below can be copied and pasted for personal use and is provided under a creative commons licence by pngall.com at [https://www.pngall.com/protractor-png/download/135986](https://www.pngall.com/protractor-png/download/135986)
 
-<img src=".gitbook/assets/Protractor.gif" alt="" data-size="original">
+![](.gitbook/assets/image.png)
 
-These transparent protractor imags can also be found online and be transformed in 3D by graphics programs to rotate to an angle which compensates for non-orthogonal shadow images, but some accuracy is lost. Above is a digital protractor in \*.gif format to preserve transparency so that measurements can be made whilst the image beneath is visible.
+These transparent protractor images can also be found online and be transformed in 3D by graphics programs to rotate to an angle which compensates for non-orthogonal shadow images, but some accuracy is lost. Above is a digital protractor in \*.png format to preserve transparency so that measurements can be made whilst the image beneath is visible.
 {% endhint %}
 
 **SunCalc Shadow Length Function** allows the user to input the height of an object at the chosen location, and then displays the length of the shadow of that object for the given location, date and time. This shadow length is displayed above the input window for object height.
