@@ -62,7 +62,7 @@ function publishTool(name) {
   }
 
   const tools = getTools();
-  const tool = tools.find((x) => x.title === name || x.directory === slug);
+  const tool = tools.find((x) => x.title === name || x.directory === filepath);
 
   if (!tool) {
     console.log("No tool found: ", name);
