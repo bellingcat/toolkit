@@ -323,7 +323,7 @@ Move the time slider to watch the major shadows cast by terrain features move ac
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>4</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
 It is easy to user PeakVisor's basic features, but the most useful ones take some time to master.
 
