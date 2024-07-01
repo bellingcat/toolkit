@@ -19,5 +19,5 @@ jobs:
 
       - name: All tools up to date?
         run: |
-          node last-updated.mjs
+          node src/last-updated.mjs
 
