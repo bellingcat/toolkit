@@ -181,6 +181,10 @@ To open the input window for shadow length, click on the Object Level text input
 
 ### The Animation Feature
 
+<figure><img src=".gitbook/assets/SuncalcEiffelTower300m.gif" alt=""><figcaption><p>RUNNING SUNCALC'S SHADOW ANIMATION FOR THE 300M EIFFEL TOWER FOR COMPARISON WITH A DOCUMENTED PHOTOGRAPH</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/sourceShadowEiffel.JPG" alt=""><figcaption><p>EIFFEL TOWER SHADOW PHOTOGRAPH BY STEVE FROM TEXAS <a href="https://www.flickr.com/people/8666640@N06">https://www.flickr.com/people/8666640@N06</a> FROM WIKIMEDIA WEBSITE <a href="https://commons.wikimedia.org/wiki/File:Shadow_of_the_Eiffel_Tower,_Paris_6_July_2016.jpg">https://commons.wikimedia.org/wiki/File:Shadow_of_the_Eiffel_Tower,_Paris_6_July_2016.jpg</a><br>LOCATION = EIFFEL TOWER, PARIS, FRANCE. DATE = 3/7/16, TIME = 07:35 (TEXAS TIME, I.E. 14:35 PARIS TIME)<br>NOTE THAT THE SHADOW DIRECTION MATCHES AT 14:35 PARIS TIME BECAUSE THE MOBILE CAMERA IS ON TEXAS TIME</p></figcaption></figure>
+
 <figure><img src=".gitbook/assets/animationbutton.jpg" alt="" width="563"><figcaption><p><strong>CLICK THE TIME INPUT BUTTON ON THE INTERFACE, THEN THE START ANIMATION BUTTON ON THE "SET TIME" WINDOW</strong></p></figcaption></figure>
 
 SunCalc can run an animation showing the sun's daylight trajectory over time from dawn to dusk for the day and location chosen in the sidebar. This is activated from the Time Input Window as shown above.
