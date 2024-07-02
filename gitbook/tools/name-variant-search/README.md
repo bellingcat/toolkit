@@ -6,7 +6,7 @@ description: Simple tool to help search for different ways of writing a name.
 
 ## URL
 
-https://bellingcat.github.io/name-variant-search/
+[https://bellingcat.github.io/name-variant-search/](https://bellingcat.github.io/name-variant-search/)
 
 ## Description <a href="#description" id="description"></a>
 
