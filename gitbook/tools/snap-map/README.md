@@ -22,27 +22,9 @@ Snap Maps is a feature of Snapchat that allows users to post images, videos, and
 
 **Discover Specific Locations:** Some specific places, such as museums, restaurants, and universities, appear automatically on the heat map. Users may also zoom in on the map to find these locations and view public posts that user have geotagged to that specific place.&#x20;
 
-**Use Cases:** Snap Maps can be a useful tool for gathering geospatial information and understanding real-time events. For example, a Snapchat user posted a video of armed clashes in Jenin in the West Bank in May 2024.
+**Use Cases:** Snap Maps can be a useful tool for gathering geospatial information and understanding real-time events.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2024-05-26 at 2.32.17 PM.png" alt="" width="375"><figcaption></figcaption></figure>
-
-While the user may not know where specifically in Jenin the clashes occurred, they can use cues from the video to find a more precise location for the event.
-
-<div>
-
-<figure><img src=".gitbook/assets/Screenshot 2024-05-26 at 2.42.18 PM.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/Screenshot 2024-05-26 at 2.41.49 PM.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-The video was filmed near a latin church in the center of Jenin City.
-
-<figure><img src=".gitbook/assets/Screenshot 2024-05-26 at 2.30.57 PM.png" alt=""><figcaption></figcaption></figure>
-
-Snap Maps is also a good place to start for investigations on human networks in specific locations. Snap Map posts are linked to a specific Snapchat user, which other users can click on to view the users' public profile. The public profile includes the users' Snapchat name, username, bio, and other public posts from the user.&#x20;
+Snap Maps is also a good place to start for investigations on human networks in specific locations. Snap Map posts are linked to a specific Snapchat user, which other users can click on to view the users' public profile. The public profile may include the users' Snapchat name, username, bio, and other public posts from the user.&#x20;
 
 ## Cost
 
@@ -62,7 +44,9 @@ Users must access Snap Maps through a Snapchat account, which requires an email 
 
 Snap Maps is currently unavailable in Cuba, North Korea, Turkey, and Ukraine.&#x20;
 
-Snap Maps provides access to user-generated content in real-time, but the amount of data available may be limited depending on the location and user activity in that area. Some regions may have more active users and content than others, which can affect the quality and quantity of data available for research.
+Snap Maps provides access to user-generated content in real-time, but the amount of data available may be limited depending on the location and user activity in that area. Some regions may have more active users and content than others, which can affect the quality and quantity of data for research.
+
+Snap Maps may also sometimes have incorrect location tags.
 
 Snap Maps has a limited search functionality. It does not allow users to filter posts by date, time, or a specific Snapchat user, unless you are "friends" with that user. This can make sorting through Snap Map posts for a specific research project very time consuming.
 
@@ -80,7 +64,7 @@ Users can view posts on Snap Maps while their location services for Snapchat are
 
 ## Guide
 
-Link to a guide on this tool
+[https://techcrunch.com/2023/11/03/snapchat-snap-map-israel-hamas-war-gaza-palestine/ ](https://techcrunch.com/2023/11/03/snapchat-snap-map-israel-hamas-war-gaza-palestine/)
 
 ## Tool provider
 
