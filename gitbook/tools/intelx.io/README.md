@@ -14,7 +14,7 @@ Intelx lets you search email addresses (and other inputs) in its database of inf
 
 &#x20;In the example below, Intelx finds a particular email address in a leak of Twitter and Chegg. The twitter one shows info on names, screen names, followers and the creation time. The Chegg database shows email addresses and their passwords.
 
-![](.gitbook/assets/image.png)&#x20;
+&#x20;![](<.gitbook/assets/image (3).png>)
 
 By clicking on the database you can see the whole file and make a search for an email of interest.&#x20;
 
