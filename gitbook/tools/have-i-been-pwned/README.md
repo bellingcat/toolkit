@@ -54,7 +54,7 @@ Business Insider: [How to find out in 10 seconds whether your phone number was l
 
 ## Tool provider
 
-Troy Hunt, Superlative Enterprises, Australia. Info on the tool providers can be found [here](https://haveibeenpwned.com/About).
+Troy and Charlotte Hunt, Superlative Enterprises, Australia. Info on the tool providers can be found [here](https://haveibeenpwned.com/About).
 
 ## Advertising Trackers
 
