@@ -64,7 +64,7 @@ Users can view posts on Snap Maps while their location services for Snapchat are
 
 ## Guide
 
-[https://techcrunch.com/2023/11/03/snapchat-snap-map-israel-hamas-war-gaza-palestine/ ](https://techcrunch.com/2023/11/03/snapchat-snap-map-israel-hamas-war-gaza-palestine/)
+Sung, Morgan: People are turning to Snap Map for firsthand perspectives from Gaza, [https://techcrunch.com/2023/11/03/snapchat-snap-map-israel-hamas-war-gaza-palestine/](https://techcrunch.com/2023/11/03/snapchat-snap-map-israel-hamas-war-gaza-palestine/).
 
 ## Tool provider
 
