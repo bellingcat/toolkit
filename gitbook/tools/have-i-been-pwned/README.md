@@ -56,7 +56,7 @@ HIBP does not show any leaked passwords etc., do not try to find out those passw
 
 ## Tool provider
 
-Superlative Enterprises, Australia. Info on the tool providers can be found here [https://haveibeenpwned.com/About](https://haveibeenpwned.com/About)&#x20;
+Superlative Enterprises, Australia. Info on the tool providers can be found [here](https://haveibeenpwned.com/About).
 
 ## Advertising Trackers
 
