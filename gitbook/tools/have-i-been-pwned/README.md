@@ -52,7 +52,7 @@ HIBP does not show any leaked passwords etc., do not try to find out those passw
 
 ## Guide
 
-\-
+Business Insider: [How to find out in 10 seconds whether your phone number was leaked in the giant Facebook breach that exposed the data of 533 million users](https://www.businessinsider.com/was-your-phone-number-leaked-facebook-breach-2021-4?op=1).
 
 ## Tool provider
 
