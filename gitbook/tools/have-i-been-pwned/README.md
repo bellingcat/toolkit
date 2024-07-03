@@ -30,7 +30,7 @@ None
 
 ## Limitations
 
-The result page only shows the type of data breached - "username", "ip address", "password", it does not show you the breached data itself. If you are interested in those there are websites that collect the breached databases and let users perform searches (usually for a fee).&#x20;
+The result page only shows the type of data breached - "username", "ip address", "password", it does not show you the breached data itself. There are websites that collect the breached databases and let users perform searches (usually for a fee). Do not try to find out passwords via means like that with the goal to hack into accounts!
 
 "Whilst HIBP is kept up to date with as much data as possible, it contains but a small subset of all the records that have been breached over the years",[ the tool providers write](https://haveibeenpwned.com/FAQs). Hence, do not expect to see all data breaches that exist will be included in this website. Again, use this tool as the starting point of your research into an email address/ phone number.&#x20;
 
