@@ -42,7 +42,7 @@ The result page only shows the type of data breached - "username", "ip address",
 
 It might occur that an email address shows up in connection with a data breach related to a specific site even though the email address was never used to sign up for this specific site. This can have [various reasons](https://www.troyhunt.com/why-am-i-in-a-data-breach-for-a-site-i-never-signed-up-for/), one of them is the possibility that a user signed up for a site that was later bought by another company and this company took over the user data from the acquired site which then became part of the leak.
 
-Users can also [opt out](https://haveibeenpwned.com/OptOut) from being included in the HIBP results.
+Results for some particulary sensitive sites (dating sites for sexual contacts etc.) are not shown publicly, they can only be seen by the owner of an e-mail address. Users can also [opt out](https://haveibeenpwned.com/OptOut) from being included in the HIBP results.
 
 ## Ethical Considerations
 
