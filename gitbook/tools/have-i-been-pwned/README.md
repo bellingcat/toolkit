@@ -50,13 +50,13 @@ Consider the strong ethical implications of examining leaked user data. Dependin
 
 HIBP does not show any leaked passwords etc., do not try to find out those passwords via other means with the goal to hack into accounts!
 
-## Guide
+## Guides and Articles
 
 Business Insider: [How to find out in 10 seconds whether your phone number was leaked in the giant Facebook breach that exposed the data of 533 million users](https://www.businessinsider.com/was-your-phone-number-leaked-facebook-breach-2021-4?op=1).
 
 ## Tool provider
 
-Superlative Enterprises, Australia. Info on the tool providers can be found [here](https://haveibeenpwned.com/About).
+Troy Hunt, Superlative Enterprises, Australia. Info on the tool providers can be found [here](https://haveibeenpwned.com/About).
 
 ## Advertising Trackers
 
