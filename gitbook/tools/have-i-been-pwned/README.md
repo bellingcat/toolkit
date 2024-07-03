@@ -1,12 +1,12 @@
 ---
-description: Does email or phone appear in data breaches?
+description: Does an email or phone number appear in data breaches?
 ---
 
 # Have I Been Pwned?
 
 ## URL
 
-https://haveibeenpwned.com/
+[https://haveibeenpwned.com](https://haveibeenpwned.com)
 
 ## Description
 
@@ -38,7 +38,7 @@ None
 
 The result page only shows the type of data breached - "username", "ip address", "password", it does not show you the breached data itself. If you are interested in those there are websites that collect the breached databases and let users perform searches (usually for a fee).&#x20;
 
-"Whilst HIBP is kept up to date with as much data as possible, it contains but a small subset of all the records that have been breached over the years" [source](https://haveibeenpwned.com/FAQs). Hence, do not expect to see all the data breaches in this website. Again use this tool as the starting point of your research into an email address/ phone number.&#x20;
+"Whilst HIBP is kept up to date with as much data as possible, it contains but a small subset of all the records that have been breached over the years",[ the tool providers write](https://haveibeenpwned.com/FAQs). Hence, do not expect to see all data breaches that exist being included in this website. Again, use this tool as the starting point of your research into an email address/ phone number.&#x20;
 
 &#x20;
 
