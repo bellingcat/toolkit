@@ -14,9 +14,9 @@ Have I Been Pwned allows you to search across multiple data breaches to see if y
 
 This tool is especially useful for finding where a person of interest had accounts and using those for further research. Say you have an email address you want to investigate. By running it on HIBP you find they had breaches on Twitter, Duolingo, and Last.fm -- this means they had accounts on those platforms and you can start researching these further until you find the connected accounts on the platforms.  HIPB is a starting point for researching email addresses / phone numbers.&#x20;
 
+<figure><img src=".gitbook/assets/Screenshot 2024-07-03 at 18.52.25.png" alt=""><figcaption></figcaption></figure>
 
 
-![](.gitbook/assets/image.png)
 
 ## Cost
 
