@@ -40,7 +40,7 @@ Like any tool related to or making use of remote sensing data, the ethical consi
 
 ## Tool provider
 
-Institute of Crop Science and Resource Conservation (INRES)
+Verena Henricht and Ktharina Brüser, Institue of Crop Science and Resource Conservation (INRES)
 
 ## Advertising Trackers
 
