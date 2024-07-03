@@ -48,7 +48,7 @@ The result page only shows the type of data breached - "username", "ip address",
 
 ## Guide
 
-
+\-
 
 ## Tool provider
 
@@ -60,7 +60,7 @@ Info on the tool providers can be found here [https://haveibeenpwned.com/About](
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat volunteer team |
-|                           |
+| Page maintainer      |
+| -------------------- |
+| Aiganysh Aidarbekova |
+|                      |
