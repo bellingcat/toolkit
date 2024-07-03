@@ -4,10 +4,6 @@ description: Does an email or a phone number appear in data breaches?
 
 # Have I Been Pwned?
 
-## This Bellingcat email address showed up in two “pastes” which HIBP defines as “information that has been “pasted” to a publicly facing website designed to share content such as Pastebin”. One of those pastes is not a breach but is shows an email sent from a person who added the Bellingcat email address in CC.URL
-
-[https://haveibeenpwned.com](https://haveibeenpwned.com)
-
 ## Description
 
 Have I Been Pwned allows you to search across multiple data breaches to see if your email address or phone number has been compromised.  It searches through over 700 websites and more than 100,000 pastes. When you search for an email address or phone number, the screen will either turn green, indicating no compromised accounts found, or red, indicating compromised accounts. If the screen turns red, you'll see a list of platforms or websites where your account details were compromised, along with additional information on when and what kind of data was affected.&#x20;
