@@ -50,7 +50,7 @@ If you decide to proceed, do not use the data to hack into accounts. Instead, co
 
 ## Tool provider
 
-Founder info can be found at [https://intelx.io/about](https://intelx.io/about)&#x20;
+Czech Republic, Peter Kleissner, founder info can be found at [https://intelx.io/about](https://intelx.io/about)&#x20;
 
 ## Advertising Trackers
 
