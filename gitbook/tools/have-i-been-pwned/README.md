@@ -38,7 +38,9 @@ None
 
 The result page only shows the type of data breached - "username", "ip address", "password", it does not show you the breached data itself. If you are interested in those there are websites that collect the breached databases and let users perform searches (usually for a fee).&#x20;
 
-"Whilst HIBP is kept up to date with as much data as possible, it contains but a small subset of all the records that have been breached over the years",[ the tool providers write](https://haveibeenpwned.com/FAQs). Hence, do not expect to see all data breaches that exist being included in this website. Again, use this tool as the starting point of your research into an email address/ phone number.&#x20;
+"Whilst HIBP is kept up to date with as much data as possible, it contains but a small subset of all the records that have been breached over the years",[ the tool providers write](https://haveibeenpwned.com/FAQs). Hence, do not expect to see all data breaches that exist will be included in this website. Again, use this tool as the starting point of your research into an email address/ phone number.&#x20;
+
+It might occur that an email address shows up in connection with a data breach even though the email address was never used to sign up for the site listed in the results. This can have [various reasons](https://www.troyhunt.com/why-am-i-in-a-data-breach-for-a-site-i-never-signed-up-for/), one of them is the possibility that a user signed up for a site that was later bought by another company and this company took over the user data from the acquired site.
 
 &#x20;
 
