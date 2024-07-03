@@ -22,7 +22,7 @@ By clicking on the database you can see the whole file and make a search for an 
 
 * [ ] Free
 * [x] Partially Free
-* [x] Paid
+* [ ] Paid
 
 Very limited results with a free account. Prices start at € 2.500 /Year.&#x20;
 
