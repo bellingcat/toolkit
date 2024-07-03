@@ -24,7 +24,7 @@ By clicking on the database you can see the whole file and make a search for an 
 * [x] Partially Free
 * [x] Paid
 
-Very limited results with a free account. Prices start at € 2.500 /Year. There's been cases when journalists were given free access. &#x20;
+Very limited results with a free account. Prices start at € 2.500 /Year.&#x20;
 
 ## Level of difficulty
 
@@ -32,11 +32,11 @@ Very limited results with a free account. Prices start at € 2.500 /Year. There
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+\-
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+Very limited results with a free account.
 
 ## Ethical Considerations
 
@@ -46,7 +46,7 @@ If you decide to proceed, do not use the data to hack into accounts. Instead, co
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+\-
 
 ## Tool provider
 
