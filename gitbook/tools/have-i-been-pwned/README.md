@@ -1,5 +1,5 @@
 ---
-description: Does an email or phone number appear in data breaches?
+description: Does an email or a phone number appear in data breaches?
 ---
 
 # Have I Been Pwned?
@@ -20,11 +20,11 @@ This tool is especially useful for finding where a person of interest had accoun
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
-
+The site can be used for free but there are [costs](https://haveibeenpwned.com/API/Key) for receiving an API key.
 
 ## Level of difficulty
 
@@ -56,7 +56,7 @@ HIBP does not show any leaked passwords etc., do not try to find out those passw
 
 ## Tool provider
 
-Info on the tool providers can be found here [https://haveibeenpwned.com/About](https://haveibeenpwned.com/About)&#x20;
+Superlative Enterprises, Australia. Info on the tool providers can be found here [https://haveibeenpwned.com/About](https://haveibeenpwned.com/About)&#x20;
 
 ## Advertising Trackers
 
