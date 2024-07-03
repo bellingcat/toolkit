@@ -87,3 +87,4 @@
   * [WhatsMyName](tools/whats-my-name/README.md)
   * [TGStat](tools/tgstat/README.md)
   * [Blender](tools/blender/README.md)
+  * [Intelx.io](tools/intelx.io/README.md)
