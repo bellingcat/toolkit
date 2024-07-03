@@ -46,7 +46,9 @@ Results for some particulary sensitive sites (dating sites for sexual contacts e
 
 ## Ethical Considerations
 
+Consider the strong ethical implications of examining leaked user data. Depending on the ethical and legal standards of your work, you may decide whether or not to use it. Assess if researching a person of interest in the leaked database is justified by the potential public benefit. Does the end justify the means?
 
+HIBP does not show any leaked passwords etc., do not try to find out those passwords via other means with the goal to hack into accounts!
 
 ## Guide
 
