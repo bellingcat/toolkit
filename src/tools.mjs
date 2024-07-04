@@ -69,7 +69,7 @@ function publishTool(name) {
     throw new Error("Can't publish ", name, " - Tool not found");
   }
 
-  const link = path.join('tools', slug);
+  const link = path.join('tools', slug, 'README.md');
   const summary = getSummary('gitbook');
 
   if (summary.match(link)) {
