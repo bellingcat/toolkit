@@ -7,7 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "url": "https://firms2.modaps.eosdis.nasa.gov/map/",
   "tags": [
     "maps",
     "free",
