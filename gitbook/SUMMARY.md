@@ -91,3 +91,4 @@
   * [Bing Maps](tools/bing-maps/README.md)
   * [Have I Been Pwned](tools/have-i-been-pwned/README.md)
   * [NASA Firms](tools/nasa-firms/README.md)
+  * [Google Maps](tools/google-maps/README.md)
