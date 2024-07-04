@@ -7,9 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Have I Been Pwned?",
-  "url": "https://haveibeenpwned.com/",
-  "description": "Does email or phone appear in data breaches?",
   "cost": "Free",
   "details": "📞📧\n",
   "tags": [
