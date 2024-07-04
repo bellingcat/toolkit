@@ -22,16 +22,17 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Add tool to summary
-        id: update-summary
+      - name: Publish tool
+        id: publish
         run: |
           node src/publish-tool.mjs "$TOOL_NAME"
+          npm run build
           if [ -n "$(git status --porcelain)" ]; then
             echo "changes=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Commit changes ${{ steps.update-summary.outputs.changes }}
-        if: ${{ steps.update-summary.outputs.changes == 'true' }}
+      - name: Commit changes ${{ steps.publish.outputs.changes }}
+        if: ${{ steps.publish.outputs.changes == 'true' }}
         run: |
           git status --porcelain
           git config --local user.email "action@github.com"
@@ -40,8 +41,19 @@ jobs:
           git commit -m "Publish Tool $TOOL_NAME"
 
       - name: Push changes
-        if: ${{ steps.update-summary.outputs.changes == 'true' }}
+        if: ${{ steps.publish.outputs.changes == 'true' }}
         uses: ad-m/github-push-action@master
         with:
-          branch: main
+          branch: build
+          force: true
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.all == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: build
+          commit-message: "Publish Tool $TOOL_NAME"
+          title: "Publish Tool $TOOL_NAME"
+          body: "This pull request publishes a tool and updates the build based on latest changes."
 
