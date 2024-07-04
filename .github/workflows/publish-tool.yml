@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Create new tool folder (look here for git sync config!)
+      - name: Add tool to summary
         id: update-summary
         run: |
           node src/publish-tool.mjs "$TOOL_NAME"
@@ -43,6 +43,5 @@ jobs:
         if: ${{ steps.update-summary.outputs.changes == 'true' }}
         uses: ad-m/github-push-action@master
         with:
-          branch: test #FIXME
-          force: true
+          branch: main
 
