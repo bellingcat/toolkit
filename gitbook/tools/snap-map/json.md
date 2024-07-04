@@ -10,12 +10,7 @@ description: This is the JSON codeblock for this tool
   "tags": [
     "snapchat",
     "other-networks"
-  ],
-  "name": "Snap Map",
-  "url": "http://map.snapchat.com/",
-  "description": "Searchable map of geotagged snaps.",
-  "cost": "Free",
-  "guide": " [Here’s how](https://twitter.com/AricToler/status/1054805284802228224) you download a Snap. "
+  ]
 }
 ```
 {% endcode %}
