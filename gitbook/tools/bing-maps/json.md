@@ -7,8 +7,19 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-    "url": "https://www.bing.com/maps/",
-    "tags": ["gis", "free", "geospatial-information", "mapping", "maps", "street-view", "environment",  "geospatial", "international", "mapping-solutions", "interactive-maps"]
+  "tags": [
+    "gis",
+    "free",
+    "geospatial-information",
+    "mapping",
+    "maps",
+    "street-view",
+    "environment",
+    "geospatial",
+    "international",
+    "mapping-solutions",
+    "interactive-maps"
+  ]
 }
 ```
 {% endcode %}

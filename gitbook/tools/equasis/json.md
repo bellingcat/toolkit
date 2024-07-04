@@ -7,10 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Equasis",
-  "url": "http://equasis.org/",
-  "description": "Vessel ownership and identification records. Lists historical information. You’ll need an account to access information.",
-  "cost": "Paid",
   "details": "⛵\n",
   "tags": [
     "transport"

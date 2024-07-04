@@ -7,8 +7,21 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-    "url": "https://www.blender.org/",
-    "tags": ["free", "international", "data visualiation", "fspy", "open-source", "3d-modelling", "animation", "simulation", "3D", "spatialisation", "video-editing", "OSM", "openstreetmaps"]
+  "tags": [
+    "free",
+    "international",
+    "data visualiation",
+    "fspy",
+    "open-source",
+    "3d-modelling",
+    "animation",
+    "simulation",
+    "3D",
+    "spatialisation",
+    "video-editing",
+    "OSM",
+    "openstreetmaps"
+  ]
 }
 ```
 {% endcode %}
@@ -18,6 +31,10 @@ Keep the codeblock updated with accurate information. Only edit the **values** (
 ## name, description (optional)
 
 If omitted, the name and description will be copied from the page title and page description of the main content. If present, the JSON values override the main content.
+
+## draft (optional)
+
+If set to `true`, this prevents this tool from being listed in relevant category pages. Useful if the tool does not yet have a url and description set. Omit or set to false to publish.
 
 ## url
 
