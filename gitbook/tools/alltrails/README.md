@@ -121,14 +121,14 @@ Example below shows search for Vondelpark Loop in Amsterdam:
 * **Subscription Fees**: Some features require a paid subscription to access, see: [AllTrails+](https://www.alltrails.com/plus)&#x20;
 * **Offline Access**: Offline maps are only available to Pro members, see: [AllTrails+](https://www.alltrails.com/plus)&#x20;
 * **User-Generated Content**: Information can be inconsistent or outdated due to reliance on user reviews and submissions.
-* **Coverage**: Some trails might not be covered or accurately mapped in less popular regions. There is no generalised documentation on this and gaps in coverage will be found as you use the app (or in user reviews).&#x20;
+* **Coverage**: Some trails might not be covered or accurately mapped in less popular regions. There is no generalised documentation on this and gaps in coverage will be found as you use the app.&#x20;
 * **Accuracy**: AllTrails using crowd sourced data and has been criticised for accuracy issues see: [The Problem With AllTrails](https://adamthompsonphoto.com/blog/the-problem-with-alltrails) and [AllTrails.com Haters: The Problem isn’t the App, It’s Us](https://www.northeastmountainpeople.com/on-hiking-home/alltrailscom-haters-the-problem-isnt-the-app-its-us)
 
 ## Ethical Considerations
 
-* **Privacy**: Ensure that user data is protected and not shared without consent.
-* **Accuracy**: As AllTrails has accuracy issues always verify the data against another source.
-* **Accessibility**: Ensure information is accessible to people of all abilities.
+* **Privacy**: .
+
+
 
 ## Guides and articles
 
