@@ -125,7 +125,7 @@ Example below shows a search for Vondelpark Loop in Amsterdam:
 
 ## Ethical Considerations
 
-* **Privacy**: Ensure that user data is protected and not shared without consent.
+* **Privacy**:&#x20;
 
 ## Guides and articles
 
