@@ -15,7 +15,7 @@
 | [**Sherlock**](https://github.com/sherlock-project/sherlock) | Check usernames across more than 400 websites and social networks. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/sherlock/README.md) |
 | [**Skypli**](https://www.skypli.com/) | undefined | <mark style="background-color:green;">Free</mark> | Guide: Inactive, up for removal  |
 | [**SMAT**](https://www.smat-app.com) | Search messages, count links, see activity & timeline of a search term on Gab, Parler, 4chan, 8kun, .win, poal, telegram, Gettr, Bitchute, Tiktok | <mark style="background-color:green;">Free</mark> |  |
-| [**Snap Map**](http://map.snapchat.com/) | Searchable map of geotagged snaps. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/snap-map/README.md) |
+| [**Snap Map**](http://map.snapchat.com/) | Searchable map of geotagged snaps. | <mark style="background-color:green;">Free</mark> |  |
 | [**SteamId.uk**](http://steamid.uk/) |  Lookup player names, view (more) previously used names, and when accounts befriended eachother (Free). View screenshots of account, (bulk) seach based on previously used names (paid).  | <mark style="background-color:orange;">Partially Free</mark> |  |
 | [**WAtools.io**](http://watools.io/) | Track whatsapp activity, number, profile picture. Check if number is used, download profile pic, check online status. | <mark style="background-color:red;">Paid</mark> | 📞  |
 | [**XboxGamertag**](https://xboxgamertag.com/) | Search gamertags, see games played and recorded game clips | <mark style="background-color:green;">Free</mark> |  |
