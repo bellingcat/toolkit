@@ -96,3 +96,4 @@
   * [Wikimapia](tools/wikimapia/README.md)
   * [Forensically](tools/forensically/README.md)
   * [Wikimapia](tools/wikimapia/README.md)
+  * [Snap Map](tools/snap-map/README.md)
