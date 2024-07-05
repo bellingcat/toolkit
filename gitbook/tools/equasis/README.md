@@ -1,7 +1,7 @@
 ---
 description: >-
   Equasis provides vessel ownership and safety records, as well as shipping
-  company fleet information. You’ll need an account to access information.
+  company fleet information.
 ---
 
 # Equasis
