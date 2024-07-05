@@ -1,8 +1,8 @@
 ---
 description: >-
-  AllTrails.com is a comprehensive tool for discovering hiking, biking, and
-  running trails worldwide, providing detailed trail maps, user reviews, and
-  navigation support for outdoor enthusiasts.
+  AllTrails.com is a tool for discovering hiking, biking, and running trails
+  worldwide, providing detailed trail maps, user reviews, and navigation support
+  for outdoor enthusiasts.
 ---
 
 # AllTrails
