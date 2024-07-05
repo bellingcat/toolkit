@@ -92,8 +92,6 @@
   * [Have I Been Pwned](tools/have-i-been-pwned/README.md)
   * [NASA Firms](tools/nasa-firms/README.md)
   * [Google Maps](tools/google-maps/README.md)
-  * [Snap Map](tools/snap-map/README.md)
-  * [Wikimapia](tools/wikimapia/README.md)
   * [Forensically](tools/forensically/README.md)
  
 
