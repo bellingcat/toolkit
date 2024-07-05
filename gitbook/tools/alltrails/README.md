@@ -15,7 +15,7 @@ description: >-
 
 AllTrails.com is a tool for discovering hiking, biking, and running trails worldwide, providing detailed trail maps, user reviews, and navigation support for outdoor enthusiasts.
 
-AllTrails.com can be a valuable resource for open source researchers as it provides location data, user-generated content, and real-time information about various trails. Examples include tracking the movement patterns of individuals of public interest who share their activities publicly, analyzing geospatial data, and gathering insights from user reviews and pictures posted on the platform. It can also assist in understanding the terrain and accessibility of certain areas.
+AllTrails.com can be a valuable resource for open source researchers as it provides location data, user-generated content, and real-time information about various trails. Examples include tracking the movement patterns of individuals who share their activities publicly, analyzing geospatial data, and gathering insights from user reviews and pictures posted on the platform. This can assist in verifying the presence of individuals in specific locations or understanding the terrain and accessibility of certain areas.
 
 **Features**
 
@@ -54,11 +54,11 @@ _Individual Trails_
 _Community_
 
 * **Local:** see public user activity nearby.
-* **Following:** see activity from users that you follow.
+* **Following:** see activity from user's that you follow.
 * **Engagement:** Like and Comment on posts.
 * **Connect:** connect with other users.
 
-_Profile - users' personal profile and where they have made public attributes that can be seen on other people's profiles._
+_Profile - users personal profile and where they have been made public attributes that can be seen on other people's profiles._
 
 * **Favourites**
 * **Photos**
@@ -76,9 +76,9 @@ _User Profile_
 * **Create Map:** create a custom trail.
 * **Language**&#x20;
 * **Saved**
-* **Settings** - location, Units (Imperial or metric), calorie counter info, link to Facebook, Google, Apple, Garmin
+* **Settings** - location, Units (Impwerical or metric), calorie counter info, link to Facebook, Google, Apple, Garmin
 
-Example below shows a search for Vondelpark Loop in Amsterdam:
+Example below shows search for Vondelpark Loop in Amsterdam:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-06-17 at 11.41.21 AM.png" alt="Screenshot user interface show a search results for of Vondelpark Loop in Amsterdam. Shows a map of the route, elevation profile and user comments and ratings. "><figcaption><p>Screenshotof Vondelpark Loop in Amsterdam</p></figcaption></figure>
 
@@ -118,14 +118,17 @@ Example below shows a search for Vondelpark Loop in Amsterdam:
 
 ## Limitations
 
-* **Subscription Fees**: Some features require a paid subscription to access.
-* **Offline Access**: Offline maps are only available to Pro members.
+* **Subscription Fees**: Some features require a paid subscription to access, see: [AllTrails+](https://www.alltrails.com/plus)&#x20;
+* **Offline Access**: Offline maps are only available to Pro members, see: [AllTrails+](https://www.alltrails.com/plus)&#x20;
 * **User-Generated Content**: Information can be inconsistent or outdated due to reliance on user reviews and submissions.
-* **Coverage**: Some trails might not be covered or accurately mapped in less popular regions.
+* **Coverage**: Some trails might not be covered or accurately mapped in less popular regions. There is no generalised documentation on this an instead gaps in coverage will be found as you use the app.&#x20;
+* **Accuracy**: AllTrails using crowd sourced data and has been criticised for accuracy issues see: [The Problem With AllTrails](https://adamthompsonphoto.com/blog/the-problem-with-alltrails) and [AllTrails.com Haters: The Problem isn’t the App, It’s Us](https://www.northeastmountainpeople.com/on-hiking-home/alltrailscom-haters-the-problem-isnt-the-app-its-us)
 
 ## Ethical Considerations
 
-* **Privacy**:&#x20;
+* **Privacy**: Ensure that user data is protected and not shared without consent.
+* **Accuracy**: As AllTrails has accuracy issues always verify the data against another source.
+* **Accessibility**: Ensure information is accessible to people of all abilities.
 
 ## Guides and articles
 
@@ -154,6 +157,8 @@ To effectively use AllTrails, especially for beginners or those looking to refin
 **Community and Support**
 
 * &#x20;[https://support.alltrails.com/hc/en-us](https://support.alltrails.com/hc/en-us)
+
+By utilizing these resources, users can enhance their AllTrails experience.
 
 ## Tool provider
 
