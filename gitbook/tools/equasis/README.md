@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Equaisis, the Electric Quality Shipping Information System, is a tool designed to consolidate information about vessel ownership and safety records into one place. After creating an account, users can access a search portal to search for vessels by name or IMO number, or search for a company by name. The advanced search feature can search for vessels by call sign, MMSI number, tonnage, flag, etc, which can help to identify a vessel for which only some identifying information about a vessel is known.
+Equasis, the Electric Quality Shipping Information System, is a tool designed to consolidate information about vessel ownership and safety records into one place. After creating an account, users can access a search portal to search for vessels by name or IMO number, or search for a company by name. The advanced search feature can search for vessels by call sign, MMSI number, tonnage, flag, etc, which can help to identify a vessel for which only some identifying information is known.
 
 Equasis can provide a significant amount of information about vessels including name, IMO number, flag, call sign, MMSI number, gross tonnage, deadweight tonnage, year built, type of ship, status, registered owner, ISM manager, ship manager, P\&I information, classification society, partial location history, and inspection and deficiency history, as well as a history for some of this information. For companies, Equasis can provide registered addresses, a list of vessels in their fleet, and a synthesis of inspections and deficiencies for all vessels in said company's fleet.
 
