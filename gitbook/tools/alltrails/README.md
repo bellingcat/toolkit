@@ -158,8 +158,6 @@ To effectively use AllTrails, especially for beginners or those looking to refin
 
 * &#x20;[https://support.alltrails.com/hc/en-us](https://support.alltrails.com/hc/en-us)
 
-By utilizing these resources, users can enhance their AllTrails experience.
-
 ## Tool provider
 
 AllTrails, LLC [https://www.alltrails.com/](https://www.alltrails.com/) - USA
