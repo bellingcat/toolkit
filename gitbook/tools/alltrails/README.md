@@ -126,10 +126,6 @@ Example below shows a search for Vondelpark Loop in Amsterdam:
 ## Ethical Considerations
 
 * **Privacy**: Ensure that user data is protected and not shared without consent.
-* **Accuracy**: Provide accurate information about trails to prevent accidents or misdirection.
-* **Accessibility**: Ensure information is accessible to people of all abilities.
-* **Impact on Nature**: Encourage responsible usage of trails to minimize environmental impact.
-* **Commercial Influence**: Avoid bias in trail recommendations due to commercial partnerships.
 
 ## Guides and articles
 
