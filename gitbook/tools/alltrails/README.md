@@ -58,7 +58,7 @@ _Community_
 * **Engagement:** Like and Comment on posts.
 * **Connect:** connect with other users.
 
-_Profile - users personal profile and where they have been made public attributes that can be seen on other people's profiles._
+_Profile - users' personal profile and where they have made public contributions that can be seen on other people's profiles._
 
 * **Favourites**
 * **Photos**
@@ -76,7 +76,7 @@ _User Profile_
 * **Create Map:** create a custom trail.
 * **Language**&#x20;
 * **Saved**
-* **Settings** - location, Units (Impwerical or metric), calorie counter info, link to Facebook, Google, Apple, Garmin
+* **Settings** - location, Units (Imperial or metric), calorie counter info, link to Facebook, Google, Apple, Garmin
 
 Example below shows search for Vondelpark Loop in Amsterdam:
 
@@ -121,7 +121,7 @@ Example below shows search for Vondelpark Loop in Amsterdam:
 * **Subscription Fees**: Some features require a paid subscription to access, see: [AllTrails+](https://www.alltrails.com/plus)&#x20;
 * **Offline Access**: Offline maps are only available to Pro members, see: [AllTrails+](https://www.alltrails.com/plus)&#x20;
 * **User-Generated Content**: Information can be inconsistent or outdated due to reliance on user reviews and submissions.
-* **Coverage**: Some trails might not be covered or accurately mapped in less popular regions. There is no generalised documentation on this an instead gaps in coverage will be found as you use the app.&#x20;
+* **Coverage**: Some trails might not be covered or accurately mapped in less popular regions. There is no generalised documentation on this and gaps in coverage will be found as you use the app (or in user reviews).&#x20;
 * **Accuracy**: AllTrails using crowd sourced data and has been criticised for accuracy issues see: [The Problem With AllTrails](https://adamthompsonphoto.com/blog/the-problem-with-alltrails) and [AllTrails.com Haters: The Problem isn’t the App, It’s Us](https://www.northeastmountainpeople.com/on-hiking-home/alltrailscom-haters-the-problem-isnt-the-app-its-us)
 
 ## Ethical Considerations
