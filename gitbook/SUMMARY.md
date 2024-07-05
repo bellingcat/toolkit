@@ -95,5 +95,6 @@
   * [Forensically](tools/forensically/README.md)
   * [Suncalc](tools/suncalc/README.md)
   * [Snap Map](tools/snap-map/README.md)
+  * [Wikimapia](tools/wikimapia/README.md)
  
 
