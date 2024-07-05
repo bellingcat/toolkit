@@ -54,11 +54,11 @@ _Individual Trails_
 _Community_
 
 * **Local:** see public user activity nearby.
-* **Following:** see activity from user's that you follow.
+* **Following:** see activity from users that you follow.
 * **Engagement:** Like and Comment on posts.
 * **Connect:** connect with other users.
 
-_Profile - users personal profile and where they have been made public attributes that can be seen on other people's profiles._
+_Profile - users' personal profile and where they have made public attributes that can be seen on other people's profiles._
 
 * **Favourites**
 * **Photos**
@@ -76,9 +76,9 @@ _User Profile_
 * **Create Map:** create a custom trail.
 * **Language**&#x20;
 * **Saved**
-* **Settings** - location, Units (Impwerical or metric), calorie counter info, link to Facebook, Google, Apple, Garmin
+* **Settings** - location, Units (Imperial or metric), calorie counter info, link to Facebook, Google, Apple, Garmin
 
-Example below shows search for Vondelpark Loop in Amsterdam:
+Example below shows a search for Vondelpark Loop in Amsterdam:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-06-17 at 11.41.21 AM.png" alt="Screenshot user interface show a search results for of Vondelpark Loop in Amsterdam. Shows a map of the route, elevation profile and user comments and ratings. "><figcaption><p>Screenshotof Vondelpark Loop in Amsterdam</p></figcaption></figure>
 
