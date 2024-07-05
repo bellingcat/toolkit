@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-AllTrails.com is a comprehensive tool for discovering hiking, biking, and running trails worldwide, providing detailed trail maps, user reviews, and navigation support for outdoor enthusiasts.
+AllTrails.com is a tool for discovering hiking, biking, and running trails worldwide, providing detailed trail maps, user reviews, and navigation support for outdoor enthusiasts.
 
 AllTrails.com can be a valuable resource for open source researchers as it provides location data, user-generated content, and real-time information about various trails. Examples include tracking the movement patterns of individuals who share their activities publicly, analyzing geospatial data, and gathering insights from user reviews and pictures posted on the platform. This can assist in verifying the presence of individuals in specific locations or understanding the terrain and accessibility of certain areas.
 
