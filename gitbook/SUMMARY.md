@@ -94,5 +94,6 @@
   * [Google Maps](tools/google-maps/README.md)
   * [Forensically](tools/forensically/README.md)
   * [Suncalc](tools/suncalc/README.md)
+  * [Snap Map](tools/snap-map/README.md)
  
 
