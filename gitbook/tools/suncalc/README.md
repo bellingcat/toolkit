@@ -28,7 +28,7 @@ https://www.suncalc.org
 
 So the perceived trajectory of the sun is the result of the superposition of three different effects: Rotation, Orbit and Tilt:
 
-1. **Internal Rotation:** The earth rotates daily around its internal axis.
+1. <mark style="color:green;">**Internal Rotation:**</mark> The earth rotates daily around its internal axis.
 
 <img src=".gitbook/assets/earthspin.gif" alt="" data-size="original">
 
@@ -36,13 +36,13 @@ _(Image from Giphy , author Dyanapyehchek @dianapietrzyk)_
 
 The position of the sun along its daily trajectory in the sky (measured as changing elevation and azimuth angles) varies with the time of day.
 
-2. **Orbit:** The earth rotates annually around the sun in an eliptical orbit...&#x20;
+2. <mark style="color:green;">**Orbit:**</mark> The earth rotates annually around the sun in an eliptical orbit...&#x20;
 
 <img src=".gitbook/assets/earthorbit.gif" alt="" data-size="original">
 
 _(Image from Giphy, author BrainPOP @brainpop)_
 
-3. **Tilt:** ...at 23.5 degrees to its internal axis of rotation, with the North Pole constantly pointing at the North Star.
+3. <mark style="color:green;">**Tilt:**</mark> ...at 23.5 degrees to its internal axis of rotation, with the North Pole constantly pointing at the North Star.
 
 <img src=".gitbook/assets/earthtilt.gif" alt="" data-size="original">
 
@@ -70,7 +70,7 @@ SunCalc can be used for geolocation and chronolocation in various ways:
 {% endtab %}
 
 {% tab title="SunCalc Outputs" %}
-**Major Solar Data** (for selected location and time) including
+<mark style="color:green;">**Major Solar Data**</mark> (for selected location and time) including
 
 * the times of dawn, sunrise, culmination, sunset, dusk
 * duration of daylight (length of day)
@@ -78,7 +78,7 @@ SunCalc can be used for geolocation and chronolocation in various ways:
 * angles of altitude (height of sun in sky) and azimuth (angle of sun direction on a compass)
 * length of a shadow cast by an object of given height in m.
 
-**Geodata** (for selected location) including:
+<mark style="color:green;">**Geodata**</mark> (for selected location) including:
 
 * Height of location (altitude) in m
 * Latitude in degrees
@@ -86,11 +86,11 @@ SunCalc can be used for geolocation and chronolocation in various ways:
 * UTM ([Universal Transverse Mercator](https://www.usgs.gov/faqs/how-are-utm-coordinates-measured-usgs-topographic-maps)) co-ordinates
 * Time Zone
 
-**Minor Solar Data** (for selected location and time) including
+<mark style="color:green;">**Minor Solar Data**</mark> (for selected location and time) including
 
 * Julian date ([JDE](https://aa.usno.navy.mil/data/JulianDate)), [DeltaT ](https://www.oxfordreference.com/display/10.1093/acref/9780191851193.001.0001/acref-9780191851193-e-952)(Difference between Terrestrial Time and Universal Time), Greenwish Mean Sidereal Time ([GMST](https://www2.mps.mpg.de/homes/fraenz/systems/systems3art/node10.html)), Greenwich Hour Angle ([GHA](https://my.vanderbilt.edu/astronav/overview/3-completing-a-worksheet/section-iii/gha/)), Solar [Declination Angle](https://www.sciencedirect.com/topics/engineering/solar-declination), [Right Ascension Time](https://science.nasa.gov/learn/basics-of-space-flight/chapter2-2/) (celestial equivalent of longitude), Date and Time of March, June, September and December [Solstice/Equinoxes](https://www.britannica.com/video/217727/Demystified-what-is-the-difference-between-solstice-and-equinox)
 
-**Photovolatic Data** including
+<mark style="color:green;">**Photovolatic Data**</mark> including
 
 * [Solar constant](https://en.wikipedia.org/wiki/Solar\_constant), [air mass](https://www.nationalgeographic.org/encyclopedia/air-mass/) and [irradiance](https://www.merriam-webster.com/dictionary/irradiance)
 {% endtab %}
@@ -102,9 +102,9 @@ There are very many use cases for SunCalc in Open Source research because there 
 
 <mark style="color:green;">**Sun Angles in Source Imagery:**</mark> The sun's position is defined by two angles: azimuth and elevation. In a research source image where orientation is not known, but the sun can be seen, elevation angle could be known but azimuth angle unavailable. Conversely, where a shadow is visible on the ground in an image containing a reference point, but the sun is not directly visible, elevation angle could be unknown, but azimuth angle available.
 
-**Three Variables Defining a Sun Trajectory:** The sun's trajectory specifies its changing position (specified by azimuth and elevation angles) over time. This trajectory is calculated by Suncalc for a given date and location, so if two variables from the set {azimuth angle, elevation angle, time} are known, the third can be calculated.
+<mark style="color:green;">**Three Variables Defining a Sun Trajectory:**</mark> The sun's trajectory specifies its changing position (specified by azimuth and elevation angles) over time. This trajectory is calculated by Suncalc for a given date and location, so if two variables from the set {azimuth angle, elevation angle, time} are known, the third can be calculated.
 
-**Locations Only Confirmed by Trial and Error:** SunCalc is configured to set location as the primary input, then change time and date and observe the effects on azimuth, altitude and shadow length. Therefore, in practice, where all variables apart from location are known, SunCalc can only be used to test the sun's trajectory at different locations on the earth, not to return the possible locations and dates on the earth corresponding to a given defined trajectory of the sun, i.e. 'guess' locations can only be tested by trial and error.
+<mark style="color:green;">**Locations Only Confirmed by Trial and Error:**</mark> SunCalc is configured to set location as the primary input, then change time and date and observe the effects on azimuth, altitude and shadow length. Therefore, in practice, where all variables apart from location are known, SunCalc can only be used to test the sun's trajectory at different locations on the earth, not to return the possible locations and dates on the earth corresponding to a given defined trajectory of the sun, i.e. 'guess' locations can only be tested by trial and error.
 {% endtab %}
 
 {% tab title="Data Input Options" %}
@@ -136,7 +136,7 @@ The trajectory of the sun is its path through space. This is defined by the vari
 
 ### The SunCalc Interface
 
-<figure><img src=".gitbook/assets/basic interfaceANNOTATED.jpg" alt="" width="563"><figcaption><p><strong>THE SUNCALC INTERFACE MAIN WINDOW WITH EXPLANATORY LABELS</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/basic interfaceANNOTATED (1).jpg" alt="" width="563"><figcaption><p><strong>THE SUNCALC INTERFACE MAIN WINDOW WITH EXPLANATORY LABELS</strong></p></figcaption></figure>
 
 * The red centre circle shows the selected location over the map, with horizontal and vertical crosswires for accuracy.
 * The sun is shown over the earth as an orange disc.
@@ -180,6 +180,8 @@ These transparent protractor images can also be found online and be transformed 
 To open the input window for shadow length, click on the Object Level text input window in the sidebar, then enter text or use the buttons to set the object height - see above.
 
 ### The Animation Feature
+
+This animated graphic is generated by SunCalc for location Eiffel Tower, Paris, France. A still photograph taken from that exact location at a known date and time is shown below for comparison. The last graphic shows how to generate the animated graphic in SunCalc.
 
 <figure><img src=".gitbook/assets/SuncalcEiffelTower300m.gif" alt=""><figcaption><p><strong>RUNNING SUNCALC'S SHADOW ANIMATION FOR THE 300M EIFFEL TOWER FOR COMPARISON WITH A DOCUMENTED PHOTOGRAPH ON SHADOW DIRECTION AND LENGTH</strong></p></figcaption></figure>
 
