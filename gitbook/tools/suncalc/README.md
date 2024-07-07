@@ -54,7 +54,7 @@ The length of the daytime (difference between time of sunset and time of sunrise
 
 {% embed url="https://www.britannica.com/video/152185/role-orbit-axis-Earth-seasons" %}
 **REVIEWING THE RELATIONSHIP OF SUN, MOON, SEASONS AND TIME WITH ENCYCLOPAEDIA BRITANNICA**\
-**Copyright Encyclopedia Brittanica, Inc.**
+**Copyright Encyclopedia Britannica, Inc.**
 {% endembed %}
 
 SunCalc can be used for geolocation and chronolocation in various ways:
@@ -98,9 +98,9 @@ SunCalc can be used for geolocation and chronolocation in various ways:
 {% tab title="USE CASES" %}
 There are very many use cases for SunCalc in Open Source research because there are so many variables involved: latitude, longitude, date, time, azimuth angle, elevation angle and many different combinations of these variables can be known in different research/investigative scenarios.
 
-**Confirmation and Elimination:** SunCalc is strongly suited to use in tandem with other tools to establish a geolocation. It can often be valuable in confirming or rejecting a candidate location found with other tools and methods. It can deliver ranges of possible and impossible values for this purpose, e.g. the yellow shaded crescent area on the map which represents coverage of all possible sun trajectories for the year.
+<mark style="color:green;">**Confirmation and Elimination:**</mark> SunCalc is strongly suited to use in tandem with other tools to establish a geolocation. It can often be valuable in confirming or rejecting a candidate location found with other tools and methods. It can deliver ranges of possible and impossible values for this purpose, e.g. the yellow shaded crescent area on the map which represents coverage of all possible sun trajectories for the year.
 
-**Sun Angles in Source Imagery:** The sun's position is defined by two angles: azimuth and elevation. In a research source image where orientation is not known, but the sun can be seen, elevation angle could be known but azimuth angle unavailable. Conversely, where a shadow is visible on the ground in an image containing a reference point, but the sun is not directly visible, elevation angle could be unknown, but azimuth angle available.
+<mark style="color:green;">**Sun Angles in Source Imagery:**</mark> The sun's position is defined by two angles: azimuth and elevation. In a research source image where orientation is not known, but the sun can be seen, elevation angle could be known but azimuth angle unavailable. Conversely, where a shadow is visible on the ground in an image containing a reference point, but the sun is not directly visible, elevation angle could be unknown, but azimuth angle available.
 
 **Three Variables Defining a Sun Trajectory:** The sun's trajectory specifies its changing position (specified by azimuth and elevation angles) over time. This trajectory is calculated by Suncalc for a given date and location, so if two variables from the set {azimuth angle, elevation angle, time} are known, the third can be calculated.
 
