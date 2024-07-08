@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Internet Archive](README.md)
+* [Wayback Machine](README.md)
 * [Categories](categories.md)
