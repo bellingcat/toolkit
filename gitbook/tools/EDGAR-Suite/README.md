@@ -10,7 +10,9 @@ description: Tool for the retrieval of corporate and financial data from the SEC
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+A Python tool to search and retrieve corporate and financial data from the United States Securities and Exchange Commission (SEC).&#x20;
+
+EDGAR is a database of corporate filings maintained by the SEC. These filings contain a wealth of quantitative and qualitative information on every legal entity that issues non-exempt securities in the United States. Whether you are looking to study the fundamentals of your favorite stocks, or to track the corporate webs weaved by a person or company of interest, EDGAR is the place to do it.
 
 ## Cost
 
@@ -26,19 +28,19 @@ description: Tool for the retrieval of corporate and financial data from the SEC
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+\-
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+\-
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+\-
 
 ## Guide
 
-\[\[Link to a guide on this tool]]
+\-
 
 ## Tool provider
 
