@@ -114,7 +114,7 @@ Grab [https://www.grab.com/](https://www.grab.com/) - Singapore
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Unassigned      |
-|                 |
+| Page maintainer                      |
+| ------------------------------------ |
+| Bellingcat Volunteer Team/Unassigned |
+|                                      |
