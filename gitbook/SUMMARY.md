@@ -99,3 +99,4 @@
   * [KartaView](tools/kartaview/README.md)
   * [AllTrails](tools/alltrails/README.md)
 
+  * [Mapillary](tools/mapillary/README.md)
