@@ -113,8 +113,8 @@ Google [https://about.google/](https://about.google/) - United States
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer  |
-| ---------------- |
-| Volunteer needed |
-|                  |
+| Page maintainer                      |
+| ------------------------------------ |
+| Bellingcat Volunteer Team/Unassigned |
+|                                      |
 
