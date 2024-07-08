@@ -3,13 +3,13 @@
 ## Social Media
 
 * [ ] [Discord](https://bellingcat.gitbook.io/toolkit/categories/social-media/discord)
-* [x] [Facebook](https://bellingcat.gitbook.io/toolkit/categories/social-media/facebook)
-* [x] [Instagram](https://bellingcat.gitbook.io/toolkit/categories/social-media/instagram)
+* [ ] [Facebook](https://bellingcat.gitbook.io/toolkit/categories/social-media/facebook)
+* [ ] [Instagram](https://bellingcat.gitbook.io/toolkit/categories/social-media/instagram)
 * [ ] [LinkedIn](https://bellingcat.gitbook.io/toolkit/categories/social-media/linkedin)
-* [x] [Reddit](https://bellingcat.gitbook.io/toolkit/categories/social-media/reddit)
+* [ ] [Reddit](https://bellingcat.gitbook.io/toolkit/categories/social-media/reddit)
 * [ ] [Telegram](https://bellingcat.gitbook.io/toolkit/categories/social-media/telegram)
-* [x] [Tiktok](https://bellingcat.gitbook.io/toolkit/categories/social-media/tiktok)
-* [x] [Twitter/X](https://bellingcat.gitbook.io/toolkit/categories/social-media/twitter)
+* [ ] [Tiktok](https://bellingcat.gitbook.io/toolkit/categories/social-media/tiktok)
+* [ ] [Twitter/X](https://bellingcat.gitbook.io/toolkit/categories/social-media/twitter)
 * [ ] [Vkontakte](https://bellingcat.gitbook.io/toolkit/categories/social-media/vkontakte)
 * [ ] [Youtube](https://bellingcat.gitbook.io/toolkit/categories/social-media/youtube)
 * [ ] [Other Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/other-networks)
@@ -17,7 +17,7 @@
 
 ## Image/Video
 
-* [x] [Reverse Image Search](https://bellingcat.gitbook.io/toolkit/categories/image-video/reverse-image-search)
+* [ ] [Reverse Image Search](https://bellingcat.gitbook.io/toolkit/categories/image-video/reverse-image-search)
 * [ ] [Facial Recognition](https://bellingcat.gitbook.io/toolkit/categories/image-video/facial-recognition)
 * [ ] [Metadata](https://bellingcat.gitbook.io/toolkit/categories/image-video/metadata)
 * [ ] [Misc](https://bellingcat.gitbook.io/toolkit/categories/image-video/image-misc)
@@ -32,6 +32,6 @@
 
 * [x] [People](https://bellingcat.gitbook.io/toolkit/categories/people)
 * [ ] [Transport](https://bellingcat.gitbook.io/toolkit/categories/transport)
-* [x] [Websites](https://bellingcat.gitbook.io/toolkit/categories/websites)
+* [ ] [Websites](https://bellingcat.gitbook.io/toolkit/categories/websites)
 * [x] [Companies & Finance](https://bellingcat.gitbook.io/toolkit/categories/companies-and-finance)
 * [ ] [Environment & Wildlife](https://bellingcat.gitbook.io/toolkit/categories/environment-and-wildlife)
