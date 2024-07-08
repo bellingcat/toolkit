@@ -65,12 +65,7 @@ While Google Earth is a powerful tool for geographical information systems, it d
 In the context of using remote sensing in online open source investigations, several ethical considerations should be considered:
 
 * **Privacy Concerns:** Remote sensing technologies can capture detailed images from space or high altitude, potentially compromising individual privacy. Researchers must balance the public interest with the rights to privacy.
-* **Accuracy and Misinterpretation:** Ensuring the accurate representation of data is critical. Misinterpretation of remote sensing data can lead to misinformation, shaping public opinion based on incorrect premises. For more information on how Google tries to ensure accuracy see [here](https://www.wired.com/2014/12/google-maps-ground-truth/) and [here](https://mapsplatform.google.com/resources/blog/9-things-know-about-googles-maps-data-beyond-map/).
-* **Equity and Access:** The distribution of benefits from remote sensing should be equitable. Journalists should be aware of the digital divide and work towards making their findings accessible to a broader audience.
-* **Environmental Impact:** The deployment and maintenance of remote sensing technologies have environmental costs. Ethical journalism considers the ecological footprint of gathering and disseminating information.
-* **Informed Consent:** Where possible, obtaining informed consent from those being observed or whose data is being collected, even indirectly, reinforces ethical journalism practices.
-* **Cultural Insensitivity:** Avoids the unsolicited mapping or monitoring of culturally sensitive or sacred sites without permission from the concerned communities.
-* **Security Risks**: Guards against the misuse of remote sensing technology for malicious purposes, including espionage or cyber-attacks.
+* **Accuracy and Misinterpretation:** Ensuring the accurate representation of data is critical. Misinterpretation of remote sensing data can lead to misinformation. For more information on how Google tries to ensure accuracy see [here](https://www.wired.com/2014/12/google-maps-ground-truth/) and [here](https://mapsplatform.google.com/resources/blog/9-things-know-about-googles-maps-data-beyond-map/).
 
 ## Guide
 
