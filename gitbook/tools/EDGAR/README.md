@@ -10,6 +10,8 @@ description: Database of corporate filings for the US
 
 ## Description
 
+EDGAR is a database of corporate filings maintained by the SEC. These filings contain a wealth of quantitative and qualitative information on every legal entity that issues non-exempt securities in the United States. Whether you are looking to study the fundamentals of your favorite stocks, or to track the corporate webs weaved by a person or company of interest, EDGAR is the place to do it.
+
 Search by keyword, company name, location or name of an individual.&#x20;
 
 ## Cost
@@ -24,7 +26,7 @@ Search by keyword, company name, location or name of an individual.&#x20;
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+\-
 
 ## Limitations
 
@@ -36,15 +38,15 @@ Search by keyword, company name, location or name of an individual.&#x20;
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+\-
 
 ## Guide
 
-
+\-
 
 ## Tool provider
 
-[U.S. Securities and Exchange Commission (SEC)](https://www.sec.gov/)
+[U.S. Securities and Exchange Commission (SEC)](https://www.sec.gov/), United States
 
 ## Advertising Trackers
 
@@ -52,8 +54,8 @@ Search by keyword, company name, location or name of an individual.&#x20;
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Unassigned      |
-|                 |
+| Page maintainer                      |
+| ------------------------------------ |
+| Bellingcat Volunteer Team/Unassigned |
+|                                      |
 
