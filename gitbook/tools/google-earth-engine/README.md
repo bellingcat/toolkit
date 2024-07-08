@@ -1,7 +1,7 @@
 ---
 description: >-
-  Google Earth Engine is a comprehensive platform for environmental monitoring
-  and analysis through satellite imagery and geospatial data.
+  Google Earth Engine is a platform for environmental monitoring and analysis
+  through satellite imagery and geospatial data.
 ---
 
 # Google Earth Engine
@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Google Earth Engine is a powerful cloud-based platform for planetary-scale environmental data analysis. It brings together a massive collection of satellite imagery and geospatial datasets with planetary-scale analysis capabilities. This tool is designed for researchers, scientists, and analysts engaged in environmental monitoring, land-use change detection, environmental impact assessments, and resource management. It solves the problem of managing and analyzing large datasets that are typical in environmental studies.
+Google Earth Engine is a cloud-based platform for planetary-scale environmental data analysis. It brings together a large collection of satellite imagery and geospatial datasets with planetary-scale analysis capabilities. This tool is designed for researchers, scientists, and analysts engaged in environmental monitoring, land-use change detection, environmental impact assessments, and resource management. It solves the problem of managing and analyzing large datasets that are typical in environmental studies.
 
 GEE can be used with the following programming languages and tools:&#x20;
 
@@ -47,11 +47,11 @@ Latest features and changes: [https://developers.google.com/earth-engine/changel
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
-([free for noncommercial use](https://earthengine.google.com/noncommercial/))
+Google Earth Engine can be used for [free for noncommercial use](https://earthengine.google.com/noncommercial/).
 
 ## Level of difficulty
 
