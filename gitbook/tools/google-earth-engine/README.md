@@ -109,7 +109,7 @@ To effectively use Google Earth Engine, especially for beginners or those lookin
 
 **Community and Support**
 
-* [**Developer Forum**](https://groups.google.com/g/google-earth-engine-developers): A place where users can ask questions about Overpass Turbo and receive answers from the community.
+* [**Developer Forum**](https://groups.google.com/g/google-earth-engine-developers): A place where users can ask questions about Google Earth Engine and receive answers from the community.
 * [**GIS Stack Exchange**](https://gis.stackexchange.com/questions/tagged/google-earth-engine)**:** Users can find or ask questions tagged with `google-earth-engine`, which includes topics on Google Earth Engine.
 
 ## Tool provider
@@ -124,6 +124,6 @@ Google [https://about.google/](https://about.google/) - Untied States
 
 | Page maintainer           |
 | ------------------------- |
-| Bellingcat volunteer team |
+| Bellingcat Volunteer Team |
 |                           |
 
