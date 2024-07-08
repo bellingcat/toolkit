@@ -40,7 +40,7 @@ https://guide.example.com
 
 PhantomBuster
 
-| Page Maintainer |
-| --------------- |
-| Unassigned      |
-|                 |
+| Page Maintainer                      |
+| ------------------------------------ |
+| Bellingcat Volunteer Team/Unassigned |
+|                                      |
