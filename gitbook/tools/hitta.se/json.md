@@ -13,10 +13,8 @@ description: This is the JSON codeblock for this tool
   "tags": [
     "maps-and-satellites",
     "maps",
-    "street-view",
     "sweden",
     "international",
-    "satellite-imagery",
     "people-search",
     "company-data",
     "geolocation",
