@@ -129,7 +129,7 @@ Open Measures [https://openmeasures.io/](https://openmeasures.io/about/)&#x20;
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Unassigned      |
-|                 |
+| Page maintainer                      |
+| ------------------------------------ |
+| Bellingcat Volunteer Team/Unassigned |
+|                                      |
