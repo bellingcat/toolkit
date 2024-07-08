@@ -13,10 +13,7 @@ description: This is the JSON codeblock for this tool
     "twitter",
     "free",
     "location",
-    "search",
-    "maps-and-satellites",
-    "maps",
-    "street-view"
+    "search"
   ]
 }
 ```
