@@ -1,7 +1,7 @@
 ---
 description: >-
-  F4Map is an interactive 3D map visualization tool that provides detailed,
-  real-time rendering of urban landscapes and geographical features.
+  F4Map is an interactive 3D map visualization tool that provides detailed
+  rendering of urban landscapes and geographical features.
 ---
 
 # F4Map
@@ -23,7 +23,7 @@ Features:
   * Weather: Sun, rain or snow
   * Time (current date): Live, Night, Morning, Noon, Evening
   * Traffic: Boats
-  * Display: Building names, F4 F4 specific buildings, Urban details (wall, chimney, power lines, street lamps...), Natural details (forest, fountain...), Real time water reflection, Dynamic shadows, SSAO, Render SSAO when moving
+  * Display: Building names, F4 specific buildings, Urban details (wall, chimney, power lines, street lamps...), Natural details (forest, fountain...), Real time water reflection, Dynamic shadows, SSAO, Render SSAO when moving
 * **Language:** limited to English supports multiple languages
 * **Location search:** search by location name or coordinates.
 * **Locate user**: share your location to centre it on the map.
@@ -59,7 +59,7 @@ Latest changes: [https://core.f4map.com/changelog](https://core.f4map.com/change
 * **Resource Intensity:** Rendering 3D maps, especially in areas with high detail, can be resource-intensive, potentially leading to slower performance on less powerful devices. F4 Maps uses [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL\_API) which has performance implications on low spec machines particularly with large amounts of data.&#x20;
 * **Coverage:** While F4map covers a global scale, the level of detail and the presence of 3D structures greatly vary by location, with urban areas typically having more detailed models than rural ones. There is no documentation on F4 Maps coverage. &#x20;
 * **API Usage Limits:** F4map may impose limits on API requests to manage load on their servers, which could affect users requiring high volumes of data requests for large scale projects. No documentation available.
-* **Black Listing**: Windows XP and Vista have been black listed on Chrome since version 32, to force activation you can enable_Override software rendering list_ under_chrome:flags. See the_ [_FAQ_](http://wiki.map.f4-group.com/faq)_._&#x20;
+* **Black Listing**: Windows XP and Vista have been black listed on Chrome since version 32, to force activation you can enable _Override software rendering list_ under_chrome:flags. See the_ [_FAQ_](http://wiki.map.f4-group.com/faq)_._&#x20;
 
 ## Ethical Considerations
 
@@ -91,8 +91,6 @@ To effectively use F4Map, especially for beginners or those looking to refine th
 
 * [https://wiki.f4map.com/faq](https://wiki.f4map.com/faq)
 * In app feedback form.
-
-By utilizing these resources, users can enhance their F4Map experience, whether for personal navigation, planning trips, or developing custom mapping.&#x20;
 
 ## Tool provider
 
