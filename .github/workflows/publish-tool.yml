@@ -48,7 +48,7 @@ jobs:
           force: true
 
       - name: Create Pull Request
-        if: steps.changes.outputs.all == 'true'
+        if: ${{ steps.publish.outputs.changes == 'true' }}
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
