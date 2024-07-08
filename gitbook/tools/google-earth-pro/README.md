@@ -13,15 +13,13 @@ description: >-
 
 ## Description
 
-Google Earth is a comprehensive geographic and spatial information tool suite available in various versions. It allows users to explore a 3D representation of the earth, leveraging detailed imagery, geographic data, and various layers to display geographical phenomena, landmarks, and more. It offers open source researchers satellite imagery in relatively high resolution from various regions around the world, including historical satellite imagery.
+Google Earth is a comprehensive geographic and spatial information tool suite. It allows users to explore a 3D representation of the earth, leveraging detailed imagery, geographic data, and various layers to display geographical phenomena, landmarks, and more. It offers open source researchers satellite imagery in relatively high resolution from various regions around the world, including historical imagery.
 
 #### Versions Available:
 
 * **Google Earth Web**: A browser-based version that allows quick access without the need for software installation. Ideal for collaboration, casual exploration and educational purposes.
 * **Google Earth Mobile**: Offers the core functionalities of Google Earth optimized for mobile devices, enabling users to explore geographic data on-the-go.
-* **Google Earth Pro Desktop:** The most powerful version offering advanced features (historical imagery, sunlight angle, other planets, video tour recording) for professional users, such as high-resolution printing and detailed measurements.
-
-Each version is designed to meet specific user requirements, from desktop to mobile experiences, ensuring that users can access detailed geographic information regardless of the platform.
+* **Google Earth Pro Desktop:** The most powerful version offering advanced features (historical imagery, sunlight angle, other planets, video tour recording) for professional users. It is recommended for open source researchers to use this version.
 
 The example below shows a search for Amsterdam filtering layers to display only photo layers on Google Earth Pro Desktop:
 
