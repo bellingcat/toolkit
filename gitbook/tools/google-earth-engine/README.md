@@ -29,7 +29,7 @@ There's a huge range of climate and weather, imagery and geophysical datasets av
 
 * **Language:** supports multiple languages.
 
-The example below is from Bellingcat's [Google Earth Engine Remote Sensing tutorial](https://bellingcat.github.io/RS4OSINT/). The War at Night case study is an example use case using satellite images of Iraq taken at night to track the destruction caused by the fight against the Islamic State.
+The example below is from Bellingcat's [Google Earth Engine Remote Sensing tutorial](https://bellingcat.github.io/RS4OSINT/). The [War at Night case study](https://bellingcat.github.io/RS4OSINT/C1\_Lights.html) is an example use case using satellite images of Iraq taken at night to track the destruction caused by the fight against the Islamic State.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-06-20 at 1.18.03 PM.png" alt="Screenshot of Google Earth Engine user interface showing the War at Night case study. The interface includes a coding IDE and a map showing the brightness of lights across time which includes a timelapse image in the actual project. "><figcaption><p>Screenshot of Google Earth Engine user interface showing the War at Night case study.</p></figcaption></figure>
 
