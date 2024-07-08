@@ -104,8 +104,8 @@ F4 [https://www.f4-group.com/](https://www.f4-group.com/) - France
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Unassigned      |
-|                 |
+| Page maintainer                      |
+| ------------------------------------ |
+| Bellingcat Volunteer Team/Unassigned |
+|                                      |
 
