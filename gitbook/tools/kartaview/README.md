@@ -12,7 +12,7 @@ description: KartaView is a crowdsourced, street-level imagery platform.
 
 KartaView is an open-source, collaborative street-level imagery platform designed to enhance mapping efforts by providing detailed visual context. It leverages crowdsourced photos to help validate and improve map data, making it a valuable resource for contributors to mapping projects like OpenStreetMap. Users can upload their own street-level photographs or explore those submitted by others, facilitating a comprehensive understanding of specific locations. By offering a platform for the sharing and utilization of geo-tagged images, KartaView addresses the need for accurate, up-to-date visual data in mapping and navigation, serving as a practical tool for anyone looking to contribute to or use enhanced map data.
 
-KartaView offers coverage in areas where Google lacks it (such as in Germany) and the platform also displays some metadata associated with the uploaded images such as timestamps, device, and operating system information.
+KartaView offers coverage in areas where Google lacks it and the platform also displays some metadata associated with the uploaded images such as timestamps, device, and operating system information.
 
 **Features:**
 
@@ -70,7 +70,6 @@ When using KartaView for research purposes, several ethical considerations must 
 
 * **Privacy and Anonymity**: Even though KartaView makes efforts to blur faces and license plates, researchers should consider the implications of using images that might inadvertently reveal identifying details of individuals or private properties.
 * **Consent**: The people captured in the images have not given their explicit consent to be photographed or to have their images used for research. Researchers need to weigh the public interest of their work against the privacy expectations of these individuals.
-* **Impact on Communities**: Consideration should be given to how the use of images and the results of the research could impact the communities represented, especially if the research could lead to changes in public policy or urban planning.
 * **Accuracy and Representation**: Researchers must consider the limitations of KartaView's coverage and the potential for bias in the dataset. Areas with less coverage may be underrepresented in research findings, affecting the accuracy and fairness of any conclusions drawn.
 * **Data Security and Sharing**: If researchers are collecting additional data related to the images, they must ensure this information is stored and shared responsibly, protecting any sensitive information that could be linked to individuals or specific locations.
 * **Compliance with Laws and Guidelines**: Ensure that the use of KartaView images complies with any applicable laws, regulations, and ethical guidelines, especially those relating to privacy and data protection.
@@ -99,8 +98,6 @@ To effectively use KartaView, especially for beginners or those looking to refin
 **Community and Support**
 
 * FAQ available [https://kartaview.org/landing](https://kartaview.org/landing)
-
-By utilizing these resources, users can enhance their KartaView experience, whether for personal navigation, planning trips, or developing custom mapping.
 
 ## Tool provider
 
