@@ -29,12 +29,11 @@ The example below shows a search for Amsterdam filtering layers to display only 
 
 Google Earth's sophisticated satellite imagery and 3D geographic data enable journalists to:
 
-* **Visualize News Stories:** Create compelling visual content that supplements news stories, making complex issues easier to understand.
+
+
 * **Investigative Reporting:** Research and investigate environmental changes, urban development, and other phenomena that are best observed from an aerial or geographic perspective.
 * **Historical Analysis:** Compare historical satellite images to present-day images to document changes in the environment, urbanization, and other significant transformations.
-* **Event Coverage:** Use real-time satellite imagery and detailed maps to cover natural disasters, conflicts, and major events from a comprehensive, bird’s-eye view.
 * **Educational Content:** Produce educational material that explains geographical, political, and social issues in a visually engaging format.
-* **Interactive Journalism:** Develop interactive articles where readers can explore locations related to the news stories directly within the piece.
 
 ## Cost
 
