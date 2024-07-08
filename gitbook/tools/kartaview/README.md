@@ -1,7 +1,5 @@
 ---
-description: >-
-  KartaView is a crowdsourced, street-level imagery platform that allows users
-  to contribute, view, and use photos to enhance and validate map data.
+description: KartaView is a crowdsourced, street-level imagery platform.
 ---
 
 # KartaView
