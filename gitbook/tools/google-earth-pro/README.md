@@ -27,7 +27,7 @@ The example below shows a search for Amsterdam filtering layers to display only 
 
 ## Example Use Cases
 
-* **Geolocation:** Open source researchers use the satellite imagery provided by GooGle Earth Pro to geolocate photos and videos found online. &#x20;
+* **Geolocation:** Open source researchers use the satellite imagery provided by Google Earth Pro to geolocate photos and videos. &#x20;
 * **Investigative Reporting:** Research and investigate environmental changes, urban development, and other phenomena that are best observed from an aerial or geographic perspective.
 * **Historical Analysis:** Compare historical satellite images to present-day images to document changes in the environment, urbanization, and other significant transformations.
 * **Educational Content:** Produce educational material that explains geographical, political, and social issues in a visually engaging format.
@@ -52,10 +52,11 @@ The example below shows a search for Amsterdam filtering layers to display only 
 
 While Google Earth is a powerful tool for geographical information systems, it does have some limitations that researchers should consider:
 
+* **Availability of up to date satellite imagery:** While Google Earth Pro offers satellite imagery for free, it is not always very recent and it depends on the location how often it is updated. Open source researchers who need both up to date and high resolution imagery will need to use different providers.
 * **Data Accuracy and Currency**: Data in Google Earth may not always be up to date, leading to potential discrepancies with current conditions. Users should verify important information through other sources. For more information see [How accurate is Google Earth’s measurements?](https://www.ncesc.com/geographic-faq/how-accurate-is-google-earths-measurements/)
 * **Resolution and Detail**: Image resolution varies across different regions, with some areas having detailed imagery and others being less clear. See [Spatial resolution of Google Earth Imagery](https://gis.stackexchange.com/questions/11395/spatial-resolution-of-google-earth-imagery).
 * **3D Modeling**: While Google Earth provides 3D models of some cities, not all geographical areas have detailed 3D representations. See [List of 3D Locations in Google Earth](https://list.fandom.com/wiki/List\_of\_3D\_locations\_in\_Google\_Earth).&#x20;
-* **Data Privacy**: There are concerns regarding the exposure of sensitive locations, potentially compromising privacy and security so some areas are blurred out on Google Maps. See Wikipedia's [List of satellite map images with missing or unclear data](https://en.wikipedia.org/wiki/List\_of\_satellite\_map\_images\_with\_missing\_or\_unclear\_data).
+* **Data Privacy**: There are concerns regarding the exposure of sensitive locations, potentially compromising privacy and security so some areas are blurred out on Google Eart Pro. See Wikipedia's [List of satellite map images with missing or unclear data](https://en.wikipedia.org/wiki/List\_of\_satellite\_map\_images\_with\_missing\_or\_unclear\_data).
 * **Performance**: High-quality imagery and 3D models can be resource-intensive, possibly affecting performance on less powerful computers or devices. Too many _My Places_ locations can for instance cause laggy performance. For more information see [Why is Google Earth so CPU intensive?](https://www.ncesc.com/geographic-pedia/why-is-google-earth-so-cpu-intensive/)
 * **Network Dependency**: Google Earth requires an internet connection for access to maps and imagery, limiting use in offline settings.
 
