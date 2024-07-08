@@ -27,10 +27,7 @@ The example below shows a search for Amsterdam filtering layers to display only 
 
 ## Example Use Cases
 
-Google Earth's sophisticated satellite imagery and 3D geographic data enable journalists to:
-
-
-
+* **Geolocation:** Open source researchers use the satellite imagery provided by GooGle Earth Pro to geolocate photos and videos found online. &#x20;
 * **Investigative Reporting:** Research and investigate environmental changes, urban development, and other phenomena that are best observed from an aerial or geographic perspective.
 * **Historical Analysis:** Compare historical satellite images to present-day images to document changes in the environment, urbanization, and other significant transformations.
 * **Educational Content:** Produce educational material that explains geographical, political, and social issues in a visually engaging format.
