@@ -91,7 +91,7 @@ Learn more about [How to save pages with the Wayback Machine](https://help.archi
 
 ## Tool provider
 
-The Internet Archive
+The Internet Archive, United States
 
 ## Advertising Trackers
 
