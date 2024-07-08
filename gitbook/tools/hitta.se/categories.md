@@ -25,12 +25,12 @@
 ## Maps & Satellites
 
 * [x] [Maps](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/maps)
-* [x] [Satellite Imagery](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/satellite-imagery)
-* [x] [Street View](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/street-view)
+* [ ] [Satellite Imagery](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/satellite-imagery)
+* [ ] [Street View](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/street-view)
 
 ## Other
 
-* [ ] [People](https://bellingcat.gitbook.io/toolkit/categories/people)
+* [x] [People](https://bellingcat.gitbook.io/toolkit/categories/people)
 * [ ] [Transport](https://bellingcat.gitbook.io/toolkit/categories/transport)
 * [ ] [Websites](https://bellingcat.gitbook.io/toolkit/categories/websites)
 * [ ] [Companies & Finance](https://bellingcat.gitbook.io/toolkit/categories/companies-and-finance)
