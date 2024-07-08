@@ -82,7 +82,7 @@
   * [Overpass Turbo](tools/overpass-turbo/README.md)
   * [Index Database](tools/index-database/README.md)
   * [QGIS](tools/qgis/README.md)
-  * [OpenStreetMap Search Tool](tools/openstreetmap-search-tool/README.md)
+  * [Bellingcat OpenStreetMap Search](tools/openstreetmap-search-tool/README.md)
   * [GeoHints](tools/geohints/README.md)
   * [WhatsMyName](tools/whats-my-name/README.md)
   * [TGStat](tools/tgstat/README.md)

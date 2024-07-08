@@ -7,9 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "OpenStreetMap Search Tool",
-  "description": "A user friendly way to search OpenStreetMap data for features in proximity to each other.",
-  "url": "https://osm-search.bellingcat.com/",
   "tags": [
     "free",
     "international",
