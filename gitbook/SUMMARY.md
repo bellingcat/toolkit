@@ -96,4 +96,6 @@
   * [Suncalc](tools/suncalc/README.md)
   * [Snap Map](tools/snap-map/README.md)
   * [Wikimapia](tools/wikimapia/README.md)
+  * [KartaView](tools/kartaview/README.md)
   * [AllTrails](tools/alltrails/README.md)
+
