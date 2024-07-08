@@ -58,7 +58,7 @@ function publishTool(name) {
   const filename = 'README.md';
   if (! fs.existsSync(filepath)) {
     console.log("Not found: ", filepath);
-    throw new Error("Can't publish ", name, " - ", filepath, "does not exist");
+    throw new Error(["Can't publish", name, "-", filepath, "does not exist"].join(' '));
   }
 
   const tools = getTools();
@@ -66,7 +66,7 @@ function publishTool(name) {
 
   if (!tool) {
     console.log("No tool found: ", name);
-    throw new Error("Can't publish ", name, " - Tool not found");
+    throw new Error(["Can't publish", name, "- Tool not found"].join(' '));
   }
 
   const link = path.join('tools', slug, 'README.md');
@@ -74,7 +74,7 @@ function publishTool(name) {
 
   if (summary.match(link)) {
     console.log("Link already found in summary: ", link);
-    throw new Error("Can't publish ", name, " - ", link, "already published");
+    throw new Error(["Can't publish", name, "-", link, "already published"].join(' '));
   }
 
   const newSummary = summary + `  * [${tool.title}](${link})\n`;
