@@ -52,7 +52,7 @@ The example below shows a search for Amsterdam filtering layers to display only 
 
 While Google Earth is a powerful tool for geographical information systems, it does have some limitations that researchers should consider:
 
-* **Availability of up to date satellite imagery:** While Google Earth Pro offers satellite imagery for free, it is not always very recent and it depends on the location how often it is updated. Open source researchers who need both up to date and high resolution imagery will need to use different providers.
+* **Availability of up to date satellite imagery:** While Google Earth Pro offers satellite imagery for free, it is not always very recent and it depends on the location how often it is updated. Open source researchers who need both up to date and high resolution imagery will need to use another satellite imagery provider.
 * **Data Accuracy and Currency**: Data in Google Earth may not always be up to date, leading to potential discrepancies with current conditions. Users should verify important information through other sources. For more information see [How accurate is Google Earth’s measurements?](https://www.ncesc.com/geographic-faq/how-accurate-is-google-earths-measurements/)
 * **Resolution and Detail**: Image resolution varies across different regions, with some areas having detailed imagery and others being less clear. See [Spatial resolution of Google Earth Imagery](https://gis.stackexchange.com/questions/11395/spatial-resolution-of-google-earth-imagery).
 * **3D Modeling**: While Google Earth provides 3D models of some cities, not all geographical areas have detailed 3D representations. See [List of 3D Locations in Google Earth](https://list.fandom.com/wiki/List\_of\_3D\_locations\_in\_Google\_Earth).&#x20;
