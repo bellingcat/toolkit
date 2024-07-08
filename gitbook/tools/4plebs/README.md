@@ -95,3 +95,5 @@ Unclear (some of the website developers are listed here: [https://archive.4plebs
 * [ ] This tool does not appear to use tracking cookies.
 
 ## Page Maintainer
+
+Bellingcat Volunteer Team/Unassigned
