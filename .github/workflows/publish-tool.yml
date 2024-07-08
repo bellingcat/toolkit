@@ -53,7 +53,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: publish-${{ github.run_number }}
-          commit-message: "Publish Tool $TOOL_NAME"
-          title: "Publish Tool $TOOL_NAME"
+          commit-message: "Publish Tool ${{ inputs.toolName }}"
+          title: "Publish Tool ${{ inputs.toolName }}"
           body: "This pull request publishes a tool and updates the build based on latest changes."
 
