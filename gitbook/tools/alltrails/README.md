@@ -126,9 +126,8 @@ Example below shows search for Vondelpark Loop in Amsterdam:
 
 ## Ethical Considerations
 
-* **Privacy**: .
-
-
+* **Privacy**: open source researchers should exercise responsibility when using All Trails data as not all users will be aware of the [default privacy settings](https://support.alltrails.com/hc/en-us/articles/15928750195604-What-are-the-default-privacy-settings-when-I-create-an-AllTrails-account).
+* **Stalking:** All Trails provides information that can facilitate stalking behaviours. Open source researchers should be aware stalking is a prosecutable offence in most countries, for instance in the UK see sections 2, 2A, 4 and 4A of the [Protection from Harassment Act 1997](https://www.legislation.gov.uk/ukpga/1997/40/contents) (PHA 1997) and [section 42A (1) Criminal Justice and Police Act 2001](https://www.legislation.gov.uk/ukpga/2001/16/section/42A). [Section 32 Crime and Disorder Act 1998](https://www.legislation.gov.uk/ukpga/1998/37/section/32).&#x20;
 
 ## Guides and articles
 
@@ -141,7 +140,6 @@ To effectively use AllTrails, especially for beginners or those looking to refin
 **Tutorials and Articles**
 
 * Cox, J. (2023) ‘AllTrails Data Exposes Precise Movements of Former Top Biden Official’, _Vice_, 8 March. Available at: [https://www.vice.com/en/article/v7b4zy/alltrails-data-exposes-precise-movements-of-former-top-biden-official](https://www.vice.com/en/article/v7b4zy/alltrails-data-exposes-precise-movements-of-former-top-biden-official) (Accessed: 17 June 2024).
-* Fabienne (2023) ‘AllTrails app: our honest review’, _Novo-monde_, 7 March. Available at: [https://www.novo-monde.com/en/alltrails-app-review/](https://www.novo-monde.com/en/alltrails-app-review/) (Accessed: 17 June 2024).
 * _Getting Started with AllTrails+ Overview_ (2023) _AllTrails Help_. Available at: [https://support.alltrails.com/hc/en-us/articles/360055345532-Getting-Started-with-AllTrails-Overview](https://support.alltrails.com/hc/en-us/articles/360055345532-Getting-Started-with-AllTrails-Overview) (Accessed: 17 June 2024).
 
 **Video Tutorials**
