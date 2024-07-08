@@ -24,9 +24,9 @@
 
 ## Maps & Satellites
 
-* [x] [Maps](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/maps)
+* [ ] [Maps](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/maps)
 * [ ] [Satellite Imagery](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/satellite-imagery)
-* [x] [Street View](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/street-view)
+* [ ] [Street View](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/street-view)
 
 ## Other
 
