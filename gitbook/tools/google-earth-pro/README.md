@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-Google Earth is a comprehensive geographic and spatial information tool suite available in various versions to cater to different user needs and platforms. It allows users to explore a 3D representation of Earth, leveraging detailed imagery, geographic data, and various layers to display geographical phenomena, landmarks, and more. This tool suite solves the problem of needing detailed, accurate, and accessible geographic information for both casual exploration and professional use.&#x20;
+Google Earth is a comprehensive geographic and spatial information tool suite available in various versions. It allows users to explore a 3D representation of the earth, leveraging detailed imagery, geographic data, and various layers to display geographical phenomena, landmarks, and more. It offers open source researchers satellite imagery in relatively high resolution from various regions around the world, including historical satellite imagery.
 
 #### Versions Available:
 
