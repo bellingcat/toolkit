@@ -44,7 +44,7 @@ jobs:
         if: ${{ steps.publish.outputs.changes == 'true' }}
         uses: ad-m/github-push-action@master
         with:
-          branch: publish
+          branch: publish-${{ github.run_number }}
           force: true
 
       - name: Create Pull Request
@@ -52,7 +52,7 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: publish
+          branch: publish-${{ github.run_number }}
           commit-message: "Publish Tool $TOOL_NAME"
           title: "Publish Tool $TOOL_NAME"
           body: "This pull request publishes a tool and updates the build based on latest changes."
