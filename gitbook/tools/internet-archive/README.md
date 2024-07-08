@@ -1,7 +1,7 @@
 ---
 description: >-
-  The Internet Archive's Wayback Machine lets users view and archive web pages,
-  aiding historical research and digital preservation.
+  The Wayback Machine's Internet Archive lets users view and archive web pages,
+  aiding in historical research and digital preservation.
 ---
 
 # Wayback Machine
