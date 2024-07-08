@@ -64,7 +64,7 @@ Authors: Micah 'WebBreacher' Hoffman, C3n7ral051nt4g3ncy, balestek, fres621, Par
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat Volunteer Team |
-|                           |
+| Page maintainer      |
+| -------------------- |
+| Aiganysh Aidarbekova |
+|                      |
