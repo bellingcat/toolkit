@@ -7,9 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Mapillary",
-  "description": "Mapillary is a crowdsourced street-level imagery platform with up-to-date visual data for investigative journalism, event coverage, and fact-checking.",
-  "url": "https://www.mapillary.com/",
   "tags": [
     "free",
     "international",
