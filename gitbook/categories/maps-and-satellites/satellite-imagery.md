@@ -30,7 +30,6 @@
 | [**Google Maps**](https://www.google.com/maps) | Google Maps provides mapping information, satellite imagery and Google Street View imagery including historical Street View images. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/google-maps/README.md) |
 | [**GPSJam**](https://gpsjam.org/) | Daily maps of GPS interference | <mark style="background-color:green;">Free</mark> |  |
 | [**HERE WeGo**](http://wego.here.com/) | More recent satellite imagery from places like Afghanistan and Iran than Google has. | <mark style="background-color:green;">Free</mark> |  |
-| [**Hitta.se**](https://www.hitta.se/) | Mapping service for Sweden | <mark style="background-color:green;">Free</mark> | [Details](../../tools/hitta.se/README.md) |
 | [**Index Database**](https://www.indexdatabase.de/) | A database of remote sensing indices and satellite imaging sensors | <mark style="background-color:green;">Free</mark> | [Details](../../tools/index-database/README.md) |
 | [**QGIS**](https://www.qgis.org) | QGIS is a free Open Source Geographic Information System (GIS). | <mark style="background-color:green;">Free</mark> | [Details](../../tools/qgis/README.md) |
 | [**satellites.pro**](https://satellites.pro/) | Combines different satellite services Includes web based Apple Maps satellite view (which has better imagery from e.g. Afghanistan than Google has, for example). | <mark style="background-color:green;">Free</mark> |  |
