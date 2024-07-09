@@ -1,7 +1,8 @@
 ---
 description: >-
-  Obsidian is a knowledge base on top of a local folder of plain text Markdown
-  files, designed for note-taking, data management, and project organization.
+  Obsidian is a knowledge base based on a local folder of plain text Markdown
+  files, designed for intuitive note-taking, data management, and project
+  organization.
 ---
 
 # Obsidian
@@ -12,23 +13,33 @@ description: >-
 
 ## Description
 
-Obsidian is a knowledge base on top of a local folder of plain text Markdown files. It is designed to make it easy to write and organize your thoughts, ideas, and projects, effectively turning your collection of notes into a connected web of knowledge. This tool is aimed at helping individuals manage their knowledge, supporting various uses from academic research, personal note-taking, to project management.
+Obsidian is a knowledge base built on top of a local folder of plain text markdown files. It is designed to make writing and organizing your thoughts, ideas, and projects easy, effectively turning your collection of notes into a connected web of knowledge. This tool is aimed at helping individuals manage their notes and organize their knowledge. Inspired by Niklas Luhman's "Zettelkasten" principle, Obsidian is designed to be part of your routine digital workflow and, over time, become an extension of your memory and mental models.
 
-One of the key features of Obsidian is its ability to create and follow links between your notes, allowing you to navigate your knowledge base like a personal wiki. You can easily reference other notes, creating a network of information that is easy to traverse and expand. The tool also supports advanced Markdown editing, customizable themes, and community-developed plugins that extend its functionality further. Obsidian supports plugins that allow [Omnivore](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/PI7b9IZu22nWNb4YYhRC/ "mention") highlights to be imported.
+The user interface is highly customizable, and the software is supported by a large community that can contribute to a core library of plugins. Obsidian supports different user groups' various individual needs, from academic research to personal note-taking to project management.
 
-Although free it's not open source.
+One of the standout features of Obsidian is its streamlined capability to create and navigate links between notes. Additionally, it allows for the easy integration of various document types, such as PDFs, voice memos, and images, into markdown pages using simple cut-and-paste techniques. A synergy of interconnected pages, tags, and organized folder structures forms a dynamic information network. This network is easy to explore and expand and can be visualized as a comprehensive web of interconnected knowledge nodes.&#x20;
 
+Although mastering markdown editing in Obsidian may initially challenge new users, the learning curve is manageable, and the basics of the software are straightforward to grasp. As users become more proficient in using advanced markdown features, program functionalities can be seamlessly integrated, enhancing Obsidian's interface and user experience to reflect individual preferences and needs.
 
+The tool also supports advanced Markdown editing, customizable themes, and community-developed plugins that extend its functionality further. Obsidian supports plugins that allow [Omnivore](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/PI7b9IZu22nWNb4YYhRC/ "mention") highlights to be imported.
 
-<figure><img src=".gitbook/assets/image.png" alt="Screenshot of Obsidian&#x27;s user interface for desktop and mobile. The image show navigation, highlighted paragraphs and a page graph of text."><figcaption><p>Obsidian Screenshot</p></figcaption></figure>
+Although free, it's not open source.
 
-Obsidian can be particularly useful for journalists in several ways:
+Some advantages and functions that Obsidian offers to researchers:
+
+* **Speed and Performance**: Obsidian's judicious use of markdown provides fast performance, especially when typing, searching, and navigating through links, which is crucial for efficiently handling large volumes of information.
+* **Ease of Creating Links**: The app facilitates the creation of new documents and links between them through intuitive commands (like double brackets), making it particularly suited to organizing and connecting thoughts and knowledge.
+* **Customization and Control**: Users can extensively customize the interface and control settings, such as font size, across different devices, enhancing readability and user experience.
+* **Back-Linking Visibility**: Obsidian automatically displays back-linked files in documents, offering a seamless way to navigate and understand the relationships between notes without additional clicks.
+* **Command Palette Accessibility**: The application provides multiple ways to access commands quickly, which simplifies the workflow and increases productivity.
+* **Graph View**: Though its practical utility may vary, the graph view in Obsidian has potential, especially for visualizing and discovering new connections between thoughts.
+* **Advanced Plugin Capabilities**: With plugins like DataView, users who enjoy deep customization can manipulate data and view connections uniquely, although this requires familiarity with YAML and programming-like languages.
 
 1. **Research Organization**: It enables the consolidation of research notes, sources, and data all in one place, making it easier to manage and navigate through extensive information.
 2. **Story Development**: Journalists can construct and organize their story or article outlines, connecting different pieces of research and notes to flesh out their texts.
 3. **Interview Management**: Keeping track of interview notes is simplified, as each interview can be linked to topics, stories, or other interviews, creating a web of information that is easy to reference.
-4. **Archiving Stories and Sources**: By using Obsidian, journalists can archive their stories, notes, and sources in a searchable, interconnected manner, making it easy to retrieve and re-use information in the future.
-5. **Collaboration**: Though primarily designed for personal use, Obsidian's ability to work with local Markdown files means journalists can use third-party tools to sync and collaborate on files with colleagues.
+4. **Archiving**: The platform enables journalists to archive their stories, notes, and sources in a searchable, interconnected format, facilitating easy retrieval and future reuse of information.
+5. **Collaboration**: Though primarily designed for personal use, Obsidian's ability to work with local Markdown files means journalists can use third-party tools to sync and collaborate on files with colleagues. Markdown files are inherently safe&#x20;
 
 ## Cost
 
@@ -40,8 +51,8 @@ Obsidian can be particularly useful for journalists in several ways:
 
 * **Personal use:** free.&#x20;
 * **Commercial use**: paid.
-* **Sync across devices**: paid.
-* **Publish to cloud**: paid.&#x20;
+* **Sync across devices**: paid "Synch" service available, but workarounds are possible (eg. github)
+* **Publish to cloud**: paid service available, free hosting solutions available&#x20;
 
 ## Level of difficulty
 
@@ -59,13 +70,12 @@ Obsidian is available on the following platforms:
 
 ## Limitations
 
-While Obsidian is a powerful note-taking and knowledge base application, it has the following limitations:
+While Obsidian is a powerful note-taking and knowledge-base application, its focus on being a text-based editor comes with a few disadvantages:
 
-* **Offline Only**: Primarily operates offline (unless you pay), which means real-time collaboration or cloud-based access is limited compared to some alternatives.
-* **Learning Curve**: The plethora of features and customization options may be overwhelming for new users.
-* **Mobile Experience**: While available on iOS and Android, the mobile experience might not be as robust as the desktop version due to screen size and different user interface considerations.
-* **No Built-in Publish Feature**: Unlike some competitors, Obsidian requires additional plugins or external services to publish notes online.
-* **Limited External Integration**: While plugins can extend functionality, native integration with external services (like Google Calendar or Trello) is not as extensive out of the box.
+* **Not collaboration-friendly**: Obsidian offers more limited real-time collaboration and cloud-based access compared to some other tools. While the premium sync service enables device synchronization, it is not optimized for real-time collaborative work.
+* **Learning Curve**: At first glance, Obsidian's interface might appear plain due to its subtle integration of advanced customization options and markdown features. However, while mastering all available functions only comes with regular use, initial non-use of advanced functions does not compromise the software's effectiveness as a robust note-taking tool. That being said, users uncomfortable with markdown language might prefer a less powerful app.
+* **No Built-in Publish Feature**:  Obsidian requires paid service (Obsidian Publish) external services to publish notes online. With Obsidian Publish, setting up a simple website with select pages that can be secured with passwords is easy.
+* **Limited External Integration**: Out of the box, Obsidian's native integration with external services such as Google Calendar is not extensive. However, a wide range of functionalities can be achieved using plugins.
 
 ## Ethical Considerations
 
@@ -73,9 +83,9 @@ While Obsidian as a tool focuses on enhancing personal and professional producti
 
 * **Data Privacy**: Given its offline-first approach, users have significant control over their data. However, users must be vigilant about exporting or sharing their notes through external services, which may not uphold the same privacy standards.
 * **Plugin Security**: The capacity to extend Obsidian's functionality with plugins is powerful but also introduces the need to trust third-party developers. Users must exercise caution, ensuring they install reputable plugins to avoid potential security risks.
-* **Accessibility**: Although Obsidian offers a wide range of features, its learning curve and interface may pose accessibility challenges for users who are not tech-savvy or have disabilities. Efforts to make the application more intuitive and accessible could enhance its ethical standing.
-* **Sustainability of the Free Model**: While Obsidian’s core functions are available for free, the long-term sustainability of such a model depends on a sufficient number of users opting for paid features. This balance between free access and financial viability is crucial to ensuring the tool's development and support.
-* **Collaboration Equity**: The limited real-time collaboration feature in the absence of a paid subscription could create disparities in collaborative settings, especially in educational or low-income environments.&#x20;
+* **Accessibility**: Although Obsidian offers a wide range of features, its learning curve and interface may pose accessibility challenges for users who are not tech-savvy or have disabilities. Making the application more intuitive and accessible could enhance its ethical standing.
+* **Sustainability of the Free Model**: While Obsidian’s core functions are free, the long-term sustainability of such a model depends on a sufficient number of users opting for paid features. However, as the tool is based on the markdown format for which many alternatives exist, it is
+* **Collaboration Equity**: Obsidian is conceptualized as a personal note-taking tool. While there are available plugins and workarounds, the limited real-time collaboration functionality makes it less than ideal for collaborative settings, especially in educational or low-income environments.&#x20;
 
 ## Guide
 
