@@ -98,7 +98,6 @@
   * [Wikimapia](tools/wikimapia/README.md)
   * [KartaView](tools/kartaview/README.md)
   * [AllTrails](tools/alltrails/README.md)
-
   * [Mapillary](tools/mapillary/README.md)
   * [F4Map](tools/f4map/README.md)
   * [Google Earth Pro](tools/google-earth-pro/README.md)
