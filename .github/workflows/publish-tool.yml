@@ -55,5 +55,5 @@ jobs:
           branch: publish-${{ github.run_number }}
           commit-message: Publish ${{ inputs.toolName }}
           title: Publish ${{ inputs.toolName }}
-          body: "This pull request publishes a tool and updates the build based on latest changes."
+          body: Created by [Publish workflow run ${{ github.run_number }}](https://github.com/bellingcat/toolkit/actions/runs/${{ github.run_id }})
 
