@@ -15,9 +15,9 @@ description: >-
 
 Blender is a tool for 3D creation, designed to support a wide range of tasks from modeling and animation to rendering and video editing. It is developed as an open-source project, making it entirely free to use for both personal and commercial purposes. The software is well-suited for artists, animators, and designers looking to create detailed 3D models, engaging animations, and realistic visual effects. One of the key features of Blender is its ability to support the entire 3D pipeline, simplifying the workflow for users by providing a single platform for all 3D creation needs. It has a role in open source investigations as a tool for visualising, simulating and geospatial analysis.&#x20;
 
-The screenshot below shows the default initial Blender view with a cube, a camera and a light. &#x20;
+The image below shows a Blender model on the left used in Bellingcat's _Russian Missile Identified in Kyiv Children’s Hospital Attack_ investigation. &#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2024-04-10 at 2.56.50 PM.png" alt="Screenshot of default initial Blender with a cube, a camera and a light."><figcaption><p>Screenshot of default initial Blender view with a cube, a camera and a light.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot-2024-07-09-at-07.39.11-1200x565.png" alt="Image from Russian Missile Identified in Kyiv Children’s Hospital Attack shows a Blender model of a missile on the left and the original image of the missile on the right."><figcaption><p>Image from <em>Russian Missile Identified in Kyiv Children’s Hospital Attack</em></p></figcaption></figure>
 
 ### Use Cases
 
@@ -74,6 +74,7 @@ To effectively use Blender, especially for beginners or those looking to refine 
 * PremiumBeat (2021) _Complete Beginner’s Guide to Blender - PremiumBeat_, _The Beat: A Blog by PremiumBeat_. Available at: [https://www.premiumbeat.com/blog/blender-software-guide/](https://www.premiumbeat.com/blog/blender-software-guide/) (Accessed: 10 April 2024).
 * _Blender for Forensic Architecture - M2 Hospital Bombing in Aleppo_ (2017) _BlenderNation_. Available at: [https://www.blendernation.com/2017/02/25/blender-forensic-architecture-m2-hospital-aleppo/](https://www.blendernation.com/2017/02/25/blender-forensic-architecture-m2-hospital-aleppo/) (Accessed: 11 April 2024).
 * Sheldon, M. (2023) _Anatomy of a Shelling: How Russian Rocket Artillery Struck Mykolaiv_, _bellingcat_. Available at: [https://www.bellingcat.com/news/2023/01/27/anatomy-of-a-shelling-how-russian-rocket-artillery-struck-mykolaiv/](https://www.bellingcat.com/news/2023/01/27/anatomy-of-a-shelling-how-russian-rocket-artillery-struck-mykolaiv/) (Accessed: 20 April 2024).
+* Gonzales, M.S., Giancarlo Fiorella, Jake Godin, Carlos (2024) _Russian Missile Identified in Kyiv Children’s Hospital Attack_, _bellingcat_. Available at: [https://www.bellingcat.com/news/2024/07/09/russian-missile-identified-in-kyiv-childrens-hospital-attack/](https://www.bellingcat.com/news/2024/07/09/russian-missile-identified-in-kyiv-childrens-hospital-attack/) (Accessed: 10 July 2024).
 
 **Books**
 
