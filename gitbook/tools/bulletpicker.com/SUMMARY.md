@@ -1,3 +1,4 @@
 # Table of contents
 
-* [Page](README.md)
+* [Bulletpicker.com](README.md)
+* [Categories](categories.md)
