@@ -15,9 +15,9 @@ description: >-
 
 Blender is a tool for 3D creation, designed to support a wide range of tasks from modeling and animation to rendering and video editing. It is developed as an open-source project, making it entirely free to use for both personal and commercial purposes. The software is well-suited for artists, animators, and designers looking to create detailed 3D models, engaging animations, and realistic visual effects. One of the key features of Blender is its ability to support the entire 3D pipeline, simplifying the workflow for users by providing a single platform for all 3D creation needs. It has a role in open source investigations as a tool for visualising, simulating and geospatial analysis.&#x20;
 
-The image below shows a Blender model on the left used in Bellingcat's _Russian Missile Identified in Kyiv Children’s Hospital Attack_ investigation. &#x20;
+The image below shows a Blender model on the left used in Bellingcat's [_Russian Missile Identified in Kyiv Children’s Hospital Attack_ investigation](https://www.bellingcat.com/news/2024/07/09/russian-missile-identified-in-kyiv-childrens-hospital-attack/). &#x20;
 
-<figure><img src=".gitbook/assets/Screenshot-2024-07-09-at-07.39.11-1200x565.png" alt="Image from Russian Missile Identified in Kyiv Children’s Hospital Attack shows a Blender model of a missile on the left and the original image of the missile on the right."><figcaption><p>Image from <em>Russian Missile Identified in Kyiv Children’s Hospital Attack</em></p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot-2024-07-09-at-07.39.11-1200x565.png" alt="Image from Russian Missile Identified in Kyiv Children’s Hospital Attack shows a Blender model of a missile on the left and the original image of the missile on the right."><figcaption><p>Image from <em>Russian Missile Identified in</em><a href="https://www.bellingcat.com/news/2024/07/09/russian-missile-identified-in-kyiv-childrens-hospital-attack/"> <em>Kyiv Children’s Hospital Attack</em></a></p></figcaption></figure>
 
 ### Use Cases
 
