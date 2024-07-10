@@ -14,14 +14,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          ref: main
+          fetch-depth: 0
 
       - name: Install dependencies
         run: npm install
 
       - name: All tools up to date?
         run: |
-          git status
           git log --since="1 month ago" --format=oneline
           node src/last-updated.mjs
 
