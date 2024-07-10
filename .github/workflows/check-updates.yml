@@ -21,6 +21,5 @@ jobs:
 
       - name: All tools up to date?
         run: |
-          git log --since="1 month ago" --format=oneline
           node src/last-updated.mjs
 
