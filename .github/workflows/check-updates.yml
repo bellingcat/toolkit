@@ -13,12 +13,15 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Install dependencies
         run: npm install
 
       - name: All tools up to date?
         run: |
+          git status
           git log --since="1 month ago" --format=oneline
           node src/last-updated.mjs
 
