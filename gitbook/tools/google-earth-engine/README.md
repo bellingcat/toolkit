@@ -78,15 +78,8 @@ A role on a Google Cloud project (more complicated but more secure. See: [https:
 
 ## Ethical Considerations
 
-In the context of using remote sensing in online open source investigations, several ethical considerations should be considered:
-
 * **Privacy Concerns**: Remote sensing technologies can capture detailed images from space or high altitude, potentially compromising individual privacy. Researchers must balance the public interest with the rights to privacy.
 * **Accuracy and Misinterpretation**: Ensuring the accurate representation of data is critical. Misinterpretation of remote sensing data can lead to misinformation, shaping public opinion based on incorrect premises. Each dataset may have different standards for accuracy see the the [Data Catalog](https://developers.google.com/earth-engine/datasets/catalog) for more information.&#x20;
-* **Equity and Access**: The distribution of benefits from remote sensing should be equitable. Researchers should be aware of the digital divide and work towards making their findings accessible to a broader audience.
-* **Environmental Impact**: The deployment and maintenance of remote sensing technologies have environmental costs. Ethical research considers the ecological footprint of gathering and disseminating information.
-* **Informed Consent**: Where possible, obtaining informed consent from those being observed or whose data is being collected, even indirectly, reinforces ethical practices.
-* **Cultural Insensitivity**: Avoids the unsolicited mapping or monitoring of culturally sensitive or sacred sites without permission from the concerned communities.
-* **Security Risks**: Guards against the misuse of remote sensing technology for malicious purposes, including espionage or cyber-attacks.
 
 ## Guide
 
