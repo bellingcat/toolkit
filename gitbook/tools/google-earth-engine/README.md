@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Google Earth Engine is a cloud-based platform for planetary-scale environmental data analysis. It brings together a large collection of satellite imagery and geospatial datasets with planetary-scale analysis capabilities. This tool is designed for researchers, scientists, and analysts engaged in environmental monitoring, land-use change detection, environmental impact assessments, and resource management. It solves the problem of managing and analyzing large datasets that are typical in environmental studies.
+Google Earth Engine is a cloud-based platform for environmental data analysis, object and change detection. It brings together a large collection of satellite imagery and geospatial datasets with planetary-scale analysis capabilities. This tool is designed for researchers and analysts engaged in environmental monitoring, land-use change detection and object and infrastructure detection. It solves the problem of managing and analyzing large datasets that require significant computational resources and creating sophisticated interactive visualisations.
 
 GEE can be used with the following programming languages and tools:&#x20;
 
@@ -71,7 +71,7 @@ A role on a Google Cloud project (more complicated but more secure. See: [https:
 ## Limitations
 
 * **Data Availability**: Not all satellite data might be available or up-to-date. Each individual data set available in the [Data Catalog](https://developers.google.com/earth-engine/datasets/catalog) details the availability of the individual dataset.
-* **Processing Power**: User code execution is limited by Google's computational resources, which might result in delays during peak usage. For more information see the [Computation Overview](https://developers.google.com/earth-engine/guides/computation\_overview).&#x20;
+* **Processing Power**: User code execution is limited by Google's computational resources, which might result in delays during peak usage. It's important to understand that processing on large datasets can hit processing limits see [Scaling up in Earth Engine](https://link.springer.com/chapter/10.1007/978-3-031-26588-4\_29). For more information on GEE computational processing see the [Computation Overview](https://developers.google.com/earth-engine/guides/computation\_overview).
 * **Learning Curve**: The platform has a steep learning curve, especially for users without a programming background.
 * **Export Restrictions**: There are limits on the size and rate at which data can be exported from the platform. See [Earth Engine Quotas](https://developers.google.com/earth-engine/guides/usage) for more information.
 * **API Rate Limits**: Usage of the Earth Engine API is subject to daily and per-minute [rate limits](https://developers.google.com/earth-engine/guides/usage) to prevent abuse. See [Earth Engine Quotas](https://developers.google.com/earth-engine/guides/usage) for more information.
