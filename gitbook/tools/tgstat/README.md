@@ -199,7 +199,7 @@ TGStat founder addressed privacy concerns about the tool in the same Wired artic
 
 This is a guide in Russian provided by TGStat.ru: [https://tgstat.com/blog/video-course-1024](https://tgstat.com/blog/video-course-1024) (Turning on the Auto Translate feature on YouTube gives a usable translation of the guide).  This page will be updated if guides in other languages become available.&#x20;
 
-_**Use case**_
+_**Use cases**_
 
 TGStat has been particularly used in content verification, especially in tracking the spread of disinformation/ misinformation. (See: DFRLab’s lists of research involving misinformation. A good example is the following article from DFRLab: [https://dfrlab.org/2024/02/08/russian-milbloggers-falsely-accuse-kazakhstan-of-opening-a-nato-military-facility/](https://dfrlab.org/2024/02/08/russian-milbloggers-falsely-accuse-kazakhstan-of-opening-a-nato-military-facility/)
 
