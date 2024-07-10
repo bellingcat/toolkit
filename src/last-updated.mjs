@@ -32,6 +32,7 @@ async function isUpdated(tool) {
     console.error(stderr);
   }
   const commitDate = stdout.trim();
+  console.log(commitDate, tool.title);
   if (!commitDate) {
     return false;
   }
