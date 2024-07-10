@@ -103,3 +103,4 @@
   * [Google Earth Pro](tools/google-earth-pro/README.md)
   * [Google Earth Engine](tools/google-earth-engine/README.md)
   * [CAT UXO](tools/cat-uxo/README.md)
+  * [Open Source Munitions Portal](tools/open-source-munitions-portal/README.md)
