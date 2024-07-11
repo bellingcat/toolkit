@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Name Variant Search](README.md)
+* [Bellingcat Name Variant Search](README.md)
 * [Categories](categories.md)
