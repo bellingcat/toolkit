@@ -41,6 +41,3 @@ Bellingcat
 | Page Maintainer           |
 | ------------------------- |
 | Bellingcat Volunteer Team |
-
-* a
-* b
