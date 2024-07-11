@@ -3,7 +3,6 @@
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
 | [**192.com**](http://www.192.com/) | Searching for someone's address in the UK, phone number and who they live with according to electoral rolls. | <mark style="background-color:green;">Free</mark> | 📞 United Kingdom |
-| [**Bellingcat Name Variant Search**](https://bellingcat.github.io/name-variant-search/) | Simple tool to help search for different ways of writing a name. | <mark style="background-color:green;">Free</mark> | 🗣️  |
 | [**Check Usernames**](https://checkusernames.com/) | Check usernames on 160 social networks | <mark style="background-color:green;">Free</mark> | 🗣️ Not very reliable |
 | [**Email Reputation**](https://emailrep.io/) | How trustworthy is an email, is it a throwaway etc. | <mark style="background-color:green;">Free</mark> | 📧  |
 | [**Eniro**](https://www.eniro.se/) | Yellow Pages (Swedish Edition) | <mark style="background-color:green;">Free</mark> | 📞 Sweden |
