@@ -8,7 +8,6 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "draft": true,
-  "name": "North Data",
   "tags": []
 }
 ```
