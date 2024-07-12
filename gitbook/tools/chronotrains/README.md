@@ -65,13 +65,13 @@ For each station, the system checks which other stations you can get to in a cer
 
 **Data Source:**
 
-**Deutsche Bahn (DB) Data:** The information about train times and stations comes from Deutsche Bahn. Deutsche Bahn co-operate routes with different countries' rail systems ([https://io.deutschebahn.com/en/services/passenger-rail/](https://io.deutschebahn.com/en/services/passenger-rail/)) and therefore has data on train schedules for [international destinations](https://ibir.deutschebahn.com/2023/fileadmin/downloads/db\_ib23\_e\_web\_01.pdf) (based on 2023 Integrated Report, p.38, p.49).  According to DB International Operations’ passenger rail services, “DB’s regional services do not only operate in Germany, but also across borders and in other European countries, including the UK, Czech Republic, Denmark, the Netherlands, Poland, and Portugal.”&#x20;
+**Deutsche Bahn (DB) Data:** The information about train times and stations comes from Deutsche Bahn. Deutsche Bahn co-operate routes with different countries' rail systems ([https://io.deutschebahn.com/en/services/passenger-rail/](https://io.deutschebahn.com/en/services/passenger-rail/)) and therefore has data on train schedules for [international destinations](https://ibir.deutschebahn.com/2023/fileadmin/downloads/db\_ib23\_e\_web\_01.pdf) (based on 2023 Integrated Report, p.38, p.49).  According to DB International Operations’ website, “DB’s regional services do not only operate in Germany, but also across borders and in other European countries, including the UK, Czech Republic, Denmark, the Netherlands, Poland, and Portugal.”&#x20;
 
 **API by Direkt Bahn Guru:** This data is made easier to access and use through a tool (API) provided by Direkt Bahn Guru, which helps to organize and provide the data in a convenient format.
 
 _Data Processing (Scraping and Pre-computing):_
 
-* Scraping Data: This means collecting and gathering train data from its source.&#x20;
+* Scraping Data: This means Chronotrains is collecting and gathering train data from its source.&#x20;
 * Pre-computing Isochrones: Before you use the map, the system calculates (pre-computes) the travel times and areas you can reach in advance.
 
 _Storing and Displaying Isochrones:_
@@ -89,7 +89,7 @@ It can be used to:
 
 * Potentially verify travel claims: By entering a location and timeframe, investigators can see if a reported train travel aligns with what's realistically possible.
 * Potentially track movement patterns: Analyze potential routes and locations reachable by train within a specific timeframe, helping identify areas a person of interest might have visited.
-* Assess logistical feasibility: Evaluate the practicality of travel plans based on train schedules, which can help users understand a situation's logistics.
+* Assess logistical feasibility: Evaluate the practicality of travel plans based on train schedules.
 
 ## Cost
 
@@ -114,7 +114,7 @@ It can be used to:
 
 As of July 2024, the platform does not have train data available for Bosnia and Herzegovina, Montenegro, Albania, Belarus, and Russia. These countries appear gray on the map.&#x20;
 
-While Ukraine is marked as available on the map, it may be incomplete. make sure to cross-reference with other neighboring countries’s train data, such as Polrail.&#x20;
+While Ukraine is marked as available on the map, it may be incomplete. Make sure to cross-reference with other neighboring countries’s train data, such as Polrail, and Ukraine’s national railway network, Ukrainian Railways.&#x20;
 
 2. **Accuracy**
 
@@ -126,6 +126,8 @@ According to its [GitHub page](https://github.com/benjamintd/chronotrains), the 
 
 4. **Adding Connections (“Edges”) Between “Close Stations” Based on Assumed Walking Speed**
 
+According to its [GitHub page](https://github.com/benjamintd/chronotrains), “closed stations” and “Assumed Speed” are defined as follows:
+
 **Close stations:** If two stations are close to each other (less than 10 km/6.2 mi apart),  the system will add a connection between them, and that connection is then reflected on the map.&#x20;
 
 **Assumed speed:** The system also assumes that you can walk/travel between these stations at a speed of 9/km/h (5.59 mph) - which is described as [“faster than walking but slower than biking.”](https://github.com/benjamintd/chronotrains)&#x20;
@@ -134,11 +136,11 @@ It is important to note that this speed can be variable from person to person an
 
 5. **Assumed Interchange Time**
 
-When switching from one train to another, the system assumes it takes 20 minutes. Since this can be variable depending on the person, the data should be taken as an estimate and needs to be cross-checked with other train schedules.&#x20;
+According to its [GitHub page](https://github.com/benjamintd/chronotrains), when switching from one train to another, the system assumes it takes 20 minutes. Since this can be variable depending on the person, the data should be taken as an estimate and needs to be cross-checked with other train schedules.&#x20;
 
 6. **Some Trains May Be Not Be Reflected on the Map**&#x20;
 
-[A post from May 2023](https://x.com/jason\_boyer/status/1663822318982889472), shows that certain train connections that should be visible on the map may not appear.  Since Chronotrains also uses data from Direkt Bahn Guru, this GitHub page acknowledges that [“The API includes most trains in central Europe, but data availability gets significantly lower the further away stations are from routes (co-) operated by DB.” ](https://gist.github.com/juliuste/f9776a6b7925bc6cc2d52225dd83336e)Also, according to this page, trains from smaller companies are often not included compared to those from state-owned operators, probably because they don't share data as much.
+[A post from May 2023](https://x.com/jason\_boyer/status/1663822318982889472), shows that certain train connections that should be visible on the map may not appear.  In addition, there is another reason why some train information are missing. Since Chronotrains also uses data from Direkt Bahn Guru, this GitHub page acknowledges that [“The API includes most trains in central Europe, but data availability gets significantly lower the further away stations are from routes (co-) operated by DB.” ](https://gist.github.com/juliuste/f9776a6b7925bc6cc2d52225dd83336e)Also, according to this page, trains from smaller companies are often not included compared to those from state-owned operators, probably because they don't share data as much.
 
 7. **Data From Deutsche Bahn API H**[**as Limits**](https://gist.github.com/juliuste/f9776a6b7925bc6cc2d52225dd83336e)**.**&#x20;
 
@@ -152,7 +154,7 @@ _**Hard to Combine:**_ Because the data is so scattered and inconsistent, it's d
 
 ## Ethical Considerations
 
-Chronotrains is best used in conjunction with other tools and sources of information. Ensure transparency, acknowledge limitations, and prioritize obtaining corroborating information through other tools.  &#x20;
+Chronotrains is best used in conjunction with other tools and other sources of information. Ensure transparency, acknowledge limitations, and prioritize obtaining corroborating information through other tools.  &#x20;
 
 **Transparency and Disclosure:**&#x20;
 
