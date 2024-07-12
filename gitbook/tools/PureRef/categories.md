@@ -30,6 +30,8 @@
 
 ## Other
 
+* [ ] [Archiving](https://bellingcat.gitbook.io/toolkit/categories/archiving)
+* [ ] [Data Visualization](https://bellingcat.gitbook.io/toolkit/categories/data-visualization)
 * [ ] [People](https://bellingcat.gitbook.io/toolkit/categories/people)
 * [ ] [Transport](https://bellingcat.gitbook.io/toolkit/categories/transport)
 * [ ] [Websites](https://bellingcat.gitbook.io/toolkit/categories/websites)
