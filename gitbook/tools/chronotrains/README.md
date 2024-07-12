@@ -110,7 +110,45 @@ It can be used to:
 
 ## Limitations
 
+1. **Data Unavailable for Some Countries**&#x20;
 
+As of July 2024, the platform does not have train data available for Bosnia and Herzegovina, Montenegro, Albania, Belarus, and Russia. These countries appear gray on the map.&#x20;
+
+While Ukraine is marked as available on the map, it may be incomplete. make sure to cross-reference with other neighboring countries’s train data, such as Polrail.&#x20;
+
+2. **Accuracy**
+
+Chronotrains.com includes a caveat [that the travel times are based on estimates only provided by Deutsche Bahn data](https://www.chronotrains.com/en/8) (Under FAQs). Actual arrival times may not always match. Therefore it is important to use this platform for estimates.&#x20;
+
+3. **Local Transit Exclusion**
+
+According to its [GitHub page](https://github.com/benjamintd/chronotrains), the map doesn't include local transit options for most cities like buses, bikes, or walking.
+
+4. **Adding Connections (“Edges”) Between “Close Stations” Based on Assumed Walking Speed**
+
+**Close stations:** If two stations are close to each other (less than 10 km/6.2 mi apart),  the system will add a connection between them, and that connection is then reflected on the map.&#x20;
+
+**Assumed speed:** The system also assumes that you can walk/travel between these stations at a speed of 9/km/h (5.59 mph) - which is described as [“faster than walking but slower than biking.”](https://github.com/benjamintd/chronotrains)&#x20;
+
+It is important to note that this speed can be variable from person to person and that this is an average estimate. So when looking at the data on Chronotrains, keep these limitations in mind.&#x20;
+
+5. **Assumed Interchange Time**
+
+When switching from one train to another, the system assumes it takes 20 minutes. Since this can be variable depending on the person, the data should be taken as an estimate and needs to be cross-checked with other train schedules.&#x20;
+
+6. **Some Trains May Be Not Be Reflected on the Map**&#x20;
+
+[A post from May 2023](https://x.com/jason\_boyer/status/1663822318982889472), shows that certain train connections that should be visible on the map may not appear.  Since Chronotrains also uses data from Direkt Bahn Guru, this GitHub page acknowledges that [“The API includes most trains in central Europe, but data availability gets significantly lower the further away stations are from routes (co-) operated by DB.” ](https://gist.github.com/juliuste/f9776a6b7925bc6cc2d52225dd83336e)Also, according to this page, trains from smaller companies are often not included compared to those from state-owned operators, probably because they don't share data as much.
+
+7. **Data From Deutsche Bahn API H**[**as Limits**](https://gist.github.com/juliuste/f9776a6b7925bc6cc2d52225dd83336e)**.**&#x20;
+
+**No Single Dataset:** Public transport route data in Europe remains fragmented, with no single comprehensive dataset available.
+
+**Incomplete Data:** According to this [page](https://gist.github.com/juliuste/f9776a6b7925bc6cc2d52225dd83336e), public transport data availability varies across Europe, with some countries lacking entirely.
+
+**Regional Data Only:** Other countries only provide data by region or by specific transport operators (like in France).
+
+**Hard to Combine:** Because the data is so scattered and inconsistent, it's difficult to combine it into one complete dataset.
 
 ## Ethical Considerations
 
@@ -126,11 +164,11 @@ It can be used to:
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| Afton           |
+|                 |
