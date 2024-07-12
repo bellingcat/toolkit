@@ -1,12 +1,13 @@
 ---
-description: A brief one-line description of the tool.
+description: Catalogues uploaded documents and files, providing OCR, indexing, and other services.
+
 ---
 
 # Pinpoint
 
 ## URL
 
-https://example.com
+https://journaliststudio.google.com/pinpoint/about
 
 ## Description
 

@@ -7,10 +7,7 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "draft": true,
-  "name": "Pinpoint",
-  "description": "A brief one-line description of the tool.",
-  "url": "https://example.com",
+  "details": "Incredible for data leaks and large collections of documents (PDFs, emails, DOCX, spreadsheets,etc). Works with most languages, can do OCR on scanned documents tha t can then be searched. Can transcribe audio files as well.",
   "tags": []
 }
 ```
