@@ -48,7 +48,8 @@ function toolToReadme(tool) {
 }
 function toolToSummary(tool) {
   const template = fs.readFileSync('template/SUMMARY.md', 'utf-8');
-  return template.replace("Tool Name", `${tool.title}`);
+  const title = tool.title || tool.name;
+  return template.replace("Tool Name", `${title}`);
 }
 function publishTool(name) {
   const slug = name.replace(/\s/g, '-').toLowerCase();
