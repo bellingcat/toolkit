@@ -7,9 +7,7 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "url": "https://hoaxy.osome.iu.edu/",
   "tags": [
-    "twitter"
   ]
 }
 ```
