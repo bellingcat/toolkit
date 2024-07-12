@@ -12,6 +12,12 @@ description: Convert a tweet to a video download link
 
 Takes a URL for a tweet with a video and returns links to download the video in high, medium, or low resolution.
 
+* Paste the URL for the tweet into the window
+* Press the "Download" button
+* Select what resolution you would like to download the video at
+* The video will open in another browser tab, right- or control-click on the video and select "Save Video As"
+* The Save File dialogue will open, rename video as needed and navigate to where you would like to save the file.
+
 ## Cost
 
 * [x] Free
