@@ -20,10 +20,10 @@ The European Space Agency's Earth Online is a portal dedicated to providing a we
 The European Space Agency's Earth Online portal offers a broad array of use cases, including but not limited to:
 
 * **Environmental Monitoring:** Tracking changes in climate, land use, and natural habitats over time.
-* **Disaster Response and Management:** Providing critical data for responding to natural disasters like floods, wildfires, and earthquakes.
-* **Agricultural Analysis:** Assisting in the monitoring of crop health, forecasting yields, and managing agricultural resources more efficiently.
+* **Disaster Response and Management:** Providing data about natural disasters like floods, wildfires, and earthquakes.
+* **Agricultural Analysis:** Assisting in the monitoring of crop health, forecasting yields, and managing agricultural resources.
 * **Oceanography and Marine Sciences:** Supporting the study of ocean currents, sea surface temperatures, and marine ecosystems.
-* **Urban Planning:** Aiding in the planning and development of sustainable urban environments through land use analysis and infrastructure planning.
+* **Urban Planning:** Data for land use analysis and infrastructure planning.
 * **Educational Resources:** Serving as a tool for educators and students in the fields of earth sciences, geography, and environmental studies.
 
 These use cases highlight the versatility of the Earth Online portal in supporting a wide range of scientific research, educational, and applied environmental management activities.
@@ -47,8 +47,8 @@ These use cases highlight the versatility of the Earth Online portal in supporti
 * **Data Availability**: While ESA's Earth Online offers extensive datasets, certain historical data or high-resolution imagery may not be readily available due to the limitations of past missions or data retention policies. See the individual dataset fro more details.
 * **Learning Curve**: New users may find the interface and array of tools challenging to navigate without prior experience in satellite data analysis or familiarity with similar platforms.
 * **Access Restrictions**: Some datasets require specific permissions or qualifications for access, limiting use for certain research or educational purposes. See [How to Access Data](https://www.esa.int/Applications/Observing\_the\_Earth/How\_to\_access\_data) for more information.
-* **Processing Power**: Advanced data analysis and processing tasks demand significant computational resources, which may not be feasible for all users. Different tools will have different processing requirements see the individual tool's documentation.
-* **Update Frequency**: The update intervals for some datasets may not meet the needs of users requiring real-time or near-real-time information. Different datasets will have different update frequency see the individual dataset's documentation.
+* **Processing Power**: Advanced data analysis and processing tasks demand significant computational resources, which may not be feasible for all users. Different tools will have different processing requirements. See the individual tool's documentation.
+* **Update Frequency**: The update intervals for some datasets may not meet the needs of users requiring real-time or near-real-time information. Different datasets will have different update frequency. See the individual dataset's documentation.
 
 ## Ethical Considerations
 
