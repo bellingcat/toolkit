@@ -12,7 +12,7 @@
 * [ ] [Twitter/X](https://bellingcat.gitbook.io/toolkit/categories/social-media/twitter)
 * [ ] [Vkontakte](https://bellingcat.gitbook.io/toolkit/categories/social-media/vkontakte)
 * [ ] [Youtube](https://bellingcat.gitbook.io/toolkit/categories/social-media/youtube)
-* [ ] [Other Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/other-networks)
+* [x] [Other Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/other-networks)
 * [ ] [Multiple Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/multiple-networks)
 
 ## Image/Video
@@ -30,7 +30,7 @@
 
 ## Other
 
-* [ ] [People](https://bellingcat.gitbook.io/toolkit/categories/people)
+* [x] [People](https://bellingcat.gitbook.io/toolkit/categories/people)
 * [ ] [Transport](https://bellingcat.gitbook.io/toolkit/categories/transport)
 * [ ] [Websites](https://bellingcat.gitbook.io/toolkit/categories/websites)
 * [ ] [Companies & Finance](https://bellingcat.gitbook.io/toolkit/categories/companies-and-finance)
