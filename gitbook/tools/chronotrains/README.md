@@ -89,15 +89,12 @@ It can be used to:
 
 * Potentially verify travel claims: By entering a location and timeframe, investigators can see if a reported train travel aligns with what's realistically possible.
 * Potentially track movement patterns: Analyze potential routes and locations reachable by train within a specific timeframe, helping identify areas a person of interest might have visited.
-* Assess logistical feasibility: Evaluate the practicality of travel plans based on train schedules.
 
 ## Cost
 
 * [x] Free
 * [ ] Partially Free
 * [ ] Paid
-
-\[\[Pricing or subscription information, if relevant.]]
 
 ## Level of difficulty
 
