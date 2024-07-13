@@ -121,9 +121,9 @@ Chronotrains.com includes a caveat [that the travel times are based on estimates
 
 According to its [GitHub page](https://github.com/benjamintd/chronotrains), the map doesn't include local transit options for most cities like buses, bikes, or walking.
 
-4. **Adding Connections (“Edges”) Between “Close Stations” Based on Assumed Walking Speed**
+4. **Adding Connections (“Edges”) Between “Closed Stations” Based on Assumed Walking Speed**
 
-According to its [GitHub page](https://github.com/benjamintd/chronotrains), “Closed Stations” and “Assumed Speed” are defined as follows:
+According to its [GitHub page](https://github.com/benjamintd/chronotrains), “closed stations” and “assumed speed” are defined as follows:
 
 **Close stations:** If two stations are close to each other (less than 10 km/6.2 mi apart),  the system will add a connection between them, and that connection is then reflected on the map.&#x20;
 
@@ -139,7 +139,7 @@ According to its [GitHub page](https://github.com/benjamintd/chronotrains), when
 
 [A post from May 2023](https://x.com/jason\_boyer/status/1663822318982889472), shows that certain train connections that should be visible on the map may not appear.  In addition, there is another reason why some train information are missing. Since Chronotrains also uses data from Direkt Bahn Guru, this GitHub page acknowledges that [“The API includes most trains in central Europe, but data availability gets significantly lower the further away stations are from routes (co-) operated by DB.” ](https://gist.github.com/juliuste/f9776a6b7925bc6cc2d52225dd83336e)Also, according to this page, trains from smaller companies are often not included compared to those from state-owned operators, probably because they don't share data as much.
 
-7. **Data From Deutsche Bahn API H**[**as Limits**](https://gist.github.com/juliuste/f9776a6b7925bc6cc2d52225dd83336e)**.**&#x20;
+7. **Data From Deutsche Bahn API Has** [**Limits**](https://gist.github.com/juliuste/f9776a6b7925bc6cc2d52225dd83336e)**.**&#x20;
 
 _**No Single Dataset:**_ Public transport route data in Europe remains fragmented, with no single comprehensive dataset available.
 
