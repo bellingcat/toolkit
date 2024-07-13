@@ -123,7 +123,7 @@ According to its [GitHub page](https://github.com/benjamintd/chronotrains), the 
 
 4. **Adding Connections (“Edges”) Between “Close Stations” Based on Assumed Walking Speed**
 
-According to its [GitHub page](https://github.com/benjamintd/chronotrains), “closed stations” and “Assumed Speed” are defined as follows:
+According to its [GitHub page](https://github.com/benjamintd/chronotrains), “Closed Stations” and “Assumed Speed” are defined as follows:
 
 **Close stations:** If two stations are close to each other (less than 10 km/6.2 mi apart),  the system will add a connection between them, and that connection is then reflected on the map.&#x20;
 
