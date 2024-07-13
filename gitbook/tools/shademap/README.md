@@ -9,7 +9,7 @@ description: >-
 
 ## URL
 
-[shademap.app](https://shademap.app/)
+[https://shademap.app](https://shademap.app)
 
 ## Description
 
@@ -62,10 +62,17 @@ ShadeMap's cumulative analyses of daily sunlight hours, annual sunlight hours an
 * Availability of optimal quality data for the given location, with the option to purchase
 * Graph of annual sunlight & annual energy for the given location across the days and months of the year & time of day
 * Colour map of the given area showing daylight hours in the sun
+
+**Data downloads** are offered for users' generated results, and the developers offer assistance with large data set export. ![](<.gitbook/assets/image-1 (1).png>)
+
+**SUN EXPOSURE VIEW DOWNLOAD MESSAGE**\
+**EXPLAINING THE OUTPUT AND OFFERING ASSISTANCE**
+
+A download file is generated for the current view using the File Download button <img src=".gitbook/assets/GEOtiff download button (2).JPG" alt="" data-size="line"> in [GeoTIFF format.](https://en.wikipedia.org/wiki/GeoTIFF) This output file contains a sun exposure value for units of area across the display, on a scale of 0 to 240. These exposure values can be scaled to minutes of sun exposure by multiplying by a factor of 6.
 {% endtab %}
 
 {% tab title="DATA INPUT OPTIONS" %}
-<figure><img src=".gitbook/assets/DataInputTableShadeMap3.JPG" alt=""><figcaption><p><strong>DATA INPUT OPTIONS FOR SHADE MAP USERS</strong></p></figcaption></figure>
+
 {% endtab %}
 {% endtabs %}
 
@@ -77,7 +84,7 @@ ShadeMap's cumulative analyses of daily sunlight hours, annual sunlight hours an
 
 The shadows displayed by default are estimates gathered through indirect means like crowd sourcing and low resolution data. The default data gives a general idea of shadow distribution and sun direction, but **errors in the data can vary by several meters.**
 
-Premium data is composed of precise measurements collected via LiDAR and photogammetry surveys. This means building layouts, roof, tree and building heights will be **exact to within 30 centimeters**. This is the most accurate shadow modeling data available.
+Premium data is composed of precise measurements collected via LiDAR and photogammetry surveys. This means building layouts, roof, tree and building heights will be **exact to within 30 centimeters**. This is the most accurate shadow modeling data available on this platform.
 
 If this data is available in a given region, an Add Trees button will appear when you zoom into street level. Tree data is purchased by square kilometer and can be accessed for one month.
 
