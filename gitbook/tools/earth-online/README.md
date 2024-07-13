@@ -13,7 +13,7 @@ description: >-
 
 ## Description &#x20;
 
-The European Space Agency's Earth Online is an extensive portal dedicated to providing a wealth of information on ESA's Earth observation activities and datasets. It serves as a comprehensive platform for scientists, researchers, and the general public interested in Earth science and environmental monitoring. Here, users can access up-to-date satellite imagery, data from Earth observation missions, and a range of tools designed to facilitate the analysis and interpretation of environmental data. Earth Online also features news, educational resources, and detailed mission information, making it a crucial resource for anyone looking to understand our planet's dynamics and changes.
+The European Space Agency's Earth Online is a portal dedicated to providing a wealth of information on ESA's Earth observation activities and datasets. It serves as a comprehensive platform for scientists, researchers, and the general public interested in Earth science and environmental monitoring. Users can access up-to-date satellite imagery, data from Earth observation missions, and a range of tools designed to facilitate the analysis and interpretation of environmental data. Earth Online also features news, educational resources, and detailed mission information, making it a useful resource for anyone looking to understand our planet's dynamics and changes.
 
 ### Use Cases for European Space Agency's Earth Online
 
