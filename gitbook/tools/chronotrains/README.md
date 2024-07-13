@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-This tool is a user-friendly platform that helps you visualize train destinations within Europe. If you hover a mouse over a city or a particular train station on the map, Chronotrains then unveils a map where concentric zones radiate outward. This depicts all the destinations reachable by train within your chosen duration.&#x20;
+This tool is a platform that helps you visualize train destinations within Europe. If you hover with your cursor over a city or a particular train station on the map, Chronotrains unveils a map where concentric zones radiate outward. This depicts all the destinations reachable by train within your chosen duration.&#x20;
 
 **Using the Map:**&#x20;
 
