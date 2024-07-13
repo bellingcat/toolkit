@@ -36,10 +36,7 @@ Geolocation can be supported directly where imagery contains shadows which can b
 * the likely plant life which could survive at a given place and season with respect to shade and plant species.
 * the likely condition of man-made materials at a given place and time with respect to the long term interaction of light on different building materials, e.g. bleaching effect.
 
-ShadeMap's cumulative analyses of daily sunlight hours, annual sunlight hours and annual energy values allow for the types of longer term analysis used in environmental monitoring and analysis, e.g. solar panel power potential in a given region. Data downloads are offered for users' generated results, and the developers offer assistance with large data set export.![](.gitbook/assets/image-1.png)
-
-**SUN EXPOSURE VIEW DOWNLOAD MESSAGE**\
-**EXPLAINING THE OUTPUT AND OFFERING ASSISTANCE**
+ShadeMap's cumulative analyses of daily sunlight hours, annual sunlight hours and annual energy values allow for the types of longer term analysis used in environmental monitoring and analysis, e.g. solar panel power potential in a given region. Data downloads are offered for users' generated results, and the developers offer assistance with large data set export (see Data Output section below).
 
 </details>
 
