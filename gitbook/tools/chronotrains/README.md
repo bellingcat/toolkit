@@ -170,9 +170,7 @@ A description and demo for the tool, including an interview with the tool provid
 
 ## Tool provider
 
-Benjamin Tran Dinh, [https://x.com/\_benjamintd](https://x.com/\_benjamintd)
-
-Based in Paris, France, [https://x.com/chronotrains](https://x.com/chronotrains)
+Benjamin Tran Dinh, [https://x.com/\_benjamintd](https://x.com/\_benjamintd), France, [https://x.com/chronotrains](https://x.com/chronotrains)
 
 ## Advertising Trackers
 
