@@ -1,8 +1,8 @@
 ---
 description: >-
   Chronotrains is a free interactive map designed to explore the reach of
-  Europe’s extensive rail network. Enter a starting point and travel time (up to
-  8 hours) to see reachable destinations by train.
+  Europe’s extensive rail network. Enter a starting point and travel time to see
+  reachable destinations by train.
 ---
 
 # Chronotrains
@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-This tool is a platform that helps you visualize train destinations within Europe. If you hover with your cursor over a city or a particular train station on the map, Chronotrains unveils a map where concentric zones radiate outward. This depicts all the destinations reachable by train within your chosen duration.&#x20;
+This tool is a platform that helps you visualize train destinations within Europe. If you hover with your cursor over a city or a particular train station on the map, Chronotrains unveils a map where concentric zones radiate outward. This depicts all the destinations reachable by train within a chosen duration of up to eight hours.&#x20;
 
 **Using the Map:**&#x20;
 
