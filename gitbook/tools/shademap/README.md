@@ -69,7 +69,7 @@ A download file is generated for the current view using the File Download button
 {% endtab %}
 
 {% tab title="DATA INPUT OPTIONS" %}
-
+<figure><img src=".gitbook/assets/DataInputTableShadeMap3 (1).JPG" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
