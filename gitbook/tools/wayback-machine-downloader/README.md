@@ -1,5 +1,5 @@
 ---
-description: A brief one-line description of the tool.
+description: Download an entire website from the Wayback Machine.
 ---
 
 # Wayback Machine Downloader
