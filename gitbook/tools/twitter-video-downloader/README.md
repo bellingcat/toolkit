@@ -1,5 +1,5 @@
 ---
-description: Convert a tweet to a video download link
+description: Convert a tweet containing video to a video download link
 ---
 
 # Twitter Video Downloader
