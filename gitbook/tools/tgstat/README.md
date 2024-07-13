@@ -73,8 +73,7 @@ _Channels rating:_ According to the tool website, the top 100 Telegram channels 
 
 _Groups rating:_ Groups (public and private) are rated according to the most number of participants, by growth, by messages (number of messages in a group in the last 7 days), and by active participants (“MAU’s”- Monthly Active Users - which TGStat describes as “the number of unique users who have written at least one message in a group in the last 30 days”) .  &#x20;
 
-_Posts rating_: Posts are rated by the most number of [views, by shares including through personal messages, by most numbers of comments, by forwards to channels, and by reactions](https://tgstat.ru/en/ratings/posts). \
-
+_Posts rating_: Posts are rated by the most number of [views, by shares including through personal messages, by most numbers of comments, by forwards to channels, and by reactions](https://tgstat.ru/en/ratings/posts).&#x20;
 
 **Comparison:** This tool also solves the problem of visualizing posts reach and its relationship with other user accounts, channels and content. TGstat can pull up a specific channel's analytics and show the relationship between accounts through the “citation” section. This section shows who cites whom.&#x20;
 
