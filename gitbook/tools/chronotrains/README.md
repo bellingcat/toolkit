@@ -180,7 +180,7 @@ Based in Paris, France, [https://x.com/chronotrains](https://x.com/chronotrains)
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat Volunteer Team |
-|                           |
+| Page maintainer |
+| --------------- |
+| Afton           |
+|                 |
