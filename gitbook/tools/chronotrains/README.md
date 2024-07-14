@@ -31,19 +31,26 @@ This tool is a platform that helps you visualize train destinations within Europ
 
 1. _Interactive Map_
 
-_**What it does:**_ The core feature of Chronotrains is it’s interactive map. Users click on any train station on the map to see how far they can travel by train within a certain time frame.&#x20;
-
 **Why it matters:** This visualization helps users quickly understand the reach of train travel from different locations, which can be useful for trip planning and understanding regional connectivity.
 
 2. _Travel Time Visualization_
-
-**What it does:** It shows travel times in different colors on the map, making it easy to see the areas you can reach within 1 hour, 2 hours, and up to 8 hours.&#x20;
 
 **Why it matters:** This feature allows users to easily compare travel times between different locations, helping them make informed decisions.&#x20;
 
 3. _Data integration_
 
 How it works: According to the tool’s [website](https://www.chronotrains.com/en/8), this map integrates data from [Deutsche Bahn](https://www.bahn.de/) through [Direkt Bahn Guru](https://direkt.bahn.guru/).&#x20;
+
+### Possible use cases
+
+While originally used to plan trips, Chronotrains can be repurposed for open-source investigations.&#x20;
+
+This can aid open-source investigations with a time-sensitive location element.&#x20;
+
+It can be used to:
+
+* Potentially verify travel claims: By entering a location and timeframe, investigators can see if a reported train travel aligns with what's realistically possible.
+* Potentially track movement patterns: Analyze potential routes and locations reachable by train within a specific timeframe, helping identify areas a person of interest might have visited.
 
 ### How does it work?&#x20;
 
@@ -68,27 +75,6 @@ For each station, the system checks which other stations you can get to in a cer
 **Deutsche Bahn (DB) Data:** The information about train times and stations comes from Deutsche Bahn. Deutsche Bahn co-operate routes with different countries' rail systems ([https://io.deutschebahn.com/en/services/passenger-rail/](https://io.deutschebahn.com/en/services/passenger-rail/)) and therefore has data on train schedules for [international destinations](https://ibir.deutschebahn.com/2023/fileadmin/downloads/db\_ib23\_e\_web\_01.pdf) (based on 2023 Integrated Report, p.38, p.49).  According to DB International Operations’ website, “DB’s regional services do not only operate in Germany, but also across borders and in other European countries, including the UK, Czech Republic, Denmark, the Netherlands, Poland, and Portugal.”&#x20;
 
 **API by Direkt Bahn Guru:** This data is made easier to access and use through a tool (API) provided by Direkt Bahn Guru, which helps to organize and provide the data in a convenient format.
-
-_Data Processing (Scraping and Pre-computing):_
-
-* Scraping Data: This means Chronotrains is collecting and gathering train data from its source.&#x20;
-* Pre-computing Isochrones: Before you use the map, the system calculates (pre-computes) the travel times and areas you can reach in advance.
-
-_Storing and Displaying Isochrones:_
-
-* GeoJSON: This is a format for encoding geographic data. The isochrones are stored in this format.
-* Served on Hover: When you hover your mouse over a station on the map, it shows the isochrones (areas you can reach within a certain time).
-
-### Possible use cases
-
-While originally used to plan trips, Chronotrains can be repurposed for open-source investigations.&#x20;
-
-This can aid open-source investigations with a time-sensitive location element.&#x20;
-
-It can be used to:
-
-* Potentially verify travel claims: By entering a location and timeframe, investigators can see if a reported train travel aligns with what's realistically possible.
-* Potentially track movement patterns: Analyze potential routes and locations reachable by train within a specific timeframe, helping identify areas a person of interest might have visited.
 
 ## Cost
 
