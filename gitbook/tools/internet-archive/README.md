@@ -97,10 +97,10 @@ Learn more about [How to save pages with the Wayback Machine](https://help.archi
 2. Enter the website URL you want to view an archived version of.&#x20;
 3. After entering the URL, you will be taken to a calendar view. This calendar shows the dates on which the Wayback Machine has website snapshots. Select a year in the timeline above the calendar to narrow down your options.&#x20;
 4. Once you have selected a year, click on a specific date highlighted on the calendar. These highlighted dates indicate that snapshots of the site are available for that day. They may be different colors, but you will usually want to select the blue dots or links, as they indicate successful responses to the capture. The colors you may see and what they mean include:&#x20;
-   * **Blue:** The web server returned a successful response (status code 2nn).
-   * **Green:** The web server redirected the request (status code 3nn).
-   * **Orange:** There was a client error (status code 4nn).
-   * **Red:** There was a server error (status code 5nn).
+   * Blue: The web server returned a successful response (status code 2nn).
+   * Green: The web server redirected the request (status code 3nn).
+   * Orange: There was a client error (status code 4nn).
+   * Red: There was a server error (status code 5nn).
 5. After selecting a date, you can narrow it further by time of day if multiple snapshots are available from the same day. Once you choose, the Wayback Machine will display the archived version of the website as it appeared on that day and time. You can navigate the website as if browsing it on that particular date.
 
 ## Tool provider
