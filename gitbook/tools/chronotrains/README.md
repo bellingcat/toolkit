@@ -15,7 +15,7 @@ description: >-
 
 This tool is a platform that helps you visualize train destinations within Europe. If you hover with your cursor over a city or a particular train station on the map, Chronotrains unveils a map where concentric zones radiate outward. This depicts all the destinations reachable by train within a chosen duration of up to eight hours.&#x20;
 
-<figure><img src=".gitbook/assets/ChronotrainsPreviewEdit-ezgif.com-video-to-gif-converter.gif" alt="" width="563"><figcaption><p>Chronotrains can be used in two primary ways: (1) Users can hover their mouse over a particular location (or starting point) and the map will show all the possible destinations by train. (2) A second way is to click on a specific station and it will show all the results. In this second example, I clicked on the city of Bordeaux, and a range of colors appeared. These correspond to the different travel times, 1 hour (darkest red) up to 8 hours (lightest yellow). Users can also click on the left panel to select the different times they are interested in. As shown here, I selected 1 hour from Bordeaux, followed by 2 hours, etc. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/ChronotrainsPreviewEdit-ezgif.com-video-to-gif-converter.gif" alt="" width="563"><figcaption><p>Chronotrains can be used in two primary ways: (1) Users can hover their mouse over a particular location (or starting point) and the map will show all the possible destinations by train. (2) A second way is to click on a specific station and it will show all the results. In this second example, I clicked on the city of Bordeaux, and a range of colors appeared. These correspond to the different travel times, 1 hour (darkest red) up to 8 hours (lightest yellow). Users can also click on the left panel to select the different times they are interested in. As shown here, I selected 1 hour from Bordeaux, followed by 2 hours, etc. (Image from Chronotrains.com) </p></figcaption></figure>
 
 **Using the Map:**&#x20;
 
@@ -42,6 +42,8 @@ This tool is a platform that helps you visualize train destinations within Europ
 3. _Data integration_
 
 How it works: According to the tool’s [website](https://www.chronotrains.com/en/8), this map integrates data from [Deutsche Bahn](https://www.bahn.de/) through [Direkt Bahn Guru](https://direkt.bahn.guru/).&#x20;
+
+<figure><img src=".gitbook/assets/Chronotrains- SuggestionSample.png" alt=""><figcaption><p>In addition to the interactive map, to the left (or sometimes the bottom, depending on your screen display) you will see further location suggestions. Once you have clicked on your station or city of interest, this feature will appear in addition to the color-coded isochrones on the map. </p></figcaption></figure>
 
 ### Possible use cases
 
