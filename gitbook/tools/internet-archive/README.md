@@ -69,8 +69,8 @@ The Wayback Machine is a powerful tool, but it has some limitations, including:
 Using the Wayback Machine may involve several ethical considerations:
 
 * Accuracy and Context: Archived pages may lack the context in which they were originally presented, potentially leading to misinterpretation or misuse of information.
-* **Consent:** Some websites may not consent to their content being archived. It's important to consider whether the website owner has explicitly requested exclusion from the archive.
-* **Copyright:** [The Internet Archive's Terms of Use, Privacy Policy, and Copyright Policy](https://archive.org/about/terms.php) states: "You agree to abide by all applicable laws and regulations, including intellectual property laws, in connection with your use of the Archive. In particular, you certify that your use of any part of the Archive's Collections will be limited to noninfringing or fair use under copyright law."
+* Consent: Some websites may not consent to their content being archived. It's important to consider whether the website owner has explicitly requested exclusion from the archive.
+* Copyright: [The Internet Archive's Terms of Use, Privacy Policy, and Copyright Policy](https://archive.org/about/terms.php) states: "You agree to abide by all applicable laws and regulations, including intellectual property laws, in connection with your use of the Archive. In particular, you certify that your use of any part of the Archive's Collections will be limited to noninfringing or fair use under copyright law."
 
 ## Guides and articles
 
