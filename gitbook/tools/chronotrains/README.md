@@ -109,7 +109,17 @@ Chronotrains.com includes a caveat [that the travel times are based on estimates
 
 3. **Local Transit Exclusion**
 
-According to its [GitHub page](https://github.com/benjamintd/chronotrains), the map doesn't include local transit options for most cities like buses, bikes, or walking.
+According to the tool provider [here](https://github.com/benjamintd/chronotrains), "Because local transit is not included for most cities, there are no journeys available between different stations that can actually be connected by bus, bike, or on foot."
+
+Tool does not show options involving connections by local transit methods such as buses, bikes, or walking. Specifically, it would not display a journey where:
+
+a. The train stops at point B and does not go directly to point D.&#x20;
+
+b. You could take a bus or bike from point B to point C.&#x20;
+
+c. From point C, you could catch another train to reach point D.&#x20;
+
+These types of multi-modal journeys, which involve switching from a train to a bus or bike and then back to a train, are not included in the dataset.
 
 4. **Adding Connections (“Edges”) Between “Closed Stations” Based on Assumed Walking Speed**
 
