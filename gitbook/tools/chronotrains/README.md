@@ -107,11 +107,11 @@ While Ukraine is marked as available on the map, it may be incomplete. Make sure
 
 Chronotrains.com includes a caveat [that the travel times are based on estimates only provided by Deutsche Bahn data](https://www.chronotrains.com/en/8) (Under FAQs). Actual arrival times may not always match. Therefore it is important to use this platform for estimates.&#x20;
 
-3. **Adding Connections (“Edges”) Between “Closed Stations” Based on Assumed Walking Speed**
+3. **Adding Connections (“Edges”) Between “Closeby Stations” Based on Assumed Walking Speed**
 
-According to its [GitHub page](https://github.com/benjamintd/chronotrains), “closed stations” and “assumed speed” are defined as follows:
+According to its [GitHub page](https://github.com/benjamintd/chronotrains), “closeby stations” and “assumed speed” are defined as follows:
 
-**Close stations:** If two stations are close to each other (less than 10 km/6.2 mi apart),  the system will add a connection between them, and that connection is then reflected on the map.&#x20;
+**Closeby stations:** If two stations are close to each other (less than 10 km/6.2 mi apart),  the system will add a connection between them, and that connection is then reflected on the map.&#x20;
 
 **Assumed speed:** The system also assumes that you can walk/travel between these stations at a speed of 9/km/h (5.59 mph) - which is described as [“faster than walking but slower than biking.”](https://github.com/benjamintd/chronotrains)&#x20;
 
