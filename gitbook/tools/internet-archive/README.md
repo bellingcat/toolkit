@@ -12,7 +12,17 @@ description: >-
 
 ## Description
 
-The Wayback Machine launched in 1996 and contains over 28 years of web history. According to the Internet Archive, the Wayback Machine “contains over 2 petabytes of data compressed, or 150+ billion web captures, including content from every top-level domain, 200+ million web sites, and over 40 languages.”
+The Wayback Machine launched in 1996 and contains over 28 years of web history. According to the [Internet Archive](https://archive.org/projects/), the Wayback Machine “contains over 2 petabytes of data compressed, or 150+ billion web captures, including content from every top-level domain, 200+ million web sites, and over 40 languages.”
+
+For example, here is how amazon.com looked in 1999 versus 2024:
+
+<figure><img src=".gitbook/assets/Screen Shot 2024-07-14 at 9.39.48 PM.png" alt="amazon.com in 1999" width="563"><figcaption><p>amazon.com in 1999</p></figcaption></figure>
+
+<div data-full-width="false">
+
+<figure><img src=".gitbook/assets/Screen Shot 2024-07-14 at 9.41.30 PM.png" alt="amazon.com in 2024" width="563"><figcaption><p>amazon.com in 2024</p></figcaption></figure>
+
+</div>
 
 Besides accessing the Wayback Machine via the Internet Archive website, it is also available via:
 
@@ -51,7 +61,7 @@ The Wayback Machine is a powerful tool, but it has some limitations, including:
 
 * Incomplete Archives: Not all websites or web pages are archived, and some might have gaps in the timeline.&#x20;
 * Dynamic Content: Interactive elements, dynamic content, and multimedia (such as videos and animations) may not be fully captured or functional.&#x20;
-* Legal Restrictions: Some websites may block archiving or request the removal of their archived content, limiting access.&#x20;
+* Legal Restrictions: Some websites may block archiving or request the removal of their archived content, limiting access. [Learn more about requests to remove content from the Wayback machine here](https://help.archive.org/help/how-do-i-request-to-remove-something-from-archive-org/).
 * Loading Issues: Archived pages can load slowly, and some resources (like images or scripts) might be missing.
 
 ## Ethical Considerations
@@ -85,8 +95,12 @@ Learn more about [How to save pages with the Wayback Machine](https://help.archi
 
 1. Go to the Wayback Machine website at [https://web.archive.org/](https://web.archive.org/).
 2. Enter the website URL you want to view an archived version of.&#x20;
-3. After entering the URL, you will be taken to a calendar view. This calendar shows the dates on which the Wayback Machine has website snapshots. Select a year in the timeline above the calendar to narrow down your options.
-4. Once you have selected a year, click on a specific date highlighted on the calendar. These highlighted dates indicate that snapshots of the site are available for that day.
+3. After entering the URL, you will be taken to a calendar view. This calendar shows the dates on which the Wayback Machine has website snapshots. Select a year in the timeline above the calendar to narrow down your options.&#x20;
+4. Once you have selected a year, click on a specific date highlighted on the calendar. These highlighted dates indicate that snapshots of the site are available for that day. They may be different colors, but you will usually want to select the blue dots or links, as they indicate successful responses to the capture. The colors you may see and what they mean include:&#x20;
+   * **Blue:** The web server returned a successful response (status code 2nn).
+   * **Green:** The web server redirected the request (status code 3nn).
+   * **Orange:** There was a client error (status code 4nn).
+   * **Red:** There was a server error (status code 5nn).
 5. After selecting a date, you can narrow it further by time of day if multiple snapshots are available from the same day. Once you choose, the Wayback Machine will display the archived version of the website as it appeared on that day and time. You can navigate the website as if browsing it on that particular date.
 
 ## Tool provider
