@@ -157,7 +157,7 @@ Chronotrains is best used in conjunction with other tools and other sources of i
 
 **Transparency and Disclosure:**&#x20;
 
-As mentioned above, Chronotrains uses data based on pre-scheduled train times and not real-time tracking. It includes this caveat under its FAQs section. As mentioned under the “Limitations” section, data are based on the user’s assumed walking speed and assumed duration for changing between trains. These variables can modify the estimates that the map shows. It is, therefore, important to disclose these limitations when using it as a tool for your investigations.&#x20;
+As mentioned above, Chronotrains uses data based on pre-scheduled train times and not real-time tracking. It includes this caveat under its [FAQs](https://www.chronotrains.com/en) section. As mentioned under the “Limitations” section, data are based on the user’s assumed walking speed and assumed duration for changing between trains. These variables can modify the estimates that the map shows. It is, therefore, important to disclose these limitations when using it as a tool for your investigations.&#x20;
 
 **Accuracy:**
 
