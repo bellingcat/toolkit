@@ -121,7 +121,7 @@ It is important to note that this speed can be variable from person to person an
 
 The tool does not show options involving connections by local transit methods such as buses, bikes, or walking. The tool provider offers on the tool's [Github page](https://github.com/benjamintd/chronotrains) the following explanation: "Because local transit is not included for most cities, there are no journeys available between different stations that can actually be connected by bus, bike, or on foot."
 
-Specifically, as mentioned above, _if two locations are more than 10 km/6.2 mi apart_, it will not display a journey/connection. For instance, if a user wants to go from Point B to Point D:
+Specifically, as mentioned above, _if two locations are more than 10 km/6.2 mi apart_, it will not display a journey/connection. For instance, if a user wants to go from point A to point D:
 
 a. The train stops at point B and does not go directly to point D.&#x20;
 
@@ -139,7 +139,7 @@ According to its [GitHub page](https://github.com/benjamintd/chronotrains), when
 
 6. **Some Trains May Be Not Be Reflected on the Map**&#x20;
 
-[A post from May 2023](https://x.com/jason\_boyer/status/1663822318982889472), shows that certain train connections that should be visible on the map may not appear.  In addition, there is another reason why some train information are missing. Since Chronotrains also uses data from Direkt Bahn Guru, this GitHub page acknowledges that [“The API includes most trains in central Europe, but data availability gets significantly lower the further away stations are from routes (co-) operated by DB.” ](https://gist.github.com/juliuste/f9776a6b7925bc6cc2d52225dd83336e)Also, according to this page, trains from smaller companies are often not included compared to those from state-owned operators, probably because they don't share data as much.
+[A post from May 2023](https://x.com/jason\_boyer/status/1663822318982889472), shows that certain train connections that should be visible on the map may not appear (to date, the issue described in the post does not seem to occur anymore at that specific location). In addition, there is another reason why some train information are missing. Since Chronotrains also uses data from Direkt Bahn Guru, this GitHub page acknowledges that: [“The API includes most trains in central Europe, but data availability gets significantly lower the further away stations are from routes (co-) operated by DB.” ](https://gist.github.com/juliuste/f9776a6b7925bc6cc2d52225dd83336e)Also, according to this page, trains from smaller companies are often not included compared to those from state-owned operators, probably because they don't share data as much.
 
 7. **Data From Deutsche Bahn API Has** [**Limits**](https://gist.github.com/juliuste/f9776a6b7925bc6cc2d52225dd83336e)**.**&#x20;
 
