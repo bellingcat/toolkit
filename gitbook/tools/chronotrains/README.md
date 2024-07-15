@@ -72,13 +72,13 @@ Think of a graph like a map, but instead of just showing locations, it also show
 
 _2. Exploring the Graph:_
 
-For each station, the system checks which other stations you can get to in a certain amount of time. For example, it might check which stations you can reach from Station A in 1 hour, 2 hours, etc.&#x20;
+For each station, the system checks to which other stations you can get in a certain amount of time. For example, it might check which stations you can reach from Station A in 1 hour, 2 hours, etc.&#x20;
 
 **Data Source:**
 
-**Deutsche Bahn (DB) Data:** The information about train times and stations comes from Deutsche Bahn. Deutsche Bahn co-operate routes with different countries' rail systems ([https://io.deutschebahn.com/en/services/passenger-rail/](https://io.deutschebahn.com/en/services/passenger-rail/)) and therefore has data on train schedules for [international destinations](https://ibir.deutschebahn.com/2023/fileadmin/downloads/db\_ib23\_e\_web\_01.pdf) (based on 2023 Integrated Report, p.38, p.49).  According to DB International Operations’ website, “DB’s regional services do not only operate in Germany, but also across borders and in other European countries, including the UK, Czech Republic, Denmark, the Netherlands, Poland, and Portugal.”&#x20;
+**Deutsche Bahn (DB) Data:** The information about train times and stations comes from Deutsche Bahn. Deutsche Bahn co-operates routes with different countries' rail systems ([https://io.deutschebahn.com/en/services/passenger-rail/](https://io.deutschebahn.com/en/services/passenger-rail/)) and therefore has data on train schedules for [international destinations](https://ibir.deutschebahn.com/2023/fileadmin/downloads/db\_ib23\_e\_web\_01.pdf) (based on 2023 Integrated Report, p.38, p.49).  According to DB International Operations’ website, “DB’s regional services do not only operate in Germany, but also across borders and in other European countries, including the UK, Czech Republic, Denmark, the Netherlands, Poland, and Portugal.”&#x20;
 
-**API by Direkt Bahn Guru:** This data is made easier to access and use through a tool (API) provided by Direkt Bahn Guru, which helps to organize and provide the data in a convenient format.
+**API by Direkt Bahn Guru:** This data is made easier to access and use through a tool (API) provided by [Direkt Bahn Guru](https://direkt.bahn.guru/), which helps organize and provide the data in a convenient format.
 
 ## Cost
 
