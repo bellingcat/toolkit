@@ -28,6 +28,7 @@
 | [**DiscordLeaks**](https://discordleaks.unicornriot.ninja/discord/server/) | Search hundreds of thousands of messages leaked from 180+ white-supremacist / nazi discord servers, by UnicornRiot | <mark style="background-color:green;">Free</mark> |  |
 | [**Have I Been Pwned?**](https://haveibeenpwned.com/) | Does an email or a phone number appear in data breaches? | <mark style="background-color:green;">Free</mark> | [Details](../tools/have-i-been-pwned/README.md) |
 | [**Hitta.se**](https://www.hitta.se/) | Mapping service for Sweden | <mark style="background-color:green;">Free</mark> | [Details](../tools/hitta.se/README.md) |
+| [**Intelx.io**](http://intelx.io/) | Find user details in data breaches | <mark style="background-color:orange;">Partially Free</mark> | [Details](../tools/intelx.io/README.md) |
 | [**Maltego**](https://www.maltego.com/) | Maltego is both a search tool and a visualization tool. It can search for information and connect the pieces to show you how they are related. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../tools/maltego/README.md) |
 | [**Name Variant Search**](https://bellingcat.github.io/name-variant-search/) | Simple tool to help search for different ways of writing a name. |  | [Details](../tools/name-variant-search/README.md) |
 | [**Sherlock**](https://github.com/sherlock-project/sherlock) | Check usernames across more than 400 websites and social networks. | <mark style="background-color:green;">Free</mark> | [Details](../tools/sherlock/README.md) |
