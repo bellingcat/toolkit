@@ -6,7 +6,7 @@ description: A brief one line description of this tool
 
 ## URL
 
-https://example.com
+[https://projects.propublica.org/527-explorer/](https://projects.propublica.org/527-explorer/)
 
 ## Description
 
@@ -17,8 +17,6 @@ https://example.com
 * [x] Free
 * [ ] Partially Free
 * [ ] Paid
-
-\[\[Pricing or subscription information, if relevant.]]
 
 ## Level of difficulty
 
@@ -50,8 +48,7 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
+|                           |
