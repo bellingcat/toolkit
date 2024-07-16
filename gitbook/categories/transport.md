@@ -13,7 +13,6 @@
 | [**SARfish**]() | Github - SAR ship detection, by @MJ\_Cruickshank | <mark style="background-color:green;">Free</mark> | ⛵  |
 | [**ShipSpotting.com**](http://shipspotting.com/) | Community website for uploading pictures & details of vessels spotted around the world. | <mark style="background-color:green;">Free</mark> | ⛵  |
 | [**WikiRoutes**](http://wikiroutes.info/) | Public transport database. | <mark style="background-color:green;">Free</mark> | 🚂  |
-| [**Winward**](https://www.wnwd.com/) | Platform which combines maritime-related data. | <mark style="background-color:red;">Paid</mark> | ⛵  |
 | [**ADS-B Exchange**](https://globe.adsbexchange.com/) | Live flight tracker (including many miltiary aircraft). Live data available for the past month. Historical data available for purchase by request. | <mark style="background-color:green;">Free</mark> | ✈️ [A Beginner's Guide To Flight Tracking](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) |
 | [**Airfleets**](http://airfleets.net/home) | Database for aircraft details. | <mark style="background-color:green;">Free</mark> | ✈️  |
 | [**Airframes**](http://www.airframes.org/) | A database of aircraft details | <mark style="background-color:green;">Free</mark> | ✈️  |
@@ -34,3 +33,4 @@
 | [**Trains**]() | Full interactive maps of various railway networks in European countries. | <mark style="background-color:green;">Free</mark> | 🚂  |
 | [**Transit Visualisation**](https://mobility.portal.geops.io/?baselayers=geops.travic,ch.sbb.netzkarte,ch.sbb.netzkarte.dark\&lang=en\&layers=strassennamen,haltekanten,haltestellen,pois,p%C3%A4rke,geops.travic.live\&x=810000\&y=5900000\&z=5.5) | (public) transit routes visualized - near global | <mark style="background-color:green;">Free</mark> | 🚂  |
 | [**VesselFinder**](http://vesselfinder.com/) | Live marine vessel tracker. | <mark style="background-color:green;">Free</mark> | ⛵  |
+| [**Winward**](https://www.wnwd.com/) | Platform which combines maritime-related data. | <mark style="background-color:red;">Paid</mark> | ⛵  |
