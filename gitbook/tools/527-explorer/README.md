@@ -36,7 +36,9 @@ description: A brief one line description of this tool
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+ProPublica: [How to Use ProPublica's 527 Explorer](https://www.youtube.com/watch?v=AOeMZUjVxtU), Youtube, July 2024.
+
+Ellis Simani: [How a Network of Nonprofits Enriches Fundraisers While Spending Almost Nothing on Its Stated Causes](https://www.propublica.org/article/political-nonprofits-fundraising-ftc-irs-527s-pacs?), ProPublica, June 18, 2024.
 
 ## Tool provider
 
