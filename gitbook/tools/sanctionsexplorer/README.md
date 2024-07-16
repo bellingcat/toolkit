@@ -1,12 +1,12 @@
 ---
-description: A brief one-line description of the tool.
+description: Database of OFAC/UN/EU sanctions
 ---
 
 # SanctionsExplorer
 
 ## URL
 
-https://example.com
+https://sanctionsexplorer.org/
 
 ## Description
 
