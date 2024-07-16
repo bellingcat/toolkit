@@ -5,6 +5,8 @@
 
 ## ⚒️ Categories
 
+* [Archiving](categories/archiving.md)
+* [Data Visualization](categories/data-visualization.md)
 * [Social Media](categories/social-media/README.md)
   * [Discord](categories/social-media/discord.md)
   * [Facebook](categories/social-media/facebook.md)
@@ -38,8 +40,6 @@
 * [Guides & Handbooks](resources/guides-and-handbooks.md)
 * [International](resources/international.md)
 * [Stay Safe](resources/stay-safe.md)
-* [Archiving](resources/archiving.md)
-* [Data Visualization](resources/data-visualization.md)
 * [Education](resources/education.md)
 * [Miscellaneous](resources/miscellaneous.md)
 
