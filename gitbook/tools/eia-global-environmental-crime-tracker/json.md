@@ -7,11 +7,7 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Ivory trade (EIA)",
-  "url": "https://eia-international.org/wildlife/wildlife-trade-maps/illegal-trade-seizures-elephant-ivory-in-europe/",
-  "description": "Ivory trade in Asia & Europe, mapped",
-  "cost": "Free",
-  "details": "🐘",
+  "details": "🐘, 🐯",
   "tags": [
     "environment-and-wildlife"
   ]

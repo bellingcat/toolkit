@@ -1,12 +1,12 @@
 ---
-description: Captive tiger facilities implicated in trade, mapped.
+description: Map/tracking of environmental crimes including trade in ivory, rhino, big cats, pangolins, and totoaba.
 ---
 
-# Captive Tiger Facilities (EIA)
+# EIA Global Environmental Crime tracker
 
 ## URL
 
-https://eia-international.org/wildlife/wildlife-trade-maps/illegal-trade-seizures-captive-tiger-trade/
+https://eia-international.org/global-environmental-crime-tracker/
 
 ## Description
 
