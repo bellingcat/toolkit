@@ -7,7 +7,7 @@ description: >-
 
 # Yandex Maps
 
-URL
+## URL
 
 [https://yandex.com/maps/](https://yandex.com/maps/)
 
@@ -113,7 +113,7 @@ VIEW FIVE: Map Background Selection: Map/Satellite/Hybrid (squares icon):
 
 <figure><img src=".gitbook/assets/YandexBackgroundMenuSelect (2).JPG" alt="" width="375"><figcaption><p>USING THE TABS TO SELECT ONE OF THREE BACKGROUND VIEWS: MAP, SATELLITE OR HYBRID</p></figcaption></figure>
 
- 
+
 
 <figure><img src=".gitbook/assets/YandexToolbarandMenu.JPG" alt="" width="563"><figcaption><p>FIVE FEATURE TOOLBAR SCREEN TOP RIGHT AND THREE DOTS MENU WITH USER ACTIONS</p></figcaption></figure>
 
