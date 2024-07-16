@@ -6,7 +6,7 @@ description: Mapping service for South Korea
 
 ## URL
 
-[https://kakao.com](https://kakao.com)
+[https://map.kakao.com](https://map.kakao.com)
 
 ## Description
 
