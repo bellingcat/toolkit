@@ -7,8 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "url": "https://www.maltego.com/",
-  "description": "Maltego is both a search tool and a visualization tool. It can search for information and connect the pieces to show you how they are related.",
   "tags": [
     "data visualization",
     "social-media",
