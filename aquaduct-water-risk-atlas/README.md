@@ -2,7 +2,7 @@
 description: Water and drought risks mapped, globally.
 ---
 
-# Aquaduct (Water Risks)
+# Aquaduct Water Risk Atlas
 
 ## URL
 
