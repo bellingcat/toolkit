@@ -7,9 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "draft": true,
-  "name": "KakaoMap",
-  "description": "A brief one-line description of the tool.",
   "tags": []
 }
 ```

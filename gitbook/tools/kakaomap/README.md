@@ -1,5 +1,5 @@
 ---
-description: A brief one-line description of the tool.
+description: Mapping service for South Korea
 ---
 
 # KakaoMap
