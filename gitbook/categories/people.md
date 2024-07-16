@@ -9,7 +9,6 @@
 | [**Epieos**](https://tools.epieos.com/holehe.php) | Checks where an email has been used. Based on Holehe. | <mark style="background-color:red;">Paid</mark> | 📧 Registration required |
 | [**FastPeopleSearch**](http://fastpeoplesearch.com/) | Mostly good for US. | <mark style="background-color:green;">Free</mark> | 📞🗣️ mostly United States |
 | [**GetContact**](https://www.getcontact.com/en/) | Phonenumber ID app - draws from crowdsourced contactbooks | <mark style="background-color:green;">Free</mark> | 📞 Do not give permission to your actual contact lists. |
-| [**Hitta**](https://www.hitta.se/) | Look up phone numbers/names (Sweden) | <mark style="background-color:green;">Free</mark> | 📞🗣️ Sweden |
 | [**MenoM3ay**](https://play.google.com/store/apps/details?id=com.okdme.menoma3ay\&hl=en\_CA\&gl=US) | Caller ID service (mobile app) | <mark style="background-color:green;">Free</mark> | 📞 mostly Arab-speaking world |
 | [**Namecheck**](http://namechk.com/) | Username and domain check website. Easy to see on which platforms a single username has been used. Many mismatches. | <mark style="background-color:green;">Free</mark> | 🗣️  |
 | [**Netherlands Name Register**](https://www.meertens.knaw.nl/nvb/naam/is/Giancarlo) | Find out how common a name is in the Netherlands based on census data | <mark style="background-color:green;">Free</mark> | 🗣️ The Netherlands |

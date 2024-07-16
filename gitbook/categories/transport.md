@@ -7,7 +7,6 @@
 | [**Carnet.AI**](http://carnet.ai/) | "API which is capable of recognizing the Make, Model and Generation of most cars built since 1995, with 97+% accuracy." | <mark style="background-color:green;">Free</mark> | 🚗  |
 | [**Federal Aviation Administration**](http://registry.faa.gov/aircraftinquiry/NNum\_inquiry.aspx) | Nationwide Plane Registry. Search by N-Number (a.k.a. callsign). Comprehensive list of privately owned planes in the US. | <mark style="background-color:green;">Free</mark> | ✈️  |
 | [**Flightradar24**](http://flightradar24.com/) | Tracking (civilian) flights. $ to go back in 12-month archive. | <mark style="background-color:green;">Free</mark> | ✈️  |
-| [**Global Fishing Watch**](http://globalfishingwatch.org/map) | No account needed. Identification of “dark vessels”, and includes Indonesian VMS layer. | <mark style="background-color:green;">Free</mark> | ⛵  |
 | [**IMO Registry**](http://webaccounts.imo.org/) | Ship/shipping-related information from the IMO | <mark style="background-color:green;">Free</mark> | ⛵  |
 | [**Icarus Flights**](https://app.icarus.flights/) | Flight tracking platform with 2 years free historical data; highly customizable search parameters | <mark style="background-color:green;">Free</mark> | ✈️  |
 | [**Illegal, unreported, unregular fishing Vessels List**](https://iuu-vessels.org/Home/Search) | A combined list of known illegal, unreported, unregular fishing vessels | <mark style="background-color:green;">Free</mark> | ⛵  |
