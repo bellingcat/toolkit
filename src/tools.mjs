@@ -52,7 +52,7 @@ function toolToSummary(tool) {
   return template.replace("Tool Name", `${title}`);
 }
 function publishTool(name) {
-  const slug = name.replace(/\s/g, '-').toLowerCase();
+  const slug = slugify(name);
 
   // process README.md in the tool directory
   const filepath = path.join('gitbook', 'tools', slug);
@@ -85,10 +85,13 @@ function publishTool(name) {
   delete json.draft;
   fs.writeFileSync(tool.jsonFilePath, toolToJson(json));
 }
+function slugify(toolName) {
+  return name.replace(/\s/g, '-').replace(',','').toLowerCase();
+}
 function createTool(tool, opts={}) {
   const { name, tags } = tool;
   debug('Creating tool', name);
-  const slug = name.replace(/\s/g, '-').toLowerCase();
+  const slug = slugify(name);
   const pathname = `gitbook/tools/${slug}`;
   const json = { draft: true, tags: [] };
 
