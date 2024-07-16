@@ -8,9 +8,6 @@
 | [**Global Palm Oil Map**](https://developers.google.com/earth-engine/datasets/catalog/BIOPAMA\_GlobalOilPalm\_v1) | Global map of Palm Oil plantations, 2019 (small holders & industrial) | <mark style="background-color:green;">Free</mark> | 🌳 |
 | [**Open Water Oil Spill Identification**](https://response.restoration.noaa.gov/sites/default/files/OWJA\_2016.pdf) | PDF of US dep of Commerce to assess color/appearance and structure/distribution of oil spilled on the water. | <mark style="background-color:green;">Free</mark> | 🛢️ |
 | [**Pangolin trade (EIA)**](https://eia-international.org/wildlife/wildlife-trade-maps/illegal-trade-seizures-pangolins/) | Pangolin seizures globally, mapped. | <mark style="background-color:green;">Free</mark> | 🛃 |
-| [**Rhino Courtcases (Oxpeckers)**](https://oxpeckers.org/rhinocourtcasesmap/) | Courtcases in Southern Africa related to Rhino poaching, mapped | <mark style="background-color:green;">Free</mark> | 🦏 |
-| [**River Runner Global**](https://river-runner-global.samlearner.com/) | Calculate which water stream a drop of rain will follow | <mark style="background-color:green;">Free</mark> | 💧 |
-| [**Satellite Detected Gas Flaring**](https://viirs.skytruth.org/apps/heatmap/flaringmap.html#lat=52.33314\&lon=6.46027\&zoom=7\&offset=27) |  | <mark style="background-color:green;">Free</mark> | 🔥 |
 | [**Tiger Trade (EIA)**](https://tomaszjohnson.carto.com/builder/72829b4c-b009-4e4a-8001-148ca848dcd7/embed?state=%7B%22map%22%3A%7B%22ne%22%3A%5B0.9667509997666425%2C2.3730468750000004%5D%2C%22sw%22%3A%5B64.20637724320852%2C164.79492187500003%5D%2C%22center%22%3A%5B39.232253141714914%2C83.58398437500001%5D%2C%22zoom%22%3A4%7D%7D) | Trade in tiger (parts) mapped | <mark style="background-color:green;">Free</mark> | 🐯 |
 | [**Unitar Disaster & Damage Assessment**]() | Unitar satellite imagery & maps of floodings, fires, conflict & internally displaced persons | <mark style="background-color:green;">Free</mark> | 🔥 |
 | [**WildEye Asia (Oxpeckers)**]() | Seizures, arrests, court cases and convinctions related to illegal wildlife trade, in Africa and Asia Pacific, mapped | <mark style="background-color:green;">Free</mark> | 🛃 |
@@ -38,3 +35,6 @@
 | [**Movebank**]() | Platform for animal tracking data. | <mark style="background-color:green;">Free</mark> |  |
 | [**Poach Tracker (Oxpeckers)**](https://oxpeckers.org/poach-tracker-map/) | Rhino death's across Southern Africa, mapped. | <mark style="background-color:green;">Free</mark> | 🦏 |
 | [**Pulse GHGsat**](https://pulse.ghgsat.com/) | Global Methane Concentration per week | <mark style="background-color:green;">Free</mark> |  |
+| [**Rhino Courtcases (Oxpeckers)**](https://oxpeckers.org/rhinocourtcasesmap/) | Courtcases in Southern Africa related to Rhino poaching, mapped | <mark style="background-color:green;">Free</mark> | 🦏 |
+| [**River Runner Global**](https://river-runner-global.samlearner.com/) | Calculate which water stream a drop of rain will follow | <mark style="background-color:green;">Free</mark> | 💧 |
+| [**Satellite Detected Gas Flaring**](https://viirs.skytruth.org/apps/heatmap/flaringmap.html#lat=52.33314\&lon=6.46027\&zoom=7\&offset=27) |  | <mark style="background-color:green;">Free</mark> | 🔥 |
