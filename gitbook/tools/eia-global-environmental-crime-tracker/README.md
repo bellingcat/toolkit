@@ -1,5 +1,5 @@
 ---
-description: Map/tracking of environmental crimes including trade in ivory, rhino, big cats, pangolins, and totoaba.
+description: Map/tracking of environmental crimes including trade in ivory, rhino, big cats, and other exotic animals.
 ---
 
 # EIA Global Environmental Crime tracker

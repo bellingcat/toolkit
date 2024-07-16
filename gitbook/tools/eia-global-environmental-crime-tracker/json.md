@@ -7,7 +7,7 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "details": "🐘, 🐯",
+  "details": "🐘, 🐯, 🐦",
   "tags": [
     "environment-and-wildlife"
   ]
