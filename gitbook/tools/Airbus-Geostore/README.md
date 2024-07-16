@@ -14,9 +14,9 @@ http://intelligence-airbusds.com/geostore
 
 ## Cost
 
-* [x] Free
+* [ ] Free
 * [ ] Partially Free
-* [ ] Paid
+* [x] Paid
 
 \[\[Pricing or subscription information, if relevant.]]
 

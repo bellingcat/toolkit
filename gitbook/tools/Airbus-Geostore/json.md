@@ -7,10 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Airbus Geostore",
-  "url": "http://intelligence-airbusds.com/geostore",
-  "description": "Platform to get a preview of their imagery and order images.",
-  "cost": "Paid",
   "tags": [
     "maps-and-satellites",
     "satellite-imagery"
