@@ -7,9 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "China Judgements Online",
-  "url": "https://wenshu.court.gov.cn/",
-  "description": "Judgements given out by Chinese regional courts",
   "details": "Other, China",
   "tags": [
     "companies-and-finance",
