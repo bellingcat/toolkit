@@ -42,7 +42,7 @@ Ellis Simani: [How a Network of Nonprofits Enriches Fundraisers While Spending A
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+[ProPublica](https://www.propublica.org/about/), US.
 
 ## Advertising Trackers
 
