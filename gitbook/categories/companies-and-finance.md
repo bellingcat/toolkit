@@ -17,8 +17,6 @@
 | [**Seychelles Registry**](http://www.registry.gov.sc/BizRegistration/WebSearchBusiness.aspx) | Check if a company is registered in the Seychelles. Limited information available. | <mark style="background-color:green;">Free</mark> | Registry, Seychelles |
 | [**South Africa Registry**](http://www.cipc.co.za/za/) | Search for companies in South Africa. Database is searchable by company name and company registration number. One can also search by individual director, but director searches require an individual's ID number. | <mark style="background-color:green;">Free</mark> | Registry, South Africa |
 | [**Spain Registry**](https://librebor.me/) | Spanish business registry | <mark style="background-color:red;">Paid</mark> | Registry, Spain |
-| [**Zefix**](http://zefix.ch/en/search/entity/welcome) | Search companies and individuals in Switzerland. | <mark style="background-color:green;">Free</mark> | Registry, Switzerland |
-| [**Zimbabwe Registry**](https://zimeservices.pfms.gov.zw/irj/portal/anonymous) | Search for companies in Zimbabwe. Database requires you to register with a foreign passport number. Information is not necessarily up-to-date as records are still being digitised. | <mark style="background-color:green;">Free</mark> | Registry, Zimbabwe |
 | [**aziende.it**](http://aziende.it/) | Offers pretty much the same service reportaziende.it does. Once again valid way to validate data and information gathered. | <mark style="background-color:green;">Free</mark> | Other, Italy |
 | [**bipa.na search**](http://www.bipa.na/search/) | Search if a company is registered in Namibia | <mark style="background-color:red;">Paid</mark> | Registry, Namibia |
 | [**BlockExplorer**](https://blockexplorer.com/) | Following a bitcoin trail or following a bitcoin account? | <mark style="background-color:green;">Free</mark> | Crypto, Global |
@@ -47,3 +45,5 @@
 | [**Qixin**]() | Similar to QCC | <mark style="background-color:green;">Free</mark> | Other, China |
 | [**SanctionsExplorer**](https://sanctionsexplorer.org/) | Database of OFAC/UN/EU sanctions | <mark style="background-color:green;">Free</mark> |  |
 | [**Societe**](http://societe.com/) | Search companies and individuals in France. | <mark style="background-color:green;">Free</mark> | Registry, France |
+| [**Zefix**](http://zefix.ch/en/search/entity/welcome) | Search companies and individuals in Switzerland. | <mark style="background-color:green;">Free</mark> | Registry, Switzerland |
+| [**Zimbabwe Registry**](https://zimeservices.pfms.gov.zw/irj/portal/anonymous) | Search for companies in Zimbabwe. Database requires you to register with a foreign passport number. Information is not necessarily up-to-date as records are still being digitised. | <mark style="background-color:green;">Free</mark> | Registry, Zimbabwe |
