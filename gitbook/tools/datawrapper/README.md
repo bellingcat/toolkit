@@ -1,12 +1,12 @@
 ---
-description: A brief one-line description of the tool.
+description: Easy-to-use chart and mapping tool
 ---
 
 # Datawrapper
 
 ## URL
 
-https://example.com
+https://www.datawrapper.de/
 
 ## Description
 

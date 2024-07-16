@@ -1,12 +1,12 @@
 ---
-description: A brief one-line description of the tool.
+description: Platform for creating visual timelines
 ---
 
 # Time.Graphics
 
 ## URL
 
-https://example.com
+[https://time.graphics/editor](https://time.graphics/editor)
 
 ## Description
 
