@@ -2,12 +2,12 @@
 
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
-| [**Carte.ma**](http://carte.ma/) | Mapping/streetview service for Morocco | <mark style="background-color:green;">Free</mark> |  |
-| [**Geograph**](http://geograph.org/) | Georeferenced images. | <mark style="background-color:green;">Free</mark> |  |
 | [**Baidu Maps**](http://map.baidu.com/) | Baidu’s mapping service offering satellite imagery, street maps, and streetview (“Panorama” - zh:百度全景). | <mark style="background-color:green;">Free</mark> | [Details](../../tools/baidu-maps/README.md) |
 | [**Bing Maps**](https://www.bing.com/maps/) | Bing Maps is a web mapping service provided by Microsoft that offers detailed geographical information and tools for route planning, location search, and satellite imagery. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/bing-maps/README.md) |
+| [**Carte.ma**](http://carte.ma/) | Mapping/streetview service for Morocco | <mark style="background-color:green;">Free</mark> |  |
 | [**Deckhair TV**](https://tv.deckchair.com/) | Open webcams from hotels (??); some of them are strategically located | <mark style="background-color:green;">Free</mark> |  |
 | [**Echosec**](https://www.echosec.net/) | Aggregated location-based searches on Twitter, VK, Foursquare. | <mark style="background-color:red;">Paid</mark> |  |
+| [**Geograph**](http://geograph.org/) | Georeferenced images. | <mark style="background-color:green;">Free</mark> |  |
 | [**GeoHints**](https://geohints.com/) | GeoHints is a website that provides information about things like traffic lights, utility poles, bollards etc. for different regions of the world to help geolocate a location. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/geohints/README.md) |
 | [**Google Earth Pro**](https://www.google.com/earth/about/versions/) | Google Earth is a geospatial tool that provides detailed, global satellite imagery, maps, 3D terrain models, and the ability to explore geographic data interactively. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/google-earth-pro/README.md) |
 | [**Google Maps**](https://www.google.com/maps) | Google Maps provides mapping information, satellite imagery and Google Street View imagery including historical Street View images. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/google-maps/README.md) |
