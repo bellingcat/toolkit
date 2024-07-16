@@ -24,7 +24,7 @@ description: A brief one line description of this tool
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+\-
 
 ## Limitations
 
