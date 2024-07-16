@@ -6,11 +6,7 @@
 | [**Epieos**](https://tools.epieos.com/holehe.php) | Checks where an email has been used. Based on Holehe. | <mark style="background-color:red;">Paid</mark> | 📧 Registration required |
 | [**FastPeopleSearch**](http://fastpeoplesearch.com/) | Mostly good for US. | <mark style="background-color:green;">Free</mark> | 📞🗣️ mostly United States |
 | [**MenoM3ay**](https://play.google.com/store/apps/details?id=com.okdme.menoma3ay\&hl=en\_CA\&gl=US) | Caller ID service (mobile app) | <mark style="background-color:green;">Free</mark> | 📞 mostly Arab-speaking world |
-| [**Namecheck**](http://namechk.com/) | Username and domain check website. Easy to see on which platforms a single username has been used. Many mismatches. | <mark style="background-color:green;">Free</mark> | 🗣️  |
-| [**Netherlands Name Register**](https://www.meertens.knaw.nl/nvb/naam/is/Giancarlo) | Find out how common a name is in the Netherlands based on census data | <mark style="background-color:green;">Free</mark> | 🗣️ The Netherlands |
-| [**NigeriaPhonebook**](https://nigeriaphonebook.com/) | Look up by name, state, and phone number. Last names are partially censored for free accounts. | <mark style="background-color:green;">Free</mark> | 📞🗣️ Nigeria |
 | [**Person Lookup**](https://personlookup.co.za/) | find individuals, phonenumbers, and adresses | <mark style="background-color:green;">Free</mark> | 📞🗣️ South Africa |
-| [**Pipl**](http://pipl.com/) | Identity information for professionals | <mark style="background-color:red;">Paid</mark> | 📞🗣️📧  |
 | [**Rasit**](https://www.ratsit.se/) | Look up phone numbers/names (Sweden) | <mark style="background-color:green;">Free</mark> | 📞🗣️ Sweden |
 | [**Search Systems**](https://publicrecords.searchsystems.net/) | Finding public record information online in over 70,000 databases organized by type and location to help you find property, criminal, court, birth, death, marriage, divorce records, licenses, deeds, mortgages, corporate records, business registration, and many other public record resources. | <mark style="background-color:green;">Free</mark> | 📞🗣️ US |
 | [**Skype**]() | You can search names, emails, and phonenumbers in Skype. | <mark style="background-color:green;">Free</mark> | 📞📧  |
@@ -30,6 +26,10 @@
 | [**Intelx.io**](http://intelx.io/) | Find user details in data breaches | <mark style="background-color:orange;">Partially Free</mark> | [Details](../tools/intelx.io/README.md) |
 | [**Maltego**](https://www.maltego.com/) | Maltego is an investigation platform that combines two things at once: (1) It acts as a search tool, and (2) It creates a graph establishing links between data you uncover from your search. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../tools/maltego/README.md) |
 | [**Name Variant Search**](https://bellingcat.github.io/name-variant-search/) | Simple tool to help search for different ways of writing a name. |  | [Details](../tools/name-variant-search/README.md) |
+| [**Namecheck**](http://namechk.com/) | Username and domain check website. Easy to see on which platforms a single username has been used. Many mismatches. | <mark style="background-color:green;">Free</mark> | 🗣️  |
+| [**Netherlands Name Register**](https://www.meertens.knaw.nl/nvb/naam/is/Giancarlo) | Find out how common a name is in the Netherlands based on census data | <mark style="background-color:green;">Free</mark> | 🗣️ The Netherlands |
+| [**NigeriaPhonebook**](https://nigeriaphonebook.com/) | Look up by name, state, and phone number. Last names are partially censored for free accounts. | <mark style="background-color:green;">Free</mark> | 📞🗣️ Nigeria |
+| [**Pipl**](http://pipl.com/) | Identity information for professionals | <mark style="background-color:red;">Paid</mark> | 📞🗣️📧  |
 | [**Sherlock**](https://github.com/sherlock-project/sherlock) | Check usernames across more than 400 websites and social networks. | <mark style="background-color:green;">Free</mark> | [Details](../tools/sherlock/README.md) |
 | [**TrueCaller**](https://www.truecaller.com/) | App that gathers phonenumbers and names from contact lists. | <mark style="background-color:green;">Free</mark> |  |
 | [**WAtools.io**](http://watools.io/) | Track whatsapp activity, number, profile picture. Check if number is used, download profile pic, check online status. | <mark style="background-color:red;">Paid</mark> | 📞  |
