@@ -7,9 +7,7 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "url": "https://github.com/bellingcat/EDGAR",
   "tags": [
-    "tag1",
     "international",
     "US"
   ]
