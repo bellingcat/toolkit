@@ -2,9 +2,6 @@
 
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
-| [**AirNav RadarBox**](http://radarbox24.com/) | Live flight tracker. | <mark style="background-color:green;">Free</mark> | ✈️  |
-| [**Airfleets**](http://airfleets.net/home) | Database for aircraft details. | <mark style="background-color:green;">Free</mark> | ✈️  |
-| [**Airframes**](http://www.airframes.org/) | A database of aircraft details | <mark style="background-color:green;">Free</mark> | ✈️  |
 | [**Aviation Safety Network**](https://aviation-safety.net/) | Aircraft incident database; can be searched by country, registration, year, etc. | <mark style="background-color:green;">Free</mark> | ✈️  |
 | [**Bosphorus Observer**](https://bosphorusobserver.com/) | Ship spotting resource for vessels traversing the Bosphorus Strait. | <mark style="background-color:green;">Free</mark> | ⛵  |
 | [**Carnet.AI**](http://carnet.ai/) | "API which is capable of recognizing the Make, Model and Generation of most cars built since 1995, with 97+% accuracy." | <mark style="background-color:green;">Free</mark> | 🚗  |
@@ -30,6 +27,9 @@
 | [**WikiRoutes**](http://wikiroutes.info/) | Public transport database. | <mark style="background-color:green;">Free</mark> | 🚂  |
 | [**Winward**](https://www.wnwd.com/) | Platform which combines maritime-related data. | <mark style="background-color:red;">Paid</mark> | ⛵  |
 | [**ADS-B Exchange**](https://globe.adsbexchange.com/) | Live flight tracker (including many miltiary aircraft). Live data available for the past month. Historical data available for purchase by request. | <mark style="background-color:green;">Free</mark> | ✈️ [A Beginner's Guide To Flight Tracking](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) |
+| [**Airfleets**](http://airfleets.net/home) | Database for aircraft details. | <mark style="background-color:green;">Free</mark> | ✈️  |
+| [**Airframes**](http://www.airframes.org/) | A database of aircraft details | <mark style="background-color:green;">Free</mark> | ✈️  |
+| [**AirNav RadarBox**](http://radarbox24.com/) | Live flight tracker. | <mark style="background-color:green;">Free</mark> | ✈️  |
 | [**Chronotrains**](https://www.chronotrains.com/en) | Chronotrains is a free interactive map designed to explore the reach of Europe’s extensive rail network. Enter a starting point and travel time to see reachable destinations by train. | <mark style="background-color:green;">Free</mark> | [Details](../tools/chronotrains/README.md) |
 | [**Equasis**](https://www.equasis.org/) | Equasis provides vessel ownership and safety records, as well as shipping company fleet information. | <mark style="background-color:green;">Free</mark> | ⛵  |
 | [**FlightAware**](http://flightaware.com/) | Live flight tracker. | <mark style="background-color:green;">Free</mark> | ✈️  [Flying High: The US Connection to Venezuela’s ‘Narco-Planes’](https://www.bellingcat.com/uncategorized/2021/03/11/flying-high-the-us-connection-to-venezuelas-narco-planes/) |
