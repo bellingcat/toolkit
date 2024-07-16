@@ -1,12 +1,12 @@
 ---
-description: A brief one-line description of the tool.
+description: South China Sea maps with oil and gas fields, fishing areas, air defense zones and administrative, claimed, disputed zones, submarine data cables.
 ---
 
 # Maritime Awareness Project
 
 ## URL
 
-https://example.com
+https://map.nbr.org/interactivemap/
 
 ## Description
 
