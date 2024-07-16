@@ -2,11 +2,7 @@
 
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
-| [**BlockExplorer**](https://blockexplorer.com/) | Following a bitcoin trail or following a bitcoin account? | <mark style="background-color:green;">Free</mark> | Crypto, Global |
 | [**Cninfo**](http://www.cninfo.com.cn/new/index) | Chinese public companies financial reports and regular announcements. | <mark style="background-color:green;">Free</mark> | Other, China |
-| [**Colombia Registry**](https://www.rues.org.co/) | Colombian business registry. | <mark style="background-color:green;">Free</mark> | Registry, Colombia |
-| [**Companies House**](http://beta.companieshouse.gov.uk/) | Search companies and individuals in the United Kingdom and Gibraltar. | <mark style="background-color:green;">Free</mark> | Registry, United Kingdom |
-| [**Court Enforcement Information Publicity**](http://zxgk.court.gov.cn/) | Chinese individuals and companies listed by the court as involved in dishonest practices. | <mark style="background-color:green;">Free</mark> | Registry, China |
 | [**E-business Register**](https://ariregister.rik.ee/eng) | Search companies and individuals in Estonia. | <mark style="background-color:green;">Free</mark> | Registry, Estonia |
 | [**Ecuador Registry**](https://appscvsconsultas.supercias.gob.ec/consultaCompanias/societario/busquedaCompanias.jsf) | Ecuadorian business registry. | <mark style="background-color:green;">Free</mark> | Registry, Ecuador |
 | [**Etherscan**](http://etherscan.io/) | Tracking transactions & finding a cryptowallet each based on the ETH blockchain. | <mark style="background-color:red;">Paid</mark> | Crypto, Global |
@@ -35,8 +31,12 @@
 | [**Zimbabwe Registry**](https://zimeservices.pfms.gov.zw/irj/portal/anonymous) | Search for companies in Zimbabwe. Database requires you to register with a foreign passport number. Information is not necessarily up-to-date as records are still being digitised. | <mark style="background-color:green;">Free</mark> | Registry, Zimbabwe |
 | [**aziende.it**](http://aziende.it/) | Offers pretty much the same service reportaziende.it does. Once again valid way to validate data and information gathered. | <mark style="background-color:green;">Free</mark> | Other, Italy |
 | [**bipa.na search**](http://www.bipa.na/search/) | Search if a company is registered in Namibia | <mark style="background-color:red;">Paid</mark> | Registry, Namibia |
+| [**BlockExplorer**](https://blockexplorer.com/) | Following a bitcoin trail or following a bitcoin account? | <mark style="background-color:green;">Free</mark> | Crypto, Global |
 | [**cadastral map**](http://eservices.dls.moi.gov.cy/#/national/geoportalmapviewer) | Cadastral map of Cyprus. | <mark style="background-color:red;">Paid</mark> | Registry, Cyprus |
 | [**China Judgements Online**](https://wenshu.court.gov.cn/) | Judgements given out by Chinese regional courts | <mark style="background-color:green;">Free</mark> | Other, China |
+| [**Colombia Registry**](https://www.rues.org.co/) | Colombian business registry. | <mark style="background-color:green;">Free</mark> | Registry, Colombia |
+| [**Companies House**](http://beta.companieshouse.gov.uk/) | Search companies and individuals in the United Kingdom and Gibraltar. | <mark style="background-color:green;">Free</mark> | Registry, United Kingdom |
+| [**Court Enforcement Information Publicity**](http://zxgk.court.gov.cn/) | Chinese individuals and companies listed by the court as involved in dishonest practices. | <mark style="background-color:green;">Free</mark> | Registry, China |
 | [**EDGAR**](https://www.sec.gov/edgar/search/) | Database of corporate filings for the US | <mark style="background-color:green;">Free</mark> | [Details](../tools/edgar/README.md) |
 | [**Edgar Suite**](https://github.com/bellingcat/EDGAR) | Tool for the retrieval of corporate and financial data from the SEC | <mark style="background-color:green;">Free</mark> |  |
 | [**fGov.be**](https://economie.fgov.be/en/themes/enterprises/crossroads-bank-enterprises/services-everyone/cbe-public-search) | Belgian companies registry. | <mark style="background-color:red;">Paid</mark> | Registry, Belgium |
