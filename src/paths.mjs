@@ -2,6 +2,14 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 
+function writeIfChanged(content, filepath) {
+  const old = fs.readFileSync(filepath, 'utf-8');
+  if (content !== old) {
+    console.log('Updating', filepath);
+    fs.writeFileSync(filepath, content);
+  }
+}
+
 function processMarkdownFile(filepath, filename, slug = []) {
   const directory = path.dirname(filepath);
   const page = filename.replace('.md', '');
@@ -49,4 +57,4 @@ function getPaths(pathname, slug = [], markdownRoot = 'gitbook', webRoot = '') {
   return paths.filter(post => { return post && post });
 }
 
-export default { getPaths, getSummary, processMarkdownFile };
+export default { writeIfChanged, getPaths, getSummary, processMarkdownFile };

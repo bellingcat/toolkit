@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import pkg from './paths.mjs'
-const {getPaths, getSummary, processMarkdownFile} = pkg;
+const {writeIfChanged, getPaths, getSummary, processMarkdownFile} = pkg;
 
 /* Example
 createTool({
@@ -419,23 +419,18 @@ function updateToolJSON(tool, json) {
     json = tool.json;
   }
   const pathname = tool.jsonFilePath;
-
-  console.log('Updating', pathname);
-  fs.writeFileSync(pathname, toolToJson(json));
+  writeIfChanged(toolToJson(json), pathname);
   tool.json = json;
 }
 
 function updateToolCategories(tool) {
   const pathname = tool.categoriesFilePath;
-
-  console.log('Updating', pathname);
-  fs.writeFileSync(pathname, toolToCategories(tool));
+  writeIfChanged(toolToCategories(tool), pathname);
 }
 
 function updateToolSummary(tool) {
   const pathname = path.join(tool.directory, 'SUMMARY.md');
-  console.log('Updating', pathname);
-  fs.writeFileSync(pathname, toolToSummary(tool));
+  writeIfChanged(toolToSummary(tool), pathname);
 }
 
 function getCategories() {

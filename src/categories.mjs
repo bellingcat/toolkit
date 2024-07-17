@@ -3,14 +3,13 @@ import path from 'path';
 import tools from './tools.mjs'
 const { getTools, getCategories } = tools;
 import pkg from './paths.mjs'
-const {getSummary, processMarkdownFile} = pkg;
+const {writeIfChanged, getSummary, processMarkdownFile} = pkg;
 
 const allTools = getTools().filter((tool) => !tool.draft );
 const mostUsed = processMarkdownFile('gitbook/most-used.md', 'most-used', []);
 const mostUsedTools = allTools.filter((tool) => (tool.tags || []).includes('most-used'));
-const content = renderCategory(mostUsed, mostUsedTools);
-console.log('writing', 'gitbook/most-used.md');
-fs.writeFileSync('gitbook/most-used.md', content);
+const mostUsedFilePath = 'gitbook/most-used.md';
+writeIfChanged(renderCategory(mostUsed, mostUsedTools), mostUsedFilePath);
 
 getCategories().forEach((category) => {
   const categoryTools = allTools.filter((tool) => {
@@ -21,9 +20,8 @@ getCategories().forEach((category) => {
       rel: renderRelativeLink(category, tool)
     }
   });
-  console.log('writing', category.filepath);
   const content = renderCategory(category, categoryTools);
-  fs.writeFileSync(category.filepath, content);
+  writeIfChanged(content, category.filepath);
 });
 
 function renderCategory(category, categoryTools = []) {
