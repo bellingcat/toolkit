@@ -442,6 +442,10 @@ function getCategories() {
   return getPaths('gitbook/categories').filter((category) => {
     const tag = category.slug.slice(-1)[0];
     return category.filename !== 'README.md';
+  }).map(function(category) {
+    const relpath = category.slug.join('/') + '.md';
+    category.introFilePath = path.join('gitbook', 'intros', 'categories', relpath);
+    return category;
   });
 }
 

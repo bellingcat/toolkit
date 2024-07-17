@@ -27,10 +27,16 @@ getCategories().forEach((category) => {
 });
 
 function renderCategory(category, categoryTools = []) {
-  return renderTitle(category) + renderTable(categoryTools, category);
+  return renderTitle(category) + renderIntro(category) + renderTable(categoryTools, category);
 }
 function renderTitle(category) {
   return `# ${category.title}\n\n`;
+}
+function renderIntro(category) {
+  if (fs.existsSync(category.introFilePath)) {
+    return fs.readFileSync(category.introFilePath, 'utf-8');
+  }
+  return '';
 }
 
 function renderCost(cost) {
