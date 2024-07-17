@@ -25,7 +25,7 @@ getCategories().forEach((category) => {
 });
 
 function renderCategory(category, categoryTools = []) {
-  return renderTitle(category) + renderIntro(category) + renderTable(categoryTools, category);
+  return renderTitle(category) + renderTable(categoryTools, category);
 }
 function renderTitle(category) {
   return `# ${category.title}\n\n`;
