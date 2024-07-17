@@ -1,6 +1,6 @@
 # Table of contents
 
-* [About](README.md)
+* [About Category Intros](README.md)
 
 ## ⚒️ Categories
 
@@ -14,7 +14,7 @@
   * [Reddit](categories/social-media/reddit.md)
   * [Telegram](categories/social-media/telegram.md)
   * [Tiktok](categories/social-media/tiktok.md)
-  * [Twitter/X](categories/social-media/twitter.md)
+  * [Twitter/X](categories/social-media/twitter-x.md)
   * [Vkontakte](categories/social-media/vkontakte.md)
   * [Youtube](categories/social-media/youtube.md)
   * [Other Networks](categories/social-media/other-networks.md)
@@ -23,7 +23,7 @@
   * [Reverse Image Search](categories/image-video/reverse-image-search.md)
   * [Facial Recognition](categories/image-video/facial-recognition.md)
   * [Metadata](categories/image-video/metadata.md)
-  * [Misc](categories/image-video/image-misc.md)
+  * [Misc](categories/image-video/misc.md)
 * [People](categories/people.md)
 * [Maps & Satellites](categories/maps-and-satellites/README.md)
   * [Maps](categories/maps-and-satellites/maps.md)
