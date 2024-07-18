@@ -1,5 +1,8 @@
 ---
-description: Search twitter by keywords, accounts, engagement, dates, and more
+description: >-
+  Twitter's Advanced Search is a robust tool that helps you find more precise
+  information by filtering tweets with specific criteria such as location, user,
+  date, popularity and more.
 ---
 
 # Twitter advanced search
