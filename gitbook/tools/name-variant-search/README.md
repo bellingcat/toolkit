@@ -10,7 +10,7 @@ description: Simple tool to help search for different ways of writing a name.
 
 ## Description <a href="#description" id="description"></a>
 
-Given a person's name, this tool will generate various plausible alternative forms of the name and streamline the work of researching each one. It also offers a few filters for various social media platforms.
+Given a person's name, this tool will generate various plausible alternative forms of the name and smooth out the work of researching each one. It also offers a few filters for various social media platforms.
 
 ### Cost <a href="#is-it-free" id="is-it-free"></a>
 
