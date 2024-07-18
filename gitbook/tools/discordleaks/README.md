@@ -66,7 +66,7 @@ Search:
 
 ## Tool provider
 
-Unicorn Riot is a decentralized, educational non-profit media organization that aims to provide an accessible platform for diverse stories, communities and media makers through free, nonprofit news.
+[Unicorn Riot](https://unicornriot.ninja/about-unicorn-riot/), US
 
 ## Advertising Trackers
 
@@ -74,4 +74,4 @@ Unicorn Riot is a decentralized, educational non-profit media organization that 
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-<table><thead><tr><th data-type="users" data-multiple>Page maintainer</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai's Test Account</a><a href="https://app.gitbook.com/u/1EJYZ3VapOeyTucb66LoniieppP2">Cass GAP Member</a></td></tr><tr><td></td></tr></tbody></table>
+<table><thead><tr><th data-type="users" data-multiple>Page maintainer</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/1EJYZ3VapOeyTucb66LoniieppP2">Cass GAP Member</a></td></tr><tr><td></td></tr></tbody></table>
