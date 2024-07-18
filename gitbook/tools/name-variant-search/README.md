@@ -2,7 +2,7 @@
 description: Simple tool to help search for different ways of writing a name.
 ---
 
-# Name Variant Search
+# Bellingcat Name Variant Search
 
 ## URL
 
@@ -14,7 +14,9 @@ Given a person's name, this tool will generate various plausible alternative for
 
 ### Cost <a href="#is-it-free" id="is-it-free"></a>
 
-Free
+* [x] Free
+* [ ] Partially Free
+* [ ] Paid
 
 ### Level of difficulty <a href="#level-of-difficulty" id="level-of-difficulty"></a>
 
