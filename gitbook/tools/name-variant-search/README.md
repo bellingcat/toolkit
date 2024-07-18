@@ -18,9 +18,11 @@ Given a person's name, this tool will generate various plausible alternative for
 
 <summary>Title</summary>
 
-<figure><img src=".gitbook/assets/Screenshot 2024-01-25 at 16.58.10.png" alt=""><figcaption></figcaption></figure>
+
 
 </details>
+
+<figure><img src=".gitbook/assets/Screenshot 2024-01-25 at 16.58.10.png" alt=""><figcaption></figcaption></figure>
 
 ## Cost <a href="#is-it-free" id="is-it-free"></a>
 
