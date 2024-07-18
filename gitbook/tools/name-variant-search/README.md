@@ -18,7 +18,7 @@ Given a person's name, this tool will generate various plausible alternative for
 
 <summary>Title</summary>
 
-Content
+![Caption](.gitbook/assets/Screenshot 2024-01-25 at 16.58.10.png)
 
 </details>
 
