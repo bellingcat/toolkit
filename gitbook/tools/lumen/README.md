@@ -10,7 +10,7 @@ https://example.com
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+The Lumen database, hosted by the Berkman Klein Center for Internet & Society at Harvard University, is a research project that collects and analyzes legal complaints and requests for the removal of online content. Its primary purpose is to promote transparency and facilitate research on the types of legal complaints being sent to internet publishers, search engines, and service providers.
 
 ## Cost
 
@@ -18,15 +18,15 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+Lumen is a Free and Open Source project.&#x20;
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+No registration required. The site is not optimized for mobile devices.&#x20;
 
 ## Limitations
 
@@ -40,18 +40,19 @@ https://example.com
 
 \[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
 
+[Lumen API documentation](https://github.com/berkmancenter/lumendatabase/wiki/Lumen-API-Documentation)
+
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+[The Berkman Klein Centre for Internet & Society at Harvard University](https://github.com/berkmancenter)
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer |
+| --------------- |
+| Shiva Shah      |
+|                 |
