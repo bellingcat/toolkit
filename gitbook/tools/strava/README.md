@@ -1,12 +1,12 @@
 ---
-description: A brief one-line description of the tool.
+description: Social media fitness app with geolocated exercise map.
 ---
 
 # Strava
 
 ## URL
 
-https://example.com
+[https://www.strava.com](https://www.strava.com)
 
 ## Description
 
@@ -14,19 +14,19 @@ https://example.com
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
 \[\[Pricing or subscription information, if relevant.]]
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+Users must create a Strava account using an email address. Users may use Strava on desktop or download the Strava app.
 
 ## Limitations
 
@@ -38,7 +38,7 @@ https://example.com
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+Toler, Alec: How to Use and Interpret Data from Strava's Activity Map, [https://www.bellingcat.com/resources/how-tos/2018/01/29/strava-interpretation-guide/](https://www.bellingcat.com/resources/how-tos/2018/01/29/strava-interpretation-guide/)
 
 ## Tool provider
 
@@ -50,8 +50,7 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
+|                           |
