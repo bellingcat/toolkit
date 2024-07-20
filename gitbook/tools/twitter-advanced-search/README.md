@@ -21,33 +21,66 @@ TIP: Bookmark the link above to have immediate access to the tool.
 
 \[Placeholder for image/gif]&#x20;
 
-**Advanced Search Through Web Browser:**&#x20;
+**Advanced Search Through Web Browser**
 
 Twitter/X’s Advanced Search makes it ideal for source investigations. It helps refine search queries and produces more subject matter-specific results. While the search interface is mostly self-explanatory, below is a description of each search field.&#x20;
 
+**“All of these words”:**&#x20;
 
+You can search for posts containing specific words, phrases, or hashtags.
 
-{% tabs %}
-{% tab title="Words" %}
+Example: Amsterdam canals
 
-{% endtab %}
+This will show posts that mention  “Amsterdam” and “canals”
 
-{% tab title="Accounts" %}
+**“This exact phrase”** is similar to using quotation marks on search engines. It pulls up results for an exact match for a specific sequence of words.&#x20;
 
-{% endtab %}
+Example: best of both worlds&#x20;
 
-{% tab title="Filters" %}
+This will generate results with this exact phrase.
 
-{% endtab %}
+{% hint style="info" %}
+It is okay not to use quotation marks for this search parameter. If you do, they will generate the same results as without quotation marks.&#x20;
+{% endhint %}
 
-{% tab title="Engagements" %}
+**“Any of these words”:** A user can use this field to filter terms that contain one search term or another.&#x20;
 
-{% endtab %}
+Example: Amsterdam canals&#x20;
 
-{% tab title="Dates" %}
+This will search for posts with either just “Amsterdam” or just “canals”&#x20;
 
-{% endtab %}
-{% endtabs %}
+{% hint style="info" %}
+Users can add OR between the search terms, and it will generate the same results&#x20;
+{% endhint %}
+
+**“Hashtags”:** Advanced Search allows you to filter your search further using hashtags. This is particularly useful for monitoring events in real-time.&#x20;
+
+Example: If I want to search for content related to Myanmar but only want to focus on the June 3rd coup, I will enter “Myanmar” on the top field and “June3Coup” or “WhatsHappingInMyanmar” on the hashtag field. &#x20;
+
+{% hint style="info" %}
+Users do not have to use the hash (#) symbol in the field, but the tool generates the same search if they choose to. (i.e. June3Coup or #June3Coup will generate the same results) &#x20;
+{% endhint %}
+
+**“Language”:** Twitter Advanced Search allows you to zero in on posts in a specific language, refining your search for better results.
+
+Example: If I am interested in learning about the farmers' protest in the EU, but only want to get results in Dutch, the  parameters may look like this:
+
+\[placeholder for screenshot]
+
+{% hint style="info" %}
+TIP: Language and Search Terms
+
+Twitter Advanced Search prioritizes your exact keywords during the search. This means:
+
+* If you search for an English term but want results in Dutch, tweets containing the English word and Dutch text might appear.
+
+Finding Local Content with Translation:
+
+To focus on local content in a specific language:
+
+1. Translate your keywords using Google Translate or DeepL.
+2. Use the translated keywords in your Twitter Advanced Search.
+{% endhint %}
 
 ## Limitations
 
