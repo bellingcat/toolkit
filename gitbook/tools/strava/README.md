@@ -26,7 +26,7 @@ Strava is a fitness app that allows users to publish various exercise activities
 5. **Connections and Networks:**
    * Followers: Identify who the user follows and who follows them. This can reveal connections, affiliations, or relationships that might be relevant to the investigation.
    * Interactions: View which profiles give "kudos" to other users' workouts (similar to a "like) or comment on other users' activities.
-   * Clubs and Groups: Join relevant clubs or groups the user is part of to gather more information about a users' social circles or interests. Users can filter their search by location and Sport Type.
+   * Clubs and Groups: Join relevant clubs or groups the user is part of to gather more information about a users' social circles or interests. Users can filter their search of groups and clubs by location and Sport Type.
 6. **Map Overlays and Data Export:**
    * Use map types and layers (standard, satellite, and hybrid) to visualize activity routes and identify potential points of interest.
 
@@ -48,7 +48,7 @@ The paid version is geared towards maximizing a users’ personal workouts and g
 
 Users must create a Strava account using an email address to find other users and log activities. Users may use Strava on desktop or download the Strava app.&#x20;
 
-The global heatmap is available to the public, but only registered Strava users may view the weekly heat map or zoom in to street-level details of activity on the global heatmap.
+The global heat map is available to the public, but only registered Strava users may view the weekly heat map or zoom in to street-level details of activity on the global heatmap.
 
 ## Limitations
 
