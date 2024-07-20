@@ -84,10 +84,43 @@ To focus on local content in a specific language:
 
 **ACCOUNTS**
 
-Find posts from specific accounts to specific accounts, or mention specific accounts. This enables users to see the interaction or exchange between accounts. This is particularly useful for tracking disinformation/misinformation to see who has interacted with which content and the account's reputation. &#x20;
+Find posts from specific accounts to specific accounts or mention specific accounts. This enables users to see the interaction or exchange between accounts. This is particularly useful for tracking disinformation/misinformation to see who has interacted with which content and whether or not those accounts agree or disagree with each other.&#x20;
+
+These are the subfilters:&#x20;
+
+**“From these accounts”** Searching for posts from \`@Iamsterdam\` will show posts posted by this account.
+
+**“To these accounts.”** Searching for posts sent to @Iamsterdam will show posts in which other users mentioned or replied to @Iamsterdam.
+
+**“Mentioning these accounts”** Searching for posts mentioning @Iamsterdam will show posts from other users that include the @Iamsterdam handle.
 
 {% hint style="info" %}
 TIP: You can input more than one account
+{% endhint %}
+
+\
+**“Filters”:** Refine your Twitter search! Advanced Search lets you choose whether to include replies, ensuring you see the full conversation or focus solely on original posts.
+
+To see only original posts, deselect the "Replies" checkbox under "Account Filters" in Twitter Advanced Search.
+
+\[placeholder screenshot]
+
+**“Replies”:** One targeted feature is the ability to focus solely on replies. By excluding original posts, you can gain a deeper understanding of the ongoing discussion surrounding a particular topic.
+
+This ability to isolate replies proves especially valuable in numerous areas. For instance:
+
+* Sentiment Analysis: By analyzing replies, you can gauge the public's emotional response to a brand, product, or event.
+* Tracking Opinions: Focusing on replies allows you to see what people are saying about a specific topic, revealing trends.&#x20;
+
+**“Links”:** Twitter Advanced Search lets you refine your results even further. You can choose to see only posts containing links. This can be useful for finding content that references external sources.
+
+TIP: This filter does not allow you to specify a specific website or URL. The search will simply include posts with any link, regardless of the domain.
+
+\
+
+
+{% hint style="info" %}
+
 {% endhint %}
 
 ## Limitations
