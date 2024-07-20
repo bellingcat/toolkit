@@ -19,6 +19,36 @@ Twitter/X's built-in advanced search supports filtering by keywords, hashtags, l
 TIP: Bookmark the link above to have immediate access to the tool.
 {% endhint %}
 
+\[Placeholder for image/gif]&#x20;
+
+**Advanced Search Through Web Browser:**&#x20;
+
+Twitter/X’s Advanced Search makes it ideal for source investigations. It helps refine search queries and produces more subject matter-specific results. While the search interface is mostly self-explanatory, below is a description of each search field.&#x20;
+
+
+
+{% tabs %}
+{% tab title="Words" %}
+
+{% endtab %}
+
+{% tab title="Accounts" %}
+
+{% endtab %}
+
+{% tab title="Filters" %}
+
+{% endtab %}
+
+{% tab title="Engagements" %}
+
+{% endtab %}
+
+{% tab title="Dates" %}
+
+{% endtab %}
+{% endtabs %}
+
 ## Limitations
 
 If a user changes their handle, the [Advanced Search](https://twitter.com/search-advanced?lang=en) tool won't return tweets under the new handle that were posted under the old handle, but searching for tweets under the old handle still works.
