@@ -10,27 +10,25 @@ description: Social media fitness app with geolocated exercise map.
 
 ## Description
 
-Strava is a fitness app that allows users to publish various kinds of exercise activities on a map using GPS data. Activities are automatically mapped out and key metrics are recorded. Researchers may use Strava to track a users' activities, gather location data, and understand patterns of movement in real time.&#x20;
+Strava is a fitness app that allows users to publish various exercise activities on a map using GPS data. Activities are automatically mapped and key metrics are recorded. Researchers may use Strava to track a users' activities, gather location data, and understand patterns of movement in real time.&#x20;
 
 1. **Profile Analysis:**
    * Username and Bio: Analyze users' profile information. Look for any clues or personal details that could be useful in identifying the individual.
    * Activity History: Review the user's activity history to understand their routines, frequented locations, and types of activities they engage in.
-   * Groups and Clubs: Search for clubs or groups on Strava to find an area or person of interest. Users can filter their search by location and Sport Type.
-2. **Activity Details:**&#x20;
+2. **Activity Details:**
    * Date and Time: Note the timestamps of activities to establish patterns of behavior or routine.
    * Location: Use the map feature to pinpoint specific locations where activities have taken place. Users may upload public photos or videos on their routes. This can include routes, starting points, and endpoints. Note that users' may hide their start and end points up to one mile.
    * Activity Type: Determine the types of activities the user engages in, which can provide insights into their interests and habits.
-   * Heat Maps: View a weekly and yearly heat map of users' activities in any location around the world. Filter the heatmap by activity type, length of route, difficulty, surface, and elevation. The yearly heat map is updated every month, and the weekly heatmap is updated every 24 hours.
-3. **Segments and Leaderboards:**
+3. **Heat Maps:**
+   * View a weekly and yearly heat map of users' activities in any location around the world. Filter the heatmap by activity type, length of route, difficulty, surface, and elevation. The yearly heat map is updated every month, and the weekly heatmap is updated every 24 hours.
+4. **Segments and Leaderboards:**
    * Explore segments where the user has recorded activities. Look at their rankings on leaderboards to understand their performance relative to others in the area.&#x20;
-4. **Connections and Networks:**
-   * Identify who the user follows and who follows them. This can reveal connections, affiliations, or relationships that might be relevant to the investigation.
-   * Join relevant clubs or groups the user is part of to gather more information about their social circles or interests.
-5. **Map Overlays and Data Export:**
-   * Use map overlays to visualize activity routes and identify potential points of interest.
-   * Export data for further analysis, such as aggregating activity timelines or creating visualizations of movement patterns over time.
-6. **Combine with Other Sources:**
-   * Integrate Strava data with other sources of information, such as social media profiles, geotagged posts, or public records, to build a more comprehensive profile of the individual.
+5. **Connections and Networks:**
+   * Followers: Identify who the user follows and who follows them. This can reveal connections, affiliations, or relationships that might be relevant to the investigation.
+   * Interactions: View which profiles give "kudos" to other users' workouts (similar to a "like) or comment on other users' activities.
+   * Clubs and Groups: Join relevant clubs or groups the user is part of to gather more information about a users' social circles or interests. Users can filter their search by location and Sport Type.
+6. **Map Overlays and Data Export:**
+   * Use map types and layers (standard, satellite, and hybrid) to visualize activity routes and identify potential points of interest.
 
 ## Cost
 
@@ -62,13 +60,13 @@ Using Strava for OSINT research has several limitations:
 4. **Reliability of Metadata**: Metadata associated with activities (such as timestamps, locations, and descriptions) may not always be accurate or up-to-date.
 5. **False or Misleading Information**: Users can manipulate their profiles or activity data, either intentionally or unintentionally, leading to false or misleading information for OSINT purposes.
 6. **Limited Historical Data**: Free access to historical data on Strava is limited, and more detailed historical data requires a premium subscription. This can restrict the depth of analysis for long-term trends or patterns.
-7. **Different Data on Desktop vs Smartphone:** Using Researchers may find more detailed heat map data using desktop rather than for S desktop for Strava the Strava heatmap is better on a desktop. The desktop allows users to search a global weekly heatmap, which is all user activity that is set to "public" from the past 12 months. The weekly heatmap is updated every month.
+7. **Different Data on Desktop vs Smartphone:** Using Researchers may find more detailed heat map data using desktop rather than for a smartphone. The weekly heat map is only available on desktop.
 
 ## Ethical Considerations
 
-Strava displays user-generated content, which may include location data and personal information shared by individuals.&#x20;
+Strava displays user-generated content, which may include location data and personal information knowingly or unknowingly shared by individuals.&#x20;
 
-Users may opt out of the aggregate data usage in their privacy settings. Activities with the privacy setting "Only You" or “Followers” are excluded from the heat map automatically. Strava also exclude all portions of activities hidden using a users' map visibility settings.
+Users may opt out of the aggregate data usage in their privacy settings. Activities with the privacy setting "Only You" or “Followers” are excluded from the heat map automatically. Strava may also exclude all portions of activities based on a users' map visibility settings.
 
 ## Guides and Articles
 
