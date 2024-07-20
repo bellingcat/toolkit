@@ -22,7 +22,7 @@ Strava is a fitness app that allows users to publish various exercise activities
 3. **Heat Maps:**
    * View a weekly and yearly heat map of users' activities in any location around the world. Filter the heatmap by activity type, length of route, difficulty, surface, and elevation and add map overlays like popular segments. The yearly heat map is updated every month, and the weekly heatmap is updated every 24 hours.
 4. **Segments and Leaderboards:**
-   * Explore segments where the user has recorded activities. Look at their rankings on leaderboards to understand their performance relative to others in the area. Researchers may also click on segments to discover new profiles who have logged particular segments in a loction. Segment data includes a leaderboard that shows the date that a particular user has participated in an activity on that segment.
+   * Explore segments where the user has recorded activities. Look at their rankings on leaderboards to understand their performance relative to others in the area. Researchers may also click on segments to discover new profiles who have logged particular segments in a loction. Segment data includes a leaderboard that shows the date that a particular user has participated in an activity on that segment. Click on the user to view that users' profile and activities.
 5. **Connections and Networks:**
    * Followers: Identify who the user follows and who follows them. This can reveal connections, affiliations, or relationships that might be relevant to the investigation.
    * Interactions: View which profiles give "kudos" to other users' workouts (similar to a "like) or comment on other users' activities.
