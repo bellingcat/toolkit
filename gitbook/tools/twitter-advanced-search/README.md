@@ -66,13 +66,15 @@ Example: If I am interested in learning about the farmers' protest in the EU, bu
 \[placeholder for screenshot]
 
 {% hint style="info" %}
-TIP: Language and Search Terms
+TIP:&#x20;
+
+_Language and Search Terms_
 
 Twitter Advanced Search prioritizes your exact keywords during the search. This means:
 
 * If you search for an English term but want results in Dutch, tweets containing the English word and Dutch text might appear.
 
-Finding Local Content with Translation:
+_Finding Local Content with Translation_
 
 To focus on local content in a specific language:
 
