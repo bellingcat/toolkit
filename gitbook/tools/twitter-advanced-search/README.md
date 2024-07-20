@@ -25,15 +25,13 @@ TIP: Bookmark the link above to have immediate access to the tool.
 
 Twitter/X’s Advanced Search makes it ideal for source investigations. It helps refine search queries and produces more subject matter-specific results. While the search interface is mostly self-explanatory, below is a description of the search fields, and some tips.&#x20;
 
-**“All of these words”:**&#x20;
-
-You can search for posts containing specific words, phrases, or hashtags.
+**“All of these words”:** You can search for posts containing specific words, phrases, or hashtags.
 
 Example: Amsterdam canals
 
 This will show posts that mention  “Amsterdam” and “canals”
 
-**“This exact phrase”** is similar to using quotation marks on search engines. It pulls up results for an exact match for a specific sequence of words.&#x20;
+**“This exact phrase”:** is similar to using quotation marks on search engines. It pulls up results for an exact match for a specific sequence of words.&#x20;
 
 Example: best of both worlds&#x20;
 
