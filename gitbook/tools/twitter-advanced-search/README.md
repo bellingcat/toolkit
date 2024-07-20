@@ -23,7 +23,7 @@ TIP: Bookmark the link above to have immediate access to the tool.
 
 **Advanced Search Through Web Browser**
 
-Twitter/X’s Advanced Search makes it ideal for source investigations. It helps refine search queries and produces more subject matter-specific results. While the search interface is mostly self-explanatory, below is a description of each search field.&#x20;
+Twitter/X’s Advanced Search makes it ideal for source investigations. It helps refine search queries and produces more subject matter-specific results. While the search interface is mostly self-explanatory, below is a description of the search fields, and some tips.&#x20;
 
 **“All of these words”:**&#x20;
 
