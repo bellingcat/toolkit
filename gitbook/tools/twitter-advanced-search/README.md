@@ -114,13 +114,8 @@ This ability to isolate replies proves especially valuable in numerous areas. Fo
 
 **“Links”:** Twitter Advanced Search lets you refine your results even further. You can choose to see only posts containing links. This can be useful for finding content that references external sources.
 
-TIP: This filter does not allow you to specify a specific website or URL. The search will simply include posts with any link, regardless of the domain.
-
-\
-
-
 {% hint style="info" %}
-
+TIP: This filter does not allow you to specify a specific website or URL. The search will simply include posts with any link, regardless of the domain.
 {% endhint %}
 
 ## Limitations
