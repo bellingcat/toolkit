@@ -5,7 +5,7 @@ description: >-
   location, user, date, popularity, and more.
 ---
 
-# Twitter advanced search
+# Twitter Advanced Search
 
 ## URL
 
@@ -80,6 +80,14 @@ To focus on local content in a specific language:
 
 1. Translate your keywords using Google Translate or DeepL.
 2. Use the translated keywords in your Twitter Advanced Search.
+{% endhint %}
+
+**ACCOUNTS**
+
+Find posts from specific accounts to specific accounts, or mention specific accounts. This enables users to see the interaction or exchange between accounts. This is particularly useful for tracking disinformation/misinformation to see who has interacted with which content and the account's reputation. &#x20;
+
+{% hint style="info" %}
+TIP: You can input more than one account
 {% endhint %}
 
 ## Limitations
