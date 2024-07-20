@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Twitter advanced search](README.md)
+* [Twitter Advanced Search](README.md)
 * [Categories](categories.md)
