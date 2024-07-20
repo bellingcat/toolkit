@@ -136,6 +136,28 @@ You can set your own parameters for the following subfields:
 
 This granular control ensures the retrieval of posts that demonstrably resonate with a significant portion of the user base.
 
+**DATES**
+
+For highly focused searches, Twitter Advanced Search offers date range filtering..
+
+To filter tweets by date, use the calendar dropdown menus in Twitter Advanced Search. Simply select:
+
+**"From" date:** This will return tweets sent on or after that date.
+
+**"To" date:** This will return tweets sent on or before that date.
+
+**Both "From" and "To" dates:** This will return tweets sent _**within**_ that specific date range.
+
+{% hint style="info" %}
+TIP:&#x20;
+
+**Before a specific date:** Perfect for exploring historical trends or past events.&#x20;
+
+**After a specific date:** Ideal for catching up on recent discussions or tracking breaking news.&#x20;
+
+**Within a defined date range:** Ideal for isolating tweets from a specific timeframe, like a conference or campaign
+{% endhint %}
+
 ## Limitations
 
 If a user changes their handle, the [Advanced Search](https://twitter.com/search-advanced?lang=en) tool won't return tweets under the new handle that were posted under the old handle, but searching for tweets under the old handle still works.
