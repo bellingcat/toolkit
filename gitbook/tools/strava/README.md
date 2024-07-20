@@ -17,12 +17,12 @@ Strava is a fitness app that allows users to publish various exercise activities
    * Activity History: Review the user's activity history to understand their routines, frequented locations, and types of activities they engage in.
 2. **Activity Details:**
    * Date and Time: Note the timestamps of activities to establish patterns of behavior or routine.
-   * Location: Use the map feature to pinpoint specific locations where activities have taken place. Users may upload public photos or videos on their routes. This can include routes, starting points, and endpoints. Note that users' may hide their start and end points up to one mile.
+   * Location: Use the map feature to pinpoint specific locations where activities have taken place. Users may upload public photos or videos on their routes. This can include routes, starting points, and endpoints. Note that users may hide their start and end points up to one mile.
    * Activity Type: Determine the types of activities the user engages in, which can provide insights into their interests and habits.
 3. **Heat Maps:**
-   * View a weekly and yearly heat map of users' activities in any location around the world. Search a location on the heat map and use filters on the heat map including activity type and length of route, and add map overlays like popular segments. The yearly heat map is updated every month, and the weekly heatmap is updated every 24 hours.
+   * View a weekly and yearly heat map of users' activities in any location around the world. Search a location on the heat map, use filters such as activity type and length of route, and add map overlays like popular segments. The yearly heat map is updated every month, and the weekly heat map is updated every 24 hours.
 4. **Segments and Leaderboards:**
-   * Explore segments where the user has recorded activities. Look at their rankings on leaderboards to understand their performance relative to others in the area. Researchers may also click on segments to discover new profiles who have logged particular segments in a loction. Segment data includes a leaderboard that shows the date that a particular user has participated in an activity on that segment. Click on the user to view that users' profile and activities.
+   * Explore segments where the user has recorded activities. Researchers may also click on segments to discover new profiles who have logged particular segments in a loction. Segment data includes a leaderboard that shows the date that a particular user has participated in an activity on that segment. Click on the user to view their profile and activities.
 5. **Connections and Networks:**
    * Followers: Identify who the user follows and who follows them. This can reveal connections, affiliations, or relationships that might be relevant to the investigation.
    * Interactions: View which profiles give "kudos" to other users' workouts (similar to a "like) or comment on other users' activities.
@@ -60,7 +60,7 @@ Using Strava for OSINT research has several limitations:
 4. **Reliability of Metadata**: Metadata associated with activities (such as timestamps, locations, and descriptions) may not always be accurate or up-to-date.
 5. **False or Misleading Information**: Users can manipulate their profiles or activity data, either intentionally or unintentionally, leading to false or misleading information for OSINT purposes.
 6. **Limited Historical Data**: Free access to historical data on Strava is limited, and more detailed historical data requires a premium subscription. This can restrict the depth of analysis for long-term trends or patterns.
-7. **Different Data on Desktop vs Smartphone:** Using Researchers may find more detailed heat map data using desktop rather than for a smartphone. The weekly heat map is only available on desktop.
+7. **Different Data on Desktop vs Smartphone:** Researchers may find more detailed heat map data using desktop rather than for a smartphone. The weekly heat map is only available on desktop.
 
 ## Ethical Considerations
 
