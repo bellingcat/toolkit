@@ -13,8 +13,6 @@ description: >-
 
 ## Description
 
-
-
 Twitter/X's built-in advanced search supports filtering by keywords, hashtags, language, author, receiver, mentions, replies, links, minimum number of replies/likes/reposts, and dates. Open the link above or navigate to this feature from your account’s homepage, as shown in the image below.
 
 {% hint style="info" %}
@@ -23,7 +21,9 @@ TIP: Bookmark the link above to have immediate access to the tool.
 
 \[Placeholder for image/gif]&#x20;
 
-**Advanced Search Through Web Browser**
+### _**Advanced Search Through Web Browser**_
+
+&#x20;**WORDS**
 
 Twitter/X’s Advanced Search makes it ideal for source investigations. It helps refine search queries and produces more subject matter-specific results. While the search interface is mostly self-explanatory, below is a description of the search fields, and some tips.&#x20;
 
@@ -162,7 +162,7 @@ TIP:&#x20;
 
 If a user changes their handle, the [Advanced Search](https://twitter.com/search-advanced?lang=en) tool won't return tweets under the new handle that were posted under the old handle, but searching for tweets under the old handle still works.
 
-_**Advanced Search Through Mobile App:**_
+### _**Advanced Search Through Mobile App:**_
 
 If doing Advanced Search on a mobile device, users can go to the mobile device’s web browser and perform the steps above with the Advanced Search interface.&#x20;
 
@@ -174,6 +174,15 @@ A sample search done on mobile can be seen in the image below.&#x20;
 
 \[placeholder]
 
+**What problem does it solve?**&#x20;
+
+In April 2024, Statista estimated a staggering [611 million people ](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/)actively using X. This translates to a sea of user-generated content constantly flowing around real-time events and trending topics. For open-source investigators, navigating this vast ocean of information to find what they need will be a daunting task. Twitter Advanced Search addresses this challenge by providing comprehensive filtering options and its ability to search across a wide range of criteria.
+
+As open-source investigators, the research process is often iterative. We often start broad, using search terms like "protest" and "Syria" in the discovery phase. As we sift through the initial results, we might encounter posts mentioning a specific location like "Daraa" or a prominent activist group named "Syrian Revolutionary Forces." These findings become stepping stones. We then refine our search terms, incorporating these new details or harvesting new search terms. This might involve searching for posts containing "Daraa protest" or "Syrian Revolutionary Forces leader." The search might also expand to Arabic hashtags related to the protest or the activist group.
+
+Manipulating Twitter's Advanced Search features using different parameters like locations, languages, and hashtags becomes crucial in this dynamic process. It allows investigators to continuously refine their search queries, uncovering hidden connections and insights as they delve deeper into the investigation.
+
+\
 \
 
 
