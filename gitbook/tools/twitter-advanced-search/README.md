@@ -86,7 +86,7 @@ To focus on local content in a specific language:
 
 **ACCOUNTS**
 
-Find posts from specific accounts to specific accounts or mention specific accounts. This enables users to see the interaction or exchange between accounts. This is particularly useful for tracking disinformation/misinformation to see who has interacted with which content and whether or not those accounts agree or disagree with each other.&#x20;
+Find posts **from** specific accounts **to** specific accounts or **mention** specific accounts. This enables users to see the interaction or exchange between accounts. This is particularly useful for tracking disinformation/misinformation to see who has interacted with which content and whether or not those accounts agree or disagree with each other.&#x20;
 
 These are the subfilters:&#x20;
 
@@ -254,19 +254,19 @@ Guides provided by X.com:
 
 [https://developer.x.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators](https://developer.x.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators)
 
-
-
 Guide for journalists from The Fix:
 
 [https://thefix.media/2022/11/16/social-advanced-search-is-something-that-you-can-do-on-twitter-too](https://thefix.media/2022/11/16/social-advanced-search-is-something-that-you-can-do-on-twitter-too)
 
 ### _**Use case**_&#x20;
 
+The links below show research that _lends itself to_ using Twitter's Advanced Search feature. But please note that the authors do not explicitly mention using the Advanced Search for their research.
+
 1. Using Twitter Advanced Search, especially its hashtag search, is helpful for monitoring events surrounding a protest or movement. [According to the Atlantic Council's DFRLab](https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2), hashtags are a crucial tool for protest movements. By strategically coordinating hashtags, protesters can amplify their message and draw attention to potential injustices. In this study,&#x20;
 
 Link: [https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2](https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2)
 
-2. Bellingcat’s investigation of the rapid escalation of Covid in India demonstrates the use of advanced keyword combinations and other strategies on the Twitter platform.&#x20;
+2. Bellingcat’s investigation of the rapid escalation of COVID-19 in India demonstrates the use of advanced keyword combinations and other strategies on the Twitter platform.&#x20;
 
 Link: [https://www.bellingcat.com/news/2021/04/23/indias-latest-covid-wave-spills-on-to-social-media-amidst-critical-shortages/](https://www.bellingcat.com/news/2021/04/23/indias-latest-covid-wave-spills-on-to-social-media-amidst-critical-shortages/)
 
