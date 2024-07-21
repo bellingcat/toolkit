@@ -160,9 +160,30 @@ TIP:&#x20;
 **Within a defined date range:** Ideal for isolating tweets from a specific timeframe, like a conference or campaign
 {% endhint %}
 
+If a user changes their handle, the [Advanced Search](https://twitter.com/search-advanced?lang=en) tool won't return tweets under the new handle that were posted under the old handle, but searching for tweets under the old handle still works.
+
+_**Advanced Search Through Mobile App:**_
+
+If doing Advanced Search on a mobile device, users can go to the mobile device’s web browser and perform the steps above with the Advanced Search interface.&#x20;
+
+However, if you must do a granular search on the X app, you can do so in the search box, using operators or boolean, just as one would when searching various search engines like Google.&#x20;
+
+X’s website provides [a list](https://developer.x.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators) of helpful operators that users can use or memorize to be able to perform the functions outlined above. However, [use this page](https://github.com/igorbrigadir/twitter-advanced-search) for a more exhaustive list of operators for the App search bar.&#x20;
+
+A sample search done on mobile can be seen in the image below.&#x20;
+
+\[placeholder]
+
+\
+
+
+
+
 ## Limitations
 
-If a user changes their handle, the [Advanced Search](https://twitter.com/search-advanced?lang=en) tool won't return tweets under the new handle that were posted under the old handle, but searching for tweets under the old handle still works.
+
+
+## Ethical Considerations
 
 ## Cost
 
