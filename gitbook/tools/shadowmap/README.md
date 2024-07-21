@@ -1,7 +1,8 @@
 ---
 description: >-
   Tilting global map of 3D buildlings and the shadows they cast at a specific
-  time a day, but date fixed at today in free version.
+  time a day, but date fixed at today in free version. Lite Paid Version allows
+  date change, Full Paid Version has 3D models.
 ---
 
 # ShadowMap
