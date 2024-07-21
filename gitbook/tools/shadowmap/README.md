@@ -46,15 +46,17 @@ Fixed date (as the date of the system clock) in the free version is a major limi
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+ShadowMap Technologies GMBH, a small company based in Vienna, Austria.&#x20;
+
+Founder (2021) and CEO Georg Molzer.
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| Sophie Tedling  |
+|                 |
