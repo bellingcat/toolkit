@@ -210,7 +210,9 @@ Link: [https://www.bellingcat.com/news/2021/04/23/indias-latest-covid-wave-spill
 
 Twitter/X
 
+San Francisco, California&#x20;
+
 | Page Maintainers |
 | ---------------- |
-| Unassigned       |
+| Akk36            |
 |                  |
