@@ -123,7 +123,7 @@ TIP: This filter does not allow you to specify a specific website or URL. The se
 **ENGAGEMENTS**
 
 {% hint style="warning" %}
-TIP: If you want to cut through the noise and discover the most popular posts on a topic? Twitter's "Top posts" tab might seem like the answer, but it doesn't always show the absolute most engaging content. [The "Top posts" algorithm considers various factors, making it unpredictable.](https://blog.x.com/engineering/en\_us/topics/open-source/2023/twitter-recommendation-algorithm)
+NOTE: If you want to cut through the noise and discover the most popular posts on a topic. Twitter's "Top posts" tab might seem like the answer, but it doesn't always show the absolute most engaging content. [The "Top posts" algorithm considers various factors, making it unpredictable.](https://blog.x.com/engineering/en\_us/topics/open-source/2023/twitter-recommendation-algorithm) Use Advanced Search instead.&#x20;
 {% endhint %}
 
 In Twitter Advanced Search, you can define your own criteria for engagement. Want to see posts with at least 1,000 likes or replies? Advanced Search lets you set precise thresholds for minimum likes, reposts, replies, or even a combination of these metrics. This way, you'll get a clear picture of the most engaging posts that meet your specific requirements.
