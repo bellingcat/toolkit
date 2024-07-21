@@ -174,7 +174,7 @@ A sample search done on mobile can be seen in the image below.&#x20;
 
 \[placeholder]
 
-**What problem does it solve?**&#x20;
+### _**What problem does it solve?**_&#x20;
 
 In April 2024, Statista estimated a staggering [611 million people ](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/)actively using X. This translates to a sea of user-generated content constantly flowing around real-time events and trending topics. For open-source investigators, navigating this vast ocean of information to find what they need will be a daunting task. Twitter Advanced Search addresses this challenge by providing comprehensive filtering options and its ability to search across a wide range of criteria.
 
@@ -182,7 +182,7 @@ As open-source investigators, the research process is often iterative. We often 
 
 Manipulating Twitter's Advanced Search features using different parameters like locations, languages, and hashtags becomes crucial in this dynamic process. It allows investigators to continuously refine their search queries, uncovering hidden connections and insights as they delve deeper into the investigation.
 
-**Use case**&#x20;
+### _**Use case**_&#x20;
 
 1. Using Twitter Advanced Search, especially its hashtag search, is helpful for monitoring events and violence surrounding a protest or movement. [According to the Atlantic Council's DFRLab](https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2), hashtags are a crucial tool for protest movements. By strategically coordinating hashtags, protesters can amplify their message and draw attention to potential injustices. In this study,&#x20;
 
