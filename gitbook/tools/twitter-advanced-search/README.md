@@ -256,15 +256,15 @@ One can also use the search bar using keywords, and click on the Media tab under
 
 ## Guide
 
+Guide for journalists from The Fix:
+
+[https://thefix.media/2022/11/16/social-advanced-search-is-something-that-you-can-do-on-twitter-too](https://thefix.media/2022/11/16/social-advanced-search-is-something-that-you-can-do-on-twitter-too)
+
 Guides provided by X.com:
 
 [https://help.x.com/en/using-x/x-advanced-search](https://help.x.com/en/using-x/x-advanced-search)
 
 [https://developer.x.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators](https://developer.x.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators)
-
-Guide for journalists from The Fix:
-
-[https://thefix.media/2022/11/16/social-advanced-search-is-something-that-you-can-do-on-twitter-too](https://thefix.media/2022/11/16/social-advanced-search-is-something-that-you-can-do-on-twitter-too)
 
 ### _**Use case**_&#x20;
 
