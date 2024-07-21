@@ -234,7 +234,7 @@ After testing the Advanced Search tool in both Incognito Mode and regular browsi
 
 5. **Inconsistent "None of These Words" Function:**
 
-It also does not catch all the search parameters. Testing both in the web browser and the mobile App, “None of these words” sometimes does not perform as well. It does not remove all the keywords you wish to eliminate. If you put more than 1 or 2 in the “none of these words” field, it will not catch all these parameters, and will sometimes still show results that contain those words you want excluded.&#x20;
+It also does not catch all the search parameters. Testing both in the web browser and the mobile App, “None of these words” sometimes does not perform as well. It does not remove all the keywords you wish to eliminate. If you put more than 1 or 2 in the “none of these words” field, it will not catch all these parameters, and will sometimes still show results that contain those words you want excluded. \[screenshot?]
 
 6. **The “Links” Filter Cannot Specify a Domain**
 
