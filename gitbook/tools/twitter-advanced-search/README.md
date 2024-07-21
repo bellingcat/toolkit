@@ -204,6 +204,7 @@ Link: [https://www.bellingcat.com/news/2021/04/23/indias-latest-covid-wave-spill
 
 1. Internet connection
 2. Desktop/Laptop/Mobile Device (for mobile, use the web browser instead of the App)
+3. Creating a user account&#x20;
 
 ## Limitations
 
