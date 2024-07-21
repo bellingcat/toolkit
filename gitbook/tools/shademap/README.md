@@ -19,7 +19,7 @@ description: >-
 
 </div>
 
-ShadeMap can calculate shadow locations in real time and display them on a map. ShadeMap can also aggregate shadows over time to calculate how many hours of sun or shadow a specific location gets over the course of a day or over the course of an entire year. Sunlight hours and time of year are used to calculate energy values of sunlight per unit area (square metre). In addition to mapping shadow patterns for a static location, ShadeMap's [Trail Shade](./#trail-shade) feature handles changing location uploaded as a user trail.
+ShadeMap can calculate shadow locations in real time and display them on a map. ShadeMap can also aggregate shadows over time to calculate how many hours of sun or shadow a specific location gets over the course of a day or over the course of an entire year. Sunlight hours and time of year are used to calculate energy values of sunlight per unit area (square metre). In addition to mapping shadow patterns for a static location, ShadeMap's [Trail Shade feature](./#trail-shade-feature-accessible-from-the-search-bar-menu) handles changing location uploaded as a user trail.
 
 {% hint style="success" %}
 ShadeMap is also available as a Chrome browser extension which displays a sun and shadow layer for online maps including: [openstreetmap.org](https://openstreetmap.org), [alltrails.com](https://alltrails.com), [gaiagps.com](https://gaiagps.com), [caltopo.com](https://caltopo.com). This is being extended to Strava, Mountain Project, OnX Maps with more to follow...
