@@ -151,7 +151,7 @@ To filter tweets by date, use the calendar dropdown menus in Twitter Advanced Se
 **Both "From" and "To" dates:** This will return tweets sent _**within**_ that specific date range.
 
 {% hint style="info" %}
-TIP 1:&#x20;
+TIP #1:&#x20;
 
 **Before a specific date:** Perfect for exploring historical trends or past events.&#x20;
 
@@ -159,7 +159,9 @@ TIP 1:&#x20;
 
 **Within a defined date range:** Ideal for isolating tweets from a specific timeframe, like a conference or campaign
 
-TIP 2: Add a few days on the "before" and "after" fields, to make sure you have wide coverage of results.&#x20;
+TIP #2:&#x20;
+
+Add a few days on the "before" and "after" fields, to make sure you have wide coverage of results.&#x20;
 {% endhint %}
 
 ### _**Advanced Search Through Mobile App**_
@@ -178,9 +180,9 @@ A sample search done on mobile can be seen in the image below.&#x20;
 
 In April 2024, Statista estimated a staggering [611 million people ](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/)actively using X per month. This translates to a sea of user-generated content constantly flowing around real-time events and trending topics. For open-source investigators, navigating this vast ocean of information to find what they need will be a daunting task. Twitter Advanced Search addresses this challenge by providing comprehensive filtering options and its ability to search across a wide range of criteria.
 
-As open-source investigators, the research process is often iterative. We often start broad, using search terms like "protest" and "Syria" in the discovery phase. As we sift through the initial results, we might encounter posts mentioning a specific location like "Daraa" or a prominent activist group named "Syrian Revolutionary Forces." These findings become stepping stones. We then refine our search terms, incorporating these new details or harvesting new search terms. This might involve searching for posts containing "Daraa protest" or "Syrian Revolutionary Forces leader." The search might also expand to Arabic hashtags related to the protest or the activist group.
+As open-source investigators, the research process is often iterative. We often start broad, using search terms like "protest" and "Syria" in the discovery phase. As we sift through the initial results, we might encounter posts mentioning a specific location like "Daraa" or a prominent group named "Syrian Revolutionary Forces." These findings become stepping stones. We then refine our search terms, incorporating these new details or harvesting new search terms. This might involve searching for posts containing "Daraa protest" or "Syrian Revolutionary Forces leader." The search might also expand to Arabic hashtags related to the protest or the group.
 
-Manipulating Twitter's Advanced Search features using various combinations of parameters like locations, languages, and hashtags becomes crucial in this dynamic process. It allows investigators to refine their search queries continuously, as they delve deeper into the investigation.
+Manipulating Advanced Search features using various combinations of parameters like locations, languages, and hashtags becomes crucial in this dynamic process. It allows investigators to continuously refine their search queries throughout the research process.&#x20;
 
 ## Cost
 
@@ -208,7 +210,7 @@ If a user changes their handle, the[ Advanced Search](https://twitter.com/search
 
 Even after using the advanced search tool, you might miss tweets with typos or variations in the spelling of your search term. This is because the tool searches for exact matches.
 
-The fix is to cast a wider net. You can improve your search results by considering misspelled variations. Simply take those misspellings and alternative spellings you discover and use them as new search terms related to the same topic. Add these variations to your existing list of keyword combinations.
+The fix is to cast a wider net. You can improve your search results by considering misspelled variations. Simply take those misspellings and alternative spellings you discover and use them as new search terms related to the research topic. Add these variations to your existing list of keyword combinations.
 
 By including these additional spellings, you'll be conducting a more comprehensive search and ensure you capture more relevant tweets, even if they contain typos.
 
@@ -216,19 +218,21 @@ By including these additional spellings, you'll be conducting a more comprehensi
 
 After testing the tool, if the keyword is common or used in different contexts, it might retrieve irrelevant mentions. Let's say you're searching for information about the recent developments in "electric cars." This is a common term, used in many different contexts.
 
-The search might return tweets about a toy car commercial featuring electric vehicles, a news report on a power outage affecting electric car charging stations, etc., and might not be relevant to your specific interest in the latest advancements in electric car technology.
+The search might return tweets about a toy car commercial featuring electric vehicles, a news report on a power outage affecting electric car charging stations, etc., and might not be relevant to the research question.
 
 4. **Account Requirement for Advanced Search:**
 
-After testing the Advanced Search tool in both Incognito Mode and regular browsing, in both cases, using the tool required signing into an account. This means you cannot access Advanced Search features on X.com without logging in. For some, requiring an account restricts access to these crucial functionalities for investigators who prefer anonymity.&#x20;
+After testing the Advanced Search tool in both Incognito Mode and regular browsing, in both cases, using the tool required signing into an account. This means you cannot access Advanced Search features on X.com without logging in. For some, requiring an account restricts access to these crucial functionalities for investigators who prefer anonymity
 
 5. **Inconsistent "None of These Words" Function:**
 
-It also does not catch all the search parameters. Testing both in the web browser and the mobile App, “None of these words” sometimes does not perform as well. It does not remove all the keywords you wish to eliminate. If you put more than 1 or 2 in the “none of these words” field, it will not catch all these parameters, and will sometimes still show results that contain those words you want excluded. \[screenshot?]
+It sometimes does not catch all the search parameters. Testing both in the web browser and the mobile App, the “None of these words” field sometimes does not perform as well. It does not remove all the keywords you wish to eliminate. It will sometimes still show results that contain those words you want excluded.&#x20;
+
+\[screenshot?]
 
 6. **The “Links” Filter Cannot Specify a Domain**
 
-As mentioned above, users can search for posts containing links however one cannot specify which domain. However users can circumvent this limitation by using search operators directly on the search bar. [For example: ](https://medium.com/@prajwalshivareddy/unlocking-the-power-of-x-formerly-twitter-unveiling-effective-search-methods-and-syntax-69974a27d12)url:example.com&#x20;
+As mentioned above, users can search for posts containing links however one cannot specify which domain. Users can circumvent this limitation by using search operators directly on the search bar. [For example: ](https://medium.com/@prajwalshivareddy/unlocking-the-power-of-x-formerly-twitter-unveiling-effective-search-methods-and-syntax-69974a27d12)**url:example.com**
 
 7. **Limits to Available History of Posts**
 
@@ -244,15 +248,15 @@ One can also use the search bar using keywords, and click on the Media tab under
 
 ## Ethical Considerations
 
-**Existing Biases:** Users have a responsibility to be aware of their own biases and to actively seek out diverse viewpoints when using advanced search tools.
+**Existing Biases:** Users have a responsibility to be aware of their own biases and to seek out diverse viewpoints when using advanced search tools actively.
 
 **Verification and Source Evaluation:** Critically evaluating the source and credibility of information found through advanced search is crucial to avoid spreading misinformation.
 
 **Data Privacy and Responsible Search Practices:**
 
-* **Be Mindful of Exposed Information:** Advanced search results, especially for media content (photos, videos), can inadvertently reveal personal information like faces, locations, or identifying details.
-* **Minimize Privacy Risks:** When incorporating search results into reports, be cautious not to include any information that could compromise someone's privacy. Consider techniques like blurring faces or redacting sensitive details.
-* **Transparency with Users:** If your research involves searching for potentially sensitive information, be transparent with users about the data collection practices involved and obtain their informed consent before proceeding.
+* _Be Mindful of Exposed Information:_ Advanced search results, especially for media content (photos, videos), can inadvertently reveal personal information like faces, locations, or identifying details.
+* _Minimize Privacy Risks:_ When incorporating search results into reports, be cautious not to include any information that could compromise someone's privacy. Consider techniques like blurring faces or redacting sensitive details.
+* _Transparency with Users:_ If your research involves searching for potentially sensitive information, be transparent with users about the data collection practices involved and obtain their informed consent before proceeding.
 
 ## Guide
 
@@ -266,11 +270,11 @@ Guides provided by X.com:
 
 [https://developer.x.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators](https://developer.x.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators)
 
-### _**Use case**_&#x20;
+### _**Use cases**_&#x20;
 
 The links below show research that _lends itself to_ using Twitter's Advanced Search feature. But please note that the authors do not explicitly mention using the Advanced Search for their research.
 
-1. Using Twitter Advanced Search, especially its hashtag search, is helpful for monitoring events surrounding a protest or movement. [According to the Atlantic Council's DFRLab](https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2), hashtags are a crucial tool for protest movements. By strategically coordinating hashtags, protesters can amplify their message and draw attention to potential injustices. In this study,&#x20;
+1. Using Twitter Advanced Search, especially its hashtag search, is helpful for monitoring events surrounding a protest or movement. [According to the Atlantic Council's DFRLab](https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2), hashtags are a crucial tool for protest movements. By strategically coordinating hashtags, protesters can amplify their message and draw attention to potential injustices.&#x20;
 
 Link: [https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2](https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2)
 
