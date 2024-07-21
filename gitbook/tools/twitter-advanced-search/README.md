@@ -182,12 +182,6 @@ As open-source investigators, the research process is often iterative. We often 
 
 Manipulating Twitter's Advanced Search features using different parameters like locations, languages, and hashtags becomes crucial in this dynamic process. It allows investigators to continuously refine their search queries, uncovering hidden connections and insights as they delve deeper into the investigation.
 
-\
-\
-
-
-
-
 ## Limitations
 
 
