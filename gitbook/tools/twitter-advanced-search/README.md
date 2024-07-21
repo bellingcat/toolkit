@@ -182,6 +182,16 @@ As open-source investigators, the research process is often iterative. We often 
 
 Manipulating Twitter's Advanced Search features using different parameters like locations, languages, and hashtags becomes crucial in this dynamic process. It allows investigators to continuously refine their search queries, uncovering hidden connections and insights as they delve deeper into the investigation.
 
+**Use case**&#x20;
+
+1. Using Twitter Advanced Search, especially its hashtag search, is helpful for monitoring events and violence surrounding a protest or movement. [According to the Atlantic Council's DFRLab](https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2), hashtags are a crucial tool for protest movements. By strategically coordinating hashtags, protesters can amplify their message and draw attention to potential injustices. In this study,&#x20;
+
+Link: [https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2](https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2)
+
+2. Bellingcat’s investigation of the rapid escalation of Covid in India demonstrates the use of advanced keyword combinations and other strategies  on the Twitter platform.&#x20;
+
+Link: [https://www.bellingcat.com/news/2021/04/23/indias-latest-covid-wave-spills-on-to-social-media-amidst-critical-shortages/](https://www.bellingcat.com/news/2021/04/23/indias-latest-covid-wave-spills-on-to-social-media-amidst-critical-shortages/)
+
 ## Limitations
 
 
