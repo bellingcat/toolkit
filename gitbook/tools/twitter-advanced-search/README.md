@@ -1,8 +1,8 @@
 ---
 description: >-
-  Twitter/X Advanced Search is a robust tool that helps users find more precise
-  information by filtering tweets with specific criteria such as location, user,
-  date, popularity and more.
+  Twitter Advanced Search is a robust tool that helps users find more precise
+  information by filtering posts with specific criteria such as location, user,
+  date, popularity, and more.
 ---
 
 # Twitter Advanced Search
@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-X's (formerly known as Twitter) built-in advanced search supports filtering by keywords, hashtags, language, author, receiver, mentions, replies, links, minimum number of replies/likes/reposts, and dates. Open the link above or navigate to this feature from your account’s homepage, as shown in the image below.
+Twitter/X's built-in advanced search supports filtering by keywords, hashtags, language, author, receiver, mentions, replies, links, minimum number of replies/likes/reposts, and dates. Open the link above or navigate to this feature from the user account’s homepage, as shown in the image below.
 
 {% hint style="info" %}
 TIP: Bookmark the link above to have immediate access to the tool.
@@ -21,11 +21,11 @@ TIP: Bookmark the link above to have immediate access to the tool.
 
 <figure><img src=".gitbook/assets/ScreenRecording2024-07-18190613-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>In addition to clicking the link above, another way to navigate to the Advanced Search feature is shown here. First, input a search term on the search bar from your homepage. Once the results are shown, hover over "Search Filters" to the right, and click "Advanced Search".  </p></figcaption></figure>
 
-### _**Advanced Search Through Web Browser**_
+### _**Advanced Search  (Desktop)**_
 
-&#x20;**WORDS**
+Twitter/X’s Advanced Search makes it ideal for source investigations. It helps refine search queries and produces more subject matter-specific results. While the search interface is mostly self-explanatory, below is a description of each search field, and some useful tips.&#x20;
 
-Twitter/X’s Advanced Search makes it ideal for source investigations. It helps refine search queries and produces more subject matter-specific results. While the search interface is mostly self-explanatory, below is a description of the search fields, and some tips.&#x20;
+**WORDS**
 
 **“All of these words”:** You can search for posts containing specific words, phrases, or hashtags.
 
@@ -47,13 +47,13 @@ It is okay not to use quotation marks for this search parameter. If you do, they
 
 Example: Amsterdam canals&#x20;
 
-This will search for posts with either just “Amsterdam” or just “canals”&#x20;
+This will search for posts with either “Amsterdam” or “canals”&#x20;
 
 {% hint style="info" %}
 Users can add OR between the search terms, and it will generate the same results&#x20;
 {% endhint %}
 
-**“Hashtags”:** Advanced Search allows you to filter your search further using hashtags. This is particularly useful for monitoring events in real-time.&#x20;
+**“Hashtags”:** Advanced search allows users to filter their search further using hashtags. This is particularly useful for monitoring events in real-time.&#x20;
 
 Example: If I want to search for content related to Myanmar but only want to focus on the June 3rd coup, I will enter “Myanmar” on the top field and “June3Coup” or “WhatsHappingInMyanmar” on the hashtag field. &#x20;
 
@@ -61,11 +61,11 @@ Example: If I want to search for content related to Myanmar but only want to foc
 Users do not have to use the hash (#) symbol in the field, but the tool generates the same search if they choose to. (i.e. June3Coup or #June3Coup will generate the same results) &#x20;
 {% endhint %}
 
-**“Language”:** Twitter Advanced Search allows you to zero in on posts in a specific language, refining your search for better results.
+**“Language”:** Advanced Search allows users to zero in on posts in a specific language, refining their search for better results
 
 Example: If I am interested in learning about the farmers' protest in the EU, but only want to get results in Dutch, the  parameters may look like this:
 
-\[placeholder for screenshot]
+&#x20;\[Placeholder]
 
 {% hint style="info" %}
 TIP:&#x20;
@@ -86,35 +86,35 @@ To focus on local content in a specific language:
 
 **ACCOUNTS**
 
-Find posts **from** specific accounts **to** specific accounts or **mention** specific accounts. This enables users to see the interaction or exchange between accounts. This is particularly useful for tracking disinformation/misinformation to see who has interacted with which content and whether or not those accounts agree or disagree with each other.&#x20;
+Find posts from specific accounts to specific accounts or mention specific accounts. This enables users to see their interactions or exchanges. It is particularly useful for tracking disinformation/misinformation to see who has interacted with which content and the reputation of the accounts. &#x20;
 
 These are the subfilters:&#x20;
 
-**“From these accounts”** Searching for posts from \`@Iamsterdam\` will show posts posted by this account.
+**“From these accounts”** Searching for posts from `@Iamsterdam` will show posts posted by this account.
 
-**“To these accounts.”** Searching for posts sent to @Iamsterdam will show posts in which other users mentioned or replied to @Iamsterdam.
+**“To these accounts”** Searching for posts sent to @Iamsterdam will show posts in which other users replied to @Iamsterdam.
 
-**“Mentioning these accounts”** Searching for posts mentioning @Iamsterdam will show posts from other users that include the @Iamsterdam handle.
+**“Mentioning these accounts”** Searching for posts mentioning @Iamsterdam will show posts from other users that include and mention the @Iamsterdam handle. It does not seem to show replies to that handle.
 
 {% hint style="info" %}
 TIP: You can input more than one account
 {% endhint %}
 
 \
-**“Filters”:** Refine your Twitter search! Advanced Search lets you choose whether to include replies, ensuring you see the full conversation or focus solely on original posts.
+**“Filters”:** Refine your search. Advanced Search lets you choose whether to include replies, ensuring you see the full conversation or focus solely on original posts.
 
 To see only original posts, deselect the "Replies" checkbox under "Account Filters" in Twitter Advanced Search.
 
 \[placeholder screenshot]
 
-**“Replies”:** One targeted feature is the ability to focus solely on replies. By excluding original posts, you can gain a deeper understanding of the ongoing discussion surrounding a particular topic.
+**“Replies”:** One targeted feature is the ability to focus solely on replies. By excluding original posts, you can gain an understanding of the ongoing discussion surrounding a particular topic.
 
 This ability to isolate replies proves especially valuable in numerous areas. For instance:
 
-* Sentiment Analysis: By analyzing replies, you can gauge the public's emotional response to a brand, product, or event.
+* Sentiment Analysis: By analyzing replies, you can gauge the public's emotional response to an event.
 * Tracking Opinions: Focusing on replies allows you to see what people are saying about a specific topic, revealing trends.&#x20;
 
-**“Links”:** Twitter Advanced Search lets you refine your results even further. You can choose to see only posts containing links. This can be useful for finding content that references external sources.
+**“Links”:** Advanced Search lets you refine your results even further. You can choose to see only posts containing links. This can be useful for finding content that references external sources.
 
 {% hint style="info" %}
 TIP: This filter does not allow you to specify a specific website or URL. The search will simply include posts with any link, regardless of the domain.
