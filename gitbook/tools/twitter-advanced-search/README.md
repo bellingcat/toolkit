@@ -25,7 +25,7 @@ TIP: Bookmark the link above to have immediate access to the tool.
 
 Twitter/X’s Advanced Search makes it ideal for source investigations. It helps refine search queries and produces more subject matter-specific results. While the search interface is mostly self-explanatory, below is a description of each search field, and some useful tips.&#x20;
 
-**WORDS**
+#### **WORDS**
 
 **“All of these words”:** You can search for posts containing specific words, phrases, or hashtags.
 
@@ -84,7 +84,7 @@ To focus on local content in a specific language:
 2. Use the translated keywords in your Twitter Advanced Search.
 {% endhint %}
 
-**ACCOUNTS**
+#### **ACCOUNTS**
 
 Find posts from specific accounts to specific accounts or mention specific accounts. This enables users to see their interactions or exchanges. It is particularly useful for tracking disinformation/misinformation to see who has interacted with which content and the reputation of the accounts. &#x20;
 
@@ -120,15 +120,15 @@ This ability to isolate replies proves especially valuable in numerous areas. Fo
 TIP: This filter does not allow you to specify a specific website or URL. The search will simply include posts with any link, regardless of the domain.
 {% endhint %}
 
-**ENGAGEMENTS**
+#### **ENGAGEMENTS**
 
 {% hint style="warning" %}
-NOTE: If you want to cut through the noise and discover the most popular posts on a topic. Twitter's "Top posts" tab might seem like the answer, but it doesn't always show the absolute most engaging content. [The "Top posts" algorithm considers various factors, making it unpredictable.](https://blog.x.com/engineering/en\_us/topics/open-source/2023/twitter-recommendation-algorithm) Use Advanced Search instead.&#x20;
+NOTE: If you want to cut through the noise and discover the most popular posts on a topic, Twitter's "Top posts" tab might seem like the answer, but it doesn't always show the absolute most engaging content. [The "Top posts" algorithm considers various factors, making it unpredictable.](https://blog.x.com/engineering/en\_us/topics/open-source/2023/twitter-recommendation-algorithm) Use Advanced Search instead.&#x20;
 {% endhint %}
 
-In Twitter Advanced Search, you can define your own criteria for engagement. Want to see posts with at least 1,000 likes or replies? Advanced Search lets you set precise thresholds for minimum likes, reposts, replies, or even a combination of these metrics. This way, you'll get a clear picture of the most engaging posts that meet your specific requirements.
+In Advanced Search, users can define their criteria for engagement. Want to see posts with at least 1,000 likes or replies? Advanced Search lets users set precise thresholds for minimum likes, reposts, replies, or even a combination of these metrics. This way, you'll get a clear picture of the most engaging posts that meet specific requirements.
 
-You can set your own parameters for the following subfields:
+You can set your parameters for the following subfields:
 
 **“Minimum replies”**
 
@@ -138,9 +138,9 @@ You can set your own parameters for the following subfields:
 
 This granular control ensures the retrieval of posts that demonstrably resonate with a significant portion of the user base.
 
-**DATES**
+#### **DATES**
 
-For highly focused searches, Twitter Advanced Search offers date range filtering..
+For highly focused searches, Advanced Search offers date range filtering.
 
 To filter tweets by date, use the calendar dropdown menus in Twitter Advanced Search. Simply select:
 
@@ -151,16 +151,16 @@ To filter tweets by date, use the calendar dropdown menus in Twitter Advanced Se
 **Both "From" and "To" dates:** This will return tweets sent _**within**_ that specific date range.
 
 {% hint style="info" %}
-TIP:&#x20;
+TIP 1:&#x20;
 
 **Before a specific date:** Perfect for exploring historical trends or past events.&#x20;
 
 **After a specific date:** Ideal for catching up on recent discussions or tracking breaking news.&#x20;
 
 **Within a defined date range:** Ideal for isolating tweets from a specific timeframe, like a conference or campaign
-{% endhint %}
 
-If a user changes their handle, the [Advanced Search](https://twitter.com/search-advanced?lang=en) tool won't return tweets under the new handle that were posted under the old handle, but searching for tweets under the old handle still works.
+TIP 2: Add a few days on the "before" and "after" fields, to make sure you have wide coverage of results.&#x20;
+{% endhint %}
 
 ### _**Advanced Search Through Mobile App**_
 
