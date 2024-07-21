@@ -17,6 +17,24 @@ https://app.shadowmap.org/
 
 \[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
 
+{% tabs %}
+{% tab title="Input Data" %}
+
+{% endtab %}
+
+{% tab title="Output Data" %}
+
+{% endtab %}
+
+{% tab title="Data Input Options" %}
+
+{% endtab %}
+{% endtabs %}
+
+### The Interface
+
+
+
 ## Cost
 
 * [ ] Free
