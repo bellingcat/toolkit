@@ -19,7 +19,7 @@ description: >-
 
 </div>
 
-Yandex Maps is a mapping service provided on the Russian-owned integrated Yandex platform, which also offers services on Image Search, Video Search, Translation/Interpretation, Weather,... Its stated focus is primarily on cities (but remote areas seem covered to a good standard also), and also organisations. Its global data is generally stronger and more detailed around Russia, Eastern Europe and Asia, in contrast with Google's mapping tools, which are stronger in Western Europe and North America. Yandex Maps has a different interface from Google mapping tools, most noticeably:&#x20;
+Yandex Maps is a mapping service provided on the Russian-owned integrated Yandex platform, which also offers services on Image Search, Video Search, Translation/Interpretation, Weather,... Its stated focus is primarily on cities (but remote areas seem covered to a good standard also), and also organisations. Its global data is generally stronger and more detailed around Russia, Eastern Europe and Asia, in contrast with Google's mapping tools, which are stronger in Western Europe and North America. Yandex Maps has a different interface from Google mapping tools, most noticeably:
 
 * **No Google "Yellow Man" to fix a StreetView location:** the absence of the Google 'yellow man' figure to drag and drop into a location as a means of viewing "Streetview" imagery stored there.
 * **Satellite Sources:** different satellite imagery sources from Google.
@@ -44,15 +44,15 @@ For political/security reasons, some map data is made unavailable in Yandex Maps
 {% endtab %}
 
 {% tab title="User Data Input" %}
-* New Location&#x20;
-* Background view option from Map, Satellite or Map/Satellite Hybrid&#x20;
-* View Rotation/Tilt&#x20;
-* Map Scale&#x20;
+* New Location
+* Background view option from Map, Satellite or Map/Satellite Hybrid
+* View Rotation/Tilt
+* Map Scale
 * Start/End of Ruler
 * Area to measure
-* Co-ordinates or place name or organisation&#x20;
+* Co-ordinates or place name or organisation
 * Selection of panorama or photo
-* &#x20;Selected route which has "Mirror" data
+* Selected route which has "Mirror" data
 * Route Start Location and Route End Location, Polygon route vertices
 * Transport Mode
 * Start Time
@@ -82,10 +82,8 @@ For political/security reasons, some map data is made unavailable in Yandex Maps
 ### Yandex Maps Interface
 
 {% hint style="warning" %}
-Many Toolbar Items and Features are only available at certain levels of map Zoom settings. e.g. Mirrors feature is only invoked upon Zooming In on the map.&#x20;
+Many Toolbar Items and Features are only available at certain levels of map Zoom settings. e.g. Mirrors feature is only invoked upon Zooming In on the map.
 {% endhint %}
-
-
 
 Yandex Maps offers a FIVE VIEWS from the five feature icon toolbar at screen top right:
 
@@ -107,13 +105,11 @@ VIEW 4: Public Transport (vehicle icon):
 
 VIEW FIVE: Map Background Selection: Map/Satellite/Hybrid (squares icon):
 
-
-
 <div>
 
 <figure><img src=".gitbook/assets/YandexBackgroundMenuSelect (2).JPG" alt="" width="375"><figcaption><p>USING THE TABS TO SELECT ONE OF THREE BACKGROUND VIEWS: MAP, SATELLITE OR HYBRID</p></figcaption></figure>
 
-
+ 
 
 <figure><img src=".gitbook/assets/YandexToolbarandMenu.JPG" alt="" width="563"><figcaption><p>FIVE FEATURE TOOLBAR SCREEN TOP RIGHT AND THREE DOTS MENU WITH USER ACTIONS</p></figcaption></figure>
 
@@ -133,7 +129,7 @@ Basic Yandex Maps functionality can be used for free, but there is a Yandex Plus
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
-Yandex Maps is relatively easy to use. It is confusing that so many features only appear at certain levels of Zoom magnification, rather than being shown a feature 'greyed out' as available but not in the current interface mode. Yandex features compare well with Google Earth tools, so only those users who are accustomed to the Google interfaces may have initial difficulty switching to Yandex Maps.
+Yandex Maps is relatively easy to use. It is confusing that so many features only appear at certain levels of Zoom magnification, rather than being shown a feature 'greyed out' as available but not in the current interface mode. Yandex features compare well with Google Earth tools, so only those users who are accustomed to the Google interfaces may have initial difficulty switching to Yandex Maps. The Help documentation provided for users of Yandex Maps is of a very high standard, and its approach is to explain concepts very clearly and provide good case studies and examples.
 
 ## Requirements
 
@@ -151,7 +147,7 @@ Yandex Maps should be used with a VPN as its trackers present a challenge to Ope
 
 ## Ethical Considerations
 
-The ethical considerations in using Yandex Maps are those of any other mapping service. It is potentially more intrusive than similar tools because of its emphasis on personal appointments, advertising, etc.&#x20;
+The ethical considerations in using Yandex Maps are those of any other mapping service. It is potentially more intrusive than similar tools because of its emphasis on personal appointments, advertising, etc.
 
 ## Guide
 
@@ -177,4 +173,3 @@ Yandex LLC. Headquarters in Russia
 | --------------- |
 | Sophie Tedling  |
 |                 |
-
