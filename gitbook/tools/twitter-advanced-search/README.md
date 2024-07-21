@@ -207,11 +207,55 @@ Link: [https://www.bellingcat.com/news/2021/04/23/indias-latest-covid-wave-spill
 
 ## Limitations
 
+The following limitations were found by testing the tool.&#x20;
+
+1. **Handle Changes and Search Scope:**
+
+If a user changes their handle, the[ Advanced Search](https://twitter.com/search-advanced?lang=en) tool won't return posts under the new handle that were posted under the old handle, but searching for posts under the old handle still works.
+
+2. **Missing Misspellings and Variations:**
+
+Even after using the advanced search tool, you might miss tweets with typos or variations in the spelling of your search term. This is because the tool searches for exact matches.
+
+The fix is to cast a wider net. Here's the good news: you can improve your search results by considering misspelled variations. Simply take those misspellings and alternative spellings you discover and use them as new search terms related to the same topic. Add these variations to your existing list of keyword combinations.
+
+By including these additional spellings, you'll be conducting a more comprehensive search and ensure you capture more relevant tweets, even if they contain typos.
+
+3. **Keyword Specificity and Irrelevant Results:**
+
+After testing the tool, if the keyword is common or used in different contexts, it might retrieve irrelevant mentions. Let's say you're searching for information about the recent developments in "electric cars." This is a common term, used in many different contexts.
+
+The search might return tweets about a toy car commercial featuring electric vehicles, a news report on a power outage affecting electric car charging stations, etc., and might not be relevant to your specific interest in the latest advancements in electric car technology.
+
+4. **Account Requirement for Advanced Search:**
+
+After testing the Advanced Search tool in both Incognito Mode and regular browsing, in both cases, using the tool required signing into an account. This means you cannot access Advanced Search features on X.com without logging in. For some, requiring an account restricts access to these crucial functionalities for investigators who prefer anonymity.&#x20;
+
+5. **Inconsistent "None of These Words" Function:**
+
+It also does not catch all the search parameters. Testing both in the web browser and the mobile App, “None of these words” sometimes does not perform as well. It does not remove all the keywords you wish to eliminate. If you put more than 1 or 2 in the “none of these words” field, it will not catch all these parameters, and will sometimes still show results that contain those words you want excluded.&#x20;
+
+6. **The “Links” Filter Cannot Specify a Domain**
+
+As mentioned above, users can search for posts containing links however one cannot specify which domain. However users can circumvent this limitation by using search operators directly on the search bar. [For example: ](https://medium.com/@prajwalshivareddy/unlocking-the-power-of-x-formerly-twitter-unveiling-effective-search-methods-and-syntax-69974a27d12)url:example.com&#x20;
+
+7. **Limits to Available History of Posts**
+
+Twitter's Advanced Search boasts an impressive range, allowing you to delve into tweets [dating back to the platform's launch and first public post in 2006](https://help.x.com/en/using-x/x-advanced-search). However, keep in mind that private accounts and deleted tweets may be absent from your search results.&#x20;
+
+8. **Inability to Filter For Media**
+
+Open-source investigators are constantly looking for and collecting media during research, whether images or videos. The Advanced Search does not have a search filter for this. To do so, investigators may prefer to  use boolean or search operators on the search bar to find what they need. An example would be to input “Amsterdam” as a keyword and add [filter:native\_video (or filter:media or filter:videos, etc)](https://github.com/igorbrigadir/twitter-advanced-search)
+
+One can also use the search bar using keywords, and click on the Media tab under the results
+
+\[placeholder screenshot]
+
 ## Ethical Considerations
 
 ## Tool provider
 
-Twitter/X
+X.com&#x20;
 
 San Francisco, California&#x20;
 
