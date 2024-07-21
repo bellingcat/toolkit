@@ -1,6 +1,6 @@
 ---
 description: >-
-  Twitter's Advanced Search is a robust tool that helps users find more precise
+  Twitter/X Advanced Search is a robust tool that helps users find more precise
   information by filtering tweets with specific criteria such as location, user,
   date, popularity and more.
 ---
@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-Twitter/X's built-in advanced search supports filtering by keywords, hashtags, language, author, receiver, mentions, replies, links, minimum number of replies/likes/reposts, and dates. Open the link above or navigate to this feature from your account’s homepage, as shown in the image below.
+X's (formerly known as Twitter) built-in advanced search supports filtering by keywords, hashtags, language, author, receiver, mentions, replies, links, minimum number of replies/likes/reposts, and dates. Open the link above or navigate to this feature from your account’s homepage, as shown in the image below.
 
 {% hint style="info" %}
 TIP: Bookmark the link above to have immediate access to the tool.
