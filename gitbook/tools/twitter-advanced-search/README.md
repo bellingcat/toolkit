@@ -182,16 +182,6 @@ As open-source investigators, the research process is often iterative. We often 
 
 Manipulating Twitter's Advanced Search features using various combinations of parameters like locations, languages, and hashtags becomes crucial in this dynamic process. It allows investigators to refine their search queries continuously, as they delve deeper into the investigation.
 
-### _**Use case**_&#x20;
-
-1. Using Twitter Advanced Search, especially its hashtag search, is helpful for monitoring events and violence surrounding a protest or movement. [According to the Atlantic Council's DFRLab](https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2), hashtags are a crucial tool for protest movements. By strategically coordinating hashtags, protesters can amplify their message and draw attention to potential injustices. In this study,&#x20;
-
-Link: [https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2](https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2)
-
-2. Bellingcat’s investigation of the rapid escalation of Covid in India demonstrates the use of advanced keyword combinations and other strategies  on the Twitter platform.&#x20;
-
-Link: [https://www.bellingcat.com/news/2021/04/23/indias-latest-covid-wave-spills-on-to-social-media-amidst-critical-shortages/](https://www.bellingcat.com/news/2021/04/23/indias-latest-covid-wave-spills-on-to-social-media-amidst-critical-shortages/)
-
 ## Cost
 
 * [x] Free
@@ -248,7 +238,7 @@ Twitter's Advanced Search boasts an impressive range, allowing you to delve into
 
 Open-source investigators are constantly looking for and collecting media during research, whether images or videos. The Advanced Search does not have a search filter for this. To do so, investigators may prefer to  use boolean or search operators on the search bar to find what they need. An example would be to input “Amsterdam” as a keyword and add [filter:native\_video (or filter:media or filter:videos, etc)](https://github.com/igorbrigadir/twitter-advanced-search)
 
-One can also use the search bar using keywords, and click on the Media tab under the results
+One can also use the search bar using keywords, and click on the Media tab under the results.
 
 \[placeholder screenshot]
 
@@ -257,6 +247,28 @@ One can also use the search bar using keywords, and click on the Media tab under
 
 
 ## Guide
+
+Guides provided by X.com:
+
+[https://help.x.com/en/using-x/x-advanced-search](https://help.x.com/en/using-x/x-advanced-search)
+
+[https://developer.x.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators](https://developer.x.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators)
+
+
+
+Guide for journalists from The Fix:
+
+[https://thefix.media/2022/11/16/social-advanced-search-is-something-that-you-can-do-on-twitter-too](https://thefix.media/2022/11/16/social-advanced-search-is-something-that-you-can-do-on-twitter-too)
+
+### _**Use case**_&#x20;
+
+1. Using Twitter Advanced Search, especially its hashtag search, is helpful for monitoring events surrounding a protest or movement. [According to the Atlantic Council's DFRLab](https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2), hashtags are a crucial tool for protest movements. By strategically coordinating hashtags, protesters can amplify their message and draw attention to potential injustices. In this study,&#x20;
+
+Link: [https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2](https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2)
+
+2. Bellingcat’s investigation of the rapid escalation of Covid in India demonstrates the use of advanced keyword combinations and other strategies on the Twitter platform.&#x20;
+
+Link: [https://www.bellingcat.com/news/2021/04/23/indias-latest-covid-wave-spills-on-to-social-media-amidst-critical-shortages/](https://www.bellingcat.com/news/2021/04/23/indias-latest-covid-wave-spills-on-to-social-media-amidst-critical-shortages/)
 
 ## Tool provider
 
