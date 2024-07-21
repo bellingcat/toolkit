@@ -244,7 +244,15 @@ One can also use the search bar using keywords, and click on the Media tab under
 
 ## Ethical Considerations
 
+**Existing Biases:** Users have a responsibility to be aware of their own biases and to actively seek out diverse viewpoints when using advanced search tools.
 
+**Verification and Source Evaluation:** Critically evaluating the source and credibility of information found through advanced search is crucial to avoid spreading misinformation.
+
+**Data Privacy and Responsible Search Practices:**
+
+* **Be Mindful of Exposed Information:** Advanced search results, especially for media content (photos, videos), can inadvertently reveal personal information like faces, locations, or identifying details.
+* **Minimize Privacy Risks:** When incorporating search results into reports, be cautious not to include any information that could compromise someone's privacy. Consider techniques like blurring faces or redacting sensitive details.
+* **Transparency with Users:** If your research involves searching for potentially sensitive information, be transparent with users about the data collection practices involved and obtain their informed consent before proceeding.
 
 ## Guide
 
