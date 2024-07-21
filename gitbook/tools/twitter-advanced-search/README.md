@@ -218,7 +218,7 @@ If a user changes their handle, the[ Advanced Search](https://twitter.com/search
 
 Even after using the advanced search tool, you might miss tweets with typos or variations in the spelling of your search term. This is because the tool searches for exact matches.
 
-The fix is to cast a wider net. Here's the good news: you can improve your search results by considering misspelled variations. Simply take those misspellings and alternative spellings you discover and use them as new search terms related to the same topic. Add these variations to your existing list of keyword combinations.
+The fix is to cast a wider net. You can improve your search results by considering misspelled variations. Simply take those misspellings and alternative spellings you discover and use them as new search terms related to the same topic. Add these variations to your existing list of keyword combinations.
 
 By including these additional spellings, you'll be conducting a more comprehensive search and ensure you capture more relevant tweets, even if they contain typos.
 
