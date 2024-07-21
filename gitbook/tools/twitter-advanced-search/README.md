@@ -258,7 +258,15 @@ One can also use the search bar using keywords, and click on the Media tab under
 
 X.com&#x20;
 
+Elon Musk
+
 San Francisco, California&#x20;
+
+## Advertising Trackers
+
+* [ ] &#x20;This tool has not been checked for advertising trackers yet.
+* [ ] This tool uses tracking cookies. Use with caution.
+* [x] This tool does not appear to use tracking cookies.&#x20;
 
 | Page Maintainers |
 | ---------------- |
