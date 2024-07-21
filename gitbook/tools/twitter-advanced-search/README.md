@@ -1,6 +1,6 @@
 ---
 description: >-
-  Twitter's Advanced Search is a robust tool that helps you find more precise
+  Twitter's Advanced Search is a robust tool that helps users find more precise
   information by filtering tweets with specific criteria such as location, user,
   date, popularity and more.
 ---
@@ -162,7 +162,7 @@ TIP:&#x20;
 
 If a user changes their handle, the [Advanced Search](https://twitter.com/search-advanced?lang=en) tool won't return tweets under the new handle that were posted under the old handle, but searching for tweets under the old handle still works.
 
-### _**Advanced Search Through Mobile App:**_
+### _**Advanced Search Through Mobile App**_
 
 If doing Advanced Search on a mobile device, users can go to the mobile device’s web browser and perform the steps above with the Advanced Search interface.&#x20;
 
@@ -192,19 +192,22 @@ Link: [https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-the
 
 Link: [https://www.bellingcat.com/news/2021/04/23/indias-latest-covid-wave-spills-on-to-social-media-amidst-critical-shortages/](https://www.bellingcat.com/news/2021/04/23/indias-latest-covid-wave-spills-on-to-social-media-amidst-critical-shortages/)
 
-## Limitations
-
-
-
-## Ethical Considerations
-
 ## Cost
 
 * [x] Free
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
+
+## Requirements
+
+1. Internet connection
+2. Desktop/Laptop/Mobile Device (for mobile, use the web browser instead of the App)
+
+## Limitations
+
+## Ethical Considerations
 
 ## Tool provider
 
