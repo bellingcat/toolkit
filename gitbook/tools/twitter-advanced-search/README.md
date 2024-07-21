@@ -180,7 +180,7 @@ In April 2024, Statista estimated a staggering [611 million people ](https://www
 
 As open-source investigators, the research process is often iterative. We often start broad, using search terms like "protest" and "Syria" in the discovery phase. As we sift through the initial results, we might encounter posts mentioning a specific location like "Daraa" or a prominent activist group named "Syrian Revolutionary Forces." These findings become stepping stones. We then refine our search terms, incorporating these new details or harvesting new search terms. This might involve searching for posts containing "Daraa protest" or "Syrian Revolutionary Forces leader." The search might also expand to Arabic hashtags related to the protest or the activist group.
 
-Manipulating Twitter's Advanced Search features using different parameters like locations, languages, and hashtags becomes crucial in this dynamic process. It allows investigators to continuously refine their search queries, uncovering hidden connections and insights as they delve deeper into the investigation.
+Manipulating Twitter's Advanced Search features using various combinations of parameters like locations, languages, and hashtags becomes crucial in this dynamic process. It allows investigators to refine their search queries continuously, as they delve deeper into the investigation.
 
 ### _**Use case**_&#x20;
 
