@@ -19,7 +19,7 @@ X's (formerly known as Twitter) built-in advanced search supports filtering by k
 TIP: Bookmark the link above to have immediate access to the tool.
 {% endhint %}
 
-\[Placeholder for image/gif]&#x20;
+<figure><img src=".gitbook/assets/ScreenRecording2024-07-18190613-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>In addition to clicking the link above, another way to navigate to the Advanced Search feature is shown here. First, input a search term on the search bar from your homepage. Once the results are shown, hover over "Search Filters" to the right, and click "Advanced Search".  </p></figcaption></figure>
 
 ### _**Advanced Search Through Web Browser**_
 
