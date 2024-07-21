@@ -65,7 +65,7 @@ Users do not have to use the hash (#) symbol in the field, but the tool generate
 
 Example: If I am interested in learning about the farmers' protest in the EU, but only want to get results in Dutch, the  parameters may look like this:
 
-&#x20;\[Placeholder]
+&#x20;
 
 {% hint style="info" %}
 TIP:&#x20;
@@ -83,6 +83,18 @@ To focus on local content in a specific language:
 1. Translate your keywords using Google Translate or DeepL.
 2. Use the translated keywords in your Twitter Advanced Search.
 {% endhint %}
+
+<div align="left">
+
+<figure><img src=".gitbook/assets/Screenshot 2024-07-20 012204-2 (1).png" alt="" width="375"><figcaption><p>Here is an example of a search using the language function, with the keyword being in English, but the language output being in Dutch.  </p></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src=".gitbook/assets/Screenshot 2024-07-20 012255-2 (1).png" alt="" width="375"><figcaption><p>This image is the sample result of the search with the language filter. As you can see, the keyword is in English but the rest of the content is still in the selected language filter, in this case, Dutch. </p></figcaption></figure>
+
+</div>
 
 #### **ACCOUNTS**
 
