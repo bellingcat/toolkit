@@ -186,7 +186,7 @@ Saving searches is simple:
 
 <figure><img src=".gitbook/assets/ScreenRecording2024-07-22113536-ezgif.com-video-to-gif-converter.gif" alt="" width="563"><figcaption><p>This image shows you the steps on how to save your searches. This is especially convenient if monitoring and revisiting the same issue for an investigation. </p></figcaption></figure>
 
-### _**Advanced Search Through Mobile App**_
+### _**Advanced Search (Mobile App)**_
 
 {% hint style="success" %}
 If doing Advanced Search on a mobile device, users should go to the mobile device’s web browser and perform the steps outlined above with the Advanced Search interface, not the App. &#x20;
