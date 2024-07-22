@@ -63,10 +63,6 @@ Users do not have to use the hash (#) symbol in the field, but the tool generate
 
 **“Language”:** Advanced Search allows users to zero in on posts in a specific language, refining their search for better results
 
-Example: If I am interested in learning about the farmers' protest in the EU, but only want to get results in Dutch, the  parameters may look like this:
-
-&#x20;
-
 {% hint style="info" %}
 TIP:&#x20;
 
@@ -83,6 +79,8 @@ To focus on local content in a specific language:
 1. Translate your keywords using Google Translate or DeepL.
 2. Use the translated keywords in your Twitter Advanced Search.
 {% endhint %}
+
+Example: If I am interested in learning about the farmers' protest in the EU, but only want to get results in Dutch, the  parameters may look like this:
 
 <div align="left">
 
