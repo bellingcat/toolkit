@@ -176,6 +176,18 @@ TIP #2:&#x20;
 Add a few days on the "before" and "after" fields, to make sure you have wide coverage of results.&#x20;
 {% endhint %}
 
+#### “SAVE THIS SEARCH” FUNCTION&#x20;
+
+This feature is ideal for monitoring or tracking breaking news and accounts that are experts in your research topic. &#x20;
+
+Saving searches is simple:
+
+1. Enter your search parameters in the Advanced Search (e.g., #UkraineWar, “Kyiv”), and click Enter.&#x20;
+2. Click the three dots next to the bar.
+3. Select "Save this search" (up to 25 searches allowed).
+
+\[placeholder for screenshot?]
+
 ### _**Advanced Search Through Mobile App**_
 
 If doing Advanced Search on a mobile device, users can go to the mobile device’s web browser and perform the steps above with the Advanced Search interface.&#x20;
