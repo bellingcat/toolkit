@@ -188,8 +188,6 @@ Saving searches is simple:
 
 ### _**Advanced Search Through Mobile App**_
 
-If doing Advanced Search on a mobile device, users can go to the mobile device’s web browser and perform the steps above with the Advanced Search interface.&#x20;
-
 {% hint style="success" %}
 If doing Advanced Search on a mobile device, it is preferrable that users go to the mobile device’s web browser and perform the steps outlined above with the Advanced Search interface, not the App. &#x20;
 {% endhint %}
