@@ -192,6 +192,10 @@ Saving searches is simple:
 
 If doing Advanced Search on a mobile device, users can go to the mobile device’s web browser and perform the steps above with the Advanced Search interface.&#x20;
 
+{% hint style="success" %}
+If doing Advanced Search on a mobile device, it is preferrable that users go to the mobile device’s web browser and perform the steps outlined above with the Advanced Search interface, not the App. &#x20;
+{% endhint %}
+
 However, if you must do a granular search on the X app, you can do so in the search box, using operators or boolean, just as one would when searching various search engines like Google.&#x20;
 
 X’s website provides [a list](https://developer.x.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators) of helpful operators that users can use or memorize to be able to perform the functions outlined above. However, [use this page](https://github.com/igorbrigadir/twitter-advanced-search) for a more exhaustive list of operators for the App search bar.&#x20;
