@@ -189,7 +189,7 @@ Saving searches is simple:
 ### _**Advanced Search (Mobile App)**_
 
 {% hint style="success" %}
-If doing Advanced Search on a mobile device, users should go to the mobile device’s web browser and perform the steps outlined above with the Advanced Search interface, not the App. &#x20;
+If doing Advanced Search on a mobile device, it may be preferable to go to the mobile device’s web browser and perform the steps outlined above with the Advanced Search interface, not the App. &#x20;
 {% endhint %}
 
 However, if you must do a granular search on the X app, you can do so in the search box, using operators or boolean, just as one would when searching various search engines like Google.&#x20;
