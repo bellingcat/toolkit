@@ -180,16 +180,16 @@ This feature is ideal for monitoring or tracking breaking news and accounts that
 
 Saving searches is simple:
 
-1. Enter your search parameters in the Advanced Search (e.g., #UkraineWar, “Kyiv”), and click Enter.&#x20;
+1. Enter your search parameters in the Advanced Search (e.g., #WhatisHappinginMyanmar, “Mandalay”), and click Enter.&#x20;
 2. Click the three dots next to the bar.
 3. Select "Save this search" (up to 25 searches allowed).
 
-\[placeholder for screenshot?]
+<figure><img src=".gitbook/assets/ScreenRecording2024-07-22113536-ezgif.com-video-to-gif-converter.gif" alt="" width="563"><figcaption><p>This image shows you the steps on how to save your searches. This is especially convenient if monitoring and revisiting the same issue for an investigation. </p></figcaption></figure>
 
 ### _**Advanced Search Through Mobile App**_
 
 {% hint style="success" %}
-If doing Advanced Search on a mobile device, it is preferrable that users go to the mobile device’s web browser and perform the steps outlined above with the Advanced Search interface, not the App. &#x20;
+If doing Advanced Search on a mobile device, users should go to the mobile device’s web browser and perform the steps outlined above with the Advanced Search interface, not the App. &#x20;
 {% endhint %}
 
 However, if you must do a granular search on the X app, you can do so in the search box, using operators or boolean, just as one would when searching various search engines like Google.&#x20;
