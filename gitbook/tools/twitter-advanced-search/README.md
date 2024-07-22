@@ -196,7 +196,9 @@ However, if you must do a granular search on the X app, you can do so in the sea
 
 X’s website provides [a list](https://developer.x.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators) of helpful operators that users can use or memorize to be able to perform the functions outlined above. However, [use this page](https://github.com/igorbrigadir/twitter-advanced-search) for a more exhaustive list of operators for the App search bar.&#x20;
 
-A sample search done on mobile can be seen in the image below.&#x20;
+A sample search done on mobile can be seen in the image below.
+
+<figure><img src=".gitbook/assets/MobileSearchSpeed-ezgif.com Crop.gif" alt=""><figcaption><p>Advanced search on the app or on the search bar requires knowing which operators to use, to be able to take advantage of the feature on the app. In this example, we input the following search query:  Paris -Olympics -Olympic -medal -Olympique -athlete -athlète . The goal is to try to find posts about Paris but without too many references to the Olympics. Instead of using "All these words" field we just input our keywords directly which is Paris. Instead of using the "none of these words" field, we use the minus sign (-) before other words we want to exclude. </p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/Screenshot 2024-07-22 130418-mobile search.png" alt=""><figcaption><p>Doing an advanced search on the X app requires knowing a few search operators and inputting them directly into the search bar as shown on the top of the left image. The results include the keyword "Paris" but none of the words "Olympics" "Olympic" "medal" and "Olympique".  </p></figcaption></figure>
 
@@ -251,8 +253,6 @@ After testing the Advanced Search tool in both Incognito Mode and regular browsi
 5. **Inconsistent "None of These Words" Function:**
 
 It sometimes does not catch all the search parameters. Testing both in the web browser and the mobile App, the “None of these words” field sometimes does not perform as well. It does not remove all the keywords you wish to eliminate. It will sometimes still show results that contain those words you want excluded.&#x20;
-
-\[screenshot?]
 
 6. **The “Links” Filter Cannot Specify a Domain**
 
