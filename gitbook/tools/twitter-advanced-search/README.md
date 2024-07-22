@@ -200,7 +200,7 @@ A sample search done on mobile can be seen in the image below.
 
 <figure><img src=".gitbook/assets/MobileSearchSpeed-ezgif.com crop2.gif" alt=""><figcaption><p>Advanced search on the app or on the search bar requires knowing which operators to use, to be able to take advantage of the feature on the app. In this example, we input the following search query:  Paris -Olympics -Olympic -medal -Olympique -athlete -athlète . The goal is to try to find posts about Paris but without too many references to the Olympics. Instead of using "All these words" field we just input our keywords directly which is Paris. Instead of using the "none of these words" field, we use the minus sign (-) before other words we want to exclude. </p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Screenshot 2024-07-22 130418-mobile search.png" alt=""><figcaption><p>Doing an advanced search on the X app requires knowing a few search operators and inputting them directly into the search bar as shown on the top of the left image. The results include the keyword "Paris" but none of the words "Olympics" "Olympic" "medal" and "Olympique".  </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-07-22 130418-mobile search.png" alt=""><figcaption><p>After performing the search as shown above, the results appear. They include the keyword "Paris" but none of the words "Olympics" "Olympic" "medal" and "Olympique", etc.   </p></figcaption></figure>
 
 ### _**What problem does it solve?**_&#x20;
 
