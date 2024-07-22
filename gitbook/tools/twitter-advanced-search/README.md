@@ -198,7 +198,7 @@ X’s website provides [a list](https://developer.x.com/en/docs/twitter-api/v1/r
 
 A sample search done on mobile can be seen in the image below.&#x20;
 
-\[placeholder]
+<figure><img src=".gitbook/assets/Screenshot 2024-07-22 130418-mobile search.png" alt=""><figcaption><p>Doing an advanced search on the X app requires knowing a few search operators and inputting them directly into the search bar as shown on the top of the left image. The results include the keyword "Paris" but none of the words "Olympics" "Olympic" "medal" and "Olympique".  </p></figcaption></figure>
 
 ### _**What problem does it solve?**_&#x20;
 
