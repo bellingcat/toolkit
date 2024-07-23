@@ -1,11 +1,11 @@
 ---
 description: >-
-  Twitter Advanced Search is a robust tool that helps users find more precise
+  Twitter/X Advanced Search is a tool that helps users find more precise
   information by filtering posts with specific criteria such as location, user,
   date, popularity, and more.
 ---
 
-# Twitter Advanced Search
+# Twitter/X Advanced Search
 
 ## URL
 
@@ -19,11 +19,11 @@ Twitter/X's built-in advanced search supports filtering by keywords, hashtags, l
 TIP: Bookmark the link above to have immediate access to the tool.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/ScreenRecording2024-07-18190613-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>In addition to clicking the link above, another way to navigate to the Advanced Search feature is shown here. First, input a search term on the search bar from your homepage. Once the results are shown, hover over "Search Filters" to the right, and click "Advanced Search".  </p></figcaption></figure>
+<figure><img src=".gitbook/assets/ScreenRecording2024-07-18190613-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>In addition to clicking the link above, another way to navigate to the Advanced Search feature is shown here. First, input a search term on the search bar from your homepage. Once the results are shown, hover over "Search Filters" to the right, and click "Advanced Search".</p></figcaption></figure>
 
-### _**Advanced Search  (Desktop)**_
+### _**Advanced Search (Desktop)**_
 
-Twitter/X’s Advanced Search makes it ideal for source investigations. It helps refine search queries and produces more subject matter-specific results. While the search interface is mostly self-explanatory, below is a description of each search field, and some useful tips.&#x20;
+Twitter/X’s Advanced Search makes it ideal for source investigations. It helps refine search queries and produces more subject matter-specific results. While the search interface is mostly self-explanatory, below is a description of each search field, and some useful tips.
 
 #### **WORDS**
 
@@ -31,40 +31,40 @@ Twitter/X’s Advanced Search makes it ideal for source investigations. It helps
 
 Example: Amsterdam canals
 
-This will show posts that mention  “Amsterdam” and “canals”
+This will show posts that mention “Amsterdam” and “canals”
 
-**“This exact phrase”:** is similar to using quotation marks on search engines. It pulls up results for an exact match for a specific sequence of words.&#x20;
+**“This exact phrase”:** is similar to using quotation marks on search engines. It pulls up results for an exact match for a specific sequence of words.
 
-Example: best of both worlds&#x20;
+Example: best of both worlds
 
 This will generate results with this exact phrase.
 
 {% hint style="info" %}
-It is okay not to use quotation marks for this search parameter. If you do, they will generate the same results as without quotation marks.&#x20;
+It is okay not to use quotation marks for this search parameter. If you do, they will generate the same results as without quotation marks.
 {% endhint %}
 
-**“Any of these words”:** A user can use this field to filter terms that contain one search term or another.&#x20;
+**“Any of these words”:** A user can use this field to filter terms that contain one search term or another.
 
-Example: Amsterdam canals&#x20;
+Example: Amsterdam canals
 
-This will search for posts with either “Amsterdam” or “canals”&#x20;
+This will search for posts with either “Amsterdam” or “canals”
 
 {% hint style="info" %}
-Users can add OR between the search terms, and it will generate the same results&#x20;
+Users can add OR between the search terms, and it will generate the same results
 {% endhint %}
 
-**“Hashtags”:** Advanced search allows users to filter their search further using hashtags. This is particularly useful for monitoring events in real-time.&#x20;
+**“Hashtags”:** Advanced search allows users to filter their search further using hashtags. This is particularly useful for monitoring events in real-time.
 
-Example: If I want to search for content related to Myanmar but only want to focus on the June 3rd coup, I will enter “Myanmar” on the top field and “June3Coup” or “WhatsHappingInMyanmar” on the hashtag field. &#x20;
+Example: If I want to search for content related to Myanmar but only want to focus on the June 3rd coup, I will enter “Myanmar” on the top field and “June3Coup” or “WhatsHappingInMyanmar” on the hashtag field.
 
 {% hint style="info" %}
-Users do not have to use the hash (#) symbol in the field, but the tool generates the same search if they choose to. (i.e. June3Coup or #June3Coup will generate the same results) &#x20;
+Users do not have to use the hash (#) symbol in the field, but the tool generates the same search if they choose to. (i.e. June3Coup or #June3Coup will generate the same results)
 {% endhint %}
 
 **“Language”:** Advanced Search allows users to zero in on posts in a specific language, refining their search for better results
 
 {% hint style="info" %}
-TIP:&#x20;
+TIP:
 
 _Language and Search Terms_
 
@@ -80,25 +80,25 @@ To focus on local content in a specific language:
 2. Use the translated keywords in your Twitter Advanced Search.
 {% endhint %}
 
-Example: If I am interested in learning about the farmers' protest in the EU, but only want to get results in Dutch, the  parameters may look like this:
+Example: If I am interested in learning about the farmers' protest in the EU, but only want to get results in Dutch, the parameters may look like this:
 
 <div align="left">
 
-<figure><img src=".gitbook/assets/Screenshot 2024-07-20 012204-2 (1).png" alt="" width="375"><figcaption><p>Here is an example of a search using the language function, with the keyword being in English, but the language output being in Dutch.  </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-07-20 012204-2 (1).png" alt="" width="375"><figcaption><p>Here is an example of a search using the language function, with the keyword being in English, but the language output being in Dutch.</p></figcaption></figure>
 
 </div>
 
 <div align="left">
 
-<figure><img src=".gitbook/assets/Screenshot 2024-07-20 012255-2 (1).png" alt="" width="375"><figcaption><p>This image is the sample result of the search with the language filter. As you can see, the keyword is in English but the rest of the content is still in the selected language filter, in this case, Dutch. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-07-20 012255-2 (1).png" alt="" width="375"><figcaption><p>This image is the sample result of the search with the language filter. As you can see, the keyword is in English but the rest of the content is still in the selected language filter, in this case, Dutch.</p></figcaption></figure>
 
 </div>
 
 #### **ACCOUNTS**
 
-Find posts from specific accounts to specific accounts or mention specific accounts. This enables users to see their interactions or exchanges. It is particularly useful for tracking disinformation/misinformation to see who has interacted with which content and the reputation of the accounts. &#x20;
+Find posts from specific accounts to specific accounts or mention specific accounts. This enables users to see their interactions or exchanges. It is particularly useful for tracking disinformation/misinformation to see who has interacted with which content and the reputation of the accounts.
 
-These are the subfilters:&#x20;
+These are the subfilters:
 
 **“From these accounts”** Searching for posts from `@Iamsterdam` will show posts posted by this account.
 
@@ -122,7 +122,7 @@ To see only original posts, deselect the "Replies" checkbox under "Account Filte
 This ability to isolate replies proves especially valuable in numerous areas. For instance:
 
 * Sentiment Analysis: By analyzing replies, you can gauge the public's emotional response to an event.
-* Tracking Opinions: Focusing on replies allows you to see what people are saying about a specific topic, revealing trends.&#x20;
+* Tracking Opinions: Focusing on replies allows you to see what people are saying about a specific topic, revealing trends.
 
 **“Links”:** Advanced Search lets you refine your results even further. You can choose to see only posts containing links. This can be useful for finding content that references external sources.
 
@@ -133,7 +133,7 @@ TIP: This filter does not allow you to specify a specific website or URL. The se
 #### **ENGAGEMENTS**
 
 {% hint style="warning" %}
-NOTE: If you want to cut through the noise and discover the most popular posts on a topic, Twitter's "Top posts" tab might seem like the answer, but it doesn't always show the absolute most engaging content. [The "Top posts" algorithm considers various factors, making it unpredictable.](https://blog.x.com/engineering/en\_us/topics/open-source/2023/twitter-recommendation-algorithm) Use Advanced Search instead.&#x20;
+NOTE: If you want to cut through the noise and discover the most popular posts on a topic, Twitter's "Top posts" tab might seem like the answer, but it doesn't always show the absolute most engaging content. [The "Top posts" algorithm considers various factors, making it unpredictable.](https://blog.x.com/engineering/en\_us/topics/open-source/2023/twitter-recommendation-algorithm) Use Advanced Search instead.
 {% endhint %}
 
 In Advanced Search, users can define their criteria for engagement. Want to see posts with at least 1,000 likes or replies? Advanced Search lets users set precise thresholds for minimum likes, reposts, replies, or even a combination of these metrics. This way, you'll get a clear picture of the most engaging posts that meet specific requirements.
@@ -144,7 +144,7 @@ You can set your parameters for the following subfields:
 
 **“Minimum Likes”**
 
-**“Minimum reposts”**&#x20;
+**“Minimum reposts”**
 
 This granular control ensures the retrieval of posts that demonstrably resonate with a significant portion of the user base.
 
@@ -161,54 +161,54 @@ To filter tweets by date, use the calendar dropdown menus in Twitter Advanced Se
 **Both "From" and "To" dates:** This will return tweets sent _**within**_ that specific date range.
 
 {% hint style="info" %}
-TIP #1:&#x20;
+TIP #1:
 
-**Before a specific date:** Perfect for exploring historical trends or past events.&#x20;
+**Before a specific date:** Perfect for exploring historical trends or past events.
 
-**After a specific date:** Ideal for catching up on recent discussions or tracking breaking news.&#x20;
+**After a specific date:** Ideal for catching up on recent discussions or tracking breaking news.
 
 **Within a defined date range:** Ideal for isolating tweets from a specific timeframe, like a conference or campaign
 
-TIP #2:&#x20;
+TIP #2:
 
-Add a few days on the "before" and "after" fields, to make sure you have wide coverage of results.&#x20;
+Add a few days on the "before" and "after" fields, to make sure you have wide coverage of results.
 {% endhint %}
 
-#### “SAVE THIS SEARCH” FUNCTION&#x20;
+#### “SAVE THIS SEARCH” FUNCTION
 
-This feature is ideal for monitoring or tracking breaking news and accounts that are experts in your research topic. &#x20;
+This feature is ideal for monitoring or tracking breaking news and accounts that are experts in your research topic.
 
 Saving searches is simple:
 
-1. Enter your search parameters in the Advanced Search (e.g., #WhatisHappinginMyanmar, “Mandalay”), and click Enter.&#x20;
+1. Enter your search parameters in the Advanced Search (e.g., #WhatisHappinginMyanmar, “Mandalay”), and click Enter.
 2. Click the three dots next to the bar.
 3. Select "Save this search" (up to 25 searches allowed).
 
-<figure><img src=".gitbook/assets/ScreenRecording2024-07-22113536-ezgif.com-video-to-gif-converter.gif" alt="" width="563"><figcaption><p>This image shows you the steps on how to save your searches. This is especially convenient if monitoring and revisiting the same issue for an investigation. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/ScreenRecording2024-07-22113536-ezgif.com-video-to-gif-converter.gif" alt="" width="563"><figcaption><p>This image shows you the steps on how to save your searches. This is especially convenient if monitoring and revisiting the same issue for an investigation.</p></figcaption></figure>
 
 ### _**Advanced Search (Mobile App)**_
 
 {% hint style="success" %}
-If doing Advanced Search on a mobile device, it may be preferable to go to the mobile device’s web browser and perform the steps outlined above with the Advanced Search interface, not the App. &#x20;
+If doing Advanced Search on a mobile device, it may be preferable to go to the mobile device’s web browser and perform the steps outlined above with the Advanced Search interface, not the App.
 {% endhint %}
 
-However, if you must do a granular search on the X app, you can do so in the search box, using operators or boolean, just as one would when searching various search engines like Google.&#x20;
+However, if you must do a granular search on the X app, you can do so in the search box, using operators or boolean, just as one would when searching various search engines like Google.
 
-X’s website provides [a list](https://developer.x.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators) of helpful operators that users can use or memorize to be able to perform the functions outlined above. However, [use this page](https://github.com/igorbrigadir/twitter-advanced-search) for a more exhaustive list of operators for the App search bar.&#x20;
+X’s website provides [a list](https://developer.x.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators) of helpful operators that users can use or memorize to be able to perform the functions outlined above. However, [use this page](https://github.com/igorbrigadir/twitter-advanced-search) for a more exhaustive list of operators for the App search bar.
 
 A sample search done on mobile can be seen in the image below.
 
-<figure><img src=".gitbook/assets/MobileSearchSpeed-ezgif.com crop2.gif" alt=""><figcaption><p>Advanced search on the app or on the search bar requires knowing which operators to use to take advantage of the feature. In this example, we input the following search query:  Paris -Olympics -Olympic -medal -Olympique -athlete -athlète. The goal is to try to find posts about Paris but without too many references to the Olympics. Instead of using the "All these words" field, we just input our keywords directly, which is Paris. Instead of using the "none of these words" field, we use the minus sign (-) before other words we want to exclude. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/MobileSearchSpeed-ezgif.com crop2.gif" alt=""><figcaption><p>Advanced search on the app or on the search bar requires knowing which operators to use to take advantage of the feature. In this example, we input the following search query: Paris -Olympics -Olympic -medal -Olympique -athlete -athlète. The goal is to try to find posts about Paris but without too many references to the Olympics. Instead of using the "All these words" field, we just input our keywords directly, which is Paris. Instead of using the "none of these words" field, we use the minus sign (-) before other words we want to exclude.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Screenshot 2024-07-22 130418-mobile search.png" alt=""><figcaption><p>After performing the search as shown above, the results appear. They include the keyword "Paris" but none of the words "Olympics" "Olympic" "medal" and "Olympique", etc.   </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-07-22 130418-mobile search.png" alt=""><figcaption><p>After performing the search as shown above, the results appear. They include the keyword "Paris" but none of the words "Olympics" "Olympic" "medal" and "Olympique", etc.</p></figcaption></figure>
 
-### _**What problem does it solve?**_&#x20;
+### _**What problem does it solve?**_
 
 In April 2024, Statista estimated a staggering [611 million people ](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/)actively using X per month. This translates to a sea of user-generated content constantly flowing around real-time events and trending topics. For open-source investigators, navigating this vast ocean of information to find what they need will be a daunting task. Twitter Advanced Search addresses this challenge by providing comprehensive filtering options and its ability to search across a wide range of criteria.
 
 As open-source investigators, the research process is often iterative. We often start broad, using search terms like "protest" and "Syria" in the discovery phase. As we sift through the initial results, we might encounter posts mentioning a specific location like "Daraa" or a prominent group named "Syrian Revolutionary Forces." These findings become stepping stones. We then refine our search terms, incorporating these new details or harvesting new search terms. This might involve searching for posts containing "Daraa protest" or "Syrian Revolutionary Forces leader." The search might also expand to Arabic hashtags related to the protest or the group.
 
-Manipulating Advanced Search features using various combinations of parameters like locations, languages, and hashtags becomes crucial in this dynamic process. It allows investigators to continuously refine their search queries throughout the research process.&#x20;
+Manipulating Advanced Search features using various combinations of parameters like locations, languages, and hashtags becomes crucial in this dynamic process. It allows investigators to continuously refine their search queries throughout the research process.
 
 ## Cost
 
@@ -222,11 +222,11 @@ Manipulating Advanced Search features using various combinations of parameters l
 
 1. Internet connection
 2. Desktop/Laptop/Mobile Device (for mobile, use the web browser instead of the App)
-3. Creating a user account&#x20;
+3. Creating a user account
 
 ## Limitations
 
-The following limitations were found by testing the tool.&#x20;
+The following limitations were found by testing the tool.
 
 1. **Handle Changes and Search Scope:**
 
@@ -252,7 +252,7 @@ After testing the Advanced Search tool in both Incognito Mode and regular browsi
 
 5. **Inconsistent "None of These Words" Function:**
 
-It sometimes does not catch all the search parameters. Testing both in the web browser and the mobile App, the “None of these words” field sometimes does not perform as well. It does not remove all the keywords you wish to eliminate. It will sometimes still show results that contain those words you want excluded.&#x20;
+It sometimes does not catch all the search parameters. Testing both in the web browser and the mobile App, the “None of these words” field sometimes does not perform as well. It does not remove all the keywords you wish to eliminate. It will sometimes still show results that contain those words you want excluded.
 
 6. **The “Links” Filter Cannot Specify a Domain**
 
@@ -260,11 +260,11 @@ As mentioned above, users can search for posts containing links however one cann
 
 7. **Limits to Available History of Posts**
 
-Twitter's Advanced Search boasts an impressive range, allowing you to delve into tweets [dating back to the platform's launch and first public post in 2006](https://help.x.com/en/using-x/x-advanced-search). However, keep in mind that private accounts and deleted tweets may be absent from your search results.&#x20;
+Twitter's Advanced Search boasts an impressive range, allowing you to delve into tweets [dating back to the platform's launch and first public post in 2006](https://help.x.com/en/using-x/x-advanced-search). However, keep in mind that private accounts and deleted tweets may be absent from your search results.
 
 8. **Inability to Filter For Media**
 
-Open-source investigators are constantly looking for and collecting media during research, whether images or videos. The Advanced Search does not have a search filter for this. To do so, investigators may prefer to  use boolean or search operators on the search bar to find what they need. An example would be to input “Amsterdam” as a keyword and add [filter:native\_video (or filter:media or filter:videos, etc)](https://github.com/igorbrigadir/twitter-advanced-search)
+Open-source investigators are constantly looking for and collecting media during research, whether images or videos. The Advanced Search does not have a search filter for this. To do so, investigators may prefer to use boolean or search operators on the search bar to find what they need. An example would be to input “Amsterdam” as a keyword and add [filter:native\_video (or filter:media or filter:videos, etc)](https://github.com/igorbrigadir/twitter-advanced-search)
 
 One can also use the search bar using keywords, and click on the Media tab under the results.
 
@@ -292,25 +292,25 @@ Guides provided by X.com:
 
 [https://developer.x.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators](https://developer.x.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators)
 
-### _**Use cases**_&#x20;
+### _**Use cases**_
 
 The links below show research that _lends itself to_ using Twitter's Advanced Search feature. But please note that the authors do not explicitly mention using the Advanced Search for their research.
 
-1. Using Twitter Advanced Search, especially its hashtag search, is helpful for monitoring events surrounding a protest or movement. [According to the Atlantic Council's DFRLab](https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2), hashtags are a crucial tool for protest movements. By strategically coordinating hashtags, protesters can amplify their message and draw attention to potential injustices.&#x20;
+1. Using Twitter Advanced Search, especially its hashtag search, is helpful for monitoring events surrounding a protest or movement. [According to the Atlantic Council's DFRLab](https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2), hashtags are a crucial tool for protest movements. By strategically coordinating hashtags, protesters can amplify their message and draw attention to potential injustices.
 
 Link: [https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2](https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2)
 
-2. Bellingcat’s investigation of the rapid escalation of COVID-19 in India demonstrates the use of advanced keyword combinations and other strategies on the Twitter platform.&#x20;
+2. Bellingcat’s investigation of the rapid escalation of COVID-19 in India demonstrates the use of advanced keyword combinations and other strategies on the Twitter platform.
 
 Link: [https://www.bellingcat.com/news/2021/04/23/indias-latest-covid-wave-spills-on-to-social-media-amidst-critical-shortages/](https://www.bellingcat.com/news/2021/04/23/indias-latest-covid-wave-spills-on-to-social-media-amidst-critical-shortages/)
 
 ## Tool provider
 
-X.com&#x20;
+X.com
 
 Elon Musk
 
-San Francisco, California&#x20;
+San Francisco, California
 
 ## Advertising Trackers
 
