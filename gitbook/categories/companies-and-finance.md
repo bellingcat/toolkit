@@ -2,7 +2,6 @@
 
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
-| [**bipa.na search**](http://www.bipa.na/search/) | Search if a company is registered in Namibia | <mark style="background-color:red;">Paid</mark> | Registry, Namibia |
 | [**BlockExplorer**](https://blockexplorer.com/) | Following a bitcoin trail or following a bitcoin account? | <mark style="background-color:green;">Free</mark> | Crypto, Global |
 | [**cadastral map**](http://eservices.dls.moi.gov.cy/#/national/geoportalmapviewer) | Cadastral map of Cyprus. | <mark style="background-color:red;">Paid</mark> | Registry, Cyprus |
 | [**China Judgements Online**](https://wenshu.court.gov.cn/) | Judgements given out by Chinese regional courts | <mark style="background-color:green;">Free</mark> | Other, China |
