@@ -96,7 +96,7 @@ Example: If I am interested in learning about the farmers' protest in the EU, bu
 
 #### **ACCOUNTS**
 
-Find posts from specific accounts to specific accounts or mention specific accounts. This enables users to see their interactions or exchanges. It is particularly useful for tracking disinformation/misinformation to see who has interacted with which content and the reputation of the accounts.
+Find posts from specific accounts to specific accounts or that mention specific accounts. This enables users to see interactions or exchanges. It is particularly useful for tracking disinformation/misinformation to see who has interacted with which content and the reputation of the accounts.
 
 These are the subfilters:
 
@@ -115,7 +115,7 @@ TIP: You can input more than one account
 
 To see only original posts, deselect the "Replies" checkbox under "Account Filters" in Twitter Advanced Search.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-07-20 091048 -2.png" alt="" width="563"><figcaption><p>Keep scrolling down in the Advanced Search window to find the "Filters" section. Here, you can choose whether to include replies in your search results. There are two options: (1)<strong>Both replies and original posts:</strong> This will include tweets where users are replying to others, along with regular tweets. (2) <strong>Only replies:</strong> This will focus solely on tweets where users are replying to other accounts.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-07-20 091048 -2.png" alt="" width="563"><figcaption><p>Keep scrolling down in the Advanced Search window to find the "Filters" section. Here, you can choose whether to include replies in your search results. There are two options: (1) <strong>Both replies and original posts:</strong> This will include tweets where users are replying to others, along with regular tweets. (2) <strong>Only replies:</strong> This will focus solely on tweets where users are replying to other accounts.</p></figcaption></figure>
 
 **“Replies”:** One targeted feature is the ability to focus solely on replies. By excluding original posts, you can gain an understanding of the ongoing discussion surrounding a particular topic.
 
