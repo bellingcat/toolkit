@@ -23,7 +23,7 @@ TIP: Bookmark the link above to have immediate access to the tool.
 
 ### _**Advanced Search (Desktop)**_
 
-Twitter/X’s Advanced Search makes it ideal for source investigations. It helps refine search queries and produces more subject matter-specific results. While the search interface is mostly self-explanatory, below is a description of each search field, and some useful tips.
+Twitter/X’s Advanced Search helps open source researchers refine search queries and produces more subject matter-specific results. While the search interface is mostly self-explanatory, below is a description of each search field, and some useful tips.
 
 #### **WORDS**
 
