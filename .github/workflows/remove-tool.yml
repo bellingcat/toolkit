@@ -28,6 +28,8 @@ jobs:
           node src/remove-tool.mjs $TOOL_NAME
 
       - name: Commit changes
+        env:
+          TOOL_NAME: ${{ inputs.toolName }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
