@@ -1,16 +1,18 @@
 ---
-description: Github - Bellingcat built - Helps to download posts and videos from TikTok for a given set of hashtags over a period of time.
+description: >-
+  Archive content and metadata from TikTok posts that contain one or more
+  specified hashtags
 ---
 
-# Bellingcat TikTok Hashtag Analysis
+# TikTok Hashtag Analysis
 
 ## URL
 
-https://github.com/bellingcat/tiktok-hashtag-analysis
+[https://github.com/bellingcat/tiktok-hashtag-analysis](https://github.com/bellingcat/tiktok-hashtag-analysis)
 
 ## Description
 
-A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case?
+Command-line interface tool that downloads posts and videos from TikTok for a given set of hashtags over a period of time. Users can create a growing database of posts for specific hashtags which can then be used for further hashtag analysis. It uses the [TikTokApi](https://github.com/davidteather/TikTok-Api) Python package to download the posts and uses [yt-dlp](https://github.com/yt-dlp/yt-dlp) to download the videos. Also provides basic analysis features, such as identifying and visualizing the most common co-occurring hashtags for a specified hashtag.
 
 ## Cost
 
@@ -18,37 +20,40 @@ A full description of the tool, any background information needed to use it. Wha
 * [ ] Partially Free
 * [ ] Paid
 
-Pricing or subscription information, if relevant.
+
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>null</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
-Information on the requirement for using a tool, for instance, API key, e-mail address etc.
+Requires Python >= 3.9
 
 ## Limitations
 
-The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.
+* The browser emulator's headless mode often fails, requiring headed mode, but this is implemented as a fallback in the tool
 
 ## Ethical Considerations
 
-The ethical considerations of each tool should be described.
+Potentially violates TikTok's Terms of Service.
 
 ## Guide
 
-Link to a guide on this tool
+[https://www.bellingcat.com/resources/how-tos/2022/05/11/this-new-tool-lets-you-analyse-tiktok-hashtags/](https://www.bellingcat.com/resources/how-tos/2022/05/11/this-new-tool-lets-you-analyse-tiktok-hashtags/)
 
 ## Tool provider
 
-Name the tool provider (and potentially info on them)
+GitHub
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-<table><thead><tr><th data-type="users" data-multiple>Page maintainer</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai Lilia</a></td></tr><tr><td></td></tr></tbody></table>
+| Page maintainer |
+| --------------- |
+| Tristan Lee     |
+|                 |
 
