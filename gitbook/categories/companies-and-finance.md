@@ -23,7 +23,6 @@
 | [**Osint Tools Map**](https://cipher387.github.io/osintmap/) | Worldwide map of business registries, court records and other info, by @cyb\_detective | <mark style="background-color:green;">Free</mark> | Registry, Global |
 | [**QCC**](https://www.qcc.com/) | Private website, one of the biggest information providers, with basic registration information, shareholder structure, beneficial owners, business authorization certificates, patent information, etc. | <mark style="background-color:green;">Free</mark> | Other, China |
 | [**Qixin**]() | Similar to QCC | <mark style="background-color:green;">Free</mark> | Other, China |
-| [**Reportaziende.it**](http://reportaziende.it/) | Offers detailed information about Italian companies with revenues over 5 million euro. It details revenue, net income or liabilities. The basic searching service is free, but it is possible to buy reports and specific information about a company. | <mark style="background-color:orange;">Partially Free</mark> | Other, Italy |
 | [**SanctionsExplorer**](https://sanctionsexplorer.org/) | Database of OFAC/UN/EU sanctions | <mark style="background-color:green;">Free</mark> |  |
 | [**Seychelles Registry**](http://www.registry.gov.sc/BizRegistration/WebSearchBusiness.aspx) | Check if a company is registered in the Seychelles. Limited information available. | <mark style="background-color:green;">Free</mark> | Registry, Seychelles |
 | [**Societe**](http://societe.com/) | Search companies and individuals in France. | <mark style="background-color:green;">Free</mark> | Registry, France |
