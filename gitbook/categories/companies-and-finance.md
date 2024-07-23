@@ -7,7 +7,6 @@
 | [**Cninfo**](http://www.cninfo.com.cn/new/index) | Chinese public companies financial reports and regular announcements. | <mark style="background-color:green;">Free</mark> | Other, China |
 | [**Companies House**](http://beta.companieshouse.gov.uk/) | Search companies and individuals in the United Kingdom and Gibraltar. | <mark style="background-color:green;">Free</mark> | Registry, United Kingdom |
 | [**Court Enforcement Information Publicity**](http://zxgk.court.gov.cn/) | Chinese individuals and companies listed by the court as involved in dishonest practices. | <mark style="background-color:green;">Free</mark> | Registry, China |
-| [**Ecuador Registry**](https://appscvsconsultas.supercias.gob.ec/consultaCompanias/societario/busquedaCompanias.jsf) | Ecuadorian business registry. | <mark style="background-color:green;">Free</mark> | Registry, Ecuador |
 | [**EDGAR**](https://www.sec.gov/edgar/search/) | Database of corporate filings for the US | <mark style="background-color:green;">Free</mark> | [Details](../tools/edgar/README.md) |
 | [**Edgar Suite**](https://github.com/bellingcat/EDGAR) | Tool for the retrieval of corporate and financial data from the SEC | <mark style="background-color:green;">Free</mark> | [Details](../tools/edgar-suite/README.md) |
 | [**Etherscan**](http://etherscan.io/) | Tracking transactions & finding a cryptowallet each based on the ETH blockchain. | <mark style="background-color:red;">Paid</mark> | Crypto, Global |
