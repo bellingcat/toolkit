@@ -230,7 +230,7 @@ The following limitations were found by testing the tool.
 
 1. **Handle Changes and Search Scope:**
 
-If a user changes their handle, the[ Advanced Search](https://twitter.com/search-advanced?lang=en) tool won't return posts under the new handle that were posted under the old handle, but searching for posts under the old handle still works.
+If a user changes their handle, the Advanced Search tool won't return posts under the new handle that were posted under the user's previous handle, but searching for posts under the old handle still works.
 
 2. **Missing Misspellings and Variations:**
 
@@ -248,7 +248,7 @@ The search might return tweets about a toy car commercial featuring electric veh
 
 4. **Account Requirement for Advanced Search:**
 
-After testing the Advanced Search tool in both Incognito Mode and regular browsing, in both cases, using the tool required signing into an account. This means you cannot access Advanced Search features on X.com without logging in. For some, requiring an account restricts access to these crucial functionalities for investigators who prefer anonymity
+After testing the Advanced Search tool in both Incognito Mode and regular browsing, in both cases, using the tool required signing into an account. This means you cannot access Advanced Search features on X.com without logging in. For some, requiring an account restricts access to these crucial functionalities for investigators who prefer anonymity.
 
 5. **Inconsistent "None of These Words" Function:**
 
@@ -306,11 +306,7 @@ Link: [https://www.bellingcat.com/news/2021/04/23/indias-latest-covid-wave-spill
 
 ## Tool provider
 
-X.com
-
-Elon Musk
-
-San Francisco, California
+X.com, US
 
 ## Advertising Trackers
 
