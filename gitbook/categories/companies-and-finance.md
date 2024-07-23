@@ -24,4 +24,3 @@
 | [**QCC**](https://www.qcc.com/) | Private website, one of the biggest information providers, with basic registration information, shareholder structure, beneficial owners, business authorization certificates, patent information, etc. | <mark style="background-color:green;">Free</mark> | Other, China |
 | [**Qixin**]() | Similar to QCC | <mark style="background-color:green;">Free</mark> | Other, China |
 | [**SanctionsExplorer**](https://sanctionsexplorer.org/) | Database of OFAC/UN/EU sanctions | <mark style="background-color:green;">Free</mark> |  |
-| [**Zimbabwe Registry**](https://zimeservices.pfms.gov.zw/irj/portal/anonymous) | Search for companies in Zimbabwe. Database requires you to register with a foreign passport number. Information is not necessarily up-to-date as records are still being digitised. | <mark style="background-color:green;">Free</mark> | Registry, Zimbabwe |
