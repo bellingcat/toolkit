@@ -7,9 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Twitter advanced search",
-  "description": "Search twitter by keywords, accounts, engagement, dates, and more",
-  "url": "https://twitter.com/search-advanced",
   "tags": [
     "twitter",
     "free",
