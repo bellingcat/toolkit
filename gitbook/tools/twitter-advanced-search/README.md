@@ -58,7 +58,7 @@ Users can add OR between the search terms, and it will generate the same results
 Example: If I want to search for content related to Myanmar but only want to focus on what [Twitter users wrote](https://medium.com/dfrlab/how-pro-democracy-activists-in-myanmar-keep-their-movement-alive-with-hashtags-34ff2d3eddf2) about events in June 2021, I can enter “Myanmar” on the top field and “June3Coup” in the hashtag field.
 
 {% hint style="info" %}
-Users do not have to use the hash (#) symbol in the field, but the tool generates the same search if they choose to. (i.e. June3Coup or #June3Coup will generate the same results)
+Users do not have to use the hash (#) symbol in the field, but the tool generates the same search if they choose to (i.e. June3Coup or #June3Coup will generate the same results).
 {% endhint %}
 
 **“Language”:** Advanced Search allows users to zero in on posts in a specific language, refining their search for better results
@@ -76,7 +76,7 @@ _Finding Local Content with Translation_
 
 To focus on local content in a specific language:
 
-1. Translate your keywords using Google Translate or DeepL.
+1. Translate your keywords using tools like [Google Translate](https://translate.google.com/) or [DeepL](https://www.deepl.com/).
 2. Use the translated keywords in your Twitter Advanced Search.
 {% endhint %}
 
