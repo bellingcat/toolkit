@@ -258,7 +258,7 @@ It sometimes does not catch all the search parameters. Testing both in the web b
 
 6. **The “Links” Filter Cannot Specify a Domain**
 
-As mentioned above, users can search for posts containing links however one cannot specify which domain. Users can circumvent this limitation by using search operators directly on the search bar. [For example: ](https://medium.com/@prajwalshivareddy/unlocking-the-power-of-x-formerly-twitter-unveiling-effective-search-methods-and-syntax-69974a27d12)**url:example.com**
+As mentioned above, users can search for posts containing links however one cannot specify which domain. Users can circumvent this limitation by using "this exact phrase" instead, or using search operators directly on the search bar. [For example: ](https://medium.com/@prajwalshivareddy/unlocking-the-power-of-x-formerly-twitter-unveiling-effective-search-methods-and-syntax-69974a27d12)**url:example.com**
 
 7. **Limits to Available History of Posts**
 
