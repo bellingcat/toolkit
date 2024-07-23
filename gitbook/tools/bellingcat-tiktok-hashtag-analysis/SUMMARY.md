@@ -1,4 +1,4 @@
 # Table of contents
 
-* [TikTok Hashtag Analysis](README.md)
+* [Bellingcat TikTok Hashtag Analysis](README.md)
 * [JSON](json.md)
