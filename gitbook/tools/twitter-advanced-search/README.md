@@ -142,11 +142,11 @@ You can set your parameters for the following subfields:
 
 **“Minimum replies”**
 
-**“Minimum Likes”**
+**“Minimum likes”**
 
 **“Minimum reposts”**
 
-This granular control ensures the retrieval of posts that demonstrably resonate with a significant portion of the user base.
+This granular control ensures the retrieval of posts that demonstrably resonate with a significant number of users.
 
 #### **DATES**
 
@@ -167,7 +167,7 @@ TIP #1:
 
 **After a specific date:** Ideal for catching up on recent discussions or tracking breaking news.
 
-**Within a defined date range:** Ideal for isolating tweets from a specific timeframe, like a conference or campaign
+**Within a defined date range:** Ideal for isolating tweets from a specific timeframe, like a conference, incident in a conflict region or a campaign.
 
 TIP #2:
 
