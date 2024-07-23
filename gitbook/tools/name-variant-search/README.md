@@ -12,16 +12,6 @@ description: Simple tool to help search for different ways of writing a name.
 
 Given a person's name, this tool will generate various plausible alternative forms of the name and smooth out the work of researching each one. It also offers a few filters for various social media platforms.
 
-#### h3 heading
-
-<details>
-
-<summary>Title</summary>
-
-
-
-</details>
-
 <figure><img src=".gitbook/assets/Screenshot 2024-01-25 at 16.58.10.png" alt=""><figcaption></figcaption></figure>
 
 ## Cost <a href="#is-it-free" id="is-it-free"></a>
