@@ -61,7 +61,7 @@ Example: If I want to search for content related to Myanmar but only want to foc
 Users do not have to use the hash (#) symbol in the field, but the tool generates the same search if they choose to (i.e. June3Coup or #June3Coup will generate the same results).
 {% endhint %}
 
-**“Language”:** Advanced Search allows users to zero in on posts in a specific language, refining their search for better results
+**“Language”:** Advanced Search allows users to zero in on posts in a specific language, refining their search for better results.
 
 {% hint style="info" %}
 TIP:
