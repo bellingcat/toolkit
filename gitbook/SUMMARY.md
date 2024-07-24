@@ -107,3 +107,4 @@
   * [Bulletpicker.com](tools/bulletpicker.com/README.md)
   * [Wayback Machine](tools/internet-archive/README.md)
   * [Chronotrains](tools/chronotrains/README.md)
+  * [Logseq](tools/logseq/README.md)
