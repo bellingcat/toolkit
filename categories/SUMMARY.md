@@ -1,10 +1,11 @@
 # Table of contents
 
-* [About Category Intros](README.md)
+* [About](README.md)
 
 ## ⚒️ Categories
 
-* [Archiving](categories/archiving.md)
+* [Testing](README.md)
+* [Archiving](archiving/README.md)
 * [Data Visualization](categories/data-visualization.md)
 * [Social Media](categories/social-media/README.md)
   * [Discord](categories/social-media/discord.md)
@@ -14,7 +15,7 @@
   * [Reddit](categories/social-media/reddit.md)
   * [Telegram](categories/social-media/telegram.md)
   * [Tiktok](categories/social-media/tiktok.md)
-  * [Twitter/X](categories/social-media/twitter-x.md)
+  * [Twitter/X](categories/social-media/twitter-x/README.md)
   * [Vkontakte](categories/social-media/vkontakte.md)
   * [Youtube](categories/social-media/youtube.md)
   * [Other Networks](categories/social-media/other-networks.md)
