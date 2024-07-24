@@ -17,6 +17,10 @@ GovMap was developed by the Israeli government to provide the public with detail
 
 The platform offers a centralized source of geographical information that can support a variety of users - from government officials and urban planners to real estate professionals and the general public. Open source researchers can obtain up-to-date information on land use, planning proposals, and other data necessary for researching topics like development, investment etc. in Israel.
 
+
+
+_Naturally, the portal, which contains such diverse information from various sources at different levels of updating, may contain certain internal contradictions. In these cases, the very presentation of the differences in information will combine information sources (the various government ministries) with the need to correct and adjust the information within uniform boundaries to reduce these contradictions. In this context, see the section Legal warnings._
+
 **Features**:
 
 * **Amenities:** Amenities and Infrastructure mapping and filtering e.g. cell phone towers, similar to [Overpass ](https://bellingcat.gitbook.io/toolkit/more/all-tools/overpass-turbo)and the [OpenStreetMap Search](https://bellingcat.gitbook.io/toolkit/more/all-tools/openstreetmap-search-tool) tool.
@@ -39,7 +43,7 @@ Israel's GovMap holds a multitude of applications for open source researchers, e
 * **Historical Analysis**: The platform can serve as a resource for open source researchers looking to compare current data with historical data, helping to illustrate changes over time in areas such as land use, population, infrastructure development and environmental issues.
 * **Geolocation Verification:** Utilize the platform's detailed maps and landmark data to verify the geolocation of images, videos, or reports.
 * **Asset Tracking:** Track the development and changes in infrastructure, allowing for monitoring of assets or areas of interest over time.
-* **Conflict Analysis:** Analyze areas of conflict or tension by reviewing historical data, border changes, and current land use.
+* **Conflict Analysis:** Analyze areas of conflict or tension by reviewing historical data, border changes, and current land use. [How to Use Free Satellite Imagery to Monitor the Expansion of West Bank Settlements](https://www.bellingcat.com/resources/2024/05/17/how-to-use-free-satellite-imagery-to-monitor-the-expansion-of-west-bank-settlements/) &#x20;
 
 ## Cost
 
@@ -60,7 +64,7 @@ While GovMap is designed to be user-friendly and accessible to a broad audience,
 
 ## Limitations
 
-Israel's GovMap, while offering a comprehensive and user-friendly interface to access various geographical data related to Israel, does have certain limitations that researchers should consider:
+While offering an interface that provides access to various geographical data related to Israel, GovMap does have certain limitations that researchers should consider:
 
 * **Resolution and Detail**: The level of detail and resolution might not be sufficient for all research purposes, especially when highly detailed or localized data is needed.
 * **Update Frequency**: The data on GovMap may not be updated in real-time or on a very frequent basis. This can affect the use of the tool for time-sensitive research.
@@ -92,8 +96,8 @@ To effectively use GovMap, especially for beginners or those looking to refine t
 
 * Hanham, M. (2015) _There’s a Map for That_, _bellingcat_. Available at: [https://www.bellingcat.com/resources/how-tos/2015/04/10/theres-a-map-for-that/](https://www.bellingcat.com/resources/how-tos/2015/04/10/theres-a-map-for-that/) (Accessed: 10 April 2024).
 * _GovMap.Gov.Il - Free Israeli Government GIS Portal_ (2021). Available at: [https://www.youtube.com/watch?v=1VoXYNuVgPI](https://www.youtube.com/watch?v=1VoXYNuVgPI) (Accessed: 10 April 2024).
-* Team, B.I. (2023a) _Geolocating Hamas-Led Attacks on Israeli Civilians_, _bellingcat_. Available at: [https://www.bellingcat.com/news/2023/10/20/geolocating-hamas-led-attacks-on-israeli-civilians/](https://www.bellingcat.com/news/2023/10/20/geolocating-hamas-led-attacks-on-israeli-civilians/) (Accessed: 14 April 2024).
-* Team, B.I. (2023b) _Jenin: Open Source Insights on Israel’s July Raids_, _bellingcat_. Available at: [https://www.bellingcat.com/news/2023/08/02/jenin-open-source-insights-on-israels-july-raids/](https://www.bellingcat.com/news/2023/08/02/jenin-open-source-insights-on-israels-july-raids/) (Accessed: 14 April 2024).
+* Team, B.I. (2023a) _Geolocating Hamas-Led Attacks on Israeli Civilians_, B_ellingcat_. Available at: [https://www.bellingcat.com/news/2023/10/20/geolocating-hamas-led-attacks-on-israeli-civilians/](https://www.bellingcat.com/news/2023/10/20/geolocating-hamas-led-attacks-on-israeli-civilians/) (Accessed: 14 April 2024).
+* Team, B.I. (2023b) _Jenin: Open Source Insights on Israel’s July Raids_, B_ellingcat_. Available at: [https://www.bellingcat.com/news/2023/08/02/jenin-open-source-insights-on-israels-july-raids/](https://www.bellingcat.com/news/2023/08/02/jenin-open-source-insights-on-israels-july-raids/) (Accessed: 14 April 2024).
 
 **Video Tutorials**
 
