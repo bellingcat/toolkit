@@ -17,16 +17,20 @@ The European Space Agency's Earth Online is a portal dedicated to providing a we
 
 ### Use Cases for European Space Agency's Earth Online
 
-The European Space Agency's Earth Online portal offers a broad array of use cases, including but not limited to:
+The European Space Agency's Earth Online portal offers a broad array of use cases. Some of the imagery is super high resolution (less than a meter) however although there are hundreds of datasets many of them require registration and institutional affiliation. There are a number of 'sample' datasets that are free but may not be up to date. Individual tools can be used for multiple use cases. Some of these use cases focus on environment monitoring (tracking changes in climate, land use, and natural habitats over time) other could be used for monitoring more human focused activity. Use cases include:
 
-* **Environmental Monitoring:** Tracking changes in climate, land use, and natural habitats over time.
-* **Disaster Response and Management:** Providing data about natural disasters like floods, wildfires, and earthquakes.
-* **Agricultural Analysis:** Assisting in the monitoring of crop health, forecasting yields, and managing agricultural resources.
-* **Oceanography and Marine Sciences:** Supporting the study of ocean currents, sea surface temperatures, and marine ecosystems.
-* **Urban Planning:** Data for land use analysis and infrastructure planning.
-* **Educational Resources:** Serving as a tool for educators and students in the fields of earth sciences, geography, and environmental studies.
+* **Agricultural Analysis:** Assisting in the monitoring of crop health, forecasting yields, and managing agricultural resources. For instance the [IRS-P5 (Cartosat-1) Sample Data](https://earth.esa.int/eogateway/missions/irs-p5/sample-data) provides high resolution 2.5 m resolution crop inventory and monitoring agricultural productivity.
+* **Forest Loss:** The [BIOMASS Product Algorithm Laboratory (BioPAL)](https://www.biopal.org/) tool offers processing scripts and Jupyter Notebooks for monitoring Above Ground Biomass, Forest Height and Forest Disturbance.
+* **Oceanography and Marine Sciences:** Supporting the study of ocean currents, sea surface temperatures, and marine ecosystems. Tools like the [Cryo2ice tool](https://cs2eo.org/cryo2ice) can monitor ocean ice cover which can impact shipping routes (limited to data between February 2021 up to 2022) and the [Ocean and Coastal Topography Thematic Data Product (TDP)](https://earth.esa.int/eogateway/catalog/tdp-for-ocean-and-coastal-topography) dataset which contains improved sea surface height anomaly data. The screenshot below shows the [Cryo2ice tool](https://cs2eo.org/cryo2ice) with a search for Arctic sea ice 2022-02-06:
 
-These use cases highlight the versatility of the Earth Online portal in supporting a wide range of scientific research, educational, and applied environmental management activities.
+<figure><img src=".gitbook/assets/Screenshot 2024-07-18 at 10.36.48 AM.png" alt="The screenshot  shows the Cryo2ice tool with a search for Arctic sea ice 2022-02-06 the results show a satellite map with satellite paths and imagery of ice cover for a specific area as an inset box lower right."><figcaption><p>Screenshot of the Cryo2ice Arctic sea ice 2022-02-06 09:24</p></figcaption></figure>
+
+* **The atmosphere:**  The [Atmosphere Virtual Lab (AVL)](https://atmospherictoolbox.org/media/usecases/Usecase\_5\_aeolus.html) tool provides [Jupyter Notebooks](https://jupyter.org/) that can be used to analyze and visualize atmospheric earth observation data and the [GHGSat archive](https://earth.esa.int/eogateway/catalog/ghgsat-archive-and-tasking) contains data that monitors greenhouse gas emissions (currently CH4, but eventually CO2).
+* **Human Activity:** The [Urban Thematic Exploitation Platform](https://urban-tep.eu/) tool requires registration but provides data and visualisation of the Global Urban Footprint and population density. The [Geohazards TEP](https://geohazards-tep.eu/) is a glacier and landslide monitoring tool that has data processed over the eastern Alps Ground Motion Service.
+* **Disaster Monitoring:** Earth Online provides a number of tools that can be used for disaster monitoring, like the [SMOS Tropical Cyclone Wind Radii Fixes](https://earth.esa.int/eogateway/catalog/smos-tropical-cyclone-wind-radii-fixes-wrf) (Registration required) and provides Near Real Time tropical cyclones forecasts.
+* **Educational Resources:** Earth online also serves as a tool for educators and students in the fields of earth sciences, geography, and environmental studies with tools like the [Heritage Missions app for iOS](https://apps.apple.com/lt/app/esa-heritage-missions/id1584783729) providing 3D visualisations of satellite instrumentation.
+
+These use cases highlight the versatility of the Earth Online portal in supporting a wide range of scientific research, educational, and applied environmental management activities.&#x20;
 
 ## Cost
 
@@ -36,31 +40,23 @@ These use cases highlight the versatility of the Earth Online portal in supporti
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>4</td></tr></tbody></table>
+
+Some of the tools provided require Jupyter Notebook and Python programming experience or a high degree of knowledge about remote sensing and satellite imagery.&#x20;
 
 ## Requirements
 
 * Web: any modern web browser (individual tools will have specific requirements documented inline)
+* Desktop: many of the tools provided can be run on a desktop or cloud provider (see the individual tool for further details).&#x20;
 
 ## Limitations
 
-* **Data Availability**: While ESA's Earth Online offers extensive datasets, certain historical data or high-resolution imagery may not be readily available due to the limitations of past missions or data retention policies. See the individual dataset fro more details.
-* **Learning Curve**: New users may find the interface and array of tools challenging to navigate without prior experience in satellite data analysis or familiarity with similar platforms.
-* **Access Restrictions**: Some datasets require specific permissions or qualifications for access, limiting use for certain research or educational purposes. See [How to Access Data](https://www.esa.int/Applications/Observing\_the\_Earth/How\_to\_access\_data) for more information.
+* **Data Availability**: While ESA's Earth Online offers extensive datasets, certain historical data or high-resolution imagery is not be readily available due to the limitations of past missions, data retention policies or registration requirements. For instance the [The Urban Thematic Exploitation Platform](https://urban-tep.eu/) only has data available for 2015. See individual dataset for more details. There are a number of 'sample' datasets that are free but may not be up to date.
+* **Learning Curve**: New users may find the array of tools and associated interfaces challenging to navigate without prior experience in satellite data analysis or familiarity with similar platforms.
+* **Access Restrictions**: Some datasets require specific permissions or qualifications for access, limiting use for certain research or educational purposes. This also applies to tools like: the Food Security Thematic Exploitation Platform (TEP), the Hydrology TEP, and the Forestry TEP all of which require registration and organisational affiliation. See [How to Access Data](https://www.esa.int/Applications/Observing\_the\_Earth/How\_to\_access\_data) for more information.
 * **Processing Power**: Advanced data analysis and processing tasks demand significant computational resources, which may not be feasible for all users. Different tools will have different processing requirements. See the individual tool's documentation.
 * **Update Frequency**: The update intervals for some datasets may not meet the needs of users requiring real-time or near-real-time information. Different datasets will have different update frequency. See the individual dataset's documentation.
-
-## Ethical Considerations
-
-In the context of using remote sensing in online open source investigations, several ethical considerations should be considered:
-
-* **Privacy Concerns:** Remote sensing technologies can capture detailed images from space or high altitude, potentially compromising individual privacy. Journalists must balance the public interest with the rights to privacy.
-* **Accuracy and Misinterpretation:** Ensuring the accurate representation of data is critical. Misinterpretation of remote sensing data can lead to misinformation, shaping public opinion based on incorrect premises. Different datasets and tools will have different accuracy issues, see the individual dataset's documentation.
-* **Equity and Access:** The distribution of benefits from remote sensing should be equitable. Journalists should be aware of the digital divide and work towards making their findings accessible to a broader audience.
-* **Environmental Impact:** The deployment and maintenance of remote sensing technologies have environmental costs. Ethical journalism considers the ecological footprint of gathering and disseminating information.
-* **Informed Consent:** Where possible, obtaining informed consent from those being observed or whose data is being collected, even indirectly, reinforces ethical journalism practices.
-* **Cultural Insensitivity:** Avoids the unsolicited mapping or monitoring of culturally sensitive or sacred sites without permission from the concerned communities.
-* **Security Risks**: Guards against the misuse of remote sensing technology for malicious purposes, including espionage or cyber-attacks.
+* **Tool Functionality**: Not all the of tools are maintained and working. For instance the [Heritage Missions app for iOS](https://apps.apple.com/lt/app/esa-heritage-missions/id1584783729) doesn't allow users to search for current satellite data.
 
 ## Guide
 
