@@ -4,7 +4,6 @@
 
 ## ⚒️ Categories
 
-* [Testing](README.md)
 * [Archiving](archiving/README.md)
 * [Data Visualization](categories/data-visualization.md)
 * [Social Media](categories/social-media/README.md)
