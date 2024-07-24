@@ -15,7 +15,7 @@ description: >-
 
 GovMap was developed by the Israeli government to provide the public with detailed geographical information about Israel. The web-based platform features a wide range of data, including property boundaries, urban planning and zoning information, as well as infrastructure details like roads, utilities, and public institutions. It allows users to search, view, and analyze the available geographical data.
 
-The platform offers a centralized source of geographical information that can support a variety of users - from government officials and urban planners to real estate professionals and the general public. Open source researchers can obtain up-to-date information on land use, planning proposals, and other data necessary for researching topics like development, investment etc. in Israel.
+The platform offers a centralized source of geographical information that can support a variety of users - from government officials and urban planners to real estate professionals and the general public. Open source researchers can obtain information on land use, planning proposals, and other data necessary for researching topics like development, investment etc. in Israel.
 
 
 
