@@ -67,8 +67,6 @@ To effectively use Autostitch, especially for beginners or those looking to refi
 
 * _Easy Panoramas with Rawtherapee and Autostitch_ (2021). Available at: [https://www.youtube.com/watch?v=8XjUIG4sZO8](https://www.youtube.com/watch?v=8XjUIG4sZO8) (Accessed: 18 June 2024).
 
-By utilizing these resources, users can enhance their Autostitch experience.
-
 ## Tool provider
 
 Matthew Alun Brown - United States&#x20;
