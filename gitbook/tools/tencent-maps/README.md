@@ -1,8 +1,8 @@
 ---
 description: >-
-  Tencent Maps (formerly SOSO Maps) is a desktop and web mapping service
-  application and technology provided by Chinese company Tencent, offering
-  satellite imagery, street maps, street view (coverage).
+  Tencent Maps is a desktop and web mapping service application provided by
+  Chinese company Tencent, offering satellite imagery, street maps and street
+  view.
 ---
 
 # Tencent Maps
@@ -13,7 +13,7 @@ http://map.qq.com/
 
 ## Description
 
-Tencent Maps, accessible through the URL http://map.qq.com/, is a comprehensive mapping service provided by Tencent, a major technology company based in China. It offers a wide range of features for users looking to navigate or explore geographical locations. The service solves a variety of problems related to location-based planning and navigation, providing detailed maps, directions for driving, public transportation options, walking routes, and also information on traffic conditions. Tencent Maps partners with [NavInfo](https://www.navinfo.eu/) for the Chinese market and [MapKing](https://www.mapking.com/) for the Hong Kong market.
+Tencent Maps (formerly SOSO Maps), accessible through the URL http://map.qq.com/, is a comprehensive mapping service provided by Tencent, a major technology company based in China. It offers a wide range of features for users looking to navigate or explore geographical locations. The service solves a variety of problems related to location-based planning and navigation, providing detailed maps, directions for driving, public transportation options, walking routes, and also information on traffic conditions. Tencent Maps partners with [NavInfo](https://www.navinfo.eu/) for the Chinese market and [MapKing](https://www.mapking.com/) for the Hong Kong market.
 
 **Features:**
 
