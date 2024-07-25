@@ -87,7 +87,7 @@ To effectively use Tencent Maps, especially for beginners or those looking to re
 
 **Official Wiki**&#x20;
 
-* [https://map.qq.com/help/index.html](https://map.qq.com/help/index.html) (English translation: [https://map-qq-com.translate.goog/help/index.html?\_x\_tr\_sl=auto&\_x\_tr\_tl=en&\_x\_tr\_hl=en](https://map-qq-com.translate.goog/help/index.html?\_x\_tr\_sl=auto&\_x\_tr\_tl=en&\_x\_tr\_hl=en))
+* [https://map.qq.com/help/index.html](https://map.qq.com/help/index.html), English translation: [https://map-qq-com.translate.goog/help/index.html?\_x\_tr\_sl=auto&\_x\_tr\_tl=en&\_x\_tr\_hl=en](https://map-qq-com.translate.goog/help/index.html?\_x\_tr\_sl=auto&\_x\_tr\_tl=en&\_x\_tr\_hl=en)
 
 #### Developer Resources
 
