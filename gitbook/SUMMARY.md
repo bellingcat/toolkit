@@ -108,3 +108,4 @@
   * [Chronotrains](tools/chronotrains/README.md)
   * [Logseq](tools/logseq/README.md)
   * [Earth Online](tools/earth-online/README.md)
+  * [Tencent Maps](tools/tencent-maps/README.md)
