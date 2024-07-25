@@ -67,7 +67,7 @@ While GovMap is designed to be user-friendly and accessible to a broad audience,
 While offering an interface that provides access to various geographical data related to Israel, GovMap does have certain limitations that researchers should consider:
 
 * **Resolution and Detail**: The level of detail and resolution might not be sufficient for all research purposes, especially when highly detailed or localized data is needed.
-* **Update Frequency**: The data on GovMap may not be updated in real-time or on a very frequent basis. This can affect the use of the tool for time-sensitive research.
+* **Update Frequency**: The data on GovMap may not be updated on a very frequent basis. This can affect the use of the tool for time-sensitive research.
 * **Accessibility**: While the platform is designed to be user-friendly, users who are not familiar with GIS (Geographic Information Systems) tools or who do not speak Hebrew might find it challenging to navigate and utilize the platform to its full potential.
 * **Data Availability**: Not all datasets are available for every area within Israel, and there may be restrictions on accessing certain types of data due to privacy laws or national security concerns.
 * **Performance**: High traffic volumes or large data queries can sometimes slow down the platform, affecting the user experience.
