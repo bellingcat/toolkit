@@ -63,7 +63,7 @@ Tencent Maps, while a comprehensive tool for mapping and geographic data, has se
 * **Data Availability**: The coverage and detail level of map data is limited and offers maps only of mainland China, Hong Kong, Macau, and Taiwan and varies by region. In some rural or less developed areas, data might be scarce or outdated (see: [Wikipedia Tencent Maps](https://en.wikipedia.org/wiki/Tencent\_Maps)).&#x20;
 * **Commercial Use**: For projects with commercial intentions or that require extensive data usage, there might be licensing fees or additional restrictions. [https://www.tencentcloud.com/](https://www.tencentcloud.com/) provides information on each service (in Chinese).
 * **Language and Documentation**: The primary language (including for documentation and support) is Chinese, which may present a barrier for non-Chinese speaking researchers.
-* **Geographical Restrictions**: Certain data or features might be restricted outside of China due to legal or licensing issues (see: [Restrictions on geographic data in China](./#url)).&#x20;
+* **Geographical Restrictions**: Certain data or features might be restricted outside of China due to legal or licensing issues (see: [Restrictions on geographic data in China](https://en.wikipedia.org/wiki/Restrictions\_on\_geographic\_data\_in\_China)).&#x20;
 * **No longitude and latitude:** Chinese national regulations do not allow the public provision of maps with longitude and latitude (see: [Restrictions on geographic data in China](https://en.wikipedia.org/wiki/Restrictions\_on\_geographic\_data\_in\_China)).&#x20;
 * **No Desktop Version:** the desktop version was [shutdown in 2022](https://36kr.com/p/1971614184967305).&#x20;
 
