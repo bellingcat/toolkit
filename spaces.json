@@ -3645,5 +3645,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "vXfnH5SpUxRht0MmtXUV",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "Mu2KBwBkdRPlYzSkzaAo",
+    "title": "Distill",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-07-25T13:33:39.205Z",
+    "updatedAt": "2024-07-25T13:33:39.205Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/Mu2KBwBkdRPlYzSkzaAo",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/Mu2KBwBkdRPlYzSkzaAo/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "iZJQG7UiS28XLCkWKinB",
+    "defaultLevel": "inherit"
   }
 ]
