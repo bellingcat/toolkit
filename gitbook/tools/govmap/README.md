@@ -94,7 +94,7 @@ To effectively use GovMap, especially for beginners or those looking to refine t
 
 **Tutorials and Articles**
 
-* Hanham, M. (2015) _There’s a Map for That_, _bellingcat_. Available at: [https://www.bellingcat.com/resources/how-tos/2015/04/10/theres-a-map-for-that/](https://www.bellingcat.com/resources/how-tos/2015/04/10/theres-a-map-for-that/) (Accessed: 10 April 2024).
+* Hanham, M. (2015) _There’s a Map for That_, _Bellingcat_. Available at: [https://www.bellingcat.com/resources/how-tos/2015/04/10/theres-a-map-for-that/](https://www.bellingcat.com/resources/how-tos/2015/04/10/theres-a-map-for-that/) (Accessed: 10 April 2024).
 * _GovMap.Gov.Il - Free Israeli Government GIS Portal_ (2021). Available at: [https://www.youtube.com/watch?v=1VoXYNuVgPI](https://www.youtube.com/watch?v=1VoXYNuVgPI) (Accessed: 10 April 2024).
 * Team, B.I. (2023a) _Geolocating Hamas-Led Attacks on Israeli Civilians_, B_ellingcat_. Available at: [https://www.bellingcat.com/news/2023/10/20/geolocating-hamas-led-attacks-on-israeli-civilians/](https://www.bellingcat.com/news/2023/10/20/geolocating-hamas-led-attacks-on-israeli-civilians/) (Accessed: 14 April 2024).
 * Team, B.I. (2023b) _Jenin: Open Source Insights on Israel’s July Raids_, B_ellingcat_. Available at: [https://www.bellingcat.com/news/2023/08/02/jenin-open-source-insights-on-israels-july-raids/](https://www.bellingcat.com/news/2023/08/02/jenin-open-source-insights-on-israels-july-raids/) (Accessed: 14 April 2024).
