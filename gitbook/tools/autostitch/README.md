@@ -1,16 +1,21 @@
 ---
-description: A brief one-line description of the tool.
+description: >-
+  Autostitch is a free tool for seamlessly combining multiple photos into a
+  single panoramic image, making it ideal for creating wide-angle photography
+  without needing specialized equipment.
 ---
 
 # AutoStitch
 
 ## URL
 
-https://example.com
+[https://mattabrown.github.io/autostitch.html](https://mattabrown.github.io/autostitch.html)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Autostitch is an image stitching tool that automatically combines multiple photographs into a single panoramic image. It uses advanced algorithms to seamlessly blend the edges of overlapping photos to form a cohesive panorama. This tool is particularly useful for photographers and graphic designers who need to create wide-angle shots or high-resolution panoramas without manual editing.
+
+An example use case would be a landscape photographer who takes multiple overlapping shots of a scenic vista and uses Autostitch to merge them into a single, uninterrupted panoramic image.
 
 ## Cost
 
@@ -18,31 +23,57 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+* Windows Only
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+* Limited control over stitching parameters.
+* May struggle with images that have very minimal overlap.
+* Performance can degrade with large image sets.
+* Limited support and documentation.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+* **Privacy**: Ensure that images used do not infringe on privacy rights or contain sensitive information.
+* **Consent**: Obtain appropriate permissions before using or sharing images, especially if they include identifiable individuals.
+* **Bias**: Be aware of potential biases in the datasets used, as this can affect the results and interpretations.
+* **Copyright**: Use only images that are free to use or for which you have obtained the necessary rights.
+* **Transparency**: Clearly communicate the limitations and potential issues associated with the tool’s use.
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+To effectively use Autostitch, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
+
+**Official Wiki**&#x20;
+
+* [https://mattabrown.github.io/autostitch.html](https://mattabrown.github.io/autostitch.html)
+
+**Tutorials and Articles**
+
+* _Autostitch_ (no date) _Kate Hailey_. Available at: [https://www.katehailey.com/blog/2012/05/23/autostitch](https://www.katehailey.com/blog/2012/05/23/autostitch) (Accessed: 18 June 2024).
+* _Autostitch Panorama Software Review_ (no date). Available at: [https://www.neopanoramic.com/review/autostitch](https://www.neopanoramic.com/review/autostitch) (Accessed: 18 June 2024).
+* Brown and Lowe (2003) ‘Recognising panoramas’, in _Proceedings Ninth IEEE International Conference on Computer Vision_. _ICCV 2003: 9th International Conference on Computer Vision_, Nice, France: IEEE, pp. 1218–1225 vol.2. Available at: [https://doi.org/10.1109/ICCV.2003.1238630](https://doi.org/10.1109/ICCV.2003.1238630).
+* Brown, M. and Lowe, D.G. (2007) ‘Automatic Panoramic Image Stitching using Invariant Features’, _International Journal of Computer Vision_, 74(1), pp. 59–73. Available at: [https://doi.org/10.1007/s11263-006-0002-3](https://doi.org/10.1007/s11263-006-0002-3).
+* _How To Make a Panorama Photo Tutorial_ (no date). Available at: [https://www.neopanoramic.com/make\_panorama.php](https://www.neopanoramic.com/make\_panorama.php) (Accessed: 18 June 2024).
+* _Matthew Alun Brown_ (no date). Available at: [https://mattabrown.github.io/autostitch.html](https://mattabrown.github.io/autostitch.html) (Accessed: 18 June 2024).
+
+**Video Tutorials**
+
+* _Easy Panoramas with Rawtherapee and Autostitch_ (2021). Available at: [https://www.youtube.com/watch?v=8XjUIG4sZO8](https://www.youtube.com/watch?v=8XjUIG4sZO8) (Accessed: 18 June 2024).
+
+By utilizing these resources, users can enhance their Autostitch experience.
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Matthew Alun Brown - United States&#x20;
+
+University of British Columbia (Canada) to multiple companies including [ILM](https://www.ilm.com) (United States) and it appeared in several commercial products including Autopano Pro and Serif PanoramaPlus
 
 ## Advertising Trackers
 
@@ -50,8 +81,7 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer                      |
+| ------------------------------------ |
+| Bellingcat Volunteer Team/Unassigned |
+|                                      |
