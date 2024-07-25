@@ -12,7 +12,7 @@ https://discordleaks.unicornriot.ninja/discord/server/
 
 ## Description
 
-Unicorn Riot reporters collect Discord chat logs and other documentation of racist and far-right organizing during our reporting on active hate groups, both in the U.S. and internationally.  The DiscordLeaks web app and other data releases, such as downloads of chat screenshots and HTML archives, allow concerned members of the public, as well as other media organizations and researchers, to read, search, and cross-reference leaked far-right organizing chats.
+Unicorn Riot, an independent journalism hub, has had their reporters collect Discord chat logs in the course of their reporting on active hate groups throughout the world.  The DiscordLeaks web app allows the public to sort through the collected information from Discord servers their journalists have obtained access to, giving open access to their archive of chat logs from various far-right groups. &#x20;
 
 ## Cost
 
@@ -32,7 +32,7 @@ Web browser
 
 ## Limitations
 
-Users can either browse by server, channel, or user, or search for specific information - either within a single server, or across all servers. However, the information is most relevant to users who know what (or who) they are looking for.
+This is not a comprehensive archive of all Discord servers, or even all far-right Discord servers, but a limited set of servers that Unicorn Riot journalists have accessed. Users can either browse by server, channel, or user, or search for specific information - either within a single server, or across all servers. However, the information is most relevant to users who know what (or who) they are looking for.
 
 ## Ethical Considerations
 
