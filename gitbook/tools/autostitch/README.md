@@ -15,7 +15,7 @@ description: >-
 
 Autostitch is an image stitching tool that automatically combines multiple photographs into a single panoramic image. It uses advanced algorithms to seamlessly blend the edges of overlapping photos to form a cohesive panorama.&#x20;
 
-Open source researchers can use the tool to create a panoramic image of a location that is visible in a video, in particular if it includes shots from several perspectives and has been filmed with a moving camera.
+Open source researchers can use the tool to create a panoramic image of a location that is visible in a video, in particular if the video includes shots from several perspectives and has been filmed with a moving camera.
 
 ## Cost
 
