@@ -6,10 +6,18 @@ import pkg from './paths.mjs'
 const { writeIfChanged, getSummary, processMarkdownFile} = pkg;
 
 const allTools = getTools().filter((tool) => !tool.draft );
-const mostUsed = processMarkdownFile('gitbook/most-used.md', 'most-used', []);
-const mostUsedTools = allTools.filter((tool) => (tool.tags || []).includes('most-used'));
-const mostUsedFilePath = 'gitbook/most-used.md';
-writeIfChanged(renderCategory(mostUsed, mostUsedTools), mostUsedFilePath);
+(function renderMostUsed() {
+  const mostUsed = {
+        title: 'Most Used',
+        content: '# Most Used\n\n',
+        filepath: 'gitbook/most-used.md',
+        tag: 'most-used'
+  };
+  const markdownFile = processMarkdownFile(mostUsed.filepath, 'most-used.md');
+  const mostUsedTools = allTools.filter((tool) => (tool.tags || []).includes('most-used'));
+  const mostUsedFilePath = 'gitbook/most-used.md';
+  writeIfChanged(renderCategory(mostUsed, mostUsedTools), mostUsedFilePath);
+})();
 
 function getPaths(pathname) {
   const files = fs.readdirSync(pathname);
