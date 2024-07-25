@@ -95,7 +95,7 @@ To effectively use Tencent Maps, especially for beginners or those looking to re
 
 **Community and Support**
 
-* Not available (broken link [http://bbs.map.qq.com/forum-46-1.html](http://bbs.map.qq.com/forum-46-1.html))
+* Not available (the folllowing link is broken! http://bbs.map.qq.com/forum-46-1.html)
 
 ## Tool provider
 
