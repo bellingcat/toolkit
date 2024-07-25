@@ -1,6 +1,6 @@
 ---
 description: >-
-  Tencent Maps is a desktop and web mapping service application provided by
+  Tencent Maps is a desktop and web mapping service application provided by the
   Chinese company Tencent, offering satellite imagery, street maps and street
   view.
 ---
