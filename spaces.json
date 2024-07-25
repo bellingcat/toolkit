@@ -3699,5 +3699,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "6nwUkByaqCRrJSeE5S8H",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "QpgPTMtrvMbG0DbuAODp",
+    "title": "Auto Archiver",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-07-25T17:43:22.809Z",
+    "updatedAt": "2024-07-25T17:43:22.809Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/QpgPTMtrvMbG0DbuAODp",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/QpgPTMtrvMbG0DbuAODp/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "T9onPawdXHQZikbPlpRC",
+    "defaultLevel": "inherit"
   }
 ]
