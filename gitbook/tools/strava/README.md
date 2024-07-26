@@ -70,7 +70,7 @@ Users may opt out of the aggregate data usage in their privacy settings. Activit
 
 ## Guides and Articles
 
-Toler, Alec: How to Use and Interpret Data from Strava's Activity Map, [https://www.bellingcat.com/resources/how-tos/2018/01/29/strava-interpretation-guide/](https://www.bellingcat.com/resources/how-tos/2018/01/29/strava-interpretation-guide/)
+Toler, Aric: How to Use and Interpret Data from Strava's Activity Map, [https://www.bellingcat.com/resources/how-tos/2018/01/29/strava-interpretation-guide/](https://www.bellingcat.com/resources/how-tos/2018/01/29/strava-interpretation-guide/)
 
 ## Tool provider
 
