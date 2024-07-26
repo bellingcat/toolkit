@@ -120,8 +120,6 @@ To effectively use NASA Worldview, especially for beginners or those looking to 
 
 * [https://www.earthdata.nasa.gov/faq/worldview-gibs-faq](https://www.earthdata.nasa.gov/faq/worldview-gibs-faq)
 
-By utilizing these resources, users can enhance their NASA Worldview experience, whether for personal navigation, planning trips, or developing custom mapping solutions.
-
 ## Tool provider
 
 United States Government as represented by the Administrator of the National Aeronautics and Space Administration [https://www.nasa.gov/](https://www.nasa.gov/) - United States&#x20;
