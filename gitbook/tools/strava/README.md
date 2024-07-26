@@ -1,5 +1,5 @@
 ---
-description: Social media fitness app with geolocated exercise map.
+description: Social media fitness app with user-generated exercise map.
 ---
 
 # Strava
