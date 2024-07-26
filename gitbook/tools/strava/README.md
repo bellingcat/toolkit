@@ -10,7 +10,7 @@ description: Social media fitness app with exercise map based on users' GPS data
 
 ## Description
 
-Strava is a fitness app that allows users to publish various exercise activities on a map using GPS data. Activities are automatically mapped and key metrics are recorded. Strava also acts as a social network for fitness and outdor enthusiasts with each user having their own profile on the platform and possibilities to interact with each other. Researchers may use Strava to track a users' activities, gather location data, and understand patterns of movement in real time.&#x20;
+Strava is a fitness app that allows users to publish various exercise activities on a map using GPS data. Activities are automatically mapped and key metrics are recorded. Strava also acts as a social network for fitness and outdor enthusiasts with each user having their own profile on the platform and possibilities to interact with each other. Researchers may use Strava to track a users' activities, gather location data, and understand patterns of movement.
 
 1. **Profile Analysis:**
    * Username and Bio: Analyze users' profile information. Look for any clues or personal details that could be useful in identifying the individual.
