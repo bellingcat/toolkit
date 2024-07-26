@@ -1,7 +1,8 @@
 ---
 description: >-
-  NASA Worldview is an online tool for visualizing and downloading real-time
-  satellite imagery and scientific data of Earth's atmosphere, land, and oceans.
+  NASA Worldview is an online tool for visualizing and downloading near
+  real-time satellite imagery and scientific data of Earth's atmosphere, land,
+  and oceans.
 ---
 
 # NASA Worldview
@@ -12,7 +13,7 @@ description: >-
 
 ## Description
 
-Worldview, developed by NASA, is an interactive open source online tool that allows users to explore the Earth's surface as it appears in near-real-time, as well as through historical satellite imagery. It provides access to satellite data and imagery collected from various NASA Earth observing missions, offering users the ability to view and analyze environmental events, changes, and phenomena on a global scale. The tool is designed to cater to both scientific and educational purposes, making it a valuable resource for researchers who are interested in observing Earth's dynamic systems. Users can customize their view by selecting different layers such as air quality, temperature, precipitation, and more, making it a versatile platform for environmental monitoring and analysis.
+Worldview, developed by NASA, is an interactive open source online tool that allows users to explore the Earth's surface as it appears in near real-time, as well as through historical satellite imagery. It provides access to satellite data and imagery collected from various NASA Earth observing missions, offering users the ability to view and analyze environmental events, changes, and phenomena on a global scale. The tool is designed to cater to both scientific and educational purposes, making it a valuable resource for researchers who are interested in observing Earth's dynamic systems. Users can customize their view by selecting different layers such as air quality, temperature, precipitation, and more, making it a versatile platform for environmental monitoring and analysis.
 
 Worldview has many pre-made animated Stories for inspiration. These include:
 
@@ -73,7 +74,7 @@ Platform updates and changes [https://github.com/nasa-gibs/worldview/releases/](
 
 NASA Worldview has several limitations users should be aware of:
 
-* **Data Availability:** Not all satellite data are available in real-time or with a high temporal resolution. Some datasets may have a lag of several days or are updated less frequently.
+* **Data Availability:** Not all satellite data are available in near real-time or with a high temporal resolution. Some datasets may have a lag of several days or are updated less frequently.
 * **Resolution:** The spatial resolution of images and data can vary significantly between datasets. Some regions or types of data might not be available at the desired resolution for detailed analysis.
 * **Learning Curve:** New users may find the interface and array of datasets overwhelming, requiring time to learn how to effectively navigate and utilize the tool.
 * **Analysis Capabilities:** While Worldview allows for visualization, it does not offer extensive built-in tools for data analysis. Users might need to use other software for detailed analysis.
@@ -132,7 +133,7 @@ United States Government as represented by the Administrator of the National Aer
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Unassigned      |
-|                 |
+| Page maintainer                      |
+| ------------------------------------ |
+| Bellingcat Volunteer Team/Unassigned |
+|                                      |
