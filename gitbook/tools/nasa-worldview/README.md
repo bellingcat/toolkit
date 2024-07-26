@@ -78,7 +78,6 @@ NASA Worldview has several limitations users should be aware of:
 * **Resolution:** The spatial resolution of images and data can vary significantly between datasets. Some regions or types of data might not be available at the desired resolution for detailed analysis.
 * **Learning Curve:** New users may find the interface and array of datasets overwhelming, requiring time to learn how to effectively navigate and utilize the tool.
 * **Analysis Capabilities:** While Worldview allows for visualization, it does not offer extensive built-in tools for data analysis. Users might need to use other software for detailed analysis.
-* **Internet Dependency:** Being an online tool, a stable and fast internet connection is essential for smooth operation, which might be a limitation in remote or low-bandwidth areas.
 * **Data for download:** Data will not be available on dates outside of each layer's respective coverage date range. In addition, some layers in Worldview do not have corresponding source data products available for download, including Geostationary, Reference, Orbit Tracks, Earth at Night, and MODIS Corrected Reflectance products.
 
 ## Ethical Considerations
