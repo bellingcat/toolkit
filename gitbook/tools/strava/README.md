@@ -25,8 +25,8 @@ Strava is a fitness app that allows users to publish various exercise activities
    * Explore segments where the user has recorded activities. Researchers may also click on segments to discover new profiles who have logged particular segments in a loction. Segment data includes a leaderboard that shows the date that a particular user has participated in an activity on that segment. Click on the user to view their profile and activities.
 5. **Connections and Networks:**
    * Followers: Identify who the user follows and who follows them. This can reveal connections, affiliations, or relationships that might be relevant to the investigation.
-   * Interactions: View which profiles give "kudos" to other users' workouts (similar to a "like) or comment on other users' activities.
-   * Clubs and Groups: Join relevant clubs or groups the user is part of to gather more information about a users' social circles or interests. Users can filter their search of groups and clubs by location and Sport Type.
+   * Interactions: View which profiles give "kudos" to other users' workouts (similar to a "like") or comment on other users' activities.
+   * Clubs and Groups: Join relevant clubs or groups the user is part of to gather more information about a users' social circles or interests. Users can filter their search of groups and clubs by location and sport type.
 6. **Map Overlays and Data Export:**
    * Use map types and layers (standard, satellite, and hybrid) to visualize activity routes and identify potential points of interest.
 
