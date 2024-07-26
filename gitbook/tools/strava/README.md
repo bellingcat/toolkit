@@ -36,7 +36,7 @@ Strava is a fitness app that allows users to publish various exercise activities
 * [x] Partially Free
 * [ ] Paid
 
-Strava has an unpaid and paid subscription. The unpaid subscription is sufficient for an OSINT investigation because it still allows users to view Strava's heat maps, view groups and clubs, and discover or add other Strava users.&#x20;
+Strava has an unpaid and paid subscription. The unpaid subscription is sufficient for an OSINT investigation because it still allows users to view Strava's heat maps, view groups and clubs, and discover or add other Strava users. However, some features like community photos are only available to paying users.
 
 The paid version is geared towards maximizing a users’ personal workouts and goals. In the United States, subscribers [pay](https://www.strava.com/pricing) $11.99 per month or $79.99 per year. Subscribers on a Family Plan pay $139.99 per year.
 
