@@ -7,8 +7,32 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-    "url": "https://satellites.pro",
-    "tags": ["free", "maps", "international", "geospatial-information", "geographic-data-analysis", "mapping", "satellite", "satellite-imagery", "remote-sensing", "environment",  "geospatial", "spatial-analysis", "data-analysis", "deforestation", "agriculture", "water", "climate-change", "conflict", "apple-maps", "google-maps", "yandex-maps", "openstreetmaps", "OSM"]
+  "url": "https://satellites.pro",
+  "tags": [
+    "free",
+    "maps",
+    "international",
+    "geospatial-information",
+    "geographic-data-analysis",
+    "mapping",
+    "satellite",
+    "satellite-imagery",
+    "remote-sensing",
+    "environment",
+    "geospatial",
+    "spatial-analysis",
+    "data-analysis",
+    "deforestation",
+    "agriculture",
+    "water",
+    "climate-change",
+    "conflict",
+    "apple-maps",
+    "google-maps",
+    "yandex-maps",
+    "openstreetmaps",
+    "OSM"
+  ]
 }
 ```
 {% endcode %}
@@ -18,6 +42,10 @@ Keep the codeblock updated with accurate information. Only edit the **values** (
 ## name, description (optional)
 
 If omitted, the name and description will be copied from the page title and page description of the main content. If present, the JSON values override the main content.
+
+## draft (optional)
+
+If set to `true`, this prevents this tool from being listed in relevant category pages. Useful if the tool does not yet have a url and description set. Omit or set to false to publish.
 
 ## url
 
