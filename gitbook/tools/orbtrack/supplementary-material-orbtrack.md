@@ -13,3 +13,9 @@ Visible and invisible passes
 Time UTC or Local
 
 Measurement Imperial or Metric
+
+| USE CASE                                                                                              | INPUT | OUTPUT |
+| ----------------------------------------------------------------------------------------------------- | ----- | ------ |
+| Find the location for a given satellite at user-defined angles (azimuth and election) and date & time |       |        |
+|                                                                                                       |       |        |
+|                                                                                                       |       |        |
