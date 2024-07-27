@@ -57,10 +57,9 @@ Using Strava for OSINT research has several limitations:
 1. **Privacy Settings**: Many users have their profiles set to private, limiting the visibility of their activities and personal information to non-connections.
 2. **Accuracy of Data**: While Strava provides detailed activity data, the [accuracy](https://support.strava.com/hc/en-us/articles/216917917-Why-is-GPS-data-sometimes-inaccurate) of this data can vary depending on factors such as GPS signal strength and signal obstruction. The [timestamps](https://support.strava.com/hc/en-us/articles/216515918-My-Activity-Has-the-Wrong-Date-or-Start-Time) on activities may also not always be reliable based on a users' GPS settings or timezone.
 3. **Incomplete Data**: Not all users record all of their activities on Strava. Some may only use it sporadically or for specific types of activities, which can lead to incomplete or skewed data.
-4. **Reliability of Metadata**: Metadata associated with activities (such as timestamps, locations, and descriptions) may not always be accurate or up-to-date.
-5. **False or Misleading Information**: Users can manipulate their profiles or activity data, either intentionally or unintentionally, leading to false or misleading information for OSINT purposes.
-6. **Limited Historical Data**: Free access to historical data on Strava is limited, and more detailed historical data requires a premium subscription. This can restrict the depth of analysis for long-term trends or patterns.
-7. **Different Data on Desktop vs Smartphone:** Researchers may find more detailed heat map data using desktop rather than for a smartphone. The weekly heat map is only available on desktop.
+4. **False or Misleading Information**: Users can manipulate their profiles or activity data, either intentionally or unintentionally, leading to false or misleading information for OSINT purposes.
+5. **Limited Historical Data**: Free access to historical data on Strava is limited, and more detailed historical data requires a premium subscription. This can restrict the depth of analysis for long-term trends or patterns.
+6. **Different Data on Desktop vs Smartphone:** Researchers may find more detailed heat map data using desktop rather than for a smartphone. The weekly heat map is only available on desktop.
 
 ## Ethical Considerations
 
