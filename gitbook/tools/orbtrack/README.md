@@ -49,6 +49,34 @@ The website performs reliably, with a quick loading time averaging around 1.6 se
 
 Orbtrack.org is a powerful and versatile tool for satellite tracking, suitable for both casual users and professional researchers. Its real-time tracking capabilities, privacy focus, and offline functionality make it a reliable choice. However, there is room for improvement in terms of advanced features and user support. For anyone interested in tracking satellites and other celestial objects, Orbtrack.org is a highly recommended resource.
 
+{% tabs %}
+{% tab title="User Inputs" %}
+Observer Location
+
+Satellite Name
+
+
+{% endtab %}
+
+{% tab title="OrbTrack Outputs" %}
+List of Passes for Given Satellite over Given Location
+
+Near Real Time 3D Location of Given Satellite (Latitude, Longitude, Height) and Satellite Speed
+
+Elapsed Time for Given Satellite to cross the sky at Given Location
+{% endtab %}
+
+{% tab title="Use Cases" %}
+
+{% endtab %}
+
+{% tab title="Data Input Options" %}
+
+{% endtab %}
+{% endtabs %}
+
+
+
 ## Cost
 
 * [x] Free
