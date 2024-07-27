@@ -1,5 +1,8 @@
 ---
-description: A brief one-line description of the tool.
+description: >-
+  Predicts & describes the position & path of >10K satellites in Earth orbit,
+  relative to points on the earth's surface input by the user, plus live video
+  from the International Space Station
 ---
 
 # OrbTrack
@@ -76,7 +79,7 @@ Orbtrack.org is a powerful and versatile tool for satellite tracking, suitable f
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Torsten Hoffman with satellite data from Dr T. S. Kelso via [www.celestrack.com](https://www.celestrack.com).
 
 ## Advertising Trackers
 
@@ -84,7 +87,7 @@ Orbtrack.org is a powerful and versatile tool for satellite tracking, suitable f
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| Sophie Tedling  |
+|                 |
