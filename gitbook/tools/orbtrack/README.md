@@ -1,8 +1,8 @@
 ---
 description: >-
   Predicts & describes the position & path of >10K satellites in Earth orbit,
-  relative to points on the earth's surface input by the user, plus live video
-  from the International Space Station
+  relative to points on the earth's surface input by the user, for 5 days ahead,
+  + International Space Station video feed
 ---
 
 # OrbTrack
@@ -12,6 +12,8 @@ description: >-
 ## [https://www.orbtrack.org](https://www.orbtrack.org)
 
 ## Description
+
+
 
 #### Review of Orbtrack.org
 
@@ -69,7 +71,7 @@ Elapsed Time for Given Satellite to cross the sky at Given Location
 {% endtab %}
 
 {% tab title="Use Cases" %}
-
+Testing whether a satellite passes over an area of interest at a particular angle of elevation (and therefore may reveal sensor detail of the Earth's surface which was previously unavailable)
 {% endtab %}
 
 {% tab title="Data Input Options" %}
