@@ -18,6 +18,22 @@ const allTools = getTools().filter((tool) => !tool.draft );
   writeIfChanged(renderCategory(mostUsed, mostUsedTools), mostUsedFilePath);
 })();
 
+function createCategory(category) {
+  /*
+   * category: {
+   *   title: 'Category Name',
+   *   path: "category-name" or "path/to/category-name"
+   * }
+   */
+  const title = category.title;
+  const tag = path.basename(category.path);
+  const pathname = path.join('gitbook', 'categories', category.path);
+  fs.mkdirSync(pathname, { recursive: true });
+  fs.writeFileSync(`${pathname}/SUMMARY.md`, `# Table of contents\n\n* [${title}](README.md)`);
+  fs.writeFileSync(`${pathname}/README.md`, `# ${title}\n\n`);
+  console.log("Category created");
+}
+
 getCategories().filter((cat) => !cat.hasSubcategories).forEach((category) => {
   const categoryTools = allTools.filter((tool) => {
     return tool.tags && tool.tags.includes(category.tag);
@@ -80,4 +96,5 @@ function renderTable(tools, category) {
 }
 
 export default {
+  createCategory
 }
