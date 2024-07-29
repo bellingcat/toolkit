@@ -24,10 +24,6 @@ The platform offers a centralized source of geographical information that can su
 * **Measure distance:** measure distance between points in kilometres.&#x20;
 * **Screenshot:** download a screenshot of a specific area in PNG and PGW geo-referencing format.
 
-The example below is a search for משכן הכנסת (knesset)
-
-<figure><img src=".gitbook/assets/Screenshot 2024-06-21 at 11.17.05 AM.png" alt="Screenshot of search for משכן הכנסת"><figcaption><p>Screenshot of search for משכן הכנסת </p></figcaption></figure>
-
 ### Use Cases
 
 Israel's GovMap holds a multitude of applications for open source researchers, enabling them to utilize the platform's detailed geographic data and various functionalities for their investigations. Here are some key use cases:
