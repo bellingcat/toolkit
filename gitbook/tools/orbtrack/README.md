@@ -61,7 +61,7 @@ Satellite Name
 {% endtab %}
 
 {% tab title="OrbTrack Outputs" %}
-* List of Passes for Given Satellite over Given Location
+List of Passes for Given Satellite over Given Location
 
 Near Real Time 3D Location of Given Satellite (Latitude, Longitude, Height) and Satellite Speed
 
@@ -69,7 +69,7 @@ Distance of Given Satellite from Given Location with Azimuth & Elevation Angles
 
 Elapsed Time for Given Satellite to cross the sky at Given Location
 
-Whether the Given Satellite is reflecting the Sun or is in Earth's shadow
+Visibility of the Given Satellite:  whether is reflecting the Sun or is in Earth's shadow
 {% endtab %}
 
 {% tab title="Use Cases" %}
@@ -82,6 +82,15 @@ Testing whether a satellite passes over an area of interest at a particular angl
 {% endtabs %}
 
 
+
+| DATA OUTPUT                                                                                                                                                                                    | GRAPHIC                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| Near Real Time 3D Location of Given Satellite (Latitude, Longitude, Height) and Satellite Speed with Visibility of the Given Satellite:  whether is reflecting the Sun or is in Earth's shadow | <img src=".gitbook/assets/image (2).png" alt="" data-size="original">                           |
+| Distance of Given Satellite from Given Location with Azimuth & Elevation Angles With Elapsed Time for Given Satellite to cross the sky at Given Location                                       | <img src=".gitbook/assets/image (1).png" alt="" data-size="original">                           |
+| Path of Given Satellite with Time Stamps from the Point Its Elevation Angle Becomes Greater than Zero, Through to the Point Its Elevation Angle Becomes Zero Again                             | <img src=".gitbook/assets/detailpredictionwindowcosmosexample.JPG" alt="" data-size="original"> |
+| Elapsed Time for Given Satellite to cross the sky at Given Location                                                                                                                            | <img src=".gitbook/assets/examplecosmos5daywindow.JPG" alt="" data-size="original">             |
+| List of Passes for Given Satellite over Given Location                                                                                                                                         |                                                                                                 |
+|                                                                                                                                                                                                |                                                                                                 |
 
 
 
