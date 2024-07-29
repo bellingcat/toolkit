@@ -49,10 +49,6 @@ While GovMap is designed to be user-friendly and accessible to a broad audience,
 
 To effectively use GovMap, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
 
-**Official Wiki**&#x20;
-
-* A guide is available in Hebrew&#x20;
-
 **Tutorials and Articles**
 
 * Hanham, M. (2015) _There’s a Map for That_, _Bellingcat_. Available at: [https://www.bellingcat.com/resources/how-tos/2015/04/10/theres-a-map-for-that/](https://www.bellingcat.com/resources/how-tos/2015/04/10/theres-a-map-for-that/) (Accessed: 10 April 2024).
