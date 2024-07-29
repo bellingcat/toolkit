@@ -43,7 +43,11 @@ While GovMap is designed to be user-friendly and accessible to a broad audience,
 
 ## Limitations
 
+\-
+
 ## Ethical Considerations
+
+\-
 
 ## Guide
 
