@@ -25,17 +25,19 @@ X employs frequently uses these two types of location data.&#x20;
 
 1. Manual User-Added Location: This allows users to directly add a location to posts and is displayed below the post. &#x20;
 
-\[placeholder]
+<figure><img src=".gitbook/assets/Screenshot 2024-07-29 021003-marked.png" alt=""><figcaption><p>This post shows a post with an explicit location reported by the user. This appears at the bottom of the post with the search query "art" and added a randomly selected location, in this case, Estes Park, Colorado. </p></figcaption></figure>
 
 2. Profile Location: In the absence of a user-specified location, X may approximate it based on factors such as the location the user specifies on his/her account profile.  The platform estimates based on where users say they live in their profile.
 
-\[placeholder]
+<figure><img src=".gitbook/assets/Screenshot 2024-07-29 015213-marked.png" alt=""><figcaption><p>On the other hand, user profiles sometimes indicate where they are based as shown in this image. The platform may then use this information when generating location-based search results. </p></figcaption></figure>
 
 #### _**Location from the user's device**_
 
-If users choose to turn on location settings on their devices, X can identify the GPS coordinates of this device at the time of the post. In addition, X may use the user’s [IP address](https://developer.x.com/en/docs/twitter-api/v1/geo/places-near-location/api-reference/get-geo-search) to determine which location is attached to the post.
+If users choose to turn on location settings on their devices, X can identify the GPS coordinates of this device at the time of the post. In addition, X may use the user’s [IP address](https://developer.x.com/en/docs/twitter-api/v1/geo/places-near-location/api-reference/get-geo-search) to determine which location is attached to the post. This is particularly helpful when users want to take advantage of the search results near him/her.&#x20;
 
-\[placeholder]
+&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2024-07-29 024311.png" alt="" width="375"><figcaption><p>If you're looking to find posts near your current location, there's a quicker method available. Use the “posts near me” location feature. Here are the steps: Open X on a browser or the mobile app, and enter a hashtag or search term. Choose “Near you” under the “Location” heading to filter the search results to show only posts from nearby.</p></figcaption></figure>
 
 ### How to use geocode location search operators
 
@@ -82,7 +84,7 @@ Self-reported location affects the reliability of results in two ways primarily:
 
 2. **Limited Historical Data**
 
-Geocoded searches are more effective for recent posts. Older posts often lack location tags, reducing the volume of retrievable data. For instance, [Bellingcat found](https://www.bellingcat.com/resources/2021/05/19/geofenced-searches-on-twitter-a-case-study-detailing-south-asias-covid-crisis/) user profile location information used to georeference tweets only for the most recent week, leading to a drop in older tweet volumes. The study finds that: "user profile location information is only used to georeference tweets for the most recent week (seven to eight days, approximately.) The effect of this is that recent tweet volume appears much greater than that from more than a week ago."&#x20;
+Geocoded searches are more effective for recent posts. Older posts often lack location tags, reducing the volume of retrievable data. For instance, [Bellingcat found](https://www.bellingcat.com/resources/2021/05/19/geofenced-searches-on-twitter-a-case-study-detailing-south-asias-covid-crisis/) user profile location information used to georeference tweets only for the most recent week, leading to a drop in older tweet volumes. The study finds that: "user profile location information is only used to georeference tweets for the most recent week (seven to eight days, approximately.) The effect of this is that recent tweet volume appears much greater than that from more than a week ago." In addition to this 2021 study, this tool was tested in July 2024 to find historical location data. This limitation seems to still exist with the tool.&#x20;
 
 3. [**Radius limited to 25 mi (40.23 km**](https://developer.x.com/en/docs/twitter-api/tweets/search/integrate/build-a-query)**)**
 
