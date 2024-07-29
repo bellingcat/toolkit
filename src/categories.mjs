@@ -40,23 +40,6 @@ function generateTemplateCategoriesMarkdown(categories) {
 
   writeIfChanged(content, 'template/categories.md');
 }
-
-function createCategory(category) {
-  /*
-   * category: {
-   *   title: 'Category Name',
-   *   path: "category-name" or "path/to/category-name"
-   * }
-   */
-  const title = category.title;
-  const tag = path.basename(category.path);
-  const pathname = path.join('gitbook', 'categories', category.path);
-  fs.mkdirSync(pathname, { recursive: true });
-  fs.writeFileSync(`${pathname}/SUMMARY.md`, `# Table of contents\n\n* [${title}](README.md)`);
-  fs.writeFileSync(`${pathname}/README.md`, `# ${title}\n\n`);
-  console.log("Category created");
-}
-
 const allCategories = getCategories();
 allCategories.filter((cat) => !cat.hasSubcategories).forEach((category) => {
   const categoryTools = allTools.filter((tool) => {
@@ -118,8 +101,4 @@ function renderTable(tools, category) {
       return `| [**${row.title}**](${row.url}) | ${row.description} | ${renderCost(row.cost)} | ${renderRelativeLink(category, row)} |`
     }).join("\n")
   );
-}
-
-export default {
-  createCategory
 }
