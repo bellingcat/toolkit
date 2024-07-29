@@ -1,6 +1,6 @@
 # Supplementary Material OrbTrack
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 | Input Data        | Text Entry Methods                                                            | Graphical interface Input                                                                                       |
 | ----------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
