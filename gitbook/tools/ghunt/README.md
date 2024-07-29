@@ -10,7 +10,11 @@ description: A command line tool for obtaining information about Google accounts
 
 ## Description
 
+GHunt is an open-source tool designed to gather detailed information about Google accounts. By using publicly accessible data, Ghunt arious aspects of a Google user's digital footprint, including their YouTube channels, Google Photos, Google Maps reviews, and more. By analyzing this information, GHunt can provide insights into the target's online activities and digital footprint.&#x20;
 
+Ghunt has two supported browser extensions for [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/ghunt-companion/) and [Google Chrome](https://chromewebstore.google.com/detail/ghunt-companion/dpdcofblfbmmnikcbmmiakkclocadjab)
+
+The developers have provided 2 scripts that leverage the tool [here](https://github.com/mxrch/GHunt/tree/master/examples)![](<.gitbook/assets/Screenshot 2024-07-29 at 8.10.33 PM.png>).
 
 ## Cost
 
@@ -28,8 +32,10 @@ Need to install [pipx](https://github.com/pypa/pipx) in your environment, which 
 
 ## Limitations
 
-Beginning in April 2024, Ghunt no longer shows the name of the account holder in the resolts it returns. GHunt developers commented that this was a feature that Google has actively tried to block, as a result users were advised to not expect the return of this feature. \
-Some social media users have speculated that the removal of this feature may be related to an April 2024 [article](https://www.theguardian.com/world/2024/apr/05/top-israeli-spy-chief-exposes-his-true-identity-in-online-security-lapse) by the Guardian which identified the head of Israel's Unit 8200, an intelligence and surveillance apparatus under the Israel Defense Forces (IDF). According to the investigative methodology described in the article, Ghunt may have ostensibly been used to identify Sariel.
+Beginning in April 2024, Ghunt no longer shows the name of the account holder in the resolts it returns. Ghunt developers commented that this was a feature that Google has actively tried to block and advised users to not expect the return of this feature.&#x20;
+
+\
+Some social media users have speculated that the removal of this feature may be related to an April 2024 [article](https://www.theguardian.com/world/2024/apr/05/top-israeli-spy-chief-exposes-his-true-identity-in-online-security-lapse) by the Guardian which identified the head of Israel's Unit 8200, an Israeli Intelligence Corps unit of the Israel Defense Forces (IDF). According to the investigative methodology described in the article, Ghunt may have been used to identify Sariel.
 
 ## Ethical Considerations
 
