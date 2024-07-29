@@ -68,6 +68,8 @@ Near Real Time 3D Location of Given Satellite (Latitude, Longitude, Height) and 
 Distance of Given Satellite from Given Location with Azimuth & Elevation Angles
 
 Elapsed Time for Given Satellite to cross the sky at Given Location
+
+Whether the Given Satellite is reflecting the Sun or is in Earth's shadow
 {% endtab %}
 
 {% tab title="Use Cases" %}
