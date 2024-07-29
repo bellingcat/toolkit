@@ -48,7 +48,7 @@ Desktop minimum requirements:
 
 ## Limitations
 
-* **Performance on Low-End Devices:** Blender requires a relatively powerful computer, especially for complex scenes or high-poly meshes. Users with low-end devices may experience lag or inability to use some features effectively.
+* **Performance on Low-End Devices:** Blender requires a relatively powerful computer, especially for complex scenes or high-poly meshes. Users with low-end devices may experience lag or inability to use some features effectively. For rendering models in particular it's worth reading carefully about how to fine tune Blender starting with the Blender manual's [Performance Considerations](https://docs.blender.org/manual/en/2.79/render/blender\_render/optimizations/performance.html).
 * **Steep Learning Curve:** Due to its comprehensive suite of tools and features, Blender can be overwhelming for beginners.&#x20;
 * **Limited Technical Support:** Being an open-source project, Blender relies on community and volunteer support. There's no official technical support team, which might be a limitation for commercial projects requiring immediate assistance.
 
