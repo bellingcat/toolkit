@@ -10,13 +10,17 @@ description: A command line tool for obtaining information about Google accounts
 
 ## Description
 
+<figure><img src=".gitbook/assets/Screenshot 2024-07-29 at 10.49.53 PM.png" alt=""><figcaption></figcaption></figure>
+
 GHunt is an open-source tool designed to gather detailed information about Google accounts. By using publicly accessible data, Ghunt arious aspects of a Google user's digital footprint, including their YouTube channels, Google Photos, Google Maps reviews, and more. By analyzing this information, GHunt can provide insights into the target's online activities and digital footprint.&#x20;
 
 Ghunt has two supported browser extensions for [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/ghunt-companion/) and [Google Chrome](https://chromewebstore.google.com/detail/ghunt-companion/dpdcofblfbmmnikcbmmiakkclocadjab)
 
-The developers have provided 2 scripts that leverage the tool [here](https://github.com/mxrch/GHunt/tree/master/examples)![](<.gitbook/assets/Screenshot 2024-07-29 at 8.10.33 PM.png>).
+The developers have provided 2 scripts that leverage the tool [here](https://github.com/mxrch/GHunt/tree/master/examples).
 
-## Cost
+The easiest way to authenticate into Ghunt is to use authentication option 2 alongside the Ghunt browser extension. After selecting option 2, go to your browser extension and obtain the base64-encoded credentials. You can use these to authenticate to Ghunt.
+
+<figure><img src=".gitbook/assets/Screenshot 2024-07-29 at 10.47.52 PM.png" alt=""><figcaption></figcaption></figure>
 
 * [x] Free
 * [ ] Partially Free
@@ -42,6 +46,8 @@ Some social media users have speculated that the removal of this feature may be 
 This project is under [AGPL Licence](https://choosealicense.com/licenses/agpl-3.0/). The developers require that it is used "**only in personal, criminal investigations, pentesting, or open-source projects."**
 
 ## Guides and articles
+
+[OSINT Newsletter - Ghunt](https://osintnewsletter.com/p/ghunt)
 
 [Investigating Google Accounts with GHunt](https://os2int.com/toolbox/investigating-google-accounts-with-ghunt/)
 
