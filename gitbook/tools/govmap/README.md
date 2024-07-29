@@ -24,16 +24,6 @@ The platform offers a centralized source of geographical information that can su
 * **Measure distance:** measure distance between points in kilometres.&#x20;
 * **Screenshot:** download a screenshot of a specific area in PNG and PGW geo-referencing format.
 
-### Use Cases
-
-Israel's GovMap holds a multitude of applications for open source researchers, enabling them to utilize the platform's detailed geographic data and various functionalities for their investigations. Here are some key use cases:
-
-* **Investigative Reporting**: Access to land and property data can help open source researchers uncover stories related to land disputes, development projects, and environmental issues.
-* **Data Visualization**: Open source researchers can use GovMap to create maps and visualizations to accompany their stories, making complex geographic and demographic data more accessible to readers.
-* **Geolocation Verification:** Utilize the platform's maps and landmark data to verify the geolocation of images, videos, or reports.
-* **Asset Tracking:** Track the development and changes in infrastructure, allowing for monitoring of assets or areas of interest over time.
-* **Conflict Analysis:** Analyze areas of conflict or tension by reviewing historical data, border changes, and current land use.&#x20;
-
 ## Cost
 
 * [x] Free
