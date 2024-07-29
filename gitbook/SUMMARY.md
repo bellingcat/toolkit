@@ -110,3 +110,4 @@
   * [Earth Online](tools/earth-online/README.md)
   * [Tencent Maps](tools/tencent-maps/README.md)
   * [satellites.pro](tools/satellites.pro/README.md)
+  * [Omnivore](tools/omnivore/README.md)
