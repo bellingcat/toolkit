@@ -24,7 +24,7 @@ By clicking on the database you can see the whole file and make a search for an 
 * [x] Partially Free
 * [ ] Paid
 
-Very limited results with a free account. Prices start at € 2.500 /Year.&#x20;
+A free account gives access to very limited results. Prices start at € 2.500 /Year. However, Intelx provides a limited number of free accounts to journalists and academics for research purposes.&#x20;
 
 ## Level of difficulty
 
