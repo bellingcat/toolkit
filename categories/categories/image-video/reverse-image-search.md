@@ -1,2 +1,0 @@
-# Reverse Image Search
-
