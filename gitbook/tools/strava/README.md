@@ -54,7 +54,7 @@ The global heat map is available to the public, but only registered Strava users
 
 Using Strava for OSINT research has several limitations:
 
-1. **Privacy Settings**: Many users have their profiles set to private, limiting the visibility of their activities and personal information to non-connections. However, the default setting for new users is to have their profile and activities (workouts, races or events) visible to everyone.
+1. **Privacy Settings**: Many users have their profiles set to private, limiting the visibility of their activities and personal information to non-connections.&#x20;
 2. **Accuracy of Data**: While Strava provides detailed activity data, the [accuracy](https://support.strava.com/hc/en-us/articles/216917917-Why-is-GPS-data-sometimes-inaccurate) of this data can vary depending on factors such as GPS signal strength and signal obstruction. The [timestamps](https://support.strava.com/hc/en-us/articles/216515918-My-Activity-Has-the-Wrong-Date-or-Start-Time) on activities may also not always be reliable based on a users' GPS settings or timezone.
 3. **Incomplete Data**: Not all users record all of their activities on Strava. Some may only use it sporadically or for specific types of activities, which can lead to incomplete or skewed data.
 4. **False or Misleading Information**: Users can manipulate their profiles or activity data, either intentionally or unintentionally, leading to false or misleading information for OSINT purposes.
@@ -65,7 +65,7 @@ Using Strava for OSINT research has several limitations:
 
 Strava displays user-generated content, which may include location data and personal information knowingly or unknowingly shared by individuals.&#x20;
 
-Users may opt out of the aggregate data usage in their privacy settings. Activities with the privacy setting "Only You" or “Followers” are excluded from the heat map automatically. Strava may also exclude all portions of activities based on a users' map visibility settings.
+Users may opt out of the aggregate data usage in their privacy settings. Activities with the privacy setting "Only You" or “Followers” are excluded from the heat map automatically. Strava may also exclude all portions of activities based on a users' map visibility settings. However, the default setting for new users is to have their profile and activities (workouts, races or events) visible to everyone. Some users might not be aware of those default settings.
 
 ## Guides and Articles
 
