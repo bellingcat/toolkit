@@ -96,6 +96,12 @@ According to [this case study, ](https://www.bellingcat.com/resources/2021/05/19
 
 To mitigate these limitations, users should avoid location-only searches and take advantage of other search filters provided by the platform. &#x20;
 
+## Ethical Considerations
+
+* Individual Privacy: Be mindful of individual privacy. While public tweets are accessible, avoid exposing personal information of individuals without their consent.
+* Transparency: If sharing findings publicly, consider anonymizing personally identifiable information to protect individuals' privacy.
+* Data Reliability: Be aware that Twitter's location data is not always accurate. Avoid drawing definitive conclusions based solely on location data without corroboration from other sources
+
 ## Tool provider
 
 X.com
