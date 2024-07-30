@@ -88,7 +88,7 @@ Geocoded searches are more effective for recent posts. Older posts often lack lo
 
 3. [**Radius limited to 25 mi (40.23 km**](https://developer.x.com/en/docs/twitter-api/tweets/search/integrate/build-a-query)**)**
 
-According to X’s guide to building a query, distance-based searches can be limited to 25 mi. This means they can exclude relevant tweets just outside the specified area. For instance, an investigator is researching environmental impacts in a 50-mile radius around an industrial site. X’s search may only allow a smaller radius, potentially missing relevant tweets from just outside the boundary.&#x20;
+According to [X’s guide](https://developer.x.com/en/docs/twitter-api/tweets/search/integrate/build-a-query) to building a query, distance-based searches can be limited to 25 mi. This means they can exclude relevant tweets just outside the specified area. For instance, an investigator is researching environmental impacts in a 50-mile radius around an industrial site. X’s search may only allow a smaller radius, potentially missing relevant tweets from just outside the boundary.&#x20;
 
 4. **Transparency**
 
