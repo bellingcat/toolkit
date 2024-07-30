@@ -65,6 +65,10 @@ Satellite Name
 {% endtab %}
 
 {% tab title="Use Cases" %}
+Finding satellites which pass over an area of interest at an angle of elevation useful to the user.
+
+Finding the path of a given satellite, including the high level information as to whether it is in or near geostationary orbit.
+
 Testing whether a satellite passes over an area of interest at a particular angle of elevation (and therefore may reveal sensor detail of the Earth's surface which was previously unavailable)
 {% endtab %}
 
