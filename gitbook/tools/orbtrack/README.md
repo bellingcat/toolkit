@@ -61,15 +61,7 @@ Satellite Name
 {% endtab %}
 
 {% tab title="OrbTrack Outputs" %}
-List of Passes for Given Satellite over Given Location
-
-Near Real Time 3D Location of Given Satellite (Latitude, Longitude, Height) and Satellite Speed
-
-Distance of Given Satellite from Given Location with Azimuth & Elevation Angles
-
-Elapsed Time for Given Satellite to cross the sky at Given Location
-
-Visibility of the Given Satellite:  whether is reflecting the Sun or is in Earth's shadow
+<figure><img src=".gitbook/assets/DataOutpuTable.JPG" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Use Cases" %}
@@ -92,6 +84,8 @@ Testing whether a satellite passes over an area of interest at a particular angl
 |                                                                                                                                                                                                    |                                                                                                 |
 
 
+
+<table><thead><tr><th width="126">DATA INPUT</th><th width="271">TEXT</th><th>GRAPHIC</th></tr></thead><tbody><tr><td>Satellite Location</td><td>Text input window Top Left Screen</td><td>Left Mouse Click on Choose button next to Satellite of Choice in the Active Satellites List (Launched from Main Menu SHOW CATALOG button)<img src=".gitbook/assets/satellitedatabasecelestrak headingsANNOTATED.jpg" alt=""></td></tr><tr><td>Observer Location</td><td><ul><li>Text input window Top Right Screen</li><li>Text input of Observer Latitude and Longitude in Main Menu<img src=".gitbook/assets/orbtrackmainmenu (1).JPG" alt=""></li></ul></td><td>Left Mouse Click on Background Map at Chosen Observer Location<img src=".gitbook/assets/image (5).png" alt=""></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
 ## Cost
 
