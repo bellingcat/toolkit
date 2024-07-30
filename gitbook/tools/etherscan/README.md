@@ -1,12 +1,14 @@
 ---
-description: Tracking transactions & finding a cryptowallet each based on the ETH blockchain.
+description: >-
+  Tracking transactions & finding a cryptowallet each based on the ETH
+  blockchain.
 ---
 
 # Etherscan
 
 ## URL
 
-http://etherscan.io/
+[https://etherscan.io/](https://etherscan.io/)
 
 ## Description
 
@@ -18,11 +20,9 @@ http://etherscan.io/
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
@@ -50,8 +50,7 @@ http://etherscan.io/
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer         |
+| ----------------------- |
+| Johanna Wild/Bellingcat |
+|                         |
