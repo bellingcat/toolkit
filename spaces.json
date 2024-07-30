@@ -3717,5 +3717,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "T9onPawdXHQZikbPlpRC",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "l7cDhL9rijijU2tg67xw",
+    "title": "Etherscan",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-07-30T19:55:41.868Z",
+    "updatedAt": "2024-07-30T19:55:41.868Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/l7cDhL9rijijU2tg67xw",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/l7cDhL9rijijU2tg67xw/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "vnGwY2P9jpuHCXcqQpbd",
+    "defaultLevel": "inherit"
   }
 ]
