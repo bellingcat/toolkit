@@ -75,7 +75,7 @@ Platform updates and changes [https://github.com/nasa-gibs/worldview/releases/](
 NASA Worldview has several limitations users should be aware of:
 
 * **Data Availability:** Not all satellite data are available in near real-time or with a high temporal resolution. Some datasets may have a lag of several days or are updated less frequently.
-* **Resolution:** The spatial resolution of images and data can vary significantly between datasets. Some regions or types of data might not be available at the desired resolution for detailed analysis.
+* **Resolution:** The spatial resolution of images and data can vary significantly between datasets. Some regions or types of data might not be available at the desired resolution for detailed analysis. The highest resolution [Sentinel-2](https://lpdaac.usgs.gov/documents/1698/HLS\_User\_Guide\_V2.pdf) imagery is 10 meters per pixel for RGB and near-infrared bands, 20 meters per pixel for shortwave infrared bands and can be added as a base layer from the Base Layers menu.&#x20;
 * **Learning Curve:** New users may find the interface and array of datasets overwhelming, requiring time to learn how to effectively navigate and utilize the tool.
 * **Analysis Capabilities:** While Worldview allows for visualization, it does not offer extensive built-in tools for data analysis. Users might need to use other software for detailed analysis.
 * **Data for download:** Data will not be available on dates outside of each layer's respective coverage date range. In addition, some layers in Worldview do not have corresponding source data products available for download, including Geostationary, Reference, Orbit Tracks, Earth at Night, and MODIS Corrected Reflectance products.
