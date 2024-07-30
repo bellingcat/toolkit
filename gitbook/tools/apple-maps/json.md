@@ -7,8 +7,19 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-    "url": "https://www.apple.com/maps/",
-    "tags": ["free", "international", "geospatial-information", "mapping", "maps", "environment",  "geospatial", "international", "mapping-solutions", "interactive-maps"]
+  "url": "https://www.apple.com/maps/",
+  "tags": [
+    "free",
+    "international",
+    "geospatial-information",
+    "mapping",
+    "maps",
+    "environment",
+    "geospatial",
+    "international",
+    "mapping-solutions",
+    "interactive-maps"
+  ]
 }
 ```
 {% endcode %}
@@ -18,6 +29,10 @@ Keep the codeblock updated with accurate information. Only edit the **values** (
 ## name, description (optional)
 
 If omitted, the name and description will be copied from the page title and page description of the main content. If present, the JSON values override the main content.
+
+## draft (optional)
+
+If set to `true`, this prevents this tool from being listed in relevant category pages. Useful if the tool does not yet have a url and description set. Omit or set to false to publish.
 
 ## url
 
