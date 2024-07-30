@@ -61,23 +61,22 @@ OrbTrack is a web-based app which allows users to explore satellite sources of i
 {% endtab %}
 
 {% tab title="USE CASES" %}
-**Verifying Satellite Data:**&#x20;
+* **Verifying Satellite Data:**&#x20;
+* **Locating and Selecting Useful Satellite Data**
 
-**Locating and Selecting Useful Satellite Data**
+**Satellite-Focused Research:**&#x20;
+
+Finding the path of a given satellite, including the high level information as to whether it is in or near geostationary orbit.
+
+
 
 **Location-Focused Research:**&#x20;
 
 Finding satellites which pass over an area of interest at an angle of elevation useful to the user.
 
-
-
 Find the location for a given satellite at user-defined angles (azimuth and election) and date & time
 
 Testing whether a satellite passes over an area of interest at a particular angle of elevation (and therefore may reveal sensor detail of the Earth's surface which was previously unavailable)
-
-**Satellite-Focused Research:**&#x20;
-
-Finding the path of a given satellite, including the high level information as to whether it is in or near geostationary orbit.
 {% endtab %}
 
 {% tab title="DATA INPUT OPTIONS" %}
