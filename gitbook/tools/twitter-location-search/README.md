@@ -60,7 +60,7 @@ Open-source researchers may find this tool helpful for tracking crises and event
 * Real-time Monitoring: Pinpointing locations of protests, conflicts, or natural disasters.
 * Identifying Affected Areas: Determining regions experiencing human rights violations or humanitarian crises.
 * Corroborating Ground Reports: Verifying claims of incidents through geolocated content.
-* Spot relevant local conversations and identify possible local experts or leads in a location in question&#x20;
+* Spot relevant local conversations and identify possible local experts or leads in a location in question.
 
 ## Cost
 
