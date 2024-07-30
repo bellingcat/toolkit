@@ -1,4 +1,4 @@
 # Table of contents
 
 * [Omnivore](README.md)
-* [JSON](json.md)
+* [Categories](categories.md)
