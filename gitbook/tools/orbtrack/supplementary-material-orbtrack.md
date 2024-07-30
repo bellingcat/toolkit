@@ -24,6 +24,24 @@ Measurement Imperial or Metric
 | List of Passes for Given Satellite over Given Location fpr 5 days                                                                                                                                  | <img src=".gitbook/assets/image (1) (1).png" alt="" data-size="original">                       |
 |                                                                                                                                                                                                    |                                                                                                 |
 
+**Verifying Satellite Data:**&#x20;
+
+**Locating and Selecting Useful Satellite Data**
+
+**Location-Focused Research:**&#x20;
+
+Finding satellites which pass over an area of interest at an angle of elevation useful to the user.
+
+
+
+Find the location for a given satellite at user-defined angles (azimuth and election) and date & time
+
+Testing whether a satellite passes over an area of interest at a particular angle of elevation (and therefore may reveal sensor detail of the Earth's surface which was previously unavailable)
+
+**Satellite-Focused Research:**&#x20;
+
+Finding the path of a given satellite, including the high level information as to whether it is in or near geostationary orbit.
+
 | USE CASE                                                                                              | INPUT | OUTPUT |
 | ----------------------------------------------------------------------------------------------------- | ----- | ------ |
 | Find the location for a given satellite at user-defined angles (azimuth and election) and date & time |       |        |
