@@ -1,9 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import tools from './tools.mjs'
-const { getTools } = tools;
 import pkg from './paths.mjs'
-const { writeIfChanged, getSummary, processMarkdownFile} = pkg;
+const { apiCall, getCategories, getTools, writeIfChanged, getSummary, processMarkdownFile} = pkg;
 
 const allTools = getTools().filter((tool) => !tool.draft );
 (function renderMostUsed() {
@@ -18,40 +17,6 @@ const allTools = getTools().filter((tool) => !tool.draft );
   const mostUsedFilePath = 'gitbook/most-used.md';
   writeIfChanged(renderCategory(mostUsed, mostUsedTools), mostUsedFilePath);
 })();
-
-function getPaths(pathname) {
-  const files = fs.readdirSync(pathname);
-
-  const paths = files.flatMap((filename) => {
-    if (filename[0] === ".") { return null; }         // ignore hidden files
-    if (filename === 'SUMMARY.md') { return null; }   // ignore summaries
-
-    const filepath = path.join(pathname, filename);
-    if (path.extname(filename) == ".md") {
-      return processMarkdownFile(filepath, filename); // markdown file
-    } else if (fs.lstatSync(filepath).isDirectory()){
-      return [ ...getPaths(filepath)]; // directory
-    }
-    return null;
-  });
-  return paths.filter(post => { return post && post });
-}
-function getCategories() {
-  const root = 'gitbook/categories';
-  return getPaths(root).filter((markdownFile) => {
-    // Take all README.md files as categories
-    return markdownFile.filename == 'README.md';
-  }).map(function(markdownFile) {
-    const tag = path.basename(markdownFile.directory);
-
-    return {
-      title: markdownFile.title,
-      content: markdownFile.content,
-      filepath: path.join(markdownFile.directory, tag + '.md'),
-      tag: tag
-    }
-  });
-}
 
 getCategories().forEach((category) => {
   const categoryTools = allTools.filter((tool) => {
@@ -114,5 +79,4 @@ function renderTable(tools, category) {
 }
 
 export default {
-  getCategories
 }

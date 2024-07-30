@@ -1,9 +1,9 @@
 import fs from 'fs';
 import path from 'path';
-import tools from './tools.mjs'
+import pkg from './paths.mjs'
 import util from 'node:util';
 import child_process from 'node:child_process';
-const { getTools } = tools;
+const { getTools } = pkg;
 const exec = util.promisify(child_process.exec);
 
 // find out when each tool page was last updated

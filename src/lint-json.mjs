@@ -1,5 +1,7 @@
+import paths from './paths.mjs'
+const {getTools} = paths;
 import pkg from './tools.mjs'
-const {getTools, updateToolJSON, updateToolCategories} = pkg;
+const {updateToolJSON, updateToolCategories} = pkg;
 
 // Parse all the JSON files (fails with error if invalid JSON is found)
 getTools().forEach((tool) => {
