@@ -104,9 +104,7 @@ To mitigate these limitations, users should avoid location-only searches and tak
 
 ## Tool provider
 
-X.com
-
-USA
+X.com, USA
 
 ## Guide
 
