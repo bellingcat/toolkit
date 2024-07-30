@@ -35,8 +35,8 @@ Open source researchers can use the tool to create a panoramic image of a locati
 
 * Limited control over stitching parameters.
 * May struggle with images that have very minimal overlap.
-* Performance can degrade with large image sets.
-* Limited support and documentation.
+* **Performance Issues**: Performance can degrade with large image sets and Auotostitch has been found to have [performance issues](https://www.neopanoramic.com/review/autostitch).
+* **Limited support and documentation.**
 
 ## Ethical Considerations
 
