@@ -22,6 +22,8 @@ The easiest way to authenticate into Ghunt is to use authentication option 2 alo
 
 <figure><img src=".gitbook/assets/Screenshot 2024-07-29 at 10.47.52 PM.png" alt=""><figcaption></figcaption></figure>
 
+## Cost
+
 * [x] Free
 * [ ] Partially Free
 * [ ] Paid
