@@ -49,10 +49,11 @@ function getPaths(pathname, slug = [], markdownRoot = 'gitbook', webRoot = '') {
       }
       // markdown file
       return processMarkdownFile(filepath, filename, slug);
-    } else {
+    } else if (fs.lstatSync(filepath).isDirectory()){
       // directory
       return [ ...getPaths(filepath, [...slug, filename], markdownRoot, webRoot)];
     }
+    return null;
   });
   return paths.filter(post => { return post && post });
 }

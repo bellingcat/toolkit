@@ -29,9 +29,10 @@ function getPaths(pathname) {
     const filepath = path.join(pathname, filename);
     if (path.extname(filename) == ".md") {
       return processMarkdownFile(filepath, filename); // markdown file
-    } else {
+    } else if (fs.lstatSync(filepath).isDirectory()){
       return [ ...getPaths(filepath)]; // directory
     }
+    return null;
   });
   return paths.filter(post => { return post && post });
 }
