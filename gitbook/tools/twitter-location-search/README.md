@@ -55,7 +55,7 @@ For open-source researchers, this tool helps find the signal through the noise. 
 
 ### Use cases
 
-Open-source researchers may find this tool helpful for tracking crises and events
+Open-source researchers may find this tool helpful for tracking crises and events:
 
 * Real-time Monitoring: Pinpointing locations of protests, conflicts, or natural disasters.
 * Identifying Affected Areas: Determining regions experiencing human rights violations or humanitarian crises.
