@@ -3,7 +3,7 @@ import path from 'path'
 import matter from 'gray-matter'
 
 function writeIfChanged(content, filepath) {
-  const old = fs.readFileSync(filepath, 'utf-8');
+  const old = fs.existsSync(filepath) ? fs.readFileSync(filepath, 'utf-8') : '';
   if (content !== old) {
     console.log('Updating', filepath);
     fs.writeFileSync(filepath, content);
