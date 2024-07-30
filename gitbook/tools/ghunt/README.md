@@ -48,9 +48,9 @@ This project is under [AGPL Licence](https://choosealicense.com/licenses/agpl-3.
 
 ## Guides and articles
 
-[OSINT Newsletter - Ghunt](https://osintnewsletter.com/p/ghunt)
+Jake Creps: [OSINT Newsletter - Ghunt](https://osintnewsletter.com/p/ghunt)
 
-[Investigating Google Accounts with GHunt](https://os2int.com/toolbox/investigating-google-accounts-with-ghunt/)
+Joseph Jones: [Investigating Google Accounts with GHunt](https://os2int.com/toolbox/investigating-google-accounts-with-ghunt/)
 
 ## Tool provider
 
