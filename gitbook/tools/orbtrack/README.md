@@ -33,7 +33,7 @@ Much, but not all, of the available higher resolution imagery sits behind paywal
 
 Examples of features which affect the value of satellite imagery to an investigation include:
 
-* The elevation angle of the satellite from the observer determines the aspect of the image, e.g. a 90 degree elevation angle is directly overhead whereas a lower angle shows features like the sides of buildings.&#x20;
+* The elevation angle of the satellite from the observer determines the aspect of the image, e.g. a 90 degree elevation angle is directly overhead and shows rooftops on buildings, whereas a lower angle shows features like the sides of buildings.&#x20;
 * The presence of cloud cover in the atmosphere will interfere with some imaging technologies (e.g. visual spectrum photography), but not others (e.g. LIDAR).
 * A low light level on the surface of the Earth (i.e. when facing away from the sun) affects some imaging technologies (e.g. visual spectrum photography), but not others (e.g. Infra-red).
 
