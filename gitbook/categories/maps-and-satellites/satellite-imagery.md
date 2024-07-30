@@ -25,6 +25,7 @@
 | [**Mapa.sk**](http://mapa.sk/) | Mapping service for Slovakia | <mark style="background-color:green;">Free</mark> |  |
 | [**Mappy**](http://en.mappy.com/) | Mapping service (and streetview in a couple of French cities \[double check this!]) | <mark style="background-color:green;">Free</mark> |  |
 | [**MapSwitcher**](https://github.com/david-r-edgar/MapSwitcher) | Chrome extension switches  between online map apps, maintaining (as far as possible) the map centre, zoom level, & directions of the source map. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/mapswitcher/README.md) |
+| [**NASA Worldview**](https://worldview.earthdata.nasa.gov/) | NASA Worldview is an online tool for visualizing and downloading near real-time satellite imagery and scientific data of Earth's atmosphere, land, and oceans. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/nasa-worldview/README.md) |
 | [**Pulse GHGsat**](https://pulse.ghgsat.com/) | Global Methane Concentration per week | <mark style="background-color:green;">Free</mark> |  |
 | [**QGIS**](https://www.qgis.org) | QGIS is a free Open Source Geographic Information System (GIS). | <mark style="background-color:green;">Free</mark> | [Details](../../tools/qgis/README.md) |
 | [**satellites.pro**](https://satellites.pro/) | Satellites.pro allows open source researchers to quickly switch between several free satellite imagery and mapping services. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/satellites.pro/README.md) |
