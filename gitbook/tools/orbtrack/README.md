@@ -23,23 +23,23 @@ D**isambiguation:** This article describes a web-based app called OrbTrack, writ
 Satellites can carry many different forms of sensor, e.g. photographic imaging, heat (Infra-red) imaging, LIDAR  (Laser Imaging Detection and Ranging) imaging, SAR ([Synthetic Aperture Radar](https://www.keysight.com/blogs/en/inds/2020/08/28/what-is-synthetic-aperture-radar)) imaging,... Not all of these require the earth to be in sunlight to collect useful data. Some of these can operate successfully in the presence of cloud cover.
 {% endhint %}
 
-####
+### Use Cases for OrbTrack with Input Data, Output Data and Data Input Options...(Click each tab to see further information)
 
 {% tabs %}
-{% tab title="User Inputs" %}
+{% tab title="USER INPUTS" %}
 * Observer Location
 * Satellite Name/ Selection of Satellite from Database List
 * Selection of a Satellite Path from the System-Generated List of Satellite Passes Over the Observer Location in the Next 5 days
 {% endtab %}
 
-{% tab title="OrbTrack Outputs" %}
+{% tab title="ORBTRACK OUTPUTS" %}
 <figure><img src=".gitbook/assets/DataOutpuTable (1).JPG" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Use Cases" %}
-**Verifying Satellite Data**
+{% tab title="USE CASES" %}
+**Verifying Satellite Data:**&#x20;
 
-**Selecting Useful Satellite Data**
+**Locating and Selecting Useful Satellite Data**
 
 **Location-Focused Research:**&#x20;
 
@@ -56,14 +56,16 @@ Testing whether a satellite passes over an area of interest at a particular angl
 Finding the path of a given satellite, including the high level information as to whether it is in or near geostationary orbit.
 {% endtab %}
 
-{% tab title="Data Input Options" %}
+{% tab title="DATA INPUT OPTIONS" %}
 <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
 
 
+{% embed url="https://www.planet.com/our-constellations/" %}
 
+<figure><img src=".gitbook/assets/planetsatelliteanimation.gif" alt=""><figcaption><p>THE PLANET SERVICE SATELLITES IN MOTION</p></figcaption></figure>
 
 {% hint style="info" %}
 OrbTrack includes a distance scale on all its earth maps.
