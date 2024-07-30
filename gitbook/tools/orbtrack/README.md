@@ -37,9 +37,13 @@ Examples of features which affect the value of satellite imagery to an investiga
 * The presence of cloud cover in the atmosphere will interfere with some imaging technologies (e.g. visual spectrum photography), but not others (e.g. LIDAR).
 * A low light level on the surface of the Earth (i.e. when facing away from the sun) affects some imaging technologies (e.g. visual spectrum photography), but not others (e.g. Infra-red).
 
-OrbTrack is a web-based app which allows users:&#x20;
+OrbTrack is a web-based app which allows users to explore satellite sources of imagery by:&#x20;
 
-to access a database of over 10,000 satellites in Earth orbit, to enter the geographical location of an observer, and to project their paths
+* accessing a database of over 10,000 satellites in Earth orbit
+* entering the geographical location of an observer (i.e. an area of interest)
+* projecting for 5 days forward the path of a chosen satelite over time, and its distance and angle from the observer
+* calculating the times when the chosen satellite is in sunlight, and when in darkness
+* calculating the times when the chosen satellite has a line of sight to the observer
 
 ### Use Cases for OrbTrack with Input Data, Output Data and Data Input Options...(Click each tab to see further information)
 
