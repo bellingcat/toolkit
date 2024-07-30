@@ -17,11 +17,11 @@ D**isambiguation:** This article describes a web-based app called OrbTrack, writ
 
 ## Description
 
-<figure><img src=".gitbook/assets/StillImageAnnotated2.jpg" alt=""><figcaption><p><strong>THE ORBTRACK INTERFACE</strong></p></figcaption></figure>
-
 {% hint style="info" %}
 Satellites can carry many different forms of sensor, e.g. photographic imaging, heat (Infra-red) imaging, LIDAR  (Laser Imaging Detection and Ranging) imaging, SAR ([Synthetic Aperture Radar](https://www.keysight.com/blogs/en/inds/2020/08/28/what-is-synthetic-aperture-radar)) imaging,... Not all of these require the earth to be in sunlight to collect useful data. Some of these can operate successfully in the presence of cloud cover.
 {% endhint %}
+
+A large segment of Open Source research involves the use of satellite imagery, gathered using a variety of sensor technology. The resolution and aspect of this imagery is crucial in the success of an investigation. Much, but not all, of the higher resolution imagery sits behind paywalls and an investigator's access may be limited in both the range of imagery providers and a maximum quote on numbers of images. Satellite imagery may be pivotal in confirming and/or dating/timing a geolocation investigation which has been solved via other means. It may often be valuable to researchers to understand which satellite services are likely to provide imagery of regions of interest at the right time, date, resolution and aspect for their needs. Some forms of sensor are obstructed by cloud cover in the atmosphere
 
 ### Use Cases for OrbTrack with Input Data, Output Data and Data Input Options...(Click each tab to see further information)
 
@@ -60,6 +60,14 @@ Finding the path of a given satellite, including the high level information as t
 <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
+
+The Interface
+
+<figure><img src=".gitbook/assets/StillImageAnnotated2.jpg" alt=""><figcaption><p><strong>THE ORBTRACK INTERFACE</strong></p></figcaption></figure>
+
+
+
+The Data
 
 
 
