@@ -15,6 +15,10 @@ description: >-
 
 <figure><img src=".gitbook/assets/StillImageAnnotated2.jpg" alt=""><figcaption><p><strong>THE ORBTRACK INTERFACE</strong></p></figcaption></figure>
 
+{% hint style="info" %}
+Satellites can carry many different forms of sensor, e.g. photographic imaging, heat (Infra-red) imaging, LIDAR  (Laser Imaging Detection and Ranging) imaging, SAR (Synthetic Aperture Radar) imaging,... Not all of these require the earth to be in sunlight to collect useful data. Some of these can operate successfully in the presence of cloud cover.
+{% endhint %}
+
 #### Review of Orbtrack.org
 
 **Orbtrack.org** is a real-time satellite tracking website that offers comprehensive tools for monitoring the positions and orbits of various satellites and other celestial objects. Here is a detailed review of its features, performance, and overall utility:
@@ -65,11 +69,15 @@ Satellite Name
 {% endtab %}
 
 {% tab title="Use Cases" %}
-Finding satellites which pass over an area of interest at an angle of elevation useful to the user.
+Location-Focused Research: Finding satellites which pass over an area of interest at an angle of elevation useful to the user.
 
 Finding the path of a given satellite, including the high level information as to whether it is in or near geostationary orbit.
 
+Find the location for a given satellite at user-defined angles (azimuth and election) and date & time
+
 Testing whether a satellite passes over an area of interest at a particular angle of elevation (and therefore may reveal sensor detail of the Earth's surface which was previously unavailable)
+
+Satellite-\~focused Research:&#x20;
 {% endtab %}
 
 {% tab title="Data Input Options" %}
