@@ -98,7 +98,7 @@ To mitigate these limitations, users should avoid location-only searches and tak
 
 ## Ethical Considerations
 
-* Individual Privacy: Be mindful of individual privacy. While public tweets are accessible, avoid exposing personal information of individuals without their consent.
+* Individual Privacy: Be mindful of individual privacy. While public tweets are accessible, avoid exposing personal information of individuals without their consent, in particular if they are not involved in any incidents of public interest.
 * Transparency: If sharing findings publicly, consider anonymizing personally identifiable information to protect individuals' privacy.
 * Data Reliability: Be aware that Twitter's location data is not always accurate. Avoid drawing definitive conclusions based solely on location data without corroboration from other sources
 
@@ -108,9 +108,9 @@ X.com, USA
 
 ## Guide
 
-See Bellingcat’s Case Study into tweets during the COVID-19 crisis in India showing the scarcity of precise geolocation data, requiring multiple geocoded queries to approximate geographic distribution
+See Bellingcat’s Case Study into tweets during the COVID-19 crisis in India showing the scarcity of precise geolocation data, requiring multiple geocoded queries to approximate geographic distribution:
 
-Link: [https://www.bellingcat.com/resources/2021/05/19/geofenced-searches-on-twitter-a-case-study-detailing-south-asias-covid-crisis/](https://www.bellingcat.com/resources/2021/05/19/geofenced-searches-on-twitter-a-case-study-detailing-south-asias-covid-crisis/)
+[https://www.bellingcat.com/resources/2021/05/19/geofenced-searches-on-twitter-a-case-study-detailing-south-asias-covid-crisis/](https://www.bellingcat.com/resources/2021/05/19/geofenced-searches-on-twitter-a-case-study-detailing-south-asias-covid-crisis/)
 
 ## Advertising Trackers
 
