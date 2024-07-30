@@ -17,11 +17,11 @@ Users can discover posts from specific geographic areas by utilizing X's built-i
 
 ### How does it work?
 
-Understanding how location data is incorporated into the platform is key to effectively leveraging location-based searches. [According to X](https://help.x.com/en/using-x/post-location), users have the option to share location details on posts. The platform figures out where a tweet is from by looking at a few things: (1) When users tell it, (2) Guessing by user profile (3) Using a user’s device location, if enabled.&#x20;
+Understanding how location data is incorporated into the platform is key to effectively leveraging location-based searches. [According to X](https://help.x.com/en/using-x/post-location), users have the option to share location details on posts. The platform seems to figure out where a tweet is from by looking at a few things: (1) The location information a user provides, (2) Guessing by user profile (3) Using a user’s device location, if enabled.&#x20;
 
 #### _**Self-reported location vs. Profile location**_&#x20;
 
-X employs frequently uses these two types of location data.&#x20;
+X frequently uses these two types of location data.&#x20;
 
 1. Manual User-Added Location: This allows users to directly add a location to posts and is displayed below the post. &#x20;
 
