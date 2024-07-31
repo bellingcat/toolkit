@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Distill](README.md)
+* [Distill.io](README.md)
 * [Categories](categories.md)

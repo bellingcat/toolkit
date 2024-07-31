@@ -1,28 +1,33 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  Distill.io is a website change monitoring tool that allows users to track
+  changes on web pages.
 ---
 
-# Distill
+# Distill.io
 
 ## URL
 
-https://example.com
+[https://distill.io](https://distill.io)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Distill.io is a website change monitoring tool that allows users to track changes on web pages and receive alerts via multiple channels including email, SMS, and push notifications. It supports various types of content such as web pages, PDFs, JSON, Word documents, XML, feeds, uptime, and sitemaps. Distill.io is available as a web app, browser extension, and mobile app, enabling users to monitor websites both locally and in the cloud.
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+<!---->
+
+* **Free Plan**: 25 local monitors, 5 cloud monitors, 1000 checks/month, and 30 email alerts.
+* **Paid Plans**: Offer more advanced features and higher limits.
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
@@ -54,4 +59,3 @@ https://example.com
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
