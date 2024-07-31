@@ -25,7 +25,7 @@ X frequently uses these two types of location data.&#x20;
 
 1. Manual User-Added Location: This allows users to directly add a location to posts and is displayed below the post. &#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2024-07-29 021003-marked.png" alt=""><figcaption><p>This post shows a post with an explicit location reported by the user. This appears at the bottom of the post with the search query "art" and added a randomly selected location, in this case, Estes Park, Colorado. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-07-29 021003-marked2.png" alt=""><figcaption><p>This post shows a post with an explicit location reported by the user. This appears at the bottom of the post. For this, we entered the search query "art" and a location we are interested in, Estes Park, Colorado. </p></figcaption></figure>
 
 2. Profile Location: In the absence of a user-specified location, X may approximate it based on factors such as the location the user specifies on his/her account profile.&#x20;
 
