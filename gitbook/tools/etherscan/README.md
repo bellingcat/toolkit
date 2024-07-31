@@ -26,7 +26,7 @@ description: >-
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+No requirements. Signing up with an e-mail address allows to use some additional features, for instance creating a watchlist of addresses and receiving e-mail notifications if transactions from or to this address occurr.
 
 ## Limitations
 
