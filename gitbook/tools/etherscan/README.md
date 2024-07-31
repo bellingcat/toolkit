@@ -16,7 +16,7 @@ Ethereum is a blockchain-based network with its native cryptocurrency Ether (ETH
 
 ### **Addresses**
 
-By typing in any Ether address in the search bar, researchers get amongst others an overview of the current balance of the wallet’s assets in Ether and USD, the dates when the first and the last transactions were sent and an overview of all transactions.
+By typing any Ether address in the search bar, researchers get amongst others an overview of the current balance of the wallet’s assets in Ether and USD, the dates when the first and the last transactions were sent and an overview of all transactions.
 
 <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>The <a href="https://etherscan.io/address/0xd8da6bf26964af9d7eed9e03e53415d37aa96045">Ethereum address</a> of Ethereum co-founder Vitalik Buterin according to <a href="https://www.forbes.com/sites/ninabambysheva/2021/05/12/vitalik-buterin-moves-13-billion-worth-of-ether-but-where/">Forbes</a>.</p></figcaption></figure>
 
@@ -32,7 +32,7 @@ Some Ethereum fans use their .eth username on social media platforms which can b
 
 Since 2023 [Google](https://x.com/nalin/status/1656753830862942208) displays the ETH balance (via Etherscan) directly on top of the search results if someone searches for an Ether address:
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 However, our own tests showed that this does not always work. Sometimes the result comes back with an empty info box:
 
@@ -44,7 +44,7 @@ It is also possible to search for a [username](https://cryptoslate.com/google-ad
 
 Each transaction has its own transaction hash. Searching for this hash on Etherscan brings up an overview of transaction details:
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>This transaction was successful and took place in block number 20393430 on July 26, 2024. It was sent from an address ending with 003 to vitalik.eth.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>This transaction was successful and took place in block number 20393430 on July 26, 2024. It was sent from an address ending with 003 to vitalik.eth.</p></figcaption></figure>
 
 ## Cost
 
@@ -63,6 +63,8 @@ The tool is easy to use but beginners might need some time to learn how to inter
 No requirements.&#x20;
 
 Open source researchers who sign up with an e-mail address can use some additional features like creating a watchlist of addresses and receiving e-mail notifications if transactions from or to those addresses occur.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Registered users can set up watch lists for up to 50 addresses.</p></figcaption></figure>
 
 ## Limitations
 
