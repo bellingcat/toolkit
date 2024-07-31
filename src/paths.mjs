@@ -34,7 +34,7 @@ function getSummary(pathname) {
 function isDir(filepath) {
   return fs.lstatSync(filepath).isDirectory();
 }
-function getPages(pathname) {
+function getPages(pathname, slug = []) {
   const files = fs.readdirSync(pathname);
 
   const paths = files.flatMap((filename) => {
@@ -43,9 +43,9 @@ function getPages(pathname) {
 
     const filepath = path.join(pathname, filename);
     if (path.extname(filename) == ".md") {
-      return processMarkdownFile(filepath, filename); // markdown file
+      return processMarkdownFile(filepath, filename, slug); // markdown file
     } else if (isDir(filepath)) {
-      return [ ...getPages(filepath)]; // directory
+      return [ ...getPages(filepath, [...slug, path.basename(filepath)])]; // directory
     }
     return null;
   });
@@ -57,13 +57,20 @@ function getCategories() {
     // Take all README.md files as categories
     return markdownFile.filename == 'README.md';
   }).map(function(markdownFile) {
+    const dir = markdownFile.directory;
     const tag = path.basename(markdownFile.directory);
+    const hasSubcategories = fs.readdirSync(dir).some((file) => isDir(path.join(dir, file)));
+    const hasParent = markdownFile.slug.length > 1;
 
     return {
       title: markdownFile.title,
       content: markdownFile.content,
+      tag: tag,
+      slug: markdownFile.slug,
+      hasSubcategories: hasSubcategories,
+      hasParent: hasParent,
+      sourcefile: markdownFile.filepath,
       filepath: path.join(markdownFile.directory, tag + '.md'),
-      tag: tag
     }
   });
 }
