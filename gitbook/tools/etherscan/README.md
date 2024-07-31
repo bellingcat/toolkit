@@ -12,17 +12,17 @@ description: >-
 
 ## Description
 
-Ethereum is a blockchain-based network with its native cryptocurrency Ether (ETH) currently being the second-largest cryptocurrency in terms of value. Open source researchers can use Etherscan to look up data on the Ethereum blockchain, for instance addresses, transactions, [smart contract](https://ethereum.org/en/smart-contracts/) addresses and more.
+Ethereum is a blockchain-based network with its native cryptocurrency Ether (ETH) currently being the second-largest cryptocurrency in terms of value. Open source researchers can use Etherscan to look up data on the Ethereum blockchain, for instance addresses, transactions, [smart contracts](https://ethereum.org/en/smart-contracts/) and more.
 
 ### **Addresses**
 
-By typing any Ether address in the search bar, researchers get amongst others an overview of the current balance of the wallet’s assets in Ether and USD, the dates when the first and the last transactions were sent and an overview of all transactions.
+By typing any Ether address in the search bar, researchers get an overview of the current balance of the wallet’s assets in Ether and USD, the dates when the first and the last transactions were sent and an overview of all transactions.
 
 <figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>The <a href="https://etherscan.io/address/0xd8da6bf26964af9d7eed9e03e53415d37aa96045">Ethereum address</a> of Ethereum co-founder Vitalik Buterin according to <a href="https://www.forbes.com/sites/ninabambysheva/2021/05/12/vitalik-buterin-moves-13-billion-worth-of-ether-but-where/">Forbes</a>.</p></figcaption></figure>
 
 ### **Ethereum usernames**
 
-Since the Ether address is long and not very user-friendly, there are services (like [Ethereum name service](https://ens.domains/)) that allow users to buy a username ending with .eth. If someone has such a username, researchers do not necessarily need to know the Ether address but can simply search for this name on Etherscan.&#x20;
+Since the Ether addresses are long and not very user-friendly, services (like [Ethereum name service](https://ens.domains/)) allow users to buy a username that ends with .eth. If open source researchers find such a username, they do not necessarily need to know the Ether address but can simply search for this username.&#x20;
 
 Some Ethereum fans use their .eth username on social media platforms which can be helpful in terms of tracing digital footprints during open source investigations. Ethereum co-founder Vitalik Buterin, for instance, uses his vitalik.eth for his [X account](https://x.com/VitalikButerin). A search for this name on Etherscan brings up the associated Ether address:
 
