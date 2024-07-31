@@ -24,7 +24,7 @@ description: >-
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
-The tool is easy to use but beginners might need some time to learn how to interpret the information the tool provides.
+The tool is easy to use but beginners might need some time to learn how to interpret the information it provides.
 
 ## Requirements
 
