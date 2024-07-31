@@ -42,9 +42,9 @@ The tool also supports advanced Markdown editing, customizable themes, and commu
 
 ## Cost
 
-* [ ] Free
-* [x] Partially Free
-* [ ] Paid
+* [x] Free
+* [ ] Partially Free
+* [x] Paid
 
 <!---->
 
@@ -59,7 +59,7 @@ The tool also supports advanced Markdown editing, customizable themes, and commu
 
 ## Requirements
 
-No specific requirements, but additional features require setting up plugins or purchasing optional services.
+There are no specific requirements, but additional features require setting up plugins or purchasing optional services.
 
 Obsidian is available on the following platforms:
 
@@ -73,10 +73,11 @@ Obsidian is available on the following platforms:
 
 While Obsidian is a powerful note-taking and knowledge-base application, its focus on being a text-based editor comes with a few disadvantages:
 
-* **Not collaboration-friendly**: Obsidian offers more limited real-time collaboration and cloud-based access compared to some other tools. While the premium sync service enables device synchronization, it is not optimized for real-time collaborative work.
+* **Not collaboration-friendly**: Obsidian offers more limited real-time collaboration and cloud-based access than other tools. While the premium sync service enables device synchronization, it is not optimized for real-time collaborative work.
 * **Learning Curve**: At first glance, Obsidian's interface might appear plain due to its subtle integration of advanced customization options and markdown features. However, while mastering all available functions only comes with regular use, initial non-use of advanced functions does not compromise the software's effectiveness as a robust note-taking tool. That being said, users uncomfortable with markdown language might prefer a less powerful app.
 * **No Built-in Publish Feature**:  Obsidian requires paid service (Obsidian Publish) external services to publish notes online. With Obsidian Publish, setting up a simple website with select pages that can be secured with passwords is easy.
 * **Limited External Integration**: Out of the box, Obsidian's native integration with external services such as Google Calendar is not extensive. However, a wide range of functionalities can be achieved using plugins.
+* **Third-party plugins:** Advanced functionalities heavily rely on third-party plugins, posing potential security risks.
 
 ## Ethical Considerations
 
@@ -85,8 +86,10 @@ While Obsidian as a tool focuses on enhancing personal and professional producti
 * **Data Privacy**: Given its offline-first approach, users have significant control over their data. However, users must be vigilant about exporting or sharing their notes through external services, which may not uphold the same privacy standards.
 * **Plugin Security**: The capacity to extend Obsidian's functionality with plugins is powerful but also introduces the need to trust third-party developers. Users must exercise caution, ensuring they install reputable plugins to avoid potential security risks.
 * **Accessibility**: Although Obsidian offers a wide range of features, its learning curve and interface may pose accessibility challenges for users who are not tech-savvy or have disabilities. Making the application more intuitive and accessible could enhance its ethical standing.
-* **Sustainability of the Free Model**: While Obsidian’s core functions are free, the long-term sustainability of such a model depends on a sufficient number of users opting for paid features. However, as the tool is based on the markdown format for which many alternatives exist, it is
+* **Sustainability of the Free Model**: While Obsidian’s core functions are free, the long-term sustainability of such a model depends on a sufficient number of users opting for paid features.&#x20;
+  * **Longevity and Exportability:** Ensuring long-term accessibility of data is important; reliance on proprietary plugins may pose challenges.
 * **Collaboration Equity**: Obsidian is conceptualized as a personal note-taking tool. While there are available plugins and workarounds, the limited real-time collaboration functionality makes it less than ideal for collaborative settings, especially in educational or low-income environments.&#x20;
+  * **Collaboration Ethics:** Respect for collaborators’ contributions and transparent changes in shared documents is crucial.
 
 ## Guide
 
@@ -129,6 +132,6 @@ Dynalist Inc. [https://obsidian.md/](https://obsidian.md/) - Canada
 
 | Page maintainer |
 | --------------- |
-| Unassigned      |
+| Martin Sona     |
 |                 |
 
