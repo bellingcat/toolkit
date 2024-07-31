@@ -2,6 +2,10 @@
 
 <figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
+**The Role of Satellite Imagery in Open Source Investigation**
+
+Much, but not all, of the available higher resolution imagery sits behind paywalls and an investigator's access may be limited in both the range of imagery providers and a maximum quote on numbers of images. Satellite imagery is often pivotal in confirming and/or dating/timing a geolocation investigation which has been solved via other means. It is valuable to researchers to understand which satellite services are likely to provide imagery of regions of interest at the right time, date, resolution and aspect for their needs.&#x20;
+
 | Input Data        | Text Entry Methods                                                            | Graphical interface Input                                                                                       |
 | ----------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | Observer Location | Latitude and Longitude co-ordinates typed into text boxes on Main Menu window | <p>Left Mouse Click Location on the world map background</p><p>Click Find My Location button on Menu window</p> |
