@@ -14,7 +14,9 @@ description: >-
 
 Ethereum is a blockchain-based network with its native cryptocurrency Ether (ETH) currently being the second-largest cryptocurrency in terms of value. Open source researchers can use Etherscan to look up data on the Ethereum blockchain, for instance addresses, transactions, smart [contract addresses](https://ethereum.org/en/smart-contracts/) and more.
 
-&#x20;\###Addresses
+&#x20;\##**Addresses**
+
+
 
 &#x20;
 
