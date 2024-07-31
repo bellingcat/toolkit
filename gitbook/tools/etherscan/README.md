@@ -24,13 +24,13 @@ description: >-
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
-The tool is easy to use but beginners might need some time to learn how to interpret the Etherium related information the tool provides.
+The tool is easy to use but beginners might need some time to learn how to interpret the information the tool provides.
 
 ## Requirements
 
 No requirements.&#x20;
 
-Open source researchers who sign up with an e-mail address can use some additional features like creating a watchlist of addresses and receiving e-mail notifications if transactions from or to this address occur.
+Open source researchers who sign up with an e-mail address can use some additional features like creating a watchlist of addresses and receiving e-mail notifications if transactions from or to those addresses occur.
 
 ## Limitations
 
