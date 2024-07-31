@@ -23,6 +23,13 @@ D**isambiguation:** This article describes a web-based app called OrbTrack, writ
 Satellites can carry many different forms of sensor, e.g. photographic imaging, heat imaging ([Infra-red](https://www.earthdata.nasa.gov/learn/find-data/near-real-time/viirs)) , LIDAR  ([Laser Imaging/Light Detection and Ranging](https://www.synopsys.com/glossary/what-is-lidar.html)) imaging, SAR ([Synthetic Aperture Radar](https://www.keysight.com/blogs/en/inds/2020/08/28/what-is-synthetic-aperture-radar)) imaging,... Not all of these require the earth to be in sunlight to collect useful data and some of these can operate successfully in the presence of cloud cover.
 {% endhint %}
 
+OrbTrack is a web-based app which allows users to explore satellite sources of imagery by:&#x20;
+
+* entering the geographical location of an observer (i.e. an area of interest)
+* projecting for 5 days forward the path of a chosen satelite over time, and its distance and angle from the observer
+* calculating the times when the chosen satellite is in sunlight, and when in darkness
+* calculating the times when the chosen satellite has a line of sight to the observer
+
 **Satellite Sensor Technology**
 
 A large segment of Open Source research involves the use of satellite imagery, gathered using a variety of sensor technology e.g. photographic imaging, heat imaging ([Infra-red](https://www.earthdata.nasa.gov/learn/find-data/near-real-time/viirs)) imaging, LIDAR ([Laser Imaging/Light Detection and Ranging](https://www.synopsys.com/glossary/what-is-lidar.html)) imaging, SAR ([Synthetic Aperture Radar](https://www.keysight.com/blogs/en/inds/2020/08/28/what-is-synthetic-aperture-radar)) imaging,... The resolution and aspect of this imagery is crucial in the success of an investigation.&#x20;
@@ -48,14 +55,6 @@ Examples of features which affect the value of satellite imagery to an investiga
 </details>
 
 
-
-OrbTrack is a web-based app which allows users to explore satellite sources of imagery by:&#x20;
-
-* accessing a database of over 10,000 satellites in Earth orbit
-* entering the geographical location of an observer (i.e. an area of interest)
-* projecting for 5 days forward the path of a chosen satelite over time, and its distance and angle from the observer
-* calculating the times when the chosen satellite is in sunlight, and when in darkness
-* calculating the times when the chosen satellite has a line of sight to the observer
 
 ### Use Cases for OrbTrack with Input Data, Output Data and Data Input Options...(Click each tab to see further information)
 
