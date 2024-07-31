@@ -70,7 +70,7 @@ Open source researchers who sign up with an e-mail address can use some addition
 
 While some users provide their Ether addresses on social media or other online platforms, it is important to note that most Ether addresses can not be easily linked to a specific person or organization.&#x20;
 
-While transactions are publicly visible via the blockchain, criminals might use [mixer services](https://www.coindesk.com/learn/are-crypto-mixers-legal/) to obscure the original sender and the recipient of payments making it more challenging for open source investigators to deanynomyize transactions.
+While transactions are publicly visible via the blockchain, criminals might use [mixer services](https://www.coindesk.com/learn/are-crypto-mixers-legal/) to obscure the original sender and the recipient of payments making it more challenging for open source investigators to deanynomyize transactions. Trying to track down crypto transactions can often lead to dead ends.
 
 ## Ethical Considerations
 
