@@ -12,7 +12,7 @@ function writeIfChanged(content, filepath) {
 
 function processMarkdownFile(filepath, filename, slug = []) {
   const directory = path.dirname(filepath);
-  const page = filename.replace('.md', '');
+  const page = path.basename(filepath, '.md');
   const markdownWithMeta = fs.readFileSync(filepath, 'utf-8');
   const { data, content } = matter(markdownWithMeta)
   const h1 = content.match(/# (.*)/);
