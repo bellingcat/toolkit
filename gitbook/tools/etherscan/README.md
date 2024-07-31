@@ -72,9 +72,9 @@ Open source researchers who sign up with an e-mail address can use some addition
 
 ## Ethical Considerations
 
-Etherscan's business model is based on advertisment. In 2024, [phishing ads](https://crypto.news/etherscan-users-targeted-in-major-phishing-campaign-via-on-site-ads/) were found on Etherscan.&#x20;
+Open source researchers should be careful when using Etherscan since it has become the target of scams and phishing attempts. In 2023, [cloned Etherscan sites](./#phishing-scammers-have-cloned-the-websites-of-crypto-media-outlet-blockworks-and-ethereum-blockchain) were set up to trick users into providing access to their walles. In 2024, [phishing ads](https://crypto.news/etherscan-users-targeted-in-major-phishing-campaign-via-on-site-ads/) were found on Etherscan.&#x20;
 
-## Guide
+## Guides
 
 \[\[Link to a guide on this tool]]
 
