@@ -34,6 +34,8 @@ In 2023, [Google](https://x.com/nalin/status/1656753830862942208) started displa
 
 However, our own tests showed that this does not always work. Sometimes the result comes back with an empty info box:
 
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
 It is also possible to search on Google for a [username](https://cryptoslate.com/google-adding-ethereum-name-service-data-into-search-results-through-etherscan/) but during our own tests in July 2024, this method seemed to be even less reliable.
 
 ## Cost
