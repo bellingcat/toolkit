@@ -26,7 +26,9 @@ description: >-
 
 ## Requirements
 
-No requirements. Signing up with an e-mail address allows to use some additional features, for instance creating a watchlist of addresses and receiving e-mail notifications if transactions from or to this address occurr.
+No requirements.&#x20;
+
+Open source researchers who sign up with an e-mail address can use some additional features like creating a watchlist of addresses and receiving e-mail notifications if transactions from or to this address occur.
 
 ## Limitations
 
