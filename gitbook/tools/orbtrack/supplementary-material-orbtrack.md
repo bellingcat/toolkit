@@ -6,6 +6,14 @@
 
 Much, but not all, of the available higher resolution imagery sits behind paywalls and an investigator's access may be limited in both the range of imagery providers and a maximum quote on numbers of images. Satellite imagery is often pivotal in confirming and/or dating/timing a geolocation investigation which has been solved via other means. It is valuable to researchers to understand which satellite services are likely to provide imagery of regions of interest at the right time, date, resolution and aspect for their needs.&#x20;
 
+**Features Affecting Imagery's Value to An Investigation**
+
+Examples of features which affect the value of satellite imagery to an investigation include:
+
+* The elevation angle of the satellite from the observer determines the aspect of the image, e.g. a 90 degree elevation angle is directly overhead and shows mountain summits and rooftops on buildings, whereas a lower angle shows features like mountainsides and the walls of buildings.&#x20;
+* The presence of cloud cover in the atmosphere will interfere with some imaging technologies (e.g. visual spectrum photography), but not others (e.g. LIDAR).
+* A low light level on the surface of the Earth (i.e. when facing away from the sun) affects some imaging technologies (e.g. visual spectrum photography), but not others (e.g. Infra-red).
+
 | Input Data        | Text Entry Methods                                                            | Graphical interface Input                                                                                       |
 | ----------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | Observer Location | Latitude and Longitude co-ordinates typed into text boxes on Main Menu window | <p>Left Mouse Click Location on the world map background</p><p>Click Find My Location button on Menu window</p> |
