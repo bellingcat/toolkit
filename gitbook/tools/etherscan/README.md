@@ -30,7 +30,7 @@ Some Ethereum fans use their .eth username on other social media platforms which
 
 ### **Search Etherscan via Google**
 
-In 2023, [Google](https://x.com/nalin/status/1656753830862942208) started displaying the balance of Ethereum addresses (via Etherscan) directly on top of the search results if someone types an Ethereum address in the search bar.
+Since 2023 [Google](https://x.com/nalin/status/1656753830862942208) displays the ETH balance (via Etherscan) directly on top of the search results if someone searches for an Ether address:
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
