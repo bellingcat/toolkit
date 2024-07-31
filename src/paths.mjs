@@ -31,7 +31,9 @@ function processMarkdownFile(filepath, filename, slug = []) {
 function getSummary(pathname) {
   return fs.readFileSync(path.join(pathname, 'SUMMARY.md'), 'utf-8');
 }
-
+function isDir(filepath) {
+  return fs.lstatSync(filepath).isDirectory();
+}
 function getPages(pathname) {
   const files = fs.readdirSync(pathname);
 
@@ -42,7 +44,7 @@ function getPages(pathname) {
     const filepath = path.join(pathname, filename);
     if (path.extname(filename) == ".md") {
       return processMarkdownFile(filepath, filename); // markdown file
-    } else if (fs.lstatSync(filepath).isDirectory()){
+    } else if (isDir(filepath)) {
       return [ ...getPages(filepath)]; // directory
     }
     return null;
