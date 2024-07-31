@@ -68,23 +68,14 @@ Examples of features which affect the value of satellite imagery to an investiga
 {% endtab %}
 
 {% tab title="USE CASES" %}
-
-
-* **Locating and Selecting Useful Satellite Data**
-
 **Satellite-Focused Research:**&#x20;
 
-Finding the path of a given satellite, including the high level information as to whether it is in or near geostationary orbit.
-
-
+* Finding the path of a given satellite, including the high level information as to whether it is in or near geostationary orbit, and its range of height and speed.
 
 **Location-Focused Research:**&#x20;
 
-Finding satellites which pass over an area of interest at an angle of elevation useful to the user.
-
-Find the location for a given satellite at user-defined angles (azimuth and election) and date & time
-
-Testing whether a satellite passes over an area of interest at a particular angle of elevation (and therefore may reveal sensor detail of the Earth's surface which was previously unavailable)
+* Finding satellites which pass over an area of interest at an angle of elevation useful to the user (and therefore may reveal sensor detail of the Earth's surface which was previously unavailable)
+* Find the location for a given satellite at user-defined angles (azimuth and election) and date & time.
 {% endtab %}
 
 {% tab title="DATA INPUT OPTIONS" %}
