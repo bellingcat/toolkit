@@ -96,20 +96,20 @@ As well as satellite position information, the OrbTrack interface provides its s
 
 
 {% embed url="https://www.youtube.com/watch?t=36s&v=fSrbJ8efv40" %}
+**THE RELATIONSHIP BETWEEN SATELLITE HEIGHT AND VELOCITY, AND THE SPECIAL CASE OF GEOSTATIONARY ORBIT**
+{% endembed %}
 
-The Data
+### The Data
 
-The satellite database is provided from  [www.celestrack.com](https://www.celestrack.com) by Dr T. S. Kelso
+The satellite database is provided from  [www.celestrack.com](https://www.celestrack.com) by Dr T. S. Kelso . Researchers can use it to cross-reference service names with satellite names. This is usually a one-to-many relationship where a service uses a number of satellites to deliver regular (or even continuous) imagery in the intended area(s) of focus.&#x20;
 
-<figure><img src=".gitbook/assets/planetsatelliteanimation.gif" alt=""><figcaption><p>THE PLANET SERVICE SATELLITES IN MOTION</p></figcaption></figure>
+An example of one service which is used in Open Source Research would be the Planet satellite service, which operates what is calls 'constellations' of satellites, which have different spatital, temporal and radiometric resolutions.&#x20;
+
+<figure><img src=".gitbook/assets/planetsatelliteanimation.gif" alt=""><figcaption><p>THE PLANET SERVICE SATELLITES IN MOTION AROUNG THE ROTATING EARTH</p></figcaption></figure>
 
 {% hint style="info" %}
 OrbTrack includes a distance scale on all its earth maps.
 {% endhint %}
-
-
-
-
 
 ## Cost
 
