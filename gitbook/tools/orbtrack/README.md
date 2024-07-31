@@ -17,15 +17,23 @@ D**isambiguation:** This article describes a web-based app called OrbTrack, writ
 
 ## Description
 
-{% hint style="info" %}
-Satellites can carry many different forms of sensor, e.g. photographic imaging, heat imaging ([Infra-red](https://www.earthdata.nasa.gov/learn/find-data/near-real-time/viirs)) , LIDAR  ([Laser Imaging/Light Detection and Ranging](https://www.synopsys.com/glossary/what-is-lidar.html)) imaging, SAR ([Synthetic Aperture Radar](https://www.keysight.com/blogs/en/inds/2020/08/28/what-is-synthetic-aperture-radar)) imaging,... Not all of these require the earth to be in sunlight to collect useful data. Some of these can operate successfully in the presence of cloud cover.
-{% endhint %}
-
 <figure><img src=".gitbook/assets/planetsatelliteanimation3.gif" alt=""><figcaption><p>ORBTRACK SHOWING SATELLITE PATH, LOCATING OBSERVER &#x26; GENERATING TIMED PASS GRAPHIC</p></figcaption></figure>
+
+{% hint style="info" %}
+Satellites can carry many different forms of sensor, e.g. photographic imaging, heat imaging ([Infra-red](https://www.earthdata.nasa.gov/learn/find-data/near-real-time/viirs)) , LIDAR  ([Laser Imaging/Light Detection and Ranging](https://www.synopsys.com/glossary/what-is-lidar.html)) imaging, SAR ([Synthetic Aperture Radar](https://www.keysight.com/blogs/en/inds/2020/08/28/what-is-synthetic-aperture-radar)) imaging,... Not all of these require the earth to be in sunlight to collect useful data and some of these can operate successfully in the presence of cloud cover.
+{% endhint %}
 
 **Satellite Sensor Technology**
 
 A large segment of Open Source research involves the use of satellite imagery, gathered using a variety of sensor technology e.g. photographic imaging, heat imaging ([Infra-red](https://www.earthdata.nasa.gov/learn/find-data/near-real-time/viirs)) imaging, LIDAR ([Laser Imaging/Light Detection and Ranging](https://www.synopsys.com/glossary/what-is-lidar.html)) imaging, SAR ([Synthetic Aperture Radar](https://www.keysight.com/blogs/en/inds/2020/08/28/what-is-synthetic-aperture-radar)) imaging,... The resolution and aspect of this imagery is crucial in the success of an investigation.&#x20;
+
+<details>
+
+<summary><strong>The Role of Satellite Imagery in Open Source Investigation.</strong><br> Much, but not all, of the available higher resolution imagery sits behind paywalls and an investigator's access may be limited in both the range of imagery providers and a maximum quote on numbers of images. </summary>
+
+Satellite imagery is often pivotal in confirming and/or dating/timing a geolocation investigation which has been solved via other means. It is valuable to researchers to understand which satellite services are likely to provide imagery of regions of interest at the right time, date, resolution and aspect for their needs.&#x20;
+
+</details>
 
 **The Role of Satellite Imagery in Open Source Investigation**
 
@@ -35,7 +43,7 @@ Much, but not all, of the available higher resolution imagery sits behind paywal
 
 Examples of features which affect the value of satellite imagery to an investigation include:
 
-* The elevation angle of the satellite from the observer determines the aspect of the image, e.g. a 90 degree elevation angle is directly overhead and shows rooftops on buildings, whereas a lower angle shows features like the sides of buildings.&#x20;
+* The elevation angle of the satellite from the observer determines the aspect of the image, e.g. a 90 degree elevation angle is directly overhead and shows mountain summits and rooftops on buildings, whereas a lower angle shows features like mountainsides and the walls of buildings.&#x20;
 * The presence of cloud cover in the atmosphere will interfere with some imaging technologies (e.g. visual spectrum photography), but not others (e.g. LIDAR).
 * A low light level on the surface of the Earth (i.e. when facing away from the sun) affects some imaging technologies (e.g. visual spectrum photography), but not others (e.g. Infra-red).
 
