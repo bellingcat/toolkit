@@ -87,10 +87,10 @@ Examples of features which affect the value of satellite imagery to an investiga
 
 <figure><img src=".gitbook/assets/StillImageAnnotated2.jpg" alt=""><figcaption><p><strong>THE ORBTRACK INTERFACE</strong></p></figcaption></figure>
 
-As well as satellite position information, the OrbTrack interface provides its speed, its height, its path over time, its position relative to a user-defined Observation location, the position of the sun, the areas of the earth in night and day, the area of the earth below the satellite which has a positive elevation angle to the satellite.
+As well as satellite position information, the OrbTrack interface provides its speed, its height, its path over time, its position relative to a user-defined Observation location, the position of the sun, the areas of the earth in night and day, and the area of the earth below the satellite which has a positive elevation angle to the satellite.
 
 {% hint style="info" %}
-Relationship Between Satellite Speed and Height: As a general rule, satellites closer to the Earth travel at a slower speed than those at greater distance or 'height' from the Earth's surface. For geostationary orbit, satellites require an altitude of around 36,000 km (see below). Geostationary satellites are of course particularly useful if they cover an area of research interest because of their single focus.
+**Relationship Between Satellite Velocity and Height:** As a general rule, satellites closer to the Earth travel at a higher velocity than those at greater distance or 'height' from the Earth's surface. So height and velocity are inversely proportional in this case. For geostationary orbit, satellites require an altitude of around 36,000 km (see below). Geostationary satellites are of course particularly useful if they cover an area of research interest because of their singular focus.
 {% endhint %}
 
 
