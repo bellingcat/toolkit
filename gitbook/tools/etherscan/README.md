@@ -6,7 +6,7 @@ description: >-
 
 # Etherscan
 
-This transaction was successful and took place in block number 20393430 on July 26, 2024. It was sent from an address ending with 003 to vitalik.eth.URL
+## URL
 
 [https://etherscan.io/](https://etherscan.io/)
 
