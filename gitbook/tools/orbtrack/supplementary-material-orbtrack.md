@@ -83,3 +83,7 @@ The website performs reliably, with a quick loading time averaging around 1.6 se
 **Conclusion**
 
 Orbtrack.org is a powerful and versatile tool for satellite tracking, suitable for both casual users and professional researchers. Its real-time tracking capabilities, privacy focus, and offline functionality make it a reliable choice. However, there is room for improvement in terms of advanced features and user support. For anyone interested in tracking satellites and other celestial objects, Orbtrack.org is a highly recommended resource.
+
+{% hint style="info" %}
+Satellites can carry many different forms of sensor, e.g. photographic imaging, heat imaging ([Infra-red](https://www.earthdata.nasa.gov/learn/find-data/near-real-time/viirs)) , LIDAR  ([Laser Imaging/Light Detection and Ranging](https://www.synopsys.com/glossary/what-is-lidar.html)) imaging, SAR ([Synthetic Aperture Radar](https://www.keysight.com/blogs/en/inds/2020/08/28/what-is-synthetic-aperture-radar)) imaging,... Not all of these require the earth to be in sunlight to collect useful data. Some of these can operate successfully in the presence of cloud cover.
+{% endhint %}
