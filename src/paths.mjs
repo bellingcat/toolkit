@@ -32,7 +32,7 @@ function getSummary(pathname) {
   return fs.readFileSync(path.join(pathname, 'SUMMARY.md'), 'utf-8');
 }
 
-function getPaths(pathname) {
+function getPages(pathname) {
   const files = fs.readdirSync(pathname);
 
   const paths = files.flatMap((filename) => {
@@ -43,7 +43,7 @@ function getPaths(pathname) {
     if (path.extname(filename) == ".md") {
       return processMarkdownFile(filepath, filename); // markdown file
     } else if (fs.lstatSync(filepath).isDirectory()){
-      return [ ...getPaths(filepath)]; // directory
+      return [ ...getPages(filepath)]; // directory
     }
     return null;
   });
@@ -51,7 +51,7 @@ function getPaths(pathname) {
 }
 function getCategories() {
   const root = 'gitbook/categories';
-  return getPaths(root).filter((markdownFile) => {
+  return getPages(root).filter((markdownFile) => {
     // Take all README.md files as categories
     return markdownFile.filename == 'README.md';
   }).map(function(markdownFile) {
