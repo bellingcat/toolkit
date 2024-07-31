@@ -29,23 +29,25 @@ A large segment of Open Source research involves the use of satellite imagery, g
 
 <details>
 
-<summary><strong>The Role of Satellite Imagery in Open Source Investigation.</strong><br> Much, but not all, of the available higher resolution imagery sits behind paywalls and an investigator's access may be limited in both the range of imagery providers and a maximum quote on numbers of images. </summary>
+<summary><strong>The Role of Satellite Imagery in Open Source Investigation.</strong><br> Much, but not all, of the available higher resolution imagery sits behind paywalls and an investigator's access may be limited in both the range of imagery providers and a maximum quote on numbers of images...(click the side arrow for more information)</summary>
 
 Satellite imagery is often pivotal in confirming and/or dating/timing a geolocation investigation which has been solved via other means. It is valuable to researchers to understand which satellite services are likely to provide imagery of regions of interest at the right time, date, resolution and aspect for their needs.&#x20;
 
 </details>
 
-**The Role of Satellite Imagery in Open Source Investigation**
+<details>
 
-Much, but not all, of the available higher resolution imagery sits behind paywalls and an investigator's access may be limited in both the range of imagery providers and a maximum quote on numbers of images. Satellite imagery is often pivotal in confirming and/or dating/timing a geolocation investigation which has been solved via other means. It is valuable to researchers to understand which satellite services are likely to provide imagery of regions of interest at the right time, date, resolution and aspect for their needs.&#x20;
-
-**Features Affecting Imagery's Value to An Investigation**
+<summary><strong>Features Affecting Imagery's Value to An Investigation: Elevation Angle, Cloud, Sunlight</strong>...(click the side arrow for more information)</summary>
 
 Examples of features which affect the value of satellite imagery to an investigation include:
 
 * The elevation angle of the satellite from the observer determines the aspect of the image, e.g. a 90 degree elevation angle is directly overhead and shows mountain summits and rooftops on buildings, whereas a lower angle shows features like mountainsides and the walls of buildings.&#x20;
 * The presence of cloud cover in the atmosphere will interfere with some imaging technologies (e.g. visual spectrum photography), but not others (e.g. LIDAR).
 * A low light level on the surface of the Earth (i.e. when facing away from the sun) affects some imaging technologies (e.g. visual spectrum photography), but not others (e.g. Infra-red).
+
+</details>
+
+
 
 OrbTrack is a web-based app which allows users to explore satellite sources of imagery by:&#x20;
 
