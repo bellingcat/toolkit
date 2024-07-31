@@ -78,7 +78,7 @@ Open source researchers should be careful when using Etherscan since it has beco
 
 ## Guides
 
-\[\[Link to a guide on this tool]]
+Coingecko: [How to actually use Etherscan](https://www.coindesk.com/learn/are-crypto-mixers-legal/).
 
 ## Tool provider
 
