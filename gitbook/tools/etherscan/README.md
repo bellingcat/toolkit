@@ -1,7 +1,7 @@
 ---
 description: >-
-  An explorer that allows to track wallets, transactions and more on the
-  Ethereum blockchain.
+  An explorer that allows researchers to track wallets, transactions and more on
+  the Ethereum blockchain.
 ---
 
 # Etherscan
