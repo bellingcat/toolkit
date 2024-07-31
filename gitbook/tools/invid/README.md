@@ -10,7 +10,13 @@ description: youtube, facebook
 
 ## Description
 
-A browser extension to help journalists verify images and videos online, including Facebook or Youtube. Twitter does not work anymore due to their change of API policy. It provides contextual data, metadata, reverse image search (Google, Yandex, Baidu), keyframes, thumbnails, magnification.
+The InVID Verification Plugin is a comprehensive toolkit designed to assist journalists in verifying content on social networks. It offers a suite of tools to analyze and verify videos and images, including contextual information retrieval, reverse image search (Google, Yandex, Baidu), video fragmentation, and metadata extraction. The plugin supports multiple platforms, such as YouTube, Facebook, Twitter, and Instagram, making it a versatile tool for fact-checking and debunking tasks on social networks. (Some Twitter-related features may not work anymore due to the API policy change.)&#x20;
+
+{% hint style="info" %}
+If you're a journalist, fact-checker, or researcher, take a minute to apply and register to use the advanced tools. To do this, click "Advanced Tools" and then "Register". Register with your **professional email address.** Once you’re confirmed as registered, enter your email and then copy & paste the code emailed to you.
+{% endhint %}
+
+##
 
 ## Cost
 
@@ -26,7 +32,7 @@ Internet
 
 ## Limitations & Ethical Considerations
 
-Some advanced features like image forensics, OCR, and gif verification are reserved for journalists fact checkers and researchers, and you need to apply to unlock them.
+Some advanced features like image forensics, OCR, and gif verification are reserved for journalists fact-checkers and researchers, and you need to apply to unlock them.
 
 ## Guide
 
