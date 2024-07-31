@@ -6,7 +6,7 @@ description: >-
 
 # Etherscan
 
-## URL
+This transaction was successful and took place in block number 20393430 on July 26, 2024. It was sent from an address ending with 003 to vitalik.eth.URL
 
 [https://etherscan.io/](https://etherscan.io/)
 
@@ -24,7 +24,7 @@ By typing in any Ether address in the search bar, researchers get amongst others
 
 Since the Ether address is long and not very user-friendly, there are services (like [Ethereum name service](https://ens.domains/)) that allow users to buy a username ending with .eth. If someone has such a username, researchers do not necessarily need to know the Ether address but can simply search for this name on Etherscan.&#x20;
 
-Some Ethereum fans use their .eth username on social media platforms which can be helpful in terms of tracing digital footprints during open source investigations. Ethereum co-founder Vitalik Buterin, for instance, uses his username vitalik.eth for his [X account](https://x.com/VitalikButerin). A search for this name on Etherscan brings up the associated Ether address:
+Some Ethereum fans use their .eth username on social media platforms which can be helpful in terms of tracing digital footprints during open source investigations. Ethereum co-founder Vitalik Buterin, for instance, uses his vitalik.eth for his [X account](https://x.com/VitalikButerin). A search for this name on Etherscan brings up the associated Ether address:
 
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
@@ -32,13 +32,19 @@ Some Ethereum fans use their .eth username on social media platforms which can b
 
 Since 2023 [Google](https://x.com/nalin/status/1656753830862942208) displays the ETH balance (via Etherscan) directly on top of the search results if someone searches for an Ether address:
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 However, our own tests showed that this does not always work. Sometimes the result comes back with an empty info box:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-07-31 at 20.36.23.png" alt=""><figcaption></figcaption></figure>
 
 It is also possible to search for a [username](https://cryptoslate.com/google-adding-ethereum-name-service-data-into-search-results-through-etherscan/) but during our own tests in July 2024, this method seemed to be even less reliable.
+
+### Transactions
+
+Each transaction has its own transaction hash. Searching for this hash on Etherscan brings up an overview of transaction details:
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>This transaction was successful and took place in block number 20393430 on July 26, 2024. It was sent from an address ending with 003 to vitalik.eth.</p></figcaption></figure>
 
 ## Cost
 
@@ -64,7 +70,7 @@ Open source researchers who sign up with an e-mail address can use some addition
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Etherscan's business model is based on advertisment. In 2024, [phishing ads](https://crypto.news/etherscan-users-targeted-in-major-phishing-campaign-via-on-site-ads/) were found on Etherscan.&#x20;
 
 ## Guide
 
