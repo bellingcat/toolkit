@@ -78,7 +78,7 @@ Open source researchers should be careful when using Etherscan since it has beco
 
 ## Guides
 
-Coingecko: [How to actually use Etherscan](https://www.coindesk.com/learn/are-crypto-mixers-legal/).
+Etherscan Information Center: [Tutorials](https://info.etherscan.com/tag/tutorials/).
 
 ## Tool provider
 
@@ -90,7 +90,7 @@ Block Solutions, Malaysia
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer         |
-| ----------------------- |
-| Johanna Wild/Bellingcat |
-|                         |
+| Page maintainer           |
+| ------------------------- |
+| Johanna Wild - Bellingcat |
+|                           |
