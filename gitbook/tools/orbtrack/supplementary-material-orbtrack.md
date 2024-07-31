@@ -2,6 +2,22 @@
 
 <figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
+* accessing a database of over 10,000 satellites in Earth orbit
+* entering the geographical location of an observer (i.e. an area of interest)
+* projecting for 5 days forward the path of a chosen satelite over time, and its distance and angle from the observer
+* calculating the times when the chosen satellite is in sunlight, and when in darkness
+* calculating the times when the chosen satellite has a line of sight to the observer
+
+
+
+* accessing a database of over 10,000 satellites in Earth orbit
+* entering the geographical location of an observer (i.e. an area of interest)
+* projecting for 5 days forward the path of a chosen satelite over time, and its distance and angle from the observer
+* calculating the times when the chosen satellite is in sunlight, and when in darkness
+* calculating the times when the chosen satellite has a line of sight to the observer
+
+
+
 **The Role of Satellite Imagery in Open Source Investigation**
 
 Much, but not all, of the available higher resolution imagery sits behind paywalls and an investigator's access may be limited in both the range of imagery providers and a maximum quote on numbers of images. Satellite imagery is often pivotal in confirming and/or dating/timing a geolocation investigation which has been solved via other means. It is valuable to researchers to understand which satellite services are likely to provide imagery of regions of interest at the right time, date, resolution and aspect for their needs.&#x20;

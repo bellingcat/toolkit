@@ -54,8 +54,6 @@ Examples of features which affect the value of satellite imagery to an investiga
 
 </details>
 
-
-
 ### Use Cases for OrbTrack with Input Data, Output Data and Data Input Options...(Click each tab to see further information)
 
 {% tabs %}
@@ -70,7 +68,8 @@ Examples of features which affect the value of satellite imagery to an investiga
 {% endtab %}
 
 {% tab title="USE CASES" %}
-* **Verifying Satellite Data:**&#x20;
+
+
 * **Locating and Selecting Useful Satellite Data**
 
 **Satellite-Focused Research:**&#x20;
@@ -93,7 +92,7 @@ Testing whether a satellite passes over an area of interest at a particular angl
 {% endtab %}
 {% endtabs %}
 
-The Interface
+### The Interface
 
 <figure><img src=".gitbook/assets/StillImageAnnotated2.jpg" alt=""><figcaption><p><strong>THE ORBTRACK INTERFACE</strong></p></figcaption></figure>
 
@@ -131,7 +130,7 @@ None. OrbTrack does not require any form of login or registration.
 
 ## Limitations
 
-**Time Limited:**OrbTrack provides satellite path data for 5 days ahead of the date upon which it is being used. It cannot provide historical data or forward predictions past this point.
+**Time Limited:** OrbTrack provides satellite path data for 5 days ahead of the date upon which it is being used. It cannot provide historical data or forward predictions past this point. This is a serious limitation for many Open Source Research applications.
 
 **No "Reverse Search":** OrbTrack allows the user to find information about a particular satellite over a particular time period, but search within this space needs to be done by trial and error: for example, OrbTrack will not take as inputs the co-ordinates of a given location and a given angle of elevation and return the list of satellites whose paths fulfil this angle to that location within the next 5 days.
 
