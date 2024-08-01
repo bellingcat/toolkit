@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Unicorn Riot, a media collective in the US, has had their reporters collect Discord chat logs in the course of their reporting on active hate groups throughout the world.  The DiscordLeaks web app allows the public to sort through the collected information from Discord servers, giving open access to an archive of chat logs from various far-right groups. &#x20;
+Unicorn Riot, a media collective in the US, has had their reporters collect Discord, RocketChat and Skype chat logs in the course of their reporting on active hate groups throughout the world. The DiscordLeaks web app allows the public to sort through the collected information from Discord servers, giving open access to an archive of chat logs from various far-right groups. &#x20;
 
 ## Cost
 
