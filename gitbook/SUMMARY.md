@@ -117,3 +117,4 @@
   * [Apple Maps](tools/apple-maps/README.md)
   * [Etherscan](tools/etherscan/README.md)
   * [Auto Archiver](tools/auto-archiver/README.md)
+  * [Equasis](tools/equasis/README.md)
