@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Ethereum is a blockchain-based network with its native cryptocurrency Ether (ETH) currently being the second-largest cryptocurrency in terms of value. Open source researchers can use Etherscan to look up data on the Ethereum blockchain, for instance addresses, transactions, [smart contracts](https://ethereum.org/en/smart-contracts/) and more.
+Ethereum is a blockchain-based network. Its native cryptocurrency Ether (ETH) is currently the second-largest cryptocurrency in terms of value. Open source researchers can use Etherscan to look up data on the Ethereum blockchain, for instance addresses, transactions, [smart contracts](https://ethereum.org/en/smart-contracts/) and more.
 
 ### **Addresses**
 
@@ -22,7 +22,7 @@ By typing any Ether address in the search bar, researchers get an overview of th
 
 ### **Ethereum usernames**
 
-Since the Ether addresses are long and not very user-friendly, services (like [Ethereum name service](https://ens.domains/)) allow users to buy a username that ends with .eth. If open source researchers find such a username, they do not necessarily need to know the Ether address but can simply search for this username.&#x20;
+Since Ether addresses are long and not very user-friendly, services like [Ethereum name service](https://ens.domains/) allow users to buy a username that ends with .eth. If open source researchers find such a username online, they do not necessarily need to know the Ether address but can simply search for this username.&#x20;
 
 Some Ethereum fans use their .eth username on social media platforms which can be helpful in terms of tracing digital footprints during open source investigations. Ethereum co-founder Vitalik Buterin, for instance, uses his vitalik.eth for his [X account](https://x.com/VitalikButerin). A search for this name on Etherscan brings up the associated Ether address:
 
@@ -30,15 +30,15 @@ Some Ethereum fans use their .eth username on social media platforms which can b
 
 ### **Search Etherscan via Google**
 
-Since 2023 [Google](https://x.com/nalin/status/1656753830862942208) displays the ETH balance (via Etherscan) directly on top of the search results if someone searches for an Ether address:
+[Google](https://x.com/nalin/status/1656753830862942208) displays the ETH balance (via Etherscan) directly on top of the search results if someone searches for an Ether address:
 
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-However, our own tests showed that this does not always work. Sometimes the result comes back with an empty info box:
+However, our own tests in July 2024 showed that this does not always work. Sometimes the result comes back with an empty info box:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-07-31 at 20.36.23.png" alt=""><figcaption></figcaption></figure>
 
-It is also possible to search for a [username](https://cryptoslate.com/google-adding-ethereum-name-service-data-into-search-results-through-etherscan/) but during our own tests in July 2024, this method seemed to be even less reliable.
+It is also possible to search for a [username](https://cryptoslate.com/google-adding-ethereum-name-service-data-into-search-results-through-etherscan/) but this method seemed to be even less reliable in July 2024.
 
 ### Transactions
 
@@ -70,11 +70,11 @@ Open source researchers who sign up with an e-mail address can use some addition
 
 While some users provide their Ether addresses on social media or other online platforms, it is important to note that most Ether addresses can not be easily linked to a specific person or organization.&#x20;
 
-While transactions are publicly visible via the blockchain, criminals might use [mixer services](https://www.coindesk.com/learn/are-crypto-mixers-legal/) to obscure the original sender and the recipient of payments making it more challenging for open source investigators to deanynomyize transactions. Trying to track down crypto transactions can often lead to dead ends.
+While transactions are publicly visible via the blockchain, criminals might use [mixer services](https://www.coindesk.com/learn/are-crypto-mixers-legal/) to obscure the original sender and recipients of payments making it more challenging for open source investigators to deanynomyize transactions. Trying to track down the person behind a crypto transaction can often lead to dead ends.
 
 ## Ethical Considerations
 
-Open source researchers should be careful when using Etherscan since it has become the target of scams and phishing attempts. In 2023, [cloned Etherscan sites](./#phishing-scammers-have-cloned-the-websites-of-crypto-media-outlet-blockworks-and-ethereum-blockchain) were set up to trick users into providing access to their walles. In 2024, [phishing ads](https://crypto.news/etherscan-users-targeted-in-major-phishing-campaign-via-on-site-ads/) were found on Etherscan.&#x20;
+Etherscan has become the target of scams and phishing attempts. In 2023, [cloned Etherscan sites](./#phishing-scammers-have-cloned-the-websites-of-crypto-media-outlet-blockworks-and-ethereum-blockchain) were set up to trick users into providing access to their wallets. In 2024, [phishing ads](https://crypto.news/etherscan-users-targeted-in-major-phishing-campaign-via-on-site-ads/) were found on Etherscan. Those scams usually target crypto owners with the aim to gain access to their wallets. Open source researchers should nevertheless use the platform with caution.
 
 ## Guides
 
