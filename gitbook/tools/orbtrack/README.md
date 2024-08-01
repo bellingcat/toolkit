@@ -2,17 +2,17 @@
 description: >-
   Predicts & describes the position & path of >10K satellites in Earth orbit,
   relative to points on the earth's surface input by the user, for 5 days ahead,
-  + International Space Station video feed
+  + International Space Station video feed.
 ---
 
 # OrbTrack
 
 ## URL
 
-## [https://www.orbtrack.org](https://www.orbtrack.org)
+[https://www.orbtrack.org](https://www.orbtrack.org)
 
 {% hint style="info" %}
-D**isambiguation:** This article describes a web-based app called OrbTrack, written by Torsten Hoffman (author of popular app [SunCalc](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/ScmcEIAcsvKXg7S4xa8P/)) which displays data on over 10,000 satellites in a graphical interface for a time period 5 days ahead of the use date. It does not cover the mobile app of the same name, written by James Nikolai, stored on GitHub.
+**Disambiguation:** This article describes a web-based app called OrbTrack, written by Torsten Hoffman (author of popular app [SunCalc](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/ScmcEIAcsvKXg7S4xa8P/)) which displays data on over 10,000 satellites in a graphical interface for a time period 5 days ahead of the use date. It does not cover the mobile app of the same name, written by James Nikolai, stored on GitHub.
 {% endhint %}
 
 ## Description
@@ -26,7 +26,7 @@ Satellites can carry many different forms of sensor, e.g. photographic imaging, 
 OrbTrack is a web-based app which allows users to explore satellite sources of imagery by:&#x20;
 
 * entering the geographical location of an observer (i.e. an area of interest)
-* projecting for 5 days forward the path of a chosen satelite over time, and its distance and angle from the observer
+* projecting for 5 days forward the path of a chosen satellite over time, and its distance and angle from the observer
 * calculating the times when the chosen satellite is in sunlight, and when in darkness
 * calculating the times when the chosen satellite has a line of sight to the observer
 
@@ -36,7 +36,7 @@ A large segment of Open Source research involves the use of satellite imagery, g
 
 <details>
 
-<summary><strong>The Role of Satellite Imagery in Open Source Investigation.</strong><br> Much, but not all, of the available higher resolution imagery sits behind paywalls and an investigator's access may be limited in both the range of imagery providers and a maximum quote on numbers of images...(click the side arrow for more information)</summary>
+<summary><strong>The Role of Satellite Imagery in Open Source Investigation.</strong><br>Much, but not all, of the available higher resolution imagery sits behind paywalls and an investigator's access may be limited in both the range of imagery providers and a maximum quote on numbers of images...(click the side arrow for more information)</summary>
 
 Satellite imagery is often pivotal in confirming and/or dating/timing a geolocation investigation which has been solved via other means. It is valuable to researchers to understand which satellite services are likely to provide imagery of regions of interest at the right time, date, resolution and aspect for their needs.&#x20;
 
@@ -96,18 +96,18 @@ As well as satellite position information, the OrbTrack interface provides its s
 
 
 {% embed url="https://www.youtube.com/watch?t=36s&v=fSrbJ8efv40" %}
-**THE RELATIONSHIP BETWEEN SATELLITE HEIGHT AND VELOCITY, AND THE SPECIAL CASE OF GEOSTATIONARY ORBIT**
+**THE RELATIONSHIP BETWEEN SATELLITE HEIGHT AND VELOCITY, AND THE SPECIAL CASE OF GEOSTATIONARY ORBIT (Youtube video, xmphysiscs:** Why must geostationary satellites be parked at altitude of 36000 km?)
 {% endembed %}
 
 ### The Data
 
-The satellite database is provided from  [www.celestrack.com](https://www.celestrack.com) by Dr T. S. Kelso . Researchers can use it to cross-reference service names with satellite names. This is usually a one-to-many relationship where a service uses a number of satellites to deliver regular (or even continuous) imagery in the intended area(s) of focus.&#x20;
+The satellite database is provided from  [www.celestrack.com](https://www.celestrack.com) by Dr T. S. Kelso. Researchers can use it to cross-reference service names with satellite names. This is usually a one-to-many relationship where a service uses a number of satellites to deliver regular (or even continuous) imagery in the intended area(s) of focus.&#x20;
 
-An example of one service which is used in Open Source Research would be the Planet satellite service, which operates what is calls 'constellations' of satellites, which have different spatital, temporal and radiometric resolutions.&#x20;
+An example of one service which is used in Open Source Research would be the Planet satellite service, which operates what is called 'constellations' of satellites, which have different spatial, temporal and radiometric resolutions.&#x20;
 
 <figure><img src=".gitbook/assets/planetsatelliteanimation.gif" alt=""><figcaption><p>THE PLANET SERVICE SATELLITES IN MOTION AROUNG THE ROTATING EARTH</p></figcaption></figure>
 
-{% hint style="info" %}
+{% hint style="warning" %}
 OrbTrack includes a distance scale on all its earth maps.
 {% endhint %}
 
@@ -135,7 +135,7 @@ None. OrbTrack does not require any form of login or registration.
 
 ## Ethical Considerations
 
-By its nature, satellite imaging can be intrusive and be used to focus attention on locations and people which could prove unwelcome or difficult to manage.
+By its nature, satellite imaging can be intrusive and be used to focus attention on locations and people which could prove unwelcome.
 
 ## Guides and articles
 
