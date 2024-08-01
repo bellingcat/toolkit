@@ -1,5 +1,7 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  Bellingcat's tool to automatically archive social media posts, videos, and
+  images. Free and Open-Source.
 ---
 
 # Auto Archiver
@@ -47,7 +49,9 @@ The Auto Archiver, developed by Bellingcat, helps journalists and researchers pr
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+Ramalho, M. (2022, September 22). _**Preserve Vital Online Content With Bellingcat’s Auto Archiver**_**. Bellingcat.** [https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/](https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/)
+
+_**Bellingcat/auto-archiver**_**.** (2024). \[Python]. Bellingcat. [https://github.com/bellingcat/auto-archiver](https://github.com/bellingcat/auto-archiver) (Original work published 2021)
 
 ## Tool provider
 
