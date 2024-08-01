@@ -101,11 +101,11 @@ As well as satellite position information, the OrbTrack interface provides its s
 
 ### The Data
 
-The satellite database is provided from  [www.celestrack.com](https://www.celestrack.com) by Dr T. S. Kelso. Researchers can use it to cross-reference service names with satellite names. This is usually a one-to-many relationship where a service uses a number of satellites to deliver regular (or even continuous) imagery in the intended area(s) of focus.&#x20;
+The satellite database is provided from [www.celestrack.com](https://www.celestrack.com) by Dr T. S. Kelso. Researchers can use it to cross-reference service names with satellite names. This is usually a one-to-many relationship where a service uses a number of satellites to deliver regular (or even continuous) imagery in the intended area(s) of focus.&#x20;
 
 An example of one service which is used in Open Source Research would be the Planet satellite service, which operates what is called 'constellations' of satellites, which have different spatial, temporal and radiometric resolutions.&#x20;
 
-<figure><img src=".gitbook/assets/planetsatelliteanimation.gif" alt=""><figcaption><p>THE PLANET SERVICE SATELLITES IN MOTION AROUNG THE ROTATING EARTH</p></figcaption></figure>
+<figure><img src=".gitbook/assets/planetsatelliteanimation.gif" alt=""><figcaption><p>THE PLANET SERVICE SATELLITES IN MOTION AROUND THE ROTATING EARTH</p></figcaption></figure>
 
 {% hint style="warning" %}
 OrbTrack includes a distance scale on all its earth maps.
@@ -143,7 +143,7 @@ By its nature, satellite imaging can be intrusive and be used to focus attention
 
 ## Tool provider
 
-Torsten Hoffman with satellite data from Dr T. S. Kelso via [www.celestrack.com](https://www.celestrack.com).
+Torsten Hoffman (Germany) with satellite data from Dr T. S. Kelso via [www.celestrack.com](https://www.celestrack.com).
 
 ## Advertising Trackers
 
