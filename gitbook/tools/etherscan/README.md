@@ -26,7 +26,7 @@ Since Ether addresses are long and not very user-friendly, services like [Ethere
 
 Some Ethereum fans use their .eth username on social media platforms which can be helpful in terms of tracing digital footprints during open source investigations. Ethereum co-founder Vitalik Buterin, for instance, uses his vitalik.eth for his [X account](https://x.com/VitalikButerin). A search for this name on Etherscan brings up the associated Ether address:
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-08-01 at 14.32.51.png" alt=""><figcaption></figcaption></figure>
 
 ### **Search Etherscan via Google**
 
