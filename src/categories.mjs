@@ -18,6 +18,29 @@ const allTools = getTools().filter((tool) => !tool.draft );
   writeIfChanged(renderCategory(mostUsed, mostUsedTools), mostUsedFilePath);
 })();
 
+function generateTemplateCategoriesMarkdown(categories) {
+  const topLevel = [];
+  const groups = categories.map((category) => {
+    if (category.hasSubcategories) {
+      return `\n## ${category.title}\n`;
+    } else if (category.hasParent) {
+      return `* [ ] [${category.title}](https://bellingcat.gitbook.io/toolkit/categories/${category.slug.join('/')})`;
+    } else {
+      topLevel.push(`* [ ] [${category.title}](https://bellingcat.gitbook.io/toolkit/categories/${category.slug.join('/')})`);
+    }
+  }).filter(post => { return post && post });
+
+
+  const content = [
+    '# Categories',
+    groups.join('\n'),
+    '## Other',
+    topLevel.join('\n')
+  ].join('\n\n');
+
+  writeIfChanged(content, 'template/categories.md');
+}
+
 function createCategory(category) {
   /*
    * category: {
@@ -34,7 +57,8 @@ function createCategory(category) {
   console.log("Category created");
 }
 
-getCategories().filter((cat) => !cat.hasSubcategories).forEach((category) => {
+const allCategories = getCategories();
+allCategories.filter((cat) => !cat.hasSubcategories).forEach((category) => {
   const categoryTools = allTools.filter((tool) => {
     return tool.tags && tool.tags.includes(category.tag);
   }).map((tool) => {
@@ -46,6 +70,7 @@ getCategories().filter((cat) => !cat.hasSubcategories).forEach((category) => {
   const content = renderCategory(category, categoryTools);
   writeIfChanged(content, category.filepath);
 });
+generateTemplateCategoriesMarkdown(allCategories);
 
 function renderCategory(category, categoryTools = []) {
   return renderIntro(category) + renderTable(categoryTools, category);
