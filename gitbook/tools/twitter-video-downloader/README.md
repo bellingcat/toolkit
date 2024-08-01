@@ -32,7 +32,7 @@ Internet
 
 ## Tool provider
 
-Tool site only provides and e-mail address: vssmartniceman97@gmail.com
+Tool site only provides an e-mail address: vssmartniceman97@gmail.com
 
 | Page Maintainer |
 | --------------- |
