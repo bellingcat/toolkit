@@ -3771,5 +3771,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "OVflIPPSsOdKU6Z613ws",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "j7i3pScDjUVWm8pT2D9n",
+    "title": "Instant Data Scraper",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-08-01T18:54:38.917Z",
+    "updatedAt": "2024-08-01T18:54:38.917Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/j7i3pScDjUVWm8pT2D9n",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/j7i3pScDjUVWm8pT2D9n/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "03EgxS76B3fVlG1X14XQ",
+    "defaultLevel": "inherit"
   }
 ]
