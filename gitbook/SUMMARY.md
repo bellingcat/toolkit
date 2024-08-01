@@ -118,3 +118,4 @@
   * [Etherscan](tools/etherscan/README.md)
   * [Auto Archiver](tools/auto-archiver/README.md)
   * [Equasis](tools/equasis/README.md)
+  * [DiscordLeaks](tools/discordleaks/README.md)
