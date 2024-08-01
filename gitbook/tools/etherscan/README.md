@@ -6,7 +6,7 @@ description: >-
 
 # Etherscan
 
-## URL
+## The [Ethereum address](https://etherscan.io/address/0xd8da6bf26964af9d7eed9e03e53415d37aa96045) of Ethereum co-founder Vitalik Buterin according to [Forbes](https://www.forbes.com/sites/ninabambysheva/2021/05/12/vitalik-buterin-moves-13-billion-worth-of-ether-but-where/).URL
 
 [https://etherscan.io/](https://etherscan.io/)
 
@@ -18,7 +18,7 @@ Ethereum is a blockchain-based network. Its native cryptocurrency Ether (ETH) is
 
 By typing any Ether address in the search bar, researchers get an overview of the current balance of the wallet’s assets in Ether and USD, the dates when the first and the last transactions were sent and an overview of all transactions.
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>The <a href="https://etherscan.io/address/0xd8da6bf26964af9d7eed9e03e53415d37aa96045">Ethereum address</a> of Ethereum co-founder Vitalik Buterin according to <a href="https://www.forbes.com/sites/ninabambysheva/2021/05/12/vitalik-buterin-moves-13-billion-worth-of-ether-but-where/">Forbes</a>.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-08-01 at 14.24.47.png" alt=""><figcaption><p>The <a href="https://etherscan.io/address/0xd8da6bf26964af9d7eed9e03e53415d37aa96045">Ethereum address</a> of Ethereum co-founder Vitalik Buterin according to <a href="https://www.forbes.com/sites/ninabambysheva/2021/05/12/vitalik-buterin-moves-13-billion-worth-of-ether-but-where/">Forbes</a>.</p></figcaption></figure>
 
 ### **Ethereum usernames**
 
