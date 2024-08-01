@@ -8,13 +8,68 @@ Welcome to [Bellingcat’s](https://www.bellingcat.com/) Online Open Source Inve
 
 Open source researchers, this is your place to discover tools! Our toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more. Most of the tools that we include can be used for free.
 
-Bellingcat’s Online Investigation Toolkit has a long tradition but our newest version is special: It is offered in collaboration with the Bellingcat volunteer community. Our volunteers know the ins and outs of “their tools” and are able to provide information on their advantages and limitations.&#x20;
+Bellingcat’s Online Investigation Toolkit has a long tradition but our newest version is special: It is offered in collaboration with the Bellingcat volunteer community. Our volunteers know the ins and outs of “their tools” and are able to provide information on their advantages and limitations.
 
 This toolkit is still a work in progress. You can find the [previous version of this toolkit here](https://bit.ly/bcattools).
 
 If you have any feedback, please get in touch with Johanna Wild via [toolkit@bellingcat.com](mailto:toolkit@bellingcat.com).
 
 [Bellingcat](https://www.bellingcat.com/) is a non-profit and the ability to carry out our work is dependent on the kind support of individual donors. If you would like to support our work, you can so [here](https://www.bellingcat.com/donate/).
+
+<pre><code>&#x3C;details>
+&#x3C;summary>Click to expand&#x3C;/summary>
+
+Follow Bellingcat's work:
+
+<strong>Bellingcat website
+</strong>
+
+Bellingcat newsletter
+
+
+BlueSky
+
+
+Discord
+
+
+Facebook
+
+
+Github
+
+
+Instagram
+
+
+Mastodon
+
+
+Patreon
+
+
+Reddit
+
+
+Soundcloud
+
+
+Twitch
+
+
+X
+
+
+Youtube
+
+We also provide 
+workshops
+ on open source investigative methods and tools. For those of you interested in becoming a Bellingcat volunteer, have a look at our 
+volunteer community page
+.This is the content of the collapsible section. You can include any Markdown-formatted text, lists, or code here.
+
+&#x3C;/details>
+</code></pre>
 
 Follow Bellingcat's work:
 
