@@ -36,7 +36,7 @@ Some Ethereum fans use their .eth username on social media platforms which can b
 
 However, our own tests in July 2024 showed that this does not always work. Sometimes the result comes back with an empty info box:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-07-31 at 20.36.23.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-07-31 at 20.36.23.png" alt="" width="375"><figcaption></figcaption></figure>
 
 It is also possible to search for a [username](https://cryptoslate.com/google-adding-ethereum-name-service-data-into-search-results-through-etherscan/) but this method seemed to be even less reliable in July 2024.
 
