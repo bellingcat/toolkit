@@ -1,18 +1,18 @@
 ---
 description: >-
   Search hundreds of thousands of messages leaked from 180+ white-supremacist /
-  nazi discord servers, by UnicornRiot
+  nazi discord servers.
 ---
 
 # DiscordLeaks
 
 ## URL
 
-https://discordleaks.unicornriot.ninja/discord/server/
+[https://discordleaks.unicornriot.ninja/discord/server/](https://discordleaks.unicornriot.ninja/discord/server/)&#x20;
 
 ## Description
 
-Unicorn Riot, an independent journalism hub, has had their reporters collect Discord chat logs in the course of their reporting on active hate groups throughout the world.  The DiscordLeaks web app allows the public to sort through the collected information from Discord servers their journalists have obtained access to, giving open access to their archive of chat logs from various far-right groups. &#x20;
+Unicorn Riot, a media collective in the US, has had their reporters collect Discord chat logs in the course of their reporting on active hate groups throughout the world.  The DiscordLeaks web app allows the public to sort through the collected information from Discord servers, giving open access to this archive of chat logs from various far-right groups. &#x20;
 
 ## Cost
 
