@@ -6,7 +6,7 @@ description: A toolkit for open source researchers
 
 Welcome to [Bellingcat’s](https://www.bellingcat.com/) Online Open Source Investigation Toolkit.
 
-Open source researchers, this is your place to discover tools! Our toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more. Most of the tools that we include can be used for free.
+This is your place to discover tools! Our toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more. Most of the tools that we include can be used for free.
 
 Bellingcat’s Online Investigation Toolkit has a long tradition but our newest version is special: It is offered in collaboration with the Bellingcat volunteer community. Our volunteers know the ins and outs of “their tools” and are able to provide information on their advantages and limitations.
 
@@ -14,13 +14,13 @@ This toolkit is still a work in progress. You can find the [previous version of 
 
 If you have any feedback, please get in touch with Johanna Wild via [toolkit@bellingcat.com](mailto:toolkit@bellingcat.com).
 
-[Bellingcat](https://www.bellingcat.com/) is a non-profit and the ability to carry out our work is dependent on the kind support of individual donors. If you would like to support our work, you can so [here](https://www.bellingcat.com/donate/).
+
 
 
 
 <details>
 
-<summary>Follow Bellingcat's work</summary>
+<summary>Follow <a href="https://www.bellingcat.com">Bellingcat</a>'s work</summary>
 
 
 
@@ -77,25 +77,12 @@ If you have any feedback, please get in touch with Johanna Wild via [toolkit@bel
 <!---->
 
 * [Youtube](https://www.youtube.com/@bellingcatofficial/videos)
+
+[Bellingcat](https://www.bellingcat.com/) is a non-profit and the ability to carry out our work is dependent on the kind support of individual donors. If you would like to support our work, you can so [here](https://www.bellingcat.com/donate/).
 
 We also provide [workshops](https://www.bellingcat.com/workshops/) on open source investigative methods and tools. For those of you interested in becoming a Bellingcat volunteer, have a look at our [volunteer community page](https://sites.google.com/bellingcat.com/bellingcat-volunteer-community/home).
 
 </details>
 
-Follow Bellingcat's work:
 
-* [Bellingcat website](https://www.bellingcat.com/)
-* [Bellingcat newsletter](https://bellingcat.us14.list-manage.com/subscribe/post?u=c435f53a5568f7951404c8a38\&id=4be345b082)
-* [BlueSky](https://bsky.app/profile/bellingcat.com)
-* [Discord](https://discord.com/invite/bellingcat)
-* [Facebook](https://www.facebook.com/bellingcat)
-* [Github](https://github.com/bellingcat)
-* [Instagram](https://www.instagram.com/bellingcatofficial/)
-* [Mastodon](https://mstdn.social/@Bellingcat)
-* [Patreon](https://www.patreon.com/bellingcat)
-* [Reddit](https://www.reddit.com/r/bellingcat/)
-* [Soundcloud](https://soundcloud.com/bellingcat)
-* [Twitch](https://www.twitch.tv/bellingcat\_live)
-* [X](categories/social-media/youtube.md)
-* [Youtube](https://www.youtube.com/@bellingcatofficial/videos)
 
