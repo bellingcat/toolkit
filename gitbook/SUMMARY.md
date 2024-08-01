@@ -1,6 +1,7 @@
 # Table of contents
 
 * [About](README.md)
+* [Contribute](contribute.md)
 * [Most Used](most-used.md)
 
 ## ⚒️ Categories
@@ -112,7 +113,6 @@
   * [satellites.pro](tools/satellites.pro/README.md)
   * [Omnivore](tools/omnivore/README.md)
   * [GovMap](tools/govmap/README.md)
-    
   * [NASA Worldview](tools/nasa-worldview/README.md)
   * [Apple Maps](tools/apple-maps/README.md)
   * [Etherscan](tools/etherscan/README.md)

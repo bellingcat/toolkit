@@ -4,7 +4,7 @@ description: A toolkit for open source researchers
 
 # About
 
-### Welcome to [Bellingcat’s](https://www.bellingcat.com/) Online Open Source Investigation Toolkit.
+### Welcome to Bellingcat’s Online Open Source Investigation Toolkit!
 
 This is your place to discover tools! Our toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more. Most of the tools that we include can be used for free.
 
