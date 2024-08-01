@@ -1,5 +1,5 @@
 ---
-description: Convert a tweet containing video to a video download link
+description: Convert a tweet to a video download link.
 ---
 
 # Twitter Video Downloader
@@ -32,10 +32,9 @@ Internet
 
 ## Tool provider
 
-vssmartniceman97@gmail.com
+Tool site only provides and e-mail address: vssmartniceman97@gmail.com
 
 | Page Maintainer |
 | --------------- |
-| Unassigned      |
+| Cass            |
 |                 |
-
