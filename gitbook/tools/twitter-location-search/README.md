@@ -47,7 +47,7 @@ On the search bar, users can use the following search operators in addition to t
 * You can also set a distance using "**within:\[radius]**" to narrow down results within a certain radius in [mi or km](https://developer.x.com/en/docs/twitter-api/tweets/search/integrate/build-a-query), for example “**within:2mi**”
 * Combine both search operators "**near:chicago within:2mi**"
 
-For more specificity, use latitude and longitude coordinates. Search using "**geocode:\[latitude,longitude,radius]**" For example, "**geocode:40.7128,-74.0060,10mi**" for New York City
+For more specificity, use latitude and longitude coordinates. Search using "**geocode:\[latitude,longitude,radius]**" For example, "**geocode:40.7128,-74.0060,10mi**" for New York City.
 
 ### What problem does it solve?&#x20;
 
