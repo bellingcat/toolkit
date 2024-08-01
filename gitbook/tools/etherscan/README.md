@@ -74,7 +74,7 @@ While transactions are publicly visible via the blockchain, criminals might use 
 
 ## Ethical Considerations
 
-Etherscan has become the target of scams and phishing attempts. In 2023, [cloned Etherscan sites](./#phishing-scammers-have-cloned-the-websites-of-crypto-media-outlet-blockworks-and-ethereum-blockchain) were set up to trick users into providing access to their wallets. In 2024, [phishing ads](https://crypto.news/etherscan-users-targeted-in-major-phishing-campaign-via-on-site-ads/) were found on Etherscan. Those scams usually target crypto owners with the aim to gain access to their wallets. Open source researchers should nevertheless use the platform with caution.
+Etherscan has become the target of scams and phishing attempts. In 2023, [cloned Etherscan sites](./#phishing-scammers-have-cloned-the-websites-of-crypto-media-outlet-blockworks-and-ethereum-blockchain) were set up to trick users into providing access to their wallets. In 2024, [phishing ads](https://crypto.news/etherscan-users-targeted-in-major-phishing-campaign-via-on-site-ads/) were found on Etherscan. Those scams are aimed at gaining access to users' wallets and therefore their Ether assets. Open source researchers should nevertheless be aware of the prevalence of such incidents in the crypto world.
 
 ## Guides
 
