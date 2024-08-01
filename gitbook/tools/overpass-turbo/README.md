@@ -94,7 +94,6 @@ To effectively use Overpass Turbo, especially for beginners or those looking to 
 
 #### Tutorials and Articles
 
-* [**Learn Overpass QL in X minutes**](https://learnxinyminutes.com/docs/overpass-ql/)**:** A quick-start guide for those new to Overpass QL, focusing on key concepts and syntax.
 * [_Overpass Tutorial_](https://osm-queries.ldodds.com/tutorial/index.html) (no date). Available at: [https://osm-queries.ldodds.com/tutorial/index.html](https://osm-queries.ldodds.com/tutorial/index.html) (Accessed: 2 April 2024).
 * [_Learn Overpass._](https://osmlab.github.io/learnoverpass/en/) (no date). Available at: [https://osmlab.github.io/learnoverpass//en/](https://osmlab.github.io/learnoverpass/en/) (Accessed: 2 April 2024).
 
