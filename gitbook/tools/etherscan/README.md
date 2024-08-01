@@ -6,7 +6,7 @@ description: >-
 
 # Etherscan
 
-## The [Ethereum address](https://etherscan.io/address/0xd8da6bf26964af9d7eed9e03e53415d37aa96045) of Ethereum co-founder Vitalik Buterin according to [Forbes](https://www.forbes.com/sites/ninabambysheva/2021/05/12/vitalik-buterin-moves-13-billion-worth-of-ether-but-where/).URL
+## URL
 
 [https://etherscan.io/](https://etherscan.io/)
 
