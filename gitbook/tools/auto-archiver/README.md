@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-The Auto Archiver, developed by Bellingcat, helps journalists and researchers preserve online content by archiving social media posts, videos, and images. Users input URLs into a Google Sheets document, which the tool then processes, utilizing various archiving methods depending on the platform. It supports archiving from Telegram, TikTok, Twitter, VKontakte, and falls back to the Wayback Machine if needed. This tool has been essential in documenting events like the Russia-Ukraine war by preserving content that might otherwise be deleted.
+The Auto Archiver, developed by Bellingcat, helps journalists and researchers preserve online content by archiving social media posts, videos, and images. Users input URLs into a Google Sheets document, which the tool then processes, utilizing various archiving methods depending on the platform. It supports archiving from Telegram, TikTok, Twitter, VKontakte, and falls back to archiving content via the Wayback Machine if this is the only available option. This tool has been essential in documenting events like the Russia-Ukraine war by preserving content that might otherwise be deleted.
 
 ## Cost
 
