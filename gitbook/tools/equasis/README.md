@@ -14,13 +14,13 @@ description: >-
 
 Equasis, the Electric Quality Shipping Information System, is a tool designed to consolidate information about vessel ownership and safety records into one place. After creating an account, users can access a search portal to search for vessels by name or IMO number, or search for a company by name. The advanced search feature can search for vessels by call sign, MMSI number, tonnage, flag, etc, which can help to identify a vessel for which only some identifying information is known.
 
-Equasis can provide a significant amount of information about vessels including name, IMO number, flag, call sign, MMSI number, gross tonnage, deadweight tonnage, year built, type of ship, status, registered owner, ISM manager, ship manager, P\&I information, classification society, partial location history, and inspection and deficiency history, as well as a history for some of this information. For companies, Equasis can provide registered addresses, a list of vessels in their fleet, and a synthesis of inspections and deficiencies for all vessels in said company's fleet.
-
 {% hint style="info" %}
 IMO numbers are unique, seven-digit tracking numbers assigned to ships and shipping companies by S\&P Global Market Intelligence on behalf of the International Maritime Organization. Unlike ship names and company names which can change, IMO numbers remain constant. More information about IMO numbers can be found on the [International Maritime Organization's website](https://www.imo.org/en/OurWork/IIIS/Pages/IMO-Identification-Number-Schemes.aspx).
 
 MMSI (Maritime Mobile Service Identities) numbers are nine-digit numbers used to uniquely identify ships in radio and AIS (Automatic Identification System) broadcasts. MMSI numbers are issued by the country a ship is flagged to and managed by the International Telecommunications Union. More information about MMSI numbers can be found on the [International Telecommunications Union's website](https://www.itu.int/en/ITU-R/terrestrial/Pages/by-categories-faq.aspx?categorizedby=17).
 {% endhint %}
+
+Equasis can provide a significant amount of information about vessels including name, IMO number, flag, call sign, MMSI number, gross tonnage, deadweight tonnage, year built, type of ship, status, registered owner, ISM manager, ship manager, P\&I information, classification society, partial location history, and inspection and deficiency history, as well as a history for some of this information. For companies, Equasis can provide registered addresses, a list of vessels in their fleet, and a synthesis of inspections and deficiencies for all vessels in said company's fleet.
 
 ## Use Case
 
