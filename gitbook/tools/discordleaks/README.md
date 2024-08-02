@@ -74,4 +74,7 @@ Search:
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-<table><thead><tr><th data-type="users" data-multiple>Page maintainer</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/1EJYZ3VapOeyTucb66LoniieppP2">Cass GAP Member</a></td></tr><tr><td></td></tr></tbody></table>
+| Page maintainer           |
+| ------------------------- |
+| Cass GAP Member           |
+|                           |
