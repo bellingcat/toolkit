@@ -7,10 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Etherscan",
-  "url": "http://etherscan.io/",
-  "description": "Tracking transactions & finding a cryptowallet each based on the ETH blockchain.",
-  "cost": "Paid",
   "details": "Crypto, Global",
   "tags": [
     "crypto",
