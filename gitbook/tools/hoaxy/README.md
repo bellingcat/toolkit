@@ -31,8 +31,6 @@ Hoaxy solves some of these questions through the following key features:&#x20;
 
 ### How does it work?
 
-(placeholder)
-
 Step 1: Do a search on either platform
 
 Step 2: Hoaxy automatically generates a visualization&#x20;
