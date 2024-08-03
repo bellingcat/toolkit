@@ -1,8 +1,8 @@
 ---
 description: >-
   4CAT is a tool designed for the easy collection and analysis of online
-  datasets, facilitating researchers and analysts in uncovering patterns and
-  trends in social media and other digital platforms.
+  datasets. It allows researchers to uncover patterns and trends in data  from
+  social media and other digital platforms.
 ---
 
 # 4CAT
@@ -13,9 +13,9 @@ description: >-
 
 ## Description
 
-4CAT is a containerised [Docker](https://www.docker.com/) application that can be installed on a server to create an accessible web-based tool that enables users to gather and analyze online data efficiently. It supports researchers and analysts by providing a streamlined way to explore and identify trends within data from social media and other digital platforms. The tool is structured to accommodate a variety of online datasets, making it versatile for different research needs. By offering capabilities to collect, process, and examine digital content, 4CAT stands as a valuable resource for those looking to conduct comprehensive studies on the dynamics of online communities and the dissemination of information across virtual networks.
+4CAT is a containerised [Docker](https://www.docker.com/) application that can be installed on a server to create an accessible web-based tool that enables users to gather and analyze online data. It supports researchers by providing a streamlined way to explore and identify trends within data from social media and other digital platforms. The tool is structured to accommodate a variety of online datasets. 4CAT can be used to conduct comprehensive studies on the dynamics of online communities and the dissemination of information across virtual networks.
 
-Although the tool's installation requires technical knowledge once installed the application can be used by as team as a normal web application.&#x20;
+Although the tool's installation requires technical knowledge once installed the application can be used by as team as a normal web application. There is no need for programming or scraping skills to use the tool.
 
 **Features:**
 
