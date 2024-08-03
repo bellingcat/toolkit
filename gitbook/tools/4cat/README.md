@@ -126,8 +126,6 @@ To effectively use 4Cat, especially for beginners or those looking to refine the
 
 * [https://www.facebook.com/groups/678943026381479](https://www.facebook.com/groups/678943026381479)
 
-By utilizing these resources, users can enhance their 4Cat experience, whether for personal navigation, planning trips, or developing custom mapping
-
 ## Tool provider
 
 Digital Methods Initiative [https://digitalmethods.net/](https://digitalmethods.net/) - Amsterdam
