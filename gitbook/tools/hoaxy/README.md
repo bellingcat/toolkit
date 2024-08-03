@@ -64,7 +64,7 @@ If the user is interested in tracking information spread on the X platform, user
 
 For example: "Amazon deforestation" AND (illegal OR logging) has:videos&#x20;
 
-**VISUALIZATION**&#x20;
+#### **VISUALIZATION**&#x20;
 
 Once users have entered the search terms, Hoaxy will generate a visualization containing two things:   “Diffusion networks” and “temporal trends”.&#x20;
 
@@ -107,6 +107,17 @@ The middle panel shows different features that users can change depending on the
 The tool also allows you to play a short animated clip showing how the nodes and connections are made, and how it unfolds over time, from the beginning date to the end date as displayed on the left panel.
 
 <figure><img src=".gitbook/assets/ScreenRecording2024-08-03100939-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>Clicking on the "Play" icon in the middle panel shows users how the information spread from the beginning date, 29 April 2023 to end date 3 Aug 2024. This shows a Bluesky query looking for mentions of Bellingcat. </p></figcaption></figure>
+
+#### CHECKING YOUR RESULTS
+
+It would be advisable to check on the graph to make see what kind of data and content is being displayed, and whether it matches your research topic. To do this, users can select a cluster and click on a node/user account. It will generate a pop-up window showing how the account mentions, replies to, or quotes. It will also share a link to the particular post being discussed. Users can also click on the edges (connecting lines) and this will generate a pop-up window showing the post itself.
+
+
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><p><em>(Click to enlarge)</em></p><p>Click on a node, and it will show you actions made by that account and who it interacted with. In this example, we did a Bluesky search for @bellingcat.com. On the right side, we selected the account @scrippsnews.bsky.social, and to the left, a pop-up window appears to show the activity. Underneath (shown in green arrows) are links to the post or content being forwarded. </p></td><td></td><td></td><td><a href=".gitbook/assets/Bellingcat viz node feature 1.png">Bellingcat viz node feature 1.png</a></td></tr><tr><td>(Click to enlarge)</td><td>Click on an edge (the color-coded connecting lines) to automatically generate a pop-up window showing the content being shared from one account to another. </td><td></td><td><a href=".gitbook/assets/Bellingcat viz Node 1.png">Bellingcat viz Node 1.png</a></td></tr></tbody></table>
+
+\
+
 
 ## Cost
 
