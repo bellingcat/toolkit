@@ -16,7 +16,7 @@ description: >-
 NOTE: Hoaxy was [first developed in 2016](https://www.researchgate.net/publication/301841797\_Hoaxy\_A\_Platform\_for\_Tracking\_Online\_Misinformation). This toolkit description tested the most recent version and its features to date.&#x20;
 {% endhint %}
 
-Hoaxy assists in unraveling the complex web of information dissemination online, particularly in X (Twitter) and Bluesky. It primarily addresses the problem of misinformation and disinformation spreading rapidly on social media platforms. Users can search for a particular topic or keywords on either platform, and it will automatically generate a visual graph of the spread of information.&#x20;
+Hoaxy assists in unraveling the complex web of information dissemination online, particularly in X (Twitter) and Bluesky. It primarily addresses the problem of misinformation and disinformation spreading rapidly on social media platforms. Users can search for a particular topic or keywords on either platform, and it will automatically generate a graph showing the spread of information.&#x20;
 
 ### What problem does it solve?
 
@@ -26,16 +26,18 @@ For open-source researchers wanting to verify false claims, it is important to r
 
 Hoaxy solves some of these questions through the following key features:&#x20;
 
-1. Search:  This allows users to find specific keywords, URLs, or users in Bluesky and Twitter related to a piece of news or information that needs verification or monitoring.
-2. [Visualization:](https://hoaxy.osome.iu.edu/faq#faq-q11) This offers users a visual representation of data that can illustrate who is sharing the information, the connections between different users, and the chronological order in which the information is spread. It examines networks of social media accounts engaging with a piece of information and the time frame during which this spread transpired.&#x20;
+1. Search:  This allows users to find specific keywords, URLs, or users in Bluesky and X/Twitter on a piece of news or information that needs verification or monitoring.
+2. [Visualization:](https://hoaxy.osome.iu.edu/faq#faq-q11) This offers users a visual representation of data that can illustrate who is sharing the information, the connections between different users, and the chronological order in which the information is spread.&#x20;
 
 ### How does it work?
 
-Step 1: Do a search on either platform
+Step 1: Choose from either Bluesky or X/Twitter
 
-Step 2: Hoaxy automatically generates a visualization&#x20;
+Step 2: Enter your search terms
 
-Step 3: Analyze the visualization map and its data&#x20;
+Step 3: Hoaxy automatically generates a visualization&#x20;
+
+Step 4: Analyze the visualization map and its data&#x20;
 
 
 
@@ -58,7 +60,7 @@ NOTES:&#x20;
 2. [This will only retrieve posts from the last 7 days](https://hoaxy.osome.iu.edu/faq#faq-twitter-search).&#x20;
 {% endhint %}
 
-If the user is interested in tracking information spread on the X platform, users must select “Search X/Twitter”. Then, users can enter search terms as if they are using the advanced search feature of X (See X’s guide to building a query [here](https://developer.x.com/en/docs/twitter-api/tweets/search/integrate/build-a-query) or [this guide](https://bellingcat.gitbook.io/toolkit/more/all-tools/twitter-advanced-search)). [This tool is compatible with X’s advanced search operators. ](https://hoaxy.osome.iu.edu/faq#faq-twitter-search)
+If the user is interested in tracking information spread on the X platform, users must select “Search X/Twitter”. Then, users can enter search terms in the same way they can use the advanced search feature of X (See X’s guide to building a query [here](https://developer.x.com/en/docs/twitter-api/tweets/search/integrate/build-a-query) or [this guide](https://bellingcat.gitbook.io/toolkit/more/all-tools/twitter-advanced-search)). [This tool is compatible with X’s advanced search operators. ](https://hoaxy.osome.iu.edu/faq#faq-twitter-search)
 
 For example: "Amazon deforestation" AND (illegal OR logging) has:videos&#x20;
 
@@ -74,17 +76,7 @@ Understand how information spreads between accounts. Identify influencers, clust
 
 Within the graphs, users will notice that there are different colors on the connecting line between accounts. According to the tool provider “[\[t\]he color of a connection indicates the type of post: reposts, replies, quotes, or mentions. Clicking on an edge (connecting line) reveals the post(s); clicking on a node reveals the X/Twitter account of the corresponding user.” ](https://hoaxy.osome.iu.edu/faq#faq-q5)
 
-**Overlapping Diffusion Networks**
 
-Users may use Hoaxy to track the spread of two different pieces of misinformation on X/Twitter: one about "fake vaccine side effects" and another about a "government cover-up." When you look at the diffusion network, you see distinct clusters of nodes (representing users) and edges (representing connections between users who shared the information). Some clusters are bigger than others.&#x20;
-
-In this example, one cluster **Cluster A** might be focused on the misinformation about vaccine side effects, while the other **Cluster B** is about the supposed government cover-up. These clusters are visually separate on the network graph, indicating that the information spread through different groups of people.
-
-To investigate further, you can click on the nodes in the "fake vaccine side effects" cluster to see the content being shared within that group. Similarly, by clicking on nodes in the "government cover-up" cluster, you can view the related posts and see if there are any users or posts that overlap between the two clusters. This helps you understand whether and how these different narratives are connected or if they are circulating independently.
-
-To delve deeper, you can click on nodes within Cluster A to examine the content being shared, such as news reports or firsthand accounts. Similarly, clicking on nodes in Cluster B will reveal the nature of the content there, which might include unverified rumors or conspiracy theories.&#x20;
-
-For instance, you might find that certain accounts are active in both clusters, suggesting they play a role in spreading both factual and false information about the situation.
 
 \
 \
