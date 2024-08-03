@@ -147,5 +147,11 @@ Not available for free anymore if you are interested in searching for tweet. You
 
 [Hoaxy](https://hoaxy.osome.iu.edu/faq#faq-q10) is a joint project of the Indiana University Network Science Institute ([IUNI](https://iuni.iu.edu/)) and the Center for Complex Networks and Systems Research ([CNetS](http://cnets.indiana.edu/)).
 
-<table><thead><tr><th data-type="users" data-multiple>Page Maintainers</th></tr></thead><tbody><tr><td></td></tr><tr><td></td></tr></tbody></table>
+
+
+| Page Maintainer |
+| --------------- |
+| Afton           |
+|                 |
+|                 |
 
