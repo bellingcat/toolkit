@@ -116,7 +116,11 @@ It would be advisable to check the graph to see what kind of data and content is
 
 <table data-card-size="large" data-view="cards" data-full-width="true"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><p></p><p>Click on a node, and it will show you actions made by that account and who it interacted with. In this example, we did a Bluesky search for @bellingcat.com. On the right side, we selected the account @scrippsnews.bsky.social, and to the left, a pop-up window appears to show the activity. Underneath (shown in green arrows) are links to the post or content being forwarded. </p></td><td></td><td></td><td><a href=".gitbook/assets/Bellingcat viz node feature 1.png">Bellingcat viz node feature 1.png</a></td></tr><tr><td></td><td>Click on an edge (the color-coded connecting lines) to automatically generate a pop-up window showing the content being shared from one account to another (or from one node to another). </td><td></td><td><a href=".gitbook/assets/Bellingcat viz Node 1.png">Bellingcat viz Node 1.png</a></td></tr></tbody></table>
 
-\
+### Use case
+
+The main use case for Hoaxy is for verification:&#x20;
+
+Open-source researchers can analyze the network of users who shared this information and identify whether the original sources are credible news outlets or dubious accounts known for spreading misinformation. This helps verify the authenticity of the claim and provides a clearer understanding of the narrative being shared​. This process aids in debunking false information and clarifying the facts​., as well as if the timeframe during which it the claim was most active. See [here](https://www.engadget.com/2016-12-21-hoaxy-visualizes-how-fake-news-spreads-across-social-media.html) for an example of how it was used to debunk “Picklegate” during a presidential campaign season.\
 
 
 ## Cost
