@@ -56,7 +56,7 @@ If the user is interested in tracking information spread on the Bluesky platform
 {% hint style="info" %}
 NOTES:&#x20;
 
-1. This function requires a Bearer Token available if a user purchased a Basic, Pro or Enterprise subscription on X.
+1. This function requires a Bearer Token available if a user purchased a Basic, Pro or Premium+ subscription on X.
 2. [This will only retrieve posts from the last 7 days](https://hoaxy.osome.iu.edu/faq#faq-twitter-search).&#x20;
 {% endhint %}
 
@@ -123,7 +123,7 @@ It would be advisable to check the graph to see what kind of data and content is
 
 * [x] Partially Free
 
-Twitter live search not free anymore but it is possible to upload own data
+Bluesky search and importing your own data is free, but an X/Twitter search requires a Bearer Token that can only be available if the user pays for an [X Premium subscription](https://x.com/i/premium\_sign\_up) (Basic: 2.67 USD/month, Pro: 7 USD/month, Premium+: 14 USD/month)
 
 ## Level of difficulty
 
@@ -131,7 +131,9 @@ Twitter live search not free anymore but it is possible to upload own data
 
 ## Requirements
 
-Bearer token. "Due to changes in Twitter's API policies, Hoaxy's live search is only available to users with [Basic, Pro or Enterprise access ](https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api). " Live search retrieves tweets from the last 7 days.
+1. X user account
+2. X user account Bearer Token (available if user purchased a Basic, Pro or Premium+ subscription.)&#x20;
+3. Bluesky user account
 
 ## Limitations & Ethical Considerations
 
