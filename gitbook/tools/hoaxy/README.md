@@ -104,7 +104,9 @@ The middle panel shows different features that users can change depending on the
 
 <figure><img src=".gitbook/assets/Middle Panel (1).png" alt=""><figcaption><p>These shows all the middle menu for the visualization and the different ways users can display their results for analysis. </p></figcaption></figure>
 
+The tool also allows you to play a short animated clip showing how the nodes and connections are made, and how it unfolds over time, from the beginning date to the end date as displayed on the left panel.
 
+<figure><img src=".gitbook/assets/ScreenRecording2024-08-03100939-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>Clicking on the "Play" icon in the middle panel shows users how the information spread from the beginning date, 29 April 2023 to end date 3 Aug 2024. This shows a Bluesky query looking for mentions of Bellingcat. </p></figcaption></figure>
 
 ## Cost
 
