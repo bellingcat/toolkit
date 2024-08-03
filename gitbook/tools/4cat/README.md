@@ -15,7 +15,7 @@ description: >-
 
 4CAT is a containerised [Docker](https://www.docker.com/) application that can be installed on a server to create an accessible web-based tool that enables users to gather and analyze online data. It supports researchers by providing a streamlined way to explore and identify trends within data from social media and other digital platforms. The tool is structured to accommodate a variety of online datasets. 4CAT can be used to conduct comprehensive studies on the dynamics of online communities and the dissemination of information across virtual networks.
 
-Although the tool's installation requires technical knowledge once installed the application can be used by as team as a normal web application. There is no need for programming or scraping skills to use the tool.
+Although the tool's installation requires technical knowledge once installed the application can be used by a team as a normal web application. There is no need for programming or scraping skills to use the tool.
 
 **Features:**
 
@@ -28,19 +28,19 @@ _**Data Sources**_
 
 _**Processors**_
 
-* **Combined:** across the data sources there are a series of combined processors that for common processing tasks e.g. annotate images with Google Vision API, histogram with the number of posts per month.
+* **Combined:** across the data sources there are a series of combined processors for common processing tasks e.g. annotate images with Google Vision API, histogram with the number of posts per month.
 * **Conversion:** convert date source output file formats e.g. CSV, JSON, NDJSON, etc.
 * **Cross Platform:** download YouTube thumbnails.
 * **Filtering:** filter by value, date, words or phrases and support for processing tasks like anonymise datasets.
 * **Networks:** analyse and output datasets for network visualisation in various GEXF formats.
-* **Post metrics:** visualise and export various metrics including **c**ounts of values, posts, Hatebase analysis, Extract Text from Images, Extract YouTube metadata
+* **Post metrics:** visualise and export various metrics including counts of values, posts, Hatebase analysis, Extract Text from Images, Extract YouTube metadata
 * **Text Analysis:** various text analysis processors including extracting named entities, generating topic models, word counts, etc.
 * **Thread metrics:** debate metrics.
 * **Visual:** including histogram, download images, word trees and clouds, image walls.
 
-Example below shows creating a new dataset and customising the visualis&#x20;
+The example below shows creating a new dataset and customising the visualisation.
 
-In the example below, Tumblr is selected to get posts and comments from Tumblr. In this case, the main way to collect data is through tags, which can be inserted in the Tags/blogs: field. In this case, we will search for posts with the tag #liminal spaces:
+In this example, Tumblr is selected to get posts and comments from Tumblr. In this case, the main way to collect data is through tags, which can be inserted in the Tags/blogs: field. We will search for posts with the tag #liminal spaces:
 
 <figure><img src="https://lh7-us.googleusercontent.com/iEJanp6kHwwHU7RW7A9eYfTC3N6hBkdvZz5AUyBYE8yDyHUgfGeKS6KuqxaOLT0GF1Dg_bSSVQipQtb6_K4jX2bVpxXGfCQ-RRwq_nL5mil3COBxkOBWou14ETrr0XFQILrbko-g3TkFMumnDTjCx-o" alt="Screenshot of 4Cat create new dataset screen shows the input fields require to create a Tumblr dataset."><figcaption><p>Screenshot of 4Cat create new dataset screen.</p></figcaption></figure>
 
@@ -69,9 +69,9 @@ Hosting cost may apply if 4Cat is deployed as a web application for a team.
 ## Requirements
 
 * **Platforms**: runs on Linux, Windows and macOS.
-* **Docker:** the application has been containerised with [Docker](https://www.docker.com/) so Docker needs installed for the application to run.
+* **Docker:** the application has been containerised with [Docker](https://www.docker.com/) so Docker needs to be installed for the application to run.
 * **Memory Requirements:** 16GB of RAM
-* **API key**: Some of the custom datasets may require and API key to be configured.
+* **API key**: Some of the custom datasets may require an API key to be configured.
 
 For more information on hardware requirements see: [https://github.com/digitalmethodsinitiative/4cat/wiki/What-hardware-do-I-need-to-run-4CAT%3F](https://github.com/digitalmethodsinitiative/4cat/wiki/What-hardware-do-I-need-to-run-4CAT%3F)&#x20;
 
