@@ -139,13 +139,39 @@ Bluesky search and importing your own data is free, but an X/Twitter search requ
 2. X user account Bearer Token (available if user purchased a Basic, Pro or Premium+ subscription.)&#x20;
 3. Bluesky user account
 
-## Limitations & Ethical Considerations
+## Limitations
 
-Not available for free anymore if you are interested in searching for tweet. You can only upload your own dataset.
+1. **Beta Status:** Based on its landing page, Hoaxy still appears to be in the beta phase. This can hinder its accessibility and ease of use, particularly for those who are not technically inclined. It occasionally takes a while to load the visualization graphs, but it performs well in most cases. &#x20;
+2. **Date/Time Frame Limitations:** based on some tests, Hoaxy automatically chooses a date/time frame for you, and users do not appear to have a way to control this. Users have the option to fetch older or newer posts, but the tool sometimes struggles to load the visualization after doing so. Users may have to try using date and time search operators to see if Hoaxy can fetch posts within the specified timeframe. In addition, it is unclear how the tool determines on which date the tool should begin harvesting posts. The cut-off date is usually the day you perform the search.&#x20;
+3. **X/Twitter API Limitations:** Due to recent API policy changes, Hoaxy can only access tweets from the past 7 days, limiting the scope of live searches. Misinformation may be more prevalent on X due to its larger user base and the potential presence of more bot accounts compared to platforms like Bluesky. (As of Feb 2024, “[Bluesky's user numbers are still quite small compared with Threads at more than 130 million and X at 556 million.](https://www.zdnet.com/article/bluesky-snags-more-than-800000-new-users-after-opening-to-the-public/)”) Users should acknowledge the smaller data set they are reviewing.&#x20;
+4. **Network Pruning:** The tool may occasionally truncate some diffusion networks to improve performance, potentially omitting relevant data. [According to the tool provider, “\[t\]he network may be pruned for performance.” ](https://hoaxy.osome.iu.edu/faq#faq-q5)
+5. [**Public Posts Only:**](https://hoaxy.osome.iu.edu/faq#faq-q16) Hoaxy can only retrieve and analyze public posts, leaving private conversations unexamined.
+6. **Cross-Platform Limitations:** Hoaxy requires additional tools to track misinformation that spills over to other platforms, as misinformation can rapidly spread from one platform to another. The dynamics of information spread vary significantly across different social media. [As shown in this BBC Investigation](https://www.bbc.com/news/articles/cl4y0453nv5o), the spread of misinformation in the Southport protests started on one platform and then migrated to a different platform, where it was even more amplified.&#x20;
+7. **Needs Some Familiarity with Network Analyses for Interpretation:** To fully understand and make sense of the data visualizations provided by Hoaxy, it's helpful to have some background knowledge in [network analysis](https://www.skopenow.com/news/uncovering-connections-how-link-analysis-can-streamline-osint-investigations).
+8. **Content Analysis Gaps:** Hoaxy does not distinguish between different types of misinformation. users may need additional tools or methods to conduct detailed content analysis and identify various forms of misinformation accurately. According to [UNESCO World Media Trends,](https://www.unesco.org/en/world-media-trends/hoaxy) “A claim may be a false news article, hoax, rumor, conspiracy theory, satire, or even an accurate report. (Hoaxy) is not meant to be used as a fact-checking tool but rather to understand how disinformation and misinformation is being spread by non-trustworthy accounts.”&#x20;
+
+Overall, while Hoaxy is created as a comprehensive tool, its reliance on specific data sources, limited platform scope, and occasional usability issues highlight the gap between its advertised capabilities and its practical utility. Hoaxy is best used in addition to other open-source investigative tools.
+
+## Ethical Considerations
+
+**Data Source Reliability and Methodology:** Ensure the data used for visualization is reliable. Hoaxy users should be transparent about their data sources, methodology, and limitations.&#x20;
+
+**Contextual Clarity:** Provide sufficient context for the visualization to prevent misinterpretation.\
+
+
+**User Anonymity:** While Hoaxy might not reveal individual user identities, the tool can still expose patterns of behavior that could potentially lead to identification.
 
 ## Tool provider
 
 [Hoaxy](https://hoaxy.osome.iu.edu/faq#faq-q10) is a joint project of the Indiana University Network Science Institute ([IUNI](https://iuni.iu.edu/)) and the Center for Complex Networks and Systems Research ([CNetS](http://cnets.indiana.edu/)).
+
+## Advertising Trackers
+
+* [ ] This tool has not been checked for advertising trackers yet.
+* [ ] This tool uses tracking cookies. Use with caution.
+* [x] This tool does not appear to use tracking cookies.
+
+##
 
 
 
