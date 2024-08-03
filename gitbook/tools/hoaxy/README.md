@@ -102,6 +102,10 @@ The middle panel shows different features that users can change depending on the
 
 
 
+<figure><img src=".gitbook/assets/Middle Panel (1).png" alt=""><figcaption><p>These shows all the middle menu for the visualization and the different ways users can display their results for analysis. </p></figcaption></figure>
+
+
+
 ## Cost
 
 * [x] Partially Free
