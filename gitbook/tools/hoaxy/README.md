@@ -87,7 +87,7 @@ GREY - Multiple
 Track the evolution of a topic over time, identifying peak interest and potential turning points. The tool provider describes this as plotting [“the cumulative number of posts over time. The user can zoom in on any time interval.” ](https://hoaxy.osome.iu.edu/faq#faq-q5)
 
 {% hint style="info" %}
-TIP: Dragging the green line will show the dates and the number of posts generated on that particular date. &#x20;
+TIP: Hovering your mouse  over the graph to either the left or right will show the dates and the number of posts generated on that particular date. &#x20;
 {% endhint %}
 
 <div align="center">
@@ -95,6 +95,12 @@ TIP: Dragging the green line will show the dates and the number of posts generat
 <figure><img src=".gitbook/assets/Temporal trends 1.png" alt="" width="188"><figcaption><p>(Click to enlarge) This image shows the timeline of how a piece of information spread over time. In this example, the tool automatically generates a time frame from 13 March 2024 to 17 April 2024 (shown in orange square). On the top of the image are options to "add old posts" or "add new posts" (shown in green circles).  </p></figcaption></figure>
 
 </div>
+
+**Middle Panel**
+
+The middle panel shows different features that users can change depending on their preferences. It consists of layout options, Export options, a 2D or 3D display, and a short clip showing how information spreads.
+
+
 
 ## Cost
 
