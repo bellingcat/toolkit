@@ -15,7 +15,13 @@ description: >-
 
 <figure><img src=".gitbook/assets/oPTIMISEDShadowMap Gif.gif" alt=""><figcaption><p>SHADOWMAP TILTING VIEW DEMONSTRATING AZIMUTH &#x26; ELEVATION ANGLES IN 3D</p></figcaption></figure>
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+ShadowMap calculates shadow locations in real time and displays them on a 3D tilting map, showing arcs of azimuth and elevation angles along the sun's path.&#x20;
+
+A range of more  advanced functions are spread across 3 further paid versions with increasing numbers of features.
+
+The free version allows the user to change the time of day, but is fixed to use the date at which it is being used.
+
+The paid "Explorer" version
 
 {% tabs %}
 {% tab title="Input Data" %}
