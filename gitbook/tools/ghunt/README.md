@@ -68,7 +68,7 @@ Website: [https://hideandsec.sh/books/about-us](https://hideandsec.sh/books/abou
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| hande           |
+|                 |
