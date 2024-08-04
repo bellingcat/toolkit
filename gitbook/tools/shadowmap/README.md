@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-<figure><img src=".gitbook/assets/oPTIMISEDShadowMap Gif.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/oPTIMISEDShadowMap Gif.gif" alt=""><figcaption><p>SHADOWMAP TILTING VIEW DEMONSTRATING AZIMUTH &#x26; ELEVATION ANGLES IN 3D</p></figcaption></figure>
 
 \[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
 
