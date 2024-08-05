@@ -1,7 +1,7 @@
 ---
 description: >-
-  A powerful knowledge management and note-taking app with extensive
-  customization options.
+  A knowledge management and note-taking app with extensive customization
+  options.
 ---
 
 # Obsidian
