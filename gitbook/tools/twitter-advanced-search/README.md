@@ -37,7 +37,7 @@ This will show posts that mention “Amsterdam” and “canals”
 
 Example: best of both worlds
 
-This will generate results with this exact phrase.
+It will generate results with this exact phrase.
 
 {% hint style="info" %}
 It is okay not to use quotation marks for this search parameter. If you do, they will generate the same results as without quotation marks.
