@@ -83,7 +83,7 @@ Users can use this feature during the preplanning stage to find other channels t
 
 NOTE: That this feature is only available for Telegram channels and not for groups.&#x20;
 
-Another way to see the relationship between channels is through the "similar channels" and “related channels” section of the profile in question.
+Another way to see the relationship between channels is through the "Similar channels" and “Related channels” section of the profile in question.
 
 \
 In addition, users can see the popularity of a channel or group overtime.
