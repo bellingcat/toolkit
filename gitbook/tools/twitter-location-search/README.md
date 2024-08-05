@@ -96,6 +96,10 @@ According to [this case study, ](https://www.bellingcat.com/resources/2021/05/19
 
 To mitigate these limitations, users should avoid location-only searches and take advantage of other search filters provided by the platform. &#x20;
 
+5. **Inability to Distinguish Between User-Reported Location and Profile Location**
+
+The "near:" search operator sometimes produces irrelevant results due to the platform's limitations in accurately determining post locations. The tool struggles to differentiate between a user's profile location and the actual location where a post was created. This leads to results that include posts from people who simply live in the area, not necessarily those related to the specific event or topic being searched.
+
 ## Ethical Considerations
 
 * Individual Privacy: Be mindful of individual privacy. While public tweets are accessible, avoid exposing personal information of individuals without their consent, in particular if they are not involved in any incidents of public interest.
