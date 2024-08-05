@@ -14,15 +14,15 @@ https://search4faces.com
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
 \[\[Pricing or subscription information, if relevant.]]
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
@@ -34,7 +34,8 @@ https://search4faces.com
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+* Persons with similar faces can be misidentified without accounting for other contextual information&#x20;
+* Results can leak personally identifiable information such as general location, home address or the same of associated persons&#x20;
 
 ## Guide
 
@@ -46,12 +47,11 @@ https://search4faces.com
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer                                                |
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
