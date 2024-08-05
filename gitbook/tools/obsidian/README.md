@@ -25,26 +25,26 @@ The tool also supports advanced Markdown editing, customizable themes, and commu
 ### Functionality
 
 * **Speed and Performance**: Obsidian's use of markdown provides fast performance, especially when typing, searching, and navigating through links, which is crucial for efficiently handling large volumes of information.
-* **Link-Creation Option**: The app facilitates the creation of new documents and links between them through intuitive commands (like double brackets), making it particularly suited to organizing and connecting thoughts and knowledge.
-* **Customization and Control**: Users can extensively customize the interface and control settings, such as font size, across different devices, enhancing readability and user experience.
-* **Back-Linking Visibility**: Obsidian automatically displays back-linked files in documents, offering a seamless way to navigate and understand the relationships between notes without additional clicks.
-* **Command Palette Accessibility**: The application provides multiple ways to access commands quickly, which simplifies the workflow and increases productivity.
+* **Link Creation**: The app facilitates the creation of new documents and links between them through intuitive commands (like double brackets), making it particularly suited to organizing and connecting thoughts and knowledge.
+* **Customization and Control**: Users can customize the interface and control settings, such as font size, across different devices, enhancing readability and user experience.
+* **Back-Linking Visibility**: Obsidian automatically displays back-linked files in documents, offering a way to navigate and understand the relationships between notes without additional clicks.
+* **Command Palette Accessibility**: The application provides multiple ways to access commands quickly, which can simplify the workflow and increase productivity.
 * **Graph View**: Though its practical utility may vary, the graph view in Obsidian has potential, especially for visualizing and discovering new connections between thoughts.
 * **Advanced Plugin Capabilities**: With plugins like DataView, users who enjoy deep customization can manipulate data and view connections uniquely, although this requires familiarity with YAML and programming-like languages.
 
 ### Use-Cases
 
 1. **Research Organization**: It enables the consolidation of research notes, sources, and data all in one place, making it easier to manage and navigate through extensive information.
-2. **Story Development**: Journalists can construct and organize their story or article outlines, connecting different pieces of research and notes to flesh out their texts.
+2. **Story Development**: Journalists can organize their story or article outlines, connecting different pieces of research and notes to flesh out their texts.
 3. **Interview Management**: Keeping track of interview notes is simplified, as each interview can be linked to topics, stories, or other interviews, creating a web of information that is easy to reference.
 4. **Archiving**: The platform enables journalists to archive their stories, notes, and sources in a searchable, interconnected format, facilitating easy retrieval and future reuse of information.
 5. **Collaboration**: Though primarily designed for personal use, Obsidian's ability to work with local Markdown files means journalists can use third-party tools to sync and collaborate on files with colleagues. Markdown files are inherently safe.&#x20;
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
-* [x] Paid
+* [ ] Free
+* [x] Partially Free
+* [ ] Paid
 
 <!---->
 
@@ -55,7 +55,7 @@ The tool also supports advanced Markdown editing, customizable themes, and commu
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
