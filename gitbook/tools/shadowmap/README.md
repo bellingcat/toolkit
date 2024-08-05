@@ -24,11 +24,11 @@ The free version allows the user to change the time of day, but is fixed to use 
 The paid "Explorer" version
 
 {% tabs %}
-{% tab title="Input Data" %}
+{% tab title="INPUT DATA" %}
 
 {% endtab %}
 
-{% tab title="Output Data" %}
+{% tab title="OUTPUT DATA" %}
 
 {% endtab %}
 
@@ -36,12 +36,26 @@ The paid "Explorer" version
 
 {% endtab %}
 
-{% tab title="Data Input Options" %}
+{% tab title="DATA INPUT OPTIONS" %}
 
 {% endtab %}
 {% endtabs %}
 
 ### The Interface
+
+as
+
+### The Data
+
+Custom models (within a quote dependent upon subscription plan) up to 200MB can be uploaded in formats:
+
+GLB, FBX, DAE, OBJ, and IFC
+
+Users have the option to select any building on the map and adjust its height or hide it from view.
+
+
+
+<table><thead><tr><th width="135">SHADOWMAP VERSION</th><th width="120">VIEW</th><th width="115">TIMESPAN</th><th width="113">BUILDINGS</th><th>MAPS</th><th>CUSTOM</th></tr></thead><tbody><tr><td>FREE VERSION</td><td>3D Tilting Shadow patterns displayed at any location</td><td>User defined time, fixed at today's date</td><td></td><td></td><td></td></tr><tr><td>EXPLORER</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>HOME Intended to support </td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>STUDIO Intended for real estate, urban planning &#x26; architcture</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 
 
