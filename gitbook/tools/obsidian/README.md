@@ -24,8 +24,8 @@ The tool also supports advanced Markdown editing, customizable themes, and commu
 
 ### Functionality
 
-* **Speed and Performance**: Obsidian's judicious use of markdown provides fast performance, especially when typing, searching, and navigating through links, which is crucial for efficiently handling large volumes of information.
-* **Ease of Creating Links**: The app facilitates the creation of new documents and links between them through intuitive commands (like double brackets), making it particularly suited to organizing and connecting thoughts and knowledge.
+* **Speed and Performance**: Obsidian's use of markdown provides fast performance, especially when typing, searching, and navigating through links, which is crucial for efficiently handling large volumes of information.
+* **Link-Creation Option**: The app facilitates the creation of new documents and links between them through intuitive commands (like double brackets), making it particularly suited to organizing and connecting thoughts and knowledge.
 * **Customization and Control**: Users can extensively customize the interface and control settings, such as font size, across different devices, enhancing readability and user experience.
 * **Back-Linking Visibility**: Obsidian automatically displays back-linked files in documents, offering a seamless way to navigate and understand the relationships between notes without additional clicks.
 * **Command Palette Accessibility**: The application provides multiple ways to access commands quickly, which simplifies the workflow and increases productivity.
