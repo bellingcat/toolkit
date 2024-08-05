@@ -20,7 +20,7 @@
 * [ ] [Reverse Image Search](https://bellingcat.gitbook.io/toolkit/categories/image-video/reverse-image-search)
 * [ ] [Facial Recognition](https://bellingcat.gitbook.io/toolkit/categories/image-video/facial-recognition)
 * [ ] [Metadata](https://bellingcat.gitbook.io/toolkit/categories/image-video/metadata)
-* [x] [Misc](https://bellingcat.gitbook.io/toolkit/categories/image-video/image-misc)
+* [ ] [Misc](https://bellingcat.gitbook.io/toolkit/categories/image-video/image-misc)
 
 ## Maps & Satellites
 
