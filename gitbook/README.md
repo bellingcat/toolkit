@@ -18,15 +18,15 @@ If you have any feedback, please get in touch with Johanna Wild via [toolkit@bel
 
 <details>
 
-<summary>Bellingcat's Toolkit Moderators</summary>
+<summary>Our Toolkit Moderators</summary>
 
 Our volunteer toolkit moderators have a very special role: They support Bellingcat staff to maintain and further develop our toolkit. They include:
 
-* A
+*
 
 
 
-* A
+*
 
 
 
@@ -50,9 +50,11 @@ Bellingcat opens this form several times per year. If you want to be notified vi
 
 <details>
 
-<summary>Follow <a href="https://www.bellingcat.com">Bellingcat</a>'s work</summary>
+<summary>About Bellingcat</summary>
 
+Bellingcat is an independent investigative collective of researchers, investigators and citizen journalists brought together by a passion for open source research.
 
+Follow [Bellingcat](https://www.bellingcat.com)'s work:
 
 * [Bellingcat website](https://www.bellingcat.com/)
 
