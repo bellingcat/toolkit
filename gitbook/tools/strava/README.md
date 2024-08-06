@@ -58,8 +58,7 @@ Using Strava for OSINT research has several limitations:
 2. **Accuracy of Data**: While Strava provides detailed activity data, the [accuracy](https://support.strava.com/hc/en-us/articles/216917917-Why-is-GPS-data-sometimes-inaccurate) of this data can vary depending on factors such as GPS signal strength and signal obstruction. The [timestamps](https://support.strava.com/hc/en-us/articles/216515918-My-Activity-Has-the-Wrong-Date-or-Start-Time) on activities may also not always be reliable based on a users' GPS settings or timezone.
 3. **Incomplete Data**: Not all users record all of their activities on Strava. Some may only use it sporadically or for specific types of activities, which can lead to incomplete or skewed data.
 4. **False or Misleading Information**: Users can manipulate their profiles or activity data, either intentionally or unintentionally, leading to false or misleading information for OSINT purposes.
-5. **Limited Historical Data**: Free access to historical data on Strava is limited, and more detailed historical data requires a premium subscription. This can restrict the depth of analysis for long-term trends or patterns.
-6. **Different Data on Desktop vs Smartphone:** Researchers may find more detailed heat map data using desktop rather than for a smartphone. The weekly heat map is only available on desktop.
+5. **Different Data on Desktop vs Smartphone:** Researchers may find more detailed heat map data using desktop rather than for a smartphone. The weekly heat map is only available on desktop.
 
 ## Ethical Considerations
 
