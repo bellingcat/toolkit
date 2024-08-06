@@ -18,7 +18,7 @@ const allTools = getTools().filter((tool) => !tool.draft );
   writeIfChanged(renderCategory(mostUsed, mostUsedTools), mostUsedFilePath);
 })();
 
-getCategories().forEach((category) => {
+getCategories().filter((cat) => !cat.hasSubcategories).forEach((category) => {
   const categoryTools = allTools.filter((tool) => {
     return tool.tags && tool.tags.includes(category.tag);
   }).map((tool) => {
@@ -71,6 +71,7 @@ function renderRelativeLink(category, tool) {
 }
 
 function renderTable(tools, category) {
+  if (!tools || tools.length == 0) { return ''; }
   return (
     "| Name | Description | Cost | Details |\n| --- | --- | --- | --- |\n" + tools.map((row) => {
       return `| [**${row.title}**](${row.url}) | ${row.description} | ${renderCost(row.cost)} | ${renderRelativeLink(category, row)} |`
