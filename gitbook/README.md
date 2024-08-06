@@ -20,7 +20,7 @@ If you have any feedback, please get in touch with Johanna Wild via [toolkit@bel
 
 <summary>Bellingcat's Toolkit Moderators</summary>
 
-Our volunteer toolkit moderators support Bellingcat staff to maintain and further develop our toolkit. They include:
+Our volunteer toolkit moderators have a very special role: They support Bellingcat staff to maintain and further develop our toolkit. They include:
 
 * A
 
@@ -30,7 +30,7 @@ Our volunteer toolkit moderators support Bellingcat staff to maintain and furthe
 
 
 
-
+Many other community members contribute to writing toolkit descriptions. If they choose to be publicly mentioned, you can find their names on individual tool pages under "page maintainer".
 
 
 
