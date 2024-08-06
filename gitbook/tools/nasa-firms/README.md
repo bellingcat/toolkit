@@ -4,20 +4,20 @@ description: >-
   some, but not all of which may represent heat from fires and explosions.
 ---
 
-# NASA FIRMS
+# NASA Firms
 
 ## URL
 
 [https://firms2.modaps.eosdis.nasa.gov/map/](https://firms2.modaps.eosdis.nasa.gov/map/)
 
-<figure><img src=".gitbook/assets/FireMapsat.gif" alt=""><figcaption><p><strong>VIEWING  DIFFERENT SATELLITES' DATA AND ADJUSTING THE TIME PERIOD DISPLAYED USING THE FIRMS INTERFACE</strong><br><em>We acknowledge the use of data and/or imagery from NASA's Fire Information for Resource Management System (FIRMS) (https://earthdata.nasa.gov/firms), part of NASA's Earth Science Data and Information System (ESDIS).</em></p></figcaption></figure>
+<figure><img src=".gitbook/assets/FireMapsat.gif" alt=""><figcaption><p><strong>VIEWING DIFFERENT SATELLITES' DATA AND ADJUSTING THE TIME PERIOD DISPLAYED USING THE FIRMS INTERFACE</strong><br><em>We acknowledge the use of data and/or imagery from NASA's Fire Information for Resource Management System (FIRMS) (https://earthdata.nasa.gov/firms), part of NASA's Earth Science Data and Information System (ESDIS).</em></p></figcaption></figure>
 
 ### Description
 
 {% hint style="info" %}
-It is important to know the geographical context for the area you are researching in order to be able to interpret infra-red satellite data appropriately. \
+It is important to know the geographical context for the area you are researching in order to be able to interpret infra-red satellite data appropriately.\
 NASA FIRMS includes an inferred "Type" category for hotspot pixels from its VIIRS satellites: - **Presumed vegetation fire** = 0\
-\- **Active volcano** = 1 \
+\- **Active volcano** = 1\
 \- **Other static land source** = 2\
 \- **Offshore detection** = 3
 {% endhint %}
@@ -31,7 +31,7 @@ For example, the NASA FIRMS infra-red satellite sensor data has been used for ge
 {% tabs %}
 {% tab title="User Input Data" %}
 * Location (latitude, longitude) MULTIPLE LOCATION SELECTION IS POSSIBLE
-* Date&#x20;
+* Date
 * Time
 * Time Period
 * Filter Selections: Satellite Name
@@ -53,11 +53,11 @@ For example, the NASA FIRMS infra-red satellite sensor data has been used for ge
 {% endtab %}
 
 {% tab title="Data Input Options" %}
-<figure><img src=".gitbook/assets/menu table.jpg" alt=""><figcaption><p><strong>DIFFERENT WAYS FOR THE USER TO ENTER NECESSARY INFORMATION</strong> <br><em><strong>(I</strong>magery from NASA FIRMS)</em> </p></figcaption></figure>
+<figure><img src=".gitbook/assets/menu table.jpg" alt=""><figcaption><p><strong>DIFFERENT WAYS FOR THE USER TO ENTER NECESSARY INFORMATION</strong><br><em><strong>(I</strong>magery from NASA FIRMS)</em></p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
-### **Example Imagery Relating to A Selection of Significant Natural and Man-made Instances where Infra-Red Radiation Was Detected**&#x20;
+### **Example Imagery Relating to A Selection of Significant Natural and Man-made Instances where Infra-Red Radiation Was Detected**
 
 <table data-view="cards" data-full-width="true"><thead><tr><th></th><th></th><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>VOLCANIC ERUPTION AREA, ICELAND Q2 2010</strong><br>Intensity: Max>1000MW</td><td>Boundary: Varying Often</td><td>Duration: Months</td><td>Type: 1 (active volcano)</td><td></td><td><a href=".gitbook/assets/VOLANOsmallannotated.jpg">VOLANOsmallannotated.jpg</a></td></tr><tr><td><strong>GRENFELL FIRE AREA, LONDON 14/06/2017</strong></td><td>Intensity: Max &#x3C;10MW<br>Boundary: Relatively static<br>Duration: 2-3 days</td><td>Type: 0 (Presumed vegetation fire)</td><td></td><td></td><td><a href=".gitbook/assets/GRENFELL.JPG">GRENFELL.JPG</a></td></tr><tr><td><strong>PORT TALBOT STEELYARD, WALES 2010</strong></td><td>Intensity: Max=11MW</td><td>Boundary: Relatively static<br>Duration: Years</td><td>Types: 2 (static land source) &#x26; 3 (offshore)</td><td></td><td><a href=".gitbook/assets/port talbotsteelworks.JPG">port talbotsteelworks.JPG</a></td></tr></tbody></table>
 
@@ -85,7 +85,7 @@ The size of the fire on the ground may be smaller than the size of the entire pi
 {% endhint %}
 
 {% hint style="info" %}
-The orbits of different satellites can be followed using the [OrbTrack](https://app.gitbook.com/s/7eAPkvBn3RpUIi2qPZKI/) app
+The orbits of different satellites can be followed using the [OrbTrack](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/7eAPkvBn3RpUIi2qPZKI/) app
 {% endhint %}
 
 #### Time As A Variable
@@ -104,22 +104,21 @@ The ability for the user to select a time period, using a horizontal slider acro
 
 #### Different Properties of Fire
 
-Metrics such as confidence value and FRP value are assigned to map squares.&#x20;
+Metrics such as confidence value and FRP value are assigned to map squares.
 
-* **Confidence value** is a measure of the likelihood of fire, either on a high-nominal-low scale or a 0 to 100 % scale.&#x20;
-* **FRP** (Fire Radiative Power) is a measure of the power of the radiation in MegaWatts. The largest fires seen in recent OSINV research have reached around 500MW. FRP depicts the pixel-integrated fire radiative power in megawatts (MW) for both VIIRS and MODIS satellites. \
+* **Confidence value** is a measure of the likelihood of fire, either on a high-nominal-low scale or a 0 to 100 % scale.
+* **FRP** (Fire Radiative Power) is a measure of the power of the radiation in MegaWatts. The largest fires seen in recent OSINV research have reached around 500MW. FRP depicts the pixel-integrated fire radiative power in megawatts (MW) for both VIIRS and MODIS satellites.\
   [https://www.earthdata.nasa.gov/faq/firms-faq#ed-fire-on-ground](https://www.earthdata.nasa.gov/faq/firms-faq#ed-fire-on-ground)
 
 #### Viewing Hotspots Over Time
 
-<figure><img src=".gitbook/assets/FireMap3.gif" alt=""><figcaption><p><strong>USING NASA FIRMS TO VIEW FIRE DATA OVER A SPECIFIED TIME PERIOD IN A UKRAINIAN WAR ZONE</strong> <br><em><strong>(I</strong>magery from NASA FIRMS )</em></p></figcaption></figure>
+<figure><img src=".gitbook/assets/FireMap3.gif" alt=""><figcaption><p><strong>USING NASA FIRMS TO VIEW FIRE DATA OVER A SPECIFIED TIME PERIOD IN A UKRAINIAN WAR ZONE</strong><br><em><strong>(I</strong>magery from NASA FIRMS )</em></p></figcaption></figure>
 
 #### Viewing Hotspots Close Up At Pixel Level
 
 <figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption><p><strong>LEFT MOUSE CLICK (FIRMLY) ON PIXELS AT HIGH ZOOM GIVES A CIRCLE OF ANALYSIS AND PIXEL DATA ACQUISITION DETAILS</strong><br><em><strong>(I</strong>magery from NASA FIRMS )</em></p></figcaption></figure>
 
-Pixel data details displayed  for the selected area include location, brightness, scan, track, acquire time, satellite name, confidence, FRP and day/night\
-
+Pixel data details displayed for the selected area include location, brightness, scan, track, acquire time, satellite name, confidence, FRP and day/night\\
 
 <figure><img src=".gitbook/assets/ConfidenceLevelScale.JPG" alt=""><figcaption><p><strong>AVAILABLE DATA FOR EACH FIRE PIXEL FOR MODIS SATELLITES, THE VIIRS SATELLITES ALSO HAVE A FIRE CATEGORY FIELD</strong></p></figcaption></figure>
 
@@ -160,7 +159,7 @@ The Date Slider appears across the bottom of the screen when the corresponding b
 {% tab title="CENTRE TOOLBAR" %}
 NASA FIRMS floating toolbar (found Bottom Centre of the Screen) calls floating windows for Measurement, Location, Layers, Timeframe Ruler, Downloads, Link Sharing, Help, Screen Display Mode and Exit.
 
-<figure><img src=".gitbook/assets/image-1.png" alt=""><figcaption><p><strong>EACH BUTTON CALLS ANOTHER  FLOATING TOOLBAR OR RULER</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/image-1.png" alt=""><figcaption><p><strong>EACH BUTTON CALLS ANOTHER FLOATING TOOLBAR OR RULER</strong></p></figcaption></figure>
 
 **The Location Tool** accepts input as names, co-ordinates or auto-detected current user location.
 
@@ -190,7 +189,7 @@ NASA FIRMS permits multiple location selection for searches
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
-NASA FIRMS data is well-presented and the interface is not difficult to use at basic level. The number of different features which are available, but hidden amongst multiple menus, can be daunting. The difficulty rating reflects this and the challenges in interpreting FIRMS data in a realistic manner.&#x20;
+NASA FIRMS data is well-presented and the interface is not difficult to use at basic level. The number of different features which are available, but hidden amongst multiple menus, can be daunting. The difficulty rating reflects this and the challenges in interpreting FIRMS data in a realistic manner.
 
 ## Requirements
 
@@ -200,26 +199,26 @@ NASA FIRMS can be used without an account or provision of any data up front. How
 
 <summary>Determining the Most Appropriate Source of Fire Data for A Research Application - (click here to clarify the best sources...)</summary>
 
-FIRMS sources of both NRT (near real time) and standard fire data are:&#x20;
+FIRMS sources of both NRT (near real time) and standard fire data are:
 
 * Moderate Resolution Imaging Spectroradiometer ([MODIS](https://www.earthdata.nasa.gov/sensors/modis)) from the Terra and Aqua platforms
 * Visible Infrared Imaging Radiometer Suite ([VIIRS](https://www.earthdata.nasa.gov/sensors/viirs)) (375m) from the Suomi National Polar-orbiting Partnership (Suomi NPP), NOAA-20, and NOAA-21 platforms
 
-It is important to cite exact data sources in scientific publications and to be sure the data source used is the most appropriate for the application by referencing [difference between NRT and standard fire data](https://www.earthdata.nasa.gov/faq/firms-faq#ed-nrt-standard) and  [MODIS Fire User Guides](https://www.earthdata.nasa.gov/earth-observation-data/near-real-time/firms/about-firms#publications)&#x20;
+It is important to cite exact data sources in scientific publications and to be sure the data source used is the most appropriate for the application by referencing [difference between NRT and standard fire data](https://www.earthdata.nasa.gov/faq/firms-faq#ed-nrt-standard) and [MODIS Fire User Guides](https://www.earthdata.nasa.gov/earth-observation-data/near-real-time/firms/about-firms#publications)
 
 </details>
 
 ## Limitations
 
-**Accuracy:** Care must be taken in the interpretation of NASA FIRMS data.  The satellites involved do not take direct photographs, but rather measure radiation, and the radiation data is used to generate imagery.&#x20;
+**Accuracy:** Care must be taken in the interpretation of NASA FIRMS data. The satellites involved do not take direct photographs, but rather measure radiation, and the radiation data is used to generate imagery.
 
 <details>
 
 <summary>Sources of Misinterpretation include Reflections, Industrial Sources, Cloud and Tree Cover and Volcanic Activity. (Click arrow for more detail...)</summary>
 
-* Hotspots visible on the map may not be fires, they can also be high IR readings from metal structures reflecting heat or a very hot desert terrain or industrial sources such as cement industry kilns.&#x20;
+* Hotspots visible on the map may not be fires, they can also be high IR readings from metal structures reflecting heat or a very hot desert terrain or industrial sources such as cement industry kilns.
 * Smoke plumes carrying hot material into the air can register as fire edges on VIIRS, which is particularly responsive to heat sources at night time.
-* Cloud cover and tree canopies can hide fires, and if the satellite passes over a fire when it is at its weakest, it may not be visible as some fires are too weak to register (called a “cold” fire).&#x20;
+* Cloud cover and tree canopies can hide fires, and if the satellite passes over a fire when it is at its weakest, it may not be visible as some fires are too weak to register (called a “cold” fire).
 * Volcanic eruptions and flares from gas wells show up on FIRMS as indistinguishable from vegetation fires.
 
 </details>
@@ -232,19 +231,19 @@ FIRMS is usually most valuable when used in conjunction with other tools, often 
 
 <details>
 
-<summary>Dates For which Data Are Available: MODIS from Nov 2000, VIIRS from Jan 2012. (Click the arrow  for more detail on 5 specific services and dates...)</summary>
+<summary>Dates For which Data Are Available: MODIS from Nov 2000, VIIRS from Jan 2012. (Click the arrow for more detail on 5 specific services and dates...)</summary>
 
-![](.gitbook/assets/image.png)
+<img src=".gitbook/assets/image.png" alt="" data-size="original">
 
 </details>
 
 <details>
 
-<summary>Estimating a Burned area: It is not recommended to use active fire locations to estimate burned area...(Click the arrow for more detail) </summary>
+<summary>Estimating a Burned area: It is not recommended to use active fire locations to estimate burned area...(Click the arrow for more detail)</summary>
 
 ...as determining burned areas to an acceptable degree of accuracy is not possible due to nontrivial spatial and temporal sampling issues. For some applications, however, acceptable accuracy can be achieved, although the effective area burned per fire pixel is not simply a constant, but rather varies with respect to several different vegetation and fire-related variables. See [Giglio et al. (2006)](https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms/about-firms#ed-firms-publications) for more information. See "[Where can I get the MODIS burned area product?](https://www.earthdata.nasa.gov/faq/firms-faq#ed-modis-burnedarea)"\
 \
-Most recently, Harmonized Landsat Sentinel (HLS) false color composite imagery was included in FIRMS and these data can be helpful in estimating burned area (see [FIRMS Blog post on adding HLS](https://wiki.earthdata.nasa.gov/pages/viewpage.action?pageId=246842893)).&#x20;
+Most recently, Harmonized Landsat Sentinel (HLS) false color composite imagery was included in FIRMS and these data can be helpful in estimating burned area (see [FIRMS Blog post on adding HLS](https://wiki.earthdata.nasa.gov/pages/viewpage.action?pageId=246842893)).
 
 </details>
 
@@ -254,7 +253,7 @@ NB Algorithms have been adapted to avoid the effects of sun glint causing false 
 
 <summary>False Positive Fire Detection can occur when super-heated smoke plumes cause artefacts in night time detections OR when monthly mission calibration manoeuvres are carried out...(Click the arrow for more detail)</summary>
 
-...Regular approximately monthly on-orbit mission calibration manoeuvres are conducted for both satellites to maintain performance. These involve briefly rolling the satellite over in orbit to view the moon, using it to calibrate the reflective solar bands of the sensor. Anomalous observation data is often collected as the satellite rolls back to point the sensor at the earth, see example:&#x20;
+...Regular approximately monthly on-orbit mission calibration manoeuvres are conducted for both satellites to maintain performance. These involve briefly rolling the satellite over in orbit to view the moon, using it to calibrate the reflective solar bands of the sensor. Anomalous observation data is often collected as the satellite rolls back to point the sensor at the earth, see example:
 
 <img src=".gitbook/assets/image (21).png" alt="ANOMALOUS OBSERVATION DATA CAUSED BY MONTHLY CALIBRATION MANOUEVRES (COURESTY NASA FIRMS)" data-size="original">\
 _**(I**magery from NASA FIRMS )_

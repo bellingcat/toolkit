@@ -1,7 +1,6 @@
 # Table of contents
 
 * [About](README.md)
-* [Contribute](contribute.md)
 * [Most Used](most-used.md)
 
 ## ⚒️ Categories

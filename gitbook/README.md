@@ -16,7 +16,21 @@ If you have any feedback, please get in touch with Johanna Wild via [toolkit@bel
 
 
 
+<details>
 
+<summary>Bellingcat's Toolkit Moderators</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>Contribute to this toolkit</summary>
+
+
+
+</details>
 
 <details>
 
@@ -72,7 +86,7 @@ If you have any feedback, please get in touch with Johanna Wild via [toolkit@bel
 
 <!---->
 
-* [X](categories/social-media/youtube.md)
+* [X](categories/social-media/youtube/youtube.md)
 
 <!---->
 

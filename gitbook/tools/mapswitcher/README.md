@@ -10,7 +10,7 @@ description: >-
 
 Read details here: [https://github.com/david-r-edgar/MapSwitcher](https://github.com/david-r-edgar/MapSwitcher)
 
-&#x20;or download the extension from the [Chrome Store here](https://chrome.google.com/webstore/detail/map-switcher/fanpjcbgdinjeknjikpfnldfpnnpkelb)
+or download the extension from the [Chrome Store here](https://chrome.google.com/webstore/detail/map-switcher/fanpjcbgdinjeknjikpfnldfpnnpkelb)
 
 ## Description
 
@@ -20,7 +20,7 @@ This article describes the MapSwitcher extension for the Google Chrome browser a
 
 <figure><img src=".gitbook/assets/mapSwitcherScreenshot16thFeb.png" alt=""><figcaption><p><strong>THE MAPSWITCHER EXTENSION MENU OVER A GOOGLE CHROME BROWSER PAGE</strong></p></figcaption></figure>
 
-MapSwitcher is an extension for the Google Chrome browser, which can be downloaded from the [Google Chrome Store](https://app.gitbook.com/s/wj16aeUeCQ32BThaGKHz/). It aids Open Source research by assisting users to switch their focus of study from one geographical data app to another, whilst migrating the same location co-ordinates between apps. General aspect is also preserved as far as possible, i.e. zoom, direction, etc.
+MapSwitcher is an extension for the Google Chrome browser, which can be downloaded from the [Google Chrome Store](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/wj16aeUeCQ32BThaGKHz/). It aids Open Source research by assisting users to switch their focus of study from one geographical data app to another, whilst migrating the same location co-ordinates between apps. General aspect is also preserved as far as possible, i.e. zoom, direction, etc.
 
 This benefits of MapSwitcher for Open Source research are mainly:
 
@@ -29,15 +29,13 @@ This benefits of MapSwitcher for Open Source research are mainly:
 * **Quality:** Where MapSwitcher makes it easy for researchers to switch quickly and accurately between apps, they are more likely to check their work using more than one system, which generally leads to more accurate results.
 
 {% hint style="info" %}
-The list of different geographical data platforms which can be used with MapSwitcher is growing all the time. You can check the current status of any app you're interested in,  either from the extension itself if you have it installed, or here on the [Github page for MapSwitcher](https://github.com/david-r-edgar/MapSwitcher). The list as of May 2024 is show below as an example, but this will not remain definitive:
+The list of different geographical data platforms which can be used with MapSwitcher is growing all the time. You can check the current status of any app you're interested in, either from the extension itself if you have it installed, or here on the [Github page for MapSwitcher](https://github.com/david-r-edgar/MapSwitcher). The list as of May 2024 is show below as an example, but this will not remain definitive:
 {% endhint %}
 
 <figure><img src=".gitbook/assets/ListofCompatible.jpg" alt=""><figcaption><p><strong>MAPSWITCHER OUTPUT SERVICE OPTIONS AS AT MAY 2024 - CHECK THE LINK ABOVE FOR CURRENT STATUS</strong></p></figcaption></figure>
 
-
-
 {% hint style="info" %}
-Currently MapSwitcher is only available for Chrome Browser, but its author, [David R Edgar](https://david-r-edgar.uk/projects.php),  planned future versions for Firefox and Microsoft Edge.
+Currently MapSwitcher is only available for Chrome Browser, but its author, [David R Edgar](https://david-r-edgar.uk/projects.php), planned future versions for Firefox and Microsoft Edge.
 {% endhint %}
 
 ## Cost
@@ -50,7 +48,7 @@ Currently MapSwitcher is only available for Chrome Browser, but its author, [Dav
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
-The most difficult part of using MapSwitcher is its installation as a Chrome Browser Extension, if you have not done this kind of installation before.&#x20;
+The most difficult part of using MapSwitcher is its installation as a Chrome Browser Extension, if you have not done this kind of installation before.
 
 ## Requirements
 
@@ -58,7 +56,7 @@ The Google Chrome browser must already be installed to allow the user to add Map
 
 ## Limitations
 
-MapSwitcher is limited to the Chrome Browser, and to the list of apps provided for each, which is a good spread of commonly-used Open Source research mapping tools, but by no means exhaustive.&#x20;
+MapSwitcher is limited to the Chrome Browser, and to the list of apps provided for each, which is a good spread of commonly-used Open Source research mapping tools, but by no means exhaustive.
 
 If you try to use MapSwitcher on an app for which is not on its input/output list you will see the following message:
 
@@ -69,7 +67,7 @@ If you try to use MapSwitcher on an app for which is not on its input/output lis
 * Where directions are specified by address (not coordinates), different services can geocode these in radically different ways. So the routes may not start or finish where they did on the input mapping service.
 * Zoom / scale may not always be exact, depending on the limitations of the input & output map services
 * Directions handle multi-segment routes (with intermediate specified locations) where possible. Only some services (Google, Microsoft) support this. In these cases, output services which only support single segments will show maps from the first location to the last location.
-* The Waze app may fail to handle zoom.&#x20;
+* The Waze app may fail to handle zoom.
 
 ## Ethical Considerations
 
@@ -81,7 +79,7 @@ GitHub user and developer details: [https://github.com/david-r-edgar/MapSwitcher
 
 ## Tool provider
 
-&#x20;[David R Edgar](https://david-r-edgar.uk/projects.php) 's source code for Map\_Switcher can be found on GitHub - see above.
+[David R Edgar](https://david-r-edgar.uk/projects.php) 's source code for Map\_Switcher can be found on GitHub - see above.
 
 ## Advertising Trackers
 
