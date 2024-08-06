@@ -20,6 +20,18 @@ If you have any feedback, please get in touch with Johanna Wild via [toolkit@bel
 
 <summary>Bellingcat's Toolkit Moderators</summary>
 
+Our volunteer toolkit moderators support Bellingcat staff to maintain and further develop our toolkit. They include:
+
+* A
+
+
+
+* A
+
+
+
+
+
 
 
 </details>
