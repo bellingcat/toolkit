@@ -10,8 +10,6 @@ This is your place to discover tools! Our toolkit includes satellite and mapping
 
 Bellingcat’s Online Investigation Toolkit has a long tradition but our newest version is special: It is offered in collaboration with the Bellingcat volunteer community. Our volunteers know the ins and outs of “their tools” and are able to provide information on their advantages and limitations.
 
-This collaborative toolkit has been designed by Bellingcat staff member Johanna Wild during her 2024 Nieman-Berkman Klein fellowship in Journalism Innovation at Harvard university.&#x20;
-
 
 
 <details>
@@ -48,7 +46,9 @@ Bellingcat opens this form several times per year. If you want to be notified vi
 
 <details>
 
-<summary>Contact</summary>
+<summary>Bellingcat Team and Contact</summary>
+
+This collaborative toolkit has been designed by Bellingcat staff member Johanna Wild during her 2024 Nieman-Berkman Klein fellowship in Journalism Innovation at Harvard university.&#x20;
 
 If you have any feedback or questions, please get in touch with Johanna Wild via [toolkit@bellingcat.com](mailto:toolkit@bellingcat.com). Please do not suggest tools that you would like to see added to the toolkit via this e-mail address.&#x20;
 
