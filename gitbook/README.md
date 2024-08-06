@@ -28,6 +28,10 @@ If you have any feedback, please get in touch with Johanna Wild via [toolkit@bel
 
 <summary>Contribute to this toolkit</summary>
 
+You can contribute to Bellingcat's toolkit by submitting toolkit descriptions via this form. Not all submissions will be accepted, please review our guidelines and tips on how to write and submit a good toolkit description. Only descriptions that fulfil all requirements will be considered.
+
+Bellingcat opens this form several times per year. If you want to be notified via e-mail as soon as it is opens the next time, please add your e-mail address here.
+
 
 
 </details>
