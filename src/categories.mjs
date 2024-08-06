@@ -1,19 +1,26 @@
 import fs from 'fs';
 import path from 'path';
 import tools from './tools.mjs'
-const { getTools, getCategories } = tools;
 import pkg from './paths.mjs'
-const {writeIfChanged, getSummary, processMarkdownFile} = pkg;
+const { apiCall, getCategories, getTools, writeIfChanged, getSummary, processMarkdownFile} = pkg;
 
 const allTools = getTools().filter((tool) => !tool.draft );
-const mostUsed = processMarkdownFile('gitbook/most-used.md', 'most-used', []);
-const mostUsedTools = allTools.filter((tool) => (tool.tags || []).includes('most-used'));
-const mostUsedFilePath = 'gitbook/most-used.md';
-writeIfChanged(renderCategory(mostUsed, mostUsedTools), mostUsedFilePath);
+(function renderMostUsed() {
+  const mostUsed = {
+        title: 'Most Used',
+        content: '# Most Used\n\n',
+        filepath: 'gitbook/most-used.md',
+        tag: 'most-used'
+  };
+  const markdownFile = processMarkdownFile(mostUsed.filepath, 'most-used.md');
+  const mostUsedTools = allTools.filter((tool) => (tool.tags || []).includes('most-used'));
+  const mostUsedFilePath = 'gitbook/most-used.md';
+  writeIfChanged(renderCategory(mostUsed, mostUsedTools), mostUsedFilePath);
+})();
 
-getCategories().forEach((category) => {
+getCategories().filter((cat) => !cat.hasSubcategories).forEach((category) => {
   const categoryTools = allTools.filter((tool) => {
-    return tool.tags && tool.tags.includes(category.slug.slice(-1)[0]);
+    return tool.tags && tool.tags.includes(category.tag);
   }).map((tool) => {
     return {
       ...tool,
@@ -25,16 +32,13 @@ getCategories().forEach((category) => {
 });
 
 function renderCategory(category, categoryTools = []) {
-  return renderTitle(category) + renderTable(categoryTools, category);
+  return renderIntro(category) + renderTable(categoryTools, category);
 }
 function renderTitle(category) {
   return `# ${category.title}\n\n`;
 }
 function renderIntro(category) {
-  if (fs.existsSync(category.introFilePath)) {
-    return fs.readFileSync(category.introFilePath, 'utf-8');
-  }
-  return '';
+  return category.content;
 }
 
 function renderCost(cost) {
@@ -67,9 +71,13 @@ function renderRelativeLink(category, tool) {
 }
 
 function renderTable(tools, category) {
+  if (!tools || tools.length == 0) { return ''; }
   return (
     "| Name | Description | Cost | Details |\n| --- | --- | --- | --- |\n" + tools.map((row) => {
       return `| [**${row.title}**](${row.url}) | ${row.description} | ${renderCost(row.cost)} | ${renderRelativeLink(category, row)} |`
     }).join("\n")
   );
+}
+
+export default {
 }
