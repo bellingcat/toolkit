@@ -18,5 +18,6 @@
 | [**Skypli**](https://www.skypli.com/) | undefined | <mark style="background-color:green;">Free</mark> | Guide: Inactive, up for removal  |
 | [**Snap Map**](http://map.snapchat.com/) | Searchable map of geotagged snaps. | <mark style="background-color:green;">Free</mark> | [Details](../../../tools/snap-map/README.md) |
 | [**SteamId.uk**](http://steamid.uk/) |  Lookup player names, view (more) previously used names, and when accounts befriended eachother (Free). View screenshots of account, (bulk) seach based on previously used names (paid).  | <mark style="background-color:orange;">Partially Free</mark> |  |
+| [**Strava**](https://www.strava.com) | Social media fitness app with exercise map based on users' GPS data. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../../tools/strava/README.md) |
 | [**WAtools.io**](http://watools.io/) | Track whatsapp activity, number, profile picture. Check if number is used, download profile pic, check online status. | <mark style="background-color:red;">Paid</mark> | 📞  |
 | [**XboxGamertag**](https://xboxgamertag.com/) | Search gamertags, see games played and recorded game clips | <mark style="background-color:green;">Free</mark> |  |
