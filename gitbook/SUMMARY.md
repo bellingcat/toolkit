@@ -38,7 +38,7 @@
 ## 📖 Resources
 
 * [Guides & Handbooks](resources/guides-and-handbooks.md)
-* [Toolkits & Newsletters](resources/toolkits-and-newsletters.md)
+* [Newsletters & Toolkits](resources/newsletters-and-toolkits.md)
 * [Education](resources/education.md)
 * [Stay Safe](resources/stay-safe.md)
 * [International](resources/international.md)
