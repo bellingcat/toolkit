@@ -38,9 +38,10 @@
 ## 📖 Resources
 
 * [Guides & Handbooks](resources/guides-and-handbooks.md)
-* [International](resources/international.md)
-* [Stay Safe](resources/stay-safe.md)
+* [Toolkits & Newsletters](resources/toolkits-and-newsletters.md)
 * [Education](resources/education.md)
+* [Stay Safe](resources/stay-safe.md)
+* [International](resources/international.md)
 * [Miscellaneous](resources/miscellaneous.md)
 
 ## More
