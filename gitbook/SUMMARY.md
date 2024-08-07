@@ -38,8 +38,8 @@
 ## 📖 Resources
 
 * [Guides & Handbooks](resources/guides-and-handbooks.md)
-* [Newsletters & Toolkits](resources/newsletters-and-toolkits.md)
 * [Education](resources/education.md)
+* [Newsletters & Toolkits](resources/newsletters-and-toolkits.md)
 * [Stay Safe](resources/stay-safe.md)
 * [International](resources/international.md)
 * [Miscellaneous](resources/miscellaneous.md)
