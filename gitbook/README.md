@@ -6,13 +6,15 @@ description: A toolkit for open source researchers
 
 ### Welcome to Bellingcat’s Online Open Source Investigation Toolkit!
 
+
+
 This is your place to discover tools! Our toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more. Most of the tools that we include can be used for free.
 
-Bellingcat’s Online Investigation Toolkit has a long tradition but our newest version is special: It is offered in collaboration with the Bellingcat volunteer community. Click on "Details" on the right hand side of each entry (if available) and you receive an in-depth description of the tool. This toolkit is still a work-in-progress and the number of available tool descriptions will grow over time.
-
-
+Bellingcat’s Online Investigation Toolkit has a long tradition but our newest version is special: It is offered in collaboration with the Bellingcat volunteer community. Click on "[Details](https://bellingcat.gitbook.io/toolkit/more/all-tools/hoaxy)" on the right hand side of each entry (if available) and you receive an in-depth description of the tool.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-08 at 23.49.48.png" alt="" width="375"><figcaption></figcaption></figure>
+
+This toolkit is still a work-in-progress and the number of available tool descriptions will grow over time.
 
 
 
