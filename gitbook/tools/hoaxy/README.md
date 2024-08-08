@@ -16,7 +16,7 @@ description: >-
 NOTE: Hoaxy was [first developed in 2016](https://www.researchgate.net/publication/301841797\_Hoaxy\_A\_Platform\_for\_Tracking\_Online\_Misinformation). This toolkit description tested the most recent version and its features to date.&#x20;
 {% endhint %}
 
-Hoaxy assists in unraveling the complex web of information dissemination online, particularly on X (Twitter) and Bluesky. It primarily addresses the problem of misinformation and disinformation spreading rapidly on social media platforms. Users can search for a particular topic or keyword on either platform, and it will automatically generate a graph showing the spread of information.&#x20;
+Hoaxy assists in unraveling the complex web of information dissemination online, particularly on X (Twitter) and Bluesky. It primarily addresses the problem of mis- and disinformation spreading rapidly on social media platforms. Users can search for a particular topic or keyword on either platform, and it will automatically generate a graph showing the spread of information.&#x20;
 
 ### What problem does it solve?
 
@@ -26,7 +26,7 @@ For open-source researchers wanting to verify false claims, it is important to r
 
 Hoaxy solves some of these questions through the following key features:&#x20;
 
-1. Search:  This allows users to find specific keywords, URLs, or users in Bluesky and X/Twitter that needs verification or monitoring.
+1. Search:  This allows users to find specific keywords, URLs, or users on Bluesky and X/Twitter that need verification or monitoring.
 2. [Visualization:](https://hoaxy.osome.iu.edu/faq#faq-q11) This offers users a visual representation of data that can illustrate who is sharing the information, the connections between different users, and the chronological order in which the information is spread.&#x20;
 
 ### How does it work?
