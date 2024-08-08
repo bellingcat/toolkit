@@ -87,7 +87,7 @@ GREY - Multiple
 Track the evolution of a topic over time, identifying peak interest and potential turning points. The tool provider describes this as plotting [“the cumulative number of posts over time. The user can zoom in on any time interval.” ](https://hoaxy.osome.iu.edu/faq#faq-q5)
 
 {% hint style="info" %}
-TIP: Hovering your mouse  over the graph to either the left or right will show the dates and the number of posts generated on that particular date. &#x20;
+TIP: Hovering your mouse over the graph to either the left or right will show the dates and the number of posts generated on that particular date. &#x20;
 {% endhint %}
 
 <div align="center">
@@ -145,7 +145,7 @@ Bluesky search and importing your own data is free, but an X/Twitter search requ
 4. **Network Pruning:** The tool may occasionally truncate some diffusion networks to improve performance, potentially omitting relevant data. [According to the tool provider, “\[t\]he network may be pruned for performance.” ](https://hoaxy.osome.iu.edu/faq#faq-q5)
 5. [**Public Posts Only:**](https://hoaxy.osome.iu.edu/faq#faq-q16) Hoaxy can only retrieve and analyze public posts, leaving private conversations unexamined.
 6. **Cross-Platform Limitations:** Hoaxy requires additional tools to track mis- and information that spills over to other platforms, as it can rapidly spread from one platform to another. The dynamics of information spread vary significantly across different social media. [As shown in this BBC Investigation](https://www.bbc.com/news/articles/cl4y0453nv5o), the spread of misinformation in the Southport protests started on one platform and then migrated to a different platform, where it was even more amplified.&#x20;
-7. **Needs Some Familiarity with Network Analyses for Interpretation:** To fully understand and make sense of the data visualizations provided by Hoaxy, it's helpful to have some background knowledge in [network analysis](https://www.skopenow.com/news/uncovering-connections-how-link-analysis-can-streamline-osint-investigations).
+7. **Needs Some Familiarity with Network Analysis for Interpretation:** To fully understand and make sense of the data visualizations provided by Hoaxy, it's helpful to have some background knowledge in [network analysis](https://www.skopenow.com/news/uncovering-connections-how-link-analysis-can-streamline-osint-investigations).
 8. **Content Analysis Gaps:** Hoaxy does not distinguish between different types of mis- and disinformation. Users may need additional tools or methods to conduct detailed content analysis and identify various forms of mis- andinformation accurately. According to [UNESCO World Media Trends,](https://www.unesco.org/en/world-media-trends/hoaxy) “A claim may be a false news article, hoax, rumor, conspiracy theory, satire, or even an accurate report. (Hoaxy) is not meant to be used as a fact-checking tool but rather to understand how disinformation and misinformation is being spread by non-trustworthy accounts.”&#x20;
 
 Overall, while Hoaxy is created as a comprehensive tool, its reliance on specific data sources, limited platform scope, and occasional usability issues highlight the gap between its advertised capabilities and its practical utility. Hoaxy is best used in addition to other open-source investigative tools.
@@ -154,7 +154,7 @@ Overall, while Hoaxy is created as a comprehensive tool, its reliance on specifi
 
 **Data Source Reliability and Methodology:** Ensure the data used for visualization is reliable. Hoaxy users should be transparent about their data sources, methodology, and limitations.&#x20;
 
-**Contextual Clarity:** Provide sufficient context for the visualization to prevent misinterpretation.
+**Contextual Clarity:** When sharing the visualization with others, provide sufficient context to prevent misinterpretation.
 
 **User Anonymity:** While Hoaxy might not reveal individual user identities, the tool can still expose patterns of behavior that could potentially lead to identification.
 
