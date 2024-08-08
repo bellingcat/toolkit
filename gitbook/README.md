@@ -14,21 +14,9 @@ Bellingcat’s Online Investigation Toolkit has a long tradition but our newest 
 
 <details>
 
-<summary>Our Toolkit Moderators</summary>
+<summary>Our Toolkit Maintainers</summary>
 
-Our volunteer toolkit moderators have a very special role: They support Bellingcat staff to maintain and further develop our toolkit. They include:
-
-*
-
-
-
-*
-
-
-
-Many other community members contribute to writing toolkit descriptions. If they choose to be publicly mentioned, you can find their names on individual tool pages under "page maintainer".
-
-
+Our toolkit is a community-driven project. Various community members contribute to writing toolkit descriptions. If they choose to be publicly mentioned, you can find their names on individual tool pages under "page maintainer".
 
 </details>
 
