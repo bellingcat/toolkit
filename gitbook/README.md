@@ -10,7 +10,11 @@ This is your place to discover tools! Our toolkit includes satellite and mapping
 
 Bellingcat’s Online Investigation Toolkit has a long tradition but our newest version is special: It is offered in collaboration with the Bellingcat volunteer community. Click on "Details" on the right hand side of each entry (if available) and you receive an in-depth description of the tool. This toolkit is still a work-in-progress and the number of available tool descriptions will grow over time.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-08 at 23.49.48.png" alt=""><figcaption></figcaption></figure>
+
+
+<figure><img src=".gitbook/assets/Screenshot 2024-08-08 at 23.49.48.png" alt="" width="375"><figcaption></figcaption></figure>
+
+
 
 <details>
 
