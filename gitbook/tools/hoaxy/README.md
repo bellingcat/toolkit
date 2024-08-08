@@ -1,7 +1,7 @@
 ---
 description: >-
   Hoaxy is a web-based search and visualization tool. It tracks the spread of
-  news and information on Bluesky and X (Twitter).
+  information on Bluesky and X (Twitter).
 ---
 
 # Hoaxy
@@ -16,7 +16,7 @@ description: >-
 NOTE: Hoaxy was [first developed in 2016](https://www.researchgate.net/publication/301841797\_Hoaxy\_A\_Platform\_for\_Tracking\_Online\_Misinformation). This toolkit description tested the most recent version and its features to date.&#x20;
 {% endhint %}
 
-Hoaxy assists in unraveling the complex web of information dissemination online, particularly on X (Twitter) and Bluesky. It primarily addresses the problem of misinformation and disinformation spreading rapidly on social media platforms. Users can search for a particular topic or keywords on either platform, and it will automatically generate a graph showing the spread of information.&#x20;
+Hoaxy assists in unraveling the complex web of information dissemination online, particularly on X (Twitter) and Bluesky. It primarily addresses the problem of misinformation and disinformation spreading rapidly on social media platforms. Users can search for a particular topic or keyword on either platform, and it will automatically generate a graph showing the spread of information.&#x20;
 
 ### What problem does it solve?
 
@@ -26,12 +26,12 @@ For open-source researchers wanting to verify false claims, it is important to r
 
 Hoaxy solves some of these questions through the following key features:&#x20;
 
-1. Search:  This allows users to find specific keywords, URLs, or users in Bluesky and X/Twitter on a piece of news or information that needs verification or monitoring.
+1. Search:  This allows users to find specific keywords, URLs, or users in Bluesky and X/Twitter that needs verification or monitoring.
 2. [Visualization:](https://hoaxy.osome.iu.edu/faq#faq-q11) This offers users a visual representation of data that can illustrate who is sharing the information, the connections between different users, and the chronological order in which the information is spread.&#x20;
 
 ### How does it work?
 
-Step 1: Choose from either Bluesky or X/Twitter
+Step 1: Choose either Bluesky or X/Twitter
 
 Step 2: Enter your search terms
 
@@ -41,11 +41,11 @@ Step 4: Analyze the visualization map and its data&#x20;
 
 
 
-<figure><img src=".gitbook/assets/Screenshot 2024-07-31 232233-marked1.png" alt=""><figcaption><p>The landing page of the Hoaxy tool automatically lets you choose your search preferences. You can choose to do a query on Bluesky or on X/Twitter or to import your own data. The bottom is search bar for keywords, account, URL, phrases. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-07-31 232233-marked1.png" alt=""><figcaption><p>The landing page of the Hoaxy tool automatically lets you choose your search preferences. You can choose to do a query on Bluesky or on X/Twitter or to import your own data. At the bottom you find a search bar for keywords, account, URL, phrases. </p></figcaption></figure>
 
 #### **DOING A BLUESKY SEARCH**
 
-If the user is interested in tracking information spread on the Bluesky platform, users must select “Search Bluesky”, and then [users can enter the following input on the search bar](https://hoaxy.osome.iu.edu/faq#faq-q11):&#x20;
+If the user is interested in tracking information spread on the Bluesky platform, users must select “Search Bluesky”, and then they can[enter the following input on the search bar](https://hoaxy.osome.iu.edu/faq#faq-q11):&#x20;
 
 * Single term (i.e. airstrike)
 * Phrases (enclosed in quotation marks, i.e. “Kyiv airstrike” )&#x20;
@@ -56,11 +56,11 @@ If the user is interested in tracking information spread on the Bluesky platform
 {% hint style="info" %}
 NOTES:&#x20;
 
-1. This function requires a Bearer Token available if a user purchased a Basic, Pro or Premium+ subscription on X.
+1. This function requires a Bearer Token that is only available if a user purchased a Basic, Pro or Premium+ subscription on X.
 2. [This will only retrieve posts from the last 7 days](https://hoaxy.osome.iu.edu/faq#faq-twitter-search).&#x20;
 {% endhint %}
 
-If the user is interested in tracking information spread on the X platform, users must select “Search X/Twitter”. Then, users can enter search terms in the same way they can use the advanced search feature of X (See X’s guide to building a query [here](https://developer.x.com/en/docs/twitter-api/tweets/search/integrate/build-a-query) or [this guide](https://bellingcat.gitbook.io/toolkit/more/all-tools/twitter-advanced-search)). [This tool is compatible with X’s advanced search operators. ](https://hoaxy.osome.iu.edu/faq#faq-twitter-search)
+If the user is interested in tracking information spread on the X platform, users must select “Search X/Twitter”. Then, they can enter search terms in the same way they can use the advanced search feature of X (See X’s guide to building a query [here](https://developer.x.com/en/docs/twitter-api/tweets/search/integrate/build-a-query) or [this guide](https://bellingcat.gitbook.io/toolkit/more/all-tools/twitter-advanced-search)). [This tool is compatible with X’s advanced search operators. ](https://hoaxy.osome.iu.edu/faq#faq-twitter-search)
 
 For example: "Amazon deforestation" AND (illegal OR logging) has:videos&#x20;
 
@@ -68,13 +68,13 @@ For example: "Amazon deforestation" AND (illegal OR logging) has:videos&#x20;
 
 Once users have entered the search terms, Hoaxy will generate a visualization containing two things: “Diffusion networks” and “temporal trends”.&#x20;
 
-<figure><img src=".gitbook/assets/Hoaxy Viz 1 (1) (1).png" alt=""><figcaption><p>This shows the visualization automatically generated by Hoaxy for a Bluesky query on the keyword "airstrikes." The right panel shows "diffusion networks" (as described below), and on the left panel is the "temporal trends" (also described below). In between these panels are a few features that users can modify and play around with to change how the graph looks for analysis. The account shown in a yellow box (to the right) shows a cluster that is not part of the larger clusters. This represents a separate network or conversation where the keywords appear, but no user accounts overlap. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Hoaxy Viz 1 (1) (1).png" alt=""><figcaption><p>This screenshot shows the visualization automatically generated by Hoaxy for a Bluesky query for the keyword "airstrikes." The right panel shows "diffusion networks" (as described below), and on the left panel is the "temporal trends" (also described below). In between these panels are a few features that users can modify and play around with to change how the graph looks for analysis. The account shown in a yellow box (to the right) shows a cluster that is not part of the larger clusters. This represents a separate network or conversation where the keywords appear, but no user accounts overlap. </p></figcaption></figure>
 
 **Network Graphs or “Diffusion Networks”**&#x20;
 
-Understand how information spreads between accounts. Identify influencers, clusters, and potential disinformation networks. The tool provider defines these “diffusion networks” as those that [“display how posts spread from person to person. Each node is a X/Twitter account and two nodes are connected if a post is passed between those two accounts. Larger nodes represent more influential accounts.”](https://hoaxy.osome.iu.edu/faq#faq-q5)&#x20;
+Understand how information spreads between accounts. Identify influencers, clusters, and potential disinformation networks. The tool provider defines these “diffusion networks” as networks that [“display how posts spread from person to person. Each node is a X/Twitter account and two nodes are connected if a post is passed between those two accounts. Larger nodes represent more influential accounts.”](https://hoaxy.osome.iu.edu/faq#faq-q5)&#x20;
 
-Within the graphs, users will notice that there are different colors on the connecting line between accounts. According to the tool provider ["\[t\]he color of a connection indicates the type of post: reposts, replies, quotes, or mentions. Clicking on an edge (connecting line) reveals the post(s); clicking on a node reveals the X/Twitter account of the corresponding user.” ](https://hoaxy.osome.iu.edu/faq#faq-q5)
+Within the graphs, users will notice that the connecting lines between accounts have different colors. According to the tool provider ["\[t\]he color of a connection indicates the type of post: reposts, replies, quotes, or mentions. Clicking on an edge (connecting line) reveals the post(s); clicking on a node reveals the X/Twitter account of the corresponding user.” ](https://hoaxy.osome.iu.edu/faq#faq-q5)
 
 The edges are color-coded as follows:&#x20;
 
@@ -100,15 +100,15 @@ TIP: Hovering your mouse  over the graph to either the left or right will show t
 
 The middle panel shows different features that users can change depending on their preferences. It consists of layout options, export options, a 2D or 3D display, and a short clip showing how information spreads.
 
-<figure><img src=".gitbook/assets/Middle Panel (1).png" alt=""><figcaption><p>The screenshot shows all the middle menu for the visualization and the different ways users can display their results for analysis. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Middle Panel (1).png" alt=""><figcaption><p>The screenshot shows the middle menu for the visualization and the different ways users can display their results for analysis. </p></figcaption></figure>
 
 The tool also allows you to play a short animated clip showing how the nodes and connections are made, and how it unfolds over time, from the beginning date to the end date as displayed on the left panel.
 
-<figure><img src=".gitbook/assets/ScreenRecording2024-08-03100939-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>Clicking on the "Play" icon in the middle panel shows users how the information spread from the beginning date, 29 April 2023 to end date 3 Aug 2024. This shows a Bluesky query looking for mentions of Bellingcat. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/ScreenRecording2024-08-03100939-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>Clicking on the "Play" icon in the middle panel shows users how the information spreads from the beginning date, 29 April 2023 to the end date, 3 Aug 2024. This shows a Bluesky query looking for mentions of Bellingcat. </p></figcaption></figure>
 
 #### CHECKING YOUR RESULTS
 
-It would be advisable to check the graph to see what kind of data and content is being displayed and whether it matches your research topic. To do this, users can select a cluster and click on a node/user account. It will generate a pop-up window showing how the account mentions, replies to, or quotes. It will also share a link to the particular post being discussed. Users can also click on the edges (connecting lines) and this will generate a pop-up window showing the post itself.
+It is advisable to check the graph to see what kind of data and content is being displayed and whether it matches your research topic. To do this, users can select a cluster and click on a node/user account. It will generate a pop-up window showing how the account mentions, replies to, or quotes. It will also share a link to the particular post being discussed. Users can also click on the edges (connecting lines) and this will generate a pop-up window showing the post itself.
 
 
 
@@ -118,7 +118,7 @@ It would be advisable to check the graph to see what kind of data and content is
 
 The main use case for Hoaxy is for verification:&#x20;
 
-Open-source researchers can analyze the network of users who shared a piece of information and identify whether the original sources are credible news outlets or dubious accounts known for spreading misinformation. This helps verify the authenticity of the claim and provides a clearer understanding of the narrative being shared​. This process aids in debunking false information and clarifying the facts​, as well as if the timeframe during which the claim was most active. See [here](https://www.engadget.com/2016-12-21-hoaxy-visualizes-how-fake-news-spreads-across-social-media.html) for an example of how it was used to debunk “Picklegate” during a presidential campaign season.\
+Open-source researchers can analyze the network of users who shared a piece of information and identify whether the original sources are credible news outlets or dubious accounts known for spreading mis- or disinformation. This can be one step in the process of verifying the authenticity of the claim. It also provides a clearer understanding of the narrative being shared​. This process aids in debunking false information and clarifying the facts​, as well as if the timeframe during which the claim was most active. See [here](https://www.engadget.com/2016-12-21-hoaxy-visualizes-how-fake-news-spreads-across-social-media.html) for an example of how it was used to debunk “Picklegate” during a presidential campaign season.\
 
 
 ## Cost
