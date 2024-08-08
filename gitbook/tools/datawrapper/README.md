@@ -72,8 +72,7 @@ This section lets users customize their chart to the most minute features, allow
 {% tab title="Chart Type" %}
 Users have about 20 types of charts to choose from based on their needs. If unsure, the web interface has hints to help users determine which chart may work well for their type of data source.&#x20;
 
-\
-
+They are bar charts, stacked bars, grouped bars, split bars, bullet bars, column chart, stacked column, grouped columns, lines, multiple lines, area chart, scatter plot, dot plot, range plot, arrow plot, election donut, pie chart, multiple pies, donut chart, multiple donuts.&#x20;
 {% endtab %}
 
 {% tab title="Refine" %}
@@ -98,20 +97,24 @@ The final step on the visualization tab is Layout customization.  The key featur
 {% endtabs %}
 
 {% hint style="info" %}
-TIP on the "Annotate" tab: The “Notes” section can be useful for explaining limitations to data sources, margin of errors, or other caveats to the data that should be transparent to readers.
+TIP on the "Annotate" tab: The “Notes” section can be useful for explaining limitations to data sources, margin of errors, or other caveats about the data that should be transparent to readers.
 {% endhint %}
 
 {% hint style="warning" %}
 NOTE on the "Layout" tab: Output locale language does not translate content users input but translates the built-in features of the tool itself. (See Limitations Section)
 {% endhint %}
 
-\
+#### _**Publish/Embed**_
 
+The final step is to publish the chart. This step is particularly important if users plan to embed it in websites, digital reports, or forward the visualization in social media platforms.&#x20;
 
+{% hint style="info" %}
+NOTE: Datawrapper does not share this publicly. The only way it becomes visible is if users forward the URL to other individuals, or if users embed it in their websites.&#x20;
+{% endhint %}
 
+Users can also export or duplicate the visualization. Users can export in PNG (image) format. This is a static and non-interactive version that users can download for printing or for integrating in reports. &#x20;
 
-\
-
+### **MAP**
 
 ## Cost
 
@@ -123,7 +126,7 @@ NOTE on the "Layout" tab: Output locale language does not translate content user
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
