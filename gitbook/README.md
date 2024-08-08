@@ -8,7 +8,7 @@ description: A toolkit for open source researchers
 
 This is your place to discover tools! Our toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more. Most of the tools that we include can be used for free.
 
-Bellingcat’s Online Investigation Toolkit has a long tradition but our newest version is special: It is offered in collaboration with the Bellingcat volunteer community. Our volunteers know the ins and outs of “their tools” and are able to provide information on their advantages and limitations.
+Bellingcat’s Online Investigation Toolkit has a long tradition but our newest version is special: It is offered in collaboration with the Bellingcat volunteer community.&#x20;
 
 
 
@@ -16,7 +16,7 @@ Bellingcat’s Online Investigation Toolkit has a long tradition but our newest 
 
 <summary>Our Toolkit Maintainers</summary>
 
-Our toolkit is a community-driven project. Various community members contribute to writing toolkit descriptions. If they choose to be publicly mentioned, you can find their names on individual tool pages under "page maintainer".
+Our toolkit is a community-driven project. Various community members contribute to writing toolkit descriptions. They know the ins and outs of “their tools” and are able to provide information about their advantages and limitations. If they choose to be publicly mentioned, you can find their names on individual tool pages under "page maintainer".
 
 </details>
 
