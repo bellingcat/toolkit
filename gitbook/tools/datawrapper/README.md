@@ -1,5 +1,7 @@
 ---
-description: Easy-to-use chart and mapping tool
+description: >-
+  A tool for creating charts, maps, and tables from data, offering a
+  user-friendly interface for visualizing information.
 ---
 
 # Datawrapper
@@ -10,12 +12,102 @@ https://www.datawrapper.de/
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+The purpose of the tool is to help users convert raw data into interactive and visually appealing graphics without advanced technical skills. According to the Datawrapper co-founder:  &#x20;
+
+"\[[t\]he idea is that you have a two-minute interaction with the tool](https://www.icij.org/inside-icij/2018/08/nine-essential-tools-from-icijs-data-journalism-and-programming-experts/)”. Its audience is primarily journalists, researchers, and data analysts to assist in communicating data insights effectively. The International Consortium of Investigative Journalism [said that](https://www.icij.org/inside-icij/2018/08/nine-essential-tools-from-icijs-data-journalism-and-programming-experts/) Datawrapper "an open source tool for anyone who wants to create a chart or map from their data, came out of the knowledge that expecting every journalist to know code is unrealistic."
+
+### How it works
+
+Datawrapper is particularly helpful during the analysis and presentation stage of digital open-source investigations. It supports three categories of visualizations: **Chart, Map, and Table**. Note that the chart, map, and table generated are, by default, interactive. They will respond to the user’s mouse hovering over the various data on display. &#x20;
+
+{% hint style="success" %}
+TIP: It is helpful to check the[ Datawrapper Academy](https://academy.datawrapper.de/) website or its blog prior to beginning a project. It covers straightforward descriptions of various chart, map, and table types. This is especially useful for determining which kind of data and how many data points you need for a particular type of visualization.
+{% endhint %}
+
+### CHART
+
+Charts can turn complex data into visual representations that are easier to interpret. It simplifies information by distilling large amounts of data, making it more straightforward to grasp key trends, patterns, and outliers without wading through raw data. It can also reveal relationships between variables.&#x20;
+
+If using Datawrapper to create a chart, users have four main steps to complete. They (1) upload their data, (2) double-check that data is displayed correctly, (3) visualize, and, finally (4) publish/download or embed the final product.&#x20;
+
+Log in and proceed to Dashboard. Click, “Create New” and select “Chart”
+
+#### _**Upload Data**_
+
+Users can upload data in four ways:&#x20;
+
+1. Copy and paste an already existing data table onto the empty field to the right.&#x20;
+2. Upload an XLS/CSV file (typically one used in MS Excel)
+3. Connect to Google Sheets by inputting a link. &#x20;
+4. Enter a URL link to an external CSV file.
+
+#### _**Check Data**_
+
+Datawrapper includes this step to allow users to verify the accuracy of their uploaded data and ensure that the tool displays the information as intended. Users should carefully check that all rows and columns are present, verify that each cell contains the correct value, confirm that there are no missing data, and make sure that the categories are correctly represented.
+
+<details>
+
+<summary>Example Verification Steps</summary>
+
+Suppose you’re using Datawrapper to create a chart showing the number of armed conflict incidents reported in various countries over the past year. After uploading your data, Datawrapper prompts you to review it.
+
+1\. **Check Rows and Columns:** Ensure that your dataset includes all the countries you want to analyze and that each country has data for all relevant time periods or types of incidents. For instance, verify that rows are present for countries like “Country X,” “Country Y,” and “Country Z,” and columns are included for different types of incidents, such as “Military Engagements,” “Civilian Attacks,” and “Terrorist Incidents.”
+
+2\. **Verify Cell Values:** Double-check that each cell displays accurate incident counts or details. For example, if “Country X” should have recorded 200 military engagements in the past year, ensure that this number appears correctly in the corresponding cell.
+
+3\. **Look for Missing Data:** Check for any gaps in the data. If “Country Y” is missing data for “Civilian Attacks,” confirm whether this is due to a data reporting issue or if the data is genuinely unavailable. Ensure that this omission is intentional and not an error. Missing data should be addressed or noted appropriately.
+
+4\. **Confirm Category Accuracy:** Ensure that the categories are accurately labeled. For instance, make sure that the column headers correctly represent types of armed conflict incidents and are not mistakenly labeled with unrelated categories. Also, confirm that the row headers accurately list the countries and not the types of incidents.\
+
+
+</details>
+
+#### _**Visualize**_
+
+This section lets users customize their chart to the most minute features, allowing the audience to understand the data effectively. **Click on the different tabs below to see a representative list of features that can be customized.**&#x20;
+
+<figure><img src=".gitbook/assets/IMG_0305.jpg" alt="" width="188"><figcaption><p>This image shows the list of charts that users can customize for their data. After uploading and checking your data, proceed to the "Visualize" step. The first customization step is selecting chart type </p></figcaption></figure>
+
+{% tabs %}
+{% tab title="Chart Type" %}
+Users have about 20 types of charts to choose from based on their needs. If unsure, the web interface has hints to help users determine which chart may work well for their type of data source.&#x20;
+
+\
+
+{% endtab %}
+
+{% tab title="Refine" %}
+The refine tab allows users to customize the details of your chart. This includes, customizing the text, date format and grid on the horizontal axis. As well as the formatting of the values on your chart (whether dates or currency, etc). Users can customize the opacity, colors and sort the data (smallest first, largest first, etc)&#x20;
+
+\
+
+{% endtab %}
+
+{% tab title="Annotate" %}
+This tab is critical for providing context on the information users are conveying. It includes the Title, Description, Notes, and, most importantly, the Data Source and links to the Data source, if available.
+
+TIP: The “Notes” section can be useful for explaining limitations to data sources, margin of errors, or other caveats to the data that should be transparent to readers.
+{% endtab %}
+
+{% tab title="Untitled" %}
+
+{% endtab %}
+{% endtabs %}
+
+
+
+\
+
+
+
+
+\
+
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
 \[\[Pricing or subscription information, if relevant.]]
@@ -54,4 +146,3 @@ https://www.datawrapper.de/
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
