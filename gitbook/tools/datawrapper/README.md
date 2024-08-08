@@ -77,7 +77,7 @@ Users have about 20 types of charts to choose from based on their needs. If unsu
 {% endtab %}
 
 {% tab title="Refine" %}
-The refine tab allows users to customize the details of your chart. This includes, customizing the text, date format and grid on the horizontal axis. As well as the formatting of the values on your chart (whether dates or currency, etc). Users can customize the opacity, colors and sort the data (smallest first, largest first, etc)&#x20;
+The refine tab allows users to customize the details of your chart. This includes customizing the text, date format, and grid on the horizontal axis. As well as the formatting of the values on your chart (whether dates or currency, etc). Users can customize the opacity, colors and sort the data (smallest first, largest first, etc)&#x20;
 
 \
 
@@ -85,16 +85,25 @@ The refine tab allows users to customize the details of your chart. This include
 
 {% tab title="Annotate" %}
 This tab is critical for providing context on the information users are conveying. It includes the Title, Description, Notes, and, most importantly, the Data Source and links to the Data source, if available.
-
-TIP: The “Notes” section can be useful for explaining limitations to data sources, margin of errors, or other caveats to the data that should be transparent to readers.
 {% endtab %}
 
-{% tab title="Untitled" %}
+{% tab title="Layout" %}
+The final step on the visualization tab is Layout customization.  The key features are: (1) Availability to produce output in different languages&#x20;
+
+(2) Users can also customize the footer section of the chart. This includes links to data source download, image download options, shareable link, and social media share buttons. Sharing findings, and data sources are especially useful for open-source investigators, since investigations and methodology needs to be replicable to be reliable.&#x20;
+
+\
 
 {% endtab %}
 {% endtabs %}
 
+{% hint style="info" %}
+TIP on the "Annotate" tab: The “Notes” section can be useful for explaining limitations to data sources, margin of errors, or other caveats to the data that should be transparent to readers.
+{% endhint %}
 
+{% hint style="warning" %}
+NOTE on the "Layout" tab: Output locale language does not translate content users input but translates the built-in features of the tool itself. (See Limitations Section)
+{% endhint %}
 
 \
 
