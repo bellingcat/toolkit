@@ -120,12 +120,34 @@ The map feature in Datawrapper is especially beneficial for open-source investig
 
 These maps can visually represent complex data, making it easier to understand and communicate findings. Investigators can use these maps to track and display various types of information, such as geographic distributions, locations of events, or the spread of certain phenomena over time. The interactive aspect allows viewers to engage with the data, zoom in on specific areas, and access detailed information, which is crucial for transparency and thorough analysis in investigations.
 
-The types of maps you can produce are: Chloropleth map, Symbol map, and Locator map.&#x20;
+The types of maps you can produce are: Choropleth map, Symbol map, and Locator map.&#x20;
+
+#### _**Choropleth maps**_
+
+&#x20;A type of thematic map in which areas (such as countries, states, or regions) are shaded or patterned in proportion to the value of a specific variable. The purpose of a choropleth map is to visually represent the distribution of a variable across different geographic areas.
+
+
+
+<details>
+
+<summary>Sample use case or choropleth map</summary>
+
+Imagine you have a map of your country, and you want to show where people have the most and least access to something, like internet speeds.&#x20;
+
+A choropleth map is like a color-coded version of this map. Each area on the map, such as states or counties, gets a different color based on how high or low the internet speeds are there. For example:
+
+Dark Purple - might mean super fast internet speeds.
+
+Light orange - might mean average speeds.
+
+Yellow -  might mean slow speeds.
+
+So, when you look at the map, you can easily see which areas have the best internet speeds and which ones don’t. The colors help you quickly understand and compare the data across different regions.
 
 \
 
 
-<figure><img src=".gitbook/assets/IMG_0320.jpeg" alt=""><figcaption><p>Create a map on your dashboard by clicking on the “Create New” on the upper right of the window, and then clicking on “Map”. It will then ask if you want to create a Choropleth map, Symbol map or Locator map</p></figcaption></figure>
+</details>
 
 ## Cost
 
