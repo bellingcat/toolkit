@@ -130,7 +130,10 @@ Users can also export or duplicate the visualization. Users can export in PNG (i
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+1. Create user account
+2. Internet connection on modern browser
+3. Desktop or mobile device
+4. May need subscription if users want extra features&#x20;
 
 ## Limitations
 
@@ -146,7 +149,9 @@ Users can also export or duplicate the visualization. Users can export in PNG (i
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Datawrapper
+
+Berlin, Germany&#x20;
 
 ## Advertising Trackers
 
@@ -154,7 +159,7 @@ Users can also export or duplicate the visualization. Users can export in PNG (i
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| Afton           |
+|                 |
