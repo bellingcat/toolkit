@@ -116,6 +116,17 @@ Users can also export or duplicate the visualization. Users can export in PNG (i
 
 ### **MAP**
 
+The map feature in Datawrapper is especially beneficial for open-source investigations, particularly when visualizing geolocated or verified incidents.&#x20;
+
+These maps can visually represent complex data, making it easier to understand and communicate findings. Investigators can use these maps to track and display various types of information, such as geographic distributions, locations of events, or the spread of certain phenomena over time. The interactive aspect allows viewers to engage with the data, zoom in on specific areas, and access detailed information, which is crucial for transparency and thorough analysis in investigations.
+
+The types of maps you can produce are: Chloropleth map, Symbol map, and Locator map.&#x20;
+
+\
+
+
+<figure><img src=".gitbook/assets/IMG_0320.jpeg" alt=""><figcaption><p>Create a map on your dashboard by clicking on the “Create New” on the upper right of the window, and then clicking on “Map”. It will then ask if you want to create a Choropleth map, Symbol map or Locator map</p></figcaption></figure>
+
 ## Cost
 
 * [ ] Free
