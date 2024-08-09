@@ -118,15 +118,13 @@ Users can also export or duplicate the visualization. Users can export in PNG (i
 
 The map feature in Datawrapper is especially beneficial for open-source investigations, particularly when visualizing geolocated or verified incidents.&#x20;
 
-These maps can visually represent complex data, making it easier to understand and communicate findings. Investigators can use these maps to track and display various types of information, such as geographic distributions, locations of events, or the spread of certain phenomena over time. The interactive aspect allows viewers to engage with the data, zoom in on specific areas, and access detailed information, which is crucial for transparency and thorough analysis in investigations.
+These maps can visually represent complex data, making understanding and communicating findings easier. Investigators can use these maps to track and display various types of information, such as geographic distributions, locations of events, or the spread of certain phenomena over time. The interactive aspect allows viewers to engage with the data, zoom in on specific areas, and access detailed information, which is crucial for transparency and thorough analysis in investigations.
 
 The types of maps you can produce are: Choropleth map, Symbol map, and Locator map.&#x20;
 
-#### _**Choropleth maps**_
+### _**Choropleth maps**_
 
 &#x20;A type of thematic map in which areas (such as countries, states, or regions) are shaded or patterned in proportion to the value of a specific variable. The purpose of a choropleth map is to visually represent the distribution of a variable across different geographic areas.
-
-
 
 <details>
 
@@ -149,6 +147,8 @@ So, when you look at the map, you can easily see which areas have the best inter
 
 </details>
 
+#### Upload&#x20;
+
 ## Cost
 
 * [ ] Free
@@ -167,6 +167,10 @@ So, when you look at the map, you can easily see which areas have the best inter
 2. Internet connection on modern browser
 3. Desktop or mobile device
 4. May need subscription if users want extra features&#x20;
+5. Create User Account
+6. Internet connection on modern browser
+7. Desktop or mobile device
+8. May need subscription if users want extra features. But the free version is more than &#x20;
 
 ## Limitations
 
