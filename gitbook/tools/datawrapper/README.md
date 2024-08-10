@@ -169,13 +169,44 @@ NOTE: The pre-made table seems to depend on the kind of map you select in the pr
 
 _**Step 2 - Match:**_ To use the map, your data needs to have information like country names, short names, and codes. In this step, choose the preferred naming convention for countries. Make sure you have all the columns and rows you need to display your data.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-09 235302.png" alt="" width="375"><figcaption><p>In this image, the user is creating a map showing the top 10 countries with the fastest internet speed.  The user chooses a world map. A CSV file is then uploaded. Under the "Match" Tab,  we make sure that Column A corresponds to the name of the Country/Territory, and Column B corresponds to the values -- in this case the download speed of the internet in each country. (Note: The data on this image is for demonstration purposes only) </p></figcaption></figure>
-
-
+<figure><img src=".gitbook/assets/Screenshot 2024-08-09 235302.png" alt="" width="375"><figcaption><p>In this image, the user is creating a map showing the top 10 countries with the fastest internet speed.  The user chooses a world map. A CSV file is then uploaded. The table is automatically populated with a list of countries. Under the "Match" Tab,  we make sure that Column A corresponds to the name of the Country/Territory, and Column B corresponds to the values -- in this case the "median download speed" of the internet in each country. Notice that this will automatically use the first row for labels (as shown by a tick box on the top left)  (NOTE: The data on this image is for demonstration purposes only) </p></figcaption></figure>
 
 {% hint style="info" %}
 NOTE: If the user does not use the rest of the countries/locations on the list, they will be grayed out in the map.
 {% endhint %}
+
+#### Visualize&#x20;
+
+Just like in the CHART section above, the Visualize tab lets users customize their map to the most minute features, allowing the audience to understand the data effectively. Click on the different tabs below to see a representative list of features that can be customized.
+
+{% tabs %}
+{% tab title="Refine" %}
+The refine tab allows users to customize the details of the map. This includes:
+
+* &#x20;customizing the colors to represent different values,
+* &#x20;whether you want the legend on display and the way the legend looks
+* Making the map zoomable or not, and the location of the zoom button&#x20;
+* Map appearance: whether you want a full map or a partial map on display, the size in pixels, map alignment
+* Appearance of region borders or not
+{% endtab %}
+
+{% tab title="Annotate" %}
+Like above, this tab is critical for providing context on the information users are conveying. It includes the Title, Description, Notes, and, most importantly, the Data Source and links to the Data source, if available.
+
+\
+TIP: The “Notes” section can be useful for explaining limitations to data sources, margin of errors or other caveats that should be transparent to readers.&#x20;
+{% endtab %}
+
+{% tab title="Layout" %}
+Similarly, the final tab under “Visualize”  is Layout customization.  The key features are: - -
+
+* Availability to produce output in different languages&#x20;
+* &#x20;Customize the footer section of the chart to include links to data source download, image download options
+* Ability to include a shareable link and social media share buttons&#x20;
+{% endtab %}
+{% endtabs %}
+
+
 
 ## Cost
 
