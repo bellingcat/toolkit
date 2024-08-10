@@ -161,6 +161,10 @@ So, when you look at the map, you can easily see which areas have the best inter
 
 This step allows users to select what kind of base map is needed for data visualization. The Datawrapper list of maps contains a huge selection. The types of maps available are: World maps, regional maps, and country maps. As a plus. some countries have different subtypes available as well. For instance,  Argentina  also includes a map divided by departments, or by electoral districts, by provinces or city-specific such as the Argentina - Buenos Aires Metropolitan Area.&#x20;
 
+{% hint style="success" %}
+TIP: Users can also upload their own maps. However, this is a slightly advanced feature and may consult [this guide.](https://academy.datawrapper.de/article/145-how-to-upload-your-own-map)
+{% endhint %}
+
 _**Add your data**_
 
 _**Step 1 - Upload:**_ There are four ways to add your data:&#x20;
