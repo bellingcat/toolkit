@@ -151,9 +151,9 @@ So, when you look at the map, you can easily see which areas have the best inter
 
 This step allows users to select what kind of base map is needed for data visualization. The Datawrapper list of maps contains a huge selection. The types of maps available are: World maps, regional maps, and country maps. As a plus. some countries have different subtypes available as well. For instance,  Argentina  also includes a map divided by departments, or by electoral districts, by provinces or city-specific such as the Argentina - Buenos Aires Metropolitan Area.&#x20;
 
-**Add your data**
+_**Add your data**_
 
-_**Upload:**_ There are four ways to add your data:&#x20;
+_**Step 1 - Upload:**_ There are four ways to add your data:&#x20;
 
 1. Fill in the automatically generated table (located on the right of the screen):&#x20;
 
@@ -163,7 +163,11 @@ This section is automatically prefilled with two columns: Column A for the name 
 3. Copy and paste data (located to the left)&#x20;
 4. Connect a remote data set: input a link to external data (i.e. data from NASA) or connect to Google Sheets&#x20;
 
-_**Match:**_ To use the map, your data needs to have information like country names, short names, and codes. In this step, choose the preferred naming convention for countries. Make sure you have all the columns and rows you need to display your data.&#x20;
+{% hint style="warning" %}
+NOTE: The pre-made table seems to depend on the kind of map you select in the previous step. If you choose a World Map for your data, it will populate Column A with a list of countries in that map. If you choose a map of Asia, it will fill Column A with a list of countries for that continent.
+{% endhint %}
+
+_**Step 2 - Match:**_ To use the map, your data needs to have information like country names, short names, and codes. In this step, choose the preferred naming convention for countries. Make sure you have all the columns and rows you need to display your data.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-09 235302.png" alt="" width="375"><figcaption><p>In this image, the user is creating a map showing the top 10 countries with the fastest internet speed.  The user chooses a world map. A CSV file is then uploaded. Under the "Match" Tab,  we make sure that Column A corresponds to the name of the Country/Territory, and Column B corresponds to the values -- in this case the download speed of the internet in each country. (Note: The data on this image is for demonstration purposes only) </p></figcaption></figure>
 
