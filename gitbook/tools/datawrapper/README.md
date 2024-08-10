@@ -106,13 +106,19 @@ NOTE on the "Layout" tab: Output locale language does not translate content user
 
 #### _**Publish/Embed**_
 
-The final step is to publish the chart. This step is particularly important if users plan to embed it in websites, digital reports, or forward the visualization in social media platforms.&#x20;
+The final step is to publish the chart. This step is particularly important if users plan to embed it in websites or blogs or share the visualization on social media platforms. Visualizations are private by default unless users publish them. &#x20;
 
 {% hint style="info" %}
-NOTE: Datawrapper does not share this publicly. The only way it becomes visible is if users forward the URL to other individuals, or if users embed it in their websites.&#x20;
+NOTE: Datawrapper does not share visualizations publicly even after publishing. It becomes visible only if users forward the URL to other individuals or embed them in their websites.&#x20;
 {% endhint %}
 
-Users can also export or duplicate the visualization. Users can export in PNG (image) format. This is a static and non-interactive version that users can download for printing or for integrating in reports. &#x20;
+Users can also export or duplicate the visualization. Users can export in PNG (image) format. This is a static and non-interactive version that users can download for printing or for integrating in reports.
+
+
+
+{% hint style="info" %}
+NOTE: Once published, any changes to formatting or editing will not be reflected. Users will have to republish their visualization after making any changes, Go to the publish section, and click “Republish.” &#x20;
+{% endhint %}
 
 ### **MAP**
 
