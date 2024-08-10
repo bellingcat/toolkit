@@ -141,7 +141,7 @@ Yandex Maps can be used without an account, but some functionality relating to w
 
 ## Limitations
 
-Yandex Maps is limited in terms of the availability of historical geographic data because of censorship in respect of public events.
+Limited current photographic content is available in Yandex Maps in Ukraine, where the most recent of many (if not all) of the panoramas available are dated around 2011. By contrast,  other countries in the region often have a range of dates available on some panorama content, and much of the content is less than 5 years old.
 
 Yandex Maps should be used with a VPN as its trackers present a challenge to Open Source Researchers' Operational Security.
 
