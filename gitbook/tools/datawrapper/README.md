@@ -118,10 +118,10 @@ Users can also export or duplicate the visualization. Users can export in PNG (i
 NOTE: Once published, any changes to formatting or editing will not be reflected. Users will have to republish their visualization after making any changes, Go to the publish section, and click “Republish.” &#x20;
 {% endhint %}
 
-
+Users will end up with something that looks like this (Area Chart):&#x20;
 
 {% embed url="https://datawrapper.dwcdn.net/w94Ay/1/" %}
-This is a sample chart generated from Datawrapper using a sample dataset provided by the tool. It has been published on Datawrapper and embedded in this toolkit description. This is an interactive chart, and readers can hover over details on the chart to see more information. This chart is also created with an output language in Amharic. It translates built-in features in Amharic, but the data inputted manually in English remains in English. (NOTE: The data on this chart is for demonstration purposes only)
+This is a sample “Area Chart” generated from Datawrapper using a sample dataset provided by the tool. It has been published on Datawrapper and embedded in this toolkit description using a URL. This is an interactive chart, and readers can hover over details on the chart to see more information. This chart is also created with an output language in Amharic. It translates built-in features in Amharic, but the data inputted manually in English remains in English. (NOTE: The chart and data on it is for demonstration purposes only)
 {% endembed %}
 
 ### **MAP**
@@ -215,6 +215,14 @@ Similarly, the final tab under “Visualize”  is Layout customization.  The ke
 * Ability to include a shareable link and social media share buttons&#x20;
 {% endtab %}
 {% endtabs %}
+
+Below is a sample interactive symbol map to demonstrate what the final product may look like:
+
+
+
+{% embed url="https://datawrapper.dwcdn.net/UKoIL/3/" %}
+This is an example of a interactive choropleth map using data from Ookla on internet speeds by country in 2023 (via Wikipedia). Users can hover over each details to see more information. Darker colors represent faster speeds, and lighter color represents slightly slower speeds. (NOTE: This map and data is for demonstration purposes only)
+{% endembed %}
 
 ### _**Symbol map**_
 
