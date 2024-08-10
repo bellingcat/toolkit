@@ -147,7 +147,31 @@ So, when you look at the map, you can easily see which areas have the best inter
 
 </details>
 
-#### Upload&#x20;
+#### **Select your map**
+
+This step allows users to select what kind of base map is needed for data visualization. The Datawrapper list of maps contains a huge selection. The types of maps available are: World maps, regional maps, and country maps. As a plus. some countries have different subtypes available as well. For instance,  Argentina  also includes a map divided by departments, or by electoral districts, by provinces or city-specific such as the Argentina - Buenos Aires Metropolitan Area.&#x20;
+
+**Add your data**
+
+_**Upload:**_ There are four ways to add your data:&#x20;
+
+1. Fill in the automatically generated table (located on the right of the screen):&#x20;
+
+This section is automatically prefilled with two columns: Column A for the name of the Country or/Territory and Column B for the values. You can enter the values manually in Column B based on your dataset.&#x20;
+
+2. Upload a file: CSV or Excel (located to the left) &#x20;
+3. Copy and paste data (located to the left)&#x20;
+4. Connect a remote data set: input a link to external data (i.e. data from NASA) or connect to Google Sheets&#x20;
+
+_**Match:**_ To use the map, your data needs to have information like country names, short names, and codes. In this step, choose the preferred naming convention for countries. Make sure you have all the columns and rows you need to display your data.&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2024-08-09 235302.png" alt="" width="375"><figcaption><p>In this image, the user is creating a map showing the top 10 countries with the fastest internet speed.  The user chooses a world map. A CSV file is then uploaded. Under the "Match" Tab,  we make sure that Column A corresponds to the name of the Country/Territory, and Column B corresponds to the values -- in this case the download speed of the internet in each country. (Note: The data on this image is for demonstration purposes only) </p></figcaption></figure>
+
+
+
+{% hint style="info" %}
+NOTE: If the user does not use the rest of the countries/locations on the list, they will be grayed out in the map.
+{% endhint %}
 
 ## Cost
 
