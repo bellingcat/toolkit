@@ -24,6 +24,10 @@ Datawrapper is particularly helpful during the analysis and presentation stage o
 TIP: It is helpful to check the[ Datawrapper Academy](https://academy.datawrapper.de/) website or its blog prior to beginning a project. It covers straightforward descriptions of various chart, map, and table types. This is especially useful for determining which kind of data and how many data points you need for a particular type of visualization.
 {% endhint %}
 
+{% hint style="warning" %}
+NOTE: Ensure that your data is organized, complete and refined prior to adding the data on the interface.
+{% endhint %}
+
 ### CHART
 
 Charts can turn complex data into visual representations that are easier to interpret. It simplifies information by distilling large amounts of data, making it more straightforward to grasp key trends, patterns, and outliers without wading through raw data. It can also reveal relationships between variables.&#x20;
@@ -256,6 +260,29 @@ Disease Outbreaks: If tracking a disease outbreak, symbols could represent the n
 
 </details>
 
+Prepare your data (do not skip this step): Whether you are using your own data or using data from an external source, it is important to make sure the data has all the information required by Datawrapper. For symbol maps, “[Datawrapper](https://academy.datawrapper.de/article/114-how-to-create-a-symbol-map-in-datawrapper) will need  (1)addresses/place names or (2) latitudes/longitudes to know where you want your points to be.” Users should be as specific as possible.&#x20;
+
+{% hint style="warning" %}
+NOTE: Prepare your data (do not skip this step): Whether you are using your own data or using data from an external source, it is important to make sure the data has all the information required by Datawrapper. For symbol maps, “[Datawrapper](https://academy.datawrapper.de/article/114-how-to-create-a-symbol-map-in-datawrapper) will **need**  **(1)addresses/place names or (2) latitudes/longitudes** to know where you want your points to be.” Users should be as specific as possible.&#x20;
+
+
+
+Example of specificity of **addresses/place names** as provided by the [tool](https://academy.datawrapper.de/article/193-symbol-location-accuracy-using-addresses-place-names):&#x20;
+
+* Neighborhood: Williamsburg, Brooklyn, New York
+* City: New York City, New York
+* Zip Code: 11212, Kings County, New York
+* County: Kings County, New York
+* State/Land: New York State, USA
+{% endhint %}
+
+
+
+The steps on creating a symbol map are very similar to the steps on the choropleth map (See above). There is a slight difference in the “Visualize” section of symbol maps. Click on each tab below to see the different features.&#x20;
+
+\
+
+
 ## Cost
 
 * [ ] Free
@@ -270,14 +297,11 @@ Disease Outbreaks: If tracking a disease outbreak, symbols could represent the n
 
 ## Requirements
 
-1. Create user account
-2. Internet connection on modern browser
-3. Desktop or mobile device
-4. May need subscription if users want extra features&#x20;
-5. Create User Account
-6. Internet connection on modern browser
-7. Desktop or mobile device
-8. May need subscription if users want extra features. But the free version is more than &#x20;
+1. Create User Account
+2. Internet Connection on modern browser
+3. Desktop Device
+4. An organized external dataset
+5. May need subscription if users want extra features. The free version, however, is more than enough to use. &#x20;
 
 ## Limitations
 
