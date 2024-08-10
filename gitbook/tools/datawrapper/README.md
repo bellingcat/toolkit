@@ -1,7 +1,7 @@
 ---
 description: >-
-  A tool for creating charts, maps, and tables from data, offering a
-  user-friendly interface for visualizing information.
+  A tool for creating interactive charts, maps, and tables from your data,
+  offering a user-friendly interface for visualizing information.
 ---
 
 # Datawrapper
@@ -114,11 +114,15 @@ NOTE: Datawrapper does not share visualizations publicly even after publishing. 
 
 Users can also export or duplicate the visualization. Users can export in PNG (image) format. This is a static and non-interactive version that users can download for printing or for integrating in reports.
 
-
-
 {% hint style="info" %}
 NOTE: Once published, any changes to formatting or editing will not be reflected. Users will have to republish their visualization after making any changes, Go to the publish section, and click “Republish.” &#x20;
 {% endhint %}
+
+
+
+{% embed url="https://datawrapper.dwcdn.net/w94Ay/1/" %}
+This is a sample chart generated from Datawrapper using a sample dataset provided by the tool. It has been published on Datawrapper and embedded in this toolkit description. This is an interactive chart, and readers can hover over details on the chart to see more information. This chart is also created with an output language in Amharic. It translates built-in features in Amharic, but the data inputted manually in English remains in English. (NOTE: The data on this chart is for demonstration purposes only)
+{% endembed %}
 
 ### **MAP**
 
