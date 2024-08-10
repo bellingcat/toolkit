@@ -134,7 +134,7 @@ The types of maps you can produce are: Choropleth map, Symbol map, and Locator m
 
 <details>
 
-<summary>Sample use case or choropleth map</summary>
+<summary>Potential open-source use case for choropleth map</summary>
 
 Imagine you have a map of your country, and you want to show where people have the most and least access to something, like internet speeds.&#x20;
 
@@ -212,7 +212,33 @@ Similarly, the final tab under “Visualize”  is Layout customization.  The ke
 {% endtab %}
 {% endtabs %}
 
+### _**Symbol map**_
 
+A symbol map, sometimes called a point map or dot map, is a type of thematic map used in data analysis to represent data points or values across geographic areas using symbols. Instead of shading regions like in a choropleth map, a symbol map uses symbols, such as dots, icons, or shapes, to show the location and magnitude of a variable.&#x20;
+
+<details>
+
+<summary><strong>Key Features of Symbol Maps</strong></summary>
+
+1. Symbols Represent Data: Each symbol on the map represents a specific quantity or value. For instance, a dot might represent a certain number of people, a business, or an event.
+2. Size and Color: The size and color of the symbols can vary to convey different magnitudes or categories. Larger or differently colored symbols can indicate higher values or different categories.
+3. Geographic Context: Symbols are placed on the map according to their geographic locations. This helps visualize how data points are distributed across different regions.
+
+Comparing Values: Symbol maps allow users to see patterns, trends, and distributions of the data across different areas. They are useful for understanding spatial relationships and concentrations.
+
+</details>
+
+<details>
+
+<summary>Potential open-source use cases of symbol map</summary>
+
+Tracking outbreak in armed clashes in a region or disease outbreaks
+
+Armed clashes in a region: Symbol maps can visualize and analyze the distribution and frequency of armed clashes across various regions in a country over a specified period.
+
+Disease Outbreaks: If tracking a disease outbreak, symbols could represent the number of reported cases in various locations, helping to visualize areas with higher or lower case numbers.
+
+</details>
 
 ## Cost
 
