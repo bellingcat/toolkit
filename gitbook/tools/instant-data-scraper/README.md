@@ -1,16 +1,16 @@
 ---
-description: A brief one line description of this tool
+description: Browser extension for simple web scraping, with table output
 ---
 
 # Instant Data Scraper
 
 ## URL
 
-https://example.com
+{% embed url="https://webrobots.io/instantdata/" %}
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Instant Data Scraper is a browser plug-in that works with Microsoft Edge or Chrome based browsers. It allows users to scrape data from a web page, across pages, or with a dynamic crawl for lists that do not load in their entirety, and exports the results as a file into a .csv or .xlsx file to your local storage, without the need to understand how to code. The tool also allows you to choose which table on a page is being scraped.
 
 ## Cost
 
@@ -18,7 +18,7 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+
 
 ## Level of difficulty
 
@@ -26,23 +26,33 @@ https://example.com
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+Widows Edge or Chrome based browsers (Chrome, Brave).
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+The tool works on most pages, however it is dependent on the page hosting information in a table based format. The tool is also limited to content that is available via a webpage.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Scraping data from a webpage can often include information that is not relevant to an investigation, such as account data for users that are not associated with the target of an investigation. Discretion should be used to protect unrelated entities.
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+{% embed url="https://www.facebook.com/groups/instantdata/" %}
+
+* Install the plugin on your browser
+* Navigate your browser to the web page you would like to scrape
+* Click on the Instant Data Scraper icon at the top right of your browser window
+  * A dialogue box will appear and highlight a table on the web page to be scraped
+    * If this is not the table you wish to scrape, click "Try Another Table" in the dialogue box
+* If the table continues past where it has loaded on your browser, check the box for  "Infinite Scroll" and then click the "Start crawling"
+* If the table continues on additional pages, click the "Locate 'Next' button" button
+* When the tool finishes scraping, click the button for  "CSV," or "XLSX," or "Copy All," depending on how you would like to receive the data
+* Name the file and save, OR copy the data into another spreadsheet tool.
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Web Robots is a company that offers professional web scraping services for a fee. The Instant Data Scraper tool is their free offering.
 
 ## Advertising Trackers
 
@@ -50,8 +60,7 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer |
+| --------------- |
+| Cass            |
+|                 |
