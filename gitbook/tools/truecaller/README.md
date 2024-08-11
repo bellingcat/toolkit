@@ -75,6 +75,7 @@ NOTE: To use Truecaller’s features, especially on the mobile app, users typica
 
 1. Either a Gmail or Microsoft email account
 2. Mobile or desktop device
+3. If using the mobile app, requires Android 4.4 or higher, or iOS 15 or higher.&#x20;
 
 ## Limitations
 
