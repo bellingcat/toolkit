@@ -51,7 +51,7 @@ Datawrapper includes this step to allow users to verify the accuracy of their up
 
 <details>
 
-<summary>Example Verification Steps</summary>
+<summary>Sample Steps for Checking Your Data</summary>
 
 Suppose you’re using Datawrapper to create a chart showing the number of armed conflict incidents reported in various countries over the past year. After uploading your data, Datawrapper prompts you to review it.
 
