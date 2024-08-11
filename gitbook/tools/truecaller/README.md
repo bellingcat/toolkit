@@ -1,8 +1,8 @@
 ---
 description: >-
   Truecaller is a caller ID app that identifies incoming calls, blocks unwanted
-  numbers and helps manage phone book contacts. It also gathers phone numbers
-  and names from contact lists.
+  numbers and gathers phone numbers and names from contact lists. It also
+  performs reverse phone number search.
 ---
 
 # TrueCaller
