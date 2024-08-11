@@ -260,7 +260,7 @@ Disease Outbreaks: If tracking a disease outbreak, symbols could represent the n
 
 </details>
 
-Prepare your data (do not skip this step): Whether you are using your own data or using data from an external source, it is important to make sure the data has all the information required by Datawrapper. For symbol maps, “[Datawrapper](https://academy.datawrapper.de/article/114-how-to-create-a-symbol-map-in-datawrapper) will need  (1)addresses/place names or (2) latitudes/longitudes to know where you want your points to be.” Users should be as specific as possible.&#x20;
+&#x20;
 
 {% hint style="warning" %}
 NOTE: **Prepare your data (do not skip this step)**: Whether you are using your own data or using data from an external source, it is important to make sure the data has all the information required by Datawrapper. For symbol maps, “[Datawrapper](https://academy.datawrapper.de/article/114-how-to-create-a-symbol-map-in-datawrapper) will **need**  **(1)addresses/place names or (2) latitudes/longitudes** to know where you want your points to be.” Users should be as specific as possible.&#x20;
