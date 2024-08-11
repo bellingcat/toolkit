@@ -61,9 +61,6 @@ NOTE: To use Truecaller’s features, especially on the mobile app, users typica
 * Public online directories - This app may also gather information form publicly available online directories and search engines&#x20;
 * Partnerships - Truecaller has some partnerships with [third party platforms](https://www.vanguardngr.com/2018/03/truecaller-vconnect-collaborate-business-app/) and can access certain data this way.  &#x20;
 
-\
-
-
 ## Cost
 
 * [x] Free
@@ -81,11 +78,12 @@ NOTE: To use Truecaller’s features, especially on the mobile app, users typica
 
 ## Limitations
 
-
+1. Limited Search Requests on Web Interface: Truecaller users doing searches on the web interface rather than the mobile app can only do a limited amount of reverse phone number lookups before it suggests downloading the mobile app. (The tool provider does not specify what the quota is, but users will get an “[exceeded attempts](https://www.truecaller.com/reverse-phone-number-lookup)” message)&#x20;
+2. [Mixed Accuracy of Names:](https://www.truecaller.com/blog/features/how-truecallers-caller-id-works-your-questions-answered) Because the data is crowd-sourced or manually entered by users, the name will sometimes depend on how it appears on other people’s phonebook. For example, a Truecaller user permits access to his/her phonebook, and the phone number of an individual under investigation is labeled “Neighbor”, then it will appear as Neighbor in the contact list.&#x20;
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+
 
 ## Guides and articles
 
