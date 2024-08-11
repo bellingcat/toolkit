@@ -32,7 +32,16 @@ This app has several features, but for open-source community, these features are
 * **Ease of use and access** - Ability to sign up with just a Gmail or Microsoft Live account, with no paywall and or SMS verification required. This means to use reverse phone number lookup, users do not have to provide a phone number.&#x20;
 * **Web Interface** - This is one of the few “contact book apps” that has a web interface, and does not require users to only use their mobile app.
 
-#### _How Truecaller Builds Its Database_ 
+### Use Case: Digital Footprint Tracing Through Reverse Phone Number Search
+
+Open-source researchers can use the reverse phone number lookup when trying to ID an actor in an incident. If, for instance, researchers have a telephone number as a lead in their investigations, they can use this tool to generate more leads. Ostensibly, a reverse phone number search **may** produce a name and a location . &#x20;
+
+Truecaller has been used in this Bellingcat investigation:
+
+* Identifying the Russian GRU Commander associated with the MH17 crash: [https://www.bellingcat.com/news/uk-and-europe/2018/05/25/mh17-russian-gru-commander-orion-identified-oleg-ivannikov/](https://www.bellingcat.com/news/uk-and-europe/2018/05/25/mh17-russian-gru-commander-orion-identified-oleg-ivannikov/) \
+
+
+### _How Truecaller Builds Its Database_ 
 
 Truecaller primarily builds its vast database through a combination of user-contributed data and public directories.
 
@@ -61,11 +70,9 @@ NOTE: To use Truecaller’s features, especially on the mobile app, users typica
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
@@ -85,7 +92,9 @@ NOTE: To use Truecaller’s features, especially on the mobile app, users typica
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Truecaller
+
+Sweden
 
 ## Advertising Trackers
 
@@ -93,7 +102,7 @@ NOTE: To use Truecaller’s features, especially on the mobile app, users typica
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| Afton           |
+|                 |
