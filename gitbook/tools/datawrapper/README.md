@@ -12,7 +12,7 @@ https://www.datawrapper.de/
 
 ## Description
 
-The purpose of the tool is to help users convert raw data into interactive and visually appealing graphics without advanced technical skills. According to the Datawrapper co-founder:  &#x20;
+The purpose of the tool is to help users convert raw data into interactive and visually appealing graphics without advanced technical skills. According to a Datawrapper co-founder:  &#x20;
 
 "\[[t\]he idea is that you have a two-minute interaction with the tool](https://www.icij.org/inside-icij/2018/08/nine-essential-tools-from-icijs-data-journalism-and-programming-experts/)”. Its audience is primarily journalists, researchers, and data analysts to assist in communicating data insights effectively. The International Consortium of Investigative Journalism [said that](https://www.icij.org/inside-icij/2018/08/nine-essential-tools-from-icijs-data-journalism-and-programming-experts/) Datawrapper "an open source tool for anyone who wants to create a chart or map from their data, came out of the knowledge that expecting every journalist to know code is unrealistic."
 
@@ -136,7 +136,7 @@ These maps can visually represent complex data, making understanding and communi
 
 The types of maps you can produce are: Choropleth map, Symbol map, and Locator map.&#x20;
 
-### _**Choropleth maps**_
+### _**Choropleth map**_
 
 &#x20;A type of thematic map in which areas (such as countries, states, or regions) are shaded or patterned in proportion to the value of a specific variable. The purpose of a choropleth map is to visually represent the distribution of a variable across different geographic areas.
 
@@ -163,7 +163,7 @@ So, when you look at the map, you can easily see which areas have the best inter
 
 #### **Select your map**
 
-This step allows users to select what kind of base map is needed for data visualization. The Datawrapper list of maps contains a huge selection. The types of maps available are: World maps, regional maps, and country maps. As a plus. some countries have different subtypes available as well. For instance,  Argentina  also includes a map divided by departments, or by electoral districts, by provinces. It also has available a map subtype that is city-specific such as the Argentina - Buenos Aires Metropolitan Area.&#x20;
+This step allows users to select what kind of base map is needed for data visualization. The Datawrapper list of maps contains a huge selection. The types of maps available are: World maps, regional maps, and country maps. As a plus. some countries have different subtypes available as well. For instance,  Argentina also includes a map divided by departments, or by electoral districts, by provinces. It also has available a map subtype that is city-specific such as the Argentina - Buenos Aires Metropolitan Area.&#x20;
 
 {% hint style="success" %}
 TIP: Users can also upload their own maps. However, this is a slightly advanced feature and may consult [this guide.](https://academy.datawrapper.de/article/145-how-to-upload-your-own-map)
@@ -187,7 +187,7 @@ NOTE: The pre-made table seems to depend on the kind of map you select in the pr
 
 _**Step 2 - Match:**_ To use the map, your data needs to have information like country names, short names, and codes. In this step, choose the preferred naming convention for countries. In addition, make sure you have all the columns and rows you need to display your data.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-09 235302.png" alt="" width="375"><figcaption><p>In this image, the user is creating a map showing the top 10 countries with the fastest internet speed.  The user chooses a world map. A CSV file is then uploaded. The table is automatically populated with a list of countries. Under the "Match" Tab,  we make sure that Column A corresponds to the name of the Country/Territory, and Column B corresponds to the values -- in this case the "median download speed" of the internet in each country. Notice that this will automatically use the first row for labels (we selectd this by tickig the box on the top left)  (NOTE: The data on this image is for demonstration purposes only) </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-08-09 235302.png" alt="" width="375"><figcaption><p>In this image, the user is creating a map showing the top 10 countries with the fastest internet speed.  The user chooses a world map. A CSV file is then uploaded. The table is automatically populated with a list of countries. Under the "Match" Tab,  we make sure that Column A corresponds to the name of the Country/Territory, and Column B corresponds to the values -- in this case the "median download speed" of the internet in each country. Notice that this will automatically use the first row for labels (we selected this by ticking the box on the top left)  (NOTE: The data on this image is for demonstration purposes only) </p></figcaption></figure>
 
 {% hint style="info" %}
 NOTE: If the user does not use the rest of the countries/locations on the list, they will be grayed out in the map.
@@ -229,7 +229,7 @@ Below is a sample interactive symbol map to demonstrate what the final product m
 
 
 {% embed url="https://datawrapper.dwcdn.net/UKoIL/3/" %}
-This is an example of a interactive choropleth map using data from Ookla on internet speeds by country in 2023 (via Wikipedia). Users can hover over each details to see more information. Darker colors represent faster speeds, and lighter color represents slightly slower speeds. (NOTE: This map and data is for demonstration purposes only)
+This is an example of an interactive choropleth map using data from Ookla on internet speeds by country in 2023 (via Wikipedia). Users can hover over each detail to see more information. Darker colors represent faster speeds, and lighter colors represent slightly slower speeds. (NOTE: This map and data are for demonstration purposes only)
 {% endembed %}
 
 ### _**Symbol map**_
@@ -254,9 +254,9 @@ Comparing Values: Symbol maps allow users to see patterns, trends, and distribut
 
 Tracking outbreak in armed clashes in a region or disease outbreaks
 
-Armed clashes in a region: Symbol maps can visualize and analyze the distribution and frequency of armed clashes across various regions in a country over a specified period.
+_Armed clashes in a region:_ Symbol maps can visualize and analyze the distribution and frequency of armed clashes across various regions in a country over a specified period.
 
-Disease Outbreaks: If tracking a disease outbreak, symbols could represent the number of reported cases in various locations, helping to visualize areas with higher or lower case numbers.
+_Disease Outbreaks:_ If tracking a disease outbreak, symbols could represent the number of reported cases in various locations, helping to visualize areas with higher or lower case numbers.
 
 </details>
 
@@ -279,8 +279,6 @@ Example of specificity of **addresses/place names** as provided by the [tool](ht
 {% endhint %}
 
 The steps on creating a symbol map are very similar to the steps on the choropleth map (See above). There is a slight difference in the “Visualize” section of symbol maps. Click on each tab below to see the different features.&#x20;
-
-
 
 {% tabs %}
 {% tab title="Refine" %}
@@ -305,8 +303,15 @@ Similarly, the final tab is Layout customization.  The key features are:&#x20;
 {% endtab %}
 {% endtabs %}
 
-\
+Below is a sample symbol map. After doing the steps outlined above, the symbol map should look something like this:
 
+{% embed url="https://datawrapper.dwcdn.net/aXyPY/3/" %}
+This is a sample interactive symbol map generated through Datawrapper. We first went to ACLED to download our data, which we then uploaded as a CSV file on the tool. We have chosen “spikes” as a symbol to demonstrate the number of armed clashes during a short timeframe in Burkina Faso. We have customized the look of the map to provide more info to a reader who may be unfamiliar with the region. We have included visible regional boundaries and, an inset map (a world map to show where Burkina Faso is relative to the rest of the world). We have also included a zoom option and social media share options. More importantly, we have annotated it in such a way that we provide a title, description, and data source for the readers.
+{% endembed %}
+
+### Locator Map
+
+### &#x20;
 
 ## Cost
 
