@@ -81,14 +81,29 @@ NOTE: To use Truecaller’s features, especially on the mobile app, users typica
 
 1. Limited Search Requests on Web Interface: Truecaller users doing searches on the web interface rather than the mobile app can only do a limited amount of reverse phone number lookups before it suggests downloading the mobile app. (The tool provider does not specify what the quota is, but users will get an “[exceeded attempts](https://www.truecaller.com/reverse-phone-number-lookup)” message)&#x20;
 2. [Mixed Accuracy of Names:](https://www.truecaller.com/blog/features/how-truecallers-caller-id-works-your-questions-answered) Because the data is crowd-sourced or manually entered by users, the name will sometimes depend on how it appears on other people’s phonebook. For example, a Truecaller user permits access to his/her phonebook, and the phone number of an individual under investigation is labeled “Neighbor”, then it will appear as Neighbor in the contact list.&#x20;
+3. User Privacy Concerns: According to this [article](https://techpoint.africa/2019/12/18/truecaller-data-developer-dive/), the app may be uploading your device information into their servers, and that the app may be using an unsecured method of uploading those data.
 
 ## Ethical Considerations
 
+1. Use and misuse of information:
+
+Because this tool contains personal identifiable information, it is crucial to understand that using Truecaller must adhere to legal and ethical guidelines before proceedings. It is also advisable that users double check privacy laws prior to using info in this any investigation.&#x20;
+
+2. Other privacy related issues:&#x20;
+
+This [article](https://techcabal.com/2018/05/02/your-data-is-our-data-a-truecaller-breakdown/) talks about the trade-off users make when using this tool: “So, say your friend downloads the Truecaller app and shares their phonebook with the app, that data is uploaded to Truecallers database and is in turn available to other people who use the service. Cool. But what you may not know is that by sharing his/her phonebook with Truecaller, your friend has also shared your name and number with its database. Maybe even your email.”&#x20;
+
+What this means is that, whether you use the service or not, and regardless of whether you delete your data from Truecaller's database, your information can still reappear. If even one person with your number registers for Truecaller, your details could be added back into the system. Additionally, if you don't use Truecaller, you can't verify if the company has your data.&#x20;
+
+Moreover, the [privacy policy](https://www.truecaller.com/privacy/our-privacy-policy/privacy-policy/row) seems to imply that if you share someone else's personal information with us, you must ensure they are aware of and consent to our use of their data. (“By accepting the Truecaller Privacy Policy and/or using the Services You consent to the collection, use, sharing and processing of personal information as described herein. If You provide us with personal information about someone else, You confirm that they are aware that You have provided their information and that they consent to our use of their information according to our Privacy Policy”)
+
+## Guides&#x20;
+
+Bellingcat guide: “Using Phone Contact Book Apps For Digital Research”, Aric Toler
+
+[https://www.bellingcat.com/resources/how-tos/2019/04/08/using-phone-contact-book-apps-for-digital-research/](https://www.bellingcat.com/resources/how-tos/2019/04/08/using-phone-contact-book-apps-for-digital-research/)
 
 
-## Guides and articles
-
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
 
 ## Tool provider
 
