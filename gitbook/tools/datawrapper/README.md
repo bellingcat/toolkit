@@ -263,7 +263,7 @@ Disease Outbreaks: If tracking a disease outbreak, symbols could represent the n
 &#x20;
 
 {% hint style="warning" %}
-NOTE: **Prepare your data (do not skip this step)**: Whether you are using your own data or using data from an external source, it is important to make sure the data has all the information required by Datawrapper. For symbol maps, “[Datawrapper](https://academy.datawrapper.de/article/114-how-to-create-a-symbol-map-in-datawrapper) will **need**  **(1)addresses/place names or (2) latitudes/longitudes** to know where you want your points to be.” Users should be as specific as possible.&#x20;
+**NOTE #1:** **Prepare your data (do not skip this step)**: Whether you are using your own data or using data from an external source, it is important to make sure the data has all the information required by Datawrapper. For symbol maps, “[Datawrapper](https://academy.datawrapper.de/article/114-how-to-create-a-symbol-map-in-datawrapper) will **need**  **(1)addresses/place names or (2) latitudes/longitudes** to know where you want your points to be.” Users should be as specific as possible.&#x20;
 
 
 
@@ -274,13 +274,36 @@ Example of specificity of **addresses/place names** as provided by the [tool](ht
 * Zip Code: 11212, Kings County, New York
 * County: Kings County, New York
 * State/Land: New York State, USA
+
+**NOTE #2:** **Use latitude/longitude coordinates for better precision**. According to the tool, uploading latitudes and longitudes ensures accurate mapping because city names can be ambiguous or duplicated. For instance, the name "Vancouver" could refer to cities in different locations, like Vancouver, Canada, or Vancouver, Washington. Geocoders, including Datawrapper, might default to the most prominent city with that name unless precise coordinates are provided. By using latitudes and longitudes, you ensure that the exact locations are mapped correctly, avoiding confusion from similar or differently named places.
 {% endhint %}
-
-
 
 The steps on creating a symbol map are very similar to the steps on the choropleth map (See above). There is a slight difference in the “Visualize” section of symbol maps. Click on each tab below to see the different features.&#x20;
 
 
+
+{% tabs %}
+{% tab title="Refine" %}
+* Customize symbols of your choice and their size.&#x20;
+* Users can also customize the colors, and choose the column you want to be highlighted on the map. For example, if looking at incidents of armed clashes in Burkina Faso, a user might want to highlight how many of those are civilian targeting. In this case, select the column “civilian targeting”. &#x20;
+* Customize map features: by making map zoomable, by including an “inset map” to provide context on the location for those not familiar
+{% endtab %}
+
+{% tab title="Annotate" %}
+Just like in charts, this section is critical for providing context on your data. It includes putting a Title, Description, Notes, and, most importantly, the Data Source and links to the Data source, if available.
+
+\
+TIP: The “Notes” section can be useful for explaining limitations to data sources, margin of errors or other caveats that should be transparent to readers.&#x20;
+{% endtab %}
+
+{% tab title="Layout" %}
+Similarly, the final tab is Layout customization.  The key features are:&#x20;
+
+* Availability to produce output in different languages&#x20;
+* &#x20;Customize the footer section of the chart to include links to data source download, image download options
+* Ability to include a shareable link and social media share buttons&#x20;
+{% endtab %}
+{% endtabs %}
 
 \
 
