@@ -370,6 +370,19 @@ NOTE: Every marker's position is fixed to the map's position; if you move the ma
 TIP: Users can adjust the zoom level, rotation, tilt, and height of the map. Decreasing the tilt can show mountains if the location has dramatic terrain.
 {% endhint %}
 
+**Add Annotations**
+
+* Labels: Add labels to your markers by clicking on them and entering the location name.
+* Pop-ups: Create informative pop-ups for each marker by adding additional details such as descriptions, images, or links.
+* Legend/ “Map Key”: Include a legend to explain the meaning of different marker types or colors if necessary.
+
+**Publish and Embed**
+
+* Once you're satisfied with your map, click on "Publish."
+* Choose the desired embed code format (HTML, iframe, etc.) to integrate the map into your website or other platforms.
+
+NOTE: Locator maps can be exported in GeoJSOn format
+
 ## Cost
 
 * [ ] Free
