@@ -436,6 +436,26 @@ Tables are highly versatile data visualization tools, allowing for the inclusion
 
 </details>
 
+### COLLABORATION AND TEAMS&#x20;
+
+Datawrapper offers team features, enabling multiple users to work together on visualizations. This is particularly useful for investigative teams, allowing for shared insights and efficient workflow. It is also especially useful for collaboration within one organization and in instances where a team from one organization partners with a team from another organization. &#x20;
+
+Detailed instructions on creating and managing Teams in Datawrapper, can be found here: [https://academy.datawrapper.de/article/209-how-to-create-a-team](https://academy.datawrapper.de/article/209-how-to-create-a-team) and [https://academy.datawrapper.de/article/217-what-are-teams](https://academy.datawrapper.de/article/217-what-are-teams). However, below is a summary of those steps and some important caveats. &#x20;
+
+{% hint style="info" %}
+NOTE #1: According to the tool provider: If you create a team, you will automatically be the team owner – and every member of a team can use the features of the team owner's pricing plan. For example, if you bought a Custom plan with two custom design themes, and you create a team, everybody in your team will be able to create charts with these two themes, use the PDF export, and use all other Custom features.
+
+NOTE #2: Even as a “team owner,” members you have invited have the ability to edit the visualizations. Every member can edit, publish, or embed any visualization in a team folder.
+{% endhint %}
+
+**(Click between tabs to see steps)**
+
+\
+
+
+\
+
+
 ## Cost
 
 * [ ] Free
