@@ -19,6 +19,26 @@ ShadowMap calculates shadow locations in real time and displays them on a 3D til
 
 A range of more  advanced functions are spread across 3 further paid versions with increasing numbers of features.
 
+
+
+{% tabs %}
+{% tab title="FREE VERSION" %}
+<figure><img src=".gitbook/assets/VersionsTablefREE1.jpg" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="EXPLORER" %}
+<figure><img src=".gitbook/assets/VersionsTableEXPLORER2.jpg" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="HOME" %}
+<figure><img src=".gitbook/assets/VersionsTableHOME3 (1).jpg" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="STUDIO" %}
+<figure><img src=".gitbook/assets/VersionsTableSTUDIO4.jpg" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
 The free version allows the user to change the time of day, but is fixed to use the date at which it is being used.
 
 The paid "Explorer" version
