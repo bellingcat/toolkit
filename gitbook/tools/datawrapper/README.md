@@ -313,6 +313,25 @@ This is a sample interactive symbol map generated through Datawrapper. We first 
 
 ### Locator Map
 
+Before we dive into the process, it's essential to clarify what a locator map is. A locator map is a small map that shows the location of a specific area within a larger context. It's often used to orient viewers and provide a geographical perspective. According to[ the tool provide](https://academy.datawrapper.de/article/161-how-to-create-a-locator-map)r, “They are a great choice if you want to show where something is located or happened.”
+
+<details>
+
+<summary>Possible open-source use case for locator maps</summary>
+
+Locator maps are essential tools for open-source investigators. They provide a visual context for data, helping to: &#x20;
+
+* [Visualize Geographic Scope](https://www.aktek.io/blog/using-location-intelligence-in-open-source-investigations): Understand the spread of events or information across a region.
+* Identify Patterns: Recognize trends or clusters in data distribution.
+* [Corroborate Information:](https://www.aktek.io/blog/using-location-intelligence-in-open-source-investigations) Compare different data sets to verify accuracy and completeness.
+* [Communicate Findings ](https://www.aktek.io/blog/using-location-intelligence-in-open-source-investigations) (Especially of Geolocated Incidents In Conflicts or Violent Protests) Effectively convey complex information to audiences through visual storytelling.
+
+By placing data in a geographic context, investigators can gain deeper insights and uncover hidden connections.  &#x20;
+
+For example: [An article ](https://www.bbc.com/news/world-middle-east-60691503)showing mass demolitions and forced evictions in Jeddah, Saudi Arabia, may benefit from showing the different locations of demolished buildings in the neighborhood. &#x20;
+
+</details>
+
 ### &#x20;
 
 ## Cost
