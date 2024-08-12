@@ -17,9 +17,7 @@ description: >-
 
 ShadowMap calculates shadow locations in real time and displays them on a 3D tilting map, showing arcs of azimuth and elevation angles along the sun's path.&#x20;
 
-A range of more  advanced functions are spread across 3 further paid versions with increasing numbers of features.
-
-
+A range of more  advanced functions are spread across 3 further paid versions with increasing numbers of features - see the table below, with a tab for each version explaining funcationality.
 
 {% tabs %}
 {% tab title="FREE VERSION" %}
@@ -39,9 +37,13 @@ A range of more  advanced functions are spread across 3 further paid versions wi
 {% endtab %}
 {% endtabs %}
 
-The free version allows the user to change the time of day, but is fixed to use the date at which it is being used.
+The Main Differences are:
 
-The paid "Explorer" version
+The Explorer version allows any input date and time, past or future
+
+The Home version includes 3D buildings in 3 cities, plus satellite backround maps
+
+The Studio version allows 3D user model upload and Google hi-res satellite imagery
 
 {% tabs %}
 {% tab title="INPUT DATA" %}
