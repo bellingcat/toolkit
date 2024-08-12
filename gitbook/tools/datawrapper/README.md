@@ -228,8 +228,6 @@ Similarly, the final tab under “Visualize”  is Layout customization.  The ke
 
 Below is a sample interactive symbol map to demonstrate what the final product may look like:
 
-
-
 {% embed url="https://datawrapper.dwcdn.net/UKoIL/3/" %}
 This is an example of an interactive choropleth map using data from Ookla on internet speeds by country in 2023 (via Wikipedia). Users can hover over each detail to see more information. Darker colors represent faster speeds, and lighter colors represent slightly slower speeds. (NOTE: This map and data are for demonstration purposes only)
 {% endembed %}
@@ -332,7 +330,13 @@ For example: [An article ](https://www.bbc.com/news/world-middle-east-60691503)s
 
 </details>
 
-### &#x20;
+Below are the main steps for creating locator maps:
+
+#### **Data Preparation**
+
+* Identify locations: Determine the specific locations you want to highlight on your map.
+* Gather coordinates: Collect the latitude and longitude coordinates for each location. You can use tools like Google Maps to obtain this information.
+* Prepare data: Organize your location data into a CSV or Excel file with columns for latitude, longitude, and location name (optional).
 
 ## Cost
 
