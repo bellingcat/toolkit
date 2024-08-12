@@ -338,6 +338,27 @@ Below are the main steps for creating locator maps:
 * Gather coordinates: Collect the latitude and longitude coordinates for each location. You can use tools like Google Maps to obtain this information.
 * Prepare data: Organize your location data into a CSV or Excel file with columns for latitude, longitude, and location name (optional).
 
+**Create a New Map**
+
+* Log in to your Datawrapper account or create a new one.
+* Click on "Start Creating" and then select "New Map."
+* Choose the "Locator Map" option.
+
+**Add Markers**
+
+Markers are [“the symbols, lines, areas, and/or text that you add on top of the map.”](https://academy.datawrapper.de/article/161-how-to-create-a-locator-map)&#x20;
+
+{% hint style="info" %}
+NOTE: Every marker's position is fixed to the map's position; if you move the map view, the markers will move along with it.&#x20;
+{% endhint %}
+
+* &#x20;Click on the "Add Markers" button.
+* You have two options:
+*
+  * Manual input: Enter the latitude and longitude coordinates for each location directly into the fields.
+  * Upload CSV: If you prepared your data in a CSV, upload it here. Datawrapper will automatically populate the map with markers based on the latitude and longitude columns.
+* Customize marker appearance (color, size, icon) as needed.
+
 ## Cost
 
 * [ ] Free
