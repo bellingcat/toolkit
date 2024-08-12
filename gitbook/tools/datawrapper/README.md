@@ -529,7 +529,44 @@ The difficulty level also increases as your dataset gets more complicated. The d
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+**1. Charts:**
+
+* _**Data Skills:**_ Creating clear charts might require some knowledge of Excel formulas and data formatting. Uploading messy data can lead to unexpected results.Datawrapper has a list of troubleshooting issues that seem to be related to how CSV files are formatted prior to uploading them. [https://academy.datawrapper.de/article/89-prevent-excel-from-changing-numbers-into-dates](https://academy.datawrapper.de/article/89-prevent-excel-from-changing-numbers-into-dates) and https://academy.datawrapper.de/article/109-undefined-what-it-means-and-what-to-do
+* _**Missing Data:**_ Line charts might show gaps if your data has missing values. This isn't always a bad thing, but it's important to understand why the gaps appear.
+  * Patchy data in line charts sometimes appear if the dataset is missing values. Sometimes it is because there is no data available  (in which case Datawrapper does not want to mislead by filling in a connection between one data point to another). Sometimes it is because of problems formatting the data. ([https://academy.datawrapper.de/article/321-patchy-data](https://academy.datawrapper.de/article/321-patchy-data))&#x20;
+
+**2. Maps:**
+
+* _**Geocoding Knowledge:**_ You'll need a basic understanding of geocoding, which is the process of converting addresses to map locations.
+* _**Geocoding Accuracy:**_ Datawrapper's geocoder isn't perfect. Some locations might be misplaced. Knowing the exact coordinates of a place can help avoid errors.
+
+Datawrapper’s geocoder is not 100% reliable. Geocoding is like turning an address into a point on a map. It helps computers understand where places are. While it's usually pretty good, it's not always perfect. Sometimes the computer guesses wrong about where a place is. However, mitigate this by knowing the coordinates of a location ahead of time. ([https://academy.datawrapper.de/article/193-symbol-location-accuracy-using-addresses-place-names](https://academy.datawrapper.de/article/193-symbol-location-accuracy-using-addresses-place-names))
+
+* _**Base Map Issues:**_ Datawrapper might have trouble displaying certain base maps if the data format is unusual.
+  * Datawrapper mentions that “if there is a slash in one of the country descriptions, e.g. "Bosnia/Herzegovina", it might cause Datawrapper to not parse the data properly. If you get rid of the slash and write "Bosnia and Herzegovina", the data will load properly.” [https://academy.datawrapper.de/article/220-my-choropleth-symbol-maps-doesnt-load](https://academy.datawrapper.de/article/220-my-choropleth-symbol-maps-doesnt-load) &#x20;
+* _**Map Zoom Levels:**_ Setting map zoom levels correctly is crucial. If not done right, labels might disappear when zooming in or out, confusing viewers.
+  * Some map features and their functions are not immediately obvious to the user. For example, errors appear when making the map zoomable. Map labels sometimes do not appear at all.&#x20;
+  * When you embed a map, it starts at a zoomed-out view. This is okay for a general overview, but it can be difficult to see details. Zooming in lets you explore specific areas.
+  * If you don't set it up right, important information like city names or labels might disappear when you zoom in or out. This can be confusing for people trying to understand your map.
+  * Datawrapper explains that “but you will find that the map labels don't show up before you either zoom in or set the minimum zoom for labels to 1” To avoid this, you need to make sure the labels are visible by setting it to 1 no matter how much people zoom in or out. ([https://academy.datawrapper.de/article/238-my-map-labels-dont-show-up](https://academy.datawrapper.de/article/238-my-map-labels-dont-show-up))&#x20;
+
+**3. General:**
+
+* _**Data Preparation:**_ Data needs to be well-organized and clean for Datawrapper to work effectively. This might require some data analysis skills or a good understanding of your data and its purpose. Uploading messy data can lead to delays and errors.&#x20;
+  * Prepping and organizing data requires some background in data analysis or, alternatively, a really good understanding of your data and what you want to highlight. This is particularly an issue because Datawrapper can take time to load data and is prone to formatting errors. According to this, “Training staff and extracting meaningful insights post-visualization are additional hurdles.”&#x20;
+
+([https://www.analyticodigital.com/blog/top-data-visualization-tools-a-comparative-analysis](https://www.analyticodigital.com/blog/top-data-visualization-tools-a-comparative-analysis))
+
+* _**Data Limits:**_ Datawrapper works best with smaller datasets. Uploading very large datasets can lead to slow loading times and lag. [https://academy.datawrapper.de/article/310-max-size-for-data-upload](https://academy.datawrapper.de/article/310-max-size-for-data-upload)&#x20;
+* _**Updates:**_ You can't update visualizations once published. However, you can update the data each time you open the chart before republishing.
+* _**Translations:**_ Datawrapper can translate the built-in features of the tool, but not the content you manually enter (like the chart title). This can be confusing for viewers in different languages.
+  * However, it  translates the built-in features of the tool itself. For example, the chart's title is usually inputted manually by the user. If this title is in English, this will not be translated once users choose an output locale in a different language. Things like measurements(miles/kilometers), name countries, distance, and date formatting are all part of the tool and will therefore be translated if specified in the output locale.&#x20;
+* _**Privacy:**_ Even if you cancel your subscription or delete your account, your visualizations will remain online.
+* _**Single Sign-On:**_ Free and custom plans don't offer a central login system for managing user access.
+
+For more details on troubleshooting issues, check out Datawrapper's resources:
+
+* [https://academy.datawrapper.de/category/83-troubleshooting?sort=custom](https://academy.datawrapper.de/category/83-troubleshooting?sort=custom)
 
 ## Ethical Considerations
 
