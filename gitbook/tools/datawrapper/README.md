@@ -353,11 +353,22 @@ NOTE: Every marker's position is fixed to the map's position; if you move the ma
 {% endhint %}
 
 * &#x20;Click on the "Add Markers" button.
-* You have two options:
-*
-  * Manual input: Enter the latitude and longitude coordinates for each location directly into the fields.
-  * Upload CSV: If you prepared your data in a CSV, upload it here. Datawrapper will automatically populate the map with markers based on the latitude and longitude columns.
+*   You have two options:
+
+    (1) Manual input: Enter the latitude and longitude coordinates for each location directly into the fields.
+
+    (2) Upload CSV: If you prepared your data in a CSV, upload it here. Datawrapper will automatically populate the map with markers based on the latitude and longitude columns.
 * Customize marker appearance (color, size, icon) as needed.
+
+**Design Your Map**
+
+* Base map: Choose an appropriate base map from the available options. Consider the style and level of detail required for your map.
+* Zoom level: Adjust the zoom level to focus on the desired area while providing enough context.
+* Map style: Customize the map appearance with colors, fonts, and other design elements to match your branding or preferences.
+
+{% hint style="success" %}
+TIP: Users can adjust the zoom level, rotation, tilt, and height of the map. Decreasing the tilt can show mountains if the location has dramatic terrain.
+{% endhint %}
 
 ## Cost
 
