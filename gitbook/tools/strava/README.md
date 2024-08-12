@@ -70,6 +70,8 @@ Users may opt out of the aggregate data usage in their privacy settings. Activit
 
 Toler, Aric: How to Use and Interpret Data from Strava's Activity Map, [https://www.bellingcat.com/resources/how-tos/2018/01/29/strava-interpretation-guide/](https://www.bellingcat.com/resources/how-tos/2018/01/29/strava-interpretation-guide/)
 
+Tobitt, Charlotte: Telegraph in IPSO breach with article claiming cyclists were doing 52mph and ‘putting lives at risk’[https://pressgazette.co.uk/the-wire/newspaper-corrections-media-mistakes-errors-legal/telegraph-cyclists-ipso/](https://pressgazette.co.uk/the-wire/newspaper-corrections-media-mistakes-errors-legal/telegraph-cyclists-ipso/)
+
 ## Tool provider
 
 Strava Inc., USA
