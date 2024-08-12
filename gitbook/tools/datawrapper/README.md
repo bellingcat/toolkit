@@ -25,7 +25,7 @@ TIP: It is helpful to check the[ Datawrapper Academy](https://academy.datawrappe
 {% endhint %}
 
 {% hint style="warning" %}
-NOTE: Ensure that your data is organized, complete and refined prior to adding the data on the interface.
+NOTE: Prepare your data. Ensure that your data is organized, complete and refined prior to adding the data on the interface.
 {% endhint %}
 
 ### CHART
@@ -125,7 +125,7 @@ TIP: Once published, any changes to formatting or editing will not be reflected.
 Users will end up with something that looks like this (Area Chart):&#x20;
 
 {% embed url="https://datawrapper.dwcdn.net/w94Ay/1/" %}
-This is a sample “Area Chart” generated from Datawrapper using a sample dataset provided by the tool. It has been published on Datawrapper and embedded in this toolkit description using a URL. This is an interactive chart, and readers can hover over details on the chart to see more information. This chart is also created with an output language in Amharic. It translates built-in features in Amharic, but the data inputted manually in English remains in English. (NOTE: The chart and data on it is for demonstration purposes only)
+This is a sample “Area Chart” generated from Datawrapper using a sample dataset provided by the tool. It has been published on Datawrapper and embedded in this toolkit description using a URL. This is an interactive chart, and readers can hover over details on the chart to see more information. This chart is also created with an output language in Amharic. It translates built-in features into Amharic, but the data inputted manually in English remains in English. (NOTE: The chart and data are for demonstration purposes only)
 {% endembed %}
 
 ### **MAP**
@@ -135,6 +135,8 @@ The map feature in Datawrapper is especially beneficial for open-source investig
 These maps can visually represent complex data, making understanding and communicating findings easier. Investigators can use these maps to track and display various types of information, such as geographic distributions, locations of events, or the spread of certain phenomena over time. The interactive aspect allows viewers to engage with the data, zoom in on specific areas, and access detailed information, which is crucial for transparency and thorough analysis in investigations.
 
 The types of maps you can produce are: Choropleth map, Symbol map, and Locator map.&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2024-08-12 003558.png" alt=""><figcaption><p>These are the map options users have in Datawrapper. Note the description in each type informs users about which maps may best communicate their data. </p></figcaption></figure>
 
 ### _**Choropleth map**_
 
