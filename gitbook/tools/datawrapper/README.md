@@ -134,7 +134,7 @@ The map feature in Datawrapper is especially beneficial for open-source investig
 
 These maps can visually represent complex data, making understanding and communicating findings easier. Investigators can use these maps to track and display various types of information, such as geographic distributions, locations of events, or the spread of certain phenomena over time. The interactive aspect allows viewers to engage with the data, zoom in on specific areas, and access detailed information, which is crucial for transparency and thorough analysis in investigations.
 
-The types of maps you can produce are: Choropleth map, Symbol map, and Locator map.&#x20;
+The types of maps you can produce are: **Choropleth map, Symbol map, and Locator map.**&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-12 003558.png" alt=""><figcaption><p>These are the map options users have in Datawrapper. Note the description in each type informs users about which maps may best communicate their data. </p></figcaption></figure>
 
@@ -306,10 +306,10 @@ Similarly, the final tab is Layout customization.  The key features are:&#x20;
 Below is a sample symbol map. After doing the steps outlined above, the symbol map should look something like this:
 
 {% embed url="https://datawrapper.dwcdn.net/aXyPY/3/" %}
-This is a sample interactive symbol map generated through Datawrapper. We first went to ACLED to download our data, which we then uploaded as a CSV file on the tool. We have chosen “spikes” as a symbol to demonstrate the number of armed clashes during a short timeframe in Burkina Faso. We have customized the look of the map to provide more info to a reader who may be unfamiliar with the region. We have included visible regional boundaries and, an inset map (a world map to show where Burkina Faso is relative to the rest of the world). We have also included a zoom option and social media share options. More importantly, we have annotated it in such a way that we provide a title, description, and data source for the readers.
+This is a sample interactive symbol map generated through Datawrapper. We first went to ACLED to download our data, which we then uploaded as a CSV file on the tool. We have chosen “spikes” as a symbol to demonstrate the number of armed clashes during a short timeframe in Burkina Faso. We have customized the look of the map to provide more info to a reader who may be unfamiliar with the region. We have included visible regional boundaries and an inset map (a world map to show where Burkina Faso is relative to the rest of the world). We have also included a zoom option and social media share options. More importantly, we have annotated it so that we provide a title, description, and data source for the readers. (NOTE: The map is for demonstration purposes only)
 {% endembed %}
 
-### Locator Map
+### _Locator map_
 
 Before we dive into the process, it's essential to clarify what a locator map is. A locator map is a small map that shows the location of a specific area within a larger context. It's often used to orient viewers and provide a geographical perspective. According to[ the tool provide](https://academy.datawrapper.de/article/161-how-to-create-a-locator-map)r, “They are a great choice if you want to show where something is located or happened.”
 
@@ -388,6 +388,8 @@ NOTE: Locator maps can be exported in GeoJSON format
 {% embed url="https://datawrapper.dwcdn.net/aF5Fe/1/" %}
 This is a sample locator map generated in Datawrapper. It shows the locations of various museums one might visit in the city. By highlighting these places with “markers” in red, the reader can see where they are in relation to the rest of the city. (NOTE: This map is for demonstration purposes only)
 {% endembed %}
+
+### TABLE
 
 ## Cost
 
