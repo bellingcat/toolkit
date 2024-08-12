@@ -450,11 +450,30 @@ NOTE #2: Even as a “team owner,” members you have invited have the ability t
 
 **(Click between tabs to see steps)**
 
-\
+{% tabs %}
+{% tab title="Creating a Team" %}
+1. Log in to your Datawrapper account.
+2. Click on the menu icon (☰) and select "My Teams."
+3. Click on the "Create team" button.
+4. Give your team a name and invite members.
+{% endtab %}
 
+{% tab title="Know Which Team You Are Actively Working On" %}
+Before creating a new chart, map, or table on Datawrapper, ensure you're working in the correct team. Check the top right corner to see which team is currently selected (with a checkmark).
 
-\
+[https://academy.datawrapper.de/article/214-how-to-select-the-active-team-and-what-that-means](https://academy.datawrapper.de/article/214-how-to-select-the-active-team-and-what-that-means)
+{% endtab %}
 
+{% tab title="Managing Your Team" %}
+1. Organization: Create folders within your team to keep visualizations organized.
+2. Collaboration: Share visualizations and collaborate with team members in real-time.
+3. Team Settings: Customize team settings, including default folders, notification preferences, and embed code options.
+{% endtab %}
+{% endtabs %}
+
+{% hint style="info" %}
+NOTE: Collaboration in Teams[ is live](https://blog.datawrapper.de/introducing-live-collaboration/). This means all members can access the edits and visualizations simultaneously. Users can see when colleagues are editing, and they can see yours. The edits are associated with an icon showing the account info/picture of the team member.
+{% endhint %}
 
 ## Cost
 
