@@ -278,7 +278,7 @@ Example of specificity of **addresses/place names** as provided by the [tool](ht
 **NOTE #2:** **Use latitude/longitude coordinates for better precision**. According to the tool, uploading latitudes and longitudes ensures accurate mapping because city names can be ambiguous or duplicated. For instance, the name "Vancouver" could refer to cities in different locations, like Vancouver, Canada, or Vancouver, Washington. Geocoders, including Datawrapper, might default to the most prominent city with that name unless precise coordinates are provided. By using latitudes and longitudes, you ensure that the exact locations are mapped correctly, avoiding confusion from similar or differently named places.
 {% endhint %}
 
-The steps on creating a symbol map are very similar to the steps on the choropleth map (See above). There is a slight difference in the “Visualize” section of symbol maps. Click on each tab below to see the different features.&#x20;
+The steps for creating a symbol map are very similar to those for the choropleth map (See above). There is a slight difference in the “Visualize” section of symbol maps. Click on each tab below to see the different features.&#x20;
 
 {% tabs %}
 {% tab title="Refine" %}
