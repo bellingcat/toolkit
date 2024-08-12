@@ -381,7 +381,13 @@ TIP: Users can adjust the zoom level, rotation, tilt, and height of the map. Dec
 * Once you're satisfied with your map, click on "Publish."
 * Choose the desired embed code format (HTML, iframe, etc.) to integrate the map into your website or other platforms.
 
-NOTE: Locator maps can be exported in GeoJSOn format
+NOTE: Locator maps can be exported in GeoJSON format
+
+
+
+{% embed url="https://datawrapper.dwcdn.net/aF5Fe/1/" %}
+This is a sample locator map generated in Datawrapper. It shows the locations of various museums one might visit in the city. By highlighting these places with “markers” in red, the reader can see where they are in relation to the rest of the city. (NOTE: This map is for demonstration purposes only)
+{% endembed %}
 
 ## Cost
 
