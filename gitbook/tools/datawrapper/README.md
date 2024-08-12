@@ -511,7 +511,13 @@ NOTE: However, even the free version includes already robust features and can pe
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
+
+For charts and tables - the difficulty is level 2 out of 5.&#x20;
+
+For maps - the difficulty level can increase from 2 to 3 out of 5.&#x20;
+
+The difficulty level also increases as your dataset gets more complicated. The difficulty level also depends on the detail of customization users want in order to communicate their data in these visualizations. Each visualization type has many features that are not obvious to beginners.&#x20;
 
 ## Requirements
 
