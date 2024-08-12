@@ -475,17 +475,36 @@ Before creating a new chart, map, or table on Datawrapper, ensure you're working
 NOTE: Collaboration in Teams[ is live](https://blog.datawrapper.de/introducing-live-collaboration/). This means all members can access the edits and visualizations simultaneously. Users can see when colleagues are editing, and they can see yours. The edits are associated with an icon showing the account info/picture of the team member.
 {% endhint %}
 
+<details>
+
+<summary>Summary of key features that may be helpful for beginner open-source researchers</summary>
+
+
+
+1. **Platform:** Datawrapper is a web-based tool accessible from any device with internet access.&#x20;
+2. **Integration:** Supports integration with various data sources and formats for data import.&#x20;
+3. **Collaboration:** users can set up teams to collaborate on a project.&#x20;
+4. Free version is very good, has unlimited visualizations and has a lot of powerful features.&#x20;
+5. **Customization:** It provides options for customizing the look and feel of visualizations to match user preferences
+6. **Export Options:** Allows users to export visualizations in static format such as in PNG, PDF, or have an interactive graph in HTML that users can forward to social media, or embed in websites.
+7. **Easy User Interface:** Datawrapper features a straightforward interface, drop down menu and integrated hints and explanation for users.&#x20;
+8. **Support**: Offers well-written tutorials and support resources through their [Datawrapper Academy](https://academy.datawrapper.de/) or through their [training materials](https://www.datawrapper.de/training-materials).&#x20;
+
+</details>
+
 ## Cost
 
 * [ ] Free
 * [x] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+NOTE: However, even the free version includes already robust features and can perform most data visualization tasks very well.
+
+
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
