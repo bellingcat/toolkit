@@ -113,10 +113,12 @@ NOTE on the "Layout" tab: Output locale language does not translate content user
 The final step is to publish the chart. This step is particularly important if users plan to embed it in websites or blogs or share the visualization on social media platforms. Visualizations are private by default unless users publish them. &#x20;
 
 {% hint style="warning" %}
-NOTE: Datawrapper does not share visualizations publicly even after publishing. It becomes visible only if users forward the URL to other individuals or embed them in their websites.&#x20;
+NOTE: Datawrapper does not share visualizations publicly, even after publishing. It becomes visible only if users forward the URL to other individuals or embed them in their websites.&#x20;
+
+Any changes made to the chart will not be visible to the audience until you "republish" the chart.&#x20;
 {% endhint %}
 
-Users can also export or duplicate the visualization. Users can export in PNG (image) format. This is a static and non-interactive version that users can download for printing or for integrating in reports.
+Users can also export or duplicate the visualization. Users can export in PNG (image) format. This is a static and non-interactive version that users can download for printing or integration in reports.
 
 {% hint style="info" %}
 TIP: Once published, any changes to formatting or editing will not be reflected. Users will have to republish their visualization after making any changes, Go to the publish section, and click “Republish.” &#x20;
@@ -390,6 +392,49 @@ This is a sample locator map generated in Datawrapper. It shows the locations of
 {% endembed %}
 
 ### TABLE
+
+Tables are highly versatile data visualization tools, allowing for the inclusion of text, numbers, images, and charts within each cell. This structured approach makes it easier to communicate complex information effectively.
+
+**Prepare Your Data**
+
+* Organize Your Data: Ensure your data is well-organized in a spreadsheet or CSV file. Each column should have a header, and each row should represent a different data point.
+* Check Data Types: Ensure your data is correctly typed (e.g., numerical, text). Datawrapper will automatically recognize these types, which helps format the table correctly.
+
+**Start a New Visualization**
+
+* Click on "Create a New Chart": After logging in, you’ll be taken to the dashboard. Click on the "Create a New Chart" button.
+* Select "Table": Datawrapper offers several chart types, but for this tutorial, select "Table" from the list of options.
+
+**Table Creation**
+
+1. Choose the "Table" chart type.
+2. Customize your table:
+
+* Add a title and description.
+* Adjust column widths and formatting.
+* Use color coding or highlighting for emphasis.
+
+**Data Visualization**&#x20;
+
+* Integrate charts: Add small charts (sparklines) within table cells for visual representation of data trends.
+* Highlight key information: Use conditional formatting to draw attention to specific data points.
+
+**Publishing and Sharing:**
+
+1. Choose a publishing option (embed, share link, download).
+2. Customize the appearance of your table (theme, colors, fonts).
+3. Publish your table and share it with your audience.
+
+<details>
+
+<summary>Additional Tips</summary>
+
+* Keep it simple: Prioritize clarity and readability.
+* Label clearly: Ensure column headers are descriptive and easy to understand.
+* Use whitespace: Enhance readability by adding space between columns and rows.
+* Mobile-friendly: Design your table to be responsive for different screen sizes.
+
+</details>
 
 ## Cost
 
