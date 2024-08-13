@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Radar Interference Tracker](README.md)
+* [Radar Interference Tracker (RIT)](README.md)
 * [Categories](categories.md)
