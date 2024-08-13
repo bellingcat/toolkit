@@ -564,7 +564,7 @@ Datawrapper’s geocoder is not 100% reliable. Geocoding is like turning an addr
 * _**Privacy:**_ Even if you cancel your subscription or delete your account, your visualizations will remain online.
 * _**Single Sign-On:**_ Free and custom plans don't offer a central login system for managing user access.
 
-For more details on troubleshooting issues, check out Datawrapper's resources:
+For more list of limitations, see:
 
 * [https://academy.datawrapper.de/category/83-troubleshooting?sort=custom](https://academy.datawrapper.de/category/83-troubleshooting?sort=custom)
 
