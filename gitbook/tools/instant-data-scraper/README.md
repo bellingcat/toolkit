@@ -1,5 +1,5 @@
 ---
-description: Browser extension for simple web scraping, with table output
+description: Browser extension for simple web scraping, with table output.
 ---
 
 # Instant Data Scraper
@@ -10,7 +10,7 @@ description: Browser extension for simple web scraping, with table output
 
 ## Description
 
-Instant Data Scraper is a browser plug-in that works with Microsoft Edge or Chrome based browsers. It allows users to scrape data from a web page, across pages, or with a dynamic crawl for lists that do not load in their entirety, and exports the results as a file into a .csv or .xlsx file to your local storage, without the need to understand how to code. The tool also allows you to choose which table on a page is being scraped
+Instant Data Scraper is a browser plug-in that works with Microsoft Edge or Chrome based browsers. It allows users to scrape data from a web page, across pages, or with a dynamic crawl for lists that do not load in their entirety, and exports the results as a file into a .csv or .xlsx file to your local storage, without the need to understand how to code. The tool also allows you to choose which table on a page is being scraped.
 
 ## Cost
 
@@ -40,14 +40,14 @@ Scraping data from a webpage can often include information that is not relevant 
 
 {% embed url="https://www.facebook.com/groups/instantdata/" %}
 
-* Install the plugin on your browser
-* Navigate your browser to the web page you would like to scrape
-* Click on the Instant Data Scraper icon at the top right of your browser window
-  * A dialogue box will appear and highlight a table on the web page to be scraped
-    * If this is not the table you wish to scrape, click "Try Another Table" in the dialogue box
-* If the table continues past where it has loaded on your browser, check the box for  "Infinite Scroll" and then click the "Start crawling"
-* If the table continues on additional pages, click the "Locate 'Next' button" button
-* When the tool finishes scraping, click the button for  "CSV," or "XLSX," or "Copy All," depending on how you would like to receive the data
+* Install the plugin on your browser;
+* Navigate your browser to the web page you would like to scrape;
+* Click on the Instant Data Scraper icon at the top right of your browser window;
+  * A dialogue box will appear and highlight a table on the web page to be scraped;
+    * If this is not the table you wish to scrape, click "Try Another Table" in the dialogue box;
+* If the table continues past where it has loaded on your browser, check the box for "Infinite Scroll" and then click the "Start crawling";
+* If the table continues on additional pages, click the "Locate 'Next' button" button;
+* When the tool finishes scraping, click the button for  "CSV," or "XLSX," or "Copy All," depending on how you would like to receive the data;
 * Name the file and save, OR copy the data into another spreadsheet tool.
 
 ## Tool provider
