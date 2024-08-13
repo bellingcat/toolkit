@@ -1,6 +1,5 @@
 # Categories
 
-
 ## Image/Video
 
 * [ ] [Facial Recognition](https://bellingcat.gitbook.io/toolkit/categories/image-video/facial-recognition)
@@ -31,7 +30,7 @@
 
 ## Other
 
-* [ ] [Archiving](https://bellingcat.gitbook.io/toolkit/categories/archiving)
+* [x] [Archiving](https://bellingcat.gitbook.io/toolkit/categories/archiving)
 * [ ] [Companies & Finance](https://bellingcat.gitbook.io/toolkit/categories/companies-and-finance)
 * [ ] [Data Visualization](https://bellingcat.gitbook.io/toolkit/categories/data-visualization)
 * [ ] [Environment & Wildlife](https://bellingcat.gitbook.io/toolkit/categories/environment-and-wildlife)
