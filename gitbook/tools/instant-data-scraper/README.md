@@ -30,13 +30,15 @@ Widows Edge or Chrome based browsers (Chrome, Brave).
 
 ## Limitations
 
-The tool works on most pages, however it is dependent on the page hosting information in a table based format. The tool is also limited to content that is available via a webpage.
+The tool works on most pages, however it is dependent on the page hosting information in a table based format. The tool is also limited to content that is available via a webpage. Some websites, like social media platforms, may not let you access the table you wish to scrape, or you may have to try different tables than the one immediately suggested.
 
 ## Ethical Considerations
 
 Scraping data from a webpage can often include information that is not relevant to an investigation, such as account data for users that are not associated with the target of an investigation. Discretion should be used to protect unrelated entities.
 
 ## Guides and articles
+
+The Instant Data Scraper Facebook Community is a forum for information about the tool, where users can ask questions and get feedback from the developers, and other users.
 
 {% embed url="https://www.facebook.com/groups/instantdata/" %}
 
@@ -52,7 +54,7 @@ Scraping data from a webpage can often include information that is not relevant 
 
 ## Tool provider
 
-Web Robots is a company that offers professional web scraping services for a fee. The Instant Data Scraper tool is their free offering.
+Web Robots is a company based in Lithuania that offers professional web scraping services for a fee. The Instant Data Scraper tool is their free offering.
 
 ## Advertising Trackers
 
