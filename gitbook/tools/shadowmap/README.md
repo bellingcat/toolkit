@@ -37,17 +37,21 @@ A range of more  advanced functions are spread across 3 further paid versions wi
 {% endtab %}
 {% endtabs %}
 
-The Main Differences are:
+The Main Differences between versions are:
 
-The Explorer version allows any input date and time, past or future
+* The Explorer version allows any input date and time, past or future
+* The Home version includes 3D buildings in 3 cities, plus satellite backround maps
+* The Studio version allows 3D user model upload and Google hi-res satellite imagery
 
-The Home version includes 3D buildings in 3 cities, plus satellite backround maps
-
-The Studio version allows 3D user model upload and Google hi-res satellite imagery
+{% hint style="success" %}
+All Shadowmap functionality, up to Studio version, is available to test for free in a single selected location (Chile, at the time of writing, though this may be amended over time)
+{% endhint %}
 
 {% tabs %}
 {% tab title="INPUT DATA" %}
-
+* Location (co-ordinates/name/map pin)
+* Date
+* Time
 {% endtab %}
 
 {% tab title="OUTPUT DATA" %}
@@ -77,9 +81,7 @@ Users have the option to select any building on the map and adjust its height or
 
 
 
-<table><thead><tr><th width="186"> VERSION NAME</th><th width="163" align="center">VIEW</th><th width="89" align="center">TIME </th><th width="149" align="center">BUILDINGS</th><th align="center">MAPS</th></tr></thead><tbody><tr><td>FREE VERSION</td><td align="center">3D Tilting Shadow patterns displayed at any location within restricted angle range</td><td align="center">User defined time BUT day fixed at today's date</td><td align="center"></td><td align="center"></td></tr><tr><td><p>EXPLORER<br>Intended to support photographers, event planners, hikers<br></p><p>All previous version functionality plus-></p></td><td align="center"><ul><li>Full camera freedom = 3D Tilting Shadow patterns displayed at any location at any angle (see sun and ground)</li></ul><ul><li>Varible focal length for view.</li></ul></td><td align="center">ANY date and time, in the past OR the future</td><td align="center"></td><td align="center"></td></tr><tr><td><p>HOME </p><p>Intended to support home owners</p><p><br>All previous version functionality plus-></p></td><td align="center"><ul><li>Rendering Quality options: Low, Medium or High<br></li><li>Gain Options for<br>-Ambient occlusion<br>-Anti-aliasing</li></ul></td><td align="center"></td><td align="center"><ul><li>3D Buildings mapped in high quality in 3 cities: Berlin, Munich, Tokyo</li><li>Show floors on building facades</li></ul></td><td align="center"><p></p><ul><li>Satellite base maps</li></ul><ul><li>Outdoor base maps</li></ul></td></tr><tr><td><p>STUDIO </p><p>Intended for real estate, urban planning &#x26; architcture</p><p><br>All previous version functionality plus-></p></td><td align="center"><ul><li>Interactive 3D Solar Analytics</li><li>Share and embed</li><li>Multiple projects</li></ul></td><td align="center"></td><td align="center"><ul><li>Change building heights </li><li>Edit 3D data, draw custom 3D shapes<br></li></ul></td><td align="center"><ul><li>3D user model upload and integration<br> </li><li>Global Google hi-res satellite imagery with 3D buildings</li></ul></td></tr></tbody></table>
-
-
+<figure><img src=".gitbook/assets/ShadowMapvideo.gif" alt=""><figcaption><p>SHADOWMAP STUDIO VERSION: USER DEFINITION &#x26; MANIPULATION OF 3D SHAPES</p></figcaption></figure>
 
 ## Cost
 
