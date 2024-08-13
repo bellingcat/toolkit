@@ -570,11 +570,50 @@ For more details on troubleshooting issues, check out Datawrapper's resources:
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+The main ethical consideration about data visualizations is the possibility that information can be misleading, no matter how good it looks. [“Some are misleading by mistake, some are misleading on purpose.”](https://www.dataspire.org/blog/5-tips-to-be-aware-of-how-charts-lie-book-review) This[ article ](https://medium.com/nightingale/constructing-a-career-in-data-visualization-the-how-18ad4900c120)discusses the possibility that charts can be misleading and that data interpretation has some general pitfalls.
+
+<details>
+
+<summary><a href="https://www.dataspire.org/blog/5-tips-to-be-aware-of-how-charts-lie-book-review">Some examples </a>of common pitfalls</summary>
+
+**Cherry-picking Data:** Selecting only data points that support a particular narrative while omitting others. &#x20;
+
+**Outliers:** Emphasizing or downplaying outliers to influence perception.
+
+**Visual tricks such as “Chartjunk,”** which refer to excessive clutter or unnecessary elements that can distract from the main message.
+
+**Misleading Visual Elements:** Using colors, shapes, or sizes that can alter perception.
+
+</details>
+
+\
+However, to mitigate this, practice is key.: “So much of understanding data is just asking the right questions. This includes the initial question, but also the questions you ask about your data: Is this source trustworthy? Is my data incomplete? Can this data actually answer this question? This practice of constantly interrogating your data with a careful skepticism is likely the most important aspect of working with data.[ If you can understand the potential and limits of your data, you will be set up for success.](https://medium.com/nightingale/constructing-a-career-in-data-visualization-the-how-18ad4900c120)”
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+_**Datawrapper guides**_
+
+Datawrapper Academy: [https://academy.datawrapper.de/](https://academy.datawrapper.de/) &#x20;
+
+Datawrapper Training Slides: [https://www.datawrapper.de/training-materials](https://www.datawrapper.de/training-materials)
+
+How to create teams and other guides related to working in collaboration: [https://academy.datawrapper.de/category/210-teams](https://academy.datawrapper.de/category/210-teams)
+
+_**Guides from other sources**_&#x20;
+
+Video Tutorial: By Adam Robert Marton, University of Maryland's Philip Merrill College of Journalism.
+
+[https://www.youtube.com/watch?v=adUpZXL4Ja0\&list=PLjm9uN3XhRuFDb\_8bhO5t\_XiTOzXeGAMo](https://www.youtube.com/watch?v=adUpZXL4Ja0\&list=PLjm9uN3XhRuFDb\_8bhO5t\_XiTOzXeGAMo)
+
+Guide from The Guardian: [https://www.theguardian.com/global-development-professionals-network/2014/aug/28/interactive-infographics-development-data](https://www.theguardian.com/global-development-professionals-network/2014/aug/28/interactive-infographics-development-data)&#x20;
+
+_**Guides about Misleading Charts and Graphs:**_&#x20;
+
+University of Pittsburg [https://hsls.libguides.com/c.php?g=1333609\&p=9828731#:\~:text=Data%20can%20be%20manipulated%20by,can%20be%20displayed%20by%20selecting](https://hsls.libguides.com/c.php?g=1333609\&p=9828731)&#x20;
+
+Nightingale, Journal of Data Visualization Society[https://medium.com/nightingale/constructing-a-career-in-data-visualization-the-how-18ad4900c120](https://medium.com/nightingale/constructing-a-career-in-data-visualization-the-how-18ad4900c120)&#x20;
+
+Dataspire.Org [https://www.dataspire.org/blog/5-tips-to-be-aware-of-how-charts-lie-book-review#:\~:text=WHAT%20CAN%20WE%20BE%20AWARE,by%20suggesting%20misleading%20patterns](https://www.dataspire.org/blog/5-tips-to-be-aware-of-how-charts-lie-book-review)
 
 ## Tool provider
 
