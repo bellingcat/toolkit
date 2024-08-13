@@ -3789,5 +3789,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "03EgxS76B3fVlG1X14XQ",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "bea3XSsMDGQHcpNVtXuF",
+    "title": "Uwazi",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-08-13T17:52:47.328Z",
+    "updatedAt": "2024-08-13T17:52:47.328Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/bea3XSsMDGQHcpNVtXuF",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/bea3XSsMDGQHcpNVtXuF/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "mb0MN9pbQcliswl6ZEEj",
+    "defaultLevel": "inherit"
   }
 ]
