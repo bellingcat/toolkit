@@ -12,11 +12,11 @@ description: >-
 
 ## Description
 
-The Bellingcat radar interference tracker is a web-based tool that visualises radar interference which can then be used to search for and potentially locate active military radar systems around the globe,&#x20;
+The Bellingcat radar interference tracker is a web-based tool that visualises radar interference which can then be used to search for and potentially locate active military radar systems around the globe.&#x20;
 
 The tool exploits a known flaw in Sentinel-1 Synthetic Aperture Radar (SAR) imagery. Systems like Patriot missile batteries emit a radar pulse when turned on that interferes with Sentinel's SAR signal creating a stripe of interference perpendicular to the orbital path of the satellite.
 
-Locations where the tool has suggested radar system are present include: Russia, Bahrain, Qatar, Jordan, Yemen, Dammam, Saudi Arabia , the [White Sands Missile Range](https://www.google.com/maps/@32.3785089,-106.4718007,6035m/data=!3m1!1e3) in New Mexico, USA, and the [Dimona Radar Facility](https://www.google.com/maps/place/Dimona+Radar+Facility/@30.9685089,35.0948799,782m/data=!3m2!1e3!4b1!4m5!3m4!1s0x150237648ec9b907:0xde8df259d70896ce!8m2!3d30.9685089!4d35.0970686) in Israel.
+Locations where the tool has suggested radar system are present include: Russia, Bahrain, Qatar, Jordan, Yemen, Dammam, Saudi Arabia, the [White Sands Missile Range](https://www.google.com/maps/@32.3785089,-106.4718007,6035m/data=!3m1!1e3) in New Mexico, USA, and the [Dimona Radar Facility](https://www.google.com/maps/place/Dimona+Radar+Facility/@30.9685089,35.0948799,782m/data=!3m2!1e3!4b1!4m5!3m4!1s0x150237648ec9b907:0xde8df259d70896ce!8m2!3d30.9685089!4d35.0970686) in Israel.
 
 Among other systems the tool has been used to identify:
 
@@ -43,7 +43,7 @@ Although the RIT tool can help hone in on areas of interest, a manual search of 
 
 The screenshot below show the White Sands Missile Range, USA example included with the radar interference tool.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-08 at 1.55.25 PM.png" alt="Screenshot using the White Sands Missile Range, USA radar interference example in the radar interference tracker. The map show a satellite image of the area overlayed with a coloured stripe indicating the radar interference."><figcaption><p>Screenshiot of White Sands Missile Range, USA radar interference</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-08-08 at 1.55.25 PM.png" alt="Screenshot using the White Sands Missile Range, USA radar interference example in the radar interference tracker. The map show a satellite image of the area overlayed with a coloured stripe indicating the radar interference."><figcaption><p>Screenshot of White Sands Missile Range, USA radar interference</p></figcaption></figure>
 
 ## Cost
 
@@ -62,7 +62,7 @@ The screenshot below show the White Sands Missile Range, USA example included wi
 ## Limitations
 
 * **Other sources of interference:** not every instance of C-band radio frequency interference is caused by a military radar. Weather radar and telecommunications infrastructure among others use the same frequency – all of which are picked up by Sentinel-1, see Ollie Ballinger's [original article](https://www.bellingcat.com/resources/2022/02/11/radar-interference-tracker-a-new-open-source-tool-to-locate-active-military-radar-systems/).
-* **Processing time**: Aggregating by year can be slow according to the [original article](https://www.bellingcat.com/resources/2022/02/11/radar-interference-tracker-a-new-open-source-tool-to-locate-active-military-radar-systems/)..
+* **Processing time**: Aggregating by year can be slow according to the [original article](https://www.bellingcat.com/resources/2022/02/11/radar-interference-tracker-a-new-open-source-tool-to-locate-active-military-radar-systems/).
 * **Data Currency:** High resolution satellite imagery is not necessarily current. Although imagery is generally fairly recent, it can be a few years old, see Ollie Ballinger's [original article](https://www.bellingcat.com/resources/2022/02/11/radar-interference-tracker-a-new-open-source-tool-to-locate-active-military-radar-systems/).
 * **Temporal refresh rates:** Sentinel-1 has a five-day revisit time as the satellites circle the globe. However, a [recent issue](https://www.space.com/europe-sentinel-1b-earth-observation-satellite-anomaly) with one of the satellites in the constellation has doubled that time.&#x20;
 * **Facility verification:** there could be multiple potential sources (weather, telecommunications, etc.) in the interference stripe, and just because something looks like a military base, it doesn’t mean that it is according to the [original article](https://www.bellingcat.com/resources/2022/02/11/radar-interference-tracker-a-new-open-source-tool-to-locate-active-military-radar-systems/).
@@ -94,7 +94,7 @@ To effectively use the Radar Interference Tracker, especially for beginners or t
 
 ## Tool provider
 
-[Bellingcat](https://www.bellingcat.com/), Amsterdam
+[Bellingcat](https://www.bellingcat.com/), Netherlands
 
 ## Advertising Trackers
 
