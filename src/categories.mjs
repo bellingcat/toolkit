@@ -31,12 +31,11 @@ function generateTemplateCategoriesMarkdown(categories) {
   }).filter(post => { return post && post });
 
 
-  const content = [
-    '# Categories',
+  const content = '# Categories\n' + [
     groups.join('\n'),
     '## Other',
     topLevel.join('\n')
-  ].join('\n\n');
+  ].join('\n\n') + '\n';
 
   writeIfChanged(content, 'template/categories.md');
 }
