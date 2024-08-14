@@ -90,7 +90,7 @@ TIP: Hovering your mouse over the graph to either the left or right will show th
 
 <div align="center">
 
-<figure><img src=".gitbook/assets/Temporal trends 1.png" alt="" width="188"><figcaption><p>(Click to enlarge) This image shows the timeline of how a piece of information spreads over time. In this example, the tool automatically generates a timeframe from 13 March 2024 to 17 April 2024 (shown in the orange square). On the top of the image are options to "add old posts" or "add new posts" (shown in green circles).</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Temporal trends 1.png" alt="" width="188"><figcaption><p>(Click to enlarge) This image shows the timeline of how posts about a specific topic spread over time. In this example, the tool automatically generates a timeframe from 13 March 2024 to 17 April 2024 (shown in the orange square). On the top of the image are options to "add old posts" or "add new posts" (shown in green circles).</p></figcaption></figure>
 
 </div>
 
