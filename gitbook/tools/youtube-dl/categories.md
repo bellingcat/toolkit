@@ -1,6 +1,5 @@
 # Categories
 
-
 ## Image/Video
 
 * [ ] [Facial Recognition](https://bellingcat.gitbook.io/toolkit/categories/image-video/facial-recognition)
