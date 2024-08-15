@@ -17,7 +17,7 @@ description: >-
 
 ShadowMap calculates shadow locations in real time and displays them on a 3D tilting map, showing arcs of azimuth and elevation angles along the sun's path.&#x20;
 
-A range of more  advanced functions are spread across 3 further paid versions with increasing numbers of features - see the table below, with a tab for each version explaining funcationality.
+A range of more  advanced functions are spread across 3 further paid versions with increasing numbers of features - see the table below, with a tab for each version explaining functionality.
 
 {% tabs %}
 {% tab title="FREE VERSION" %}
@@ -44,7 +44,7 @@ The Main Differences between versions are:
 * The Studio version allows 3D user model upload and Google hi-res satellite imagery
 
 {% hint style="success" %}
-All Shadowmap functionality, up to Studio version, is available to test for free in a single selected location (Chile, at the time of writing, though this may be amended over time)
+All Shadowmap functionality, up to and including the top level Studio version, is available to test for free in a single selected location (Chile, at the time of writing, though this may be amended over time)
 {% endhint %}
 
 {% tabs %}
@@ -52,6 +52,8 @@ All Shadowmap functionality, up to Studio version, is available to test for free
 * Location (co-ordinates/name/map pin)
 * Date
 * Time
+* User Object Description (vertices & height)
+*
 {% endtab %}
 
 {% tab title="OUTPUT DATA" %}
@@ -69,7 +71,9 @@ All Shadowmap functionality, up to Studio version, is available to test for free
 
 ### The Interface
 
-as
+<figure><img src=".gitbook/assets/ShadowMapvideo.gif" alt=""><figcaption><p>SHADOWMAP STUDIO VERSION (HIGHEST COST): USER DEFINITION &#x26; MANIPULATION OF 3D SHAPES</p></figcaption></figure>
+
+
 
 ### The Data
 
@@ -80,8 +84,6 @@ GLB, FBX, DAE, OBJ, and IFC
 Users have the option to select any building on the map and adjust its height or hide it from view.
 
 
-
-<figure><img src=".gitbook/assets/ShadowMapvideo.gif" alt=""><figcaption><p>SHADOWMAP STUDIO VERSION: USER DEFINITION &#x26; MANIPULATION OF 3D SHAPES</p></figcaption></figure>
 
 ## Cost
 
