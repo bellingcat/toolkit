@@ -1,7 +1,7 @@
 ---
 description: >-
   Tilting global map of 3D buildlings and the shadows they cast at a specific
-  time a day, but date fixed at today in free version. Lite Paid Version allows
+  time a day, but date fixed at "today in free version. Lite Paid Version allows
   date change, Full Paid Version has 3D models.
 ---
 
@@ -53,15 +53,21 @@ All Shadowmap functionality, up to and including the top level Studio version, i
 * Date
 * Time
 * User Object Description (vertices & height)
-*
+* User's own 3D model files
 {% endtab %}
 
 {% tab title="OUTPUT DATA" %}
+* Shadow pattern for buildings and landscape at a given location and time.
+* 24 hour animation of the sun and shadow paths at a given location and time
+* Yearly average solar energy value for a given location in kWh/square metre
 
+<figure><img src=".gitbook/assets/SolarAnalyticsMenu.JPG" alt="" width="338"><figcaption><p>PAID VERSION "STUDIO" FEATURE: SOLAR ANALYTICS, INVOKED BY PRESSING "ANALYZE" MENU BUTTON</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="USE CASES" %}
-
+* Matching an image containing shadows to determine the relationship between date, time and shadow pattern
+* Projecting potential shadow patterns at user-defined location, date and time.
+* Finding the annual average solar energy value for a given location.
 {% endtab %}
 
 {% tab title="DATA INPUT OPTIONS" %}
