@@ -78,13 +78,7 @@ All Shadowmap functionality, up to and including the top level Studio version, i
 {% endtab %}
 {% endtabs %}
 
-|                                             |   |   |
-| ------------------------------------------- | - | - |
-| Location                                    |   |   |
-| Date                                        |   |   |
-| Time                                        |   |   |
-| User Object Description (vertices & height) |   |   |
-| User's own 3D model files                   |   |   |
+<table><thead><tr><th width="197">INPUT DATA</th><th width="236">TEXT ENTRY METHODS</th><th>GRAPHICAL INTERFACE INPUT</th></tr></thead><tbody><tr><td>Location</td><td>Type location name into the Text Input box.<img src=".gitbook/assets/image (1).png" alt=""></td><td>Drag and drop the background map to move to  new location using Right Mouse down and Scroll Wheel.</td></tr><tr><td>Date</td><td>Type date into Text Input box.<img src=".gitbook/assets/image (3).png" alt=""></td><td>Drag and drop the Date slider to the required date</td></tr><tr><td>Time</td><td></td><td>Drag and drop the Time slider to the required time.<img src=".gitbook/assets/image (4).png" alt=""></td></tr><tr><td>User Object Description (vertices &#x26; height)</td><td></td><td></td></tr><tr><td>User's own 3D model files</td><td></td><td></td></tr></tbody></table>
 
 ### The Interface
 
