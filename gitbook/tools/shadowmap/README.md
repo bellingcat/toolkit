@@ -21,7 +21,7 @@ A range of more  advanced functions are spread across 3 further paid versions wi
 
 {% tabs %}
 {% tab title="FREE VERSION" %}
-<figure><img src=".gitbook/assets/VersionsTablefREE1.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/VersionsTablefREE1.jpg" alt=""><figcaption><p>COMPARING THE FOUR VERSIONS OF SHADOWMAP: FREE, EXPLORER, HOME &#x26; STUDIO</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="EXPLORER" %}
@@ -39,12 +39,13 @@ A range of more  advanced functions are spread across 3 further paid versions wi
 
 The Main Differences between versions are:
 
-* The Explorer version allows any input date and time, past or future
-* The Home version includes 3D buildings in 3 cities, plus satellite backround maps
-* The Studio version allows 3D user model upload and Google hi-res satellite imagery
+* The Free version is restricted to today's date, but the user can define the time of day.
+* The Explorer version allows any input date and time, past or future.
+* The Home version includes 3D buildings in 3 cities, plus satellite backround maps.
+* The Studio version allows 3D user model upload and Google hi-res satellite imagery.
 
 {% hint style="success" %}
-All Shadowmap functionality, up to and including the top level Studio version, is available to test for free in a single selected location (Chile, at the time of writing, though this may be amended over time)
+All Shadowmap functionality, up to and including the top level Studio version, is available to **test for free** in a single selected location (Chile, at the time of writing, though this may be amended over time)
 {% endhint %}
 
 {% tabs %}
@@ -67,13 +68,23 @@ All Shadowmap functionality, up to and including the top level Studio version, i
 {% tab title="USE CASES" %}
 * Matching an image containing shadows to determine the relationship between date, time and shadow pattern
 * Projecting potential shadow patterns at user-defined location, date and time.
-* Finding the annual average solar energy value for a given location.
+*   Finding the annual average solar energy value for a given location. Examples where this would be useful are:&#x20;
+
+    <figure><img src=".gitbook/assets/SolarAnalyticsMenu.JPG" alt="" width="338"><figcaption><p><strong>PAID VERSION "STUDIO" FEATURE: SOLAR ANALYTICS, INVOKED BY PRESSING "ANALYZE" MENU BUTTO</strong>N</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="DATA INPUT OPTIONS" %}
 
 {% endtab %}
 {% endtabs %}
+
+|                                             |   |   |
+| ------------------------------------------- | - | - |
+| Location                                    |   |   |
+| Date                                        |   |   |
+| Time                                        |   |   |
+| User Object Description (vertices & height) |   |   |
+| User's own 3D model files                   |   |   |
 
 ### The Interface
 
