@@ -72,7 +72,7 @@ All Shadowmap functionality, up to and including the top level Studio version, i
 {% endtab %}
 
 {% tab title="DATA INPUT OPTIONS" %}
-
+<figure><img src=".gitbook/assets/DataInputTable.JPG" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
