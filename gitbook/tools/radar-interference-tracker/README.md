@@ -16,9 +16,9 @@ The Bellingcat radar interference tracker is a web-based tool that visualises ra
 
 The tool exploits a known flaw in Sentinel-1 Synthetic Aperture Radar (SAR) imagery. Systems like Patriot missile batteries emit a radar pulse when turned on that interferes with Sentinel's SAR signal creating a stripe of interference perpendicular to the orbital path of the satellite.
 
-Locations where the tool has suggested radar systems are present include: Russia, Bahrain, Qatar, Jordan, Yemen, Dammam, Saudi Arabia, the [White Sands Missile Range](https://www.google.com/maps/@32.3785089,-106.4718007,6035m/data=!3m1!1e3) in New Mexico, USA, and the [Dimona Radar Facility](https://www.google.com/maps/place/Dimona+Radar+Facility/@30.9685089,35.0948799,782m/data=!3m2!1e3!4b1!4m5!3m4!1s0x150237648ec9b907:0xde8df259d70896ce!8m2!3d30.9685089!4d35.0970686) in Israel.
+Locations where the tool has suggested radar systems are present according to Ollie Ballinger's [original article](https://www.bellingcat.com/resources/2022/02/11/radar-interference-tracker-a-new-open-source-tool-to-locate-active-military-radar-systems/) include: Russia, Bahrain, Qatar, Jordan, Yemen, Dammam, Saudi Arabia, the [White Sands Missile Range](https://www.google.com/maps/@32.3785089,-106.4718007,6035m/data=!3m1!1e3) in New Mexico, USA, and the [Dimona Radar Facility](https://www.google.com/maps/place/Dimona+Radar+Facility/@30.9685089,35.0948799,782m/data=!3m2!1e3!4b1!4m5!3m4!1s0x150237648ec9b907:0xde8df259d70896ce!8m2!3d30.9685089!4d35.0970686) in Israel.
 
-Among other systems the tool has been used to identify:
+According to the [original article](https://www.bellingcat.com/resources/2022/02/11/radar-interference-tracker-a-new-open-source-tool-to-locate-active-military-radar-systems/) among other systems the tool has been used to identify:
 
 * US MIM-104 Patriot and PAC-2 missile defence systems
 * Russia surface-to-air missile (SAM) systems in Syria and S-400 SNAR-10M1 radar systems.
