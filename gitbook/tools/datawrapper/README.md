@@ -595,9 +595,7 @@ How to create teams and other guides related to working in collaboration: [https
 
 _**Guides from other sources**_&#x20;
 
-Video Tutorial: By Adam Robert Marton, University of Maryland's Philip Merrill College of Journalism.
-
-[https://www.youtube.com/watch?v=adUpZXL4Ja0\&list=PLjm9uN3XhRuFDb\_8bhO5t\_XiTOzXeGAMo](https://www.youtube.com/watch?v=adUpZXL4Ja0\&list=PLjm9uN3XhRuFDb\_8bhO5t\_XiTOzXeGAMo)
+Video Tutorial: [Datawrapper Training](https://www.youtube.com/watch?v=adUpZXL4Ja0\&list=PLjm9uN3XhRuFDb\_8bhO5t\_XiTOzXeGAMo). By Adam Robert Marton, University of Maryland's Philip Merrill College of Journalism.
 
 Guide from The Guardian: [https://www.theguardian.com/global-development-professionals-network/2014/aug/28/interactive-infographics-development-data](https://www.theguardian.com/global-development-professionals-network/2014/aug/28/interactive-infographics-development-data)&#x20;
 
