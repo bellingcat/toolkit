@@ -57,7 +57,7 @@ None
 
 <figure><img src=".gitbook/assets/Image 1.png" alt="" width="563"><figcaption></figcaption></figure>
 
-* The `.xml` format is somewhat better, because it contains hyperlinks that lead to every associated document in a specific filing including each submitteed SEC form and exhibit.&#x20;
+* The `.xml` format is somewhat better, because it contains hyperlinks that lead to every associated document in a specific filing including each submitted SEC form and exhibit.&#x20;
 
 
 
