@@ -13,7 +13,7 @@ https://gpsjam.org/
 
 ## Description
 
-GPSJam.org is a website that provides information on GPS interference on aircrafts worldwide. It uses data from [ADS-B Exchange ](https://www.adsbexchange.com/), a crowd-sourced flight tracking website, to generate daily maps displaying areas of likely GPS interference based on aircraft reports of navigation system accuracy.&#x20;
+GPSJam.org is a website that provides information on GPS interference on aircraft worldwide. It uses data from [ADS-B Exchange](https://www.adsbexchange.com/), a crowd-sourced flight tracking website, to generate daily maps displaying areas of likely GPS interference based on aircraft reports of navigation system accuracy.&#x20;
 
 {% hint style="info" %}
 NOTE:&#x20;
@@ -45,13 +45,23 @@ Choose your date of interest on the calendar icon. The tool automatically shows 
 NOTE: [Historical data only goes up to 14 February 2022. There is no data before this date. ](https://gpsjam.org/faq#incomplete-data)
 {% endhint %}
 
-\
-
-
-Filter by location
+_**Filter by location**_
 
 In addition to filtering by date, users can zoom in on a particular location of interest. Users can enter an address or a general location/city, such as “Moscow.” Users can also use coordinates for specificity.
 
+### How to analyze the hexagons
+
+The map shows areas where aircraft reported good, bad, or uncertain navigation accuracy based on 24 hours of data. The map features hexagonal divisions, [each color-coded.](https://gpsjam.org/)&#x20;
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>This legend is located at the bottom left of the map. Each hexagon is grouped into three colors depending on the level of position accuracy reported by aircraft. </p></figcaption></figure>
+
+GREEN: Good navigation for over 98% of aircraft.
+
+YELLOW: Between 2-10% of aircraft reported low accuracy.
+
+RED: More than 10% of aircraft reported low accuracy (likely interference).
+
+\
 \
 
 
