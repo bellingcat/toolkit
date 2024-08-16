@@ -61,9 +61,9 @@ YELLOW: Between 2-10% of aircraft reported low accuracy.
 
 RED: More than 10% of aircraft reported low accuracy (likely interference).
 
-\
-\
-
+{% hint style="warning" %}
+**NOTE:** RED/YELLOW does not always indicate jamming. According to [the tool provider](https://gpsjam.org/faq#is-it-always-jamming), “Low accuracy could be caused by factors other than jamming (e.g., military testing, protecting high-profile individuals)”
+{% endhint %}
 
 ## Cost
 
