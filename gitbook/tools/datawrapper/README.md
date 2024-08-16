@@ -34,7 +34,7 @@ Charts can turn complex data into visual representations that are easier to inte
 
 If using Datawrapper to create a chart, users have four main steps to complete. They (1) upload their data, (2) double-check that data is displayed correctly, (3) visualize, and, finally (4) publish/download or embed the final product.&#x20;
 
-Log in and proceed to Dashboard. Click, “Create New” and select “Chart”
+Log in and proceed to Dashboard. Click, “Create New” and select “Chart”.
 
 #### _**Upload Data**_
 
@@ -70,7 +70,7 @@ Suppose you’re using Datawrapper to create a chart showing the number of armed
 
 This section lets users customize their chart to the most minute features, allowing the audience to understand the data effectively. **Click on the different tabs below to see a representative list of features that can be customized.**&#x20;
 
-<figure><img src=".gitbook/assets/IMG_0305.jpg" alt="" width="188"><figcaption><p>This image shows the list of charts that users can customize for their data. After uploading and checking your data, proceed to the "Visualize" step. The first customization step is selecting chart type </p></figcaption></figure>
+<figure><img src=".gitbook/assets/IMG_0305.jpg" alt="" width="188"><figcaption><p>This image shows the list of charts that users can customize for their data. After uploading and checking your data, proceed to the "Visualize" step. The first customization step is selecting a chart type.</p></figcaption></figure>
 
 {% tabs %}
 {% tab title="Chart Type" %}
@@ -91,7 +91,7 @@ This tab is critical for providing context on the information users are conveyin
 {% endtab %}
 
 {% tab title="Layout" %}
-The final step on the visualization tab is Layout customization.  The key features are: (1) Availability to produce output in different languages&#x20;
+The final step on the visualization tab is Layout customization.  The key features are: (1) Availability to produce output in different languages;
 
 (2) Users can also customize the footer section of the chart. This includes links to data source download, image download options, shareable link, and social media share buttons. Sharing findings, and data sources are especially useful for open-source investigators, since investigations and methodology needs to be replicable to be reliable.&#x20;
 
@@ -105,7 +105,7 @@ TIP on the "Annotate" tab: The “Notes” section can be useful for explaining 
 {% endhint %}
 
 {% hint style="warning" %}
-NOTE on the "Layout" tab: Output locale language does not translate content users input but translates the built-in features of the tool itself. (See Limitations Section)
+NOTE on the "Layout" tab: Output locale language does not translate content users input but translates the built-in features of the tool itself (see Limitations Section).
 {% endhint %}
 
 #### _**Publish/Embed**_
@@ -121,7 +121,7 @@ Any changes made to the chart will not be visible to the audience until you "rep
 Users can also export or duplicate the visualization. Users can export in PNG (image) format. This is a static and non-interactive version that users can download for printing or integration in reports.
 
 {% hint style="info" %}
-TIP: Once published, any changes to formatting or editing will not be reflected. Users will have to republish their visualization after making any changes, Go to the publish section, and click “Republish.” &#x20;
+TIP: Once published, any changes to formatting or editing will not be reflected. Users will have to republish their visualization after making any changes. Go to the publish section, and click “Republish.” &#x20;
 {% endhint %}
 
 Users will end up with something that looks like this (Area Chart):&#x20;
@@ -138,7 +138,7 @@ These maps can visually represent complex data, making understanding and communi
 
 The types of maps you can produce are: **Choropleth map, Symbol map, and Locator map.**&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-12 003558.png" alt=""><figcaption><p>These are the map options users have in Datawrapper. Note the description in each type informs users about which maps may best communicate their data. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-08-12 003558.png" alt=""><figcaption><p>These are the map options users have in Datawrapper. Note the description in each type informs users about which maps may communicate their data in the most suitable way. </p></figcaption></figure>
 
 ### _**Choropleth map**_
 
@@ -167,10 +167,10 @@ So, when you look at the map, you can easily see which areas have the best inter
 
 #### **Select your map**
 
-This step allows users to select what kind of base map is needed for data visualization. The Datawrapper list of maps contains a huge selection. The types of maps available are: World maps, regional maps, and country maps. As a plus. some countries have different subtypes available as well. For instance,  Argentina also includes a map divided by departments, or by electoral districts, by provinces. It also has available a map subtype that is city-specific such as the Argentina - Buenos Aires Metropolitan Area.&#x20;
+This step allows users to select what kind of base map is needed for data visualization. The Datawrapper list of maps contains a huge selection. The types of maps available are: World maps, regional maps, and country maps. As a plus, some countries have different subtypes available as well. For instance,  Argentina also includes a map divided by departments, or by electoral districts, by provinces. It also has available a map subtype that is city-specific such as the Argentina - Buenos Aires Metropolitan Area.&#x20;
 
 {% hint style="success" %}
-TIP: Users can also upload their own maps. However, this is a slightly advanced feature and may consult [this guide.](https://academy.datawrapper.de/article/145-how-to-upload-your-own-map)
+TIP: Users can also upload their own maps. However, this is a slightly advanced feature and you may consult [this guide.](https://academy.datawrapper.de/article/145-how-to-upload-your-own-map)
 {% endhint %}
 
 **Add your data**
@@ -191,7 +191,7 @@ NOTE: The pre-made table seems to depend on the kind of map you select in the pr
 
 _**Step 2 - Match:**_ To use the map, your data needs to have information like country names, short names, and codes. In this step, choose the preferred naming convention for countries. In addition, make sure you have all the columns and rows you need to display your data.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-09 235302.png" alt="" width="375"><figcaption><p>In this image, the user is creating a map showing the top 10 countries with the fastest internet speed.  The user chooses a world map. A CSV file is then uploaded. The table is automatically populated with a list of countries. Under the "Match" Tab,  we make sure that Column A corresponds to the name of the Country/Territory, and Column B corresponds to the values -- in this case the "median download speed" of the internet in each country. Notice that this will automatically use the first row for labels (we selected this by ticking the box on the top left)  (NOTE: The data on this image is for demonstration purposes only) </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-08-09 235302.png" alt="" width="375"><figcaption><p>In this image, the user is creating a map showing the top 10 countries with the fastest internet speed.  The user chooses a world map. A CSV file is then uploaded. The table is automatically populated with a list of countries. Under the "Match" Tab,  we make sure that Column A corresponds to the name of the Country/Territory, and Column B corresponds to the values -- in this case the "median download speed" of the internet in each country. Notice that this will automatically use the first row for labels (we selected this by ticking the box on the top left)  (NOTE: The data on this image is for demonstration purposes only).</p></figcaption></figure>
 
 {% hint style="info" %}
 NOTE: If the user does not use the rest of the countries/locations on the list, they will be grayed out in the map.
@@ -205,11 +205,11 @@ Just like in the CHART section above, the Visualize tab lets users customize the
 {% tab title="Refine" %}
 The refine tab allows users to customize the details of the map. This includes:
 
-* &#x20;customizing the colors to represent different values,
-* &#x20;whether you want the legend on display and the way the legend looks
-* Making the map zoomable or not, and the location of the zoom button&#x20;
-* Map appearance: whether you want a full map or a partial map on display, the size in pixels, map alignment
-* Appearance of region borders or not
+* &#x20;Customizing the colors to represent different values;
+* &#x20;Deciding whether you want the legend on display and the way the legend looks;
+* Making the map zoomable or not, and the location of the zoom button;
+* Map appearance: whether you want a full map or a partial map on display, the size in pixels, map alignment;
+* Appearance of region borders (or not).
 {% endtab %}
 
 {% tab title="Annotate" %}
@@ -220,18 +220,18 @@ TIP: The “Notes” section can be useful for explaining limitations to data so
 {% endtab %}
 
 {% tab title="Layout" %}
-Similarly, the final tab under “Visualize”  is Layout customization.  The key features are: - -
+Similarly, the final tab under “Visualize”  is Layout customization.  The key features are:&#x20;
 
-* Availability to produce output in different languages&#x20;
-* &#x20;Customize the footer section of the chart to include links to data source download, image download options
-* Ability to include a shareable link and social media share buttons&#x20;
+* Availability to produce output in different languages;
+* &#x20;Customize the footer section of the chart to include links to data source download, image download options;
+* Ability to include a shareable link and social media share buttons;
 {% endtab %}
 {% endtabs %}
 
 Below is a sample interactive symbol map to demonstrate what the final product may look like:
 
 {% embed url="https://datawrapper.dwcdn.net/UKoIL/3/" %}
-This is an example of an interactive choropleth map using data from Ookla on internet speeds by country in 2023 (via Wikipedia). Users can hover over each detail to see more information. Darker colors represent faster speeds, and lighter colors represent slightly slower speeds. (NOTE: This map and data are for demonstration purposes only)
+This is an example of an interactive choropleth map using data from Ookla on internet speeds by country in 2023 (via Wikipedia). Users can hover over each detail to see more information. Darker colors represent faster speeds, and lighter colors represent slightly slower speeds (NOTE: This map and data are for demonstration purposes only).
 {% endembed %}
 
 ### _**Symbol map**_
