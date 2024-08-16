@@ -254,9 +254,9 @@ Comparing Values: Symbol maps allow users to see patterns, trends, and distribut
 
 <summary>Potential open-source use cases of symbol map</summary>
 
-Tracking outbreak in armed clashes in a region or disease outbreaks
+Tracking the outbreak of armed clashes in a region or disease outbreaks:
 
-_Armed clashes in a region:_ Symbol maps can visualize and analyze the distribution and frequency of armed clashes across various regions in a country over a specified period.
+_Armed clashes in a region:_ Symbol maps can visualize and analyze the distribution and frequency of armed clashes across various regions in a country over a specified period of time.
 
 _Disease Outbreaks:_ If tracking a disease outbreak, symbols could represent the number of reported cases in various locations, helping to visualize areas with higher or lower case numbers.
 
@@ -265,7 +265,7 @@ _Disease Outbreaks:_ If tracking a disease outbreak, symbols could represent the
 &#x20;
 
 {% hint style="warning" %}
-**NOTE #1:** **Prepare your data (do not skip this step)**: Whether you are using your own data or using data from an external source, it is important to make sure the data has all the information required by Datawrapper. For symbol maps, “[Datawrapper](https://academy.datawrapper.de/article/114-how-to-create-a-symbol-map-in-datawrapper) will **need**  **(1)addresses/place names or (2) latitudes/longitudes** to know where you want your points to be.” Users should be as specific as possible.&#x20;
+**NOTE #1:** **Prepare your data (do not skip this step)**: Whether you are using your own data or using data from an external source, it is important to make sure the data has all the information required by Datawrapper. For symbol maps, “[Datawrapper](https://academy.datawrapper.de/article/114-how-to-create-a-symbol-map-in-datawrapper) will **need**  **(1) addresses/place names or (2) latitudes/longitudes** to know where you want your points to be.” Users should be as specific as possible.&#x20;
 
 
 
@@ -277,16 +277,16 @@ Example of specificity of **addresses/place names** as provided by the [tool](ht
 * County: Kings County, New York
 * State/Land: New York State, USA
 
-**NOTE #2:** **Use latitude/longitude coordinates for better precision**. According to the tool, uploading latitudes and longitudes ensures accurate mapping because city names can be ambiguous or duplicated. For instance, the name "Vancouver" could refer to cities in different locations, like Vancouver, Canada, or Vancouver, Washington. Geocoders, including Datawrapper, might default to the most prominent city with that name unless precise coordinates are provided. By using latitudes and longitudes, you ensure that the exact locations are mapped correctly, avoiding confusion from similar or differently named places.
+**NOTE #2:** **Use latitude/longitude coordinates for better precision**. According to the tool, uploading latitudes and longitudes ensures accurate mapping because city names can be ambiguous or duplicated. For instance, the name "Vancouver" could refer to cities in different locations, like Vancouver, Canada, or Vancouver, Washington, U.S.. Geocoders, including Datawrapper, might default to the most prominent city with that name unless precise coordinates are provided. By using latitudes and longitudes, you ensure that the exact locations are mapped correctly, avoiding confusion from similar or differently named places.
 {% endhint %}
 
 The steps for creating a symbol map are very similar to those for the choropleth map (See above). There is a slight difference in the “Visualize” section of symbol maps. Click on each tab below to see the different features.&#x20;
 
 {% tabs %}
 {% tab title="Refine" %}
-* Customize symbols of your choice and their size.&#x20;
-* Users can also customize the colors, and choose the column you want to be highlighted on the map. For example, if looking at incidents of armed clashes in Burkina Faso, a user might want to highlight how many of those are civilian targeting. In this case, select the column “civilian targeting”. &#x20;
-* Customize map features: by making map zoomable, by including an “inset map” to provide context on the location for those not familiar
+* Customize symbols of your choice and their size.
+* Users can also customize the colors, and choose the column you want to be highlighted on the map. For example, if looking at incidents of armed clashes in Burkina Faso, a user might want to highlight how many of those are targeting civilians. In this case, select the column “civilian targeting”. &#x20;
+* Customize map features: by making the map zoomable or by including an “inset map” to provide context on the location for those who are not familiar with it.
 {% endtab %}
 
 {% tab title="Annotate" %}
@@ -308,27 +308,27 @@ Similarly, the final tab is Layout customization.  The key features are:&#x20;
 Below is a sample symbol map. After doing the steps outlined above, the symbol map should look something like this:
 
 {% embed url="https://datawrapper.dwcdn.net/aXyPY/3/" %}
-This is a sample interactive symbol map generated through Datawrapper. We first went to ACLED to download our data, which we then uploaded as a CSV file on the tool. We have chosen “spikes” as a symbol to demonstrate the number of armed clashes during a short timeframe in Burkina Faso. We have customized the look of the map to provide more info to a reader who may be unfamiliar with the region. We have included visible regional boundaries and an inset map (a world map to show where Burkina Faso is relative to the rest of the world). We have also included a zoom option and social media share options. More importantly, we have annotated it so that we provide a title, description, and data source for the readers. (NOTE: The map is for demonstration purposes only)
+This is a sample interactive symbol map generated through Datawrapper. We first went to[ ACLED](https://bellingcat.gitbook.io/toolkit/more/all-tools/acled) to download our data, which we then uploaded as a CSV file to the tool. We have chosen “spikes” as a symbol to demonstrate the number of armed clashes during a short timeframe in Burkina Faso. We have customized the look of the map to provide more info to a reader who may be unfamiliar with the region. We have included visible regional boundaries and an inset map (a world map to show where Burkina Faso is relative to the rest of the world). We have also included a zoom option and social media share options. More importantly, we have annotated it so that we provide a title, description, and data source for the readers. (NOTE: The map is for demonstration purposes only)
 {% endembed %}
 
 ### _Locator map_
 
-Before we dive into the process, it's essential to clarify what a locator map is. A locator map is a small map that shows the location of a specific area within a larger context. It's often used to orient viewers and provide a geographical perspective. According to[ the tool provide](https://academy.datawrapper.de/article/161-how-to-create-a-locator-map)r, “They are a great choice if you want to show where something is located or happened.”
+Before we dive into the process, it's essential to clarify what a locator map is. A locator map is a small map that shows the location of a specific area within a larger context. It's often used to orient viewers and provide a geographical perspective. According to[ the tool provider](https://academy.datawrapper.de/article/161-how-to-create-a-locator-map), “They are a great choice if you want to show where something is located or happened.”
 
 <details>
 
 <summary>Possible open-source use case for locator maps</summary>
 
-Locator maps are essential tools for open-source investigators. They provide a visual context for data, helping to: &#x20;
+Locator maps can be useful tools for open-source investigators. They provide visual context for data, helping to: &#x20;
 
 * [Visualize Geographic Scope](https://www.aktek.io/blog/using-location-intelligence-in-open-source-investigations): Understand the spread of events or information across a region.
 * Identify Patterns: Recognize trends or clusters in data distribution.
-* [Corroborate Information:](https://www.aktek.io/blog/using-location-intelligence-in-open-source-investigations) Compare different data sets to verify accuracy and completeness.
-* [Communicate Findings ](https://www.aktek.io/blog/using-location-intelligence-in-open-source-investigations) (Especially of Geolocated Incidents In Conflicts or Violent Protests) Effectively convey complex information to audiences through visual storytelling.
+* [Corroborate Information:](https://www.aktek.io/blog/using-location-intelligence-in-open-source-investigations) Compare different datasets to verify accuracy and completeness.
+* [Communicate Findings ](https://www.aktek.io/blog/using-location-intelligence-in-open-source-investigations)(especially geolocated incidents in conflicts or violent protests): convey complex information to audiences through visual storytelling.
 
 By placing data in a geographic context, investigators can gain deeper insights and uncover hidden connections.  &#x20;
 
-For example: [An article ](https://www.bbc.com/news/world-middle-east-60691503)showing mass demolitions and forced evictions in Jeddah, Saudi Arabia, may benefit from showing the different locations of demolished buildings in the neighborhood. &#x20;
+For example: [An article ](https://www.bbc.com/news/world-middle-east-60691503)showing demolitions and evictions in Jeddah, Saudi Arabia, may benefit from showing the different locations of demolished buildings in the neighborhood. &#x20;
 
 </details>
 
@@ -376,7 +376,7 @@ TIP: Users can adjust the zoom level, rotation, tilt, and height of the map. Dec
 
 * Labels: Add labels to your markers by clicking on them and entering the location name.
 * Pop-ups: Create informative pop-ups for each marker by adding additional details such as descriptions, images, or links.
-* Legend/ “Map Key”: Include a legend to explain the meaning of different marker types or colors if necessary.
+* Legend/“Map Key”: Include a legend to explain the meaning of different marker types or colors if necessary.
 
 **Publish and Embed**
 
@@ -388,7 +388,7 @@ NOTE: Locator maps can be exported in GeoJSON format
 
 
 {% embed url="https://datawrapper.dwcdn.net/aF5Fe/1/" %}
-This is a sample locator map generated in Datawrapper. It shows the locations of various museums one might visit in the city. By highlighting these places with “markers” in red, the reader can see where they are in relation to the rest of the city. (NOTE: This map is for demonstration purposes only)
+This is a sample locator map generated in Datawrapper. It shows the locations of various museums one might visit in the city. By highlighting these places with “markers” in red, the reader can see where they are in relation to the rest of the city (NOTE: This map is for demonstration purposes only).
 {% endembed %}
 
 ### TABLE
@@ -438,17 +438,17 @@ Tables are highly versatile data visualization tools, allowing for the inclusion
 
 ### COLLABORATION AND TEAMS&#x20;
 
-Datawrapper offers team features, enabling multiple users to work together on visualizations. This is particularly useful for investigative teams, allowing for shared insights and efficient workflow. It is also especially useful for collaboration within one organization and in instances where a team from one organization partners with a team from another organization. &#x20;
+Datawrapper offers team features, enabling multiple users to work together on visualizations. This is particularly useful for investigative teams, allowing for shared insights and efficient workflows. It is also especially useful for collaboration within one organization and in instances where a team from one organization partners with a team from another organization. &#x20;
 
-Detailed instructions on creating and managing Teams in Datawrapper, can be found here: [https://academy.datawrapper.de/article/209-how-to-create-a-team](https://academy.datawrapper.de/article/209-how-to-create-a-team) and [https://academy.datawrapper.de/article/217-what-are-teams](https://academy.datawrapper.de/article/217-what-are-teams). However, below is a summary of those steps and some important caveats. &#x20;
+Detailed instructions on creating and managing Teams in Datawrapper, can be found [here](https://academy.datawrapper.de/article/209-how-to-create-a-team) and[ here](https://academy.datawrapper.de/article/217-what-are-teams).  However, below is a summary of those steps and some important caveats. &#x20;
 
 {% hint style="info" %}
-NOTE #1: According to the tool provider: If you create a team, you will automatically be the team owner – and every member of a team can use the features of the team owner's pricing plan. For example, if you bought a Custom plan with two custom design themes, and you create a team, everybody in your team will be able to create charts with these two themes, use the PDF export, and use all other Custom features.
+NOTE #1: According to the tool provider: If you create a team, you will automatically be the team owner – and every member of a team can use the features of the team owner's pricing plan. For example, if you bought a custom plan with two custom design themes, and you create a team, everybody in your team will be able to create charts with these two themes, use the PDF export, and use all other custom features.
 
 NOTE #2: Even as a “team owner,” members you have invited have the ability to edit the visualizations. Every member can edit, publish, or embed any visualization in a team folder.
 {% endhint %}
 
-**(Click between tabs to see steps)**
+**Click between tabs to see the steps:**
 
 {% tabs %}
 {% tab title="Creating a Team" %}
@@ -484,7 +484,7 @@ NOTE: Collaboration in Teams[ is live](https://blog.datawrapper.de/introducing-l
 1. **Platform:** Datawrapper is a web-based tool accessible from any device with internet access.&#x20;
 2. **Integration:** Supports integration with various data sources and formats for data import.&#x20;
 3. **Collaboration:** users can set up teams to collaborate on a project.&#x20;
-4. Free version is very good, has unlimited visualizations and has a lot of powerful features.&#x20;
+4. The **Free version** has unlimited visualizations and a lot of powerful features.&#x20;
 5. **Customization:** It provides options for customizing the look and feel of visualizations to match user preferences
 6. **Export Options:** Allows users to export visualizations in static format such as in PNG, PDF, or have an interactive graph in HTML that users can forward to social media, or embed in websites.
 7. **Easy User Interface:** Datawrapper features a straightforward interface, drop down menu and integrated hints and explanation for users.&#x20;
