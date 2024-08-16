@@ -55,7 +55,7 @@ The map shows areas where aircraft reported good, bad, or uncertain navigation a
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>This legend is located at the bottom left of the map. Each hexagon is grouped into three colors depending on the level of position accuracy reported by aircraft. </p></figcaption></figure>
 
-GREEN: Good navigation for over 98% of aircraft.
+GREEN: Good navigation accuracy for over 98% of aircraft.
 
 YELLOW: Between 2-10% of aircraft reported low accuracy.
 
