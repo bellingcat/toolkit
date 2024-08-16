@@ -12,9 +12,9 @@ https://www.datawrapper.de/
 
 ## Description
 
-The purpose of the tool is to help users convert raw data into interactive and visually appealing graphics without advanced technical skills. According to a Datawrapper co-founder:  &#x20;
+The purpose of the tool is to help users convert raw data into interactive and visually appealing graphics without the need to have advanced technical skills. According to a Datawrapper co-founder:  &#x20;
 
-"\[[t\]he idea is that you have a two-minute interaction with the tool](https://www.icij.org/inside-icij/2018/08/nine-essential-tools-from-icijs-data-journalism-and-programming-experts/)”. Its audience is primarily journalists, researchers, and data analysts to assist in communicating data insights effectively. The International Consortium of Investigative Journalism [said that](https://www.icij.org/inside-icij/2018/08/nine-essential-tools-from-icijs-data-journalism-and-programming-experts/) Datawrapper "an open source tool for anyone who wants to create a chart or map from their data, came out of the knowledge that expecting every journalist to know code is unrealistic."
+"\[[t\]he idea is that you have a two-minute interaction with the tool](https://www.icij.org/inside-icij/2018/08/nine-essential-tools-from-icijs-data-journalism-and-programming-experts/)”. Its target users are primarily journalists, researchers, and data analysts who would like to communicate data insights effectively. The International Consortium of Investigative Journalism [said that](https://www.icij.org/inside-icij/2018/08/nine-essential-tools-from-icijs-data-journalism-and-programming-experts/) Datawrapper as "an open source tool for anyone who wants to create a chart or map from their data, came out of the knowledge that expecting every journalist to know code is unrealistic."
 
 ### How it works
 
