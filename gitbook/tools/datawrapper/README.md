@@ -564,7 +564,7 @@ For more list of limitations, see:
 
 ## Ethical Considerations
 
-The main ethical consideration about data visualizations is the possibility that information can be misleading, no matter how good it looks. [“Some are misleading by mistake, some are misleading on purpose.”](https://www.dataspire.org/blog/5-tips-to-be-aware-of-how-charts-lie-book-review) This[ article ](https://medium.com/nightingale/constructing-a-career-in-data-visualization-the-how-18ad4900c120)discusses the possibility that charts can be misleading and that data interpretation has some general pitfalls.
+The main ethical consideration about data visualizations is the possibility that information can be misleading, no matter how good it looks:[“Some are misleading by mistake, some are misleading on purpose.”](https://www.dataspire.org/blog/5-tips-to-be-aware-of-how-charts-lie-book-review) This[ article ](https://medium.com/nightingale/constructing-a-career-in-data-visualization-the-how-18ad4900c120)discusses the possibility that charts can be misleading and that data interpretation has some general pitfalls.
 
 <details>
 
@@ -581,7 +581,7 @@ The main ethical consideration about data visualizations is the possibility that
 </details>
 
 \
-However, to mitigate this, practice is key.: “So much of understanding data is just asking the right questions. This includes the initial question, but also the questions you ask about your data: Is this source trustworthy? Is my data incomplete? Can this data actually answer this question? This practice of constantly interrogating your data with a careful skepticism is likely the most important aspect of working with data.[ If you can understand the potential and limits of your data, you will be set up for success.](https://medium.com/nightingale/constructing-a-career-in-data-visualization-the-how-18ad4900c120)”
+However, to mitigate this, practice is key: “So much of understanding data is just asking the right questions. This includes the initial question, but also the questions you ask about your data: Is this source trustworthy? Is my data incomplete? Can this data actually answer this question? This practice of constantly interrogating your data with a careful skepticism is likely the most important aspect of working with data.[ If you can understand the potential and limits of your data, you will be set up for success.](https://medium.com/nightingale/constructing-a-career-in-data-visualization-the-how-18ad4900c120)”, writes Will Chase.
 
 ## Guides and articles
 
