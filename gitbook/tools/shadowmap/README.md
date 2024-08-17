@@ -88,7 +88,7 @@ ShadowMap has 5 main interface menus:
 
 {% tabs %}
 {% tab title="PROJECT " %}
-<figure><img src=".gitbook/assets/ProjectsMenu.JPG" alt=""><figcaption><p>AVAILABLE ON PAID PLANS</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ProjectsMenu.JPG" alt="" width="373"><figcaption><p>AVAILABLE ON PAID PLANS</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="SETTINGS " %}
@@ -96,7 +96,7 @@ ShadowMap has 5 main interface menus:
 {% endtab %}
 
 {% tab title="SEARCHBOX.." %}
-<figure><img src=".gitbook/assets/Location text input.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Location text input.jpg" alt="" width="451"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="HIDE.." %}
