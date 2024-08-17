@@ -47,7 +47,9 @@ The Main Differences between versions are:
 * The Studio version allows 3D user model upload and Google hi-res satellite imagery.
 
 {% hint style="success" %}
-All Shadowmap functionality, up to and including the top level Studio version, is available to **test for free** in a single selected location (Chile, at the time of writing, though this may be amended over time)
+ALL Shadowmap functionality, up to and including the top level Studio version, is available to **test for free** in a single selected location (Chile, at the time of writing, though this may be amended over time) called the All Access Project
+
+<img src=".gitbook/assets/image.png" alt="" data-size="original">
 {% endhint %}
 
 {% tabs %}
@@ -101,6 +103,13 @@ The Project and Share menus allow&#x20;
 
 {% tab title="SETTINGS " %}
 <figure><img src=".gitbook/assets/SettingsMenuShadowMap.JPG" alt=""><figcaption></figcaption></figure>
+
+The Settings menus allow
+
+* Selection from 3 map styles
+* Selection from 3 levels of image quality
+* User definition of camera movement and focal length&#x20;
+* FOR STUDIO VERSION Switch to global high resolution satellite imagery & 3D buildings
 {% endtab %}
 
 {% tab title="SEARCHBOX.." %}
