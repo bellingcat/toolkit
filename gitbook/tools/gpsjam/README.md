@@ -25,13 +25,13 @@ NOTE:&#x20;
 
 _**Some background information on flight tracking**_
 
-Most a[ircraft are usually equipped with an instrument called an ADS-B Ou](https://cincinnatiavionics.com/ads-b-101-what-you-need-to-know/)t, which stands for “Automatic Dependent Surveillance-Broadcast. ”   It is a plane's way of sharing its location, speed, and altitude with air traffic control and other planes in the sky. Think of it as a plane's built-in GPS that constantly broadcasts its position. This helps prevent collisions and makes air travel safer.&#x20;
+Most a[ircraft are usually equipped with an instrument called an ADS-B Ou](https://cincinnatiavionics.com/ads-b-101-what-you-need-to-know/)t, which stands for “Automatic Dependent Surveillance-Broadcast. ”   It is a plane's way of sharing its location, speed, and altitude with air traffic control and other planes in the sky. Think of it as a plane's built-in GPS that constantly broadcasts its position. This helps prevent collisions and makes air travel safer. [It is also a critical navigation tool that guides planes towards landing](https://www.reuters.com/business/aerospace-defense/what-is-gps-jamming-why-it-is-problem-aviation-2024-04-30/). With GPS interference, aircraft have less capability of accurately navigating toward their destination.&#x20;
 
 Flight professionals and enthusiasts then use equipment to receive this information and “feed” that information to flight-tracking websites like ADS-B-Exchange. These flight-tracking websites then visualize this information on an interactive map.&#x20;
 
 _**What does GPSJam do with these data?**_
 
-In simple terms, when aircraft use ADS-B Out, **not only are they sending their position, but they are also sending the level of accuracy of their position.** According [to the tool provider](https://x.com/lemonodor/status/1553164786380070912), “when there is interference with their GPS, the uncertainty goes up.” When there is little to no interference, the uncertainty goes down. In other words, accuracy goes up when there is no interference, and accuracy goes down when there is interference. In essence, ADS-B Exchange receives data on the level of accuracy of an aircraft's position. The tool provider then aggregates this data over 24 hours and groups it into hexagons. The level of accuracy is then grouped into different colored hexagons. &#x20;
+In simple terms, when aircraft use ADS-B Out, **not only are they sending their position, but they are also sending the level of accuracy of their position.** According [to the tool provider](https://x.com/lemonodor/status/1553164786380070912), “when there is interference with their GPS, the uncertainty goes up.” When there is little to no interference, the uncertainty goes down. In other words, accuracy goes up when there is no interference, and accuracy goes down when there is interference. In essence, ADS-B Exchange receives data on the level of accuracy of an aircraft's position. The tool provider then aggregates this data over 24 hours and groups it into hexagons. The level of accuracy is then grouped into different colors. &#x20;
 
 The data seems to be manually updated daily around midnight UTC.&#x20;
 
@@ -55,11 +55,11 @@ The map shows areas where aircraft reported good, bad, or uncertain navigation a
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>This legend is located at the bottom left of the map. Each hexagon is grouped into three colors depending on the level of position accuracy reported by aircraft. </p></figcaption></figure>
 
-GREEN: Good navigation accuracy for over 98% of aircraft.
+**GREEN:** Good navigation accuracy for over 98% of aircraft.
 
-YELLOW: Between 2-10% of aircraft reported low accuracy.
+**YELLOW:** Between 2-10% of aircraft reported low accuracy.
 
-RED: More than 10% of aircraft reported low accuracy (likely interference).
+**RED:** More than 10% of aircraft reported low accuracy (likely interference).
 
 {% hint style="warning" %}
 **NOTE:** RED/YELLOW does not always indicate jamming. According to [the tool provider](https://gpsjam.org/faq#is-it-always-jamming), “Low accuracy could be caused by factors other than jamming (e.g., military testing, protecting high-profile individuals)”
