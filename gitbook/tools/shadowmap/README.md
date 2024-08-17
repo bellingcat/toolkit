@@ -88,8 +88,6 @@ ShadowMap has 5 main interface menus:
 
 <figure><img src=".gitbook/assets/InterfaceMenus (1).jpg" alt="" width="563"><figcaption><p><strong>THE 5 MAIN SHADOWMAP MENUS RARELY APPEAR AT THE SAME TIME ON THE SCREEN</strong></p></figcaption></figure>
 
-
-
 {% hint style="success" %}
 URL: Note that the Shadowmap url which is displayed in the browser address bar is constructed to reflect the properties of the location being displayed in great detail: latitude, longitude, zoom, azimuth,etc. The user can edit all these parameters directly in the URL, hit refresh and Shadowmap will redraw accordingly. This can be a very useful shortcut but it is powerful and should be used with care.&#x20;
 {% endhint %}
@@ -212,8 +210,6 @@ Custom models (within a quota dependent upon subscription plan) up to 200MB can 
 
 </details>
 
-
-
 ## Cost
 
 * [ ] Free
@@ -230,11 +226,9 @@ At the time of writing in August 2024, paid versions varied from Explorer at £2
 
 ## Requirements
 
-Free version does not require login
-
-Paid versions require an account and payment
-
-High quality imagery requires good graphics hardware
+* Free version does not require login
+* Paid versions require an account and payment
+* High quality imagery requires good graphics hardware
 
 ## Limitations
 
@@ -249,6 +243,8 @@ The inclusion of detailed building data in Shadowmap could lead to invasions of 
 Useful FAQs and resources can be found at[ https://shadowmap.org/support](https://shadowmap.org/support)
 
 Detailed video presentations are on YouTube at [https://www.youtube.com/@shadowmap\_org](https://www.youtube.com/@shadowmap\_org)
+
+{% embed url="https://www.youtube.com/watch?v=wg1o9QcIuZE" %}
 
 ## Tool provider
 
