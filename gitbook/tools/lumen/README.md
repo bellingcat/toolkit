@@ -10,7 +10,7 @@ https://example.com
 
 ## Description
 
-The Lumen database, hosted by the Berkman Klein Center for Internet & Society at Harvard University, is a research project that collects and analyzes legal complaints and requests for the removal of online content. Its primary purpose is to promote transparency and facilitate research on the types of legal complaints being sent to internet publishers, search engines, and service providers.
+The Lumen database, hosted by the Berkman Klein Center for Internet & Society at Harvard University, is a research project and search engine that collects and analyzes legal complaints and requests for the removal of online content. Its primary purpose is to promote transparency and facilitate research on the types of legal complaints being sent to internet publishers, search engines, and service providers.
 
 ## Cost
 
@@ -26,19 +26,20 @@ Lumen is a Free and Open Source project.&#x20;
 
 ## Requirements
 
-No registration required. The site is not optimized for mobile devices.&#x20;
+No registration required&#x20;
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+* No bulk export feature for records available on the website (API is required)&#x20;
+* Email address is required to gain full access to the records' contents&#x20;
+* &#x20;The site is not optimized for mobile or tablet devices.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+* Records may contain personal information&#x20;
+* Records may be relevant to ongoing legal proceedings, sharing them more publicly may affect such proceedings&#x20;
 
 ## Guides and articles
-
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
 
 [Lumen API documentation](https://github.com/berkmancenter/lumendatabase/wiki/Lumen-API-Documentation)
 
