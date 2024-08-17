@@ -10,12 +10,13 @@ https://example.com
 
 ## Description
 
-The Lumen database, hosted by the Berkman Klein Center for Internet & Society at Harvard University, is a research project and search engine that collects and analyzes legal complaints and requests for the removal of online content. Its primary purpose is to promote transparency and facilitate research on the types of legal complaints being sent to internet publishers, search engines, and service providers. Its core features include:
+The Lumen database, hosted by the Berkman Klein Center for Internet & Society at Harvard University, is a research project and search engine that collects and analyzes legal complaints and requests for the removal of online content. Its primary purpose is to promote transparency and facilitate research on the types of legal complaints being sent to internet publishers, search engines, and service providers. These sources include: Google and meta platforms, wikimedia sites, github and major crowfunding platforms such as gofoundme and kickstarter. Its core features include:
 
-* **Structured summaries of records:** Each notice includes detailed metadata, such as the sender, recipient, jurisdiction, and specific URLs targeted for removal.
+* **Structured summaries for each notice**, including the sender, recipient, and content targeted for removal.
 * **Full-text search** across all notice fields with options to filter by specific facets like jurisdiction, language, or action taken, allowing for precise data retrieval.
+* **Transparency Reports**:  providing insights into the volume and nature of the notices they receive from participating companies.&#x20;
+* **Open access:** All data, text, and code in the Lumen database are available under Creative Commons and GNU General Public License.
 * **API access:** data can also be accessed via an API to bulk download summaries
-* **Transparency Reports**: The database includes transparency reports from participating companies, providing insights into the volume and nature of the notices they receive.
 
 ## Cost
 
