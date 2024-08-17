@@ -112,7 +112,7 @@ ShadowMap has 5 main interface menus:
 
 Custom models (within a quota dependent upon subscription plan) up to 200MB can be uploaded in formats:
 
-[GLB](https://docs.fileformat.com/3d/glb/), [FBX](https://en.wikipedia.org/wiki/FBX), [DAE](https://www.bing.com/ck/a?!&\&p=cc9942aecb454b7eJmltdHM9MTcyMzc2NjQwMCZpZ3VpZD0xM2FhMTJmYy05ZWRjLTY5NzQtMDhhMy0wNjgyOWZmODY4OGEmaW5zaWQ9NTI1MA\&ptn=3\&ver=2\&hsh=3\&fclid=13aa12fc-9edc-6974-08a3-06829ff8688a\&psq=file+format+DAE\&u=a1aHR0cHM6Ly9maWxlaW5mby5jb20vZXh0ZW5zaW9uL2RhZQ\&ntb=1), OBJ, and IFC
+[GLB](https://docs.fileformat.com/3d/glb/), [FBX](https://en.wikipedia.org/wiki/FBX), [DAE,](https://cadexchanger.com/dae/) [OBJ](https://en.wikipedia.org/wiki/Wavefront\_.obj\_file), and[ IFC](https://www.spatial.com/resources/glossary/what-is-ifc)
 
 Users have the option to select any building on the map and adjust its height or hide it from view.
 
