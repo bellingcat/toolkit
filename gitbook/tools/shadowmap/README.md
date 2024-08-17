@@ -222,7 +222,9 @@ At the time of writing in August 2024, paid versions varied from Explorer at £2
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
+
+Shadowmap has a complex set of menus and requires a good understanding of the motion of the sun over time to gain accurate results.
 
 ## Requirements
 
