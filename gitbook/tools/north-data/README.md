@@ -46,11 +46,14 @@ User registration is required for accessing certian features (see cost section)&
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+* Graphs are limited to first degree connections (of an organisation) and relations between them&#x20;
+* Some financial data or indicators are limited under a free account, are inconsistently updated or unavailable&#x20;
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+* Individuals with common names or aliases can be misidentifed without using additional information about the target, leading to false allegations&#x20;
+* Data contains sensitive information such as addresses or  contact information&#x20;
+* Can reveal personal relationships that aren’t widely known&#x20;
 
 ## Guides and articles
 
