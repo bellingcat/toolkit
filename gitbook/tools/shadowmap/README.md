@@ -122,7 +122,7 @@ The Settings menus allow
 {% endtab %}
 
 {% tab title="SEARCHBOX.." %}
-<figure><img src=".gitbook/assets/Location text input.jpg" alt="" width="451"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Location HELP diag.JPG" alt="" width="563"><figcaption></figcaption></figure>
 
 * The Search Box sets location by text input or co-ordinates input
 * The Time & Date Menu sets time and date with a slider and allows numerical date input also
