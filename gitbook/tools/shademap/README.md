@@ -169,7 +169,27 @@ DO use the "+" and "-" tool in the bottom left of the map window to zoom whilst 
 
 {% tabs %}
 {% tab title="DATA " %}
-<figure><img src=".gitbook/assets/shademapbottomleft menu.JPG" alt=""><figcaption></figcaption></figure>
+
+
+<div>
+
+<figure><img src=".gitbook/assets/shademapbottomleft menu (1).JPG" alt=""><figcaption><p>THE DATA TOOLBAR<br>SCREEN BOTTOM LEFT</p></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/ShademapSettings (1).JPG" alt="" width="375"><figcaption><p><strong>THE SETTINGS MENU: CALLED FROM THE DATA TOOLBAR</strong></p></figcaption></figure>
+
+</div>
+
+Data display and exchange is managed through the bottom left interface toolbar, which allows
+
+* Opening files of type: \*.tif, \*tiff, \* .gpx, \*.kml, \*.json, \*.geojson.
+* Export of files as \*.tiff = Geotiff format.
+* Generation of a link for sharing the view
+* Interface settings around the sun direction for now, sunrise and sunset
+  * Contour line units
+  * Level of shadows re tree canopy (where applicable)
+  * Colour of shade
 {% endtab %}
 
 {% tab title="SEARCH" %}
