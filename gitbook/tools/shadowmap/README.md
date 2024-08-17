@@ -17,6 +17,8 @@ description: >-
 
 ShadowMap calculates shadow locations in real time and displays them on a 3D tilting map, showing arcs of azimuth and elevation angles along the sun's path.&#x20;
 
+### Free and Paid Shadowmap Versions
+
 A range of more  advanced functions are spread across 3 further paid versions with increasing numbers of features - see the table below, with a tab for each version explaining functionality.
 
 {% tabs %}
