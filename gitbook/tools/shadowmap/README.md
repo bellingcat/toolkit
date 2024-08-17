@@ -66,7 +66,7 @@ ALL Shadowmap functionality, up to and including the top level Studio version, i
 * 24 hour animation of the sun and shadow paths at a given location and time
 * Yearly average solar energy value for a given location in kWh/square metre
 
-<figure><img src=".gitbook/assets/SolarAnalyticsMenu.JPG" alt="" width="338"><figcaption><p>PAID VERSION "STUDIO" FEATURE: SOLAR ANALYTICS, INVOKED BY PRESSING "ANALYZE" MENU BUTTON</p></figcaption></figure>
+<figure><img src=".gitbook/assets/SolarAnalyticsMenu (1).JPG" alt="" width="338"><figcaption><p>PAID VERSION "STUDIO" FEATURE: SOLAR ANALYTICS, INVOKED BY PRESSING "ANALYZE" MENU BUTTON</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="USE CASES" %}
@@ -87,6 +87,12 @@ ALL Shadowmap functionality, up to and including the top level Studio version, i
 ShadowMap has 5 main interface menus:
 
 <figure><img src=".gitbook/assets/InterfaceMenus (1).jpg" alt="" width="563"><figcaption><p><strong>THE 5 MAIN SHADOWMAP MENUS RARELY APPEAR AT THE SAME TIME ON THE SCREEN</strong></p></figcaption></figure>
+
+
+
+{% hint style="success" %}
+URL: Note that the Shadowmap url which is displayed in the browser address bar is constructed to reflect the properties of the location being displayed in great detail: latitude, longitude, zoom, azimuth,etc. The user can edit all these parameters directly in the URL, hit refresh and Shadowmap will redraw accordingly. This can be a very useful shortcut but it is powerful and should be used with care.&#x20;
+{% endhint %}
 
 {% tabs %}
 {% tab title="PROJECT " %}
@@ -117,18 +123,42 @@ The Settings menus allow
 
 {% tab title="SEARCHBOX.." %}
 <figure><img src=".gitbook/assets/Location text input.jpg" alt="" width="451"><figcaption></figcaption></figure>
+
+* The Search Box sets location by text input or co-ordinates input
+* The Time & Date Menu sets time and date with a slider and allows numerical date input also
+* The 24H button generates an animation of sun position with shadows over 24 hours
+* The Analyze tab  switches to a view coloured according to degree of yearly sun radiation where numeric energy values appear for a point upon Left Mouse Click
+
+<figure><img src=".gitbook/assets/SolarAnalyticsMenu.JPG" alt="" width="338"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="HIDE.." %}
 <figure><img src=".gitbook/assets/HideorHeightMenu.JPG" alt=""><figcaption></figcaption></figure>
+
+The 'Hide & Height' menu appears in Visualization mode whenever the user Left Mouse clicks on a building (duly highlighted), allowing the user to reset the height & change the building visibility.
 {% endtab %}
 
 {% tab title="POINT N..." %}
 <figure><img src=".gitbook/assets/POINT NMENU.JPG" alt=""><figcaption></figcaption></figure>
+
+The Point North button resets the view orientation to north being upwards in theimage
+
+The Share button allows the user to share or embed a project with default time, date, camera angle, focal length, etc. Shared models are not editable by the audience, but interaction is allowed and links & embeds can be updated simultaneously via the "Update" button
+
+The Settings button invokes the Settings menu
+
+The Zoom buttons&#x20;
 {% endtab %}
 {% endtabs %}
 
 
+
+{% hint style="info" %}
+PARTICULARLY USEFUL FEATURES FOR OSINV ARE:
+
+* The ability to change the focal length of the virtual camera in the model allows for more accurate image matching in OSINV research
+* The ability to add/remove buildings and model the consequent changes in shadowfall allows the user to consider past and future shadow patterns as building topology changes over time.
+{% endhint %}
 
 ### The Data
 
