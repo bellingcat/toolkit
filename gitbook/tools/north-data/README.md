@@ -71,5 +71,5 @@ User registration is required for accessing certian features (see cost section)&
 
 | Page maintainer |
 | --------------- |
-| Shiva Shah      |
+| Shiva           |
 |                 |
