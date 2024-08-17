@@ -65,6 +65,34 @@ The map shows areas where aircraft reported good, bad, or uncertain navigation a
 **NOTE:** RED/YELLOW does not always indicate jamming. According to [the tool provider](https://gpsjam.org/faq#is-it-always-jamming), “Low accuracy could be caused by factors other than jamming (e.g., military testing, protecting high-profile individuals)”
 {% endhint %}
 
+_**Causes of GPS/GNSS Interference**_
+
+To put more context when looking at GPSJam data, looking at possible reasons for GPS/GNSS interference may be helpful.&#x20;
+
+Interference happens like this: Imagine you're in a room trying to listen to your friend (the satellite) whispering from far away. If someone (the jammer) suddenly shouts very loudly in the room, you won’t be able to hear your friend anymore. That's essentially how interference happens—it drowns out the important signal with a stronger one.
+
+There are a [few factors that cause interference](https://www.flightradar24.com/data/gps-jamming).&#x20;
+
+**Unintentional:**
+
+1. Atmospheric conditions
+2. Solar activity
+3. A problem with an aircraft’s equipment (but when [“multiple aircraft in close proximity during the same time frame, it suggests the presence of a radio signal interfering with normal GNSS operation.” ](https://www.flightradar24.com/data/gps-jamming)
+4. [Electromagnetic interference from sources like radios, cellphones, or sometimes powerlines can lead to inaccuracies. ](https://www.flightradar24.com/data/gps-jamming)
+
+**Intentional:**&#x20;
+
+[Satellites in space constantly send weak radio signals down to Earth,](https://www.gpsworld.com/innovation-insights-gnss-jamming-and-spoofing/) which GPS devices use to figure out their location. However, there are stronger signals that may come from somewhere else. A[ GPS jammer, for example, is a small device on the ground that sends out radio signals ](https://www.reuters.com/business/aerospace-defense/what-is-gps-jamming-why-it-is-problem-aviation-2024-04-30/)at the [same frequency as satellites. ](https://www.cisa.gov/sites/default/files/2023-02/CISA-Insights\_GPS-Interference\_508.pdf)But the jammer's signals are much [stronger than the ones coming from space](https://www.gpsworld.com/innovation-insights-gnss-jamming-and-spoofing/). Confusion happens when this is the case. Because the jammer's signals are stronger, they overpower the satellite signals. This confuses the GPS device, and it can't correctly calculate the location. When GPS jamming happens, the device can’t read the satellite signals, so it either shows the wrong location or no location at all.
+
+1. [Deliberate testing of military jamming systems](https://gpsjam.org/faq#is-it-always-jamming) outside of conflict zones (I.e., in Southwestern United States).  [Sometimes, military exercises intentionally jam GPS signals when trying to simulate electronic warfare scenarios.](https://knowmad-osint.com/gps-jamming-in-action-an-osint-perspective/)&#x20;
+2. Law enforcement agencies may activate GPS jamming to[ protect sensitive areas like critical infrastructure](https://knowmad-osint.com/gps-jamming-in-action-an-osint-perspective/) (power grids, emergency services) or government buildings.&#x20;
+3. [Intentional jamming to cause navigation inaccuracy. ](https://knowmad-osint.com/gps-jamming-in-action-an-osint-perspective/) Large-scale interference is most of the time associated with conflict zones. [High-intensity interference that affects a larger geographic area typically requires advanced electronic systems](https://knowmad-osint.com/gps-jamming-in-action-an-osint-perspective/), often associated with military applications.
+
+\
+\
+\
+
+
 ## Cost
 
 * [x] Free
