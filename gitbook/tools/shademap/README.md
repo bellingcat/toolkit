@@ -173,22 +173,36 @@ DO use the "+" and "-" tool in the bottom left of the map window to zoom whilst 
 {% endtab %}
 
 {% tab title="SEARCH" %}
-
+<figure><img src=".gitbook/assets/sEARCHmENU.JPG" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="PROJECT" %}
-<figure><img src=".gitbook/assets/ShadeMapLeft Side Menu.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ShadeMapLeft Side Menu.JPG" alt="" width="223"><figcaption></figcaption></figure>
+
+### Trail Shade Feature&#x20;
+
+<figure><img src=".gitbook/assets/ShadeMapTrailShade.JPG" alt=""><figcaption><p><strong>SHADEMAP'S TRAIL SHADE FEATURE MAPS SHADE ALONG A TRAIL OVER TIME</strong></p></figcaption></figure>
+
+A specialist application of ShadeMap technology focusing on the shade profile of a given user-defined path (trail) on a given day of the year. The trail must be uploaded in GPX or KML format. Above a map of the user's trail and date a graph of the distance along the trail versus time of day is drawn to show the changing shadow patterns.
+
+Possible Open Source Research applications include confirmation of geolocation of video source imagery taken by a moving camera.
+
+### GPX Replay Feature&#x20;
+
+GPX Replay plays progress along a user defined trail on a map whilst the changing shadow pattern is constantly redrawn throughout the trip.
+
+<figure><img src=".gitbook/assets/ShadeMapGPXPlay.gif" alt=""><figcaption><p>SHADE MAP'S GPX REPLAY FEATURE SHOWING THE SHADE PATTERN FOR A ROUND TRIP TRAIL</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="LAYERS" %}
 <figure><img src=".gitbook/assets/shademapbottomrightmenu.JPG" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="DRAWING" %}
+{% tab title="VIEW" %}
 <figure><img src=".gitbook/assets/shademaptopright menu.JPG" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="VIEW" %}
+{% tab title="TIME" %}
 
 {% endtab %}
 {% endtabs %}
