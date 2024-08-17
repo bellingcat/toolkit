@@ -39,7 +39,13 @@ _**Filter by date**_
 
 To use the tool, click on the URL and then navigate to the menu in the upper left corner.&#x20;
 
-Choose your date of interest on the calendar icon. The tool automatically shows the results worldwide.&#x20;
+Choose your date of interest on the calendar icon. The tool automatically shows the results worldwide.
+
+&#x20;
+
+{% hint style="success" %}
+TIP: Select a date of significance (e.g., 24 Feb 2022, when the Russian army entered Ukraine). Review the data from a few days before and after this date to gain a broader understanding of the interference patterns surrounding the event.
+{% endhint %}
 
 {% hint style="info" %}
 NOTE: [Historical data only goes up to 14 February 2022. There is no data before this date. ](https://gpsjam.org/faq#incomplete-data)
