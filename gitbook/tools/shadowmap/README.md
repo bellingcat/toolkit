@@ -76,19 +76,17 @@ All Shadowmap functionality, up to and including the top level Studio version, i
 {% endtab %}
 {% endtabs %}
 
-<table><thead><tr><th width="197">INPUT DATA</th><th width="236">TEXT ENTRY METHODS</th><th>GRAPHICAL INTERFACE INPUT</th></tr></thead><tbody><tr><td>Location</td><td>Type location name into the Text Input box.<img src=".gitbook/assets/image (1) (1).png" alt=""></td><td>Drag and drop the background map to move to  new location using Right Mouse down and Scroll Wheel.</td></tr><tr><td>Date</td><td>Type date into Text Input box.<img src=".gitbook/assets/image (3).png" alt=""></td><td>Drag and drop the Date slider to the required date</td></tr><tr><td>Time</td><td></td><td>Drag and drop the Time slider to the required time.<img src=".gitbook/assets/image (4).png" alt=""></td></tr><tr><td>User Object Description (vertices &#x26; height)</td><td></td><td>Building shapes and heights can be defined using the mouse as shown below (as polygons with a uniform height).</td></tr><tr><td>User's own 3D model files</td><td></td><td>In paid plans, the user can upload their own 3D files in GLB, FBX, DAE, OBJ, and IFC formats.</td></tr></tbody></table>
+<figure><img src=".gitbook/assets/ShadowMapvideo.gif" alt=""><figcaption><p>SHADOWMAP STUDIO VERSION (HIGHEST COST): USER INPUT &#x26; MANIPULATION OF 3D SHAPES</p></figcaption></figure>
 
 ### The Interface
-
-<figure><img src=".gitbook/assets/ShadowMapvideo.gif" alt=""><figcaption><p>SHADOWMAP STUDIO VERSION (HIGHEST COST): USER DEFINITION &#x26; MANIPULATION OF 3D SHAPES</p></figcaption></figure>
 
 
 
 ### The Data
 
-Custom models (within a quote dependent upon subscription plan) up to 200MB can be uploaded in formats:
+Custom models (within a quota dependent upon subscription plan) up to 200MB can be uploaded in formats:
 
-GLB, FBX, DAE, OBJ, and IFC
+[GLB](https://docs.fileformat.com/3d/glb/), [FBX](https://en.wikipedia.org/wiki/FBX), [DAE](https://www.bing.com/ck/a?!&\&p=cc9942aecb454b7eJmltdHM9MTcyMzc2NjQwMCZpZ3VpZD0xM2FhMTJmYy05ZWRjLTY5NzQtMDhhMy0wNjgyOWZmODY4OGEmaW5zaWQ9NTI1MA\&ptn=3\&ver=2\&hsh=3\&fclid=13aa12fc-9edc-6974-08a3-06829ff8688a\&psq=file+format+DAE\&u=a1aHR0cHM6Ly9maWxlaW5mby5jb20vZXh0ZW5zaW9uL2RhZQ\&ntb=1), OBJ, and IFC
 
 Users have the option to select any building on the map and adjust its height or hide it from view.
 
