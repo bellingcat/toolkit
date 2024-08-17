@@ -153,10 +153,10 @@ The Zoom buttons&#x20;
 
 
 
-{% hint style="info" %}
+{% hint style="success" %}
 PARTICULARLY USEFUL FEATURES FOR OSINV ARE:
 
-* The ability to change the focal length of the virtual camera in the model allows for more accurate image matching in OSINV research
+* The ability to change the focal length of the virtual camera in the model allows for more accurate image matching in OSINV research.
 * The ability to add/remove buildings and model the consequent changes in shadowfall allows the user to consider past and future shadow patterns as building topology changes over time.
 {% endhint %}
 
@@ -166,7 +166,56 @@ Custom models (within a quota dependent upon subscription plan) up to 200MB can 
 
 [GLB](https://docs.fileformat.com/3d/glb/), [FBX](https://en.wikipedia.org/wiki/FBX), [DAE,](https://cadexchanger.com/dae/) [OBJ](https://en.wikipedia.org/wiki/Wavefront\_.obj\_file), and[ IFC](https://www.spatial.com/resources/glossary/what-is-ifc)
 
-Users have the option to select any building on the map and adjust its height or hide it from view.
+<details>
+
+<summary>ShadowMap cites numerous data sources for map, building and solar irradiation data ...(click for more details...</summary>
+
+* **Basemap Tiles**
+  * © [Stadia Maps](https://www.stadiamaps.com/)
+  * © [Esri](https://www.esri.com) and Maxar, GeoEye, Earthstar Geographics, CNES/Airbus DS, USDA, USGS, AeroGRID, IGN, and the GIS User Community.
+  * Maps © [Thunderforest](https://www.thunderforest.com), Data © [OpenStreetMap contributors](https://www.osm.org/copyright)
+
+<!---->
+
+* **Mapzen/Nextzen Terrain Tiles** ([Additional attribution](https://github.com/tilezen/joerd/blob/master/docs/attribution.md))
+* ArcticDEM terrain data DEM(s) were created from DigitalGlobe, Inc., imagery and funded under National Science Foundation awards 1043681, 1559691, and 1542736;
+
+<!---->
+
+* Australia terrain data © Commonwealth of Australia (Geoscience Australia) 2017;
+* Austria terrain data © offene Daten Österreichs – Digitales Geländemodell (DGM) Österreich;
+* Canada terrain data contains information licensed under the Open Government Licence – Canada;
+* Europe terrain data produced using Copernicus data and information funded by the European Union - EU-DEM layers;
+* Global ETOPO1 terrain data U.S. National Oceanic and Atmospheric Administration
+* Mexico terrain data source: INEGI, Continental relief, 2016;
+* New Zealand terrain data Copyright 2011 Crown copyright (c) Land Information New Zealand and the New Zealand Government (All rights reserved);
+* Norway terrain data © Kartverket;
+* United Kingdom terrain data © Environment Agency copyright and/or database right 2015. All rights reserved;
+* United States 3DEP (formerly NED) and global GMTED2010 and SRTM terrain data courtesy of the U.S. Geological Survey.
+
+<!---->
+
+* **Nextzen Vector Tiles** ([Nextzen Developers](https://developers.nextzen.org/about.html))
+
+<!---->
+
+* **3D buildings and trees for Vienna, Austria** © [Stadt Wien](https://digitales.wien.gv.at)
+  * Datenquelle: Stadt Wien – [data.wien.gv.at](https://data.wien.gv.at)
+  * Lizenz: [Creative Commons Namensnennung 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de)
+
+<!---->
+
+* **Trees for Madrid, Spain** © [Ayuntamiento de Madrid](https://datos.madrid.es) (last update 28/11/2020)
+
+<!---->
+
+* **Trees for Paris, France** © [Mairie de Paris](https://opendata.paris.fr) (last update 15/07/2022)
+
+<!---->
+
+* **Solar irradiation data** © [Global Solar Atlas 2.0](https://globalsolaratlas.info), Solargis s.r.o., World Bank Group, Energy Sector Management Assistance Program (ESMAP)
+
+</details>
 
 
 
@@ -196,7 +245,14 @@ Fixed date (as the date of the system clock) in the free version is a major limi
 
 ## Guide
 
-\[\[Link to a guide on this tool]]
+*
+* [Three.js](https://threejs.org) – the best Javascript 3D engine out there
+* [noUiSlider](https://refreshless.com/nouislider/)
+* [Pikaday](https://github.com/Pikaday/Pikaday)
+* [Geocode Earth](https://geocode.earth/)
+* [Proj4js](http://proj4js.org)
+* [Spherical Mercator](https://github.com/mapbox/sphericalmercator)
+* [SunCalc](https://github.com/mourner/suncalc)
 
 ## Tool provider
 
