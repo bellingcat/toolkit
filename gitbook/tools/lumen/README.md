@@ -1,5 +1,5 @@
 ---
-description: A brief one-line description of the tool.
+description: A search engine for online content takedown requests
 ---
 
 # Lumen
