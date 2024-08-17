@@ -165,7 +165,7 @@ DO use the "+" and "-" tool in the bottom left of the map window to zoom whilst 
 
 ## New Design The Shade Map Interface
 
-<figure><img src=".gitbook/assets/InterfacExploded (1).jpg" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/InterfacExploded (1).jpg" alt="" width="563"><figcaption><p>THE SHADEMAP INTERFACE DOES NOT DISPLAY ALL MENUS SIMULTANEOUSLY: THIS GRAPHIC IS FOR ILLUSTRATION ONLY</p></figcaption></figure>
 
 {% tabs %}
 {% tab title="DATA " %}
@@ -194,6 +194,10 @@ Data display and exchange is managed through the bottom left interface toolbar, 
 
 {% tab title="SEARCH" %}
 <figure><img src=".gitbook/assets/sEARCHmENU.JPG" alt=""><figcaption></figcaption></figure>
+
+Locations can be entered either as text or as co-ordinates
+
+The Project menu is launched from the 3 line icon in the Search bar
 {% endtab %}
 
 {% tab title="PROJECT" %}
@@ -216,6 +220,8 @@ GPX Replay plays progress along a user defined trail on a map whilst the changin
 
 {% tab title="LAYERS" %}
 <figure><img src=".gitbook/assets/shademapbottomrightmenu.JPG" alt=""><figcaption></figcaption></figure>
+
+Both the data view and the base map are selected in the Layers menu.
 {% endtab %}
 
 {% tab title="VIEW" %}
@@ -244,7 +250,11 @@ The Drawing Toolbar buttons allow the addition of objects to the map as polygons
 {% endtab %}
 
 {% tab title="TIME" %}
+<figure><img src=".gitbook/assets/TimeandDateSlider.JPG" alt=""><figcaption></figcaption></figure>
 
+* The two buttons switch the scale from date to time and back
+* Use the Left Mouse to drag and drop the background scale under the orange arrow
+* Sun elevation angle and azimuth angle are shown next to the time
 {% endtab %}
 {% endtabs %}
 
