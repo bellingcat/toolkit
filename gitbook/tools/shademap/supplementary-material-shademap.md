@@ -108,17 +108,17 @@ DON'T use the Mouse Scroll Wheel to Zoom the map scale BECAUSE the focus locatio
 DO use the "+" and "-" tool in the bottom left of the map window to Zoom whilst maintaining a consistent focus location.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/shademapbottomleft menu.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/shademapbottomleft menu (1).JPG" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/ShademapSettings.JPG" alt="" width="375"><figcaption><p><strong>SETTINGS FOR THE SHADEMAP INTERFACE</strong></p></figcaption></figure>
 
 By default, shadows are displayed on top of the tree canopy. To view shadows underneath the tree canopy instead, change the radio button setting from 'Top of canopy' to 'below canopy'.
 
-<figure><img src=".gitbook/assets/shademapbottomrightmenu.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/shademapbottomrightmenu (1).JPG" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/ShadeMapannualview.gif" alt=""><figcaption><p>MOVING THE CURSOR ACROSS THE TIME OF DAY V MONTH PLOT FOR THE LOCATION SHOWN ON THE LEFT: EXACT DATE AND TIME ARE SHOWN FOR THE POINT UNDER THE CROSSWIRES PLUS THE ENERGY ABSORBED, WITH CUMULATIVE TOTALS AT THE TOP OF THE SCREEN</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/shademaptopright menu (1).JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/shademaptopright menu (1) (1).JPG" alt=""><figcaption></figcaption></figure>
 
 ### Trail Shade
 

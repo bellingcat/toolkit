@@ -108,6 +108,41 @@ Purchased data costs can be controlled because users are offered data only for t
 Setting height to zero will delete the building again.
 {% endhint %}
 
+## New Design ShadeMap Views
+
+{% tabs %}
+{% tab title="SHADOW VIEW" %}
+Shadow View draws shadows in the colour selected by the user in Settings, for the date and time set by the user. The time slider changes the view over time between sunrise and sunset, the directions for which are shown in centre screen as gold and bright orange lines respectively. Current sun direction is shown as a yellow line which moves with the Time Slider.
+
+<figure><img src=".gitbook/assets/shademap shadowview.JPG" alt=""><figcaption><p><strong>SHADOW VIEW FOCUSES AROUND THE CENTRAL LOCATION AND ALLOWS THE USER TO SELECT DATE AND TIME</strong></p></figcaption></figure>
+
+
+{% endtab %}
+
+{% tab title="HOURS IN THE SUN VIEW" %}
+The user sets a location, date and time period and ShadeMap calculates the number of hours in the sun for each pixel point on the map, displaying it as a 'mouse over' numerical value and also as a colour corresponding to the value range shown in the scale at the bottom of the screen.
+
+Possible Open Source applications include:
+
+* Analysis of the environmental causes of terrain change in a glacial region
+* Geolocation of imagery showing distinctive shadow patterns in a region of deep canyons
+
+<figure><img src=".gitbook/assets/sunhoursview.jpg" alt="" width="563"><figcaption><p><strong>HOURS IN THE SUN VIEW SHOWING COLOUR SCALE ABOVE DATE AND TIME RANGE AT THE BOTTOM OF THE SCREEN</strong></p></figcaption></figure>
+
+
+
+<figure><img src=".gitbook/assets/ShadeMapHoursinSunView.gif" alt=""><figcaption><p>SETTING THE DATE AND TIME PERIOD FOR HOURS IN THE SUN VIEW IN A REGION OF DEEP CANYONS</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="ANNUAL SUNLIGHT VIEW" %}
+ShadeMap calculates the annual hours of sunlight for the chosen location and displays them in a graph of days grouped by month (horizontal x axis) versus hour of the day (vertical y axis). The sun's energy for a given date and time is presented as a numerical value in kWh/m^2^ under the cursor, whilst the colour of the pixels represents the intensity of the sun's energy along a range from black (zero) through blue and green to red (highest).
+
+Possible Open Source applications include analysing solar panel power generation parameters in environmental research.
+
+<figure><img src=".gitbook/assets/ShadeMapannualview.gif" alt=""><figcaption><p>MOVING THE CURSOR ACROSS THE TIME OF DAY V MONTH PLOT FOR THE LOCATION SHOWN ON THE LEFT: EXACT DATE AND TIME ARE SHOWN FOR THE POINT UNDER THE CROSSWIRES PLUS THE ENERGY ABSORBED, WITH CUMULATIVE TOTALS AT THE TOP OF THE SCREEN</p></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
 ### The ShadeMap Interface
 
 There are three views in ShadeMap:
@@ -128,11 +163,41 @@ DON'T use the Mouse Scroll Wheel to zoom the map scale because the focus locatio
 DO use the "+" and "-" tool in the bottom left of the map window to zoom whilst maintaining a consistent focus location.
 {% endhint %}
 
+## New Design The Shade Map Interface
+
+<figure><img src=".gitbook/assets/InterfacExploded (1).jpg" alt="" width="563"><figcaption></figcaption></figure>
+
+{% tabs %}
+{% tab title="DATA " %}
+<figure><img src=".gitbook/assets/shademapbottomleft menu.JPG" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="SEARCH" %}
+
+{% endtab %}
+
+{% tab title="PROJECT" %}
+<figure><img src=".gitbook/assets/ShadeMapLeft Side Menu.JPG" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="LAYERS" %}
+<figure><img src=".gitbook/assets/shademapbottomrightmenu.JPG" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="DRAWING" %}
+<figure><img src=".gitbook/assets/shademaptopright menu.JPG" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="VIEW" %}
+
+{% endtab %}
+{% endtabs %}
+
 #### The Data Toolbar
 
 <div>
 
-<figure><img src=".gitbook/assets/shademapbottomleft menu.JPG" alt=""><figcaption><p>THE DATA TOOLBAR<br>SCREEN BOTTOM LEFT</p></figcaption></figure>
+<figure><img src=".gitbook/assets/shademapbottomleft menu (1).JPG" alt=""><figcaption><p>THE DATA TOOLBAR<br>SCREEN BOTTOM LEFT</p></figcaption></figure>
 
  
 
@@ -167,11 +232,11 @@ By default, shadows are displayed on top of the tree canopy. To view shadows und
 
 <div>
 
-<figure><img src=".gitbook/assets/shademapbottomrightmenu.JPG" alt="" width="170"><figcaption><p><strong>THE VIEW TOOLBAR ADJUSTS TILT AND ZOOM AND ALLOWS SELECTION OF THREE VIEW LAYERS AND TWO BASEMAPS</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/shademapbottomrightmenu (1).JPG" alt="" width="170"><figcaption><p><strong>THE VIEW TOOLBAR ADJUSTS TILT AND ZOOM AND ALLOWS SELECTION OF THREE VIEW LAYERS AND TWO BASEMAPS</strong></p></figcaption></figure>
 
  
 
-<figure><img src=".gitbook/assets/shademaptopright menu.JPG" alt=""><figcaption><p><strong>THE DRAWING TOOLBAR APPEARS SCREEN TOP RIGHT</strong><br><strong>IN SHADOW VIEW AND HOURS IN THE SUN VIEW</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/shademaptopright menu (1).JPG" alt=""><figcaption><p><strong>THE DRAWING TOOLBAR APPEARS SCREEN TOP RIGHT</strong><br><strong>IN SHADOW VIEW AND HOURS IN THE SUN VIEW</strong></p></figcaption></figure>
 
 </div>
 
