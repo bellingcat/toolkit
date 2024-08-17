@@ -118,7 +118,7 @@ The Settings menus allow
 * User definition of camera movement and focal length&#x20;
 * Hide/Show sun path, sun vector, compass, UI, anti-aliasing, ambient occlusion (depth)
 * Setting of Floor height, building height, floor visibility for buildings
-* FOR STUDIO VERSION Switch to global high resolution satellite imagery & 3D buildings
+* FOR STUDIO VERSION Switch to global high resolution satellite imagery & 3D buildings, toggle Ambient Occlusion enhancement demonstrated here:[https://www.youtube.com/watch?v=Wd6ITD0iI\_I](https://www.youtube.com/watch?v=Wd6ITD0iI\_I)
 {% endtab %}
 
 {% tab title="SEARCHBOX.." %}
@@ -246,14 +246,9 @@ The inclusion of detailed building data in Shadowmap could lead to invasions of 
 
 ## Guide
 
-*
-* [Three.js](https://threejs.org) – the best Javascript 3D engine out there
-* [noUiSlider](https://refreshless.com/nouislider/)
-* [Pikaday](https://github.com/Pikaday/Pikaday)
-* [Geocode Earth](https://geocode.earth/)
-* [Proj4js](http://proj4js.org)
-* [Spherical Mercator](https://github.com/mapbox/sphericalmercator)
-* [SunCalc](https://github.com/mourner/suncalc)
+Useful FAQs and resources can be found at[ https://shadowmap.org/support](https://shadowmap.org/support)
+
+Detailed video presentations are on YouTube at [https://www.youtube.com/@shadowmap\_org](https://www.youtube.com/@shadowmap\_org)
 
 ## Tool provider
 
