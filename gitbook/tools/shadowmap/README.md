@@ -80,6 +80,18 @@ All Shadowmap functionality, up to and including the top level Studio version, i
 
 ### The Interface
 
+ShadowMap has 5 main interface menus:
+
+Project Menu on the Left Side of the Screen
+
+Settings Menu on the Right Side of the Screen
+
+Point North, Share, Setting and Zoom at Bottom Right
+
+Search Text Box withime\&Date Slider at Top Right
+
+Hide and Height Object Menu for any User-Defined Object
+
 
 
 ### The Data
