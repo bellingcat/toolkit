@@ -86,7 +86,7 @@ There are a [few factors that cause interference](https://www.flightradar24.com/
 
 1. [Deliberate testing of military jamming systems](https://gpsjam.org/faq#is-it-always-jamming) outside of conflict zones (I.e., in Southwestern United States).  [Sometimes, military exercises intentionally jam GPS signals when trying to simulate electronic warfare scenarios.](https://knowmad-osint.com/gps-jamming-in-action-an-osint-perspective/)&#x20;
 2. Law enforcement agencies may activate GPS jamming to[ protect sensitive areas like critical infrastructure](https://knowmad-osint.com/gps-jamming-in-action-an-osint-perspective/) (power grids, emergency services) or government buildings.&#x20;
-3. [Intentional jamming to cause navigation inaccuracy. ](https://knowmad-osint.com/gps-jamming-in-action-an-osint-perspective/) Large-scale interference is most of the time associated with conflict zones. [High-intensity interference that affects a larger geographic area typically requires advanced electronic systems](https://knowmad-osint.com/gps-jamming-in-action-an-osint-perspective/), often associated with military applications.
+3. [Intentional jamming to cause navigation inaccuracy. ](https://knowmad-osint.com/gps-jamming-in-action-an-osint-perspective/) Large-scale interference is often times seen around conflict zones. [High-intensity interference that affects a larger geographic area typically requires advanced electronic systems](https://knowmad-osint.com/gps-jamming-in-action-an-osint-perspective/), often associated with military applications.
 
 \
 \
