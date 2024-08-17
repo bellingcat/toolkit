@@ -219,7 +219,28 @@ GPX Replay plays progress along a user defined trail on a map whilst the changin
 {% endtab %}
 
 {% tab title="VIEW" %}
-<figure><img src=".gitbook/assets/shademaptopright menu.JPG" alt=""><figcaption></figcaption></figure>
+#### The View and Drawing Toolbars
+
+View Orientation is managed through the bottom right interface toolbar, which allows to:
+
+* Tilt adjustment via the 3D button
+* View Selection via the Layers button
+* Zoom via the "+" and "-" buttons
+* Compass bearing reset due North via the arrow button.
+
+By default, shadows are displayed on top of the tree canopy. To view shadows underneath the tree canopy instead, change the radio button setting from 'Top of canopy' to 'below canopy'.
+
+<div>
+
+<figure><img src=".gitbook/assets/shademapbottomrightmenu (1).JPG" alt="" width="170"><figcaption><p><strong>THE VIEW TOOLBAR ADJUSTS TILT AND ZOOM AND ALLOWS SELECTION OF THREE VIEW LAYERS AND TWO BASEMAPS</strong></p></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/shademaptopright menu (1).JPG" alt=""><figcaption><p><strong>THE DRAWING TOOLBAR APPEARS SCREEN TOP RIGHT</strong><br><strong>IN SHADOW VIEW AND HOURS IN THE SUN VIEW</strong></p></figcaption></figure>
+
+</div>
+
+The Drawing Toolbar buttons allow the addition of objects to the map as polygons with a specified height, object editing, deletion and saving.
 {% endtab %}
 
 {% tab title="TIME" %}
