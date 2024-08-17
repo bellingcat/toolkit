@@ -1,9 +1,3 @@
----
-description: >-
-  Download pictures (or videos) along with their captions and other metadata
-  from Instagram.
----
-
 # InstaLoader
 
 ## URL
@@ -12,7 +6,16 @@ description: >-
 
 ## Description
 
-An easy and free instagram scraper
+Instaloader is an open-source tool designed to download media and metadata from Instagram without requiring offical acces from meta. It is implemented in Python and can be used via a command-line interface or as a Python library, providing flexibility for both casual users and developers. The primary features of Instaloader include:
+
+1. **Media Downloading**:
+   * Downloads photos and videos from public and private Instagram profiles, hashtags, stories, feeds, and saved media.&#x20;
+   * Captures metadata such as captions, comments, geotags, and timestamps associated with each post.
+   * Allows downloading from private profiles if the user follows the account.
+2. **Automation and Customization**:
+   * Automatically detects profile name changes and adjusts the directory structure accordingly.
+   * Supports resuming downloads from previously interrupted sessions.
+   * Offers fine-grained control over what to download through various filters (e.g., specific date ranges, post types) and customization of the directory and filename patterns.&#x20;
 
 ## Cost
 
@@ -20,13 +23,15 @@ An easy and free instagram scraper
 * [ ] Partially Free
 * [ ] Paid
 
+Instaloader is a free, open source project.&#x20;
+
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>4</td></tr></tbody></table>
 
 ## Requirements
 
-For private content you need Instagram username and password
+An Instagram user accout and sesssion token is required to download content.&#x20;
 
 ## Limitations
 
