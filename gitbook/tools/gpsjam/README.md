@@ -67,6 +67,8 @@ The map shows areas where aircraft reported good, bad, or uncertain navigation a
 
 **RED:** More than 10% of aircraft reported low accuracy (likely interference).
 
+**NO COLOR:** Means [“no data.”](https://gpsjam.org/faq#why-arent-there-red-or-green) No aircraft was flying in the zone with ADS-B or no receivers feeding data to the ADS-B Exchange website.&#x20;
+
 {% hint style="warning" %}
 **NOTE:** RED/YELLOW does not always indicate jamming. According to [the tool provider](https://gpsjam.org/faq#is-it-always-jamming), “Low accuracy could be caused by factors other than jamming (e.g., military testing, protecting high-profile individuals)”
 {% endhint %}
