@@ -19,7 +19,7 @@ ShadowMap calculates shadow locations in real time and displays them on a 3D til
 
 ### Free and Paid Shadowmap Versions
 
-A range of more  advanced functions are spread across 3 further paid versions with increasing numbers of features - see the table below, with a tab for each version explaining functionality.
+A range of more  advanced functions are spread across 3 further paid versions with increasing numbers of features - see the table below, \[click the tab for each version to show functionality.]
 
 {% tabs %}
 {% tab title="FREE VERSION" %}
@@ -70,7 +70,7 @@ All Shadowmap functionality, up to and including the top level Studio version, i
 {% tab title="USE CASES" %}
 * Matching an image containing shadows to determine the relationship between date, time and shadow pattern
 * Projecting potential shadow patterns at user-defined location, date and time.
-* Finding the annual average solar energy value for a given location. Examples where this would be useful are:&#x20;
+* Finding the annual average solar energy value for a given location. Examples where this would be useful are: to determine likely type of vegetation, to determine likelihood of snowfall, to determine suitability for solar power generation,...
 {% endtab %}
 
 {% tab title="DATA INPUT OPTIONS" %}
@@ -88,7 +88,15 @@ ShadowMap has 5 main interface menus:
 
 {% tabs %}
 {% tab title="PROJECT " %}
-<figure><img src=".gitbook/assets/ProjectsMenu.JPG" alt="" width="373"><figcaption><p>AVAILABLE ON PAID PLANS</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ProjectsandShareMenu (1).jpg" alt="" width="563"><figcaption></figcaption></figure>
+
+The Project and Share menus allow&#x20;
+
+* a model containing user data to be saved as a project, and to share or embed that project with default time, date, camera angle, focal length, etc. Shared models are not editable by the audience, but interaction is allowed.&#x20;
+* links & embeds can be updated simultaneously via the "Update" button&#x20;
+* the user to create a shape in Shadowmap
+* the user to upload a model into Shadowmap
+* the user to edit buildings in the map for visibility and height
 {% endtab %}
 
 {% tab title="SETTINGS " %}
@@ -107,6 +115,8 @@ ShadowMap has 5 main interface menus:
 <figure><img src=".gitbook/assets/POINT NMENU.JPG" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
+
+
 
 ### The Data
 
