@@ -37,6 +37,16 @@ An Instagram user accout and sesssion token is required to download content.&#x2
 
 Possible issues with this tool may include hitting rate limits or risking account banning due to frequent access.
 
+## Ethical Considerations
+
+* Individuals with common names or aliases can be misidentifed without using additional information about the target
+* Data contains sensitive information such as geolocation and contact information (email address)&#x20;
+* Legal constraints on scraping private instagram acccounts&#x20;
+
+## Guides and articles
+
+[Official documentation and setup guide](https://instaloader.github.io/)
+
 ## Tool provider
 
 This is an open source software project developed by [Alexander Graf](https://github.com/aandergr) and sponsored by [rocketapi-io](https://github.com/rocketapi-io).
