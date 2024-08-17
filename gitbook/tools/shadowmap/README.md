@@ -22,19 +22,19 @@ ShadowMap calculates shadow locations in real time and displays them on a 3D til
 A range of more  advanced functions are spread across 3 further paid versions with increasing numbers of features - see the table below, \[click the tab for each version to show functionality.]
 
 {% tabs %}
-{% tab title="FREE VERSION" %}
+{% tab title="FREE VERSION ->" %}
 <figure><img src=".gitbook/assets/VersionsTablefREE1.jpg" alt=""><figcaption><p>COMPARING THE FOUR VERSIONS OF SHADOWMAP: FREE, EXPLORER, HOME &#x26; STUDIO</p></figcaption></figure>
 {% endtab %}
 
-{% tab title="EXPLORER" %}
+{% tab title="EXPLORER -> " %}
 <figure><img src=".gitbook/assets/VersionsTableEXPLORER2.jpg" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="HOME" %}
+{% tab title="HOME ->" %}
 <figure><img src=".gitbook/assets/VersionsTableHOME3v3.jpg" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="STUDIO" %}
+{% tab title="STUDIO -> " %}
 <figure><img src=".gitbook/assets/VersionsTableSTUDIO4 (1).jpg" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
@@ -95,7 +95,7 @@ URL: Note that the Shadowmap url which is displayed in the browser address bar i
 {% endhint %}
 
 {% tabs %}
-{% tab title="PROJECT " %}
+{% tab title="PROJECT MENU " %}
 <figure><img src=".gitbook/assets/ProjectsandShareMenu (1).jpg" alt="" width="563"><figcaption></figcaption></figure>
 
 The Project and Share menus allow&#x20;
@@ -114,7 +114,7 @@ The Settings menus allow
 
 * Setting of Location Co-ordinates (Lat, Long)
 * Selection from 3 map styles
-* Selection from 3 levels of image quality
+* Selection from 3 levels of image quality (High quality needs fast PC hardware)
 * User definition of camera movement and focal length&#x20;
 * Hide/Show sun path, sun vector, compass, UI, anti-aliasing, ambient occlusion (depth)
 * Setting of Floor height, building height, floor visibility for buildings
@@ -139,19 +139,14 @@ The 'Hide & Height' menu appears in Visualization mode whenever the user Left Mo
 {% endtab %}
 
 {% tab title="POINT N..." %}
-<figure><img src=".gitbook/assets/POINT NMENU.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Buttons HELP diag.JPG" alt=""><figcaption></figcaption></figure>
 
-The Point North button resets the view orientation to north being upwards in theimage
-
-The Share button allows the user to share or embed a project with default time, date, camera angle, focal length, etc. Shared models are not editable by the audience, but interaction is allowed and links & embeds can be updated simultaneously via the "Update" button
-
-The Settings button invokes the Settings menu
-
-The Zoom buttons&#x20;
+* The Point North compass button resets the view orientation to the north
+* The Share button allows the user to share or embed a project with default time, date, camera angle, focal length, etc. Shared models are not editable by the audience, but interaction is allowed and links & embeds can be updated simultaneously via the "Update" button
+* The Settings button invokes the Settings menu
+* The Zoom buttons adjust the scope of the view
 {% endtab %}
 {% endtabs %}
-
-
 
 {% hint style="success" %}
 PARTICULARLY USEFUL FEATURES FOR OSINV ARE:
