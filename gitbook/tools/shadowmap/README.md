@@ -82,17 +82,29 @@ All Shadowmap functionality, up to and including the top level Studio version, i
 
 ShadowMap has 5 main interface menus:
 
-Project Menu on the Left Side of the Screen
+<figure><img src=".gitbook/assets/InterfaceMenus (1).jpg" alt=""><figcaption><p><strong>THE 5 MAIN SHADOWMAP MENUS RARELY APPEAR AT THE SAME TIME ON THE SCREEN</strong></p></figcaption></figure>
 
-Settings Menu on the Right Side of the Screen
+{% tabs %}
+{% tab title="PROJECT " %}
+<figure><img src=".gitbook/assets/ProjectsMenu.JPG" alt=""><figcaption><p>AVAILABLE ON PAID PLANS</p></figcaption></figure>
+{% endtab %}
 
-Point North, Share, Setting and Zoom at Bottom Right
+{% tab title="SETTINGS " %}
+<figure><img src=".gitbook/assets/SettingsMenuShadowMap.JPG" alt=""><figcaption></figcaption></figure>
+{% endtab %}
 
-Search Text Box withime\&Date Slider at Top Right
+{% tab title="SEARCHBOX.." %}
+<figure><img src=".gitbook/assets/Location text input.jpg" alt=""><figcaption></figcaption></figure>
+{% endtab %}
 
-Hide and Height Object Menu for any User-Defined Object
+{% tab title="HIDE.." %}
+<figure><img src=".gitbook/assets/HideorHeightMenu.JPG" alt=""><figcaption></figcaption></figure>
+{% endtab %}
 
-
+{% tab title="POINT N..." %}
+<figure><img src=".gitbook/assets/POINT NMENU.JPG" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
 
 ### The Data
 
