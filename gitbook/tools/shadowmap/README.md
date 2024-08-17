@@ -86,7 +86,7 @@ ALL Shadowmap functionality, up to and including the top level Studio version, i
 
 ShadowMap has 5 main interface menus:
 
-<figure><img src=".gitbook/assets/InterfaceMenus (1).jpg" alt=""><figcaption><p><strong>THE 5 MAIN SHADOWMAP MENUS RARELY APPEAR AT THE SAME TIME ON THE SCREEN</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/InterfaceMenus (1).jpg" alt="" width="563"><figcaption><p><strong>THE 5 MAIN SHADOWMAP MENUS RARELY APPEAR AT THE SAME TIME ON THE SCREEN</strong></p></figcaption></figure>
 
 {% tabs %}
 {% tab title="PROJECT " %}
@@ -106,9 +106,12 @@ The Project and Share menus allow&#x20;
 
 The Settings menus allow
 
+* Setting of Location Co-ordinates (Lat, Long)
 * Selection from 3 map styles
 * Selection from 3 levels of image quality
 * User definition of camera movement and focal length&#x20;
+* Hide/Show sun path, sun vector, compass, UI, anti-aliasing, ambient occlusion (depth)
+* Setting of Floor height, building height, floor visibility for buildings
 * FOR STUDIO VERSION Switch to global high resolution satellite imagery & 3D buildings
 {% endtab %}
 
