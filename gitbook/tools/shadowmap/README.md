@@ -220,7 +220,9 @@ Custom models (within a quota dependent upon subscription plan) up to 200MB can 
 * [x] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+Current pricing can be found at [https://shadowmap.org/pricing](https://shadowmap.org/pricing)
+
+At the time of writing in August 2024, paid versions varied from Explorer at £2.50/month, through Home at £8.33/month to Studio at £50/month.
 
 ## Level of difficulty
 
@@ -228,7 +230,11 @@ Custom models (within a quota dependent upon subscription plan) up to 200MB can 
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+Free version does not require login
+
+Paid versions require an account and payment
+
+High quality imagery requires good graphics hardware
 
 ## Limitations
 
@@ -236,7 +242,7 @@ Fixed date (as the date of the system clock) in the free version is a major limi
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+The inclusion of detailed building data in Shadowmap could lead to invasions of personal privacy
 
 ## Guide
 
