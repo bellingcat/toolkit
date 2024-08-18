@@ -110,34 +110,6 @@ Public Transport (vehicle icon):
 {% endtab %}
 {% endtabs %}
 
-VIEW ONE: Traffic conditions (traffic light icon):
-
-<figure><img src=".gitbook/assets/YandexMapsTrafficAlerts.JPG" alt=""><figcaption><p><strong>TRAFFIC FLOW IS INDICATED BY COLOUR (GREEN IS FREE-FLOWING, AMBER IS SLOW, RED IS A JAM)</strong><br><strong>ROADWORKS ARE SHOWN WITH THE RED TRIANGLE WITH WORKMAN SIGN</strong></p></figcaption></figure>
-
-VIEW TWO: Street panoramas and photos (rotating person icon):
-
-<figure><img src=".gitbook/assets/YandexPanoramasoptimised.gif" alt=""><figcaption><p><strong>PANORAMAS SHOW AS BLUE DOTS AND LINES. AIRBORNE PANORAMAS ARE MARKED WITH THE BALLOON ICON</strong></p></figcaption></figure>
-
-VIEW 3: Mirrors (cameras icon) - see [Description](./#description) above
-
-VIEW 4: Public Transport (vehicle icon):
-
-<figure><img src=".gitbook/assets/YandexMovingTransport.gif" alt=""><figcaption><p><strong>EACH MOVING VEHICLE'S ROUTE CAN BE ACCESSED WITH LEFT MOUSE CLICK</strong></p></figcaption></figure>
-
-VIEW FIVE: Map Background Selection: Map/Satellite/Hybrid (squares icon):
-
-<div>
-
-<figure><img src=".gitbook/assets/YandexBackgroundMenuSelect (2).JPG" alt="" width="375"><figcaption></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/YandexToolbarandMenu.JPG" alt="" width="563"><figcaption><p>FIVE FEATURE TOOLBAR SCREEN TOP RIGHT AND THREE DOTS MENU WITH USER ACTIONS</p></figcaption></figure>
-
-</div>
-
-A 'three dots' button in the top right corner which opens a menu of user actions.
-
 ## Cost
 
 * [ ] Free
@@ -155,7 +127,7 @@ Yandex Maps is relatively easy to use. It is confusing that so many features onl
 ## Requirements
 
 {% hint style="danger" %}
-Yandex Maps tracks users and should therefore be used with a VPN when conducting Open Source research for reasons of Operational Security.
+Yandex Maps tracks users, according to tests carried out by the author,  and should therefore be used with a VPN when conducting Open Source research for reasons of Operational Security.
 {% endhint %}
 
 Yandex Maps can be used without an account, but some functionality relating to writing reviews, editing the map, uploading imagery, etc. is only available upon login.
