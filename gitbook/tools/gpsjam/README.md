@@ -143,7 +143,10 @@ Internet connection&#x20;
 
 3. **Limited historical data:** [Historical data only goes up to 14 February 2022. There is no data before this date.](https://gpsjam.org/faq#incomplete-data)
 4. [**GPS interference on aircraft may not be the same as on the ground interference:**](https://gpsjam.org/faq) GPSJam only looks at aircraft data. Because airplanes fly high in the sky, they can "see" further than devices on the ground when it comes to radio signals. This means they are more likely to detect GPS interference. Ground-level impact might be less severe. While GPSJAM data indicates potential issues with GPS signals in certain areas, the situation on the ground might not be as bad as the map suggests.
-5. [**Calculating the percentage of “bad” aircraft has the potential to bias map data:** ](https://gpsjam.org/faq#how-is-the-percentage-calculated) Think of each hex on the map as a small zone in the sky. To determine the color of each hex (green, yellow, or red), the system checks how many planes passed through that zone and whether their GPS was working properly.&#x20;
+
+As a potential consequences, the tool may sometimes not work for drones. Because GPSJam and ADS-B Exchange measurements are taken at a specific altitude, data for UAVs in a different altitude may not necessarily be captured.  According to [this](https://www.helicomicro.com/2024/06/04/gpsjam-gps/), “In green or yellow zones, there is very little chance that GPS signals will be degraded for drones.” The only exception is [if drones are near the sources of interference. ](https://www.helicomicro.com/2024/06/04/gpsjam-gps/)GPSJam should be cross-checked with other sources and social media channels where instances of drone jamming are regularly published.&#x20;
+
+3. [**Calculating the percentage of “bad” aircraft has the potential to bias map data:** ](https://gpsjam.org/faq#how-is-the-percentage-calculated) Think of each hex on the map as a small zone in the sky. To determine the color of each hex (green, yellow, or red), the system checks how many planes passed through that zone and whether their GPS was working properly.&#x20;
 
 “Good planes” are planes with functioning GPS.
 
