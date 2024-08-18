@@ -87,7 +87,7 @@ There are a [few factors that cause interference](https://www.flightradar24.com/
 
 1. Atmospheric conditions
 2. Solar activity
-3. A problem with an aircraft’s equipment (but when [“multiple aircraft in close proximity during the same time frame, it suggests the presence of a radio signal interfering with normal GNSS operation.” ](https://www.flightradar24.com/data/gps-jamming)
+3. A problem with an aircraft’s equipment (but when there are [“multiple aircraft in close proximity during the same time frame, it suggests the presence of a radio signal interfering with normal GNSS operation.” ](https://www.flightradar24.com/data/gps-jamming)
 4. [Electromagnetic interference from sources like radios, cellphones, or sometimes powerlines can lead to inaccuracies. ](https://www.flightradar24.com/data/gps-jamming)
 
 **Intentional:**&#x20;
