@@ -77,23 +77,7 @@ A download file is generated for the current view using the File Download button
 **Limitations of Trial and Error Solutions for Date, Time and Location:** Bear in mind that sometimes there may be more than one solution value for a given set of parameters.
 {% endhint %}
 
-### ShadeMap Data
-
-The shadows displayed by default are estimates gathered through indirect means like crowd sourcing and low resolution data. The default data gives a general idea of shadow distribution and sun direction, but **errors in the data can vary by several meters.**
-
-Premium data is composed of precise measurements collected via LiDAR and photogammetry surveys. This means building layouts, roof, tree and building heights will be **exact to within 30 centimeters**. This is the most accurate shadow modeling data available on this platform.
-
-If this data is available in a given region, an Add Trees button will appear when you zoom into street level. Tree data is purchased by square kilometer and can be accessed for one month.
-
-* Free building data comes from volunteers at [OpenStreetMap](https://www.openstreetmap.org)
-* ShadeMap buys additional building data and building heights from [Mapbox](https://shademap.app/help/mapbox.com) when the cost is manageable
-* ShadeMap relies on the less detailed [Protomaps Basemaps](https://protomaps.com/) during periods of high traffic.
-* Users requiring accurate building height and roof shape data can purchase Tree Data, which is gathered through LiDAR and photogrammetry surveys.
-* Users can add building data to the map via a drawing tool, which allows them to draw a building and set its height. ShadeMap will then add the shadows it casts onto the map.
-
 ## ShadeMap Views
-
-### The ShadeMap Interface
 
 There are three views in ShadeMap:
 
@@ -101,7 +85,7 @@ There are three views in ShadeMap:
 2. [Hours in the Sun View](./#view-two-hours-in-the-sun-view)
 3. [Annual Sun View](./#view-three-annual-sunlight-view).
 
-Each can be shown with one of two backgrounds: either map (called Outdoors) or Satellite.
+Each can be shown with one of two backgrounds: either map (called Outdoors) or Satellite...(click on each of the tabs to see the features of a different view)...
 
 {% tabs %}
 {% tab title="SHADOW VIEW" %}
