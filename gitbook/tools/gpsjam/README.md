@@ -98,10 +98,23 @@ There are a [few factors that cause interference](https://www.flightradar24.com/
 2. Law enforcement agencies may activate GPS jamming to[ protect sensitive areas like critical infrastructure](https://knowmad-osint.com/gps-jamming-in-action-an-osint-perspective/) (power grids, emergency services) or government buildings.&#x20;
 3. [Intentional jamming to cause navigation inaccuracy. ](https://knowmad-osint.com/gps-jamming-in-action-an-osint-perspective/) Large-scale interference is often times seen around conflict zones. [High-intensity interference that affects a larger geographic area typically requires advanced electronic systems](https://knowmad-osint.com/gps-jamming-in-action-an-osint-perspective/), often associated with military applications.
 
-\
-\
-\
+### Use case&#x20;
 
+When used with other data, news reports and open-source research methods, the site can be useful for identifying patterns of GPS jamming and spoofing, often linked to military activities. Open-source researchers can supplement their investigations with this tool when monitoring incidents in conflict zones. With UAVs or unmanned aerial vehicles (“drones”) now more prominent in conflict zones, [experts say](https://breakingdefense.com/2024/04/gps-jamming-spreads-in-lebanon-civil-aviation-caught-in-the-electronic-crossfire-experts/) that jamming communication systems is one of the effective ways of countering them.&#x20;
+
+In conflict areas where GPS-guided drones or munitions are used, [radio jammers are installed ](https://www.forbes.com/sites/davidaxe/2023/10/31/the-russians-installed-a-gps-jammer-in-ukraine-the-ukrainians-blew-it-up-with-a-gps-guided-bomb/)to help stop these from reaching their targets.  I.e. in Ukraine.&#x20;
+
+GPSJam was used in this research to give an overview of global GPS jamming between 2020 and 2023.&#x20;
+
+Dong L. Wu, Ph.D, _“Innovation: Recent GPS jamming in regions of geopolitical conflict”_
+
+Link: [https://www.gpsworld.com/innovation-recent-gps-jamming-in-regions-of-geopolitical-conflict/](https://www.gpsworld.com/innovation-recent-gps-jamming-in-regions-of-geopolitical-conflict/)&#x20;
+
+GPSJam was also used to look at instances of GPS interference allegedly against Hezbollah in Lebanon, in April 2024 affecting civil aviation.
+
+Helou, Agnes, _“GPS jamming spreads in Lebanon, civil aviation caught in the electronic crossfire”_
+
+Link: [https://breakingdefense.com/2024/04/gps-jamming-spreads-in-lebanon-civil-aviation-caught-in-the-electronic-crossfire-experts/](https://breakingdefense.com/2024/04/gps-jamming-spreads-in-lebanon-civil-aviation-caught-in-the-electronic-crossfire-experts/)
 
 ## Cost
 
@@ -109,15 +122,15 @@ There are a [few factors that cause interference](https://www.flightradar24.com/
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+Desktop or mobile device
+
+Internet connection&#x20;
 
 ## Limitations
 
