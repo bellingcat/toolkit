@@ -235,9 +235,11 @@ The coloured lines centre screen which depict the direction of the sun and its e
 
 ### ShadeMap Data
 
-The shadows displayed by default are estimates gathered through indirect means like crowd sourcing and low resolution data. The default data gives a general idea of shadow distribution and sun direction, but **errors in the data can vary by several meters.**
+The shadows displayed by default are estimates gathered through indirect means like crowd sourcing (i.e. OpenStreetMap contributors updating the OSM database) and low resolution data. The default data gives a general idea of shadow distribution and sun direction, but errors in the data can vary by several meters. Building data is ShadMap comver from Overture Maps foundation, which combines OpenStreetMap with proprietary learning data sets from Google, Microsoft, Amazon and TomTom. See for further information at [https://overturemaps.org/overture-buildings-theme-hits-2-3b-buildings-with-addition-of-google-open-buildings-data/](https://overturemaps.org/overture-buildings-theme-hits-2-3b-buildings-with-addition-of-google-open-buildings-data/)
 
 Premium data is composed of precise measurements collected via LiDAR and photogammetry surveys. This means building layouts, roof, tree and building heights will be **exact to within 30 centimeters**. This is the most accurate shadow modeling data available on this platform.
+
+The free tree data is also derived using machine learning as described at [https://dataforgood.facebook.com/dfg/tools/canopy-height-maps/](https://dataforgood.facebook.com/dfg/tools/canopy-height-maps/)
 
 If this data is available in a given region, an Add Trees button will appear when you zoom into street level. Tree data is purchased by square kilometer and can be accessed for one month.
 
@@ -319,7 +321,7 @@ Some users might find the interface counterintuitive, in that:
 
 #### Overview: Ethical Low Risk, High Opportunity
 
-#### _In very rare cases, geolocation and chronolocation reveal the identity of people providing source information, which could put them/their contacts at risk of reprisal. Source information providers may or may not be aware of this risk, so there is a responsibility on the Open Source researcher, who may have more information for accurate risk assessment, to evaluate that risk on their behalf._&#x20;
+#### In very rare cases, geolocation and chronolocation reveal the identity of people providing source information, which could put them/their contacts at risk of reprisal. Source information providers may or may not be aware of this risk, so there is a responsibility on the Open Source researcher, who may have more information for accurate risk assessment, to evaluate that risk on their behalf.&#x20;
 
 ## Guide
 
