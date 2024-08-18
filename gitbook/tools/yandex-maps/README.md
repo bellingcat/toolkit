@@ -22,7 +22,7 @@ description: >-
 Yandex Maps is a mapping service provided on the Russian-owned integrated Yandex platform, which also offers services on Image Search, Video Search, Translation/Interpretation, Weather,... Its stated focus is primarily on cities (but remote areas seem covered to a good standard also), and also organisations. Its global data is generally stronger and more detailed around Russia, Eastern Europe and Asia, in contrast with Google's mapping tools, which are stronger in Western Europe and North America. Yandex Maps has a different interface from Google mapping tools, most noticeably:
 
 * **No Google "Yellow Man" to fix a StreetView location:** the absence of the Google 'yellow man' figure to drag and drop into a location as a means of viewing "Streetview" imagery stored there.
-* **Satellite Sources:** different satellite imagery sources from Google.
+* **Satellite Sources:** Some Yandex Maps imagery clearly differs from that provided by platforms like Google, though Yandex does not publicly disclose the satellite proviers.&#x20;
 * **"StreetView" Type Route "Videos"**: the presence of "Mirrors" in Yandex Maps, i.e. sequences of Street level images which can be run like a video of a journey along a route. These are posted by users, and are generally more like the [Mapillary app](https://www.mapillary.com/app/?lat=20\&lng=0\&z=1.5), i.e. taken with a small field of view, usually from either a car dashcam showing only the road ahead in the direction of travel or a mobile phone moving with a pedestrian on a footpath. Yandex Maps allows filtering between Car and Pedestrian "Mirrors".
 * **Geographic Orientation on Imagery:** the presence of Street Panoramas and Photos in Yandex Maps, which are similar to Google mapping tools functionality. HOWEVER, Yandex Maps includes graphic indicators on the direction and field of view of the imagery posted, which is not available for Google photospheres in Google Earth, and helps greatly with geolocation research.
 * **Links and Embed Code for Panoramas:** Yandex Maps provides links and embed code to allow easy reference to a given panorama.
@@ -163,11 +163,15 @@ Yandex Maps API: [https://yandex.com/maps-api/docs](https://yandex.com/maps-api/
 
 Yandex LLC. Headquarters in Russia
 
+NB Yandex was sold in 2024, and its founder departed Russia altogether after criticising the Ukraine/Russian war, so observers are checking to see if this affects data availability going forward. See [https://www.reuters.com/technology/yandex-nv-agrees-52-bln-sale-russian-assets-investor-consortium-2024-02-05/](https://www.reuters.com/technology/yandex-nv-agrees-52-bln-sale-russian-assets-investor-consortium-2024-02-05/)
+
 ## Advertising Trackers
 
 * [ ] This tool has not been checked for advertising trackers yet.
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
+
+The author's own checks in August 2024 showed Yandex using trackers.
 
 | Page maintainer |
 | --------------- |
