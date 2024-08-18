@@ -44,7 +44,9 @@ Choose your date of interest on the calendar icon. The tool automatically shows 
 &#x20;
 
 {% hint style="success" %}
-TIP: Select a date of significance (e.g., 24 Feb 2022, when the Russian army entered Ukraine). Review the data from a few days before and after this date to gain a broader understanding of the interference patterns surrounding the event.
+TIP: _Create a timeline of interference patterns using GPSJam_&#x20;
+
+Select a date of significance (e.g., 24 Feb 2022, when the Russian army entered Ukraine). Review the data from a few days before and after this date to gain a broader understanding of the interference patterns surrounding the event.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
