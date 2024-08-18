@@ -136,19 +136,39 @@ Internet connection&#x20;
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+1. [**Manual update:** ](https://x.com/lemonodor/status/1553107534029828096)At the moment, data is updated manually by the tool provider daily around midnight UTC. Sometimes there are delays before he is able to update the data.
+2. **Daily update of data susceptible to technical failures:** [Data loss or incomplete data are possible](https://gpsjam.org/faq) due to power outage, network issue, hardware failure, or data collection issues. Data are incomplete on:
+
+<table><thead><tr><th>2022</th><th>2024</th><th data-hidden></th></tr></thead><tbody><tr><td>14 Feb</td><td>28 Jan</td><td></td></tr><tr><td>8 Jun</td><td>30 Jan</td><td></td></tr><tr><td>9 Jun</td><td>14 Jul</td><td></td></tr><tr><td>13 Oct </td><td></td><td></td></tr><tr><td>14 Oct</td><td></td><td></td></tr><tr><td>27 Dec</td><td></td><td></td></tr></tbody></table>
+
+3. **Limited historical data:** [Historical data only goes up to 14 February 2022. There is no data before this date.](https://gpsjam.org/faq#incomplete-data)
+4. [**GPS interference on aircraft may not be the same as on the ground interference:**](https://gpsjam.org/faq) GPSJam only looks at aircraft data. Because airplanes fly high in the sky, they can "see" further than devices on the ground when it comes to radio signals. This means they are more likely to detect GPS interference. Ground-level impact might be less severe. While GPSJAM data indicates potential issues with GPS signals in certain areas, the situation on the ground might not be as bad as the map suggests.
+5. [**Calculating the percentage of “bad” aircraft has the potential to bias map data:** ](https://gpsjam.org/faq#how-is-the-percentage-calculated) Think of each hex on the map as a small zone in the sky. To determine the color of each hex (green, yellow, or red), the system checks how many planes passed through that zone and whether their GPS was working properly.&#x20;
+
+“Good planes” are planes with functioning GPS.
+
+“Bad planes” are planes experiencing GPS issues
+
+To figure out the color of the hex, the tool calculates a percentage based on the ratio of good planes to bad planes within that zone. If a lot of planes have GPS problems, the percentage of bad planes will be higher, turning the hex yellow or red. If most planes are fine, the hex stays green.
+
+\
+However, here’s the catch: in areas with very few planes, a single bad GPS reading could make it seem like there’s a serious issue, even if it’s just a one-off problem. To correct for this, they subtract one "bad plane" from the total count to reduce false alarms in zones with fewer planes.&#x20;
+
+The downside of this process is that in areas with very few planes, this adjustment might cause the system to miss real problems because there’s not enough data to confidently show that something is wrong.
+
+In short, they balance showing accurate issues without overreacting to random bad signals, but this approach can hide real issues in places with less air traffic.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+**Accuracy and Misinterpretation:** Users are encouraged to look at the limitations of the tool when using it. In particular, to check dates under the FAQs section to see if they are looking at GPS interference data that is incomplete or missing. Users are encouraged to be transparent about these limitations.&#x20;
 
 ## Guide
 
-\[\[Link to a guide on this tool]]
+
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+John Wiseman ([https://x.com/lemonodor](https://x.com/lemonodor))&#x20;
 
 ## Advertising Trackers
 
