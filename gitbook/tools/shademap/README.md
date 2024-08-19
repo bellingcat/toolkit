@@ -1,8 +1,8 @@
 ---
 description: >-
   ShadeMap is a global simulation of mountain, building & tree shadows for a
-  given date & time. Base data is free, but users have the option buy 30cm
-  accurate data per sq km for areas of special focus.
+  given date & time. Base data is free, but users can buy 30cm accurate data per
+  sq km for areas of special focus.
 ---
 
 # ShadeMap
