@@ -41,7 +41,9 @@ None
 * Owing to shifting data tags, it’s extremely cumbersome to create financial profiles for single companies or to perform comparisons between their respective financial metrics.
 * RSS feeds are available, but each company is its own RSS Feed, there is no functionality to group several in one place. There are [group RSS feeds](https://www.sec.gov/structureddata/rss-feeds) for the most recent filings, and are updated every 10 minutes during business hours, but the format, output and content of these may change without prior notice.
 
-[Source](https://www.bellingcat.com/resources/2023/12/18/new-tools-dig-deeper-into-hard-to-aggregate-us-corporate-data/)
+See more about these limitations in: George Dyer:[ New Tools Dig Deeper Into Hard-to-Aggregate US Corporate Data](https://www.bellingcat.com/resources/2023/12/18/new-tools-dig-deeper-into-hard-to-aggregate-us-corporate-data/), Bellingcat.
+
+
 
 ## Ethical Considerations
 
