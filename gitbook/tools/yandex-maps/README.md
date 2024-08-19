@@ -83,8 +83,6 @@ Yandex Maps offers FIVE VIEWS from the five feature icon toolbar at screen top r
 {% tabs %}
 {% tab title="TRAFFIC" %}
 <figure><img src=".gitbook/assets/YandexMapsTrafficAlerts.JPG" alt=""><figcaption><p><strong>TRAFFIC FLOW IS INDICATED BY COLOUR (GREEN IS FREE-FLOWING, AMBER IS SLOW, RED IS A JAM)</strong><br><strong>ROADWORKS ARE SHOWN WITH THE RED TRIANGLE WITH WORKMAN SIGN</strong></p></figcaption></figure>
-
-Traffic conditions (traffic light icon):
 {% endtab %}
 
 {% tab title="STREET" %}
@@ -116,13 +114,13 @@ Public Transport (vehicle icon):
 * [x] Partially Free
 * [ ] Paid
 
-Basic Yandex Maps functionality can be used for free, but there is a Yandex Plus service which is a subscription service which will block users accessing through a VPN.
+Basic Yandex Maps functionality can be used for free, but there is a Yandex Plus service which is a subscription service which will block users who are accessing it through a VPN.
 
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
-Yandex Maps is relatively easy to use. It is confusing that so many features only appear at certain levels of Zoom magnification, rather than being shown a feature 'greyed out' as available but not in the current interface mode. Yandex features compare well with Google Earth tools, so only those users who are accustomed to the Google interfaces may have initial difficulty switching to Yandex Maps. The Help documentation provided for users of Yandex Maps is of a very high standard, and its approach is to explain concepts very clearly and provide good case studies and examples.
+Yandex Maps is relatively easy to use. It can be confusing that many features only appear at certain levels of Zoom magnification, rather than being shown a feature 'greyed out' as available but not in the current interface mode. Yandex features compare well with Google Earth tools, so only those users who are accustomed to the Google interfaces may have initial difficulty switching to Yandex Maps. The Help documentation provided for users of Yandex Maps explains concepts very clearly and provides case studies and examples.
 
 ## Requirements
 
