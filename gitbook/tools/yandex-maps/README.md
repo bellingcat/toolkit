@@ -134,8 +134,6 @@ Yandex Maps can be used without an account, but some functionality relating to w
 
 Limited current photographic content is available in Yandex Maps in Ukraine, where the most recent of many (if not all) of the panoramas available are dated around 2011. By contrast,  other countries in the region often have a range of dates available on some panorama content, and much of the content is less than 5 years old.
 
-Yandex Maps should be used with a VPN as its trackers present a challenge to Open Source Researchers' Operational Security.
-
 ## Ethical Considerations
 
 The ethical considerations in using Yandex Maps are those of any other mapping service. It is potentially more intrusive than similar tools because of its emphasis on personal appointments, advertising, etc.
@@ -154,7 +152,7 @@ Yandex Maps API: [https://yandex.com/maps-api/docs](https://yandex.com/maps-api/
 
 Yandex LLC. Headquarters in Russia
 
-NB Yandex was sold in 2024, and its founder departed Russia altogether after criticising the Ukraine/Russian war, so observers are checking to see if this affects data availability going forward. See [https://www.reuters.com/technology/yandex-nv-agrees-52-bln-sale-russian-assets-investor-consortium-2024-02-05/](https://www.reuters.com/technology/yandex-nv-agrees-52-bln-sale-russian-assets-investor-consortium-2024-02-05/)
+NB Yandex was sold in 2024, so observers are checking to see if this affects data availability going forward. See [https://www.reuters.com/technology/yandex-nv-agrees-52-bln-sale-russian-assets-investor-consortium-2024-02-05/](https://www.reuters.com/technology/yandex-nv-agrees-52-bln-sale-russian-assets-investor-consortium-2024-02-05/)
 
 ## Advertising Trackers
 
