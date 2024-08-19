@@ -254,7 +254,7 @@ If this data is available in a given region, an Add Trees button will appear whe
 {% endembed %}
 
 {% hint style="success" %}
-Purchased data costs can be controlled because users are offered data only for the area in which they are interested, charged per square kilometre (USD $2.49 as at May 2024).&#x20;
+Purchased data costs can be controlled because users are offered data only for the area in which they are interested, charged per square kilometre (USD $2.49 as at August 2024).&#x20;
 {% endhint %}
 
 {% embed url="https://youtu.be/Q6tc4k6l-_k" %}
@@ -267,7 +267,7 @@ Setting height to zero will delete the building again.
 
 ### The ShadeMap API (Paid For)
 
-ShadeMap offers a paid for API with the following features, where developer users can simulate, visualise and analyse sunlight and shadow in any current browser using their own data on terrain, buildings and vegetation and share it on the web.
+ShadeMap offers a [paid for API](https://shademap.app/about/) with the following features, where developer users can simulate, visualise and analyse sunlight and shadow in any current browser using their own data on terrain, buildings and vegetation and share it on the web.
 
 <figure><img src=".gitbook/assets/ShadeMapAPI.JPG" alt=""><figcaption><p><strong>FEATURES OF THE SHADEMAP API (APPLICATION PROGRAMMING INTERFACE)</strong></p></figcaption></figure>
 
