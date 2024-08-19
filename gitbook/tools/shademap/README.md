@@ -159,16 +159,16 @@ Data display and exchange is managed through the bottom left interface toolbar, 
 * Generation of a link for sharing the view
 * Interface settings around the sun direction for now, sunrise and sunset
   * Contour line units
-  * Level of shadows re tree canopy (where applicable)
+  * Level of shadows tree canopy (where applicable)
   * Colour of shade
 {% endtab %}
 
 {% tab title="SEARCH" %}
 <figure><img src=".gitbook/assets/sEARCHmENU.JPG" alt=""><figcaption></figcaption></figure>
 
-Locations can be entered either as text or as co-ordinates
+Locations can be entered either as text or as co-ordinates.
 
-The Project menu is launched from the 3 line icon in the Search bar
+The Project menu is launched from the 3 line icon in the Search bar.
 {% endtab %}
 
 {% tab title="PROJECT" %}
@@ -223,9 +223,9 @@ The Drawing Toolbar buttons allow the addition of objects to the map as polygons
 {% tab title="TIME" %}
 <figure><img src=".gitbook/assets/TimeandDateSlider.JPG" alt=""><figcaption></figcaption></figure>
 
-* The two buttons switch the scale from date to time and back
-* Use the Left Mouse to drag and drop the background scale under the orange arrow
-* Sun elevation angle and azimuth angle are shown next to the time
+* The two buttons switch the scale from date to time and back.
+* Use the Left Mouse to drag and drop the background scale under the orange arrow.
+* Sun elevation angle and azimuth angle are shown next to the time.
 {% endtab %}
 {% endtabs %}
 
