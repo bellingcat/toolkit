@@ -135,7 +135,7 @@ DO use the "+" and "-" tool in the bottom left of the map window to zoom whilst 
 <figure><img src=".gitbook/assets/InterfacExploded (1).jpg" alt="" width="563"><figcaption><p>THE SHADEMAP INTERFACE DOES NOT DISPLAY ALL MENUS SIMULTANEOUSLY: THIS GRAPHIC IS FOR ILLUSTRATION ONLY</p></figcaption></figure>
 
 {% hint style="success" %}
-Two advanced motion path-related features are available through the Project Menu: Trail Shade and GPX Replay. Users can model a route on the map over time and Shademap will generate the shadows visible across the terrain for that changing place and time. **This is a rare feature for OSINV researchers which is very powerful in assisting the geolocation and chronolocation of source material relating to travel along a route, e.g. photos or videos**
+Two advanced motion path-related features are available through the Project Menu: Trail Shade and GPX Replay. Users can model a route on the map over time and Shademap will generate the shadows visible across the terrain for that changing place and time. **This is a rare feature for OSINV researchers which can be powerful in assisting the geolocation and chronolocation of source material relating to travel along a route, e.g. photos or videos**
 {% endhint %}
 
 {% tabs %}
