@@ -49,19 +49,26 @@ None
 
 ## Guide
 
-* Public company search - type the company’s name or ticker symbol in the search bar [here](https://www.sec.gov/search-filings). Retrieves filings for a specific company and to find company information — registered name, address, telephone number, state of incorporation, Central Index Key (CIK) number, Standard Industrial Classification (SIC) code, and fiscal year end.
-* A more detailed search can be performed [here](https://www.sec.gov/edgar/search/) - allows search by keywords, company name, stock ticker, CIK number, and individual's name. This search allows to filter filings by date, type and also has a dropdown menu for location (principal executive offices in - the primary location associated with a filing - could be in the US or other countries).
-* To search for Mutual Funds, ETF or variable annuities, [go here](https://www.sec.gov/search-filings/mutual-funds-search). The left-hand menu has separate searches for mutual funds ([here](https://www.sec.gov/search-filings/mutual-funds-search)) and variable annuities ([here](https://www.sec.gov/search-filings/variable-insurance-products-search)).  You can use the Mutual Funds tool to also search for ETFs.  You can search for other types of funds as you would search for public companies.
+* Public company search - type the company’s name or ticker symbol in the search bar [here](https://www.sec.gov/search-filings). Retrieves filings for a specific company and to find company information — registered name, address, telephone number, state of incorporation, [_Central Index Key (CIK)_](#user-content-fn-1)[^1] number, [_Standard Industrial Classification (SIC)_](#user-content-fn-2)[^2] code, and fiscal year end.
+* A more detailed search can be performed [here](https://www.sec.gov/edgar/search/) - allows search by keywords, company name, [_stock ticker_](#user-content-fn-3)[^3], CIK number, and individual's name. This search allows to filter filings by date, type and also has a dropdown menu for location (principal executive offices in - the primary location associated with a filing - could be in the US or other countries).
 * The largest amount of information is usually in the annual, quarterly and current reports. Some companies also have beneficial ownership filings.&#x20;
-* The filings show up like this and can be opened in a `.htm` or `.xml` format.&#x20;
+* The filings show up like this and can be opened in a `.htm` or `.xml` format.
 
-<figure><img src=".gitbook/assets/Image 1.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Image 3.png" alt="" width="563"><figcaption><p>Basic company name search in the search bar for Boeing</p></figcaption></figure>
 
-* The `.xml` format is somewhat better, because it contains hyperlinks that lead to every associated document in a specific filing including each submitted SEC form and exhibit.&#x20;
+* The `.xml` format is somewhat better, because it contains hyperlinks that lead to every associated document in a specific filing including each submitted SEC form and exhibit. To get to a specific filing in an `.xml` format, click on any of the hyperlinked results (in blue) in the Form & File column.
 
+_**Example**_: Search for Boeing in the search bar, select Boeing Co. Below are the results that show up when you hit the search button. From the Form & File column, click on the 8-K (Current report) or any other filing.
 
+<figure><img src=".gitbook/assets/Image 2.png" alt="" width="563"><figcaption><p>Search results page</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Image 2.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Image 4.png" alt="" width="563"><figcaption><p>Selected file from results page</p></figcaption></figure>
+
+Select Open Document to reach the `.htm` file or Open filing to reach the `.xml` file  (each option opens a new tab in your browser)
+
+The `.xml` file will contain different hyperlinks for document and data files. In this example the 8-K file (document ba-20240731.htm iXBRL) links to the full form 8-K filing (known as a “current report” and it is the report that companies must file with the SEC to announce major events that shareholders should know about).  &#x20;
+
+<figure><img src=".gitbook/assets/image 5.png" alt=""><figcaption><p>Example of an .xml file from a filing with the US Securities and Exchange Commission</p></figcaption></figure>
 
 ## Tool provider
 
@@ -78,3 +85,10 @@ None
 | LPetrova        |
 |                 |
 
+
+
+[^1]: A Central Index Key or CIK number is a unique number assigned to an individual, company, filing agent or foreign government by the United States Securities and Exchange Commission. The number is used to identify its filings in several online databases, including EDGAR. The numbers are up to ten digits in length and are permanent identifiers that may not be changed.
+
+[^2]: The Standard Industrial Classification (SIC) is a system for classifying industries by a four-digit code to indicate the company's type of business. The SIC codes are also used in the Division of Corporation Finance as a basis for assigning review responsibility for the company's filings. Full ist of SIC codes can be found [here](https://www.sec.gov/search-filings/standard-industrial-classification-sic-code-list).
+
+[^3]: A stock ticker symbol or stock symbol is an abbreviation used to uniquely identify publicly traded shares of a particular stock on a particular stock market. Stock tickers are arrangements of symbols or characters representing specific assets or securities listed on a stock exchange or traded publicly. For example XNYS:BA is the stock ticker for Boeing on the New York Stock Exchange.
