@@ -44,7 +44,7 @@ ShadeMap's cumulative analyses of daily sunlight hours, annual sunlight hours an
 
 {% tabs %}
 {% tab title="USE CASES" %}
-<figure><img src=".gitbook/assets/ShadeMapUseCasesTable.JPG" alt=""><figcaption><p>INPUT AND OUTPUT DATA FOR SHADE MAP USE CASES</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ShadeMapUseCasesTablev2 (1).jpg" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="USER INPUT" %}
