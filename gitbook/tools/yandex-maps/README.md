@@ -73,10 +73,10 @@ For political/security reasons, some map data is made unavailable in Yandex Maps
 ### Yandex Maps Interface
 
 {% hint style="warning" %}
-Many Toolbar Items and Features are only available at certain levels of map Zoom settings. e.g. Mirrors feature is only invoked upon Zooming In on the map.
+Many Toolbar Items and Features are only available at certain levels of map Zoom settings. e.g. Mirrors feature is only invoked upon zooming in on the map.
 {% endhint %}
 
-Yandex Maps offers a FIVE VIEWS from the five feature icon toolbar at screen top right:
+Yandex Maps offers FIVE VIEWS from the five feature icon toolbar at screen top right:
 
 <figure><img src=".gitbook/assets/YANDEX5featuresmenu.JPG" alt=""><figcaption><p>5 FEATURE TOOLBAR AT SCREEN TOP RIGHT</p></figcaption></figure>
 
