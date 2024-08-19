@@ -63,14 +63,14 @@ ALL Shadowmap functionality, up to and including the top level Studio version, i
 
 {% tab title="OUTPUT DATA" %}
 * Shadow pattern for buildings and landscape at a given location and time.
-* 24 hour animation of the sun and shadow paths at a given location and time
-* Yearly average solar energy value for a given location in kWh/square metre
+* 24 hour animation of the sun and shadow paths at a given location and time.
+* Yearly average solar energy value for a given location in kWh/square metre.
 
 <figure><img src=".gitbook/assets/SolarAnalyticsMenu (1).JPG" alt="" width="338"><figcaption><p>PAID VERSION "STUDIO" FEATURE: SOLAR ANALYTICS, INVOKED BY PRESSING "ANALYZE" MENU BUTTON</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="USE CASES" %}
-* Matching an image containing shadows to determine the relationship between date, time and shadow pattern
+* Matching an image containing shadows to determine the relationship between date, time and shadow pattern.
 * Projecting potential shadow patterns at user-defined location, date and time.
 * Finding the annual average solar energy value for a given location. Examples where this would be useful are: to determine likely type of vegetation, to determine likelihood of snowfall, to determine suitability for solar power generation,...
 {% endtab %}
@@ -89,20 +89,20 @@ ShadowMap has 5 main interface menus:
 <figure><img src=".gitbook/assets/InterfaceMenus (1).jpg" alt="" width="563"><figcaption><p><strong>THE 5 MAIN SHADOWMAP MENUS RARELY APPEAR AT THE SAME TIME ON THE SCREEN</strong></p></figcaption></figure>
 
 {% hint style="success" %}
-URL: Note that the Shadowmap url which is displayed in the browser address bar is constructed to reflect the properties of the location being displayed in great detail: latitude, longitude, zoom, azimuth,etc. The user can edit all these parameters directly in the URL, hit refresh and Shadowmap will redraw accordingly. This can be a very useful shortcut but it is powerful and should be used with care.&#x20;
+URL: Note that the Shadowmap URL which is displayed in the browser address bar is constructed to reflect the properties of the location being displayed in great detail: latitude, longitude, zoom, azimuth, etc. The user can edit all these parameters directly in the URL, hit refresh and Shadowmap will redraw accordingly. This can be a very useful shortcut but it is powerful and should be used with care.&#x20;
 {% endhint %}
 
 {% tabs %}
 {% tab title="PROJECT MENU " %}
 <figure><img src=".gitbook/assets/ProjectsandShareMenu (1).jpg" alt="" width="563"><figcaption></figcaption></figure>
 
-The Project and Share menus allow&#x20;
+The Project and Share menus allow:
 
-* a model containing user data to be saved as a project, and to share or embed that project with default time, date, camera angle, focal length, etc. Shared models are not editable by the audience, but interaction is allowed.&#x20;
-* links & embeds can be updated simultaneously via the "Update" button&#x20;
-* the user to create a shape in Shadowmap
-* the user to upload a model into Shadowmap
-* the user to edit buildings in the map for visibility and height
+* a model containing user data to be saved as a project, and to share or embed that project with default time, date, camera angle, focal length, etc. Shared models are not editable by the audience, but interaction is allowed.
+* links & embeds can be updated simultaneously via the "Update" button.
+* the user to create a shape in Shadowmap.
+* the user to upload a model into Shadowmap.
+* the user to edit buildings in the map for visibility and height.
 {% endtab %}
 
 {% tab title="SETTINGS " %}
@@ -238,7 +238,7 @@ Fixed date (as the date of the system clock) in the free version is a major limi
 
 ## Ethical Considerations
 
-The inclusion of detailed building data in Shadowmap could lead to invasions of personal privacy
+The inclusion of detailed building data in Shadowmap could lead to invasions of personal privacy.
 
 ## Guide
 
@@ -250,7 +250,7 @@ Detailed video presentations are on YouTube at [https://www.youtube.com/@shadowm
 
 ## Tool provider
 
-ShadowMap Technologies GMBH, a small company based in Vienna, Austria.&#x20;
+ShadowMap Technologies GMBH, a small company based in Austria.&#x20;
 
 Founder (2021) and CEO Georg Molzer.
 
