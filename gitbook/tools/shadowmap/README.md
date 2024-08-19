@@ -1,8 +1,8 @@
 ---
 description: >-
   Tilting global map of 3D buildlings and the shadows they cast at a specific
-  time a day, but date fixed at "today in free version. Lite Paid Version allows
-  date change, Full Paid Version has 3D models.
+  time of the day, but date fixed at "today" in free version. Paid versions
+  allow date change and offer 3D models.
 ---
 
 # ShadowMap
@@ -19,7 +19,7 @@ ShadowMap calculates shadow locations in real time and displays them on a 3D til
 
 ### Free and Paid Shadowmap Versions
 
-A range of more  advanced functions are spread across 3 further paid versions with increasing numbers of features - see the table below, \[click the tab for each version to show functionality.]
+A range of more  advanced functions are spread across 3 paid versions with increasing numbers of features - see the table below \[click the tab for each version to show functionality].
 
 {% tabs %}
 {% tab title="FREE VERSION ->" %}
@@ -39,15 +39,15 @@ A range of more  advanced functions are spread across 3 further paid versions wi
 {% endtab %}
 {% endtabs %}
 
-The Main Differences between versions are:
+The Main Differences between all available versions are:
 
 * The Free version is restricted to today's date, but the user can define the time of day.
 * The Explorer version allows any input date and time, past or future.
-* The Home version includes 3D buildings in 3 cities, plus satellite backround maps.
+* The Home version includes 3D buildings in 3 cities, plus satellite background maps.
 * The Studio version allows 3D user model upload and Google hi-res satellite imagery.
 
 {% hint style="success" %}
-ALL Shadowmap functionality, up to and including the top level Studio version, is available to **test for free** in a single selected location (Chile, at the time of writing, though this may be amended over time) called the All Access Project
+ALL Shadowmap functionality, up to and including the top level Studio version, is available to **test for free** in a single selected location (Chile, at the time of writing, though this may be amended over time) called the All Access Project.
 
 <img src=".gitbook/assets/image.png" alt="" data-size="original">
 {% endhint %}
