@@ -235,7 +235,7 @@ The coloured lines centre screen which depict the direction of the sun and its e
 
 ### ShadeMap Data
 
-The shadows displayed by default are estimates gathered through indirect means like crowd sourcing (i.e. OpenStreetMap contributors updating the OSM database) and low resolution data. The default data gives a general idea of shadow distribution and sun direction, but errors in the data can vary by several meters. Building data is ShadMap comver from Overture Maps foundation, which combines OpenStreetMap with proprietary learning data sets from Google, Microsoft, Amazon and TomTom. See for further information at [https://overturemaps.org/overture-buildings-theme-hits-2-3b-buildings-with-addition-of-google-open-buildings-data/](https://overturemaps.org/overture-buildings-theme-hits-2-3b-buildings-with-addition-of-google-open-buildings-data/)
+The shadows displayed by default are estimates gathered through indirect means like crowd sourcing (i.e. OpenStreetMap contributors updating the OSM database) and low resolution data. The default data gives a general idea of shadow distribution and sun direction, but errors in the data can vary by several meters. Building data for ShadeMap comes from Overture Maps foundation, which combines OpenStreetMap with proprietary learning data sets from Google, Microsoft, Amazon and TomTom. See for further information at [https://overturemaps.org/overture-buildings-theme-hits-2-3b-buildings-with-addition-of-google-open-buildings-data/](https://overturemaps.org/overture-buildings-theme-hits-2-3b-buildings-with-addition-of-google-open-buildings-data/).
 
 Premium data is composed of precise measurements collected via LiDAR and photogammetry surveys. This means building layouts, roof, tree and building heights will be **exact to within 30 centimeters**. This is the most accurate shadow modeling data available on this platform.
 
@@ -243,8 +243,8 @@ The free tree data is also derived using machine learning as described at [https
 
 If this data is available in a given region, an Add Trees button will appear when you zoom into street level. Tree data is purchased by square kilometer and can be accessed for one month.
 
-* Free building data comes from volunteers at [OpenStreetMap](https://www.openstreetmap.org)
-* ShadeMap buys additional building data and building heights from [Mapbox](https://shademap.app/help/mapbox.com) when the cost is manageable
+* Free building data comes from volunteers at [OpenStreetMap](https://www.openstreetmap.org).
+* ShadeMap buys additional building data and building heights from [Mapbox](https://shademap.app/help/mapbox.com) when the cost is manageable.
 * ShadeMap relies on the less detailed [Protomaps Basemaps](https://protomaps.com/) during periods of high traffic.
 * Users requiring accurate building height and roof shape data can purchase Tree Data, which is gathered through LiDAR and photogrammetry surveys.
 * Users can add building data to the map via a drawing tool, which allows them to draw a building and set its height. ShadeMap will then add the shadows it casts onto the map.
@@ -297,9 +297,9 @@ ShadeMap basic features are not difficult to use, but a good understanding of th
 
 ShadeMap relies heavily on the graphics processing unit (GPU) of the device it is running on.
 
-Where performance is an issue:-
+Where performance is an issue:
 
-1. Test whether your browser supports WebGL from this [Test Page here](https://webglreport.com/?v=2) since ShadeMap will only work with browsers which do support WebGL
+1. Test whether your browser supports WebGL from this [Test Page here](https://webglreport.com/?v=2) since ShadeMap will only work with browsers which do support WebGL;
 2. Reduce the size of the browser window to increase the performance.
 
 **Data Quality**
@@ -321,7 +321,7 @@ Some users might find the interface counterintuitive, in that:
 
 #### Overview: Ethical Low Risk, High Opportunity
 
-#### In very rare cases, geolocation and chronolocation reveal the identity of people providing source information, which could put them/their contacts at risk of reprisal. Source information providers may or may not be aware of this risk, so there is a responsibility on the Open Source researcher, who may have more information for accurate risk assessment, to evaluate that risk on their behalf.&#x20;
+In very rare cases, geolocation and chronolocation reveal the identity of people providing source information, which could put them/their contacts at risk of reprisal. Source information providers may or may not be aware of this risk, so there is a responsibility on the Open Source researcher, who may have more information for accurate risk assessment, to evaluate that risk on their behalf.
 
 ## Guide
 
@@ -337,7 +337,7 @@ Current Applications, Developments and Updates on X/Twitter: [https://x.com/shad
 
 ## Tool provider
 
-ShadeMap 9615 NE 195th Cir Bothell, WA 98011 US
+ShadeMap, US
 
 ## Advertising Trackers
 
