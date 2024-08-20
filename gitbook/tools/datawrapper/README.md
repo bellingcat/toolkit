@@ -581,7 +581,7 @@ The main ethical consideration about data visualizations is the possibility that
 </details>
 
 \
-However, to mitigate this, practice is key: “So much of understanding data is just asking the right questions. This includes the initial question, but also the questions you ask about your data: Is this source trustworthy? Is my data incomplete? Can this data actually answer this question? This practice of constantly interrogating your data with a careful skepticism is likely the most important aspect of working with data.[ If you can understand the potential and limits of your data, you will be set up for success.](https://medium.com/nightingale/constructing-a-career-in-data-visualization-the-how-18ad4900c120)”, writes Will Chase.
+However, to mitigate this, practice is key. "This practice of constantly interrogating your data with a careful skepticism is likely the most important aspect of working with data," writes [Will Chase](https://medium.com/nightingale/constructing-a-career-in-data-visualization-the-how-18ad4900c120).
 
 ## Guides and articles
 
