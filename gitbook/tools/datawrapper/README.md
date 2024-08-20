@@ -61,8 +61,7 @@ Suppose you’re using Datawrapper to create a chart showing the number of armed
 
 3\. **Look for Missing Data:** Check for any gaps in the data. If “Country Y” is missing data for “Civilian Attacks,” confirm whether this is due to a data reporting issue or if the data is genuinely unavailable. Ensure that this omission is intentional and not an error. Missing data should be addressed or noted appropriately.
 
-4\. **Confirm Category Accuracy:** Ensure that the categories are accurately labeled. For instance, make sure that the column headers correctly represent types of armed conflict incidents and are not mistakenly labeled with unrelated categories. Also, confirm that the row headers accurately list the countries and not the types of incidents.\
-
+4\. **Confirm Category Accuracy:** Ensure that the categories are accurately labeled. For instance, make sure that the column headers correctly represent types of armed conflict incidents and are not mistakenly labeled with unrelated categories. Also, confirm that the row headers accurately list the countries and not the types of incidents.
 
 </details>
 
@@ -80,10 +79,7 @@ They are bar charts, stacked bars, grouped bars, split bars, bullet bars, column
 {% endtab %}
 
 {% tab title="Refine" %}
-The refine tab allows users to customize the details of your chart. This includes customizing the text, date format, and grid on the horizontal axis. As well as the formatting of the values on your chart (whether dates or currency, etc). Users can customize the opacity, colors and sort the data (smallest first, largest first, etc)&#x20;
-
-\
-
+The refine tab allows users to customize the details of your chart. This includes customizing the text, date format, and grid on the horizontal axis. As well as the formatting of the values on your chart (whether dates or currency, etc). Users can customize the opacity, colors and sort the data (smallest first, largest first, etc).
 {% endtab %}
 
 {% tab title="Annotate" %}
@@ -94,9 +90,6 @@ This tab is critical for providing context on the information users are conveyin
 The final step on the visualization tab is Layout customization.  The key features are: (1) Availability to produce output in different languages;
 
 (2) Users can also customize the footer section of the chart. This includes links to data source download, image download options, shareable link, and social media share buttons. Sharing findings, and data sources are especially useful for open-source investigators, since investigations and methodology needs to be replicable to be reliable.&#x20;
-
-\
-
 {% endtab %}
 {% endtabs %}
 
