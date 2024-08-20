@@ -14,7 +14,7 @@ description: A command line tool for obtaining information about Google accounts
 
 GHunt is an open-source tool designed to gather detailed information about Google accounts using the target's Gmail address. By using publicly accessible data, Ghunt surfaces various aspects of a Google user's digital footprint, including their YouTube channels, Google Photos, Google Maps reviews, and more. By analyzing this information, GHunt can provide insights into the target's online activities and digital footprint.&#x20;
 
-Ghunt has two supported browser extensions for [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/ghunt-companion/) and [Google Chrome](https://chromewebstore.google.com/detail/ghunt-companion/dpdcofblfbmmnikcbmmiakkclocadjab)
+Ghunt has two supported browser extensions for [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/ghunt-companion/) and [Google Chrome](https://chromewebstore.google.com/detail/ghunt-companion/dpdcofblfbmmnikcbmmiakkclocadjab).
 
 The developers have provided 2 scripts that leverage the tool [here](https://github.com/mxrch/GHunt/tree/master/examples).
 
@@ -25,9 +25,9 @@ The easiest way to authenticate into Ghunt is to use authentication option 2 alo
 Once authenticated, you have the following search options:
 
 * **email**: Get information on an email address.&#x20;
-* **gaia**: Get information on a Gaia ID.&#x20;
+* **gaia**: Get information on a [Gaia ID](https://developers.google.com/issue-tracker/concepts/access-control).&#x20;
 * **drive**: Get information on a Drive file or folder.&#x20;
-* **geolocate**: Geolocate a BSSID.
+* **geolocate**: Geolocate a [BSSID](https://www.gorelo.io/blog/what-is-bssid/).
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-20 at 12.06.20 PM.png" alt=""><figcaption><p>A sample search using a Gmail email address</p></figcaption></figure>
 
