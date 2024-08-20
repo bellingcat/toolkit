@@ -35,6 +35,10 @@ In simple terms, when aircraft use ADS-B Out, **not only are they sending their 
 
 The data seems to be manually updated daily around midnight UTC.&#x20;
 
+
+
+<figure><img src=".gitbook/assets/ScreenRecording2024-08-16103057-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>This shows GPSJam’s interference data on 13 Aug 2024. First, we enter the date we are interested in. By clicking on “More” under the calendar, we find the location we are interested in by entering the info i.e. Moscow. We can adjust the amount of flight traffic in that area by sliding the toggle on the “traffic threshold” menu.</p></figcaption></figure>
+
 _**Filter by date**_
 
 To use the tool, click on the URL and then navigate to the menu in the upper left corner.&#x20;
