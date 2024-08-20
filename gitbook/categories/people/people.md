@@ -11,6 +11,7 @@
 | [**Epieos**](https://tools.epieos.com/holehe.php) | Checks where an email has been used. Based on Holehe. | <mark style="background-color:red;">Paid</mark> | 📧 Registration required |
 | [**FastPeopleSearch**](http://fastpeoplesearch.com/) | Mostly good for US. | <mark style="background-color:green;">Free</mark> | 📞🗣️ mostly United States |
 | [**GetContact**](https://www.getcontact.com/en/) | Phonenumber ID app - draws from crowdsourced contactbooks | <mark style="background-color:green;">Free</mark> | 📞 Do not give permission to your actual contact lists. |
+| [**Ghunt**](https://github.com/mxrch/GHunt) | A command line tool for obtaining information about Google accounts. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/ghunt/README.md) |
 | [**Have I Been Pwned?**](https://haveibeenpwned.com/) | Does an email or a phone number appear in data breaches? | <mark style="background-color:green;">Free</mark> | [Details](../../tools/have-i-been-pwned/README.md) |
 | [**Hitta.se**](https://www.hitta.se/) | Mapping service for Sweden | <mark style="background-color:green;">Free</mark> | [Details](../../tools/hitta.se/README.md) |
 | [**Intelx.io**](http://intelx.io/) | Find user details in data breaches | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/intelx.io/README.md) |
