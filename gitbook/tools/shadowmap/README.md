@@ -19,7 +19,7 @@ ShadowMap calculates shadow locations in real time and displays them on a 3D til
 
 ### Free and Paid Shadowmap Versions
 
-A range of more  advanced functions are spread across 3 paid versions with increasing numbers of features - see the table below \[click the tab for each version to show functionality].
+A range of more advanced functions are spread across 3 paid versions with increasing numbers of features - see the table below \[click the tab for each version to show functionality].
 
 {% tabs %}
 {% tab title="FREE VERSION ->" %}
@@ -99,7 +99,7 @@ URL: Note that the Shadowmap URL which is displayed in the browser address bar i
 The Project and Share menus allow:
 
 * a model containing user data to be saved as a project, and to share or embed that project with default time, date, camera angle, focal length, etc. Shared models are not editable by the audience, but interaction is allowed.
-* links & embeds can be updated simultaneously via the "Update" button.
+* links & embeds to be updated simultaneously via the "Update" button.
 * the user to create a shape in Shadowmap.
 * the user to upload a model into Shadowmap.
 * the user to edit buildings in the map for visibility and height.
@@ -108,24 +108,24 @@ The Project and Share menus allow:
 {% tab title="SETTINGS " %}
 <figure><img src=".gitbook/assets/SettingsMenuShadowMap.JPG" alt=""><figcaption></figcaption></figure>
 
-The Settings menus allow
+The Settings menus allow:
 
-* Setting of Location Co-ordinates (Lat, Long)
+* Setting of location co-ordinates (lat, long)
 * Selection from 3 map styles
-* Selection from 3 levels of image quality (High quality needs fast PC hardware)
+* Selection from 3 levels of image quality (high quality needs fast PC hardware)
 * User definition of camera movement and focal length&#x20;
-* Hide/Show sun path, sun vector, compass, UI, anti-aliasing, ambient occlusion (depth)
-* Setting of Floor height, building height, floor visibility for buildings
-* FOR STUDIO VERSION Switch to global high resolution satellite imagery & 3D buildings, toggle Ambient Occlusion enhancement demonstrated here:[https://www.youtube.com/watch?v=Wd6ITD0iI\_I](https://www.youtube.com/watch?v=Wd6ITD0iI\_I)
+* Hide/show sun path, sun vector, compass, UI, anti-aliasing, ambient occlusion (depth)
+* Setting of floor height, building height, floor visibility for buildings
+* FOR STUDIO VERSION: Switch to global high resolution satellite imagery & 3D buildings, toggle Ambient Occlusion enhancement demonstrated here:[https://www.youtube.com/watch?v=Wd6ITD0iI\_I](https://www.youtube.com/watch?v=Wd6ITD0iI\_I)
 {% endtab %}
 
 {% tab title="SEARCHBOX.." %}
 <figure><img src=".gitbook/assets/Location HELP diag.JPG" alt="" width="563"><figcaption></figcaption></figure>
 
-* The Search Box sets location by text input or co-ordinates input
-* The Time & Date Menu sets time and date with a slider and allows numerical date input also
-* The 24H button generates an animation of sun position with shadows over 24 hours
-* The Analyze tab  switches to a view coloured according to degree of yearly sun radiation where numeric energy values appear for a point upon Left Mouse Click
+* The Search Box sets location by text input or co-ordinates input.
+* The Time & Date Menu sets time and date with a slider and allows numerical date input.
+* The 24H button generates an animation of sun position with shadows over 24 hours.
+* The Analyze tab switches to a view coloured according to degree of yearly sun radiation where numeric energy values appear for a point upon left mouse click.
 
 <figure><img src=".gitbook/assets/SolarAnalyticsMenu.JPG" alt="" width="338"><figcaption></figcaption></figure>
 {% endtab %}
