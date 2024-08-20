@@ -231,7 +231,7 @@ Similarly, the final tab under “Visualize”  is Layout customization.  The ke
 Below is a sample interactive symbol map to demonstrate what the final product may look like:
 
 {% embed url="https://datawrapper.dwcdn.net/UKoIL/3/" %}
-This is an example of an interactive choropleth map using data from Ookla on internet speeds by country in 2023 (via Wikipedia). Users can hover over each detail to see more information. Darker colors represent faster speeds, and lighter colors represent slightly slower speeds (NOTE: This map and data are for demonstration purposes only).
+This is an example of an interactive choropleth map using data from Ookla on internet speeds by country in 2023 (via [Wikipedia)](https://en.wikipedia.org/wiki/List\_of\_sovereign\_states\_by\_Internet\_connection\_speeds#Fixed\_broadband). Users can hover over each detail to see more information. Darker colors represent faster speeds, and lighter colors represent slightly slower speeds (NOTE: This map and data are for demonstration purposes only).
 {% endembed %}
 
 ### _**Symbol map**_
