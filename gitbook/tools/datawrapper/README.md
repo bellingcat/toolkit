@@ -131,7 +131,7 @@ These maps can visually represent complex data, making understanding and communi
 
 The types of maps you can produce are: **Choropleth map, Symbol map, and Locator map.**&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-12 003558.png" alt=""><figcaption><p>These are the map options users have in Datawrapper. Note the description in each type informs users about which maps may communicate their data in the most suitable way. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-08-12 003558.png" alt=""><figcaption><p>These are the map options users have in Datawrapper. Note the description in each type informs users about which maps may communicate their data in the most suitable way. (Image source: <a href="https://www.datawrapper.de/maps">https://www.datawrapper.de/maps</a>) </p></figcaption></figure>
 
 ### _**Choropleth map**_
 
@@ -184,7 +184,9 @@ NOTE: The pre-made table seems to depend on the kind of map you select in the pr
 
 _**Step 2 - Match:**_ To use the map, your data needs to have information like country names, short names, and codes. In this step, choose the preferred naming convention for countries. In addition, make sure you have all the columns and rows you need to display your data.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-09 235302.png" alt="" width="375"><figcaption><p>In this image, the user is creating a map showing the top 10 countries with the fastest internet speed.  The user chooses a world map. A CSV file is then uploaded. The table is automatically populated with a list of countries. Under the "Match" Tab,  we make sure that Column A corresponds to the name of the Country/Territory, and Column B corresponds to the values -- in this case the "median download speed" of the internet in each country. Notice that this will automatically use the first row for labels (we selected this by ticking the box on the top left)  (NOTE: The data on this image is for demonstration purposes only).</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-08-09 235302.png" alt="" width="375"><figcaption><p>In this image, the user is creating a map showing the top 10 countries with the fastest internet speed.  The user chooses a world map. A CSV file is then uploaded. The table is automatically populated with a list of countries. Under the "Match" Tab,  we make sure that Column A corresponds to the name of the Country/Territory, and Column B corresponds to the values -- in this case the "median download speed" of the internet in each country. Notice that this will automatically use the first row for labels (we selected this by ticking the box on the top left)  (NOTE: The data on this image is for demonstration purposes only) (Image source:<a href="https://www.datawrapper.de/maps">https://www.datawrapper.de</a>).</p></figcaption></figure>
+
+
 
 {% hint style="info" %}
 NOTE: If the user does not use the rest of the countries/locations on the list, they will be grayed out in the map.
