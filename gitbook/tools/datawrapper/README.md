@@ -548,7 +548,7 @@ The difficulty level also increases as your dataset gets more complicated. The d
 * _**Updates:**_ You can't update visualizations once published. However, you can update the data each time you open the chart and republish.
 * _**Translations:**_ Datawrapper can translate the built-in features of the tool, but not the content you manually enter (like the chart title). This can be confusing for viewers in different languages.
   * However, it translates the built-in features of the tool itself. For example, the chart's title is usually inputted manually by the user. If this title is in English, this will not be translated once users choose an output locale in a different language. Things like measurements (miles/kilometers), name countries, distance, and date formatting are all part of the tool and will therefore be translated if specified in the output locale.&#x20;
-* _**Privacy:**_ For  the free account: [Even if you cancel your subscription or delete your account, your visualizations will remain online.](https://www.datawrapper.de/pricing) (See also [here](https://www.datawrapper.de/faq#what-happens-to-my-visualizations-when-i-cancel-my-plan-or-close-my-account)).
+* _**Privacy:**_ For  the free account: Even if you cancel your subscription or delete your account, your visualizations will [remain online](https://www.datawrapper.de/pricing) (see also [here](https://www.datawrapper.de/faq#what-happens-to-my-visualizations-when-i-cancel-my-plan-or-close-my-account)).
 * _**Single Sign-On:**_ Free and custom plans don't offer a central login system for managing user access.
 
 For more list of limitations, see:
