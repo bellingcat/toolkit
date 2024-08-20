@@ -18,16 +18,16 @@ GPSJam.org is a website that provides information on GPS interference on aircraf
 {% hint style="info" %}
 NOTE:&#x20;
 
-[GNSS (Global Navigation Satellite System) is an umbrella term that refers to any satellite navigation system that provides global coverage. It's a broader category that includes all satellite-based positioning systems. ](https://eos-gnss.com/knowledge-base/gps-overview-1-what-is-gps-and-gnss-positioning)Examples: GPS (Global Positioning System) (United States), GLONASS (Russia), Galileo (European Union), BeiDou (China)
+[GNSS (Global Navigation Satellite System)](https://eos-gnss.com/knowledge-base/gps-overview-1-what-is-gps-and-gnss-positioning) is an umbrella term that refers to any satellite navigation system that provides global coverage. It's a broader category that includes all satellite-based positioning systems. Examples: GPS (Global Positioning System) (United States), GLONASS (Russia), Galileo (European Union), BeiDou (China).
 {% endhint %}
 
 ### How does it work? 
 
 _**Some background information on flight tracking**_
 
-Most aircraft are usually equipped with an instrument called an [ADS-B Out](https://cincinnatiavionics.com/ads-b-101-what-you-need-to-know/), which stands for “Automatic Dependent Surveillance-Broadcast.” It is a plane's way of sharing its location, speed, and altitude with air traffic control and other planes in the sky. Think of it as a plane's built-in GPS that constantly broadcasts its position. This helps prevent collisions and makes air travel safer. [It is also a critical navigation tool that guides planes towards landing](https://www.reuters.com/business/aerospace-defense/what-is-gps-jamming-why-it-is-problem-aviation-2024-04-30/). With GPS interference, aircraft have less capability of accurately navigating toward their destination.&#x20;
+Most aircraft are usually equipped with an instrument called an [ADS-B Out](https://cincinnatiavionics.com/ads-b-101-what-you-need-to-know/), which stands for “Automatic Dependent Surveillance-Broadcast.” It is a plane's way of sharing its location, speed, and altitude with air traffic control and other planes in the sky. Think of it as a plane's built-in GPS that constantly broadcasts its position. This helps prevent collisions and makes air travel safer. [It is also a critical navigation tool that guides planes towards landing](https://www.reuters.com/business/aerospace-defense/what-is-gps-jamming-why-it-is-problem-aviation-2024-04-30/). With GPS interference, aircraft have less ways of accurately navigating toward their destination (however, they usually have other methods).&#x20;
 
-Flight professionals and enthusiasts then use equipment to receive this information and “feed” that information to flight-tracking websites like ADS-B-Exchange. These flight-tracking websites then visualize this information on an interactive map.&#x20;
+Flight professionals and enthusiasts use equipment to receive this information and “feed” that information to flight-tracking websites like ADS-B-Exchange. These flight-tracking websites then visualize this information on an interactive map.&#x20;
 
 _**What does GPSJam do with these data?**_
 
