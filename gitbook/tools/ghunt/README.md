@@ -12,7 +12,7 @@ description: A command line tool for obtaining information about Google accounts
 
 <figure><img src=".gitbook/assets/Screenshot 2024-07-29 at 10.49.53 PM.png" alt=""><figcaption></figcaption></figure>
 
-GHunt is an open-source tool designed to gather detailed information about Google accounts. By using publicly accessible data, Ghunt arious aspects of a Google user's digital footprint, including their YouTube channels, Google Photos, Google Maps reviews, and more. By analyzing this information, GHunt can provide insights into the target's online activities and digital footprint.&#x20;
+GHunt is an open-source tool designed to gather detailed information about Google accounts. By using publicly accessible data, Ghunt surfaces various aspects of a Google user's digital footprint, including their YouTube channels, Google Photos, Google Maps reviews, and more. By analyzing this information, GHunt can provide insights into the target's online activities and digital footprint.&#x20;
 
 Ghunt has two supported browser extensions for [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/ghunt-companion/) and [Google Chrome](https://chromewebstore.google.com/detail/ghunt-companion/dpdcofblfbmmnikcbmmiakkclocadjab)
 
