@@ -57,7 +57,7 @@ User registration is required for accessing certian features (see cost section)&
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+[API Documentation ](https://github.com/northdata/api/blob/master/doc/data-api-userguide/data-api-userguide.md)
 
 ## Tool provider
 
