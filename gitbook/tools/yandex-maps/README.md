@@ -1,8 +1,8 @@
 ---
 description: >-
-  Powerful platform, offering detailed maps, satellite imagery, street views
-  (static & sometimes dynamic imagery, including aerial views). Often the best
-  available data on Russia & surrounding region.
+  A platform offering detailed maps, satellite imagery, street views (static &
+  sometimes dynamic imagery, including aerial views). Often the best available
+  data on Russia & surrounding regions.
 ---
 
 # Yandex Maps
