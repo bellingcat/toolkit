@@ -175,9 +175,9 @@ In short, they balance showing accurate issues without overreacting to random ba
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
 | Page maintainer |
 | --------------- |
