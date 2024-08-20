@@ -54,7 +54,7 @@ Select a date of significance (e.g., 24 Feb 2022, when the Russian army entered 
 {% endhint %}
 
 {% hint style="info" %}
-NOTE: [Historical data only goes up to 14 February 2022. There is no data before this date. ](https://gpsjam.org/faq#incomplete-data)
+NOTE: Historical data only goes back to [14 February 2022](https://gpsjam.org/faq#incomplete-data). There is no data before this date.&#x20;
 {% endhint %}
 
 _**Filter by location**_
@@ -76,7 +76,7 @@ The map shows areas where aircraft reported good, bad, or uncertain navigation a
 **NO COLOR:** Means [“no data.”](https://gpsjam.org/faq#why-arent-there-red-or-green) No aircraft was flying in the zone with ADS-B or no receivers feeding data to the ADS-B Exchange website.&#x20;
 
 {% hint style="warning" %}
-**NOTE:** RED/YELLOW does not always indicate jamming. According to [the tool provider](https://gpsjam.org/faq#is-it-always-jamming), “Low accuracy could be caused by factors other than jamming (e.g., military testing, protecting high-profile individuals)”
+**NOTE:** RED/YELLOW does not always indicate jamming. According to [the tool provider](https://gpsjam.org/faq#is-it-always-jamming), “Low accuracy could be caused by factors other than jamming (e.g., military testing, protecting high-profile individuals)”.
 {% endhint %}
 
 _**Causes of GPS/GNSS Interference**_
@@ -96,7 +96,7 @@ There are a [few factors that cause interference](https://www.flightradar24.com/
 
 **Intentional:**&#x20;
 
-[Satellites in space constantly send weak radio signals down to Earth,](https://www.gpsworld.com/innovation-insights-gnss-jamming-and-spoofing/) which GPS devices use to figure out their location. However, there are stronger signals that may come from somewhere else. A[ GPS jammer, for example, is a small device on the ground that sends out radio signals ](https://www.reuters.com/business/aerospace-defense/what-is-gps-jamming-why-it-is-problem-aviation-2024-04-30/)at the [same frequency as satellites. ](https://www.cisa.gov/sites/default/files/2023-02/CISA-Insights\_GPS-Interference\_508.pdf)But the jammer's signals are much [stronger than the ones coming from space](https://www.gpsworld.com/innovation-insights-gnss-jamming-and-spoofing/). Confusion happens when this is the case. Because the jammer's signals are stronger, they overpower the satellite signals. This confuses the GPS device, and it can't correctly calculate the location. When GPS jamming happens, the device can’t read the satellite signals, so it either shows the wrong location or no location at all.
+[Satellites in space constantly send weak radio signals down to Earth,](https://www.gpsworld.com/innovation-insights-gnss-jamming-and-spoofing/) which GPS (or other GNSS) devices use to figure out their location. However, there are stronger signals that may come from somewhere else. A[ GPS jammer, for example, is a small device on the ground that sends out radio signals ](https://www.reuters.com/business/aerospace-defense/what-is-gps-jamming-why-it-is-problem-aviation-2024-04-30/)at the [same frequency as satellites. ](https://www.cisa.gov/sites/default/files/2023-02/CISA-Insights\_GPS-Interference\_508.pdf)But the jammer's signals are much [stronger than the ones coming from space](https://www.gpsworld.com/innovation-insights-gnss-jamming-and-spoofing/). Confusion happens when this is the case. Because the jammer's signals are stronger, they overpower the satellite signals. This confuses the GPS device, and it can't correctly calculate the location. When GPS jamming happens, the device can’t read the satellite signals, so it either shows the wrong location or no location at all.
 
 Some of the causes of [low accuracy](https://gpsjam.org/faq) are:&#x20;
 
@@ -108,19 +108,15 @@ Some of the causes of [low accuracy](https://gpsjam.org/faq) are:&#x20;
 
 When used with other data, news reports and open-source research methods, the site can be useful for identifying patterns of GPS jamming and spoofing, often linked to military activities. Open-source researchers can supplement their investigations with this tool when monitoring incidents in conflict zones. With UAVs or unmanned aerial vehicles (“drones”) now more prominent in conflict zones, [experts say](https://breakingdefense.com/2024/04/gps-jamming-spreads-in-lebanon-civil-aviation-caught-in-the-electronic-crossfire-experts/) that jamming communication systems is one of the effective ways of countering them.&#x20;
 
-In conflict areas where GPS-guided drones or munitions are used, [radio jammers are installed ](https://www.forbes.com/sites/davidaxe/2023/10/31/the-russians-installed-a-gps-jammer-in-ukraine-the-ukrainians-blew-it-up-with-a-gps-guided-bomb/)to help stop these from reaching their targets.  I.e. in Ukraine.&#x20;
+In conflict areas where GPS-guided drones or munitions are used, [radio jammers are installed ](https://www.forbes.com/sites/davidaxe/2023/10/31/the-russians-installed-a-gps-jammer-in-ukraine-the-ukrainians-blew-it-up-with-a-gps-guided-bomb/)to help stop these from reaching their targets, i.e. in Ukraine.&#x20;
 
-GPSJam was used in this research to give an overview of global GPS jamming between 2020 and 2023.&#x20;
+GPSJam was used in this research to give an overview of global GPS jamming between 2020 and 2023:
 
-Dong L. Wu, Ph.D, _“Innovation: Recent GPS jamming in regions of geopolitical conflict”_
-
-Link: [https://www.gpsworld.com/innovation-recent-gps-jamming-in-regions-of-geopolitical-conflict/](https://www.gpsworld.com/innovation-recent-gps-jamming-in-regions-of-geopolitical-conflict/)&#x20;
+Dong L. Wu, Ph.D, _“Innovation: Recent GPS jamming in regions of geopolitical conflict”,_ [https://www.gpsworld.com/innovation-recent-gps-jamming-in-regions-of-geopolitical-conflict/](https://www.gpsworld.com/innovation-recent-gps-jamming-in-regions-of-geopolitical-conflict/)&#x20;
 
 GPSJam was also used to look at instances of GPS interference allegedly against Hezbollah in Lebanon, in April 2024 affecting civil aviation.
 
-Helou, Agnes, _“GPS jamming spreads in Lebanon, civil aviation caught in the electronic crossfire”_
-
-Link: [https://breakingdefense.com/2024/04/gps-jamming-spreads-in-lebanon-civil-aviation-caught-in-the-electronic-crossfire-experts/](https://breakingdefense.com/2024/04/gps-jamming-spreads-in-lebanon-civil-aviation-caught-in-the-electronic-crossfire-experts/)
+Helou, Agnes, _“GPS jamming spreads in Lebanon, civil aviation caught in the electronic crossfire”,_ [https://breakingdefense.com/2024/04/gps-jamming-spreads-in-lebanon-civil-aviation-caught-in-the-electronic-crossfire-experts/](https://breakingdefense.com/2024/04/gps-jamming-spreads-in-lebanon-civil-aviation-caught-in-the-electronic-crossfire-experts/).
 
 ## Cost
 
