@@ -136,7 +136,7 @@ Internet connection&#x20;
 
 ## Limitations
 
-1. [**Manual update:** ](https://x.com/lemonodor/status/1553107534029828096)At the moment, data is updated manually by the tool provider daily around midnight UTC. Sometimes there are delays before he is able to update the data.
+1. [**Manual update:** ](https://x.com/lemonodor/status/1553107534029828096)According to a tweet on Jul 2022 , data is updated manually by the tool provider daily around midnight UTC. Sometimes there are delays before he is able to update the data.
 2. **Daily update of data susceptible to technical failures:** [Data loss or incomplete data are possible](https://gpsjam.org/faq) due to power outage, network issue, hardware failure, or data collection issues. Data are incomplete on:
 
 <table><thead><tr><th>2022</th><th>2024</th><th data-hidden></th></tr></thead><tbody><tr><td>14 Feb</td><td>28 Jan</td><td></td></tr><tr><td>8 Jun</td><td>30 Jan</td><td></td></tr><tr><td>9 Jun</td><td>14 Jul</td><td></td></tr><tr><td>13 Oct </td><td></td><td></td></tr><tr><td>14 Oct</td><td></td><td></td></tr><tr><td>27 Dec</td><td></td><td></td></tr></tbody></table>
