@@ -6,13 +6,14 @@ const { apiCall } = pkg;
 // Create a new tool directory from the command line
 const categoryName = process.argv[2]
 const categoryPath = process.argv[3]
+const USAGE = 'Usage: node add-cat.mjs "Category Name" {parent-category}/category-name';
 if (!categoryName) {
-  console.log('Usage: node add-cat.mjs "Category Name" [parent category]/category-name');
+  console.log(USAGE);
   process.exit(1);
 }
-if (!categoryPath.match(/[A-Za-z\/\-]*/) ) {
+if (!categoryPath || !categoryPath.match(/[A-Za-z\/\-]*/) ) {
   console.log('Bad category path');
-  console.log('Usage: node add-cat.mjs "Category Name" {parent category/}category-name');
+  console.log(USAGE);
   process.exit(1);
 }
 const slug = createCategory({
