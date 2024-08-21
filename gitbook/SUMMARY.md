@@ -42,7 +42,6 @@
 * [Newsletters & Toolkits](resources/newsletters-and-toolkits.md)
 * [Stay Safe](resources/stay-safe.md)
 * [International](resources/international.md)
-* [Miscellaneous](resources/miscellaneous.md)
 
 ## More
 
