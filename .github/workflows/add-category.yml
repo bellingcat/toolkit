@@ -33,8 +33,7 @@ jobs:
         id: node
         run: |
           node src/add-cat.mjs "$CATEGORY_NAME" "$CATEGORY_PATH"
-          node src/categories.mjs
-          node src/lint-json.mjs
+          npm run build
           if [ -n "$(git status --porcelain)" ]; then
             echo "changes=true" >> "$GITHUB_OUTPUT"
           fi
