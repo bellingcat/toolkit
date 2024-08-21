@@ -1,0 +1,67 @@
+name: Add Category
+run-name: Add Category ${{ inputs.categoryName }} by @${{ github.actor }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      categoryName:
+        description: 'Category Name'
+        type: string
+        required: true
+      categoryPath:
+        description: 'Path: category/sub-category'
+        type: string
+        required: true
+
+jobs:
+  add-category:
+    runs-on: ubuntu-latest
+    env:
+      CATEGORY_NAME: ${{ inputs.categoryName }}
+      CATEGORY_PATH: ${{ inputs.categoryPath }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run script
+        id: node
+        run: |
+          node src/add-cat.mjs "$CATEGORY_NAME" "$CATEGORY_PATH"
+          node src/categories.mjs
+          node src/lint-json.mjs
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit changes ${{ steps.node.outputs.changes }}
+        if: ${{ steps.node.outputs.changes == 'true' }}
+        run: |
+          git status --porcelain
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Add Category: $CATEGORY_NAME"
+
+      - name: Push changes
+        if: ${{ steps.node.outputs.changes == 'true' }}
+        uses: ad-m/github-push-action@master
+        with:
+          branch: add-category-${{ github.run_number }}
+          force: true
+
+      - name: Create Pull Request
+        if: ${{ steps.node.outputs.changes == 'true' }}
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: add-category-${{ github.run_number }}
+          commit-message: Add category ${{ inputs.categoryName }}
+          title: Add category ${{ inputs.categoryName }}
+          body: Created via workflow. In case of merge conflicts, re-run all jobs on [Run ${{ github.run_number }}](https://github.com/bellingcat/toolkit/actions/runs/${{ github.run_id }}).
+
