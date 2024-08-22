@@ -10,7 +10,7 @@ description: OpenCorporates is a repository of company registries
 
 ## Description
 
-OpenCorporates provides a unified search of corporate and legal entity-level data across 140+ jurisdictions. It is a free repository of company registries aggregated from primary public sources, published to promote corporate transparency.&#x20;
+OpenCorporates provides a unified search of corporate and legal entity-level data across 170+ jurisdictions. It is a free repository of company registries aggregated from primary public sources, published to promote corporate transparency.&#x20;
 
 Use cases as described by OpenCorporates:
 
@@ -26,27 +26,79 @@ Use cases as described by OpenCorporates:
 * [x] Partially Free
 * [ ] Paid
 
-API access requires a monthly/yearly subscription.
+API access requires a [monthly/yearly subscription](https://opencorporates.com/plug-in-our-data/) for commercial uses, starting from GBP 729 per year for the Entry package, GBP 6,600 /year for the Starter package, GBP 12,000/year for the Basic package.&#x20;
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
-
+Free registration needed to access the full information on entities/individuals. Without registration, users cannot see additional information associated with a particular entry.&#x20;
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+Permitted users: If you’re a **journalist, NGO, academic conducting public benefit research,** **or using it for personal interest**, you’re a “Permitted User.” **Corporations, financial institutions, and government departments** need a subscription to access the data.&#x20;
+
+Research on individuals should not be used for personal gain, doxxing, harassment or purposes and/or actions that could be considered illegal or criminal.
+
+Data accuracy and use: **The data is provided “as is.”** The complexity of sources means occasional errors. Use the information wisely and double-check critical details. Heavy data extraction, such as scraping, is prohibited unless you’re a search engine indexing content.
 
 ## Ethical Considerations
 
 As this data is publicly accessible and from government sources, users should be comfortable using this tool without ethical qualms.&#x20;
 
-## Guides and articles
+## API Guide
 
 [https://www.bellingcat.com/resources/2023/08/24/following-the-money-a-beginners-guide-to-using-the-opencorporates-api/](https://www.bellingcat.com/resources/2023/08/24/following-the-money-a-beginners-guide-to-using-the-opencorporates-api/)
+
+## Desktop Research Guide
+
+1. ### How to search for a company
+
+* Go to [opencorporates.com](https://opencorporates.com/) and log in with your credentials. The registration is free.&#x20;
+* In the search field select Companies and type the name of the entity you are interested in. If you're unsure of the full legal name of an entity, type a partial name.&#x20;
+
+<figure><img src=".gitbook/assets/OC 1.png" alt="" width="563"><figcaption><p>OpenCorporates home page with search field with Companies option selected</p></figcaption></figure>
+
+* If you know the jurisdiction in which the entity is located or registered, click on the dropdown menu '_Browse all jurisdictions_' in the search bar to select the jurisdiction for a more targeted search. Skipping this step will cast a wider net and the search will return all available entities with the same or similar names in multiple jurisdictions. This is a good option if you want to track subsidiaries, parent entities or otherwise related entities to the one you are researching.
+
+<figure><img src=".gitbook/assets/OC2.png" alt=""><figcaption><p>List of results for keyword 'Aramco'</p></figcaption></figure>
+
+* If you search by a partial name or more than one entity has the same or almost identical name, the results page will show all relevant entries corresponding to your search term (see above image). It will also show BOTH active and inactive entities. To exclude the inactive ones, click on the checkbox 'exclude inactive' located just below the search bar. The results page also has additional filters on the right for jurisdiction, as well as various filters for data associated with the entries, filters for company type and current status. These can be used to narrow down the search results.
+* The the search bar in the results page also offers advanced search options - where the keyword occurs, search mode, non-profit status, include or exclude company branches.&#x20;
+
+<figure><img src=".gitbook/assets/OC3.png" alt=""><figcaption><p>Advanced options filters in the results page</p></figcaption></figure>
+
+* Once you have located the entity of interest, click on it to see all the information associated with it. This might include registration/incorporation/dissolution dates, company registration number, status (active/inactive), jurisdiction, address, directors or officers and a link to the original source of information.&#x20;
+
+<div>
+
+<figure><img src=".gitbook/assets/OC4.png" alt=""><figcaption><p>View of the company of interest</p></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/OC5.png" alt=""><figcaption><p>View of the company of interest</p></figcaption></figure>
+
+</div>
+
+* You can also watch the OpenCorporates video guide on [how to search for a company](https://knowledge.opencorporates.com/knowledge-base/web-portal-onboarding/).
+
+2. ### How to search for an Officer
+
+* Follow the same steps as above, but select the Officer option just below the search bar on the home page.
+
+<figure><img src=".gitbook/assets/OC6.png" alt="" width="563"><figcaption><p>OpenCorporates home page with search field with Officers option selected</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/OC8.png" alt="" width="563"><figcaption><p>Search results with the name of IBM CEO Arvind Krishna</p></figcaption></figure>
+
+* Once you have located the person of interest, click on their name to see all the information associated with them. The information for officers is often very limited, however the results page will provide clues and information whether that person is associated in any way with other companies, i.e. the results page information can be used to piece together a business affiliations profile of a specific individual.
+
+<figure><img src=".gitbook/assets/OC7.png" alt="" width="563"><figcaption><p>Specific information for IBM CEO Arvind Krishna from one of selected  search results</p></figcaption></figure>
+
+You can also watch the OpenCorporates video guide on [how to search for an Officer](https://knowledge.opencorporates.com/knowledge-base/how-to-search-for-an-officer-video-guide/).
+
+**!** Please note that the details provided by OpenCorporates depend on what the local companies register for this particular jurisdiction provides. Each jurisdiction is different, thus the level of detail might differ. Also be mindful of the fact that there might be more than one company with the same name and does not mean it is in any way connected to the one you are researching. The same rule applies for individuals. There may be more than one person with the same name in your results, but these could be name match only records.&#x20;
 
 ## Tool provider
 
@@ -54,11 +106,11 @@ OpenCorporates seeks to create an easy means to access corporate and legal entit
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer |
 | --------------- |
 | Elek Krizsán    |
-|                 |
+| LPetrova        |
