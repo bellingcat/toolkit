@@ -10,8 +10,7 @@ description: This is the JSON codeblock for this tool
   "name": "Facebook Video Downloader",
   "url": "http://fdown.net/",
   "tags": [
-    "facebook",
-    "most-used"
+    "facebook"
   ],
   "description": "Handy website to download public Facebook videos. Copy paste the URL of the video and download it in the available definition formats."
 }
