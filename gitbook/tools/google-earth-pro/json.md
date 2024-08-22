@@ -30,7 +30,6 @@ description: This is the JSON codeblock for this tool
     "water",
     "climate-change",
     "most-used"
-    
   ]
 }
 ```
