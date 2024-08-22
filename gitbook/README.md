@@ -8,7 +8,7 @@ description: A toolkit for open source researchers
 
 
 
-<figure><img src=".gitbook/assets/Toolkit Logo Black.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Toolkit Logo White.png" alt=""><figcaption></figcaption></figure>
 
 This is your place to discover tools! Our toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more. Most of the tools that we include can be used for free.
 
