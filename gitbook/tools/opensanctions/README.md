@@ -96,7 +96,7 @@ For basic desktop research, go to [https://www.opensanctions.org/research/](http
 
 **Example 3: Search for a vessel**
 
-* Type the name of a vessel. In this case the vessel is Artemis Offshore. The search returns two separate results because the data comes from separate data sources. However, looking into each results indicates that this vessel was sanctions by the U.S. Office of Foreign Assets Control (OFAC).
+* Type the name of a vessel. In this case the vessel is Artemis Offshore. The search returns two separate results because the data comes from separate data sources. However, looking into each result indicates that this vessel was sanctions by the U.S. Office of Foreign Assets Control (OFAC).
 
 <figure><img src=".gitbook/assets/OS5.png" alt="" width="563"><figcaption><p>Search results for the Artemis Offshore vessel</p></figcaption></figure>
 
