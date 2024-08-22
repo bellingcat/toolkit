@@ -40,13 +40,11 @@ Free registration needed to access the full information on entities/individuals.
 
 Permitted users: If you’re a **journalist, NGO, academic conducting public benefit research,** **or using it for personal interest**, you’re a “Permitted User.” **Corporations, financial institutions, and government departments** need a subscription to access the data.&#x20;
 
-Research on individuals should not be used for personal gain, doxxing, harassment or purposes and/or actions that could be considered illegal or criminal.
-
 Data accuracy and use: **The data is provided “as is.”** The complexity of sources means occasional errors. Use the information wisely and double-check critical details. Heavy data extraction, such as scraping, is prohibited unless you’re a search engine indexing content.
 
 ## Ethical Considerations
 
-As this data is publicly accessible and from government sources, users should be comfortable using this tool without ethical qualms.&#x20;
+As this data is publicly accessible and from government sources, users should be comfortable using this tool without ethical qualms. However, research on individuals should not be used for personal gain, doxxing, harassment or purposes and/or actions that could be considered illegal or criminal.
 
 ## API Guide
 
@@ -112,5 +110,4 @@ OpenCorporates seeks to create an easy means to access corporate and legal entit
 
 | Page maintainer |
 | --------------- |
-| Elek Krizsán    |
 | LPetrova        |
