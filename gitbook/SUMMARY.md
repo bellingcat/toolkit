@@ -123,3 +123,4 @@
   * [Yandex Maps](tools/yandex-maps/README.md)
   * [Ghunt](tools/ghunt/README.md)
   * [Datawrapper](tools/datawrapper/README.md)
+  * [GPSJam](tools/gpsjam/README.md)
