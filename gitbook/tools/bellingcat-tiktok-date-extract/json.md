@@ -12,8 +12,7 @@ description: This is the JSON codeblock for this tool
   "description": "Get the exact upload date + time for tiktok video urls",
   "cost": "Free",
   "tags": [
-    "tiktok",
-    "most-used"
+    "tiktok"
   ],
   "guide": "[How to Investigate TikTok Like a Pro - Part II: Using TikTok for Ukraine Research](https://www.bellingcat.com/resources/how-tos/2022/11/02/how-to-investigate-tiktok-using-tiktok-ukraine-research/) "
 }
