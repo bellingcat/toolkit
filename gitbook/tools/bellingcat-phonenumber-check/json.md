@@ -12,8 +12,7 @@ description: This is the JSON codeblock for this tool
   "description": "Github - check whether a specific phone number is connected to a Telegram account.",
   "cost": "Free",
   "tags": [
-    "telegram",
-    "most-used"
+    "telegram"
   ]
 }
 ```
