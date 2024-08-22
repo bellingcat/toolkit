@@ -8,6 +8,8 @@ description: A toolkit for open source researchers
 
 
 
+<figure><img src=".gitbook/assets/Toolkit Logo Black.png" alt=""><figcaption></figcaption></figure>
+
 This is your place to discover tools! Our toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more. Most of the tools that we include can be used for free.
 
 Bellingcat’s Online Investigation Toolkit has a long tradition but our newest version is special: It is offered in collaboration with the Bellingcat volunteer community. Click on "[Details](https://bellingcat.gitbook.io/toolkit/more/all-tools/hoaxy)" on the right hand side of each entry (if available) and you receive an in-depth description of the tool.&#x20;

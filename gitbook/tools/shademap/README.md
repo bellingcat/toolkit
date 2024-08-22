@@ -92,8 +92,6 @@ Each can be shown with one of two backgrounds: either map (called Outdoors) or S
 Shadow View draws shadows in the colour selected by the user in Settings, for the date and time set by the user. The time slider changes the view over time between sunrise and sunset, the directions for which are shown in centre screen as gold and bright orange lines respectively. Current sun direction is shown as a yellow line which moves with the Time Slider.
 
 <figure><img src=".gitbook/assets/shademap shadowview.JPG" alt=""><figcaption><p><strong>SHADOW VIEW FOCUSES AROUND THE CENTRAL LOCATION AND ALLOWS THE USER TO SELECT DATE AND TIME</strong></p></figcaption></figure>
-
-
 {% endtab %}
 
 {% tab title="HOURS IN THE SUN VIEW" %}
@@ -105,8 +103,6 @@ Possible Open Source applications include:
 * Geolocation of imagery showing distinctive shadow patterns in a region of deep canyons
 
 <figure><img src=".gitbook/assets/sunhoursview.jpg" alt="" width="563"><figcaption><p><strong>HOURS IN THE SUN VIEW SHOWING COLOUR SCALE ABOVE DATE AND TIME RANGE AT THE BOTTOM OF THE SCREEN</strong></p></figcaption></figure>
-
-
 
 <figure><img src=".gitbook/assets/ShadeMapHoursinSunView.gif" alt=""><figcaption><p>SETTING THE DATE AND TIME PERIOD FOR HOURS IN THE SUN VIEW IN A REGION OF DEEP CANYONS</p></figcaption></figure>
 {% endtab %}
@@ -140,8 +136,6 @@ Two advanced motion path-related features are available through the Project Menu
 
 {% tabs %}
 {% tab title="DATA " %}
-
-
 <div>
 
 <figure><img src=".gitbook/assets/shademapbottomleft menu (1).JPG" alt=""><figcaption><p>THE DATA TOOLBAR<br>SCREEN BOTTOM LEFT</p></figcaption></figure>
@@ -174,7 +168,7 @@ The Project menu is launched from the 3 line icon in the Search bar.
 {% tab title="PROJECT" %}
 <figure><img src=".gitbook/assets/ShadeMapLeft Side Menu.JPG" alt="" width="223"><figcaption></figcaption></figure>
 
-### Trail Shade Feature&#x20;
+#### Trail Shade Feature
 
 <figure><img src=".gitbook/assets/ShadeMapTrailShade.JPG" alt=""><figcaption><p><strong>SHADEMAP'S TRAIL SHADE FEATURE MAPS SHADE ALONG A TRAIL OVER TIME</strong></p></figcaption></figure>
 
@@ -182,7 +176,7 @@ A specialist application of ShadeMap technology focusing on the shade profile of
 
 Possible Open Source Research applications include confirmation of geolocation of video source imagery taken by a moving camera.
 
-### GPX Replay Feature&#x20;
+#### GPX Replay Feature
 
 GPX Replay plays progress along a user defined trail on a map whilst the changing shadow pattern is constantly redrawn throughout the trip.
 
@@ -196,7 +190,7 @@ Both the data view and the base map are selected in the Layers menu.
 {% endtab %}
 
 {% tab title="VIEW" %}
-#### The View and Drawing Toolbars
+**The View and Drawing Toolbars**
 
 View Orientation is managed through the bottom right interface toolbar, which allows to:
 
@@ -254,7 +248,7 @@ If this data is available in a given region, an Add Trees button will appear whe
 {% endembed %}
 
 {% hint style="success" %}
-Purchased data costs can be controlled because users are offered data only for the area in which they are interested, charged per square kilometre (USD $2.49 as at August 2024).&#x20;
+Purchased data costs can be controlled because users are offered data only for the area in which they are interested, charged per square kilometre (USD $2.49 as at August 2024).
 {% endhint %}
 
 {% embed url="https://youtu.be/Q6tc4k6l-_k" %}
