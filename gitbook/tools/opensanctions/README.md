@@ -22,7 +22,7 @@ Here is a [use-case article](https://www.opensanctions.org/articles/2024-05-03-g
 * [x] Partially Free
 * [ ] Paid
 
-OpenSanctions is free for non-commercial users. Business and commercial users must either acquire a data license to use our high-quality dataset, or subscribe to the pay-as-you-go API service.
+OpenSanctions is free for non-commercial users. Business and commercial users must either acquire a data license, or subscribe to the pay-as-you-go API service.
 
 ## Level of difficulty
 
@@ -72,7 +72,7 @@ For basic desktop research, go to [https://www.opensanctions.org/research/](http
 
 </div>
 
-* The little arrows next to each data point open a pop-up window showing additional information regarding the type of sanction. For more details on a specific saction, you can visiti the websites provided in the urls from OpenSanctions to conduct further research on the company.
+* The little arrows next to each data point open a pop-up window showing additional information regarding the type of sanction. For more details on a specific saction, you can visit the websites provided in the URLs from OpenSanctions to conduct further research on the company.
 
 <div>
 
@@ -90,7 +90,7 @@ For basic desktop research, go to [https://www.opensanctions.org/research/](http
 
 <figure><img src=".gitbook/assets/OS8.png" alt="" width="563"><figcaption></figcaption></figure>
 
-* Once you have located the individual of interest, click on the name to open their profile. Please note that individuals appearing on the OpenSanctions website iclude sanctioned persons, as well as politically exposed persons (politicians, government officials, government employees). In this case the individual is politician - member of a national parliament.
+* Once you have located the individual of interest, click on the name to open their profile. Please note that individuals appearing on the OpenSanctions website iclude sanctioned persons, as well as politically exposed persons (politicians, government officials, government employees). In this case the individual is a politician - member of a national parliament.
 
 <figure><img src=".gitbook/assets/OS9.png" alt="" width="563"><figcaption></figcaption></figure>
 
