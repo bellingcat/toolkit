@@ -46,9 +46,11 @@ Data accuracy and use: **The data is provided “as is.”** The complexity of s
 
 As this data is publicly accessible and from government sources, users should be comfortable using this tool without ethical qualms. However, research on individuals should not be used for personal gain, doxxing, harassment or purposes and/or actions that could be considered illegal or criminal.
 
-## API Guide
+## Guides
 
-[https://www.bellingcat.com/resources/2023/08/24/following-the-money-a-beginners-guide-to-using-the-opencorporates-api/](https://www.bellingcat.com/resources/2023/08/24/following-the-money-a-beginners-guide-to-using-the-opencorporates-api/)
+Katherine de Tolly: [Following the Money: A Beginner’s Guide to Using the OpenCorporates API](https://www.bellingcat.com/resources/2023/08/24/following-the-money-a-beginners-guide-to-using-the-opencorporates-api/), Bellingcat.
+
+
 
 ## Desktop Research Guide
 
@@ -100,7 +102,7 @@ You can also watch the OpenCorporates video guide on [how to search for an Offic
 
 ## Tool provider
 
-OpenCorporates seeks to create an easy means to access corporate and legal entity data to promote corporate transparency.&#x20;
+OpenCorporates,&#x20;
 
 ## Advertising Trackers
 
