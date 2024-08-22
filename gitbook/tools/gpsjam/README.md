@@ -167,7 +167,7 @@ In short, they balance showing accurate issues without overreacting to random ba
 
 ## Guide
 
-
+\-
 
 ## Tool provider
 
