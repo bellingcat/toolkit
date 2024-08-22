@@ -10,7 +10,7 @@
 ## Maps & Satellites
 
 * [ ] [Maps](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/maps)
-* [x] [Satellite Imagery](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/satellite-imagery)
+* [ ] [Satellite Imagery](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/satellite-imagery)
 * [ ] [Street View](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/street-view)
 
 ## Social Media
@@ -35,5 +35,5 @@
 * [ ] [Data Visualization](https://bellingcat.gitbook.io/toolkit/categories/data-visualization)
 * [ ] [Environment & Wildlife](https://bellingcat.gitbook.io/toolkit/categories/environment-and-wildlife)
 * [ ] [People](https://bellingcat.gitbook.io/toolkit/categories/people)
-* [ ] [Transport](https://bellingcat.gitbook.io/toolkit/categories/transport)
+* [x] [Transport](https://bellingcat.gitbook.io/toolkit/categories/transport)
 * [ ] [Websites](https://bellingcat.gitbook.io/toolkit/categories/websites)
