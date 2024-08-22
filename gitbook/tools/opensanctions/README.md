@@ -1,14 +1,14 @@
 ---
 description: >-
   Open-source international database of sanctions data, persons of interest and
-  politically exposed persons. Based in Berlin, Germany.
+  politically exposed persons.
 ---
 
 # OpenSanctions
 
 ## URL
 
-https://www.opensanctions.org/
+[https://www.opensanctions.org/](https://www.opensanctions.org/)
 
 ## Description
 
@@ -110,7 +110,7 @@ For basic desktop research, go to [https://www.opensanctions.org/research/](http
 
 ## Tool provider
 
-OpenSanctions
+OpenSanctions, Germany
 
 ## Advertising Trackers
 
