@@ -33,7 +33,7 @@ _**What does GPSJam do with these data?**_
 
 In simple terms, when aircraft use ADS-B Out, **not only are they sending their position, but they are also sending the level of accuracy of their position.** According [to the tool provider](https://x.com/lemonodor/status/1553164786380070912), “when there is interference with their GPS, the uncertainty goes up.” When there is little to no interference, the uncertainty goes down. In other words, accuracy goes up when there is no interference, and accuracy goes down when there is interference. In essence, ADS-B Exchange receives data on the level of accuracy of an aircraft's position. The tool provider then aggregates this data over 24 hours and groups it into hexagons. The level of accuracy is then grouped into different colors. &#x20;
 
-The data seems to be manually updated daily around midnight UTC.&#x20;
+The data seems to be [manually updated daily ](https://x.com/lemonodor/status/1553107534029828096)around midnight UTC.&#x20;
 
 
 
