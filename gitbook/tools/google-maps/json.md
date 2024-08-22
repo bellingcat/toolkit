@@ -20,7 +20,8 @@ description: This is the JSON codeblock for this tool
     "offline-maps",
     "google-maps-api",
     "mapping-solutions",
-    "interactive-maps"
+    "interactive-maps",
+    "most-used"
   ]
 }
 ```
