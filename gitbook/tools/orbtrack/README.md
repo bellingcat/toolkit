@@ -17,11 +17,9 @@ description: >-
 
 ## Description
 
-<figure><img src=".gitbook/assets/planetsatelliteanimation3.gif" alt=""><figcaption><p>ORBTRACK SHOWING SATELLITE PATH, LOCATING OBSERVER &#x26; GENERATING TIMED PASS GRAPHIC</p></figcaption></figure>
+<figure><img src=".gitbook/assets/OrbtrackwithcursorWIDE.gif" alt=""><figcaption><p><strong>ORBTRACK SHOWING SATELLITE PATH, LOCATING OBSERVER &#x26; GENERATING TIMED PASS GRAPHIC</strong></p></figcaption></figure>
 
-{% hint style="info" %}
-Satellites can carry many different forms of sensor, e.g. photographic imaging, heat imaging ([Infra-red](https://www.earthdata.nasa.gov/learn/find-data/near-real-time/viirs)) , LIDAR  ([Laser Imaging/Light Detection and Ranging](https://www.synopsys.com/glossary/what-is-lidar.html)) imaging, SAR ([Synthetic Aperture Radar](https://www.keysight.com/blogs/en/inds/2020/08/28/what-is-synthetic-aperture-radar)) imaging,... Not all of these require the earth to be in sunlight to collect useful data and some of these can operate successfully in the presence of cloud cover.
-{% endhint %}
+Satellites carry many different forms of sensor, e.g. photographic imaging, heat imaging ([Infra-Red](https://www.earthdata.nasa.gov/learn/find-data/near-real-time/viirs)) , LIDAR  ([Laser Imaging/Light Detection and Ranging](https://www.synopsys.com/glossary/what-is-lidar.html)) imaging, SAR ([Synthetic Aperture Radar](https://www.keysight.com/blogs/en/inds/2020/08/28/what-is-synthetic-aperture-radar)) imaging,... Not all of these require the earth to be in sunlight to collect useful data and some of these can operate successfully in the presence of cloud cover.
 
 OrbTrack is a web-based app which allows users to explore satellite sources of imagery by:&#x20;
 
@@ -32,7 +30,7 @@ OrbTrack is a web-based app which allows users to explore satellite sources of i
 
 **Satellite Sensor Technology**
 
-A large segment of Open Source research involves the use of satellite imagery, gathered using a variety of sensor technology e.g. photographic imaging, heat imaging ([Infra-red](https://www.earthdata.nasa.gov/learn/find-data/near-real-time/viirs)) imaging, LIDAR ([Laser Imaging/Light Detection and Ranging](https://www.synopsys.com/glossary/what-is-lidar.html)) imaging, SAR ([Synthetic Aperture Radar](https://www.keysight.com/blogs/en/inds/2020/08/28/what-is-synthetic-aperture-radar)) imaging,... The resolution and aspect of this imagery is crucial in the success of an investigation.&#x20;
+A large segment of Open Source research involves the use of satellite imagery, gathered using a variety of sensor technology.  The resolution and aspect of this imagery is crucial in the success of an investigation.&#x20;
 
 <details>
 
