@@ -3897,5 +3897,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "rUqA55dvH0HA3Be2hFwh",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "7Bpz0qGShrVw0AzzQ8SM",
+    "title": "WolframAlpha",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-08-23T13:39:13.516Z",
+    "updatedAt": "2024-08-23T13:39:13.516Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/7Bpz0qGShrVw0AzzQ8SM",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/7Bpz0qGShrVw0AzzQ8SM/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "Qc2oS3OEZYre0InWlgYl",
+    "defaultLevel": "inherit"
   }
 ]
