@@ -12,48 +12,6 @@ description: OpenCorporates is a repository of company registries
 
 OpenCorporates provides a unified search of corporate and legal entity-level data across 170+ jurisdictions. It is a free repository of company registries aggregated from primary public sources, published to promote corporate transparency.&#x20;
 
-Use cases as described by OpenCorporates:
-
-* [Entity verification](https://opencorporates.com/use-cases/entity-verification/)
-* [Third-party risk management](https://opencorporates.com/use-cases/third-party-risk-management/)
-* [Investigations](https://opencorporates.com/use-cases/investigations/)
-* [Data management](https://opencorporates.com/use-cases/data-management/)
-* [Business discovery](https://opencorporates.com/use-cases/business-discovery/)
-
-## Cost
-
-* [ ] Free
-* [x] Partially Free
-* [ ] Paid
-
-API access requires a [monthly/yearly subscription](https://opencorporates.com/plug-in-our-data/) for commercial uses, starting from GBP 729 per year for the Entry package, GBP 6,600 /year for the Starter package, GBP 12,000/year for the Basic package.&#x20;
-
-## Level of difficulty
-
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
-
-## Requirements
-
-Free registration needed to access the full information on entities/individuals. Without registration, users cannot see additional information associated with a particular entry.&#x20;
-
-## Limitations
-
-Permitted users: If you’re a **journalist, NGO, academic conducting public benefit research,** **or using it for personal interest**, you’re a “Permitted User.” **Corporations, financial institutions, and government departments** need a subscription to access the data.&#x20;
-
-Data accuracy and use: **The data is provided “as is.”** The complexity of sources means occasional errors. Use the information wisely and double-check critical details. Heavy data extraction, such as scraping, is prohibited unless you’re a search engine indexing content.
-
-## Ethical Considerations
-
-As this data is publicly accessible and from government sources, users should be comfortable using this tool without ethical qualms. However, research on individuals should not be used for personal gain, doxxing, harassment or purposes and/or actions that could be considered illegal or criminal.
-
-## Guides
-
-Katherine de Tolly: [Following the Money: A Beginner’s Guide to Using the OpenCorporates API](https://www.bellingcat.com/resources/2023/08/24/following-the-money-a-beginners-guide-to-using-the-opencorporates-api/), Bellingcat.
-
-
-
-## Desktop Research Guide
-
 1. ### How to search for a company
 
 * Go to [opencorporates.com](https://opencorporates.com/) and log in with your credentials. The registration is free.&#x20;
@@ -82,8 +40,6 @@ Katherine de Tolly: [Following the Money: A Beginner’s Guide to Using the Open
 
 </div>
 
-* You can also watch the OpenCorporates video guide on [how to search for a company](https://knowledge.opencorporates.com/knowledge-base/web-portal-onboarding/).
-
 2. ### How to search for an Officer
 
 * Follow the same steps as above, but select the Officer option just below the search bar on the home page.
@@ -96,13 +52,51 @@ Katherine de Tolly: [Following the Money: A Beginner’s Guide to Using the Open
 
 <figure><img src=".gitbook/assets/OC7.png" alt="" width="563"><figcaption><p>Specific information for IBM CEO Arvind Krishna from one of selected  search results</p></figcaption></figure>
 
-You can also watch the OpenCorporates video guide on [how to search for an Officer](https://knowledge.opencorporates.com/knowledge-base/how-to-search-for-an-officer-video-guide/).
-
 **!** Please note that the details provided by OpenCorporates depend on what the local companies register for this particular jurisdiction provides. Each jurisdiction is different, thus the level of detail might differ. Also be mindful of the fact that there might be more than one company with the same name and does not mean it is in any way connected to the one you are researching. The same rule applies for individuals. There may be more than one person with the same name in your results, but these could be name match only records.&#x20;
+
+## Cost
+
+* [ ] Free
+* [x] Partially Free
+* [ ] Paid
+
+API access requires a [monthly/yearly subscription](https://opencorporates.com/plug-in-our-data/) for commercial uses, starting from GBP 729 per year for the Entry package, GBP 6,600 /year for the Starter package, GBP 12,000/year for the Basic package.&#x20;
+
+## Level of difficulty
+
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
+
+## Requirements
+
+Free registration needed to access the full information on entities/individuals. Without registration, users cannot see additional information associated with a particular entry.&#x20;
+
+## Limitations
+
+Permitted users: If you’re a **journalist, NGO, academic conducting public benefit research,** **or using it for personal interest**, you’re a “Permitted User.” **Corporations, financial institutions, and government departments** need a subscription to access the data. Source: [OpenCorporates usage details](https://blog.opencorporates.com/2024/06/11/can-i-use-opencorporates/).
+
+Data accuracy and use: **The data is provided “as is.”** The complexity of sources means occasional errors. Use the information wisely and double-check critical details. Heavy data extraction, such as scraping, is prohibited unless you’re a search engine indexing content.&#x20;
+
+[According to their own website](https://knowledge.opencorporates.com/knowledge-base/there-is-an-error-with-the-company-record-on-opencorporates/), if there is an error, you can contact their support and these errors might include outdated information about entities or individuals, duplications of data, miscategorized entities.&#x20;
+
+## Ethical Considerations
+
+As this data is publicly accessible and from government sources, users should be comfortable using this tool without ethical qualms. However, research on individuals should not be used for personal gain, doxxing, harassment or purposes and/or actions that could be considered illegal or criminal.
+
+## Guides
+
+Katherine de Tolly: [Following the Money: A Beginner’s Guide to Using the OpenCorporates API](https://www.bellingcat.com/resources/2023/08/24/following-the-money-a-beginners-guide-to-using-the-opencorporates-api/), Bellingcat.
+
+The Centre for Investigative Journalism: [CIJ Using OpenCorporates for Investigations](https://www.youtube.com/watch?v=G\_swgQEUGh8)
+
+OpenCorporates video guide on [how to search for an Officer](https://knowledge.opencorporates.com/knowledge-base/how-to-search-for-an-officer-video-guide/).
+
+OpenCorporates video guide on [how to search for a company](https://knowledge.opencorporates.com/knowledge-base/web-portal-onboarding/).
+
+OpenCorporates [glossary of terms](https://knowledge.opencorporates.com/knowledge-base/glossary-of-terms/).
 
 ## Tool provider
 
-OpenCorporates,&#x20;
+OpenCorporates, incorporated in England and Wales (Company Registration Number 07444723).
 
 ## Advertising Trackers
 
