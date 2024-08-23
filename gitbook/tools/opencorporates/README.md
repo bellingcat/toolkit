@@ -74,7 +74,7 @@ Free registration needed to access the full information on entities/individuals.
 
 Permitted users: If you’re a **journalist, NGO, academic conducting public benefit research,** **or using it for personal interest**, you’re a “Permitted User.” **Corporations, financial institutions, and government departments** need a subscription to access the data. Source: [OpenCorporates usage details](https://blog.opencorporates.com/2024/06/11/can-i-use-opencorporates/).
 
-Data accuracy and use: **The data is provided “as is.”** The complexity of sources means occasional errors. Use the information wisely and double-check critical details. Heavy data extraction, such as scraping, is prohibited unless you’re a search engine indexing content.&#x20;
+Data accuracy and use: **The data is provided “as is.”** The complexity of sources means occasional errors. Use the information wisely and double-check critical details. Heavy data extraction, such as scraping, is prohibited unless you’re a search engine indexing content. Source: [OpenCorporates usage rules.](https://blog.opencorporates.com/2024/06/11/can-i-use-opencorporates/)
 
 [According to their own website](https://knowledge.opencorporates.com/knowledge-base/there-is-an-error-with-the-company-record-on-opencorporates/), if there is an error, you can contact their support and these errors might include outdated information about entities or individuals, duplications of data, miscategorized entities.&#x20;
 
