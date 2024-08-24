@@ -3933,5 +3933,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "shPKN3qXocrGvRk9y8oN",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "dS0MQRPcpJQvPYoiN9en",
+    "title": "TruffleHog",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-08-24T11:10:16.467Z",
+    "updatedAt": "2024-08-24T11:10:16.467Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/dS0MQRPcpJQvPYoiN9en",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/dS0MQRPcpJQvPYoiN9en/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "JJSW6TVZMFLsgiLAzTiX",
+    "defaultLevel": "inherit"
   }
 ]
