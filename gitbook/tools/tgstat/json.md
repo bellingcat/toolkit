@@ -8,8 +8,7 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "telegram",
-    "most-used"
+    "telegram"
   ]
 }
 ```
