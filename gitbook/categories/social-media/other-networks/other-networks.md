@@ -15,7 +15,6 @@
 | [**PSNprofiles**](https://psnprofiles.com/) | Search PlayStation username, see daily activity, games played, country, and profile pic | <mark style="background-color:green;">Free</mark> |  |
 | [**Search4Faces**](https://search4faces.com) | Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse) | <mark style="background-color:green;">Free</mark> |  |
 | [**Sherlock**](https://github.com/sherlock-project/sherlock) | Check usernames across more than 400 websites and social networks. | <mark style="background-color:green;">Free</mark> | [Details](../../../tools/sherlock/README.md) |
-| [**Skypli**](https://www.skypli.com/) | undefined | <mark style="background-color:green;">Free</mark> | Guide: Inactive, up for removal  |
 | [**Snap Map**](http://map.snapchat.com/) | Searchable map of geotagged snaps. | <mark style="background-color:green;">Free</mark> | [Details](../../../tools/snap-map/README.md) |
 | [**SteamId.uk**](http://steamid.uk/) |  Lookup player names, view (more) previously used names, and when accounts befriended eachother (Free). View screenshots of account, (bulk) seach based on previously used names (paid).  | <mark style="background-color:orange;">Partially Free</mark> |  |
 | [**Strava**](https://www.strava.com) | Social media fitness app with exercise map based on users' GPS data. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../../tools/strava/README.md) |
