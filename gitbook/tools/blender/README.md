@@ -105,7 +105,7 @@ To effectively use Blender, especially for beginners or those looking to refine 
 
 The [Blender Foundation](https://www.blender.org/about/foundation/) (2002), [https://www.blender.org/about/foundation/](https://www.blender.org/about/foundation/) the Netherlands.
 
-* ### Advertising Trackers
+* #### Advertising Trackers
 
 <!---->
 
