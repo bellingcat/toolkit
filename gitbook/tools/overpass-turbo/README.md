@@ -121,7 +121,6 @@ _overpass turbo_ is maintained by Martin Raifer (tyr.asd at gmail.com) [_Open St
 | Page maintainer           |
 | ------------------------- |
 | Bellingcat Volunteer Team |
-|                           |
 
 ## See Also
 
