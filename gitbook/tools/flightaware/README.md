@@ -69,14 +69,21 @@ In addition, users can flip through the different tabs for weather information, 
 
 <figure><img src=".gitbook/assets/ScreenRecording2024-08-26145034-ezgif.com-speed.gif" alt=""><figcaption><p>This shows how to get to the airport page from the live map. Click on an airport code. In this case, we chose MNL (Manila International Airport). We can also flip through the tabs for more information about this airport.</p></figcaption></figure>
 
-&#x20;
+#### &#x20;Viewing Results
+
+FlightAware will display a list of matching flight/s. The information available are grouped into two main sections: flight information and Aircraft Information. In addition to this, a live map with the flight in question is available to the lower left of the webpage.&#x20;
+
+
+
+<figure><img src=".gitbook/assets/Results FlightAware.png" alt=""><figcaption><p>Here is a sample flight on our search results. Clicking on this particular flight will give users as much information as possible. If any detail is missing, it will indicate whether users must subscribe to get that info.  </p></figcaption></figure>
 
 \
-\
 
 
-\
-
+| Flight Details                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Aircraft Details |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| <ul><li>Call sign/Flight number</li><li>Airline</li><li>Departure and arrival airports</li><li>Scheduled departure and arrival times</li><li>Flight status (delayed, on time, canceled)</li></ul><p>On the live map to the left, users can follow the flight route. A <strong>solid line</strong> refers to the plane's real-time path, and a <strong>dashed line</strong> indicates the planned route. I<strong>f users see both,</strong> this means the aircraft deviated from its planned route for many reasons, such as weather, shortcuts, traffic, and other factors.  </p><p><br><br></p> |                  |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |                  |
 
 ## Cost
 
