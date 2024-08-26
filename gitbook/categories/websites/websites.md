@@ -13,5 +13,4 @@
 | [**SpyOnWeb**](http://spyonweb.com/) | Find out related websites via their tracking code. | <mark style="background-color:green;">Free</mark> |   |
 | [**Vortimo**](https://www.vortimo.com/) | Suite of tools for website, email, WHOIS, etc. analysis | <mark style="background-color:red;">Paid</mark> |   |
 | [**Whatcms.org**](http://whatcms.org/) | What content-management system is this website using? | <mark style="background-color:green;">Free</mark> |   |
-| [**WhoIs**](http://whois.net/) | For domain name search and information. Try either [whois.net](http://whois.net/) or [whois.icann.org](http://whois.icann.org/) | <mark style="background-color:green;">Free</mark> |   |
 | [**WHOIS History**](https://whois-history.whoisxmlapi.com/) | Historical WHOIS registration lookup | Partially | last 3 records per site are free |
