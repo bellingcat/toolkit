@@ -23,6 +23,48 @@ NOTE: FlightAware is useful if tracking the following types of flights  (See lis
 TIP: Check more than one flight-tracking website when doing research,[ “since one might have more information than the others.”](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)
 {% endhint %}
 
+When used for open-source investigations, flight-tracking websites like FlightAware can assist in:&#x20;
+
+* [Not only does it support real-time analysis, but it also contributes to entirely new narratives](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)&#x20;
+* [Monitor the movement of illegal goods](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons) (see also [here](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking))&#x20;
+* [Probe/scrutinize transit/travel patterns](https://www.theguardian.com/world/2022/aug/03/flight-trackers-flightradar24-ads-b-exchange)&#x20;
+* FlightAware can also be used for geolocation and verification (see example below)
+
+### Key Features
+
+#### Search tab
+
+Depending on what information a researcher already has, he/she can go to the main search tab. One can enter **a flight number, tail number, airport, city**&#x20;
+
+#### Live Map
+
+In the tool’s landing page, below the search bar, users can see a live tracking map. [It claims to show real-time traffic worldwide](https://www.flightaware.com/). Refer to the table below to see how users can get information on the live map:
+
+_**Search by aircraft: Hover or click on any aircraft**_
+
+**Hovering will give a quick overview of**&#x20;
+
+* aircraft call sign,&#x20;
+* its altitude,&#x20;
+* Its route using airport codes (i.e. MNL - AUH - meaning from Manila International Airport to Abu Dhabi International Airport),&#x20;
+* estimated landing time&#x20;
+* speed&#x20;
+
+\[placeholder]
+
+**Clicking on an aircraft :** This will take you to a dedicated page for that flight with all the necessary flight information and aircraft information (as described below)
+
+**Clicking on an airport (represented by dots and a three-letter airport code):** This will take the user to the airport page. T[he users can find incoming and outgoing flights to and from the airport:](https://www.flightaware.com/about/faq/#vicinityAirport)
+
+* GREEN - outgoing commercial flights
+* BLUE - incoming commercial flights&#x20;
+* WHITE - flights passing through the airspace with different airport destinations and different airports of departure
+
+
+
+\
+
+
 ## Cost
 
 * [ ] Free
