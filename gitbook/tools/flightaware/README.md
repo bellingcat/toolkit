@@ -50,7 +50,9 @@ _**Search by aircraft: Hover or click on any aircraft**_
 * estimated landing time&#x20;
 * speed&#x20;
 
-\[placeholder]
+
+
+<figure><img src=".gitbook/assets/Live MaP.png" alt=""><figcaption><p>This is a view of the live map of FlightAware, found in the landing page of the tool. Search an area or region of interest and hover over aircraft to find details. In this case, we are looking at a United Airlines flight 195, Call sign UAL:195, on a Boeing 772, flying at around 38000 ft, at the speed of 519 mph. Clicking on this aircraft, by contrast, will provide more details on a separate page.</p></figcaption></figure>
 
 **Clicking on an aircraft :** This will take you to a dedicated page for that flight with all the necessary flight information and aircraft information (as described below)
 
