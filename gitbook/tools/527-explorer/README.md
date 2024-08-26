@@ -1,5 +1,8 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  ProPublica's 527 Explorer is a database that allows journalists, researchers
+  and others to examine the finances of nonprofit organizations known as 527s,
+  which can raise unlimited sums for political s
 ---
 
 # 527 Explorer
@@ -10,7 +13,7 @@ description: A brief one line description of this tool
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+ProPublica's 527 Explorer allows people to review the finances of nonprofit organizations known as 527s. 527s file reports with the Internal Revenue Service, but these filings appear on a section separate from most nonprofits. ProPublica's database is intended to make searching these filings easier. ProPublica's database also has a feature which shows which 527s have similar donors and expenditures.
 
 ## Cost
 
@@ -28,11 +31,11 @@ description: A brief one line description of this tool
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+The tool is likely best used in conjunction with other databases that look at other types of financial contributions and expenditures (Federal Elections Commission, state and local level election office website, lobbying disclosure databases, etc.). If a user wishes to view the original IRS form, they may need to visit the IRS website anyway.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+None
 
 ## Guides and articles
 
