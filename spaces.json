@@ -3969,5 +3969,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "7JnT1Rr4vpFHnHWUhyJm",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "CNnluibXxel22a02cpzk",
+    "title": "VirusTotal",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-08-26T19:48:31.887Z",
+    "updatedAt": "2024-08-26T19:48:31.887Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/CNnluibXxel22a02cpzk",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/CNnluibXxel22a02cpzk/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "ci25GB5xsRrlOaCn1luP",
+    "defaultLevel": "inherit"
   }
 ]
