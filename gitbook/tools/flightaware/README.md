@@ -44,15 +44,13 @@ _**Search by aircraft: Hover or click on any aircraft**_
 
 **Hovering will give a quick overview of**&#x20;
 
-* aircraft call sign,&#x20;
-* its altitude,&#x20;
-* Its route using airport codes (i.e. MNL - AUH - meaning from Manila International Airport to Abu Dhabi International Airport),&#x20;
+* aircraft call sign
+* its altitude
+* Its route using airport codes (i.e. MNL - AUH - meaning from Manila International Airport to Abu Dhabi International Airport)
 * estimated landing time&#x20;
 * speed&#x20;
 
-
-
-<figure><img src=".gitbook/assets/Live MaP.png" alt=""><figcaption><p>This is a view of the live map of FlightAware, found in the landing page of the tool. Search an area or region of interest and hover over aircraft to find details. In this case, we are looking at a United Airlines flight 195, Call sign UAL:195, on a Boeing 772, flying at around 38000 ft, at the speed of 519 mph. Clicking on this aircraft, by contrast, will provide more details on a separate page.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Live MaP.png" alt=""><figcaption><p>This is a view of the live map of FlightAware, found on the landing page of the tool. Search an area or region of interest and hover over aircraft to find details. In this case, we are looking at a United Airlines flight 195, Call sign UAL:195, on a Boeing 772, flying at around 38000 ft, at the speed of 519 mph. The aircraft came from Munich International Airport and arrived at San Francisco International Airport. Clicking on this aircraft, by contrast, will provide more details on a separate page.</p></figcaption></figure>
 
 **Clicking on an aircraft :** This will take you to a dedicated page for that flight with all the necessary flight information and aircraft information (as described below)
 
