@@ -125,3 +125,4 @@
   * [Datawrapper](tools/datawrapper/README.md)
   * [GPSJam](tools/gpsjam/README.md)
   * [OpenCorporates](tools/opencorporates/README.md)
+  * [OpenSanctions](tools/opensanctions/README.md)
