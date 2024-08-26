@@ -64,10 +64,10 @@ In addition, users can flip through the different tabs for weather information, 
 
 
 
-**Filter Live Map Flights:** On the live map, users can also filter all worldwide flights according to _**Altitude, Speed, Flight Type, and Aircraft Type**_ by clicking on the icon to the right, underneath the layers map.&#x20;
+**Filter Live Map Flights:** On the live map, users can also filter all worldwide flights according to _**Altitude, Speed, Flight Type, and Aircraft Type**_ by clicking on the icon to the right, underneath the layers map. \
 
-\
 
+<figure><img src=".gitbook/assets/ScreenRecording2024-08-26145034-ezgif.com-speed.gif" alt=""><figcaption><p>This shows how to get to the airport page from the live map. Click on an airport code. In this case, we chose MNL (Manila International Airport). We can also flip through the tabs for more information about this airport.</p></figcaption></figure>
 
 &#x20;
 
