@@ -12,7 +12,6 @@
 | [**Shodan**](http://shodan.io/) | Internet of things search engine. | Partially |   |
 | [**SpyOnWeb**](http://spyonweb.com/) | Find out related websites via their tracking code. | <mark style="background-color:green;">Free</mark> |   |
 | [**Vortimo**](https://www.vortimo.com/) | Suite of tools for website, email, WHOIS, etc. analysis | <mark style="background-color:red;">Paid</mark> |   |
-| [**WebCookies.org**](http://webcookies.org/) | A website security and privacy scanner that, among many other features (mostly focused on GDPR compliance) aggregates large amount of information about advertiser and analytics identifiers of scanned websites, as well as the /ads.txt files. | <mark style="background-color:green;">Free</mark> |   |
 | [**Whatcms.org**](http://whatcms.org/) | What content-management system is this website using? | <mark style="background-color:green;">Free</mark> |   |
 | [**WhoIs**](http://whois.net/) | For domain name search and information. Try either [whois.net](http://whois.net/) or [whois.icann.org](http://whois.icann.org/) | <mark style="background-color:green;">Free</mark> |   |
 | [**WHOIS History**](https://whois-history.whoisxmlapi.com/) | Historical WHOIS registration lookup | Partially | last 3 records per site are free |
