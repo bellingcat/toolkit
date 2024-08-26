@@ -126,3 +126,4 @@
   * [GPSJam](tools/gpsjam/README.md)
   * [OpenCorporates](tools/opencorporates/README.md)
   * [OpenSanctions](tools/opensanctions/README.md)
+  * [Instant Data Scraper](tools/instant-data-scraper/README.md)
