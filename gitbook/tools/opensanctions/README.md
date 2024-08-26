@@ -69,7 +69,7 @@ For basic desktop research, go to [https://www.opensanctions.org/research/](http
 
 <figure><img src=".gitbook/assets/OS6.png" alt="" width="563"><figcaption></figcaption></figure>
 
-* The second result provides more detailed information, most importantly the call sign of the vessel (a unique ID number to ships and boats) , under which flag it operates, and who owns it. In this case it is owned by the Russian Marine Rescue Service. This information can be used to cross-reference the vessel through other tools such as [VesselFinder.com](https://www.vesselfinder.com/)
+* The second result provides more detailed information, most importantly the call sign of the vessel (a unique ID number to ships and boats), under which flag it operates, and who owns it. In this case it is owned by the Russian Marine Rescue Service. This information can be used to cross-reference the vessel through other tools such as [VesselFinder.com](https://www.vesselfinder.com/)
 
 <figure><img src=".gitbook/assets/OS7.png" alt=""><figcaption></figcaption></figure>
 
