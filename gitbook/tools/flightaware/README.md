@@ -60,8 +60,18 @@ _**Search by aircraft: Hover or click on any aircraft**_
 * BLUE - incoming commercial flights&#x20;
 * WHITE - flights passing through the airspace with different airport destinations and different airports of departure
 
-**Filter Live Map Flights:** On the live map, users can also filter all worldwide flights according to _**Altitude, Speed Flight Type and Aircraft Type**_ by clicking on the icon to the right, underneath the layers map.&#x20;
+In addition, users can flip through the different tabs for weather information, maps and diagrams.
 
+
+
+**Filter Live Map Flights:** On the live map, users can also filter all worldwide flights according to _**Altitude, Speed, Flight Type, and Aircraft Type**_ by clicking on the icon to the right, underneath the layers map.&#x20;
+
+\
+
+
+&#x20;
+
+\
 \
 
 
