@@ -2,7 +2,6 @@
 
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
-| [**Carbon Dating The Web**](https://carbondate.cs.odu.edu/) | This is a simple application that estimates when a webpage was created. Unfortunately, Carbon Dating won’t show when a page was updated, only created. | <mark style="background-color:green;">Free</mark> |   |
 | [**DNS Cyrillic Check**](https://holdintegrity.com/checker) | Check if malicious or Cyrillic domains are registered | <mark style="background-color:green;">Free</mark> |   |
 | [**DNS History**](http://completedns.com/) | Collection of historical DNS information. | <mark style="background-color:green;">Free</mark> |   |
 | [**DomainTools Whois Lookup**](https://whois.domaintools.com/) | DomainTools Whois provides detailed domain name registration information, and can be used to investigate details about domains or IP addresses. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/domaintools-whois-lookup/README.md) |
