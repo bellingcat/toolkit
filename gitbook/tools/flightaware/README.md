@@ -15,10 +15,12 @@ http://flightaware.com/
 
 FlightAware is a global aviation tracking service that collects real-time flight information, including flight paths, statuses, and historical data.[ It works by gathering data from various sources, such as air traffic control systems, commercial data providers, and its network of ADS-B (Automatic Dependent Surveillance-Broadcast) receivers.](http://www.flightaware.com/about/faq/#data) Key features include live flight tracking, airport information, aircraft information, and alerts for delays or cancellations. Because FlightAware has multiple data sources for its flights, it tends to have better coverage in regions such as South America and Africa (See this [guide](https://gijn.org/resource/planespotting-an-updated-guide-to-tracking-aircraft-around-the-world/) under “Other Tracking Sources”).
 
-
-
 {% hint style="info" %}
 NOTE: FlightAware is useful if tracking the following types of flights  (See list of flight types under [live map](https://www.flightaware.com/live/map) and filtering options):  [commercial flights](#user-content-fn-1)[^1], [business flights](#user-content-fn-2)[^2], [cargo flights](#user-content-fn-3)[^3], [general aviation flights](#user-content-fn-4)[^4] and MEDEVAC. [However, take note that it honors requests to remove any aircraft if the owner asks for it. ](https://gijn.org/resource/planespotting-an-updated-guide-to-tracking-aircraft-around-the-world/)
+{% endhint %}
+
+{% hint style="success" %}
+TIP: Check more than one flight-tracking website when doing research,[ “since one might have more information than the others.”](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)
 {% endhint %}
 
 ## Cost
