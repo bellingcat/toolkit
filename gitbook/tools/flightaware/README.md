@@ -99,6 +99,10 @@ When clicking on a particular flight, the full detailed page will load (See imag
 
 Lastly, for flights that have already landed or are completed, FlightAware allows users to download a KML file of the flight log. This will contain all the coordinates of its flight path, the altitude, and other information that helps users visualize. To do this, click on the flight page of a flight in question, click on “View track log”. Then navigate to the upper left corner of the page and click “+ Google Earth” icon, as shown below.&#x20;
 
+{% hint style="warning" %}
+NOTE: Remember that historical information is limited for the free account, so flight log information may not always be available.
+{% endhint %}
+
 
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-27 112020-marked merge2.png" alt=""><figcaption><p>Downloading a KML of the flight log requires two steps. First, click "View Track Log" under Flight Details as shown in the top window. This will then load another window (bottom of the image), and users can click on the Google Earth icon on the top left.   </p></figcaption></figure>
@@ -111,6 +115,18 @@ Here is an example of [geolocation by Nixinte](https://nixintel.info/osint/using
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-27 173912.png" alt=""><figcaption><p>(Source: Nixintel, Steven Harris, <a href="https://nixintel.info/osint/using-flight-tracking-for-geolocation-quiztime-30th-october-2019/">https://nixintel.info/osint/using-flight-tracking-for-geolocation-quiztime-30th-october-2019/</a>) This is an example of a flight KML file used as a layer on Google Earth Pro. On the left is the source image for geolocation, while on the right is a screenshot of the Google Earth Pro in 3D Street View, with the flight path visible in the sky. The author uses the diagonal trajectory of the flight path on the right to match the trajectory of the aircraft contrail (diagonal line in the sky) on the left photo. </p></figcaption></figure>
 
+### Use case
+
+First, flight-tracking websites like FlightAware not only assist in geolocation but also help create flight databases for countries with issues that require continues monitoring. For instance, Bellingcat has created an Open Source Flight Database for [Kazakhstan](https://www.bellingcat.com/resources/2022/01/08/launching-an-open-source-flight-database-for-kazakhstan-in-wake-of-protests/) and [Venezuela](https://www.bellingcat.com/resources/case-studies/2021/03/11/launching-an-open-source-aircraft-database-for-venezuela/).&#x20;
+
+Second, Investigators, [such as those at OCCRP,](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) for example, who monitor aircraft, focus on two key tasks:
+
+1. Determining which planes are owned or regularly utilized by individuals of interest
+2. Following their flight histories or pinpointing their current whereabouts
+
+However, [figuring out who really owns a plane is often the harder part because people often hide ownership through shell companies and other methods to keep it secret.](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) But because flight tracking is mostly publically available, [#2 can be a useful method for filling the information gap: ](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking)
+
+\
 \
 \
 \
