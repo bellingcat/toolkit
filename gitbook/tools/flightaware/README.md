@@ -103,6 +103,15 @@ Lastly, for flights that have already landed or are completed, FlightAware allow
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-27 112020-marked merge2.png" alt=""><figcaption><p>Downloading a KML of the flight log requires two steps. First, click "View Track Log" under Flight Details as shown in the top window. This will then load another window (bottom of the image), and users can click on the Google Earth icon on the top left.   </p></figcaption></figure>
 
+This can be helpful for specific geolocation tasks, especially for images with contrails or airplanes in the background. If there is flight information in a geolocation task, KML files overlaid on Google Earth Pro can help plot the course location and narrow down the search area based on the flight path.
+
+Here is an example of [geolocation by Nixinte](https://nixintel.info/osint/using-flight-tracking-for-geolocation-quiztime-30th-october-2019/)l using a flight log KML file overlaid over Google Earth Pro, in addition to using the[ Suncalc tool](https://bellingcat.gitbook.io/toolkit/more/all-tools/suncalc). &#x20;
+
+
+
+<figure><img src=".gitbook/assets/Screenshot 2024-08-27 173912.png" alt=""><figcaption><p>(Source: Nixintel, Steven Harris, <a href="https://nixintel.info/osint/using-flight-tracking-for-geolocation-quiztime-30th-october-2019/">https://nixintel.info/osint/using-flight-tracking-for-geolocation-quiztime-30th-october-2019/</a>) This is an example of a flight KML file used as a layer on Google Earth Pro. On the left is the source image for geolocation, while on the right is a screenshot of the Google Earth Pro in 3D Street View, with the flight path visible in the sky. The author uses the diagonal trajectory of the flight path on the right to match the trajectory of the aircraft contrail (diagonal line in the sky) on the left photo. </p></figcaption></figure>
+
+\
 \
 \
 
