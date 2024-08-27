@@ -16,26 +16,26 @@ Open Measures helps open source researchers investigate harmful online activity 
 
 Public (free) features:
 
-* **Search queries:** the Public App allows users to search archives for specific search terms.&#x20;
-* **Analysis tools:**  Timeline, Activity, Link Counter, and Search,
-* **Datasets:** the following datasets are available, _4chan, 8kun, BitChute, Bluesky, Fediverse, Gab, Gettr, LBRY / Odysee, meWe, Minds, OK, Parler, Poal, Rumble, RuTube, Scored, Telegram, TikTok, Truth Social, VK, Wimkin_ (see: [https://openmeasures.io/datasets/](https://openmeasures.io/datasets/) for the current list)&#x20;
+* **Search queries:** the Public App allows users to search archives for specific search terms with basic, Boolean, or advanced queries.&#x20;
+* **Analysis tools:**  Timeline, Activity, Link Counter, and Search
+* **Datasets:** the following datasets are available, _4chan, 8kun, BitChute, Bluesky, Fediverse, Gab, Gettr, LBRY / Odysee, MeWe, Minds, OK, Parler, Poal, Rumble, RuTube, Scored, Telegram, TikTok, Truth Social, VK, and Wimkin._ (See [Open Measures Datasets](https://openmeasures.io/datasets/) for the current list and operational status of each dataset.)&#x20;
 * **Language support:** English and Spanish.
-* **Limited API access:** 39 requests per day and data that is at least six months old to complete library of sources.
-* **API Elasticsearch support:** sophisticated filtering query support included ([https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html)).
+* **Limited API access:** 39 requests per day, and data that is at least six months old.
+* **API Elasticsearch Support:** Sophisticated filtering query support included (Additional information on Elastic full text queries [here](https://www.elastic.co/guide/en/elasticsearch/reference/current/full-text-queries.html).)
 
 Pro Features:
 
-* Everything in Public.
-* **API access**: unlimited.&#x20;
-* **Support:** full customer support.
+* Everything in Public, plus unlimited access to all Analysis tools.
+* **API access**: Unlimited.
+* **Support:** Full customer support.
 
 Enterprise Features:
 
 * Everything in Pro.
-* **Detailed Analysis:** a dedicated Analyst dashboard.
-* **Visualisation:** Network graph.
-* **Multi-media imagery analysis**: images and video media application. Multi media.
-* **Custom crawl social media crawls**: access to custom crawl requests of keywords, profiles, and channels.
+* **Detailed Analysis:** A dedicated research dashboard.
+* **Visualisation:** Network graphing capabilities.
+* **Multi-media imagery analysis**: Images and video media application. Multi media.
+* **Custom social media crawl requests**: Access to custom crawl requests of keywords, profiles, and channels.
 
 Open Measures provides a[ Command Line Interface (CLI)](https://gitlab.com/openmeasures/smat-cli) for quickly accessing bulk data and a [Jupyter Notebook](https://colab.research.google.com/drive/1kDyRIC0NBOj4Egn\_VdK837QBNqDERRi\_?usp=sharing) for accessing the API.&#x20;
 
@@ -49,9 +49,9 @@ Example of a timeline search result for the term _QAnon:_&#x20;
 * [x] Partially Free
 * [ ] Paid
 
-&#x20;See [https://openmeasures.io/solutions/](https://openmeasures.io/solutions/)
+See [https://openmeasures.io/solutions/](https://openmeasures.io/solutions/)
 
-Open Measures says the Pro and Enterprise solutions are paid for all users but they encourage all academics, journalists, and individual researchers to get in touch at [info@openmeasures.io](mailto:info@openmeasures.io) to ensure budget doesn’t stand in the way of access.
+Open Measures says the Pro and Enterprise solutions are paid for all users, but they encourage all academics, journalists, and individual researchers to get in touch at [info@openmeasures.io](mailto:info@openmeasures.io) to ensure budget doesn’t stand in the way of access.
 
 ## Level of difficulty
 
@@ -59,14 +59,12 @@ Open Measures says the Pro and Enterprise solutions are paid for all users but t
 
 ## Requirements
 
-* **Web**: and modern web browser.
 * **API:** No registration required for the pubic (free) API.
 
 ## Limitations
 
-* **Public App rate limits:** search results are limited to 6 months in the past and only 39 requests per day.
-* **Registration:** the pro version requires registration.
-* **Public API rate limits:** 6 months in the past 39 requests per day.
+* **Public App and API:** Search results are date-limited to 6 month old data, and rate-limited to 39 requests per day.
+* **Registration:** The Pro version requires registration.
 
 ## Ethical Considerations
 
@@ -121,7 +119,7 @@ To effectively use Open Measures, especially for beginners or those looking to r
 
 ## Tool provider
 
-Open Measures [https://openmeasures.io/](https://openmeasures.io/about/)&#x20;
+[Open Measures](https://openmeasures.io/about/)
 
 ## Advertising Trackers
 
@@ -129,7 +127,7 @@ Open Measures [https://openmeasures.io/](https://openmeasures.io/about/)&#x20;
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat Volunteer Team/Unassigned |
-|                                      |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
+|                           |
