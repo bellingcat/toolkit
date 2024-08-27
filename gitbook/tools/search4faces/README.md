@@ -55,7 +55,7 @@ https://search4faces.com
 
 ## Tool provider
 
-The tool provider is currently unknown
+The tool provider is currently unknown. The website is offered in Russian and in English. Its domain registrar is the Bahamas based Whois Privacy Corp.
 
 ## Advertising Trackers
 
