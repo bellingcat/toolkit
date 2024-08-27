@@ -1,19 +1,21 @@
 ---
-description: Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse)
+description: >-
+  Upload the picture of a face and find pictures of similar looking people on
+  VKontakte, Odnoklassniki, TikTok and Clubhouse.
 ---
 
 # Search4Faces
 
 ## URL
 
-https://search4faces.com
+[https://search4faces.com](https://search4faces.com)
 
 ## Description
 
-**Search4Faces** is an open-source facial recognition search engine that allows users to find photos of individuals across various online platforms. The tool is implemented in Python and is accessible via a web interface or as a Python library. Key features of Search4Faces include:
+**Search4Faces** is a facial recognition search engine that allows users to find photos of individuals across various online platforms. The tool is implemented in Python and is accessible via a web interface or as a Python library. Key features of Search4Faces include:
 
 1. **Face Recognition Search**:.
-   * Searches through multiple databases, including those of social networks (VKontakte, Odnoklassniki, TikTok, and Clubhouse), to find similar faces or exact matches.
+   * Searches through multiple databases, including those of social networks (VKontakte, Odnoklassniki, TikTok, and Clubhouse), to find similar faces.
    * Users can specify which database to search in, and results include links to the relevant social media profiles
 2. **Customization and API Integration**:
    * Search4Faces offers an API that can be integrated into applications for automated and scalable facial recognition searches.
@@ -26,7 +28,7 @@ https://search4faces.com
 * [x] Partially Free
 * [ ] Paid
 
-<!---->
+API plans:
 
 * **Basic Plan**: 5,000 API calls for $40, valid for 30 days, with a rate limit of 10 calls per minute and up to 2 concurrent connections.
 * **Advanced Plan**: 15,000 API calls with a higher rate limit and more concurrent connections, but the exact price and conditions require direct contact with the service.
@@ -42,12 +44,16 @@ https://search4faces.com
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+The tool website&#x20;
 
 ## Ethical Considerations
 
 * Persons with similar faces can be misidentified without accounting for other contextual information&#x20;
 * Results can leak personally identifiable information such as general location, home address or the same of associated persons&#x20;
+
+Josephine Lulamae, Algorith Watch: [War Crimes OSINT, Harassment, Doxxing Police and Protesters: Face Recognition for Everyone.](https://algorithmwatch.org/en/face-recognition-for-everyone/)
+
+
 
 ## Guide
 
