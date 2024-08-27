@@ -38,14 +38,6 @@ Open source researchers can use the tool to create a panoramic image of a locati
 * **Performance Issues**: Performance can degrade with large image sets and Auotostitch has been found to have [performance issues](https://www.neopanoramic.com/review/autostitch).
 * **Limited support and documentation.**
 
-## Ethical Considerations
-
-* **Privacy**: Ensure that images used do not infringe on privacy rights or contain sensitive information.
-* **Consent**: Obtain appropriate permissions before using or sharing images, especially if they include identifiable individuals.
-* **Bias**: Be aware of potential biases in the datasets used, as this can affect the results and interpretations.
-* **Copyright**: Use only images that are free to use or for which you have obtained the necessary rights.
-* **Transparency**: Clearly communicate the limitations and potential issues associated with the tool’s use.
-
 ## Guides and articles
 
 To effectively use Autostitch, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
@@ -71,7 +63,7 @@ To effectively use Autostitch, especially for beginners or those looking to refi
 
 Matthew Alun Brown - United States&#x20;
 
-University of British Columbia (Canada) to multiple companies including [ILM](https://www.ilm.com) (United States) and it appeared in several commercial products including Autopano Pro and Serif PanoramaPlus
+Licensed by the University of British Columbia (Canada) to multiple companies including [ILM](https://www.ilm.com) (United States) and it appeared in several commercial products including Autopano Pro and Serif PanoramaPlus
 
 ## Advertising Trackers
 
