@@ -95,7 +95,7 @@ First, click on the URL, hover over the “Community” link on the top right, a
 
 When clicking on a particular flight, the full detailed page will load (See image under “Viewing Results” section above) and navigate to the bottom right of the page.&#x20;
 
-#### **KML FILE OF FLIGHT LOG**
+#### **KML FILE OF FLIGHT LOG  FOR CERTAIN GEOLOCATION TASKS**
 
 Lastly, for flights that have already landed or are completed, FlightAware allows users to download a KML file of the flight log. This will contain all the coordinates of its flight path, the altitude, and other information that helps users visualize. To do this, click on the flight page of a flight in question, click on “View track log”. Then navigate to the upper left corner of the page and click “+ Google Earth” icon, as shown below.&#x20;
 
