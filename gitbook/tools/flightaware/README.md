@@ -32,11 +32,11 @@ When used for open-source investigations, flight-tracking websites like FlightAw
 
 ### Key Features
 
-#### Search tab
+#### SEARCH TAB
 
 Depending on what information a researcher already has, he/she can go to the main search tab. One can enter **a flight number, tail number, airport, city**&#x20;
 
-#### Live Map
+#### LIVE MAP
 
 In the tool’s landing page, below the search bar, users can see a live tracking map. [It claims to show real-time traffic worldwide](https://www.flightaware.com/). Refer to the table below to see how users can get information on the live map:
 
@@ -69,7 +69,7 @@ In addition, users can flip through the different tabs for weather information, 
 
 <figure><img src=".gitbook/assets/ScreenRecording2024-08-26145034-ezgif.com-speed.gif" alt=""><figcaption><p>This shows how to get to the airport page from the live map. Click on an airport code. In this case, we chose MNL (Manila International Airport). We can also flip through the tabs for more information about this airport.</p></figcaption></figure>
 
-#### &#x20;Viewing Results
+#### &#x20;VIEWING RESULTS
 
 FlightAware will display a list of matching flight/s. The information available is grouped into two main sections: Flight information and Aircraft Information. In addition, a live map with the flight in question is available at the lower left of the webpage.&#x20;
 
@@ -82,6 +82,30 @@ FlightAware will display a list of matching flight/s. The information available 
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <ul><li>Call sign/Flight number</li><li>Airline</li><li>Creating flight alerts - <strong>which is helpful for OSINV monitoring</strong></li><li>Departure and arrival airports</li><li>Scheduled departure and arrival times</li><li>Flight status (delayed, on time, canceled)</li></ul><p>On the live map to the left, users can follow the flight route. A <strong>solid line</strong> refers to the plane's real-time path, and a <strong>dashed line</strong> indicates the planned route. I<strong>f users see both,</strong> this means the aircraft deviated from its planned route for many reasons, such as weather, shortcuts, traffic, and other factors.  </p><p><br><br></p> | <ul><li>Aircraft type</li><li>Registration and Tail Number (if using a paid subscription and if available)</li><li>Speed</li><li>Altitude</li><li>Distance </li><li>And photos of the aircraft type </li></ul><p>(NOTE: The aircraft photos displayed may not be specific to the exact flight you're viewing. For instance, if you're looking at a Boeing 737-800 flight, you might see photos of other Boeing 737-800 aircraft from different airlines.) </p><p><br></p> |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+
+#### PHOTOS&#x20;
+
+FlightAware also has a photo gallery available based on aircraft type.  There are two ways to search for photos.&#x20;
+
+**Community Page**&#x20;
+
+First, click on the URL, hover over the “Community” link on the top right, and then click on the Photos section. Browse through the gallery or filter according to Aircraft, Airport, Airline, and Date. More importantly, if you have a tail number or registration number available, you can input this on the Search bar at the bottom right to see if there is a match.&#x20;
+
+**Aircraft Details Page**
+
+When clicking on a particular flight, the full detailed page will load (See image under “Viewing Results” section above) and navigate to the bottom right of the page.&#x20;
+
+#### **KML FILE OF FLIGHT LOG**
+
+Lastly, for flights that have already landed or are completed, FlightAware allows users to download a KML file of the flight log. This will contain all the coordinates of its flight path, the altitude, and other information that helps users visualize. To do this, click on the flight page of a flight in question, click on “View track log”. Then navigate to the upper left corner of the page and click “+ Google Earth” icon, as shown below.&#x20;
+
+
+
+<figure><img src=".gitbook/assets/Screenshot 2024-08-27 112020-marked merge2.png" alt=""><figcaption><p>Downloading a KML of the flight log requires two steps. First, click "View Track Log" under Flight Details as shown in the top window. This will then load another window (bottom of the image), and users can click on the Google Earth icon on the top left.   </p></figcaption></figure>
+
+\
+\
+
 
 ## Cost
 
