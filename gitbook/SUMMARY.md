@@ -127,3 +127,4 @@
   * [OpenCorporates](tools/opencorporates/README.md)
   * [OpenSanctions](tools/opensanctions/README.md)
   * [Instant Data Scraper](tools/instant-data-scraper/README.md)
+  * [AutoStitch](tools/autostitch/README.md)
