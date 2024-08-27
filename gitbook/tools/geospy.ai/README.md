@@ -1,5 +1,5 @@
 ---
-description: AI-based geolocation platform for images.
+description: An AI-based geolocation tool for images.
 ---
 
 # Geospy.ai
@@ -10,7 +10,7 @@ description: AI-based geolocation platform for images.
 
 ## Description
 
-GeoSpy is an online platform that uses neural networks to estimate the geographic location of photographs by analyzing visual features. Currently, you just need to upload the file to the website, no subscription is required. As with any AI model, results are not foolproof and should be further corroborated, but the tool can be useful for getting initial clues about the image location or confirming any meta data available.
+GeoSpy is an online platform that uses neural networks to estimate the geographic location of photographs by analyzing visual features such as vegetation, architectural styles, and contextual clues. Currently, you just need to upload an image file to the website, and no subscription is required for use. As with any AI model, results are not foolproof and should be further corroborated, but the tool can be useful for getting initial clues about an image's location.
 
 ## Cost
 
@@ -40,7 +40,7 @@ GeoSpy's [Privacy Policy](https://api.geospy.ai/privacy-policy) specifies the ex
 
 GeoSpy's [API FAQs](https://api.geospy.ai/#faqs) specify the processes undertaken to ensure user privacy which include techniques such as no storage of images, anonymisation of data, and transient image processing on a secure GPU.
 
-**Note that the GeoSpy API is a different model and architecture than the free GeoSpy tool.** No privacy information specifically regarding the free tool are available.
+**Note that the GeoSpy API is a different model than the free GeoSpy tool. No privacy information specifically regarding the free tool is available.**
 
 Be aware when handling sensitive information.
 
