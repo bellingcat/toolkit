@@ -1,7 +1,7 @@
 ---
 description: >-
   Open-source international database of sanctions data, persons of interest and
-  politically exposed persons.
+  politically exposed persons (includes vessels).
 ---
 
 # OpenSanctions
