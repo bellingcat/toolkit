@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Instaloader is an open-source tool designed to download media and metadata from Instagram without requiring offical acces from meta. It is implemented in Python and can be used via a command-line interface or as a Python library, providing flexibility for both casual users and developers. The primary features of Instaloader include:
+Instaloader is an open-source tool designed to download media and metadata from Instagram without requiring offical acces from Meta. It is implemented in Python and can be used via a command-line interface or as a Python library, providing flexibility for both casual users and developers. The primary features of Instaloader include:
 
 1. **Media Downloading**:
    * Downloads photos and videos from public and private Instagram profiles, hashtags, stories, feeds, and saved media.&#x20;
@@ -37,7 +37,7 @@ Instaloader is a free, open source project.&#x20;
 
 ## Requirements
 
-An Instagram user accout and sesssion token is required to download content.&#x20;
+An Instagram user accout and a session token is required to download content.&#x20;
 
 ## Limitations
 
@@ -45,9 +45,9 @@ Possible issues with this tool may include hitting rate limits or risking accoun
 
 ## Ethical Considerations
 
-* Individuals with common names or aliases can be misidentifed without using additional information about the target
-* Data contains sensitive information such as geolocation and contact information (email address)&#x20;
-* Legal constraints on scraping private instagram acccounts&#x20;
+* Individuals with common names or aliases can be misidentified without using additional information about the target.
+* Data contains sensitive information such as geolocation and contact information (email address).&#x20;
+* Consider legal constraints on scraping private instagram accounts.
 
 ## Guides and articles
 
