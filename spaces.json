@@ -4005,5 +4005,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "AxLSsDfdmlPWKZneH9Vu",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "pFa2iVXddWxeVUhhwhTo",
+    "title": "Namechk",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-08-28T17:12:49.755Z",
+    "updatedAt": "2024-08-28T17:12:49.755Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/pFa2iVXddWxeVUhhwhTo",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/pFa2iVXddWxeVUhhwhTo/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "vZq19HMBbbSYwmRScQdV",
+    "defaultLevel": "inherit"
   }
 ]
