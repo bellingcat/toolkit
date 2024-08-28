@@ -11,5 +11,4 @@
 | [**Jimpl**](https://jimpl.com/) | Online EXIF data viewer | <mark style="background-color:green;">Free</mark> |  |
 | [**metadata2go**](https://www.metadata2go.com/) | Check metadata for both photos and videos online. | <mark style="background-color:green;">Free</mark> |  |
 | [**Reveal Image Verification Assistant**](https://www.rand.org/research/projects/truth-decay/fighting-disinformation/search/items/reveal-image-verification-assistant.html) | Forensic providing eight filters to detect still images alterations. "Web-based image tool. Also available within InVID verification plugin." | <mark style="background-color:green;">Free</mark> |  |
-| [**SpiderPig**](http://github.com/hatlord/Spiderpig) | Github - Extract metadata. Command line interface and scriptable. Requires dependencies and knowledge of web technologies. | <mark style="background-color:green;">Free</mark> |  |
 | [**Splunk**](http://blog.sweepatic.com/metadata-hackers-best-friend) | Extract metadata. Report grade analysis and presentation. Not simple to setup and deploy. | <mark style="background-color:green;">Free</mark> |  |
