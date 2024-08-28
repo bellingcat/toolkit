@@ -111,7 +111,7 @@ NOTE: Remember that historical information is limited for the free account, so f
 
 
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-22 161242.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-08-22 161242.png" alt=""><figcaption><p>This shows The Hague, a city along the KLM 995 flight path, in 3D view on Google Earth Pro, at almost street level. To do this, the user can import the KML file on Google Earth and zoom in on a city of interest. </p></figcaption></figure>
 
 This can be helpful for specific geolocation tasks, especially for images with contrails or airplanes in the background. If there is flight information in a geolocation task, KML files overlaid on Google Earth Pro can help plot the course location and narrow down the search area based on the flight path.
 
@@ -184,6 +184,16 @@ The registration number can be found on the flight summary page, if available. A
 </div>
 
 
+
+<details>
+
+<summary><strong>HEX CODE</strong></summary>
+
+**Definition:** A hex code is a unique ICAO (International Civil Aviation Organization) six-digit hexadecimal number assigned to [an aircraft's transponder. This code serves as a digital identifier, allowing air traffic control and flight tracking systems to distinguish one aircraft from another (p.4).](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons) [When the plane is registered, it gets a unique code called a hex code. ](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking)This hex code is associated with the plane’s ADS-B (Automatic Dependent Surveillance-Broadcast) [transponder](https://www.airservicesaustralia.com/about-us/projects/ads-b/how-ads-b-works/), which broadcasts unencrypted data about the plane’s position, altitude, and speed.&#x20;
+
+**When to use hex codes for open-source investigations:** Hex codes are closely associated with a plane’s registration. Therefore, it is possible to determine ownership if that information is available. According to[ this](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking), “most flight tracking websites link the transponder codes to registration numbers to make sense of tracking data,” especially since aircraft do not usually broadcast registration numbers over their ADS-B transponder.&#x20;
+
+</details>
 
 ## Cost
 
