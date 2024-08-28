@@ -185,6 +185,12 @@ The registration number can be found on the flight summary page, if available. A
 
 
 
+{% hint style="warning" %}
+NOTE #1: Based on our tests, this registration information seems only available for most commercial airlines, some MEDEVAC flights, some general aviation flights, and some cargo flights.&#x20;
+
+NOTE #2: According to the [too](https://www.flightaware.com/resources/registration/ZSTMB)l, “FlightAware is currently only able to display limited information for aircraft that is not identified with a United States “N-Number” (e.g., N123AB)”
+{% endhint %}
+
 <details>
 
 <summary><strong>HEX CODE</strong></summary>
