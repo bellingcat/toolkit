@@ -136,13 +136,19 @@ When doing flight tracking for investigations, it is essential to know what data
 
 <summary>CALL SIGN</summary>
 
-**Definition:** Call signs are used for communication and identification in air traffic control. [They are unique identifiers of an aircraft](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons). It helps differentiate each aircraft in the skies from one another. According to this [guide](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/), private aircraft often use their registration number as their call sign. In contrast, commercial flights usually have call signs based on their specific routes. [Call signs also often vary with each flight, and occasionally, they may change even while in the air. For instance, an aircraft might have different call signs throughout the day if it completes several trips](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) \
+**Definition:** Call signs are used for communication and identification in air traffic control. [They are unique identifiers of an aircraft](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons). It helps differentiate each aircraft in the skies from one another. According to this [guide](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/), private aircraft often use their registration number as their call sign. In contrast, commercial flights usually have call signs based on their specific routes. [Call signs also often vary with each flight, and occasionally, they may change even while in the air. For instance, an aircraft might have different call signs throughout the day if it completes several trips](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)&#x20;
 
+**When to use call signs for open-source investigations:** Call signs are helpful when monitoring routes and flight paths and identifying potential deviations or anomalies. It can tell you what the flight path of an aircraft is, its intended destination, and where it passed by.&#x20;
 
-**When to use call signs for open-source investigations:** Call signs are helpful when monitoring routes and flight paths and identifying potential deviations or anomalies. It can tell you what the flight path of an aircraft is, its intended destination, and where it passed by. \
 
 
 </details>
+
+**Where can you find the call sign on FlightAware?** &#x20;
+
+The call sign is usually located primarily in two places. If looking at the flight map (left image), hover over the airplane you are interested in, and the flight and aircraft information appears. The call sign is highlighted with a yellow box. If looking at the flight data page (right image), the call sign is immediately to the right of the airliner’s logo (highlighted in red square)
+
+<figure><img src=".gitbook/assets/Screenshot 2024-08-23 135843 - MARKEDmerge.png" alt=""><figcaption><p>Two places where users can find the call sign within the tool. One is through the live map on the landing page (left), and the other is through the specific flight page of the aircraft of interest (right).</p></figcaption></figure>
 
 ## Cost
 
