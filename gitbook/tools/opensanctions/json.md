@@ -7,13 +7,8 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "OpenSanctions",
-  "url": "https://www.opensanctions.org/",
-  "description": "<p>Site owner Team coordinated by Friedrich Lindenberg, funded initally by the German government.<br>An international database of persons and companies of political, criminal, or economic interest. Combines the sanctions lists, databases of politically exposed persons, and other information about persons in the public interest into a single, dataset.<br>Free for non-commercial users.</p>",
-  "details": "Sanctions, Global",
   "tags": [
     "sanctions",
-    "companies-and-finance",
     "global"
   ]
 }
