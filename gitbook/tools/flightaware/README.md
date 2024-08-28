@@ -207,8 +207,6 @@ What’s required: Users can find the hex code on FlightAware if they have regis
 NOTE: This website responds to [take-down requests](https://gijn.org/resource/planespotting-an-updated-guide-to-tracking-aircraft-around-the-world/) for specific aircraft for privacy reasons. But if available, registration info, hex code, and tail number can be obtained with a paid tier subscription. (Users may need to look at other flight tracking websites such as Radarbox to get some of this information)
 {% endhint %}
 
-
-
 <details>
 
 <summary>SERIAL NUMBER/ MANUFACTURER SERIAL NUMBER (MSN)</summary>
@@ -218,6 +216,15 @@ NOTE: This website responds to [take-down requests](https://gijn.org/resource/pl
 **When to use serial numbers for open-source investigations:**[ OCCRP](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) states that “If you’re trying to track a plane over multiple years and ownership changes, you’ll need to know the manufacturer’s serial number.” Because an aircraft’s serial numbers don’t change, you can follow its journey.[ This makes it helpful in tracking a plane over time between owners, registrations, and nations.](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons)
 
 </details>
+
+**Where can you find the MSN/Serial Number on FlightAware?**
+
+This tool uses the term "Serial Number" instead of MSN. The serial number can be found on the registration page of the aircraft. Navigate to the page as shown above (See section for registration/tail number). Find the right column under “Aircraft Summary.” The serial number is found on the fourth line.
+
+<figure><img src=".gitbook/assets/Screenshot 2024-08-28 133917-marked.png" alt=""><figcaption><p>Locating the serial number on FlightAware is the same as finding the registration and hex code. The details are in the left column under "Aircraft Summary." Note again that some aircraft may require a paid subscription to the tool to get this information. </p></figcaption></figure>
+
+\
+
 
 ## Cost
 
