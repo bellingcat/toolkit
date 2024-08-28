@@ -195,6 +195,18 @@ The registration number can be found on the flight summary page, if available. A
 
 </details>
 
+**Where can you find the hex code on FlightAware?**
+
+On FlightAware, the hex code is referred to as **“Mode S Code”**
+
+What’s required: Users can find the hex code on FlightAware if they have registration information or tail number available. Search for an aircraft of interest and click on the Registration link as shown above. On the registration page, find the “Mode S Code” at the bottom of the left column.&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2024-08-28 114806-marked.png" alt=""><figcaption><p>This is a sample registration page for a United Airlines flight. The purple box emphasizes the hex code for this tool. </p></figcaption></figure>
+
+{% hint style="warning" %}
+NOTE: This website responds to [take-down requests](https://gijn.org/resource/planespotting-an-updated-guide-to-tracking-aircraft-around-the-world/) for specific aircraft for privacy reasons. But if available, registration info, hex code, and tail number can be obtained with a paid tier subscription. (Users may need to look at other flight tracking websites such as Radarbox to get some of this information)
+{% endhint %}
+
 ## Cost
 
 * [ ] Free
