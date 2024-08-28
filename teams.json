@@ -1342,5 +1342,13 @@
     "members": 0,
     "spaces": 0,
     "createdAt": "2024-08-28T16:46:52.258Z"
+  },
+  {
+    "object": "team",
+    "id": "wH4IymVBWsHfNTOYK7rO",
+    "title": "Geolocation Estimation",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2024-08-28T17:55:14.573Z"
   }
 ]
