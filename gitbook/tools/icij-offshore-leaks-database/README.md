@@ -1,5 +1,8 @@
 ---
-description: Find out who’s behind more than 810k offshore companies, foundations and trusts from the Panama Papers, the Offshore Leaks, the Bahamas Leaks and the Paradise Papers investigations.
+description: >-
+  Find out who’s behind more than 810k offshore companies, foundations, and
+  trusts from the Offshore Leaks,  Panama Papers,  Bahamas Leaks,  Paradise
+  Papers, and  Pandora Papers investigations.
 ---
 
 # ICIJ Offshore Leaks Database
@@ -10,7 +13,61 @@ http://offshoreleaks.icij.org/
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+The database is a repository of five major leaks that became hard-hitting investigations over a decade. &#x20;
+
+There are various ways to explore the database:
+
+
+
+## Conducting searches in the whole dataset
+
+1. Users can do searches in the whole database. Write the entity name, its jurisdiction or location in the search bar. For instance, “Mossack Fonseca.”
+
+<figure><img src=".gitbook/assets/ICIJ step 1.png" alt="" width="563"><figcaption></figcaption></figure>
+
+2. Results can be abundant. On the left, you can filter results by “offshore entities,” “officers,” “intermediaries,” and “addresses.”&#x20;
+
+<figure><img src=".gitbook/assets/ICIJ step 2.png" alt="" width="563"><figcaption></figcaption></figure>
+
+3. After filtering, select the required result. Hover over the interactive map that shows connection between entity, intermediary, etc.
+
+<figure><img src=".gitbook/assets/ICIJ step w.png" alt="" width="563"><figcaption></figcaption></figure>
+
+ICIJ also provides a detailed section on “[How to use the Offshore Leaks Database.](https://offshoreleaks.icij.org/pages/howtouse)”
+
+## Search each database separately
+
+ICIJ Offshore Leaks allows users to explore each of five datasets separately. This is useful when users know a specific entity they want to explore and have knowledge of the database. After selecting a dataset of your choice, you can filter the entities and also explore its sources. Links to stories/investigations are also provided under each dataset window.&#x20;
+
+
+
+## “The Power Players”
+
+The tool enables users to search for notable names linked to "offshore connections of world leaders, politicians, and their relatives and associates" from three major investigations: Pandora Papers, Paradise Papers, and Panama Papers. Users can explore key figures from all three investigations combined or each one individually.
+
+Downloading the dataset\
+
+
+
+All five investigation can be downloaded as zip files. The zip files include:
+
+1. Offshore Leaks (2013)
+2. Panama Papers (2016)
+3. Bahamas Leaks (2016)
+4. Paradise Papers (2017)
+5. Pandora Papers (2021)
+
+For user convenience, the data is converted to multiple CSV files, providing the freedom to explore the dataset on the user's terms. Data is also available as "Neo4j" exported databases, allowing visualization of connections in the dataset. ICIJ provides a GitHub repository guide for importing the data into the Neo4j tool. More details [here](https://offshoreleaks.icij.org/pages/database).
+
+\
+Reconciliation API
+------------------
+
+This is the coolest and yet the technical part requiring some API expertise. Reconcilation API allows users interested in matching entities against the ICIJ database or comparing disparate data sources. ICIJ webpage on this provides a detailed guide on how to use this [feature.](https://offshoreleaks.icij.org/docs/reconciliation) Moreover, it merges "duplicate or related entities," providing conistency in the datasets.
+
+
+
+
 
 ## Cost
 
@@ -18,31 +75,45 @@ http://offshoreleaks.icij.org/
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+The dataset is free to explore.
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+The visualization of downloaded datasets requires familiarity with Neo4j software. The same applies to the use of the Reconciliation API.
+
+When using the dataset, credit ICIJ as the datasource.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+Not all names behind  entities can appear in the dataset. "information about ownership is often buried in emails, power-of-attorney letters and internal notes and cannot easily be extracted in a systematic manner," says ICIJ
+
+The data does not include personal information such as bank accounts, email exchanges, or financial transactions. Researchers seeking this information may need to use other OSINT tools or data sources.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Entities in the database are not necessarily involved in any wrongdoing. ICIJ states in its FAQ section: "There are legitimate uses for offshore companies and trusts. We do not intend to suggest or imply that any individuals, companies or other entities included in the ICIJ Offshore Leaks Database have broken the law or otherwise acted improperly." Understanding which entities are involved and the purpose of the research is crucial.
 
 ## Guide
 
-\[\[Link to a guide on this tool]]
+ICIJ offshore leaks provides a three part series on how to use the [database](https://offshoreleaks.icij.org/pages/howtouse).
+
+However, it may be a bit dated since more leaks were added to the database after 2018.
+
+Part 1: [How to search the Offshore Leaks Database by location](https://www.icij.org/inside-icij/2018/01/offshore-leaks-database-tips-location-geogrpahy/)
+
+Part 2:[ How to explore networks and entity metadata in the Offshore Leaks Database](https://www.icij.org/inside-icij/2018/01/how-to-explore-networks-and-entity-metadata-in-the-offshore-leaks-database/)
+
+Part 3: [How to investigate companies found in the Offshore Leaks Database](https://www.icij.org/inside-icij/2018/01/investigate-companies-found-offshore-leaks-database/)
+
+Reconciliation API guide [here](https://offshoreleaks.icij.org/docs/reconciliation).
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+International Consortium of Investigative Journalists (ICIJ). Link to detailed credits[ here](https://offshoreleaks.icij.org/pages/credits).
 
 ## Advertising Trackers
 
@@ -50,8 +121,7 @@ http://offshoreleaks.icij.org/
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer |
+| --------------- |
+| Anisa Shabir    |
+|                 |
