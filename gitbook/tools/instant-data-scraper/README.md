@@ -6,7 +6,7 @@ description: Browser extension for simple web scraping, with table output
 
 ## URL
 
-{% embed url="https://webrobots.io/instantdata/" %}
+[https://webrobots.io/instantdata/](https://webrobots.io/instantdata/)
 
 ## Description
 
