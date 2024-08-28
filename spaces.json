@@ -4023,5 +4023,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "vZq19HMBbbSYwmRScQdV",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "Fp5kDO9s8YtD5EP0uA5N",
+    "title": "Geograph Worldwide",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-08-28T17:24:56.124Z",
+    "updatedAt": "2024-08-28T17:24:56.124Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/Fp5kDO9s8YtD5EP0uA5N",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/Fp5kDO9s8YtD5EP0uA5N/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "aTbqd5y1v09xMFMltz4g",
+    "defaultLevel": "inherit"
   }
 ]
