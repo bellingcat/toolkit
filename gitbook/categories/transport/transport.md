@@ -31,7 +31,6 @@
 | [**SARfish**]() | Github - SAR ship detection, by @MJ\_Cruickshank | <mark style="background-color:green;">Free</mark> | ⛵  |
 | [**ShipSpotting.com**](http://shipspotting.com/) | Community website for uploading pictures & details of vessels spotted around the world. | <mark style="background-color:green;">Free</mark> | ⛵  |
 | [**Tokyo MOU**](http://www.tokyo-mou.org/) | Ship inspection/history database (PSC Database) | <mark style="background-color:green;">Free</mark> | ⛵  |
-| [**Trains**]() | Full interactive maps of various railway networks in European countries. | <mark style="background-color:green;">Free</mark> | 🚂  |
 | [**Transit Visualisation**](https://mobility.portal.geops.io/?baselayers=geops.travic,ch.sbb.netzkarte,ch.sbb.netzkarte.dark\&lang=en\&layers=strassennamen,haltekanten,haltestellen,pois,p%C3%A4rke,geops.travic.live\&x=810000\&y=5900000\&z=5.5) | (public) transit routes visualized - near global | <mark style="background-color:green;">Free</mark> | 🚂  |
 | [**VesselFinder**](http://vesselfinder.com/) | Live marine vessel tracker. | <mark style="background-color:green;">Free</mark> | ⛵  |
 | [**WikiRoutes**](http://wikiroutes.info/) | Public transport database. | <mark style="background-color:green;">Free</mark> | 🚂  |
