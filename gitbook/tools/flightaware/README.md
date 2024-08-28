@@ -173,6 +173,18 @@ The call sign is usually located primarily in two places. If looking at the flig
 
 </details>
 
+**Where can you find the registration number on FlightAware?**
+
+The registration number can be found on the flight summary page, if available. And in the aircraft details section, as shown below. Clicking on the “Registration” link will take you to a separate page with more detailed registration information, registration history, and transfer of ownership.&#x20;
+
+<div data-full-width="true">
+
+<figure><img src=".gitbook/assets/ScreenRecording2024-08-28111801-ezgif.com-overlay.gif" alt=""><figcaption><p>This is an example of an aircraft whose registration information is available under a free account. You can look at the Flight Summary section of the page for the registration number or click the “Registration” link in the bottom right to take you to a page with a more detailed description.</p></figcaption></figure>
+
+</div>
+
+
+
 ## Cost
 
 * [ ] Free
