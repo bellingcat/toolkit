@@ -124,9 +124,16 @@ Second, Investigators, [such as those at OCCRP,](https://www.occrp.org/en/projec
 1. Determining which planes are owned or regularly utilized by individuals of interest
 2. Following their flight histories or pinpointing their current whereabouts
 
-However, [figuring out who really owns a plane is often the harder part because people often hide ownership through shell companies and other methods to keep it secret.](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) But because flight tracking is mostly publicly available, [#2 can be a useful method for filling the information gap: ](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking)
+However, [figuring out who really owns a plane is often the more challenging part because people often hide ownership through shell companies and other methods to keep it secret.](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) But because flight tracking is mostly publicly available, [#2 can be a useful method for filling the information gap: ](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking)
 
 <figure><img src=".gitbook/assets/IMG_0350.PNG" alt="" width="375"><figcaption><p>According to OCCRP, flight tracking can be used to match other leads about a person's movements (obtained either from social media or other sources) with flight-tracking patterns to help researchers connect the dots. This image shows sample steps a researcher can take to match flight data to the movements of persons of interest. </p></figcaption></figure>
+
+### Identifiers and Where to Find Them on FlightAware
+
+When doing flight tracking for investigations, it is essential to know what data to look for and which information can potentially provide leads in an investigation. However, note that not all information may be immediately available on one flight tracking website.&#x20;
+
+\
+
 
 ## Cost
 
