@@ -117,23 +117,32 @@ Here is an example of [geolocation by Nixinte](https://nixintel.info/osint/using
 
 ### Use case
 
-First, flight-tracking websites like FlightAware not only assist in geolocation but also help create flight databases for countries with issues that require continues monitoring. For instance, Bellingcat has created an Open Source Flight Database for [Kazakhstan](https://www.bellingcat.com/resources/2022/01/08/launching-an-open-source-flight-database-for-kazakhstan-in-wake-of-protests/) and [Venezuela](https://www.bellingcat.com/resources/case-studies/2021/03/11/launching-an-open-source-aircraft-database-for-venezuela/).&#x20;
+First, flight-tracking websites like FlightAware not only assist in geolocation but also help create flight databases for countries with issues that require continuous monitoring. For instance, Bellingcat has created an open-source flight database for [Kazakhstan](https://www.bellingcat.com/resources/2022/01/08/launching-an-open-source-flight-database-for-kazakhstan-in-wake-of-protests/) and [Venezuela](https://www.bellingcat.com/resources/case-studies/2021/03/11/launching-an-open-source-aircraft-database-for-venezuela/).&#x20;
 
 Second, Investigators, [such as those at OCCRP,](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) for example, who monitor aircraft, focus on two key tasks:
 
 1. Determining which planes are owned or regularly utilized by individuals of interest
 2. Following their flight histories or pinpointing their current whereabouts
 
-However, [figuring out who really owns a plane is often the more challenging part because people often hide ownership through shell companies and other methods to keep it secret.](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) But because flight tracking is mostly publicly available, [#2 can be a useful method for filling the information gap: ](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking)
+However, [figuring out who really owns a plane is often the more challenging part because people often hide ownership through shell companies and other methods to keep it secret.](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) But because flight tracking is mostly publicly available, [#2 can be a useful method for filling the information gap and can provide clues: ](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking)
 
 <figure><img src=".gitbook/assets/IMG_0350.PNG" alt="" width="375"><figcaption><p>According to OCCRP, flight tracking can be used to match other leads about a person's movements (obtained either from social media or other sources) with flight-tracking patterns to help researchers connect the dots. This image shows sample steps a researcher can take to match flight data to the movements of persons of interest. </p></figcaption></figure>
 
 ### Identifiers and Where to Find Them on FlightAware
 
-When doing flight tracking for investigations, it is essential to know what data to look for and which information can potentially provide leads in an investigation. However, note that not all information may be immediately available on one flight tracking website.&#x20;
+When doing flight tracking for investigations, it is essential to know what data to look for and which information can potentially provide leads in an investigation. However, note that not all information may be immediately available on one flight tracking website. Expand each identifier below to see what it is, why it is important and where to find it in the tool.
 
-\
+<details>
 
+<summary>CALL SIGN</summary>
+
+**Definition:** Call signs are used for communication and identification in air traffic control. [They are unique identifiers of an aircraft](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons). It helps differentiate each aircraft in the skies from one another. According to this [guide](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/), private aircraft often use their registration number as their call sign. In contrast, commercial flights usually have call signs based on their specific routes. [Call signs also often vary with each flight, and occasionally, they may change even while in the air. For instance, an aircraft might have different call signs throughout the day if it completes several trips](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) \
+
+
+**When to use call signs for open-source investigations:** Call signs are helpful when monitoring routes and flight paths and identifying potential deviations or anomalies. It can tell you what the flight path of an aircraft is, its intended destination, and where it passed by. \
+
+
+</details>
 
 ## Cost
 
