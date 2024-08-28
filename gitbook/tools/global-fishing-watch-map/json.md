@@ -7,9 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Global Fishing Watch Map",
-  "description": "The Global Fishing Watch Map is a digital platform for investigating fishing activities worldwide by utilising satellite and AIS data.",
-  "url": "https://globalfishingwatch.org/map",
   "tags": [
     "global-fishing-watch",
     "fishing-activities",

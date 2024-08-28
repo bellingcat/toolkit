@@ -7,11 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "DNS History",
-  "url": "http://completedns.com/",
-  "description": "Collection of historical DNS information.",
-  "cost": "Free",
-  "details": " ",
   "tags": [
     "websites"
   ]

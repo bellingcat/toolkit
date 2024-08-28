@@ -3,7 +3,7 @@
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
 | [**DNS Cyrillic Check**](https://holdintegrity.com/checker) | Check if malicious or Cyrillic domains are registered | <mark style="background-color:green;">Free</mark> |   |
-| [**DNS History**](http://completedns.com/) | Collection of historical DNS information. | <mark style="background-color:green;">Free</mark> |   |
+| [**DNS History**](http://completedns.com/) | Collection of historical DNS information. | <mark style="background-color:green;">Free</mark> |  |
 | [**DomainTools Whois Lookup**](https://whois.domaintools.com/) | DomainTools Whois provides detailed domain name registration information, and can be used to investigate details about domains or IP addresses. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/domaintools-whois-lookup/README.md) |
 | [**Geo IP Tools**](http://geoiptool.com/) | Check your own IP, handy to check if your VPN is working. | <mark style="background-color:green;">Free</mark> |   |
 | [**Intelx.io**](http://intelx.io/) | Find user details in data breaches | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/intelx.io/README.md) |
