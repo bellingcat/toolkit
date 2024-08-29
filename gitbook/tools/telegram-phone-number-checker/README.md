@@ -1,16 +1,35 @@
 ---
-description: A brief one-line description of the tool.
+description: >-
+  Command line tool for checking if phone numbers are connected to Telegram
+  accounts and retrieving related information where available.
 ---
 
 # Telegram Phone Number Checker
 
 ## URL
 
-https://example.com
+[Try it on Google Colab](https://colab.research.google.com/github/bellingcat/open-source-research-notebooks/blob/main/notebooks/bellingcat/telegram-phone-number-checker.ipynb)\
+[Get the code from GitHub](https://github.com/bellingcat/telegram-phone-number-checker)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+The Telegram Phone Number Checker is a Python-based command line tool that takes phone numbers and uses the Telegram API to find information about the number. It does this by trying to add the number as a contact on your Telegram account.
+
+When investigating a phone number of interest, this tool may help a user find more information about the owner of the phone number.\
+\
+If adding the contact is successful, the tool extracts public information that could include the account  username, first name, last name, profile photo, and when they were last online.
+
+<details>
+
+<summary>View the full list of data fields the tool attempts to collect.</summary>
+
+id, username, usernames, first\_name, last\_name, fake, verified, premium, mutual\_contact, bot, bot\_chat\_history, restricted, restriction\_reason, user\_was\_online, phone
+
+The profile\_photo can be optionally requested
+
+</details>
+
+If adding the contact fails, it could be that the person is not on Telegram or has disabled contact adding in their Telegram privacy settings.
 
 ## Cost
 
@@ -18,40 +37,37 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+A Telegram developer account and API key.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+The tool can lead to your Telegram account being blocked, which seems more likely if you use the tool for large numbers of phone numbers or if you use a VPN (that could be associated with spam activity). To mitigate this risk, it is recommended to avoid using your personal account with this tool.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+It is possible to gain access to people's names and images using this tool, and should be used as part of tightly scoped investigations. Users should be careful not to dox people they are investigating when sharing their findings.
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+[YouTube Tutorial](https://www.youtube.com/watch?v=TLJgnlilEBs)
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+[Bellingcat](https://www.bellingcat.com/)
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer |
+| --------------- |
+| Galen Reich     |
+|                 |
