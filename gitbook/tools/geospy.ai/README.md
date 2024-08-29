@@ -10,7 +10,9 @@ description: An AI-based geolocation tool for images.
 
 ## Description
 
-GeoSpy is an online platform that uses neural networks to estimate the geographic location of photographs by analyzing visual features such as vegetation, architectural styles, and contextual clues. Currently, you just need to upload an image file to the website, and no subscription is required for use. As with any AI model, results are not foolproof and should be further corroborated, but the tool can be useful for getting initial clues about an image's location.
+GeoSpy is an online platform that uses neural networks to estimate the geographic location of photographs by analyzing visual features such as vegetation, architectural styles, and contextual clues. Users can upload a photograph, and the tool will provide an estimated location of city, state, and country, a marker on a map of the location, as well as a short block of text explaining its reasoning for choosing that location.
+
+Currently, you just need to upload an image file to the website, and no subscription is required for use. As with any AI model, results are not foolproof and should be further corroborated, but the tool can be useful for getting initial clues about an image's location.
 
 ## Cost
 
