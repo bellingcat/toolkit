@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-https://northdata.com
+[https://northdata.com](https://www.northdata.com/)
 
 ## Description
 
