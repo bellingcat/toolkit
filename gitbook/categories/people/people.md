@@ -17,7 +17,6 @@
 | [**Intelx.io**](http://intelx.io/) | Find user details in data breaches | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/intelx.io/README.md) |
 | [**Maltego**](https://www.maltego.com/) | Maltego is an investigation platform that combines two things at once: (1) It acts as a search tool, and (2) It creates a graph establishing links between data you uncover from your search. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/maltego/README.md) |
 | [**Bellingcat Name Variant Search**](https://bellingcat.github.io/name-variant-search/) | Simple tool to help search for different ways of writing a name. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/name-variant-search/README.md) |
-| [**Namecheck**](http://namechk.com/) | Username and domain check website. Easy to see on which platforms a single username has been used. Many mismatches. | <mark style="background-color:green;">Free</mark> | 🗣️  |
 | [**NigeriaPhonebook**](https://nigeriaphonebook.com/) | Look up by name, state, and phone number. Last names are partially censored for free accounts. | <mark style="background-color:green;">Free</mark> | 📞🗣️ Nigeria |
 | [**Person Lookup**](https://personlookup.co.za/) | find individuals, phonenumbers, and adresses | <mark style="background-color:green;">Free</mark> | 📞🗣️ South Africa |
 | [**Pipl**](http://pipl.com/) | Identity information for professionals | <mark style="background-color:red;">Paid</mark> | 📞🗣️📧  |

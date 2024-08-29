@@ -9,7 +9,7 @@
 | [**Intelx.io**](http://intelx.io/) | Find user details in data breaches | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/intelx.io/README.md) |
 | [**Wayback Machine**](https://web.archive.org/) | The Wayback Machine's Internet Archive lets users view and archive web pages, aiding in historical research and digital preservation. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/internet-archive/README.md) |
 | [**Moz Link Explorer**](http://moz.com/link-explorer) | Analyse the links of any website. | <mark style="background-color:green;">Free</mark> |   |
-| [**Shodan**](http://shodan.io/) | Internet of things search engine. | Partially |   |
+| [**Shodan**](https://shodan.io/) | Internet of things search engine. | <mark style="background-color:orange;">Partially Free</mark> |  |
 | [**SpyOnWeb**](http://spyonweb.com/) | Find out related websites via their tracking code. | <mark style="background-color:green;">Free</mark> |   |
 | [**Vortimo**](https://www.vortimo.com/) | Suite of tools for website, email, WHOIS, etc. analysis | <mark style="background-color:red;">Paid</mark> |   |
 | [**Whatcms.org**](http://whatcms.org/) | What content-management system is this website using? | <mark style="background-color:green;">Free</mark> |   |
