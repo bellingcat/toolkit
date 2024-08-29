@@ -49,6 +49,10 @@ No registration required
 
 [Lumen API documentation](https://github.com/berkmancenter/lumendatabase/wiki/Lumen-API-Documentation)
 
+[How to track Trump Twitter Takedowns on the lumen database](https://www.youtube.com/watch?v=tY5sOxznvEU)\*
+
+\*Certain elements of the user interface may have been altered since publishing
+
 ## Tool provider
 
 [The Berkman Klein Centre for Internet & Society at Harvard University](https://github.com/berkmancenter), US
