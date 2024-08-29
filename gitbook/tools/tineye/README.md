@@ -1,16 +1,16 @@
 ---
-description: A brief one line description of this tool
+description: TinEye is a search engine that allows the user to search using images.
 ---
 
 # TinEye
 
 ## URL
 
-https://example.com
+https://tineye.com
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+TinEye can help a user locate the original source of an image, related images and where else the image may be found ion the internet.
 
 ## Cost
 
@@ -18,7 +18,7 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+TinEye does offer a paid service that allows a subscriber to track where and how their images appear online. The first month is 420 USD and each month after is 310 USD. TinEye also limits searches to 100 per day and 300 per week.
 
 ## Level of difficulty
 
@@ -26,23 +26,23 @@ https://example.com
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+None
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+TinEye works best with images that are as low as 100 pixels in either dimension and works best with images that are at least 300 pixels in either dimension. It also has a limit of 20 MB as the maximum file size. TinEye also recommends avoiding watermarks. TinEye may also be unable to search for images from certain sites such as Instagram.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+None
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+[https://help.tineye.com/](https://help.tineye.com/)
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+N/A
 
 ## Advertising Trackers
 
@@ -50,8 +50,7 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer            |
+| -------------------------- |
+|  Bellingcat volunteer team |
+|                            |
