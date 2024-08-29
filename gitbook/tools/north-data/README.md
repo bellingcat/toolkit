@@ -51,9 +51,9 @@ User registration is required for accessing certian features (see cost section).
 
 ## Ethical Considerations
 
-* Individuals with common names or aliases can be misidentifed without using additional information about the target, leading to false allegations&#x20;
-* Data contains sensitive information such as addresses or  contact information&#x20;
-* Can reveal personal relationships that aren’t widely known&#x20;
+* Individuals with common names or aliases can be misidentified without using additional information about the target, leading to false allegations.
+* Data contains sensitive information such as addresses or contact information.&#x20;
+* Can reveal personal relationships that aren’t widely known.&#x20;
 
 ## Guides and articles
 
