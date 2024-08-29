@@ -20,7 +20,7 @@ North Data is an online platform offering detailed company information sourced f
    * **Corporate Structure**: Details about subsidiaries, parent companies, affiliated entities, shareholders, and ownership structure.
    * **Management and Key Personnel**: Information on directors and key executives, historical data on management changes, and significant personnel events.
    * **Events and Filings**: Covers annual reports, capital changes, mergers and acquisitions, insolvency proceedings, patent registrations, trademark filings, and public funding events.
-2. **Advanced Search and Filtering**: By industry segment, performance indicators, and events.
+2. **Advanced Search and Filtering**: By industry segment, performance indicators, and events. Full attribute list available [here](https://help.northdata.com/en/center/power-search-overview)
 3. **Data Accessibility**: Free basic access, premium services, and API integration.
 4. **Visualization Tools**: Plotting financial information and link analysis.
 
@@ -30,7 +30,7 @@ North Data is an online platform offering detailed company information sourced f
 * [x] Partially Free
 * [ ] Paid
 
-North Data provides a tiered access model for its users, offering both free and paid subscription options.&#x20;
+North Data provides a tiered access model for its users, offering both free and paid subscription options. The site may also grant access to paid features to investigative journalists on request. [See here](https://www.northdata.com/\_journalism)
 
 | Free                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Paid                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -42,7 +42,7 @@ North Data provides a tiered access model for its users, offering both free and 
 
 ## Requirements
 
-User registration is required for accessing certian features (see cost section).
+User registration is required for accessing certain features (see cost section).
 
 ## Limitations
 
@@ -56,6 +56,8 @@ User registration is required for accessing certian features (see cost section).
 * Can reveal personal relationships that aren’t widely known.&#x20;
 
 ## Guides and articles
+
+[Northdata help center and FAQs (contains detailed usage guides)](https://help.northdata.com/en/center)
 
 [API Documentation ](https://github.com/northdata/api/blob/master/doc/data-api-userguide/data-api-userguide.md)
 
