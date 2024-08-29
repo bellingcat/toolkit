@@ -39,14 +39,14 @@ API plans:
 
 ## Requirements
 
-* User account using email address is required
 * API can be accessed after purchasing a plan or contacting their team for trial access. The API uses JSON-RPC 2.0 protocol over HTTPS, and you can interact with it using client libraries available for Python and PHP.
+* Search features on the site itself are free
 
 ## Limitations
 
-Image data for each social networking site is not updated in real-time. Certain user profiles can evade detection by changing their details.&#x20;
-
-The tool relies on other parameters (such as, age and gender) to improve results, using estimates of the values may limit its accuracy&#x20;
+* Image data for each social networking site is not updated in real-time, most datasets end around 2022. Certain user profiles can evade detection by changing their details.&#x20;
+* The tool relies on other parameters (such as, age and gender) to improve results, using estimates of the values may limit its accuracy&#x20;
+* You cannot search multiple databases at once
 
 ## Ethical Considerations
 
