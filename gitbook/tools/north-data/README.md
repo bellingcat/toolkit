@@ -61,7 +61,7 @@ User registration is required for accessing certian features (see cost section).
 
 ## Tool provider
 
-[North Data GmbH](https://pitchbook.com/profiles/company/503379-01)
+[North Data GmbH](https://pitchbook.com/profiles/company/503379-01), CH&#x20;
 
 ## Advertising Trackers
 
