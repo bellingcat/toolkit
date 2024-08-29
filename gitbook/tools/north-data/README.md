@@ -48,6 +48,7 @@ User registration is required for accessing certain features (see cost section).
 
 * Graphs are limited to first degree connections (of an organisation) and relations between them.&#x20;
 * Some financial data or indicators are limited under a free account, are inconsistently updated or unavailable.
+* The data is only limited to 18 countries, the full list of sources with update frequency can be found [here](https://www.northdata.com/\_coverage#sources).&#x20;
 
 ## Ethical Considerations
 
