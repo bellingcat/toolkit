@@ -242,8 +242,13 @@ The link for pricing is here: https://www.flightaware.com/commercial/premium/
 
 The different paid tiers are:&#x20;
 
-\
-
+|                                                                                                       |           |           |           |          |
+| ----------------------------------------------------------------------------------------------------- | --------- | --------- | --------- | -------- |
+| Alert                                                                                                 | unlimited | unlimited | unlimited | 5        |
+| Saved Aircraft                                                                                        | unlimited | unlimited | unlimited | 5        |
+| Past flight activity                                                                                  | 8 months  | 8 months  | 5 months  | 3 months |
+| Aircraft statistics (view of aircraft’s trips, routes by month or year)                               | available | available | -         | -        |
+| \*_Not an exhaustive list of features but lists features that may be useful for open-source research_ |           |           |           |          |
 
 ## Level of difficulty
 
