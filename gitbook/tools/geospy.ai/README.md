@@ -58,7 +58,7 @@ GeoSpy API documentation can be found [here](https://dev.geospy.ai/docs/routes#o
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                 |
-| ------------------------------- |
-| \[\[Bellingcat volunteer team]] |
-|                                 |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
+|                           |
