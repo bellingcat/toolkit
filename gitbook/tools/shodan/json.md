@@ -8,10 +8,6 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "name": "Shodan",
-  "url": "http://shodan.io/",
-  "description": "Internet of things search engine.",
-  "cost": "Partially",
-  "details": " ",
   "tags": [
     "websites"
   ]

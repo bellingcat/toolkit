@@ -8,7 +8,8 @@ description: >-
 
 ## URL
 
-[Try it on Google Colab](https://colab.research.google.com/github/bellingcat/open-source-research-notebooks/blob/main/notebooks/bellingcat/telegram-phone-number-checker.ipynb)\
+[Try it on Google Colab](https://colab.research.google.com/github/bellingcat/open-source-research-notebooks/blob/main/notebooks/bellingcat/telegram-phone-number-checker.ipynb)
+
 [Get the code from GitHub](https://github.com/bellingcat/telegram-phone-number-checker)
 
 ## Description
