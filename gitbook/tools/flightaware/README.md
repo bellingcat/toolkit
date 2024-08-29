@@ -193,7 +193,7 @@ NOTE #2: According to the [too](https://www.flightaware.com/resources/registrati
 
 <details>
 
-<summary><strong>HEX CODE</strong></summary>
+<summary><strong>HEX CODE/ MODE-S CODE/ ICAO CODE</strong></summary>
 
 **Definition:** A hex code is a unique ICAO (International Civil Aviation Organization) six-digit hexadecimal number assigned to [an aircraft's transponder. This code serves as a digital identifier, allowing air traffic control and flight tracking systems to distinguish one aircraft from another (p.4).](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons) [When the plane is registered, it gets a unique code called a hex code. ](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking)This hex code is associated with the plane’s ADS-B (Automatic Dependent Surveillance-Broadcast) [transponder](https://www.airservicesaustralia.com/about-us/projects/ads-b/how-ads-b-works/), which broadcasts unencrypted data about the plane’s position, altitude, and speed.&#x20;
 
