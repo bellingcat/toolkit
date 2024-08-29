@@ -42,12 +42,12 @@ North Data provides a tiered access model for its users, offering both free and 
 
 ## Requirements
 
-User registration is required for accessing certian features (see cost section)&#x20;
+User registration is required for accessing certian features (see cost section).
 
 ## Limitations
 
-* Graphs are limited to first degree connections (of an organisation) and relations between them&#x20;
-* Some financial data or indicators are limited under a free account, are inconsistently updated or unavailable&#x20;
+* Graphs are limited to first degree connections (of an organisation) and relations between them.&#x20;
+* Some financial data or indicators are limited under a free account, are inconsistently updated or unavailable.
 
 ## Ethical Considerations
 
