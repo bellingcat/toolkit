@@ -18,7 +18,7 @@ GeoSpy is an online platform that uses neural networks to estimate the geographi
 * [x] Partially Free
 * [ ] Paid
 
-GeoSpy currently adopts a freemium model. Notably, the developers specify that the free version of the tool is in beta, and GeoSpy Pro is recommended for any professional use cases.
+GeoSpy currently adopts a freemium model. In a footer on the results page of image identification, the developers specify that the free version of the tool is in beta, and GeoSpy Pro is recommended for any professional use cases.
 
 GeoSpy also offers free (and tiered pricing) access to their API [here](https://api.geospy.ai/).
 
