@@ -238,7 +238,12 @@ This tool uses the term "Serial Number" instead of MSN. The serial number can be
 * [x] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+The link for pricing is here: https://www.flightaware.com/commercial/premium/
+
+The different paid tiers are:&#x20;
+
+\
+
 
 ## Level of difficulty
 
