@@ -49,9 +49,11 @@ No registration required
 
 [Lumen API documentation](https://github.com/berkmancenter/lumendatabase/wiki/Lumen-API-Documentation)
 
-[How to track Trump Twitter Takedowns on the lumen database](https://www.youtube.com/watch?v=tY5sOxznvEU)\*
+Steve Vondran: [How to track Trump Twitter Takedowns on the lumen database](https://www.youtube.com/watch?v=tY5sOxznvEU)\*, Youtube.
 
 \*Certain elements of the user interface may have been altered since publishing
+
+Dan Morrill: [DMCA notice BPI Part 2 Empty Claims](https://www.youtube.com/watch?v=C6N8y0i7440), Youtube.
 
 ## Tool provider
 
