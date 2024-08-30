@@ -1,16 +1,22 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  A username and domain search tool that checks which platforms or domain a
+  given username is registered on.
 ---
 
 # Namechk
 
 ## URL
 
-https://example.com
+https://namechk.com
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Namechk is a search tool that searches social media platforms and domains for usernames or website names. Entering a query returns results from more than a hundred domains and social media platforms, indicating whether or not the username has been registered on that platform / with that domain.
+
+Namechk's functions as a great OSINT tool for tracking individuals (particularly those with unique usernames) across platforms, as well as for understanding the spread of an entity's domain registrations.&#x20;
+
+The tool also provides username generators and reviews and details about domain and web hosting.
 
 ## Cost
 
@@ -18,31 +24,37 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+None.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+* One username may be used across several platforms by different people; results from Namechk should be treated as clues rather than definitive.
+* Common usernames may flag on many/all platforms and fail to provide any useful clues.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Namechk's [Privacy Policy](https://namechk.com/privacy-policy/) states that it uses cookies, and collects any provided personal information (such as that collected during registrations or purchases) to personalise user experiences, improve the website, improve customer service, and process transactions. Additionally, information is sometimes shared with "trusted third parties."&#x20;
+
+It also states that it "implements a variety of security measures to maintain the safety of your personal information," but fails to elaborate on how.
+
+The tool's Terms of Use can be found [here](https://namechk.com/terms-of-use/).
+
+Caution should be taken if providing any personal information.
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+* Namechk's [_How to Run A Domain Name Check_](https://namechk.com/domain-name-check/) guide details how to use the domain searching function. _(Note that this is primarily geared toward users ostensibly looking to register a new business or entity's domain name.)_
+* A 2018 Medium [article ](https://medium.com/@jakecreps/how-to-use-namechk-for-osint-investigations-8d9d04c77dbf)by Jake Creps details how to use Namechk in the course of OSINT investigations. _(Note that some details may be out of date as the tool's interface has changed slightly since the article was written.)_
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+No detail provided beyond Namechk.com
 
 ## Advertising Trackers
 
@@ -50,8 +62,7 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
+|                           |
