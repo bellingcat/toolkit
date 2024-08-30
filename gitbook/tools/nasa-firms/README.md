@@ -4,11 +4,11 @@ description: >-
   some, but not all of which may represent heat from fires and explosions.
 ---
 
-# NASA Firms
+# NASA FIRMS
 
 ## URL
 
-[https://firms2.modaps.eosdis.nasa.gov/map/](https://firms2.modaps.eosdis.nasa.gov/map/)
+[**https://firms2.modaps.eosdis.nasa.gov/map/**](https://firms2.modaps.eosdis.nasa.gov/map/)
 
 <figure><img src=".gitbook/assets/FireMapsat.gif" alt=""><figcaption><p><strong>VIEWING DIFFERENT SATELLITES' DATA AND ADJUSTING THE TIME PERIOD DISPLAYED USING THE FIRMS INTERFACE</strong><br><em>We acknowledge the use of data and/or imagery from NASA's Fire Information for Resource Management System (FIRMS) (https://earthdata.nasa.gov/firms), part of NASA's Earth Science Data and Information System (ESDIS).</em></p></figcaption></figure>
 
