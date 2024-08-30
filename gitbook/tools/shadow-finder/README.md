@@ -6,7 +6,7 @@ description: A brief one-line description of the tool.
 
 ## URL
 
-https://example.com
+**https://example.com**
 
 ## Description
 
