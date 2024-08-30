@@ -6,7 +6,7 @@ description: A search engine for online content takedown requests
 
 ## URL
 
-https://lumendatabase.org
+[https://lumendatabase.org](https://lumendatabase.org/)
 
 ## Description
 
