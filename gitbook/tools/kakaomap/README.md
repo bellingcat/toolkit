@@ -6,7 +6,7 @@ description: Mapping service for South Korea
 
 ## URL
 
-[https://map.kakao.com](https://map.kakao.com)
+[**https://map.kakao.com**](https://map.kakao.com)
 
 ## Description
 
@@ -14,15 +14,13 @@ description: Mapping service for South Korea
 
 A mapping tool in Korean focusing on the region.
 
-Includes traffic information, weather,  pollutants, places of interest and the facility to export data.
+Includes traffic information, weather, pollutants, places of interest and the facility to export data.
 
 ## Cost
 
 * [x] Free
 * [ ] Partially Free
 * [ ] Paid
-
-
 
 ## Level of difficulty
 
@@ -34,7 +32,7 @@ Korean Language skills or run a translator extension whilst using the tool (only
 
 ## Limitations
 
-Korean language requirement.&#x20;
+Korean language requirement.
 
 ## Ethical Considerations
 
