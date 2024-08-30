@@ -28,6 +28,8 @@ description: >-
 * [x] Partially Free
 * [ ] Paid
 
+Search features on the site itself are free.
+
 API plans:
 
 * **Basic Plan**: 5,000 API calls for $40, valid for 30 days, with a rate limit of 10 calls per minute and up to 2 concurrent connections.
@@ -40,18 +42,18 @@ API plans:
 ## Requirements
 
 * API can be accessed after purchasing a plan or contacting their team for trial access. The API uses JSON-RPC 2.0 protocol over HTTPS, and you can interact with it using client libraries available for Python and PHP.
-* Search features on the site itself are free
+* No requirements for using the search features on the site itself.
 
 ## Limitations
 
 * Image data for each social networking site is not updated in real-time, most datasets end around 2022. Certain user profiles can evade detection by changing their details.&#x20;
-* The tool relies on other parameters (such as, age and gender) to improve results, using estimates of the values may limit its accuracy&#x20;
-* You cannot search multiple databases at once
+* The tool relies on other parameters (such as, age and gender) to improve results, using estimates of the values may limit its accuracy.
+* You cannot search multiple databases at once.
 
 ## Ethical Considerations
 
-* Persons with similar faces can be misidentified without accounting for other contextual information
-* Results can leak personally identifiable information such as general location, home address or the same of associated persons
+* Persons with similar faces can be misidentified without accounting for other contextual information.
+* Results can leak personally identifiable information such as general location, home address or the same of associated persons.
 
 Josephine Lulamae, Algorith Watch: [War Crimes OSINT, Harassment, Doxxing Police and Protesters: Face Recognition for Everyone.](https://algorithmwatch.org/en/face-recognition-for-everyone/)
 
