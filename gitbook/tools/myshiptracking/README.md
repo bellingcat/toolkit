@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-[https://www.myshiptracking.com/](https://www.myshiptracking.com/)
+[**https://www.myshiptracking.com/**](https://www.myshiptracking.com/)
 
 ## Description
 
