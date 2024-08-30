@@ -334,6 +334,10 @@ OSINT: Tracking Ships, Planes and Weapons
 
 **Photos:** [Planespotters.net](https://www.planespotters.net/), [Jetphotos.com](https://www.jetphotos.com/)
 
+**Social media:**&#x20;
+
+**Twitter hashtags:** [#aviation](https://twitter.com/hashtag/aviation?src=hashtag\_click), [#avgeek](https://twitter.com/hashtag/avgeek?src=hashtag\_click), [#planespotting](https://twitter.com/hashtag/planespotting?src=hashtag\_click), [#flight](https://twitter.com/hashtag/flight?src=hashtag\_click), and [#MilAvGeek](https://twitter.com/hashtag/MilAvGeek?src=hashtag\_click).
+
 ## Tool provider
 
 Collins Aerospace, USA&#x20;
