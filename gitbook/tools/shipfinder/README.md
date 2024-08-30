@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-[https://shipfinder.co/](https://shipfinder.co/)
+[**https://shipfinder.co/**](https://shipfinder.co/)
 
 ## Description
 
@@ -30,10 +30,6 @@ The app is available on both mobile and desktop platforms, ensuring users can mo
 **Performance**
 
 The app's performance has minimal lag even when tracking multiple vessels simultaneously. The real-time updates are prompt, ensuring users have the most current information available.
-
-
-
-
 
 ## Cost
 
