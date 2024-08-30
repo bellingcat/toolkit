@@ -24,7 +24,7 @@ The Lumen database, hosted by the Berkman Klein Center for Internet & Society at
 * [ ] Partially Free
 * [ ] Paid
 
-Lumen is a Free and Open Source project.
+Lumen is a free and open source project.
 
 ## Level of difficulty
 
