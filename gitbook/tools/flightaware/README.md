@@ -128,7 +128,9 @@ Second, Investigators, [such as those at OCCRP,](https://www.occrp.org/en/projec
 1. Determining which planes are owned or regularly utilized by individuals of interest
 2. Following their flight histories or pinpointing their current whereabouts
 
-However, [figuring out who really owns a plane is often the more challenging part because people often hide ownership through shell companies and other methods to keep it secret.](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) But because flight tracking is mostly publicly available, [#2 can be a useful method for filling the information gap and can provide clues: ](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking)
+However, [figuring out who really owns a plane is often the more challenging part because people often hide ownership through shell companies and other methods to keep it secret.](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) But because flight tracking is mostly publicly available, [#2 can be a useful method for filling the information gap and can provide clues](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking).&#x20;
+
+See this website: [https://dictatoralert.org/](https://dictatoralert.org/). It is a project that monitors the flight paths of authoritarian regimes' aircraft and alerts people on Twitter when these planes land in major European cities.
 
 <figure><img src=".gitbook/assets/IMG_0350.PNG" alt="" width="375"><figcaption><p>According to OCCRP, flight tracking can be used to match other leads about a person's movements (obtained either from social media or other sources) with flight-tracking patterns to help researchers connect the dots. This image shows sample steps a researcher can take to match flight data to the movements of persons of interest. </p></figcaption></figure>
 
@@ -289,9 +291,20 @@ The different paid tiers are:&#x20;
 
 ## Ethical Considerations
 
+**Privacy vs. Transparency:**&#x20;
 
+The ethical dilemma here revolves around the conflict between public transparency and individual privacy. Make careful determinations about how to publish research that involves tracking patterns of individuals. This [case](https://amp.cnn.com/cnn/2024/02/06/tech/taylor-swift-private-jet-tracker/index.html), for example, highlights the tension between the right to information and the potential consequences of exposing individuals to danger.&#x20;
 
-\[\[The ethical considerations of each tool should be described.]]
+**Context matters:**&#x20;
+
+Consider the purpose behind using flight tracking data when publishing
+
+**Respect Copyright:**&#x20;
+
+Flight tracking websites often have terms of service regarding data usage. Ensure you're using the information ethically and within the website's guidelines (FlightAware [Terms and Conditions](https://www.flightaware.com/about/termsofuse/))
+
+\
+
 
 ## Guides and articles
 
