@@ -9,7 +9,7 @@ description: >-
 
 ## URL
 
-[https://shademap.app](https://shademap.app)
+[**https://shademap.app**](https://shademap.app)
 
 ## Description
 
@@ -168,7 +168,7 @@ The Project menu is launched from the 3 line icon in the Search bar.
 {% tab title="PROJECT" %}
 <figure><img src=".gitbook/assets/ShadeMapLeft Side Menu.JPG" alt="" width="223"><figcaption></figcaption></figure>
 
-#### Trail Shade Feature
+**Trail Shade Feature**
 
 <figure><img src=".gitbook/assets/ShadeMapTrailShade.JPG" alt=""><figcaption><p><strong>SHADEMAP'S TRAIL SHADE FEATURE MAPS SHADE ALONG A TRAIL OVER TIME</strong></p></figcaption></figure>
 
@@ -176,7 +176,7 @@ A specialist application of ShadeMap technology focusing on the shade profile of
 
 Possible Open Source Research applications include confirmation of geolocation of video source imagery taken by a moving camera.
 
-#### GPX Replay Feature
+**GPX Replay Feature**
 
 GPX Replay plays progress along a user defined trail on a map whilst the changing shadow pattern is constantly redrawn throughout the trip.
 
