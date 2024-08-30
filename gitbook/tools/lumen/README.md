@@ -32,12 +32,11 @@ Lumen is a Free and Open Source project.
 
 ## Requirements
 
-No registration required
+No registration required. An email address is required to gain full access to the records' contents.
 
 ## Limitations
 
-* No bulk export feature for records available on the website (API is required)
-* Email address is required to gain full access to the records' contents
+* No bulk export feature for records available on the website (API is required).
 * The site is not optimized for mobile or tablet devices.
 
 ## Ethical Considerations
