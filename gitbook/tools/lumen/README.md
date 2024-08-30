@@ -1,5 +1,5 @@
 ---
-description: A search engine for online content takedown requests
+description: A search engine for online content takedown requests.
 ---
 
 # Lumen
