@@ -8,7 +8,6 @@
 | [**Geo IP Tools**](http://geoiptool.com/) | Check your own IP, handy to check if your VPN is working. | <mark style="background-color:green;">Free</mark> |   |
 | [**Intelx.io**](http://intelx.io/) | Find user details in data breaches | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/intelx.io/README.md) |
 | [**Wayback Machine**](https://web.archive.org/) | The Wayback Machine's Internet Archive lets users view and archive web pages, aiding in historical research and digital preservation. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/internet-archive/README.md) |
-| [**Lumen**](https://example.com) | A brief one-line description of the tool. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/lumen/README.md) |
 | [**Moz Link Explorer**](http://moz.com/link-explorer) | Analyse the links of any website. | <mark style="background-color:green;">Free</mark> |   |
 | [**Shodan**](https://shodan.io/) | Internet of things search engine. | <mark style="background-color:orange;">Partially Free</mark> |  |
 | [**SpyOnWeb**](http://spyonweb.com/) | Find out related websites via their tracking code. | <mark style="background-color:green;">Free</mark> |   |
