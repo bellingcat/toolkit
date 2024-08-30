@@ -30,7 +30,7 @@ GeoSpy also offers free (and tiered pricing) access to their API [here](https://
 
 ## Requirements
 
-None.&#x20;
+None for the community edition.
 
 API use: billing information needs to be provided even for the free version.
 
