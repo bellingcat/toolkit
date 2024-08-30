@@ -6,7 +6,7 @@ description: Live marine vessel tracker.
 
 ## URL
 
-http://vesselfinder.com/
+**http://vesselfinder.com/**
 
 ## Description
 
