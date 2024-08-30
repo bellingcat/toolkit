@@ -41,8 +41,8 @@ No registration required. An email address is required to gain full access to th
 
 ## Ethical Considerations
 
-* Records may contain personal information
-* Records may be relevant to ongoing legal proceedings, sharing them more publicly may affect such proceedings
+* Records may contain personal information.
+* Records may be relevant to ongoing legal proceedings.
 
 ## Guides and articles
 
