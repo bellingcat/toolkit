@@ -246,7 +246,7 @@ The different paid tiers are:&#x20;
 
 |                                                                                                       |           |           |           |          |
 | ----------------------------------------------------------------------------------------------------- | --------- | --------- | --------- | -------- |
-| Alert                                                                                                 | unlimited | unlimited | unlimited | 5        |
+| Alerts                                                                                                | unlimited | unlimited | unlimited | 5        |
 | Saved Aircraft                                                                                        | unlimited | unlimited | unlimited | 5        |
 | Past flight activity                                                                                  | 8 months  | 8 months  | 5 months  | 3 months |
 | Aircraft statistics (view of aircraft’s trips, routes by month or year)                               | available | available | -         | -        |
@@ -265,9 +265,31 @@ The different paid tiers are:&#x20;
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+#### Filtering and Categorization
+
+* **Limited Filtering:** FlightAware does not allow for filtering flights based on specific categories on the live map, making it difficult to focus on particular aircraft or routes.
+* **Insufficient Categories:** The available flight categories are limited, especially regarding military aircraft, which can hinder investigations into military aviation activities. Although, in theory, one can find a military aircraft on the live map and through the search bar, or by knowing ahead of time which call signs may be related to military or government aircraft. However, if this is a consideration for researchers, websites like[ flightradar24.com](https://www.flightradar24.com/blog/an-all-new-way-to-filter-flights-on-flightradar24-com/) may be able to help users filter for [12 flight categories](https://www.flightradar24.com/blog/an-all-new-way-to-filter-flights-on-flightradar24-com/).&#x20;
+
+#### Visual Representation
+
+* **Visual crowding:** The density of flight icons on the live map can sometimes hinder the ability to easily identify and track specific aircraft. The live map may experience visual crowding due to the number of flight icons, potentially making it difficult to focus on individual aircraft.&#x20;
+* **Unrepresentative Icons:** The icons used on the live map may not precisely reflect the actual aircraft types, leading to potential delays in accessing or retrieving data you are interested in. In contrast to websites like flightradar24, different icons show different aircraft types at first glance. Navigating through this amount of information may be an issue for some researchers.
+* **Photo Matching** - If photos are used for verification, matching can be a slightly longer process on FlightAware. Aircraft photos refer to similar aircraft types (Boeing 777 or Airbus A380, etc) instead of the exact airplane in the air that the user is currently tracking. To find the right aircraft in the gallery, users need to know the tail number from a different source and put it in the search bar. It may save researchers time by going to flightradar24 or ADS-B Exchange and other sites to do a photo match since the photo on its flight page corresponds to the actual aircraft of interest instead of a type.
+
+#### Data Limitations
+
+* **Limited Historical Data:** As mentioned above, the “Basic” FlightAware subscription provides access to a limited amount of historical flight data, which can be insufficient for in-depth analysis or investigations requiring long time frames.&#x20;
+* **No Playback Option:** The live map does not offer a playback option, preventing users from reviewing past flight activity. Playback options can be helpful when researchers only have vague leads about a flight (for example, I know there was a flight 7 days ago in Rio de Janeiro Santos Dumont airport”. It is often helpful to monitor that airport and do playback for flights coming within a specific time frame.)
+* **Data Blocks:** Due to screen real estate limitations and the vast amount of flight data, not all information can be displayed on the live map, leading to data blocks or omissions. The search bar is the way to find flight information on FlightAware.
+
+#### Privacy and Data Restrictions
+
+* **Take-Down Requests:** As mentioned above, FlightAware may comply with take-down requests from aircraft owners seeking to protect their privacy, resulting in the removal of flight data. Hence, not all registration information is available. Flightradar24 and [ ADS-B Exchange have a more open approach ](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)and will contain more registration information than FlightAware.
+* **Limited Registration Data:** As mentioned above, under Identifiers and Registration numbers, FlightAware primarily displays US registration numbers for aircraft, limiting its ability to track international flights or planes with non-US registrations.
 
 ## Ethical Considerations
+
+
 
 \[\[The ethical considerations of each tool should be described.]]
 
