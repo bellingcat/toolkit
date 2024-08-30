@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-Read details here: [https://github.com/david-r-edgar/MapSwitcher](https://github.com/david-r-edgar/MapSwitcher)
+Read details here: [**https://github.com/david-r-edgar/MapSwitcher**](https://github.com/david-r-edgar/MapSwitcher)
 
 or download the extension from the [Chrome Store here](https://chrome.google.com/webstore/detail/map-switcher/fanpjcbgdinjeknjikpfnldfpnnpkelb)
 
