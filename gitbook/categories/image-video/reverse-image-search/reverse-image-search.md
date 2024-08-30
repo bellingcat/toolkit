@@ -2,6 +2,7 @@
 
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
+| [**Geospy.ai**](https://geospy.ai/) | Image geolocation platform. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../../tools/geospy.ai/README.md) |
 | [**Google Lens Desktop**](https://lens.google.com/search?p=) | Google Lens but in your browser - it's better than Google Image reverse search. h/t @Henkvaness | <mark style="background-color:green;">Free</mark> |  |
 | [**InVID Verification Plugin**](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/) | Verification plugin to help journalists verify images and videos. | <mark style="background-color:green;">Free</mark> | [Details](../../../tools/invid/README.md) |
 | [**PimEyes**](https://pimeyes.com/en) | Face Search Engine & Reverse Image Search. | <mark style="background-color:orange;">Partially Free</mark> |  |
