@@ -20,7 +20,7 @@ North Data is an online platform offering detailed company information sourced f
    * **Corporate Structure**: Details about subsidiaries, parent companies, affiliated entities, shareholders, and ownership structure.
    * **Management and Key Personnel**: Information on directors and key executives, historical data on management changes, and significant personnel events.
    * **Events and Filings**: Covers annual reports, capital changes, mergers and acquisitions, insolvency proceedings, patent registrations, trademark filings, and public funding events.
-2. **Advanced Search and Filtering**: By industry segment, performance indicators, and events. Full attribute list available [here](https://help.northdata.com/en/center/power-search-overview)
+2. **Advanced Search and Filtering**: By industry segment, performance indicators, and events. Full attribute list available [here](https://help.northdata.com/en/center/power-search-overview).
 3. **Data Accessibility**: Free basic access, premium services, and API integration.
 4. **Visualization Tools**: Plotting financial information and link analysis.
 
