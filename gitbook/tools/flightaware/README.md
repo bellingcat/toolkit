@@ -308,16 +308,40 @@ Flight tracking websites often have terms of service regarding data usage. Ensur
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+**Bellingcat Guide:**&#x20;
+
+Fiorella, Giancarlo, (2019, October 15). A beginner's guide to flight tracking. Bellingcat.[ https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)
+
+**GIJN Guide:**
+
+Global Investigative Journalism Network. (n.d.). Planespotting: An updated guide to tracking aircraft around the world.[ https://gijn.org/resource/planespotting-an-updated-guide-to-tracking-aircraft-around-the-world/](https://gijn.org/resource/planespotting-an-updated-guide-to-tracking-aircraft-around-the-world/)
+
+Global Investigative Journalism Conference 2023, (2023, October 7). Video on Plane and Ship Tracking, [https://youtu.be/zPU\_FLVBi6E](https://youtu.be/zPU\_FLVBi6E) &#x20;
+
+**OCCRP Guide:**&#x20;
+
+Organized Crime and Corruption Reporting Project. "FAQ: What Is Plane Tracking?" Russian Asset Tracker. Accessed August 30, 2024.[ https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking#](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking).
+
+**Al Jazeera Guide:**&#x20;
+
+OSINT: Tracking Ships, Planes and Weapons
+
+[https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons)
+
+**Full list of country identifiers here:** [https://en.wikipedia.org/wiki/List\_of\_aircraft\_registration\_prefixes](https://en.wikipedia.org/wiki/List\_of\_aircraft\_registration\_prefixes)
+
+**Some lists of public registries:**  [AeroTransport,](https://aerotransport.org/) [CH Aviation](https://www.ch-aviation.com/), [Airframes](http://www.airframes.org/), [RZJets](https://rzjets.net/aircraft/) and [spotters](http://spotters.net.ua/), [PlaneLogger](https://www.planelogger.com/)
+
+**Photos:** [Planespotters.net](https://www.planespotters.net/), [Jetphotos.com](https://www.jetphotos.com/)
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Collins Aerospace, USA&#x20;
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer |
