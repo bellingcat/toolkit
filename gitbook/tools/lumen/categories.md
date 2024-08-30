@@ -36,4 +36,4 @@
 * [ ] [Environment & Wildlife](https://bellingcat.gitbook.io/toolkit/categories/environment-and-wildlife)
 * [ ] [People](https://bellingcat.gitbook.io/toolkit/categories/people)
 * [ ] [Transport](https://bellingcat.gitbook.io/toolkit/categories/transport)
-* [x] [Websites](https://bellingcat.gitbook.io/toolkit/categories/websites)
+* [ ] [Websites](https://bellingcat.gitbook.io/toolkit/categories/websites)
