@@ -9,7 +9,7 @@ description: >-
 
 ## URL
 
-https://www.suncalc.org
+**https://www.suncalc.org**
 
 ## Description
 
