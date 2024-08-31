@@ -62,8 +62,6 @@ _**Search by aircraft: Hover or click on any aircraft**_
 
 In addition, users can flip through the different tabs for weather information, maps and diagrams.
 
-
-
 **Filter Live Map Flights:** On the live map, users can also filter all worldwide flights according to _**Altitude, Speed, Flight Type, and Aircraft Type**_ by clicking on the icon to the right, underneath the layers map. \
 
 
@@ -75,7 +73,6 @@ FlightAware will display a list of matching flight/s. The information available 
 
 <figure><img src=".gitbook/assets/Results FlightAware.png" alt=""><figcaption><p>Here is a sample flight on our search results. Clicking on this particular flight will give users as much information as possible. If any detail is missing, it will indicate whether users must subscribe to get that info.  </p></figcaption></figure>
 
-\
 
 
 | Flight Details                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Aircraft Details                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -89,7 +86,7 @@ FlightAware also has a photo gallery available based on aircraft type.  There ar
 
 **Community Page**&#x20;
 
-First, click on the URL, hover over the “Community” link on the top right, and then click on the Photos section. Browse through the gallery or filter according to Aircraft, Airport, Airline, and Date. More importantly, if you have a tail number or registration number available, you can input this on the Search bar at the bottom right to see if there is a match.&#x20;
+First, click on the URL, hover over the “Community” link on the top right, and then click on the Photos section. Browse through the gallery or filter by **aircraft, airport, airline, and date**. More importantly, if you have a tail number or registration number available, you can input this on the Search bar at the bottom right to see if there is a match.&#x20;
 
 **Aircraft Details Page**
 
