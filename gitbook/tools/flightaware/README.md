@@ -232,9 +232,6 @@ This tool uses the term "Serial Number" instead of MSN. The serial number can be
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-28 133917-marked.png" alt=""><figcaption><p>Locating the serial number on FlightAware is the same as finding the registration and hex code. The details are in the left column under "Aircraft Summary." Note again that some aircraft may require a paid subscription to the tool to get this information. </p></figcaption></figure>
 
-\
-
-
 ## Cost
 
 * [ ] Free
@@ -245,9 +242,8 @@ The link for pricing is here: https://www.flightaware.com/commercial/premium/
 
 The different paid tiers are:&#x20;
 
-|                                                                                                       |           |           |           |          |
-| ----------------------------------------------------------------------------------------------------- | --------- | --------- | --------- | -------- |
 | Alerts                                                                                                | unlimited | unlimited | unlimited | 5        |
+| ----------------------------------------------------------------------------------------------------- | --------- | --------- | --------- | -------- |
 | Saved Aircraft                                                                                        | unlimited | unlimited | unlimited | 5        |
 | Past flight activity                                                                                  | 8 months  | 8 months  | 5 months  | 3 months |
 | Aircraft statistics (view of aircraft’s trips, routes by month or year)                               | available | available | -         | -        |
@@ -301,9 +297,6 @@ Consider the purpose behind using flight tracking data when publishing
 **Respect Copyright:**&#x20;
 
 Flight tracking websites often have terms of service regarding data usage. Ensure you're using the information ethically and within the website's guidelines (FlightAware [Terms and Conditions](https://www.flightaware.com/about/termsofuse/))
-
-\
-
 
 ## Guides and articles
 
