@@ -21,6 +21,25 @@ Based on the inputs below, MapChecking calculates the estimated density of parti
 3. Map Visualization and Matching
 4. Calculate Crowd Density
 
+### Why is crowd counting significant?&#x20;
+
+The number of crowds can often be a [point of dispute ](https://apnews.com/general-news-f445adb3d0cf468ba0eb9caeab549577)between [participants and official statements](https://www.salon.com/2003/01/24/crowds/). Crowd sizes can also serve as evidence of how many people participated in a demonstration and [can be indicative of the significance](https://nixintel.info/osint/counting-crowds-in-public-spaces/) or reach of the event. According to [this](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10116033/), another significance of crowd counting is that “\[e]stimation of crowd size for large gatherings is an indispensable metric for \[...] local authorities, and emergency management.”&#x20;
+
+Traditional crowd counting methods are either less publically available, such as entrance censors/turnstiles and ticket sales, or are a tedious and time-consuming procedure that includes cumbersome manual processes such as using people counters.&#x20;
+
+Open-source investigators may, therefore, find this a valuable tool for verification.&#x20;
+
+### Here's how the tool generally works
+
+**STEP 1: Input Location**\
+
+
+{% hint style="danger" %}
+Ensure that the location you put in the tool is **already geolocated/verified.**&#x20;
+{% endhint %}
+
+
+
 ## Cost
 
 * [x] Free
