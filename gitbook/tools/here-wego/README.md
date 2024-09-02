@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-**http://wego.here.com/**
+[https://wego.here.com/](https://wego.here.com/)
 
 ## Description
 
