@@ -1,5 +1,7 @@
 ---
-description: This tool helps you estimate and fact-check the maximum number of people standing in a given area.
+description: >-
+  This tool helps you estimate and fact-check the maximum number of people
+  standing in a given area.
 ---
 
 # MapChecking
@@ -10,7 +12,14 @@ https://www.mapchecking.com/
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+This tool helps users estimate the maximum number of people standing by a particular area. MapChecking is a crowd-counting tool designed to assist in visualizing and analyzing the area covered by a specific event or situation, typically protests, demonstrations, or other gatherings. The tool allows users to input parameters such as the area they are expected to occupy, the shape of the area (by drawing a polygon.), and the estimated density of the crowd.
+
+Based on the inputs below, MapChecking calculates the estimated density of participants and the overall space they would cover on a map.
+
+1. Input Location
+2. Draw Polygon To Delineate Area of Interest
+3. Map Visualization and Matching
+4. Calculate Crowd Density
 
 ## Cost
 
@@ -54,4 +63,3 @@ https://www.mapchecking.com/
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
