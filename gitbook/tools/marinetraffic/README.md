@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-**http://marinetraffic.com/**
+[https://marinetraffic.com/](https://marinetraffic.com/)
 
 ## Description
 
