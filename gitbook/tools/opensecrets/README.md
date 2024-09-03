@@ -1,8 +1,7 @@
 ---
 description: >-
-  OpenSecrets is a nonpartisan, independent, and nonprofit organization
-  recognized as the leading authority on tracking money in U.S. politics and its
-  impact on elections and public policy.
+  OpenSecrets is a nonpartisan, independent, and nonprofit organization tracking
+  money in U.S. politics and its impact on elections and public policy.
 ---
 
 # OpenSecrets
@@ -17,8 +16,8 @@ The page has four main categories: Candidates & Officeholders, Elections & Fundr
 
 **Candidates & Officeholders - this section is divided into five subsections:**
 
-* [Candidates & Officeholders Overview ](https://www.opensecrets.org/candidates-officeholders) - this section includes lists on current and former individuals who held political positions on federal and state level in the U.S. - judicial officeholders, governors, state commissioners, members of congress. The data is presented as lists with the name of the individual, the state they represent and their current position.&#x20;
-* [Members of Congress ](https://www.opensecrets.org/members-of-congress) - lists the names of current and past members of congress, including new ones joining and outgoing ones and shows how much they have managed to fundraise for their campaings and how much they have spent so far.&#x20;
+* [Candidates & Officeholders Overview ](https://www.opensecrets.org/candidates-officeholders)- this section includes lists on current and former individuals who held political positions on federal and state level in the U.S. - judicial officeholders, governors, state commissioners, members of congress. The data is presented as lists with the name of the individual, the state they represent and their current position.
+* [Members of Congress ](https://www.opensecrets.org/members-of-congress)- lists the names of current and past members of congress, including new ones joining and outgoing ones and shows how much they have managed to fundraise for their campaings and how much they have spent so far.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 6.49.49 PM.png" alt="" width="563"><figcaption><p>Members of both chambers of the current U.S. Congress</p></figcaption></figure>
 
@@ -36,7 +35,7 @@ The page has four main categories: Candidates & Officeholders, Elections & Fundr
 **Elections & Fundraising Data - this section includes spending by candidates in presidential and congressional elections.** The two most relevant subsections are:
 
 * [Outside Spending](https://www.opensecrets.org/outside-spending) - data reported by outside spending groups to the Federal Election Commission. There is a separate section devoted to dark money groups – politically active nonprofits that aren't required to publicly disclose their donors. The information includes data on political recipients, however it only shows the amounts received and rarely the donors.
-* [Donor Lookup ](https://www.opensecrets.org/donor-lookup)- a search by name of a donor - these are individuals and companies. This is the most user-friendly and useful feature for small investigations as it allows searching by keyword.&#x20;
+* [Donor Lookup ](https://www.opensecrets.org/donor-lookup)- a search by name of a donor - these are individuals and companies. This is the most user-friendly and useful feature for small investigations as it allows searching by keyword.
 
 <div>
 
@@ -48,21 +47,19 @@ The page has four main categories: Candidates & Officeholders, Elections & Fundr
 
 </div>
 
-Industries & Interest Groups -&#x20;
+Industries & Interest Groups -
 
-* [Political Ads ](https://www.opensecrets.org/political-ads) - allows tracking of political spending online (Facebook and Google) by advertiser and each advertised has its own separate profile with specifics (Including which Facebook pages ran the ads); and by TV and Radio - contains pdf files submitted to the Federal Communications Commission by broadcasters around the country.
-* [Dark Money](https://www.opensecrets.org/dark-money) - a sub-page with articles on dark money as well as who spent dark money and where that dark money went &#x20;
+* [Political Ads ](https://www.opensecrets.org/political-ads)- allows tracking of political spending online (Facebook and Google) by advertiser and each advertised has its own separate profile with specifics (Including which Facebook pages ran the ads); and by TV and Radio - contains pdf files submitted to the Federal Communications Commission by broadcasters around the country.
+* [Dark Money](https://www.opensecrets.org/dark-money) - a sub-page with articles on dark money as well as who spent dark money and where that dark money went
 * [Industries](https://www.opensecrets.org/industries) - cumulative data on which industries spent money. Also for each or each interest group there is a summary of political giving dating back to 1990 election cycle (breakdowns by type of contribution & political party Top contributors); a list of organizations (usually U.S. companies) that have given the most from that industry through their employees and political action committees; a list of candidates that have received the most from a particular industry.
 * [Organizations](https://www.opensecrets.org/orgs/all-profiles) - Each organization profile tracks campaign contributions from the organization's employees and members, its PAC and from the organization itself, only when it gives to outside groups. Each profile also tracks the organization’s lobbying activity to influence public policy, as well as its outside spending to influence elections.
-*   [527s](https://www.opensecrets.org/527s) - groups, formed under section 527 of the Internal Revenue Code, primarily are involved in issue advocacy. engage in the full range of political activity, including asking the public to vote for or against a would-be officeholder. Some organizations, including labor unions, use 527 accounts to support or oppose state and local candidates and contribute to other committees. The data is presented as simple lists with contributors' names and amounts.
-
-
+* [527s](https://www.opensecrets.org/527s) - groups, formed under section 527 of the Internal Revenue Code, primarily are involved in issue advocacy. engage in the full range of political activity, including asking the public to vote for or against a would-be officeholder. Some organizations, including labor unions, use 527 accounts to support or oppose state and local candidates and contribute to other committees. The data is presented as simple lists with contributors' names and amounts.
 * [PACs ](https://www.opensecrets.org/political-action-committees-pacs)- includes data in Super PACs and leadership PACs. This subsection is useful when tracking whether a candidate received money for a specifically formed action committee dedicated to them and whether a PAC has donated to more than one candidate. Information like this can uncover links between donor spending and political issues they might want to achieve through funding a candidate.
-* [Issue Profiles ](https://www.opensecrets.org/news/issues/) -  OpenSecrets' own research on specific topics with lots of articles and data. For example the climate change issue delves deep into spending, environmetal groups activism and environmental lobbying.
+* [Issue Profiles ](https://www.opensecrets.org/news/issues/)- OpenSecrets' own research on specific topics with lots of articles and data. For example the climate change issue delves deep into spending, environmetal groups activism and environmental lobbying.
 
 **Lobbying - Companies, labor unions, trade associations and other influential organizations spending to Congress and federal agencies to lobby for special interests.**
 
-* [Lobbying Overview ](https://www.opensecrets.org/federal-lobbying) - includes top lobbying contracts, agencies, issues lobbied, bills that lobbyists worked on, contracts between lobbying firms and companies. Also allows to search by name:
+* [Lobbying Overview ](https://www.opensecrets.org/federal-lobbying)- includes top lobbying contracts, agencies, issues lobbied, bills that lobbyists worked on, contracts between lobbying firms and companies. Also allows to search by name:
 
 <div>
 
@@ -94,15 +91,15 @@ RESTful API functionality is available only after registration, the user must ac
 
 ## Limitations
 
-Current registrations of the API use are [currently closed](https://www.opensecrets.org/api/admin/index.php?function=signup).&#x20;
+Current registrations of the API use are [currently closed](https://www.opensecrets.org/api/admin/index.php?function=signup).
 
 According to OpenSecrets' own website, for registered lobbyists, employment histories may be incomplete prior to 1998 because the Senate Office of Public Records does not make registrations and reports available electronically for those years.
 
-&#x20;According to OpenSecrets' own website materials written by them are free to distribute or cite, but should credit OpenSecrets. For permission to reprint for commercial uses, such as textbooks, contact OpenSecrets: info@opensecrets.org
+According to OpenSecrets' own website materials written by them are free to distribute or cite, but should credit OpenSecrets. For permission to reprint for commercial uses, such as textbooks, contact OpenSecrets: info@opensecrets.org
 
 ## Ethical Considerations
 
-The data is publicly available, but OpenSecrets does ask to be cited or credited if one date collected by them or their own reports is being used.&#x20;
+The data is publicly available, but OpenSecrets does ask to be cited or credited if one date collected by them or their own reports is being used.
 
 ## Guides and articles
 
@@ -114,7 +111,7 @@ OpenSecrets: [What is dark money](https://www.opensecrets.org/dark-money/basics)
 
 OpenSecrets: [Learning center](https://www.opensecrets.org/resources/learn/) with a glossary and articles
 
-OpenSecrets: [Open data](https://groups.google.com/g/opensecrets-open-data?pli=1) with questions from other users, answers from the organization - a FAQ resource of sorts, but better.&#x20;
+OpenSecrets: [Open data](https://groups.google.com/g/opensecrets-open-data?pli=1) with questions from other users, answers from the organization - a FAQ resource of sorts, but better.
 
 OpenSecrets: Open data documentation
 
