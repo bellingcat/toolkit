@@ -27,7 +27,7 @@ Apps like Truecaller are designed to provide information on the identity of call
 
 This app has several features, but for open-source community, these features are the most useful:&#x20;
 
-* [**Reverse phone number lookup**](https://www.truecaller.com/reverse-phone-number-lookup) - Truecaller can often identify the owner of a phone number, providing basic information like name and location. It allows a user to enter a phone number and find out the name of the person to whom the number belongs.
+* [**Reverse phone number lookup**](https://www.truecaller.com/reverse-phone-number-lookup) - Truecaller can often identify the owner of a phone number, providing basic information like name and location. It allows a user to enter a phone number and find out the name of the person to whom the number might belong.
 * **Caller ID** - If using the mobile app, this tool can identify the name behind a caller using its database. When a call comes in Truecaller quickly searches it’s database and displays the callers name and personal details, if available.&#x20;
 * **Ease of use and access** - Ability to sign up with just a Gmail or Microsoft Live account, with no paywall and or SMS verification required. This means to use reverse phone number lookup, users do not have to provide a phone number.&#x20;
 * **Web Interface** - This is one of the few “contact book apps” that has a web interface, and does not require users to only use their mobile app.
