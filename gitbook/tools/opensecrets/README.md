@@ -91,11 +91,11 @@ RESTful API functionality is available only after registration, the user must ac
 
 ## Limitations
 
-Current registrations of the API use are [currently closed](https://www.opensecrets.org/api/admin/index.php?function=signup).
+Current registrations for the API use are [currently closed](https://www.opensecrets.org/api/admin/index.php?function=signup).
 
 According to OpenSecrets' own website, for registered lobbyists, employment histories may be incomplete prior to 1998 because the Senate Office of Public Records does not make registrations and reports available electronically for those years.
 
-According to OpenSecrets' own website materials written by them are free to distribute or cite, but should credit OpenSecrets. For permission to reprint for commercial uses, such as textbooks, contact OpenSecrets: info@opensecrets.org
+According to OpenSecrets' own website materials written by them are free to distribute or cite, but OpenSecrets should be credited. For permission to reprint for commercial uses, such as textbooks, contact OpenSecrets: info@opensecrets.org.
 
 ## Ethical Considerations
 
