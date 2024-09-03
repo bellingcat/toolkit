@@ -87,7 +87,7 @@ NOTE: To use Truecaller’s features, especially on the mobile app, users typica
 
 1. Use and misuse of information:
 
-Because this tool contains personal identifiable information, it is crucial to understand that using Truecaller must adhere to legal and ethical guidelines before proceeding. It is also advisable that users double check privacy laws prior to using Truecaller info in any investigation. Minimize harm when presenting or publishing investigations, and publish only necessary information.&#x20;
+Because this tool contains personal identifiable information, it is crucial to understand that using Truecaller must adhere to legal and ethical guidelines before proceeding. It is also advisable that users double check privacy laws prior to using Truecaller info in any investigation. Minimize harm when presenting or publishing investigations, and publish only necessary information which is relevant for investigations in the public interest (for instance in investigative journalism).
 
 2. Other privacy related issues:&#x20;
 
