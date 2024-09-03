@@ -43,7 +43,7 @@ The page has four main categories: Candidates & Officeholders, Elections & Fundr
 
  
 
-<figure><img src=".gitbook/assets/Screenshot 2024-09-03 at 6.51.58 PM.png" alt=""><figcaption><p>Donor profile for Elon Musk who donated twice to the Republican National Committee in 2021</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-09-03 at 6.51.58 PM.png" alt=""><figcaption><p><a href="https://web.archive.org/web/20220722103823/https://www.businessinsider.com/elon-musk-tesla-spacex-secret-service-special-agent-filing-donation-2021-4">Donor profile for Elon Musk</a> who donated twice to the Republican National Committee in 2021</p></figcaption></figure>
 
 </div>
 
