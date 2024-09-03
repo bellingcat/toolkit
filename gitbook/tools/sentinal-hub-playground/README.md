@@ -15,7 +15,7 @@ description: >-
 
 Copernicus Browser and EO Browser provide a browser-based GUI to visualise Sentinel and other satellite data. Every workflow starts by choosing relevant datasets, searching by location (determined by zooming into the map), timespan, and optionally cloud cover. Once data has been selected, the platform contains a toolkit to measure and visualise different features.
 
-One convenient feature is the inclusion of imaging indices, including the NDVI (Normalised Difference Vegetation Index) and NDWI (Normalised Difference Water Index). These create false-colour images from information outside of the visible spectrum that allow for changes in vegetation coverage and water quality to be measured.
+One convenient feature is the inclusion of imaging indices, including the [NDVI](https://eos.com/make-an-analysis/ndvi/) (Normalised Difference Vegetation Index) and [NDWI](https://eos.com/make-an-analysis/ndwi/) (Normalised Difference Water Index). These create false-colour images from information outside of the visible spectrum that allow for changes in vegetation coverage and water quality to be measured.
 
 For a guide on using the tool to create a timelapse, Annique Moussou's recent [guide](https://www.bellingcat.com/resources/2024/05/17/how-to-use-free-satellite-imagery-to-monitor-the-expansion-of-west-bank-settlements/) to using free satellite imagery to monitor the expansion of illegal settlements in the West Bank is a good place to start.
 
