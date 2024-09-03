@@ -25,7 +25,7 @@ The page has four main categories: Candidates & Officeholders, Elections & Fundr
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 6.52.07 PM.png" alt="" width="563"><figcaption><p>Profile of House Representative Adams showing who donated to her campaign</p></figcaption></figure>
 
-* This section also includes spending by Leadership PACs (Political Action Committees). Each PAC is hyperlinked to a separate profile with additional spending by party and by election cycle.
+* This section also includes spending by Leadership [PAC](https://www.opensecrets.org/political-action-committees-pacs/what-is-a-pac)s (Political Action Committees). Each PAC is hyperlinked to a separate profile with additional spending by party and by election cycle.
 * [Congressional Committees](https://www.opensecrets.org/cong-cmtes) - shows cumulative donation data to each committee broken down by industry.
 * [Presidential Administrations ](https://www.opensecrets.org/presidential-administrations)- a deep dive into the three most recent administrations with articles, reports, names of appointees by the administrations. Each profile contains different information and the administrations only include the Biden, the Trump and the Obama administrations.
 * [Personal Finances](https://www.opensecrets.org/personal-finances) - ranks members of congress by richest and poorest by their own income, net worth, financial liabilities and assets. Each name is hyperlinked to a profile with additional information.
