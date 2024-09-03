@@ -20,6 +20,7 @@
   * [Youtube](categories/social-media/youtube/youtube.md)
   * [Other Networks](categories/social-media/other-networks/other-networks.md)
   * [Multiple Networks](categories/social-media/multiple-networks/multiple-networks.md)
+  * [International](resources/international.md)
 * [Image/Video](categories/image-video/image-video.md)
   * [Reverse Image Search](categories/image-video/reverse-image-search/reverse-image-search.md)
   * [Facial Recognition](categories/image-video/facial-recognition/facial-recognition.md)
@@ -41,7 +42,6 @@
 * [Education](resources/education.md)
 * [Newsletters & Toolkits](resources/newsletters-and-toolkits.md)
 * [Stay Safe](resources/stay-safe.md)
-* [International](resources/international.md)
 
 ## More
 
