@@ -6,7 +6,7 @@ description: A wikipedia list of detonation velocities of various materials.
 
 ## URL
 
-
+https://en.wikipedia.org/wiki/Table_of_explosive_detonation_velocities
 
 ## Description
 
