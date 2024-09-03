@@ -48,7 +48,7 @@ Truecaller primarily builds its vast database through a combination of user-cont
 [**User-Generated/“Permission-Based” Сrowd-sourced Data**](https://www.truecaller.com/blog/features/how-truecallers-caller-id-works-your-questions-answered)
 
 {% hint style="info" %}
-NOTE: To use Truecaller’s features, especially on the mobile app, users typically grant app access to their contacts/phonebook. This shared information contributes to Truecaller’s database, enabling the same features for other users. In other words, it is a trade-off: access to caller ID in exchange for contact list data&#x20;
+NOTE: To use Truecaller’s features, especially on the mobile app, users typically grant app access to their contacts/phonebook. This shared information contributes to Truecaller’s database, enabling the same features for other users. In other words, it is a trade-off: access to caller ID in exchange for contact list data.
 {% endhint %}
 
 * Direct contributions: Users voluntarily add names, phone numbers, and spam/fraud reports to the Truecaller database.&#x20;
