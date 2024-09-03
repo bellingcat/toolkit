@@ -7,10 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "CryO Tools",
-  "url": "",
-  "description": "Scientific tools for investigating the cryosphere (areas with snow & ice)",
-  "cost": "Free",
   "details": "🧊",
   "tags": [
     "environment-and-wildlife"
