@@ -37,27 +37,27 @@ The page has four main categories: Candidates & Officeholders, Elections & Fundr
 * [Outside Spending](https://www.opensecrets.org/outside-spending) - data reported by outside spending groups to the Federal Election Commission. There is a separate section devoted to dark money groups – politically active nonprofits that aren't required to publicly disclose their donors. The information includes data on political recipients, however it only shows the amounts received and rarely the donors.
 * [Donor Lookup ](https://www.opensecrets.org/donor-lookup)- a search by name of a donor - these are individuals and companies. This is the most user-friendly and useful feature for small investigations as it allows searching by keyword.
 
-<div>
+<div align="left">
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 7.15.56 PM.png" alt=""><figcaption><p>Donors search with filters</p></figcaption></figure>
 
  
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 7.18.13 PM.png" alt=""><figcaption><p>Profile of a donor, in this case an individual, who donated to four separate republican candidates in federal elections.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-09-03 at 6.51.58 PM.png" alt=""><figcaption><p>Donor profile for Elon Musk who donated twice to the Republican National Committee in 2021</p></figcaption></figure>
 
 </div>
 
-Industries & Interest Groups -
+**Industries & Interest Groups - political action committees, industries, non-governmental organizations who spend money to support political candidates and issues**
 
 * [Political Ads ](https://www.opensecrets.org/political-ads)- allows tracking of political spending online (Facebook and Google) by advertiser and each advertiser has its own separate profile with specifics (Including which Facebook pages ran the ads); and by TV and Radio - contains pdf files submitted to the Federal Communications Commission by broadcasters around the country.
 * [Dark Money](https://www.opensecrets.org/dark-money) - a sub-page with articles on dark money as well as who spent [dark money](https://www.opensecrets.org/dark-money/basics) and where that dark money went.
 * [Industries](https://www.opensecrets.org/industries) - cumulative data on which industries spent money. Also for each interest group there is a summary of political giving dating back to the 1990 election cycle (breakdowns by type of contribution & political party top contributors); a list of organizations (usually U.S. companies) that have given the most from that industry through their employees and political action committees; a list of candidates that have received the most from a particular industry.
 * [Organizations](https://www.opensecrets.org/orgs/all-profiles) - Each organization profile tracks campaign contributions from the organization's employees and members, its PAC and from the organization itself, only when it gives to outside groups. Each profile also tracks the organization’s lobbying activity to influence public policy, as well as its outside spending to influence elections.
-* [527s](https://www.opensecrets.org/527s) - groups, formed under section 527 of the Internal Revenue Code, primarily are involved in issue advocacy. engage in the full range of political activity, including asking the public to vote for or against a would-be officeholder. Some organizations, including labor unions, use 527 accounts to support or oppose state and local candidates and contribute to other committees. The data is presented as simple lists with contributors' names and amounts.
+* [527s](https://www.opensecrets.org/527s) - groups, formed under section 527 of the Internal Revenue Code, primarily are involved in issue advocacy. Some organizations, including labor unions, use 527 accounts to support or oppose state and local candidates and contribute to other committees. The data is presented as simple lists with contributors' names and amounts.
 * [PACs ](https://www.opensecrets.org/political-action-committees-pacs)- includes data in Super PACs and leadership PACs. This subsection is useful when tracking whether a candidate received money for a specifically formed action committee dedicated to them and whether a PAC has donated to more than one candidate. Information like this can uncover links between donor spending and political issues they might want to achieve through funding a candidate.
 * [Issue Profiles ](https://www.opensecrets.org/news/issues/)- OpenSecrets' own research on specific topics with lots of articles and data. For example the climate change issue delves deep into spending, environmental groups activism and environmental lobbying.
 
-**Lobbying - Companies, labor unions, trade associations and other influential organizations spending to Congress and federal agencies to lobby for special interests.**
+**Lobbying - Companies, labor unions, trade associations and other influential organizations' spending on Congress and federal agencies to lobby for special interests.**
 
 * [Lobbying Overview ](https://www.opensecrets.org/federal-lobbying)- includes top lobbying contracts, agencies, issues lobbied, bills that lobbyists worked on, contracts between lobbying firms and companies. Also allows to search by name:
 
@@ -93,9 +93,9 @@ RESTful API functionality is available only after registration, the user must ac
 
 Current registrations for the API use are [currently closed](https://www.opensecrets.org/api/admin/index.php?function=signup).
 
-According to OpenSecrets' own website, for registered lobbyists, employment histories may be incomplete prior to 1998 because the Senate Office of Public Records does not make registrations and reports available electronically for those years.
+According to OpenSecrets' [own website](https://www.opensecrets.org/federal-lobbying), for registered lobbyists, employment histories may be incomplete prior to 1998 because the Senate Office of Public Records does not make registrations and reports available electronically for those years.
 
-According to OpenSecrets' own website materials written by them are free to distribute or cite, but OpenSecrets should be credited. For permission to reprint for commercial uses, such as textbooks, contact OpenSecrets: info@opensecrets.org.
+According to OpenSecrets' [own website](https://www.opensecrets.org/about) content on the site is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License. Materials written by them are free to distribute or cite, but OpenSecrets should be credited. For permission to reprint for commercial uses, contact OpenSecrets: info@opensecrets.org.
 
 ## Ethical Considerations
 
