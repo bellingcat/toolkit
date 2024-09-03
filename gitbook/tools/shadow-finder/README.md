@@ -15,9 +15,25 @@ description: >-
 
 <figure><img src=".gitbook/assets/Screenshot.JPG" alt=""><figcaption></figcaption></figure>
 
+Enter either shadow length and object height, or the angle of elevation of the sun for a research source image, then the date and time of the image, and see the potential locations at which such a shadow could be created for that point in time as the bright area (circle) on the world map.
+
 {% hint style="info" %}
 Shadow Finder is an open source app on GitBook, which requires users to have a (free) GitHub account and to follow instructions on how to run the app.
 {% endhint %}
+
+<details>
+
+<summary>Step by step instructions for running Shadow Finder [click the arrow]...</summary>
+
+Sign up for a GitHub account if you don't already have one.
+
+Log in to GitHub and type "Shadow Finder" in the search bar at the top of the Home page and press the search button.
+
+From the list which the search returns, select the "Shadow Finder" tool from Bellingcat:
+
+![](.gitbook/assets/image.png)
+
+</details>
 
 _For OSINV researchers who are analysing shadows in source imagery, Shadow Finder maps all the points on the earth where a shadow of given length could occur at a given date and time, along with its orientation._
 
@@ -61,7 +77,7 @@ The length of the shadow fed into Shadow Finder can only be measured directly fr
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen.reich.me.uk/#about), Bellingcat Tech Community Facilitator
 
 ## Advertising Trackers
 
