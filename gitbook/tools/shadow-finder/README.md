@@ -25,13 +25,22 @@ Shadow Finder is an open source app on GitBook, which requires users to have a (
 
 <summary>Step by step instructions for running Shadow Finder [click the arrow]...</summary>
 
-Sign up for a GitHub account if you don't already have one.
-
-Log in to GitHub and type "Shadow Finder" in the search bar at the top of the Home page and press the search button.
-
-From the list which the search returns, select the "Shadow Finder" tool from Bellingcat:
+1. Sign up for a GitHub account if you don't already have one.
+2. Log in to GitHub and type "Shadow Finder" in the search bar at the top of the Home page and press the search button.
+3. From the list which the search returns, select the "Shadow Finder" tool from Bellingcat with left mouse click:
 
 ![](.gitbook/assets/image.png)
+
+4. Scroll down the ShadowFinder page to README section and click the bright orange button labelled "TRY IT ON COLAB". This launches ShadowFinder in an easy access environment called Colab.
+5. &#x20;Scroll down to enter your shadow details into the app
+
+<img src=".gitbook/assets/shadowdetails.JPG" alt="" data-size="original">
+
+6. and the date, time and zone:
+
+<img src=".gitbook/assets/dateandtime.JPG" alt="" data-size="original">
+
+4.
 
 </details>
 
