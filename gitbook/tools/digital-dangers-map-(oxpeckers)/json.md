@@ -7,10 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Digital Dangers Map (Oxpeckers)",
-  "url": "",
-  "description": "Online environmental crime stories, mapped.",
-  "cost": "Free",
   "details": "🛃",
   "tags": [
     "environment-and-wildlife"
