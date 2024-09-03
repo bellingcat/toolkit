@@ -99,15 +99,15 @@ According to OpenSecrets' own website materials written by them are free to dist
 
 ## Ethical Considerations
 
-The data is publicly available, but OpenSecrets does ask to be cited or credited if one date collected by them or their own reports is being used.
+The data is publicly available, but OpenSecrets does ask to be cited or credited if data collected by them or their own reports is being used.
 
 ## Guides and articles
 
-OpenSecrets has a youtube series on lobbying: [Lobbying Masterclass Series](https://www.youtube.com/playlist?list=PLKKE\_wvn2lEH2\_5JDmqxSfgUcfY7vd3Te) videos
+OpenSecrets has a youtube series on lobbying: [Lobbying Masterclass Series](https://www.youtube.com/playlist?list=PLKKE\_wvn2lEH2\_5JDmqxSfgUcfY7vd3Te) (video)
 
-OpenSecrets: [Foreign Lobby Watch Demonstration](https://www.youtube.com/watch?v=dJs3Xp9hmno) video
+OpenSecrets: [Foreign Lobby Watch Demonstration](https://www.youtube.com/watch?v=dJs3Xp9hmno) (video)
 
-OpenSecrets: [What is dark money](https://www.opensecrets.org/dark-money/basics) article
+OpenSecrets: [What is dark money](https://www.opensecrets.org/dark-money/basics) (article)
 
 OpenSecrets: [Learning center](https://www.opensecrets.org/resources/learn/) with a glossary and articles
 
