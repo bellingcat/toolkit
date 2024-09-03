@@ -34,7 +34,7 @@ This app has several features, but for open-source community, these features are
 
 ### Use Case: Digital Footprint Tracing Through Reverse Phone Number Search
 
-If used with other tools and methods, open-source researchers can use Truecaller’s reverse phone number lookup when trying to ID an actor in an incident. If, for instance, researchers have a telephone number as a lead in their investigations, they can use this tool to generate more leads. A reverse phone number search may produce a name and a location, the countries in which they call most frequently, the comments other app users made about them.
+If used with other tools and methods, open-source researchers can use Truecaller’s reverse phone number lookup when trying to ID an actor in an incident. If, for instance, researchers have a telephone number as a lead in their investigations, they can use this tool to generate more leads. A reverse phone number search may produce a name and a location, the countries in which they call most frequently or the comments other app users made about them.
 
 Truecaller has been used in this Bellingcat investigation:
 
