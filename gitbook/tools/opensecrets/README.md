@@ -55,7 +55,7 @@ Industries & Interest Groups -
 * [Organizations](https://www.opensecrets.org/orgs/all-profiles) - Each organization profile tracks campaign contributions from the organization's employees and members, its PAC and from the organization itself, only when it gives to outside groups. Each profile also tracks the organization’s lobbying activity to influence public policy, as well as its outside spending to influence elections.
 * [527s](https://www.opensecrets.org/527s) - groups, formed under section 527 of the Internal Revenue Code, primarily are involved in issue advocacy. engage in the full range of political activity, including asking the public to vote for or against a would-be officeholder. Some organizations, including labor unions, use 527 accounts to support or oppose state and local candidates and contribute to other committees. The data is presented as simple lists with contributors' names and amounts.
 * [PACs ](https://www.opensecrets.org/political-action-committees-pacs)- includes data in Super PACs and leadership PACs. This subsection is useful when tracking whether a candidate received money for a specifically formed action committee dedicated to them and whether a PAC has donated to more than one candidate. Information like this can uncover links between donor spending and political issues they might want to achieve through funding a candidate.
-* [Issue Profiles ](https://www.opensecrets.org/news/issues/)- OpenSecrets' own research on specific topics with lots of articles and data. For example the climate change issue delves deep into spending, environmetal groups activism and environmental lobbying.
+* [Issue Profiles ](https://www.opensecrets.org/news/issues/)- OpenSecrets' own research on specific topics with lots of articles and data. For example the climate change issue delves deep into spending, environmental groups activism and environmental lobbying.
 
 **Lobbying - Companies, labor unions, trade associations and other influential organizations spending to Congress and federal agencies to lobby for special interests.**
 
@@ -71,7 +71,7 @@ Industries & Interest Groups -
 
 </div>
 
-* [Foreign Lobby Watch ](https://www.opensecrets.org/fara)- uses the semi-annual reports foreign agents are required to file with the Department of Justice under the Foreign Agents Registration Act (FARA) to calculate the countries with the highest spending. Allows search by country and the results provide detailed information which companies and individuals spent money on lobbying and advocacy.
+* [Foreign Lobby Watch ](https://www.opensecrets.org/fara)- uses the semi-annual reports foreign agents are required to file with the Department of Justice under the Foreign Agents Registration Act (FARA) to calculate the countries with the highest spending. Allows search by country and the results provide detailed information on which companies and individuals spent money on lobbying and advocacy.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 7.50.10 PM (1).png" alt="" width="563"><figcaption><p>2023 Spending by Russian individuals and entities</p></figcaption></figure>
 
