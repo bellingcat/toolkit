@@ -1,5 +1,8 @@
 ---
-description: A brief one-line description of the tool.
+description: >-
+  For OSINV researchers analysing shadows in source imagery, Shadow Finder maps
+  all points on the earth where a shadow of given length could occur at a given
+  date and time, along with its orientation.
 ---
 
 # Shadow Finder
@@ -10,7 +13,21 @@ description: A brief one-line description of the tool.
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+{% hint style="info" %}
+Shadow Finder is an open source app on GitBook, which requires users to have knowledge/follow instructions on how to run the app.
+{% endhint %}
+
+_For OSINV researchers who are analysing shadows in source imagery, Shadow Finder maps all the points on the earth where a shadow of given length could occur at a given date and time, along with its orientation._
+
+_A tool to estimate the points on the Earth's surface where a shadow of a particular length could occur, for geolocation purposes._
+
+_Using an object's height and the length of its shadow (or the angle to the sun) with the date and the time, this code estimates the possible locations of that shadow._
+
+> _Important: The shadow length must be measured at right angles to the object 📐 This means that you might have to correct for the perspective of an image before using this tool._
+
+{% hint style="danger" %}
+The length of the shadow fed into Shadow Finder can only be measured directly from the image if the camera is at right angles to the shadow. If not, calculations will need to be made to correct for any other camera perspective.
+{% endhint %}
 
 ## Cost
 
