@@ -43,7 +43,7 @@ For Copernicus Browser -- just a browser. To use EO Browser, an email login is r
 
 Copernicus Browser is limited to Sentinel Data, while EO Browser is not -- however to obtain higher-resolution satellite imagery, you need to access the paid tier.&#x20;
 
-Because these tools are a browser-based GUI and do not have an option to write code, there is a fine-grained control and customisation afforded by more specialised tools such as Google Earth Engine (code-based) or QGIS (desktop application).
+Because these tools are a browser-based GUI and do not have an option to write code, there is a fine-grained control and customisation afforded by more specialised tools such as [Google Earth Engine](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-engine) (code-based) or [QGIS](https://bellingcat.gitbook.io/toolkit/more/all-tools/qgis) (desktop application).
 
 ## Ethical Considerations
 
