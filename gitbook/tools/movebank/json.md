@@ -7,11 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Movebank",
-  "url": "",
-  "description": "Platform for animal tracking data.",
-  "cost": "Free",
-  "details": "",
   "tags": [
     "environment-and-wildlife"
   ]
