@@ -25,7 +25,7 @@ Montanna State University's tool converts latitude and longitude coordinates to 
 Also includes a small map with:&#x20;
 
 * **Zoom tool:** zoom in and out on the map.
-* **Layers:** Satellite and Terrain
+* **Layers:** Satellite and Terrain.
 
 ## Cost
 
