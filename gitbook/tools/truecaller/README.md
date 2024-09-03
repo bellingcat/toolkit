@@ -28,13 +28,13 @@ Apps like Truecaller are designed to provide information on the identity of call
 This app has several features, but for open-source community, these features are the most useful:&#x20;
 
 * [**Reverse phone number lookup**](https://www.truecaller.com/reverse-phone-number-lookup) - Truecaller can often identify the owner of a phone number, providing basic information like name and location. It allows a user to enter a phone number and find out the name of the person to whom the number might belong.
-* **Caller ID** - If using the mobile app, this tool can identify the name behind a caller using its database. When a call comes in Truecaller quickly searches it’s database and displays the callers name and personal details, if available.&#x20;
+* **Caller ID** - If using the mobile app, this tool can identify the name behind a caller using its database. When a call comes in Truecaller quickly searches its database and displays the caller's name and personal details, if available.&#x20;
 * **Ease of use and access** - Ability to sign up with just a Gmail or Microsoft Live account, with no paywall and or SMS verification required. This means to use reverse phone number lookup, users do not have to provide a phone number.&#x20;
 * **Web Interface** - This is one of the few “contact book apps” that has a web interface, and does not require users to only use their mobile app.
 
 ### Use Case: Digital Footprint Tracing Through Reverse Phone Number Search
 
-If used with other tools and methods, open-source researchers can use Truecaller’s reverse phone number lookup when trying to ID an actor in an incident. If, for instance, researchers have a telephone number as a lead in their investigations, they can use this tool to generate more leads. Ostensibly, a reverse phone number search may produce a name and a location, the countries in which they call most frequently, the comments our app’s users said about them.
+If used with other tools and methods, open-source researchers can use Truecaller’s reverse phone number lookup when trying to ID an actor in an incident. If, for instance, researchers have a telephone number as a lead in their investigations, they can use this tool to generate more leads. A reverse phone number search may produce a name and a location, the countries in which they call most frequently, the comments other app users made about them.
 
 Truecaller has been used in this Bellingcat investigation:
 
