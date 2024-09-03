@@ -17,10 +17,10 @@ Montanna State University's tool converts latitude and longitude coordinates to 
 **Features:**
 
 * **Map Datum:** supports WGS84, NAD83, WGS72, etc.
-* **Decimal Degrees:** convert from and to **l**atitude and longitude decimal degrees.
+* **Decimal Degrees:** convert from and to latitude and longitude decimal degrees.
 * **Degrees, Minutes, Seconds (DMS):** convert to and from DMS latitude and longitude for Northern and Southern Hemisphere coordinates.
-* **Standard UTM:** convert to and from Zone Easting and Northing for Northern and Southern Hemisphere coordinates..
-* **NATO UTM:** convert to and from latitude zone and longitude zone,  digraph,  Easting and Northing
+* **Standard UTM:** convert to and from Zone Easting and Northing for Northern and Southern Hemisphere coordinates.
+* **NATO UTM:** convert to and from latitude zone and longitude zone, digraph, Easting and Northing.
 
 Also includes a small map with:&#x20;
 
@@ -47,7 +47,7 @@ Also includes a small map with:&#x20;
 
 ## Ethical Considerations
 
-
+\-
 
 ## Guides and articles
 
