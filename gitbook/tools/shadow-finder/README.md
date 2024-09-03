@@ -13,8 +13,10 @@ description: >-
 
 ## Description
 
+<figure><img src=".gitbook/assets/Screenshot.JPG" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
-Shadow Finder is an open source app on GitBook, which requires users to have knowledge/follow instructions on how to run the app.
+Shadow Finder is an open source app on GitBook, which requires users to have a (free) GitHub account and to follow instructions on how to run the app.
 {% endhint %}
 
 _For OSINV researchers who are analysing shadows in source imagery, Shadow Finder maps all the points on the earth where a shadow of given length could occur at a given date and time, along with its orientation._
