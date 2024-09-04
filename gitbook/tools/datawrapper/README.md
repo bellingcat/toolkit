@@ -21,7 +21,7 @@ The purpose of the tool is to help users convert raw data into interactive and v
 Datawrapper is particularly helpful during the analysis and presentation stage of digital open-source investigations. It supports three categories of visualizations: **Chart, Map, and Table**. Note that the chart, map, and table generated are, by default, interactive. They will respond to the user’s mouse hovering over the various data on display. &#x20;
 
 {% hint style="success" %}
-TIP: It is helpful to check the[ Datawrapper Academy](https://academy.datawrapper.de/) website or its blog prior to beginning a project. It covers straightforward descriptions of various chart, map, and table types. This is especially useful for determining which kind of data and how many data points you need for a particular type of visualization.
+TIP: It is helpful to check the[ Datawrapper Academy](https://academy.datawrapper.de/) website or its blog prior to beginning a project. It covers straightforward descriptions of various chart, map, and table types. This is useful for determining which kind of data and how many data points you need for a particular type of visualization.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -519,7 +519,7 @@ The difficulty level also increases as your dataset gets more complicated. The d
 
 **1. Charts:**
 
-* _**Data Skills:**_ Creating clear charts might require some knowledge of Excel formulas and data formatting. Uploading messy data can lead to unexpected results. Datawrapper has a list of troubleshooting issues that seem to be related to how CSV files are formatted prior to uploading them, for instance on [how to prevent Excel from changing numbers into dates](https://academy.datawrapper.de/article/89-prevent-excel-from-changing-numbers-into-dates) or [on receiving the message "undefined" when uploading a csv](https://academy.datawrapper.de/article/109-undefined-what-it-means-and-what-to-do).&#x20;
+* _**Data Skills:**_ Creating clear charts might require some knowledge of Excel formulas and data formatting. Uploading incomplete data can lead to unexpected results. Datawrapper has a list of troubleshooting issues that seem to be related to how CSV files are formatted prior to uploading them, for instance on [how to prevent Excel from changing numbers into dates](https://academy.datawrapper.de/article/89-prevent-excel-from-changing-numbers-into-dates) or [on receiving the message "undefined" when uploading a csv](https://academy.datawrapper.de/article/109-undefined-what-it-means-and-what-to-do).&#x20;
 * _**Missing Data:**_ Line charts might show gaps if your data has missing values. This isn't always a bad thing, but it's important to understand why the gaps appear.
   * Patchy data in line charts sometimes appear if the dataset is missing values. Sometimes it is because there is no data available  (in which case Datawrapper does not want to mislead by filling in a connection between one data point to another). Sometimes it is because of [problems formatting the data](https://academy.datawrapper.de/article/321-patchy-data).&#x20;
 
@@ -537,7 +537,7 @@ The difficulty level also increases as your dataset gets more complicated. The d
 
 **3. General:**
 
-* _**Data Preparation:**_ Data needs to be well-organized and clean for Datawrapper to work effectively. This might require some data analysis skills or a good understanding of your data and its purpose. Uploading messy data can lead to delays and errors.&#x20;
+* _**Data Preparation:**_ Data needs to be well-organized and clean for Datawrapper to work effectively. This might require some data analysis skills or a good understanding of your data and its purpose. Uploading incomplete data can lead to delays and errors.&#x20;
   * Prepping and organizing data requires some background in data analysis or, alternatively, a really good understanding of your data and what you want to highlight. This is particularly an issue because Datawrapper can take time to load data and is prone to formatting errors. According to this [article](https://www.analyticodigital.com/blog/top-data-visualization-tools-a-comparative-analysis), “Training staff and extracting meaningful insights post-visualization are additional hurdles.”&#x20;
 * _**Data Limits:**_ Datawrapper [works best with smaller datasets](https://academy.datawrapper.de/article/310-max-size-for-data-upload). Uploading very large datasets can lead to slow loading times and lag.&#x20;
 * _**Updates:**_ You can't update visualizations once published. However, you can update the data each time you open the chart and republish.
