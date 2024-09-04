@@ -69,7 +69,7 @@ The screenshot below show the White Sands Missile Range, USA example included wi
 
 ## Ethical Considerations
 
-* see [General Ethical Considerations](./#ethical-considerations)
+* see General Ethical Considerations.
 
 ## Guides and articles
 
