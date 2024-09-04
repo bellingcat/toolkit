@@ -35,7 +35,7 @@ Open-source investigators may, therefore, find this a valuable tool for verifica
 
 
 {% hint style="danger" %}
-Ensure that the location you put in the tool is **already geolocated/verified.**&#x20;
+It may be helpful that the location you put in the tool is **already geolocated/verified.**&#x20;
 {% endhint %}
 
 
