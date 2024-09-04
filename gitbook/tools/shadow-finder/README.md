@@ -29,10 +29,10 @@ Shadow Finder is an open source app on GitBook, which requires users to have a (
 2. Log in to GitHub and type "Shadow Finder" in the search bar at the top of the Home page and press the search button.
 3. From the list which the search returns, select the "Shadow Finder" tool from Bellingcat with left mouse click:
 
-![](.gitbook/assets/image.png)
+<img src=".gitbook/assets/image.png" alt="" data-size="original">
 
 4. Scroll down the ShadowFinder page to README section and click the bright orange button labelled "TRY IT ON COLAB". This launches ShadowFinder in an easy access environment called Colab.
-5. &#x20;Scroll down to enter your shadow details into the app
+5. Scroll down to enter your shadow details into the app
 
 <img src=".gitbook/assets/shadowdetails.JPG" alt="" data-size="original">
 
@@ -92,9 +92,9 @@ Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen
 
 * [x] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| Sophie Tedling  |
+|                 |
