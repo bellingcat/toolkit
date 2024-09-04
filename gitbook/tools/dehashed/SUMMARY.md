@@ -1,3 +1,4 @@
 # Table of contents
 
-* [Page](README.md)
+* [DeHashed](README.md)
+* [Categories](categories.md)
