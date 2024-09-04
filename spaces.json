@@ -4113,5 +4113,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "7ktmCIN6aXFmo3BK9M9z",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "IgXiDYXAfqyG4xGgQauO",
+    "title": "FaceCheck.ID",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-09-04T08:51:38.872Z",
+    "updatedAt": "2024-09-04T08:51:38.872Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/IgXiDYXAfqyG4xGgQauO",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/IgXiDYXAfqyG4xGgQauO/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "47MpUgjSM6muGUkF4zJC",
+    "defaultLevel": "inherit"
   }
 ]
