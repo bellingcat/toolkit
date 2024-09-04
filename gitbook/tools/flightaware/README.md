@@ -46,7 +46,7 @@ _**Search by aircraft: Hover or click on any aircraft**_
 
 * aircraft call sign
 * its altitude
-* Its route using airport codes (i.e. MNL - AUH - meaning from Manila International Airport to Abu Dhabi International Airport)
+* Its route using airport codes (i.e. MNL - AUH - meaning from Manila International Airport (MNL) to Abu Dhabi International Airport (AUH) )
 * estimated landing time&#x20;
 * speed&#x20;
 
