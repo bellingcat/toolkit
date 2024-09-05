@@ -29,7 +29,7 @@ There are various ways to explore the database:
 
 <figure><img src=".gitbook/assets/ICIJ step 2.png" alt="" width="563"><figcaption></figcaption></figure>
 
-3. After filtering, select the required result. Hover over the interactive map that shows connection between entity, intermediary, etc.
+3. After filtering, select the required result. An interactive map shows connections between categories like "officer" and "address". Click on the nodes to receive more information.&#x20;
 
 <figure><img src=".gitbook/assets/ICIJ step w.png" alt="" width="563"><figcaption></figcaption></figure>
 
