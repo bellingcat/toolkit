@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-The database is a repository of five major leaks that became hard-hitting investigations over a decade. &#x20;
+The database is a repository of five major leaks that were used to conduct hard-hitting investigations. &#x20;
 
 There are various ways to explore the database:
 
