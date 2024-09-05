@@ -34,7 +34,7 @@ For this reason, open-source investigators may find this a valuable tool for ver
 
 ### Here's how the tool generally works
 
-For this example, we take the recent protest in Tel Aviv on 1 September 2024.
+For this tool description, we take the recent protest in Tel Aviv on 1 September 2024 as an example.
 
 Our source image is a clip from the video uploaded by [the user](https://x.com/BarakRavid/status/1830292233922482540), potentially during the early hours of the event (before more people arrive). It mentions "tens of thousands of protesters" in Tel Aviv.&#x20;
 
@@ -46,11 +46,11 @@ Our source image is a clip from the video uploaded by [the user](https://x.com/B
 It may be helpful that the location you put in the tool is **already geolocated/verified.**&#x20;
 {% endhint %}
 
-Input the address of an already verified location into the map interface. We will use only one image of the event to demonstrate the tool’s features for simplicity.
+Input the address of an already verified location into the map interface. For simplicity, we will use only one image of the event to demonstrate the tool’s features.
 
 We geolocated this area and found it in Democracy Square in Tel Aviv, at the intersection of Eli'ezer Kaplan Street and Giv'at HaTah̠moshet Street. The coordinates are 32.073368,  34.790295.&#x20;
 
-While many protests in Tel Aviv happen in this area frequently, this footage taken from this particular angle seems to to come from the 1st September 2024, coinciding with the [sun's approximate position](https://www.suncalc.org/#/32.0732,34.7907,17/2024.09.01/20:08/1/3) around sunset.
+While many protests in Tel Aviv happen in this area frequently, this footage taken from this particular angle seems to to come from the 1st of September 2024, coinciding with the [sun's approximate position](https://www.suncalc.org/#/32.0732,34.7907,17/2024.09.01/20:08/1/3) around sunset.
 
 {% hint style="info" %}
 NOTE: Putting the coordinates on the map does not seem to work at the time of testing the tool on both Firefox and Chrome browsers. Use street address instead to find location in question
@@ -78,6 +78,9 @@ It may be helpful to double-check that the source image area matches the polygon
 
 <figure><img src=".gitbook/assets/MapChecking.png" alt=""><figcaption><p>On the left is the source image overlaid with a polygon using Paint, and to the right is the polygon drawn utilizing the tool. The right image is rotated to approximate the camera's direction, as shown in the source image. </p></figcaption></figure>
 
+### STEP 4: Determine Crowd Density Per Square Meter
+
+\
 \
 
 
