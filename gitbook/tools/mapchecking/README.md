@@ -126,7 +126,9 @@ NOTE: The total estimate changes, as the crowd density slides from light to crow
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+1. Internet Connection
+2. Desktop&#x20;
+3. Modern browser
 
 ## Limitations
 
@@ -142,15 +144,19 @@ NOTE: The total estimate changes, as the crowd density slides from light to crow
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+[Anthony Catel](https://github.com/paraboul)
+
+France&#x20;
+
+
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| Afton           |
+|                 |
