@@ -43,7 +43,7 @@ ICIJ Offshore Leaks also allows users to explore each of the five datasets separ
 
 ### Downloading the dataset
 
-All five investigation can be downloaded as zip files. The zip files include:
+All five leak databases can be downloaded as [zip files](https://offshoreleaks.icij.org/pages/database). The zip files include:
 
 1. Offshore Leaks (2013)
 2. Panama Papers (2016)
@@ -51,7 +51,7 @@ All five investigation can be downloaded as zip files. The zip files include:
 4. Paradise Papers (2017)
 5. Pandora Papers (2021)
 
-For user convenience, the data is converted to multiple CSV files, providing the freedom to explore the dataset on the user's terms. Data is also available as "Neo4j" exported databases, allowing visualization of connections in the dataset. ICIJ provides a GitHub repository guide for importing the data into the Neo4j tool. More details [here](https://offshoreleaks.icij.org/pages/database).
+For user convenience, the data is converted to multiple CSV files, providing the freedom to explore the dataset on the user's terms. The data is also available as "Neo4j" exported databases. ICIJ provides a [GitHub repository guide](https://github.com/ICIJ/offshoreleaks-data-packages) that explains how to import the data into the Neo4j.
 
 ### &#x20;Reconciliation API
 
