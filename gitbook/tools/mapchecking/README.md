@@ -92,21 +92,9 @@ Second, compare that same close up reference image to the visual guides the tool
 Note: [This link](https://www.gkstill.com/Support/crowd-density/625sm/Density6.html) can be used if you have a **"static" crowd** (mostly stationary). For **moving crowds** ("crowd flow"), users may use the reference on this link:[ https://www.gkstill.com/Support/crowd-flow/4People.html](https://www.gkstill.com/Support/crowd-flow/4People.html)&#x20;
 {% endhint %}
 
-
-
-<details>
-
-<summary>See an example of how this was used with the source image</summary>
-
-<img src=".gitbook/assets/Density Comparison.png" alt="" data-size="original">
-
-(Click to enlarge)&#x20;
+<figure><img src=".gitbook/assets/Density Comparison.png" alt=""><figcaption><p>On the left is a reference guide showing crowd density for 4 people per square meter and 4.5 people per square meter. On the right is a drone footage from the event in question. Looking at both images can assist users in making estimations on crowd density. </p></figcaption></figure>
 
 In this example, we used [drone footage from AP](https://youtu.be/KAOQ9MevvRU?feature=shared), to find a clip that shows the density in the area we are interested in.  By comparing Keith Still’s image reference, I can see that the protest crowd maybe somewhere between 4 people per square meter and 4.5 people per square meter.&#x20;
-
-
-
-</details>
 
 Remember: Even with reference images, obstructions like buildings or bridges can limit your ability to see the entire crowd. Be mindful of these limitations when making your estimations.
 
