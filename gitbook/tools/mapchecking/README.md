@@ -88,6 +88,10 @@ Second, compare that same close up reference image to the visual guides the tool
 
 <figure><img src=".gitbook/assets/Screenshot 2024-09-04 133753-marked.png" alt="" width="563"><figcaption><p>To find the reference guides on what the crowd density may look like, click on either link to have an idea of how packed the event in question is. Use these guides to make comparisons with the image from your protest.  This can be found just to the right of the tool's  map interface. </p></figcaption></figure>
 
+{% hint style="info" %}
+Note: [This link](https://www.gkstill.com/Support/crowd-density/625sm/Density6.html) can be used if you have a **"static" crowd** (mostly stationary). For **moving crowds** ("crowd flow"), users may use the reference on this link:[ https://www.gkstill.com/Support/crowd-flow/4People.html](https://www.gkstill.com/Support/crowd-flow/4People.html)&#x20;
+{% endhint %}
+
 ## Cost
 
 * [x] Free
