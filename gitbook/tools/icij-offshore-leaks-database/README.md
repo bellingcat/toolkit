@@ -35,11 +35,11 @@ ICIJ also provides a detailed section on “[How to use the Offshore Leaks Datab
 
 ### Search each database separately
 
-ICIJ Offshore Leaks allows users to explore each of five datasets separately. This is useful when users know a specific entity they want to explore and have knowledge of the database. After selecting a dataset of your choice, you can filter the entities and also explore its sources. Links to stories/investigations are also provided under each dataset window.&#x20;
+ICIJ Offshore Leaks also allows users to explore each of the five datasets separately. After selecting a dataset of your choice, you can explore the results for a specific person or company based on this selection. Links to stories/investigations are also provided under each dataset window. Here is an example for the [Pandora Papers](https://www.icij.org/investigations/pandora-papers/).
 
 ### “The Power Players”
 
-The tool enables users to search for notable names linked to "offshore connections of world leaders, politicians, and their relatives and associates" from three major investigations: Pandora Papers, Paradise Papers, and Panama Papers. Users can explore key figures from all three investigations combined or each one individually.
+[The Power Players](https://offshoreleaks.icij.org/power-players) section enables users to search for notable names linked to "offshore connections of world leaders, politicians, and their relatives and associates" from three major leaks: Pandora Papers, Paradise Papers, and Panama Papers. Users can explore key figures of public interest from all three leaks combined or from each leak individually.
 
 ### Downloading the dataset
 
