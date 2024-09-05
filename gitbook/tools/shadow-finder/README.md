@@ -13,12 +13,16 @@ https://colab.research.google.com/github/Bellingcat/ShadowFinder/blob/main/Shado
 
 ## Description
 
-<figure><img src=".gitbook/assets/Screenshot.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot.JPG" alt=""><figcaption><p>THE SHADOW AND OBJECT MEASURED CAN ONLY LIE SOMEWHERE ON THE BRIGHT CIRCLE</p></figcaption></figure>
 
-Enter either shadow length and object height, or the angle of elevation of the sun for a research source image, then the date and time of the image, and see the potential locations at which such a shadow could be created for that point in time as the bright area (circle) on the world map.
+Enter either shadow length and object height, (or, instead, the angle of elevation of the sun) for a research source image, then also the date and time of the image, and see the potential locations at which such a shadow could be created for that point in time as the bright area (circle) on the world map.
 
 {% hint style="info" %}
 Shadow Finder is an open source app on GitBook, which requires users to have a (free) GitHub account and to follow instructions on how to run the app.
+{% endhint %}
+
+{% hint style="danger" %}
+Shadow Finder needs the date and time of the source image containing the shadow to be able to generate potential locations. This is not always available, particularly as social media sites usually remove this type of metadata (called [ExIf data](#user-content-fn-1)[^1]). Researchers also need to take care that the time and date an image is posted online is not often the same as when it was taken. HOWEVER Shadow Finder may still be useful asa "What If?" tool to exclude&#x20;
 {% endhint %}
 
 <details>
@@ -26,17 +30,17 @@ Shadow Finder is an open source app on GitBook, which requires users to have a (
 <summary>Step by step instructions for running Shadow Finder [click the arrow]...</summary>
 
 1. Sign up for a GitHub account if you don't already have one.
-2. Log in to GitHub and type "Shadow Finder" in the search bar at the top of the Home page and press the search button.
+2. Log in to GitHub on a browser and type "Shadow Finder" in the search bar at the top of the Home page and press the search button.
 3. From the list which the search returns, select the "Shadow Finder" tool from Bellingcat with left mouse click:
 
 <img src=".gitbook/assets/image.png" alt="" data-size="original">
 
 4. Scroll down the ShadowFinder page to README section and click the bright orange button labelled "TRY IT ON COLAB". This launches ShadowFinder in an easy access environment called Colab.
-5. Scroll down to enter your shadow details into the app
+5. Scroll down to enter your shadow measurement details into the app. Input either object height and shadow length (using the same units) OR the elevation angle of the sun in degrees
 
 <img src=".gitbook/assets/shadowdetails.JPG" alt="" data-size="original">
 
-6. and the date, time and zone:
+6. and then enter the date, time (and [time zone](https://en.wikipedia.org/wiki/Time\_zone) you are using:
 
 <img src=".gitbook/assets/dateandtime.JPG" alt="" data-size="original">
 
@@ -98,3 +102,5 @@ Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen
 | --------------- |
 | Sophie Tedling  |
 |                 |
+
+[^1]: EXIF data can contain non-visual information about an image, e.g. type of camera and lens, date and time the image was taken, location at which it was taken,...
