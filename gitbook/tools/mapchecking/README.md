@@ -36,17 +36,49 @@ For this reason, open-source investigators may find this a valuable tool for ver
 
 For this example, we take the recent protest in Tel Aviv on 1 September 2024.
 
-Our source image is a clip from the video uploaded by [the user](https://x.com/BarakRavid/status/1830292233922482540), potentially during the early hours of the event (before more people arrive).&#x20;
+Our source image is a clip from the video uploaded by [the user](https://x.com/BarakRavid/status/1830292233922482540), potentially during the early hours of the event (before more people arrive). It mentions "tens of thousands of protesters" in Tel Aviv.&#x20;
 
+<figure><img src=".gitbook/assets/Screenshot 2024-09-02 153133.png" alt=""><figcaption><p>(Image Source: Still from a video posted on <a href="https://x.com/BarakRavid/status/1830292233922482540">https://x.com/BarakRavid/status/1830292233922482540</a>) This mentions that tens of thousands arrived to protest in Tel Aviv about the delay in the Gaza hostage deal. </p></figcaption></figure>
 
+### **STEP 1: Input Location**
 
-**STEP 1: Input Location**\
-
-
-{% hint style="danger" %}
+{% hint style="info" %}
 It may be helpful that the location you put in the tool is **already geolocated/verified.**&#x20;
 {% endhint %}
 
+Input the address of an already verified location into the map interface. We will use only one image of the event to demonstrate the tool’s features for simplicity.
+
+We geolocated this area and found it in Democracy Square in Tel Aviv, at the intersection of Eli'ezer Kaplan Street and Giv'at HaTah̠moshet Street. The coordinates are 32.073368,  34.790295.&#x20;
+
+While many protests in Tel Aviv happen in this area frequently, this footage taken from this particular angle seems to to come from the 1st September 2024, coinciding with the [sun's approximate position](https://www.suncalc.org/#/32.0732,34.7907,17/2024.09.01/20:08/1/3) around sunset.
+
+{% hint style="info" %}
+NOTE: Putting the coordinates on the map does not seem to work at the time of testing the tool on both Firefox and Chrome browsers. Use street address instead to find location in question
+{% endhint %}
+
+{% hint style="warning" %}
+**TIP:** Enhancing Image Analysis: Combining Images and Minding Obstacles
+
+When analyzing images, especially those depicting large crowds, combining multiple source images taken from different angles is often beneficial. This helps to capture the full scope of the event and avoid blind spots caused by obstructions.
+
+_Remember:_ Even with combined images, obstructions like buildings or bridges can limit visibility. Always be mindful of these factors and consider the potential limitations of the visual data.
+{% endhint %}
+
+<figure><img src=".gitbook/assets/Screenshot 2024-09-02 155032.png" alt="" width="375"><figcaption><p> In addition to other verification methods, Google Street View was used in this image to verify the general area of protest. We also used the the 3d buildings to assist us in matching the general area.  </p></figcaption></figure>
+
+### **STEP 2: Drawing A Polygon and Map Visualization**
+
+The next step is to delineate the area of interest by drawing a polygon. The defined area is automatically overlaid on a map.
+
+<figure><img src=".gitbook/assets/Screenshot 2024-09-04 111639.png" alt=""><figcaption><p>This is the location of the protests. The red-shaded area shows where crowds have gathered based on our source image. For accuracy, we exclude areas within our blind spots or those that we don’t have complete visibility.</p></figcaption></figure>
+
+### **STEP 3: Matching and Double-checking**
+
+It may be helpful to double-check that the source image area matches the polygon drawn in the tool. In this case, users may choose to draw a polygon on the source image in a separate program and approximate a visual match for both (as shown in the picture below).
+
+<figure><img src=".gitbook/assets/MapChecking.png" alt=""><figcaption><p>On the left is the source image overlaid with a polygon using Paint, and to the right is the polygon drawn utilizing the tool. The right image is rotated to approximate the camera's direction, as shown in the source image. </p></figcaption></figure>
+
+\
 
 
 ## Cost
