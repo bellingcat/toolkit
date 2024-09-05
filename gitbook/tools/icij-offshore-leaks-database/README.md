@@ -17,9 +17,7 @@ The database is a repository of five major leaks that were used to conduct hard-
 
 There are various ways to explore the database:
 
-
-
-## Conducting searches in the whole dataset
+### Conducting searches in the whole dataset
 
 1. Users can do searches in the whole database. Write the entity name, its jurisdiction or location in the search bar. For instance, “Mossack Fonseca.”
 
@@ -35,19 +33,15 @@ There are various ways to explore the database:
 
 ICIJ also provides a detailed section on “[How to use the Offshore Leaks Database.](https://offshoreleaks.icij.org/pages/howtouse)”
 
-## Search each database separately
+### Search each database separately
 
 ICIJ Offshore Leaks allows users to explore each of five datasets separately. This is useful when users know a specific entity they want to explore and have knowledge of the database. After selecting a dataset of your choice, you can filter the entities and also explore its sources. Links to stories/investigations are also provided under each dataset window.&#x20;
 
-
-
-## “The Power Players”
+### “The Power Players”
 
 The tool enables users to search for notable names linked to "offshore connections of world leaders, politicians, and their relatives and associates" from three major investigations: Pandora Papers, Paradise Papers, and Panama Papers. Users can explore key figures from all three investigations combined or each one individually.
 
-Downloading the dataset\
-
-
+### Downloading the dataset
 
 All five investigation can be downloaded as zip files. The zip files include:
 
@@ -59,15 +53,9 @@ All five investigation can be downloaded as zip files. The zip files include:
 
 For user convenience, the data is converted to multiple CSV files, providing the freedom to explore the dataset on the user's terms. Data is also available as "Neo4j" exported databases, allowing visualization of connections in the dataset. ICIJ provides a GitHub repository guide for importing the data into the Neo4j tool. More details [here](https://offshoreleaks.icij.org/pages/database).
 
-\
-Reconciliation API
-------------------
+### &#x20;Reconciliation API
 
 This is the coolest and yet the technical part requiring some API expertise. Reconcilation API allows users interested in matching entities against the ICIJ database or comparing disparate data sources. ICIJ webpage on this provides a detailed guide on how to use this [feature.](https://offshoreleaks.icij.org/docs/reconciliation) Moreover, it merges "duplicate or related entities," providing conistency in the datasets.
-
-
-
-
 
 ## Cost
 
