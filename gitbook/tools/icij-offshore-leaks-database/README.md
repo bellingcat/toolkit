@@ -25,7 +25,7 @@ There are various ways to explore the database:
 
 <figure><img src=".gitbook/assets/ICIJ step 1.png" alt="" width="563"><figcaption></figcaption></figure>
 
-2. Results can be abundant. On the left, you can filter results by “offshore entities,” “officers,” “intermediaries,” and “addresses.”&#x20;
+2. Results can be abundant. On the left, you can filter the results by “offshore entities,” “officers,” “intermediaries,” and “addresses.”&#x20;
 
 <figure><img src=".gitbook/assets/ICIJ step 2.png" alt="" width="563"><figcaption></figcaption></figure>
 
