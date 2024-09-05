@@ -55,7 +55,7 @@ For user convenience, the data is converted to multiple CSV files, providing the
 
 ### &#x20;Reconciliation API
 
-This is the coolest and yet the technical part requiring some API expertise. Reconcilation API allows users interested in matching entities against the ICIJ database or comparing disparate data sources. ICIJ webpage on this provides a detailed guide on how to use this [feature.](https://offshoreleaks.icij.org/docs/reconciliation) Moreover, it merges "duplicate or related entities," providing conistency in the datasets.
+The reconciliation API requires some API expertise and allows users to match their own datasets against the ICIJ database. The ICIJ webpage provides a detailed guide on how to use this [feature.](https://offshoreleaks.icij.org/docs/reconciliation)&#x20;
 
 ## Cost
 
@@ -73,7 +73,7 @@ The dataset is free to explore.
 
 The visualization of downloaded datasets requires familiarity with Neo4j software. The same applies to the use of the Reconciliation API.
 
-When using the dataset, credit ICIJ as the datasource.
+When using the dataset, you have to credit the International Consortium of Investigative Journalists.
 
 ## Limitations
 
