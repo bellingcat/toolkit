@@ -77,9 +77,9 @@ When using the dataset, you have to credit the International Consortium of Inves
 
 ## Limitations
 
-Not all names behind  entities can appear in the dataset. "information about ownership is often buried in emails, power-of-attorney letters and internal notes and cannot easily be extracted in a systematic manner," says ICIJ
+Not all names behind entities can appear in the dataset. "information about ownership is often buried in emails, power-of-attorney letters and internal notes and cannot easily be extracted in a systematic manner," says ICIJ.
 
-The data does not include personal information such as bank accounts, email exchanges, or financial transactions. Researchers seeking this information may need to use other OSINT tools or data sources.
+The data does not include personal information such as bank accounts, email exchanges, or financial transactions. Researchers seeking this type of information may need to use other OSINT tools or data. sources.
 
 ## Ethical Considerations
 
