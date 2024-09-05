@@ -9,7 +9,7 @@ description: >-
 
 ## URL
 
-http://offshoreleaks.icij.org/
+[http://offshoreleaks.icij.org/](http://offshoreleaks.icij.org/)
 
 ## Description
 
