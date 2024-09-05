@@ -89,8 +89,6 @@ Entities in the database are not necessarily involved in any wrongdoing. ICIJ st
 
 ICIJ offshore leaks provides a three part series on how to use the [database](https://offshoreleaks.icij.org/pages/howtouse).
 
-However, it may be a bit dated since more leaks were added to the database after 2018.
-
 Part 1: [How to search the Offshore Leaks Database by location](https://www.icij.org/inside-icij/2018/01/offshore-leaks-database-tips-location-geogrpahy/)
 
 Part 2:[ How to explore networks and entity metadata in the Offshore Leaks Database](https://www.icij.org/inside-icij/2018/01/how-to-explore-networks-and-entity-metadata-in-the-offshore-leaks-database/)
