@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-Maltego is both a search tool and a visualization tool. It can search for information and connect the pieces to show you how they are related. It's like a data map that helps you see the bigger picture of your investigation. This software allows a researcher to start with a particular item of information, such as an alias, an email address, phone number, company name, or IP address, and use this information as the basis to collect other information.
+Maltego is both a search tool and a visualization tool. It can search for information and connect the pieces to show you how they are related. It's like a data map that helps you see the bigger picture of your investigation. This software allows a researcher to start with a particular item of information, such as an alias, an email address, phone number, company name, or IP address, and use this information as the basis to collect other information.           &#x20;
 
 &#x20;_**How does it work?**_
 
@@ -41,7 +41,7 @@ _**What problem does it solve?**_
 
 1\.     Maltego solves a time management problem. It reduces the number of steps an investigation takes from discovery to link analysis. Instead of going to each individual website to search, the researcher can mostly search for info all in one spot. Maltego gathers information and plots the data in real-time.
 
-2\.     Maltego also solves an efficiency problem. A beginner researcher usually searches for one piece of information at a time. On Maltego, a beginner researcher can search for two or more pieces of information (or Entities) at a time.
+2\.     Maltego also solves an efficiency problem. A beginner researcher usually searches for one piece of information at a time. On Maltego, a beginner researcher can search for two or more pieces of information (or "Entities") at a time.
 
 ## Cost
 
