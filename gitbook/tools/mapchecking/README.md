@@ -132,23 +132,48 @@ NOTE: The total estimate changes, as the crowd density slides from light to crow
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+_Field of View Restrictions_
+
+The tool works better if you can clearly delineate the area visible in the image. There could be more people outside the camera's view or areas where the camera did not pan. Any such exclusions should be clearly mentioned.
+
+_Snapshot in Time_
+
+The estimate is only valid for the specific point in time when the image was captured. Any changes in crowd size or movement after that moment are not reflected.
+
+_Static vs. Dynamic Crowds_
+
+&#x20;The tool is less effective for[ dynamic or moving crowds ](https://www.aware-online.com/en/calculate-the-number-of-people-during-a-demonstration/)since crowd locations can shift rapidly. It works best when counting static crowds at a given moment.
+
+\
+_Uneven Crowd Density_
+
+Crowd density [is not uniform](https://www.aware-online.com/en/calculate-the-number-of-people-during-a-demonstration/) across all areas of an image. Some patches may have fewer people, while others may be densely packed. As seen in the source image above, there are patches in the protest area that are loosely packed and there are patches that are fully packed. For greater accuracy, it may be beneficial to draw separate polygons for areas with lower and higher crowd densities.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Exclusions for Low Visibility Areas: Certain areas of the source image may have low visibility or fewer people, which can affect the overall count. Highlighting these areas can improve the transparency of the estimate.
+
+Transparency in Methodology: It is essential to be transparent about the limitations of the tool, especially regarding its reliance on clear images and fixed points in time. Users must communicate that the estimate provided is based on specific conditions and may not reflect the total count, particularly if areas are outside the camera's view or affected by poor visibility.
+
+Accuracy and Validation: Ethical use of Mapchecking requires combining it with multiple methods and sources to arrive at a more accurate estimate. Relying solely on one tool without cross-referencing other data (e.g., additional images, videos, or on-the-ground reports) may lead to underestimating or overestimating crowd sizes.
+
+Dynamic Nature of Crowds: Since crowds are dynamic and people move around, counting static points may not capture the real-time fluctuations of the crowd size. Ethical considerations require informing users and stakeholders that the count is a snapshot in time and may not fully reflect the dynamic nature of demonstrations or events.
+
+&#x20;Density Variability: Since crowd density is not uniform ethical practice encourages users to analyze density variations carefully and provide separate estimates for different areas where appropriate.
+
+&#x20;Possibility of Misrepresentation: In the context of politically sensitive events, such as demonstrations, overestimating or underestimating crowd sizes can have significant implications. Ethical use of Mapchecking is encouraged.&#x20;
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+[https://nixintel.info/osint/counting-crowds-in-public-spaces/](https://nixintel.info/osint/counting-crowds-in-public-spaces/)
+
+[https://www.aware-online.com/en/calculate-the-number-of-people-during-a-demonstration/](https://www.aware-online.com/en/calculate-the-number-of-people-during-a-demonstration/)
 
 ## Tool provider
 
 [Anthony Catel](https://github.com/paraboul)
 
 France&#x20;
-
-
 
 ## Advertising Trackers
 
