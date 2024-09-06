@@ -1,6 +1,5 @@
 import fs from 'fs';
 import path from 'path';
-import tools from './tools.mjs'
 import pkg from './paths.mjs'
 const { apiCall, getCategories, getTools, writeIfChanged, getSummary, processMarkdownFile} = pkg;
 
