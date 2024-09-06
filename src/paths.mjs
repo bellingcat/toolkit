@@ -64,7 +64,7 @@ function getCategories() {
 
     return {
       title: markdownFile.title,
-      content: markdownFile.content,
+      content: markdownFile.content.trim(),
       tag: tag,
       slug: markdownFile.slug,
       hasSubcategories: hasSubcategories,

@@ -8,7 +8,7 @@ const allTools = getTools().filter((tool) => !tool.draft );
 (function renderMostUsed() {
   const mostUsed = {
         title: 'Most Used',
-        content: '# Most Used\n\n',
+        content: '# Most Used',
         filepath: 'gitbook/most-used.md',
         tag: 'most-used'
   };
@@ -40,8 +40,8 @@ function generateTemplateCategoriesMarkdown(categories) {
   writeIfChanged(content, 'template/categories.md');
 }
 const allCategories = getCategories();
-allCategories.filter((cat) => !cat.hasSubcategories).forEach((category) => {
-  const categoryTools = allTools.filter((tool) => {
+allCategories.forEach((category) => {
+  const categoryTools = category.hasSubcategories ? [] : allTools.filter((tool) => {
     return tool.tags && tool.tags.includes(category.tag);
   }).map((tool) => {
     return {
@@ -61,7 +61,7 @@ function renderTitle(category) {
   return `# ${category.title}\n\n`;
 }
 function renderIntro(category) {
-  return category.content;
+  return `${category.content}\n\n`;
 }
 
 function renderCost(cost) {
