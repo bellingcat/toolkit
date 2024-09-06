@@ -118,8 +118,6 @@ There are very many use cases for SunCalc in Open Source research because there 
 
 ### Sun Trajectory: Azimuth and Elevation Angles
 
-The trajectory of the sun is its path through space. This is defined by the variation in two angles applied to the sun seen in the sky from earth: azimuth angle and elevation angle.
-
 <details>
 
 <summary>The trajectory of the sun is its path through space. This is defined by the variation in two angles applied to the sun seen in the sky from earth: azimuth angle and elevation angle... (Click for more detail)</summary>
