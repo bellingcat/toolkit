@@ -19,7 +19,7 @@ ShadowMap calculates shadow locations in real time and displays them on a 3D til
 
 <details>
 
-<summary>For definitions of azimuth and elevation angles click here...</summary>
+<summary>For definitions of azimuth and elevation angles click here...The trajectory of the sun is its path through space. This is defined by the variation in two angles applied to the sun seen in the sky from earth: azimuth angle and elevation angle... (Click for more detail)</summary>
 
 
 
