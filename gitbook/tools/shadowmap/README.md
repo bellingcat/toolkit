@@ -23,9 +23,11 @@ ShadowMap calculates shadow locations in real time and displays them on a 3D til
 
 The trajectory of the sun is its path through space. This is defined by the variation in two angles applied to the sun seen in the sky from earth: azimuth angle and elevation angle... <img src=".gitbook/assets/suncalcazimuthSC.jpg" alt="" data-size="original">
 
-AZIMUTH ANGLE IS
+**AZIMUTH ANGLE OF THE SUN (HORIZONTAL COMPASS BEARING)**
 
 <img src=".gitbook/assets/suncalcelevationSC.jpg" alt="" data-size="original">
+
+ELEVATION ANGLE OF THE SUN (VERTICAL SEXTANT BEARING)
 
 </details>
 
