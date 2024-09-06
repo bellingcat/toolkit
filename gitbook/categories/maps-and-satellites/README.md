@@ -64,7 +64,7 @@ _Satellite Image Accuracy - What is geolocational accuracy and what does it mean
 
 The video explains that there are a number of different considerations when talking about 'accuracy'. These include:
 
-* **Absolute Accuracy:** does the pixel in the image correlate identically with its position on earth?
+* **Absolute Accuracy:** Does the pixel in the image correlate identically with its position on earth?
 * **Relative Accuracy:** the distance between objects in the images.
 * **Resolution:** in general the higher the resolution the imagery the more accuracy.&#x20;
 * **Orthorectofication:** the curve of the earth, the angle of the satellite, the altitude of the ground captured are all processed using orthorectofication elevation models to provide a two dimensional representation. Different companies use different algorithms to do this correction with implications for accuracy. A good example of what orth-correction does can be seen [here](https://guides.geospatial.bas.ac.uk/10-things-to-know-about-vhr-satellite-data/4.-spatial-accuracy-and-ortho-correction).
@@ -74,9 +74,9 @@ Accuracy is not measured in the same way by all satellite imagery. There are two
 * [**Circular Error at the 90th percentile**](https://en.wikipedia.org/wiki/Circular\_error\_probable) **(CE90):** This means that a minimum of 90 percent of the points measured has a horizontal error less than the stated CE90 value. Used by European Space Agency.
 * [**Root Mean Squared Error (RMSE**)](https://en.wikipedia.org/wiki/Root\_mean\_square\_deviation): other platforms use RMSE to assess accuracy. &#x20;
 
-Every mapping and satellite tool in the Bellingcat toolkit has it's own standards regarding accuracy which will be referenced in the individual tool kit entry. An example of platform documenting accuracy would be [How accurate is Google Earth’s measurements?](https://www.ncesc.com/geographic-faq/how-accurate-is-google-earths-measurements/)
+Every mapping and satellite tool in the Bellingcat toolkit has it's own standards regarding accuracy which will be referenced in the individual toolkit entry. An example of platform documenting accuracy would be [How accurate is Google Earth’s measurements?](https://www.ncesc.com/geographic-faq/how-accurate-is-google-earths-measurements/)
 
-For some use cases aerial aerial imagery, rather than satellite imagery, can offer better location accuracy down to pixels and [resolutions down to centimetres](https://aerometrex.com.au/resources/blog/key-factors-consider-when-choosing-between-aerial-satellite-imagery/).
+For some use cases aerial imagery, rather than satellite imagery, can offer better location accuracy down to pixels and [resolutions down to centimetres](https://aerometrex.com.au/resources/blog/key-factors-consider-when-choosing-between-aerial-satellite-imagery/).
 
 #### Data Currency&#x20;
 
