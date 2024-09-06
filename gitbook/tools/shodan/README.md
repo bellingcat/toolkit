@@ -42,7 +42,7 @@ A web browser and email address are required to sign up for an account and use t
 
 ## Limitations
 
-The information that Shodan retrieves varies in it's efficacy. For instance, the use of a VPN may obscure a device's IP address, as well as change it's apparent geographical location. The service banners that Shodan uses for much of it's information may be limited/trimmed by the service owner.
+The information that Shodan retrieves varies in its efficacy. For instance, the use of a VPN may obscure a device's IP address, as well as change it's apparent geographical location. The service banners that Shodan uses for much of it's information may be limited/trimmed by the service owner.
 
 ## Ethical Considerations
 
