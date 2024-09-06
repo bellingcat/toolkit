@@ -90,7 +90,7 @@ As the section on Ethical Considerations covered open source researchers should 
 
 #### 'Missing' Data
 
-Again as the Ethical Considerations section covered many services deliberately exclude data. Where this happens the individual toolkit entry will indicate where this may have occurred.&#x20;
+We already covered in the Ethical Considerations section that many services deliberately exclude data. Where this happens the individual toolkit entry will indicate where this may have occurred.&#x20;
 
 **Crowdsourced data**
 
