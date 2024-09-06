@@ -9,7 +9,6 @@ description: This is the JSON codeblock for this tool
 {
   "tags": [
     "tiktok",
-    "social-media",
     "hashtag",
     "archiving"
   ]

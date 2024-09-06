@@ -9,7 +9,6 @@ description: This is the JSON codeblock for this tool
 {
   "tags": [
     "data visualization",
-    "social-media",
     "visualization",
     "email-address",
     "alias",

@@ -37,7 +37,6 @@ description: This is the JSON codeblock for this tool
     "disinformation",
     "sense-making",
     "online",
-    "social-media",
     "web-crawler",
     "web-scraper",
     "multiple-networks",
