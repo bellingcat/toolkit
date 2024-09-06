@@ -9,13 +9,21 @@ description: >-
 
 ## URL
 
-[https://app.shadowmap.org/](https://app.shadowmap.org/)
+[**https://app.shadowmap.org/**](https://app.shadowmap.org/)
 
 ## Description
 
 <figure><img src=".gitbook/assets/oPTIMISEDShadowMap Gif.gif" alt=""><figcaption><p>SHADOWMAP TILTING VIEW DEMONSTRATING AZIMUTH &#x26; ELEVATION ANGLES IN 3D</p></figcaption></figure>
 
 ShadowMap calculates shadow locations in real time and displays them on a 3D tilting map, showing arcs of azimuth and elevation angles along the sun's path.&#x20;
+
+<details>
+
+<summary>For definitions of azimuth and elevation angles click here...</summary>
+
+
+
+</details>
 
 ### Free and Paid Shadowmap Versions
 
