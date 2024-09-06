@@ -94,7 +94,7 @@ We already covered in the Ethical Considerations section that many services deli
 
 **Crowdsourced data**
 
-Crowdsourced data can be particularly prone to bias in the geographic coverage, text and image content. Some areas may be over-represented while others are under-represented. For a general overview of bias in crowd sourced applications see [Crowdsourced geospatial data quality: challenges and future directio](https://www.tandfonline.com/doi/full/10.1080/13658816.2019.1593422)
+Crowdsourced data can be particularly prone to bias in the geographic coverage, text and image content. Some areas may be over-represented while others are under-represented. For a general overview of bias in crowd sourced applications see [Crowdsourced geospatial data quality: challenges and future directions.](https://www.tandfonline.com/doi/full/10.1080/13658816.2019.1593422)
 
 ### Guides
 
