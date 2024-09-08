@@ -68,6 +68,10 @@ ALL Shadowmap functionality, up to and including the top level Studio version, i
 <img src=".gitbook/assets/image.png" alt="" data-size="original">
 {% endhint %}
 
+{% hint style="danger" %}
+Disambiguation: ShadowMap is not the same tool as [ShadeMap](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/EUDXS3T3viIA2t49EbQG/) from [Ted Piotrowski](https://github.com/ted-piotrowski). The name is very similar, and so is the basic functionality. ShadowMap cannot generally be used for Open Source research without payment, whereas ShadeMap is open source and charges only for higher quality data, not access to past and future sun positions like ShadowMap. ShadowMap's most expensive version, Studio, includes an interface for user-defined objects which is very easy to use. Researchers need first to understand and categorize their shadow-related problem before selecting a tool, e.g. ShadeMap, Shadow Map, PeakVisor, Shade Finder, ...
+{% endhint %}
+
 {% tabs %}
 {% tab title="INPUT DATA" %}
 * Location (co-ordinates/name/map pin)
