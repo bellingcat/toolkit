@@ -53,6 +53,8 @@ A range of more advanced functions are spread across 3 paid versions with increa
 {% endtab %}
 {% endtabs %}
 
+
+
 The Main Differences between all available versions are:
 
 * The Free version is restricted to today's date, but the user can define the time of day.
@@ -84,7 +86,9 @@ ALL Shadowmap functionality, up to and including the top level Studio version, i
 {% endtab %}
 
 {% tab title="USE CASES" %}
-* Matching an image containing shadows to determine the relationship between date, time and shadow pattern.
+* Matching an image containing shadows to determine the relationship between location co-ordinates, date, time and shadow pattern. This is useful to Open Source researchers for&#x20;
+  * chronolocation, i.e. to work out the time an image was taken if you know location and date
+  * geolocation i.e. to work out potential location(s) if you know the date, time and shadow pattern.
 * Projecting potential shadow patterns at user-defined location, date and time.
 * Finding the annual average solar energy value for a given location. Examples where this would be useful are: to determine likely type of vegetation, to determine likelihood of snowfall, to determine suitability for solar power generation,...
 {% endtab %}
@@ -233,6 +237,8 @@ Custom models (within a quota dependent upon subscription plan) up to 200MB can 
 Current pricing can be found at [https://shadowmap.org/pricing](https://shadowmap.org/pricing)
 
 At the time of writing in August 2024, paid versions varied from Explorer at £2.50/month, through Home at £8.33/month to Studio at £50/month.
+
+<figure><img src=".gitbook/assets/ShadwoMapPricing.JPG" alt=""><figcaption><p><strong>CHECK THE SHADOWMAP SITE FOR CURRENT PRICING. ABOVE PRICES AS AT SEPTEMBER 2024</strong></p></figcaption></figure>
 
 ## Level of difficulty
 
