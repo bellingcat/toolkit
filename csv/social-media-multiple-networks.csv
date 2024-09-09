@@ -1,0 +1,12 @@
+Multiple Networks,,,,
+Name,URL,Description,Cost,Details
+Blackbird,https://github.com/p1ngul1n0/blackbird,Check usernames and email addresses on websites and social networks,Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+Have I Been Pwned?,https://haveibeenpwned.com/,Does an email or a phone number appear in data breaches?,Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+holehe,https://github.com/megadose/holehe,holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.,Free,
+Intelx.io,http://intelx.io/,Find user details in data breaches,Partially Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+Open Measures,https://openmeasures.io/,Open Measures helps open source researchers investigate harmful online activity such as extremism and disinformation.,Partially Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+Sherlock,https://github.com/sherlock-project/sherlock,Check usernames across more than 400 websites and social networks.,Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+Skopenow,http://skopenow.com/,Social Media Investigations - name, phone, email, username searches,Free,
+snscrape,https://github.com/JustAnotherArchivist/snscrape,Comand-line tool for scraping multiple social media platforms without using official API, especially Twitter and Telegram,Free,
+Social-searcher,https://www.social-searcher.com/,Search hashtags and usernames across various platforms.,Partially Free,
+WhatsMyName,https://whatsmyname.app/,Search for usernames on several hundred platforms,Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/

@@ -1,0 +1,25 @@
+Companies & Finance,,,,
+Name,URL,Description,Cost,Details
+BlockExplorer,https://blockexplorer.com/,Following a bitcoin trail or following a bitcoin account?,Free,Crypto, Global
+China Judgements Online,https://wenshu.court.gov.cn/,Judgements given out by Chinese regional courts,Free,Other, China
+Cninfo,http://www.cninfo.com.cn/new/index,Chinese public companies financial reports and regular announcements.,Free,Other, China
+Companies House,http://beta.companieshouse.gov.uk/,Search companies and individuals in the United Kingdom and Gibraltar.,Free,Registry, United Kingdom
+Court Enforcement Information Publicity,http://zxgk.court.gov.cn/,Chinese individuals and companies listed by the court as involved in dishonest practices.,Free,Registry, China
+EDGAR,https://www.sec.gov/edgar/search/,Database of corporate filings for the US,Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+Edgar Suite,https://github.com/bellingcat/EDGAR,Tool for the retrieval of corporate and financial data from the SEC,Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+Etherscan,https://etherscan.io/,An explorer that allows researchers to track wallets, transactions and more on the Ethereum blockchain.,Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+European e-Justice portal,https://e-justice.europa.eu/home.do?action=home,<p>Site owner European Union<br>Consolidates official national registers for all member states.<br>Site might contain data not available on OpenCorporates.<br>Fields returned Registered office; Registration number; Company type; Business Register ID; EUID</p>,Free,Registry, European Union, Iceland, Liechtenstein, Norway
+ICIJ Offshore Leaks Database,http://offshoreleaks.icij.org/,Find out who’s behind more than 810k offshore companies, foundations and trusts from the Panama Papers, the Offshore Leaks, the Bahamas Leaks and the Paradise Papers investigations.,Free,Leak, Global, [How to use the Offshore Leaks Database](https://offshoreleaks.icij.org/pages/howtouse), [How to use ICIJ's Offshore Leaks Database (part 1) (2 min)](https://www.youtube.com/watch?v=k0G83QXrMWA)
+ImportYeti,https://www.importyeti.com/,Search 60 million US customs sea shipment records, find company suppliers.,Free,United States
+LittleSis,https://littlesis.org/,Connects dots between influential / wealthy individuals in (mostly US) politics and business.,Free,United States
+Lumen,https://lumendatabase.org/,A search engine for online content takedown requests.,Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+Maltego,https://www.maltego.com/,Maltego is an investigation platform that combines two things at once: (1) It acts as a search tool, and (2) It creates a graph establishing links between data you uncover from your search.,Partially Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+National Enterprise Credit Information Publicity System,http://www.gsxt.gov.cn/index.html,Companies registered in China, including registered capital, legal representative, incorporation date, penalty history and business irregularity records.,Free,Registry, China
+North Data,https://www.northdata.com/,Search for people and companies in EU corporate and trade registers + visualize relationships,Partially Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+OCCRP Aleph,https://www.aleph.occrp.org,Aleph offers a way to research sanctions lists, corporate registries, leaks, and more,Free,
+OpenCorporates,https://opencorporates.com/,OpenCorporates is a repository of company registries,Partially Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+OpenSanctions,https://www.opensanctions.org/,Open-source international database of sanctions data, persons of interest and politically exposed persons.,Partially Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+Osint Tools Map,https://cipher387.github.io/osintmap/,Worldwide map of business registries, court records and other info, by @cyb\_detective,Free,Registry, Global
+QCC,https://www.qcc.com/,Private website, one of the biggest information providers, with basic registration information, shareholder structure, beneficial owners, business authorization certificates, patent information, etc.,Free,Other, China
+Qixin,,Similar to QCC,Free,Other, China
+SanctionsExplorer,https://sanctionsexplorer.org/,Database of OFAC/UN/EU sanctions,Free,

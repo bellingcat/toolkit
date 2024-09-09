@@ -1,0 +1,16 @@
+Street View,,,,
+Name,URL,Description,Cost,Details
+Baidu Maps,http://map.baidu.com/,Baidu’s mapping service offering satellite imagery, street maps, and streetview (“Panorama” - zh:百度全景).,Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+Bing Maps,https://www.bing.com/maps/,Bing Maps is a web mapping service provided by Microsoft that offers detailed geographical information and tools for route planning, location search, and satellite imagery.,Partially Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+Carte.ma,http://carte.ma/,Mapping/streetview service for Morocco,Free,
+Geograph,http://geograph.org/,Georeferenced images.,Free,
+GeoHints,https://geohints.com/,GeoHints is a website that provides information about things like traffic lights, utility poles, bollards etc. for different regions of the world to help geolocate a location.,Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+Google Earth Pro,https://www.google.com/earth/about/versions/,Google Earth is a geospatial tool that provides detailed, global satellite imagery, maps, 3D terrain models, and the ability to explore geographic data interactively.,Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+Google Maps,https://www.google.com/maps,Google Maps provides mapping information, satellite imagery and Google Street View imagery including historical Street View images.,Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+KartaView,https://kartaview.org/map,KartaView is a crowdsourced, street-level imagery platform that allows users to contribute, view, and use photos to enhance and validate map data.,Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+Mapillary,https://www.mapillary.com/,Mapillary is a crowdsourced street-level imagery platform.,Partially Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+MapSwitcher,https://github.com/david-r-edgar/MapSwitcher,Chrome extension switches  between online map apps, maintaining (as far as possible) the map centre, zoom level, & directions of the source map.,Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+Photo-Map.RU,http://photo-map.ru/,Geotagged VK posts.,Free,
+Tencent Maps,http://map.qq.com/,Tencent Maps (formerly SOSO Maps) is a desktop and web mapping service application and technology provided by Chinese company Tencent, offering satellite imagery, street maps, street view (coverage) and historical view perspectives.,Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+Wikimapia,https://wikimapia.org/,Wikimapia is a collaborative mapping project that aims to describe every location on Earth, combining the interactive features of a detailed map with the versatility of a wiki system.,Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
+Yandex Maps,https://yandex.com/maps/,A platform offering detailed maps, satellite imagery, street views (static & sometimes dynamic imagery, including aerial views). Often the best available data on Russia & surrounding regions.,Partially Free,https://bellingcat.gitbook.io/toolkit/more/all-tools/
