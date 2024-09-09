@@ -24,7 +24,11 @@ jobs:
 
       - name: Create a release
         if: steps.tag.outputs.new_tag
-        uses: ncipollo/release-action@v1
+        uses: andelf/nightly-release@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          artifacts: "csv/*.csv"
-          tag: ${{ steps.tags.outputs.new_tag }}
+          tag_name: nightly
+          name: 'Nightly Release $$'
+          prerelease: true
+          files: csv/*.csv
