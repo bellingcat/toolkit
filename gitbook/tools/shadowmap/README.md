@@ -161,10 +161,10 @@ The 'Hide & Height' menu appears in Visualization mode whenever the user Left Mo
 {% tab title="POINT N..." %}
 <figure><img src=".gitbook/assets/Buttons HELP diag.JPG" alt=""><figcaption></figcaption></figure>
 
-* The Point North compass button resets the view orientation to the north
-* The Share button allows the user to share or embed a project with default time, date, camera angle, focal length, etc. Shared models are not editable by the audience, but interaction is allowed and links & embeds can be updated simultaneously via the "Update" button
-* The Settings button invokes the Settings menu
-* The Zoom buttons adjust the scope of the view
+* The Point North compass button resets the view orientation to the north.
+* The Share button allows the user to share or embed a project with default time, date, camera angle, focal length, etc. Shared models are not editable by the audience, but interaction is allowed and links & embeds can be updated simultaneously via the "Update" button.
+* The Settings button invokes the Settings menu.
+* The Zoom buttons adjust the scope of the view.
 {% endtab %}
 {% endtabs %}
 
@@ -252,9 +252,9 @@ Shadowmap has a complex set of menus and requires a good understanding of the mo
 
 ## Requirements
 
-* Free version does not require login
-* Paid versions require an account and payment
-* High quality imagery requires good graphics hardware
+* Free version does not require login.
+* Paid versions require an account and payment.
+* High quality imagery requires good graphics hardware.
 
 ## Limitations
 
