@@ -136,3 +136,4 @@
   * [Radar Interference Tracker](tools/radar-interference-tracker/README.md)
   * [TruffleHog](tools/trufflehog/README.md)
   * [ShadowMap](tools/shadowmap/README.md)
+  * [Telegram Phone Number Checker](tools/telegram-phone-number-checker/README.md)
