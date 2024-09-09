@@ -1,0 +1,30 @@
+name: CSV release
+
+on:
+  #schedule:
+  #  - cron: '0 23 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Bump version and push tag
+        id: tag
+        uses: laputansoft/github-tag-action@v4.6
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create a release
+        if: steps.tag.outputs.new_tag
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "csv/*.csv"
+          tag: ${{ steps.tags.outputs.new_tag }}
