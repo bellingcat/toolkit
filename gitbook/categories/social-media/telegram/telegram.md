@@ -2,7 +2,6 @@
 
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
-| [**Bellingcat Phonenumber Check**](https://github.com/bellingcat/telegram-phone-number-checker) | Github - check whether a specific phone number is connected to a Telegram account. | <mark style="background-color:green;">Free</mark> |  |
 | [**Geogramint**](https://github.com/Alb-310/Geogramint) | Github - Find Telegram groups and users near a geographical location | <mark style="background-color:green;">Free</mark> |  |
 | [**Intelligence X Telegram Search**](https://intelx.io/tools?tab=telegram) | Google-based search engine for Telegram (includes Telegago) | <mark style="background-color:green;">Free</mark> |  |
 | [**Open Measures**](https://openmeasures.io/) | Open Measures helps open source researchers investigate harmful online activity such as extremism and disinformation. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../../tools/open-measures/README.md) |
