@@ -23,6 +23,6 @@ jobs:
         with:
           tag_name: nightly
           name: "Bellingcat's Online Investigation Toolkit"
-          body: "See Assets below for CSV downloads by category. Last updated on $$"
+          body: "See Assets below for CSV downloads by category."
           prerelease: true
           files: csv/*.csv
