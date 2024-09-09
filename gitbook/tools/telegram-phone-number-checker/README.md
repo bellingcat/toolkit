@@ -18,7 +18,7 @@ The Telegram Phone Number Checker is a Python-based command line tool that takes
 
 When investigating a phone number of interest, this tool may help a user find more information about the owner of the phone number.\
 \
-If adding the contact is successful, the tool extracts public information that could include the account  username, first name, last name, profile photo, and when they were last online.
+If adding the contact is successful, the tool extracts public information that could include the account username, first name, last name, profile photo, and when they were last online.
 
 <details>
 
@@ -60,7 +60,7 @@ It is possible to gain access to people's names and images using this tool, and 
 
 ## Tool provider
 
-[Bellingcat](https://www.bellingcat.com/)
+[Bellingcat](https://www.bellingcat.com/), Netherlands
 
 ## Advertising Trackers
 
