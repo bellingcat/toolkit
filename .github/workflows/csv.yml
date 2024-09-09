@@ -1,4 +1,4 @@
-name: CSV release
+name: CSV Nightly
 
 on:
   schedule:
@@ -25,8 +25,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: nightly
+          tag_name: csv
           name: "Bellingcat's Online Investigation Toolkit"
-          body: "See Assets below for CSV downloads by category."
-          prerelease: true
+          body: "See Assets below for CSV downloads by category. Updated nightly."
           files: csv/*.csv
