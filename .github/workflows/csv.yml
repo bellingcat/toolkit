@@ -17,7 +17,6 @@ jobs:
         run: npm install
 
       - name: Create a release
-        if: steps.tag.outputs.new_tag
         uses: andelf/nightly-release@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
