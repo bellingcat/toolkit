@@ -135,3 +135,4 @@
   * [OpenSecrets](tools/opensecrets/README.md)
   * [Radar Interference Tracker](tools/radar-interference-tracker/README.md)
   * [TruffleHog](tools/trufflehog/README.md)
+  * [ShadowMap](tools/shadowmap/README.md)
