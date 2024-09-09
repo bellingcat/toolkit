@@ -16,6 +16,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Run node script to update csv
+        run: |
+          node src/csv.mjs
+
       - name: Create a release
         uses: andelf/nightly-release@main
         env:

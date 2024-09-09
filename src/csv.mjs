@@ -5,6 +5,7 @@ const { writeIfChanged, getSummary, getCategories, getTools } = pkg;
 
 const allTools = getTools().filter((tool) => !tool.draft );
 
+fs.mkdirSync('csv', { recursive: true });
 const allCategories = getCategories();
 allCategories.forEach((category) => {
   if (category.hasSubcategories) { return; }

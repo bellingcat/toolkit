@@ -24,10 +24,6 @@ jobs:
         run: |
           node src/categories.mjs
 
-      - name: Run node script to update csv
-        run: |
-          node src/csv.mjs
-
       - name: Detect changes
         uses: dorny/paths-filter@v3
         id: changes
@@ -40,9 +36,6 @@ jobs:
               - 'gitbook/categories/**'
             tools:
               - 'gitbook/tools/**'
-            csv:
-              - 'csv/*.csv'
-
 
       - name: Commit categories
         if: steps.changes.outputs.categories == 'true'
@@ -59,14 +52,6 @@ jobs:
           git config --local user.name "GitHub Action"
           git add gitbook/tools
           git commit -m "Build: Update Tools"
-
-      - name: Commit csv
-        if: steps.changes.outputs.tools == 'true'
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add csv
-          git commit -m "Build: Update CSV"
 
       - name: Push changes
         if: steps.changes.outputs.all == 'true'
