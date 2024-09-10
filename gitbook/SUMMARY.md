@@ -137,3 +137,4 @@
   * [TruffleHog](tools/trufflehog/README.md)
   * [ShadowMap](tools/shadowmap/README.md)
   * [Telegram Phone Number Checker](tools/telegram-phone-number-checker/README.md)
+  * [China-related resources](tools/china-related-resources/README.md)
