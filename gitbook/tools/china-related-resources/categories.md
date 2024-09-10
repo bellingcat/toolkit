@@ -31,7 +31,7 @@
 ## Other
 
 * [ ] [Archiving](https://bellingcat.gitbook.io/toolkit/categories/archiving)
-* [ ] [Companies & Finance](https://bellingcat.gitbook.io/toolkit/categories/companies-and-finance)
+* [x] [Companies & Finance](https://bellingcat.gitbook.io/toolkit/categories/companies-and-finance)
 * [ ] [Data Visualization](https://bellingcat.gitbook.io/toolkit/categories/data-visualization)
 * [ ] [Environment & Wildlife](https://bellingcat.gitbook.io/toolkit/categories/environment-and-wildlife)
 * [ ] [People](https://bellingcat.gitbook.io/toolkit/categories/people)
