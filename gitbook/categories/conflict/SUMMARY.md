@@ -1,3 +1,3 @@
 # Table of contents
 
-* [conflict](README.md)
+* [Conflict](README.md)
