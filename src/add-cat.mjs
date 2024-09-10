@@ -26,16 +26,25 @@ function createCategory(category) {
   /*
    * category: {
    *   title: 'Category Name',
-   *   path: "category-name" or "path/to/category-name"
+   *   path: "category-name" or "parent-category/category-name"
    * }
    */
   const title = category.title;
   const tag = path.basename(category.path);
+  const isSubcategory = tag !== category.path;
   const pathname = path.join('gitbook', 'categories', category.path);
   fs.mkdirSync(pathname, { recursive: true });
   fs.writeFileSync(`${pathname}/SUMMARY.md`, `# Table of contents\n\n* [${title}](README.md)`);
   fs.writeFileSync(`${pathname}/README.md`, `# ${title}\n\n`);
-  console.log("Category created");
+  console.log("Category created:", category.title, "at", category.path);
+
+  // check if the parent category needs to be initialized
+  if (isSubcategory) {
+    const parentCategory = path.dirname(category.path);
+    if (!fs.existsSync(path.join('gitbook', 'categories', parentCategory, 'README.md'))) {
+      createCategory({title: parentCategory, path: parentCategory});
+    }
+  }
 }
 
 async function createCategorySpace(name) {
