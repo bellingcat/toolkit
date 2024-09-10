@@ -97,6 +97,12 @@ What this means is that, whether you use the service or not, and regardless of w
 
 Moreover, the [privacy policy](https://www.truecaller.com/privacy/our-privacy-policy/privacy-policy/row) seems to imply that if you share someone else's personal information with the tool, you must ensure they are aware of and consent to the tool's use of their data. (See the third paragraph of the [privacy policy)](https://www.truecaller.com/privacy/our-privacy-policy/privacy-policy/row)
 
+3. Enhanced Search Feature Privacy Risks:
+
+Users need to note that when signing up with an email address, users outside the EU might inadvertently give permission to upload all the data associated with a particular email address without realizing it. This feature is called "Enhanced Search Feature". **It is checked on the box by default** when signing up. Keep an eye on this if you decide to use the tool. [ ](https://www.truecaller.com/privacy/our-privacy-policy/privacy-policy/row)
+
+[Item 1.4 ](https://www.truecaller.com/privacy/our-privacy-policy/privacy-policy/row)of its Privacy Policy shows where you get the app matters. If users download it from sources other than the App Store or Google Play, such as on the web, it might collect your contact info if you turn on a specific feature called “Truecaller Enhanced Search Functionality.” If you use the Enhanced Search feature, Truecaller can collect names, phone numbers, Google IDs, and email addresses from your contacts list.
+
 ## Guides&#x20;
 
 Bellingcat guide: “Using Phone Contact Book Apps For Digital Research”, Aric Toler
