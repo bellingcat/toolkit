@@ -35,6 +35,7 @@
 * [Websites](categories/websites/websites.md)
 * [Companies & Finance](categories/companies-and-finance/companies-and-finance.md)
 * [Environment & Wildlife](categories/environment-and-wildlife/environment-and-wildlife.md)
+* [Geolocation](categories/geolocation/geolocation.md)
 
 ## 📖 Resources
 
