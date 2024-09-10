@@ -49,4 +49,4 @@ jobs:
           branch: remove-tool-${{ inputs.toolName }}
           commit-message: "Remove Tool: ${{ inputs.toolName }}"
           title: "Remove Tool: ${{ inputs.toolName }}"
-          body: "This pull request removes ${{ inputs.toolName }} from gitbook/tools and from SUMMARY.md.\n\nCreated via workflow. In case of merge conflicts, re-run all jobs on [Run ${{ github.run_number }}](https://github.com/bellingcat/toolkit/actions/runs/${{ github.run_id }}).
+          body: "This pull request removes ${{ inputs.toolName }} from gitbook/tools and from SUMMARY.md.\n\nCreated via workflow. In case of merge conflicts, re-run all jobs on [Run ${{ github.run_number }}](https://github.com/bellingcat/toolkit/actions/runs/${{ github.run_id }})."
