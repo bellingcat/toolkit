@@ -1,4 +1,4 @@
-# conflict
+# Conflict
 
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
