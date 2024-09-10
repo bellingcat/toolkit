@@ -30,6 +30,7 @@
 
 ## Other
 
+* [ ] [Geolocation](https://bellingcat.gitbook.io/toolkit/categories/Geolocation)
 * [ ] [Archiving](https://bellingcat.gitbook.io/toolkit/categories/archiving)
 * [x] [Companies & Finance](https://bellingcat.gitbook.io/toolkit/categories/companies-and-finance)
 * [ ] [Data Visualization](https://bellingcat.gitbook.io/toolkit/categories/data-visualization)
