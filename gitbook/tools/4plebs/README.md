@@ -42,22 +42,17 @@ The example below shows the results of searching for the term _Bellingcat_ acros
 
 ## Limitations
 
-* **Incomplete archive:** posts from 2006-2009 have not yet been imported to the archive. Some 2010-2013 archives are partially imported (see: [https://archive.4plebs.org/\_/articles/faq/](https://archive.4plebs.org/\_/articles/faq/) for more detail).
-* **Takedown requests:** some content has been removed as a result of takedown requests for more detail see: [https://lumendatabase.org/notices/search?recipient\_name\_facet=4plebs.org](https://lumendatabase.org/notices/search?recipient\_name\_facet=4plebs.org)
-* **Personal information:** Personal information related emails or on-site reports are not archived.
+* **Incomplete archive:** posts from 2006-2009 have not yet been imported to the archive. Some 2010-2013 archives are partially imported (see: [https://archive.4plebs.org/\_/articles/faq/](https://archive.4plebs.org/\_/articles/faq/) for more detail). Additionally, the tool only archives 11 boards.
+* **Takedown requests:** some content has been removed as a result of takedown requests. For more detail see: [https://lumendatabase.org/notices/search?recipient\_name\_facet=4plebs.org](https://lumendatabase.org/notices/search?recipient\_name\_facet=4plebs.org)
+* **Personal information:** Personal information related to emails or on-site reports are not archived.
 * **API rate limits**: All endpoints have dynamic rate limits. See [response status code 429](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429) and [Retry-After header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After).
 
 ## Ethical Considerations
 
-When using 4plebs for research purposes, the volunteer page maintainer suggests to consider the following ethical aspects:
-
 * **Privacy and Consent**: Although 4plebs archives public posts, researchers should be mindful of the privacy expectations of individuals who made those posts. Not all users understand or anticipate their contributions being analyzed or quoted in research.
-* **Bias and Representativeness**: Acknowledge that the data collected from 4plebs may not be representative of broader populations or viewpoints. Research findings should be contextualized within the scope and limitations of the data source.
+* **Bias and Representativeness**: Data collected from 4plebs may not be representative of broader populations or viewpoints. Research findings should be contextualized within the scope and limitations of the data source.
 * **Ethical Use of Content**: Be cautious and respectful when using content that may be sensitive, offensive, or controversial. Researchers should critically evaluate the necessity and implications of including such content in their work.
-* **Compliance with Institutional Guidelines**: Ensure that your research adheres to the ethics guidelines and approval requirements set by your institution or research body.
-* **The Oxygen of Amplification**_**:**_ Think carefully about what you publish not to unwittingly amplify some of the messaging present on 4Chan (see: Phillips, W. (2018) _The Oxygen of Amplification_, _Data & Society_. Data & Society Research Institute. Available at: [https://datasociety.net/library/oxygen-of-amplification/](https://datasociety.net/library/oxygen-of-amplification/) (Accessed: 22 April 2024)).
-
-Considering these ethical guidelines will help maintain the integrity of your research and protect the rights and dignity of individuals whose posts might be included in your study.
+* **Amplification**_**:**_ Think carefully about what you publish, so as to avoid unwittingly amplifying some of the potentially harmful messaging present on 4Chan. See [The Oxygen of Amplification](https://datasociety.net/library/oxygen-of-amplification/) by Whitney Phillips.
 
 ## Guide
 
@@ -67,17 +62,18 @@ To effectively use 4plebs, especially for beginners or those looking to refine t
 
 * [https://archive.4plebs.org/\_/articles/faq/](https://archive.4plebs.org/\_/articles/faq/)
 
-**Tutorials and Articles**
+&#x20;**Articles**
 
-* Koltai, T.L., Kolina (2023) _The Folly of DALL-E: How 4chan is Abusing Bing’s New Image Model_, _bellingcat_. Available at: [https://www.bellingcat.com/news/2023/10/06/the-folly-of-dall-e-how-4chan-is-abusing-bings-new-image-model/](https://www.bellingcat.com/news/2023/10/06/the-folly-of-dall-e-how-4chan-is-abusing-bings-new-image-model/) (Accessed: 22 April 2024).
-* pleb, N. (2023) ‘pleebe/4plebs-downloads’. Available at: [https://github.com/pleebe/4plebs-downloads](https://github.com/pleebe/4plebs-downloads) (Accessed: 22 April 2024).
-* Project, A.W.X., Robert Amour, The Q. Origins (2021) _Where in the World is Q? Clues from Image Metadata_, _bellingcat_. Available at: [https://www.bellingcat.com/news/rest-of-world/2021/05/10/where-in-the-world-is-q-clues-from-image-metadata/](https://www.bellingcat.com/news/rest-of-world/2021/05/10/where-in-the-world-is-q-clues-from-image-metadata/) (Accessed: 22 April 2024).
-* Thompson, A. (2018) ‘The Measure of Hate on 4Chan’, _Rolling Stone_, 10 May. Available at: [https://www.rollingstone.com/politics/politics-news/the-measure-of-hate-on-4chan-627922/](https://www.rollingstone.com/politics/politics-news/the-measure-of-hate-on-4chan-627922/) (Accessed: 22 April 2024).
+4plebs has been used in the course of various online investigations, including:
+
+* [_The Folly of DALL-E: How 4chan is Abusing Bing’s New Image Model_](https://www.bellingcat.com/news/2023/10/06/the-folly-of-dall-e-how-4chan-is-abusing-bings-new-image-model/) by Bellingcat
+* [_Where in the World is Q? Clues from Image Metadata_](https://www.bellingcat.com/news/rest-of-world/2021/05/10/where-in-the-world-is-q-clues-from-image-metadata/) by Bellingcat
+* [_The Measure of Hate on 4chan_](https://www.rollingstone.com/politics/politics-news/the-measure-of-hate-on-4chan-627922/) by R. Thompson
 
 #### Developer Resources
 
-* [https://4plebs.tech/foolfuuka/](https://4plebs.tech/foolfuuka/).
-* [Documentation from original developers](http://foolfuuka.readthedocs.io/en/latest/code\_guide/documentation/api.html) (somewhat incorrect).
+* [https://4plebs.tech/foolfuuka/](https://4plebs.tech/foolfuuka/)
+* [Documentation from original developers](http://foolfuuka.readthedocs.io/en/latest/code\_guide/documentation/api.html)
 
 **Community and Support**
 
@@ -96,4 +92,4 @@ Unclear (some of the website developers are listed here: [https://archive.4plebs
 
 ## Page Maintainer
 
-Bellingcat Volunteer Team/Unassigned
+Bellingcat Volunteer Team
