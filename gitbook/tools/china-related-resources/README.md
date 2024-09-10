@@ -1,5 +1,5 @@
 ---
-description: Resources for researching companies in China.
+description: Resources for research on companies in China.
 ---
 
 # China-related resources
