@@ -5,7 +5,7 @@ const { apiCall } = pkg;
 
 // Create a new tool directory from the command line
 const categoryName = process.argv[2]
-const categoryPath = process.argv[3]
+const categoryPath = process.argv[3].toLowerCase();
 const USAGE = 'Usage: node add-cat.mjs "Category Name" {parent-category}/category-name';
 if (!categoryName) {
   console.log(USAGE);
