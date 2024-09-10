@@ -30,11 +30,11 @@
 
 ## Other
 
-* [ ] [Geolocation](https://bellingcat.gitbook.io/toolkit/categories/Geolocation)
 * [ ] [Archiving](https://bellingcat.gitbook.io/toolkit/categories/archiving)
 * [ ] [Companies & Finance](https://bellingcat.gitbook.io/toolkit/categories/companies-and-finance)
 * [ ] [Data Visualization](https://bellingcat.gitbook.io/toolkit/categories/data-visualization)
 * [ ] [Environment & Wildlife](https://bellingcat.gitbook.io/toolkit/categories/environment-and-wildlife)
+* [ ] [Geolocation](https://bellingcat.gitbook.io/toolkit/categories/geolocation)
 * [ ] [People](https://bellingcat.gitbook.io/toolkit/categories/people)
 * [x] [Transport](https://bellingcat.gitbook.io/toolkit/categories/transport)
 * [ ] [Websites](https://bellingcat.gitbook.io/toolkit/categories/websites)

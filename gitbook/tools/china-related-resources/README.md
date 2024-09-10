@@ -4,6 +4,9 @@ description: Resources for research on companies in China.
 
 # China-related resources
 
+## URL
+
+https://gitbook.io/bellingcat/toolkit/
 
 
 ## Description
