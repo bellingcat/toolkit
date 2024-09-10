@@ -16,7 +16,6 @@ description: This is the JSON codeblock for this tool
     "real-time",
     "mapping",
     "geolocation",
-    "conflict",
     "crisis",
     "protest",
     "mapping-solutions",

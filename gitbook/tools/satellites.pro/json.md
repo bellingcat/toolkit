@@ -25,7 +25,6 @@ description: This is the JSON codeblock for this tool
     "agriculture",
     "water",
     "climate-change",
-    "conflict",
     "apple-maps",
     "google-maps",
     "yandex-maps",
