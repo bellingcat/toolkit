@@ -18,6 +18,5 @@
 | [**OpenCorporates**](https://opencorporates.com/) | OpenCorporates is a repository of company registries | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/opencorporates/README.md) |
 | [**OpenSanctions**](https://www.opensanctions.org/) | Open-source international database of sanctions data, persons of interest and politically exposed persons. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/opensanctions/README.md) |
 | [**Osint Tools Map**](https://cipher387.github.io/osintmap/) | Worldwide map of business registries, court records and other info, by @cyb\_detective | <mark style="background-color:green;">Free</mark> | Registry, Global |
-| [**QCC**](https://www.qcc.com/) | Private website, one of the biggest information providers, with basic registration information, shareholder structure, beneficial owners, business authorization certificates, patent information, etc. | <mark style="background-color:green;">Free</mark> | Other, China |
 | [**Qixin**]() | Similar to QCC | <mark style="background-color:green;">Free</mark> | Other, China |
 | [**SanctionsExplorer**](https://sanctionsexplorer.org/) | Database of OFAC/UN/EU sanctions | <mark style="background-color:green;">Free</mark> |  |
