@@ -80,7 +80,9 @@ NOTE: To use Truecaller’s features, especially on the mobile app, users typica
 ## Limitations
 
 1. Limited Search Requests on Web Interface: Truecaller users doing searches on the web interface rather than the mobile app can only do a limited amount of reverse phone number lookups before it suggests downloading the mobile app. (The tool provider does not specify what the quota is, but users will get an “[exceeded attempts](https://www.truecaller.com/reverse-phone-number-lookup)” message)&#x20;
-2. [Mixed Accuracy of Names:](https://www.truecaller.com/blog/features/how-truecallers-caller-id-works-your-questions-answered) Because the data is crowd-sourced or manually entered by users, the name will sometimes depend on how it appears on other people’s phonebook. For example, a Truecaller user permits access to his/her phonebook, and if the phone number of an individual under investigation is labeled “Neighbor”, then it will appear as “Neighbor” in the contact list, which may not be enough to help ID the phone number owner.&#x20;
+2.  [Mixed Accuracy of Names:](https://www.truecaller.com/blog/features/how-truecallers-caller-id-works-your-questions-answered) Names on this tool have mixed accuracy. Because the data is crowd-sourced or manually entered by users, the name will sometimes depend on how it appears in other people’s phonebooks. For example, if a Truecaller user permits access to his/her phonebook, and the phone number of an individual under investigation is labeled “Neighbor,” it will appear as “Neighbor” in the contact list. &#x20;
+
+    In addition, the names may not always reflect the individual’s true identity. Users can provide false names or names to a Truecaller user that do not correspond to the person behind the phone number, so the accuracy of a name may require further corroboration.
 3. User Privacy Concerns: According to this [article](https://techpoint.africa/2019/12/18/truecaller-data-developer-dive/), the app may be uploading your device information into their servers, and that the app may be using an unsecured method of uploading those data.
 
 ## Ethical Considerations
