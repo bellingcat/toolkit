@@ -17,7 +17,6 @@ description: This is the JSON codeblock for this tool
     "mapillary",
     "streetview",
     "maps",
-    "geolocation",
     "geospatial"
   ]
 }
