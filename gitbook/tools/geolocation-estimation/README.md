@@ -1,12 +1,12 @@
 ---
-description: A brief one line description of this tool
+description: Platform that estimates image location using deep learning/AI.
 ---
 
 # Geolocation Estimation
 
 ## URL
 
-https://example.com
+https://labs.tib.eu/geoestimation/
 
 ## Description
 
