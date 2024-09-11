@@ -63,9 +63,11 @@ NOTE: To use Truecaller’s features, especially on the mobile app, users typica
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
+
+In addition to the free version, the tool has three paid tiers: Premium, Family, and Gold. The information is available here: [https://www.truecaller.com/premium/](https://www.truecaller.com/premium/)&#x20;
 
 ## Level of difficulty
 
@@ -130,8 +132,8 @@ Sweden
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer |
