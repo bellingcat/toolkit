@@ -6,7 +6,6 @@
 ## ⚒️ Categories
 
 * [Archiving](categories/archiving/archiving.md)
-* [Data Visualization](categories/data-visualization/data-visualization.md)
 * [Social Media](categories/social-media/social-media.md)
   * [Discord](categories/social-media/discord/discord.md)
   * [Facebook](categories/social-media/facebook/facebook.md)
@@ -37,7 +36,8 @@
 * [Environment & Wildlife](categories/environment-and-wildlife/environment-and-wildlife.md)
 * [Geolocation](categories/geolocation/geolocation.md)
 * [Conflict](categories/conflict/conflict.md)
-
+* [Data Visualization](categories/data-visualization/data-visualization.md)
+  
 ## 📖 Resources
 
 * [Guides & Handbooks](resources/guides-and-handbooks.md)
