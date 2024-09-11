@@ -9,7 +9,6 @@ description: This is the JSON codeblock for this tool
 {
   "url": "https://cat-uxo.com/",
   "tags": [
-    "conflict"
   ]
 }
 ```
