@@ -5,6 +5,10 @@
 
 ## ⚒️ Categories
 
+* [Maps & Satellites](categories/maps-and-satellites/maps-and-satellites.md)
+  * [Maps](categories/maps-and-satellites/maps/maps.md)
+  * [Satellite Imagery](categories/maps-and-satellites/satellite-imagery/satellite-imagery.md)
+  * [Street View](categories/maps-and-satellites/street-view/street-view.md)
 * [Archiving](categories/archiving/archiving.md)
 * [Social Media](categories/social-media/social-media.md)
   * [Discord](categories/social-media/discord/discord.md)
@@ -26,10 +30,6 @@
   * [Metadata](categories/image-video/metadata/metadata.md)
   * [Misc](categories/image-video/image-misc/image-misc.md)
 * [People](categories/people/people.md)
-* [Maps & Satellites](categories/maps-and-satellites/maps-and-satellites.md)
-  * [Maps](categories/maps-and-satellites/maps/maps.md)
-  * [Satellite Imagery](categories/maps-and-satellites/satellite-imagery/satellite-imagery.md)
-  * [Street View](categories/maps-and-satellites/street-view/street-view.md)
 * [Transport](categories/transport/transport.md)
 * [Websites](categories/websites/websites.md)
 * [Companies & Finance](categories/companies-and-finance/companies-and-finance.md)
