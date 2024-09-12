@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Namechk is a search tool that searches social media platforms and domains for usernames or website names. Entering a query returns results from more than a hundred domains and social media platforms, indicating whether or not the username has been registered on that platform / with that domain.
+Namechk is a search tool that searches social media platforms and domains for usernames or website names. Entering a query returns results from more than a hundred domains and social media platforms, indicating whether or not the username has been registered on that platform / with that domain. Domains or usernames that return as **red** indicate that they are registered with the associated platform, while names that return **green** indicate the username is still available on that platform.
 
 Namechk's functions can be a helpful OSINT tool for tracking individuals (particularly those with unique usernames) across platforms, as well as for understanding the spread of an entity's domain registrations.&#x20;
 
@@ -39,7 +39,7 @@ None.
 
 ## Ethical Considerations
 
-Namechk's [Privacy Policy](https://namechk.com/privacy-policy/) states that it uses cookies, and collects any provided personal information (such as that collected during registrations or purchases) to personalise user experiences, improve the website, improve customer service, and process transactions. Additionally, information is sometimes shared with "trusted third parties."&#x20;
+Namechk's [Privacy Policy](https://namechk.com/privacy-policy/) states that it "collects information from you when you register on Namechk or fill out a form," indicating that it may be collecting information when the search field is utilised. It further notes that it uses cookies, and collects any provided personal information (such as that collected during registrations or purchases) to personalise user experiences, improve the website, improve customer service, and process transactions. Additionally, information is sometimes shared with "trusted third parties."&#x20;
 
 It also states that it "implements a variety of security measures to maintain the safety of your personal information," but fails to elaborate on how.
 
