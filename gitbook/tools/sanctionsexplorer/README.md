@@ -54,7 +54,7 @@ Clicking on any of the Entity Names will open the profile for that specific enti
 
 <figure><img src=".gitbook/assets/SE7.png" alt="" width="563"><figcaption><p>Profile for Hap Jang Gang vessel. Click to expand and view explanation notes.</p></figcaption></figure>
 
-* An example of what a profile for an aircraft looks like. The information includes the manufacure date, the model of the aircraft (this usually includes the name of manufacturer, but now always), the current and sometimes the previous tail number, and the owner of the aircraft. Please note that to search for aircraft in Sanctions Explorer, you can use either the tail number, the name of the aircraft or the manufacturer (Airbus, Sikorsky, LockheedMartin, Bell Helicopter, Embraer, Bombardier to name a few), or the model (Phenom 300 - an Embraer-made business jet, CRJ100 - a Bombardier-made regional jet).
+* An example of what a profile for an aircraft looks like. The information includes the manufacure date, the model of the aircraft (this usually includes the name of manufacturer, but not always), the current and sometimes the previous tail number, and the owner of the aircraft. Please note that to search for aircraft in Sanctions Explorer, you can use either the tail number, the name of the aircraft or the manufacturer (Airbus, Sikorsky, LockheedMartin, Bell Helicopter, Embraer, Bombardier to name a few), or the model (Phenom 300 - an Embraer-made business jet, CRJ100 - a Bombardier-made regional jet).
 
 <div>
 
