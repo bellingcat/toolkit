@@ -41,7 +41,7 @@ Truecaller has been used in this Bellingcat investigation:
 * Identifying the Russian GRU Commander associated with the MH17 crash: [https://www.bellingcat.com/news/uk-and-europe/2018/05/25/mh17-russian-gru-commander-orion-identified-oleg-ivannikov/](https://www.bellingcat.com/news/uk-and-europe/2018/05/25/mh17-russian-gru-commander-orion-identified-oleg-ivannikov/) \
 
 
-### _How Truecaller Builds Its Database_ 
+### How Truecaller Builds Its Database 
 
 Truecaller primarily builds its vast database through a combination of user-contributed data and public directories.
 
