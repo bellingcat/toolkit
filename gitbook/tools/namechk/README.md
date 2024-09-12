@@ -34,7 +34,7 @@ None.
 
 ## Limitations
 
-* One username may be used across several platforms by different people; results from Namechk should be treated as clues rather than as a definitive result.
+* One username may be used across several platforms by different people; results from Namechk should be treated as clues rather than as a definitive results.
 * Common usernames may flag on many/all platforms and fail to provide any useful clues.
 
 ## Ethical Considerations
