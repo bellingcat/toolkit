@@ -1,20 +1,20 @@
 ---
 description: >-
-  A username and domain search tool that checks which platforms or domain a
-  given username is registered on.
+  A username and domain search tool that checks on which platforms or domain a
+  given username is registered.
 ---
 
 # Namechk
 
 ## URL
 
-https://namechk.com
+[https://namechk.com](https://namechk.com/)
 
 ## Description
 
 Namechk is a search tool that searches social media platforms and domains for usernames or website names. Entering a query returns results from more than a hundred domains and social media platforms, indicating whether or not the username has been registered on that platform / with that domain.
 
-Namechk's functions as a great OSINT tool for tracking individuals (particularly those with unique usernames) across platforms, as well as for understanding the spread of an entity's domain registrations.&#x20;
+Namechk's functions are a great OSINT tool for tracking individuals (particularly those with unique usernames) across platforms, as well as for understanding the spread of an entity's domain registrations.&#x20;
 
 The tool also provides username generators and reviews and details about domain and web hosting.
 
@@ -54,7 +54,7 @@ Caution should be taken if providing any personal information.
 
 ## Tool provider
 
-No detail provided beyond Namechk.com
+No information provided beyond [https://namechk.com](https://namechk.com/)
 
 ## Advertising Trackers
 
