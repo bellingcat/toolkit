@@ -143,3 +143,4 @@
   * [TrueCaller](tools/truecaller/README.md)
   * [Namechk](tools/namechk/README.md)
   * [ICIJ Offshore Leaks Database](tools/icij-offshore-leaks-database/README.md)
+  * [SanctionsExplorer](tools/sanctionsexplorer/README.md)
