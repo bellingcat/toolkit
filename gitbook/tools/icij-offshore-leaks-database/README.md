@@ -27,11 +27,7 @@ There are various ways to explore the database:
 
 ### Conducting searches in the whole dataset
 
-1.  Users can do searches in the whole database. Write the entity name, its jurisdiction or location in the search bar. For instance, “Mossack Fonseca.” Mossack Fonseca is a [law](https://www.theguardian.com/world/2024/apr/09/panama-papers-trial-begins-of-27-mossack-fonseca-employees) firm disclosed in the Panama Papers, whose employees are facing money laundering charges in the Panamanian court.
-
-    \
-    \
-
+1. Users can do searches in the whole database. Write the entity name, its jurisdiction or location in the search bar. For instance, “Mossack Fonseca”. Mossack Fonseca is a law firm disclosed in the Panama Papers, [whose employees are facing money laundering charges](https://www.theguardian.com/world/2024/apr/09/panama-papers-trial-begins-of-27-mossack-fonseca-employees) in the Panamanian court.
 
 <figure><img src=".gitbook/assets/ICIJ step 1.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -39,7 +35,7 @@ There are various ways to explore the database:
 
 <figure><img src=".gitbook/assets/ICIJ step 2.png" alt="" width="563"><figcaption></figcaption></figure>
 
-3. After filtering, select the required result. For instance, when you filter by “officer,” the results for “Mossack Fonseca” show “396” results and remove others. However, this filter still won’t show detailed results- entities are listed by “Mossack Fonseca” variation. Information about officers is hidden under each result. Click on the result of your choice. An interactive map shows connections between categories like "officer" and "address". The visualization explains ties between an intermediary, entity, officer, etc. and also lists an address. Click on the nodes to receive more information.&#x20;
+3. For instance, when you filter by “officer,” the results for “Mossack Fonseca” show “396” results. After filtering, click on the result of your choice. An interactive map shows connections between categories like "officer" and "address". The visualization explains ties between an intermediary, entity, officer, etc. and it can also list an address. Click on the nodes to receive more information.&#x20;
 
 <figure><img src=".gitbook/assets/ICIJ step w.png" alt="" width="563"><figcaption></figcaption></figure>
 
