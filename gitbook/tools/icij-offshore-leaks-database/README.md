@@ -1,25 +1,39 @@
 ---
 description: >-
-  Find out who’s behind more than 810k offshore companies, foundations, and
-  trusts from the Offshore Leaks,  Panama Papers,  Bahamas Leaks,  Paradise
-  Papers, and  Pandora Papers investigations.
+  A database removing secrecy behind more than 810k offshore companies,
+  foundations, and trusts, uncovered through the Offshore Leaks, Panama Papers,
+  Bahamas Leaks, Paradise Papers and Pandora Papers.
 ---
 
 # ICIJ Offshore Leaks Database
 
 ## URL
 
-[http://offshoreleaks.icij.org/](http://offshoreleaks.icij.org/)
+[http://offshoreleaks.icij.org/](http://offshoreleaks.icij.org/)&#x20;
 
 ## Description
 
-The database is a repository of five major leaks that were used to conduct hard-hitting investigations. &#x20;
+The database is a repository of five major leaks that were used to conduct hard-hitting investigations.&#x20;
+
+ICIJ’s first investigation, Offshore Leaks, was released in [2013](https://www.icij.org/investigations/offshore/icij-releases-offshore-leaks-database-revealing-names-behind-secret-companies-trusts/) and included some 100,000 entities. This database was upgraded in January [2014](https://www.icij.org/investigations/offshore/leaked-records-reveal-offshore-holdings-of-chinas-elite/) with the addition of files from the China Leaks investigation that shed light on China’s elite hiding their wealth in tax havens through offshore companies.
+
+In [May ](https://www.icij.org/inside-icij/2016/05/icij-releases-panama-papers-offshore-company-data/)2016, Panama Papers further added 214,000 entities that disclosed the law firm Mossack Fonseca, whose [employees](https://www.theguardian.com/world/2024/apr/09/panama-papers-trial-begins-of-27-mossack-fonseca-employees) are now facing money laundering charges in a Panamanian court.&#x20;
+
+In September [2016](https://www.icij.org/inside-icij/2016/09/icij-publishes-leaked-bahamas-info-offshore-database/) Bahamas Leaks’ addition publicly made available the registry of “more than 175,000 Bahamian companies, trusts and foundations registered between 1990 and early 2016.” More details about the Bahamas Leaks[ are here](https://www.icij.org/investigations/offshore/former-eu-official-among-politicians-named-new-leak-offshore-files-bahamas/).
+
+The addition of Paradise Papers [brought ](https://www.icij.org/investigations/paradise-papers/data-ever-added-offshore-leaks-database/)the database repository number to 785,000 in February 2018. Major stories from Paradise Papers and their impact can be found [here](https://www.icij.org/investigations/paradise-papers/).
+
+The latest [addition](https://www.icij.org/investigations/pandora-papers/icij-releases-new-pandora-papers-data-from-two-offshore-service-providers/) to Offshore Leaks is the Pandora Papers in [December 2021](https://www.icij.org/investigations/pandora-papers/icij-releases-new-pandora-papers-data-from-two-offshore-service-providers/). The leaks were added from two Panamanian Law firms based in the British Virgin Islands: Alemán, Cordero, Galindo & Lee (Alcogal) and Fidelity Corporate Services. In April 2022, ICIJ revealed details of “company names and other data on more than 800 Russian nationals… from Seychelles-based Alpha Consulting Ltd., an offshore services provider that serves mostly Russian clients.” This investigation revealed companies [linked](https://www.icij.org/investigations/pandora-papers/alpha-offshore-leaks-database-pandora-papers-russia/) to the Russian President Vladimir Putin. Stories from Pandora Papers[ here](https://www.icij.org/investigations/pandora-papers/).&#x20;
 
 There are various ways to explore the database:
 
 ### Conducting searches in the whole dataset
 
-1. Users can do searches in the whole database. Write the entity name, its jurisdiction or location in the search bar. For instance, “Mossack Fonseca.”
+1.  Users can do searches in the whole database. Write the entity name, its jurisdiction or location in the search bar. For instance, “Mossack Fonseca.” Mossack Fonseca is a [law](https://www.theguardian.com/world/2024/apr/09/panama-papers-trial-begins-of-27-mossack-fonseca-employees) firm disclosed in the Panama Papers, whose employees are facing money laundering charges in the Panamanian court.
+
+    \
+    \
+
 
 <figure><img src=".gitbook/assets/ICIJ step 1.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -27,7 +41,7 @@ There are various ways to explore the database:
 
 <figure><img src=".gitbook/assets/ICIJ step 2.png" alt="" width="563"><figcaption></figcaption></figure>
 
-3. After filtering, select the required result. An interactive map shows connections between categories like "officer" and "address". Click on the nodes to receive more information.&#x20;
+3. After filtering, select the required result. For instance, when you filter by “officer,” the results for “Mossack Fonseca” show “396” results and remove others. However, this filter still won’t show detailed results- entities are listed by “Mossack Fonseca” variation. Information about officers is hidden under each result. Click on the result of your choice. An interactive map shows connections between categories like "officer" and "address". The visualization explains ties between an intermediary, entity, officer, etc. and also lists an address. Click on the nodes to receive more information.&#x20;
 
 <figure><img src=".gitbook/assets/ICIJ step w.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -77,13 +91,13 @@ When using the dataset, you have to credit the International Consortium of Inves
 
 ## Limitations
 
-Not all names behind entities can appear in the dataset. "information about ownership is often buried in emails, power-of-attorney letters and internal notes and cannot easily be extracted in a systematic manner," says ICIJ.
+Not all names behind entities can appear in the dataset. "information about ownership is often buried in emails, power-of-attorney letters and internal notes and cannot easily be extracted in a systematic manner," [says](https://offshoreleaks.icij.org/pages/faq) ICIJ.
 
 The data does not include personal information such as bank accounts, email exchanges, or financial transactions. Researchers seeking this type of information may need to use other OSINT tools or data. sources.
 
 ## Ethical Considerations
 
-Entities in the database are not necessarily involved in any wrongdoing. ICIJ states in its FAQ section: "There are legitimate uses for offshore companies and trusts. We do not intend to suggest or imply that any individuals, companies or other entities included in the ICIJ Offshore Leaks Database have broken the law or otherwise acted improperly." Understanding which entities are involved and the purpose of the research is crucial.
+Entities in the database are not necessarily involved in any wrongdoing. ICIJ states in its [FAQ](https://offshoreleaks.icij.org/pages/faq) section: "There are legitimate uses for offshore companies and trusts. We do not intend to suggest or imply that any individuals, companies or other entities included in the ICIJ Offshore Leaks Database have broken the law or otherwise acted improperly." Understanding which entities are involved and the purpose of the research is crucial.
 
 ## Guide
 
@@ -99,7 +113,7 @@ Reconciliation API guide [here](https://offshoreleaks.icij.org/docs/reconciliati
 
 ## Tool provider
 
-International Consortium of Investigative Journalists (ICIJ). Link to detailed credits[ here](https://offshoreleaks.icij.org/pages/credits).
+International Consortium of Investigative Journalists (ICIJ). Link to detailed credits[ here](https://offshoreleaks.icij.org/pages/credits). ICIJ is based in Washington D.C. with team members in Egypt, Australia, France, Spain, Belgium, Hungary, Serbia, the U.K. and Ireland. Its regional coordinators are based in Asia, Africa, Latin America, the Middle East, Europe and Eastern Europe.
 
 ## Advertising Trackers
 
