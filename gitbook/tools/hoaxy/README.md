@@ -114,7 +114,7 @@ It is advisable to check the graph to see what kind of data and content is being
 
 The main use case for Hoaxy is for verification and to get a sense of the context in which a piece of information is shared:
 
-Open-source researchers can analyze the network of users who shared a piece of information and identify whether the original sources are credible news outlets or dubious accounts known for spreading mis- or disinformation. This can be one of the first steps when trying to get a sense of the spread of a particular claim on social networks. It also provides a clearer understanding of the networks in which a piece of information is being shared​ as well as the timeframe during which the claim was most active. See [here](https://www.engadget.com/2016-12-21-hoaxy-visualizes-how-fake-news-spreads-across-social-media.html) for an example of how it was used to debunk “Picklegate” during a presidential campaign season.\\
+Open-source researchers can analyze the network of users who shared a piece of information and identify whether the original sources are credible news outlets or dubious accounts known for spreading mis- or disinformation. This can be one of the first steps when trying to get a sense of the spread of a particular claim on social networks. It also provides a clearer understanding of the networks in which a piece of information is being shared​ as well as the timeframe during which the claim was most active. See [here](https://www.engadget.com/2016-12-21-hoaxy-visualizes-how-fake-news-spreads-across-social-media.html) for an example of how it was used to debunk “Picklegate” during a presidential campaign season.
 
 ## Cost
 
