@@ -61,7 +61,8 @@ All five leak databases can be downloaded as [zip files](https://offshoreleaks.i
 
 For user convenience, the data is converted to multiple CSV files, providing the freedom to explore the dataset on the user's terms. The data is also available as "Neo4j" exported databases. ICIJ provides a [GitHub repository guide](https://github.com/ICIJ/offshoreleaks-data-packages) that explains how to import the data into the Neo4j.
 
-### &#x20;Reconciliation API
+\
+Reconciliation API
 
 The reconciliation API requires some API expertise and allows users to match their own datasets against the ICIJ database. The ICIJ webpage provides a detailed guide on how to use this [feature.](https://offshoreleaks.icij.org/docs/reconciliation)&#x20;
 
@@ -107,7 +108,7 @@ Reconciliation API guide [here](https://offshoreleaks.icij.org/docs/reconciliati
 
 ## Tool provider
 
-International Consortium of Investigative Journalists (ICIJ). Link to detailed credits[ here](https://offshoreleaks.icij.org/pages/credits). ICIJ is based in Washington D.C. with team members in Egypt, Australia, France, Spain, Belgium, Hungary, Serbia, the U.K. and Ireland. Its regional coordinators are based in Asia, Africa, Latin America, the Middle East, Europe and Eastern Europe.
+International Consortium of Investigative Journalists (ICIJ). Link to detailed credits[ here](https://offshoreleaks.icij.org/pages/credits). ICIJ is based in Washington D.C.
 
 ## Advertising Trackers
 
