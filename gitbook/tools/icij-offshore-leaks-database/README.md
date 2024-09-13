@@ -13,9 +13,7 @@ description: >-
 
 ## Description
 
-The database is a repository of five major leaks that were used to conduct hard-hitting investigations.&#x20;
-
-ICIJ’s first investigation, Offshore Leaks, was released in [2013](https://www.icij.org/investigations/offshore/icij-releases-offshore-leaks-database-revealing-names-behind-secret-companies-trusts/) and included some 100,000 entities. This database was upgraded in January [2014](https://www.icij.org/investigations/offshore/leaked-records-reveal-offshore-holdings-of-chinas-elite/) with the addition of files from the China Leaks investigation that shed light on China’s elite hiding their wealth in tax havens through offshore companies.
+The database is a repository of five major leaks. The first one, Offshore Leaks, was released in [2013](https://www.icij.org/investigations/offshore/icij-releases-offshore-leaks-database-revealing-names-behind-secret-companies-trusts/) and included more than 100,000 entities. In January [2014](https://www.icij.org/investigations/offshore/leaked-records-reveal-offshore-holdings-of-chinas-elite/), the China Leaks which shed light on China’s elite hiding their wealth in tax havens through offshore companies were added.
 
 In [May ](https://www.icij.org/inside-icij/2016/05/icij-releases-panama-papers-offshore-company-data/)2016, Panama Papers further added 214,000 entities that disclosed the law firm Mossack Fonseca, whose [employees](https://www.theguardian.com/world/2024/apr/09/panama-papers-trial-begins-of-27-mossack-fonseca-employees) are now facing money laundering charges in a Panamanian court.&#x20;
 
