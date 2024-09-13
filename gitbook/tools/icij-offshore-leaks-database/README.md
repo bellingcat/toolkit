@@ -80,7 +80,7 @@ The dataset is free to explore.
 
 ## Requirements
 
-The visualization of downloaded datasets requires familiarity with Neo4j software. The same applies to the use of the Reconciliation API.
+The visualization of downloaded datasets requires familiarity with the Neo4j software. The same applies to the use of the Reconciliation API.
 
 When using the dataset, you have to credit the International Consortium of Investigative Journalists.
 
