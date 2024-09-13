@@ -10,7 +10,7 @@ description: Database of OFAC/UN/EU sanctions
 
 ## Description
 
-Sanctions Explorer is a collaboration between Archer, a former Berkeley-based nonprofit, and C4ADS, a nonprofit dedicated to providing data-driven, evidence-based research on global conflict and transnational security issues. The current iteration of Sanctions Explorer was developed fully by C4ADS Data and Technology team, and is meant to be a comprehensive source of all current and historical sanctions data across all major sanctioning authorities.
+Sanctions Explorer is a joint project between two non-profits – [Archer](https://archerimpact.com/about), a former nonprofit based in Berkeley, and [C4ADS](https://c4ads.org/about-us/), an organization focused on data-driven, evidence-based research on global conflict and transnational security. The current version of Sanctions Explorer was developed by C4ADS as a “[comprehensive source](https://sanctionsexplorer.org/about) of all current and historical sanctions data across all major sanctioning authorities.”
 
 It includes sanctions imposed by the U.S. Office of Foreign Assets Control (OFAC), the United Nations (UN), the European Union (EU), the United Kingdom (UK), the U.S. Department of Commerce, Bureau of Industry and Security (BIS) and Japan. Sanctions Explorer persistently monitors the UN, EU, and OFAC websites for updates to the sanctions lists and publishes the new data to the website as it goes active. The home page shows the time of the most recent update of the sanctions database which is updated daily.
 
@@ -54,7 +54,7 @@ Clicking on any of the Entity Names will open the profile for that specific enti
 
 <figure><img src=".gitbook/assets/SE7.png" alt="" width="563"><figcaption><p>Profile for Hap Jang Gang vessel. Click to expand and view explanation notes.</p></figcaption></figure>
 
-* An example of what a profile for an aircraft looks like. The information includes the manufacure date, the model of the aircraft (this usually includes the name of manufacturer, but not always), the current and sometimes the previous tail number, and the owner of the aircraft. Please note that to search for aircraft in Sanctions Explorer, you can use either the tail number, the name of the aircraft or the manufacturer (Airbus, Sikorsky, LockheedMartin, Bell Helicopter, Embraer, Bombardier to name a few), or the model (Phenom 300 - an Embraer-made business jet, CRJ100 - a Bombardier-made regional jet).
+* An example of what a profile for an aircraft looks like. The information includes the manufacure date, the model of the aircraft (this usually includes the name of manufacturer, but not always), the current and sometimes the previous [tail number](#user-content-fn-1)[^1], and the owner of the aircraft. Please note that to search for aircraft in Sanctions Explorer, you can use either the tail number, the name of the aircraft or the manufacturer (Airbus, Sikorsky, LockheedMartin, Bell Helicopter, Embraer, Bombardier to name a few), or the model (Phenom 300 - an Embraer-made business jet, CRJ100 - a Bombardier-made regional jet).
 
 <div>
 
@@ -114,3 +114,5 @@ Center for Advanced Defense Studies - C4ADS. A 501 nonprofit research organizati
 | --------------- |
 | LPetrova        |
 |                 |
+
+[^1]: The tail number, or aircraft registration number, is a unique alphanumeric code assigned to each aircraft as a fundamental requirement under International Civil Aviation Organization (ICAO) regulations.
