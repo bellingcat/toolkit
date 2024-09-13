@@ -59,7 +59,7 @@ All five leak databases can be downloaded as [zip files](https://offshoreleaks.i
 4. Paradise Papers (2017)
 5. Pandora Papers (2021)
 
-For user convenience, the data is converted into multiple CSV files, providing the freedom to explore the dataset on the user's terms. The data is also available as "Neo4j" exported databases. ICIJ provides a [GitHub repository guide](https://github.com/ICIJ/offshoreleaks-data-packages) that explains how to import the data into the Neo4j.
+For user convenience, the data is converted into multiple CSV files, providing the freedom to explore the dataset on the user's terms. The data is also available as "Neo4j" exported databases. ICIJ provides a [GitHub repository guide](https://github.com/ICIJ/offshoreleaks-data-packages) that explains how to import the data into Neo4j.
 
 \
 Reconciliation API
