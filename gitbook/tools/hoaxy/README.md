@@ -118,9 +118,11 @@ Open-source researchers can analyze the network of users who shared a piece of i
 
 ## Cost
 
+* [ ] Free
 * [x] Partially Free
+* [ ] Paid
 
-Bluesky search and importing your own data is free, but an X/Twitter search requires a Bearer Token that can only be available if the user pays for an [X Premium subscription](https://x.com/i/premium\_sign\_up)&#x20;
+Bluesky search and importing your own data is free, but an X/Twitter search requires a Bearer Token that can only be available if the user pays for an [X Premium subscription](https://x.com/i/premium\_sign\_up).
 
 ## Level of difficulty
 
@@ -129,7 +131,7 @@ Bluesky search and importing your own data is free, but an X/Twitter search requ
 ## Requirements
 
 1. X user account
-2. X user account Bearer Token (available if user purchased a Basic, Pro or Premium+ subscription.)
+2. X user account Bearer Token (available if user purchased a Basic, Pro or Premium+ subscription)
 3. Bluesky user account
 
 ## Limitations
