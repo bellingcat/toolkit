@@ -1,8 +1,8 @@
 ---
 description: >-
-  A database removing secrecy behind more than 810k offshore companies,
-  foundations, and trusts, uncovered through the Offshore Leaks, Panama Papers,
-  Bahamas Leaks, Paradise Papers and Pandora Papers.
+  A database providing otherwise secret information about more than 810k
+  offshore companies, foundations, and trusts based on leaks like the Panama
+  Papers or the Paradise Papers.
 ---
 
 # ICIJ Offshore Leaks Database
