@@ -38,7 +38,7 @@ The tool has limitations in predicting or estimating the location of certain ima
 
 ## **Guides and articles**
 
-Steps for using the tool are provided under the **Instructions** tab**.** The tool provider has also shared a document for the deep-learning model for those interested in taking a deep dive into how it works [here](http://openaccess.thecvf.com/content\_ECCV\_2018/papers/Eric\_Muller-Budack\_Geolocation\_Estimation\_of\_ECCV\_2018\_paper.pdf).
+Steps for using the tool are provided under the **Instructions** tab**.** The tool provider has also shared a paper for the deep-learning model for those interested in taking a deep dive into how it works [here](http://openaccess.thecvf.com/content\_ECCV\_2018/papers/Eric\_Muller-Budack\_Geolocation\_Estimation\_of\_ECCV\_2018\_paper.pdf).
 
 ## Tool provider
 
