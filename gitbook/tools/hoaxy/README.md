@@ -16,7 +16,7 @@ description: >-
 NOTE: Hoaxy was [first developed in 2016](https://www.researchgate.net/publication/301841797\_Hoaxy\_A\_Platform\_for\_Tracking\_Online\_Misinformation). This toolkit description tested the most recent version and its features to date.
 {% endhint %}
 
-Hoaxy assists in unraveling the complex web of information dissemination online, particularly on X (Twitter) and Bluesky. It primarily addresses the problem of mis- and disinformation spreading rapidly on social media platforms. Users can search for a particular topic or keyword on either platform, and it will automatically generate a graph showing the spread of information.
+Hoaxy assists in unraveling the complex web of information dissemination online, particularly on X (Twitter) and Bluesky. It primarily addresses the problem of mis- and disinformation spreading rapidly on social media platforms. Users can search for a particular topic or keyword on either platform, and it will automatically generate a graph showing the spread of information.&#x20;
 
 ### What problem does it solve?
 
@@ -43,7 +43,7 @@ Step 4: Analyze the visualization map and its data
 
 #### **DOING A BLUESKY SEARCH**
 
-If the user is interested in tracking information spread on the Bluesky platform, users must select “Search Bluesky”, and then they can[enter the following input on the search bar](https://hoaxy.osome.iu.edu/faq#faq-q11):
+If the user is interested in tracking information spread on the Bluesky platform, users must select “Search Bluesky”, and then they can [enter the following input on the search bar](https://hoaxy.osome.iu.edu/faq#faq-q11):
 
 * Single term (i.e. airstrike)
 * Phrases (enclosed in quotation marks, i.e. “Kyiv airstrike” )
@@ -120,7 +120,7 @@ Open-source researchers can analyze the network of users who shared a piece of i
 
 * [x] Partially Free
 
-Bluesky search and importing your own data is free, but an X/Twitter search requires a Bearer Token that can only be available if the user pays for an [X Premium subscription](https://x.com/i/premium\_sign\_up) (Basic: 2.67 USD/month, Pro: 7 USD/month, Premium+: 14 USD/month)
+Bluesky search and importing your own data is free, but an X/Twitter search requires a Bearer Token that can only be available if the user pays for an [X Premium subscription](https://x.com/i/premium\_sign\_up)&#x20;
 
 ## Level of difficulty
 
@@ -135,13 +135,13 @@ Bluesky search and importing your own data is free, but an X/Twitter search requ
 ## Limitations
 
 1. **Beta Status:** Based on its landing page, Hoaxy still appears to be in the beta phase. This can hinder its accessibility and ease of use, particularly for those who are not technically inclined. It occasionally takes a while to load the visualization graphs, but it performs well in most cases.
-2. **Date/Time Frame Limitations:** based on some tests, Hoaxy automatically chooses a date/time frame for you, and users do not appear to have a way to control this. Users have the option to fetch older or newer posts, but the tool sometimes struggles to load the visualization after doing so. Users may have to try using date and time search operators to see if Hoaxy can fetch posts within the specified timeframe. In addition, it is unclear how the tool determines on which date the tool should begin harvesting posts. The cut-off date is usually the day you perform the search.
+2. **Date/Time Frame Limitations:** based on some tests, Hoaxy automatically chooses a date/time frame for your search. Users have the option to fetch older or newer posts, but the tool sometimes struggles to load the visualization after doing so. Users may try using date and time search operators to see if Hoaxy can fetch posts within a timeframe of interest.
 3. **X/Twitter API Limitations:** Due to recent API policy changes, Hoaxy can only access tweets from the past 7 days, limiting the scope of live searches. Mis- and disinformation may be more prevalent on X due to its larger user base. (As of Feb 2024, ["Bluesky's user numbers are still quite small compared with Threads at more than 130 million and X at 556 million."](https://www.zdnet.com/article/bluesky-snags-more-than-800000-new-users-after-opening-to-the-public/) ) [A 2024 Pew Research](https://www.pewresearch.org/journalism/2024/06/12/x-users-experiences-with-news/) on X users' experience with news say that 86% of its participants see news on the platform that seems inaccurate.  Users should acknowledge the smaller data set they are reviewing.
 4. **Network Pruning:** The tool may occasionally truncate some diffusion networks to improve performance, potentially omitting relevant data. [According to the tool provider, “\[t\]he network may be pruned for performance.”](https://hoaxy.osome.iu.edu/faq#faq-q5)
 5. [**Public Posts Only:**](https://hoaxy.osome.iu.edu/faq#faq-q16) Hoaxy can only retrieve and analyze public posts, leaving private conversations unexamined.
 6. **Cross-Platform Limitations:** Hoaxy requires additional tools to track mis- and information that spills over to other platforms, as it can rapidly spread from one platform to another. The dynamics of information spread vary significantly across different social media. [As shown in this BBC Investigation](https://www.bbc.com/news/articles/cl4y0453nv5o), the spread of misinformation in the Southport protests started on one platform and then migrated to a different platform, where it was even more amplified.
 7. **Needs Some Familiarity with Network Analysis for Interpretation:** To fully understand and make sense of the data visualizations provided by Hoaxy, it's helpful to have some background knowledge in [network analysis](https://www.skopenow.com/news/uncovering-connections-how-link-analysis-can-streamline-osint-investigations).
-8. **Content Analysis Gaps:** Hoaxy does not distinguish between different types of mis- and disinformation. Users may need additional tools or methods to conduct detailed content analysis and identify various forms of mis- andinformation accurately. According to [UNESCO World Media Trends,](https://www.unesco.org/en/world-media-trends/hoaxy) “A claim may be a false news article, hoax, rumor, conspiracy theory, satire, or even an accurate report. (Hoaxy) is not meant to be used as a fact-checking tool but rather to understand how disinformation and misinformation is being spread by non-trustworthy accounts.”
+8. **Content Analysis Gaps:** Hoaxy does not distinguish between different types of mis- and disinformation. Users may need additional tools or methods to conduct detailed content analysis and identify various forms of mis- and disinformation accurately. According to [UNESCO World Media Trends,](https://www.unesco.org/en/world-media-trends/hoaxy) “A claim may be a false news article, hoax, rumor, conspiracy theory, satire, or even an accurate report. (Hoaxy) is not meant to be used as a fact-checking tool but rather to understand how disinformation and misinformation is being spread by non-trustworthy accounts.”
 
 Overall, while Hoaxy is created as a comprehensive tool, its reliance on specific data sources, limited platform scope, and occasional usability issues highlight the gap between its advertised capabilities and its practical utility. Hoaxy is best used in addition to other open-source investigative tools.
 
@@ -153,7 +153,7 @@ Overall, while Hoaxy is created as a comprehensive tool, its reliance on specifi
 
 ## Tool provider
 
-[Hoaxy](https://hoaxy.osome.iu.edu/faq#faq-q10) is a joint project of the Indiana University Network Science Institute ([IUNI](https://iuni.iu.edu/)) and the Center for Complex Networks and Systems Research ([CNetS](http://cnets.indiana.edu/)).
+[Hoaxy](https://hoaxy.osome.iu.edu/faq#faq-q10) is a joint project of the Indiana University Network Science Institute ([IUNI](https://iuni.iu.edu/)) and the Center for Complex Networks and Systems Research ([CNetS](http://cnets.indiana.edu/)). &#x20;
 
 ## Advertising Trackers
 
