@@ -9,8 +9,6 @@ description: This is the JSON codeblock for this tool
 {
   "tags": [
     "maps-and-satellites",
-    "maps",
-    "geolocation",
     "artificial-intelligence"
   ]
 }
