@@ -20,12 +20,91 @@ If you're a journalist, fact-checker, or researcher, take a minute to apply and 
 
 ### **Video**
 
-* **Video Analysis** - Provides contextual information and metadata for YouTube and public Facebook videos, helping users understand the video's background and related comments.
-* **Keyframes** - Segments YouTube or Facebook videos into keyframes for detailed analysis and reverse image search, enhancing verification processes.
-* **Thumbnails** - Extracts and performs a reverse search of thumbnails from YouTube videos to check for prior usage or manipulation.
-* **Video Rights** - Retrieves and displays information on legal rights for YouTube and Twitter videos, helping users understand reuse conditions and copyright issues.
-* **Metadata** - Extracts metadata from JPEG images and videos in MP4 or M4V formats, providing details such as creation date, camera settings, and location data.
+**Video Analysis**
+
+Provides contextual information and metadata for YouTube and public Facebook videos, helping users understand the video's background and related comments.
+
+{% tabs %}
+{% tab title="First Tab" %}
+
+{% endtab %}
+
+{% tab title="Results: Video Description" %}
+<figure><img src="broken-reference" alt=""><figcaption><p>The results will extract the video description as well as some key metrics given by the platform. </p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Untitled" %}
+
+{% endtab %}
+{% endtabs %}
+
+**Keyframes**&#x20;
+
+Segments YouTube or Facebook videos into keyframes for detailed analysis and reverse image search, enhancing verification processes.
+
+{% tabs %}
+{% tab title="Keyframes" %}
+<figure><img src=".gitbook/assets/grafik (9).png" alt=""><figcaption><p>Here you can provide a source URL or upload a video and the tool will create keyframes for you for further analysis.</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Results" %}
+<figure><img src="broken-reference" alt=""><figcaption><p>If you click "Show Detailed View" the number of keyframes will increase.</p></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
+**Thumbnails**
+
+Extracts and performs a reverse search of thumbnails from YouTube videos to check for prior usage or manipulation.
+
+{% tabs %}
+{% tab title="Thumbnails" %}
+<figure><img src=".gitbook/assets/chrome_vhSht7SWlr.png" alt=""><figcaption><p>Provide a YouTube URL and place a checkmark for the reverse image search mechanism you want to use (you can select multiple). Note that if you check "Open Tabs," all result thumbnails will automatically be opened on all services, which might be a lot of tabs. </p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Results" %}
+<figure><img src=".gitbook/assets/grafik (5).png" alt=""><figcaption><p>This will result in a list of clickable thumbnails, which will lead you to the previously selected reverse image search service.</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Google Fact Check example" %}
+<figure><img src=".gitbook/assets/grafik (6).png" alt=""><figcaption><p>In this case, no fact checks were found. But who knows, if you had selected another service previously, you might have found out more about our Python expert.</p></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
+**Video Rights**&#x20;
+
+Retrieves and displays information on legal rights for YouTube and Twitter videos, helping users understand reuse conditions and copyright issues.
+
+{% tabs %}
+{% tab title="Video Rights" %}
+<figure><img src=".gitbook/assets/chrome_HeOAeMPpuJ.png" alt=""><figcaption><p>Provide a URL to the video which you want to analyze.</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Results" %}
+<figure><img src=".gitbook/assets/grafik (4).png" alt=""><figcaption><p>The results section shows you Reuse Policy, License Summary, Contact information, as well as guide you how to give attribution to the video according to the available information.</p></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
+**Metadata**&#x20;
+
+Extracts metadata from JPEG images and videos in MP4 or M4V formats, providing details such as creation date, camera settings, and location data.
+
+{% tabs %}
+{% tab title="Metadata Extraction Tool" %}
+
+
+<figure><img src=".gitbook/assets/grafik.png" alt=""><figcaption><p>You can upload an image/video or provide a URL</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Results" %}
+<figure><img src=".gitbook/assets/grafik (1).png" alt=""><figcaption><p>Which will give you matadata included in the image.</p></figcaption></figure>
+
+
+{% endtab %}
+{% endtabs %}
+
 * **Deepfake (Locked Feature)** - Uses a machine learning classifier to determine the probability that a video contains AI-manipulated faces, such as face swapping or face reenactment. Access is restricted to registered users.
+
+
 
 ### **Image**
 
