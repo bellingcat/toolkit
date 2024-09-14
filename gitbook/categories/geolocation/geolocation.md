@@ -3,7 +3,7 @@
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
 | [**GeoHints**](https://geohints.com/) | GeoHints is a website that provides information about things like traffic lights, utility poles, bollards etc. for different regions of the world to help geolocate a location. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/geohints/README.md) |
-| [**Geolocation Estimation**](https://labs.tib.eu/geoestimation/) | Platform that estimates image location using deep learning/AI. | <mark style="background-color:green;">Free</mark> |  |
+| [**Geolocation Estimation**](https://labs.tib.eu/geoestimation/) | A geolocation tool using a deep-learning model to predict the location of an image. | <mark style="background-color:orange;">Partially Free</mark> |  |
 | [**Geospy.ai**](https://geospy.ai/) | Image geolocation platform. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/geospy.ai/README.md) |
 | [**Hitta.se**](https://www.hitta.se/) | Mapping service for Sweden | <mark style="background-color:green;">Free</mark> | [Details](../../tools/hitta.se/README.md) |
 | [**KartaView**](https://kartaview.org/map) | KartaView is a crowdsourced, street-level imagery platform that allows users to contribute, view, and use photos to enhance and validate map data. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/kartaview/README.md) |
