@@ -21,13 +21,13 @@ In [2016](https://www.icij.org/inside-icij/2016/09/icij-publishes-leaked-bahamas
 
 The Paradise Papers brought the number of entries in the database to[ 785,000](https://www.icij.org/investigations/paradise-papers/data-ever-added-offshore-leaks-database/) (in 2018). Major stories from the Paradise Papers and their impact can be found [here](https://www.icij.org/investigations/paradise-papers/).
 
-Finally, in December 2021 the[ Pandora Papers were added](https://www.icij.org/investigations/pandora-papers/icij-releases-new-pandora-papers-data-from-two-offshore-service-providers/). The data came from two offshore service firms: Alemán, Cordero, Galindo & Lee (Panama) and Fidelity Corporate Services (British Virgin Islands). In 2022, ICIJ revealed details on [offshore holdings linked to Russians](https://www.icij.org/investigations/pandora-papers/alpha-offshore-leaks-database-pandora-papers-russia/) from cercles close to Putin. The data came from an offshore service provider based in the Seychelles. A list of investigations from the Pandora Papers can be found[ here](https://www.icij.org/investigations/pandora-papers/).&#x20;
+Finally, in December 2021 the[ Pandora Papers were added](https://www.icij.org/investigations/pandora-papers/icij-releases-new-pandora-papers-data-from-two-offshore-service-providers/). The data came from two offshore service firms: Alemán, Cordero, Galindo & Lee (Panama) and Fidelity Corporate Services (British Virgin Islands). In 2022, ICIJ revealed details on [offshore holdings linked to Russians](https://www.icij.org/investigations/pandora-papers/alpha-offshore-leaks-database-pandora-papers-russia/) from circles close to Putin. The data came from an offshore service provider based in the Seychelles. A list of investigations from the Pandora Papers can be found[ here](https://www.icij.org/investigations/pandora-papers/).&#x20;
 
 There are various ways to explore the database:
 
 ### Conducting searches in the whole dataset
 
-1. Users can do searches in the whole database. Write the entity name, its jurisdiction or location in the search bar. For instance, “Mossack Fonseca”. Mossack Fonseca is a law firm disclosed in the Panama Papers, [whose employees are facing money laundering charges](https://www.theguardian.com/world/2024/apr/09/panama-papers-trial-begins-of-27-mossack-fonseca-employees) in the Panamanian court.
+1. Users can do searches in the whole database. Write the entity name, its jurisdiction or location in the search bar. For instance, “Mossack Fonseca.” Mossack Fonseca is a law firm disclosed in the Panama Papers, [whose employees are facing money laundering charges](https://www.theguardian.com/world/2024/apr/09/panama-papers-trial-begins-of-27-mossack-fonseca-employees) in the Panamanian court.
 
 <figure><img src=".gitbook/assets/ICIJ step 1.png" alt="" width="563"><figcaption></figcaption></figure>
 
