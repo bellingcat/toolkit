@@ -136,7 +136,9 @@ Bluesky search and importing your own data is free, but an X/Twitter search requ
 
 ## Limitations
 
-1. **Beta Status:** Based on its landing page, Hoaxy still appears to be in the beta phase. This can hinder its accessibility and ease of use, particularly for those who are not technically inclined. It occasionally takes a while to load the visualization graphs, but it performs well in most cases.
+1.  **Beta Status:** Based on its landing page, Hoaxy still appears to be in the beta phase.&#x20;
+
+    This may affect its accessibility and ease of use, especially for users who are less technically inclined. While it sometimes takes a bit longer to load the visualization graphs, it generally performs well.
 2. **Date/Time Frame Limitations:** based on some tests, Hoaxy automatically chooses a date/time frame for your search. Users have the option to fetch older or newer posts, but the tool sometimes struggles to load the visualization after doing so. Users may try using date and time search operators to see if Hoaxy can fetch posts within a timeframe of interest.
 3. **X/Twitter API Limitations:** Due to recent API policy changes, Hoaxy can only access tweets from the past 7 days, limiting the scope of live searches. Mis- and disinformation may be more prevalent on X due to its larger user base. (As of Feb 2024, ["Bluesky's user numbers are still quite small compared with Threads at more than 130 million and X at 556 million."](https://www.zdnet.com/article/bluesky-snags-more-than-800000-new-users-after-opening-to-the-public/) ) A [2024 Pew Research Center report](https://www.pewresearch.org/journalism/2024/06/12/x-users-experiences-with-news/) on X users' experience with news say that 86% of its participants see news on the platform that seems inaccurate.&#x20;
 4. **Network Pruning:** The tool may occasionally truncate some diffusion networks to improve performance, potentially omitting relevant data. [According to the tool provider, “\[t\]he network may be pruned for performance.”](https://hoaxy.osome.iu.edu/faq#faq-q5)
