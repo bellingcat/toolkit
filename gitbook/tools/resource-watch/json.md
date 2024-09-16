@@ -12,8 +12,7 @@ description: This is the JSON codeblock for this tool
   "description": "A nonprofit platform, still in beta, that provides hundreds of data sets on the state of the planet’s resources and citizens. It is sponsored by the World Resources Institute and other organizations.",
   "cost": "Free",
   "tags": [
-    "maps-and-satellites",
-    "maps"
+    "environment-and-wildlife"
   ]
 }
 ```
