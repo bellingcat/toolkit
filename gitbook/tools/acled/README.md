@@ -1,8 +1,7 @@
 ---
 description: >-
-  ACLED provides real-time data and analysis on political violence and protest
-  around the world, facilitating research, policy making, and journalistic
-  reporting.
+  ACLED provides data and analysis on political violence and protest around the
+  world, facilitating research, policy making, and journalistic reporting.
 ---
 
 # ACLED (Armed Conflict Location & Event Data Project)
@@ -15,7 +14,7 @@ description: >-
 
 ACLED offers a comprehensive suite of tools and datasets designed to enhance understanding and analysis of political violence and protest worldwide. Their main offerings include:
 
-* **Real-Time Data:** ACLED's flagship dataset provides detailed information on the dates, locations, actors, fatalities, and types of political violence and protest events around the world. This dataset is updated weekly, offering near real-time insight into global conflicts and demonstrations.
+* **Timely Data:** ACLED's flagship dataset provides detailed information on the dates, locations, actors, fatalities, and types of political violence and protest events around the world. This dataset is updated weekly, offering timely insight into global conflicts and demonstrations.
 * **Analysis Tools:** Users can access a range of analysis tools designed to interpret the data. These include trend reports, dashboards, and interactive maps that visualize conflict and protest data over time and by region.
 * **Country Profiles:** ACLED compiles detailed reports and profiles for individual countries, offering in-depth analysis of conflict dynamics, historical context, and key actors within specific regions.
 * **Data Export:** For users looking to conduct their own analysis, ACLED provides options to download datasets in various formats, allowing for flexible data manipulation and visualization in external tools.
