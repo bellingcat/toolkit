@@ -9,27 +9,8 @@ description: This is the JSON codeblock for this tool
 {
   "tags": [
     "free",
-    "maps",
-    "international",
-    "geospatial-information",
-    "geographic-data-analysis",
-    "mapping",
-    "satellite",
-    "satellite-imagery",
-    "remote-sensing",
-    "environment",
-    "geospatial",
-    "spatial-analysis",
-    "data-analysis",
-    "deforestation",
-    "agriculture",
-    "water",
-    "climate-change",
-    "apple-maps",
-    "google-maps",
-    "yandex-maps",
-    "openstreetmaps",
-    "OSM"
+    "maps"
+    "satellite-imagery"
   ]
 }
 ```
