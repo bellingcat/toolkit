@@ -31,11 +31,11 @@
 ## Other
 
 * [ ] [Archiving](https://bellingcat.gitbook.io/toolkit/categories/archiving)
-* [x] [Companies & Finance](https://bellingcat.gitbook.io/toolkit/categories/companies-and-finance)
+* [ ] [Companies & Finance](https://bellingcat.gitbook.io/toolkit/categories/companies-and-finance)
 * [ ] [Conflict](https://bellingcat.gitbook.io/toolkit/categories/conflict)
 * [x] [Data Visualization](https://bellingcat.gitbook.io/toolkit/categories/data-visualization)
 * [ ] [Environment & Wildlife](https://bellingcat.gitbook.io/toolkit/categories/environment-and-wildlife)
 * [ ] [Geolocation](https://bellingcat.gitbook.io/toolkit/categories/geolocation)
-* [x] [People](https://bellingcat.gitbook.io/toolkit/categories/people)
+* [ ] [People](https://bellingcat.gitbook.io/toolkit/categories/people)
 * [ ] [Transport](https://bellingcat.gitbook.io/toolkit/categories/transport)
 * [ ] [Websites](https://bellingcat.gitbook.io/toolkit/categories/websites)
