@@ -8,7 +8,9 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "url": "https://cat-uxo.com/",
-  "tags": []
+  "tags": [
+    "conflict"
+]
 }
 ```
 {% endcode %}
