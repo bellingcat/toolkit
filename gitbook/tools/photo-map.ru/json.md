@@ -9,7 +9,7 @@ description: This is the JSON codeblock for this tool
 {
   "tags": [
     "geolocation",
-    "other-networks"
+    "vkontakte"
   ]
 }
 ```
