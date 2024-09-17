@@ -55,7 +55,8 @@ function renderLink(category, tool) {
     }
     return '';
   }
-  return `https://bellingcat.gitbook.io/toolkit/more/all-tools/${tool.slug}`;
+  const slug = path.relative('gitbook/tools', tool.directory);
+  return `https://bellingcat.gitbook.io/toolkit/more/all-tools/${slug}`;
 }
 
 function renderTools(tools, category) {
