@@ -9,9 +9,9 @@ description: >-
 
 ## URL
 
-{% embed url="https://browser.dataspace.copernicus.eu" %}
+[Copernicus Browser](https://browser.dataspace.copernicus.eu/)
 
-{% embed url="https://apps.sentinel-hub.com/eo-browser/" %}
+[Sentinel-hub EO-Browser3](https://apps.sentinel-hub.com/eo-browser/)
 
 ## Description
 
