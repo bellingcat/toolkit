@@ -18,7 +18,11 @@ Bellingcat’s Online Investigation Toolkit has a long tradition but our newest 
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-08 at 23.49.48.png" alt="" width="375"><figcaption></figcaption></figure>
 
+You can also download the tool lists for each category [in csv format](https://github.com/bellingcat/toolkit/releases/tag/csv).&#x20;
+
 This toolkit is still a work-in-progress and the number of available tool descriptions will grow over time.
+
+
 
 
 
