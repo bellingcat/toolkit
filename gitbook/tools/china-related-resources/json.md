@@ -10,7 +10,7 @@ description: This is the JSON codeblock for this tool
   "draft": true,
   "tags": [
     "companies-and-finance"
-]
+  ]
 }
 ```
 {% endcode %}

@@ -12,6 +12,7 @@
 | [**NameMC**](https://namemc.com/) | Find usernames, track username changes on minecraft | <mark style="background-color:green;">Free</mark> |  |
 | [**Open Measures**](https://openmeasures.io/) | Open Measures helps open source researchers investigate harmful online activity such as extremism and disinformation. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../../tools/open-measures/README.md) |
 | [**Parler Video Uploads Map**](https://kylemcdonald.net/parler/map/) | A map showing the approximate (100ft) location of where Parler videos have been uploaded. | <mark style="background-color:green;">Free</mark> |  |
+| [**Photo-Map.RU**](http://photo-map.ru/) | Geotagged VK posts. | <mark style="background-color:green;">Free</mark> |  |
 | [**PSNprofiles**](https://psnprofiles.com/) | Search PlayStation username, see daily activity, games played, country, and profile pic | <mark style="background-color:green;">Free</mark> |  |
 | [**Search4Faces**](https://search4faces.com) | Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse) | <mark style="background-color:green;">Free</mark> |  |
 | [**Sherlock**](https://github.com/sherlock-project/sherlock) | Check usernames across more than 400 websites and social networks. | <mark style="background-color:green;">Free</mark> | [Details](../../../tools/sherlock/README.md) |
