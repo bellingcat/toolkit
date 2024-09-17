@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-Twitter/X's built-in advanced search supports filtering by keywords, hashtags, language, author, receiver, mentions, replies, links, minimum number of replies/likes/reposts, and dates. Open the link above or navigate to this feature from the user account’s homepage, as shown in the image below.
+Twitter/X's built-in advanced search supports filtering by keywords, hashtags, language, author, receiver, mentions, replies, links, minimum number of replies/likes/reposts, and dates. Open the link above or navigate to this feature from the user account’s homepage, as shown in the image below.   &#x20;
 
 {% hint style="info" %}
 TIP: Bookmark the link above to have immediate access to the tool.
@@ -111,7 +111,7 @@ TIP: You can input more than one account
 {% endhint %}
 
 \
-**“Filters”:** Refine your search. Advanced Search lets you choose whether to include replies, ensuring you see the full conversation or focus solely on original posts.
+**“Filters”:** Refine your search using this section. Advanced Search lets you choose whether to include replies, ensuring you see the full conversation or focus solely on original posts.
 
 To see only original posts, deselect the "Replies" checkbox under "Account Filters" in Twitter Advanced Search.
 
