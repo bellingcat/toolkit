@@ -8,9 +8,6 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "free",
-    "maps",
-    "satellite-imagery"
   ]
 }
 ```
