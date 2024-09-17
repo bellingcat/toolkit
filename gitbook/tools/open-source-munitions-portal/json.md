@@ -10,7 +10,7 @@ description: This is the JSON codeblock for this tool
   "url": "https://osmp.airwars.org/",
   "tags": [
     "conflict"
-]
+  ]
 }
 ```
 {% endcode %}

@@ -8,9 +8,9 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-"geolocation",
-"other-networks"
-]
+    "geolocation",
+    "other-networks"
+  ]
 }
 ```
 {% endcode %}
