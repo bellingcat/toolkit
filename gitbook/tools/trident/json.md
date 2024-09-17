@@ -12,8 +12,6 @@ description: This is the JSON codeblock for this tool
   "description": "AI help for querying Overpass Turbo. Simply write what features you're looking for on a map.",
   "cost": "Free",
   "tags": [
-    "maps-and-satellites",
-    "maps",
     "artificial-intelligence"
   ]
 }
