@@ -155,7 +155,7 @@ _Call signs also often vary with each flight, and occasionally, they may change 
 
 **Where can you find the call sign on FlightAware?** &#x20;
 
-The call sign is usually located primarily in two places. If looking at the flight map (left image), hover over the airplane you are interested in, and the flight and aircraft information appears. The call sign is highlighted with a yellow box. If looking at the flight data page (right image), the call sign is immediately to the right of the airliner’s logo (highlighted in red square)
+The call sign is usually located primarily in two places. If looking at the flight map (left image), hover over the airplane you are interested in, and the flight and aircraft information appears. The call sign is highlighted with a yellow box. If looking at the flight data page (right image), the call sign is immediately to the right of the airliner’s logo (highlighted in the red square).
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-23 135843 - MARKEDmerge.png" alt=""><figcaption><p>Two places where users can find the call sign within the tool. One is through the live map on the landing page (left), and the other is through the specific flight page of the aircraft of interest (right).</p></figcaption></figure>
 
@@ -163,7 +163,7 @@ The call sign is usually located primarily in two places. If looking at the flig
 
 <details>
 
-<summary>REGISTRATION NUMBER/ TAIL NUMBER/ / N-NUMBER e</summary>
+<summary>REGISTRATION NUMBER/ TAIL NUMBER/ / N-NUMBER</summary>
 
 **Definition:** This number appears near [the tail of every aircraft. ](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons)This is sometimes called a [“Tail Number” or, in the United States, an “N-Number”. ](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)[It is a unique number that tells you which country the aircraft was registered. ](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking)This [guide specifies that an aircraft's registration is similar to a car's license plate, assigned when registered in a specific country.](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) This registration reflects the jurisdiction of the aircraft according to this [list](https://en.wikipedia.org/wiki/List\_of\_aircraft\_registration\_prefixes).&#x20;
 
