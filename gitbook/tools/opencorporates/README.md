@@ -23,12 +23,12 @@ OpenCorporates provides a unified search of corporate and legal entity-level dat
 
 <figure><img src=".gitbook/assets/OC2.png" alt=""><figcaption><p>List of results for keyword 'Aramco'</p></figcaption></figure>
 
-* If you search by a partial name or more than one entity has the same or almost identical name, the results page will show all relevant entries corresponding to your search term (see above image). It will also show BOTH active and inactive entities. To exclude the inactive ones, click on the checkbox 'exclude inactive' located just below the search bar. The results page also has additional filters on the right for jurisdiction, as well as various filters for data associated with the entries, filters for company type and current status. These can be used to narrow down the search results.
+* If you search by a partial name or more than one entity has the same or almost identical name, the results page will show all relevant entries corresponding to your search term (see above image). It will also show BOTH active and inactive entities. To exclude the inactive ones, click on the checkbox 'exclude inactive' located just below the search bar. The results page also has additional filters on the right for jurisdiction, as well as various filters for data associated with the entries, filters for company type and current status. These can be used to narrow down the search results.&#x20;
 * The search bar in the results page also offers advanced search options - where the keyword occurs, search mode, non-profit status, include or exclude company branches.&#x20;
 
 <figure><img src=".gitbook/assets/OC3.png" alt=""><figcaption><p>Advanced options filters in the results page</p></figcaption></figure>
 
-* Once you have located the entity of interest, click on it to see all the information associated with it. This might include registration/incorporation/dissolution dates, company registration number, status (active/inactive), jurisdiction, address, directors or officers and a link to the original source of information.&#x20;
+* Once you have located the entity of interest, click on it to see all the information associated with it. This might include registration / incorporation / dissolution dates, company registration number, status (active/inactive), jurisdiction, address, directors or officers and a link to the original source of information.&#x20;
 
 <div>
 
