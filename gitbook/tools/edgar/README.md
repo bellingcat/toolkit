@@ -10,7 +10,7 @@ description: Database of corporate filings for the US
 
 ## Description
 
-EDGAR (Electronic Data Gathering, Analysis, and Retrieval system) is a database of corporate filings maintained by the U.S. Securities and Exchange Commission. These filings contain a wealth of quantitative and qualitative information on every legal entity that issues non-exempt securities in the United States.&#x20;
+EDGAR (Electronic Data Gathering, Analysis, and Retrieval system) is a database of corporate filings maintained by the U.S. Securities and Exchange Commission. These filings contain a wealth of quantitative and qualitative information on every legal entity that issues non-exempt securities in the United States.
 
 EDGAR is the primary system for companies and others submitting documents under the Securities Act of 1933, the Securities Exchange Act of 1934, the Trust Indenture Act of 1939, and the Investment Company Act of 1940.&#x20;
 
@@ -18,7 +18,7 @@ The EDGAR database provides access to corporate information, allowing research o
 
 Best uses are to track annual reports, top level management of companies, subsidiaries, shareholders, mergers & acquisitions.
 
-Search by keyword, company name, ticker symbol, location or name of an individual.&#x20;
+Search by keyword, company name, ticker symbol, location or the name of an individual.&#x20;
 
 ## Cost
 
@@ -42,8 +42,6 @@ None
 * RSS feeds are available, but each company is its own RSS Feed, there is no functionality to group several in one place. There are [group RSS feeds](https://www.sec.gov/structureddata/rss-feeds) for the most recent filings, and are updated every 10 minutes during business hours, but the format, output and content of these may change without prior notice.
 
 See more about these limitations in: George Dyer:[ New Tools Dig Deeper Into Hard-to-Aggregate US Corporate Data](https://www.bellingcat.com/resources/2023/12/18/new-tools-dig-deeper-into-hard-to-aggregate-us-corporate-data/), Bellingcat.
-
-
 
 ## Ethical Considerations
 
