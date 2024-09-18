@@ -82,7 +82,7 @@ FlightAware will display a list of matching flight/s. The information available 
 
 ### PHOTOS&#x20;
 
-FlightAware also has a photo gallery available based on aircraft type.  There are two ways to search for photos.&#x20;
+FlightAware also has a photo gallery available based on aircraft type. There are two ways to search for photos.&#x20;
 
 **Community Page**&#x20;
 
@@ -120,14 +120,14 @@ Here is an example of a [geolocation by Nixintel](https://nixintel.info/osint/us
 
 ### Use case
 
-First, flight-tracking websites like FlightAware not only assist in geolocation but also help create flight databases for countries with issues that require continuous monitoring. For instance, Bellingcat has created an open-source flight database for [Kazakhstan](https://www.bellingcat.com/resources/2022/01/08/launching-an-open-source-flight-database-for-kazakhstan-in-wake-of-protests/) and [Venezuela](https://www.bellingcat.com/resources/case-studies/2021/03/11/launching-an-open-source-aircraft-database-for-venezuela/).&#x20;
+First, flight-tracking websites like FlightAware not only assist with geolocation but also help create flight databases for countries with issues that require continuous monitoring. For instance, Bellingcat has created an open-source flight database for [Kazakhstan](https://www.bellingcat.com/resources/2022/01/08/launching-an-open-source-flight-database-for-kazakhstan-in-wake-of-protests/) and [Venezuela](https://www.bellingcat.com/resources/case-studies/2021/03/11/launching-an-open-source-aircraft-database-for-venezuela/).&#x20;
 
-Second, Investigators, [such as those at OCCRP,](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) for example, who monitor aircraft, focus on two key tasks:
+Second, investigators who monitor aircraft, [such as those at OCCRP,](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) focus on two key tasks:
 
-1. Determining which planes are owned or regularly utilized by individuals of interest
-2. Following their flight histories or pinpointing their current whereabouts
+1. Determining which planes are owned or regularly utilized by individuals of interest.
+2. Following their flight histories or pinpointing their current whereabouts.
 
-However, [figuring out who really owns a plane is often the more challenging part because people often hide ownership through shell companies and other methods to keep it secret.](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) But because flight tracking is mostly publicly available, [#2 can be a useful method for filling the information gap and can provide clues](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking).&#x20;
+However, as pointed out in OCCRP's [Plane Tracking FAQ](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking), figuring out who really owns a plane is often the more challenging part because people often hide ownership through shell companies and other methods to keep it secret. But because flight tracking is mostly publicly available, the second option can be a useful method for receiving clues to fill the information.&#x20;
 
 See this website: [https://dictatoralert.org/](https://dictatoralert.org/). It is a project that monitors the flight paths of authoritarian regimes' aircraft and alerts people on Twitter when these planes land in major European cities.
 
