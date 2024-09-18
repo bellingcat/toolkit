@@ -4293,5 +4293,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "qDH5TC0S4ws0u68Z7PWh",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "pUaONOd34NUIvwEmkBCW",
+    "title": "RuPEP",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-09-18T14:01:35.501Z",
+    "updatedAt": "2024-09-18T14:01:35.501Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/pUaONOd34NUIvwEmkBCW",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/pUaONOd34NUIvwEmkBCW/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "8HeEYyrRNaZc8OCgwCck",
+    "defaultLevel": "inherit"
   }
 ]
