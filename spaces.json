@@ -4203,5 +4203,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "RX00ee8zlbW6cKSkiCoC",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "DpwCvHgRJ8cQHXZG3NoP",
+    "title": "Companies House",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-09-18T11:32:36.737Z",
+    "updatedAt": "2024-09-18T11:32:36.737Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/DpwCvHgRJ8cQHXZG3NoP",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/DpwCvHgRJ8cQHXZG3NoP/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "DMMaueLsA6F2lvqOMRPX",
+    "defaultLevel": "inherit"
   }
 ]
