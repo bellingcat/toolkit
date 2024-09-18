@@ -9,11 +9,11 @@ description: >-
 
 ## URL
 
-http://flightaware.com/
+[http://flightaware.com/](http://flightaware.com/)
 
 ## Description
 
-FlightAware is a global aviation tracking service that collects real-time flight information, including flight paths, statuses, and historical data.[ It works by gathering data from various sources, such as air traffic control systems, commercial data providers, and its network of ADS-B (Automatic Dependent Surveillance-Broadcast) receivers.](http://www.flightaware.com/about/faq/#data) Key features include live flight tracking, airport information, aircraft information, and alerts for delays or cancellations. Because FlightAware has multiple data sources for its flights, it tends to have better coverage in regions such as South America and Africa (See this [guide](https://gijn.org/resource/planespotting-an-updated-guide-to-tracking-aircraft-around-the-world/) under “Other Tracking Sources”).
+FlightAware is a global aviation tracking service that collects real-time flight information, including flight paths, statuses, and historical data. It works by gathering data from various sources, such as a[ir traffic control systems, commercial data providers, and its network of ADS-B](https://www.flightaware.com/about/faq/#data) (Automatic Dependent Surveillance-Broadcast) receivers. Key features include live flight tracking, airport information, aircraft information, and alerts for delays or cancellations. Because FlightAware has multiple data sources for its flights, it tends to have better coverage in regions such as South America and Africa (See this [guide](https://gijn.org/resource/planespotting-an-updated-guide-to-tracking-aircraft-around-the-world/) under “Other Tracking Sources”).
 
 {% hint style="success" %}
 TIP: Finding plane information requires a multi-source approach. Check more than one flight-tracking website when doing research[ “since one might have more information than the others.”](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) [Google what you can find about the subject at the investigation's outset.](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking)
@@ -163,7 +163,7 @@ The call sign is usually located primarily in two places. If looking at the flig
 
 <details>
 
-<summary>REGISTRATION NUMBER/ TAIL NUMBER/ / N-NUMBER </summary>
+<summary>REGISTRATION NUMBER/ TAIL NUMBER/ / N-NUMBER e</summary>
 
 **Definition:** This number appears near [the tail of every aircraft. ](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons)This is sometimes called a [“Tail Number” or, in the United States, an “N-Number”. ](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)[It is a unique number that tells you which country the aircraft was registered. ](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking)This [guide specifies that an aircraft's registration is similar to a car's license plate, assigned when registered in a specific country.](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) This registration reflects the jurisdiction of the aircraft according to this [list](https://en.wikipedia.org/wiki/List\_of\_aircraft\_registration\_prefixes).&#x20;
 
