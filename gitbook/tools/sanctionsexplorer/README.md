@@ -10,7 +10,7 @@ description: Database of OFAC/UN/EU sanctions
 
 ## Description
 
-Sanctions Explorer is a joint project between two non-profits – [Archer](https://archerimpact.com/about), a former nonprofit based in Berkeley, and [C4ADS](https://c4ads.org/about-us/), an organization focused on data-driven, evidence-based research on global conflict and transnational security. The current version of Sanctions Explorer was developed by C4ADS as a “[comprehensive source](https://sanctionsexplorer.org/about) of all current and historical sanctions data across all major sanctioning authorities.”
+Sanctions Explorer is a joint project between two non-profits – [Archer](https://archerimpact.com/about), a former nonprofit based in Berkeley, and [C4ADS](https://c4ads.org/about-us/), an organization focused on data-driven, evidence-based research on global conflict and transnational security. The current version of Sanctions Explorer was developed by C4ADS as a "[comprehensive source](https://sanctionsexplorer.org/about) of all current and historical sanctions data across all major sanctioning authorities."
 
 It includes sanctions imposed by the U.S. Office of Foreign Assets Control (OFAC), the United Nations (UN), the European Union (EU), the United Kingdom (UK), the U.S. Department of Commerce, Bureau of Industry and Security (BIS) and Japan. Sanctions Explorer persistently monitors the UN, EU, and OFAC websites for updates to the sanctions lists and publishes the new data to the website as it goes active. The home page shows the time of the most recent update of the sanctions database which is updated daily.
 
