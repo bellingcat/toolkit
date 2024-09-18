@@ -4257,5 +4257,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "d0ew9yYpad5KJR6MBrS4",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "49AHTAGqUUBRxkTpt7fp",
+    "title": "ImportGenius",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-09-18T13:36:14.081Z",
+    "updatedAt": "2024-09-18T13:36:14.081Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/49AHTAGqUUBRxkTpt7fp",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/49AHTAGqUUBRxkTpt7fp/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "FwZTIK8TIWPsMCp8RoGZ",
+    "defaultLevel": "inherit"
   }
 ]
