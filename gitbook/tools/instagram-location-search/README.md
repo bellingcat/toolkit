@@ -33,8 +33,6 @@ Caption: This is an example of a popular location. However, the challenge is tha
 1. This tool solves the problem of efficiency. Instead, Instagram Location Search casts a broader net by compiling all the location tags near a set of coordinates along with their respective links to Instagram’s Explore page.
 2. This tool also solves the problem of ease of exporting the data in various output formats that are tailored to the individual needs of the investigator.&#x20;
 
-
-
 <details>
 
 <summary><a href="https://github.com/bellingcat/instagram-location-search/blob/main/README.md">Here is a list of outputs that the tool can create</a></summary>
@@ -49,6 +47,21 @@ Caption: This is an example of a popular location. However, the challenge is tha
 5. \--ids → This is the specific command you use with the tool and tells the tool that you want to get a list of location IDs, which will be saved in a .txt file. Once you have this file with the location IDs, you can use it with another tool (like Instagram scraper). This second tool can then use those IDs to gather more information, such as photos or posts from those locations
 
 </details>
+
+### Steps
+
+For a step-by-step [video guide](https://www.youtube.com/watch?v=equWt9Dq5b0), please refer to Bellingcat’s How To Series.&#x20;
+
+1. Download the tool&#x20;
+2. Give the tool access to Instagram
+
+{% hint style="warning" %}
+NOTE: Giving access to your Instagram account using this tool may breach the platform’s Terms of Service. Note that it may lead to your account being suspended or flagged. Be aware of these risks before proceeding.
+{% endhint %}
+
+3. Find the coordinates you are interested in and input into the tool
+4. Use the tool to get more locations.&#x20;
+5. Use the tool to create output format you may need for your investigation. The output is generally saved in the folder specified on the command line (see below).&#x20;
 
 ## Cost
 
