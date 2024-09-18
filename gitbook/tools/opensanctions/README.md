@@ -14,18 +14,18 @@ description: >-
 
 OpenSanctions provides a structured database of people and entities that are subject to sanctions or other financial restrictions. The database is curated by a team of researchers and journalists, and is designed to be easily accessible and usable by individuals, organizations, and governments. The data includes information on individuals, organizations, and vessels that are subject to sanctions, as well as the legal frameworks and sanctions regimes that apply to them. OpenSanctions is intended to help individuals and organizations comply with international sanctions laws, as well as to facilitate research and investigative journalism into financial crime and corruption.
 
-OpenSanctions has 213 separate dataset collections with multiple sources of data. All the data collected and provided by OpenSanctions is publicly available. The full list of sources can be found and explored [here](https://www.opensanctions.org/datasets/sources/). Each dataset has its own page with a description, options for a bulk download of data and information on where the data has been sourced from.&#x20;
+OpenSanctions has 213 separate dataset collections with multiple sources of data. All the data collected and provided by OpenSanctions is publicly available. The full list of sources can be found and explored [here](https://www.opensanctions.org/datasets/sources/). Each dataset has its own page with a description, options for a bulk download of data and information on where the data has been sourced from.
 
-For basic desktop research, go to [https://www.opensanctions.org/research/](https://www.opensanctions.org/research/) and type the name of an entity, a person or a vessel in the search bar.&#x20;
+For basic desktop research, go to [https://www.opensanctions.org/research/](https://www.opensanctions.org/research/) and type the name of an entity, a person or a vessel in the search bar.    &#x20;
 
 **Example 1: Search for an entity**
 
-* Type the name of an entity in the search bar. In this case Ascotec Steel. The search returns  4  results, because this company has subsidiaries with the word Ascotec in the name, and because the data comes from separate data sources.
+* Type the name of an entity in the search bar. In this case Ascotec Steel. The search returns 4 results, because this company has subsidiaries with the word Ascotec in the name, and because the data comes from separate data sources.
 
 <figure><img src=".gitbook/assets/OS1.png" alt="" width="563"><figcaption></figcaption></figure>
 
 * Review all the results to locate the company of interest, in this case Ascotec Steel Trading GmbH. The profile for this company includes information on its incorporation date (November 11, 1999), jurisdiction (Germany), addresses and the sanctioning authority (OFAC).
-* Once you open a company profile, read through each line of the tables provided. Each line gives information on what the data represents. For example in the Relationships section the information lists two addresses, associated with Ascotec Steel Trading GmbH. The Data sources sections indicates where this information comes from. In this case from OpenSanctions databases compiled by scraping publicly available data from the US Trade Consolidated Screening List (a list of parties for which the U.S. government maintains restrictions on certain exports, reexports, or transfers of items), the U.S. SAM Procurement Exclusions (database of suppliers who have been excluded from participating in federal procurement), and the  OFAC Specially Designated Nationals (SDN) List (the primary U.S. sanctions list, specially designated nationals (SDN) part).
+* Once you open a company profile, read through each line of the tables provided. Each line gives information on what the data represents. For example in the Relationships section the information lists two addresses, associated with Ascotec Steel Trading GmbH. The Data sources sections indicates where this information comes from. In this case from OpenSanctions databases compiled by scraping publicly available data from the US Trade Consolidated Screening List (a list of parties for which the U.S. government maintains restrictions on certain exports, reexports, or transfers of items), the U.S. SAM Procurement Exclusions (database of suppliers who have been excluded from participating in federal procurement), and the OFAC Specially Designated Nationals (SDN) List (the primary U.S. sanctions list, specially designated nationals (SDN) part).
 
 <div>
 
@@ -37,7 +37,7 @@ For basic desktop research, go to [https://www.opensanctions.org/research/](http
 
 </div>
 
-* The little arrows next to each data point open a pop-up window showing additional information regarding the type of sanction. For more details on a specific sanction, you can visit the websites provided in the URLs from OpenSanctions to conduct further research on the company.
+* The little arrows next to each data point opens a pop-up window showing additional information regarding the type of sanction. For more details on a specific sanction, you can visit the websites provided in the URLs from OpenSanctions to conduct further research on the company.
 
 <div>
 
@@ -51,7 +51,7 @@ For basic desktop research, go to [https://www.opensanctions.org/research/](http
 
 **Example 2: Search for an individual**
 
-* Type the name of an individual in the search bar. If you are uncertain about the full legal name, try using the individual's last name. In this case Ivanov. The search returns 531  results for a last name Ivanov, and these results can be filtered by topics, data sources and countries using the lists on the right.
+* Type the name of an individual in the search bar. If you are uncertain about the full legal name, try using the individual's last name. In this case Ivanov. The search returns 531 results for a last name Ivanov, and these results can be filtered by topics, data sources and countries using the lists on the right.
 
 <figure><img src=".gitbook/assets/OS8.png" alt="" width="563"><figcaption><p>Results for searching by keyword 'Ivanov'</p></figcaption></figure>
 
@@ -87,21 +87,21 @@ OpenSanctions is free for non-commercial users. Business and commercial users mu
 
 ## Requirements
 
-No specific requirements for desktop research. Some requirements and set-up needed to use their API.&#x20;
+No specific requirements for desktop research. Some requirements and set-up needed to use their API.
 
 ## Limitations
 
-Does not cover a lot of jurisdictions when it comes to politically exposed persons (PEPs) - 28 countries, one European Union dataset collection and one global dataset with a total of 681,011 entries. Most of the datasets are reportedly updated daily. Possibly missing a lot of names of individuals that hold government positions in countries across the world.&#x20;
+Does not cover a lot of jurisdictions when it comes to politically exposed persons (PEPs) - 28 countries, one European Union dataset collection and one global dataset with a total of 681,011 entries. Most of the datasets are reportedly updated daily. Possibly missing a lot of names of individuals that hold government positions in countries across the world.
 
 Possible duplication of entries in the databases - there is a possible overlap of data in different datasets. Although OpenCorporates claims do perform de-duplication to avoid overlap and confusion, this is still a possibility.
 
 The vessels database is very limited with just over 2,000 entries and researchers should use other available tools in addition to OpenSanctions to look for vessels.
 
-The search returns different number of results or no results at all if the searched keyword is typed in Cyrillic (e.g. using search term _Gazprom_ returns 44 results, while using _Газпром_ returns 327 results). This is an issue with desktop research if there are too many similar results and the researcher has to go through a number of them to locate a specific entity.&#x20;
+The search returns different number of results or no results at all if the searched keyword is typed in Cyrillic (e.g. using search term _Gazprom_ returns 44 results, while using _Газпром_ returns 327 results). This is an issue with desktop research if there are too many similar results and the researcher has to go through a number of them to locate a specific entity.
 
 ## Ethical Considerations
 
-Personally Identifiable Information (PII) is usually masked or hidden and the information comes from public sources, usually government ones, however if PII has not been redacted, it should be used with caution.&#x20;
+Personally Identifiable Information (PII) is usually masked or hidden and the information comes from public sources, usually government ones, however if PII has not been redacted, it should be used with caution.
 
 ## Guide
 
