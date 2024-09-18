@@ -74,27 +74,41 @@ NOTE: Giving access to your Instagram account using this tool may breach the pla
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+Python&#x20;
+
+Chrome Browser&#x20;
+
+Instagram Account&#x20;
+
+Some beginner understanding of command line tools&#x20;
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+1. Level of difficulty&#x20;
+
+One of the tool's limitations is that users are required to have a fundamental knowledge of both the command line and Python programming. Without this, they may struggle with basic operations and troubleshooting. However, there are simple guides available here.&#x20;
+
+2. Potential flagging of account
+
+Using Bellingcat's Instagram location search tool may pose certain risks. As mentioned above, granting access to your Instagram account through this tool could potentially violate Instagram’s Terms of Service, which might result in your account being flagged or suspended. Mitigate by using a dedicated research account.&#x20;
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+1. Terms of Service Violations: This tool may violate Instagram's Terms of Service, which can lead to account suspension or other penalties for users.
+2. Transparency: Users of the tool should be transparent about how data is collected and used in their investigation
+3. User Consent: The tool accesses publicly available content, but it may still infringe on users' expectations of privacy. Users may not realize their posts are being aggregated for analysis.&#x20;
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+Bellingcat Tech Series: [https://www.youtube.com/watch?v=equWt9Dq5b0](https://www.youtube.com/watch?v=equWt9Dq5b0)&#x20;
+
+Review: https://web.archive.org/web/20240222040518/https://os2int.com/toolbox/identifying-and-scraping-from-instagram-locations-with-instagram-location-search/
 
 ## Tool provider
 
