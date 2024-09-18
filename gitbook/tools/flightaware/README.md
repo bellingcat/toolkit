@@ -38,23 +38,23 @@ Depending on what information a researcher already has, he/she can go to the mai
 
 ### LIVE MAP
 
-In the tool’s landing page, below the search bar, users can see a live tracking map. [It claims to show real-time traffic worldwide](https://www.flightaware.com/). Refer to the table below to see how users can get information on the live map:
+In the tool’s [landing page](https://www.flightaware.com/), below the search bar, users can see a live tracking map which claims to show real-time traffic worldwide. Refer to the table below to see how users can get information on the live map:
 
 _**Search by aircraft: Hover or click on any aircraft**_
 
-**Hovering will give a quick overview of**&#x20;
+**Hovering over an aircraft will give a quick overview of:**&#x20;
 
 * aircraft call sign
 * its altitude
-* Its route using airport codes (i.e. MNL - AUH - meaning from Manila International Airport (MNL) to Abu Dhabi International Airport (AUH) )
+* its route using airport codes (i.e. MNL - AUH - meaning from Manila International Airport (MNL) to Abu Dhabi International Airport (AUH) )
 * estimated landing time&#x20;
 * speed&#x20;
 
 <figure><img src=".gitbook/assets/Live MaP (1).png" alt=""><figcaption><p>This is a view of the live map of FlightAware, found on the landing page of the tool. Search an area or region of interest and hover over aircraft to find details. In this case, we are looking at a United Airlines flight 195, Call sign UAL:195, on a Boeing 772, flying at around 38000 ft, at the speed of 519 mph. The aircraft came from Munich International Airport and arrived at San Francisco International Airport. Clicking on this aircraft, by contrast, will provide more details on a separate page.</p></figcaption></figure>
 
-**Clicking on an aircraft :** This will take you to a dedicated page for that flight with all the necessary flight information and aircraft information (as described below)
+**Clicking on an aircraft :** This will take you to a dedicated page for that flight with all the necessary flight information and aircraft information (as described below).
 
-**Clicking on an airport (represented by dots and a three-letter airport code):** This will take the user to the airport page. T[he users can find incoming and outgoing flights to and from the airport:](https://www.flightaware.com/about/faq/#vicinityAirport)
+**Clicking on an airport (represented by dots and a three-letter airport code):** This will take the user to the airport page where users can find [incoming and outgoing flights](https://www.flightaware.com/about/faq/#vicinityAirport) to and from the airport:
 
 * GREEN - outgoing commercial flights
 * BLUE - incoming commercial flights&#x20;
