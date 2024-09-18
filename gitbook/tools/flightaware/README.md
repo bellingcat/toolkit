@@ -112,7 +112,7 @@ NOTE: Remember that historical information is limited for the free account, so f
 
 This can be helpful for specific geolocation tasks, especially for images with contrails or airplanes in the background. If there is flight information in a geolocation task, KML files overlaid on Google Earth Pro can help plot the course location and narrow down the search area based on the flight path.
 
-Here is an example of [geolocation by Nixinte](https://nixintel.info/osint/using-flight-tracking-for-geolocation-quiztime-30th-october-2019/)l using a flight log KML file overlaid over Google Earth Pro, in addition to using the[ Suncalc tool](https://bellingcat.gitbook.io/toolkit/more/all-tools/suncalc). &#x20;
+Here is an example of a [geolocation by Nixintel](https://nixintel.info/osint/using-flight-tracking-for-geolocation-quiztime-30th-october-2019/) using a flight log KML file overlaid over Google Earth Pro, in addition to using the[ Suncalc tool](https://bellingcat.gitbook.io/toolkit/more/all-tools/suncalc). &#x20;
 
 
 
