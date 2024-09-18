@@ -33,9 +33,22 @@ Caption: This is an example of a popular location. However, the challenge is tha
 1. This tool solves the problem of efficiency. Instead, Instagram Location Search casts a broader net by compiling all the location tags near a set of coordinates along with their respective links to Instagram’s Explore page.
 2. This tool also solves the problem of ease of exporting the data in various output formats that are tailored to the individual needs of the investigator.&#x20;
 
-\
-\
 
+
+<details>
+
+<summary><a href="https://github.com/bellingcat/instagram-location-search/blob/main/README.md">Here is a list of outputs that the tool can create</a></summary>
+
+1. \--map → This command allows users to request a map in HTML format showing the locations on the map, with links to Instagram and the media associated with the particular location tag. &#x20;
+2. \--csv → This command allows users to request the location data in a CSV/table-like format which they can then use on programs like Excel, Google Sheets, etc &#x20;
+3. \--json → This command line argument can request a JSON file.  This file will look almost the same as the data you’d see if you were getting it directly from a website or an API&#x20;
+4. \--geojson →  This argument helps you save a list of Instagram locations in a format that’s ready to be used for mapping and other geographic applications such as Google Maps, QGIS, etc .&#x20;
+
+<!---->
+
+5. \--ids → This is the specific command you use with the tool and tells the tool that you want to get a list of location IDs, which will be saved in a .txt file. Once you have this file with the location IDs, you can use it with another tool (like Instagram scraper). This second tool can then use those IDs to gather more information, such as photos or posts from those locations
+
+</details>
 
 ## Cost
 
@@ -47,7 +60,7 @@ Caption: This is an example of a popular location. However, the challenge is tha
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
 ## Requirements
 
@@ -67,15 +80,15 @@ Caption: This is an example of a popular location. However, the challenge is tha
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Bellingcat, Netherlands
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| Afton           |
+|                 |
