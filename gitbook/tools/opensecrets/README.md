@@ -52,7 +52,7 @@ The page has four main categories: Candidates & Officeholders, Elections & Fundr
 * [Political Ads ](https://www.opensecrets.org/political-ads)- allows tracking of political spending online (Facebook and Google) by advertiser and each advertiser has its own separate profile with specifics (Including which Facebook pages ran the ads); and by TV and Radio - contains pdf files submitted to the Federal Communications Commission by broadcasters around the country.
 * [Dark Money](https://www.opensecrets.org/dark-money) - a sub-page with articles on dark money as well as who spent [dark money](https://www.opensecrets.org/dark-money/basics) and where that dark money went.
 * [Industries](https://www.opensecrets.org/industries) - cumulative data on which industries spent money. Also for each interest group there is a summary of political giving dating back to the 1990 election cycle (breakdowns by type of contribution & political party top contributors); a list of organizations (usually U.S. companies) that have given the most from that industry through their employees and political action committees; a list of candidates that have received the most from a particular industry.
-* [Organizations](https://www.opensecrets.org/orgs/all-profiles) - Each organization profile tracks campaign contributions from the organization's employees and members, its PAC and from the organization itself, only when it gives to outside groups. Each profile also tracks the organization’s lobbying activity to influence public policy, as well as its outside spending to influence elections.
+* [Organizations](https://www.opensecrets.org/orgs/all-profiles) - Each organization profile tracks campaign contributions from the organization's employees and members, its PAC and from the organization itself, only when it gives to outside groups. Each profile also tracks the organization’s lobbying activity to influence public policy, as well as its outside spending to influence elections.&#x20;
 * [527s](https://www.opensecrets.org/527s) - groups, formed under section 527 of the Internal Revenue Code, primarily are involved in issue advocacy. Some organizations, including labor unions, use 527 accounts to support or oppose state and local candidates and contribute to other committees. The data is presented as simple lists with contributors' names and amounts.
 * [PACs ](https://www.opensecrets.org/political-action-committees-pacs)- includes data in Super PACs and leadership PACs. This subsection is useful when tracking whether a candidate received money for a specifically formed action committee dedicated to them and whether a PAC has donated to more than one candidate. Information like this can uncover links between donor spending and political issues they might want to achieve through funding a candidate.
 * [Issue Profiles ](https://www.opensecrets.org/news/issues/)- OpenSecrets' own research on specific topics with lots of articles and data. For example the climate change issue delves deep into spending, environmental groups activism and environmental lobbying.
@@ -121,7 +121,7 @@ OpenSecrets: [Developer tools](https://www.opensecrets.org/resources/create/tool
 
 ## Tool provider
 
-OpenSecrets is a 501(c)(3) tax-exempt, charitable organization based in Washington, DC
+OpenSecrets is a 501(c)(3) tax-exempt, charitable organization based in Washington, DC.
 
 ## Advertising Trackers
 
