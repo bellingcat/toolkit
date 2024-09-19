@@ -26,7 +26,7 @@ When looking for media within a particular location, searching with just an addr
 
 This could mean the investigator will have to manually compile a list of all those possible locations and then potentially sift through the individual location tags to look for media.&#x20;
 
-<figure><img src=".gitbook/assets/ScreenRecording2024-09-15195317-ezgif.com-censor.gif" alt="" width="563"><figcaption><p> This is an example of a post of Bayon Temple, a popular tourist destination in Siem Reap, Cambodia. However, the challenge is that when a user tags the image, various location suggestions appear. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/ScreenRecording2024-09-15195317-ezgif.com-censor.gif" alt="" width="563"><figcaption><p> This is an example of a post of Bayon Temple, a popular tourist destination in Siem Reap, Cambodia. However, the challenge is that when a user tags the image, various location suggestions appear. Searching for relevant media through individual location tags is inefficient and may risk excluding pertinent potential images/video for the investigation. </p></figcaption></figure>
 
 1. This tool solves the problem of efficiency. Instead, Instagram Location Search casts a broader net by compiling all the location tags near a set of coordinates along with their respective links to Instagram’s Explore page.
 2. This tool also solves the problem of ease of exporting the data in various output formats that are tailored to the individual needs of the investigator.&#x20;
