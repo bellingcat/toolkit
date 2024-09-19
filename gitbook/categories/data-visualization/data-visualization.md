@@ -1,4 +1,4 @@
-# Data Visualization
+# Data Organization & Analysis
 
 | Name | Description | Cost | Details |
 | --- | --- | --- | --- |
