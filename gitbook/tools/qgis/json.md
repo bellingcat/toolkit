@@ -21,7 +21,8 @@ description: This is the JSON codeblock for this tool
     "environment",
     "geospatial",
     "international",
-    "spatial-analysis"
+    "spatial-analysis",
+    "data"
   ]
 }
 ```

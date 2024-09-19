@@ -12,7 +12,8 @@ description: This is the JSON codeblock for this tool
     "international",
     "read-it-later",
     "productivity",
-    "bookmarking"
+    "bookmarking",
+    "data"
   ]
 }
 ```

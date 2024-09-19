@@ -13,7 +13,8 @@ description: This is the JSON codeblock for this tool
     "email-address",
     "alias",
     "phone-number",
-    "public-record"
+    "public-record",
+    "data"
   ]
 }
 ```

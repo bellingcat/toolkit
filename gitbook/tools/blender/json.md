@@ -20,7 +20,8 @@ description: This is the JSON codeblock for this tool
     "spatialisation",
     "video-editing",
     "OSM",
-    "openstreetmaps"
+    "openstreetmaps",
+    "data"
   ]
 }
 ```

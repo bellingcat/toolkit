@@ -7,7 +7,9 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "tags": []
+  "tags": [
+    "data"
+  ]
 }
 ```
 {% endcode %}

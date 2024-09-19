@@ -21,7 +21,8 @@ description: This is the JSON codeblock for this tool
     "personal-knowledge-base",
     "zettelkasten",
     "non-linear-note-taking",
-    "graph-view"
+    "graph-view",
+    "data"
   ]
 }
 ```
