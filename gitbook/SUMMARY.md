@@ -36,7 +36,7 @@
 * [Transport](categories/transport/transport.md)
 * [Environment & Wildlife](categories/environment-and-wildlife/environment-and-wildlife.md)
 * [Archiving](categories/archiving/archiving.md)
-* [Data Visualization](categories/data-visualization/data-visualization.md)
+* [Data Organization & Analysis](categories/data/data.md)
   
 ## 📖 Resources
 
