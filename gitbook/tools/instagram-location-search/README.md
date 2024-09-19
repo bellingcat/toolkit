@@ -106,9 +106,7 @@ Using Bellingcat's Instagram location search tool may pose certain risks. As men
 
 Bellingcat Tech Series "How to" Video: [https://www.youtube.com/watch?v=equWt9Dq5b0](https://www.youtube.com/watch?v=equWt9Dq5b0)&#x20;
 
-Review by Joseph Jones of OS2INT, "Identifying and Scraping with 'Instagram Location Search'": [https://web.archive.org/web/20240222040518/https://os2int.com/toolbox/identifying-and-scraping-from-instagram-locations-with-instagram-location-search/ ](https://web.archive.org/web/20240222040518/https://os2int.com/toolbox/identifying-and-scraping-from-instagram-locations-with-instagram-location-search/)
-
-
+31 Oct 2021, review by Joseph Jones of OS2INT, "Identifying and Scraping with 'Instagram Location Search'": [https://web.archive.org/web/20240222040518/https://os2int.com/toolbox/identifying-and-scraping-from-instagram-locations-with-instagram-location-search/ ](https://web.archive.org/web/20240222040518/https://os2int.com/toolbox/identifying-and-scraping-from-instagram-locations-with-instagram-location-search/)
 
 ## Tool provider
 
