@@ -25,12 +25,12 @@ If you're a journalist, fact-checker, or researcher, take a minute to apply and 
 Provides contextual information and metadata for YouTube and public Facebook videos, helping users understand the video's background and related comments.
 
 {% tabs %}
-{% tab title="First Tab" %}
-
+{% tab title="Video Analysis" %}
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Enter the video URL</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results: Video Description" %}
-<figure><img src="broken-reference" alt=""><figcaption><p>The results will extract the video description as well as some key metrics given by the platform. </p></figcaption></figure>
+
 {% endtab %}
 
 {% tab title="Untitled" %}
@@ -144,9 +144,13 @@ Extracts metadata from JPEG images and videos in MP4 or M4V formats, providing d
 
 ## Requirements
 
-.Chrome (Opera, Edge, and Firefox under development), Internet, and, for some features a professional Address&#x20;
+Chrome (Opera, Edge, and Firefox under development), Internet, and, for some features a professional Address&#x20;
 
-## Limitations & Ethical Considerations
+## Limitations
+
+
+
+## Ethical Considerations
 
 * **External Services**: Some tools within the plugin rely on external services that are not open-sourced, which may affect transparency and long-term accessibility.
 * **API Restrictions**: Certain features, such as Twitter analysis, have been deprecated due to changes in platform APIs.
