@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Obsidian is a knowledge management tool built on top of a local folder of plain text markdown files. It is designed to make writing and organizing your thoughts, ideas, and projects easy, effectively turning your collection of notes into a connected web of knowledge. This tool is aimed at helping individuals manage their notes and organize their knowledge. Inspired by Niklas Luhman's "Zettelkasten" principle, Obsidian is designed to be part of your routine digital workflow and, over time, become an extension of your memory and mental models.
+Obsidian is a knowledge management tool built on top of a local folder of plain text markdown files. It is designed to make writing and organizing your thoughts, ideas, and projects easy, effectively turning your collection of notes into a connected web of knowledge. This tool is aimed at helping individuals manage their notes and organize their knowledge. Inspired by Niklas Luhman's[ "Zettelkasten" ](https://en.wikipedia.org/wiki/Zettelkasten)principle, Obsidian is designed to be part of your routine digital workflow and, over time, become an extension of your memory and mental models.
 
 The user interface is highly customizable, and the software is supported by a large community that can contribute to a core library of plugins. Obsidian supports different user groups' various individual needs, from academic research to personal note-taking to project management.
 
@@ -50,7 +50,7 @@ The tool also supports advanced Markdown editing, customizable themes, and commu
 
 * **Personal use:** free.&#x20;
 * **Commercial use**: paid.
-* **Sync across devices**: paid "Sync" service available, but workarounds are possible (eg. github)
+* **Sync across devices**: paid "Sync" service is available, but workarounds are possible (eg. github)
 * **Publish to the cloud**: paid service available, free hosting solutions available&#x20;
 
 ## Level of difficulty
@@ -73,9 +73,9 @@ Obsidian is available on the following platforms:
 
 While Obsidian is a powerful note-taking and knowledge-base application, its focus on being a text-based editor comes with a few disadvantages:
 
-* **Not collaboration-friendly**: Obsidian offers more limited real-time collaboration and cloud-based access than other tools. While the premium sync service enables device synchronization, it is not optimized for real-time collaborative work.
+* **Not collaboration-friendly**: Obsidian is primarily designed for personal use and offers limited built-in collaboration features. While its premium sync service allows device synchronization, it is not optimized for real-time collaborative work, unlike cloud-based alternatives. Users can still collaborate by using third-party tools to sync local Markdown files, which are inherently safe for sharing. For more details on Obsidian's sync service, refer to the [Obsidian Sync documentation](https://obsidian.md/sync).
 * **Learning Curve**: At first glance, Obsidian's interface might appear plain due to its subtle integration of advanced customization options and markdown features. However, while mastering all available functions only comes with regular use, initial non-use of advanced functions does not compromise the software's effectiveness as a robust note-taking tool. That being said, users uncomfortable with markdown language might prefer a less powerful app.
-* **No Built-in Publish Feature**:  Obsidian requires a paid service (Obsidian Publish) to publish notes online. With Obsidian Publish, setting up a simple website with select pages that can be secured with passwords is easy.
+* **No Built-in Publish Feature**: Obsidian requires a paid service called Obsidian Publish to publish notes online. This service allows users to create simple websites with select pages, which can be secured with passwords. This limitation might be significant for users needing to share their work online without relying on third-party services. For more information, visit the [Obsidian Publish ](https://obsidian.md/publish)page.
 * **Limited External Integration**: Out of the box, Obsidian's native integration with external services such as Google Calendar is not extensive. However, a wide range of functionalities can be achieved using plugins.
 * **Third-party plugins:** Advanced functionalities heavily rely on third-party plugins, posing potential security risks.
 
@@ -84,6 +84,7 @@ While Obsidian is a powerful note-taking and knowledge-base application, its foc
 While Obsidian as a tool focuses on enhancing personal and professional productivity through effective note-taking and knowledge management, it carries its own set of ethical considerations:
 
 * **Data Privacy**: Given its offline-first approach, users have significant control over their data. However, users must be vigilant about exporting or sharing their notes through external services, which may not uphold the same privacy standards.
+* While Obsidian is highly customizable and feature-rich, it is **not open-source**. This means that its source code is not publicly available for review or modification, which could be a consideration for users concerned about transparency, security, and data privacy. For those who prefer open-source solutions, [Logseq](https://logseq.com/) is an alternative that offers similar capabilities with full transparency.
 * **Plugin Security**: The capacity to extend Obsidian's functionality with plugins is powerful but also introduces the need to trust third-party developers. Users must exercise caution, ensuring they install reputable plugins to avoid potential security risks.
 * **Accessibility**: Although Obsidian offers a wide range of features, its learning curve and interface may pose accessibility challenges for users who are not tech-savvy or have disabilities.&#x20;
 * **Sustainability of the Free Model**: While Obsidian’s core functions are free, the long-term sustainability of such a model depends on a sufficient number of users opting for paid features.&#x20;
