@@ -16,7 +16,7 @@ OpenSanctions provides a structured database of people and entities that are sub
 
 OpenSanctions has 213 separate dataset collections with multiple sources of data. All the data collected and provided by OpenSanctions is publicly available. The full list of sources can be found and explored [here](https://www.opensanctions.org/datasets/sources/). Each dataset has its own page with a description, options for a bulk download of data and information on where the data has been sourced from.
 
-For basic desktop research, go to [https://www.opensanctions.org/research/](https://www.opensanctions.org/research/) and type the name of an entity, a person or a vessel in the search bar.    &#x20;
+For basic desktop research, go to [https://www.opensanctions.org/research/](https://www.opensanctions.org/research/) and type the name of an entity, a person or a vessel in the search bar.&#x20;
 
 **Example 1: Search for an entity**
 
@@ -37,7 +37,7 @@ For basic desktop research, go to [https://www.opensanctions.org/research/](http
 
 </div>
 
-* The little arrows next to each data point opens a pop-up window showing additional information regarding the type of sanction. For more details on a specific sanction, you can visit the websites provided in the URLs from OpenSanctions to conduct further research on the company.
+* The little arrows next to each data point opens a pop-up window showing additional information regarding the type of sanction. For more details on a specific sanction, you can visit the websites provided in the URLs from OpenSanctions to conduct further research on the company .
 
 <div>
 
@@ -79,7 +79,7 @@ For basic desktop research, go to [https://www.opensanctions.org/research/](http
 * [x] Partially Free
 * [ ] Paid
 
-OpenSanctions is free for non-commercial users. Business and commercial users must either acquire a data license, or subscribe to the pay-as-you-go API service.
+OpenSanctions is free for non-commercial users. Business and commercial users must either acquire a data license, or subscribe to the pay-as-you-go API service.&#x20;
 
 ## Level of difficulty
 
@@ -87,7 +87,7 @@ OpenSanctions is free for non-commercial users. Business and commercial users mu
 
 ## Requirements
 
-No specific requirements for desktop research. Some requirements and set-up needed to use their API.
+No specific requirements for desktop research. Some requirements and set-up needed to use the API.
 
 ## Limitations
 
