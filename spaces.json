@@ -4365,5 +4365,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "HXzM91EII3Ie9Ov1f77e",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "ZnjfvCE5l01ZuBg0LACk",
+    "title": "The Information Laundromat",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-09-20T17:26:01.485Z",
+    "updatedAt": "2024-09-20T17:26:01.485Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/ZnjfvCE5l01ZuBg0LACk",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/ZnjfvCE5l01ZuBg0LACk/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "pdqSOlOUTMkQ2k6TkaJv",
+    "defaultLevel": "inherit"
   }
 ]
