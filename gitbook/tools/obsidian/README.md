@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Obsidian is a knowledge management tool built on top of a local folder of plain text markdown files. It is designed to make writing and organizing your thoughts, ideas, and projects easy, effectively turning your collection of notes into a connected web of knowledge. This tool is aimed at helping individuals manage their notes and organize their knowledge. Inspired by Niklas Luhman's[ "Zettelkasten" ](https://en.wikipedia.org/wiki/Zettelkasten)principle, Obsidian is designed to be part of your routine digital workflow and, over time, become an extension of your memory and mental models.
+Obsidian is a knowledge management tool built on top of a local folder of plain text markdown files. It is designed to make writing and organizing your thoughts, ideas, and projects easy, effectively turning your collection of notes into a connected web of knowledge. This tool is aimed at helping individuals manage their notes and organize their knowledge. Inspired by Niklas Luhman's[ "Zettelkasten" ](https://en.wikipedia.org/wiki/Zettelkasten)principle, It allows users to create a network of interconnected notes, facilitating complex research projects by visualizing connections through a graph view and backlinking. Obsidian is designed to be part of your routine digital workflow and, over time, become an extension of your memory and mental models.
 
 The user interface is highly customizable, and the software is supported by a large community that can contribute to a core library of plugins. Obsidian supports different user groups' various individual needs, from academic research to personal note-taking to project management.
 
