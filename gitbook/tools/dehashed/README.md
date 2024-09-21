@@ -1,14 +1,16 @@
 ---
-description: A brief one line description of this tool
+description: A search engine that provides access to a database of compromised credentials.
 ---
 
 # DeHashed
 
 ## URL
 
-https://example.com
+[https://dehashed.com/](https://dehashed.com/)
 
 ## Description
+
+
 
 \[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
 
@@ -54,4 +56,3 @@ https://example.com
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
