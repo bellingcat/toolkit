@@ -16,7 +16,13 @@ It is ostensibly designed for individuals and companies to detect and monitor da
 
 For example, you can use DeHashed to help search for someone who is hiding or trying to conceal their identity.&#x20;
 
-For example, you can run an email address through DeHashed to identify  accounts your subject maintains, along with the passwords associated with those accounts. You can then go back to the DeHashed search engine and run a new search for that password, which may identify a whole new set of accounts and email addresses that use the same password. That way, you might be able to find out whether your subject is operating under an alias name or email address, all the while using and recycling the same passwords. You might also find IP addresses and location-specific accounts that can help you start spotting patterns and clues as to your subject's location or activities. &#x20;
+For example, you can run an email address through DeHashed to identify  accounts your subject maintains, along with the passwords associated with those accounts. You can then go back to the DeHashed search engine and run a new search for that password, which may identify a whole new set of accounts and email addresses that use the same password. That way, you might be able to find out whether your subject is operating under an alias name or email address, all the while using and recycling the same passwords.&#x20;
+
+You might also find IP addresses and location-specific accounts that can help you start spotting patterns and clues as to your subject's location or activities. &#x20;
+
+Pay attention to their usernames and passwords. Do they contain numbers that could represent dates of birth? Or the name of the city they live in, or a child or a pet?&#x20;
+
+Record any relevant results and data points as you go to map out a subject's online footprint. How many usernames, email addresses, IP addresses are they linked to?  What do these tell us about their online activities, location, family etc.?
 
 ### Step-by-step guide on how to use DeHashed
 
@@ -24,11 +30,15 @@ The search engine is extremely simple to use and user-friendly: you can run a ke
 
 ![](.gitbook/assets/image.png)        &#x20;
 
-If you search by, say, email address, you will get a list of various data points associated with that email, including names and passwords. You can then run more searches against the names and passwords you identified during your original search with a view to finding more accounts and generating fresh research leads.&#x20;
+If you search by, say, email address, you will get a list of various data points associated with that email, including names and passwords. You can then run more searches against, for example, the names and passwords you identified during your original search with a view to finding more accounts and generating fresh research leads. For example:
 
 
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+### Different ways of searching
+
+You can search by domain or field, increase or decrease the number of results displayed, use wildcard characters, run regex (a form of advanced searching that looks for specific patterns) searches and mix operators (e.g. email and username together).
+
+DeHashed publishes a very basic (but useful) search guide [here](https://dehashed.com/search-guide), explaining how to search by field, use wildcard characters, or search a specific data origin.  &#x20;
 
 ## Cost
 
@@ -61,8 +71,6 @@ DeHashed aggregates leaked data and is not a comprehensive repository of every e
 Consider the ethical and legal implications of analysing and using leaked user data in your research. Carefully consider and decide whether to use this data in keeping with the nature and purpose of your work. Does the end justify the means?
 
 ## Guides and articles
-
-DeHashed publishes a very basic (but useful) search guide [here](https://dehashed.com/search-guide), explaining how to search by field, use wildcard characters, or search a specific data origin.  &#x20;
 
 This YouTube [video ](https://www.youtube.com/watch?v=3JztCgR85ls)provides a great demonstration of how to use DeHashed creatively to generate new research leads.
 
