@@ -10,14 +10,28 @@ description: A search engine that provides access to a database of compromised c
 
 ## Description
 
+DeHashed has compiled a searchable database of leaked personal information and  sensitive data. It allows users to search through billions of records, including names, email addresses, usernames, IP address, physical address, phone number, vehicle identification number, and domains.&#x20;
+
+It is ostensibly designed for individuals and companies to detect and monitor data breaches in real time, but can also be effectively used for OSINT research.&#x20;
+
+For example, you can use DeHashed to help search for someone who is hiding or trying to conceal their identity. You can run an email address through DeHashed to identify  accounts your subject maintains, along with the passwords associated with those accounts. If your subject decides to create a new &#x20;
+
+## Step-by-step guide on how to use DeHashed
+
+The search engine is extremely simple to use and user-friendly: you can run a keyword search either by field or across all fields:
+
+![](.gitbook/assets/image.png)        &#x20;
+
+If you search by, say, email address, you will get a list of various data points associated with that email, including names and passwords.
+
 
 
 \[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
 \[\[Pricing or subscription information, if relevant.]]
@@ -28,7 +42,7 @@ description: A search engine that provides access to a database of compromised c
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+You have to create an account to run searches. This is relatively easy and requires only an email address and password.
 
 ## Limitations
 
