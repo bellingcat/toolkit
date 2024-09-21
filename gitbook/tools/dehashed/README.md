@@ -60,7 +60,7 @@ The current [pricing ](https://dehashed.com/pricing)information is below:&#x20;
 
 ## Requirements
 
-N/A
+You have to create an account to run searches. This is relatively easy and requires only an email address and password.&#x20;
 
 ## Limitations
 
