@@ -1,14 +1,20 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  Google Lens is image recognition technology that allows users to identify the
+  location or subject of a photograph.
 ---
 
 # Google Lens
 
 ## URL
 
-https://example.com
+[https://lens.google/](https://lens.google/)
 
 ## Description
+
+Use Google Lens to identify the subject or location of an image. Primarily a mobile phone application, this software can also be used in the Chrome browser.&#x20;
+
+If your mobile phone runs on Android, open a photograph in your gallery then click the Google lens icon at the bottom of the image.
 
 \[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
 
@@ -54,4 +60,3 @@ https://example.com
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
