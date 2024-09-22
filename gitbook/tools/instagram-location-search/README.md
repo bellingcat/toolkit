@@ -91,7 +91,7 @@ Some beginner understanding of command line tools
 
 1. Level of difficulty
 
-One of the tool's limitations is that users are required to have a fundamental knowledge of both the command line and Python programming. Without this, they may struggle with basic operations and troubleshooting. However, there are simple guides available here.
+One of the tool's limitations is that users are required to have a fundamental knowledge of both the command line and Python programming. Without this, they may struggle with basic operations and troubleshooting. However, there are simple guides available.
 
 2. Potential flagging of account
 
