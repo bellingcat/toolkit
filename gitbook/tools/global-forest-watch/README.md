@@ -13,9 +13,9 @@ https://www.globalforestwatch.org/
 ## Description
 
 **Features**\
-Forest Change: rates of forest change, forest extent, and drivers of deforestation. \
-Fires: Rates and location of fires. \
-Land use: Commodities, conservation, infrastructure, concessions, and people. \
+Forest Change: rates of forest change, forest extent, and drivers of deforestation.\
+Fires: Rates and location of fires.\
+Land use: Commodities, conservation, infrastructure, concessions, and people.\
 Land cover: tree cover, forest landscape and integrity, and others.\
 Biodiversity: Global biodiversity intactness, key biodiversity areas, amongst others.\
 Climate: Carbon flux, carbon density, and potential carbon gains.
@@ -23,7 +23,9 @@ Climate: Carbon flux, carbon density, and potential carbon gains.
 **Benefits**\
 \-The data can be exported.\
 \-Interactive and easy visualization.\
-\-Tutorials on using the features are available through the website and are accessible.&#x20;
+\-Tutorials on using the features are available through the website and are accessible.\
+\-It can be used in many languages.\
+\-It is possible to visualize statistics about global forests.
 
 ## Cost
 
@@ -37,19 +39,22 @@ Climate: Carbon flux, carbon density, and potential carbon gains.
 
 ## Requirements
 
-There are no requirements to use this tool, and no e-mail address is requested. \
-**Using with no account:** Explore features such as deforestation, fires, land cover, land use, biodiversity, and weather data from 2001 on (in most of the regions). \
+There are no requirements to use this tool, and no e-mail address is requested.\
+**Using with no account:** Explore features such as deforestation, fires, land cover, land use, biodiversity, and weather data from 2001 on (in most of the regions).\
 \
 However, researchers who want to optimize their research can create an account, sign up for alerts in an area of interest, analyze data, and receive email notifications when new alerts are available.\
-**To create an account:** After providing an email, you can use generic information on contact and affiliation.&#x20;
+**To create an account:** After providing an email, you can use generic information on contact and affiliation.
 
 ## Limitations
 
-Like all data from satellite imagery, we can not say that the data is 100% accurate.
+\-Like all data from satellite imagery, we can not say that the data is 100% accurate.\
+\-GFW may not cover every region with the same level of detail.\
+\-Lack of distinction between natural forests and plantations.\
+\-Given these considerations, it should not be used as a primary source for sensitivity analysis.
 
 ## Ethical Considerations
 
-There are minimal ethical considerations, as it is configured with a combination of sources (below). Still, consider the limitations when using the data to take action. \
+There are minimal ethical considerations, as it is configured with a combination of sources (below). Still, the data's limitations should be considered before taking action. It is recommended that other sources be used to compare the findings. \
 \
 Sources used by Global Forest Watch\
 World Topographic Map: © Mapbox, © OpenStreetMap, USGS, Landsat, Natural Earth and Open Addresses\
@@ -65,7 +70,7 @@ Planet Mosaics: © Planet Labs Inc. Mosaics can also be downloaded from https://
 
 ## Guide
 
-Step-by-step guide: https://www.globalforestwatch.org/help/map/guides/&#x20;
+Step-by-step guide: https://www.globalforestwatch.org/help/map/guides/
 
 ## Tool provider
 
