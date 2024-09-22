@@ -22,7 +22,7 @@ Open source investigators can use this Python-based command-line tool to get geo
 
 ### What Problem Does It Solve?
 
-When looking for media within a particular location, searching with just an address or the name of a location on Instagram can be confusing, especially for popular spots. [The problem is that Instagram suggests an abundance of location options for a single place (See video at 1:11).](https://www.youtube.com/watch?v=equWt9Dq5b0)
+When looking for media within a particular location, searching with just an address or the name of a location on Instagram can be confusing, especially for popular spots. The problem is that Instagram suggests an abundance of location options for a single place (see [video](https://www.youtube.com/watch?v=equWt9Dq5b0) at 1:11).
 
 This could mean the investigator will have to manually compile a list of all those possible locations and then potentially sift through the individual location tags to look for media.
 
