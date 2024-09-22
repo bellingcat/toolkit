@@ -22,13 +22,13 @@ Open source investigators can use this Python-based command-line tool to get geo
 
 ### What Problem Does It Solve?
 
-When looking for media within a particular location, searching with just an address or the name of a location on Instagram can be confusing, especially for popular spots. The problem is that Instagram suggests an abundance of location options for a single place (see [video](https://www.youtube.com/watch?v=equWt9Dq5b0) at 1:11).
+When looking for media from a particular location, searching for just an address or the name of a location on Instagram can be confusing, especially for popular spots. The problem is that Instagram suggests an abundance of location options for a single place (see [video](https://www.youtube.com/watch?v=equWt9Dq5b0) at 1:11).
 
 This could mean the investigator will have to manually compile a list of all those possible locations and then potentially sift through the individual location tags to look for media.
 
-<figure><img src=".gitbook/assets/ScreenRecording2024-09-15195317-ezgif.com-censor.gif" alt="" width="563"><figcaption><p>This is an example of a post of Bayon Temple, a popular tourist destination in Siem Reap, Cambodia. However, the challenge is that when a user tags the image, various location suggestions appear. Searching for relevant media through individual location tags is inefficient and may risk excluding pertinent potential images/video for the investigation.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ScreenRecording2024-09-15195317-ezgif.com-censor.gif" alt="" width="563"><figcaption><p>This is an example of a post of Bayon Temple, a popular tourist destination in Siem Reap, Cambodia. However, the challenge is that when a user tags the image, various location suggestions appear. Searching for relevant media through individual location tags is inefficient and may risk excluding pertinent potential images/videos for the investigation.</p></figcaption></figure>
 
-1. This tool solves the problem of efficiency. Instead, Instagram Location Search casts a broader net by compiling all the location tags near a set of coordinates along with their respective links to Instagram’s Explore page.
+1. This tool solves the problem of efficiency. Instagram Location Search casts a broader net by compiling all the location tags near a set of coordinates along with their respective links to Instagram’s Explore page.
 2. This tool also solves the problem of ease of exporting the data in various output formats that are tailored to the individual needs of the investigator.
 
 <details>
@@ -36,13 +36,10 @@ This could mean the investigator will have to manually compile a list of all tho
 <summary><a href="https://github.com/bellingcat/instagram-location-search/blob/main/README.md">Here is a list of outputs that the tool can create</a></summary>
 
 1. \--map → This command allows users to request a map in HTML format showing the locations on the map, with links to Instagram and the media associated with the particular location tag.
-2. \--csv → This command allows users to request the location data in a CSV/table-like format which they can then use on programs like Excel, Google Sheets, etc
-3. \--json → This command line argument can request a JSON file. This file will look almost the same as the data you’d see if you were getting it directly from a website or an API
+2. \--csv → This command allows users to request the location data in a CSV/table-like format which they can then use on programs like Excel, Google Sheets, etc.
+3. \--json → This command line argument can request a JSON file. This file will look almost the same as the data you’d see if you were getting it directly from a website or an API.
 4. \--geojson → This argument helps you save a list of Instagram locations in a format that’s ready to be used for mapping and other geographic applications such as Google Maps, QGIS, etc .
-
-<!---->
-
-5. \--ids → This is the specific command you use with the tool and tells the tool that you want to get a list of location IDs, which will be saved in a .txt file. Once you have this file with the location IDs, you can use it with another tool (like Instagram scraper). This second tool can then use those IDs to gather more information, such as photos or posts from those locations
+5. \--ids → This specific command tells the tool that you want to get a list of location IDs, which will be saved in a .txt file. Once you have this file with the location IDs, you can use it with another tool (like Instagram scraper). This second tool can then use those IDs to gather more information, such as photos or posts from those locations.
 
 </details>
 
@@ -50,22 +47,20 @@ This could mean the investigator will have to manually compile a list of all tho
 
 For a step-by-step [video guide](https://www.youtube.com/watch?v=equWt9Dq5b0), please refer to Bellingcat’s How To Series.
 
-1. Download the tool
-2. Give the tool access to Instagram
+1. Download the tool.
+2. Give the tool access to Instagram.
 
 {% hint style="warning" %}
 NOTE: Giving access to your Instagram account using this tool may breach the platform’s Terms of Service. Note that it may lead to your account being suspended or flagged. Be aware of these risks before proceeding.
 {% endhint %}
 
-3. Find the coordinates you are interested in and input into the tool
+3. Find the coordinates you are interested in and input them into the tool.
 4. Use the tool to get more locations.
-5. Use the tool to create output format you may need for your investigation. The output is generally saved in the folder specified on the command line (see below).
+5. Use the tool to create the output format you may need for your investigation. The output is generally saved in the folder specified in the query (see below).
 
 <figure><img src=".gitbook/assets/null.png" alt=""><figcaption><p>This is a sample query with the Instagram Location Search tool, with the different variables you can input. This query requests the tool for location tags based on the coordinates for the Bayon Temple in Siem Reap, Cambodia (violet). This is followed by the "--more" command which asks for more location tags for the coordinates (blue). This is followed by the "--map" command requesting the tool to create a map in a form of a website to help visualize these location tags. Then the query is followed by file name "Bayon.html" at the end (in yellow). This file can be found on the folder specified on the command prompt (highlighted in green)</p></figcaption></figure>
 
-###
-
-<figure><img src=".gitbook/assets/Screenshot 2024-09-19 154029.png" alt="" width="563"><figcaption><p>This is a sample map created by the tool based on the query above. Users can zoom in and out and click on each pin. Each pin represents a location tag will contain a link to a gallery in Instagram based on the location tag.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-09-19 154029.png" alt="" width="563"><figcaption><p>This is a sample map created by the tool based on the query above. Users can zoom in and out and click on each pin. Each pin represents a location tag and will contain a link to a gallery on Instagram based on the location tag.</p></figcaption></figure>
 
 ### Use Case
 
