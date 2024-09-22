@@ -208,7 +208,7 @@ NOTE #2: According to the [tool](https://www.flightaware.com/resources/registrat
 
 On FlightAware, the hex code is referred to as **“Mode S Code”**
 
-What’s required: Users can find the hex code on FlightAware if they have registration information or the tail number. Search for an aircraft of interest and click on the Registration link as shown above. On the registration page, find the “Mode S Code” at the bottom of the left column.&#x20;
+What’s required: Users can find the hex code on FlightAware if they have registration information or tail number available. Search for an aircraft of interest and click on the Registration link as shown above. On the registration page, find the “Mode S Code” at the bottom of the left column.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-28 114806-marked.png" alt=""><figcaption><p>This is a sample registration page for a United Airlines flight. The purple box emphasizes the hex code for this tool. </p></figcaption></figure>
 
@@ -222,7 +222,7 @@ NOTE: This website responds to [take-down requests](https://gijn.org/resource/pl
 
 **Definition:** A serial number is a unique code given to an aircraft by the manufacturer to identify it from other planes. It's like a fingerprint for that specific aircraft designated at the time of manufacture or [similar to a car’s VIN (vehicle Identification Number).](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) Serial numbers never change, unlike call signs and registration numbers. It is mandated by law (See [here](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-45), Section 14.13) to collectively ensure that aircraft can be monitored, maintained, and operated safely throughout their service life.
 
-**When to use serial numbers for open-source investigations:**[ OCCRP](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) states that “If you’re trying to track a plane over multiple years and ownership changes, you’ll need to know the manufacturer’s serial number.” Because an aircraft’s serial numbers don’t change, you can follow its journey. This makes it helpful in tracking a plane over time between [owners, registrations, and nations](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons).
+**When to use serial numbers for open-source investigations:**[ OCCRP](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) states that “If you’re trying to track a plane over multiple years and ownership changes, you’ll need to know the manufacturer’s serial number.” Because an aircraft’s serial numbers don’t change, you can follow its journey.[ This makes it helpful in tracking a plane over time between owners, registrations, and nations.](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons)
 
 </details>
 
@@ -238,7 +238,7 @@ This tool uses the term "Serial Number" instead of MSN. The serial number can be
 * [x] Partially Free
 * [ ] Paid
 
-Information on pricing can be found [here](https://www.flightaware.com/commercial/premium/).&#x20;
+The link for pricing is here: https://www.flightaware.com/commercial/premium/
 
 The different paid tiers are:&#x20;
 
@@ -258,14 +258,14 @@ The different paid tiers are:&#x20;
 1. Create a user account
 2. Mobile or desktop device
 3. Internet connection
-4. Paid subscription, if interested in historical flights and more flights with tail number and registration information (at the moment, not all aircraft has these identifiers available with a free account).&#x20;
+4. Paid subscription, if interested in longer historical flights and more flights with tail number and registration information (at the moment, not all aircraft has these identifiers available with a free account).&#x20;
 
 ## Limitations
 
 #### Filtering and Categorization
 
-* **Limited Filtering:** FlightAware does not allow to filter flights based on specific categories on the live map, making it difficult to focus on particular aircraft or routes.
-* **Insufficient Categories:** The available flight categories are limited, especially regarding military aircraft, which can hinder investigations into military aviation activities. Although, in theory, one can find a military aircraft on the live map and through the search bar, or by knowing ahead of time which call signs may be related to military or government aircraft. However, if this is a consideration for researchers, websites like[ flightradar24.com](https://www.flightradar24.com/blog/an-all-new-way-to-filter-flights-on-flightradar24-com/) may be able to help users by filtering for various categories including ["Military and Government"](https://www.flightradar24.com/blog/an-all-new-way-to-filter-flights-on-flightradar24-com/).
+* **Limited Filtering:** FlightAware does not allow for filtering flights based on specific categories on the live map, making it difficult to focus on particular aircraft or routes.
+* **Insufficient Categories:** The available flight categories are limited, especially regarding military aircraft, which can hinder investigations into military aviation activities. Although, in theory, one can find a military aircraft on the live map and through the search bar, or by knowing ahead of time which call signs may be related to military or government aircraft. However, if this is a consideration for researchers, websites like[ flightradar24.com](https://www.flightradar24.com/blog/an-all-new-way-to-filter-flights-on-flightradar24-com/) may be able to help users filter for [12 flight categories](https://www.flightradar24.com/blog/an-all-new-way-to-filter-flights-on-flightradar24-com/).&#x20;
 
 #### Visual Representation
 
@@ -316,7 +316,9 @@ Organized Crime and Corruption Reporting Project. "FAQ: What Is Plane Tracking?"
 
 **Al Jazeera Guide:**&#x20;
 
-OSINT: Tracking Ships, Planes and Weapons [https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons)
+OSINT: Tracking Ships, Planes and Weapons
+
+[https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons)
 
 **Full list of country identifiers here:** [https://en.wikipedia.org/wiki/List\_of\_aircraft\_registration\_prefixes](https://en.wikipedia.org/wiki/List\_of\_aircraft\_registration\_prefixes)
 
