@@ -62,5 +62,5 @@ Google
 
 | Page maintainer |
 | --------------- |
-| hande           |
+|                 |
 |                 |
