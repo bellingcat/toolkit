@@ -1,7 +1,7 @@
 ---
 description: >-
-  Catalogues uploaded documents and files, providing OCR, indexing, and other
-  services.
+  A tool by Google to catalogue uploaded documents and files, providing OCR,
+  indexing, and other services.
 ---
 
 # Pinpoint
@@ -30,19 +30,29 @@ Users can store up to 200,000 documents in each collection, extract text from ha
 
 ## Requirements
 
-No requirements to use, including Google account.
+No requirements, including Google account, to browse and use public collections by other organizations. But you need to certify that you are an academic or a researcher to Google in order to upload documents.&#x20;
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Limitations & Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Pinpoint has experimental features that use Google's Generative AI solutions, and according to [this notice](https://support.google.com/pinpoint/answer/14338615?hl=en) on Generative AI in Pinpoint, these features "may display inaccurate information, including information about people." Additionally, some of the information you provide may be used to improve functionality, and "Google human reviewers may read, annotate and process a sample of your Pinpoint data, including your prompts and thumbs up or down feedback." As a result, Google cautions against including information "that can be used to identify you, such as phone numbers, email addresses, or birth dates when using Pinpoint’s generative AI features."&#x20;
+
+We recommend exercising caution and/or checking with your parent organization before uploading sensitive or proprietary information, documents and data into Pinpoint.
+
+According to [Pinpoint Additional Terms of Service](https://support.google.com/pinpoint/answer/13071911?hl=en), "if you upload content to Pinpoint, you give Google permission to use that content, including to operate and promote Pinpoint, in accordance with the [Google Terms of Service](https://policies.google.com/terms) and [Google’s Privacy Policy](https://policies.google.com/privacy)."&#x20;
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+[Getting Started with Pinpoint](https://journaliststudio.google.com/pinpoint/getting-started), and [video ](https://newsinitiative.withgoogle.com/resources/trainings/pinpoint/video-getting-started-with-pinpoint/)
+
+[About Pinpoint](https://support.google.com/pinpoint/answer/11948320?hl=en)
+
+[How to make the most of Pinpoint](https://www.fastcompany.com/90841519/how-to-make-the-most-of-pinpoint-part-of-googles-toolkit-for-journalists) by Fast Company
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Google
 
 ## Advertising Trackers
 
@@ -50,7 +60,7 @@ No requirements to use, including Google account.
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| hande           |
+|                 |
