@@ -200,7 +200,7 @@ NOTE #2: According to the [tool](https://www.flightaware.com/resources/registrat
 
 **Definition:** A hex code is a unique ICAO (International Civil Aviation Organization) six-digit hexadecimal number assigned to an aircraft's transponder. This code serves as a digital identifier, allowing air traffic control and flight tracking systems to distinguish one aircraft from another [(p.4)](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons). When the plane is registered, it gets a unique code [called a hex code](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking). This hex code is associated with the plane’s ADS-B (Automatic Dependent Surveillance-Broadcast) [transponder](https://www.airservicesaustralia.com/about-us/projects/ads-b/how-ads-b-works/), which broadcasts unencrypted data about the plane’s position, altitude, and speed.&#x20;
 
-**When to use hex codes for open-source investigations:** Hex codes are closely associated with a plane’s registration. Therefore, it is possible to determine ownership if that information is available. According to[ this](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking), “most flight tracking websites link the transponder codes to registration numbers to make sense of tracking data,” especially since aircraft do not usually broadcast registration numbers over their ADS-B transponder.&#x20;
+**When to use hex codes for open-source investigations:** Hex codes are closely associated with a plane’s registration. Therefore, it is possible to determine ownership if that information is available. According to [OCCRP's FAQ](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking), “most flight tracking websites link the transponder codes to registration numbers to make sense of tracking data,” especially since aircraft do not usually broadcast registration numbers over their ADS-B transponder.&#x20;
 
 </details>
 
@@ -208,7 +208,7 @@ NOTE #2: According to the [tool](https://www.flightaware.com/resources/registrat
 
 On FlightAware, the hex code is referred to as **“Mode S Code”**
 
-What’s required: Users can find the hex code on FlightAware if they have registration information or tail number available. Search for an aircraft of interest and click on the Registration link as shown above. On the registration page, find the “Mode S Code” at the bottom of the left column.&#x20;
+What’s required: Users can find the hex code on FlightAware if they have registration information or the tail number. Search for an aircraft of interest and click on the Registration link as shown above. On the registration page, find the “Mode S Code” at the bottom of the left column.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-28 114806-marked.png" alt=""><figcaption><p>This is a sample registration page for a United Airlines flight. The purple box emphasizes the hex code for this tool. </p></figcaption></figure>
 
