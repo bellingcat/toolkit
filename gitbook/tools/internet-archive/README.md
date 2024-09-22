@@ -103,6 +103,8 @@ Learn more about [How to save pages with the Wayback Machine](https://help.archi
    * Red: There was a server error (status code 5nn).
 5. After selecting a date, you can narrow it further by time of day if multiple snapshots are available from the same day. Once you choose, the Wayback Machine will display the archived version of the website as it appeared on that day and time. You can navigate the website as if browsing it on that particular date.
 
+Learn more about [How to Access Archived Webpages Directly Through Google Search](https://blog.archive.org/2024/09/11/new-feature-alert-access-archived-webpages-directly-through-google-search/).
+
 ## Tool provider
 
 The Internet Archive, United States
