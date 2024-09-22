@@ -222,7 +222,7 @@ NOTE: This website responds to [take-down requests](https://gijn.org/resource/pl
 
 **Definition:** A serial number is a unique code given to an aircraft by the manufacturer to identify it from other planes. It's like a fingerprint for that specific aircraft designated at the time of manufacture or [similar to a car’s VIN (vehicle Identification Number).](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) Serial numbers never change, unlike call signs and registration numbers. It is mandated by law (See [here](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-45), Section 14.13) to collectively ensure that aircraft can be monitored, maintained, and operated safely throughout their service life.
 
-**When to use serial numbers for open-source investigations:**[ OCCRP](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) states that “If you’re trying to track a plane over multiple years and ownership changes, you’ll need to know the manufacturer’s serial number.” Because an aircraft’s serial numbers don’t change, you can follow its journey.[ This makes it helpful in tracking a plane over time between owners, registrations, and nations.](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons)
+**When to use serial numbers for open-source investigations:**[ OCCRP](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) states that “If you’re trying to track a plane over multiple years and ownership changes, you’ll need to know the manufacturer’s serial number.” Because an aircraft’s serial numbers don’t change, you can follow its journey. This makes it helpful in tracking a plane over time between [owners, registrations, and nations](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons).
 
 </details>
 
@@ -238,7 +238,7 @@ This tool uses the term "Serial Number" instead of MSN. The serial number can be
 * [x] Partially Free
 * [ ] Paid
 
-The link for pricing is here: https://www.flightaware.com/commercial/premium/
+Information on pricing can be found [here](https://www.flightaware.com/commercial/premium/).&#x20;
 
 The different paid tiers are:&#x20;
 
