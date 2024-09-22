@@ -13,12 +13,12 @@ https://www.globalforestwatch.org/
 ## Description
 
 **Features**\
-Forest Change: rates of forest change, forest extent, and drivers of deforestation.\
-Fires: Rates and location of fires.\
-Land use: Commodities, conservation, infrastructure, concessions, and people.\
-Land cover: tree cover, forest landscape and integrity, and others.\
-Biodiversity: Global biodiversity intactness, key biodiversity areas, amongst others.\
-Climate: Carbon flux, carbon density, and potential carbon gains.
+\-Forest Change: rates of forest change, forest extent, and drivers of deforestation.\
+\-Fires: Rates and location of fires.\
+\-Land use: Commodities, conservation, infrastructure, concessions, and people.\
+\-Land cover: tree cover, forest landscape and integrity, and more.\
+\-Biodiversity: Global biodiversity intactness, key biodiversity areas, amongst others.\
+\-Climate: Carbon flux, carbon density, and potential carbon gains.
 
 **Benefits**\
 \-The data can be exported.\
