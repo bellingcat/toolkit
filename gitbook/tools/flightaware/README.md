@@ -258,14 +258,14 @@ The different paid tiers are:&#x20;
 1. Create a user account
 2. Mobile or desktop device
 3. Internet connection
-4. Paid subscription, if interested in longer historical flights and more flights with tail number and registration information (at the moment, not all aircraft has these identifiers available with a free account).&#x20;
+4. Paid subscription, if interested in historical flights and more flights with tail number and registration information (at the moment, not all aircraft has these identifiers available with a free account).&#x20;
 
 ## Limitations
 
 #### Filtering and Categorization
 
-* **Limited Filtering:** FlightAware does not allow for filtering flights based on specific categories on the live map, making it difficult to focus on particular aircraft or routes.
-* **Insufficient Categories:** The available flight categories are limited, especially regarding military aircraft, which can hinder investigations into military aviation activities. Although, in theory, one can find a military aircraft on the live map and through the search bar, or by knowing ahead of time which call signs may be related to military or government aircraft. However, if this is a consideration for researchers, websites like[ flightradar24.com](https://www.flightradar24.com/blog/an-all-new-way-to-filter-flights-on-flightradar24-com/) may be able to help users filter for [12 flight categories](https://www.flightradar24.com/blog/an-all-new-way-to-filter-flights-on-flightradar24-com/).&#x20;
+* **Limited Filtering:** FlightAware does not allow to filter flights based on specific categories on the live map, making it difficult to focus on particular aircraft or routes.
+* **Insufficient Categories:** The available flight categories are limited, especially regarding military aircraft, which can hinder investigations into military aviation activities. Although, in theory, one can find a military aircraft on the live map and through the search bar, or by knowing ahead of time which call signs may be related to military or government aircraft. However, if this is a consideration for researchers, websites like[ flightradar24.com](https://www.flightradar24.com/blog/an-all-new-way-to-filter-flights-on-flightradar24-com/) may be able to help users by filtering for various categories including ["Military and Government"](https://www.flightradar24.com/blog/an-all-new-way-to-filter-flights-on-flightradar24-com/).
 
 #### Visual Representation
 
@@ -316,9 +316,7 @@ Organized Crime and Corruption Reporting Project. "FAQ: What Is Plane Tracking?"
 
 **Al Jazeera Guide:**&#x20;
 
-OSINT: Tracking Ships, Planes and Weapons
-
-[https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons)
+OSINT: Tracking Ships, Planes and Weapons [https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons)
 
 **Full list of country identifiers here:** [https://en.wikipedia.org/wiki/List\_of\_aircraft\_registration\_prefixes](https://en.wikipedia.org/wiki/List\_of\_aircraft\_registration\_prefixes)
 
