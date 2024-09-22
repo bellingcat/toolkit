@@ -144,3 +144,4 @@
   * [Namechk](tools/namechk/README.md)
   * [ICIJ Offshore Leaks Database](tools/icij-offshore-leaks-database/README.md)
   * [SanctionsExplorer](tools/sanctionsexplorer/README.md)
+  * [Sentinel Hub Playground](tools/sentinel-hub-playground/README.md)
