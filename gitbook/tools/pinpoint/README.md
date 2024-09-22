@@ -1,6 +1,7 @@
 ---
-description: Catalogues uploaded documents and files, providing OCR, indexing, and other services.
-
+description: >-
+  Catalogues uploaded documents and files, providing OCR, indexing, and other
+  services.
 ---
 
 # Pinpoint
@@ -11,7 +12,11 @@ https://journaliststudio.google.com/pinpoint/about
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Pinpoint is a research tool designed to assist journalists and academics in examining and analyzing large document collections. With Pinpoint, users can upload and search through hundreds of thousands of documents, images, emails, handwritten notes, and audio files to find specific keywords, locations, organizations, or individuals. It’s part of the [Journalist Studio](https://journaliststudio.google.com/), Google’s free tool kit for research, data analysis, and data visualization.
+
+Users can store up to 200,000 documents in each collection, extract text from handwritten documents to make them searchable, query text from images, transcribe audio recordings and search for identifiers in image collections. For example, using Pinpoint, you can search for mentions of "abuse" or "violence" in Washington Post's public collection of COVID-19 Nursing Home Inspections:
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Cost
 
@@ -19,21 +24,15 @@ https://journaliststudio.google.com/pinpoint/about
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+No requirements to use, including Google account.
 
-## Limitations
-
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
-
-## Ethical Considerations
+## Limitations & Ethical Considerations
 
 \[\[The ethical considerations of each tool should be described.]]
 
@@ -55,4 +54,3 @@ https://journaliststudio.google.com/pinpoint/about
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
