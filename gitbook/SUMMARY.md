@@ -144,6 +144,6 @@
   * [Namechk](tools/namechk/README.md)
   * [ICIJ Offshore Leaks Database](tools/icij-offshore-leaks-database/README.md)
   * [SanctionsExplorer](tools/sanctionsexplorer/README.md)
-  * [Sentinel Hub Playground](more/all-tools/sentinel-hub-playground/README.md)
+  * [Sentinel Hub Playground](tools/sentinel-hub-playground/README.md)
   * [Instagram Location Search](tools/instagram-location-search/README.md)
   * [Telemetrio](tools/telemetrio/README.md)
