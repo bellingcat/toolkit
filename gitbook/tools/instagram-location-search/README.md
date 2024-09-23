@@ -115,8 +115,11 @@ Bellingcat, Netherlands
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.\*
+
+\*The tool itself does not have any web trackers. However, the GitHub webpage that hosts the tool contains trackers categorized as ["Customer Interaction"](https://www.ghostery.com/blog/how-ghostery-categorizes-trackers#tracker-categories)
+
 * [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer |
