@@ -23,7 +23,7 @@ For Telegram channels, TGStat covers statistics for:
 
 \- Average post reach
 
-\- Daily views
+\- Daily views &#x20;
 
 \- Share count
 
@@ -213,7 +213,7 @@ e-mail: ceo@tgstat.ru
 
 ### Advertising Trackers
 
-<table><thead><tr><th width="49" data-type="checkbox"></th><th></th></tr></thead><tbody><tr><td>false</td><td>This tool has not been checked for advertising trackers yet.</td></tr><tr><td>false</td><td>This tool uses tracking cookies. Use with caution.</td></tr><tr><td>true</td><td>This tool does not appear to use tracking cookies.</td></tr></tbody></table>
+<table><thead><tr><th width="49" data-type="checkbox"></th><th></th></tr></thead><tbody><tr><td>true</td><td>This tool has not been checked for advertising trackers yet.</td></tr><tr><td>false</td><td>This tool uses tracking cookies. Use with caution.</td></tr><tr><td>false</td><td>This tool does not appear to use tracking cookies.</td></tr></tbody></table>
 
 ### Page Maintainer
 
