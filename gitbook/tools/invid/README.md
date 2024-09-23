@@ -30,13 +30,15 @@ Provides contextual information and metadata for YouTube and public Facebook vid
 {% endtab %}
 
 {% tab title="Results: Video Description" %}
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
 {% endtab %}
 
-{% tab title="Results: Channel & Thumbnails" %}
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+{% tab title="Untitled" %}
+
 {% endtab %}
 {% endtabs %}
+
+**Keyframes**&#x20;
 
 Segments YouTube or Facebook videos into keyframes for detailed analysis and reverse image search, enhancing verification processes.
 
@@ -46,7 +48,7 @@ Segments YouTube or Facebook videos into keyframes for detailed analysis and rev
 {% endtab %}
 
 {% tab title="Results" %}
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption><p>If you click "Show Detailed View" the number of keyframes will increase.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -100,229 +102,37 @@ Extracts metadata from JPEG images and videos in MP4 or M4V formats, providing d
 {% endtab %}
 {% endtabs %}
 
-**Deepfake (Locked Feature)**&#x20;
-
-Uses a machine learning classifier to determine the probability that a video contains AI-manipulated faces, such as face swapping or face reenactment. Access is restricted to registered users.
-
-{% tabs %}
-{% tab title="Deepfake analysis" %}
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Select Clips" %}
-<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Results: Deepfake" %}
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>This is a video of an actual instance of a deepfaked video, using the host of German public news broadcast "Heute Journal", Christian Sievers. The perpetrators of a crypto scam used his likeness to create a video, advertising their scam as a true product. (source: <a href="https://www.zdf.de/nachrichten/panorama/kriminalitaet/ki-fake-sievers-heute-journal-100.html">https://www.zdf.de/nachrichten/panorama/kriminalitaet/ki-fake-sievers-heute-journal-100.html</a> - thanks Sydney Scheuermann, who discovered this example in the context of her Bacherlor's thesis)</p></figcaption></figure>
+* **Deepfake (Locked Feature)** - Uses a machine learning classifier to determine the probability that a video contains AI-manipulated faces, such as face swapping or face reenactment. Access is restricted to registered users.
 
 
-{% endtab %}
-
-{% tab title="Results: Authentic Material" %}
-<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption><p>As you can see, the detection is not perfect. Deepfake detectors mostly require at least a secondary method of validation and false negatives or false positives seem conceivable.</p></figcaption></figure>
-{% endtab %}
-{% endtabs %}
 
 ### **Image**
 
 * **Image Analysis** - Provides contextual information for images posted on Facebook, helping to verify their origin and context.
-
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
 * **Magnifier** - Offers a magnifying lens and photo editor to examine images in detail, allowing for close inspection of specific areas.
-
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
 * **Metadata** - Extracts metadata from JPEG images and videos in MP4 or M4V formats, providing important information for verification.
-
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
 * **Forensic** - Provides an enhanced toolkit to detect image forgeries, enabling detailed forensic analysis to identify manipulations.
-
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
 * **OCR (Optical Character Recognition)** - Extracts text from images, making it easier to analyze and verify textual content within images.
-
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
 * **CheckGIF (Locked Feature)** - Compares an original image with a tampered one, including cropped images, and generates a GIF highlighting differences. Access is restricted to registered users.
-
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
 * **Synthetic Image (Locked Feature)** - Determines the probability that an image is AI-generated, using machine learning to assess potential manipulations. Access is restricted to registered users.
-
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
 * **Deepfake (Locked Feature)** - Detects if an image has been manipulated through face swapping, providing insights into possible deepfake content. Access is restricted to registered users.
-
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
 * **Geolocalizer (Locked Feature)** - Attempts to geolocate an image using an algorithm, helping to identify where an image was taken. Access is restricted to registered users.
-
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
 
 ### **Audio**
 
 * **Loccus (Locked Feature)** - Detects AI-generated text-to-speech (voice cloning by AI), analyzing audio files to identify potential deep fake audio. Access is restricted to registered users.
 
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
 ### **Search**
 
 * **X Search** - Performs advanced search queries on X (formerly Twitter), including precise time intervals, enhancing the ability to find relevant content.
-
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
 * **Fact Check Semantic Search (Locked Feature)** - Uses semantic search algorithms to find fact-checked information across various sources, improving the accuracy of verification. Access is restricted to registered users.
-
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
 * **XNetwork** - Provides a customized search engine for cross-network queries, allowing searches across multiple social media platforms simultaneously.
-
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
 * **Factchecks** - Facilitates the discovery of fact-checked articles and reports from trusted fact-checking organizations, aiding in content verification.
-
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
 
 ### **Data Analysis**
 
 * **Twitter SNA (Locked Feature)** - Performs social network analysis on Twitter, analyzing interactions, trends, and relationships to understand information spread and impact. Deprecated since July 1st, 2023, due to X/Twitter code changes. Access is restricted to registered users.
-
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
 * **CSV Analysis** - Allows the import and analysis of social network data from CrowdTangle exports, providing in-depth insights into social media activity and trends.
-
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
 
 ## Cost
 
