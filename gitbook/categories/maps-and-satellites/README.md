@@ -1,10 +1,16 @@
+---
+description: Ethical considerations maps & satellites
+---
+
 # Maps & Satellites
 
-| Tools for the categories:                                                                                   |
-| ----------------------------------------------------------------------------------------------------------- |
-| [Maps](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/maps)                           |
-| [Satellite Imagery](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/satellite-imagery) |
-| [Street View](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/street-view)             |
+
+
+| The tools can be found here:                                                                                    |
+| --------------------------------------------------------------------------------------------------------------- |
+| [**Maps**](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/maps)                           |
+| [**Satellite Imagery**](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/satellite-imagery) |
+| [**Street View**](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/street-view)             |
 
 ### Introduction Maps and satellite imagery
 
