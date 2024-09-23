@@ -1,7 +1,3 @@
----
-description: Ethical considerations maps & satellites
----
-
 # Maps & Satellites
 
 
@@ -41,7 +37,7 @@ Even 'North' itself is not necessarily something we can take for granted. There 
 * **Magnetic North:** The north as indicated by a compass which shifts over time.
 * **Google Maps’ North**
 
-Maps are intertwined with cultural biases. Many other cultures create maps that have deeper layers of meaning than Western map makers. In Australia indigenous cultures create maps for locating water holes but also as ancestral records [Painting Country: Maps of the country](https://www.nfsa.gov.au/collection/curated/asset/96923-painting-country-maps-country).
+Maps are intertwined with cultural biases. Many other cultures create maps that have deeper layers of meaning than Western map makers. In Australia indigenous cultures create maps for locating water holes but also as ancestral records [Painting Country: Maps of the Country](https://aso.gov.au/titles/documentaries/painting-country/clip2/).
 
 Some resources that explore these issues in more depth include:
 
@@ -88,7 +84,7 @@ Accuracy is not measured in the same way by all satellite imagery. There are two
 * [**Circular Error at the 90th percentile**](https://en.wikipedia.org/wiki/Circular\_error\_probable) **(CE90):** This means that a minimum of 90 percent of the points measured has a horizontal error less than the stated CE90 value. Used by European Space Agency.
 * [**Root Mean Squared Error (RMSE**)](https://en.wikipedia.org/wiki/Root\_mean\_square\_deviation): other platforms use RMSE to assess accuracy. &#x20;
 
-Every mapping and satellite tool in the Bellingcat toolkit has it's own standards regarding accuracy which will be referenced in the individual toolkit entry. An example of platform documenting accuracy would be [How accurate is Google Earth’s measurements?](https://www.ncesc.com/geographic-faq/how-accurate-is-google-earths-measurements/)
+Every mapping and satellite tool in the Bellingcat toolkit has it's own standards regarding accuracy which we aim to reference in the individual toolkit entry. An example of platform documenting accuracy would be [How accurate is Google Earth’s measurements?](https://www.ncesc.com/geographic-faq/how-accurate-is-google-earths-measurements/)
 
 For some use cases aerial imagery, rather than satellite imagery, can offer better location accuracy down to pixels and [resolutions down to centimetres](https://aerometrex.com.au/resources/blog/key-factors-consider-when-choosing-between-aerial-satellite-imagery/).
 
@@ -96,21 +92,31 @@ For some use cases aerial imagery, rather than satellite imagery, can offer bett
 
 Satellite data may not always be up to date. Researchers should verify important information through other sources where possible.&#x20;
 
-With satellite imagery two factors are important to consider. First, the [**temporal resolution**](https://sentiwiki.copernicus.eu/web/s2-mission) of a satellite in orbit is the revisit frequency of the satellite to a particular location. The more often it revisits the more chance there area will be cloud cover when the satellite passes over the location and the greater the chance of identifying when exactly things change on the ground. The second factor to be aware of is the [**data latency**](https://www.earthdata.nasa.gov/learn/backgrounders/data-latency) between the satellite taking the image and the image being made available publicly on the satellite imagery platform. This can vary by location as well as by platform and the documentation isn't always easy to find. Where possible the toolkit includes this data with the individual toolkit entry.
+With satellite imagery two factors are important to consider. First, the [**temporal resolution**](https://sentiwiki.copernicus.eu/web/s2-mission) of a satellite in orbit is the revisit frequency of the satellite to a particular location. The more often it revisits a location the more chance that the area will be cloud free when the satellite passes over the location and the greater the chance of identifying when exactly things change on the ground. The second factor to be aware of is the [**data latency**](https://www.earthdata.nasa.gov/learn/backgrounders/data-latency) between the satellite taking the image and the image being made available publicly on the satellite imagery platform. This can vary by location as well as by platform and the documentation isn't always easy to find. We aim to include this data with the individual toolkit entry.
 
-#### Bias
+#### Political Bias and Missing Data
 
-As the section on Ethical Considerations covered open source researchers should be aware of the bias inherent in mapping and the bias researchers inevitably hold.
+As inherently political artefacts there are practical implications for researchers using mapping tools. Most maps not only exhibit political bias but deliberately exclude, blur or only provide low resolution imagery of state related facilities or some regions of the world.
 
-#### 'Missing' Data
+Google Maps is a good example of a platform that uses cartographic censorship in this way, choosing to restrict access to data they deem as sensitive or that states that have influence over Google deem as sensitive. A full List of Google satellite map images with missing or unclear data is provided [here](https://en.wikipedia.org/wiki/List\_of\_satellite\_map\_images\_with\_missing\_or\_unclear\_data) by Wikipedia. Researchers should be aware that areas of conflict are particularly sensitive to this censorship.
 
-We already covered in the Ethical Considerations section that many services deliberately exclude data. Where this happens the individual toolkit entry will indicate where this may have occurred.&#x20;
+It's also important to realise that where you are in the world will influence the imagery you have access to, see [Google redraws the borders on maps depending on who’s looking](https://www.washingtonpost.com/technology/2020/02/14/google-maps-political-borders/)
 
-**Crowdsourced data**
+Some countries have legislation which makes mapping services located in those countries particularly problematic. China, for instance, has specific legislation restricting digital mapping services including [incorrect alignment of street maps with satellite maps in various applications](https://en.wikipedia.org/wiki/Restrictions\_on\_geographic\_data\_in\_China) Users inside China are also restricted from accessing many of the services Western researchers take for granted by the '[Great Firewall](https://www.internetsociety.org/resources/internet-fragmentation/the-chinese-firewall/)' of China.
+
+These issues are important to consider when working with maps and satellite imagery and particularly when publishing open source research where being transparent about these limitations is important. Where this happens we aim to reference this in the individual toolkit entry.&#x20;
+
+See also:
+
+Aberneithie, C. (2022) ‘Do mapping apps exacerbate prejudice?’, _New Statesman_, 15 August. Available at: [https://www.newstatesman.com/spotlight/2022/08/mapping-navigational-apps-gis-safety-bias-google-maps](https://www.newstatesman.com/spotlight/2022/08/mapping-navigational-apps-gis-safety-bias-google-maps) (Accessed: 15 September 2024).
+
+‘Widespread Blurring of Satellite Images Reveals Secret Facilities’ (no date) _Federation of American Scientists_. Available at: [https://fas.org/publication/widespread-blurring-of-satellite-images-reveals-secret-facilities/](https://fas.org/publication/widespread-blurring-of-satellite-images-reveals-secret-facilities/) (Accessed: 26 August 2024). &#x20;
+
+&#x20;**Crowdsourced data**
 
 Crowdsourced data can be particularly prone to bias in the geographic coverage, text and image content. Some areas may be over-represented while others are under-represented. For a general overview of bias in crowd sourced applications see [Crowdsourced geospatial data quality: challenges and future directions.](https://www.tandfonline.com/doi/full/10.1080/13658816.2019.1593422)
 
-### Guides
+### Other resources
 
 #### Wikis
 
@@ -125,6 +131,7 @@ Crowdsourced data can be particularly prone to bias in the geographic coverage, 
 * Earth Science Data Systems, N. (2019) _What is Remote Sensing? | Earthdata_. Earth Science Data Systems, NASA. Available at: [https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing](https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing) (Accessed: 3 September 2024).
 * Earth Science Data Systems, N. (2020) _What is Data Latency? | Earthdata_. Earth Science Data Systems, NASA. Available at: [https://www.earthdata.nasa.gov/learn/backgrounders/data-latency](https://www.earthdata.nasa.gov/learn/backgrounders/data-latency) (Accessed: 3 September 2024).
 * Earth Science Data Systems, N. (2020) _What is Synthetic Aperture Radar? | Earthdata_. Earth Science Data Systems, NASA. Available at: [https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar](https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar) (Accessed: 3 September 2024).
+* _Tutorials | Center for Spatial Research_ (no date). Available at: [https://c4sr.columbia.edu/tutorials](https://c4sr.columbia.edu/tutorials) (Accessed: 15 September 2024).
 
 **Video Tutorials**
 
