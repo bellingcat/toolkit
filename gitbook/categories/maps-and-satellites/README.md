@@ -98,13 +98,13 @@ With satellite imagery two factors are important to consider. First, the [**temp
 
 As inherently political artefacts there are practical implications for researchers using mapping tools. Most maps not only exhibit political bias but deliberately exclude, blur or only provide low resolution imagery of state related facilities or some regions of the world.
 
-Google Maps is a good example of a platform that chooses to restrict access to data they deem as sensitive or that states that have influence over Google deem as sensitive. A full List of Google satellite map images with missing or unclear data is provided [here](https://en.wikipedia.org/wiki/List\_of\_satellite\_map\_images\_with\_missing\_or\_unclear\_data) by Wikipedia. Researchers should be aware that areas of conflict are particularly sensitive to this censorship.
+Google Maps is a good example of a platform that chooses to restrict access to data they deem as sensitive. A full List of Google satellite map images with missing or unclear data is provided [here](https://en.wikipedia.org/wiki/List\_of\_satellite\_map\_images\_with\_missing\_or\_unclear\_data) by Wikipedia. Researchers should be aware that areas of conflict are particularly sensitive to being excluded.
 
-It's also important to realise that where you are in the world will influence the imagery you have access to, see [Google redraws the borders on maps depending on who’s looking](https://www.washingtonpost.com/technology/2020/02/14/google-maps-political-borders/)
+It's also important to realise that where you are in the world will influence the imagery you have access to, see [Google redraws the borders on maps depending on who’s looking](https://www.washingtonpost.com/technology/2020/02/14/google-maps-political-borders/).
 
-Some countries have legislation which makes mapping services located in those countries particularly problematic. China, for instance, has specific legislation restricting digital mapping services including [incorrect alignment of street maps with satellite maps in various applications](https://en.wikipedia.org/wiki/Restrictions\_on\_geographic\_data\_in\_China) Users inside China are also restricted from accessing many of the services Western researchers take for granted by the '[Great Firewall](https://www.internetsociety.org/resources/internet-fragmentation/the-chinese-firewall/)' of China.
+Some countries have legislation which makes mapping services located in those countries particularly problematic. China, for instance, has specific legislation restricting digital mapping services including [incorrect alignment of street maps with satellite maps in various applications](https://en.wikipedia.org/wiki/Restrictions\_on\_geographic\_data\_in\_China). Users inside China are also restricted from accessing many of the services Western researchers take for granted by the '[Great Firewall](https://www.internetsociety.org/resources/internet-fragmentation/the-chinese-firewall/)' of China.
 
-These issues are important to consider when working with maps and satellite imagery and particularly when publishing open source research where being transparent about these limitations is important. Where this happens we aim to reference this in the individual toolkit entry.&#x20;
+These issues are important to consider when working with maps and satellite imagery and particularly when publishing open source research where being transparent about these limitations is important.&#x20;
 
 See also:
 
