@@ -18,9 +18,9 @@ This section describes some of these general issues whilst the individual tools 
 
 #### Cultural Bias
 
-Maps are inherently political artefacts. Many maps explicitly define borders of countries but the politics of mapping goes much deeper than this. A classic example of this, is the reversal of the North South map shown below:
+Maps are inherently political artefacts. Many maps explicitly define borders of countries but the politics of mapping goes much deeper than this. A classic example of this is the reversal of the North South map shown below:
 
-<figure><img src=".gitbook/assets/Reversed_Earth_map_1000x500.jpg" alt=""><figcaption><p>By Poulpy, from a work by jimht at shaw dot ca, modified by Rodrigocd - self-made, from Image:Earthmap1000x500compac.jpg, Public Domain, https://commons.wikimedia.org/w/index.php?curid=3692020</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Reversed_Earth_map_1000x500.jpg" alt=""><figcaption><p>By Poulpy, from a work by jimht at shaw dot ca, modified by Rodrigocd - self-made, from Image:Earthmap1000x500compac.jpg, <a href="https://commons.wikimedia.org/w/index.php?curid=3692020">Public Domain</a>.</p></figcaption></figure>
 
 Bias towards the Global North can produce inaccuracy in reporting and research. The way maps are drawn also often reflects this bias.
 
@@ -51,7 +51,7 @@ Three-dimensional space can also be another challenge for maps and map makers. E
 
 #### Privacy
 
-Open source researchers need to be aware of how satellite imagery platforms track and use researcher's data. In Europe the [General Data Protection Regulation (GDPR)](https://gdpr-info.eu/) requires companies, government bodies, and individuals to provide clear and transparent information about how personal data will be used. Google Maps for instance provide information about how it [protects individual's privacy](https://support.google.com/maps/answer/10400210?hl=en) and how personal information is used. However, this information is not always easy to find or in a standard, easy to understand format. It's the responsibility of researchers to understand and protect their data. The Vice article [Six Reasons Why Google Maps Is the Creepiest App On Your Phone](https://www.vice.com/en/article/six-reasons-why-google-maps-is-the-creepiest-app-on-your-phone/) will give you an idea of how much data maps track.
+Open source researchers need to be aware of how satellite imagery platforms track and use researcher's data. In Europe the [General Data Protection Regulation (GDPR)](https://gdpr-info.eu/) requires companies, government bodies, and individuals to provide clear and transparent information about how personal data will be used. Google Maps for instance provides information about how it [protects individual's privacy](https://support.google.com/maps/answer/10400210?hl=en) and how personal information is used. However, this information is not always easy to find or in a standard, easy to understand format. It's the responsibility of researchers to understand and protect their data. The Vice article [Six Reasons Why Google Maps Is the Creepiest App On Your Phone](https://www.vice.com/en/article/six-reasons-why-google-maps-is-the-creepiest-app-on-your-phone/) will give you an idea of how much data maps track.
 
 Researchers in turn have a responsibility to ensure the right to privacy of individuals or groups they may be monitoring.
 
@@ -86,7 +86,7 @@ Accuracy is not measured in the same way by all satellite imagery. There are two
 
 Every mapping and satellite tool in the Bellingcat toolkit has it's own standards regarding accuracy which we aim to reference in the individual toolkit entry. An example of platform documenting accuracy would be [How accurate is Google Earth’s measurements?](https://www.ncesc.com/geographic-faq/how-accurate-is-google-earths-measurements/)
 
-For some use cases aerial imagery, rather than satellite imagery, can offer better location accuracy down to pixels and [resolutions down to centimetres](https://aerometrex.com.au/resources/blog/key-factors-consider-when-choosing-between-aerial-satellite-imagery/).
+For some use cases aerial imagery rather than satellite imagery, can offer better location accuracy down to pixels and [resolutions down to centimetres](https://aerometrex.com.au/resources/blog/key-factors-consider-when-choosing-between-aerial-satellite-imagery/).
 
 #### Data Currency&#x20;
 
@@ -98,7 +98,7 @@ With satellite imagery two factors are important to consider. First, the [**temp
 
 As inherently political artefacts there are practical implications for researchers using mapping tools. Most maps not only exhibit political bias but deliberately exclude, blur or only provide low resolution imagery of state related facilities or some regions of the world.
 
-Google Maps is a good example of a platform that uses cartographic censorship in this way, choosing to restrict access to data they deem as sensitive or that states that have influence over Google deem as sensitive. A full List of Google satellite map images with missing or unclear data is provided [here](https://en.wikipedia.org/wiki/List\_of\_satellite\_map\_images\_with\_missing\_or\_unclear\_data) by Wikipedia. Researchers should be aware that areas of conflict are particularly sensitive to this censorship.
+Google Maps is a good example of a platform that chooses to restrict access to data they deem as sensitive or that states that have influence over Google deem as sensitive. A full List of Google satellite map images with missing or unclear data is provided [here](https://en.wikipedia.org/wiki/List\_of\_satellite\_map\_images\_with\_missing\_or\_unclear\_data) by Wikipedia. Researchers should be aware that areas of conflict are particularly sensitive to this censorship.
 
 It's also important to realise that where you are in the world will influence the imagery you have access to, see [Google redraws the borders on maps depending on who’s looking](https://www.washingtonpost.com/technology/2020/02/14/google-maps-political-borders/)
 
