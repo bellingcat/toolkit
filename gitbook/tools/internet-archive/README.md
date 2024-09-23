@@ -35,11 +35,11 @@ Besides accessing the Wayback Machine via the Internet Archive website, it is al
 
 Additionally, several APIs are available to access information about Wayback capture data. [View the available APIs here](https://archive.org/help/wayback\_api.php).
 
-[Learn more about the Wayback Machine](https://help.archive.org/help/wayback-machine-general-information/).&#x20;
+[Learn more about the Wayback Machine](https://help.archive.org/help/wayback-machine-general-information/).
 
 ### The Internet Archive
 
-The Internet Archive includes numerous other projects. Some are designed for institutions and organizations with paid tiers, and others are free. [View other projects by the Internet Archive](https://archive.org/projects/). &#x20;
+The Internet Archive includes numerous other projects. Some are designed for institutions and organizations with paid tiers, and others are free. [View other projects by the Internet Archive](https://archive.org/projects/).
 
 ## Cost
 
@@ -59,8 +59,8 @@ The Wayback Machine requires an internet connection and a way to connect. Howeve
 
 The Wayback Machine is a powerful tool, but it has some limitations, including:
 
-* Incomplete Archives: Not all websites or web pages are archived, and some might have gaps in the timeline.&#x20;
-* Dynamic Content: Interactive elements, dynamic content, and multimedia (such as videos and animations) may not be fully captured or functional.&#x20;
+* Incomplete Archives: Not all websites or web pages are archived, and some might have gaps in the timeline.
+* Dynamic Content: Interactive elements, dynamic content, and multimedia (such as videos and animations) may not be fully captured or functional.
 * Legal Restrictions: Some websites may block archiving or request the removal of their archived content, limiting access. [Learn more about requests to remove content from the Wayback machine here](https://help.archive.org/help/how-do-i-request-to-remove-something-from-archive-org/).
 * Loading Issues: Archived pages can load slowly, and some resources (like images or scripts) might be missing.
 
@@ -94,16 +94,14 @@ Learn more about [How to save pages with the Wayback Machine](https://help.archi
 ### How to Access Archived Pages Using the Wayback Machine:
 
 1. Go to the Wayback Machine website at [https://web.archive.org/](https://web.archive.org/).
-2. Enter the website URL you want to view an archived version of.&#x20;
-3. After entering the URL, you will be taken to a calendar view. This calendar shows the dates on which the Wayback Machine has website snapshots. Select a year in the timeline above the calendar to narrow down your options.&#x20;
-4. Once you have selected a year, click on a specific date highlighted on the calendar. These highlighted dates indicate that snapshots of the site are available for that day. They may be different colors, but you will usually want to select the blue dots or links, as they indicate successful responses to the capture. The colors you may see and what they mean include:&#x20;
+2. Enter the website URL you want to view an archived version of.
+3. After entering the URL, you will be taken to a calendar view. This calendar shows the dates on which the Wayback Machine has website snapshots. Select a year in the timeline above the calendar to narrow down your options.
+4. Once you have selected a year, click on a specific date highlighted on the calendar. These highlighted dates indicate that snapshots of the site are available for that day. They may be different colors, but you will usually want to select the blue dots or links, as they indicate successful responses to the capture. The colors you may see and what they mean include:
    * Blue: The web server returned a successful response (status code 2nn).
    * Green: The web server redirected the request (status code 3nn).
    * Orange: There was a client error (status code 4nn).
    * Red: There was a server error (status code 5nn).
 5. After selecting a date, you can narrow it further by time of day if multiple snapshots are available from the same day. Once you choose, the Wayback Machine will display the archived version of the website as it appeared on that day and time. You can navigate the website as if browsing it on that particular date.
-
-Learn more about [How to Access Archived Webpages Directly Through Google Search](https://blog.archive.org/2024/09/11/new-feature-alert-access-archived-webpages-directly-through-google-search/).
 
 ## Tool provider
 

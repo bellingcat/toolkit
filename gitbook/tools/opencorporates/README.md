@@ -10,12 +10,12 @@ description: OpenCorporates is a repository of company registries
 
 ## Description
 
-OpenCorporates provides a unified search of corporate and legal entity-level data across 170+ jurisdictions. It is a free repository of company registries aggregated from primary public sources, published to promote corporate transparency.&#x20;
+OpenCorporates provides a unified search of corporate and legal entity-level data across 170+ jurisdictions. It is a free repository of company registries aggregated from primary public sources, published to promote corporate transparency.
 
-1. ### How to search for a company
+1. #### How to search for a company
 
-* Go to [opencorporates.com](https://opencorporates.com/) and log in with your credentials. The registration is free.&#x20;
-* In the search field select Companies and type the name of the entity you are interested in. If you're unsure of the full legal name of an entity, type a partial name.&#x20;
+* Go to [opencorporates.com](https://opencorporates.com/) and log in with your credentials. The registration is free.
+* In the search field select Companies and type the name of the entity you are interested in. If you're unsure of the full legal name of an entity, type a partial name.
 
 <figure><img src=".gitbook/assets/OC 1.png" alt="" width="563"><figcaption><p>OpenCorporates home page with search field with Companies option selected</p></figcaption></figure>
 
@@ -23,12 +23,12 @@ OpenCorporates provides a unified search of corporate and legal entity-level dat
 
 <figure><img src=".gitbook/assets/OC2.png" alt=""><figcaption><p>List of results for keyword 'Aramco'</p></figcaption></figure>
 
-* If you search by a partial name or more than one entity has the same or almost identical name, the results page will show all relevant entries corresponding to your search term (see above image). It will also show BOTH active and inactive entities. To exclude the inactive ones, click on the checkbox 'exclude inactive' located just below the search bar. The results page also has additional filters on the right for jurisdiction, as well as various filters for data associated with the entries, filters for company type and current status. These can be used to narrow down the search results.&#x20;
-* The search bar in the results page also offers advanced search options - where the keyword occurs, search mode, non-profit status, include or exclude company branches.&#x20;
+* If you search by a partial name or more than one entity has the same or almost identical name, the results page will show all relevant entries corresponding to your search term (see above image). It will also show BOTH active and inactive entities. To exclude the inactive ones, click on the checkbox 'exclude inactive' located just below the search bar. The results page also has additional filters on the right for jurisdiction, as well as various filters for data associated with the entries, filters for company type and current status. These can be used to narrow down the search results.
+* The search bar in the results page also offers advanced search options - where the keyword occurs, search mode, non-profit status, include or exclude company branches.
 
 <figure><img src=".gitbook/assets/OC3.png" alt=""><figcaption><p>Advanced options filters in the results page</p></figcaption></figure>
 
-* Once you have located the entity of interest, click on it to see all the information associated with it. This might include registration / incorporation / dissolution dates, company registration number, status (active/inactive), jurisdiction, address, directors or officers and a link to the original source of information.&#x20;
+* Once you have located the entity of interest, click on it to see all the information associated with it. This might include registration / incorporation / dissolution dates, company registration number, status (active/inactive), jurisdiction, address, directors or officers and a link to the original source of information.
 
 <div>
 
@@ -40,7 +40,7 @@ OpenCorporates provides a unified search of corporate and legal entity-level dat
 
 </div>
 
-2. ### How to search for an Officer
+2. #### How to search for an Officer
 
 * Follow the same steps as above, but select the Officer option just below the search bar on the home page.
 
@@ -50,9 +50,9 @@ OpenCorporates provides a unified search of corporate and legal entity-level dat
 
 * Once you have located the person of interest, click on their name to see all the information associated with them. The information for officers is often very limited, however the results page will provide clues and information whether that person is associated in any way with other companies, i.e. the results page information can be used to piece together a business affiliations profile of a specific individual.
 
-<figure><img src=".gitbook/assets/OC7.png" alt="" width="563"><figcaption><p>Specific information for IBM CEO Arvind Krishna from one of selected  search results</p></figcaption></figure>
+<figure><img src=".gitbook/assets/OC7.png" alt="" width="563"><figcaption><p>Specific information for IBM CEO Arvind Krishna from one of selected search results</p></figcaption></figure>
 
-**!** Please note that the details provided by OpenCorporates depend on what the local companies register for this particular jurisdiction provides. Each jurisdiction is different, thus the level of detail might differ. Also be mindful of the fact that there might be more than one company with the same name and does not mean it is in any way connected to the one you are researching. The same rule applies for individuals. There may be more than one person with the same name in your results, but these could be name match only records.&#x20;
+**!** Please note that the details provided by OpenCorporates depend on what the local companies register for this particular jurisdiction provides. Each jurisdiction is different, thus the level of detail might differ. Also be mindful of the fact that there might be more than one company with the same name and does not mean it is in any way connected to the one you are researching. The same rule applies for individuals. There may be more than one person with the same name in your results, but these could be name match only records.
 
 ## Cost
 
@@ -60,7 +60,7 @@ OpenCorporates provides a unified search of corporate and legal entity-level dat
 * [x] Partially Free
 * [ ] Paid
 
-API access requires a [monthly/yearly subscription](https://opencorporates.com/plug-in-our-data/) for commercial uses, starting from GBP 729 per year for the Entry package, GBP 6,600 /year for the Starter package, GBP 12,000/year for the Basic package.&#x20;
+API access requires a [monthly/yearly subscription](https://opencorporates.com/plug-in-our-data/) for commercial uses, starting from GBP 729 per year for the Entry package, GBP 6,600 /year for the Starter package, GBP 12,000/year for the Basic package.
 
 ## Level of difficulty
 
@@ -68,7 +68,7 @@ API access requires a [monthly/yearly subscription](https://opencorporates.com/p
 
 ## Requirements
 
-Free registration needed to access the full information on entities/individuals. Without registration, users cannot see additional information associated with a particular entry.&#x20;
+Free registration needed to access the full information on entities/individuals. Without registration, users cannot see additional information associated with a particular entry.
 
 ## Limitations
 
@@ -76,7 +76,7 @@ Permitted users: If you’re a **journalist, NGO, academic conducting public ben
 
 Data accuracy and use: **The data is provided “as is.”** The complexity of sources means occasional errors. Use the information wisely and double-check critical details. Heavy data extraction, such as scraping, is prohibited unless you’re a search engine indexing content. Source: [OpenCorporates usage rules.](https://blog.opencorporates.com/2024/06/11/can-i-use-opencorporates/)
 
-[According to their own website](https://knowledge.opencorporates.com/knowledge-base/there-is-an-error-with-the-company-record-on-opencorporates/), if there is an error, you can contact their support and these errors might include outdated information about entities or individuals, duplications of data, miscategorized entities.&#x20;
+[According to their own website](https://knowledge.opencorporates.com/knowledge-base/there-is-an-error-with-the-company-record-on-opencorporates/), if there is an error, you can contact their support and these errors might include outdated information about entities or individuals, duplications of data, miscategorized entities.
 
 ## Ethical Considerations
 
