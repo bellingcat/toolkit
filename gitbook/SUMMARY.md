@@ -146,3 +146,4 @@
   * [SanctionsExplorer](tools/sanctionsexplorer/README.md)
   * [Sentinel Hub Playground](more/all-tools/sentinel-hub-playground.md)
   * [Instagram Location Search](tools/instagram-location-search/README.md)
+  * [Telemetrio](tools/telemetrio/README.md)
