@@ -103,7 +103,7 @@ The satellite database is provided from [www.celestrack.com](https://www.celestr
 
 An example of one service which is used in Open Source Research would be the Planet satellite service, which operates what is called 'constellations' of satellites, which have different spatial, temporal and radiometric resolutions.&#x20;
 
-<figure><img src=".gitbook/assets/planetsatelliteanimation.gif" alt=""><figcaption><p>THE PLANET SERVICE SATELLITES IN MOTION AROUND THE ROTATING EARTH. <br>Taken from the Planet website at www.planet.com . Author: Nadieh Bremer</p></figcaption></figure>
+<figure><img src=".gitbook/assets/planetsatelliteanimation.gif" alt=""><figcaption><p>THE PLANET SERVICE SATELLITES IN MOTION AROUND THE ROTATING EARTH. <br>Courtesy of <a href="https://www.planet.com/">Planet</a> and <a href="https://www.visualcinnamon.com/about/">Nadieh Bremer</a></p></figcaption></figure>
 
 {% hint style="warning" %}
 OrbTrack includes a distance scale on all its earth maps.
