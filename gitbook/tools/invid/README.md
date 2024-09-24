@@ -1,5 +1,5 @@
 ---
-description: youtube, facebook
+description: A toolkit that supports the verification of videos and images.
 ---
 
 # InVID Verification Plugin
@@ -10,7 +10,7 @@ description: youtube, facebook
 
 ## Description
 
-The InVID Verification Plugin is a comprehensive toolkit designed to assist journalists in verifying content on social networks. It offers a suite of tools to analyze and verify videos and images, including contextual information retrieval, reverse image search (Google, Yandex, Baidu), video fragmentation, and metadata extraction. The plugin supports multiple platforms, such as YouTube, Facebook, Twitter, and Instagram, making it a versatile tool for fact-checking and debunking tasks on social networks. (Some Twitter-related features may not work anymore due to the API policy change.)&#x20;
+The InVID Verification Plugin is a comprehensive toolkit designed to assist journalists in verifying content on social networks. It offers a suite of tools to analyze and verify videos and images, including contextual information retrieval, reverse image search (Google, Yandex, Baidu), video fragmentation, and metadata extraction. The plugin supports multiple platforms, such as YouTube, Facebook, Twitter, and Instagram, making it a versatile tool for fact-checking and debunking tasks on social networks. (Some Twitter-related features may not work anymore due to the API policy change.)
 
 {% hint style="info" %}
 If you're a journalist, fact-checker, or researcher, take a minute to apply and register to use the advanced tools. To do this, click "Advanced Tools" and then "Register". Register with your **professional email address.** Once you’re confirmed as registered, enter your email and then copy & paste the code emailed to you.
@@ -38,7 +38,7 @@ Provides contextual information and metadata for YouTube and public Facebook vid
 {% endtab %}
 {% endtabs %}
 
-**Keyframes**&#x20;
+**Keyframes**
 
 Segments YouTube or Facebook videos into keyframes for detailed analysis and reverse image search, enhancing verification processes.
 
@@ -58,7 +58,7 @@ Extracts and performs a reverse search of thumbnails from YouTube videos to chec
 
 {% tabs %}
 {% tab title="Thumbnails" %}
-<figure><img src=".gitbook/assets/chrome_vhSht7SWlr.png" alt=""><figcaption><p>Provide a YouTube URL and place a checkmark for the reverse image search mechanism you want to use (you can select multiple). Note that if you check "Open Tabs," all result thumbnails will automatically be opened on all services, which might be a lot of tabs. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/chrome_vhSht7SWlr.png" alt=""><figcaption><p>Provide a YouTube URL and place a checkmark for the reverse image search mechanism you want to use (you can select multiple). Note that if you check "Open Tabs," all result thumbnails will automatically be opened on all services, which might be a lot of tabs.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results" %}
@@ -70,7 +70,7 @@ Extracts and performs a reverse search of thumbnails from YouTube videos to chec
 {% endtab %}
 {% endtabs %}
 
-**Video Rights**&#x20;
+**Video Rights**
 
 Retrieves and displays information on legal rights for YouTube and Twitter videos, helping users understand reuse conditions and copyright issues.
 
@@ -84,27 +84,21 @@ Retrieves and displays information on legal rights for YouTube and Twitter video
 {% endtab %}
 {% endtabs %}
 
-**Metadata**&#x20;
+**Metadata**
 
 Extracts metadata from JPEG images and videos in MP4 or M4V formats, providing details such as creation date, camera settings, and location data.
 
 {% tabs %}
 {% tab title="Metadata Extraction Tool" %}
-
-
 <figure><img src=".gitbook/assets/grafik.png" alt=""><figcaption><p>You can upload an image/video or provide a URL</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results" %}
 <figure><img src=".gitbook/assets/grafik (1).png" alt=""><figcaption><p>Which will give you matadata included in the image.</p></figcaption></figure>
-
-
 {% endtab %}
 {% endtabs %}
 
 * **Deepfake (Locked Feature)** - Uses a machine learning classifier to determine the probability that a video contains AI-manipulated faces, such as face swapping or face reenactment. Access is restricted to registered users.
-
-
 
 ### **Image**
 
@@ -144,11 +138,9 @@ Extracts metadata from JPEG images and videos in MP4 or M4V formats, providing d
 
 ## Requirements
 
-Chrome (Opera, Edge, and Firefox under development), Internet, and, for some features a professional Address&#x20;
+Chrome (Opera, Edge, and Firefox under development), Internet, and, for some features a professional Address
 
 ## Limitations
-
-
 
 ## Ethical Considerations
 
@@ -170,8 +162,6 @@ Chrome (Opera, Edge, and Firefox under development), Internet, and, for some fea
 InVID is organized by a consortium of European research groups and businesses, coordinated by The Centre for Research and Technology Hellas (CERTH) in Northern Greece.
 
 The InVID project has received funding from the European Union’s Horizon 2020 research and innovation program.
-
-
 
 | Page Maintainer |
 | --------------- |
