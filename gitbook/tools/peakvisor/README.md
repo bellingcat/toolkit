@@ -17,7 +17,7 @@ https://peakvisor.com
 
 PeakVisor is a multi-function OSINV tool for examining high-accuracy geographic data in the form of 2D and 3D maps and rendered terrain models of near-photographic quality. This geographic data is also overlaid with detailed sun/moon, slope, shadow, elevation and, where available, weather information. PeakVisor is a leading tool for dramatic terrains, e.g. mountains, coastlines, canyons...
 
-<figure><img src=".gitbook/assets/MoveRushonwithsun.gif" alt=""><figcaption><p><strong>PEAKVISOR RENDERING TERRAIN MODELS IN THE MAIN WINDOW (RIGHT) AT LOCATIONS SELECTED BY THE USER WITH THE MAP PIN IN THE INSET MAP WINDOW (LEFT)</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/MoveRushonwithsun.gif" alt=""><figcaption><p><strong>PEAKVISOR RENDERING TERRAIN MODELS IN THE MAIN WINDOW  (RIGHT) AT LOCATIONS SELECTED BY THE USER WITH THE MAP PIN IN THE INSET MAP WINDOW (LEFT)</strong></p></figcaption></figure>
 
 {% hint style="danger" %}
 Beware that PeakVisor comes in 2 versions: the **Web-Based App, used for Open Source research, described here**, and the Smartphone App, used for outdoor navigation, which has significantly different functionality. Online resources can mislead as they often don't specify which version they cover.
@@ -29,7 +29,7 @@ Beware that PeakVisor comes in 2 versions: the **Web-Based App, used for Open So
 
 PeakVisor was first developed as a navigation/orientation smartphone app for mountaineers, skiers and hikers, and uses mobile phone inputs like GPS location, compass, etc. in this version of the app. It delivers augmented reality outputs where maps are superimposed over the live camera view on the mobile phone to fix location by matching map to camera views.
 
-The web-based version has been developed specifically for Open Source research since 2022 via the POPSI project (on X/Twitter: [@PVforOSINV](https://x.com/PVforOSINV)). It allows users to input numerical values to describe 3D geographical viewpoints in terms of latitude, longitude, altitude, pitch, yaw, roll and horizontal angle of view. It superimposes maps over geolocation source imagery to fix location by matching map to historic recorded views. **This article covers the web-based version for Open Source research**. This is best used with a large screen and an exact pointing device like a mouse. A free login is required to access all features.
+The web-based version has been developed specifically for Open Source research since 2022 via the POPSI project (on X/Twitter: [@PVforOSINV](https://x.com/PVforOSINV)). It allows users to input numerical values to describe 3D geographical viewpoints in terms of  latitude, longitude, altitude, pitch, yaw, roll and horizontal angle of view. It superimposes maps over geolocation source imagery to fix location by matching map to historic recorded views. **This article covers the web-based version for Open Source research**. This is best used with a large screen and an exact pointing device like a mouse. A free login is required to access all features.
 
 </details>
 
@@ -45,7 +45,7 @@ The web-based version has been developed specifically for Open Source research s
 * Times (hh:mm)
 * Sun/moon positions (azimuth and elevation angles in degrees)
 * Source imagery
-* Geographic paths (\[lat1, long1],\[lat2, long2], \[lat3, long3]...)
+* Geographic paths (\[lat1, long1],\[lat2, long2], \[lat3, long3]...)&#x20;
 * Pixel in a 3D panorama (on-screen pixel select by user)
 {% endtab %}
 
@@ -54,7 +54,7 @@ The web-based version has been developed specifically for Open Source research s
 * PhotoFits of 3D terrain overlaid with user source imagery
 * Distances between locations
 * Elevation plots (x axis = distance along path, y axis = elevation)
-* 3D and 2D maps with associated, readable values for
+* 3D and 2D maps with associated, readable values for&#x20;
   * Location (latitude and longitude)
   * Altitude
   * Vewpoint orientation (pitch, yaw, and roll)
@@ -78,17 +78,17 @@ There is often more than one method to input data in the PeakVisor interface. So
 {% endtab %}
 {% endtabs %}
 
-### PhotoFitting: PeakVisor's Most Powerful Geolocation Feature:
+### PhotoFitting: PeakVisor's Most Powerful Geolocation Feature:&#x20;
 
 PeakVisor's most widely-used and praised feature to date is that it provides a geolocation ["PhotoFit"](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=7590s)[ ](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=7590s)function - see below.
 
-<figure><img src=".gitbook/assets/anigifphotofit (1).gif" alt=""><figcaption><p><strong>THE PHOTOFITTING PROCESS: MATCHING THE PEAKVISOR TERRAIN MODEL TO THE USER'S SOURCE PHOTOGRAPH WATCH THE MOVEMENT OF THE RED LINE AGAINST THE PHOTOGRAPH SKYLINE</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/anigifphotofit (1).gif" alt=""><figcaption><p><strong>THE PHOTOFITTING PROCESS: MATCHING THE PEAKVISOR TERRAIN MODEL TO THE USER'S SOURCE PHOTOGRAPH             WATCH THE MOVEMENT OF THE RED LINE AGAINST THE PHOTOGRAPH SKYLINE</strong></p></figcaption></figure>
 
 <details>
 
 <summary>PhotoFit superimposes the outline of PeakVisor's 3D rendered terrain model at the User's Test Location over the User's uploaded source image to try to find a match...(click panel arrow for more)</summary>
 
-As a PhotoFit user you can:-
+As a PhotoFit user you can:-&#x20;
 
 1. Upload a photograph you are trying to geolocate using the Toolbar Camera icon.
 2. Specify the location which you want to test as potentially being the location shown in the photograph.
@@ -161,7 +161,7 @@ PeakVisor provides an elevation data download feature for a maximum ground surfa
 4. [Hike Map View](./#view-four-hike-map-view)
 5. [Ski Map View](./#view-five-ski-map-view)
 
-As well as [**Explorer View**](./#view-three-explorer-view-3d-rendered-terrain-model), which always displays a 3D rendered terrain model of a given location next to [2D Map View](./#id-2d-map-view), PeakVisor provides a number of other view types for its topological data:, [3D Map View](./#id-3d-map-view), [Hike Map View](./#view-four-hike-map-view), and [Ski Map view](./#view-five-ski-map-view). These are accessible from the Drop Down menu under Explorer in the Toolbar - see below:
+As well as [**Explorer View**](./#view-three-explorer-view-3d-rendered-terrain-model), which always displays a 3D rendered terrain model of a given location next to  [2D Map View](./#id-2d-map-view),  PeakVisor provides a number of other view types for its topological data:, [3D Map View](./#id-3d-map-view), [Hike Map View](./#view-four-hike-map-view), and [Ski Map view](./#view-five-ski-map-view). These are accessible from the Drop Down menu under Explorer in the Toolbar - see below:
 
 <figure><img src=".gitbook/assets/3dmENUDROPDOWN.gif" alt="" width="487"><figcaption><p><strong>CHANGING PEAKVISOR'S VIEW SETTING USING THE DROP DOWN MENU UNDER "EXPLORER" IN THE TOOLBAR</strong></p></figcaption></figure>
 
@@ -171,7 +171,7 @@ As well as [**Explorer View**](./#view-three-explorer-view-3d-rendered-terrain-m
 
 <summary>Currently the default PeakVisor view after the landing page, shown simultaneously with the 2D Map in a smaller window on the left of the screen. View from a specific user-defined altitude (ground level by default), no contour lines, a few map labels, full terrain simulation (no buildings), date, sun/moon phase &#x26; time of day simulation.... (Click panel arrow for more)</summary>
 
-* Sun and moon trail feature accessible from this view, with date and time input
+* Sun and moon trail feature accessible from this view, with date and time input&#x20;
 * Left Mouse Down moves two viewing angles (pitch and yaw)
 * SHIFT + Arrow Keys move viewpoint location (latitude and longitude)
 * On-screen slider adjusts altitude
@@ -184,17 +184,19 @@ As well as [**Explorer View**](./#view-three-explorer-view-3d-rendered-terrain-m
 
 <figure><img src=".gitbook/assets/PV3Dpanorama (1).gif" alt=""><figcaption><p><strong>PEAKVISOR PANORAMA VIEW FROM GROUND LEVEL WITH TERRAIN &#x26; SUN TRAIL FOR DATE AND TIME</strong></p></figcaption></figure>
 
-#### Special Functions of Explorer View
+#### Special Functions of Explorer View&#x20;
 
 <details>
 
 <summary>Teleport to a Different User-Selected Viewpoint: SHIFT + Left Mouse Click... (Click panel arrow for more)</summary>
 
-In 3D Explorer View it is possible to select a point in the rendered terrain model from the 3D Explorer View. This is done by pressing SHIFT and then Left Mouse Clicking over the pixel at the desired location.
+In 3D Explorer View it is  possible to select a point in the rendered terrain model from the 3D Explorer View. This is done by pressing SHIFT and then Left Mouse Clicking over the pixel at the desired location.
 
-* A red map pin labelled with '?' in white is drawn at the chosen spot.
-* A subwindow appears, showing the co-ordinates of the point, its elevation and its distance from the viewpoint.
+* A red map pin labelled with '?' in white is drawn at the chosen spot.&#x20;
+* A subwindow appears, showing the co-ordinates of the point,  its elevation and its distance from the viewpoint.&#x20;
 * This subwindow has a large blue "Teleport" button, which refreshes the panorama to a viewpoint at the chosen new location
+
+
 
 </details>
 
@@ -228,12 +230,12 @@ The Distance measurement feature can be used as a rapid way to determine lines o
 
 </details>
 
-<figure><img src=".gitbook/assets/TCG729PeakVisorsuntrailcalc.jpg" alt=""><figcaption><p>EXAMPLE USE OF PEAKVISOR TO DETERMINE THE EXACT POSITION OF THE SUN AT A GIVEN DATE, TIME &#x26; LOCATION</p></figcaption></figure>
+<figure><img src=".gitbook/assets/TCG729PeakVisorsuntrailcalc.jpg" alt=""><figcaption><p>EXAMPLE USE OF PEAKVISOR TO DETERMINE THE EXACT POSITION OF THE SUN AT A GIVEN DATE, TIME &#x26; LOCATION     </p></figcaption></figure>
 
 The PeakVisor view above could be used to test whether the location, time and date of geolocation source imagery were consistent and feasible, e.g. at the test location, could the sunset still be visible from the viewpoint at the time and date claimed?
 
 {% hint style="info" %}
-When the sun is centre screen in the PeakVisor Explorer view, the yaw value in the Browser address bar url is the azimuth angle of the sun, and the pitch value is the elevation angle.
+When the sun is centre screen in the PeakVisor Explorer view, the yaw value in the Browser address bar url is the azimuth angle of the sun, and the pitch value is the elevation angle.&#x20;
 {% endhint %}
 
 There are also view types for Skiers and Hikers, each of which has functionality useful for Open Source research:
@@ -244,7 +246,7 @@ There are also view types for Skiers and Hikers, each of which has functionality
 
 <summary>By default, this view is shown in a small left hand window next to a larger Explorer View rendered terrain in the right hand window, though it is possible to maximise 2D Map View as needed... (Click panel arrow for more)</summary>
 
-* from altitude directly overhead above chosen viewpoint, including elevation contour lines and map feature labels, no terrain simulation
+* &#x20;from altitude directly overhead above chosen viewpoint, including elevation contour lines and map feature labels, no terrain simulation
 * Left Mouse Down over the background allows the user to move around the map
 * Left Mouse down over the Map Pin allows the user to move the viewpoint of the Explorer View model
 
@@ -264,7 +266,7 @@ There are also view types for Skiers and Hikers, each of which has functionality
 
 </details>
 
-<figure><img src=".gitbook/assets/big3Dmatterhorn.gif" alt=""><figcaption><p><strong>PEAKVISOR 3D MAP VIEW SHOWING MOUSE CONTROLS: LEFT MOUSE FOR LOCATION, RIGHT MOUSE FOR PITCH (VERTICAL) AND YAW (HORIZONTAL)</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/big3Dmatterhorn.gif" alt=""><figcaption><p><strong>PEAKVISOR 3D MAP VIEW SHOWING MOUSE CONTROLS:                                                                                                                                                 LEFT MOUSE FOR LOCATION, RIGHT MOUSE FOR PITCH (VERTICAL) AND YAW (HORIZONTAL)</strong></p></figcaption></figure>
 
 ### **VIEW FOUR: Hike Map** View:-
 
@@ -290,12 +292,12 @@ There are also view types for Skiers and Hikers, each of which has functionality
 
 In addition to Weather, Photo and Draw Trail functions, Ski Map Options additionally deliver
 
-* Slopes : Map colour shading to indicate degree of slope of the terrain, from white for flat, through yellow for mild to orange and red for steep.
+* Slopes :  Map colour shading to indicate degree of slope of the terrain, from white for flat, through yellow for mild to orange and red for steep.
 * **Shadows** : An overlay view generated around a user-input date and time, where the shadows cast by the landscape are rendered in detail.
 
 </details>
 
-* Slopes: Map colour shading to indicate degree of slope of the terrain, from white for flat, through yellow for mild to orange and red for steep.
+* Slopes:  Map colour shading to indicate degree of slope of the terrain, from white for flat, through yellow for mild to orange and red for steep.&#x20;
 
 <figure><img src=".gitbook/assets/Slopes.JPG" alt=""><figcaption><p>THE SLOPE OVERLAY IN PEAKVISOR SKI VIEW COLOURS SLOPES OF SIMILAR GRADIENT ACCORDING TO A 'HEATMAP' SCALE</p></figcaption></figure>
 
@@ -345,7 +347,7 @@ An email login is needed for some functions like elevation data download, locati
 
 ## Limitations
 
-* **Performance:** PeakVisor Web version for OSINV is a development project, so performance can be volatile whilst upgrading. See [_Performance Issues and Their Management_](https://www.youtube.com/watch?v=xNqSwL9j8h4\&t=5353s)
+* **Performance:** PeakVisor Web version for OSINV is a development project, so performance can be volatile whilst upgrading. See  [_Performance Issues and Their Management_](https://www.youtube.com/watch?v=xNqSwL9j8h4\&t=5353s)
 * **Urban Environments Rarely Usefully Rendered:** PeakVisor Source Data is greater than 30m/pixel in many areas, but features smaller than 30m cannot be assumed to be visible on PeakVisor Explorer View rendered terrains. Thus \*\*Urban environments\*\* will rarely be usefully rendered with respect to bulidings, but useful information can be gleaned about urban lanscapes and lines of sight.
 * **Resizing Windows:** PeakVisor 3D and 3D Explorer windows can switch zoom scale when Teleporting between viewpoint locations in the model, which means users often need to resize and adjust scale during their work.
 * **Buffering Effect at Capacity Limit:** PeakVisor operates at the limit of capacity when the user continuously adjusts viewpoint in 3D Explorer View, because it must constantly re-render the imagery. If buffering limits are reached, the system will 'boomerang' back to a previous location. The way to work around this is to move the viewpoint in increments.
@@ -374,7 +376,7 @@ PeakVisor does not as yet deal primarily in user-generated photography (although
 
 <summary>Risk to the Environment... (Click panel arrow for more)</summary>
 
-Promotion of remote/difficult-to-access locations through such photography could lead to sufficient numbers of new visitors to create environmental damage, particularly if PeakVisor imagery was used by mainstream media and reached very large numbers of consumers. PeakVisor's data accuracy and Smartphone app version make reaching such locations easier to less expert people, and so increase the numbers likely to make the attempt. Depending upon the existence of local communities and the nature of their economies, more visitors might be welcomed, or deplored, but every location has a limit on the number of visitors it can sustain without harm.
+Promotion of remote/difficult-to-access locations through such photography could lead to sufficient numbers of new visitors to create environmental damage, particularly if PeakVisor imagery was used by mainstream media and reached very large numbers of consumers.  PeakVisor's data accuracy and Smartphone app version make reaching such locations easier to less expert people, and so increase the numbers likely to make the attempt. Depending upon the existence of local communities and the nature of their economies, more visitors might be welcomed, or deplored, but every location has a limit on the number of visitors it can sustain without harm.&#x20;
 
 </details>
 
@@ -382,7 +384,7 @@ Promotion of remote/difficult-to-access locations through such photography could
 
 <summary>Risk to Communities... (Click panel arrow for more)</summary>
 
-PeakVisor's promotion of remote/difficult-to-access locations and navigational assistance in accessing them could pose a threat to the wellbeing, safety and way of life of local communities.
+PeakVisor's promotion of remote/difficult-to-access locations and navigational assistance in accessing them could pose  a threat to the wellbeing, safety and way of life of local communities.&#x20;
 
 </details>
 
@@ -392,35 +394,35 @@ PeakVisor's promotion of remote/difficult-to-access locations and navigational a
 Almost all the tutorial and guide material currently online for PeakVisor refers to the Smartphone version of the tool and for this reason is not included here as much of the functionality is not yet available in the web version for Open Source Research, and some is not applicable. PeakVisor's developers have not yet created Help content for the web version of PeakVisor as the tool is so newly developed and major changes are ongoing.
 {% endhint %}
 
-<table><thead><tr><th width="187">Author +/ Source</th><th width="154">Format</th><th>Title and Link</th></tr></thead><tbody><tr><td>Sophie Tedling, Bellingcat Website</td><td>Article on an OS Investigation using PeakVisor</td><td><a href="https://www.bellingcat.com/resources/2023/07/13/more-than-mountaineering-using-peakvisor-for-geolocation/"><strong>More than Mountaineering: Using PeakVisor for Geolocation</strong></a></td></tr><tr><td>Sophie Tedling, YouTube, Bellingcat Channel</td><td><strong>Video Webinars:</strong></td><td><a href="https://www.youtube.com/watch?v=xNqSwL9j8h4">Using PeakVisor For Geolocations</a></td></tr><tr><td>Sophie Tedling, YouTube, Bellingcat Channel</td><td><strong>Video Webinars:</strong></td><td><a href="https://www.youtube.com/watch?v=pWlukJ0v-pw">How To Use PeakVisor, The Mountaineering App, For Open-Source Research</a></td></tr><tr><td>X/Twitter</td><td>X/(Twitter) Account</td><td><a href="https://x.com/PVforOSINV">@PVforOSINV</a></td></tr></tbody></table>
+<table><thead><tr><th width="187">Author +/ Source</th><th width="154">Format</th><th>Title and Link</th></tr></thead><tbody><tr><td>Sophie Tedling, Bellingcat Website</td><td>Article on an OS Investigation using PeakVisor</td><td><h4> <a href="https://www.bellingcat.com/resources/2023/07/13/more-than-mountaineering-using-peakvisor-for-geolocation/">More than Mountaineering: Using PeakVisor for Geolocation</a></h4></td></tr><tr><td>Sophie Tedling, YouTube, Bellingcat Channel</td><td><h4>Video Webinars:</h4></td><td> <a href="https://www.youtube.com/watch?v=xNqSwL9j8h4">Using PeakVisor For Geolocations</a></td></tr><tr><td>Sophie Tedling, YouTube, Bellingcat Channel</td><td><h4>Video Webinars:</h4></td><td> <a href="https://www.youtube.com/watch?v=pWlukJ0v-pw">How To Use PeakVisor, The Mountaineering App, For Open-Source Research</a> </td></tr><tr><td>X/Twitter</td><td>X/(Twitter) Account</td><td><a href="https://x.com/PVforOSINV">@PVforOSINV</a> </td></tr></tbody></table>
 
 #### Video Excerpts for Specific Topics:
 
-[_00:22:50_](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=1370s) _Five USP PeakVisor Features: 30m Global Accuracy Data, Contour Mapping for Lines of Sight, Sun Trails for Chronolocation, Distance Calculation within Virtual Terrain, Photofit Image Match Validation_
+&#x20;[_00:22:50_](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=1370s) _Five USP PeakVisor Features: 30m Global Accuracy Data, Contour Mapping for Lines of Sight, Sun Trails for Chronolocation, Distance Calculation within Virtual Terrain, Photofit Image Match Validation_&#x20;
 
-[_01:01:20_](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=3680s) _PeakVisor Map Interface: Explore Mountains Map Page_
+[_01:01:20_](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=3680s) _PeakVisor Map Interface: Explore Mountains Map Page_&#x20;
 
 [_01:09:55_](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=4195s) _Seven Underlying Parameters Describe the PV Panorama_
 
-[_01:27:25_](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=5245s) _How to Input a Location_
+&#x20;[_01:27:25_](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=5245s) _How to Input a Location_&#x20;
 
-[_01:28:31_](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=5311s) _How to Adjust Altitude and Read Contours in the 2D Map_
+[_01:28:31_](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=5311s) _How to Adjust Altitude and Read Contours in the 2D Map_&#x20;
 
-[_01:32:09_](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=5529s) _How to Adjust Viewing Angles_
+[_01:32:09_](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=5529s) _How to Adjust Viewing Angles_&#x20;
 
-[_01:36:08_](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=5768s) _How to Adjust Field of View and What It Means_
+[_01:36:08_](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=5768s) _How to Adjust Field of View and What It Means_&#x20;
 
-[_01:43:22_](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=6202s) _How to Move from an Existing Location_
+[_01:43:22_](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=6202s) _How to Move from an Existing Location_&#x20;
 
-[_01:48:43_](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=6523s) _How to Measure Distance to Another Location_
+[_01:48:43_](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=6523s) _How to Measure Distance to Another Location_ &#x20;
 
 [_02:06:30_](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=7590s) _How to find a PhotoFit_
 
-[_00:37:06_](https://www.youtube.com/watch?v=xNqSwL9j8h4\&t=2226s) _Sun and Moon Trails and the Shadow Method: Suncalc_
+&#x20;[_00:37:06_](https://www.youtube.com/watch?v=xNqSwL9j8h4\&t=2226s) _Sun and Moon Trails and the Shadow Method: Suncalc_&#x20;
 
-[_01:05:25_](https://www.youtube.com/watch?v=xNqSwL9j8h4\&t=3925s) _Depth and Field of View_
+&#x20;[_01:05:25_](https://www.youtube.com/watch?v=xNqSwL9j8h4\&t=3925s) _Depth and Field of View_&#x20;
 
-[_01:07:38_](https://www.youtube.com/watch?v=xNqSwL9j8h4\&t=4058s) _Field of View, Focal Length and HFOV: Chasing the Perfect Photofit_
+[_01:07:38_](https://www.youtube.com/watch?v=xNqSwL9j8h4\&t=4058s) _Field of View, Focal Length and HFOV: Chasing the Perfect Photofit_&#x20;
 
 {% hint style="warning" %}
 _The PeakVisor website help does not refer specifically to the Web Version, and so describes some major features which are only available on Smartphones._
@@ -438,8 +440,10 @@ Routes Software SRL, VIA CAVOUR 2 LOMAZZO, COMO, 22074 Italy
 
 | Page maintainer |
 | --------------- |
-| Sophie Tedling. |
+| Sophie Tedling  |
 |                 |
+
+
 
 [^1]: To be cross-referenced with other Toolbox tool entries.
 

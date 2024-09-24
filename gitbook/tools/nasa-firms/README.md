@@ -295,9 +295,4 @@ NASA (North American Space Agency) via: Sentinel Hub and Copernicus Browser
 
 * [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [x] This tool does not appear to use tracking cookies
-
-## Page Maintainer
-
-Sophie Tedling.
-
+* [x] This tool does not appear to use tracking coo

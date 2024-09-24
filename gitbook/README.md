@@ -26,9 +26,11 @@ This toolkit is still a work-in-progress and the number of available tool descri
 
 <details>
 
-<summary>Our Toolkit Maintainers</summary>
+<summary>Our Toolkit Maintainers and Guardians</summary>
 
-Our toolkit is a community-driven project. Various community members contribute to writing toolkit descriptions. They know the ins and outs of “their tools” and are able to provide information about their advantages and limitations. If they choose to be publicly mentioned, you can find their names on individual tool pages under "page maintainer".
+Our toolkit is a community-driven project. Bellingcat volunteers, staff and the wider open source researcher community contribute to writing and updating toolkit descriptions.  If they choose to be publicly mentioned, you can find their names on individual tool pages under "page maintainer".
+
+Our Toolkit Guardians have a special role: They help us develop this toolkit to make sure it meets the needs of open source researchers.
 
 </details>
 
@@ -36,11 +38,7 @@ Our toolkit is a community-driven project. Various community members contribute 
 
 <summary>Contribute to this toolkit</summary>
 
-You can contribute to Bellingcat's toolkit by submitting toolkit descriptions via this form. Not all submissions will be accepted, please review our guidelines and tips on how to write and submit a good toolkit description. Only descriptions that fulfil all requirements will be considered.
-
-Bellingcat opens this form several times per year. If you want to be notified via e-mail as soon as it is opens the next time, please add your e-mail address here.
-
-
+You can contribute to Bellingcat's toolkit by submitting toolkit descriptions via this [form](https://docs.google.com/forms/d/e/1FAIpQLSeb0VLOs\_T8qKBTcoHP4nINPnIb1KpRalcS4GuAjAMMgOkh2Q/viewform?usp=sf\_link). Not all submissions will be accepted, please review our guidelines and tips on how to write and submit a good toolkit description. Only descriptions that fulfil all requirements will be considered.
 
 </details>
 
@@ -48,7 +46,7 @@ Bellingcat opens this form several times per year. If you want to be notified vi
 
 <summary>Bellingcat Team and Contact</summary>
 
-This collaborative toolkit has been designed by Bellingcat staff member Johanna Wild during her 2024 Nieman-Berkman Klein fellowship in Journalism Innovation at Harvard university.&#x20;
+This collaborative toolkit has been designed by Bellingcat staff member Johanna Wild during her 2024 Nieman-Berkman Klein Fellowship in Journalism Innovation at Harvard University.&#x20;
 
 Viktorija Ignatavičiūtė and Galen Reich contributed to defining the volunteer involvement for this project, with Viktorija Ignatavičiūtė supporting our toolkit volunteer community also on a daily basis.&#x20;
 
