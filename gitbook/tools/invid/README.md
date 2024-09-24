@@ -98,7 +98,9 @@ Extracts metadata from JPEG images and videos in MP4 or M4V formats, providing d
 {% endtab %}
 {% endtabs %}
 
-* **Deepfake (Locked Feature)** - Uses a machine learning classifier to determine the probability that a video contains AI-manipulated faces, such as face swapping or face reenactment. Access is restricted to registered users.
+**Deepfake (Locked Feature)**&#x20;
+
+Uses a machine learning classifier to determine the probability that a video contains AI-manipulated faces, such as face swapping or face reenactment. Access is restricted to registered users.
 
 {% tabs %}
 {% tab title="Deepfake Tab" %}
@@ -170,55 +172,81 @@ Extracts metadata from JPEG images and videos in MP4 or M4V formats, providing i
 {% endtab %}
 
 {% tab title="Results" %}
-<figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption><p>Metadata reveals that this was shot on the 10th of June 2018 around 2pm, where someone appears to make a version of a Swiss passport. Can you fill in the blanks? </p></figcaption></figure>
+
 {% endtab %}
 {% endtabs %}
 
-* **Forensic** - Provides an enhanced toolkit to detect image forgeries, enabling detailed forensic analysis to identify manipulations.
+#### **Forensic**&#x20;
+
+Provides an enhanced toolkit to detect image forgeries, enabling detailed forensic analysis to identify manipulations.
 
 {% tabs %}
 {% tab title="Forensic Tab" %}
 <figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption><p>"This enhanced forensic toolkit aims to help you detect alterations in manipulated images." This example is taken from a report of Bellingcat Researcher Annique Mossou. <br>Mossou, A. (2023, May 2). <em>Testing for Manipulation: A Case Study from Colombia</em>. Bellingcat. <a href="https://www.bellingcat.com/resources/2023/05/02/testing-for-manipulation-a-case-study-from-colombia/">https://www.bellingcat.com/resources/2023/05/02/testing-for-manipulation-a-case-study-from-colombia/</a></p></figcaption></figure>
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Results: Filters" %}
+<figure><img src=".gitbook/assets/image (27).png" alt=""><figcaption><p>While a comprehensive review of the alteration detection algorithms is outside of the scope of this article, it's possible to recreate the clues that match the outcome of the investigation, which concluded that specific parts of the image had been altered. Here, using the GHOST filter.</p></figcaption></figure>
+{% endtab %}
 
+{% tab title="Results: Enhancers" %}
+<figure><img src=".gitbook/assets/image (28).png" alt=""><figcaption><p>And here, corroberating the first result, using Error Level Analysis.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
-* **OCR (Optical Character Recognition)** - Extracts text from images, making it easier to analyze and verify textual content within images.
+#### **OCR (Optical Character Recognition)**&#x20;
+
+Extracts text from images, making it easier to analyze and verify textual content within images.
 
 {% tabs %}
-{% tab title="First Tab" %}
-
+{% tab title="OCR" %}
+<figure><img src=".gitbook/assets/image (29).png" alt=""><figcaption><p>Using the same source from above.</p></figcaption></figure>
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Results" %}
+<figure><img src=".gitbook/assets/image (30).png" alt=""><figcaption><p>We get what appears to be a (mostly) correctly identified set of words.</p></figcaption></figure>
+{% endtab %}
 
+{% tab title="Reverse Image Seach and Translation" %}
+<figure><img src=".gitbook/assets/image (31).png" alt=""><figcaption><p>We further can do a reverse image search, as well as copy the text to clipboard, as well as translate it using google translate. "Paloma Valencia @PalomaValenciaL This is how the Pan-American Highway looks at the entrance to Totoró Cauca ELN"</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
-* **CheckGIF (Locked Feature)** - Compares an original image with a tampered one, including cropped images, and generates a GIF highlighting differences. Access is restricted to registered users.
+**CheckGIF (Locked Feature)**&#x20;
+
+Compares an original image with a tampered one, including cropped images, and generates a GIF highlighting differences. Access is restricted to registered users.
+
+{% hint style="info" %}
+This plugin will not be able to solve the question of the correct pronunciation of GIF.
+{% endhint %}
 
 {% tabs %}
-{% tab title="First Tab" %}
-
+{% tab title="CheckGIF" %}
+<figure><img src=".gitbook/assets/image (32).png" alt=""><figcaption><p>Here, we take images from an article surrounding the World’s First Rooftop Solar Panel. <br>Postma, F. (2023, August 16). <em>Untangling the Mystery of the World’s First Rooftop Solar Panel</em>. Bellingcat. <a href="https://www.bellingcat.com/news/2023/08/16/untangling-the-mystery-of-the-worlds-first-rooftop-solar-panel/">https://www.bellingcat.com/news/2023/08/16/untangling-the-mystery-of-the-worlds-first-rooftop-solar-panel/</a></p></figcaption></figure>
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="GIF creation" %}
+<figure><img src=".gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
 
+{% tab title="Result" %}
+<figure><img src=".gitbook/assets/image (34).png" alt=""><figcaption><p>In our case, no match has been found and no GIF was created, readers are welcome to suggest a more suitable example.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
 * **Synthetic Image (Locked Feature)** - Determines the probability that an image is AI-generated, using machine learning to assess potential manipulations. Access is restricted to registered users.
 
 {% tabs %}
-{% tab title="First Tab" %}
-
+{% tab title="Synthetic Image" %}
+<figure><img src=".gitbook/assets/image (35).png" alt=""><figcaption><p>We're making detection really easy. Midjourney prompt used was "photograph --ar 4:3".</p></figcaption></figure>
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="First attempt" %}
+<figure><img src=".gitbook/assets/image (36).png" alt=""><figcaption><p>If Midjourney doesn't get a subject, it will make women </p></figcaption></figure>
+{% endtab %}
 
+{% tab title="Second attempt" %}
+<figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption><p>"photograph of woman's face, pores, vellus hairs::1 freckles::-0.4 --s 700 --ar 3:4" Thanks to @InfoGuru from the Midjourney Discord. I'll see myself out.  </p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
