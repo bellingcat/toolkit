@@ -120,47 +120,65 @@ Extracts metadata from JPEG images and videos in MP4 or M4V formats, providing d
 
 ### **Image**
 
-* **Image Analysis** - Provides contextual information for images posted on Facebook, helping to verify their origin and context.
+**Image Analysis**&#x20;
+
+Provides contextual information for images posted on Facebook, helping to verify their origin and context.
+
+{% hint style="info" %}
+This function might not be available at this time due to changes in Facebook TOS.
+{% endhint %}
 
 {% tabs %}
-{% tab title="First Tab" %}
-
+{% tab title="Facebook Image Analysis" %}
+<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption><p>Copy the address of an image uploaded to facebook.</p></figcaption></figure>
 {% endtab %}
 
-{% tab title="Second Tab" %}
-
+{% tab title="Error" %}
+<figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption><p>At this point I was not able to find a photo that would not produce this error. The tutorial says I have to be logged in, which I am, but unfortunately I haven't gotten a working link yet, even when posted from my own profile.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
-* **Magnifier** - Offers a magnifying lens and photo editor to examine images in detail, allowing for close inspection of specific areas.
+#### **Magnifier**&#x20;
+
+Offers a magnifying lens and photo editor to examine images in detail, allowing for close inspection of specific areas.
 
 {% tabs %}
-{% tab title="First Tab" %}
-
+{% tab title="Magnifier Tab" %}
+<figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Results " %}
+<figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption><p>The results tab allows you to use a magnifier by hovering over the image, edit the image, download the source, and do a reverse image search on DBFK, Google Lens, Baidu, Yandex, Bing, Tineye, and Google Factcheck. </p></figcaption></figure>
+{% endtab %}
 
+{% tab title="Magnifier" %}
+<figure><img src=".gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Editing" %}
+<figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption><p>The edit function allows you to perform some basic photo editing quickly. Most of the functions are tailored to focus on a particular part of the image or to obscure sensitive information; others are there to increase contrast, which in some cases is helpful to help identify hidden elements or alterations in the image, such as the boundaries of a patch added in post-processing. Applying a tint can help spot certain materials (like vegetation or blood), while blending can overlay various effects.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
-* **Metadata** - Extracts metadata from JPEG images and videos in MP4 or M4V formats, providing important information for verification.
+#### **Metadata**
+
+Extracts metadata from JPEG images and videos in MP4 or M4V formats, providing important information for verification.
 
 {% tabs %}
-{% tab title="First Tab" %}
-
+{% tab title="Metadata" %}
+<figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Second Tab" %}
-
+{% tab title="Results" %}
+<figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption><p>Metadata reveals that this was shot on the 10th of June 2018 around 2pm, where someone appears to make a version of a Swiss passport. Can you fill in the blanks? </p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
 * **Forensic** - Provides an enhanced toolkit to detect image forgeries, enabling detailed forensic analysis to identify manipulations.
 
 {% tabs %}
-{% tab title="First Tab" %}
-
+{% tab title="Forensic Tab" %}
+<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption><p>"This enhanced forensic toolkit aims to help you detect alterations in manipulated images." This example is taken from a report of Bellingcat Researcher Annique Mossou. <br>Mossou, A. (2023, May 2). <em>Testing for Manipulation: A Case Study from Colombia</em>. Bellingcat. <a href="https://www.bellingcat.com/resources/2023/05/02/testing-for-manipulation-a-case-study-from-colombia/">https://www.bellingcat.com/resources/2023/05/02/testing-for-manipulation-a-case-study-from-colombia/</a></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Second Tab" %}
