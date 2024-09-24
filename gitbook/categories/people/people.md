@@ -5,7 +5,6 @@
 | [**192.com**](http://www.192.com/) | Searching for someone's address in the UK, phone number and who they live with according to electoral rolls. | <mark style="background-color:green;">Free</mark> | 📞 United Kingdom |
 | [**Blackbird**](https://github.com/p1ngul1n0/blackbird) | Check usernames and email addresses on websites and social networks | <mark style="background-color:green;">Free</mark> | [Details](../../tools/blackbird/README.md) |
 | [**DiscordLeaks**](https://discordleaks.unicornriot.ninja/discord/server/) | Search hundreds of thousands of messages leaked from 180+ white-supremacist / nazi discord servers, by UnicornRiot | <mark style="background-color:green;">Free</mark> | [Details](../../tools/discordleaks/README.md) |
-| [**Email Reputation**](https://emailrep.io/) | How trustworthy is an email, is it a throwaway etc. | <mark style="background-color:green;">Free</mark> | 📧  |
 | [**Eniro**](https://www.eniro.se/) | Yellow Pages (Swedish Edition) | <mark style="background-color:green;">Free</mark> | 📞 Sweden |
 | [**Epieos**](https://tools.epieos.com/holehe.php) | Checks where an email has been used. Based on Holehe. | <mark style="background-color:red;">Paid</mark> | 📧 Registration required |
 | [**FastPeopleSearch**](http://fastpeoplesearch.com/) | Mostly good for US. | <mark style="background-color:green;">Free</mark> | 📞🗣️ mostly United States |
