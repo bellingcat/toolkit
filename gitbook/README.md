@@ -1,5 +1,5 @@
 ---
-description: A toolkit for open source researchers
+description: 'Find the right tools: a toolkit for open source researchers'
 ---
 
 # About
@@ -28,7 +28,7 @@ This toolkit is still a work-in-progress and the number of available tool descri
 
 <summary>Our Toolkit Maintainers and Guardians</summary>
 
-Our toolkit is a community-driven project. Bellingcat volunteers, staff and the wider open source researcher community contribute to writing and updating toolkit descriptions.  If they choose to be publicly mentioned, you can find their names on individual tool pages under "page maintainer".
+Our toolkit is a community-driven project. Bellingcat volunteers, staff and the wider open source researcher community contribute to writing and updating toolkit descriptions. If they choose to be publicly mentioned, you can find their names on individual tool pages under "page maintainer".
 
 Our Toolkit Guardians have a special role: They help us further develop this toolkit to make sure it meets the needs of open source researchers.
 
@@ -36,7 +36,7 @@ Our Toolkit Guardians have a special role: They help us further develop this too
 
 <details>
 
-<summary>Contribute to this toolkit</summary>
+<summary>Contribute to this Toolkit</summary>
 
 You can contribute to Bellingcat's toolkit by submitting toolkit descriptions via this [form](https://docs.google.com/forms/d/e/1FAIpQLSeb0VLOs\_T8qKBTcoHP4nINPnIb1KpRalcS4GuAjAMMgOkh2Q/viewform?usp=sf\_link). Not all submissions will be accepted, please review our guidelines and tips on how to write and submit a good toolkit description. Only descriptions that fulfil all requirements will be considered.
 
