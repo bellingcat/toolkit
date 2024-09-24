@@ -30,7 +30,7 @@ This toolkit is still a work-in-progress and the number of available tool descri
 
 Our toolkit is a community-driven project. Bellingcat volunteers, staff and the wider open source researcher community contribute to writing and updating toolkit descriptions.  If they choose to be publicly mentioned, you can find their names on individual tool pages under "page maintainer".
 
-Our Toolkit Guardians have a special role: They help us develop this toolkit to make sure it meets the needs of open source researchers.
+Our Toolkit Guardians have a special role: They help us further develop this toolkit to make sure it meets the needs of open source researchers.
 
 </details>
 
