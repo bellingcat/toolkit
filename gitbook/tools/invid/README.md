@@ -32,10 +32,6 @@ Provides contextual information and metadata for YouTube and public Facebook vid
 {% tab title="Results: Video Description" %}
 
 {% endtab %}
-
-{% tab title="Untitled" %}
-
-{% endtab %}
 {% endtabs %}
 
 **Keyframes**
