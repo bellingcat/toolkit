@@ -26,11 +26,15 @@ Provides contextual information and metadata for YouTube and public Facebook vid
 
 {% tabs %}
 {% tab title="Video Analysis" %}
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Enter the video URL</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results: Video Description" %}
+<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
 
+{% tab title="Results: Channel Description" %}
+<figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -90,19 +94,27 @@ Extracts metadata from JPEG images and videos in MP4 or M4V formats, providing d
 {% endtab %}
 
 {% tab title="Results" %}
-<figure><img src=".gitbook/assets/grafik (1).png" alt=""><figcaption><p>Which will give you matadata included in the image.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/grafik (1).png" alt=""><figcaption><p>Which will give you matadata included in the image. This may include the original data, as well as the brand and model of the camera, and can also include names and geographical locations.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
 * **Deepfake (Locked Feature)** - Uses a machine learning classifier to determine the probability that a video contains AI-manipulated faces, such as face swapping or face reenactment. Access is restricted to registered users.
 
 {% tabs %}
-{% tab title="First Tab" %}
-
+{% tab title="Deepfake Tab" %}
+<figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Detection Results: clips" %}
+<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
 
+{% tab title="Result: no Deepfake" %}
+<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Result: Deepfake" %}
+<figure><img src=".gitbook/assets/chrome_BQnLdsRoxX.png" alt=""><figcaption><p>This is a deepfake of German news anchor Christian Sievers, used in September 2023 for a Crypto Scam. As you can see, the deepfake video barely scores higher than an unedited video, illustrating that detection algorithms are never perfect. Results have to be manually validated through other sources.<br><em>KI-Fake klaut ZDF-Moderator die Stimme—Das steckt dahinter</em>. (2023, September 22). ZDFheute. <a href="https://www.zdf.de/nachrichten/panorama/kriminalitaet/ki-fake-sievers-heute-journal-100.html">https://www.zdf.de/nachrichten/panorama/kriminalitaet/ki-fake-sievers-heute-journal-100.html</a> </p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
