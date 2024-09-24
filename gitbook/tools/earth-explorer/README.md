@@ -34,8 +34,6 @@ Recommended to create an account which is free (but it asks for e-mail address a
 
 It is possible to see previews for imagery but it is often necessary to pay to order and download the actual image. Some images are available for free.
 
-
-
 ## Guide
 
 [https://www.usgs.gov/media/videos/earthexplorer-introduction](https://www.usgs.gov/media/videos/earthexplorer-introduction)
@@ -50,8 +48,7 @@ It is possible to see previews for imagery but it is often necessary to pay to o
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Johanna Wild    |
-|                 |
-
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
+|                           |
