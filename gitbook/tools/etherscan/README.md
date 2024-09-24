@@ -32,19 +32,19 @@ Some Ethereum fans use their .eth username on social media platforms which can b
 
 [Google](https://x.com/nalin/status/1656753830862942208) displays the ETH balance (via Etherscan) directly on top of the search results if someone searches for an Ether address:
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 However, our own tests in July 2024 showed that this does not always work. Sometimes the result comes back with an empty info box:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-07-31 at 20.36.23.png" alt="" width="375"><figcaption></figcaption></figure>
 
-It is also possible to search for a [username](https://cryptoslate.com/google-adding-ethereum-name-service-data-into-search-results-through-etherscan/) but this method seemed to be even less reliable in July 2024.
+It is also possible to search for a [username](https://cryptoslate.com/google-adding-ethereum-name-service-data-into-search-results-through-etherscan/) but this method currently seems to be even less reliable.
 
 #### Transactions
 
 Each transaction has its own transaction hash. Searching for this hash on Etherscan brings up an overview of transaction details:
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>This transaction was successful and took place in block number 20393430 on July 26, 2024. It was sent from an address ending with 003 to vitalik.eth.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>This transaction was successful and took place in block number 20393430 on July 26, 2024. It was sent from an address ending with 003 to vitalik.eth.</p></figcaption></figure>
 
 #### Analytics
 
