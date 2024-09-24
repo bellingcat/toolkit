@@ -1,5 +1,5 @@
 ---
-description: 'Find the right tools: a toolkit for open source researchers'
+description: A toolkit for open source researchers
 ---
 
 # About
@@ -8,7 +8,11 @@ description: 'Find the right tools: a toolkit for open source researchers'
 
 
 
+
+
 <figure><img src=".gitbook/assets/Bellingcat_Toolkit_Ann_Kiernan copy.jpg" alt="" width="563"><figcaption><p><em>Illustration by Ann Kiernan for Bellingcat</em>.</p></figcaption></figure>
+
+
 
 This is your place to discover tools! Our toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more. Most of the tools that we include can be used for free.
 
@@ -19,8 +23,6 @@ Bellingcat’s Online Investigation Toolkit has a long tradition but our newest 
 You can also download the tool lists for each category [in csv format](https://github.com/bellingcat/toolkit/releases/tag/csv).&#x20;
 
 This toolkit is still a work-in-progress and the number of available tool descriptions will grow over time.
-
-
 
 
 
