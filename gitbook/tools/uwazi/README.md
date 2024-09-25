@@ -33,6 +33,7 @@ On the other hand, the **hosted** option involves using Uwazi’s managed hostin
 6. **Collaboration and Permissions**: Uwazi facilitates collaboration with its multi-user environment, where permissions can be finely tuned to protect sensitive information.
 7. **Public and Private Sharing**: The platform enables the secure sharing of document collections, with options for both public access and private, controlled sharing.
 8. **Security and Compliance**: Uwazi incorporates strong security measures, including encrypted data storage and secure access controls, ensuring compliance with privacy regulations and safeguarding sensitive information.
+9. Integration with the Tella App: Once set up, Uwazi databases can be populated via the [Tella App](https://tella-app.org/), which provides encrypted asynchronous uploads of photos and videos from a user's phone, in an environment separate from the phone's gallery.
 
 #### Development and Community:
 
@@ -98,6 +99,20 @@ Uwazi has been successfully employed in documenting war crimes, managing legal e
 
 You can view the full showcase [here](https://uwazi.io/en/page/k5htkcauq7i/showcase).
 
+<div>
+
+<figure><img src=".gitbook/assets/Screenshot 2024-09-25 115523.png" alt=""><figcaption><p>Location Options</p></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Screenshot 2024-09-25 115546.png" alt=""><figcaption><p>Relationships</p></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Screenshot 2024-09-25 115606.png" alt=""><figcaption><p>Template Edit</p></figcaption></figure>
+
+</div>
+
 ## Tool provider
 
 **Uwazi** is developed by **HURIDOCS (Human Rights Information and Documentation Systems)**, an NGO specializing in helping human rights organizations manage and utilize information for advocacy, justice, and accountability. HURIDOCS has a long history of developing tools and methodologies tailored to the needs of human rights defenders, focusing on secure, flexible, and accessible solutions.
@@ -113,4 +128,4 @@ Uwazi uses cookies on its websites and applications to improve functionality, tr
 | Page maintainer |
 | --------------- |
 | Martin Sona     |
-|                 |
+| Cass Troy       |
