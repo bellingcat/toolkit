@@ -289,14 +289,16 @@ Detects AI-generated text-to-speech (voice cloning by AI), analyzing audio files
 <figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p>I'm using this well-known deepfake of  Monika Tódová, a well-known journalist. During the 2023 parliamentary election, this conversation, pure fabrication, became the first documented case of a deepfake playing a role in the pre-election battle.<br>Karin Kőváry Sólymos. (2023). Slovakia: Deepfake audio of Denník N journalist offers worrying example of AI abuse. <em>Ipi.Media</em>. <a href="https://ipi.media/slovakia-deepfake-audio-of-dennik-n-journalist-offers-worrying-example-of-ai-abuse/">https://ipi.media/slovakia-deepfake-audio-of-dennik-n-journalist-offers-worrying-example-of-ai-abuse/</a> </p></figcaption></figure>
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Results" %}
 <figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>While the average score indicates that most of the conversation comprises actual speech, it also shows a high likelihood of detection for some parts of the two-minute recording. More often than not, altering just a few words to change a conversation's meaning completely is sufficient. <br>Mai, K. T., Bray, S., Davies, T., &#x26; Griffin, L. D. (2023). Warning: Humans cannot reliably detect speech deepfakes. <em>PLOS ONE</em>, <em>18</em>(8), e0285333. <a href="https://doi.org/10.1371/journal.pone.0285333">https://doi.org/10.1371/journal.pone.0285333</a><br></p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
 ### **Search**
 
-**X Search** - Performs advanced search queries on X (formerly Twitter), including precise time intervals, enhancing the ability to find relevant content.
+**X Search**&#x20;
+
+Performs advanced search queries on X (formerly Twitter), including precise time intervals, enhancing the ability to find relevant content.
 
 {% tabs %}
 {% tab title="X-Search Tab" %}
@@ -308,7 +310,9 @@ Since the author won't touch X with a 10ft pole, you'll have to find out yoursel
 {% endtab %}
 {% endtabs %}
 
-**Fact Check Semantic Search (Locked Feature)** - Uses semantic search algorithms to find fact-checked information across various sources, improving the accuracy of verification. Access is restricted to registered users.
+**Fact Check Semantic Search (Locked Feature)**&#x20;
+
+Uses semantic search algorithms to find fact-checked information across various sources, improving the accuracy of verification. Access is restricted to registered users.
 
 {% tabs %}
 {% tab title="Fact Check Semantic Search" %}
@@ -324,7 +328,9 @@ Since the author won't touch X with a 10ft pole, you'll have to find out yoursel
 {% endtab %}
 {% endtabs %}
 
-**XNetwork** - Provides a customized search engine for cross-network queries, simultaneously allowing searches across multiple social media platforms.
+**XNetwork**&#x20;
+
+Provides a customized search engine for cross-network queries, simultaneously allowing searches across multiple social media platforms.
 
 {% tabs %}
 {% tab title="First Tab" %}
@@ -332,7 +338,9 @@ Since the author won't touch X with a 10ft pole, you'll have to find out yoursel
 {% endtab %}
 {% endtabs %}
 
-**Factchecks** - Facilitates the discovery of fact-checked articles and reports from trusted fact-checking organizations, aiding in content verification.
+**Factchecks**&#x20;
+
+Facilitates the discovery of fact-checked articles and reports from trusted fact-checking organizations, aiding in content verification.
 
 {% tabs %}
 {% tab title="Factchecks" %}
@@ -342,7 +350,9 @@ Since the author won't touch X with a 10ft pole, you'll have to find out yoursel
 
 ### **Data Analysis**
 
-* **Twitter SNA (Locked Feature)** - Performs social network analysis on Twitter, analyzing interactions, trends, and relationships to understand information spread and impact. Deprecated since July 1st, 2023, due to X/Twitter code changes. Is on registration, so might work again at some point and this article will reflect that. Access is restricted to registered users.
+**Twitter SNA (Locked Feature)**&#x20;
+
+Performs social network analysis on Twitter, analyzing interactions, trends, and relationships to understand information spread and impact. Deprecated since July 1st, 2023, due to X/Twitter code changes. Is on registration, so might work again at some point and this article will reflect that. Access is restricted to registered users.
 
 {% tabs %}
 {% tab title="First Tab" %}
@@ -350,7 +360,9 @@ Since the author won't touch X with a 10ft pole, you'll have to find out yoursel
 {% endtab %}
 {% endtabs %}
 
-* **CSV Analysis** - Allows the import and analysis of social network data from CrowdTangle exports, using Social Network Analysis (SNA) for providing in-depth insights into social media activity and trends.
+**CSV Analysis**&#x20;
+
+Allows the import and analysis of social network data from CrowdTangle exports, using Social Network Analysis (SNA) for providing in-depth insights into social media activity and trends.
 
 {% hint style="info" %}
 CrowdTangle is permanently gone. We hope that this feature will not disappear but be adapted to perform other ways of SNA instead.
