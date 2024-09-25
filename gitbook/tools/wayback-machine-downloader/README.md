@@ -6,7 +6,7 @@ description: Download an entire website from the Wayback Machine.
 
 ## URL
 
-https://example.com
+https://github.com/hartator/wayback-machine-downloader
 
 ## Description
 
