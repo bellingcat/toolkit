@@ -4437,5 +4437,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "Y455E3UjOaWI2AvMng1d",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "C0WRjSQxU3ZUJN3vEipc",
+    "title": "OSINT tools map",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-09-25T14:50:18.520Z",
+    "updatedAt": "2024-09-25T14:50:18.520Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/C0WRjSQxU3ZUJN3vEipc",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/C0WRjSQxU3ZUJN3vEipc/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "PHv3pfrtvrtFCagEWd3w",
+    "defaultLevel": "inherit"
   }
 ]
