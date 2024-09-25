@@ -7,9 +7,8 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "tags": [
-    "data"
-  ]
+  "details": "Create up to two timelines for free",
+  "tags": []
 }
 ```
 {% endcode %}

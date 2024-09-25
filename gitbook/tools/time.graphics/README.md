@@ -14,8 +14,8 @@ description: Platform for creating visual timelines
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
 \[\[Pricing or subscription information, if relevant.]]
