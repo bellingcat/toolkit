@@ -26,15 +26,15 @@ Provides contextual information and metadata for YouTube and public Facebook vid
 
 {% tabs %}
 {% tab title="Video Analysis" %}
-<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results: Video Description" %}
-<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results: Channel Description" %}
-<figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -104,15 +104,15 @@ Uses a machine learning classifier to determine the probability that a video con
 
 {% tabs %}
 {% tab title="Deepfake Tab" %}
-<figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Detection Results: clips" %}
-<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Result: no Deepfake" %}
-<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Result: Deepfake" %}
@@ -132,11 +132,11 @@ This function might not be available at this time due to changes in Facebook TOS
 
 {% tabs %}
 {% tab title="Facebook Image Analysis" %}
-<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption><p>Copy the address of an image uploaded to facebook.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (18) (1).png" alt=""><figcaption><p>Copy the address of an image uploaded to facebook.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Error" %}
-<figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption><p>At this point I was not able to find a photo that would not produce this error. The tutorial says I have to be logged in, which I am, but unfortunately I haven't gotten a working link yet, even when posted from my own profile.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (19) (1).png" alt=""><figcaption><p>At this point I was not able to find a photo that would not produce this error. The tutorial says I have to be logged in, which I am, but unfortunately I haven't gotten a working link yet, even when posted from my own profile.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -234,27 +234,27 @@ This plugin will not be able to solve the question of the correct pronunciation 
 {% endtab %}
 {% endtabs %}
 
-* **Synthetic Image (Locked Feature)** - Determines the probability that an image is AI-generated, using machine learning to assess potential manipulations. Access is restricted to registered users.
+**Synthetic Image (Locked Feature)** - Determines the probability that an image is AI-generated, using machine learning to assess potential manipulations. Access is restricted to registered users.
 
 {% tabs %}
 {% tab title="Synthetic Image" %}
 <figure><img src=".gitbook/assets/image (35).png" alt=""><figcaption><p>We're making detection really easy. Midjourney prompt used was "photograph --ar 4:3".</p></figcaption></figure>
 {% endtab %}
 
-{% tab title="First attempt" %}
+{% tab title="First attempt: 88%" %}
 <figure><img src=".gitbook/assets/image (36).png" alt=""><figcaption><p>If Midjourney doesn't get a subject, it will make women </p></figcaption></figure>
 {% endtab %}
 
-{% tab title="Second attempt" %}
+{% tab title="Second attempt: ??" %}
 <figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption><p>"photograph of woman's face, pores, vellus hairs::1 freckles::-0.4 --s 700 --ar 3:4" Thanks to @InfoGuru from the Midjourney Discord. I'll see myself out.  </p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
-* **Deepfake (Locked Feature)** - Detects if an image has been manipulated through face swapping, providing insights into possible deepfake content. Access is restricted to registered users.
+**Deepfake (Locked Feature)** - Detects if an image has been manipulated through face swapping, providing insights into possible deepfake content. Access is restricted to registered users.
 
 {% tabs %}
 {% tab title="First Tab" %}
-
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Second Tab" %}
@@ -262,95 +262,103 @@ This plugin will not be able to solve the question of the correct pronunciation 
 {% endtab %}
 {% endtabs %}
 
-* **Geolocalizer (Locked Feature)** - Attempts to geolocate an image using an algorithm, helping to identify where an image was taken. Access is restricted to registered users.
+**Geolocalizer (Locked Feature)** - Attempts to geolocate an image using an algorithm, helping to identify where a picture was taken. Access is restricted to registered users.
+
+{% tabs %}
+{% tab title="Geolocalizer Tab" %}
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>I'm using an example from Logan William's excellent article on the OSM Search tool.<br>Williams, L. (2023, May 8). <em>Finding Geolocation Leads with Bellingcat’s OpenStreetMap Search Tool</em>. Bellingcat. <a href="https://www.bellingcat.com/resources/how-tos/2023/05/08/finding-geolocation-leads-with-bellingcats-openstreetmap-search-tool/">https://www.bellingcat.com/resources/how-tos/2023/05/08/finding-geolocation-leads-with-bellingcats-openstreetmap-search-tool/</a> <br></p></figcaption></figure>
+{% endtab %}
+
+{% tab title="First attempt" %}
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>unfortunately I get an error for what should have been a street in Brussels. </p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Second attempt" %}
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>Also, I had no luck with this shadow on a beach, which you can geolocate using only the sun! And math. And two geniuses:<br>Reich, Galen &#x26; Friesen, Gabòr. (2024, August 22). <em>Chasing Shadows: Geolocate Images with Bellingcat’s Shadow Finder Tool</em>. Bellingcat. <a href="https://www.bellingcat.com/resources/2024/08/22/shadow-geolocate-geolocation-locate-image-tool-open-source-bellingcat-measure/">https://www.bellingcat.com/resources/2024/08/22/shadow-geolocate-geolocation-locate-image-tool-open-source-bellingcat-measure/</a></p></figcaption></figure>
+{% endtab %}
+{% endtabs %}
 
 ### **Audio**
 
-* **Loccus (Locked Feature)** - Detects AI-generated text-to-speech (voice cloning by AI), analyzing audio files to identify potential deep fake audio. Access is restricted to registered users.
+#### **Loccus (Locked Feature)**
+
+Detects AI-generated text-to-speech (voice cloning by AI), analyzing audio files to identify potential deep fake audio. Access is restricted to registered users.
 
 {% tabs %}
-{% tab title="First Tab" %}
-
+{% tab title="Loccus " %}
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p>I'm using this well-known deepfake of  Monika Tódová, a well-known journalist. During the 2023 parliamentary election, this conversation, pure fabrication, became the first documented case of a deepfake playing a role in the pre-election battle.<br>Karin Kőváry Sólymos. (2023). Slovakia: Deepfake audio of Denník N journalist offers worrying example of AI abuse. <em>Ipi.Media</em>. <a href="https://ipi.media/slovakia-deepfake-audio-of-dennik-n-journalist-offers-worrying-example-of-ai-abuse/">https://ipi.media/slovakia-deepfake-audio-of-dennik-n-journalist-offers-worrying-example-of-ai-abuse/</a> </p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Second Tab" %}
-
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>While the average score indicates that most of the conversation comprises actual speech, it also shows a high likelihood of detection for some parts of the two-minute recording. More often than not, altering just a few words to change a conversation's meaning completely is sufficient. <br>Mai, K. T., Bray, S., Davies, T., &#x26; Griffin, L. D. (2023). Warning: Humans cannot reliably detect speech deepfakes. <em>PLOS ONE</em>, <em>18</em>(8), e0285333. <a href="https://doi.org/10.1371/journal.pone.0285333">https://doi.org/10.1371/journal.pone.0285333</a><br></p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
 ### **Search**
 
-* **X Search** - Performs advanced search queries on X (formerly Twitter), including precise time intervals, enhancing the ability to find relevant content.
+**X Search** - Performs advanced search queries on X (formerly Twitter), including precise time intervals, enhancing the ability to find relevant content.
 
 {% tabs %}
-{% tab title="First Tab" %}
-
+{% tab title="X-Search Tab" %}
+<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Second Tab" %}
-
+{% tab title="Results" %}
+Since the author won't touch X with a 10ft pole, you'll have to find out yourself. Please tell me, and I will incorporate your results.&#x20;
 {% endtab %}
 {% endtabs %}
 
-* **Fact Check Semantic Search (Locked Feature)** - Uses semantic search algorithms to find fact-checked information across various sources, improving the accuracy of verification. Access is restricted to registered users.
+**Fact Check Semantic Search (Locked Feature)** - Uses semantic search algorithms to find fact-checked information across various sources, improving the accuracy of verification. Access is restricted to registered users.
 
 {% tabs %}
-{% tab title="First Tab" %}
-
+{% tab title="Fact Check Semantic Search" %}
+<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Query" %}
+<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption><p>It's a valid question.</p></figcaption></figure>
+{% endtab %}
 
+{% tab title="Results" %}
+<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption><p>While I didn't find my answer ("no, he did not"), the answers provided were all fact-checked. He did not join a group of comedians, was not headed to Moscow, and was not dead, but there is a photo of Elon Musk with a real robot. Even though fact-checked, it is always important to consider other sources and the possibility of things changing.  </p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
-* **XNetwork** - Provides a customized search engine for cross-network queries, allowing searches across multiple social media platforms simultaneously.
+**XNetwork** - Provides a customized search engine for cross-network queries, simultaneously allowing searches across multiple social media platforms.
 
 {% tabs %}
 {% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
+<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
-* **Factchecks** - Facilitates the discovery of fact-checked articles and reports from trusted fact-checking organizations, aiding in content verification.
+**Factchecks** - Facilitates the discovery of fact-checked articles and reports from trusted fact-checking organizations, aiding in content verification.
 
 {% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
+{% tab title="Factchecks" %}
+<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption><p>Similar to the semanitc search above, providing similar results and give an additional means of arriving at fact-checked articles.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
 ### **Data Analysis**
 
-* **Twitter SNA (Locked Feature)** - Performs social network analysis on Twitter, analyzing interactions, trends, and relationships to understand information spread and impact. Deprecated since July 1st, 2023, due to X/Twitter code changes. Access is restricted to registered users.
+* **Twitter SNA (Locked Feature)** - Performs social network analysis on Twitter, analyzing interactions, trends, and relationships to understand information spread and impact. Deprecated since July 1st, 2023, due to X/Twitter code changes. Is on registration, so might work again at some point and this article will reflect that. Access is restricted to registered users.
 
 {% tabs %}
 {% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
+<figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
-* **CSV Analysis** - Allows the import and analysis of social network data from CrowdTangle exports, providing in-depth insights into social media activity and trends.
+* **CSV Analysis** - Allows the import and analysis of social network data from CrowdTangle exports, using Social Network Analysis (SNA) for providing in-depth insights into social media activity and trends.
+
+{% hint style="info" %}
+CrowdTangle is permanently gone. We hope that this feature will not disappear but be adapted to perform other ways of SNA instead.
+{% endhint %}
 
 {% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
+{% tab title="CSV analysis Tab" %}
+<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
