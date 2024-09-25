@@ -9,4 +9,4 @@
 | [**Obsidian**](https://obsidian.md/) | A knowledge management and note-taking app with extensive customization options. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../tools/obsidian/README.md) |
 | [**Omnivore**](https://omnivore.app) | Omnivore is a read-it-later app designed to help users organize and consume their reading materials across various platforms. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/omnivore/README.md) |
 | [**QGIS**](https://www.qgis.org) | QGIS is a free Open Source Geographic Information System (GIS). | <mark style="background-color:green;">Free</mark> | [Details](../../tools/qgis/README.md) |
-| [**Time.Graphics**](https://time.graphics/editor) | Platform for creating visual timelines | <mark style="background-color:green;">Free</mark> |  |
+| [**Time.Graphics**](https://time.graphics/editor) | Platform for creating visual timelines | <mark style="background-color:orange;">Partially Free</mark> |  |
