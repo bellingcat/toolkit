@@ -4401,5 +4401,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "iM33h8pX8Z4iwMwjctyW",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "UwQGaGCUbTxZVhVVhhTB",
+    "title": "Google Flood Hub",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-09-25T13:42:00.478Z",
+    "updatedAt": "2024-09-25T13:42:00.478Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/UwQGaGCUbTxZVhVVhhTB",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/UwQGaGCUbTxZVhVVhhTB/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "qAIjPiHdmjgsihkYxx8T",
+    "defaultLevel": "inherit"
   }
 ]
