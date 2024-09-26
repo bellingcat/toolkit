@@ -1,16 +1,34 @@
 ---
-description: Worldwide map of business registries, court records and other info, by @cyb\_detective
+description: >-
+  Worldwide map of business registries, court records and other info, by
+  @cyb\_detective
 ---
 
 # Osint Tools Map
 
 ## URL
 
-https://cipher387.github.io/osintmap/
+[https://cybdetective.com/osintmap/](https://cybdetective.com/osintmap/)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Worldwide OSINT tools map, provided by Cyberdetective, is an interactive map that offers a collection of osint tools. The tools are divided per:&#x20;
+
+Now-defunct states
+
+Continents
+
+Regions (states, areas, provinces)
+
+Cities and towns
+
+Unions of states
+
+\
+Although the offer varies per country, it still offers enough options for researchers who need to do research in countries where they are not familiar. Think of cadastral maps, business registry, yellow pages or court documents.
+
+\
+
 
 ## Cost
 
@@ -30,11 +48,13 @@ https://cipher387.github.io/osintmap/
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+The map is a directory and not a database. Some of the external databases may require a subscription or payment for full access. The page also doesn’t show a date when it was last updated, so some site might go offline or change their access policies.
+
+
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+It is always important to keep an eye on local privacy regulations and ethical standards. Be aware that improper use of personal data from publicly available information may have legal implications.&#x20;
 
 ## Guide
 
@@ -42,7 +62,9 @@ https://cipher387.github.io/osintmap/
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+From the website: [https://cybdetective.com/](https://cybdetective.com/)
+
+
 
 ## Advertising Trackers
 
@@ -54,4 +76,3 @@ https://cipher387.github.io/osintmap/
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
