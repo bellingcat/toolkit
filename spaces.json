@@ -4455,5 +4455,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "PHv3pfrtvrtFCagEWd3w",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "VmqPZC9FBdatyxmOQkR5",
+    "title": "What CMS",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-09-27T16:21:02.720Z",
+    "updatedAt": "2024-09-27T16:21:02.720Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/VmqPZC9FBdatyxmOQkR5",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/VmqPZC9FBdatyxmOQkR5/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "HbeDNUMRWYxP16MyFc6q",
+    "defaultLevel": "inherit"
   }
 ]
