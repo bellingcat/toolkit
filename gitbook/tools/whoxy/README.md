@@ -1,12 +1,12 @@
 ---
-description: A brief one line description of this tool
+description: A domain search engine or "whois lookup" tool to find information on a domain.
 ---
 
 # Whoxy
 
 ## URL
 
-https://example.com
+[https://www.whoxy.com/](https://www.whoxy.com/)
 
 ## Description
 
@@ -14,8 +14,8 @@ https://example.com
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
 \[\[Pricing or subscription information, if relevant.]]
@@ -50,8 +50,7 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat volunteer team |
+|                           |
