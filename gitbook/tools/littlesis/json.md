@@ -7,9 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "LittleSis",
-  "url": "https://littlesis.org/",
-  "description": "Connects dots between influential / wealthy individuals in (mostly US) politics and business.",
   "details": "United States",
   "tags": [
     "companies-and-finance",
