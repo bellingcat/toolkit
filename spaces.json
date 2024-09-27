@@ -4473,5 +4473,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "HbeDNUMRWYxP16MyFc6q",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "TfPPaf5JLaBXGOQzW15L",
+    "title": "Picuki",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-09-27T16:32:54.373Z",
+    "updatedAt": "2024-09-27T16:32:54.373Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/TfPPaf5JLaBXGOQzW15L",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/TfPPaf5JLaBXGOQzW15L/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "eydYhDngEqZTsAlA1Is5",
+    "defaultLevel": "inherit"
   }
 ]
