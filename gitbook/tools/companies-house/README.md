@@ -65,6 +65,8 @@ Beauhurst Limited: [How To Get The Most Out of Companies House Data](https://www
 
 Companies House [guide](https://developer.company-information.service.gov.uk/) for using their API
 
+Jonas Montenarh, Simon Marsden: [Unmasking the oligarchs – Using open source data to detect sanctions violations](https://www.sciencedirect.com/science/article/pii/S2949791424000071) (journal paper that describes various uses of Companies House data)
+
 ## Tool provider
 
 Department for Business and Trade
