@@ -1,16 +1,16 @@
 ---
-description: Search companies and individuals in the United Kingdom and Gibraltar.
+description: Search companies and individuals in the United Kingdom.
 ---
 
 # Companies House
 
 ## URL
 
-[http://beta.companieshouse.gov.uk/](https://find-and-update.company-information.service.gov.uk/)
+https://find-and-update.company-information.service.gov.uk/
 
 ## Description
 
-Use Companies House to get information on a  company operating in the UK - it's the official register of companies. This makes it a very credible source.
+Use Companies House to get information on a  company operating in the UK - it's the official register of companies (so a government agency collates the data). This makes it a very credible source.
 
 Anyone wanting to operate a limited company in the UK has to register with them. This includes a limited company (Ltd), public limited company (PLC), or limited liability partnership (LLP). The size of the company does not determine the requirement to register. Sole traders don't have to register; nor do partnerships (without limited liability) - those are companies that involve two or more people that share ownership. Companies House is also responsible for dissolving companies.
 
@@ -29,6 +29,8 @@ The Register of Overseas Entities is also published on Companies House. It's the
 
 You can [download](https://download.companieshouse.gov.uk/en\_output.html) all the basic company data of live companies on the register.  This would be useful for things like compiling statistics on the number of company formations in a particular year, or a geographical analysis of all registered addresses.
 
+Note that companies in overseas territories (e.g. Gibraltar) don't need to register with Companies House - for such companies, go to the territory's registry.
+
 ## Cost
 
 * [x] Free
@@ -43,17 +45,19 @@ You can [download](https://download.companieshouse.gov.uk/en\_output.html) all t
 
 ## Requirements
 
-none
+No registration is required and the site is free.
 
 ## Limitations
 
-A lot of data is stored as scanned PDFs so you can't copy text from them (e.g. annual returns). (QU FOR JOHANNA: DOES BCAT CALL THEM 'SCANNED PDFs'?)
+A lot of data is stored as scanned PDFs so you can't copy text from them (e.g. annual returns).
 
 Companies House states that they don't check the accuracy of information that companies submit; they just check that submissions are complete.
 
+Applications can be made to redact Companies House data. This is usually done for privacy reasons. It remains, however, a very good reference point.
+
 ## Ethical Considerations
 
-none
+This is public facing information. As company officers have the option to remove sensitive information about themselves, there are no ethical considerations here.&#x20;
 
 ## Guide
 
