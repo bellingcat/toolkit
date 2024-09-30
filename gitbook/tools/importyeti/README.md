@@ -10,7 +10,7 @@ description: Search 70 million US customs sea shipment records, find company sup
 
 ## Description
 
-Every sea shipment into the United States requires a bill of lading. ImportYeti has acquired all the bill of lading data, from January 2015, [through a freedom of information request to US Customs](https://www.importyeti.com/faqs). ImportYeti provides free access to the data online. Bills of lading include fields like: Purchaser and supplier names, supplier country, weight of goods, ports shipped to and from, and product HS ([Harmonized System](https://en.wikipedia.org/wiki/Harmonized\_System)) code which classifies traded products.
+Every sea shipment into the United States requires a bill of lading. ImportYeti has acquired all the bills of lading data, from January 2015, [through a freedom of information request to US Customs](https://www.importyeti.com/faqs). ImportYeti provides free access to the data online. Bills of lading include fields like: Purchaser and supplier names, supplier country, weight of goods, ports shipped to and from, and product HS ([Harmonized System](https://en.wikipedia.org/wiki/Harmonized\_System)) code which classifies traded products.
 
 The tool was built to help people find suppliers of goods (e.g. manufacturers that make a product they want to sell). An OSINT researcher might use it to investigate sourcing of goods from unethical suppliers, or sanctions violations. The free search allows for searching by company name, supplier, or product. Note that you must search by a company's legal name.
 
@@ -32,7 +32,7 @@ Here's an example of how a company's product HS codes are represented:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-09-25 at 11.30.49.png" alt=""><figcaption></figcaption></figure>
 
-The HS code data is highly structured. For instance in this example, you can see that 'Iron/Steel products' is the largest category of products that Harrington Moore  receives, and the sub-categories are shown within that. This is useful if you are looking for very particular kinds of shipped goods.
+The HS code data is highly structured. For instance in this example, you can see that 'Iron/Steel products' is the largest category of products that Harrington Moore receives, and the sub-categories are shown within that. This is useful if you are looking for very particular kinds of shipped goods.
 
 * [x] Free
 * [ ] Partially Free
