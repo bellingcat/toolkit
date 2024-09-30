@@ -1,7 +1,7 @@
 ---
 description: >-
-  Hoaxy is a web-based search and visualization tool. It tracks the spread of
-  information on Bluesky and X (Twitter).
+  Hoaxy is a web-based search and visualization tool. It helps visualize the
+  spread of information on Bluesky and X (Twitter).
 ---
 
 # Hoaxy
@@ -132,7 +132,6 @@ Bluesky search and importing your own data is free, but an X/Twitter search requ
 
 1. X user account
 2. X user account Bearer Token (available if user purchased a Basic, Pro or Premium+ subscription)
-3. Bluesky user account
 
 ## Limitations
 
