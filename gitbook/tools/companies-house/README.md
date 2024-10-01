@@ -49,13 +49,13 @@ No registration is required and the site is free.
 
 A lot of data is stored as scanned PDFs so you can't copy text from them (e.g. annual returns).
 
-Companies House states that they don't check the accuracy of information that companies submit; they just check that submissions are complete. (See this in the section "Company Information supplied by Companies House" on [this page](https://www.gov.uk/guidance/search-the-companies-house-register).)
+Companies House states that they don't check the accuracy of information that companies submit; they just check that submissions are complete (see this in the section "Company Information supplied by Companies House" on [this page](https://www.gov.uk/guidance/search-the-companies-house-register)).
 
-Applications can be made to redact Companies House data. This is usually done for privacy reasons, and effects residential addresses and person of significant control information (See more: [How to Protect Your Personal Information on the Companies House Register](https://help.uniwide.co.uk/how-to-protect-your-personal-information-on-the-companies-house-register/), Uniwide Formations)
+Applications can be made to redact Companies House data. This is usually done for privacy reasons, for instance for residential addresses (see more: [How to Protect Your Personal Information on the Companies House Register](https://help.uniwide.co.uk/how-to-protect-your-personal-information-on-the-companies-house-register/)).
 
 ## Ethical Considerations
 
-This is public facing information. As company officers have the option to remove sensitive information about themselves, the ethical considerations are limited (See more: [Removing your home address from the Companies House register](https://www.gov.uk/guidance/removing-your-home-address-from-the-companies-house-register), Companies House).
+This is public facing information. As company officers have the option to remove sensitive information about themselves, the ethical considerations are limited (see more: [Removing your home address from the Companies House register](https://www.gov.uk/guidance/removing-your-home-address-from-the-companies-house-register)).
 
 ## Guide
 
