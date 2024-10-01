@@ -149,3 +149,4 @@
   * [Telemetrio](tools/telemetrio/README.md)
   * [OrbTrack](tools/orbtrack/README.md)
   * [ImportYeti](tools/importyeti/README.md)
+  * [Companies House](tools/companies-house/README.md)
