@@ -1,16 +1,34 @@
 ---
-description: Connects dots between influential / wealthy individuals in (mostly US) politics and business.
+description: >-
+  Connects dots between influential / wealthy individuals in (mostly US)
+  politics and business.
 ---
 
 # LittleSis
 
 ## URL
 
-https://littlesis.org/
+[https://littlesis.org/database](https://littlesis.org/database)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+LittleSis is a wiki database that houses information from a range of online sources on powerful individuals and organisations in the public and private sectors in the Unites States. It seeks to show the relationships between those individuals and organisations, with the aim of helping users to track relationships (e.g. donations to politicians and political action committees (PACs), board memberships). This should help the user to follow the money and connect those that hold public and private sector power.
+
+It is maintained through automatic updates and manual edits. Links to data sources are provided.
+
+Here's an example of a person's page:
+
+<figure><img src=".gitbook/assets/Screenshot 2024-09-25 at 15.45.07.png" alt=""><figcaption><p>LittleSis data for a randomly selected individual</p></figcaption></figure>
+
+Here's an example of an organisation's page:
+
+<figure><img src=".gitbook/assets/Screenshot 2024-09-25 at 15.49.24.png" alt=""><figcaption><p>Info for one of the above person's organisations</p></figcaption></figure>
+
+LittleSis includes an '[Oligrapher mapping tool](https://littlesis.org/oligrapher)', which can be used to create graphical representations of power networks based on the data housed in LittleSis:
+
+<figure><img src=".gitbook/assets/Screenshot 2024-09-25 at 14.59.22.png" alt=""><figcaption><p>An example of an Oligrapher map</p></figcaption></figure>
+
+LittleSis data is searchable online, can be accessed through an [API](https://littlesis.org/api), and can be [downloaded](https://littlesis.org/database/bulk\_data) as JSON files.
 
 ## Cost
 
@@ -18,31 +36,31 @@ https://littlesis.org/
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+You have to sign up to use LittleSis.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+It's not clear what criteria are used to determine whether data should be included in LittleSis or not. Database is focussed on the United States.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+\-
 
 ## Guide
 
-\[\[Link to a guide on this tool]]
+LittleSis: [Map the Power Toolkit](https://littlesis.org/toolkit)
+
+Public Accountancy Initiative: [How to Use the LittleSis.org database](https://www.youtube.com/watch?v=lFio2jpgn88)
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+The Public Accountability Initiative (PAI)
 
 ## Advertising Trackers
 
@@ -50,8 +68,7 @@ https://littlesis.org/
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer    |
+| ------------------ |
+| Katherine de Tolly |
+|                    |
