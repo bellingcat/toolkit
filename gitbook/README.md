@@ -16,13 +16,15 @@ description: A toolkit for open source researchers
 
 This is your place to discover tools! Our toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more. Most of the tools that we include can be used for free.
 
-Bellingcat’s Online Investigation Toolkit has a long tradition but our newest version is special: It is offered in collaboration with the Bellingcat volunteer community. Click on "Details" on the right hand side of each entry (if available) to receive an in-depth description of the tool.&#x20;
+On the left hand side, you can see all available categories (for instance, Maps & Satellites or Geolocation). Click on these category names to enter the tool lists.
+
+If you click on "Details" on the right hand side of each entry in the tool list (if available) you will receive an in-depth description of the tool.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-08 at 23.49.48.png" alt="" width="563"><figcaption></figcaption></figure>
 
 You can also download the tool lists for each category [in csv format](https://github.com/bellingcat/toolkit/releases/tag/csv).&#x20;
 
-This toolkit is still a work-in-progress and the number of available tool descriptions will grow over time.
+This toolkit is still a work-in-progress and the number of available tool descriptions will grow over time. You can read more about the toolkit [here](https://www.bellingcat.com/resources/2024/09/24/bellingcat-online-investigations-toolkit/).
 
 
 
@@ -30,7 +32,11 @@ This toolkit is still a work-in-progress and the number of available tool descri
 
 <summary>Our Toolkit Maintainers and Guardians</summary>
 
-Our toolkit is a community-driven project. Bellingcat volunteers, staff and the wider open source researcher community contribute to writing and updating toolkit descriptions. If they choose to be publicly mentioned, you can find their names on individual tool pages under "page maintainer".
+Bellingcat’s Online Investigation Toolkit has a long tradition but our newest version is special: It is offered in collaboration with the Bellingcat volunteer community.
+
+Bellingcat volunteers, staff and the wider open source researcher community contribute to writing and updating toolkit descriptions. Bellingcat staff checks each toolkit entry before it goes online.
+
+If our Toolkit Maintainers choose to be publicly mentioned, you can find their names on individual tool pages under "page maintainer".
 
 Our Toolkit Guardians have a special role: They help us further develop this toolkit to make sure it meets the needs of open source researchers.
 
