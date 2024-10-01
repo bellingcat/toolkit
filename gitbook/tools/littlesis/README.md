@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-LittleSis is a wiki database that houses information from a range of online sources on powerful individuals and organisations in the public and private sectors in the Unites States. It seeks to show the relationships between those individuals and organisations, with the aim of helping users to track relationships (e.g. donations to politicians and political action committees (PACs), board memberships). This should help the user to follow the money and connect those that hold public and private sector power.
+LittleSis is a wiki database that houses information from a range of online sources on powerful individuals and organisations in the public and private sectors in the Unites States. It seeks to show the relationships between those individuals and organisations, with the aim of helping users to track relationships (e.g. donations to politicians and political action committees, also called PACs, and board memberships). This should help the user to follow the money and connect those that hold public and private sector power.
 
 It is maintained through automatic updates and manual edits. Links to data sources are provided.
 
@@ -60,7 +60,7 @@ Public Accountancy Initiative: [How to Use the LittleSis.org database](https://w
 
 ## Tool provider
 
-The Public Accountability Initiative (PAI)
+The Public Accountability Initiative (PAI), U.S.
 
 ## Advertising Trackers
 
