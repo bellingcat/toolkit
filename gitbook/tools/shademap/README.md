@@ -341,5 +341,5 @@ ShadeMap, US
 
 | Page maintainer |
 | --------------- |
-| Sophie Tedling  |
+| Sophie Tedling: |
 |                 |
