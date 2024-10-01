@@ -17,7 +17,7 @@ Anyone wanting to operate a limited company in the UK has to register with them.
 For each company, Companies House publishes:
 
 * Basic company details (registration number, registered office address, incorporation date, company type, status and standard industrial categorisation ([SIC code](https://www.ons.gov.uk/methodology/classificationsandstandards/ukstandardindustrialclassificationofeconomicactivities))
-* Directors, company secretary and PSCs (persons with significant control)
+* Directors, company secretary and PSCs ([people with significant control](https://en.wikipedia.org/wiki/People\_with\_Significant\_Control))
 * Shareholding info
 * Annual financial statements.
 
@@ -55,7 +55,7 @@ Applications can be made to redact Companies House data. This is usually done fo
 
 ## Ethical Considerations
 
-This is public facing information. As company officers have the option to remove sensitive information about themselves, the ethical considerations are limited (see more: [Removing your home address from the Companies House register](https://www.gov.uk/guidance/removing-your-home-address-from-the-companies-house-register)).
+This is public facing information. As company officers have the option to remove sensitive information about themselves, the ethical considerations are limited (see more here: [Removing your home address from the Companies House register](https://www.gov.uk/guidance/removing-your-home-address-from-the-companies-house-register)).
 
 ## Guide
 
