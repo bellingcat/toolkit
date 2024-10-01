@@ -49,7 +49,7 @@ No registration is required and the site is free.
 
 A lot of data is stored as scanned PDFs so you can't copy text from them (e.g. annual returns).
 
-Companies House states that they don't check the accuracy of information that companies submit; they just check that submissions are complete. (See this under the 'Company information supplied by Companies House' header on [this page](https://www.gov.uk/guidance/search-the-companies-house-register).)
+Companies House states that they don't check the accuracy of information that companies submit; they just check that submissions are complete. (See this in the section "Company Information supplied by Companies House" on [this page](https://www.gov.uk/guidance/search-the-companies-house-register).)
 
 Applications can be made to redact Companies House data. This is usually done for privacy reasons, and effects residential addresses and person of significant control information (See more: [How to Protect Your Personal Information on the Companies House Register](https://help.uniwide.co.uk/how-to-protect-your-personal-information-on-the-companies-house-register/), Uniwide Formations)
 
