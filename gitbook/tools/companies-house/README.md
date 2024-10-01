@@ -23,9 +23,9 @@ For each company, Companies House publishes:
 
 The site has a simple search by company or person name. The advanced search allows you to filter (e.g. by status), and to download a CSV of search results (which will include only the first 5,000 results).
 
-You can also search for UK companies on [OpenCorporates](https://bellingcat.gitbook.io/toolkit/more/all-tools/opencorporates) and [North Data](https://bellingcat.gitbook.io/toolkit/more/all-tools/north-data), but you are more likely to find up-to-date financial statements on Companies House. North Data may have other useful information (e.g. a graphic timeline of the company history and a network diagram of people and related companies)
+You can also search for UK companies on [OpenCorporates](https://bellingcat.gitbook.io/toolkit/more/all-tools/opencorporates) and [North Data](https://bellingcat.gitbook.io/toolkit/more/all-tools/north-data), but you are more likely to find up-to-date financial statements on Companies House. North Data may have other useful information (e.g. a graphic timeline of the company history and a network diagram of people and related companies).
 
-The Register of Overseas Entities is also published on Companies House. It's the register of overseas entities that own land or property in the UK, which are required to declare their beneficial owners and/or managing officers. To search for them use the [advanced search](https://find-and-update.company-information.service.gov.uk/advanced-search) function and change the company type filter to ‘overseas entity’. If you then select search, you'll see the first 10,000 records on the register. Use other filters (e.g. the incorporation date filter, or part of the company name) to narrow down your search results.
+The [Register of Overseas Entities](https://www.gov.uk/government/collections/register-of-overseas-entities) is also published on Companies House. It's the register of overseas entities that own land or property in the UK, which are required to declare their beneficial owners and/or managing officers. To search for them use the [advanced search](https://find-and-update.company-information.service.gov.uk/advanced-search) function and change the company type filter to ‘overseas entity’. If you then select search, you'll see the first 10,000 records on the register. Use other filters (e.g. the incorporation date filter, or part of the company name) to narrow down your search results.
 
 You can [download](https://download.companieshouse.gov.uk/en\_output.html) all the basic company data of live companies on the register.  This would be useful for things like compiling statistics on the number of company formations in a particular year, or a geographical analysis of all registered addresses.
 
@@ -36,8 +36,6 @@ Note that companies in overseas territories (e.g. Gibraltar) don't need to regis
 * [x] Free
 * [ ] Partially Free
 * [ ] Paid
-
-
 
 ## Level of difficulty
 
