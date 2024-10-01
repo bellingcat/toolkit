@@ -10,13 +10,13 @@ description: Search companies and individuals in the United Kingdom.
 
 ## Description
 
-Use Companies House to get information on a  company operating in the UK - it's the official register of companies (so a government agency collates the data). This makes it a very credible source.
+Use Companies House to get information on a company registered in the UK - it's the official register of companies (so a government agency collates the data).&#x20;
 
 Anyone wanting to operate a limited company in the UK has to register with them. This includes a limited company (Ltd), public limited company (PLC), or limited liability partnership (LLP). The size of the company does not determine the requirement to register. Sole traders don't have to register; nor do partnerships (without limited liability) - those are companies that involve two or more people that share ownership. Companies House is also responsible for dissolving companies.
 
 For each company, Companies House publishes:
 
-* Basic company details (registration number, registered office address, incorporation date, company type, status and standard industrial categorisation (SIC) code)
+* Basic company details (registration number, registered office address, incorporation date, company type, status and standard industrial categorisation ([SIC code](https://www.ons.gov.uk/methodology/classificationsandstandards/ukstandardindustrialclassificationofeconomicactivities))
 * Directors, company secretary and PSCs (persons with significant control)
 * Shareholding info
 * Annual financial statements.
