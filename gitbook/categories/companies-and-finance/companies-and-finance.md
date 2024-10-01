@@ -4,7 +4,7 @@
 | --- | --- | --- | --- |
 | [**BlockExplorer**](https://blockexplorer.com/) | Following a bitcoin trail or following a bitcoin account? | <mark style="background-color:green;">Free</mark> | Crypto, Global |
 | [**China-related resources**](https://bellingcat.gitbook.io/toolkit/more/all-tools/china-related-resources) | Resources for research on companies in China. |  | [Details](../../tools/china-related-resources/README.md) |
-| [**Companies House**](http://beta.companieshouse.gov.uk/) | Search companies and individuals in the United Kingdom and Gibraltar. | <mark style="background-color:green;">Free</mark> | Registry, United Kingdom |
+| [**Companies House**](http://beta.companieshouse.gov.uk/) | Search companies and individuals in the United Kingdom and Gibraltar. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/companies-house/README.md) |
 | [**EDGAR**](https://www.sec.gov/edgar/search/) | Database of corporate filings for the US | <mark style="background-color:green;">Free</mark> | [Details](../../tools/edgar/README.md) |
 | [**Edgar Suite**](https://github.com/bellingcat/EDGAR) | Tool for the retrieval of corporate and financial data from the SEC | <mark style="background-color:green;">Free</mark> | [Details](../../tools/edgar-suite/README.md) |
 | [**Etherscan**](https://etherscan.io/) | An explorer that allows researchers to track wallets, transactions and more on the Ethereum blockchain. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/etherscan/README.md) |
