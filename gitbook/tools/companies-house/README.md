@@ -51,11 +51,11 @@ A lot of data is stored as scanned PDFs so you can't copy text from them (e.g. a
 
 Companies House states that they don't check the accuracy of information that companies submit; they just check that submissions are complete.
 
-Applications can be made to redact Companies House data. This is usually done for privacy reasons. It remains, however, a very good reference point.
+Applications can be made to redact Companies House data. This is usually done for privacy reasons.
 
 ## Ethical Considerations
 
-This is public facing information. As company officers have the option to remove sensitive information about themselves, there are no ethical considerations here.&#x20;
+This is public facing information. As company officers have the option to remove sensitive information about themselves, the ethical considerations are limited.
 
 ## Guide
 
