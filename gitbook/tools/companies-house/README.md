@@ -21,7 +21,7 @@ For each company, Companies House publishes:
 * Shareholding info
 * Annual financial statements.
 
-The site has a simple search by company or person name. The advanced search allows you to filter (e.g. by status), and to download a CSV of search results (which will include only the first 5,000 results).
+The site has a [simple search](https://find-and-update.company-information.service.gov.uk/) by company or person name. The [advanced search](https://find-and-update.company-information.service.gov.uk/advanced-search) allows you to filter (e.g. by status), and to download a CSV of search results (which will include only the first 5,000 results).
 
 You can also search for UK companies on [OpenCorporates](https://bellingcat.gitbook.io/toolkit/more/all-tools/opencorporates) and [North Data](https://bellingcat.gitbook.io/toolkit/more/all-tools/north-data), but you are more likely to find up-to-date financial statements on Companies House. North Data may have other useful information (e.g. a graphic timeline of the company history and a network diagram of people and related companies).
 
@@ -49,19 +49,21 @@ No registration is required and the site is free.
 
 A lot of data is stored as scanned PDFs so you can't copy text from them (e.g. annual returns).
 
-Companies House states that they don't check the accuracy of information that companies submit; they just check that submissions are complete.
+Companies House states that they don't check the accuracy of information that companies submit; they just check that submissions are complete. (See this under the 'Company information supplied by Companies House' header on [this page](https://www.gov.uk/guidance/search-the-companies-house-register).)
 
-Applications can be made to redact Companies House data. This is usually done for privacy reasons.
+Applications can be made to redact Companies House data. This is usually done for privacy reasons, and effects residential addresses and person of significant control information (See more: [How to Protect Your Personal Information on the Companies House Register](https://help.uniwide.co.uk/how-to-protect-your-personal-information-on-the-companies-house-register/), Uniwide Formations)
 
 ## Ethical Considerations
 
-This is public facing information. As company officers have the option to remove sensitive information about themselves, the ethical considerations are limited.
+This is public facing information. As company officers have the option to remove sensitive information about themselves, the ethical considerations are limited (See more: [Removing your home address from the Companies House register](https://www.gov.uk/guidance/removing-your-home-address-from-the-companies-house-register), Companies House).
 
 ## Guide
 
 Creating with Data: [Exploring data from Companies House](https://www.youtube.com/watch?v=OOvx7TaJNVw) (Video guide to simple and advanced search and the API)
 
-Companies House: [YouTube channel](https://www.youtube.com/@TheCompaniesHouse)&#x20;
+Companies House: [Searching the Companies House register](https://www.gov.uk/guidance/search-the-companies-house-register)
+
+Companies House: [YouTube channel](https://www.youtube.com/@TheCompaniesHouse)
 
 Beauhurst Limited: [How To Get The Most Out of Companies House Data](https://www.beauhurst.com/blog/companies-house-data/) (scroll down to 'The Basics of Companies House')
 
