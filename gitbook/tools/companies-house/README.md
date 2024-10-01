@@ -6,7 +6,7 @@ description: Search companies and individuals in the United Kingdom.
 
 ## URL
 
-https://find-and-update.company-information.service.gov.uk/
+[https://find-and-update.company-information.service.gov.uk/](https://find-and-update.company-information.service.gov.uk/)
 
 ## Description
 
