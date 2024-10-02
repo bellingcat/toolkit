@@ -46,19 +46,19 @@ Omnivore is available on the following platforms:
 
 * [iOS](https://omnivore.app/install/ios)
 * [macOS](https://omnivore.app/install/macos)
+* [Safari Extension](https://omnivore.app/install/safari)
 * [Android (preview release)](https://omnivore.app/install/android)
 * [Chrome Extension](https://omnivore.app/install/chrome)
 * [Firefox Extension](https://omnivore.app/install/firefox)
-* [Safari Extension](https://omnivore.app/install/safari)
 * [Edge Extension](https://omnivore.app/install/edge)
 
 ## Limitations
 
 The Omnivore read-it-later app has several limitations that users should be aware of before deciding to incorporate it into their workflow:
 
-* **Offline Access and Self Hosting:** Unlike some of its competitors, Omnivore offers limited offline access to saved text content but not images as this [Discord post](https://discord.com/channels/844965259462311966/1203082281506574426/1264231179809460265) makes clear. It is also possible to self-host the application, see:[Deploying a minimal self-hosted Omnivore using fly.io and bonsai.io](https://blog.omnivore.app/p/deploying-a-minimal-self-hosted-omnivore).
+* **Offline Access and Self Hosting:** Unlike some of its competitors, Omnivore offers limited offline access to saved text content but not images as this [Discord post](https://discord.com/channels/844965259462311966/1203082281506574426/1264231179809460265) makes clear. It is also possible to self-host the application, see: [Deploying a minimal self-hosted Omnivore using fly.io and bonsai.io](https://blog.omnivore.app/p/deploying-a-minimal-self-hosted-omnivore).
 * **File Types:** Omnivore primarily supports saving web pages and articles. It has limited support for other content types like PDFs or multimedia files, which can be a drawback for users looking to save a variety of content. There is an outstanding issue called [Support for local files and simple notes](https://github.com/omnivore-app/omnivore/issues/3919) which may implement more file types in the future.
-* **Integration with Other Apps:** There is limited integration with third-party apps and services. For example, users looking to export their saved items to note-taking apps or reference management tools might find this challenging. The [documentation](https://docs.omnivore.app/) provides information on supported integrations including [Logseq](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/zU4CxG7y0sk15r5fIDTo/), Obsidian, [Pocket](https://getpocket.com/home), [Readwise](https://readwise.io/) and [Notion](https://www.notion.so/).&#x20;
+* **Integration with Other Apps:** There is limited integration with third-party apps and services. For example, users looking to export their saved items to note-taking apps or reference management tools might find this challenging. The [documentation](https://docs.omnivore.app/) provides information on supported integrations including [Logseq](https://logseq.com/), [Obsidian](https://obsidian.md/), [Pocket](https://getpocket.com/home), [Readwise](https://readwise.io/) and [Notion](https://www.notion.so/).&#x20;
 * **Storage Limit:** While Omnivore offers a generous storage limit for saving articles and web pages, it imposes a cap on the number of items you can store, which might be a limitation for heavy users or researchers. According to the account page of the app library is initially limited to 50000 items. This is said to be a soft limit that support can raise. There is a 10mb limit on files according to [Omnivore's Discord](https://discord.com/channels/844965259462311966/943967463299764314/1118765195393769492).
 
 ## Ethical Considerations
@@ -106,8 +106,8 @@ Omnivore [https://omnivore.app/](https://omnivore.app/) - United States and Sing
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat Volunteer Team/Unassigned |
-|                                      |
+| Page maintainer                  |
+| -------------------------------- |
+| Paul - Bellingcat Volunteer Team |
+|                                  |
 
