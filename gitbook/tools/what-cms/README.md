@@ -6,19 +6,30 @@ description: A brief one line description of this tool
 
 ## URL
 
-https://example.com
+[https://whatcms.org/](https://whatcms.org/)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Whatcms is a tool that you can use to identify the technologies used to power a website. \
+A couple of examples of what the website is able to detect:\
+Content Management Systems (CMS)\
+Programming languages\
+Specific plugins
+
+The website will help you understand what CMS is being used and to identify the less visible components. This information can help to create a digital footprint of an individual or organization or track changes over time.&#x20;
+
+Paid subscriptions also allow Batch processing which will allows the user to upload lists of URL's to be analysed simultaneously. It also has Private Detections which gives you the option to detect other technologies such as databases.
+
+
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+The website has a free version with limited features which allows 500 detections and the API will allow you to request 1 URL every 10 seconds. \
+The paid subscriptions range from 15 to 600 euros per month, with options for Batch Processing and Private Detections.&#x20;
 
 ## Level of difficulty
 
@@ -26,19 +37,19 @@ https://example.com
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+You can use the basic features on the website for free, but registration is necessary if you want to use the API or other functions.&#x20;
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+According to their own website, there are some limitations. Websites that use custom CMS's or security measures to hide their technologies might not be detected accurately. The free version also has limited usage which could restrict further/broader research.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Like every tool, ensure that the use of the tool is within the law, the site's terms of services, and ethical OSINT guidelines.
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+[https://www.bellingcat.com/news/2022/05/24/fascist-fashion-how-mainstream-businesses-enable-the-sale-of-far-right-merchandise/](https://www.bellingcat.com/news/2022/05/24/fascist-fashion-how-mainstream-businesses-enable-the-sale-of-far-right-merchandise/)
 
 ## Tool provider
 
@@ -54,4 +65,3 @@ https://example.com
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
