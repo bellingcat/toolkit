@@ -24,7 +24,7 @@ To narrow down the search results, you can use the menu on the left to filter by
 
 <figure><img src=".gitbook/assets/Ale2.png" alt="" width="375"><figcaption><p>Example of all the available filters.</p></figcaption></figure>
 
-To view a particular entry, click on the hyperlink you are interesteed in. This opens a pop-up in the same window. From here you can review the document online or chose to download it.
+To view a particular entry, click on the hyperlink you are interested in. This opens a pop-up in the same window. From here you can review the document online or chose to download it.
 
 <figure><img src=".gitbook/assets/Ale3.png" alt="" width="563"><figcaption><p>View of a selected document from the results page </p></figcaption></figure>
 
