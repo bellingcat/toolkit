@@ -86,8 +86,8 @@ Unknown but the site has been registered via a Russian domain name service
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                           |
-| ----------------------------------------- |
-| Bellingcat Volunteer Community/Unassigned |
-|                                           |
+| Page maintainer                       |
+| ------------------------------------- |
+| Paul - Bellingcat Volunteer Community |
+|                                       |
 
