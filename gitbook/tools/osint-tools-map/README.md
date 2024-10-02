@@ -27,16 +27,11 @@ Unions of states
 \
 Although the offer varies per country, it still offers enough options for researchers who need to do research in countries where they are not familiar. Think of cadastral maps, business registry, yellow pages or court documents.
 
-\
-
-
 ## Cost
 
 * [x] Free
 * [ ] Partially Free
 * [ ] Paid
-
-\[\[Pricing or subscription information, if relevant.]]
 
 ## Level of difficulty
 
@@ -44,13 +39,11 @@ Although the offer varies per country, it still offers enough options for resear
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+\-
 
 ## Limitations
 
 The map is a directory and not a database. Some of the external databases may require a subscription or payment for full access. The page also doesn’t show a date when it was last updated, so some site might go offline or change their access policies.
-
-
 
 ## Ethical Considerations
 
@@ -58,13 +51,11 @@ It is always important to keep an eye on local privacy regulations and ethical s
 
 ## Guide
 
-\[\[Link to a guide on this tool]]
+\-
 
 ## Tool provider
 
 From the website: [https://cybdetective.com/](https://cybdetective.com/)
-
-
 
 ## Advertising Trackers
 
@@ -72,7 +63,7 @@ From the website: [https://cybdetective.com/](https://cybdetective.com/)
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer                      |
+| ------------------------------------ |
+| Bellingcat volunteer team/Unassigned |
+|                                      |
