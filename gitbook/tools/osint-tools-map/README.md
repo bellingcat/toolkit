@@ -25,7 +25,7 @@ Cities and towns
 Unions of states
 
 \
-Although the offer varies per country, it still offers enough options for researchers who need to do research in countries whith which they are not familiar. Think of cadastral maps, business registry, yellow pages or court documents.
+Although the offer varies per country, it still offers enough options for researchers who need to do research in countries with which they are not familiar. Think of cadastral maps, business registry, yellow pages or court documents.
 
 ## Cost
 
