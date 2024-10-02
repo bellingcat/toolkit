@@ -49,29 +49,18 @@ _**What problem does it solve?**_
 * [x] Partially Free
 * [ ] Paid
 
-Maltego for individuals has both free and paid editions.
+Maltego has both free and paid editions. They all include [Maltego Graph](https://www.maltego.com/graph/):
 
-_**Maltego CE**_ (Community Edition) – is a partially free version.
+_**Maltego CE**_ (Community Edition):
 
-·       This is partially free because some data sources are free, and some require subscriptions.
+* This is a partially free version meaning that some data sources come for free while others require access through external APIs which are paid. Find a list of available data sources for Maltego CE [here](https://www.maltego.com/transform-hub/?q=available-for-licenses-maltego-community). The free data sources have a limit of transform requests per month, and may require individual subscriptions to those data providers
+* &#x20;Maximum of 10,000 entities per graph.
+* &#x20;The maximum amount of results per single transform is 12.
+*   Provides shared graphs for collaborative work and graph export and import features
 
-·       This version is for those who want access to Maltego’s transform servers but not professionally.
 
-·       Maximum of 10,000 entities per graph
 
-·       Maximum amount of results per single transform is 12.
 
-·       No access to tech support, but have email support. &#x20;
-
-·       Have access to Standard Transforms, but not commercial ones. ([https://www.maltego.com/transform-hub/#transform-hub](https://www.maltego.com/transform-hub/#transform-hub))
-
-·       Have free access to certain data sources IF owner has an API key(s) for various data providers. &#x20;
-
-·       Has graph export and import features.
-
-·       Has shared graphs for collaborative work.
-
-·       Free data sources have a limit of transform requests per month, and may require individual subscriptions to those data providers
 
 &#x20;_**Maltego Pro**_ – EUR 1.099, 00 / year
 
