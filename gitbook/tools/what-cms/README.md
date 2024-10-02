@@ -41,10 +41,8 @@ According to their own website, there are some limitations. Websites that use cu
 
 Like every tool, ensure that the use of the tool is within the law, the site's terms of services, and ethical OSINT guidelines.
 
-## Guide
+## Guides and Articles
 
-{% embed url="https://www.bellingcat.com/news/2022/05/24/fascist-fashion-how-mainstream-businesses-enable-the-sale-of-far-right-merchandise/" %}
 
-Tool provider
 
-[https://whatcms.org/](https://whatcms.org/)
+{% embed url="https://whatcms.org/" %}
