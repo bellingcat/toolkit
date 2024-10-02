@@ -400,8 +400,6 @@ Chrome (Opera, Edge, and Firefox under development), Internet, and, for some fea
 
 ## Limitations
 
-## Ethical Considerations
-
 * **External Services**: Some tools within the plugin rely on external services that are not open-sourced, which may affect transparency and long-term accessibility.
 * **API Restrictions**: Certain features, such as Twitter analysis, have been deprecated due to changes in platform APIs.
 * **Locked Features**: Several advanced features are restricted to registered users, such as journalists and researchers, which may limit access for general users.
@@ -409,7 +407,14 @@ Chrome (Opera, Edge, and Firefox under development), Internet, and, for some fea
 * **Browser Compatibility**: The plugin is primarily designed for Chrome and Opera browsers, with limited support for other browsers like Firefox.
 * **Geolocation Accuracy**: The Geolocalizer's accuracy depends on the availability and quality of metadata, which may not always be reliable.
 * **AI Detection Limitations**: The accuracy of synthetic image and deepfake detection tools can vary, and false positives or negatives may occur.
-* **Data Privacy**: While the plugin respects user privacy, the reliance on third-party services may involve data sharing and privacy considerations.
+
+## Ethical Considerations
+
+The InVID Verification Plugin helps researchers and journalists verify online media, but there are ethical implications when using it. First, the plugin relies on metadata extraction and reverse searches, which may access personal or private data embedded in media. This raises concerns around privacy, especially if personal information is unintentionally exposed or used without consent.
+
+Tools like deepfake and AI-generated image detectors may produce false positives or negatives, potentially leading to incorrect conclusions or accusations. It is essential to verify results through multiple sources before making claims. Users should also be mindful of the ethical responsibility of using the tool only for legitimate verification purposes, not for harmful surveillance or invasive investigations.
+
+Finally, users must consider the possibility of unintentionally spreading misinformation if the tool's findings are misinterpreted or taken out of context. Transparency about the limitations and accuracy of the plugin’s results is crucial in ensuring ethical use.
 
 ## Guide
 
