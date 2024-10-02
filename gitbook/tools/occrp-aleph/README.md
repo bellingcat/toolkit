@@ -80,7 +80,7 @@ You can use the Source Documents menu to review each uploaded file in this datas
 
 If you have created an account for Aleph, you can also make use of their Investigation workspaces. Here is a [detailed guide](https://docs.aleph.occrp.org/users/investigations/overview/) on how to create and handle a workspace.&#x20;
 
-You can find the[ languages supported on Aleph here](https://docs.aleph.occrp.org/developers/reference/languages/) and which ones are OCR.&#x20;
+You can find the[ languages supported on Aleph here](https://docs.aleph.occrp.org/developers/reference/languages/) and which ones have an [OCR](https://en.wikipedia.org/wiki/Optical\_character\_recognition) feature.&#x20;
 
 ## Cost
 
