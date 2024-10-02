@@ -54,57 +54,22 @@ Maltego has both free and paid editions. They all include [Maltego Graph](https:
 _**Maltego CE**_ (Community Edition):
 
 * This is a partially free version meaning that some data sources come for free while others require access through external APIs which are paid. Find a list of available data sources for Maltego CE [here](https://www.maltego.com/transform-hub/?q=available-for-licenses-maltego-community). The free data sources have a limit of transform requests per month, and may require individual subscriptions to those data providers
-* &#x20;Maximum of 10,000 entities per graph.
-* &#x20;The maximum amount of results per single transform is 12.
+* &#x20;Maximum of 10,000 entities per graph and maximum amount of results per single transform is 12.
 * Provides shared graphs for collaborative work and graph export and import features.
+* Learn more about this plan [here.](https://www.maltego.com/maltego-community/#maltegoEssentials)
 
 &#x20;_**Maltego Professional**_
 
 * EUR 5,000 or USD 5,500 per year
 * See the available data sources for this plan [here](https://www.maltego.com/transform-hub/?q=available-for-licenses-maltego-pro).
-* Maximum of 1,000,000 entities per graph
-* Maximum amount of results per single Transform is 64,000
+* Maximum of 1,000,000 entities per graph and maximum amount of results per single Transform is 64,000.
 * Provides shared graphs for collaborative work and graph export and import features.
+* Learn more about this plan [here](https://get.maltego.com/maltego-professional).
 
+_**Maltego Organization**_
 
-
-·  &#x20;
-
-
-
-&#x20;_**Maltego Enterprise CTI** –_ (Must contact Maltego for price quote)
-
-&#x20;·      Intended for organizations working on Cyber Threat Intelligence
-
-·       Data sources integrated in this edition are tailored specifically for cyber threat investigations
-
-·       Maximum of 1,000,000 entities per graph
-
-·       Maximum amount of results per single Transform is 64,000
-
-·       Has Access to Commercial Data
-
-·       Includes live and online training
-
-·       Can be used on multiple devices
-
-&#x20;_**Maltego Enterprise OSINT** –_ (Must contact Maltego for price quote)
-
-&#x20;·      This edition is intended for governments or organizations doing trust and safety investigations
-
-·       Includes access to “OSINT Profiler” – a web-based tool that non-technical users can use to search different personal data
-
-·       Includes data tailored for researching persons of interest: data on identities, social media networks, company records, and breached data
-
-·       Maximum of 1,000,000 entities per graph
-
-·       Maximum amount of results per single Transform is 64,000
-
-·       Has Access to Commercial Data
-
-·       Includes live and online training
-
-·       Can be used on multiple devices
+* Cost: Requirement to contact Maltego to learn more
+* Learn more about this plan [here](https://get.maltego.com/maltego-organization).
 
 _**Data Pass Subscriptions**_ (Must contact Maltego to get a price quote)
 
