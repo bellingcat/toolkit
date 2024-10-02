@@ -137,26 +137,7 @@ _**Data Pass Subscriptions**_ (Must contact Maltego to get a price quote)
 
 ## Requirements
 
-Maltego CE requirements:
-
-1. Register with a user name and password at Maltego.com&#x20;
-2. Download the software from the website
-3. Two-Factor Authentication&#x20;
-4. Data provider subscription (if needed) &#x20;
-5. API Keys
-
-Maltego Pro requirements:
-
-1. Purchase of commercial license
-2. Download the software from website
-3. Data provider subscription (if needed )
-4. API Keys
-
-Maltego Enterprise requirements:
-
-1. Must work for an business/organization/government&#x20;
-2. Purchase of commercial license
-3. Advanced technical background
+Depending on the product, users can either sign up on the Maltego website (for Maltego CE) or they need to purchase a license via their web shop (Maltego Professional) or by contacting Maltego directly (Maltego Organization).&#x20;
 
 ## &#x20;Limitations
 
