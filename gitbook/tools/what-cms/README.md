@@ -1,5 +1,5 @@
 ---
-description: A brief one line description of this tool
+description: A tool that you can use to identify the technologies used to power a website.
 ---
 
 # What CMS
@@ -18,9 +18,9 @@ Specific plugins
 
 The website will help you understand what CMS is being used and to identify the less visible components. This information can help to create a digital footprint of an individual or organization or track changes over time.&#x20;
 
-## Cost
+Paid subscriptions also allow batch processing which allows the user to upload lists of URL's to be analysed simultaneously. It also has Private Detections which gives you the option to detect other technologies such as databases.
 
-Paid subscriptions also allow batch processing which will allows the user to upload lists of URL's to be analysed simultaneously. It also has Private Detections which gives you the option to detect other technologies such as databases.
+## Cost
 
 * [ ] Free
 * [x] Partially Free
@@ -35,7 +35,7 @@ You can use the basic features on the website for free, but registration is nece
 
 ## Limitations
 
-According to their own website, there are some limitations. Websites that use custom CMS's or security measures to hide their technologies might not be detected accurately. The free version also has limited usage which could restrict further/broader research.
+According to their own[ website](https://whatcms.org/), there are some limitations. Websites that use custom CMSs or security measures to hide their technologies might not be detected accurately. The free version also has limited usage which could restrict further/broader research.
 
 ## Ethical Considerations
 
@@ -45,6 +45,6 @@ Like every tool, ensure that the use of the tool is within the law, the site's t
 
 {% embed url="https://www.bellingcat.com/news/2022/05/24/fascist-fashion-how-mainstream-businesses-enable-the-sale-of-far-right-merchandise/" %}
 
-## Guides and Articles
+## Tool Provider
 
 {% embed url="https://whatcms.org/" %}
