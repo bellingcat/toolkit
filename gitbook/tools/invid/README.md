@@ -253,11 +253,11 @@ This plugin will not be able to solve the question of the correct pronunciation 
 **Deepfake (Locked Feature)** - Detects if an image has been manipulated through face swapping, providing insights into possible deepfake content. Access is restricted to registered users.
 
 {% tabs %}
-{% tab title="First Tab" %}
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+{% tab title="Deepfake Tab" %}
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Results" %}
 
 {% endtab %}
 {% endtabs %}
@@ -266,7 +266,7 @@ This plugin will not be able to solve the question of the correct pronunciation 
 
 {% tabs %}
 {% tab title="Geolocalizer Tab" %}
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>I'm using an example from Logan William's excellent article on the OSM Search tool.<br>Williams, L. (2023, May 8). <em>Finding Geolocation Leads with Bellingcat’s OpenStreetMap Search Tool</em>. Bellingcat. <a href="https://www.bellingcat.com/resources/how-tos/2023/05/08/finding-geolocation-leads-with-bellingcats-openstreetmap-search-tool/">https://www.bellingcat.com/resources/how-tos/2023/05/08/finding-geolocation-leads-with-bellingcats-openstreetmap-search-tool/</a> <br></p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>I'm using an example from Logan William's excellent article on the OSM Search tool.<br>Williams, L. (2023, May 8). <em>Finding Geolocation Leads with Bellingcat’s OpenStreetMap Search Tool</em>. Bellingcat. <a href="https://www.bellingcat.com/resources/how-tos/2023/05/08/finding-geolocation-leads-with-bellingcats-openstreetmap-search-tool/">https://www.bellingcat.com/resources/how-tos/2023/05/08/finding-geolocation-leads-with-bellingcats-openstreetmap-search-tool/</a> <br></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="First attempt" %}
@@ -330,11 +330,15 @@ Uses semantic search algorithms to find fact-checked information across various 
 
 **XNetwork**&#x20;
 
-Provides a customized search engine for cross-network queries, simultaneously allowing searches across multiple social media platforms.
+Provides a customized search engine (CSE) for cross-network queries, simultaneously allowing searches across multiple social media platforms (Twitter, Reddit, 4chan, YouTube, Facebook, 8kun, LinkedIn, VK, Instagram, and TikTok).
 
 {% tabs %}
-{% tab title="First Tab" %}
+{% tab title="XNetwork" %}
 <figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Results" %}
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -346,6 +350,10 @@ Facilitates the discovery of fact-checked articles and reports from trusted fact
 {% tab title="Factchecks" %}
 <figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption><p>Similar to the semanitc search above, providing similar results and give an additional means of arriving at fact-checked articles.</p></figcaption></figure>
 {% endtab %}
+
+{% tab title="Results" %}
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
 {% endtabs %}
 
 ### **Data Analysis**
@@ -355,7 +363,7 @@ Facilitates the discovery of fact-checked articles and reports from trusted fact
 Performs social network analysis on Twitter, analyzing interactions, trends, and relationships to understand information spread and impact. Deprecated since July 1st, 2023, due to X/Twitter code changes. Is on registration, so might work again at some point and this article will reflect that. Access is restricted to registered users.
 
 {% tabs %}
-{% tab title="First Tab" %}
+{% tab title="Twitter SNA" %}
 <figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
