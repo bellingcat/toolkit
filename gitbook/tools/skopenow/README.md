@@ -10,7 +10,7 @@ description: Social Media Investigations - name, phone, email, username searches
 
 ## Description
 
-Skopenow is a powerful tool for consolidating information related to social media usernames, previous addresses, corporation information, darkweb leaks, and vehicle information related to targets being investigated. Skopenow also has a subscription option for their Grid product, which provides users with location based alerts for news, emergency services, traffic cams, and scheduled events.
+Skopenow is a tool for consolidating information related to social media usernames, previous addresses, corporation information, darkweb leaks, and vehicle information related to targets being investigated. Skopenow also has a subscription option for their [Grid product](https://www.skopenow.com/grid), which provides users with location based alerts for news, emergency services, traffic cams, and scheduled events.
 
 Reports generated from the system forensically capture screen captures, metadata, and hash data from the original sources without users having to log in to any social media accounts.
 
@@ -22,17 +22,15 @@ Reports generated from the system forensically capture screen captures, metadata
 
 There is a free trial available, followed by multiple subscription tiers. Users must be vetted by Skopenow. Subscription packages range from $1200-$20,000 per year, depending on packages included in the subscription.
 
-Products available to license include
+Products available to license include:
 
-* [Workbench](https://www.skopenow.com/workbench) (individual and corporate investigation\_
+* [Workbench](https://www.skopenow.com/workbench) (individual and corporate investigation)
 * [Link Analysis](https://www.skopenow.com/link-analysis) (network & link visualizations)
 * [Grid](https://www.skopenow.com/grid) (situational awareness)
 * [Analyst Help](https://www.skopenow.com/analyst-help) (hourly analyst assistance)
 * [Pre-Check](https://www.skopenow.com/pre-check) (automated fraud risk)
 
-
-
-<figure><img src=".gitbook/assets/Screenshot 2024-09-25 122816.png" alt=""><figcaption><p>Workbench Search</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-09-25 122816.png" alt=""><figcaption><p>List of search options that can be used as part of Skopenow's Workbench product.</p></figcaption></figure>
 
 ## Level of difficulty
 
@@ -40,7 +38,7 @@ Products available to license include
 
 ## Requirements
 
-For individual and corporation searches, the tool requires a name and at least one other piece of identifiable information (ie, social media username, phone number, email, address, city, etc)
+For individual and corporation searches, the tool requires a name and at least one other piece of identifiable information (ie, social media username, phone number, email, address, city, etc.).
 
 ## Limitations
 
@@ -48,7 +46,7 @@ Data returned is limited to publicly available information, and requires a fair 
 
 ## Ethical Considerations
 
-The ethical considerations of each tool should be described.
+
 
 ## Guide
 
