@@ -4,7 +4,7 @@ description: A toolkit that supports the verification of videos and images.
 
 # InVID Verification Plugin
 
-## URL
+## to provideURL
 
 [https://www.invid-project.eu/tools-and-services/invid-verification-plugin/](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)
 
@@ -254,7 +254,7 @@ This plugin will not be able to solve the question of the correct pronunciation 
 
 {% tabs %}
 {% tab title="Deepfake Tab" %}
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results" %}
@@ -270,7 +270,7 @@ This plugin will not be able to solve the question of the correct pronunciation 
 {% endtab %}
 
 {% tab title="First attempt" %}
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>unfortunately I get an error for what should have been a street in Brussels. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption><p>unfortunately I get an error for what should have been a street in Brussels. </p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Second attempt" %}
@@ -306,7 +306,7 @@ Performs advanced search queries on X (formerly Twitter), including precise time
 {% endtab %}
 
 {% tab title="Results" %}
-Since the author won't touch X with a 10ft pole, you'll have to find out yourself. Please tell me, and I will incorporate your results.&#x20;
+![](.gitbook/assets/image.png)
 {% endtab %}
 {% endtabs %}
 
@@ -338,7 +338,7 @@ Provides a customized search engine (CSE) for cross-network queries, simultaneou
 {% endtab %}
 
 {% tab title="Results" %}
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -352,7 +352,7 @@ Facilitates the discovery of fact-checked articles and reports from trusted fact
 {% endtab %}
 
 {% tab title="Results" %}
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -366,11 +366,15 @@ Performs social network analysis on Twitter, analyzing interactions, trends, and
 {% tab title="Twitter SNA" %}
 <figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
+
+{% tab title="Results" %}
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Unfortunately, this feature doesn't work at the moment due to Twitter's policy changes.</p></figcaption></figure>
+{% endtab %}
 {% endtabs %}
 
 **CSV Analysis**&#x20;
 
-Allows the import and analysis of social network data from CrowdTangle exports, using Social Network Analysis (SNA) for providing in-depth insights into social media activity and trends.
+Allows the import and analysis of social network data from CrowdTangle exports, using Social Network Analysis (SNA) to provide in-depth insights into social media activity and trends.
 
 {% hint style="info" %}
 CrowdTangle is permanently gone. We hope that this feature will not disappear but be adapted to perform other ways of SNA instead.
