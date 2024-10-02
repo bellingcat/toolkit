@@ -4,7 +4,11 @@ description: A brief one line description of this tool
 
 # What CMS
 
+## URL
+
 [https://whatcms.org/](https://whatcms.org/)
+
+{% embed url="https://whatcms.org/" %}
 
 Whatcms is a tool that you can use to identify the technologies used to power a website. \
 A couple of examples of what the website is able to detect:\
