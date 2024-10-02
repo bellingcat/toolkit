@@ -25,7 +25,7 @@ Cities and towns
 Unions of states
 
 \
-Although the offer varies per country, it still offers enough options for researchers who need to do research in countries where they are not familiar. Think of cadastral maps, business registry, yellow pages or court documents.
+Although the offer varies per country, it still offers enough options for researchers who need to do research in countries whith which they are not familiar. Think of cadastral maps, business registry, yellow pages or court documents.
 
 ## Cost
 
@@ -63,7 +63,7 @@ From the website: [https://cybdetective.com/](https://cybdetective.com/)
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat volunteer team/Unassigned |
-|                                      |
+| Page maintainer |
+| --------------- |
+| Unassigned      |
+|                 |
