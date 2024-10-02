@@ -37,7 +37,7 @@ On the left, the sections of information on this page are listed. On the right a
 
 ![](<.gitbook/assets/Screenshot 2024-10-02 at 09.09.40.png>)&#x20;
 
-Lower on the  page, each PEP has a [network visualisation](https://linkurious.com/network-visualization/):
+Lower on the  page, each PEP has a [network visualisation](#user-content-fn-1)[^1]:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-02 at 09.15.41.png" alt=""><figcaption><p>PEP network visualisation</p></figcaption></figure>
 
@@ -63,7 +63,7 @@ The legal entity page contains links to page sections on the left, and some basi
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-02 at 09.27.43.png" alt=""><figcaption><p>Legal entity's page</p></figcaption></figure>
 
-The legal entity [network visualisation](#user-content-fn-1)[^1], like the one for PEPs, allows you to: Zoom in more more detail, click on the icons to see the details of the people or entities with which the legal entity has relationships, and view the nature of the relationship by hovering over the line:
+The legal entity network visualisation, like the one for PEPs, allows you to: Zoom in more more detail, click on the icons to see the details of the people or entities with which the legal entity has relationships, and view the nature of the relationship by hovering over the line:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-02 at 09.43.15.png" alt=""><figcaption><p>Legal entity network visualisation</p></figcaption></figure>
 
