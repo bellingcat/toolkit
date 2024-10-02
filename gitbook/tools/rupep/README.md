@@ -89,7 +89,7 @@ They do not permit use of their data for commercial purposes - see the [terms an
 
 ## Ethical Considerations
 
-\-
+As mentioned above, a PEP is someone in a prominent public position, which makes them a higher risk for bribery and corruption which however does not mean that they are actually involved in bribery or corruption. It is important for researchers to understand this important point to prevent any form of misinterpretation of the data provided by the database.
 
 ## Guides and articles
 
