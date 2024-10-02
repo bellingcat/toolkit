@@ -181,9 +181,7 @@ Maltego Essentials (offered by Maltego): [https://www.youtube.com/watch?v=ceQhIB
 
 ## Tool provider
 
-[Paterva](./#url)
-
-Pretoria, South Africa&#x20;
+Maltego Technologies, Germany
 
 ## Advertising Trackers
 
