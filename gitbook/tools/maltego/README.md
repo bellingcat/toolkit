@@ -160,6 +160,8 @@ Maltego's limitation for open source researchers, regardless of which editions, 
 
 Maltego Essentials (offered by Maltego): [https://www.youtube.com/watch?v=ceQhIBKFp2A\&list=PLfRX-xJAc2yz6CjQVQuogJeCBoy8HbCOR](https://www.youtube.com/watch?v=ceQhIBKFp2A\&list=PLfRX-xJAc2yz6CjQVQuogJeCBoy8HbCOR)
 
+Maltego an online learning platform called [Maltego Academy ](https://academy.maltego.com/home)(only accessible with a Maltego ID).
+
 ## Tool provider
 
 Maltego Technologies, Germany
