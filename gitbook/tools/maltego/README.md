@@ -137,7 +137,7 @@ _**Data Pass Subscriptions**_ (Must contact Maltego to get a price quote)
 
 ## Requirements
 
-Depending on the product, users can either sign up on the Maltego website (for Maltego CE) or they need to purchase a license via their web shop (Maltego Professional) or by contacting Maltego directly (Maltego Organization).&#x20;
+Depending on the product, users can either sign up on the Maltego website (for Maltego CE) or they need to purchase a license via their web shop (Maltego Professional) or by contacting Maltego directly (Maltego Organization), see [here](https://www.maltego.com/pricing-plans/).
 
 ## &#x20;Limitations
 
