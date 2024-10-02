@@ -54,28 +54,19 @@ Maltego has both free and paid editions. They all include [Maltego Graph](https:
 _**Maltego CE**_ (Community Edition):
 
 * This is a partially free version meaning that some data sources come for free while others require access through external APIs which are paid. Find a list of available data sources for Maltego CE [here](https://www.maltego.com/transform-hub/?q=available-for-licenses-maltego-community). The free data sources have a limit of transform requests per month, and may require individual subscriptions to those data providers
-* &#x20;Maximum of 10,000 entities per graph and maximum amount of results per single transform is 12.
-* Provides shared graphs for collaborative work and graph export and import features.
+* &#x20;Limitation: Maximum of 10,000 entities per graph and maximum amount of results per single transform is 12.
 * Learn more about this plan [here.](https://www.maltego.com/maltego-community/#maltegoEssentials)
 
 &#x20;_**Maltego Professional**_
 
 * EUR 5,000 or USD 5,500 per year
 * See the available data sources for this plan [here](https://www.maltego.com/transform-hub/?q=available-for-licenses-maltego-pro).
-* Maximum of 1,000,000 entities per graph and maximum amount of results per single Transform is 64,000.
-* Provides shared graphs for collaborative work and graph export and import features.
 * Learn more about this plan [here](https://get.maltego.com/maltego-professional).
 
 _**Maltego Organization**_
 
 * Cost: Requirement to contact Maltego to learn more
 * Learn more about this plan [here](https://get.maltego.com/maltego-organization).
-
-_**Data Pass Subscriptions**_ (Must contact Maltego to get a price quote)
-
-·       Pro and Enterprise users can subscribe to a Data Pass, which includes access to various data sources tailored to specific investigation needs. &#x20;
-
-·       There is a Data Pass available for Person of Interest data, Cryptocurrency data, and more.
 
 ## &#x20;Level of difficulty
 
