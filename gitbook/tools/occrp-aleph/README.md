@@ -64,7 +64,7 @@ At the top of the Aleph page there is a menu called Datasets which opens a searc
 
 <figure><img src=".gitbook/assets/Ale5.png" alt="" width="563"><figcaption><p>The top right menu Datasets takes you to the search bar. Use keywords to find datasets you are interested in.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Ale6.png" alt=""><figcaption><p>View of a specific dataset. Each of the Names, emails, and entity types above is hyperlinked and opens a new page for the selected item.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Ale6.png" alt=""><figcaption><p>View of a specific dataset. Each of the names, emails, and entity types above is hyperlinked and opens a new page for the selected item.</p></figcaption></figure>
 
 You can use the Source Documents menu to review each uploaded file in this dataset. The documents are all available for download. Additionally, you can chose the Cross-reference menu to check for different spellings of names, or variations in the names. The cross-reference results are also available for download and can help clear out uncertainties in your research.
 
