@@ -57,7 +57,7 @@ If you stick with the English version, keep an eye out for 'more information is 
 
 You can also search RuPEP for legal entities (companies and organisations). Here are some of the results for a search on Gazprom:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-10-02 at 09.29.10.png" alt=""><figcaption><p>Some legal entity search results</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-10-02 at 09.29.10.png" alt=""><figcaption><p>Legal entity search results for a search for Gazprom</p></figcaption></figure>
 
 The legal entity page contains links to page sections on the left, and some basic entity information:
 
