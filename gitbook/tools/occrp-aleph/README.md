@@ -98,7 +98,7 @@ Aleph provides a range of tools and mechanisms to aid investigations. They are s
 
 No account is necessary to use Aleph.
 
-If you want to export the results of your search, you have to create an free account, which also requires you to submit evidence of relevant previous work (reports, articles, etc.), the organization you are affiliated with and you role there. The same goes for creating research project spaces.&#x20;
+If you want to export the results of your search, you have to create a free account, which requires you to submit evidence of relevant previous work (reports, articles, etc.), the name of the organization you are affiliated with and you role there. The same goes for creating research project spaces.&#x20;
 
 Some datasets are only accessible to approved users. To be approved, you must sign up using [this form](https://occrp.atlassian.net/servicedesk/customer/portal/14).
 
@@ -134,7 +134,7 @@ Associação Brasileira de Jornalismo Investigativo: [Learn how to use Aleph in 
 
 ## Tool provider
 
-The [Organized Crime and Corruption Reporting Project (OCCRP)](https://www.occrp.org/en/about-us) is an investigative journalism organization. It envisions a more informed world where lives, livelihoods, and democracies are not threatened by crime and corruption. Its mission is to spread and strengthen investigative journalism around the world and expose crime and corruption so the public can hold power to account.
+The [Organized Crime and Corruption Reporting Project (OCCRP)](https://www.occrp.org/en/about-us)
 
 ## Advertising Trackers
 
