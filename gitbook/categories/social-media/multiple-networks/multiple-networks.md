@@ -9,7 +9,7 @@
 | [**Namechk**](https://namechk.com/) | A username and domain search tool that checks on which platforms or domain a given username is registered. | <mark style="background-color:green;">Free</mark> | [Details](../../../tools/namechk/README.md) |
 | [**Open Measures**](https://openmeasures.io/) | Open Measures helps open source researchers investigate harmful online activity such as extremism and disinformation. | <mark style="background-color:orange;">Partially Free</mark> | [Details](../../../tools/open-measures/README.md) |
 | [**Sherlock**](https://github.com/sherlock-project/sherlock) | Check usernames across more than 400 websites and social networks. | <mark style="background-color:green;">Free</mark> | [Details](../../../tools/sherlock/README.md) |
-| [**Skopenow**](http://skopenow.com/) | Social Media Investigations - name, phone, email, username searches | <mark style="background-color:orange;">Partially Free</mark> |  |
+| [**Skopenow**](http://skopenow.com/) | Social Media Investigations - name, phone, email, username searches | <mark style="background-color:red;">Paid</mark> |  |
 | [**snscrape**](https://github.com/JustAnotherArchivist/snscrape) | Comand-line tool for scraping multiple social media platforms without using official API, especially Twitter and Telegram | <mark style="background-color:green;">Free</mark> |  |
 | [**Social-searcher**](https://www.social-searcher.com/) | Search hashtags and usernames across various platforms. | <mark style="background-color:orange;">Partially Free</mark> |  |
 | [**WhatsMyName**](https://whatsmyname.app/) | Search for usernames on several hundred platforms | <mark style="background-color:green;">Free</mark> | [Details](../../../tools/whats-my-name/README.md) |
