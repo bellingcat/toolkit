@@ -6,7 +6,7 @@ description: Social Media Investigations - name, phone, email, username searches
 
 ## URL
 
-http://skopenow.com/
+[http://skopenow.com/](https://www.skopenow.com/)
 
 ## Description
 
@@ -17,7 +17,7 @@ Reports generated from the system forensically capture screen captures, metadata
 ## Cost
 
 * [ ] Free
-* [x] Partially Free
+* [ ] Partially Free
 * [x] Paid
 
 There is a free trial available, followed by multiple subscription tiers. Users must be vetted by Skopenow. Subscription packages range from $1200-$20,000 per year, depending on packages included in the subscription.
@@ -66,4 +66,4 @@ Skopenow is a privately held for profit company, based in New York, NY. Their se
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-<table><thead><tr><th data-type="users" data-multiple>Page maintainer</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai's Test Account</a><a href="https://app.gitbook.com/u/1EJYZ3VapOeyTucb66LoniieppP2">Cass GAP Member</a></td></tr><tr><td></td></tr></tbody></table>
+<table><thead><tr><th data-type="users" data-multiple>Page maintainer</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/1EJYZ3VapOeyTucb66LoniieppP2">Cass GAP Member</a></td></tr><tr><td></td></tr></tbody></table>
