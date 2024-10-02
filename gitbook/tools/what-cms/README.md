@@ -43,6 +43,8 @@ Like every tool, ensure that the use of the tool is within the law, the site's t
 
 ## Guides and Articles
 
+{% embed url="https://www.bellingcat.com/news/2022/05/24/fascist-fashion-how-mainstream-businesses-enable-the-sale-of-far-right-merchandise/" %}
 
+## Guides and Articles
 
 {% embed url="https://whatcms.org/" %}
