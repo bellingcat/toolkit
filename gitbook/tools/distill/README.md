@@ -12,7 +12,51 @@ description: >-
 
 ## Description
 
-Distill.io is a website change monitoring tool that allows users to track changes on web pages and receive alerts via multiple channels, including email, SMS, and push notifications. It supports various types of content such as web pages, PDFs, JSON, Word documents, XML, feeds, uptime, and sitemaps. Distill.io is available as a web app, browser extension, and mobile app, enabling users to monitor websites both locally and in the cloud.
+Distill.io is a website change monitoring tool that enables users to track changes on web pages and receive alerts via multiple channels, including email, SMS, and push notifications. It supports various types of content such as web pages, PDFs, JSON, Word documents, XML, feeds, uptime, and sitemaps. Available as a web app, browser extension, and mobile app, Distill.io allows users to monitor websites both locally and in the cloud.
+
+#### **Practical Applications for OSINT Researchers**
+
+For Open-Source Intelligence (OSINT) researchers, Distill.io can be an invaluable tool for:
+
+* **Monitoring Target Websites:** Keep track of updates on websites related to investigations, such as changes in content, new postings, or removals.
+* **Tracking Social Media Profiles:** Monitor public social media pages or profiles for updates without the need to log into the platform.
+* **Alerting on Keyword Changes:** Set up alerts for specific keywords or phrases appearing or disappearing from web pages, which can signal significant events.
+* **Watching Dynamic Content:** Use advanced selection tools to monitor content that changes dynamically, such as JavaScript-rendered pages or AJAX content.
+* **Archiving Web Page Changes:** Maintain a history of changes to a web page, which can be useful for documenting the evolution of information over time.
+* **Monitoring Hidden Elements:** Detect changes in hidden HTML elements or metadata that might not be immediately visible on the page.
+
+#### **Key Features Beneficial for OSINT**
+
+* **Visual Selector Tool:**
+  * Allows users to select specific parts of a web page to monitor.
+  * Useful for focusing on relevant sections and ignoring irrelevant content.
+* **Regular Expressions (Regex):**
+  * Enable advanced pattern matching to monitor specific text patterns.
+  * Helpful for filtering and extracting specific data from complex pages.
+* **Content Extraction:**
+  * Ability to extract and export data from monitored pages.
+  * Supports formats like CSV or JSON for integration with other analysis tools.
+* **Change Highlighting:**
+  * Visual representation of what has changed on the page.
+  * Simplifies the process of identifying significant alterations.
+* **Scheduling and Frequency:**
+  * Customizable check intervals, with paid plans offering more frequent monitoring.
+  * Important for time-sensitive investigations where prompt alerts are crucial.
+
+#### **Additional Tips for OSINT Researchers**
+
+* **Combine with Other Tools:**
+  * Use Distill.io in conjunction with other OSINT tools for comprehensive analysis
+  * Integrate data from Distill.io with databases or visualization tools
+* **Use Cloud Monitors for Reliability:**
+  * Cloud monitors run on Distill.io's servers, ensuring continuous monitoring even when your device is offline
+  * Essential for critical monitoring tasks where uptime is crucial
+* **Leverage API Access:**
+  * Higher-tier plans may offer API access
+  * Useful for automating workflows and integrating monitoring data into custom applications
+* **Monitor Authentication-Protected Pages:**
+  * Distill.io supports monitoring pages that require login
+  * Ensure compliance with terms of service and legal considerations when monitoring such content
 
 ## Cost
 
@@ -22,31 +66,63 @@ Distill.io is a website change monitoring tool that allows users to track change
 
 <!---->
 
-* **Free Plan**: 25 local monitors, 5 cloud monitors, 1000 checks/month, and 30 email alerts.
-* **Paid Plans**: Offer more advanced features and higher limits.
+* **Free Plan:**
+  * Up to 25 local monitors
+  * 5 cloud monitors
+  * 1,000 checks per month
+  * 30 email alerts
+  * **Limitations:** Maximum check interval of 6 hours for cloud monitors
+* **Paid Plans:**
+  * **Starter Plan:** Increased limits and faster check frequencies (e.g., every 10 minutes)
+  * **Pro Plan:** More monitors, higher check frequency (e.g., every 5 minutes), SMS alerts
+  * **Enterprise Plan:** Custom solutions with the highest limits and priority support
+  * **Pricing:** Detailed pricing is available on the Distill.io pricing page
 
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
-## Requirements
+#### **Requirements**
 
-* **Account Creation**: Required for tracking and synchronization across devices.
-* **Browser Extension**: Available for Chrome, Firefox, Opera, and Edge.
-* **Mobile App**: Available on iOS and Android.
-* **Desktop App**: In public alpha testing.
+* **Account Creation:**
+  * Required for synchronization across devices and accessing cloud monitoring features
+* **Browser Extension:**
+  * Available for Chrome, Firefox, Opera, and Edge
+  * **Local Monitoring:** Runs checks when the browser is open
+* **Mobile App:**
+  * Available on iOS and Android
+  * **Features:** Receive push notifications and manage monitors
+* **Desktop App:**
+  * **Availability:** Check the Distill.io website for the latest information
+  * **Advantage:** Allows local monitoring without keeping the browser open
 
-## Limitations
+#### **Limitations**
 
-* **Free Plan Limitations**: Limited to 25 local monitors and 5 cloud monitors with a check frequency of 6 hours.
-* **Cloud Checks**: Limited by subscription plan.
-* **Local Checks**: Require the browser or desktop app to be running.
-* **Dynamic Content**: Limited support is available without advanced configuration.
+* **Free Plan Limitations:**
+  * Limited to 25 local monitors and 5 cloud monitors
+  * Minimum check interval of 6 hours for cloud monitors
+  * Limited number of email alerts per month
+* **Cloud Checks:**
+  * Limited by the subscription plan
+  * Faster check frequencies require higher-tier plans
+* **Local Checks:**
+  * Require the browser or desktop app to be running
+  * Less reliable if the device is turned off or disconnected from the internet
+* **Dynamic Content:**
+  * Monitoring JavaScript-rendered content may require advanced configuration
+  * Some dynamic elements might not be captured without using cloud monitors
 
 ## Ethical Considerations
 
-* **Privacy Concerns**: Monitoring websites for changes can raise privacy issues depending on the context of use.
-* **Trustworthiness of Data**: Users should validate the data received from monitored changes.
+* **Privacy and Legal Compliance:**
+  * Ensure monitoring activities comply with website terms of service
+  * Be aware of legal regulations regarding automated access or scraping
+* **Responsible Use:**
+  * Avoid overloading target websites with excessive requests
+  * Use appropriate check intervals to minimize impact
+* **Data Validation:**
+  * Verify the accuracy of monitored changes before acting on them
+  * Be cautious of false positives or changes that may not be relevant
 
 ## Guides and articles
 
@@ -58,7 +134,9 @@ Distill (Director). (2023, May 26). _How to Use the Visual Selector in Distill_ 
 
 ## Tool provider
 
-Distill.io
+**Distill.io**
+
+* **Contact Information:** Available on their [Contact Us page](https://distill.io/docs/contact-us/)
 
 ## Advertising Trackers
 
