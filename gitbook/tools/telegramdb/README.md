@@ -1,7 +1,7 @@
 ---
 description: >-
-  TelegramDB is a searchable database service for exploring public Telegram
-  groups and channels via a dedicated bot.
+  TelegramDB is a searchable database service that allows users to explore
+  public Telegram groups and channels via a dedicated bot.
 ---
 
 # TelegramDB
@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-TelegramDB is a comprehensive search service for Telegram, allowing users to explore and (according to their website) analyze over 30 million Telegram groups and channels. Utilizing a bot (@tgdb\_bot) as its primary interface, TelegramDB facilitates searches for public chats, offering insights such as group membership numbers and chat statistics. This tool is tailored to assist users in navigating and extracting valuable information from Telegram’s extensive network, enhancing both casual browsing and detailed investigations.
+TelegramDB is a comprehensive search service for Telegram, enabling users to explore and analyze over 30 million public Telegram groups and channels. Through its dedicated bot, @tgdb\_bot, users can perform searches for public chats and obtain insights such as group membership numbers and chat statistics. This tool assists users in navigating Telegram's extensive network, enhancing both casual browsing and detailed investigations.
 
 #### Commands
 
@@ -22,41 +22,61 @@ The TelegramDB bot (@tgdb\_bot) offers a comprehensive set of commands to help u
 
 <summary>Command Overview</summary>
 
-**/search**
 
-This command allows users to perform keyword-based searches to find groups and channels on Telegram. Users can specify whether they want to find only groups, only channels, or both. The basic search is free and provides up to 20 results, but users can extend this with purchased credits for more detailed results.
 
-**/group and /channel**
-
-These commands are specialized versions of the /search command, tailored specifically to either groups or channels. Using /group will limit the search results to groups only, while /channel will do the same for channels. These commands help users quickly access specific types of Telegram communities.
-
-**/where**
-
-The /where command is used to discover public groups where a specified user has been a member. This function is particularly useful for tracking user activity or understanding the reach and influence of users within the Telegram ecosystem. It requires premium access, paid for through credits, to retrieve more than the basic number of results.
-
-**/resolve**
-
-This command converts Telegram IDs and usernames into detailed information about a user, group, or channel. It helps users quickly gather detailed data about entities on Telegram without navigating through the app or website. The /resolve command now includes additional information such as a user’s historical usernames, whether the user is premium, if the chat is verified, and if it is flagged for scams or fakes.
-
-**/language**
-
-Allows users to change the language of the bot interactions. Currently, it supports English and Italian, making it accessible to a broader audience. This command enhances the user experience by allowing non-English speakers to utilize the bot in their native language.
-
-**/members**
-
-The /members command allows users to retrieve a list of all members within a specified group, including those with hidden membership. The results are provided in a .csv file format that is suitable for data analysis and further processing in tools like Maltego.
-
-**/network**
-
-The new /network command lists groups and channels frequented by the same community or containing similar content. The output is shown in a .csv file and is ranked with an advanced algorithm, ensuring the most similar community and/or content appears at the top. The result list includes channels, groups, and forums and is compatible with Maltego.
-
-**/near**
-
-The newly added /near command lists users with the most interactions with a specified user. The output is shown in a .csv file, ranked with an advanced algorithm, ensuring the most relevant users appear at the top. The list includes users and bots, along with their IDs, names, and usernames, and is compatible with Maltego.
+* **/search** _(Free with limitations; Premium for extended results)_
+  * **Function:** Perform keyword-based searches to find groups and channels.
+  * **Details:** Specify whether to search for groups, channels, or both. The free version provides up to 20 results. Purchasing credits unlocks more detailed results and extended access.
+* **/group** and **/channel** _(Free with limitations; Premium for extended results)_
+  * **Function:** Specialized searches for groups or channels by name.
+  * **Details:** **/group** limits results to groups; **/channel** limits to channels. Free version offers basic information with limited results. Premium access provides detailed information and additional results.
+* **/where** _(Premium credits required)_
+  * **Function:** Discover public groups where a specified user has been a member.
+  * **Details:** Useful for tracking user activity and influence within Telegram. Requires premium credits to retrieve results.
+* **/resolve** _(Free basic info; Premium credits for detailed info)_
+  * **Function:** Convert Telegram IDs and usernames into detailed information.
+  * **Details:** Free version offers basic info. Premium access reveals historical usernames, premium status, verification status, and flags for scams or fakes.
+* **/language** _(Free)_
+  * **Function:** Change the bot's interaction language.
+  * **Details:** Supports English and Italian, enhancing accessibility for non-English speakers.
+* **/members** _(Premium credits required)_
+  * **Function:** Retrieve a list of all members in a specified group, including hidden members.
+  * **Details:** Results provided in CSV format, suitable for data analysis and tools like Maltego. Requires premium credits.
+* **/network** _(Premium credits required)_
+  * **Function:** List groups and channels frequented by the same community or with similar content.
+  * **Details:** Output is a CSV file ranked by relevance. Includes channels, groups, and forums. Compatible with Maltego. Requires premium credits.
+* **/near** _(Premium credits required)_
+  * **Function:** List users with the most interactions with a specified user.
+  * **Details:** Provides a CSV file with ranked users and interaction stats. Includes users and bots with IDs and names. Requires premium credits.
 
 </details>
 
 ## Cost
+
+Without premium credits on **TelegramDB**, users can perform **basic searches and access limited results**. Specifically:
+
+* **Basic search functions**: Users can use the `/search` command to find public groups and channels by keywords. However, they are limited to viewing only the top 20 results.
+* **Limited group/channel exploration**: Users can use commands like `/group` and `/channel` to retrieve general information about public Telegram groups and channels, but advanced filtering options or detailed insights (e.g., member lists, group history) require premium credits.
+* **Basic interaction**: The bot provides some limited functionality to explore public groups and channels, but detailed or more in-depth analysis commands (like `/members` or `/network`) are likely restricted to premium users.
+
+**Free**:
+
+* Basic searches and functions with limited results:
+  * `/search`: Perform keyword-based searches for groups and channels (up to 20 results).
+  * `/group` and `/channel`: Basic exploration of groups and channels with general information.
+
+**Paid** (Premium credits required):
+
+* **Advanced search functions**:
+  * `/where`: Track group membership or activity for users in specific areas.
+  * `/network`: List groups and channels with a shared community, ranked and output as a CSV file.
+  * `/resolve`: Retrieve detailed information about Telegram users, such as their historical usernames.
+  * `/members`: Export member lists (CSV) of groups, including hidden membership.
+  * `/near`: List nearby groups or users based on interaction proximity, ranked by relevance.
+
+{% hint style="info" %}
+Specific pricing for premium credits is not provided directly but operates on a credit-based payment system, including support for cryptocurrencies. (If you have used the pay functionality or know more, please do let me know)
+{% endhint %}
 
 * [ ] Free
 * [x] Partially Free
@@ -73,19 +93,31 @@ The newly added /near command lists users with the most interactions with a spec
 
 ## Requirements
 
-* Telegram account to interact with @tgdb\_bot.
-* Purchase of credits for premium features.
+* **Telegram Account:** Necessary to interact with @tgdb\_bot.
+* **Premium Features:** Purchase of credits for advanced commands.
+* **Data Analysis Skills:** For processing CSV files and using tools like Maltego.
 
 ## Limitations
 
-* It focuses solely on public Telegram content and does not access private group chats or channels.
-* Dependence on the availability and legality of the data on Telegram, which might include sensitive or inappropriate content.
+* **Public Content Only:**
+  * Does not access private groups or channels.
+* **Telegram API Limitations:**
+  * Subject to Telegram’s API restrictions, which may affect data retrieval limits.
+  * Potential delays in data updates; information may not reflect real-time changes.
+* **Data Accuracy:**
+  * Depends on the availability and reliability of Telegram data.
+  * Groups or channels may have changed or been deleted since the last update.
 
 ## Ethical Considerations
 
-* Users must consider the ethical implications of accessing and using data from public groups, especially in regions with stringent privacy laws. Users must be cautious of privacy and ethical concerns when searching for user data. Ensure compliance with GDPR and other data protection regulations when using the tool.&#x20;
-* TelegramDB commits to GDPR compliance, offering mechanisms for data deletion and rectification.&#x20;
-* Additionally, the ownership of TelegramDB is unclear, raising concerns about the management and security of collected data.
+* **Data Privacy:**
+  * Be mindful of ethical implications when accessing public group data.
+  * Compliance with data protection laws is essential.
+* **Jurisdictional Compliance:**
+  * Adhere to regional regulations like GDPR (EU), CCPA (California), and others.
+  * Users are responsible for ensuring their use complies with local laws.
+* **GDPR Compliance:**
+  * TelegramDB offers mechanisms for data deletion and rectification upon request.
 
 ## Guide
 
@@ -95,7 +127,7 @@ TelegramDB. (2024). _TelegramDB/TelegramDB_ \[Computer software]. [https://githu
 
 TelegramDB.org
 
-(The author did not find further information about an incorporated entity that can clearly be attributed to the service.)
+(No additional information about an incorporated entity is available.)
 
 ## Advertising Trackers
 
