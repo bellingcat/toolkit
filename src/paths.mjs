@@ -119,19 +119,24 @@ function getTools() {
       // try to get the cost from the content
       const cost = (content.match(/\[x\] Partially Free/) && 'Partially Free') || (content.match(/\[x\] Free/) && 'Free') || (content.match(/\[x\] Paid/) && 'Paid') || null;
 
-      // try to get the URL from the content
-      // it may be a markdown link
-      const urlmarkdown = content.match(/## URL\n\n(.*)\n\n/);
-      if (urlmarkdown === null) {
-        console.log("No url markdown matched for", filepath);
-        throw new Error("README format Error");
-      }
-      const markdownLink = urlmarkdown[1].match(/\[(.*)\]\((.*)\)/);
-      const url = markdownLink ? markdownLink[2] : urlmarkdown[1];
-
       // get JSON data from JSON.md if it exists
       const jsonFilePath = path.join(toolDir, 'json.md');
       const json = markdownToJson(jsonFilePath);
+
+      // try to get the URL from the content
+      // it may be a markdown link
+      let url = null;
+      const urlmarkdown = content.match(/## URL\n\n(.*)\n\n/);
+      if (urlmarkdown === null) {
+        console.log("No url markdown matched for", filepath);
+        if (!json.url) {
+          throw new Error("No URL detected for tool");
+        }
+      } else {
+        const markdownLink = urlmarkdown[1].match(/\[(.*)\]\((.*)\)/);
+        url = markdownLink ? markdownLink[2] : urlmarkdown[1];
+      }
+
 
       // get category data from categories.md if it exists
       const categoriesFilePath = path.join(toolDir, 'categories.md');
