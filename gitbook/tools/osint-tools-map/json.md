@@ -7,10 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Osint Tools Map",
-  "url": "https://cipher387.github.io/osintmap/",
-  "description": "Worldwide map of business registries, court records and other info, by @cyb\\_detective",
-  "details": "Registry, Global",
   "tags": [
     "registry",
     "companies-and-finance",
