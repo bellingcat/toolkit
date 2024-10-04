@@ -1,12 +1,12 @@
 # Archiving
 
-| Name | Description | Cost | Details |
+| Name | Description | Cost | URL |
 | --- | --- | --- | --- |
-| [**Archive.today**](https://archive.today) | Archive any webpage, including Facebook. | <mark style="background-color:green;">Free</mark> |  |
-| [**Auto Archiver**](https://auto-archiver.bellingcat.com) | Bellingcat's tool to automatically archive social media posts, videos, and images. Free and Open-Source. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/auto-archiver/README.md) |
-| [**Bellingcat TikTok Hashtag Analysis**](https://github.com/bellingcat/tiktok-hashtag-analysis) | Archive content and metadata from TikTok posts that contain one or more specified hashtags | <mark style="background-color:green;">Free</mark> |  |
-| [**Hunchly**](https://www.hunch.ly/) | An archiving tool that tracks online activities and preserves essential information about the web pages researchers visit. | <mark style="background-color:red;">Paid</mark> | [Details](../../tools/hunchly/README.md) |
-| [**Instant Data Scraper**](https://webrobots.io/instantdata/) | Browser extension for simple web scraping, with table output | <mark style="background-color:green;">Free</mark> | [Details](../../tools/instant-data-scraper/README.md) |
-| [**Wayback Machine**](https://web.archive.org/) | The Wayback Machine's Internet Archive lets users view and archive web pages, aiding in historical research and digital preservation. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/internet-archive/README.md) |
-| [**Lumen**](https://lumendatabase.org/) | A search engine for online content takedown requests. | <mark style="background-color:green;">Free</mark> | [Details](../../tools/lumen/README.md) |
-| [**Pinpoint**](https://journaliststudio.google.com/pinpoint/about) | A tool by Google to catalogue uploaded documents and files, providing OCR, indexing, and other services. | <mark style="background-color:green;">Free</mark> | Incredible for data leaks and large collections of documents (PDFs, emails, DOCX, spreadsheets,etc). Works with most languages, can do OCR on scanned documents tha t can then be searched. Can transcribe audio files as well. |
+| Archive.today | Archive any webpage, including Facebook. | <mark style="background-color:green;">Free</mark> | [https://archive.today](https://archive.today) |
+| [Auto Archiver](../../tools/auto-archiver/README.md) | Bellingcat's tool to automatically archive social media posts, videos, and images. Free and Open-Source. | <mark style="background-color:green;">Free</mark> | [https://auto-archiver.bellingcat.com](https://auto-archiver.bellingcat.com) |
+| Bellingcat TikTok Hashtag Analysis | Archive content and metadata from TikTok posts that contain one or more specified hashtags | <mark style="background-color:green;">Free</mark> | [https://github.com/bellingcat/tiktok-hashtag-analysis](https://github.com/bellingcat/tiktok-hashtag-analysis) |
+| [Hunchly](../../tools/hunchly/README.md) | An archiving tool that tracks online activities and preserves essential information about the web pages researchers visit. | <mark style="background-color:red;">Paid</mark> | [https://www.hunch.ly/](https://www.hunch.ly/) |
+| [Instant Data Scraper](../../tools/instant-data-scraper/README.md) | Browser extension for simple web scraping, with table output | <mark style="background-color:green;">Free</mark> | [https://webrobots.io/instantdata/](https://webrobots.io/instantdata/) |
+| [Wayback Machine](../../tools/internet-archive/README.md) | The Wayback Machine's Internet Archive lets users view and archive web pages, aiding in historical research and digital preservation. | <mark style="background-color:green;">Free</mark> | [https://web.archive.org/](https://web.archive.org/) |
+| [Lumen](../../tools/lumen/README.md) | A search engine for online content takedown requests. | <mark style="background-color:green;">Free</mark> | [https://lumendatabase.org/](https://lumendatabase.org/) |
+| Pinpoint | A tool by Google to catalogue uploaded documents and files, providing OCR, indexing, and other services. | <mark style="background-color:green;">Free</mark> | [https://journaliststudio.google.com/pinpoint/about](https://journaliststudio.google.com/pinpoint/about) |

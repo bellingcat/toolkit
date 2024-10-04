@@ -1,6 +1,6 @@
 # Reddit
 
-| Name | Description | Cost | Details |
+| Name | Description | Cost | URL |
 | --- | --- | --- | --- |
-| [**F5Bot**](https://f5bot.com/) | Sends you an email when a keyword is mentioned on Reddit. | <mark style="background-color:green;">Free</mark> |  |
-| [**Redective**](https://www.redective.com/) | Analyse Reddit profiles - incl word frequency and active hours | <mark style="background-color:green;">Free</mark> |  |
+| F5Bot | Sends you an email when a keyword is mentioned on Reddit. | <mark style="background-color:green;">Free</mark> | [https://f5bot.com/](https://f5bot.com/) |
+| Redective | Analyse Reddit profiles - incl word frequency and active hours | <mark style="background-color:green;">Free</mark> | [https://www.redective.com/](https://www.redective.com/) |
