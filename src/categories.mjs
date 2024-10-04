@@ -81,22 +81,16 @@ function renderCost(cost) {
 function renderRelativeLink(category, tool) {
   const summary = getSummary('gitbook');
   if (!summary.match(path.relative('gitbook/', tool.filepath))) {
-    if (tool.guide) {
-      return `Guide: ${tool.guide}`;
-    }
-    if (tool.details) {
-      return tool.details.replace('\n',' ');;
-    }
-    return '';
+    return tool.title;
   }
-  return `[Details](${path.relative(path.dirname(category.filepath), tool.filepath)})`;
+  return `[**${tool.title}**](${path.relative(path.dirname(category.filepath), tool.filepath)})`;
 }
 
 function renderTable(tools, category) {
   if (!tools || tools.length == 0) { return ''; }
   return (
-    "| Name | Description | Cost | Details |\n| --- | --- | --- | --- |\n" + tools.map((row) => {
-      return `| [**${row.title}**](${row.url}) | ${row.description} | ${renderCost(row.cost)} | ${renderRelativeLink(category, row)} |`
+    "| Name | Description | Cost | URL |\n| --- | --- | --- | --- |\n" + tools.map((row) => {
+      return `| ${renderRelativeLink(category, row)} | ${row.description} | ${renderCost(row.cost)} | [${row.url}](${row.url}) |`
     }).join("\n")
   );
 }
