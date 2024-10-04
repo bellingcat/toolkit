@@ -3,9 +3,9 @@
 | Name | Description | Cost | URL |
 | --- | --- | --- | --- |
 | ExifPurge | EXIF Purge is a small portable application to remove EXIF metadata from multiple images at once. With the click of a button you can remove the camera, location and other technical information from a batch of photos which is embedded by the camera or the photo editing software. | <mark style="background-color:green;">Free</mark> | [http://www.exifpurge.com/](http://www.exifpurge.com/) |
-| [Forensically](../../../tools/forensically/README.md) | A collection of web-based image forensics tools. Can identify fake or doctored images. | <mark style="background-color:green;">Free</mark> | [https://29a.ch/photo-forensics/#forensic-magnifier](https://29a.ch/photo-forensics/#forensic-magnifier) |
+| [**Forensically**](../../../tools/forensically/README.md) | A collection of web-based image forensics tools. Can identify fake or doctored images. | <mark style="background-color:green;">Free</mark> | [https://29a.ch/photo-forensics/#forensic-magnifier](https://29a.ch/photo-forensics/#forensic-magnifier) |
 | FotoForensics | Image forensics tool. | <mark style="background-color:green;">Free</mark> | [http://fotoforensics.com/](http://fotoforensics.com/) |
-| [InVID Verification Plugin](../../../tools/invid/README.md) | Verification plugin to help journalists verify images and videos. | <mark style="background-color:green;">Free</mark> | [https://www.invid-project.eu/tools-and-services/invid-verification-plugin/](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/) |
+| [**InVID Verification Plugin**](../../../tools/invid/README.md) | Verification plugin to help journalists verify images and videos. | <mark style="background-color:green;">Free</mark> | [https://www.invid-project.eu/tools-and-services/invid-verification-plugin/](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/) |
 | Irfanview | Windows-based software to extract metadata. | <mark style="background-color:green;">Free</mark> | [http://irfanview.com/](http://irfanview.com/) |
 | jhead | Remove EXIF/metadata. | <mark style="background-color:green;">Free</mark> | [https://www.sentex.ca/~mwandel/jhead/](https://www.sentex.ca/~mwandel/jhead/) |
 | Jimpl | Online EXIF data viewer | <mark style="background-color:green;">Free</mark> | [https://jimpl.com/](https://jimpl.com/) |
