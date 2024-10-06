@@ -97,7 +97,7 @@ To effectively use Blender, especially for beginners or those looking to refine 
 **Community and Support**
 
 * [**Community Forum**](https://www.blender.org/community/)**:** Find independent Blender groups all around the globe.
-* [**Blender Chat**](https://blender.chat/home): an independent chat server created to help the Blender community to communicate in real-time.
+* [**Blender Chat**](https://chat.blender.org/)**:** an independent chat server created to help the Blender community to communicate in real-time (registration required).
 * [**Blender Stack Exchange**](https://blender.stackexchange.com/)**:** Blender Stack Exchange is a question and answer site for people who use Blender to create 3D graphics, animations, or games. It only takes a minute to sign up.
 * [**Blender Discord:**](https://discord.com/invite/blender) the Place to get the latest news about Blender.
 
