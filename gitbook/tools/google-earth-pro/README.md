@@ -95,7 +95,7 @@ To effectively use Google Earth Pro, especially for beginners or those looking t
 
 ## Tool provider
 
-Google [https://about.google/](https://about.google/) - United States
+Google [https://about.google/](https://about.google/) - United States of America
 
 ## Advertising Trackers
 
