@@ -10,27 +10,53 @@ description: A domain search engine or "whois lookup" tool to find information o
 
 ## Description
 
-With Whoxy there are several options to find information on domain names. It is free to sign up for an account but that is not a requirement for small numbers of searches.
+With Whoxy there are several options to find information on domain names. It is free to sign up for an account but that is not a requirement for 1 or a few of searches.
 
-The search box on the top right of the page has a little arrow which signals the possibilities. Entering a domain name in the Whois Lookup, for instance whoxy.com, results in a page which shows multiple panes of information.&#x20;
+There are 6 options to query information.
 
-The largest pane offers the basic information, for instance when the domain was registered, when it was updated and when it will expire. This basic info is available in whois format, but also as RAW, JSON and XML.
+* Enter a domain name for general whois:
 
-Scroll down to the bottom of the page to see who owned the domain you searched for in the past.
+<figure><img src=".gitbook/assets/whoxy1.jpg" alt=""><figcaption></figcaption></figure>
 
-To the right of the basic information there is a smaller pane listing similar domains which are linked. There is a button to view all. The listed similar-named domains can sometimes lead to the discovery of pivot points, for instance [typosquatting](https://en.wikipedia.org/wiki/Typosquatting) .
+Results will show the domain name itself, the registrar, the registered date, the date of when the registry was updated, the expiry date. Also the domain status, name servers and contact details.
 
-_Note that the use of the Whois History search box leads to the same information at the bottom of the page without the need of scrolling down._&#x20;
+* Enter a domain name to retrieve historical information:
 
-Whoxy offers 4 options for reverse Whois.
+<figure><img src=".gitbook/assets/whoxy2.jpg" alt=""><figcaption></figcaption></figure>
 
-On Owner Name: when a name is entered results are returned which show all domain names that are linked to that name, including the domain name itself, the registrar, the creation date, the date it was updated and the expiry date. When the results contain a large number of results, a subset is shown with the message to use the API.
+Results will show the same information as for a regular whois query, and further down on the page who owned that domain in the past.
 
-On Company Name: input of a complete company name results in all domains which are linked to that company name.
+* Enter a owner name for reverse whois results on which domain names are linked to that owner:
 
-On Email address: input of a valid email address results in all domains which are linked to that email address. This information might be used as a pivot point.
+<figure><img src=".gitbook/assets/whoxy3.jpg" alt=""><figcaption></figcaption></figure>
 
-On Domain Keyword: when a keyword is entered, for instance "iPhone", the results show all domains which have that specific keyword in the domain name. When the results contain a large number of domain names, a subset is shown with the message to use the API.
+The results will show domain names which are linked to that particular name. If the amount of results is substantial, a subset will be shown with the remark to use the Reverse Whois API.
+
+* Enter a company name for reverse whois results on which domain names are linked with that company:
+
+<figure><img src=".gitbook/assets/whoxy4.jpg" alt=""><figcaption></figcaption></figure>
+
+The results will show a list of domain names. If the amount of results is substantial, a subset will be shown with the remark to use the Reverse Whois API.
+
+* Enter a valid e-mail address for reversed whois results on which domain names are linked with that e-mail address:
+
+<figure><img src=".gitbook/assets/whoxy5.jpg" alt=""><figcaption></figcaption></figure>
+
+* Enter a domain keyword (for instance "iPhone") for reversed whois results on which domain names include that specific keyword:
+
+<figure><img src=".gitbook/assets/whoxy6.jpg" alt=""><figcaption></figcaption></figure>
+
+The results will show a list of domain names with that keyword. If the amount of results is substantial, a subset will be shown with the remark to use the Reverse Whois API.
+
+\*\*\*
+
+The information shown for a regular whois query and a whois history query are available in whois format, but also as RAW, JSON and XML.
+
+When using the API, output is offered as JSON schema, XML schema, JSON live results and XML live results for easy incorporation into your research tools.
+
+\*\*\*
+
+To the right of the basic information when using the regular whois lookup, there is a smaller pane listing similar domains. There is a button to view all. The listed similar-named domains can sometimes lead to the discovery of pivot points, for instance the use of [typosquatting](https://en.wikipedia.org/wiki/Typosquatting) .
 
 The complete range of services can be found on the homepage under the button "Our Services".
 
@@ -64,7 +90,7 @@ There are no limitations found while writing this description.
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+The tool provider is Whoxy.com, powered by [Autowhois.com](https://www.autowhois.com/) and [Bigdomaindata.com](https://www.bigdomaindata.com/) according to the statement at the bottom of the website pages.
 
 ## Advertising Trackers
 
