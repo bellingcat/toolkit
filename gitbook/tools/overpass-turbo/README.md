@@ -110,7 +110,7 @@ By exploring these resources, users can build a strong foundation in using Overp
 
 ## Tool provider
 
-_overpass turbo_ is maintained by Martin Raifer (tyr.asd at gmail.com) [_Open Street Maps_](https://osmfoundation.org/wiki/About) United Kingdom
+_Overpass Turbo_ is maintained by Martin Raifer (tyr.asd at gmail.com) [_Open Street Maps_](https://osmfoundation.org/wiki/About) United Kingdom
 
 ## Advertising Trackers
 
