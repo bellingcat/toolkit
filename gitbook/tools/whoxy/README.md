@@ -1,5 +1,8 @@
 ---
-description: A domain search engine or "whois lookup" tool to find information on a domain.
+description: >-
+  Whoxy is a domain search engine or "whois lookup" tool to find registration
+  information on a domain, such as the registrar, the status of the domain and
+  the date of registration.
 ---
 
 # Whoxy
@@ -10,43 +13,16 @@ description: A domain search engine or "whois lookup" tool to find information o
 
 ## Description
 
-With Whoxy there are several options to find information on domain names. It is free to sign up for an account but that is not a requirement for 1 or a few of searches.
+With Whoxy there are several options to find information on domain names. It is free to sign up for an account but that is not a requirement for 1 or a few searches.
 
 There are 6 options to query information.
 
-* Enter a domain name for general whois:
-
-<figure><img src=".gitbook/assets/whoxy1.jpg" alt=""><figcaption></figcaption></figure>
-
-Results will show the domain name itself, the registrar, the registered date, the date of when the registry was updated, the expiry date. Also the domain status, name servers and contact details.
-
-* Enter a domain name to retrieve historical information:
-
-<figure><img src=".gitbook/assets/whoxy2.jpg" alt=""><figcaption></figcaption></figure>
-
-Results will show the same information as for a regular whois query, and further down on the page who owned that domain in the past.
-
-* Enter a owner name for reverse whois results on which domain names are linked to that owner:
-
-<figure><img src=".gitbook/assets/whoxy3.jpg" alt=""><figcaption></figcaption></figure>
-
-The results will show domain names which are linked to that particular name. If the amount of results is substantial, a subset will be shown with the remark to use the Reverse Whois API.
-
-* Enter a company name for reverse whois results on which domain names are linked with that company:
-
-<figure><img src=".gitbook/assets/whoxy4.jpg" alt=""><figcaption></figcaption></figure>
-
-The results will show a list of domain names. If the amount of results is substantial, a subset will be shown with the remark to use the Reverse Whois API.
-
-* Enter a valid e-mail address for reversed whois results on which domain names are linked with that e-mail address:
-
-<figure><img src=".gitbook/assets/whoxy5.jpg" alt=""><figcaption></figcaption></figure>
-
-* Enter a domain keyword (for instance "iPhone") for reversed whois results on which domain names include that specific keyword:
-
-<figure><img src=".gitbook/assets/whoxy6.jpg" alt=""><figcaption></figcaption></figure>
-
-The results will show a list of domain names with that keyword. If the amount of results is substantial, a subset will be shown with the remark to use the Reverse Whois API.
+* Enter a domain name for general whois: results will show the domain name itself, the registrar, the registered date, the date of when the registry was updated, and the expiry date. Also the domain status, name servers and contact details.
+* Enter a domain name to retrieve historical information. Results will show the same information as for a regular whois query, and further down on the page it is shown who owned that domain in the past.
+* Enter a owner name for reverse whois results on which domain names are linked to that owner. The results will show domain names which are linked to that particular name. If the amount of results is substantial, a subset will be shown with the remark to use the Reverse Whois API.
+* Enter a company name for reverse whois results on which domain names are linked with that company. The results will show a list of domain names. If the amount of results is substantial, a subset will be shown with the remark to use the Reverse Whois API.
+* Enter a valid e-mail address for reversed whois results on which domain names are linked with that e-mail address.&#x20;
+* Enter a domain keyword (for instance "iPhone") for reversed whois results on which domain names include that specific keyword. The results will show a list of domain names with that keyword. If the amount of results is substantial, a subset will be shown with the remark to use the Reverse Whois API.
 
 \*\*\*
 
@@ -59,6 +35,10 @@ When using the API, output is offered as JSON schema, XML schema, JSON live resu
 To the right of the basic information when using the regular whois lookup, there is a smaller pane listing similar domains. There is a button to view all. The listed similar-named domains can sometimes lead to the discovery of pivot points, for instance the use of [typosquatting](https://en.wikipedia.org/wiki/Typosquatting) .
 
 The complete range of services can be found on the homepage under the button "Our Services".
+
+\*\*\*
+
+Compared to other services that offer information on domain names, for instance DomainTools (which is part of the [Bellingcat Toolkit](https://bellingcat.gitbook.io/toolkit/more/all-tools/domaintools-whois-lookup)), Whoxy.com seems to be a cost-effective and comprehensive tool. Most services are free, and API access is very budget-friendly.
 
 ## Cost
 
@@ -82,11 +62,13 @@ There are no limitations found while writing this description.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Although personally identifiable information (abbreviated as [PII](https://en.wikipedia.org/wiki/Personal\_data)) is often redacted in order to adhere to privacy laws, there still may be mentions of names, addresses and contact information. Keep in mind that the names that are shown may not be the same person that is investigated on.
+
+Domain data may be incomplete or outdated so the information should always be checked against other sources before concluding the information is correct.
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+Whoxy.com is mentioned on Rae Baker's website [here](https://www.raebaker.net/blog/10-free-osint-tools-for-beginners-and-pros). Authentic8 also mentions it briefly in their blog [here](https://www.authentic8.com/blog/unmasking-website-ownership-using-osint). Forensic OSINT by Ritu Gill offers a Youtube video [here.](https://www.youtube.com/watch?v=EVbrdnmQawc)
 
 ## Tool provider
 
