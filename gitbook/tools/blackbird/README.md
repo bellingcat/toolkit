@@ -28,7 +28,7 @@ Blackbird, like other username enumeration tools such as [Sherlock](https://bell
 
 <figure><img src=".gitbook/assets/Screen Shot 2024-06-16 at 2.46.36 PM.png" alt="" width="375"><figcaption><p><a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock">Sherlock</a>'s list of results for "bellingcat" usernames</p></figcaption></figure>
 
-On the other hand, the rate of false positives and invalid results are fairly low with Blackbird. As a result, Blackbird complements other email address search tools by surfacing unique results and using it conjunction with other tools is recommended to get the widest breadth of results.&#x20;
+On the other hand, the rate of false positives and invalid results are fairly low with Blackbird. As a result Blackbird complements other email address search tools by surfacing unique results and using it conjunction with other tools is recommended to get the widest breadth of results.&#x20;
 
 ## Cost
 
