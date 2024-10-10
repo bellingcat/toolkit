@@ -78,7 +78,7 @@ python blackbird.py --filter "name~Mastodon" --username john
 
 ## Tool provider
 
-Original developer is [Lucas Antoniaci](https://www.linkedin.com/in/lucas-antoniaci/)
+Original developer is [Lucas Antoniaci](https://www.linkedin.com/in/lucas-antoniaci/).
 
 ## Advertising Trackers
 
