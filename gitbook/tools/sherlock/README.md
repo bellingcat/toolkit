@@ -43,7 +43,7 @@ There is an [API](https://github.com/sherlock-project/api) for the project but 1
 
 ## Guide
 
-The Sherlock Project maintains a usage and intallation guide on Github: [https://github.com/sherlock-project/sherlock?tab=readme-ov-file](https://github.com/sherlock-project/sherlock?tab=readme-ov-file)
+The Sherlock Project maintains a usage and installation guide on Github: [https://github.com/sherlock-project/sherlock?tab=readme-ov-file](https://github.com/sherlock-project/sherlock?tab=readme-ov-file)
 
 ## Tool provider
 
