@@ -46,7 +46,7 @@ None
 
 Certain pivots and additional tools (e.g. hosting history, network tools) require a paid subscription to DomainTools.
 
-As part of domain privacy measures, most domain registrars offer Whois privacy services that anonymize the registrant details. As a result, you may not be able to find the real name of the individual who owns a domain or other details associated with them. Instead you will see a "Registration Private" designation where the individual's name would be, and generic email and physical addresses associated with the domain registrar. For example, Bellingcat.com's Whois record contains such privacy measures:
+As part of domain privacy measures, most domain registrars offer Whois privacy services that anonymize the registrant details. As a result, you may not be able to find the real name of the individual who owns a domain or other details associated with them. Instead, you will see a "Registration Private" designation where the individual's name would be, and generic email and physical addresses associated with the domain registrar. For example, Bellingcat.com's Whois record contains such privacy measures:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-06-15 at 2.17.31 PM.png" alt=""><figcaption></figcaption></figure>
 
