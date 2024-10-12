@@ -1,16 +1,36 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  Picuki is an online tool that makes it possible to view and download Instagram
+  public content without the need of being logged in.
 ---
 
 # Picuki
 
 ## URL
 
-https://example.com
+[https://www.picuki.com/](https://www.picuki.com/)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+When opening the URL there is a search box where an Instagram username can be typed in without the "@" sign. The site responds with a profile picture and the username. If the account is set to private, Picuki will show the message "Profile is private".
+
+If the account is public, clicking the profile results in the account name on the top left, with below that the real name tied to the account. This may provide a pivot point. The top right shows the number of media, and if anymedia is tagged by the acount.
+
+The overview of the account shows
+
+* all the media that were posted by the account,
+* the first words of the accompanying text,
+* the date or year when it was posted,
+* a small icon signifying the image can be enlarged, and
+* a download button.
+
+Clicking on the image of the post from the overview results in the entire image(s), the complete text with that post, the mentions and the hashtags that were used, with a big "Download" button at the bottom. Mentions and hashtags can be clicked from this view, which could lead to other pivot points.
+
+Below that the number of likes and the number of comments are shown. These 2 numbers are not clickable. The comments are shown together with the accounts that posted the comments.&#x20;
+
+Clicking on the enlarge icon from the overview results in the larger version of the first image of the post. If there are more than one, the rest will not be shown.&#x20;
+
+Clicking on the download icon from the overview results in the file explorer to choose where the file needs to be downloaded to. Downloaded images can be edited.
 
 ## Cost
 
@@ -18,7 +38,7 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+
 
 ## Level of difficulty
 
@@ -26,32 +46,35 @@ https://example.com
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+There are no specific requirements to use this tool other than an internet connection and a device to use the URL.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+There are no limitations found at the time of writing.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Being able to download content that is not owned or created by the person who uses Picuki could lead to infringement of intellectual property rights which in turn could lead to legal consequences.
+
+Picuki can be used anonymously, which could raise worry in terms of respecting the privacy of the creators of the content when images are downloaded. The account holder does not know their account is viewed, so this anonymous access could be considered stalking if accessing someone else's account happens repeatedly.
+
+Picuki is a third-party tool which uses Instagram's public API to fetch the data. As such it should be used with caution in respect to privacy, legality and account security.
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+There a multiple places where this tool is explained, for instance from Upstanding Hackers [here](https://www.upstandinghackers.com/what-is-picuki-and-how-to-use-it-the-ultimate-guide/), as well as YouTube videos [here](https://www.youtube.com/watch?v=ZMBE7LSPAMY),&#x20;
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+The tool provider is [Picuki.com](https://www.picuki.com). There is a statement om their 'About Us" page [here](https://www.picuki.com/page/about).
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat volunteer team |
+|                           |
