@@ -18,9 +18,9 @@ This is your place to discover tools! Our toolkit includes satellite and mapping
 
 On the left hand side, you can see all available categories (for instance, Maps & Satellites or Geolocation). Click on these category names to enter the tool lists.
 
-If you click on "Details" on the right hand side of each entry in the tool list (if available) you will receive an in-depth description of the tool.&#x20;
+Click on the name of the tool to view an in-depth description of the tool.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-08 at 23.49.48.png" alt="" width="563"><figcaption></figcaption></figure>
+On the right hand side of each entry in the tool list is a direct link to the tool website.
 
 You can also download the tool lists for each category [in csv format](https://github.com/bellingcat/toolkit/releases/tag/csv).&#x20;
 
