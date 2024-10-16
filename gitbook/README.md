@@ -18,7 +18,7 @@ This is your place to discover tools! Our toolkit includes satellite and mapping
 
 On the left hand side, you can see all available categories (for instance, Maps & Satellites or Geolocation). Click on these category names to enter the tool lists.
 
-Click on the name of the tool to view an in-depth description of the tool.
+Click on the name of the tool to view an in-depth description of the tool (if available).
 
 On the right hand side of each entry in the tool list is a direct link to the tool website.
 
