@@ -98,7 +98,7 @@ Aleph provides a range of tools and mechanisms to aid investigations. They are s
 
 No account is necessary to use Aleph.
 
-If you want to export the results of your search, you have to create a free account, which requires you to submit evidence of relevant previous work (reports, articles, etc.), the name of the organization you are affiliated with and you role there. The same goes for creating research project spaces.&#x20;
+If you want to export the results of your search, you have to create a free account, which requires you to submit evidence of relevant previous work (reports, articles, etc.), the name of the organization you are affiliated with and your role there. The same goes for creating research project spaces.&#x20;
 
 Some datasets are only accessible to approved users. To be approved, you must sign up using [this form](https://occrp.atlassian.net/servicedesk/customer/portal/14).
 
