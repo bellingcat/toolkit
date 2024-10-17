@@ -50,7 +50,9 @@ There are no specific requirements to use this tool other than an internet conne
 
 ## Limitations
 
-There are no limitations found at the time of writing.
+The limitation for this tool to be helpful, is that the Instagram account that is being investigated has to be a public account. Private accounts will not yield any results.
+
+Furthermore, while Picuki states on their [About](https://www.picuki.com/page/about) page that it is not affililated with Instagram or Meta, this means that they may be in violation of Instagram's terms of service.
 
 ## Ethical Considerations
 
@@ -62,11 +64,11 @@ Picuki is a third-party tool which uses Instagram's public API to fetch the data
 
 ## Guides and articles
 
-There a multiple places where this tool is explained, for instance from Upstanding Hackers [here](https://www.upstandinghackers.com/what-is-picuki-and-how-to-use-it-the-ultimate-guide/), as well as YouTube videos [here](https://www.youtube.com/watch?v=ZMBE7LSPAMY),&#x20;
+There are some places where this tool is explained, for instance from Upstanding Hackers [here](https://www.upstandinghackers.com/what-is-picuki-and-how-to-use-it-the-ultimate-guide/), as well as a YouTube videos [here](https://www.youtube.com/watch?v=ZMBE7LSPAMY). &#x20;
 
 ## Tool provider
 
-The tool provider is [Picuki.com](https://www.picuki.com). There is a statement om their 'About Us" page [here](https://www.picuki.com/page/about).
+The tool provider is [Picuki.com](https://www.picuki.com). There is a statement on their 'About Us" page [here](https://www.picuki.com/page/about).
 
 ## Advertising Trackers
 
