@@ -51,7 +51,7 @@ Some examples of search operators that can be used instead of the advanced searc
 
 AND operator - searches matches in which each result must contain both the keywords, but won't return matches that only contain just one of those keywords, for example **Russia AND Medvedev**.
 
-OR operator - searches all matches that contain one or the other search keyord, or both, for example **Russia OR Medvedev**.
+OR operator - searches all matches that contain one or the other search keyword, or both, for example **Russia OR Medvedev**.
 
 Searches can be as intricate as you want them to be, for example +Medved\~2 AND (Moscow OR Kremlin OR Krasnodar) -Putin. Additionally, these searches work in Cyrillic.
 {% endhint %}
