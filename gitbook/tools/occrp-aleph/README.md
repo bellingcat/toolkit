@@ -28,7 +28,7 @@ To view a particular entry, click on the hyperlink you are interested in. This o
 
 <figure><img src=".gitbook/assets/Ale3.png" alt="" width="563"><figcaption><p>View of a selected document from the results page </p></figcaption></figure>
 
-The OCCRP Aleph website has a handy [video tutorial](https://www.youtube.com/watch?v=I3AxSMBzJ14) how to search and filter data as well as written detailed instructions on [search basics](https://docs.aleph.occrp.org/users/search/basics/).&#x20;
+The OCCRP Aleph website has a handy [video tutorial](https://www.youtube.com/watch?v=I3AxSMBzJ14) on how to search and filter data as well as written detailed instructions on [search basics](https://docs.aleph.occrp.org/users/search/basics/).&#x20;
 
 ### How to perform an advanced search
 
