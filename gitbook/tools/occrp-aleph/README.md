@@ -125,7 +125,7 @@ OCCRP: [How to Search, Use Filters, and Set Alerts](https://www.youtube.com/watc
 Humber College's StoryLab: [Using OCCRP’s Aleph for Dark Web Data Analysis](https://humberstorylab.ca/projects/general/using-occrps-aleph-for-dark-web-data-analysis/)
 
 {% embed url="https://www.youtube.com/watch?v=-5-7Q7e1f6w" %}
-A detailed on introduction to Aleph
+A detailed introduction to Aleph
 {% endembed %}
 
 [OCCRP Aleph trailer](https://www.youtube.com/watch?v=nqUByNDPqnE)
