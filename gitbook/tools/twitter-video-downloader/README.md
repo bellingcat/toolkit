@@ -28,7 +28,7 @@ Takes a URL for a tweet with a video and returns links to download the video in 
 
 ## Requirements
 
-Internet
+Internet, web browser
 
 ## Tool provider
 
@@ -40,7 +40,7 @@ Tool site only provides an e-mail address: vssmartniceman97@gmail.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page Maintainer |
-| --------------- |
-| Cass            |
-|                 |
+| Page Maintainer                  |
+| -------------------------------- |
+| Cass - Bellingcat Volunteer Team |
+|                                  |
