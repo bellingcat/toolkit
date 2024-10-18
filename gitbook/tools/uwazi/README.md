@@ -125,7 +125,7 @@ You can view the full showcase [here](https://uwazi.io/en/page/k5htkcauq7i/showc
 
 Uwazi uses cookies on its websites and applications to improve functionality, track usage statistics, facilitate navigation, and enable social media sharing. First-party and third-party cookies are used, including session cookies, persistent cookies, and pixel tags. Users can control cookies through their browser settings, but disabling them may limit functionality. Service providers like WordPress, Google Analytics, and Facebook also use cookies on Uwazi platforms.
 
-| Page maintainer |
-| --------------- |
-| Martin Sona     |
-| Cass Troy       |
+| Page maintainer                       |
+| ------------------------------------- |
+| Martin Sona                           |
+| Cass Troy - Bellingcat Volunteer Team |
