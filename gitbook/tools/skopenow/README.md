@@ -38,7 +38,7 @@ Products available to license include:
 
 ## Requirements
 
-For individual and corporation searches, the tool requires a name and at least one other piece of identifiable information (ie, social media username, phone number, email, address, city, etc.).
+For individual and corporation searches, the tool requires a name and at least one other piece of identifiable information (ie, social media username, phone number, email, address, city, etc.). Paid accounts also require vetting by Skopenow personnel.
 
 ## Limitations
 
@@ -46,7 +46,7 @@ Data returned is limited to publicly available information, and requires a fair 
 
 ## Ethical Considerations
 
-\-
+While all of the information collected in a report is publicly available in some way, reports on individuals do paint a fairly comprehensive picture of their personal information. This information must be used and shared responsibly.
 
 ## Guide
 
@@ -64,6 +64,6 @@ Skopenow is a privately held for profit company, based in New York, NY. Their se
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Cass            |
+| Page maintainer                  |
+| -------------------------------- |
+| Cass - Bellingcat Volunteer Team |
