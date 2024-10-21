@@ -1558,5 +1558,13 @@
     "members": 1,
     "spaces": 1,
     "createdAt": "2024-03-28T16:53:42.448Z"
+  },
+  {
+    "object": "team",
+    "id": "RTpFFg9nualKkXZAq6sZ",
+    "title": "Open Ownership",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2024-10-21T08:37:30.324Z"
   }
 ]
