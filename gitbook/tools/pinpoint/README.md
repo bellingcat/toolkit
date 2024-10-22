@@ -15,7 +15,7 @@ description: >-
 
 Pinpoint is a research tool designed to assist journalists and academics in examining and analyzing large document collections. With Pinpoint, users can upload and search through documents, images, emails, handwritten notes, and audio files to find specific keywords, locations, organizations, or individuals. It’s part of the [Journalist Studio](https://journaliststudio.google.com/), Google’s free tool kit for research, data analysis, and data visualization.
 
-Users can store up to 200,000 documents in each collection, extract text from handwritten documents to make them searchable, query text from images, transcribe audio recordings and search for identifiers in image collections. For example, using Pinpoint, you can search for mentions of "abuse" or "violence" in Washington Post's public collection of COVID-19 Nursing Home Inspections:
+Users can store up to 200,000 documents in each collection, extract text from handwritten documents to make them searchable, query text from images, transcribe audio recordings and search for identifiers in image collections. For example, using Pinpoint, you can search for mentions of "abuse" or "violence" in [Washington Post's public collection of COVID-19 Nursing Home Inspections](https://journaliststudio.google.com/pinpoint/search?collection=989c939c11b20432):
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -31,9 +31,9 @@ Users can store up to 200,000 documents in each collection, extract text from ha
 
 ## Requirements
 
-Anyone with a [Google account](https://support.google.com/pinpoint/answer/11948321?hl=en) can browse and use public collections by other organizations. However, you need to certify that you are an academic or a journalist in order to use the platform to work with your own documents.
+Anyone with a [Google account](https://support.google.com/pinpoint/answer/11948321?hl=en) can browse and use public collections by other organizations. However, you need to certify that you are an academic or a journalist in order to use the platform for your own documents.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>The sign-up process requires information like the user's full name and the name of the employer.</p></figcaption></figure>
 
 ## Limitations & Ethical Considerations
 
