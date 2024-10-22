@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Edgar Suite](README.md)
+* [EDGAR Command Line Interface (edgar-tool)](README.md)
 * [Categories](categories.md)
