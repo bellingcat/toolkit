@@ -2,7 +2,7 @@
 description: >-
   A tool by Google to catalogue uploaded documents and files, providing OCR,
   indexing, and other services. Full access only granted to journalists,
-  academic researchers and students.
+  academic researchers and university students.
 ---
 
 # Pinpoint
