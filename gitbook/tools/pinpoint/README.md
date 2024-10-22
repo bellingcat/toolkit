@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-https://journaliststudio.google.com/pinpoint/about
+[https://journaliststudio.google.com/pinpoint/about](https://journaliststudio.google.com/pinpoint/about)
 
 ## Description
 
