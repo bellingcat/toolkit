@@ -8,6 +8,8 @@ description: >-
 
 ## URL
 
+[https://pypi.org/project/edgar-tool/](https://pypi.org/project/edgar-tool/)
+
 * Source code is freely available on [GitHub](https://github.com/bellingcat/EDGAR)
 * Users can download `edgar-tool` (the CLI) directly from [PyPI](https://pypi.org/project/edgar-tool/)
 
