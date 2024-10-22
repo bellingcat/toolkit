@@ -31,7 +31,7 @@ Users can store up to 200,000 documents in each collection, extract text from ha
 
 ## Requirements
 
-No requirements, including Google account, to browse and use public collections by other organizations. But you need to certify that you are an academic or a researcher to Google in order to upload documents.&#x20;
+Anyone with a [Google account](https://support.google.com/pinpoint/answer/11948321?hl=en) can browse and use public collections by other organizations. However, you need to certify that you are an academic or a journalist in order to use the platform to work with your own documents.
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
