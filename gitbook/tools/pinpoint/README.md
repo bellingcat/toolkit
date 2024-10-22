@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-Pinpoint is a research tool designed to assist journalists and academics in examining and analyzing large document collections. With Pinpoint, users can upload and search through hundreds of thousands of documents, images, emails, handwritten notes, and audio files to find specific keywords, locations, organizations, or individuals. It’s part of the [Journalist Studio](https://journaliststudio.google.com/), Google’s free tool kit for research, data analysis, and data visualization.
+Pinpoint is a research tool designed to assist journalists and academics in examining and analyzing large document collections. With Pinpoint, users can upload and search through documents, images, emails, handwritten notes, and audio files to find specific keywords, locations, organizations, or individuals. It’s part of the [Journalist Studio](https://journaliststudio.google.com/), Google’s free tool kit for research, data analysis, and data visualization.
 
 Users can store up to 200,000 documents in each collection, extract text from handwritten documents to make them searchable, query text from images, transcribe audio recordings and search for identifiers in image collections. For example, using Pinpoint, you can search for mentions of "abuse" or "violence" in Washington Post's public collection of COVID-19 Nursing Home Inspections:
 
