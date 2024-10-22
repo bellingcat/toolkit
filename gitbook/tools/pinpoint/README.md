@@ -43,6 +43,8 @@ We recommend exercising caution and/or checking with your parent organization be
 
 According to [Pinpoint Additional Terms of Service](https://support.google.com/pinpoint/answer/13071911?hl=en), "if you upload content to Pinpoint, you give Google permission to use that content, including to operate and promote Pinpoint, in accordance with the [Google Terms of Service](https://policies.google.com/terms) and [Google’s Privacy Policy](https://policies.google.com/privacy)."&#x20;
 
+Keep in mind that Pinpoint's generative AI features are currently only available in a [list of countries](https://support.google.com/pinpoint/answer/14338615?hl=en#support\_countries).&#x20;
+
 ## Guides and articles
 
 [Getting Started with Pinpoint](https://journaliststudio.google.com/pinpoint/getting-started), and [video ](https://newsinitiative.withgoogle.com/resources/trainings/pinpoint/video-getting-started-with-pinpoint/)
