@@ -20,7 +20,7 @@ Reports generated from the system forensically capture screen captures, metadata
 * [ ] Partially Free
 * [x] Paid
 
-There is a free trial available, followed by multiple subscription tiers. Users must be vetted by Skopenow. Subscription packages range from $1200-$20,000 per year, depending on packages included in the subscription.
+There is a free trial available, followed by multiple subscription tiers. Users must be vetted by Skopenow. The price depends on packages included in the subscription but can reach a five-figure range.
 
 Products available to license include:
 
@@ -29,8 +29,6 @@ Products available to license include:
 * [Grid](https://www.skopenow.com/grid) (situational awareness)
 * [Analyst Help](https://www.skopenow.com/analyst-help) (hourly analyst assistance)
 * [Pre-Check](https://www.skopenow.com/pre-check) (automated fraud risk)
-
-<figure><img src=".gitbook/assets/Screenshot 2024-09-25 122816.png" alt=""><figcaption><p>List of search options that can be used as part of Skopenow's Workbench product.</p></figcaption></figure>
 
 ## Level of difficulty
 
