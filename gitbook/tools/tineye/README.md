@@ -18,7 +18,7 @@ TinEye can help a user locate the original source of an image, locate related im
 * [ ] Partially Free
 * [ ] Paid
 
-TinEye does offer a paid service that allows a subscriber to track where and how their images appear online. The first month is 420 USD and each month after is 310 USD. TinEye also limits searches to 100 per day and 300 per week.
+TinEye is free for non-commercial use. It does offer a paid service that allows a subscriber to track where and how their images appear online. The first month is 420 USD and each month after is 310 USD. TinEye also limits searches to 100 per day and 300 per week.
 
 ## Level of difficulty
 
