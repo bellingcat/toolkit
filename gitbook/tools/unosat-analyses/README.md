@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-The UNOSAT Analyses map library includes all public analyses, data and other products produced by UNOSAT in response to humanitarian emergencies related to (environmental) disasters, complex emergencies and conflict situations.
+The UNOSAT Analyses map library includes public analyses, data and other products produced by UNOSAT in response to humanitarian emergencies related to (environmental) disasters, complex emergencies and conflict situations.
 
 The map marks 'activations' such as famines, flash floods, fires, complex emergencies, and more. A search function is available, and the tool allows for filtering by date, activation type, country, and events that invoked the [International Charter "Space and Major Disasters"](https://en.wikipedia.org/wiki/International\_Charter\_'Space\_and\_Major\_Disasters') (an agreement in which satellite data is transmitted to relief organizations in the event of major disasters).
 
