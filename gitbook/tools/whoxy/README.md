@@ -82,5 +82,5 @@ The tool provider is Whoxy.com, powered by [Autowhois.com](https://www.autowhois
 
 | Page maintainer           |
 | ------------------------- |
-| Bellingcat volunteer team |
+| Bellingcat Volunteer Team |
 |                           |
