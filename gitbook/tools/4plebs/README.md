@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-https://4plebs.org/
+[https://4plebs.org/](https://4plebs.org/)
 
 ## Description
 
@@ -68,7 +68,7 @@ To effectively use 4plebs, especially for beginners or those looking to refine t
 
 * [_The Folly of DALL-E: How 4chan is Abusing Bing’s New Image Model_](https://www.bellingcat.com/news/2023/10/06/the-folly-of-dall-e-how-4chan-is-abusing-bings-new-image-model/) by Bellingcat
 * [_Where in the World is Q? Clues from Image Metadata_](https://www.bellingcat.com/news/rest-of-world/2021/05/10/where-in-the-world-is-q-clues-from-image-metadata/) by Bellingcat
-* [_The Measure of Hate on 4chan_](https://www.rollingstone.com/politics/politics-news/the-measure-of-hate-on-4chan-627922/) by R. Thompson
+* [_The Measure of Hate on 4chan_](https://www.rollingstone.com/politics/politics-news/the-measure-of-hate-on-4chan-627922/) by R. Thompson for Rolling Stone
 
 #### Developer Resources
 
