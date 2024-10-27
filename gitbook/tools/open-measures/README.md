@@ -73,7 +73,7 @@ When using Open Measures for research purposes, it's imperative to consider the 
 * **Privacy and Consent**: Although Open Measures archives public posts, researchers should be mindful of the privacy expectations of individuals who made those posts. Not all users understand or anticipate their contributions being analyzed or quoted in research.
 * **Bias and Representativeness**: Acknowledge that the data collected from Open Measures may not be representative of broader populations or viewpoints. Research findings should be contextualized within the scope and limitations of the data source.
 * **Ethical Use of Content**: Be cautious and respectful when using content that may be sensitive, offensive, or controversial. Researchers should critically evaluate the necessity and implications of including such content in their work.
-* **The Oxygen of Amplification**_**:**_ Think carefully about what you publish not to unwittingly amplify some of the messaging present on 4Chan (_See_ [_The Oxygen of Amplification: Better Practices for Reporting on Extremists, Antagonists, and Manipulators Online_](https://datasociety.net/library/oxygen-of-amplification/) _by Whitney Phillips)._
+* **The Oxygen of Amplification**_**:**_ Think carefully about what you publish not to unwittingly amplify some of the messaging present on fringe platforms. (_See_ [_The Oxygen of Amplification: Better Practices for Reporting on Extremists, Antagonists, and Manipulators Online_](https://datasociety.net/library/oxygen-of-amplification/) _by Whitney Phillips)._
 
 Considering these ethical guidelines will help maintain the integrity of your research and protect the rights and dignity of individuals whose posts might be included in your study.
 
@@ -90,15 +90,15 @@ To effectively use Open Measures, especially for beginners or those looking to r
 
 * [_A New Open-Source Tool for Tracking Disinformation_](https://foundation.mozilla.org/en/blog/new-open-source-tool-tracking-disinformation/) by Mozilla
 * [_The Social Media Analysis Toolkit (SMAT)_](https://counteringdisinformation.org/interventions/social-media-analysis-toolkit-smat) by Countering Disinformation
-* [_Far-Right Platform Gab Has Been Hacked—Including Private Data_](https://www.wired.com/story/gab-hack-data-breach-ddosecrets/) by Andy Greenberg for **Wired**
-* [_How the far-right harnessed tech in the lead-up to the Capitol riot_](https://abcnews.go.com/Politics/harnessed-tech-lead-capitol-riot/story?id=74761628) by Samara Lynn for **ABC News**
-* [_How the far right tore apart one of the best tools to fight voter fraud_](https://www.npr.org/2023/06/04/1171159008/eric-investigation-voter-data-election-integrity) by Miles Parks for **NPR**
+* [_Far-Right Platform Gab Has Been Hacked—Including Private Data_](https://www.wired.com/story/gab-hack-data-breach-ddosecrets/) by Andy Greenberg for Wired
+* [_How the far-right harnessed tech in the lead-up to the Capitol riot_](https://abcnews.go.com/Politics/harnessed-tech-lead-capitol-riot/story?id=74761628) by Samara Lynn for ABC News
+* [_How the far right tore apart one of the best tools to fight voter fraud_](https://www.npr.org/2023/06/04/1171159008/eric-investigation-voter-data-election-integrity) by Miles Parks for NPR
 
 **Use Cases**
 
-* [_Amidst the election, a new network map analyzes politicians’ tweets_](https://blog.opencollective.com/smat/) by Alanna Irving for **Open Collective**
+* [_Amidst the election, a new network map analyzes politicians’ tweets_](https://blog.opencollective.com/smat/) by Alanna Irving for Open Collective
 * [_War Criminals on VKontakte_](https://blog.openmeasures.io/p/vk-war-criminals) by Open Measures
-* [_Open-source intelligence for investigating war crimes_](https://blog.opencollective.com/open-source-intelligence-smat/) by Elena Rubashevska for **Open Collective**
+* [_Open-source intelligence for investigating war crimes_](https://blog.opencollective.com/open-source-intelligence-smat/) by Elena Rubashevska for Open Collective
 
 **Video Tutorials**
 
