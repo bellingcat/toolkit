@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-[https://openmeasures.io/](https://openmeasures.io/)
+[https://public.openmeasures.io/](https://public.openmeasures.io/timeline?searchTerm=qanon\&startDate=2023-10-27\&endDate=2024-04-26\&websites=gab\&numberOf=10\&interval=day\&changepoint=false\&esquery=content\&hostRegex=true)
 
 ## Description
 
@@ -73,7 +73,7 @@ When using Open Measures for research purposes, it's imperative to consider the 
 * **Privacy and Consent**: Although Open Measures archives public posts, researchers should be mindful of the privacy expectations of individuals who made those posts. Not all users understand or anticipate their contributions being analyzed or quoted in research.
 * **Bias and Representativeness**: Acknowledge that the data collected from Open Measures may not be representative of broader populations or viewpoints. Research findings should be contextualized within the scope and limitations of the data source.
 * **Ethical Use of Content**: Be cautious and respectful when using content that may be sensitive, offensive, or controversial. Researchers should critically evaluate the necessity and implications of including such content in their work.
-* **The Oxygen of Amplification**_**:**_ Think carefully about what you publish not to unwittingly amplify some of the messaging present on 4Chan (see: Phillips, W. (2018) _The Oxygen of Amplification_, _Data & Society_. Data & Society Research Institute. Available at: [https://datasociety.net/library/oxygen-of-amplification/](https://datasociety.net/library/oxygen-of-amplification/) (Accessed: 22 April 2024)).
+* **The Oxygen of Amplification**_**:**_ Think carefully about what you publish not to unwittingly amplify some of the messaging present on 4Chan (_See_ [_The Oxygen of Amplification: Better Practices for Reporting on Extremists, Antagonists, and Manipulators Online_](https://datasociety.net/library/oxygen-of-amplification/) _by Whitney Phillips)._
 
 Considering these ethical guidelines will help maintain the integrity of your research and protect the rights and dignity of individuals whose posts might be included in your study.
 
@@ -88,30 +88,26 @@ To effectively use Open Measures, especially for beginners or those looking to r
 
 **Tutorials and Articles**
 
-* _A New Open-Source Tool for Tracking Disinformation_ (2020) _Mozilla Foundation_. Available at: [https://foundation.mozilla.org/en/blog/new-open-source-tool-tracking-disinformation/](https://foundation.mozilla.org/en/blog/new-open-source-tool-tracking-disinformation/) (Accessed: 25 April 2024).
-* _A Social Media Analysis Toolkit for Mediators and Peacebuilders - Overview_ (no date). Available at: [https://howtobuildup.org/rise/social-media-toolkit/#/](https://howtobuildup.org/rise/social-media-toolkit/#/) (Accessed: 25 April 2024).
-* Bevensee, E. _et al._ (no date) ‘SMAT: The Social Media Analysis Toolkit’.&#x20;
-* _The Social Media Analysis Toolkit (SMAT) | Countering Disinformation_ (no date). Available at: [https://counteringdisinformation.org/interventions/social-media-analysis-toolkit-smat](https://counteringdisinformation.org/interventions/social-media-analysis-toolkit-smat) (Accessed: 25 April 2024).
+* [_A New Open-Source Tool for Tracking Disinformation_](https://foundation.mozilla.org/en/blog/new-open-source-tool-tracking-disinformation/) by Mozilla
+* [_The Social Media Analysis Toolkit (SMAT)_](https://counteringdisinformation.org/interventions/social-media-analysis-toolkit-smat) by Countering Disinformation
+* [_Far-Right Platform Gab Has Been Hacked—Including Private Data_](https://www.wired.com/story/gab-hack-data-breach-ddosecrets/) by Andy Greenberg for **Wired**
+* [_How the far-right harnessed tech in the lead-up to the Capitol riot_](https://abcnews.go.com/Politics/harnessed-tech-lead-capitol-riot/story?id=74761628) by Samara Lynn for **ABC News**
+* [_How the far right tore apart one of the best tools to fight voter fraud_](https://www.npr.org/2023/06/04/1171159008/eric-investigation-voter-data-election-integrity) by Miles Parks for **NPR**
 
 **Use Cases**
 
-* _Amidst the election, a new network map analyzes politicians’ tweets_ (2020) _Open Collective_. Available at: [https://blog.opencollective.com/smat/](https://blog.opencollective.com/smat/) (Accessed: 25 April 2024).
-* Measures, O. (2022) _War Criminals on VKontakte_. Available at: [https://blog.openmeasures.io/p/vk-war-criminals](https://blog.openmeasures.io/p/vk-war-criminals) (Accessed: 25 April 2024).
-* _Open-source intelligence for investigating war crimes_ (2022) _Open Collective_. Available at: [https://blog.opencollective.com/open-source-intelligence-smat/](https://blog.opencollective.com/open-source-intelligence-smat/) (Accessed: 25 April 2024).
+* [_Amidst the election, a new network map analyzes politicians’ tweets_](https://blog.opencollective.com/smat/) by Alanna Irving for **Open Collective**
+* [_War Criminals on VKontakte_](https://blog.openmeasures.io/p/vk-war-criminals) by Open Measures
+* [_Open-source intelligence for investigating war crimes_](https://blog.opencollective.com/open-source-intelligence-smat/) by Elena Rubashevska for **Open Collective**
 
 **Video Tutorials**
 
-* _Social Media Analysis Toolkit (SMAT) | Open-Source Tool for Tracking Disinformation_ (2020). Available at: [https://www.youtube.com/watch?v=ORnJcZWYDdM](https://www.youtube.com/watch?v=ORnJcZWYDdM) (Accessed: 25 April 2024).
-* Greenberg, A. (no date) ‘Far-Right Platform Gab Has Been Hacked—Including Private Data’, _Wired_. Available at: [https://www.wired.com/story/gab-hack-data-breach-ddosecrets/](https://www.wired.com/story/gab-hack-data-breach-ddosecrets/) (Accessed: 25 April 2024).
-* _How the antifa conspiracy theory traveled from the fringe to the floor of Congress_ (2021). Available at: [https://eu.usatoday.com/in-depth/news/2021/01/12/how-antifa-conspiracy-theory-traveled-fringe-floor-congress/6620908002/](https://eu.usatoday.com/in-depth/news/2021/01/12/how-antifa-conspiracy-theory-traveled-fringe-floor-congress/6620908002/) (Accessed: 25 April 2024).
-* News, A.B.C. (no date) _How the far-right harnessed tech in the lead-up to the Capitol riot_, _ABC News_. Available at: [https://abcnews.go.com/Politics/harnessed-tech-lead-capitol-riot/story?id=74761628](https://abcnews.go.com/Politics/harnessed-tech-lead-capitol-riot/story?id=74761628) (Accessed: 25 April 2024).
-* Parks, M. (2023) ‘How the far right tore apart one of the best tools to fight voter fraud’, _NPR_, 6 June. Available at: [https://www.npr.org/2023/06/04/1171159008/eric-investigation-voter-data-election-integrity](https://www.npr.org/2023/06/04/1171159008/eric-investigation-voter-data-election-integrity) (Accessed: 25 April 2024).
-* Popper, N. (2021) ‘They Found a Way to Limit Big Tech’s Power: Using the Design of Bitcoin’, _The New York Times_, 26 January. Available at: [https://www.nytimes.com/2021/01/26/technology/big-tech-power-bitcoin.html](https://www.nytimes.com/2021/01/26/technology/big-tech-power-bitcoin.html) (Accessed: 25 April 2024).
+* [_Social Media Analysis Toolkit (SMAT) | Open-Source Tool for Tracking Disinformation_](https://www.youtube.com/watch?v=ORnJcZWYDdM) by [TechForum ](https://www.youtube.com/@Tech-Forum)on YouTube
 
 #### Developer Resources
 
 * [https://docs.openmeasures.io/docs/guides/public-api](https://docs.openmeasures.io/docs/guides/public-api)
-* Full API doco: [https://api.smat-app.com/docs](https://api.smat-app.com/docs)
+* Full API doc: [https://api.smat-app.com/docs](https://api.smat-app.com/docs)
 
 **Community and Support**
 
