@@ -14,7 +14,7 @@ description: >-
 
 LittleSis is a wiki database that houses information from a range of online sources on powerful individuals and organisations in the public and private sectors in the Unites States. It seeks to show the relationships between those individuals and organisations, with the aim of helping users to track relationships (e.g. donations to politicians and political action committees, also called PACs, and board memberships). This should help the user to follow the money and connect those that hold public and private sector power.
 
-It is maintained through automatic updates and manual edits. Links to data sources are provided.
+According to their [website](https://littlesis.org/database), LittleSis includes websites from "government filings, news articles, and other reputable sources". It is maintained through automatic updates and manual edits. Links to data sources are provided.
 
 Here's an example of a person's page:
 
