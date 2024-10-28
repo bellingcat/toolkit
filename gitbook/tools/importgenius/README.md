@@ -1,5 +1,5 @@
 ---
-description: Commercial supplier of shipping data for 19 countries.
+description: Commercial supplier of shipment data for 19 countries.
 ---
 
 # ImportGenius
@@ -11,8 +11,6 @@ description: Commercial supplier of shipping data for 19 countries.
 ## Description
 
 ImportGenius is a paid-for online database of shipping data for countries including the US, Russia and India (see the full list [here](https://www.importgenius.com/how-it-works)). The data is sourced from country governments. It consists of bills of lading, which are legal documents detailing the type, quantity and destination of the goods being transported:&#x20;
-
-ImportGenius is a paid-for online database of shipping data for countries including the US, Russia and India (see the [full list](https://www.importgenius.com/how-it-works)). The data is sourced from country governments. It consists of bills of lading, which are legal documents detailing the type, quantity and destination of the goods being transported:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-22 at 13.14.57.png" alt=""><figcaption><p>Screengrab of a CSV of a sample of data for India</p></figcaption></figure>
 
@@ -28,7 +26,7 @@ Panjiva and PIERS are similar paid-for services, with some different country cov
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-15 at 13.32.51.png" alt=""><figcaption><p>Screenshot from importgenius.com</p></figcaption></figure>
 
-ImportGenius does not have a free search. An OSINT investigator might find it worth paying for access for a limited time as this data is not generally available for free. (It is for the US, through [ImportYeti](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/GJyHaCYBR6gnNIW1tHhY/).) It costs US$199 per month. Their Russia data is only available on an annual subscription and is updated every six months (it used to be updated more frequently, until the war with the Ukraine started in 2022).
+ImportGenius does not have a free search. An OSINT investigator might find it worth paying for access for a limited time as this data is not generally available for free. (It is for the US, through[ ImportYeti](https://bellingcat.gitbook.io/toolkit/more/all-tools/importyeti).) It costs US$199 per month. Their Russia data is only available on an annual subscription and is updated every six months (it used to be updated more frequently, until the war with the Ukraine started in 2022).
 
 Free training is available for subscribers, even if you sign up for one month.
 
