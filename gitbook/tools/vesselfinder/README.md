@@ -74,13 +74,15 @@ Additionally, here's a quick overview of the different capabilities and menus av
 * [x] Partially Free
 * [ ] Paid
 
-The free version requires a subscription to use and includes 1  day of track history, 10 ships tracked, 1 port call check and 100 route planners.&#x20;
+The free version includes 1  day of track history, 10 ships tracked, 1 port call check and 100 route planners.&#x20;
 
 The _Satellite_ package offers unlimited global coverage, access to undelayed satellite position data for any ship in the world, unlimited number of tracked ships, no limits оn the number of tracked ships via satellite and terrestrial AIS network. **This is the only package that offers container tracking**. Pricing is available at [this page](https://www.vesselfinder.com/satellite-ais).
 
 The Premium package offer includes 7 days of track history, 500 ships tracked, 5 port call checks and 500 route planners. Pricing is available [here](https://www.vesselfinder.com/get-premium).&#x20;
 
 Container tracking data and dashboards are available for [purchase separately](https://www.vesselfinder.com/container-tracking) if needed, prices are based on the number of containers tracked with the lowest being 1 container.&#x20;
+
+You can find an overview of all plans [here.](https://www.vesselfinder.com/get-premium)
 
 ## Level of difficulty
 
