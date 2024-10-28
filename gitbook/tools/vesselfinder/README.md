@@ -102,7 +102,7 @@ Some additional features are paid. Refer above to the cost section for detailed 
 
 Almost all vessels are privately-owned, so there should be considerations if this information is used as part of research meant for the wider public. Additional research in vessel ownership is advisable.
 
-Some of the vessels are government-owned and a small part of those are intended for military use. This can pose hurdles if in-depth research is needed as it may require obtaining additional information from official sources to present a balanced picture, especially if the research or pars of it are meant to be read by a wide audience.
+Some of the vessels are government-owned and a small part of those are intended for military use. This can pose hurdles if in-depth research is needed as it may require obtaining additional information from official sources to present a balanced picture, especially if the research or parts of it are meant to be read by a wide audience.
 
 ## Guides and articles
 
