@@ -1,6 +1,6 @@
 ---
-description: Live marine vessel tracker.
 icon: ship
+description: Live marine vessel tracker.
 ---
 
 # VesselFinder
@@ -15,7 +15,7 @@ icon: ship
 
 VesselFinder is a maritime tracking application and an online desktop tool that provides real-time data on vessel movements globally. Its offers detailed insights into maritime activities, shipping patterns, and vessel operations. The tool also features a [news section](https://www.vesselfinder.com/news) with selected maritime-related information.
 
-After creating an account, users can access a search portal to search for vessels by name, IMO  MMSI number, tonnage, flag, dimensions, etc., which can help to identify a vessel for which only some identifying information is known.
+After creating an account, users can access a search portal to search for vessels by name, IMO or MMSI number, tonnage, flag, dimensions, etc., which can help to identify a vessel for which only some identifying information is known.
 
 {% hint style="info" %}
 IMO numbers are unique, seven-digit tracking numbers assigned to ships and shipping companies by S\&P Global Market Intelligence on behalf of the International Maritime Organization. Unlike ship names and company names which can change, IMO numbers remain constant. More information about IMO numbers can be found on the [International Maritime Organization's website](https://www.imo.org/en/OurWork/IIIS/Pages/IMO-Identification-Number-Schemes.aspx).
