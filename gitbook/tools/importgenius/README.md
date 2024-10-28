@@ -10,7 +10,7 @@ description: Commercial supplier of shipment data for 19 countries.
 
 ## Description
 
-ImportGenius is a paid-for online database of shipping data for countries including the US, Russia and India (see the full list [here](https://www.importgenius.com/how-it-works)). The data is sourced from country governments. It consists of bills of lading, which are legal documents detailing the type, quantity and destination of the goods being transported (more information about the data sources can be found in their[ FAQs](https://www.importgenius.com/faq) in the section "Where does ImportGenius data come from?"):&#x20;
+ImportGenius is a paid-for online database of shipping data for countries including the US, Russia and India (see the full list [here](https://www.importgenius.com/how-it-works)). The data is sourced from country governments. It consists of bills of lading, which are legal documents detailing the type, quantity and destination of the goods being transported (more information about the data sources can be found in the[ FAQs](https://www.importgenius.com/faq) in the section "Where does ImportGenius data come from?"):&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-22 at 13.14.57.png" alt=""><figcaption><p>Screengrab of a CSV of a sample of data for India</p></figcaption></figure>
 
