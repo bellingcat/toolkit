@@ -32,7 +32,7 @@ Note that the data provided per country differs, and it is updated at different 
 
 Their plus plan costs [US$199](https://www.importgenius.com/pricing) per month and almost all their countries can be subscribed to on a monthly basis. Their Russia data is only available on an annual subscription and is updated every six months (it used to be updated more frequently, until the war with the Ukraine started in 2022).
 
-See their [pricing](https://www.importgenius.com/pricing) for US data. Enquire for other countries. Free training is available for subscribers.
+See their [pricing](https://www.importgenius.com/pricing) for US data. Enquire for other countries.&#x20;
 
 ## Level of difficulty
 
@@ -52,7 +52,7 @@ Country data is updated at different frequencies.
 
 ## Guides and articles
 
-\-
+Free training is available for subscribers.
 
 ## Tool provider
 
