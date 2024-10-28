@@ -42,11 +42,11 @@ LittleSis data is searchable online, can be accessed through an [API](https://li
 
 ## Requirements
 
-You have to sign up to use LittleSis.
+You have to sign up with an e-mail address to use LittleSis.
 
 ## Limitations
 
-It's not clear what criteria are used to determine whether data should be included in LittleSis or not. Database is focussed on the United States.
+It's not clear what criteria are used to determine whether data should be included in LittleSis or not. The database is focused on the United States.
 
 ## Ethical Considerations
 
