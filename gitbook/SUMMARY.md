@@ -156,3 +156,4 @@
   * [Skopenow](tools/skopenow/README.md)
   * [OCCRP Aleph](tools/occrp-aleph/README.md)
   * [UNOSAT Analyses](tools/unosat-analyses/README.md)
+  * [VesselFinder](tools/vesselfinder/README.md)
