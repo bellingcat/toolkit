@@ -18,7 +18,7 @@ ImportGenius does not have a free search. Some OSINT investigators might find it
 
 Note that the data provided per country differs, and it is updated at different frequencies per country - so it's worth having a demo before you subscribe. Ask about whether they cover shipping or other modes of transport for the countries in which you are interested.
 
-Panjiva and PIERS are similar paid-for services, with some different country coverage. They do not advertise their costs.
+[Panjiva](https://panjiva.com/) and [PIERS](https://www.spglobal.com/market-intelligence/en/solutions/products/piers) provide a similar service, with some different country coverage. They do not advertise their costs.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-15 at 13.32.51.png" alt=""><figcaption><p>Screenshot from importgenius.com</p></figcaption></figure>
 
@@ -28,7 +28,7 @@ Free training is available for subscribers, even if you sign up for one month.
 
 Note that the data provided per country differs, and it is updated at different frequencies per country - so it's worth having a demo before you subscribe.
 
-[Panjiva](https://panjiva.com/) and [PIERS](https://www.spglobal.com/market-intelligence/en/solutions/products/piers) provide a similar service, with some different country coverage. They do not advertise their costs.
+
 
 ## Cost
 
