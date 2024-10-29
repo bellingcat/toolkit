@@ -16,7 +16,7 @@ LittleSis is a database that houses information from a range of online sources o
 
 According to their [website](https://littlesis.org/database), LittleSis includes data from "government filings, news articles, and other reputable sources". It is maintained through automatic updates and manual edits. Links to data sources are provided.
 
-If you search from box at the top of the LittleSis main website (circled in green), you'll get LittleSis news articles:
+If you search for keywords via the search box at the top of the LittleSis main website (circled in green), you'll get LittleSis news articles:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-29 at 08.53.42.png" alt=""><figcaption><p>Search results from the LittleSis main website</p></figcaption></figure>
 
@@ -26,13 +26,13 @@ LittleSis' main offering is their database - to access it, click on 'Database' i
 
 When you search, you'll get a list of results (people or organisations). Here's an example of a person's page:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-10-29 at 09.00.54.png" alt=""><figcaption><p>A person's page with data housed in LittleSis</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-10-29 at 09.00.54.png" alt=""><figcaption><p>A person's page with data housed in LittleSis.</p></figcaption></figure>
 
 The person page has links to a wide range of relationships that the person has (for which LittleSis has data). The types of relationships in the example above include business positions, board memberships, positions, federal election campaign contributions, universities attended, holdings (companies in which they have ownership), family, and others.
 
 The 'Interlocks' tab lists people with positions in the same organisations as the person you searched - this can help you see the networks of people with whom they are associated. The 'Giving' tab lists people who also received donations from organisations and people to whom the person donated. The 'Data' tab allows you to filter and search the person's relationships. For instance, here are the lobbying firms in which Hunter Biden holds current or past positions:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-10-29 at 09.35.03.png" alt=""><figcaption><p>Example of a person's data tab</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-10-29 at 09.35.03.png" alt=""><figcaption><p>Example of Hunter Biden's data tab</p></figcaption></figure>
 
 Here's an example of an organisation's page:
 
@@ -42,9 +42,9 @@ An organisation page has the same kinds of information as a person's page.
 
 LittleSis includes 'network maps' for all entities (people and organisations):&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2024-09-25 at 14.59.22.png" alt=""><figcaption><p>A newwork map for Donald Trump</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-09-25 at 14.59.22.png" alt=""><figcaption><p>A network map for Donald Trump</p></figcaption></figure>
 
-Access the network maps from the a person or organisation's page search results page. The map will show you relationships that illustrate the topic of the map like donations (e.g. in the map above, Henry R Kravis donated US$1 million to Trump's inauguration). You can create your own maps, but you need to be registered to do that. (Once you have logged in, go to Add>Map.)
+Access the network maps from a person's or organisation's page search results page. The map will show you relationships that illustrate the topic of the map like donations (e.g. in the map above, Henry R Kravis donated US$1 million to Trump's inauguration). You can create your own maps, but you need to be registered to do that. (Once you have logged in, go to Add>Map.)
 
 LittleSis data is searchable online, can be accessed through an [API](https://littlesis.org/api), and can be [downloaded](https://littlesis.org/database/bulk\_data) as JSON files.
 
