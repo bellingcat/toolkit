@@ -62,6 +62,10 @@ If the user is interested in tracking information spread on the X platform, user
 
 For example: "Amazon deforestation" AND (illegal OR logging) has:videos
 
+**IMPORT YOUR OWN DATA**
+
+In addition to examining content from Bluesky and X, [users can also import their own data](https://hoaxy.osome.iu.edu/faq#faq-q30) into the tool’s visualization tool, as long as the data is in the required format: CSV and JSON.&#x20;
+
 #### **VISUALIZATION**
 
 Once users have entered the search terms, Hoaxy will generate a visualization containing two things: “Diffusion networks” and “temporal trends”.
