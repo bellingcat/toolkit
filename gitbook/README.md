@@ -34,13 +34,13 @@ Our Toolkit Guardians have a special role: They help us further develop this too
 
 **Our Toolkit Guardians:**
 
-Afton is a volunteer open-source investigator with training in digital investigations for use in human rights and criminal accountability. She is the Volunteer Toolkit Guardian for the category [Transport](https://bellingcat.gitbook.io/toolkit/categories/transport).
+_Afton_ is a volunteer open-source investigator with training in digital investigations for use in human rights and criminal accountability. She is the Volunteer Toolkit Guardian for the category [Transport](https://bellingcat.gitbook.io/toolkit/categories/transport).
 
-Anisa Shabir is a volunteer open-source researcher at Bellingcat's Global Authentication Project and holds an MA in investigative journalism from the Arizona State University's Howard Center for Investigative Journalism. Anisa is the Volunteer Toolkit Guardian for the category [Image/Video](https://bellingcat.gitbook.io/toolkit/categories/image-video).
+_Anisa Shabir_ is a volunteer open-source researcher at Bellingcat's Global Authentication Project and holds an MA in investigative journalism from the Arizona State University's Howard Center for Investigative Journalism. Anisa is the Volunteer Toolkit Guardian for the category [Image/Video](https://bellingcat.gitbook.io/toolkit/categories/image-video).
 
-Fraser Crichton is a researcher and technologist with experience in 3D modelling, satellite imagery and data visualisation and an interest in online ideologies. Fraser is the Volunteer Toolkit Guardian responsible for the [Geolocation](https://bellingcat.gitbook.io/toolkit/categories/geolocation) category, he is also contributing to the Maps and Satellites tool collection.
+_Fraser Crichton_ is a researcher and technologist with experience in 3D modelling, satellite imagery and data visualisation and an interest in online ideologies. Fraser is the Volunteer Toolkit Guardian responsible for the [Geolocation](https://bellingcat.gitbook.io/toolkit/categories/geolocation) category, he is also contributing to the Maps and Satellites tool collection.
 
-Lora is a linguist by education, media and corporate intel analyst by trade, and an occasional due diligence investigator. She is the Volunteer Toolkit Guardian for the [Companies & Finance](https://bellingcat.gitbook.io/toolkit/categories/companies-and-finance) category.
+_Lora_ is a linguist by education, media and corporate intel analyst by trade, and an occasional due diligence investigator. She is the Volunteer Toolkit Guardian for the [Companies & Finance](https://bellingcat.gitbook.io/toolkit/categories/companies-and-finance) category.
 
 
 
