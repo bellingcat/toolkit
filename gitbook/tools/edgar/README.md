@@ -1,5 +1,6 @@
 ---
 description: Database of corporate filings for the US
+icon: square-dollar
 ---
 
 # EDGAR
@@ -17,6 +18,8 @@ EDGAR is the primary system for companies and others submitting documents under 
 The EDGAR database provides access to corporate information, allowing research of public companies' financial information and operations. It also includes information provided by mutual funds (including money market funds), exchange-traded funds (ETFs), and variable annuities.
 
 Best uses are to track annual reports, top level management of companies, subsidiaries, shareholders, mergers & acquisitions.
+
+
 
 Search by keyword, company name, ticker symbol, location or the name of an individual.&#x20;
 
@@ -41,7 +44,9 @@ None
 * Owing to shifting data tags, it’s extremely cumbersome to create financial profiles for single companies or to perform comparisons between their respective financial metrics.
 * RSS feeds are available, but each company is its own RSS Feed, there is no functionality to group several in one place. There are [group RSS feeds](https://www.sec.gov/structureddata/rss-feeds) for the most recent filings, and are updated every 10 minutes during business hours, but the format, output and content of these may change without prior notice.
 
-See more about these limitations in: George Dyer:[ New Tools Dig Deeper Into Hard-to-Aggregate US Corporate Data](https://www.bellingcat.com/resources/2023/12/18/new-tools-dig-deeper-into-hard-to-aggregate-us-corporate-data/), Bellingcat.
+See more about these limitations in:&#x20;
+
+George Dyer:[ New Tools Dig Deeper Into Hard-to-Aggregate US Corporate Data](https://www.bellingcat.com/resources/2023/12/18/new-tools-dig-deeper-into-hard-to-aggregate-us-corporate-data/), Bellingcat.
 
 ## Ethical Considerations
 
