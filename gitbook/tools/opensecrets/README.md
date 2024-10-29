@@ -91,7 +91,7 @@ RESTful API functionality is available only after registration, the user must ac
 
 ## Limitations
 
-Registrations for the API use are [currently closed](https://www.opensecrets.org/api/admin/index.php?function=signup).
+Current registrations for the API use are [currently closed](https://www.opensecrets.org/api/admin/index.php?function=signup).
 
 According to OpenSecrets' [own website](https://www.opensecrets.org/federal-lobbying), for registered lobbyists, employment histories may be incomplete prior to 1998 because the Senate Office of Public Records does not make registrations and reports available electronically for those years.
 
