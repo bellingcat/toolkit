@@ -111,7 +111,6 @@
   * [Earth Online](tools/earth-online/README.md)
   * [Tencent Maps](tools/tencent-maps/README.md)
   * [satellites.pro](tools/satellites.pro/README.md)
-  * [Omnivore](tools/omnivore/README.md)
   * [GovMap](tools/govmap/README.md)
   * [NASA Worldview](tools/nasa-worldview/README.md)
   * [Apple Maps](tools/apple-maps/README.md)
