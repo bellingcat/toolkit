@@ -14,9 +14,9 @@ description: >-
 
 When opening the URL there is a search box where an Instagram username can be typed in without the "@" sign. The site responds with a profile picture and the username. If the account is set to private, Picuki will show the message "Profile is private".
 
-If the account is public, clicking the profile results in the account name on the top left, with below that the real name tied to the account. This may provide a pivot point. The top right shows the number of media, and if anymedia is tagged by the acount.
+If the account is public, clicking the profile results in the account name on the top left, with below that the real name tied to the account. This may provide a pivot point. The top right shows the number of media, and if any media is tagged by the acount.
 
-The overview of the account shows
+The overview of the account shows:
 
 * all the media that were posted by the account,
 * the first words of the accompanying text,
@@ -24,7 +24,7 @@ The overview of the account shows
 * a small icon signifying the image can be enlarged, and
 * a download button.
 
-Clicking on the image of the post from the overview results in the entire image(s), the complete text with that post, the mentions and the hashtags that were used, with a big "Download" button at the bottom. Mentions and hashtags can be clicked from this view, which could lead to other pivot points.
+Clicking on the image of the post from the overview results in the entire image(s), the complete text with that post, the mentions and the hashtags that were used, with a "Download" button at the bottom. Mentions and hashtags can be clicked from this view, which could lead to other pivot points.
 
 Below that the number of likes and the number of comments are shown. These 2 numbers are not clickable. The comments are shown together with the accounts that posted the comments.&#x20;
 
@@ -46,7 +46,7 @@ Clicking on the download icon from the overview results in the file explorer to 
 
 ## Requirements
 
-There are no specific requirements to use this tool other than an internet connection and a device to use the URL.
+There are no specific requirements found at the time of writing this.
 
 ## Limitations
 
@@ -58,7 +58,7 @@ Furthermore, while Picuki states on their [About](https://www.picuki.com/page/ab
 
 Being able to download content that is not owned or created by the person who uses Picuki could lead to infringement of intellectual property rights which in turn could lead to legal consequences.
 
-Picuki can be used anonymously, which could raise worry in terms of respecting the privacy of the creators of the content when images are downloaded. The account holder does not know their account is viewed, so this anonymous access could be considered stalking if accessing someone else's account happens repeatedly.
+Picuki can be used anonymously, which could raise issues in terms of respecting the privacy of the creators of the content when images are downloaded. The account holder is unaware that their account is viewed, so this anonymous access could be considered stalking if accessing someone else's account happens repeatedly.
 
 Picuki is a third-party tool which uses Instagram's public API to fetch the data. As such it should be used with caution in respect to privacy, legality and account security.
 
