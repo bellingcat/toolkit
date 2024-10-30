@@ -250,7 +250,7 @@ The search might return tweets about a toy car commercial featuring electric veh
 
 4. **Account Requirement for Advanced Search:**
 
-After testing the Advanced Search tool in both Incognito Mode and regular browsing, in both cases, using the tool required signing into an account. This means you cannot access Advanced Search features on X.com without logging in. For some, requiring an account restricts access to these crucial functionalities for investigators who prefer anonymity.
+After testing the Advanced Search tool in both Incognito Mode and regular browsing mode, in both cases, using the tool required signing into an account. This means users cannot access Advanced Search features on X.com without logging in. For some, requiring an account restricts access to these crucial functionalities for investigators who prefer anonymity.
 
 5. **Inconsistent "None of These Words" Function:**
 
