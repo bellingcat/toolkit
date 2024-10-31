@@ -48,7 +48,7 @@ The page contains a range of other registers (e.g. property registers), so make 
 
 ## Tool provider
 
-Wikipedia
+Wikipedia, US
 
 ## Advertising Trackers
 
@@ -56,7 +56,7 @@ Wikipedia
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer    |
+| ------------------ |
+| Katherine de Tolly |
+|                    |
