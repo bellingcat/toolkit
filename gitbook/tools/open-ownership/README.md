@@ -1,16 +1,34 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  Links to beneficial ownership registers, and a consolidated register for the
+  UK, Armenia, Denmark and Slovakia.
 ---
 
 # Open Ownership
 
 ## URL
 
-https://example.com
+[ https://www.openownership.org/en/](https://www.openownership.org/en/)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+OpenOwnership helps countries to publish standards-compliant beneficial ownership (BO) registers, which give details of the actual human owners and the people who can benefit from an entity's operations and profits, or control its activities.
+
+It's important to know a company's beneficial owner as sometimes other people or entities (e.g. a trust or shell company) are entered on the corporate register, meaning that if you only search that register, you may not find the actual owner. An increasing number of countries are requiring disclosure of beneficial ownership.
+
+OpenOwnership's [online register](https://register.openownership.org/) consolidates the beneficial ownership registers of the UK, Armenia, Denmark and Slovakia. (These are only some of the countries that have BO registers.)
+
+You can click on a country to see whether it has a BO register, and if it is available to the public:
+
+<figure><img src=".gitbook/assets/Screenshot 2024-10-21 at 11.54.16.png" alt=""><figcaption><p>The Bulgaria country page on OpenOwnership</p></figcaption></figure>
+
+It also has a useful 'Worldwide action on beneficial ownership transparency' [map](https://www.openownership.org/en/map/) of which countries have BO registers:
+
+<figure><img src=".gitbook/assets/Screenshot 2024-10-21 at 11.48.58.png" alt=""><figcaption><p>Map showing which countries are planning or implementing BO transparency reforms, or have live online registers</p></figcaption></figure>
+
+An efficient way to get see which countries have BO registers freely available online is to download the [CSV](https://www.openownership.org/en/map/oo\_all\_country\_data.csv) that covers all the countries and filter the 'Who can access' column by 'general public':&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2024-10-21 at 12.00.23.png" alt=""><figcaption><p>Some of the country data in a filtered CSV opened in Excel</p></figcaption></figure>
 
 ## Cost
 
@@ -18,31 +36,29 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+\-
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+While a consolidated database of all BO registers would be incredibly useful, it's probably a pipe dream given that countries would have to decide to make BO disclosure a requirement of corporate registration, and they would have to make it openly available. So you still have to visit national online BO registers, if they exist, on an individual basis.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+\-
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+OpenOwnership: [Beneficial ownership primer](https://www.openownership.org/en/about/what-is-beneficial-ownership-transparency/)
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+OpenOwnership
 
 ## Advertising Trackers
 
@@ -50,8 +66,7 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer    |
+| ------------------ |
+| Katherine de Tolly |
+|                    |
