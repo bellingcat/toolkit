@@ -1,16 +1,22 @@
 ---
-description: A brief one line description of this tool
+description: Wikipedia list of official business registers around the world.
 ---
 
 # Wikipedia list of registers
 
 ## URL
 
-https://example.com
+[https://en.wikipedia.org/wiki/List\_of\_official\_business\_registers](https://en.wikipedia.org/wiki/List\_of\_official\_business\_registers)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Most countries have a publicly available official register which lists companies that are allowed to conduct business in that country. Registers usually contain fields like: Company name, directors, registered address. Some contain things like shareholders, filings, VAT number, tax number, and telephone number.
+
+Some are free, while some give very basic details free and require payment for more. Some registers allow you to search only by company name, and others also allow for searching by person names (e.g. director names).
+
+The Wikipedia list of registers will help you to find an online register for a particular country.
+
+OpenCorporates has unified many of the registers in a single database, so it may be better to use in some instances.&#x20;
 
 ## Cost
 
@@ -26,23 +32,23 @@ https://example.com
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+\-
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+The page contains a range of other registers (e.g. property registers), so make sure that you have selected the right type.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+\-
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+\-
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Wikipedia
 
 ## Advertising Trackers
 
@@ -54,4 +60,3 @@ https://example.com
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
