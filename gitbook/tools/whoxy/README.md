@@ -32,7 +32,7 @@ When using the API, output is offered as JSON schema, XML schema, JSON live resu
 
 \*\*\*
 
-To the right of the basic information when using the regular whois lookup, there is a smaller pane listing similar domains. There is a button to view all. The listed similar-named domains can sometimes lead to the discovery of pivot points, for instance the use of [typosquatting](https://en.wikipedia.org/wiki/Typosquatting) .
+To the right of the basic information when using the regular whois lookup, there is a smaller pane listing similar domains. There is a button to view all. The listed similar-named domains can sometimes lead to the discovery of pivot points, it can for instance  provide information on the use of [typosquatting](https://en.wikipedia.org/wiki/Typosquatting).
 
 The complete range of services can be found on the homepage under the button "Our Services".
 
