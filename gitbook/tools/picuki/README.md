@@ -78,5 +78,5 @@ The tool provider is [Picuki.com](https://www.picuki.com). There is a statement 
 
 | Page maintainer           |
 | ------------------------- |
-| Bellingcat volunteer team |
+| Bellingcat Volunteer Team |
 |                           |
