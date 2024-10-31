@@ -19,7 +19,7 @@ There are 6 options to query information.
 
 * Enter a domain name for general whois: results will show the domain name itself, the registrar, the registered date, the date of when the registry was updated, and the expiry date. Also the domain status, name servers and contact details.
 * Enter a domain name to retrieve historical information. Results will show the same information as for a regular whois query, and further down on the page it is shown who owned that domain in the past.
-* Enter a owner name for reverse whois results on which domain names are linked to that owner. The results will show domain names which are linked to that particular name. If the amount of results is substantial, a subset will be shown with the remark to use the Reverse Whois API.
+* Enter an owner name for reverse whois results on which domain names are linked to that owner. The results will show domain names which are linked to that particular name. If the amount of results is substantial, a subset will be shown with the remark to use the Reverse Whois API.
 * Enter a company name for reverse whois results on which domain names are linked with that company. The results will show a list of domain names. If the amount of results is substantial, a subset will be shown with the remark to use the Reverse Whois API.
 * Enter a valid e-mail address for reversed whois results on which domain names are linked with that e-mail address.&#x20;
 * Enter a domain keyword (for instance "iPhone") for reversed whois results on which domain names include that specific keyword. The results will show a list of domain names with that keyword. If the amount of results is substantial, a subset will be shown with the remark to use the Reverse Whois API.
