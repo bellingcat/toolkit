@@ -30,7 +30,7 @@ Below that the number of likes and the number of comments are shown. These 2 num
 
 Clicking on the enlarge icon from the overview results in the larger version of the first image of the post. If there are more than one, the rest will not be shown.&#x20;
 
-Clicking on the download icon from the overview results in the file explorer to choose where the file needs to be downloaded to. Downloaded images can be edited.
+Clicking on the download icon from the overview results in the file explorer to choose where the file needs to be downloaded to.&#x20;
 
 ## Cost
 
