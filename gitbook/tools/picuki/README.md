@@ -52,7 +52,7 @@ There are no specific requirements found at the time of writing this.
 
 The limitation for this tool to be helpful, is that the Instagram account that is being investigated has to be a public account. Private accounts will not yield any results.
 
-Furthermore, while Picuki states on their [About](https://www.picuki.com/page/about) page that it is not affililated with Instagram or Meta, this means that they may be in violation of Instagram's terms of service.
+Picuki states on their [About](https://www.picuki.com/page/about) page that it is not affililated with Instagram or Meta.
 
 ## Ethical Considerations
 
