@@ -1,8 +1,8 @@
 ---
 description: >-
-  Maltego is an investigation platform that combines two things at once: (1) It
-  acts as a search tool, and (2) It creates a graph establishing links between
-  data you uncover from your search.
+  Maltego Graph is an investigation platform that combines two things at once:
+  (1) It acts as a search tool, and (2) It creates a graph establishing links
+  between data you uncover from your search.
 ---
 
 # Maltego
@@ -13,15 +13,15 @@ description: >-
 
 ## Description
 
-Maltego is both a search tool and a visualization tool. It can search for information and connect the pieces to show you how they are related. It's like a data map that helps you see the bigger picture of your investigation. This software allows a researcher to start with a particular item of information, such as an alias, an email address, phone number, company name, or IP address, and use this information as the basis to collect other information.           &#x20;
+Maltego Graph is both a search tool and a visualization tool. It can search for information and connect the pieces to show you how they are related. It's like a data map that helps you see the bigger picture of your investigation. This software allows a researcher to start with a particular item of information, such as an alias, an email address, phone number, company name, or IP address, and use this information as the basis to collect other information.           &#x20;
 
 &#x20;_**How does it work?**_
 
 &#x20;1\.     It is a centralized search tool
 
-In theory, Maltego gathers information about a research subject without the researcher having to leave the software or go to another platform. It already integrates into the tool free publicly available sources or data from commercial vendors. These are what Maltego calls “data sources” which are like pre-packaged information catalogs. For instance, you can have data sources from FlightAware – which comprises digital aviation data. Or a data package from Pipl, which comprises personal details, social media, and contact info. These “data sources” are available to install in what it calls “Transform Hub.” This Transform Hub is a universe of data you can search in.
+In theory, Maltego Graph gathers information about a research subject without the researcher having to leave the software or go to another platform. It already integrates into the tool free publicly available sources or data from commercial vendors. These are what Maltego calls “data sources” which are like pre-packaged information catalogs. For instance, you can have data sources from FlightAware – which comprises digital aviation data. Or a data package from Pipl, which comprises personal details, social media, and contact info. These “data sources” are available to install in what it calls “Transform Hub.” This Transform Hub is a universe of data you can search in.
 
-To perform searches, Maltego needs a good list of data sources in the hub to mine information from. The more data sources you have in your software, the better your search results are. More importantly, you need to have the right category of data sources to get good results. For example, if you are doing social media research, it is recommended that you install or have access to data sources that can mine Facebook, Instagram, TikTok, VK, OK, Twitter, Telegram, etc. Other examples of pre-packaged data sources are Bing, Google, TinEye, and LittleSis.
+To perform searches, Maltego Graph needs a good list of data sources in the hub to mine information from. The more data sources you have in your software, the better your search results are. More importantly, you need to have the right category of data sources to get good results. For example, if you are doing social media research, it is recommended that you install or have access to data sources that can mine Facebook, Instagram, TikTok, VK, OK, Twitter, Telegram, etc. Other examples of pre-packaged data sources are Bing, Google, TinEye, and LittleSis.
 
 Begin with a piece of information you know (called “Entity” – which can be a name, email address, or phone number). Then, right-click to “run a transform” based on that information. This process uses a code, turns this Entity as if it were a search term, and finds it in multiple sources simultaneously.
 
@@ -31,7 +31,7 @@ The researcher can hover over each search result returned. This will produce an 
 
 2. It is a lead generator and data pivot tool
 
-In Maltego, the search results produced by a transform act as a new lead or linking evidence. A researcher can use this new information to collect other information. If, for instance, a transform on the alias “Mr.A” shows it is associated with an email address. The researcher can use that email address, run a transform specifically looking for a name, and use that name to find a location.
+In Maltego Graph, the search results produced by a transform act as a new lead or linking evidence. A researcher can use this new information to collect other information. If, for instance, a transform on the alias “Mr.A” shows it is associated with an email address. The researcher can use that email address, run a transform specifically looking for a name, and use that name to find a location.
 
 3. It is a visualization and linkage tool
 
@@ -39,9 +39,9 @@ When running a series of transforms in Maltego, the relationship between the new
 
 _**What problem does it solve?**_
 
-1\.     Maltego solves a time management problem. It reduces the number of steps an investigation takes from discovery to link analysis. Instead of going to each individual website to search, the researcher can mostly search for info all in one spot. Maltego gathers information and plots the data in real-time.
+1\.     Maltego Graph solves a time management problem. It reduces the number of steps an investigation takes from discovery to link analysis. Instead of going to each individual website to search, the researcher can mostly search for info all in one spot. It gathers information and plots the data in real-time.
 
-2\.     Maltego also solves an efficiency problem. A beginner researcher usually searches for one piece of information at a time. On Maltego, a beginner researcher can search for two or more pieces of information (or "Entities") at a time.
+2\.     Maltego Graph also solves an efficiency problem. A beginner researcher usually searches for one piece of information at a time. On Maltego Graph, a beginner researcher can search for two or more pieces of information (or "Entities") at a time.
 
 ## Cost
 
