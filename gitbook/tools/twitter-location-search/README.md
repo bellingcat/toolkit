@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-Users can discover posts from specific geographic areas by utilizing X's built-in location search tool. This feature enables targeted searches based on proximity, allowing users to find relevant content within a designated radius.
+Users can discover posts from specific geographic areas by utilizing X's built-in location search tool. This feature enables targeted searches based on proximity, allowing users to find relevant content within a designated radius.  &#x20;
 
 ### How does it work?
 
@@ -33,7 +33,7 @@ X frequently uses these two types of location data.&#x20;
 
 #### _**Location from the user's device**_
 
-If users choose to turn on location settings on their devices, X can identify the GPS coordinates of this device at the time of the post. In addition, X may use the user’s [IP address](https://developer.x.com/en/docs/twitter-api/v1/geo/places-near-location/api-reference/get-geo-search) to determine which location is attached to the post. This is particularly helpful when users want to take advantage of the search results near him/her.&#x20;
+If users choose to turn on location settings on their devices, X can identify the GPS coordinates of this device at the time of the post. In addition, X may use the user’s [IP address](https://developer.x.com/en/docs/twitter-api/v1/geo/places-near-location/api-reference/get-geo-search) to determine which location is attached to the post. This is particularly helpful when users want to take advantage of the search results near their respective locations.&#x20;
 
 &#x20;
 
@@ -51,7 +51,7 @@ For more specificity, use latitude and longitude coordinates. Search using "**ge
 
 ### What problem does it solve?&#x20;
 
-For open-source researchers, this tool helps find the signal through the noise. X's location-based search feature enables users to narrow down posts originating from specific geographic areas amid a huge amount of content. This functionality facilitates the discovery of local trends, events, and conversations.
+For open-source researchers, this tool helps find the signal through the noise. X's location-based search feature enables users to narrow down posts originating from specific geographic areas among a vast amount of content. This functionality facilitates the discovery of local trends, events, and conversations.
 
 ### Use cases
 
