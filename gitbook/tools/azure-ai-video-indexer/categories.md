@@ -2,9 +2,9 @@
 
 ## Image/Video
 
-* [ ] [Facial Recognition](https://bellingcat.gitbook.io/toolkit/categories/image-video/facial-recognition)
+* [x] [Facial Recognition](https://bellingcat.gitbook.io/toolkit/categories/image-video/facial-recognition)
 * [ ] [Misc](https://bellingcat.gitbook.io/toolkit/categories/image-video/image-misc)
-* [ ] [Metadata](https://bellingcat.gitbook.io/toolkit/categories/image-video/metadata)
+* [x] [Metadata](https://bellingcat.gitbook.io/toolkit/categories/image-video/metadata)
 * [ ] [Reverse Image Search](https://bellingcat.gitbook.io/toolkit/categories/image-video/reverse-image-search)
 
 ## Maps & Satellites
@@ -36,6 +36,6 @@
 * [ ] [Data Organization & Analysis](https://bellingcat.gitbook.io/toolkit/categories/data)
 * [ ] [Environment & Wildlife](https://bellingcat.gitbook.io/toolkit/categories/environment-and-wildlife)
 * [ ] [Geolocation](https://bellingcat.gitbook.io/toolkit/categories/geolocation)
-* [ ] [People](https://bellingcat.gitbook.io/toolkit/categories/people)
+* [x] [People](https://bellingcat.gitbook.io/toolkit/categories/people)
 * [ ] [Transport](https://bellingcat.gitbook.io/toolkit/categories/transport)
 * [ ] [Websites](https://bellingcat.gitbook.io/toolkit/categories/websites)
