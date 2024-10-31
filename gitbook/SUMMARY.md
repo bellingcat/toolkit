@@ -157,3 +157,4 @@
   * [UNOSAT Analyses](tools/unosat-analyses/README.md)
   * [VesselFinder](tools/vesselfinder/README.md)
   * [LittleSis](tools/littlesis/README.md)
+  * [Wikipedia list of registers](tools/wikipedia-list-of-registers/README.md)
