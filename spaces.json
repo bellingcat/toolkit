@@ -5286,5 +5286,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "Kfn5FwKdrYogDJwgxRX4",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "x2wkloeARZ5HriHc2wqU",
+    "title": "European e-Justice portal",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-10-31T13:17:27.334Z",
+    "updatedAt": "2024-10-31T13:17:27.334Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/x2wkloeARZ5HriHc2wqU",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/x2wkloeARZ5HriHc2wqU/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "KAq2SJsqOKK5KheearMl",
+    "defaultLevel": "inherit"
   }
 ]
