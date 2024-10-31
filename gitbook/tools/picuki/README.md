@@ -14,7 +14,7 @@ description: >-
 
 When opening the URL there is a search box where an Instagram username can be typed in without the "@" sign. The site responds with a profile picture and the username. If the account is set to private, Picuki will show the message "Profile is private".
 
-If the account is public, clicking the profile results in the account name on the top left, with below that the real name tied to the account. This may provide a pivot point. The top right shows the number of media (photos etc.) posted by that account, and if other Instagram users tagged this specific user in their own photos.&#x20;
+If the account is public, clicking the profile results in the account name on the top left, with below that the real name tied to the account. This may provide a pivot point. The top right shows the number of media (photos etc.) posted by that account, and the option to click on the word "tagged" which shows photos in which other Instagram have tagged this specific user.&#x20;
 
 The overview of the account shows:
 
