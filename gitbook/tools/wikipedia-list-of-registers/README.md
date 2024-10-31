@@ -16,15 +16,13 @@ Some are free, while some give very basic details for free and require payment f
 
 The Wikipedia list of registers will help you to find an online register for a particular country.
 
-OpenCorporates has unified many of the registers in a single database, so it may be better to use in some instances.&#x20;
+[OpenCorporates](https://bellingcat.gitbook.io/toolkit/more/all-tools/opencorporates) has unified many of the registers in a single database, so it may be better to use in some instances.&#x20;
 
 ## Cost
 
 * [x] Free
 * [ ] Partially Free
 * [ ] Paid
-
-\[\[Pricing or subscription information, if relevant.]]
 
 ## Level of difficulty
 
