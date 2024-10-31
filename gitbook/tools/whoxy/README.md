@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-With Whoxy there are several options to find information on domain names. It is free to sign up for an account but that is not a requirement for 1 or a few searches.
+With Whoxy there are several options to find information on domain names. It is free to sign up for an account but that is not a requirement for one or a few searches.
 
 There are 6 options to query information.
 
