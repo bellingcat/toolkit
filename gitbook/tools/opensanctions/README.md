@@ -2,6 +2,7 @@
 description: >-
   Open-source international database of sanctions data, persons of interest and
   politically exposed persons.
+icon: square-dollar
 ---
 
 # OpenSanctions
@@ -12,11 +13,11 @@ description: >-
 
 ## Description
 
-OpenSanctions provides a structured database of people and entities that are subject to sanctions or other financial restrictions. The database is curated by a team of researchers and journalists, and is designed to be easily accessible and usable by individuals, organizations, and governments. The data includes information on individuals, organizations, and vessels that are subject to sanctions, as well as the legal frameworks and sanctions regimes that apply to them. OpenSanctions is intended to help individuals and organizations comply with international sanctions laws, as well as to facilitate research and investigative journalism into financial crime and corruption.
+OpenSanctions provides a structured database of people and entities that are subject to sanctions or other financial restrictions. The database is curated by a team of researchers and journalists, and is designed to be easily accessible and usable by individuals, organizations, and governments. The data includes information on individuals, organizations, and vessels that are subject to sanctions, as well as the legal frameworks and sanctions regimes that apply to them. OpenSanctions is intended to help individuals and organizations comply with international sanctions laws, as well as to facilitate research and investigative journalism into financial crime and corruption.     &#x20;
 
 OpenSanctions has 213 separate dataset collections with multiple sources of data. All the data collected and provided by OpenSanctions is publicly available. The full list of sources can be found and explored [here](https://www.opensanctions.org/datasets/sources/). Each dataset has its own page with a description, options for a bulk download of data and information on where the data has been sourced from.
 
-For basic desktop research, go to [https://www.opensanctions.org/research/](https://www.opensanctions.org/research/) and type the name of an entity, a person or a vessel in the search bar.&#x20;
+For basic desktop research, go to [https://www.opensanctions.org/research/](https://www.opensanctions.org/research/) and type the name of an entity, a person or a vessel in the search bar.
 
 **Example 1: Search for an entity**
 
@@ -79,7 +80,7 @@ For basic desktop research, go to [https://www.opensanctions.org/research/](http
 * [x] Partially Free
 * [ ] Paid
 
-OpenSanctions is free for non-commercial users. Business and commercial users must either acquire a data license, or subscribe to the pay-as-you-go API service.&#x20;
+OpenSanctions is free for non-commercial users. Business and commercial users must either acquire a data license, or subscribe to the pay-as-you-go API service.
 
 ## Level of difficulty
 
