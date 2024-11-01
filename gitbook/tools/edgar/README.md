@@ -1,5 +1,6 @@
 ---
 description: Database of corporate filings for the US
+icon: square-dollar
 ---
 
 # EDGAR
@@ -10,15 +11,15 @@ description: Database of corporate filings for the US
 
 ## Description
 
-EDGAR (Electronic Data Gathering, Analysis, and Retrieval system) is a database of corporate filings maintained by the U.S. Securities and Exchange Commission. These filings contain a wealth of quantitative and qualitative information on every legal entity that issues non-exempt securities in the United States.
+EDGAR (Electronic Data Gathering, Analysis, and Retrieval system) is a database of corporate filings maintained by the U.S. Securities and Exchange Commission. These filings contain a wealth of quantitative and qualitative information on every legal entity that issues non-exempt securities in the United States.      &#x20;
 
-EDGAR is the primary system for companies and others submitting documents under the Securities Act of 1933, the Securities Exchange Act of 1934, the Trust Indenture Act of 1939, and the Investment Company Act of 1940.&#x20;
+EDGAR is the primary system for companies and others submitting documents under the Securities Act of 1933, the Securities Exchange Act of 1934, the Trust Indenture Act of 1939, and the Investment Company Act of 1940.
 
 The EDGAR database provides access to corporate information, allowing research of public companies' financial information and operations. It also includes information provided by mutual funds (including money market funds), exchange-traded funds (ETFs), and variable annuities.
 
 Best uses are to track annual reports, top level management of companies, subsidiaries, shareholders, mergers & acquisitions.
 
-Search by keyword, company name, ticker symbol, location or the name of an individual.&#x20;
+Search by keyword, company name, ticker symbol, location or the name of an individual.
 
 ## Cost
 
@@ -51,7 +52,7 @@ See more about these limitations in: George Dyer:[ New Tools Dig Deeper Into Har
 
 * Public company search - type the company’s name or ticker symbol in the search bar [here](https://www.sec.gov/search-filings). Retrieves filings for a specific company and to find company information — registered name, address, telephone number, state of incorporation, [_Central Index Key (CIK)_](#user-content-fn-1)[^1] number, [_Standard Industrial Classification (SIC)_](#user-content-fn-2)[^2] code, and fiscal year end.
 * A more detailed search can be performed [here](https://www.sec.gov/edgar/search/) - allows search by keywords, company name, [_stock ticker_](#user-content-fn-3)[^3], CIK number, and individual's name. This search allows to filter filings by date, type and also has a dropdown menu for location (principal executive offices in - the primary location associated with a filing - could be in the US or other countries).
-* The largest amount of information is usually in the annual, quarterly and current reports. Some companies also have beneficial ownership filings.&#x20;
+* The largest amount of information is usually in the annual, quarterly and current reports. Some companies also have beneficial ownership filings.
 * The filings show up like this and can be opened in a `.htm` or `.xml` format.
 
 <figure><img src=".gitbook/assets/Image 3.png" alt="" width="563"><figcaption><p>Basic company name search in the search bar for Boeing</p></figcaption></figure>
@@ -64,9 +65,9 @@ _**Example**_: Search for Boeing in the search bar, select Boeing Co. Below are 
 
 <figure><img src=".gitbook/assets/Image 4.png" alt="" width="563"><figcaption><p>Selected file from results page</p></figcaption></figure>
 
-Select Open Document to reach the `.htm` file or Open filing to reach the `.xml` file  (each option opens a new tab in your browser)
+Select Open Document to reach the `.htm` file or Open filing to reach the `.xml` file (each option opens a new tab in your browser)
 
-The `.xml` file will contain different hyperlinks for document and data files. In this example the 8-K file (document ba-20240731.htm iXBRL) links to the full form 8-K filing (known as a “current report” and it is the report that companies must file with the SEC to announce major events that shareholders should know about).  &#x20;
+The `.xml` file will contain different hyperlinks for document and data files. In this example the 8-K file (document ba-20240731.htm iXBRL) links to the full form 8-K filing (known as a “current report” and it is the report that companies must file with the SEC to announce major events that shareholders should know about).
 
 <figure><img src=".gitbook/assets/image 5.png" alt=""><figcaption><p>Example of an .xml file from a filing with the US Securities and Exchange Commission</p></figcaption></figure>
 
@@ -84,8 +85,6 @@ The `.xml` file will contain different hyperlinks for document and data files. I
 | --------------- |
 | LPetrova        |
 |                 |
-
-
 
 [^1]: A Central Index Key or CIK number is a unique number assigned to an individual, company, filing agent or foreign government by the United States Securities and Exchange Commission. The number is used to identify its filings in several online databases, including EDGAR. The numbers are up to ten digits in length and are permanent identifiers that may not be changed.
 
