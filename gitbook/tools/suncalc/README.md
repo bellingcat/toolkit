@@ -15,7 +15,7 @@ https://www.suncalc.org
 
 <div data-full-width="true">
 
-<figure><img src=".gitbook/assets/SliderMovingSunANNOTATED (2).gif" alt=""><figcaption><p><strong>USING SUNCALC TO MEASURE THE POSITION OF THE SUN OVER TIME BY DRAGGING THE TIME SLIDER</strong> <br><strong>ACROSS THE TOP OF THE SCREEN WITH LEFT MOUSE DOWN</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/SliderMovingSunANNOTATED (2).gif" alt=""><figcaption><p><strong>USING SUNCALC TO MEASURE THE POSITION OF THE SUN OVER TIME BY DRAGGING THE TIME SLIDER</strong><br><strong>ACROSS THE TOP OF THE SCREEN WITH LEFT MOUSE DOWN</strong></p></figcaption></figure>
 
 </div>
 
@@ -36,7 +36,7 @@ _(Image from Giphy , author Dyanapyehchek @dianapietrzyk)_
 
 The position of the sun along its daily trajectory in the sky (measured as changing elevation and azimuth angles) varies with the time of day.
 
-2. <mark style="color:green;">**Orbit:**</mark> The earth rotates annually around the sun in an eliptical orbit...&#x20;
+2. <mark style="color:green;">**Orbit:**</mark> The earth rotates annually around the sun in an eliptical orbit...
 
 <img src=".gitbook/assets/earthorbit.gif" alt="" data-size="original">
 
@@ -122,7 +122,7 @@ There are very many use cases for SunCalc in Open Source research because there 
 
 <summary>The trajectory of the sun is its path through space. This is defined by the variation in two angles applied to the sun seen in the sky from earth: azimuth angle and elevation angle... (Click for more detail)</summary>
 
-![](<.gitbook/assets/image (1).png>)
+<img src=".gitbook/assets/image (1).png" alt="" data-size="original">
 
 **THE AZIMUTH ANGLE OF THE SUN (HORIZONTAL COMPASS BEARING)**
 
@@ -166,7 +166,7 @@ Open Source Imagery often contains shadows in the same image as the object which
 {% hint style="danger" %}
 Beware: For accurate results, the object in a source image and the shadow it casts must be at right angles (i.e. orthogonal) to the camera. A useful tool for dealing with angles in imagery is a transparent digital protractor. The example below can be copied and pasted for personal use and is provided under a creative commons licence by pngall.com at [https://www.pngall.com/protractor-png/download/13598](https://www.pngall.com/protractor-png/download/135986)
 
-![](.gitbook/assets/Protractor-Transparent.png)
+<img src=".gitbook/assets/Protractor-Transparent.png" alt="" data-size="original">
 
 These transparent protractor images can also be found online and be transformed in 3D by graphics programs to rotate to an angle which compensates for non-orthogonal shadow images, but some accuracy is lost. Above is a digital protractor in \*.png format to preserve transparency so that measurements can be made whilst the image beneath is visible.
 {% endhint %}
@@ -249,5 +249,5 @@ Torsten Hoffmann, Germany
 
 | Page maintainer |
 | --------------- |
-| Sophie Tedling  |
+| Sophie Tedling. |
 |                 |
