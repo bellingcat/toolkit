@@ -15,7 +15,7 @@ description: >-
 
 <figure><img src=".gitbook/assets/oPTIMISEDShadowMap Gif.gif" alt=""><figcaption><p>SHADOWMAP TILTING VIEW DEMONSTRATING AZIMUTH &#x26; ELEVATION ANGLES IN 3D</p></figcaption></figure>
 
-ShadowMap calculates shadow locations in real time and displays them on a 3D tilting map, showing arcs of azimuth and elevation angles along the sun's path.&#x20;
+ShadowMap calculates shadow locations in real time and displays them on a 3D tilting map, showing arcs of azimuth and elevation angles along the sun's path.
 
 <details>
 
@@ -53,8 +53,6 @@ A range of more advanced functions are spread across 3 paid versions with increa
 {% endtab %}
 {% endtabs %}
 
-
-
 The Main Differences between all available versions are:
 
 * The Free version is restricted to today's date, but the user can define the time of day.
@@ -90,7 +88,7 @@ Disambiguation: ShadowMap is not the same tool as [ShadeMap](https://app.gitbook
 {% endtab %}
 
 {% tab title="USE CASES" %}
-* Matching an image containing shadows to determine the relationship between location co-ordinates, date, time and shadow pattern. This is useful to Open Source researchers for&#x20;
+* Matching an image containing shadows to determine the relationship between location co-ordinates, date, time and shadow pattern. This is useful to Open Source researchers for
   * chronolocation, i.e. to work out the time an image was taken if you know location and date
   * geolocation i.e. to work out potential location(s) if you know the date, time and shadow pattern.
 * Projecting potential shadow patterns at user-defined location, date and time.
@@ -111,7 +109,7 @@ ShadowMap has 5 main interface menus:
 <figure><img src=".gitbook/assets/InterfaceMenus (1).jpg" alt="" width="563"><figcaption><p><strong>THE 5 MAIN SHADOWMAP MENUS RARELY APPEAR AT THE SAME TIME ON THE SCREEN</strong></p></figcaption></figure>
 
 {% hint style="success" %}
-URL: Note that the Shadowmap URL which is displayed in the browser address bar is constructed to reflect the properties of the location being displayed in great detail: latitude, longitude, zoom, azimuth, etc. The user can edit all these parameters directly in the URL, hit refresh and Shadowmap will redraw accordingly. This can be a very useful shortcut but it is powerful and should be used with care.&#x20;
+URL: Note that the Shadowmap URL which is displayed in the browser address bar is constructed to reflect the properties of the location being displayed in great detail: latitude, longitude, zoom, azimuth, etc. The user can edit all these parameters directly in the URL, hit refresh and Shadowmap will redraw accordingly. This can be a very useful shortcut but it is powerful and should be used with care.
 {% endhint %}
 
 {% tabs %}
@@ -135,7 +133,7 @@ The Settings menus allow:
 * Setting of location co-ordinates (lat, long)
 * Selection from 3 map styles
 * Selection from 3 levels of image quality (high quality needs fast PC hardware)
-* User definition of camera movement and focal length&#x20;
+* User definition of camera movement and focal length
 * Hide/show sun path, sun vector, compass, UI, anti-aliasing, ambient occlusion (depth)
 * Setting of floor height, building height, floor visibility for buildings
 * FOR STUDIO VERSION: Switch to global high resolution satellite imagery & 3D buildings, toggle Ambient Occlusion enhancement demonstrated here:[https://www.youtube.com/watch?v=Wd6ITD0iI\_I](https://www.youtube.com/watch?v=Wd6ITD0iI\_I)
@@ -274,7 +272,7 @@ Detailed video presentations are on YouTube at [https://www.youtube.com/@shadowm
 
 ## Tool provider
 
-ShadowMap Technologies GMBH, a small company based in Austria.&#x20;
+ShadowMap Technologies GMBH, a small company based in Austria.
 
 Founder (2021) and CEO Georg Molzer.
 
@@ -286,5 +284,5 @@ Founder (2021) and CEO Georg Molzer.
 
 | Page maintainer |
 | --------------- |
-| Sophie Tedling  |
+| Sophie Tedling. |
 |                 |
