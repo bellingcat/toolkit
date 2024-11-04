@@ -38,7 +38,9 @@ The complete range of services can be found on the homepage under the button "Ou
 
 \*\*\*
 
-Compared to other services that offer information on domain names, for instance DomainTools (which is part of the [Bellingcat Toolkit](https://bellingcat.gitbook.io/toolkit/more/all-tools/domaintools-whois-lookup)), Whoxy.com seems to be a cost-effective and comprehensive tool. Most services are free, and API access is very budget-friendly.
+Compared to other services that offer information on domain names, for instance DomainTools \* (which is part of the [Bellingcat Toolkit](https://bellingcat.gitbook.io/toolkit/more/all-tools/domaintools-whois-lookup)), Whoxy.com seems to be a cost-effective and comprehensive tool. Most services are free, and API access is very budget-friendly.
+
+\* DomainTools does not charge for singular whois lookups. They offer a personal membership for data access for the personal user for $99.00 per month. The services they offer in that membership are stated on their ["Join"](https://secure.domaintools.com/join/) page.
 
 ## Cost
 
@@ -46,7 +48,9 @@ Compared to other services that offer information on domain names, for instance 
 * [x] Partially Free
 * [ ] Paid
 
-Single searches are free and do not require an account. Whoxy does not require a monthly fee, and has a "pay as you go" policy if an API is used. Pricing information for API access can be found [here](https://www.whoxy.com/pricing.php).
+Single searches are free and do not require an account. Whoxy does not require a monthly fee, and has a "pay as you go" policy if an API is used. Pricing information for API access can be found [here](https://www.whoxy.com/pricing.php), and is also visible on the front page, including comparisons to other tools.
+
+\* DomainTools does not charge for singular whois lookups. They offer a personal membership for data access for the personal user for $99.00 per month. The services they offer in that membership are stated on their ["Join"](https://secure.domaintools.com/join/) page.
 
 ## Level of difficulty
 
@@ -56,15 +60,33 @@ Single searches are free and do not require an account. Whoxy does not require a
 
 You will need to create an account if you require an API key. A key can be obtained through the Account Manager page (login needed), from there look for API Settings.
 
+In order to create an account, Whoxy requires the following information:
+
+* a real and valid email address (temporary or disposable email addresses are not accepted)
+* a password
+* a full name
+* a mailing address
+* a city
+* a state
+* a ZIP/postal code
+* a country
+* a phone number.
+
+A company name and a tax ID are optional.
+
 ## Limitations
 
 There are no limitations found while writing this description.
 
 ## Ethical Considerations
 
-Although personally identifiable information (abbreviated as [PII](https://en.wikipedia.org/wiki/Personal\_data)) is often redacted in order to adhere to privacy laws, there still may be mentions of names, addresses and contact information. Keep in mind that the names that are shown may not be the same person that is investigated on.
+Personally identifiable information (abbreviated as [PII](https://en.wikipedia.org/wiki/Personal\_data)) is often redacted in order to adhere to privacy rulings. \*
 
-Domain data may be incomplete or outdated so the information should always be checked against other sources before concluding the information is correct.
+The results may still show names, addresses and contact information. Keep in mind that the names that are shown may not be the same person that is investigated on.
+
+Domain data may be incomplete or outdated so the information should always be checked against other sources before concluding the information is correct.&#x20;
+
+( \* There are multiple laws, rulings and articles which address the need for privacy protection in WHOIS data. See for instance [https://icann.org](https://icann.org), [https://www.eff.org/](https://www.eff.org/), [https://gdpr.eu/](https://gdpr.eu/)or resources from domain registration companies which explain their WHOIS privacy services.)
 
 ## Guides and articles
 
@@ -72,7 +94,7 @@ Whoxy.com is mentioned on Rae Baker's website [here](https://www.raebaker.net/bl
 
 ## Tool provider
 
-The tool provider is Whoxy.com, powered by [Autowhois.com](https://www.autowhois.com/) and [Bigdomaindata.com](https://www.bigdomaindata.com/) according to the statement at the bottom of the website pages.
+The tool provider is Whoxy.com, powered by [Autowhois.com](https://www.autowhois.com/) and [Bigdomaindata.com](https://www.bigdomaindata.com/) according to the statement at the bottom of the website pages. All 3 companies are based in the United States.
 
 ## Advertising Trackers
 
