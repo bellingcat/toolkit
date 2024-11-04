@@ -14,7 +14,7 @@ description: >-
 
 When opening the URL there is a search box where an Instagram username can be typed in without the "@" sign. The site responds with a profile picture and the username. If the account is set to private, Picuki will show the message "Profile is private".
 
-If the account is public, clicking the profile results in the account name on the top left, with below that the real name tied to the account. This may provide a pivot point. The top right shows the number of media (photos etc.) posted by that account, and the option to click on the word "tagged" which shows photos in which other Instagram have tagged this specific user.&#x20;
+If the account is public, clicking the profile results in the username on the top left, with below that the account name. The account name may be the real name of the user, if so this may provide a pivot point. The top right shows the number of media (photos etc.) posted by that account, and the option to click on the word "tagged" which shows photos in which other Instagram have tagged this specific user.&#x20;
 
 The overview of the account shows:
 
@@ -56,8 +56,6 @@ Picuki states on their [About](https://www.picuki.com/page/about) page that it i
 
 ## Ethical Considerations
 
-Being able to download content that is not owned or created by the person who uses Picuki could lead to infringement of intellectual property rights which in turn could lead to legal consequences.
-
 Picuki can be used anonymously, which could raise issues in terms of respecting the privacy of the creators of the content when images are downloaded. The account holder is unaware that their account is viewed, so this anonymous access could be considered stalking if accessing someone else's account happens repeatedly.
 
 Picuki is a third-party tool which uses Instagram's public API to fetch the data. As such it should be used with caution in respect to privacy, legality and account security.
@@ -68,7 +66,7 @@ There are some places where this tool is explained, for instance from Upstanding
 
 ## Tool provider
 
-The tool provider is [Picuki.com](https://www.picuki.com). There is a statement on their 'About Us" page [here](https://www.picuki.com/page/about).
+The tool provider is [Picuki.com](https://www.picuki.com), and they are based in the United States. There is a statement on their 'About Us" page [here](https://www.picuki.com/page/about).
 
 ## Advertising Trackers
 
