@@ -159,3 +159,4 @@
   * [LittleSis](tools/littlesis/README.md)
   * [Wikipedia list of registers](tools/wikipedia-list-of-registers/README.md)
   * [Picuki](tools/picuki/README.md)
+  * [Whoxy](tools/whoxy/README.md)
