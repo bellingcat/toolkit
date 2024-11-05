@@ -14,7 +14,7 @@ description: >-
 
 Logseq is an open-source knowledge base that helps users connect thoughts and manage their notes effectively. Built around the concept of linking and threading thoughts like a digital garden, Logseq operates on top of plain-text files, supporting various formats such as Markdown and Org-mode. It is designed to facilitate the process of organizing and retrieving information.
 
-One of the key features is its bidirectional linking capability, similar to [Roam Research](https://roamresearch.com/) (another note taking tool),  allowing users to create a web of knowledge. This feature enables users to visually see the connections between different pieces of information, fostering a deeper understanding and retention of knowledge. Logseq supports plugins that allows [Omnivore](https://bellingcat.gitbook.io/toolkit/more/all-tools/omnivore) highlights and Zotero references to be imported.
+One of the key features is its bidirectional linking capability, similar to [Roam Research](https://roamresearch.com/) (another note taking tool),  allowing users to create a web of knowledge. This feature enables users to visually see the connections between different pieces of information, fostering a deeper understanding and retention of knowledge. Logseq supports plugins that allows Zotero references to be imported.
 
 The example below shows some of the features of Logseq including a whiteboard diagram, a 'focused' page and a page with a graph and other navigation.
 
