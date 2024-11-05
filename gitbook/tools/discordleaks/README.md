@@ -8,19 +8,17 @@ description: >-
 
 ## URL
 
-[https://discordleaks.unicornriot.ninja/discord/server/](https://discordleaks.unicornriot.ninja/discord/server/)&#x20;
+[https://discordleaks.unicornriot.ninja/discord/server/](https://discordleaks.unicornriot.ninja/discord/server/)
 
 ## Description
 
-Unicorn Riot, a media collective in the US, has had their reporters collect Discord, RocketChat and Skype chat logs in the course of their reporting on active hate groups throughout the world. The DiscordLeaks web app allows the public to sort through the collected information from Discord servers, giving open access to an archive of chat logs from various far-right groups. &#x20;
+Unicorn Riot, a media collective in the US, has had their reporters collect Discord, RocketChat and Skype chat logs in the course of their reporting on active hate groups throughout the world. The DiscordLeaks web app allows the public to sort through the collected information from Discord servers, giving open access to an archive of chat logs from various far-right groups.
 
 ## Cost
 
 * [x] Free
 * [ ] Partially Free
 * [ ] Paid
-
-
 
 ## Level of difficulty
 
@@ -74,7 +72,7 @@ Search:
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer           |
-| ------------------------- |
-| Cass GAP Member           |
-|                           |
+| Page maintainer                  |
+| -------------------------------- |
+| Cass - Bellingcat Volunteer Team |
+|                                  |
