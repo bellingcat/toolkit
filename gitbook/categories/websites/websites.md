@@ -13,3 +13,4 @@
 | Vortimo | Suite of tools for website, email, WHOIS, etc. analysis | <mark style="background-color:red;">Paid</mark> | [https://www.vortimo.com/](https://www.vortimo.com/) |
 | [**What CMS**](../../tools/what-cms/README.md) | A tool that you can use to identify the technologies used to power a website. | <mark style="background-color:orange;">Partially Free</mark> | [https://whatcms.org/](https://whatcms.org/) |
 | WHOIS History | Historical WHOIS registration lookup | Partially | [https://whois-history.whoisxmlapi.com/](https://whois-history.whoisxmlapi.com/) |
+| [**Whoxy**](../../tools/whoxy/README.md) | Whoxy is a domain search engine or "whois lookup" tool to find registration information on a domain, such as the registrar, the status of the domain and the date of registration. | <mark style="background-color:orange;">Partially Free</mark> | [https://www.whoxy.com/](https://www.whoxy.com/) |
