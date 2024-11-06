@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-ProPublica's 527 Explorer allows people to review the finances of nonprofit organizations known as 527s. 527s file reports with the Internal Revenue Service, but these filings appear on a section separate from most nonprofits. ProPublica's database is intended to make searching these filings easier. The database also has a feature which shows which 527s have similar donors and expenditures.
+ProPublica's 527 Explorer allows people to review the finances of nonprofit organizations known as 527s in the US. 527s file reports with the Internal Revenue Service, but these filings appear on a section separate from most nonprofits. ProPublica's database is intended to make searching these filings easier. The database also has a feature which shows which 527s have similar donors and expenditures.
 
 ## Cost
 
