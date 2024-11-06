@@ -52,5 +52,5 @@ N/A
 
 | Page maintainer            |
 | -------------------------- |
-|  Bellingcat volunteer team |
+|  Bellingcat Volunteer Team |
 |                            |
