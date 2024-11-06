@@ -191,12 +191,12 @@ Saving searches is simple:
 ### _**Advanced Search (Mobile App)**_
 
 {% hint style="success" %}
-If doing Advanced Search on a mobile device, it may be preferable to go to the mobile device’s web browser and perform the steps outlined above with the Advanced Search interface, not the App.
+If doing Advanced Search on a mobile device, it may be preferable to go to the mobile device’s web browser and perform the steps outlined above with the Advanced Search interface, instead of the the app.&#x20;
 {% endhint %}
 
 However, if you must do a granular search on the X app, you can do so in the search box, using operators or boolean, just as one would when searching various search engines like Google.
 
-X’s website provides [a list](https://developer.x.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators) of helpful operators that users can use or memorize to be able to perform the functions outlined above. However, [use this page](https://github.com/igorbrigadir/twitter-advanced-search) for a more exhaustive list of operators for the App search bar.
+X’s website provides [a list](https://developer.x.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators) of helpful operators that users can use or memorize to perform the functions outlined above. However, [use this page](https://github.com/igorbrigadir/twitter-advanced-search) for a more exhaustive list of operators for the App search bar.
 
 A sample search done on mobile can be seen in the image below.
 
@@ -208,9 +208,9 @@ A sample search done on mobile can be seen in the image below.
 
 In April 2024, Statista estimated a staggering [611 million people ](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/)actively using X per month. This translates to a sea of user-generated content constantly flowing around real-time events and trending topics. Twitter Advanced Search addresses the challenge to navigate this vast ocean of information by providing filtering options and the ability to search across a wide range of criteria.
 
-The research process of open source researchers is often iterative. We often start broad, using search terms like "protest" and "Syria" in the discovery phase. As we sift through the initial results, we might encounter posts mentioning a specific location like "Daraa" or a prominent group named "Syrian Revolutionary Forces." These findings become stepping stones. We then refine our search terms, incorporating these new details or harvesting new search terms. This might involve searching for posts containing "Daraa protest" or "Syrian Revolutionary Forces leader." The search might also expand to Arabic hashtags related to the protest or the group.
+The research process of open-source researchers is often iterative. We often start broad, using search terms like "protest" and "Syria" in the discovery phase. As we sift through the initial results, we might encounter posts mentioning a specific location like "Daraa" or a prominent group named "Syrian Revolutionary Forces." These findings become stepping stones. We then refine our search terms, incorporating these new details or harvesting new search terms. This might involve searching for posts containing "Daraa protest" or "Syrian Revolutionary Forces leader." The search might also expand to Arabic hashtags related to the protest or the group.
 
-Manipulating Advanced Search features using various combinations of parameters like locations, languages, and hashtags can be helpful during this dynamic process. It allows investigators to continuously refine their search queries throughout the research process.
+Using different combinations of parameters such as locations, languages, and hashtags in Advanced Search is beneficial during this evolving process. It allows investigators to continuously refine their search queries throughout the research process.
 
 ## Cost
 
