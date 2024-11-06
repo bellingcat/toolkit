@@ -32,7 +32,7 @@ None
 
 ## Limitations
 
-TinEye works best with images that are as low as 100 pixels in either dimension and works best with images that are at least 300 pixels in either dimension. It also has a limit of 20 MB as the maximum file size. TinEye also recommends avoiding watermarks. TinEye may also be unable to search for images from certain sites such as Instagram.
+According to its [FAQ](https://services.tineye.com/TinEyeAPI), TinEye works best with images that are as low as 100 pixels in either dimension and works best with images that are at least 300 pixels in either dimension. It also has a limit of 20 MB as the maximum file size. TinEye also recommends avoiding watermarks. TinEye may also be unable to search for images from certain sites such as Instagram.
 
 ## Ethical Considerations
 
