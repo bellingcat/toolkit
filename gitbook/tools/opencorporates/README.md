@@ -1,5 +1,5 @@
 ---
-description: OpenCorporates is a repository of company registries
+description: A comprehensive repository of company registries around the world
 ---
 
 # OpenCorporates
@@ -12,9 +12,9 @@ description: OpenCorporates is a repository of company registries
 
 OpenCorporates provides a unified search of corporate and legal entity-level data across 170+ jurisdictions. It is a free repository of company registries aggregated from primary public sources, published to promote corporate transparency.
 
-1. #### How to search for a company
+1. **How to search for a company**
 
-* Go to [opencorporates.com](https://opencorporates.com/) and log in with your credentials. The registration is free.
+* Go to [opencorporates.com](https://opencorporates.com/) and log in with your credentials or create an account.
 * In the search field select Companies and type the name of the entity you are interested in. If you're unsure of the full legal name of an entity, type a partial name.
 
 <figure><img src=".gitbook/assets/OC 1.png" alt="" width="563"><figcaption><p>OpenCorporates home page with search field with Companies option selected</p></figcaption></figure>
@@ -24,7 +24,7 @@ OpenCorporates provides a unified search of corporate and legal entity-level dat
 <figure><img src=".gitbook/assets/OC2.png" alt=""><figcaption><p>List of results for keyword 'Aramco'</p></figcaption></figure>
 
 * If you search by a partial name or more than one entity has the same or almost identical name, the results page will show all relevant entries corresponding to your search term (see above image). It will also show BOTH active and inactive entities. To exclude the inactive ones, click on the checkbox 'exclude inactive' located just below the search bar. The results page also has additional filters on the right for jurisdiction, as well as various filters for data associated with the entries, filters for company type and current status. These can be used to narrow down the search results.
-* The search bar in the results page also offers advanced search options - where the keyword occurs, search mode, non-profit status, include or exclude company branches.
+* The search bar in the results page also offers advanced search options - where the keyword occurs, search mode, non-profit status, include/exclude company branches.
 
 <figure><img src=".gitbook/assets/OC3.png" alt=""><figcaption><p>Advanced options filters in the results page</p></figcaption></figure>
 
@@ -40,7 +40,7 @@ OpenCorporates provides a unified search of corporate and legal entity-level dat
 
 </div>
 
-2. #### How to search for an Officer
+2. **How to search for a Company Officer**
 
 * Follow the same steps as above, but select the Officer option just below the search bar on the home page.
 
@@ -60,7 +60,7 @@ OpenCorporates provides a unified search of corporate and legal entity-level dat
 * [x] Partially Free
 * [ ] Paid
 
-API access requires a [monthly/yearly subscription](https://opencorporates.com/plug-in-our-data/) for commercial uses, starting from GBP 729 per year for the Entry package, GBP 6,600 /year for the Starter package, GBP 12,000/year for the Basic package.
+API access requires a [monthly/yearly subscription](https://opencorporates.com/plug-in-our-data/) for commercial uses, starting from GBP 729 per year for the Entry package, GBP 6,600 /year for the Starter package, GBP 12,000/year for the Basic package.  &#x20;
 
 ## Level of difficulty
 
