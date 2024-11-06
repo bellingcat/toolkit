@@ -1,8 +1,8 @@
 ---
 description: >-
   ProPublica's 527 Explorer is a database that allows users to examine the
-  finances of organizations known as 527s, which can raise unlimited sums for
-  political purposes.
+  finances of organizations known as 527s in the US, which can raise unlimited
+  sums for political purposes.
 ---
 
 # 527 Explorer
