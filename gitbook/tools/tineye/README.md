@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-TinEye can help a user locate the original source of an image, locate related images and locate other places where the image may be found ion the internet.
+TinEye can help a user locate the original source of an image, locate related images and locate other places where the image may be found on the internet.
 
 ## Cost
 
