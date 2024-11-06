@@ -16,11 +16,10 @@ description: >-
 Telemetr.io is a tool that can be useful for journalists and researchers who are interested in analyzing Telegram channels. A database of moderated catalogs that can be sorted by a number of countries and languages and access to many a large number archived messages provide resources for tracking trends, user behavior, and past interactions. Its analysis of message views over different time intervals offers insights into content and engagement. The platform allows for analysis of the level of global and regional activity.
 
 {% hint style="danger" %}
-In our testing we found that the export of data available in the Advanced Plan (and above) is limited to the catalog list of channels. For most metrics described below, you will need API access, which is not included in the plan. (See below at API.)
+During testing, the author of this review found that the export of data available in the Advanced Plan (and above) is limited to the catalog list of channels. For most metrics described below, you will need API access, which is not included in the plan. (See below at API.)
 
-Further, in the author's testing, reaching someone regarding a refund was challenging, and canceling the subscription was not a straightforward experience. 2/10.\
-For most researchers, exporting parts of the catalog will not be helpful, so I would advise that (for now), if you want to use Telemetrio for research, you contact the sales team, referencing this article, and ask for a price model that covers your specific project. \
-While the company mainly caters to channel administrators, marketers, brand managers, advertising agents, etc, they are happy to accommodate journalists.&#x20;
+Further, in the author's testing, reaching someone regarding a refund was challenging, and canceling the subscription was not a straightforward experience.\
+For most researchers, exporting parts of the catalog will not be helpful, so I would advise you to use Telemetrio for research, you contact the sales team, reference this article, and ask for a price model that covers your specific project. They indicated that while journalists aren't their main source of income, they welcome research being done with their space and might work out a pricing scheme that works well for your needs.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
