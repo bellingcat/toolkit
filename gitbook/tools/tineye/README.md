@@ -1,5 +1,7 @@
 ---
-description: TinEye is a search engine that allows the user to search using images.
+description: >-
+  TinEye is a search engine that allows the user to search using images (reverse
+  image search).
 ---
 
 # TinEye
