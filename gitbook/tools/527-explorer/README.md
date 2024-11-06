@@ -1,8 +1,8 @@
 ---
 description: >-
   ProPublica's 527 Explorer is a database that allows users to examine the
-  finances of nonprofit organizations known as 527s, which can raise unlimited
-  sums for political purposes.
+  finances of organizations known as 527s, which can raise unlimited sums for
+  political purposes.
 ---
 
 # 527 Explorer
@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-ProPublica's 527 Explorer allows people to review the finances of nonprofit organizations known as 527s. 527s file reports with the Internal Revenue Service, but these filings appear on a section separate from most nonprofits. ProPublica's database is intended to make searching these filings easier. ProPublica's database also has a feature which shows which 527s have similar donors and expenditures.
+ProPublica's 527 Explorer allows people to review the finances of nonprofit organizations known as 527s. 527s file reports with the Internal Revenue Service, but these filings appear on a section separate from most nonprofits. ProPublica's database is intended to make searching these filings easier. The database also has a feature which shows which 527s have similar donors and expenditures.
 
 ## Cost
 
@@ -41,7 +41,7 @@ None
 
 ProPublica: [How to Use ProPublica's 527 Explorer](https://www.youtube.com/watch?v=AOeMZUjVxtU), Youtube, July 2024.
 
-Ellis Simani: [How a Network of Nonprofits Enriches Fundraisers While Spending Almost Nothing on Its Stated Cause](https://www.propublica.org/article/political-nonprofits-fundraising-ftc-irs-527s-pacs?) , ProPublica, June 18, 2024.
+Ellis Simani: [How a Network of Nonprofits Enriches Fundraisers While Spending Almost Nothing on Its Stated Cause](https://www.propublica.org/article/political-nonprofits-fundraising-ftc-irs-527s-pacs?), ProPublica, June 18, 2024.
 
 ## Tool provider
 
