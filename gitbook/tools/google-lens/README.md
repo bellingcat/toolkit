@@ -12,11 +12,37 @@ description: >-
 
 ## Description
 
-Use Google Lens to identify the subject or location of an image. Primarily a mobile phone application, this software can also be used in the Chrome browser.&#x20;
+Use Google Lens to identify the subject or location of an image. This is particularly useful if you want to geolocate an image, or find out more information about the objects, landmarks or vegetation in a photograph in order to better understand its contents. Primarily a mobile phone application, this software can also be used in the Chrome browser.&#x20;
 
-If your mobile phone runs on Android, open a photograph in your gallery then click the Google lens icon at the bottom of the image.
+### Using the Google Photos mobile application&#x20;
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Open a photograph in the Google Photos mobile application and click the Google Lens![](<.gitbook/assets/image (3).png>)  icon at the bottom of the image.&#x20;
+
+<div align="left">
+
+<figure><img src=".gitbook/assets/image.png" alt="" width="298"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/2.PNG" alt="" width="299"><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src=".gitbook/assets/3.PNG" alt="" width="296"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/4.PNG" alt="" width="300"><figcaption></figcaption></figure>
+
+</div>
+
+### Using Google Photos in the browser&#x20;
+
+Right click any photo you come across while browsing the Internet using Google Chrome and click 'Search with Google Lens'. Results will be shown on the right.&#x20;
+
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ## Cost
 
@@ -24,31 +50,29 @@ If your mobile phone runs on Android, open a photograph in your gallery then cli
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+You need the Google Photos application on your mobile phone if you want to search an image in your gallery. Otherwise, you can use the Google Lens plug-in in Google Chrome.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+Google Lens is getting more sophisticated with time, but it doesn't always work, especially if a physical landmark or object is very generic. It is, however, a very useful first port of call and can save you a lot of time.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Ethical considerations include privacy concerns, copyright infringement, and possible proliferation of misinformation. Make sure you analyse the search results critically and cross-reference these with other sources of information to ensure your findings are accurate. This can help stem misinformation and prevent fake news from spreading. Do not use copyright images without permission.&#x20;
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+'Simple (and powerful) OSINT geolocation with Google', 29 January 2023, _Intelligence 101_. Available at: [https://www.intelligence101.com/geolocation-google-lens/](https://www.intelligence101.com/geolocation-google-lens/) (Accessed 30 September 2024).
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Google [https://about.google/](https://about.google/) - United States
 
 ## Advertising Trackers
 
@@ -56,7 +80,7 @@ If your mobile phone runs on Android, open a photograph in your gallery then cli
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| Ana GAP member  |
+|                 |
