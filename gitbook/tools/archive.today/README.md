@@ -10,11 +10,9 @@ description: Archive any webpage, including Facebook.
 
 ## Description
 
-Archive.today is a web archiving service that allows users to manually save snapshots of webpages. Each snapshot keeps an exact copy of the page as it looked at that moment, including text, images, and design. This way the content is preserved, even if the original page changes or is taken down. For open source researchers, Archive.today is a reliable way to save online information for future reference.
+Archive.today is a web archiving service that allows users to manually save snapshots of webpages. Each snapshot keeps an exact copy of the page as it looked at that moment, including text, images, and design. This way the content is preserved, even if the original page changes or is taken down. Open source researchers can use Archive.today to save online information for future reference and to search for archived information.&#x20;
 
-
-
-#### Features
+**Features**
 
 **Snapshot Creation:** You can save a page by entering the URL, and Archive.today creates a link to a permanent, static copy of the website.\
 The following parts of the website are saved in the snapshot:\
@@ -34,9 +32,7 @@ The following parts of the website are saved in the snapshot:\
 
 **Browser Extension:** There’s a browser extension for quick snapshots, so you don’t have to go through the main site each time. The extension will open a new tab in your browser and will start archiving right away. You can also right click on a page and in the menu you will see the option to archive or search the link.
 
-![](https://lh7-qw.googleusercontent.com/docsz/AD\_4nXdrq2mFIlW2W9kpCJsJMO\_Nxi-Osq0LlD4XF4Dk9387XdKtUgMKj3FPafHUHPfkRlIOb1r\_EVPKVKtgBWJJE3b77QjdBQgxH52pOnbJWUiKCobJuy0kl0zDhZnd9eIEZRIgOphy3hab-jh-67YXHtVibhZo?key=N8n3IJmjukzCQxoDPVpaj1B7)
-
-
+<figure><img src="https://lh7-qw.googleusercontent.com/docsz/AD_4nXdrq2mFIlW2W9kpCJsJMO_Nxi-Osq0LlD4XF4Dk9387XdKtUgMKj3FPafHUHPfkRlIOb1r_EVPKVKtgBWJJE3b77QjdBQgxH52pOnbJWUiKCobJuy0kl0zDhZnd9eIEZRIgOphy3hab-jh-67YXHtVibhZo?key=N8n3IJmjukzCQxoDPVpaj1B7" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Cost
 
@@ -52,7 +48,7 @@ Archive.today is completely free. There are no paid features, and it relies on d
 
 ## Requirements
 
-Archive.today doesn’t require a lot, only an internet connection, a browser and the URL of the public page you want to archive. Pages behind a login might not capture well.
+Archive.today doesn’t require a lot, only an internet connection, a browser and the URL of the public page you want to archive. Pages behind a login might not be captured well.
 
 ## Limitations
 
@@ -67,9 +63,7 @@ Archive.today doesn’t require a lot, only an internet connection, a browser an
 
 **Slower At Peak Times:** When service is busy, it can be slower to respond, so archiving may take longer.
 
-
-
-
+It is not recommended that open source researchers use Archive.today as their only way to archive essential information. Since it is unclear who is behind the site, there is no guarantee that it will continue to exist in the future.&#x20;
 
 ## Ethical Considerations
 
