@@ -1,24 +1,37 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  Planet Labs PBC is an American optical satellite imagery company that sells
+  access to imagery.
 ---
 
 # Planet Labs
 
 ## URL
 
-https://example.com
+[https://www.planet.com/](https://www.planet.com/)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Use Planet Labs to find optical satellite imagery around the world.
+
+Planet Labs collects two types of satellite imagery:
+
+* PlanetScope images are low-resolution (3 meter) images that are collected automatically on a near-daily basis around the world. They have eight optical bands, from "coastal blue" (443nm) to near-infrared (865nm).
+* SkySat images are high resolution (50 centimeter) images with four optical bands (blue, green, red and near-infrared.) These images are collected in response to taskings (requesting the collection of imagery at a particular place). After a tasking, the collected image is available for anyone to purchase.
+
+The primary tool for accessing these images is the Planet Explorer.
+
+Without a paid plan, it is not possible to access Planet Explorer and search for images. However, images are available for purchase from other satellite brokers such as Apollo Imaging and SkyFi. This is the best way to obtain a paid satellite image on a one-off basis.
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+Planet Labs [provides limited access](https://www.planet.com/industries/education-and-research/) to low-resolution PlanetScope images for university affiliated students and faculty.
+
+Access to high resolution imagery and taskings requires a paid subscription plan with Planet. The cost and tiers of subscriptions are not publicly available.
 
 ## Level of difficulty
 
@@ -26,32 +39,31 @@ https://example.com
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+Any modern web browser is sufficient to access Planet Explorer and order satellite imagery. The imagery itself is distributed as large GeoTIFF files that are best viewed in [QGIS](https://bellingcat.gitbook.io/toolkit/more/all-tools/qgis).
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+\-
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+\-
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+\-
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Planet, U.S.
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer |
+| --------------- |
+| Logan Williams  |
+|                 |
