@@ -44,7 +44,7 @@ None
 
 ## Tool provider
 
-N/A
+TinEye, Canada
 
 ## Advertising Trackers
 
