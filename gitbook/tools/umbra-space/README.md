@@ -1,5 +1,7 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  Umbra is an American synthetic aperture radar (SAR) satellite imaging company
+  that sells on-demand taskings for satellite imagery.
 ---
 
 # Umbra Space
@@ -10,15 +12,21 @@ https://example.com
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Use Umbra to task (request) a high resolution SAR image in most places of the world.
+
+Unlike conventional optical satellite imagery, SAR works by sending a radio wave and listening to the reflection. Some objects, such as metallic vehicles and the 90 degree angles of buildings, reflect lots of the radio signal back to the satellite. Other features, like soil and vegetation, scatter the signal in many directions and reflect less. Still others, like the surface of calm water, reflect almost all of the signal away from the satellite. This variation produces an image of the Earth's surface. Other SAR satellites include Sentinel-1, which can be accessed from Sentinel Hub and Copernicus Browser.
+
+Umbra images can be tasked through Umbra Canopy, Umbra's online interface. Contact Umbra's sales team to create an account, or use SkyFi.
+
+Archival Umbra images can be purchased from [SkyFi](https://skyfi.com/).
 
 ## Cost
 
-* [x] Free
+* [ ] Free
 * [ ] Partially Free
-* [ ] Paid
+* [x] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+Requesting an image from Umbra starts at $675 for 1-meter resolution, and can be over $5000 for the highest quality. Umbra's price sheet is [public](https://umbra.space/pricing/).
 
 ## Level of difficulty
 
@@ -30,7 +38,9 @@ https://example.com
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+Umbra does not allow tasking of politically and militarily sensitive areas, including near Ukraine, Israel and Palestine. For operational reasons, Umbra cannot image the far north.
+
+SAR imagery is more difficult to interpret than optical imagery. While SAR images may look superficially similar to conventional imagery, the image formation process produces distinct artifacts. Issues like multipath reflections and range overlap can produce unexpected or misleading effects that must be understood to interpret accurately. For more information about SAR and SAR interpretation, the book [The Essentials of SAR, by Thomas Ager](https://www.amazon.nl/-/en/Thomas-Ager/dp/B09CGKTLZV), is a good resource.
 
 ## Ethical Considerations
 
@@ -54,4 +64,3 @@ https://example.com
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
