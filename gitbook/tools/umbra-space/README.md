@@ -34,7 +34,7 @@ Requesting an image from Umbra starts at $675 for 1-meter resolution, and can be
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+Paid account
 
 ## Limitations
 
@@ -44,7 +44,7 @@ SAR imagery is more difficult to interpret than optical imagery. While SAR image
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+
 
 ## Guides and articles
 
