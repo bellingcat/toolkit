@@ -44,11 +44,11 @@ SAR imagery is more difficult to interpret than optical imagery. While SAR image
 
 ## Ethical Considerations
 
-
+\-
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+\-
 
 ## Tool provider
 
@@ -60,7 +60,7 @@ Umbra, U.S.
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| Logan Williams  |
+|                 |
