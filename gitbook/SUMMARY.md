@@ -161,3 +161,4 @@
   * [Picuki](tools/picuki/README.md)
   * [Whoxy](tools/whoxy/README.md)
   * [Open Ownership](tools/open-ownership/README.md)
+  * [527 Explorer](tools/527-explorer/README.md)
