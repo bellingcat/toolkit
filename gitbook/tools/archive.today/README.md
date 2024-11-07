@@ -6,7 +6,7 @@ description: Archive any webpage, including Facebook.
 
 ## URL
 
-https://archive.today
+[https://archive.today](https://archive.today)
 
 ## Description
 
@@ -93,7 +93,7 @@ There are several Ethical Considerations to keep in mind while using archive.tod
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| Bellingcat Team |
+|                 |
