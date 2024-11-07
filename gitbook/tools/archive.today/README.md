@@ -28,7 +28,7 @@ The following parts of the website are saved in the snapshot:\
 
 **Searchable Archive:** Previous snapshots are searchable, making it easy to find and review earlier versions of a page.
 
-**Time Travel:** You can check earlier versions of a page to track how content has changed over time.&#x20;
+**Time Travel:** You can check earlier versions of a page to track how content has changed over time. Just type in the URL of the site of interest in the second search box on the site to see whether you get any results.
 
 **Browser Extension:** There’s a browser extension for quick snapshots, so you don’t have to go through the main site each time. The extension will open a new tab in your browser and will start archiving right away. You can also right click on a page and in the menu you will see the option to archive or search the link.
 
