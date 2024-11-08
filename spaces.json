@@ -5394,5 +5394,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "R99QKssJ0yyIEEYDNgXW",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "ency8GHQFFhmJluVTmq6",
+    "title": "Global Suppliers Online",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-11-08T20:55:04.018Z",
+    "updatedAt": "2024-11-08T20:55:04.018Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/ency8GHQFFhmJluVTmq6",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/ency8GHQFFhmJluVTmq6/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "oaEhPYsJaXKPhC66owPi",
+    "defaultLevel": "inherit"
   }
 ]
