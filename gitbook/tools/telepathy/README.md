@@ -9,56 +9,268 @@ description: >-
 
 ## URL
 
-[https://github.com/jordanwildon/Telepathy](https://github.com/jordanwildon/Telepathy)
+{% embed url="https://github.com/jordanwildon/Telepathy" %}
+
+Version: Telepathy 2.3.4
 
 ## Description
 
 #### Introduction
 
-Telepathy is an Open Source Intelligence (OSINT) toolkit tailored for analyzing Telegram communications. It extracts and examines data from Telegram, differentiating clearly between Telegram channels and groups (referred to here as "chats").
+Telepathy is an open-source OSINT toolkit designed to analyze Telegram communications. It allows users to extract data from public or private Telegram groups and channels and perform searches by user ID or username. Telepathy provides detailed insights such as member lists, group dynamics, and engagement tracking. It also supports CSV export of group members, automatic message translation, and geolocation features for users with public profiles.
 
-The tool can be used to either target chats (as in public or private groups/channels) or users. The specified chat must be public or have a private link. When searching by User (ID or @nickname), your account must have previously interacted with the user in some way, such as after archiving a group. However, when searching by username, prior interaction with the user is not required.
-
-The toolkit facilitates detailed insights into **Telegram channels**. It captures information such as the channel's description, total participant count, identifiable members, username, URL, type of chat, chat ID, access hash, the date of the first post, and any restrictions that might be applied. Channels on Telegram are designed for broadcasting messages to a large audience, and they do not allow members to see each other or directly interact within the channel itself.
-
-Conversely, for **Telegram groups**, Telepathy enables the export of member lists into CSV files. This includes details like each member's number, name, username, and ID. This function is useful for analyzing the dynamics and engagement within groups, where members can see each other and interact freely, facilitating discussions and community building.
-
-The tool offers several functionalities for **user operations** within Telegram. Users can be searched by User ID or @nickname. The location option allows users to find others near specific coordinates, provided their Telegram account displays a publicly viewable profile image. However, rapid successive location searches may be limited by Telegram's rate limits, currently about ten minutes between changes.&#x20;
-
-Additionally, telepathy supports using **alternative numbers** (ie. more than one account at a time) or API details for simultaneous operations, ideal for extensive scanning activities, though it comes with certain limitations related to user ID management and simultaneous account operations.\
-\
-The **export** function allows users to export all the chats they are a part of into a CSV file, which can be useful for organizing chat memberships or potentially assisting with setting up new accounts to automatically join these groups in the future. A **reply feature** facilitates the archiving of replies within channel communications, listing users who have interacted with messages, thus enhancing engagement tracking and analysis. Additionally, the **translate function** offers automatic translation of messages into English, providing a valuable tool for users needing to bridge language barriers in international communications. These functionalities collectively improve the utility of the platform for managing extensive communication networks and integrating multilingual content seamlessly.
-
-#### API management: Bots vs Sessions
-
-Creating a Telegram bot and initiating a Telegram session are two distinct processes within the Telegram platform, each serving different purposes and functionalities.
-
-**Creating a Telegram Bot:** Creating a Telegram bot involves registering a new bot with the BotFather, which is Telegram’s official bot for creating and managing other bots. Here’s how this process typically unfolds:
-
-1. **Initiation**: You start by sending a message to BotFather on Telegram. The command `/newbot` initiates the creation process.
-2. **Naming**: You will be prompted to provide a name for your bot, which will be displayed in conversations.
-3. **Username Assignment**: After naming the bot, you need to assign it a unique username that ends in ‘bot’ (e.g., example\_bot).
-4. **Receive API Token**: Once the bot is registered, BotFather provides an API token, which is essential for programming the bot’s behavior using the Telegram Bot API.
-5. **Programming**: With the API token, developers can use the Telegram Bot API to define the bot’s functionalities, such as sending automated responses, managing groups, or integrating with other services.
-
-**Creating a Telegram Session:** In contrast, initiating a Telegram session is about starting a new instance of interaction with the Telegram system, usually through a user interface or an API for individual users. This process generally involves:
-
-1. **Authentication**: The user logs into their Telegram account using their mobile number, which involves receiving and entering a verification code sent via SMS or call.
-2. **Session Creation**: Once verified, a session is created on the device or application being used. This session maintains the user’s state, settings, and interaction history with Telegram.
-3. **Data Encryption**: Telegram sessions are encrypted, ensuring that the messages are only readable by the sender and the receiver.&#x20;
-   * **Cloud Chats** (anything that isn't a 'secret chat') are encrypted between the client and the server, meaning that Telegram can decrypt and access the messages stored on their servers. This allows users to sync their messages across multiple devices.
-   * **Secret Chats**, on the other hand, use end-to-end encryption, meaning only the sender and recipient can read the messages. These messages are not stored on Telegram’s servers and cannot be accessed by anyone other than the two parties involved in the chat. Secret Chats are only available on Android, iOS and macOS clients.
-4. **Accessing Features**: Within a session, users can send messages, create groups or channels, interact with bots, and use various Telegram features based on their needs.
-
-**Key Differences:**
-
-* **Purpose**: A Telegram bot is created to automate tasks and enhance user interaction without manual intervention, serving as an interface for users or groups. Meanwhile, a Telegram session is essentially the user's active period of interaction with the platform, involving direct manual control and personal usage.
-* **Creation**: Bots are created through BotFather and require programming skills to define their behavior using the Telegram API. A session, however, is initiated by any user simply by logging into Telegram with their credentials.
-* **Functionality**: Bots can interact with users, provide information, manage tasks, and integrate with other digital tools. Sessions allow users to engage with all Telegram functionalities, including chatting, sharing media, and interacting with bots and other users.
-
-#### Summary
+### Summary
 
 Telepathy’s user interface is designed to be intuitive for technically experienced users, and the output is tailored towards in-depth data analysis. Being open-source, it provides the flexibility for modifications and enhancements to meet specific investigative needs.
+
+### Functions
+
+#### **Installation**
+
+#### **Basic Chat Scan (`-t` option)**
+
+{% tabs %}
+{% tab title="Info" %}
+This feature performs a basic scan on a target Telegram chat (public or private with a link). \
+**Use Case:** Ideal for initial reconnaissance or when only top-level details are needed.
+
+* Chat title and description
+* Number of participants
+* Chat type (group or channel)
+* First post date, chat ID, access hash, and applicable restrictions
+* In group chats, a member list (up to 5,000 members) is included in the scan results.
+{% endtab %}
+
+{% tab title="Screenshot" %}
+<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="understanding the output" %}
+* **Title**: Displays the official name of the Telegram channel or group. In this example, the tool retrieves the title **"Bellingcat EN,"** representing the Bellingcat English-language channel.
+* **Description**: Fetches the official description of the chat, providing details about the content or purpose of the channel. For instance, "[https://www.bellingcat.com](https://www.bellingcat.com) investigations open to everyone" appears as the description.
+* **Total Participants**: The tool extracts the total number of participants or subscribers in the channel, which is 6,902 in this case. This metric is crucial for understanding the reach and influence of the channel.
+* **Username**: The username associated with the chat or channel, which is unique and often appears in the URL for direct access (e.g., `t.me/bellingcat_en`).
+* **Chat Type**: Identifies the type of entity, such as a public channel or private chat. In this instance, it identifies **Bellingcat EN** as a **Channel**.
+* **Chat ID**: A unique identifier assigned to the chat by Telegram, used for internal tracking and potential API interactions. In this case, the chat ID is **1137507325**.
+* **Access Hash**: A cryptographic hash generated by Telegram, potentially used for API purposes, allowing access to specific data about the chat. The hash in this example is **5865663730330798864**.
+* **Scam Detection**: Telepathy can flag whether a chat has been reported or detected as a scam. It confirms that **Bellingcat EN** is not flagged as a scam (Scam: False).
+* **First Post Date**: The tool retrieves the date and time of the first message posted in the channel, providing insight into how long the channel has been active. For Bellingcat EN, the first post was on **October 8, 2018, at 21:54:20 UTC+00:00**.
+* **Restrictions**: Indicates any restrictions applied to the chat, such as access limitations by region, age, or language. This particular channel has no restrictions.
+{% endtab %}
+{% endtabs %}
+
+**Comprehensive Scan (`-c` option)**
+
+{% tabs %}
+{% tab title="Info" %}
+A more detailed version of the basic scan, the comprehensive scan archives all message history in the chat.
+
+**Use Case:** Suitable for deeper analysis, such as investigating user interactions and engagement metrics in public Telegram channels and groups.
+
+* Forward counts
+* Reactions to messages
+* Replies to each message
+* Calculated engagement rates for posts based on reactions, forwards, and replies.
+{% endtab %}
+
+{% tab title="Screenshot" %}
+<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Understanding the CSV file" %}
+
+
+The file, `bellingcatru_2024_10_03-02_32_archive.csv`, contains a comprehensive set of data columns related to Telegram messages. Here's an overview of the columns and what they represent:
+
+1. **Unnamed: 0**: Index column automatically created by the CSV format.
+2. **To**: The name of the chat or channel.
+3. **Message ID**: Unique identifier for each message.
+4. **Display\_name**: Display name of the user who posted the message.
+5. **User ID**: Unique identifier for the user.
+6. **Message\_text**: The text content of the message.
+7. **Original\_language**: The original language of the message.
+8. **Translated\_text**: The translated text of the message, if applicable.
+9. **Translation\_confidence**: Confidence score of the translation.
+10. **Timestamp**: Date and time when the message was posted.
+11. **Has\_media**: Indicates if the message contains media.
+12. **Reply\_to\_ID**: Message ID that this message is replying to.
+13. **Replies**: Number of replies to the message.
+14. **Forwards**: Number of times the message was forwarded.
+15. **Views**: Number of views the message received.
+16. **Total\_reactions**: Total number of reactions to the message.
+17. **Reply\_ER\_reach**: Engagement rate for replies based on reach.
+18. **Reply\_ER\_impressions**: Engagement rate for replies based on impressions.
+19. **Forwards\_ER\_reach**: Engagement rate for forwards based on reach.
+20. **Forwards\_ER\_impressions**: Engagement rate for forwards based on impressions.
+21. **Reaction\_ER\_reach**: Engagement rate for reactions based on reach.
+22. **Reactions\_ER\_impressions**: Engagement rate for reactions based on impressions.
+23. **Thumbs\_up**: Number of "thumbs up" reactions.
+24. **Thumbs\_down**: Number of "thumbs down" reactions.
+25. **Heart**: Number of "heart" reactions.
+26. **Fire**: Number of "fire" reactions.
+27. **Smile\_with\_hearts**: Number of "smile with hearts" reactions.
+28. **Clap**: Number of "clap" reactions.
+29. **Smile**: Number of "smile" reactions.
+30. **Thinking**: Number of "thinking" reactions.
+31. **Exploding\_head**: Number of "exploding head" reactions.
+32. **Scream**: Number of "scream" reactions.
+33. **Angry**: Number of "angry" reactions.
+34. **Single\_tear**: Number of "single tear" reactions.
+35. **Party**: Number of "party" reactions.
+36. **Starstruck**: Number of "starstruck" reactions.
+37. **Vomit**: Number of "vomit" reactions.
+38. **Poop**: Number of "poop" reactions.
+39. **Pray**: Number of "pray" reactions.
+40. **Edit\_date**: Date and time when the message was edited.
+41. **URL**: URL link to the message.
+42. **Media save directory**: Directory path where media associated with the message is saved.
+{% endtab %}
+{% endtabs %}
+
+**Forward Mapping (`-f` option)**
+
+{% tabs %}
+{% tab title="Info" %}
+This function creates an edge list showing which messages were forwarded to or from the target chat. It integrates with tools like Gephi for network visualization.
+
+**Use Case:** Useful for tracking the spread of information and mapping how content circulates across different chats.
+{% endtab %}
+
+{% tab title="Screenshot" %}
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Unfortunately, since this is just a bot that repeats Bellingcat news and doesn"t forward messages from other channels, no forwarded messages were found, and no edgelist was made. Here, you can also see how telepathy is started in a virtual environment on a Raspberry Pi in my home network. Installing and using a tool like Telepathy in a virtual environment is generally a good idea because changes or updates to your core Python package won't affect your installation. (However, if you update Telepathy, you might also have to update your virtual environment.)</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Understanding the edgelist file" %}
+If the Bellingcat feed had included sufficient messages forwarded from other channels, here are some explanations of what the columns mean. An edgelist can be used to create a network graph to visualize the interactions and relationships between different entities on Telegram. Tools like Gephi can be used to visualize and analyze these connections. By examining the `Timestamp` column, you can analyze how interactions change over time. The `Username` column helps track specific users' behaviors and their interactions with other entities. The `Label` and `Source_ID` columns provide context about the nature of interactions, which can be useful for understanding engagement patterns within the network.
+
+**Source and Target**: These columns represent the nodes in the network, with `Source` being the originator of the interaction and `Target` being the recipient.
+
+* **Unnamed: 0**: Index column automatically created by the CSV format.
+* **Source**: The name of the source entity (e.g., a user or channel initiating the interaction).
+* **Target**: The name of the target entity (e.g., a user or channel receiving the interaction).
+* **Label**: A descriptive label for the interaction or relationship.
+* **Source\_ID**: The unique identifier for the source entity.
+* **Username**: The username of the source entity.
+* **Timestamp**: The date and time when the interaction occurred.
+{% endtab %}
+{% endtabs %}
+
+
+
+**Media Archiving (`-m` option)**
+
+{% tabs %}
+{% tab title="Info" %}
+This flag archives all media files from the target chat, such as images, videos, and documents. Combined with a comprehensive scan, this function retrieves all available media.
+
+Ideal for investigative scenarios where media content is crucial, but it requires caution due to the potential of downloading illegal or sensitive material.
+{% endtab %}
+
+{% tab title="Screenshot" %}
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Results" %}
+<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Media folder" %}
+<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
+**User Lookup (`-u` option)**\
+
+
+{% tabs %}
+{% tab title="Info" %}
+Telepathy can search for specific users by their User ID or username. The account must have interacted with the user for a successful lookup unless searching by username, which does not require prior interaction.
+
+This feature is handy for profiling or investigating specific users in connection with Telegram groups or channels.
+{% endtab %}
+
+{% tab title="Screenshot" %}
+<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
+**Location Search (`-l` option)**
+
+{% tabs %}
+{% tab title="info" %}
+Finds users near a specific location based on longitude and latitude coordinates. It works only if the user's Telegram profile has a public image.
+
+**Use Case:** This can help geolocate users based on publicly available information, which may assist in regional investigations or geospatial analysis.
+{% endtab %}
+
+{% tab title="Screenshot" %}
+
+{% endtab %}
+{% endtabs %}
+
+**Alternative Account Usage (`-a` option)**
+
+{% tabs %}
+{% tab title="info" %}
+Telepathy supports running multiple accounts simultaneously using alternative phone numbers. It allows users to perform parallel scans or bypass Telegram's rate limitations.
+
+**Use Case:** Useful for large-scale investigations requiring multiple scans at once without being constrained by Telegram's API limitations
+{% endtab %}
+
+{% tab title="Screenshot" %}
+
+{% endtab %}
+{% endtabs %}
+
+**Chat Export (`-e` option)**
+
+{% tabs %}
+{% tab title="info" %}
+Exports all chats your Telegram account is part of to a CSV file. In future versions, this feature may help with provisioning new accounts for automatic group joining.
+
+**Use Case:** Helps maintain an overview of all Telegram groups and channels a user is part of, useful for organization or further analysis.
+{% endtab %}
+
+{% tab title="Screenshot" %}
+
+{% endtab %}
+{% endtabs %}
+
+**Reply Archiving (`-r` option)**
+
+{% tabs %}
+{% tab title="info" %}
+Enables archiving of replies to messages in a target channel, with an additional list of users who have replied.
+
+**Use Case:** Effective for tracking active users and understanding interaction patterns in channels with active discussions.
+{% endtab %}
+{% endtabs %}
+
+#### **Message Translation (`-tr` option)**
+
+{% tabs %}
+{% tab title="info" %}
+Automatically translates messages retrieved from a target chat into English, which is useful for multilingual channels.
+{% endtab %}
+{% endtabs %}
+
+### Command Combinations
+
+1. **Comprehensive Scan with Forwards Analysis**
+   * **Command**: `telepathy -t <target> -c -f`
+   * **Description**: Combines a comprehensive scan with forwards analysis.
+2. **Comprehensive Scan with Media Archiving**
+   * **Command**: `telepathy -t <target> -c -m`
+   * **Description**: Combines a comprehensive scan with media archiving.
+3. **Comprehensive Scan with Reply Retrieval**
+   * **Command**: `telepathy -t <target> -c -r`
+   * **Description**: Combines a comprehensive scan with reply retrieval.
+4. **Comprehensive Scan with Automatic Translation**
+   * **Command**: `telepathy -t <target> -c -tr`
+   * **Description**: Combines a comprehensive scan with automatic translation.
+5. **Alternative Number with Comprehensive Scan**
+   * **Command**: `telepathy -t <target> -c -a [NUMBER]`
+   * **Description**: Uses an alternative number for a comprehensive scan.
 
 ## Cost
 
@@ -76,54 +288,45 @@ Free, with enterprise-grade versions (Telepathy Pro & TelepathyDB) available at 
 
 #### Prerequisites
 
-* **Python:** Ensure you have Python installed on your system since Telepathy is a Python-based tool. You can download Python from the official website.
-* **Telegram API Details:** You'll need to obtain your Telegram API details (API ID and API Hash) from my.telegram.org. This involves registering your application on Telegram to get these credentials.
-* To use Telepathy effectively, users need a separate **activation number** (ie. separate number used only for this purpose) for Telegram. This number is only necessary to create an account, but not necessary to use it.
-* A **VPN** and **virtual machines** are also recommended for enhanced security.
-
-The page maintainer advises employing a separate phone number ("burner phone") and creating a unique API ID and hash directly from Telegram for its operations. These precautions help to preserve the privacy and security of the user's main Telegram account. The use of VPNs and virtual machines is also recommended to safeguard the investigation process.
+* **Python:** Ensure that Python is installed on your system, as Telepathy is a Python-based tool. You can download Python from the official website.
+* **Telegram API Details:** Obtain your Telegram API ID and API Hash by registering an application on [my.telegram.org](https://my.telegram.org). These credentials are necessary for Telepathy to interact with the Telegram API.
+* For enhanced security, it's recommended to use a separate phone number (a "burner phone") to create a new Telegram account specifically for Telepathy operations. This number is required only during account creation.
+* **VPN and Virtual Machines:** To safeguard your privacy and security during investigations, consider using a VPN and running Telepathy within a virtual machine. These measures help protect your main Telegram account and system from potential risks.
 
 ## Limitations
 
-1. **Telegram API Restrictions:** The use of Telegram's API is governed by strict rate limits and terms of use. Excessive requests or actions that violate Telegram's terms can lead to temporary or permanent bans on the API access. This limits how quickly and extensively data can be collected.
-2. **Access to Private Groups and Channels:** Telepathy requires either public access or an invitation link to access private groups and channels. Without proper access, investigating private communications remains out of reach.
-3. **Dependence on User's Telegram Account:** Since Telepathy uses the user's Telegram account for data collection, any limitations or restrictions placed on the account itself will impact the tool's functionality. For instance, looking up users by location requires that your account has a profile picture set to public, and certain features may only work if the account has encountered the target users or groups before.
-4. **Performance and Scalability Issues:** While installing the `cryptg` library can improve performance, particularly for media downloads, the tool's overall efficiency and speed can vary depending on the size of the data being collected and the hardware it's running on. For large-scale investigations, this could lead to significant time consumption.
-5. **Technical Knowledge Requirement:** While Telepathy aims to be accessible, setting it up and making the most of its features require a certain level of technical knowledge, including familiarity with command-line tools and Python. This could pose a barrier to less technically-inclined users.
-6. **Potential for Future Telegram API Changes:** As with any tool that relies on a third-party API, future changes to the Telegram API or its policies could impact Telepathy's functionality or availability.
-7. **Windows Compatibility Issues:** Telepathy may encounter file management and error handling issues on Windows systems, which could hinder smooth operation and require troubleshooting or future updates for resolution.
-8. **Data Analysis Limitations:** While Telepathy can collect a vast amount of data, the analysis and interpretation of this data still require significant effort and expertise from the user. The tool does not provide deep analytical insights automatically; it facilitates data collection, leaving the complex analysis to the user or other tools.
+1.
+   * **Telegram API Restrictions:** Telepathy is subject to Telegram's API rate limits and terms of service. Excessive requests or actions that violate these terms can result in temporary or permanent bans, limiting how quickly and extensively you can collect data.
+   * **Access to Private Groups and Channels:** The tool requires public access or an invitation link to analyze private groups and channels. Without proper access, investigating private communications is not possible.
+   * **Dependence on User's Telegram Account:** Telepathy operates through your Telegram account. Any limitations or restrictions on your account will impact the tool's functionality. For example, features like user location lookup require your account to have a public profile picture, and some functions may only work if you've previously interacted with the target users or groups.
+   * **Performance and Scalability Issues:** While installing the `cryptg` library can improve performance, especially for media downloads, Telepathy's efficiency depends on the volume of data and your hardware capabilities. Large-scale investigations may require significant time and resources.
+   * **Technical Knowledge Requirement:** Setting up and effectively using Telepathy requires technical expertise, including familiarity with command-line interfaces, Python programming, and OSINT techniques. This may present challenges for less technically inclined users.
+   * **Potential Changes in Telegram API:** Future modifications to the Telegram API or its policies could affect Telepathy's functionality or availability, as the tool relies on this third-party service.
+   * **Windows Compatibility Issues:** Telepathy may encounter file management and error handling problems on Windows systems, which could hinder smooth operation and necessitate troubleshooting or updates.
+   * **Data Analysis Limitations:** While the tool collects extensive data, analyzing and interpreting this information requires significant effort and expertise. Telepathy facilitates data collection but does not provide automatic, in-depth analytical insights; additional tools may be needed for complex analysis.
 
 ## Ethical Considerations
 
-* **Legal and Ethical Considerations:** The tool must be used in compliance with laws and ethical guidelines regarding privacy and data collection. Misuse can lead to legal consequences and ethical violations, particularly when handling sensitive information.
-* **Media File Handling:** When archiving media content, users must be cautious and responsible, as they could inadvertently download and store illegal or sensitive materials on their systems. It's the user's responsibility to manage such files according to legal standards and ethical practices.
+* **Legal Compliance:** Use Telepathy in accordance with all applicable laws and regulations related to privacy and data collection. Unauthorized access to private data or misuse of collected information can lead to legal consequences.
+* **Responsible Data Handling:** Exercise caution when collecting and storing data, especially media files, to avoid inadvertently downloading illegal or sensitive content. It's essential to manage and secure all collected data responsibly, adhering to legal and ethical standards.
+* **Respect for Privacy:** Always respect individuals' privacy rights. Collect data only from sources where you have the legal right and, if necessary, consent to do so.
 
 ## General Advice concerning the security of Telegram
 
-While Telegram’s encryption is robust, particularly for secret chats, several vulnerabilities and caveats make it crucial for Telegram users to remain vigilant and proactive about potential security threats.
+While Telegram offers robust encryption features, it's crucial to remain vigilant about potential security threats, especially when using tools like Telepathy for investigations.
 
-Telegram operates using centralized servers, meaning that unlike decentralized platforms where data might be distributed across many independent nodes, Telegram's data is stored and processed on servers controlled by the company. State access to Telegram data, especially on a server within their territory, varies significantly based on the country's legal framework, the technical security of the data, and the geopolitical context. The storage of data from EU-based users is based on servers in the Netherlands and London under GDPR guidelines. Users within Europe benefit from GDPR protections, while those outside Europe should consider additional precautions to secure their data.
+* **Centralized Servers and Data Jurisdiction:** Telegram stores data on centralized servers. Depending on server locations and local laws, authorities may request access to user data. Users outside regions with strong privacy protections (like the GDPR in the EU) should take extra precautions to secure their data.
+* **Risks from Compromised Clients:**
+  * **Infected Applications:** Malicious or altered versions of the Telegram app can introduce malware or spyware to your device, bypassing encryption by accessing messages directly.
+  * **Third-Party Clients:** Unofficial clients not vetted by Telegram may lack proper security measures or be designed to capture user data.
+  * **Phishing Attacks:** Be wary of phishing attempts that trick you into downloading compromised software masquerading as legitimate Telegram updates or apps.
+* **Mitigation Strategies:**
+  * **Use Official Clients:** Download Telegram only from the [official website](https://telegram.org/) or recognized app stores to ensure you use a secure version.
+  * **Enable End-to-End Encryption:** For sensitive communications, use Telegram's "Secret Chats," which offer end-to-end encryption, ensuring messages are accessible only to intended recipients.
+  * **Regular Updates and Vigilance:** Keep your Telegram app updated to benefit from the latest security patches. Stay alert for any unusual activity or requests that may indicate security issues.
+  * **Verify Application Integrity:** Advanced users can verify the reproducibility of the Telegram app build to ensure it matches the published source code, adding an extra layer of security.
 
-If Telegram’s servers are located in a country where the state has jurisdiction, it might legally compel Telegram to hand over user data or provide access to the servers. Depending on the local laws, Telegram might be required to comply with such requests.
-
-#### Infected Clients
-
-Common client side attacks involve modifying the encryption algorithm implemented in the client application. This could happen through tampering with the client software itself—such as a malicious update, a compromised third-party client, or a modified version of the app.
-
-* **Compromised Application**: An infected or maliciously altered version of the Telegram app could be used to introduce malware or spyware on a user’s device. This malware might bypass encryption by capturing keystrokes, screenshots, or directly accessing messages before they are encrypted and sent, or after they are decrypted upon receipt.&#x20;
-* **Third-Party Clients**: Using unofficial or third-party clients that are not vetted by Telegram can also pose significant risks, as these might not follow the same security standards or could be intentionally designed to capture user data.
-* **Phishing Attacks**: Users might be tricked into downloading compromised software through phishing attacks that mimic legitimate communication from Telegram but direct users to download infected versions of the app.
-* **Interception Before/After Encryption**: Even if end-to-end messages are used, threat actors could potentially intercept communications before they are encrypted or after they are decrypted by the recipient. This could be achieved through malware or spyware installed on the user’s device.
-
-#### Mitigating These Risks
-
-To mitigate risks associated with using Telegram, always ensure that the app is downloaded from official and reputable sources and keep it updated to protect against vulnerabilities and exploits. Additionally, use Telegram's "secret chats" feature, which offers end-to-end encryption, to secure sensitive communications against unauthorized server access or compromised clients.
-
-* **End-to-End Encryption:** "Secret Chats" provide protection against both compromised clients (to a degree) and server access, as the decryption keys are only stored on the devices involved in the chat.
-* **Regular Updates and Vigilance**: Keeping the app updated and staying vigilant about where and how it is downloaded can protect against infected clients.&#x20;
-* **Using Official Clients**: Using only official Telegram clients downloaded from trusted sources like the official website or recognized app stores is advised. These versions are more likely to have undergone rigorous security testing and updates.
-* **Verifying Builds**: For enhanced security, users can verify the reproducibility of the build they are using. This process ensures that the application binary is compiled from the published source code, adding an extra layer of transparency and security.
+By adhering to these practices, you can enhance your security posture while using Telepathy and conducting investigations on Telegram.
 
 ## Guide
 
@@ -152,4 +355,3 @@ Jordan Wildon
 | Page maintainer |
 | --------------- |
 | Martin Sona     |
-
