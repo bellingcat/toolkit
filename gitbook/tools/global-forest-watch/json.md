@@ -7,10 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Global Forest Watch",
-  "description": "Helps detect changes in forest cover (i.e., to track deforestation). It also includes Global Fire Watch (VIRSS data)",
-  "cost": "Free",
-  "details": "🌳, 🔥",
   "tags": [
     "maps-and-satellites",
     "maps",

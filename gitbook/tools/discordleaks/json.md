@@ -7,10 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "DiscordLeaks",
-  "url": "https://discordleaks.unicornriot.ninja/discord/server/",
-  "description": "Search hundreds of thousands of messages leaked from 180+ white-supremacist / nazi discord servers, by UnicornRiot",
-  "cost": "Free",
   "tags": [
     "discord"
   ]
