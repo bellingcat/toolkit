@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Use Google Lens to identify objects or locations that are visible in an image. This is particularly useful if you want to geolocate an image, or find out more information about the objects, landmarks or vegetation in a photograph in order to better understand its contents. Primarily a mobile phone application, this software can also be used in the Chrome browser.&#x20;
+Use Google Lens to identify objects or locations that are visible in an image. This can be useful if you want to geolocate an image, or find out more information about the objects, landmarks or vegetation in a photograph in order to better understand its contents. Primarily a mobile phone application, it can also be used in the Chrome browser.&#x20;
 
 ### Using the Google Photos mobile application&#x20;
 
