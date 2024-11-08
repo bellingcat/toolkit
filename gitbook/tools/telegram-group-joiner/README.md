@@ -1,8 +1,7 @@
 ---
 description: >-
-  Automate the process of joining multiple Telegram groups and channels. This
-  tool is ideal for researchers interested in monitoring specific topics on
-  Telegram.
+  Automate joining multiple Telegram groups and channels, ideal for researchers
+  monitoring specific topics.
 ---
 
 # Telegram Group Joiner
@@ -14,6 +13,8 @@ description: >-
 ## Description
 
 The Telegram Group Joiner is a web-based automation tool that facilitates the addition of a Telegram account to multiple groups. It is particularly useful for researchers who are focusing on a specific research topic and who need to monitor key Telegram groups, including private channels with invite links.
+
+<figure><img src=".gitbook/assets/grafik.png" alt=""><figcaption></figcaption></figure>
 
 The tool allows preloading of group URLs by appending them to a base URL, separated by semicolons. This automation is executed fully client-side using tdlib for a robust Telegram API experience. It is worth mentioning that the tool only operates client-side, ensuring no data retention on servers.
 
