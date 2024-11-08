@@ -12,21 +12,43 @@ description: >-
 
 ## Description
 
-Telegago is a Google Custom Search Engine (CSE) that facilitates Open Source Investigations on Telegram by focusing searches on public content available within the platform. A CSE allows for the creation of a search environment tailored to specific internet domains or content types. Telegago leverages this feature by using custom search operators to conduct precise queries on Telegram's domains such as t.me, enhancing the accuracy and relevance of the search results. This tool is particularly useful for researchers who require access to publicly shared information on Telegram without needing an account on the platform.
+Telegago is a Google Custom Search Engine (CSE) specifically designed to search public Telegram content for Open Source Intelligence (OSINT) purposes. By focusing on Telegram's domains like t.me, Telegago enables researchers to perform precise and relevant searches without needing a Telegram account.
 
-**Guide on How to Use Telegago**
+**Features**
 
-1. **Input Search Term:**
-   * Open the Telegago search engine page.
-   * Type your desired search term into the search box. You can enhance the specificity of your search using Google search operators. For example:
-     * **Exact match:** Use quotes to search for an exact phrase or term, e.g., `"European Parliament"`.
-     * **Exclude words:** Use the minus sign to exclude certain words from your search, e.g., `European Parliament -AfD` to find information about the European Parliament excluding articles mentioning the AfD party.&#x20;
-2. **Get Results:**
-   * Click the search button to execute your query.
-   * Telegago will display a list of results from public Telegram content that match your specified query. These results are confined to Telegram’s domain, focusing on user profiles, channels, and groups relevant to your search terms.
-3. **Join Groups or Channels (Optional):**
-   * If you identify a Telegram group or channel of interest in your search results and wish to join it, you can use tools such as [Bellingcat's Telegram Group Joiner](https://github.com/bellingcat/telegram-group-joiner).
-   * This tool facilitates automatic joining of specific Telegram channels or groups by utilizing direct links found in your search results.
+* **Tailored Searches:** Leverages custom search operators to enhance the accuracy and relevance of results within Telegram's public content.
+* **No Account Required:** Access publicly shared information without a Telegram account.
+* **User-Friendly Interface:** Familiar Google search experience for ease of use.
+
+### Guide on how to use Telegago
+
+1.
+
+    **1 - Access Telegago:**
+
+    * Open the Telegago search engine page in your web browser.
+
+    **2 - Enter Search Terms:**
+
+    * Type your desired keywords into the search box.
+    * Use Google search operators to refine your search:
+      * **Exact Match:** Use quotation marks to search for an exact phrase.
+        * Example: `"European Parliament"`
+      * **Exclude Words:** Use the minus sign to exclude certain terms.
+        * Example: `European Parliament -AfD` (finds information about the European Parliament excluding mentions of the AfD party)
+
+    **3 - Execute the Search:**
+
+    * Click the search button or press Enter to view the results.
+
+    **4 - Review Results:**
+
+    * Browse the list of public Telegram profiles, channels, and groups that match your query.
+
+    **5 - Optional - Join Groups or Channels:**
+
+    * If you find a Telegram group or channel of interest, you can join it using tools like Bellingcat's [Telegram Group Joiner](https://bellingcat.github.io/telegram-group-joiner/).
+    * This tool automates the process of joining specific channels or groups using direct links from your search results.
 
 ## Cost
 
@@ -34,23 +56,26 @@ Telegago is a Google Custom Search Engine (CSE) that facilitates Open Source Inv
 * [ ] Partially Free
 * [ ] Paid
 
-
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
-No specific requirements other than an internet connection and a web browser.
+No technical expertise is required beyond basic internet browsing skills.
+
+* **Internet Connection:** An active internet connection.
+* **Web Browser:** Any modern web browser.
 
 ## Limitations
 
-Telegago only indexes publicly accessible information on Telegram, so any content set to private or deleted before indexing won't be available. The results depend on the effectiveness of the search terms used.
+* **Public Content Only:** Telegago indexes only publicly accessible information on Telegram. Private or deleted content will not appear in search results.
+* **Search Effectiveness:** The quality of results depends on the specificity and effectiveness of your search terms.
 
 ## Ethical Considerations
 
-Users must consider the privacy implications of accessing and using data from Telegram profiles and groups. It's important to comply with legal standards and respect privacy rights during OSINT activities.
+* **Privacy Compliance:** Users should respect privacy rights and adhere to legal standards when accessing and using data from Telegram profiles and groups.
+* **Responsible Use:** Ensure your OSINT activities are ethical and do not infringe upon individual privacy or violate any laws.
 
 ## Guide
 
@@ -70,4 +95,3 @@ Unknown / Google
 | --------------- |
 | Martin Sona     |
 |                 |
-
