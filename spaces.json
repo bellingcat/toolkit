@@ -5358,5 +5358,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "JBseihQCbwhqLWfd24Xk",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "iHOFZyh1CZQhZy3BRxuz",
+    "title": "UN Comtrade Database",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-11-08T10:43:46.568Z",
+    "updatedAt": "2024-11-08T10:43:46.568Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/iHOFZyh1CZQhZy3BRxuz",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/iHOFZyh1CZQhZy3BRxuz/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "2D7hea3Cb1LGBxNNVn7E",
+    "defaultLevel": "inherit"
   }
 ]
