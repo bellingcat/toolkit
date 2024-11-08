@@ -5340,5 +5340,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "nIrR6ut8ZvY3ObvDrHgd",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "0TAIzi4T8BXTQOTvlJrO",
+    "title": "Maigret",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-11-08T10:29:49.140Z",
+    "updatedAt": "2024-11-08T10:29:49.140Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/0TAIzi4T8BXTQOTvlJrO",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/0TAIzi4T8BXTQOTvlJrO/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "JBseihQCbwhqLWfd24Xk",
+    "defaultLevel": "inherit"
   }
 ]
