@@ -16,7 +16,7 @@ description: >-
 NOTE: Hoaxy was [first developed in 2016](https://www.researchgate.net/publication/301841797\_Hoaxy\_A\_Platform\_for\_Tracking\_Online\_Misinformation). This toolkit description tested the most recent version and its features to date.
 {% endhint %}
 
-Hoaxy assists in unraveling the complex web of information dissemination online, particularly on X (Twitter) and Bluesky. It primarily addresses the problem of mis- and disinformation spreading rapidly on social media platforms. Users can search for a particular topic or keyword on either platform, and it will automatically generate a graph showing the spread of information.&#x20;
+Hoaxy assists in unraveling the complex web of information dissemination online, particularly on X (Twitter) and Bluesky. It primarily addresses the problem of mis- and disinformation spreading rapidly on social media platforms. Users can search for a particular topic or keyword on either platform, and it will automatically generate a graph showing the spread of information.
 
 ### What problem does it solve?
 
@@ -26,7 +26,7 @@ For open-source researchers wanting to verify false claims, it is important to r
 
 Hoaxy solves some of these questions through the following key features:
 
-1. Search: This allows users to find specific keywords, URLs, or users on Bluesky and X/Twitter that need verification or monitoring.
+1. Search: This allows users to find specific keywords, URLs, or users on Bluesky and X/Twitter that may need verification or monitoring.
 2. [Visualization:](https://hoaxy.osome.iu.edu/faq#faq-q11) This offers users a visual representation of data that can illustrate who is sharing the information, the connections between different users, and the chronological order in which the information is spread.
 
 ### How does it work?
@@ -61,6 +61,10 @@ NOTES:
 If the user is interested in tracking information spread on the X platform, users must select “Search X/Twitter”. Then, they can enter search terms in the same way they can use the advanced search feature of X (See X’s guide to building a query [here](https://developer.x.com/en/docs/twitter-api/tweets/search/integrate/build-a-query) or [this guide](https://bellingcat.gitbook.io/toolkit/more/all-tools/twitter-advanced-search)). [This tool is compatible with X’s advanced search operators.](https://hoaxy.osome.iu.edu/faq#faq-twitter-search)
 
 For example: "Amazon deforestation" AND (illegal OR logging) has:videos
+
+**IMPORT YOUR OWN DATA**
+
+In addition to examining content from Bluesky and X, [users can also import their own data](https://hoaxy.osome.iu.edu/faq#faq-q30) into the tool’s visualization tool, as long as the data is in the required format: CSV and JSON.&#x20;
 
 #### **VISUALIZATION**
 
@@ -135,11 +139,11 @@ Bluesky search and importing your own data is free, but an X/Twitter search requ
 
 ## Limitations
 
-1.  **Beta Status:** Based on its landing page, Hoaxy still appears to be in the beta phase.&#x20;
+1.  **Beta Status:** Based on its landing page, Hoaxy still appears to be in the beta phase.
 
     This may affect its accessibility and ease of use, especially for users who are less technically inclined. While it sometimes takes a bit longer to load the visualization graphs, it generally performs well.
 2. **Date/Time Frame Limitations:** based on some tests, Hoaxy automatically chooses a date/time frame for your search. Users have the option to fetch older or newer posts, but the tool sometimes struggles to load the visualization after doing so. Users may try using date and time search operators to see if Hoaxy can fetch posts within a timeframe of interest.
-3. **X/Twitter API Limitations:** Due to recent API policy changes, Hoaxy can only access tweets from the past 7 days, limiting the scope of live searches. Mis- and disinformation may be more prevalent on X due to its larger user base. (As of Feb 2024, ["Bluesky's user numbers are still quite small compared with Threads at more than 130 million and X at 556 million."](https://www.zdnet.com/article/bluesky-snags-more-than-800000-new-users-after-opening-to-the-public/) ) A [2024 Pew Research Center report](https://www.pewresearch.org/journalism/2024/06/12/x-users-experiences-with-news/) on X users' experience with news say that 86% of its participants see news on the platform that seems inaccurate.&#x20;
+3. **X/Twitter API Limitations:** Due to recent API policy changes, Hoaxy can only access tweets from the past 7 days, limiting the scope of live searches. Mis- and disinformation may be more prevalent on X due to its larger user base. (As of Feb 2024, ["Bluesky's user numbers are still quite small compared with Threads at more than 130 million and X at 556 million."](https://www.zdnet.com/article/bluesky-snags-more-than-800000-new-users-after-opening-to-the-public/) ) A [2024 Pew Research Center report](https://www.pewresearch.org/journalism/2024/06/12/x-users-experiences-with-news/) on X users' experience with news say that 86% of its participants see news on the platform that seems inaccurate.
 4. **Network Pruning:** The tool may occasionally truncate some diffusion networks to improve performance, potentially omitting relevant data. [According to the tool provider, “\[t\]he network may be pruned for performance.”](https://hoaxy.osome.iu.edu/faq#faq-q5)
 5. [**Public Posts Only:**](https://hoaxy.osome.iu.edu/faq#faq-q16) Hoaxy can only retrieve and analyze public posts, leaving private conversations unexamined.
 6. **Cross-Platform Limitations:** Hoaxy requires additional tools to track mis- and disinformation that spills over to other platforms, as it can rapidly spread from one platform to another. The dynamics of information spread vary significantly across different social media. [As shown in this BBC Investigation](https://www.bbc.com/news/articles/cl4y0453nv5o), the spread of misinformation in the Southport protests started on one platform and then migrated to a different platform, where it was even more amplified.
@@ -156,7 +160,7 @@ Overall, while Hoaxy is created as a comprehensive tool, its reliance on specifi
 
 ## Tool provider
 
-[Hoaxy](https://hoaxy.osome.iu.edu/faq#faq-q10) is a joint project of the Indiana University Network Science Institute ([IUNI](https://iuni.iu.edu/)) and the Center for Complex Networks and Systems Research ([CNetS](http://cnets.indiana.edu/)). &#x20;
+[Hoaxy](https://hoaxy.osome.iu.edu/faq#faq-q10) is a joint project of the Indiana University Network Science Institute ([IUNI](https://iuni.iu.edu/)) and the Center for Complex Networks and Systems Research ([CNetS](http://cnets.indiana.edu/)).
 
 ## Advertising Trackers
 
