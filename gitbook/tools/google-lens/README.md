@@ -60,11 +60,11 @@ You need the Google Photos application on your mobile phone if you want to searc
 
 ## Limitations
 
-Google Lens is getting more sophisticated with time, but it doesn't always work, especially if a physical landmark or object is very generic. It is, however, a very useful first port of call and can save you a lot of time.
+Google Lens is getting more sophisticated with time, but it doesn't always work, especially if a physical landmark or object is very generic. It is, however, a very useful first port of call and can potentially  save you time.
 
 ## Ethical Considerations
 
-Ethical considerations include privacy concerns, copyright infringement, and possible proliferation of misinformation. Make sure you analyse the search results critically and cross-reference these with other sources of information to ensure your findings are accurate. This can help stem misinformation and prevent fake news from spreading. Do not use copyright images without permission.&#x20;
+Make sure you analyse the search results critically and cross-reference these with other sources of information to ensure your findings are accurate. This can help stem misinformation and prevent wrong information from spreading. Do not use copyright images without permission.&#x20;
 
 ## Guides and articles
 
