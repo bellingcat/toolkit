@@ -124,11 +124,7 @@ _**Analytics:**_ TGStat assists in analyzing content and reach. It provides insi
 
 TGStat has both free and paid versions. However, the most important features of the tool are available for free.
 
-The versions are: Free, Premium Analytics, Premium Search
-
-|           | **Free** | **Premium Analytics**                                                                          | **Premium Search**                                                                             |
-| --------- | -------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| **Price** | 0 RUB    | <p>1 mo – 2 490 RUB</p><p>3 mo – 7 090 RUB</p><p>6 mo – 13 390 RUB</p><p>12mo – 25 390 RUB</p> | <p>1 mo – 2 190 RUB</p><p>3 mo – 6 200 RUB</p><p>6 mo – 11 800 RUB</p><p>12mo – 22 300 RUB</p> |
+The versions are: Free, Premium Analytics, Premium Search (see website for pricing)
 
 **Free vs. Premium Analytics**
 
