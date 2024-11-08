@@ -5376,5 +5376,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "2D7hea3Cb1LGBxNNVn7E",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "DSdA9nwnUTGP84wxRNdD",
+    "title": "SkyFi",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-11-08T20:42:34.183Z",
+    "updatedAt": "2024-11-08T20:42:34.183Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/DSdA9nwnUTGP84wxRNdD",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/DSdA9nwnUTGP84wxRNdD/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "R99QKssJ0yyIEEYDNgXW",
+    "defaultLevel": "inherit"
   }
 ]
