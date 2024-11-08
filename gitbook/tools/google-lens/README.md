@@ -64,7 +64,7 @@ Google Lens is getting more sophisticated with time, but it doesn't always work,
 
 ## Ethical Considerations
 
-Make sure you analyse the search results critically and cross-reference these with other sources of information to ensure your findings are accurate. This can help stem misinformation and prevent wrong information from spreading. Do not use copyright images without permission.&#x20;
+Make sure you analyse the search results critically and cross-reference these with other sources of information to ensure you draw the right conclusions and your findings are accurate. Do not use copyright images without permission.&#x20;
 
 ## Guides and articles
 
