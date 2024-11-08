@@ -38,9 +38,9 @@ Open a photograph in the Google Photos mobile application and click the Google L
 
 </div>
 
-### Using Google Photos in the browser&#x20;
+### Using Google Lens in the browser&#x20;
 
-Right click any photo you come across while browsing the Internet using Google Chrome and click 'Search with Google Lens'. Results will be shown on the right.&#x20;
+Right click any photo you come across while browsing the Internet using Google Chrome and click 'Search with Google Lens'. The results will be shown on the right.&#x20;
 
 <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
