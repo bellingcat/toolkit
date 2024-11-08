@@ -52,11 +52,15 @@ The tool can lead to your Telegram account being blocked, which seems more likel
 
 ## Ethical Considerations
 
-It is possible to gain access to people's names and images using this tool, and should be used as part of tightly scoped investigations. Users should be careful not to dox people they are investigating when sharing their findings.
+It is possible to gain access to people's names and images using this tool, and should be used as part of tightly scoped investigations. Users should be careful not to dox people they are investigating when sharing their findings.&#x20;
 
 ## Guides and articles
 
 [YouTube Tutorial](https://www.youtube.com/watch?v=TLJgnlilEBs)
+
+Bellingcat article: ["How Code Notebooks Enable Open Source Research"](https://www.bellingcat.com/resources/2024/03/06/how-code-notebooks-enable-open-source-research/), Miguel Ramalho
+
+
 
 ## Tool provider
 
@@ -71,4 +75,4 @@ It is possible to gain access to people's names and images using this tool, and 
 | Page maintainer |
 | --------------- |
 | Galen Reich     |
-|                 |
+| Afton           |
