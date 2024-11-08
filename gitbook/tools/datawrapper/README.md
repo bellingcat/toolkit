@@ -308,7 +308,7 @@ This is a sample interactive symbol map generated through Datawrapper. We first 
 
 ### _Locator map_
 
-Before we dive into the process, it's essential to clarify what a locator map is. A locator map is a small map that shows the location of a specific area within a larger context. It's often used to orient viewers and provide a geographical perspective. According to[ the tool provider](https://academy.datawrapper.de/article/161-how-to-create-a-locator-map), “They are a great choice if you want to show where something is located or happened.”
+A locator map is a small map that shows the location of a specific area within a larger context. It's often used to orient viewers and provide a geographical perspective. According to[ the tool provider](https://academy.datawrapper.de/article/161-how-to-create-a-locator-map), “They are a great choice if you want to show where something is located or happened.”
 
 <details>
 
