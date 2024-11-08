@@ -49,9 +49,9 @@ TGStat is useful for discovery, especially for those monitoring events in Russia
 
 _**What problem does it solve?**_
 
-TGStat solves a discovery and time management issue. Telegram’s search function lacks advanced features and filters, making it difficult for unfamiliar users to find specific information. Success often relies on knowing local terminology and search nuances. However, TGStat can assist through discovery, comparison, and analytics.
+TGStat solves a discovery and time management issue. Telegram’s search function lacks advanced features and filters, making it difficult for unfamiliar users to find specific information. Success often relies on knowing local terminology and search nuances. However, TGStat can assist through advanced search filters, comparison, and analytics.
 
-**Discovery:** It assists researchers in finding relevant channels to follow on specific topics. Some features are:
+**Advanced Search Features:** It assists researchers in finding relevant channels to follow on specific topics. Some features are:
 
 1. _Filter by country:_ On TGStat, users can filter channels by country. The list of countries available in the search filters are: Russia, Ukraine, Belarus, Uzbekistan, Kazakhstan, Kyrgyzstan, Iran, China, India, and Ethiopia.
 
@@ -73,7 +73,29 @@ _Channels rating:_ According to the tool website, the top 100 Telegram channels 
 
 _Groups rating:_ Groups (public and private) are rated according to the most number of participants, by growth, by messages (number of messages in a group in the last 7 days), and by active participants (“MAU’s”- Monthly Active Users - which TGStat describes as “the number of unique users who have written at least one message in a group in the last 30 days”) .  &#x20;
 
-_Posts rating_: Posts are rated by the most number of [views, by shares including through personal messages, by most numbers of comments, by forwards to channels, and by reactions](https://tgstat.ru/en/ratings/posts).&#x20;
+_Posts rating_: Posts are rated by the most number of [views, by shares including through personal messages, by most numbers of comments, by forwards to channels, and by reactions](https://tgstat.ru/en/ratings/posts).
+
+<details>
+
+<summary>Other Filtering Options</summary>
+
+There are other ways to filter search results on TGSTAT.&#x20;
+
+* language
+* channel type (private or public)
+* engagement rate&#x20;
+* audience by gender
+* average post reach and average post reach (in the past 24 hours)
+* Citation Index
+* Verified channels&#x20;
+* Channels with a  ["red mark"](#user-content-fn-1)[^1]
+* Channels without "Scame/Fake marks"&#x20;
+
+To get to the advanced search feature, users can click "Catalog" in the upper left, then click on "Search for channels." A filtering panel with the above parameters will appear on the right side.&#x20;
+
+</details>
+
+
 
 **Comparison:** This tool also solves the problem of visualizing posts reach and its relationship with other user accounts, channels and content. TGstat can pull up a specific channel's analytics and show the relationship between accounts through the “citation” section. This section shows who cites whom.&#x20;
 
@@ -218,3 +240,7 @@ e-mail: ceo@tgstat.ru
 ### Page Maintainer
 
 Afton
+
+[^1]: According to the source below: A "red mark" indicates that the channel was inspected and found to contain fake audience.&#x20;
+
+    ([https://elama.ru/blog/kak-proverit-telegram-kanal-na-nakrutku-besplatno-bez-registracii-i-sms/](https://elama.ru/blog/kak-proverit-telegram-kanal-na-nakrutku-besplatno-bez-registracii-i-sms/))
