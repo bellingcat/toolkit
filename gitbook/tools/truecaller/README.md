@@ -118,7 +118,9 @@ Users need to note that when signing up with an email address, users outside the
 
 ## Guides&#x20;
 
-Bellingcat guide: “Using Phone Contact Book Apps For Digital Research”, Aric Toler
+See the following Bellingcat guide on Truecaller and similar Contact Book Apps:&#x20;
+
+**“Using Phone Contact Book Apps For Digital Research”, Aric Toler**
 
 [https://www.bellingcat.com/resources/how-tos/2019/04/08/using-phone-contact-book-apps-for-digital-research/](https://www.bellingcat.com/resources/how-tos/2019/04/08/using-phone-contact-book-apps-for-digital-research/)
 
@@ -130,8 +132,8 @@ Truecaller, Sweden
 
 ## Advertising Trackers
 
-* [ ] This tool has not been checked for advertising trackers yet.
-* [x] This tool uses tracking cookies. Use with caution.
+* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer |
