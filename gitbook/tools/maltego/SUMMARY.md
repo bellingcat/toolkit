@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Maltego](README.md)
+* [Maltego Graph](README.md)
 * [Categories](categories.md)
