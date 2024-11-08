@@ -5412,5 +5412,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "oaEhPYsJaXKPhC66owPi",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "Z5V1XN5LASMR4GG0eNxE",
+    "title": "CITES Trade Database",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-11-08T21:06:00.805Z",
+    "updatedAt": "2024-11-08T21:06:00.805Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/Z5V1XN5LASMR4GG0eNxE",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/Z5V1XN5LASMR4GG0eNxE/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "GzyDIfTyagDlpRcRb5HC",
+    "defaultLevel": "inherit"
   }
 ]
