@@ -493,9 +493,7 @@ NOTE: Collaboration in Teams[ is live](https://blog.datawrapper.de/introducing-l
 * [x] Partially Free
 * [ ] Paid
 
-NOTE: However, even the free version includes already robust features and can perform most data visualization tasks very well.
-
-The information on the pricing is available at: [https://www.datawrapper.de/pricing](https://www.datawrapper.de/pricing)
+NOTE: Even the free version includes robust features and can perform most data visualization tasks very well. The information on the pricing is available at: [https://www.datawrapper.de/pricing](https://www.datawrapper.de/pricing)
 
 ## Level of difficulty
 
