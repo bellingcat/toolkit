@@ -60,7 +60,7 @@ You need the [Google Photos](https://play.google.com/store/apps/details?id=com.g
 
 ## Limitations
 
-Google Lens is getting more sophisticated with time, but it doesn't always work, especially if a physical landmark or object is very generic. It is, however, a very useful first port of call and can potentially  save you time.
+Google Lens is getting more sophisticated with time, but it doesn't always work, especially with landmarks or objects that are less well-known or common. It is, however, a very useful first port of call and can potentially save you time.
 
 ## Ethical Considerations
 
