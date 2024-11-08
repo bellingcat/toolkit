@@ -98,7 +98,7 @@ Extracts metadata from JPEG images and videos in MP4 or M4V formats, providing d
 {% endtab %}
 {% endtabs %}
 
-**Deepfake (Locked Feature)**&#x20;
+**Deepfake (Locked Feature)**
 
 Uses a machine learning classifier to determine the probability that a video contains AI-manipulated faces, such as face swapping or face reenactment. Access is restricted to registered users.
 
@@ -116,13 +116,13 @@ Uses a machine learning classifier to determine the probability that a video con
 {% endtab %}
 
 {% tab title="Result: Deepfake" %}
-<figure><img src=".gitbook/assets/chrome_BQnLdsRoxX.png" alt=""><figcaption><p>This is a deepfake of German news anchor Christian Sievers, used in September 2023 for a Crypto Scam. As you can see, the deepfake video barely scores higher than an unedited video, illustrating that detection algorithms are never perfect. Results have to be manually validated through other sources.<br><em>KI-Fake klaut ZDF-Moderator die Stimme—Das steckt dahinter</em>. (2023, September 22). ZDFheute. <a href="https://www.zdf.de/nachrichten/panorama/kriminalitaet/ki-fake-sievers-heute-journal-100.html">https://www.zdf.de/nachrichten/panorama/kriminalitaet/ki-fake-sievers-heute-journal-100.html</a> </p></figcaption></figure>
+<figure><img src=".gitbook/assets/chrome_BQnLdsRoxX.png" alt=""><figcaption><p>This is a deepfake of German news anchor Christian Sievers, used in September 2023 for a Crypto Scam. As you can see, the deepfake video barely scores higher than an unedited video, illustrating that detection algorithms are never perfect. Results have to be manually validated through other sources.<br><em>KI-Fake klaut ZDF-Moderator die Stimme—Das steckt dahinter</em>. (2023, September 22). ZDFheute. <a href="https://www.zdf.de/nachrichten/panorama/kriminalitaet/ki-fake-sievers-heute-journal-100.html">https://www.zdf.de/nachrichten/panorama/kriminalitaet/ki-fake-sievers-heute-journal-100.html</a></p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
 ### **Image**
 
-**Image Analysis**&#x20;
+**Image Analysis**
 
 Provides contextual information for images posted on Facebook, helping to verify their origin and context.
 
@@ -140,7 +140,7 @@ This function might not be available at this time due to changes in Facebook TOS
 {% endtab %}
 {% endtabs %}
 
-#### **Magnifier**&#x20;
+#### **Magnifier**
 
 Offers a magnifying lens and photo editor to examine images in detail, allowing for close inspection of specific areas.
 
@@ -150,7 +150,7 @@ Offers a magnifying lens and photo editor to examine images in detail, allowing 
 {% endtab %}
 
 {% tab title="Results " %}
-<figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption><p>The results tab allows you to use a magnifier by hovering over the image, edit the image, download the source, and do a reverse image search on DBFK, Google Lens, Baidu, Yandex, Bing, Tineye, and Google Factcheck. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption><p>The results tab allows you to use a magnifier by hovering over the image, edit the image, download the source, and do a reverse image search on DBFK, Google Lens, Baidu, Yandex, Bing, Tineye, and Google Factcheck.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Magnifier" %}
@@ -176,13 +176,13 @@ Extracts metadata from JPEG images and videos in MP4 or M4V formats, providing i
 {% endtab %}
 {% endtabs %}
 
-#### **Forensic**&#x20;
+#### **Forensic**
 
 Provides an enhanced toolkit to detect image forgeries, enabling detailed forensic analysis to identify manipulations.
 
 {% tabs %}
 {% tab title="Forensic Tab" %}
-<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption><p>"This enhanced forensic toolkit aims to help you detect alterations in manipulated images." This example is taken from a report of Bellingcat Researcher Annique Mossou. <br>Mossou, A. (2023, May 2). <em>Testing for Manipulation: A Case Study from Colombia</em>. Bellingcat. <a href="https://www.bellingcat.com/resources/2023/05/02/testing-for-manipulation-a-case-study-from-colombia/">https://www.bellingcat.com/resources/2023/05/02/testing-for-manipulation-a-case-study-from-colombia/</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption><p>"This enhanced forensic toolkit aims to help you detect alterations in manipulated images." This example is taken from a report of Bellingcat Researcher Annique Mossou.<br>Mossou, A. (2023, May 2). <em>Testing for Manipulation: A Case Study from Colombia</em>. Bellingcat. <a href="https://www.bellingcat.com/resources/2023/05/02/testing-for-manipulation-a-case-study-from-colombia/">https://www.bellingcat.com/resources/2023/05/02/testing-for-manipulation-a-case-study-from-colombia/</a></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results: Filters" %}
@@ -194,7 +194,7 @@ Provides an enhanced toolkit to detect image forgeries, enabling detailed forens
 {% endtab %}
 {% endtabs %}
 
-#### **OCR (Optical Character Recognition)**&#x20;
+#### **OCR (Optical Character Recognition)**
 
 Extracts text from images, making it easier to analyze and verify textual content within images.
 
@@ -212,7 +212,7 @@ Extracts text from images, making it easier to analyze and verify textual conten
 {% endtab %}
 {% endtabs %}
 
-**CheckGIF (Locked Feature)**&#x20;
+**CheckGIF (Locked Feature)**
 
 Compares an original image with a tampered one, including cropped images, and generates a GIF highlighting differences. Access is restricted to registered users.
 
@@ -222,7 +222,7 @@ This plugin will not be able to solve the question of the correct pronunciation 
 
 {% tabs %}
 {% tab title="CheckGIF" %}
-<figure><img src=".gitbook/assets/image (32).png" alt=""><figcaption><p>Here, we take images from an article surrounding the World’s First Rooftop Solar Panel. <br>Postma, F. (2023, August 16). <em>Untangling the Mystery of the World’s First Rooftop Solar Panel</em>. Bellingcat. <a href="https://www.bellingcat.com/news/2023/08/16/untangling-the-mystery-of-the-worlds-first-rooftop-solar-panel/">https://www.bellingcat.com/news/2023/08/16/untangling-the-mystery-of-the-worlds-first-rooftop-solar-panel/</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (32).png" alt=""><figcaption><p>Here, we take images from an article surrounding the World’s First Rooftop Solar Panel.<br>Postma, F. (2023, August 16). <em>Untangling the Mystery of the World’s First Rooftop Solar Panel</em>. Bellingcat. <a href="https://www.bellingcat.com/news/2023/08/16/untangling-the-mystery-of-the-worlds-first-rooftop-solar-panel/">https://www.bellingcat.com/news/2023/08/16/untangling-the-mystery-of-the-worlds-first-rooftop-solar-panel/</a></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="GIF creation" %}
@@ -242,11 +242,11 @@ This plugin will not be able to solve the question of the correct pronunciation 
 {% endtab %}
 
 {% tab title="First attempt: 88%" %}
-<figure><img src=".gitbook/assets/image (36).png" alt=""><figcaption><p>If Midjourney doesn't get a subject, it will make women </p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (36).png" alt=""><figcaption><p>If Midjourney doesn't get a subject, it will make women</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Second attempt: ??" %}
-<figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption><p>"photograph of woman's face, pores, vellus hairs::1 freckles::-0.4 --s 700 --ar 3:4" Thanks to @InfoGuru from the Midjourney Discord. I'll see myself out.  </p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption><p>"photograph of woman's face, pores, vellus hairs::1 freckles::-0.4 --s 700 --ar 3:4" Thanks to @InfoGuru from the Midjourney Discord. I'll see myself out.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -266,11 +266,11 @@ This plugin will not be able to solve the question of the correct pronunciation 
 
 {% tabs %}
 {% tab title="Geolocalizer Tab" %}
-<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>I'm using an example from Logan William's excellent article on the OSM Search tool.<br>Williams, L. (2023, May 8). <em>Finding Geolocation Leads with Bellingcat’s OpenStreetMap Search Tool</em>. Bellingcat. <a href="https://www.bellingcat.com/resources/how-tos/2023/05/08/finding-geolocation-leads-with-bellingcats-openstreetmap-search-tool/">https://www.bellingcat.com/resources/how-tos/2023/05/08/finding-geolocation-leads-with-bellingcats-openstreetmap-search-tool/</a> <br></p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>I'm using an example from Logan William's excellent article on the OSM Search tool.<br>Williams, L. (2023, May 8). <em>Finding Geolocation Leads with Bellingcat’s OpenStreetMap Search Tool</em>. Bellingcat. <a href="https://www.bellingcat.com/resources/how-tos/2023/05/08/finding-geolocation-leads-with-bellingcats-openstreetmap-search-tool/">https://www.bellingcat.com/resources/how-tos/2023/05/08/finding-geolocation-leads-with-bellingcats-openstreetmap-search-tool/</a><br></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="First attempt" %}
-<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption><p>unfortunately I get an error for what should have been a street in Brussels. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption><p>unfortunately I get an error for what should have been a street in Brussels.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Second attempt" %}
@@ -286,17 +286,17 @@ Detects AI-generated text-to-speech (voice cloning by AI), analyzing audio files
 
 {% tabs %}
 {% tab title="Loccus " %}
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p>I'm using this well-known deepfake of  Monika Tódová, a well-known journalist. During the 2023 parliamentary election, this conversation, pure fabrication, became the first documented case of a deepfake playing a role in the pre-election battle.<br>Karin Kőváry Sólymos. (2023). Slovakia: Deepfake audio of Denník N journalist offers worrying example of AI abuse. <em>Ipi.Media</em>. <a href="https://ipi.media/slovakia-deepfake-audio-of-dennik-n-journalist-offers-worrying-example-of-ai-abuse/">https://ipi.media/slovakia-deepfake-audio-of-dennik-n-journalist-offers-worrying-example-of-ai-abuse/</a> </p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p>I'm using this well-known deepfake of Monika Tódová, a well-known journalist. During the 2023 parliamentary election, this conversation, pure fabrication, became the first documented case of a deepfake playing a role in the pre-election battle.<br>Karin Kőváry Sólymos. (2023). Slovakia: Deepfake audio of Denník N journalist offers worrying example of AI abuse. <em>Ipi.Media</em>. <a href="https://ipi.media/slovakia-deepfake-audio-of-dennik-n-journalist-offers-worrying-example-of-ai-abuse/">https://ipi.media/slovakia-deepfake-audio-of-dennik-n-journalist-offers-worrying-example-of-ai-abuse/</a></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results" %}
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>While the average score indicates that most of the conversation comprises actual speech, it also shows a high likelihood of detection for some parts of the two-minute recording. More often than not, altering just a few words to change a conversation's meaning completely is sufficient. <br>Mai, K. T., Bray, S., Davies, T., &#x26; Griffin, L. D. (2023). Warning: Humans cannot reliably detect speech deepfakes. <em>PLOS ONE</em>, <em>18</em>(8), e0285333. <a href="https://doi.org/10.1371/journal.pone.0285333">https://doi.org/10.1371/journal.pone.0285333</a><br></p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>While the average score indicates that most of the conversation comprises actual speech, it also shows a high likelihood of detection for some parts of the two-minute recording. More often than not, altering just a few words to change a conversation's meaning completely is sufficient.<br>Mai, K. T., Bray, S., Davies, T., &#x26; Griffin, L. D. (2023). Warning: Humans cannot reliably detect speech deepfakes. <em>PLOS ONE</em>, <em>18</em>(8), e0285333. <a href="https://doi.org/10.1371/journal.pone.0285333">https://doi.org/10.1371/journal.pone.0285333</a><br></p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
 ### **Search**
 
-**X Search**&#x20;
+**X Search**
 
 Performs advanced search queries on X (formerly Twitter), including precise time intervals, enhancing the ability to find relevant content.
 
@@ -310,7 +310,7 @@ Performs advanced search queries on X (formerly Twitter), including precise time
 {% endtab %}
 {% endtabs %}
 
-**Fact Check Semantic Search (Locked Feature)**&#x20;
+**Fact Check Semantic Search (Locked Feature)**
 
 Uses semantic search algorithms to find fact-checked information across various sources, improving the accuracy of verification. Access is restricted to registered users.
 
@@ -324,11 +324,11 @@ Uses semantic search algorithms to find fact-checked information across various 
 {% endtab %}
 
 {% tab title="Results" %}
-<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption><p>While I didn't find my answer ("no, he did not"), the answers provided were all fact-checked. He did not join a group of comedians, was not headed to Moscow, and was not dead, but there is a photo of Elon Musk with a real robot. Even though fact-checked, it is always important to consider other sources and the possibility of things changing.  </p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption><p>While I didn't find my answer ("no, he did not"), the answers provided were all fact-checked. He did not join a group of comedians, was not headed to Moscow, and was not dead, but there is a photo of Elon Musk with a real robot. Even though fact-checked, it is always important to consider other sources and the possibility of things changing.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
-**XNetwork**&#x20;
+**XNetwork**
 
 Provides a customized search engine (CSE) for cross-network queries, simultaneously allowing searches across multiple social media platforms (Twitter, Reddit, 4chan, YouTube, Facebook, 8kun, LinkedIn, VK, Instagram, and TikTok).
 
@@ -342,7 +342,7 @@ Provides a customized search engine (CSE) for cross-network queries, simultaneou
 {% endtab %}
 {% endtabs %}
 
-**Factchecks**&#x20;
+**Factchecks**
 
 Facilitates the discovery of fact-checked articles and reports from trusted fact-checking organizations, aiding in content verification.
 
@@ -358,7 +358,7 @@ Facilitates the discovery of fact-checked articles and reports from trusted fact
 
 ### **Data Analysis**
 
-**Twitter SNA (Locked Feature)**&#x20;
+**Twitter SNA (Locked Feature)**
 
 Performs social network analysis on Twitter, analyzing interactions, trends, and relationships to understand information spread and impact. Deprecated since July 1st, 2023, due to X/Twitter code changes. Is on registration, so might work again at some point and this article will reflect that. Access is restricted to registered users.
 
@@ -372,7 +372,7 @@ Performs social network analysis on Twitter, analyzing interactions, trends, and
 {% endtab %}
 {% endtabs %}
 
-**CSV Analysis**&#x20;
+**CSV Analysis**
 
 Allows the import and analysis of social network data from CrowdTangle exports, using Social Network Analysis (SNA) to provide in-depth insights into social media activity and trends.
 
@@ -410,11 +410,11 @@ Chrome (Opera, Edge, and Firefox under development), Internet, and, for some fea
 
 ## Ethical Considerations
 
-The InVID Verification Plugin helps researchers and journalists verify online media, but there are ethical implications when using it. First, the plugin relies on metadata extraction and reverse searches, which may access personal or private data embedded in media. This raises concerns around privacy, especially if personal information is unintentionally exposed or used without consent.
+The InVID Verification Plugin helps researchers and journalists verify online media, but there are ethical implications when using it. First, the plugin relies on metadata extraction and reverse searches, which may access personal or private data embedded in media. This raises privacy concerns, especially if personal information is unintentionally exposed or used without consent.
 
 Tools like deepfake and AI-generated image detectors may produce false positives or negatives, potentially leading to incorrect conclusions or accusations. It is essential to verify results through multiple sources before making claims. Users should also be mindful of the ethical responsibility of using the tool only for legitimate verification purposes, not for harmful surveillance or invasive investigations.
 
-Finally, users must consider the possibility of unintentionally spreading misinformation if the tool's findings are misinterpreted or taken out of context. Transparency about the limitations and accuracy of the plugin’s results is crucial in ensuring ethical use.
+Finally, users must consider the possibility of unintentionally spreading misinformation if the tool's findings are misinterpreted or omitted. Transparency about the limitations and accuracy of the plugin’s results is crucial in ensuring ethical use.
 
 ## Guide
 
