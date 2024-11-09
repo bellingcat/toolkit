@@ -48,7 +48,7 @@ Check out the [FAQ ](https://lookup.icann.org/en/faq)page on the ICANN Lookup we
 
 ## Tool provider
 
-ICANN stands for the Internet Corporation for Assigned Names and Numbers. ICANN is a non-profit company registered in California that has control over the allocation and administration of domain names.
+ICANN, U.S. ICANN stands for the Internet Corporation for Assigned Names and Numbers.
 
 ## Advertising Trackers
 
