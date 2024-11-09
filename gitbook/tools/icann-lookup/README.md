@@ -40,7 +40,7 @@ ICANN does not provide historical ownership information or screenshots for the w
 
 ## Ethical Considerations
 
-Make sure you carefully analyse and cross-reference any information, especially personal details, you come across via this tool with other independent sources to make sure your research is correct.&#x20;
+The results may contain personal information. Make sure you carefully analyse and cross-reference any information, especially personal details, you come across via this tool with other independent sources to make sure your research is correct.&#x20;
 
 ## Guides and articles
 
