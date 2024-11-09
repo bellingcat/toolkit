@@ -32,7 +32,7 @@ Nevertheless, this is an easy and free check that is well worth trying if you co
 
 ## Requirements
 
-N/A
+\-
 
 ## Limitations
 
