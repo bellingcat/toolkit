@@ -36,7 +36,7 @@ N/A
 
 ## Limitations
 
-ICANN does not seem to provide historical ownership information or screenshots for the websites, which more sophisticated, paid platforms do.&#x20;
+ICANN does not provide historical ownership information or screenshots for the websites, which more sophisticated, paid platforms do.&#x20;
 
 ## Ethical Considerations
 
