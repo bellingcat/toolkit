@@ -40,7 +40,7 @@ ICANN does not provide historical ownership information or screenshots for the w
 
 ## Ethical Considerations
 
-Ethical considerations include invasion of privacy and proliferation of misinformation. Make sure you carefully analyse and cross-reference any information, especially personal details, you come across via this tool with other independent sources to make sure your research does not perpetuate false or harmful narratives.
+Make sure you carefully analyse and cross-reference any information, especially personal details, you come across via this tool with other independent sources to make sure your research is correct.&#x20;
 
 ## Guides and articles
 
