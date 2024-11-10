@@ -90,7 +90,7 @@ While using the tool, analysts must carefully assess indicator validity to avoid
 
 ## Guides and articles
 
-Craig Silverman. (2024, November 8). _Look Inside the Open Source ‘Information Laundromat’ Tool for Examining Website Content and Metadata_. [https://gijn.org/stories/open-source-information-laundromat/](https://gijn.org/stories/open-source-information-laundromat/)
+Silverman, C. (2024, September 5). A look at the Information Laundromat website analysis tool \[Substack newsletter]. _Digital Investigations_. [https://digitalinvestigations.substack.com/p/a-look-at-the-information-laundromat](https://digitalinvestigations.substack.com/p/a-look-at-the-information-laundromat)
 
 ## Tool provider
 
