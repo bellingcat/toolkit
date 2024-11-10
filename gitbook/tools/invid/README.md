@@ -414,7 +414,11 @@ The InVID Verification Plugin helps researchers and journalists verify online me
 
 Tools like deepfake and AI-generated image detectors may produce false positives or negatives, potentially leading to incorrect conclusions or accusations. It is essential to verify results through multiple sources before making claims. Users should also be mindful of the ethical responsibility of using the tool only for legitimate verification purposes, not for harmful surveillance or invasive investigations.
 
-Finally, users must consider the possibility of unintentionally spreading misinformation if the tool's findings are misinterpreted or omitted. Transparency about the limitations and accuracy of the plugin’s results is crucial in ensuring ethical use.
+{% hint style="info" %}
+When using InVID for content verification, there is a risk of misinterpreting results, which could lead to erroneous conclusions. InVID provides tools for analyzing video authenticity by examining metadata, reverse image searching, and extracting keyframes, but the results do not automatically confirm authenticity. Researchers might misinterpret partial metadata or falsely correlate visual matches from reverse image searches, leading to an incorrect verification of content. Without a cautious and critical approach, users could mistake automated analysis for definitive proof, potentially spreading misinformation if content is improperly validated. It's essential to use InVID's findings as part of a broader verification process and corroborate with additional sources before drawing conclusions.
+{% endhint %}
+
+
 
 ## Guide
 
