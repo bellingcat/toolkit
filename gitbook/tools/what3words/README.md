@@ -1,5 +1,8 @@
 ---
-description: Entire world divided into 3m by 3m squares, and each square is given a 3 word address. For example, the what3words address for Nelson's column in trafalgar square is cube.soccer.these. This website is especially useful when referring to remote locations and when you are unable to write down a lengthy sentence of exact coordinates.
+description: >-
+  Antire world divided into 3m by 3m squares, and each square is given a 3 word
+  address. For example, the what3words address for Nelson's column in trafalgar
+  square is cube.soccer.these. This website is
 ---
 
 # what3words
@@ -54,4 +57,3 @@ http://map.what3words.com/
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
