@@ -18,15 +18,17 @@ The Auto Archiver, developed by Bellingcat, is an open-source tool designed for 
 
 The Auto Archiver’s automation, platform support, and reliance on robust, open-source archiving techniques make it indispensable. Unlike manual archiving, which can be time-consuming and inconsistent, the Auto Archiver enables rapid, reliable capture of relevant content, streamlining investigative workflows and helping journalists and researchers ensure that valuable information remains accessible. Furthermore, its open-source nature allows users to verify and adapt the tool to fit their specific needs, providing transparency and flexibility essential for responsible, ethical use.
 
-The Auto Archiver has been actively used by Bellingcat and other open-source researchers, particularly for investigations related to major conflicts and fast-moving events where online content is at high risk of deletion. Here are some notable instances and case studies that highlight its application:
+The Auto Archiver has been actively used by Bellingcat and other open-source researchers, particularly for investigations related to major conflicts and fast-moving events where online content is at high risk of deletion.&#x20;
 
-**Russia-Ukraine War**: Bellingcat has used the Auto Archiver to systematically capture social media posts, videos, and images shared by both official and individual accounts on platforms like Telegram and Twitter. During the initial stages of the invasion, many accounts posted videos and images showing military movements, damage to infrastructure, and civilian experiences. Due to the risk of these posts being deleted or censored, the Auto Archiver has been a critical tool for creating a permanent record of this content, aiding in ongoing investigations and historical documentation.
+&#x20;Notable instances and case studies:
 
-**Human Rights Investigations in Myanmar**: The tool has reportedly been used to document social media posts related to human rights violations in Myanmar, especially during the 2021 military coup. The tool enabled researchers to capture posts documenting protests, government crackdowns, and other rights abuses, many of which were at risk of being taken down by the government or by the platforms themselves under pressure.
+**Russia-Ukraine War**:[ Bellingcat has used the Auto Archiver to systematically](https://www.bellingcat.com/resources/how-tos/2022/03/08/how-to-archive-telegram-content-to-document-russias-invasion-of-ukraine/) capture social media posts, videos, and images shared by both official and individual accounts on platforms like Telegram and Twitter. During the initial stages of the invasion, many accounts posted videos and images showing military movements, damage to infrastructure, and civilian experiences. Due to the risk of these posts being deleted or censored, the Auto Archiver has been a critical tool for creating a permanent record of this content, aiding in ongoing investigations and historical documentation.
 
-**Tracking Misinformation and Disinformation Campaigns**: Researchers focusing on misinformation have utilized the Auto Archiver to save tweets and posts involved in coordinated disinformation campaigns. For example, during elections or in the context of high-profile political events, coordinated misinformation can quickly flood social media platforms, often spreading widely before accounts or posts are removed. The Auto Archiver preserves these posts, allowing analysts to later examine the strategies used in these campaigns, even if the original content is no longer publicly accessible.
+**Human Rights Investigations in Myanmar**: The tool has reportedly been used to [document social media posts related to human rights violations in Myanmar](https://osr4rightstools.org/auto-archiver), especially during the 2021 military coup. The tool enabled researchers to capture posts documenting protests, government crackdowns, and other rights abuses, many of which were at risk of being taken down by the government or by the platforms themselves under pressure.
 
-**Documentation of Environmental Disasters**: In cases of environmental crises, such as the 2020 wildfires in Australia or the 2023 earthquakes in Turkey and Syria, the Auto Archiver has been used to record firsthand accounts, videos, and images shared by residents. These records serve not only as evidence for immediate response and analysis but also as historical documentation that can assist future disaster response planning and research.
+**Tracking Misinformation and Disinformation Campaigns**: Researchers focusing on misinformation have utilized the Auto Archiver (and comparable tools like Hunchly) to [save tweets and posts involved in coordinated disinformation campaigns](https://gijn.org/resource/investigating-digital-threats-disinformation/). For example, during elections or in the context of high-profile political events, coordinated misinformation can quickly flood social media platforms, often spreading widely before accounts or posts are removed. The Auto Archiver preserves these posts, allowing analysts to later examine the strategies used in these campaigns, even if the original content is no longer publicly accessible.
+
+**Documentation of Environmental Disasters**: In [cases of environmental crises](https://www.deezer.com/de/episode/653737531), such as the 2020 wildfires in Australia or the 2023 earthquakes in Turkey and Syria, the Auto Archiver has been used to record firsthand accounts, videos, and images shared by residents. These records serve not only as evidence for immediate response and analysis but also as historical documentation that can assist future disaster response planning and research.
 
 ### Step-By-Step Setup (abbreviated)
 
@@ -57,11 +59,7 @@ The Auto Archiver has been actively used by Bellingcat and other open-source res
 To secure API keys, store them in a protected environment file (e.g., `.env`) rather than directly in the code, use environment variables to access them; avoid sharing or exposing keys in public repositories to prevent unauthorized access and ensure data integrity.
 {% endhint %}
 
-
-
 This setup covers the essentials to get the Auto Archiver running. More detailed troubleshooting and configuration options can be found in the [Bellingcat GitHub repository](https://github.com/bellingcat/auto-archiver).
-
-
 
 ## Cost
 
