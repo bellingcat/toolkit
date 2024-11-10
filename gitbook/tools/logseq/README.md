@@ -12,13 +12,30 @@ description: >-
 
 ## Description
 
-Logseq is an open-source knowledge base that helps users connect thoughts and manage their notes effectively. Built around the concept of linking and threading thoughts like a digital garden, Logseq operates on top of plain-text files, supporting various formats such as Markdown and Org-mode. It is designed to facilitate the process of organizing and retrieving information.
-
-One of the key features is its bidirectional linking capability, similar to [Roam Research](https://roamresearch.com/) (another note taking tool),  allowing users to create a web of knowledge. This feature enables users to visually see the connections between different pieces of information, fostering a deeper understanding and retention of knowledge. Logseq supports plugins that allows Zotero references to be imported.
+Logseq is an open-source knowledge management and note-taking platform that supports Markdown and Org-mode formats, emphasizing bidirectional linking and networked note-taking. Designed for organizing information in a flexible, interconnected way, Logseq enables users to map out ideas, track research, and manage notes in a structured “digital garden.” Core features include a journaling function, visualization through graphs, and plugin support, including Zotero integration for managing references.
 
 The example below shows some of the features of Logseq including a whiteboard diagram, a 'focused' page and a page with a graph and other navigation.
 
 <figure><img src="https://user-images.githubusercontent.com/25513724/221387376-4dc419c2-0d0a-460c-a920-2d211e78b456.gif" alt="Animation that shows Logseq&#x27;s user interface in dark mode with a whiteboard diagram explaining domain names,  focused writing markdown text and a page graph."><figcaption><p>Animated gif of Logseq whiteboard, focused writing page and page with navigation and graph (courtesy of Logseq)</p></figcaption></figure>
+
+### Key Features
+
+1. **Markdown-Based Storage**: Logseq’s reliance on Markdown makes it compatible with various editors (e.g., VS Code, Obsidian), ensuring data longevity and easy integration with other tools.
+2. **Journaling and Daily Logs**: Daily log pages function as a journaling tool, allowing users to capture ideas and tasks sequentially, ideal for tracking research or investigation timelines.
+3. **Block-Based Structure**: As a block-based outliner, Logseq allows hierarchical organization of notes and content, similar to Roam Research and Notion.
+4. **Bidirectional Linking and Graph Database**: Users can create interconnected notes or "nodes" and view relationships between topics visually in the graph view, especially valuable for tracking complex networks.
+5. **Task Management Integration**: Users can assign tasks and monitor progress with built-in task workflows, providing an efficient project management tool within their notes.
+6. **PDF Annotation and Asset Management**: Upload, annotate, and link PDFs directly within Logseq for seamless document handling, an essential feature for researchers with extensive collections of documents.
+7. **Flexible Querying**: Advanced Boolean queries allow users to retrieve data across notes based on tags, properties, or keywords, enabling powerful search and organizational capabilities.
+8. **Namespace Hierarchies and Custom Properties**: Organize notes hierarchically with namespaces (e.g., "Project/Phase") and custom properties for consistency and streamlined retrieval.
+
+### Tips for Effective Use
+
+* **Organize with Blocks**: Use high-level blocks (e.g., "Meetings," "Scratchpad") to consolidate related information and reduce clutter.
+* **Customize Task Workflows**: Set up personalized task states, such as “To Do,” “Doing,” and “Waiting,” for adaptable project management.
+* **Use Sidebar Panels**: Open multiple pages in the sidebars to reference, compare, and work on parallel projects simultaneously.
+* **CSS Customization**: Personalize the interface using custom CSS for visual clarity and improved readability.
+* **PDF Annotation Retrieval**: Use hashtags and bidirectional links to tag PDF notes, making them easy to retrieve across contexts.
 
 ### Use Cases
 
@@ -34,6 +51,12 @@ Logseq is suitable for a range of use cases that exploit its unique features, su
 * **Evidence Tracking:** Keep track of evidence and link related pieces across different sources.
 * **Timeline Construction:** Use the journaling feature to build timelines of events, helping to uncover patterns or inconsistencies.
 * **Network Analysis:** Develop a network of interconnected notes to identify relationships and connections among individuals or entities.
+
+### **Comparisons with Similar Tools**
+
+* **Obsidian**: While Obsidian is a powerful Markdown-based tool, Logseq natively supports outliner functionality without plugins, making it more streamlined for users needing hierarchical organization. Logseq's native graph database and task management integration provide additional structure, especially useful in large projects.
+* **Roam Research**: Both Logseq and Roam focus on bidirectional linking and block-based structure. Logseq’s local Markdown storage, however, offers more control over data storage, ensuring users retain full data ownership.
+* **Notion**: Compared to Notion, Logseq offers a more robust, non-linear note structure suited for knowledge mapping and research. Logseq’s task integration and outline functionality cater to users seeking flexible project management within a private, locally-stored environment.
 
 Latest changes: [https://github.com/logseq/logseq/releases](https://github.com/logseq/logseq/releases)
 
@@ -112,8 +135,8 @@ Logseq Inc. [https://logseq.com/](https://logseq.com/) - United States
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat Volunteer Team/Unassigned |
-|                                      |
+| Page maintainer                        |
+| -------------------------------------- |
+| Bellingcat Volunteer Team, Martin Sona |
+|                                        |
 
