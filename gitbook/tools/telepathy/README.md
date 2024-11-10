@@ -9,7 +9,7 @@ description: >-
 
 ## URL
 
-{% embed url="https://github.com/jordanwildon/Telepathy" %}
+[https://github.com/jordanwildon/Telepathy](https://github.com/jordanwildon/Telepathy)
 
 Version: Telepathy 2.3.4
 
