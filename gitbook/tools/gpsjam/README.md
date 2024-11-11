@@ -1,9 +1,9 @@
 ---
+icon: location-crosshairs
 description: >-
   GPSJam.org is a daily map that visualizes the GPS/GNSS disruptions on aircraft
   worldwide. It collects and presents 24-hour data showing areas experiencing
   interference.
-icon: location-crosshairs
 ---
 
 # GPSJam
@@ -28,7 +28,7 @@ _**Some background information on flight tracking**_
 
 Most aircraft are usually equipped with an instrument called an [ADS-B Out](https://cincinnatiavionics.com/ads-b-101-what-you-need-to-know/), which stands for “Automatic Dependent Surveillance-Broadcast.” It is a plane's way of sharing its location, speed, and altitude with air traffic control and other planes in the sky. Think of it as a plane's built-in GPS that constantly broadcasts its position. This helps prevent collisions and makes air travel safer. [It is also a critical navigation tool that guides planes towards landing](https://www.reuters.com/business/aerospace-defense/what-is-gps-jamming-why-it-is-problem-aviation-2024-04-30/). With GPS interference, aircraft have fewer ways of accurately navigating toward their destination (however, they usually have other methods, too).&#x20;
 
-Flight professionals and enthusiasts use equipment to receive this information and “feed” that information to flight-tracking websites like ADS-B-Exchange. These flight-tracking websites then visualize this information on an interactive map.        &#x20;
+Flight professionals and enthusiasts use equipment to receive this information and "feed" that information to flight-tracking websites like ADS-B Exchange. These flight-tracking websites then visualize this information on an interactive map.       &#x20;
 
 _**What does GPSJam do with these data?**_
 
