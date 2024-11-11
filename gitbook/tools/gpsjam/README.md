@@ -146,6 +146,8 @@ Internet connection&#x20;
 
 <table><thead><tr><th>2022</th><th>2024</th><th data-hidden></th></tr></thead><tbody><tr><td>14 Feb</td><td>28 Jan</td><td></td></tr><tr><td>8 Jun</td><td>30 Jan</td><td></td></tr><tr><td>9 Jun</td><td>14 Jul</td><td></td></tr><tr><td>13 Oct </td><td></td><td></td></tr><tr><td>14 Oct</td><td></td><td></td></tr><tr><td>27 Dec</td><td></td><td></td></tr></tbody></table>
 
+_**(**See also lack of ADS-B data on 8 Nov 2024, based on the tool provider's post_ [_here_](https://x.com/lemonodor/status/1854905782833496270?ref\_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet)_)_
+
 3. **Limited historical data:** Historical data only goes up to[ 14 February 2022](https://gpsjam.org/faq#incomplete-data). There is no data before this date.
 4. [**GPS interference on aircraft may not be the same as on the ground interference:** ](https://gpsjam.org/faq#i-live-in-one-of-the-red-zones)GPSJam only looks at aircraft data. Because airplanes fly high in the sky, they can "see" further than devices on the ground when it comes to radio signals. This means they are more likely to detect GPS interference. Ground-level impact might be less severe. While GPSJAM data indicates potential issues with GPS signals in certain areas, the situation on the ground might not be as bad as the map suggests.
 
