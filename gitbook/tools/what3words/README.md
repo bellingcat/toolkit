@@ -1,19 +1,25 @@
 ---
 description: >-
-  Antire world divided into 3m by 3m squares, and each square is given a 3 word
-  address. For example, the what3words address for Nelson's column in trafalgar
-  square is cube.soccer.these. This website is
+  A proprietary geocode system designed to identify any location on the surface
+  of the earth with a resolution of 3 metres. The identifier is a unique
+  combination of three words.
 ---
 
 # what3words
 
 ## URL
 
-http://map.what3words.com/
+http://what3words.com/
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+A very simple and rapid way to communicate locations on earth. The world has been divided into 3m x 3m squares (around 57 trillion of them), and an unique identifier combining three words is assigned to each one. An API (Application Programming Interface) is available to allow the conversion between what3word addresses and geographic co-ordinates.
+
+<figure><img src=".gitbook/assets/screenshot1.JPG" alt=""><figcaption><p>what3words interface, showing the 3mx3m square on Magdalen Bridge in Oxford UK which corresponds to the 3 word phrase bleat.mental.locate.</p></figcaption></figure>
+
+What3words is used to summon the emergecy services, e.g. Mountain Rescue, pinpoint meeting places, specify accurate deliveries, e.g. Hermes and Ikea use it, and advertise accurate locations. Its use in Open Source research can cover any ofthese applications for the technology, as part of an investigation.
+
+
 
 ## Cost
 
@@ -21,19 +27,19 @@ http://map.what3words.com/
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+Users wishing to use the facility to save locations will need an account, which is free to set up.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+Recent research on what3words has revealed some flaws in the system which aims not to assign similar 3 word phrases to nearby areas. Similarity also includes homophones, i.e. words which sound similar, rather than look similar. This is because what3words is used to communicate over voice channels, particularly for the emergency services.
+
+The [BBC reported](https://www.bbc.co.uk/news/technology-56901363) that a researcher had found 'thousands' of 3 word phrases which were either very similar looking, or similar sounding, had been assigned to locations less than 1km  apart.&#x20;
 
 ## Ethical Considerations
 
