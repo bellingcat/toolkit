@@ -13,7 +13,7 @@ http://what3words.com/
 
 ## Description
 
-A very simple and rapid way to communicate locations on earth. The world has been divided into 3m x 3m squares (around 57 trillion of them), and an unique identifier combining three words is assigned to each one. An API (Application Programming Interface) is available to allow the conversion between what3word addresses and geographic co-ordinates.
+A very simple and rapid way to communicate locations on earth. The world has been divided into 3m x 3m squares (around 57 trillion of them), and an unique identifier combining three words is assigned to each one. The app is available for PC browsers and mobile phones and an API (Application Programming Interface) is available to automate the conversion between what3word addresses and geographic co-ordinates.
 
 <figure><img src=".gitbook/assets/screenshot1.JPG" alt=""><figcaption><p>what3words interface, showing the 3mx3m square on Magdalen Bridge in Oxford UK which corresponds to the 3 word phrase bleat.mental.locate.</p></figcaption></figure>
 
