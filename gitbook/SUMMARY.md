@@ -58,7 +58,7 @@
   * [EDGAR Suite](tools/edgar-suite/README.md)
   * [Global Forest Watch](tools/global-forest-watch/README.md)
   * [Earth Explorer](tools/earth-explorer/README.md)
-  * [Maltego](tools/maltego/README.md)
+  * [Maltego Graph](tools/maltego/README.md)
   * [PeakVisor](tools/peakvisor/README.md)
   * [Hitta.se](tools/hitta.se/README.md)
   * [Hunchly](tools/hunchly/README.md)
