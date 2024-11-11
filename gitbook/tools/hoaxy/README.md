@@ -4,7 +4,7 @@ description: >-
   spread of information on Bluesky and X (Twitter).
 ---
 
-# Hoaxy
+# 📈 Hoaxy
 
 ## URL
 
