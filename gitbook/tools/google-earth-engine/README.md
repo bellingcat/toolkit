@@ -43,7 +43,7 @@ Full description including documentation [https://earthengine.google.com/](https
 4. **Water Resources Monitoring**: By analyzing historical and current satellite imagery, researchers can assess changes in water bodies.
 5. **Climate Change Impact Studies**: Scientists use Google Earth Engine to model climate change scenarios and assess their impacts on ecosystems, sea levels, and weather patterns.&#x20;
 
-Latest features and changes: [https://developers.google.com/earth-engine/changelog](https://developers.google.com/earth-engine/changelog)
+Latest features and changes: [https://developers.google.com/earth-engine/changelog](https://developers.google.com/earth-engine/changelog).
 
 ## Cost
 
@@ -119,4 +119,3 @@ Google [https://about.google/](https://about.google/) - Untied States
 | ------------------------- |
 | Bellingcat Volunteer Team |
 |                           |
-
