@@ -19,6 +19,12 @@ A very simple and rapid way to communicate locations on earth. The world has bee
 
 What3words can be used to summon the emergecy services, e.g. Mountain Rescue, pinpoint meeting places, specify accurate deliveries, e.g. Hermes and Ikea use it, and advertise accurate locations. Its use in Open Source research can cover any of these applications for the technology, as part of an investigation.
 
+
+
+{% hint style="danger" %}
+It is possible to download what3words in a large range of languages. The 3-word phrase assignment across the grid squares is entirely different and unrelated in each language. Therefore there is no relationship between the 3-word phrases in different languages for the same grid square. They are not translations of word meanings between languages. When a user sets up a Second Language in the system, two sets of 3-word phrases are displayed simultaneously, with the Second Language phrase below the First Language phrase.
+{% endhint %}
+
 The Interface
 
 
