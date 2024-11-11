@@ -8,7 +8,6 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "name": "Companies House",
-  "url": "http://beta.companieshouse.gov.uk/",
   "description": "Search companies and individuals in the United Kingdom and Gibraltar.",
   "details": "Registry, United Kingdom",
   "tags": [

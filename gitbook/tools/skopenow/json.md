@@ -8,7 +8,6 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "name": "Skopenow",
-  "url": "http://skopenow.com/",
   "tags": [
     "facebook",
     "twitter",
