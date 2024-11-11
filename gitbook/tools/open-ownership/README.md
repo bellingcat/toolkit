@@ -16,17 +16,15 @@ OpenOwnership helps countries to publish standards-compliant beneficial ownershi
 
 It's important to know a company's beneficial owner as sometimes other people or entities (e.g. a trust or shell company) are entered on the corporate register, meaning that if you only search that register, you may not find the actual owner. An increasing number of countries are requiring disclosure of beneficial ownership.
 
-OpenOwnership's [online register](https://register.openownership.org/) consolidates the beneficial ownership registers of the UK, Armenia, Denmark and Slovakia. (These are only some of the countries that have BO registers.)
+Open Ownership makes it easy to see if a country has a BO register, and if it is available to the public - each country has a page with this information:
 
-You can click on a country to see whether it has a BO register, and if it is available to the public:
-
-<figure><img src=".gitbook/assets/Screenshot 2024-10-21 at 11.54.16.png" alt=""><figcaption><p>The Bulgaria country page on OpenOwnership</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-10-21 at 11.54.16.png" alt=""><figcaption><p>The Bulgaria country page on OpenOwnership, which includes a hyperlink to the register</p></figcaption></figure>
 
 It also has a useful 'Worldwide action on beneficial ownership transparency' [map](https://www.openownership.org/en/map/) of which countries have BO registers:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-21 at 11.48.58.png" alt=""><figcaption><p>Map showing which countries are planning or implementing BO transparency reforms, or have live online registers</p></figcaption></figure>
 
-An efficient way to get to see which countries have BO registers freely available online is to download the [CSV](https://www.openownership.org/en/map/oo\_all\_country\_data.csv) that covers all the countries and filter the 'Who can access' column by 'general public':&#x20;
+An efficient way to get to see which countries have BO registers freely available online is to download the [CSV](https://www.openownership.org/en/map/oo\_all\_country\_data.csv) that covers all the countries, and filter the 'Who can access' column by 'general public':&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-21 at 12.00.23.png" alt=""><figcaption><p>Some of the country data in a filtered CSV opened in Excel</p></figcaption></figure>
 
