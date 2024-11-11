@@ -1,8 +1,8 @@
 ---
 description: >-
-  A proprietary geocode system designed to identify any location on the surface
-  of the earth with a resolution of 3 metres. The identifier is an unique
-  combination of three words.
+  A proprietary geocode system which identifies any location on the surface of
+  the earth to a resolution of 3 metres. The identifier is a unique combination
+  of three words, available in 60 languagues.
 ---
 
 # what3words
@@ -17,9 +17,7 @@ http://what3words.com/
 
 A simple, clear and rapid way to communicate locations on earth. The world has been divided into 3m x 3m squares (around 57 trillion of them), and an unique identifier combining three words is assigned to each one. The app is available for PC browsers and mobile phones and an API (Application Programming Interface) is available to automate the conversion between what3word addresses and geographic co-ordinates.
 
-What3words can be used to communicate locations without numeric format geogrphic co-ordinates, which is particularly helpful when communication channels are poor quality or unreliable. It is usable in many countries to summon the emergecy services, e.g. Mountain Rescue, pinpoint meeting places, specify accurate deliveries, e.g. Hermes and Ikea use it, and advertise accurate locations. Its use in Open Source research can cover any of these applications for the technology, as part of an investigation,&#x20;
-
-
+What3words can be used to communicate locations without numeric format geographic co-ordinates, which is particularly helpful when communication channels are poor quality, or unreliable. It is usable in many countries to summon the emergecy services, e.g. Mountain Rescue, pinpoint meeting places, specify accurate deliveries, e.g. Hermes and Ikea use it, and advertise accurate locations. Its use in Open Source research can cover any of these applications for the technology, as part of an investigation, or simply as a device to share locations between researchers.
 
 {% hint style="danger" %}
 It is possible to download what3words in a large range of languages. The 3-word phrase assignment across the grid squares is entirely different and unrelated in each language. Therefore there is no relationship between the 3-word phrases in different languages for the same grid square. They are not translations of word meanings between languages. When a user sets up a Second Language in the system, two sets of 3-word phrases are displayed simultaneously, with the Second Language phrase below the First Language phrase.
@@ -29,19 +27,19 @@ It is possible to download what3words in a large range of languages. The 3-word 
 
 {% tabs %}
 {% tab title="USER INPUTS" %}
-A geographic location
-
-A what3words location phrase
+* A map pin geographic location&#x20;
+* A what3words location phrase
+* A text address
+* A pair of numeric location co-ordinates
 {% endtab %}
 
 {% tab title="WHAT3WORDS OUPUT" %}
-A geographic location
-
-A what3words location phrase
+* A map pin geographic location&#x20;
+* A what3words location phrase
 {% endtab %}
 
 {% tab title="USE CASES" %}
-* Input a location and convert it to another format
+* Input a location and convert it to another format ( co-ordinates, map pin, postal address or phrase)
 * Input a location and share it via a selection of media
 * Save a location to a user account
 * Navigate a journey using a location
@@ -50,6 +48,9 @@ A what3words location phrase
 
 {% tab title="USER INPUT OPTIONS" %}
 * Type co-ordinates
+
+<figure><img src=".gitbook/assets/screenshot2.JPG" alt=""><figcaption></figcaption></figure>
+
 * Type 3 word phase
 * Place yellow pin man icon onto map
 {% endtab %}
@@ -61,7 +62,7 @@ Using the yellow pin man icon on the map displays any Google Maps imagery relati
 The app will not draw the 3m square within the StreetView imagery.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/screenshot3.JPG" alt=""><figcaption><p><strong>THE WHAT3WORDS LOCATION EXAMPLE BLEAT.MENTAL.LOCATE BEING SHOW ON GOOGLE MPAS BY DROPPING THE YELLO PIN MAN ICON ONTO THE STREET MAP IN THE APPROPRIATE SQUAR</strong>E.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/screenshot3.JPG" alt=""><figcaption><p><strong>THE WHAT3WORDS LOCATION EXAMPLE </strong><em><strong>Yes,</strong></em><strong>  BEING SHOW ON GOOGLE MPAS BY DROPPING THE YELLO PIN MAN ICON ONTO THE STREET MAP IN THE APPROPRIATE SQUAR</strong>E.</p></figcaption></figure>
 
 ## Cost
 
@@ -87,6 +88,7 @@ The app will not draw the 3m square within the StreetView imagery.
 <figure><img src=".gitbook/assets/screenshot7.JPG" alt=""><figcaption><p> <strong>WHAT3WORDS INTERFACE SHOWING AUTO-COMPLETED OPTIONS FOR A USER-INPUT, 3-WORD LOCATION PHRASE WITH THEIR DIFFERING GEOGRAPHICAL DETAILS</strong></p></figcaption></figure>
 
 * The accuracy of what3words is restricted to a 3m square, whereas  geographical grid co-ordinates theoretically references a single point and can offer greater accuracy. In practice, the 3m square level of accuracy is satisfactory for very many purposes.
+* what3words help is structured around a set number of use cases and FAQ, which, understandably, are not focused on Open Source research. Its natural language help interface often returns that nothing is found in response to queries which correspond to tutorial material available online.
 
 ## Ethical Considerations
 
@@ -94,11 +96,11 @@ The app will not draw the 3m square within the StreetView imagery.
 
 ## Guide
 
-\[\[Link to a guide on this tool]]
+[what3words provides a How to Use guide for the mobile app.](https://what3words.com/how-to-use-the-what3words-app)
 
-## Tool provider
+## Tool Provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+what3words
 
 ## Advertising Trackers
 
