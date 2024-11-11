@@ -38,7 +38,7 @@ There are several alternative username tools, including [Sherlock](https://belli
 
 ## Limitations
 
-You have to allow cookies. The tool runs searches in 500+ platforms, not everywhere. Results do not show Facebook and Instagram links.&#x20;
+You have to allow cookies to use the tool. A CAPTCHA test pops up after clicking the search button. The tool runs searches in 500+ platforms, not "everywhere in the internet". For example, results do not show Facebook and Instagram links. To see all the platforms searched in click "Show All" button.&#x20;
 
 Be aware that the fact that WhatsMyName has found a specific username on various platforms does not necessarily mean that this username belongs to a specific person or organisation.&#x20;
 
