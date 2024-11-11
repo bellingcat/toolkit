@@ -571,6 +571,10 @@ However, to mitigate this, practice is key. "This practice of constantly interro
 
 ## Guides and articles
 
+_**Bellingcat Research**_
+
+This tool was used in a Bellingcat investigation: ["What Meta's Ad Library Shows About Harris and Trump's Campaigns on Facebook and Instagram."](https://www.bellingcat.com/resources/2024/11/04/us-presidential-election-trump-harris-meta-ads/) By Pooja Chaudhuri and Melissa Zhu&#x20;
+
 _**Datawrapper guides**_
 
 Datawrapper Academy: [https://academy.datawrapper.de/](https://academy.datawrapper.de/) &#x20;
