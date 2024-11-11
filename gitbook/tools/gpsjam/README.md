@@ -3,6 +3,7 @@ description: >-
   GPSJam.org is a daily map that visualizes the GPS/GNSS disruptions on aircraft
   worldwide. It collects and presents 24-hour data showing areas experiencing
   interference.
+icon: location-crosshairs
 ---
 
 # GPSJam
@@ -60,6 +61,10 @@ NOTE: Historical data only goes back to [14 February 2022](https://gpsjam.org/fa
 _**Filter by location**_
 
 In addition to filtering by date, users can zoom in on a particular location of interest. Users can enter an address or a general location/city, such as “Moscow.” Users can also use coordinates for specificity.
+
+_**Traffic Threshold**_
+
+Users can toggle the slider under the "traffic threshold" option to filter interference data.&#x20;
 
 ### How to analyze the hexagons
 
