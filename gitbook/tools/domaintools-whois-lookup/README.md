@@ -16,7 +16,7 @@ DomainTools Whois allows you to gather information about a domain name including
 
 The data fields returned in the primary Whois entry can be used to pivot to additional data points during an investigation. For example, you can see the number of other domains associated with the registrant, the number of other domains hosted on the same IP address, and the number of historical Whois records in the DomainTools database.
 
-The main Whois page includes a mix of free and paid tools that are offered by DomainsTools. You can use these by hovering over the small arrows next to some of the entries (e.g. Name Servers, IP Address etc.) or from the Tools section on the right side of the page.
+The main Whois page includes a mix of free and paid tools that are offered by DomainsTools. You can use these by hovering over the small arrows next to some of the entries (e.g. Name Servers, IP Address etc.), or from the Tools section on the right side of the page.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-06-15 at 2.09.32 PM.png" alt=""><figcaption></figcaption></figure>
 
