@@ -48,8 +48,6 @@ On the other hand, the rate of false positives and invalid results are fairly lo
 
 In terms of username investigations, the tool may miss valid results from various sources that can be surfaced with other tools like [Sherlock](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock).&#x20;
 
-
-
 ## Guide
 
 Installation and simple usage: [https://github.com/p1ngul1n0/blackbird](https://github.com/p1ngul1n0/blackbird)
@@ -58,7 +56,7 @@ Full documentation, with advanced use cases: [https://p1ngul1n0.gitbook.io/black
 
 ## Pro tips
 
-If you are using Python 3, you may need to use pip3 when installing. So while following the guide, to install requirements do:
+If you are using Python 3, you may need to use pip3 when installing. So while following the guide, to install requirements do the following:
 
 ```
 pip3 install -r requirements.txt
