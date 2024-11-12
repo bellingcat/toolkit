@@ -17,7 +17,7 @@ Pinpoint is a research tool designed to assist journalists and academics in exam
 
 Users can store up to [200,000 documents ](https://support.google.com/pinpoint/answer/11955480?hl=en-IN#upload\_documents)in each collection, extract text from handwritten documents to make them searchable, query text from images, transcribe audio recordings and search for identifiers in image collections. For example, using Pinpoint, you can search for mentions of "abuse" or "violence" in [Washington Post's public collection of COVID-19 Nursing Home Inspections](https://journaliststudio.google.com/pinpoint/search?collection=989c939c11b20432):
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-11-12 at 1.51.56 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Cost
 
