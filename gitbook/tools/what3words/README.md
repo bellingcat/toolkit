@@ -13,14 +13,14 @@ http://what3words.com/
 
 ## Description
 
-<figure><img src=".gitbook/assets/screenshot1.JPG" alt=""><figcaption><p>THE <strong>WHAT3WORDS INTERFACE, SHOWING THE 3M X 3M SQUARE ON MAGDALEM BRIDGE IN OXFORD, UK, WHICH CORRESPONDS TO THE EXAMPLE 3-WORD PHRASE </strong><em><strong>BLEAT.MENTAL.LOCATE</strong></em><strong>.</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/screenshot1.JPG" alt=""><figcaption><p>THE <strong>WHAT3WORDS INTERFACE, SHOWING THE 3M X 3M SQUARE ON MAGDALEN BRIDGE IN OXFORD, UK, WHICH CORRESPONDS TO THE EXAMPLE 3-WORD PHRASE </strong><em><strong>BLEAT.MENTAL.LOCATE</strong></em><strong>.</strong></p></figcaption></figure>
 
 what3words is a simple, clear and rapid way to communicate locations on earth. The world has been divided into 3m x 3m squares (around 57 trillion of them), and an unique identifier combining three words is assigned to each one. The app is available for  mobile phones and PC browsers and an AP[^1]I  is available to automate the conversion between what3word addresses and geographic co-ordinates.
 
 What3words can be used to communicate locations without numeric format geographic co-ordinates, which is particularly helpful when communication channels are poor quality, or unreliable. It is usable in many countries to summon the emergecy services, e.g. Mountain Rescue, pinpoint meeting places, specify accurate deliveries, e.g. Hermes and Ikea use it, and advertise accurate locations. Its use in Open Source research can cover any of these applications for the technology, as part of an investigation, or simply as a device to share locations between researchers.
 
 {% hint style="danger" %}
-It is possible to use what3words in a large range of languages. The 3-word phrase assignment across the grid squares is entirely different and unrelated in each language. Therefore there is no relationship between the 3-word phrases in different languages for the same grid square. They are not translations of word meanings between languages. When a user sets up a Second Language in the system, two sets of 3-word phrases are displayed simultaneously, with the Second Language phrase below the First Language phrase.
+It is possible to use what3words in a large range of languages. The 3-word phrase assignment across the grid squares is entirely different and unrelated in each language. Therefore there is no relationship between the 3-word phrases in different languages for the same grid square. They are not translations of word meanings between languages. When a user sets up a Second Language in the mobile app, two sets of 3-word phrases are displayed simultaneously, with the Second Language phrase below the First Language phrase. \[However the secondary language can't be used for speaking or scanning 3 word addresses.]
 {% endhint %}
 
 ## The Interface
@@ -31,39 +31,48 @@ There is considerable variation between the app version of what3words and the PC
 
 {% tabs %}
 {% tab title="USER INPUTS" %}
-* A map pin geographic location&#x20;
+* A tile square geographic location on the map
 * A what3words location phrase
 * A text address
 * A pair of numeric location co-ordinates
 {% endtab %}
 
 {% tab title="WHAT3WORDS OUPUT" %}
-* A map pin geographic location&#x20;
+* A tile square geographic location on the map
 * A what3words location phrase
 {% endtab %}
 
 {% tab title="USE CASES" %}
 * Input a location and convert it to another format ( co-ordinates, map pin, postal address or phrase)
 * Input a location and share it via a selection of media
+* Input a location and see the Street View there
 * Save a location to a user account
 * Navigate a journey using a location
 * Copy a location
 {% endtab %}
 
 {% tab title="USER INPUT OPTIONS" %}
-* Type co-ordinates
+* Type into the Search box
 
-<figure><img src=".gitbook/assets/screenshot2.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/screenshot2.JPG" alt=""><figcaption><p><strong>FORMAT OPTIONS ARE PROVIDED IN THE SEARCH BOX, WITH AUTOCOMPLETE CHOICES DISPLAYED BELOW</strong></p></figcaption></figure>
 
-* Type 3 word phase
-* Place yellow pin man icon onto map
+* a pair of numerical geographic co-orindates
+* a 3 word phrase with the prefix ' \\\\\\'
+
+<figure><img src=".gitbook/assets/screenshot6.JPG" alt=""><figcaption><p><strong>LEFT MOUSE CLICK ON THE MAP SELECTS THE 3M X 3M SQUARE AT THE LOCATION UNDER THE CURSOR.</strong></p></figcaption></figure>
+
+* A tile square geographic location on the map
 {% endtab %}
 {% endtabs %}
 
-Using the yellow pin man icon on the map displays any Google Maps imagery relating to the location selected.
+The user can select the source of the background map of the earth in the Map type option in the Right Hand menu.
+
+<figure><img src=".gitbook/assets/screenshotmaptypemenu.JPG" alt=""><figcaption><p><strong>THE USER CAN TOGGLE BETWEEN DIFFERENT SOURCES FOR THE BACKGROUND MAP</strong></p></figcaption></figure>
+
+Dragging and dropping the yellow pin man icon on the map displays any Google Maps imagery relating to the location selected.
 
 {% hint style="info" %}
-The app will not draw the 3m square within the StreetView imagery.
+The app will not draw the 3m square within the StreetView imagery, only on aerial map or satellite views.
 {% endhint %}
 
 <figure><img src=".gitbook/assets/screenshot3.JPG" alt=""><figcaption><p><strong>THE WHAT3WORDS LOCATION EXAMPLE </strong><em><strong>Yes,</strong></em><strong>  BEING SHOW ON GOOGLE MPAS BY DROPPING THE YELLO PIN MAN ICON ONTO THE STREET MAP IN THE APPROPRIATE SQUAR</strong>E.</p></figcaption></figure>
