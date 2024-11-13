@@ -39,7 +39,7 @@ Anyone with a [Google account](https://support.google.com/pinpoint/answer/119483
 
 Pinpoint has experimental features that use Google's Generative AI solutions, and according to [this notice](https://support.google.com/pinpoint/answer/14338615?hl=en) on Generative AI in Pinpoint, these features "may display inaccurate information, including information about people." Additionally, some of the information you provide may be used to improve functionality, and "Google human reviewers may read, annotate and process a sample of your Pinpoint data, including your prompts and thumbs up or down feedback." As a result, Google cautions against including information "that can be used to identify you, such as phone numbers, email addresses, or birth dates when using Pinpoint’s generative AI features."
 
-We recommend exercising caution and/or checking with your parent organization before uploading sensitive or proprietary information, documents and data into Pinpoint.
+Exercise caution and/or check with your parent organization before uploading sensitive or proprietary information, documents and data into Pinpoint.
 
 According to [Pinpoint Additional Terms of Service](https://support.google.com/pinpoint/answer/13071911?hl=en), "if you upload content to Pinpoint, you give Google permission to use that content, including to operate and promote Pinpoint, in accordance with the [Google Terms of Service](https://policies.google.com/terms) and [Google’s Privacy Policy](https://policies.google.com/privacy)."
 
