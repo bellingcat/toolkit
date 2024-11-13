@@ -1,24 +1,32 @@
 ---
-description: A brief one line description of this tool
+description: United Nations free database of global trade.
 ---
 
 # UN Comtrade Database
 
-## URL
+URL
 
-https://example.com
+[https://comtradeplus.un.org/](https://comtradeplus.un.org/)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+This database contains import and export data for goods and services for about 200 countries/zones since 1962 and up to date. In the [Trade section](https://comtradeplus.un.org/TradeFlow), you can search for monthly or annual trade data using all HS codes or specific HS codes (a commodity classification system, you can easily find the one you need by doing a google search like “commodity name + HS code”, or go ahead and type a keyword in the specific HS bar within the tool) and the countries involved in the trade. There is an advanced search tool that allows you to drill down, adding transport patterns, customs codes, trade flows, among other fields of investigation. You will get the total trade value and quantity of the countries you are researching considering the year or month you have selected. This might be useful if you are looking for an estimate of official data on the quantity imported/exported from a country on a product.&#x20;
+
+In the [Tariffline section](https://comtradeplus.un.org/Tariffline) you will be able to find more specific trade transactions between the countries you are looking for and their trading partners.
+
+For example, if you search for coffee exports from Colombia to Argentina in 2023 in the Tariffline section, you will find 31 shipments with information on mode of transport, value, net weight and gross weight. But if you look in the Trade section, you will get the total trade value ($9,521,444 in the same example).
+
+The site has a [visualization dashboard ](https://comtrade.un.org/labs/data-explorer/)that works with the same values (import/export, country, commodity, year). There is also a experimental data section of estimates of [world seaborne trade](https://comtradeplus.un.org/AISData) in real time, but the data is really scarce and the results not very easy to read.  Trade yearbooks until 2022 are available in the tool website.
+
+
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+You can access a premium service that allows you to perform bulk downloads and gives you priority access to preview unstructured data (when available). The site says there is a trial subscription for 15 days, but the option to apply is no longer available. I'll send out some emails to try to get one and explore the site more.
 
 ## Level of difficulty
 
@@ -26,23 +34,33 @@ https://example.com
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+You will have to complete a captcha each time you perform a search, unless you choose to activate a free account using your email or google account directly.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+The tool does not provide specific trade information, only general values.&#x20;
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+None so far.
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+User guides:
+
+[https://uncomtrade.org/docs-category/user-guide/](https://uncomtrade.org/docs-category/user-guide/)
+
+[https://comtrade.un.org/labs/data-explorer/UserGuide%20UN%20Comtrade%20Analytics.pdf](https://comtrade.un.org/labs/data-explorer/UserGuide%20UN%20Comtrade%20Analytics.pdf)
+
+Projects that used the tool:&#x20;
+
+[https://www.globalpolicyjournal.com/blog/29/01/2024/us-china-trade-war-spoiling-international-trade-statistics](https://www.globalpolicyjournal.com/blog/29/01/2024/us-china-trade-war-spoiling-international-trade-statistics)&#x20;
+
+[https://storymaps.arcgis.com/stories/5090228a1cd04ca7ae8c11cedd8d78fb](https://storymaps.arcgis.com/stories/5090228a1cd04ca7ae8c11cedd8d78fb)&#x20;
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+United Nations
 
 ## Advertising Trackers
 
@@ -50,8 +68,9 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+If you decide to sign in
 
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat volunteer team |
+|                           |
