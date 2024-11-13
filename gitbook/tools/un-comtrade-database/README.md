@@ -70,7 +70,7 @@ United Nations
 
 If you decide to sign in
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat volunteer team |
-|                           |
+| Page maintainer |
+| --------------- |
+| Lieth Carrillo  |
+|                 |
