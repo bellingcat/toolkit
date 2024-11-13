@@ -102,7 +102,7 @@ The UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC) on
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat volunteer team |
-|                           |
+| Page maintainer |
+| --------------- |
+| Lieth Carrillo  |
+|                 |
