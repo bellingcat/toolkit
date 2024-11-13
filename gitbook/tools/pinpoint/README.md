@@ -55,7 +55,7 @@ Keep in mind that Pinpoint's generative AI features are currently only available
 
 ## Tool provider
 
-Google
+Google, US
 
 ## Advertising Trackers
 
