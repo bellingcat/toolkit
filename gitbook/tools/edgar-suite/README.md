@@ -1,6 +1,6 @@
 ---
 description: >-
-  Tool for the retrieval of corporate and financial data from the SEC's EDGAR
+  Tool for the retrieval of corporate and financial data from SEC's EDGAR
   (Electronic Data Gathering, Analysis, and Retrieval) database.
 ---
 
