@@ -51,7 +51,7 @@ Need to install [pipx](https://github.com/pypa/pipx) in your environment, which 
 
 ## Limitations
 
-Beginning in April 2024, Ghunt no longer shows the name of the account holder in the results it returns. Ghunt developers [commented](https://github.com/mxrch/GHunt/issues/515#issuecomment-2040998530) that this was a feature that Google has actively tried to block and advised users to not expect the return of this feature.&#x20;
+Since April 2024, Ghunt no longer shows the name of the account holder in the results it returns. Ghunt developers [commented](https://github.com/mxrch/GHunt/issues/515#issuecomment-2040998530) that this was a feature that Google has actively tried to block and advised users to not expect the return of this feature.&#x20;
 
 Some social media users have [speculated](https://x.com/chrisd9r/status/1777728428621328820) that the removal of this feature may be related to an April 2024 [article](https://www.theguardian.com/world/2024/apr/05/top-israeli-spy-chief-exposes-his-true-identity-in-online-security-lapse) by the Guardian which identified the head of Israel's Unit 8200, an Israeli Intelligence Corps unit of the Israel Defense Forces (IDF). According to the investigative methodology described in the article, Ghunt may have been used to identify Sariel.
 
