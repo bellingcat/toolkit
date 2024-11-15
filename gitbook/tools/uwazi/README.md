@@ -73,7 +73,7 @@ To use Uwazi, particularly if you're opting for the self-hosted version, you'll 
 
 ## Ethical Considerations
 
-When using Uwazi, especially for human rights documentation, handling sensitive information responsibly is crucial. This includes safeguarding personal data, respecting privacy laws, and ensuring data security, particularly when documenting human rights abuses or storing victims' information. Users must also consider the potential impact of publicly sharing certain datasets and ensure that contributors and subjects have given informed consent. Proper ethical practices protect vulnerable individuals and communities while ensuring that Uwazi is used in a manner consistent with legal and moral standards.
+When using Uwazi, especially for human rights documentation, handling sensitive information responsibly is crucial. This includes safeguarding personal data, respecting privacy laws, and ensuring data security, particularly when documenting human rights abuses or storing victims' information. Users must also consider the potential impact of publicly sharing certain datasets. Proper ethical practices protect vulnerable individuals and communities while ensuring that Uwazi is used in a manner consistent with legal and moral standards.
 
 #### **Security Measures:**
 
