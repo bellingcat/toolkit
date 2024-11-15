@@ -21,7 +21,7 @@ EDGAR aims to ensure equal access to corporate disclosures within the U.S. capit
 
 ## Bellingcat's `edgar-tool` Overview
 
-`edgar-tool` provides programmatic access to SEC's EDGAR database from the command line. The CLI is feature-complete, meaning all queries you can perform on [www.sec.gov/edgar/search/](./#url) are achievable with the CLI. It also simplifies the EDGAR database's RSS feed functionality.
+`edgar-tool` provides programmatic access to SEC's EDGAR database from the command line. The CLI is feature-complete, meaning all queries you can perform on [www.sec.gov/edgar/search/](./#url) are achievable with the CLI.&#x20;
 
 Here are a few of the reasons you might want to use `edgar-tool`:
 
