@@ -115,7 +115,7 @@ You can view the full showcase [here](https://uwazi.io/en/page/k5htkcauq7i/showc
 
 ## Tool provider
 
-**Uwazi** is developed by **HURIDOCS (Human Rights Information and Documentation Systems)**, an NGO specializing in helping human rights organizations manage and utilize information for advocacy, justice, and accountability. HURIDOCS has a long history of developing tools and methodologies tailored to the needs of human rights defenders, focusing on secure, flexible, and accessible solutions.
+**Uwazi** is developed by the NGO [HURIDOCS](https://huridocs.org/about/) (Human Rights Information and Documentation Systems), Switzerland.
 
 ## Advertising Trackers
 
