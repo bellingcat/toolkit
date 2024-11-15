@@ -49,9 +49,9 @@ On the other hand, the **hosted** option involves using Uwazi’s managed hostin
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
-* [x] Paid
+* [ ] Free
+* [x] Partially Free
+* [ ] Paid
 
 Uwazi offers a flexible pricing structure. The **self-hosted** version is free, allowing organizations to download and run the platform on their servers. For those preferring a managed solution, Uwazi provides a **hosted** service starting with a free 30-day trial. After the trial, the pricing is scaled based on the organization's needs, with the first 100MB free for projects with a human rights impact. Hosting fees support ongoing development and maintenance, with financial backing from partners like the MacArthur Foundation and other organizations.
 
