@@ -84,7 +84,7 @@ When using Uwazi, especially for human rights documentation, handling sensitive 
 
 ## Guides and articles
 
-Uwazi has been employed in documenting war crimes, managing legal evidence, and archiving historical records. Its powerful search, organization, and sharing capabilities make it ideal for projects that require rigorous documentation and easy access to large volumes of sensitive information. Below, you can find examples of how others have made use of UWAZI:
+Uwazi has been employed in documenting war crimes, managing legal evidence, and archiving historical records. Its search, organization, and sharing capabilities can be used for projects that require rigorous documentation and easy access to large volumes of sensitive information. Below, you can find examples of how others have made use of UWAZI:
 
 * [Afghanistan Memory Home](https://afghanistanmemoryhome.org/) is a digital archive that preserves and shares Afghanistan's cultural and historical narratives, focusing on personal stories, documents, and memories to safeguard the nation’s heritage.
 * [Atlas of Torture](https://atlas-of-torture.org/) is a platform dedicated to documenting incidents of torture and ill-treatment globally, aiming to support advocacy efforts and promote accountability for human rights violations.
