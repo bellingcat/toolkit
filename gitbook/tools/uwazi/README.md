@@ -21,7 +21,7 @@ Uwazi is ideal for organizations and individuals who need a user-friendly, secur
 
 Uwazi offers two deployment options: **self-hosted (free)** and **hosted**. With the **self-hosted** option, users can download and set up Uwazi on their own servers at no cost. This option provides full control over the platform, including customization and data security, but it requires technical expertise to install, manage, and maintain the server environment. Self-hosting also implies responsibility for implementing security measures, performing updates, and ensuring system reliability, which might be challenging for organizations without a dedicated IT team.
 
-On the other hand, the **hosted** option involves using Uwazi’s managed hosting service, where the platform is hosted and maintained by HURIDOCS. This option is ideal for organizations that prefer a hassle-free setup with support and regular updates handled by the Uwazi team. While hosted services typically involve a cost beyond the initial free 30-day trial, they offer the convenience of professional management, enhanced security, and reliable uptime, making it a suitable choice for organizations with limited technical resources.
+On the other hand, the **hosted** option involves using Uwazi’s managed hosting service, where the platform is hosted and maintained by [HURIDOCS](https://huridocs.org/). This option is ideal for organizations that prefer a hassle-free setup with support and regular updates handled by the Uwazi team. While hosted services typically involve a cost beyond the initial free 30-day trial, they offer the convenience of professional management, enhanced security, and reliable uptime, making it a suitable choice for organizations with limited technical resources.
 
 #### Key Features:
 
