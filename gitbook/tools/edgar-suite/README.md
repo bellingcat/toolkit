@@ -45,7 +45,6 @@ Here are a few of the reasons you might want to use `edgar-tool`:
 
 ## Limitations
 
-* The tool requires an active internet connection to function.
 * The tool is limited by the limitations of the SEC's EDGAR database itself, such as:
   * No historical data before 2001
   * Documents are raw corporate fillings - there are no summaries or analysis
@@ -61,7 +60,7 @@ Users Bellingcat's `edgar-tool` must adhere to the following:
 
 ## Guide
 
-The most up-to-date guides on downloading & using edgar-tool are always available on [the bellingcat/EDGAR GitHub site](https://github.com/bellingcat/EDGAR). The December 18th 2023 Bellingcat article, [_New Tools Dig Deeper Into Hard-to-Aggregate US Corporate Data_](https://www.bellingcat.com/resources/2023/12/18/new-tools-dig-deeper-into-hard-to-aggregate-us-corporate-data/) by edgar-tool creator George Dyer, provides fantastic examples of using edgar-tool's text search and RSS feed functionality.
+The most up-to-date guides on downloading & using edgar-tool are always available on [the bellingcat/EDGAR GitHub site](https://github.com/bellingcat/EDGAR). The December 18th 2023 Bellingcat article, [_New Tools Dig Deeper Into Hard-to-Aggregate US Corporate Data_](https://www.bellingcat.com/resources/2023/12/18/new-tools-dig-deeper-into-hard-to-aggregate-us-corporate-data/) by edgar-tool creator George Dyer, provides examples of using edgar-tool's text search and RSS feed functionality.
 
 ## Tool provider
 
@@ -73,9 +72,9 @@ George Dyer (former Bellingcat Tech Fellow)
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-|                 |
-|                 |
+| Page maintainer                      |
+| ------------------------------------ |
+| Bellingcat Volunteer Team/Unassigned |
+|                                      |
 
 [^1]: XBRL (eXtensible Business Reporting Language) is a framework that allows companies to tag financial data with specific identifiers, facilitating automated processing and analysis.
