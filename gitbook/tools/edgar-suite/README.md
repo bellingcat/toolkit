@@ -15,7 +15,7 @@ description: >-
 
 ## EDGAR Database Overview
 
-The SEC's [EDGAR ](https://bellingcat.gitbook.io/toolkit/more/all-tools/edgar)database is a public repository of filings submitted by companies, mutual funds, and other entities required to report to the U.S. Securities and Exchange Commission. EDGAR provides free access to hundreds of financial document filling types, including quarterly and annual reports, insider trading disclosures, and registration statements.
+SEC's [EDGAR ](https://bellingcat.gitbook.io/toolkit/more/all-tools/edgar)database is a public repository of filings submitted by companies, mutual funds, and other entities required to report to the U.S. Securities and Exchange Commission. EDGAR provides free access to hundreds of financial document filling types, including quarterly and annual reports, insider trading disclosures, and registration statements.
 
 EDGAR ensures equal access to corporate disclosures within the U.S. capital market. The database is freely accessible online for financial analysis and open-source intelligence in the finance sector. You can access the EDGAR UI at [www.sec.gov/edgar/search/](./#url).
 
