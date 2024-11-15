@@ -69,7 +69,7 @@ To use Uwazi, particularly if you're opting for the self-hosted version, you'll 
 
     **Integration Capabilities**: Uwazi's ability to integrate with other tools and platforms is somewhat limited, which could challenge organizations using a diverse software ecosystem.
 
-    **Configuration Requirements**: Uwazi's flexibility demands careful initial configuration, including defining categories, relationships, templates, and filters. This process can be complex, particularly for projects with extensive data needs. HURIDOCS can assist at various stages in structuring data effectively, ensuring the platform meets specific project goals.
+    **Configuration Requirements**: Uwazi's flexibility demands careful initial configuration, including defining categories, relationships, templates, and filters. This process can be complex, particularly for projects with extensive data needs.&#x20;
 
 ## Ethical Considerations
 
