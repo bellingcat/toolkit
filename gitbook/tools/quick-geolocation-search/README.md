@@ -1,16 +1,22 @@
 ---
-description: A brief one line description of this tool
+description: A tool that brings all the maps into one place for easy location search.
 ---
 
 # Quick geolocation search
 
 ## URL
 
-https://example.com
+[https://cybdetective.com/quickgeolocationsearch.html](https://cybdetective.com/quickgeolocationsearch.html)&#x20;
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Quick Geolocation Search is a repository of various maps, all in one place, saving time and providing easy geolocation options to choose from for users.
+
+Enter coordinates in the longitude and latitude fields, or select a location on the map to automatically fill in the coordinates.
+
+From below select a map of your choice. Categories include general maps such as Google Maps, Yandex, Open Street Map, Wikimapia. After entering coordinates, click on a map of your choice, a new tab opens for the given coordinates on the selected map's website.
+
+Other categories to explore are History, Nature, Satellite, Transport, Social Media.
 
 ## Cost
 
@@ -18,7 +24,7 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+
 
 ## Level of difficulty
 
@@ -26,23 +32,23 @@ https://example.com
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+\-
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+Explore the limitations of various maps explained in Bellingcat's [new](https://bellingcat.gitbook.io/toolkit/categories/maps) Online Investigations Toolkit.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Each map has its unique ethical considerations. Bellingcat’s new toolkit provides detailed descriptions for some of the maps listed under Quick Geolocation Search. Link [here](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/maps).
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+Instructions are at the top of the tool's website.
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Cyber Detective: X profile [here](https://x.com/cyb\_detective).  Website: [https://cybdetective.com/](https://cybdetective.com/)
 
 ## Advertising Trackers
 
@@ -50,8 +56,7 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer |
+| --------------- |
+| Anisa Shabir    |
+|                 |
