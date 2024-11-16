@@ -10,11 +10,11 @@ description: A tool that brings several maps into one place for easy location se
 
 ## Description
 
-Quick Geolocation Search is a repository of various maps, all in one place, saving time and providing easy geolocation options to choose from for users.
+Quick Geolocation Search is a repository of various maps, all in one place, which allows researchers to look at the same location on several maps.&#x20;
 
-Enter coordinates in the longitude and latitude fields, or select a location on the map to automatically fill in the coordinates.
+Enter coordinates in the longitude and latitude fields, or select a location on the map and choose a map you are interested in. The map will open in a new tab.
 
-From below select a map of your choice. Categories include general maps such as Google Maps, Yandex, Open Street Map, Wikimapia. After entering coordinates, click on a map of your choice, a new tab opens for the given coordinates on the selected map's website.
+Categories include general maps such as Google Maps, Yandex, Open Street Map, Wikimapia.&#x20;
 
 Other categories to explore are History, Nature, Satellite, Transport, Social Media.
 
