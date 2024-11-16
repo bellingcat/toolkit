@@ -8,5 +8,4 @@
 | new-fb-search | GitHub - so you'll have to know how to use that. | <mark style="background-color:green;">Free</mark> | [https://gist.github.com/nemec/2ba8afa589032f20e2d6509512381114](https://gist.github.com/nemec/2ba8afa589032f20e2d6509512381114) |
 | [**Skopenow**](../../../tools/skopenow/README.md) | Social Media Investigations - name, phone, email, username searches | <mark style="background-color:red;">Paid</mark> | [https://www.skopenow.com/](https://www.skopenow.com/) |
 | Sowdust FB search | [graph.tips/beta](http://graph.tips/beta) This page tries to be a simple interface to show how the current Facebook search function works, after Graph search was closed. | <mark style="background-color:green;">Free</mark> | [http://sowsearch.info](http://sowsearch.info) |
-| Who posted what | Find posts on Facebook. | <mark style="background-color:green;">Free</mark> | [http://whopostedwhat.com/](http://whopostedwhat.com/) |
 | Who posted what? | A tool that allows a keyword search on Facebook on a specific date or within a specific time frame. | <mark style="background-color:green;">Free</mark> | [https://whopostedwhat.com/](https://whopostedwhat.com/) |
