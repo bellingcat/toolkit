@@ -66,7 +66,7 @@ By OsintOps [here](https://osintops.com/flash-who-posted-what-2/).
 
 ## Tool provider
 
-Henk Van Ess, Daniel Endresz and Dan Nemec.
+Daniel Endresz, Dan Nemec, Tormund Gerhardsen and Henk Van Ess.
 
 ## Advertising Trackers
 
