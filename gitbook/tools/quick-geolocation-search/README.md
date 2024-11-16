@@ -44,7 +44,7 @@ Have a look at our overview article on [ethical considerations for maps & satell
 
 ## Guides and articles
 
-Instructions are at the top of the tool's website.
+\-
 
 ## Tool provider
 
