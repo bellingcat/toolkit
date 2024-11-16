@@ -42,7 +42,9 @@ _Fraser Crichton_ is a researcher and technologist with experience in 3D modelli
 
 _Lora_ is a linguist by education, media and corporate intel analyst by trade, and an occasional due diligence investigator. She is the Volunteer Toolkit Guardian for the [Companies & Finance](https://bellingcat.gitbook.io/toolkit/categories/companies-and-finance) category.
 
-Sophie Tedling has worked with Bellingcat as a volunteer, Tech Fellow & contributor. Her background is engineering, AI & risk, and she runs [PeakVisorforOSINV on X](https://x.com/PVforOSINV) which collects input from the research community with the goal to communicate the needs of open source researchers to the PeakVisor developer team. She is the Volunteer Toolkit Guardian for the [Maps & Satellites](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites) category.
+_Martin Sona_ is an interdisciplinary researcher and lecturer with a social psychology, cognitive neuroscience, and tech innovation background. He's passionate about science, community coordination, and making complex information meaningful and accessible. Here, he serves as the Volunteer Toolkit Guardian for the [Social Media](https://bellingcat.gitbook.io/toolkit/categories/social-media) category.
+
+_Sophie Tedling_ has worked with Bellingcat as a volunteer, Tech Fellow & contributor. Her background is engineering, AI & risk, and she runs [PeakVisorforOSINV on X](https://x.com/PVforOSINV) which collects input from the research community with the goal to communicate the needs of open source researchers to the PeakVisor developer team. She is the Volunteer Toolkit Guardian for the [Maps & Satellites](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites) category.
 
 
 
