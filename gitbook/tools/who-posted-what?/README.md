@@ -21,8 +21,8 @@ A search can be:
 1. A keyword on a specific day: “Ukraine” on February 4, 2020. A new tab will open on Facebook showing posts related to Ukraine on Feb. 4 of 2020.
 2. A keyword search for a specific month: “Barack Obama” from “September 2020.” The new tab opens with relevant results.
 3. A keyword search for a specific year: “coronavirus” from “2019.” This search helps test the reliability of the tool. For 2019 there are no results for coronavirus. But when we change the year to 2020, the results are abundant, since COVID-19 was declared a pandemic in March 2020.
-4. Timerange: This option allows users to search keywords between specific time periods. Posts about “Emmanuel Macron” from August 22, 2019 to February 20, 2021. A new tab with relevant results open.
-5. Location: Enter “Mark Kelly” from User ID “105540216147364” which corresponds to Phoenix, Arizona. Explore posts about Kelly in the new Facebook tab.
+4. Timerange: This option allows users to search for keywords within a specific time period, for example fosts about “Emmanuel Macron” from August 22, 2019 to February 20, 2021.&#x20;
+5. Location: Search for posts about “Mark Kelly”  at the location ID “105540216147364” which corresponds to Phoenix, Arizona.&#x20;
 6. “Posts directly from/Posts associated with”: This search query allows you to find posts about keywords from user accounts of your interest. Copy paste "https://www.facebook.com/narendramodi” into the bar under “Get ID.” For the Indian prime minister, his UID is “100044527235621.” Select “post from” or“posts associated with” from the drop down options. Enter “100044527235621” into "Posts from"_,_ then “Mosque” into "about." A new tab on Facebook opens, showing Modi’s posts about mosques.
 
 \
