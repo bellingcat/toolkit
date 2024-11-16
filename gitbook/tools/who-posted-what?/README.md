@@ -1,7 +1,7 @@
 ---
 description: >-
-  An open-source tool that allows a keyword search on Facebook on a specific
-  date or within a specific time frame.
+  A tool that allows a keyword search on Facebook on a specific date or within a
+  specific time frame.
 ---
 
 # Who posted what?
