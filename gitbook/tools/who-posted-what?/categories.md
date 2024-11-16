@@ -16,7 +16,7 @@
 ## Social Media
 
 * [ ] [Discord](https://bellingcat.gitbook.io/toolkit/categories/social-media/discord)
-* [ ] [Facebook](https://bellingcat.gitbook.io/toolkit/categories/social-media/facebook)
+* [x] [Facebook](https://bellingcat.gitbook.io/toolkit/categories/social-media/facebook)
 * [ ] [Instagram](https://bellingcat.gitbook.io/toolkit/categories/social-media/instagram)
 * [ ] [LinkedIn](https://bellingcat.gitbook.io/toolkit/categories/social-media/linkedin)
 * [ ] [Multiple Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/multiple-networks)
