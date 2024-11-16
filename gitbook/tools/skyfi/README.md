@@ -8,8 +8,7 @@ description: >-
 
 ## URL
 
-[https://skyfi.com/\
-](https://skyfi.com/)
+[https://skyfi.com/](https://skyfi.com/)
 
 ## Description
 
