@@ -14,9 +14,7 @@ description: >-
 
 Who Posted What enables users to conduct keyword searches within a designated time period on Facebook. This can be useful since Facebook doesn't support searches within a specific time frame.
 
-Various searches can be conducted via options provided by Who Posted What. Some categories use a user ID (UID) for the searches to be conducted. A Facebook UID is a unique numeric identifier assigned to each user profile.
-
-Some URLs of the profile must be put in the “Get ID” bar to get a UID. However, many profiles have UID at the end of URL (highlighted in bold): https://www.facebook.com/profile.php?id=**100094902271869**, which corresponds to the Facebook account of the "Sindh Information Commission." Same applies to location UIDs.
+Various searches can be conducted via options provided by Who Posted What. Some categories use a user ID (UID) for the searches to be conducted. A Facebook UID is a unique numeric identifier assigned to each user profile. Some profile URLs must be put in the “Get ID” bar of the tool to get a UID. However, many profiles have their UID at the end of the URL (highlighted in bold): https://www.facebook.com/profile.php?id=**100094902271869** (the Facebook account of the "Sindh Information Commission"). The same applies to location UIDs.
 
 A search can be:
 
