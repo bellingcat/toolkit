@@ -1,5 +1,5 @@
 ---
-description: A tool that brings all the maps into one place for easy location search.
+description: A tool that brings several maps into one place for easy location search.
 ---
 
 # Quick geolocation search
