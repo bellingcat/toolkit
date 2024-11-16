@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Who Posted What enables users to conduct keyword searches between a designated time period on Facebook. This is useful since Facebook doesn't support searches within a specific time frame.
+Who Posted What enables users to conduct keyword searches within a designated time period on Facebook. This can be useful since Facebook doesn't support searches within a specific time frame.
 
 Various searches can be conducted via options provided by Who Posted What. Some categories use a user ID (UID) for the searches to be conducted. A Facebook UID is a unique numeric identifier assigned to each user profile.
 
