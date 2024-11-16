@@ -36,11 +36,11 @@ Other categories to explore are History, Nature, Satellite, Transport, Social Me
 
 ## Limitations
 
-Explore the limitations of various maps explained in Bellingcat's [new](https://bellingcat.gitbook.io/toolkit/categories/maps) Online Investigations Toolkit.
+Look at the tool description of a particular map in the[ Maps category of this toolkit](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/maps) to learn more about the limitations of this specific map.
 
 ## Ethical Considerations
 
-Each map has its unique ethical considerations. Bellingcat’s new toolkit provides detailed descriptions for some of the maps listed under Quick Geolocation Search. Link [here](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/maps).
+Have a look at our overview article on [ethical considerations for maps & satellites](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites).&#x20;
 
 ## Guides and articles
 
