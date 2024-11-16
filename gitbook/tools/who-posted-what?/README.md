@@ -25,16 +25,11 @@ A search can be:
 5. Location: Search for posts about “Mark Kelly”  at the location ID “105540216147364” which corresponds to Phoenix, Arizona.&#x20;
 6. “Posts directly from/Posts associated with”: This search query allows you to find posts which include specific keywords from a particular user account. Copy and paste "https://www.facebook.com/narendramodi” into the bar under “Get ID.” The Facebook UID of the Indian prime minister is “100044527235621.” Select “post from” or “posts associated with” from the drop down options. Enter “100044527235621” into "Posts from"_,_ then “mosque” into "about." A new tab on Facebook opens, showing Modi’s posts about mosques.
 
-\
-
-
 ## Cost
 
 * [x] Free
 * [ ] Partially Free
 * [ ] Paid
-
-
 
 ## Level of difficulty
 
@@ -42,13 +37,11 @@ A search can be:
 
 ## Requirements
 
-To view all posts, users must have a Facebook account, as the tab redirects to the Facebook domain after performing the required search.
+Facebook Account: The tab redirects to the Facebook domain after performing the required search. Therefore, users must be logged in to a Facebook account to see the results.
 
-\
-Limitations
------------
+## Limitations
 
-Posts from the group and private Facebook accounts remain hidden.
+Posts from groups and private Facebook accounts remain hidden.
 
 ## Ethical Considerations
 
@@ -56,15 +49,13 @@ Posts from the group and private Facebook accounts remain hidden.
 
 ## Guides and articles
 
-Under each search category, there are instructions.
+Explore guides by GIJN that mention Who Posted What [here](https://gijn.org/tag/who-posted-what/).
 
-Explore guides by GIJN that uses Who Posted What in various OSINT searches [here](https://gijn.org/tag/who-posted-what/).
-
-By OsintOps [here](https://osintops.com/flash-who-posted-what-2/).
+Alessandro Rossetti : [Flash: Who posted what?](https://osintops.com/flash-who-posted-what-2/), OsintOps, 2020
 
 ## Tool provider
 
-Daniel Endresz, Dan Nemec and Tormund Gerhardsen. Idea: Henk van Ess.
+Daniel Endresz, Dan Nemec and Tormund Gerhardsen (Idea: Henk van Ess)
 
 ## Advertising Trackers
 
