@@ -166,3 +166,4 @@
   * [Planet Labs](tools/planet-labs/README.md)
   * [Archive.today](tools/archive.today/README.md)
   * [Pinpoint](tools/pinpoint/README.md)
+  * [SkyFi](tools/skyfi/README.md)
