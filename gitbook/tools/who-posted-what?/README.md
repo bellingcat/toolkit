@@ -59,9 +59,9 @@ Daniel Endresz, Dan Nemec and Tormund Gerhardsen (Idea: Henk van Ess)
 
 ## Advertising Trackers
 
-* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [x] This tool does not appear to use tracking cookies.
+* [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer |
 | --------------- |
