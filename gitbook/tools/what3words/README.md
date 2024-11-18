@@ -29,7 +29,7 @@ what3words can be used to communicate locations without numeric format geographi
 There is considerable variation between the app version of what3words and the PC browser version and some functions only exist in one version of the app, e.g. the compass function only exists in the mobile app version.
 {% endhint %}
 
-**Click on any one of the 4 tabs below** to see the use cases, inputs, outputs and options for what3words:
+### Use Cases for what3words with Input Data, Output Data and Data Input Options...(Click each tab to see further information) <a href="#use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see" id="use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see"></a>
 
 {% tabs %}
 {% tab title="USER INPUTS" %}
