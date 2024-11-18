@@ -42,9 +42,9 @@ Blender, while primarily seen as a tool for 3D modeling and animation, can indir
 
 Desktop minimum requirements:
 
-* Windows 8.1 (64-bit), CPU: 4 cores with SSE4.2 support, RAM: 8 GB RAM, GPU: 2 GB VRAM with OpenGL 4.3
-* macOS 11.2 (Big Sur), CPU: Apple Silicon or Intel, RAM: 8 GB, GPU: GPU with Metal 2.2
-* Linux Distribution with glibc 2.28 or newer (64-bit), CPU: 4 cores with SSE4.2 support, RAM: 8GB, GPU: 2 GB VRAM with OpenGL 4.3
+* Windows 8.1 (64-bit), CPU: 4 cores with SSE4.2 support, RAM: 8 GB RAM, GPU: 2 GB VRAM with OpenGL 4.3.
+* macOS 11.2 (Big Sur), CPU: Apple Silicon or Intel, RAM: 8 GB, GPU: GPU with Metal 2.2.
+* Linux Distribution with glibc 2.28 or newer (64-bit), CPU: 4 cores with SSE4.2 support, RAM: 8GB, GPU: 2 GB VRAM with OpenGL 4.3.
 
 ## Limitations
 
@@ -57,7 +57,7 @@ Desktop minimum requirements:
 When considering the use of Blender, it's essential to address certain ethical considerations:
 
 * **Open Source Contribution Ethics**: As an open-source tool, the ethics around contribution and use should be discussed. Users and developers should consider how they contribute back to the community, either through code, documentation, or financial support.
-* **Data Privacy**: The Blender software tool does not collect user data for improvement or analytics purposes. Only if you download and contribute to [https://opendata.blender.org/](https://opendata.blender.org/) they do this. The Blender website collects minimal with no third party tracking user data detailed here: [https://www.blender.org/privacy-policy/](https://www.blender.org/privacy-policy/)
+* **Data Privacy**: The Blender software tool does not collect user data for improvement or analytics purposes. Only if you download and contribute to [https://opendata.blender.org/](https://opendata.blender.org/) do they do this. The Blender website collects minimal with no third party tracking user data detailed here: [https://www.blender.org/privacy-policy/](https://www.blender.org/privacy-policy/)
 * **Sustainability**: The environmental impact of running high-performance software like Blender, especially in terms of energy consumption during rendering processes, should be considered. Users and developers might look for ways to minimize this impact.
 
 ## Guide
