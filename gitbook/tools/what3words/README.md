@@ -81,7 +81,7 @@ Dragging and dropping the yellow pin man icon on the map displays any Google Map
 The app will not draw the 3m square within the StreetView imagery, only on aerial map or satellite views.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/screenshot3.JPG" alt=""><figcaption><p><strong>THE WHAT3WORDS LOCATION EXAMPLE </strong><em><strong>Yes,</strong></em><strong>  BEING SHOW ON GOOGLE MPAS BY DROPPING THE YELLO PIN MAN ICON ONTO THE STREET MAP IN THE APPROPRIATE SQUAR</strong>E.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/screenshot3.JPG" alt=""><figcaption><p><strong>THE WHAT3WORDS LOCATION EXAMPLE </strong><em><strong>BLEAT.MENTAL.LOCATE</strong></em><strong> BEING SHOW ON GOOGLE MPAS BY DROPPING THE YELLO PIN MAN ICON ONTO THE STREET MAP IN THE APPROPRIATE SQUAR</strong>E.</p></figcaption></figure>
 
 ## Cost
 
