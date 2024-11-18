@@ -20,7 +20,7 @@ what3words is a simple, clear and rapid way to communicate locations on earth. T
 what3words can be used to communicate locations without numeric format geographic co-ordinates, which is particularly helpful when communication channels are poor quality, or unreliable. It is usable in many countries to summon the emergecy services, e.g. Mountain Rescue, pinpoint meeting places, specify accurate deliveries, e.g. Hermes and Ikea use it, and advertise accurate locations. Its use in Open Source research can cover any of these applications for the technology, as part of an investigation, or simply as a device to share locations between researchers.
 
 {% hint style="danger" %}
-It is possible to use what3words in a large range of languages. The 3-word phrase assignment across the grid squares is entirely different and unrelated in each language. Therefore there is no relationship between the 3-word phrases in different languages for the same grid square. They are not translations of word meanings between languages. When a user sets up a Second Language in the mobile app, two sets of 3-word phrases are displayed simultaneously, with the Second Language phrase below the First Language phrase. \[However the secondary language can't be used for speaking or scanning 3 word addresses.]
+**LANGUAGE:** It is possible to use what3words in a large range of languages. The 3-word phrase assignment across the grid squares is entirely different and unrelated in each language. Therefore there is no relationship between the 3-word phrases in different languages for the same grid square. They are **not** translations of word meanings between languages. When a user sets up a Second Language in the mobile app, two sets of 3-word phrases are displayed simultaneously, with the Second Language phrase below the First Language phrase. \[However the secondary language can't be used for speaking or scanning 3 word addresses.]
 {% endhint %}
 
 ## The Interface
@@ -28,6 +28,8 @@ It is possible to use what3words in a large range of languages. The 3-word phras
 {% hint style="info" %}
 There is considerable variation between the app version of what3words and the PC browser version and some functions only exist in one version of the app, e.g. the compass function only exists in the mobile app version.
 {% endhint %}
+
+**Click on any one of the 4 tabs below** to see the use cases, inputs, outputs and options for what3words:
 
 {% tabs %}
 {% tab title="USER INPUTS" %}
@@ -115,8 +117,8 @@ what3words Limited
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer |
