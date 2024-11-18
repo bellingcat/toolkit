@@ -60,6 +60,10 @@ _Using an object's height and the length of its shadow (or the angle to the sun)
 The length of the shadow fed into Shadow Finder can only be measured directly from the image if the camera is at right angles to the shadow. If not, calculations will need to be made to correct for any other camera perspective.
 {% endhint %}
 
+### The Interface <a href="#use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see" id="use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see"></a>
+
+### Use Cases for Shadow Finder with Input Data, Output Data and Data Input Options...(Click each tab to see further information) <a href="#use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see" id="use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see"></a>
+
 ## Cost
 
 * [x] Free
