@@ -51,11 +51,11 @@ Posts from groups and private Facebook accounts remain hidden.
 
 Explore guides by GIJN that mention Who Posted What [here](https://gijn.org/tag/who-posted-what/).
 
-Alessandro Rossetti : [Flash: Who posted what?](https://osintops.com/flash-who-posted-what-2/), OsintOps, 2020
+Alessandro Rossetti: [Flash: Who posted what?](https://osintops.com/flash-who-posted-what-2/), OsintOps, 2020.
 
 ## Tool provider
 
-Daniel Endresz, Dan Nemec and Tormund Gerhardsen (Idea: Henk van Ess)
+Daniel Endresz, Dan Nemec and Tormund Gerhardsen (Idea: Henk van Ess).
 
 ## Advertising Trackers
 
