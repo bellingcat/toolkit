@@ -26,7 +26,7 @@ The site has a [visualization dashboard ](https://comtrade.un.org/labs/data-expl
 
 You can access a premium service that allows you to perform bulk downloads and gives you priority access to preview unstructured data (when available).&#x20;
 
-There is a trial subscription for 15 days. You can request it after 15 days of creating the account.
+There is a trial subscription for 15 days. You can [request](https://uncomtrade.org/docs/premium-trial-subscription/) it after 15 days of creating the account.
 
 ## Level of difficulty
 
