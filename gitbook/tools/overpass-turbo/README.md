@@ -46,7 +46,7 @@ Online Open Source Investigators can leverage Overpass Turbo in numerous ways to
 * **Transportation and Infrastructure Reporting:** Data on road networks, public transport facilities, and infrastructure developments can inform stories on transportation challenges, government spending, and urban mobility.
 * **Disaster Reporting:** In the aftermath of natural disasters, journalists can quickly gather information on affected areas, infrastructure damage, and relief efforts to provide accurate and timely news coverage.
 
-In each of these use cases, users can precisely tailor their queries to extract specific data points from the vast repository of geographic information available on OpenStreetMap, demonstrating the flexibility and utility of Overpass Turbo for various OSINT applications.
+In each of these use cases, users can precisely tailor their queries to extract specific data points from the vast repository of geographic information available on OpenStreetMap, demonstrating the flexibility and utility of Overpass Turbo for various open source research applications.
 
 Latest features and changes: [https://github.com/tyrasd/overpass-turbo/commits/master/](https://github.com/tyrasd/overpass-turbo/commits/master/)
 
