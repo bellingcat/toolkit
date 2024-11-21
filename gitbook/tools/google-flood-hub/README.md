@@ -1,5 +1,7 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  A visual tool to monitor river levels and forecast floods based on AI models
+  developed by Google Research.
 ---
 
 # Google Flood Hub
@@ -10,7 +12,7 @@ description: A brief one line description of this tool
 
 ## Description
 
-Google's Flood Hub is developed by Google Research and uses [AI models to forecast floods](https://www.nature.com/articles/s41586-024-07145-1). It [combines](https://sites.research.google/gr/floodforecasting/) two AI models that process diverse publicly available data sources: the [Hydrologic Model](https://sites.research.google/gr/floodforecasting/hydrology-model/) forecasts the amount of water flowing in a river, and the Inundation Model predicts what areas will be affected and how high the water level will be. Flood Hub offers users flood data and forecasts specific to their location, with predictions extending up to 7 days, and presents the data visually by showing local river flood maps, water trends.&#x20;
+Google Flood Hub is developed by Google Research and uses [AI models to forecast floods](https://www.nature.com/articles/s41586-024-07145-1). It [combines](https://sites.research.google/gr/floodforecasting/) two AI models that process diverse publicly available data sources: the [Hydrologic Model](https://sites.research.google/gr/floodforecasting/hydrology-model/) forecasts the amount of water flowing in a river, and the Inundation Model predicts what areas will be affected and how high the water level will be. Flood Hub offers users flood data and forecasts specific to their location, with predictions extending up to 7 days, and presents the data visually by showing local river flood maps, water trends.&#x20;
 
 As of November 2024, Flood Hub  covers river basins in over 80 countries worldwide, providing critical flood forecasting for over 1,800 sites and, covering a population of 460M people.&#x20;
 
