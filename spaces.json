@@ -5448,5 +5448,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "Ad1ai2cCrn4RIkxDTC2h",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "w2F20A3XlnufLQQflmm2",
+    "title": "EU consolidated corporate registers",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-11-21T19:21:25.927Z",
+    "updatedAt": "2024-11-21T19:21:25.927Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/w2F20A3XlnufLQQflmm2",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/w2F20A3XlnufLQQflmm2/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "c4IcE96C8haxuWlBD578",
+    "defaultLevel": "inherit"
   }
 ]
