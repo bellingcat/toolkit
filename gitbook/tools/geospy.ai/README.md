@@ -10,9 +10,11 @@ description: An AI-based geolocation tool for images.
 
 ## Description
 
-GeoSpy is an online platform that uses neural networks to estimate the geographic location of photographs by analyzing visual features such as vegetation, architectural styles, and contextual clues. Users can upload a photograph, and the tool will provide an estimated location of city, state, and country, a marker on a map of the location, as well as a short block of text explaining its reasoning for choosing that location.
+GeoSpy is an online platform that uses neural networks to estimate the geographic location of photographs by analyzing visual features such as vegetation, architectural styles, and contextual clues. Users can upload a photograph, and the tool will provide an estimated location of city, state, and country, a marker on a map of the location, a short block of text explaining its reasoning for choosing that location, and other potential similar locations that may match the photo.
 
-Currently, you just need to upload an image file to the website, and no subscription is required for use. As with any AI model, results are not foolproof and should be further corroborated, but the tool can be useful for getting initial clues about an image's location.
+Currently, you just need to upload an image file to the website, and no subscription or account creation is required for use. If you create a free account (either via email and password, or via your Google account), you will have access to additional features such as a history of previously searched photos, and the ability to upload and search up to six photos at once.
+
+As with any AI model, results are not foolproof and should be further corroborated, but the tool can be useful for getting initial clues about an image's location.
 
 ## Cost
 
@@ -20,9 +22,7 @@ Currently, you just need to upload an image file to the website, and no subscrip
 * [x] Partially Free
 * [ ] Paid
 
-GeoSpy currently adopts a freemium model. In a footer on the results page of image identification, the developers specify that the free version of the tool is in beta, and GeoSpy Pro is recommended for any professional use cases.
-
-GeoSpy also offers free (and tiered pricing) access to their API [here](https://api.geospy.ai/).
+GeoSpy offers free (and tiered pricing) access to their API [here](https://api.geospy.ai/).
 
 ## Level of difficulty
 
@@ -36,7 +36,7 @@ API use: billing information needs to be provided (even for the free version).
 
 ## Limitations
 
-Only one image can be uploaded at a time.
+None.
 
 ## Ethical Considerations
 
