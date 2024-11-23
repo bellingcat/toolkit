@@ -1,7 +1,7 @@
 ---
 description: >-
-  Searchable archive of specific 4chan boards. Makes it possible to read threads
-  after they are purged from 4chan.
+  Searchable archive of specific 4chan boards that makes it possible to read
+  threads after they are purged from 4chan.
 ---
 
 # 4plebs
@@ -42,8 +42,8 @@ The example below shows the results of searching for the term _Bellingcat_ acros
 
 ## Limitations
 
-* **Incomplete archive:** posts from 2006-2009 have not yet been imported to the archive. Some 2010-2013 archives are partially imported (see: [https://archive.4plebs.org/\_/articles/faq/](https://archive.4plebs.org/\_/articles/faq/) for more detail). Additionally, the tool only archives 11 boards.
-* **Takedown requests:** some content has been removed as a result of takedown requests. For more detail see: [https://lumendatabase.org/notices/search?recipient\_name\_facet=4plebs.org](https://lumendatabase.org/notices/search?recipient\_name\_facet=4plebs.org)
+* **Incomplete archive:** posts from 2006-2009 have not yet been imported to the archive. Some 2010-2013 archives are partially imported (see: [https://archive.4plebs.org/\_/articles/faq/](https://archive.4plebs.org/_/articles/faq/) for more detail). Additionally, the tool only archives 11 boards.
+* **Takedown requests:** some content has been removed as a result of takedown requests. For more detail see: [https://lumendatabase.org/notices/search?recipient\_name\_facet=4plebs.org](https://lumendatabase.org/notices/search?recipient_name_facet=4plebs.org)
 * **Personal information:** Personal information related to emails or on-site reports are not archived.
 * **API rate limits**: All endpoints have dynamic rate limits. See [response status code 429](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429) and [Retry-After header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After).
 
@@ -60,7 +60,7 @@ To effectively use 4plebs, especially for beginners or those looking to refine t
 
 **Official Wiki**&#x20;
 
-* [https://archive.4plebs.org/\_/articles/faq/](https://archive.4plebs.org/\_/articles/faq/)
+* [https://archive.4plebs.org/\_/articles/faq/](https://archive.4plebs.org/_/articles/faq/)
 
 &#x20;**Articles**
 
@@ -73,7 +73,7 @@ To effectively use 4plebs, especially for beginners or those looking to refine t
 #### Developer Resources
 
 * [https://4plebs.tech/foolfuuka/](https://4plebs.tech/foolfuuka/)
-* [Documentation from original developers](http://foolfuuka.readthedocs.io/en/latest/code\_guide/documentation/api.html)
+* [Documentation from original developers](http://foolfuuka.readthedocs.io/en/latest/code_guide/documentation/api.html)
 
 **Community and Support**
 
@@ -82,7 +82,7 @@ To effectively use 4plebs, especially for beginners or those looking to refine t
 
 ## Tool provider
 
-Unclear (some of the website developers are listed here: [https://archive.4plebs.org/\_/articles/credits/](https://archive.4plebs.org/\_/articles/credits/))
+Unclear (some of the website developers are listed here: [https://archive.4plebs.org/\_/articles/credits/](https://archive.4plebs.org/_/articles/credits/))
 
 ## Advertising Trackers
 
