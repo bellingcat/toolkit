@@ -92,7 +92,7 @@ First, click on the URL, hover over the “Community” link on the top right, a
 
 When clicking on a particular flight, the full detailed page will load (See image under “Viewing Results” section above) and navigate to the bottom right of the page.&#x20;
 
-### **KML FILE OF FLIGHT LOG  FOR CERTAIN GEOLOCATION TASKS**
+### **KML OF FLIGHT LOG  FOR CERTAIN GEOLOCATION TASKS**
 
 Lastly, for flights that have already landed or are completed, FlightAware allows users to download a KML file of the flight log. This will contain all the coordinates of its flight path, the altitude, and other information that helps users visualize. To do this, click on the flight page of a flight in question, click on “View track log”. Then navigate to the upper left corner of the page and click “+ Google Earth” icon, as shown below.&#x20;
 
@@ -165,7 +165,7 @@ The call sign is usually located primarily in two places. If looking at the flig
 
 <summary>REGISTRATION NUMBER/ TAIL NUMBER/ / N-NUMBER</summary>
 
-**Definition:** This number appears near [the tail of every aircraft. ](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons)This is sometimes called a [“Tail Number” or, in the United States, an “N-Number”. ](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)It is a unique number that tells you which country the aircraft [was registered](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking). This [guide](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) specifies that an aircraft's registration is similar to a car's license plate, assigned when registered in a specific country. This registration reflects the jurisdiction of the aircraft according to this [list](https://en.wikipedia.org/wiki/List\_of\_aircraft\_registration\_prefixes).&#x20;
+**Definition:** This number appears near [the tail of every aircraft. ](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons)This is sometimes called a [“Tail Number” or, in the United States, an “N-Number”. ](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)It is a unique number that tells you which country the aircraft [was registered](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking). This [guide](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) specifies that an aircraft's registration is similar to a car's license plate, assigned when registered in a specific country. This registration reflects the jurisdiction of the aircraft according to this [list](https://en.wikipedia.org/wiki/List_of_aircraft_registration_prefixes).&#x20;
 
 **When to use call signs for open-source investigations:** If available, registration information can be helpful for finding clues about ownership of the aircraft. However, there are a few caveats:&#x20;
 
@@ -180,11 +180,7 @@ The call sign is usually located primarily in two places. If looking at the flig
 
 The registration number can be found on the flight summary page, if available. And in the aircraft details section, as shown below. Clicking on the “Registration” link will take you to a separate page with more detailed registration information, registration history, and transfer of ownership.&#x20;
 
-<div data-full-width="true">
-
-<figure><img src=".gitbook/assets/ScreenRecording2024-08-28111801-ezgif.com-overlay.gif" alt=""><figcaption><p>This is an example of an aircraft whose registration information is available under a free account. You can look at the Flight Summary section of the page for the registration number or click the “Registration” link in the bottom right to take you to a page with a more detailed description.</p></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src=".gitbook/assets/ScreenRecording2024-08-28111801-ezgif.com-overlay.gif" alt=""><figcaption><p>This is an example of an aircraft whose registration information is available under a free account. You can look at the Flight Summary section of the page for the registration number or click the “Registration” link in the bottom right to take you to a page with a more detailed description.</p></figcaption></figure></div>
 
 
 
@@ -308,7 +304,7 @@ Fiorella, Giancarlo, (2019, October 15). A beginner's guide to flight tracking. 
 
 Global Investigative Journalism Network. (n.d.). Planespotting: An updated guide to tracking aircraft around the world.[ https://gijn.org/resource/planespotting-an-updated-guide-to-tracking-aircraft-around-the-world/](https://gijn.org/resource/planespotting-an-updated-guide-to-tracking-aircraft-around-the-world/)
 
-Global Investigative Journalism Conference 2023, (2023, October 7). Video on Plane and Ship Tracking, [https://youtu.be/zPU\_FLVBi6E](https://youtu.be/zPU\_FLVBi6E) &#x20;
+Global Investigative Journalism Conference 2023, (2023, October 7). Video on Plane and Ship Tracking, [https://youtu.be/zPU\_FLVBi6E](https://youtu.be/zPU_FLVBi6E) &#x20;
 
 **OCCRP Guide:**&#x20;
 
@@ -318,7 +314,7 @@ Organized Crime and Corruption Reporting Project. "FAQ: What Is Plane Tracking?"
 
 OSINT: Tracking Ships, Planes and Weapons [https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons)
 
-**Full list of country identifiers here:** [https://en.wikipedia.org/wiki/List\_of\_aircraft\_registration\_prefixes](https://en.wikipedia.org/wiki/List\_of\_aircraft\_registration\_prefixes)
+**Full list of country identifiers here:** [https://en.wikipedia.org/wiki/List\_of\_aircraft\_registration\_prefixes](https://en.wikipedia.org/wiki/List_of_aircraft_registration_prefixes)
 
 **Some lists of public registries:**  [AeroTransport,](https://aerotransport.org/) [CH Aviation](https://www.ch-aviation.com/), [Airframes](http://www.airframes.org/), [RZJets](https://rzjets.net/aircraft/) and [spotters](http://spotters.net.ua/), [PlaneLogger](https://www.planelogger.com/)
 
@@ -326,7 +322,7 @@ OSINT: Tracking Ships, Planes and Weapons [https://elearning.aljazeera.net/en/jo
 
 **Social media:**&#x20;
 
-**Twitter hashtags:** [#aviation](https://twitter.com/hashtag/aviation?src=hashtag\_click), [#avgeek](https://twitter.com/hashtag/avgeek?src=hashtag\_click), [#planespotting](https://twitter.com/hashtag/planespotting?src=hashtag\_click), [#flight](https://twitter.com/hashtag/flight?src=hashtag\_click), and [#MilAvGeek](https://twitter.com/hashtag/MilAvGeek?src=hashtag\_click).
+**Twitter hashtags:** [#aviation](https://twitter.com/hashtag/aviation?src=hashtag_click), [#avgeek](https://twitter.com/hashtag/avgeek?src=hashtag_click), [#planespotting](https://twitter.com/hashtag/planespotting?src=hashtag_click), [#flight](https://twitter.com/hashtag/flight?src=hashtag_click), and [#MilAvGeek](https://twitter.com/hashtag/MilAvGeek?src=hashtag_click).
 
 ## Tool provider
 
