@@ -5484,5 +5484,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "Bayw9D2E91M00GF2cEVJ",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "7ZwxUCp42RJTmMvOeWbS",
+    "title": "Submarine Cable Map",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-11-26T13:43:54.351Z",
+    "updatedAt": "2024-11-26T13:43:54.351Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/7ZwxUCp42RJTmMvOeWbS",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/7ZwxUCp42RJTmMvOeWbS/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "Tfi3Wit42spxe1NSCwTk",
+    "defaultLevel": "inherit"
   }
 ]
