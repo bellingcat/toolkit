@@ -5466,5 +5466,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "c4IcE96C8haxuWlBD578",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "nQx2i2gdPYTV0gJTrgxp",
+    "title": "Aqueduct Water Risk Atlas",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-11-26T13:30:42.088Z",
+    "updatedAt": "2024-11-26T13:30:42.088Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/nQx2i2gdPYTV0gJTrgxp",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/nQx2i2gdPYTV0gJTrgxp/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "Bayw9D2E91M00GF2cEVJ",
+    "defaultLevel": "inherit"
   }
 ]
