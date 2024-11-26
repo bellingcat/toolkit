@@ -5502,5 +5502,23 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "Tfi3Wit42spxe1NSCwTk",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "XAuCEKGT9T8CnHyCXMOS",
+    "title": "WildEye",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-11-26T13:58:52.604Z",
+    "updatedAt": "2024-11-26T13:58:52.604Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/XAuCEKGT9T8CnHyCXMOS",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/XAuCEKGT9T8CnHyCXMOS/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "Lgaj9wc2uLLaAILqNS8O",
+    "defaultLevel": "inherit"
   }
 ]
