@@ -19,7 +19,7 @@ RuPEP can help you to dig into the network of people and organisations around a 
 * People sanctioned by the EU, US and others, and their relatives and business partners
 * Shareholders and managers of Russian military companies, and their relatives
 * Heads of military-civilian administrations in Russian-occupied territories in the Ukraine
-* Organisations associated with PEPs&#x20;
+* Organisations associated with PEPs.
 
 See the criteria for inclusion on [this page](https://rupep.org/en/about/).
 
