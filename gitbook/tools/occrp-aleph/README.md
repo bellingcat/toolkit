@@ -12,11 +12,11 @@ description: >-
 
 ## Description
 
-Aleph is a platform by the Organized Crime and Corruption Reporting Project (OCCRP) to help journalists and investigators "follow the money". It provides access to many datasets on people and companies, and offers tools to organize and visualize data. Investigators can use Aleph to search sanctions lists, corporate registries, leaks, and more. They can also create workspaces to collaborate and upload their own data to cross-reference with Aleph's datasets.
+Aleph is a platform by the Organized Crime and Corruption Reporting Project (OCCRP) to help journalists and investigators "follow the money". It provides access to many datasets on people and companies, and offers tools to organize and visualize data. Investigators can use Aleph to search sanctions lists, corporate registries, leaks, and more. They can also create workspaces to collaborate and upload their own data to cross-reference with Aleph's datasets.&#x20;
 
 ### How to search and filter data
 
-In the search bar type the name of an individual, an organization, a company or a keyword. The results will display the total number of mentions of your search term and the <mark style="color:yellow;">yellow highlights</mark> will show the context in which the search term appears.&#x20;
+In the search bar type the name of an individual, an organization, a company or a keyword. The results will display the total number of mentions of your search term and the <mark style="color:yellow;">yellow highlights</mark> will show the context in which the search term appears.
 
 <figure><img src=".gitbook/assets/Ale1.png" alt="" width="563"><figcaption><p>Using the search term Dmitry Medvedev returns over 4,000 results.</p></figcaption></figure>
 
@@ -26,9 +26,9 @@ To narrow down the search results, you can use the menu on the left to filter by
 
 To view a particular entry, click on the hyperlink you are interested in. This opens a pop-up in the same window. From here you can review the document online or choose to download it.
 
-<figure><img src=".gitbook/assets/Ale3.png" alt="" width="563"><figcaption><p>View of a selected document from the results page </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Ale3.png" alt="" width="563"><figcaption><p>View of a selected document from the results page</p></figcaption></figure>
 
-The OCCRP Aleph website has a handy [video tutorial](https://www.youtube.com/watch?v=I3AxSMBzJ14) on how to search and filter data as well as written detailed instructions on [search basics](https://docs.aleph.occrp.org/users/search/basics/).&#x20;
+The OCCRP Aleph website has a handy [video tutorial](https://www.youtube.com/watch?v=I3AxSMBzJ14) on how to search and filter data as well as written detailed instructions on [search basics](https://docs.aleph.occrp.org/users/search/basics/).
 
 ### How to perform an advanced search
 
@@ -41,26 +41,26 @@ The advanced search options can be helpful in cases when there are too many resu
 Some examples of search operators that can be used instead of the advanced search form above:
 
 {% hint style="info" %}
-"" Quotations - putting a phrase within quotations will prompt the search to find the exact match of that phrase, for example _**"**money laundering**"**_ will return results for this same search term.
+**""** Quotations - putting a phrase within quotations will prompt the search to find the exact match of that phrase, for example _**"money laundering"**_ will return results for this same search term.
 
-\~ Proximity variant 1 - this is useful when you need to search for slight variations in a search term, for example _launder\~3_ will search for _launder_, but also matches that that include up to 3-letter variations of "launder" - launder**ed,** launder**ing**, laund**ers**. These variations include adding, removing, and changing a letter.
+**\~** Proximity variant 1 - this is useful when you need to search for slight variations in a search term, for example _launder\~3_ will search for _launder_, but also matches that that include up to 3-letter variations of "launder" - launder**ed,** launder**ing**, laund**ers**. These variations include adding, removing, and changing a letter.
 
-\~ Proximity variant 2 - used to find words in proximity to each other and is helpful when you need higher relevance for the results, for example _"fraud minister"\~5_ will search these two words within a given distance from each other. In this case it will search for matches where **fraud** and **minister** are five or fewer words apart from each other.
+**\~** Proximity variant 2 - used to find words in proximity to each other and is helpful when you need higher relevance for the results, for example _"fraud minister"\~5_ will search these two words within a given distance from each other. In this case it will search for matches where **fraud** and **minister** are five or fewer words apart from each other.
 
-\+/- Inclusion/exclusion of keywords - finds matches that contain one search term but exclude another, for example +Moscow -Medvedev will search documents that contain the word Moscow, but will exclude that contain Medvedev. Please be aware that in this case it will also exclude documents that contain BOTH Moscow and Medvedev.
+**+/-** Inclusion/exclusion of keywords - finds matches that contain one search term but exclude another, for example +Moscow -Medvedev will search documents that contain the word Moscow, but will exclude that contain Medvedev. Please be aware that in this case it will also exclude documents that contain BOTH Moscow and Medvedev.
 
-AND operator - searches matches in which each result must contain both the keywords, but won't return matches that only contain just one of those keywords, for example **Russia AND Medvedev**.
+**AND** operator - searches matches in which each result must contain both the keywords, but won't return matches that only contain just one of those keywords, for example **Russia AND Medvedev**.
 
-OR operator - searches all matches that contain one or the other search keyword, or both, for example **Russia OR Medvedev**.
+**OR** operator - searches all matches that contain one or the other search keyword, or both, for example **Russia OR Medvedev**.
 
 Searches can be as intricate as you want them to be, for example +Medved\~2 AND (Moscow OR Kremlin OR Krasnodar) -Putin. Additionally, these searches work in Cyrillic.
 {% endhint %}
 
 OCCRP Aleph does provide a step-by-step tutorial on advanced searches [here](https://docs.aleph.occrp.org/users/search/advanced/).
 
-How to search within datasets
+* How to search within datasets
 
-At the top of the Aleph page there is a menu called Datasets which opens a search for each dataset in the OCCRP databank. You can use the search bar to find a specific dataset and browse its contents.&#x20;
+At the top of the Aleph page there is a menu called Datasets which opens a search for each dataset in the OCCRP databank. You can use the search bar to find a specific dataset and browse its contents.
 
 <figure><img src=".gitbook/assets/Ale5.png" alt="" width="563"><figcaption><p>The top right menu Datasets takes you to the search bar. Use keywords to find datasets you are interested in.</p></figcaption></figure>
 
@@ -68,19 +68,11 @@ At the top of the Aleph page there is a menu called Datasets which opens a searc
 
 You can use the Source Documents menu to review each uploaded file in this dataset. The documents are all available for download. Additionally, you can chose the Cross-reference menu to check for different spellings of names, or variations in the names. The cross-reference results are also available for download and can help clear out uncertainties in your research.
 
-<div>
+<div><figure><img src=".gitbook/assets/Ale7.png" alt=""><figcaption><p>Example of the Source documents view</p></figcaption></figure> <figure><img src=".gitbook/assets/Ale8.png" alt=""><figcaption><p>Example of the Cross-reference view</p></figcaption></figure></div>
 
-<figure><img src=".gitbook/assets/Ale7.png" alt=""><figcaption><p>Example of the Source documents view</p></figcaption></figure>
+If you have created an account for Aleph, you can also make use of their Investigation workspaces. Here is a [detailed guide](https://docs.aleph.occrp.org/users/investigations/overview/) on how to create and handle a workspace.
 
- 
-
-<figure><img src=".gitbook/assets/Ale8.png" alt=""><figcaption><p>Example of the Cross-reference view</p></figcaption></figure>
-
-</div>
-
-If you have created an account for Aleph, you can also make use of their Investigation workspaces. Here is a [detailed guide](https://docs.aleph.occrp.org/users/investigations/overview/) on how to create and handle a workspace.&#x20;
-
-You can find the[ languages supported on Aleph here](https://docs.aleph.occrp.org/developers/reference/languages/) and which ones have an [OCR](https://en.wikipedia.org/wiki/Optical\_character\_recognition) feature.&#x20;
+You can find the[ languages supported on Aleph here](https://docs.aleph.occrp.org/developers/reference/languages/) and which ones have an [OCR](https://en.wikipedia.org/wiki/Optical_character_recognition) feature.
 
 ## Cost
 
@@ -98,9 +90,9 @@ Aleph provides a range of tools and mechanisms to aid investigations. They are s
 
 No account is necessary to use Aleph.
 
-If you want to export the results of your search, you have to create a free account, which requires you to submit evidence of relevant previous work (reports, articles, etc.), the name of the organization you are affiliated with and your role there. The same goes for creating research project spaces.&#x20;
+If you want to export the results of your search, you have to create a free account, which requires you to submit evidence of relevant previous work (reports, articles, etc.), the name of the organization you are affiliated with and your role there. The same goes for creating research project spaces.
 
-Some datasets are only accessible to approved users. To be approved, you must sign up using [this form](https://occrp.atlassian.net/servicedesk/customer/portal/14).
+Some datasets are only accessible to approved users. To be approved, you must fill out [this form](https://occrp.atlassian.net/servicedesk/customer/portal/14).
 
 ## Limitations
 
@@ -139,7 +131,7 @@ The [Organized Crime and Corruption Reporting Project (OCCRP)](https://www.occrp
 ## Advertising Trackers
 
 * [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer |
