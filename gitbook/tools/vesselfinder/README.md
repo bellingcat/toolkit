@@ -49,7 +49,7 @@ Additionally, here's a quick overview of the different capabilities and menus av
 
 <figure><img src=".gitbook/assets/VF2.png" alt="" width="563"><figcaption><p>Photo of a vessel from the Photos menu</p></figcaption></figure>
 
-* [Ports](https://www.vesselfinder.com/ports) - A list of over 6,000 ports accross the globe, including description of the port and its position on the map. When a port is selected, all vessels nearby are also visible on the map. The ports are searchable by country and by United Nations Code for Trade and Transport Locations - LOCODE (a geographic coding scheme developed and maintained by United Nations Economic Commission for Europe, the code consists of five letters with the first two designating the country, e.g. ESADR is the LOCODE for Port of Adra in Spain). The profile of each port shows information on how many ships are in port, how many are expected and how many have visited the port in the past month.
+* [Ports](https://www.vesselfinder.com/ports) - A list of over 6,000 ports across the globe, including description of the port and its position on the map. When a port is selected, all vessels nearby are also visible on the map. The ports are searchable by country and by United Nations Code for Trade and Transport Locations - LOCODE (a geographic coding scheme developed and maintained by United Nations Economic Commission for Europe, the code consists of five letters with the first two designating the country, e.g. ESADR is the LOCODE for Port of Adra in Spain). The profile of each port shows information on how many ships are in port, how many are expected and how many have visited the port in the past month.
 
 <figure><img src=".gitbook/assets/VF3.png" alt="" width="563"><figcaption><p>Profile of the Port of Acapulco</p></figcaption></figure>
 
@@ -110,7 +110,7 @@ Some of the vessels are government-owned and a small part of those are intended 
 
 [How to set the coordinates format on VesselFinder?](https://www.youtube.com/watch?v=AGDS6g8OEWM) - Just Ask Me YouTube channel
 
-[How to select the type of the map on VesselFinder?](https://www.youtube.com/watch?v=W8\_LNHZcfuQ) - Just Ask Me YouTube channel
+[How to select the type of the map on VesselFinder?](https://www.youtube.com/watch?v=W8_LNHZcfuQ) - Just Ask Me YouTube channel
 
 [Identificar y localizar barcos y ver sus características con vesselfinder.com](https://www.youtube.com/watch?v=2hIVHohek9I) - El Maestro del Tecno YouTube channel (video in Spanish)
 
@@ -118,7 +118,7 @@ Some of the vessels are government-owned and a small part of those are intended 
 
 ## Tool provider
 
-[Astra Paging Ltd.](https://www.astrapaging.com/about), based in Sliven, Bulgaria for the desktop version and [VT Explorer Ltd.](https://www.vtexplorer.com/), based in the Polegate, East Sussex, UK are the developers of the application version.&#x20;
+[Astra Paging Ltd.](https://www.astrapaging.com/about), based in Sliven, Bulgaria for the desktop version, and [VT Explorer Ltd.](https://www.vtexplorer.com/) in Polegate, East Sussex, UK are the developers of the application version.&#x20;
 
 ## Advertising Trackers
 
@@ -126,7 +126,7 @@ Some of the vessels are government-owned and a small part of those are intended 
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer              |
-| ---------------------------- |
-| LPetrova and Sophie Tedling. |
-|                              |
+| Page maintainer             |
+| --------------------------- |
+| LPetrova and Sophie Tedling |
+|                             |
