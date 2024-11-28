@@ -131,8 +131,6 @@ However, as pointed out in OCCRP's [Plane Tracking FAQ](https://www.occrp.org/en
 
 See this website: [https://dictatoralert.org/](https://dictatoralert.org/). It is a project that monitors the flight paths of authoritarian regimes' aircraft and alerts people on Twitter when these planes land in major European cities.
 
-<figure><img src=".gitbook/assets/IMG_0350.PNG" alt="" width="375"><figcaption><p>According to OCCRP, flight tracking can be used to match other leads about a person's movements (obtained either from social media or other sources) with flight-tracking patterns to help researchers connect the dots. This image shows sample steps a researcher can take to match flight data to the movements of persons of interest. </p></figcaption></figure>
-
 ### Identifiers and Where to Find Them on FlightAware
 
 When doing flight tracking for investigations, it is essential to know what data to look for and which information can potentially provide leads in an investigation. However, note that not all information may be immediately available on one flight tracking website. Expand each identifier below to see what it is, why it is important and where to find it in the tool.
