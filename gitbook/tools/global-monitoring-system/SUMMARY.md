@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Global Monitoring System](README.md)
+* [Global Monitoring System - ECOSOLVE](README.md)
 * [Categories](categories.md)

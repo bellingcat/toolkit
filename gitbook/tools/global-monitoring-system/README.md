@@ -1,16 +1,20 @@
 ---
-description: A brief one line description of this tool
+description: Illicit online wildlife markets data from Brazil and South Africa.
 ---
 
-# Global Monitoring System
+# Global Monitoring System - ECOSOLVE
 
 ## URL
 
-https://example.com
+[https://www.ecosolve.eco/dashboard](https://www.ecosolve.eco/dashboard)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+This tool allows you to explore the trade in wildlife and wildlife-related goods on social media platforms, blogs and online marketplaces since 2024. The site has more than 700 detections of illegal wildlife trade online. You can filter by 24 species, 2 countries (Brazil and South Africa) and different online marketplaces such as Facebook, OLX and Mercado Livre. When you perform a search you will get different visuals showing the number of detections and the most prevalent taxa, a market tracker and a trend monitor, all very useful to understand the market prevalence in certain online marketplaces. In addition, you will get a database of listings that lists the website, name, species, type of product (live or parts), where it was sold, among other information. You can also download the whole database.&#x20;
+
+Additionally, there is an analysis section where you can find different publications and events on online wildlife trade, environmental trade, among other relevant topics from the Global Initiative against Transnational Organized Crime (GI TOC).
+
+The ECOSOLVE initiative can be useful for those researching wildlife trade who want to explore online marketplaces and species trade ads. It can be a good place to start looking for patterns and discover the best social networks and online marketplaces to search more thoroughly using other tools.
 
 ## Cost
 
@@ -18,40 +22,37 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+None.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+Not all species are available and the tool only shows results for Brazil and South Africa. September 2024 was the last update and information is not updated automatically. Information in datasets is not very detailed.&#x20;
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+None so far.
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+None found.
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+EU’s Global Illicit Flows programme (GIFP) and the Global Initiative against Transnational Organized Crime (GI TOC).
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer |
+| --------------- |
+| Lieth Carrillo  |
+|                 |
