@@ -1,6 +1,6 @@
 ---
 description: >-
-  The Wayback Machine's Internet Archive lets users view and archive web pages,
+  The Internet Archive's Wayback Machine lets users view and archive web pages,
   aiding in historical research and digital preservation.
 ---
 
@@ -18,22 +18,18 @@ For example, here is how amazon.com looked in 1999 versus 2024:
 
 <figure><img src=".gitbook/assets/Screen Shot 2024-07-14 at 9.39.48 PM.png" alt="amazon.com in 1999" width="563"><figcaption><p>amazon.com in 1999</p></figcaption></figure>
 
-<div data-full-width="false">
-
-<figure><img src=".gitbook/assets/Screen Shot 2024-07-14 at 9.41.30 PM.png" alt="amazon.com in 2024" width="563"><figcaption><p>amazon.com in 2024</p></figcaption></figure>
-
-</div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/Screen Shot 2024-07-14 at 9.41.30 PM.png" alt="amazon.com in 2024" width="563"><figcaption><p>amazon.com in 2024</p></figcaption></figure></div>
 
 Besides accessing the Wayback Machine via the Internet Archive website, it is also available via:
 
 * [Chrome Extension](https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak?hl=en-US)
-* [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/wayback-machine\_new/)
+* [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/wayback-machine_new/)
 * [Safari Extension](https://apps.apple.com/us/app/wayback-machine/id1472432422)
 * [MS Edge Add-on](https://microsoftedge.microsoft.com/addons/detail/wayback-machine/kjmickeoogghaimmomagaghnogelpcpn?hl=en-US)
 * [iOS app](https://itunes.apple.com/us/app/wayback-machine/id1201888313)
 * [Android app](https://play.google.com/store/apps/details?id=com.internetarchive.waybackmachine)
 
-Additionally, several APIs are available to access information about Wayback capture data. [View the available APIs here](https://archive.org/help/wayback\_api.php).
+Additionally, several APIs are available to access information about Wayback capture data. [View the available APIs here](https://archive.org/help/wayback_api.php).
 
 [Learn more about the Wayback Machine](https://help.archive.org/help/wayback-machine-general-information/).
 
@@ -59,18 +55,18 @@ The Wayback Machine requires an internet connection and a way to connect. Howeve
 
 The Wayback Machine is a powerful tool, but it has some limitations, including:
 
-* Incomplete Archives: Not all websites or web pages are archived, and some might have gaps in the timeline.
-* Dynamic Content: Interactive elements, dynamic content, and multimedia (such as videos and animations) may not be fully captured or functional.
-* Legal Restrictions: Some websites may block archiving or request the removal of their archived content, limiting access. [Learn more about requests to remove content from the Wayback machine here](https://help.archive.org/help/how-do-i-request-to-remove-something-from-archive-org/).
-* Loading Issues: Archived pages can load slowly, and some resources (like images or scripts) might be missing.
+* **Incomplete Archives**: Not all websites or web pages are archived, and some might have gaps in the timeline.
+* **Dynamic Content**: Interactive elements, dynamic content, and multimedia (such as videos and animations) may not be fully captured or functional.
+* **Legal Restrictions**: Some websites may block archiving or request the removal of their archived content, limiting access. [Learn more about requests to remove content from the Wayback machine here](https://help.archive.org/help/how-do-i-request-to-remove-something-from-archive-org/).
+* **Loading Issues**: Archived pages can load slowly, and some resources (like images or scripts) might be missing.
 
 ## Ethical Considerations
 
 Using the Wayback Machine may involve several ethical considerations:
 
-* Accuracy and Context: Archived pages may lack the context in which they were originally presented, potentially leading to misinterpretation or misuse of information.
-* Consent: Some websites may not consent to their content being archived. It's important to consider whether the website owner has explicitly requested exclusion from the archive.
-* Copyright: [The Internet Archive's Terms of Use, Privacy Policy, and Copyright Policy](https://archive.org/about/terms.php) states: "You agree to abide by all applicable laws and regulations, including intellectual property laws, in connection with your use of the Archive. In particular, you certify that your use of any part of the Archive's Collections will be limited to noninfringing or fair use under copyright law."
+* **Accuracy and Context**: Archived pages may lack the context in which they were originally presented, potentially leading to misinterpretation or misuse of information.
+* **Consent**: Some websites may not consent to their content being archived. It's important to consider whether the website owner has explicitly requested exclusion from the archive.
+* **Copyright**: [The Internet Archive's Terms of Use, Privacy Policy, and Copyright Policy](https://archive.org/about/terms.php) states: "You agree to abide by all applicable laws and regulations, including intellectual property laws, in connection with your use of the Archive. In particular, you certify that your use of any part of the Archive's Collections will be limited to noninfringing or fair use under copyright law."
 
 ## Guides and articles
 
