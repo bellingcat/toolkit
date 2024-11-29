@@ -14,11 +14,11 @@ description: >-
 
 Hunchly is an online investigation tool that automatically captures and documents every web page a researcher visits. It eliminates the need for manual note-taking, screenshots, or URL logging.&#x20;
 
-Hunchly includes search functionality and history filtering of captured pages. This allows researchers to locate specific information within their saved web pages. Users can set keywords, what Hunchly calls "selectors", to track and record across web pages and can categorize these pages with tags. Hunchly supports regular expression (Regex) selectors. Users can also mark pages as important to review later or prioritize them in searches and when filtering results.
+This tool includes search functionality and history filtering of captured pages. Hunchly allows researchers to locate specific information within their saved web pages. Users can set keywords, what Hunchly calls "selectors", to track and record across web pages and can categorize these pages with tags. Hunchly supports regular expression (Regex) selectors. Users can also mark pages as important to review later or prioritize them in searches and when filtering results.
 
 Hunchly creates a transparent audit trail, which is essential for ensuring the credibility and admissibility of collected data in professional and legal settings.
 
-Available as a Google Chrome plugin, Mobile application, or [using Hunchly Cloud](https://youtu.be/j2-F\_ywtOjU?si=lF7aoNRqNG3ORE5S).&#x20;
+Available as a Google Chrome plugin, Mobile application, or [using Hunchly Cloud](https://youtu.be/j2-F_ywtOjU?si=lF7aoNRqNG3ORE5S).&#x20;
 
 ## Cost
 
