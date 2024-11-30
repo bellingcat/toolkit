@@ -13,11 +13,7 @@ https://www.suncalc.org
 
 ## Description
 
-<div data-full-width="true">
-
-<figure><img src=".gitbook/assets/SliderMovingSunANNOTATED (2).gif" alt=""><figcaption><p><strong>USING SUNCALC TO MEASURE THE POSITION OF THE SUN OVER TIME BY DRAGGING THE TIME SLIDER</strong><br><strong>ACROSS THE TOP OF THE SCREEN WITH LEFT MOUSE DOWN</strong></p></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src=".gitbook/assets/SliderMovingSunANNOTATED (2).gif" alt=""><figcaption><p><strong>USING SUNCALC TO MEASURE THE POSITION OF THE SUN OVER TIME BY DRAGGING THE TIME SLIDER</strong><br><strong>ACROSS THE TOP OF THE SCREEN WITH LEFT MOUSE DOWN</strong></p></figcaption></figure></div>
 
 <details>
 
@@ -92,7 +88,7 @@ SunCalc can be used for geolocation and chronolocation in various ways:
 
 <mark style="color:green;">**Photovolatic Data**</mark> including
 
-* [Solar constant](https://en.wikipedia.org/wiki/Solar\_constant), [air mass](https://www.nationalgeographic.org/encyclopedia/air-mass/) and [irradiance](https://www.merriam-webster.com/dictionary/irradiance)
+* [Solar constant](https://en.wikipedia.org/wiki/Solar_constant), [air mass](https://www.nationalgeographic.org/encyclopedia/air-mass/) and [irradiance](https://www.merriam-webster.com/dictionary/irradiance)
 {% endtab %}
 
 {% tab title="USE CASES" %}
@@ -145,15 +141,7 @@ There are very many use cases for SunCalc in Open Source research because there 
 
 #### Configuring the Interface Display
 
-<div>
-
-<figure><img src=".gitbook/assets/Base MapsWITH LOGO.JPG" alt=""><figcaption><p><strong>USERS SELECT THE UNDERLAY MAP FOR SUNCALC FROM THE MENU UNDER THE TOP RIGHT MAP ICON</strong></p></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/MENU TOP LEFT.jpg" alt="" width="209"><figcaption><p><strong>USERS CONFIGURE THE INTERFACE FROM THE MENU UNDER THE TOP LEFT MENU ICON</strong></p></figcaption></figure>
-
-</div>
+<div><figure><img src=".gitbook/assets/Base MapsWITH LOGO.JPG" alt=""><figcaption><p><strong>USERS SELECT THE UNDERLAY MAP FOR SUNCALC FROM THE MENU UNDER THE TOP RIGHT MAP ICON</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/MENU TOP LEFT.jpg" alt="" width="209"><figcaption><p><strong>USERS CONFIGURE THE INTERFACE FROM THE MENU UNDER THE TOP LEFT MENU ICON</strong></p></figcaption></figure></div>
 
 Menu buttons top left and top right of the map display show menus to toggle overlays for night, eclipse, and date and for distance measurement (Top Left Option Icon) and to set the source of the base map from 4 options (Top Right Layer Icon). See menus above.
 
@@ -223,7 +211,7 @@ SunCalc does not require a login and does not store source information, and thus
 
 ## Guide
 
-SunCalc general tutorial (not specifically Open Source research) [https://www.youtube.com/watch?v=Mouw\_0oACs8](https://www.youtube.com/watch?v=Mouw\_0oACs8)
+SunCalc general tutorial (not specifically Open Source research) [https://www.youtube.com/watch?v=Mouw\_0oACs8](https://www.youtube.com/watch?v=Mouw_0oACs8)
 
 The effects of the earth's orbit around the sun at [https://www.britannica.com/video/152185/role-orbit-axis-Earth-seasons](https://www.britannica.com/video/152185/role-orbit-axis-Earth-seasons)
 
@@ -249,5 +237,5 @@ Torsten Hoffmann, Germany
 
 | Page maintainer |
 | --------------- |
-| Sophie Tedling. |
+| Sophie Tedling: |
 |                 |
