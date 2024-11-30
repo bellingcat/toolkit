@@ -35,7 +35,7 @@ The list of different geographical data platforms which can be used with MapSwit
 <figure><img src=".gitbook/assets/ListofCompatible.jpg" alt=""><figcaption><p><strong>MAPSWITCHER OUTPUT SERVICE OPTIONS AS AT MAY 2024 - CHECK THE LINK ABOVE FOR CURRENT STATUS</strong></p></figcaption></figure>
 
 {% hint style="info" %}
-Currently MapSwitcher is only available for Chrome Browser, but its author, [David R Edgar](https://david-r-edgar.uk/projects.php), planned future versions for Firefox and Microsoft Edge.
+Currently MapSwitcher is only available for Chrome Browser, but its author, [David R Edgar](https://david-r-edgar.uk/projects.php), planned future versions for Firefox and Microsoft Edge. It is, however, possible to install Chrome Browser extensions on Microsoft Edge, although they may not be thoroughly tested on Edge, for instructions, see explanatory article ["How To Install Chrome Extensions in Microsoft Edge Browsers"](https://medium.com/@mariusbongarts/how-to-install-chrome-extensions-in-microsoft-edge-browsers-65914eb61d6)
 {% endhint %}
 
 ## Cost
