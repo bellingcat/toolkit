@@ -143,15 +143,7 @@ Use PeakVisor in conjunction with other tools like Google Earth Pro and satellit
 
 PeakVisor provides an elevation data download feature for a maximum ground surface rectangle area equating to 0.5 degrees square of latitude and longitude. The user can define the location and shape of the download rectangle data and save it as a \*.png file in the Data tab of the PROFILE page.
 
-<div>
-
-<figure><img src=".gitbook/assets/elevationdataapi.JPG" alt="" width="375"><figcaption><p><strong>PEAKVISOR'S DATA DOWNLOAD FEATURE REQUIRES A USER PROFILE TO DOWNLOAD ELEVATION DATA IN A USER-DEFINED RECTANGULAR AREA OF UP TO 0.5 DEGREES X 0.5 DEGREES</strong></p></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/PVProfilePageTabs.JPG" alt=""><figcaption><p>PEAKVISOR USERS WITH AN ACCOUNT CAN ACCESS A PROFILE PAGE WHICH OFFERS THE ABILITY TO STORE PHOTOS, LOCATIONS AND PATHS, TO DOWNLOAD DATA FILES, SYNCH WITH GARMIN, EXPORT TO GPX, ETC.</p></figcaption></figure>
-
-</div>
+<div><figure><img src=".gitbook/assets/elevationdataapi.JPG" alt="" width="375"><figcaption><p><strong>PEAKVISOR'S DATA DOWNLOAD FEATURE REQUIRES A USER PROFILE TO DOWNLOAD ELEVATION DATA IN A USER-DEFINED RECTANGULAR AREA OF UP TO 0.5 DEGREES X 0.5 DEGREES</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/PVProfilePageTabs.JPG" alt=""><figcaption><p>PEAKVISOR USERS WITH AN ACCOUNT CAN ACCESS A PROFILE PAGE WHICH OFFERS THE ABILITY TO STORE PHOTOS, LOCATIONS AND PATHS, TO DOWNLOAD DATA FILES, SYNCH WITH GARMIN, EXPORT TO GPX, ETC.</p></figcaption></figure></div>
 
 ### FIVE Different Views for Terrain in PeakVisor
 
@@ -333,15 +325,7 @@ Similarly, the Sun and Moon trails feature takes time to master for chronolocati
 
 An email login is needed for some functions like elevation data download, location and path saving. This can be created using the SIGN IN feature in the centre of the landing page - see below.
 
-<div>
-
-<figure><img src=".gitbook/assets/SIGN IN INTIALLY THERE (1).jpg" alt=""><figcaption><p>PEAKVISOR LANDING PAGE SHOWS A SIGN IN FUNCTION UNTIL A USER REGISTERS AN ACCOUNT</p></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/PROFILE APPEARS (1).jpg" alt=""><figcaption><p>ONCE THE USER HAS AN ACTIVE ACCOUNT, THEY GAIN ACCESS TO THE PROFILE FEATURES VIA THE LANDING PAGE</p></figcaption></figure>
-
-</div>
+<div><figure><img src=".gitbook/assets/SIGN IN INTIALLY THERE (1).jpg" alt=""><figcaption><p>PEAKVISOR LANDING PAGE SHOWS A SIGN IN FUNCTION UNTIL A USER REGISTERS AN ACCOUNT</p></figcaption></figure> <figure><img src=".gitbook/assets/PROFILE APPEARS (1).jpg" alt=""><figcaption><p>ONCE THE USER HAS AN ACTIVE ACCOUNT, THEY GAIN ACCESS TO THE PROFILE FEATURES VIA THE LANDING PAGE</p></figcaption></figure></div>
 
 ## Limitations
 
@@ -350,11 +334,7 @@ An email login is needed for some functions like elevation data download, locati
 * **Resizing Windows:** PeakVisor 3D and 3D Explorer windows can switch zoom scale when Teleporting between viewpoint locations in the model, which means users often need to resize and adjust scale during their work.
 * **Buffering Effect at Capacity Limit:** PeakVisor operates at the limit of capacity when the user continuously adjusts viewpoint in 3D Explorer View, because it must constantly re-render the imagery. If buffering limits are reached, the system will 'boomerang' back to a previous location. The way to work around this is to move the viewpoint in increments.
 
-<div data-full-width="true">
-
-<figure><img src=".gitbook/assets/BOOMERANGEFFECT.gif" alt=""><figcaption><p><strong>DEMONSTRATING THE EFFECTS OF RESOURCE LIMITATIONS WHEN TRYING TO MOVE LOCATION TOO RAPIDLY</strong></p></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src=".gitbook/assets/BOOMERANGEFFECT.gif" alt=""><figcaption><p><strong>DEMONSTRATING THE EFFECTS OF RESOURCE LIMITATIONS WHEN TRYING TO MOVE LOCATION TOO RAPIDLY</strong></p></figcaption></figure></div>
 
 ## Ethical Considerations
 
@@ -428,7 +408,7 @@ _The PeakVisor website help does not refer specifically to the Web Version, and 
 
 ## Tool provider
 
-Routes Software SRL, VIA CAVOUR 2 LOMAZZO, COMO, 22074 Italy
+Routes Software SRL, VIA CAVOUR 2 LOMAZZO, COMO, 22074 ITALY
 
 ## Advertising Trackers
 
@@ -438,7 +418,7 @@ Routes Software SRL, VIA CAVOUR 2 LOMAZZO, COMO, 22074 Italy
 
 | Page maintainer |
 | --------------- |
-| Sophie Tedling. |
+| Sophie Tedling  |
 |                 |
 
 [^1]: To be cross-referenced with other Toolbox tool entries.
