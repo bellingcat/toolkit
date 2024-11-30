@@ -1,6 +1,6 @@
 ---
-description: Database of corporate filings for the US
 icon: square-dollar
+description: Database of corporate filings for the US
 ---
 
 # EDGAR
@@ -11,9 +11,9 @@ icon: square-dollar
 
 ## Description
 
-EDGAR (Electronic Data Gathering, Analysis, and Retrieval system) is a database of corporate filings maintained by the U.S. Securities and Exchange Commission. These filings contain a wealth of quantitative and qualitative information on every legal entity that issues non-exempt securities in the United States.      &#x20;
+EDGAR (Electronic Data Gathering, Analysis, and Retrieval system) is a database of corporate filings maintained by the U.S. Securities and Exchange Commission. These filings contain a wealth of quantitative and qualitative information on every legal entity that issues non-exempt securities in the United States.
 
-EDGAR is the primary system for companies and others submitting documents under the Securities Act of 1933, the Securities Exchange Act of 1934, the Trust Indenture Act of 1939, and the Investment Company Act of 1940.
+EDGAR is the primary system for companies and others to submit documents under the Securities Act of 1933, the Securities Exchange Act of 1934, the Trust Indenture Act of 1939, and the Investment Company Act of 1940.
 
 The EDGAR database provides access to corporate information, allowing research of public companies' financial information and operations. It also includes information provided by mutual funds (including money market funds), exchange-traded funds (ETFs), and variable annuities.
 
@@ -70,6 +70,14 @@ Select Open Document to reach the `.htm` file or Open filing to reach the `.xml`
 The `.xml` file will contain different hyperlinks for document and data files. In this example the 8-K file (document ba-20240731.htm iXBRL) links to the full form 8-K filing (known as a “current report” and it is the report that companies must file with the SEC to announce major events that shareholders should know about).
 
 <figure><img src=".gitbook/assets/image 5.png" alt=""><figcaption><p>Example of an .xml file from a filing with the US Securities and Exchange Commission</p></figcaption></figure>
+
+If you want to parse EDGAR data, The Comprehensive R Archive Network have published this PDF guide - [Tool for the U.S. SEC EDGAR Retrieval and Parsing of Corporate Filings](ttps://cran.r-project.org/web/packages/edgar/edgar.pdf).
+
+Alphanome have [published a parser for SEC data](https://sec-parser.readthedocs.io/en/stable/notebooks/user_guide.html). The guide is a walk-through for the steps needed to install and use the library for parsing SEC EDGAR HTML documents into semantic elements and trees.
+
+SEC have their own guides on how to use EDGAR, accessible [here](https://www.sec.gov/search-filings/edgar-search-assistance/how-do-i-use-edgar).
+
+SEC also have some basic information on how to access their [EDGAR RESTful APIs here](https://www.sec.gov/search-filings/edgar-application-programming-interfaces).&#x20;
 
 ## Tool provider
 
