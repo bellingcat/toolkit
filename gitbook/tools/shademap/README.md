@@ -13,11 +13,7 @@ description: >-
 
 ## Description
 
-<div data-full-width="true">
-
-<figure><img src=".gitbook/assets/ShortShadeMapcropped.gif" alt=""><figcaption><p>SHADE MAP SIMULATES THE SHADOW PATTERNS FROM SUNRISE TO SUNSET AS THE USER MOVES THE TIME SLIDER<br>TO CHANGE THE TIME IN RUSHON, TAJIKISTAN ON 18TH MAY</p></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src=".gitbook/assets/ShortShadeMapcropped.gif" alt=""><figcaption><p>SHADE MAP SIMULATES THE SHADOW PATTERNS FROM SUNRISE TO SUNSET AS THE USER MOVES THE TIME SLIDER<br>TO CHANGE THE TIME IN RUSHON, TAJIKISTAN ON 18TH MAY</p></figcaption></figure></div>
 
 ShadeMap can calculate shadow locations in real time and display them on a map. ShadeMap can also aggregate shadows over time to calculate how many hours of sun or shadow a specific location gets over the course of a day or over the course of an entire year. Sunlight hours and time of year are used to calculate energy values of sunlight per unit area (square metre). In addition to mapping shadow patterns for a static location, ShadeMap's [Trail Shade feature](./#trail-shade-feature-accessible-from-the-search-bar-menu) handles changing location uploaded as a user trail.
 
@@ -136,15 +132,7 @@ Two advanced motion path-related features are available through the Project Menu
 
 {% tabs %}
 {% tab title="DATA " %}
-<div>
-
-<figure><img src=".gitbook/assets/shademapbottomleft menu (1).JPG" alt=""><figcaption><p>THE DATA TOOLBAR<br>SCREEN BOTTOM LEFT</p></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/ShademapSettings (1).JPG" alt="" width="375"><figcaption><p><strong>THE SETTINGS MENU: CALLED FROM THE DATA TOOLBAR</strong></p></figcaption></figure>
-
-</div>
+<div><figure><img src=".gitbook/assets/shademapbottomleft menu (1).JPG" alt=""><figcaption><p>THE DATA TOOLBAR<br>SCREEN BOTTOM LEFT</p></figcaption></figure> <figure><img src=".gitbook/assets/ShademapSettings (1).JPG" alt="" width="375"><figcaption><p><strong>THE SETTINGS MENU: CALLED FROM THE DATA TOOLBAR</strong></p></figcaption></figure></div>
 
 Data display and exchange is managed through the bottom left interface toolbar, which allows
 
@@ -201,15 +189,7 @@ View Orientation is managed through the bottom right interface toolbar, which al
 
 By default, shadows are displayed on top of the tree canopy. To view shadows underneath the tree canopy instead, change the radio button setting from 'Top of canopy' to 'below canopy'.
 
-<div>
-
-<figure><img src=".gitbook/assets/shademapbottomrightmenu (1).JPG" alt="" width="170"><figcaption><p><strong>THE VIEW TOOLBAR ADJUSTS TILT AND ZOOM AND ALLOWS SELECTION OF THREE VIEW LAYERS AND TWO BASEMAPS</strong></p></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/shademaptopright menu (1).JPG" alt=""><figcaption><p><strong>THE DRAWING TOOLBAR APPEARS SCREEN TOP RIGHT</strong><br><strong>IN SHADOW VIEW AND HOURS IN THE SUN VIEW</strong></p></figcaption></figure>
-
-</div>
+<div><figure><img src=".gitbook/assets/shademapbottomrightmenu (1).JPG" alt="" width="170"><figcaption><p><strong>THE VIEW TOOLBAR ADJUSTS TILT AND ZOOM AND ALLOWS SELECTION OF THREE VIEW LAYERS AND TWO BASEMAPS</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/shademaptopright menu (1).JPG" alt=""><figcaption><p><strong>THE DRAWING TOOLBAR APPEARS SCREEN TOP RIGHT</strong><br><strong>IN SHADOW VIEW AND HOURS IN THE SUN VIEW</strong></p></figcaption></figure></div>
 
 The Drawing Toolbar buttons allow the addition of objects to the map as polygons with a specified height, object editing, deletion and saving.
 {% endtab %}
@@ -301,7 +281,7 @@ Where performance is an issue:
 Most ShadeMap free data does not contain accurate building heights and/or roof shapes. Users needing accurate data on these features can purchase Tree Data which provides exact measurements gathered through LiDAR and photogammetry surveys.
 
 {% hint style="info" %}
-There have been historical email issues around the delivery of purchased Tree Data where the data emails have been sent to Spam or blocked. A workaround is being implemented and the provider can be contacted [here](https://us6.list-manage.com/contact-form?u=e5e17c9e245874654e775b644\&form\_id=271345c0ff1a17865f8194ec099c597f) with any problems.
+There have been historical email issues around the delivery of purchased Tree Data where the data emails have been sent to Spam or blocked. A workaround is being implemented and the provider can be contacted [here](https://us6.list-manage.com/contact-form?u=e5e17c9e245874654e775b644\&form_id=271345c0ff1a17865f8194ec099c597f) with any problems.
 {% endhint %}
 
 **Interface**
@@ -341,5 +321,5 @@ ShadeMap, US
 
 | Page maintainer |
 | --------------- |
-| Sophie Tedling. |
+| Sophie Tedling: |
 |                 |
