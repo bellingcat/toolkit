@@ -74,7 +74,7 @@ The NASA FIRMS main data sources are radiometry equipment aboard orbiting satell
 NASA FIRMS is a very ‘fast’ service - data is usually uploaded within 3 hours of capture.
 {% endhint %}
 
-The data from these satellites can be viewed in NASA FIRMS, but is also available as an overlay layer in [NASA Worldview](https://worldview.earthdata.nasa.gov/), and as downloads or alerts in different formats: \*.shp, [\*.kml](https://en.wikipedia.org/wiki/Keyhole\_Markup\_Language), \*.txt and [\*.wms](https://www.ogc.org/standard/wms/).
+The data from these satellites can be viewed in NASA FIRMS, but is also available as an overlay layer in [NASA Worldview](https://worldview.earthdata.nasa.gov/), and as downloads or alerts in different formats: \*.shp, [\*.kml](https://en.wikipedia.org/wiki/Keyhole_Markup_Language), \*.txt and [\*.wms](https://www.ogc.org/standard/wms/).
 
 The different satellites connected to NASA FIRMS have different sensor resolutions, so MODIS carries a coarse sensor where fire is represented in squares of 1km x 1km, whereas VIIRS has a finer sensor where fire is represented in squares of 375m x 375m. Thus more accurate location comes from the finer sensor, i.e. VIIRS.
 
@@ -92,15 +92,7 @@ The orbits of different satellites can be followed using the [OrbTrack](https://
 
 The ability for the user to select a time period, using a horizontal slider across the bottom of the screen, or a menu calendar, is very powerful for analysis. The radio buttons labelled TODAY, 24 HOURS OR 7 DAYS filter the data according to the length of the time period of data capture.
 
-<div>
-
-<figure><img src=".gitbook/assets/TimeOptions.JPG" alt="" width="263"><figcaption><p><strong>TIME PERIOD BUTTONS AND CALENDAR OPTION</strong></p></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/DATESLIDER (1).JPG" alt=""><figcaption><p>DATE PERIOD CALENDAR BAR ACROSS BOTTOM OF SCREEN</p></figcaption></figure>
-
-</div>
+<div><figure><img src=".gitbook/assets/TimeOptions.JPG" alt="" width="263"><figcaption><p><strong>TIME PERIOD BUTTONS AND CALENDAR OPTION</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/DATESLIDER (1).JPG" alt=""><figcaption><p>DATE PERIOD CALENDAR BAR ACROSS BOTTOM OF SCREEN</p></figcaption></figure></div>
 
 #### Different Properties of Fire
 
@@ -145,15 +137,7 @@ A display mode can be selected under the three horizontal bars icon on the right
 {% tab title="DATE SLIDER" %}
 The Date Slider appears across the bottom of the screen when the corresponding button is pressed on the Centre Floating Toolbar. It is used to select date ranges for display, in addition to the Buttons and Calendar Option on the Top Right Menu (shown below)
 
-<div>
-
-<figure><img src=".gitbook/assets/TimeOptions.JPG" alt="" width="263"><figcaption><p><strong>TIME PERIOD BUTTONS AND CALENDAR OPTION</strong></p></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/DATESLIDER.JPG" alt=""><figcaption><p><strong>TIME SLIDER FOR SELECTING DATE RANGES</strong></p></figcaption></figure>
-
-</div>
+<div><figure><img src=".gitbook/assets/TimeOptions.JPG" alt="" width="263"><figcaption><p><strong>TIME PERIOD BUTTONS AND CALENDAR OPTION</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/DATESLIDER.JPG" alt=""><figcaption><p><strong>TIME SLIDER FOR SELECTING DATE RANGES</strong></p></figcaption></figure></div>
 {% endtab %}
 
 {% tab title="CENTRE TOOLBAR" %}
@@ -256,7 +240,7 @@ NB Algorithms have been adapted to avoid the effects of sun glint causing false 
 ...Regular approximately monthly on-orbit mission calibration manoeuvres are conducted for both satellites to maintain performance. These involve briefly rolling the satellite over in orbit to view the moon, using it to calibrate the reflective solar bands of the sensor. Anomalous observation data is often collected as the satellite rolls back to point the sensor at the earth, see example:
 
 <img src=".gitbook/assets/image (21).png" alt="ANOMALOUS OBSERVATION DATA CAUSED BY MONTHLY CALIBRATION MANOUEVRES (COURESTY NASA FIRMS)" data-size="original">\
-_**(I**magery from NASA FIRMS )_
+&#xNAN;_**(I**magery from NASA FIRMS )_
 
 </details>
 
@@ -272,8 +256,8 @@ NASA FIRMS data should be acknowledged through the appropriate citation: See [ht
 
 [Tutorials on FIRMS](https://firms2.modaps.eosdis.nasa.gov/tutorials/) by NASA
 
-* [VIIRS](https://viirsland.gsfc.nasa.gov/PDF/VIIRS\_activefire\_User\_Guide.pdf) Active Fire User Guide (Updated July 2018)
-* [MODIS Collection 6 and 6.1 Version 1.0 ](https://modis-fire.umd.edu/files/MODIS\_C6\_C6.1\_Fire\_User\_Guide\_1.0.pdf)Active Fire User Guide (Updated May 2021)
+* [VIIRS](https://viirsland.gsfc.nasa.gov/PDF/VIIRS_activefire_User_Guide.pdf) Active Fire User Guide (Updated July 2018)
+* [MODIS Collection 6 and 6.1 Version 1.0 ](https://modis-fire.umd.edu/files/MODIS_C6_C6.1_Fire_User_Guide_1.0.pdf)Active Fire User Guide (Updated May 2021)
 
 [Fire Data Academy](https://firms.modaps.eosdis.nasa.gov/academy/) features examples of analyzing and visualizing fire data using Google Colaboratory (Colab), Jupyter Notebooks, and Python
 
@@ -303,4 +287,4 @@ NASA (North American Space Agency) via: Sentinel Hub and Copernicus Browser
 
 ***
 
-Sophie Tedling.
+Sophie Tedling:
