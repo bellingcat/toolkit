@@ -1,5 +1,7 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  Open source software for processing and analyzing images, easy data export,
+  huge plugin library.
 ---
 
 # ImageJ
@@ -10,7 +12,22 @@ https://example.com
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+ImageJ is a powerful, open-source image processing program, widely used in fields like biology, engineering, and open-source intelligence (OSINT). Developed initially for scientific analysis, ImageJ offers an extensive suite of tools for analyzing, processing, and measuring visual data. It is a versatile resource for researchers needing precision measurements or object counting.
+
+**Key Features for Counting and Measuring**
+
+1. **Object Counting**
+   * ImageJ can efficiently count objects in an image using tools like thresholding and particle analysis.
+   * Users can set parameters such as size, shape, and contrast to automate the counting process for diverse scenarios.
+2. **Measuring Dimensions**
+   * Tools like line and polygon measurement allow users to calculate distances, perimeters, and areas directly on images.
+   * Image calibration ensures measurements reflect real-world scales, critical for forensic and investigative purposes.
+3. **Batch Processing**
+   * ImageJ's macro capabilities enable repetitive tasks, such as counting objects in a series of images, to be automated, saving time in large-scale projects.
+
+### Example 1: Counting coloured dots
+
+
 
 ## Cost
 
@@ -22,11 +39,11 @@ https://example.com
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+runs even in a browser
 
 ## Limitations
 
@@ -54,4 +71,3 @@ https://example.com
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
