@@ -15,7 +15,7 @@ description: >-
 
 ## Description
 
-[Copernicus Browser](https://browser.dataspace.copernicus.eu/) and [EO Browser](https://apps.sentinel-hub.com/eo-browser) provide web-based GUIs to visualise imagery from the [Sentinel satellites](https://en.wikipedia.org/wiki/Copernicus\_Programme#Sentinel\_missions), and a range of other satellite data. Every workflow starts by choosing relevant datasets, searching by location (determined by zooming into the map), timespan, and optionally cloud cover, and plot these as an overlay onto a geographical area. Once data has been selected, the platform contains a toolkit to measure and visualise different features.
+[Copernicus Browser](https://browser.dataspace.copernicus.eu/) and [EO Browser](https://apps.sentinel-hub.com/eo-browser) provide web-based GUIs to visualise imagery from the [Sentinel satellites](https://en.wikipedia.org/wiki/Copernicus_Programme#Sentinel_missions), and a range of other satellite data. Every workflow starts by choosing relevant datasets, searching by location (determined by zooming into the map), timespan, and optionally cloud cover, and plot these as an overlay onto a geographical area. Once data has been selected, the platform contains a toolkit to measure and visualise different features.
 
 One convenient feature is the inclusion of imaging indices, including the [NDVI](https://eos.com/make-an-analysis/ndvi/) (Normalised Difference Vegetation Index) and [NDWI](https://eos.com/make-an-analysis/ndwi/) (Normalised Difference Water Index). These create false-colour images from information outside of the visible spectrum that allow for changes in vegetation coverage and water quality to be measured.
 
@@ -74,5 +74,5 @@ Planet Insights Platform (EO Browser) (US)
 
 | Page maintainer |
 | --------------- |
-| Agnes Cameron   |
+| Agnes Cameron.  |
 |                 |
