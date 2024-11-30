@@ -13,11 +13,7 @@ description: >-
 
 ## Description
 
-<div data-full-width="true">
-
-<figure><img src=".gitbook/assets/YandexMirrors2.gif" alt=""><figcaption><p>"<strong>MIRRORS" FEATURE IN YANDEX MAPS, SHOWING SERIES OF IMAGES TAGGED TO LOCATIONS UPLOADED BY A PEDESTRIAN &#x26; THE ABILITY TO 'PLAY' THEM IN SEQUENCE AS A JERKY VIDEO</strong></p></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src=".gitbook/assets/YandexMirrors2.gif" alt=""><figcaption><p>"<strong>MIRRORS" FEATURE IN YANDEX MAPS, SHOWING SERIES OF IMAGES TAGGED TO LOCATIONS UPLOADED BY A PEDESTRIAN &#x26; THE ABILITY TO 'PLAY' THEM IN SEQUENCE AS A JERKY VIDEO</strong></p></figcaption></figure></div>
 
 Yandex Maps is a mapping service provided on the Russian-owned integrated Yandex platform, which also offers services on Image Search, Video Search, Translation/Interpretation, Weather,... Its stated focus is primarily on cities (but remote areas seem covered to a good standard also), and also organisations. Its global data is generally stronger and more detailed around Russia, Eastern Europe and Asia, in contrast with Google's mapping tools, which are stronger in Western Europe and North America. Yandex Maps has a different interface from Google mapping tools, most noticeably:
 
@@ -164,5 +160,5 @@ The author's own checks in August 2024 showed Yandex using trackers.
 
 | Page maintainer |
 | --------------- |
-| Sophie Tedling. |
+| Sophie Tedling: |
 |                 |
