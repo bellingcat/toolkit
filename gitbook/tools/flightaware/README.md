@@ -164,13 +164,13 @@ The call sign is usually located primarily in two places. If looking at the flig
 
 <summary>REGISTRATION NUMBER/ TAIL NUMBER/ / N-NUMBER</summary>
 
-**Definition:** This number appears near [the tail of every aircraft. ](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons)This is sometimes called a [“Tail Number” or, in the United States, an “N-Number”. ](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)It is a unique number that tells you which country the aircraft [was registered](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking). This [guide](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) specifies that an aircraft's registration is similar to a car's license plate, assigned when registered in a specific country. This registration reflects the jurisdiction of the aircraft according to this [list](https://en.wikipedia.org/wiki/List_of_aircraft_registration_prefixes).&#x20;
+**Definition:** This number appears near [the tail of every aircraft (para. 6 of this guide). ](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)This is sometimes called a [“Tail Number” or, in the United States, an “N-Number”. ](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)It is a unique number that tells you which country the aircraft [was registered](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking). This [guide](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) specifies that an aircraft's registration is similar to a car's license plate, assigned when registered in a specific country. This registration reflects the jurisdiction of the aircraft according to this [list](https://en.wikipedia.org/wiki/List_of_aircraft_registration_prefixes).&#x20;
 
 **When to use call signs for open-source investigations:** If available, registration information can be helpful for finding clues about ownership of the aircraft. However, there are a few caveats:&#x20;
 
-&#x20;_**1:**_  [_**The registered owner is rarely the actual UBO**_ ](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking)_**(Ultimate Beneficial Owner - the person who profits or benefits from a corporate entity). It is rarely an individual but a company, trust, or charter/leasing company. In these cases, use additional sources to make the link.**_&#x20;
+&#x20;1:  [The registered owner is rarely the actual UBO ](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking)(Ultimate Beneficial Owner - the person who profits or benefits from a corporate entity). It is rarely an individual but a company, trust, or charter/leasing company. In these cases, use additional sources to make the link.&#x20;
 
-&#x20;_**2: Aircraft registration can change,**_ [_**especially when sold to a new owner.**_](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)\
+&#x20;2: Aircraft registration can change, [especially when sold to a new owner.](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)\
 
 
 </details>
