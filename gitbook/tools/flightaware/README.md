@@ -1,9 +1,9 @@
 ---
+icon: plane
 description: >-
   FlightAware is a global flight-tracking platform that provides real-time data
   on aircraft movements. It offers live tracking, historical data, and
   predictive analytics via its website and apps.
-icon: plane
 ---
 
 # FlightAware
@@ -24,12 +24,12 @@ TIP: Finding plane information requires a multi-source approach. Check more than
 NOTE: FlightAware is useful for tracking the following types of flights  (see a list of flight types in the filtering options box on the right hand side above the [live map](https://www.flightaware.com/live/map)):  [commercial flights](#user-content-fn-1)[^1], [business flights](#user-content-fn-2)[^2], [cargo flights](#user-content-fn-3)[^3], [general aviation flights](#user-content-fn-4)[^4], and MEDEVAC[^5]. However, take note that it honors requests to remove any aircraft if the owner asks for it as pointed out in this [planespotting guide by GIJN](https://gijn.org/resource/planespotting-an-updated-guide-to-tracking-aircraft-around-the-world/).
 {% endhint %}
 
-When used for open-source investigations, flight-tracking websites like FlightAware can assist in:&#x20;
+When used for open-source investigations, flight-tracking websites like FlightAware can assist in:
 
-* [Not only does it support real-time analysis, but it also contributes to entirely new narratives](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)&#x20;
-* [Monitor the movement of illegal goods](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons) (see also [here](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking))&#x20;
-* [Probe/scrutinize transit/travel patterns](https://www.theguardian.com/world/2022/aug/03/flight-trackers-flightradar24-ads-b-exchange) (see also [here](https://www.occrp.org/en/investigation/the-chefs-global-footprints))
-* FlightAware can also be used for geolocation and verification (see example below)
+* [Supporting real-time news analysis](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/), such as [Yevgeny Prigozhin’s plane crash](https://www.flightradar24.com/blog/russian-legacy-600-crashes-near-tver/)&#x20;
+* [Monitoring the movement of private jets as potential illicit assets ](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking)
+* [Probing/scrutinizing transit/travel patterns](https://www.theguardian.com/world/2022/aug/03/flight-trackers-flightradar24-ads-b-exchange) of high-profile individuals (see examples [here](https://www.occrp.org/en/investigation/the-chefs-global-footprints), and [here](https://www.nytimes.com/interactive/2022/06/17/world/europe/russia-private-jets.html?auth=login-google1tap\&login=google1tap))
+* FlightAware can also be used for geolocation and verification (an example will be provided below)
 
 ### Key Features
 
