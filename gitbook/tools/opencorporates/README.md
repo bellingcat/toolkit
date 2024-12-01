@@ -30,15 +30,7 @@ OpenCorporates provides a unified search of corporate and legal entity-level dat
 
 * Once you have located the entity of interest, click on it to see all the information associated with it. This might include registration / incorporation / dissolution dates, company registration number, status (active/inactive), jurisdiction, address, directors or officers and a link to the original source of information.
 
-<div>
-
-<figure><img src=".gitbook/assets/OC4.png" alt=""><figcaption><p>View of the company of interest</p></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/OC5.png" alt=""><figcaption><p>View of the company of interest</p></figcaption></figure>
-
-</div>
+<div><figure><img src=".gitbook/assets/OC4.png" alt=""><figcaption><p>View of the company of interest</p></figcaption></figure> <figure><img src=".gitbook/assets/OC5.png" alt=""><figcaption><p>View of the company of interest</p></figcaption></figure></div>
 
 2. **How to search for a Company Officer**
 
@@ -86,13 +78,15 @@ As this data is publicly accessible and from government sources, users should be
 
 Katherine de Tolly: [Following the Money: A Beginner’s Guide to Using the OpenCorporates API](https://www.bellingcat.com/resources/2023/08/24/following-the-money-a-beginners-guide-to-using-the-opencorporates-api/), Bellingcat.
 
-The Centre for Investigative Journalism: [CIJ Using OpenCorporates for Investigations](https://www.youtube.com/watch?v=G\_swgQEUGh8)
+The Centre for Investigative Journalism: [CIJ Using OpenCorporates for Investigations](https://www.youtube.com/watch?v=G_swgQEUGh8)
 
 OpenCorporates video guide on [how to search for an Officer](https://knowledge.opencorporates.com/knowledge-base/how-to-search-for-an-officer-video-guide/).
 
 OpenCorporates video guide on [how to search for a company](https://knowledge.opencorporates.com/knowledge-base/web-portal-onboarding/).
 
 OpenCorporates [glossary of terms](https://knowledge.opencorporates.com/knowledge-base/glossary-of-terms/).
+
+A [quick tip sheet](https://dataharvest.eu/wp-content/uploads/2019/06/opencorp-tip-sheet.pdf) by Dataharvest – The European Investigative Journalism Conference.
 
 ## Tool provider
 
