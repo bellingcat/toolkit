@@ -138,7 +138,7 @@ When doing flight tracking for investigations, it is essential to know what data
 
 <details>
 
-<summary>CALL SIGN</summary>
+<summary>CALL SIGN <em>(CLICK TO EXPAND)</em></summary>
 
 **Definition:**[ Call signs are used to identify specific flights/flight routes and for communication and identification in air traffic control.](https://skybrary.aero/articles/aircraft-call-sign) They are unique identifiers of an aircraft. They help differentiate each aircraft in the sky from one another. According to this Bellingcat[ guide](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/), private aircraft often use their registration number as their call sign. In contrast, commercial flights usually have call signs based on their specific routes.
 
@@ -162,7 +162,7 @@ The call sign is usually located primarily in two places. If looking at the flig
 
 <details>
 
-<summary>REGISTRATION NUMBER/ TAIL NUMBER/ / N-NUMBER</summary>
+<summary>REGISTRATION NUMBER/ TAIL NUMBER/ / N-NUMBER  (<em>CLICK TO EXPAND)</em></summary>
 
 **Definition:** This number appears near [the tail of every aircraft (para. 6 of this guide). ](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)This is sometimes called a [“Tail Number” or, in the United States, an “N-Number”. ](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)It is a unique number that tells you which country the aircraft [was registered](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking). This [guide](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) specifies that an aircraft's registration is similar to a car's license plate, assigned when registered in a specific country. This registration reflects the jurisdiction of the aircraft according to this [list](https://en.wikipedia.org/wiki/List_of_aircraft_registration_prefixes).&#x20;
 
@@ -191,7 +191,7 @@ NOTE #2: According to the [tool](https://www.flightaware.com/resources/registrat
 
 <details>
 
-<summary><strong>HEX CODE/ MODE-S CODE/ ICAO CODE</strong></summary>
+<summary><strong>HEX CODE/ MODE-S CODE/ ICAO CODE </strong><em><strong>(CLICK TO EXPAND)</strong></em></summary>
 
 **Definition:** A hex code is a unique ICAO (International Civil Aviation Organization) six-digit hexadecimal number assigned to an aircraft's transponder. This code serves as a digital identifier, allowing air traffic control and flight tracking systems to distinguish one aircraft from another [(p.4)](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons). When the plane is registered, it gets a unique code [called a hex code](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking). This hex code is associated with the plane’s ADS-B (Automatic Dependent Surveillance-Broadcast) [transponder](https://www.airservicesaustralia.com/about-us/projects/ads-b/how-ads-b-works/), which broadcasts unencrypted data about the plane’s position, altitude, and speed.&#x20;
 
@@ -213,7 +213,7 @@ NOTE: This website responds to [take-down requests](https://gijn.org/resource/pl
 
 <details>
 
-<summary>SERIAL NUMBER/ MANUFACTURER SERIAL NUMBER (MSN)</summary>
+<summary>SERIAL NUMBER/ MANUFACTURER SERIAL NUMBER (MSN)    <em>(CLICK TO EXPAND)</em></summary>
 
 **Definition:** A serial number is a unique code given to an aircraft by the manufacturer to identify it from other planes. It's like a fingerprint for that specific aircraft designated at the time of manufacture or [similar to a car’s VIN (vehicle Identification Number).](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) Serial numbers never change, unlike call signs and registration numbers. It is mandated by law (See [here](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-45), Section 14.13) to collectively ensure that aircraft can be monitored, maintained, and operated safely throughout their service life.
 
