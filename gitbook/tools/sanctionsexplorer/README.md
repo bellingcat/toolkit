@@ -28,27 +28,11 @@ Clicking on any of the Entity Names will open the profile for that specific enti
 
 * An example of what a profile for an organization looks like. The information includes current and previous names of a company of organizations, the date they were registered or incorporated with the relevant authorities in the country, possible addresses and the sanctions they are subject to.
 
-<div>
-
-<figure><img src=".gitbook/assets/SE3.png" alt=""><figcaption><p>Profile for Defense Engineering Solutions. Click to expand and view explanation notes.</p></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/SE4.png" alt=""><figcaption><p>Profile for Defense Engineering Solutions. Click to expand and view explanation notes.</p></figcaption></figure>
-
-</div>
+<div><figure><img src=".gitbook/assets/SE3.png" alt=""><figcaption><p>Profile for Defense Engineering Solutions. Click to expand and view explanation notes.</p></figcaption></figure> <figure><img src=".gitbook/assets/SE4.png" alt=""><figcaption><p>Profile for Defense Engineering Solutions. Click to expand and view explanation notes.</p></figcaption></figure></div>
 
 * An example of what a profile for an individual looks like. The information includes the full legal name of an individual including their aliases and variations of their name with different possible spellings, personal data like date and place of birth and the sanctions they are subject to.
 
-<div>
-
-<figure><img src=".gitbook/assets/SE5.png" alt=""><figcaption><p>Profile for Dmitry Lukashenko. Click to expand and view explanation notes.</p></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/SE6.png" alt=""><figcaption><p>Profile for Dmitry Lukashenko. Click to expand and view explanation notes.</p></figcaption></figure>
-
-</div>
+<div><figure><img src=".gitbook/assets/SE5.png" alt=""><figcaption><p>Profile for Dmitry Lukashenko. Click to expand and view explanation notes.</p></figcaption></figure> <figure><img src=".gitbook/assets/SE6.png" alt=""><figcaption><p>Profile for Dmitry Lukashenko. Click to expand and view explanation notes.</p></figcaption></figure></div>
 
 * An example of what a profile for a vessel looks like. The information includes the name of the vessel, the country responsible for it, its owner. However, information on vessels is quite limited and additional research is encouraged using other platforms such as [Marine Traffic](https://www.marinetraffic.com/).
 
@@ -56,15 +40,7 @@ Clicking on any of the Entity Names will open the profile for that specific enti
 
 * An example of what a profile for an aircraft looks like. The information includes the manufacure date, the model of the aircraft (this usually includes the name of manufacturer, but not always), the current and sometimes the previous [tail number](#user-content-fn-1)[^1], and the owner of the aircraft. Please note that to search for aircraft in Sanctions Explorer, you can use either the tail number, the name of the aircraft or the manufacturer (Airbus, Sikorsky, LockheedMartin, Bell Helicopter, Embraer, Bombardier to name a few), or the model (Phenom 300 - an Embraer-made business jet, CRJ100 - a Bombardier-made regional jet).
 
-<div>
-
-<figure><img src=".gitbook/assets/SE8.png" alt=""><figcaption><p>Profile for MSN 615 aircraft. Click to expand and view explanation notes.</p></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/SE9.png" alt=""><figcaption><p>Profile for MSN 615 aircraft. Click to expand and view explanation notes.</p></figcaption></figure>
-
-</div>
+<div><figure><img src=".gitbook/assets/SE8.png" alt=""><figcaption><p>Profile for MSN 615 aircraft. Click to expand and view explanation notes.</p></figcaption></figure> <figure><img src=".gitbook/assets/SE9.png" alt=""><figcaption><p>Profile for MSN 615 aircraft. Click to expand and view explanation notes.</p></figcaption></figure></div>
 
 * Sanctions Exlorer also has an [Analytics](https://sanctionsexplorer.org/analytics) section, where you can see statistics for the number of sanctions added over time, by type of entity (aircraft, vessel, individual, organization), the number of sanctions by authority, as well as an interactive map which shows the number of sanctioned entities year by year.&#x20;
 
@@ -75,6 +51,8 @@ Clicking on any of the Entity Names will open the profile for that specific enti
 * [x] Free
 * [ ] Partially Free
 * [ ] Paid
+
+Free to use on their website. However, SanctionsExplorer is available on [AWS Market Place](https://aws.amazon.com/marketplace/pp/prodview-3nb46stn6taok) for corporate use. It appears they offer all of their datasets for the price of USD 9,500 for one full year of usage plus updates to the datasets.&#x20;
 
 ## Level of difficulty
 
