@@ -35,7 +35,7 @@ When used for open-source investigations, flight-tracking websites like FlightAw
 
 ### SEARCH TAB
 
-Depending on what information a researcher already has, he/she can go to the main search tab. One can enter **a flight number, tail number, airport, city** (See description below).&#x20;
+Depending on what information a researcher already has, he/she can go to the main search tab. One can enter [**a flight number, tail number, airport, city**](https://pilotinstitute.com/tail-number-vs-call-sign-vs-flight-number/) (See detailed description below).&#x20;
 
 ### LIVE MAP
 
