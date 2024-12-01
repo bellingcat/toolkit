@@ -140,7 +140,7 @@ When doing flight tracking for investigations, it is essential to know what data
 
 <summary>CALL SIGN</summary>
 
-**Definition:** Call signs are used for communication and identification in air traffic control. [They are unique identifiers of an aircraft](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons). They help differentiate each aircraft in the sky from one another. According to this Bellingcat [guide](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/), private aircraft often use their registration number as their call sign. In contrast, commercial flights usually have call signs based on their specific routes.&#x20;
+**Definition:**[ Call signs are used to identify specific flights/flight routes and for communication and identification in air traffic control.](https://skybrary.aero/articles/aircraft-call-sign) They are unique identifiers of an aircraft. They help differentiate each aircraft in the sky from one another. According to this Bellingcat[ guide](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/), private aircraft often use their registration number as their call sign. In contrast, commercial flights usually have call signs based on their specific routes.
 
 According to this GIJN[ guide](https://gijn.org/resource/planespotting-an-updated-guide-to-tracking-aircraft-around-the-world/), “The call sign is more or less whatever the pilot decided to enter for that flight.” Commercial flights, on the other hand, will be the flight number or close to it, like DAL307 for Delta Airlines flight 307 from Honolulu to Minneapolis.
 
