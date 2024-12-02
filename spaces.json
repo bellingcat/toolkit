@@ -5574,5 +5574,27 @@
     "parent": "jQKvylm6WgaH5IFrlIMh",
     "revision": "AtfXtJQGZsBgK7VqP3lV",
     "defaultLevel": "inherit"
+  },
+  {
+    "object": "space",
+    "id": "GuSY215dIPiDTdN9vTEx",
+    "title": "Leak-Lookup",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-12-02T21:14:16.910Z",
+    "updatedAt": "2024-12-02T21:14:16.910Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/GuSY215dIPiDTdN9vTEx",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/GuSY215dIPiDTdN9vTEx/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "4jCdXQHaKbd8nJCdgzIL",
+    "defaultLevel": "inherit",
+    "permissions": {
+      "admin": true,
+      "edit": true
+    }
   }
 ]
