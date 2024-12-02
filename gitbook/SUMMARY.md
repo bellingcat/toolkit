@@ -168,3 +168,4 @@
   * [Pinpoint](tools/pinpoint/README.md)
   * [SkyFi](tools/skyfi/README.md)
   * [Who posted what?](tools/who-posted-what?/README.md)
+  * [Zotero](tools/zotero/README.md)
