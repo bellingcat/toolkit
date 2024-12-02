@@ -41,7 +41,7 @@ For Open Source Researchers, Distill.io can be an invaluable tool for:
   * Simplifies the process of identifying significant alterations.
 * **Scheduling and Frequency:**
   * Customizable check intervals, with paid plans offering more frequent monitoring.
-  * Important for time-sensitive investigations where prompt alerts are crucial.
+  * Useful for time-sensitive investigations where prompt alerts are crucial.
 
 #### **Additional Tips for OSINT Researchers**
 
