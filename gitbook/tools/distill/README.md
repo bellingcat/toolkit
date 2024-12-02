@@ -128,7 +128,7 @@ Distill (Director). (2023, May 26). _How to Use the Visual Selector in Distill_ 
 
 ## Tool provider
 
-**Distill.io by** Neemb LLC (Delaware)
+**Distill.io by** Neemb LLC (Delaware), U.S.
 
 * **Contact Information:** Available on their [Contact Us page](https://distill.io/docs/contact-us/)
 
