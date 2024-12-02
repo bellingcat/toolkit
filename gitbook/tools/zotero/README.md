@@ -123,7 +123,7 @@ Max, B. (2023, October 23). _Gefälschter BBC-Bericht: Bellingcat berichtete nic
 
 <figure><img src=".gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
-Bellingcat (Director). (2024, February 9). _Command Line Fundamentals: Bellingcat Tech Series_ \[Video recording]. [https://www.youtube.com/watch?v=B3gm-ud91v0](https://www.youtube.com/watch?v=B3gm-ud91v0)
+Bellingcat. (2024, February 9). _Command Line Fundamentals: Bellingcat Tech Series_ \[Video recording]. [https://www.youtube.com/watch?v=B3gm-ud91v0](https://www.youtube.com/watch?v=B3gm-ud91v0)
 
 **Find out what else it can archive!**
 
