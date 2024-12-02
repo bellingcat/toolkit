@@ -14,9 +14,9 @@ description: >-
 
 Distill.io is a website change monitoring tool that enables users to track changes on web pages and receive alerts via multiple channels, including email, SMS, and push notifications. It supports various types of content such as web pages, PDFs, JSON, Word documents, XML, feeds, uptime, and sitemaps. Available as a web app, browser extension, and mobile app, Distill.io allows users to monitor websites both locally and in the cloud.
 
-#### **Practical Applications for OSINT Researchers**
+#### **Practical Applications for Open Source Researchers**
 
-For Open-Source Intelligence (OSINT) researchers, Distill.io can be an invaluable tool for:
+For Open Source Researchers, Distill.io can be an invaluable tool for:
 
 * **Monitoring Target Websites:** Keep track of updates on websites related to investigations, such as changes in content, new postings, or removals.
 * **Tracking Social Media Profiles:** Monitor public social media pages or profiles for updates without the need to log into the platform.
