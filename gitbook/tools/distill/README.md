@@ -21,7 +21,7 @@ For Open Source Researchers, Distill.io can be an invaluable tool for:
 * **Monitoring Target Websites:** Keep track of updates on websites related to investigations, such as changes in content, new postings, or removals.
 * **Tracking Social Media Profiles:** Monitor public social media pages or profiles for updates without the need to log into the platform.
 * **Alerting on Keyword Changes:** Set up alerts for specific keywords or phrases appearing or disappearing from web pages, which can signal significant events.
-* **Watching Dynamic Content:** Use advanced selection tools to monitor content that changes dynamically, such as JavaScript-rendered pages or AJAX content.
+* **Watching Dynamic Content:** Use advanced selection tools to monitor content that changes dynamically, such as JavaScript-rendered pages.
 * **Archiving Web Page Changes:** Maintain a history of changes to a web page, which can be useful for documenting the evolution of information over time.
 * **Monitoring Hidden Elements:** Detect changes in hidden HTML elements or metadata that might not be immediately visible on the page.
 
@@ -30,7 +30,7 @@ For Open Source Researchers, Distill.io can be an invaluable tool for:
 * **Visual Selector Tool:**
   * Allows users to select specific parts of a web page to monitor.
   * Useful for focusing on relevant sections and ignoring irrelevant content.
-* **Regular Expressions (Regex):**
+* [**Regular Expressions**](https://en.wikipedia.org/wiki/Regular_expression) **(Regex):**
   * Enable advanced pattern matching to monitor specific text patterns.
   * Helpful for filtering and extracting specific data from complex pages.
 * **Content Extraction:**
@@ -46,17 +46,13 @@ For Open Source Researchers, Distill.io can be an invaluable tool for:
 #### **Additional Tips for OSINT Researchers**
 
 * **Combine with Other Tools:**
-  * Use Distill.io in conjunction with other OSINT tools for comprehensive analysis
-  * Integrate data from Distill.io with databases or visualization tools
+  * You can use Distill.io with other OSINT tools to integrate data from Distill.io with databases or visualization tools.
 * **Use Cloud Monitors for Reliability:**
-  * Cloud monitors run on Distill.io's servers, ensuring continuous monitoring even when your device is offline
-  * Essential for critical monitoring tasks where uptime is crucial
+  * One option is to run monitors on Distill.io's servers, ensuring continuous monitoring even when your device is offline. For monitoring tasks where information can change quickly this can be critical because uptime is constant.
 * **Leverage API Access:**
-  * Higher-tier plans may offer API access
-  * Useful for automating workflows and integrating monitoring data into custom applications
+  * The highest-tier plans offer API access, but lower-tier plans offer webhooks and similar automation tools like the possibility to run macros locally. That can help integrate monitoring data into custom applications.
 * **Monitor Authentication-Protected Pages:**
-  * Distill.io supports monitoring pages that require login
-  * Ensure compliance with terms of service and legal considerations when monitoring such content
+  * Distill.io supports monitoring pages that require login. This can ensure compliance with terms of service and legal considerations when monitoring such content.&#x20;
 
 ## Cost
 
