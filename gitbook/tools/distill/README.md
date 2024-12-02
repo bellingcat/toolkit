@@ -46,7 +46,7 @@ For Open Source Researchers, Distill.io can be an invaluable tool for:
 #### **Additional Tips for OSINT Researchers**
 
 * **Combine with Other Tools:**
-  * You can use Distill.io with other OSINT tools to integrate data from Distill.io with databases or visualization tools.
+  * You can use Distill.io with other open source research tools to integrate data from Distill.io with databases or visualization tools.
 * **Use Cloud Monitors for Reliability:**
   * One option is to run monitors on Distill.io's servers, ensuring continuous monitoring even when your device is offline. For monitoring tasks where information can change quickly this can be critical because uptime is constant.
 * **Leverage API Access:**
