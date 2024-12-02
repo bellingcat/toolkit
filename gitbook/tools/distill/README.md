@@ -109,7 +109,7 @@ For Open Source Researchers, Distill.io can be an invaluable tool for:
 ## Ethical Considerations
 
 * **Privacy and Legal Compliance:**
-  * Ensure monitoring activities comply with website terms of service
+  * Keep the website's terms of service in mind when monitoring website changes
   * Be aware of legal regulations regarding automated access or scraping
 * **Responsible Use:**
   * Avoid overloading target websites with excessive requests
