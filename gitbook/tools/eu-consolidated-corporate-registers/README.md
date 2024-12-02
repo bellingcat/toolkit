@@ -24,7 +24,7 @@ Here is the same company's listing on the French register:&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2024-11-27 at 10.12.06.png" alt=""><figcaption><p>Top of the French register page for an example company</p></figcaption></figure>
 
-Note that the French site provides data that the EU register does not,  like the NAF code (which classifies business activities), many more documents than you can order on the EU register, and related companies. The leader data also includes other companies in which that person is involved.
+Note that the French site provides data that the EU register does not, like the [NAF code](https://entreprendre.service-public.fr/vosdroits/F33050) (which classifies business activities), many more documents than you can order on the EU register, and related companies. The leader data also includes other companies in which that person is involved.
 
 So the EU register could be a good place to start a search for a company that you know is in Europe, but you're not sure which country. Then go to the national register to see if you can get more information.
 
