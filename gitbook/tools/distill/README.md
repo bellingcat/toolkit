@@ -64,15 +64,13 @@ For Open-Source Intelligence (OSINT) researchers, Distill.io can be an invaluabl
 * [x] Partially Free
 * [ ] Paid
 
-<!---->
-
-* **Free Plan:**
+- **Free Plan:**
   * Up to 25 local monitors
   * 5 cloud monitors
   * 1,000 checks per month
   * 30 email alerts
   * **Limitations:** Maximum check interval of 6 hours for cloud monitors
-* **Paid Plans:**
+- **Paid Plans:**
   * **Starter Plan:** Increased limits and faster check frequencies (e.g., every 10 minutes)
   * **Pro Plan:** More monitors, higher check frequency (e.g., every 5 minutes), SMS alerts
   * **Enterprise Plan:** Custom solutions with the highest limits and priority support
@@ -130,11 +128,11 @@ _What is Distill? | Distill_. (2023). Retrieved August 1, 2024, from [https://di
 
 _Local Monitor vs. Cloud Monitor | Distill_. (2023). Retrieved August 1, 2024, from [https://distill.io/docs/web-monitor/cloud-local-monitors/](https://distill.io/docs/web-monitor/cloud-local-monitors/)
 
-Distill (Director). (2023, May 26). _How to Use the Visual Selector in Distill_ \[Video recording]. [https://www.youtube.com/watch?v=MY1DjyHqy\_o](https://www.youtube.com/watch?v=MY1DjyHqy\_o)
+Distill (Director). (2023, May 26). _How to Use the Visual Selector in Distill_ \[Video recording]. [https://www.youtube.com/watch?v=MY1DjyHqy\_o](https://www.youtube.com/watch?v=MY1DjyHqy_o)
 
 ## Tool provider
 
-**Distill.io**
+**Distill.io by** Neemb LLC (Delaware)
 
 * **Contact Information:** Available on their [Contact Us page](https://distill.io/docs/contact-us/)
 
