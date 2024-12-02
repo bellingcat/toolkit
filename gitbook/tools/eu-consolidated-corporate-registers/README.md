@@ -28,7 +28,7 @@ Note that the French site provides data that the EU register does not, like the 
 
 So the EU register could be a good place to start a search for a company that you know is in Europe, but you're not sure which country. Then go to the national register to see if you can get more information.
 
-The portal has greater country coverage than OpenCorporates, which has archived data for many European countries (see the map on [this page](https://knowledge.opencorporates.com/knowledge-base/overview/)).
+The portal has greater country coverage than [OpenCorporates](https://bellingcat.gitbook.io/toolkit/more/all-tools/opencorporates), which has archived data for many European countries (see the map on [this page](https://knowledge.opencorporates.com/knowledge-base/overview/)).
 
 The portal includes [links](https://e-justice.europa.eu/489/EN/business_registers__search_for_a_company_in_the_eu?EUROPEAN_UNION\&action=maximize\&idSubpage=1\&member=1) to all the national registers.
 
