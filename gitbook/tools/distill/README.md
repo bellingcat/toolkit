@@ -25,7 +25,7 @@ For Open Source Researchers, Distill.io can be an invaluable tool for:
 * **Archiving Web Page Changes:** Maintain a history of changes to a web page, which can be useful for documenting the evolution of information over time.
 * **Monitoring Hidden Elements:** Detect changes in hidden HTML elements or metadata that might not be immediately visible on the page.
 
-#### **Key Features Beneficial for OSINT**
+#### **Key Features Beneficial for Open Source Researchers**
 
 * **Visual Selector Tool:**
   * Allows users to select specific parts of a web page to monitor.
