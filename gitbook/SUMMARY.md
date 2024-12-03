@@ -170,3 +170,4 @@
   * [Who posted what?](tools/who-posted-what?/README.md)
   * [Zotero](tools/zotero/README.md)
   * [Distill.io](tools/distill/README.md)
+  * [Quick geolocation search](tools/quick-geolocation-search/README.md)
