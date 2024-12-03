@@ -5656,5 +5656,35 @@
       "merge": true,
       "review": true
     }
+  },
+  {
+    "object": "space",
+    "id": "phXlTXmmLoyHn53dQUMp",
+    "title": "xIFr",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-12-03T12:36:12.917Z",
+    "updatedAt": "2024-12-03T12:36:12.917Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/phXlTXmmLoyHn53dQUMp",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/phXlTXmmLoyHn53dQUMp/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "ishACBrYVO8uubEJnwsH",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "access": true,
+      "admin": true,
+      "edit": true,
+      "comment": true,
+      "merge": true,
+      "review": true
+    }
   }
 ]
