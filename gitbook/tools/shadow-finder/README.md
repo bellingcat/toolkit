@@ -13,9 +13,9 @@ https://colab.research.google.com/github/Bellingcat/ShadowFinder/blob/main/Shado
 
 ## Description
 
-<figure><img src=".gitbook/assets/Screenshot.JPG" alt=""><figcaption><p>THE SHADOW &#x26; OBJECT MEASURED CAN ONLY LIE SOMEWHERE ON THE BRIGHT CIRCLE ON THIS MAP</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot (1).JPG" alt=""><figcaption><p><strong>THE SHADOW &#x26; OBJECT MEASURED CAN ONLY LIE SOMEWHERE ON THE BRIGHT CIRCLE ON THIS MAP</strong></p></figcaption></figure>
 
-Enter either shadow length and object height, (or, instead, the angle of elevation of the sun) for a research source image, then also the date and time of the image, and see the potential locations at which such a shadow could be created for that point in time as the bright area (circle) on the world map.
+Enter shadow length and object height, (or, instead, the angle of elevation of the sun) for a research source image, then also the date and time of the image, and see the potential locations at which such a shadow could be created for that point in time as the bright area (circle) on the world map.
 
 {% hint style="info" %}
 Shadow Finder is an open source app on GitBook, which requires users to have a (free) GitHub account and to follow instructions on how to run the app.
@@ -30,19 +30,22 @@ Shadow Finder needs the date and time of the source image containing the shadow 
 <summary>Step by step instructions for running Shadow Finder [click the arrow]...</summary>
 
 1. Sign up for a GitHub account if you don't already have one.
-2. Log in to GitHub on a browser and type "Shadow Finder" in the search bar at the top of the Home page and press the search button.
+2. Log in to GitHub on a browser and type "Shadow Finder" in the search bar at the top of the Home page and press the Search button.
 3. From the list which the search returns, select the "Shadow Finder" tool from Bellingcat with left mouse click:
 
-<img src=".gitbook/assets/image.png" alt="" data-size="original">
+<img src=".gitbook/assets/image (2).png" alt="" data-size="original">
 
-4. Scroll down the ShadowFinder page to README section and click the bright orange button labelled "TRY IT ON COLAB". This launches ShadowFinder in an easy access environment called Colab.
-5.  Scroll down to enter your shadow measurement details into the app. Input EITHER&#x20;
+4. Scroll down the ShadowFinder page to README section and click the bright orange button labelled "TRY IT ON COLAB". This launches ShadowFinder in an easy-access environment called Colab.
 
-    1. both object height and shadow length (using the same units)&#x20;
+![](.gitbook/assets/image.png)
 
-    OR&#x20;
+5. Scroll down to enter your shadow measurement details into the app. Input EITHER&#x20;
 
-    &#x20;b.  the elevation angle of the sun in degrees
+a. both object height and shadow length (using the same units)&#x20;
+
+OR&#x20;
+
+&#x20;b.  the elevation angle of the sun in degrees
 
 <img src=".gitbook/assets/shadowdetails.JPG" alt="" data-size="original">
 
@@ -50,16 +53,16 @@ Shadow Finder needs the date and time of the source image containing the shadow 
 
 <img src=".gitbook/assets/dateandtime.JPG" alt="" data-size="original">
 
-7. Click the dark Right Arrow button in the white circle in the left margin to Run the tool, as instructed by the sentence "Click to find possible locations that match the below information". \[The white arrow on the square blue background is \*not\* a button you can press!]
+7. Click the dark Right Arrow button in the white circle in the left margin to Run the tool, as instructed by the sentence "Click to find possible locations that match the below information". \[The white Left arrow on the square blue background is \*not\* a button you can press!]
 
-<img src=".gitbook/assets/image (2).png" alt="" data-size="original">
+<img src=".gitbook/assets/image (2) (1).png" alt="" data-size="original">
 
 8. If you get this warning message, click the "Run anyway" button if you're happy that [the code isn't abusing your privacy](#user-content-fn-4)[^4].
 
 <img src=".gitbook/assets/Warning message.JPG" alt="" data-size="original">
 
-9. Be aware that the code may not always run instantaneously and could 'queue' for a brief time. The elapsed run time will be shown whilst executing the code and the total time taken displayed upon completion next to the Run arrow button. The output takes the form of a world map (see above) showing all possible points satisfying the input conditions on date, time, object height and shadow length (the circular [locus](https://www.wordnik.com/words/locus)).
-10. Change the input values and re-run as required.
+9. Be aware that the code may not always run instantaneously and could 'queue' for a brief time. The elapsed run time will be shown whilst executing the code and the total time taken displayed upon completion next to the Run arrow button. The output takes the form of a world map (see top of page) showing all possible points satisfying the input conditions on date, time, object height and shadow length (the circular [locus](https://www.wordnik.com/words/locus)).
+10. Change the input values at will and re-run as required.
 
 </details>
 
@@ -77,27 +80,48 @@ The length of the shadow fed into Shadow Finder can only be measured directly fr
 
 ### The Interface <a href="#use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see" id="use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see"></a>
 
-### Use Cases for Shadow Finder with Input Data, Output Data and Data Input Options...(Click each tab to see further information) <a href="#use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see" id="use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see"></a>
+This is what the Shadow Finder page looks like on GitHub, before running in Colab:
 
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>THE SHADOW FINDER PAGE ON GITHUB. CODE CAN BE VIEWED, AND ALSO RUN FROM THE ORANGE 'TRY IT ON COLAB' BUTTON. (THERE ARE MULTIPLE ALTERNATIVE ROUTES TO RUNNING THE CODE)</p></figcaption></figure>
 
+### Shadow Finder for Open Source Research: Use Cases, Data Input, Shadow Finder Outputs, How to Enter Data... (Click each of the four tabs for more detail)
 
 {% tabs %}
-{% tab title="INPUT DATA" %}
+{% tab title="Input Data" %}
+* Date
+* Time
+* EITHER
 
+&#x20;          Object and Shadow lengths
+
+&#x20;      OR
+
+&#x20;         Angle of sun elevation
 {% endtab %}
 
-{% tab title="OUTPUT DATA" %}
-
+{% tab title="Shadow Finder Output Data" %}
+The [locus](https://www.wordnik.com/words/locus) or path of points (in this case, a circle) which satisfy the input criteria, drawn on a map of the world. This shows all possible locations where such a shadow could have been observed on that date at that time. Of course, the shadow would have a different orientation (azimuth angle) at different locations along the locus.
 {% endtab %}
 
 {% tab title="USE CASES" %}
-
+* Given a photograph containing an object and its shadow at a known date and time, find the possible locations at which this could be observable
+* Given the angle of elevation of the sun at a known dat and time, find the possible locations at which this could be observable
+* Elimination of a potential geolocation of an image dependent upon the shadows it contains, i.e. rule out a potential location because it doesn't lie on the Shadow Finder locus for feasible dates and times.
 {% endtab %}
 
-{% tab title="INPUT DATA OPTIONS" %}
-
+{% tab title="Data Input Options" %}
+Data can only be input as numeric values into the text input boxes in Shadow Finder running in Colab.
 {% endtab %}
 {% endtabs %}
+
+The output map appears at the bottom of the page when Shadow Finder code has been run in Colab. Compare the Shadow Finder output for a given date and time with [a map showing the world's daylight, darkness and sun and moon positions](https://www.timeanddate.com/worldclock/sunearth.html?month=02\&day=29\&year=2024\&hour=12\&min=00\&sec=0\&n=%3A\&ntxt=\&earth=0) for the same point in time:
+
+<figure><img src=".gitbook/assets/Screenshot.JPG" alt=""><figcaption><p><strong>SHADOW FINDER MAP OUTPUT FOR NOON ON 29/2/24 WHERE THE BRIGHT RING LOCATES THE PLACES WHERE OBJECTS CAST SHADOWS 80% OF THEIR HEIGHT</strong></p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/comparison sun location.JPG" alt=""><figcaption><p><strong>TIME &#x26; DATE MAP FOR NOON ON 29/2/24  WITH SUN &#x26; MOON POSITIONS</strong></p></figcaption></figure>
+
+* The centre of the world map is in daylight on both maps, with either side in darkness over the Pacific Ocean and (roughly) the Arctic Circle.
+* The sun is above the Atlantic Ocean to the west of Central Africa in both maps, with the locus of the Shadow Finder map centering on the location of the sun in the "Time and Date" website map.
 
 ## Cost
 
@@ -105,11 +129,11 @@ The length of the shadow fed into Shadow Finder can only be measured directly fr
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>4</td></tr></tbody></table>
+
+Data input is remarkably simple, as is running the tool IFF the user is familiar with GitHub. There is some theoretical understanding of the relationship between sun position, date and time required to use the tool effectively.
 
 ## Requirements
 
