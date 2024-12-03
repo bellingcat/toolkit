@@ -1,16 +1,20 @@
 ---
-description: A brief one line description of this tool
+description: Tracking tool for data on environmental and wildlife crime cases worldwide.
 ---
 
 # WildEye
 
 ## URL
 
-https://example.com
+[https://global.wildeye.oxpeckers.org/](https://global.wildeye.oxpeckers.org/)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+This tool allows you to search for seizures, arrests, court cases and convictions related to the environment, wildlife trade and trade in wildlife-related goods worldwide. It contains five versions: #WildEye Global, #WildEye Europe, #WildEye Asia, #WildEye Southern Africa and #WildEye East Africa. You can search in the particular region you are interested in or all of them. Using a keyword of your choice and search operators if you need them, you will get results located on a map, indicating where each event took place. You can view the names, place of arrest/seizure, dates, articles, route, court case numbers, charges, sentences, among other features of each case. You can also subscribe to receive updates on cases you find interesting and the site will notify you by email.
+
+For example, if you search the word “donkeys,” you will get all cases worldwide (or by region if you choose to search the other four versions available) involving this species, including cases where donkeys were found along with other species or commodities. This is very useful for cross-investigations.
+
+It is possible to contribute and add data to this tool by submitting this [form](https://docs.google.com/forms/d/1ZMKUz4TPofiGHgo04Qk2SSn6qu0VOKruAhsCtKD251Q/viewform?edit_requested=true). You can also download or request the raw [data](https://oxpeckers.org/get-the-data/).
 
 ## Cost
 
@@ -18,40 +22,41 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+None.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+The tool has limited information on cases in Latin America.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+It uses information from reporters and unofficial media as sources, which could result in ethical dilemmas depending on the investigation and the policies surrounding it.
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+Guide for journalists: [https://oxpeckers.org/guide-for-journalists/](https://oxpeckers.org/guide-for-journalists/)
+
+How to use: [https://oxpeckers.org/how-to-use-wildeye/](https://oxpeckers.org/how-to-use-wildeye/)&#x20;
+
+[https://www.youtube.com/watch?v=AgXSj3UjZYc](https://www.youtube.com/watch?v=AgXSj3UjZYc)
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Oxpeckers Center for Investigative Environmental Journalism
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer |
+| --------------- |
+| Lieth Carrillo  |
+|                 |
