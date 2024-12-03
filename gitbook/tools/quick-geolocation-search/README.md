@@ -30,7 +30,7 @@ Quick Geolocation Search also features **tools** that lets users "[draw on map a
 
 
 
-Cost
+## Cost
 
 * [x] Free
 * [ ] Partially Free
