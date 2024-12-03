@@ -40,11 +40,15 @@ Shadow Finder needs the date and time of the source image containing the shadow 
 
 <img src=".gitbook/assets/shadowdetails.JPG" alt="" data-size="original">
 
-6. and then enter the date, time (and [time zone](https://en.wikipedia.org/wiki/Time\_zone) you are using:
+6. and then enter the date, time (and [time zone](https://en.wikipedia.org/wiki/Time_zone) you are using):
 
 <img src=".gitbook/assets/dateandtime.JPG" alt="" data-size="original">
 
-4.
+7. Click the dark right arrow button in the white circle in the left margin to run the tool, as instructed by the sentence "Click to find possible locations that match the below information". \[The white arrow on the square blue background is \*not\* a button you can press!]
+
+<img src=".gitbook/assets/image (2).png" alt="" data-size="original">
+
+
 
 </details>
 
@@ -90,7 +94,7 @@ The length of the shadow fed into Shadow Finder can only be measured directly fr
 
 ## Guides and articles
 
-[https://www.bellingcat.com/resources/2024/08/22/shadow-geolocate-geolocation-locate-image-tool-open-source-bellingcat-measure/?utm\_source=discord](https://www.bellingcat.com/resources/2024/08/22/shadow-geolocate-geolocation-locate-image-tool-open-source-bellingcat-measure/?utm\_source=discord)
+[https://www.bellingcat.com/resources/2024/08/22/shadow-geolocate-geolocation-locate-image-tool-open-source-bellingcat-measure/?utm\_source=discord](https://www.bellingcat.com/resources/2024/08/22/shadow-geolocate-geolocation-locate-image-tool-open-source-bellingcat-measure/?utm_source=discord)
 
 ## Tool provider
 
