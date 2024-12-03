@@ -26,7 +26,7 @@ The **Satellite** maps section features [Sentinel Hub also known as Copernicus B
 
 [Marine Traffic](https://www.marinetraffic.com/en/ais/home/centerx:2.514/centery:48.336/zoom:13) in the **Transport** section, maps and tracks the positions of shipping vessels across the globe.&#x20;
 
-Quick Geolocation Search also features **tools** that lets users "[draw on map and share (example)](https://gribrouillon.fr/?sid=F6wMVp7o56#10/48.2100/2.2800)" the location of your choice.
+Quick Geolocation Search also features **tools** that lets users "[draw on map and share](https://gribrouillon.fr/?sid=F6wMVp7o56#10/48.2100/2.2800)" the location of your choice.
 
 
 
