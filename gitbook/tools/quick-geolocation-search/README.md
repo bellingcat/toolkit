@@ -20,13 +20,13 @@ Other categories to explore are History, Nature, Satellite, Transport, Social Me
 
 PastVu, under the **History** maps category, for instance, allows users to explore historical photos from 1886 to 2000 displayed on an interactive map, from locations across the globe.
 
-Some maps from the **Nature** category are: Light Pollution Map, Shadow Map, SunCal, and FIRMS. The [Light Pollution Map](https://www.lightpollutionmap.info/help.html) “displays light pollution related content over Microsoft Bing base layers (road and hybrid Bing maps).” Shadow Map lets a user visualize sunlight and shadows in a 3D setting at any point in time and place. SunCal visualizes the sun’s path at any date and time for a given location. See more about SunCalc [here](https://bellingcat.gitbook.io/toolkit/more/all-tools/suncalc). [FIRMS by NASA](https://bellingcat.gitbook.io/toolkit/more/all-tools/nasa-firms) lets users explore an [archive](https://firms.modaps.eosdis.nasa.gov/map/#d:2024-11-12..2024-11-18;@2.22,48.14,11.48z) of “global active fire detections from MODIS and VIIRS.”
+Some maps from the **Nature** category are: Light Pollution Map, Shadow Map, SunCal, and FIRMS. The [Light Pollution Map](https://www.lightpollutionmap.info/help.html) “displays light pollution related content over Microsoft Bing base layers (road and hybrid Bing maps).” Shadow Map lets a user visualize sunlight and shadows in a 3D setting at any point in time and place. SunCal visualizes the sun’s path at any date and time for a given location. See more about SunCalc [here](https://bellingcat.gitbook.io/toolkit/more/all-tools/suncalc). [FIRMS by NASA](https://bellingcat.gitbook.io/toolkit/more/all-tools/nasa-firms) lets users explore active fire data.
 
-The **Satellite** maps section features Sentinel Hub also known as Copernicus Browser, and Virtual Globetrotting. Both can be used for exploring satellite imagery from across the globe. With Virtual Globetrotting one can also view high-resolution imagery of celebrities’ houses, landmarks, and much more!
+The **Satellite** maps section features [Sentinel Hub also known as Copernicus Browser](https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground), and Virtual Globetrotting. Both can be used for exploring satellite imagery from across the globe. Virtual Globetrotting can be used to view high-resolution imagery of landmarks, and much more!
 
-[Marine Traffic](https://www.marinetraffic.com/en/ais/home/centerx:2.514/centery:48.336/zoom:13) under **Transport** section, maps and tracks the positions of shipping vessels across the globe.&#x20;
+[Marine Traffic](https://www.marinetraffic.com/en/ais/home/centerx:2.514/centery:48.336/zoom:13) in the **Transport** section, maps and tracks the positions of shipping vessels across the globe.&#x20;
 
-Quick Geolocation Search also features **tools** that lets users to "[draw on map and share](https://gribrouillon.fr/?sid=F6wMVp7o56#10/48.2100/2.2800)" on the location of your choice.
+Quick Geolocation Search also features **tools** that lets users "[draw on map and share](https://gribrouillon.fr/?sid=F6wMVp7o56#10/48.2100/2.2800)" the location of your choice.
 
 
 
