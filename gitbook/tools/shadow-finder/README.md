@@ -44,11 +44,13 @@ Shadow Finder needs the date and time of the source image containing the shadow 
 
 <img src=".gitbook/assets/dateandtime.JPG" alt="" data-size="original">
 
-7. Click the dark right arrow button in the white circle in the left margin to run the tool, as instructed by the sentence "Click to find possible locations that match the below information". \[The white arrow on the square blue background is \*not\* a button you can press!]
+7. Click the dark Right Arrow button in the white circle in the left margin to run the tool, as instructed by the sentence "Click to find possible locations that match the below information". \[The white arrow on the square blue background is \*not\* a button you can press!]
 
 <img src=".gitbook/assets/image (2).png" alt="" data-size="original">
 
+8. If you get this warning message, click the "Run anyway" button if you're happy that [the code isn't abusing your privacy](#user-content-fn-2)[^2].
 
+<img src=".gitbook/assets/Warning message.JPG" alt="" data-size="original">
 
 </details>
 
@@ -112,3 +114,5 @@ Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen
 |                 |
 
 [^1]: EXIF data can contain non-visual information about an image, e.g. type of camera and lens, date and time the image was taken, location at which it was taken,...
+
+[^2]: You can view the code by clicking on "Show code" at the bottom of the section under "time type:"
