@@ -5596,5 +5596,35 @@
       "admin": true,
       "edit": true
     }
+  },
+  {
+    "object": "space",
+    "id": "TuKRGryMycPNEpBJUH7g",
+    "title": "Telemetry",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-12-03T11:35:41.071Z",
+    "updatedAt": "2024-12-03T11:35:41.071Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/TuKRGryMycPNEpBJUH7g",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/TuKRGryMycPNEpBJUH7g/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "zGRK1ULM6YB38Gvb68mA",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "access": true,
+      "admin": true,
+      "edit": true,
+      "comment": true,
+      "merge": true,
+      "review": true
+    }
   }
 ]
