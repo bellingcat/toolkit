@@ -5626,5 +5626,35 @@
       "merge": true,
       "review": true
     }
+  },
+  {
+    "object": "space",
+    "id": "sRIyQ8LKf4zvhhZJ0dyc",
+    "title": "NeutrOSINT",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-12-03T12:25:01.042Z",
+    "updatedAt": "2024-12-03T12:25:01.042Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/sRIyQ8LKf4zvhhZJ0dyc",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/sRIyQ8LKf4zvhhZJ0dyc/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "47Eu4sXI463utKTtJuJo",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "access": true,
+      "admin": true,
+      "edit": true,
+      "comment": true,
+      "merge": true,
+      "review": true
+    }
   }
 ]
