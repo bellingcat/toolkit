@@ -99,19 +99,7 @@ Uwazi has been employed in documenting war crimes, managing legal evidence, and 
 
 You can view the full showcase [here](https://uwazi.io/en/page/k5htkcauq7i/showcase).
 
-<div>
-
-<figure><img src=".gitbook/assets/Screenshot 2024-09-25 115523.png" alt=""><figcaption><p>Location Options</p></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/Screenshot 2024-09-25 115546.png" alt=""><figcaption><p>Relationships</p></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/Screenshot 2024-09-25 115606.png" alt=""><figcaption><p>Template Edit</p></figcaption></figure>
-
-</div>
+<div><figure><img src=".gitbook/assets/Screenshot 2024-09-25 115523.png" alt=""><figcaption><p>Location Options</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2024-09-25 115546.png" alt=""><figcaption><p>Relationships</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2024-09-25 115606.png" alt=""><figcaption><p>Template Edit</p></figcaption></figure></div>
 
 ## Tool provider
 
@@ -123,7 +111,7 @@ You can view the full showcase [here](https://uwazi.io/en/page/k5htkcauq7i/showc
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-Uwazi uses cookies on its websites and applications to improve functionality, track usage statistics, facilitate navigation, and enable social media sharing. First-party and third-party cookies are used, including session cookies, persistent cookies, and pixel tags. Users can control cookies through their browser settings, but disabling them may limit functionality. Service providers like WordPress, Google Analytics, and Facebook also use cookies on Uwazi platforms.
+Uwazi uses cookies on its websites and applications to improve functionality, track usage statistics (Google Analytics), facilitate navigation, and enable social media sharing. First-party and third-party cookies are used, including session cookies, persistent cookies, and pixel tags. Users can control cookies through their browser settings, but disabling them may limit functionality. This would for example limit the ability of embedded posts or integration of content from, for example WordPress, Matomo Analytics Facebook, YouTube, LinkedIn, LimeSurvey, or GitHub. Their dedicated [cookie policy ](https://uwazi.io/page/sg0hbnvot3l/cookies-policy)page explains their use of cookies in detail.&#x20;
 
 | Page maintainer                       |
 | ------------------------------------- |
