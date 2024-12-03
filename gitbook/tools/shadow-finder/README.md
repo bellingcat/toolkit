@@ -79,6 +79,26 @@ The length of the shadow fed into Shadow Finder can only be measured directly fr
 
 ### Use Cases for Shadow Finder with Input Data, Output Data and Data Input Options...(Click each tab to see further information) <a href="#use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see" id="use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see"></a>
 
+
+
+{% tabs %}
+{% tab title="INPUT DATA" %}
+
+{% endtab %}
+
+{% tab title="OUTPUT DATA" %}
+
+{% endtab %}
+
+{% tab title="USE CASES" %}
+
+{% endtab %}
+
+{% tab title="INPUT DATA OPTIONS" %}
+
+{% endtab %}
+{% endtabs %}
+
 ## Cost
 
 * [x] Free
