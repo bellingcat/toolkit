@@ -13,7 +13,7 @@ https://colab.research.google.com/github/Bellingcat/ShadowFinder/blob/main/Shado
 
 ## Description
 
-<figure><img src=".gitbook/assets/Screenshot.JPG" alt=""><figcaption><p>THE SHADOW AND OBJECT MEASURED CAN ONLY LIE SOMEWHERE ON THE BRIGHT CIRCLE</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot.JPG" alt=""><figcaption><p>THE SHADOW &#x26; OBJECT MEASURED CAN ONLY LIE SOMEWHERE ON THE BRIGHT CIRCLE ON THIS MAP</p></figcaption></figure>
 
 Enter either shadow length and object height, (or, instead, the angle of elevation of the sun) for a research source image, then also the date and time of the image, and see the potential locations at which such a shadow could be created for that point in time as the bright area (circle) on the world map.
 
@@ -22,7 +22,7 @@ Shadow Finder is an open source app on GitBook, which requires users to have a (
 {% endhint %}
 
 {% hint style="danger" %}
-Shadow Finder needs the date and time of the source image containing the shadow to be able to generate potential locations. This is not always available, particularly as social media sites usually remove this type of metadata (called [ExIf data](#user-content-fn-1)[^1]). Researchers also need to take care that the time and date an image is posted online is not often the same as when it was taken. HOWEVER Shadow Finder may still be useful asa "What If?" tool to exclude&#x20;
+Shadow Finder needs the date and time of the source image containing the shadow to be able to generate potential locations. This is not always available, particularly as social media sites usually remove this type of metadata (called [ExIf data](#user-content-fn-1)[^1]). Researchers also need to take care that the time and date an image is posted online is not often the same as when it was taken. HOWEVER Shadow Finder may still be useful as a "What If?" tool to exclude potential locations.
 {% endhint %}
 
 <details>
@@ -36,21 +36,30 @@ Shadow Finder needs the date and time of the source image containing the shadow 
 <img src=".gitbook/assets/image.png" alt="" data-size="original">
 
 4. Scroll down the ShadowFinder page to README section and click the bright orange button labelled "TRY IT ON COLAB". This launches ShadowFinder in an easy access environment called Colab.
-5. Scroll down to enter your shadow measurement details into the app. Input either object height and shadow length (using the same units) OR the elevation angle of the sun in degrees
+5.  Scroll down to enter your shadow measurement details into the app. Input EITHER&#x20;
+
+    1. both object height and shadow length (using the same units)&#x20;
+
+    OR&#x20;
+
+    &#x20;b.  the elevation angle of the sun in degrees
 
 <img src=".gitbook/assets/shadowdetails.JPG" alt="" data-size="original">
 
-6. and then enter the date, time (and [time zone](https://en.wikipedia.org/wiki/Time_zone) you are using):
+6. and then enter the date[^2], time[^3] (and [time zone](https://en.wikipedia.org/wiki/Time_zone) you are using):
 
 <img src=".gitbook/assets/dateandtime.JPG" alt="" data-size="original">
 
-7. Click the dark Right Arrow button in the white circle in the left margin to run the tool, as instructed by the sentence "Click to find possible locations that match the below information". \[The white arrow on the square blue background is \*not\* a button you can press!]
+7. Click the dark Right Arrow button in the white circle in the left margin to Run the tool, as instructed by the sentence "Click to find possible locations that match the below information". \[The white arrow on the square blue background is \*not\* a button you can press!]
 
 <img src=".gitbook/assets/image (2).png" alt="" data-size="original">
 
-8. If you get this warning message, click the "Run anyway" button if you're happy that [the code isn't abusing your privacy](#user-content-fn-2)[^2].
+8. If you get this warning message, click the "Run anyway" button if you're happy that [the code isn't abusing your privacy](#user-content-fn-4)[^4].
 
 <img src=".gitbook/assets/Warning message.JPG" alt="" data-size="original">
+
+9. Be aware that the code may not always run instantaneously and could 'queue' for a brief time. The elapsed run time will be shown whilst executing the code and the total time taken displayed upon completion next to the Run arrow button. The output takes the form of a world map (see above) showing all possible points satisfying the input conditions on date, time, object height and shadow length (the circular [locus](https://www.wordnik.com/words/locus)).
+10. Change the input values and re-run as required.
 
 </details>
 
@@ -115,4 +124,8 @@ Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen
 
 [^1]: EXIF data can contain non-visual information about an image, e.g. type of camera and lens, date and time the image was taken, location at which it was taken,...
 
-[^2]: You can view the code by clicking on "Show code" at the bottom of the section under "time type:"
+[^2]: Date format "dd/mm/yyyy"
+
+[^3]: Time format "hh:mm:ss"
+
+[^4]: You can view the code by clicking on "Show code" in blue at the bottom of the section under "time type:"
