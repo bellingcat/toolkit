@@ -18,7 +18,19 @@ Categories include general maps such as Google Maps, Yandex, Open Street Map, Wi
 
 Other categories to explore are History, Nature, Satellite, Transport, Social Media.
 
-## Cost
+PastVu, under the **History m**aps category, allows users to explore historical photos 1886 to 2000 displayed on an interactive map, from locations across the globe.
+
+Some maps from the **Nature** category are Light Pollution Map, Shadow Map, SunCal, FIRMS. Light Pollution [Map](https://www.lightpollutionmap.info/help.html) “displays light pollution related content over Microsoft Bing base layers (road and hybrid Bing maps).” Shadow Map lets a user visualize sunlight and shadow in 3D setting on any point in time and place. SunCal visualizes the sun’s path at any date and time for a given location. See more about SunCalc [here](https://bellingcat.gitbook.io/toolkit/more/all-tools/suncalc). FIRMS by NASA lets users explore [archive](https://firms.modaps.eosdis.nasa.gov/map/#d:2024-11-12..2024-11-18;@2.22,48.14,11.48z) of “global active fire detections from MODIS and VIIRS.”
+
+The **Satellite** maps section features Sentinel Hub also known as Copernicus Browser, and Virtual Globetrotting. Both can be used for exploring satellite imagery from across the globe. With Virtual Globetrotting one can also view high-resolution imagery of celebrities’ houses, landmarks, and much more!
+
+[Marine Traffic](https://www.marinetraffic.com/en/ais/home/centerx:2.514/centery:48.336/zoom:13) under **Transport** section, maps and tracks the positions of shipping vessels across the globe.&#x20;
+
+Quick Geolocation Search also features **tools** that lets users to "[draw on map and share](https://gribrouillon.fr/?sid=F6wMVp7o56#10/48.2100/2.2800)" on the location of your choice.
+
+
+
+Cost
 
 * [x] Free
 * [ ] Partially Free
@@ -48,7 +60,7 @@ Have a look at our overview article on [ethical considerations for maps & satell
 
 ## Tool provider
 
-Cyber Detective: X profile [here](https://x.com/cyb\_detective).  Website: [https://cybdetective.com/](https://cybdetective.com/)
+Cyber Detective: X profile [here](https://x.com/cyb_detective).  Website: [https://cybdetective.com/](https://cybdetective.com/)
 
 ## Advertising Trackers
 
