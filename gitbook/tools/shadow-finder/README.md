@@ -17,6 +17,8 @@ description: >-
 
 Enter shadow length and object height, (or, instead, the angle of elevation of the sun) for a research source image, then also the date and time of the image, and see the potential locations at which such a shadow could be created for that point in time as the bright area (circle) on the world map.
 
+<figure><img src=".gitbook/assets/SUNCALCTRAILSscjpg.jpg" alt=""><figcaption><p><strong>THE ANGLE OF ELEVATION OF THE SUN CAN BE FOUND FROM THE RATIO OF THE HEIGHT OF AN OBJECT TO THE SHADOW IT CASTS (USING TRIGONOMETRY)</strong></p></figcaption></figure>
+
 Note that the tool can be used to consider a range of inputs if the exact values are not known, since the outputs vary relatively smoothly with changes in input values.
 
 {% hint style="info" %}
@@ -24,7 +26,7 @@ Shadow Finder is an open source app on GitBook, which requires users to have a (
 {% endhint %}
 
 {% hint style="danger" %}
-Shadow Finder needs the date and time of the source image containing the shadow to be able to generate potential locations. This is not always available, particularly as social media sites usually remove this type of metadata (called [ExIf data](#user-content-fn-1)[^1]). Researchers also need to take care that the time and date an image is posted online is not often the same as when it was taken. HOWEVER Shadow Finder may still be useful as a "What If?" tool to exclude potential locations.
+Shadow Finder needs the date and time of the source image containing the shadow to be able to generate potential locations. This is not always available, particularly as social media sites usually remove this type of metadata (called [ExIf data](#user-content-fn-1)[^1]) before allowing an image to be posted. Researchers also need to be aware that the time and date an image is posted online is not often the same as when it was taken. HOWEVER Shadow Finder may still be useful as a "What If?" tool to exclude potential locations.
 {% endhint %}
 
 <details>
@@ -47,7 +49,7 @@ a. both object height and shadow length (using the same units, whether thats mm,
 
 OR&#x20;
 
-### &#x20;b.  the elevation angle of the sun in degrees
+&#x20;b.  the elevation angle of the sun in degrees
 
 <img src=".gitbook/assets/shadowdetails.JPG" alt="" data-size="original">
 
@@ -69,16 +71,12 @@ OR&#x20;
 
 <img src=".gitbook/assets/Warning message.JPG" alt="" data-size="original">
 
-9. Be aware that the code may not always run instantaneously and could 'queue' for a brief time. The elapsed run time will be shown whilst executing the code and the total time taken displayed upon completion next to the Run arrow button. The output takes the form of a world map (see top of page) showing all possible points satisfying the input conditions on date, time, object height and shadow length (the circular [locus](https://www.wordnik.com/words/locus)).
+9. Be aware that the code may not always run instantaneously and could 'queue' for a brief time. The elapsed run time will be shown whilst executing the code and the total time taken displayed upon completion next to the Run arrow button. The output takes the form of a world map (see top of page) showing all possible points satisfying the input conditions on date, time, object height and shadow length (the circular locus[^5]).
 10. Change the input values at will and re-run as required.
 
 </details>
 
-_For OSINV researchers who are analysing shadows in source imagery, Shadow Finder maps all the points on the earth where a shadow of given length could occur at a given date and time, along with its orientation._
-
-_A tool to estimate the points on the Earth's surface where a shadow of a particular length could occur, for geolocation purposes._
-
-_Using an object's height and the length of its shadow (or the angle to the sun) with the date and the time, this code estimates the possible locations of that shadow._
+Using an object's height and the length of its shadow (or the angle to the sun) with the date and the time, the Shadow Finder code estimates the possible locations of that shadow.
 
 > _Important: The shadow length must be measured at right angles to the object 📐 This means that you might have to correct for the perspective of an image before using this tool._
 
@@ -126,7 +124,7 @@ There are multiple alternative routes to running the Shadow Finder code in addit
 {% endtab %}
 
 {% tab title="Shadow Finder Output Data" %}
-The [locus](https://www.wordnik.com/words/locus) or path of points (in this case, a circle) which satisfy the input criteria, drawn on a map of the world. This shows all possible locations where such a shadow could have been observed on that date at that time. Of course, the shadow would have a different orientation (azimuth angle) at different locations along the locus.
+The locus or path of points (in this case, a circle) which satisfy the input criteria, drawn on a map of the world. This shows all possible locations where such a shadow could have been observed on that date at that time. Of course, the shadow would have a different orientation (azimuth angle) at different locations along the locus[^6].
 {% endtab %}
 
 {% tab title="USE CASES" %}
@@ -140,7 +138,7 @@ Data can only be input as numeric values into the text input boxes in Shadow Fin
 {% endtab %}
 {% endtabs %}
 
-The output map appears at the bottom of the page when Shadow Finder code has been run in Colab. Compare the Shadow Finder output for a given date and time with [a map showing the world's daylight, darkness and sun and moon positions](https://www.timeanddate.com/worldclock/sunearth.html?month=02\&day=29\&year=2024\&hour=12\&min=00\&sec=0\&n=%3A\&ntxt=\&earth=0) for the same point in time:
+The output map appears at the bottom of the page when Shadow Finder code has been run in Colab. Compare the Shadow Finder output for a given date and time with [a map showing the world's daylight, darkness and sun and moon positions](https://www.timeanddate.com/worldclock/sunearth.html?month=02\&day=29\&year=2024\&hour=12\&min=00\&sec=0\&n=%3A\&ntxt=\&earth=0) for the same point in time, shown below:
 
 <figure><img src=".gitbook/assets/Screenshot.JPG" alt=""><figcaption><p><strong>SHADOW FINDER MAP OUTPUT FOR NOON ON 29/2/24 WHERE THE BRIGHT RING LOCATES THE PLACES WHERE OBJECTS CAST SHADOWS 80% OF THEIR HEIGHT</strong></p></figcaption></figure>
 
@@ -169,7 +167,7 @@ GitHub code such as Shadow Finder requires a GitHub account so that a user can l
 
 ## Limitations
 
-Shadow Finder does not provide the direction of the sun (azimuth angle) at each potential location for the given date, time and elevation angle of the sun. This would only be useful if it was possible to establish the orientation of the source imagery to allow a match.&#x20;
+Shadow Finder does not provide the direction of the sun (azimuth angle) at each potential location for the given date, time and elevation angle of the sun. This would only be useful if it was possible to establish the orientation of the source imagery to allow confirmation.
 
 ## Guides and articles
 
@@ -197,3 +195,19 @@ Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen
 [^3]: Time format "hh:mm:ss"
 
 [^4]: You can view the code by clicking on "Show code" in blue at the bottom of the section under "time type:"
+
+[^5]: 
+
+    ### Definitions
+
+    from The American Heritage® Dictionary of the English Language, 5th Edition.
+
+    * noun _Mathematics_ The set or configuration of all points whose coordinates satisfy a single equation or one or more algebraic conditions.
+
+[^6]: 
+
+    ### Definitions
+
+    from The American Heritage® Dictionary of the English Language, 5th Edition.
+
+    * noun _Mathematics_ The set or configuration of all points whose coordinates satisfy a single equation or one or more algebraic conditions.
