@@ -171,3 +171,4 @@
   * [Zotero](tools/zotero/README.md)
   * [Distill.io](tools/distill/README.md)
   * [Quick geolocation search](tools/quick-geolocation-search/README.md)
+  * [EU consolidated corporate registers](tools/eu-consolidated-corporate-registers/README.md)
