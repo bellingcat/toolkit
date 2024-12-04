@@ -82,9 +82,25 @@ The length of the shadow fed into Shadow Finder can only be measured directly fr
 
 ### The Interface <a href="#use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see" id="use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see"></a>
 
+
+
+{% tabs %}
+{% tab title="GitHub Page" %}
+<figure><img src=".gitbook/assets/image-1 (1).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Colab Interface" %}
+<figure><img src=".gitbook/assets/ColabInterface (1).JPG" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
 This is what the Shadow Finder page looks like on GitHub, before running in Colab:
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>THE SHADOW FINDER PAGE ON GITHUB. CODE CAN BE VIEWED, AND ALSO RUN FROM THE ORANGE 'TRY IT ON COLAB' BUTTON. (THERE ARE MULTIPLE ALTERNATIVE ROUTES TO RUNNING THE CODE)</p></figcaption></figure>
+
+After the user Runs Shadow Finder in Colab using the Orange Button, the Colab interface looks like this:
+
+<figure><img src=".gitbook/assets/ColabInterface.JPG" alt=""><figcaption><p>COLAB INTERFACE FOR TAKING USER INPUTS AND RUNNING THE CODE ON THEM</p></figcaption></figure>
 
 ### Shadow Finder for Open Source Research: Use Cases, Data Input, Shadow Finder Outputs, How to Enter Data... (Click each of the four tabs for more detail)
 
