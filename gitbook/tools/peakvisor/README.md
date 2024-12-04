@@ -315,7 +315,7 @@ Move the time slider to watch the major shadows cast by terrain features move ac
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
-It is easy to user PeakVisor's basic features, but the most useful ones take some time to master.
+It is easy to use PeakVisor's basic features, but the most useful ones take some time to master.
 
 The PhotoFit feature often requires a good deal of adjustment to obtain a good fit, and some understanding of visual field of view and focal length. [Watch the video above](./#description) and note that many different small adjustments are needed to get the skyline fit.
 
