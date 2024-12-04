@@ -46,7 +46,7 @@ If images are stripped of their metadata, the tool “Meta Data” on Forensical
 
 ## Guides and articles
 
-A tutorial by the founder of the tool, Jonas Wagner, is available on YouTube on how to use Forensically: [https://www.youtube.com/watch?v=XRCq8CJrI\_s](https://www.youtube.com/watch?v=XRCq8CJrI\_s)&#x20;
+A tutorial by the founder of the tool, Jonas Wagner, is available on YouTube on how to use Forensically: [https://www.youtube.com/watch?v=XRCq8CJrI\_s](https://www.youtube.com/watch?v=XRCq8CJrI_s)&#x20;
 
 ## Tool provider
 
@@ -58,7 +58,7 @@ Jonas Wagner, Switzerland. More info about him here: [https://29a.ch/about](http
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Anisa Shabir    |
-|                 |
+| Page maintainer         |
+| ----------------------- |
+| Anisa Shabir GAP member |
+|                         |
