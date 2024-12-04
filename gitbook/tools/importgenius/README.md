@@ -10,19 +10,15 @@ description: Commercial supplier of shipment data for 19 countries.
 
 ## Description
 
-ImportGenius is a paid-for online database of shipping data for countries including the US, Russia and India (see the full list [here](https://www.importgenius.com/how-it-works)). The data is sourced from country governments. It consists of bills of lading, which are legal documents detailing the type, quantity and destination of the goods being transported (more information about the data sources can be found in the[ FAQs](https://www.importgenius.com/faq) in the section "Where does ImportGenius data come from?"):&#x20;
+ImportGenius is a paid-for online database of shipping data for countries including the US, Russia and India (see the full list [here](https://www.importgenius.com/how-it-works)). The data is sourced from country governments. It consists of bills of lading, which are legal documents detailing the type, quantity and destination of the goods being transported.    A bill of lading is issued by a carrier (e.g. a shipper) to acknowledge receipt of cargo for shipment ([see more](https://en.wikipedia.org/wiki/Bill_of_lading)). Fields provided include product description, consignee, shipper and total value.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-10-22 at 13.14.57.png" alt=""><figcaption><p>Screengrab of a CSV of a sample of data for India</p></figcaption></figure>
-
-
+ImportGenius has a portal where you can create and save searches for specific data. You can also follow companies.
 
 ImportGenius does not have a free search. Some OSINT investigators might find it worth paying for access as this data is not generally available for free (It is for the US through [ImportYeti](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/GJyHaCYBR6gnNIW1tHhY/)).
 
 Note that the data provided per country differs, and it is updated at different frequencies per country - so it's worth having a demo before you subscribe. Ask about whether they cover shipping or other modes of transport for the countries in which you are interested.
 
 [Panjiva](https://panjiva.com/) and [PIERS](https://www.spglobal.com/market-intelligence/en/solutions/products/piers) provide a similar service, with some different country coverage. They do not advertise their costs.
-
-<figure><img src=".gitbook/assets/Screenshot 2024-10-15 at 13.32.51.png" alt=""><figcaption><p>Screenshot from importgenius.com</p></figcaption></figure>
 
 ## Cost
 
@@ -56,7 +52,7 @@ Free training is available for subscribers.
 
 ## Tool provider
 
-ImportGenius
+ImportGenius (United States)
 
 ## Advertising Trackers
 
