@@ -44,7 +44,7 @@ Access to the flood forecasting API is limited to pilot participants of the prog
 
 ## Tool provider
 
-[Google Research](https://research.google/)
+[Google Research](https://research.google/), U.S.
 
 ## Advertising Trackers
 
