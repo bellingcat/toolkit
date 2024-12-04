@@ -2,7 +2,7 @@
 description: >-
   For OSINV researchers analysing shadows in source imagery, Shadow Finder maps
   all points on the earth where a shadow of given length could occur at a given
-  date and time, along with its orientation.
+  date and time.
 ---
 
 # Shadow Finder
@@ -16,6 +16,8 @@ https://colab.research.google.com/github/Bellingcat/ShadowFinder/blob/main/Shado
 <figure><img src=".gitbook/assets/Screenshot (1).JPG" alt=""><figcaption><p><strong>THE SHADOW &#x26; OBJECT MEASURED CAN ONLY LIE SOMEWHERE ON THE BRIGHT CIRCLE ON THIS MAP</strong></p></figcaption></figure>
 
 Enter shadow length and object height, (or, instead, the angle of elevation of the sun) for a research source image, then also the date and time of the image, and see the potential locations at which such a shadow could be created for that point in time as the bright area (circle) on the world map.
+
+Note that the tool can be used to consider a range of inputs if the exact values are not known, since the outputs vary relatively smoothly with changes in input values.
 
 {% hint style="info" %}
 Shadow Finder is an open source app on GitBook, which requires users to have a (free) GitHub account and to follow instructions on how to run the app.
@@ -35,7 +37,7 @@ Shadow Finder needs the date and time of the source image containing the shadow 
 
 <img src=".gitbook/assets/image (2).png" alt="" data-size="original">
 
-4. Scroll down the ShadowFinder page to README section and click the bright orange button labelled "TRY IT ON COLAB". This launches ShadowFinder in an easy-access environment called Colab.
+4. Scroll down the Shadow Finder page to README section and click the bright orange button labelled "TRY IT ON COLAB". This launches ShadowFinder in an easy-access environment called Colab.
 
 ![](.gitbook/assets/image.png)
 
@@ -118,7 +120,9 @@ The output map appears at the bottom of the page when Shadow Finder code has bee
 
 <figure><img src=".gitbook/assets/Screenshot.JPG" alt=""><figcaption><p><strong>SHADOW FINDER MAP OUTPUT FOR NOON ON 29/2/24 WHERE THE BRIGHT RING LOCATES THE PLACES WHERE OBJECTS CAST SHADOWS 80% OF THEIR HEIGHT</strong></p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/comparison sun location.JPG" alt=""><figcaption><p><strong>TIME &#x26; DATE MAP FOR NOON ON 29/2/24  WITH SUN &#x26; MOON POSITIONS</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/comparison sun location.JPG" alt=""><figcaption><p><strong>TIME &#x26; DATE MAP FOR NOON ON 29/2/24  WITH SUN &#x26; MOON POSITIONS OVERLAID</strong></p></figcaption></figure>
+
+The two representations concur on the daylight distribution and sun position for the same time and date shown:
 
 * The centre of the world map is in daylight on both maps, with either side in darkness over the Pacific Ocean and (roughly) the Arctic Circle.
 * The sun is above the Atlantic Ocean to the west of Central Africa in both maps, with the locus of the Shadow Finder map centering on the location of the sun in the "Time and Date" website map.
@@ -137,15 +141,11 @@ Data input is remarkably simple, as is running the tool IFF the user is familiar
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+GitHub code such as Shadow Finder requires a GitHub account so that a user can log in to access and run the code.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
-
-## Ethical Considerations
-
-\[\[The ethical considerations of each tool should be described.]]
+Shadow Finder does not provide the direction of the sun (azimuth angle) at each potential location for the given date, time and elevation angle of the sun. This would only be useful if it was possible to establish the orientation of the source imagery to allow a match.&#x20;
 
 ## Guides and articles
 
@@ -153,11 +153,11 @@ Data input is remarkably simple, as is running the tool IFF the user is familiar
 
 ## Tool provider
 
-Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen.reich.me.uk/#about), Bellingcat Tech Community Facilitator
+Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen.reich.me.uk/#about), Bellingcat Tech Community Facilitator, Jordan Gillard, Thomas Ellmenreich and Boris Nezlobin.
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
