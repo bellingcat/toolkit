@@ -1,15 +1,15 @@
 ---
 description: >-
   For OSINV researchers analysing shadows in source imagery, Shadow Finder maps
-  all points on the earth where a shadow of given length could occur at a given
-  date and time.
+  all points on the earth where a shadow of given length ratio to the object
+  casting it could occur at a given date & time.
 ---
 
 # Shadow Finder
 
 ## URL
 
-https://colab.research.google.com/github/Bellingcat/ShadowFinder/blob/main/ShadowFinderColab.ipynb
+[https://colab.research.google.com/github/Bellingcat/ShadowFinder/blob/main/ShadowFinderColab.ipynb](https://colab.research.google.com/github/Bellingcat/ShadowFinder/blob/main/ShadowFinderColab.ipynb)
 
 ## Description
 
@@ -43,13 +43,19 @@ Shadow Finder needs the date and time of the source image containing the shadow 
 
 5. Scroll down to enter your shadow measurement details into the app. Input EITHER&#x20;
 
-a. both object height and shadow length (using the same units)&#x20;
+a. both object height and shadow length (using the same units, whether thats mm, cm, m, feet, inches. Pixels in an image may be the easiest units - it doesn't matter because Shadow Finder just needs the ratio of object height divided by shadow length)&#x20;
 
 OR&#x20;
 
 &#x20;b.  the elevation angle of the sun in degrees
 
 <img src=".gitbook/assets/shadowdetails.JPG" alt="" data-size="original">
+
+**Definition:** The elevation angle of the sun is the inverse tangent of the ratio of the height of an object for which the sun casts a shadow to the length of that shadow. Shadow Finder needs that angle in degrees (not radians, be careful).
+
+<img src=".gitbook/assets/SUNCALCTRAILSscjpg.jpg" alt="" data-size="original">
+
+
 
 6. and then enter the date[^2], time[^3] (and [time zone](https://en.wikipedia.org/wiki/Time_zone) you are using):
 
@@ -85,20 +91,22 @@ The length of the shadow fed into Shadow Finder can only be measured directly fr
 
 
 {% tabs %}
-{% tab title="GitHub Page" %}
-<figure><img src=".gitbook/assets/image-1 (1).png" alt=""><figcaption></figcaption></figure>
+{% tab title="GitHub Page: Press Orange Button > Colab)" %}
+<figure><img src=".gitbook/assets/GitHub page shadowfinder.JPG" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Colab Interface" %}
-<figure><img src=".gitbook/assets/ColabInterface (1).JPG" alt=""><figcaption></figcaption></figure>
+{% tab title="Colab Interface: Enter Data +Run)" %}
+<figure><img src=".gitbook/assets/ColabInterface (1).JPG" alt=""><figcaption><p>WHEN YOU HIT THE ORANGE BUTTON, THIS IS WHAT THE APP LOOKS LIKE, WAITING FOR INPUT DATA FROM YOU. ADD THE DATA AND HIT THE WHITE 'RUN' BUTTON UNDER "FIND A SHADOW"</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
-This is what the Shadow Finder page looks like on GitHub, before running in Colab:
+The first tab above (GitHub Page tab) shows what the Shadow Finder page looks like on GitHub, before running in Colab:
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>THE SHADOW FINDER PAGE ON GITHUB. CODE CAN BE VIEWED, AND ALSO RUN FROM THE ORANGE 'TRY IT ON COLAB' BUTTON. (THERE ARE MULTIPLE ALTERNATIVE ROUTES TO RUNNING THE CODE)</p></figcaption></figure>
+The second tab above (Click on the COLAB INTERFACE tab) shows the Colab interface which will appear after the user Runs Shadow Finder in Colab using the Orange Button.
 
-After the user Runs Shadow Finder in Colab using the Orange Button, the Colab interface looks like this:
+{% hint style="info" %}
+There are multiple alternative routes to running the Shadow Finder code in addition to Colab, e.g. direct from Python. Colab is a simple route.
+{% endhint %}
 
 <figure><img src=".gitbook/assets/ColabInterface.JPG" alt=""><figcaption><p>COLAB INTERFACE FOR TAKING USER INPUTS AND RUNNING THE CODE ON THEM</p></figcaption></figure>
 
