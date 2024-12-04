@@ -70,7 +70,7 @@ Engaging in doxxing, harassment, or sharing explicit content without consent is 
 
 ## Tool provider
 
-Armin Sebastian ([@dessant on GitHub](https://github.com/dessant)) is a developer specializing in open source browser extensions that enhance user experience and accessibility. Consider supporting them: [Patreon](https://armin.dev/go/patreon?pr=search-by-image\&src=repo), [PayPal](https://armin.dev/go/paypal?pr=search-by-image\&src=repo) or [Bitcoin](https://armin.dev/go/bitcoin?pr=search-by-image\&src=repo).
+Armin Sebastian ([@dessant on GitHub](https://github.com/dessant)) is a developer specializing in open source browser extensions that enhance user experience and accessibility.&#x20;
 
 ## Advertising Trackers
 
