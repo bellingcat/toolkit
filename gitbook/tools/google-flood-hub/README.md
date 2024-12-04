@@ -12,9 +12,9 @@ description: >-
 
 ## Description
 
-Google Flood Hub is developed by Google Research and uses [AI models to forecast floods](https://www.nature.com/articles/s41586-024-07145-1). It [combines](https://sites.research.google/gr/floodforecasting/) two AI models that process diverse publicly available data sources: the [Hydrologic Model](https://sites.research.google/gr/floodforecasting/hydrology-model/) forecasts the amount of water flowing in a river, and the Inundation Model predicts what areas will be affected and how high the water level will be. Flood Hub offers users flood data and forecasts specific to their location, with predictions extending up to 7 days, and presents the data visually by showing local river flood maps, water trends.&#x20;
+Google Flood Hub is developed by Google Research and uses [AI models to forecast floods](https://www.nature.com/articles/s41586-024-07145-1). It [combines](https://sites.research.google/gr/floodforecasting/) two AI models that process diverse publicly available data sources: the [Hydrologic Model](https://sites.research.google/gr/floodforecasting/hydrology-model/) forecasts the amount of water flowing in a river, and the Inundation Model predicts what areas will be affected and how high the water level will be. Flood Hub offers users flood data and forecasts specific to their location, with predictions extending up to 7 days, and presents the data visually by showing local river flood maps, water trends.
 
-As of November 2024, Flood Hub  covers river basins in over 80 countries worldwide, providing critical flood forecasting for over 1,800 sites and, covering a population of 460M people.&#x20;
+As of November 2024, Flood Hub covers river basins in over 80 countries worldwide, providing critical flood forecasting for over 1,800 sites and, covering a population of 460M people.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-11-21 at 4.18.55 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -34,7 +34,7 @@ No requirements
 
 ## Limitations & Ethical Considerations
 
-Access to the flood forecasting API is limited to pilot participants of the program and Google asks the research community to register for the [API pilot waiting list](https://docs.google.com/forms/d/e/1FAIpQLSfcKhe3CHsncM-\_NQ66zLheEfXKnNbDPBtuIT7BSYCqYkmOaA/viewform) if they would like to use the API functionality.&#x20;
+Access to the flood forecasting API is limited to pilot participants of the program and Google asks the research community to register for the [API pilot waiting list](https://docs.google.com/forms/d/e/1FAIpQLSfcKhe3CHsncM-_NQ66zLheEfXKnNbDPBtuIT7BSYCqYkmOaA/viewform) if they would like to use the API functionality.
 
 [According](https://sites.research.google/gr/floodforecasting/flood-hub-expert-mode/) to Google, the Flood Hub's "virtual gauges are intended for use by experts and hydrologists who need additional and more complex views to improve flood forecasting alerting and response decisions, and/ or organizations that would like to use the flood forecasting tools for evaluation, history analysis, and other research purposes."
 
@@ -52,7 +52,7 @@ Access to the flood forecasting API is limited to pilot participants of the prog
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat volunteer team |
-|                           |
+| Page maintainer                      |
+| ------------------------------------ |
+| Bellingcat Volunteer Team/Unassigned |
+|                                      |
