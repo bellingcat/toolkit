@@ -20,7 +20,7 @@ If you search for keywords via the search box at the top of the LittleSis main w
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-29 at 08.53.42.png" alt=""><figcaption><p>Search results from the LittleSis main website</p></figcaption></figure>
 
-LittleSis' main offering is their database - to access it, click on 'Database' in the top menu. You'll get to the main database page:
+LittleSis' main offering is their database - to access it, click on '[Database](https://littlesis.org/database)' in the top menu. You'll get to the main database page:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-29 at 08.57.20.png" alt=""><figcaption><p>Main LittleSis database page</p></figcaption></figure>
 
@@ -40,13 +40,13 @@ Here's an example of an organisation's page:
 
 An organisation page has the same kinds of information as a person's page.
 
-LittleSis includes 'network maps' for all entities (people and organisations):&#x20;
+LittleSis includes 'network maps' for all entities (people and organisations):
 
 <figure><img src=".gitbook/assets/Screenshot 2024-09-25 at 14.59.22.png" alt=""><figcaption><p>A network map for Donald Trump</p></figcaption></figure>
 
 Access the network maps from a person's or organisation's page search results page. The map will show you relationships that illustrate the topic of the map like donations (e.g. in the map above, Henry R Kravis donated US$1 million to Trump's inauguration). You can create your own maps, but you need to be registered to do that. (Once you have logged in, go to Add>Map.)
 
-LittleSis data is searchable online, can be accessed through an [API](https://littlesis.org/api), and can be [downloaded](https://littlesis.org/database/bulk\_data) as JSON files.
+LittleSis data is searchable online, can be accessed through an [API](https://littlesis.org/api), and can be [downloaded](https://littlesis.org/database/bulk_data) as JSON files.
 
 ## Cost
 
