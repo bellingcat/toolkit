@@ -88,15 +88,15 @@ The length of the shadow fed into Shadow Finder can only be measured directly fr
 
 ### The Interface <a href="#use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see" id="use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see"></a>
 
-
+**Click the two tabs** to see the different views presented to the user as they find Shadow Finder on the GitHub website and then run it in Colab:
 
 {% tabs %}
 {% tab title="GitHub Page: Press Orange Button > Colab)" %}
-<figure><img src=".gitbook/assets/GitHub page shadowfinder.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/GitHub page shadowfinder.JPG" alt=""><figcaption><p>THE SHADOW FINDER PAGE ON GITHUB. PRESS THE ORANGE "TRY IT ON COLAB" BUTTON TO RUN THE PROGRAM...</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Colab Interface: Enter Data +Run)" %}
-<figure><img src=".gitbook/assets/ColabInterface (1).JPG" alt=""><figcaption><p>WHEN YOU HIT THE ORANGE BUTTON, THIS IS WHAT THE APP LOOKS LIKE, WAITING FOR INPUT DATA FROM YOU. ADD THE DATA AND HIT THE WHITE 'RUN' BUTTON UNDER "FIND A SHADOW"</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ColabInterface (1).JPG" alt=""><figcaption><p>WHEN YOU HIT THE ORANGE BUTTON, THIS IS WHAT THE APP LOOKS LIKE, WAITING FOR INPUT DATA FROM YOU. ADD THE DATA AND HIT THE WHITE 'RUN' BUTTON UNDER "FIND A SHADOW" TO SEE THE OUTPUT MAP WITH POSSIBLE SHADOW LOCATIONS</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
