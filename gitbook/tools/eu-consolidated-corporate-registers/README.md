@@ -1,6 +1,6 @@
 ---
 description: >-
-  Consolidated company register covering most of the EU, Liechtenstein and
+  Consolidated company registers covering most of the EU, Liechtenstein and
   Norway.
 ---
 
