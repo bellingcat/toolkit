@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-<figure><img src=".gitbook/assets/Screenshot (1).JPG" alt=""><figcaption><p><strong>THE SHADOW &#x26; OBJECT MEASURED CAN ONLY LIE SOMEWHERE ON THE BRIGHT CIRCLE ON THIS MAP</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot (1).JPG" alt=""><figcaption><p><strong>THE SHADOW &#x26; OBJECT MEASURED CAN ONLY LIE SOMEWHERE ON THE BRIGHT CIRCLE</strong> </p></figcaption></figure>
 
 Enter shadow length and object height, (or, instead, the angle of elevation of the sun) for a research source image, then also the date and time of the image, and see the potential locations at which such a shadow could be created for that point in time as the bright area (circle) on the world map.
 
@@ -29,7 +29,7 @@ Shadow Finder needs the date and time of the source image containing the shadow 
 
 <details>
 
-<summary>Step by step instructions for running Shadow Finder [click the arrow]...</summary>
+<summary>Step by step instructions for running Shadow Finder [Click the arrow]...</summary>
 
 1. Sign up for a GitHub account if you don't already have one.
 2. Log in to GitHub on a browser and type "Shadow Finder" in the search bar at the top of the Home page and press the Search button.
@@ -47,7 +47,7 @@ a. both object height and shadow length (using the same units, whether thats mm,
 
 OR&#x20;
 
-#### &#x20;b.  the elevation angle of the sun in degrees
+### &#x20;b.  the elevation angle of the sun in degrees
 
 <img src=".gitbook/assets/shadowdetails.JPG" alt="" data-size="original">
 
@@ -88,7 +88,7 @@ The length of the shadow fed into Shadow Finder can only be measured directly fr
 
 ### The Interface <a href="#use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see" id="use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see"></a>
 
-**Click the two tabs** to see the different views presented to the user as they find Shadow Finder on the GitHub website and then run it in Colab:
+**Click the two tabs below** to see the different views presented to the user as they find Shadow Finder on the GitHub website and then run it in Colab:
 
 {% tabs %}
 {% tab title="GitHub Page: Press Orange Button > Colab)" %}
@@ -100,7 +100,7 @@ The length of the shadow fed into Shadow Finder can only be measured directly fr
 {% endtab %}
 {% endtabs %}
 
-The first tab above (GitHub Page tab) shows what the Shadow Finder page looks like on GitHub, before running in Colab:
+The first tab above (GitHub Page tab) shows what the Shadow Finder page looks like on GitHub, before running in Colab.
 
 The second tab above (Click on the COLAB INTERFACE tab) shows the Colab interface which will appear after the user Runs Shadow Finder in Colab using the Orange Button.
 
