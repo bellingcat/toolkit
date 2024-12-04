@@ -1,8 +1,8 @@
 ---
 description: >-
-  For OSINV researchers analysing shadows in source imagery, Shadow Finder maps
-  all points on the earth where a shadow of given length ratio to the object
-  casting it could occur at a given date & time.
+  To analyse shadows in source imagery, Shadow Finder maps all points on the
+  earth where a shadow of given length could occur at a given date & time, IFF
+  the height of the object casting it is known.
 ---
 
 # Shadow Finder
@@ -47,7 +47,7 @@ a. both object height and shadow length (using the same units, whether thats mm,
 
 OR&#x20;
 
-&#x20;b.  the elevation angle of the sun in degrees
+#### &#x20;b.  the elevation angle of the sun in degrees
 
 <img src=".gitbook/assets/shadowdetails.JPG" alt="" data-size="original">
 
