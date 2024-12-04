@@ -60,7 +60,7 @@ Have a look at our overview article on [ethical considerations for maps & satell
 
 ## Tool provider
 
-Cyber Detective: X profile [here](https://x.com/cyb_detective).  Website: [https://cybdetective.com/](https://cybdetective.com/), country unknown
+Cyber Detective: X profile [here](https://x.com/cyb_detective).  Website: [https://cybdetective.com/](https://cybdetective.com/), country unknown.
 
 ## Advertising Trackers
 
