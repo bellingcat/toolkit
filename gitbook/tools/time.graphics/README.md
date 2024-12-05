@@ -75,13 +75,13 @@ For effective privacy management on Time.Graphics, users should carefully consid
 
 ## Guides and articles
 
-Timeline Maker (Director). (2019, July 17). _How to add “Geo locations” to events_ \[Video recording]. [https://www.youtube.com/watch?v=02IwGTSOyNQ](https://www.youtube.com/watch?v=02IwGTSOyNQ)
+Timeline Maker. (2019, July 17). _How to add “Geo locations” to events_ \[Video recording]. [https://www.youtube.com/watch?v=02IwGTSOyNQ](https://www.youtube.com/watch?v=02IwGTSOyNQ)
 
-Timeline Maker (Director). (2019, July 15). _How to embed timelines into your website or blog_ \[Video recording]. [https://www.youtube.com/watch?v=mojWqdii1XY](https://www.youtube.com/watch?v=mojWqdii1XY)
+Timeline Maker. (2019, July 15). _How to embed timelines into your website or blog_ \[Video recording]. [https://www.youtube.com/watch?v=mojWqdii1XY](https://www.youtube.com/watch?v=mojWqdii1XY)
 
 ## Tool provider
 
-Time.Graphics, a service recognized by the American Association of School Librarians for online learning resources.
+Time.Graphics, is a service recognized by the American Association of School Librarians for online learning resources. Provided by Selected Technologies LLC, Morgan Hill, CA (authors note: are you kidding, I spent a couple of weeks there, honk if you hate going north on the 101 during rush hour)
 
 ## Advertising Trackers
 
