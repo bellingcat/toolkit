@@ -35,15 +35,7 @@ OpenSecrets is a nonpartisan, independent, and nonprofit organization tracking m
 * [Outside Spending](https://www.opensecrets.org/outside-spending) - data reported by outside spending groups to the Federal Election Commission. There is a separate section devoted to dark money groups – politically active nonprofits that aren't required to publicly disclose their donors. The information includes data on political recipients, however it only shows the amounts received and rarely the donors.
 * [Donor Lookup ](https://www.opensecrets.org/donor-lookup)- a search by name of a donor - these are individuals and companies. This is the most user-friendly and useful feature for small investigations as it allows searching by keyword.
 
-<div align="left">
-
-<figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 7.15.56 PM.png" alt=""><figcaption><p>Donors search with filters</p></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/Screenshot 2024-09-03 at 6.51.58 PM.png" alt=""><figcaption><p><a href="https://web.archive.org/web/20220722103823/https://www.businessinsider.com/elon-musk-tesla-spacex-secret-service-special-agent-filing-donation-2021-4">Donor profile for Elon Musk</a> who donated twice to the Republican National Committee in 2021</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 7.15.56 PM.png" alt=""><figcaption><p>Donors search with filters</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2024-09-03 at 6.51.58 PM.png" alt=""><figcaption><p><a href="https://web.archive.org/web/20220722103823/https://www.businessinsider.com/elon-musk-tesla-spacex-secret-service-special-agent-filing-donation-2021-4">Donor profile for Elon Musk</a> who donated twice to the Republican National Committee in 2021</p></figcaption></figure></div>
 
 **Industries & Interest Groups - political action committees, industries, non-governmental organizations who spend money to support political candidates and issues**
 
@@ -59,15 +51,7 @@ OpenSecrets is a nonpartisan, independent, and nonprofit organization tracking m
 
 * [Lobbying Overview ](https://www.opensecrets.org/federal-lobbying)- includes top lobbying contracts, agencies, issues lobbied, bills that lobbyists worked on, contracts between lobbying firms and companies. Also allows to search by name:
 
-<div>
-
-<figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 7.41.49 PM.png" alt=""><figcaption><p>Search and results for KPMG</p></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 7.46.25 PM.png" alt=""><figcaption><p>Profile for KPMG LLP's clients for 2024</p></figcaption></figure>
-
-</div>
+<div><figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 7.41.49 PM.png" alt=""><figcaption><p>Search and results for KPMG</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 7.46.25 PM.png" alt=""><figcaption><p>Profile for KPMG LLP's clients for 2024</p></figcaption></figure></div>
 
 * [Foreign Lobby Watch ](https://www.opensecrets.org/fara)- uses the semi-annual reports foreign agents are required to file with the Department of Justice under the Foreign Agents Registration Act (FARA) to calculate the countries with the highest spending. Allows search by country and the results provide detailed information on which companies and individuals spent money on lobbying and advocacy.
 
@@ -101,19 +85,19 @@ The data is publicly available, but OpenSecrets does ask to be cited or credited
 
 ## Guides and articles
 
-OpenSecrets has a youtube series on lobbying: [Lobbying Masterclass Series](https://www.youtube.com/playlist?list=PLKKE\_wvn2lEH2\_5JDmqxSfgUcfY7vd3Te) (video)
+OpenSecrets has a youtube series on lobbying: [Lobbying Masterclass Series](https://www.youtube.com/playlist?list=PLKKE_wvn2lEH2_5JDmqxSfgUcfY7vd3Te) (video)
 
 OpenSecrets: [Foreign Lobby Watch Demonstration](https://www.youtube.com/watch?v=dJs3Xp9hmno) (video)
 
 OpenSecrets: [What is dark money](https://www.opensecrets.org/dark-money/basics) (article)
 
-OpenSecrets: [Learning center](https://www.opensecrets.org/resources/learn/) with a glossary and articles
+OpenSecrets: [Learning center](https://www.opensecrets.org/resources/learn/) with a glossary and articles as well as a Follow the Money [handbook](https://www.opensecrets.org/resources/ftm/ch06p1.php)
 
 OpenSecrets: [Open data](https://groups.google.com/g/opensecrets-open-data?pli=1) with questions from other users, answers from the organization - a FAQ resource of sorts, but better.
 
-OpenSecrets: Open data documentation
+OpenSecrets: [Open data documentation](https://www.opensecrets.org/resources/create/data_doc.php)
 
-OpenSecrets: [API documentation](https://www.opensecrets.org/resources/create/api\_doc.php) with [Python](https://github.com/opensecrets/python-crpapi), [PHP](https://github.com/opensecrets/php-crpapi) and [Ruby](https://github.com/grempe/opensecrets) libraries uploaded on Github.
+OpenSecrets: [API documentation](https://www.opensecrets.org/resources/create/api_doc.php) with [Python](https://github.com/opensecrets/python-crpapi), [PHP](https://github.com/opensecrets/php-crpapi) and [Ruby](https://github.com/grempe/opensecrets) libraries uploaded on Github.
 
 OpenSecrets: [Developer tools](https://www.opensecrets.org/resources/create/tools.php)
 
