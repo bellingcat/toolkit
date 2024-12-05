@@ -76,24 +76,22 @@ OR&#x20;
 
 </details>
 
-Using an object's height and the length of its shadow (or the angle to the sun) with the date and the time, the Shadow Finder code estimates the possible locations of that shadow.
-
-> _Important: The shadow length must be measured at right angles to the object 📐 This means that you might have to correct for the perspective of an image before using this tool._
+Using an object's height and the length of its shadow (or the angle to the sun) with the date and the time, the Shadow Finder code estimates the possible locations of that shadow. It plots all the possible locations (there will almost always be very many possibilities) on a world map as a bright line.
 
 {% hint style="danger" %}
-The length of the shadow fed into Shadow Finder can only be measured directly from the image if the camera is at right angles to the shadow. If not, calculations will need to be made to correct for any other camera perspective.
+The length of the shadow fed into Shadow Finder can only be measured directly from the image if the camera is at right angles to the shadow. If not, calculations/adjustments will need to be made to correct for any other camera perspective.
 {% endhint %}
 
 ### The Interface <a href="#use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see" id="use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see"></a>
 
-**Click the two tabs below** to see the different views presented to the user as they find Shadow Finder on the GitHub website and then run it in Colab:
+**Click the two tabs below** to see the different views presented to the user as they find Shadow Finder on the GitHub website (Tab 1)and then run it in Colab (Tab 2):
 
 {% tabs %}
-{% tab title="GitHub Page: Press Orange Button > Colab)" %}
+{% tab title="1. GitHub Page: Press Orange Button > Colab)" %}
 <figure><img src=".gitbook/assets/GitHub page shadowfinder.JPG" alt=""><figcaption><p>THE SHADOW FINDER PAGE ON GITHUB. PRESS THE ORANGE "TRY IT ON COLAB" BUTTON TO RUN THE PROGRAM...</p></figcaption></figure>
 {% endtab %}
 
-{% tab title="Colab Interface: Enter Data +Run)" %}
+{% tab title="2. Colab Interface: Enter Data +Run" %}
 <figure><img src=".gitbook/assets/ColabInterface (1).JPG" alt=""><figcaption><p>WHEN YOU HIT THE ORANGE BUTTON, THIS IS WHAT THE APP LOOKS LIKE, WAITING FOR INPUT DATA FROM YOU. ADD THE DATA AND HIT THE WHITE 'RUN' BUTTON UNDER "FIND A SHADOW" TO SEE THE OUTPUT MAP WITH POSSIBLE SHADOW LOCATIONS</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
@@ -124,7 +122,7 @@ There are multiple alternative routes to running the Shadow Finder code in addit
 {% endtab %}
 
 {% tab title="Shadow Finder Output Data" %}
-The locus or path of points (in this case, a circle) which satisfy the input criteria, drawn on a map of the world. This shows all possible locations where such a shadow could have been observed on that date at that time. Of course, the shadow would have a different orientation (azimuth angle) at different locations along the locus[^6].
+The path of points (called a locus[^6] - in this case, the path is a circle) which satisfy the input criteria, drawn on a map of the world. This shows all possible locations where such a shadow could have been observed on that date at that time. Of course, the shadow would have a different orientation (azimuth angle) at different locations along the locus.
 {% endtab %}
 
 {% tab title="USE CASES" %}
