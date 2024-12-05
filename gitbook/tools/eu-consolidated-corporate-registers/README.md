@@ -18,13 +18,13 @@ The data on the portal is gathered in real time from national registers, and onl
 
 However, some data that is free in a national register does not appear on the portal. For example, here is the portal's data for a French company:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-11-27 at 10.33.47.png" alt=""><figcaption><p>Top of the EU register page for an example company</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-12-05 at 10.30.07.png" alt=""><figcaption><p>A company's page on the consolidated EU register</p></figcaption></figure>
 
 Here is the same company's listing on the French register:&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2024-11-27 at 10.12.06.png" alt=""><figcaption><p>Top of the French register page for an example company</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-12-05 at 10.31.59.png" alt=""><figcaption><p>The same company on the French register</p></figcaption></figure>
 
-Note that the French site provides data that the EU register does not, like the [NAF code](https://entreprendre.service-public.fr/vosdroits/F33050) (which classifies business activities), many more documents than you can order on the EU register, and related companies. The leader data also includes other companies in which that person is involved. (Leaders are people like directors.)
+Note that the French site provides data that the EU register does not, like the [NAF code](https://entreprendre.service-public.fr/vosdroits/F33050) (which classifies business activities), many more documents than you can order on the EU register, and related companies. The leader data also includes other companies in which that person is involved. (Leaders are people like directors.) In the image above, you'll also see a link to the other leaders of the company, which is not provided on the EU register.
 
 So the EU register could be a good place to start a search for a company that you know is in Europe, but you're not sure which country. Then go to the national register to see if you can get more information.
 
