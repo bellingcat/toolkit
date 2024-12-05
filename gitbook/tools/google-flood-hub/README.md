@@ -38,7 +38,7 @@ No requirements
 
 Access to the flood forecasting API is limited to pilot participants of the program and Google asks the research community to register for the [API pilot waiting list](https://docs.google.com/forms/d/e/1FAIpQLSfcKhe3CHsncM-_NQ66zLheEfXKnNbDPBtuIT7BSYCqYkmOaA/viewform) if they would like to use the API functionality.
 
-[According](https://sites.research.google/gr/floodforecasting/flood-hub-expert-mode/) to Google, the Flood Hub's "virtual gauges are intended for use by experts and hydrologists who need additional and more complex views to improve flood forecasting alerting and response decisions, and/ or organizations that would like to use the flood forecasting tools for evaluation, history analysis, and other research purposes." Again, according to Google, the new version of the tool, which is currently in use, [has](https://blog.google/technology/ai/expanding-flood-forecasting-coverage-helping-partners/) "reliability comparable to state-of-the-art global flooding nowcasts."&#x20;
+[According](https://sites.research.google/gr/floodforecasting/flood-hub-expert-mode/) to Google, the Flood Hub's "virtual gauges are intended for use by experts and hydrologists who need additional and more complex views to improve flood forecasting alerting and response decisions, and/ or organizations that would like to use the flood forecasting tools for evaluation, history analysis, and other research purposes." Again, according to Google, the new version of the tool, which is currently in use, [has](https://blog.google/technology/ai/expanding-flood-forecasting-coverage-helping-partners/) "reliability comparable to state-of-the-art global flooding nowcasts." We are not able to independently verify this statement.
 
 ## Guides and articles
 
