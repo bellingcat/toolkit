@@ -1,8 +1,8 @@
 ---
+icon: user-magnifying-glass
 description: >-
   Maigret is a Python script that retrieves user information by searching for
   usernames across various websites and social media platforms.
-icon: user-magnifying-glass
 layout:
   title:
     visible: true
@@ -91,7 +91,7 @@ Maigret may miss valid results from various sources. Additionally, it may encoun
 
 ## Guides and articles
 
-* Information regarding the tool and documentation:[https://maigret.readthedocs.io/en/latest/index.html](https://maigret.readthedocs.io/en/latest/index.html)
+* Information regarding the tool and documentation: [https://maigret.readthedocs.io/en/latest/index.html](https://maigret.readthedocs.io/en/latest/index.html)
 * GitHub repo and instruction for installation: [https://github.com/soxoj/maigret](https://github.com/soxoj/maigret)
 
 ## Tool provider
