@@ -17,11 +17,13 @@ Version: Telepathy 2.3.4
 
 #### Introduction
 
+The toolkit facilitates detailed insights into **Telegram channels**. It captures information such as the channel's description, total participant count, identifiable members, username, URL, type of chat, chat ID, access hash, the date of the first post, and any restrictions that might be applied. Channels on Telegram are designed to broadcast messages to a large audience, and they do not allow members to see each other or directly interact within the channel itself.
+
 Telepathy is an open-source OSINT toolkit designed to analyze Telegram communications. It allows users to extract data from public or private Telegram groups and channels and perform searches by user ID or username. Telepathy provides detailed insights such as member lists, group dynamics, and engagement tracking. It also supports CSV export of group members, automatic message translation, and geolocation features for users with public profiles.
 
 ### Summary
 
-Telepathy’s user interface is designed to be intuitive for technically experienced users, and the output is tailored towards in-depth data analysis. Being open-source, it provides the flexibility for modifications and enhancements to meet specific investigative needs.
+Telepathy’s user interface is designed to be intuitive for technically experienced users, and the output is tailored towards in-depth data analysis. Being open-source, it allows modifications and enhancements to meet specific investigative needs.
 
 ### Functions
 
@@ -31,7 +33,7 @@ Telepathy’s user interface is designed to be intuitive for technically experie
 
 {% tabs %}
 {% tab title="Info" %}
-This feature performs a basic scan on a target Telegram chat (public or private with a link). \
+This feature performs a basic scan on a target Telegram chat (public or private with a link).\
 **Use Case:** Ideal for initial reconnaissance or when only top-level details are needed.
 
 * Chat title and description
@@ -78,8 +80,6 @@ A more detailed version of the basic scan, the comprehensive scan archives all m
 {% endtab %}
 
 {% tab title="Understanding the CSV file" %}
-
-
 The file, `bellingcatru_2024_10_03-02_32_archive.csv`, contains a comprehensive set of data columns related to Telegram messages. Here's an overview of the columns and what they represent:
 
 1. **Unnamed: 0**: Index column automatically created by the CSV format.
@@ -155,8 +155,6 @@ If the Bellingcat feed had included sufficient messages forwarded from other cha
 {% endtab %}
 {% endtabs %}
 
-
-
 **Media Archiving (`-m` option)**
 
 {% tabs %}
@@ -179,8 +177,7 @@ Ideal for investigative scenarios where media content is crucial, but it require
 {% endtab %}
 {% endtabs %}
 
-**User Lookup (`-u` option)**\
-
+**User Lookup (`-u` option)**\\
 
 {% tabs %}
 {% tab title="Info" %}
@@ -336,7 +333,7 @@ OS2INT (Director). (2022, July 31). _Extracting and analysing disinformation dat
 
 Lerner, E. (2024, March 31). 🌟✨ Tutorial about the Best 7 Telegram Channels in 2024 & Must-Follow Top Search Bots 🤖🔍. _Medium_. [https://medium.com/@efim.lerner/tutorial-about-the-best-7-telegram-channels-in-2024-must-follow-top-search-bots-76421bf29e17](https://medium.com/@efim.lerner/tutorial-about-the-best-7-telegram-channels-in-2024-must-follow-top-search-bots-76421bf29e17)
 
-OS2INT (Director). (2022, October 16). _Geo-locating Telegram users with Telepathy_. [https://www.youtube.com/watch?v=g\_kwzpIsB1E](https://www.youtube.com/watch?v=g\_kwzpIsB1E)
+OS2INT (Director). (2022, October 16). _Geo-locating Telegram users with Telepathy_. [https://www.youtube.com/watch?v=g\_kwzpIsB1E](https://www.youtube.com/watch?v=g_kwzpIsB1E)
 
 Cogliati, B., Ethan, J., Jha, A., 2023. Subverting Telegram’s End-to-End Encryption. ToSC 5–40. [https://doi.org/10.46586/tosc.v2023.i1.5-40](https://doi.org/10.46586/tosc.v2023.i1.5-40)
 
