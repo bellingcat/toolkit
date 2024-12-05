@@ -81,7 +81,7 @@ Timeline Maker. (2019, July 15). _How to embed timelines into your website or bl
 
 ## Tool provider
 
-Time.Graphics, is a service recognized by the American Association of School Librarians for online learning resources. Provided by Selected Technologies LLC, Morgan Hill, CA (authors note: are you kidding, I spent a couple of weeks there, honk if you hate going north on the 101 during rush hour)
+Time.Graphics, is a service recognized by the American Association of School Librarians for online learning resources. Provided by Selected Technologies LLC, Morgan Hill, CA (authors note: are you kidding, I spent a couple of weeks in Morgan Hill, honk if you hate going north on the 101 during rush hour)
 
 ## Advertising Trackers
 
