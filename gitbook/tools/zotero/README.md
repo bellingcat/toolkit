@@ -20,7 +20,7 @@ Zotero is a reference management tool for Mac, Windows, Linux, and iOS that help
 
 ### Citing and archiving sources&#x20;
 
-Academic papers are what this software was intended for, but it also works for archiving almost any other content.
+Academic papers are what this software was intended for, but it also works for archiving almost any other content. Zotero can archive various kinds of content. Naturally, PDFs are supported, but depending on what you're looking at, you can make snapshots of websites, attach data files, source code, or basically any other sort of file.&#x20;
 
 Say we found an exciting-sounding article we want to cite in our paper. And we love to give credit (also, citing sources isn't optional).
 
@@ -126,6 +126,18 @@ Max, B. (2023, October 23). _Gefälschter BBC-Bericht: Bellingcat berichtete nic
 Bellingcat. (2024, February 9). _Command Line Fundamentals: Bellingcat Tech Series_ \[Video recording]. [https://www.youtube.com/watch?v=B3gm-ud91v0](https://www.youtube.com/watch?v=B3gm-ud91v0)
 
 **Find out what else it can archive!**
+
+### Zotero as archive tool & the Berkeley Protocol
+
+Proper documentation is essential if the material is used in legal, academic, or policy advocacy contexts. [The Berkeley Protocol ](https://www.ohchr.org/sites/default/files/2024-01/OHCHR_BerkeleyProtocol.pdf)outlines how OSINT data should be handled to be admissible in court (at least in the context of international proceedings).&#x20;
+
+Using Zotero in this context is already a good start. Very few free tools allow archiving material in such an easy and automated way. Zotero allows you to save websites as a complete copy of the source code and a screenshot PDF. It also saves the date it was accessed and other metadata. Zotero stores all your research data locally by default, with syncing to the cloud disabled by default. If syncing is enabled, data is encrypted before leaving your computer and AES-256 encrypted at rest on Zotero's servers. Additionally, Zotero's data server is open-source, allowing you to run it locally for greater control over shared data.
+
+However, there are a few significant limitations. First, Zotero does not encrypt your locally stored data or provide native password protection. Additionally, Zotero does not create or store hashes (a unique digital fingerprint) for archived material. This means Zotero cannot ensure the integrity of your data or prove that it has not been tampered with.
+
+To address these issues, consider creating cryptographic hashes of downloaded material immediately upon archiving and storing them as supplemental data. Hashes calculated at the time of collection ensure that the data remains unaltered. Additionally, regular encrypted backups of your Zotero archive, with hashes for verification, can further secure your data. Exporting your Zotero library at regular intervals for secure storage is also recommended.
+
+By implementing these measures, you can enhance Zotero's utility as an archiving tool and align its use more closely with evidentiary standards.
 
 ## Cost
 
