@@ -96,7 +96,7 @@ By default, selecting a search engine to use on an image will open the results i
 
 You can set the context menu default behavior to either use the URL (default), Image or Capture mode.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Change the Context menu default behavior</p></figcaption></figure>
 
 ### Mechanics
 
@@ -148,6 +148,6 @@ Extension does not use tracking cookies but most of the search engines do. For y
 
 Read the extension's [privacy policy](https://github.com/dessant/search-by-image/wiki/Privacy-policy) here.
 
-| Page maintainer |
-| --------------- |
-| f0rked          |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat volunteer team |
