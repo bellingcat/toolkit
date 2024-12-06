@@ -34,7 +34,7 @@ Identifiers refer to unique markers associated with user accounts on specific pl
 
 To start a simple search on Maigret, all you need to do is provide one or more usernames for the individual you want to investigate. For example, searching for "bellingcat" will check if that username exists across the platforms supported by the tool (like social networks, forums, blogs and more). If an account is found, a report detailing where the username appears will be generated. This includes links to profile pages or relevant content on those platforms (e.g., Facebook, Instagram etc) and any available additional metadata like account creation dates or follower counts, if retrievable. In this case of "bellingcat," we discovered accounts on Telegram, Instagram, Github, TikTok and GithubGist.
 
-In addition, Maigret scans account webpages(username bellingcat on X will return -[https://x.com/bellingcat](https://x.com/bellingcat)) to extract personal details and links to other profiles, displaying this information in the command line output and including it in reports. It also uses found IDs and usernames to start new searches automatically.&#x20;
+In addition, Maigret scans account webpages (username bellingcat on X will return -[https://x.com/bellingcat](https://x.com/bellingcat)) to extract personal details and links to other profiles, displaying this information in the command line output and including it in reports. It also uses found IDs and usernames to start new searches automatically.&#x20;
 
 The tool supports generating reports in various formats, including HTML, PDF, TXT, [XMind 8 mindmap](https://xmind.app/user-guide/xmind/), and JSON. HTML and PDF reports include profile photos, all gathered personal information, and additional data like full name, gender, and location based on the statistics of all found accounts.
 
@@ -100,7 +100,7 @@ Maigret may miss valid results from various sources. Additionally, it may encoun
 
 ## Tool provider
 
-The tool provider of Maigret is [Dmitry Danilov](https://www.linkedin.com/in/danilov-d/) , who is currently based in Amsterdam, Netherlands.
+The tool provider of Maigret is [Dmitry Danilov](https://www.linkedin.com/in/danilov-d/) , Netherlands.
 
 ## Advertising Trackers
 
