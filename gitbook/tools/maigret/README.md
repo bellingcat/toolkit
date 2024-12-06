@@ -30,7 +30,7 @@ If not explicitly specified with a tag, Maigret will start its search with the t
 
 Identifiers refer to unique markers associated with user accounts on specific platforms, such as a **gaia\_id** (Google's internal numeric user identifier, previously found in Google Plus accounts) or other similar unique attributes. These allow Maigret to conduct more targeted and precise searches beyond ordinary usernames.
 
-<figure><img src=".gitbook/assets/maigret.png" alt=""><figcaption><p>Search for  username "bellingcat" on Maigret </p></figcaption></figure>
+<figure><img src=".gitbook/assets/maigret.png" alt=""><figcaption><p>Search for the username "bellingcat" on Maigret </p></figcaption></figure>
 
 To start a simple search on Maigret, all you need to do is provide one or more usernames for the individual you want to investigate. For example, searching for "bellingcat" will check if that username exists across the platforms supported by the tool (like social networks, forums, blogs and more). If an account is found, a report detailing where the username appears will be generated. This includes links to profile pages or relevant content on those platforms (e.g., Facebook, Instagram etc) and any available additional metadata like account creation dates or follower counts, if retrievable. In this case of "bellingcat," we discovered accounts on Telegram, Instagram, Github, TikTok and GithubGist.
 
