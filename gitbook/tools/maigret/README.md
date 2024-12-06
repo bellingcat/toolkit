@@ -24,15 +24,19 @@ layout:
 
 ## Description
 
-Maigret is a command-line tool that collects information about a person using their username. It checks for accounts across over 3000 sites, gathering available information directly from web pages, without the need for API keys. The tool itself is a fork of the[ Sherlock project.](https://github.com/sherlock-project/sherlock)
+Maigret is a command-line tool that collects information about a person using their username. It checks for accounts across over [3000](https://github.com/soxoj/maigret/blob/main/sites.md) sites, gathering available information directly from web pages, without the need for API keys. The tool itself is a fork of the[ Sherlock project.](https://github.com/sherlock-project/sherlock)
 
-If not explicitly specified with a tag, Maigret will start its search with the top 500 sites from its database, including many popular social platforms. Users have the option to expand the search by including different options, ranging from specific sites to countries and identifiers.
+If not explicitly specified with a tag, Maigret will start its search with the top 500 sites from its database, including many popular social platforms. Users have the option to expand the search by including different options, ranging from specific sites to countries and identifiers.&#x20;
+
+Identifiers refer to unique markers associated with user accounts on specific platforms, such as a **gaia\_id** (Google's internal numeric user identifier, previously found in Google Plus accounts) or other similar unique attributes. These allow Maigret to conduct more targeted and precise searches beyond ordinary usernames.
 
 <figure><img src=".gitbook/assets/maigret.png" alt=""><figcaption><p>Search for  username "bellingcat" on Maigret </p></figcaption></figure>
 
-In addition, Maigret scans account webpages to extract personal details and links to other profiles, displaying this information in the command line output and including it in reports. It also uses found IDs and usernames to start new searches automatically.&#x20;
+To start a simple search on Maigret, all you need to do is provide one or more usernames for the individual you want to investigate. For example, searching for "bellingcat" will check if that username exists across the platforms supported by the tool (like social networks, forums, blogs and more). If an account is found, a report detailing where the username appears will be generated. This includes links to profile pages or relevant content on those platforms (e.g., Facebook, Instagram etc) and any available additional metadata like account creation dates or follower counts, if retrievable. In this case of "bellingcat," we discovered accounts on Telegram, Instagram, Github, TikTok and GithubGist.
 
-The tool supports generating reports in various formats, including HTML, PDF, TXT, XMind 8 mindmap, and JSON. HTML and PDF reports include profile photos, all gathered personal information, and additional data like full name, gender, and location based on the statistics of all found accounts.
+In addition, Maigret scans account webpages(username bellingcat on X will return -[https://x.com/bellingcat](https://x.com/bellingcat)) to extract personal details and links to other profiles, displaying this information in the command line output and including it in reports. It also uses found IDs and usernames to start new searches automatically.&#x20;
+
+The tool supports generating reports in various formats, including HTML, PDF, TXT, [XMind 8 mindmap](https://xmind.app/user-guide/xmind/), and JSON. HTML and PDF reports include profile photos, all gathered personal information, and additional data like full name, gender, and location based on the statistics of all found accounts.
 
 A short text report is also shown in the command line after the search phase.
 
@@ -96,7 +100,7 @@ Maigret may miss valid results from various sources. Additionally, it may encoun
 
 ## Tool provider
 
-Tool provider of Maigret is [Dmitry Danilov.](https://www.linkedin.com/in/danilov-d/)
+The tool provider of Maigret is [Dmitry Danilov](https://www.linkedin.com/in/danilov-d/) , who is currently based in Amsterdam, Netherlands.
 
 ## Advertising Trackers
 
