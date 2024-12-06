@@ -18,27 +18,61 @@ This tool is designed to support journalists, investigators, and fact-checkers i
 
 ### How to use it
 
-1. **From the contextual menu shortcut**
+1. **From the context menu shortcut:**
+
+* Open the image's context menu (right-click on Windows and most Linux platforms, Control + Click or Two-finger click on the trackpad on Mac)
+* Hover over "Search by Image"
+* Select the search engine of your choice
 
 <figure><img src=".gitbook/assets/1.webp" alt=""><figcaption><p>Reverse searching an image from the contextual menu</p></figcaption></figure>
 
-2. **From the Extension Menu - Select URL (default mode):** Queries the selected engine using the image URL. This is equivalent to the contextual menu shortcut.
+2. **From the Extension Menu - Select URL (default mode):** Queries the selected engine using the image URL.
+
+* Open the extension's menu from the toolbar
+* Select the "Select URL" mode
+* Select your target search engine
+* Select the image from the web page
+
+**Note:** this is equivalent to the contextual menu shortcut in the default settings.
 
 <figure><img src=".gitbook/assets/2.webp" alt=""><figcaption><p>Select URL Mode</p></figcaption></figure>
 
 3. **From the Extension Menu - Select Image:** Uploads the image to the selected engine: this is useful when reverse searching images from sites where contextual menu is disabled (Pinterest) or where images cannot be accessed by their URL (Instagram).
 
+* Open the extension's menu from the toolbar
+* Select the "Select Image" mode
+* Select your target search engine
+* Select the image from the web page
+
 <figure><img src=".gitbook/assets/3.webp" alt=""><figcaption><p><strong>Select Image Mode</strong></p></figcaption></figure>
 
 4. **From the Extension Menu - Capture:** Allows you to capture and search a specific area of an image/the web page.
+
+* Open the extension's menu from the toolbar
+* Select the "Capture" mode
+* Select your target search engine
+* Select the area you want to reverse search
 
 <figure><img src=".gitbook/assets/4.webp" alt=""><figcaption><p><strong>Capture Mode</strong></p></figcaption></figure>
 
 5. **From the Extension Menu - Browse:** Enables you to upload an image from your local files (supports copy/paste).
 
+* Open the extension's menu from the toolbar
+* Select the "Browse" mode
+* Select "Browse"
+* Select your target search engine
+* Select the image from your local files
+
+**Note:** in this mode you can also paste an image from your clipboard by selecting "Paste" instead of "Browse"
+
 <figure><img src=".gitbook/assets/5.webp" alt=""><figcaption><p><strong>Browse Mode</strong></p></figcaption></figure>
 
 6. **From the Extension Menu - URL:** Allows you to paste a URL for querying.
+
+* Open the extension's menu from the toolbar
+* Select the "URL" mode
+* Paste the image URL in the field
+* Select your target search engine
 
 <figure><img src=".gitbook/assets/6.webp" alt=""><figcaption><p>URL Mode</p></figcaption></figure>
 
@@ -50,11 +84,19 @@ This tool is designed to support journalists, investigators, and fact-checkers i
 
 * Reverse search an image in multiple search engines at once
 
-<figure><img src=".gitbook/assets/8.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/8.webp" alt=""><figcaption><p>Reverse search an image in multiple search engines at once</p></figcaption></figure>
 
-**Note:** By default, selecting a search engine to use on an image will open the results in a new tab and switch focus to it. If you prefer to open the tab in the background and view the results later, you can adjust this behavior in the Options.
+* **Changing the new tab default behavior:**
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Toggle this option to open new tabs in the background</p></figcaption></figure>
+By default, selecting a search engine to use on an image will open the results in a new tab and switch focus to it. If you prefer to open the tab in the background and view the results later, you can adjust this behavior in the Options.
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Toggle this option to open new tabs in the background</p></figcaption></figure>
+
+* **Changing the context menu default behavior:**
+
+You can set the context menu default behavior to either use the URL (default), Image or Capture mode.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Mechanics
 
