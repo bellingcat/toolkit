@@ -100,7 +100,7 @@ Maigret may miss valid results from various sources. Additionally, it may encoun
 
 ## Tool provider
 
-The tool provider of Maigret is [Dmitry Danilov](https://www.linkedin.com/in/danilov-d/) , Netherlands.
+The tool provider of Maigret is [Dmitry Danilov](https://www.linkedin.com/in/danilov-d/), Netherlands.
 
 ## Advertising Trackers
 
