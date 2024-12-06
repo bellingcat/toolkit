@@ -175,3 +175,4 @@
   * [ImportGenius](tools/importgenius/README.md)
   * [Umbra Space](tools/umbra-space/README.md)
   * [Google Flood Hub](tools/google-flood-hub/README.md)
+  * [Maigret](tools/maigret/README.md)
