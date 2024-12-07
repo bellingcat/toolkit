@@ -47,41 +47,23 @@ The ACLED Explorer enables filtering and summarizing data, generating tables and
 
 * **Data download:** download results as a `.csv` file.
 
-<!---->
-
-* **Date Range**: filter by a customizable date range.
-
-<!---->
+- **Date Range**: filter by a customizable date range.
 
 * **Geographic area**: select regions or countries of interest.
 
-<!---->
-
-* **Grouping:** group the results by Region, Country, Province District, or Location.
-
-<!---->
+- **Grouping:** group the results by Region, Country, Province District, or Location.
 
 * **Select specific Provinces or District**
 
-<!---->
-
-* **Select particular data**: ability to select Actors or Actor Types.
-
-<!---->
+- **Select particular data**: ability to select Actors or Actor Types.
 
 * **Toggle event types:** disaggregate the results by event types, sub-event types, or civilian targeting.&#x20;
 
-<!---->
-
-* **Time period grouping**: group results by time period day or week.
-
-<!---->
+- **Time period grouping**: group results by time period day or week.
 
 * **Views:** table view or chart view.
 
-<!---->
-
-* **Available metrics:** metrics including Event Counts or Fatality Counts
+- **Available metrics:** metrics including Event Counts or Fatality Counts
 
 </details>
 
@@ -107,49 +89,27 @@ ACLED Trendfinder provides interactive tools for tracking global political viole
 
 * **Annual Trend graph**: a bar chart and line graph with a time range slider.
 
-<!---->
-
-* **Compare**: compare events to the previous month or year.
-
-<!---->
+- **Compare**: compare events to the previous month or year.
 
 * **Dark theme toggle**
 
-<!---->
-
-* **Data download:** download data in `.xlsx` format.
-
-<!---->
+- **Data download:** download data in `.xlsx` format.
 
 * **Filter by Event / Sub event Types**: filter events e.g., Battles, Protests, Riots, etc.
 
-<!---->
-
-* **Individual event details**: when viewing subnational results, these are viewable on the map and include event and sub-event type and actors involved,
-
-<!---->
+- **Individual event details**: when viewing subnational results, these are viewable on the map and include event and sub-event type and actors involved,
 
 * **Map view:** see events plotted on a map.
 
-<!---->
-
-* **Table view**: see a table of events by country or subnational area.
-
-<!---->
+- **Table view**: see a table of events by country or subnational area.
 
 * **Reset button**
 
-<!---->
-
-* **Select country**: filter by a specific country.
-
-<!---->
+- **Select country**: filter by a specific country.
 
 * **Table View - Event Count and Change Statistics**: filterable by country, Provinces or District, Events in the current Week, Yearly Average, and Percentage Change.
 
-<!---->
-
-* **Zoom tool:** zoom in and out on the map.
+- **Zoom tool:** zoom in and out on the map.
 
 </details>
 
@@ -231,7 +191,7 @@ Example below: May 2024.
 * **API** - to access ACLED Data, please register for an account in the [ACLED Access Portal](https://developer.acleddata.com/) or login with your existing account information.
 * **Interactive Conflict Index Dashboard:** requires registration with an email address.
 
-_Details of registration are available here:_ [_https://developer.acleddata.com/rehd/cms/views/acled\_api/documents/1689675700-ACLED\_Terms-of-Use-Attribution-Access\_FAQs\_2023.pdf_](https://developer.acleddata.com/rehd/cms/views/acled\_api/documents/1689675700-ACLED\_Terms-of-Use-Attribution-Access\_FAQs\_2023.pdf)
+_Details of registration are available here:_ [_https://developer.acleddata.com/rehd/cms/views/acled\_api/documents/1689675700-ACLED\_Terms-of-Use-Attribution-Access\_FAQs\_2023.pdf_](https://developer.acleddata.com/rehd/cms/views/acled_api/documents/1689675700-ACLED_Terms-of-Use-Attribution-Access_FAQs_2023.pdf)
 
 ## Limitations
 
@@ -242,13 +202,13 @@ The ACLED dataset and tools come with several limitations that researchers shoul
 * **Resolution and Granularity**: The level of detail and granularity of data can vary by location and event, potentially impacting analyses that require uniform detail across datasets.
 * **Access Restrictions**: Some detailed data or analysis tools may only be available to users with specific access levels, which could limit the scope of research for those with basic access.
 * **Dependence on Open Sources**: The quality and reliability of ACLED data is dependent on the availability and veracity of open sources. In regions where media is restricted or unreliable, this could impact the accuracy of the dataset.
-* _**Conflict Alert System (CAST):**_ As a future forecasting system, it comes with caveats regarding accuracy. To understand more, see the methodology [here](https://acleddata.com/acleddatanew/wp-content/uploads/dlm\_uploads/2023/07/ACLED-CAST-Methodology-%E2%80%93-July-2023.pdf).
+* _**Conflict Alert System (CAST):**_ As a future forecasting system, it comes with caveats regarding accuracy. To understand more, see the methodology [here](https://acleddata.com/acleddatanew/wp-content/uploads/dlm_uploads/2023/07/ACLED-CAST-Methodology-%E2%80%93-July-2023.pdf).
 
 Researchers should consider these limitations in conjunction with their research goals and methodologies to determine if ACLED's tools and datasets suit their needs.
 
 ## Ethical Considerations
 
-When using ACLED's tools and datasets, researchers must navigate several ethical considerations to ensure responsible utilization and dissemination of sensitive information:
+When using ACLED's tools and datasets, researchers must navigate several ethical considerations to ensure responsible utilization and dissemination of sensitive information. Users are advised to consult ACLED's [Terms of Use](https://acleddata.com/terms-of-use/) for detailed guidelines.
 
 * **Respect for Privacy**: Care should be taken to avoid disclosing identifiable information about individuals involved in conflict incidents, respecting their privacy and safety.
 * **Data Misinterpretation**: There is a risk that data could be misinterpreted or taken out of context, potentially leading to harmful conclusions or actions. Researchers must strive for accuracy and clarity in their analyses.
@@ -264,22 +224,25 @@ To effectively use ACLED, especially for beginners or those looking to refine th
 
 **Official Wiki**&#x20;
 
-* [https://acleddata.com/resources/quick-guide-to-acled-data/](https://acleddata.com/resources/quick-guide-to-acled-data/)&#x20;
+ACLED offers a [Quick Guide to ACLED Data](https://acleddata.com/resources/quick-guide-to-acled-data/) and maintains a [Resource Library](http://bdmne.com/index-19.html) for users seeking comprehensive information.
 
 **Tutorials and Articles**
 
-* _Armed Conflict Location & Event Data Project (ACLED_ (no date). Available at: [https://www.urban-response.org/system/files/content/resource/files/main/acled-guide-to-dataset-use-for-humanitarian-and-development-practitioners-2014.pdf](https://www.urban-response.org/system/files/content/resource/files/main/acled-guide-to-dataset-use-for-humanitarian-and-development-practitioners-2014.pdf) (Accessed: 15 May 2024).
+* _Armed Conflict Location & Event Data Project (ACLED_). Available at: [https://www.urban-response.org/system/files/content/resource/files/main/acled-guide-to-dataset-use-for-humanitarian-and-development-practitioners-2014.pdf](https://www.urban-response.org/system/files/content/resource/files/main/acled-guide-to-dataset-use-for-humanitarian-and-development-practitioners-2014.pdf) (Accessed: 15 May 2024).
+* The [ACLED API Documentation](https://apidocs.acleddata.com/) remains the primary resource for developers integrating ACLED data into applications.
 
 #### Use Cases:
 
-* _Eclipse Mania, Coastal Earthquakes, Bridge Collapse, and Breaking the Ramadan Fast_ (no date). Available at: [https://gijn.org/stories/eclipse-mania-coastal-earthquakes-bridge-collapse/](https://gijn.org/stories/eclipse-mania-coastal-earthquakes-bridge-collapse/) (Accessed: 15 May 2024).
+* _Eclipse Mania, Coastal Earthquakes, Bridge Collapse, and Breaking the Ramadan Fast_. Available at: [https://gijn.org/stories/eclipse-mania-coastal-earthquakes-bridge-collapse/](https://gijn.org/stories/eclipse-mania-coastal-earthquakes-bridge-collapse/) (Accessed: 15 May 2024).
 * Ruser, N. (2018) _How to Scrape Interactive Geospatial Data_, _bellingcat_. Available at: [https://www.bellingcat.com/resources/how-tos/2018/09/05/scrape-interactive-geospatial-data/](https://www.bellingcat.com/resources/how-tos/2018/09/05/scrape-interactive-geospatial-data/) (Accessed: 15 May 2024).
 * ‘Mapping the Unknown: Using ACLED Data and GIS to Understand Conflict Zones’, _Medium_, 20 October. Available at: [https://medium.com/@avoukenas/mapping-the-unknown-using-acled-data-and-gis-to-understand-conflict-zones-f6f927e04cf1](https://medium.com/@avoukenas/mapping-the-unknown-using-acled-data-and-gis-to-understand-conflict-zones-f6f927e04cf1) (Accessed: 15 May 2024).
+* For more recent use cases, consider exploring ACLED's Analysis section, which features up-to-date reports and insights.
 
 #### Video:
 
 * _Accessing ACLED Data_ (2023). Available at: [https://www.youtube.com/watch?v=wpInq3Lhqow](https://www.youtube.com/watch?v=wpInq3Lhqow) (Accessed: 15 May 2024).
-* _The ACLED Conflict Alert System (CAST)_ (2024). Available at: [https://www.youtube.com/watch?v=CZMNv7y\_9lQ](https://www.youtube.com/watch?v=CZMNv7y\_9lQ) (Accessed: 15 May 2024).Voukenas, A. (2023)&#x20;
+* _The ACLED Conflict Alert System (CAST)_ (2024). Available at: [https://www.youtube.com/watch?v=CZMNv7y\_9lQ](https://www.youtube.com/watch?v=CZMNv7y_9lQ) (Accessed: 15 May 2024). Voukenas, A. (2023)&#x20;
+* For the latest tutorials, visit ACLED's [YouTube channel](https://www.youtube.com/@ACLEDinfo), which hosts current content on data access and tools.
 
 #### Developer Resources
 
@@ -293,13 +256,13 @@ To effectively use ACLED, especially for beginners or those looking to refine th
 
 The Armed Conflict Location & Event Data Project (ACLED) [https://acleddata.com/](https://acleddata.com/) - United States&#x20;
 
-ACLED was created by [Clionadh Raleigh](https://acleddata.com/prof-clionadh-raleigh/), a Professor of Political Violence and Geography at the University of Sussex, in 2005 as a component of her PhD work. Since 2014, ACLED has operated as a non-profit, non-governmental organization incorporated in Wisconsin.&#x20;
+ACLED was created by [Clionadh Raleigh](https://acleddata.com/prof-clionadh-raleigh/), a Professor of Political Violence and Geography at the University of Sussex, in 2005 as a component of her PhD work. Since 2014, ACLED has operated as a non-profit, non-governmental organization incorporated in Wisconsin. ACLED operates as an independent, impartial, international non-profit organization that collects data on violent conflict and protests globally. It is a registered non-profit with 501(c)(3) status in the United States
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies. Users are encouraged to review ACLED's Privacy Policy for detailed information on data usage.
 
 | Page maintainer |
 | --------------- |
