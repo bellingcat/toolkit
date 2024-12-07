@@ -12,7 +12,8 @@ description: >-
 
 ## Description
 
-TelegramDB is a comprehensive search service for Telegram, enabling users to explore and analyze over 30 million public Telegram groups and channels. Through its dedicated bot, @tgdb\_bot, users can perform searches for public chats and obtain insights such as group membership numbers and chat statistics. This tool assists users in navigating Telegram's extensive network, enhancing both casual browsing and detailed investigations.
+TelegramDB is a comprehensive search service for Telegram, enabling users to explore and analyze public Telegram groups and channels. Through its dedicated bot, @tgdb\_bot, users can perform searches for public chats and obtain insights such as group membership numbers and chat statistics. This tool assists users in navigating Telegram's extensive network, enhancing both casual browsing and detailed investigations.\
+At the time of this update, TelegramDB claims to have significantly increased its database, now encompassing over 340 million chats, 1.1 billion users, and 12.5 billion chat members.
 
 #### Commands
 
@@ -20,9 +21,7 @@ The TelegramDB bot (@tgdb\_bot) offers a comprehensive set of commands to help u
 
 <details>
 
-<summary>Command Overview</summary>
-
-
+<summary>Full Command Overview </summary>
 
 * **/search** _(Free with limitations; Premium for extended results)_
   * **Function:** Perform keyword-based searches to find groups and channels.
@@ -59,21 +58,6 @@ Without premium credits on **TelegramDB**, users can perform **basic searches an
 * **Limited group/channel exploration**: Users can use commands like `/group` and `/channel` to retrieve general information about public Telegram groups and channels, but advanced filtering options or detailed insights (e.g., member lists, group history) require premium credits.
 * **Basic interaction**: The bot provides some limited functionality to explore public groups and channels, but detailed or more in-depth analysis commands (like `/members` or `/network`) are likely restricted to premium users.
 
-**Free**:
-
-* Basic searches and functions with limited results:
-  * `/search`: Perform keyword-based searches for groups and channels (up to 20 results).
-  * `/group` and `/channel`: Basic exploration of groups and channels with general information.
-
-**Paid** (Premium credits required):
-
-* **Advanced search functions**:
-  * `/where`: Track group membership or activity for users in specific areas.
-  * `/network`: List groups and channels with a shared community, ranked and output as a CSV file.
-  * `/resolve`: Retrieve detailed information about Telegram users, such as their historical usernames.
-  * `/members`: Export member lists (CSV) of groups, including hidden membership.
-  * `/near`: List nearby groups or users based on interaction proximity, ranked by relevance.
-
 {% hint style="info" %}
 Specific pricing for premium credits is not provided directly but operates on a credit-based payment system, including support for cryptocurrencies. (If you have used the pay functionality or know more, please do let me know)
 {% endhint %}
@@ -82,10 +66,8 @@ Specific pricing for premium credits is not provided directly but operates on a 
 * [x] Partially Free
 * [ ] Paid
 
-<!---->
-
-* **Free**: Basic searches and functions with limited results.
-* **Paid**: Advanced search functions and additional results are available through a credit-based payment system, including cryptocurrency options.
+- **Free**: Basic searches and functions with limited results.
+- **Paid**: Advanced search functions and additional results are available through a credit-based payment system; payment works exclusively through cryptocurrency options.
 
 ## Level of difficulty
 
@@ -131,8 +113,8 @@ TelegramDB.org
 
 ## Advertising Trackers
 
-* [x] This tool has not yet been checked for advertising trackers.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not yet been checked for advertising trackers.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer |
