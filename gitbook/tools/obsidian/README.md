@@ -46,12 +46,11 @@ The tool also supports advanced Markdown editing, customizable themes, and commu
 * [x] Partially Free
 * [ ] Paid
 
-<!---->
-
-* **Personal use:** free.&#x20;
-* **Commercial use**: paid.
-* **Sync across devices**: paid "Sync" service is available, but workarounds are possible (eg. github)
-* **Publish to the cloud**: paid service available, free hosting solutions available&#x20;
+- **Personal use:** free.&#x20;
+- **Commercial use**: Obsidian offers licenses at $50 per user per year.
+- **Sync across devices**: This service enables end-to-end encrypted synchronization across devices. The standard plan is priced at $5 per month or $48 per year, while the Plus plan is available at $10 or $96 per year.
+- **Publish to the cloud**: Obsidian Publish is available at $8 USD per site per month when billed annually or $10 USD per site per month with monthly billing.
+- For students, faculty members, and nonprofit employees, Obsidian offers a 40% discount on add-on services, including Obsidian Publish.
 
 ## Level of difficulty
 
