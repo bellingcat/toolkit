@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-[https://acleddata.com/](https://acleddata.com/)
+{% embed url="https://acleddata.com/" %}
 
 ## Description
 
@@ -31,11 +31,15 @@ ACLED provides detailed, up-to-date information on political violence and protes
 * **Conflict Index**: Ranks global conflict levels.
 * **Special Projects**: Focuses on conflicts like Ukraine and Yemen, with real-time monitoring.
 
-### **Analysis**
+### **Analysis - Tools**
+
+{% hint style="info" %}
+The following part of the text contains detailed function information in collapsable containers for convenience. Can you find them?
+{% endhint %}
 
 _ACLED provides several tools that help analyze conflict- and protest-related data. These tools include:_
 
-_**ACLED Explorer**_
+#### _**ACLED Explorer**_
 
 The ACLED Explorer enables filtering and summarizing data, generating tables and charts showing conflict and protest-related data, including types, actors, locations, and periods from 2018 onwards.
 
@@ -73,13 +77,11 @@ Example of the **ACLED Table View** below showing all countries of interest:
 
 
 
-
-
 Example of the **ACLED Chart View** below
 
 <figure><img src=".gitbook/assets/Screenshot 2024-05-16 at 11.43.52 AM.png" alt="ACLED Chart View below showing a pie chart of all countries of interest."><figcaption><p>ACLED Chart View below showing a pie chart of all countries of interest.</p></figcaption></figure>
 
-_**ACLED Trendfinder**_
+#### _**ACLED Trendfinder**_
 
 ACLED Trendfinder provides interactive tools for tracking global political violence and demonstrations. It enables the identification of significant changes, historical context, and early warning signs of conflict emergence across countries and regions.
 
@@ -117,7 +119,7 @@ The example below shows using the ACLED Trendfinder to examine all event types i
 
 <figure><img src=".gitbook/assets/Screenshot 2024-05-16 at 8.06.44 AM.png" alt="Screenshot of ACLED Trendfinder showing map, trend graph and table with detailed results."><figcaption><p>Screenshot of ACLED Trendfinder.</p></figcaption></figure>
 
-_**ACLED Conflict Alert System (CAST)**_
+#### _**ACLED Conflict Alert System (CAST)**_
 
 The ACLED Conflict Alert System (CAST) forecasts global political violence events up to six months ahead, with monthly updates and accuracy metrics for previous forecasts.
 
@@ -148,7 +150,7 @@ Example below: the default view for May 2024.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-05-16 at 11.07.02 AM.png" alt="Screenshot of Conflict Alert System (CAST) showing a map, a trend graph and detailed table of results."><figcaption><p>Screenshot of <em><strong>Conflict Alert System (CAST)</strong></em></p></figcaption></figure>
 
-_**Conflict Exposure Calculator**_
+#### _**Conflict Exposure Calculator**_
 
 Shows the number of people exposed to conflict in the selected area and time period.
 
