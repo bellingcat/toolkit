@@ -6,7 +6,11 @@ description: A toolkit that supports the verification of videos and images.
 
 ## URL
 
-[https://www.invid-project.eu/tools-and-services/invid-verification-plugin/](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)
+{% embed url="https://weverify.eu/verification-plugin/" %}
+
+{% embed url="https://github.com/AFP-Medialab/verification-plugin" %}
+release at the time of writing: v0.83 (Nov 24)
+{% endembed %}
 
 ## Description
 
