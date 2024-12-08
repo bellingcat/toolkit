@@ -82,17 +82,9 @@ To focus on local content in a specific language:
 
 Example: If I am interested in learning about the farmers' protest in the EU, but only want to get results in Dutch, the parameters may look like this:
 
-<div align="left">
+<div align="left"><figure><img src=".gitbook/assets/Screenshot 2024-07-20 012204-2 (1).png" alt="" width="375"><figcaption><p>Here is an example of a search using the language function, with the keyword being in English, but the language output being in Dutch.</p></figcaption></figure></div>
 
-<figure><img src=".gitbook/assets/Screenshot 2024-07-20 012204-2 (1).png" alt="" width="375"><figcaption><p>Here is an example of a search using the language function, with the keyword being in English, but the language output being in Dutch.</p></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src=".gitbook/assets/Screenshot 2024-07-20 012255-2 (1).png" alt="" width="375"><figcaption><p>This image is the sample result of the search with the language filter. As you can see, the keyword is in English but the rest of the content is still in the selected language filter, in this case, Dutch.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src=".gitbook/assets/Screenshot 2024-07-20 012255-2 (1).png" alt="" width="375"><figcaption><p>This image is the sample result of the search with the language filter. As you can see, the keyword is in English but the rest of the content is still in the selected language filter, in this case, Dutch.</p></figcaption></figure></div>
 
 #### **ACCOUNTS**
 
@@ -111,7 +103,7 @@ TIP: You can input more than one account
 {% endhint %}
 
 \
-**“Filters”:** Refine your search using this section. Advanced Search lets you choose whether to include replies, ensuring you see the full conversation or focus solely on original posts.
+&#xNAN;**“Filters”:** Refine your search using this section. Advanced Search lets you choose whether to include replies, ensuring you see the full conversation or focus solely on original posts.
 
 To see only original posts, deselect the "Replies" checkbox under "Account Filters" in Twitter Advanced Search.
 
@@ -135,7 +127,7 @@ Instead, use "this exact phrase" to type  the specific link you are looking for.
 #### **ENGAGEMENTS**
 
 {% hint style="warning" %}
-NOTE: If you want to cut through the noise and discover the most popular posts on a topic, Twitter's "Top posts" tab might seem like the answer, but it doesn't always show the absolute most engaging content. [The "Top posts" algorithm considers various factors, making it unpredictable.](https://blog.x.com/engineering/en\_us/topics/open-source/2023/twitter-recommendation-algorithm) Use Advanced Search instead.
+NOTE: If you want to cut through the noise and discover the most popular posts on a topic, Twitter's "Top posts" tab might seem like the answer, but it doesn't always show the absolute most engaging content. [The "Top posts" algorithm considers various factors, making it unpredictable.](https://blog.x.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm) Use Advanced Search instead.
 {% endhint %}
 
 In Advanced Search, users can define their criteria for engagement. Want to see posts with at least 1,000 likes or replies? Advanced Search lets users set precise thresholds for minimum likes, reposts, replies, or even a combination of these metrics. This way, you'll get a clear picture of the most engaging posts that meet specific requirements.
@@ -211,6 +203,14 @@ In April 2024, Statista estimated a staggering [611 million people ](https://www
 The research process of open-source researchers is often iterative. We often start broad, using search terms like "protest" and "Syria" in the discovery phase. As we sift through the initial results, we might encounter posts mentioning a specific location like "Daraa" or a prominent group named "Syrian Revolutionary Forces." These findings become stepping stones. We then refine our search terms, incorporating these new details or harvesting new search terms. This might involve searching for posts containing "Daraa protest" or "Syrian Revolutionary Forces leader." The search might also expand to Arabic hashtags related to the protest or the group.
 
 Using different combinations of parameters such as locations, languages, and hashtags in Advanced Search is beneficial during this evolving process. It allows investigators to continuously refine their search queries throughout the research process.
+
+### Radar
+
+As of Oct 18 2024, [X launche](https://x.com/premium/status/1847338164412960802?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1847338164412960802%7Ctwgr%5Ef5e8ad612c44f76b06a5eb49d841c99bd0e3b8b1%7Ctwcon%5Es1_\&ref_url=https%3A%2F%2Ftechcrunch.com%2F2024%2F10%2F21%2Fx-rolls-out-its-real-time-search-tool-radar-to-premium-subscribers%2F)[d](https://x.com/premium/status/1847338164412960802?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1847338164412960802%7Ctwgr%5Ef5e8ad612c44f76b06a5eb49d841c99bd0e3b8b1%7Ctwcon%5Es1_\&ref_url=https%3A%2F%2Ftechcrunch.com%2F2024%2F10%2F21%2Fx-rolls-out-its-real-time-search-tool-radar-to-premium-subscribers%2F) a real-time search and analysis tool called "Radar". However, this is only available to Premium+ subscribers, and this is so far an early version. It is a feature that used only to be available for businesses and was previously called "Insights." [It claims to allow account holders to track topics and trends in real-time.](https://web.swipeinsight.app/posts/x-expands-radar-access-real-time-trend-analysis-tool-for-premium-users-11939) According to [TechCrunch](https://techcrunch.com/2024/10/21/x-rolls-out-its-real-time-search-tool-radar-to-premium-subscribers/?guccounter=1\&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8\&guce_referrer_sig=AQAAAHGYJM6G7eP7gNxD5RPmmGqFmcTuiKDJaUCDUeihLCuq_1HXhEoG897iZ3OZGqQHXuHe7vwZWKdDljXzXkiJjJPGXFjACfjbS_Up7YW37YR7581V3BZI-N64ou8laovrZAIQGkhTy-kP6DAOvpx8_Qk2jgwgm1ARWBKhPnN7zqqo), this could "perform keyword analyses, visualize trend activity, and filter conversations in real-time". According to this source, one of its "Core Features" is to track conversation volume over time and conversation velocity.
+
+We are unable to test this paid feature at the moment, but a short demo is available here: https://x.com/premium/status/1847338164412960802 and here: https://x.com/premium/status/1848510511916494970
+
+Based on this[ user's testing](https://x.com/VijarKohli/status/1848133497602322676), Radar cannot search beyond 3 days at the moment and cannot subfilter using keywords or using accounts.
 
 ## Cost
 
