@@ -33,7 +33,7 @@ X frequently uses these two types of location data.&#x20;
 
 #### _**Location from the user's device**_
 
-&#x20;If users choose to turn on location settings on their devices, X can identify the GPS coordinates of this device at the time of the post. This is particularly helpful when users want to take advantage of the search results near their respective locations.
+&#x20;If users choose to turn on location settings on their devices, X can[ identify ](https://developer.x.com/en/docs/x-api/v1/geo/places-near-location/api-reference/get-geo-search)the GPS coordinates of this device at the time of the post. This is particularly helpful when users want to take advantage of the search results near their respective locations.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-07-29 024311.png" alt="" width="375"><figcaption><p>If you're looking to find posts near your current location, there's a quicker method available. Use the “posts near me” location feature. Here are the steps: Open X on a browser or the mobile app, and enter a hashtag or search term. Choose “Near you” under the “Location” heading to filter the search results to show only posts from nearby.</p></figcaption></figure>
 
