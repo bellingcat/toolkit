@@ -77,8 +77,8 @@ Oleksii Holub ([Tyrrrz](https://github.com/Tyrrrz) on GitHub) is an open-source 
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| f0rked          |
-|                 |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
+|                           |
 
