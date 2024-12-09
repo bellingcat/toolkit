@@ -176,3 +176,4 @@
   * [Umbra Space](tools/umbra-space/README.md)
   * [Google Flood Hub](tools/google-flood-hub/README.md)
   * [Maigret](tools/maigret/README.md)
+  * [Search by Image](tools/search-by-image/README.md)
