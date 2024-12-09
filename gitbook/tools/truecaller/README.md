@@ -31,6 +31,11 @@ This app has several features, but for open-source community, these features are
 * **Caller ID** - If using the mobile app, this tool can identify the name behind a caller using its database. When a call comes in Truecaller quickly searches its database and displays the caller's name and personal details, if available.&#x20;
 * **Ease of use and access** - Ability to sign up with just a Gmail or Microsoft Live account, with no paywall and or SMS verification required. This means to use reverse phone number lookup, users do not have to provide a phone number.&#x20;
 * **Web Interface** - This is one of the few “contact book apps” that has a web interface, and does not require users to only use their mobile app.
+* **(For paid subscribers) "Verified" badge -** This means that the user who has this badge on their profile have[ his/her identity verified and that "you are who you say they are".](https://medium.com/@jasminedevv/before-you-make-a-bluesky-account-learn-about-the-privacy-model-de21e40ce9ad)&#x20;
+
+{% hint style="warning" %}
+NOTE: [This requires verifying the user's name to match their bank-registered name.](https://www.newsbytesapp.com/news/science/how-to-get-a-verified-badge-on-truecaller/story)&#x20;
+{% endhint %}
 
 ### Use Case: Digital Footprint Tracing Through Reverse Phone Number Search
 
