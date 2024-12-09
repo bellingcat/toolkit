@@ -163,11 +163,13 @@ GitHub code such as Shadow Finder requires a GitHub account so that a user can l
 
 ## Limitations
 
+Shadow Finder cannot find possible location points of a shadow from its length alone: the height of the object casting the shadow must also be known (or the elevation angle of the sun).
+
+<figure><img src=".gitbook/assets/suncalcelevationSC.jpg" alt="" width="563"><figcaption><p>THE VERTICAL ANGLE OF THE SUN IN THE SKY IS THE ELEVATION ANGLE</p></figcaption></figure>
+
 Shadow Finder does not provide the direction of the sun (azimuth angle) at each potential location for the given date, time and elevation angle of the sun. This would only be useful if it was possible to establish the orientation of the source imagery to allow confirmation.
 
 <figure><img src=".gitbook/assets/suncalcazimuthSC.jpg" alt="" width="563"><figcaption><p><strong>THE HORIZONTAL DIRECTION OF THE SUN ON A COMPASS IS THE AZIMUTH ANGLE</strong></p></figcaption></figure>
-
-<figure><img src=".gitbook/assets/suncalcelevationSC.jpg" alt="" width="563"><figcaption><p>THE VERTICAL ANGLE OF THE SUN IN THE SKY IS THE ELEVATION ANGLE</p></figcaption></figure>
 
 ## Guides and articles
 
