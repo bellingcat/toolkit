@@ -33,17 +33,17 @@ For Telegram channels, TGStat covers statistics for:
 
 For Telegram groups, TGStat also provides analytics focusing on various aspects such as:
 
-\-Member Growth
+-Member Growth
 
-\-Engagement Metrics
+-Engagement Metrics
 
-\-User Activity
+-User Activity
 
-\-Member Demographics
+-Member Demographics
 
-\-Content Analysis
+-Content Analysis
 
-\-Administrator Insights
+-Administrator Insights
 
 TGStat is useful for discovery, especially for those monitoring events in Russian-speaking countries, post-Soviet regions, or far-right groups. It analyzes a diverse set of channels and groups. The statistics are constantly being refreshed and updated in [real-time](https://databar.ai/explore/tgstat).
 
@@ -77,7 +77,7 @@ _Posts rating_: Posts are rated by the most number of [views, by shares includin
 
 <details>
 
-<summary>Other Filtering Options</summary>
+<summary>Other Filtering Options (Click to Expand)</summary>
 
 There are other ways to filter search results on TGSTAT.&#x20;
 
