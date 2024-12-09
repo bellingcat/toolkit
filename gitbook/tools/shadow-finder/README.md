@@ -15,7 +15,7 @@ description: >-
 
 <figure><img src=".gitbook/assets/Screenshot (1).JPG" alt=""><figcaption><p><strong>THE SHADOW &#x26; OBJECT MEASURED CAN ONLY LIE SOMEWHERE ON THE BRIGHT CIRCLE</strong> </p></figcaption></figure>
 
-Enter shadow length and object height, (or, instead, the angle of elevation of the sun) for a research source image, then also the date and time of the image, and see the potential locations at which such a shadow could be created for that point in time as the bright area (circle) on the world map.
+Enter shadow length and object height, (or, instead, [the angle of elevation of the sun](#user-content-fn-1)[^1]) for a research source image, then also the date and time of the image, and see the potential locations at which such a shadow could be created for that point in time as the bright area (circle) on the world map.
 
 <figure><img src=".gitbook/assets/SUNCALCTRAILSscjpg.jpg" alt=""><figcaption><p><strong>THE ANGLE OF ELEVATION OF THE SUN CAN BE FOUND FROM THE RATIO OF THE HEIGHT OF AN OBJECT TO THE SHADOW IT CASTS (USING TRIGONOMETRY)</strong></p></figcaption></figure>
 
@@ -26,7 +26,7 @@ Shadow Finder is an open source app on GitBook, which requires users to have a (
 {% endhint %}
 
 {% hint style="danger" %}
-Shadow Finder needs the date and time of the source image containing the shadow to be able to generate potential locations. This is not always available, particularly as social media sites usually remove this type of metadata (called [ExIf data](#user-content-fn-1)[^1]) before allowing an image to be posted. Researchers also need to be aware that the time and date an image is posted online is not often the same as when it was taken. HOWEVER Shadow Finder may still be useful as a "What If?" tool to exclude potential locations.
+Shadow Finder needs the date and time of the source image containing the shadow to be able to generate potential locations. This is not always available, particularly as social media sites usually remove this type of metadata (called [ExIf data](#user-content-fn-2)[^2]) before allowing an image to be posted. Researchers also need to be aware that the time and date an image is posted online is not often the same as when it was taken. HOWEVER Shadow Finder may still be useful as a "What If?" tool to exclude potential locations.
 {% endhint %}
 
 <details>
@@ -53,13 +53,13 @@ OR&#x20;
 
 <img src=".gitbook/assets/shadowdetails.JPG" alt="" data-size="original">
 
-**Definition:** The elevation angle of the sun is the inverse tangent of the ratio of the height of an object for which the sun casts a shadow to the length of that shadow. Shadow Finder needs that angle in degrees (not radians, be careful).
+**Definition:** The elevation angle of the sun is the inverse tangent of the ratio of the height of an object for which the sun casts a shadow to the length of that shadow. Shadow Finder needs that angle in degrees (not radians, be careful with units here).
 
 <img src=".gitbook/assets/SUNCALCTRAILSscjpg.jpg" alt="" data-size="original">
 
 
 
-6. and then enter the date[^2], time[^3] (and [time zone](https://en.wikipedia.org/wiki/Time_zone) you are using):
+6. and then enter the date[^3], time[^4] (and [time zone](https://en.wikipedia.org/wiki/Time_zone) you are using):
 
 <img src=".gitbook/assets/dateandtime.JPG" alt="" data-size="original">
 
@@ -67,11 +67,11 @@ OR&#x20;
 
 <img src=".gitbook/assets/image (2) (1).png" alt="" data-size="original">
 
-8. If you get this warning message, click the "Run anyway" button if you're happy that [the code isn't abusing your privacy](#user-content-fn-4)[^4].
+8. If you get this warning message, click the "Run anyway" button if you're happy that [the code isn't abusing your privacy](#user-content-fn-5)[^5].
 
 <img src=".gitbook/assets/Warning message.JPG" alt="" data-size="original">
 
-9. Be aware that the code may not always run instantaneously and could 'queue' for a brief time. The elapsed run time will be shown whilst executing the code and the total time taken displayed upon completion next to the Run arrow button. The output takes the form of a world map (see top of page) showing all possible points satisfying the input conditions on date, time, object height and shadow length (the circular locus[^5]).
+9. Be aware that the code may not always run instantaneously and could 'queue' for a brief time. The elapsed run time will be shown whilst executing the code and the total time taken displayed upon completion next to the Run arrow button. The output takes the form of a world map (see top of page) showing all possible points satisfying the input conditions on date, time, object height and shadow length (the circular locus[^6]).
 10. Change the input values at will and re-run as required.
 
 </details>
@@ -88,11 +88,11 @@ The length of the shadow fed into Shadow Finder can only be measured directly fr
 
 {% tabs %}
 {% tab title="1. GitHub Page: Press Orange Button > Colab)" %}
-<figure><img src=".gitbook/assets/GitHub page shadowfinder.JPG" alt=""><figcaption><p>THE SHADOW FINDER PAGE ON GITHUB. PRESS THE ORANGE "TRY IT ON COLAB" BUTTON TO RUN THE PROGRAM...</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ColabbuttonANNOTATED.jpg" alt=""><figcaption><p><strong>THIS IS WHAT THE SHADOW FINDER PAGE LOOKS LIKE ON GITHUB. PRESS THE ORANGE 'TRY IT ON COLAB' BUTTON TO RUN SHADOW FINDER USING THE COLAB ENVIRONMENT.</strong></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="2. Colab Interface: Enter Data +Run" %}
-<figure><img src=".gitbook/assets/ColabInterface (1).JPG" alt=""><figcaption><p>WHEN YOU HIT THE ORANGE BUTTON, THIS IS WHAT THE APP LOOKS LIKE, WAITING FOR INPUT DATA FROM YOU. ADD THE DATA AND HIT THE WHITE 'RUN' BUTTON UNDER "FIND A SHADOW" TO SEE THE OUTPUT MAP WITH POSSIBLE SHADOW LOCATIONS</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ColabInterfaceANNOTATED.jpg" alt=""><figcaption><p><strong>THIS SHADOW FINDER INTERFACE APPEARS AFTER YOU PRESS THE ORANGE 'TRY IT ON COLAB' BUTTON. FILL IN THE TEXT BOXES AND THEN PRESS THE 'RUN' BUTTON OUTLINED IN YELLOW FOR A RESULT.</strong></p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -101,10 +101,8 @@ The first tab above (GitHub Page tab) shows what the Shadow Finder page looks li
 The second tab above (Click on the COLAB INTERFACE tab) shows the Colab interface which will appear after the user Runs Shadow Finder in Colab using the Orange Button.
 
 {% hint style="info" %}
-There are multiple alternative routes to running the Shadow Finder code in addition to Colab, e.g. direct from Python. Colab is a simple route.
+There are multiple alternative routes to running the Shadow Finder code in addition to Colab, e.g. direct from Python. Colab is shown here because it is a simple route.
 {% endhint %}
-
-<figure><img src=".gitbook/assets/ColabInterface.JPG" alt=""><figcaption><p>COLAB INTERFACE FOR TAKING USER INPUTS AND RUNNING THE CODE ON THEM</p></figcaption></figure>
 
 ### Shadow Finder for Open Source Research: Use Cases, Data Input, Shadow Finder Outputs, How to Enter Data... (Click each of the four tabs for more detail)
 
@@ -122,7 +120,7 @@ There are multiple alternative routes to running the Shadow Finder code in addit
 {% endtab %}
 
 {% tab title="Shadow Finder Output Data" %}
-The path of points (called a locus[^6] - in this case, the path is a circle) which satisfy the input criteria, drawn on a map of the world. This shows all possible locations where such a shadow could have been observed on that date at that time. Of course, the shadow would have a different orientation (azimuth angle) at different locations along the locus.
+The path of points (called a locus[^7] - in this case, the path is a circle) which satisfy the input criteria, drawn on a map of the world. This shows all possible locations where such a shadow could have been observed on that date at that time. Of course, the shadow would have a different orientation (azimuth angle) at different locations along the locus.
 {% endtab %}
 
 {% tab title="USE CASES" %}
@@ -167,6 +165,10 @@ GitHub code such as Shadow Finder requires a GitHub account so that a user can l
 
 Shadow Finder does not provide the direction of the sun (azimuth angle) at each potential location for the given date, time and elevation angle of the sun. This would only be useful if it was possible to establish the orientation of the source imagery to allow confirmation.
 
+<figure><img src=".gitbook/assets/suncalcazimuthSC.jpg" alt="" width="563"><figcaption><p><strong>THE HORIZONTAL DIRECTION OF THE SUN ON A COMPASS IS THE AZIMUTH ANGLE</strong></p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/suncalcelevationSC.jpg" alt="" width="563"><figcaption><p>THE VERTICAL ANGLE OF THE SUN IN THE SKY IS THE ELEVATION ANGLE</p></figcaption></figure>
+
 ## Guides and articles
 
 [https://www.bellingcat.com/resources/2024/08/22/shadow-geolocate-geolocation-locate-image-tool-open-source-bellingcat-measure/?utm\_source=discord](https://www.bellingcat.com/resources/2024/08/22/shadow-geolocate-geolocation-locate-image-tool-open-source-bellingcat-measure/?utm_source=discord)
@@ -186,15 +188,17 @@ Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen
 | Sophie Tedling  |
 |                 |
 
-[^1]: EXIF data can contain non-visual information about an image, e.g. type of camera and lens, date and time the image was taken, location at which it was taken,...
+[^1]: ![](<.gitbook/assets/suncalcelevationSC (2).jpg>)
 
-[^2]: Date format "dd/mm/yyyy"
+[^2]: EXIF data can contain non-visual information about an image, e.g. type of camera and lens, date and time the image was taken, location at which it was taken,...
 
-[^3]: Time format "hh:mm:ss"
+[^3]: Date format "dd/mm/yyyy"
 
-[^4]: You can view the code by clicking on "Show code" in blue at the bottom of the section under "time type:"
+[^4]: Time format "hh:mm:ss"
 
-[^5]: 
+[^5]: You can view the code by clicking on "Show code" in blue at the bottom of the section under "time type:"
+
+[^6]: 
 
     ### Definitions
 
@@ -202,7 +206,7 @@ Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen
 
     * noun _Mathematics_ The set or configuration of all points whose coordinates satisfy a single equation or one or more algebraic conditions.
 
-[^6]: 
+[^7]: 
 
     ### Definitions
 
