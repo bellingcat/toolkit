@@ -150,4 +150,4 @@ Read the extension's [privacy policy](https://github.com/dessant/search-by-image
 
 | Page maintainer           |
 | ------------------------- |
-| Bellingcat volunteer team |
+| Bellingcat Volunteer Team |
