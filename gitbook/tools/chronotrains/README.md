@@ -23,7 +23,11 @@ This tool helps users visualize train destinations within Europe. When users hov
 
 \- Select the amount of time you want to travel (e.g., minimum 1 hour, up to 8 hours maximum).
 
-\- The map will update to show the areas you can reach within the selected time frame.
+\- The map will update to show the areas you can reach within the selected time frame.&#x20;
+
+* As of Dec 2024, the map may sometimes include not just information on the approximate travel time but also the trip's price.&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2024-12-08 235600.png" alt=""><figcaption><p>If the data is available, the map will sometimes show not just the approximate travel time but also the price. Click to enlarge the the map of Krakow, Poland for a sample of this new map feature. </p></figcaption></figure>
 
 **Exploring Options:**
 
@@ -76,7 +80,7 @@ For each station, the system checks to which other stations you can get in a cer
 
 **Data Source:**
 
-**Deutsche Bahn (DB) Data:** The information about train times and stations comes from Deutsche Bahn. Deutsche Bahn co-operates routes with different countries' rail systems ([https://io.deutschebahn.com/en/services/passenger-rail/](https://io.deutschebahn.com/en/services/passenger-rail/)) and therefore has data on train schedules for [international destinations](https://ibir.deutschebahn.com/2023/fileadmin/downloads/db\_ib23\_e\_web\_01.pdf) (based on 2023 Integrated Report, p.38, p.49). According to DB International Operations’ website, “DB’s regional services do not only operate in Germany, but also across borders and in other European countries, including the UK, Czech Republic, Denmark, the Netherlands, Poland, and Portugal.”
+**Deutsche Bahn (DB) Data:** The information about train times and stations comes from Deutsche Bahn. Deutsche Bahn co-operates routes with different countries' rail systems ([https://io.deutschebahn.com/en/services/passenger-rail/](https://io.deutschebahn.com/en/services/passenger-rail/)) and therefore has data on train schedules for [international destinations](https://ibir.deutschebahn.com/2023/fileadmin/downloads/db_ib23_e_web_01.pdf) (based on 2023 Integrated Report, p.38, p.49). According to DB International Operations’ website, “DB’s regional services do not only operate in Germany, but also across borders and in other European countries, including the UK, Czech Republic, Denmark, the Netherlands, Poland, and Portugal.”
 
 **API by Direkt Bahn Guru:** This data is made easier to access and use through a tool (API) provided by [Direkt Bahn Guru](https://direkt.bahn.guru/), which helps organize and provide the data in a convenient format.
 
@@ -139,7 +143,7 @@ According to its [GitHub page](https://github.com/benjamintd/chronotrains), when
 
 6. **Some Trains May Be Not Be Reflected on the Map**
 
-[A post from May 2023](https://x.com/jason\_boyer/status/1663822318982889472), shows that certain train connections that should be visible on the map may not appear (to date, the issue described in the post does not seem to occur anymore at that specific location). In addition, there is another reason why some train information are missing. Since Chronotrains also uses data from Direkt Bahn Guru, this GitHub page acknowledges that: [“The API includes most trains in central Europe, but data availability gets significantly lower the further away stations are from routes (co-) operated by DB.” ](https://gist.github.com/juliuste/f9776a6b7925bc6cc2d52225dd83336e)Also, according to this page, trains from smaller companies are often not included compared to those from state-owned operators, probably because they don't share data as much.
+[A post from May 2023](https://x.com/jason_boyer/status/1663822318982889472), shows that certain train connections that should be visible on the map may not appear (to date, the issue described in the post does not seem to occur anymore at that specific location). In addition, there is another reason why some train information are missing. Since Chronotrains also uses data from Direkt Bahn Guru, this GitHub page acknowledges that: [“The API includes most trains in central Europe, but data availability gets significantly lower the further away stations are from routes (co-) operated by DB.” ](https://gist.github.com/juliuste/f9776a6b7925bc6cc2d52225dd83336e)Also, according to this page, trains from smaller companies are often not included compared to those from state-owned operators, probably because they don't share data as much.
 
 7. **Data From Deutsche Bahn API Has** [**Limits**](https://gist.github.com/juliuste/f9776a6b7925bc6cc2d52225dd83336e)**.**
 
@@ -171,7 +175,7 @@ A description and demo for the tool, including an interview with the tool provid
 
 ## Tool provider
 
-Benjamin Tran Dinh, [https://x.com/\_benjamintd](https://x.com/\_benjamintd), France, [https://x.com/chronotrains](https://x.com/chronotrains)
+Benjamin Tran Dinh, [https://x.com/\_benjamintd](https://x.com/_benjamintd), France, [https://x.com/chronotrains](https://x.com/chronotrains)
 
 ## Advertising Trackers
 
