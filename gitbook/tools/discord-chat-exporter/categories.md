@@ -15,7 +15,7 @@
 
 ## Social Media
 
-* [ ] [Discord](https://bellingcat.gitbook.io/toolkit/categories/social-media/discord)
+* [x] [Discord](https://bellingcat.gitbook.io/toolkit/categories/social-media/discord)
 * [ ] [Facebook](https://bellingcat.gitbook.io/toolkit/categories/social-media/facebook)
 * [ ] [Instagram](https://bellingcat.gitbook.io/toolkit/categories/social-media/instagram)
 * [ ] [LinkedIn](https://bellingcat.gitbook.io/toolkit/categories/social-media/linkedin)
@@ -30,7 +30,7 @@
 
 ## Other
 
-* [ ] [Archiving](https://bellingcat.gitbook.io/toolkit/categories/archiving)
+* [x] [Archiving](https://bellingcat.gitbook.io/toolkit/categories/archiving)
 * [ ] [Companies & Finance](https://bellingcat.gitbook.io/toolkit/categories/companies-and-finance)
 * [ ] [Conflict](https://bellingcat.gitbook.io/toolkit/categories/conflict)
 * [ ] [Data Organization & Analysis](https://bellingcat.gitbook.io/toolkit/categories/data)
