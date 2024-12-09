@@ -126,8 +126,6 @@ Even though the extension seems to be actively maintained, certain events—such
 
 Make sure you have the right to use the selected search engines in your location.
 
-Be aware that some search engines may retain data on images that are queried. This could include image URLs or metadata, which may raise privacy concerns if sensitive images are searched. For example, [PimEyes has been at the center of controversy](https://www.bbc.com/news/technology-63544169) for enabling users to upload a photo and find instances of the same face online.&#x20;
-
 Engaging in doxxing, harassment, or sharing explicit content without consent is illegal and carries serious consequences under many jurisdictions' laws.
 
 ## Guides and articles
