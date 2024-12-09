@@ -63,7 +63,7 @@ This tool is designed to support journalists, investigators, and fact-checkers i
 * Select your target search engine
 * Select the image from your local files
 
-**Note:** in this mode you can also paste an image from your clipboard by selecting "Paste" instead of "Browse"
+**Note:** in this mode you can also paste an image from your clipboard by selecting "Paste" instead of "Browse".
 
 <figure><img src=".gitbook/assets/5.webp" alt=""><figcaption><p><strong>Browse Mode</strong></p></figcaption></figure>
 
