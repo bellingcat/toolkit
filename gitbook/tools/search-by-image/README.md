@@ -136,7 +136,7 @@ Engaging in doxxing, harassment, or sharing explicit content without consent is 
 
 ## Tool provider
 
-Armin Sebastian ([@dessant on GitHub](https://github.com/dessant)) is a EU developer specializing in open source browser extensions that enhance user experience and accessibility.&#x20;
+Armin Sebastian ([@dessant on GitHub](https://github.com/dessant)) is an EU based developer specializing in open source browser extensions that enhance user experience and accessibility.
 
 ## Advertising Trackers
 
