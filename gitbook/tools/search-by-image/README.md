@@ -142,7 +142,7 @@ Armin Sebastian ([@dessant on GitHub](https://github.com/dessant)) is an EU base
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-Extension does not use tracking cookies but most of the search engines do. For your privacy, make sure to check the search engines' privacy policies.
+The Search by Image Extension does not use tracking cookies but most of the search engines do. For your privacy, make sure to check the search engines' privacy policies.
 
 Read the extension's [privacy policy](https://github.com/dessant/search-by-image/wiki/Privacy-policy) here.
 
