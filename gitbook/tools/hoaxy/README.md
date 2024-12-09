@@ -1,8 +1,8 @@
 ---
+icon: share-nodes
 description: >-
   Hoaxy is a web-based search and visualization tool. It helps visualize the
   spread of information on Bluesky and X (Twitter).
-icon: share-nodes
 ---
 
 # Hoaxy
@@ -14,14 +14,14 @@ icon: share-nodes
 ## Description
 
 {% hint style="info" %}
-NOTE: Hoaxy was [first developed in 2016](https://www.researchgate.net/publication/301841797\_Hoaxy\_A\_Platform\_for\_Tracking\_Online\_Misinformation). This toolkit description tested the most recent version and its features to date.
+NOTE: Hoaxy was [first developed in 2016](https://www.researchgate.net/publication/301841797_Hoaxy_A_Platform_for_Tracking_Online_Misinformation). This toolkit description tested the most recent version and its features to date.
 {% endhint %}
 
 Hoaxy assists in unraveling the complex web of information dissemination online, particularly on X (Twitter) and Bluesky. It primarily addresses the problem of mis- and disinformation spreading rapidly on social media platforms. Users can search for a particular topic or keyword on either platform, and it will automatically generate a graph showing the spread of information.
 
 ### What problem does it solve?
 
-The tool providers saw that [false claims spread faster than fact-checked claims](https://www.researchgate.net/publication/301841797\_Hoaxy\_A\_Platform\_for\_Tracking\_Online\_Misinformation)(p.1). [According to them](https://www.researchgate.net/publication/301841797\_Hoaxy\_A\_Platform\_for\_Tracking\_Online\_Misinformation), social media networks often show us information from people who think like us, creating echo chambers where we see similar views and ideas repeatedly (p.1).
+The tool providers saw that [false claims spread faster than fact-checked claims](https://www.researchgate.net/publication/301841797_Hoaxy_A_Platform_for_Tracking_Online_Misinformation)(p.1). [According to them](https://www.researchgate.net/publication/301841797_Hoaxy_A_Platform_for_Tracking_Online_Misinformation), social media networks often show us information from people who think like us, creating echo chambers where we see similar views and ideas repeatedly (p.1).
 
 For open-source researchers wanting to verify false claims, it is important to recognize that the anatomy of information dissemination has multiple moving parts: When did a narrative start? Where did it first appear? Who is the source of the narrative? How credible is the source? And who are the receivers/audience? Among the receivers, which accounts forwarded the information? How fast did a particular narrative spread within a particular time frame?
 
@@ -93,11 +93,7 @@ Track the evolution of a topic over time, identifying peak interest and potentia
 TIP: Hovering your mouse over the graph to either the left or right will show the dates and the number of posts generated on that particular date.
 {% endhint %}
 
-<div align="center">
-
-<figure><img src=".gitbook/assets/Temporal trends 1.png" alt="" width="188"><figcaption><p>(Click to enlarge) This image shows the timeline of how posts about a specific topic spread over time. In this example, the tool automatically generates a timeframe from 13 March 2024 to 17 April 2024 (shown in the orange square). On the top of the image are options to "add old posts" or "add new posts" (shown in green circles).</p></figcaption></figure>
-
-</div>
+<div align="center"><figure><img src=".gitbook/assets/Temporal trends 1.png" alt="" width="188"><figcaption><p>(Click to enlarge) This image shows the timeline of how posts about a specific topic spread over time. In this example, the tool automatically generates a timeframe from 13 March 2024 to 17 April 2024 (shown in the orange square). On the top of the image are options to "add old posts" or "add new posts" (shown in green circles).</p></figcaption></figure></div>
 
 **Middle Panel**
 
@@ -111,7 +107,7 @@ The tool also allows you to play a short animated clip showing how the nodes and
 
 #### CHECKING YOUR RESULTS
 
-It is advisable to check the graph to see what kind of data and content is being displayed and whether it matches your research topic. To do this, users can select a cluster and click on a node/user account. It will generate a pop-up window showing how the account mentions, replies to, or quotes. It will also share a link to the particular post being discussed. Users can also click on the edges (connecting lines) and this will generate a pop-up window showing the post itself.
+It is advisable to check the graph to see what kind of data and content is being displayed and whether it matches your research topic. To do this, users can select a cluster and click on a node/user account. It will generate a pop-up window showing who that account mentions, replies to, or quotes. It will also share a link to the particular post being discussed. Users can also click on the edges (connecting lines) and this will generate a pop-up window showing the post itself.
 
 <table data-card-size="large" data-view="cards" data-full-width="true"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Click on a node, and it will show you actions made by that account and who it interacted with. In this example, we did a Bluesky search for @bellingcat.com. On the right side, we selected the account @scrippsnews.bsky.social, and to the left, a pop-up window appears to show the activity. Underneath (shown in green arrows) are links to the post or content being forwarded.</td><td></td><td></td><td><a href=".gitbook/assets/Bellingcat viz node feature 1.png">Bellingcat viz node feature 1.png</a></td></tr><tr><td></td><td>Click on an edge (the color-coded connecting lines) to automatically generate a pop-up window showing the content being shared from one account to another (or from one node to another).</td><td></td><td><a href=".gitbook/assets/Bellingcat viz Node 1.png">Bellingcat viz Node 1.png</a></td></tr></tbody></table>
 
@@ -127,7 +123,7 @@ Open-source researchers can analyze the network of users who shared a piece of i
 * [x] Partially Free
 * [ ] Paid
 
-Bluesky search and importing your own data is free, but an X/Twitter search requires a Bearer Token that can only be available if the user pays for an [X Premium subscription](https://x.com/i/premium\_sign\_up).
+Bluesky search and importing your own data is free, but an X/Twitter search requires a Bearer Token that can only be available if the user pays for an [X Premium subscription](https://x.com/i/premium_sign_up).
 
 ## Level of difficulty
 
@@ -151,7 +147,7 @@ Bluesky search and importing your own data is free, but an X/Twitter search requ
 7. **Needs Some Familiarity with Network Analysis for Interpretation:** To fully understand and make sense of the data visualizations provided by Hoaxy, it's helpful to have some background knowledge in [network analysis](https://www.skopenow.com/news/uncovering-connections-how-link-analysis-can-streamline-osint-investigations).
 8. **Content Analysis:** Hoaxy is not a tool for distinguishing between different types of mis- and disinformation. Users may need additional tools or methods to conduct detailed content analysis and identify various forms of mis- and disinformation accurately. According to [UNESCO World Media Trends,](https://www.unesco.org/en/world-media-trends/hoaxy) “A claim may be a false news article, hoax, rumor, conspiracy theory, satire, or even an accurate report. (Hoaxy) is not meant to be used as a fact-checking tool but rather to understand how disinformation and misinformation is being spread by non-trustworthy accounts.”
 
-Overall, while Hoaxy is created as a comprehensive tool, its reliance on specific data sources, limited platform scope, and occasional usability issues highlight the gap between its advertised capabilities and its practical utility. Hoaxy is best used in addition to other open-source investigative tools.
+Overall, while Hoaxy is created as a comprehensive tool, its reliance on specific data sources, limited platform scope, and occasional usability issues highlight some gaps in it's capabilties. Hoaxy is best used in addition to other open-source investigative tools.
 
 ## Ethical Considerations
 
