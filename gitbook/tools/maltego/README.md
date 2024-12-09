@@ -1,9 +1,9 @@
 ---
+icon: share-nodes
 description: >-
   Maltego Graph is an investigation platform that combines two things at once:
   (1) It acts as a search tool, and (2) It creates a graph establishing links
   between data you uncover from your search.
-icon: share-nodes
 ---
 
 # Maltego Graph
@@ -60,7 +60,6 @@ _**Maltego CE**_ (Community Edition):
 
 &#x20;_**Maltego Professional**_
 
-* EUR 5,000 or USD 5,500 per year
 * See the available data sources for this plan [here](https://www.maltego.com/transform-hub/?q=available-for-licenses-maltego-pro).
 * Learn more about this plan [here](https://get.maltego.com/maltego-professional).
 
@@ -77,7 +76,7 @@ _**Maltego Organization**_
 
 Depending on the product, users can either sign up on the Maltego website (for Maltego CE) or they need to purchase a license via their web shop (Maltego Professional) or by contacting Maltego directly (Maltego Organization), see [here](https://www.maltego.com/pricing-plans/).
 
-## &#x20;Limitations
+## Limitations
 
 Maltego's limitation for open source researchers, regardless of which editions, are:
 
