@@ -254,7 +254,7 @@ The different paid tiers are:&#x20;
 
 ## Requirements
 
-1. Create a user account
+1. Create an user account
 2. Mobile or desktop device
 3. Internet connection
 4. Paid subscription, if interested in historical flights and more flights with tail number and registration information (at the moment, not all aircraft has these identifiers available with a free account).&#x20;
