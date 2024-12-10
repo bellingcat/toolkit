@@ -278,7 +278,7 @@ The different paid tiers are:&#x20;
 
 #### Privacy and Data Restrictions
 
-* **Take-Down Requests:** As mentioned above, FlightAware may comply with take-down requests from aircraft owners seeking to protect their privacy, resulting in the removal of flight data. Hence, not all registration information is available. Flightradar24 and [ ADS-B Exchange have a more open approach ](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)and will contain more registration information than FlightAware.
+* **Take-Down Requests:** As mentioned above, FlightAware may comply with take-down requests from aircraft owners seeking to protect their privacy, resulting in the removal of flight data. Hence, not all registration information is available. Flightradar24 and  ADS-B Exchange [have a more open approach](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) and will contain more registration information than FlightAware.
 * **Limited Registration Data:** As mentioned above, under Identifiers and Registration numbers, FlightAware primarily displays US registration numbers for aircraft, limiting its ability to track international flights or planes with non-US registrations.
 
 ## Ethical Considerations
