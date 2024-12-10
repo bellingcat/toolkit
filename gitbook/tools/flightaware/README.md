@@ -323,8 +323,6 @@ OSINT: Tracking Ships, Planes and Weapons [https://elearning.aljazeera.net/en/jo
 
 **Photos:** [Planespotters.net](https://www.planespotters.net/), [Jetphotos.com](https://www.jetphotos.com/)
 
-**Social media:**&#x20;
-
 **Twitter hashtags:** [#aviation](https://twitter.com/hashtag/aviation?src=hashtag_click), [#avgeek](https://twitter.com/hashtag/avgeek?src=hashtag_click), [#planespotting](https://twitter.com/hashtag/planespotting?src=hashtag_click), [#flight](https://twitter.com/hashtag/flight?src=hashtag_click), and [#MilAvGeek](https://twitter.com/hashtag/MilAvGeek?src=hashtag_click).
 
 ## Tool provider
