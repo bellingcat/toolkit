@@ -43,12 +43,14 @@ On the other hand, the **hosted** option involves using Uwazi’s managed hostin
 
 * &#x20;An independent security audit conducted by Recurity Labs (commissioned by HURIDOCS) evaluated Uwazi’s architecture and code against common vulnerabilities (based on OWASP and SANS standards). The assessment confirmed that Uwazi maintains a high level of security. Several minor issues were identified, which have since been addressed and patched. Regular Audits are planned.
 * Uwazi integrates several technical measures that contribute to a secure environment for handling sensitive human rights documentation and related materials. These features include support for HTTPS encryption, secure user authentication (including two-factor authentication), and the option to run Uwazi behind a reverse proxy for additional network protections. Admins can configure role-based permissions to ensure only authorized users can access or modify sensitive content. Additionally, Uwazi supports regular updates, backups, and indexing maintenance, providing a stable foundation for safeguarding data integrity. Together, these features make Uwazi a practical choice for organizations that need reliable, secure digital infrastructure for their human rights work.
+  * For configuring HTTPS, reverse proxy, and environment variables: [Sysadmin Guide](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html)
+  * For enabling two-factor authentication (2FA) and managing user permissions:[ Administrator’s Guide](https://uwazi.readthedocs.io/en/latest/admin-docs/managing-settings.html#how-to-configure-your-account)
+  * For backup and indexing procedures: [Sysadmin Guide](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/back-up-restore.html)
 
 For more detailed information and guidance, users can consult:
 
 * **Security Information:** [Uwazi Security Page](https://uwazi.io/page/o7annbvfatg/security)
-* **Documentation and Best Practices:** Uwazi Guides
-* **Privacy & Cookies Policies:** Privacy Policy, Cookies Policy
+* **Privacy & Cookies Policies:** [Privacy Policy](https://uwazi.io/page/frhg6i127jc/privacy-policy), [Cookies Policy](https://uwazi.io/page/sg0hbnvot3l/cookies-policy)
 
 #### **Best Practices for Uwazi Administration if running locally**
 
@@ -72,7 +74,7 @@ For detailed instructions and configurations, refer to the [Sysadmin Guide](http
 * [x] Partially Free
 * [ ] Paid
 
-Uwazi offers a flexible pricing structure. The **self-hosted** version is free, allowing organizations to download and run the platform on their servers. For those preferring a managed solution, Uwazi provides a **hosted** service starting with a free 30-day trial. After the trial, the pricing is scaled based on the organization's needs, with the first 100MB free for projects with a human rights impact. Hosting fees support ongoing development and maintenance, with financial backing from partners like the MacArthur Foundation and other organizations.
+Uwazi offers a flexible pricing structure. The **self-hosted** version is free, allowing organizations to download and run the platform on their servers. For those preferring a managed solution, Uwazi provides a **hosted** service starting with a free 30-day trial. After the trial, the pricing is scaled based on the organization's needs, with the first 100MB free for projects with a human rights impact. Hosting fees support ongoing development and maintenance, with financial backing from partners like the [MacArthur Foundation](https://en.wikipedia.org/wiki/MacArthur_Foundation) and other organizations.
 
 ## Level of difficulty
 
@@ -84,11 +86,12 @@ To use Uwazi, particularly if you're opting for the self-hosted version, you'll 
 
 ## Limitations
 
-*   **Technical Setup**: Setting up and customizing Uwazi can require significant technical expertise, especially for self-hosted deployments. While managed hosting is available, it may come with additional costs.
-
-    **Integration Capabilities**: Uwazi's ability to integrate with other tools and platforms is somewhat limited, which could challenge organizations using a diverse software ecosystem.
-
-    **Configuration Requirements**: Uwazi's flexibility demands careful initial configuration, including defining categories, relationships, templates, and filters. This process can be complex, particularly for projects with extensive data needs.&#x20;
+* **Technical Setup:**\
+  Setting up and customizing Uwazi can require significant technical expertise, especially for self-hosted deployments. While managed hosting options are available, they may involve additional costs.
+* **Integration Capabilities:**\
+  Uwazi integrates with certain data sources and tools out of the box, including MongoDB and Elasticsearch for storage and indexing, as well as mapping services like Mapbox or Google Maps. Its public APIs also support reading and indexing data, and it can accommodate a variety of document formats. However, broad pre-built integrations with external content management systems, analytical platforms, or proprietary tools are limited. Organizations working within complex or diverse technical ecosystems may need to invest in custom development, use Uwazi’s APIs, or rely on manual data exchange methods to achieve seamless integration.
+* **Configuration Requirements:**\
+  Uwazi’s flexibility demands careful initial configuration, involving the definition of categories, relationships, templates, and filters. For projects with substantial data requirements or intricate structures, this setup can be complex and time-consuming.
 
 ## Ethical Considerations
 
