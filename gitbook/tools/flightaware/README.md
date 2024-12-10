@@ -21,7 +21,7 @@ TIP: Finding plane information requires a multi-source approach. Check more than
 {% endhint %}
 
 {% hint style="warning" %}
-NOTE: FlightAware is useful for tracking the following types of flights  (see a list of flight types in the filtering options box on the right hand side above the [live map](https://www.flightaware.com/live/map)):  [commercial flights](#user-content-fn-1)[^1], [business flights](#user-content-fn-2)[^2], [cargo flights](#user-content-fn-3)[^3], [general aviation flights](#user-content-fn-4)[^4], and MEDEVAC[^5]. However, take note that it honors requests to remove any aircraft if the owner asks for it as pointed out in this [planespotting guide by GIJN](https://gijn.org/resource/planespotting-an-updated-guide-to-tracking-aircraft-around-the-world/).
+NOTE: FlightAware is useful for tracking the following types of flights (see a list of flight types in the filtering options box on the right hand side above the [live map](https://www.flightaware.com/live/map)):  [commercial flights](#user-content-fn-1)[^1], [business flights](#user-content-fn-2)[^2], [cargo flights](#user-content-fn-3)[^3], [general aviation flights](#user-content-fn-4)[^4], and MEDEVAC[^5]. However, take note that it honors requests to remove any aircraft if the owner asks for it as pointed out in this [planespotting guide by GIJN](https://gijn.org/resource/planespotting-an-updated-guide-to-tracking-aircraft-around-the-world/).
 {% endhint %}
 
 When used for open-source investigations, flight-tracking websites like FlightAware can assist in:
@@ -51,7 +51,7 @@ _**Search by aircraft: Hover or click on any aircraft**_
 * estimated landing time&#x20;
 * speed&#x20;
 
-<figure><img src=".gitbook/assets/Live MaP (1).png" alt=""><figcaption><p>This is a view of the live map of FlightAware, found on the landing page of the tool. Search an area or region of interest and hover over aircraft to find details. In this case, we are looking at a United Airlines flight 195, Call sign UAL:195, on a Boeing 772, flying at around 38000 ft, at the speed of 519 mph.  The aircraft came from Munich International Airport and arrived at San Francisco International Airport. Clicking on this aircraft, by contrast, will provide more details on a separate page (NOTE that speed and altitude data are estimates provided by the data source.)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Live MaP (1).png" alt=""><figcaption><p>This is a view of the live map of FlightAware, found on the landing page of the tool. Search an area or region of interest and hover over an aircraft to find details. In this case, we are looking at a United Airlines flight 195, Call sign UAL:195, on a Boeing 772, flying at around 38000 ft, at the speed of 519 mph.  The aircraft came from Munich International Airport and arrived at San Francisco International Airport. Clicking on this aircraft, by contrast, will provide more details on a separate page (NOTE that speed and altitude data are estimates provided by the data source.)</p></figcaption></figure>
 
 **Clicking on an aircraft :** This will take you to a dedicated page for that flight with all the necessary flight information and aircraft information (as described below).
 
