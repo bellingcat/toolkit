@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-**Uwazi** is an open-source platform that simplifies document collection management, organization, and analysis, particularly for human rights documentation and justice-focused projects. It addresses the challenge of storing, categorizing, and retrieving large volumes of sensitive information, making it easy to manage complex datasets.
+Uwazi is an open-source platform designed to manage and organize document collections, often used in human rights documentation and advocacy contexts. It addresses the challenge of storing, categorizing, and retrieving large volumes of sensitive information, making it easy to manage complex datasets.
 
 With Uwazi, researchers can upload documents in bulk, organize them with precise metadata, cross-reference related materials, and search the entire collection efficiently. The platform also allows the translation of records into multiple languages, visualizes data in various formats, and allows collaboration with team members while maintaining strict security controls.
 
@@ -22,6 +22,8 @@ Uwazi is ideal for organizations and individuals who need a user-friendly, secur
 Uwazi offers two deployment options: **self-hosted (free)** and **hosted**. With the **self-hosted** option, users can download and set up Uwazi on their own servers at no cost. This option provides full control over the platform, including customization and data security, but it requires technical expertise to install, manage, and maintain the server environment. Self-hosting also implies responsibility for implementing security measures, performing updates, and ensuring system reliability, which might be challenging for organizations without a dedicated IT team.
 
 On the other hand, the **hosted** option involves using Uwazi’s managed hosting service, where the platform is hosted and maintained by [HURIDOCS](https://huridocs.org/). This option is ideal for organizations that prefer a hassle-free setup with support and regular updates handled by the Uwazi team. While hosted services typically involve a cost beyond the initial free 30-day trial, they offer the convenience of professional management, enhanced security, and reliable uptime, making it a suitable choice for organizations with limited technical resources.
+
+<div><figure><img src=".gitbook/assets/Screenshot 2024-09-25 115523.png" alt=""><figcaption><p>This screenshot illustrates Uwazi’s geospatial mapping capability, allowing users to visually pinpoint and organize documented information by location.</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2024-09-25 115546.png" alt=""><figcaption><p>Uwazi’s functionality for defining and managing relationships between different categories or templates of information. It shows how various entity types (e.g., Organization, Incident, Individuals) can be connected, enabling users to structure their data and understand links between different records.</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2024-09-25 115606.png" alt=""><figcaption><p>This screenshot illustrates Uwazi’s metadata configuration capabilities, showing how administrators can define, edit, and organize custom fields (e.g., text, numeric, relationships, links) to structure the information collected about a particular entity type.</p></figcaption></figure></div>
 
 #### Key Features:
 
@@ -35,11 +37,28 @@ On the other hand, the **hosted** option involves using Uwazi’s managed hostin
 8. **Security and Compliance**: Uwazi incorporates strong security measures, including encrypted data storage and secure access controls, ensuring compliance with privacy regulations and safeguarding sensitive information.
 9. Integration with the Tella App: Once set up, Uwazi databases can be populated via the [Tella App](https://tella-app.org/), which provides encrypted asynchronous uploads of photos and videos from a user's phone, in an environment separate from the phone's gallery.
 
+### **Security Measures:**
+
 #### Development and Community:
 
-* **Open Source and GitHub**: Uwazi is an open-source project, and its source code is hosted on [GitHub](https://github.com/huridocs/uwazi). This allows developers to contribute to the platform, report issues, and suggest improvements. The repository includes detailed documentation, instructions for setting up Uwazi, and active issue tracking.
-* **Community Contributions**: The GitHub page for Uwazi encourages contributions from the community, whether in the form of bug fixes, new features, or enhancements. The repository also provides a roadmap, outlining upcoming features and improvements.
-* **Continuous Updates**: Uwazi is regularly updated with new features and security patches, ensuring the platform remains robust and up-to-date. Users and developers can follow the repository to stay informed about the latest changes.
+* &#x20;An independent security audit conducted by Recurity Labs (commissioned by HURIDOCS) evaluated Uwazi’s architecture and code against common vulnerabilities (based on OWASP and SANS standards). The assessment confirmed that Uwazi maintains a high level of security. Several minor issues were identified, which have since been addressed and patched. Regular Audits are planned.
+* Uwazi integrates several technical measures that contribute to a secure environment for handling sensitive human rights documentation and related materials. These features include support for HTTPS encryption, secure user authentication (including two-factor authentication), and the option to run Uwazi behind a reverse proxy for additional network protections. Admins can configure role-based permissions to ensure only authorized users can access or modify sensitive content. Additionally, Uwazi supports regular updates, backups, and indexing maintenance, providing a stable foundation for safeguarding data integrity. Together, these features make Uwazi a practical choice for organizations that need reliable, secure digital infrastructure for their human rights work.
+
+For more detailed information and guidance, users can consult:
+
+* **Security Information:** [Uwazi Security Page](https://uwazi.io/page/o7annbvfatg/security)
+* **Documentation and Best Practices:** Uwazi Guides
+* **Privacy & Cookies Policies:** Privacy Policy, Cookies Policy
+
+#### **Best Practices for Uwazi Administration if running locally**
+
+* **Use Default Configurations First:** Start with Uwazi’s default settings to reduce complexity. Only override environment variables if you have a clear reason and know the impact on your setup.
+* **Secure Your Deployment:** Run Uwazi behind a reverse proxy (like Nginx) with HTTPS, and set `LOCALHOST_ONLY=true` so that external traffic must pass through the proxy. When mail notifications are required, properly configure your sendmail or SMTP server.
+* **Regular Backups and Data Integrity:** Regularly back up both the MongoDB database and the `uploaded_documents` directory. After restoring, run `yarn migrate` and `yarn reindex` to maintain data integrity and search functionality.
+* **Multi-Tenancy and Scaling:** Use distinct database and index names for each tenant, and consider a reverse proxy to direct requests to the correct tenant. Keep code separate from user data, and rely on environment variables to run multiple instances from a single codebase.
+* **Routine Maintenance:** Periodically run maintenance scripts like `yarn migrate` and `yarn reindex`. Monitor logs and apply updates or patches as they become available to ensure ongoing stability and security.
+
+For detailed instructions and configurations, refer to the [Sysadmin Guide](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html).
 
 #### Strengths:
 
@@ -73,9 +92,7 @@ To use Uwazi, particularly if you're opting for the self-hosted version, you'll 
 
 ## Ethical Considerations
 
-When using Uwazi, especially for human rights documentation, handling sensitive information responsibly is crucial. This includes safeguarding personal data, respecting privacy laws, and ensuring data security, particularly when documenting human rights abuses or storing victims' information. Users must also consider the potential impact of publicly sharing certain datasets. Proper ethical practices protect vulnerable individuals and communities while ensuring that Uwazi is used in a manner consistent with legal and moral standards.
-
-#### **Security Measures:**
+While Uwazi’s security capabilities help protect sensitive information, responsible use remains essential. Human rights documentation often involves vulnerable individuals and communities, so it’s critical to limit data access to trusted team members, maintain strict user permissions, and keep collections private if public release is not appropriate. Ensure robust password practices, enable two-factor authentication, and review audit logs regularly. Consider applicable data protection laws, inform users about the use of cookies, and ensure that any publicly shared data does not expose personal details or put individuals at risk. By taking these ethical considerations into account, Uwazi users can help ensure that their documentation efforts respect privacy, uphold legal standards, and serve the broader goal of advancing human rights.
 
 * **Data Encryption**: Uwazi uses HTTPS encryption for secure data transmission, protecting sensitive information from unauthorized access. Uwazi also supports data encryption at rest, ensuring that all sensitive information is protected from unauthorized access during transmission and while stored on the server.&#x20;
 * **User Authentication**: Two-factor authentication (2FA) is available to enhance account security.
@@ -86,20 +103,18 @@ When using Uwazi, especially for human rights documentation, handling sensitive 
 
 Uwazi has been employed in documenting war crimes, managing legal evidence, and archiving historical records. Its search, organization, and sharing capabilities can be used for projects that require rigorous documentation and easy access to large volumes of sensitive information. Below, you can find examples of how others have made use of UWAZI:
 
-* [Afghanistan Memory Home](https://afghanistanmemoryhome.org/) is a digital archive that preserves and shares Afghanistan's cultural and historical narratives, focusing on personal stories, documents, and memories to safeguard the nation’s heritage.
-* [Atlas of Torture](https://atlas-of-torture.org/) is a platform dedicated to documenting incidents of torture and ill-treatment globally, aiming to support advocacy efforts and promote accountability for human rights violations.
-* [Cartography of Attacks Against Women Journalists](https://cartografia-cimac.uwazi.io/) documents and maps incidents of violence and harassment against women journalists worldwide, aiming to highlight the risks they face and advocate for their protection.
-* [CYRILLA](https://cyrilla.org/) is a global legal database that provides access to laws and case law related to digital rights and freedom of expression.
-* [Death Penalty Database](https://data.jpp.org.pk/en/) is a comprehensive resource tracking the use of the death penalty in Pakistan, offering data and analysis to support advocacy for justice and reform.
-* [End Reprisals](https://endreprisals.ishr.ch/) is a platform dedicated to documenting and advocating against retaliation faced by human rights defenders, aiming to raise awareness and promote accountability for such actions.
-* [Footprints](https://nkfootprints.info/) is a platform that archives and shares the experiences of North Korean defectors, documenting their journeys and stories to raise awareness and promote human rights.
-* [Girls’ Human Rights Database](https://www.girlsrightsplatform.org/) is a platform dedicated to documenting and advocating for girls' rights worldwide, providing access to resources, legal texts, and analysis to support gender equality and justice initiatives.
-* [Global Legal Action Network](https://www.glanlaw.org/) is an organization that promotes transnational human rights litigation, focusing on cases that address global challenges such as war crimes, environmental damage, and corporate misconduct.
-* [Justice Watch Archive](https://foreign-nationals.uwazi.io/) documents and monitors the treatment of foreign nationals in detention, focusing on legal cases and conditions of imprisonment.
+* [Afghanistan Memory Home](https://afghanistanmemoryhome.org/): A digital archive of cultural and historical narratives.
+* [Atlas of Torture](https://atlas-of-torture.org/): A platform tracking incidents of torture and ill-treatment.
+* [Cartography of Attacks Against Women Journalists](https://cartografia-cimac.uwazi.io/): A resource documenting incidents targeting women journalists globally.
+* [CYRILLA](https://cyrilla.org/): A database providing access to digital rights-related laws and case law.
+* [Death Penalty Database](https://data.jpp.org.pk/en/): A resource on the use of the death penalty in Pakistan.
+* [End Reprisals](https://endreprisals.ishr.ch/): A platform recording retaliation against human rights defenders.
+* [Footprints](https://nkfootprints.info/): An archive sharing the experiences of North Korean defectors.
+* [Girls’ Human Rights Database](https://www.girlsrightsplatform.org/): A collection of legal texts and analysis related to girls’ rights.
+* [Global Legal Action Network](https://www.glanlaw.org/): An organization involved in transnational human rights litigation.
+* [Justice Watch Archive](https://foreign-nationals.uwazi.io/): A database monitoring the treatment of foreign nationals in detention.
 
 You can view the full showcase [here](https://uwazi.io/en/page/k5htkcauq7i/showcase).
-
-<div><figure><img src=".gitbook/assets/Screenshot 2024-09-25 115523.png" alt=""><figcaption><p>Location Options</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2024-09-25 115546.png" alt=""><figcaption><p>Relationships</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2024-09-25 115606.png" alt=""><figcaption><p>Template Edit</p></figcaption></figure></div>
 
 ## Tool provider
 
