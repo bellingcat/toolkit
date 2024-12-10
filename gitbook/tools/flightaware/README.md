@@ -273,7 +273,7 @@ The different paid tiers are:&#x20;
 #### Data Limitations
 
 * **Limited Historical Data:** As mentioned above, the “Basic” FlightAware subscription provides access to a limited amount of historical flight data, which can be insufficient for in-depth analysis or investigations requiring long time frames.&#x20;
-* **No Playback Option:** The live map does not offer a playback option, preventing users from reviewing past flight activity. Playback options can be helpful when researchers only have vague leads about a flight (for example, I know there was a flight 7 days ago in Rio de Janeiro Santos Dumont airport”. It is often helpful to monitor that airport and do playback for flights coming within a specific time frame.)
+* **No Playback Option:** The live map does not offer a playback option, preventing users from reviewing past flight activity. Playback options can be helpful when researchers only have vague leads about a flight (for example, I know there was a flight 7 days ago in Rio de Janeiro Santos Dumont airport”. It is often helpful to monitor that airport and do playback for flights within a specific time frame.)
 * **Data Blocks:** Due to screen real estate limitations and the vast amount of flight data, not all information can be displayed on the live map, leading to data blocks or omissions. The search bar is the way to find flight information on FlightAware.
 
 #### Privacy and Data Restrictions
