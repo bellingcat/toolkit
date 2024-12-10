@@ -156,7 +156,7 @@ _Call signs also often vary with each flight, and occasionally, they may change 
 
 The call sign is usually located primarily in two places. If looking at the flight map (left image), hover over the airplane you are interested in, and the flight and aircraft information appears. The call sign is highlighted with a yellow box. If looking at the flight data page (right image), the call sign is immediately to the right of the airliner’s logo (highlighted in the red square).
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-23 135843 - MARKEDmerge.png" alt=""><figcaption><p>Two places where users can find the call sign within the tool. One is through the live map on the landing page (left), and the other is through the specific flight page of the aircraft of interest (right).</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-08-23 135843 - MARKEDmerge.png" alt=""><figcaption><p>There are two places where users can find the call sign within the tool. One is through the live map on the landing page (left), and the other is through the specific flight page of the aircraft of interest (right).</p></figcaption></figure>
 
 
 
