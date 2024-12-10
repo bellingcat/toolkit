@@ -5806,5 +5806,35 @@
       "merge": true,
       "review": true
     }
+  },
+  {
+    "object": "space",
+    "id": "3xzYbopjKr38b7SY1PnX",
+    "title": "Bluesky Insights",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-12-10T19:41:34.054Z",
+    "updatedAt": "2024-12-10T19:41:34.054Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/3xzYbopjKr38b7SY1PnX",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/3xzYbopjKr38b7SY1PnX/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "Vrz1zXlpdHv4n84OdQje",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "access": true,
+      "admin": true,
+      "edit": true,
+      "comment": true,
+      "merge": true,
+      "review": true
+    }
   }
 ]
