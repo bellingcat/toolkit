@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Apollo Mapping](README.md)
+* [Apollo Image Hunter](README.md)
 * [Categories](categories.md)
