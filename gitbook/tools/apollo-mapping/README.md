@@ -43,7 +43,7 @@ Satellite imagery is priced per square kilometer, typically with a minimum order
 
 ## Requirements
 
-Imagery is usually delivered in GeoTIFF format. These files are large, and best viewed in QGIS or other GIS software.
+Imagery is usually delivered in GeoTIFF format. These files are large, and best viewed in [QGIS](https://bellingcat.gitbook.io/toolkit/more/all-tools/qgis) or other GIS software.
 
 ## Limitations
 
