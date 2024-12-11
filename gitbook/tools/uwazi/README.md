@@ -37,13 +37,11 @@ On the other hand, the **hosted** option involves using Uwazi’s managed hostin
 8. **Security and Compliance**: Uwazi incorporates strong security measures, including encrypted data storage and secure access controls, ensuring compliance with privacy regulations and safeguarding sensitive information.
 9. Integration with the Tella App: Once set up, Uwazi databases can be populated via the [Tella App](https://tella-app.org/), which provides encrypted asynchronous uploads of photos and videos from a user's phone, in an environment separate from the phone's gallery.
 
-### **Security Measures:**
+### **Security Measures**
 
-#### Development and Community:
-
-* &#x20;An independent security audit conducted by Recurity Labs (commissioned by HURIDOCS) evaluated Uwazi’s architecture and code against common vulnerabilities (based on OWASP and SANS standards). The assessment confirmed that Uwazi maintains a high level of security. Several minor issues were identified, which have since been addressed and patched. Regular Audits are planned.
+* &#x20;An independent security audit conducted by Recurity Labs (commissioned by HURIDOCS) evaluated Uwazi’s architecture and code against common vulnerabilities based on OWASP and SANS standards (which is about as good as it gets). The assessment confirmed that Uwazi maintains a high level of security. Several minor issues were identified, which have since been addressed and patched. Regular Audits are planned.
 * Uwazi integrates several technical measures that contribute to a secure environment for handling sensitive human rights documentation and related materials. These features include support for HTTPS encryption, secure user authentication (including two-factor authentication), and the option to run Uwazi behind a reverse proxy for additional network protections. Admins can configure role-based permissions to ensure only authorized users can access or modify sensitive content. Additionally, Uwazi supports regular updates, backups, and indexing maintenance, providing a stable foundation for safeguarding data integrity. Together, these features make Uwazi a practical choice for organizations that need reliable, secure digital infrastructure for their human rights work.
-  * For configuring HTTPS, reverse proxy, and environment variables: [Sysadmin Guide](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html)
+  * For configuring HTTPS, reverse proxy and environment variables: [Sysadmin Guide](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html)
   * For enabling two-factor authentication (2FA) and managing user permissions:[ Administrator’s Guide](https://uwazi.readthedocs.io/en/latest/admin-docs/managing-settings.html#how-to-configure-your-account)
   * For backup and indexing procedures: [Sysadmin Guide](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/back-up-restore.html)
 
@@ -74,7 +72,7 @@ For detailed instructions and configurations, refer to the [Sysadmin Guide](http
 * [x] Partially Free
 * [ ] Paid
 
-Uwazi offers a flexible pricing structure. The **self-hosted** version is free, allowing organizations to download and run the platform on their servers. For those preferring a managed solution, Uwazi provides a **hosted** service starting with a free 30-day trial. After the trial, the pricing is scaled based on the organization's needs, with the first 100MB free for projects with a human rights impact. Hosting fees support ongoing development and maintenance, with financial backing from partners like the [MacArthur Foundation](https://en.wikipedia.org/wiki/MacArthur_Foundation) and other organizations.
+Uwazi offers a flexible pricing structure. The **self-hosted** version is free, allowing organizations to download and run the platform on their servers. For those preferring a managed solution, Uwazi provides a **hosted** service starting with a free 30-day trial. After the trial, the pricing is scaled based on the organization's needs, **with the first 100MB free for projects with a human rights impact**. Hosting fees support ongoing development and maintenance, with financial backing from partners like the [MacArthur Foundation](https://en.wikipedia.org/wiki/MacArthur_Foundation) and other organizations.
 
 ## Level of difficulty
 
@@ -102,9 +100,31 @@ While Uwazi’s security capabilities help protect sensitive information, respon
 * **Hosting Security**: Uwazi’s hosted environments are secured with regular updates and security patches.
 * **Data Backup and Recovery**: Regular backups must be conducted to ensure data integrity and availability in case of failures.
 
-## Guides and articles
+## Requirements for a Self-Hosted UWAZI Instance
+
+While Uwazi’s managed hosting options range from free to competitively priced, self-hosting can still be appealing—or even necessary—for certain organizations. For example, if strict data protection laws prevent you from using external servers, or you need full control over configurations and integrations, a self-hosted instance provides more autonomy. Some NGOs or advocacy groups may also view self-hosting as a way to reduce ongoing costs, though it’s important to note that the IT overhead and complexity can outweigh initial savings.
+
+**When Does Self-Hosting Make Sense?**
+
+* **Data Sovereignty:** If privacy laws or security policies require complete internal oversight of sensitive information.
+* **Customization Needs:** If you want to run custom scripts, integrate with proprietary systems, or manage updates and backups at your own pace.
+* **In-House Expertise:** If you have team members with basic server administration experience who can handle ongoing maintenance.
+
+**Technical Requirements and Setup**\
+Running a self-hosted Uwazi instance can be done with a modest level of technical expertise, but it’s not entirely plug-and-play. At a minimum, you’ll need:
+
+* **Server Environment:** A modern Linux-based server (e.g., Ubuntu, Debian) with at least 4GB RAM for stable Elasticsearch indexing and MongoDB queries.
+* **Core Dependencies:** Node.js, MongoDB, and Elasticsearch correctly installed and configured.
+* **Storage and Backups:** Enough disk space for your documents and metadata, plus room for regular backups.
+* **Networking and Security:** A stable connection, proper firewall settings, and a reverse proxy (like Nginx) for HTTPS to ensure secure communication.
+* **Optional Email Setup:** If you need password resets or notifications, configure sendmail or SMTP.
+
+**Realistic Expectations for Small NGOs**\
+If your organization has limited IT resources, self-hosting may still be achievable if you have at least one technically inclined volunteer or staff member. However, without in-house expertise, you might find that managed hosting or hiring external support simplifies setup and reduces long-term hassle. Both approaches are valid—just weigh your need for data sovereignty and flexibility against the time, skills, and budget required to maintain a self-hosted instance.
 
 Uwazi has been employed in documenting war crimes, managing legal evidence, and archiving historical records. Its search, organization, and sharing capabilities can be used for projects that require rigorous documentation and easy access to large volumes of sensitive information. Below, you can find examples of how others have made use of UWAZI:
+
+## Example Projects
 
 * [Afghanistan Memory Home](https://afghanistanmemoryhome.org/): A digital archive of cultural and historical narratives.
 * [Atlas of Torture](https://atlas-of-torture.org/): A platform tracking incidents of torture and ill-treatment.
@@ -121,7 +141,7 @@ You can view the full showcase [here](https://uwazi.io/en/page/k5htkcauq7i/showc
 
 ## Tool provider
 
-**Uwazi** is developed by the NGO [HURIDOCS](https://huridocs.org/about/) (Human Rights Information and Documentation Systems), Switzerland.
+Uwazi is developed by the NGO HURIDOCS (Human Rights Information and Documentation Systems), Switzerland, a widely respected and internationally recognized organization supported by credible funders ([HURIDOCS funding](https://huridocs.org/about/funding/)) and committed to advancing human rights through effective information management.
 
 ## Advertising Trackers
 
@@ -129,7 +149,7 @@ You can view the full showcase [here](https://uwazi.io/en/page/k5htkcauq7i/showc
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-Uwazi uses cookies on its websites and applications to improve functionality, track usage statistics (Google Analytics), facilitate navigation, and enable social media sharing. First-party and third-party cookies are used, including session cookies, persistent cookies, and pixel tags. Users can control cookies through their browser settings, but disabling them may limit functionality. This would for example limit the ability of embedded posts or integration of content from, for example WordPress, Matomo Analytics Facebook, YouTube, LinkedIn, LimeSurvey, or GitHub. Their dedicated [cookie policy ](https://uwazi.io/page/sg0hbnvot3l/cookies-policy)page explains their use of cookies in detail.&#x20;
+Uwazi uses cookies on its websites and applications to improve functionality, track usage statistics (Google Analytics), facilitate navigation and enable social media sharing. First-party and third-party cookies are used, including session cookies, persistent cookies, and pixel tags. Users can control cookies through their browser settings, but disabling them may limit functionality. This would, for example, restrict the ability to embed posts or integrate content from, for example, WordPress, Matomo Analytics Facebook, YouTube, LinkedIn, LimeSurvey, or GitHub. Their dedicated [cookie policy ](https://uwazi.io/page/sg0hbnvot3l/cookies-policy)page explains their use of cookies in detail.&#x20;
 
 | Page maintainer                       |
 | ------------------------------------- |
