@@ -28,7 +28,7 @@ On the other hand, the **hosted** option involves using Uwazi’s managed hostin
 #### Key Features:
 
 1. **Flexible Data Management**: Uwazi supports the upload and management of various types of documents, including text files, images, audio, and video. The platform allows users to create custom collections with defined metadata fields, facilitating structured and efficient data organization.
-2. **Advanced Search and Filtering**: Uwazi offers sophisticated search functionalities, enabling users to perform full-text searches, apply multiple filters, and quickly retrieve relevant documents from extensive collections.
+2. **Advanced Search and Filtering**: Uwazi offers various search functionalities, enabling users to perform full-text searches, apply multiple filters, and quickly retrieve relevant documents from extensive collections.
 3. **Data Visualization and Mapping**: Users can create visual representations of data and link documents to maps, particularly useful for geographically-oriented human rights documentation.
 4. **Customizable Workflows**: Uwazi allows users to define custom workflows, automating tasks and processes to streamline document management and review.
 5. **Multi-language Support**: The platform supports multilingual document collections and provides a fully localized user interface, making it accessible for global projects.
