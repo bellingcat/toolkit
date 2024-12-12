@@ -27,12 +27,7 @@ description: >-
 * [x] Partially Free
 * [ ] Paid
 
-Search features on the site itself are free.
-
-API plans:
-
-* **Basic Plan**: 5,000 API calls for $40, valid for 30 days, with a rate limit of 10 calls per minute and up to 2 concurrent connections.
-* **Advanced Plan**: 15,000 API calls with a higher rate limit and more concurrent connections, but the exact price and conditions require direct contact with the service.
+Search features on the site itself are free, but [API access](https://search4faces.com/en/api.html) is paid with multiple plans ranging from 15000 calls for 40 USD to 135000 calls for 320 USD.&#x20;
 
 ## Level of difficulty
 
@@ -45,6 +40,7 @@ API plans:
 
 ## Limitations
 
+* The results are not very accurate for most datas, the search engine appears to compare general characteristics of the provided face (hair, eye or skin color) rather than any specifics.&#x20;
 * Image data for each social networking site is not updated in real-time, most datasets end around 2022. Certain user profiles can evade detection by changing their details.&#x20;
 * The tool relies on other parameters (such as, age and gender) to improve results, using estimates of the values may limit its accuracy.
 * You cannot search multiple databases at once.
@@ -82,5 +78,5 @@ The tool provider is currently unknown. The website is offered in Russian and in
 
 | Page maintainer |
 | --------------- |
-| Shiva           |
+|                 |
 |                 |
