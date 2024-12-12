@@ -9,8 +9,7 @@ description: >-
 
 ## URL
 
-[https://imagehunter.apollomapping.com/\
-](https://imagehunter.apollomapping.com/)
+[https://imagehunter.apollomapping.com/](https://imagehunter.apollomapping.com/)
 
 ## Description
 
