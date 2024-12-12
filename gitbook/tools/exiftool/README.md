@@ -303,8 +303,7 @@ Harvey, P. (2021). _**Common ExifTool Mistakes**_**.** [https://exiftool.org/mis
 
 ## Tool provider
 
-Phil Harvey\
-&#x20;(will respond to inquiries in the [https://exiftool.org/forum/](https://exiftool.org/forum/))
+Phil Harvey (will respond to inquiries in the [https://exiftool.org/forum/](https://exiftool.org/forum/))
 
 ## Advertising Trackers
 
