@@ -8,11 +8,11 @@ description: >-
 
 ## URL
 
-[https://example.com](https://exiftool.org)
+[https://exiftool.org/](https://exiftool.org/)
 
 ## Description
 
-ExifTool is a platform-independent Perl library and command-line application designed for reading, writing, and editing meta information in various file formats. It supports a wide array of metadata types, including EXIF, GPS, IPTC, XMP, JFIF, and more, from numerous digital camera brands. ExifTool can handle many file types, such as images, audio, and video files, making it a versatile tool for managing metadata. It is especially useful for photographers, archivists, and digital forensics professionals who need to analyze metadata in their files. ExifTool can extract detailed information, perform batch processing, rename files based on metadata, and even geotag images.
+ExifTool is a platform-independent Perl library and command-line application designed for reading, writing, and editing meta information in a wide range of file formats. It supports well-known metadata standards like EXIF and GPS, as well as lesser-known formats such as IPTC, XMP, and JFIF. For example, IPTC (International Press Telecommunications Council) metadata is commonly used in news and photojournalism workflows, XMP (Extensible Metadata Platform) is an Adobe-designed standard that enables structured, extensible metadata within files, and JFIF (JPEG File Interchange Format) is a standardized method for including metadata in JPEG images. With the ability to process images, audio, and video files, ExifTool is a versatile solution for photographers, archivists, and digital forensics professionals. It can extract detailed information, batch process entire collections, rename files based on embedded metadata, and even geotag images—all essential capabilities for managing and analyzing metadata-rich files.
 
 ## Using ExifTool for OSINT Research: Code Examples and Applications
 
