@@ -155,7 +155,7 @@ The two representations concur on the daylight distribution and sun position for
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>4</td></tr></tbody></table>
 
-Data input is remarkably simple, as is running the tool IFF the user is familiar with GitHub. There is some theoretical understanding of the relationship between sun position, date and time required to use the tool effectively.
+Data input is remarkably simple, as is running the tool if the user is familiar with GitHub. There is some theoretical understanding of the relationship between sun position, date and time required to use the tool effectively.
 
 ## Requirements
 
