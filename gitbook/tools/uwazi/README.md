@@ -151,7 +151,7 @@ Uwazi is developed by the NGO HURIDOCS (Human Rights Information and Documentati
 
 Uwazi uses cookies on its websites and applications to improve functionality, track usage statistics (Google Analytics), facilitate navigation and enable social media sharing. First-party and third-party cookies are used, including session cookies, persistent cookies, and pixel tags. Users can control cookies through their browser settings, but disabling them may limit functionality. This would, for example, restrict the ability to embed posts or integrate content from, for example, WordPress, Matomo Analytics Facebook, YouTube, LinkedIn, LimeSurvey, or GitHub. Their dedicated [cookie policy ](https://uwazi.io/page/sg0hbnvot3l/cookies-policy)page explains their use of cookies in detail.&#x20;
 
-| Page maintainer                       |
-| ------------------------------------- |
-| Martin Sona                           |
-| Cass Troy - Bellingcat Volunteer Team |
+| Page maintainer |
+| --------------- |
+| Martin Sona     |
+| Cass Troy       |
