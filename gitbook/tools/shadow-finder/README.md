@@ -84,7 +84,7 @@ The length of the shadow fed into Shadow Finder can only be measured directly fr
 
 ### The Interface <a href="#use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see" id="use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see"></a>
 
-**Click the two tabs below** to see the different views presented to the user as they find Shadow Finder on the GitHub website (Tab 1)and then run it in Colab (Tab 2):
+**Click the two tabs below** to see the different views presented to the user as they find Shadow Finder on the GitHub website (Tab 1) and then run it in Colab (Tab 2):
 
 {% tabs %}
 {% tab title="1. GitHub Page: Press Orange Button > Colab)" %}
