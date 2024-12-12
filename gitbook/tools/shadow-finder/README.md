@@ -124,8 +124,8 @@ The path of points (called a locus[^7] - in this case, the path is a circle) whi
 {% endtab %}
 
 {% tab title="USE CASES" %}
-* Given a photograph containing an object and its shadow at a known date and time, find the possible locations at which this could be observable
-* Given the angle of elevation of the sun at a known dat and time, find the possible locations at which this could be observable
+* Given a photograph containing an object and its shadow at a known date and time, find the possible locations at which this could be observable.
+* Given the angle of elevation of the sun at a known dat and time, find the possible locations at which this could be observable.
 * Elimination of a potential geolocation of an image dependent upon the shadows it contains, i.e. rule out a potential location because it doesn't lie on the Shadow Finder locus for feasible dates and times.
 {% endtab %}
 
