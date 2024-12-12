@@ -12,15 +12,14 @@ description: >-
 
 ## Description
 
-**Search4Faces** is a facial recognition search engine that allows users to find the profile photos of individuals across various online platforms. The tool is implemented in Python and is accessible via a web interface or as a Python library. Key features of Search4Faces include:
+**Search4Faces** is a reverse face search engine that allows users to find the profile photos of individuals across various online platforms. The tool is implemented in Python and is accessible via a web interface or as a Python library. As of December 2024, the tool [has](https://search4faces.com/en/index.html) complete or partial collection of the following four databases:1. Avatars of the social network Vkontakte and main photos of the social network Odnoklassniki,&#x20;
 
-1. **Face Recognition Search**:.
-   * Searches through multiple databases, including those of social networks (VKontakte, Odnoklassniki, TikTok, and Clubhouse), to find similar faces.
-   * Users can specify which database to search in, and results include links to the relevant social media profiles.
-2. **Customization and API Integration**:
-   * Search4Faces offers an API that can be integrated into applications for automated and scalable facial recognition searches.
-   * The API supports asynchronous operations and provides customizable search parameters, such as limiting the number of results or specifying whether to include hidden profiles in the search results.
-   * The tool can also be configured for more targeted searches, depending on the databases and permissions set by the user.
+1. Avatars of the social network Vkontakte and main photos of the social network Odnoklassnik
+2. Profile photos of the social network Vkontakte,&#x20;
+3. Avatars of Tiktok users,&#x20;
+4. Avatars of ClubHouse users.
+
+<figure><img src=".gitbook/assets/Screenshot 2024-12-12 at 9.37.30 AM.png" alt=""><figcaption><p>A sample search using a stock image within the "Avatar of Tiktok users" database</p></figcaption></figure>
 
 ## Cost
 
@@ -60,6 +59,16 @@ Josephine Lulamae, Algorith Watch: [War Crimes OSINT, Harassment, Doxxing Police
 ## Guide
 
 [Example investigation using the tool](https://publication.osintambition.org/behind-the-steps-revealing-digital-identity-through-osint-and-socmint-unraveling-the-7735033b867d)
+
+Key features of Search4Faces include:
+
+1. **Face Recognition Search**:.
+   * Searches through multiple databases, including those of social networks (VKontakte, Odnoklassniki, TikTok, and Clubhouse), to find similar faces.
+   * Users can specify which database to search in, and results include links to the relevant social media profiles.
+2. **Customization and API Integration**:
+   * Search4Faces offers an API that can be integrated into applications for automated and scalable facial recognition searches.
+   * The API supports asynchronous operations and provides customizable search parameters, such as limiting the number of results or specifying whether to include hidden profiles in the search results.
+   * The tool can also be configured for more targeted searches, depending on the databases and permissions set by the user.![](<.gitbook/assets/Screenshot 2024-12-12 at 9.36.35 AM.png>)
 
 ## Tool provider
 
