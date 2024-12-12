@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-Uwazi is an open-source platform designed to manage and organize document collections, often used in human rights documentation and advocacy contexts. It addresses the challenge of storing, categorizing, and retrieving large volumes of sensitive information, and helps manage complex datasets.
+Uwazi is an open-source platform designed to manage and organize document collections, often used in human rights documentation and advocacy contexts. It addresses the challenge of storing, categorizing, and retrieving large volumes of sensitive information, and can be helpful when managing complex datasets.
 
 With Uwazi, researchers can upload documents in bulk, organize them with precise metadata, cross-reference related materials, and search the entire collection efficiently. The platform also allows the translation of records into multiple languages, visualizes data in various formats, and allows collaboration with team members.
 
