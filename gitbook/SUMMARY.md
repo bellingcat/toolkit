@@ -178,3 +178,4 @@
   * [Maigret](tools/maigret/README.md)
   * [Search by Image](tools/search-by-image/README.md)
   * [FlightAware](tools/flightaware/README.md)
+  * [ExifTool](tools/exiftool/README.md)
