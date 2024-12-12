@@ -14,7 +14,7 @@ description: >-
 
 ExifTool is a platform-independent library and command-line application designed for reading, writing, and editing meta information in a wide range of file formats. It supports well-known metadata standards like EXIF and GPS, as well as lesser-known formats such as IPTC, XMP, and JFIF. For example, IPTC (International Press Telecommunications Council) metadata is commonly used in news and photojournalism workflows, XMP (Extensible Metadata Platform) is an Adobe-designed standard that enables structured, extensible metadata within files, and JFIF (JPEG File Interchange Format) is a standardized method for including metadata in JPEG images. With the ability to process images, audio, and video files, ExifTool is a versatile solution for photographers, archivists, and digital forensics professionals. It can extract detailed information, batch process entire collections, rename files based on embedded metadata, and even use hidden GPS coordinates to locate where images were made.&#x20;
 
-## Using ExifTool for OSINT Research: Code Examples and Applications
+## Using ExifTool for Open Source Research: Code Examples and Applications
 
 ExifTool can be a helpful utility for open-source researchers. It allows for the extraction and analysis of metadata from various file types, which can reveal hidden information about digital media.&#x20;
 
