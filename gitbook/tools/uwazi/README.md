@@ -72,7 +72,7 @@ For detailed instructions and configurations, refer to the [Sysadmin Guide](http
 * [x] Partially Free
 * [ ] Paid
 
-Uwazi offers a flexible pricing structure. The **self-hosted** version is free, allowing organizations to download and run the platform on their servers. For those preferring a managed solution, Uwazi provides a **hosted** service starting with a free 30-day trial. After the trial, the pricing is scaled based on the organization's needs, **with the first 100MB free for projects with a human rights impact**. Hosting fees support ongoing development and maintenance, with financial backing from partners like the [MacArthur Foundation](https://en.wikipedia.org/wiki/MacArthur_Foundation) and other organizations.
+Uwazi offers a flexible pricing structure. The **self-hosted** version is free, allowing organizations to download and run the platform on their servers. For those preferring a managed solution, Uwazi provides [a **hosted** service starting with a free 30-day trial](https://uwazi.io/en/page/rf7so99k1p/try-uwazi). After the trial, the pricing is scaled based on the organization's needs, **with the first 100MB free for projects with a human rights impact**. Hosting fees support ongoing development and maintenance, with financial backing from partners like the [MacArthur Foundation](https://en.wikipedia.org/wiki/MacArthur_Foundation) and other organizations.
 
 ## Level of difficulty
 
