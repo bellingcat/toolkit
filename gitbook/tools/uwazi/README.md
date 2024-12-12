@@ -33,7 +33,7 @@ On the other hand, the **hosted** option involves using Uwazi’s managed hostin
 4. **Customizable Workflows**: Uwazi allows users to define custom workflows, automating tasks and processes to streamline document management and review.
 5. **Multi-language Support**: The platform supports multilingual document collections and provides a fully localized user interface, making it accessible for global projects.
 6. **Collaboration and Permissions**: Uwazi facilitates collaboration with its multi-user environment, where permissions can be finely tuned to protect sensitive information.
-7. **Public and Private Sharing**: The platform enables the secure sharing of document collections, with options for both public access and private, controlled sharing.
+7. **Public and Private Sharing**: The platform enables the sharing of document collections, with options for both public access and private, controlled sharing.
 8. **Security and Compliance**: Uwazi incorporates strong security measures, including encrypted data storage and secure access controls, ensuring compliance with privacy regulations and safeguarding sensitive information.
 9. Integration with the Tella App: Once set up, Uwazi databases can be populated via the [Tella App](https://tella-app.org/), which provides encrypted asynchronous uploads of photos and videos from a user's phone, in an environment separate from the phone's gallery.
 
