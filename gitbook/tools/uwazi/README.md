@@ -141,7 +141,7 @@ You can view the full showcase [here](https://uwazi.io/en/page/k5htkcauq7i/showc
 
 ## Tool provider
 
-Uwazi is developed by the NGO HURIDOCS (Human Rights Information and Documentation Systems), Switzerland. Information on HURIDOCS funding can be found [here](https://huridocs.org/about/funding/).&#x20;
+Uwazi is developed by the NGO HURIDOCS (Human Rights Information and Documentation Systems), Switzerland. Information about HURIDOCS funding can be found [here](https://huridocs.org/about/funding/).&#x20;
 
 ## Advertising Trackers
 
