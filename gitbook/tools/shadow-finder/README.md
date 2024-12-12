@@ -1,7 +1,7 @@
 ---
 description: >-
   To analyse shadows in source imagery, Shadow Finder maps all points on the
-  earth where a shadow of given length could occur at a given date & time, IFF
+  earth where a shadow of given length could occur at a given date & time, IF
   the height of the object casting it is known.
 ---
 
