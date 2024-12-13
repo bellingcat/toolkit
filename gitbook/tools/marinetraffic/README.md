@@ -81,9 +81,9 @@ Photo gallery and Maritime News: This photo gallery is useful when you want to c
 * [x] Partially Free
 * [ ] Paid
 
-Full pricing information can be found [here](https://www.marinetraffic.com/en/online-services/plans). MarineTraffic offers three plans - Standard for USD 19/month, Professional for USD 69/month and an Enterprise one that requires contacting them for pricing details.&#x20;
+Full pricing information can be found [here](https://www.marinetraffic.com/en/online-services/plans). MarineTraffic offers three plans - Standard for USD 19/month, Professional for USD 69/month and an Enterprise one that requires contacting the company for pricing details.&#x20;
 
-You can also buy add-ons for satellite tracking (USD 15/month), data exports  (USD 20/month), monitoring a larger fleet (USD 10 or USD 35/month depending on the fleet size), notifications (USD 10/month), and voyage planner pro (USD 15/month).
+You can also buy add-ons for satellite tracking (USD 15/month), data exports (USD 20/month), monitoring a larger fleet (USD 10 or USD 35/month depending on the fleet size), notifications (USD 10/month), and voyage planner pro (USD 15/month).
 
 A pay per usage is also available, where you can purchase credits. The lowest possible is 100 credits for USD 7 (USD 0.07 per credit). The price per credit goes down if you purchase a larger volume.&#x20;
 
