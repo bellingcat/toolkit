@@ -76,6 +76,6 @@ Snapchat, Snap Inc., USA
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat Volunteer Team |
+| Page maintainer                              |
+| -------------------------------------------- |
+| <ul><li>Bellingcat Volunteer Team </li></ul> |
