@@ -99,7 +99,7 @@ A free registration via email to access at least some of the menus and capabilit
 
 MarineTraffic's data is AIS signals. Since AIS transponders can be, and are, switched off by vessels which want to avoid tracking, the user needs to become familiar with this trait and work around it where necessary.
 
-Some more interesting features like a vessel's dimensions, ownership and port call log are only available through a paid subscription. See the Cost section of this page for pricing information.&#x20;
+Some features like a vessel's dimensions, ownership and port call log are only available through a paid subscription. See the Cost section of this page for pricing information.&#x20;
 
 Satellite data on movements is only available through a paid subscription, which is not the fact with some similar tools.&#x20;
 
