@@ -27,7 +27,7 @@ Enter shadow length and object height, (or, instead, [the angle of elevation of 
 Note that the tool can be used to consider a range of inputs if the exact values are not known, since the outputs vary relatively smoothly with changes in input values.
 
 {% hint style="info" %}
-Shadow Finder is an open source app on GitBook, which requires users to have a (free) GitHub account and to follow instructions on how to run the app. In this description, the method described for running in the app is to use [Google's Colab environment](https://colab.google/) because it runs in a browser, requires no setup to use and provides free access to computing resources.
+Shadow Finder is an open source tool which can be found on GitHub. It requires users to have a (free) GitHub account and to follow instructions on how to run the app. In this description, the method described for running the tool is to use [Google's Colab environment](https://colab.google/) because it runs in a browser, requires no setup to use and provides free access to computing resources.
 {% endhint %}
 
 {% hint style="danger" %}
