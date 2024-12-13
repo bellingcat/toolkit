@@ -13,11 +13,16 @@ description: >-
 
 ## Description
 
-<figure><img src=".gitbook/assets/Screenshot (1).JPG" alt=""><figcaption><p><strong>THE SHADOW &#x26; OBJECT MEASURED CAN ONLY LIE SOMEWHERE ON THE BRIGHT CIRCLE</strong> </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot (1).JPG" alt=""><figcaption><p><strong>THE SHADOW &#x26; OBJECT MEASURED CAN ONLY LIE SOMEWHERE ON THE BRIGHT CIRCLE .</strong> </p></figcaption></figure>
 
 Enter shadow length and object height, (or, instead, [the angle of elevation of the sun](#user-content-fn-1)[^1]) for a research source image, then also the date and time of the image, and see the potential locations at which such a shadow could be created for that point in time as the bright area (circle) on the world map.
 
-<figure><img src=".gitbook/assets/SUNCALCTRAILSscjpg.jpg" alt=""><figcaption><p><strong>THE ANGLE OF ELEVATION OF THE SUN CAN BE FOUND FROM THE RATIO OF THE HEIGHT OF AN OBJECT TO THE SHADOW IT CASTS (USING TRIGONOMETRY)</strong></p></figcaption></figure>
+* The bright yellow area of the circle marks all the locations which perfectly match your input information.&#x20;
+* The purple areas of the circle mark locations within a 20% error band (included because your input information may not be perfectly measured).
+* The grey area shows the parts of the world in daylight.
+* The white area shows where the sun is below the horizon.
+
+[Accuracy of your input measurements](./#data-input-options) affects the size of the matching output area. A small output area is usually desirable for a researcher, since it reduces the search space of a geolocation.&#x20;
 
 Note that the tool can be used to consider a range of inputs if the exact values are not known, since the outputs vary relatively smoothly with changes in input values.
 
@@ -41,7 +46,7 @@ Shadow Finder needs the date and time of the source image containing the shadow 
 
 4. Scroll down the Shadow Finder page to README section and click the bright orange button labelled "TRY IT ON COLAB". This launches ShadowFinder in an easy-access environment called Colab.
 
-![](.gitbook/assets/image.png)
+![](<.gitbook/assets/image (1).png>)
 
 5. Scroll down to enter your shadow measurement details into the app. Input EITHER&#x20;
 
@@ -131,6 +136,12 @@ The path of points (called a [locus](https://ahdictionary.com/word/search.html?q
 
 {% tab title="Data Input Options" %}
 Data can only be input as numeric values into the text input boxes in Shadow Finder running in Colab.
+
+**Data Input Accuracy**
+
+Comparison of Outputs for the same time and date with different types of input Data. The input area on the right (for input as lengths) yields a narrower output area than the one on the left (for input as an angle). So for the same measurement error, two lengths give a more accurate output than one angle.
+
+<table><thead><tr><th width="300">INPUT DATA GIVEN AS AN ANGLE </th><th>INPUT DATA GIVEN AS TWO LENGTHS</th></tr></thead><tbody><tr><td>i.e. The elevation angle of the sun in degrees.</td><td>i.e. the height of the observed object and the length of the shadow it casts</td></tr><tr><td><img src=".gitbook/assets/aNGLE INPUT comparison.jpg" alt="" data-size="original"></td><td><img src=".gitbook/assets/LENGTHS INPUT comparison.jpg" alt="" data-size="original"></td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
@@ -138,7 +149,7 @@ The output map appears at the bottom of the page when Shadow Finder code has bee
 
 <figure><img src=".gitbook/assets/Screenshot.JPG" alt=""><figcaption><p><strong>SHADOW FINDER MAP OUTPUT FOR NOON ON 29/2/24 WHERE THE BRIGHT RING LOCATES THE PLACES WHERE OBJECTS CAST SHADOWS 80% OF THEIR HEIGHT</strong></p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/comparison sun location.JPG" alt=""><figcaption><p><strong>TIME &#x26; DATE MAP FOR NOON ON 29/2/24  WITH SUN &#x26; MOON POSITIONS OVERLAID</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/comparison sun location.JPG" alt=""><figcaption><p><a href="https://www.timeanddate.com/worldclock/sunearth.html"><strong>TIME &#x26; DATE MAP</strong></a> <strong>FOR NOON ON 29/2/24  WITH SUN &#x26; MOON POSITIONS OVERLAID</strong></p></figcaption></figure>
 
 The two representations concur on the daylight distribution and sun position for the same time and date shown:
 
