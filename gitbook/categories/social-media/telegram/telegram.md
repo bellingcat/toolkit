@@ -2,7 +2,6 @@
 
 | Name | Description | Cost | URL |
 | --- | --- | --- | --- |
-| Geogramint | Github - Find Telegram groups and users near a geographical location | <mark style="background-color:green;">Free</mark> | [https://github.com/Alb-310/Geogramint](https://github.com/Alb-310/Geogramint) |
 | Intelligence X Telegram Search | Google-based search engine for Telegram (includes Telegago) | <mark style="background-color:green;">Free</mark> | [https://intelx.io/tools?tab=telegram](https://intelx.io/tools?tab=telegram) |
 | [**Open Measures**](../../../tools/open-measures/README.md) | Open Measures helps open source researchers investigate harmful online activity such as extremism and disinformation. | <mark style="background-color:orange;">Partially Free</mark> | [https://openmeasures.io/](https://openmeasures.io/) |
 | [**Telegago**](../../../tools/telegago/README.md) | Telegago is a Google Custom Search Engine tailored for searching public Telegram content for OSINT purposes. | <mark style="background-color:green;">Free</mark> | [http://bit.ly/telegago](http://bit.ly/telegago) |
