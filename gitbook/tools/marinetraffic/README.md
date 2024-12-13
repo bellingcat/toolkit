@@ -62,7 +62,7 @@ A profile for a company gives contact information and address, years in business
 
 This menu also offers the opportunity to apply for free AIS-receiving equipment by filling out [this form](https://www.marinetraffic.com/en/join-us/free-receiver-application). Some conditions apply and it appears MarineTraffic may not approve an application if your specific area is already covered by at least one AIS receiver.&#x20;
 
-Photo gallery and Maritime News: This photo gallery is useful when you want to take check the exterior of a ship, its main features, equipment mounted on the deck. Photos can also be a good guide for approximating the size of a ship, if such information is not readily available. The news section's most handy use is to look up any current information on vessels and maritime accidents. Often the news piece might include additional information about a vessel, a location or a port that may not be available anywhere else on the website. It is also a one-stop shop for maritime news if you are doing some media monitoring on the topic.&#x20;
+Photo gallery and Maritime News: This photo gallery is useful when you want to check the exterior of a ship, its main features, and equipment mounted on the deck. Photos can also be a good guide for approximating the size of a ship, if such information is not readily available. The news section's most handy use is to look up any current information on vessels and maritime accidents. Often the news piece might include additional information about a vessel, a location or a port that may not be available anywhere else on the website. It is also a one-stop shop for maritime news if you are doing some media monitoring on the topic.&#x20;
 
 **Main Map Features and Filters (located in the Live Map view)**
 
