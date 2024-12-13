@@ -111,9 +111,9 @@ Some of the vessels are government-owned and a small part of those are intended 
 
 ## Guides and articles
 
-A [comparison](https://themarineking.com/blogs/news/marinetraffic-vs-vesselfinder) between MarineTraffic and VesselFinder based on functionalities, price and usability from The Marine King blog.&#x20;
+A [comparison](https://themarineking.com/blogs/news/marinetraffic-vs-vesselfinder) between MarineTraffic and [VesselFinder](https://bellingcat.gitbook.io/toolkit/more/all-tools/vesselfinder) based on functionalities, price and usability from The Marine King blog.&#x20;
 
-by MarineTraffic Support-provided guodes
+MarineTraffic Support-provided guides:
 
 [Using MarineTraffic](https://support.marinetraffic.com/en/collections/9740537-using-marinetraffic)
 
