@@ -21,9 +21,9 @@ Biodiversity: Global biodiversity intactness, key biodiversity areas, amongst ot
 Climate: Carbon flux, carbon density, and potential carbon gains.
 
 **Benefits**\
-\-The data can be exported.\
-\-Interactive and easy visualization.\
-\-Tutorials on using the features are available through the website and are accessible.
+-The data can be exported.\
+-Interactive and easy visualization.\
+-Tutorials on using the features are available through the website and are accessible.
 
 ## Cost
 
@@ -77,7 +77,7 @@ The World Resources Institute (WRI), a global research non-profit organization e
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                  |
-| -------------------------------- |
-| BL - "Bellingcat volunteer team" |
-|                                  |
+| Page maintainer                |
+| ------------------------------ |
+| BL - Bellingcat Volunteer Team |
+|                                |
