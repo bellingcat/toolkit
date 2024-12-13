@@ -73,7 +73,7 @@ Photo gallery and Maritime News: This photo gallery is useful when you want to c
 5. **Weather**: Almost all of the filters are behind a paywall, but they include wind gusts, wind wave heights and directions, currents, swell periods, temperatures, precipitation and visibility among others.&#x20;
 6. **Density Maps**: A visual representation of the distribution and intensity of the vessels across a geographic area. The free access shows data for the past year. The paid version allows for sub-layers to display specific vessel types. Can be used to monitor whether an area is characterized by high or low shipping traffic.
 7. **Historical Data & Playback**: Good for analyzing past movements and investigating incidents. MarineTraffic offers access to historical data of about two years for paid subscribers and of three days for free accounts, plus a playback functionality.
-8. **Voyage Planner**: Used to visualize and review sea routes information based on density maps of   vessel movements. This is useful for professionals in the field that want to plan an optimal route, departure/arrival time and speed, review waypoint to waypoint routing details&#x20;
+8. **Voyage Planner**: Used to visualize and review sea routes information based on density maps of   vessel movements. This is useful for professionals in the field that want to plan an optimal route, departure/arrival time and speed, or review waypoint to waypoint routing details.
 
 ## Cost
 
