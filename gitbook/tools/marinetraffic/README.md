@@ -32,7 +32,7 @@ MMSI (Maritime Mobile Service Identities) numbers are nine-digit numbers used to
 
 <div><figure><img src=".gitbook/assets/MT1.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/MT2.png" alt=""><figcaption></figcaption></figure></div>
 
-This vessel view also has two shortcuts to follow a ship's past track (selecting this will return you to the map and show this exact vessel's recent movements) for the past about 4 days. Custom past track dates are only available through a paid subscription. Another shortcut that also returns the used to the main map is the route forecast, but free predictive routes are only shown for a 24-hour future period and again custom past track dates are only available through a paid subscription.&#x20;
+This vessel view also has two shortcuts to follow a ship's past track (selecting this will return you to the map and show this exact vessel's recent movements) for the past about 4 days. Custom past track dates are available through a paid subscription. Another shortcut that also returns the used to the main map is the route forecast, but free predictive routes are only shown for a 24-hour future period and again custom past track dates are only available through a paid subscription.&#x20;
 
 In the main menu, you can select for free up to five vessels and add them to a custom fleet that you can track over time.
 
