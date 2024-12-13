@@ -66,10 +66,10 @@ Photo gallery and Maritime News: This photo gallery is useful when you want to c
 
 **Main Map Features and Filters (located in the Live Map view)**
 
-1. **Map Type**: A dark, light or a sattelite view mode to suit preferences. Nautical charts are also avaiable, but are paid.&#x20;
+1. **Map Type**: A dark, light or a satellite view mode to suit preferences. Nautical charts are also available, but are paid.&#x20;
 2. **Vessel Filters**: Ship Type (filter by the function each vessels serves), Current Status (en route or anchored), Last Position Received (this requires a search for AIS stations), Voyage (paid feature for port of origin and port of destination), Capacity (paid feature for tonnage, deadweight), Smart Filters (paid feature for current operation and special conditions),&#x20;
 3. **My Fleets**: Filters out all the other vessels and shows only the ones added to a custom fleet.
-4. **Layers**: Probably one of the most interesting filters, but is only available with a paid subscription. This filter has meteorological, rescue, military, and piracy layers, areas of interest such as trade of offshore wind farm areas, as well as SafetyNET areas address in meteorological warnings.
+4. **Layers**: A very interesting filter which is available with a paid subscription. This filter has meteorological, rescue, military, and piracy layers, areas of interest such as trade of offshore wind farm areas, as well as SafetyNET areas address in meteorological warnings.
 5. **Weather**: Almost all of the filters are behind a pay wall, but they include wind gusts, wind wave heights and directions, currents, swell periods, temperatures, precipitation and visibility among others.&#x20;
 6. **Density Maps**: A visual representation of the distribution and intensity of the vessels across a geographic area. The free access shows data for the past year. The paid version allows for sub-layers to display specific vessel types. Can be used to monitor whether an area is characterized by high or low shipping traffic.
 7. **Historical Data & Playback**: Good for analyzing past movements and investigating incidents. MarineTraffic offers access to historical data of about two years for paid subscribers and of three days for free accounts, plus  a playback functionality.
