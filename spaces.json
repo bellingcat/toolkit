@@ -5896,5 +5896,35 @@
       "merge": true,
       "review": true
     }
+  },
+  {
+    "object": "space",
+    "id": "aiix4xHZU7prtlNpr7cL",
+    "title": "Landviewer",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2024-12-13T17:57:04.676Z",
+    "updatedAt": "2024-12-13T17:57:04.676Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/aiix4xHZU7prtlNpr7cL",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/aiix4xHZU7prtlNpr7cL/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "XFIiVOwwyCjaj40PCruj",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "access": true,
+      "admin": true,
+      "edit": true,
+      "comment": true,
+      "merge": true,
+      "review": true
+    }
   }
 ]
