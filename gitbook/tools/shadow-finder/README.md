@@ -22,16 +22,16 @@ Enter shadow length and object height, (or, instead, [the angle of elevation of 
 Note that the tool can be used to consider a range of inputs if the exact values are not known, since the outputs vary relatively smoothly with changes in input values.
 
 {% hint style="info" %}
-Shadow Finder is an open source app on GitBook, which requires users to have a (free) GitHub account and to follow instructions on how to run the app.
+Shadow Finder is an open source app on GitBook, which requires users to have a (free) GitHub account and to follow instructions on how to run the app. In this description, the method described for running in the app is to use [Google's Colab environment](https://colab.google/) because it runs in a browser, requires no setup to use and provides free access to computing resources.
 {% endhint %}
 
 {% hint style="danger" %}
-Shadow Finder needs the date and time of the source image containing the shadow to be able to generate potential locations. This is not always available, particularly as social media sites usually remove this type of metadata (called [ExIf data](#user-content-fn-2)[^2]) before allowing an image to be posted. Researchers also need to be aware that the time and date an image is posted online is not often the same as when it was taken. HOWEVER Shadow Finder may still be useful as a "What If?" tool to exclude potential locations.
+Shadow Finder needs the date and time of the source image containing the shadow to be able to generate potential locations. This is not always available, particularly as social media sites usually remove this type of metadata (called [EXIF data](#user-content-fn-2)[^2]) before allowing an image to be posted. Researchers also need to be aware that the time and date an image is posted online is not often the same as when it was taken. HOWEVER Shadow Finder may still be useful as a "What If?" tool to exclude potential locations.
 {% endhint %}
 
 <details>
 
-<summary>Step by step instructions for running Shadow Finder [Click the arrow]...</summary>
+<summary>Step by step instructions for running Shadow Finder [Click this box]...</summary>
 
 1. Sign up for a GitHub account if you don't already have one.
 2. Log in to GitHub on a browser and type "Shadow Finder" in the search bar at the top of the Home page and press the Search button.
@@ -120,7 +120,7 @@ There are multiple alternative routes to running the Shadow Finder code in addit
 {% endtab %}
 
 {% tab title="Shadow Finder Output Data" %}
-The path of points (called a locus[^7] - in this case, the path is a circle) which satisfy the input criteria, drawn on a map of the world. This shows all possible locations where such a shadow could have been observed on that date at that time. Of course, the shadow would have a different orientation (azimuth angle) at different locations along the locus.
+The path of points (called a [locus](https://ahdictionary.com/word/search.html?q=locus) - in this case, the path is a circle) which satisfy the input criteria, drawn on a map of the world. This shows all possible locations where such a shadow could have been observed on that date at that time. Of course, the shadow would have a different orientation (azimuth angle) at different locations along the locus.
 {% endtab %}
 
 {% tab title="USE CASES" %}
@@ -143,7 +143,7 @@ The output map appears at the bottom of the page when Shadow Finder code has bee
 The two representations concur on the daylight distribution and sun position for the same time and date shown:
 
 * The centre of the world map is in daylight on both maps, with either side in darkness over the Pacific Ocean and (roughly) the Arctic Circle.
-* The sun is above the Atlantic Ocean to the west of Central Africa in both maps, with the locus of the Shadow Finder map centering on the location of the sun in the "Time and Date" website map.
+* The sun is above the Atlantic Ocean to the west of Central Africa in both maps, with the locus of the Shadow Finder map centering on the location of the sun in the "[Time and Date](https://www.timeanddate.com/worldclock/sunearth.html)" website map.
 
 ## Cost
 
@@ -173,7 +173,11 @@ Shadow Finder does not provide the direction of the sun (azimuth angle) at each 
 
 ## Guides and articles
 
-[https://www.bellingcat.com/resources/2024/08/22/shadow-geolocate-geolocation-locate-image-tool-open-source-bellingcat-measure/?utm\_source=discord](https://www.bellingcat.com/resources/2024/08/22/shadow-geolocate-geolocation-locate-image-tool-open-source-bellingcat-measure/?utm_source=discord)
+{% embed url="https://www.bellingcat.com/resources/2024/08/22/shadow-geolocate-geolocation-locate-image-tool-open-source-bellingcat-measure/?utm_source=discord" %}
+
+{% embed url="https://www.youtube.com/watch?v=pQIjDPFgdJA" %}
+**DEMONSTRATION VIDEO ON USING SHADOW FINDER (YOU TUBE), INCLUDING AN INTERVIEW WITH THE MAIN AUTHOR, BELLINGCAT'S GALEN REICH**
+{% endembed %}
 
 ## Tool provider
 
@@ -201,14 +205,6 @@ Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen
 [^5]: You can view the code by clicking on "Show code" in blue at the bottom of the section under "time type:"
 
 [^6]: 
-
-    ### Definitions
-
-    from The American Heritage® Dictionary of the English Language, 5th Edition.
-
-    * noun _Mathematics_ The set or configuration of all points whose coordinates satisfy a single equation or one or more algebraic conditions.
-
-[^7]: 
 
     ### Definitions
 
