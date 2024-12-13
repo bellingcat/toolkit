@@ -113,7 +113,7 @@ Some of the vessels are government-owned and a small part of those are intended 
 
 A [comparison](https://themarineking.com/blogs/news/marinetraffic-vs-vesselfinder) between MarineTraffic and [VesselFinder](https://bellingcat.gitbook.io/toolkit/more/all-tools/vesselfinder) based on functionalities, price and usability from The Marine King blog.&#x20;
 
-MarineTraffic Support-provided guides:
+Guides provided by MarineTraffic:
 
 [Using MarineTraffic](https://support.marinetraffic.com/en/collections/9740537-using-marinetraffic)
 
@@ -129,7 +129,7 @@ MarineTraffic Support-provided guides:
 
 ## Tool provider
 
-[Kpler Holding SA](https://www.kpler.com/company/about-us), based in Brussels, Belgium
+[Kpler Holding SA](https://www.kpler.com/company/about-us), based in Belgium.
 
 ## Advertising Trackers
 
