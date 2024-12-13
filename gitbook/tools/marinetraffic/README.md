@@ -56,7 +56,7 @@ In an effort to be able to readily identify lights for amateur radio contact pur
 
 [Companies](https://www.marinetraffic.com/en/maritime-companies/search): a list of 53,827 companies that are related in some way to doing business in ports, or provide maritime-related services. The companies are searchable by name and are categorized based in the sector they operate in. The business directory aims to give suppliers exposure to maritime professionals using MarineTraffic. This menu appears to be more B2B oriented and adds a pin for each listed business on the live map, as well as shows the business whenever a user is looking at port details or for a vessel that is nearby. It also appears participation in this is voluntary and anyone can list their business on the website.&#x20;
 
-A profile for a company gives contact information and address, years in business and the nature of business
+A profile for a company gives contact information and address, years in business and the nature of business.
 
 [Stations](https://www.marinetraffic.com/en/data/?asset_type=stations\&columns=country,station_name,status,last_signal,availability,max_distance,avg_distance,area_covered): A list of 5,644 AIS stations with details for each one, including status, last signal time, average and maximum reception distance in nautical miles, area covered, station elevation, who operates it, equipment description, statistics about the AIS message types and records received about vessels in the past hour.
 
