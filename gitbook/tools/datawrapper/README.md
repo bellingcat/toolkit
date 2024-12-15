@@ -229,6 +229,8 @@ Below is a sample interactive symbol map to demonstrate what the final product m
 This is an example of an interactive choropleth map using data from Ookla on internet speeds by country in 2023 (via [Wikipedia)](https://en.wikipedia.org/wiki/List_of_sovereign_states_by_Internet_connection_speeds#Fixed_broadband). Users can hover over each detail to see more information. Darker colors represent faster speeds, and lighter colors represent slightly slower speeds (NOTE: This map and data are for demonstration purposes only).
 {% endembed %}
 
+[Datawrapper now enhances choropleth maps by allowing the addition of patterns to color layers,](https://blog.datawrapper.de/pattern-overlay-in-choropleth-maps/) making it possible to represent categories alongside numerical data. This new feature helps reveal more nuanced regional patterns and tells a richer story beyond a single data point.
+
 ### _**Symbol map**_
 
 A symbol map, sometimes called a point map or dot map, is a type of thematic map used in data analysis to represent data points or values across geographic areas using symbols. Instead of shading regions like in a choropleth map, a symbol map uses symbols, such as dots, icons, or shapes, to show the location and magnitude of a variable.&#x20;
@@ -305,6 +307,8 @@ Below is a sample symbol map. After doing the steps outlined above, the symbol m
 {% embed url="https://datawrapper.dwcdn.net/aXyPY/3/" %}
 This is a sample interactive symbol map generated through Datawrapper. We first went to[ ACLED](https://bellingcat.gitbook.io/toolkit/more/all-tools/acled) to download our data, which we then uploaded as a CSV file to the tool. We have chosen “spikes” as a symbol to demonstrate the number of armed clashes during a short timeframe in Burkina Faso. We have customized the look of the map to provide more info to a reader who may be unfamiliar with the region. We have included visible regional boundaries and an inset map (a world map to show where Burkina Faso is relative to the rest of the world). We have also included a zoom option and social media share options. More importantly, we have annotated it so that we provide a title, description, and data source for the readers. (NOTE: The map is for demonstration purposes only)
 {% endembed %}
+
+Datawrapper now supports arrow maps, also known as swing or hedgehog maps. These maps are valuable tools for visualizing directional changes in data. NOTE: This map type is useful when users have to analyze **two opposing data sets**. They can show "swings" between these two opposing categories, such as shifts in political party support or geographic increases and decreases in metrics like population or housing prices. Arrow maps are especially useful for election coverage. Steps on how to use them are available [here.](https://blog.datawrapper.de/arrow-maps/)​
 
 ### _Locator map_
 
@@ -473,6 +477,21 @@ NOTE: Collaboration in Teams[ is live](https://blog.datawrapper.de/introducing-l
 If you work with a team or with a Teams account, Datawrapper's visualization archive is a central hub for all your team's visualizations. It includes features like folders, team-wide search, and custom fields to streamline management, whether you're solo or part of a large team. [Recent updates have enhanced the archive, making it more intuitive, practical, and faster. ](https://blog.datawrapper.de/visualization-archive-updates/)This new feature appears to be available to all accounts, not just the paid tiers. \
 
 
+### POWERPOINT INTEGRATION
+
+Datawrapper recently [added an integration into ](https://blog.datawrapper.de/create-data-visualizations-in-powerpoint/)PowerPoint. In sum, the features are:
+
+* **New Add-In for PowerPoint:** Datawrapper released a free add-in for PowerPoint, available on Microsoft AppSource.
+* **Access & Edit Visualizations:** Access, embed, and edit all your Datawrapper visualizations directly within PowerPoint.
+* **Private Visualizations:** Visualizations remain private by default, with no need to publish them online.
+* **Real-Time Updates:** Stay connected to live data sources and update visualizations in one click before presentations.
+* **Cross-Platform Adaptability:** Visualizations created in PowerPoint can be used interactively on websites, as PNGs on social media, or in PDFs and print reports.
+* **Interactive Visualizations:** A separate add-in enables fully interactive features like zoomable maps, hover tooltips, and sortable tables. Learn more in the Datawrapper Academy.
+
+After testing this, we learned that the format differs slightly from the web version. The menu and editing options seem limited compared to the web interface. It may also take more time to familiarize yourself with the PowerPoint interface. Depending on the computing capability of your device, the visualizations in PowerPoint tend to lag sometimes whenever a feature in the visualization is being edited.&#x20;
+
+
+
 <details>
 
 <summary>Summary of key features that may be helpful for beginner open-source researchers</summary>
@@ -530,11 +549,20 @@ The difficulty level also increases as your dataset gets more complicated. The d
 * _**Geocoding Accuracy:**_ Datawrapper's geocoder [isn't perfect](https://academy.datawrapper.de/article/193-symbol-location-accuracy-using-addresses-place-names). Some locations might be misplaced. Knowing the exact coordinates of a place can help avoid errors.
 * _**Base Map Issues:**_ Datawrapper might have trouble displaying certain base maps if the data format is unusual.
   * Datawrapper [mentions that](https://academy.datawrapper.de/article/220-my-choropleth-symbol-maps-doesnt-load) “if there is a slash in one of the country descriptions, e.g. "Bosnia/Herzegovina", it might cause Datawrapper to not parse the data properly. If you get rid of the slash and write 'Bosnia and Herzegovina', the data will load properly.”&#x20;
-* _**Map Zoom Levels:**_ Setting map zoom levels correctly is crucial. If not done right, labels might disappear when zooming in or out, confusing viewers.
-  * Some map features and their functions are not immediately obvious to the user. For example, errors appear when making the map zoomable. Map labels sometimes do not appear at all.&#x20;
-  * When you embed a map, it starts at a zoomed-out view. This is okay for a general overview, but it can be difficult to see details. Zooming in lets you explore specific areas.
-  * If you don't set it up right, important information like city names or labels might disappear when you zoom in or out. This can be confusing for people trying to understand your map.
-  * Datawrapper explains that "you will find that the map labels don't show up before you either zoom in or set the minimum zoom for labels to 1” To avoid this, you need to make sure the labels are visible[ by setting it to 1](https://academy.datawrapper.de/article/238-my-map-labels-dont-show-u) no matter how much people zoom in or out.
+*   _**Map Zoom Levels:**_ Setting map zoom levels correctly is crucial. If not done right, labels might disappear when zooming in or out, confusing viewers.
+
+    * Some map features and their functions are not immediately obvious to the user. For example, errors appear when making the map zoomable. Map labels sometimes do not appear at all.&#x20;
+    * When you embed a map, it starts at a zoomed-out view. This is okay for a general overview, but it can be difficult to see details. Zooming in lets you explore specific areas.
+    * If you don't set it up right, important information like city names or labels might disappear when you zoom in or out. This can be confusing for people trying to understand your map.
+    * Datawrapper explains that "you will find that the map labels don't show up before you either zoom in or set the minimum zoom for labels to 1” To avoid this, you need to make sure the labels are visible[ by setting it to 1](https://academy.datawrapper.de/article/238-my-map-labels-dont-show-u) no matter how much people zoom in or out.
+
+
+* Copy-Pasting and CSV Import Errors\
+  A significant limitation of the map feature arises during the data import process, particularly when copying and pasting data such as a list of locations and their respective coordinates. Based on our tests, there are instances where some values are successfully copied into the platform, while others are either omitted or altered unintentionally. Names of the locations are also sometimes missing from the list or rearranged in a different order. This inconsistency can introduce errors in the dataset and compromise the reliability of the final visualization.
+*   Potential Data Alignment Issues\
+    The irregularity in data transfer can lead to misaligned rows or columns, especially when working with large datasets. This may require additional manual verification to ensure that all data points are correctly mapped to their respective geographies.
+
+    We found that employing data in smaller batches may be a more reliable approach. For extensive datasets, consider pasting or importing the data in smaller batches to detect errors more quickly and amend any errors immediately.
 
 **3. General:**
 
@@ -543,8 +571,8 @@ The difficulty level also increases as your dataset gets more complicated. The d
 * _**Data Limits:**_ Datawrapper [works best with smaller datasets](https://academy.datawrapper.de/article/310-max-size-for-data-upload). Uploading very large datasets can lead to slow loading times and lag.&#x20;
 * _**Updates:**_ You can't update visualizations once published. However, you can update the data each time you open the chart and republish.
 * _**Translations:**_ Datawrapper can translate the built-in features of the tool, but not the content you manually enter (like the chart title). This can be confusing for viewers in different languages.
-  * However, it translates the built-in features of the tool itself. For example, the chart's title is usually inputted manually by the user. If this title is in English, this will not be translated once users choose an output locale in a different language. Things like measurements (miles/kilometers), name countries, distance, and date formatting are all part of the tool and will therefore be translated if specified in the output locale.&#x20;
-* _**Privacy:**_ For  the free account: Even if you cancel your subscription or delete your account, your visualizations will [remain online](https://www.datawrapper.de/pricing) (see also [here](https://www.datawrapper.de/faq#what-happens-to-my-visualizations-when-i-cancel-my-plan-or-close-my-account)).
+  * However, it translates the built-in features of the tool itself. For example, the chart's title is usually inputted manually by the user. If this title is in English, it will not be translated once users choose an output locale in a different language. Measurements (miles/kilometers), names of countries, distance, and date formatting are all part of the tool and will, therefore, be translated if specified in the output locale.&#x20;
+* _**Privacy:**_ For the free account: Even if you cancel your subscription or delete your account, your visualizations will [remain online](https://www.datawrapper.de/pricing) (see also [here](https://www.datawrapper.de/faq#what-happens-to-my-visualizations-when-i-cancel-my-plan-or-close-my-account)).
 * _**Single Sign-On:**_ Free and custom plans don't offer a central login system for managing user access.
 
 For more list of limitations, see:
