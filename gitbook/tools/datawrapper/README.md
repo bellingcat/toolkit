@@ -226,7 +226,7 @@ Similarly, the final tab under “Visualize”  is Layout customization.  The ke
 Below is a sample interactive symbol map to demonstrate what the final product may look like:
 
 {% embed url="https://datawrapper.dwcdn.net/UKoIL/3/" %}
-This is an example of an interactive choropleth map using data from Ookla on internet speeds by country in 2023 (via [Wikipedia)](https://en.wikipedia.org/wiki/List\_of\_sovereign\_states\_by\_Internet\_connection\_speeds#Fixed\_broadband). Users can hover over each detail to see more information. Darker colors represent faster speeds, and lighter colors represent slightly slower speeds (NOTE: This map and data are for demonstration purposes only).
+This is an example of an interactive choropleth map using data from Ookla on internet speeds by country in 2023 (via [Wikipedia)](https://en.wikipedia.org/wiki/List_of_sovereign_states_by_Internet_connection_speeds#Fixed_broadband). Users can hover over each detail to see more information. Darker colors represent faster speeds, and lighter colors represent slightly slower speeds (NOTE: This map and data are for demonstration purposes only).
 {% endembed %}
 
 ### _**Symbol map**_
@@ -470,6 +470,9 @@ Before creating a new chart, map, or table on Datawrapper, ensure you're working
 NOTE: Collaboration in Teams[ is live](https://blog.datawrapper.de/introducing-live-collaboration/). This means all members can access the edits and visualizations simultaneously. Users can see when colleagues are editing, and they can see yours. The edits are associated with an icon showing the account info/picture of the team member.
 {% endhint %}
 
+If you work with a team or with a Teams account, Datawrapper's visualization archive is a central hub for all your team's visualizations. It includes features like folders, team-wide search, and custom fields to streamline management, whether you're solo or part of a large team. [Recent updates have enhanced the archive, making it more intuitive, practical, and faster. ](https://blog.datawrapper.de/visualization-archive-updates/)This new feature appears to be available to all accounts, not just the paid tiers. \
+
+
 <details>
 
 <summary>Summary of key features that may be helpful for beginner open-source researchers</summary>
@@ -585,7 +588,7 @@ How to create teams and other guides related to working in collaboration: [https
 
 _**Guides from other sources**_&#x20;
 
-Video Tutorial: [Datawrapper Training](https://www.youtube.com/watch?v=adUpZXL4Ja0\&list=PLjm9uN3XhRuFDb\_8bhO5t\_XiTOzXeGAMo). By Adam Robert Marton, University of Maryland's Philip Merrill College of Journalism.
+Video Tutorial: [Datawrapper Training](https://www.youtube.com/watch?v=adUpZXL4Ja0\&list=PLjm9uN3XhRuFDb_8bhO5t_XiTOzXeGAMo). By Adam Robert Marton, University of Maryland's Philip Merrill College of Journalism.
 
 Guide from The Guardian: [https://www.theguardian.com/global-development-professionals-network/2014/aug/28/interactive-infographics-development-data](https://www.theguardian.com/global-development-professionals-network/2014/aug/28/interactive-infographics-development-data)&#x20;
 
