@@ -24,32 +24,50 @@ IMO numbers are unique, seven-digit tracking numbers assigned to ships and shipp
 MMSI (Maritime Mobile Service Identities) numbers are nine-digit numbers used to uniquely identify ships in radio and AIS (Automatic Identification System) broadcasts. MMSI numbers are issued by the country a ship is flagged to and managed by the International Telecommunications Union. More information about MMSI numbers can be found on the [International Telecommunications Union's website](https://www.itu.int/en/ITU-R/terrestrial/Pages/by-categories-faq.aspx?categorizedby=17).
 {% endhint %}
 
-**Main desktop & in-app menus**
+**Main desktop & in-app menus -**&#x20;
 
-[Live Map](https://www.marinetraffic.com/en/ais/home/centerx:-18.6/centery:28.9/zoom:6): The world map with all the 279,372 vessels that MarineTraffic monitors and has in its database shown on the map. Just point and click on a vessel to see basic information. Be aware that if a vessel is outside of coastal AIS range, the only information shown with a free plan account is its type (i.e. cargo, passenger, tanker vessel) and its name.
+{% hint style="success" %}
+NOTE: The below menus are only accessible after creating an account and logging in.
+{% endhint %}
+
+[Live Map](https://www.marinetraffic.com/en/ais/home/centerx:-18.6/centery:28.9/zoom:6): The world map with roughly [550,000 vessels that MarineTraffic monitors](https://www.marinetraffic.com/en/ais/index/ships/nearby/shipid:188058/mmsi:235007275/%D8%9E) and has in its database shown on the map. Just point and click on a vessel to see basic information. Be aware that if a vessel is outside of coastal AIS range, the only information shown with a free plan account is its type (i.e. cargo, passenger, tanker vessel) and its name.
 
 [Vessels](https://www.marinetraffic.com/en/data/?asset_type=vessels\&columns=flag%2Cshipname%2Cphoto%2Crecognized_next_port%2Creported_eta%2Creported_destination%2Ccurrent_port%2Cimo%2Cship_type%2Cshow_on_live_map%2Ctime_of_latest_position%2Clat_of_latest_position%2Clon_of_latest_position%2Cnotes): This menu moves away from the map to show a list of all vessels in MarineTraffic's database and a search bar that allows searching by vessel name, MMSI, IMO or callsign. Once a vessel is selected, you can access some basic information. More useful data like its port call logs, characteristics and ownership are only available through a paid plan.&#x20;
 
-<div><figure><img src=".gitbook/assets/MT1.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/MT2.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/MT1.png" alt=""><figcaption><p>A detailed view for the vessel James R. Barker - its current voyage as of November 20, 2024 with place of departure and its final destination for this trip</p></figcaption></figure> <figure><img src=".gitbook/assets/MT2.png" alt=""><figcaption><p>A detailed view for the vessel James R. Barker - IMO and MMSI numbers, its call sign, the type of vessel, speed and draught (the determined depth of the vessel below the waterline, measured vertically to its hull's lowest)</p></figcaption></figure></div>
 
 This vessel view also has two shortcuts to follow a ship's past track (selecting this will return you to the map and show this exact vessel's recent movements) for the past about 4 days. Custom past track dates are available through a paid subscription. Another shortcut that also returns the user to the main map is the route forecast, but free predictive routes are only shown for a 24-hour future period and again custom past track dates are available through a paid subscription.&#x20;
 
 In the main menu, you can select for free up to five vessels and add them to a custom fleet that you can track over time.
 
-[Ports](https://www.marinetraffic.com/en/data/?asset_type=arrivals_departures\&columns=shipname%2Cmove_type%2Cport_type%2Cport_name%2Cata_atd%2Corigin_port_name%2Cleg_start_port%2Cintransit\&ata_atd_between=2024-11-20%2C2024-11-21): A list of over 20,881 ports, ahcorages, offshore terminals, marinas, canals, shelters, fishing harbours and shelters including description of the port, its location, information on the number of arrivals and departures in the past 24 hours, as well as the number of vessels currently anchored there, the number of expected arrivals and the local time of the port. Use the search bar to locate a specific port using a name or a United Nations Code for Trade and Transport Locations - LOCODE (a geographic coding scheme developed and maintained by the UN Economic Commission for Europe).
+[Ports](https://www.marinetraffic.com/en/data/?asset_type=ports\&columns=flag,portname,unlocode,photo,vessels_in_port,vessels_departures,vessels_arrivals,vessels_expected_arrivals,local_time,anchorage,geographical_area_one,geographical_area_two,coverage): A list of over 20,887 ports, anhcorages, offshore terminals, marinas, canals, shelters, fishing harbors and shelters including description of the port, its location, information on the number of arrivals and departures in the past 24 hours, as well as the number of vessels currently anchored there, the number of expected arrivals and the local time of the port. Use the search bar to locate a specific port using a name or a United Nations Code for Trade and Transport Locations - LOCODE (a geographic coding scheme developed and maintained by the UN Economic Commission for Europe, the code consists of five letters with the first two designating the country, e.g. ESADR is the LOCODE for Port of Adra in Spain).
+
+{% hint style="info" %}
+A [full list of LOCODEs by country](https://unece.org/trade/cefact/unlocode-code-list-country-and-territory) can be found on the United Nations Economic Commission for Europe (UNECE). By selecting a country, the system displays the entire UN/LOCODE list of subdivisions, i.e. the country, the port names and their coordinates.&#x20;
+
+The list  allows obtaining the UN/LOCODE Code List 2024-1 for each country or territory. The latest version was published in July 2024.
+{% endhint %}
 
 This menu also allows to search expected arrivals, arrivals and departures by a ship's name IMO or MMSI. A paid subscription also features looking up data on berth calls and port congestion.&#x20;
+
+{% hint style="info" %}
+Berth calls describes events that take place in a berth within a port, such as docking and undocking of vessels in them. There are various areas within the port, where vessels can dock.&#x20;
+
+Berth in ports are designated locations where a vessel can dock to load and unload cargo or passengers. Berths are designated by the management of a facility (e.g., port authority, harbor master). Vessels are assigned to berths by these authorities.
+{% endhint %}
 
 If you have a paid subscription, the Ports menu also offers information on port congestion, and the exact names of the ships expected to arrive or depart.
 
 When you have selected a specific port, a new page opens with more details like photos and businesses located at the port. A paid subscription unlocks further details like number of terminals and berths, maximum deadweight, draught and length.&#x20;
 
-<figure><img src=".gitbook/assets/MT3.png" alt=""><figcaption><p>Detailed view on Zhoushan Port</p></figcaption></figure>
+<figure><img src=".gitbook/assets/MT3.png" alt=""><figcaption><p>Detailed view on Zhoushan Port: its LOCODE, number of terminals and berths user-contributed photos.</p></figcaption></figure>
 
-[Lighthouses & AtoN](https://www.marinetraffic.com/en/data/?asset_type=lights\&columns=flag,light_name,photo,location,light_type,characteristic,year_of_build,operational): A list of 15,888 lighthouses and Aids to Navigation (NAVAID) with their key details. The list can be searched by name, and additional filters can be applied to list lights and AtoNs by area, country, type of light or flashing, whether it is operational, number of flashes and interval of flashing, light color and range, focal height, admiralty code and The Amateur Radio Lighthouse Society (ARLHS) code.
+[Lighthouses & AtoN](https://www.marinetraffic.com/en/data/?asset_type=lights\&columns=flag,light_name,photo,location,light_type,characteristic,year_of_build,operational): A list of 15,888 lighthouses and Aids to Navigation (AtoN or also known as NAVAID) with their key details. The list can be searched by name, and additional filters can be applied to list lights and AtoNs by area, country, type of light or flashing, whether it is operational, number of flashes and interval of flashing, light color and range, focal height, admiralty code and The Amateur Radio Lighthouse Society (ARLHS) code.
 
 {% hint style="info" %}
 In an effort to be able to readily identify lights for amateur radio contact purposes, The Amateur Radio Lighthouse Society (ARLHS) created the [World List of Lights](http://wlol.arlhs.com/). WLOL contains information on 15,529 Lighthouses in 234 amateur radio call areas.
+
+You can read more on AtoN [here](https://en.wikipedia.org/wiki/Navigational_aid) for basic understanding of the concept and why aids of navigation are important for ships [here](https://www.marineinsight.com/marine-navigation/virtual-aids-of-navigation-are-important-for-ships/).&#x20;
 {% endhint %}
 
 <figure><img src=".gitbook/assets/MT4.png" alt=""><figcaption><p>Detailed view of the Friedrichsort lighthouse, including photos and details on the color, shape and material of the construction. </p></figcaption></figure>
@@ -72,7 +90,7 @@ Photo gallery and Maritime News: This photo gallery is useful when you want to c
 4. **Layers**:  This filter which is available with a paid subscription has meteorological, rescue, military, and piracy layers, areas of interest such as trade of offshore wind farm areas, as well as SafetyNET areas address in meteorological warnings.
 5. **Weather**: Almost all of the filters are behind a paywall, but they include wind gusts, wind wave heights and directions, currents, swell periods, temperatures, precipitation and visibility among others.&#x20;
 6. **Density Maps**: A visual representation of the distribution and intensity of the vessels across a geographic area. The free access shows data for the past year. The paid version allows for sub-layers to display specific vessel types. Can be used to monitor whether an area is characterized by high or low shipping traffic.
-7. **Historical Data & Playback**: Good for analyzing past movements and investigating incidents. MarineTraffic offers access to historical data of about two years for paid subscribers and of three days for free accounts, plus a playback functionality.
+7. **Historical Data & Playback**: Good for analyzing past movements, investigating ship accidents or illicit maritime activities, exploring port visits, the efficiency of port operations or planning optimal maritime routes. MarineTraffic offers access to historical data of about two years for paid subscribers and of three days for free accounts, plus a playback functionality. [Marine Traffic's API documentation](https://servicedocs.marinetraffic.com/tag/Vessel-Historical-Track) lists all the parameters available in the historical data feature.&#x20;
 8. **Voyage Planner**: Used to visualize and review sea routes information based on density maps of   vessel movements. This is useful for professionals in the field that want to plan an optimal route, departure/arrival time and speed, or review waypoint to waypoint routing details.
 
 ## Cost
@@ -99,9 +117,13 @@ A free registration via email to access at least some of the menus and capabilit
 
 MarineTraffic's data is AIS signals. Since AIS transponders can be, and are, switched off by vessels which want to avoid tracking, the user needs to become familiar with this trait and work around it where necessary.
 
+{% hint style="info" %}
+Turning off AIS transponders is sometimes known as "dark shipping." This practice is oftentimes used to evade vessel tracking, sanctions, conceal illegal trade, human trafficking, and other actions that do not comply with maritime law. The Dark Shipping website provides this [brief guide](https://www.darkshipping.com/post/ais-off-dark-shipping) on the topic.&#x20;
+{% endhint %}
+
 Some features like a vessel's dimensions, ownership and port call log are only available through a paid subscription. See the Cost section of this page for pricing information.&#x20;
 
-Satellite data on movements is only available through a paid subscription, which is not the fact with some similar tools.&#x20;
+Satellite data on movements is only available through a paid subscription, which is not the fact with some similar tools such as [Global Fishing Watch](https://globalfishingwatch.org/our-technology/).&#x20;
 
 ## Ethical Considerations
 
@@ -117,7 +139,11 @@ Guides provided by MarineTraffic:
 
 [Using MarineTraffic](https://support.marinetraffic.com/en/collections/9740537-using-marinetraffic)
 
-[Vessels Database](https://support.marinetraffic.com/en/articles/9552760-vessels-database)&#x20;
+[Port Details](https://support.marinetraffic.com/en/articles/9552786-port-details-page) article with basic usage and [Ports Database](https://support.marinetraffic.com/en/articles/9552788-ports-database).&#x20;
+
+[Vessels Database](https://support.marinetraffic.com/en/articles/9552760-vessels-database) and [Vessels](https://support.marinetraffic.com/en/articles/9552656-vessels) article with basic functions.
+
+[Live Map](https://support.marinetraffic.com/en/articles/9552654-live-map) article with basic usage and functionalities.&#x20;
 
 [Playback - Past Track](https://support.marinetraffic.com/en/articles/9552736-playback-past-track)
 
