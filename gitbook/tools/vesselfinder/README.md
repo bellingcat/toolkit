@@ -53,6 +53,12 @@ Additionally, here's a quick overview of the different capabilities and menus av
 
 <figure><img src=".gitbook/assets/VF3.png" alt="" width="563"><figcaption><p>Profile of the Port of Acapulco</p></figcaption></figure>
 
+{% hint style="info" %}
+A [full list of LOCODEs by country](https://unece.org/trade/cefact/unlocode-code-list-country-and-territory) can be found on the United Nations Economic Commission for Europe (UNECE). By selecting a country, the system displays the entire UN/LOCODE list of subdivisions, i.e. the country, the port names and their coordinates.&#x20;
+
+The list  allows obtaining the UN/LOCODE Code List 2024-1 for each country or territory. The latest version was published in July 2024.
+{% endhint %}
+
 * [Containers](https://www.vesselfinder.com/containers) -  This is a paid service both in the app and on the website. It offers real-time online track & trace service as well as Container Tracking API for monitoring of container shipments. This service comes with a dashboard, port activities (origin and destination port, transshipment ports also known as entrepôts, land transshipment, arrival and departure times and real-time position of the container ships). It is usually used by businesses to track the location and status of container shipments as they travel along the supply chain, but this feature can be useful for tracking suspected illicit trade.
 
 <figure><img src=".gitbook/assets/VF4.png" alt="" width="563"><figcaption><p>Demo view of container tracking</p></figcaption></figure>
