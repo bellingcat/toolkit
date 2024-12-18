@@ -2,7 +2,7 @@
 description: Look up phone numbers/names (Sweden)
 ---
 
-# Rasit
+# Ratsit
 
 ## URL
 
