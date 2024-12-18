@@ -14,7 +14,7 @@ Quick Geolocation Search is a repository of various maps, all in one place, whic
 
 Enter coordinates in the longitude and latitude fields, or select a location on the map and choose a map you are interested in. The map will open in a new tab.
 
-Categories include general maps such as Google Maps, Yandex, Open Street Map, and Wikimapia.&#x20;
+Categories include **General** maps such as Google Maps, Yandex, Open Street Map, and Wikimapia.&#x20;
 
 Other categories to explore are History, Nature, Satellite, Transport, Social Media.
 
