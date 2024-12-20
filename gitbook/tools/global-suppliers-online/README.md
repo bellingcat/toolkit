@@ -12,19 +12,39 @@ description: >-
 
 ## Description
 
-This is a website where suppliers from all over the world promote their goods and contact buyers. If your research is related to companies or individuals engaged in the trade of any goods, you can search for their name and, if they have published their services on this site, obtain relevant details such as adresses, products traded and even a point of contact, such as the name of a person in charge of the trade. You can also find people requesting certain products, so you can also use this tool to search for individuals that look suspicious to you.
+This is a website where suppliers from all over the world promote their goods and contact buyers. If your research is related to companies or individuals engaged in the trade of any goods, you can search for their name and, if they have published their services on this site, obtain relevant details such as addresses, products traded and even a point of contact, such as the name of a person in charge of the trade. You can also discover who is asking for some items or goods you are researching and get contact points, company names and countries involved.
 
-The commercial players of a company may differ from those managing it, and their names can provide a new insight. In a research on wildlife trade I was able to find in this site a name of the person in charge of the trade different from the director's name that appears in the official records and in the software to search for business information. This data, although basic, allowed me to turn my research around.&#x20;
+<figure><img src=".gitbook/assets/Screenshot 2024-12-20 at 6.52.37 PM.png" alt=""><figcaption></figcaption></figure>
+
+You can search without any log in or create an account to get a buyer membership, that will allow you&#x20;
+
+You can also find people requesting certain products, so you can use this tool to search for individuals that look suspicious to you. The business managers of a company may differ from those who run it, and the names given here may bring a new perspective to your research. While doing wildlife trade research, I was able to find on this site a business manager's name different from the director's name that appears in official records and in business information search software. This data, although basic, allowed me to turn my research around.
+
+
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
+You can search this website for free, but there are subscription options that allow you to go a little further.
+
+Buyer membership (Free)
+
+With this membership you can search and add buying requirements. You only have to register contact information and some company information. They do not verify the information, you can just fill in the required fields to create an account.
+
+Trial Membership (Free, but they will review your profile)
+
+After activating your buyer membership, they will review your profile and decide whether or not to grant you this type of membership. You will have access to an inquiry manager: they will monitor new buying needs that may be of interest to you and keep you informed. The inquiry manager can be of great help in keeping track of the items you are interested in.
+
+Basic Membership and Select Membership (120 USD and 260 USD every year each)
+
+If you wish to contact buyers, you will have to pay for one of these memberships. With the basic membership you can contact up to 10 buyers and the select membership allows you unlimited contacts. These memberships allow you to disclose buyers' information (again, 10 buyers with basic and unlimited with select). There are other benefits listed that you can review [here](https://www.globalbuyersonline.com/members/reg.asp) after logging in, but they are not very useful for research purposes.
 
 
-## Level of difficulty
+
+Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
