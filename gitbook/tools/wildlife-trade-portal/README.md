@@ -52,6 +52,8 @@ Guides: [https://www.wildlifetradeportal.org/wildlife-trade-portal-guide.pdf](ht
 
 Articles: [https://www.sciencedirect.com/science/article/pii/S2352340921008076](https://www.sciencedirect.com/science/article/pii/S2352340921008076)&#x20;
 
+[https://allafrica.com/stories/202412050130.html](https://allafrica.com/stories/202412050130.html)
+
 ## Tool provider
 
 TRAFFIC + Arcadia
