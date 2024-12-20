@@ -12,13 +12,15 @@ description: Over 7 million records of trade in wildlife since 1975.
 
 The tool hosts million of wild fauna and flora trade records. You can look by year ranges, exporting and importing countries, source, purpose, trade terms (live individuals, skins, etc.) and taxon (genus, species, etc).
 
-You can configurate the kind of results you will get. You can get a csv report with customized configurations or a web version.
+You can configurate the kind of results you will get. You can get a csv report with customized configurations or a web version.&#x20;
 
 For example, if you are looking for China imports of wild species for biomedical purposes from 2018 to 2023, you will get a detailed table with over 100 results that gives you species info, importer and exporter info, reported quantity, purpose, source, among other findings.
 
 The tool allows you to bulk download the whole database. With relatively fast internet connection (145.9 Mbps download and 9.92 Mbps upload when I tried) you can get it in under 2 minutes. It is divided into 54 csv archives.
 
 The tool also links the [CITES Wildlife TradeView](https://tradeview.cites.org/en), a interactive online tool for exploring and visualising CITES trade data. You can explore visuals providing in a global view (data of all CITES-listed species), country view (data for one or more countries) and taxon view (data for one or more species or taxonomic groups).
+
+I reviewed the 2024.1 version.
 
 ## Cost
 
@@ -82,11 +84,15 @@ None so far.
 
 ## Guides and articles
 
+Guide:
+
+[https://trade.cites.org/cites\_trade\_guidelines/en-CITES\_Trade\_Database\_Guide.pdf](https://trade.cites.org/cites_trade_guidelines/en-CITES_Trade_Database_Guide.pdf)
+
 Projects:
 
-[https://www.traffic.org/site/assets/files/23066/en\_wildlife\_trade\_in\_central\_asia-compressed.pdf](https://www.traffic.org/site/assets/files/23066/en\_wildlife\_trade\_in\_central\_asia-compressed.pdf)
+[https://www.traffic.org/site/assets/files/23066/en\_wildlife\_trade\_in\_central\_asia-compressed.pdf](https://www.traffic.org/site/assets/files/23066/en_wildlife_trade_in_central_asia-compressed.pdf)
 
-[https://www.researchgate.net/publication/225459268\_Fisheries\_and\_trade\_of\_seahorses\_in\_Brazil\_Historical\_perspective\_current\_trends\_and\_future\_directions](https://www.researchgate.net/publication/225459268\_Fisheries\_and\_trade\_of\_seahorses\_in\_Brazil\_Historical\_perspective\_current\_trends\_and\_future\_directions)
+[https://www.researchgate.net/publication/225459268\_Fisheries\_and\_trade\_of\_seahorses\_in\_Brazil\_Historical\_perspective\_current\_trends\_and\_future\_directions](https://www.researchgate.net/publication/225459268_Fisheries_and_trade_of_seahorses_in_Brazil_Historical_perspective_current_trends_and_future_directions)
 
 [https://www.sciencedirect.com/science/article/pii/S2351989421001852](https://www.sciencedirect.com/science/article/pii/S2351989421001852)
 
