@@ -14,6 +14,8 @@ This tool allows you to search for seizures, arrests, court cases and conviction
 
 For example, if you search the word “donkeys,” you will get all cases worldwide (or by region if you choose to search the other four versions available) involving this species, including cases where donkeys were found along with other species or commodities. This is very useful for cross-investigations.
 
+<figure><img src=".gitbook/assets/Screenshot 2024-12-20 at 7.03.48 PM.png" alt=""><figcaption></figcaption></figure>
+
 It is possible to contribute and add data to this tool by submitting this [form](https://docs.google.com/forms/d/1ZMKUz4TPofiGHgo04Qk2SSn6qu0VOKruAhsCtKD251Q/viewform?edit_requested=true). You can also download or request the raw [data](https://oxpeckers.org/get-the-data/).
 
 ## Cost
@@ -40,7 +42,9 @@ It uses information from reporters and unofficial media as sources, which could 
 
 ## Guides and articles
 
-Guide for journalists: [https://oxpeckers.org/guide-for-journalists/](https://oxpeckers.org/guide-for-journalists/)
+Guides: [https://oxpeckers.org/guide-for-journalists/](https://oxpeckers.org/guide-for-journalists/)
+
+[https://oxpeckers.org/wp-content/uploads/2024/02/Tips-and-tools-for-data-journalists.pdf](https://oxpeckers.org/wp-content/uploads/2024/02/Tips-and-tools-for-data-journalists.pdf)
 
 How to use: [https://oxpeckers.org/how-to-use-wildeye/](https://oxpeckers.org/how-to-use-wildeye/)&#x20;
 
