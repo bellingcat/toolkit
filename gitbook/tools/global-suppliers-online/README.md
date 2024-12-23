@@ -44,6 +44,8 @@ After activating your buyer membership, they will review your profile and decide
 
 <figure><img src=".gitbook/assets/Screenshot 2024-12-23 at 11.55.44 AM.png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src=".gitbook/assets/Screenshot 2024-12-23 at 11.57.50 AM.png" alt=""><figcaption></figcaption></figure>
+
 Basic Membership and Select Membership (120 USD and 260 USD every year each)
 
 If you wish to contact buyers, you will have to pay for one of these memberships. With the basic membership you can contact up to 10 buyers and the select membership allows you unlimited contacts. These memberships allow you to disclose buyers' information (again, 10 buyers with basic and unlimited with select). There are other benefits listed that you can review [here](https://www.globalbuyersonline.com/members/reg.asp) after logging in, but they are not very useful for research purposes.
