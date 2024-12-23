@@ -36,11 +36,13 @@ You can search this website for free, but there are subscription options that al
 
 Buyer membership (Free)
 
-With this membership you can search and add buying requirements. You only have to register contact information and some company information. They do not verify the information, you can just fill in the required fields to create an account.
+With this membership you can search and add buying requirements. You only have to register contact information and some company information. You can just fill in the required fields to create an account with any information. For example, I logged in as a clothes store.
 
 Trial Membership (Free, but they will review your profile)
 
-After activating your buyer membership, they will review your profile and decide whether or not to grant you this type of membership. You will have access to an inquiry manager: they will monitor new buying needs that may be of interest to you and keep you informed. The inquiry manager can be of great help in keeping track of the items you are interested in.
+After activating your buyer membership, they will review your profile and decide whether or not to grant you this type of membership. You will have access to an inquiry manager: they will monitor new buying needs that may be of interest to you and keep you informed. The inquiry manager can be of great help in keeping track of the items you are interested in. My trial membership was activated two days after I created my profile and they now send me recommendations based on my type of business (clothing).
+
+<figure><img src=".gitbook/assets/Screenshot 2024-12-23 at 11.55.44 AM.png" alt=""><figcaption></figcaption></figure>
 
 Basic Membership and Select Membership (120 USD and 260 USD every year each)
 
