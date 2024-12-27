@@ -182,3 +182,4 @@
   * [Uwazi](tools/uwazi/README.md)
   * [Apollo Mapping](tools/apollo-mapping/README.md)
   * [Shadow Finder](tools/shadow-finder/README.md)
+  * [MarineTraffic](tools/marinetraffic/README.md)
