@@ -12,6 +12,8 @@ description: >-
 
 ## Description
 
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 Telegago is a Google Custom Search Engine (CSE) designed for Open Source Intelligence (OSINT) research on public Telegram content. By focusing on Telegram’s publicly available domains (e.g., t.me), it allows users to perform targeted and precise searches without requiring a Telegram account.
 
 **Key Features**
