@@ -20,7 +20,7 @@ Open a photograph in the [Google Photos](https://play.google.com/store/apps/deta
 
 <div align="left"><figure><img src=".gitbook/assets/image.png" alt="" width="298"><figcaption><p>Screenshot 1. Click the Google Lens icon on the bottom right of the screen (second from the right).</p></figcaption></figure> <figure><img src=".gitbook/assets/2.PNG" alt="" width="299"><figcaption><p>Screenshot 2. The application will start running and might suggest a specific area or object to search. </p></figcaption></figure></div>
 
-<div align="left"><figure><img src=".gitbook/assets/3.PNG" alt="" width="296"><figcaption><p>Screenshot 3. The suggested object or area will be highlighted in a rectangle, which you can click and drag to move, or use one of the corners to re-size it. </p></figcaption></figure> <figure><img src=".gitbook/assets/4.PNG" alt="" width="300"><figcaption><p>Screenshot 4. The results will appear at the bottom of your phone screen. Drag the sidebar up to scroll through a full list of the hits and hyperlinks.</p></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/3.PNG" alt="" width="296"><figcaption><p>Screenshot 3. The suggested object or area will be highlighted in a rectangle, which you can click and drag to move, or use one of the corners to re-size it. The results will appear at the bottom of your phone screen. </p></figcaption></figure> <figure><img src=".gitbook/assets/4.PNG" alt="" width="300"><figcaption><p>Screenshot 4. Drag the sidebar up to scroll through a full list of the hits and hyperlinks. You can also add keywords using the Google search bar, which is at the top of this screenshot, to narrow down your search.</p></figcaption></figure></div>
 
 ### Using Google Lens in the browser&#x20;
 
@@ -40,7 +40,7 @@ Right click any photo you come across while browsing the Internet using Google C
 
 ## Requirements
 
-You need the [Google Photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos) application on your mobile phone if you want to search an image in your gallery. Otherwise, you can use Google Lens with Google Chrome.
+You need the [Google Photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos) application on your mobile phone if you want to search an image in your gallery. Otherwise, you can use Google Lens with Google Chrome.&#x20;
 
 ## Limitations
 
@@ -52,7 +52,9 @@ Make sure you analyse the search results critically and cross-reference these wi
 
 ## Guides and articles
 
-'Simple (and powerful) OSINT geolocation with Google', 29 January 2023, _Intelligence 101_. Available at: [https://www.intelligence101.com/geolocation-google-lens/](https://www.intelligence101.com/geolocation-google-lens/) (Accessed 30 September 2024).
+'What Is Google Lens and How Do You Use It?', 23 October 2024, _Web FX._ Available at: [https://www.webfx.com/blog/seo/google-lens/#:\~:text=To%20access%20Google%20Lens%20on,should%20open%20up%20Google%20Lens.](https://www.webfx.com/blog/seo/google-lens/) (Accessed 27 December 2024).
+
+'Search with an image on Google', _Google Search Help._ Available at: [https://support.google.com/websearch/answer/1325808?hl=en\&co=GENIE.Platform%3DAndroid#:\~:text=In%20the%20search%20bar%2C%20tap,and%20hold%20the%20Shutter%20button%20.](https://support.google.com/websearch/answer/1325808?hl=en\&co=GENIE.Platform%3DAndroid) (Accessed 27 December 2024).
 
 ## Tool provider
 
