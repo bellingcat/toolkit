@@ -1,16 +1,50 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  A browser extension to view archived and cached versions of a web on multiple
+  search engines
 ---
 
 # Web Archives
 
 ## URL
 
-https://example.com
+[Github](https://github.com/dessant/web-archives) | [Chrome](https://chrome.google.com/webstore/detail/web-archives/hkligngkgcpcolhcnkgccglchdafcnao) | [Firefox](https://addons.mozilla.org/firefox/addon/view-page-archive/) | [Edge](https://microsoftedge.microsoft.com/addons/detail/web-archives/apcfghlggldjdjepjnahfdjgdcdekhda) | [Opera](https://addons.opera.com/extensions/details/view-page-archive-cache/) | [Safari](https://apps.apple.com/us/app/web-archives-for-safari/id1603181853?platform=mac)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Web Archives is a browser extension that allows you to view archived and cached versions of web pages on multiple search engines such as Wayback Machine and archive.is. You can start searches directly from the context menu or the browser toolbar. By integrating multiple services into one interface, it saves time and enhances efficiency during online investigations.
+
+**Example use case:** You are investigating a website that frequently updates its content or might remove sensitive pages. Web Archives enables you to quickly check archived versions from different platforms to track changes or retrieve deleted content.
+
+## How to use
+
+### Fetch the current page archives from the extension menu
+
+Open the extension menu and select the desired engine. This will open a new tab with the results.
+
+<figure><img src=".gitbook/assets/demo (3).gif" alt=""><figcaption><p>You can also fetch on all engines simultaneously</p></figcaption></figure>
+
+### Fetch a linked page archive using the context menu
+
+If your target is a link available in the current page, you can right-click on the link, select "Web Archives" context menu and then select the desired engine.
+
+<figure><img src=".gitbook/assets/demo2 (1).gif" alt=""><figcaption><p>You can use Web Archives' context menu on a link</p></figcaption></figure>
+
+### Fetch the archive of a given URL from the clipboard
+
+From the extension menu, select the URL Mode and then copy-paste the target URL.
+
+
+
+<figure><img src=".gitbook/assets/demo3url (1).gif" alt=""><figcaption><p>URL Mode</p></figcaption></figure>
+
+### Change behavior to open new tabs in the background
+
+By default, Web Archives will open the results in a new tab and switch focus to it. If you prefer to open the tab in the background and view the results later, you can adjust this behavior in **Options > Miscellaneous >&#x20;**_**Open new tabs in the background**_.
+
+<figure><img src=".gitbook/assets/demo4 (1).gif" alt=""><figcaption><p>Now tabs will open in the background and you can switch focus to it later</p></figcaption></figure>
+
+You can also choose the desired engines and re-order them in the Options.
 
 ## Cost
 
@@ -18,7 +52,7 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+The tool is free and open source.
 
 ## Level of difficulty
 
@@ -26,32 +60,31 @@ https://example.com
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+* A supported browser
+* Most engines need Javascript to be enabled.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+The tool relies on the availability of the linked archiving services.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
-
-## Guides and articles
-
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+Make sure you have the right to use the selected search engines in your location. Also make sure visiting the archived page doesn't go against the target website's Terms of Services.
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Armin Sebastian ([@dessant on GitHub](https://github.com/dessant)) is an EU based developer specializing in open source browser extensions that enhance user experience and accessibility.
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+The tool itself does not use tracking cookies but the search engines may use them. Be mindful of the search engines privacy policy.
+
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat volunteer team |
+|                           |
 
