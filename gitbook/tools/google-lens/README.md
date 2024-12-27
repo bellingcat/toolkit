@@ -40,7 +40,7 @@ Right click any photo you come across while browsing the Internet using Google C
 
 ## Requirements
 
-You need the [Google Photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos) application on your mobile phone if you want to search an image in your gallery. Otherwise, you can use Google Lens with Google Chrome.&#x20;
+You need the [Google Photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos) application on your mobile phone if you want to search an image in your gallery. Otherwise, you can use Google Lens with Google Chrome, but Google Chrome must be set as your default browser for this to work (see the Google Support page [here ](https://support.google.com/chrome/answer/15086890?hl=en)for more information).
 
 ## Limitations
 
