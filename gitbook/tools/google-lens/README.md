@@ -16,33 +16,17 @@ Use Google Lens to identify objects or locations that are visible in an image. T
 
 ### Using the Google Photos mobile application&#x20;
 
-Open a photograph in the [Google Photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos) mobile application and click the Google Lens![](<.gitbook/assets/image (3).png>)  icon at the bottom of the image.&#x20;
+Open a photograph in the [Google Photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos) mobile application and click the Google Lens![](<.gitbook/assets/image (3).png>)  icon at the bottom of the image. The app will highlight a specific part of the image in a rectangle, which you can move by dragging, or re-size using one of the corners, to make sure it captures your specific area or object of interest.
 
-<div align="left">
+<div align="left"><figure><img src=".gitbook/assets/image.png" alt="" width="298"><figcaption><p>Screenshot 1. Click the Google Lens icon on the bottom right of the screen (second from the right).</p></figcaption></figure> <figure><img src=".gitbook/assets/2.PNG" alt="" width="299"><figcaption><p>Screenshot 2. The application will start running and might suggest a specific area or object to search. </p></figcaption></figure></div>
 
-<figure><img src=".gitbook/assets/image.png" alt="" width="298"><figcaption></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/2.PNG" alt="" width="299"><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src=".gitbook/assets/3.PNG" alt="" width="296"><figcaption></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/4.PNG" alt="" width="300"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src=".gitbook/assets/3.PNG" alt="" width="296"><figcaption><p>Screenshot 3. The suggested object or area will be highlighted in a rectangle, which you can click and drag to move, or use one of the corners to re-size it. </p></figcaption></figure> <figure><img src=".gitbook/assets/4.PNG" alt="" width="300"><figcaption><p>Screenshot 4. The results will appear at the bottom of your phone screen. Drag the sidebar up to scroll through a full list of the hits and hyperlinks.</p></figcaption></figure></div>
 
 ### Using Google Lens in the browser&#x20;
 
 Right click any photo you come across while browsing the Internet using Google Chrome and click 'Search with Google Lens'. The results will be shown on the right.&#x20;
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption><p>Screenshot 5. Using Google Lens in the browser on an image published as part of a Bellingcat investigation. </p></figcaption></figure>
 
 ## Cost
 
