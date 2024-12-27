@@ -16,9 +16,11 @@ The Internet Corporation for Assigned Names and Numbers (ICANN) is a private non
 
 ICANN Lookup is a free public service that gives you the ability to look up publicly available contact and other information related to a domain name or an internet number resource. Also known as WHOIS, domain registration data identifies who owns a domain and how to get in contact with them.&#x20;
 
-If you run the URL of a website through this tool, you might be able to find out the name, and sometimes the mailing address, of the company or individual who registered it.&#x20;
+If you run the URL of a website through this tool, you might be able to find out the status of the domain, relevant dates, such as the date it was created, updated, or is set to expire, and the names and contact details of the registrant (the individual or entity that registered the domain name) or the registrar (a third-party organisation used by individuals and entities to register domains).&#x20;
 
-Often, and especially for larger organisations, WHOIS information is now redacted. After the General Data Protection Regulation (GDPR) was implemented in 2018, ICANN redacted millions of WHOIS records from the public domain (see [here ](https://www.inta.org/news-and-press/inta-news/the-european-union-tackles-the-whois-issue/)for more information). Many companies and individuals also use domain registration companies like Domains by Proxy LLC or GoDaddy Inc. to provide a further layer of anonymity. **However, historical domain registration information is still available via some paid platforms (see Limitations below).**&#x20;
+This real-time data comes directly from registrars or registry operators. Registry operators are the organisations that maintain master databases of all domains in a particular top-level domain.
+
+Often, and especially for larger organisations, WHOIS information is now redacted. After the General Data Protection Regulation (GDPR) was implemented in 2018, ICANN redacted millions of WHOIS records from the public domain (see [here ](https://www.inta.org/news-and-press/inta-news/the-european-union-tackles-the-whois-issue/)for more information). Many companies and individuals also use registrars like Domains by Proxy LLC or GoDaddy Inc. to provide a further layer of anonymity. **However, historical domain registration information is still available via some paid platforms (see Limitations below).**&#x20;
 
 Nevertheless, this is an easy and free check that is well worth trying if you come across a website with interesting information and would like to know the source or possible author of that information.
 
