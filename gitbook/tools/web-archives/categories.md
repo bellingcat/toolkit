@@ -30,7 +30,7 @@
 
 ## Other
 
-* [ ] [Archiving](https://bellingcat.gitbook.io/toolkit/categories/archiving)
+* [x] [Archiving](https://bellingcat.gitbook.io/toolkit/categories/archiving)
 * [ ] [Companies & Finance](https://bellingcat.gitbook.io/toolkit/categories/companies-and-finance)
 * [ ] [Conflict](https://bellingcat.gitbook.io/toolkit/categories/conflict)
 * [ ] [Data Organization & Analysis](https://bellingcat.gitbook.io/toolkit/categories/data)
