@@ -45,7 +45,7 @@ In the main menu, you can select for free up to five vessels and add them to a c
 {% hint style="info" %}
 A [full list of LOCODEs by country](https://unece.org/trade/cefact/unlocode-code-list-country-and-territory) can be found on the United Nations Economic Commission for Europe (UNECE). By selecting a country, the system displays the entire UN/LOCODE list of subdivisions, i.e. the country, the port names and their coordinates.&#x20;
 
-The list  allows obtaining the UN/LOCODE Code List 2024-1 for each country or territory. The latest version was published in July 2024.
+The list allows obtaining the UN/LOCODE Code List 2024-1 for each country or territory. The latest version was published in July 2024.
 {% endhint %}
 
 This menu also allows to search expected arrivals, arrivals and departures by a ship's name IMO or MMSI. A paid subscription also features looking up data on berth calls and port congestion.&#x20;
@@ -85,7 +85,7 @@ Photo gallery and Maritime News: This photo gallery is useful when you want to c
 **Main Map Features and Filters (located in the Live Map view)**
 
 1. **Map Type**: A dark, light or a satellite view mode to suit preferences. Nautical charts are also available, but are paid.&#x20;
-2. **Vessel Filters**: Ship Type (filter by the function each vessels serves), Current Status (en route or anchored), Last Position Received (this requires a search for AIS stations), Voyage (paid feature for port of origin and port of destination), Capacity (paid feature for tonnage, deadweight), Smart Filters (paid feature for current operation and special conditions),&#x20;
+2. **Vessel Filters**: Ship Type (filter by the function each vessels serves), Current Status (en route or anchored), Last Position Received (this requires a search for AIS stations), Voyage (paid feature for port of origin and port of destination), Capacity (paid feature for tonnage, deadweight), Smart Filters (paid feature for current operation and special conditions).
 3. **My Fleets**: Filters out all the other vessels and shows only the ones added to a custom fleet.
 4. **Layers**:  This filter which is available with a paid subscription has meteorological, rescue, military, and piracy layers, areas of interest such as trade of offshore wind farm areas, as well as SafetyNET areas address in meteorological warnings.
 5. **Weather**: Almost all of the filters are behind a paywall, but they include wind gusts, wind wave heights and directions, currents, swell periods, temperatures, precipitation and visibility among others.&#x20;
