@@ -48,6 +48,8 @@ None so far.
 
 User guides:
 
+[https://uncomtrade.org/docs/](https://uncomtrade.org/docs/)
+
 [https://uncomtrade.org/docs-category/user-guide/](https://uncomtrade.org/docs-category/user-guide/)
 
 [https://comtrade.un.org/labs/data-explorer/UserGuide%20UN%20Comtrade%20Analytics.pdf](https://comtrade.un.org/labs/data-explorer/UserGuide%20UN%20Comtrade%20Analytics.pdf)
