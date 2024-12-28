@@ -53,12 +53,12 @@ To effectively use QGIS, especially for beginners or those looking to refine the
 
 **Official Wiki**&#x20;
 
-* **Official QGIS Training Manual**: [https://docs.qgis.org/3.34/en/docs/training\_manual/](https://docs.qgis.org/3.34/en/docs/training\_manual/) &#x20;
+* **Official QGIS Training Manual**: [https://docs.qgis.org/3.34/en/docs/training\_manual/](https://docs.qgis.org/3.34/en/docs/training_manual/) &#x20;
 
 **Tutorials and Articles**
 
 * _Introduction to QGIS_ (2022) _Spatial Thoughts_. Available at: [https://spatialthoughts.com/courses/introduction-to-qgis/](https://spatialthoughts.com/courses/introduction-to-qgis/) (Accessed: 18 April 2024).
-* _NICAR 2016: QGIS 2_ (no date). Available at: [http://www.mikejcorey.com/nicar\_qgis\_advanced/](http://www.mikejcorey.com/nicar\_qgis\_advanced/) (Accessed: 18 April 2024).
+* _NICAR 2016: QGIS 2_ (no date). Available at: [http://www.mikejcorey.com/nicar\_qgis\_advanced/](http://www.mikejcorey.com/nicar_qgis_advanced/) (Accessed: 18 April 2024).
 * _The Fast & The Mapped: QGIS Basics_ (no date). Available at: [http://dhmontgomery.com/ire2017/](http://dhmontgomery.com/ire2017/) (Accessed: 18 April 2024).
 
 **Use Cases**
@@ -80,7 +80,7 @@ To effectively use QGIS, especially for beginners or those looking to refine the
 
 ## Tool provider
 
-[Open Source Geospatial Foundation](https://www.osgeo.org/) (OSGeo), United States
+[Open Source Geospatial Foundation](https://www.osgeo.org/) (OSGeo), United States.
 
 ## Advertising Trackers
 
