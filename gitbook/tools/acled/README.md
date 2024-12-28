@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-{% embed url="https://acleddata.com/" %}
+[https://acleddata.com/](https://acleddata.com/)
 
 ## Description
 
