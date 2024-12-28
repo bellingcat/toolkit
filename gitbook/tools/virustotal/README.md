@@ -6,7 +6,7 @@ description: A brief one line description of this tool
 
 ## URL
 
-https://example.com
+[https://www.virustotal.com/gui/home/upload](https://www.virustotal.com/gui/home/upload)
 
 ## Description
 
@@ -34,15 +34,21 @@ https://example.com
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Gary Ruddell explains in his ["VirusTotal has a dark side" video ](https://www.youtube.com/watch?v=4Eu8wrEejUI)that, because VirusTotal is owned by Chronicle Security, which is a subsidiary of Google, everything that is uploaded to the community by users will be available to users with a paid subscription.&#x20;
+
+
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+VirusTotal offers a [documentation hub](https://docs.virustotal.com/) with guides and further documentation. They also have their own [YouTube channel](https://www.youtube.com/@VirusTotal_community) with 44 videos per december 2024.
+
+
+
+
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+The tool provider is Chronicle.Security, part of the Google Cloud Platform.
 
 ## Advertising Trackers
 
@@ -54,4 +60,3 @@ https://example.com
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
