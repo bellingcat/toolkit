@@ -17,7 +17,7 @@ Google Earth Engine is a cloud-based platform for environmental data analysis, o
 GEE can be used with the following programming languages and tools:&#x20;
 
 * [Javascript Code Editor](https://code.earthengine.google.com/) - using Javascript.
-* [Earth Engine Python client library](https://developers.google.com/earth-engine/guides/python\_install) - using Python.
+* [Earth Engine Python client library](https://developers.google.com/earth-engine/guides/python_install) - using Python.
 * [rgee](https://github.com/r-spatial/rgee) - using R.
 * [QGIS Earth Engine Plugin](https://gee-community.github.io/qgis-earthengine-plugin/) - using QGIS.
 
@@ -29,7 +29,7 @@ There's a huge range of climate and weather, imagery and geophysical datasets av
 
 * **Language:** supports multiple languages.
 
-The example below is from Bellingcat's [Google Earth Engine Remote Sensing tutorial](https://bellingcat.github.io/RS4OSINT/). The [War at Night case study](https://bellingcat.github.io/RS4OSINT/C1\_Lights.html) is an example use case using satellite images of Iraq taken at night to track the destruction caused by the fight against the Islamic State. If cities and villages are demolished, they become often less visible from space since they emit less light.
+The example below is from Bellingcat's [Google Earth Engine Remote Sensing tutorial](https://bellingcat.github.io/RS4OSINT/). The [War at Night case study](https://bellingcat.github.io/RS4OSINT/C1_Lights.html) is an example use case using satellite images of Iraq taken at night to track the destruction caused by the fight against the Islamic State. If cities and villages are demolished, they become often less visible from space since they emit less light.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-06-20 at 1.18.03 PM.png" alt="Screenshot of Google Earth Engine user interface showing the War at Night case study. The interface includes a coding IDE and a map showing the brightness of lights across time which includes a timelapse image in the actual project. "><figcaption><p>Screenshot of Google Earth Engine user interface showing the War at Night case study.</p></figcaption></figure>
 
@@ -71,7 +71,7 @@ A role on a Google Cloud project (more complicated but more secure. See: [https:
 ## Limitations
 
 * **Data Availability**: Not all satellite data might be available or up-to-date. Each individual data set available in the [Data Catalog](https://developers.google.com/earth-engine/datasets/catalog) details the availability of the individual dataset.
-* **Processing Power**: User code execution is limited by Google's computational resources, which might result in delays during peak usage. It's important to understand that processing on large datasets can hit processing limits see [Scaling up in Earth Engine](https://link.springer.com/chapter/10.1007/978-3-031-26588-4\_29). For more information on GEE computational processing see the [Computation Overview](https://developers.google.com/earth-engine/guides/computation\_overview).
+* **Processing Power**: User code execution is limited by Google's computational resources, which might result in delays during peak usage. It's important to understand that processing on large datasets can hit processing limits see [Scaling up in Earth Engine](https://link.springer.com/chapter/10.1007/978-3-031-26588-4_29). For more information on GEE computational processing see the [Computation Overview](https://developers.google.com/earth-engine/guides/computation_overview).
 * **Learning Curve**: The platform has a steep learning curve, especially for users without a programming background.
 * **Export Restrictions**: There are limits on the size and rate at which data can be exported from the platform. See [Earth Engine Quotas](https://developers.google.com/earth-engine/guides/usage) for more information.
 * **API Rate Limits**: Usage of the Earth Engine API is subject to daily and per-minute [rate limits](https://developers.google.com/earth-engine/guides/usage) to prevent abuse. See [Earth Engine Quotas](https://developers.google.com/earth-engine/guides/usage) for more information.
@@ -107,7 +107,7 @@ To effectively use Google Earth Engine, especially for beginners or those lookin
 
 ## Tool provider
 
-Google [https://about.google/](https://about.google/) - Untied States
+Google [https://about.google/](https://about.google/) - Untied States.
 
 ## Advertising Trackers
 
