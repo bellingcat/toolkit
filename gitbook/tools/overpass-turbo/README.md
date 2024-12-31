@@ -2,7 +2,7 @@
 description: >-
   Overpass Turbo is a web-based tool for querying and visualizing OpenStreetMap
   crowd sourced data, aiding in extracting specific information like locations
-  of amenities e.g.hospitals, police stations.
+  of amenities e.g.hospitals.
 ---
 
 # Overpass Turbo
@@ -15,7 +15,7 @@ description: >-
 
 Overpass Turbo is a web application designed for querying and analyzing crowd sourced data from OpenStreetMap (OSM), providing an interface for conducting complex queries on OSM's expansive database. This tool is particularly valuable for users interested in geographic information systems (GIS), offering functionalities crucial for data mining and research in various fields like urban planning, disaster management, and environmental studies. Through Overpass Turbo, users can extract specific information such as the location of amenities, road networks, and geographical features, facilitating detailed analysis and visualization of geographic data across the globe.
 
-The full list of searchable map features is available [here](https://wiki.openstreetmap.org/wiki/Map\_features) and a visual guide to OSM tags is available [here](https://taginfo.openstreetmap.org/).
+The full list of searchable map features is available [here](https://wiki.openstreetmap.org/wiki/Map_features) and a visual guide to OSM tags is available [here](https://taginfo.openstreetmap.org/).
 
 **Features:**
 
@@ -66,10 +66,10 @@ Any modern web browser.
 
 ## Limitations
 
-* **Query Complexity and Performance:** Overpass Turbo might struggle with very complex queries or large data sets, leading to long response times or timeouts. There are some performance hints in [the documentation](https://wiki.openstreetmap.org/wiki/Overpass\_API/Overpass\_QL).
+* **Query Complexity and Performance:** Overpass Turbo might struggle with very complex queries or large data sets, leading to long response times or timeouts. There are some performance hints in [the documentation](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL).
 * **Learning Curve:** For new users, the query language (Overpass QL) has a steep learning curve.
-* **Resource Intensity:** Running intensive queries can put a significant load on the Overpass servers, potentially leading to throttling or temporary bans. More information on [rate limits and quotas](https://dev.overpass-api.de/overpass-doc/en/preface/commons.html) plus a some performance advice is available at the end of [_A Turbo Introduction to Overpass_](https://upload.wikimedia.org/wikipedia/commons/f/fe/A\_turbo\_introduction\_to\_Overpass\_\(with\_notes\).pdf). &#x20;
-* **Data Currency:** While Overpass Turbo provides access to up-to-date OSM data, there may be a minor delay in data refresh rates which could impact real-time data analysis needs. See [Overpass Turbo Data Out of Date](https://www.reddit.com/r/openstreetmap/comments/jcamkz/overpass\_turbo\_data\_out\_of\_date/) for more information.
+* **Resource Intensity:** Running intensive queries can put a significant load on the Overpass servers, potentially leading to throttling or temporary bans. More information on [rate limits and quotas](https://dev.overpass-api.de/overpass-doc/en/preface/commons.html) plus a some performance advice is available at the end of [_A Turbo Introduction to Overpass_](https://upload.wikimedia.org/wikipedia/commons/f/fe/A_turbo_introduction_to_Overpass_\(with_notes\).pdf). &#x20;
+* **Data Currency:** While Overpass Turbo provides access to up-to-date OSM data, there may be a minor delay in data refresh rates which could impact real-time data analysis needs. See [Overpass Turbo Data Out of Date](https://www.reddit.com/r/openstreetmap/comments/jcamkz/overpass_turbo_data_out_of_date/) for more information.
 * **Geographical Limitations:** Performance and efficiency can degrade for queries that span very large geographical areas or the entire globe.
 * **User Interface:** While functional, the user interface may not be as intuitive or user-friendly for those not familiar with geographical information systems (GIS) or coding.
 * **Crowdsourced data**: availability of data depends on the data users have provided to OSM. There is evidence that data from Volunteered Geographic Information Research can be more current in times of humanitarian crisis (the 2010 [Haiti](https://onlinelibrary.wiley.com/doi/abs/10.2202/1948-4682.1069) earthquake for example) but this may not always be the case.&#x20;
@@ -89,8 +89,8 @@ To effectively use Overpass Turbo, especially for beginners or those looking to 
 
 #### Official Wiki
 
-* [**Overpass API Language Guide**](https://wiki.openstreetmap.org/wiki/Overpass\_API/Language\_Guide)**:** A comprehensive guide to understanding the query language used in Overpass Turbo.
-* [**Overpass API By Example**](https://wiki.openstreetmap.org/wiki/Overpass\_API/Overpass\_API\_by\_Example)**:** Offers a wide range of example queries that can help users learn through practical scenarios.
+* [**Overpass API Language Guide**](https://wiki.openstreetmap.org/wiki/Overpass_API/Language_Guide)**:** A comprehensive guide to understanding the query language used in Overpass Turbo.
+* [**Overpass API By Example**](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example)**:** Offers a wide range of example queries that can help users learn through practical scenarios.
 
 #### Tutorials and Articles
 
