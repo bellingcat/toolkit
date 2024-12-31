@@ -48,7 +48,7 @@ Desktop minimum requirements:
 
 ## Limitations
 
-* **Performance on Low-End Devices:** Blender requires a relatively powerful computer, especially for complex scenes or high-poly meshes. Users with low-end devices may experience lag or inability to use some features effectively. For rendering models in particular it's worth reading carefully about how to fine tune Blender starting with the Blender manual's [Performance Considerations](https://docs.blender.org/manual/en/2.79/render/blender\_render/optimizations/performance.html).
+* **Performance on Low-End Devices:** Blender requires a relatively powerful computer, especially for complex scenes or high-poly meshes. Users with low-end devices may experience lag or inability to use some features effectively. For rendering models in particular it's worth reading carefully about how to fine tune Blender starting with the Blender manual's [Performance Considerations](https://docs.blender.org/manual/en/2.79/render/blender_render/optimizations/performance.html).
 * **Steep Learning Curve:** Due to its comprehensive suite of tools and features, Blender can be overwhelming for beginners.
 * **Limited Technical Support:** Being an open-source project, Blender relies on community and volunteer support. There's no official technical support team, which might be a limitation for commercial projects requiring immediate assistance.
 
@@ -78,7 +78,7 @@ To effectively use Blender, especially for beginners or those looking to refine 
 
 **Books**
 
-* [**Blender 3D: Noob to Pro**](https://en.wikibooks.org/wiki/Blender\_3D:\_Noob\_to\_Pro): WikiBook for Blender
+* [**Blender 3D: Noob to Pro**](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro): WikiBook for Blender
 * Brito, A. (2024) _Blender 4.0: Precise Modeling for Architecture, Engineering, and 3D Printing_.
 
 #### **Video Tutorials**
@@ -87,7 +87,7 @@ To effectively use Blender, especially for beginners or those looking to refine 
 * _Blender 4.0 Beginner Donut Tutorial (NEW) - YouTube_ (no date). Available at: [https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z](https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z) (Accessed: 10 April 2024).
 * _Modelling from a Photograph - Blender_ (2019). Available at: [https://www.youtube.com/watch?v=7DfSDCFgINE](https://www.youtube.com/watch?v=7DfSDCFgINE) (Accessed: 10 April 2024).
 * _Camera Matching in Blender – Forensic Architecture Investigative Toolkit 01_ (2023). Available at: [https://www.youtube.com/watch?v=MoEwL2fbtDM](https://www.youtube.com/watch?v=MoEwL2fbtDM) (Accessed: 10 April 2024).
-* _Camera Calibration - fSpy to Blender_ (2019). Available at: [https://www.youtube.com/watch?v=9ZPFuVQ\_MFQ](https://www.youtube.com/watch?v=9ZPFuVQ\_MFQ) (Accessed: 10 April 2024).
+* _Camera Calibration - fSpy to Blender_ (2019). Available at: [https://www.youtube.com/watch?v=9ZPFuVQ\_MFQ](https://www.youtube.com/watch?v=9ZPFuVQ_MFQ) (Accessed: 10 April 2024).
 * _Perfect Photo and Camera Match with fSpy and Blender_ (2018). Available at: [https://www.youtube.com/watch?v=VRgqMvy16IU](https://www.youtube.com/watch?v=VRgqMvy16IU) (Accessed: 10 April 2024).
 
 #### Developer Resources
@@ -103,15 +103,13 @@ To effectively use Blender, especially for beginners or those looking to refine 
 
 ## Tool provider
 
-The [Blender Foundation](https://www.blender.org/about/foundation/) (2002), [https://www.blender.org/about/foundation/](https://www.blender.org/about/foundation/) the Netherlands.
+The [Blender Foundation](https://www.blender.org/about/foundation/) (2002), [https://www.blender.org/about/foundation/](https://www.blender.org/about/foundation/) - the Netherlands.
 
 * #### Advertising Trackers
 
-<!---->
-
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+- [x] This tool has not been checked for advertising trackers yet.
+- [ ] This tool uses tracking cookies. Use with caution.
+- [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer           |
 | ------------------------- |
