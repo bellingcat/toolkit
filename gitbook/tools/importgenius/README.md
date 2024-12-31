@@ -14,7 +14,7 @@ ImportGenius is a paid-for online database of shipping data for countries includ
 
 ImportGenius has a portal where you can create and save searches for specific data. You can also follow companies.
 
-ImportGenius does not have a free search. Some open source researchers might find it worth paying for access as this data is not generally available for free (It is for the US through [ImportYeti](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/GJyHaCYBR6gnNIW1tHhY/)).
+ImportGenius does not have a free search. Some open source researchers might find it worth paying for access as this data is not generally available for free. (It is for the US through [ImportYeti](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/GJyHaCYBR6gnNIW1tHhY/).)
 
 Note that the data provided per country differs, and it is updated at different frequencies per country - so it's worth having a demo before you subscribe. Ask about whether they cover shipping or other modes of transport for the countries in which you are interested.
 
@@ -26,9 +26,7 @@ Note that the data provided per country differs, and it is updated at different 
 * [ ] Partially Free
 * [x] Paid
 
-Their plus plan costs [US$199](https://www.importgenius.com/pricing) per month and almost all their countries can be subscribed to on a monthly basis.
-
-See their [pricing](https://www.importgenius.com/pricing) for US data. Enquire for other countries.&#x20;
+See their [pricing](https://www.importgenius.com/pricing) for US data. Enquire for other countries. Almost all their countries can be subscribed to on a monthly basis.
 
 ## Level of difficulty
 
