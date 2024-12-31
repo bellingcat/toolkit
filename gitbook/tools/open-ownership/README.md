@@ -1,7 +1,5 @@
 ---
-description: >-
-  Links to beneficial ownership registers, and a consolidated register for the
-  UK, Armenia, Denmark and Slovakia.
+description: Links to beneficial ownership registers.
 ---
 
 # Open Ownership
@@ -24,7 +22,7 @@ It also has a useful 'Worldwide action on beneficial ownership transparency' [ma
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-21 at 11.48.58.png" alt=""><figcaption><p>Map showing which countries are planning or implementing BO transparency reforms, or have live online registers</p></figcaption></figure>
 
-An efficient way to get to see which countries have BO registers freely available online is to download the [CSV](https://www.openownership.org/en/map/oo\_all\_country\_data.csv) that covers all the countries, and filter the 'Who can access' column by 'general public':&#x20;
+An efficient way to get to see which countries have BO registers freely available online is to download the [CSV](https://www.openownership.org/en/map/oo_all_country_data.csv) that covers all the countries, and filter the 'Who can access' column by 'general public':&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-21 at 12.00.23.png" alt=""><figcaption><p>Some of the country data in a filtered CSV opened in Excel</p></figcaption></figure>
 
