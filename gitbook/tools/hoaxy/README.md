@@ -157,7 +157,7 @@ Overall, while Hoaxy is created as a comprehensive tool, its reliance on specifi
 
 ## Tool provider
 
-[Hoaxy](https://hoaxy.osome.iu.edu/faq#faq-q10) is a joint project of the Indiana University Network Science Institute ([IUNI](https://iuni.iu.edu/)) and the Center for Complex Networks and Systems Research ([CNetS](http://cnets.indiana.edu/)).
+[Hoaxy](https://hoaxy.osome.iu.edu/faq#faq-q10) is a project of Indiana University's Observatory on Social Media (OSoMe).
 
 ## Advertising Trackers
 
