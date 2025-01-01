@@ -198,7 +198,7 @@ A sample search done on mobile can be seen in the image below.
 
 ### _**What problem does it solve?**_
 
-In April 2024, Statista estimated a staggering [611 million people ](https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/)actively using X per month. This translates to a sea of user-generated content constantly flowing around real-time events and trending topics. Twitter Advanced Search addresses the challenge to navigate this vast ocean of information by providing filtering options and the ability to search across a wide range of criteria.
+There is a sea of content constantly flowing around real-time events and trending topics. Twitter Advanced Search addresses the challenge to navigate this vast ocean of information by providing filtering options and the ability to search across a wider range of criteria for relevant results.&#x20;
 
 The research process of open-source researchers is often iterative. We often start broad, using search terms like "protest" and "Syria" in the discovery phase. As we sift through the initial results, we might encounter posts mentioning a specific location like "Daraa" or a prominent group named "Syrian Revolutionary Forces." These findings become stepping stones. We then refine our search terms, incorporating these new details or harvesting new search terms. This might involve searching for posts containing "Daraa protest" or "Syrian Revolutionary Forces leader." The search might also expand to Arabic hashtags related to the protest or the group.
 
