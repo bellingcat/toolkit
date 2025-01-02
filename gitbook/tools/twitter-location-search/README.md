@@ -96,7 +96,7 @@ To mitigate these limitations, users should avoid location-only searches and tak
 
 5. **Inability to Distinguish Between User-Reported Location and Profile Location**
 
-The "near:" search operator sometimes produces irrelevant results due to the platform's limitations in accurately determining post locations. The tool struggles to differentiate between a user's profile location and the actual location where a post was created. This leads to results that include posts from people who simply live in the area, not necessarily those related to the specific event or topic being searched.
+Based on our tests, the **"near:"** search operator sometimes produces irrelevant results due to the platform's limitations in accurately determining post locations. The tool sometimes struggles to differentiate between a user's profile location and actual location where a post was created. This leads results that include posts from people who simply live in the area, not necessarily those related to a specific event or topic being searched.&#x20;
 
 ## Ethical Considerations
 
