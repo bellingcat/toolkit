@@ -16,6 +16,10 @@ description: >-
 
 Maltego Graph is both a search tool and a visualization tool. It can search for information and connect the pieces to show you how they are related. It's like a data map that helps you see the bigger picture of your investigation. This software allows a researcher to start with a particular item of information, such as an alias, an email address, phone number, company name, or IP address, and use this information as the basis to collect other information.           &#x20;
 
+{% hint style="info" %}
+We tested Maltego Graph CE (Community Edition) version for this toolkit description.&#x20;
+{% endhint %}
+
 &#x20;_**How does it work?**_
 
 &#x20;1\.     It is a centralized search tool
