@@ -66,7 +66,7 @@ Hunchly highlights potential evidentiary challenges:&#x20;
 
 ## Ethical Considerations
 
-The ethical considerations when using Hunchly include:
+Ethical considerations when using Hunchly include:
 
 * **Privacy and Consent**: Hunchly users should ensure that data collection complies with privacy laws and that consent is obtained when necessary.
 * **Data Integrity**: To ensure the accuracy of evidence, Hunchly users must maintain the original state of collected data without alteration.
