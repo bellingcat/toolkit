@@ -20,7 +20,7 @@ For example, here is how amazon.com looked in 1999 versus 2024:
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/Screen Shot 2024-07-14 at 9.41.30 PM.png" alt="amazon.com in 2024" width="563"><figcaption><p>amazon.com in 2024</p></figcaption></figure></div>
 
-Besides accessing the Wayback Machine via the Internet Archive website, it is also available via:
+The Wayback Machine can be accessed not only through the Internet Archive's website, but also through:
 
 * [Chrome Extension](https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak?hl=en-US)
 * [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/wayback-machine_new/)
@@ -29,7 +29,7 @@ Besides accessing the Wayback Machine via the Internet Archive website, it is al
 * [iOS app](https://itunes.apple.com/us/app/wayback-machine/id1201888313)
 * [Android app](https://play.google.com/store/apps/details?id=com.internetarchive.waybackmachine)
 
-Additionally, several APIs are available to access information about Wayback capture data. [View the available APIs here](https://archive.org/help/wayback_api.php).
+Several APIs are also available to access information about Wayback capture data. [View the available APIs here](https://archive.org/help/wayback_api.php).
 
 [Learn more about the Wayback Machine](https://help.archive.org/help/wayback-machine-general-information/).
 
