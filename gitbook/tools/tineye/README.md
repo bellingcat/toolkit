@@ -40,7 +40,7 @@ None
 
 ## Guides and articles
 
-[https://help.tineye.com/](https://help.tineye.com/)
+TinEye: [TinEye Help Center](https://help.tineye.com/)
 
 ## Tool provider
 
