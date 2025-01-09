@@ -9,7 +9,7 @@ description: A toolkit that supports the verification of videos and images.
 {% embed url="https://weverify.eu/verification-plugin/" %}
 
 {% embed url="https://github.com/AFP-Medialab/verification-plugin" %}
-release at the time of writing: v0.83 (Nov 24)
+release at the time of writing: v0.83 (Jan 25)
 {% endembed %}
 
 ## Description
