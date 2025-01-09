@@ -1,5 +1,5 @@
 ---
-description: OpenSecrets is a website for tracking money and spending in U.S. politics.
+description: Data on campaign finance, lobbying, and spending in U.S. politics
 ---
 
 # OpenSecrets
@@ -56,6 +56,8 @@ OpenSecrets is a nonpartisan, independent, and nonprofit organization tracking m
 * [Foreign Lobby Watch ](https://www.opensecrets.org/fara)- uses the semi-annual reports foreign agents are required to file with the Department of Justice under the Foreign Agents Registration Act (FARA) to calculate the countries with the highest spending. Allows search by country and the results provide detailed information on which companies and individuals spent money on lobbying and advocacy.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 7.50.10 PM (1).png" alt="" width="563"><figcaption><p>2023 Spending by Russian individuals and entities</p></figcaption></figure>
+
+* [Revolving Door](https://www.opensecrets.org/revolving-door): database documenting the individuals who have worked in both the public sector and lobbying firms and may have conflicts of interest. Allows search by name of individuals, congressional committees, lobbying firms, or employment positions. This submenu can be used to research which PR or lobbying firms have hired former staffers of the White House, congressional or house committees, or which former members of the House or the Congress are lobbying for particular interests.&#x20;
 
 ## Cost
 
