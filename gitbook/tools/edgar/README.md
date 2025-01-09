@@ -44,6 +44,16 @@ None
 
 See more about these limitations in: George Dyer:[ New Tools Dig Deeper Into Hard-to-Aggregate US Corporate Data](https://www.bellingcat.com/resources/2023/12/18/new-tools-dig-deeper-into-hard-to-aggregate-us-corporate-data/), Bellingcat.
 
+According to their own [website](https://www.sec.gov/edgar/searchedgar/aboutedgar.htm):
+
+> Not all documents filed with the Commission by public companies will be available on EDGAR. Companies were phased in to EDGAR filing over a three-year period, ending May 6, 1996. As of that date, all public domestic companies were required to make their filings on EDGAR, except for filings made in paper because of a hardship exemption. Third-party filings with respect to these companies, such as tender offers and Schedules 13D, are also filed on EDGAR.
+>
+> However, some documents are not yet permitted to be filed electronically, and consequently will not be available on EDGAR. Other documents may be filed on EDGAR voluntarily, and consequently may or may not be available on EDGAR. For example:
+>
+> * Form 144 (notice of proposed sale of securities) may be filed on EDGAR at the option of the filer.
+> * Forms 3, 4, and 5 (security ownership and transaction reports filed by corporate insiders) filed before June 30, 2003 may be filed on EDGAR at the option of the filer, but those filed on or after that date must be filed on EDGAR.
+> * Filings by foreign companies and foreign governments before November 4, 2002 either could be made on EDGAR at the option of the filer, or were not permitted to be filed electronically, but from that date on, these filings must be made on EDGAR.
+
 ## Ethical Considerations
 
 \-
@@ -92,7 +102,6 @@ SEC also have some basic information on how to access their [EDGAR RESTful APIs 
 | Page maintainer |
 | --------------- |
 | LPetrova        |
-|                 |
 
 [^1]: A Central Index Key or CIK number is a unique number assigned to an individual, company, filing agent or foreign government by the United States Securities and Exchange Commission. The number is used to identify its filings in several online databases, including EDGAR. The numbers are up to ten digits in length and are permanent identifiers that may not be changed.
 
