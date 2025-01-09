@@ -55,14 +55,12 @@ MyShipTracking is an excellent application for real-time vessel tracking and mar
 ## Cost
 
 * [x] Free
-* [ ] Partially Free
+* [x] Partially Free
 * [ ] Paid
-
-\[\[Pricing or subscription information, if relevant.]]
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
 ## Requirements
 
@@ -87,10 +85,10 @@ MyShipTracking is an excellent application for real-time vessel tracking and mar
 ## Advertising Trackers
 
 * [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| LPetrova        |
+|                 |
