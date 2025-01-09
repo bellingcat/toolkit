@@ -15,12 +15,12 @@ description: Live marine vessel tracker.
 
 VesselFinder is a maritime tracking application and an online desktop tool that provides real-time data on vessel movements globally. Its offers detailed insights into maritime activities, shipping patterns, and vessel operations. The tool also features a [news section](https://www.vesselfinder.com/news) with selected maritime-related information.
 
-After creating an account, users can access a search portal to search for vessels by name, IMO or MMSI number, tonnage, flag, dimensions, etc., which can help to identify a vessel for which only some identifying information is known.
+After creating an account, users can access a search portal to look up vessels by name, IMO or MMSI number, tonnage, flag, dimensions, etc., which can help to identify a vessel for which only some identifying information is known.
 
 {% hint style="info" %}
 IMO numbers are unique, seven-digit tracking numbers assigned to ships and shipping companies by S\&P Global Market Intelligence on behalf of the International Maritime Organization. Unlike ship names and company names which can change, IMO numbers remain constant. More information about IMO numbers can be found on the [International Maritime Organization's website](https://www.imo.org/en/OurWork/IIIS/Pages/IMO-Identification-Number-Schemes.aspx).
 
-MMSI (Maritime Mobile Service Identities) numbers are nine-digit numbers used to uniquely identify ships in radio and AIS (Automatic Identification System) broadcasts. MMSI numbers are issued by the country a ship is flagged to and managed by the International Telecommunications Union. More information about MMSI numbers can be found on the [International Telecommunications Union's website](https://www.itu.int/en/ITU-R/terrestrial/Pages/by-categories-faq.aspx?categorizedby=17).
+MMSI (Maritime Mobile Service Identities) numbers are nine-digit numbers used to uniquely identify ships in radio and AIS (Automatic Identification System) broadcasts. MMSI numbers are issued by the country a ship is flagged to and managed by the International Telecommunications Union. More information about MMSI numbers can be found on the [International Telecommunications Union's website](https://www.itu.int/en/ITU-R/terrestrial/Pages/by-categories-faq.aspx?categorizedby=17)..
 {% endhint %}
 
 #### Main desktop & in-app menus
@@ -59,13 +59,13 @@ A [full list of LOCODEs by country](https://unece.org/trade/cefact/unlocode-code
 The list  allows obtaining the UN/LOCODE Code List 2024-1 for each country or territory. The latest version was published in July 2024.
 {% endhint %}
 
-* [Containers](https://www.vesselfinder.com/containers) -  This is a paid service both in the app and on the website. It offers real-time online track & trace service as well as Container Tracking API for monitoring of container shipments. This service comes with a dashboard, port activities (origin and destination port, transshipment ports also known as entrepôts, land transshipment, arrival and departure times and real-time position of the container ships). It is usually used by businesses to track the location and status of container shipments as they travel along the supply chain, but this feature can be useful for tracking suspected illicit trade.
+* [Containers](https://www.vesselfinder.com/containers) -  A paid service both in the app and on the website. It offers real-time online track & trace service as well as Container Tracking API for monitoring of container shipments. This service comes with a dashboard, port activities (origin and destination port, transshipment ports also known as entrepôts, land transshipment, arrival and departure times and real-time position of the container ships). It is usually used by businesses to track the location and status of container shipments as they travel along the supply chain. This feature can also be useful for tracking suspected illicit trade.
 
 <figure><img src=".gitbook/assets/VF4.png" alt="" width="563"><figcaption><p>Demo view of container tracking</p></figcaption></figure>
 
 #### Free desktop and in-app services
 
-* Map view - this is the most versatile view of the tool. Here you can save a particular map view that you need for future use, adjust the density of the map, turn on and off Satellite AIS (please note that when this is on the map will show much more vessels in an area, however clicking on most of them located via satellite will not provide information on which vessel this is), adjust what you want to see on the map, select the vessels based on their type, find a particular vessel in the search bar, or just select one from the map to view its profile.
+* Map view - this is the most versatile view of the tool. Here you can save a particular map view that you need for future use, adjust the density of the map, turn on and off Satellite AIS (please note that when density is selected, the map will show much more vessels in an area; however clicking on most of them located via satellite will not provide information on the vessels), adjust what you want to see on the map, select the vessels based on their type, find a particular vessel in the search bar, or just select one from the map to view its profile.
 
 <figure><img src=".gitbook/assets/VF5.png" alt="" width="563"><figcaption><p>VesselFinder map view with vessels near the shore of Florianopolis and Rio de Janeiro</p></figcaption></figure>
 
@@ -124,7 +124,7 @@ Some of the vessels are government-owned and a small part of those are intended 
 
 ## Tool provider
 
-[Astra Paging Ltd.](https://www.astrapaging.com/about), based in Sliven, Bulgaria for the desktop version, and [VT Explorer Ltd.](https://www.vtexplorer.com/) in Polegate, East Sussex, UK are the developers of the application version.&#x20;
+[Astra Paging Ltd.](https://www.astrapaging.com/about), based in Sliven, Bulgaria for the desktop version, and [VT Explorer Ltd.](https://www.vtexplorer.com/) in Polegate, East Sussex, UK developed the application version.&#x20;
 
 ## Advertising Trackers
 
@@ -135,4 +135,3 @@ Some of the vessels are government-owned and a small part of those are intended 
 | Page maintainer              |
 | ---------------------------- |
 | LPetrova and Sophie Tedling: |
-|                              |
