@@ -44,7 +44,9 @@ OpenCorporates provides a unified search of corporate and legal entity-level dat
 
 <figure><img src=".gitbook/assets/OC7.png" alt="" width="563"><figcaption><p>Specific information for IBM CEO Arvind Krishna from one of selected search results</p></figcaption></figure>
 
-**!** Please note that the details provided by OpenCorporates depend on what the local companies register for this particular jurisdiction provides. Each jurisdiction is different, thus the level of detail might differ. Also be mindful of the fact that there might be more than one company with the same name and does not mean it is in any way connected to the one you are researching. The same rule applies for individuals. There may be more than one person with the same name in your results, but these could be name match only records.
+{% hint style="warning" %}
+Details provided by OpenCorporates depend on what the local companies register for this particular jurisdiction provides. Each jurisdiction is different, thus the level of detail might differ. Also be mindful of the fact that there might be more than one company with the same name and does not mean it is in any way connected to the one you are researching. The same rule applies for individuals. There may be more than one person with the same name in your results, but these could be name match only records.
+{% endhint %}
 
 ## Cost
 
@@ -76,9 +78,9 @@ As this data is publicly accessible and from government sources, users should be
 
 ## Guides
 
-Katherine de Tolly: [Following the Money: A Beginner’s Guide to Using the OpenCorporates API](https://www.bellingcat.com/resources/2023/08/24/following-the-money-a-beginners-guide-to-using-the-opencorporates-api/), Bellingcat.
+[Following the Money: A Beginner’s Guide to Using the OpenCorporates API](https://www.bellingcat.com/resources/2023/08/24/following-the-money-a-beginners-guide-to-using-the-opencorporates-api/) - Katherine de Tolly, Bellingcat
 
-The Centre for Investigative Journalism: [CIJ Using OpenCorporates for Investigations](https://www.youtube.com/watch?v=G_swgQEUGh8)
+[CIJ Using OpenCorporates for Investigations](https://www.youtube.com/watch?v=G_swgQEUGh8) - The Centre for Investigative Journalism
 
 OpenCorporates video guide on [how to search for an Officer](https://knowledge.opencorporates.com/knowledge-base/how-to-search-for-an-officer-video-guide/).
 
