@@ -12,19 +12,19 @@ description: >-
 
 ## Description
 
-Aleph is a platform by the Organized Crime and Corruption Reporting Project (OCCRP) to help journalists and investigators "follow the money". It provides access to many datasets on people and companies, and offers tools to organize and visualize data. Investigators can use Aleph to search sanctions lists, corporate registries, leaks, and more. They can also create workspaces to collaborate and upload their own data to cross-reference with Aleph's datasets.&#x20;
+Aleph is a platform by the Organized Crime and Corruption Reporting Project (OCCRP) to help journalists and investigators "follow the money". It provides access to many datasets on people and companies, and offers tools to organize and visualize data. Investigators can use Aleph to search sanctions lists, corporate registries, leaks, and more. They can also create workspaces to collaborate and upload their own data to cross-reference with Aleph's datasets.                 &#x20;
 
 ### How to search and filter data
 
-In the search bar type the name of an individual, an organization, a company or a keyword. The results will display the total number of mentions of your search term and the <mark style="color:yellow;">yellow highlights</mark> will show the context in which the search term appears.
+Type the name of an individual, an organization, a company or a keyword in the search bar. The results will display the total number of mentions of your search term and the <mark style="color:yellow;">yellow highlights</mark> will show the context in which the search term appears.
 
-<figure><img src=".gitbook/assets/Ale1.png" alt="" width="563"><figcaption><p>Using the search term Dmitry Medvedev returns over 4,000 results.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Ale1.png" alt="" width="563"><figcaption><p> The search term Dmitry Medvedev returns over 4,000 results.</p></figcaption></figure>
 
-To narrow down the search results, you can use the menu on the left to filter by date, country, language of the document and datasets[^1].
+To narrow down the search results, use the menu on the left to filter by date, country, language of the document, and datasets[^1].
 
 <figure><img src=".gitbook/assets/Ale2.png" alt="" width="375"><figcaption><p>Example of all the available filters.</p></figcaption></figure>
 
-To view a particular entry, click on the hyperlink you are interested in. This opens a pop-up in the same window. From here you can review the document online or choose to download it.
+To view a particular entry, click on the hyperlink you are interested in. This opens a pop-up in the same window. From here you can review the document online or download it.
 
 <figure><img src=".gitbook/assets/Ale3.png" alt="" width="563"><figcaption><p>View of a selected document from the results page</p></figcaption></figure>
 
@@ -66,7 +66,7 @@ At the top of the Aleph page there is a menu called Datasets which opens a searc
 
 <figure><img src=".gitbook/assets/Ale6.png" alt=""><figcaption><p>View of a specific dataset. Each of the names, emails, and entity types above is hyperlinked and opens a new page for the selected item.</p></figcaption></figure>
 
-You can use the Source Documents menu to review each uploaded file in this dataset. The documents are all available for download. Additionally, you can chose the Cross-reference menu to check for different spellings of names, or variations in the names. The cross-reference results are also available for download and can help clear out uncertainties in your research.
+Use the Source Documents menu to review each uploaded file in this dataset. The documents are all available for download. Additionally, you can chose the Cross-reference menu to check for different spellings of names, or variations in the names. The cross-reference results are also available for download and can help clear out uncertainties in your research.
 
 <div><figure><img src=".gitbook/assets/Ale7.png" alt=""><figcaption><p>Example of the Source documents view</p></figcaption></figure> <figure><img src=".gitbook/assets/Ale8.png" alt=""><figcaption><p>Example of the Cross-reference view</p></figcaption></figure></div>
 
@@ -130,7 +130,7 @@ The [Organized Crime and Corruption Reporting Project (OCCRP)](https://www.occrp
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
