@@ -6,7 +6,7 @@ description: An open-source tool to search wildlife seizure data worldwide.
 
 ## URL
 
-www.wildlifetradeportal.org&#x20;
+[www.wildlifetradeportal.org ](https://www.wildlifetradeportal.org/)
 
 ## Description
 
