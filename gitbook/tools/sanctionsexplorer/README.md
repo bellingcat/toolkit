@@ -1,5 +1,5 @@
 ---
-description: Database of OFAC/UN/EU sanctions
+description: A comprehensive database of current and historical OFAC/UN/EU sanctions
 ---
 
 # SanctionsExplorer
@@ -10,7 +10,7 @@ description: Database of OFAC/UN/EU sanctions
 
 ## Description
 
-Sanctions Explorer is a joint project between non-profits [Archer](https://archerimpact.com/about), a former nonprofit based in Berkeley, and [C4ADS](https://c4ads.org/about-us/), an organization focused on data-driven, evidence-based research on global conflict and transnational security. Sanctions Explorer was developed by C4ADS as a "[comprehensive source](https://sanctionsexplorer.org/about) of all current and historical sanctions data across all major sanctioning authorities."
+Explorer was developed by C4ADS as a "[comprehensive source](https://sanctionsexplorer.org/about) of all current and historical sanctions data across all major sanctioning authorities." Sanctions Explorer is a joint project between non-profits [Archer](https://archerimpact.com/about), a former nonprofit based in Berkeley, and [C4ADS](https://c4ads.org/about-us/), an organization focused on data-driven, evidence-based research on global conflict and transnational security. Sanctions&#x20;
 
 It includes sanctions imposed by the U.S. Office of Foreign Assets Control (OFAC), the United Nations (UN), the European Union (EU), the United Kingdom (UK), the U.S. Department of Commerce, Bureau of Industry and Security (BIS) and Japan. Sanctions Explorer persistently monitors the UN, EU, and OFAC websites for updates to the sanctions lists and publishes the new data to the website as it goes active. The home page shows the time of the most recent update of the sanctions database which is updated daily.
 
@@ -20,7 +20,7 @@ The data contains sanctioned individuals, entities, vessels and aircraft. To sea
 
 <figure><img src=".gitbook/assets/SE1.png" alt="" width="375"><figcaption><p>Search bar for keyword queries</p></figcaption></figure>
 
-* Example of the results using the search query Defense Engineering. The filters on the left can be used to narrow down results by organization, individual, vessel or aircraft. At the top right there is an option to export all the search results into a CSV file.
+* Example of the results using the search query Defense Engineering. The filters on the left can be used to narrow results by organization, individual, vessel or aircraft. At the top right there is an option to export all the search results into a CSV file.
 
 <figure><img src=".gitbook/assets/SE2.png" alt="" width="563"><figcaption><p>Results page for search query Defense Engineering</p></figcaption></figure>
 
@@ -56,7 +56,7 @@ Free to use on their website. However, SanctionsExplorer is available on [AWS Ma
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
@@ -91,6 +91,5 @@ Center for Advanced Defense Studies - C4ADS. A 501 nonprofit research organizati
 | Page maintainer |
 | --------------- |
 | LPetrova        |
-|                 |
 
 [^1]: The tail number, or aircraft registration number, is a unique alphanumeric code assigned to each aircraft as a fundamental requirement under International Civil Aviation Organization (ICAO) regulations.
