@@ -34,15 +34,21 @@ As of November 2024, Flood Hub [covers](https://sites.research.google/gr/floodfo
 
 No requirements
 
-## Limitations & Ethical Considerations
+## Limitations
 
 Access to the flood forecasting API is limited to pilot participants of the program and Google asks the research community to register for the [API pilot waiting list](https://docs.google.com/forms/d/e/1FAIpQLSfcKhe3CHsncM-_NQ66zLheEfXKnNbDPBtuIT7BSYCqYkmOaA/viewform) if they would like to use the API functionality.
 
+## Ethical Considerations
+
 [According](https://sites.research.google/gr/floodforecasting/flood-hub-expert-mode/) to Google, the Flood Hub's "virtual gauges are intended for use by experts and hydrologists who need additional and more complex views to improve flood forecasting alerting and response decisions, and/ or organizations that would like to use the flood forecasting tools for evaluation, history analysis, and other research purposes." Again, according to Google, the new version of the tool, which is currently in use, [has](https://blog.google/technology/ai/expanding-flood-forecasting-coverage-helping-partners/) "reliability comparable to state-of-the-art global flooding nowcasts." We are not able to check this statement at this point in time.
 
-## Guides and articles
+## Guides
 
 [Google Flood Hub FAQ](https://sites.research.google/gr/floodforecasting/resources/)
+
+[How to get started with the Google FloodHub](https://www.youtube.com/watch?v=Klu3zlbUy0Y) - Google Research video on YouTube
+
+[Presentation on Google Flood Hub](https://www.youtube.com/watch?v=YKZlc7Fk6ik) - presentation by Moriah Royz, Senior Product Manager in Google Research
 
 ## Tool provider
 
@@ -50,11 +56,10 @@ Access to the flood forecasting API is limited to pilot participants of the prog
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat Volunteer Team/Unassigned |
-|                                      |
+| Page maintainer                    |
+| ---------------------------------- |
+| Bellingcat Volunteer Team/LPetrova |
