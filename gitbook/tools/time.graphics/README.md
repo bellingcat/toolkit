@@ -12,6 +12,8 @@ description: A tool for creating, visualizing, and managing timelines online.
 
 Time.Graphics is an online tool for creating interactive timelines, useful for organizing and visualizing events chronologically. Designed for educators, businesses, and individuals, it allows users to structure events with multimedia elements and integrate data from Google Calendar, Google Maps, and spreadsheets. The tool provides an interface that enables researchers to map out events, analyze historical data, or manage project timelines, which can be useful in investigative and open-source research contexts. A unique feature is the option to manage team accounts, making it suitable for collaborative settings, such as educational institutions and research teams.
 
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>A timeline of the history of Russia Today, created by the author, some information redacted.</p></figcaption></figure>
+
 ## Feature Breakdown
 
 **1. Event Types**
@@ -55,7 +57,7 @@ Time.Graphics is an online tool for creating interactive timelines, useful for o
 * [x] Partially Free
 * [ ] Paid
 
-The free version allows basic public timelines. Premium accounts (starting from monthly subscriptions) unlock additional features like private timelines, multimedia support, and exporting options. Educational discounts are available for students and institutions​​.
+The free version allows basic public timelines. Premium accounts (starting from a 1-day subscription) unlock additional features like private timelines, multimedia support, and exporting options. Educational discounts are available for students and institutions​​.
 
 ## Level of difficulty
 
