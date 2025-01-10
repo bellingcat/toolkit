@@ -8,7 +8,9 @@ description: >-
 
 ## URL
 
-[https://logseq.com/](https://logseq.com/)
+{% embed url="https://logseq.com/" %}
+(current version: 0.10.9 at time of writing, Jan 2025)
+{% endembed %}
 
 ## Description
 
@@ -23,7 +25,7 @@ The example below shows some of the features of Logseq including a whiteboard di
 1. **Markdown-Based Storage**: Logseq’s reliance on Markdown makes it compatible with various editors (e.g., VS Code, Obsidian), ensuring data longevity and easy integration with other tools.
 2. **Journaling and Daily Logs**: Daily log pages function as a journaling tool, allowing users to capture ideas and tasks sequentially, ideal for tracking research or investigation timelines.
 3. **Block-Based Structure**: As a block-based outliner, Logseq allows hierarchical organization of notes and content, similar to Roam Research and Notion.
-4. **Bidirectional Linking and Graph Database**: Users can create interconnected notes or "nodes" and view relationships between topics visually in the graph view, especially valuable for tracking complex networks.
+4. **Bidirectional Linking and Graph Database**: Users can create interconnected notes or "nodes" and view relationships between topics visually in the graph view, which is especially valuable for tracking complex networks.
 5. **Task Management Integration**: Users can assign tasks and monitor progress with built-in task workflows, providing an efficient project management tool within their notes.
 6. **PDF Annotation and Asset Management**: Upload, annotate, and link PDFs directly within Logseq for seamless document handling, an essential feature for researchers with extensive collections of documents.
 7. **Flexible Querying**: Advanced Boolean queries allow users to retrieve data across notes based on tags, properties, or keywords, enabling powerful search and organizational capabilities.
@@ -49,13 +51,13 @@ Logseq is suitable for a range of use cases that exploit its unique features, su
 #### Investigative Journalism
 
 * **Evidence Tracking:** Keep track of evidence and link related pieces across different sources.
-* **Timeline Construction:** Use the journaling feature to build timelines of events, helping to uncover patterns or inconsistencies.
-* **Network Analysis:** Develop a network of interconnected notes to identify relationships and connections among individuals or entities.
+* **Timeline Construction:** Use the journaling feature to build event timelines, helping uncover patterns or inconsistencies.
+* **Network Graphs:** Develop a network of interconnected notes to identify relationships and connections among individuals or entities.
 
 ### **Comparisons with Similar Tools**
 
-* **Obsidian**: While Obsidian is a powerful Markdown-based tool, Logseq natively supports outliner functionality without plugins, making it more streamlined for users needing hierarchical organization. Logseq's native graph database and task management integration provide additional structure, especially useful in large projects.
-* **Roam Research**: Both Logseq and Roam focus on bidirectional linking and block-based structure. Logseq’s local Markdown storage, however, offers more control over data storage, ensuring users retain full data ownership.
+* **Obsidian**: While Obsidian is a powerful Markdown-based tool, Logseq natively supports outliner functionality without plugins, making it more streamlined for users needing hierarchical organization. Logseq's native graph database and task management integration provides additional structure, especially useful in large projects.
+* **Roam Research**: Both Logseq and Roam focus on bidirectional linking and block-based structure. However, Logseq’s local Markdown storage offers more control over data storage, ensuring users retain full data ownership.
 * **Notion**: Compared to Notion, Logseq offers a more robust, non-linear note structure suited for knowledge mapping and research. Logseq’s task integration and outline functionality cater to users seeking flexible project management within a private, locally-stored environment.
 
 Latest changes: [https://github.com/logseq/logseq/releases](https://github.com/logseq/logseq/releases)
@@ -84,19 +86,19 @@ Logseq is available on the following platforms:
 
 ## Limitations
 
-* **Learning Curve**: Logseq has a steep learning curve for users not familiar with markdown or outliner software.&#x20;
-* **Performance**: Can experience performance issues with very large databases or extensive use of plugins. Large numbers of notes can experience [performance issues](https://discuss.logseq.com/t/curious-about-performance/27708/6). The dev team are currently working on a [database + markdown version](https://discuss.logseq.com/t/why-the-database-version-and-how-its-going/26744) to improve this. &#x20;
+* **Learning Curve**: Logseq has a steep learning curve for users unfamiliar with markdown or outliner software.&#x20;
+* **Performance**: Can experience performance issues with very large databases or extensive use of plugins. Large numbers of notes can cause [performance issues](https://discuss.logseq.com/t/curious-about-performance/27708/6). The dev team is working on a [database + markdown version](https://discuss.logseq.com/t/why-the-database-version-and-how-its-going/26744) to improve this. &#x20;
 * **Mobile App**: The mobile app is not as fully featured as the desktop version, which may limit functionality on the go. Logseq doesn't document exactly what these features are.&#x20;
 * **Export Options**: While Logseq supports exporting to Markdown, org-mode, and JSON, transitioning fully formatted notes to other platforms like Microsoft Word may require additional formatting. This forum post details some solutions: [How to export to Word and maintain the outline structure?](https://discuss.logseq.com/t/how-to-export-to-word-and-maintain-the-outline-structure/18746)
-* **Collaboration**: Real-time collaboration is not as straightforward as on other platforms like Google Docs. Workarounds are needed to collaborate effectively. The [database + markdown version](https://discuss.logseq.com/t/why-the-database-version-and-how-its-going/26744)  is intended to improve this.
-* **Plugin Ecosystem**: Although growing, the plugin ecosystem is not as extensive as more mature platforms (such as [Roam Research](https://roamresearch.com/) or [Obsidian](https://obsidian.md/)), potentially limiting customisation options.
+* **Collaboration**: Real-time collaboration is not as straightforward as on other platforms like Google Docs. Workarounds are needed to collaborate effectively. The [database + markdown version](https://discuss.logseq.com/t/why-the-database-version-and-how-its-going/26744) is intended to improve this.
+* **Plugin Ecosystem**: Although growing, the plugin ecosystem is not as extensive as more mature platforms (such as [Roam Research](https://roamresearch.com/) or [Obsidian](https://obsidian.md/)), potentially limiting customization options.
 
 ## Ethical Considerations
 
 When evaluating Logseq from an ethical standpoint, several considerations come into play:
 
-* **Privacy and Data Security:** Logseq emphasizes data privacy, as it allows users to store their data locally or in a self-hosted environment. This approach minimizes data exposure to third-party cloud services, but users must be aware of their own data security measures. For more information of the benefits of local storage see [Logseq Vs Obsidian: Which Note-Taking App Is Better?](https://theprocesshacker.com/blog/logseq-vs-obsidian/) and [Logseq sync with Git and GitHub](https://hub.logseq.com/integrations/aV9AgETypcPcf8avYcHXQT/logseq-sync-with-git-and-github/krMyU6jSEN8jG2Yjvifu9i).
-* **Open Source:** As an open-source project, Logseq promotes transparency and community contributions. However, users and developers should consider the implications of their contributions and the potential for misuse of the platform. Misuse can include [Malware](https://en.wikipedia.org/wiki/Malware) Injection,  however, open source tools (like Logseq) rely on transparent peer review and security practices to protect users from this, see [Dev Practices](https://github.com/logseq/logseq/blob/master/docs/dev-practices.md).&#x20;
+* **Privacy and Data Security:** Logseq emphasizes data privacy, as it allows users to store their data locally or in a self-hosted environment. This approach minimizes data exposure to third-party cloud services, but users must be aware of their own data security measures. For more information of the benefits of local storage, see [Logseq Vs Obsidian: Which Note-Taking App Is Better?](https://theprocesshacker.com/blog/logseq-vs-obsidian/) and [Logseq sync with Git and GitHub](https://hub.logseq.com/integrations/aV9AgETypcPcf8avYcHXQT/logseq-sync-with-git-and-github/krMyU6jSEN8jG2Yjvifu9i).
+* **Open Source:** Logseq promotes transparency and community contributions as an open-source project. However, users and developers should consider the implications of their contributions and the potential for misuse of the platform. Misuse can include [Malware](https://en.wikipedia.org/wiki/Malware) Injection; however, open-source tools (like Logseq) rely on transparent peer review and security practices to protect users from this, see [Dev Practices](https://github.com/logseq/logseq/blob/master/docs/dev-practices.md).&#x20;
 
 ## Guide
 
@@ -131,12 +133,12 @@ Logseq Inc. [https://logseq.com/](https://logseq.com/) - United States
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                        |
-| -------------------------------------- |
-| Bellingcat Volunteer Team, Martin Sona |
-|                                        |
+| Page maintainer |
+| --------------- |
+| Martin Sona     |
+|                 |
 
