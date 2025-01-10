@@ -103,7 +103,12 @@ For each station, the system checks to which other stations you can get in a cer
 
 1. **Data Unavailable for Some Countries**
 
-As of July 2024, the platform does not have train data available for Bosnia and Herzegovina, Montenegro, Albania, Belarus, and Russia. These countries appear gray on the map.
+Currently, Chronotrains.com does not seem to provide train data for outgoing journeys from Bosnia and Herzegovina, Albania, and Belarus. However, data is available for neighboring countries, and some connections are displayed. For instance, train stations in Croatia include destinations that extend into Bosnia and Herzegovina, which are then visible on the map.
+
+{% hint style="info" %}
+NOTE: To determine if data is available for a specific location, check the individual train stations represented as dots on the map. Filled dots indicate available data, while empty (white) dots signify the absence of outgoing train information.\
+
+{% endhint %}
 
 While Ukraine is marked as available on the map, it may be incomplete. Make sure to cross-reference with other neighboring countries’s train data, such as Polrail, and Ukraine’s national railway network, Ukrainian Railways.
 
