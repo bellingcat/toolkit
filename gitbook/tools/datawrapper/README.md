@@ -51,7 +51,7 @@ Datawrapper includes this step to allow users to verify the accuracy of their up
 
 <details>
 
-<summary>Sample Steps for Checking Your Data</summary>
+<summary>Sample Steps for Checking Your Data (CLICK TO EXPAND)</summary>
 
 Suppose you’re using Datawrapper to create a chart showing the number of armed conflict incidents reported in various countries over the past year. After uploading your data, Datawrapper prompts you to review it.
 
@@ -139,7 +139,7 @@ The types of maps you can produce are: **Choropleth map, Symbol map, and Locator
 
 <details>
 
-<summary>Potential open-source use case for choropleth map</summary>
+<summary>Potential open-source use case for choropleth map (CLICK TO EXPAND)</summary>
 
 Imagine you have a map of your country, and you want to show where people have the most and least access to something, like internet speeds.&#x20;
 
@@ -426,7 +426,7 @@ Tables are highly versatile data visualization tools, allowing for the inclusion
 
 <details>
 
-<summary>Additional Tips</summary>
+<summary>Additional Tips (CLICK TO EXPAND)</summary>
 
 * Keep it simple: Prioritize clarity and readability.
 * Label clearly: Ensure column headers are descriptive and easy to understand.
@@ -585,7 +585,7 @@ The main ethical consideration about data visualizations is the possibility that
 
 <details>
 
-<summary><a href="https://www.dataspire.org/blog/5-tips-to-be-aware-of-how-charts-lie-book-review">Some examples </a>of common pitfalls</summary>
+<summary><a href="https://www.dataspire.org/blog/5-tips-to-be-aware-of-how-charts-lie-book-review">Some examples </a>of common pitfalls (CLICK TO EXPAND)</summary>
 
 **Cherry-picking Data:** Selecting only data points that support a particular narrative while omitting others. &#x20;
 
