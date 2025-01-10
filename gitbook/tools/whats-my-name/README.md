@@ -20,6 +20,8 @@ By clicking on the "category filter" it is possible to narrow down the results t
 
 Beware that different people can use the same username.&#x20;
 
+False positives are also present: you get a result for a platform, but when you click it, it might return "This page does not exist" page or some variation of it.  &#x20;
+
 There are several alternative username tools, including [Sherlock](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock) and [Blackbird](https://bellingcat.gitbook.io/toolkit/more/all-tools/blackbird).&#x20;
 
 ## Cost
