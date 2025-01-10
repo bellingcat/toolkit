@@ -9,11 +9,11 @@ description: >-
 
 ## URL
 
-https://app.rawgraphs.io/
+{% embed url="https://app.rawgraphs.io/" %}
 
 ## Description
 
-RAWGraphs provides a flexible platform for creating complex, data-driven visualizations. Users can upload data files, select from a wide range of chart types, map data dimensions, and export visualizations in .svg format for further editing. It supports unique visualization types, including alluvial diagrams, beeswarm plots, and stacked area charts, making it suitable for exploring complex relationships, timelines, and distributions in data.
+RAWGraphs is a browser-based tool that provides a flexible platform for creating complex, data-driven visualizations. Users can upload data files, select from a wide range of chart types, map data dimensions, and export visualizations in .svg format for further editing. It supports unique visualization types, including alluvial diagrams, beeswarm plots, and stacked area charts, making it suitable for exploring complex relationships, timelines, and distributions in data.
 
 In addition to file uploads, RAWGraphs supports SPARQL queries directly from the web app, allowing users to retrieve data from RDF-based databases and knowledge graphs (e.g., Wikidata or DBpedia) without leaving the interface. SPARQL (SPARQL Protocol and RDF Query Language) is a powerful tool for querying interconnected datasets and extracting complex relationships. This feature enables users to access up-to-date, linked data from open sources, enhancing RAWGraphs' utility for semantic web and research applications.
 
@@ -94,9 +94,9 @@ Developed by [DensityDesign](http://densitydesign.org/), [Calibro](https://www.r
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
 | Page maintainer |
 | --------------- |
