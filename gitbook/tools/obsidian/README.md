@@ -8,7 +8,9 @@ description: >-
 
 ## URL
 
-[https://obsidian.md/](https://obsidian.md/)
+{% embed url="https://obsidian.md/" %}
+(version 1.7.7 at the time of writing Jan 2025)
+{% endembed %}
 
 ## Description
 
@@ -124,9 +126,9 @@ Dynalist Inc. [https://obsidian.md/](https://obsidian.md/) - Canada
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
 | Page maintainer |
 | --------------- |
