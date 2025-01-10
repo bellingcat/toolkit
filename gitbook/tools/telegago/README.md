@@ -34,7 +34,7 @@ Telegago is a Google Custom Search Engine (CSE) designed for Open Source Intelli
 4. **Review Results:** Browse the list of public Telegram profiles, channels, and groups that match your query.
 5. **Optional - Join Groups or Channels:** If you find a Telegram group or channel of interest, you can join it using tools like Bellingcat's [Telegram Group Joiner](https://bellingcat.github.io/telegram-group-joiner/), which automates the process of joining specific channels or groups using direct links from your search results.
 
-### Advice for More Effective Searches:
+## Advice for More Effective Searches:
 
 * **Use Exact Match for Precision:**\
   Put quotes around phrases (e.g., `"European Parliament"`) to find results containing that exact wording.
