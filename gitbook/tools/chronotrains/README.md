@@ -110,6 +110,8 @@ NOTE: To determine if data is available for a specific location, check the indiv
 
 {% endhint %}
 
+As of Jan 2025, the map started including some train data in Turkey and Montenegro. Russia still does not have any data available on the tool.
+
 While Ukraine is marked as available on the map, it may be incomplete. Make sure to cross-reference with other neighboring countries’s train data, such as Polrail, and Ukraine’s national railway network, Ukrainian Railways.
 
 2. **Accuracy**
