@@ -237,7 +237,7 @@ A symbol map, sometimes called a point map or dot map, is a type of thematic map
 
 <details>
 
-<summary><strong>Key Features of Symbol Maps</strong></summary>
+<summary><strong>Key Features of Symbol Maps</strong> (CLICK TO EXPAND)</summary>
 
 1. Symbols Represent Data: Each symbol on the map represents a specific quantity or value. For instance, a dot might represent a certain number of people, a business, or an event.
 2. Size and Color: The size and color of the symbols can vary to convey different magnitudes or categories. Larger or differently colored symbols can indicate higher values or different categories.
@@ -249,7 +249,7 @@ Comparing Values: Symbol maps allow users to see patterns, trends, and distribut
 
 <details>
 
-<summary>Potential open-source use cases of symbol map</summary>
+<summary>Potential open-source use cases of symbol map (CLICK TO EXPAND)</summary>
 
 Tracking the outbreak of armed clashes in a region or disease outbreaks:
 
@@ -316,7 +316,7 @@ A locator map is a small map that shows the location of a specific area within a
 
 <details>
 
-<summary>Possible open-source use case for locator maps</summary>
+<summary>Possible open-source use case for locator maps (CLICK TO EXPAND)</summary>
 
 Locator maps can be useful tools for open-source investigators. They provide visual context for data, helping to: &#x20;
 
@@ -494,7 +494,7 @@ After testing this, we learned that the format differs slightly from the web ver
 
 <details>
 
-<summary>Summary of key features that may be helpful for beginner open-source researchers</summary>
+<summary>Summary of key features that may be helpful for beginner open-source researchers (CLICK TO EXPAND)</summary>
 
 
 
