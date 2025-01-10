@@ -79,6 +79,8 @@ TelegramDB uses a **credit-based** model:
 * **Pricing**:
   * Example tiers: 20 credits \~€1.99, 50+ credits \~€4.99, 100+ credits \~€9.99, etc.
   * In a non-representative convenience sample of searches, prices ranged between 10 and 27 credits with a median price of 14 credits.
+  * The **/where** command charges a base 3 credits + 1 credit for every 40 results.
+  * The **/members** command uses the formula: **3 + 0.6x^0.8** for x results.
 
 _(Prices and offers may vary; check `/credits` in the bot for current details. Purchases can be made via credit card, Paypal, and cryptocurrencies.)_
 
