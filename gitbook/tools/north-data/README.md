@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-[https://northdata.com](https://www.northdata.com/)
+{% embed url="https://northdata.com" %}
 
 ## Description
 
@@ -30,7 +30,7 @@ North Data is an online platform offering detailed company information sourced f
 * [x] Partially Free
 * [ ] Paid
 
-North Data provides a tiered access model for its users, offering both free and paid subscription options. The site may also grant access to paid features to investigative journalists on request. [See here](https://www.northdata.com/\_journalism)
+North Data provides a tiered access model for its users, offering both free and paid subscription options. The site may also grant access to paid features to investigative journalists on request. [See here](https://www.northdata.com/_journalism)
 
 | Free                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Paid                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -48,13 +48,13 @@ User registration is required for accessing certain features (see cost section).
 
 * Graphs are limited to first degree connections (of an organisation) and relations between them.&#x20;
 * Our own tests showed that some financial data or indicators are limited under a free account, are inconsistently updated or unavailable.
-* The data is only limited to 18 countries, the full list of sources with update frequency can be found [here](https://www.northdata.com/\_coverage#sources).&#x20;
+* The data is only limited to 18 countries, the full list of sources with update frequency can be found [here](https://www.northdata.com/_coverage#sources).&#x20;
 
 ## Ethical Considerations
 
 * Individuals with common names or aliases can be misidentified without using additional information about the target, leading to false allegations.
 * Data contains sensitive information such as addresses or contact information.&#x20;
-* Can reveal personal relationships that aren’t widely known.&#x20;
+* It can reveal personal relationships that aren’t widely known. (For example, birthdays, passport information, addresses, etc., depending on the company-related documents retained by governmental bodies.)
 
 ## Guides and articles
 
@@ -72,7 +72,7 @@ User registration is required for accessing certain features (see cost section).
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Shiva           |
-|                 |
+| Page maintainer                      |
+| ------------------------------------ |
+| Martin Sona (original author: Shiva) |
+|                                      |
