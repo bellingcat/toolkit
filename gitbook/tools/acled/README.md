@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-[https://acleddata.com/](https://acleddata.com/)
+{% embed url="https://acleddata.com/" %}
 
 ## Description
 
@@ -263,8 +263,8 @@ ACLED was created by [Clionadh Raleigh](https://acleddata.com/prof-clionadh-rale
 ## Advertising Trackers
 
 * [ ] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [x] This tool does not appear to use tracking cookies. Users are encouraged to review ACLED's Privacy Policy for detailed information on data usage.
+* [x] This tool uses [tracking cookies](https://acleddata.com/opt-out-preferences/). Use with caution.
+* [ ] This tool does not appear to use tracking cookies.&#x20;
 
 | Page maintainer |
 | --------------- |
