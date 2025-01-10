@@ -8,7 +8,9 @@ description: >-
 
 ## URL
 
-[https://distill.io](https://distill.io)
+{% embed url="https://distill.io" %}
+current version: 3.10.29 (Jan 2025)
+{% endembed %}
 
 ## Description
 
