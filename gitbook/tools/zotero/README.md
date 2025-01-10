@@ -8,7 +8,9 @@ description: >-
 
 ## URL
 
-[https://www.zotero.org/](https://www.zotero.org/)
+{% embed url="https://www.zotero.org/" %}
+Current version: 7.0.11 (Jan 2025)
+{% endembed %}
 
 ## Description
 
