@@ -160,5 +160,5 @@ The author's own checks in August 2024 showed Yandex using trackers.
 
 | Page maintainer |
 | --------------- |
-| Sophie Tedling: |
+| Sophie Tedling. |
 |                 |
