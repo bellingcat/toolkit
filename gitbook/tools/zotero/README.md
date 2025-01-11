@@ -14,19 +14,24 @@ Current version: 7.0.11 (Jan 2025)
 
 ## Description
 
-Zotero is a reference management tool for Mac, Windows, Linux, and iOS that helps users collect, organize, annotate, cite, and share research materials. It automatically captures research items from web pages, supports tagging and organizing items into collections, and integrates with word processors for easy citation management. Zotero also offers cloud syncing across devices and collaborative features for shared research projects.
+Zotero is a free, open-source reference management tool for macOS, Windows, Linux, and iOS. It enables you to collect, organize, annotate, cite, and share research materials. It works seamlessly with major web browsers (via a browser extension) and word processors (e.g., Microsoft Word, LibreOffice, Google Docs) to streamline research and citation workflows.
+
+While Zotero primarily targets academic research, it can also serve as a powerful **archiving** tool for OSINT practitioners. You can save snapshots of web pages, attach PDFs or any other file types, and maintain detailed metadata—making it valuable for both scholarly and investigative needs.
 
 {% hint style="info" %}
 **These examples assume you have made a free account and installed Zotero and the browser plugin on your system.**&#x20;
 {% endhint %}
 
-### Citing and archiving sources&#x20;
 
-Academic papers are what this software was intended for, but it also works for archiving almost any other content. Zotero can archive various kinds of content. Naturally, PDFs are supported, but depending on what you're looking at, you can make snapshots of websites, attach data files, source code, or basically any other sort of file.&#x20;
 
-Say we found an exciting-sounding article we want to cite in our paper. And we love to give credit (also, citing sources isn't optional).
+### Phase A - Research
 
-#### Phase A - Research
+* **Collecting Items**
+  * When you visit a web page with recognized bibliographic information (e.g., a journal article), Zotero displays an icon (paper, folder, or book) in your browser’s toolbar. Clicking it **captures** metadata and (if available) a full-text PDF automatically.
+  * Supports collecting a wide range of sources: academic papers, newspaper articles, websites, YouTube videos, code repositories, etc.
+* **Organizing Your Research**
+  * Add **tags** or create **collections** to group related items (e.g., by project or topic).
+  * Bulk-edit metadata or manually correct fields if Zotero’s automatic capture is incomplete.
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Search results at scholar.google.nl using the search term "Bellingcat"</p></figcaption></figure></div>
 
@@ -36,7 +41,14 @@ This is a review article of Elltio Higgins' book. We click on it.
 
 We want to save the review for later referencing. If somebody asks our opinion about the book, now we have evidence to back it up. (The review says it's good.)
 
-#### Phase B - Archiving
+### Phase B - Archiving
+
+* **Snapshots & Attachments**
+  * Save a **snapshot** of a webpage (including HTML source and a screenshot PDF).
+  * Attach any relevant files to each entry (e.g., archived PDF, supporting images, source code).
+* **Adding Full-Text PDFs**
+  * Zotero can auto-download PDFs if it detects open-access links. Otherwise, you can attach PDFs manually.
+  * Annotations can be made directly on the PDF within Zotero’s built-in reader (available in Zotero 7+).
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>My browser during the search results.</p></figcaption></figure></div>
 
@@ -52,7 +64,11 @@ When you click the icon, you'll see identified metadata, you can select a folder
 
 Huzzah! Prolific researchers like us can't write about a review of the book without reading the book, though, can we? DEFINITELY good that we installed the browser plugin. It's totally possible to fill out these fields by hand.
 
-#### Phase C - Indexing primary literature
+### **Phase C - Capturing Book or Review Metadata**
+
+* Zotero recognizes many publisher pages and library catalogs (Google Books, Amazon, etc.).
+* Fields such as Author, Title, Publication Date, and Publisher are automatically populated.
+* For OSINT, this can extend to recognized metadata from news sites, specialized databases, or blog platforms.
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure></div>
 
@@ -66,8 +82,13 @@ Noticed something? Correct, Zotero knows we're looking at a page that contains b
 
 And, obviously, we also grabbed the other one. Notice the Item Type change?
 
-#### Phase D - Citing
+### Phase D - Citing
 
+* Use “**Create Bibliography from Item**” to quickly generate citations or reference lists in styles like APA, MLA, Harvard, etc.
+* Install Zotero’s **Word Processor Plugin** (for Word, LibreOffice, or Google Docs) to insert citations as you write.
+* Multiple items can be selected to create a unified bibliography in one go.
+
+**In-Text Citations and Bibliographies**\
 OK, we're now at the point where we're starting to build an archive of books like Higgins (2021) or...
 
 Higgins, E. (2021). _We Are Bellingcat: Global Crime, Online Sleuths, and the Bold Future of News_. Bloomsbury Publishing USA.
@@ -78,7 +99,7 @@ How to cite neatly and without effort? "Create Bibliography from Item" is one wa
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure></div>
 
-Depending on your field, preference, or journal, you pick a Citation Style. Many of you might pick Harvard, I'm more of an APA7 guy. The above will create an in-text citation like (Higgins, 2021).
+Depending on your field, preference, or journal, you pick a Citation Style.  The above will create an in-text citation like (Higgins, 2021).
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure></div>
 
@@ -133,13 +154,18 @@ Bellingcat. (2024, February 9). _Command Line Fundamentals: Bellingcat Tech Seri
 
 Proper documentation is essential if the material is used in legal, academic, or policy advocacy contexts. [The Berkeley Protocol ](https://www.ohchr.org/sites/default/files/2024-01/OHCHR_BerkeleyProtocol.pdf)outlines how OSINT data should be handled to be admissible in court (at least in the context of international proceedings).&#x20;
 
-Using Zotero in this context is already a good start. Very few free tools allow archiving material in such an easy and automated way. Zotero allows you to save websites as a complete copy of the source code and a screenshot PDF. It also saves the date it was accessed and other metadata. Zotero stores all your research data locally by default, with syncing to the cloud disabled by default. If syncing is enabled, data is encrypted before leaving your computer and AES-256 encrypted at rest on Zotero's servers. Additionally, Zotero's open-source data server allows you to run it locally for greater control over shared data.
+* **Berkeley Protocol Alignment**: Properly stored OSINT data improves evidentiary value in legal and policy contexts. Zotero’s ability to capture full snapshots, along with timestamps, aids transparency and reproducibility.
+* **Local & Cloud Sync**: By default, Zotero stores data locally, with **optional** cloud syncing (end-to-end encrypted in transit and at rest on Zotero’s servers). For **highly sensitive data**, you can self-host the Zotero data server or forgo syncing altogether.
+* **Limitations**:
+  1. No native encryption of local files.
+  2. No automatic hashing of archived material.
+  3. No password protection built in to the Zotero desktop app.
 
-However, there are a few significant limitations. First, Zotero does not encrypt your locally stored data or provide native password protection. Additionally, Zotero does not create or store hashes (a unique digital fingerprint) for archived material. This means Zotero cannot ensure the integrity of your data or prove that it has not been tampered with.
+#### Recommended Best Practices
 
-To address these issues, consider creating cryptographic hashes of downloaded material immediately upon archiving and storing them as supplemental data. Hashes calculated at the time of collection ensure that the data remains unaltered. Additionally, regular encrypted backups of your Zotero archive, with hashes for verification, can further secure your data. Exporting your Zotero library at regular intervals for secure storage is also recommended.
-
-By implementing these measures, you can enhance Zotero's utility as an archiving tool and align its use more closely with evidentiary standards.
+* **Hashing**: Immediately calculate cryptographic hashes (e.g., SHA-256) of downloaded files and store them as part of each Zotero entry’s notes or attachments. This helps verify data integrity if later questioned.
+* **Encrypted Backups**: Periodically back up your Zotero library to an encrypted disk or location.
+* **Export Regularly**: Keep dated exports (e.g., JSON or Zotero RDF) that can be re-imported elsewhere if needed.
 
 ## Cost
 
@@ -158,10 +184,27 @@ With optional paid storage plans. (300MB - free; 2GB - 20$/yr; 6GB - 60$/yr; unl
 * Account creation (optional; for cloud storage and syncing)
 * Browser plugin for web capture (optional but strongly recommended by the author)
 
-## Limitations
+### Strengths & Limitations
 
-* Limited free cloud storage for attachments (300MB free, with paid plans for additional storage)
-* Occasional compatibility issues with certain web pages for metadata capture.
+#### Strengths
+
+* **Versatility**: Suited for both academic citations and OSINT archiving.
+* **Automation**: Automatically captures metadata, attaches PDFs, and organizes items for quick retrieval.
+* **Citation Management**: Word processor integration simplifies referencing in papers or reports.
+* **Open Source & Free**: Broad community support, frequent updates, and no subscription fee.
+
+#### Limitations
+
+* **No Local Encryption**: Data stored locally on your device is **not** encrypted by default.
+* **No Native Hashing**: Zotero doesn’t generate or manage hashes for file integrity.
+* **Manual Cleanup**: Some websites’ metadata extraction can be incomplete or inaccurate, requiring manual edits.
+* **Sync Privacy**: Relying on Zotero’s servers for sync, while encrypted, may not suffice for highly sensitive investigations.
+
+### Additional Tips
+
+* **Waiting for Snapshot**: If saving a dynamically generated page, wait until Zotero’s connector icon indicates that a full snapshot is available. Scrolling or a short pause may be necessary.
+* **Group Libraries**: Collaborate with team members by creating a shared project library.
+* **Custom Citation Styles**: Install or modify CSL (Citation Style Language) files for specialized formatting.
 
 ## Ethical Considerations
 
@@ -178,8 +221,10 @@ Quinn, T. (2024). _Research Guides: Zotero: A Beginner’s Guide: About Zotero_.
 ## Advertising Trackers
 
 * [ ] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [x] This tool does not appear to use tracking cookies.
+* [x] This tool uses tracking cookies. Use with caution.
+* [ ] This tool does not appear to use tracking cookies.
+
+Zotero uses cookies primarily to facilitate core functionality, such as user authentication (e.g., via reCAPTCHA when creating an account) and server-side logging to ensure service stability, security, and to diagnose technical issues. If you opt to sync your library with the Zotero servers, additional data (including IP addresses and usage logs) may be gathered for account management and fraud prevention. Zotero stores these logs for up to 90 days, after which they are anonymized or deleted. While cookies are employed to maintain certain features—like checking for translator updates or managing payment services via Stripe or PayPal—Zotero’s privacy policy emphasizes that it does not monetize user information, and you can minimize sharing by disabling or restricting syncing and update checks in the application’s preferences.
 
 | Page maintainer |
 | --------------- |
