@@ -78,12 +78,12 @@ Telegago is a Google Custom Search Engine (CSE) designed for Open Source Intelli
     * `Київ "я зняв" протест`
     * `"Ukraine front line" -rumor -speculation`
     * `("refugees" OR "migrants") "my photo"`
-    * `“Kyiv protest” after:2023-01-01 before:2023-03-31`\
-      &#xNAN;_(Shows results mentioning “Kyiv protest” published between January and March 2023.)_
-    * `"European Parliament" "I saw" after:2022-05-01`\
-      &#xNAN;_(Finds recent references to eyewitness accounts involving the European Parliament after May 1, 2022.)_
-    * `“Kyiv explosion” "I recorded" after:2023-02-01 -rumors`\
-      &#xNAN;_(Shows recent firsthand video posts about Kyiv explosions while excluding the word “rumors.”)_
+    * `“Kyiv protest” after:2023-01-01 before:2023-03-31`
+      * _(Shows results mentioning “Kyiv protest” published between January and March 2023.)_
+    * `"European Parliament" "I saw" after:2022-05-01`
+      * _(Finds recent references to eyewitness accounts involving the European Parliament after May 1, 2022.)_
+    * `“Kyiv explosion” "I recorded" after:2023-02-01 -rumors`
+      * _(Shows recent firsthand video posts about Kyiv explosions while excluding the word “rumors.”)_
 * **Combine Tools and Approaches:**\
   Use custom search engines (like Telegago for Telegram searches) using the methods above. Mixing and matching these tactics increases accuracy and uncovers valuable, hard-to-find information.
 
