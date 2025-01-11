@@ -1,24 +1,28 @@
 ---
-description: A brief one line description of this tool
+description: An analytical search tool for Telegram groups and channels.
 ---
 
 # Telemetry
 
 ## URL
 
-https://example.com
+[https://www.telemetryapp.io/](https://www.telemetryapp.io/)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Telemetry supports boolean search queries and returns results of 2.4b+ messages and 1m+ channels, allowing for analysis of group and individual activity on the platform. It also offers an API "to search, monitor and utilize Telegram data at scale."
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+Telemetry allows 5 free searches per day (providing up to 25 results) per account. For further access, pricing is as follows in USD:
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+API access is also available [here](https://api.telemetryapp.io/docs/).
 
 ## Level of difficulty
 
@@ -26,23 +30,33 @@ https://example.com
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+Account creation is necessary to use the free search, and an understanding of basic boolean strings is recommended to use the tool most successfully.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+The free version's searches only provide 25 results.
+
+Swapping the results of a single search between "Messages" and "Channels" uses one allotted token.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+When using Telemetry for research purposes, it's imperative to consider the following ethical aspects:
+
+* **Privacy and Consent**: Although Telemetry archives public posts, researchers should be mindful of the privacy expectations of individuals who made those posts. Not all users understand or anticipate their contributions being analysed or quoted in research.
+* **Bias and Representativeness**: Acknowledge that the data collected from Open Measures may not be representative of broader populations or viewpoints. Research findings should be contextualised within the scope and limitations of the data source.
+* **The Oxygen of Amplification**_**:**_ Think carefully about what you publish so as not to unwittingly amplify some of the messaging present on fringe platforms. (_See_ [_The Oxygen of Amplification: Better Practices for Reporting on Extremists, Antagonists, and Manipulators Online_](https://datasociety.net/library/oxygen-of-amplification/) _by Whitney Phillips)._
+
+Telemetry's Privacy Policy can be found [here.](https://www.telemetryapp.io/policies/privacy-policy)
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+[Telemetry: Best Practices](https://www.telemetryapp.io/blog/post/telegram-best-practices)
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Telemetry Data Labs, based in Tel Aviv, Israel.
+
+The tool was co-founded by Ari Ben Am, author of the [_Memetic Warfare_](https://www.memeticwarfare.io/p/memetic-warfare-weekly-tasteful-binary) weekly newsletter (which occasionally features Telemetry's use in its investigations and analysis.)
 
 ## Advertising Trackers
 
@@ -50,8 +64,7 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
+|                           |
