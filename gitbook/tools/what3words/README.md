@@ -71,7 +71,7 @@ The interface comprises two main menus on the left and right hand sides of the s
 
 <figure><img src=".gitbook/assets/screenshotinterface.jpg" alt=""><figcaption><p><strong>TWO MENUS AND THEIR FUNCTIONS IN THE WHAT3WORDS INTERFACE</strong></p></figcaption></figure>
 
-The user can select the source of the background map of the earth in the Map type option in the Right Hand menu.
+The user can select the source of the background map of the earth in the Map type option in the right hand menu.
 
 <figure><img src=".gitbook/assets/screenshotmaptypemenu.JPG" alt=""><figcaption><p><strong>THE USER CAN TOGGLE BETWEEN DIFFERENT SOURCES FOR THE BACKGROUND MAP</strong></p></figcaption></figure>
 
