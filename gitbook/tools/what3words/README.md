@@ -40,7 +40,7 @@ There is considerable variation between the app version of what3words and the PC
 {% endtab %}
 
 {% tab title="WHAT3WORDS OUPUT" %}
-* A tile square geographic location on a map (map options for output apps are Google Maps, Bing Maps, Waze, City Mapper)
+* A tile square geographic location on a map (map options for output apps are [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps), [Bing Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/bing-maps), Waze, City Mapper)
 * A what3words location phrase
 {% endtab %}
 
