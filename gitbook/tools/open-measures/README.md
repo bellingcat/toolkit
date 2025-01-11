@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Open Measures helps open source researchers investigate harmful online activity such as extremism and disinformation. It allows researchers to run bulk queries against online forums and social media such as Telegram and 4chan. &#x20;
+Open Measures helps open source researchers investigate harmful online activity such as extremism and disinformation. It allows researchers to run bulk queries against online forums and social media such as Telegram and 4chan.
 
 Public (free) features:
 
@@ -37,7 +37,7 @@ Enterprise Features:
 * **Multi-media imagery analysis**: Images and video media application. Multi media.
 * **Custom social media crawl requests**: Access to custom crawl requests of keywords, profiles, and channels.
 
-Open Measures provides a[ Command Line Interface (CLI)](https://gitlab.com/openmeasures/smat-cli) for quickly accessing bulk data and a [Jupyter Notebook](https://colab.research.google.com/drive/1kDyRIC0NBOj4Egn\_VdK837QBNqDERRi\_?usp=sharing) for accessing the API.&#x20;
+Open Measures provides a[ Command Line Interface (CLI)](https://gitlab.com/openmeasures/smat-cli) for quickly accessing bulk data and a [Jupyter Notebook](https://colab.research.google.com/drive/1kDyRIC0NBOj4Egn_VdK837QBNqDERRi_?usp=sharing) for accessing the API.&#x20;
 
 Example of a timeline search result for the term _QAnon:_&#x20;
 
@@ -70,10 +70,9 @@ Open Measures says the Pro and Enterprise solutions are paid for all users, but 
 
 When using Open Measures for research purposes, it's imperative to consider the following ethical aspects:
 
-* **Privacy and Consent**: Although Open Measures archives public posts, researchers should be mindful of the privacy expectations of individuals who made those posts. Not all users understand or anticipate their contributions being analyzed or quoted in research.
-* **Bias and Representativeness**: Acknowledge that the data collected from Open Measures may not be representative of broader populations or viewpoints. Research findings should be contextualized within the scope and limitations of the data source.
-* **Ethical Use of Content**: Be cautious and respectful when using content that may be sensitive, offensive, or controversial. Researchers should critically evaluate the necessity and implications of including such content in their work.
-* **The Oxygen of Amplification**_**:**_ Think carefully about what you publish not to unwittingly amplify some of the messaging present on fringe platforms. (_See_ [_The Oxygen of Amplification: Better Practices for Reporting on Extremists, Antagonists, and Manipulators Online_](https://datasociety.net/library/oxygen-of-amplification/) _by Whitney Phillips)._
+* **Privacy and Consent**: Although Open Measures archives public posts, researchers should be mindful of the privacy expectations of individuals who made those posts. Not all users understand or anticipate their contributions being analysed or quoted in research.
+* **Bias and Representativeness**: Acknowledge that the data collected from Open Measures may not be representative of broader populations or viewpoints. Research findings should be contextualised within the scope and limitations of the data source.
+* **The Oxygen of Amplification**_**:**_ Think carefully about what you publish so as not to unwittingly amplify some of the messaging present on fringe platforms. (_See_ [_The Oxygen of Amplification: Better Practices for Reporting on Extremists, Antagonists, and Manipulators Online_](https://datasociety.net/library/oxygen-of-amplification/) _by Whitney Phillips)._
 
 Considering these ethical guidelines will help maintain the integrity of your research and protect the rights and dignity of individuals whose posts might be included in your study.
 
