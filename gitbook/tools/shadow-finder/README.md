@@ -202,7 +202,7 @@ Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen
 
 | Page maintainer |
 | --------------- |
-| Sophie Tedling  |
+| Sophie Tedling. |
 |                 |
 
 [^1]: ![](<.gitbook/assets/suncalcelevationSC (2).jpg>)
