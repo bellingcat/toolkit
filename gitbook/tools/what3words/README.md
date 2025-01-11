@@ -45,7 +45,7 @@ There is considerable variation between the app version of what3words and the PC
 {% endtab %}
 
 {% tab title="USE CASES" %}
-* Input a location and convert it to another format ( co-ordinates, map pin, postal address or phrase)
+* Input a location and convert it to another format (co-ordinates, map pin, postal address or phrase)
 * Input a location and share it via a selection of media
 * Input a location and see the Street View there
 * Save a location to a user account
