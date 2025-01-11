@@ -8,9 +8,9 @@ description: >-
 
 ## URL
 
-{% embed url="https://exiftool.org/" %}
+[https://exiftool.org/](https://exiftool.org/)
+
 (current version: 13.11 as of 01/2025)
-{% endembed %}
 
 ## Description
 
