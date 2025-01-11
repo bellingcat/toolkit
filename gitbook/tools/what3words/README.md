@@ -123,7 +123,7 @@ what3words Limited
 
 | Page maintainer |
 | --------------- |
-| Sophie Tedling: |
+| Sophie Tedling. |
 |                 |
 
 [^1]: Application Programming Interface
