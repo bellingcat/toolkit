@@ -48,7 +48,7 @@ Information Laundromat is an open-source lead generation tool designed for ident
 
 **Step-by-Step Guide**:
 
-1. **Input Domains**: In the _Metadata Similarity_ section, enter a list of domains you suspect may be related. For example, you might investigate several local news sites that publish similar political content and want to see if they are linked in any way.
+1. **Input Domains**: In the _Metadata Similarity_ section, enter a list of domains you suspect may be related. For example, you might investigate several local sites that publish similar political content and want to see if they are linked in any way.
 2. **Run the Search**:
    * The tool scans for metadata across infrastructure indicators, including IP addresses, analytics or advertising codes, and CSS configurations.
    * For best results, enter multiple domains at once. Silverman points out that the tool’s strength is in comparing sites, making it ideal for batch processing.
