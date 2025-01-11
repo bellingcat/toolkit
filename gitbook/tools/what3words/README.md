@@ -9,7 +9,7 @@ description: >-
 
 ## URL
 
-http://what3words.com/
+[http://what3words.com/](http://what3words.com/)
 
 ## Description
 
@@ -109,7 +109,7 @@ The app will not draw the 3m square within the StreetView imagery, only on aeria
 
 ## Guide
 
-[what3words provides a How to Use guide for the mobile app.](https://what3words.com/how-to-use-the-what3words-app)
+what3words provides a [How to Use](https://what3words.com/how-to-use-the-what3words-app) guide for the mobile app.
 
 ## Tool Provider
 
