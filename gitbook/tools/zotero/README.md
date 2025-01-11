@@ -28,27 +28,27 @@ Say we found an exciting-sounding article we want to cite in our paper. And we l
 
 #### Phase A - Research
 
-<div data-full-width="false"><figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Search results at scholar.google.nl using the search term "Bellingcat"</p></figcaption></figure></div>
 
-To clarify, we're the sleuths in that scenario. But wait, doesn't that sound familiar?
+This is a review article of Elltio Higgins' book. We click on it.
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
 
-Oh, it's a review of that book we've read. &#x20;
+We want to save the review for later referencing. If somebody asks our opinion about the book, now we have evidence to back it up. (The review says it's good.)
 
 #### Phase B - Archiving
 
-<div data-full-width="false"><figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>My browser during the search results.</p></figcaption></figure></div>
 
-<div data-full-width="false"><figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption><p>My browser on the page containing the review.</p></figcaption></figure></div>
 
 Sleuths among you may have noticed that one icon in particular has changed. The Zotero icon has been changed from a folder to a paper. This means that Zotero has identified this as, you guessed it, a paper.
 
-<div data-full-width="false"><figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption><p>Upon clicking the 'paper' icon, this box appears, indicating that the paper was sucessfully retrieved and archived.</p></figcaption></figure></div>
 
 When you click the icon, you'll see identified metadata, you can select a folder to archive your paper in, and you notice that a full-text PDF is available and has conveniently already been attached to your entry.&#x20;
 
-<div data-full-width="false"><figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption><p>A screenshot of my Zotero window where you can find the review we just archived for future reference.</p></figcaption></figure></div>
 
 Huzzah! Prolific researchers like us can't write about a review of the book without reading the book, though, can we? DEFINITELY good that we installed the browser plugin. It's totally possible to fill out these fields by hand.
 
@@ -78,7 +78,7 @@ How to cite neatly and without effort? "Create Bibliography from Item" is one wa
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure></div>
 
-Depending on your field, preference, or journal, you pick a Citation Style. Many of you might pick Harvard, I'm more of an APA7 kinda guy. The above will create an in-text citation like (Higgins, 2021).
+Depending on your field, preference, or journal, you pick a Citation Style. Many of you might pick Harvard, I'm more of an APA7 guy. The above will create an in-text citation like (Higgins, 2021).
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure></div>
 
@@ -121,7 +121,7 @@ Knes, D. (2024, March 22). _Bellingcat-Analyst Nick Waters: Kriegsverbrechen in 
 
 Max, B. (2023, October 23). _Gefälschter BBC-Bericht: Bellingcat berichtete nicht über Waffenschmuggel der Ukraine an Hamas_. [https://correctiv.org/faktencheck/2023/10/23/ukraine-hamas-gefaelschter-bbc-bericht-bellingcat-bestaetigte-keinen-waffenschmuggel/](https://correctiv.org/faktencheck/2023/10/23/ukraine-hamas-gefaelschter-bbc-bericht-bellingcat-bestaetigte-keinen-waffenschmuggel/)
 
-**It also works on Videos.**
+### **It also works on Videos.**
 
 <figure><img src=".gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
@@ -133,7 +133,7 @@ Bellingcat. (2024, February 9). _Command Line Fundamentals: Bellingcat Tech Seri
 
 Proper documentation is essential if the material is used in legal, academic, or policy advocacy contexts. [The Berkeley Protocol ](https://www.ohchr.org/sites/default/files/2024-01/OHCHR_BerkeleyProtocol.pdf)outlines how OSINT data should be handled to be admissible in court (at least in the context of international proceedings).&#x20;
 
-Using Zotero in this context is already a good start. Very few free tools allow archiving material in such an easy and automated way. Zotero allows you to save websites as a complete copy of the source code and a screenshot PDF. It also saves the date it was accessed and other metadata. Zotero stores all your research data locally by default, with syncing to the cloud disabled by default. If syncing is enabled, data is encrypted before leaving your computer and AES-256 encrypted at rest on Zotero's servers. Additionally, Zotero's data server is open-source, allowing you to run it locally for greater control over shared data.
+Using Zotero in this context is already a good start. Very few free tools allow archiving material in such an easy and automated way. Zotero allows you to save websites as a complete copy of the source code and a screenshot PDF. It also saves the date it was accessed and other metadata. Zotero stores all your research data locally by default, with syncing to the cloud disabled by default. If syncing is enabled, data is encrypted before leaving your computer and AES-256 encrypted at rest on Zotero's servers. Additionally, Zotero's open-source data server allows you to run it locally for greater control over shared data.
 
 However, there are a few significant limitations. First, Zotero does not encrypt your locally stored data or provide native password protection. Additionally, Zotero does not create or store hashes (a unique digital fingerprint) for archived material. This means Zotero cannot ensure the integrity of your data or prove that it has not been tampered with.
 
