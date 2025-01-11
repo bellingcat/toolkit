@@ -237,5 +237,5 @@ Torsten Hoffmann, Germany
 
 | Page maintainer |
 | --------------- |
-| Sophie Tedling: |
+| Sophie Tedling. |
 |                 |
