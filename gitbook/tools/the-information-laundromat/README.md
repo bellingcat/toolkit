@@ -21,7 +21,7 @@ Information Laundromat is an open-source lead generation tool designed for ident
     * **Tier 2**: Moderate indicators, such as subnets or shared response headers.
     * **Tier 3**: Lower-confidence indicators, such as shared CSS classes or common content management systems.
 
-    These tiers help researchers assess the strength of potential connections, which Silverman highlights as crucial for drawing accurate links between sites. The tool allows for batch processing, enabling quick evaluation of multiple domains, which can then be further analyzed in more detail using DNS or analytics tools.
+    These tiers help researchers assess the strength of potential connections. This added anlu crucial for drawing accurate links between sites. The tool allows for batch processing, enabling quick evaluation of multiple domains, which can then be further analyzed in more detail using DNS or analytics tools.
 
 ### Using Information Laundromat
 
