@@ -12,10 +12,17 @@ description: >-
 
 ## Description
 
-Information Laundromat is an open-source lead generation tool designed for identifying patterns of content laundering and infrastructural connections across websites. Developed by the Alliance for Securing Democracy (ASD) with contributions from the University of Amsterdam and the Institute for Strategic Dialogue, it provides two main functions:
+Information Laundromat is an open-source **lead generation tool** designed for identifying patterns of **content laundering -** that is, reprinting or republishing content (often from state-sponsored or otherwise questionable sources) in ways that mask or obscure its original publisher - and **infrastructural connections** across websites. Developed by the Alliance for Securing Democracy (ASD) with contributions from the University of Amsterdam and the Institute for Strategic Dialogue (ISD), it provides two main functions:
 
-1. **Content Similarity Search** - This feature identifies content replication by comparing URLs, titles, or text snippets across websites. It uses multiple sources, including the GDELT database and Copyscape, to rank results by similarity scores (e.g., 97% for near-identical copies), highlighting sites that duplicate or closely mimic the queried content. Craig Silverman notes that this feature is particularly useful for identifying networks that consistently reproduce state-sponsored content, such as from RT. This approach supports mapping out how certain narratives are amplified across networks, serving as an initial lead into further investigation.
-2.  **Metadata Similarity Search** - This feature scans domains for shared infrastructure, using indicators like IP addresses, unique analytics or ad codes, and CSS classes. Results are organized by indicator tiers:
+### **Content Similarity Search**
+
+* Compares URLs, titles, or text snippets (≥15 words) across the open web.
+* Uses multiple sources—such as the **Global Database of Events, Language, and Tone (GDELT)**, various search engines, and the **Copyscape** plagiarism detection service—to identify near-duplicate or highly similar content.
+* Provides similarity scores (e.g., 97% for near-identical copies) to help investigators see which sites replicate or closely mimic the queried text.
+* **Craig Silverman** (2024) notes this function is particularly useful for identifying networks consistently reproducing state-sponsored content (e.g., from RT). High similarity scores can signal how narratives spread across multiple outlets, serving as a starting point for deeper analysis.
+
+1. **Metadata Similarity Search**
+2.  This feature scans domains for shared infrastructure, using indicators like IP addresses, unique analytics or ad codes, and CSS classes. Results are organized by indicator tiers:
 
     * **Tier 1**: High-confidence indicators, such as unique Google or Yandex IDs, which strongly suggest connections.
     * **Tier 2**: Moderate indicators, such as subnets or shared response headers.
