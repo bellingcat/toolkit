@@ -7,6 +7,7 @@ const allTools = getTools().filter((tool) => !tool.draft );
 
 fs.mkdirSync('csv', { recursive: true });
 const allCategories = getCategories();
+const allContent = [];
 allCategories.forEach((category) => {
   if (category.hasSubcategories) { return; }
 
@@ -18,15 +19,18 @@ allCategories.forEach((category) => {
       rel: renderLink(category, tool)
     }
   });
-  const content = renderCategory(category, categoryTools);
-  writeIfChanged(content, `csv/${category.slug.join('-')}.csv`);
+  const content = renderTools(categoryTools, category);
+  allContent.push(content.trim());
+  writeIfChanged(renderIntro(category) + content, `csv/${category.slug.join('-')}.csv`);
 });
+
+writeIfChanged(renderIntro() + allContent.join('\n'), `csv/all-tools.csv`);
 
 function renderCategory(category, categoryTools = []) {
   return renderIntro(category) + renderTools(categoryTools, category);
 }
 function renderIntro(category) {
-  return `${category.title},,,,\n`;
+  return "Category,Name,URL,Description,Cost,Details\n";
 }
 
 function renderCost(cost) {
@@ -62,8 +66,8 @@ function renderLink(category, tool) {
 function renderTools(tools, category) {
   if (!tools || tools.length == 0) { return ''; }
   return (
-    "Name,URL,Description,Cost,Details\n" + tools.map((row) => {
-      return `${row.title},${row.url},${row.description},${renderCost(row.cost)},${renderLink(category, row)}`;
+    tools.map((row) => {
+      return `"${category.title}","${row.title}",${row.url},"${row.description}",${renderCost(row.cost)},${renderLink(category, row)}`;
     }).join("\n")
   );
 }
