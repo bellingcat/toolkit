@@ -26,6 +26,7 @@ The app is available on both mobile and desktop platforms, ensuring users can mo
 4. **Customizable Alerts**: Users can set up personalized alerts for specific vessels or areas. This feature keeps users informed about significant events, such as a ship's arrival at a port or changes in its route.
 5. **Playback and Historical Data**: ShipFinder allows users to view historical data and playback past vessel movements. This feature is useful for analyzing shipping patterns, investigating incidents, or simply exploring the history of maritime activities.
 6. **Weather Data**: The app integrates basic weather information, providing insights into sea conditions that could affect maritime operations. This feature helps users anticipate potential risks related to weather changes.
+7. **Spotting Community**: The app also has an accompanying community page where members can post pictures of ships that they have spotted. These are often searchable by name or MMSI (Maritime Mobile Service Identities) number.&#x20;
 
 **Performance**
 
@@ -37,7 +38,7 @@ The app's performance has minimal lag even when tracking multiple vessels simult
 * [x] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+The browser-based version of ShipFinder is free. However, its mobile application, currently only available on the Apple store and not on Android, has two versions. The 'lite' version is free, and the full version is paid. Currently, the full version states that it includes additional features such as "route history, search, filters, bookmarks, photos, the ability to add favourite ships".&#x20;
 
 ## Level of difficulty
 
@@ -64,12 +65,12 @@ The app's performance has minimal lag even when tracking multiple vessels simult
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+ShipFinder is developed and maintained by an entity by the name of Pinkfroot. The entity is based in the UK and was incorporated in 2009. Pinkfroot also develops and maintains a similar tool for tracking aeroplanes called Planefinder.&#x20;
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer                                                |
