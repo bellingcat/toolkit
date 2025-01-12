@@ -126,15 +126,21 @@ function getTools() {
       // try to get the URL from the content
       // it may be a markdown link
       let url = null;
-      const urlmarkdown = content.match(/## URL\n\n(.*)\n\n/);
+      const urlmarkdown = content.match(/## URL\n\n(.*)\n/);
       if (urlmarkdown === null) {
         console.log("No url markdown matched for", filepath);
         if (!json.url) {
           throw new Error("No URL detected for tool");
         }
       } else {
-        const markdownLink = urlmarkdown[1].match(/\[(.*)\]\((.*)\)/);
-        url = markdownLink ? markdownLink[2] : urlmarkdown[1];
+        const embedregex = /{% embed url="(https:\/\/[^"]+)" %}/;
+        const embedurl = urlmarkdown[1].match(embedregex);
+        if (embedurl) {
+          url = embedurl[1];
+        } else {
+          const markdownLink = urlmarkdown[1].match(/\[(.*)\]\((.*)\)/);
+          url = markdownLink ? markdownLink[2] : urlmarkdown[1];
+        }
       }
 
 
