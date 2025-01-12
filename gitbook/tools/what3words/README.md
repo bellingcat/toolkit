@@ -113,7 +113,7 @@ what3words provides a [How to Use](https://what3words.com/how-to-use-the-what3wo
 
 ## Tool Provider
 
-what3words Limited, based in London, UK. Founded March 05, 2013 in Royston, Hertfordshire, England
+what3words Limited, based in London, UK. Founded March 05, 2013 in Royston, Hertfordshire, UK.
 
 ## Advertising Trackers
 
