@@ -19,9 +19,32 @@ Information Laundromat is an open-source **lead generation tool** designed for i
 * Compares URLs, titles, or text snippets (≥15 words) across the open web.
 * Uses multiple sources—such as the [**Global Database of Events, Language, and Tone (GDELT)**](https://www.gdeltproject.org/), various search engines, and the [**Copyscape** ](https://www.copyscape.com/)plagiarism detection service—to identify near-duplicate or highly similar content. (Note: **GDELT** is a global database that logs worldwide broadcasts/online news, and **Copyscape** checks plagiarism by comparing text across its index.)
 * Provides similarity scores (e.g., 97% for near-identical copies) to help investigators see which sites replicate or closely mimic the queried text.
-* **Craig Silverman** (2024) [notes](https://digitalinvestigations.substack.com/p/a-look-at-the-information-laundromat) this function has been particularly useful for identifying networks consistently reproducing state-sponsored content (e.g., from RT). High similarity scores can signal how narratives spread across multiple outlets, serving as a starting point for deeper analysis.
+* **Craig Silverman** (2024, [_Digital Investigations_](https://digitalinvestigations.substack.com/p/a-look-at-the-information-laundromat)) describes the Laundromat as “one of the newest and most interesting free website analysis tools I’ve come across,” and notes how ASD used it to detect repeated reprinting of Russia Today (RT) content.
+* According to **Silverman’s interview with the tool’s developer, Peter Benzoni**, items scoring **70% or higher** on content similarity are “likely to be most of interest.”
 
-### **2. Metadata Similarity Search**
+{% tabs %}
+{% tab title="Content Similarity Search" %}
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Results" %}
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
+**2. Metadata Similarity Search**
+
+
+
+{% tabs %}
+{% tab title="Metadata Similarity Search" %}
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Results" %}
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
 
 Scans domains to find shared infrastructure, such as [**IP addresses**](https://en.wikipedia.org/wiki/IP_address), [**unique analytics/advertising codes** (e.g., Google Analytics or Yandex IDs)](https://www.bellingcat.com/resources/2024/01/09/using-the-wayback-machine-and-google-analytics-to-uncover-disinformation-networks/), or **CSS classes** (design and style rules that are reusable across websites) and ranks results in three-tiered “indicator” categories.
 
