@@ -14,7 +14,7 @@ description: >-
 
 The Internet Corporation for Assigned Names and Numbers (ICANN) is a private non-profit corporation that coordinates the allocation of Internet Protocol (IP) addresses.
 
-ICANN Lookup is a free public service that gives you the ability to look up publicly available contact and other information related to a domain name or an internet number resource. Also known as WHOIS, domain registration data identifies who owns a domain and how to get in contact with them.&#x20;
+ICANN Lookup is a free public service that gives you the ability to look up publicly available contact and other information related to a domain name or an internet number resource. Also known as [WHOIS](https://www.icann.org/resources/pages/whois-rdds-2023-11-02-en), domain registration data identifies who owns a domain and how to get in contact with them.&#x20;
 
 If you run the URL of a website through this tool, you might be able to find out the status of the domain, relevant dates, such as the date it was created, updated, or is set to expire, and the names and contact details of the registrant (the individual or entity that registered the domain name) or the registrar (a third-party organisation used by individuals and entities to register domains).&#x20;
 
@@ -42,7 +42,7 @@ Nevertheless, this is an easy and free check that is well worth trying if you co
 
 ## Limitations
 
-ICANN does not provide historical ownership information or screenshots for the domain in question. Consider accessing this data through more sophisticated, paid platforms like [DomainTools](https://whois.domaintools.com/), or explore some of the other solutions in the Guides and Articles below.
+ICANN does not provide historical ownership information or screenshots for the domain in question. Consider accessing this data through more sophisticated, paid platforms like [DomainTools](https://whois.domaintools.com/), or explore some of the other solutions in the Guides and Articles section below.
 
 In November 2023, ICANN launched the [Registration Data Request Service](https://rdrs.icann.org/) (RDRS), an online portal whereby users deemed to have a legitimate interest (including law enforcement, government agencies, intellectual property attorneys, cybersecurity professionals, and others) can request registration data from registrants. However, RDRS does not guarantee access to the registration data. All communication and data disclosure between the registrars and requestors takes place outside of the system. &#x20;
 
