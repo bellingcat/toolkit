@@ -105,7 +105,7 @@ Scans domains to find shared infrastructure, such as [**IP addresses**](https://
 2.  **Shodan Vulnerabilities (`2-ip_shodan_vuln`)**
 
     Security weaknesses discovered by **Shodan** (a search engine for internet-connected devices) on a specific IP address.\
-    If two sites share the same vulnerability profile, they might share hosting or configuration. Yet, popular software with known vulnerabilities can mislead investigators
+    If two sites share the same vulnerability profile, they might share hosting or configuration. Yet, popular software with known vulnerabilities can mislead investigators.
 3.  **Subnet (`2-subnet`)**
 
     A subdivided portion of an IP network, often allocated by an **ISP** (Internet Service Provider) to multiple clients or internal networks, managed or allocated to specific clients or areas. Domains in the same subnet could share physical/ or virtual hosting or be organized under the same corporate network. Yet, subnets are frequently owned by major ISPs that host many disparate clients.
