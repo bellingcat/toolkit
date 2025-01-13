@@ -1,7 +1,7 @@
 ---
 description: >-
-  A facial recognition search engine that uses a sample image to find all online
-  images of a person.
+  A facial recognition search engine that allows you to upload an image to find
+  other images of that person.
 ---
 
 # FaceCheck.ID
