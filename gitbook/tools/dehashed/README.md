@@ -12,11 +12,17 @@ description: A search engine that provides access to a database of compromised c
 
 DeHashed has compiled a searchable database of leaked personal information and  sensitive data. It allows users to search through billions of records, including **names, email addresses, usernames, IP address, physical address, phone number, vehicle identification number, and domains.**&#x20;
 
-It is ostensibly designed for individuals and companies to detect and monitor data breaches in real time, but can also be effectively used for OSINT research.&#x20;
+It is ostensibly designed for individuals and companies to detect and monitor data breaches in real time, but can also be effectively used for open source research.&#x20;
+
+You can search by domain or field, increase or decrease the number of results displayed, use wildcard characters, run regex searches (a form of advanced searching that looks for specific patterns) and mix operators (e.g. email and username together).
+
+DeHashed publishes a very basic (but useful) search guide [here](https://dehashed.com/search-guide), explaining how to search by field, use wildcard characters, or search a specific data origin.&#x20;
+
+### Using DeHashed for Open Source Investigations
 
 For example, you can use DeHashed to help search for someone who is hiding or trying to conceal their identity.&#x20;
 
-For example, you can run an email address through DeHashed to identify  accounts your subject maintains, along with the passwords associated with those accounts. You can then go back to the DeHashed search engine and run a new search for that password, which may identify a whole new set of accounts and email addresses that use the same password. That way, you might be able to find out whether your subject is operating under an alias name or email address, all the while using and recycling the same passwords.&#x20;
+You can start by running an email address through DeHashed to identify accounts your subject maintains, along with the passwords associated with those accounts. You can then go back to the DeHashed search engine and run a new search for that password, which may identify a whole new set of accounts and email addresses that use the same password. That way, you might be able to find out whether your subject is operating under an alias name or email address, all the while using and recycling the same passwords.&#x20;
 
 You might also find IP addresses and location-specific accounts that can help you start spotting patterns and clues as to your subject's location or activities. &#x20;
 
@@ -30,15 +36,11 @@ The search engine is extremely simple to use and user-friendly: you can run a ke
 
 ![](.gitbook/assets/image.png)        &#x20;
 
-If you search by, say, email address, you will get a list of various data points associated with that email, including names and passwords. You can then run more searches against, for example, the names and passwords you identified during your original search with a view to finding more accounts and generating fresh research leads. For example:
+If you search by, say, email address, you will get a list of various data points associated with that email, including names and passwords. You can then run more searches against, for example, the names and passwords you identified during your original search with a view to finding more accounts and generating fresh research leads.&#x20;
 
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
-
-### Different ways of searching
-
-You can search by domain or field, increase or decrease the number of results displayed, use wildcard characters, run regex (a form of advanced searching that looks for specific patterns) searches and mix operators (e.g. email and username together).
-
-DeHashed publishes a very basic (but useful) search guide [here](https://dehashed.com/search-guide), explaining how to search by field, use wildcard characters, or search a specific data origin.  &#x20;
+It is free to search if you set up an account with just an email and password, but **you need a paid subscription to actually view the results**. See below for pricing information. &#x20;
 
 ## Cost
 
@@ -46,7 +48,7 @@ DeHashed publishes a very basic (but useful) search guide [here](https://dehashe
 * [x] Partially Free
 * [ ] Paid
 
-You have to create an account to run searches. This is relatively easy and requires only an email address and password. You can run a limited number of searches for free. However, if you want to run unlimited searches, you need to purchase a subscription.&#x20;
+Running searches is free but you have to create an account first. This is relatively easy and requires only an email address and password. However, if you want to actually view the hits, you need to purchase a subscription.&#x20;
 
 The current [pricing ](https://dehashed.com/pricing)information is below:&#x20;
 
