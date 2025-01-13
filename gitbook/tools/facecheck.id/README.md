@@ -1,7 +1,7 @@
 ---
 description: >-
-  A facial recognition search engine that allows you to upload an image to find
-  other images of that person.
+  A facial recognition search engine that allows you to upload an image of a
+  person to find other images of that person.
 ---
 
 # FaceCheck.ID
@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Reverse image searching for people is a key component of most OSINT investigations. Save photographs of the individuals you are researching, ideally high-resolution images that clearly show their face, and run these through tools like FaceCheck.ID to find more photographs of the same individual. This will help you better understand that person's movements, activities, and associates, and provide you with more research leads.
+Reverse image searching for people can be an important component of open source investigations. Save photographs of the individuals you are researching, ideally high-resolution images that clearly show their face, and run these through tools like FaceCheck.ID to find more photographs of the same individual. This will help you better understand that person's movements, activities, and associates, and provide you with more research leads.
 
 ### Step-by-step guide
 
