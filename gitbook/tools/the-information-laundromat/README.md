@@ -345,9 +345,7 @@ To identify websites that replicate or closely match specific content, helping t
 
 ## Guides and articles
 
-Silverman, C. (2024, September 5). A look at the Information Laundromat website analysis tool \[Substack newsletter]. _Digital Investigations_. [https://digitalinvestigations.substack.com/p/a-look-at-the-information-laundromat](https://digitalinvestigations.substack.com/p/a-look-at-the-information-laundromat)&#x20;
-
-Discusses how the tool was applied in ASD’s research into RT content laundering and interviews the tool’s developer, **Peter Benzoni**.
+Silverman, C. (2024, September 5). A look at the Information Laundromat website analysis tool \[Substack newsletter]. _Digital Investigations_. [https://digitalinvestigations.substack.com/p/a-look-at-the-information-laundromat](https://digitalinvestigations.substack.com/p/a-look-at-the-information-laundromat) (discusses how the tool was applied in ASD’s research into RT content laundering and interviews the tool’s developer, Peter Benzoni).
 
 ## Tool provider
 
