@@ -38,7 +38,7 @@ The search engine is extremely simple to use and user-friendly: you can run a ke
 
 If you search by, say, email address, you will get a list of various data points associated with that email, including names and passwords. You can then run more searches against, for example, the names and passwords you identified during your original search with a view to finding more accounts and generating fresh research leads.&#x20;
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-01-13 at 20.33.28.png" alt=""><figcaption></figcaption></figure>
 
 It is free to search if you set up an account with just an email and password, but **you need a paid subscription to actually view the results**. See below for pricing information. &#x20;
 
