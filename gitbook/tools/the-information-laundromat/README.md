@@ -175,7 +175,7 @@ Scans domains to find shared infrastructure, such as [**IP addresses**](https://
 9.  **ID Tags (`3-id_tags`)**
 
     Unique identifiers in **HTML** (the standard markup language for the web) that label specific page elements.\
-    Identical custom IDs across sites can imply the same template or developer. Generic frameworks often create overlaps with no real relationship.. Distinctively named ID tags on multiple sites may indicate shared templates or developers.
+    Identical custom IDs across sites can imply the same template or developer. Generic frameworks often create overlaps with no real relationship. Distinctively named ID tags on multiple sites may indicate shared templates or developers.
 10. **Iframe ID Tags (`3-iframe_id_tags`)**
 
     Unique HTML IDs for `<iframe>` elements, which embed external content. Iframes are widely used for embedding videos, ads, or forms. Repeated custom iframe IDs across multiple sites can suggest a single dev or template. Standard ones (e.g., from YouTube) are too common to matter.
