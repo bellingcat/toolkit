@@ -34,7 +34,7 @@ Record any relevant results and data points as you go to map out a subject's onl
 
 The search engine is extremely simple to use and user-friendly: you can run a keyword search either by field or across all fields:
 
-![](.gitbook/assets/image.png)        &#x20;
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Available Field options are listed on the left hand side.</p></figcaption></figure>
 
 If you search by, say, email address, you will get a list of various data points associated with that email, including names and passwords. You can then run more searches against, for example, the names and passwords you identified during your original search with a view to finding more accounts and generating fresh research leads.&#x20;
 
@@ -45,8 +45,8 @@ It is free to search if you set up an account with just an email and password, b
 ## Cost
 
 * [ ] Free
-* [x] Partially Free
-* [ ] Paid
+* [ ] Partially Free
+* [x] Paid
 
 Running searches is free but you have to create an account first. This is relatively easy and requires only an email address and password. However, if you want to actually view the hits, you need to purchase a subscription.&#x20;
 
@@ -70,7 +70,7 @@ DeHashed aggregates leaked data and is not a comprehensive repository of every e
 
 ## Ethical Considerations
 
-Consider the ethical and legal implications of analysing and using leaked user data in your research. Carefully consider and decide whether to use this data in keeping with the nature and purpose of your work. Does the end justify the means?
+Consider the ethical and legal implications of analysing and using leaked user data in your research. Carefully consider and decide whether to use this data in keeping with the nature and purpose of your work. Does the end justify the means? Also consider potential legal regulations in your country and industry.
 
 ## Guides and articles
 
