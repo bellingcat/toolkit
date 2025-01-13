@@ -1,7 +1,7 @@
 ---
 description: >-
   A facial recognition search engine that tries to find photos of people that
-  look similar to a person who is visible in an uploaded photo.
+  look similar to a person of interest.
 ---
 
 # FaceCheck.ID
