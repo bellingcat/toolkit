@@ -24,11 +24,11 @@ Information Laundromat is an open-source **lead generation tool** designed for i
 
 {% tabs %}
 {% tab title="Content Similarity Search" %}
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>"Content Similarity” input form: shows how to enter a URL or text snippet, select a country, language, and search engines, and then run a search for reprinted or near-identical content</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results" %}
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption><p>“Results with Similar Titles or Content”: a table listing domains, article titles, text snippets, and match percentages, illustrating how the tool surfaces sites sharing overlapping text from the query.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -38,11 +38,11 @@ Information Laundromat is an open-source **lead generation tool** designed for i
 
 {% tabs %}
 {% tab title="Metadata Similarity Search" %}
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p>“Metadata Similarity” input form: displays fields to enter one or more domains, along with options like ‘Run URLSCAN’ or ‘In-group matching,’ enabling users to detect shared technical indicators among websites.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results" %}
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>“Indicators” results page: a color-coded table (Tier 1 in green, Tier 2 in yellow, Tier 3 in teal) detailing unique or moderate-to-weak indicators (certificates, IPs, subnets, cookies, etc.) found for the queried domain(s).</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -306,7 +306,7 @@ To identify websites that replicate or closely match specific content, helping t
 
     **Combine multiple indicators**—especially from Tier 1 or Tier 2—for more substantial evidence of a link.
 
-    * **Popular CDN services** like **Cloudflare** can mask a site’s true IP address or SSL certificate by serving the site’s content from worldwide caches.
+    * **Popular CDN services** like [**Cloudflare** ](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)can mask a site’s true IP address or SSL certificate by serving the site’s content from worldwide caches.
       * Because CDNs hide the actual hosting details, an investigator might encounter “shared IPs” or “shared SSL” that are unrelated. Recognizing CDN usage helps avoid false positives when linking websites.
 4. **Review Connections**:
    * Examine sites with multiple overlapping indicators for stronger connections.
