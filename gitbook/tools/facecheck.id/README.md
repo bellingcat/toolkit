@@ -1,7 +1,7 @@
 ---
 description: >-
-  A facial recognition search engine that allows you to upload an image of a
-  person to find other images of the same person.
+  A facial recognition search engine that allows you to upload an image to find
+  other images of a person.
 ---
 
 # FaceCheck.ID
@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-In some cases, reverse image searching for people can be used for open source investigations. Save photographs of the individual you are researching, ideally high-resolution images that clearly show their face, and run these through tools like FaceCheck.ID to potentially find more photographs of the same individual. It is important to keep in mind that it is not enough to rely on facial recognition tools to identify the same person across several photos. You need other pieces of evidence to draw conclusions.
+In some cases, reverse image searching for people can an element open source investigations. Save photographs of the individual you are researching, ideally high-resolution images that clearly show their face, and run these through tools like FaceCheck.ID to potentially find more photographs of the same individual. It is important to keep in mind that it is not enough to rely on facial recognition tools to identify the same person across several photos. You need other pieces of evidence to draw conclusions.
 
 ### Step-by-step guide
 
