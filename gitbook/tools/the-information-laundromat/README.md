@@ -32,7 +32,7 @@ Information Laundromat is an open-source **lead generation tool** designed for i
 {% endtab %}
 {% endtabs %}
 
-**2. Metadata Similarity Search**
+### **2. Metadata Similarity Search**
 
 
 
