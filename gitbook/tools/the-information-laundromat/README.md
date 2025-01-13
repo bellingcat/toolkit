@@ -56,7 +56,7 @@ Scans domains to find shared infrastructure, such as [**IP addresses**](https://
 
 1.  **Adobe Analytics ID (`1-adobe_analytics_id`)**
 
-    &#x20;Adobe Analytics uses a unique ID to track site traffic and user behavior. If two sites share the same ID, it can suggest that a single entity or marketing team manages both. However, agencies managing multiple clients might reuse IDs, causing false positives.
+    Adobe Analytics uses a unique ID to track site traffic and user behavior. If two sites share the same ID, it can suggest that a single entity or marketing team manages both. However, agencies managing multiple clients might reuse IDs, causing false positives.
 2.  **Domain Certificate (`1-cert-domain`)**
 
     An SSL/TLS certificate authenticating a website’s identity for secure (HTTPS) connections. If a single certificate explicitly covers two or more domains, it is typically strong evidence they share ownership or management. \
@@ -164,7 +164,7 @@ Scans domains to find shared infrastructure, such as [**IP addresses**](https://
     Repetitive or unique disclaimers can indicate a shared origin, but many sites have generic or default footers.
 6. **Gab Link (`3-gab`)**\
    A link to **Gab** (a social network popular among the alt-right) profiles or posts.\
-   Similar to Facebook links, this can indicate a shared audience or stance, but alone is not proof of deeper ties. Ot might show a shared audience or editorial stance, but it is insufficient to prove a deeper connection.
+   Similar to Facebook links, this can indicate a shared audience or stance, but alone is not proof of deeper ties. It might show a shared audience or editorial stance, but it is insufficient to prove a deeper connection.
 7.  **Non-Standard Header Value (`3-header-nonstd-value`)**
 
     A custom or unusual **HTTP header** (the information a web server sends along with site data, the part of the **HTTP header** listing server software (e.g., Apache, Nginx). However, caution is needed; some hosting providers add these headers, or site owners may emulate them.
