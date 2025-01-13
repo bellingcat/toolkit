@@ -1,7 +1,7 @@
 ---
 description: >-
   A facial recognition search engine that tries to find photos of people that
-  look similar to a person visible in an uploaded photo.
+  look similar to a person who is visible in an uploaded photo.
 ---
 
 # FaceCheck.ID
@@ -12,9 +12,9 @@ description: >-
 
 ## Description
 
-Reverse image searching for people can be an element of open source investigations. Save photographs of the individual you are researching, ideally high-resolution images that clearly show their face, and run these through tools like FaceCheck.ID to potentially find more photographs of the same individual.&#x20;
+Reverse image searching for people is not a reliable research method on its own but it can be used as one of several steps during an open source investigation. Save photographs of the individual you are researching, ideally high-resolution images that clearly show their face, and run these through tools like FaceCheck.ID to potentially find more photographs of the same individual.&#x20;
 
-It is important to keep in mind that you should never solely rely on facial recognition tools to identify the same person across several photos. You also need other pieces of evidence to be able to draw correct conclusions.
+It is important to keep in mind that you should never solely rely on facial recognition tools to identify the same person across several photos (since two people might just look very similar). You also need other pieces of evidence to be able to draw correct conclusions.
 
 ### Step-by-step guide
 
@@ -36,19 +36,19 @@ FaceCheck.ID will allow you to search for free, but you will have to [buy ](http
 
 ## Requirements
 
-N/A
+You need to buy credits via crypto currency.
 
 ## Limitations
 
-Like all other reverse facial recognition search engines, FaceCheck.ID will not provide you with a full name, email address and other confirmed pieces of personal identification data. You will need to comb through the results to determine whether a) the images identified by FaceCheck.ID are of your subject, and b) analyse the information on each web page that features the photos to determine information like usernames, possible location etc.&#x20;
+Like other reverse facial recognition search engines, FaceCheck.ID will not provide you with a full name, email address and other confirmed pieces of personal identification data. You will need to comb through the results to determine whether a) the images identified by FaceCheck.ID are of your subject, and b) analyse the information on each web page that features the photos to determine information like usernames, possible location etc.&#x20;
 
 ## Ethical Considerations
 
-FaceCheck.ID does not clearly list its sources, [its website states](https://facecheck.id/Face-Search/Privacy) that they compare uploaded photos with photos "from public, readily available web pages such as public news websites and blogs."
+FaceCheck.ID does not clearly list its sources, [its website only states](https://facecheck.id/Face-Search/Privacy) that the tool compares uploaded photos with photos "from public, readily available web pages such as public news websites and blogs."
 
 Ethical considerations include privacy concerns, copyright infringement, and possible proliferation of misinformation. Make sure you analyse the search results critically and cross-reference these with other sources of information to ensure your findings are accurate. Do not use copyright images without permission.&#x20;
 
-Josephine Lulamae reflects on the use of facial recognition tools in the AlgorithmWatch article: [War Crimes OSINT, Harassment, Doxxing Police and Protesters: Face Recognition for Everyone](https://algorithmwatch.org/en/face-recognition-for-everyone/) (2022).
+Josephine Lulamae reflects on ethical questions around the use of facial recognition tools in the AlgorithmWatch article: [War Crimes OSINT, Harassment, Doxxing Police and Protesters: Face Recognition for Everyone](https://algorithmwatch.org/en/face-recognition-for-everyone/) (2022).
 
 ## Guides and articles
 
