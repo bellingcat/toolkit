@@ -264,7 +264,7 @@ Scans domains to find shared infrastructure, such as [**IP addresses**](https://
 40. **WordPress Users (`3-wp-users`)**\
     The user accounts within a WordPress site typically have roles like Admin, Editor, and Author. Detecting the same custom user (beyond “admin”) in multiple sites strongly suggests shared ownership or staff. Standard default roles are not unique enough on their own.
 41. **YouTube Link (`3-youtube`)**\
-    A link to a **YouTube** (video-sharing platform) channel or video. If the same channel or video repeatedly appears on different sites, that might reflect a unified content strategy. However, YouTube is extremely popular, so confirm with more robust indicators
+    A link to a **YouTube** (video-sharing platform) channel or video. If the same channel or video repeatedly appears on different sites, that might reflect a unified content strategy. However, YouTube is extremely popular, so confirm with more robust indicators.
 
 </details>
 
