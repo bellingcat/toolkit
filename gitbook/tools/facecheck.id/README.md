@@ -26,9 +26,7 @@ Simply drag and drop the image in the search engine. Once the search is complete
 * [ ] Partially Free
 * [x] Paid
 
-FaceCheck.ID will allow you to search for free, but you will have to [buy ](https://facecheck.id/buy)credits to view the results:
-
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+FaceCheck.ID will allow you to search for free, but you will have to [buy ](https://facecheck.id/buy)credits to view the results. It is important to note you can only pay with crypto currencies.
 
 ## &#x20;Level of difficulty
 
