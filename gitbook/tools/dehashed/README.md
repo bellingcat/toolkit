@@ -20,7 +20,7 @@ DeHashed publishes a very basic (but useful) search guide [here](https://dehashe
 
 ### Using DeHashed for Open Source Investigations
 
-For example, you can use DeHashed to help search for someone who is hiding or trying to conceal their identity.&#x20;
+For example, you can use DeHashed to help search for someone who is trying to conceal their identity.&#x20;
 
 You can start by running an email address through DeHashed to identify accounts your subject maintains, along with the passwords associated with those accounts. You can then go back to the DeHashed search engine and run a new search for that password, which may identify a whole new set of accounts and email addresses that use the same password. That way, you might be able to find out whether your subject is operating under an alias name or email address, all the while using and recycling the same passwords.&#x20;
 
