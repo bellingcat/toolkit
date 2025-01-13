@@ -1,7 +1,7 @@
 ---
 description: >-
-  A facial recognition search engine that allows you to upload an image to find
-  other images of a person.
+  A facial recognition search engine that tries to find photos of people that
+  look similar to a person in a photo that you uploaded.
 ---
 
 # FaceCheck.ID
@@ -12,7 +12,9 @@ description: >-
 
 ## Description
 
-In some cases, reverse image searching for people can an element open source investigations. Save photographs of the individual you are researching, ideally high-resolution images that clearly show their face, and run these through tools like FaceCheck.ID to potentially find more photographs of the same individual. It is important to keep in mind that it is not enough to rely on facial recognition tools to identify the same person across several photos. You need other pieces of evidence to draw conclusions.
+Reverse image searching for people can be an element of open source investigations. Save photographs of the individual you are researching, ideally high-resolution images that clearly show their face, and run these through tools like FaceCheck.ID to potentially find more photographs of the same individual.&#x20;
+
+It is important to keep in mind that you should never solely rely on facial recognition tools to identify the same person across several photos. You also need other pieces of evidence to be able to draw correct conclusions.
 
 ### Step-by-step guide
 
@@ -42,7 +44,11 @@ Like all other reverse facial recognition search engines, FaceCheck.ID will not 
 
 ## Ethical Considerations
 
-Ethical considerations include privacy concerns, copyright infringement, and possible proliferation of misinformation. Make sure you analyse the search results critically and cross-reference these with other sources of information to ensure your findings are accurate. This can help stem misinformation and prevent fake news from spreading. Do not use copyright images without permission.&#x20;
+FaceCheck.ID does not clearly list its sources, [its website states](https://facecheck.id/Face-Search/Privacy) that they compare uploaded photos with photos "from public, readily available web pages such as public news websites and blogs."
+
+Ethical considerations include privacy concerns, copyright infringement, and possible proliferation of misinformation. Make sure you analyse the search results critically and cross-reference these with other sources of information to ensure your findings are accurate. Do not use copyright images without permission.&#x20;
+
+Josephine Lulamae reflects on the use of facial recognition tools in the AlgorithmWatch article: [War Crimes OSINT, Harassment, Doxxing Police and Protesters: Face Recognition for Everyone](https://algorithmwatch.org/en/face-recognition-for-everyone/) (2022).
 
 ## Guides and articles
 
