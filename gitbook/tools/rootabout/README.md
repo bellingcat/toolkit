@@ -1,6 +1,6 @@
 ---
 description: >-
-  RootAbout is a reverse-search image tool that pulls indexed images from the
+  RootAbout is a reverse image search tool that pulls indexed images from the
   Internet Archive.
 ---
 
