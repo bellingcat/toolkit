@@ -50,7 +50,7 @@ The search provided three results. The top-most result with details is shown her
 
 ## Requirements
 
-Images must be JPEG or PNG only.
+The images must be either in JPEG or PNG format.
 
 ## Limitations
 
