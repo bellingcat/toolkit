@@ -185,3 +185,4 @@
   * [MarineTraffic](tools/marinetraffic/README.md)
   * [Google Lens](tools/google-lens/README.md)
   * [The Information Laundromat](tools/the-information-laundromat/README.md)
+  * [ICANN Lookup](tools/icann-lookup/README.md)
