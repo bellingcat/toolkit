@@ -16,7 +16,9 @@ RootAbout is a reverse image search tool that processes images from the Internet
 
 To use the tool, you just need to upload an image of your choice. Under the search option, click on “Internet Archive.” Sometimes, this search option doesn’t work. You can go to the advanced search tab to adjust the size, flip and rotate the image and try again. It is possible to adjust the number of results displayed on the page to a range between five and 50.
 
-The useful feature of the RootAbout is that after conducting the search, it provides details about the result image's [metadata](https://rootabout.com/faq.php#What%20is%20RootAbout) including its type, dimensions, creator, image type, and the year it first appeared, also its description and it informs the user if the result is a strong match.
+ADD A SECTION ABOUT THE OPENLIBRARY FEATURE HERE
+
+Another useful RootAbout feature is that it provides details about the result image's [metadata](https://rootabout.com/faq.php#What%20is%20RootAbout) after conducting the search, including its type, dimensions, creator, image type, and the year it first appeared, also its description and it informs the user if the result is a strong match.
 
 <details>
 
