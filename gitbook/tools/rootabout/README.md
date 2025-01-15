@@ -14,7 +14,7 @@ description: >-
 
 RootAbout is a reverse image search tool that processes images from the Internet Archive only. It has a collection of over 37.3 million photos that include “album cover, book cover, or historical NASA photo”, according to its website. RootAbout does not store pictures from the Internet Archive. If the Internet Archive [updates](https://rootabout.com/faq.php) its collection, the results provided by RootAbout will also change.
 
-Upload an image of your choice. Under the search option, click on “Internet Archive.” You’ll get the required result. Sometimes, this search option doesn’t work. Users can go to the advanced search tab to adjust the size, flip and rotate the image to get the required result. One can adjust the number of results displayed on the page to range between five to 50.
+To use the tool, you just need to upload an image of your choice. Under the search option, click on “Internet Archive.” Sometimes, this search option doesn’t work. You can go to the advanced search tab to adjust the size, flip and rotate the image and try again. It is possible to adjust the number of results displayed on the page to a range between five and 50.
 
 The useful feature of the RootAbout is that after conducting the search, it provides details about the result image's [metadata](https://rootabout.com/faq.php#What%20is%20RootAbout) including its type, dimensions, creator, image type, and the year it first appeared, also its description and it informs the user if the result is a strong match.
 
