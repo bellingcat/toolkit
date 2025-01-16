@@ -1,5 +1,5 @@
 ---
-description: Internet of things search engine.
+description: A search engine for devices that are connected to the internet.
 ---
 
 # Shodan
@@ -10,15 +10,61 @@ description: Internet of things search engine.
 
 ## Description
 
-Shodan is a search engine, but instead of finding websites it finds devices connected to the Internet. Device searches may use a variety of filters, including location (city, country, etc.), device name, IP address, and organization. It can be used to monitor specific assets, to search a geographic area for internet-connect devices, to discover devices tied to an organization, etc.
+With Shodan it is possible to find devices - in the broadest sense - that are connected to the internet.&#x20;
 
-Here is a basic example of searching for devices identifying as being within Ukraine (country:ua filter):
+\*\*\* add to this section
 
-<figure><img src=".gitbook/assets/shodan-basic.png" alt=""><figcaption><p>Basic Shodan search using country:ua filter</p></figcaption></figure>
+When entering the main site there is a small menu in the top left:&#x20;
 
-Here is an example of Shodan Maps, where each dot represents a device in Sevastopol (requires membership):
+<figure><img src=".gitbook/assets/Shodan1 c.jpg" alt=""><figcaption><p>Main left menu</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/shodan-maps.png" alt=""><figcaption><p>Shodan maps using city:sevastopol filter</p></figcaption></figure>
+* The first listing "Shodan" takes you to the main site (see below About Shodan)
+* "Maps" leads to the maps that Shodan offers at the [maps section](https://maps.shodan.io) (see below About Maps)
+* "Images" leads to the first page of [images](https://images.shodan.io/) that are available (see below About Images)
+* With ["Monitor"](https://monitor.shodan.io) you can keep an eye on specific IP-addresses or ranges (when logged in) (see below About Monitor)
+* "Developer" leads to the section of the site that is of interest to [developers and the API](https://developer.shodan.io/) (see below About Developer)
+
+## About Shodan
+
+## About Maps
+
+## About Images
+
+When clicking on the "Images" menu item, the first 20 images are shown. Those can be login screens, webcam images and such. Below is an example of such a login screen (altered for privacy).
+
+<figure><img src=".gitbook/assets/Administrator - c.jpg" alt="" width="375"><figcaption><p>A sample image available from Shodan</p></figcaption></figure>
+
+When an image as presented by Shodan is clicked, a new page is shown with specifics about the image. These specifics can be very detailed, and a lot of information can be retrieved from it. Below is an example which is altered for provacy:&#x20;
+
+<figure><img src=".gitbook/assets/Details - c.jpg" alt="" width="375"><figcaption><p>A sample of a detail page after clicking an image</p></figcaption></figure>
+
+
+
+
+
+## About Monitor
+
+## About Developer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\--> -->Text from Max:&#x20;
+
+Device searches may use a variety of filters, including location (city, country, etc.), device name, IP address, and organization. It can be used to monitor specific assets, to search a geographic area for internet-connect devices, to discover devices tied to an organization, etc.
+
+
 
 ## Cost
 
@@ -26,9 +72,11 @@ Here is an example of Shodan Maps, where each dot represents a device in Sevasto
 * [x] Partially Free
 * [ ] Paid
 
+\-->--> Text from Max
+
 There are multiple account levels for Shodan:
 
-* The most basic is the free account.  This currently provides only two pages of search results.
+* The most basic is the free account. This currently provides only two pages of search results.
 * A membership may be purchased for a one-time fee of $49, which provides 100 query credits and 100 scan credits per month, access to Maps, Images, Monitor, etc.
 * [Monthly subscriptions ](https://account.shodan.io/billing)with varying prices and offerings.
 
@@ -46,7 +94,7 @@ The information that Shodan retrieves varies in its efficacy. For instance, the 
 
 ## Ethical Considerations
 
-Shodan indexes publicly available information, so there is nothing inherently unethical about browsing the results of your searches. Using the tool is akin to walking down a public street and knocking on doors as you pass by. However, using the results of your searches in order to gain (or attempt to gain) unauthorized access to devices is both unethical and illegal in most countries.&#x20;
+Shodan indexes publicly available information, so there is nothing inherently unethical about browsing the results of your searches. Using the tool is akin to walking down a public street and knocking on doors as you pass by. However, using the results of your searches in order to gain (or attempt to gain) unauthorized access to devices is both unethical and illegal in most countries.
 
 ## Guide
 
