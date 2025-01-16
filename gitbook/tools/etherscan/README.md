@@ -102,7 +102,7 @@ Block Solutions, Malaysia
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                |
-| ------------------------------ |
-| Johanna Wild - Bellingcat Team |
-|                                |
+| Page maintainer            |
+| -------------------------- |
+| Johanna Wild - Bellingcat  |
+|                            |
