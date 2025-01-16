@@ -11,7 +11,7 @@
 | [**Intelx.io**](../../tools/intelx.io/README.md) | Find user details in data breaches | <mark style="background-color:orange;">Partially Free</mark> | [http://intelx.io/](http://intelx.io/) |
 | [**Wayback Machine**](../../tools/internet-archive/README.md) | The Internet Archive's Wayback Machine lets users view and archive web pages, aiding in historical research and digital preservation. | <mark style="background-color:green;">Free</mark> | [https://web.archive.org/](https://web.archive.org/) |
 | Moz Link Explorer | Analyse the links of any website. | <mark style="background-color:green;">Free</mark> | [http://moz.com/link-explorer](http://moz.com/link-explorer) |
-| Shodan | Internet of things search engine. | <mark style="background-color:orange;">Partially Free</mark> | [https://www.shodan.io/](https://www.shodan.io/) |
+| Shodan | A search engine for devices that are connected to the internet. | <mark style="background-color:orange;">Partially Free</mark> | [https://www.shodan.io/](https://www.shodan.io/) |
 | [**The Information Laundromat**](../../tools/the-information-laundromat/README.md) | A tool for analyzing content replication and site architecture to detect information laundering. | <mark style="background-color:green;">Free</mark> | [https://informationlaundromat.com](https://informationlaundromat.com) |
 | Vortimo | Suite of tools for website, email, WHOIS, etc. analysis | <mark style="background-color:red;">Paid</mark> | [https://www.vortimo.com/](https://www.vortimo.com/) |
 | [**What CMS**](../../tools/what-cms/README.md) | A tool that you can use to identify the technologies used to power a website. | <mark style="background-color:orange;">Partially Free</mark> | [https://whatcms.org/](https://whatcms.org/) |
