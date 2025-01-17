@@ -68,7 +68,7 @@ Cyber Detective: X profile [here](https://x.com/cyb_detective).  Website: [https
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Anisa Shabir    |
-|                 |
+| Page maintainer         |
+| ----------------------- |
+| Anisa Shabir GAP member |
+|                         |
