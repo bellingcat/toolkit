@@ -54,7 +54,11 @@ _Sophie Tedling_ has worked with Bellingcat as a volunteer, Tech Fellow & contri
 
 <summary>Contribute to this Toolkit</summary>
 
-You can contribute to Bellingcat's toolkit by submitting toolkit descriptions via this [form](https://docs.google.com/forms/d/e/1FAIpQLSeb0VLOs\_T8qKBTcoHP4nINPnIb1KpRalcS4GuAjAMMgOkh2Q/viewform?usp=sf\_link). Not all submissions will be accepted, please review our guidelines and tips on how to write and submit a good toolkit description. Only descriptions that fulfil all requirements will be considered.
+If you are an expert for a specific category of open source research tools and you would like to contribute to this toolkit, get in touch with Johanna via [toolkit@bellingcat.com](mailto:toolkit@bellingcat.com). Feel free to introduce yourself and share a few words about your tool expertise. We would love to hear from you.
+
+Keep in mind that contributing to our toolkit is a long-term volunteer commitment: You write tool descriptions and update them on a monthly basis. We do not accept volunteers whose identity we don’t know.
+
+Please do not suggest tools that should be added to the toolkit via this e-mail address.&#x20;
 
 </details>
 
@@ -78,7 +82,7 @@ Bellingcat is an independent investigative collective of researchers, investigat
 
 You can follow [Bellingcat](https://www.bellingcat.com)'s work here:
 
-[Bellingcat website](https://www.bellingcat.com/), [BlueSky](https://bsky.app/profile/bellingcat.com), [Discord](https://discord.com/invite/bellingcat), [Facebook](https://www.facebook.com/bellingcat),[Github](https://github.com/bellingcat), [Instagram](https://www.instagram.com/bellingcatofficial/), [Mastodon](https://mstdn.social/@Bellingcat), [Patreon](https://www.patreon.com/bellingcat), [Reddit](https://www.reddit.com/r/bellingcat/), [Soundcloud](https://soundcloud.com/bellingcat), [Twitch](https://www.twitch.tv/bellingcat\_live), [X](categories/social-media/youtube/youtube.md),[Youtube](https://www.youtube.com/@bellingcatofficial/videos).
+[Bellingcat website](https://www.bellingcat.com/), [BlueSky](https://bsky.app/profile/bellingcat.com), [Discord](https://discord.com/invite/bellingcat), [Facebook](https://www.facebook.com/bellingcat),[Github](https://github.com/bellingcat), [Instagram](https://www.instagram.com/bellingcatofficial/), [Mastodon](https://mstdn.social/@Bellingcat), [Patreon](https://www.patreon.com/bellingcat), [Reddit](https://www.reddit.com/r/bellingcat/), [Soundcloud](https://soundcloud.com/bellingcat), [Twitch](https://www.twitch.tv/bellingcat_live), [X](categories/social-media/youtube/youtube.md),[Youtube](https://www.youtube.com/@bellingcatofficial/videos).
 
 [Bellingcat](https://www.bellingcat.com/) is a non-profit and the ability to carry out our work is dependent on the kind support of individual donors. If you would like to support our work, you can so [here](https://www.bellingcat.com/donate/).
 
