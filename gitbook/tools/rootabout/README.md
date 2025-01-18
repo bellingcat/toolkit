@@ -28,7 +28,7 @@ The search provided three results. The first result is shown here:&#x20;
 
 <figure><img src=".gitbook/assets/Root About search result.png" alt=""><figcaption></figcaption></figure>
 
-**Note**: While some searches are effective, RootAbout does not work for some photos from the Internet Archive. Images [here](https://archive.org/details/dr_future-map-of-the-world-10902000), [here](https://archive.org/details/speed-1970_20220823_1758), and [here](https://archive.org/details/contact_fingerlakes1_5381) from the Internet Archive are examples. This limitation, along with other shortcomings of the tool, will be discussed under the **Limitation** heading.
+**Note**: While some searches are effective, RootAbout does not work for all photos from the Internet Archive. For instance, we tested the images [here](https://archive.org/details/dr_future-map-of-the-world-10902000), [here](https://archive.org/details/speed-1970_20220823_1758), and [here](https://archive.org/details/contact_fingerlakes1_5381) and did not get any results despite them being present on the Internet Archive. This limitation, along with other shortcomings of the tool, will be discussed in the **Limitation** section.
 
 
 
