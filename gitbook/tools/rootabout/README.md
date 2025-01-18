@@ -24,7 +24,7 @@ To test the tool, we uploaded the image “Doradus Nebula” from a NASA collect
 
 <figure><img src=".gitbook/assets/root 5.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
-The search provided three results. The first result and its details are shown here:&#x20;
+The search provided three results. The first result is shown here:&#x20;
 
 <figure><img src=".gitbook/assets/Root About search result.png" alt=""><figcaption></figcaption></figure>
 
