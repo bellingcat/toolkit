@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-{% embed url="https://vi.microsoft.com/en-us" %}
+[https://vi.microsoft.com](https://vi.microsoft.com/en-us)
 
 ## Description
 
