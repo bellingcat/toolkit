@@ -61,7 +61,7 @@ RootAbout has provided a guide for its usage in its [FAQ](https://rootabout.com/
 
 ## Tool provider
 
-The tool is provided by Hacker Factor, also known as Dr. Neal Krawetz. More details about Hacker Factor [here](https://www.hackerfactor.com/about.php).
+The tool is provided by Hacker Factor, also known as Dr. Neal Krawetz. More details about Hacker Factor can be found [here](https://www.hackerfactor.com/about.php).
 
 ## Advertising Trackers
 
