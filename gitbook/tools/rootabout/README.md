@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-RootAbout is a reverse image search tool that compares an uploaded image with images from the Internet Archive. It has indexed over [37.3 million pictures](https://rootabout.com/faq.php#What%20has%20RootAbout%20indexed) from Internet Archive collections but it does not host photos from the Internet Archive itself.
+RootAbout is a reverse image search tool that compares an uploaded image with images from the Internet Archive. It has over [37.3 million pictures](https://rootabout.com/faq.php#What%20has%20RootAbout%20indexed) from Internet Archive collections indexed. However, it does not host photos from the Internet Archive itself.
 
 To use the tool, you just need to upload an image of your choice. Under the search option, click on “Internet Archive.” Sometimes, this search option doesn’t work. You can go to the advanced search tab to adjust the size, flip and rotate the image and try again.
 
