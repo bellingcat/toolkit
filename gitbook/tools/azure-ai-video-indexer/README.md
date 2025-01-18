@@ -102,7 +102,7 @@ YouTube short guide by Microsoft Academy Hub here [https://www.youtube.com/watch
 
 ## Tool provider
 
-Microsoft&#x20;
+Microsoft, United States.
 
 ## Advertising Trackers
 
