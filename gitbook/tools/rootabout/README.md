@@ -48,7 +48,7 @@ The images must be either in JPEG or PNG format.
 
 ## Limitations
 
-* The search is sometimes slow. This is[ because](https://rootabout.com/faq.php) the tool does not pull all the data from the result similar to other search engines. The tool processes a search in six steps, explained[ here](https://rootabout.com/faq.php).
+* The search is sometimes slow. This is because the tool does not store Internet Archive pictures but it finds them on the Internet Archive via a six step process which is explained [here](https://rootabout.com/faq.php#Why%20is%20RootAbout%20sometimes%20slow).
 * RootAbout does not always work for images from the Internet Archive. There are various reasons for this. Root About has yet to index/process the image from the Internet Archive. Its[ website states](https://rootabout.com/faq.php), “RootAbout only compares against pictures it has indexed.” Slight changes in scale-invariant, color invariant, edits, cropping, and rotations can prevent the tool from fetching the required results. More details in[ its](https://rootabout.com/faq.php) FAQ.
 * RootAbout only indexes the Internet Archive; so [unlike](https://rootabout.com/faq.php#What%20is%20RootAbout) TinEye, Google, and other search engines it “does not look for subsets of images” or “similar subject matter.” Instead, it “looks for near-perfect matches.”
 
