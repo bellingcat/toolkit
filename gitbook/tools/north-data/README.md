@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-{% embed url="https://northdata.com" %}
+[https://www.northdata.com ](./#url)
 
 ## Description
 
