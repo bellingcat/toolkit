@@ -14,9 +14,7 @@ Microsoft's Azure AI Video Indexer allows open source researchers to upload vide
 
 Through the use of facial recognition, the tool is able to spot individuals that are showing up several times in a video which can be helpful when analysing footage of crowd-like situations like protests or when working with vast amounts of video material.&#x20;
 
-The audio analysis is particularly helpful, for instance, for city-hall meeting audios, which can be long and tedious. Azure Indexer reduces the time required for analyzing key insights extracted from files.
-
-The tool can also extract key topics from videos&#x20;
+The Azure AI Video Indexer can also be used to generate transcripts and to translate those transcripts into several languages. In addition, it is able to extract insights like key topics, objects or words that show up several times. This feature can reduce the time that is required to analyse a particular set of videos or audios, for instance from long city hall meetings.&#x20;
 
 ## Steps
 
