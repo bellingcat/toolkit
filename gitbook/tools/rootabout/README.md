@@ -46,9 +46,10 @@ The images must be either in JPEG or PNG format.
 
 ## Limitations
 
+* RootAbout only indexes the Internet Archive; so unlike TinEye, Google and other search engines [it does not focus on the whole internet](https://rootabout.com/faq.php#Why%20doesnt%20my%20image%20match).&#x20;
+* The tool is also not able to match photos with pictures from the [Wayback Machine](https://bellingcat.gitbook.io/toolkit/more/all-tools/internet-archive) which is a very crucial limiting factor for open source researchers.
 * The search is sometimes slow. This is because the tool does not store Internet Archive pictures but it finds them on the Internet Archive via a six step process which is explained [here](https://rootabout.com/faq.php#Why%20is%20RootAbout%20sometimes%20slow).
-* RootAbout does not always work for images from the Internet Archive. There are various reasons for this. Root About has yet to index/process the image from the Internet Archive. Its[ website states](https://rootabout.com/faq.php), “RootAbout only compares against pictures it has indexed.” Slight changes in scale-invariant, color invariant, edits, cropping, and rotations can prevent the tool from fetching the required results. More details in[ its](https://rootabout.com/faq.php) FAQ.
-* RootAbout only indexes the Internet Archive; so [unlike](https://rootabout.com/faq.php#What%20is%20RootAbout) TinEye, Google, and other search engines it “does not look for subsets of images” or “similar subject matter.” Instead, it “looks for near-perfect matches.”
+* According to the[ RootAbout website](https://rootabout.com/faq.php#What%20kinds%20of%20pictures%20will%20match), the tool only matches pictures that are nearly identical: "If your picture differs by more than 10%, then it probably won't match. Even simple changes, like cropping an edge or rotating the picture by 5° can be enough to make the picture appear different."&#x20;
 
 ## Ethical Considerations
 
