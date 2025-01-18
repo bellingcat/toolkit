@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-RootAbout is a reverse image search tool that compares an uploaded image with images from the [Internet Archive](https://bellingcat.gitbook.io/toolkit/more/all-tools/internet-archive). RootAbout does not store pictures from the Internet Archive. If the Internet Archive [updates](https://rootabout.com/faq.php) its collection, the results provided by RootAbout will change.
+RootAbout is a reverse image search tool that compares an uploaded image with images from the Internet Archive. RootAbout does not store pictures from the Internet Archive. If the Internet Archive [updates](https://rootabout.com/faq.php) its collection, the results provided by RootAbout will change.
 
 To use the tool, you just need to upload an image of your choice. Under the search option, click on “Internet Archive.” Sometimes, this search option doesn’t work. You can go to the advanced search tab to adjust the size, flip and rotate the image and try again.
 
