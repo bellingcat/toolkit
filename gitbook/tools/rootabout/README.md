@@ -24,9 +24,7 @@ Another useful RootAbout feature is that it provides details about the result im
 
 <summary><strong>Use case</strong> </summary>
 
-For use case, we uploaded the image “Doradus Nebula” since RootAbout mentions NASA [collections](https://rootabout.com/faq.php#What%20is%20RootAbout) as "popular " and which “are in the public domain, they have been reused for album covers, book covers, newsletters, web pages, and more.”
-
-The image is shown below:
+To test the tool, we uploaded the image “Doradus Nebula” from a NASA collection. The image is shown below:
 
 <img src=".gitbook/assets/root 5.jpg" alt="" data-size="original">
 
