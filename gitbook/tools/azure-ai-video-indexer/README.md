@@ -1,7 +1,7 @@
 ---
 description: >-
-  AI tool that indexes video and audio and extracts insights about various
-  entities.
+  AI tool for videos that applies facial recognition and extracts various types
+  of insights.
 ---
 
 # Azure AI Video Indexer
