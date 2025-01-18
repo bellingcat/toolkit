@@ -20,23 +20,17 @@ ADD A SECTION ABOUT THE OPENLIBRARY FEATURE HERE
 
 Another useful RootAbout feature is that it provides details about the result image's [metadata](https://rootabout.com/faq.php#What%20is%20RootAbout) after conducting the search, including its type, dimensions, creator, image type, and the year it first appeared, also its description and it informs the user if the result is a strong match.
 
-<details>
-
-<summary><strong>Use case</strong> </summary>
-
 To test the tool, we uploaded the image “Doradus Nebula” from a NASA collection. The image is shown below:
 
-<img src=".gitbook/assets/root 5.jpg" alt="" data-size="original">
+<figure><img src=".gitbook/assets/root 5.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 The search provided three results. The top-most result with details is shown here:&#x20;
 
-<img src=".gitbook/assets/Root About search result.png" alt="" data-size="original">
+<figure><img src=".gitbook/assets/Root About search result.png" alt=""><figcaption></figcaption></figure>
 
 **Note**: While some searches are effective, RootAbout does not work for some photos from the Internet Archive. Images [here](https://archive.org/details/dr_future-map-of-the-world-10902000), [here](https://archive.org/details/speed-1970_20220823_1758), and [here](https://archive.org/details/contact_fingerlakes1_5381) from the Internet Archive are examples. This limitation, along with other shortcomings of the tool, will be discussed under the **Limitation** heading.
 
 
-
-</details>
 
 ## Cost
 
