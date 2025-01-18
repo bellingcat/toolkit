@@ -12,19 +12,19 @@ description: >-
 
 ## Description
 
-RootAbout is a reverse image search tool that processes images from the Internet Archive only. It has a collection of over 37.3 million photos that include “album cover, book cover, or historical NASA photo”, according to its website. RootAbout does not store pictures from the Internet Archive. If the Internet Archive [updates](https://rootabout.com/faq.php) its collection, consequently the results provided by RootAbout will change.
+RootAbout is a reverse image search tool that compares an uploaded image with images from the Internet Archive. RootAbout does not store pictures from the Internet Archive. If the Internet Archive [updates](https://rootabout.com/faq.php) its collection, the results provided by RootAbout will change.
 
-To use the tool, you just need to upload an image of your choice. Under the search option, click on “Internet Archive.” Sometimes, this search option doesn’t work. You can go to the advanced search tab to adjust the size, flip and rotate the image and try again. It is possible to adjust the number of results displayed on the page to a range between five and fifty.
+To use the tool, you just need to upload an image of your choice. Under the search option, click on “Internet Archive.” Sometimes, this search option doesn’t work. You can go to the advanced search tab to adjust the size, flip and rotate the image and try again.
 
 ADD A SECTION ABOUT THE OPENLIBRARY FEATURE HERE
 
-Another useful RootAbout feature is that it provides details about the result image's [metadata](https://rootabout.com/faq.php#What%20is%20RootAbout) after conducting the search, including its type, dimensions, creator, image type, and the year it first appeared, also its description and it informs the user if the result is a strong match.
+A useful RootAbout feature is that it provides details about the result image's [metadata](https://rootabout.com/faq.php#What%20is%20RootAbout) after conducting the search, including its type, dimensions, creator, image type, and the year it first appeared, and its description. It also informs the user if the result is a strong match.
 
 To test the tool, we uploaded the image “Doradus Nebula” from a NASA collection. The image is shown below:
 
 <figure><img src=".gitbook/assets/root 5.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
-The search provided three results. The first result and its details is shown here:&#x20;
+The search provided three results. The first result and its details are shown here:&#x20;
 
 <figure><img src=".gitbook/assets/Root About search result.png" alt=""><figcaption></figcaption></figure>
 
