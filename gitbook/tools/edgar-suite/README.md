@@ -15,19 +15,69 @@ description: >-
 
 ## EDGAR Database Overview
 
-SEC's [EDGAR ](https://bellingcat.gitbook.io/toolkit/more/all-tools/edgar)database is a public repository of filings submitted by companies, mutual funds, and other entities required to report to the U.S. Securities and Exchange Commission. EDGAR provides free access to hundreds of financial document filling types, including quarterly and annual reports, insider trading disclosures, and registration statements.
+**EDGAR** (Electronic Data Gathering, Analysis, and Retrieval) serves as the SEC’s public database of corporate filings. It includes both quantitative and qualitative data for legal entities that issue securities in the U.S. Accessible since the mid-1990s, EDGAR offers its data for free, rendering it a crucial resource for corporate OSINT, financial analysis, and investigative endeavors.
 
-EDGAR aims to ensure equal access to corporate disclosures within the U.S. capital market. The database is freely accessible online for financial analysis and open-source intelligence in the finance sector. You can access the EDGAR UI at [www.sec.gov/edgar/search/](./#url).
+#### Why Use edgar-tool Instead of the EDGAR Website?
 
-## Bellingcat's `edgar-tool` Overview
+Despite EDGAR’s utility, its **web interface** can be difficult to use for large-scale tasks or specialized queries (e.g., no simple batch downloading, no single RSS feed for multiple entities, etc.). **edgar-tool** overcomes these limitations by:
 
-`edgar-tool` provides programmatic access to SEC's EDGAR database from the command line. The CLI is feature-complete, meaning all queries you can perform on [www.sec.gov/edgar/search/](./#url) are achievable with the CLI.&#x20;
+1. **Automating Search & Download**: Scrapes EDGAR in chunks, merges results, and exports them in `.csv` or `.jsonl`, avoiding repetitive manual page-by-page downloads.
+2. **Enabling Large-Scale Analysis**: The tool can handle thousands of filings, letting you run advanced queries (like tracking mentions of a keyword in multiple forms).
+3. **Filterable RSS**: Subscribes to the broad EDGAR RSS feed, but filters results by the specific tickers you care about, generating a single consolidated file.
 
-Here are a few of the reasons you might want to use `edgar-tool`:
+### EDGAR Command Line Interface (edgar-tool) — Detailed Overview
 
-* **Batch Downloading of Search Results**: The EDGAR UI doesn't allow you to download all documents from a search text search at once. `edgar-tool` automates this process so you can download hundreds (or even thousands) of EDGAR documents with one command.
-* **Consistent Financial Profiling**: `edgar-tool` eases financial analysis by standardizing [XBRL data tags](#user-content-fn-1)[^1] across different companies' reports. Companies often use custom tags or apply standard tags inconsistently which leads to variations that complicate direct comparisons. `edgar-tool` uses a custom table of XBRL tags to make cross-company financial comparison easier.
-* **Customized RSS Feeds**: EDGAR does not allow users to subscribe to a single RSS feed for multiple companies. `edgar-tool`'s `rss` command allows you to filter EDGAR's broadest RSS feed by specific companies of interest and produce a CSV file similar to the one produced by `edgar-tools` text search functionality.
+#### 1. Automated Bulk Retrieval of Filings
+
+* **Challenge with EDGAR Web**: The SEC interface typically requires browsing multiple result pages and downloading PDF/HTML documents individually. This is tedious and prone to errors when dealing with dozens or hundreds of filings.
+* **edgar-tool Solution**: **Text Search** automates queries, segmenting them into manageable “chunks.” It then merges all pages into a single `.csv` or `.jsonl` file and can optionally download the linked filings themselves.
+  * **Example**: Searching for references to “ESG,” “cybersecurity,” or any specific phrase across 1,000 documents becomes a single command instead of manual page-by-page clicks.
+
+#### 2. Standardized Financial Data from XBRL
+
+* **Challenge with EDGAR Web**: While EDGAR makes data from **XBRL** filings available, companies often define their own custom tags. Basic direct comparisons of net income or total assets across different issuers can be messy or incomplete.
+* **edgar-tool Solution**: It references a custom library of commonly used GAAP/XBRL tags mapped to plain-English financial metrics. This leads to more consistent results (e.g., “revenue,” “net income,” “debt,” etc.) for each company.
+  * **Example**: Instantly fetch a unified time-series for any public company’s key statements (balance sheet, income statement, cash flow) without sifting through dozens of custom tag variations.
+
+#### 3. Flexible, Filtered RSS Feed for Company Monitoring
+
+* **Challenge with EDGAR Web**: You can subscribe to EDGAR’s broad RSS or individual company feeds, but not a single feed covering all your target companies in one place. It’s easy to miss filings or get overwhelmed by irrelevant results.
+* **edgar-tool Solution**: **RSS** commands filter the main EDGAR feed by specific tickers or **CIKs** (Central Index Keys). You get a consolidated `.csv` or `.jsonl` with the latest filings from only the entities you care about.
+  * **Example**: Monitor five technology stocks for new 8-K or 10-K forms. Receive daily or hourly updates in one file, rather than visiting multiple feeds or searching manually.
+
+#### 4. Comprehensive Search Parameters & Output Options
+
+* **Search Parameters**:
+  * Keywords/Phrases: partial or exact matches (“cyber risk,” “carbon offsets”).
+  * Entity Data: Tickers, CIKs, or company names for narrower focus.
+  * Filing Types: Choose among annual reports (10-K), quarterly (10-Q), registration statements, or insider trading forms.
+  * Date Ranges: Limit to, say, “2022-01-01 to 2022-12-31.”
+  * Location: In or principal executive offices located in a certain region (e.g., “Egypt”).
+* **Output Options**:
+  * `.csv` (default) or `.jsonl` for easy integration with Excel, Python pandas, or other data tools.
+  * `.json` or `.jsonl` for line-by-line JSON objects—handy if you want to parse them with scripts or feed them into advanced analytics (like an NLP pipeline).
+
+#### 5. Command-Line Simplicity & Python Integration
+
+* **CLI Usage**: A single terminal command (e.g., `edgar-tool text_search "John Doe"`) runs queries with optional arguments for specialized tasks.
+* **Python Compatibility**: If deeper analysis or automated workflows are desired, you can embed `edgar-tool` results in Jupyter notebooks, or orchestrate them within a Python pipeline (particularly helpful for large OSINT or data-mining projects).
+
+#### 6. Support for Large Queries & Retry Logic
+
+* **Challenge**: EDGAR enforces \~10 requests/second, and long queries can stall or fail.
+* **edgar-tool**: Includes a **retries** feature, random wait intervals (`--min_wait` / `--max_wait`) to stay within EDGAR’s usage guidelines. Automates re-requests if the initial call fails, ensuring robust data acquisition over big searches.
+
+#### 7. Periodic or On-Demand Data Gathering
+
+* **RSS Interval**: The `--every_n_mins` option repeatedly checks for new filings, appending them to an ongoing output file. This is convenient for near real-time monitoring of evolving corporate disclosures.
+* **Ad Hoc Search**: The text search can be run once for immediate insight or scheduled (e.g., weekly) to track mentions of a certain keyword over time.
+
+#### 8. Extra Tools: Financial Profile CSV
+
+* In addition to the real-time search & RSS, the tool’s maintainers provide a **financial dataset** in `.csv` form. This dataset aims to unify official EDGAR numbers into consistent lines for each public company, making cross-company or time-series analysis more straightforward.
+  * Great for generating quick historical charts (like net income trends) in Excel or Python.
+
+_(Inspired by the Bellingcat Tech Fellowship, it aims to make EDGAR’s **free** data more accessible to journalists, researchers, and OSINT analysts.)_
 
 ## Cost
 
@@ -45,22 +95,25 @@ Here are a few of the reasons you might want to use `edgar-tool`:
 
 ## Limitations
 
-* The tool is limited by the limitations of the SEC's EDGAR database itself, such as:
-  * No historical data before 2001
-  * Documents are raw corporate fillings - there are no summaries or analysis
-  * Limited API options compared to other financial data sources
-  * No private company data - only data for public companies and some regulated entities is available
+* **Data Coverage**: EDGAR is strongest post-2001, with partial coverage from 1994–2000. No private-company data.
+* **Rate Limits**: The SEC enforces max requests (\~10/s). The tool handles this by spacing or retrying requests, but massive downloads still take time.
+* **Potential Gaps in XBRL**: Some foreign or unusual filers may use custom or incomplete tags that limit the consistency of the standardized table. Although edgar-tool references a standard XBRL library, some foreign filers or unusual forms can break uniform tagging.
+* **No Summaries**: The tool provides raw documents and structured metadata but does not generate textual summaries or deeper analytics for you.
 
 ## Ethical Considerations
 
-Users Bellingcat's `edgar-tool` must adhere to the following:
-
+* **SEC Policy Compliance**: Do not exceed EDGAR’s official usage limits or circumvent established disclaimers.
+* **Legitimate Use**: Data here can be sensitive. Ensure compliance with securities laws regarding insider information or derivatives of that info.
+* **Attribution**: Cite EDGAR as the data source and handle CSV outputs responsibly (especially if dealing with personal or sensitive content).
+* **Data Accuracy**: Some filers might have irregular or missing data. Always cross-verify if your investigative or financial conclusions have major consequences.
 * Respect the [SEC's _Internet Security Policy_](https://www.sec.gov/about/privacy-information#security) and [_Vulnerability Disclosure Policy_](https://www.sec.gov/vulnerability-disclosure-policy)
 * Respect the [SEC EDGAR API's fair access policy](https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data) & current 10 requests/second max request limit
 
 ## Guide
 
-The most up-to-date guides on downloading & using edgar-tool are always available on [the bellingcat/EDGAR GitHub site](https://github.com/bellingcat/EDGAR). The December 18th 2023 Bellingcat article, [_New Tools Dig Deeper Into Hard-to-Aggregate US Corporate Data_](https://www.bellingcat.com/resources/2023/12/18/new-tools-dig-deeper-into-hard-to-aggregate-us-corporate-data/) by edgar-tool creator George Dyer, provides examples of using edgar-tool's text search and RSS feed functionality.
+* **Official GitHub**: [Bellingcat/EDGAR](https://github.com/bellingcat/EDGAR) for usage instructions, advanced macros, and code examples.
+* **Bellingcat Article**: _“New Tools Dig Deeper into Hard-to-Aggregate US Corporate Data”_ (Dec 18, 2023) by **George Dyer**.
+  * Illustrates how to harness text search for ESG trends, unify financial time-series across multiple companies, and track multiple tickers via a single feed.
 
 ## Tool provider
 
@@ -72,9 +125,7 @@ George Dyer (former Bellingcat Tech Fellow)
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat Volunteer Team/Unassigned |
-|                                      |
-
-[^1]: XBRL (eXtensible Business Reporting Language) is a framework that allows companies to tag financial data with specific identifiers, facilitating automated processing and analysis.
+| Page maintainer |
+| --------------- |
+| Martin Sona     |
+|                 |
