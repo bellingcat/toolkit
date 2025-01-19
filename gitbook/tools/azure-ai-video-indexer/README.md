@@ -14,7 +14,7 @@ Microsoft's Azure AI Video Indexer allows open source researchers to upload vide
 
 Through the use of facial recognition the tool can automatically spot individuals that are showing up several times in a video. This feature can be helpful when analysing footage of crowd-like situations like protests or when working with vast amounts of video material.&#x20;
 
-The Azure AI Video Indexer can also be used to generate transcripts and to translate them into several languages. In addition, it is able to extract insights like key topics or words that show up several times. This feature can reduce the time that is required to analyse a particular set of videos or audios, for instance from long city hall meetings.&#x20;
+The Azure AI Video Indexer can also be used to generate and translate transcripts into several languages. In addition, it is able to extract insights like key topics or words that show up several times. This feature can reduce the time that is required to analyse a particular set of videos or audios, for instance from long city hall meetings.&#x20;
 
 Other features that might be useful for open source researchers is its ability to extract text that is showing up in a video ([optical character recognition](https://learn.microsoft.com/en-us/azure/azure-video-indexer/ocr-insight)) and to do object detection. For instance, the tool is able to detect [airplanes, cars, traffic lights or fire hydrants.](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight)
 
@@ -68,7 +68,7 @@ You need to create a Microsoft account for using Microsoft's Azure AI Video Inde
 
 ## Limitations
 
-Like any other tool, Azure AI indexer has its limitations. It doesn’t cover all languages and therefore it may not be useful for all audios and videos. A list of supported languages can be found [here](https://learn.microsoft.com/en-us/azure/azure-video-indexer/language-support).&#x20;
+Like any other tool, Azure AI indexer has its limitations. It does not cover all languages and therefore it may not be useful for all audios and videos. A list of supported languages can be found [here](https://learn.microsoft.com/en-us/azure/azure-video-indexer/language-support).&#x20;
 
 The facial recognition feature may not work efficiently all the time, for example if the footage is of poor quality or there is bright colouring. Always make sure to double check your findings using other research methods.&#x20;
 
