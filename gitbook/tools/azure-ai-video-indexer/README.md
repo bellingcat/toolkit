@@ -22,9 +22,9 @@ Other features that might be useful for open source researchers is its ability t
 
 After creating an account, upload a file or add a video or audio URL by navigating to the "Library" tab.&#x20;
 
-The advanced "Indexing Preset" allows users to configure settings to include models that can help extract insights about entities most relevant to analysis. Some features such as face detection require subscription.
+The advanced "Indexing presets" allows users to configure settings to include models that can help extract insights about entities that are most relevant to their analysis. Some features such as face detection require a subscription.
 
-<figure><img src=".gitbook/assets/Azure step 2.png" alt=""><figcaption><p>Indexing Preset settings</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Azure step 2.png" alt=""><figcaption><p>Features like "Character recognition" or "Object detection" can be relevant for some types of open source investigations.</p></figcaption></figure>
 
 ## What the Insight Tab shows
 
