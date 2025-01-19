@@ -88,11 +88,11 @@ Ethical journalism guidelines can also be helpful in understanding how to use fa
 
 ## Guides and articles
 
-Henk Van Ess on GIJN: [https://gijn.org/resource/facial-recognition-made-easy/](https://gijn.org/resource/facial-recognition-made-easy/)
+Microsoft’s Azure Guide: [Learn about Azure AI Video Indexer](https://learn.microsoft.com/en-us/azure/azure-video-indexer/).
 
-Microsoft’s Azure Guide: [https://learn.microsoft.com/en-us/azure/azure-video-indexer/upload-index-media](https://learn.microsoft.com/en-us/azure/azure-video-indexer/upload-index-media)
+Microsoft Academy Hub: [Azure AI Video Indexer](https://www.youtube.com/watch?v=wssVLlLGeyU).
 
-YouTube short guide by Microsoft Academy Hub here [https://www.youtube.com/watch?v=wssVLlLGeyU](https://www.youtube.com/watch?v=wssVLlLGeyU)
+Henk van Ess: [Facial recognition made easy](https://gijn.org/resource/facial-recognition-made-easy/) (GIJN).
 
 ## Tool provider
 
