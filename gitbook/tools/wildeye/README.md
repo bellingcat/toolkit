@@ -56,6 +56,8 @@ How to use: [https://oxpeckers.org/how-to-use-wildeye/](https://oxpeckers.org/ho
 
 Oxpeckers Center for Investigative Environmental Journalism
 
+Oxpeckers also provides other [tools](https://oxpeckers.org/tools/) which often have a focus on Africa or South Africa. For instance, a [tool to track mining licenses](https://oxpeckers.org/mine-alert-africa/) in a list of African countries.
+
 ## Advertising Trackers
 
 * [ ] This tool has not been checked for advertising trackers yet.
