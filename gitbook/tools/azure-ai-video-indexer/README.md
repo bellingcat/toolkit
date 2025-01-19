@@ -34,10 +34,6 @@ Users can hover over the time-bar and select areas highlighted in black to see w
 
 Overall, the insight bar shows that 46 people have been observed throughout the video. A user can follow the above steps for other entities as well.
 
-
-
-<figure><img src=".gitbook/assets/Azure step 3.png" alt=""><figcaption></figcaption></figure>
-
 In a video uploaded by the user, they can edit the name for entities in the insight section, so it's easier to navigate. The option can found on the upper-right corner of the window.
 
 The topics section highlights the subjects mentioned or discussed in the footage. For example, choosing "artificial intelligence" displays its occurrences throughout the footage.&#x20;
@@ -70,13 +66,13 @@ You need to create a Microsoft account for using Microsoft's Azure AI Video Inde
 
 ## Limitations
 
-Like any other tool, Azure AI indexer has its limitations. It doesn’t cover all languages and therefore it may not be useful for all audios and videos. All supported languages are listed [here](https://learn.microsoft.com/en-us/azure/azure-video-indexer/language-support).&#x20;
+Like any other tool, Azure AI indexer has its limitations. It doesn’t cover all languages and therefore it may not be useful for all audios and videos. A list of supported languages can be found [here](https://learn.microsoft.com/en-us/azure/azure-video-indexer/language-support).&#x20;
 
 The facial recognition feature may not work efficiently all the time, for example if the footage is of poor quality or there is bright colouring. Always make sure to double check your findings using other research methods.
 
-It is also important to note that the tool is not able to identify individuals that are visible in videos. It is able to spot if the same individual shows up several times in a video but the open source researcher still has the task to find out who the person is (unless they are celebrities).
+It is also important to note that the tool is not able to identify individuals that are visible in videos. It is able to spot if the same individual shows up several times in a video but the open source researcher still needs to find out who the person is (unless they are a celebrity).
 
-Once a user uploads a video, the tool requires to mark a checkbox that explicitly states: "... that use of any facial recognition functionality in this service is not by or for a police department in the United States..." that I have the rights to use and store the file/data
+If you work for a police department in the United States, you are asked to refrain from using some features. Once a user uploads a video, the tool requires to mark a checkbox that explicitly states: "that use of any facial recognition functionality in this service is not by or for a police department in the United States." In addition, all users need to confirm that they have the rights to use and store the uploaded videos before they use the tool.
 
 ## Ethical Considerations
 
