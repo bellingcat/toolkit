@@ -34,7 +34,9 @@ None.
 
 ## Limitations
 
-The tool has limited information on cases in Latin America.
+The tool does not provide data for countries and parts of the world, for instance there are no data for Latin America, Canada and the northern parts of Africa.
+
+Most of the cases seem to have been added until 2021 and 2022, only few cases are from 2024 or a newer date so far.
 
 ## Ethical Considerations
 
