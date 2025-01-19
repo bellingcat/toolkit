@@ -82,9 +82,7 @@ While Microsoft's Azure AI Video Indexer is able to help with object detection, 
 
 Make sure you have the consent of the entities involved in the footage if possible, especially if the video and audio are being uploaded publicly and it doesn't infringe anyone's privacy rights.
 
-The service before uploading explicitly states to make sure "any facial recognition functionality in this service is not by or for a police department in the United States..."  Read the service's terms and conditions before uploading.
-
-Ethical journalism guidelines can also be helpful in understanding how to use facial recognition functionalities in reporting.
+Ethical journalism guidelines can also be helpful in understanding how to use facial recognition features in reporting. Josephine Lulamae reflects on ethical questions around the use of facial recognition tools in the AlgorithmWatch article: [War Crimes OSINT, Harassment, Doxxing Police and Protesters: Face Recognition for Everyone](https://algorithmwatch.org/en/face-recognition-for-everyone/) (2022).
 
 ## Guides and articles
 
