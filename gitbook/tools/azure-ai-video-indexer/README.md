@@ -14,23 +14,15 @@ Microsoft's Azure AI Video Indexer allows open source researchers to upload vide
 
 Through the use of facial recognition the tool can automatically spot individuals that are showing up several times in a video. This feature can be helpful when analysing footage of crowd-like situations like protests or when working with vast amounts of video material.&#x20;
 
-The Azure AI Video Indexer can also be used to generate transcripts and to translate theminto several languages. In addition, it is able to extract insights like key topics, objects or words that show up several times. This feature can reduce the time that is required to analyse a particular set of videos or audios, for instance from long city hall meetings. The tool is also able to extract text that is visible in a video.
+The Azure AI Video Indexer can also be used to generate transcripts and to translate them into several languages. In addition, it is able to extract insights like key topics, objects or words that show up several times. This feature can reduce the time that is required to analyse a particular set of videos or audios, for instance from long city hall meetings. The tool is also able to extract text that is visible in a video.
 
 ## Steps
 
 After creating an account, upload a file or add a video or audio URL by navigating to the "Library" tab.&#x20;
 
-User can adjust setting to their needs, for instance, by changing the privacy, video source language, and the streaming quality. Navigate to advanced settings for more options.
-
-<figure><img src=".gitbook/assets/Azure step 1.png" alt="" width="563"><figcaption><p>Option to configure before uploading a file</p></figcaption></figure>
-
 The advanced "Indexing Preset" allows users to configure settings to include models that can help extract insights about entities most relevant to analysis. Some features such as face detection require subscription.
 
 <figure><img src=".gitbook/assets/Azure step 2.png" alt=""><figcaption><p>Indexing Preset settings</p></figcaption></figure>
-
-
-
-After the video is uploaded and indexed, select the project to analyze the findings.
 
 ## What the Insight Tab shows
 
@@ -59,12 +51,10 @@ The transcription and translation of the audio/video appears under this section.
 ## Cost
 
 * [ ] Free
-* [x] Partially Free
-* [ ] Paid
+* [ ] Partially Free
+* [x] Paid
 
-The tool is partially free and provides 40 hours of footage/audio analysis.&#x20;
-
-Pricing details [here](https://azure.microsoft.com/en-us/pricing/details/video-indexer/).
+The tool is paid but it provides a [free trial account](https://azure.microsoft.com/en-us/pricing/details/video-indexer/#pricing) which allows to work with up to 10 hours of videos (40 for API users). Pricing details can be found [here](https://azure.microsoft.com/en-us/pricing/details/video-indexer/).
 
 ## Level of difficulty
 
