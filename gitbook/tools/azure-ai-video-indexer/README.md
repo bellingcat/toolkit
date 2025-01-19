@@ -80,9 +80,7 @@ While Microsoft's Azure AI Video Indexer is able to help with object detection, 
 
 ## Ethical Considerations
 
-Make sure you have the consent of the entities involved in the footage if possible, especially if the video and audio are being uploaded publicly and it doesn't infringe anyone's privacy rights.
-
-Ethical journalism guidelines can also be helpful in understanding how to use facial recognition features in reporting. Josephine Lulamae reflects on ethical questions around the use of facial recognition tools in the AlgorithmWatch article: [War Crimes OSINT, Harassment, Doxxing Police and Protesters: Face Recognition for Everyone](https://algorithmwatch.org/en/face-recognition-for-everyone/) (2022).
+Ethical considerations include privacy concerns. Ethical journalism guidelines can be helpful in understanding how to use facial recognition features in your reporting. For instance, Poynter developed a [starter kit](https://www.poynter.org/ethics-trust/2024/how-to-create-newsroom-artificial-intelligence-ethics-policy/) for an AI ethics policy for newsrooms. You might also want to read Josephine Lulamae's reflections on the ethical use of facial recognition tools in the AlgorithmWatch article: [War Crimes OSINT, Harassment, Doxxing Police and Protesters: Face Recognition for Everyone](https://algorithmwatch.org/en/face-recognition-for-everyone/) (2022).
 
 ## Guides and articles
 
