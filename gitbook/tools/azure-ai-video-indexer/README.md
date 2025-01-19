@@ -62,15 +62,15 @@ The tool is paid but it provides a [free trial account](https://azure.microsoft.
 
 ## Requirements
 
-Microsoft Entra ID, personal Microsoft account or Google ID is required for using the service.
+You need to create a Microsoft account for using Microsoft's Azure AI Video Indexer.&#x20;
 
 ## Limitations
 
-Like any other tool, Azure AI indexer has its limitations. It doesn’t cover all languages, so it may not be useful for all audios and videos.
+Like any other tool, Azure AI indexer has its limitations. It doesn’t cover all languages and therefore it may not be useful for all audios and videos.
 
-Facial recognition may not work efficiently all the time, for example if the footage is of poor quality or there is bright coloring, etc. Make sure to double check your findings using other tools and additional reporting.
+The facial recognition feature may not work efficiently all the time, for example if the footage is of poor quality or there is bright colouring. Always make sure to double check your findings using other research methods.
 
-When the file is ready to upload, the service requires to mark a checkbox that explicitly states: "... that the use of any facial recognition functionality in this service is not by or for a police department in the United States..."&#x20;
+Once a user uploads a video, the tool requires to mark a checkbox that explicitly states: "... that the use of any facial recognition functionality in this service is not by or for a police department in the United States..."&#x20;
 
 ## Ethical Considerations
 
