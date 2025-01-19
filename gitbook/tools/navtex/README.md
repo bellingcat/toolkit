@@ -8,11 +8,11 @@ description: >-
 
 ## URL
 
-https://www.navtex.net
+**https://www.navtex.net**
 
 ## Description
 
-NAVTEX (Navigational Telex) is an international automated medium frequency (MF) direct-printing service used for broadcasting maritime safety information. It provides vital navigational and meteorological warnings, forecasts, and urgent maritime safety information to ships. NAVTEX operates under the Global Maritime Distress and Safety System (GMDSS) and is a key component of ensuring safe navigation at sea.
+NAVTEX (Navigational Telex) is an international automated medium frequency (MF) direct-printing service used for broadcasting maritime safety information. It provides vital navigational and meteorological warnings, forecasts, and urgent maritime safety information to ships. NAVTEX operates under the Global Maritime Distress and Safety System (GMDSS) and is a key component of ensuring safe navigation at sea. Navtex.net is an archive that dates back to December 2012 and which records all NAVTEX broadcasts.&#x20;
 
 #### Key Features of NAVTEX
 
@@ -26,6 +26,7 @@ NAVTEX (Navigational Telex) is an international automated medium frequency (MF) 
    * NAVTEX messages include navigational warnings (such as changes to navigational aids, new hazards, and construction), meteorological warnings (weather forecasts and warnings), search and rescue information, and other urgent safety information.
 4. **Standardized Format**:
    * Messages are standardized and use a specific format that includes a header with identifiers for the transmitting station, message type, and a unique identifier to prevent duplication.
+   * The navtex.net homepage also includes a guide on how to read the standardised format that the messages are written in.
 5. **Scheduled Broadcasts**:
    * NAVTEX messages are broadcast at regular intervals, typically every four hours, ensuring that ships receive timely updates.
 
@@ -57,7 +58,7 @@ In summary, NAVTEX is a crucial communication tool in the maritime industry, pro
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+The website appears to have gone some time without being updated, this may result in slow or unintuitive features as well as unexpected errors. In addition, the NAVTEX archive data pieces are stored in individual .txt files, which may make them difficult to search through.&#x20;
 
 ## Ethical Considerations
 
@@ -73,11 +74,11 @@ In summary, NAVTEX is a crucial communication tool in the maritime industry, pro
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer  |
+| ---------------- |
+| ForgottenPidgeon |
+|                  |
