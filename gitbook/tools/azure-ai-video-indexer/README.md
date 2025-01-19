@@ -68,11 +68,11 @@ You need to create a Microsoft account for using Microsoft's Azure AI Video Inde
 
 Like any other tool, Azure AI indexer has its limitations. It doesn’t cover all languages and therefore it may not be useful for all audios and videos. A list of supported languages can be found [here](https://learn.microsoft.com/en-us/azure/azure-video-indexer/language-support).&#x20;
 
-The facial recognition feature may not work efficiently all the time, for example if the footage is of poor quality or there is bright colouring. Always make sure to double check your findings using other research methods.
+The facial recognition feature may not work efficiently all the time, for example if the footage is of poor quality or there is bright colouring. Always make sure to double check your findings using other research methods.&#x20;
 
-It is also important to note that the tool is not able to identify individuals that are visible in videos. It is able to spot if the same individual shows up several times in a video but the open source researcher still needs to find out who the person is (unless they are a celebrity).
+Once a user uploads a video, the tool requires to mark a checkbox that explicitly states: "that use of any facial recognition functionality in this service is not by or for a police department in the United States." In addition, all users need to confirm that they have the rights to use and store the uploaded videos before they use the tool.
 
-If you work for a police department in the United States, you are asked to refrain from using some features. Once a user uploads a video, the tool requires to mark a checkbox that explicitly states: "that use of any facial recognition functionality in this service is not by or for a police department in the United States." In addition, all users need to confirm that they have the rights to use and store the uploaded videos before they use the tool.
+It is also important to note that the tool is not able to identify individuals. It is able to spot if the same individual shows up several times in a video but the open source researcher still needs to find out who the person is (unless they are a celebrity).
 
 ## Ethical Considerations
 
