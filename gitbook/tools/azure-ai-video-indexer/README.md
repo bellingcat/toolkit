@@ -14,13 +14,13 @@ Microsoft's Azure AI Video Indexer allows open source researchers to upload vide
 
 Through the use of facial recognition the tool can automatically spot individuals that are showing up several times in a video. This feature can be helpful when analysing footage of crowd-like situations like protests or when working with vast amounts of video material.&#x20;
 
-The Azure AI Video Indexer can also be used to generate transcripts and to translate those transcripts into several languages. In addition, it is able to extract insights like key topics, objects or words that show up several times. This feature can reduce the time that is required to analyse a particular set of videos or audios, for instance from long city hall meetings.&#x20;
+The Azure AI Video Indexer can also be used to generate transcripts and to translate theminto several languages. In addition, it is able to extract insights like key topics, objects or words that show up several times. This feature can reduce the time that is required to analyse a particular set of videos or audios, for instance from long city hall meetings. The tool is also able to extract text that is visible in a video.
 
 ## Steps
 
-After creating an account, upload a video or audio by navigating to the "Library" tab.&#x20;
+After creating an account, upload a file or add a video or audio URL by navigating to the "Library" tab.&#x20;
 
-Videos/audios from local device, or a link can be added for file upload. User can adjust setting to their needs, for instance, by changing the privacy, video source language, and the streaming quality. Navigate to advanced settings for more options.
+User can adjust setting to their needs, for instance, by changing the privacy, video source language, and the streaming quality. Navigate to advanced settings for more options.
 
 <figure><img src=".gitbook/assets/Azure step 1.png" alt="" width="563"><figcaption><p>Option to configure before uploading a file</p></figcaption></figure>
 
@@ -28,15 +28,13 @@ The advanced "Indexing Preset" allows users to configure settings to include mod
 
 <figure><img src=".gitbook/assets/Azure step 2.png" alt=""><figcaption><p>Indexing Preset settings</p></figcaption></figure>
 
-When the file is ready to upload, the service requires to mark a checkbox that explicitly states: "... that the use of any facial recognition functionality in this service is not by or for a police department in the United States..."&#x20;
 
-<figure><img src=".gitbook/assets/Azure step 3.png" alt=""><figcaption></figcaption></figure>
 
 After the video is uploaded and indexed, select the project to analyze the findings.
 
-We used a sample video by Microsoft, in this case “Foundation Models and Tooling - Satya Nadella at Microsoft Ignite 2023,” to avoid privacy and copyright violations.
-
 ## What the Insight Tab shows
+
+We used a sample video by Microsoft, in this case “Foundation Models and Tooling - Satya Nadella at Microsoft Ignite 2023,” to avoid privacy and copyright violations.
 
 From the above-mentioned video we can see three people have prominently appeared throughout the video. “Jensen Huang” has appeared the most (42.1% of video). Azure provides details about prominent figures who get identified in the footage.&#x20;
 
@@ -81,6 +79,8 @@ Microsoft Entra ID, personal Microsoft account or Google ID is required for usin
 Like any other tool, Azure AI indexer has its limitations. It doesn’t cover all languages, so it may not be useful for all audios and videos.
 
 Facial recognition may not work efficiently all the time, for example if the footage is of poor quality or there is bright coloring, etc. Make sure to double check your findings using other tools and additional reporting.
+
+When the file is ready to upload, the service requires to mark a checkbox that explicitly states: "... that the use of any facial recognition functionality in this service is not by or for a police department in the United States..."&#x20;
 
 ## Ethical Considerations
 
