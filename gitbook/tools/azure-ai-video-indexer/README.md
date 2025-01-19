@@ -70,7 +70,7 @@ You need to create a Microsoft account for using Microsoft's Azure AI Video Inde
 
 ## Limitations
 
-Like any other tool, Azure AI indexer has its limitations. It doesn’t cover all languages and therefore it may not be useful for all audios and videos.
+Like any other tool, Azure AI indexer has its limitations. It doesn’t cover all languages and therefore it may not be useful for all audios and videos. All supported languages are listed [here](https://learn.microsoft.com/en-us/azure/azure-video-indexer/language-support).&#x20;
 
 The facial recognition feature may not work efficiently all the time, for example if the footage is of poor quality or there is bright colouring. Always make sure to double check your findings using other research methods.
 
