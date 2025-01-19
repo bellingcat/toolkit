@@ -46,9 +46,7 @@ There can be various objects that occur in the footage. This service provides in
 
 Similarly, we can see “keywords,” “labels,” “emotions,” and much more under the “insight” section.
 
-## Timeline section
-
-The transcription and translation of the audio/video appears under this section. Azure provides translation and identification of languages in 50 languages. See more details [here](https://learn.microsoft.com/en-us/azure/azure-video-indexer/transcription-translation-lid-insight). On the top right corner, click on the globe icon and select a language of your choice. Language can also be changed in the video and can appear as closed subtitles.
+The transcription and translation of the audio/video appears under the timeline section. Azure provides translation and identification of languages in 50 languages. See more details [here](https://learn.microsoft.com/en-us/azure/azure-video-indexer/transcription-translation-lid-insight). On the top right corner, click on the globe icon and select a language of your choice. Language can also be changed in the video and can appear as closed subtitles.
 
 ## Cost
 
@@ -64,7 +62,7 @@ The tool is paid but it provides a [free trial account](https://azure.microsoft.
 
 ## Requirements
 
-You need to create a Microsoft account for using Microsoft's Azure AI Video Indexer.&#x20;
+You need to create a Microsoft account for using the Azure AI Video Indexer.&#x20;
 
 ## Limitations
 
