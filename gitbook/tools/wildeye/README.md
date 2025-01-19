@@ -10,9 +10,9 @@ description: Tracking tool for data on environmental and wildlife crime cases wo
 
 ## Description
 
-This tool allows you to search for seizures, arrests, court cases and convictions related to the environment, wildlife trade and trade in wildlife-related goods worldwide. It contains five versions: #WildEye Global, #WildEye Europe, #WildEye Asia, #WildEye Southern Africa and #WildEye East Africa. You can search in the particular region you are interested in or all of them. Using a keyword of your choice and search operators if you need them, you will get results located on a map, indicating where each event took place. You can view the names, place of arrest/seizure, dates, articles, route, court case numbers, charges, sentences, among other features of each case. You can also subscribe to receive updates on cases you find interesting and the site will notify you by email.
+This tool allows you to search for seizures, arrests, court cases and convictions related to the environment, wildlife trade and trade in wildlife-related goods worldwide. It contains five versions: #WildEye Global, #WildEye Europe, #WildEye Asia, #WildEye Southern Africa and #WildEye East Africa. You can search in the particular region you are interested in or in all of them. Using a keyword of your choice and search operators needed, you will get results located on a map, indicating where each event took place. You can view the names, places of arrest/seizure, dates, routes, court case numbers, charges, sentences, among other features of each case. You can also subscribe to receive updates on cases you find interesting and the site will notify you by email about changes.
 
-For example, if you search the word “donkeys,” you will get all cases worldwide (or by region if you choose to search the other four versions available) involving this species, including cases where donkeys were found along with other species or commodities. This is very useful for cross-investigations.
+For example, if you search for the word “donkeys,” you will get all cases worldwide (or by region if you choose to search the other four versions available) involving this species, including cases where donkeys were found along with other species or commodities. This is very useful for cross-investigations.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-12-20 at 7.03.48 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -30,13 +30,13 @@ It is possible to contribute and add data to this tool by submitting this [form]
 
 ## Requirements
 
-None.
+None
 
 ## Limitations
 
-The tool does not provide data for countries and parts of the world, for instance there are no data for Latin America, Canada and the northern parts of Africa.
+The tool does not provide data for all countries and parts of the world, for instance there is no data for Latin America, Canada and the northern parts of Africa.
 
-Most of the cases seem to have been added until 2021 and 2022, only few cases are from 2024 or a newer date so far.
+Most of the cases seem to have been added until 2021 and 2022, only few cases are from 2024 or a newer date.
 
 ## Ethical Considerations
 
