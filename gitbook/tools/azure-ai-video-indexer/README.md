@@ -34,6 +34,10 @@ Users can hover over the time-bar and select areas highlighted in black to see w
 
 Overall, the insight bar shows that 46 people have been observed throughout the video. A user can follow the above steps for other entities as well.
 
+
+
+<figure><img src=".gitbook/assets/Azure step 3.png" alt=""><figcaption></figcaption></figure>
+
 In a video uploaded by the user, they can edit the name for entities in the insight section, so it's easier to navigate. The option can found on the upper-right corner of the window.
 
 The topics section highlights the subjects mentioned or discussed in the footage. For example, choosing "artificial intelligence" displays its occurrences throughout the footage.&#x20;
@@ -70,7 +74,9 @@ Like any other tool, Azure AI indexer has its limitations. It doesn’t cover al
 
 The facial recognition feature may not work efficiently all the time, for example if the footage is of poor quality or there is bright colouring. Always make sure to double check your findings using other research methods.
 
-Once a user uploads a video, the tool requires to mark a checkbox that explicitly states: "... that the use of any facial recognition functionality in this service is not by or for a police department in the United States..."&#x20;
+It is also important to note that the tool is not able to identify individuals that are visible in videos. It is able to spot if the same individual shows up several times in a video but the open source researcher still has the task to find out who the person is.
+
+Once a user uploads a video, the tool requires to mark a checkbox that explicitly states: "... that use of any facial recognition functionality in this service is not by or for a police department in the United States..." that I have the rights to use and store the file/data
 
 ## Ethical Considerations
 
