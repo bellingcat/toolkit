@@ -74,6 +74,8 @@ Once a user uploads a video, the tool requires to mark a checkbox that explicitl
 
 It is also important to note that the tool is not able to identify individuals. It is able to spot if the same individual shows up several times in a video but the open source researcher still needs to find out who the person is (unless they are a celebrity).
 
+While Microsoft's Azure AI Video Indexer is able to help with object detection, the supported objects are still limited. Find a list of all supported objects [here](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight).
+
 ## Ethical Considerations
 
 Make sure you have the consent of the entities involved in the footage if possible, especially if the video and audio are being uploaded publicly and it doesn't infringe anyone's privacy rights.
