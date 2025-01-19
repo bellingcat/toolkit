@@ -74,7 +74,7 @@ Like any other tool, Azure AI indexer has its limitations. It doesn’t cover al
 
 The facial recognition feature may not work efficiently all the time, for example if the footage is of poor quality or there is bright colouring. Always make sure to double check your findings using other research methods.
 
-It is also important to note that the tool is not able to identify individuals that are visible in videos. It is able to spot if the same individual shows up several times in a video but the open source researcher still has the task to find out who the person is.
+It is also important to note that the tool is not able to identify individuals that are visible in videos. It is able to spot if the same individual shows up several times in a video but the open source researcher still has the task to find out who the person is (unless they are celebrities).
 
 Once a user uploads a video, the tool requires to mark a checkbox that explicitly states: "... that use of any facial recognition functionality in this service is not by or for a police department in the United States..." that I have the rights to use and store the file/data
 
