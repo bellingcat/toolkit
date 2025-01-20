@@ -18,7 +18,7 @@ To use the tool, you just need to upload an image of your choice. Under the sear
 
 The Open Library search feature lets users compare book covers from its archives with an uploaded picture. As a project by the Internet Archive, [Open Library ](https://openlibrary.org/)catalogs and creates web pages for books. Anyone can create an account and contribute to the catalog.
 
-RootAbout also provides details about an image's [metadata](https://rootabout.com/faq.php#What%20is%20RootAbout) after conducting the search, including its type, dimensions, creator, image type, the year it was published by its creator and its description. It also informs the user if the result is a strong match.
+RootAbout also provides details about image [metadata](https://rootabout.com/faq.php#What%20is%20RootAbout) after conducting the search, including its type, dimensions, creator, image type, the year it was published by its creator and its description. It also informs the user if the result is a strong match.
 
 ## Internet Archive Search
 
