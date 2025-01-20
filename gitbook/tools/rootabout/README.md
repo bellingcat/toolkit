@@ -44,9 +44,9 @@ To test this feature, we uploaded the cover of [Ghost Wars](https://en.wikipedia
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-19 at 4.34.53 PM.png" alt=""><figcaption><p>The top result for the book cover of Ghost Wars using the Open Library Archive</p></figcaption></figure>
 
-The search indicates that the top result is a “strong match". The description notes this book edition, as carried by Open Library, was published in 2008 (note the original version was published in 2004). It states that the file size is 31,842 bytes and provides a link to Open Library’s [webpage](https://openlibrary.org/books/OL24251547M/Ghost_Wars) for the book.&#x20;
+The search indicates that the top result is a “strong match". The description notes this book edition was published in 2008 (note the original version was published in 2004). It states that the file size is 31,842 bytes and it provides a link to Open Library’s [webpage](https://openlibrary.org/books/OL24251547M/Ghost_Wars) for the book.&#x20;
 
-**Note**: This search also yielded a second “fair match” result. The publication date for this [version](https://openlibrary.org/books/OL7361460M/Ghost_Wars) is 2004, which strongly suggests that RootAbout pulls all the available versions it has indexed from Open Library.&#x20;
+**Note**: This search also yielded a second “fair match” result. The publication date for this [version](https://openlibrary.org/books/OL7361460M/Ghost_Wars) is 2004, which shows that RootAbout can pull various versions of the same book that it has indexed from Open Library.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-19 at 4.49.28 PM.png" alt=""><figcaption><p>The second result shown by RootAbout</p></figcaption></figure>
 
@@ -62,7 +62,7 @@ The search indicates that the top result is a “strong match". The description 
 
 ## Requirements
 
-The images must be in[ JPEG or PNG](https://rootabout.com/faq.php#What%20can%20I%20upload) format.  However, your web browser usually converts other formats into PNG if you upload a picture.&#x20;
+The images must be in[ JPEG or PNG](https://rootabout.com/faq.php#What%20can%20I%20upload) format. However, your web browser usually converts other formats into PNG if you upload a picture.&#x20;
 
 ## Limitations
 
