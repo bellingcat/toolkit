@@ -36,7 +36,7 @@ None
 
 The tool does not provide data for all countries and parts of the world, for instance there is no data for Latin America, Canada and the northern parts of Africa.
 
-Most of the cases seem to have been added until 2021 and 2022, only few cases are from 2024 or a newer date.
+Most of the cases seem to have been added until 2021 and 2022, only few cases are from 2024 or from a newer date.
 
 ## Ethical Considerations
 
