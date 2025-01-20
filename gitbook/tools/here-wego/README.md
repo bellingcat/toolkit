@@ -1,7 +1,7 @@
 ---
 description: >-
-  More recent satellite imagery from places like Afghanistan and Iran than
-  Google has.
+  Sattelite imagery tool that can serve as an alternative to Google or Apple
+  Maps.
 ---
 
 # HERE WeGo
@@ -66,11 +66,13 @@ Here WeGo is a powerful navigation tool, particularly strong in offline capabili
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+The tool does not require you to sign in to use it. However, there are certain functions that require you to sign in. These include saving locations in a "collection". \
+\
+Registering for an account can be done via Facebook or with an email address. The latter option also requests a name, birth date and a country or region.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+Unlike some other sattelite imagery tools, Here WeGo does not appear to indicate the date of the images it displays. Nor does it offer different chronological options, which may be limiting for researchers looking to assign a specific time to an image.&#x20;
 
 ## Ethical Considerations
 
@@ -82,15 +84,15 @@ Here WeGo is a powerful navigation tool, particularly strong in offline capabili
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+The tool is created and maintained by an entity named Here Technologies. They are a Dutch multinational headquartered in Amsterdam that is majority owned by a consortium of German automotive companies. The entity's core business revolves around lisencing mapping content to other companies. Here Technologies was created after a 2012 rebranding of what was formerly Nokia Maps.
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer  |
+| ---------------- |
+| ForgottenPidgeon |
+|                  |
