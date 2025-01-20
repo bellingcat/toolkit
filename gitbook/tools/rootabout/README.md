@@ -12,13 +12,13 @@ description: >-
 
 ## Description
 
-RootAbout is a reverse image search tool that compares an uploaded image with images from the Internet Archive. It has over [37.3 million pictures](https://rootabout.com/faq.php#What%20has%20RootAbout%20indexed) from Internet Archive collections indexed. However, it does not host photos from the Internet Archive itself. RootAbout also has an Open Library search feature.
+RootAbout is a reverse image search tool that compares an uploaded image with images from the Internet Archive. It has over [37.3 million pictures](https://rootabout.com/faq.php#What%20has%20RootAbout%20indexed) from Internet Archive collections indexed but it does not host any photos itself.&#x20;
 
 To use the tool, you just need to upload an image of your choice. Under the search option, click on “Internet Archive.” Sometimes, this search option doesn’t work. You can go to the advanced search tab to adjust the size, flip and rotate the image and try again.
 
-The Open Library search feature lets users search and compare books (its covers) from its archives. As a project by the Internet Archive, Open Library catalogs and creates web pages for books. Anyone can create an account and contribute to the catalog.
+The Open Library search feature lets users search and compare books (its covers) from its archives. As a project by the Internet Archive, [Open Library ](https://openlibrary.org/)catalogs and creates web pages for books. Anyone can create an account and contribute to the catalog.
 
-A useful RootAbout feature is that it provides details about the result image's [metadata](https://rootabout.com/faq.php#What%20is%20RootAbout) after conducting the search, including its type, dimensions, creator, image type, the year it was published by its creator and its description. It also informs the user if the result is a strong match.
+Another RootAbout feature is that it provides details about the result image's [metadata](https://rootabout.com/faq.php#What%20is%20RootAbout) after conducting the search, including its type, dimensions, creator, image type, the year it was published by its creator and its description. It also informs the user if the result is a strong match.
 
 ## Internet Archive Search
 
