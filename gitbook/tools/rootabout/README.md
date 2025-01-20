@@ -58,7 +58,7 @@ The search indicates that the top result is a “strong match". The description 
 
 ## Requirements
 
-The images must be in[ JPEG or PNG](https://rootabout.com/faq.php#What%20can%20I%20upload) format. However, your web browser usually converts other formats into PNG if you upload a picture.&#x20;
+The images must be in[ JPEG or PNG](https://rootabout.com/faq.php#What%20can%20I%20upload) format. However, your web browser automatically converts other formats into PNG if you upload a picture.&#x20;
 
 ## Limitations
 
