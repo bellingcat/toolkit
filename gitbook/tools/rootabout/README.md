@@ -22,9 +22,7 @@ RootAbout also provides details about an image's [metadata](https://rootabout.co
 
 ## Internet Archive Search
 
-**Version 1:** To test the tool, we uploaded the image “Doradus Nebula” from NASA's Hubble Space [collection](https://hubblesite.org/contents/media/images/2001/21/1080-Image.html) (internet Archive version [here](https://archive.org/details/NIX-PIA04200)). The image is shown below:
-
-**Version 2**: To test the tool, we uploaded the image “Doradus Nebula” from NASA's Internet [Archive](https://archive.org/details/NIX-PIA04200) Collection. The image is shown below:
+To test the tool, we uploaded the image “Doradus Nebula” from NASA's Hubble Space [collection](https://hubblesite.org/contents/media/images/2001/21/1080-Image.html) (internet Archive version [here](https://archive.org/details/NIX-PIA04200)). The image is shown below:
 
 <figure><img src=".gitbook/assets/root 5.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
