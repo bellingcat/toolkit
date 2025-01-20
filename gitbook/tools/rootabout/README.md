@@ -12,23 +12,45 @@ description: >-
 
 ## Description
 
-RootAbout is a reverse image search tool that compares an uploaded image with images from the Internet Archive. It has over [37.3 million pictures](https://rootabout.com/faq.php#What%20has%20RootAbout%20indexed) from Internet Archive collections indexed. However, it does not host photos from the Internet Archive itself.
+RootAbout is a reverse image search tool that compares an uploaded image with images from the Internet Archive. It has over [37.3 million pictures](https://rootabout.com/faq.php#What%20has%20RootAbout%20indexed) from Internet Archive collections indexed. However, it does not host photos from the Internet Archive itself. RootAbout also has an Open Library search feature.
 
 To use the tool, you just need to upload an image of your choice. Under the search option, click on “Internet Archive.” Sometimes, this search option doesn’t work. You can go to the advanced search tab to adjust the size, flip and rotate the image and try again.
 
-ADD A SECTION ABOUT THE OPENLIBRARY FEATURE HERE
+The Open Library search feature lets users search and compare books (its covers) from its archives. As a project by the Internet Archive, Open Library catalogs and creates web pages for books. Anyone can create an account and contribute to the catalog.
 
-A useful RootAbout feature is that it provides details about the result image's [metadata](https://rootabout.com/faq.php#What%20is%20RootAbout) after conducting the search, including its type, dimensions, creator, image type, and the year it first appeared, and its description. It also informs the user if the result is a strong match.
+A useful RootAbout feature is that it provides details about the result image's [metadata](https://rootabout.com/faq.php#What%20is%20RootAbout) after conducting the search, including its type, dimensions, creator, image type, the year it was published by its creator and its description. It also informs the user if the result is a strong match.
 
-To test the tool, we uploaded the image “Doradus Nebula” from a NASA collection. The image is shown below:
+## Internet Archive Search
+
+**Version 1:** To test the tool, we uploaded the image “Doradus Nebula” from NASA's Hubble Space [collection](https://hubblesite.org/contents/media/images/2001/21/1080-Image.html) (internet Archive version [here](https://archive.org/details/NIX-PIA04200)). The image is shown below:
+
+**Version 2**: To test the tool, we uploaded the image “Doradus Nebula” from NASA's Internet [Archive](https://archive.org/details/NIX-PIA04200) Collection. The image is shown below:
 
 <figure><img src=".gitbook/assets/root 5.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 The search provided three results. The first result is shown here:&#x20;
 
-<figure><img src=".gitbook/assets/Root About search result.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Root About search result.png" alt=""><figcaption><p>Top-most result by RootAbout</p></figcaption></figure>
+
+This result informs us that it is a “strong match,” suggesting the image is a near or an exact match of the result from the WayBack Machine. RootAbout provides metadata for a specific result, which is unique to and can also be found for each result on the Internet Archive. For instance, the RootAbout description states this image was published in 2003, which is also stated on the Internet Archive’s [page](https://archive.org/details/NIX-PIA04200). It is owned/created by “NASA/Jet Propulsion Laboratory (NASA-JPL)." Finally, the size is 374,356 bytes and its unique identifier is "NIX-PIA04200."
+
+RootAbout displays all versions of the image it has indexed from the Wayback Machine. In this case, the second result which is also a strong match, was [published](https://archive.org/details/PLAN-PIA04200) in 2001.
+
+<figure><img src=".gitbook/assets/Screenshot 2025-01-19 at 6.25.42 PM.png" alt=""><figcaption><p>Second result for Doradus Nebula</p></figcaption></figure>
 
 **Important note**: Apart from a few exceptions, RootAbout does not work with [photos from the Wayback Machine](https://rootabout.com/faq.php#What%20has%20RootAbout%20indexed). For instance, we tested the images [here](https://archive.org/details/dr_future-map-of-the-world-10902000), [here](https://archive.org/details/speed-1970_20220823_1758), and [here](https://archive.org/details/contact_fingerlakes1_5381) and did not get any results. This limitation, along with other shortcomings of the tool, will be discussed in the **Limitation** section.
+
+## **Open Library search**
+
+To test this feature, we uploaded the cover of [Ghost](https://www.penguinrandomhouse.com/books/292947/ghost-wars-by-steve-coll/) Wars by Steve Coll. The search yielded two results, the top-most result is shown below:&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2025-01-19 at 4.34.53 PM.png" alt=""><figcaption><p>Top-most result using the Open Library Archive</p></figcaption></figure>
+
+The search indicates that the top result is a “strong match". The description notes this book edition, as carried by Open Library, was published in 2008 (note the original version was published in 2004). It states that the file size is 31,842 bytes and provides a link to Open Library’s [webpage](https://openlibrary.org/books/OL24251547M/Ghost_Wars) for the book.&#x20;
+
+**Note**: This search also yielded a second “fair match” result. The publication date for this [version](https://openlibrary.org/books/OL7361460M/Ghost_Wars) is 2004, which strongly suggests that RootAbout pulls all the available versions it has indexed from Open Library.&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2025-01-19 at 4.49.28 PM.png" alt=""><figcaption><p>Second result shown by RootAbout</p></figcaption></figure>
 
 ## Cost
 
@@ -42,7 +64,7 @@ The search provided three results. The first result is shown here:&#x20;
 
 ## Requirements
 
-The images must be either in JPEG or PNG format.
+The images must be in JPEG or PNG format.  The web interface allows users to upload formats [such](https://rootabout.com/faq.php) as "JPEG, PNG, GIF, TIFF, BMP, and more," which are converted to PNG by a web browser.
 
 ## Limitations
 
@@ -53,7 +75,7 @@ The images must be either in JPEG or PNG format.
 
 ## Ethical Considerations
 
-\-
+Users must know who owns the copyrights of results before using them elsewhere. On its [website](https://rootabout.com/faq.php), RootAbout states: “Each picture's copyright is retained by the original copyright holder. Pictures in the search results are provided by the public collections at the Internet Archive.”
 
 ## Guide
 
