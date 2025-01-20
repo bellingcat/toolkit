@@ -73,7 +73,7 @@ The images must be in[ JPEG or PNG](https://rootabout.com/faq.php#What%20can%20I
 
 ## Ethical Considerations
 
-Users must know who owns the copyrights of results before using them elsewhere. On its [website](https://rootabout.com/faq.php), RootAbout states: “Each picture's copyright is retained by the original copyright holder. Pictures in the search results are provided by the public collections at the Internet Archive.”
+Just like when you are using reverse image search features offered by search engines, you need to check the copyright of any result image that you get from RootAbout. On its [website](https://rootabout.com/faq.php), RootAbout states: “Each picture's copyright is retained by the original copyright holder. Pictures in the search results are provided by the public collections at the Internet Archive.” Be particularly careful when you plan to use pictures from the results list elsewhere.&#x20;
 
 ## Guide
 
