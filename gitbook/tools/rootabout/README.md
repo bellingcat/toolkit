@@ -22,7 +22,7 @@ RootAbout also provides details about an image's [metadata](https://rootabout.co
 
 ## Internet Archive Search
 
-To test the tool, we uploaded the image “Doradus Nebula” from NASA's Hubble Space [collection](https://hubblesite.org/contents/media/images/2001/21/1080-Image.html) (internet Archive version [here](https://archive.org/details/NIX-PIA04200)). The image is shown below:
+To test the tool, we uploaded the image “Doradus Nebula” from NASA's Hubble Space [collection](https://hubblesite.org/contents/media/images/2001/21/1080-Image.html) (Internet Archive version [here](https://archive.org/details/NIX-PIA04200)). The image is shown below:
 
 <figure><img src=".gitbook/assets/root 5.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -30,7 +30,7 @@ The search provided three results. The first result is shown here:&#x20;
 
 <figure><img src=".gitbook/assets/Root About search result.png" alt=""><figcaption><p>Top-most result by RootAbout</p></figcaption></figure>
 
-This result informs us that it is a “strong match,” suggesting the image is a near or an exact match of the result from the WayBack Machine. RootAbout provides metadata for a specific result, which is unique to and can also be found for each result on the Internet Archive. For instance, the RootAbout description states this image was published in 2003, which is also stated on the Internet Archive’s [page](https://archive.org/details/NIX-PIA04200). It is owned/created by “NASA/Jet Propulsion Laboratory (NASA-JPL)." Finally, the size is 374,356 bytes and its unique identifier is "NIX-PIA04200."
+This result informs us that it is a “strong match,” suggesting the image is a near or an exact match with the photo we uploaded. RootAbout provides metadata for its results as found on the Internet Archive. For instance, the RootAbout description states that this image was published in 2003, which is also stated on the Internet Archive’s [page](https://archive.org/details/NIX-PIA04200). It is owned/created by “NASA/Jet Propulsion Laboratory (NASA-JPL)." Finally, the size is 374,356 bytes and its unique identifier is "NIX-PIA04200."
 
 RootAbout displays all versions of the image it has indexed from the Wayback Machine. In this case, the second result which is also a strong match, was [published](https://archive.org/details/PLAN-PIA04200) in 2001.
 
