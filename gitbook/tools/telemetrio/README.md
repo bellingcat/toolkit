@@ -19,28 +19,28 @@ Telemetr.io is a tool that can be useful for journalists and researchers who are
 During testing, the author of this review found that the export of data available in the Advanced Plan (and above) is limited to the catalog list of channels. For most metrics described below, you will need API access, which is not included in the plan. (See below at API.)
 
 Further, in the author's testing, reaching someone regarding a refund was challenging, and canceling the subscription was not a straightforward experience.\
-For most researchers, exporting parts of the catalog will not be helpful, so I would advise you to use Telemetrio for research, you contact the sales team, reference this article, and ask for a price model that covers your specific project. They indicated that while journalists aren't their main source of income, they welcome research being done with their space and might work out a pricing scheme that works well for your needs.&#x20;
+Make sure to test the capabilities of the different plans to test which plan you require or contact the sales team to ask for a tailored plan.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
-While the free service provides mainly the same data as the paid plans, it is severely restricted in the number of channels you can observe (5). Since you can only log in via Gmail or Telegram, creating a dedicated login account makes sense when you first try out the tool.&#x20;
+While the free service provides mainly the same data as the paid plans, it is severely restricted in the number of channels you can observe. Since you can only log in via Gmail or Telegram, creating a dedicated login account makes sense when you first try out the tool.
 {% endhint %}
 
 Features:
 
 * Global Channel Search and Ranking
-* Channel Advertising Effectiveness metrics&#x20;
-* Channel Quoting analysis&#x20;
-* Channel Publication Analysis&#x20;
-* Channel Audience Overview&#x20;
-* Channel descriptions history&#x20;
+* Channel Advertising Effectiveness metrics
+* Channel Quoting analysis
+* Channel Publication Analysis
+* Channel Audience Overview
+* Channel descriptions history
 * Event Tracking / Alerts
-* Advertising Post Search&#x20;
-* Advertiser Rankings&#x20;
-* Posts Search&#x20;
+* Advertising Post Search
+* Advertiser Rankings
+* Posts Search
 * API
 
-The examples show the results of a free-tier user account logged in and searching for the term _Bellingcat._ This result page shows Bellingcat's Telegram channel with a number of analytical data points, including subscriber counts across time, post views count, engagement rate, category, etc.&#x20;
+The examples show the results of a free-tier user account logged in and searching for the term _Bellingcat._ This result page shows Bellingcat's Telegram channel with a number of analytical data points, including subscriber counts across time, post views count, engagement rate, category, etc.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-04-20 at 2.35.57 PM.png" alt=""><figcaption><p>Telemtrio example search result depicting the Bellingcat channel.</p></figcaption></figure>
 
@@ -80,7 +80,7 @@ This feature allows users to add channels not listed in the catalog. It ensures 
 
 #### Overview
 
-When looking at an individual channels' landing page, you are presented with several metrics useful for quickly judging a Telegram channel's size, influence, engagement, and activity.&#x20;
+When looking at an individual channels' landing page, you are presented with several metrics useful for quickly judging a Telegram channel's size, influence, engagement, and activity.
 
 <figure><img src=".gitbook/assets/grafik (7).png" alt=""><figcaption><p>The results page of the Bellingcat channel showing several basic metrics. (see details below)</p></figcaption></figure>
 
@@ -150,7 +150,7 @@ Some use-cases:
 
 <figure><img src=".gitbook/assets/grafik (5).png" alt=""><figcaption><p>Advertising effectiveness tab of an "alternative news" channel.</p></figcaption></figure>
 
-The **Advertising Effectiveness tab** provides metrics for understanding a channel's advertising strategies and their impact. Investigating advertising can help trace funding sources or reveal connections between obfuscated networks of channels. Advertising is an aspect of research often worth looking into and a strength of the platform (compared to free or CLI tools).&#x20;
+The **Advertising Effectiveness tab** provides metrics for understanding a channel's advertising strategies and their impact. Investigating advertising can help trace funding sources or reveal connections between obfuscated networks of channels. Advertising is an aspect of research often worth looking into and a strength of the platform (compared to free or CLI tools).
 
 <details>
 
@@ -220,7 +220,7 @@ These metrics allow insights into key questions about the channel's interactions
 
 _Quoting Tab: Repost Graphs and Graphs by Category & GEO_
 
-<figure><img src=".gitbook/assets/grafik (12).png" alt=""><figcaption><p>Reposts and channel mentions of an "alternative news" channel. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/grafik (12).png" alt=""><figcaption><p>Reposts and channel mentions of an "alternative news" channel.</p></figcaption></figure>
 
 <details>
 
@@ -228,7 +228,7 @@ _Quoting Tab: Repost Graphs and Graphs by Category & GEO_
 
 The **"Reposts and channel mentions"** graph shows the daily number of times the channel's content is reposted and the frequency with which others mention the channel. This data can help identify patterns in content dissemination and engagement; spikes in mentions or reposts can correlate with specific events or campaigns.
 
-The **"Mentions by Category"** chart categorizes the context in which the channel is mentioned, with categories such as "Politics", "News & Media", "Religion & Spirituality", and "Other". This helps identify the primary thematic areas where the channel is gaining attention.&#x20;
+The **"Mentions by Category"** chart categorizes the context in which the channel is mentioned, with categories such as "Politics", "News & Media", "Religion & Spirituality", and "Other". This helps identify the primary thematic areas where the channel is gaining attention.
 
 The **"Mentions by GEO"** chart breaks down the geographical distribution of the mentions, indicating the countries where the channel is most frequently referenced. This geographical analysis is vital for understanding the channel's regional influence and reach. For example, a high percentage of mentions in Germany suggests that the channel significantly impacts that region, which can be relevant for regional-specific studies or investigations into localized disinformation efforts.
 
@@ -270,7 +270,7 @@ _Publication Tab: posting time distributions_
 
 <summary>Publication Tab (posting time &#x26; sources) details</summary>
 
-P_**osting Time Distributions**_ displays the frequency of posts over a 24-hour period, highlighting when the channel is most active and revealing the channel's posting schedule.&#x20;
+P\_**osting Time Distributions**\_ displays the frequency of posts over a 24-hour period, highlighting when the channel is most active and revealing the channel's posting schedule.
 
 _**Sources of views:**_ This chart provides a breakdown of where the views on the channel are coming from. However this graph is only available for channel owners.
 
@@ -282,7 +282,7 @@ Analyzing posting times can help identify inauthentic behavior in several ways. 
 
 _Publication Tab: publication analysis_
 
-<figure><img src=".gitbook/assets/grafik (17).png" alt=""><figcaption><p><strong>Publication Analysis metrics table</strong> includes recent posts, publication times, total views, the number of shares, and a graphical representation of how views accumulate over time. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/grafik (17).png" alt=""><figcaption><p><strong>Publication Analysis metrics table</strong> includes recent posts, publication times, total views, the number of shares, and a graphical representation of how views accumulate over time.</p></figcaption></figure>
 
 <details>
 
@@ -298,7 +298,7 @@ _Publication Tab: publication analysis_
 {% hint style="info" %}
 Example use cases:
 
-* **Analyze Content Impact:** Identify which posts have the most views and shares to understand what content resonates most. This can indicate topics of high interest or importance to the audience.&#x20;
+* **Analyze Content Impact:** Identify which posts have the most views and shares to understand what content resonates most. This can indicate topics of high interest or importance to the audience.
 * **Analyze the posting time distributions** to identify peak times for posting, helping to allocate monitoring resources effectively during high-activity periods.
 * Use the sources of views chart to **trace the primary channels through which information spreads**, whether through direct followers, group shares, or external links.
 * Identify the most successful posts regarding views and shares to understand the themes or issues of significant interest, guiding further research or reporting focus.
@@ -308,7 +308,7 @@ Example use cases:
 
 #### Audience Tab
 
-The Audience tab on Telemetr.io provides essential metrics on the demographics, engagement, and behavior of a channel's subscribers.&#x20;
+The Audience tab on Telemetr.io provides essential metrics on the demographics, engagement, and behavior of a channel's subscribers.
 
 {% hint style="danger" %}
 This area is only accessible to channel owners who have subscribed to the service. The values in this tab are example values and will be the same for each channel.
@@ -367,7 +367,7 @@ Telemetr.io offers several tools for monitoring and analyzing Telegram channels:
 1. **Event Tracking:** Follows real-time events on Telegram, allowing users to monitor mentions and other activities related to specific channels.
 2. **Advertising Posts:** Analyzes advertising creatives, providing insights into the content and effectiveness of ads posted on Telegram channels.
 3. **Advertiser Rankings (Beta):** Displays a database of brands that place ads on Telegram, helping users understand the advertising landscape.
-4. **Posts Search (New):** Enables searching for specific words and phrases in Telegram posts, useful for tracking discussions and trends.&#x20;
+4. **Posts Search (New):** Enables searching for specific words and phrases in Telegram posts, useful for tracking discussions and trends.
 5. **TgCleaner (Beta):** Helps clean channels from bots, maintaining the integrity of the channel's audience.
 6. **Joinio:** A bot assistant managing applications to join the channel, facilitating member recruitment and management.
 
@@ -383,19 +383,13 @@ The **word tracking tool** allows users to monitor specific words or phrases wit
 
 <summary>Word Tracking Tool input fields</summary>
 
-* &#x20;**Words or Phrases** lets users input keywords they want to monitor. This enables keyword monitoring to track the spread of information and identify key trends or narratives.
+* **Words or Phrases** lets users input keywords they want to monitor. This enables keyword monitoring to track the spread of information and identify key trends or narratives.
 
-<!---->
-
-* **Where to Look?** offers options to search within channels for public discussions and chats for more private conversations. This dual approach helps capture a broad range of discourse on the specified terms.
-
-<!---->
+- **Where to Look?** offers options to search within channels for public discussions and chats for more private conversations. This dual approach helps capture a broad range of discourse on the specified terms.
 
 * **Minus Word** allows users to exclude certain words from tracking. This helps refine the search by filtering out irrelevant mentions, ensuring more focused data collection.
 
-<!---->
-
-* **Search Scope** provides three options:
+- **Search Scope** provides three options:
 
 1. **In Any Channels or Chats** for a comprehensive search.
 2. **Search in Specific Channels or Chats** to target specific areas.
@@ -412,14 +406,10 @@ The **word tracking tool** allows users to monitor specific words or phrases wit
 <summary>Channels and Chats tracking input fields</summary>
 
 * **Specify the Name of the Channel:** This field allows the user to input the name of the Telegram channel they wish to track.
-* **What Events to Report:**&#x20;
+* **What Events to Report:**
 
-<!---->
-
-* **Mention of the Channel** tracks when the specified channel is mentioned in other channels or chats. Tracking mentions helps in understanding the reach and influence of the channel. It can also identify how and where the channel is being discussed, providing insights into its reputation and impact.
-* **Notify if a Previously Published Post Mentioning the Channel Has Been Deleted** alerts the user if a post that previously mentioned the channel is deleted. Deleted mentions can indicate attempts to hide information or alter the narrative. Monitoring these events can help in investigating potential censorship or manipulation of information.
-
-<!---->
+- **Mention of the Channel** tracks when the specified channel is mentioned in other channels or chats. Tracking mentions helps in understanding the reach and influence of the channel. It can also identify how and where the channel is being discussed, providing insights into its reputation and impact.
+- **Notify if a Previously Published Post Mentioning the Channel Has Been Deleted** alerts the user if a post that previously mentioned the channel is deleted. Deleted mentions can indicate attempts to hide information or alter the narrative. Monitoring these events can help in investigating potential censorship or manipulation of information.
 
 * Where to Look?
 
@@ -430,7 +420,7 @@ The **word tracking tool** allows users to monitor specific words or phrases wit
    * **Explanation:** This option includes mentions within Telegram chats.
    * **Interpretation:** Chats can be private or group conversations where discussions might be more informal or candid. Tracking mentions in chats can provide deeper insights into private opinions and discussions related to the specified channel.
 
-#### Search Scope
+**Search Scope**
 
 1. **In Any Channels or Chats**
    * **Explanation:** This option allows the tool to search for mentions in all channels and chats across Telegram.
@@ -442,7 +432,7 @@ The **word tracking tool** allows users to monitor specific words or phrases wit
    * **Explanation:** This option allows the user to exclude certain channels or chats from the search.
    * **Interpretation:** Excluding specific channels or chats can help in avoiding noise or irrelevant mentions, ensuring that the data collected is focused and relevant to the investigation.
 
-#### Connect Notifications in Telegram
+**Connect Notifications in Telegram**
 
 **Explanation:** This option allows the user to receive notifications about mentions directly in the Telegram bot.
 
@@ -465,7 +455,7 @@ The **word tracking tool** allows users to monitor specific words or phrases wit
 
 ***
 
-#### Advertising Tool&#x20;
+#### Advertising Tool
 
 <figure><img src=".gitbook/assets/grafik (22).png" alt=""><figcaption><p>Comparing Advertisements for "Visa"</p></figcaption></figure>
 
@@ -508,7 +498,7 @@ The results section displays filtered advertisement posts with various metrics a
 
 #### Advertiser Rankings Tool
 
-The advertiser rankings tool allows users to analyze advertising activities on Telegram by ranking advertisers based on various criteria. Users can filter their search by category, specific channels, country, and time period to focus on industry-specific trends, targeted advertising efforts, and geographic-specific strategies. The search results provide detailed metrics for each advertiser, including brand name, total views, mentions, and the number of channels where ads are placed.&#x20;
+The advertiser rankings tool allows users to analyze advertising activities on Telegram by ranking advertisers based on various criteria. Users can filter their search by category, specific channels, country, and time period to focus on industry-specific trends, targeted advertising efforts, and geographic-specific strategies. The search results provide detailed metrics for each advertiser, including brand name, total views, mentions, and the number of channels where ads are placed.
 
 <figure><img src=".gitbook/assets/grafik.png" alt=""><figcaption><p>Advertizer ranking showing the top advertizers in Germany. (Free version is limited to 3 results)</p></figcaption></figure>
 
@@ -553,7 +543,7 @@ This service includes an REST API, allowing users to access data that is program
 
 The API is designed according to the OpenAPI v3 standard, ensuring compatibility with various programming languages. It offers capabilities such as searching for channels, retrieving basic channel information, accessing channel statistics, viewing channel messages, tracking subscriber changes, and analyzing message reach history. Additionally, it provides dictionaries for languages, countries, and categories.
 
-The API is actively developed, with new data and functionalities planned for future updates. Information on all available paid plans can be found [here](https://api.telemetr.io/docs/intro/overview).&#x20;
+The API is actively developed, with new data and functionalities planned for future updates. Information on all available paid plans can be found [here](https://api.telemetr.io/docs/intro/overview).
 
 ## Cost
 
@@ -562,11 +552,11 @@ The API is actively developed, with new data and functionalities planned for fut
 * [ ] Paid
 
 {% hint style="warning" %}
-* The free tier may suffice for basic orientation and initial research. Still, its limitations regarding the number of channels observed, search functions, event tracking, and data export make it unsuitable for most investigations.
-* The Pro tier offers improvements in ad post tracking and audience analytics, making it a starting point for tentative research, but it is still significantly limited.&#x20;
-* The Advanced tier provides extensive search capabilities and data exports, but the export functionality is still minimal.&#x20;
-* The Enterprise tier, with its fully customizable options, is ideal for large-scale, detailed research projects and institutional needs.
-* API access is available to export a limited but larger number of channel metrics, but is priced separately from the main subscriptions. &#x20;
+- The free tier may suffice for basic orientation and initial research. Still, its limitations regarding the number of channels observed, search functions, event tracking, and data export make it unsuitable for most investigations.
+- The Pro tier offers improvements in ad post tracking and audience analytics, making it a starting point for tentative research, but it is still significantly limited.
+- The Advanced tier provides extensive search capabilities and data exports, but the export functionality is still minimal.
+- The Enterprise tier, with its fully customizable options, is ideal for large-scale, detailed research projects and institutional needs.
+- API access is available to export a limited but larger number of channel metrics, but is priced separately from the main subscriptions.
 {% endhint %}
 
 ## Level of difficulty
@@ -585,7 +575,7 @@ The API is actively developed, with new data and functionalities planned for fut
 * **Real-time Data:** While it offers insights and analytics, there will be a delay in data updates, affecting real-time research and monitoring.
 * **API Restrictions:** If you intend to use its free API, you can only access five verified channels, with rate limits of 1000 requests per month and a history of seven days (among other feature limitations).
 * **Geographical Coverage:** Some features or data metrics are not fully available or might not be accurate for Telegram channels or bots that operate in specific regions or languages.
-* **Mis-categorisation:** some channels have been mis-categorised, so ratings by category should not be taken at face value. (This is especially true for the category "facts".)&#x20;
+* **Mis-categorisation:** some channels have been mis-categorised, so ratings by category should not be taken at face value. (This is especially true for the category "facts".)
 
 Researchers should consider these limitations when deciding whether telemetr.io fits their research needs and objectives.
 
@@ -605,7 +595,7 @@ Adhering to these ethical guidelines helps maintain integrity and respect for pr
 
 To effectively use Telemetr.io, especially for beginners or those looking to refine their skills, the following resources are recommended:
 
-**Official Wiki**&#x20;
+**Official Wiki**
 
 * [https://medium.com/@telemetrio](https://medium.com/@telemetrio)
 
@@ -620,11 +610,11 @@ To effectively use Telemetr.io, especially for beginners or those looking to ref
 
 **Community and Support**
 
-* [**Available on Telegram**](https://t.me/+aRqqqRdHIr1mMmZi)&#x20;
+* [**Available on Telegram**](https://t.me/+aRqqqRdHIr1mMmZi)
 
 ## Tool provider
 
-Telemetr.io [https://telemetr.io/en/terms-of-use](https://telemetr.io/en/terms-of-use) -  Estonia
+Telemetr.io [https://telemetr.io/en/terms-of-use](https://telemetr.io/en/terms-of-use) - Estonia
 
 ## Advertising Trackers
 
