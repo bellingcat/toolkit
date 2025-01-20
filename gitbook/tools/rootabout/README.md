@@ -62,7 +62,7 @@ The search indicates that the top result is a “strong match". The description 
 
 ## Requirements
 
-The images must be in JPEG or PNG format.  The web interface allows users to upload formats [such](https://rootabout.com/faq.php) as "JPEG, PNG, GIF, TIFF, BMP, and more," which are converted to PNG by a web browser.
+The images must be in[ JPEG or PNG](https://rootabout.com/faq.php#What%20can%20I%20upload) format.  However, your web browser usually converts other formats into PNG if you upload a picture.&#x20;
 
 ## Limitations
 
