@@ -18,7 +18,9 @@ The Telegram Group Joiner is a web-based automation tool that facilitates the ad
 
 The tool allows preloading of group URLs by appending them to a base URL, separated by semicolons. This automation is executed fully client-side using tdlib for a robust Telegram API experience. It is worth mentioning that the tool only operates client-side, ensuring no data retention on servers.
 
-Github Project: [https://github.com/bellingcat/telegram-group-joiner](https://github.com/bellingcat/telegram-group-joiner)\\
+{% hint style="info" %}
+Be mindful when using this tool. It's easy to add channels, but removal is on you, the user. &#x20;
+{% endhint %}
 
 ## Cost
 
