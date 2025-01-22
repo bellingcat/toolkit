@@ -16,7 +16,7 @@ Click on the name of the tool to view an in-depth description of the tool (if av
 
 On the right hand side of each entry in the tool list is a direct link to the tool website.
 
-You can also download the tool lists for each category [in csv format](https://github.com/bellingcat/toolkit/releases/tag/csv).
+You can also [download this toolkit](https://github.com/bellingcat/toolkit/releases/tag/csv) (or only some of the tool categories) as csv.
 
 This toolkit is still a work-in-progress and the number of available tool descriptions will grow over time. You can read more about the toolkit [here](https://www.bellingcat.com/resources/2024/09/24/bellingcat-online-investigations-toolkit/).
 

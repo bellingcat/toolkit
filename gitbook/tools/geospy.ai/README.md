@@ -22,7 +22,7 @@ As with any AI model, results are not foolproof and should be further corroborat
 * [x] Partially Free
 * [ ] Paid
 
-GeoSpy offers paid access to their API [here](https://api.geospy.ai/), as well as several enterprise solutions.
+GeoSpy offers free (and tiered pricing) access to their API [here](https://api.geospy.ai/).
 
 ## Level of difficulty
 
@@ -31,6 +31,8 @@ GeoSpy offers paid access to their API [here](https://api.geospy.ai/), as well a
 ## Requirements
 
 None for the community edition.
+
+API use: billing information needs to be provided (even for the free version).
 
 ## Limitations
 
@@ -48,7 +50,7 @@ Be aware when handling sensitive information.
 
 ## Guides and articles
 
-GeoSpy API documentation can be found [here](https://dev.geospy.ai/docs/routes#overview), and require a login to access.
+GeoSpy API documentation can be found [here](https://dev.geospy.ai/docs/routes#overview).
 
 ## Tool provider
 

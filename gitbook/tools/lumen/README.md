@@ -53,24 +53,14 @@ Lumen’s overarching goal is to bring **transparency** to the ecosystem of onli
     * Recipient (Google, Vimeo, Medium, or others)
     * Target URLs and reason (e.g. copyright, defamation, trademark)
 
-
-
-
-
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>This is a detailed Lumen Database view of a trademark takedown notice filed by Alternative für Deutschland (AfD) against YouTube content. The screenshot shows key fields (complaint text, notice type, and truncated URLs), along with redactions and links for full details.</p></figcaption></figure>
-
-*   **Contextual metadata:**
-
-    * Date sent/received
-    * Claimed legal grounds (DMCA, local law, court order)
-    * Whether the recipient took action (partial or none)
-
-
-*   **Research Tools:**
-
-    * Searchable indexes and filtering (dates, keywords, notice type)
-
-
+    <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+* **Contextual metadata:**
+  * Date sent/received
+  * Claimed legal grounds (DMCA, local law, court order)
+  * Whether the recipient took action (partial or none)
+* **Research Tools:**
+  * Searchable indexes and filtering (dates, keywords, notice type)
+  * API access for data mining and in-depth analysis
 
 ### Example of a Basic API Query
 
