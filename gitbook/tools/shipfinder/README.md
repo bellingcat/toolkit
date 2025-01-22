@@ -1,7 +1,7 @@
 ---
 description: >-
-  ShipFinder is an application designed to track vessels in real-time across the
-  globe.
+  ShipFinder is an application designed to track vessels in (near) real-time
+  across the globe.
 ---
 
 # ShipFinder
