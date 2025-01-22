@@ -26,8 +26,8 @@ The example below shows some of the features of Logseq including a whiteboard di
 2. **Journaling and Daily Logs**: Daily log pages function as a journaling tool, allowing users to capture ideas and tasks sequentially, ideal for tracking research or investigation timelines.
 3. **Block-Based Structure**: As a block-based outliner, Logseq allows hierarchical organization of notes and content, similar to Roam Research and Notion.
 4. **Bidirectional Linking and Graph Database**: Users can create interconnected notes or "nodes" and view relationships between topics visually in the graph view, which is especially valuable for tracking complex networks.
-5. **Task Management Integration**: Users can assign tasks and monitor progress with built-in task workflows, providing an efficient project management tool within their notes.
-6. **PDF Annotation and Asset Management**: Upload, annotate, and link PDFs directly within Logseq for seamless document handling, an essential feature for researchers with extensive collections of documents.
+5. **Task Management Integration:** Users can assign tasks and monitor progress with built-in task workflows, providing an efficient project management tool within their notes. Built-in task workflows allow users to.
+6. **PDF Annotation and Asset Management: Upload, annotate, and link PDFs directly within Logseq for seamless document handling. This is an essential feature for researchers with extensive document collections.**
 7. **Flexible Querying**: Advanced Boolean queries allow users to retrieve data across notes based on tags, properties, or keywords, enabling powerful search and organizational capabilities.
 8. **Namespace Hierarchies and Custom Properties**: Organize notes hierarchically with namespaces (e.g., "Project/Phase") and custom properties for consistency and streamlined retrieval.
 
@@ -56,9 +56,9 @@ Logseq is suitable for a range of use cases that exploit its unique features, su
 
 ### **Comparisons with Similar Tools**
 
-* **Obsidian**: While Obsidian is a powerful Markdown-based tool, Logseq natively supports outliner functionality without plugins, making it more streamlined for users needing hierarchical organization. Logseq's native graph database and task management integration provides additional structure, especially useful in large projects.
-* **Roam Research**: Both Logseq and Roam focus on bidirectional linking and block-based structure. However, Logseq’s local Markdown storage offers more control over data storage, ensuring users retain full data ownership.
-* **Notion**: Compared to Notion, Logseq offers a more robust, non-linear note structure suited for knowledge mapping and research. Logseq’s task integration and outline functionality cater to users seeking flexible project management within a private, locally-stored environment.
+* [**Obsidian**](https://obsidian.md/): While Obsidian is a powerful Markdown-based tool, Logseq natively supports outliner functionality without plugins, making it more streamlined for users needing hierarchical organization. Logseq's native graph database and task management integration provides additional structure, especially useful in large projects.
+* [**Roam Research**](https://roamresearch.com/): Both Logseq and Roam focus on bidirectional linking and block-based structure. However, Logseq’s local Markdown storage offers more control over data storage, ensuring users retain full data ownership.
+* [**Notion**](https://roamresearch.com/): Compared to Notion, Logseq offers a more robust, non-linear note structure suited for knowledge mapping and research. Logseq’s task integration and outline functionality cater to users seeking flexible project management within a private, locally-stored environment.
 
 Latest changes: [https://github.com/logseq/logseq/releases](https://github.com/logseq/logseq/releases)
 
