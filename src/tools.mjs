@@ -86,7 +86,12 @@ function publishTool(name) {
   fs.writeFileSync(tool.jsonFilePath, toolToJson(json));
 }
 function slugify(toolName) {
-  return toolName.replace(/\s/g, '-').replace(',','').toLowerCase();
+  const safe = toolName
+    .replace(/[<>:"/\\|?*\x00-\x1F]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/,/g, '')
+    .toLowerCase();
+  return safe || 'untitled';
 }
 function createTool(tool, opts={}) {
   const { name, tags } = tool;
