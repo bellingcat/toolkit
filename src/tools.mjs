@@ -95,6 +95,8 @@ function createTool(tool, opts={}) {
   const pathname = `gitbook/tools/${slug}`;
   const json = { draft: true, tags: [] };
 
+  tool.name = tool.name.replace(/[<>:"/\\|?*\x00-\x1F]/g, '');
+
   if (!opts.overwrite && fs.existsSync(pathname)) {
     debug("Tool already exists");
   } else {
