@@ -47,7 +47,7 @@ Once authenticated, you have the following search options:
 
 ## Requirements
 
-Need to install [pipx](https://github.com/pypa/pipx) in your environment, which the download instructions on Ghunt's Github ensures. &#x20;
+Need to install [pipx](https://github.com/pypa/pipx) in your environment; the download instructions on Ghunt's Github asks you to do this as well. &#x20;
 
 ## Limitations
 
