@@ -16,7 +16,7 @@ or
 
 ## Description
 
-Instagram Location Search is a tool that helps users find Instagram location IDs near specified coordinates. It uses Instagram’s API to retrieve location data.
+Instagram Location Search is a tool that helps users find Instagram location IDs near specified coordinates. It uses Instagram's API to retrieve location data.&#x20;
 
 Open-source investigators can use this Python-based command-line tool to get geolocation leads on Instagram's platform or to search for photos or videos of an incident under investigation.&#x20;
 
