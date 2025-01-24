@@ -16,8 +16,6 @@ Additionally, there is an analysis section where you can find different publicat
 
 The ECOSOLVE initiative can be useful for those researching wildlife trade who want to explore online marketplaces and species trade ads. It can be a good place to start looking for patterns and discover the best social networks and online marketplaces to search more thoroughly using other tools.
 
-I have reviewed the November 1st update.
-
 ## Cost
 
 * [x] Free
