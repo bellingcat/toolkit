@@ -61,8 +61,7 @@ All five leak databases can be downloaded as [zip files](https://offshoreleaks.i
 
 For user convenience, the data is converted into multiple CSV files, providing the freedom to explore the dataset on the user's terms. The data is also available as "Neo4j" exported databases. ICIJ provides a [GitHub repository guide](https://github.com/ICIJ/offshoreleaks-data-packages) that explains how to import the data into Neo4j.
 
-\
-Reconciliation API
+## **Reconciliation API**
 
 The reconciliation API requires some API expertise and allows users to match their own datasets against the ICIJ database. The ICIJ webpage provides a detailed guide on how to use this [feature.](https://offshoreleaks.icij.org/docs/reconciliation)&#x20;
 
