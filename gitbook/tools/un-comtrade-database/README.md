@@ -64,9 +64,7 @@ User guides:
 
 UN Comtrade Docs: [User Guide](https://uncomtrade.org/docs-category/user-guide/)
 
-
-
-[https://comtrade.un.org/labs/data-explorer/UserGuide%20UN%20Comtrade%20Analytics.pdf](https://comtrade.un.org/labs/data-explorer/UserGuide%20UN%20Comtrade%20Analytics.pdf)
+UN Comtrade Analytics: [User Guide](https://comtrade.un.org/labs/data-explorer/UserGuide%20UN%20Comtrade%20Analytics.pdf)
 
 Projects that used the tool:
 
