@@ -18,13 +18,9 @@ Blackbird is integrated with [WhatsMyName](https://github.com/WebBreacher/WhatsM
 
 For email address searches, it appears to query the servers of websites maintained by WhatsMyName to determine whether an account has been made with that email address. If the user has a valid account on the service, Blackbird will return a URL of the user profile in the results.&#x20;
 
-Blackbird, like other username enumeration tools such as [Sherlock](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock), checks usernames against its unique collection of sources, resulting in different results for the same username compared to Sherlock. For example, Blackbird covers more NSFW and alternative social media sources (including Gab and Truth Social), while Sherlock has better results in surfacing accounts on mainstream social networks that are currently or were in the past popular, such as Linkedin, ICQ, 9Gag, Letterboxd and similar, as well.
+Blackbird, like other username enumeration tools such as [Sherlock](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock), checks usernames against a unique collection of sources, resulting in different results for the same username compared to Sherlock. For example, Blackbird covers more NSFW and alternative social media sources (including Gab and Truth Social), while Sherlock has better results in surfacing accounts on mainstream social networks that are currently or were in the past popular, such as Linkedin, ICQ, 9Gag, Letterboxd and similar, as well.
 
-<div align="center">
-
-<figure><img src=".gitbook/assets/Screen Shot 2024-06-16 at 2.44.18 PM.png" alt="" width="375"><figcaption><p>Blackbird's list of results for "bellingcat" usernames</p></figcaption></figure>
-
-</div>
+<div align="center"><figure><img src=".gitbook/assets/Screen Shot 2024-06-16 at 2.44.18 PM.png" alt="" width="375"><figcaption><p>Blackbird's list of results for "bellingcat" usernames</p></figcaption></figure></div>
 
 <figure><img src=".gitbook/assets/Screen Shot 2024-06-16 at 2.46.36 PM.png" alt="" width="375"><figcaption><p><a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock">Sherlock</a>'s list of results for "bellingcat" usernames</p></figcaption></figure>
 
