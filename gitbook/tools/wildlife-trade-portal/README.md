@@ -28,8 +28,6 @@ The first is an interactive and visual web platform called TimberStats. This sit
 
 The second is a web tool for visualizing trade data sets as trade flow arrows on a map, called TradeMapper. You can upload your data in CSV format and create interactive maps with the information, which will also help you analyze it. Wider arrows indicate more trade volume and the colored dots show the countries' role along the route. Depending on your location, you will need a VPN in the UK to access it.&#x20;
 
-The second is a web tool for visualizing trade data sets as trade flow arrows on a map, called TradeMapper. These sites are independent, but you must register on the Wildlife Trade Portal to use and explore them.
-
 * [x] Free
 * [ ] Partially Free
 * [ ] Paid
