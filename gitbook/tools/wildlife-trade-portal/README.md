@@ -48,15 +48,13 @@ This site uses media sources and contributions. The ethical challenges this rais
 
 ## Guides and articles
 
-Wildlife Trade Portal: [User Guide](https://www.wildlifetradeportal.org/wildlife-trade-portal-guide.pdf) (pdf)
+Guide:
 
 TimberStats Resources: [Introduction](https://experience.arcgis.com/experience/f334dde3d5bd4f9fb2ba02516bd48c45/page/RESOURCES/).
 
-[https://experience.arcgis.com/experience/f334dde3d5bd4f9fb2ba02516bd48c45/page/RESOURCES/](https://experience.arcgis.com/experience/f334dde3d5bd4f9fb2ba02516bd48c45/page/RESOURCES/)
+Traffic Bulletin: [Updates from the Wildlife Trade Portal](https://www.traffic.org/site/assets/files/13362/portal-updates.pdf) (2020)
 
 [https://trademapper.github.io/trademapper-js/](https://trademapper.github.io/trademapper-js/)
-
-[https://www.traffic.org/site/assets/files/13362/portal-updates.pdf](https://www.traffic.org/site/assets/files/13362/portal-updates.pdf)&#x20;
 
 Articles: [https://www.sciencedirect.com/science/article/pii/S2352340921008076](https://www.sciencedirect.com/science/article/pii/S2352340921008076)&#x20;
 
