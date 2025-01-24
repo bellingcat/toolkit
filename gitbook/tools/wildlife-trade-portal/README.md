@@ -34,7 +34,7 @@ The second is a web tool for visualizing trade data sets as trade flow arrows on
 
 ## Requirements
 
-Access is immediate, but you have to “request an account”. You have to provide your workplace and personal information, plus some details of your work, but you can put “Freelance” in the workplace section and a brief explanation of what you are working on without much details. A confirmation email will be sent and after clicking on it, you are all set.
+Access is immediate, but you have to “request an account”. You have to provide your workplace and personal information, plus some details of your work or you put “Freelance” in the workplace section and a brief explanation of what you are working on. A confirmation email will be sent and after clicking on it, you are all set.
 
 ## Limitations
 
