@@ -108,7 +108,7 @@ To effectively use Google Maps, especially for beginners or those looking to ref
 
 **Video Tutorials**
 
-* _10 Minute Tip: Google Maps for OSINT_ (2020). Available at: [https://www.youtube.com/watch?v=n\_kJJXoLo8I](https://www.youtube.com/watch?v=n\_kJJXoLo8I) (Accessed: 4 April 2024).
+* _10 Minute Tip: Google Maps for OSINT_ (2020). Available at: [https://www.youtube.com/watch?v=n\_kJJXoLo8I](https://www.youtube.com/watch?v=n_kJJXoLo8I) (Accessed: 4 April 2024).
 
 #### Developer Resources
 
@@ -128,8 +128,8 @@ Google [https://about.google/](https://about.google/) - United States
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat Volunteer Team/Unassigned |
-|                                      |
+| Page maintainer |
+| --------------- |
+| Anisa Shabir    |
+|                 |
 
