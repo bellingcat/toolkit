@@ -46,7 +46,7 @@ This site uses media sources and contributions. The ethical challenges this rais
 
 ## Guides and articles
 
-Guides: [https://www.wildlifetradeportal.org/wildlife-trade-portal-guide.pdf](https://www.wildlifetradeportal.org/wildlife-trade-portal-guide.pdf)
+Wildlife Trade Portal: [User Guide](https://www.wildlifetradeportal.org/wildlife-trade-portal-guide.pdf) (pdf)
 
 [https://experience.arcgis.com/experience/f334dde3d5bd4f9fb2ba02516bd48c45/page/RESOURCES/](https://experience.arcgis.com/experience/f334dde3d5bd4f9fb2ba02516bd48c45/page/RESOURCES/)
 
