@@ -52,7 +52,7 @@ To effectively use Autostitch, especially for beginners or those looking to refi
 * _Autostitch Panorama Software Review_ (no date). Available at: [https://www.neopanoramic.com/review/autostitch](https://www.neopanoramic.com/review/autostitch) (Accessed: 18 June 2024).
 * Brown and Lowe (2003) ‘Recognising panoramas’, in _Proceedings Ninth IEEE International Conference on Computer Vision_. _ICCV 2003: 9th International Conference on Computer Vision_, Nice, France: IEEE, pp. 1218–1225 vol.2. Available at: [https://doi.org/10.1109/ICCV.2003.1238630](https://doi.org/10.1109/ICCV.2003.1238630).
 * Brown, M. and Lowe, D.G. (2007) ‘Automatic Panoramic Image Stitching using Invariant Features’, _International Journal of Computer Vision_, 74(1), pp. 59–73. Available at: [https://doi.org/10.1007/s11263-006-0002-3](https://doi.org/10.1007/s11263-006-0002-3).
-* _How To Make a Panorama Photo Tutorial_ (no date). Available at: [https://www.neopanoramic.com/make\_panorama.php](https://www.neopanoramic.com/make\_panorama.php) (Accessed: 18 June 2024).
+* _How To Make a Panorama Photo Tutorial_ (no date). Available at: [https://www.neopanoramic.com/make\_panorama.php](https://www.neopanoramic.com/make_panorama.php) (Accessed: 18 June 2024).
 * _Matthew Alun Brown_ (no date). Available at: [https://mattabrown.github.io/autostitch.html](https://mattabrown.github.io/autostitch.html) (Accessed: 18 June 2024).
 
 **Video Tutorials**
@@ -71,7 +71,7 @@ Licensed by the University of British Columbia (Canada) to multiple companies in
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat Volunteer Team/Unassigned |
-|                                      |
+| Page maintainer |
+| --------------- |
+| Anisa Shabir    |
+|                 |
