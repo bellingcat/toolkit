@@ -12,11 +12,11 @@ description: An open-source tool to search wildlife seizure data worldwide.
 
 This tool helps researchers explore and visualize wildlife trade seizures around the world by filtering by individual incidents or events. You can search by species, countries involved and dates. An advanced search allows you to include incidents involving organized crime and corruption, people, specific locations and taxonomic characteristics of species. As a result you will get charts and visuals that enable you to explore incidents by country, year, taxonomy, commodity type, category (for example, seizure or enforcement action), transport method, trade routes and transit type (airport, road, etc).&#x20;
 
-Have a look at [this user guide (pdf) ](https://www.wildlifetradeportal.org/wildlife-trade-portal-guide.pdf)to get a sense of how the dashboard looks like.&#x20;
-
 You will also see a results page with a list of the incident, a map that locates incidents in the countries involved, and other charts that you can reproduce and modify depending on what you need.
 
-&#x20;or example, you can see the number of people by government involvement over time or the number of incidents by type of transit over time. You can also search for multiple species. In this way, you can find incidents related to each species and incidents related to all the species you are looking for. Results can be exported.
+For example, you can see the number of people by government involvement over time or the number of incidents by type of transit over time. You can also search for multiple species. In this way, you can find incidents related to all the species you are looking for.&#x20;
+
+The results can be exported. Have a look at [this user guide (pdf) ](https://www.wildlifetradeportal.org/wildlife-trade-portal-guide.pdf)to get a sense of how the dashboard looks like.&#x20;
 
 You can contribute to this site by providing the source, the date, the country of the incident, any associated countries on the trade route, any associated species, the type of commodity, and the quantity of commodity of a seizure of which you are aware.
 
