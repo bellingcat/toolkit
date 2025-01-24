@@ -56,9 +56,11 @@ Traffic Bulletin: [Updates from the Wildlife Trade Portal](https://www.traffic.o
 
 [https://trademapper.github.io/trademapper-js/](https://trademapper.github.io/trademapper-js/)
 
-Articles: [https://www.sciencedirect.com/science/article/pii/S2352340921008076](https://www.sciencedirect.com/science/article/pii/S2352340921008076)&#x20;
+Articles:
 
-[https://allafrica.com/stories/202412050130.html](https://allafrica.com/stories/202412050130.html)
+Stringham, C. O. et al.:[ Dataset of seized wildlife and their intended uses](https://www.sciencedirect.com/science/article/pii/S2352340921008076) (2021)
+
+Adam Cruise, AllAfrica: [South Africa is The World's Largest Exporter of Live Tigers](https://allafrica.com/stories/202412050130.html) (2024)
 
 ## Tool provider
 
