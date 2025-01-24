@@ -20,7 +20,7 @@ The results can be exported. Have a look at [this user guide (pdf) ](https://www
 
 You can contribute to this site by providing the source, the date, the country of the incident, any associated countries on the trade route, any associated species, the type of commodity, and the quantity of commodity of a seizure of which you are aware.
 
-There are two other tools within this one. The first is an interactive and visual web platform that provides timber trade data, called TimberStats. The second is a web tool for visualizing trade data sets as trade flow arrows on a map, called TradeMapper. These sites are independent, but you must register on the Wildlife Trade Portal to use and explore them.
+The Wildlife Trade Portal is also connected to two other tools The first is an interactive and visual web platform that provides timber trade data, called TimberStats. The second is a web tool for visualizing trade data sets as trade flow arrows on a map, called TradeMapper. These sites are independent, but you must register on the Wildlife Trade Portal to use and explore them.
 
 The first is an interactive and visual web platform called TimberStats. This site allows you to explore timber trade data from the UN Comtrade database via API. It offers an Annual Trade Statistics Dashboard, where you can explore trade flows around the world and search by products, values, net weight, HS codes among other metrics, and an Annual Trade Discrepancies Dashboard, where you can find inconsistencies in reported trade between two countries.
 
