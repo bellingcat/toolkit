@@ -46,7 +46,7 @@ There are two types of download: classic and plus. In both you will get a docume
 
 ## Requirements
 
-You will have to complete a captcha each time you perform a search, unless you choose to activate a free account using your email or google account directly.
+You will have to complete a captcha each time you perform a search, unless you choose to activate a free account using your e-mail address or a Google account.
 
 ## Limitations
 
