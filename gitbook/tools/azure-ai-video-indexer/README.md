@@ -36,7 +36,7 @@ To use the object detection feature, users can hover over the video progress bar
 
 In our video, the tool identified two objects: A “laptop” which is visible at 0:56 seconds and a clock, which is actually the Bellingcat volunteer community logo, at 1:13 seconds. Most likely, the tool misidentified the logo as a “clock” due to its round shape.
 
-The results show that the volunteers in the video likely discussed 10 topics and the prominent ones are “machine learning” and “artificial intelligence.” Hover over the progress bar on the right to see where it occurs.&#x20;
+The tools also identified "Machine learning" and "Artificial intelligence" as two topics that are discussed in the video. Users can hover over the progress bar on the right hand side to see where exactly those topics were mentioned.
 
 Azure AI indexed 30 keywords from the video. Selecting the keyword “bellingcat staff” shows where this word was mentioned in the video. Clicking on the black spots representing this keyword will take you directly to the exact timestamp in the video. To see this particular keyword being mentioned in sequence, just click "play next" or "play previous" beneath the progress bar under the keyword section on the right.
 
