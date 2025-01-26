@@ -1,16 +1,42 @@
 ---
-description: A brief one line description of this tool
+description: A Firefox add-on for extracting EXIF metadata by right-clicking an image.
 ---
 
 # xIFr
 
 ## URL
 
-https://example.com
+{% embed url="https://addons.mozilla.org/en-US/firefox/addon/xifr/" %}
+Get the add-on on Firefox
+{% endembed %}
+
+{% embed url="https://github.com/StigNygaard/xIFr" %}
+Github Repository
+{% endembed %}
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+xlfr is a Firefox extension designed to extract and display EXIF, IPTC, and XMP metadata from an image by the context menu. These metadata can provide valuable insights on camera settings, timestamps, geolocation (GPS data), copyright information, and editing history. These features are particularly useful for verifying the authenticity of images, understanding their origins, and analyzing their context.
+
+It comes with a "Deep Search" feature that allows to access metadata from images embedded in layers, set as backgrounds, or otherwise blurred or obscured. Geotagged images can also be viewed on OpenStreetMap, Google Maps, Bing Maps, and Flickr.
+
+**EXIF, IPTC, XMP**
+
+* [**EXIF (Exchangeable Image File Format)**](https://en.wikipedia.org/wiki/Exif)**:** Includes technical details about the image, such as camera model, exposure settings, and GPS coordinates (if available).
+* [**IPTC (International Press Telecommunications Council)**](https://en.wikipedia.org/wiki/IPTC_Information_Interchange_Model)**:** Contains information added by users or software, such as titles, captions, copyright details, and keywords.
+* [**XMP (Extensible Metadata Platform)**](https://en.wikipedia.org/wiki/Extensible_Metadata_Platform)**:** An Adobe format used for embedding metadata about the image's editing history, licensing, and other descriptive information.
+
+## How to Use
+
+Right click an image and select "View EXIF data" next to the icon with a camera and a hint bubble.
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>An image metadata can be accessed from the context menu</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>A window will open containing the metadata.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>The Map tab will display the image coordinates if available.</p></figcaption></figure>
+
+**Tip:** Some websites override the browser's default right-click context menu. You can bypass this by holding down the Shift key while right-clicking to access the browser's native context menu.
 
 ## Cost
 
@@ -18,7 +44,7 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+The extension is free and open source.
 
 ## Level of difficulty
 
@@ -26,32 +52,33 @@ https://example.com
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+* Firefox browser
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+* The add-on is only available in Firefox.
+* xIFr primarily supports extracting metadata from JPEG images. When webpages provide multiple image formats (e.g., AVIF, WebP, and JPEG), modern browsers often display non-JPEG formats. However, xIFr attempts to detect and parse metadata from an available JPEG variant of the image when possible.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Metadata can expose sensitive information such as geolocation or device details. Ensure you have the right to access and use this data while respecting privacy rights.
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+{% embed url="https://www.rockland.dk/xIFr/start/" %}
+Introduction to the tool by the developer with images examples.
+{% endembed %}
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Developed and maintained by Stig Nygaard ([Mastodon](https://mastodon.world/@stignygaard)), a developer and photographer from Denmark.
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat volunteer team |
