@@ -85,7 +85,7 @@ Armin Sebastian ([@dessant on GitHub](https://github.com/dessant)) is an EU base
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-The tool itself does not use tracking cookies but the search engines may use them. Be mindful of the search engines privacy policy.
+The tool itself does not use tracking cookies but the archving sites/search engines may use them. Be mindful of the their privacy policies.
 
 | Page maintainer           |
 | ------------------------- |
