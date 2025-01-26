@@ -59,9 +59,7 @@ Metadata can expose sensitive information such as geolocation or device details.
 
 ## Guides and articles
 
-{% embed url="https://www.rockland.dk/xIFr/start/" %}
-Introduction to the tool by the developer with images examples.
-{% endembed %}
+Stig Nygaard (tool developer): XIFr -[ Getting started](https://www.rockland.dk/xIFr/start/)
 
 ## Tool provider
 
