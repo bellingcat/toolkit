@@ -73,7 +73,7 @@ The tool relies on the availability of the linked archiving services.
 
 ## Ethical Considerations
 
-Make sure you have the right to use the selected search engines in your location. Also make sure visiting the archived page doesn't go against the target website's Terms of Services.
+Make sure you have the right to use the selected search engines in your location.&#x20;
 
 ## Tool provider
 
