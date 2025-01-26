@@ -30,10 +30,6 @@ Right click an image and select "View EXIF data" next to the icon with a camera 
 
 A window will open containing the metadata:
 
-
-
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>An image metadata can be accessed from the context menu</p></figcaption></figure>
-
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>A window will open containing the metadata.</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>The Map tab will display the image coordinates if available.</p></figcaption></figure>
