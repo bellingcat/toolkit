@@ -81,4 +81,4 @@ Developed and maintained by Stig Nygaard ([Mastodon](https://mastodon.world/@sti
 
 | Page maintainer           |
 | ------------------------- |
-| Bellingcat volunteer team |
+| Bellingcat Volunteer Team |
