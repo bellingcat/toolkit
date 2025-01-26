@@ -55,7 +55,7 @@ The extension is free and open source.
 
 ## Ethical Considerations
 
-Metadata can expose sensitive information such as geolocation or device details. Ensure you have the right to access and use this data while respecting privacy rights.
+Metadata can expose sensitive information such as location data or device details. Make sure to respect privacy rights.
 
 ## Guides and articles
 
