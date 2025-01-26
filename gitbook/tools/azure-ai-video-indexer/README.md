@@ -28,30 +28,46 @@ The advanced "Indexing presets" allows users to configure settings to include mo
 
 ## What the Insight Tab shows
 
-We used a sample video by Microsoft, in this case “Foundation Models and Tooling - Satya Nadella at Microsoft Ignite 2023,” to avoid privacy and copyright violations.
+We[ uploaded](https://www.youtube.com/watch?v=-Y3GQ6mSGqM) the video "Presenting: The Bellingcat Online Open Source Investigations Toolkit" to Azure AI indexer (download it first). The video stars volunteer members at Bellingcat's Global Authentication Project, who explain the new Bellingcat toolkit and its exciting features for the open-source community.
 
-From the above-mentioned video we can see three people have prominently appeared throughout the video. “Jensen Huang” has appeared the most (42.1% of video). Azure provides details about prominent figures who get identified in the footage.&#x20;
+The tool identified two objects from the video: a “laptop” and a “clock”. The laptop appears at timestamp 0:56 till 1:04. Users can hover over the video progress bar and click on the black spot that indicates where the object is. Similarly, a clock, which is actually the Bellingcat volunteer community's logo, round in shape, can be seen at timestamp 1:13 to 1:16. The tool indexed the logo as a “clock” due to its round shape, which is an imperfect but near identification of object and its shape.
 
-Users can hover over the time-bar and select areas highlighted in black to see where this person appears throughout the footage or simply press “play next” to see it in sequence.
+<figure><img src=".gitbook/assets/Screenshot 2025-01-26 at 12.05.15 AM.png" alt=""><figcaption><p>Objects and topics extracted from the footage</p></figcaption></figure>
 
-Overall, the insight bar shows that 46 people have been observed throughout the video. A user can follow the above steps for other entities as well.
+The results show that the volunteers in the video likely discussed 10 topics and the prominent ones are “machine learning” and “artificial intelligence.” Hover over the progress bar on the right to see where it occurs.&#x20;
 
-In a video uploaded by the user, they can edit the name for entities in the insight section, so it's easier to navigate. The option can found on the upper-right corner of the window.
+Azure AI indexed 30 keywords from the video. Selecting the keyword “bellingcat staff” shows where this word was mentioned in the video. Clicking on the black spots representing this keyword will take you directly to the exact timestamp in the video. To see this particular keyword being mentioned in sequence, just click "play next" or "play previous" beneath the progress bar under the keyword section on the right.
 
-The topics section highlights the subjects mentioned or discussed in the footage. For example, choosing "artificial intelligence" displays its occurrences throughout the footage.&#x20;
+<figure><img src=".gitbook/assets/Keywords screenshot.png" alt=""><figcaption><p>Red circles indicate where the keyword occurs. Green rectangles indicates that clicking on the black spot on the progress bar takes you the corresponding timestamp in the video</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Azure 4.png" alt=""><figcaption><p>Overview of the Insights section</p></figcaption></figure>
+The most important feature of the tool is its ability to extract entities from the footage. The tool has identified and indexed three individuals who mentioned their names in the video: Fraser, Laura, and Afton. On progress bar on the right, you can select a name to see where that person appears throughout the footage. Here’s the visual:
 
-There can be various objects that occur in the footage. This service provides insights according to what’s found in the footage.
+<figure><img src=".gitbook/assets/Screenshot 2025-01-25 at 9.49.09 PM.png" alt=""><figcaption><p>Entities extracted from the footage</p></figcaption></figure>
 
-Similarly, we can see “keywords,” “labels,” “emotions,” and much more under the “insight” section.
+{% hint style="warning" %}
+While the tool has successfully indexed all three people in the initial moments in this example, it hasn’t done so for the latter half. This could be because the video is short, or changes in [facial expressions](https://www.researchgate.net/publication/374738467_Face_Recognition_Challenges_and_Solutions_using_Machine_Learning), head poses, or occlusion might have prevented the technology from effective indexing. See how this can be improved by [consulting](https://learn.microsoft.com/en-us/azure/azure-video-indexer/face-grouping-how-to?utm_source=chatgpt.com) [resources](https://learn.microsoft.com/en-us/azure/azure-video-indexer/customize-person-model-how-to?tabs=customizewebportal) [provided](https://learn.microsoft.com/en-us/azure/azure-video-indexer/customize-person-model-how-to?tabs=customizewebportal) by Microsoft.
+{% endhint %}
 
-The transcription and translation of the audio/video appears under the timeline section. Azure provides translation and identification of languages in 50 languages. See more details [here](https://learn.microsoft.com/en-us/azure/azure-video-indexer/transcription-translation-lid-insight). On the top right corner, click on the globe icon and select a language of your choice. Language can also be changed in the video and can appear as closed subtitles.
+Other entities include "brands." It has identified GitHub, and tools like Google Maps from the toolkit interface shown in the footage. If any references about the entities are incorrect, details under the **Insights** tab can edited. Tap the edit icon (a pencil) in the top right corner to make changes.
 
-## Cost
+One can also view the emotions appearing in the video. For instance, the tool shows us that this entire video has 2.17% of joy. Select the identified area on the progress bar to see where different emotions appear. Finally, “13 scenes” appear in the footage.
+
+<figure><img src=".gitbook/assets/Screenshot 2025-01-25 at 11.07.51 PM.png" alt=""><figcaption><p>Emotions appearing in the footage</p></figcaption></figure>
+
+If the Insight section is crowded, users can use filters by selecting or deselection various options highlighted below:
+
+<figure><img src=".gitbook/assets/Screenshot 2025-01-26 at 12.00.51 AM.png" alt=""><figcaption></figcaption></figure>
+
+## Timeline Section
+
+This section helps in capturing quotes in sequence from the footage and getting translations in the preferred language. The tool supports translation into multiple languages; see more details[ here](https://learn.microsoft.com/en-us/azure/azure-video-indexer/language-support). For accuracy, make sure you review the translation. If you are not familiar with the language, cross-check it with experts for verification. Captions in the timeline can also be edited by selecting the pencil icon in the top-right corner. The image below shows the translation of English captions from the footage into Urdu (click on the globe icon for more translation options):
+
+<figure><img src=".gitbook/assets/Screenshot 2025-01-25 at 11.34.04 PM.png" alt=""><figcaption></figcaption></figure>
+
+Findings can also be downloaded as four options: insights (JSON), artifacts (ZIP), source video, and closed captions.
 
 * [ ] Free
-* [ ] Partially Free
+* [x] Partially Free
 * [x] Paid
 
 The tool is paid but it provides a [free trial account](https://azure.microsoft.com/en-us/pricing/details/video-indexer/#pricing) which allows to work with up to 10 hours of videos (40 for API users). Pricing details can be found [here](https://azure.microsoft.com/en-us/pricing/details/video-indexer/).
@@ -62,23 +78,27 @@ The tool is paid but it provides a [free trial account](https://azure.microsoft.
 
 ## Requirements
 
-You need to create a Microsoft account for using the Azure AI Video Indexer.&#x20;
+You need to create a Microsoft account or sign up through Google for using the Azure AI Video Indexer.&#x20;
 
 ## Limitations
 
 Like any other tool, Azure AI indexer has its limitations. It does not cover all languages and therefore it may not be useful for all audios and videos. A list of supported languages can be found [here](https://learn.microsoft.com/en-us/azure/azure-video-indexer/language-support).&#x20;
 
-The facial recognition feature may not work efficiently all the time, for example if the footage is of poor quality or there is bright colouring. Always make sure to double check your findings using other research methods.&#x20;
+The facial recognition feature may not work efficiently all the time, for example if the footage is of poor [quality](https://www.researchgate.net/publication/374738467_Face_Recognition_Challenges_and_Solutions_using_Machine_Learning) (low resolution) or there is bright coloring. Always make sure to double check your findings using other research methods.&#x20;
 
 Once a user uploads a video, the tool requires to mark a checkbox that explicitly states: "that use of any facial recognition functionality in this service is not by or for a police department in the United States." In addition, all users need to confirm that they have the rights to use and store the uploaded videos before they use the tool.
 
-It is also important to note that the tool is not able to identify individuals. It is able to spot if the same individual shows up several times in a video but the open source researcher still needs to find out who the person is (unless they are a celebrity).
+<figure><img src=".gitbook/assets/Screenshot 2025-01-26 at 12.20.25 AM.png" alt=""><figcaption><p>Checking a box before uploading the video</p></figcaption></figure>
+
+It is also important to note that the tool is not able to identify individuals. It is able to spot if the same [individual](https://learn.microsoft.com/en-us/azure/azure-video-indexer/face-detection-insight) shows up several times in a video but the open source researcher still needs to find out who the person is (unless they are a celebrity).
 
 While Microsoft's Azure AI Video Indexer is able to help with object detection, the supported objects are still limited. Find a list of all supported objects [here](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight).
 
 ## Ethical Considerations
 
 Ethical considerations include privacy concerns. Ethical journalism guidelines can be helpful in understanding how to use facial recognition features in your reporting. For instance, Poynter developed a [starter kit](https://www.poynter.org/ethics-trust/2024/how-to-create-newsroom-artificial-intelligence-ethics-policy/) for an AI ethics policy for newsrooms. You might also want to read Josephine Lulamae's reflections on the ethical use of facial recognition tools in the AlgorithmWatch article: [War Crimes OSINT, Harassment, Doxxing Police and Protesters: Face Recognition for Everyone](https://algorithmwatch.org/en/face-recognition-for-everyone/) (2022).
+
+See "Six principles to guide Microsoft’s facial recognition work" [here](https://blogs.microsoft.com/on-the-issues/2018/12/17/six-principles-to-guide-microsofts-facial-recognition-work/).
 
 ## Guides and articles
 
