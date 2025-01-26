@@ -24,7 +24,13 @@ Geotagged images can be viewed on OpenStreetMap, [Google Maps](https://bellingca
 
 ## How to Use
 
-Right click an image and select "View EXIF data" next to the icon with a camera and a hint bubble.
+Right click an image and select "View EXIF data" next to the icon with a camera and a hint bubble:
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+A window will open containing the metadata:
+
+
 
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>An image metadata can be accessed from the context menu</p></figcaption></figure>
 
