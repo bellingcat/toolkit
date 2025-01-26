@@ -12,7 +12,9 @@ description: A Firefox add-on for extracting EXIF metadata by right-clicking an 
 
 xlfr is a Firefox extension designed to extract and display EXIF, IPTC, and XMP metadata from an image. These metadata can provide valuable insights on camera settings, timestamps, location (GPS data), copyright information, and editing history. If available, metadata can be useful for verifying the authenticity of images, understanding their origins, and analyzing their context.
 
-xIfr comes with a "Deep Search" feature that allows to access metadata from images embedded in layers, set as backgrounds, or otherwise blurred or obscured. Geotagged images can also be viewed on OpenStreetMap, Google Maps, Bing Maps, and Flickr.
+xIfr comes with a "Deep Search" feature that allows to access metadata from images embedded in layers, set as backgrounds, or otherwise blurred or obscured.&#x20;
+
+Geotagged images can be viewed on OpenStreetMap, [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps), [Bing Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/bing-maps), and Flickr.
 
 **EXIF, IPTC, XMP**
 
