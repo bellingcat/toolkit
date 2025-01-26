@@ -36,7 +36,7 @@ If GPS data are available, the tool will show you the location on a map:
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>The Map tab will display the image coordinates if available.</p></figcaption></figure>
 
-**Tip:** Some websites override the browser's default right-click context menu. You can bypass this by holding down the Shift key while right-clicking to access the browser's native context menu.
+**Tip:** Some websites override the browser's default right-click context menu. You can [bypass this by holding down the Shift key while right-clicking](https://github.com/StigNygaard/xIFr) to access the browser's native context menu.
 
 ## Cost
 
