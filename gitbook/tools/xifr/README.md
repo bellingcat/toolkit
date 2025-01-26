@@ -10,7 +10,7 @@ description: A Firefox add-on for extracting EXIF metadata by right-clicking an 
 
 ## Description
 
-xlfr is a Firefox extension designed to extract and display EXIF, IPTC, and XMP metadata from an image. These metadata can provide valuable insights on camera settings, timestamps, location (GPS data), copyright information, and editing history. These features are particularly useful for verifying the authenticity of images, understanding their origins, and analyzing their context.
+xlfr is a Firefox extension designed to extract and display EXIF, IPTC, and XMP metadata from an image. These metadata can provide valuable insights on camera settings, timestamps, location (GPS data), copyright information, and editing history. If available, metadata can be useful for verifying the authenticity of images, understanding their origins, and analyzing their context.
 
 It comes with a "Deep Search" feature that allows to access metadata from images embedded in layers, set as backgrounds, or otherwise blurred or obscured. Geotagged images can also be viewed on OpenStreetMap, Google Maps, Bing Maps, and Flickr.
 
