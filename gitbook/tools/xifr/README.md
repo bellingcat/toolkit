@@ -6,13 +6,7 @@ description: A Firefox add-on for extracting EXIF metadata by right-clicking an 
 
 ## URL
 
-{% embed url="https://addons.mozilla.org/en-US/firefox/addon/xifr/" %}
-Get the add-on on Firefox
-{% endembed %}
-
-{% embed url="https://github.com/StigNygaard/xIFr" %}
-Github Repository
-{% endembed %}
+[https://addons.mozilla.org/en-US/firefox/addon/xifr/](https://addons.mozilla.org/en-US/firefox/addon/xifr/) | [https://github.com/StigNygaard/xIFr](https://github.com/StigNygaard/xIFr)
 
 ## Description
 
