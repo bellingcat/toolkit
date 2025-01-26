@@ -20,13 +20,13 @@ You can start searches directly from the context menu or the browser toolbar. By
 
 ## How to use
 
-### Fetch the current page archives from the extension menu
+### Fetch the archives of a current page from the extension menu
 
 Open the extension menu and select the desired engine. This will open a new tab with the results.
 
 <figure><img src=".gitbook/assets/demo (3).gif" alt=""><figcaption><p>You can also fetch on all engines simultaneously</p></figcaption></figure>
 
-### Fetch a linked page archive using the context menu
+### Fetch the archives for a link using the context menu
 
 If your target is a link available in the current page, you can right-click on the link, select "Web Archives" context menu and then select the desired engine.
 
