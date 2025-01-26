@@ -32,9 +32,9 @@ We uploaded the video ["Presenting: The Bellingcat Online Open Source Investigat
 
 To use the object detection feature, users can hover over the video progress bar and click on the black spot that indicates where one of the objects that is known by the tool has been found.&#x20;
 
-In our video, the tool identified two objects: A “laptop” which is visible at 0:56 seconds and a clock, which is actually the Bellingcat volunteer community logo, at 1:13 seconds. Most likely, the tool misidentified the logo as a “clock” due to its round shape.
-
 <figure><img src=".gitbook/assets/Screenshot 2025-01-26 at 12.05.15 AM.png" alt=""><figcaption><p>Objects and topics extracted from the footage</p></figcaption></figure>
+
+In our video, the tool identified two objects: A “laptop” which is visible at 0:56 seconds and a clock, which is actually the Bellingcat volunteer community logo, at 1:13 seconds. Most likely, the tool misidentified the logo as a “clock” due to its round shape.
 
 The results show that the volunteers in the video likely discussed 10 topics and the prominent ones are “machine learning” and “artificial intelligence.” Hover over the progress bar on the right to see where it occurs.&#x20;
 
