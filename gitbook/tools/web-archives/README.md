@@ -85,6 +85,6 @@ The tool itself does not use tracking cookies but the search engines may use the
 
 | Page maintainer           |
 | ------------------------- |
-| Bellingcat volunteer team |
+| Bellingcat Volunteer Team |
 |                           |
 
