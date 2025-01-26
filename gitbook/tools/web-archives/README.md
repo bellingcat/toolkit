@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Web Archives is a browser extension that allows you to view archived and cached versions of web pages on multiple search engines such as Wayback Machine and archive.is. You can start searches directly from the context menu or the browser toolbar. By integrating multiple services into one interface, it saves time and enhances efficiency during online investigations.
+Web Archives is a browser extension that allows you to view archived and cached versions of web pages on multiple search engines such as [Wayback Machine](https://bellingcat.gitbook.io/toolkit/more/all-tools/internet-archive) and [archive.today](https://bellingcat.gitbook.io/toolkit/more/all-tools/archive.today). You can start searches directly from the context menu or the browser toolbar. By integrating multiple services into one interface, it saves time and enhances efficiency during online investigations.
 
 **Example use case:** You are investigating a website that frequently updates its content or might remove sensitive pages. Web Archives enables you to quickly check archived versions from different platforms to track changes or retrieve deleted content.
 
