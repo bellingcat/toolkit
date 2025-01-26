@@ -77,7 +77,7 @@ Make sure you have the right to use the selected search engines in your location
 
 ## Tool provider
 
-Armin Sebastian ([@dessant on GitHub](https://github.com/dessant)) is an EU based developer specializing in open source browser extensions that enhance user experience and accessibility.
+Armin Sebastian ([@dessant on GitHub](https://github.com/dessant)) is an EU based developer specializing in open source browser extensions.
 
 ## Advertising Trackers
 
