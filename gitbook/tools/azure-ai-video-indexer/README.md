@@ -40,9 +40,9 @@ In addition, the tool identified "Machine learning" and "Artificial intelligence
 
 <figure><img src=".gitbook/assets/Keywords screenshot.png" alt=""><figcaption><p>The red circles indicate where the keyword occurs. The green rectangles indicate that clicking on the black box in the progress bar takes you the corresponding timestamp in the video.</p></figcaption></figure>
 
-The most important feature of the tool is its ability to extract entities from the footage. The tool has identified and indexed three individuals who mentioned their names in the video: Fraser, Laura, and Afton. On progress bar on the right, you can select a name to see where that person appears throughout the footage. Here’s the visual:
+A highly relevant feature of the tool is its ability to extract faces from the footage. In our example, the tool has identified and indexed three individuals who mentioned their names in the video: Fraser, Laura, and Afton. On progress bar on the right, you can select a name to see where that person appears throughout the footage:
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-25 at 9.49.09 PM.png" alt=""><figcaption><p>Entities extracted from the footage</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-01-25 at 9.49.09 PM.png" alt=""><figcaption><p>The tool is able to extract individual people from the footage.</p></figcaption></figure>
 
 {% hint style="warning" %}
 While the tool has successfully indexed all three people in the initial moments in this example, it hasn’t done so for the latter half. This could be because the video is short, or changes in [facial expressions](https://www.researchgate.net/publication/374738467_Face_Recognition_Challenges_and_Solutions_using_Machine_Learning), head poses, or occlusion might have prevented the technology from effective indexing. See how this can be improved by [consulting](https://learn.microsoft.com/en-us/azure/azure-video-indexer/face-grouping-how-to?utm_source=chatgpt.com) [resources](https://learn.microsoft.com/en-us/azure/azure-video-indexer/customize-person-model-how-to?tabs=customizewebportal) [provided](https://learn.microsoft.com/en-us/azure/azure-video-indexer/customize-person-model-how-to?tabs=customizewebportal) by Microsoft.
