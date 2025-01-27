@@ -36,7 +36,7 @@ Access is immediate, but you have to “request an account”. You have to provi
 
 ## Limitations
 
-This site uses media sources and contributions, also aproximates (date ranges, for example). This site may be a good place to start researching, but you may have trouble checking how official the data is. It is advisable to search for original sources from the results provided on this site.
+This site uses media sources and contributions, also aproximates (date ranges, for example). This site may be a good place to start researching, but you may have trouble checking how official the data is. It is advisable to search for original sources from the results provided on this site. All information is obtained from open sources and there is no information about the fact checking process.
 
 ## Ethical Considerations
 
