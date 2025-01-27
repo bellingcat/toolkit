@@ -28,7 +28,7 @@ The advanced "Indexing presets" allow users to configure settings to include mod
 
 ## What the Insight Tab shows
 
-To test the tool, we uploaded the video ["Presenting: The Bellingcat Online Open Source Investigations Toolkit"](https://www.youtube.com/watch?v=-Y3GQ6mSGqM). The video stars Bellingcat volunteers who explain the new Bellingcat toolkit and its features to the open source researcher community.
+To test the tool, we uploaded the video ["Presenting: The Bellingcat Online Open Source Investigations Toolkit"](https://www.youtube.com/watch?v=-Y3GQ6mSGqM). The video stars Bellingcat volunteers who present the new Bellingcat toolkit and its features to the open source researcher community.
 
 To use the object detection feature, users can hover over the video progress bar and click on the black boxes that indicate where objects that the tool is able to recognize have been found.&#x20;
 
@@ -36,7 +36,7 @@ To use the object detection feature, users can hover over the video progress bar
 
 In our video, the tool identified two objects: A “laptop” which is visible at 0:56 seconds and a clock, which is actually the Bellingcat volunteer community logo, at 1:13 seconds. Most likely, the tool misidentified the logo as a “clock” due to its round shape.
 
-In addition, the tool identified "Machine learning" and "Artificial intelligence" as two topics that are discussed (see on the screenshot above) and indexed 30 keywords that are mentioned in the video (see below). Selecting the keyword “bellingcat staff” shows where exactly this word was mentioned in the video. Users can then click on the black spots on the progress bar that are representing the exact timestamp of this keyword in the video this keyword. To see this particular keyword being mentioned in sequence, just click "play next" or "play previous" beneath the progress bar under the keyword section on the right.
+In addition, the tool identified "Machine learning" and "Artificial intelligence" as two topics that are discussed in the video. It also indexed 30 keywords that are mentioned in the video (see on the screenshot below). Selecting the keyword “bellingcat staff” shows where exactly this word was mentioned: Users can click on the black boxes on the progress bar to be brought to the exact timestamp of when the keyword is mentioned. To see this particular keyword being mentioned in sequence, just click "play next" or "play previous" beneath the progress bar under the keyword section on the right.
 
 <figure><img src=".gitbook/assets/Keywords screenshot.png" alt=""><figcaption><p>Red circles indicate where the keyword occurs. Green rectangles indicates that clicking on the black spot on the progress bar takes you the corresponding timestamp in the video</p></figcaption></figure>
 
