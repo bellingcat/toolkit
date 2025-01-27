@@ -40,7 +40,7 @@ None.
 
 ## Limitations
 
-Not all species are available and the tool only shows results for Brazil and South Africa. September 2024 was the last update and information is not updated automatically. Information in datasets is not very detailed.&#x20;
+Not all species are available and the tool only shows results for Brazil, South Africa and Thailand. November 2024 was the last update and information is not updated automatically. Information in datasets is not very detailed.&#x20;
 
 ## Ethical Considerations
 
