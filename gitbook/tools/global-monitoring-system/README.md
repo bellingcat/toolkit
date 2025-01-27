@@ -52,7 +52,7 @@ None found.
 
 ## Tool provider
 
-EU’s Global Illicit Flows programme (GIFP) and the Global Initiative against Transnational Organized Crime (GI TOC).
+EU’s Global Illicit Flows programme (GIFP) and the Global Initiative against Transnational Organized Crime (GI TOC), headquartered in Geneva, Switzerland.
 
 ## Advertising Trackers
 
