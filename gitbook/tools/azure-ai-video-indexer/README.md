@@ -14,7 +14,7 @@ Microsoft's Azure AI Video Indexer allows open source researchers to upload vide
 
 Through the use of facial recognition the tool can automatically spot individuals who appear several times throughout a video. This feature can be helpful when analysing footage of crowd-like situations like protests or when working with vast amounts of video material.&#x20;
 
-Azure AI Video Indexer can also be used to generate and translate transcripts into several languages. In addition, it is able to extract insights like key topics or words from a video. This feature can reduce the time that is required to analyse a particular set of videos or audios, for instance from long city hall meetings.&#x20;
+Azure AI Video Indexer can also be used to generate and translate transcripts into several languages. In addition, it is able to extract insights like key topics or words from videos. This feature can reduce the time that is required to analyse a particular set of videos or audios, for instance from long city hall meetings.&#x20;
 
 Other features that might be useful for open source researchers are its ability to extract text in videos ([optical character recognition](https://learn.microsoft.com/en-us/azure/azure-video-indexer/ocr-insight)) and object detection. For instance, the tool is able to detect [airplanes, cars, traffic lights or fire hydrants.](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight)
 
@@ -28,9 +28,9 @@ The advanced "Indexing presets" allow users to configure settings to include mod
 
 ## What the Insight Tab shows
 
-We uploaded the video ["Presenting: The Bellingcat Online Open Source Investigations Toolkit"](https://www.youtube.com/watch?v=-Y3GQ6mSGqM) to the Azure AI Video Indexer. The video stars Bellingcat volunteers who explain the new Bellingcat toolkit and its features to the open source researcher community.
+To test the tool, we uploaded the video ["Presenting: The Bellingcat Online Open Source Investigations Toolkit"](https://www.youtube.com/watch?v=-Y3GQ6mSGqM). The video stars Bellingcat volunteers who explain the new Bellingcat toolkit and its features to the open source researcher community.
 
-To use the object detection feature, users can hover over the video progress bar and click on the black spot that indicates where one of the objects that is known by the tool has been found.&#x20;
+To use the object detection feature, users can hover over the video progress bar and click on the black boxes that indicate where objects that the tool is able to recognize have been found.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-26 at 12.05.15 AM.png" alt=""><figcaption><p>Objects and topics extracted from the footage</p></figcaption></figure>
 
