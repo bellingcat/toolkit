@@ -28,9 +28,9 @@ The advanced "Indexing presets" allow users to configure settings to include mod
 
 ## What the Insight Tab shows
 
-To test the tool, we uploaded the video ["Presenting: The Bellingcat Online Open Source Investigations Toolkit"](https://www.youtube.com/watch?v=-Y3GQ6mSGqM). The video stars Bellingcat volunteers who present the new Bellingcat toolkit and its features to the open source researcher community.
+To test the tool, we uploaded the video ["Presenting: The Bellingcat Online Open Source Investigations Toolkit"](https://www.youtube.com/watch?v=-Y3GQ6mSGqM). The video stars Bellingcat volunteers who present the Bellingcat toolkit to the open source researcher community.
 
-To use the object detection feature, users can hover over the video progress bar and click on the black boxes that indicate where objects that the tool is able to recognize have been found.&#x20;
+To use the object detection feature of the Video Indexer, users can hover over the video progress bar and click on the black boxes that indicate where objects (from the list of the objects the tool knows) have been found.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-26 at 12.05.15 AM.png" alt=""><figcaption><p>Objects and topics extracted from the footage</p></figcaption></figure>
 
