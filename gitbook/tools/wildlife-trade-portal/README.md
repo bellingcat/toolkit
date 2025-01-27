@@ -40,7 +40,7 @@ This site uses media sources and contributions, also aproximates (date ranges, f
 
 ## Ethical Considerations
 
-This site uses media sources such as local newsrooms and NGO's and contributions from anyone interested. The ethical challenges this raises must be determined by each user, taking into account for what and by whom the data will be used.
+This site uses media sources such as local news (for example, this seizure in [India](https://starofmysore.com/attempt-to-sell-pangolin-scales-govt-school-teacher-held/amp/)) and NGO's articles (for example, this seizure in [Uganda](https://ugandawildlife.org/news/chinese-nationals-arrested-for-wildlife-trafficking/)), as well as [contributions](https://www.wildlifetradeportal.org/upload). The ethical challenges this raises must be determined by each user, taking into account for what and by whom the data will be used.
 
 ## Guides and articles
 
