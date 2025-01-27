@@ -1,5 +1,5 @@
 ---
-description: Illicit online wildlife markets data from Brazil and South Africa.
+description: Illicit online wildlife markets data from Brazil, South Africa and Thailand.
 ---
 
 # Global Monitoring System - ECOSOLVE
@@ -10,7 +10,7 @@ description: Illicit online wildlife markets data from Brazil and South Africa.
 
 ## Description
 
-This tool allows you to explore the trade in wildlife and wildlife-related goods on social media platforms, blogs and online marketplaces since 2024. The site has more than 700 detections of illegal wildlife trade online. You can filter by 24 species, 2 countries (Brazil and South Africa) and different online marketplaces such as Facebook, OLX and Mercado Livre. When you perform a search you will get different visuals showing the number of detections and the most prevalent taxa, a market tracker and a trend monitor, all very useful to understand the market prevalence in certain online marketplaces.&#x20;
+This tool allows you to explore the trade in wildlife and wildlife-related goods on social media platforms, blogs and online marketplaces since 2024. The site has more than 700 detections of illegal wildlife trade online. You can filter by 24 species, 3 countries (Brazil, South Africa and Thailand) and different online marketplaces such as Facebook, OLX and Mercado Livre (the last two refer to online marketplaces). When you perform a search you will get different visuals showing the number of detections, a market tracker and a trend monitor, all very useful to understand the market prevalence in certain online marketplaces.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-27 at 10.22.12 AM.png" alt=""><figcaption><p>Here, for example, I have searched for Pangolin in all countries + all platforms covered by the site. </p></figcaption></figure>
 
