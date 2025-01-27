@@ -30,15 +30,13 @@ The advanced "Indexing presets" allow users to configure settings to include mod
 
 To test the tool, we uploaded the video ["Presenting: The Bellingcat Online Open Source Investigations Toolkit"](https://www.youtube.com/watch?v=-Y3GQ6mSGqM). The video stars Bellingcat volunteers who explain the Bellingcat toolkit and its features to the open source researcher community.
 
-To use the object detection feature of the Video Indexer tool, users can hover over the video progress bar and click on the black boxes that indicate where objects (from [the list of the objects the tool knows](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight)) have been found.&#x20;
+To use the object detection feature of the Video Indexer tool, users can hover over the video progress bar and click on the black boxes that indicate where objects (from the [list of objects](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight) the tool knows) have been found.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-26 at 12.05.15 AM.png" alt=""><figcaption><p>Objects and topics extracted from the footage</p></figcaption></figure>
 
 In our video, the tool identified two objects: A “laptop” which is visible at 0:56 seconds and a clock, which is actually the Bellingcat volunteer community logo, at 1:13 seconds. Most likely, the tool misidentified the logo as a “clock” due to its round shape.
 
-In addition, the tool identified "Machine learning" and "Artificial intelligence" as two topics that are discussed in the video (see in the screenshot above). It also indexed 30 keywords that are mentioned in the video. Selecting one of the keywords,  shows the exact timestamp of when the keyword was mentioned.  Users simply need to click on the black boxes on the progress bar to be brought to . To see this particular keyword being mentioned in sequence, just click "play next" or "play previous" beneath the progress bar under the keyword section on the right.
-
-for example “bellingcat staff”,
+In addition, the tool identified "Machine learning" and "Artificial intelligence" as two topics that are discussed in the video (see the screenshot above). It also indexed 30 keywords that are mentioned in the video. Selecting one of the keywords, brings up the exact timestamp of when the keyword was mentioned. Users simply need to click on the black boxes on the progress bar to be brought to the relevant section of the video. To see this particular keyword, in our example "bellingcat staff", being mentioned in sequence, just click "play next" or "play previous" beneath the progress bar.
 
 <figure><img src=".gitbook/assets/Keywords screenshot.png" alt=""><figcaption><p>Red circles indicate where the keyword occurs. Green rectangles indicates that clicking on the black spot on the progress bar takes you the corresponding timestamp in the video</p></figcaption></figure>
 
