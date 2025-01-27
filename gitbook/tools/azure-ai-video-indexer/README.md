@@ -16,7 +16,7 @@ Through the use of facial recognition the tool can automatically spot individual
 
 Azure AI Video Indexer is also able to extract key topics or keywords from videos and it can be used to generate transcripts which can then be translated into several languages. Those features can reduce the time that is required to analyse a particular set of videos or audios, for instance from long city hall meetings.&#x20;
 
-Other features that might be useful for open source researchers are its ability to extract text in videos ([optical character recognition](https://learn.microsoft.com/en-us/azure/azure-video-indexer/ocr-insight)) and object detection. The tool is able to detect a list of objects, for instance [airplanes, cars, traffic lights or fire hydrants.](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight)
+Other features that can be useful for open source researchers are its ability to extract text in videos ([optical character recognition](https://learn.microsoft.com/en-us/azure/azure-video-indexer/ocr-insight)) and object detection. The tool is able to detect various objects, for instance [airplanes, cars, traffic lights or fire hydrants.](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight)
 
 ## Steps
 
@@ -30,15 +30,15 @@ The advanced "Indexing presets" allow users to configure settings to include mod
 
 To test the tool, we uploaded the video ["Presenting: The Bellingcat Online Open Source Investigations Toolkit"](https://www.youtube.com/watch?v=-Y3GQ6mSGqM). The video stars Bellingcat volunteers who explain the Bellingcat toolkit and its features to the open source researcher community.
 
-To use the object detection feature of the Video Indexer tool, users can hover over the video progress bar and click on the black boxes that indicate where objects (from the [list of objects](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight) the tool knows) have been found.&#x20;
+To use the object detection feature of the Video Indexer tool, users can hover over the video progress bar and click on the black boxes that indicate where objects (from the [list of objects](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight) which the tool knows) have been found.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-26 at 12.05.15 AM.png" alt=""><figcaption><p>Objects and topics extracted from the footage</p></figcaption></figure>
 
-In our video, the tool identified two objects: A “laptop” which is visible at 0:56 seconds and a clock, which is actually the Bellingcat volunteer community logo, at 1:13 seconds. Most likely, the tool misidentified the logo as a “clock” due to its round shape.
+In our video, the tool identified two objects: A “laptop” which is visible at 0:56 seconds and a “clock”, which is actually the Bellingcat volunteer community logo, at 1:13 seconds. Most likely, the tool misidentified the logo as a “clock” due to its round shape.
 
-In addition, the tool identified "Machine learning" and "Artificial intelligence" as two topics that are discussed in the video (see the screenshot above). It also indexed 30 keywords that are mentioned in the video. Selecting one of the keywords, brings up the exact timestamp of when the keyword was mentioned. Users simply need to click on the black boxes on the progress bar to be brought to the relevant section of the video. To see this particular keyword, in our example "bellingcat staff", being mentioned in sequence, just click "play next" or "play previous" beneath the progress bar.
+In addition, the tool identified "Machine learning" and "Artificial intelligence" as two topics that are discussed in the video (see the screenshot above). It also indexed 30 keywords. Selecting one of the keywords brings up the exact timestamp of when this keyword was mentioned. Users simply need to click on the black boxes on the progress bar to be brought to the relevant section of the video. To see a particular keyword, in our example "bellingcat staff", being mentioned in sequence, just click "play next" or "play previous" beneath the progress bar.
 
-<figure><img src=".gitbook/assets/Keywords screenshot.png" alt=""><figcaption><p>Red circles indicate where the keyword occurs. Green rectangles indicates that clicking on the black spot on the progress bar takes you the corresponding timestamp in the video</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Keywords screenshot.png" alt=""><figcaption><p>The red circles indicate where the keyword occurs. The green rectangles indicate that clicking on the black box in the progress bar takes you the corresponding timestamp in the video.</p></figcaption></figure>
 
 The most important feature of the tool is its ability to extract entities from the footage. The tool has identified and indexed three individuals who mentioned their names in the video: Fraser, Laura, and Afton. On progress bar on the right, you can select a name to see where that person appears throughout the footage. Here’s the visual:
 
