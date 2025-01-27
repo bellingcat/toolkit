@@ -36,9 +36,7 @@ To use the object detection feature, users can hover over the video progress bar
 
 In our video, the tool identified two objects: A “laptop” which is visible at 0:56 seconds and a clock, which is actually the Bellingcat volunteer community logo, at 1:13 seconds. Most likely, the tool misidentified the logo as a “clock” due to its round shape.
 
-The tools also identified "Machine learning" and "Artificial intelligence" as two topics that are discussed in the video. Users can hover over the progress bar on the right hand side to see where exactly those topics were mentioned.
-
-Azure AI indexed 30 keywords from the video. Selecting the keyword “bellingcat staff” shows where this word was mentioned in the video. Clicking on the black spots representing this keyword will take you directly to the exact timestamp in the video. To see this particular keyword being mentioned in sequence, just click "play next" or "play previous" beneath the progress bar under the keyword section on the right.
+In addition, the tool identified "Machine learning" and "Artificial intelligence" as two topics that are discussed in the video (see on the screenshot above) and it indexed 30 keywords from the video (see below). Selecting the keyword “bellingcat staff” shows where this word was mentioned in the video. Users can then click on the black spots on the progress bar that representing this keyword will take you directly to the exact timestamp in the video. To see this particular keyword being mentioned in sequence, just click "play next" or "play previous" beneath the progress bar under the keyword section on the right.
 
 <figure><img src=".gitbook/assets/Keywords screenshot.png" alt=""><figcaption><p>Red circles indicate where the keyword occurs. Green rectangles indicates that clicking on the black spot on the progress bar takes you the corresponding timestamp in the video</p></figcaption></figure>
 
