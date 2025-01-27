@@ -28,7 +28,7 @@ Additionally, there is an [analysis section](https://www.ecosolve.eco/analysis) 
 
 The ECOSOLVE initiative can be useful for those researching wildlife trade who want to explore online marketplaces and species trade ads. It can be a good place to start looking for patterns and discover the best social networks and online marketplaces to search more thoroughly using other tools.
 
-The main objective of this tool is to collect this data so that new and effective policies can be created and responsible entities can take action on online wildlife trade.
+The main objective of this tool is to collect this data to help create new and effective policies and share it with responsible entities so that they can take action on the online wildlife trade. To this end, data centers, or data communities, will be established in key countries using OSINT and AI technology to monitor this illegal market. Which and the scope of these technologies is not yet public.
 
 ## Cost
 
