@@ -20,11 +20,7 @@ The results can be exported. Have a look at [this user guide (pdf) ](https://www
 
 You can contribute to this site by providing the source, the date, the country of the incident, any associated countries on the trade route, any associated species, the type of commodity, and the quantity of commodity of a seizure of which you are aware.
 
-The Wildlife Trade Portal is also connected to two other tools. These sites are independent, but you must register on the Wildlife Trade Portal to use and explore them:
-
-The first is an interactive and visual web platform that provides timer trade data, called [TimberStats](https://experience.arcgis.com/experience/f334dde3d5bd4f9fb2ba02516bd48c45/page/INFO/). This site allows you to explore timber trade data from the UN Comtrade database via API. It offers an Annual Trade Statistics Dashboard, where you can explore trade flows around the world, and an Annual Trade Discrepancies Dashboard, where you can find inconsistencies in reported trade between two countries.
-
-The second tool, [TradeMapper](https://trademapper.github.io/trademapper-js/), is a web tool for visualizing trade data sets as trade flow arrows on a map. You can upload your data in CSV format and create interactive maps with the information, which will also help you analyze it. Wider arrows indicate more trade volume and the colored dots show the countries' role along the route. Depending on your location, you will need a VPN in the UK to access it.&#x20;
+The Wildlife Trade Portal is also connected to another tool called [TimberStats](https://experience.arcgis.com/experience/f334dde3d5bd4f9fb2ba02516bd48c45/page/INFO/). This site allows you to explore timber trade data from the UN Comtrade database via API. It offers an Annual Trade Statistics Dashboard, where you can explore trade flows around the world, and an Annual Trade Discrepancies Dashboard, where you can find inconsistencies in reported trade between two countries.
 
 * [x] Free
 * [ ] Partially Free
