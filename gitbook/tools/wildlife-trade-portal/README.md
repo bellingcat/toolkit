@@ -62,7 +62,7 @@ Adam Cruise, AllAfrica: [South Africa is The World's Largest Exporter of Live Ti
 
 ## Tool provider
 
-TRAFFIC + Arcadia
+TRAFFIC, headquartered in Cambridge, England + Arcadia, a family charitable foundation, headquartered in the UK.
 
 ## Advertising Trackers
 
