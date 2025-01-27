@@ -40,7 +40,7 @@ This site uses media sources and contributions, also aproximates (date ranges, f
 
 ## Ethical Considerations
 
-This site uses media sources and contributions. The ethical challenges this raises must be determined by each user, taking into account for what and by whom the data will be used.
+This site uses media sources such as local newsrooms and NGO's and contributions from anyone interested. The ethical challenges this raises must be determined by each user, taking into account for what and by whom the data will be used.
 
 ## Guides and articles
 
