@@ -36,7 +36,9 @@ To use the object detection feature of the Video Indexer tool, users can hover o
 
 In our video, the tool identified two objects: A “laptop” which is visible at 0:56 seconds and a clock, which is actually the Bellingcat volunteer community logo, at 1:13 seconds. Most likely, the tool misidentified the logo as a “clock” due to its round shape.
 
-In addition, the tool identified "Machine learning" and "Artificial intelligence" as two topics that are discussed in the video. It also indexed 30 keywords that are mentioned in the video (see the screenshot below). Selecting one of the keywords, for instance, “bellingcat staff”, shows the exact timestamp of when the keyword was mentioned via black boxes on the progress bar: Users can click on the black boxes on the progress bar to be brought to . To see this particular keyword being mentioned in sequence, just click "play next" or "play previous" beneath the progress bar under the keyword section on the right.
+In addition, the tool identified "Machine learning" and "Artificial intelligence" as two topics that are discussed in the video (see in the screenshot above). It also indexed 30 keywords that are mentioned in the video. Selecting one of the keywords,  shows the exact timestamp of when the keyword was mentioned.  Users simply need to click on the black boxes on the progress bar to be brought to . To see this particular keyword being mentioned in sequence, just click "play next" or "play previous" beneath the progress bar under the keyword section on the right.
+
+for example “bellingcat staff”,
 
 <figure><img src=".gitbook/assets/Keywords screenshot.png" alt=""><figcaption><p>Red circles indicate where the keyword occurs. Green rectangles indicates that clicking on the black spot on the progress bar takes you the corresponding timestamp in the video</p></figcaption></figure>
 
