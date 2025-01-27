@@ -28,6 +28,8 @@ Additionally, there is an [analysis section](https://www.ecosolve.eco/analysis) 
 
 The ECOSOLVE initiative can be useful for those researching wildlife trade who want to explore online marketplaces and species trade ads. It can be a good place to start looking for patterns and discover the best social networks and online marketplaces to search more thoroughly using other tools.
 
+The main objective of this tool is to collect this data so that new and effective policies can be created and responsible entities can take action on online wildlife trade.
+
 ## Cost
 
 * [x] Free
@@ -44,7 +46,7 @@ None.
 
 ## Limitations
 
-Not all species are available and the tool only shows results for Brazil, South Africa and Thailand. November 2024 was the last update and information is not updated automatically. Information in datasets is not very detailed.&#x20;
+Not all species are available and the tool only shows results for Brazil, South Africa and Thailand. November 2024 was the last update and information is not updated automatically. Information in datasets is not very detailed. There is no information on whether this site is updated manually by a team or whether its updated using keywords appearing in the monitored social media and marketplaces, however, [contributions](https://www.ecosolve.eco/about) can be made to the database, which would indicate that there may be human sources fact checking the information.
 
 ## Ethical Considerations
 
