@@ -20,7 +20,7 @@ In addition, you will get a database that lists the website, name, species, type
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-27 at 10.31.45 AM.png" alt=""><figcaption><p>This is what the database looks like when searching for Pangolin.</p></figcaption></figure>
 
-Additionally, there is an analysis section where you can find different publications and events on online wildlife trade, environmental trade, among other relevant topics from the Global Initiative against Transnational Organized Crime (GI TOC).
+Additionally, there is an [analysis section](https://www.ecosolve.eco/analysis) where you can find different publications and events on online wildlife trade, environmental trade, among other relevant topics from the Global Initiative against Transnational Organized Crime (GI TOC).
 
 The ECOSOLVE initiative can be useful for those researching wildlife trade who want to explore online marketplaces and species trade ads. It can be a good place to start looking for patterns and discover the best social networks and online marketplaces to search more thoroughly using other tools.
 
