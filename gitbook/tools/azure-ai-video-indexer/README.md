@@ -40,7 +40,7 @@ In addition, the tool identified "Machine learning" and "Artificial intelligence
 
 <figure><img src=".gitbook/assets/Keywords screenshot.png" alt=""><figcaption><p>The red circles indicate where the keyword occurs. The green rectangles indicate that clicking on the black box in the progress bar takes you the corresponding timestamp in the video.</p></figcaption></figure>
 
-A highly relevant feature of the tool is its ability to extract faces from the footage. In our example, the tool has identified and indexed three individuals who mentioned their names in the video: Fraser, Laura, and Afton. On progress bar on the right, you can select a name to see where that person appears throughout the footage:
+Highly relevant for open source researchers is the tool's ability to extract faces from the uploaded footage. In our example, the tool has identified and indexed three individuals who mentioned their names in the video: Fraser, Laura, and Afton. On progress bar on the right, you can select a name to see where that person appears throughout the footage:
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-25 at 9.49.09 PM.png" alt=""><figcaption><p>The tool is able to extract individual people from the footage.</p></figcaption></figure>
 
