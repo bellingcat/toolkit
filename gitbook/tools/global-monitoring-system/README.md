@@ -10,9 +10,9 @@ description: Illicit online wildlife markets data from Brazil, South Africa and 
 
 ## Description
 
-This tool allows us to explore a growing phenomenon in the world of wildlife trafficking: the use of social networks and online marketplaces to offer live animals or parts of them. Since 2024, the site now has more than 700 detections of illegal wildlife trade online.&#x20;
+This tool allows us to explore a [growing](https://globalinitiative.net/wp-content/uploads/2024/10/Monitoring-illegal-wildlife-trade-Brazil-and-South-Africa-GI-TOC-October-2024.pdf) phenomenon in the world of wildlife trafficking: the use of social networks and online marketplaces to offer live animals or parts of them. Since 2024, the site now has more than 700 detections of illegal wildlife trade online.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-27 at 11.19.37 AM.png" alt=""><figcaption><p>Traffickers use social networks and online marketplaces such as Facebook Marketplace to sell or ask for live animals for sale or animal parts.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-01-27 at 11.19.37 AM.png" alt=""><figcaption><p>Traffickers use social networks and online marketplaces such as Facebook Marketplace to sell or ask for live animals for sale or animal parts. The trade is sometimes <a href="https://globalinitiative.net/wp-content/uploads/2024/10/Monitoring-illegal-wildlife-trade-Brazil-and-South-Africa-GI-TOC-October-2024.pdf">connected</a> with other illegal markets such as drugs trafficking.</p></figcaption></figure>
 
 You can filter by 24 species, 3 countries (Brazil, South Africa and Thailand) and different online marketplaces such as Facebook, OLX and Mercado Livre (the last two refer to online marketplaces). When you perform a search you will get different visuals showing the number of detections, a market tracker and a trend monitor, all very useful to understand the market prevalence in certain online marketplaces.&#x20;
 
