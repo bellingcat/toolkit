@@ -30,7 +30,7 @@ The advanced "Indexing presets" allow users to configure settings to include mod
 
 To test the tool, we uploaded the video ["Presenting: The Bellingcat Online Open Source Investigations Toolkit"](https://www.youtube.com/watch?v=-Y3GQ6mSGqM). The video stars Bellingcat volunteers who explain the Bellingcat toolkit and its features to the open source researcher community.
 
-To use the object detection feature of the Video Indexer tool, users can hover over the video progress bar and click on the black boxes that indicate where objects (from the [list of objects](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight) which the tool knows) have been found.&#x20;
+To use the object detection feature of the Video Indexer tool, users can hover over the video progress bar and click on the black boxes that indicate where objects (from the [list of objects](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight) which the tool knows) were found.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-26 at 12.05.15 AM.png" alt=""><figcaption><p>Objects and topics extracted from the footage</p></figcaption></figure>
 
@@ -40,17 +40,17 @@ In addition, the tool identified "Machine learning" and "Artificial intelligence
 
 <figure><img src=".gitbook/assets/Keywords screenshot.png" alt=""><figcaption><p>The red circles indicate where the keyword occurs. The green rectangles indicate that clicking on the black box in the progress bar takes you the corresponding timestamp in the video.</p></figcaption></figure>
 
-Highly relevant for open source researchers is the tool's ability to extract faces from the uploaded footage. In our example, the tool has identified and indexed three individuals who mentioned their names in the video: Fraser, Laura, and Afton. On progress bar on the right, you can select a name to see where that person appears throughout the footage:
+Highly relevant for open source researchers is the tool's ability to extract faces from video footage. In our example, the tool has identified and indexed three individuals who mentioned their names in the video: Fraser, Laura, and Afton. On progress bar on the right, you can select a name to see where that person appears throughout the footage:
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-25 at 9.49.09 PM.png" alt=""><figcaption><p>The tool is able to extract individual people from the footage.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-01-25 at 9.49.09 PM.png" alt=""><figcaption><p>The tool is able to extract individuals from video footage.</p></figcaption></figure>
 
 {% hint style="warning" %}
 While the tool has successfully indexed all three people in the initial moments in this example, it hasn’t done so for the latter half. This could be because the video is short, or changes in [facial expressions](https://www.researchgate.net/publication/374738467_Face_Recognition_Challenges_and_Solutions_using_Machine_Learning), head poses, or occlusion might have prevented the technology from effective indexing. See how this can be improved by [consulting](https://learn.microsoft.com/en-us/azure/azure-video-indexer/face-grouping-how-to?utm_source=chatgpt.com) [resources](https://learn.microsoft.com/en-us/azure/azure-video-indexer/customize-person-model-how-to?tabs=customizewebportal) [provided](https://learn.microsoft.com/en-us/azure/azure-video-indexer/customize-person-model-how-to?tabs=customizewebportal) by Microsoft.
 {% endhint %}
 
-Other entities include "brands." It has identified GitHub, and tools like Google Maps from the toolkit interface shown in the footage. If any references about the entities are incorrect, details under the **Insights** tab can edited. Tap the edit icon (a pencil) in the top right corner to make changes.
+The tool is also able to detect "brands." In our case, it has identified GitHub, and tools like "Google Maps" from the toolkit interface that are shown in the footage. If information about entities are incorrect, the details can be edited under the **Insights** tab. Tap the edit icon (a pencil) in the top right corner to make changes.
 
-One can also view the emotions appearing in the video. For instance, the tool shows us that this entire video has 2.17% of joy. Select the identified area on the progress bar to see where different emotions appear. Finally, “13 scenes” appear in the footage.
+One can also view emotions appearing in the video. For instance, the tool shows us that this entire video has 2.17% of joy. Select the identified area on the progress bar to see where different emotions appear. Finally, “13 scenes” appear in the footage.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-25 at 11.07.51 PM.png" alt=""><figcaption><p>Emotions appearing in the footage</p></figcaption></figure>
 
