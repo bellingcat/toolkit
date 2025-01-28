@@ -86,7 +86,7 @@ Once a user uploads a video, the tool requires to mark a checkbox that explicitl
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-26 at 12.20.25 AM.png" alt=""><figcaption><p>The tool requires to check a box before uploading the video</p></figcaption></figure>
 
-It is also important to note that the tool is not able to identify individuals. It is able to spot if the same [individual](https://learn.microsoft.com/en-us/azure/azure-video-indexer/face-detection-insight) shows up several times in a video but the open source researcher still needs to find out who the person is (unless they are a celebrity).
+It is also important to note that the tool is not able to identify individuals. It is able to spot if the same [individual](https://learn.microsoft.com/en-us/azure/azure-video-indexer/face-detection-insight) shows up several times in a video but the open source researcher still needs to find out who the person is (unless they are a celebrity). Microsoft only provides access to facial recognition services to [selected users](https://learn.microsoft.com/en-us/legal/cognitive-services/computer-vision/limited-access-identity).
 
 While Microsoft's Azure AI Video Indexer is able to help with object detection, the supported objects are still limited. Find a list of all supported objects [here](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight).
 
