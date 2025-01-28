@@ -14,7 +14,7 @@ Microsoft's Azure AI Video Indexer allows open source researchers to gain variou
 
 Through the use of facial recognition the tool can automatically spot individuals who appear several times throughout a video. This feature can be helpful when analysing footage of crowd-like situations like protests or when working with vast amounts of video material.&#x20;
 
-Azure AI Video Indexer is also able to extract key topics or keywords from videos and it can be used to generate transcripts and to translate those transcripts into several languages. Those features can reduce the time that is required to analyse a particular set of videos or audios, for instance from long city hall meetings.&#x20;
+Azure AI Video Indexer is also able to extract key topics or keywords from videos and it can be used to generate transcripts (also in several languages). Those features can reduce the time that is required to analyse a particular set of videos or audios, for instance from long city hall meetings.&#x20;
 
 Other features that can be useful for open source researchers are its ability to extract text in videos ([optical character recognition](https://learn.microsoft.com/en-us/azure/azure-video-indexer/ocr-insight)) and object detection. The tool is able to detect various objects, for instance [airplanes, cars, traffic lights or fire hydrants.](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight)
 
@@ -54,7 +54,7 @@ The tool also analyzes emotions that appear in videos. For instance, according t
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-25 at 11.07.51 PM.png" alt=""><figcaption><p>Emotions appearing in the footage</p></figcaption></figure>
 
-If the Insight section is crowded, users can use filters by selecting or deselection various options highlighted below:
+If the Insight section gets too crowded, users can select or deselect various options as shown below:
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-26 at 12.00.51 AM.png" alt=""><figcaption></figcaption></figure>
 
