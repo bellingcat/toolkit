@@ -189,3 +189,4 @@
   * [WildEye](tools/wildeye/README.md)
   * [RootAbout](tools/rootabout/README.md)
   * [Global Monitoring System - ECOSOLVE](tools/global-monitoring-system/README.md)
+  * [Azure AI Video Indexer](tools/azure-ai-video-indexer/README.md)
