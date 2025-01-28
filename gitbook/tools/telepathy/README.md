@@ -17,17 +17,15 @@ Version: Telepathy 2.3.4 (as of January 25)
 
 #### Introduction
 
-The toolkit facilitates detailed insights into **Telegram channels**. It captures information such as the channel's description, total participant count, identifiable members, username, URL, type of chat, chat ID, access hash, the date of the first post, and any restrictions that might be applied. Channels on Telegram are designed to broadcast messages to a large audience, and they do not allow members to see each other or directly interact within the channel itself.
+The toolkit facilitates detailed insights into Telegram channels. It captures information such as the channel's description, total participant count, identifiable members, username, URL, type of chat, chat ID, access hash, the date of the first post, and any restrictions that might be applied. Telegram channels are designed to broadcast messages to a large audience, and they do not allow members to see each other or directly interact within the channel itself.
 
 Telepathy is an open-source OSINT toolkit designed to analyze Telegram communications. It allows users to extract data from public or private Telegram groups and channels and perform searches by user ID or username. Telepathy provides detailed insights such as member lists, group dynamics, and engagement tracking. It also supports CSV export of group members, automatic message translation, and geolocation features for users with public profiles.
 
 ### Summary
 
-Telepathy’s user interface is designed to be intuitive for technically experienced users, and the output is tailored towards in-depth data analysis. Being open-source, it allows modifications and enhancements to meet specific investigative needs.
+Telepathy’s user interface is designed to be intuitive for technically experienced users. Its output is tailored for in-depth data analysis. Being open-source, it allows modifications and enhancements to meet specific investigative needs.
 
 ### Functions
-
-#### **Installation**
 
 #### **Basic Chat Scan (`-t` option)**
 
@@ -199,10 +197,6 @@ Finds users near a specific location based on longitude and latitude coordinates
 
 **Use Case:** This can help geolocate users based on publicly available information, which may assist in regional investigations or geospatial analysis.
 {% endtab %}
-
-{% tab title="Screenshot" %}
-
-{% endtab %}
 {% endtabs %}
 
 **Alternative Account Usage (`-a` option)**
@@ -213,10 +207,6 @@ Telepathy supports running multiple accounts simultaneously using alternative ph
 
 **Use Case:** Useful for large-scale investigations requiring multiple scans at once without being constrained by Telegram's API limitations
 {% endtab %}
-
-{% tab title="Screenshot" %}
-
-{% endtab %}
 {% endtabs %}
 
 **Chat Export (`-e` option)**
@@ -226,10 +216,6 @@ Telepathy supports running multiple accounts simultaneously using alternative ph
 Exports all chats your Telegram account is part of to a CSV file. In future versions, this feature may help with provisioning new accounts for automatic group joining.
 
 **Use Case:** Helps maintain an overview of all Telegram groups and channels a user is part of, useful for organization or further analysis.
-{% endtab %}
-
-{% tab title="Screenshot" %}
-
 {% endtab %}
 {% endtabs %}
 
@@ -292,21 +278,20 @@ Free, with enterprise-grade versions (Telepathy Pro & TelepathyDB) available at 
 
 ## Limitations
 
-1.
-   * **Telegram API Restrictions:** Telepathy is subject to Telegram's API rate limits and terms of service. Excessive requests or actions that violate these terms can result in temporary or permanent bans, limiting how quickly and extensively you can collect data.
-   * **Access to Private Groups and Channels:** The tool requires public access or an invitation link to analyze private groups and channels. Without proper access, investigating private communications is not possible.
-   * **Dependence on User's Telegram Account:** Telepathy operates through your Telegram account. Any limitations or restrictions on your account will impact the tool's functionality. For example, features like user location lookup require your account to have a public profile picture, and some functions may only work if you've previously interacted with the target users or groups.
-   * **Performance and Scalability Issues:** While installing the `cryptg` library can improve performance, especially for media downloads, Telepathy's efficiency depends on the volume of data and your hardware capabilities. Large-scale investigations may require significant time and resources.
-   * **Technical Knowledge Requirement:** Setting up and effectively using Telepathy requires technical expertise, including familiarity with command-line interfaces, Python programming, and OSINT techniques. This may present challenges for less technically inclined users.
-   * **Potential Changes in Telegram API:** Future modifications to the Telegram API or its policies could affect Telepathy's functionality or availability, as the tool relies on this third-party service.
-   * **Windows Compatibility Issues:** Telepathy may encounter file management and error handling problems on Windows systems, which could hinder smooth operation and necessitate troubleshooting or updates.
-   * **Data Analysis Limitations:** While the tool collects extensive data, analyzing and interpreting this information requires significant effort and expertise. Telepathy facilitates data collection but does not provide automatic, in-depth analytical insights; additional tools may be needed for complex analysis.
+* **Telegram API Restrictions:** Telepathy is subject to Telegram's API rate limits and terms of service. Excessive requests or actions that violate these terms can result in temporary or permanent bans, limiting how quickly and extensively you can collect data.
+* **Access to Private Groups and Channels:** The tool requires public access or an invitation link to analyze private groups and channels. Without proper access, investigating private communications is not possible.
+* **Dependence on User's Telegram Account:** Telepathy operates through your Telegram account. Any limitations or restrictions on your account will impact the tool's functionality. For example, features like user location lookup require your account to have a public profile picture, and some functions may only work if you've previously interacted with the target users or groups.
+* **Performance and Scalability Issues:** While installing the `cryptg` library can improve performance, especially for media downloads, Telepathy's efficiency depends on the volume of data and your hardware capabilities. Large-scale investigations may require significant time and resources.
+* **Technical Knowledge Requirement:** Setting up and effectively using Telepathy requires technical expertise, including familiarity with command-line interfaces, Python programming, and OSINT techniques. This may present challenges for less technically inclined users.
+* **Potential Changes in Telegram API:** Future modifications to the Telegram API or its policies could affect Telepathy's functionality or availability, as the tool relies on this third-party service.
+* **Windows Compatibility Issues:** Telepathy may encounter file management and error handling problems on Windows systems, hindering smooth operation and necessitating troubleshooting or updates.
+* **Data Analysis Limitations:** While the tool collects extensive data, analyzing and interpreting this information requires significant effort and expertise. Telepathy facilitates data collection but does not provide automatic, in-depth analytical insights; additional tools may be needed for complex analysis.
 
 ## Ethical Considerations
 
-* **Legal Compliance:** Use Telepathy in accordance with all applicable laws and regulations related to privacy and data collection. Unauthorized access to private data or misuse of collected information can lead to legal consequences.
+* **Legal Compliance: U**se Telepathy following all applicable laws and regulations regarding privacy and data collection. Unauthorized access to private data or misuse of collected information can lead to legal consequences.
 * **Responsible Data Handling:** Exercise caution when collecting and storing data, especially media files, to avoid inadvertently downloading illegal or sensitive content. It's essential to manage and secure all collected data responsibly, adhering to legal and ethical standards.
-* **Respect for Privacy:** Always respect individuals' privacy rights. Collect data only from sources where you have the legal right and, if necessary, consent to do so.
+* **Respect for Privacy:** Always respect individuals' privacy rights. Collect data only from sources to which you have the legal right and, if necessary, consent.
 
 ## General Advice concerning the security of Telegram
 
@@ -320,8 +305,8 @@ While Telegram offers robust encryption features, it's crucial to remain vigilan
 * **Mitigation Strategies:**
   * **Use Official Clients:** Download Telegram only from the [official website](https://telegram.org/) or recognized app stores to ensure you use a secure version.
   * **Enable End-to-End Encryption:** For sensitive communications, use Telegram's "Secret Chats," which offer end-to-end encryption, ensuring messages are accessible only to intended recipients.
-  * **Regular Updates and Vigilance:** Keep your Telegram app updated to benefit from the latest security patches. Stay alert for any unusual activity or requests that may indicate security issues.
-  * **Verify Application Integrity:** Advanced users can verify the reproducibility of the Telegram app build to ensure it matches the published source code, adding an extra layer of security.
+  * **Regular** Updates and Vigilance: Update your Telegram app for the latest security patches. Also, stay alert for any unusual activity or requests that may indicate security issues.
+  * Verify Appli**cation Integrity:** Advanced users can verify the reproducibility of the Telegram app build to ensure it matches the published source code, adding an extra layer of security.
 
 By adhering to these practices, you can enhance your security posture while using Telepathy and conducting investigations on Telegram.
 
@@ -329,7 +314,7 @@ By adhering to these practices, you can enhance your security posture while usin
 
 EFIM. (2022, July 30). _Telepathy: OSINT toolkit for investigating Telegram chats_. ESPY - Fraud Prevention. [https://espysys.com/blog/telepathy-osint-toolkit-for-investigating-telegram-chats/](https://espysys.com/blog/telepathy-osint-toolkit-for-investigating-telegram-chats/)
 
-OS2INT (Director). (2022, July 31). _Extracting and analysing disinformation data from Telegram with Telepathy_. [https://youtu.be/AiZ2LRWzYGI](https://youtu.be/AiZ2LRWzYGI)
+OS2INT (Director). (2022, July 31). _Extracting and analyzing disinformation data from Telegram with Telepathy_. [https://youtu.be/AiZ2LRWzYGI](https://youtu.be/AiZ2LRWzYGI)
 
 Lerner, E. (2024, March 31). 🌟✨ Tutorial about the Best 7 Telegram Channels in 2024 & Must-Follow Top Search Bots 🤖🔍. _Medium_. [https://medium.com/@efim.lerner/tutorial-about-the-best-7-telegram-channels-in-2024-must-follow-top-search-bots-76421bf29e17](https://medium.com/@efim.lerner/tutorial-about-the-best-7-telegram-channels-in-2024-must-follow-top-search-bots-76421bf29e17)
 
