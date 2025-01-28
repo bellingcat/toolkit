@@ -10,7 +10,7 @@ description: Illicit online wildlife markets data from Brazil, South Africa and 
 
 ## Description
 
-This tool allows us to explore a [growing](https://globalinitiative.net/wp-content/uploads/2024/10/Monitoring-illegal-wildlife-trade-Brazil-and-South-Africa-GI-TOC-October-2024.pdf) phenomenon in the world of wildlife trafficking: the use of social networks and online marketplaces to offer live animals or parts of them. Since 2024, the site now has collected more than 700 detections of illegal wildlife trade online.&#x20;
+This tool allows us to explore a [growing](https://globalinitiative.net/wp-content/uploads/2024/10/Monitoring-illegal-wildlife-trade-Brazil-and-South-Africa-GI-TOC-October-2024.pdf) phenomenon in the world of wildlife trafficking: the use of social networks and online marketplaces to offer live animals or parts of them. Since 2024, the site has collected more than 700 detections of illegal wildlife trade online.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-27 at 11.19.37 AM.png" alt=""><figcaption><p>Traffickers use social networks and online marketplaces such as Facebook Marketplace to sell or ask for live animals for sale or animal parts. The trade is sometimes <a href="https://globalinitiative.net/wp-content/uploads/2024/10/Monitoring-illegal-wildlife-trade-Brazil-and-South-Africa-GI-TOC-October-2024.pdf">connected</a> with other illegal markets such as drugs trafficking. The screenshot above is from a video that you can find <a href="https://www.youtube.com/watch?v=WfEKg_pqYvs\">here</a>.</p></figcaption></figure>
 
@@ -26,9 +26,7 @@ In addition, you will get a database that lists the website, name, species, type
 
 Additionally, there is an [analysis section](https://www.ecosolve.eco/analysis) where you can find different publications and events on online wildlife trade, environmental trade, among other relevant topics from the Global Initiative against Transnational Organized Crime (GI TOC).
 
-The ECOSOLVE initiative can be useful for those researching wildlife trade who want to explore online marketplaces and species trade ads. It can be a good place to start looking for patterns and discover the best social networks and online marketplaces to search more thoroughly using other tools.
-
-The main objective of this tool is to collect this data to help create new and effective policies and share it with responsible entities so that they can take action on the online wildlife trade. To this end, data centers, or data communities, will be established in key countries using OSINT and AI technology to monitor this illegal market. Which and the scope of these technologies is not yet public.
+The ECOSOLVE initiative can be useful for those researching wildlife trade who want to explore online marketplaces and species trade ads. It can be a good place to start looking for patterns and discover the most relevant social networks and online marketplaces to search more thoroughly using other tools.
 
 ## Cost
 
