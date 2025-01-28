@@ -44,10 +44,6 @@ Highly relevant for open source researchers is the tool's ability to extract fac
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-25 at 9.49.09 PM.png" alt=""><figcaption><p>The tool is able to extract individuals from video footage.</p></figcaption></figure>
 
-{% hint style="warning" %}
-While the tool has successfully indexed all three people in the initial moments in this example, it hasn’t done so for the latter half. Keep in mind that the tool's free version does not allow indexing people who appear in the video. You need a subscription to do this. video is short, or changes in [facial expressions](https://www.researchgate.net/publication/374738467_Face_Recognition_Challenges_and_Solutions_using_Machine_Learning), head poses, or occlusion might have prevented the technology from effective indexing. See how this can be improved by [consulting](https://learn.microsoft.com/en-us/azure/azure-video-indexer/face-grouping-how-to?utm_source=chatgpt.com) [resources](https://learn.microsoft.com/en-us/azure/azure-video-indexer/customize-person-model-how-to?tabs=customizewebportal) [provided](https://learn.microsoft.com/en-us/azure/azure-video-indexer/customize-person-model-how-to?tabs=customizewebportal) by Microsoft.
-{% endhint %}
-
 The tool is also able to detect "brands." In our case, it has identified GitHub, and tools like "Google Maps" from the toolkit interface that are shown in the footage. If information about entities are incorrect, the details can be edited under the **Insights** tab. Tap the edit icon (a pencil) in the top right corner to make changes.
 
 The tool also analyzes emotions that appear in videos. For instance, according to the tool, our video displays 2.17% of joy. Finally,  the tool also tries to give an overview of the different scenes that appear in the footage, in our case it found 13 scenes.
