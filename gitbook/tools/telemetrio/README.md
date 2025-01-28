@@ -618,9 +618,11 @@ Telemetr.io [https://telemetr.io/en/terms-of-use](https://telemetr.io/en/terms-o
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
+
+([Privacy Badger](https://privacybadger.org/) reported a google adsense ID, and a cloudflare insights beacon)&#x20;
 
 | Page maintainer |
 | --------------- |
