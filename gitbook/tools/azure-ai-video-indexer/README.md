@@ -12,7 +12,7 @@ description: AI video tool for facial detection and other types of insights.
 
 Microsoft's Azure AI Video Indexer allows open source researchers to gain various types of insights from videos.
 
-Through the use of facial recognition the tool can automatically spot individuals who appear several times throughout a video. This feature can be helpful when analysing footage of crowd-like situations like protests or when working with vast amounts of video material.&#x20;
+Through the use of facial detection the tool can automatically spot individuals who appear several times throughout a video. This feature can be helpful when analysing footage of crowd-like situations like protests or when working with vast amounts of video material.&#x20;
 
 Azure AI Video Indexer is also able to extract key topics or keywords from videos and it can be used to generate transcripts (also in several languages). Those features can reduce the time that is required to analyse a particular set of videos or audios, for instance from long city hall meetings.&#x20;
 
