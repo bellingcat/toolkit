@@ -46,7 +46,7 @@ Highly relevant for open source researchers is the tool's ability to extract fac
 
 The tool is also able to detect "brands." In our case, it has identified GitHub, and tools like "Google Maps" from the toolkit interface that are shown in the footage. If information about entities are incorrect, the details can be edited under the **Insights** tab. Tap the edit icon (a pencil) in the top right corner to make changes.
 
-The tool also analyzes emotions that appear in videos. For instance, according to the tool, our video displays 2.17% of joy. Finally,  the tool also tries to give an overview of the different scenes that appear in the footage. In our case it found 13 scenes.
+The tool also analyzes emotions that appear in videos. For instance, according to the tool, our video displays 2.17% of joy. Finally, the tool also tries to give an overview of the different scenes that appear in the footage. In our case it found 13 scenes.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-25 at 11.07.51 PM.png" alt=""><figcaption><p>Emotions appearing in the footage</p></figcaption></figure>
 
@@ -82,11 +82,11 @@ Like any other tool, Azure AI indexer has its limitations. It does not cover all
 
 The facial detection feature may not work efficiently all the time, for example if the footage is of poor [quality](https://www.researchgate.net/publication/374738467_Face_Recognition_Challenges_and_Solutions_using_Machine_Learning) (low resolution) or there is bright coloring. Always make sure to double check your findings using other research methods.&#x20;
 
+It is also important to note that the tool is not able to identify individuals. It is able to spot if the same [individual](https://learn.microsoft.com/en-us/azure/azure-video-indexer/face-detection-insight) shows up several times in a video but the open source researcher still needs to find out who the person is (unless they are a celebrity). Microsoft only provides access to facial recognition services to [selected users](https://learn.microsoft.com/en-us/legal/cognitive-services/computer-vision/limited-access-identity).
+
 Once a user uploads a video, the tool requires to mark a checkbox that explicitly states: "that use of any facial recognition functionality in this service is not by or for a police department in the United States." In addition, all users need to confirm that they have the rights to use and store the uploaded videos before they use the tool.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-26 at 12.20.25 AM.png" alt=""><figcaption><p>The tool requires to check a box before uploading the video</p></figcaption></figure>
-
-It is also important to note that the tool is not able to identify individuals. It is able to spot if the same [individual](https://learn.microsoft.com/en-us/azure/azure-video-indexer/face-detection-insight) shows up several times in a video but the open source researcher still needs to find out who the person is (unless they are a celebrity). Microsoft only provides access to facial recognition services to [selected users](https://learn.microsoft.com/en-us/legal/cognitive-services/computer-vision/limited-access-identity).
 
 While Microsoft's Azure AI Video Indexer is able to help with object detection, the supported objects are still limited. Find a list of all supported objects [here](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight).
 
