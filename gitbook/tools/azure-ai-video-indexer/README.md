@@ -40,13 +40,13 @@ In addition, the tool identified "Machine learning" and "Artificial intelligence
 
 <figure><img src=".gitbook/assets/Keywords screenshot.png" alt=""><figcaption><p>The red circles indicate where the keyword occurs. The green rectangles indicate that clicking on the black box in the progress bar takes you the corresponding timestamp in the video.</p></figcaption></figure>
 
-Highly relevant for open source researchers is the tool's ability to extract faces from video footage. In our example, the tool has identified and indexed three individuals who mentioned their names in the video: Fraser, Laura, and Afton. On progress bar on the right, you can select a name to see where that person appears throughout the footage:
+Highly relevant for open source researchers is the tool's ability to extract faces from video footage. In our example, the tool has identified three individuals who mentioned their names in the video: Fraser, Laura, and Afton. On progress bar on the right, you can select a name to see where that person appears throughout the footage:
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-25 at 9.49.09 PM.png" alt=""><figcaption><p>The tool is able to extract individuals from video footage.</p></figcaption></figure>
 
 The tool is also able to detect "brands." In our case, it has identified GitHub, and tools like "Google Maps" from the toolkit interface that are shown in the footage. If information about entities are incorrect, the details can be edited under the **Insights** tab. Tap the edit icon (a pencil) in the top right corner to make changes.
 
-The tool also analyzes emotions that appear in videos. For instance, according to the tool, our video displays 2.17% of joy. Finally,  the tool also tries to give an overview of the different scenes that appear in the footage, in our case it found 13 scenes.
+The tool also analyzes emotions that appear in videos. For instance, according to the tool, our video displays 2.17% of joy. Finally,  the tool also tries to give an overview of the different scenes that appear in the footage. In our case it found 13 scenes.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-25 at 11.07.51 PM.png" alt=""><figcaption><p>Emotions appearing in the footage</p></figcaption></figure>
 
@@ -56,11 +56,11 @@ If the Insight section gets too crowded, users can select or deselect various op
 
 ## Timeline Section
 
-The timeline section provides a transcript of the video and supports translations into [multiple languages](https://learn.microsoft.com/en-us/azure/azure-video-indexer/language-support). For accuracy, make sure to review the translation. If you are not familiar with the language, cross-check it with native language speakers for verification. The transcription text  can also be edited by selecting the pencil icon in the top-right corner. The image below shows the translation from English into Urdu (click on the globe icon for more translation options):
+The timeline section provides a transcript of the video and supports translations into [multiple languages](https://learn.microsoft.com/en-us/azure/azure-video-indexer/language-support). For accuracy, make sure to review the translation. If you are not familiar with the language, cross-check it with native language speakers for verification. The transcription text can also be edited by selecting the pencil icon in the top-right corner. The image below shows the translation from English into Urdu (click on the globe icon for more translation options):
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-25 at 11.34.04 PM.png" alt=""><figcaption></figcaption></figure>
 
-Findings can also be downloaded as four options: insights (JSON), artifacts (ZIP), source video, and closed captions.
+It is also possible to download the results.
 
 * [ ] Free
 * [ ] Partially Free
@@ -80,7 +80,7 @@ You need to create a Microsoft account or sign up through Google for using the A
 
 Like any other tool, Azure AI indexer has its limitations. It does not cover all languages and therefore it may not be useful for all audios and videos. A list of supported languages can be found [here](https://learn.microsoft.com/en-us/azure/azure-video-indexer/language-support).&#x20;
 
-The facial recognition feature may not work efficiently all the time, for example if the footage is of poor [quality](https://www.researchgate.net/publication/374738467_Face_Recognition_Challenges_and_Solutions_using_Machine_Learning) (low resolution) or there is bright coloring. Always make sure to double check your findings using other research methods.&#x20;
+The facial detection feature may not work efficiently all the time, for example if the footage is of poor [quality](https://www.researchgate.net/publication/374738467_Face_Recognition_Challenges_and_Solutions_using_Machine_Learning) (low resolution) or there is bright coloring. Always make sure to double check your findings using other research methods.&#x20;
 
 Once a user uploads a video, the tool requires to mark a checkbox that explicitly states: "that use of any facial recognition functionality in this service is not by or for a police department in the United States." In addition, all users need to confirm that they have the rights to use and store the uploaded videos before they use the tool.
 
@@ -93,8 +93,6 @@ While Microsoft's Azure AI Video Indexer is able to help with object detection, 
 ## Ethical Considerations
 
 Ethical considerations include privacy concerns. Ethical journalism guidelines can be helpful in understanding how to use facial recognition features in your reporting. For instance, Poynter developed a [starter kit](https://www.poynter.org/ethics-trust/2024/how-to-create-newsroom-artificial-intelligence-ethics-policy/) for an AI ethics policy for newsrooms. You might also want to read Josephine Lulamae's reflections on the ethical use of facial recognition tools in the AlgorithmWatch article: [War Crimes OSINT, Harassment, Doxxing Police and Protesters: Face Recognition for Everyone](https://algorithmwatch.org/en/face-recognition-for-everyone/) (2022).
-
-You can also have a look at ["Six principles to guide Microsoft’s facial recognition work"](https://blogs.microsoft.com/on-the-issues/2018/12/17/six-principles-to-guide-microsofts-facial-recognition-work/).
 
 ## Guides and articles
 
