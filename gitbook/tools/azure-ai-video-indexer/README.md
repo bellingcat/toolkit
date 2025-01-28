@@ -14,7 +14,7 @@ Microsoft's Azure AI Video Indexer allows open source researchers to gain variou
 
 Through the use of facial recognition the tool can automatically spot individuals who appear several times throughout a video. This feature can be helpful when analysing footage of crowd-like situations like protests or when working with vast amounts of video material.&#x20;
 
-Azure AI Video Indexer is also able to extract key topics or keywords from videos and it can be used to generate transcripts which can then be translated into several languages. Those features can reduce the time that is required to analyse a particular set of videos or audios, for instance from long city hall meetings.&#x20;
+Azure AI Video Indexer is also able to extract key topics or keywords from videos and it can be used to generate transcripts which can be translated into several languages. Those features can reduce the time that is required to analyse a particular set of videos or audios, for instance from long city hall meetings.&#x20;
 
 Other features that can be useful for open source researchers are its ability to extract text in videos ([optical character recognition](https://learn.microsoft.com/en-us/azure/azure-video-indexer/ocr-insight)) and object detection. The tool is able to detect various objects, for instance [airplanes, cars, traffic lights or fire hydrants.](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight)
 
@@ -36,7 +36,7 @@ To use the object detection feature of the Video Indexer tool, users can hover o
 
 In our video, the tool identified two objects: A “laptop” which is visible at 0:56 seconds and a “clock”, which is actually the Bellingcat volunteer community logo, at 1:13 seconds. Most likely, the tool misidentified the logo as a “clock” due to its round shape.
 
-In addition, the tool identified "Machine learning" and "Artificial intelligence" as two topics that are discussed in the video (see the screenshot above). It also indexed 30 keywords. Selecting one of the keywords brings up the exact timestamp of when this keyword was mentioned. Users simply need to click on the black boxes on the progress bar to be brought to the relevant section of the video. To see a particular keyword, in our example "bellingcat staff", being mentioned in sequence, just click "play next" or "play previous" beneath the progress bar.
+In addition, the tool identified "Machine learning" and "Artificial intelligence" as two topics that are discussed in the video (see the screenshot above). It also indexed 30 keywords. Selecting one of the keywords brings up the exact timestamp of when this keyword was mentioned. Users simply need to click on the black boxes on the progress bar to be brought to the relevant section of the video. To see all the instances when a particular keyword is mentioned  mentioned throughout a video, just click "play next" or "play previous" beneath the progress bar.
 
 <figure><img src=".gitbook/assets/Keywords screenshot.png" alt=""><figcaption><p>The red circles indicate where the keyword occurs. The green rectangles indicate that clicking on the black box in the progress bar takes you the corresponding timestamp in the video.</p></figcaption></figure>
 
