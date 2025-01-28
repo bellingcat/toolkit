@@ -60,7 +60,7 @@ If the Insight section gets too crowded, users can select or deselect various op
 
 ## Timeline Section
 
-This section helps in capturing quotes in sequence from the footage and getting translations in the preferred language. The tool supports translation into multiple languages; see more details[ here](https://learn.microsoft.com/en-us/azure/azure-video-indexer/language-support). For accuracy, make sure you review the translation. If you are not familiar with the language, cross-check it with experts for verification. Captions in the timeline can also be edited by selecting the pencil icon in the top-right corner. The image below shows the translation of English captions from the footage into Urdu (click on the globe icon for more translation options):
+The timeline section provides a transcript of the video and supports translations into [multiple languages](https://learn.microsoft.com/en-us/azure/azure-video-indexer/language-support). For accuracy, make sure to review the translation. If you are not familiar with the language, cross-check it with native language speakers for verification. The transcription text  can also be edited by selecting the pencil icon in the top-right corner. The image below shows the translation from English into Urdu (click on the globe icon for more translation options):
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-25 at 11.34.04 PM.png" alt=""><figcaption></figcaption></figure>
 
