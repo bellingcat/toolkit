@@ -67,7 +67,7 @@ This section helps in capturing quotes in sequence from the footage and getting 
 Findings can also be downloaded as four options: insights (JSON), artifacts (ZIP), source video, and closed captions.
 
 * [ ] Free
-* [x] Partially Free
+* [ ] Partially Free
 * [x] Paid
 
 The tool is paid but it provides a [free trial account](https://azure.microsoft.com/en-us/pricing/details/video-indexer/#pricing) which allows to work with up to 10 hours of videos (40 for API users). Pricing details can be found [here](https://azure.microsoft.com/en-us/pricing/details/video-indexer/).
@@ -88,7 +88,7 @@ The facial recognition feature may not work efficiently all the time, for exampl
 
 Once a user uploads a video, the tool requires to mark a checkbox that explicitly states: "that use of any facial recognition functionality in this service is not by or for a police department in the United States." In addition, all users need to confirm that they have the rights to use and store the uploaded videos before they use the tool.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-26 at 12.20.25 AM.png" alt=""><figcaption><p>Checking a box before uploading the video</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-01-26 at 12.20.25 AM.png" alt=""><figcaption><p>The tool requires to check a box before uploading the video</p></figcaption></figure>
 
 It is also important to note that the tool is not able to identify individuals. It is able to spot if the same [individual](https://learn.microsoft.com/en-us/azure/azure-video-indexer/face-detection-insight) shows up several times in a video but the open source researcher still needs to find out who the person is (unless they are a celebrity).
 
@@ -98,7 +98,7 @@ While Microsoft's Azure AI Video Indexer is able to help with object detection, 
 
 Ethical considerations include privacy concerns. Ethical journalism guidelines can be helpful in understanding how to use facial recognition features in your reporting. For instance, Poynter developed a [starter kit](https://www.poynter.org/ethics-trust/2024/how-to-create-newsroom-artificial-intelligence-ethics-policy/) for an AI ethics policy for newsrooms. You might also want to read Josephine Lulamae's reflections on the ethical use of facial recognition tools in the AlgorithmWatch article: [War Crimes OSINT, Harassment, Doxxing Police and Protesters: Face Recognition for Everyone](https://algorithmwatch.org/en/face-recognition-for-everyone/) (2022).
 
-See "Six principles to guide Microsoft’s facial recognition work" [here](https://blogs.microsoft.com/on-the-issues/2018/12/17/six-principles-to-guide-microsofts-facial-recognition-work/).
+You can also have a look at ["Six principles to guide Microsoft’s facial recognition work"](https://blogs.microsoft.com/on-the-issues/2018/12/17/six-principles-to-guide-microsofts-facial-recognition-work/).
 
 ## Guides and articles
 
