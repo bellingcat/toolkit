@@ -8,6 +8,7 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "url": "https://bellingcat.gitbook.io/toolkit/more/all-tools/about-maps-and-satellites",
+  "cost": "Free",
   "tags": []
 }
 ```
