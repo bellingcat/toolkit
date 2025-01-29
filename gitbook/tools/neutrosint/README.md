@@ -4,8 +4,6 @@ description: A tool for investigating ProtonMail email addresses.
 
 # NeutrOSINT
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>NeutrOSINT's ASCII Art Logo</p></figcaption></figure>
-
 ## URL
 
 [https://github.com/Kr0wZ/NeutrOSINT](https://github.com/Kr0wZ/NeutrOSINT)
