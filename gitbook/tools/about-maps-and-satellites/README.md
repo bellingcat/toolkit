@@ -141,16 +141,8 @@ Crowdsourced data can be particularly prone to bias in the geographic coverage, 
 
 
 
-### &#x20;
-
-
-
-\
-
-
-
 | Page maintainer                                                |
 | -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
+| Bellingcat volunteer team |
 |                                                                |
 
