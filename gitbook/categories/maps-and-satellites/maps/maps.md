@@ -2,6 +2,7 @@
 
 | Name | Description | Cost | URL |
 | --- | --- | --- | --- |
+| About Maps and Satellites | A guide to using map and satellite tools. |  | [https://bellingcat.gitbook.com/more/all-tools/about-maps-and-satellites](https://bellingcat.gitbook.com/more/all-tools/about-maps-and-satellites) |
 | [**AllTrails**](../../../tools/alltrails/README.md) | AllTrails.com is a tool for discovering hiking, biking, and running trails worldwide, providing detailed trail maps, user reviews, and navigation support for outdoor enthusiasts. | <mark style="background-color:orange;">Partially Free</mark> | [https://www.alltrails.com/](https://www.alltrails.com/) |
 | [**Apple Maps**](../../../tools/apple-maps/README.md) | Apple Maps is a digital mapping service with detailed, interactive maps, satellite imagery, and location-based information. | <mark style="background-color:green;">Free</mark> | [https://www.apple.com/maps/](https://www.apple.com/maps/) |
 | [**Baidu Maps**](../../../tools/baidu-maps/README.md) | Baidu’s mapping service offering satellite imagery, street maps, and streetview (“Panorama” - zh:百度全景). | <mark style="background-color:green;">Free</mark> | [http://map.baidu.com/](http://map.baidu.com/) |
