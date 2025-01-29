@@ -36,6 +36,6 @@
 * [ ] [Data Organization & Analysis](https://bellingcat.gitbook.io/toolkit/categories/data)
 * [ ] [Environment & Wildlife](https://bellingcat.gitbook.io/toolkit/categories/environment-and-wildlife)
 * [ ] [Geolocation](https://bellingcat.gitbook.io/toolkit/categories/geolocation)
-* [ ] [People](https://bellingcat.gitbook.io/toolkit/categories/people)
+* [x] [People](https://bellingcat.gitbook.io/toolkit/categories/people)
 * [ ] [Transport](https://bellingcat.gitbook.io/toolkit/categories/transport)
 * [ ] [Websites](https://bellingcat.gitbook.io/toolkit/categories/websites)
