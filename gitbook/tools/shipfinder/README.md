@@ -55,7 +55,7 @@ The browser-based version of ShipFinder is free. However, its mobile application
 
 ## Ethical Considerations
 
-Collating and analyzing data about specific vessels and their movements can potentially reveal sensitive information about individuals or organizations that was not intended to be public. This can raise privacy concerns.&#x20;
+Collating and analyzing data about specific vessels and their movements can potentially reveal sensitive information about individuals or organizations that was not intended to be public. This can raise privacy concerns. Make sure to use the tool responsibly and for research in the public interest&#x20;
 
 ## Guides and articles
 
