@@ -263,4 +263,4 @@ The tool is developed and maintained by [KrowZ](https://blog.synoslabs.com/about
 
 | Page maintainer           |
 | ------------------------- |
-| Bellingcat volunteer team |
+| Bellingcat Volunteer Team |
