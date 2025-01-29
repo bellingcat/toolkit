@@ -1,4 +1,4 @@
 # Table of contents
 
-* [about-maps-and-satellites](README.md)
+* [About Maps and Satellites](README.md)
 * [Categories](categories.md)

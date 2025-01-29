@@ -4,12 +4,6 @@ description: A guide to using map and satellite tools.
 
 # About Maps and Satellites
 
-## URL
-
-https://bellingcat.gitbook.com/more/all-tools/about-maps-and-satellites
-
-# About Maps & Satellites
-
 ### Introduction Maps and satellite imagery
 
 Maps and satellite imagery are vitally important tools for open source researchers engaged in geolocation and chronolocation. Most people are familiar with maps and their use in helping to orient and direct us in our daily lives. However, this familiarity is something open source researchers should be wary of. Maps and satellites have many uses for open source researchers but they also come with important ethical considerations and technical limitations.
