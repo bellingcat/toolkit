@@ -53,11 +53,9 @@ The browser-based version of ShipFinder is free. However, its mobile application
 * **Advanced Features**: Compared to other maritime tracking apps, ShipFinder might lack some advanced features like extensive filtering options and comprehensive vessel databases. Adding these features could enhance the app's utility for more professional users.
 * **Subscription Costs**: The premium version of the app, which offers additional features, may be considered expensive by some users. More flexible pricing plans or additional features in the free version could make the app more accessible.
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
-
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Collating and analyzing data about specific vessels and their movements can potentially reveal sensitive information about individuals or organizations that was not intended to be public. This can raise privacy concerns.&#x20;
 
 ## Guides and articles
 
