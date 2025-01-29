@@ -2,7 +2,7 @@
 
 | Name | Description | Cost | URL |
 | --- | --- | --- | --- |
-| About Maps and Satellites | A guide to using map and satellite tools. |  | [https://bellingcat.gitbook.io/toolkit/more/all-tools/about-maps-and-satellites](https://bellingcat.gitbook.io/toolkit/more/all-tools/about-maps-and-satellites) |
+| [**About Maps and Satellites**](../../../tools/about-maps-and-satellites/README.md) | A guide to using map and satellite tools. |  | [https://bellingcat.gitbook.io/toolkit/more/all-tools/about-maps-and-satellites](https://bellingcat.gitbook.io/toolkit/more/all-tools/about-maps-and-satellites) |
 | [**Baidu Maps**](../../../tools/baidu-maps/README.md) | Baidu’s mapping service offering satellite imagery, street maps, and streetview (“Panorama” - zh:百度全景). | <mark style="background-color:green;">Free</mark> | [http://map.baidu.com/](http://map.baidu.com/) |
 | [**Bing Maps**](../../../tools/bing-maps/README.md) | Bing Maps is a web mapping service provided by Microsoft that offers detailed geographical information and tools for route planning, location search, and satellite imagery. | <mark style="background-color:orange;">Partially Free</mark> | [https://www.bing.com/maps/](https://www.bing.com/maps/) |
 | Carte.ma | Mapping/streetview service for Morocco | <mark style="background-color:green;">Free</mark> | [http://carte.ma/](http://carte.ma/) |
