@@ -61,7 +61,7 @@ The browser-based version of ShipFinder is free. However, its mobile application
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+\-
 
 ## Tool provider
 
