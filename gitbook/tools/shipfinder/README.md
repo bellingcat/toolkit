@@ -14,13 +14,13 @@ description: >-
 
 <figure><img src=".gitbook/assets/shipfinderinterface.JPG" alt=""><figcaption><p><strong>SHIPFINDER INTERFACE SHOWING VESSELS AROUND ISTANBUL, AND DETAILS OF A SELECTED VESSEL</strong></p></figcaption></figure>
 
-The map-based layout allows users to zoom in and out effortlessly to view vessel locations in specific areas or worldwide. The search function enables users to quickly find and track specific ships or ports.
+The map-based layout allows users to zoom in and out to view vessel locations in specific areas or worldwide. The search function enables users to quickly find and track specific ships or ports.
 
 The app is available on both mobile and desktop platforms, ensuring users can monitor marine traffic from various devices.&#x20;
 
 **Features**
 
-1. **Real-Time Tracking**: The app provides live tracking of ships, displaying their current positions, speed, and course. This feature is beneficial for maritime professionals needing to monitor fleet movements or for enthusiasts interested in observing ship activities.
+1. **Real-Time Tracking**: The app provides (near) live tracking of ships, displaying their current positions, speed, and course. This feature is beneficial for maritime professionals needing to monitor fleet movements or for enthusiasts interested in observing ship activities.
 2. **Vessel Information**: ShipFinder includes detailed information about each vessel, such as its name, type, destination, and voyage history. This data is valuable for users looking to learn more about specific ships and their operations.
 3. **AIS Data Integration**: The app leverages AIS (Automatic Identification System) data to provide accurate and up-to-date information. This integration ensures that users receive reliable data about ship movements and positions.
 4. **Customizable Alerts**: Users can set up personalized alerts for specific vessels or areas. This feature keeps users informed about significant events, such as a ship's arrival at a port or changes in its route.
