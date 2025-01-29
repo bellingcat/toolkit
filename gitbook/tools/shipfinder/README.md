@@ -14,9 +14,9 @@ description: >-
 
 <figure><img src=".gitbook/assets/shipfinderinterface.JPG" alt=""><figcaption><p><strong>SHIPFINDER INTERFACE SHOWING VESSELS AROUND ISTANBUL, AND DETAILS OF A SELECTED VESSEL</strong></p></figcaption></figure>
 
-The map-based layout is intuitive, allowing users to zoom in and out effortlessly to view vessel locations in specific areas or worldwide. The search function is robust, enabling users to quickly find and track specific ships or ports.
+The map-based layout allows users to zoom in and out effortlessly to view vessel locations in specific areas or worldwide. The search function enables users to quickly find and track specific ships or ports.
 
-The app is available on both mobile and desktop platforms, ensuring users can monitor marine traffic conveniently from various devices. The design is optimized for performance, providing a smooth and responsive user experience.
+The app is available on both mobile and desktop platforms, ensuring users can monitor marine traffic from various devices.&#x20;
 
 **Features**
 
