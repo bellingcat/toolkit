@@ -23,7 +23,7 @@ Hoaxy assists in unraveling the complex web of information dissemination online,
 
 The tool providers saw that [false claims spread faster than fact-checked claims](https://www.researchgate.net/publication/301841797_Hoaxy_A_Platform_for_Tracking_Online_Misinformation)(p.1). [According to them](https://www.researchgate.net/publication/301841797_Hoaxy_A_Platform_for_Tracking_Online_Misinformation), social media networks often show us information from people who think like us, creating echo chambers where we see similar views and ideas repeatedly (p.1).
 
-For open-source researchers wanting to verify false claims, it is important to recognize that the anatomy of information dissemination has multiple moving parts: When did a narrative start? Where did it first appear? Who is the source of the narrative? How credible is the source? And who are the receivers/audience? Among the receivers, which accounts forwarded the information? How fast did a particular narrative spread within a particular time frame?
+For open-source researchers wanting to verify false claims, it is important to recognize that the anatomy of information dissemination has multiple moving parts: When did a narrative start? Where did it first appear? Who is the source of the narrative? How credible is the source? And who are the receivers/audience? Among the receivers, which accounts forwarded the information? How fast did a particular narrative spread within a particular time-frame?
 
 Hoaxy solves some of these questions through the following key features:
 
