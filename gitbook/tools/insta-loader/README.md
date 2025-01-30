@@ -113,7 +113,7 @@ While basic usage (e.g., downloading all posts from a profile) is straightforwar
 
 ## Tool provider
 
-This free, open-source software is developed primarily by Alexander Graf (GitHub: [aandergr](https://github.com/aandergr)) and is currently sponsored by [@rocketapi-io](https://rocketapi.io).
+The software is developed primarily by Alexander Graf (GitHub: [aandergr](https://github.com/aandergr)) and is currently sponsored by [@rocketapi-io](https://rocketapi.io), Estonia.
 
 ## Advertising Trackers
 
