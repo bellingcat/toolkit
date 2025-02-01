@@ -8,6 +8,8 @@ description: >-
 
 ## URL
 
+[https://auto-archiver.bellingcat.com/](https://auto-archiver.bellingcat.com/)
+
 {% embed url="https://auto-archiver.bellingcat.com" %}
 see [https://github.com/bellingcat/auto-archiver](https://github.com/bellingcat/auto-archiver) for continuous update status
 {% endembed %}
