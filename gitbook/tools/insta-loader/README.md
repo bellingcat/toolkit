@@ -52,6 +52,35 @@ Instaloader is an open-source tool that facilitates downloading and archiving co
    * Manages rate limits (HTTP 429), login errors, and download interruptions.
    * Provides distinct exit codes (0 to 5) to indicate different failure or partial-success states
 
+<details>
+
+<summary>Instaloader &#x26; Bellingcat Auto Archiver</summary>
+
+**`When you're working with the`** [**`Bellingcat Auto Archiver`**](https://github.com/bellingcat/auto-archiver)**`, you may be asked to provide instaloader.session`**
+
+**`instaloader.session`** is a file created by the Instaloader tool (which Auto Archiver uses under the hood for Instagram content). Essentially, it is a small data file that stores your **login session** (including cookies) for Instagram so that you don’t have to log in every time you run Instaloader or the Auto Archiver.
+
+1. **Why It Exists**
+   * Instagram requires users to log in for certain types of data access (especially if you need to see private or protected content). When you enter your username and password in Instaloader for the first time, the tool authenticates with Instagram and fetches a session token (a cookie).
+   * Instaloader then **saves** that session token locally to a file called `instaloader.session`.
+2. **How It Is Created**
+   * The **first time** you run Instaloader (or Auto Archiver with the `instagram_archiver` step enabled) and attempt to archive from a private Instagram account or any content that requires login; Instaloader will prompt you for Instagram credentials.
+   * After successful login, a file named `instaloader.session` appears in the working directory (or wherever the tool is configured to store session data).
+3. **What’s Inside**
+   * Internally, it contains **cookies** that represent your authenticated session on Instagram. These cookies let Instaloader reuse your login, so you don’t have to type your username and password on each run.
+   * It also ensures Instagram recognizes you in the same way as if you’d logged in via your browser.
+4. **Where to Store It**
+   * For **Auto Archiver**, best practice is to place `instaloader.session` (once generated) in your `secrets/` folder. That way, the Docker container or local script knows where to find your session, and you’re not repeatedly asked for credentials.
+   * Remember to keep this file **private** and avoid committing it to version control (e.g., GitHub). Anyone with access to it could theoretically use your Instagram session.
+5. **Expiration & Re-authentication**
+   * Sometimes, Instagram invalidates session cookies (e.g., for security or if you change your password). If that happens, Instaloader may prompt you to log in again and create a **new** `instaloader.session` file.
+   * If you notice archiving stops working for Instagram, you might need to **delete** the old session file and let Instaloader recreate it with fresh credentials.
+6. **Security Considerations**
+   * Treat `instaloader.session` as if it’s your actual Instagram login. Anyone who obtains a valid session file might have the same access to your account.
+   * Use a dedicated Instagram account for archiving whenever possible (instead of a personal one), and store that account’s session file in a secure place.
+
+</details>
+
 
 
 ## Cost
