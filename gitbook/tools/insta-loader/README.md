@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Instaloader is an open-source tool that facilitates downloading and archiving content from Instagram. Available as both a command-line tool and a Python module, it allows researchers to retrieve and organize data, including media posts, stories, metadata, and more. Its versatility and ability to work with both public and private profiles (with proper authorization) makes it a valuable resource for Open Source Intelligence (OSINT) investigations.
+Instaloader is an open-source tool that facilitates downloading and archiving content from Instagram. Available as both a command-line tool and a Python module, it allows researchers to retrieve and organize data, including media posts, stories, metadata, and more. Its versatility and ability to work with both public and private profiles (with proper authorization) can make it a valuable resource for open source investigations.
 
 1. **Media Downloading**:
    * Downloads photos and videos from public and private Instagram profiles, hashtags, stories, feeds, saved media, IGTV, and reels.
