@@ -3,7 +3,7 @@
 | Name | Description | Cost | URL |
 | --- | --- | --- | --- |
 | [**Archive.today**](../../tools/archive.today/README.md) | Archive any webpage, including Facebook and search for archived pages. | <mark style="background-color:green;">Free</mark> | [https://archive.today](https://archive.today) |
-| [**Auto Archiver**](../../tools/auto-archiver/README.md) | Bellingcat's tool to automatically archive social media posts, videos, and images. Free and Open-Source. | <mark style="background-color:green;">Free</mark> | [https://auto-archiver.bellingcat.com](https://auto-archiver.bellingcat.com) |
+| [**Auto Archiver**](../../tools/auto-archiver/README.md) | Bellingcat's tool to automatically archive social media posts, videos, and images. Free and Open-Source. | <mark style="background-color:green;">Free</mark> | [https://auto-archiver.bellingcat.com/](https://auto-archiver.bellingcat.com/) |
 | Bellingcat TikTok Hashtag Analysis | Archive content and metadata from TikTok posts that contain one or more specified hashtags | <mark style="background-color:green;">Free</mark> | [https://github.com/bellingcat/tiktok-hashtag-analysis](https://github.com/bellingcat/tiktok-hashtag-analysis) |
 | [**Distill.io**](../../tools/distill/README.md) | Distill.io is a website change monitoring tool that allows users to track changes on web pages. | <mark style="background-color:orange;">Partially Free</mark> | [https://distill.io](https://distill.io) |
 | [**Hunchly**](../../tools/hunchly/README.md) | An archiving tool that tracks online activities and preserves essential information about the web pages researchers visit. | <mark style="background-color:red;">Paid</mark> | [https://www.hunch.ly/](https://www.hunch.ly/) |
