@@ -44,7 +44,7 @@ LittleSis includes 'network maps' for all entities (people and organisations):
 
 <figure><img src=".gitbook/assets/Screenshot 2024-09-25 at 14.59.22.png" alt=""><figcaption><p>A network map for Donald Trump</p></figcaption></figure>
 
-Access the network maps from a person's or organisation's page search results page. The map will show you relationships that illustrate the topic of the map like donations (e.g. in the map above, Henry R Kravis donated US$1 million to Trump's inauguration). You can create your own maps, but you need to be registered to do that. (Once you have logged in, go to Add>Map.)
+Access the network maps from a person's or organisation's search results page. The map will show you relationships that illustrate the topic of the map like donations (e.g. in the map above, Henry R Kravis donated US$1 million to Trump's inauguration). You can create your own maps, but you need to be registered to do that. (Once you have logged in, go to Add>Map.)
 
 LittleSis data is searchable online, can be accessed through an [API](https://littlesis.org/api), and can be [downloaded](https://littlesis.org/database/bulk_data) as JSON files.
 
