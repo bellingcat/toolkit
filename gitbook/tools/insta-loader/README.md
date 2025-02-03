@@ -56,7 +56,7 @@ Instaloader is an open-source tool that facilitates downloading and archiving co
 
 <summary>Instaloader &#x26; Bellingcat Auto Archiver</summary>
 
-**`When you're working with the`** [**`Bellingcat Auto Archiver`**](https://github.com/bellingcat/auto-archiver)**`, you may be asked to provide instaloader.session`**
+**`When you're working with the`** [**`Bellingcat Auto Archiver`**](https://bellingcat.gitbook.io/toolkit/more/all-tools/auto-archiver)**`, you may be asked to provide instaloader.session`**
 
 **`instaloader.session`** is a file created by the Instaloader tool (which Auto Archiver uses under the hood for Instagram content). Essentially, it is a small data file that stores your **login session** (including cookies) for Instagram so that you don’t have to log in every time you run Instaloader or the Auto Archiver.
 
