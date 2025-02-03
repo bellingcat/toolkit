@@ -12,11 +12,13 @@ description: Links to beneficial ownership registers.
 
 OpenOwnership helps countries to publish standards-compliant beneficial ownership (BO) registers, which give details of the actual human owners and the people who can benefit from an entity's operations and profits, or control its activities.
 
-It's important to know a company's beneficial owner as sometimes other people or entities (e.g. a trust or shell company) are entered on the corporate register, meaning that if you only search that register, you may not find the actual owner. An increasing number of countries are requiring disclosure of beneficial ownership.
+It's important to know a company's beneficial owners as sometimes other people or entities (e.g. a trust or shell company) are entered on the corporate register, meaning that if you only search that register, you may not find the actual owners. An increasing number of countries are requiring disclosure of beneficial ownership.
 
 Open Ownership makes it easy to see if a country has a BO register, and if it is available to the public - each country has a page with this information:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-21 at 11.54.16.png" alt=""><figcaption><p>The Bulgaria country page on OpenOwnership, which includes a hyperlink to the register</p></figcaption></figure>
+
+To search for a country's page on OpenOwnership, scroll down to 'Find a specific country' on the [map page](https://www.openownership.org/en/map/).
 
 It also has a useful 'Worldwide action on beneficial ownership transparency' [map](https://www.openownership.org/en/map/) of which countries have BO registers:
 
