@@ -58,15 +58,21 @@ Python3
 
 ## Installation and usage
 
-Maigret can be installed using pip3, Docker, or by cloning the GitHub repository. It is recommended to use Python 3.10 or higher versions.
+For those using Windows, standalone EXE binaries are available in the [Releases section](https://github.com/soxoj/maigret/releases) of the GitHub repository. This provides an easy way to run the tool without needing Python installed.
 
-To install from PyPl:
+Additionally, Maigret is available through an official [Telegram bot](https://t.me/osint_maigret_bot), which provides a great alternative if you prefer not to install anything on your system.
+
+If you wish to use the tool without installation, it can also be launched from cloud shells and Jupyter notebooks. This allows you to run it directly in your browser. You can follow the provided instructions to launch Maigret in your browser, with options to open it in [Google Cloud Shell,](https://shell.cloud.google.com/) run it on [Replit](https://replit.com), open it in Colab, or launch it via [Binder](https://mybinder.org).
+
+For local installation, you can use pip3, Docker, or clone the GitHub repository.
+
+**To install from PyPl:**
 
 ```python
 // pip3 install maigret
 ```
 
-Cloning the repository:
+**Cloning the repository:**
 
 ```python
 // git clone https://github.com/soxoj/maigret && cd maigret
@@ -89,6 +95,22 @@ For example, you can search for all accounts that have the username 'bellingcat'
 // maigret --filter "cat=social" --username bellingcat
 ```
 
+**Web Interface:**
+
+Maigret also offers a web interface that makes it easier to interact with search results. To use the web interface, you need to use the --web flag and specify a port number.
+
+For example, to run the web interface on port 5000, use:
+
+```
+// maigret --web 5000
+```
+
+Once Maigret is running with the web interface, open your browser and go to http://127.0.0.1:5000.&#x20;
+
+Here, you can enter one or more usernames to initiate a search. After the search is complete, the web interface will display a graphical representation of the results, a table with all the accounts found, and provide options to download the reports in multiple formats (HTML, PDF, etc.).
+
+<figure><img src=".gitbook/assets/bellingcat_web_maigret.png" alt=""><figcaption><p>Maigret Web Interface displays search results for the username “Bellingcat,” with a combined graph of linked accounts and individual report options.</p></figcaption></figure>
+
 ## Limitations and Ethical Consideration
 
 Maigret may miss valid results from various sources. Additionally, it may encounter issues with bot protection and CAPTCHAs, leading to errors in the search results. There is also a possibility of false positives, where the tool might incorrectly identify accounts belonging to the searched username.
@@ -97,6 +119,7 @@ Maigret may miss valid results from various sources. Additionally, it may encoun
 
 * Information regarding the tool and documentation: [https://maigret.readthedocs.io/en/latest/index.html](https://maigret.readthedocs.io/en/latest/index.html)
 * GitHub repo and instruction for installation: [https://github.com/soxoj/maigret](https://github.com/soxoj/maigret)
+* Youtube video for Windows installation and usage: [https://www.youtube.com/watch?v=qIgwTZOmMmM](https://www.youtube.com/watch?v=qIgwTZOmMmM)
 
 ## Tool provider
 
