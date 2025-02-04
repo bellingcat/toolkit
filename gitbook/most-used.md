@@ -2,7 +2,7 @@
 
 | Name | Description | Cost | URL |
 | --- | --- | --- | --- |
-| [**Auto Archiver**](tools/auto-archiver/README.md) | Bellingcat's tool to automatically archive social media posts, videos, and images. Free and Open-Source. | <mark style="background-color:green;">Free</mark> | [https://auto-archiver.bellingcat.com](https://auto-archiver.bellingcat.com) |
+| [**Auto Archiver**](tools/auto-archiver/README.md) | Bellingcat's tool to automatically archive social media posts, videos, and images. Free and Open-Source. | <mark style="background-color:green;">Free</mark> | [https://auto-archiver.bellingcat.com/](https://auto-archiver.bellingcat.com/) |
 | [**Google Earth Pro**](tools/google-earth-pro/README.md) | Google Earth is a geospatial tool that provides detailed, global satellite imagery, maps, 3D terrain models, and the ability to explore geographic data interactively. | <mark style="background-color:green;">Free</mark> | [https://www.google.com/earth/about/versions/](https://www.google.com/earth/about/versions/) |
 | [**Google Maps**](tools/google-maps/README.md) | Google Maps provides mapping information, satellite imagery and Google Street View imagery including historical Street View images. | <mark style="background-color:green;">Free</mark> | [https://www.google.com/maps](https://www.google.com/maps) |
 | [**Wayback Machine**](tools/internet-archive/README.md) | The Internet Archive's Wayback Machine lets users view and archive web pages, aiding in historical research and digital preservation. | <mark style="background-color:green;">Free</mark> | [https://web.archive.org/](https://web.archive.org/) |
