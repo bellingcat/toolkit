@@ -18,7 +18,7 @@ It is important to keep in mind that you should never solely rely on facial reco
 
 ### Step-by-step guide
 
-Simply drag and drop the image in the search engine. Once the search is complete, FaceCheck.ID will generate a report. Each photograph it has identified has a certainty score between 0 and 100. The higher the score the higher the likelihood that the two faces might be the same according to FaceCheck.ID. The search report is deleted after 24 hours, but you can create a permanent link for future reference by clicking on the link below the report.
+Simply drag and drop the image in the search engine. Once the search is complete, FaceCheck.ID will generate a report. Each photograph it has identified has a certainty score between 0 and 100. The higher the score the higher the likelihood that the two faces might be the same according to FaceCheck.ID. The search report is [deleted ](https://facecheck.id/Face-Search/FAQ)after 24 hours, according to the FAQ page of FaceCheck.ID. That said, you can create a permanent link for future reference by clicking on the link below the report.
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
