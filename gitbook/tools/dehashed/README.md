@@ -84,5 +84,5 @@ Not so clear. The website's privacy policy suggests that DeHashed is registered 
 
 | Page maintainer |
 | --------------- |
-| Ana GAP member  |
+| Ana             |
 |                 |
