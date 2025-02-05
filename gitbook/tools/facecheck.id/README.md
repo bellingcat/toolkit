@@ -68,5 +68,5 @@ The FaceCheck.ID website states it was created by Sentient Labs in Belize.
 
 | Page maintainer |
 | --------------- |
-| Ana GAP member  |
+| Ana             |
 |                 |
