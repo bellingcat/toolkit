@@ -22,7 +22,7 @@
 * [ ] [Multiple Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/multiple-networks)
 * [ ] [Other Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/other-networks)
 * [ ] [Reddit](https://bellingcat.gitbook.io/toolkit/categories/social-media/reddit)
-* [ ] [Telegram](https://bellingcat.gitbook.io/toolkit/categories/social-media/telegram)
+* [x] [Telegram](https://bellingcat.gitbook.io/toolkit/categories/social-media/telegram)
 * [ ] [Tiktok](https://bellingcat.gitbook.io/toolkit/categories/social-media/tiktok)
 * [ ] [Twitter/X](https://bellingcat.gitbook.io/toolkit/categories/social-media/twitter)
 * [ ] [Vkontakte](https://bellingcat.gitbook.io/toolkit/categories/social-media/vkontakte)
