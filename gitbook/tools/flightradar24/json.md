@@ -7,14 +7,8 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Flightradar24",
-  "url": "http://flightradar24.com/",
-  "description": "Tracking (civilian) flights. $ to go back in 12-month archive.",
-  "cost": "Free",
-  "details": "✈️\n",
-  "tags": [
-    "transport"
-  ]
+    "url": "https://www.flightradar24.com/",
+    "tags": ["transport"]
 }
 ```
 {% endcode %}
@@ -24,10 +18,6 @@ Keep the codeblock updated with accurate information. Only edit the **values** (
 ## name, description (optional)
 
 If omitted, the name and description will be copied from the page title and page description of the main content. If present, the JSON values override the main content.
-
-## draft (optional)
-
-If set to `true`, this prevents this tool from being listed in relevant category pages. Useful if the tool does not yet have a url and description set. Omit or set to false to publish.
 
 ## url
 
