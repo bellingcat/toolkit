@@ -50,11 +50,7 @@ It is free to search if you set up an account with just an email and password, b
 
 Running searches is free but you have to create an account first. This is relatively easy and requires only an email address and password. However, if you want to actually view the hits, you need to purchase a subscription.&#x20;
 
-The current [pricing ](https://dehashed.com/pricing)information is below:&#x20;
-
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Screenshot 3. Pricing information.</p></figcaption></figure>
-
-
+The current pricing information can be found [here](https://dehashed.com/pricing).&#x20;
 
 ## Level of difficulty
 
