@@ -162,8 +162,6 @@ TelegramDB. (2024). _TelegramDB/TelegramDB_ \[Computer software]. [https://githu
 But they're listening to what the community wants:\
 ![](.gitbook/assets/image.png)
 
-Keep up the good work!
-
 ## Advertising Trackers
 
 * [ ] This tool has not yet been checked for advertising trackers.
