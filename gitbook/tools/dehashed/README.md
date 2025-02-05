@@ -34,11 +34,11 @@ Record any relevant results and data points as you go to map out a subject's onl
 
 The search engine is extremely simple to use and user-friendly: you can run a keyword search either by field or across all fields:
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>You can search across all fields, or just pick one.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Screenshot 1. You can search across all fields, or just pick one.</p></figcaption></figure>
 
 If you search by, say, email address, you will get a list of various data points associated with that email, including names and passwords. You can then run more searches against, for example, the names and passwords you identified during your original search with a view to finding more accounts and generating fresh research leads.&#x20;
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>You can view the results with a paid subscription.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Screenshot 2. You can view the results with a paid subscription.</p></figcaption></figure>
 
 It is free to search if you set up an account with just an email and password, but **you need a paid subscription to actually view the results**. See below for pricing information. &#x20;
 
@@ -52,7 +52,7 @@ Running searches is free but you have to create an account first. This is relati
 
 The current [pricing ](https://dehashed.com/pricing)information is below:&#x20;
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Pricing information.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Screenshot 3. Pricing information.</p></figcaption></figure>
 
 
 
