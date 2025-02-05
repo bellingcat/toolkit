@@ -28,7 +28,7 @@ You might also find IP addresses and location-specific accounts that can help yo
 
 Pay attention to their usernames and passwords. Do they contain numbers that could represent dates of birth? Or the name of the city they live in?&#x20;
 
-Record any relevant results and data points as you go to map out a subject's online footprint. How many usernames, email addresses, IP addresses are they linked to?  What do these tell us about their online activities, location, family etc.?
+Record any relevant results and data points as you go to map out a subject's online footprint. How many usernames, email addresses, IP addresses are they linked to?  What do these tell us about their online activities, interestes, location etc.?
 
 ### Step-by-step guide on how to use DeHashed
 
