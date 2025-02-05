@@ -167,7 +167,7 @@
   * [Archive.today](tools/archive.today/README.md)
   * [Pinpoint](tools/pinpoint/README.md)
   * [SkyFi](tools/skyfi/README.md)
-  * [Who posted what?](tools/who-posted-what?/README.md)
+  * [Who posted what?](tools/who-posted-what/README.md)
   * [Zotero](tools/zotero/README.md)
   * [Distill.io](tools/distill/README.md)
   * [Quick geolocation search](tools/quick-geolocation-search/README.md)
