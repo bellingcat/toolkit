@@ -4,6 +4,7 @@
 | --- | --- | --- | --- |
 | 192.com | Searching for someone's address in the UK, phone number and who they live with according to electoral rolls. | <mark style="background-color:green;">Free</mark> | [http://www.192.com/](http://www.192.com/) |
 | [**Blackbird**](../../tools/blackbird/README.md) | Check usernames and email addresses on websites and social networks | <mark style="background-color:green;">Free</mark> | [https://github.com/p1ngul1n0/blackbird](https://github.com/p1ngul1n0/blackbird) |
+| [**DeHashed**](../../tools/dehashed/README.md) | A search engine that provides access to a database of compromised credentials. | <mark style="background-color:red;">Paid</mark> | [https://dehashed.com/](https://dehashed.com/) |
 | [**DiscordLeaks**](../../tools/discordleaks/README.md) | Search hundreds of thousands of messages leaked from 180+ white-supremacist / nazi discord servers. | <mark style="background-color:green;">Free</mark> | [https://discordleaks.unicornriot.ninja/discord/server/](https://discordleaks.unicornriot.ninja/discord/server/) |
 | Eniro | Yellow Pages (Swedish Edition) | <mark style="background-color:green;">Free</mark> | [https://www.eniro.se/](https://www.eniro.se/) |
 | Epieos | Checks where an email has been used. Based on Holehe. | <mark style="background-color:red;">Paid</mark> | [https://tools.epieos.com/holehe.php](https://tools.epieos.com/holehe.php) |
