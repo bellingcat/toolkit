@@ -10,7 +10,7 @@ description: A search engine that provides access to a database of compromised c
 
 ## Description
 
-DeHashed has compiled a searchable database of leaked personal information and  sensitive data. It allows users to search through billions of records, including **names, email addresses, usernames, IP address, physical address, phone number, vehicle identification number, and domains.**&#x20;
+DeHashed has compiled a searchable database of leaked personal information and sensitive data. It allows users to search through billions of records, including **names, email addresses, usernames, IP address, physical address, phone number, vehicle identification number, and domains.**&#x20;
 
 It is ostensibly designed for individuals and companies to detect and monitor data breaches in real time, but can also be effectively used for open source research.&#x20;
 
@@ -34,11 +34,11 @@ Record any relevant results and data points as you go to map out a subject's onl
 
 The search engine is extremely simple to use and user-friendly: you can run a keyword search either by field or across all fields:
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Available Field options are listed on the left hand side.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>You can search across all fields, or just pick one.</p></figcaption></figure>
 
 If you search by, say, email address, you will get a list of various data points associated with that email, including names and passwords. You can then run more searches against, for example, the names and passwords you identified during your original search with a view to finding more accounts and generating fresh research leads.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-13 at 20.33.28.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>You can view the results with a paid subscription.</p></figcaption></figure>
 
 It is free to search if you set up an account with just an email and password, but **you need a paid subscription to actually view the results**. See below for pricing information. &#x20;
 
@@ -52,7 +52,7 @@ Running searches is free but you have to create an account first. This is relati
 
 The current [pricing ](https://dehashed.com/pricing)information is below:&#x20;
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Pricing information.</p></figcaption></figure>
 
 
 
