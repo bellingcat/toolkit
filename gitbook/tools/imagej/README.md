@@ -28,11 +28,10 @@ ImageJ is a powerful, open-source image processing program, widely used in field
 #### Other OSINT-related possible uses:
 
 * [**Dot Counting**](https://imagej.net/imaging/particle-analysis): Count distinct markers, symbols, or objects (e.g., dots, like in maritime or geospatial datasets) using **Analyze Particles** after applying thresholding. This is useful for mapping or monitoring activities in specific regions.
-* **Crowd Analysis**: Estimate crowd sizes in aerial or event photographs by isolating individuals with segmentation techniques and counting them with **Analyze Particles** or other machine learning based approaches like [convolutional neural networks in Python.](https://ojs.batstate-u.edu.ph/index.php/IRJIEST/article/view/47/45)&#x20;
-* **Infrastructure Analysis**: Measure the dimensions of buildings, roads, or other infrastructure elements in satellite or drone imagery by calibrating the scale and using tools like [Add Scale Bar](https://kaplinskylab.domains.swarthmore.edu/scalebar.htm), **Set Scale** and **Measure**.
-* **Symbol Detection**: Identify and count repetitive elements, such as logos, symbols, or specific patterns, in image datasets. Thresholding combined with batch processing simplifies analysis for large collections.
-* **Maritime Traffic Monitoring**: Count ships or vessels in ocean imagery by isolating them through [segmentation ](https://imagej.net/imaging/segmentation)and thresholding, enabling analysis of port activities or maritime patterns.
-* **Deforestation Tracking**: Identify and count cleared forest patches in satellite imagery using binary masks and particle analysis, providing[ quantitative measures over time](https://serc.carleton.edu/eyesinthesky2/week2/get_to_know_imagej.html).
+* **Crowd Analysis: Estimate crowd sizes in aerial or event photographs by isolating individuals with segmentation techniques and counting them with Analyze Particles or other machine learning-based approaches, such as convolutional neural networks in Python.**&#x20;
+* **Infrastructure Analysis**: Measure the dimensions of buildings, roads, or other infrastructure elements in satellite or drone imagery by calibrating the scale and using tools like [Add Scale Bar](https://kaplinskylab.domains.swarthmore.edu/scalebar.htm)
+* **Maritime Traffic Monitoring: Count ships or vessels** in ocean imagery by isolating them through segmentation and thresholding. This enables the analysis of port activities or maritime patterns.
+* **Deforestation Tracking:** Using binary masks and particle analysis, **identify and count cleared forest patches** in satellite imagery, providing quantitative measures over time.
 * **Object Detection in Crowded Areas**: Segment overlapping objects, such as cars in parking lots or containers in industrial areas, using tools like the **Watershed Algorithm**, and count them for inventory or surveillance purposes.
 
 ## Cost
