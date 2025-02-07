@@ -74,9 +74,9 @@ When using ImageJ (or any similar tool) for open source research purposes, sever
 * **Adhere to GDPR and Data Privacy Laws**: Ensure compliance with local and international privacy regulations, such as the EU's General Data Protection Regulation (GDPR), especially when working with images collected from public or private sources.
 * **Verify Image Sources**: Use only legally obtained imagery from reliable sources to avoid potential copyright infringement or use of manipulated images.
 * **Fact-Check Metadata**: Validate the authenticity of metadata (e.g., timestamps, geotags) accompanying the images to avoid using misleading or falsified information.
-* **Avoid Overinterpreting Results**: Ensure that any conclusions drawn from image analysis are based on accurate and reproducible data. Misrepresentation of findings could lead to misinformation or damage to reputations.
+* **Avoid Overinterpreting Results**: Ensure that any conclusions drawn from image analysis are based on accurate and reproducible data. Misrepresentation of findings could lead to misinformation or damage of reputations.
 * **Disclose Limitations**: Be transparent about the limitations of your analysis (e.g., errors in segmentation or counting accuracy).
-* **Avoid Bias**: Use neutral parameters and methods to avoid biased analysis, particularly in politically sensitive or conflict-related investigations.
+* **Avoid Bias**: Use neutral parameters and methods to avoid biased analysis.
 * **Respect Intellectual Property**: When using publicly available images (e.g., from social media or mapping platforms), adhere to their terms of use and attribute the source appropriately.
 * **Document Methods**: Clearly document the tools, plugins, and workflows you use in your analysis to ensure replicability and accountability.
 * **Open Access to Findings**: Share your methodologies openly (without sensitive data) to enable peer review and prevent misuse.
