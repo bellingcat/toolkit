@@ -55,7 +55,7 @@ ImageJ is an open source image processing program, widely used in fields like bi
 
 * **Browser**: A modern web browser that supports Java applets or WebAssembly.
 * **Platform Independence**: Can run on any device with internet access, including tablets and Chromebooks.
-* **No Installation Required**: Simply access the tool through the browser, making it ideal for restricted environments.
+* **No Installation Required**: Simply access the tool through the browser.
 
 ## Limitations
 
