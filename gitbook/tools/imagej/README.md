@@ -10,7 +10,7 @@ https://imagej.com
 
 ## Description
 
-ImageJ is an open source image processing program, widely used in fields like biology, engineering, and open source intelligence (OSINT). Developed initially for scientific analysis, ImageJ offers a suite of tools for analyzing, processing, and measuring visual data. It can be a helpful resource for researchers needing precision measurements or object counting.
+ImageJ is an open source image processing program, widely used in fields like biology, engineering, and for open source investigations. Developed initially for scientific analysis, ImageJ offers a suite of tools for analyzing, processing, and measuring visual data. It can be a helpful resource for researchers needing precision measurements or object counting.
 
 **Key Features for Counting and Measuring**
 
