@@ -61,7 +61,7 @@ ImageJ is an open source image processing program, widely used in fields like bi
 
 * **Manual Preprocessing**: Effective object detection often requires initial adjustments like noise reduction or contrast enhancement.
 * **Complexity**: Advanced tasks may require plugins or scripting knowledge for optimal results.
-* **Learning Curve**: Understanding settings (e.g., particle size thresholds, segmentation parameters) can take time.
+* **Learning Curve**: Understanding the settings (e.g., particle size thresholds, segmentation parameters) can take time.
 
 ## Ethical Considerations
 
