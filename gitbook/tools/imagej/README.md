@@ -65,7 +65,7 @@ ImageJ is an open source image processing program, widely used in fields like bi
 
 ## Ethical Considerations
 
-#### Ethical Considerations in Using ImageJ for OSINT
+#### Ethical Considerations in Using ImageJ for open source investigations
 
 When using ImageJ (or any similar tool) for open source research purposes, several ethical considerations must be considered to ensure responsible, lawful, and ethical usage of the software.
 
