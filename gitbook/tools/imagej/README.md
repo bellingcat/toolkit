@@ -1,7 +1,5 @@
 ---
-description: >-
-  Open source software for processing and analyzing images, easy data export,
-  huge plugin library.
+description: Open source software for processing and analyzing images.
 ---
 
 # ImageJ
