@@ -25,20 +25,18 @@ ImageJ is an open source image processing program, widely used in fields like bi
 
 #### Other possible uses related to open source investigations:
 
-* [**Dot Counting**](https://imagej.net/imaging/particle-analysis): Count distinct markers, symbols, or objects (e.g., dots, like in maritime or geospatial datasets) using **Analyze Particles** after applying thresholding. This is useful for mapping or monitoring activities in specific regions.
-* **Crowd Analysis: Estimate crowd sizes in aerial or event photographs by isolating individuals with segmentation techniques and counting them with Analyze Particles or other machine learning-based approaches, such as convolutional neural networks in Python.**&#x20;
-* **Infrastructure Analysis**: Measure the dimensions of buildings, roads, or other infrastructure elements in satellite or drone imagery by calibrating the scale and using tools like [Add Scale Bar](https://kaplinskylab.domains.swarthmore.edu/scalebar.htm)
-* **Maritime Traffic Monitoring: Count ships or vessels** in ocean imagery by isolating them through segmentation and thresholding. This enables the analysis of port activities or maritime patterns.
-* **Deforestation Tracking:** Using binary masks and particle analysis, **identify and count cleared forest patches** in satellite imagery, providing quantitative measures over time.
-* **Object Detection in Crowded Areas**: Segment overlapping objects, such as cars in parking lots or containers in industrial areas, using tools like the **Watershed Algorithm**, and count them for inventory or surveillance purposes.
+* [**Dot Counting**](https://imagej.net/imaging/particle-analysis): Count distinct markers, symbols, or objects (e.g., dots, like in maritime or geospatial datasets) using Analyze Particles after applying thresholding. This can be useful for mapping or monitoring activities in specific regions.
+* **Crowd Analysis**: Estimate crowd sizes in aerial or event photographs by isolating individuals with segmentation techniques and counting them with Analyze Particles or other machine learning-based approaches, such as convolutional neural networks in Python.&#x20;
+* **Infrastructure Analysis**: Measure the dimensions of buildings, roads, or other infrastructure elements in satellite or drone imagery by calibrating the scale and using tools like [Add Scale Bar](https://kaplinskylab.domains.swarthmore.edu/scalebar.htm).
+* **Maritime Traffic Monitoring:** Count ships or vessels in ocean imagery by isolating them through segmentation and thresholding. This enables the analysis of port activities or maritime patterns.
+* **Deforestation Tracking:** Using binary masks and particle analysis, identify and count cleared forest patches in satellite imagery, providing quantitative measures over time.
+* **Object Detection in Crowded Areas**: Segment overlapping objects, such as cars in parking lots or containers in industrial areas, using tools like the Watershed Algorithm, and count them for research purposes.
 
 ## Cost
 
 * [x] Free
 * [ ] Partially Free
 * [ ] Paid
-
-
 
 ## Level of difficulty
 
