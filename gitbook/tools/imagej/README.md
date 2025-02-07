@@ -23,7 +23,7 @@ ImageJ is an open source image processing program, widely used in fields like bi
 3. **Batch Processing**
    * ImageJ's macro capabilities enable repetitive tasks, such as counting objects in a series of images, to be automated, saving time in large-scale projects.
 
-#### Other OSINT-related possible uses:
+#### Other possible uses related to open source investigations:
 
 * [**Dot Counting**](https://imagej.net/imaging/particle-analysis): Count distinct markers, symbols, or objects (e.g., dots, like in maritime or geospatial datasets) using **Analyze Particles** after applying thresholding. This is useful for mapping or monitoring activities in specific regions.
 * **Crowd Analysis: Estimate crowd sizes in aerial or event photographs by isolating individuals with segmentation techniques and counting them with Analyze Particles or other machine learning-based approaches, such as convolutional neural networks in Python.**&#x20;
