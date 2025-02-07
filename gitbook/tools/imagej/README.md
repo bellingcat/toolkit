@@ -67,7 +67,7 @@ ImageJ is an open source image processing program, widely used in fields like bi
 
 #### Ethical Considerations in Using ImageJ for OSINT
 
-When using ImageJ (or any similar tool) for OSINT purposes, several ethical considerations must be considered to ensure responsible, lawful, and ethical usage of the software.
+When using ImageJ (or any similar tool) for open source research purposes, several ethical considerations must be considered to ensure responsible, lawful, and ethical usage of the software.
 
 * **Avoid Analyzing Private Individuals**: Refrain from analyzing or sharing images that contain identifiable individuals without their consent, especially if the data collection could lead to harm or violate privacy laws.
 * **Blur Faces or Identifying Features**: When working with crowd analysis or similar tasks, anonymize individuals by obscuring faces or other identifying features.
