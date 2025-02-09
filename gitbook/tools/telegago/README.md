@@ -26,17 +26,14 @@ Telegago is a Google Custom Search Engine (CSE) designed for Open Source Intelli
 
 **Usage Guide:**
 
-1.
-
-    **Usage Guide:**
-
-    1. **Access Telegago:** Open the Telegago search engine page in your web browser (use the official link above).
-    2. **Enter Search Terms:**
-       * Type your desired keywords into the search box.
-       * Use Google search operators to refine your search (see Tips below for examples).
-    3. **Execute the Search:** Click the search button or press **Enter** to view the results.
-    4. **Review Results:** Browse the list of public Telegram profiles, channels, and groups that match your query. The results come from Telegram URLs (such as channel pages or group invite links) that Google has indexed.
-    5. **Optional – Join Groups or Channels:** If you find a Telegram group or channel of interest, you can join it using tools like Bellingcat’s [**Telegram Group Joiner**](https://bellingcat.gitbook.io/toolkit/more/all-tools/telegram-group-joiner), which automates joining specific channels or groups using the invite or channel links from your search results​. (This requires a Telegram account, but the search itself does not.)
+1. **Usage Guide:**
+   1. **Access Telegago:** Open the Telegago search engine page in your web browser (use the official link above).
+   2. **Enter Search Terms:**
+      * Type your desired keywords into the search box.
+      * Use Google search operators to refine your search (see Tips below for examples).
+   3. **Execute the Search:** Click the search button or press **Enter** to view the results.
+   4. **Review Results:** Browse the list of public Telegram profiles, channels, and groups that match your query. The results come from Telegram URLs (such as channel pages or group invite links) that Google has indexed.
+   5. **Optional – Join Groups or Channels:** If you find a Telegram group or channel of interest, you can join it using tools like Bellingcat’s [**Telegram Group Joiner**](https://bellingcat.gitbook.io/toolkit/more/all-tools/telegram-group-joiner), which automates joining specific channels or groups using the invite or channel links from your search results​. (This requires a Telegram account, but the search itself does not.)
 
 ## Advice for More Effective Searches:
 
