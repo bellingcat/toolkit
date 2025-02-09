@@ -8,40 +8,44 @@ description: >-
 
 ## URL
 
-[http://bit.ly/telegago](http://bit.ly/telegago)
+[https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg#gsc.tab=0](https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg#gsc.tab=0) – Official Telegago Google Custom Search Engine (short: [http://bit.ly/telegago](http://bit.ly/telegago))
 
 ## Description
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Telegago is a Google Custom Search Engine (CSE) designed for Open Source Intelligence (OSINT) research on public Telegram content. By focusing on Telegram’s publicly available domains (e.g., t.me), it allows users to perform targeted and precise searches without requiring a Telegram account.
+Telegago is a Google Custom Search Engine (CSE) designed for Open Source Intelligence (OSINT) research on public Telegram content. By focusing on Telegram’s publicly available web domains (e.g., **t.me** and **telegram.me**), it allows users to perform targeted and precise searches without requiring a Telegram account.&#x20;
 
 **Key Features**
 
-* **Tailored Searches:** Utilizes custom search operators to enhance the accuracy and relevance of results within Telegram's public content.
-* **No Account Required:** Allows access to publicly shared information without needing a Telegram account.
-* **User-Friendly Interface:** Provides a familiar Google search experience for ease of use.
+* **Tailored Searches:** Utilizes custom search parameters to enhance the accuracy and relevance of results within Telegram’s public content (only searches Telegram-related domains).
+* **No Account Required:** Provides access to publicly shared Telegram information without needing to sign up or log in to Telegram.
+* **User-Friendly Interface:** Leverages Google’s familiar search interface for ease of use, making Telegram searches feel like a regular Google query.
 
 ### Guide on how to use Telegago
 
 **Usage Guide:**
 
-1. **Access Telegago:** Open the Telegago search engine page in your web browser.
-2. **Enter Search Terms:**
-   * Type your desired keywords into the search box.
-   * Use Google search operators to refine your search. (See Tips below.)
-3. **Execute the Search:** Click the search button or press Enter to view the results.
-4. **Review Results:** Browse the list of public Telegram profiles, channels, and groups that match your query.
-5. **Optional - Join Groups or Channels:** If you find a Telegram group or channel of interest, you can join it using tools like Bellingcat's [Telegram Group Joiner](https://bellingcat.github.io/telegram-group-joiner/), which automates the process of joining specific channels or groups using direct links from your search results.
+1.
+
+    **Usage Guide:**
+
+    1. **Access Telegago:** Open the Telegago search engine page in your web browser (use the official link above).
+    2. **Enter Search Terms:**
+       * Type your desired keywords into the search box.
+       * Use Google search operators to refine your search (see Tips below for examples).
+    3. **Execute the Search:** Click the search button or press **Enter** to view the results.
+    4. **Review Results:** Browse the list of public Telegram profiles, channels, and groups that match your query. The results come from Telegram URLs (such as channel pages or group invite links) that Google has indexed.
+    5. **Optional – Join Groups or Channels:** If you find a Telegram group or channel of interest, you can join it using tools like Bellingcat’s [**Telegram Group Joiner**](https://bellingcat.gitbook.io/toolkit/more/all-tools/telegram-group-joiner), which automates joining specific channels or groups using the invite or channel links from your search results​. (This requires a Telegram account, but the search itself does not.)
 
 ## Advice for More Effective Searches:
 
-* **Use Exact Match for Precision:**\
-  Put quotes around phrases (e.g., `"European Parliament"`) to find results containing that exact wording.
+(tips courtesy of [Jane Lytvynenko](https://www.janelytv.com/))
+
 * **Exclude Unwanted Terms:**\
   Apply a minus sign before terms you want to remove (e.g., `European Parliament -AfD`) to filter out irrelevant results.
 * **Search Within Specific Sites or Formats:**\
-  Usually you can utilize `site:` (e.g., `site:t.me`) to limit results to a specific domain (already automatically included in this CSE) or `filetype:` (e.g., `filetype:pdf`) to locate particular document types. The `filetype:pdf` operator may be less helpful unless you suspect the content you’re looking for is posted or linked to a publicly accessible PDF hosted elsewhere. If you know specific channels share documents, you might try combining `site:` with `filetype:pdf` and relevant keywords, but it’s not guaranteed to yield many results since Telegram’s web previews usually don’t directly index PDF files.
+  Usually, you can utilize `site:` (e.g., `site:t.me`) to limit results to a specific domain (already automatically included in this CSE) or `filetype:` (e.g., `filetype:pdf`) to locate particular document types. The `filetype:pdf` operator may be less helpful unless you suspect the content you’re looking for is posted or linked to a publicly accessible PDF hosted elsewhere. If you know specific channels share documents, you might try combining `site:` with `filetype:pdf` and relevant keywords, but it’s not guaranteed to yield many results since Telegram’s web previews usually don’t directly index PDF files.
 * **Leverage Additional Operators and Filters:**\
   Tools like `inurl:`, date filters (such as `before:` or `after:`), and language settings refine results to your exact needs.
 * **First-Person Keywords for Eyewitness Content:**\
@@ -49,14 +53,14 @@ Telegago is a Google Custom Search Engine (CSE) designed for Open Source Intelli
 * **Experiment with Synonyms and Alternate Spellings:**\
   Expand beyond a single keyword. If a search for `"protests"` is too narrow, try synonyms like `"demonstrations"`, `"rallies"`, or `"marches"`. Different communities and regions may favor different terms for similar events.
 * **Contextual and Localized Keywords:**\
-  Add relevant place names, organizations, hashtags, or language indicators to target content shared by communities and experts directly involved.\
+  To target content shared by communities and experts directly involved, add relevant place names, organizations, hashtags, or language indicators.\
   Many place names, personal names, and organizations appear in multiple languages and alphabets. Experiment with different transliterations to uncover sources that English-only or single-spelling searches might miss.
   * For the Ukrainian capital, often spelled "Kyiv" in English, you can also try:
     * The Russian transliteration: `"Kiev"`
     * The Ukrainian Cyrillic form: `"Київ"`
     * The Russian Cyrillic form: `"Киев"`
 *   **Local Language Keywords:**\
-    Incorporate terms in the region’s native language. Eyewitnesses or local groups often post in their mother tongue.&#x20;
+    Incorporate terms in the region’s native language. Eyewitnesses or local groups often post in their mother tongue.
 
     For instance, if you’re searching for updates from Ukraine, try Ukrainian or Russian terms:
 
@@ -68,8 +72,6 @@ Telegago is a Google Custom Search Engine (CSE) designed for Open Source Intelli
     * `"European Parliament" "protests"` (English)
     * `"Parlement européen" "manifestations"` (French)
     * `"Europäisches Parlament" "Demonstrationen"` (Deutsch)
-
-
 
     **Example Queries**
 
@@ -84,8 +86,19 @@ Telegago is a Google Custom Search Engine (CSE) designed for Open Source Intelli
       * _(Finds recent references to eyewitness accounts involving the European Parliament after May 1, 2022.)_
     * `“Kyiv explosion” "I recorded" after:2023-02-01 -rumors`
       * _(Shows recent firsthand video posts about Kyiv explosions while excluding the word “rumors.”)_
-* **Combine Tools and Approaches:**\
-  Use custom search engines (like Telegago for Telegram searches) using the methods above. Mixing and matching these tactics increases accuracy and uncovers valuable, hard-to-find information.
+
+
+
+### Alternative Tools for Telegram Searches
+
+If you want to expand your search or use other Telegram-focused search tools, [here ](https://gijn.org/resource/tipsheet/tipsheet-latest-tools-investigating-with-telegram/)[are ](https://www.osintme.com/index.php/2022/10/18/the-osint-me-ultimate-guide-to-telegram-osint-and-privacy)some alternatives that are relevant and useful for Telegram OSINT:
+
+* [**Lyzem** ](https://lyzem.com/)– A search engine for Telegram content **and** Telegraph posts (Telegraph is Telegram’s publishing tool). Lyzem allows keyword searches across both platforms​.
+* [**TgramSearch** ](https://en.tgramsearch.com/)– An unofficial Telegram channel catalog and search engine. It lets you query a database of over 700,000 Telegram channels to find channels that match your keywords​. (Supports multiple languages with region/language-specific versions.)
+* [**Tlgrm.eu**](https://tlgrm.eu/channels) – An English-language Telegram channel search portal. It provides a directory of Telegram channels grouped by category and allows searching for channels by name or topic​.
+* [**OSINT.ME Telegram CSE**](https://cse.google.com/cse?cx=6c3e0c0d3da8e3b4a) – A Google-based custom search engine for Telegram created by the OSINT.Me team. Like Telegago, it indexes Telegram’s public content; using a different index, it may surface slightly different results​.
+
+Each tool works on the same principle of searching public Telegram data, but their indexes and features may vary. It can be worth trying your query on multiple engines to ensure you’re not missing relevant results.
 
 ## Cost
 
@@ -120,9 +133,13 @@ No technical expertise is required beyond basic internet browsing skills.
 * **Use Archival Tools for Ephemeral Content:**\
   Since posts or messages may be deleted or altered over time, consider using archival services (e.g., the Internet Archive’s Wayback Machine, or local backups) to capture the state of content when you first discover it. This ensures you have a record to refer back to if the source disappears or changes.
 
-## Guide
+## Guides & Resources
 
-Telegram OSINT Basics: 5 Tips Anyone Can Do Right Now – @hatless1der | Blog \[WWW Document], n.d. URL [https://hatless1der.com/telegram-osint-basics-5-tips-anyone-can-do-right-now/](https://hatless1der.com/telegram-osint-basics-5-tips-anyone-can-do-right-now/) (accessed 4.27.24).
+Telegram OSINT Basics: 5 Tips Anyone Can Do Right Now. (2022, August 3). _@hatless1der_. Retrieved February 9, 2025, from [https://hatless1der.com/telegram-osint-basics-5-tips-anyone-can-do-right-now/](https://hatless1der.com/telegram-osint-basics-5-tips-anyone-can-do-right-now/)
+
+_Tipsheet: Latest Tools for Investigating with Telegram_. (April 16, 2024). [Alexa van Sickle](https://gijn.org/staff-member/alexa-van-sickle/). Retrieved February 9, 2025, from [https://gijn.org/resource/tipsheet/tipsheet-latest-tools-investigating-with-telegram/](https://gijn.org/resource/tipsheet/tipsheet-latest-tools-investigating-with-telegram/)
+
+_The Osint Me ultimate guide to Telegram OSINT and privacy. (_&#x32;022, October 3). _Matt - osintme.com_. Retrieved February 9, 2025, from [https://www.osintme.com/index.php/2022/10/18/the-osint-me-ultimate-guide-to-telegram-osint-and-privacy/](https://www.osintme.com/index.php/2022/10/18/the-osint-me-ultimate-guide-to-telegram-osint-and-privacy/)
 
 ## Tool provider
 
