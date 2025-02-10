@@ -9,7 +9,7 @@ description: >-
 ## URL
 
 {% embed url="https://logseq.com/" %}
-(current version: 0.10.9 at time of writing, Jan 2025)
+(current version: 0.10.9 at time of writing, Feb 2025)
 {% endembed %}
 
 ## Description
@@ -86,9 +86,9 @@ Logseq is available on the following platforms:
 
 ## Limitations
 
-* **Learning Curve**: Logseq has a steep learning curve for users unfamiliar with markdown or outliner software.&#x20;
-* **Performance**: Can experience performance issues with very large databases or extensive use of plugins. Large numbers of notes can cause [performance issues](https://discuss.logseq.com/t/curious-about-performance/27708/6). The dev team is working on a [database + markdown version](https://discuss.logseq.com/t/why-the-database-version-and-how-its-going/26744) to improve this. &#x20;
-* **Mobile App**: The mobile app is not as fully featured as the desktop version, which may limit functionality on the go. Logseq doesn't document exactly what these features are.&#x20;
+* **Learning Curve**: Logseq has a steep learning curve for users unfamiliar with markdown or outliner software.
+* **Performance**: Can experience performance issues with very large databases or extensive use of plugins. Large numbers of notes can cause [performance issues](https://discuss.logseq.com/t/curious-about-performance/27708/6). The dev team is working on a [database + markdown version](https://discuss.logseq.com/t/why-the-database-version-and-how-its-going/26744) to improve this.
+* **Mobile App**: The mobile app is not as fully featured as the desktop version, which may limit functionality on the go. Logseq doesn't document exactly what these features are.
 * **Export Options**: While Logseq supports exporting to Markdown, org-mode, and JSON, transitioning fully formatted notes to other platforms like Microsoft Word may require additional formatting. This forum post details some solutions: [How to export to Word and maintain the outline structure?](https://discuss.logseq.com/t/how-to-export-to-word-and-maintain-the-outline-structure/18746)
 * **Collaboration**: Real-time collaboration is not as straightforward as on other platforms like Google Docs. Workarounds are needed to collaborate effectively. The [database + markdown version](https://discuss.logseq.com/t/why-the-database-version-and-how-its-going/26744) is intended to improve this.
 * **Plugin Ecosystem**: Although growing, the plugin ecosystem is not as extensive as more mature platforms (such as [Roam Research](https://roamresearch.com/) or [Obsidian](https://obsidian.md/)), potentially limiting customization options.
@@ -98,15 +98,15 @@ Logseq is available on the following platforms:
 When evaluating Logseq from an ethical standpoint, several considerations come into play:
 
 * **Privacy and Data Security:** Logseq emphasizes data privacy, as it allows users to store their data locally or in a self-hosted environment. This approach minimizes data exposure to third-party cloud services, but users must be aware of their own data security measures. For more information of the benefits of local storage, see [Logseq Vs Obsidian: Which Note-Taking App Is Better?](https://theprocesshacker.com/blog/logseq-vs-obsidian/) and [Logseq sync with Git and GitHub](https://hub.logseq.com/integrations/aV9AgETypcPcf8avYcHXQT/logseq-sync-with-git-and-github/krMyU6jSEN8jG2Yjvifu9i).
-* **Open Source:** Logseq promotes transparency and community contributions as an open-source project. However, users and developers should consider the implications of their contributions and the potential for misuse of the platform. Misuse can include [Malware](https://en.wikipedia.org/wiki/Malware) Injection; however, open-source tools (like Logseq) rely on transparent peer review and security practices to protect users from this, see [Dev Practices](https://github.com/logseq/logseq/blob/master/docs/dev-practices.md).&#x20;
+* **Open Source:** Logseq promotes transparency and community contributions as an open-source project. However, users and developers should consider the implications of their contributions and the potential for misuse of the platform. Misuse can include [Malware](https://en.wikipedia.org/wiki/Malware) Injection; however, open-source tools (like Logseq) rely on transparent peer review and security practices to protect users from this, see [Dev Practices](https://github.com/logseq/logseq/blob/master/docs/dev-practices.md).
 
 ## Guide
 
 To effectively use Logseq, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
 
-**Official Wiki**&#x20;
+**Official Wiki**
 
-* [**Logseq Community Hub**](https://hub.logseq.com/)**:** documentation for Logseq.&#x20;
+* [**Logseq Community Hub**](https://hub.logseq.com/)**:** documentation for Logseq.
 
 **Tutorials and Articles**
 
@@ -125,7 +125,7 @@ To effectively use Logseq, especially for beginners or those looking to refine t
 **Community and Support**
 
 * [**Community forum**](https://discuss.logseq.com/): official support forum.
-* [**Discord Server**](https://discord.com/invite/logseq): community announcement and support.&#x20;
+* [**Discord Server**](https://discord.com/invite/logseq): community announcement and support.
 
 ## Tool provider
 
@@ -141,4 +141,3 @@ Logseq Inc. [https://logseq.com/](https://logseq.com/) - United States
 | --------------- |
 | Martin Sona     |
 |                 |
-
