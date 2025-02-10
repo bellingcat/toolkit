@@ -20,13 +20,15 @@ Leak Lookup's collection appears to contain publicly available databases from we
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-24 at 3.20.21 PM.png" alt=""><figcaption><p>Sample record of breach information</p></figcaption></figure>
 
-As of January 2024, Leak-Lookup also has the following API offerings:
+As of February 2025, Leak-Lookup also has the following API offerings:
 
 * **Search:** The "search" API is designed to provide a simple and easy to use endpoint for end-users to search across all indexed breaches. Users can search by types of indicators such as email address, username, IP address, phone number, domain etc.&#x20;
 * **Hash:** The "hash" API is designed to provide hash-cracking capabilities for end-users, meaning a user can submit a hashed value of a password and the API endpoint will return the cleartext value of the password if the hash has been "cracked."&#x20;
 * **Stat:** The "stats" API is used to retrieve information relating to the current API key, this includes information such as the current request limits, daily request limits etc.
 
-The API functionality in particular is useful in order to&#x20;
+Leak-Lookup's collection of data appears comprehensive compared to other similar tools such as HaveIBeenPwned (HIBP): as of February 2025, Leak-Lookup has approximately 27 million total records from 4,416 breaches while HIBP has approximately 14 million records from 864 websites. It should be noted that despite the larger number of records and "breaches" that Leak-Lookup has, the service appears to count every data field from a breach or leak as one record, while HIBP's record count is based on the number of accounts that have been compromised (which often involves multiple data fields). Additionally, HIBP has a unique working relationship with law enforcement entities, including the FBI, and security researchers. As such, there have been times when the service was  given exclusive access to compromised data by law enforcement partners (including an [ongoing general partnership](https://therecord.media/the-fbi-will-feed-hacked-passwords-directly-into-have-i-been-pwned) with the FBI established in 2021) and security researchers, such as [data from People Data Labs (PDL) ](https://www.troyhunt.com/data-enrichment-people-data-labs-and-another-622m-email-addresses/)which was discovered by researchers Vinny Troia and Bob Diachenko.&#x20;
+
+&#x20;
 
 ## Cost
 
@@ -34,7 +36,7 @@ The API functionality in particular is useful in order to&#x20;
 * [x] Partially Free
 * [ ] Paid
 
-As of January 2025, the pricing information for credits are as follows:
+As of February 2025, the pricing information for credits are as follows:
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-24 at 3.36.25 PM (1).png" alt=""><figcaption></figcaption></figure>
 
