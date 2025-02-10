@@ -33,7 +33,7 @@ A command line tool by the Sherlock Project that can be used to find social medi
 
 List of supported websites can be found [here](https://github.com/sherlock-project/sherlock/blob/master/docs/sites.md).
 
-Sherlock does not allow for fuzzy keyword searches, wildcards or regular expressions. It allows for bulk data input from a JSON file.
+Sherlock does not allow for fuzzy keyword searches, the use of wildcards or regular expressions. It allows for bulk data input from a JSON file.
 
 The results from Sherlock are fairly high-credibility, though accounts on various websites require authentication to view or are private. There are occasional false positives, though fewer number of them compared to browser-based tools like Namechk. The tool does not have visibility into Discord, and it misses accounts on more established social networking sites (like Facebook and LinkedIn) potentially due to these sources' anti-scraping efforts.
 
