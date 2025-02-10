@@ -13,13 +13,13 @@ description: >-
 
 ## Description
 
-Telemetr.io is a tool that can be useful for journalists and researchers who are interested in analyzing Telegram channels. A database of moderated catalogs that can be sorted by a number of countries and languages and access to many a large number archived messages provide resources for tracking trends, user behavior, and past interactions. Its analysis of message views over different time intervals offers insights into content and engagement. The platform allows for analysis of the level of global and regional activity.
+Telemetr.io is a tool for journalists and researchers analyzing Telegram channels. It offers a database of categorized catalogs by country and language, along with access to numerous archived messages for tracking trends, user behavior, and interactions. Its message view analysis over time provides insights into content and engagement, enabling analysis of global and regional activity.
 
 {% hint style="danger" %}
 During testing, the author of this review found that the export of data available in the Advanced Plan (and above) is limited to the catalog list of channels. For most metrics described below, you will need API access, which is not included in the plan. (See below at API.)
 
-Further, in the author's testing, reaching someone regarding a refund was challenging, and canceling the subscription was not a straightforward experience.\
-Make sure to test the capabilities of the different plans to test which plan you require or contact the sales team to ask for a tailored plan.&#x20;
+Further, in the author's testing, reaching someone regarding a refund was challenging, and canceling the subscription was not straightforward.\
+Make sure to test the capabilities of the different plans to determine which you require, or contact the sales team for a tailored plan.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
@@ -38,9 +38,10 @@ Features:
 * Advertising Post Search
 * Advertiser Rankings
 * Posts Search
+* Mini Apps Catalog _(new)_ – analytics for Telegram Mini Apps
 * API
 
-The examples show the results of a free-tier user account logged in and searching for the term _Bellingcat._ This result page shows Bellingcat's Telegram channel with a number of analytical data points, including subscriber counts across time, post views count, engagement rate, category, etc.
+The examples show the results of a free-tier user account logged in and searching for the term Bellingcat. This result page shows Bellingcat's Telegram channel with several analytical data points, including subscriber counts across time, post views, engagement rate, category, etc.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-04-20 at 2.35.57 PM.png" alt=""><figcaption><p>Telemtrio example search result depicting the Bellingcat channel.</p></figcaption></figure>
 
@@ -48,7 +49,7 @@ The examples show the results of a free-tier user account logged in and searchin
 
 ### Ranking Options on Telemetr.io
 
-The Primary Catalog includes an extensive database to provide a broad overview of available channels, helping researchers identify channels of interest and understand the overall scope of Telegram's ecosystem. It is useful for initial exploration and broad searches.
+The Primary Catalog includes an extensive database that provides a broad overview of available channels. It helps researchers identify channels of interest and understand the overall scope of Telegram's ecosystem. The catalog is useful for initial exploration and broad searches.
 
 <details>
 
@@ -80,7 +81,7 @@ This feature allows users to add channels not listed in the catalog. It ensures 
 
 #### Overview
 
-When looking at an individual channels' landing page, you are presented with several metrics useful for quickly judging a Telegram channel's size, influence, engagement, and activity.
+When viewing the landing pages of individual channels, several metrics are presented that can help you quickly judge a Telegram channel's size, influence, engagement, and activity.
 
 <figure><img src=".gitbook/assets/grafik (7).png" alt=""><figcaption><p>The results page of the Bellingcat channel showing several basic metrics. (see details below)</p></figcaption></figure>
 
@@ -121,19 +122,13 @@ The "Overview" tab provides critical insights into the channel's growth, engagem
 
 <summary>Overview Tab Metrics details (Graph)</summary>
 
-**ER Over Time:** This tracks the engagement rate over different periods, providing insights into when and how followers engage with the content. Monitoring ER over time can reveal patterns and help optimize content strategy to maximize engagement.
-
-**Mentions:** This metric counts the number of times other channels or users mention the channel within a given timeframe. High mention counts indicate the channel's visibility and influence within the broader Telegram community.
-
-**Mentions Over Time:** Tracking mentions over specific periods helps understand the channel's prominence and the frequency of discussions about it. This is useful for identifying spikes in interest and analyzing the impact of specific events or posts.
-
-**Posts per Day:** This metric shows the average number of posts the channel makes daily. It provides insight into the channel's activity level and content publishing frequency, which can affect audience engagement and growth.
-
-**Reactions:** The number of reactions received by the posts, such as likes and dislikes, indicates the immediate response and sentiment of the audience towards the content. Analyzing reactions can help gauge the popularity and impact of individual posts.
-
-**Comments:** The number of comments on the posts signifies the level of discussion and engagement with the content. A higher number of comments often reflects an active and engaged community around the channel.
-
-**Reposts:** This metric tracks the number of times posts from the channel have been shared by others. Reposts indicate the shareability and perceived value of the content as followers disseminate it within their own networks.
+* **ER Over Time**: This tool tracks the engagement rate over different periods, providing insight into when and how followers engage with the content. Monitoring ER trends can reveal patterns and help optimize content strategy to maximize engagement.
+* **Mentions:** Counts the number of times other channels or users mention this channel within a given timeframe. A high mention count indicates the channel’s content is being discussed widely, reflecting its visibility in the broader Telegram community.
+* **Mentions Over Time:** This shows mention frequency over specific periods, helping to understand the channel’s prominence and when it spikes in conversations. Spikes in mentions often correlate with specific events or notable posts.
+* **Posts per Day:** The average number of posts the channel publishes daily. This indicates how active the channel is in terms of content output and can influence how the audience engages (too many or too few posts).
+* **Reactions:** The number of reactions (such as likes or other emoji responses) the channel’s posts receive. This metric gauges immediate audience sentiment and interest in the content.
+* **Comments:** The number of comments on the channel’s posts, reflecting the level of discussion or debate generated by the content. More comments often mean a highly engaged community.
+* **Reposts:** How many times the channel’s posts have been shared or forwarded by others. Reposts indicate that followers find the content valuable enough to share with their own audiences, thereby extending the channel’s reach.
 
 </details>
 
@@ -156,25 +151,16 @@ The **Advertising Effectiveness tab** provides metrics for understanding a chann
 
 <summary>Advertizing tab metrics in detail</summary>
 
-**Growth within a 24-hour period:** This metric shows the number of new subscribers gained by the channel within the last 24 hours. It helps measure the immediate impact of advertising campaigns or promotional activities. A significant increase in subscribers can indicate a successful campaign or a surge in popularity driven by targeted advertising, often in response to specific events.
-
-**Views in 24 hours:** The average number of views per ad post over the last 30 days. This is calculated by dividing the sum of the number of views per ad post per 24 hours by the number of posts over 30 days. This metric reflects the average views of all the channel's ad posts over the last 30 days, not just those from the "Advertising Results" table.
-
-**Advertisings per Day:** The ad frequency on the channel. This measures how often ads are shown on the channel. A lower frequency is generally better, indicating less ad clutter and potentially higher ad impact.
-
-**Average TOP (Time On Page):** The average time an advertisement remains at the top of the channel. A longer duration signifies higher advertising effectiveness, as the ad remains visible for a longer time. This indicates the effectiveness of the content in capturing and maintaining the audience's attention, often through well-funded and strategic advertising.
-
-**Advertised Channels:** The number of promoted channels in the last 90 days. This metric counts how often this channel advertises other Telegram channels, providing insight into the channel's promotional activities. Advertised channels may reveal connections between different hidden networks , showing how they support and amplify each other, particularly around significant events.
-
-**Other Resources:** This metric tracks the number of additional resources or links the channel shares, including links to external websites, documents, or other materials. Sharing valuable resources can enhance the channel's credibility and provide additional context or information to the audience. This can also indicate efforts to drive traffic to other platforms, potentially revealing further connections and funding sources.
-
-**1-hour Growth:** This metric shows the number of new subscribers gained by the advertised channel within one hour of posting the advertisement. It helps assess the immediate impact of the advertisement, indicating how quickly the audience responds to promotional content. Rapid subscriber growth within an hour can signify an effective advertisement or heightened interest due to the timing of the post.
-
-**24-hour Growth:** This measures the number of new subscribers gained by the advertised channel within 24 hours of posting the advertisement. It provides a broader view of the advertisement's effectiveness over a longer period, showing how sustained the audience's interest is beyond the initial exposure. Tracking 24-hour growth helps evaluate the longer-term appeal and reach of the advertisement.
-
-**Mentions in Other Channels:** This metric counts the number of times the advertised channel is mentioned in other channels. It measures the broader reach and influence of the advertisement across the Telegram network. Many mentions in other channels indicate that the advertisement has resonated well beyond its initial audience, suggesting widespread dissemination and potentially coordinated promotion efforts.
-
-**Advertising Post:** This includes the advertisement post's content and its visibility metrics, such as the number of views and the average time users spent on the post (Time On Page or TOP). These details provide information on each advertising post's performance and engagement level. High view counts and longer TOP suggest that the advertisement captured user interest and engaged the audience effectively.
+* **Growth (24h):** The number of new subscribers the channel gained in the last 24 hours. This can measure the immediate impact of advertising campaigns or promotions. A significant spike here could indicate a successful ad or a surge of interest due to an event.
+* **Views (24h):** The average number of views per advertising post over the last 30 days. This is calculated by summing the 24-hour view counts of each ad post in the last 30 days and dividing by the number of ad posts. It reflects how many views, on average, an ad post gets in a day, giving a sense of reach for advertisements.
+* **Advertisements per Day:** How frequently ads are posted on the channel (ad frequency). A lower frequency often indicates less ad clutter and potentially higher impact for each advertisement. A very high frequency might annoy subscribers or dilute the effectiveness of each ad.
+* **Average TOP (Time On Page):** The average time an advertisement remains at the top of the channel (i.e. until a new post is made). A longer TOP means the ad stays visible longer, which can indicate its effectiveness in holding attention (often well-funded or strategic ads remain visible longer).
+* **Advertised Channels:** The number of other Telegram channels that this channel has promoted in the last 90 days. This metric shows how often the channel is advertising _other_ channels. It can reveal connections between channels – for example, if Channel A frequently advertises Channel B, they might be part of the same network or support each other’s growth. A high number of advertised channels may indicate a broad network of cross-promotion.
+* **Other Resources:** The number of external links or resources the channel has shared (e.g. links to websites, documents, or other platforms). Sharing many external resources might indicate attempts to drive traffic outside Telegram, possibly revealing additional platforms or funding sources connected to the channel.
+* **1-hour Growth:** When this channel posts an advertisement for another channel, this metric shows how many new subscribers the advertised channel gains within one hour of the ad. It’s a measure of how quickly the audience responds to the ad. Rapid growth in one hour can signify an effective advertisement or a particularly receptive audience at that time.
+* **24-hour Growth:** Similarly, this measures the number of new subscribers gained by the advertised channel within 24 hours of the ad post. It shows the advertisement’s longer-term effect on drawing in subscribers beyond the immediate burst, indicating sustained interest.
+* **Mentions in Other Channels:** How many times the advertised channel (the one being promoted) is mentioned in other channels. This gauges the broader impact of the advertisement across Telegram. If an advertised channel is getting mentioned a lot elsewhere, it suggests the promotion resonated beyond its initial audience and may have sparked wider discussion or further sharing.
+* **Advertising Post:** Details of the ad post itself, including its content and performance (views and the average time users spent viewing that post—another “Time On Page” metric specific to the ad). High view counts and a long view duration (TOP) suggest the ad post effectively captured users’ interes&#x74;**.**
 
 </details>
 
@@ -194,7 +180,7 @@ The **Advertising Effectiveness tab** provides metrics for understanding a chann
 
 #### Quoting Tab
 
-The Quoting tab contains information about how often a channel is mentioned or reposted by others, detailing both incoming and outgoing mentions. It includes top channels mentioning the analyzed channel, the categories and geographic locations of these mentions, and visual representations of repost and mentions activity over time. This information is useful when studying a Telegram channels' network dynamics, reciprocity, and influence.
+The Quoting tab details how often a channel is mentioned or reposted by others, detailing both incoming and outgoing mentions. It includes the top channels mentioning the analyzed channel, the categories and geographic locations of these mentions, and visual representations of repost and mention activity over time. This information is useful when studying Telegram channels' network dynamics, reciprocity, and influence.
 
 _Quoting Tab: In/Outgoing Mentions:_
 
@@ -204,15 +190,11 @@ _Quoting Tab: In/Outgoing Mentions:_
 
 <summary>Quoting Tab metrics details (In/Outgoing Mentions)</summary>
 
-**TOP Incoming Mentions** lists the channels that most frequently mention the analyzed channel, including the number of mentions, percentage of total mentions, and the engagement rate of the mentioning channel. This helps identify which channels are amplifying the analyzed channel's content and their level of audience engagement.
-
-**Mentions** shows the total number of times the analyzed channel is mentioned by other channels, indicating its visibility and influence within the Telegram community.
-
-**Percentage of Total Mentions** reveals the proportion of total mentions that each mentioning channel represents, helping to understand which channels contribute the most to the analyzed channel's mentions.
-
-**Engagement Rate (ER)** of mentioning channels indicates how active and engaged their audiences are. Channels with higher ERs suggest that their mentions are likely to be more impactful.
-
-**TOP Outgoing Mentions** lists the channels most frequently mentioned by the analyzed channel, including the number of mentions, percentage of total mentions, and engagement rate of the mentioned channels. This helps analyze the channel's networking and promotional strategies.
+* **TOP Incoming Mentions:** This shows which channels mention the analyzed channel most frequently. For each of these channels, it provides the number of mentions, the percentage of the analyzed channel’s total mentions that this represents, and the engagement rate of the mentioning channel. This helps identify which other channels are amplifying the analyzed channel’s content and how engaged those channels’ audiences are (a mention from a highly engaged channel could be more impactful).
+* **Mentions (Total):** The total number of times other channels mention the analyzed channel. This gives a direct sense of how visible or talked-about the channel is within the Telegram ecosystem.
+* **Percentage of Total Mentions:** For each channel that mentions the analyzed channel, this figure shows what fraction of all mentions that channel accounts for. It highlights if the attention is coming primarily from a few sources or if it’s more distributed. (For example, one channel might contribute 50% of all mentions of your channel, indicating a close or significant relationship.)
+* **Engagement Rate (ER) of Mentioning Channels:** The engagement rate of each channel that mentions the analyzed channel indicates how interactive its audiences are. If channels with high ER mention the analyzed channel, those mentions likely carry more weight (their audiences might follow up or check out the mentioned channel).
+* **TOP Outgoing Mentions:** Lists the channels that the **analyzed channel** itself mentions most frequently. For each mentioned channel, it similarly provides the number of times they are mentioned, what percentage of the analyzed channel’s outgoing mentions each constitutes, and the engagement rate of those mentioned channels. This helps analyze the channel’s promotion or networking strategy — which channels it is regularly pushing or referencing.
 
 </details>
 
@@ -270,9 +252,12 @@ _Publication Tab: posting time distributions_
 
 <summary>Publication Tab (posting time &#x26; sources) details</summary>
 
-P\_**osting Time Distributions**\_ displays the frequency of posts over a 24-hour period, highlighting when the channel is most active and revealing the channel's posting schedule.
+The Publication tab also provides a **publication analysis table** of recent posts and their performance. This includes, for each recent post:
 
-_**Sources of views:**_ This chart provides a breakdown of where the views on the channel are coming from. However this graph is only available for channel owners.
+* **Posts:** The title or a snippet of the post (or an identifier if no title) along with its publication time.
+* **Views:** The total number of views that post has received.
+* **Shares:** How many times the post has been forwarded or shared.
+* **Views Dynamics:** A small graph or indicator of how the views accumulated over time after the post was published (for example, showing if it got most of its views in the first hour or steadily over a day, etc.)
 
 </details>
 
@@ -320,13 +305,10 @@ This area is only accessible to channel owners who have subscribed to the servic
 
 <summary>Audience Tab metrics details</summary>
 
-**Subscribers Gender** displays the gender distribution of the audience. This helps analyze the demographics of the channel's followers and tailor content strategies to understand the gender-specific appeal.
-
-**Audience Language** shows the primary languages spoken by the audience. This metric aids in identifying the geographic regions most influenced by the channel, guiding region-specific investigations.
-
-**User Lifetime on the Channel** indicates how long subscribers have followed the channel. This helps identify audience loyalty and determine whether the channel has a stable following or relies on transient viewers.
-
-**How Many Subscribers** provides statistics on subscribers with premium accounts, usernames, avatars, and those who unmute notifications. These metrics help profile the engagement levels and characteristics of the audience, useful for understanding the reach and impact of the channel.
+* **Subscribers’ Gender:** The gender distribution of the channel’s subscribers (e.g., what percentage are male vs. female) helps understand the demographic makeup of the audience and can hint at the channel’s appeal or target demographic.
+* **Audience Language:** The primary languages spoken by the subscribers can indicate which geographic or linguistic communities are most influenced by the channel. For instance, a majority of Russian-language followers vs. English-language followers can indicate regional reach.
+* **User Lifetime on the Channel:** How long have subscribers been following the channel (e.g., what portion joined in the last month vs. long-time subscribers)? This shows audience loyalty and turnover, whether the channel keeps a stable core of followers or relies on constantly attracting new ones.
+* **Subscriber Profile Details:** Stats such as how many subscribers have premium Telegram accounts, how many have usernames, how many have profile photos (avatars), and how many have unmuted the channel’s notifications. These metrics help profile how engaged or reachable the audience is. For example, a high number of premium users or users who haven’t muted the channel might indicate a very engaged or attentive audience, whereas a lot of anonymous accounts might signal something else about the follower base.
 
 </details>
 
@@ -342,11 +324,9 @@ The **About the Channel tab** provides details about the history of changes in t
 
 <summary>About the Channel field details</summary>
 
-**Channel Names list the names associated with the entity, along with timestamps showing when each name was relevant or edited.** This helps construct a timeline of changes, providing insights into the channel's history and any rebranding or strategic shifts. It also aids in verifying the authenticity of the channels associated with the entity, reducing the risk of misinformation from unofficial sources.
-
-**Descriptions** include the channel's descriptions over time and links to other platforms where related projects are hosted. Analyzing these descriptions can reveal the consistency of the channel's messaging and focus, with frequent changes potentially indicating strategic shifts. The presence of links to other platforms (e.g., YouTube, Odysee, BitChute) helps track the channel's cross-platform presence and understand where its audience might be dispersed. Additionally, descriptions often mention related projects, aiding in identifying the broader network of activities and initiatives associated with the channel.
-
-**Public Links** lists links associated with the channel, such as other social media accounts or external websites. These links facilitate network analysis, helping to map out associated online entities and understand the channel's reach and influence. They also serve as starting points for deeper investigations into connected activities and content.
+* **Channel Names:** Lists all names the channel has used, along with timestamps for when each name was in effect or when it was changed. This creates a timeline for any rebranding or name changes. Such information can provide insights into the channel’s history and whether it has tried to reinvent itself. It also helps verify authenticity – if a channel’s name history shows it was previously something unrelated, it might raise questions about whether it’s the same entity or if control changed hands.
+* **Descriptions:** Shows the channel’s self-description texts over time, including any external links mentioned in those descriptions. Changes in the channel’s description can reveal shifts in messaging or focus. For example, a channel might update its description to promote a new website or to change its stated purpose. Frequent description changes could indicate strategic shifts or attempts at rebranding. Additionally, seeing links to other platforms (YouTube, Odysee, BitChute, etc.) in descriptions helps trace the channel’s presence across different platforms and can point to where else the channel’s content or community lives.
+* **Public Links:** Lists any external links or social media accounts associated with the channel that are publicly provided (apart from description text). This could include links to a website, other social media profiles, or related project pages. These links are invaluable for network analysis: they help map out the broader network of online entities connected to the channel and can lead investigators to the channel’s presence outside of Telegram or to affiliated groups.
 
 </details>
 
@@ -364,12 +344,12 @@ The **About the Channel tab** provides details about the history of changes in t
 
 Telemetr.io offers several tools for monitoring and analyzing Telegram channels:
 
-1. **Event Tracking:** Follows real-time events on Telegram, allowing users to monitor mentions and other activities related to specific channels.
-2. **Advertising Posts:** Analyzes advertising creatives, providing insights into the content and effectiveness of ads posted on Telegram channels.
-3. **Advertiser Rankings (Beta):** Displays a database of brands that place ads on Telegram, helping users understand the advertising landscape.
-4. **Posts Search (New):** Enables searching for specific words and phrases in Telegram posts, useful for tracking discussions and trends.
-5. **TgCleaner (Beta):** Helps clean channels from bots, maintaining the integrity of the channel's audience.
-6. **Joinio:** A bot assistant managing applications to join the channel, facilitating member recruitment and management.
+* **Event Tracking:** Follows real-time events on Telegram by monitoring keywords or specific channels, allowing users to track mentions and other activities and even detect if mentions are deleted (which could indicate censorship). It can send notifications for significant developments.
+* **Advertising Posts:** Analyzes advertisement posts across Telegram channels, providing insights into the content and effectiveness of ads posted on channels.
+* **Advertiser Rankings:** Displays a database of brands and advertisers on Telegram (across all channels), ranked by various metrics. This helps users understand the advertising landscape on Telegram and identify major advertisers. _(Initially launched as beta; now a standard feature.)_
+* **Posts Search (New):** Enables searching for specific words or phrases in Telegram posts across channels. This is useful for tracking discussions, finding references to a topic across many channels, or researching how information spreads on Telegram.
+* **TgCleaner:** Helps channel admins identify and remove bot or fake subscribers from their channel, thereby maintaining the quality of the channel’s audience. _(This feature is available for **free** to verified channel owners​.)_
+* **Joinio:** A bot assistant for managing join requests to a Telegram channel, facilitating member recruitment and moderation (for example, handling applications to join if a channel is private or approval-based).
 
 #### Event tracking
 
@@ -383,19 +363,14 @@ The **word tracking tool** allows users to monitor specific words or phrases wit
 
 <summary>Word Tracking Tool input fields</summary>
 
-* **Words or Phrases** lets users input keywords they want to monitor. This enables keyword monitoring to track the spread of information and identify key trends or narratives.
-
-- **Where to Look?** offers options to search within channels for public discussions and chats for more private conversations. This dual approach helps capture a broad range of discourse on the specified terms.
-
-* **Minus Word** allows users to exclude certain words from tracking. This helps refine the search by filtering out irrelevant mentions, ensuring more focused data collection.
-
-- **Search Scope** provides three options:
-
-1. **In Any Channels or Chats** for a comprehensive search.
-2. **Search in Specific Channels or Chats** to target specific areas.
-3. **Exclude Specific Channels and Chats from the Search** to avoid noise and irrelevant mentions.
-
-* A notification bot can be activated to give you immediate notice if the tracking tool is triggered.
+* **Words or Phrases:** You input the keywords you want to monitor. The tool will track these across public channels (and chats, if selected) to help you follow the spread of information or the prevalence of a topic.
+* **Where to Look?:** You can choose to search within **channels** (public broadcasts) or **chats** (group or private conversations). Searching in channels captures public discourse, while searching in chats (where accessible) can give insight into more private or community discussions. Often, selecting both gives a comprehensive picture.
+* **Minus Word:** If there are common but irrelevant contexts for your keywords, you can exclude certain terms. This filters out noise. For example, if you're tracking the word "mercury" but want info on the element and not the planet, you might exclude "planet" as a minus word.
+* **Search Scope:** You have three options to refine scope:
+  1. _In Any Channels or Chats_ – a broad search everywhere on Telegram (within public scope or accessible chats).
+  2. _Search in Specific Channels or Chats_ – limit the search to particular channels/chats that you suspect are relevant (for targeted investigations, e.g. only within known extremist channels).
+  3. _Exclude Specific Channels or Chats_ – search everywhere except some places you specify (useful if certain high-traffic channels create lots of irrelevant hits).
+* **Notification Bot:** You can activate Telemetr.io’s notification bot to receive an immediate alert on Telegram whenever your tracking criteria are met (for instance, if your keyword appears or your watched channel gets mentioned). This provides real-time monitoring without needing to constantly check the site, making it convenient and ensuring you don't miss timely information.
 
 </details>
 
@@ -405,52 +380,25 @@ The **word tracking tool** allows users to monitor specific words or phrases wit
 
 <summary>Channels and Chats tracking input fields</summary>
 
-* **Specify the Name of the Channel:** This field allows the user to input the name of the Telegram channel they wish to track.
-* **What Events to Report:**
-
-- **Mention of the Channel** tracks when the specified channel is mentioned in other channels or chats. Tracking mentions helps in understanding the reach and influence of the channel. It can also identify how and where the channel is being discussed, providing insights into its reputation and impact.
-- **Notify if a Previously Published Post Mentioning the Channel Has Been Deleted** alerts the user if a post that previously mentioned the channel is deleted. Deleted mentions can indicate attempts to hide information or alter the narrative. Monitoring these events can help in investigating potential censorship or manipulation of information.
-
-* Where to Look?
-
-1. **In Channels**
-   * **Explanation:** This option includes mentions within other Telegram channels.
-   * **Interpretation:** Channels are public or semi-public spaces where information is disseminated to larger audiences. Tracking mentions here helps in understanding the broader public discourse around the specified channel.
-2. **In Chats**
-   * **Explanation:** This option includes mentions within Telegram chats.
-   * **Interpretation:** Chats can be private or group conversations where discussions might be more informal or candid. Tracking mentions in chats can provide deeper insights into private opinions and discussions related to the specified channel.
-
-**Search Scope**
-
-1. **In Any Channels or Chats**
-   * **Explanation:** This option allows the tool to search for mentions in all channels and chats across Telegram.
-   * **Interpretation:** A comprehensive search scope ensures that no mentions are missed, providing a complete picture of the channel’s reach and influence.
-2. **Search in Specific Channels or Chats**
-   * **Explanation:** This option allows the user to limit the search to specific channels or chats.
-   * **Interpretation:** Focusing on specific channels or chats can be useful for targeted investigations, such as monitoring mentions within a known network of related channels or within a particular community.
-3. **Exclude Specific Channels and Chats from Search**
-   * **Explanation:** This option allows the user to exclude certain channels or chats from the search.
-   * **Interpretation:** Excluding specific channels or chats can help in avoiding noise or irrelevant mentions, ensuring that the data collected is focused and relevant to the investigation.
-
-**Connect Notifications in Telegram**
-
-**Explanation:** This option allows the user to receive notifications about mentions directly in the Telegram bot.
-
-**Interpretation:**
-
-* **Real-Time Alerts:** Receiving notifications via Telegram ensures that researchers are promptly alerted to relevant mentions, enabling timely responses and actions.
-* **Convenient Monitoring:** Integrating notifications into Telegram, where the user is likely already active, enhances convenience and efficiency in monitoring efforts.
+* **Channel to Track:** Specify the name/ID of a Telegram channel you want to monitor.
+* **What Events to Report:** Choose what kind of events you want alerts on for that channel. For example:
+  * **Mentions of the Channel:** Get notified whenever this channel is mentioned in other channels or chats. This helps you see when the channel becomes a subject of discussion elsewhere, indicating its content might be spreading or causing reactions.
+  * **Deleted Mentions:** Get an alert if a post that mentioned this channel is later deleted. Such deletions could suggest someone tried to retract information or cover up an association. Monitoring these can be important for investigative leads (e.g., if a channel gets mentioned in a controversial context and that mention disappears).
+* **Where to Look?:** Similar to keyword tracking, you can monitor mentions in channels vs. chats (or both).
+  1. Monitoring in **Channels** will focus on public mentions in other channels (which is great for capturing public discourse around the channel).
+  2. Monitoring in **Chats** will look at mentions in group or private chats (capturing more private community discussions)​
+* **Search Scope:** The same trio of scope options (anywhere, specific, exclude specific) applies here as well, allowing you to broaden or narrow where you want to monitor mentions of the channel.
 
 </details>
 
 {% hint style="info" %}
-**Example use cases:**
+**Info:** Example use cases for the Event Tracking tool:
 
-* **Comprehensive Monitoring** of discussions through specified keywords.
-* **Focused Investigation** by excluding irrelevant terms and focusing on specific areas.
-* **Detection of Emerging Trends** in real-time.
-* **Contextual Understanding** by monitoring both public and private discussions.
-* **Real-Time Alerts** for timely updates on important keywords.
+* **Comprehensive Monitoring:** Keep track of a developing story or rumor by monitoring keywords across Telegram. For example, during breaking news, monitor a key term to see how information spreads.
+* **Focused Investigation:** If you're researching a specific group, you might track their channel name (to see who talks about them) and exclude unrelated groups to avoid noise.
+* **Detecting Emerging Trends:** Real-time alerts for certain phrases can tip you off when a narrative is starting to go viral or when a new hashtag or slogan emerges in chats/channels you watch.
+* **Contextual Understanding:** By monitoring both public channels and private chats for a keyword, you can gauge differences in public messaging vs. grassroots discussion on that topic.
+* **Real-Time Alerts:** Get immediate notifications for critical keywords (e.g., a sudden mention of a planned protest or a key figure’s name) so you can respond or investigate quickly.
 {% endhint %}
 
 ***
@@ -467,31 +415,31 @@ The advertising search tool allows users to filter and analyze advertisement pos
 
 The filter options on the left side of the screen refine the search based on various criteria:
 
-1. **Period:** Users can select a time range (e.g., last 30 days) to view ads within that timeframe, helping to analyze recent advertising activities.
-2. **In Text:** Allows users to search for specific words or phrases within ads, useful for tracking particular campaigns or topics.
-3. **Mentioned Channel:** Users can search for ads that mention specific Telegram channels, indicating potential partnerships or influencer collaborations.
-4. **By Channel:** Filters ads by the channel that posted them, useful for understanding specific channels' advertising strategies.
-5. **Category:** Filters ads based on content type or industry, aiding in analyzing industry-specific advertising trends.
-6. **Country:** Filters ads based on the country of origin, useful for geographic-specific analysis.
-7. **Views:** Allows users to set a range for the number of views to filter ads by their popularity, identifying successful campaigns or high-interest content.
+* **Period:** Select a time range (e.g., last 7 days, last 30 days, etc.) to only see ads posted in that interval. This helps focus on recent ads or a specific timeframe of interest.
+* **In Text:** Search for specific words or phrases within the text of ads. This is useful if you’re looking for ads about a particular topic or campaign (for example, ads mentioning "VPN service" or a brand name).
+* **Mentioned Channel:** Find ads that mention a specific Telegram channel. This could reveal partnerships or influencer marketing (e.g., a brand’s ad that mentions a channel it’s collaborating with).
+* **By Channel:** Filter by the channel that posted the ad. If you want to analyze the advertising behavior of a specific channel (like a news channel that also posts ads), you can see all ads from that channel.
+* **Category:** Filter ads by their topic or industry category (if categorized). This allows an industry-specific analysis, such as looking at ads related to cryptocurrency, fashion, politics, etc.
+* **Country:** Filter ads based on the country of origin (likely inferred from the channel or content). This is useful for geographic analysis — for instance, see ads coming from Russian channels versus U.S. channels.
+* **Views:** Set a minimum and/or maximum range of views. This lets you find either very popular ads (high views) or perhaps niche ads (low views). It helps in identifying which ad campaigns gained significant attention.
 
-The results section displays filtered advertisement posts with various metrics and details:
+After applying filters, the results section will list advertisement posts that match your criteria, with key details for each:
 
-1. **Channel Information:** Shows the channel name and avatar, providing context about the advertiser.
-2. **Engagement Metrics:** Includes metrics like mentions, views, and engagement rate (ER) for each ad, helping evaluate the ad's effectiveness.
-3. **Ad Content:** Displays the content of the ad, including text and any included links or media, helping understand the messaging and promotional tactics used.
-4. **Post Time:** Indicates the date and time when the ad was posted, helping to correlate ad campaigns with events or promotional periods.
-5. **Analytics Link:** Provides a link to further analytics for the ad post, allowing deeper analysis of the ad's performance and impact.
+1. **Channel Information:** The channel that posted the ad, including its name and avatar. This gives context on who is advertising — e.g., an ad might come from a channel dedicated to ads or from a normal channel occasionally posting an ad.
+2. **Engagement Metrics:** For each ad post, you’ll see metrics like how many mentions it got, how many views it received, and possibly an engagement rate (ER). These help evaluate the ad’s performance or virality (mentions could indicate other channels or users are talking about the ad).
+3. **Ad Content:** The text or media of the ad itself (what is being advertised and how). Reviewing the content can help you understand the messaging and possibly identify common patterns or tactics used in Telegram ads.
+4. **Post Time:** The date and time when the ad was posted. This can be important for correlating with events (was it posted during a major product launch? on a weekend? etc.) and for sorting ads chronologically.
+5. **Analytics Link:** A link to further analytics for that ad post. Clicking this would typically take you to a more detailed analysis page for that specific advertisement, where you might see its full performance over time or related analytics.
 
 </details>
 
 {% hint style="info" %}
-**Use-case examples:**
+**Info:** Use-case examples for the Advertising search tool:
 
-1. **Tracking Ad Campaigns:** By filtering ads based on various criteria, researchers can track and analyze specific advertising campaigns, understanding their reach and effectiveness.
-2. **Identifying Influencers:** The channel filter helps identify channels frequently appearing in ads, indicating potential influencers or key players in specific niche areas.
-3. **Regional Analysis:** Filtering ads by country allows for geographic-specific investigations, helping to understand regional advertising strategies and market focus.
-4. **Content Analysis:** Reviewing the content of ads helps in understanding the messaging strategies and promotional tactics used by different channels or actors.
+1. **Tracking Ad Campaigns:** If you know of an ongoing campaign (say a political campaign advertising on Telegram), you can filter by a keyword or channel to see all the related ads and analyze their reach and frequency.
+2. **Identifying Influencers:** By filtering ads by certain categories or searching in ad text, you might see certain channels repeatedly. For example, you might discover that a few channels frequently appear posting ads for tech products, indicating they are key influencers in that niche.
+3. **Regional Analysis:** Using the country filter, you could compare how advertising differs between regions. For instance, what products are commonly advertised in Eastern Europe Telegram channels vs. Western Europe.
+4. **Content Analysis:** By reading through the content of ads in a category, you can identify messaging strategies. E.g., ads for financial services might commonly use certain phrases or offers — understanding this can be useful if you’re investigating scams or propaganda in ads.
 {% endhint %}
 
 ***
@@ -510,19 +458,19 @@ The filter options on the left side of the screen allow users to refine their se
 
 **Filter Criteria:**
 
-1. _**Category**_**:** Users can select a category to filter advertisers based on their industry or content type.
-2. **In Channel:** This feature allows users to search for advertisers within a specific Telegram channel. It is useful for identifying which advertisers are most active within particular channels and providing insights into targeted advertising efforts.
-3. **Country:** Users can filter advertisers based on their country of origin. This enables geographic-specific analysis, helping to understand regional advertising strategies and market focus.
-4. **Period:** Users can select a time range (e.g., last 180 days) to view advertiser rankings within that specific timeframe. This helps analyze recent advertising trends and activities over a defined period.
+* **Category:** Select an industry or content category to narrow down advertisers. For example, you can choose “Cryptocurrencies” to see only crypto-related advertisers, or “News & Media” for media brands.
+* **In Channel:** Specify a particular channel to see which advertisers have placed ads in that channel. This is useful if you want to see who is sponsoring a specific channel.
+* **Country:** Filter advertisers based on country of origin, which helps to analyze advertising markets by region.
+* **Period:** Choose a time range (e.g., last 180 days) to consider ads placed in that timeframe. This focuses the ranking on recent activity or a particular period of interest.
 
 The search results section lists advertisers based on the selected filters. Each advertiser entry includes various metrics and details.
 
 **Metrics and Details:**
 
-1. **Brand Name**: The name of the advertising brand along with a logo or avatar, providing context about the advertiser. Knowing the brand names helps assess the advertisers' credibility and reach.
-2. **Views**: The total number of views generated by the advertiser’s posts. High view counts indicate successful ad campaigns and high visibility. This metric helps evaluate the reach and impact of the advertiser’s content.
-3. **Mentions**: The number of times the advertiser is mentioned within channels or posts. Many mentions suggest strong brand presence and engagement within the Telegram community.
-4. **Channels**: The number of different channels where the advertiser has placed ads. This metric shows the breadth of the advertiser's reach. A higher number of channels indicates a wider advertising network and broader audience targeting.
+* **Brand Name:** The name of the advertiser (often a brand or product name) and possibly a logo. Recognizing the brand can immediately tell you who is spending on Telegram ads.
+* **Views:** The total number of views garnered by that advertiser’s ads (summing across all their ads in the selected scope). High view counts indicate that the advertiser’s messages are reaching a large audience.
+* **Mentions:** How many times the advertiser is mentioned (perhaps in contexts outside their own ads). Many mentions could suggest the advertiser is creating buzz or being discussed by channels/users, not just seen.
+* **Channels:** The number of different channels where the advertiser has placed ads. A broad presence (ads in many channels) indicates a wide campaign or multiple partnerships, whereas ads concentrated in a few channels might indicate a targeted strategy.
 
 </details>
 
@@ -539,11 +487,13 @@ The search results section lists advertisers based on the selected filters. Each
 
 ### API
 
-This service includes an REST API, allowing users to access data that is programmatically available on the Telemetr.io website. Users must obtain an access key via the @telemetrio\_api\_bot bot to use this API.
+Telemetr.io provides a REST API that allows programmatic access to the platform’s data, so users can query Telegram analytics without using the web interface. To use the API, you must obtain an API access key through the `@telemetrio_api_bot` on Telegram (this bot handles API key registration).
 
-The API is designed according to the OpenAPI v3 standard, ensuring compatibility with various programming languages. It offers capabilities such as searching for channels, retrieving basic channel information, accessing channel statistics, viewing channel messages, tracking subscriber changes, and analyzing message reach history. Additionally, it provides dictionaries for languages, countries, and categories.
+The API follows the OpenAPI v3 specification for compatibility with various programming environments. It currently supports operations such as: searching for channels by name/keywords, retrieving basic information about a channel (ID, name, description, etc.), accessing channel statistics (subscriber counts, growth, engagement metrics), viewing recent channel messages, tracking changes in subscribers, and getting the history of message reach (views over time for messages). It also provides reference data like lists of supported languages, countries, and categories for channels (to interpret codes or filter data).
 
-The API is actively developed, with new data and functionalities planned for future updates. Information on all available paid plans can be found [here](https://api.telemetr.io/docs/intro/overview).
+The API is actively developed; new data fields and functions are added regularly. For instance, an _“ads\_index\_grade”_ field (reflecting the advertising index/grade for a channel) was introduced to the [channel stats endpoint in January 2025​.](https://api.telemetr.io/rapidoc)
+
+Information on all available API subscription plans (including pricing and limits) can be found on Telemetr.io’s API documentation site​ (API access is a separate service from the main Telemetr.io web subscription; obtaining extensive data via API beyond the free tier requires a paid API plan.)
 
 ## Cost
 
@@ -552,11 +502,11 @@ The API is actively developed, with new data and functionalities planned for fut
 * [ ] Paid
 
 {% hint style="warning" %}
-- The free tier may suffice for basic orientation and initial research. Still, its limitations regarding the number of channels observed, search functions, event tracking, and data export make it unsuitable for most investigations.
-- The Pro tier offers improvements in ad post tracking and audience analytics, making it a starting point for tentative research, but it is still significantly limited.
-- The Advanced tier provides extensive search capabilities and data exports, but the export functionality is still minimal.
-- The Enterprise tier, with its fully customizable options, is ideal for large-scale, detailed research projects and institutional needs.
-- API access is available to export a limited but larger number of channel metrics, but is priced separately from the main subscriptions.
+- The free tier may suffice for basic orientation and initial exploration, but its limitations (on number of channels tracked, search functions, event tracking, and data export) make it inadequate for most in-depth investigations.
+- The Pro tier offers some improvements (more ad post tracking and limited audience analytics), serving as a starting point for research, but it remains significantly limited in scope.
+- The Advanced tier provides extensive search capabilities and some data export, but even here the export functionality is minimal (mostly just channel list data).
+- The Enterprise tier includes fully customizable options and is ideal for large-scale or institutional research needs, offering the most comprehensive access.
+- **API access** is available to export a larger set of channel metrics, but this is priced separately from the main subscriptions and has its own tiers and limits.
 {% endhint %}
 
 ## Level of difficulty
@@ -570,14 +520,14 @@ The API is actively developed, with new data and functionalities planned for fut
 
 ## Limitations
 
-* **Access Thresholds:** the free tier only allows analysis of 5 channels per day and only 5 queries for search by posts.
-* **Historical Data:** Historical data about Telegram channels or bots is limited to the last 30 days in the Free tier.
-* **Real-time Data:** While it offers insights and analytics, there will be a delay in data updates, affecting real-time research and monitoring.
-* **API Restrictions:** If you intend to use its free API, you can only access five verified channels, with rate limits of 1000 requests per month and a history of seven days (among other feature limitations).
-* **Geographical Coverage:** Some features or data metrics are not fully available or might not be accurate for Telegram channels or bots that operate in specific regions or languages.
-* **Mis-categorisation:** some channels have been mis-categorised, so ratings by category should not be taken at face value. (This is especially true for the category "facts".)
+* **Access Thresholds:** The free tier only allows analysis of up to 5 channels per day and only five search queries by posts per day. This cap severely restricts how much you can explore without a subscription.
+* **Historical Data:** Historical analytics for channels (e.g., past subscriber counts, old posts) are limited to roughly the last 30 days on the Free tier. Deeper history is only available in higher tiers.
+* **Real-time Data:** Data isn’t perfectly real-time; there can be some delay in updates. This means Telemetr.io may not capture events the instant they happen, which can affect time-sensitive research.
+* **API Restrictions:** The free API access is very limited – you can query only 5 verified channels, with a rate limit of 1,000 requests per month and only a 7-day history for certain data​. Higher API tiers raise these limits (e.g., more channels, more requests, longer history) but require separate payment.
+* **Geographical Coverage:** Some features or metrics might not fully cover all regions or languages. For example, certain local Telegram data might be sparse, and metrics like language or country might be missing or less accurate for some channels.
+* **Miscategorization:** The categorization of channels is not perfect. Some channels are tagged in the wrong category (the "Facts" category in particular has been noted to contain various unrelated channels). Researchers should not take category labels at face value if precision is required – double-check the channel content.
 
-Researchers should consider these limitations when deciding whether telemetr.io fits their research needs and objectives.
+Researchers should keep these limitations in mind when deciding if Telemetr.io meets their needs and when interpreting the data it provides.
 
 ## Ethical Considerations
 
@@ -622,7 +572,9 @@ Telemetr.io [https://telemetr.io/en/terms-of-use](https://telemetr.io/en/terms-o
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-([Privacy Badger](https://privacybadger.org/) reported a google adsense ID, and a cloudflare insights beacon)&#x20;
+**Tracking and Cookies:** Telemetr.io uses advertising trackers and cookies on its website. A scan with Privacy Badger reported the presence of a Google AdSense advertising tracker and a Cloudflare analytics beacon​, indicating that user activity on the site may be tracked for advertising or analytical purposes. Use the site with appropriate caution (e.g., browser extensions or settings to block trackers if desired).
+
+**Data Collection:** According to Telemetr.io’s[ terms of use](https://telemetr.io/en/use-of-cookies), the platform may collect certain personal data via cookies, including the date and time of visits, a masked IP address, and approximate location (country, region, city, and latitude/longitude) of users. Users should be aware that by logging in through Google or Telegram and using the service, some of their data (albeit limited and anonymized) is being recorded.
 
 | Page maintainer |
 | --------------- |
