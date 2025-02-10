@@ -11,7 +11,7 @@ description: A toolkit that supports the verification of videos and images.
 ### Github
 
 {% embed url="https://github.com/AFP-Medialab/verification-plugin" %}
-release at the time of writing: v0.83 (Jan 25)
+release at the time of writing: v0.84 (Feb 25)
 {% endembed %}
 
 ## Description
