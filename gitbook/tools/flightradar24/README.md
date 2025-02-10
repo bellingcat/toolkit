@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-Flightradar24 is a real-time global flight tracking service. It provides detailed information about aircraft position, flight number, origins, and sometimes flight origin and destination. It also includes details on the type of aircraft. It provides both real-time flight tracking and historical flight information.
+Flightradar24 is a real-time global flight tracking service. It provides detailed information about aircraft position, flight number, and sometimes flight origin and destination. It also includes details on the type of aircraft. It provides both real-time flight tracking and historical flight information.
 
 Flightradar24 data can be used for open-source investigations, including but not limited to:
 
@@ -36,17 +36,11 @@ According to the tool’s filter website, it tracks about 12 aircraft categories
 
 ## But First, Identifiers and Where to Find Them
 
-{% include ".gitbook/includes/when-doing-flight-tracking-....md" %}
-
-{% include ".gitbook/includes/flight-tracking-websites-ha....md" %}
-
 {% hint style="info" %}
 TIP: Note that not all identifiers may be immediately available on one flight tracking website. Cross-check with other platforms.
 {% endhint %}
 
 ### CALL SIGNS
-
-{% include ".gitbook/includes/call-signs.md" %}
 
 **Where can I find the call sign on Flightradar24?**
 
@@ -67,8 +61,6 @@ _**For completed/historical flights:**_
 
 ### REGISTRATION NUMBER / TAIL NUMBER
 
-{% include ".gitbook/includes/call-sigsn.md" %}
-
 **Where can I find the registration number on Flightradar24?**
 
 _**For live flights**_
@@ -81,8 +73,6 @@ Follow the same steps shown above for searching call signs for historical flight
 
 
 ### HEX CODE/ ICAO CODE
-
-{% include ".gitbook/includes/hex-code.md" %}
 
 **Where can I find the hex code on Flightradar24?**
 
