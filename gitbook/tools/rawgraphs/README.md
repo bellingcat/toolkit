@@ -13,43 +13,28 @@ description: >-
 
 ## Description
 
-RAWGraphs is a browser-based tool that provides a flexible platform for creating complex, data-driven visualizations. Users can upload data files, select from a wide range of chart types, map data dimensions, and export visualizations in .svg format for further editing. It supports unique visualization types, including alluvial diagrams, beeswarm plots, and stacked area charts, making it suitable for exploring complex relationships, timelines, and distributions in data.
+RAWGraphs is a web-based [open-source](https://github.com/rawgraphs/rawgraphs-app) data visualization software designed to make [complex data easy to visualize](https://www.rawgraphs.io/about). It was conceived as a tool for designers and data visualization enthusiasts to bridge the gap between spreadsheet applications and vector graphics editors​. The software is built on top of the [D3.js library](https://d3js.org/) (a JavaScript framework for creating data-driven visuals) and produces graphics in the SVG (Scalable Vector Graphics) format​.&#x20;
 
-In addition to file uploads, RAWGraphs supports SPARQL queries directly from the web app, allowing users to retrieve data from RDF-based databases and knowledge graphs (e.g., Wikidata or DBpedia) without leaving the interface. SPARQL (SPARQL Protocol and RDF Query Language) is a powerful tool for querying interconnected datasets and extracting complex relationships. This feature enables users to access up-to-date, linked data from open sources, enhancing RAWGraphs' utility for semantic web and research applications.
+RAWGraphs allows users to create a variety of charts and diagrams without any coding skills. It has an intuitive drag-and-drop interface where data columns can be mapped to visual variables of a chart. This approach lets journalists, designers, researchers, and other users quickly generate visualizations and then refine them using external graphic software if needed​
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>The vast number of charts available.</p></figcaption></figure>
 
 ## Key Features
 
-* **Selecting Visualization Types**: RAWGraphs provides a variety of chart types suited for different research needs, from alluvial diagrams for flow data to beeswarm plots for event timelines.
-* **Contributing and Customization**: As an open-source project, RAWGraphs allows users and developers to contribute by adding features or creating custom chart types, expanding its utility for specialized visualizations.
-* **Humanizing Data through Visual Impact**: When dealing with sensitive or humanitarian data, as in the Afghanistan school attack visualization, RAWGraphs enables researchers to balance emotional storytelling with data accuracy, making complex information accessible and impactful.
+* **Free and Open Source:** RAWGraphs is free to use (no fees or registration required), and its source code is available under the [Apache 2.0 open-source licens](https://github.com/rawgraphs/rawgraphs-app)e. This means anyone can use or modify the tool, and [community contributions](https://www.rawgraphs.io/learning/what-is-rawgraphs-our-approach-to-data-visualization) are welcome.
+* **Web-Based Application:** It runs entirely in the web browser, with no installation needed. All data processing happens client-side (in your browser), so your input data is [**not uploaded or stored on any server**​.](https://www.rawgraphs.io/learning/how-to-load-and-format-your-data-for-rawgraphs) This ensures privacy and security for sensitive data.
+* **User-Friendly Interface:** The tool offers a graphical interface for building visualizations by loading data and assigning fields to chart elements. No programming knowledge is needed to create chart&#x73;**.**
+* **Wide Range of Chart Types:** RAWGraphs offers nearly 30 types of visualizations, from traditional charts to more unusual layouts​. You can create basic charts like bar graphs or line plots and specialized diagrams for complex data (see the list of available chart types below).
+* **Flexible Data Import:** Data can be imported in various ways, as long as it’s in a tabular (table-like) format. You can copy and paste data from spreadsheets, [upload text-based data files](https://www.rawgraphs.io/learning/how-to-load-and-format-your-data-for-rawgraphs) (CSV, TSV or other delimiter-separated values, and JSON formats)​, or [fetch data directly from a URL](https://www.rawgraphs.io/learning/how-to-load-and-format-your-data-for-rawgraphs) or a live [**SPARQL** ](https://en.wikipedia.org/wiki/SPARQL)query endpoint (a way to retrieve data from databases like Wikidata). RAWGraphs also provides some sample datasets, and it allows importing previously saved project files (with a `.rawgraphs` extension) to resume work.
+* **Customization and Extensibility:** Advanced users can extend RAWGraphs by adding new chart types. In version 2.0.1, support for custom charts was introduced, [allowing users to load their own visualization modules “on the fly” ](https://www.rawgraphs.io/post/rawgraphs-updates-with-version-2-0-1)without modifying the core code​. This means if a needed chart type is not available by default, you can code it (following RAWGraphs’ chart specifications) and plug it into the interface for others to use.
+* **Export and Editing:** RAWGraphs visualizations can be refined and exported for different uses. The tool allows adjustments to colors, shapes, and visual settings, then exports as SVG or PNG images. SVG files are particularly useful for opening in vector graphic editors like Adobe Illustrator or Inkscape for lossless editing.
 
-### **Data Import Methods in RAWGraphs**
+## Using RAWGraphs involves a few simple steps:
 
-RAWGraphs offers several ways to import data, making it easy to connect to various sources:
-
-1. **Upload a File**: Supports **.csv**, **.tsv**, **.dsv**, and **.json** formats.
-2. **Copy and Paste from a Table**: Directly paste data from a spreadsheet or text editor for quick visualizations.
-3. **Load Data from a URL**: Connect to a web URL (e.g., Google Sheets, GitHub, public APIs) for live data. Just paste the URL, and use the “Refresh data from URL” feature to update your visualization as the source data changes.
-   * **Google Sheets**: Publish the sheet as a .csv, copy the URL, and load it in RAWGraphs.
-   * **GitHub**: Open the raw file link, copy the URL, and load it in RAWGraphs.
-4. **SPARQL Query**: Retrieve data from linked data sources like **Wikidata** using SPARQL queries, perfect for accessing structured datasets directly.
-5. **Use Sample Datasets**: Experiment with RAWGraphs’ built-in sample datasets for testing and learning.
-6. **Open a .rawgraphs Project**: Load a saved .rawgraphs file to continue working on an existing visualization, including any mappings and settings.
-
-### **Open-Source Structure and Contributing**
-
-As an open-source project, RAWGraphs encourages community contributions for solving bugs, adding features, or introducing new charts. It is divided into three main modules:
-
-1. **RAWGraphs Core**: A modular JavaScript library that simplifies the RAWGraphs workflow and allows developers to render charts programmatically. It serves as the backbone of the RAWGraphs App but can be used independently in other projects.
-   * [Core GitHub Repository](https://github.com/rawgraphs/rawgraphs-core)
-   * [Core Documentation](https://rawgraphs.github.io/rawgraphs-core/docs/)
-2. **RAWGraphs App**: A web-based interface for creating vector-based visualizations using the RAWGraphs core. Built with React.js, the app provides an intuitive environment for users to generate and customize visualizations without writing code.
-   * [App GitHub Repository](https://github.com/rawgraphs/rawgraphs-app)
-3. **RAWGraphs Charts**: A curated selection of chart types available through the RAWGraphs app, enabling users to visualize various data structures.
-   * [Charts GitHub Repository](https://github.com/rawgraphs/rawgraphs-charts)
-   * [Charts Documentation](https://rawgraphs.github.io/rawgraphs-core/docs/chart-interface/)
+1. **Load Your Data:** Input your dataset by pasting it into the app or uploading a file (e.g., CSV). You can also retrieve data via a web link or a SPARQL query if needed.
+2. **Choose a Chart Type:** Select one of the available visualization models from the RAWGraphs gallery (e.g. a bar chart, alluvial diagram, etc.).
+3. **Map Data to Visual Variables:** Assign the columns or fields of your dataset to the visual dimensions of the chart. For example, you might drag a “Category” field to a color attribute or an “Amount” field to the size or length of bars. The interface will update the chart preview accordingly.
+4. **Tune and Export:** Adjust styling options like colors, margins, or labels to fine-tune the appearance. Once satisfied, export your visualization as an SVG or PNG file for sharing or further editing​.&#x20;
 
 ### **Example Use Cases**:
 
@@ -66,7 +51,7 @@ As an open-source project, RAWGraphs encourages community contributions for solv
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
@@ -78,7 +63,7 @@ RAWGraphs requires data to be formatted in a single table structure. Supported f
 
 ## Ethical Considerations
 
-Since RAWGraphs processes data locally in the browser, it does not upload or store data on any servers, making it suitable for visualizing sensitive or confidential information. However, users should remain cautious about data privacy and take steps to protect sensitive data on their own systems.
+Since RAWGraphs processes data locally in the browser, it does not upload or store data on any servers, making it suitable for visualizing sensitive or confidential information. However, users should remain cautious about data privacy and take steps to protect sensitive data on their systems.
 
 ## Guides and articles
 
@@ -90,7 +75,7 @@ UofILibrary (Director). (2022, November 30). _RAWGraphs—Data Hub Tool Talk_ \[
 
 ## Tool provider
 
-Developed by [DensityDesign](http://densitydesign.org/), [Calibro](https://www.rawgraphs.io/gallery/emergency-afghanistan20), and [Inmagik](https://www.rawgraphs.io/gallery/emergency-afghanistan20)
+RAWGraphs was first released in 2013 as “RAW” by researchers at the DensityDesign Lab (Politecnico di Milano). It is maintained and developed by the DensityDesign Lab, the design studio Calibro, and the development firm Inmagik​. [https://www.rawgraphs.io/about](https://www.rawgraphs.io/about)
 
 ## Advertising Trackers
 
