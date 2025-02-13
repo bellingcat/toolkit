@@ -10,7 +10,7 @@ https://imagej.com
 
 ## Description
 
-**:** ImageJ provides a powerful toolkit to manipulate and analyze images at the pixel level. It supports operations like contrast enhancement, filtering (sharpening, blurring), edge detection, and color channel analysis. After calibrating the scale, the software can measure distances and areas, [count or detect objects, align and overlay multiple images, and perform mathematical image comparisons​](https://imagej.net/ij/docs/pdfs/Image_Processing_with_ImageJ.pdf). Its capabilities span many techniques, including image registration, segmentation, object tracking, and more​, all expandable through hundreds of community-developed [plugins](https://imagej.net/list-of-extensions)​. Because it is free and open-source with a large user community, new formats and features are constantly being added.
+ImageJ provides a powerful toolkit to manipulate and analyze images at the pixel level. It supports operations like contrast enhancement, filtering (sharpening, blurring), edge detection, and color channel analysis. After calibrating the scale, the software can measure distances and areas, [count or detect objects, align and overlay multiple images, and perform mathematical image comparisons​](https://imagej.net/ij/docs/pdfs/Image_Processing_with_ImageJ.pdf). Its capabilities span many techniques, including image registration, segmentation, object tracking, and more​, all expandable through hundreds of community-developed [plugins](https://imagej.net/list-of-extensions)​. Because it is free and open-source with a large user community, new formats and features are constantly being added.
 
 **Investigative Applications:** OSINT researchers can leverage ImageJ in various ways to support investigations:
 
