@@ -130,7 +130,9 @@ function getTools() {
       if (urlmarkdown === null) {
         console.log("No url markdown matched for", filepath);
         if (!json.url) {
-          throw new Error("No URL detected for tool");
+          console.warn("No URL detected for tool, defaulting to toolkit entry URL");
+          const slug = path.basename(markdownFile.directory);
+          url = `https://bellingcat.gitbook.io/toolkit/more/all-tools/${slug}`;
         }
       } else {
         const embedregex = /{% embed url="(https:\/\/[^"]+)" %}/;
