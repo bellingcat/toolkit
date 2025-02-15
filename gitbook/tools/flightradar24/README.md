@@ -9,7 +9,7 @@ description: >-
 
 ## URL
 
-[https://www.flightradar24.com](https://www.flightradar24.com)
+[https://www.flightradar24.com](https://www.flightradar24.com)
 
 ## Description
 
