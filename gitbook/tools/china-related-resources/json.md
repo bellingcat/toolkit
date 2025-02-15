@@ -7,7 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "url": "https://bellingcat.gitbook.io/toolkit/more/all-tools/china-related-resources",
   "tags": [
     "companies-and-finance"
   ]
