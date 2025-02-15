@@ -8,7 +8,9 @@ description: >-
 
 ## URL
 
-[https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg#gsc.tab=0](https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg#gsc.tab=0) – Official Telegago Google Custom Search Engine (short: [http://bit.ly/telegago](http://bit.ly/telegago))
+[https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg](https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg) – Official Telegago Google Custom Search Engine
+
+(short: [http://bit.ly/telegago](http://bit.ly/telegago))
 
 ## Description
 
