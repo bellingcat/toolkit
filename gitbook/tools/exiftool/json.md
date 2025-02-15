@@ -8,7 +8,6 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "draft": true,
-  "url": "https://exiftool.org",
   "tags": [
     "metadata-extraction",
     "photo-management",
