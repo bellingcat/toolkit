@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-[https://public.openmeasures.io/](https://public.openmeasures.io/timeline?searchTerm=qanon\&startDate=2023-10-27\&endDate=2024-04-26\&websites=gab\&numberOf=10\&interval=day\&changepoint=false\&esquery=content\&hostRegex=true)
+[https://public.openmeasures.io](https://public.openmeasures.io)
 
 ## Description
 

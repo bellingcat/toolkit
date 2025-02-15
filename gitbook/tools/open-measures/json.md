@@ -8,7 +8,6 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "name": "Open Measures",
-  "url": "https://openmeasures.io/",
   "tags": [
     "smat",
     "4chan",
