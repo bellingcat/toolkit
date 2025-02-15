@@ -127,14 +127,8 @@ function getTools() {
       // it may be a markdown link
       let url = null;
       const urlmarkdown = content.match(/## URL\n\n(.*)\n/);
-      if (urlmarkdown === null) {
-        console.log("No url markdown matched for", filepath);
-        if (!json.url) {
-          console.warn("No URL detected for tool, defaulting to toolkit entry URL");
-          const slug = path.basename(markdownFile.directory);
-          url = `https://bellingcat.gitbook.io/toolkit/more/all-tools/${slug}`;
-        }
-      } else {
+      const slug = path.basename(markdownFile.directory);
+      if (urlmarkdown !== null) {
         const embedregex = /{% embed url="(https:\/\/[^"]+)" %}/;
         const embedurl = urlmarkdown[1].match(embedregex);
         if (embedurl) {
@@ -143,17 +137,22 @@ function getTools() {
           const markdownLink = urlmarkdown[1].match(/\[(.*)\]\((.*)\)/);
           url = markdownLink ? markdownLink[2] : urlmarkdown[1];
         }
+      } else {
+        console.log(slug, ": No URL in the README");
+        if (!json.url) {
+          url = `https://bellingcat.gitbook.io/toolkit/more/all-tools/${slug}`;
+          console.warn("... Defaulting to", url);
+        }
       }
 
+      if (json.url && url !== json.url) {
+        console.warn(slug, ": URL overriden by json");
+        console.warn('...', url, '=>', json.url);
+      }
 
       // get category data from categories.md if it exists
       const categoriesFilePath = path.join(toolDir, 'categories.md');
       const categories = markdownToCategories(categoriesFilePath);
-
-      if (json.url && url !== json.url) {
-        console.warn(`URL in README.md overrided in JSON.md for ${filename}`);
-        console.warn(url, '=>', json.url);
-      }
 
       // merge json.tags and categories and dedupe
       let tags = [...new Set([...json.tags, ...categories])];
