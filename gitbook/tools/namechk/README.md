@@ -14,7 +14,7 @@ description: >-
 
 Namechk is a search tool that searches social media platforms and domains for usernames or website names. Entering a query returns results from more than a hundred domains and social media platforms, indicating whether or not the username has been registered on that platform / with that domain. Domains or usernames that return as **red** indicate that they are registered with the associated platform, while names that return **green** indicate the username is still available on that platform.
 
-Namechk's functions can be a helpful OSINT tool for tracking individuals (particularly those with unique usernames) across platforms, as well as for understanding the spread of an entity's domain registrations.&#x20;
+Namechk's functions can be a helpful OSINT tool for tracking individuals (particularly those with unique usernames) across platforms, as well as for understanding the spread of an entity's domain registrations.
 
 The tool also provides username generators and reviews and details about domain and web hosting.
 
@@ -36,6 +36,7 @@ None.
 
 * One username may be used across several platforms by different people; results from Namechk should be treated as clues rather than as a definitive results.
 * Common usernames may flag on many/all platforms and fail to provide any useful clues.
+* Results are not always 100% accurate— be sure to double-check for false positives.
 
 ## Ethical Considerations
 
