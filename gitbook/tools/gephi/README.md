@@ -100,7 +100,7 @@ Gephi includes built-in support for computing **key metrics** that help identify
 
 
 
-After running the statistical analysis functions, results can be used to visually style the graph (e.g., sizing nodes by centrality values). In sum, Gephi visualizes networks and quantifies network structure with built-in measures of centrality (degree, betweenness, closeness, etc.), which are essential for investigative analysis.
+After running the statistical analysis functions, results can be used to visually style the graph (e.g., sizing nodes by centrality values). In sum, Gephi visualizes networks and quantifies network structure with built-in measures of centrality (degree, betweenness, closeness, etc.), which can be helpful for investigative analysis.
 
 ### Gephi in Investigative Journalism
 
