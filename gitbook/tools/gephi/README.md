@@ -65,7 +65,7 @@ Gephi includes built-in support for computing **key metrics** that help identify
    * **Why it matters:** High clustering indicates the presence of local “communities” or “cliques” in the network.
 7. **Modularity (Community Detection)**
    * **What it is:** A method that partitions the network into modules (clusters) where nodes within the same cluster have more connections to each other than to other clusters. Gephi computes a modularity score and assigns each node a “community” label.
-   * **Why it matters:** It helps reveal sub-communities or tightly connected groups and is useful for identifying factions, interest groups, or hidden structures.
+   * **Why it matters:** It helps reveal sub-communities or tightly connected groups and is useful for identifying fractions, interest groups, or hidden structures.
 
 ***
 
