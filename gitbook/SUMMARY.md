@@ -131,7 +131,6 @@
   * [AutoStitch](tools/autostitch/README.md)
   * [North Data](tools/north-data/README.md)
   * [Lumen](tools/lumen/README.md)
-  * [Geospy.ai](tools/geospy.ai/README.md)
   * [Convert Geographic Units](tools/convert-geographic-units/README.md)
   * [OpenSecrets](tools/opensecrets/README.md)
   * [Radar Interference Tracker](tools/radar-interference-tracker/README.md)
