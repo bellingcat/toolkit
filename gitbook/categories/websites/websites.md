@@ -2,7 +2,7 @@
 
 | Name | Description | Cost | URL |
 | --- | --- | --- | --- |
-| [**Distill.io**](../../tools/distill/README.md) | Distill.io is a website change monitoring tool that allows users to track changes on web pages. | <mark style="background-color:orange;">Partially Free</mark> | [https://distill.io](https://distill.io) |
+| [**Distill.io**](../../tools/distill/README.md) | Distill.io is a website change monitoring tool that allows users to track changes on web pages. | <mark style="background-color:orange;">Partially Free</mark> | [https://distill.io/](https://distill.io/) |
 | DNS Cyrillic Check | Check if malicious or Cyrillic domains are registered | <mark style="background-color:green;">Free</mark> | [https://holdintegrity.com/checker](https://holdintegrity.com/checker) |
 | DNS History | Collection of historical DNS information. | <mark style="background-color:green;">Free</mark> | [http://completedns.com/](http://completedns.com/) |
 | [**DomainTools Whois Lookup**](../../tools/domaintools-whois-lookup/README.md) | DomainTools Whois provides detailed domain name registration information, and can be used to investigate details about domains or IP addresses. | <mark style="background-color:orange;">Partially Free</mark> | [https://whois.domaintools.com/](https://whois.domaintools.com/) |
