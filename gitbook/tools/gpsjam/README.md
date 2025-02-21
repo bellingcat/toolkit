@@ -1,5 +1,4 @@
 ---
-icon: location-crosshairs
 description: >-
   GPSJam.org is a daily map that visualizes the GPS/GNSS disruptions on aircraft
   worldwide. It collects and presents 24-hour data showing areas experiencing

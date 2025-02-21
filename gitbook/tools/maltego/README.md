@@ -1,5 +1,4 @@
 ---
-icon: share-nodes
 description: >-
   Maltego Graph is an investigation platform that combines two things at once:
   (1) It acts as a search tool, and (2) It creates a graph establishing links

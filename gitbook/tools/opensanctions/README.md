@@ -1,5 +1,4 @@
 ---
-icon: square-dollar
 description: >-
   Open-source international database of sanctions data, persons of interest and
   politically exposed persons.

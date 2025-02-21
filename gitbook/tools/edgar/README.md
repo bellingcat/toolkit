@@ -1,5 +1,4 @@
 ---
-icon: square-dollar
 description: Database of corporate filings for the US
 ---
 

@@ -1,5 +1,4 @@
 ---
-icon: share-nodes
 description: >-
   Hoaxy is a web-based search and visualization tool. It helps visualize the
   spread of information on Bluesky and X (Twitter).

@@ -1,5 +1,4 @@
 ---
-icon: ship
 description: Live marine vessel tracker.
 ---
 
