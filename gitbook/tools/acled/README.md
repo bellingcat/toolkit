@@ -8,25 +8,30 @@ description: >-
 
 ## URL
 
-{% embed url="https://acleddata.com/" %}
+[https://acleddata.com/](https://acleddata.com/)
 
 ## Description
 
-ACLED provides detailed, up-to-date information on political violence and protest events worldwide. The toolset includes the ACLED Explorer, Trendfinder, Conflict Alert System (CAST), and a Conflict Exposure Calculator, allowing users to track, analyze, and forecast conflict dynamics. Users can download datasets and utilize interactive dashboards for in-depth analysis of trends, country-specific profiles, and more. With over 50 countries in scope, ACLED’s data supports research, humanitarian, and policy applications by enabling users to observe conflict patterns, identify trends, and assess regional stability risks.
+ACLED provides detailed, up-to-date information on political violence and protest events worldwide. The toolset includes the [ACLED Explorer](https://acleddata.com/explorer/), [Trendfinder](https://acleddata.com/trendfinder/), [Conflict Alert System (CAST)](https://acleddata.com/conflict-alert-system/), and a [Conflict Exposure Calculator](https://acleddata.com/conflict-exposure/), allowing users to track, analyze, and forecast conflict dynamics. Users can download datasets and utilize interactive dashboards for in-depth analysis of trends, country-specific profiles, and more. With over 50 countries in scope, ACLED’s data supports research, humanitarian, and policy applications by enabling users to observe conflict patterns, identify trends, and assess regional stability risks.
 
 * **Timely Data:** A detailed dataset on the dates, locations, actors, and fatalities of political violence and protests, updated weekly.
+* [**Analysis reports**](https://acleddata.com/analysis/): Written reports by ACLED analysts and researchers based of ACLED data.
 * **Analysis Tools:** Interactive dashboards, trend reports, and maps visualizing conflict data over time and across regions.
 * **Country Profiles:** In-depth reports on specific countries, analyzing conflict dynamics and historical context.
 * **Data Export:** Downloadable datasets in various formats for custom analysis.
+
+{% hint style="info" %}
+Some functions or Dashboards within ACLED (such as CAST) might not work with an Ad- or tracking-blocker or on browsers with very strict security settings. The author's research doesn't indicate that this is of high concern, but you're responsible for your own digital footprint. You can download monthly reports for most of the tools, or use a VM to connect to ACLED if you want to avoid switching off these tools on your computer.&#x20;
+{% endhint %}
 
 ## **Features**
 
 ### **Data**
 
-* **Data export tool:** Weekly updated conflict and protest data.
-* **ACLED Explorer**: Filters data by location, actor, and event type, with exportable tables and charts.
-* **ACLED Trendfinder**: Interactive trend-tracking for political violence and demonstrations.
-* **CAST (Conflict Alert System)**: Provides forecasts for political violence up to six months ahead.
+* [**Data export tool**](https://acleddata.com/data-export-tool/)**:** Weekly updated conflict and protest data, as well as[ curated datasets.](https://acleddata.com/curated-data-files/)
+* [**ACLED Explorer**](https://acleddata.com/explorer/): Filters data by location, actor, and event type, with exportable tables and charts.
+* [**ACLED Trendfinder**](https://acleddata.com/trendfinder/): Interactive trend-tracking for political violence and demonstrations.
+* [**CAST (Conflict Alert System)**](https://acleddata.com/conflict-alert-system/): Provides forecasts for political violence up to six months ahead.
 * **Conflict Exposure Calculator**: Assesses population exposure to conflict within specified areas and timeframes.
 * **Conflict Index**: Ranks global conflict levels.
 * **Special Projects**: Focuses on conflicts like Ukraine and Yemen, with real-time monitoring.
@@ -34,10 +39,8 @@ ACLED provides detailed, up-to-date information on political violence and protes
 ### **Analysis - Tools**
 
 {% hint style="info" %}
-The following part of the text contains detailed function information in collapsable containers for convenience. Can you find them?
+The following part of the text contains detailed function information in collapsable containers for convenience.
 {% endhint %}
-
-_ACLED provides several tools that help analyze conflict- and protest-related data. These tools include:_
 
 #### _**ACLED Explorer**_
 
@@ -75,15 +78,15 @@ Example of the **ACLED Table View** below showing all countries of interest:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-05-16 at 11.42.08 AM.png" alt="Screenshot of ACLED Table View below showing all countries of interest."><figcaption><p>ACLED Table View below showing all countries of interest.</p></figcaption></figure>
 
-
-
-Example of the **ACLED Chart View** below
+Example of the **ACLED Explorer Chart View** below
 
 <figure><img src=".gitbook/assets/Screenshot 2024-05-16 at 11.43.52 AM.png" alt="ACLED Chart View below showing a pie chart of all countries of interest."><figcaption><p>ACLED Chart View below showing a pie chart of all countries of interest.</p></figcaption></figure>
 
 #### _**ACLED Trendfinder**_
 
 ACLED Trendfinder provides interactive tools for tracking global political violence and demonstrations. It enables the identification of significant changes, historical context, and early warning signs of conflict emergence across countries and regions.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Current example of Global anomalies in activity for February 2025.</p></figcaption></figure>
 
 <details>
 
@@ -117,13 +120,13 @@ ACLED Trendfinder provides interactive tools for tracking global political viole
 
 The example below shows using the ACLED Trendfinder to examine all event types in the Netherlands for a specific week compared to the previous year:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-05-16 at 8.06.44 AM.png" alt="Screenshot of ACLED Trendfinder showing map, trend graph and table with detailed results."><figcaption><p>Screenshot of ACLED Trendfinder.</p></figcaption></figure>
-
-#### _**ACLED Conflict Alert System (CAST)**_
+_**ACLED Conflict Alert System (CAST)**_
 
 The ACLED Conflict Alert System (CAST) forecasts global political violence events up to six months ahead, with monthly updates and accuracy metrics for previous forecasts.
 
-Forecasts &#x20;
+<details>
+
+<summary>Forecasts function overview</summary>
 
 * **Map view:** see forecast trends of decreases/increases from the average plotted on a map.&#x20;
 * **Zoom tool:** zoom in and out on the map.
@@ -135,9 +138,13 @@ Forecasts &#x20;
 * **Forecast trends graph view**: a line graph with a time range slider showing historical and forecasted events.
 * **What's driving the forecast**: a bar chart visualization of events behind the forecasts.&#x20;
 
-**Accuracy Metrics**
+</details>
 
-Allows users to see how accurate the forecast is compared to the last six months.
+Accuracy metrics in the CAST system allow users to see how accurate the forecast is compared to the last six months.
+
+<details>
+
+<summary>Accuracy metrics overview</summary>
 
 * **Zoom tool:** zoom in and out on the map.
 * **Map view:** mean percentage error plotted on a map (toggle between percentage error and error).&#x20;
@@ -145,6 +152,8 @@ Allows users to see how accurate the forecast is compared to the last six months
 * **Filter by country**: filter by country.
 * **Filter by outcome:** filter by what event types are expected.
 * **Table view of Forecasted Events**: Country, Observed Events, Forecast, Error, and Percentage Error (filterable by country).&#x20;
+
+</details>
 
 Example below: the default view for May 2024.
 
@@ -154,16 +163,20 @@ Example below: the default view for May 2024.
 
 Shows the number of people exposed to conflict in the selected area and time period.
 
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Conflict Exposure Calculator showing an estimate of the amount of people affected by / involved in protests in Germany in the last 12 months (Feb 24 - Feb 25)</p></figcaption></figure>
+
+<details>
+
+<summary>Conflict exposure calucator functions</summary>
+
 * **Data download:**: download data in `.xlsx` format
 * **Level of aggregation**: Country, Global, Provinces, or District Level Location.
-* **Filter by event or actor type and Actors.**
+* **Filter** by event or actor type and Actors.
 * **Filter by country:** filter by country or countries.
 * **Filter by date range.**
 * **Table View:** Country, distance, best, percentage of the country population, and total events.
 
-The example below all event types for Cameroon
-
-<figure><img src=".gitbook/assets/Screenshot 2024-05-16 at 10.52.32 AM.png" alt="Screenshot of Conflict Exposure Calculator."><figcaption><p>Screenshot of <em><strong>Conflict Exposure Calculator</strong></em></p></figcaption></figure>
+</details>
 
 _**ACLED Conflict Index**_
 
@@ -175,7 +188,7 @@ Example below: May 2024.
 
 **Special Projects**
 
-* **Focused Conflict Monitoring**: ACLED provides analysis on several current conflicts and political violence, including the Ukraine Conflict Monitor, Yemen Conflict Observatory, and US Crisis Monitor.
+* **Focused Conflict Monitoring**: ACLED provides analysis on several current conflicts and political violence, including the [Ukraine Conflict Monitor](https://acleddata.com/ukraine-conflict-monitor/), [Yemen Conflict Observatory](https://acleddata.com/yemen-conflict-observatory/), and [Gaza Monitor](https://acleddata.com/gaza-monitor/).
 
 ## Cost
 
@@ -212,9 +225,7 @@ Researchers should consider these limitations in conjunction with their research
 
 When using ACLED's tools and datasets, researchers must navigate several ethical considerations to ensure responsible utilization and dissemination of sensitive information. Users are advised to consult ACLED's [Terms of Use](https://acleddata.com/terms-of-use/) for detailed guidelines.
 
-* **Respect for Privacy**: Care should be taken to avoid disclosing identifiable information about individuals involved in conflict incidents, respecting their privacy and safety.
 * **Data Misinterpretation**: There is a risk that data could be misinterpreted or taken out of context, potentially leading to harmful conclusions or actions. Researchers must strive for accuracy and clarity in their analyses.
-* **Potential for Harm**: The information contained within the ACLED datasets can be sensitive. Researchers should consider the potential harm that could arise from the publication of their findings, especially in volatile regions.
 * **Bias and Representation**: It's essential to acknowledge any biases in the data collection and reporting processes and understand how these may affect the representation of certain groups or incidents.
 * **Ethical Use and Attribution**: Users of ACLED data should commit to using the data ethically, including proper attribution and acknowledgment of ACLED as the data source, and should not use the data for purposes that could incite violence or conflict.
 
@@ -224,7 +235,7 @@ Researchers and users of ACLED data are encouraged to engage with these ethical 
 
 To effectively use ACLED, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
 
-**Official Wiki**&#x20;
+#### **Official Wiki**&#x20;
 
 ACLED offers a [Quick Guide to ACLED Data](https://acleddata.com/resources/quick-guide-to-acled-data/) and maintains a [Resource Library](http://bdmne.com/index-19.html) for users seeking comprehensive information.
 
