@@ -47,6 +47,23 @@ allCategories.forEach((category) => {
       ...tool,
       rel: renderRelativeLink(category, tool)
     }
+  }).sort((toolA, toolB) => {
+    const pinnedCompare = !!toolB.pinned - !!toolA.pinned;
+    if (pinnedCompare === 0) {
+      const titleA = toolA.title.toLowerCase();
+      const titleB = toolB.title.toLowerCase();
+      if (titleA === titleB) {
+        return 0;
+      }
+      if (titleA < titleB) {
+        return -1;
+      }
+      if (titleA > titleB) {
+        return 1;
+      }
+    }
+    return pinnedCompare;
+
   });
   const content = renderCategory(category, categoryTools);
   writeIfChanged(content, category.filepath);

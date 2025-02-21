@@ -3,6 +3,7 @@
 | Name | Description | Cost | URL |
 | --- | --- | --- | --- |
 | 192.com | Searching for someone's address in the UK, phone number and who they live with according to electoral rolls. | <mark style="background-color:green;">Free</mark> | [http://www.192.com/](http://www.192.com/) |
+| [**Bellingcat Name Variant Search**](../../tools/name-variant-search/README.md) | Simple tool to help search for different ways of writing a name. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.github.io/name-variant-search/](https://bellingcat.github.io/name-variant-search/) |
 | [**Blackbird**](../../tools/blackbird/README.md) | Check usernames and email addresses on websites and social networks | <mark style="background-color:green;">Free</mark> | [https://github.com/p1ngul1n0/blackbird](https://github.com/p1ngul1n0/blackbird) |
 | [**DeHashed**](../../tools/dehashed/README.md) | A search engine that provides access to a database of compromised credentials. | <mark style="background-color:red;">Paid</mark> | [https://dehashed.com/](https://dehashed.com/) |
 | [**DiscordLeaks**](../../tools/discordleaks/README.md) | Search hundreds of thousands of messages leaked from 180+ white-supremacist / nazi discord servers. | <mark style="background-color:green;">Free</mark> | [https://discordleaks.unicornriot.ninja/discord/server/](https://discordleaks.unicornriot.ninja/discord/server/) |
@@ -15,7 +16,6 @@
 | [**Hitta.se**](../../tools/hitta.se/README.md) | Mapping service for Sweden | <mark style="background-color:green;">Free</mark> | [https://www.hitta.se/](https://www.hitta.se/) |
 | [**Intelx.io**](../../tools/intelx.io/README.md) | Find user details in data breaches | <mark style="background-color:orange;">Partially Free</mark> | [http://intelx.io/](http://intelx.io/) |
 | [**Maigret**](../../tools/maigret/README.md) | Maigret is a Python script that retrieves user information by searching for usernames across various websites and social media platforms. | <mark style="background-color:green;">Free</mark> | [https://github.com/soxoj/maigret](https://github.com/soxoj/maigret) |
-| [**Bellingcat Name Variant Search**](../../tools/name-variant-search/README.md) | Simple tool to help search for different ways of writing a name. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.github.io/name-variant-search/](https://bellingcat.github.io/name-variant-search/) |
 | [**Namechk**](../../tools/namechk/README.md) | A username and domain search tool that checks on which platforms or domain a given username is registered. | <mark style="background-color:green;">Free</mark> | [https://namechk.com/](https://namechk.com/) |
 | NigeriaPhonebook | Look up by name, state, and phone number. Last names are partially censored for free accounts. | <mark style="background-color:green;">Free</mark> | [https://nigeriaphonebook.com/](https://nigeriaphonebook.com/) |
 | Person Lookup | find individuals, phonenumbers, and adresses | <mark style="background-color:green;">Free</mark> | [https://personlookup.co.za/](https://personlookup.co.za/) |
