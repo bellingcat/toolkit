@@ -8,9 +8,7 @@ description: >-
 
 ## URL
 
-{% embed url="https://distill.io" %}
-current version: 3.10.29 (Jan 2025)
-{% endembed %}
+[https://distill.io/](https://distill.io/)
 
 ## Description
 
@@ -41,11 +39,38 @@ For Open Source Researchers, Distill.io can be an invaluable tool for:
 * **Change Highlighting:**
   * Visual representation of what has changed on the page.
   * Simplifies the process of identifying significant alterations.
-* **Scheduling and Frequency:**
-  * Customizable check intervals, with paid plans offering more frequent monitoring.
-  * Potentially useful for time-sensitive investigations where prompt alerts are crucial.
+*   **Scheduling and Frequency:**
 
-#### **Additional Tips for OSINT Researchers**
+    * Customizable check intervals, with paid plans offering more frequent monitoring.
+    * Potentially useful for time-sensitive investigations where prompt alerts are crucial.
+
+
+
+## Using Distill.io
+
+First, you can register with your own email, or use a dedicated email address or alias. You can see all running monitors on your [watchlist](https://distill.io/docs/web-monitor/what-is-watchlist/). You can monitor websites, feeds, JSONs, PDFs, Word documents, uptime and whole sitemaps (alpha, may be buggy).
+
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Click on Add Monitor to configure a new monitor</p></figcaption></figure>
+
+When you add a new monitor, you make the following choices:
+
+* [Source](https://distill.io/docs/web-monitor/config-and-advanced-monitor-options/): Whether to monitor the whole page or only a part of it. Select the [Visual Selector ](https://distill.io/docs/web-monitor/what-is-visual-selector/)if you want to monitor only certain parts (recommended).
+* Device:[ Where the service runs](https://distill.io/docs/web-monitor/cloud-local-monitors/) - Distill.io can run locally or in the cloud. This determines whether it only checks while your computer is running (local) or 24/7 (cloud). In the free plan, you can run only a limited number of trackers in one account, but more locally than in the cloud. Consequently, you can check cloud-based monitors in the [web-app](https://distill.io/docs/web-monitor/using-web-app-to-track-webpage-changes/), while local monitors live in [the browser extension](https://distill.io/docs/web-monitor/distill-chrome-extension/).
+* Name: Pick a name for your Monitor that's easy to recognize for you and informative. You may want to configure several monitors for one website, so consider the purpose as well when picking a name.
+* Actions: The free service allows you to send yourself an [email](https://distill.io/docs/web-monitor/get-email-alert-on-webpage-change/), or if you're running a local monitor, open the website, get a notification, or [play a sound](https://distill.io/docs/web-monitor/audio-notification-on-change/). Paid customers can choose a number of additional notification options. Noteworthy among those are push notifications if you're using the [phone app ](https://distill.io/docs/web-monitor/web-monitor-for-ios/)(be mindful of possible tracking), [SMS](https://distill.io/docs/web-monitor/get-sms-alert-on-webpage-change/), notifications on [Discord, Teams and Slack](https://distill.io/docs/web-monitor/change-notifications-on-slack-discord-and-teams/), [webhooks ](https://distill.io/docs/web-monitor/trigger-webhook-on-website-change/)(which allow developers to integrate it into 3rd party services)&#x20;
+* [Schedule Checks](https://distill.io/docs/web-monitor/schedule-checks/): How often do you need your source to be checked for changes?
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Add a monitor for your website and configure source, schedule checks, and define alerts when changes occur.</p></figcaption></figure>
+
+When you add a monitor you can use the Visual Selector Tool, to select only those parts of the website that you want to be alerted about if they change. These could be release versions, GitHub issue submissions, or parts of a text that contain information about a person or entity.&#x20;
+
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>This monitor will check for updates on the author's bio in the toolkit guardian section.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption><p>This monitor shows will check a github repository for new issues, changes, and new releases.</p></figcaption></figure>
+
+After you click save, your monitor will be active.&#x20;
+
+## **Additional Tips for OSINT Researchers**
 
 * **Combine with Other Tools:**
   * You can use Distill.io with other open source research tools to integrate data from Distill.io with databases or visualization tools.
