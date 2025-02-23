@@ -22,12 +22,12 @@ The app is available on both mobile and desktop platforms, ensuring users can mo
 
 **Features**
 
-1. **Real-Time Tracking**: The app provides (near) live tracking of ships, displaying their current positions, speed, and course. This feature is beneficial for open source researchers needing to monitor fleet movements or observing ship activities.
+1. **Real-Time Tracking**: ShipFinder provides (near) live tracking of ships, displaying their current positions, speed, and course. This feature is beneficial for open source researchers needing to monitor fleet movements or observing ship activities.
 2. **Vessel Information**: ShipFinder includes detailed information about each vessel, such as its name, type, destination, and voyage history. This data is valuable for users looking to learn more about specific ships and their operations.
-3. **Based on AIS Data**: The app leverages AIS data to provide accurate and up-to-date information. AIS data is infomation on ship movements and positions that is broadcast by the vessels themselves. This is picked up by coastal stations and relayed via the internet to ShipFinder. One drawback of this system is that when a ship is out of range of coastal receivers, data reception may be limited.&#x20;
-4. **Past Vessel Movement**: ShipFinder's online and free versions allow users to playback a limited amount of a vessel's past movements. This feature gives a short term view of where a vessel has recently been and may be useful for analyzing shipping patterns, investigating incidents, or simply exploring the history of maritime activities.
+3. **Based on AIS Data**: ShipFinder leverages AIS data to provide accurate and up-to-date information. AIS data is infomation on ship movements and positions that is broadcast by the vessels themselves. This is picked up by coastal stations and relayed via the internet to ShipFinder. One drawback of this system is that when a ship is out of range of coastal receivers, data reception may be limited.&#x20;
+4. **Past Vessel Movement**: ShipFinder's online and free app versions allow users to playback a limited amount of a vessel's past movements. This feature gives a short term view of where a vessel has recently been and may be useful for analyzing shipping patterns, investigating incidents, or simply exploring the history of maritime activities.
 5. [**Spotting Community**](https://my.pinkfroot.com/): The app also has an accompanying community page where members can post pictures of ships that they have spotted. These are often searchable by name or MMSI number.&#x20;
-6. **Customizable Alerts**: Paid users can set up personalized alerts for specific vessels or areas. This feature keeps users informed about significant events, such as a ship's arrival at a port or changes in its route.
+6. **Customizable Alerts**: Paid users of the app can set up personalized alerts for specific vessels or areas. This feature keeps users informed about significant events, such as a ship's arrival at a port or changes in its route.
 
 **Performance**
 
@@ -47,13 +47,13 @@ The browser-based version of ShipFinder is free. However, its mobile application
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+ShipFinder's online version does not require a user to sign up or input an email address. However, the applications on android and apple devices will require an account in their respective stores to download ShipFinder.
 
 ## Limitations
 
-* **Advanced Features**: Compared to other maritime tracking apps, ShipFinder might lack some advanced features like extensive filtering options and comprehensive vessel databases. Adding these features could enhance the app's utility for more professional users.
+* **Advanced Features**: Compared to other maritime tracking apps, ShipFinder's online and free application versions might lack some advanced features like filtering options and comprehensive vessel databases that tools such as [MarineTraffic ](https://www.marinetraffic.com/en/ais/home/centerx:-5.8/centery:47.7/zoom:8)and [VesselFinder ](https://www.vesselfinder.com/)offer. Both alternatives also have access to a more compresensive AIS data network, displaying more of the ships that are in a given area. One advantage that ShipFinder offers over the alternatives is that it has no monthly fees, only a one-time purchase. This may make it more accessible for researchers that operate on a restricted budget.&#x20;
 * **AIS Data**: ShipFinder's platform is based on AIS data. This means that if ships are broadcasting too far from a receiver that the platform has access to, it will be lacking data on that vessel. This can occur when a ship is too far from shore for a receiver to pick up its signals. It can also occur if the ship is in a remote area where ShipFinder does not have access to the data collected by a recieving station.&#x20;
-* **Subscription Costs**: The premium version of the app, which offers additional features, may be considered expensive by some users. More flexible pricing plans or additional features in the free version could make the app more accessible.
+* **Subscription Costs**: The premium version of the app on the Apple Store, which offers additional features, currently [costs ](https://apps.apple.com/us/developer/pinkfroot-limited/id319726822)USD 4.99.&#x20;
 
 ## Ethical Considerations
 
