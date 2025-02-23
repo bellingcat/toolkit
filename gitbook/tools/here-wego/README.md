@@ -14,7 +14,7 @@ description: >-
 
 Here WeGo App Review
 
-Here WeGo is a navigation app that serves as a robust alternative to popular services like Google Maps and Apple Maps. It offers a range of features tailored for both casual users and those requiring more detailed navigation tools. Key Features
+Here WeGo is a navigation app that serves as a robust alternative to popular services like Google Maps and Apple Maps. It offers a range of features tailored for both casual users and those requiring more detailed navigation tools. Key Features:&#x20;
 
 ```
 Offline Maps:
