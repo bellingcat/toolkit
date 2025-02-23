@@ -16,10 +16,8 @@ description: >-
 Telemetr.io is a tool for journalists and researchers analyzing Telegram channels. It offers a database of categorized catalogs by country and language, along with access to numerous archived messages for tracking trends, user behavior, and interactions. Its message view analysis over time provides insights into content and engagement, enabling analysis of global and regional activity.
 
 {% hint style="danger" %}
-The export of data available in the Advanced Plan (and above) is limited to the catalog list of channels. For the export of most metrics described below, you will need API access, which is not included in the plan. (See below at API.)
-
-In the author's testing, reaching someone regarding a refund was challenging, and canceling the subscription was not straightforward.\
-Make sure to test the capabilities of the different plans to determine which you require, or contact the sales team for a tailored plan.&#x20;
+The export of data available in the Advanced Plan (and above) is limited to the catalog list of channels. For the export of most metrics described below, you will need API access, which is not included in the plan. (See below at API.) In the author's testing, reaching support was challenging, and canceling the subscription was not straightforward. (June 2024)\
+**Make sure to evaluate the capabilities of the different plans to determine which you require, or contact the sales team for a tailored plan.**&#x20;
 {% endhint %}
 
 Features:
