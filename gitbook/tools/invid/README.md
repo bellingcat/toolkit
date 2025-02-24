@@ -4,17 +4,13 @@ description: A toolkit that supports the verification of videos and images.
 
 # InVID Verification Plugin
 
-## URL
+URL
 
 [https://weverify.eu/verification-plugin/](https://weverify.eu/verification-plugin/)
 
-### Github
+(v. 0.84.1 - Feb. 2015)
 
-{% embed url="https://github.com/AFP-Medialab/verification-plugin" %}
-release at the time of writing: v0.84 (Feb 25)
-{% endembed %}
-
-## Description
+### Description
 
 The InVID Verification Plugin is a comprehensive toolkit designed to assist journalists in verifying content on social networks. It offers a suite of tools to analyze and verify videos and images, including contextual information retrieval, reverse image search (Google, Yandex, Baidu), video fragmentation, and metadata extraction. The plugin supports multiple platforms, such as YouTube, Facebook, Twitter, and Instagram, making it a versatile tool for fact-checking and debunking tasks on social networks. (Some Twitter-related features may not work anymore due to the API policy change.)
 
@@ -264,7 +260,7 @@ This plugin will not be able to solve the question of the correct pronunciation 
 {% endtab %}
 
 {% tab title="Results" %}
-
+Nothing to see here. As soon as I've made a deepfake using materials I have the rights to, I will post it here.
 {% endtab %}
 {% endtabs %}
 
@@ -284,9 +280,27 @@ This plugin will not be able to solve the question of the correct pronunciation 
 {% endtab %}
 {% endtabs %}
 
+**Provenance (C2PA) -** It reads an image or video's [C2pa ](https://c2pa.org/)data.
+
+{% tabs %}
+{% tab title="Provenance Tab" %}
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Result" %}
+InVid is undergoing some renovations under the hood and I wasn't able to test this feature because it threw an error. I will update this page as soon as the error is resolved.
+{% endtab %}
+{% endtabs %}
+
+
+
 ### **Audio**
 
 #### **Loccus (Locked Feature)**
+
+{% hint style="info" %}
+This feature changed with the most recent update, switching from loccus.ai to hiya.ai as a service provider for this feature but due to an error I wasn't able to test it yet. I will update this as soon as the issue is resolved.&#x20;
+{% endhint %}
 
 Detects AI-generated text-to-speech (voice cloning by AI), analyzing audio files to identify potential deep fake audio. Access is restricted to registered users.
 
@@ -312,7 +326,7 @@ Performs advanced search queries on X (formerly Twitter), including precise time
 {% endtab %}
 
 {% tab title="Results" %}
-![](.gitbook/assets/image.png)
+![](<.gitbook/assets/image (1).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -374,7 +388,7 @@ Performs social network analysis on Twitter, analyzing interactions, trends, and
 {% endtab %}
 
 {% tab title="Results" %}
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Unfortunately, this feature doesn't work at the moment due to Twitter's policy changes.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Unfortunately, this feature doesn't work at the moment due to Twitter's policy changes.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
