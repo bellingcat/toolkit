@@ -14,7 +14,7 @@ Every sea shipment into the United States requires a bill of lading. ImportYeti 
 
 The tool was built to help people find suppliers of goods (e.g. manufacturers that make a product they want to sell). An OSINT researcher might use it to investigate sourcing of goods from unethical suppliers, or sanctions violations. The free search allows for searching by company name, supplier, or product. Note that you must search by a company's legal name.
 
-It's worth signing up (it's free), as ImportYeti requires a login after 25 page views per IP address. You might be able to get free access to ImportYeti's [power query](https://www.importyeti.com/power/us) and downloads as an OSINT researcher - see [this page](https://www.importyeti.com/pricing/custom-plan?source=survey) (only visible when logged in). Power query is an advanced search - it allows you to filter by multiple values at a time, e.g. company name, supplier name, product (HS) code, address, supplier country, vessel name etc.
+It's worth signing up (it's free), as ImportYeti requires a login after 25 page views per IP address. You might be able to get free access to ImportYeti's [power query](https://www.importyeti.com/power/us) and downloads as an OSINT researcher - see [this page](https://www.importyeti.com/pricing/custom-plan?source=survey) (only visible when you're logged in). Power query is an advanced search - it allows you to filter by multiple values at a time, e.g. company name, supplier name, product (HS) code, address, supplier country, vessel name etc.
 
 Here are screenshots illustrating the kinds of data you can get through ImportYeti:
 

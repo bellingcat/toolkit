@@ -38,8 +38,6 @@ _Afton_ is a volunteer open-source investigator with training in digital investi
 
 _Anisa Shabir_ is a volunteer open-source researcher at Bellingcat's Global Authentication Project and holds an MA in investigative journalism from the Arizona State University's Howard Center for Investigative Journalism. Anisa is the Volunteer Toolkit Guardian for the category [Image/Video](https://bellingcat.gitbook.io/toolkit/categories/image-video).
 
-_Fraser Crichton_ is a researcher and technologist with experience in 3D modelling, satellite imagery and data visualisation and an interest in online ideologies. Fraser is the Volunteer Toolkit Guardian responsible for the [Geolocation](https://bellingcat.gitbook.io/toolkit/categories/geolocation) category, he is also contributing to the Maps and Satellites tool collection.
-
 _Lora_ is a linguist by education, media and corporate intel analyst by trade, and an occasional due diligence investigator. She is the Volunteer Toolkit Guardian for the [Companies & Finance](https://bellingcat.gitbook.io/toolkit/categories/companies-and-finance) category.
 
 _Martin Sona_ is an interdisciplinary researcher and lecturer with a social psychology, cognitive neuroscience, and tech innovation background. He's passionate about science, community coordination, and making complex information meaningful and accessible. Here, he serves as the Volunteer Toolkit Guardian for the [Social Media](https://bellingcat.gitbook.io/toolkit/categories/social-media) category.

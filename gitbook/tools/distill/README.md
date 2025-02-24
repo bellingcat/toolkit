@@ -6,7 +6,7 @@ description: >-
 
 # Distill.io
 
-URL
+## URL
 
 [https://distill.io/](https://distill.io/)
 
@@ -67,8 +67,6 @@ When you add a monitor you can use the Visual Selector Tool, to select only thos
 <figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>This monitor will check for updates on the author's bio in the toolkit guardian section.</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption><p>This monitor shows will check a github repository for new issues, changes, and new releases.</p></figcaption></figure>
-
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>This monitor will check whether a chrome extrension was updated recently. (It was!)</p></figcaption></figure>
 
 After you click save, your monitor will be active.&#x20;
 

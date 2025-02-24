@@ -38,7 +38,7 @@ You have to sign up and pay.
 
 ## Limitations
 
-Data for countries other than the US is updated at different frequencies.
+Country data is updated at different frequencies.
 
 ## Ethical Considerations
 
