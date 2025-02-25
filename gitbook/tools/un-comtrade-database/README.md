@@ -84,8 +84,6 @@ United Nations, based in New York City.
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-If you decide to sign in
-
 | Page maintainer |
 | --------------- |
 | Lieth Carrillo  |
