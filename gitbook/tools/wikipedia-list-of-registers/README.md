@@ -12,7 +12,7 @@ description: Wikipedia list of official business registers around the world.
 
 Most countries have a publicly available official register which lists companies that are allowed to conduct business in that country. Registers usually contain fields like: Company name, directors, and registered address. Some contain things like shareholders, filings, VAT number, tax number, and telephone number.
 
-Some are free, while some give very basic details for free and require payment for more. Some registers allow you to search only by company name, and others also allow for searching by person names (e.g. director names).
+Some are free, while some give very basic details for free and require payment for more. Some registers allow you to search only by company name, while others also allow for searching by person names (e.g. director names).
 
 The Wikipedia list of registers will help you to find an online register for a particular country.
 
