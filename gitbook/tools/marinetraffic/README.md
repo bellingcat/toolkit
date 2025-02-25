@@ -12,11 +12,11 @@ description: >-
 
 ## Description
 
-The MarineTraffic website and mobile app offer near real-time tracking of vessels and can be used to monitor marine traffic in general or of a particular vessel of a custom fleet. It has a map-based interface with search, filtering and map layers functions for vessels, ports and traffic.&#x20;
+The MarineTraffic website and mobile app offer near real-time tracking of vessels and can be used to monitor marine traffic in general or of a particular vessel of a custom fleet. It has a map-based interface with search, filtering and map layers functions for vessels, ports and traffic.
 
 It can be used without an account to just monitor general vessel movements and point and click a specific vessel, but creating a free account will unlock some additional useful features.
 
-After creating an account, users can access a search portal to search for vessels by name, IMO or MMSI number, tonnage, flag, dimensions, etc., which can help to identify a vessel for which only some identifying information is known.
+After creating an account, users can access a search portal to search for vessels by name, IMO or MMSI number, tonnage, flag, dimensions, etc., which can help to identify a vessel for which only some identifying information is known.        &#x20;
 
 {% hint style="info" %}
 IMO numbers are unique, seven-digit tracking numbers assigned to ships and shipping companies by S\&P Global Market Intelligence on behalf of the International Maritime Organization. Unlike ship names and company names which can change, IMO numbers remain constant. More information about IMO numbers can be found on the [International Maritime Organization's website](https://www.imo.org/en/OurWork/IIIS/Pages/IMO-Identification-Number-Schemes.aspx).
@@ -36,17 +36,21 @@ NOTE: The below menus are only accessible after creating an account and logging 
 
 <div><figure><img src=".gitbook/assets/MT1.png" alt=""><figcaption><p>A detailed view for the vessel James R. Barker - its current voyage as of November 20, 2024 with place of departure and its final destination for this trip</p></figcaption></figure> <figure><img src=".gitbook/assets/MT2.png" alt=""><figcaption><p>A detailed view for the vessel James R. Barker - IMO and MMSI numbers, its call sign, the type of vessel, speed and draught (the determined depth of the vessel below the waterline, measured vertically to its hull's lowest)</p></figcaption></figure></div>
 
-This vessel view also has two shortcuts to follow a ship's past track (selecting this will return you to the map and show this exact vessel's recent movements) for the past about 4 days. Custom past track dates are available through a paid subscription. Another shortcut that also returns the user to the main map is the route forecast, but free predictive routes are only shown for a 24-hour future period and again custom past track dates are available through a paid subscription.&#x20;
+This vessel view also has two shortcuts to follow a ship's past track (selecting this will return you to the map and show this exact vessel's recent movements) for the past about 4 days. Custom past track dates are available through a paid subscription. Another shortcut that also returns the user to the main map is the route forecast, but free predictive routes are only shown for a 24-hour future period and again custom past track dates are available through a paid subscription.     &#x20;
 
 In the main menu, you can select for free up to five vessels and add them to a custom fleet that you can track over time.
 
-[Ports](https://www.marinetraffic.com/en/data/?asset_type=ports\&columns=flag,portname,unlocode,photo,vessels_in_port,vessels_departures,vessels_arrivals,vessels_expected_arrivals,local_time,anchorage,geographical_area_one,geographical_area_two,coverage): A list of over 20,887 ports, anhcorages, offshore terminals, marinas, canals, shelters, fishing harbors and shelters including description of the port, its location, information on the number of arrivals and departures in the past 24 hours, as well as the number of vessels currently anchored there, the number of expected arrivals and the local time of the port. Use the search bar to locate a specific port using a name or a United Nations Code for Trade and Transport Locations - LOCODE (a geographic coding scheme developed and maintained by the UN Economic Commission for Europe, the code consists of five letters with the first two designating the country, e.g. ESADR is the LOCODE for Port of Adra in Spain).
+[Ports](https://www.marinetraffic.com/en/data/?asset_type=ports\&columns=flag,portname,unlocode,photo,vessels_in_port,vessels_departures,vessels_arrivals,vessels_expected_arrivals,local_time,anchorage,geographical_area_one,geographical_area_two,coverage): A list of over 20,887 ports, anchorages, offshore terminals, marinas, canals, shelters, fishing harbors and shelters including description of the port, its location, information on the number of arrivals and departures in the past 24 hours, as well as the number of vessels currently anchored there, the number of expected arrivals and the local time of the port. Use the search bar to locate a specific port using a name or a United Nations Code for Trade and Transport Locations - LOCODE (a geographic coding scheme developed and maintained by the UN Economic Commission for Europe, the code consists of five letters with the first two designating the country, e.g. ESADR is the LOCODE for Port of Adra in Spain).
 
-{% hint style="info" %}
-A [full list of LOCODEs by country](https://unece.org/trade/cefact/unlocode-code-list-country-and-territory) can be found on the United Nations Economic Commission for Europe (UNECE). By selecting a country, the system displays the entire UN/LOCODE list of subdivisions, i.e. the country, the port names and their coordinates.&#x20;
+<details>
+
+<summary>Full list of LOCODEs by country</summary>
+
+The full list can be found on the [United Nations Economic Commission for Europe (UNECE) website](https://unece.org/trade/cefact/unlocode-code-list-country-and-territory). By selecting a country, the system displays the entire UN/LOCODE list of subdivisions, i.e. the country, the port names and their coordinates.&#x20;
 
 The list allows obtaining the UN/LOCODE Code List 2024-1 for each country or territory. The latest version was published in July 2024.
-{% endhint %}
+
+</details>
 
 This menu also allows to search expected arrivals, arrivals and departures by a ship's name IMO or MMSI. A paid subscription also features looking up data on berth calls and port congestion.&#x20;
 
@@ -87,7 +91,7 @@ Photo gallery and Maritime News: This photo gallery is useful when you want to c
 1. **Map Type**: A dark, light or a satellite view mode to suit preferences. Nautical charts are also available, but are paid.&#x20;
 2. **Vessel Filters**: Ship Type (filter by the function each vessels serves), Current Status (en route or anchored), Last Position Received (this requires a search for AIS stations), Voyage (paid feature for port of origin and port of destination), Capacity (paid feature for tonnage, deadweight), Smart Filters (paid feature for current operation and special conditions).
 3. **My Fleets**: Filters out all the other vessels and shows only the ones added to a custom fleet.
-4. **Layers**:  This filter which is available with a paid subscription has meteorological, rescue, military, and piracy layers, areas of interest such as trade of offshore wind farm areas, as well as SafetyNET areas address in meteorological warnings.
+4. **Layers**: This filter which is available with a paid subscription has meteorological, rescue, military, and piracy layers, areas of interest such as trade of offshore wind farm areas, as well as SafetyNET areas address in meteorological warnings.
 5. **Weather**: Almost all of the filters are behind a paywall, but they include wind gusts, wind wave heights and directions, currents, swell periods, temperatures, precipitation and visibility among others.&#x20;
 6. **Density Maps**: A visual representation of the distribution and intensity of the vessels across a geographic area. The free access shows data for the past year. The paid version allows for sub-layers to display specific vessel types. Can be used to monitor whether an area is characterized by high or low shipping traffic.
 7. **Historical Data & Playback**: Good for analyzing past movements, investigating ship accidents or illicit maritime activities, exploring port visits, the efficiency of port operations or planning optimal maritime routes. MarineTraffic offers access to historical data of about two years for paid subscribers and of three days for free accounts, plus a playback functionality. [Marine Traffic's API documentation](https://servicedocs.marinetraffic.com/tag/Vessel-Historical-Track) lists all the parameters available in the historical data feature.&#x20;
