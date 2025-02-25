@@ -32,13 +32,13 @@ You can access a premium service that allows you to perform bulk downloads and g
 
 There is a trial subscription for 15 days. You can [request](https://uncomtrade.org/docs/premium-trial-subscription/) it after 15 days of creating the account. You will need to fill out a [form](https://forms.office.com/pages/responsepage.aspx?id=2zWeD09UYE-9zF6kFubccOSF7wPR3FtJq4X0eSEBpHpUMTFMQTRJMjcxTkcxU0Y4M0lESjUyOFc1TSQlQCN0PWcu\&route=shorturl) and wait  3-5 business days. After the trial starts, you will get access to a new section called Bulk Files, where you can download the data you searched for. Be aware that trial subscriptions have access to a limited number of files to download.
 
-<figure><img src="broken-reference" alt=""><figcaption><p>Options before trial</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-01-07 at 9.32.53 AM.png" alt=""><figcaption><p>Options before trial</p></figcaption></figure>
 
-<figure><img src="broken-reference" alt=""><figcaption><p>Options after trial activation</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-01-07 at 9.37.32 AM.png" alt=""><figcaption><p>Options after trial activation</p></figcaption></figure>
 
 I only got results searching with this default search setting. Not all countries have results. For example, I got nothing by searching for “Brazil”.
 
-<figure><img src="broken-reference" alt=""><figcaption><p>Default search</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-01-07 at 10.07.20 AM.png" alt=""><figcaption><p>Default search</p></figcaption></figure>
 
 There are two types of download: classic and plus. In both you will get a document (.gz) that you will have to convert to XLS or CSV for analysis. I used this [tool](https://products.groupdocs.app/conversion/gz-to-xls). With the plus version you will get more detailed info such as customs code, mode of transport, among others. You can also use the [API](https://comtradedeveloper.un.org/signin?returnUrl=%2F) version to download the data. Here the README [file](https://github.com/uncomtrade/comtradeapicall?tab=readme-ov-file). They will send your account information to your registered email so you can log in. So far, I have not been able to log in to the site.
 
