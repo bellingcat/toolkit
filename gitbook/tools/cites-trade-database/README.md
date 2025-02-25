@@ -50,33 +50,9 @@ Full CITES Trade Database Download. Version \[year.x]. Compiled by UNEP-WCMC, Ca
 
 ## Limitations
 
-There are some studies that expose some tool limitations, including from the CITES Secretariat, among them:
+There are some studies that expose some tool limitations, including from the CITES Secretariat.&#x20;
 
-Sixty-ninth meeting of the CITES Standing Committee ([https://cites.org/sites/default/files/eng/com/sc/69/E-SC69-44-02.pdf](https://cites.org/sites/default/files/eng/com/sc/69/E-SC69-44-02.pdf))&#x20;
-
-"Information returned by the search function does not lend itself for advanced statistical analysis of trade patterns for sustainability. For example, with the current search function, it is not possible to analyse whether trade in a specimen occurred in one single, large shipment or in multiple smaller shipments, whether the specimen was shipped together with other specimens or whether trade and shipment patterns change over time. Extra information of this kind would be particularly valuable in the context of the Review of Significant Trade."
-
-Michal Berec, Lucie Vršecká, Irena Šetlíková, What is the reality of wildlife trade volume? CITES Trade Database limitations, Biological Conservation, Volume 224, 2018, Pages 111-116, ISSN 0006-3207, https://doi.org/10.1016/j.biocon.2018.05.025. (https://www.sciencedirect.com/science/article/pii/S0006320718303045)&#x20;
-
-• Ninety-six percent of records in the CITES Trade Database were not complete.&#x20;
-
-• Three-quarters of the records missed the quantities from either the importers or exporters.&#x20;
-
-• Mean difference between the maximum and minimum calculated trade volumes was 63 ± 23%.&#x20;
-
-• Trophies were the most problematic form.&#x20;
-
-• Specific changes to improve usability of CITES Trade Database were suggested.
-
-Markéta Slábová, Irena Šetlíková, Magda Vodrážková, Zuzana Richtrová, Michal Berec, The number of shipments in the CITES Trade Database does not accurately reflect the volume of traded wildlife, Biological Conservation, Volume 253, 2021, 108917, ISSN 0006-3207, https://doi.org/10.1016/j.biocon.2020.108917. (https://www.sciencedirect.com/science/article/pii/S0006320720309757)&#x20;
-
-• The number of shipments did not reflect traded volume in 15% of vertebrate species.&#x20;
-
-• The volume of frequently traded species cannot be derived from the number of shipments.&#x20;
-
-• More than one-third of the species had a different category of traded volume.&#x20;
-
-• The quantification of trade is sensitive to the data and methods used.
+At a CITES [meeting](https://cites.org/sites/default/files/eng/com/sc/69/E-SC69-28-02.pdf) it was noted that with the current functions of the platform it is not possible to analyze trade patterns including, for example, whether a specimen was found in one large shipment or in multiple small shipments or whether the specimen was shipped together with other specimens. A [study](https://www.sciencedirect.com/science/article/pii/S0006320718303045) on the limitations of CITES described, among other results, that 96% of the records are not complete, and that three-quarters of the data do not have the quantities of importers or exporters. Among some of the important results of another [study](https://www.sciencedirect.com/science/article/pii/S0006320720309757) it was found that more than one-third of the species had a different category of traded volume and that the number of shipments did not reflect traded volume in 15% of vertebrate species.
 
 ## Ethical Considerations
 
