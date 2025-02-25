@@ -76,7 +76,7 @@ Projects:
 
 ## Tool provider
 
-The UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC) on behalf of the CITES Secretariat.
+The UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC), based in the United Kingdom, on behalf of the CITES Secretariat, located at Geneva, Switzerland.
 
 ## Advertising Trackers
 
