@@ -33,7 +33,7 @@ OpenSecrets is a nonpartisan, independent, and nonprofit organization tracking m
 **Elections & Fundraising Data - this section includes spending by candidates in presidential and congressional elections.** The two most relevant subsections are:
 
 * [Outside Spending](https://www.opensecrets.org/outside-spending) - data reported by outside spending groups to the Federal Election Commission. There is a separate section devoted to dark money groups – politically active nonprofits that aren't required to publicly disclose their donors. The information includes data on political recipients, however it only shows the amounts received and rarely the donors.
-* [Donor Lookup ](https://www.opensecrets.org/donor-lookup)- a search by name of a donor - these are individuals and companies. This is the most user-friendly and useful feature for small investigations as it allows searching by keyword.
+* [Donor Lookup ](https://www.opensecrets.org/donor-lookup)- a search by name of a donor - these are individuals and companies. This is the most user-friendly and useful feature for small investigations as it allows searching by keyword.   &#x20;
 
 <div align="left"><figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 7.15.56 PM.png" alt=""><figcaption><p>Donors search with filters</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2024-09-03 at 6.51.58 PM.png" alt=""><figcaption><p><a href="https://web.archive.org/web/20220722103823/https://www.businessinsider.com/elon-musk-tesla-spacex-secret-service-special-agent-filing-donation-2021-4">Donor profile for Elon Musk</a> who donated twice to the Republican National Committee in 2021</p></figcaption></figure></div>
 
@@ -71,15 +71,15 @@ OpenSecrets is a nonpartisan, independent, and nonprofit organization tracking m
 
 ## Requirements
 
-RESTful API functionality is available only after registration, the user must accept the terms of use and should access the data for non-commercial purposes.
+RESTful API functionality is available only after registration, the user must accept the terms of use and should access the data for non-commercial purposes only.
 
 ## Limitations
 
-Current registrations for the API use are [currently closed](https://www.opensecrets.org/api/admin/index.php?function=signup).
+&#x20;Registrations for the API use are [currently closed](https://www.opensecrets.org/api/admin/index.php?function=signup).
 
-According to OpenSecrets' [own website](https://www.opensecrets.org/federal-lobbying), for registered lobbyists, employment histories may be incomplete prior to 1998 because the Senate Office of Public Records does not make registrations and reports available electronically for those years.
+According to OpenSecrets' [own website](https://www.opensecrets.org/federal-lobbying), employment histories for registered lobbyists may be incomplete prior to 1998 because the Senate Office of Public Records has not made registrations and reports available electronically for those years.
 
-According to OpenSecrets' [own website](https://www.opensecrets.org/about) content on the site is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License. Materials written by them are free to distribute or cite, but OpenSecrets should be credited. For permission to reprint for commercial uses, contact OpenSecrets: info@opensecrets.org.
+According to OpenSecrets' [own website](https://www.opensecrets.org/about) the content is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License. Materials written by them are free to distribute or cite, but OpenSecrets should be credited. For permission to reprint for commercial uses, contact OpenSecrets: info@opensecrets.org.
 
 ## Ethical Considerations
 
