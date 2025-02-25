@@ -18,7 +18,7 @@ For example, if you are looking for China imports of wild species for biomedical
 
 The tool allows you to bulk download the whole database. With a relatively fast internet connection (145.9 Mbps download and 9.92 Mbps upload when I tried) you can get it in under 2 minutes. It is divided into 54 csv archives.
 
-The tool also links the [CITES Wildlife TradeView](https://tradeview.cites.org/en), a interactive online tool for exploring and visualising CITES trade data. You can explore visuals providing in a global view (data of all CITES-listed species), country view (data for one or more countries) and taxon view (data for one or more species or taxonomic groups).
+The tool also links to the [CITES Wildlife TradeView](https://tradeview.cites.org/en), a interactive online tool for exploring and visualising CITES trade data. You can explore visuals providing in a global view (data of all CITES-listed species), country view (data for one or more countries) and taxon view (data for one or more species or taxonomic groups).
 
 I reviewed the 2024.1 version.
 
