@@ -38,7 +38,7 @@ In exceptional and complex [cases](https://citesdata.un.org/terms), and upon req
 
 No need to log in or create accounts to use this tool.
 
-If you need to cite the information, use this format:
+If you need to cite the information, use this [format](https://trade.cites.org/cites_trade_guidelines/en-CITES_Trade_Database_Guide.pdf):
 
 Statistics derived from the CITES Trade Database:
 
