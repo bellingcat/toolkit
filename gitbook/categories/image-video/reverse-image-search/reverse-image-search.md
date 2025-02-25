@@ -3,7 +3,6 @@
 | Name | Description | Cost | URL |
 | --- | --- | --- | --- |
 | [**Google Lens**](../../../tools/google-lens/README.md) | Google Lens is an image recognition tool which can be used to identify locations or objects in photographs. | <mark style="background-color:green;">Free</mark> | [https://lens.google/](https://lens.google/) |
-| Google Lens Desktop | Google Lens but in your browser - it's better than Google Image reverse search. h/t @Henkvaness | <mark style="background-color:green;">Free</mark> | [https://lens.google.com/search?p=](https://lens.google.com/search?p=) |
 | [**InVID Verification Plugin**](../../../tools/invid/README.md) | Verification plugin to help journalists verify images and videos. | <mark style="background-color:green;">Free</mark> | [https://www.invid-project.eu/tools-and-services/invid-verification-plugin/](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/) |
 | PimEyes | Face Search Engine & Reverse Image Search. | <mark style="background-color:orange;">Partially Free</mark> | [https://pimeyes.com/en](https://pimeyes.com/en) |
 | [**RootAbout**](../../../tools/rootabout/README.md) | Reverse search images on the Internet Archive | <mark style="background-color:green;">Free</mark> | [http://rootabout.com/](http://rootabout.com/) |
