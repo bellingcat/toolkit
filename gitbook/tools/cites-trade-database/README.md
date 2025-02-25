@@ -62,17 +62,17 @@ None so far.
 
 Guide:
 
-[https://trade.cites.org/cites\_trade\_guidelines/en-CITES\_Trade\_Database\_Guide.pdf](https://trade.cites.org/cites_trade_guidelines/en-CITES_Trade_Database_Guide.pdf)
+[A guide to using the CITES Trade Database](https://trade.cites.org/cites_trade_guidelines/en-CITES_Trade_Database_Guide.pdf)
 
 Projects:
 
-[https://www.traffic.org/site/assets/files/23066/en\_wildlife\_trade\_in\_central\_asia-compressed.pdf](https://www.traffic.org/site/assets/files/23066/en_wildlife_trade_in_central_asia-compressed.pdf)
+[An Assessment of Wildlife Trade in Central Asia by TRAFFIC](https://www.traffic.org/site/assets/files/23066/en_wildlife_trade_in_central_asia-compressed.pdf)
 
-[https://www.researchgate.net/publication/225459268\_Fisheries\_and\_trade\_of\_seahorses\_in\_Brazil\_Historical\_perspective\_current\_trends\_and\_future\_directions](https://www.researchgate.net/publication/225459268_Fisheries_and_trade_of_seahorses_in_Brazil_Historical_perspective_current_trends_and_future_directions)
+[Fisheries and trade of seahorses in Brazil: Historical perspective, current trends, and future directions - Rosa, Ierecê & Oliveira, Tacyana & Osório, Frederico & Moraes, Luiz & Castro, André & Barros, Glaura & Alves, Rômulo.](https://www.researchgate.net/publication/225459268_Fisheries_and_trade_of_seahorses_in_Brazil_Historical_perspective_current_trends_and_future_directions)
 
-[https://www.sciencedirect.com/science/article/pii/S2351989421001852](https://www.sciencedirect.com/science/article/pii/S2351989421001852)
+[Tracking the wildlife trade: Usability of shipment identifiers in the CITES Trade Database - Michal Berec, Magda Vodrážková, Irena Šetlíková.](https://www.sciencedirect.com/science/article/pii/S2351989421001852)
 
-[https://www.mdpi.com/2076-2615/14/21/3076](https://www.mdpi.com/2076-2615/14/21/3076)
+[China’s International Trade of Parrots from 1981 to 2022 Based on the CITES Trade Database - Jinming Zhang, Qingqing Wang and Jianbin Shi.](https://www.mdpi.com/2076-2615/14/21/3076)
 
 ## Tool provider
 
