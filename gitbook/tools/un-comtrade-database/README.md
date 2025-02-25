@@ -64,15 +64,15 @@ User guides:
 
 [UN Comtrade Docs](https://uncomtrade.org/docs/)
 
-UN Comtrade Docs: [User Guide](https://uncomtrade.org/docs-category/user-guide/)
+[UN Comtrade Docs User Guide](https://uncomtrade.org/docs-category/user-guide/)
 
-UN Comtrade Analytics: [User Guide](https://comtrade.un.org/labs/data-explorer/UserGuide%20UN%20Comtrade%20Analytics.pdf)
+[UN Comtrade Analytics User Guide](https://comtrade.un.org/labs/data-explorer/UserGuide%20UN%20Comtrade%20Analytics.pdf)
 
 Projects that used the tool:
 
-[https://www.globalpolicyjournal.com/blog/29/01/2024/us-china-trade-war-spoiling-international-trade-statistics](https://www.globalpolicyjournal.com/blog/29/01/2024/us-china-trade-war-spoiling-international-trade-statistics)
+[Is the US-China trade war spoiling international trade statistics? By Vali Stan, Lukas Linsi and Daniel Mügge](https://www.globalpolicyjournal.com/blog/29/01/2024/us-china-trade-war-spoiling-international-trade-statistics)
 
-[https://storymaps.arcgis.com/stories/5090228a1cd04ca7ae8c11cedd8d78fb](https://storymaps.arcgis.com/stories/5090228a1cd04ca7ae8c11cedd8d78fb)
+[Red Flags in Trade Data by Conflict Armament Research](http://storymaps.arcgis.com/stories/5090228a1cd04ca7ae8c11cedd8d78fb)
 
 ## Tool provider
 
