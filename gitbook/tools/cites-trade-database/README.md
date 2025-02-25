@@ -28,7 +28,7 @@ I reviewed the 2024.1 version.
 * [ ] Partially Free
 * [ ] Paid
 
-In exceptional and complex cases, and upon request, the CITES Secretariat or UNODC may have to recover staff costs.
+In exceptional and complex [cases](https://citesdata.un.org/terms), and upon request, the CITES Secretariat or UNODC may have to recover staff costs.
 
 ## Level of difficulty
 
