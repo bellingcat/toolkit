@@ -16,7 +16,7 @@ You can configurate the kind of results you will get. You can get a csv report w
 
 For example, if you are looking for China imports of wild species for biomedical purposes from 2018 to 2023, you will get a detailed table with over 100 results that gives you species info, importer and exporter info, reported quantity, purpose, source, among other findings.
 
-The tool allows you to bulk download the whole database. With relatively fast internet connection (145.9 Mbps download and 9.92 Mbps upload when I tried) you can get it in under 2 minutes. It is divided into 54 csv archives.
+The tool allows you to bulk download the whole database. With a relatively fast internet connection (145.9 Mbps download and 9.92 Mbps upload when I tried) you can get it in under 2 minutes. It is divided into 54 csv archives.
 
 The tool also links the [CITES Wildlife TradeView](https://tradeview.cites.org/en), a interactive online tool for exploring and visualising CITES trade data. You can explore visuals providing in a global view (data of all CITES-listed species), country view (data for one or more countries) and taxon view (data for one or more species or taxonomic groups).
 
