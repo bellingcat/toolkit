@@ -1,5 +1,5 @@
 ---
-description: Over 7 million records of trade in wildlife since 1975.
+description: Around 23 million records of trade in wildlife since 1975.
 ---
 
 # CITES Trade Database
@@ -10,7 +10,7 @@ description: Over 7 million records of trade in wildlife since 1975.
 
 ## Description
 
-The tool hosts million of wild fauna and flora trade records. You can look by year ranges, exporting and importing countries, source, purpose, trade terms (live individuals, skins, etc.) and taxon (genus, species, etc).
+The tool hosts around [23 million records](https://trade.cites.org/cites_trade_guidelines/en-CITES_Trade_Database_Guide.pdf) of wild fauna and flora trade records. You can look by year ranges, exporting and importing countries, source, purpose, trade terms (live individuals, skins, etc.) and taxon (genus, species, etc).
 
 You can configurate the kind of results you will get. You can get a csv report with customized configurations or a web version.&#x20;
 
