@@ -36,7 +36,7 @@ You can search this website for free, but there are subscription options that al
 
 Buyer membership (Free)
 
-With this membership you can search and add buying requirements. You have to register by providing your contact information and some company information. You can just fill in the required fields to create an account with any information. For example, I logged in as a clothes store.
+With this membership you can search and add buying requirements. You have to register by providing your contact information and some company information. You can fill in the required fields to create an account with any information.&#x20;
 
 Trial Membership (Free, but they will review your profile)
 
