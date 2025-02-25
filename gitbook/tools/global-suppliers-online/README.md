@@ -40,7 +40,7 @@ With this membership you can search and add buying requirements. You have to reg
 
 Trial Membership (Free, but they will review your profile)
 
-After activating your buyer membership, they will review your profile and decide whether or not to grant you this type of membership. You will have access to an inquiry manager: they will monitor new buying needs that may be of interest to you and keep you informed. The inquiry manager can be of great help in keeping track of the items you are interested in. My trial membership was activated two days after I created my profile and they now send me recommendations based on my type of business (clothing).
+After activating your buyer membership, they will review your profile and decide whether or not to grant you this type of membership. You will have access to an inquiry manager: it will monitor new buying needs that may be of interest to you and keep you informed. The inquiry manager can be of great help in keeping track of the items you are interested in. My trial membership was activated two days after I created my profile and it now sends me recommendations based on my type of business (clothing).
 
 <figure><img src=".gitbook/assets/Screenshot 2024-12-23 at 11.55.44 AM.png" alt=""><figcaption></figcaption></figure>
 
