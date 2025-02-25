@@ -31,7 +31,7 @@ RuPEP says the data is collated from public sources. They detail their criteria 
 
 A PEP's page will start with biographical and sanctions information:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-10-02 at 09.04.21.png" alt=""><figcaption><p>The top of a PEP's page on RuPEP</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-02-24 at 16.06.22.png" alt=""><figcaption><p>The top of a PEP's page</p></figcaption></figure>
 
 On the left, the sections of information on this page are listed. On the right are listed alternative spellings for the  PEP's name. In the centre, the sanctions information is well curated: It includes a last checked date, and hyperlinks to sources:
 
@@ -39,7 +39,7 @@ On the left, the sections of information on this page are listed. On the right a
 
 Lower on the  page, each PEP has a [network visualisation](#user-content-fn-1)[^1]:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-10-02 at 09.15.41.png" alt=""><figcaption><p>PEP network visualisation</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-02-24 at 16.10.09.png" alt=""><figcaption></figcaption></figure>
 
 On the diagram, you can:
 
