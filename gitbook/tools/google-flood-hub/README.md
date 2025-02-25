@@ -20,6 +20,29 @@ As of November 2024, Flood Hub [covers](https://sites.research.google/gr/floodfo
 
 <figure><img src=".gitbook/assets/Screenshot 2024-11-21 at 4.18.55 PM.png" alt=""><figcaption><p>View of Pittsburgh, Pennsylvania on Google Flood Hub including current and expected river water and danger levels. </p></figcaption></figure>
 
+Scrolling around the world map will show different colored pins indicating points of measurement (called river gauges here). Each color represents the level of danger from a flood. The filters can be used to exclude/include the normal river levels and/or the ones marked as warnings and dangerous.
+
+**Additional coverage**
+
+Additionally, you can chose to see lower confidence gauges that do not meet Google's standards for the data necessary for evaluation, but can provide a more complete picture. The default setting shows only the high confidence data, but this can be toggled to show the lower confidence data points.&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2025-02-25 at 8.29.32 PM.png" alt=""><figcaption><p>River gouges for Cuanza River in Angola - regular view (L) and the additional coverage (lower confidence gauges) turned on (R)</p></figcaption></figure>
+
+**Inundation probability and Inundation history**
+
+Inundation probability show the areas likely to be submerged under water during a flood. Please be advised that this metric is not supported for all gauges (sometimes the Google model may not have shown clear inundation patterns. In these regions we decide to only share the hydrologic information).&#x20;
+
+Inundation history shows the frequency of inundation in the past. This helps identifying higher risk areas based on historical records. The different levels do not show how deep the water was, but how often the are was under water. According to Google's documentation, this layer has limitations and "does not extend to the extreme northern or southern points." It is restricted to the following latitudes and longitudes:
+
+* **Minimum latitude:** -39.0
+* **Minimum longitude:** -125.0
+* **Maximum latitude:** 43.0
+* **Maximum longitude:** 170.0
+
+<figure><img src=".gitbook/assets/Screenshot 2025-02-25 at 8.54.59 PM.png" alt="" width="375"><figcaption><p>Inundation history around Orinoco River in Venezuela</p></figcaption></figure>
+
+You can find details on how to read the gauge side panel [here](https://support.google.com/flood-hub/answer/15636998?hl=en\&ref_topic=15636596\&sjid=7162562628577014661-EU). To see a gauge panel, click on a gauge pin to find additional information for past trends and forecasts, water level measurements, coordinates and the size of the water basin, among others.&#x20;
+
 ## Cost
 
 * [x] Free
@@ -47,6 +70,8 @@ Access to the flood forecasting API is limited to pilot participants of the prog
 [Google Flood Hub FAQ](https://sites.research.google/gr/floodforecasting/resources/)
 
 [How to get started with the Google FloodHub](https://www.youtube.com/watch?v=Klu3zlbUy0Y) - Google Research video on YouTube
+
+[How to use Google Flood Hub](https://support.google.com/flood-hub/#topic=15636596) - official Google guide
 
 [Presentation on Google Flood Hub](https://www.youtube.com/watch?v=YKZlc7Fk6ik) - presentation by Moriah Royz, Senior Product Manager in Google Research
 
