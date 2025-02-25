@@ -16,7 +16,7 @@ Some are free, while some give very basic details for free and require payment f
 
 The Wikipedia list of registers will help you to find an online register for a particular country.
 
-[OpenCorporates](https://bellingcat.gitbook.io/toolkit/more/all-tools/opencorporates) has unified many of the registers in a single database, so it may be better to use in some instances. It's worth checking their [data coverage page](https://knowledge.opencorporates.com/knowledge-base/overview/) to see which registers are currently online (i.e. live data is available via OpenCorporates), and which are not.
+[OpenCorporates](https://bellingcat.gitbook.io/toolkit/more/all-tools/opencorporates) has unified many of the registers in a single database, so it may be better to use in some instances. It's worth checking their [data coverage page](https://knowledge.opencorporates.com/knowledge-base/overview/) to see which registers are currently online (i.e. regularly updated), and which are not.
 
 ## Cost
 
@@ -24,7 +24,7 @@ The Wikipedia list of registers will help you to find an online register for a p
 * [ ] Partially Free
 * [ ] Paid
 
-## Level of difficulty
+## Level of Difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
@@ -40,11 +40,11 @@ The page contains a range of other registers (e.g. property registers), so make 
 
 \-
 
-## Guides and articles
+## Guides and Articles
 
 \-
 
-## Tool provider
+## Tool Provider
 
 Wikipedia, US
 
