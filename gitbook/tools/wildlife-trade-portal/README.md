@@ -46,7 +46,7 @@ This site uses media sources such as local news (for example, this seizure in [I
 
 Guides:
 
-TimberStats Resources: [Introduction](https://experience.arcgis.com/experience/f334dde3d5bd4f9fb2ba02516bd48c45/page/RESOURCES/).
+TimberStats Resources: [Introduction](https://experience.arcgis.com/experience/f334dde3d5bd4f9fb2ba02516bd48c45/page/RESOURCES/)
 
 Traffic Bulletin: [Updates from the Wildlife Trade Portal](https://www.traffic.org/site/assets/files/13362/portal-updates.pdf) (2020)
 
