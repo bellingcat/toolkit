@@ -76,7 +76,7 @@ Projects that used the tool:
 
 ## Tool provider
 
-United Nations
+United Nations, based in New York City.
 
 ## Advertising Trackers
 
