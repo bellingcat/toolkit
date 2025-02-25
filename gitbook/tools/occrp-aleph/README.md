@@ -58,7 +58,7 @@ Searches can be as intricate as you want them to be, for example +Medved\~2 AND 
 
 OCCRP Aleph does provide a step-by-step tutorial on advanced searches [here](https://docs.aleph.occrp.org/users/search/advanced/).
 
-* How to search within datasets
+### How to search within datasets
 
 At the top of the Aleph page there is a menu called Datasets which opens a search for each dataset in the OCCRP databank. You can use the search bar to find a specific dataset and browse its contents.
 
@@ -88,19 +88,17 @@ Aleph provides a range of tools and mechanisms to aid investigations. They are s
 
 ## Requirements
 
-No account is necessary to use Aleph.
-
-If you want to export the results of your search, you have to create a free account, which requires you to submit evidence of relevant previous work (reports, articles, etc.), the name of the organization you are affiliated with and your role there. The same goes for creating research project spaces.
+No account is necessary to browse Aleph data. However, if you need an export of the results from a search, you need to create a free account. This requires the submission of evidence of relevant previous work (reports, articles, etc.), the name of the organization you are affiliated with and your role there. The same goes for creating research project spaces.
 
 Some datasets are only accessible to approved users. To be approved, you must fill out [this form](https://occrp.atlassian.net/servicedesk/customer/portal/14).
 
 ## Limitations
 
-• The OCCRP has restricted access to certain datasets. Access to protected materials can be granted to investigative journalists, activists, or researchers.
+The OCCRP has restricted access to certain datasets. Access to protected materials can be granted to investigative journalists, activists, or researchers.
 
-• Leaked datasets by nature are not always complete, and are thus imperfect sources.
+Leaked datasets by nature are not always complete, and are thus imperfect sources.
 
-• Some data types are not compatible with Aleph.
+Some data types are not compatible with Aleph.
 
 ## Ethical Considerations
 
@@ -119,8 +117,6 @@ Humber College's StoryLab: [Using OCCRP’s Aleph for Dark Web Data Analysis](ht
 {% embed url="https://www.youtube.com/watch?v=-5-7Q7e1f6w" %}
 A detailed introduction to Aleph
 {% endembed %}
-
-[OCCRP Aleph trailer](https://www.youtube.com/watch?v=nqUByNDPqnE)
 
 Associação Brasileira de Jornalismo Investigativo: [Learn how to use Aleph in your journalistic investigations](https://www.youtube.com/watch?v=4WEQvkOZWEw) (video in Portuguese)
 
