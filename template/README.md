@@ -44,6 +44,10 @@ https://example.com
 
 \[\[Name the tool provider (and potentially info on them)]]
 
+## Similar tools
+
+\[\[Compare this tool with similar tools which can be used for the same research purpose. What are the strengths and weaknesses of each tool?]]
+
 ## Advertising Trackers
 
 * [x] This tool has not been checked for advertising trackers yet.
@@ -54,4 +58,3 @@ https://example.com
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
