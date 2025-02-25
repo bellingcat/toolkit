@@ -1,5 +1,5 @@
 ---
-description: A comprehensive repository of company registries around the world
+description: Comprehensive repository of company registries around the world
 ---
 
 # OpenCorporates
@@ -12,7 +12,7 @@ description: A comprehensive repository of company registries around the world
 
 OpenCorporates provides a unified search of corporate and legal entity-level data across 170+ jurisdictions. It is a free repository of company registries aggregated from primary public sources, published to promote corporate transparency.
 
-1. **How to search for a company**
+**How to search for a company**
 
 * Go to [opencorporates.com](https://opencorporates.com/) and log in with your credentials or create an account.
 * In the search field select Companies and type the name of the entity you are interested in. If you're unsure of the full legal name of an entity, type a partial name.
@@ -23,7 +23,7 @@ OpenCorporates provides a unified search of corporate and legal entity-level dat
 
 <figure><img src=".gitbook/assets/OC2.png" alt=""><figcaption><p>List of results for keyword 'Aramco'</p></figcaption></figure>
 
-* If you search by a partial name or more than one entity has the same or almost identical name, the results page will show all relevant entries corresponding to your search term (see above image). It will also show BOTH active and inactive entities. To exclude the inactive ones, click on the checkbox 'exclude inactive' located just below the search bar. The results page also has additional filters on the right for jurisdiction, as well as various filters for data associated with the entries, filters for company type and current status. These can be used to narrow down the search results.
+* Searching by a partial name or if more than one entity has a similar or almost identical name, the results page will show all relevant entries corresponding to your search term (see above image). It will also show **BOTH** active and inactive entities. To exclude the inactive ones, click on the checkbox 'exclude inactive' located just below the search bar. The results page also has additional filters on the right for jurisdiction, as well as various filters for data associated with the entries, filters for company type and current status. These can be used to narrow down the search results.
 * The search bar in the results page also offers advanced search options - where the keyword occurs, search mode, non-profit status, include/exclude company branches.
 
 <figure><img src=".gitbook/assets/OC3.png" alt=""><figcaption><p>Advanced options filters in the results page</p></figcaption></figure>
@@ -32,7 +32,7 @@ OpenCorporates provides a unified search of corporate and legal entity-level dat
 
 <div><figure><img src=".gitbook/assets/OC4.png" alt=""><figcaption><p>View of the company of interest</p></figcaption></figure> <figure><img src=".gitbook/assets/OC5.png" alt=""><figcaption><p>View of the company of interest</p></figcaption></figure></div>
 
-2. **How to search for a Company Officer**
+**How to search for a Company Officer**
 
 * Follow the same steps as above, but select the Officer option just below the search bar on the home page.
 
@@ -40,7 +40,7 @@ OpenCorporates provides a unified search of corporate and legal entity-level dat
 
 <figure><img src=".gitbook/assets/OC8.png" alt="" width="563"><figcaption><p>Search results with the name of IBM CEO Arvind Krishna</p></figcaption></figure>
 
-* Once you have located the person of interest, click on their name to see all the information associated with them. The information for officers is often very limited, however the results page will provide clues and information whether that person is associated in any way with other companies, i.e. the results page information can be used to piece together a business affiliations profile of a specific individual.
+* Once you have located the person of interest, click on their name to see all the information associated with them. The information for officers is often very limited, however the results page will provide clues and information whether that person is associated in any way with other companies, i.e. the results page information can be used to piece together a business affiliations profile of a specific individual.            &#x20;
 
 <figure><img src=".gitbook/assets/OC7.png" alt="" width="563"><figcaption><p>Specific information for IBM CEO Arvind Krishna from one of selected search results</p></figcaption></figure>
 
