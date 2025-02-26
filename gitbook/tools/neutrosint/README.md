@@ -1,5 +1,5 @@
 ---
-description: A tool for investigating ProtonMail email addresses.
+description: A tool for investigating Proton Mail addresses.
 ---
 
 # NeutrOSINT
@@ -10,12 +10,34 @@ description: A tool for investigating ProtonMail email addresses.
 
 ## Description
 
-NeutrOSINT is an open-source Python tool designed to determine if a ProtonMail email address exists and to retrieve its most recent PGP Key creation date.
+NeutrOSINT is an open-source Python tool designed to determine if a Proton Mail email address exists and to retrieve its most recent PGP Key creation date.
+
+{% hint style="info" %}
+**PGP (Pretty Good Privacy)**
+
+PGP is an encryption method used to encrypt and sign messages developed by Philip Zimmermann in 1991.
+
+* It ensures **confidentiality** by encrypting data so only the intended recipient can decrypt it;
+* It guarantees **integrity** by allowing the recipient to verify that the message wasn’t altered during transit;
+* It offers **authentication** through digital signatures that confirm the sender’s identity;
+* And it supports **non-repudiation**, meaning the sender cannot later deny having sent the signed message
+
+Proton Mail automatically creates PGP key pairs with each email. These pairs are then used to encrypt and sign outgoing messages as well as decrypt incoming messages.
+
+You can generate a new PGP key pair in your Proton Mail settings.
+
+For more information on PGP and how it is used by Proton Mail, check these two guides:
+
+* [What is PGP encryption and how does it work? - Proton Blog](https://proton.me/blog/what-is-pgp-encryption)
+* [How to use PGP with Proton Mail - Proton Blog](https://proton.me/support/how-to-use-pgp)
+{% endhint %}
+
+<figure><img src=".gitbook/assets/demo.gif" alt=""><figcaption><p>NeutrOSINT uses the email's associated PGP key to detect if an email exists or not.</p></figcaption></figure>
 
 The tool supports two modes:
 
-* **Light Mode:** Uses ProtonMail's API to check email validity.
-* **Selenium Mode (Deprecated):** Connects with your own ProtonMail credentials to check email addresses. This is useful for testing multiple ProtonMail addresses without getting a cooldown as the API used in the Light Mode has a request limit. This mode is currently non-functional due to issues with ProtonMail updates but will be fixed in the future according to the developer.
+* **Light Mode:** Uses Proton Mail's API to check email validity.
+* **Selenium Mode (Deprecated):** Connects with your own Proton Mail credentials to check email addresses. This is useful for testing multiple Proton Mail addresses without getting a cooldown as the API used in the Light Mode has a request limit. This mode is currently non-functional due to issues with Proton Mail updates but will be fixed in the future according to the developer.
 
 ## Cost
 
@@ -34,16 +56,28 @@ The tool requires users to run Python scripts and configure API access or creden
 ## Requirements
 
 * **Python** (compatible with Python 3.6+)
-* **Optional:** Google Chrome (for Selenium Mode, when it will be functional)
-* **Optional:** ProtonMail credentials (for Selenium Mode, when it will be functional)
+* **Optional:** Google Chrome (for Selenium Mode)
+* **Optional:** Proton Mail credentials (for Selenium Mode)
 * **Optional:** Proxy configuration if needed (for bypassing the API's request limit).
 * **Optional:** A file containing the list of email addresses for batch operations
 
 ## Limitations
 
-* **Selenium Mode Deprecation:** The default Selenium mode is deprecated and currently non-functional due to recent ProtonMail updates.
-* **API Limits:** The light mode relies on ProtonMail's API that has request limits. A proxy usage is recommended to avoid excessive exposure of requests.
-* **On PGP Key Creation Date**: The PGP Key Creation Date isn't always the email address creation date as a new PGP Key can be generated from the ProtonMail settings.
+* **Selenium Mode Deprecation:** The default Selenium mode is deprecated and currently non-functional due to recent Proton Mail updates.
+* **On PGP Key Creation Date**: The PGP Key Creation Date isn't always the email address creation date as a new PGP Key can be generated from the Proton Mail settings.
+* **API Limits:** The light mode relies on Proton Mail's API that has request limits. You might want to avoid getting a cooldown by using a proxy or a VPN.
+
+{% hint style="info" %}
+**Proxy**
+
+In networking, a **proxy server** is a server that acts as an intermediary for your network traffic.
+
+Your computer asks the proxy to ask another server for something, and that server returns it to the proxy, which relays it back to you.
+
+VPNs can be thought of as a form of proxies that ensures, in theory, end-to-end encryption among other properties.
+
+More on this [here](https://www.fortinet.com/resources/cyberglossary/proxy-vs-vpn).
+{% endhint %}
 
 ## How to Use
 
@@ -134,11 +168,11 @@ Output Example (results.txt):
 
 **Example 3: Using a Proxy (Advanced)**
 
-Start your proxy and specify it in the command line (e.g. 127.0.0.1:8080). You can check the following resources to get a working proxy:
+Start your proxy and specify it in the command line (e.g. 127.0.0.1:8080). Your might want to use:
 
-* [**Gluetun**](https://github.com/qdm12/gluetun)**:** allows you to create containers that include both a VPN and an HTTP Proxy (VPN Subscription is required on one of the supported services)
 * [**Tor**](https://www.torproject.org/)**:** The Onion Router opens a proxy at 127.0.0.1:9050
-* You can find free proxies online but make sure these align with your privacy and operational security requirements.
+* Any free or paid proxy from a provider you trust.
+* Your own proxy.
 
 ```
 python main.py -l -e testemail@proton.me -o results.txt -P 127.0.0.1:8080
@@ -241,8 +275,6 @@ done < "$input_file"
 echo "Testing completed. Results appended to $output_file."
 ```
 
-**Note:** if you don't want to use the builtin proxy feature, you can consider using tools such as [ProxyChains](https://github.com/haad/proxychains).
-
 ## Ethical Considerations
 
 Use responsibly for legitimate research purposes.
@@ -253,7 +285,7 @@ Use responsibly for legitimate research purposes.
 
 ## Tool provider
 
-The tool is developed and maintained by [KrowZ](https://blog.synoslabs.com/about.html), a french pentester, youtuber, streamer and OSINT enthousiast.
+The tool is developed and maintained by [KrowZ](https://blog.synoslabs.com/about.html), a french pentester, youtuber, streamer and OSINT enthusiast.
 
 ## Advertising Trackers
 
