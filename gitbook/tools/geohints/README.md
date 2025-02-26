@@ -117,7 +117,7 @@ _Interactive maps: Sören_
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat Volunteer Team/Unassigned |
-|                                      |
+| Page maintainer                       |
+| ------------------------------------- |
+| Paul - Bellingcat Volunteer Community |
+|                                       |
