@@ -26,15 +26,17 @@ Flightradar24 data can be used for open-source investigations, including but not
 TIP: Finding plane information requires a multi-source approach. Check more than one flight-tracking website when doing research “since one might have more information than the others,” according to[ this Bellingcat guide](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) to flight tracking. [OCCRP](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) recommends starting your investigation with an initial data gathering or a Google search to see everything you can find about a plane of interest (see paragraph 6 under “[How do I find out who owns a plane and where it’s going?](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking#how-do-i-find-out-who-owns-a-plane-or-where-its-going)").
 {% endhint %}
 
-Flightradar24‘s flight information comes from several data sources. One category of data called “positional data” triangulates the aircraft's position in the sky. This includes sources[ such as ADS-B, MLAT, satellite, and radar data.](https://www.flightradar24.com/how-it-works) In addition to positional data, Flightradar24 also uses flight status and flight schedule data from [airports and airlines](https://www.flightradar24.com/how-it-works). The platform uses data through the[ Open Glider Network (OGN)](https://www.flightradar24.com/how-it-works#flarm) for drones, gliders, and small aircraft.&#x20;
+Flightradar24‘s flight information comes from several data sources. One category of data called “positional data” triangulates the aircraft's position in the sky. This includes sources[ such as ADS-B, MLAT, satellite, and radar data.](https://www.flightradar24.com/how-it-works) In addition to positional data, Flightradar24 also uses flight status and flight schedule data from [airports and airlines](https://www.flightradar24.com/how-it-works). The platform uses data through the[ Open Glider Network (OGN)](https://www.flightradar24.com/how-it-works#flarm) for drones, gliders, and small aircraft.
 
-According to the tool’s filter website, it tracks about 12 aircraft categories. They are: Passenger, Cargo, Military and government, Business jets, General aviation, Helicopter, lighter-than-air, Gliders, Drones, Ground vehicles, "Other", and Non-categorized. &#x20;
+According to the tool’s filter website, it tracks about 12 aircraft categories. They are: Passenger, Cargo, Military and government, Business jets, General aviation, Helicopter, lighter-than-air, Gliders, Drones, Ground vehicles, "Other", and Non-categorized.
 
-
-
-<figure><img src=".gitbook/assets/ScreenRecording2024-11-22180945-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>IMAGE 1: This clip shows how users can filter for aircraft on the tool. Access the filter at the bottom of the live map. If unsure, each category has helpful descriptions when hovering over the question mark icon to the right. Users can combine different filters by enabling some categories and disabling others — allowing for more granularity in search results. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/ScreenRecording2024-11-22180945-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>IMAGE 1: This clip shows how users can filter for aircraft on the tool. Access the filter at the bottom of the live map. If unsure, each category has helpful descriptions when hovering over the question mark icon to the right. Users can combine different filters by enabling some categories and disabling others — allowing for more granularity in search results.</p></figcaption></figure>
 
 ## But First, Identifiers and Where to Find Them
+
+When doing flight tracking for investigations, it is essential to know what data to look for and which information can potentially provide leads in an investigation. In flight-tracking, researchers usually pay attention to “Identifiers.”&#x20;
+
+Flight-tracking websites have a plethora of information available. However, depending on your research question, researchers generally pay attention to call signs, registration, serial numbers, and hex codes.
 
 {% hint style="info" %}
 TIP: Note that not all identifiers may be immediately available on one flight tracking website. Cross-check with other platforms.
@@ -42,9 +44,25 @@ TIP: Note that not all identifiers may be immediately available on one flight tr
 
 ### CALL SIGNS
 
+<details>
+
+<summary><strong>CALL SIGNS: What is it and why are they important? (CLICK TO EXPAND)</strong></summary>
+
+**What is it?**[ Call signs are used to identify specific flights/flight routes and for communication and identification in air traffic control.](https://skybrary.aero/articles/aircraft-call-sign) They are unique identifiers of an aircraft. They help differentiate each aircraft in the sky from one another. According to this Bellingcat[ guide](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/), private aircraft often use their registration number as their call sign. In contrast, commercial flights usually have call signs based on their specific routes.
+
+According to this GIJN[ guide](https://gijn.org/resource/planespotting-an-updated-guide-to-tracking-aircraft-around-the-world/), “The call sign is more or less whatever the pilot decided to enter for that flight.” Commercial flights, on the other hand, will be the flight number or close to it, like DAL307 for Delta Airlines flight 307 from Honolulu to Minneapolis.
+
+Call signs also often vary with each flight, and occasionally, they may change even while in the air. For instance, an aircraft might have different call signs throughout the day if it completes several trips,[ Bellingcat explains](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/).[ Keep in mind that an aircraft can also have the exact same call sign in the span of a few days.](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking)&#x20;
+
+**Why is it important?** Call signs can be helpful when monitoring routes and flight paths and identifying potential deviations or anomalies. It can tell you what the flight path of an aircraft is, its origin, its intended destination, and where it passes by. It is also helpful for flagging private aircraft that use their registration as call signs.
+
+
+
+</details>
+
 **Where can I find the call sign on Flightradar24?**
 
-_**For live flights:**_&#x20;
+_**For live flights:**_
 
 Depending on your settings, call signs can be seen when you hover your cursor over a plane of interest in the live map. The combination of numbers and letters that appear is usually the call sign. Users can find additional details when clicking on the aircraft.
 
@@ -52,7 +70,7 @@ Depending on your settings, call signs can be seen when you hover your cursor ov
 
 _**For completed/historical flights:**_
 
-1. Determine the aircraft by either flight number, flight route, or other identifiers, if known.&#x20;
+1. Determine the aircraft by either flight number, flight route, or other identifiers, if known.
 2. Go to the search bar and enter the search term. This will lead users to a list of past and future-scheduled flights.
 3. Select the date and time of interest, and click on the icon “PLAY” on the far right. This will take you to the details and stats associated with that particular flight.
 4. Scroll down until you see the following image below.
@@ -69,34 +87,33 @@ Just like call signs, registration information is available by clicking on an ai
 
 _**For historical flights**_
 
-Follow the same steps shown above for searching call signs for historical flights. Begin with entering the flight in question on the search bar. The registration is located on the far right, just below the aircraft type and the aircraft photo. \
-
+Follow the same steps shown above for searching call signs for historical flights. Begin with entering the flight in question on the search bar. The registration is located on the far right, just below the aircraft type and the aircraft photo. \\
 
 ### HEX CODE/ ICAO CODE
 
 **Where can I find the hex code on Flightradar24?**
 
-On Flightradar24, the hex code is referred to as either “ICAO 24-Bit Address” or “”Mode-S”.  And you can find it in several places depending on where you are accessing the aircraft information on the website.&#x20;
+On Flightradar24, the hex code is referred to as either “ICAO 24-Bit Address” or “”Mode-S”. And you can find it in several places depending on where you are accessing the aircraft information on the website.
 
-_**For live flights**_&#x20;
+_**For live flights**_
 
-Users can search the live map for the aircraft of interest. Hover and click over that aircraft, and an information box will appear on the left. Scroll further down to and find “ICAO 24-Bit  Address”.&#x20;
+Users can search the live map for the aircraft of interest. Hover and click over that aircraft, and an information box will appear on the left. Scroll further down to and find “ICAO 24-Bit Address”.
 
 <div align="center"><figure><img src=".gitbook/assets/Screenshot 2024-11-30 111546-ed.png" alt="" width="563"><figcaption><p>Searching for a hex code on a live flight can be done by clicking on an aircraft on the Live Map. Navigate on the information box to the left and scroll down to the ICAO 24-BIT Address. This is the hex code for a Southwest flight with call sign SWA509.</p></figcaption></figure></div>
 
 _**For historical flights**_
 
 1. If available, use the registration number to search for the flight of interest in the search bar. This will lead users to a list of past and future-scheduled flights.
-2. Click the choice under “aircraft”. This will take you to a separate page containing the flight history of the aircraft of interest.&#x20;
+2. Click the choice under “aircraft”. This will take you to a separate page containing the flight history of the aircraft of interest.
 3. Look for the word “Mode-S” to get the hex code (Refer to the image below)
 
-<figure><img src=".gitbook/assets/hex code historical.png" alt=""><figcaption><p>This is a sample passenger aircraft. For demonstration purposes, we look at the 2 step process of finding the hex code. In the left image, users can search for the aircraft using the registration number (if known). Click on the search result under "Aircraft". This will take users to an information page containing additional details. The hex code is labeled as "Mode-S" on the upper right as highlighted in green.  </p></figcaption></figure>
+<figure><img src=".gitbook/assets/hex code historical.png" alt=""><figcaption><p>This is a sample passenger aircraft. For demonstration purposes, we look at the 2 step process of finding the hex code. In the left image, users can search for the aircraft using the registration number (if known). Click on the search result under "Aircraft". This will take users to an information page containing additional details. The hex code is labeled as "Mode-S" on the upper right as highlighted in green.</p></figcaption></figure>
 
 ### SERIAL NUMBER/ MSN
 
 <details>
 
-<summary>SERIAL NUMBER/ MANUFACTURER SERIAL NUMBER (MSN): What is it? Why is it important?  [CLICK TO EXPAND]</summary>
+<summary>SERIAL NUMBER/ MANUFACTURER SERIAL NUMBER (MSN): What is it? Why is it important? [CLICK TO EXPAND]</summary>
 
 **Definition:** A serial number is a unique code given to an aircraft by the manufacturer to identify it from other planes. It's like a fingerprint for that specific aircraft designated at the time of manufacture or[ similar to a car’s VIN (vehicle Identification Number).](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) Serial numbers never change, unlike call signs and registration numbers. It is mandated by law (see[ here](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-45), section 14.13) to collectively ensure that aircraft can be monitored, maintained, and operated safely throughout their service life.
 
@@ -118,76 +135,73 @@ Follow the same steps as shown above for searching for call signs for historical
 
 #### Live Map and Immediately Accessible Flight Filters
 
-Flightradar24’s landing page prominently features its Live Map, providing users with immediate access to the real-time aircraft status in the air. The flight filter settings are accessible from the main page, allowing users to customize their view and quickly find relevant information.&#x20;
+Flightradar24’s landing page prominently features its Live Map, providing users with immediate access to the real-time aircraft status in the air. The flight filter settings are accessible from the main page, allowing users to customize their view and quickly find relevant information.
 
 The Live Map on Flightradar24 is also customizable, allowing users to add widgets for quick access to important information. These widgets can display data such as weather conditions, statistics (e.g., the number of data sources feeding flight information), and the most tracked live flights. Additionally, users can create personalized widgets to bookmark and monitor specific aircraft, flights, airports, or locations of interest. Open source investigators can use those features to track relevant flight data, monitor specific patterns, and quickly access real-time information critical for their analysis.
 
 Map Layers and Aeronautical Charts
 
-Users can customize the map layers on Flightradar24's Live Map, allowing for the overlay of various data sets.&#x20;
+Users can customize the map layers on Flightradar24's Live Map, allowing for the overlay of various data sets.
 
-#### Advanced Search&#x20;
+#### Advanced Search
 
 The search bar is immediately accessible on the tool's landing page. Flightradar24’s search function has features designed to help users quickly find information on a platform that contains a lot of information. Note that search results usually show both live flights and flights that are completed or recently scheduled. Here is an overview of the search feature, which includes input and output (this list is not exhaustive).
 
 {% hint style="warning" %}
-NOTE: Based on our own tests, the search bar takes most of the input explained below, except for Serial Number.&#x20;
+NOTE: Based on our own tests, the search bar takes most of the input explained below, except for Serial Number.
 {% endhint %}
 
 {% tabs %}
 {% tab title="FLIGHT BY ROUTE" %}
-**INPUT:** &#x20;
+**INPUT:**
 
-The search is designed to run several keyword variations. Users can enter the ICAO Airport Code and the IATA Airport Code. Users can enter two airport codes separated by a dash.&#x20;
+The search is designed to run several keyword variations. Users can enter the ICAO Airport Code and the IATA Airport Code. Users can enter two airport codes separated by a dash.
 
 **Example:** “AMS - LHR” to refer to the flight route from Amsterdam Schipol to Heathrow Airport
 
-**OUTPUT:**&#x20;
+**OUTPUT:**
 
-This search will show all the live flights as well as recent and scheduled flights&#x20;
+This search will show all the live flights as well as recent and scheduled flights
 
-**INPUT:**  &#x20;
+**INPUT:**
 
-If the airport code is unknown, simply type the location or the airport name.&#x20;
+If the airport code is unknown, simply type the location or the airport name.
 
-**Example:** “London”&#x20;
+**Example:** “London”
 
-**OUTPUT:**&#x20;
+**OUTPUT:**
 
-Putting a location or airport name will provide a list of possible airport locations.&#x20;
+Putting a location or airport name will provide a list of possible airport locations.
 
-\
-
+\\
 {% endtab %}
 
 {% tab title="FLIGHT BY AIRLINE" %}
-This is a straightforward search in which the users can type the airplane.&#x20;
+This is a straightforward search in which the users can type the airplane.
 
-**INPUT:** Type the name of the airline.&#x20;
+**INPUT:** Type the name of the airline.
 
-**Example:** Iberia&#x20;
+**Example:** Iberia
 
-**OUTPUT:** This will provide a list of airlines that match your query. However, users need to click the arrow down to expand the search. This will provide several options including all the live flights by the airline of interest.&#x20;
+**OUTPUT:** This will provide a list of airlines that match your query. However, users need to click the arrow down to expand the search. This will provide several options including all the live flights by the airline of interest.
 {% endtab %}
 
 {% tab title="AIRPORTS BY COUNTRY" %}
-Click on this option to search for airports by country&#x20;
+Click on this option to search for airports by country
 
 **INPUT:** Choose the country of interest from the list automatically provided by the search feature.
 
 **Example:** Afghanistan
 
-**OUTPUT:** This will show a list of 11 airports in Afghanistan.&#x20;
+**OUTPUT:** This will show a list of 11 airports in Afghanistan.
 
 **Example:** Kabul International Airport, Kandahar Airport, Herat International Airport etc.
 
-TIP: Click on the “down” arrow on each search result to expand more menu options. The expanded search has the option to show users the airport on the live map and a list of flights arriving, departing and on the ground, and many more.&#x20;
+TIP: Click on the “down” arrow on each search result to expand more menu options. The expanded search has the option to show users the airport on the live map and a list of flights arriving, departing and on the ground, and many more.
 {% endtab %}
 
 {% tab title="NEARBY" %}
-This feature is for showing flights near the user’s location. The user must enable it’s location and give the tool permission to access its location.&#x20;
-
-
+This feature is for showing flights near the user’s location. The user must enable it’s location and give the tool permission to access its location.
 {% endtab %}
 {% endtabs %}
 
@@ -195,66 +209,66 @@ For a more detailed guide to its search features, refer to: [https://www.flightr
 
 #### Custom Filters
 
-In addition to filtering by aircraft category, users can create their own custom filters tailored to their research purpose. Flightradar24 improved its filtering system by enabling five additional parameters.&#x20;
+In addition to filtering by aircraft category, users can create their own custom filters tailored to their research purpose. Flightradar24 improved its filtering system by enabling five additional parameters.
 
-OPEN each tab to get more detailed information on how to create custom filters.&#x20;
+OPEN each tab to get more detailed information on how to create custom filters.
 
 {% tabs %}
 {% tab title="FILTER BY AIRCRAFT" %}
-Flightradar24 has enhanced its aircraft filtering capabilities. You can now precisely filter flights by their exact ICAO code.&#x20;
+Flightradar24 has enhanced its aircraft filtering capabilities. You can now precisely filter flights by their exact ICAO code.
 
-**For example:** Searching for "A320" will only display Airbus A320 models.&#x20;
+**For example:** Searching for "A320" will only display Airbus A320 models.
 
-To view a family of aircraft, use a wildcard symbol.&#x20;
+To view a family of aircraft, use a wildcard symbol.
 
-**For example:**  "B737\*" will show all Boeing 737 variants. Additionally, you can filter for multiple aircraft types by separating them with commas.&#x20;
+**For example:** "B737\*" will show all Boeing 737 variants. Additionally, you can filter for multiple aircraft types by separating them with commas.
 
 This refined filtering system allows for more accurate and tailored flight tracking.
 {% endtab %}
 
 {% tab title="FILTER BY AIRPORT" %}
-Users can input the airport code or airport name.&#x20;
+Users can input the airport code or airport name.
 
 In addition, users can now search for flights to or from entire countries on Flightradar24. Just type in the country name, like "Venezuela" or "Colombia," to see all flights to or from that country. Users can further filter by inbound, outbound flights, or both.
 {% endtab %}
 
 {% tab title="FILTER BY ROUTE" %}
-This powerful feature can isolate flights between two airports or between two countries. Or between three countries and four airports. Users can see the flow of traffic in one direction and can easily flip the direction if needed.&#x20;
+This powerful feature can isolate flights between two airports or between two countries. Or between three countries and four airports. Users can see the flow of traffic in one direction and can easily flip the direction if needed.
 
 **Examples:**
 
 1. From: United Kingdom To: United States
-2. From: United Kingdom To: JFK, EWR&#x20;
+2. From: United Kingdom To: JFK, EWR
 
 <figure><img src=".gitbook/assets/Screenshot 2024-11-28 130822-ed.png" alt=""><figcaption><p>Clicking the arrows will reverse the direction of the air traffic of your search results</p></figcaption></figure>
 
-**Examples:**&#x20;
+**Examples:**
 
 1. From: United States To: United Kingdom
 2. From: JFK, EWR To: United Kingdom
 {% endtab %}
 {% endtabs %}
 
-#### Jetphotos Database&#x20;
+#### Jetphotos Database
 
-Another helpful feature in this tool is its photo database through Jetphotos. Users can view flight information. Our own tests showed that Jetphotos feeds the platform with a photo of the exact aircraft that users are tracking on Flightradar24.&#x20;
+Another helpful feature in this tool is its photo database through Jetphotos. Users can view flight information. Our own tests showed that Jetphotos feeds the platform with a photo of the exact aircraft that users are tracking on Flightradar24.
 
 Flightradar24 incorporates Jetphotos images into its platform. When viewing an aircraft's details on Flightradar24, users often see photos sourced from Jetphotos. This integration provides a visual representation of the tracked aircraft, enhancing the user experience. Jetphotos links back to Flightradar24 for detailed tracking data about photographed aircraft.
 
-More importantly, the photos shown are those of the actual plane being tracked live in the sky and not a similar aircraft type. This is especially helpful if researchers are interested in making a visual match to the information they have.&#x20;
+More importantly, the photos shown are those of the actual plane being tracked live in the sky and not a similar aircraft type. This is especially helpful if researchers are interested in making a visual match to the information they have.
 
-**Example:** If a user is tracking an aircraft with registration/tail number OO-TMS, users can find that exact photo on Jetphoto’s database by using the registration number/tail number as the search term.&#x20;
+**Example:** If a user is tracking an aircraft with registration/tail number OO-TMS, users can find that exact photo on Jetphoto’s database by using the registration number/tail number as the search term.
 
-Jetphotos and Flightradar24 are distinct platforms with complementary purposes, but they share a close relationship due to their focus on aviation and[ mutual ownership](https://www.jetphotos.com/about.php).&#x20;
+Jetphotos and Flightradar24 are distinct platforms with complementary purposes, but they share a close relationship due to their focus on aviation and[ mutual ownership](https://www.jetphotos.com/about.php).
 
 #### Playback
 
-Flightradar24's playback feature is like a time machine for aviation. Flightradar24's playback feature allows users to rewind time and analyze historical flight data. This tool can be invaluable for investigative purposes, as it enables researchers to:&#x20;
+Flightradar24's playback feature is like a time machine for aviation. Flightradar24's playback feature allows users to rewind time and analyze historical flight data. This tool can be invaluable for investigative purposes, as it enables researchers to:
 
 (a) Investigate Past Events: Examine air traffic patterns during specific incidents or events.\
-(b) Verify/Cross-Check Claims: Cross-reference historical flight data with other information to confirm or refute claims.                                                                                                                                                               (c) Seeing Trends: Study trends by analyzing past flight patterns.
+(b) Verify/Cross-Check Claims: Cross-reference historical flight data with other information to confirm or refute claims. (c) Seeing Trends: Study trends by analyzing past flight patterns.
 
-The playback feature is available on the live map (landing page) and users can see the replay of many flights simultaneously. It is also available for individual flights.&#x20;
+The playback feature is available on the live map (landing page) and users can see the replay of many flights simultaneously. It is also available for individual flights.
 
 <figure><img src=".gitbook/assets/ScreenRecording2024-11-28194301-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>Users can access the playback on the live map by clicking “playback” on the menu located in the the bottom center of the live map.</p></figcaption></figure>
 
@@ -262,20 +276,20 @@ The playback feature is available on the live map (landing page) and users can s
 TIP: Add a filter or your own custom filter and use the playback feature for a more granular search. For example: Use the business jet category filter and hit the playback button to see a replay of all business jets travelling in specific area during a specific time frame
 {% endhint %}
 
-&#x20;For individual flights, the playback feature is accessible by first searching the flight of interest. And then scrolling through the past scheduled flights. Select the time and date of interest and click on “Play” (the farthest icon to the right).
+For individual flights, the playback feature is accessible by first searching the flight of interest. And then scrolling through the past scheduled flights. Select the time and date of interest and click on “Play” (the farthest icon to the right).
 
-#### KML and CSV File of Flight Log&#x20;
+#### KML and CSV File of Flight Log
 
-For flights that have already landed, Flightradar24 allows users to download a KML file of the flight log. This will contain all the coordinates of its flight path, the altitude, and other information that helps users visualize flight information. This raw data can then be imported on [Google Earth](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro) or ArcGIS Earth.&#x20;
+For flights that have already landed, Flightradar24 allows users to download a KML file of the flight log. This will contain all the coordinates of its flight path, the altitude, and other information that helps users visualize flight information. This raw data can then be imported on [Google Earth](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro) or ArcGIS Earth.
 
-In addition, users can also download a .CSV containing raw flight data for analysis.&#x20;
+In addition, users can also download a .CSV containing raw flight data for analysis.
 
-1. To do this, enter the known flight info on the search bar and click on the flight number/call sign/route.&#x20;
+1. To do this, enter the known flight info on the search bar and click on the flight number/call sign/route.
 2. Scroll down and click on “Flight Info”
-3. You will be taken to a different page containing the flight log. Scroll down to the list of recentlly scheduled flights, choose the date and time of interest.&#x20;
-4. Navigate to the right where you have the option to download the data inKML or CSV format or do a playback.&#x20;
+3. You will be taken to a different page containing the flight log. Scroll down to the list of recentlly scheduled flights, choose the date and time of interest.
+4. Navigate to the right where you have the option to download the data inKML or CSV format or do a playback.
 
-Using a KML file of a flight log overlaid over Google Earth Pro can sometimes help with geolocation tasks. See this [example](https://nixintel.info/osint/using-flight-tracking-for-geolocation-quiztime-30th-october-2019/) by Nixintel for a demonstration of this use case.&#x20;
+Using a KML file of a flight log overlaid over Google Earth Pro can sometimes help with geolocation tasks. See this [example](https://nixintel.info/osint/using-flight-tracking-for-geolocation-quiztime-30th-october-2019/) by Nixintel for a demonstration of this use case.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-11-27 061349-ed.png" alt=""><figcaption><p>Following the steps outlined above, the users will be taken to the flight log of the aircraft in question. Download the raw data on the area shown in purple.</p></figcaption></figure>
 
@@ -310,15 +324,15 @@ Challenges and Workarounds:
 * [x] Partially Free
 * [ ] Paid
 
-The tiered paid accounts are: Basic Free, Silver, Gold, Business, the price and feature differences are found here: [https://www.flightradar24.com/premium](https://www.flightradar24.com/premium)&#x20;
+The tiered paid accounts are: Basic Free, Silver, Gold, Business, the price and feature differences are found here: [https://www.flightradar24.com/premium](https://www.flightradar24.com/premium)
 
-The version tested for this toolkit description is the Gold Subscription.&#x20;
+The version tested for this toolkit description is the Gold Subscription.
 
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
-While the tool is straightforward to use, the difficulty rating is based on the additional time it may take for beginner users to familiarize themselves with aviation related terms and concepts. The platform also contains a plethora of data, and finding which information is important may require additional time. &#x20;
+While the tool is straightforward to use, the difficulty rating is based on the additional time it may take for beginner users to familiarize themselves with aviation related terms and concepts. The platform also contains a plethora of data, and finding which information is important may require additional time.
 
 ## Requirements
 
@@ -337,11 +351,11 @@ Flightradar24 is a great tool for tracking flights, but it's important to know i
 
 2. **Map Gaps**
 
-Flightradar24's coverage is[ limited by several factors](https://www.flightradar24.com/blog/gaps-in-the-map-where-aircraft-arent-found-on-flightradar24/). Geopolitical tensions, like the Ukraine conflict, can lead to airspace closures, affecting flight routes. Geographical factors, such as high altitudes in Tibet, also restrict flight paths. Not all aircraft have the necessary equipment for tracking, and some regions have limited coverage. Additionally, airlines prioritize safety and efficiency, sometimes opting for longer routes to avoid risky areas.&#x20;
+Flightradar24's coverage is[ limited by several factors](https://www.flightradar24.com/blog/gaps-in-the-map-where-aircraft-arent-found-on-flightradar24/). Geopolitical tensions, like the Ukraine conflict, can lead to airspace closures, affecting flight routes. Geographical factors, such as high altitudes in Tibet, also restrict flight paths. Not all aircraft have the necessary equipment for tracking, and some regions have limited coverage. Additionally, airlines prioritize safety and efficiency, sometimes opting for longer routes to avoid risky areas.
 
 3. **Blocking / “take down requests”**
 
-Flightradar24 [honors take-down requests](https://www.flightradar24.com/how-it-works#blocking) from operators or owners. According to [their website](https://support.fr24.com/support/solutions/articles/3000117426-why-is-some-aircraft-information-limited-or-not-visible-): “Information about a small number of flights may be limited or blocked based on requests from owners or operators via third-party services…”.  This also means that high-profile aircraft in the military and government categories will not be visible.&#x20;
+Flightradar24 [honors take-down requests](https://www.flightradar24.com/how-it-works#blocking) from operators or owners. According to [their website](https://support.fr24.com/support/solutions/articles/3000117426-why-is-some-aircraft-information-limited-or-not-visible-): “Information about a small number of flights may be limited or blocked based on requests from owners or operators via third-party services…”. This also means that high-profile aircraft in the military and government categories will not be visible.
 
 Based on our own tests, some of the instances where blocking might potentially happen are as follows. There are instances where:
 
@@ -349,13 +363,13 @@ Based on our own tests, some of the instances where blocking might potentially h
 2. Flight Path is partially hidden: The origin and registration number might be visible, but the destination or specific route may be blocked.
 3. Sometimes, the platform puts N/A instead of providing information.
 
-4\. **Some Limitations on  Filter Combinations:**
+4\. **Some Limitations on Filter Combinations:**
 
-While combining filters may sometimes be helpful, there are some combinations that provide results that are confusing. It is important to note that combining these two filters has some limitations. Based on our tests, combining the filter “military and governments” plus a custom airport filter for “Venezuela” and “Colombia” gave mixed results. Instead of filtering for only military/government aircraft in those countries, the results included passenger flights, private/small aircraft, and possibly others.&#x20;
+While combining filters may sometimes be helpful, there are some combinations that provide results that are confusing. It is important to note that combining these two filters has some limitations. Based on our tests, combining the filter “military and governments” plus a custom airport filter for “Venezuela” and “Colombia” gave mixed results. Instead of filtering for only military/government aircraft in those countries, the results included passenger flights, private/small aircraft, and possibly others.
 
-To isolate a specific category of aircraft within a location of interest, it is recommended to zoom in instead on the area of interest, then apply a specific aircraft filter. We were able to tailor the search results by zooming in on Venezuela and Colombia and applying the “military and government” filter subsequently. The results seem to show only one category of aircraft within a specific geographic region.  &#x20;
+To isolate a specific category of aircraft within a location of interest, it is recommended to zoom in instead on the area of interest, then apply a specific aircraft filter. We were able to tailor the search results by zooming in on Venezuela and Colombia and applying the “military and government” filter subsequently. The results seem to show only one category of aircraft within a specific geographic region.
 
-5\. **Accuracy of estimates**&#x20;
+5\. **Accuracy of estimates**
 
 Flightradar24 can estimate the position of aircraft that are out of coverage for a limited time. This is done by using various parameters, but the accuracy can decrease for flights that fly over longer distances (the position can be shown [up to 200 km or 110 miles off](https://www.flightradar24.com/how-it-works#estimations)). The estimated positions are visually represented by a black trail on the map.
 
@@ -381,7 +395,7 @@ Flight tracking websites often have terms of service regarding data usage. Ensur
 
 Bellingcat Guide:
 
-Fiorella, Giancarlo, (2019, October 15). [A beginner's guide to flight tracking](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/), Bellingcat.&#x20;
+Fiorella, Giancarlo, (2019, October 15). [A beginner's guide to flight tracking](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/), Bellingcat.
 
 RC and Fiorella, Giancarlo (2021, March 11). [Flying High: The US Connection to Venezuela’s ‘Narco-Planes’](https://www.bellingcat.com/news/2021/03/11/flying-high-the-us-connection-to-venezuelas-narco-planes/), Bellingcat.
 
@@ -393,7 +407,7 @@ Global Investigative Journalism Conference 2023, (2023, October 7). Video on [Pl
 
 OCCRP Guide:
 
-Organized Crime and Corruption Reporting Project (2022, May 21). ["FAQ: What Is Plane Tracking?"](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) Russian Asset Tracker.&#x20;
+Organized Crime and Corruption Reporting Project (2022, May 21). ["FAQ: What Is Plane Tracking?"](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) Russian Asset Tracker.
 
 IATA (International Air Transport Association) [website](https://www.iata.org/en/publications/directories/code-search/) which can help researchers decipher airline codes on particular call signs.
 
@@ -401,9 +415,9 @@ Nixintel (2019, October 30). [Using Flight Tracking for Geolocation](https://nix
 
 Benjamin Strick. [OSINT at Home #18](https://www.youtube.com/watch?v=8eJk0zij1iM) (Youtube video).
 
-Benjamin Strick. Who Made The Man in The Desert? [https://x.com/BenDoBrown/status/1836392661365785018](https://x.com/BenDoBrown/status/1836392661365785018) or [https://t.co/UHPVTFQJsa](https://t.co/UHPVTFQJsa)&#x20;
+Benjamin Strick. Who Made The Man in The Desert? [https://x.com/BenDoBrown/status/1836392661365785018](https://x.com/BenDoBrown/status/1836392661365785018) or [https://t.co/UHPVTFQJsa](https://t.co/UHPVTFQJsa)
 
-Al Jazeera Guide:[ OSINT: Tracking Ships, Planes and Weapons](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons).&#x20;
+Al Jazeera Guide:[ OSINT: Tracking Ships, Planes and Weapons](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons).
 
 Full list of country identifiers:[ https://en.wikipedia.org/wiki/List\_of\_aircraft\_registration\_prefixes](https://en.wikipedia.org/wiki/List_of_aircraft_registration_prefixes)
 
@@ -413,11 +427,11 @@ Photos:[ Planespotters.net](https://www.planespotters.net/),[ Jetphotos.com](htt
 
 Twitter hashtags:[ #aviation](https://twitter.com/hashtag/aviation?src=hashtag_click),[ #avgeek](https://twitter.com/hashtag/avgeek?src=hashtag_click),[ #planespotting](https://twitter.com/hashtag/planespotting?src=hashtag_click),[ #flight](https://twitter.com/hashtag/flight?src=hashtag_click), and[ #MilAvGeek](https://twitter.com/hashtag/MilAvGeek?src=hashtag_click).
 
-This tool is often used with: [Google Earth Pro](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro), [Suncalc](https://bellingcat.gitbook.io/toolkit/more/all-tools/suncalc), social media accounts of known flight enthusiasts and professionals. This tool is also used in conjunction with ADS-B Exchange, [FlightAware](https://bellingcat.gitbook.io/toolkit/more/all-tools/flightaware), Planes.live, JetPhotos, Airframes. &#x20;
+This tool is often used with: [Google Earth Pro](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro), [Suncalc](https://bellingcat.gitbook.io/toolkit/more/all-tools/suncalc), social media accounts of known flight enthusiasts and professionals. This tool is also used in conjunction with ADS-B Exchange, [FlightAware](https://bellingcat.gitbook.io/toolkit/more/all-tools/flightaware), Planes.live, JetPhotos, Airframes.
 
 ## Tool provider
 
-Flightradar24 AB, Sweden&#x20;
+Flightradar24 AB, Sweden
 
 ## Advertising Trackers
 
@@ -429,4 +443,3 @@ Flightradar24 AB, Sweden&#x20;
 | --------------- |
 | Afton           |
 |                 |
-
