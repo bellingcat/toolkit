@@ -10,7 +10,7 @@ description: United Nations free database of global trade.
 
 ## Description
 
-This database contains import and export data for goods and services for about 200 countries/zones since 1962 and up to date. In the [Trade section](https://comtradeplus.un.org/TradeFlow), you can search for monthly or annual trade data using all HS codes or specific HS codes (a commodity classification system, you can easily find the one you need by doing a google search like “commodity name + HS code”, or go ahead and type a keyword in the specific HS bar within the tool) and the countries involved in the trade. There is an advanced search tool that allows you to drill down, adding transport patterns, customs codes, trade flows, among other fields of investigation.&#x20;
+This database contains import and export data for goods and services for about 200 countries/zones since 1962. In the [Trade section](https://comtradeplus.un.org/TradeFlow), you can search for monthly or annual trade data using all HS codes or specific HS codes (a commodity classification system, you can easily find the one you need by doing a google search like “commodity name + HS code”, or go ahead and type a keyword in the specific HS bar within the tool) and the countries involved in the trade. There is an advanced search tool that allows you to drill down, adding transport patterns, customs codes, trade flows, among other fields of investigation.&#x20;
 
 You will get the total trade value and quantity of the countries you are researching considering the year or month you have selected. This might be useful if you are looking for an estimate of official data on the quantity imported/exported from a country on a product.&#x20;
 
