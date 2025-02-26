@@ -20,7 +20,7 @@ PGP is an encryption method used to encrypt and sign messages developed by Phili
 * It ensures **confidentiality** by encrypting data so only the intended recipient can decrypt it;
 * It guarantees **integrity** by allowing the recipient to verify that the message wasn’t altered during transit;
 * It offers **authentication** through digital signatures that confirm the sender’s identity;
-* And it supports **non-repudiation**, meaning the sender cannot later deny having sent the signed message
+* And it supports **non-repudiation**, meaning the sender cannot later deny having sent the signed message.
 
 Proton Mail automatically creates PGP key pairs with each email. These pairs are then used to encrypt and sign outgoing messages as well as decrypt incoming messages.
 
