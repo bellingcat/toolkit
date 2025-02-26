@@ -81,7 +81,7 @@ To effectively use Bing Maps, especially for beginners or those looking to refin
 **Official Wiki**&#x20;
 
 * **No official wiki** (but the Bing Maps Blog is available here: [https://blogs.bing.com/maps/](https://blogs.bing.com/maps/))
-* **Unofficial GIS Wiki:** [http://wiki.gis.com/wiki/index.php/Bing\_Maps](http://wiki.gis.com/wiki/index.php/Bing\_Maps)
+* **Unofficial GIS Wiki:** [http://wiki.gis.com/wiki/index.php/Bing\_Maps](http://wiki.gis.com/wiki/index.php/Bing_Maps)
 
 **Tutorials and Articles**
 
@@ -100,7 +100,7 @@ To effectively use Bing Maps, especially for beginners or those looking to refin
 
 **Community and Support**
 
-* **Community Forum:** [https://answers.microsoft.com/en-us/bing/forum/bing\_maps](https://answers.microsoft.com/en-us/bing/forum/bing\_maps)
+* **Community Forum:** [https://answers.microsoft.com/en-us/bing/forum/bing\_maps](https://answers.microsoft.com/en-us/bing/forum/bing_maps)
 
 ## Tool provider
 
@@ -112,8 +112,8 @@ Microsoft [https://www.microsoft.com](https://www.microsoft.com) - United States
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat Volunteer Team/Unassigned |
-|                                      |
+| Page maintainer                       |
+| ------------------------------------- |
+| Paul - Bellingcat Volunteer Community |
+|                                       |
 
