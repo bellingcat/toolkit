@@ -36,7 +36,7 @@ According to the tool’s filter website, it tracks about 12 aircraft categories
 
 When doing flight tracking for investigations, it is essential to know what data to look for and which information can potentially provide leads in an investigation. In flight-tracking, researchers usually pay attention to “Identifiers.”&#x20;
 
-Flight-tracking websites have a plethora of information available. However, depending on your research question, researchers generally pay attention to call signs, registration, serial numbers, and hex codes.
+Flight-tracking websites have a plethora of information available. However, depending on the research question, researchers generally pay attention to call signs, registration, serial numbers, and hex codes.
 
 {% hint style="info" %}
 TIP: Note that not all identifiers may be immediately available on one flight tracking website. Cross-check with other platforms.
@@ -78,6 +78,20 @@ _**For completed/historical flights:**_
 <figure><img src=".gitbook/assets/Flightradar historical flight (1).png" alt=""><figcaption><p>IMAGE 3: This image guides users on where to find identifiers for flights already completed. Follow the four steps shown above to see the call sign.</p></figcaption></figure>
 
 ### REGISTRATION NUMBER / TAIL NUMBER
+
+<details>
+
+<summary>REGISTRATION NUMBER/TAIL NUMBER/N-NUMBER: What is it? Why is it important? (CLICK TO EXPAND)</summary>
+
+**What is it?** This number appears on the aircraft's exterior, mostly near[ the tail (para 6 of this guide).](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) This is sometimes called a[ “Tail Number” or, in the United States, an “N-Number”.](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) It is a unique number that tells you which country the aircraft[ was registered](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking). This[ guide](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) specifies that an aircraft's registration is similar to a car's license plate, assigned when registered in a specific country. This registration reflects the jurisdiction of the aircraft according to this[ list](https://en.wikipedia.org/wiki/List_of_aircraft_registration_prefixes).
+
+**Why is it important?** If available, registration information can help find clues about ownership of the aircraft or, at the very least, which country it is registered. However, there are a few caveats:
+
+1:[ The registered owner is rarely the actual UBO](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) (Ultimate Beneficial Owner - the person who profits or benefits from a corporate entity). It is rarely an individual but a company, trust, or charter/leasing company. In these cases, use additional sources to link different pieces of information.
+
+2: Aircraft registration can change,[ especially when sold to a new owner.](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/)
+
+</details>
 
 **Where can I find the registration number on Flightradar24?**
 
