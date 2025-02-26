@@ -84,7 +84,7 @@ To effectively use Geohints, especially for beginners or those looking to refine
 
 **Official Wiki**&#x20;
 
-* [https://geohints.com/FAQ](https://geohints.com/FAQ)
+* https://geohints.com/FAQ
 
 **Articles**
 
