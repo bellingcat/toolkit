@@ -32,7 +32,7 @@ For example, here I searched for a company listed in my first query “Sea Cucum
 * [x] Partially Free
 * [ ] Paid
 
-You can search this website for free, but there are subscription options that allow you to go a little further.
+You can search this website for free, but there are [subscription](https://www.globalbuyersonline.com/members/joinnow/) options that allow you to go a little further.
 
 Buyer membership (Free)
 
