@@ -13,15 +13,15 @@ description: >-
 
 ## Description
 
-Maltego Graph is both a search tool and a visualization tool. It can search for information and connect the pieces to show you how they are related. It's like a data map that helps you see the bigger picture of your investigation. This software allows a researcher to start with a particular item of information, such as an alias, an email address, phone number, company name, or IP address, and use this information as the basis to collect other information.           &#x20;
+Maltego Graph is both a search tool and a visualization tool. It can search for information and connect the pieces to show you how they are related. It's like a data map that helps you see the bigger picture of your investigation. This software allows a researcher to start with a particular item of information, such as an alias, an email address, phone number, company name, or IP address, and use this information as the basis to collect other information.
 
 {% hint style="info" %}
-We tested Maltego Graph CE (Community Edition) version for this toolkit description.&#x20;
+We tested Maltego Graph CE (Community Edition) version for this toolkit description.
 {% endhint %}
 
-&#x20;_**How does it work?**_
+_**How does it work?**_
 
-&#x20;1\.     It is a centralized search tool
+1\. It is a centralized search tool
 
 In theory, Maltego Graph gathers information about a research subject without the researcher having to leave the software or go to another platform. It already integrates into the tool free publicly available sources or data from commercial vendors. These are what Maltego calls “data sources” which are like pre-packaged information catalogs. For instance, you can have data sources from FlightAware – which comprises digital aviation data. Or a data package from Pipl, which comprises personal details, social media, and contact info. These “data sources” are available to install in what it calls “Transform Hub.” This Transform Hub is a universe of data you can search in.
 
@@ -39,13 +39,13 @@ In Maltego Graph, the search results produced by a transform act as a new lead o
 
 3. It is a visualization and linkage tool
 
-When running a series of transforms in Maltego, the relationship between the newly discovered data and the starting data is automatically plotted in a graph for link analysis.&#x20;
+When running a series of transforms in Maltego, the relationship between the newly discovered data and the starting data is automatically plotted in a graph for link analysis.
 
 _**What problem does it solve?**_
 
-1\.     Maltego Graph solves a time management problem. It reduces the number of steps an investigation takes from discovery to link analysis. Instead of going to each individual website to search, the researcher can mostly search for info all in one spot. It gathers information and plots the data in real-time.
+1\. Maltego Graph solves a time management problem. It reduces the number of steps an investigation takes from discovery to link analysis. Instead of going to each individual website to search, the researcher can mostly search for info all in one spot. It gathers information and plots the data in real-time.
 
-2\.     Maltego Graph also solves an efficiency problem. A beginner researcher usually searches for one piece of information at a time. On Maltego Graph, a beginner researcher can search for two or more pieces of information (or "Entities") at a time.
+2\. Maltego Graph also solves an efficiency problem. A beginner researcher usually searches for one piece of information at a time. On Maltego Graph, a beginner researcher can search for two or more pieces of information (or "Entities") at a time.
 
 ## Cost
 
@@ -58,10 +58,10 @@ Maltego has both free and paid editions. They all include [Maltego Graph](https:
 _**Maltego CE**_ (Community Edition):
 
 * This is a partially free version meaning that some data sources come for free while others require access through external APIs which are paid. Find a list of available data sources for Maltego CE [here](https://www.maltego.com/transform-hub/?q=available-for-licenses-maltego-community). The free data sources have a limit of transform requests per month, and may require individual subscriptions to those data providers
-* &#x20;Limitation: Maximum of 10,000 entities per graph and maximum amount of results per single transform is 12.
+* Limitation: Maximum of 10,000 entities per graph and maximum amount of results per single transform is 12.
 * Learn more about this plan [here.](https://www.maltego.com/maltego-community/#maltegoEssentials)
 
-&#x20;_**Maltego Professional**_
+_**Maltego Professional**_
 
 * See the available data sources for this plan [here](https://www.maltego.com/transform-hub/?q=available-for-licenses-maltego-pro).
 * Learn more about this plan [here](https://get.maltego.com/maltego-professional).
@@ -71,7 +71,7 @@ _**Maltego Organization**_
 * Cost: Requirement to contact Maltego to learn more
 * Learn more about this plan [here](https://get.maltego.com/maltego-organization).
 
-## &#x20;Level of difficulty
+## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>4</td></tr></tbody></table>
 
@@ -83,18 +83,20 @@ Depending on the product, users can either sign up on the Maltego website (for M
 
 Maltego's limitation for open source researchers, regardless of which editions, are:
 
-1. **Steep learning curve:** Maltego is designed for people with some technical background. This background helps the user understand how to manipulate its features and take full advantage of them. It also has jargon and specific terminology that requires prior familiarization. However, Maltego's documentation does a good job defining most of these terminologies. In addition, transform requests sometimes produce error codes that may be a challenge to understand without a background in command line tools. Understanding terminology and features requires time and perhaps a live or in-person training. Note: As of May 2024, Maltego launched their "Maltego Academy" which has a series of short training videos for beginners ([https://www.maltego.com/blog/maltego-academy-learn-how-to-be-a-top-investigator/](https://www.maltego.com/blog/maltego-academy-learn-how-to-be-a-top-investigator/)). They also now have a monthly recurring trainings on on-demand topics in which participants can ask questions live ([https://academy.maltego.com/live-sessions](https://academy.maltego.com/live-sessions.)).&#x20;
+1. **Steep learning curve:** Maltego is designed for people with some technical background. This background helps the user understand how to manipulate its features and take full advantage of them. It also has jargon and specific terminology that requires prior familiarization. However, Maltego's documentation does a good job defining most of these terminologies. In addition, transform requests sometimes produce error codes that may be a challenge to understand without a background in command line tools. Understanding terminology and features requires time and perhaps a live or in-person training. Note: As of May 2024, Maltego launched their "Maltego Academy" which has a series of short training videos for beginners ([https://www.maltego.com/blog/maltego-academy-learn-how-to-be-a-top-investigator/](https://www.maltego.com/blog/maltego-academy-learn-how-to-be-a-top-investigator/)). They also now have a monthly recurring trainings on on-demand topics in which participants can ask questions live ([https://academy.maltego.com/live-sessions](https://academy.maltego.com/live-sessions.)).
 2. **Requires understanding of data sources:** To get the full benefit of Maltego, the user needs to understand what data he is looking for and which ones will give him the best results. In this case, it requires some familiarity with the data sources which users place their queries from. A valuable list of research leads are only as good as your data source. For instance, if the user has access to some social media accounts, but not to some others, then results can be limited.
-3. **Maltego CE users might need to supplement their investigations with alternative methods:** Community Edition users have a cap on how many times they can request a transform from a data provider. Most providers put the limit on 15 to 20 requests per month. This limits the capability to data pivot within the software unless you upgrade your subscription to various data sources. In this case, one may want to revert to other means, like Google dorking, using web scrapers, and researching on individual social media platforms. &#x20;
+3. **Maltego CE users might need to supplement their investigations with alternative methods:** Community Edition users have a cap on how many times they can request a transform from a data provider. Most providers put the limit on 15 to 20 requests per month. This limits the capability to data pivot within the software unless you upgrade your subscription to various data sources. In this case, one may want to revert to other means, like Google dorking, using web scrapers, and researching on individual social media platforms.
 4. **Parsing search results can be tricky:** Maltego sometimes returns very generalized results. If you are searching a name, i.e. Graham Wilson, it will produce results containing either both "Graham Wilson" or results with just "graham" or just "wilson."
-5. **Price:** Maltego can be pricey, especially for individual, beginner open-source researchers, freelancers, or non-profit organizations. Users may need to additional subscriptions to data sources to equip investigations with the right set of data. Some Maltego users may find that a maximum of 12 transform results per request is too limited to get a workable investigative lead. This means the researcher must wait after a month to get a new quota on transform requests. A cap on transform results plus a cap on data sources may not always provide the desired results. And may, for some, be time-consuming.&#x20;
+5. **Price:** Maltego can be pricey, especially for individual, beginner open-source researchers, freelancers, or non-profit organizations. Users may need to additional subscriptions to data sources to equip investigations with the right set of data. Some Maltego users may find that a maximum of 12 transform results per request is too limited to get a workable investigative lead. This means the researcher must wait after a month to get a new quota on transform requests. A cap on transform results plus a cap on data sources may not always provide the desired results. And may, for some, be time-consuming.
+
+Overall, Maltego allows investigators to visualize connections between different pieces of information, making it easier to identify patterns and relationships. Unlike other tools, it automatically maps links between data points if the information is available. While transforms help gather data, they require manual effort to ensure sources are accurately recorded. Every data point is carefully linked through defensible relationships, ensuring a clear, traceable investigative process. However, keep these limitations in mind when testing the tool.&#x20;
 
 ## Ethical Considerations
 
-1. **Misuse of sensitive information:** Maltego vets all its buyers and webinar attendees to make sure they don’t have access to sensitive information liable for misuse. They also do not sell “to individuals or organizations in high-risk countries.” In addition, they evaluate motivations of Enterprise buyers and use case prior to approval.&#x20;
-2. **Use of breached data:** Users must check with company policy or laws and regulations to see if they are allowed or are comfortable working with information available as a result of a security breach. &#x20;
+1. **Misuse of sensitive information:** Maltego vets all its buyers and webinar attendees to make sure they don’t have access to sensitive information liable for misuse. They also do not sell “to individuals or organizations in high-risk countries.” In addition, they evaluate motivations of Enterprise buyers and use case prior to approval.
+2. **Use of breached data:** Users must check with company policy or laws and regulations to see if they are allowed or are comfortable working with information available as a result of a security breach.
 3. **Data privacy:** Users should be mindful of confidential personal information, consent and risks of doxing.
-4. **Minimization of harm:**  Users should be mindful about minimizing harm to people or groups affected by investigations done by Maltego.&#x20;
+4. **Minimization of harm:** Users should be mindful about minimizing harm to people or groups affected by investigations done by Maltego.
 
 ## Guide
 
@@ -116,4 +118,3 @@ Maltego Technologies, Germany
 | --------------- |
 | Afton           |
 |                 |
-
