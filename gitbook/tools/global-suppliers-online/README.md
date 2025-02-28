@@ -40,11 +40,11 @@ With this membership you can search and add buying requirements. You have to reg
 
 Trial Membership (Free, but they will review your profile)
 
-After activating your buyer membership, they will review your profile and decide whether or not to grant you this type of membership. You will have access to an inquiry manager: it will monitor new buying needs that may be of interest to you and keep you informed. The inquiry manager can be of great help in keeping track of the items you are interested in. My trial membership was activated two days after I created my profile and it now sends me recommendations based on my type of business (clothing).
+After activating your buyer membership, they will review your profile and decide whether or not to grant you this type of membership. You will have access to an inquiry manager: it will monitor new buying needs that may be of interest to you and keep you informed.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2024-12-23 at 11.55.44 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-12-23 at 11.55.44 AM.png" alt=""><figcaption><p>My trial membership was activated two days after I created my profile and it now sends me recommendations based on my type of business (clothing).</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Screenshot 2024-12-23 at 11.57.50 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-12-23 at 11.57.50 AM.png" alt=""><figcaption><p>Here's the inquiry manager. You can keep track of the items and posts you are interested in and saves everything is one page.</p></figcaption></figure>
 
 [Basic Membership and Select Membership](https://www.globalbuyersonline.com/members/joinnow/) (120 USD and 260 USD every year each)
 
