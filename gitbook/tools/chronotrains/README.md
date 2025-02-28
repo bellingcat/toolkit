@@ -62,17 +62,17 @@ It can be used to:
 
 ### How does it work?
 
-The platform’s [GitHub page](https://github.com/benjamintd/chronotrains) provides an explanation of the tools' inner workings.
+The platform’s [GitHub page](https://github.com/benjamintd/chronotrains) explains the tools' inner workings.
 
 **What the Map Shows:**
 
-Isochrones: Imagine you start at a specific train station. An isochrone map shows you how far you can travel from that station within a certain amount of time and in multiple directions. For example, it can show all the places you can reach in 1 hour, 2 hours, and so on, heading North, South, East, or West.
+Isochrones: Imagine you start at a specific train station. An isochrone map shows you how far you can travel from that station within a certain amount of time and in multiple directions. For example, it can show all the places you can reach in 1 hour, 2 hours, and so on, heading North, South, East, or West.&#x20;
 
 **How It Works:**
 
 _1. Building a Graph:_
 
-Think of a graph like a map, but instead of just showing locations, it also shows the connections between them. In this case, the "nodes" (points) on the graph are train stations. The "edges" (lines connecting the nodes) represent the journey times between these stations.
+Think of a graph like a map, but instead of just showing locations, it also shows their connections. In this case, the "nodes" (points) on the graph are train stations. The "edges" (lines connecting the nodes) represent the journey times between these stations.
 
 _2. Exploring the Graph:_
 
@@ -110,19 +110,19 @@ NOTE: To determine if data is available for a specific location, check the indiv
 
 {% endhint %}
 
-As of Jan 2025, the map started including some train data in Turkey and Montenegro. Russia still does not have any data available on the tool.
+As of January 2025, the map started including some train data in Turkey and Montenegro. Russia still does not have any data available on the tool.
 
-While Ukraine is marked as available on the map, it may be incomplete. Make sure to cross-reference with other neighboring countries’s train data, such as Polrail, and Ukraine’s national railway network, Ukrainian Railways.
+While Ukraine is marked as available on the map, it may be incomplete. Make sure to cross-reference with other neighboring countries’ train data, such as Polrail, and Ukraine’s national railway network, Ukrainian Railways.
 
 2. **Accuracy**
 
-Chronotrains.com includes a caveat [that the travel times are based on estimates only provided by Deutsche Bahn data](https://www.chronotrains.com/en/8) (Under FAQs). Actual arrival times may not always match. Therefore it is important to use this platform for estimates.
+Chronotrains.com includes a caveat [that the travel times are based on estimates only provided by Deutsche Bahn data](https://www.chronotrains.com/en/8) (Under FAQs). Actual arrival times may not always match. Therefore, it is important to use this platform for estimates.
 
 3. **Adding Connections (“Edges”) Between “Closeby Stations” Based on Assumed Walking Speed**
 
 According to its [GitHub page](https://github.com/benjamintd/chronotrains), “closeby stations” and “assumed speed” are defined as follows:
 
-**Closeby stations:** If two stations are close to each other (less than 10 km/6.2 mi apart), the system will add a connection between them, and that connection is then reflected on the map.
+**Closeby stations:** If two stations are close to each other (less than 10 km/6.2 mi apart), the system will add a connection between them, which is then reflected on the map.
 
 **Assumed speed:** The system also assumes that you can walk/travel between these stations at a speed of 9/km/h (5.59 mph) - which is described as [“faster than walking but slower than biking.”](https://github.com/benjamintd/chronotrains)
 
@@ -130,7 +130,7 @@ It is important to note that this speed can be variable from person to person an
 
 4. **Local Transit Exclusion**
 
-The tool does not show options involving connections by local transit methods such as buses, bikes, or walking. The tool provider offers on the tool's [Github page](https://github.com/benjamintd/chronotrains) the following explanation: "Because local transit is not included for most cities, there are no journeys available between different stations that can actually be connected by bus, bike, or on foot."
+The tool does not show options involving connections by local transit methods such as buses, bikes, or walking. The tool provider offers the following explanation on the tool's Github page: "Because local transit is not included for most cities, there are no journeys available between different stations that can actually be connected by bus, bike, or on foot."
 
 Specifically, as mentioned above, _if two locations are more than 10 km/6.2 mi apart_, it will not display a journey/connection. For instance, if a user wants to go from point A to point D:
 
