@@ -24,13 +24,15 @@ The site has a [visualization dashboard ](https://comtrade.un.org/labs/data-expl
 
 ## Cost
 
-* [ ] Free
-* [x] Partially Free
+* [x] Free
+* [ ] Partially Free
 * [ ] Paid
 
-You can access a premium service that allows you to perform bulk downloads and gives you priority access to preview unstructured data (when available).&#x20;
+The service is free but you can access a premium service that allows you to perform bulk downloads and gives you priority access to preview unstructured data (when available).&#x20;
 
-There is a trial subscription for 15 days. You can [request](https://uncomtrade.org/docs/premium-trial-subscription/) it after 15 days of creating the account. You will need to fill out a [form](https://forms.office.com/pages/responsepage.aspx?id=2zWeD09UYE-9zF6kFubccOSF7wPR3FtJq4X0eSEBpHpUMTFMQTRJMjcxTkcxU0Y4M0lESjUyOFc1TSQlQCN0PWcu\&route=shorturl) and wait 3-5 business days. After the trial starts, you will get access to a new section called Bulk Files, where you can download the data you searched for. Be aware that trial subscriptions have access to a limited number of files to download.
+There is a trial subscription for 15 days. You can [request](https://uncomtrade.org/docs/premium-trial-subscription/) it after 15 days of creating the account. You will need to fill out a [form](https://forms.office.com/pages/responsepage.aspx?id=2zWeD09UYE-9zF6kFubccOSF7wPR3FtJq4X0eSEBpHpUMTFMQTRJMjcxTkcxU0Y4M0lESjUyOFc1TSQlQCN0PWcu\&route=shorturl) and wait 3-5 business days. After the trial starts, you will get access to a new section called Bulk Files, where you can download the data you searched for. Be aware that trial subscriptions have access to a limited number of files to download.&#x20;
+
+The only difference between the premium service and the free one is the option to  download bulk files.&#x20;
 
 
 
