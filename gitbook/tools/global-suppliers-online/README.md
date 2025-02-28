@@ -14,7 +14,7 @@ description: >-
 
 This is a website where suppliers from all over the world promote their goods and contact buyers. If your research is related to companies or individuals engaged in the trade of any goods, you can search for their name and, if they have published their services on this site, obtain relevant details such as addresses, products traded and even a point of contact, such as the name of a person in charge of the trade. You can also discover who is asking for some items or goods you are researching and get contact points, company names and countries involved.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-02-28 at 5.34.12 PM.png" alt=""><figcaption><p>Here I was looking for sea cucumbers, a highly traded species, and found inquiries from people who wanted to buy or sell them all over the world.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-02-28 at 5.34.12 PM.png" alt=""><figcaption><p>Here I was looking for sea cucumbers, a highly traded species, and found inquiries from people who wanted to buy or sell them all over the world. People names were covered.</p></figcaption></figure>
 
 You can search without logging in but you can also create an account to get a buyer membership, which will allow you to keep track of what you see by adding the entries you find useful to the Inquiry Manager. Just click on “Contact this buyer” and it will be saved to your account.
 
@@ -22,7 +22,7 @@ You can also find people requesting certain products, so you can use this tool t
 
 If you are looking for illegal operations, keep in mind that they may also be doing legal deals!
 
-<figure><img src=".gitbook/assets/Screenshot 2025-02-28 at 5.46.56 PM.png" alt=""><figcaption><p>Here I searched for a company listed in my first query “Sea Cucumber” and discovered other entries where the company is involved. This is especially useful to see what your company/individual is trading in. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-02-28 at 5.46.56 PM.png" alt=""><figcaption><p>Here I searched for a company listed in my first query “Sea Cucumber” and discovered other entries where the company is involved. This is especially useful to see what your company/individual is trading in. Company and people names were covered.</p></figcaption></figure>
 
 ## Cost
 
