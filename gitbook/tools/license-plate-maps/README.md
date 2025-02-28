@@ -8,7 +8,7 @@ description: Collection of tools and maps for discerning license plates by count
 
 The ability to analyze license plates and the data associated with them can facilitate investigations across multiple domains, including law enforcement, vehicle history assessments, and broader public safety initiatives (fraud, road safety, fleet management, regulatory compliance, suspicious activities).
 
-All countries require registration plates for commercial road vehicles such as cars, trucks, and motorcycles. Requirements for other vehicles, such as bicycles, boats, or tractors vary by jurisdiction. Each country has a different design for their vehicle registration plates, and some designs might look similar. Recognizing the origin country or the purpose of the vehicle by a license plate sometimes can add another data point to research, especially if that research is multi-layered.
+All countries require registration plates for commercial road vehicles such as cars, trucks, and motorcycles. Requirements for other vehicles, such as bicycles, boats, or tractors vary by jurisdiction. Each country has a different design for their vehicle registration plates, and some designs might look similar. Recognizing the origin country or the purpose of the vehicle by a license plate can sometimes add another data point to research, especially if that research is multi-layered.
 
 Below is a list of websites that provide images and information on license plates around the world. Please note that this list should not be considered exhaustive.&#x20;
 
