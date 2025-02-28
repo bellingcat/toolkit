@@ -107,7 +107,7 @@ To effectively use Google Earth Engine, especially for beginners or those lookin
 
 ## Tool provider
 
-Google [https://about.google/](https://about.google/) - Untied States.
+Google [https://about.google/](https://about.google/) - United States.
 
 ## Advertising Trackers
 
