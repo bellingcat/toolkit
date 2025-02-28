@@ -105,6 +105,8 @@ Follow the same steps shown above for searching call signs for historical flight
 
 ### HEX CODE/ ICAO CODE
 
+
+
 **Where can I find the hex code on Flightradar24?**
 
 On Flightradar24, the hex code is referred to as either “ICAO 24-Bit Address” or “”Mode-S”. And you can find it in several places depending on where you are accessing the aircraft information on the website.
@@ -186,8 +188,6 @@ If the airport code is unknown, simply type the location or the airport name.
 **OUTPUT:**
 
 Putting a location or airport name will provide a list of possible airport locations.
-
-\\
 {% endtab %}
 
 {% tab title="FLIGHT BY AIRLINE" %}
