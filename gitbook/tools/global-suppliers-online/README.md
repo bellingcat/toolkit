@@ -62,7 +62,7 @@ None, unless you want to contact the suppliers. In that case, you will need to p
 
 ## Limitations
 
-Not every company in the world has posted here. There are many other websites/forums like this to look for this information. But this is a good place to start.
+Not every company in the world has posted here. There are many other websites/forums like this to look for this information, such as [go4WorldBusiness](https://www.go4worldbusiness.com/) and [ECPlaza](https://www.ecplaza.net/). But this is a good place to start. Based on the website [estimates](https://www.globalbuyersonline.com/members/joinnow/), the community of buyers and suppliers of this website is around 500,000.
 
 ## Ethical Considerations
 
