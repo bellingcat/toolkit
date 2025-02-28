@@ -38,7 +38,7 @@ Bing Maps can be a valuable tool for open source researchers in various ways, su
 * **Historical Analysis:** Comparing current maps with historical data to highlight changes over time in areas of interest, which can add depth to stories on urban development, environmental changes, or socio-economic shift.
 * **Infrastructure Analysis:** Analyzing satellite images and 3D maps of critical infrastructure for changes or developments that might indicate political, military, or economic events.
 * **Environmental Monitoring:** Monitoring changes in landscapes, forest cover, water bodies, etc., to report on environmental issues or natural disasters.
-* **Gathering Geopolitical Intelligence:** Mapping conflict zones, territorial control changes, or military movements using updated satellite imagery to understand geopolitical dynamics. Remember that Bing map imagery may not be up to date see [How often are Bing satellite Maps updated?](https://www.ncesc.com/geographic-pedia/how-often-are-bing-satellite-maps-updated/) for more information.
+* **Gathering Geopolitical Intelligence:** Mapping conflict zones, territorial control changes, or military movements using updated satellite imagery to understand geopolitical dynamics.&#x20;
 
 ## Cost
 
