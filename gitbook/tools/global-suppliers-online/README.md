@@ -18,13 +18,11 @@ This is a website where suppliers from all over the world promote their goods an
 
 You can search without logging in but you can also create an account to get a buyer membership, which will allow you to keep track of what you see by adding the entries you find useful to the Inquiry Manager. Just click on “Contact this buyer” and it will be saved to your account.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-12-20 at 6.57.05 PM.png" alt=""><figcaption></figcaption></figure>
-
 You can also find people requesting certain products, so you can use this tool to search for individuals who are of interest to your research. The commercial staff of a company may differ from those who run it, and the names given here may bring a new perspective to your research. While doing wildlife trade research, I was able to find on this site a business manager's name different from the director's name that appears in official records and in business information search software. This data, although basic, allowed me to turn my research around.
 
-For example, here I searched for a company listed in my first query “Sea Cucumber” and discovered other entries where the company is involved. This is especially useful to see what your company/individual is trading in. If you are looking for illegal operations, keep in mind that they may also be doing legal deals!
+If you are looking for illegal operations, keep in mind that they may also be doing legal deals!
 
-<figure><img src=".gitbook/assets/Screenshot 2024-12-20 at 6.59.06 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-02-28 at 5.46.56 PM.png" alt=""><figcaption><p>Here I searched for a company listed in my first query “Sea Cucumber” and discovered other entries where the company is involved. This is especially useful to see what your company/individual is trading in. </p></figcaption></figure>
 
 ## Cost
 
