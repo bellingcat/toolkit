@@ -17,6 +17,7 @@
 | [**Intelx.io**](../../tools/intelx.io/README.md) | Find user details in data breaches | <mark style="background-color:orange;">Partially Free</mark> | [http://intelx.io/](http://intelx.io/) |
 | [**Maigret**](../../tools/maigret/README.md) | Maigret is a Python script that retrieves user information by searching for usernames across various websites and social media platforms. | <mark style="background-color:green;">Free</mark> | [https://github.com/soxoj/maigret](https://github.com/soxoj/maigret) |
 | [**Namechk**](../../tools/namechk/README.md) | A username and domain search tool that checks on which platforms or domain a given username is registered. | <mark style="background-color:green;">Free</mark> | [https://namechk.com/](https://namechk.com/) |
+| [**NeutrOSINT**](../../tools/neutrosint/README.md) | A tool for investigating Proton Mail addresses. | <mark style="background-color:green;">Free</mark> | [https://github.com/Kr0wZ/NeutrOSINT](https://github.com/Kr0wZ/NeutrOSINT) |
 | NigeriaPhonebook | Look up by name, state, and phone number. Last names are partially censored for free accounts. | <mark style="background-color:green;">Free</mark> | [https://nigeriaphonebook.com/](https://nigeriaphonebook.com/) |
 | Person Lookup | find individuals, phonenumbers, and adresses | <mark style="background-color:green;">Free</mark> | [https://personlookup.co.za/](https://personlookup.co.za/) |
 | Pipl | Identity information for professionals | <mark style="background-color:red;">Paid</mark> | [http://pipl.com/](http://pipl.com/) |
