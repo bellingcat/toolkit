@@ -224,6 +224,8 @@ TGStat founder addressed privacy concerns about the tool in the same Wired artic
 
 This is a guide in Russian provided by TGStat.ru: [https://tgstat.com/blog/video-course-1024](https://tgstat.com/blog/video-course-1024) (Turning on the Auto Translate feature on YouTube gives a usable translation of the guide).  This page will be updated if guides in other languages become available.&#x20;
 
+The tool provider has also launched [TGStat Academy, ](https://academy.tgstat.ru/)a paid course on using TGStat for various use cases (primarily marketing). However,  the courses are only available in the Russian language. &#x20;
+
 _**Use cases**_
 
 TGStat has been particularly used in content verification, especially in tracking the spread of disinformation/ misinformation. (See: DFRLab’s lists of research involving misinformation. A good example is the following article from DFRLab: [https://dfrlab.org/2024/02/08/russian-milbloggers-falsely-accuse-kazakhstan-of-opening-a-nato-military-facility/](https://dfrlab.org/2024/02/08/russian-milbloggers-falsely-accuse-kazakhstan-of-opening-a-nato-military-facility/)
@@ -239,7 +241,7 @@ e-mail: ceo@tgstat.ru
 
 ### Advertising Trackers
 
-<table><thead><tr><th width="49" data-type="checkbox"></th><th></th></tr></thead><tbody><tr><td>true</td><td>This tool has not been checked for advertising trackers yet.</td></tr><tr><td>false</td><td>This tool uses tracking cookies. Use with caution.</td></tr><tr><td>false</td><td>This tool does not appear to use tracking cookies.</td></tr></tbody></table>
+<table><thead><tr><th width="49" data-type="checkbox"></th><th></th></tr></thead><tbody><tr><td>false</td><td>This tool has not been checked for advertising trackers yet.</td></tr><tr><td>true</td><td>This tool uses tracking cookies. Use with caution.</td></tr><tr><td>false</td><td>This tool does not appear to use tracking cookies.</td></tr></tbody></table>
 
 ### Page Maintainer
 
