@@ -62,6 +62,6 @@ Skopenow is a privately held for profit company, based in New York, NY. Their se
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                  |
-| -------------------------------- |
-| Cass - Bellingcat Volunteer Team |
+| Page maintainer                       |
+| ------------------------------------- |
+| Paul - Bellingcat Volunteer Community |
