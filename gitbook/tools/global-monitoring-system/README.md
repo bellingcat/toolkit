@@ -16,13 +16,13 @@ This tool allows us to explore a [growing](https://globalinitiative.net/wp-conte
 
 You can filter by 19 species, 3 countries (Brazil, South Africa and Thailand) and different online marketplaces such as Facebook, OLX and Mercado Livre (the last two refer to online marketplaces). When you perform a search you will get different visuals showing the number of detections, a market tracker and a trend monitor, all very useful to understand the market prevalence in certain online marketplaces.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-27 at 10.22.12 AM.png" alt=""><figcaption><p>Here, for example, I have searched for Pangolin in all countries + all platforms covered by the site. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-02-28 at 5.57.41 PM.png" alt=""><figcaption><p>Here, for example, I have searched for Pangolin in all countries + all platforms covered by the site. </p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-27 at 10.30.16 AM.png" alt=""><figcaption><p>The visuals are set to show me how many ads are available on the topic.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-02-28 at 6.04.04 PM.png" alt=""><figcaption><p>The visuals are set to show me how many ads are available on the topic.</p></figcaption></figure>
 
 In addition, you will get a database that lists the website, name, species, type of product (live or parts), where it was sold, among other information. You can also download the whole database.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-27 at 10.31.45 AM.png" alt=""><figcaption><p>This is what the database looks like when searching for Pangolin.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-02-28 at 6.05.51 PM.png" alt=""><figcaption><p>This is what the database looks like when searching for Pangolin.</p></figcaption></figure>
 
 Additionally, there is an [analysis section](https://www.ecosolve.eco/analysis) where you can find different publications and events on online wildlife trade, environmental trade, among other relevant topics from the Global Initiative against Transnational Organized Crime (GI TOC).
 
