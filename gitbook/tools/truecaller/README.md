@@ -27,7 +27,7 @@ Apps like Truecaller are designed to provide information on the identity of call
 
 This app has several features, but for the open-source community, these features are the most useful:&#x20;
 
-* [**Reverse phone number lookup**](https://www.truecaller.com/reverse-phone-number-lookup) - Truecaller can often identify the owner of a phone number providing basic information like name and location. It allows a user to enter a phone number and find out the name of the person to whom the number might belong.
+* [**Reverse phone number lookup**](https://www.truecaller.com/reverse-phone-number-lookup) - Truecaller can often identify the owner of a phone number, providing basic information like name and location. It allows a user to enter a phone number and find out the name of the person to whom the number might belong.
 * **Caller ID** - If using the mobile app, this tool can identify the name behind a caller using its database. When a call comes in, Truecaller quickly searches its database and displays the caller's name and personal details, if available.&#x20;
 * **Ease of use and access** - Ability to sign up with just a Gmail or Microsoft Live account, with no paywall or SMS verification required. This means to use reverse phone number lookup; users do not have to provide a phone number.&#x20;
 * **Web Interface** - This is one of the few “contact book apps” with a web interface and does not require users to use only their mobile app.
@@ -82,7 +82,8 @@ In addition to the free version, the tool has three paid tiers: Premium, Family,
 
 1. Either a Gmail or Microsoft email account
 2. Mobile or desktop device
-3. If using the mobile app, requires Android 4.4 or higher, or iOS 15 or higher.&#x20;
+3. If using the mobile app, it requires Android 4.4 or higher, or iOS 15 or higher.&#x20;
+   1. Android and iPhone devices have varying features availability according to [this article](https://techcrunch.com/2025/01/21/truecaller-brings-real-time-caller-id-to-iphone-users/). For a while, iPhone users have not been able to take advantage of getting the identification of callers in real time. However, as of  January 2025, the tool provider has made it available for iPhone users.&#x20;
 
 ## Limitations
 
@@ -94,7 +95,7 @@ The tool provider does not specify the quota, but users will get an “[exceeded
 
 In addition, the names may not always reflect the individual’s true identity. Users can provide false names or names to a Truecaller user that do not correspond to the person behind the phone number, so the accuracy of a name may require further corroboration.
 
-3. User Privacy Concerns: According to this [article](https://techpoint.africa/2019/12/18/truecaller-data-developer-dive/), the app may be uploading your device information into their servers, and the app may be using an unsecured method of uploading those data.
+3. User Privacy Concerns: According to this [article](https://techpoint.africa/2019/12/18/truecaller-data-developer-dive/), the app may be uploading your device information into their servers, and the app may be using an unsecured method of uploading that data.
 4. [Truecaller Users' Ability To Change Name on the Tool](https://support.truecaller.com/support/solutions/articles/81000392586-how-do-i-change-my-name-in-truecaller-): According to the tool provider, users who have the tool installed can change the way their name appears on the app if their phone number is showing the wrong name. Allowing users to update their name on Truecaller helps keep information accurate and up-to-date, improving user experience and reducing confusion. Still, this feature raises concerns about potential misuse, such as impersonation or fraud, if names are changed easily. While the tool provides a [verification process](https://www.truecaller.com/blog/features/truecaller-verified-badge) to check the real identity behind a phone number, it may not entirely eliminate the risk.
 
 ## Ethical Considerations
