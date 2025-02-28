@@ -1,5 +1,7 @@
 ---
-description: Tracking tool for data on environmental and wildlife crime cases worldwide.
+description: >-
+  Tracking tool for data on environmental and wildlife crime cases, including
+  court cases and convictions, across the globe.
 ---
 
 # WildEye
@@ -30,7 +32,7 @@ It is possible to contribute and add data to this tool by submitting this [form]
 
 ## Requirements
 
-None
+None.
 
 ## Limitations
 
