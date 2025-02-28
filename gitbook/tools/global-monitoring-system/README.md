@@ -44,7 +44,7 @@ None.
 
 ## Limitations
 
-Not all species are available and the tool only shows results for Brazil, South Africa and Thailand. November 2024 was the last update and information is not updated automatically. Information in datasets is not very detailed. There is no information on whether this site is updated manually by a team or whether its updated using keywords appearing in the monitored social media and marketplaces, however, [contributions](https://www.ecosolve.eco/about) can be made to the database, which would indicate that there may be human sources fact checking the information.
+Not all species are available and the tool only shows results for Brazil, South Africa and Thailand. February 21, 2025 was the last update and information is not updated automatically. Information in datasets is not very detailed. There is no information on whether this site is updated manually by a team or whether its updated using keywords appearing in the monitored social media and marketplaces, however, [contributions](https://www.ecosolve.eco/about) can be made to the database, which would indicate that there may be human sources fact checking the information.
 
 ## Ethical Considerations
 
