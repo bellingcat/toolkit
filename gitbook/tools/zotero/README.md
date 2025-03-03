@@ -10,7 +10,7 @@ description: >-
 
 [https://www.zotero.org](https://www.zotero.org)
 
-Current version: 7.0.11 (Jan 2025)
+Current version: 7.0.13 (Feb 2025)
 
 ## Description
 
@@ -19,10 +19,8 @@ Zotero is a free, open-source reference management tool for macOS, Windows, Linu
 While Zotero primarily targets academic research, it can also serve as a powerful **archiving** tool for OSINT practitioners. You can save snapshots of web pages, attach PDFs or any other file types, and maintain detailed metadata—making it valuable for both scholarly and investigative needs.
 
 {% hint style="info" %}
-**These examples assume you have made a free account and installed Zotero and the browser plugin on your system.**&#x20;
+**These examples assume you have made a free account and installed Zotero and the browser plugin on your system.**
 {% endhint %}
-
-
 
 ### Phase A - Research
 
@@ -58,7 +56,7 @@ Sleuths among you may have noticed that one icon in particular has changed. The 
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption><p>Upon clicking the 'paper' icon, this box appears, indicating that the paper was sucessfully retrieved and archived.</p></figcaption></figure></div>
 
-When you click the icon, you'll see identified metadata, you can select a folder to archive your paper in, and you notice that a full-text PDF is available and has conveniently already been attached to your entry.&#x20;
+When you click the icon, you'll see identified metadata, you can select a folder to archive your paper in, and you notice that a full-text PDF is available and has conveniently already been attached to your entry.
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption><p>A screenshot of my Zotero window where you can find the review we just archived for future reference.</p></figcaption></figure></div>
 
@@ -99,7 +97,7 @@ How to cite neatly and without effort? "Create Bibliography from Item" is one wa
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure></div>
 
-Depending on your field, preference, or journal, you pick a Citation Style.  The above will create an in-text citation like (Higgins, 2021).
+Depending on your field, preference, or journal, you pick a Citation Style. The above will create an in-text citation like (Higgins, 2021).
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure></div>
 
@@ -108,14 +106,13 @@ While this creates, you guessed it:
 \
 Sullivan, J. P. (2022). \[Review of _Review of We Are Bellingcat: Global Crime, Online Sleuths, and the Bold Future of News_, by E. Higgins]. _Journal of Strategic Security_, _15_(3), 138–141.
 
-Now, you're ready to write your paper. A Word plugin exists:\
-
+Now, you're ready to write your paper. A Word plugin exists:\\
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Examples 2 ... n
 
-**Works also on news articles.**&#x20;
+**Works also on news articles.**
 
 <figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
@@ -125,16 +122,14 @@ Mind, though, that if you want an excellent screen capture to accompany your ref
 
 <figure><img src=".gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
-
-
 Oh, and if you select multiple entries, the bibliography will also contain multiple references:
 
 \
-&#xNAN;_&#x42;ellingcat-Analyst Nick Waters: Kriegsverbrechen in der Ukraine: „Unsere Beweise müssen vor Gericht halten“_. (2024, March 22). [https://www.kleinezeitung.at/politik/aussenpolitik/18296327/kriegsverbrechen-in-der-ukraine-unsere-beweise-muessen-vor-gericht](https://www.kleinezeitung.at/politik/aussenpolitik/18296327/kriegsverbrechen-in-der-ukraine-unsere-beweise-muessen-vor-gericht)
+\&#xNAN;_Bellingcat-Analyst Nick Waters: Kriegsverbrechen in der Ukraine: „Unsere Beweise müssen vor Gericht halten“_. (2024, March 22). [https://www.kleinezeitung.at/politik/aussenpolitik/18296327/kriegsverbrechen-in-der-ukraine-unsere-beweise-muessen-vor-gericht](https://www.kleinezeitung.at/politik/aussenpolitik/18296327/kriegsverbrechen-in-der-ukraine-unsere-beweise-muessen-vor-gericht)
 
 _Gefälschter BBC-Bericht: Bellingcat berichtete nicht über Waffenschmuggel der Ukraine an Hamas_. (n.d.). Retrieved August 2, 2024, from [https://correctiv.org/faktencheck/2023/10/23/ukraine-hamas-gefaelschter-bbc-bericht-bellingcat-bestaetigte-keinen-waffenschmuggel/](https://correctiv.org/faktencheck/2023/10/23/ukraine-hamas-gefaelschter-bbc-bericht-bellingcat-bestaetigte-keinen-waffenschmuggel/)
 
-Here, you also see that it sometimes doesn't work correctly. You can go back to the software and change things manually very easily, though.&#x20;
+Here, you also see that it sometimes doesn't work correctly. You can go back to the software and change things manually very easily, though.
 
 <figure><img src=".gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
@@ -152,7 +147,7 @@ Bellingcat. (2024, February 9). _Command Line Fundamentals: Bellingcat Tech Seri
 
 ### Zotero as archive tool & the Berkeley Protocol
 
-Proper documentation is essential if the material is used in legal, academic, or policy advocacy contexts. [The Berkeley Protocol ](https://www.ohchr.org/sites/default/files/2024-01/OHCHR_BerkeleyProtocol.pdf)outlines how OSINT data should be handled to be admissible in court (at least in the context of international proceedings).&#x20;
+Proper documentation is essential if the material is used in legal, academic, or policy advocacy contexts. [The Berkeley Protocol ](https://www.ohchr.org/sites/default/files/2024-01/OHCHR_BerkeleyProtocol.pdf)outlines how OSINT data should be handled to be admissible in court (at least in the context of international proceedings).
 
 * **Berkeley Protocol Alignment**: Properly stored OSINT data improves evidentiary value in legal and policy contexts. Zotero’s ability to capture full snapshots, along with timestamps, aids transparency and reproducibility.
 * **Local & Cloud Sync**: By default, Zotero stores data locally, with **optional** cloud syncing (end-to-end encrypted in transit and at rest on Zotero’s servers). For **highly sensitive data**, you can self-host the Zotero data server or forgo syncing altogether.
@@ -230,4 +225,3 @@ Zotero uses cookies primarily to facilitate core functionality, such as user aut
 | --------------- |
 | Martin Sona     |
 |                 |
-
