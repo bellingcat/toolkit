@@ -12,14 +12,12 @@ description: >-
 
 ## Description
 
-**Lumen** is a project at Harvard University’s Berkman Klein Center for Internet & Society. It was built to increase transparency around online content removals. Lumen **collects legal and extralegal takedown requests** from large platforms (Google, Reddit, Medium, Vimeo, University of California, etc.) and private individuals or organizations, then makes these notices publicly accessible in a structured database.
+Lumen is a project at Harvard University’s Berkman Klein Center for Internet & Society. It was built to increase transparency around online content removals. Lumen collects legal and extralegal takedown requests from large platforms (Google, Reddit, Medium, Vimeo, University of California, etc.) and private individuals or organizations, then makes these notices publicly accessible in a structured database. (Formerly known as “Chilling Effects.”)
 
 ### Key use cases and features:
 
-* **Notices Repository**\
-  Lumen keeps a collection of important notices, like DMCA claims, defamation issues, privacy concerns, trademark matters, and court orders. Each notice shares details about the sender and recipient, such as who requested the content removal and which hosting or search service was involved. It also provides a brief overview of the reasons for the request and includes the URLs of the content being questioned.
-* **Search and Filtering**\
-  The website provides a powerful search interface. You can filter by notice type, date received, sender, recipient, and more. Casual users see truncated URLs for privacy, while **researchers may request additional access** to view full URLs and attachments.
+* **Notices Repository:** Lumen keeps a collection of important notices, like DMCA claims, defamation issues, privacy concerns, trademark matters, and court orders. Each notice shares details about the sender and recipient, such as who requested the content removal and which hosting or search service was involved. It also provides a brief overview of the reasons for the request and includes the URLs of the content being questioned.
+* **Search and Filtering:** The website provides a powerful search interface. You can filter by notice type, date received, sender, recipient, and more. Casual users see truncated URLs for privacy, while researchers may request additional access to view full URLs and attachments.
 * **API for Advanced Research**\
   Researchers and investigative journalists can obtain API credentials to automate queries for large-scale data analysis. The API supports:
   * Searching by keywords, date ranges, parties involved, etc.
@@ -90,7 +88,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 
 <summary>Advanced API examples</summary>
 
-### 1. Searching for a Keyword with Date Range
+#### 1. Searching for a Keyword with Date Range
 
 **Scenario:** You want to see all takedown notices referring to “piracy” from January 1, 2023 through January 1, 2024.
 
@@ -108,7 +106,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 
 ***
 
-### 2. Exact Phrase Searches
+#### 2. Exact Phrase Searches
 
 **Scenario:** You suspect certain notices mention an exact phrase—e.g. “copyright troll”—and want only those that contain that _entire_ phrase, not just the words separately.
 
@@ -124,7 +122,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 
 ***
 
-### 3. Filtering by Sender Name and Topic
+#### 3. Filtering by Sender Name and Topic
 
 **Scenario:** You want to find all notices **sent by** a specific party (the _sender\_name_) who has repeatedly filed DMCA takedowns about “videos.” Also, you only want notices classified under **Copyright** topics.
 
@@ -141,7 +139,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 
 ***
 
-### 4. Looking Up Notices by Principal (Rightsholder)
+#### 4. Looking Up Notices by Principal (Rightsholder)
 
 **Scenario:** You suspect a major law firm is filing notices on behalf of a big music label. You want to see everything posted _on behalf of_ that label.
 
@@ -157,7 +155,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 
 ***
 
-### 5. Searching by Tag, Action Taken, and Language
+#### 5. Searching by Tag, Action Taken, and Language
 
 **Scenario:** You want takedown notices about “fake news” specifically tagged with “misinformation,” and you only want to see those that had “Partial” action taken, in Spanish.
 
@@ -175,7 +173,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 
 ***
 
-### 6. Combining Multiple Queries (Sender & Keyword & Date Range)
+#### 6. Combining Multiple Queries (Sender & Keyword & Date Range)
 
 **Scenario:** You suspect the same actor used different angles—defamation, copyright, trademark—to remove social media criticism. Combine a keyword (`“criticism”`), a date range, and the **sender's name**.
 
@@ -192,7 +190,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 
 ***
 
-### 7. Retrieving a Specific Notice by ID
+#### 7. Retrieving a Specific Notice by ID
 
 **Scenario:** You want the full record of a known notice with ID `123456` to see original or supporting documents.
 
@@ -207,7 +205,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 
 ***
 
-### 8. Filtering by “Safe Harbor” or “Court Order”
+#### 8. Filtering by “Safe Harbor” or “Court Order”
 
 **Scenario:** You want all the **Court Orders** posted this year, focusing on possibly sealed or partially redacted legal documents.
 
@@ -223,7 +221,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 
 ***
 
-#### A Note on Parsing Results
+**A Note on Parsing Results**
 
 All responses return JSON with a structure like:
 
