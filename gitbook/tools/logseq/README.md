@@ -8,7 +8,8 @@ description: >-
 
 ## URL
 
-[https://logseq.com/](https://logseq.com/)
+[https://logseq.com/](https://logseq.com/)\
+(version 0.10.9; March 2025)
 
 ## Description
 
