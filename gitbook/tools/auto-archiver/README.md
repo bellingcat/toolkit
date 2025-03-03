@@ -30,7 +30,11 @@ The Auto Archiver has been actively used by Bellingcat and other open-source res
 
 **Documentation of Environmental Disasters**: In [cases of environmental crises](https://www.deezer.com/de/episode/653737531), such as the 2020 wildfires in Australia or the 2023 earthquakes in Turkey and Syria, the Auto Archiver has been used to record firsthand accounts, videos, and images shared by residents. These records serve not only as evidence for immediate response and analysis but also as historical documentation that can assist future disaster response planning and research.
 
-### Step-By-Step Setup (abbreviated)
+## Usage of Auto-Archiver
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Frontend of a fresh Auto Archiver in Bellingcat's hosted version of the tool.</p></figcaption></figure>
+
+### Self-Hosting: Step-By-Step Setup (abbreviated)
 
 1. **Set Up Google Cloud Project**:
    * Create a Google Cloud project and enable Google Sheets and Google Drive APIs.
@@ -69,7 +73,7 @@ This setup covers the essentials to get the Auto Archiver running. More detailed
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>4</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
 ## Requirements
 
