@@ -12,6 +12,8 @@ description: >-
 
 ## Description
 
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>A screen grab of an Auto Archiver execution for the Tajik-Kyrgyz border conflict. <a href="https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/">Source</a>.</p></figcaption></figure>
+
 The Auto Archiver, developed by Bellingcat, is an [open-source tool](https://github.com/bellingcat/auto-archiver) designed for journalists and researchers to archive digital content from social media platforms systematically. Users input URLs into a Google Sheets document, and the tool then archives the specified posts, videos, or images. The Auto Archiver supports multiple platforms, including Telegram, TikTok, Twitter, and VKontakte, and utilizes the Wayback Machine as a fallback for general web content. This tool has proven essential for capturing content quickly, particularly in volatile contexts where online materials are at risk of deletion, such as the ongoing Russia-Ukraine conflict.
 
 ## Why It’s an Essential Tool
