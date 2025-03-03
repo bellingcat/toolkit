@@ -10,7 +10,7 @@ description: >-
 
 [https://obsidian.md/](https://obsidian.md/)
 
-(version 1.8.7 at the time of writing Feb 21, 2025)
+(version 1.8.7 as of March, 2025)
 
 ## Description
 
