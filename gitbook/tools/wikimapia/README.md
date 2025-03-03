@@ -59,7 +59,7 @@ The example below shows selecting the _bridges_ category for Amsterdam:
 * **Data Accuracy**: Wikimapia's content is user-generated, leading to potential inaccuracies.
 * **Outdated information:** Many Wikimapia entries are many years old and are not kept up to date anymore. Information found on Wikipedia does not always correspond with the current situation at a specific location.
 * **Coverage Inconsistency**: Some areas, especially in less populated or less accessible regions, may have sparse or no data.
-* **API Rate Limiting**: There might be limitations on the number of API requests that can be made in a certain timeframe, impacting extensive data retrieval tasks. The actual [rate limits](https://api.wikimedia.org/wiki/Rate\_limits) are not clearly documented at this time.
+* **API Rate Limiting**: There might be limitations on the number of API requests that can be made in a certain timeframe, impacting extensive data retrieval tasks. The actual [rate limits](https://api.wikimedia.org/wiki/Rate_limits) are not clearly documented at this time.
 
 ## Ethical Considerations
 
@@ -79,7 +79,7 @@ To effectively use Wikimapia, especially for beginners or those looking to refin
 **Tutorials and Articles**
 
 * _Geospatial awareness: how to add data to Google Earth & must-have datasets_ (no date). Available at: [https://benjaminstrick.com/geospatial-awareness-how-to-add-data-to-google-earth/](https://benjaminstrick.com/geospatial-awareness-how-to-add-data-to-google-earth/) (Accessed: 17 April 2024).
-* _Quick start - Wikimapia_ (no date). Available at: [https://wikimapia.org/docs/Quick\_start](https://wikimapia.org/docs/Quick\_start) (Accessed: 17 April 2024).
+* _Quick start - Wikimapia_ (no date). Available at: [https://wikimapia.org/docs/Quick\_start](https://wikimapia.org/docs/Quick_start) (Accessed: 17 April 2024).
 * Seitz, J. (2015) _Automating Photo Retrieval for Geolocating - Part 2:Wikimapia_, _bellingcat_. Available at: [https://www.bellingcat.com/resources/2015/05/13/automating-photo-retrieval-for-geolocating-part-2-wikimapia/](https://www.bellingcat.com/resources/2015/05/13/automating-photo-retrieval-for-geolocating-part-2-wikimapia/) (Accessed: 17 April 2024).
 * Sheldon, M. (2022) _Meet the Irregular Troops Backing up Russia’s Army in the Kharkiv Region_, _bellingcat_. Available at: [https://www.bellingcat.com/news/2022/06/17/meet-the-irregular-troops-backing-up-russias-army-in-the-donbas/](https://www.bellingcat.com/news/2022/06/17/meet-the-irregular-troops-backing-up-russias-army-in-the-donbas/) (Accessed: 17 April 2024).
 
@@ -110,8 +110,8 @@ It was created by a Russian software development company called Wikimapia Ltd. T
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat Volunteer Team/Unassigned |
-|                                      |
+| Page maintainer                       |
+| ------------------------------------- |
+| Bellingcat Volunteer Team/ Unassigned |
+|                                       |
 
