@@ -57,11 +57,14 @@ Time.Graphics is an online tool for creating interactive timelines, useful for o
 * [x] Partially Free
 * [ ] Paid
 
-The free version allows basic public timelines. Premium accounts (starting from a 1-day subscription) unlock additional features like private timelines, multimedia support, and exporting options. Educational discounts are available for students and institutions​​.
+- **Free**: Basic public timelines and limited multimedia features.
+- **Premium**: Starting from short-term (1-day) subscriptions; enables private timelines, Google Calendar integration, more robust export, and better media handling. Educational discounts available.
 
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
+
+Generally beginner-friendly for basic timelines. More advanced features (JSON data, multi-statistics plotting) may require moderate technical proficiency.
 
 ## Requirements
 
@@ -73,6 +76,10 @@ The free version lacks private timelines and extensive media integration. Some p
 
 ## Ethical Considerations
 
+{% hint style="danger" %}
+**Privacy Controls**: Free timelines default to public; upgrade to premium for full privacy settings and controlled link-based sharing.
+{% endhint %}
+
 For effective privacy management on Time.Graphics, users should carefully consider the privacy settings for each timeline, especially when handling sensitive or confidential data. By default, timelines created in the free version are set to public, meaning they are accessible to anyone online. For users requiring privacy or limited access, the **premium version** provides essential options, including the ability to set timelines to private or restrict access to those with a direct link. This link-restricted access is beneficial for sharing information with a controlled audience without making it publicly visible. Users should regularly review and update privacy settings, particularly when working in collaborative settings, to prevent accidental public sharing. For highly sensitive content, it’s advisable to enable premium features that allow complete control over who can view and interact with each timeline, ensuring data is kept secure and accessible only to authorized individuals.
 
 ## Guides and articles
@@ -83,7 +90,7 @@ Timeline Maker. (2019, July 15). _How to embed timelines into your website or bl
 
 ## Tool provider
 
-Time.Graphics, is a service recognized by the American Association of School Librarians for online learning resources. Provided by Selected Technologies LLC, Morgan Hill, CA (authors note: are you kidding, I spent a couple of weeks in Morgan Hill, honk if you hate going north on the 101 during rush hour)
+Time.Graphics, is a service recognized by the American Association of School Librarians for online learning resources. Provided by Selected Technologies LLC, Morgan Hill, CA&#x20;
 
 ## Advertising Trackers
 
