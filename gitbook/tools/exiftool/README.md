@@ -10,7 +10,7 @@ description: >-
 
 [https://exiftool.org/](https://exiftool.org/)
 
-(current version: 13.18 as of 02/2025)
+(current version: 13.22 as of March 2025)
 
 ## Description
 
