@@ -81,4 +81,3 @@ The website says "Internet Trade Services", but I could not find any info on the
 | Page maintainer |
 | --------------- |
 | Lieth Carrillo  |
-|                 |
