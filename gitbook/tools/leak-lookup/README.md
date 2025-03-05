@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Leak Lookup is an online tool and database search platform that allows users to check whether their personal information, such as email addresses, usernames, or passwords, has been exposed in data breaches. By entering a query, users can search its database of leaked data to identify if their information has been compromised. The tool is often used by security professionals and researchers to assess their exposure to data leaks and take necessary precautions, like updating credentials.&#x20;
+Leak Lookup is an online tool and database search platform that allows users to check whether their personal information, such as email addresses, usernames, or passwords, has been exposed in data breaches. By entering a query, users can search its database of leaked data to identify if their information has been compromised.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-24 at 3.19.13 PM.png" alt=""><figcaption></figcaption></figure>
 
