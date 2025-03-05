@@ -15,7 +15,7 @@ description: >-
 
 RAWGraphs is a web-based [open-source](https://github.com/rawgraphs/rawgraphs-app) data visualization software designed to make [complex data easy to visualize](https://www.rawgraphs.io/about). It was conceived as a tool for designers and data visualization enthusiasts to bridge the gap between spreadsheet applications and vector graphics editors​. The software is built on top of the [D3.js library](https://d3js.org/) (a JavaScript framework for creating data-driven visuals) and produces graphics in the SVG (Scalable Vector Graphics) format​.&#x20;
 
-RAWGraphs allows users to create a variety of charts and diagrams without any coding skills. It has an intuitive drag-and-drop interface where data columns can be mapped to visual variables of a chart. This approach lets journalists, designers, researchers, and other users quickly generate visualizations and then refine them using external graphic software if needed​
+RAWGraphs allows users to create a variety of charts and diagrams without any coding skills. It has an intuitive drag-and-drop interface where data columns can be mapped to visual variables of a chart. This approach lets journalists, designers, researchers, and other users quickly generate visualizations and then refine them using external graphic software if needed​.
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>The vast number of charts available.</p></figcaption></figure>
 
