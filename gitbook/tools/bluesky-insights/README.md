@@ -55,8 +55,8 @@ By enabling external analytics on Bluesky profiles, Bluesky Insights can provide
 
 ## Ethical Considerations
 
-* **Respect User Privacy**: Although data is public, users may not expect deep analytics.
-* **Avoid Misuse**: Use responsibly for legitimate OSINT and research purposes.
+* **Respect User Privacy**: Although data is public, users may not expect deep analytics done based on their data.
+* **Avoid Misuse**: Use responsibly for legitimate open source research purposes.
 * **Terms of Service Compliance**: Ensure usage aligns with Bluesky’s policies.
 
 ## Guides and articles
