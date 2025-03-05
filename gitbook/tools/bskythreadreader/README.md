@@ -56,7 +56,7 @@ Compared to these alternatives, BskyThreadReader is simple and effective but lac
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+\-
 
 ## Tool provider
 
