@@ -21,7 +21,7 @@ RAWGraphs allows users to create a variety of charts and diagrams without any co
 
 ## Key Features
 
-* **Free and Open Source:** RAWGraphs is free to use (no fees or registration required), and its source code is available under the [Apache 2.0 open-source licens](https://github.com/rawgraphs/rawgraphs-app)e. This means anyone can use or modify the tool, and [community contributions](https://www.rawgraphs.io/learning/what-is-rawgraphs-our-approach-to-data-visualization) are welcome.
+* **Free and Open Source:** RAWGraphs is free to use (no fees or registration required), and its source code is available under the [Apache 2.0 open-source license](https://github.com/rawgraphs/rawgraphs-app). This means anyone can use or modify the tool, and [community contributions](https://www.rawgraphs.io/learning/what-is-rawgraphs-our-approach-to-data-visualization) are welcome.
 * **Web-Based Application:** It runs entirely in the web browser, with no installation needed. All data processing happens client-side (in your browser), so your input data is [**not uploaded or stored on any server**​.](https://www.rawgraphs.io/learning/how-to-load-and-format-your-data-for-rawgraphs) This ensures privacy and security for sensitive data.
 * **User-Friendly Interface:** The tool offers a graphical interface for building visualizations by loading data and assigning fields to chart elements. No programming knowledge is needed to create chart&#x73;**.**
 * **Wide Range of Chart Types:** RAWGraphs offers nearly 30 types of visualizations, from traditional charts to more unusual layouts​. You can create basic charts like bar graphs or line plots and specialized diagrams for complex data (see the list of available chart types below).
