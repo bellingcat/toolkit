@@ -55,7 +55,7 @@ RAWGraphs allows users to create a variety of charts and diagrams without any co
 
 ## Requirements
 
-No registration or account is needed. RAWGraphs processes data entirely in the user’s browser, meaning no server-side data storage or processing occurs, which is ideal for handling confidential data.
+No registration or account is needed. RAWGraphs processes data entirely in the user’s browser, meaning no server-side data storage or processing occurs.
 
 ## Limitations
 
