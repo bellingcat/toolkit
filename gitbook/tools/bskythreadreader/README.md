@@ -71,4 +71,3 @@ Developed and maintained by Luca Hammer (@luca.run on Bluesky). The tool is base
 | Page maintainer |
 | --------------- |
 | Martin Sona     |
-|                 |
