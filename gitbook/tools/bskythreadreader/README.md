@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-BskyThreadReader is a web-based tool that enables users to view and share Bluesky threads without requiring a Bluesky account. It fetches user profile data directly from Bluesky and retrieves complete thread content via a third-party [Bluesky Thread Visualizer](https://bsky-search.jazco.io/thread) service (provided by @jaz). This tool offers instant access to Bluesky discussions, presenting content in an easy-to-read format. It can be a valuable resource for OSINT investigators, researchers, and journalists who need to monitor conversations on Bluesky without logging in.
+BskyThreadReader is a web-based tool that enables users to view and share Bluesky threads without requiring a Bluesky account. It fetches user profile data directly from Bluesky and retrieves complete thread content via a third-party [Bluesky Thread Visualizer](https://bsky-search.jazco.io/thread) service (provided by @jaz). This tool offers instant access to Bluesky discussions, presenting content in an easy-to-read format. It can be a valuable resource for open source researchers and journalists who need to monitor conversations on Bluesky without logging in.
 
 ## Cost
 
