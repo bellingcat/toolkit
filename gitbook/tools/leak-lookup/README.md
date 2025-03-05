@@ -49,7 +49,7 @@ As of February 2025, the pricing information for credits are as follows:
 
 ## Requirements
 
-Users must register an account to conduct searchers; account registration is free of charge.
+Users must register an account to conduct searches; account registration is free of charge.
 
 ## Ethical Considerations & Limitations
 
