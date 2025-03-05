@@ -21,7 +21,7 @@ Bluesky Insights is a free web-based analytics platform designed specifically fo
 * **Word Cloud Analysis**: Automatically generate word clouds to spotlight frequently used terms and hashtags.
 * **Trending Hashtags**: Monitor real-time trending topics on Bluesky for emerging conversations or viral content.
 
-#### **OSINT Applications**
+#### **Open Source Research Applications**
 
 * **Profile Monitoring**: Analyze public figures, organizations, or suspicious accounts for posting habits and engagement trends.
 * **Disinformation Tracking**: Detect potential “coordinated” engagement patterns or sudden spikes in follower counts.
