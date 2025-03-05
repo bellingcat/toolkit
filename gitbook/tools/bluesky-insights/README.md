@@ -76,4 +76,3 @@ Independent developer "Sahaj" (@iamsahaj.bsky.social)
 | Page maintainer |
 | --------------- |
 | Martin Sona     |
-|                 |
