@@ -63,7 +63,7 @@ RAWGraphs requires data to be formatted in a single table structure. Supported f
 
 ## Ethical Considerations
 
-Since RAWGraphs processes data locally in the browser, it does not upload or store data on any servers, making it suitable for visualizing sensitive or confidential information. However, users should remain cautious about data privacy and take steps to protect sensitive data on their systems.
+Since RAWGraphs processes data locally in the browser, it does not upload or store data on any servers. However, users should remain cautious about data privacy and take steps to protect sensitive data on their systems.
 
 ## Guides and articles
 
