@@ -28,7 +28,7 @@ Bluesky Insights is a free web-based analytics platform designed specifically fo
 * **Narrative Analysis**: Examine common themes and keywords across user-generated content.
 * **Comparative Analysis**: Compare multiple Bluesky accounts to identify similarities in timing, content, or engagement trends.
 
-By enabling external analytics on Bluesky profiles, Bluesky Insights proves valuable for researchers, journalists, and analysts investigating interactions or influence within this decentralized platform.
+By enabling external analytics on Bluesky profiles, Bluesky Insights can provide valuable insights for researchers, journalists, and analysts investigating interactions or influence within this decentralized platform.
 
 ## Cost
 
@@ -42,9 +42,9 @@ By enabling external analytics on Bluesky profiles, Bluesky Insights proves valu
 
 ## Requirements
 
-* **No sign-up or login** required.
-* Functions on **any modern web browser** (Chrome, Firefox, Safari, etc.).
-* **Bluesky handle** for the target profile (e.g., `@username.bsky.social`).
+* No sign-up or login required.
+* Works with any modern web browser (Chrome, Firefox, Safari, etc.).
+* Bluesky handle for the target profile (e.g., `@username.bsky.social`).
 
 ## Limitations
 
