@@ -73,5 +73,4 @@ Leak-Lookup can be reached at info(at)leak-lookup.com or on X, the social media 
 
 | Page maintainer |
 | --------------- |
-| hadne           |
-|                 |
+| hande           |
