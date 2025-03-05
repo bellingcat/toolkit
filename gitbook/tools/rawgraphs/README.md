@@ -86,4 +86,3 @@ RAWGraphs was first released in 2013 as “RAW” by researchers at the DensityD
 | Page maintainer |
 | --------------- |
 | Martin Sona     |
-|                 |
