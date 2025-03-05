@@ -40,11 +40,11 @@ No Bluesky account, API key, or registration is required. The tool runs in any m
 
 ## Ethical Considerations
 
-BskyThreadReader accesses only publicly available data, ensuring compliance with user privacy on Bluesky. However, OSINT investigators should:
+BskyThreadReader accesses only publicly available data, ensuring compliance with user privacy on Bluesky. However, open source researchers should:
 
 * Cite and share content responsibly to avoid misrepresentation.
 * Consider archiving important threads for verification, as Bluesky posts can be deleted.
-* Be mindful that third-party services could log thread fetches, which may have implications for sensitive investigations
+* Be mindful that third-party services could log thread fetches, which may have implications for sensitive investigations.
 
 ## Comparison with similar tools
 
