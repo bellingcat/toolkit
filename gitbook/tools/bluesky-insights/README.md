@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-**Bluesky Insights** is a **free** web-based analytics platform designed specifically for the **Bluesky** social network. It provides **detailed insights** into user activity, engagement trends, and content themes **without requiring account authentication**. Think of it like a “Social Blade” for Bluesky: a third-party website that lets anyone plug in a publicly available Bluesky handle to see at-a-glance metrics and in-depth data visualizations.
+Bluesky Insights is a free web-based analytics platform designed specifically for the Bluesky social network. It provides detailed insights into user activity, engagement trends, and content themes without requiring account authentication. Think of it like a “Social Blade” for Bluesky: a third-party website that lets anyone plug in a publicly available Bluesky handle to see at-a-glance metrics and in-depth data visualizations.
 
 #### **Features & Use Cases**
 
