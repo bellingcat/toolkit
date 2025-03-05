@@ -1,8 +1,8 @@
 ---
 description: >-
   A tool for discovering Bluesky users followed by those you follow but whom you
-  don’t yet follow. Useful for network expansion, OSINT investigations, and
-  social graph analysis.
+  don’t yet follow. Useful for network expansion, open source investigations,
+  and social graph analysis.
 ---
 
 # BskyFollowFinder
