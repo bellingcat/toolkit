@@ -200,3 +200,4 @@
   * [NeutrOSINT](tools/neutrosint/README.md)
   * [UN Comtrade Database](tools/un-comtrade-database/README.md)
   * [Global Suppliers Online](tools/global-suppliers-online/README.md)
+  * [License Plate Maps](tools/license-plate-maps/README.md)
