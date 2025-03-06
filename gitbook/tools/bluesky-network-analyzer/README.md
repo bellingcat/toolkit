@@ -172,4 +172,3 @@ Businesses can use BskyFollowFinder to monitor industry influencers and competit
 | Page maintainer                               |
 | --------------------------------------------- |
 | Martin Sona (@cargocultscientist.bsky.social) |
-|                                               |
