@@ -131,7 +131,7 @@ Businesses can use BskyFollowFinder to monitor industry influencers and competit
 * **API Rate Limits:** Processing very large follow lists may slow down queries due to Bluesky’s rate limits.
 * **Only Public Data:** The tool only retrieves data from public profiles. Private or locked accounts will not be included.
 * **One-Hop Analysis:** Only examines immediate follow relationships (second-degree connections) without deeper multi-hop analysis.
-* **No Graph Visualization:** Outputs are provided as a ranked list; it does not generate visual network maps like Gephi or Maltego.
+* **No Graph Visualization:** Outputs are provided as a ranked list; it does not generate visual network maps like [Gephi ](https://bellingcat.gitbook.io/toolkit/more/all-tools/gephi)or [Maltego](https://bellingcat.gitbook.io/toolkit/more/all-tools/maltego).
 
 ## Ethical Considerations
 
