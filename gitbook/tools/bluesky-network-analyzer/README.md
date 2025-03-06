@@ -56,11 +56,11 @@ Using **BskyFollowFinder** to pinpoint influential hubs in a disinformation netw
 
 {% tabs %}
 {% tab title="Community Growth & Influence Mapping" %}
-Activists or journalists new to Bluesky can quickly discover key voices in their niche by identifying accounts frequently followed by trusted contacts.
+Journalists new to Bluesky can quickly discover key voices in their niche by identifying accounts frequently followed by trusted contacts.
 {% endtab %}
 
 {% tab title="Detailed Steps" %}
-To leverage BskyFollowFinder for community growth and influence mapping—helping activists or journalists discover key voices in their niche—you can follow these steps:
+To leverage BskyFollowFinder for community growth and influence mapping—helping journalists discover key voices in their niche—you can follow these steps:
 
 1. **Identify Trusted Contacts:**\
    Start by listing the Bluesky accounts you already follow and trust. These may include colleagues, well-known activists, journalists, or experts in your area of interest.
