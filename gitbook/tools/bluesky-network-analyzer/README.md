@@ -45,7 +45,7 @@ Using **BskyFollowFinder** to pinpoint influential hubs in a disinformation netw
 4. **Verify the Critical Node:**\
    Once you’ve identified an account that appears frequently, dig deeper:
    * **Profile Analysis:** Review the account’s profile, bio, and content to understand its role and influence.
-   * **Cross-Reference:** Check if this account is mentioned or linked in other OSINT reports, social media analyses, or disinformation research.
+   * **Cross-Reference:** Check if this account is mentioned or linked in other open source research reports, social media analyses, or disinformation research.
    * **Contextual Review:** Evaluate its interactions and network position by looking at who engages with the account and what content it promotes.
 5. **Enhance Your Analysis with Visualization Tools:**\
    For a broader picture, consider exporting the data and using network visualization tools like **Gephi** or **Maltego**. Import the common nodes and their connections to visualize the network structure, which can help confirm the hub’s influence and reveal additional relationships.
