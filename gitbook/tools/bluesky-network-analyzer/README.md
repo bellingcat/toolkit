@@ -147,13 +147,13 @@ Businesses can use BskyFollowFinder to monitor industry influencers and competit
 
 ### Alternatives for Open Source Research & Social Network Analysis
 
-| Tool                    | Platform           | Use Case                                                    |
-| ----------------------- | ------------------ | ----------------------------------------------------------- |
-| **Gephi**               | Cross-platform     | Visualizes network graphs from exported Bluesky data        |
-| **Maltego**             | Multi-source OSINT | Maps social networks across various platforms               |
-| **Jaz’s Atlas**         | Bluesky            | Provides large-scale network mapping and visualization      |
-| **Bluesky Directory**   | Bluesky            | Offers curated lists of user accounts by interest           |
-| **Sky Follower Bridge** | Twitter → Bluesky  | Finds cross-platform identities between Twitter and Bluesky |
+| Tool                                                                        | Platform           | Use Case                                                    |
+| --------------------------------------------------------------------------- | ------------------ | ----------------------------------------------------------- |
+| [**Gephi**](https://bellingcat.gitbook.io/toolkit/more/all-tools/gephi)     | Cross-platform     | Visualizes network graphs from exported Bluesky data        |
+| [**Maltego**](https://bellingcat.gitbook.io/toolkit/more/all-tools/maltego) | Multi-source OSINT | Maps social networks across various platforms               |
+| **Jaz’s Atlas**                                                             | Bluesky            | Provides large-scale network mapping and visualization      |
+| **Bluesky Directory**                                                       | Bluesky            | Offers curated lists of user accounts by interest           |
+| **Sky Follower Bridge**                                                     | Twitter → Bluesky  | Finds cross-platform identities between Twitter and Bluesky |
 
 💡 **Best Combination:** Use BskyFollowFinder to generate a list of suggested connections, then export or integrate the data into Gephi or Maltego for advanced network analysis.
 
