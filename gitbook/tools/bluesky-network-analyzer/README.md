@@ -159,8 +159,7 @@ Businesses can use BskyFollowFinder to monitor industry influencers and competit
 
 ## Tool provider
 
-[Theo Sanderson](https://theo.io/)\
-Theo is a scientist and software developer with expertise in pathogen genomics and data visualization. He has also developed other Bluesky tools such as the **Bluesky User Counter** and **Firehose 3D Viewer**.
+[Theo Sanderson](https://theo.io/) who has also developed other Bluesky tools such as the Bluesky User Counter and Firehose 3D Viewer.
 
 ## Advertising Trackers
 
