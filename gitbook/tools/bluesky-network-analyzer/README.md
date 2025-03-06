@@ -71,7 +71,7 @@ To leverage BskyFollowFinder for community growth and influence mapping—helpin
 4. **Expand Your Network:**\
    Once you’ve identified promising key voices, consider following them. Over time, as you build your network, run the analysis periodically to capture new influential voices emerging within your community.
 5. **Integrate with Visualization Tools (Optional):**\
-   For a broader perspective, you can export the list of suggestions and import it into network visualization tools like Gephi or Maltego. These tools help you map out the social graph visually, revealing clusters and the most interconnected nodes within your community.
+   For a broader perspective, you can export the list of suggestions and import it into network visualization tools like [Gephi](https://bellingcat.gitbook.io/toolkit/more/all-tools/gephi) or [Maltego](https://bellingcat.gitbook.io/toolkit/more/all-tools/maltego). These tools help you map out the social graph visually, revealing clusters and the most interconnected nodes within your community.
 6. **Document and Iterate:**\
    Keep a record of the accounts you follow and monitor their influence over time. This documentation can serve as a baseline for further analysis and can help you refine your criteria for what constitutes a “key voice” in your niche.
 {% endtab %}
