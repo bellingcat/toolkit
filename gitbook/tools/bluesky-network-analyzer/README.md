@@ -48,7 +48,7 @@ Using **BskyFollowFinder** to pinpoint influential hubs in a disinformation netw
    * **Cross-Reference:** Check if this account is mentioned or linked in other open source research reports, social media analyses, or disinformation research.
    * **Contextual Review:** Evaluate its interactions and network position by looking at who engages with the account and what content it promotes.
 5. **Enhance Your Analysis with Visualization Tools:**\
-   For a broader picture, consider exporting the data and using network visualization tools like **Gephi** or **Maltego**. Import the common nodes and their connections to visualize the network structure, which can help confirm the hub’s influence and reveal additional relationships.
+   For a broader picture, consider exporting the data and using network visualization tools like [**Gephi**](https://bellingcat.gitbook.io/toolkit/more/all-tools/gephi) or [**Maltego**](https://bellingcat.gitbook.io/toolkit/more/all-tools/maltego). Import the common nodes and their connections to visualize the network structure, which can help confirm the hub’s influence and reveal additional relationships.
 6. **Document Your Findings:**\
    Record your methodology, the handles analyzed, common nodes identified, and any corroborating evidence from further investigation. This documentation strengthens your overall OSINT research and supports your conclusions.
 {% endtab %}
