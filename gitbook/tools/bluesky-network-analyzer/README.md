@@ -21,8 +21,7 @@ This functionality is especially useful for open source researchers, investigati
 
 * **Automated Second-Degree Analysis:** Retrieves your follow list and then compiles who they follow, ranking accounts that appear most frequently.
 * **Prioritization by Commonality:** Suggestions are ordered by how many of your followed accounts also follow them.
-* **No Login Required for Basic Use:** Enter a Bluesky handle; however, optional **app password integration** enables one-click following via authenticated API calls.
-* **Open-Source Transparency:** Developed by **Theo Sanderson** and maintained on [GitHub](https://github.com/theosanderson/bsky-follows), ensuring trust and adaptability.
+* **No Login Required for Basic Use:** Enter a Bluesky handle; however, optional app password integration enables one-click following via authenticated API calls.
 * **Efficient Data Retrieval:** Uses Bluesky’s public APIs for streamlined access to follow data.
 
 ***
