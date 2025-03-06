@@ -145,7 +145,7 @@ Businesses can use BskyFollowFinder to monitor industry influencers and competit
 * **Theo Sanderson’s Bluesky Post:** [Introduction to BskyFollowFinder](https://bsky.app/profile/theo.io/post/3lapjzzqtrc2e)
 * **Bluesky API Documentation:** [AT Protocol for Social Graphs](https://docs.bsky.app/docs/api/app-bsky-graph-get-follows)
 
-### Alternatives for OSINT & Social Network Analysis
+### Alternatives for Open Source Research & Social Network Analysis
 
 | Tool                    | Platform           | Use Case                                                    |
 | ----------------------- | ------------------ | ----------------------------------------------------------- |
