@@ -37,7 +37,7 @@ A researcher examining disinformation networks can use BskyFollowFinder to pinpo
 Using **BskyFollowFinder** to pinpoint influential hubs in a disinformation network involves a systematic approach. Here’s a step-by-step guide on how you might do that:
 
 1. **Compile a List of Known Disinformation Actors:**\
-   Begin by identifying a set of Bluesky accounts that have been previously flagged or verified as disinformation sources. This can come from prior OSINT investigations, trusted reports, or expert lists.
+   Begin by identifying a set of Bluesky accounts that have been previously flagged or verified as disinformation sources. This can come from prior open source investigations, trusted reports, or expert lists.
 2. **Run Individual Network Analyses:**\
    For each known disinformation actor, enter their Bluesky handle into BskyFollowFinder. The tool will generate a ranked list of accounts that these actors follow. Since it ranks suggestions based on the number of your contacts following them, it highlights which accounts are common among the chosen profiles.
 3. **Aggregate and Compare Results:**\
