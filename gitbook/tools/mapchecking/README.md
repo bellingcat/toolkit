@@ -30,7 +30,7 @@ The number of crowds can often be a [point of dispute ](https://apnews.com/gener
 
 Traditional crowd counting methods are either less publicly available, [such as entrance censors/turnstiles and ticket sales, or are a tedious and time-consuming procedure that includes cumbersome manual processes such as using people counters](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10116033/).
 
-For this reason, open-source investigators may find this a valuable tool for verification.&#x20;
+For this reason, open-source investigators may find MapChecking a valuable tool for verification.&#x20;
 
 ### Here's how the tool generally works
 
