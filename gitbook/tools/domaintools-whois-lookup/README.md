@@ -26,7 +26,7 @@ Of these, the following can be used without a DomainsTools license:
   * A name server is a computer that translates domain names (such as www.google.com) into IP addresses (like 8.8.8.8), enabling computers to find and connect with each other on the internet.
 * **Reverse IP Address Lookup:** find all the domain names associated with a specific IP address.
 * C**urrent screenshot preview:** see the most recent screenshot of the content hosted on the website (if available)
-* **Available TLDs:** see an overview of other domains with the same website name but different top level domains (TLDs) such as ".net", ".org" or ".info". Can be used to discover other domains associated with the website, which may be used to host discover or outdated content.
+* **Available TLDs:** see an overview of other domains with the same website name but different top level domains (TLDs) such as ".net", ".org" or ".info". This can be used to discover other domains associated with the website, which may be used to host discover or outdated content.
 
 ## Cost
 
