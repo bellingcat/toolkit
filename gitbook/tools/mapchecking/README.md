@@ -135,7 +135,7 @@ The tool works better if you can clearly delineate the area visible in the image
 
 _Snapshot in Time_
 
-The estimate is only valid for the specific point in time when the image was captured. Any changes in crowd size or movement after that moment are not reflected.
+The estimate is only valid for the specific point in time when the image was captured. Any changes in crowd size or movement before or after that moment are not reflected.
 
 _Static vs. Dynamic Crowds_
 
