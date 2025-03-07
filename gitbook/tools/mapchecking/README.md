@@ -48,7 +48,7 @@ It is helpful if the location you put in the tool is **already geolocated/verifi
 
 Input the address of an already verified location into the map interface. For simplicity, we will use only the image above of the event to demonstrate the tool’s features.
 
-We geolocated this area and found it in Democracy Square in Tel Aviv, at the intersection of Eli'ezer Kaplan Street and Giv'at HaTah̠moshet Street. The coordinates are 32.073368,  34.790295.&#x20;
+We geolocated this area and found it in Democracy Square in Tel Aviv, at the intersection of Eli'ezer Kaplan Street and Giv'at HaTah̠moshet Street. The coordinates are 32.073368, 34.790295.&#x20;
 
 While many protests in Tel Aviv happen in this area frequently, this footage taken from this particular angle seems to to come from the 1st of September 2024, coinciding with the [sun's approximate position](https://www.suncalc.org/#/32.0732,34.7907,17/2024.09.01/20:08/1/3) around sunset.
 
@@ -70,7 +70,7 @@ _Remember:_ Even with combined images, obstructions like buildings or bridges ca
 
 The next step is to delineate the area of interest by drawing a polygon. The defined area is automatically overlaid on a map.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-09-04 111639.png" alt=""><figcaption><p>This is the location of the protests. The red-shaded area shows where crowds have gathered based on our source image. For accuracy, we exclude areas within our blind spots or those that we don’t have complete visibility.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-09-04 111639.png" alt=""><figcaption><p>This is the location of the protests. The red-shaded area shows where crowds have gathered based on our source image. For accuracy, we exclude areas within our blind spots or those for which we don’t have complete visibility.</p></figcaption></figure>
 
 ### **STEP 3: Matching and Double-checking**
 
