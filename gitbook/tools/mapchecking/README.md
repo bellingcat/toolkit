@@ -74,7 +74,7 @@ The next step is to delineate the area of interest by drawing a polygon. The def
 
 ### **STEP 3: Matching and Double-checking**
 
-It may be helpful to double-check that the source image area matches the polygon drawn in the tool. In this case, users may choose to draw a polygon on the source image in a separate program and approximate a visual match for both (as shown in the picture below).
+Double-check whether your area of interest in the source image matches the polygon drawn within the MapChecking tool. To do so, you can draw a polygon on the source image in a separate program and put both pictures next to each other (as shown in the picture below).
 
 <figure><img src=".gitbook/assets/MapChecking.png" alt=""><figcaption><p>On the left is the source image overlaid with a polygon using Paint, and to the right is the polygon drawn utilizing the tool. The right image is rotated to approximate the camera's direction, as shown in the source image. </p></figcaption></figure>
 
