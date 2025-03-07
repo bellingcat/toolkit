@@ -43,10 +43,10 @@ Our source image is a clip from a [video uploaded to X](https://x.com/BarakRavid
 ### **STEP 1: Input Location**
 
 {% hint style="info" %}
-It may be helpful that the location you put in the tool is **already geolocated/verified.**&#x20;
+It is helpful if the location you put in the tool is **already geolocated/verified.**&#x20;
 {% endhint %}
 
-Input the address of an already verified location into the map interface. For simplicity, we will use only one image of the event to demonstrate the tool’s features.
+Input the address of an already verified location into the map interface. For simplicity, we will use only the image above of the event to demonstrate the tool’s features.
 
 We geolocated this area and found it in Democracy Square in Tel Aviv, at the intersection of Eli'ezer Kaplan Street and Giv'at HaTah̠moshet Street. The coordinates are 32.073368,  34.790295.&#x20;
 
