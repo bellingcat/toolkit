@@ -24,7 +24,7 @@ Based on the steps below, MapChecking can calculate the estimated density of par
 
 <figure><img src=".gitbook/assets/Screenshot 2024-09-04 062958.png" alt=""><figcaption><p>(Image source: Mapchecking.com) This shows a sample location using the tool. Users can delineate the area of interest using a polygon (shown here with a yellow shaded area). Users can view the area on the regular Google map overlay or satellite view. To the right of the map is a slider that users can drag to estimate the crowd density "from "Light" to "Crowded" to "Packed". The total estimated number in black font changes as the slider moves. </p></figcaption></figure>
 
-### Why is crowd counting significant?&#x20;
+### Why is crowd counting important?&#x20;
 
 The number of crowds can often be a [point of dispute ](https://apnews.com/general-news-f445adb3d0cf468ba0eb9caeab549577)between [participants and official statements](https://www.salon.com/2003/01/24/crowds/). Crowd sizes can also serve as evidence of how many people participated in a demonstration and [can be indicative of the significance](https://nixintel.info/osint/counting-crowds-in-public-spaces/) or reach of the event. According to [this](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10116033/), another significance of crowd counting is that “\[e]stimation of crowd size for large gatherings is an indispensable metric for \[...] local authorities, and emergency management.”&#x20;
 
