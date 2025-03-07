@@ -36,7 +36,7 @@ For this reason, open-source investigators may find MapChecking a valuable tool 
 
 For this tool description, we take the protest in Tel Aviv on 1 September 2024 as an example.
 
-Our source image is a clip from the video uploaded by [the user](https://x.com/BarakRavid/status/1830292233922482540), potentially during the early hours of the event (before more people arrive). It mentions "tens of thousands of protesters" in Tel Aviv.&#x20;
+Our source image is a clip from a video uploaded by [Barak Ravid on X](https://x.com/BarakRavid/status/1830292233922482540). It mentions "tens of thousands" of protesters in Tel Aviv.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2024-09-02 153133.png" alt=""><figcaption><p>(Image Source: Still from a video posted on <a href="https://x.com/BarakRavid/status/1830292233922482540">https://x.com/BarakRavid/status/1830292233922482540</a>) This mentions that tens of thousands arrived to protest in Tel Aviv about the delay in the Gaza hostage deal. </p></figcaption></figure>
 
