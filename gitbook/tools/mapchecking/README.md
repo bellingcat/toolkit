@@ -80,7 +80,7 @@ Double-check whether your area of interest in the source image matches the polyg
 
 ### STEP 4: Determine Crowd Density Per Square Meter
 
-The next step walks through estimating crowd density per square meter, which helps determine the total estimated number of people in a specific area. Does the crowd appear light, crowded or packed?
+The next step consists of estimating crowd density per square meter, which helps determine the total estimated number of people in a specific area. Does the crowd appear light, crowded or packed?
 
 First, it can help to gather reference images. Find close-up crowd photos. If possible, look for high-resolution images or verified footage from the event that show the crowd density up close. This helps assess how packed different sections are.
 
