@@ -22,7 +22,7 @@ Based on the steps below, MapChecking can calculate the estimated density of par
 4. Determine Crowd Density Per Square Meter
 5. Calculate Total Estimated Crowd Size&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2024-09-04 062958.png" alt=""><figcaption><p>(Image source: Mapchecking.com) This shows a sample location using the tool. Users can delineate the area of interest using a polygon (shown here with a yellow shaded area). Users can view the area on the regular Google map overlay or satellite view. To the right of the map is a slider that users can drag to estimate the crowd density "from "Light" to "Crowded" to "Packed". The total estimated number in black font changes as the slider moves. This tool makes it easy to do all the steps on one page.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-09-04 062958.png" alt=""><figcaption><p>(Image source: Mapchecking.com) This shows a sample location using the tool. Users can delineate the area of interest using a polygon (shown here with a yellow shaded area). Users can view the area on the regular Google map overlay or satellite view. To the right of the map is a slider that users can drag to estimate the crowd density "from "Light" to "Crowded" to "Packed". The total estimated number in black font changes as the slider moves. </p></figcaption></figure>
 
 ### Why is crowd counting significant?&#x20;
 
