@@ -139,10 +139,8 @@ The estimate is only valid for the specific point in time when the image was cap
 
 _Static vs. Dynamic Crowds_
 
-&#x20;The tool is less effective for[ dynamic or moving crowds ](https://www.aware-online.com/en/calculate-the-number-of-people-during-a-demonstration/)since crowd locations can shift rapidly. It works best when counting static crowds at a given moment.
-
-\
-&#xNAN;_&#x55;neven Crowd Density_
+&#x20;The tool is less effective for[ dynamic or moving crowds ](https://www.aware-online.com/en/calculate-the-number-of-people-during-a-demonstration/)since crowd locations can shift rapidly. It works best when counting static crowds at a given moment.  \
+&#x20;                                                                                                                                                                                    _Uneven Crowd Density_
 
 Crowd density [is not uniform](https://www.aware-online.com/en/calculate-the-number-of-people-during-a-demonstration/) across all areas of an image. Some patches may have fewer people, while others may be densely packed. As seen in the source image above, there are patches in the protest area that are loosely packed and there are patches that are fully packed. For greater accuracy, it may be beneficial to draw separate polygons for areas with lower and higher crowd densities.
 
