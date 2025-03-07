@@ -150,13 +150,13 @@ Exclusions for Low Visibility Areas: Certain areas of the source image may have 
 
 Transparency in Methodology: It is essential to be transparent about the limitations of the tool, especially regarding its reliance on clear images and fixed points in time. Users must communicate that the estimate provided is based on specific conditions and may not reflect the total count, particularly if areas are outside the camera's view or affected by poor visibility.
 
-Accuracy and Validation: Ethical use of Mapchecking requires combining it with multiple methods and sources to arrive at a more accurate estimate. Relying solely on one tool without cross-referencing other data (e.g., additional images, videos, or on-the-ground reports) may lead to underestimating or overestimating crowd sizes.
+Accuracy and Validation: Ethical use of MapChecking requires combining it with multiple methods and sources to arrive at a more accurate estimate. Relying solely on one tool without cross-referencing other data (e.g., additional images, videos, or on-the-ground reports) may lead to underestimating or overestimating crowd sizes.
 
 Dynamic Nature of Crowds: Since crowds are dynamic and people move around, counting static points may not capture the real-time fluctuations of the crowd size. Ethical considerations require informing users and stakeholders that the count is a snapshot in time and may not fully reflect the dynamic nature of demonstrations or events.
 
-&#x20;Density Variability: Since crowd density is not uniform ethical practice encourages users to analyze density variations carefully and provide separate estimates for different areas where appropriate.
+Density Variability: Since crowd density is not uniform ethical practice encourages users to analyze density variations carefully and provide separate estimates for different areas where appropriate.
 
-&#x20;Possibility of Misrepresentation: In the context of politically sensitive events, such as demonstrations, overestimating or underestimating crowd sizes can have significant implications. Ethical use of Mapchecking is encouraged.&#x20;
+Possibility of Misrepresentation: In the context of politically sensitive events, such as demonstrations, overestimating or underestimating crowd sizes can have significant implications. Ethical use of Mapchecking is encouraged.&#x20;
 
 ## Guides and articles
 
@@ -166,9 +166,7 @@ Dynamic Nature of Crowds: Since crowds are dynamic and people move around, count
 
 ## Tool provider
 
-[Anthony Catel](https://github.com/paraboul)
-
-France&#x20;
+[Anthony Catel](https://github.com/paraboul), France&#x20;
 
 ## Advertising Trackers
 
