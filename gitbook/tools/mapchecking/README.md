@@ -125,8 +125,7 @@ NOTE: The total estimate changes, as the crowd density slides from light to crow
 ## Requirements
 
 1. Internet Connection
-2. Desktop&#x20;
-3. Modern browser
+2. Modern browser
 
 ## Limitations
 
