@@ -54,9 +54,7 @@ Telemetry's Privacy Policy can be found [here.](https://www.telemetryapp.io/poli
 
 ## Tool provider
 
-Telemetry Data Labs, based in Tel Aviv, Israel.
-
-The tool was co-founded by Ari Ben Am, author of the [_Memetic Warfare_](https://www.memeticwarfare.io/p/memetic-warfare-weekly-tasteful-binary) weekly newsletter (which occasionally features Telemetry's use in its investigations and analysis.)
+Telemetry Data Labs, based in Tel Aviv, Israel. The tool was co-founded by Ari Ben Am, author of the [_Memetic Warfare_](https://www.memeticwarfare.io/p/memetic-warfare-weekly-tasteful-binary) weekly newsletter (which occasionally features Telemetry's use in its investigations and analysis.)
 
 ## Advertising Trackers
 
@@ -67,4 +65,3 @@ The tool was co-founded by Ari Ben Am, author of the [_Memetic Warfare_](https:/
 | Page maintainer           |
 | ------------------------- |
 | Bellingcat Volunteer Team |
-|                           |
