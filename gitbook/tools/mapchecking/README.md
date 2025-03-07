@@ -160,9 +160,9 @@ Possibility of Misrepresentation: In the context of politically sensitive events
 
 ## Guides and articles
 
-[https://nixintel.info/osint/counting-crowds-in-public-spaces/](https://nixintel.info/osint/counting-crowds-in-public-spaces/)
+Nixintel: [Counting crowds in public spaces](https://nixintel.info/osint/counting-crowds-in-public-spaces/).
 
-[https://www.aware-online.com/en/calculate-the-number-of-people-during-a-demonstration/](https://www.aware-online.com/en/calculate-the-number-of-people-during-a-demonstration/)
+Aware Online: [Calculate the number of people during a demonstration](https://www.aware-online.com/en/calculate-the-number-of-people-during-a-demonstration/).
 
 ## Tool provider
 
@@ -177,4 +177,3 @@ Possibility of Misrepresentation: In the context of politically sensitive events
 | Page maintainer |
 | --------------- |
 | Afton           |
-|                 |
