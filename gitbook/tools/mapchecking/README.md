@@ -34,7 +34,7 @@ For this reason, open-source investigators may find MapChecking a valuable tool 
 
 ### Here's how the tool generally works
 
-For this tool description, we take the recent protest in Tel Aviv on 1 September 2024 as an example.
+For this tool description, we take the protest in Tel Aviv on 1 September 2024 as an example.
 
 Our source image is a clip from the video uploaded by [the user](https://x.com/BarakRavid/status/1830292233922482540), potentially during the early hours of the event (before more people arrive). It mentions "tens of thousands of protesters" in Tel Aviv.&#x20;
 
