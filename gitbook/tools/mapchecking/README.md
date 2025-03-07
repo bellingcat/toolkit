@@ -100,17 +100,15 @@ Remember: Even with reference images, obstructions like buildings or bridges can
 
 ### STEP 5: Calculate the Total Estimated Crowd Size&#x20;
 
-The final step is to  drag the slider to where it says “Packed” and match the tool’s estimated density shown in the previous step. In this case,  we drag the slider to around 4.25 people per square meter since the estimated crowd density is somewhere between 4 and 4.5 square meter.&#x20;
+The final step is to drag the "Crowd density" slider until it matches the estimated density as defined in the previous step. In this case, we drag the slider to around 4.25 people per square meter since the estimated crowd density is somewhere between 4 and 4.5 square meter.&#x20;
 
-The estimated total crowd count for the area of interest is 57,917 (shown in bold letters on the tool)&#x20;
+The estimated total crowd count for the area of interest is 57,917 (shown in bold letters on the tool).
 
 {% hint style="info" %}
 NOTE: The total estimate changes, as the crowd density slides from light to crowded to packed. Keep in mind that an ultra-precise count will not be possible with this tool.&#x20;
 {% endhint %}
 
-<figure><img src=".gitbook/assets/Screenshot 2024-09-04 134055-marked.png" alt="" width="375"><figcaption><p>The final step is dragging the slider (shown in orange circle) between the different crowd density. When dragging the slider to "Packed", users can see that the density per square meter is 4.25 (shown in the yellow rectangle) matches our Step 4 estimate.  </p></figcaption></figure>
-
-
+<figure><img src=".gitbook/assets/Screenshot 2024-09-04 134055-marked.png" alt="" width="375"><figcaption><p>The final step is dragging the slider (shown in orange circle) between the different crowd density options. When dragging the slider to "Packed", users can see that the density per square meter is 4.25 (shown in the yellow rectangle) which matches STEP 4 estimate. </p></figcaption></figure>
 
 ## Cost
 
