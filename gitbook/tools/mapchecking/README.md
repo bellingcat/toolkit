@@ -28,7 +28,7 @@ Based on the steps below, MapChecking can calculate the estimated density of par
 
 The number of crowds can often be a [point of dispute ](https://apnews.com/general-news-f445adb3d0cf468ba0eb9caeab549577)between [participants and official statements](https://www.salon.com/2003/01/24/crowds/). Crowd sizes can also serve as evidence of how many people participated in a demonstration and [can be indicative of the significance](https://nixintel.info/osint/counting-crowds-in-public-spaces/) or reach of the event. Crowd counting is not only relevant for open source researchers. According to [this article](https://pmc.ncbi.nlm.nih.gov/articles/PMC10116033/), “\[e]stimation of crowd size for large gatherings is an indispensable metric for \[...] local authorities, and emergency management.”&#x20;
 
-Traditional crowd counting methods are either less publicly available, [such as entrance censors/turnstiles and ticket sales, or are a tedious and time-consuming procedure that includes cumbersome manual processes such as using people counters](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10116033/).
+Traditional crowd counting methods are either[ less publicly available](https://pmc.ncbi.nlm.nih.gov/articles/PMC10116033/), such as entrance censors/turnstiles and ticket sales, or are a [tedious and time-consuming procedure](https://pmc.ncbi.nlm.nih.gov/articles/PMC10116033/) that includes cumbersome manual processes such as using people counters.
 
 For this reason, open-source investigators may find MapChecking a valuable tool for verification.&#x20;
 
