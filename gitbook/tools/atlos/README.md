@@ -64,13 +64,15 @@ If your investigation is small-scale, a spreadsheet may suffice.
 
 If you want to archive a document while working on Atlos, put it in the Source Material category, not in the comments, otherwise only the text and URL are saved.
 
+Your use cases may not yet have been encountered by their team, so if you feel the platform does not meet your needs, you can contact the team vis e-mail.
+
+Note that the tool providers have clarified that, 'while Atlos' archival function supports journalistic investigations, it’s not suitable for legal or forensic evidence.'
+
 ## Ethical Considerations
 
-Take a look at their security and risk model, available here: [https://docs.atlos.org/safety-and-security/risk-model/](https://docs.atlos.org/safety-and-security/risk-model/)&#x20;
+Take a look at their security and risk model which is available here: [https://docs.atlos.org/safety-and-security/risk-model/](https://docs.atlos.org/safety-and-security/risk-model/).
 
-Your use cases may not yet have been encountered by their team, so if you feel the need to, you can contact the team by e-mail.
 
-Nevertheless, note that, according to their main page, 'while Atlos' archival function supports journalistic investigations, it’s not suitable for legal or forensic evidence.'
 
 ## Guides and articles
 
