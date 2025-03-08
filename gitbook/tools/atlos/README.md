@@ -12,14 +12,6 @@ description: >-
 
 ## Description
 
-ATLOS is a workspace created by two Stanford University students who formed a non-profit association.&#x20;
-
-This platform is open source (see [https://github.com/atlosdotorg/atlos](./#url)), and you can:
-
-* use it on the Internet or host it yourself
-* import and export your data in CSV format
-* create custom integrations, for example with third-party archiving and publishing tools
-
 <figure><img src=".gitbook/assets/index.png" alt=""><figcaption><p>source: <a href="https://docs.atlos.org/overview/">https://docs.atlos.org/overview/</a></p></figcaption></figure>
 
 The main objective of this tool is to enable a team of investigators to collaborate easily, even in large-scale investigations. The investigation has to be divided into several cases called ‘incidents’. You can then, on a single page:
