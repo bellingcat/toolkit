@@ -12,32 +12,30 @@ description: >-
 
 ## Description
 
-The main objective of Atlos is to enable a team of investigators to collaborate easily, even in large-scale investigations. The investigation has to be divided into several cases called ‘incidents’.
+The main objective of Atlos is to enables teams of investigators to collaborate easily, even during large-scale investigations. The investigation can be divided into several cases called ‘incidents’.
 
 <figure><img src=".gitbook/assets/index.png" alt=""><figcaption><p>source: <a href="https://docs.atlos.org/overview/">https://docs.atlos.org/overview/</a></p></figcaption></figure>
 
 You can then, on a single page:
 
-* create and characterise each case
-* alert everyone to the sensitivity of the footage before it is reached
-* collect digital material such as photos, videos and PDFs from all over the Internet
-* ... and archive it automatically
-* see material displayed in default greyscale, or colour
-* organise who is assigned or will receive updates on a case
-* work on it simultaneously&#x20;
-* .... and transparently (no comments written on ATLOS can be deleted later, so the whole investigation process is recorded)
-* specify the GPS coordinates and find the incident on a map
-* analyse the progress of your investigation
+* create and characterise each case;
+* alert everyone to the sensitivity of the footage before it is reached;
+* collect digital material such as photos, videos and PDFs from all over the Internet;
+* ... and archive it automatically;
+* see material displayed in default greyscale, or colour;
+* organise who is assigned or will receive updates on a case;
+* work on it simultaneously;
+* .... and transparently (no comments written on ATLOS can be deleted later, so the whole investigation process is recorded);
+* specify the GPS coordinates and find the incident on a map;
+* analyse the progress of your investigation.
 
 <figure><img src=".gitbook/assets/sourcematerial.png" alt=""><figcaption><p>Source : <a href="https://docs.atlos.org/incidents/source-material/">https://docs.atlos.org/incidents/source-material/</a></p></figcaption></figure>
 
 This platform is open source (see [https://github.com/atlosdotorg/atlos](./#url)), and you can:
 
-* use it on the Internet or host it yourself
-* import and export your data in CSV format
-* create custom integrations, for example with third-party archiving and publishing tools
-
-
+* use it on the Internet or host it yourself;
+* import and export your data in CSV format;
+* create custom integrations, for example with third-party archiving and publishing tools.
 
 ## Cost
 
