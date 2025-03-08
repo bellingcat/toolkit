@@ -29,8 +29,6 @@ The main objective of this tool is to enable a team of investigators to collabor
 
 <figure><img src=".gitbook/assets/sourcematerial.png" alt=""><figcaption><p>Source : <a href="https://docs.atlos.org/incidents/source-material/">https://docs.atlos.org/incidents/source-material/</a></p></figcaption></figure>
 
-ATLOS is a workspace created by two Stanford University students who formed a non-profit association.&#x20;
-
 This platform is open source (see [https://github.com/atlosdotorg/atlos](./#url)), and you can:
 
 * use it on the Internet or host it yourself
@@ -81,7 +79,7 @@ Nevertheless, note that, according to their main page, 'while Atlos' archival fu
 
 ## Tool provider
 
-Miles McCain and Noah Schechter
+ATLOS is a workspace created by two Stanford University students (Miles McCain and Noah Schechter) who formed a non-profit association.&#x20;
 
 Country where the tool providers are located: United States
 
