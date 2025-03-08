@@ -62,7 +62,7 @@ At the top of the [tool webpage](https://www.atlos.org/), click on ‘Join Atlos
 
 If your investigation is small-scale, a spreadsheet may suffice.
 
-And on ATLOS, if you want to archive a document, put it in Source Material, not in comments where only the text and URLs are saved.
+If you want to archive a document while working on Atlos, put it in the Source Material category, not in the comments, otherwise only the text and URL are saved.
 
 ## Ethical Considerations
 
