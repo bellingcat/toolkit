@@ -16,7 +16,7 @@ The main objective of Atlos is to enable teams of investigators to collaborate e
 
 <figure><img src=".gitbook/assets/index.png" alt=""><figcaption><p>source: <a href="https://docs.atlos.org/overview/">https://docs.atlos.org/overview/</a></p></figcaption></figure>
 
-You can then, on a single page:
+You can, on a single page:
 
 * create and characterise each case;
 * alert everyone to the sensitivity of the footage before it is reached;
