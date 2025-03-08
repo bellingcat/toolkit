@@ -79,13 +79,7 @@ Take a look at the Atlos security and risk model which is available here: [https
 
 ## Tool provider
 
-ATLOS is a workspace created by two Stanford University students (Miles McCain and Noah Schechter) who formed a non-profit association.&#x20;
-
-Country where the tool providers are located: United States
-
-{% embed url="https://github.com/milesmcc" %}
-
-{% embed url="https://github.com/noah-schechter" %}
+ATLOS is a collaborative platform created by two Stanford University students ([Miles McCain](https://github.com/milesmcc) and [Noah Schechter](https://github.com/noah-schechter)) in the United States, who formed a non-profit association.&#x20;
 
 ## Advertising Trackers
 
