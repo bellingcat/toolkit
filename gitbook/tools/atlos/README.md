@@ -45,7 +45,7 @@ This platform is open source (see [https://github.com/atlosdotorg/atlos](./#url)
 
 Free up to 10 incidents per month created and edited. Even with this free version, you have unlimited view access, your team could be of any size, and you can export your data whenever you want.
 
-Further prices are visible on the main page of their website.
+Further pricing information can be found [here](https://docs.atlos.org/overview/pricing/). &#x20;
 
 ## Level of difficulty
 
