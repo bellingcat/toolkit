@@ -39,9 +39,9 @@ The main objective of this tool is to enable a team of investigators to collabor
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
-* [x] Paid
+* [ ] Free
+* [x] Partially Free
+* [ ] Paid
 
 Free up to 10 incidents per month created and edited. Even with this free version, you have unlimited view access, your team could be of any size, and you can export your data whenever you want.
 
