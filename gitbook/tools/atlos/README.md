@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-The main objective of Atlos is to enables teams of investigators to collaborate easily, even during large-scale investigations. The investigation can be divided into several cases called ‘incidents’.
+The main objective of Atlos is to enable teams of investigators to collaborate easily, even during large-scale investigations. The investigation can be divided into several cases called ‘incidents’.
 
 <figure><img src=".gitbook/assets/index.png" alt=""><figcaption><p>source: <a href="https://docs.atlos.org/overview/">https://docs.atlos.org/overview/</a></p></figcaption></figure>
 
