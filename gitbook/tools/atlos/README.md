@@ -70,9 +70,7 @@ Note that the tool providers have clarified that, 'while Atlos' archival functio
 
 ## Ethical Considerations
 
-Take a look at their security and risk model which is available here: [https://docs.atlos.org/safety-and-security/risk-model/](https://docs.atlos.org/safety-and-security/risk-model/).
-
-
+Take a look at the Atlos security and risk model which is available here: [https://docs.atlos.org/safety-and-security/risk-model/](https://docs.atlos.org/safety-and-security/risk-model/).&#x20;
 
 ## Guides and articles
 
