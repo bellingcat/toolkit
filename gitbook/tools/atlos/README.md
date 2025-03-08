@@ -54,7 +54,7 @@ Further pricing information can be found [here](https://docs.atlos.org/overview/
 
 ## Requirements
 
-At the top of their web page, click on ‘Join Atlos’ and fill in the short form: e-mail address, name and password. You will be able to use MFA to secure your access to Atlos.
+At the top of the [tool webpage](https://www.atlos.org/), click on ‘Join Atlos’ and fill in the short form with your e-mail address, name and password. You will be able to use Multi-factor authentification to secure your access to Atlos.
 
 <figure><img src=".gitbook/assets/Capture d’écran 2025-02-26 à 22.10.51.png" alt=""><figcaption><p>Source: <a href="https://www.atlos.org/">https://www.atlos.org/</a></p></figcaption></figure>
 
