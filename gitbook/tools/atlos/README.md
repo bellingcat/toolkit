@@ -33,8 +33,8 @@ You can, on a single page:
 
 This platform is open source (see [https://github.com/atlosdotorg/atlos](./#url)), and you can:
 
-* use it on the Internet or host it yourself;
-* import and export your data in CSV format;
+* use it on the Internet or [host it yourself](https://docs.atlos.org/technical/self-hosting/);
+* [import and export](https://docs.atlos.org/investigations/import-and-export-data/) your data in CSV format;
 * create custom integrations, for example with third-party archiving and publishing tools.
 
 ## Cost
