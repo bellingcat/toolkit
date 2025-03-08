@@ -14,7 +14,7 @@ description: >-
 
 <figure><img src=".gitbook/assets/index.png" alt=""><figcaption><p>source: <a href="https://docs.atlos.org/overview/">https://docs.atlos.org/overview/</a></p></figcaption></figure>
 
-The main objective of this tool is to enable a team of investigators to collaborate easily, even in large-scale investigations. The investigation has to be divided into several cases called ‘incidents’. You can then, on a single page:
+The main objective of Atlos is to enable a team of investigators to collaborate easily, even in large-scale investigations. The investigation has to be divided into several cases called ‘incidents’. You can then, on a single page:
 
 * create and characterise each case
 * alert everyone to the sensitivity of the footage before it is reached
