@@ -6,8 +6,6 @@ description: >-
 
 # Atlos
 
-##
-
 ## URL
 
 [https://www.atlos.org/](https://www.atlos.org/)
