@@ -22,14 +22,17 @@ You can, on a single page:
 * alert everyone to the sensitivity of the footage before it is reached;
 * collect digital material such as photos, videos and PDFs from all over the Internet;
 * ... and archive it automatically;
+
+
+
+<figure><img src=".gitbook/assets/sourcematerial.png" alt=""><figcaption><p>Source : <a href="https://docs.atlos.org/incidents/source-material/">https://docs.atlos.org/incidents/source-material/</a></p></figcaption></figure>
+
 * see material displayed in default greyscale (to prevent [vicarious trauma](https://docs.atlos.org/safety-and-security/vicarious-trauma/)), or colour;
 * organise who is assigned to a case or will receive updates on it;
-* work on the case simultaneously;
+* work on the case simultaneously
 * .... and transparently (no comments written on ATLOS can be deleted later, so the whole investigation process is recorded);
 * specify the GPS coordinates and find the incident on a map;
 * analyse the progress of your investigation.
-
-<figure><img src=".gitbook/assets/sourcematerial.png" alt=""><figcaption><p>Source : <a href="https://docs.atlos.org/incidents/source-material/">https://docs.atlos.org/incidents/source-material/</a></p></figcaption></figure>
 
 This platform is open source (see [https://github.com/atlosdotorg/atlos](./#url)), and you can:
 
