@@ -37,6 +37,16 @@ The main objective of this tool is to enable a team of investigators to collabor
 
 <figure><img src=".gitbook/assets/sourcematerial.png" alt=""><figcaption><p>Source : <a href="https://docs.atlos.org/incidents/source-material/">https://docs.atlos.org/incidents/source-material/</a></p></figcaption></figure>
 
+ATLOS is a workspace created by two Stanford University students who formed a non-profit association.&#x20;
+
+This platform is open source (see [https://github.com/atlosdotorg/atlos](./#url)), and you can:
+
+* use it on the Internet or host it yourself
+* import and export your data in CSV format
+* create custom integrations, for example with third-party archiving and publishing tools
+
+
+
 ## Cost
 
 * [ ] Free
