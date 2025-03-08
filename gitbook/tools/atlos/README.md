@@ -23,8 +23,6 @@ You can, on a single page:
 * collect digital material such as photos, videos and PDFs from all over the Internet;
 * ... and archive it automatically;
 
-
-
 <figure><img src=".gitbook/assets/sourcematerial.png" alt=""><figcaption><p>Source : <a href="https://docs.atlos.org/incidents/source-material/">https://docs.atlos.org/incidents/source-material/</a></p></figcaption></figure>
 
 * see material displayed in default greyscale (to prevent [vicarious trauma](https://docs.atlos.org/safety-and-security/vicarious-trauma/)), or colour;
@@ -46,7 +44,7 @@ This platform is open source (see [https://github.com/atlosdotorg/atlos](./#url)
 * [x] Partially Free
 * [ ] Paid
 
-Free up to 10 incidents per month created and edited. Even with this free version, you have unlimited view access, your team could be of any size, and you can export your data whenever you want.
+Free for up to 10 incidents that can be created and edited per month. Even with this free version, you have unlimited view access, your team could be of any size, and you can export your data whenever you want.
 
 Further pricing information can be found [here](https://docs.atlos.org/overview/pricing/). &#x20;
 
