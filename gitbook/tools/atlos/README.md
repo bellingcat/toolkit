@@ -75,8 +75,7 @@ Take a look at the Atlos security and risk model which is available here: [https
 ## Guides and articles
 
 * [Atlos Docs](https://docs.atlos.org/)
-* [https://medium.com/@chrisosieck/geolocating-conflicts-in-fall-2022-with-various-methods-and-a-preview-of-the-new-tool-atlos-ae76f86bb1a3](https://medium.com/@chrisosieck/geolocating-conflicts-in-fall-2022-with-various-methods-and-a-preview-of-the-new-tool-atlos-ae76f86bb1a3)
-* [https://www.bellingcat.com/app/uploads/2023/06/Bellingcat-Annual-Report-2022\_com.pdf](https://www.bellingcat.com/app/uploads/2023/06/Bellingcat-Annual-Report-2022_com.pdf) (see page 26)
+* Chris Osieck: [Geolocating conflicts in Fall 2022 with various methods, and a previous of the new tool Atlos](https://medium.com/@chrisosieck/geolocating-conflicts-in-fall-2022-with-various-methods-and-a-preview-of-the-new-tool-atlos-ae76f86bb1a3), 2022.
 
 ## Tool provider
 
