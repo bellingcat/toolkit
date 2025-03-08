@@ -96,4 +96,3 @@ Country where the tool providers are located: United States
 | Page maintainer |
 | --------------- |
 | Stéphanie LADEL |
-|                 |
