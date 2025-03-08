@@ -22,7 +22,7 @@ You can, on a single page:
 * alert everyone to the sensitivity of the footage before it is reached;
 * collect digital material such as photos, videos and PDFs from all over the Internet;
 * ... and archive it automatically;
-* see material displayed in default greyscale, or colour;
+* see material displayed in default greyscale (to [prevent vicarious trauma](https://docs.atlos.org/safety-and-security/vicarious-trauma/)), or colour;
 * organise who is assigned or will receive updates on a case;
 * work on it simultaneously;
 * .... and transparently (no comments written on ATLOS can be deleted later, so the whole investigation process is recorded);
