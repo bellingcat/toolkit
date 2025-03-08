@@ -10,7 +10,7 @@ description: >-
 
 ## URL
 
-{% embed url="https://www.atlos.org" %}
+[https://www.atlos.org/](https://www.atlos.org/)
 
 ## Description
 
