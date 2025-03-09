@@ -109,7 +109,7 @@ The Internet Archive, United States
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                         |
-| --------------------------------------- |
-| Mia Bonardi (Bellingcat Volunteer Team) |
-|                                         |
+| Page maintainer                 |
+| ------------------------------- |
+| Mia (Bellingcat Volunteer Team) |
+|                                 |
