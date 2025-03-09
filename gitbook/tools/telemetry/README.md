@@ -10,7 +10,18 @@ description: An analytical search tool for Telegram groups and channels.
 
 ## Description
 
-Telemetry supports boolean search queries and returns results of 2.4b+ messages and 1m+ channels, allowing for analysis of group and individual activity on the platform. It also offers an API "to search, monitor and utilize Telegram data at scale."
+Telemetry has [data ](https://www.telemetryapp.io/product)from more than 1m+ Telegram channels and 2.5b+ messages, and supports boolean search queries that return results from public Telegram messages, groups, and channels, allowing for analysis of group and individual activity on the platform.&#x20;
+
+The platform can be used to identify which groups certain topics or terminology are being discussed in or to search for conversation taking place in certain groups or channels.&#x20;
+
+* _For example, searching "active clubs" in "Messages" returned results of public Telegram messages using the term, including from various regional active clubs' own channels, and provided information on each message's view count, reply count, and an option to dive into channel analytics._![](<.gitbook/assets/image (1).png>)
+* _Searching the same query within "Channels" provides a list of possible channels utilising the terminology._ ![](<.gitbook/assets/image (2).png>)
+
+
+
+The platform also offers analytics pages of a given group or channel, allowing access to metadata and analytics about the group or channel, such as the total engagement, number of subscribers/members, mentioned groups and channels, a filtered view of post types, and more.
+
+It also [offers ](https://www.telemetryapp.io/product)an API "to search, monitor and utilize Telegram data at scale."
 
 ## Cost
 
@@ -18,11 +29,11 @@ Telemetry supports boolean search queries and returns results of 2.4b+ messages 
 * [x] Partially Free
 * [ ] Paid
 
-Telemetry allows 5 free searches per day (providing up to 25 results) per account. For further access, pricing is as follows in USD:
+Telemetry allows 5 free searches per day (providing up to 25 results each) per account.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+Beyond the free version, Basic ($29 USD), Pro ($99 USD), and Enterprise (bespoke) plans are [available ](https://www.telemetryapp.io/pricing)for varying monthly prices, and include additional capabilities such as more search credits, longer data lookbacks in searches, data export options, and more.
 
-API access is also available [here](https://api.telemetryapp.io/docs/).
+Additional detail about the API access is available [here](https://api.telemetryapp.io/docs/).
 
 ## Level of difficulty
 
@@ -30,20 +41,20 @@ API access is also available [here](https://api.telemetryapp.io/docs/).
 
 ## Requirements
 
-Account creation is necessary to use the free search, and an understanding of basic boolean strings is recommended to use the tool most successfully.
+Account creation (requiring an email address) is necessary to use the free search, and an understanding of basic boolean strings is recommended to use the tool most successfully.
 
 ## Limitations
 
 The free version's searches only provide 25 results.
 
-Swapping the results of a single search between "Messages" and "Channels" uses one allotted token.
+Each search costs 1 token. Note that if you search a query within "Messages" data, then switch to "Channels" data, the search will be effectively re-run, and this will use a total of two tokens.
 
 ## Ethical Considerations
 
 When using Telemetry for research purposes, it's imperative to consider the following ethical aspects:
 
 * **Privacy and Consent**: Although Telemetry archives public posts, researchers should be mindful of the privacy expectations of individuals who made those posts. Not all users understand or anticipate their contributions being analysed or quoted in research.
-* **Bias and Representativeness**: Acknowledge that the data collected from Open Measures may not be representative of broader populations or viewpoints. Research findings should be contextualised within the scope and limitations of the data source.
+* **Bias and Representativeness**: Acknowledge that the data collected from Telemetry may not be representative of broader populations or viewpoints. Research findings should be contextualised within the scope and limitations of the data source.
 * **The Oxygen of Amplification**_**:**_ Think carefully about what you publish so as not to unwittingly amplify some of the messaging present on fringe platforms. (_See_ [_The Oxygen of Amplification: Better Practices for Reporting on Extremists, Antagonists, and Manipulators Online_](https://datasociety.net/library/oxygen-of-amplification/) _by Whitney Phillips)._
 
 Telemetry's Privacy Policy can be found [here.](https://www.telemetryapp.io/policies/privacy-policy)
