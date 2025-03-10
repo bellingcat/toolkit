@@ -8,7 +8,14 @@ description: >-
 
 ## URL
 
-[https://transparency.fb.com/tools/meta-content-library/](https://transparency.fb.com/tools/meta-content-library/)
+[https://transparency.meta.com/researchtools/meta-content-library](https://transparency.meta.com/researchtools/meta-content-library)\
+
+
+{% hint style="info" %}
+While this is a free tool, access is strictly limited to researchers and journalists. Individuals can [apply for access](https://docs.google.com/document/d/1iN4KOvFaYGZro23cB4j1FveouXMBcZnKl-yTUyx6fCg/) to these tools at the[ Inter-university Consortium for Political and Social Research (ICPSR)](https://en.wikipedia.org/wiki/Inter-university_Consortium_for_Political_and_Social_Research) at the University of Michigan. If you intend to use it for research purposes, make sure to schedule the application time: The review process typically takes between [2-4 weeks](https://socialmediaarchive.org/pages/?page=FAQs\&ln=en) but can take up to[ 3-6 months](https://www.researchdatagov.org/faq) for multi-agency data access requests or if [additional reviews](https://socialmediaarchive.org/pages/?page=Meta%20Content%20Library%20FAQs\&ln=en) are needed.&#x20;
+{% endhint %}
+
+
 
 ## Description
 
@@ -16,12 +23,12 @@ The **Meta Content Library** is a research tool providing vetted academic and no
 
 The platform features:
 
-* **User Interface (UI):** A web-based dashboard for content search and filtering.
-* **API Access:** Programmatic access for large-scale queries (Python or R via ICPSR's secure Virtual Data Enclave).
+* [**User Interface**](https://en.wikipedia.org/wiki/User_interface) **(UI):** A web-based dashboard for content search and filtering.
+* [**API** ](https://en.wikipedia.org/wiki/API)**Access:** Programmatic access for large-scale queries (Python or R via ICPSR's secure Virtual Data Enclave).
 * **Advanced Filtering:** Keyword searches, engagement metrics, date ranges, and language filters.
 * **Engagement Insights:** View counts, reactions, shares, and comments with hashed user IDs.
 * **Historical Data:** Access dating back to Facebook's launch (2004), with updates in near real-time.
-* **CSV Downloads:** Available for accounts meeting the "widely known" criteria (e.g., Facebook Pages with ≥15,000 followers, Instagram/Threads accounts with ≥25,000 followers).
+* [**CSV** ](https://en.wikipedia.org/wiki/Comma-separated_values)**Downloads:** Available for accounts meeting the "widely known" criteria (e.g., Facebook Pages with ≥15,000 followers, Instagram/Threads accounts with ≥25,000 followers).
 * **Privacy Protection:** Content is subject to deletion/privacy settings, ensuring ethical use.
 
 <details>
@@ -62,8 +69,6 @@ The platform features:
 * [ ] Partially Free
 * [ ] Paid
 
-Access is free but limited to approved researchers through the ICPSR application process.
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
@@ -72,33 +77,33 @@ Moderate difficulty: The UI is user-friendly, but API access requires coding kno
 
 ## Requirements
 
-* Researchers must be affiliated with an academic or non-profit institution.
+* Researchers must be affiliated with an[ academic or non-profit institution.](https://socialmediaarchive.org/pages/?page=FAQs\&ln=en)
 * Applications are vetted by the **Inter-university Consortium for Political and Social Research**[ **(ICPSR)**](https://www.icpsr.umich.edu/).
-* No IRB approval required, but applicants must submit a research agenda.
-* UI access is available upon approval; API access requires a separate virtual data enclave (VDE) credential.
+* No [IRB approval](https://en.wikipedia.org/wiki/Institutional_review_board) required, but applicants must submit a research agenda.
+* User interface access is available upon approval; API access requires a separate [virtual data enclave (VDE)](https://www.icpsr.umich.edu/web/pages/ICPSR/access/restricted/enclave.html) credential, which requires additional documentation (research proposal approved by your IRB).
 
 ## Limitations
 
-* **Restricted Access:** Only available to approved researchers (not general public or journalists).
+* **Restricted Access:** Only available to approved researchers (not general public).
 * **Data Privacy:** Deleted/private posts become unavailable; raw data cannot be exported from API.
 * **Query Limits:** API access has a weekly cap of 500,000 retrieved content items.
 * **Replication Challenges:** Due to content deletion or privacy changes, perfect replication of results can be difficult.
-* **No Personal Identifiers:** User data is hashed unless the account is a public entity.
+* **No Personal Identifiers:** User data is[ hashed](https://www.edps.europa.eu/data-protection/our-work/publications/papers/introduction-hash-function-personal-data_en) unless the account is a public entity.
 
 ## Ethical Considerations
 
 * **Privacy Compliance:** Researchers must respect data privacy and ethical standards.
-* **No User Tracking:** The platform does not allow longitudinal tracking of individuals.
-* **Use Limitations:** Data cannot be used for surveillance or commercial purposes.
+* **No User Tracking:** The platform does not allow [longitudinal tracking](https://transparency.meta.com/researchtools/product-terms-meta-research) of individuals.
+* **Use Limitations:** Data cannot be used for[ surveillance or commercial purposes](https://transparency.meta.com/researchtools/product-terms-meta-research).
 
 ## Guide
 
-* **Official Documentation:** [Meta Transparency Center](https://transparency.fb.com/tools/meta-content-library/)
+* **Official Documentation:** [Meta Transparency Center](https://transparency.meta.com/researchtools/meta-content-library)
 * **ICPSR Social Media Archive:** [https://www.icpsr.umich.edu/](https://www.icpsr.umich.edu/)
 
 ## Tool provider
 
-Meta Platforms, Inc.
+[Meta Platforms, Inc](https://en.wikipedia.org/wiki/Meta_Platforms). Menlo Park, California, U.S
 
 ## Advertising Trackers
 
