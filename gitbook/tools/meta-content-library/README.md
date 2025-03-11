@@ -1,7 +1,8 @@
 ---
 description: >-
-  Meta Content Library provides researchers with access to public Facebook,
-  Instagram, and Threads content with search, filtering, and engagement metrics.
+  Meta Content Library provides approved researchers with access to public
+  Facebook, Instagram, and Threads content with search, filtering, and
+  engagement metrics.
 ---
 
 # Meta Content Library
