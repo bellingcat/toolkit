@@ -130,7 +130,7 @@ UofILibrary (Director). (2022, November 30). _RAWGraphs—Data Hub Tool Talk_ \[
 
 ## Tool provider
 
-RAWGraphs was first released in 2013 as “RAW” by researchers at the DensityDesign Lab (Politecnico di Milano). It is maintained and developed by the DensityDesign Lab, the design studio Calibro, and the development firm Inmagik​. [https://www.rawgraphs.io/about](https://www.rawgraphs.io/about)
+RAWGraphs was first released in 2013 as “RAW” by researchers at the DensityDesign Lab (Politecnico di Milano, Italy). It is maintained and developed by the [DensityDesign Lab ](https://densitydesign.org/)(Milan, Italy), the design studio [Calibro](https://calib.ro/) (Milan, Italy), and the development firm [Inmagik ](https://inmagik.com/)(Bergamo, Italy)​. [https://www.rawgraphs.io/about](https://www.rawgraphs.io/about)
 
 ## Advertising Trackers
 
