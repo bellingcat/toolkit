@@ -85,7 +85,7 @@ The tool is provided by Hacker Factor, also known as Dr. Neal Krawetz. More deta
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer         |
-| ----------------------- |
-| Anisa Shabir GAP member |
-|                         |
+| Page maintainer |
+| --------------- |
+| Anisa Shabir    |
+|                 |

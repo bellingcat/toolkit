@@ -38,6 +38,8 @@ _Afton_ is a volunteer open-source investigator with training in digital investi
 
 _Anisa Shabir_ is a volunteer open-source researcher at Bellingcat's Global Authentication Project and holds an MA in investigative journalism from the Arizona State University's Howard Center for Investigative Journalism. Anisa is the Volunteer Toolkit Guardian for the category [Image/Video](https://bellingcat.gitbook.io/toolkit/categories/image-video).
 
+Lieth is a Colombian anthropologist dedicated to transnational organized crime and corruption research. She is currently involved in OSINT research on transnational wildlife trade and illegal exploitation of natural resources. She is the Volunteer Toolkit Guardian for the [Environment & Wildlife ](https://bellingcat.gitbook.io/toolkit/categories/environment-and-wildlife)category.
+
 _Lora_ is a linguist by education, media and corporate intel analyst by trade, and an occasional due diligence investigator. She is the Volunteer Toolkit Guardian for the [Companies & Finance](https://bellingcat.gitbook.io/toolkit/categories/companies-and-finance) category.
 
 _Martin Sona_ is an interdisciplinary researcher and lecturer with a social psychology, cognitive neuroscience, and tech innovation background. He's passionate about science, community coordination, and making complex information meaningful and accessible. Here, he serves as the Volunteer Toolkit Guardian for the [Social Media](https://bellingcat.gitbook.io/toolkit/categories/social-media) category.
