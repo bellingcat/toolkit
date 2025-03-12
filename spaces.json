@@ -6226,5 +6226,35 @@
       "merge": true,
       "review": true
     }
+  },
+  {
+    "object": "space",
+    "id": "kiPA5zSZL0LWEh807xSh",
+    "title": "Linkdtime",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-03-12T20:52:12.426Z",
+    "updatedAt": "2025-03-12T20:52:12.426Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/kiPA5zSZL0LWEh807xSh",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/kiPA5zSZL0LWEh807xSh/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "YUcj9DEbzh05Kfce7LJA",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "access": true,
+      "admin": true,
+      "edit": true,
+      "comment": true,
+      "merge": true,
+      "review": true
+    }
   }
 ]
