@@ -6286,5 +6286,35 @@
       "merge": true,
       "review": true
     }
+  },
+  {
+    "object": "space",
+    "id": "EvsnnkJT58ftN3e9sVZr",
+    "title": "Gaode Maps",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-03-13T10:21:14.925Z",
+    "updatedAt": "2025-03-13T10:21:14.925Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/EvsnnkJT58ftN3e9sVZr",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/EvsnnkJT58ftN3e9sVZr/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "el5UCMc935zhKS8SA90u",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "access": true,
+      "admin": true,
+      "edit": true,
+      "comment": true,
+      "merge": true,
+      "review": true
+    }
   }
 ]
