@@ -19,18 +19,18 @@ The main objective of Atlos is to enable teams of investigators to collaborate e
 You can, on a single page:
 
 * create and characterise each case;
-* alert everyone to the presence of graphic images before they are viewed if necessary to prevent [vicarious trauma](https://docs.atlos.org/safety-and-security/vicarious-trauma/) ;
-* collect digital material such as photos, videos and PDFs from all over the Internet (press articles, Telegram or X.com posts,...);
+* alert everyone to the presence of graphic images before researchers get to see it to prevent [vicarious trauma](https://docs.atlos.org/safety-and-security/vicarious-trauma/) ;
+* collect digital material such as photos, videos and Pdfs from all over the Internet (press articles, Telegram or X posts,...);
 * ... and archive it automatically;
 
-<figure><img src=".gitbook/assets/sourcematerial.png" alt=""><figcaption><p>View of an archived file.<br>Source : <a href="https://docs.atlos.org/incidents/source-material/">https://docs.atlos.org/incidents/source-material/</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/sourcematerial.png" alt=""><figcaption><p>View of an archived file, in this example a video.<br>Source: <a href="https://docs.atlos.org/incidents/source-material/">https://docs.atlos.org/incidents/source-material/</a></p></figcaption></figure>
 
 * see material displayed in default greyscale, or colour;
 * organise who is assigned to a case or will receive updates on it;
 * work on the case simultaneously
 * .... and transparently (no comments written on ATLOS can be deleted later, so the whole investigation process is recorded);
 * specify the GPS coordinates and find the incident on a map;
-* analyse the progress of your investigation (How many incidents remain to be dealt with? To which locations are the project occurrences geolocated?...).
+* analyse the progress of your investigation (How many incidents remain to be dealt with? To which locations are incidents geolocated?...).
 
 <figure><img src=".gitbook/assets/map.png" alt=""><figcaption><p>Map view of geolocated incidents.<br>Source: <a href="https://docs.atlos.org/">https://docs.atlos.org/</a></p></figcaption></figure>
 
