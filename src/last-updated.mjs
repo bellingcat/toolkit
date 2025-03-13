@@ -16,7 +16,7 @@ Promise.all(publishedTools.map(function(tool) {
     console.log('All tools are up to date');
     process.exit(0);
   } else {
-    console.log(needUpdate.length, 'tools have not been updated in 1 month');
+    console.log(needUpdate.length, 'tools have not been updated in 2 months');
     needUpdate.forEach((tool) => {
       console.log(tool.title);
     });
@@ -27,7 +27,7 @@ Promise.all(publishedTools.map(function(tool) {
 async function isUpdated(tool) {
   // search git history for commits starting with GITBOOK-tool-slug-{number}: 
   // and find the most recent commit date
-  const cmd = `git log --since="1 month ago" --grep="GITBOOK-${tool.filename}-" --format=%cd --date=short | head -n 1`;
+  const cmd = `git log --since="2 months ago" --grep="GITBOOK-${tool.filename}-" --format=%cd --date=short | head -n 1`;
   const { stdout, stderr } = await exec(cmd);
   if (stderr) {
     console.error(stderr);
