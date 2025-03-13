@@ -38,7 +38,7 @@ You can, on a single page:
 
 This platform is open source (see [https://github.com/atlosdotorg/atlos](./#url)), and you can:
 
-* use it on the Internet or [host it yourself](https://docs.atlos.org/technical/self-hosting/);
+* use it as web version or [host it yourself](https://docs.atlos.org/technical/self-hosting/);
 * [import and export](https://docs.atlos.org/investigations/import-and-export-data/) your data in CSV format;
 * create custom integrations, for example with third-party archiving and publishing tools.
 
@@ -48,7 +48,7 @@ This platform is open source (see [https://github.com/atlosdotorg/atlos](./#url)
 * [x] Partially Free
 * [ ] Paid
 
-Free for up to 10 incidents that can be created and edited per month. Even with this free version, you have unlimited view access, your team could be of any size, and you can export your data whenever you want.
+Free for up to 10 incidents that can be created and edited per month. Even with this free version, you have unlimited view access, your team can be of any size, and you can export your data whenever you want.
 
 Further pricing information can be found [here](https://docs.atlos.org/overview/pricing/). &#x20;
 
@@ -68,22 +68,22 @@ If your investigation is small-scale, a spreadsheet may suffice.
 
 If you want to archive a document while working on Atlos, put it in the Source Material category, not in the comments, otherwise only the text and URL are saved.
 
-Your use cases may not yet have been encountered by their team, so if you feel the platform does not meet your needs, you can [contact the team via e-mail](https://www.atlos.org/#contact).
+Your specific use cases may not yet have been encountered by the Atlos team, so if you feel the platform is missing an important feature, you can [contact the team via e-mail](https://www.atlos.org/#contact).
 
-Note that the tool providers have clarified that [in their FAQ section](https://www.atlos.org/), 'while Atlos' archival function supports journalistic investigations, it’s not suitable for legal or forensic evidence.'
+Note that the tool providers have clarified [in their FAQ section](https://www.atlos.org/) that 'while Atlos' archival function supports journalistic investigations, it’s not suitable for legal or forensic evidence.'
 
 ## Ethical Considerations
 
-Take a look at the Atlos security and risk model which is available here: [https://docs.atlos.org/safety-and-security/risk-model/](https://docs.atlos.org/safety-and-security/risk-model/).&#x20;
+Take a look at the Atlos security and risk model which is available [here](https://docs.atlos.org/safety-and-security/risk-model/).&#x20;
 
 ## Guides and articles
 
 * [Atlos Docs](https://docs.atlos.org/)
-* Chris Osieck: [Geolocating conflicts in Fall 2022 with various methods, and a previous of the new tool Atlos](https://medium.com/@chrisosieck/geolocating-conflicts-in-fall-2022-with-various-methods-and-a-preview-of-the-new-tool-atlos-ae76f86bb1a3), 2022.
+* Chris Osieck: [Geolocating conflicts in Fall 2022 with various methods, and a preview of the new tool Atlos](https://medium.com/@chrisosieck/geolocating-conflicts-in-fall-2022-with-various-methods-and-a-preview-of-the-new-tool-atlos-ae76f86bb1a3), 2022.
 
 ## Tool provider
 
-ATLOS is a collaborative platform created by two Stanford University students ([Miles McCain](https://github.com/milesmcc) and [Noah Schechter](https://github.com/noah-schechter)) in the United States, who formed a non-profit association.&#x20;
+ATLOS is a collaborative platform created by two Stanford University students ([Miles McCain](https://github.com/milesmcc) and [Noah Schechter](https://github.com/noah-schechter)) who formed a non-profit association in the United States.
 
 ## Advertising Trackers
 
