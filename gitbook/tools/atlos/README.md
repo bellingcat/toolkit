@@ -14,13 +14,13 @@ description: >-
 
 The main objective of Atlos is to enable teams of investigators to collaborate easily, even on large-scale investigations. Investigations can be divided into several cases or occurrences, also called ‘incidents’.
 
-<figure><img src=".gitbook/assets/index.png" alt=""><figcaption><p>View of an ‘incident’ page on Atlos.<br>The 'Feed' section shows recent activity on the Atlos platform including whether researchers have added new files or incidents.<br>source: <a href="https://docs.atlos.org/overview/">https://docs.atlos.org/overview/</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/index.png" alt=""><figcaption><p>View of an ‘incident’ page on Atlos.<br>The 'Feed' section shows recent activity on the Atlos platform including whether researchers have added new files or incidents.<br>Source: <a href="https://docs.atlos.org/overview/">https://docs.atlos.org/overview/</a></p></figcaption></figure>
 
 You can, on a single page:
 
 * create and characterise each case;
-* alert everyone to the presence of graphic images before researchers get to see it to prevent [vicarious trauma](https://docs.atlos.org/safety-and-security/vicarious-trauma/) ;
-* collect digital material such as photos, videos and Pdfs from all over the Internet (press articles, Telegram or X posts,...);
+* alert everyone to the presence of graphic images before researchers get to see it to prevent [vicarious trauma](https://docs.atlos.org/safety-and-security/vicarious-trauma/);
+* collect digital material such as photos, videos and pdfs from all over the Internet (press articles, Telegram or X posts,...);
 * ... and archive it automatically;
 
 <figure><img src=".gitbook/assets/sourcematerial.png" alt=""><figcaption><p>View of an archived file, in this example a video.<br>Source: <a href="https://docs.atlos.org/incidents/source-material/">https://docs.atlos.org/incidents/source-material/</a></p></figcaption></figure>
@@ -28,13 +28,13 @@ You can, on a single page:
 * see material displayed in default greyscale, or colour;
 * organise who is assigned to a case or will receive updates on it;
 * work on the case simultaneously
-* .... and transparently (no comments written on ATLOS can be deleted later, so the whole investigation process is recorded);
+* .... and transparently (no comments written on ATLOS can be deleted afterwards, the whole investigation process is recorded);
 * specify the GPS coordinates and find the incident on a map;
 * analyse the progress of your investigation (How many incidents remain to be dealt with? To which locations are incidents geolocated?...).
 
-<figure><img src=".gitbook/assets/map.png" alt=""><figcaption><p>Map view of geolocated incidents.<br>Source: <a href="https://docs.atlos.org/">https://docs.atlos.org/</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/map.png" alt=""><figcaption><p>Geolocated incidents are visualised on a map.<br>Source: <a href="https://docs.atlos.org/">https://docs.atlos.org/</a></p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/searchdata (1) (2).png" alt=""><figcaption><p>Table view of a project.<br>Source: <a href="https://docs.atlos.org/investigations/searching-and-visualizing-data/">https://docs.atlos.org/investigations/searching-and-visualizing-data/</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/searchdata (1) (2).png" alt=""><figcaption><p>Example for a project overview which shows a list of incidents, their status, date and incident type.<br>Source: <a href="https://docs.atlos.org/investigations/searching-and-visualizing-data/">https://docs.atlos.org/investigations/searching-and-visualizing-data/</a></p></figcaption></figure>
 
 This platform is open source (see [https://github.com/atlosdotorg/atlos](./#url)), and you can:
 
