@@ -58,7 +58,7 @@ Czech Republic, Peter Kleissner, founder info can be found at [https://intelx.io
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer      |
-| -------------------- |
-| Aiganysh Aidarbekova |
-|                      |
+| Page maintainer       |
+| --------------------- |
+| Aiganysh Aidarbekova; |
+|                       |
