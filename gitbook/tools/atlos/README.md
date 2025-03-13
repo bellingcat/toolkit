@@ -12,25 +12,29 @@ description: >-
 
 ## Description
 
-The main objective of Atlos is to enable teams of investigators to collaborate easily, even on large-scale investigations. Investigations can be divided into several cases called ‘incidents’.
+The main objective of Atlos is to enable teams of investigators to collaborate easily, even on large-scale investigations. Investigations can be divided into several cases or occurrences, also called ‘incidents’.
 
-<figure><img src=".gitbook/assets/index.png" alt=""><figcaption><p>source: <a href="https://docs.atlos.org/overview/">https://docs.atlos.org/overview/</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/index.png" alt=""><figcaption><p>View of an ‘incident’ page on Atlos.<br>The 'Feed' section can make it more or less long.<br>source: <a href="https://docs.atlos.org/overview/">https://docs.atlos.org/overview/</a></p></figcaption></figure>
 
 You can, on a single page:
 
 * create and characterise each case;
-* alert everyone to the sensitivity of the footage before it is reached;
-* collect digital material such as photos, videos and PDFs from all over the Internet;
+* alert everyone to the presence of graphic images before they are viewed if necessary to prevent [vicarious trauma](https://docs.atlos.org/safety-and-security/vicarious-trauma/) ;
+* collect digital material such as photos, videos and PDFs from all over the Internet (press articles, Telegram or X.com posts,...);
 * ... and archive it automatically;
 
-<figure><img src=".gitbook/assets/sourcematerial.png" alt=""><figcaption><p>Source : <a href="https://docs.atlos.org/incidents/source-material/">https://docs.atlos.org/incidents/source-material/</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/sourcematerial.png" alt=""><figcaption><p>View of an archived file.<br>Source : <a href="https://docs.atlos.org/incidents/source-material/">https://docs.atlos.org/incidents/source-material/</a></p></figcaption></figure>
 
-* see material displayed in default greyscale (to prevent [vicarious trauma](https://docs.atlos.org/safety-and-security/vicarious-trauma/)), or colour;
+* see material displayed in default greyscale, or colour;
 * organise who is assigned to a case or will receive updates on it;
 * work on the case simultaneously
 * .... and transparently (no comments written on ATLOS can be deleted later, so the whole investigation process is recorded);
 * specify the GPS coordinates and find the incident on a map;
-* analyse the progress of your investigation.
+* analyse the progress of your investigation (How many incidents remain to be dealt with? To which locations are the project occurrences geolocated?...).
+
+<figure><img src=".gitbook/assets/map.png" alt=""><figcaption><p>Map view of geolocated incidents.<br>Source: <a href="https://docs.atlos.org/">https://docs.atlos.org/</a></p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/searchdata (1) (2).png" alt=""><figcaption><p>Table view of a project.<br>Source: <a href="https://docs.atlos.org/investigations/searching-and-visualizing-data/">https://docs.atlos.org/investigations/searching-and-visualizing-data/</a></p></figcaption></figure>
 
 This platform is open source (see [https://github.com/atlosdotorg/atlos](./#url)), and you can:
 
@@ -64,9 +68,9 @@ If your investigation is small-scale, a spreadsheet may suffice.
 
 If you want to archive a document while working on Atlos, put it in the Source Material category, not in the comments, otherwise only the text and URL are saved.
 
-Your use cases may not yet have been encountered by their team, so if you feel the platform does not meet your needs, you can contact the team vis e-mail.
+Your use cases may not yet have been encountered by their team, so if you feel the platform does not meet your needs, you can [contact the team via e-mail](https://www.atlos.org/#contact).
 
-Note that the tool providers have clarified that, 'while Atlos' archival function supports journalistic investigations, it’s not suitable for legal or forensic evidence.'
+Note that the tool providers have clarified that [in their FAQ section](https://www.atlos.org/), 'while Atlos' archival function supports journalistic investigations, it’s not suitable for legal or forensic evidence.'
 
 ## Ethical Considerations
 
