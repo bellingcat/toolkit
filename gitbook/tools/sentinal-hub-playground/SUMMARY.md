@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Copernicus Browser and EO Browser (formerly Sentinel Hub Playground)](README.md)
+* [Copernicus Browser (formerly Sentinel Hub Playground, EO Browser)](README.md)
 * [Categories](categories.md)
