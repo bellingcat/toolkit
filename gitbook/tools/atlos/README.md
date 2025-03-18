@@ -36,7 +36,7 @@ You can, on a single page:
 
 <figure><img src=".gitbook/assets/searchdata (1) (2).png" alt=""><figcaption><p>Example for a project overview which shows a list of incidents, their status, date and incident type.<br>Source: <a href="https://docs.atlos.org/investigations/searching-and-visualizing-data/">https://docs.atlos.org/investigations/searching-and-visualizing-data/</a></p></figcaption></figure>
 
-This platform is open source (see [https://github.com/atlosdotorg/atlos](./#url)), and you can:
+This platform is open source (see [here](https://github.com/atlosdotorg/atlos)), and you can:
 
 * use its web version or [host it yourself](https://docs.atlos.org/technical/self-hosting/);
 * [import and export](https://docs.atlos.org/investigations/import-and-export-data/) your data in CSV format;
