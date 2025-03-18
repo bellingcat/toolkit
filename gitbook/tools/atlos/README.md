@@ -30,7 +30,7 @@ You can, on a single page:
 * work on the case simultaneously;
 * .... and transparently (no comments written on ATLOS can be deleted afterwards, the whole investigation process is recorded);
 * specify the GPS coordinates and find the incident on a map;
-* analyse the progress of your investigation (How many incidents are waiting to be addressed? To which locations are incidents geolocated?...).
+* analyse the progress of your investigation (How many incidents are waiting to be addressed? Where are incidents geolocated?...).
 
 <figure><img src=".gitbook/assets/map.png" alt=""><figcaption><p>Geolocated incidents are visualised on a map.<br>Source: <a href="https://docs.atlos.org/">https://docs.atlos.org/</a></p></figcaption></figure>
 
