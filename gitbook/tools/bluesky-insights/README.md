@@ -14,12 +14,50 @@ description: >-
 
 Bluesky Insights is a free web-based analytics platform designed specifically for the Bluesky social network. It provides detailed insights into user activity, engagement trends, and content themes without requiring account authentication. Think of it like a “Social Blade” for Bluesky: a third-party website that lets anyone plug in a publicly available Bluesky handle to see at-a-glance metrics and in-depth data visualizations.
 
-#### **Features & Use Cases**
+## **Features**
 
-* **User Analytics**: Track follower growth, engagement rates (likes, reposts, replies), and post-performance over time.
-* **Activity Trends**: Identify active posting times, top-performing content, and posting frequency patterns.
-* **Word Cloud Analysis**: Automatically generate word clouds to spotlight frequently used terms and hashtags.
-* **Trending Hashtags**: Monitor real-time trending topics on Bluesky for emerging conversations or viral content.
+**Overview Metrics**
+
+* **Total Posts, Following, Followers**: A quick snapshot of overall activity and reach.
+* **Average Likes, Reposts, Replies**: High-level engagement averages to gauge how each post typically performs.
+* **Favorite Hashtag & Emoji**: Identifies which hashtag or emoji appears most often in your posts.
+* **Most Active Day**: Pinpoints the single day with the highest posting volume.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>A Bluesky Insights dashboard view for Bellingcat’s account, showing key metrics like total posts, followers, average likes, and favorite hashtag (#RightsCon).</p></figcaption></figure>
+
+**Engagement Rate**
+
+* Shows likes, reposts, quotes, and replies over a selected time range (e.g., last 7 days).
+* Includes easy-to-read charts for spotting engagement spikes and trends.
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>A 7-day engagement overview, visualizing likes, reposts, quotes, and replies, along with total posts and average interactions.</p></figcaption></figure>
+
+**Posts Breakdown by Type**
+
+* Pie chart illustrating the proportion of original posts, reposts, quotes, and replies.
+* Quickly see if you’re more of a content creator, curator, or conversationalist.
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>A pie chart from Bluesky Insights illustrating the user’s post distribution (posts, reposts, quotes, replies), with ‘Active Dialoguer’ highlighting that 68% of engagement comes from direct replies.</p></figcaption></figure>
+
+**Word Cloud**
+
+* Automatically generates a cloud of frequently used words and hashtags in your posts. (The download feature will save it as a \*.png file without watermarks.)
+* Helps reveal dominant themes, topics, or campaigns the user engages with most.
+
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>A snapshot of frequently used words from Bellingcat's Bluesky posts, with ‘research,’ ‘open,’ and ‘source’ standing out as prominent themes.</p></figcaption></figure>
+
+**Top Post**
+
+* Identifies best-performing post, based on likes, reposts, replies, or other interactions.
+
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Bellingcat’s top-performing Bluesky post, highlighting their new flight-tracking project for Guantanamo Bay, garnered significant engagement through likes, reposts, and quotes.</p></figcaption></figure>
+
+**Posts Activity by Hour**
+
+* Bar chart showing posting times across a 24-hour period.
+* From an OSINT standpoint, seeing peak posting times can hint at a user’s likely time zone or routine and help pinpoint when they’re most responsive to events. This allows researchers to focus their monitoring efforts during the most active windows, improving real-time data collection and analysis
+
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>Hourly posting distribution for this Bluesky account, highlighting a pronounced activity peak in the late afternoon.</p></figcaption></figure>
 
 #### **Open Source Research Applications**
 
@@ -28,7 +66,7 @@ Bluesky Insights is a free web-based analytics platform designed specifically fo
 * **Narrative Analysis**: Examine common themes and keywords across user-generated content.
 * **Comparative Analysis**: Compare multiple Bluesky accounts to identify similarities in timing, content, or engagement trends.
 
-By enabling external analytics on Bluesky profiles, Bluesky Insights can provide valuable insights for researchers, journalists, and analysts investigating interactions or influence within this decentralized platform.
+By enabling analytics on Bluesky profiles, Bluesky Insights can provide valuable insights for researchers, journalists, and analysts investigating interactions or influence within this decentralized platform.
 
 ## Cost
 
@@ -49,15 +87,12 @@ By enabling external analytics on Bluesky profiles, Bluesky Insights can provide
 ## Limitations
 
 * **Bluesky-Only Scope**: The tool is limited to analyzing Bluesky profiles; it does not support other social networks like Twitter/X or Mastodon.
-* **Public Data Only**: It can only collect and display information that is publicly available on Bluesky; private or unlisted data is excluded.
-* **API Rate Limits**: Bluesky’s API may impose restrictions on data retrieval frequency, possibly limiting historical data or causing delays with large queries.
 * **No Network Graphs**: Follower/following relationships are displayed numerically, but there is no built-in visualization of social network links.
 
 ## Ethical Considerations
 
 * **Respect User Privacy**: Although data is public, users may not expect deep analytics done based on their data.
 * **Avoid Misuse**: Use responsibly for legitimate open source research purposes.
-* **Terms of Service Compliance**: Ensure usage aligns with Bluesky’s policies.
 
 ## Guides and articles
 
@@ -65,7 +100,7 @@ By enabling external analytics on Bluesky profiles, Bluesky Insights can provide
 
 ## Tool provider
 
-Independent developer "Sahaj" (@iamsahaj.bsky.social)
+Independent developer "Sahaj" ([@](https://bsky.app/profile/iamsahaj.xyz)[iamsahaj.xyz](https://bsky.app/profile/iamsahaj.xyz); Gurugram, India)
 
 ## Advertising Trackers
 
