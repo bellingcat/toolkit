@@ -14,7 +14,7 @@ description: >-
 
 The main objective of Atlos is to enable teams of investigators to collaborate easily, even on large-scale investigations. Investigations are divided into several cases or occurrences, also called ‘incidents’.
 
-<figure><img src=".gitbook/assets/index.png" alt=""><figcaption><p>View of an ‘incident’ page on Atlos.<br>The 'Feed' section shows recent activity on the Atlos platform including whether researchers have added new files or incidents.<br>Source: <a href="https://docs.atlos.org/overview/">https://docs.atlos.org/overview/</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/index.png" alt=""><figcaption><p>View of an ‘incident’ page on Atlos.<br>The 'Feed' section shows all the activity on the Atlos platform including when researchers have created an incident or added a new file.<br>Source: <a href="https://docs.atlos.org/overview/">https://docs.atlos.org/overview/</a></p></figcaption></figure>
 
 You can, on a single page:
 
@@ -27,7 +27,7 @@ You can, on a single page:
 
 * see material displayed in default greyscale, or colour;
 * organise who is assigned to a case or will receive updates on it;
-* work on the case simultaneously
+* work on the case simultaneously;
 * .... and transparently (no comments written on ATLOS can be deleted afterwards, the whole investigation process is recorded);
 * specify the GPS coordinates and find the incident on a map;
 * analyse the progress of your investigation (How many incidents are waiting to be addressed? To which locations are incidents geolocated?...).
