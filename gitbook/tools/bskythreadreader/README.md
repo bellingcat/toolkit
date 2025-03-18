@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-BskyThreadReader is a web-based tool that enables users to view and share Bluesky threads without requiring a Bluesky account. It fetches user profile data directly from Bluesky and retrieves complete thread content via a third-party [Bluesky Thread Visualizer](https://bsky-search.jazco.io/thread) service (provided by @jaz). This tool offers instant access to Bluesky discussions, presenting content in an easy-to-read format. It can be a valuable resource for open source researchers and journalists who need to monitor conversations on Bluesky without logging in.
+BskyThreadReader is a web-based tool that enables users to view and share Bluesky threads without requiring a Bluesky account. This tool offers instant access to Bluesky discussions, presenting content in an easy-to-read format. It can be a valuable resource for open-source researchers and journalists who need to monitor conversations on Bluesky without logging in.
 
 ## Cost
 
@@ -20,7 +20,7 @@ BskyThreadReader is a web-based tool that enables users to view and share Bluesk
 * [ ] Partially Free
 * [ ] Paid
 
-BskyThreadReader is completely free to use and open-source under the MIT License. There are no paid features or subscriptions required.
+BskyThreadReader is completely free to use and open-source under the [MIT License](https://opensource.org/license/mit). There are no paid features or subscriptions required.
 
 ## Level of difficulty
 
@@ -32,24 +32,23 @@ No Bluesky account, API key, or registration is required. The tool runs in any m
 
 ## Limitations
 
-* Can only display public Bluesky content (all profiles and posts on Bluesky are public by design).
-* Read-only access: Users cannot log in, post, or interact with threads—only view them.
+* Read-only access: Users cannot log in, post, or interact with threads; they can only view them.
 * No search functionality or filtering beyond viewing a given thread.
 * Relies on a third-party service for fetching threads; if that service or Bluesky’s servers are down, the viewer will not function.
 * Large or deeply nested threads may be difficult to navigate.
 
 ## Ethical Considerations
 
-BskyThreadReader accesses only publicly available data, ensuring compliance with user privacy on Bluesky. However, open source researchers should:
+BskyThreadReader accesses only publicly available data, ensuring compliance with user privacy on Bluesky. However, open-source researchers should:
 
 * Cite and share content responsibly to avoid misrepresentation.
-* Consider archiving important threads for verification, as Bluesky posts can be deleted.
+* Consider archiving important threads for verification, as Bluesky posts can be deleted. (There is no turnkey solution to archiving Bluesky threads yet, but you can use [Hunch.ly](https://hunch.ly/) or the [Bluesky API](https://docs.bsky.app/). Searching github for “BlueSky thread archive” or “bsky export” can help you find tools and examples.)
 * Be mindful that third-party services could log thread fetches, which may have implications for sensitive investigations.
 
 ## Comparison with similar tools
 
-* **Skyview (skyview.social)** offers multiple viewing modes, including a nested tree view and single-post embedding. It has stronger privacy protections than BskyThreadReader.
-* **Blueviewer (blueviewer.pages.dev)** is another open-source thread viewer that works across various Bluesky apps. It is lightweight and straightforward but lacks Skyview’s extra features.
+* **Skyview (**[**skyview.social**](https://skyview.social/)**)** offers multiple viewing modes, including a nested tree view and single-post embedding. In contrast to BskyThreadReader, it's fully [open-source](https://github.com/badlogic/skyview).
+* **Blueviewer (**[**blueviewer.pages.dev**](https://blueviewer.pages.dev/)**)** is another open-source thread viewer that works across various Bluesky apps. It is lightweight and straightforward but lacks Skyview’s anonymous viewing features.&#x20;
 * **Skythread (**[**blue.mackuba.eu**](https://blue.mackuba.eu)**)** focuses on displaying threads in a tree structure, making it better suited for long discussions.
 
 Compared to these alternatives, BskyThreadReader is simple and effective but lacks advanced features such as thread trees and privacy-focused enhancements.
@@ -60,7 +59,7 @@ Compared to these alternatives, BskyThreadReader is simple and effective but lac
 
 ## Tool provider
 
-Developed and maintained by Luca Hammer (@luca.run on Bluesky). The tool is based on his earlier Mastodon viewer (MastoVue) and is openly available for the community.
+Developed and maintained by Luca Hammer ([@luca.run](https://bsky.app/profile/luca.run) on Bluesky, [@luca](https://social.luca.run/@luca) on Mastodon, based in Germany). The tool is based on his earlier Mastodon viewer (MastoVue) and is openly available for the community.
 
 ## Advertising Trackers
 
