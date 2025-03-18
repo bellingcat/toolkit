@@ -2,6 +2,7 @@
 
 | Name | Description | Cost | URL |
 | --- | --- | --- | --- |
+| [**Atlos**](../../tools/atlos/README.md) | ATLOS is a platform for collaborative and large-scale open source investigations. | <mark style="background-color:orange;">Partially Free</mark> | [https://www.atlos.org/](https://www.atlos.org/) |
 | [**Blender**](../../tools/blender/README.md) | Blender is an open-source 3D creation suite supporting the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing, and motion tracking, even video editing. | <mark style="background-color:green;">Free</mark> | [https://www.blender.org/](https://www.blender.org/) |
 | [**Datawrapper**](../../tools/datawrapper/README.md) | A tool for creating interactive charts, maps, and tables from your data, offering a user-friendly interface for visualizing information. | <mark style="background-color:orange;">Partially Free</mark> | [https://www.datawrapper.de/](https://www.datawrapper.de/) |
 | [**Gephi**](../../tools/gephi/README.md) | Open-source network analysis and visualization software | <mark style="background-color:green;">Free</mark> | [https://gephi.org](https://gephi.org) |
