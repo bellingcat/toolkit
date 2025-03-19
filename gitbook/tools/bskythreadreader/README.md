@@ -47,8 +47,8 @@ BskyThreadReader accesses only publicly available data, ensuring compliance with
 
 ## Comparison with similar tools
 
-* **Skyview (**[**skyview.social**](https://skyview.social/)**)** offers multiple viewing modes, including a nested tree view and single-post embedding. In contrast to BskyThreadReader, it's fully [open-source](https://github.com/badlogic/skyview).
-* **Blueviewer (**[**blueviewer.pages.dev**](https://blueviewer.pages.dev/)**)** is another open-source thread viewer that works across various Bluesky apps. It is lightweight and straightforward but lacks Skyview’s anonymous viewing features.&#x20;
+* **Skyview (**[**skyview.social**](https://skyview.social/)**)** offers multiple viewing modes, including a nested tree view and single-post embedding. It's fully [open-source](https://github.com/badlogic/skyview) and explicitly privacy-centered.
+* **Blueviewer (**[**blueviewer.pages.dev**](https://blueviewer.pages.dev/)**)** is another open-source thread viewer that works across various Bluesky apps. It is lightweight and straightforward to use but lacks Skyview's nested-tree and single-post embedding features.&#x20;
 * **Skythread (**[**blue.mackuba.eu**](https://blue.mackuba.eu)**)** focuses on displaying threads in a tree structure, making it better suited for long discussions.
 
 Compared to these alternatives, BskyThreadReader is simple and effective but lacks advanced features such as thread trees and privacy-focused enhancements.
