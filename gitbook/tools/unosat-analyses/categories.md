@@ -32,7 +32,7 @@
 
 * [ ] [Archiving](https://bellingcat.gitbook.io/toolkit/categories/archiving)
 * [ ] [Companies & Finance](https://bellingcat.gitbook.io/toolkit/categories/companies-and-finance)
-* [x] [Conflict](https://bellingcat.gitbook.io/toolkit/categories/conflict)
+* [ ] [Conflict](https://bellingcat.gitbook.io/toolkit/categories/conflict)
 * [ ] [Data Organization & Analysis](https://bellingcat.gitbook.io/toolkit/categories/data)
 * [x] [Environment & Wildlife](https://bellingcat.gitbook.io/toolkit/categories/environment-and-wildlife)
 * [ ] [Geolocation](https://bellingcat.gitbook.io/toolkit/categories/geolocation)
