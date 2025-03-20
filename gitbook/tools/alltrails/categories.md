@@ -9,7 +9,7 @@
 
 ## Maps & Satellites
 
-* [x] [Maps](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/maps)
+* [ ] [Maps](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/maps)
 * [ ] [Satellite Imagery](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/satellite-imagery)
 * [ ] [Street View](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites/street-view)
 
@@ -20,7 +20,7 @@
 * [ ] [Instagram](https://bellingcat.gitbook.io/toolkit/categories/social-media/instagram)
 * [ ] [LinkedIn](https://bellingcat.gitbook.io/toolkit/categories/social-media/linkedin)
 * [ ] [Multiple Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/multiple-networks)
-* [x] [Other Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/other-networks)
+* [ ] [Other Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/other-networks)
 * [ ] [Reddit](https://bellingcat.gitbook.io/toolkit/categories/social-media/reddit)
 * [ ] [Telegram](https://bellingcat.gitbook.io/toolkit/categories/social-media/telegram)
 * [ ] [Tiktok](https://bellingcat.gitbook.io/toolkit/categories/social-media/tiktok)
