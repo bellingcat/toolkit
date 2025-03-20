@@ -1,8 +1,8 @@
 ---
 description: >-
-  A tool for discovering Bluesky users followed by those you follow but whom you
-  don’t yet follow. Useful for network expansion, open source investigations,
-  and social graph analysis.
+  A tool that identifies which Bluesky accounts are followed by a profile’s
+  contacts but not by that profile. Ideal for expanding networks and social
+  graph analysis.
 ---
 
 # BskyFollowFinder
@@ -13,16 +13,20 @@ description: >-
 
 ## Description
 
-BskyFollowFinder is a web-based tool that identifies **second-degree connections** on Bluesky—specifically, it finds accounts that are followed by the people you follow but that you haven’t followed yourself. By leveraging Bluesky’s AT Protocol API, the tool automates social network analysis to recommend potential new follows. This provides valuable insight into your network by ranking suggestions based on the frequency they appear among your followees.
+BskyFollowFinder is a web-based tool that identifies **second-degree connections** on Bluesky—specifically, it finds accounts that are followed by the people you follow but that you haven’t followed yourself. By leveraging Bluesky’s [AT Protocol API](https://docs.bsky.app/docs/advanced-guides/atproto), the tool automates social network analysis to recommend potential new follows. This provides valuable insight into your network by ranking suggestions based on the frequency they appear among your followees.
 
 This functionality is especially useful for open source researchers, investigative journalists, and analysts who need to map social relationships, identify key influencers, and understand community structures on the platform.
 
 #### Key Features:
 
-* **Automated Second-Degree Analysis:** Retrieves your follow list and then compiles who they follow, ranking accounts that appear most frequently.
-* **Prioritization by Commonality:** Suggestions are ordered by how many of your followed accounts also follow them.
-* **No Login Required for Basic Use:** Enter a Bluesky handle; however, optional app password integration enables one-click following via authenticated API calls.
-* **Data Retrieval:** Uses Bluesky’s public APIs for streamlined access to follow data.
+* **Automated Second-Degree Analysis**
+  * The tool collects the accounts that a user follows and then compiles the connection lists of those accounts. This results in a ranked list of second-degree suggestions—accounts that are frequently followed by the original user’s connections. This analysis is limited to a single hop without exploring deeper network layers.
+* **Filtering for Niche Accounts**
+  * A toggle option allows the filtering of results to prioritize smaller or more specialized accounts over universally popular ones, enabling the discovery of unique voices that might otherwise be overshadowed by mainstream profiles.
+* **One-Click Following (Optional)**
+  * Suggestions can be viewed without requiring a login. However, for users who wish to follow accounts directly from the tool, a password integration is available to facilitate authenticated API calls for one-click following. (Thus, when a password is supplied after the analysis, "follow" buttons appear next to the results.)&#x20;
+* **Efficient Data Retrieval**
+  * By leveraging Bluesky’s public APIs, the tool efficiently retrieves connection information in a secure manner, ensuring fast performance and seamless data processing.
 
 ***
 
@@ -39,9 +43,9 @@ Using **BskyFollowFinder** to pinpoint influential hubs in a disinformation netw
 1. **Compile a List of Known Disinformation Actors:**\
    Begin by identifying a set of Bluesky accounts that have been previously flagged or verified as disinformation sources. This can come from prior open source investigations, trusted reports, or expert lists.
 2. **Run Individual Network Analyses:**\
-   For each known disinformation actor, enter their Bluesky handle into BskyFollowFinder. The tool will generate a ranked list of accounts that these actors follow. Since it ranks suggestions based on the number of your contacts following them, it highlights which accounts are common among the chosen profiles.
+   For each actor, input their handle into BskyFollowFinder to generate a ranked list of accounts they follow, highlighting common connections among the selected profiles.
 3. **Aggregate and Compare Results:**\
-   Collect the output from each disinformation actor. Look for accounts that repeatedly appear across multiple analyses. If several known disinformation actors follow a particular account, it likely serves as a central node—or influential hub—in that network.
+   Collect the output from each disinformation actor. Look for accounts that repeatedly appear across multiple analyses. If several known disinformation actors follow a particular account, it likely serves as a central node, or influential hub, in that network.
 4. **Verify the Critical Node:**\
    Once you’ve identified an account that appears frequently, dig deeper:
    * **Profile Analysis:** Review the account’s profile, bio, and content to understand its role and influence.
@@ -50,7 +54,7 @@ Using **BskyFollowFinder** to pinpoint influential hubs in a disinformation netw
 5. **Enhance Your Analysis with Visualization Tools:**\
    For a broader picture, consider exporting the data and using network visualization tools like [**Gephi**](https://bellingcat.gitbook.io/toolkit/more/all-tools/gephi) or [**Maltego**](https://bellingcat.gitbook.io/toolkit/more/all-tools/maltego). Import the common nodes and their connections to visualize the network structure, which can help confirm the hub’s influence and reveal additional relationships.
 6. **Document Your Findings:**\
-   Record your methodology, the handles analyzed, common nodes identified, and any corroborating evidence from further investigation. This documentation strengthens your overall open source research and supports your conclusions.
+   Record your methodology, the handles analyzed, common nodes identified, and any corroborating evidence from further investigation.&#x20;
 {% endtab %}
 {% endtabs %}
 
@@ -77,37 +81,6 @@ To leverage BskyFollowFinder for community growth and influence mapping—helpin
 {% endtab %}
 {% endtabs %}
 
-{% tabs %}
-{% tab title="Corporate & Competitive Intelligence" %}
-Businesses can leverage the tool to monitor industry influencers and competitors by mapping out social connections within their network.
-{% endtab %}
-
-{% tab title="Detailed Steps" %}
-Businesses can use BskyFollowFinder to monitor industry influencers and competitors by systematically mapping and analyzing the social connections within their network. Here’s a detailed, step-by-step approach:
-
-1. **Set Up a Dedicated Monitoring Account:**
-   * **Corporate or Monitoring Handle:** Use an existing corporate Bluesky account or create a dedicated monitoring account that follows a curated list of known industry players, competitors, and thought leaders.
-   * **Curate Your Follow List:** Ensure this account follows trusted sources within your sector. This list serves as the starting point for analysis.
-2. **Run the Network Analysis with BskyFollowFinder:**
-   * **Input the Handle:** Enter your corporate or monitoring account’s Bluesky handle into BskyFollowFinder.
-   * **Aggregate Follow Data:** The tool retrieves the follow lists of the accounts you follow, then identifies accounts that are followed by multiple of your contacts. This second-degree analysis highlights accounts that are central to your industry network.
-3. **Identify Key Influencers and Competitors:**
-   * **Ranked Suggestions:** Focus on accounts that appear repeatedly across the follow lists of your trusted contacts. These high-frequency suggestions are likely influential figures or potential competitors.
-   * **Profile Evaluation:** Click through to review their profiles, bios, and recent content. Evaluate their influence based on factors such as engagement, content relevance, and the extent of their network within the industry.
-4. **Monitor Their Activity Over Time:**
-   * **Data Collection and Export:** Document and, if possible, export the list of identified influencers/competitors. This data can be compared over time to track changes in their social connections or activity.
-   * **Visualization:** For a deeper analysis, import the data into visualization tools like Gephi or Maltego. These tools can help you create visual maps of the social network, revealing how tightly these key accounts are interconnected and how they relate to your business.
-5. **Benchmark and Inform Strategy:**
-   * **Competitive Analysis:** Use the network insights to benchmark how your company is positioned relative to key influencers and competitors. Assess which influencers are driving the conversation in your industry and identify any gaps in your own network.
-   * **Strategic Decisions:** Leverage these insights to refine your social media strategy—whether that means engaging with certain influencers, monitoring competitor activity, or identifying new partnership opportunities.
-6. **Iterate and Refine Your Approach:**
-   * **Regular Updates:** Periodically rerun the analysis as your industry network evolves. This helps you capture emerging influencers or shifts in the competitive landscape.
-   * **Feedback Loop:** Integrate these findings into your broader competitive intelligence or marketing strategy, ensuring that your approach remains agile and data-driven.
-{% endtab %}
-{% endtabs %}
-
-## Cost
-
 * [x] Free
 * [ ] Partially Free
 * [ ] Paid
@@ -120,23 +93,19 @@ Businesses can use BskyFollowFinder to monitor industry influencers and competit
 
 ## Requirements
 
-* A **Bluesky account** (only if you want to access and potentially follow suggested users).
+* A **Bluesky account** (only if you want to access your account and follow suggested users).
 * Your **Bluesky username** for personalized results.
-* **Optional:** An app password to enable one-click follow actions securely.
+* **Optional:** Enter your Bluesky password (stored in your browser) to enable one-click follow actions securely.
 
 **No additional API keys, downloads, or complex setup is necessary.**
 
 ## Limitations
 
-* **API Rate Limits:** Processing very large follow lists may slow down queries due to Bluesky’s rate limits.
-* **Only Public Data:** The tool only retrieves data from public profiles. Private or locked accounts will not be included.
-* **One-Hop Analysis:** Only examines immediate follow relationships (second-degree connections) without deeper multi-hop analysis.
+* **"One-Hop" Analysis only:** BskyFollowFinder looks only at the user’s direct connections (the accounts they follow or who follow them), and doesn’t go further into “friends of friends” or deeper network layers.
 * **No Graph Visualization:** Outputs are provided as a ranked list; it does not generate visual network maps like [Gephi ](https://bellingcat.gitbook.io/toolkit/more/all-tools/gephi)or [Maltego](https://bellingcat.gitbook.io/toolkit/more/all-tools/maltego).
 
 ## Ethical Considerations
 
-* **Compliance with API Terms:** Uses only publicly available data via Bluesky’s APIs.
-* **Privacy Respect:** Does not scrape private information or require primary login credentials; the optional app password is designed for security.
 * **Social Graph Exposure:** Revealing connections can inadvertently expose personal networks. Investigators should use insights responsibly, particularly when analyzing vulnerable subjects.
 * **Best Practices:** Use the tool as part of a broader investigative methodology, ensuring conclusions are corroborated with additional data.
 
@@ -145,21 +114,21 @@ Businesses can use BskyFollowFinder to monitor industry influencers and competit
 * **Theo Sanderson’s Bluesky Post:** [Introduction to BskyFollowFinder](https://bsky.app/profile/theo.io/post/3lapjzzqtrc2e)
 * **Bluesky API Documentation:** [AT Protocol for Social Graphs](https://docs.bsky.app/docs/api/app-bsky-graph-get-follows)
 
-### Alternatives for Open Source Research & Social Network Analysis
+### Complementary OSINT & Social Graph Tools to Use with BskyFollowFinder
 
 | Tool                                                                        | Platform           | Use Case                                                    |
 | --------------------------------------------------------------------------- | ------------------ | ----------------------------------------------------------- |
 | [**Gephi**](https://bellingcat.gitbook.io/toolkit/more/all-tools/gephi)     | Cross-platform     | Visualizes network graphs from exported Bluesky data        |
 | [**Maltego**](https://bellingcat.gitbook.io/toolkit/more/all-tools/maltego) | Multi-source OSINT | Maps social networks across various platforms               |
-| **Jaz’s Atlas**                                                             | Bluesky            | Provides large-scale network mapping and visualization      |
-| **Bluesky Directory**                                                       | Bluesky            | Offers curated lists of user accounts by interest           |
-| **Sky Follower Bridge**                                                     | Twitter → Bluesky  | Finds cross-platform identities between Twitter and Bluesky |
+| [**Jaz’s Atlas**](https://bsky.jazco.dev/atlas)                             | Bluesky            | Provides large-scale network mapping and visualization      |
+| [**Bluesky Directory**](https://blueskydirectory.com/)                      | Bluesky            | Offers curated lists of user accounts by interest           |
+| [**Sky Follower Bridge**](https://www.sky-follower-bridge.dev/)             | Twitter → Bluesky  | Finds cross-platform identities between Twitter and Bluesky |
 
-💡 **Best Combination:** Use BskyFollowFinder to generate a list of suggested connections, then export or integrate the data into Gephi or Maltego for advanced network analysis.
+**Best Combination:** Use BskyFollowFinder to generate a list of suggested connections, then export or integrate the data into Gephi or Maltego for advanced network analysis.
 
 ## Tool provider
 
-[Theo Sanderson](https://theo.io/) who has also developed other Bluesky tools such as the Bluesky User Counter and Firehose 3D Viewer.
+[Theo Sanderson](https://theo.io/) (London)
 
 ## Advertising Trackers
 
