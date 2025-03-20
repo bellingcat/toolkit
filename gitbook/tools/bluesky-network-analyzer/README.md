@@ -26,7 +26,7 @@ This functionality can be useful for open source researchers, investigative jour
 * **One-Click Following (Optional)**
   * Suggestions can be viewed without requiring a login. However, for users who wish to follow accounts directly from the tool, a password integration is available to facilitate authenticated API calls for one-click following. (Thus, when a password is supplied after the analysis, "follow" buttons appear next to the results.)&#x20;
 * **Efficient Data Retrieval**
-  * By leveraging Bluesky’s public APIs, the tool efficiently retrieves connection information in a secure manner, ensuring fast performance and seamless data processing.
+  * By leveraging Bluesky’s public APIs, the tool efficiently retrieves connection information.
 
 ***
 
