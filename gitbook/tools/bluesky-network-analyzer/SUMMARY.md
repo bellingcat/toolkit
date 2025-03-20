@@ -1,4 +1,4 @@
 # Table of contents
 
-* [BskyFollowFinder](README.md)
+* [BskyFollowFinder/Bluesky network analyzer](README.md)
 * [Categories](categories.md)
