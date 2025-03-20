@@ -55,7 +55,7 @@ Bluesky Insights is a free web-based analytics platform designed specifically fo
 **Posts Activity by Hour**
 
 * Bar chart showing posting times across a 24-hour period.
-* From an OSINT standpoint, seeing peak posting times can hint at a user’s likely time zone or routine and help pinpoint when they’re most responsive to events. This allows researchers to focus their monitoring efforts during the most active windows, improving real-time data collection and analysis
+* From an open source research standpoint, seeing peak posting times can hint at a user’s likely time zone or routine and help pinpoint when they’re most responsive to events. This allows researchers to focus their monitoring efforts during the most active windows, improving real-time data collection and analysis
 
 <figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>Hourly posting distribution for this Bluesky account, highlighting a pronounced activity peak in the late afternoon.</p></figcaption></figure>
 
