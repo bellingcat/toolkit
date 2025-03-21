@@ -61,11 +61,13 @@ All five leak databases can be downloaded as [zip files](https://offshoreleaks.i
 
 For user convenience, the data is converted into multiple CSV files, providing the freedom to explore the dataset on the user's terms. The data is also available as "Neo4j" exported databases. ICIJ provides a [GitHub repository guide](https://github.com/ICIJ/offshoreleaks-data-packages) that explains how to import the data into Neo4j.
 
-## **Reconciliation API**
+### **The New Reconciliation API**
 
-The reconciliation API requires some API expertise and allows users to match their own datasets against the ICIJ database. The ICIJ webpage provides a detailed guide on how to use this [feature.](https://offshoreleaks.icij.org/docs/reconciliation)&#x20;
+A new[ Reconciliation API feature](https://www.icij.org/inside-icij/2025/01/explore-the-latest-tool-to-power-up-investigations-via-the-offshore-leaks-database/) allows users to match their datasets against the ICIJ database. It is funded by the German development agency Deutsche Gesellschaft für Internationale Zusammenarbeit. Users can use this API to[ match](https://www.icij.org/inside-icij/2025/01/explore-the-latest-tool-to-power-up-investigations-via-the-offshore-leaks-database/) “names, addresses and corporate entities” against the ICIJ’s database. ICIJ states, “The tool accelerates investigations by integrating external data sources.”&#x20;
 
-## Cost
+The supported API types are[ General API](https://offshoreleaks.icij.org/docs/reconciliation), Query API, Data Extension API, Suggest API, View API, Preview API, and Namespaced API. Explore each API’s function[ here](https://offshoreleaks.icij.org/docs/reconciliation). Users can watch this[ tutorial](https://www.youtube.com/watch?v=p2783xIcfdA) by ICIJ on how to use this new feature.
+
+### Cost
 
 * [x] Free
 * [ ] Partially Free
