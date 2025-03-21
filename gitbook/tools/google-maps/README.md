@@ -57,6 +57,10 @@ The example below shows a search for _Amsterdam_:
 4. **Environmental and Urban Changes**: The historical imagery available on Google Maps enables researchers to document changes in the environment or urban expansion over time, supporting stories on climate change or urban development.&#x20;
 5. **Historical Street View Imagery and Historical images:** can be useful to geolocate events.
 
+## Using Bellingcat Filename Finder for Google Maps
+
+A new tool, [Bellingcat Filename Finder](https://chromewebstore.google.com/detail/bellingcat-filename-finde/fdhodjpkigpaachejkipcghppfnnfdmp?pli=1), enables users to view the filenames of images on Google Maps, providing contextual information. Typically, filenames do not display when viewing an image on Google Maps. However, after installing the tool as a Google Chrome extension, filenames automatically appear on images when using Google Maps. See more about this tool in our guide “[What’s in a Name? Discovering Clues Hidden in Google Maps Image Filenames](https://www.bellingcat.com/resources/2024/10/15/google-maps-image-filename-finder-tool/).”
+
 ## Cost
 
 * [x] Free
