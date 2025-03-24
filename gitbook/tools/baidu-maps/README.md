@@ -12,23 +12,23 @@ Baidu Maps offers maps, street view, satellite imagery, and real-time route plan
 
 #### The Basics
 
-Search for a location. You can select the layer you wish to explore — street view, satellite image, back to default map view.
+In the web version, search for a location and in the bottom right corner select the layer you wish to explore — street view, satellite image, or back to default map view.
 
-Image: Rectangles
+<figure><img src=".gitbook/assets/baidu_navigation.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Note that the reference number at the bottom left refers to the year when the image was approved for publication by the relevant government authority, the State Bureau of Surveying and Mapping. \
+Note that the reference number at the bottom left refers to the year when the image was approved for publication by the relevant government authority, the State Bureau of Surveying and Mapping. This is not necessarily the year when the image was captured.\
 \
-Image: GS(2023)3206
+![](.gitbook/assets/bottom_left.png)
 
-Street view
+**Street view**
 
-Street views are usually available on the road network and areas accessible by vehicles. Availability is indicated by the greyish routes. Place the cursor onto these routes for a static preview, click to go into street view mode.&#x20;
+Street views are generally available on the road networks, indicated by the thickened routes. For a static preview, place the cursor onto the route. Click to enter street view mode.&#x20;
 
 <figure><img src=".gitbook/assets/streetview_available.png" alt=""><figcaption><p>Put your cursor onto the grey route, and a static preview will be shown. </p></figcaption></figure>
 
 <details>
 
-<summary>Right-click shortcut for panoramic preview</summary>
+<summary>Panoramic preview for street view</summary>
 
 <img src=".gitbook/assets/right-click.png" alt="" data-size="original">
 
@@ -42,7 +42,7 @@ Street views are usually available on the road network and areas accessible by v
 
 **Time machine 时光机**
 
-The "time machine" function allows you to access previous street view images, going as far back as 2013 (if available). From the current street view image, the "time machine" function is available at the bottom, indicated by a clock icon.
+The "time machine" function allows you to access older street view images, going as far back as 2013 (if available). From the current street view image, the time machine function is available at the bottom, indicated by a clock icon.
 
 <figure><img src=".gitbook/assets/time_machine_example.png" alt=""><figcaption><p>The "time machine" will show older street view images available (year and month of image captured). The approval reference is in the bottom right corner.</p></figcaption></figure>
 
@@ -66,9 +66,9 @@ To search by coordinates instead, enter the coordinates (longitude first) and ch
 
 Open-source researchers can cross-reference the other leading mapping services, including AMap (also known as Gaode Maps) and Tencent Map (also known as QQ Maps).&#x20;
 
-All 3 mapping services rely on China's BeiDou Navigation Satellite System (citation) for their real-time navigation and satellite imagery. However, the user experience design, algorithms to recommend navigation routes, and the availability of street views, indoor maps, and 3D maps will differ.&#x20;
+All 3 mapping services rely on China's BeiDou Navigation Satellite System for their real-time navigation and satellite imagery. However, the user experience design, algorithms to recommend navigation routes, and the availability of street views, indoor maps, and 3D maps will differ.&#x20;
 
-Another tool to compare satellite imagery is [https://www.earthol.com/](https://www.earthol.com/)
+Another tool to compare satellite imagery of China is [https://www.earthol.com/](https://www.earthol.com/)
 
 <figure><img src=".gitbook/assets/Earthol.com (1).png" alt="" width="563"><figcaption><p>Main page, Earthol.com. The English annotations are added.</p></figcaption></figure>
 
@@ -97,12 +97,11 @@ Researchers and developers should consider several limitations:
 * **Geographical Restrictions**: The most detailed coverage is limited to China. Less detailed data available for other countries.&#x20;
 * **Language Barrier**: The user interface is only available in Chinese.&#x20;
 * **Access Speed**: International users will experience slower access speeds or need a Chinese IP address to access certain APIs.&#x20;
-* **API Rate Limits**
 
 ## Ethical Considerations
 
 * See the Bellingcat toolkit's [About Maps and Satellites](https://bellingcat.gitbook.io/toolkit/more/all-tools/about-maps-and-satellites) page for some general caveats including censorship and content control
-* **Privacy Concerns**: Like many mapping services, Baidu Maps gathers user data, raising concerns about user privacy. (Concerns about the collection of user data were raised in a [2016 report from Citizen Lab, University of Toronto](https://citizenlab.ca/2016/02/privacy-security-issues-baidu-browser/) and in an [April 2021 notice from the Cyberspace Administration of China](./#url), which Baidu Maps among 33 apps for extensively collecting user data, beyond what is relevant to their service provision.)
+* **Privacy Concerns**: Like many mapping services, Baidu Maps gathers user data, raising concerns about user privacy. (Concerns about Baidu Maps' collection of user data were raised in a [2016 report from Citizen Lab, University of Toronto](https://citizenlab.ca/2016/02/privacy-security-issues-baidu-browser/) and in an [April 2021 notice from the Cyberspace Administration of China](./#url), which named all leading Chinese mapping tools among 33 apps for extensively collecting user data, beyond what is relevant to their service provision.)
 
 ## Guide
 
