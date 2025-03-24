@@ -108,16 +108,17 @@ Researchers and developers should consider several limitations:
 
 **Tutorials**
 
-* _Baidu Maps (Baidu Ditu 百度地图) And Tutorials in English_ (no date) _BaiduinEnglish_. Available at: [https://www.baiduinenglish.com](https://www.baiduinenglish.com) (Accessed: 18 April 2024).
-* Extracting Chinese geographic data from Baidu Map API. (December 2020) [https://journals.sagepub.com/doi/full/10.1177/1536867X20976313](https://journals.sagepub.com/doi/full/10.1177/1536867X20976313) (Accessed: 24 March 2025)
+* _Baidu Maps (Baidu Ditu 百度地图) And Tutorials in English_ (no date) _BaiduinEnglish_. [https://www.baiduinenglish.com](https://www.baiduinenglish.com)
+* Extracting Chinese geographic data from Baidu Map API. (December 2020) [https://journals.sagepub.com/doi/full/10.1177/1536867X20976313](https://journals.sagepub.com/doi/full/10.1177/1536867X20976313)
+* Cross-platform complementarity: Assessing the data quality and availability of Google Street View and Baidu Street View (Feburary 2025). [https://doi.org/10.1177/27541231241311474](https://doi.org/10.1177/27541231241311474)
+
+**Video Tutorial**
+
+* _Baidu Maps : The Chinese Google Maps_ (2023). Available at: [https://www.youtube.com/watch?v=hKVUOgoDUxs](https://www.youtube.com/watch?v=hKVUOgoDUxs) (French with English transcription).
 
 **Articles**
 
-* Baidu found China’s “ghost cities,” but it is keeping their locations mostly a secret. (2015) Available at: https://web.archive.org/web/20151105031544/http://qz.com/540571/baidu-found-chinas-ghost-cities-but-it-is-keeping-their-locations-mostly-a-secret/
-
-**Video Tutorials**
-
-* _Baidu Maps : The Chinese Google Maps_ (2023). Available at: [https://www.youtube.com/watch?v=hKVUOgoDUxs](https://www.youtube.com/watch?v=hKVUOgoDUxs) (Accessed: 18 April 2024). (French with English transcription).
+* Baidu found China’s “ghost cities,” but it is keeping their locations mostly a secret (2015). Quartz. https://web.archive.org/web/20151105031544/http://qz.com/540571/baidu-found-chinas-ghost-cities-but-it-is-keeping-their-locations-mostly-a-secret/
 
 ## Tool provider
 
@@ -129,7 +130,7 @@ Baidu Inc [http://www.baidu.com/](http://www.baidu.com/) - China
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat Volunteer Team/Unassigned |
-|                                      |
+| Page maintainer |
+| --------------- |
+| river\_n        |
+|                 |
