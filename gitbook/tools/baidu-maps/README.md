@@ -62,6 +62,12 @@ Another way to search is to go to: https://api.map.baidu.com/lbsapi/getpoint/. S
 
 To search by coordinates instead, enter the coordinates (longitude first) and check the box for reverse search using coordinates.&#x20;
 
+**3D models**
+
+
+
+Baidu Maps offers API for building third-party apps that leverage 3D model and live data: [https://lbs.baidu.com/solutions/threedsvisualization](https://lbs.baidu.com/solutions/threedsvisualization)
+
 ### Similar tools
 
 Open-source researchers can cross-reference the other leading mapping services, including AMap (also known as Gaode Maps) and Tencent Map (also known as QQ Maps).&#x20;
