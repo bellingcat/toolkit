@@ -1,12 +1,14 @@
 ---
-description: Popular mapping service in mainland China. When it comes to navigation for drivers and individuals using public transportation, Gaode Maps seems to be a better job than Baidu Maps.
+description: Mapping application and technology from the Chinese company Alibaba
 ---
 
 # Gaode Maps
 
 ## URL
 
-https://gaode.com/
+Main site: [www.amap.com](./#url)
+
+API docs: [lbs.amap.com/api](https://lbs.amap.com/api)
 
 ## Description
 
@@ -54,4 +56,3 @@ https://gaode.com/
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
