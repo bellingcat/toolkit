@@ -245,6 +245,13 @@ ShadeMap offers a [paid for API](https://shademap.app/about/) with the following
 
 <figure><img src=".gitbook/assets/ShadeMapAPI.JPG" alt=""><figcaption><p><strong>FEATURES OF THE SHADEMAP API (APPLICATION PROGRAMMING INTERFACE)</strong></p></figcaption></figure>
 
+## Plugins and tools
+
+There are several tools that enhance the ShadeMap capabilities, extending its features with community driven developments:
+
+- [ted-piotrowski/shademap-examples](https://github.com/ted-piotrowski/shademap-examples):  Use cases for ShadeMap API, with practical examples documented on how to compute the anual sunlight, export a GeoTIFF for a broad area or determine the sunlight along a bus route;
+- [U-Shift/shademap-download-tool](https://github.com/U-Shift/shademap-download-tool):  Interactive tool that allows to export shadow and sun exposure layers from ShadeMap over a custom area, with a high level of detail. 
+
 ## Cost
 
 * [ ] Free
