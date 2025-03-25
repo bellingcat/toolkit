@@ -16,17 +16,19 @@ API docs: [lbs.amap.com/api](https://lbs.amap.com/api)
 
 **Basic search**
 
-Search in pinyin or Chinese characters.&#x20;
+Search in pinyin or Chinese characters, and select the layer or function.&#x20;
 
-On the map, in the reference number shown at the bottom left, e.g., "GS(2025)1234", the year refers to the year when the image was approved for publication by China's State Bureau of Surveying and Mapping.
+<figure><img src=".gitbook/assets/functions_annotated.png" alt="" width="375"><figcaption><p>Web browser view - select layer or function</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/layer_annotated.png" alt="" width="375"><figcaption><p>Mobile view > select layer</p></figcaption></figure>
+
+On the map (web browser view), in the reference number shown at the bottom left, e.g., "GS(2025)1234", the year refers to the year when the image was approved for publication by China's State Bureau of Surveying and Mapping.&#x20;
 
 **No street view, only a curated user experience**
 
-Notably, AMap does not provide street view, making the tool less useful for geolocation.&#x20;
+Notably, Gaode Maps (AMap) does not provide street view, making the tool less useful for geolocation.&#x20;
 
 Instead, a function called 奇境 (translates as "wonder", pinyin: &#x71;_&#x69;jing_) is available for select locations, usually scenic places such as parks and tourist sites. The function allows users to view the location in different times of day, weather conditions, and seasons.
-
-
 
 **Worldwide data**
 
