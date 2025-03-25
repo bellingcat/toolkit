@@ -26,9 +26,11 @@ On the map (web browser view), in the reference number shown at the bottom left,
 
 **No street view, only a curated user experience**
 
-Notably, Gaode Maps (AMap) does not provide street view, making the tool less useful for geolocation.&#x20;
+Notably, Gaode Maps (AMap) does not provide street view, making the tool less directly useful for geolocation.&#x20;
 
 Instead, a function called 奇境 (translates as "wonder", pinyin: &#x71;_&#x69;jing_) is available for select locations, usually scenic places such as parks and tourist sites. The function allows users to view the location in different times of day, weather conditions, and seasons.
+
+<div align="center"><figure><img src=".gitbook/assets/park.png" alt="" width="188"><figcaption><p>The "wonder" view of Heping Park, Shanghai</p></figcaption></figure></div>
 
 **Worldwide data**
 
@@ -53,8 +55,6 @@ API documentation for [3D map](https://lbs.amap.com/demo/javascript-api/example/
 * [x] Free
 * [ ] Partially Free
 * [ ] Paid
-
-\[\[Pricing or subscription information, if relevant.]]
 
 ## Level of difficulty
 
