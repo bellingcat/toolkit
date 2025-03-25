@@ -18,25 +18,33 @@ API docs: [lbs.amap.com/api](https://lbs.amap.com/api)
 
 Search in pinyin or Chinese characters.&#x20;
 
-On the map, the reference number shown at the bottom left, the year shown in the format "GS(2025)1234" refers to the year when the image was approved for publication by China's State Bureau of Surveying and Mapping.
+On the map, in the reference number shown at the bottom left, e.g., "GS(2025)1234", the year refers to the year when the image was approved for publication by China's State Bureau of Surveying and Mapping.
 
 **No street view, only a curated user experience**
 
-Notably, AMap does not provide street view. Instead, a function that translates as "wonder" (奇境, pinyin: &#x71;_&#x69;jing_) is available for select locations, usually scenic places such as public parks and tourist sites. The function allows users to view the location in different times of day, weather conditions, and seasons.&#x20;
+Notably, AMap does not provide street view, making the tool less useful for geolocation.&#x20;
+
+Instead, a function called 奇境 (translates as "wonder", pinyin: &#x71;_&#x69;jing_) is available for select locations, usually scenic places such as parks and tourist sites. The function allows users to view the location in different times of day, weather conditions, and seasons.
+
+
 
 **Worldwide data**
 
 Although AMap provides the most detailed data for China, the app also provides global data in over 200 countries, including street maps, route navigation (driving, public transportation, or walking) and business locations.&#x20;
 
-Business owners from any country could add their locations and information onto AMap (for instance, to attract Chinese travellers who may visit their countries).&#x20;
+Business owners from any country could add their locations and information onto AMap (for instance, to attract Chinese travellers who may visit their countries).
 
 **Getting coordinates**
+
+Within AMap, if you search for a specific location, the coordinates are available in the URL, in longitude-latitude format.&#x20;
 
 Most of the world uses the coordinate system WGS-84 (colloquially known as Earth coordinates), whereas China uses GCJ-02 (Mars coordinates). GCJ-02 uses an encryption algorithm that applies random offsets to the latitude and longitude of locations. Obfuscating the geographic data is for [national security purposes](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China).&#x20;
 
 If you use Google Maps, the coordinates you obtain for China are in the GCJ-02 system. You could copy the coordinates from Google Maps (in latitude-longitude format) and use them as a search term in AMap.
 
-Within AMap, if you search for a specific location, the coordinates are available in the URL, in longitude-latitude format.&#x20;
+#### 3D models
+
+API documentation for [3D map](https://lbs.amap.com/demo/javascript-api/example/3d/map3d) and [3D model](https://lbs.amap.com/demo/javascript-api/example/3d/3d-model) are available.&#x20;
 
 ## Cost
 
