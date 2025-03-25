@@ -1,5 +1,7 @@
 ---
-description: Mapping application and technology from the Chinese company Alibaba
+description: >-
+  Mapping application and technology from the Chinese company Alibaba. Also
+  known as AMap.
 ---
 
 # Gaode Maps
@@ -12,7 +14,33 @@ API docs: [lbs.amap.com/api](https://lbs.amap.com/api)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+**Basic search**
+
+Search in pinyin or Chinese characters.&#x20;
+
+On the map, the reference number shown at the bottom left, the year shown in the format "GS(2025)1234" refers to the year when the image was approved for publication by China's State Bureau of Surveying and Mapping.
+
+**No street view, only a curated user experience**
+
+Notably, AMap does not provide street view. Instead, a function that translates as "wonder" (奇境, pinyin: &#x71;_&#x69;jing_) is available for select locations, usually scenic places such as public parks and tourist sites. The function allows users to view the location in different times of day, weather conditions, and seasons.&#x20;
+
+
+
+**Getting coordinates**
+
+Most of the world uses the coordinate system WGS-84 (colloquially known as Earth coordinates), whereas China uses GCJ-02 (Mars coordinates). GCJ-02 uses an encryption algorithm that applies random offsets to the latitude and longitude of locations. Obfuscating the geographic data is for [national security purposes](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China).&#x20;
+
+If you use Google Maps, the coordinates you obtain for China are in the GCJ-02 system. You could copy the coordinates from Google Maps (in latitude-longitude format) and use them as a search term in AMap.
+
+Within AMap, if you search for a specific location, the coordinates are available in the URL, in longitude-latitude format.&#x20;
+
+**Worldwide data**
+
+Although AMap provides the most detailed data for China, the app also provides global data in over 200 countries, including street maps, route navigation (driving, public transportation, walking) and business locations. Outside China, business owners from any country could add their locations and information onto AMap (for example, if they wish to target Chinese travellers visiting their countries). The company has [stated its plans](https://www.scmp.com/tech/tech-trends/article/3233611/alibabas-amap-supported-chinas-gps-rival-beidou-expands-global-coverage-boost-belt-and-road-plan) to provide information (particularly of hotels and restaurants) in countries involved in China's Belt and Road Initiative.&#x20;
+
+
+
+
 
 ## Cost
 
@@ -28,15 +56,20 @@ API docs: [lbs.amap.com/api](https://lbs.amap.com/api)
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+* **Web:** any modern web browser
+* **Mobile:** iOS or Android
+* **API: E**mail address and possibly a credit card
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+* **Geographical Restrictions**: The most detailed coverage is limited to China.
+* **Language Barrier**: The user interface is only available in Chinese.&#x20;
+* **Access Speed**: International users will experience slower access speeds or need a Chinese IP address to access certain APIs.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+* See the Bellingcat toolkit's [About Maps and Satellites](https://bellingcat.gitbook.io/toolkit/more/all-tools/about-maps-and-satellites) page for a general discussion on censorship and content control
+* **Privacy Concerns**: Like many mapping services, Gaode Maps gathers user data, raising concerns about user privacy. (An [April 2021 notice from the Cyberspace Administration of China](./#url) named all leading Chinese mapping tools among 33 apps for extensively collecting user data, beyond what is relevant to their service provision.)
 
 ## Guide
 
@@ -44,7 +77,7 @@ API docs: [lbs.amap.com/api](https://lbs.amap.com/api)
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Alibaba Group [https://www.alibabagroup.com](https://www.alibabagroup.com/en-US/) - China
 
 ## Advertising Trackers
 
@@ -52,7 +85,7 @@ API docs: [lbs.amap.com/api](https://lbs.amap.com/api)
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat volunteer team |
+|                           |
