@@ -4,9 +4,9 @@ description: A toolkit for open source researchers
 
 # About
 
-### Welcome to Bellingcat’s Online Open Source Investigation Toolkit!
+Welcome to Bellingcat’s Online Open Source Investigation Toolkit!
 
-<figure><img src=".gitbook/assets/Bellingcat_Toolkit_Ann_Kiernan copy.jpg" alt="" width="563"><figcaption><p><em>Illustration by Ann Kiernan for Bellingcat</em>.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Bellingcat_Toolkit_Ann_Kiernan copy.jpg" alt=""><figcaption><p><em>Illustration by Ann Kiernan for Bellingcat</em>.</p></figcaption></figure>
 
 This is your place to discover tools! Our toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more. Most of the tools that we include can be used for free.
 
@@ -30,7 +30,7 @@ Bellingcat volunteers, staff and the wider open source researcher community cont
 
 If our Toolkit Maintainers choose to be publicly mentioned, you can find their names on individual tool pages under "page maintainer".
 
-Our Toolkit Guardians have a special role: They help us further develop this toolkit to make sure it meets the needs of open source researchers.&#x20;
+Our Toolkit Guardians have a special role: They help us further develop this toolkit to make sure it meets the needs of open source researchers.
 
 **Our Toolkit Guardians:**
 
@@ -46,8 +46,6 @@ _Martin Sona_ is an interdisciplinary researcher and lecturer with a social psyc
 
 _Sophie Tedling_ has worked with Bellingcat as a volunteer, Tech Fellow & contributor. Her background is engineering, AI & risk, and she runs [PeakVisorforOSINV on X](https://x.com/PVforOSINV) which collects input from the research community with the goal to communicate the needs of open source researchers to the PeakVisor developer team. She is the Volunteer Toolkit Guardian for the [Maps & Satellites](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites) category.
 
-
-
 </details>
 
 <details>
@@ -58,7 +56,7 @@ If you are an expert for a specific category of open source research tools and y
 
 Keep in mind that contributing to our toolkit is a long-term volunteer commitment: You write tool descriptions and update them on a monthly basis. We do not accept volunteer contributors whose identity we don’t know.
 
-Please do not suggest tools that should be added to the toolkit via this e-mail address.&#x20;
+Please do not suggest tools that should be added to the toolkit via this e-mail address.
 
 </details>
 
