@@ -1,3 +1,7 @@
+---
+description: A mapping application provided by Chinese technology company Baidu Inc.
+---
+
 # Baidu Maps
 
 ## URL
@@ -10,21 +14,19 @@ API documentation, https://api.map.baidu.com/
 
 Baidu Maps offers maps, street view, satellite imagery, and real-time route planning. It is available via the web browser or as a mobile application.&#x20;
 
-#### The Basics
+#### The basics
 
 In the web version, search for a location and in the bottom right corner select the layer you wish to explore — street view, satellite image, or back to default map view.
 
-<figure><img src=".gitbook/assets/baidu_navigation.png" alt="" width="375"><figcaption></figcaption></figure>
+<div align="center"><figure><img src=".gitbook/assets/baidu_navigation.png" alt="" width="375"><figcaption><p>Navigation to the regular map, satellite image and street view, found at the bottom right corner of the web browser</p></figcaption></figure></div>
 
-Note that the reference number at the bottom left refers to the year when the image was approved for publication by the relevant government authority, the State Bureau of Surveying and Mapping. This is not necessarily the year when the image was captured.\
-\
-![](.gitbook/assets/bottom_left.png)
+Note that the reference number at the bottom left, e.g., "GS(2023)1234", refers to the year when the image was approved for publication by the relevant government authority, China's State Bureau of Surveying and Mapping. This is not necessarily the year when the image was captured.
 
 **Street view**
 
 Street views are generally available on the road networks, indicated by the thickened routes. For a static preview, place the cursor onto the route. Click to enter street view mode.&#x20;
 
-<figure><img src=".gitbook/assets/streetview_available.png" alt=""><figcaption><p>Put your cursor onto the grey route, and a static preview will be shown. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/streetview_available.png" alt=""><figcaption><p>The thickened gray routes indicate that street view is available.</p></figcaption></figure>
 
 <details>
 
@@ -32,7 +34,7 @@ Street views are generally available on the road networks, indicated by the thic
 
 <img src=".gitbook/assets/right-click.png" alt="" data-size="original">
 
-(left) From the regular map view, point to the main road, right-click to show a shortcut menu > select the first item  "panoramic preview". (right) The 360º preview is shown.
+(above) From the regular map view, point to the main road, right-click to show a shortcut menu > select the first item  "panoramic preview". (below) The 360º preview is shown.
 
 <img src=".gitbook/assets/panoramic_preview.png" alt="" data-size="original">
 
@@ -56,7 +58,7 @@ Baidu Maps goes even further in its DD-09 coordinates system, applying additiona
 
 When searching for a location on Baidu Maps, the BB-09 coordinates are shown in the URL.&#x20;
 
-Another way to search is to go to: https://api.map.baidu.com/lbsapi/getpoint/. Search for a location and the BB-09 coordinates are shown in the top-right. Note that in Chinese mapping tools, longitude comes before latitude.&#x20;
+Another way to search is: https://api.map.baidu.com/lbsapi/getpoint/. Search for a location and the BB-09 coordinates are shown in the top-right. Note that in Chinese mapping tools, longitude comes before latitude.&#x20;
 
 <figure><img src=".gitbook/assets/dafen_village (1).png" alt=""><figcaption><p>Example: Searching for Dafen Village shows the coordinates on the top-right</p></figcaption></figure>
 
@@ -64,15 +66,13 @@ To search by coordinates instead, enter the coordinates (longitude first) and ch
 
 **3D models**
 
-
-
-Baidu Maps offers API for building third-party apps that leverage 3D model and live data: [https://lbs.baidu.com/solutions/threedsvisualization](https://lbs.baidu.com/solutions/threedsvisualization)
+A 3D view is available. Baidu Maps also offers API for building third-party apps that leverage 3D model and live data: [https://lbs.baidu.com/solutions/threedsvisualization](https://lbs.baidu.com/solutions/threedsvisualization)
 
 ### Similar tools
 
-Open-source researchers can cross-reference the other leading mapping services, including AMap (also known as Gaode Maps) and Tencent Map (also known as QQ Maps).&#x20;
+Open-source researchers can cross-reference the other leading mapping services, including AMap (Gaode Maps) and Tencent Map (QQ Maps).&#x20;
 
-All 3 mapping services rely on China's BeiDou Navigation Satellite System for their real-time navigation and satellite imagery. However, the user experience design, algorithms to recommend navigation routes, and the availability of street views, indoor maps, and 3D maps will differ.&#x20;
+Both Baidu Maps and AMap use China's BeiDou Navigation Satellite System for their global positioning capabilities. However, the user experience design, recommended navigation routes, and the availability of street views, indoor maps, and 3D maps will differ.&#x20;
 
 Another tool to compare satellite imagery of China is [https://www.earthol.com/](https://www.earthol.com/)
 
@@ -125,7 +125,7 @@ Researchers and developers should consider several limitations:
 
 * How China is tearing down Islam. Financial Times. (November 2023) [https://ig.ft.com/china-mosques/](https://ig.ft.com/china-mosques/)&#x20;
 * Interrogating China’s “Google Maps” to Investigate the Xinjiang Detention Centers. March 2021. Global Investigative Journalism Network. [https://gijn.org/stories/interrogating-chinas-google-maps-to-investigate-the-xinjiang-detention-centers/](https://gijn.org/stories/interrogating-chinas-google-maps-to-investigate-the-xinjiang-detention-centers/)
-* Baidu found China’s “ghost cities,” but it is keeping their locations mostly a secret (2015). Quartz. https://web.archive.org/web/20151105031544/http://qz.com/540571/baidu-found-chinas-ghost-cities-but-it-is-keeping-their-locations-mostly-a-secret/
+* Baidu found China’s “ghost cities,” but it is keeping their locations mostly a secret (2015). Quartz. [https://web.archive.org/web/20151105031544/http://qz.com/540571/baidu-found-chinas-ghost-cities-but-it-is-keeping-their-locations-mostly-a-secret/](./#url)
 
 ## Tool provider
 
@@ -137,7 +137,7 @@ Baidu Inc [http://www.baidu.com/](http://www.baidu.com/) - China
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| river\_n        |
-|                 |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
+|                           |
