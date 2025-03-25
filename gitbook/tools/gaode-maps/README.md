@@ -24,7 +24,11 @@ On the map, the reference number shown at the bottom left, the year shown in the
 
 Notably, AMap does not provide street view. Instead, a function that translates as "wonder" (奇境, pinyin: &#x71;_&#x69;jing_) is available for select locations, usually scenic places such as public parks and tourist sites. The function allows users to view the location in different times of day, weather conditions, and seasons.&#x20;
 
+**Worldwide data**
 
+Although AMap provides the most detailed data for China, the app also provides global data in over 200 countries, including street maps, route navigation (driving, public transportation, or walking) and business locations.&#x20;
+
+Business owners from any country could add their locations and information onto AMap (for instance, to attract Chinese travellers who may visit their countries).&#x20;
 
 **Getting coordinates**
 
@@ -33,14 +37,6 @@ Most of the world uses the coordinate system WGS-84 (colloquially known as Earth
 If you use Google Maps, the coordinates you obtain for China are in the GCJ-02 system. You could copy the coordinates from Google Maps (in latitude-longitude format) and use them as a search term in AMap.
 
 Within AMap, if you search for a specific location, the coordinates are available in the URL, in longitude-latitude format.&#x20;
-
-**Worldwide data**
-
-Although AMap provides the most detailed data for China, the app also provides global data in over 200 countries, including street maps, route navigation (driving, public transportation, walking) and business locations. Outside China, business owners from any country could add their locations and information onto AMap (for example, if they wish to target Chinese travellers visiting their countries). The company has [stated its plans](https://www.scmp.com/tech/tech-trends/article/3233611/alibabas-amap-supported-chinas-gps-rival-beidou-expands-global-coverage-boost-belt-and-road-plan) to provide information (particularly of hotels and restaurants) in countries involved in China's Belt and Road Initiative.&#x20;
-
-
-
-
 
 ## Cost
 
