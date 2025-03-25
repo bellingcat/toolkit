@@ -4,7 +4,7 @@ description: A toolkit for open source researchers
 
 # About
 
-Welcome to Bellingcat’s Online Open Source Investigation Toolkit!
+### Welcome to Bellingcat’s Online Open Source Investigation Toolkit!
 
 <figure><img src=".gitbook/assets/Bellingcat_Toolkit_Ann_Kiernan copy.jpg" alt=""><figcaption><p><em>Illustration by Ann Kiernan for Bellingcat</em>.</p></figcaption></figure>
 
