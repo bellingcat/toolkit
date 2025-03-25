@@ -6,7 +6,7 @@ description: A toolkit for open source researchers
 
 ### Welcome to Bellingcat’s Online Open Source Investigation Toolkit!
 
-<figure><img src=".gitbook/assets/Bellingcat_Toolkit_Ann_Kiernan copy.jpg" alt=""><figcaption><p><em>Illustration by Ann Kiernan for Bellingcat</em>.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Bellingcat_Toolkit_Ann_Kiernan copy.jpg" alt="" width="563"><figcaption><p><em>Illustration by Ann Kiernan for Bellingcat</em>.</p></figcaption></figure>
 
 This is your place to discover tools! Our toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more. Most of the tools that we include can be used for free.
 
