@@ -68,6 +68,8 @@ When you add a monitor you can use the Visual Selector Tool, to select only thos
 
 <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption><p>This monitor shows will check a github repository for new issues, changes, and new releases.</p></figcaption></figure>
 
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>This monitor will check whether a chrome extrension was updated recently. (It was!)</p></figcaption></figure>
+
 After you click save, your monitor will be active.&#x20;
 
 ## **Additional Tips for OSINT Researchers**
