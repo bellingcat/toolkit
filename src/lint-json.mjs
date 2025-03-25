@@ -1,3 +1,4 @@
+import fs from 'fs';
 import paths from './paths.mjs'
 const {getTools} = paths;
 import pkg from './tools.mjs'
@@ -8,4 +9,7 @@ getTools().forEach((tool) => {
   // Rewrite with the latest json instructions or formatting.
   updateToolJSON(tool);
   updateToolCategories(tool);
+
+  // Copy the about page to main content
+  fs.writeFileSync('gitbook/README.md', fs.readFileSync('gitbook/pages/README.md', 'utf-8'));
 });
