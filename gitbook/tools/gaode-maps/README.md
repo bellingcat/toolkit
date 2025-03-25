@@ -30,6 +30,8 @@ Notably, Gaode Maps (AMap) does not provide street view, making the tool less di
 
 Instead, a function called 奇境 (translates as "wonder", pinyin: &#x71;_&#x69;jing_) is available for select locations, usually scenic places such as parks and tourist sites. The function allows users to view the location in different times of day, weather conditions, and seasons.
 
+<figure><img src=".gitbook/assets/select_layer_mobile_.png" alt="" width="375"><figcaption></figcaption></figure>
+
 <div align="center"><figure><img src=".gitbook/assets/park.png" alt="" width="188"><figcaption><p>The "wonder" view of Heping Park, Shanghai</p></figcaption></figure></div>
 
 **Worldwide data**
