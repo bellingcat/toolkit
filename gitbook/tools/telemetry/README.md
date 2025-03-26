@@ -14,6 +14,8 @@ According to its [website](https://www.telemetryapp.io/product) Telemetry has da
 
 The platform can be used to identify in which groups certain topics or terminology are being discussed or to search for conversations taking place in certain groups or channels.&#x20;
 
+
+
 * _For example, searching for_ [_"active clubs"_](https://en.wikipedia.org/wiki/Active_Club_Network) _in "Messages" returned results of public Telegram messages using the term, including from various regional active clubs' own channels, and provided information on each message's view count, reply count, and an option to dive into channel analytics._
 
 &#x20;                                                      ![](<.gitbook/assets/image (1).png>)
@@ -28,9 +30,9 @@ The platform can be used to identify in which groups certain topics or terminolo
 
 
 
-The platform also offers analytics pages of a given group or channel, allowing access to metadata and analytics about the group or channel, such as the total engagement, number of subscribers/members, mentioned groups and channels, a filtered view of post types, and more.
+The platform also offers analytics pages for a given group or channel, allowing access to metadata and analytics about the group or channel, such as the total engagement, number of subscribers/members, mentioned groups and channels, a filtered view of post types, and more.
 
-It also [offers ](https://www.telemetryapp.io/product)an API "to search, monitor and utilize Telegram data at scale."
+It also [offers ](https://www.telemetryapp.io/product)an API to search, monitor and utilize Telegram data at scale.
 
 ## Cost
 
@@ -54,9 +56,9 @@ Account creation (requiring an email address) is necessary to use the free searc
 
 ## Limitations
 
-The free version's searches only provide 25 results.
+The free version only provide 25 search results.
 
-Each search costs 1 token. Note that if you search a query within "Messages" data, then switch to "Channels" data, the search will be effectively re-run, and this will use a total of two tokens.
+Each search costs one token. Note that if you search a query within "Messages" data, then switch to "Channels" data, the search will be effectively re-run, and this will use a total of two tokens.
 
 ## Ethical Considerations
 
