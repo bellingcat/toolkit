@@ -62,7 +62,9 @@ Leak-Lookup has documentation on API capabilities here: [search](https://leak-lo
 
 ## Tool provider
 
-Leak-Lookup can be reached at info(at)leak-lookup.com or on X, the social media platform formerly known as [Twitter](https://x.com/leaklookup).&#x20;
+Leak-Lookup, location unknown.
+
+Leak-Lookup can be reached at info(at)leak-lookup.com or on X, the social media platform formerly known as [Twitter](https://x.com/leaklookup),&#x20;
 
 ## Advertising Trackers
 
