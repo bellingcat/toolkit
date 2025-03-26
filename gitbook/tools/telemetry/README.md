@@ -10,12 +10,21 @@ description: An analytical search tool for Telegram groups and channels.
 
 ## Description
 
-Telemetry has [data ](https://www.telemetryapp.io/product)from more than 1m+ Telegram channels and 2.5b+ messages, and supports boolean search queries that return results from public Telegram messages, groups, and channels, allowing for analysis of group and individual activity on the platform.&#x20;
+According to its [website](https://www.telemetryapp.io/product) Telemetry has data from more than 1m+ Telegram channels and 2.5b+ messages, and supports boolean search queries that return results from public Telegram messages, groups, and channels, allowing for analysis of group and individual activity on the platform.&#x20;
 
 The platform can be used to identify in which groups certain topics or terminology are being discussed or to search for conversations taking place in certain groups or channels.&#x20;
 
-* _For example, searching "active clubs" in "Messages" returned results of public Telegram messages using the term, including from various regional active clubs' own channels, and provided information on each message's view count, reply count, and an option to dive into channel analytics._![](<.gitbook/assets/image (1).png>)
-* _Searching the same query within "Channels" provides a list of possible channels utilising the terminology._ ![](<.gitbook/assets/image (2).png>)
+* _For example, searching for_ [_"active clubs"_](https://en.wikipedia.org/wiki/Active_Club_Network) _in "Messages" returned results of public Telegram messages using the term, including from various regional active clubs' own channels, and provided information on each message's view count, reply count, and an option to dive into channel analytics._
+
+&#x20;                                                      ![](<.gitbook/assets/image (1).png>)
+
+
+
+* _Searching the same query within "Channels" provides a list of possible channels utilising the terminology._
+
+
+
+&#x20;                                                      ![](<.gitbook/assets/image (2).png>)
 
 
 
