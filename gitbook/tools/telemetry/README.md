@@ -64,7 +64,7 @@ Each search costs one token. Note that if you search a query within "Messages" d
 
 When using Telemetry for research purposes, it's imperative to consider the following ethical aspects:
 
-* **Privacy and Consent**: Although Telemetry archives public posts, researchers should be mindful of the privacy expectations of individuals who made those posts. Not all users understand or anticipate their contributions being analysed or quoted in research.
+* **Privacy and Consent**: Although Telemetry provides public posts, researchers should be mindful of the privacy expectations of individuals who made those posts. Not all users understand or anticipate their contributions being analysed or quoted in research.
 * **Bias and Representativeness**: Acknowledge that the data collected from Telemetry may not be representative of broader populations or viewpoints. Research findings should be contextualised within the scope and limitations of the data source.
 * **The Oxygen of Amplification**_**:**_ Think carefully about what you publish so as not to unwittingly amplify some of the messaging present on fringe platforms. (_See_ [_The Oxygen of Amplification: Better Practices for Reporting on Extremists, Antagonists, and Manipulators Online_](https://datasociety.net/library/oxygen-of-amplification/) _by Whitney Phillips)._
 
