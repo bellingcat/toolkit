@@ -34,7 +34,7 @@ Leak-Lookup's collection of data appears comprehensive compared to other similar
 * [x] Partially Free
 * [ ] Paid
 
-As of February 2025, the [pricing information](https://leak-lookup.com/packages/credits) for credits are as follows:
+As of March 2025, the [pricing information](https://leak-lookup.com/packages/credits) for credits are as follows:
 
 * 20 credits for $10
 * 50 credits for $20
