@@ -207,3 +207,4 @@
   * [BskyThreadReader](tools/bskythreadreader/README.md)
   * [BskyFollowFinder/Bluesky network analyzer](tools/bluesky-network-analyzer/README.md)
   * [Bluesky Insights](tools/bluesky-insights/README.md)
+  * [Leak-Lookup](tools/leak-lookup/README.md)
