@@ -16,19 +16,13 @@ The platform can be used to identify in which groups certain topics or terminolo
 
 
 
-* _For example, searching for_ [_"active clubs"_](https://en.wikipedia.org/wiki/Active_Club_Network) _in "Messages" returned results of public Telegram messages using the term, including from various regional active clubs' own channels, and provided information on each message's view count, reply count, and an option to dive into channel analytics._
+* _For example, searching for "climate" in "Messages" returned results of public Telegram messages using the term, and provided information on each message's view count, reply count, and an option to dive into channel analytics_
 
-&#x20;                                                      ![](<.gitbook/assets/image (1).png>)
-
-
-
-* _Searching the same query within "Channels" provides a list of possible channels utilising the terminology._
+&#x20;      ![](<.gitbook/assets/image (4).png>)
 
 
 
-&#x20;                                                      ![](<.gitbook/assets/image (2).png>)
-
-
+* _Searching the same query within "Channels" provides a list of possible channels utilising the terminology._                                                       ![](<.gitbook/assets/image (5).png>)
 
 The platform also offers analytics pages for a given group or channel, allowing access to metadata and analytics about the group or channel, such as the total engagement, number of subscribers/members, mentioned groups and channels, a filtered view of post types, and more.
 
