@@ -208,3 +208,4 @@
   * [BskyFollowFinder/Bluesky network analyzer](tools/bluesky-network-analyzer/README.md)
   * [Bluesky Insights](tools/bluesky-insights/README.md)
   * [Leak-Lookup](tools/leak-lookup/README.md)
+  * [Telemetry](tools/telemetry/README.md)
