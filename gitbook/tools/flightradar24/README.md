@@ -223,7 +223,7 @@ For a more detailed guide to its search features, refer to: [https://www.flightr
 
 #### Custom Filters
 
-In addition to filtering by aircraft category, users can create their own custom filters tailored to their research purpose. Flightradar24 improved its filtering system by enabling five additional parameters.
+In addition to filtering by aircraft category, users can create their own custom filters tailored to their research purpose. [Flightradar24 improved its filtering system by enabling additional parameters.](https://support.fr24.com/support/solutions/articles/3000120424-how-to-use-filters-on-the-flightradar24-website-)
 
 OPEN each tab to get more detailed information on how to create custom filters.
 
