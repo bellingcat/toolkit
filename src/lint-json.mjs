@@ -1,6 +1,6 @@
 import fs from 'fs';
 import paths from './paths.mjs'
-const {getTools} = paths;
+const {getTools, getSummary} = paths;
 import pkg from './tools.mjs'
 const {updateToolJSON, updateToolCategories} = pkg;
 
@@ -14,3 +14,14 @@ getTools().forEach((tool) => {
 
 // Copy the about page to main content
 fs.writeFileSync('gitbook/README.md', fs.readFileSync('gitbook/pages/README.md', 'utf-8'));
+
+// Sort the tools in the summary
+const summary = getSummary('gitbook');
+
+// Alphabatize the sublist of tools Under the heading [All Tools](...)
+// Assumes that this list is the last thing in the file.
+const heading = "* [All Tools](more/all-tools/README.md)\n";
+const parts = summary.split(heading);
+const toolList = parts[1]
+const items = toolList.split('\n').sort().filter((x) => x.length);
+fs.writeFileSync('gitbook/SUMMARY.md', [parts[0], heading, items.join('\n')].join(''));
