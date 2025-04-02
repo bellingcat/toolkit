@@ -10,6 +10,7 @@ getTools().forEach((tool) => {
   updateToolJSON(tool);
   updateToolCategories(tool);
 
-  // Copy the about page to main content
-  fs.writeFileSync('gitbook/README.md', fs.readFileSync('gitbook/pages/README.md', 'utf-8'));
 });
+
+// Copy the about page to main content
+fs.writeFileSync('gitbook/README.md', fs.readFileSync('gitbook/pages/README.md', 'utf-8'));
