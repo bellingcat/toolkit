@@ -16,7 +16,9 @@ Baidu Maps offers maps, street view, satellite imagery, and real-time route plan
 
 #### The basics
 
-In the web version, search for a location and in the bottom right corner select the layer you wish to explore — street view, satellite image, or back to default map view.
+In the web version, search for a location. To select layers, point your cursor to the bottom-right corner and 3 options will appear (i.e., default map view, satellite image, or street View). Select the layer you wish to explore.&#x20;
+
+<figure><img src=".gitbook/assets/waigaoqiao_ copy.png" alt=""><figcaption><p>For example, a search for Shanghai's Waigaoqiao (a port and commercial district) will show this view in the web browser.</p></figcaption></figure>
 
 <div align="center"><figure><img src=".gitbook/assets/baidu_navigation.png" alt="" width="375"><figcaption><p>Navigation to the regular map, satellite image and street view, found at the bottom right corner of the web browser</p></figcaption></figure></div>
 
@@ -48,7 +50,7 @@ The "time machine" function allows you to access older street view images, going
 
 <figure><img src=".gitbook/assets/time_machine_example.png" alt=""><figcaption><p>The "time machine" will show older street view images available (year and month of image captured). The approval reference is in the bottom right corner.</p></figcaption></figure>
 
-**The Enigma of Coordinates**
+**The Enigma of Coordinates in China**
 
 Most of the world uses the coordinate system WGS-84 (colloquially known as Earth coordinates), whereas China uses GCJ-02 (Mars coordinates). GCJ-02 uses an encryption algorithm that applies random offsets to the latitude and longitude of locations. Obfuscating the geographic data is for [national security purposes](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China). &#x20;
 
@@ -58,9 +60,9 @@ Baidu Maps goes even further in its DD-09 coordinates system, applying additiona
 
 When searching for a location on Baidu Maps, the BB-09 coordinates are shown in the URL.&#x20;
 
-Another way to search is: https://api.map.baidu.com/lbsapi/getpoint/. Search for a location and the BB-09 coordinates are shown in the top-right. Note that in Chinese mapping tools, longitude comes before latitude.&#x20;
+Another way to search is: [https://api.map.baidu.com/lbsapi/getpoint/](./#url). Search for a location and the BB-09 coordinates are shown in the top-right. **Note that in Chinese mapping tools, longitude comes before latitude**.&#x20;
 
-<figure><img src=".gitbook/assets/dafen_village (1).png" alt=""><figcaption><p>Example: Searching for Dafen Village shows the coordinates on the top-right</p></figcaption></figure>
+<figure><img src=".gitbook/assets/dafen_village (1).png" alt=""><figcaption><p>Example: From the Baidu Maps API getpoint page, the coordinates will show on the top-right when searching for Dafen Village, Shenzhen</p></figcaption></figure>
 
 To search by coordinates instead, enter the coordinates (longitude first) and check the box for reverse search using coordinates.&#x20;
 
@@ -72,7 +74,7 @@ A 3D view is available. Baidu Maps also offers API for building third-party apps
 
 Open-source researchers can cross-reference the other leading mapping services, including AMap (Gaode Maps) and Tencent Map (QQ Maps).&#x20;
 
-Both Baidu Maps and AMap use China's BeiDou Navigation Satellite System for their global positioning capabilities. However, the user experience design, recommended navigation routes, and the availability of street views, indoor maps, and 3D maps will differ.&#x20;
+For open-source researchers accessing Chinese map tools from overseas, Baidu Maps is the only tool that provides street view on the web browser. (Street view is not available on AMap, and is only available in Tencent Maps' mobile version.)&#x20;
 
 Another tool to compare satellite imagery of China is [https://www.earthol.com/](https://www.earthol.com/)
 
@@ -100,7 +102,7 @@ Another tool to compare satellite imagery of China is [https://www.earthol.com/]
 
 Researchers and developers should consider several limitations:
 
-* **Geographical Restrictions**: The most detailed coverage is limited to China. Less detailed data available for other countries.&#x20;
+* **Geographical Restrictions**: The most detailed coverage is limited to China. Little to no data is available for other countries.&#x20;
 * **Language Barrier**: The user interface is only available in Chinese.&#x20;
 * **Access Speed**: International users will experience slower access speeds or need a Chinese IP address to access certain APIs.&#x20;
 
