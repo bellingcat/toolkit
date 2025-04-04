@@ -8,16 +8,18 @@ description: >-
 
 ## URL
 
-Main site: [www.amap.com](./#url)
+Main site: [www.amap.com](./#url); (if you're in China) [www.gaode.com](./#url)
 
 API docs: [lbs.amap.com/api](https://lbs.amap.com/api)
+
+"AMap Global" - English mobile app (iOS or Android)
 
 ## Description
 
 Gaode Maps offers maps, satellite imagery, directions (for driving, public transport, and walking), and real-time augmented reality navigation for driving. It is available via the web browser or as a mobile application. (The app was previously known as AutoNavi, and is currently named AMap outside China.) A few highlights:&#x20;
 
 * **Global data**: Maps, directions and recommended transport data are available globally, though data are the most detailed for China. &#x20;
-* **Mobile app available in English**: The English app offers basic functions including map search, satellite imagery and directions. (Other functionalities may be limited, e.g., finding nearby facilities or AR.)&#x20;
+* **Mobile app "AMap Global" available in English**: The English mobile app offers basic functions including map search, satellite imagery and directions. (Other functionalities may be limited, e.g., finding nearby facilities or AR.)&#x20;
 * Notably, **Gaode Maps** **does not offer street view**.&#x20;
 
 AMap is a data provider to Apple Maps, which automatically switches to using AMap data when the device is in China (e.g., when global iPhone users travel from overseas to mainland China).&#x20;
@@ -62,6 +64,8 @@ In the mobile app, a function called 奇境 (translates as "wonder", pinyin: _qi
 
 The app provides global data for over 200 countries, including street maps, route navigation (driving, public transportation, or walking) and business locations.&#x20;
 
+<figure><img src=".gitbook/assets/overseas.png" alt="" width="563"><figcaption><p>Using AMap to explore outside China. (left) Map. (right) route planning for a walk.</p></figcaption></figure>
+
 Business owners from any country could add their locations and information onto AMap (for instance, to attract Chinese travellers who may visit their countries).&#x20;
 
 **Getting coordinates**
@@ -78,21 +82,21 @@ API documentation for [3D map](https://lbs.amap.com/demo/javascript-api/example/
 
 **Reviews**
 
-User-generated reviews are available in the mobile app.&#x20;
+User-generated reviews are available in the mobile app (without login).&#x20;
 
 
 
 **Using AMap in English (mobile app only)**
 
-Please note that the AMap in the web browser does not change to English, even after account registration and login. The English version is only available as a mobile app.&#x20;
+The English version is only available in the mobile app. In your app store, search "AMap Global", download and install.&#x20;
 
 <details>
 
-<summary>How to change the AMap mobile app to English</summary>
+<summary>If you downloaded the app (Gaode Maps) in Chinese, and need to change the language to English</summary>
 
 <figure><img src=".gitbook/assets/gaode_english.png" alt=""><figcaption></figcaption></figure>
 
-1. First, download AMap in Chinese, install, open the app, and select the user icon (indicated by the blue arrow).&#x20;
+1. Select the user icon (indicated by the blue arrow).&#x20;
 2. Select the settings icon.&#x20;
 3. Scroll to the bottom, select General 通用.
 4. Select Language Settings 语言设置.&#x20;
