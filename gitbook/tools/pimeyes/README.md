@@ -59,10 +59,10 @@ Users can design their search queries based on the photo and the site name using
 ## Cost
 
 * [ ] Free
-* [x] Partially Free
-* [ ] Paid
+* [ ] Partially Free
+* [x] Paid
 
-First 10 searches are partially free. Subscription is required to access results. See the pricing [here](https://pimeyes.com/en/premium).
+The first 10 searches are partially free. A subscription is required to access the results. See the pricing [here](https://pimeyes.com/en/premium).
 
 ## Level of difficulty
 
