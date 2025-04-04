@@ -34,7 +34,9 @@ After searching in pinyin or Chinese characters, select the layer or function.
 
 <details>
 
-<summary>English annotations to the basic functions</summary>
+<summary>Select layers - see English annotations</summary>
+
+Here are the layers and functions, annotated in English. Your view may be different depending your country.&#x20;
 
 <figure><img src=".gitbook/assets/functions_annotated.png" alt=""><figcaption><p>Web browser view - select layer or function</p></figcaption></figure>
 
@@ -78,7 +80,25 @@ API documentation for [3D map](https://lbs.amap.com/demo/javascript-api/example/
 
 **Reviews**
 
-IMAGES OF REVIEWS
+User-generated reviews are available in the mobile app.&#x20;
+
+
+
+**Using AMap in English**
+
+<details>
+
+<summary>How to change the AMap mobile app to English</summary>
+
+<figure><img src=".gitbook/assets/gaode_english.png" alt=""><figcaption></figcaption></figure>
+
+1. First, download AMap in Chinese, install, open the app, and select the user icon (indicated by the blue arrow).&#x20;
+2. Select the settings icon.&#x20;
+3. Scroll to the bottom, select General 通用.
+4. Select Language Settings 语言设置.&#x20;
+5. Select English. A pop-up message will ask you to re-start the app for the language to be updated.&#x20;
+
+</details>
 
 
 
