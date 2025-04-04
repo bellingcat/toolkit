@@ -4,7 +4,7 @@ description: A toolkit that supports the verification of videos and images.
 
 # InVID Verification Plugin
 
-URL
+## URL
 
 [https://weverify.eu/verification-plugin/](https://weverify.eu/verification-plugin/)
 
