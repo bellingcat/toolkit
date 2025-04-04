@@ -84,7 +84,9 @@ User-generated reviews are available in the mobile app.&#x20;
 
 
 
-**Using AMap in English**
+**Using AMap in English (mobile app only)**
+
+Please note that the AMap in the web browser does not change to English, even after account registration and login. The English version is only available as a mobile app.&#x20;
 
 <details>
 
@@ -128,10 +130,6 @@ User-generated reviews are available in the mobile app.&#x20;
 
 * See the Bellingcat toolkit's [About Maps and Satellites](https://bellingcat.gitbook.io/toolkit/more/all-tools/about-maps-and-satellites) page for a general discussion on censorship and content control
 * **Privacy Concerns**: Like many mapping services, Gaode Maps gathers user data, raising concerns about user privacy. (An [April 2021 notice from the Cyberspace Administration of China](./#url) named all leading Chinese mapping tools among 33 apps for extensively collecting user data, beyond what is relevant to their service provision.)
-
-## Guide
-
-\[\[Link to a guide on this tool]]
 
 ## Tool provider
 
