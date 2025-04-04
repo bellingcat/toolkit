@@ -82,7 +82,7 @@ API documentation for [3D map](https://lbs.amap.com/demo/javascript-api/example/
 
 **Reviews**
 
-User-generated reviews are available in the mobile app (without login).&#x20;
+User-generated reviews and photos are available in the mobile app (without login).&#x20;
 
 
 
@@ -119,14 +119,15 @@ The English version is only available in the mobile app. In your app store, sear
 ## Requirements
 
 * **Web:** any modern web browser
-* **Mobile:** iOS or Android (or HarmonyOS). Globally available.&#x20;
-* **API:** Email address, Chinese phone number, and a payment method
+* **Mobile:** iOS or Android (or HarmonyOS). Globally available. User accounts can be set up with international phone numbers.&#x20;
+* **API:** Email address, phone number, and a payment method
 
 ## Limitations
 
-* **Geographical Restrictions**: The most detailed coverage is limited to China.
-* **Language Barrier**: The user interface is only available in Chinese.&#x20;
+* **No street view**
+* **Geographical Restrictions**: The most detailed map coverage and most extensive functions (e.g., searching for nearby services and facilities) are available in China.&#x20;
 * **Access Speed**: International users will experience slower access speeds or need a Chinese IP address to access certain APIs.
+* **Language Barrier**: The user interface of the web version is only available in Chinese.
 
 ## Ethical Considerations
 
