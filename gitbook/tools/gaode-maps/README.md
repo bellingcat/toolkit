@@ -1,7 +1,5 @@
 ---
-description: >-
-  Mapping application and technology from the Chinese company Alibaba. Also
-  known as AMap.
+description: Mapping application and technology from the Chinese company Alibaba.
 ---
 
 # Gaode Maps
@@ -14,29 +12,54 @@ API docs: [lbs.amap.com/api](https://lbs.amap.com/api)
 
 ## Description
 
+The mapping service can be accessed on the web browser or as a mobile application.&#x20;
+
+Gaode Maps is popular for its navigation capabilities, which includes real-time augmented reality directions and guidance for drivers. (The app was previously known as AutoNavi, currently using the name AMap.)
+
+* **Global data**: Maps, directions and recommended transport data are available globally, though data are the most detailed for China. &#x20;
+* **Mobile app available in English**: The English app offers basic functions including map search, satellite imagery and directions. (Some functionalities may be limited, e.g., nearby recommendations.)&#x20;
+* Notably, **Gaode Maps** **does not offer street view**.&#x20;
+* AMap is a data provider to Apple Maps, which automatically switches to using AMap data when the device is in China (e.g., when global iPhone users travel to mainland China).&#x20;
+
+Unless specified, all functions described on this page can be accessed without registering an account.&#x20;
+
 **Basic search**
 
-Search in pinyin or Chinese characters, and select the layer or function.&#x20;
+After searching in pinyin or Chinese characters, and select the layer or function.&#x20;
 
-<figure><img src=".gitbook/assets/functions_annotated.png" alt="" width="375"><figcaption><p>Web browser view - select layer or function</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/annotated.png" alt="" width="351"><figcaption><p>Mobile view > select layer or function</p></figcaption></figure>
 
-On the map (web browser view), in the reference number shown at the bottom left, e.g., "GS(2025)1234", the year refers to the year when the image was approved for publication by China's State Bureau of Surveying and Mapping.&#x20;
+<details>
 
-**No street view, only a curated user experience**
+<summary>English annotations to the basic functions</summary>
 
-Notably, Gaode Maps (AMap) does not provide street view, making the tool less directly useful for geolocation.&#x20;
+<figure><img src=".gitbook/assets/functions_annotated.png" alt=""><figcaption><p>Web browser view - select layer or function</p></figcaption></figure>
 
-Instead, a function called 奇境 (translates as "wonder", pinyin: &#x71;_&#x69;jing_) is available for select locations, usually scenic places such as parks and tourist sites. The function allows users to view the location in different times of day, weather conditions, and seasons.
+<figure><img src=".gitbook/assets/annotated.png" alt="" width="176"><figcaption><p>Mobile view > select layer or function</p></figcaption></figure>
 
-<div align="center"><figure><img src=".gitbook/assets/park.png" alt="" width="188"><figcaption><p>Heping Park, Shanghai</p></figcaption></figure></div>
+</details>
+
+On the web browser view, a reference number is shown at the bottom left, e.g., GS(2025)1234. The year refers to the year when the map was approved for publication by China's State Bureau of Surveying and Mapping.&#x20;
+
+**No Street View Available**
+
+Gaode Maps does not offer street view (the function was deprecated some years ago). Instead, for some select places, the mobile app has a function called "wonder", which offers fisheye aerial photography.&#x20;
+
+<details>
+
+<summary>The "wonder" 奇境 function</summary>
+
+In the mobile app, a function called 奇境 (translates as "wonder", pinyin: _qijing_) is available for select locations, usually scenic places such as parks and tourist sites. The function allows users to view the location in different times of day, weather conditions, or seasons.
+
+<div align="center"><figure><img src=".gitbook/assets/park.png" alt="" width="188"><figcaption><p>Example: When the user moves the slider at the bottom, they can view the location in different times of day.</p></figcaption></figure></div>
+
+</details>
 
 **Worldwide data**
 
 Although AMap provides the most detailed data for China, the app also provides global data in over 200 countries, including street maps, route navigation (driving, public transportation, or walking) and business locations.&#x20;
 
-Business owners from any country could add their locations and information onto AMap (for instance, to attract Chinese travellers who may visit their countries).
+Business owners from any country could add their locations and information onto AMap (for instance, to attract Chinese travellers who may visit their countries).&#x20;
 
 **Getting coordinates**
 
@@ -49,6 +72,10 @@ If you use Google Maps, the coordinates you obtain for China are in the GCJ-02 s
 #### 3D models
 
 API documentation for [3D map](https://lbs.amap.com/demo/javascript-api/example/3d/map3d) and [3D model](https://lbs.amap.com/demo/javascript-api/example/3d/3d-model) are available.&#x20;
+
+**Reviews**
+
+Without logging into&#x20;
 
 ## Cost
 
@@ -63,8 +90,8 @@ API documentation for [3D map](https://lbs.amap.com/demo/javascript-api/example/
 ## Requirements
 
 * **Web:** any modern web browser
-* **Mobile:** iOS or Android
-* **API: E**mail address and possibly a credit card
+* **Mobile:** iOS or Android (or HarmonyOS). Globally available.&#x20;
+* **API:** Email address, Chinese phone number, and a payment method
 
 ## Limitations
 
