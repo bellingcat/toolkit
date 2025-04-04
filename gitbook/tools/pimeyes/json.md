@@ -7,14 +7,7 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "tags": [
-    "facial-recognition",
-    "reverse-image-search"
-  ],
-  "name": "PimEyes",
-  "url": "https://pimeyes.com/en",
-  "description": "Face Search Engine & Reverse Image Search.",
-  "cost": "Partially Free"
+  "tags": []
 }
 ```
 {% endcode %}
