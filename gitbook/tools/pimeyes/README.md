@@ -14,11 +14,11 @@ PimEyes lets users upload pictures of a person and conducts an AI search to find
 
 According to an [interview](https://netzpolitik.org/2022/pimeyes-ceo-the-user-is-the-stalker-not-the-search-engine/) with CEO Giorgi Gobronidze in 2022, PimEyes had "approximately 2.1 billion faces maximum" hashed at that point in time.
 
+PimEyes is intended **solely for personal use**. Pursuant to our Terms of Service, any search pertaining to other individuals is strictly prohibited. We take all necessary measures to ensure the privacy and protection of our users. We consider non-compliance with our policies to be a grave matter, tantamount to violating the law. [https://pimeyes.com/en/faq](https://pimeyes.com/en/faq)
 
 
 
-
-can verify a person’s identity by scanning [900 million](https://web.archive.org/web/20200602210520/https://pimeyes.com/en/) images from the internet. To get started, upload a photo of the person you want to verify. Users can upload up to five photos at a time. The search will produce relevant results. If an image is of poor quality and the search fails, the edit option allows users to refine an image and repeat the search. The “Take picture” option requires access to your computer’s camera.
+To get started, upload a photo of the person you want to verify. Users can upload up to five photos at a time. The search will produce relevant results. If an image is of poor quality and the search fails, the edit option allows users to refine an image and repeat the search. The “Take picture” option requires access to your computer’s camera.
 
 A "safe search" option excludes "possible adult content from results." A "deep search" [option](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9) that takes longer and explores more databases is available to "advanced" subscription users.
 
