@@ -1,5 +1,7 @@
 ---
-description: Mapping application and technology from the Chinese company Alibaba.
+description: >-
+  Mapping application and technology from the Chinese company Alibaba. (Also
+  known as AMap.)
 ---
 
 # Gaode Maps
@@ -12,22 +14,23 @@ API docs: [lbs.amap.com/api](https://lbs.amap.com/api)
 
 ## Description
 
-The mapping service can be accessed on the web browser or as a mobile application.&#x20;
+Gaode Maps (AMap) offers maps, satellite imagery, directions (for driving, public transport, and walking) and real-time augmented reality navigation for drivers. It is available via the web browser or as a mobile application.&#x20;
 
-Gaode Maps is popular for its navigation capabilities, which includes real-time augmented reality directions and guidance for drivers. (The app was previously known as AutoNavi, currently using the name AMap.)
+(The app was previously known as AutoNavi, and is currently named AMap.)
 
 * **Global data**: Maps, directions and recommended transport data are available globally, though data are the most detailed for China. &#x20;
-* **Mobile app available in English**: The English app offers basic functions including map search, satellite imagery and directions. (Some functionalities may be limited, e.g., nearby recommendations.)&#x20;
+* **Mobile app available in English**: The English app offers basic functions including map search, satellite imagery and directions. (Other functionalities may be limited, e.g., finding nearby facilities or AR.)&#x20;
 * Notably, **Gaode Maps** **does not offer street view**.&#x20;
-* AMap is a data provider to Apple Maps, which automatically switches to using AMap data when the device is in China (e.g., when global iPhone users travel to mainland China).&#x20;
+
+AMap is a data provider to Apple Maps, which automatically switches to using AMap data when the device is in China (e.g., when global iPhone users travel from overseas to mainland China).&#x20;
 
 Unless specified, all functions described on this page can be accessed without registering an account.&#x20;
 
 **Basic search**
 
-After searching in pinyin or Chinese characters, and select the layer or function.&#x20;
+After searching in pinyin or Chinese characters, select the layer or function.
 
-
+<figure><img src=".gitbook/assets/gaode_search.png" alt="" width="563"><figcaption><p>Web browser view > after searching for a specific location (example shown: airport in Pu'er City)</p></figcaption></figure>
 
 <details>
 
@@ -43,7 +46,7 @@ On the web browser view, a reference number is shown at the bottom left, e.g., G
 
 **No Street View Available**
 
-Gaode Maps does not offer street view (the function was deprecated some years ago). Instead, for some select places, the mobile app has a function called "wonder", which offers fisheye aerial photography.&#x20;
+Gaode Maps does not offer street view (the function was removed several years ago). Instead, the mobile app has a function called "wonder", which offers fisheye aerial photograph in some select places.&#x20;
 
 <details>
 
@@ -57,15 +60,15 @@ In the mobile app, a function called 奇境 (translates as "wonder", pinyin: _qi
 
 **Worldwide data**
 
-Although AMap provides the most detailed data for China, the app also provides global data in over 200 countries, including street maps, route navigation (driving, public transportation, or walking) and business locations.&#x20;
+The app provides global data for over 200 countries, including street maps, route navigation (driving, public transportation, or walking) and business locations.&#x20;
 
 Business owners from any country could add their locations and information onto AMap (for instance, to attract Chinese travellers who may visit their countries).&#x20;
 
 **Getting coordinates**
 
-Within AMap, if you search for a specific location, the coordinates are available in the URL, in longitude-latitude format.&#x20;
+Within AMap, if you search for a specific location, the coordinates are shown in the URL, in longitude-latitude format.&#x20;
 
-Most of the world uses the coordinate system WGS-84 (colloquially known as Earth coordinates), whereas China uses GCJ-02 (Mars coordinates). GCJ-02 uses an encryption algorithm that applies random offsets to the latitude and longitude of locations. Obfuscating the geographic data is for [national security purposes](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China).&#x20;
+For background: China uses a coordinate system called GCJ-02 (colloquially known as Mars coordinates), whereas the rest of the world uses WGS-84 (Earth coordinates). Using an encryption algorithm, GCJ-02 applies random offsets to the latitude and longitude of locations. Obfuscating the geographic data is for [national security purposes](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China).&#x20;
 
 If you use Google Maps, the coordinates you obtain for China are in the GCJ-02 system. You could copy the coordinates from Google Maps (in latitude-longitude format) and use them as a search term in AMap.
 
@@ -75,7 +78,9 @@ API documentation for [3D map](https://lbs.amap.com/demo/javascript-api/example/
 
 **Reviews**
 
-Without logging into&#x20;
+IMAGES OF REVIEWS
+
+
 
 ## Cost
 
