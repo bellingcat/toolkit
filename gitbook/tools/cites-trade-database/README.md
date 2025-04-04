@@ -56,7 +56,7 @@ At a CITES [meeting](https://cites.org/sites/default/files/eng/com/sc/69/E-SC69-
 
 ## Ethical Considerations
 
-Wanting to identify birds is not an opportunity to disturb or mistreat them in any way. Check out the Wisconsin Ornithological Society's Code of Ethics: https://wsobirds.org/about-wso/code-of-ethics
+None so far.
 
 ## Guides and articles
 
