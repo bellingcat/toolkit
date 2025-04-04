@@ -10,14 +10,13 @@ Main page, [http://map.baidu.com/](http://map.baidu.com/)
 
 API documentation, [https://api.map.baidu.com/](https://api.map.baidu.com/)
 
-
 ## Description
 
-Baidu Maps offers maps, street view, satellite imagery, and real-time route planning. It is available via the web browser or as a mobile application.&#x20;
+Baidu Maps offers maps, street view, satellite imagery, and real-time route planning. It is available via the web browser or as a mobile application.
 
 #### The basics
 
-In the web version, search for a location. To select layers, point your cursor to the bottom-right corner and 3 options will appear (i.e., default map view, satellite image, or street View). Select the layer you wish to explore.&#x20;
+In the web version, search for a location. To select layers, point your cursor to the bottom-right corner and 3 options will appear (i.e., default map view, satellite image, or street View). Select the layer you wish to explore.
 
 <figure><img src=".gitbook/assets/waigaoqiao_ copy.png" alt=""><figcaption><p>For example, a search for Shanghai's Waigaoqiao (a port and commercial district) will show this view in the web browser.</p></figcaption></figure>
 
@@ -27,7 +26,7 @@ Note that the reference number at the bottom left, e.g., "GS(2023)1234", refers 
 
 **Street view**
 
-Street views are generally available on the road networks, indicated by the thickened routes. For a static preview, place the cursor onto the route. Click to enter street view mode.&#x20;
+Street views are generally available on the road networks, indicated by the thickened routes. For a static preview, place the cursor onto the route. Click to enter street view mode.
 
 <figure><img src=".gitbook/assets/streetview_available.png" alt=""><figcaption><p>The thickened gray routes indicate that street view is available.</p></figcaption></figure>
 
@@ -37,11 +36,9 @@ Street views are generally available on the road networks, indicated by the thic
 
 <img src=".gitbook/assets/right-click.png" alt="" data-size="original">
 
-(above) From the regular map view, point to the main road, right-click to show a shortcut menu > select the first item  "panoramic preview". (below) The 360º preview is shown.
+(above) From the regular map view, point to the main road, right-click to show a shortcut menu > select the first item "panoramic preview". (below) The 360º preview is shown.
 
 <img src=".gitbook/assets/panoramic_preview.png" alt="" data-size="original">
-
-
 
 </details>
 
@@ -53,19 +50,19 @@ The "time machine" function allows you to access older street view images, going
 
 **The Enigma of Coordinates in China**
 
-Most of the world uses the coordinate system WGS-84 (colloquially known as Earth coordinates), whereas China uses GCJ-02 (Mars coordinates). GCJ-02 uses an encryption algorithm that applies random offsets to the latitude and longitude of locations. Obfuscating the geographic data is for [national security purposes](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China). &#x20;
+Most of the world uses the coordinate system WGS-84 (colloquially known as Earth coordinates), whereas China uses GCJ-02 (Mars coordinates). GCJ-02 uses an encryption algorithm that applies random offsets to the latitude and longitude of locations. Obfuscating the geographic data is for [national security purposes](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China).
 
-Baidu Maps goes even further in its DD-09 coordinates system, applying additional encryption based on GCJ-02.&#x20;
+Baidu Maps goes even further in its DD-09 coordinates system, applying additional encryption based on GCJ-02.
 
 **Where to get the coordinates in Baidu Maps**
 
-When searching for a location on Baidu Maps, the BB-09 coordinates are shown in the URL.&#x20;
+When searching for a location on Baidu Maps, the BB-09 coordinates are shown in the URL.
 
-Another way to search is: [https://api.map.baidu.com/lbsapi/getpoint/](./#url). Search for a location and the BB-09 coordinates are shown in the top-right. **Note that in Chinese mapping tools, longitude comes before latitude**.&#x20;
+Another way to search is: [https://api.map.baidu.com/lbsapi/getpoint/](./#url). Search for a location and the BB-09 coordinates are shown in the top-right. **Note that in Chinese mapping tools, longitude comes before latitude**.
 
 <figure><img src=".gitbook/assets/dafen_village (1).png" alt=""><figcaption><p>Example: From the Baidu Maps API getpoint page, the coordinates will show on the top-right when searching for Dafen Village, Shenzhen</p></figcaption></figure>
 
-To search by coordinates instead, enter the coordinates (longitude first) and check the box for reverse search using coordinates.&#x20;
+To search by coordinates instead, enter the coordinates (longitude first) and check the box for reverse search using coordinates.
 
 **3D models**
 
@@ -73,9 +70,11 @@ A 3D view is available. Baidu Maps also offers API for building third-party apps
 
 ### Similar tools
 
-Open-source researchers can cross-reference the other leading mapping services, including AMap (Gaode Maps) and Tencent Map (QQ Maps).&#x20;
+Open-source researchers can cross-reference the other leading mapping services, including AMap (Gaode Maps) and Tencent Map (QQ Maps).
 
-For open-source researchers accessing Chinese map tools from overseas, Baidu Maps is the only tool that provides street view on the web browser. (Street view is not available on AMap, and is only available in Tencent Maps' mobile version.)&#x20;
+For open-source researchers accessing Chinese map tools from overseas, Baidu Maps is the only tool that provides street view on the web browser. (Street view is not available on AMap, and is only available in Tencent Maps' mobile version.)
+
+Note that all three mapping tools use (at least in part) the BeiDou Navigation Satellite System 北斗卫星导航系统 for their satellite and positioning capabilities. BeiDou is the global positioning and satellite technology developed by China, and [competes with GPS and Galileo](https://www.gpsworld.com/chinas-beidou-challenges-u-s-gps-dominance/). The exact ways that BeiDou is leveraged depends on the device, the chip, and the location where the mapping tool is used. &#x20;
 
 Another tool to compare satellite imagery of China is [https://www.earthol.com/](https://www.earthol.com/)
 
@@ -103,9 +102,9 @@ Another tool to compare satellite imagery of China is [https://www.earthol.com/]
 
 Researchers and developers should consider several limitations:
 
-* **Geographical Restrictions**: The most detailed coverage is limited to China. Little to no data is available for other countries.&#x20;
-* **Language Barrier**: The user interface is only available in Chinese.&#x20;
-* **Access Speed**: International users will experience slower access speeds or need a Chinese IP address to access certain APIs.&#x20;
+* **Geographical Restrictions**: The most detailed coverage is limited to China. Little to no data is available for other countries.
+* **Language Barrier**: The user interface is only available in Chinese.
+* **Access Speed**: International users will experience slower access speeds or need a Chinese IP address to access certain APIs.
 
 ## Ethical Considerations
 
@@ -126,7 +125,7 @@ Researchers and developers should consider several limitations:
 
 **Articles**
 
-* How China is tearing down Islam. Financial Times. (November 2023) [https://ig.ft.com/china-mosques/](https://ig.ft.com/china-mosques/)&#x20;
+* How China is tearing down Islam. Financial Times. (November 2023) [https://ig.ft.com/china-mosques/](https://ig.ft.com/china-mosques/)
 * Interrogating China’s “Google Maps” to Investigate the Xinjiang Detention Centers. March 2021. Global Investigative Journalism Network. [https://gijn.org/stories/interrogating-chinas-google-maps-to-investigate-the-xinjiang-detention-centers/](https://gijn.org/stories/interrogating-chinas-google-maps-to-investigate-the-xinjiang-detention-centers/)
 * Baidu found China’s “ghost cities,” but it is keeping their locations mostly a secret (2015). Quartz. [https://web.archive.org/web/20151105031544/http://qz.com/540571/baidu-found-chinas-ghost-cities-but-it-is-keeping-their-locations-mostly-a-secret/](./#url)
 
