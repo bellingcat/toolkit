@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-Main page [http://map.qq.com/](./#url)
+[http://map.qq.com/](http://map.qq.com/)
 
 Mobile application or access via WeChat > mini program > Tencent Maps\
 \
