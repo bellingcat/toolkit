@@ -10,17 +10,11 @@ description: An AI-powered facial recognition reverse image search tool.
 
 ## Description
 
-Users can upload one or several pictures of a person and PimEyes conducts an AI search to find other pictures of that person. According to an [netzpolitik.org interview](https://netzpolitik.org/2022/pimeyes-ceo-the-user-is-the-stalker-not-the-search-engine/) with its CEO Giorgi Gobronidze in 2022, PimEyes had "approximately 2.1 billion faces maximum."&#x20;
+Users can upload one or several pictures of a person to PimEyes and it conducts an AI search to find other pictures of faces that look similar.
 
-How many unique faces does PimEyes have hashed in its database?
-
-
-
-I can’t give you the exact number, but it is approximately 2.1 billion faces maximum.
+According to an [netzpolitik.org interview](https://netzpolitik.org/2022/pimeyes-ceo-the-user-is-the-stalker-not-the-search-engine/) with its CEO Giorgi Gobronidze in 2022, PimEyes had "approximately 2.1 billion faces maximum" hashed at that point in time.
 
 
-
-is an AI-powered facial recognition tool that&#x20;
 
 
 
