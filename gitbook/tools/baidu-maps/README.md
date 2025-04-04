@@ -6,9 +6,10 @@ description: A mapping application provided by Chinese technology company Baidu 
 
 ## URL
 
-Main page, http://map.baidu.com/&#x20;
+Main page, [http://map.baidu.com/](http://map.baidu.com/)
 
-API documentation, https://api.map.baidu.com/
+API documentation, [https://api.map.baidu.com/](https://api.map.baidu.com/)
+
 
 ## Description
 
