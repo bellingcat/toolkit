@@ -10,7 +10,15 @@ description: An AI-powered facial recognition reverse image search tool.
 
 ## Description
 
-PimEyes is an AI-powered facial recognition tool that can verify a person’s identity by scanning [900 million](https://web.archive.org/web/20200602210520/https://pimeyes.com/en/) images from the internet. To get started, upload a photo of the person you want to verify. Users can upload up to five photos at a time. The search will produce relevant results. If an image is of poor quality and the search fails, the edit option allows users to refine an image and repeat the search. The “Take picture” option requires access to your computer’s camera.
+Users can upload one or several pictures of a person and PimeEyes tries to find other pictures of the same person from across the internet.&#x20;
+
+
+
+is an AI-powered facial recognition tool that&#x20;
+
+
+
+can verify a person’s identity by scanning [900 million](https://web.archive.org/web/20200602210520/https://pimeyes.com/en/) images from the internet. To get started, upload a photo of the person you want to verify. Users can upload up to five photos at a time. The search will produce relevant results. If an image is of poor quality and the search fails, the edit option allows users to refine an image and repeat the search. The “Take picture” option requires access to your computer’s camera.
 
 A "safe search" option excludes "possible adult content from results." A "deep search" [option](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9) that takes longer and explores more databases is available to "advanced" subscription users.
 
