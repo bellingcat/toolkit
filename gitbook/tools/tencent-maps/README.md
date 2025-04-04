@@ -10,7 +10,7 @@ description: >-
 
 [http://map.qq.com/](http://map.qq.com/)
 
-Mobile application or access via WeChat > mini program > Tencent Maps\
+Mobile app (if outside China, download as apk)\
 \
 Location-based services API documentation [https://lbs.qq.com/service/webService/webServiceGuide/webServiceOverview](https://lbs.qq.com/service/webService/webServiceGuide/webServiceOverview)
 
