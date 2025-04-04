@@ -10,7 +10,7 @@ description: An AI-powered facial recognition reverse image search tool.
 
 ## Description
 
-Users can upload one or several pictures of a person and PimeEyes tries to find other pictures of the same person from across the internet.&#x20;
+Users can upload one or several pictures of a person and PimEyes conducts an AI search to find other pictures of that person.
 
 
 
