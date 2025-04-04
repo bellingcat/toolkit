@@ -14,9 +14,7 @@ API docs: [lbs.amap.com/api](https://lbs.amap.com/api)
 
 ## Description
 
-Gaode Maps (AMap) offers maps, satellite imagery, directions (for driving, public transport, and walking) and real-time augmented reality navigation for drivers. It is available via the web browser or as a mobile application.&#x20;
-
-(The app was previously known as AutoNavi, and is currently named AMap.)
+Gaode Maps offers maps, satellite imagery, directions (for driving, public transport, and walking), and real-time augmented reality navigation for driving. It is available via the web browser or as a mobile application. (The app was previously known as AutoNavi, and is currently named AMap outside China.) A few highlights:&#x20;
 
 * **Global data**: Maps, directions and recommended transport data are available globally, though data are the most detailed for China. &#x20;
 * **Mobile app available in English**: The English app offers basic functions including map search, satellite imagery and directions. (Other functionalities may be limited, e.g., finding nearby facilities or AR.)&#x20;
@@ -48,11 +46,11 @@ On the web browser view, a reference number is shown at the bottom left, e.g., G
 
 **No Street View Available**
 
-Gaode Maps does not offer street view (the function was removed several years ago). Instead, the mobile app has a function called "wonder", which offers fisheye aerial photograph in some select places.&#x20;
+Gaode Maps does not offer street view (the function was removed several years ago), making the tool less appealing for geolocation.&#x20;
 
 <details>
 
-<summary>The "wonder" 奇境 function</summary>
+<summary>The "wonder" 奇境 function - aerial or fisheye photos</summary>
 
 In the mobile app, a function called 奇境 (translates as "wonder", pinyin: _qijing_) is available for select locations, usually scenic places such as parks and tourist sites. The function allows users to view the location in different times of day, weather conditions, or seasons.
 
