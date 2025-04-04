@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-Main site: [www.amap.com](./#url); (if you're in China) [www.gaode.com](./#url)
+Main site: [www.amap.com](./#url), or [www.gaode.com](./#url)
 
 API docs: [lbs.amap.com/api](https://lbs.amap.com/api)
 
@@ -19,7 +19,7 @@ API docs: [lbs.amap.com/api](https://lbs.amap.com/api)
 Gaode Maps offers maps, satellite imagery, directions (for driving, public transport, and walking), and real-time augmented reality navigation for driving. It is available via the web browser or as a mobile application. (The app was previously known as AutoNavi, and is currently named AMap outside China.) A few highlights:&#x20;
 
 * **Global data**: Maps, directions and recommended transport data are available globally, though data are the most detailed for China. &#x20;
-* **Mobile app "AMap Global" available in English**: The English mobile app offers basic functions including map search, satellite imagery and directions. (Other functionalities may be limited, e.g., finding nearby facilities or AR.)&#x20;
+* **Mobile app "AMap Global" available in English**: The English mobile app offers basic functions including map search, satellite imagery and directions. (Other functionalities may be limited, e.g., finding nearby facilities.)&#x20;
 * Notably, **Gaode Maps** **does not offer street view**.&#x20;
 
 AMap is a data provider to Apple Maps, which automatically switches to using AMap data when the device is in China (e.g., when global iPhone users travel from overseas to mainland China).&#x20;
@@ -34,7 +34,7 @@ After searching in pinyin or Chinese characters, select the layer or function.
 
 <details>
 
-<summary>Select layers - see English annotations</summary>
+<summary>Select layers - English annotations</summary>
 
 Here are the layers and functions, annotated in English. Your view may be different depending your country.&#x20;
 
@@ -52,19 +52,19 @@ Gaode Maps does not offer street view (the function was removed several years ag
 
 <details>
 
-<summary>The "wonder" 奇境 function - aerial or fisheye photos</summary>
+<summary>The "wonder" 奇境 function - aerial or satellite photos</summary>
 
-In the mobile app, a function called 奇境 (translates as "wonder", pinyin: _qijing_) is available for select locations, usually scenic places such as parks and tourist sites. The function allows users to view the location in different times of day, weather conditions, or seasons.
+In the mobile app, a function called 奇境 (translates as "wonder", pinyin: _qijing_) is available for select locations, often scenic places such as parks and tourist sites. (To activate, see "Select layers - English annotations" above) The function allows users to view the location in different times of day, weather conditions, or seasons.
 
 <div align="center"><figure><img src=".gitbook/assets/park.png" alt="" width="188"><figcaption><p>Example: When the user moves the slider at the bottom, they can view the location in different times of day.</p></figcaption></figure></div>
 
 </details>
 
-**Worldwide data**
+**Worldwide coverage**
 
-The app provides global data for over 200 countries, including street maps, route navigation (driving, public transportation, or walking) and business locations.&#x20;
+The app provides global data for over 200 countries, including street maps, route navigation (driving, public transportation, or walking) and business locations. Here's an example:
 
-<figure><img src=".gitbook/assets/overseas.png" alt="" width="563"><figcaption><p>Using AMap to explore outside China. (left) Map. (right) route planning for a walk.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/overseas.png" alt="" width="563"><figcaption><p>Using AMap to explore outside China. (left) Map. (right) Walking route planning.</p></figcaption></figure>
 
 Business owners from any country could add their locations and information onto AMap (for instance, to attract Chinese travellers who may visit their countries).&#x20;
 
@@ -83,8 +83,6 @@ API documentation for [3D map](https://lbs.amap.com/demo/javascript-api/example/
 **Reviews**
 
 User-generated reviews and photos are available in the mobile app (without login).&#x20;
-
-
 
 **Using AMap in English (mobile app only)**
 
