@@ -39,8 +39,6 @@ Example - step-by-step:&#x20;
 
 Metadata such as the date of image capture or the approval reference are not available.&#x20;
 
-###
-
 
 
 ## Cost
@@ -61,7 +59,7 @@ Metadata such as the date of image capture or the approval reference are not ava
 
 ## Limitations
 
-* **Geographical Restrictions**: To set up a QQ account for map users, a Chinese phone number is required. Certain data or features might be [restricted outside of China](./#url) due to legal or licensing issues.&#x20;
+* **Geographical Restrictions**: Certain data or features might be [restricted outside of China](./#url) due to legal or licensing issues. To set up a QQ account for map users, a Chinese phone number is required.&#x20;
 * **Data availability**: Highly-detailed maps are only available for China.&#x20;
 * **Limited functionalities on web browser**: The app's more extensive features, including street view, are only available on the mobile app.&#x20;
 * **Language**: The mapping application, documentation and support are available in Chinese only.
@@ -71,7 +69,7 @@ Metadata such as the date of image capture or the approval reference are not ava
 ## Ethical Considerations
 
 * **Privacy Concerns**: Like many mapping services, Tencent Maps gathers user data, which raises questions about data privacy and protection. (An [April 2021 notice from the Cyberspace Administration of China](./#url) named all leading Chinese mapping tools among 33 apps which extensively collect user data, going beyond what is relevant to their service provision.)
-* **Censorship and Content Control**: Under the government censorship laws, Tencent Maps' content and functions will be omitted or geofenced for users outside of China. For a general discussion on content control, please see the [About Maps and Satellites](https://bellingcat.gitbook.io/toolkit/more/all-tools/about-maps-and-satellites) page (section: Political Bias and Missing Data).&#x20;
+* **Censorship and Content Control**: Under the government censorship laws, Tencent Maps' content and functions will be omitted or geofenced for users outside of China. For a general discussion on content control, please see the [About Maps and Satellites](https://bellingcat.gitbook.io/toolkit/more/all-tools/about-maps-and-satellites) page.&#x20;
 
 ## Guides and articles
 
