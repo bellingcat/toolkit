@@ -12,8 +12,6 @@ Main site: [www.amap.com](./#url), or [www.gaode.com](./#url)
 
 API docs: [lbs.amap.com/api](https://lbs.amap.com/api)
 
-"AMap Global" - English mobile app (iOS or Android)
-
 ## Description
 
 Gaode Maps offers maps, satellite imagery, directions (for driving, public transport, and walking), and real-time augmented reality navigation for driving. It is available via the web browser or as a mobile application. (The app was previously known as AutoNavi, and is currently named AMap outside China.) A few highlights:&#x20;
@@ -28,7 +26,7 @@ In many Android phone models sold in China, Gaode Maps is pre-installed instead 
 
 Unless specified, all functions described on this page can be accessed without registering an account.&#x20;
 
-**Basic search**
+#### Basic search
 
 After searching in pinyin or Chinese characters, select the layer or function.
 
@@ -48,7 +46,7 @@ Here are the layers and functions, annotated in English. Your view may be differ
 
 On the web browser view, a reference number is shown at the bottom left, e.g., GS(2025)1234. The year refers to the year when the map was approved for publication by China's State Bureau of Surveying and Mapping.&#x20;
 
-**No Street View Available**
+### No street view available
 
 Gaode Maps does not offer street view (the function was removed several years ago), making the tool less appealing for geolocation.&#x20;
 
@@ -62,7 +60,7 @@ In the mobile app, a function called 奇境 (translates as "wonder", pinyin: _qi
 
 </details>
 
-**Worldwide coverage**
+### Worldwide coverage
 
 The app provides global data for over 200 countries, including street maps, route navigation (driving, public transportation, or walking) and business locations. Here's an example:
 
@@ -70,7 +68,7 @@ The app provides global data for over 200 countries, including street maps, rout
 
 Business owners from any country could add their locations and information onto AMap (for instance, to attract Chinese travellers who may visit their countries).&#x20;
 
-**Getting coordinates**
+### Getting coordinates
 
 Within AMap, if you search for a specific location, the coordinates are shown in the URL, in longitude-latitude format.&#x20;
 
@@ -78,15 +76,15 @@ For background: China uses a coordinate system called GCJ-02 (colloquially known
 
 If you use Google Maps, the coordinates you obtain for China are in the GCJ-02 system. You could copy the coordinates from Google Maps (in latitude-longitude format) and use them as a search term in AMap.
 
-#### 3D models
+### 3D maps
 
-API documentation for [3D map](https://lbs.amap.com/demo/javascript-api/example/3d/map3d) and [3D model](https://lbs.amap.com/demo/javascript-api/example/3d/3d-model) are available.&#x20;
+API documentation for [3D map](https://lbs.amap.com/demo/javascript-api/example/3d/map3d) and [3D model](https://lbs.amap.com/demo/javascript-api/example/3d/3d-model) are available. (Enter coordinates in the code template to see the 3D map of the location you're searching for.)&#x20;
 
-**Reviews**
+### User generated reviews
 
 User-generated reviews and photos are available in the mobile app (without login).&#x20;
 
-**Using AMap in English (mobile app only)**
+### Using AMap in English (mobile app only)
 
 The English version is only available in the mobile app. In your app store, search "AMap Global", download and install.&#x20;
 
@@ -111,9 +109,7 @@ Functions not available in the English mobile app:&#x20;
 
 ## Similar tools
 
-
-
-
+Although Gaode Maps (AMap) does not provide street view, its satellite imagery, user-generated reviews and photos, and global data may be useful to open-source research. Researchers can cross-reference the location in the 3 apps to get different information or images.&#x20;
 
 ## Cost
 
