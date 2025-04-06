@@ -8,15 +8,19 @@ description: >-
 
 ## URL
 
-[http://map.qq.com/](http://map.qq.com/)
-
-Mobile app (if outside China, download as apk)\
+Main site, [http://map.qq.com/](http://map.qq.com/)\
 \
-Location-based services API documentation [https://lbs.qq.com/service/webService/webServiceGuide/webServiceOverview](https://lbs.qq.com/service/webService/webServiceGuide/webServiceOverview)
+API documentation, [https://lbs.qq.com/service/webService/webServiceGuide/webServiceOverview](https://lbs.qq.com/service/webService/webServiceGuide/webServiceOverview)
 
 ## Description
 
 Tencent Maps offers a wide range of features for users who are looking to navigate or explore geographical locations. The service provides detailed maps, directions for driving, public transportation options, walking routes, and also information on traffic conditions.
+
+### Getting coordinates
+
+Search on this page: [https://lbs.qq.com/getPoint/](https://lbs.qq.com/getPoint/)
+
+For background: China uses a coordinate system called GCJ-02 (colloquially known as Mars coordinates), whereas the rest of the world uses WGS-84 (Earth coordinates). Using an encryption algorithm, GCJ-02 applies random offsets to the latitude and longitude of locations. Obfuscating the geographic data is for national security purposes.
 
 ## Cost
 
@@ -32,24 +36,20 @@ API may incur costs.
 
 ## Requirements
 
-* **Web:** any modern web browser and an email address if you setup an account for favourites.
-* **Mobile:** iOS and Android.
-* **API:** An email address and possibly a credit card.
+* **Web:** web browser.
+* **Mobile:** iOS or Android.
+* **API:** Email address,&#x20;
 
 ## Limitations
 
-Tencent Maps, while a comprehensive tool for mapping and geographic data, has several limitations that researchers should be aware of:
-
+* **Geographical Restrictions**: Certain data or features might be [restricted outside of China](./#url) due to legal or licensing issues. To set up a QQ account for map users, a Chinese phone number is required.&#x20;
+* **Data availability**: Highly-detailed maps are only available for China.&#x20;
+* **Limited functionalities on web browser**: Most of the app's features, including street view, are only available on the mobile app.&#x20;
+* **Language**: The mapping application, documentation and support are available in Chinese only.
 * **API Rate Limits**: API calls are capped at a concurrency limit: 5 times/second/interface/Key Daily and calls: 10,000 times/interface/Key. For researchers requiring high-frequency data access, this might pose a limitation (see [here](https://lbs-qq-com.translate.goog/faq/accountQuota/faqKey?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_hist=true)).
-* **Access speed**: International users will experience slower access speeds or need a Chinese IP address to access certain APIs. The Chinese government's [Great Firewall](https://en.wikipedia.org/wiki/Great_Firewall) slows traffic plus Baidu's servers [are hosted in China, not on a distributed content network (CDN)](https://chinese.stackexchange.com/questions/736/why-are-sites-like-youku-and-baidu-so-slow-overseas) so the distance to the nearest server is a factor.
-* **Data Availability**: Coverage is in high detail for mainland China, Hong Kong and Macau, and much weaker in providing maps of other countries (see: [Wikipedia Tencent Maps](https://en.wikipedia.org/wiki/Tencent_Maps)).
-* **Commercial Use: licensing fees may be involved for commercial use.**
-* **Language and Documentation**: The primary language (including for documentation and support) is Chinese, which may present a barrier for non-Chinese speaking researchers.
-* **Geographical Restrictions**: Certain data or features might be restricted outside of China due to legal or licensing issues (see: [Restrictions on geographic data in China](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China)).
+* **Access speed**: International users will experience slower access speeds or need a Chinese IP address to access certain APIs.
 
 ## Ethical Considerations
-
-When using Tencent Maps for research or commercial purposes, it's important to take into account several ethical considerations:
 
 * **Accuracy**: Acknowledging the limitations in data accuracy and the potential impact this may have on research outcomes based on this data (see: [Restrictions on geographic data in China](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China)).
 * **Privacy Concerns**: Like many mapping services, Tencent Maps gathers user data, which raises questions about data privacy and protection. [Worried about Huawei? Take a closer look at Tencent](https://freedomhouse.org/article/worried-about-huawei-take-closer-look-tencent).
