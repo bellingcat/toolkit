@@ -20,9 +20,9 @@ In Tencent Maps, user-generated reviews and photos are integrated with Dianping 
 
 #### Basic search: Map and satellite imagery
 
-Search for the location and select the layer.
+Search for the location and select the layer (e.g., satellite imagery) or function (e.g., ruler).&#x20;
 
-
+<figure><img src=".gitbook/assets/tencent_web (1).png" alt="" width="563"><figcaption><p>Web browser view: Example shows the area of Shanghai South Railway Station. Click buttons on the top-left corner of the map to switch between map and satellite view. </p></figcaption></figure>
 
 <details>
 
