@@ -18,9 +18,33 @@ Tencent Maps provides detailed maps, satellite imagery, street view, directions 
 
 In Tencent Maps, user-generated reviews and photos are integrated with Dianping ([https://www.dianping.com/](https://www.dianping.com/)), the Chinese equivalent of Yelp.&#x20;
 
-Basic search
+#### Basic search: Map and satellite imagery
+
+Search for the location and select the layer.
 
 
+
+<details>
+
+<summary>Annotated menu - mobile</summary>
+
+<figure><img src=".gitbook/assets/layers_annotated_tencent copy (1).png" alt="" width="375"><figcaption><p>Basic mobile app menu. You may be more or fewer selections depending on your settings and location.</p></figcaption></figure>
+
+See below section for steps to access street views.&#x20;
+
+</details>
+
+<details>
+
+<summary>2D / 3D modes (mobile app) </summary>
+
+When sufficiently zoomed in, a 2D / 3D selection button will become available in the lower right side of the screen.&#x20;
+
+<figure><img src=".gitbook/assets/3d_models.png" alt=""><figcaption><p>2D (top) and 3D (bottom) maps of the same area in Dandong City. </p></figcaption></figure>
+
+Tencent Maps has API documentation available for [switching between 2D/3D models](https://lbs.qq.com/webDemoCenter/glAPI/glMap/map3d) and for [showing 3D buildings](./#url).&#x20;
+
+</details>
 
 ### Getting coordinates
 
@@ -28,16 +52,23 @@ Search on this page in the web browser: [https://lbs.qq.com/getPoint/](https://l
 
 For background: China uses a coordinate system called GCJ-02 (colloquially known as Mars coordinates), whereas the rest of the world uses WGS-84 (Earth coordinates). GCJ-02 uses an encryption algorithm to apply random offsets to the latitude and longitude of locations. Obfuscating the geographic data is for [national security purposes](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China).&#x20;
 
-### Street view - available in mobile app only
+### Street View - available in mobile app only
 
-Example - step-by-step:&#x20;
+Steps: &#x20;
 
-1. Select Layers > Street View. The blue lines indicate that street views may be available.&#x20;
-2. Move the map to where you want to see the street view. Please note: To see the street view of another location, _**move the map**, not the pin_.&#x20;
-3. A description of the location or neighborhood is shown. Click the pin or the location to enter street view.&#x20;
-4. Be aware that street views may be restricted.&#x20;
+1. Select **Layers > Street View** (see **Annotated Menu - mobile app**). The blue lines along the roads indicate that street view is available.
 
-Metadata such as the date of image capture or the approval reference are not available.&#x20;
+<figure><img src=".gitbook/assets/streetview_bluelines (1).png" alt=""><figcaption><p>(English annotation added) The blue lines indicate where street views should be available. Notice that the pin is always in the middle. Move the map, not the pin. </p></figcaption></figure>
+
+2. Move the map to where you want to see the street view. Please note: **To see the street view of another location, touch to&#x20;**_**move the map, not the pin**_**.**&#x20;
+3. A location description is shown. Click the rectangle to enter street view.&#x20;
+
+<figure><img src=".gitbook/assets/streetview_example.png" alt="" width="563"><figcaption><p>Example of Tencent Maps street view</p></figcaption></figure>
+
+Two limitations to be aware of:&#x20;
+
+1. Be aware that street views may be outdated, restricted or unavailable. In such cases, there may be glitches.&#x20;
+2. Metadata such as the date of image capture or the approval reference are not available.&#x20;
 
 
 
@@ -59,8 +90,8 @@ Metadata such as the date of image capture or the approval reference are not ava
 
 ## Limitations
 
-* **Geographical Restrictions**: Certain data or features might be [restricted outside of China](./#url) due to legal or licensing issues. To set up a QQ account for map users, a Chinese phone number is required.&#x20;
-* **Data availability**: Highly-detailed maps are only available for China.&#x20;
+* **Geographical Restrictions**: Some data and features are [restricted outside of China](./#url) due to legal or licensing issues. Users outside of China may find it cumbersome to use Tencent Maps. For example, to set up a QQ account for map users, a Chinese phone number is required. Additionally, some foreign VPN traffic are blocked from accessing the web version.
+* **Data availability**: Highly-detailed maps are only available for China. Other countries appear blank.&#x20;
 * **Limited functionalities on web browser**: The app's more extensive features, including street view, are only available on the mobile app.&#x20;
 * **Language**: The mapping application, documentation and support are available in Chinese only.
 * **API Rate Limits**: API calls are capped at a concurrency limit: 5 times/second/interface/Key Daily and calls: 10,000 times/interface/Key. For researchers requiring high-frequency data access, this might pose a limitation (see [here](https://lbs-qq-com.translate.goog/faq/accountQuota/faqKey?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_hist=true)).
