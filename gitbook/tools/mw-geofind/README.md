@@ -81,8 +81,6 @@ When using MW Geofind for research purposes, researchers should be aware of seve
 
 ## Guides and articles
 
-To effectively use MW Geofind, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
-
 **Official Wiki**&#x20;
 
 * [https://github.com/mattwright324/youtube-geofind/wiki](https://github.com/mattwright324/youtube-geofind/wiki)
