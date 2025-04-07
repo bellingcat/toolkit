@@ -81,7 +81,7 @@ _**For completed/historical flights:**_
 
 <details>
 
-<summary>REGISTRATION NUMBER/TAIL NUMBER/N-NUMBER: What is it? Why is it important? (CLICK TO EXPAND)</summary>
+<summary>REGISTRATION NUMBER/TAIL NUMBER/N-NUMBER: What is it? Why is it important? <mark style="color:green;">(CLICK TO EXPAND)</mark></summary>
 
 **What is it?** This number appears on the aircraft's exterior, mostly near[ the tail (para 6 of this guide).](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) This is sometimes called a[ “Tail Number” or, in the United States, an “N-Number”.](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) It is a unique number that tells you which country the aircraft[ was registered](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking). This[ guide](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) specifies that an aircraft's registration is similar to a car's license plate, assigned when registered in a specific country. This registration reflects the jurisdiction of the aircraft according to this[ list](https://en.wikipedia.org/wiki/List_of_aircraft_registration_prefixes).
 
@@ -101,11 +101,28 @@ Just like call signs, registration information is available by clicking on an ai
 
 _**For historical flights**_
 
-Follow the same steps shown above for searching call signs for historical flights. Begin with entering the flight in question on the search bar. The registration is located on the far right, just below the aircraft type and the aircraft photo. \\
+Follow the same steps shown above for searching call signs for historical flights. Begin with entering the flight in question on the search bar. The registration is located on the far right, just below the aircraft type and the aircraft photo.&#x20;
 
 ### HEX CODE/ ICAO CODE
 
+<details>
 
+<summary>HEX CODE/24-BIT CODE ADDRESS/MODE-S NUMBER: What is it? Why is it important? <mark style="color:green;">(CLICK TO EXPAND)</mark></summary>
+
+**What is it?** A hex code is a unique ICAO (International Civil Aviation Organization) six-digit hexadecimal number assigned to an aircraft's transponder. This code serves as a digital identifier or a unique “digital fingerprint”, allowing air traffic control and flight tracking systems to distinguish one aircraft from another[ (See p.3-4 of this document)](https://elearning.aljazeera.net/en/journalism-magazine/osint-tracking-ships-planes-and-weapons). When the plane is registered, it gets a unique electronic code[ called a hex code](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking). This hex code is associated with the plane’s ADS-B (Automatic Dependent Surveillance-Broadcast)[ transponder](https://www.flightradar24.com/blog/videos/how-does-ads-b-work/), which broadcasts unencrypted data about the plane’s position, altitude, and speed. If the N-number is the physical identifier like a car license plate, the hex code is its digital counterpart. &#x20;
+
+According to [this](https://www.peter2000.co.uk/aviation/misc/ICAO_Annex_10_Volume_III.pdf), ICAO assigns each country a [block range of hex codes](https://blog.flightaware.com/201707-icao-and-idents-and-squawks-oh-my). [For example, Malaysia is assigned the range 750000 to 750FFF, and the US is assigned the range 00000 to AFFFFF. ](https://theaviationist.com/2020/09/29/yes-u-s-rc-135s-have-used-bogus-hex-codes-to-transmit-a-false-identity-but-its-not-to-fool-china-or-other-enemies/)So in theory, if the flight tracking website sees a hex code in this range, it will identify the aircraft as coming from that country, and, as in FlightAware, display[ the flag from that country](https://blog.flightaware.com/201707-icao-and-idents-and-squawks-oh-my). &#x20;
+
+**Why is it important?**&#x20;
+
+**Connection to Ownership Information:** Hex codes may be important for finding leads about aircraft ownership. Hex codes are closely associated with a plane’s registration. Therefore, it is possible to determine ownership if that information is available.&#x20;
+
+**Vulnerability to Manipulation:** According to[ OCCRP's FAQ](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking), “most flight tracking websites link the transponder codes to registration numbers to make sense of tracking data,” especially since aircraft do not usually broadcast registration numbers over their ADS-B transponder. [However, onboard transponders can be reprogrammed according to this article.](https://theaviationist.com/2020/09/29/yes-u-s-rc-135s-have-used-bogus-hex-codes-to-transmit-a-false-identity-but-its-not-to-fool-china-or-other-enemies/) A junk hex code can then broadcast unreliable and misleading data to flight tracking sites.&#x20;
+
+\
+
+
+</details>
 
 **Where can I find the hex code on Flightradar24?**
 
