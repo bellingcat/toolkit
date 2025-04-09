@@ -1,1 +1,4 @@
+---
+hidden: true
+---
 # Categories

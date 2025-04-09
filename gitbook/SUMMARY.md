@@ -6,6 +6,7 @@
 
 ## ⚒️ Categories
 
+* [Categories Index](categories/README.md)
 * [Maps & Satellites](categories/maps-and-satellites/maps-and-satellites.md)
   * [Maps](categories/maps-and-satellites/maps/maps.md)
   * [Satellite Imagery](categories/maps-and-satellites/satellite-imagery/satellite-imagery.md)
