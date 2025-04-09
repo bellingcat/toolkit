@@ -420,7 +420,7 @@ Consider the purpose behind using flight tracking data when publishing.
 
 **Respect Copyright:**
 
-Flight tracking websites often have terms of service regarding data usage. Ensure you're using the information ethically and within the website's guidelines
+Flight tracking websites often have terms of service regarding data usage. Ensure you're using the information ethically and within the website's guidelines. Flightradar24's terms of service can be found [here](https://www.flightradar24.com/terms-and-conditions).
 
 ## Comparison with Other Flight Tracking Tools
 
