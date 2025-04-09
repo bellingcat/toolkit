@@ -1,6 +1,7 @@
 # Table of contents
 
-* [About](README.md)
+* [Home](README.md)
+* [About](about.md)
 
 ## 📖 Resources
 * [Guides & Handbooks](resources/guides-and-handbooks.md)
