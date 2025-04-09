@@ -22,7 +22,7 @@ layout:
 
 ### Welcome to Bellingcat’s Online Open Source Investigation Toolkit!
 
-_First time here? Read_ [_about the toolkit_](<README (1).md>) _or see some of the_ [_most used_](most-used.md) _tools._
+_First time here? Read_ [_about the toolkit_](<pages/about.md>) _or see some of the_ [_most used_](most-used.md) _tools._
 
 Select a category below to browse tools:
 
