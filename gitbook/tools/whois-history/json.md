@@ -10,7 +10,6 @@ description: This is the JSON codeblock for this tool
   "name": "WHOIS History",
   "url": "https://whois-history.whoisxmlapi.com/",
   "description": "Historical WHOIS registration lookup",
-  "cost": "Partially",
   "details": "last 3 records per site are free",
   "tags": [
     "websites"
