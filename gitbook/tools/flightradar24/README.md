@@ -301,6 +301,11 @@ Flightradar24's playback feature is like a time machine for aviation. Flightrada
 
 The playback feature is available on the live map (landing page) and users can see the replay of many flights simultaneously. It is also available for individual flights.
 
+Historical data available for playback are as follows: [7 days for basic/free plan;](https://www.flightradar24.com/premium/?change=true) [90 days for Silver plan, 365 days for Gold plan, 3 years for Business plan](https://www.flightradar24.com/premium/?change=true); includes playback feature for historical analysis
+
+\
+
+
 <figure><img src=".gitbook/assets/ScreenRecording2024-11-28194301-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>Users can access the playback on the live map by clicking “playback” on the menu located in the the bottom center of the live map.</p></figcaption></figure>
 
 {% hint style="success" %}
