@@ -83,6 +83,7 @@ function publishTool(name) {
 
   const json = tool.json;
   delete json.draft;
+  json.publishedAt = Date.now();
   fs.writeFileSync(tool.jsonFilePath, toolToJson(json));
 }
 function slugify(toolName) {
