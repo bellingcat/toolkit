@@ -28,7 +28,7 @@
   * [Youtube](categories/social-media/youtube/youtube.md)
   * [Other Networks](categories/social-media/other-networks/other-networks.md)
   * [Multiple Networks](categories/social-media/multiple-networks/multiple-networks.md)
-  * [International](resources/international.md)
+  * [International](pages/resources/international.md)
 * [People](categories/people/people.md)
 * [Websites](categories/websites/websites.md)
 * [Companies & Finance](categories/companies-and-finance/companies-and-finance.md)
