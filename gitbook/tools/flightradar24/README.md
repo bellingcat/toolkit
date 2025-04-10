@@ -316,14 +316,14 @@ For individual flights, the playback feature is accessible by first searching th
 
 #### KML and CSV File of Flight Log
 
-For flights that have already landed, Flightradar24 allows users to download a KML file of the flight log. This will contain all the coordinates of its flight path, the altitude, and other information that helps users visualize flight information. This raw data can then be imported on [Google Earth](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro) or ArcGIS Earth.
+For flights that have already landed, Flightradar24 allows users to download a KML file of the flight log. This will contain all the coordinates of its flight path, the altitude, and other information that helps users visualize flight information. Based on our test, this raw data can then be imported on [Google Earth](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro), QGIS, or ArcGIS Earth.
 
 In addition, users can also download a .CSV containing raw flight data for analysis.
 
 1. To do this, enter the known flight info on the search bar and click on the flight number/call sign/route.
 2. Scroll down and click on “Flight Info”
 3. You will be taken to a different page containing the flight log. Scroll down to the list of recentlly scheduled flights, choose the date and time of interest.
-4. Navigate to the right where you have the option to download the data inKML or CSV format or do a playback.
+4. Navigate to the right where you have the option to download the data in KML or CSV format or do a playback.
 
 Using a KML file of a flight log overlaid over Google Earth Pro can sometimes help with geolocation tasks. See this [example](https://nixintel.info/osint/using-flight-tracking-for-geolocation-quiztime-30th-october-2019/) by Nixintel for a demonstration of this use case.
 
