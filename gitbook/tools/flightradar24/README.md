@@ -417,11 +417,11 @@ Flightradar24 uses flight schedules to determine the route an aircraft is taking
 
 **Privacy vs. Transparency:**
 
-The ethical dilemma here revolves around the conflict between public transparency and individual privacy. Make careful determinations about how to publish research that involves tracking patterns of individuals. This[ case](https://amp.cnn.com/cnn/2024/02/06/tech/taylor-swift-private-jet-tracker/index.html), for example, highlights the tension between the right to information and the potential consequences of exposing individuals to danger.
+The ethical dilemma here revolves around the conflict between public transparency and individual privacy. Make careful determinations about how to publish research that involves tracking patterns of individuals. This[ case](https://amp.cnn.com/cnn/2024/02/06/tech/taylor-swift-private-jet-tracker/index.html), for example, highlights the tension between the right to information and the potential consequences of exposing individuals to danger. Ev
 
 **Context matters:**
 
-Consider the purpose behind using flight tracking data when publishing.
+Consider the purpose behind using flight tracking data when publishing. Not all uses of aviation tracking serve the same ethical goals or carry the same implications. For instance, when flight tracking data is used to cover major events such as accidents or disasters, it provides factual context for the public's understanding of the event. Flight tracking data used in research regarding air traffic patterns, for example, or in monitoring environmental impact of the aviation industry, represents different ethical considerations than tracking specific individuals' movements. The ethical decision making around flight data publication and how to publish this data should take into consideration the intended audience,  potential harm, if any, and whether or not there are alternative data sources available for your investigation.&#x20;
 
 **Respect Copyright:**
 
