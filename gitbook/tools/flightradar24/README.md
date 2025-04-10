@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-Flightradar24 is a real-time global flight tracking service. It provides detailed information about aircraft position, flight number, and sometimes flight origin and destination. It also includes details on the type of aircraft. It provides both real-time flight tracking and historical flight information.
+Flightradar24 is a real-time global flight tracking service. It provides detailed information about aircraft position, flight number, and oftentimes flight origin and destination. It also includes details on the type of aircraft. It provides both real-time flight tracking and historical flight information.
 
 Flightradar24 data can be used for open-source investigations, including but not limited to:
 
