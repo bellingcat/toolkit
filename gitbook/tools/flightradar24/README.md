@@ -146,7 +146,7 @@ _**For historical flights**_
 
 <details>
 
-<summary>SERIAL NUMBER/ MANUFACTURER SERIAL NUMBER (MSN): What is it? Why is it important? [CLICK TO EXPAND]</summary>
+<summary>SERIAL NUMBER/ MANUFACTURER SERIAL NUMBER (MSN): What is it? Why is it important? <mark style="color:green;">(CLICK TO EXPAND)</mark></summary>
 
 **Definition:** A serial number is a unique code given to an aircraft by the manufacturer to identify it from other planes. It's like a fingerprint for that specific aircraft designated at the time of manufacture or[ similar to a car’s VIN (vehicle Identification Number).](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/) Serial numbers never change, unlike call signs and registration numbers. It is mandated by law (see[ here](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-45), section 14.13) to collectively ensure that aircraft can be monitored, maintained, and operated safely throughout their service life.
 
