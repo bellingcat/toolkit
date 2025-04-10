@@ -119,6 +119,8 @@ According to [this](https://www.icao.int/WACAF/Documents/Meetings/2023/Workshop-
 
 **Vulnerability to Manipulation:** According to[ OCCRP's FAQ](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking), “most flight tracking websites link the transponder codes to registration numbers to make sense of tracking data,” especially since aircraft do not usually broadcast registration numbers over their ADS-B transponder. [However, onboard transponders can be reprogrammed according to this article.](https://theaviationist.com/2020/09/29/yes-u-s-rc-135s-have-used-bogus-hex-codes-to-transmit-a-false-identity-but-its-not-to-fool-china-or-other-enemies/) A junk hex code can then broadcast unreliable and misleading data to flight tracking sites.&#x20;
 
+**Some Military Logistics Aircraft With No Tail Numbers:** In some cases, military aircraft such as the [US Air Mobility Command removed tail numbers for OPSEC.](https://theaviationist.com/2023/03/04/u-s-air-mobility-command-removes-tail-numbers-and-unit-markings-from-aircraft-for-opsec/) The hex code can come in handy when analyzing movements from this type of aircraft. &#x20;
+
 \
 
 
