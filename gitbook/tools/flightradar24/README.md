@@ -377,7 +377,11 @@ While the tool is straightforward to use, the difficulty rating is based on the 
 
 ## Limitations
 
-1. **Coverage: Not Everywhere, Every Time**
+1. **Flightradar24 Mobile App and Precise Location Data Leak**
+
+Investigations by [BR24, netzpolitik,org , and media partners](https://www.tagesschau.de/investigativ/br-recherche/standortdaten-apps-datenhandel-100.html) revealed that[ Flightradar24 is one of the 40,000 apps ](https://www.br.de/nachrichten/deutschland-welt/standortdaten-aus-zehntausenden-apps-bei-datenhaendler-gelandet,UZsKyDJ)that transmit their users' [precise location data](https://netzpolitik.org/2025/databroker-files-neuer-datensatz-enthuellt-40-000-apps-hinter-standort-tracking/) to data brokers. These precise coordinates may provide sensitive personal information on a user's home or work address[, thereby creating a user's "movement" profile or movement history that is sold online.  ](https://netzpolitik.org/2025/databroker-files-neuer-datensatz-enthuellt-40-000-apps-hinter-standort-tracking/)
+
+2. **Coverage: Not Everywhere, Every Time**
 
 Flightradar24 is a great tool for tracking flights, but it's important to know it doesn't see everything, everywhere. Here's what can affect coverage:
 
@@ -385,11 +389,11 @@ Flightradar24 is a great tool for tracking flights, but it's important to know i
 * Altitude and Terrain: Planes flying high or in areas with lots of mountains [might be harder to pick up](https://www.flightradar24.com/how-it-works#coverage).
 * Location: Flightradar24 [is working to improve coverage in some areas](https://support.fr24.com/support/solutions/articles/3000119387-planes-are-only-visible-after-departing-or-suddenly-disappear-when-landing), especially around major airports in Africa (Chad, Congo, Egypt, etc) or countries like China, Iran, Iraq, and Libya.
 
-2. **Map Gaps**
+3. **Map Gaps**
 
 Flightradar24's coverage is[ limited by several factors](https://www.flightradar24.com/blog/gaps-in-the-map-where-aircraft-arent-found-on-flightradar24/). Geopolitical tensions, like the Ukraine conflict, can lead to airspace closures, affecting flight routes. Geographical factors, such as high altitudes in Tibet, also restrict flight paths. Not all aircraft have the necessary equipment for tracking, and some regions have limited coverage. Additionally, airlines prioritize safety and efficiency, sometimes opting for longer routes to avoid risky areas.
 
-3. **Blocking / “take down requests”**
+4. **Blocking / “take down requests”**
 
 Flightradar24 [honors take-down requests](https://www.flightradar24.com/how-it-works#blocking) from operators or owners. According to [their website](https://support.fr24.com/support/solutions/articles/3000117426-why-is-some-aircraft-information-limited-or-not-visible-): “Information about a small number of flights may be limited or blocked based on requests from owners or operators via third-party services…”. This also means that high-profile aircraft in the military and government categories will not be visible.
 
@@ -399,17 +403,19 @@ Based on our own tests, some of the instances where blocking might potentially h
 2. Flight Path is partially hidden: The origin and registration number might be visible, but the destination or specific route may be blocked.
 3. Sometimes, the platform puts N/A instead of providing information.
 
-4\. **Some Limitations on Filter Combinations:**
+
+
+5. **Some Limitations on Filter Combinations:**
 
 While combining filters may sometimes be helpful, there are some combinations that provide results that are confusing. It is important to note that combining these two filters has some limitations. Based on our tests, combining the filter “military and governments” plus a custom airport filter for “Venezuela” and “Colombia” gave mixed results. Instead of filtering for only military/government aircraft in those countries, the results included passenger flights, private/small aircraft, and possibly others.
 
 To isolate a specific category of aircraft within a location of interest, it is recommended to zoom in instead on the area of interest, then apply a specific aircraft filter. We were able to tailor the search results by zooming in on Venezuela and Colombia and applying the “military and government” filter subsequently. The results seem to show only one category of aircraft within a specific geographic region.
 
-5\. **Accuracy of estimates**
+6\. **Accuracy of estimates**
 
 Flightradar24 can estimate the position of aircraft that are out of coverage for a limited time. This is done by using various parameters, but the accuracy can decrease for flights that fly over longer distances (the position can be shown [up to 200 km or 110 miles off](https://www.flightradar24.com/how-it-works#estimations)). The estimated positions are visually represented by a black trail on the map.
 
-5\. **Incorrect flight route**
+7\. **Incorrect flight route**
 
 Flightradar24 uses flight schedules to determine the route an aircraft is taking. However, this can sometimes lead to inaccuracies. For example, if a[ flight is delayed or changes its route](https://support.fr24.com/support/solutions/articles/3000115504-why-is-the-route-information-incorrect-), the displayed path might not match the actual flight path. Additionally, errors in flight schedules or incorrect or old call signs can also cause route information to be incorrect. Other causes are: [Database errors](https://support.fr24.com/support/solutions/articles/3000115504-why-is-the-route-information-incorrect-) - which is when there is an error in one of the scheduling databases Flightradar24 depends on. In addition, significant flight delays can cause it to be matched with the wrong schedule.
 
