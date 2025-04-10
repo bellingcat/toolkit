@@ -28,7 +28,7 @@ TIP: Finding plane information requires a multi-source approach. Check more than
 
 Flightradar24‘s flight information comes from several data sources. One category of data called “positional data” triangulates the aircraft's position in the sky. This includes sources[ such as ADS-B, MLAT, satellite, and radar data.](https://www.flightradar24.com/how-it-works) In addition to positional data, Flightradar24 also uses flight status and flight schedule data from [airports and airlines](https://www.flightradar24.com/how-it-works). The platform uses data through the[ Open Glider Network (OGN)](https://www.flightradar24.com/how-it-works#flarm) for drones, gliders, and small aircraft.
 
-According to the tool’s filter website, it tracks about 12 aircraft categories. They are: Passenger, Cargo, Military and government, Business jets, General aviation, Helicopter, lighter-than-air, Gliders, Drones, Ground vehicles, "Other", and Non-categorized.
+On the filter section of the website, the tool can filter for approximately 12 aircraft categories. They are: Passenger, Cargo, Military and government, Business jets, General aviation, Helicopter, lighter-than-air, Gliders, Drones, Ground vehicles, "Other", and Non-categorized.
 
 <figure><img src=".gitbook/assets/ScreenRecording2024-11-22180945-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>IMAGE 1: This clip shows how users can filter for aircraft on the tool. Access the filter at the bottom of the live map. If unsure, each category has helpful descriptions when hovering over the question mark icon to the right. Users can combine different filters by enabling some categories and disabling others — allowing for more granularity in search results.</p></figcaption></figure>
 
