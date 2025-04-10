@@ -34,7 +34,7 @@ On the filter section of the website, the tool can filter for approximately 12 a
 
 ## But First, Identifiers and Where to Find Them
 
-When doing flight tracking for investigations, it is essential to know what data to look for and which information can potentially provide leads in an investigation. In flight-tracking, researchers usually pay attention to “Identifiers.”&#x20;
+When doing flight tracking for investigations, it is essential to know what data to look for and which information can potentially provide leads. In flight-tracking, researchers usually pay attention to “Identifiers.”&#x20;
 
 Flight-tracking websites have a plethora of information available. However, depending on the research question, researchers generally pay attention to call signs, registration, serial numbers, and hex codes.
 
