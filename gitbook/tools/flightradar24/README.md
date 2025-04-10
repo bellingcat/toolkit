@@ -46,7 +46,7 @@ TIP: Note that not all identifiers may be immediately available on one flight tr
 
 <details>
 
-<summary><strong>CALL SIGN: What is it and why are they important? </strong><mark style="color:green;"><strong>(CLICK TO EXPAND)</strong></mark></summary>
+<summary><strong>CALL SIGN: What is it and why is it important? </strong><mark style="color:green;"><strong>(CLICK TO EXPAND)</strong></mark></summary>
 
 **What is it?**[ Call signs are used to identify specific flights/flight routes and for communication and identification in air traffic control.](https://skybrary.aero/articles/aircraft-call-sign) They are unique identifiers of an aircraft. They help differentiate each aircraft in the sky from one another. According to this Bellingcat[ guide](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/), private aircraft often use their registration number as their call sign. In contrast, commercial flights usually have call signs based on their specific routes.
 
