@@ -381,6 +381,10 @@ While the tool is straightforward to use, the difficulty rating is based on the 
 
 Investigations by [BR24, netzpolitik,org , and media partners](https://www.tagesschau.de/investigativ/br-recherche/standortdaten-apps-datenhandel-100.html) revealed that[ Flightradar24 is one of the 40,000 apps ](https://www.br.de/nachrichten/deutschland-welt/standortdaten-aus-zehntausenden-apps-bei-datenhaendler-gelandet,UZsKyDJ)that transmit their users' [precise location data](https://netzpolitik.org/2025/databroker-files-neuer-datensatz-enthuellt-40-000-apps-hinter-standort-tracking/) to data brokers. These precise coordinates may provide sensitive personal information on a user's home or work address[, thereby creating a user's "movement" profile or movement history that is sold online.  ](https://netzpolitik.org/2025/databroker-files-neuer-datensatz-enthuellt-40-000-apps-hinter-standort-tracking/)
 
+{% hint style="warning" %}
+Be aware of the risks of disclosing your location data using the app. Use precaution if possible.&#x20;
+{% endhint %}
+
 2. **Coverage: Not Everywhere, Every Time**
 
 Flightradar24 is a great tool for tracking flights, but it's important to know it doesn't see everything, everywhere. Here's what can affect coverage:
