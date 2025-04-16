@@ -6376,5 +6376,35 @@
       "merge": true,
       "review": true
     }
+  },
+  {
+    "object": "space",
+    "id": "N8CwSQYO6lq0xpndDmXo",
+    "title": "Streamwall",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-04-16T18:41:44.999Z",
+    "updatedAt": "2025-04-16T18:41:44.999Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/N8CwSQYO6lq0xpndDmXo",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/N8CwSQYO6lq0xpndDmXo/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "bmiVsdvxDuiemHT1Xefc",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "access": true,
+      "admin": true,
+      "edit": true,
+      "comment": true,
+      "merge": true,
+      "review": true
+    }
   }
 ]
