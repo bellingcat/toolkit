@@ -192,11 +192,11 @@ NOTE: Based on our own tests, the search bar takes most of the input explained b
 
 The search is designed to run several keyword variations. Users can enter the ICAO Airport Code and the IATA Airport Code. Users can enter two airport codes separated by a dash.
 
-**Example:** “AMS - LHR” to refer to the flight route from Amsterdam Schipol to Heathrow Airport
+**Example:** “AMS - LHR” to refer to the flight route from Amsterdam Schipol to Heathrow Airport.
 
 **OUTPUT:**
 
-This search will show all the live flights as well as recent and scheduled flights
+This search will show all the live flights as well as recent and scheduled flights.
 
 **INPUT:**
 
