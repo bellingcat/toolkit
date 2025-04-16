@@ -284,13 +284,11 @@ This powerful feature can isolate flights between two airports or between two co
 
 #### Jetphotos Database
 
-Another helpful feature in this tool is its photo database through [Jetphotos.](https://www.jetphotos.com/) Users can view flight information. Our own tests showed that Jetphotos feeds the platform with a photo of the exact aircraft that users are tracking on Flightradar24.
+Another helpful feature in this tool is its photo database through [Jetphotos.](https://www.jetphotos.com/) When viewing an aircraft's details on Flightradar24, users often see photos sourced from Jetphotos. Jetphotos links back to Flightradar24 for detailed tracking data about photographed aircraft.
 
-Flightradar24 incorporates Jetphotos images into its platform. When viewing an aircraft's details on Flightradar24, users often see photos sourced from Jetphotos. This integration provides a visual representation of the tracked aircraft, enhancing the user experience. Jetphotos links back to Flightradar24 for detailed tracking data about photographed aircraft.
+This integration provides a visual representation of the tracked aircraft, enhancing the user experience. More importantly, the photos shown are those of the actual plane being tracked live in the sky and not a similar aircraft type, like it is the case with [FlightAware](https://bellingcat.gitbook.io/toolkit/more/all-tools/flightaware). This is especially helpful if researchers are interested in making a visual match to the information they have.
 
-More importantly, the photos shown are those of the actual plane being tracked live in the sky and not a similar aircraft type, unlike [FlightAware](https://bellingcat.gitbook.io/toolkit/more/all-tools/flightaware). This is especially helpful if researchers are interested in making a visual match to the information they have.
-
-**Example:** If a user is tracking an aircraft with registration/tail number OO-TMS, users can find that exact photo on Jetphoto’s database by using the registration number/tail number as the search term.
+**Example:** If a user is tracking an aircraft with registration/tail number OO-TMS, users can find that exact photo on Jetphotos' database by using the registration number/tail number as the search term.
 
 Jetphotos and Flightradar24 are distinct platforms with complementary purposes, but they share a close relationship due to their focus on aviation and[ mutual ownership](https://www.jetphotos.com/about.php).
 
