@@ -308,7 +308,7 @@ Historical data available for playback are as follows: [7 days with the basic/fr
 <figure><img src=".gitbook/assets/ScreenRecording2024-11-28194301-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>Users can access the playback on the live map by clicking “playback” on the menu located at the bottom center of the live map.</p></figcaption></figure>
 
 {% hint style="success" %}
-TIP: Add a filter or your own custom filter and use the playback feature for a more granular search. For example: Use the business jet category filter and hit the playback button to see a replay of all business jets travelling in specific area during a specific time frame
+TIP: Add a filter or your own custom filter and use the playback feature for a more granular search. For example: Use the business jet category filter and hit the playback button to see a replay of all business jets travelling in a specific area during a specific time frame.
 {% endhint %}
 
 For individual flights, the playback feature is accessible by first searching the flight of interest. And then scrolling through the past scheduled flights. Select the time and date of interest and click on “Play” (the farthest icon to the right).
