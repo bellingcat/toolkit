@@ -288,7 +288,7 @@ Another helpful feature in this tool is its photo database through [Jetphotos.](
 
 Flightradar24 incorporates Jetphotos images into its platform. When viewing an aircraft's details on Flightradar24, users often see photos sourced from Jetphotos. This integration provides a visual representation of the tracked aircraft, enhancing the user experience. Jetphotos links back to Flightradar24 for detailed tracking data about photographed aircraft.
 
-More importantly, the photos shown are those of the actual plane being tracked live in the sky and not a similar aircraft type, unlike FlightAware.com. This is especially helpful if researchers are interested in making a visual match to the information they have.
+More importantly, the photos shown are those of the actual plane being tracked live in the sky and not a similar aircraft type, unlike [FlightAware](https://bellingcat.gitbook.io/toolkit/more/all-tools/flightaware). This is especially helpful if researchers are interested in making a visual match to the information they have.
 
 **Example:** If a user is tracking an aircraft with registration/tail number OO-TMS, users can find that exact photo on Jetphoto’s database by using the registration number/tail number as the search term.
 
