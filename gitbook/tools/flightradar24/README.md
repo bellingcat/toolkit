@@ -234,7 +234,7 @@ TIP: Click on the “down” arrow on each search result to expand more menu opt
 {% endtab %}
 
 {% tab title="NEARBY" %}
-This feature is for showing flights near the user’s location. The user must enable it’s location and give the tool permission to access its location.
+This feature is for showing flights near the user’s location. The user must enable its location and give the tool permission to access its location.
 {% endtab %}
 {% endtabs %}
 
