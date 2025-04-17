@@ -208,4 +208,4 @@
   * [Yandex Maps](tools/yandex-maps/README.md)
   * [Zotero](tools/zotero/README.md)
   * [satellites.pro](tools/satellites.pro/README.md)
-  * [xIFr](tools/xifr/README.md)
+  * [xIFr](tools/xifr/README.md)  * [Flightradar24](tools/flightradar24/README.md)
