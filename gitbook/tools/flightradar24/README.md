@@ -438,7 +438,7 @@ Flight tracking websites often have terms of service regarding data usage. Ensur
 
 ## Comparison with Other Flight Tracking Tools
 
-Open source investigators may prefer to use Flightradar24 for a more extended flight history, a playback function, and comprehensive international flight data.  This may also be preferable if investigators want more advanced filtering capabilities or track more specialized aircraft. This comparison shows that while both platforms offer similar core functionality, Flightradar24 generally provides more filtering options, while FlightAware may have some advantages for US-focused flight tracking.
+While both Flightradar24 and FlightAware offer similar core functionality, open source investigators may prefer to use Flightradar24 for a more extended flight history, a playback function, the ability to track more specialized aircraft, and comprehensive international flight data. However, FlightAware may have some advantages for US-focused flight tracking.
 
 Based on our tests, below is a comparison of some of the features of different flight tracking tools.&#x20;
 
