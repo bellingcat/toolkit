@@ -92,6 +92,7 @@
   * [F4Map](tools/f4map/README.md)
   * [FaceCheck.ID](tools/facecheck.id/README.md)
   * [FlightAware](tools/flightaware/README.md)
+  * [Flightradar24](tools/flightradar24/README.md)
   * [Forensically](tools/forensically/README.md)
   * [GPSJam](tools/gpsjam/README.md)
   * [GeoHints](tools/geohints/README.md)
@@ -209,4 +210,4 @@
   * [Yandex Maps](tools/yandex-maps/README.md)
   * [Zotero](tools/zotero/README.md)
   * [satellites.pro](tools/satellites.pro/README.md)
-  * [xIFr](tools/xifr/README.md)  * [Flightradar24](tools/flightradar24/README.md)
+  * [xIFr](tools/xifr/README.md)
