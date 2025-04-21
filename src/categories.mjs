@@ -20,7 +20,7 @@ const allTools = getTools().filter((tool) => !tool.draft );
 (function renderNewlyPublished() {
   const newlyPublished = {
         title: 'Newly Published',
-        content: '# New Tools\n---\ndescription: These tools were added to the toolkit within the last two weeks.\n ---\n',
+        content: '# New Tools\n---\ndescription: These tools were added to the toolkit within the last two weeks.\n---\n',
         filepath: 'gitbook/new-tools.md',
         tag: 'most-used'
   };
