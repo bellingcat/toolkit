@@ -111,14 +111,31 @@ function renderRelativeLink(category, tool) {
   if (!summary.match(path.relative('gitbook/', tool.filepath))) {
     return tool.title;
   }
-  return `[**${tool.title}**](${path.relative(path.dirname(category.filepath), tool.filepath)})`;
+  return `[**${tool.title}**](${relativeUrl(category, tool)})`;
+}
+
+function absoluteUrl(tool) {
+  const slug = path.relative('gitbook/tools', tool.directory);
+  return `https://bellingcat.gitbook.io/toolkit/more/all-tools/${slug}`;
+}
+function relativeUrl(category, tool) {
+  return path.relative(path.dirname(category.filepath), tool.filepath);
+}
+function renderLink(category, tool) {
+  const summary = getSummary('gitbook');
+  if (!summary.match(path.relative('gitbook/', tool.filepath))) {
+    return '';
+  }
+  const absolute = absoluteUrl(tool);
+  const relative = path.relative(path.dirname(category.filepath), tool.filepath)
+  return `[${absolute}](${relative})`;
 }
 
 function renderTable(tools, category) {
   if (!tools || tools.length == 0) { return ''; }
   return (
-    "| Name | Description | Cost | URL |\n| --- | --- | --- | --- |\n" + tools.map((row) => {
-      return `| ${renderRelativeLink(category, row)} | ${row.description} | ${renderCost(row.cost)} | [${row.url}](${row.url}) |`
+    "| Name | Description | Cost | Tool Review and Guide |\n| --- | --- | --- | --- |\n" + tools.map((row) => {
+      return `| ${row.title} | ${row.description} | ${renderCost(row.cost)} | ${renderLink(category, row)} |`
     }).join("\n")
   );
 }
