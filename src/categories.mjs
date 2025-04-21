@@ -103,11 +103,17 @@ function renderRelativeLink(category, tool) {
   return `[**${tool.title}**](${path.relative(path.dirname(category.filepath), tool.filepath)})`;
 }
 
+function renderAbsoluteLink(tool) {
+  const slug = path.relative('gitbook/tools', tool.directory);
+  const url = `https://bellingcat.gitbook.io/toolkit/more/all-tools/${slug}`;
+  return `[${url}](${url})`;
+}
+
 function renderTable(tools, category) {
   if (!tools || tools.length == 0) { return ''; }
   return (
-    "| Name | Description | Cost | URL |\n| --- | --- | --- | --- |\n" + tools.map((row) => {
-      return `| ${renderRelativeLink(category, row)} | ${row.description} | ${renderCost(row.cost)} | [${row.url}](${row.url}) |`
+    "| Name | Description | Cost | Tool Review and Guide |\n| --- | --- | --- | --- |\n" + tools.map((row) => {
+      return `| ${row.title} | ${row.description} | ${renderCost(row.cost)} | ${renderAbsoluteLink(row)} |`
     }).join("\n")
   );
 }
