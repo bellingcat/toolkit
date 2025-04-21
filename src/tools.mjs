@@ -78,11 +78,12 @@ function publishTool(name) {
     throw new Error(["Can't publish", name, "-", link, "already published"].join(' '));
   }
 
-  const newSummary = summary + `  * [${tool.title}](${link})\n`;
+  const newSummary = summary + `\n  * [${tool.title}](${link})\n`;
   fs.writeFileSync(path.join('gitbook', 'SUMMARY.md'), newSummary);
 
   const json = tool.json;
   delete json.draft;
+  json.publishedAt = Date.now();
   fs.writeFileSync(tool.jsonFilePath, toolToJson(json));
 }
 function slugify(toolName) {

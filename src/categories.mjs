@@ -17,6 +17,17 @@ const allTools = getTools().filter((tool) => !tool.draft );
   writeIfChanged(renderCategory(mostUsed, mostUsedTools), mostUsedFilePath);
 })();
 
+(function renderNewlyPublished() {
+  const newlyPublished = {
+        title: 'Newly Published',
+        content: '---\ndescription: These tools were added to the toolkit within the last two weeks.\n---\n# New Tools\n',
+        filepath: 'gitbook/new-tools.md',
+        tag: 'most-used'
+  };
+  const newTools = allTools.filter((x) => x.publishedAt && Date.now()-x.publishedAt < 2 * 7 * 24 * 60 * 60 * 1000);
+  writeIfChanged(renderCategory(newlyPublished, newTools), newlyPublished.filepath);
+})();
+
 function generateTemplateCategoriesMarkdown(categories) {
   const topLevel = [];
   const groups = categories.map((category) => {
