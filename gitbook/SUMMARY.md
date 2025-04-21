@@ -3,6 +3,7 @@
 * [Home](README.md)
 * [About](pages/about.md)
 * [Most Used](most-used.md)
+* [New Tools](new-tools.md)
 
 ## ⚒️ Categories
 
