@@ -124,7 +124,8 @@ function relativeUrl(category, tool) {
 function renderLink(category, tool) {
   const summary = getSummary('gitbook');
   if (!summary.match(path.relative('gitbook/', tool.filepath))) {
-    return '';
+    const url = tool.url;
+    return `[${url}](${url})`;
   }
   const absolute = absoluteUrl(tool);
   const relative = path.relative(path.dirname(category.filepath), tool.filepath)
