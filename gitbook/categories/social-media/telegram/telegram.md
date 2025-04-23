@@ -2,7 +2,7 @@
 
 | Name | Description | Cost | Tool Review and Guide |
 | --- | --- | --- | --- |
-| Intelligence X Telegram Search | Google-based search engine for Telegram (includes Telegago) | <mark style="background-color:green;">Free</mark> |  |
+| Intelligence X Telegram Search | Google-based search engine for Telegram (includes Telegago) | <mark style="background-color:green;">Free</mark> | [https://intelx.io/tools?tab=telegram](https://intelx.io/tools?tab=telegram) |
 | Open Measures | Open Measures helps open source researchers investigate harmful online activity such as extremism and disinformation. | <mark style="background-color:orange;">Partially Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/open-measures](../../../tools/open-measures/README.md) |
 | Telegago | Telegago is a Google Custom Search Engine tailored for searching public Telegram content for OSINT purposes. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/telegago](../../../tools/telegago/README.md) |
 | Telegram Group Joiner | Automate joining multiple Telegram groups and channels, ideal for researchers monitoring specific topics. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/telegram-group-joiner](../../../tools/telegram-group-joiner/README.md) |
@@ -12,4 +12,4 @@
 | Telemetry | An analytical search tool for Telegram groups and channels. | <mark style="background-color:orange;">Partially Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/telemetry](../../../tools/telemetry/README.md) |
 | Telepathy | Telepathy is a versatile Telegram toolkit for OSINT analysts, enabling chat archiving, memberlist gathering, user location lookup, top poster analysis, message mapping, and more. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/telepathy](../../../tools/telepathy/README.md) |
 | TGStat | TGStat is a web-based analytics tool for Telegram that monitors active channels and provides profile analytics and statistics. It tracks channel subscribers’ growth rate, reach, and citation index. | <mark style="background-color:orange;">Partially Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/tgstat](../../../tools/tgstat/README.md) |
-| tlgrm.eu channels | Search Telegram channels. | <mark style="background-color:green;">Free</mark> |  |
+| tlgrm.eu channels | Search Telegram channels. | <mark style="background-color:green;">Free</mark> | [http://tlgrm.eu/channels](http://tlgrm.eu/channels) |
