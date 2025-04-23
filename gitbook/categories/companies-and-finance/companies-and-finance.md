@@ -3,7 +3,7 @@
 | Name | Description | Cost | Tool Review and Guide |
 | --- | --- | --- | --- |
 | 527 Explorer | ProPublica's 527 Explorer is a database that allows users to examine the finances of organizations known as 527s in the United States, which can raise unlimited sums for political purposes. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/527-explorer](../../tools/527-explorer/README.md) |
-| BlockExplorer | Following a bitcoin trail or following a bitcoin account? | <mark style="background-color:green;">Free</mark> |  |
+| BlockExplorer | Following a bitcoin trail or following a bitcoin account? | <mark style="background-color:green;">Free</mark> | [https://blockexplorer.com/](https://blockexplorer.com/) |
 | China-related resources | Resources for research on companies in China. |  | [https://bellingcat.gitbook.io/toolkit/more/all-tools/china-related-resources](../../tools/china-related-resources/README.md) |
 | Companies House | Search companies and individuals in the United Kingdom and Gibraltar. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/companies-house](../../tools/companies-house/README.md) |
 | EDGAR | Database of corporate filings for the US | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/edgar](../../tools/edgar/README.md) |
