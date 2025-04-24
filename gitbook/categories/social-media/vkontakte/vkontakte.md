@@ -1,6 +1,6 @@
 # Vkontakte
 
-| Name | Description | Cost | URL |
+| Name | Description | Cost | Tool Review and Guide |
 | --- | --- | --- | --- |
 | Bellingcat VK Scraper | Github - scrape data, and especially media links like videos and photos, from vk.com URLs. | <mark style="background-color:green;">Free</mark> | [https://github.com/bellingcat/vk-url-scraper](https://github.com/bellingcat/vk-url-scraper) |
 | FindClone | Searches images from VK profiles (within certain limits) | <mark style="background-color:green;">Free</mark> | [https://findclone.ru/](https://findclone.ru/) |

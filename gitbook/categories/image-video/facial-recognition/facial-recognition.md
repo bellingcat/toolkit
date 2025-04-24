@@ -1,10 +1,10 @@
 # Facial Recognition
 
-| Name | Description | Cost | URL |
+| Name | Description | Cost | Tool Review and Guide |
 | --- | --- | --- | --- |
 | Amazon Rekognition | Check how similar two faces are | <mark style="background-color:green;">Free</mark> | [https://aws.amazon.com/rekognition/](https://aws.amazon.com/rekognition/) |
-| [**Azure AI Video Indexer**](../../../tools/azure-ai-video-indexer/README.md) | AI video tool for facial detection and other types of insights. | <mark style="background-color:red;">Paid</mark> | [https://vi.microsoft.com/en-us](https://vi.microsoft.com/en-us) |
-| [**FaceCheck.ID**](../../../tools/facecheck.id/README.md) | A facial recognition search engine that tries to find photos of people that look similar to a person of interest. | <mark style="background-color:red;">Paid</mark> | [https://facecheck.id/](https://facecheck.id/) |
+| Azure AI Video Indexer | AI video tool for facial detection and other types of insights. | <mark style="background-color:red;">Paid</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/azure-ai-video-indexer](../../../tools/azure-ai-video-indexer/README.md) |
+| FaceCheck.ID | A facial recognition search engine that tries to find photos of people that look similar to a person of interest. | <mark style="background-color:red;">Paid</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/facecheck.id](../../../tools/facecheck.id/README.md) |
 | GFPGAN | Practical face restoration algorithm for *old photos* or *AI-generated faces* | <mark style="background-color:green;">Free</mark> | [https://replicate.com/tencentarc/gfpgan](https://replicate.com/tencentarc/gfpgan) |
 | PimEyes | An AI-powered facial recognition reverse image search tool. | <mark style="background-color:red;">Paid</mark> | [https://pimeyes.com/en](https://pimeyes.com/en) |
 | Search4Faces | Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse) | <mark style="background-color:green;">Free</mark> | [https://search4faces.com](https://search4faces.com) |
