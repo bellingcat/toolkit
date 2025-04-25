@@ -16,16 +16,16 @@ Open Measures helps open source researchers investigate harmful online activity 
 
 Public (free) features:
 
-* **Search queries:** the Public App allows users to search archives for specific search terms with basic, Boolean, or advanced queries.&#x20;
-* **Analysis tools:**  Timeline, Activity, Link Counter, and Search
-* **Datasets:** the following datasets are available, _4chan, 8kun, BitChute, Bluesky, Fediverse, Gab, Gettr, LBRY / Odysee, MeWe, Minds, OK, Parler, Poal, Rumble, RuTube, Scored, Telegram, TikTok, Truth Social, VK, and Wimkin._ (See [Open Measures Datasets](https://openmeasures.io/datasets/) for the current list and operational status of each dataset.)&#x20;
+* **Search queries:** the Public App allows users to search archives for specific search terms with basic, Boolean, or advanced queries.
+* **Analysis tools:** Timeline, Activity, Link Counter, and Search
+* **Datasets:** the following datasets are available, _4chan, 8kun, BitChute, Bluesky, Fediverse, Gab, Gettr, LBRY / Odysee, MeWe, Minds, OK, Parler, Poal, Rumble, RuTube, Scored, Telegram, TikTok, Truth Social, VK, and Wimkin._ (See [Open Measures Datasets](https://openmeasures.io/datasets/) for the current list and operational status of each dataset.)
 * **Language support:** English and Spanish.
 * **Limited API access:** 39 requests per day, and data that is at least six months old.
 * **API Elasticsearch Support:** Sophisticated filtering query support included (Additional information on Elastic full text queries [here](https://www.elastic.co/guide/en/elasticsearch/reference/current/full-text-queries.html).)
 
 Pro Features:
 
-* Everything in Public, plus unlimited access to all Analysis tools.
+* Everything in Public, plus unlimited access to all Analysis tools such as Discover, Timeline, Link Counter, and Activity.
 * **API access**: Unlimited.
 * **Support:** Full customer support.
 
@@ -37,9 +37,9 @@ Enterprise Features:
 * **Multi-media imagery analysis**: Images and video media application. Multi media.
 * **Custom social media crawl requests**: Access to custom crawl requests of keywords, profiles, and channels.
 
-Open Measures provides a[ Command Line Interface (CLI)](https://gitlab.com/openmeasures/smat-cli) for quickly accessing bulk data and a [Jupyter Notebook](https://colab.research.google.com/drive/1kDyRIC0NBOj4Egn_VdK837QBNqDERRi_?usp=sharing) for accessing the API.&#x20;
+Open Measures provides a[ Command Line Interface (CLI)](https://gitlab.com/openmeasures/smat-cli) for quickly accessing bulk data and a [Jupyter Notebook](https://colab.research.google.com/drive/1kDyRIC0NBOj4Egn_VdK837QBNqDERRi_?usp=sharing) for accessing the API.
 
-Example of a timeline search result for the term _QAnon:_&#x20;
+Example of a timeline search result for the term _QAnon:_
 
 <figure><img src=".gitbook/assets/Screenshot 2024-04-25 at 11.54.20 AM.png" alt="Search result for the term QAnon"><figcaption><p>Search result for the term <em>QAnon</em></p></figcaption></figure>
 
@@ -55,7 +55,7 @@ Open Measures says the Pro and Enterprise solutions are paid for all users, but 
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
@@ -80,7 +80,7 @@ Considering these ethical guidelines will help maintain the integrity of your re
 
 To effectively use Open Measures, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
 
-**Official Wiki**&#x20;
+**Official Wiki**
 
 * [https://docs.openmeasures.io/docs](https://docs.openmeasures.io/docs)
 * [https://blog.openmeasures.io/](https://blog.openmeasures.io/)
@@ -110,7 +110,7 @@ To effectively use Open Measures, especially for beginners or those looking to r
 
 **Community and Support**
 
-* &#x20;Support only for Pro and Enterprise options.&#x20;
+* Support only for Pro and Enterprise options.
 
 ## Tool provider
 
