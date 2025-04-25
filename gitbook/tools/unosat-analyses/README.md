@@ -14,7 +14,7 @@ description: >-
 
 The UNOSAT Analyses map library includes public analyses, data and other products produced by UNOSAT in response to humanitarian emergencies related to (environmental) disasters, complex emergencies and conflict situations.
 
-The map marks 'activations' such as famines, flash floods, fires, complex emergencies, and more. A search function is available, and the tool allows for filtering by date, activation type, country, and events that invoked the [International Charter "Space and Major Disasters"](https://en.wikipedia.org/wiki/International\_Charter\_'Space\_and\_Major\_Disasters') (an agreement in which satellite data is transmitted to relief organizations in the event of major disasters).
+The map marks 'activations' such as famines, flash floods, fires, complex emergencies, and more. A search function is available, and the tool allows for filtering by date, activation type, country, and events that invoked the [International Charter "Space and Major Disasters"](https://en.wikipedia.org/wiki/International_Charter_'Space_and_Major_Disasters') (an agreement in which satellite data is transmitted to relief organizations in the event of major disasters).
 
 Hovering over an activation reveals a short explanation including its type, date range, and general location. Clicking in for more information provides a detailed overview and photos of the areas analysed, how many people may have been affected, how this conclusion was reached, and which sources were used. Activations also note whether field analysis has validated the satellite analysis.
 
@@ -67,7 +67,7 @@ UNOSAT Analyses has been used in various publications and investigations, such a
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Winterborne     |
-|                 |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
+|                           |
