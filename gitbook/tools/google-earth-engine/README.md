@@ -94,7 +94,7 @@ To effectively use Google Earth Engine, especially for beginners or those lookin
 **Tutorials and Articles**
 
 * [**Remote Sensing for OSINT**](https://bellingcat.github.io/RS4OSINT)**:** Bellingcat's tutorial to GEE written by Ollie Ballinger.
-* [**End-to-End Google Earth Engine**](https://courses.spatialthoughts.com/end-to-end-gee.html)**:**  full online course.
+* [**End-to-End Google Earth Engine**](https://courses.spatialthoughts.com/end-to-end-gee.html)**:**  full online course
 
 **Video Tutorials**
 
