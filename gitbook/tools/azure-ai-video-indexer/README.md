@@ -12,15 +12,15 @@ description: AI video tool for facial detection and other types of insights.
 
 Microsoft's Azure AI Video Indexer allows open source researchers to gain various types of insights from videos.
 
-Through the use of facial detection the tool can automatically spot individuals who appear several times throughout a video. This feature can be helpful when analysing footage of crowd-like situations like protests or when working with vast amounts of video material.&#x20;
+Through the use of facial detection the tool can automatically spot individuals who appear several times throughout a video. This feature can be helpful when analysing footage of crowd-like situations like protests or when working with vast amounts of video material.
 
-Azure AI Video Indexer is also able to extract key topics or keywords from videos and it can be used to generate transcripts (also in several languages). Those features can reduce the time that is required to analyse a particular set of videos or audios, for instance from long city hall meetings.&#x20;
+Azure AI Video Indexer is also able to extract key topics or keywords from videos and it can be used to generate transcripts (also in several languages). Those features can reduce the time that is required to analyse a particular set of videos or audios, for instance from long city hall meetings.
 
 Other features that can be useful for open source researchers are its ability to extract text in videos ([optical character recognition](https://learn.microsoft.com/en-us/azure/azure-video-indexer/ocr-insight)) and object detection. The tool is able to detect various objects, for instance [airplanes, cars, traffic lights or fire hydrants.](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight)
 
 ## Steps
 
-After creating an account, upload a file or add a video or audio URL by navigating to the "Library" tab.&#x20;
+After creating an account, upload a file or add a video or audio URL by navigating to the "Library" tab.
 
 The advanced "Indexing presets" allow users to configure settings to include models that can help extract insights about entities that are most relevant to their analysis. Some features such as face detection require a subscription.
 
@@ -30,7 +30,7 @@ The advanced "Indexing presets" allow users to configure settings to include mod
 
 To test the tool, we uploaded the video ["Presenting: The Bellingcat Online Open Source Investigations Toolkit"](https://www.youtube.com/watch?v=-Y3GQ6mSGqM). The video stars Bellingcat volunteers who explain the Bellingcat toolkit and its features to the open source researcher community.
 
-To use the object detection feature of the Video Indexer tool, users can hover over the video progress bar and click on the black boxes that indicate where objects (from the [list of objects](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight) which the tool knows) were found.&#x20;
+To use the object detection feature of the Video Indexer tool, users can hover over the video progress bar and click on the black boxes that indicate where objects (from the [list of objects](https://learn.microsoft.com/en-us/azure/azure-video-indexer/object-detection-insight) which the tool knows) were found.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-26 at 12.05.15 AM.png" alt=""><figcaption><p>Objects and topics extracted from the footage</p></figcaption></figure>
 
@@ -74,13 +74,13 @@ The tool is paid but it provides a [free trial account](https://azure.microsoft.
 
 ## Requirements
 
-You need to create a Microsoft account or sign up through Google for using the Azure AI Video Indexer.&#x20;
+You need to create a Microsoft account or sign up through Google for using the Azure AI Video Indexer.
 
 ## Limitations
 
-Like any other tool, Azure AI indexer has its limitations. It does not cover all languages and therefore it may not be useful for all audios and videos. A list of supported languages can be found [here](https://learn.microsoft.com/en-us/azure/azure-video-indexer/language-support).&#x20;
+Like any other tool, Azure AI indexer has its limitations. It does not cover all languages and therefore it may not be useful for all audios and videos. A list of supported languages can be found [here](https://learn.microsoft.com/en-us/azure/azure-video-indexer/language-support).
 
-The facial detection feature may not work efficiently all the time, for example if the footage is of poor [quality](https://www.researchgate.net/publication/374738467_Face_Recognition_Challenges_and_Solutions_using_Machine_Learning) (low resolution) or there is bright coloring. Always make sure to double check your findings using other research methods.&#x20;
+The facial detection feature may not work efficiently all the time, for example if the footage is of poor [quality](https://www.researchgate.net/publication/374738467_Face_Recognition_Challenges_and_Solutions_using_Machine_Learning) (low resolution) or there is bright coloring. Always make sure to double check your findings using other research methods.
 
 It is also important to note that the tool is not able to identify individuals. It is able to spot if the same [individual](https://learn.microsoft.com/en-us/azure/azure-video-indexer/face-detection-insight) shows up several times in a video but the open source researcher still needs to find out who the person is (unless they are a celebrity). Microsoft only provides access to facial recognition services to [selected users](https://learn.microsoft.com/en-us/legal/cognitive-services/computer-vision/limited-access-identity).
 
@@ -114,7 +114,7 @@ Microsoft, United States.
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer         |
-| ----------------------- |
-| Anisa Shabir GAP member |
-|                         |
+| Page maintainer |
+| --------------- |
+| Anisa Shabir    |
+|                 |
