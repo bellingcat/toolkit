@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-RootAbout is a reverse image search tool that compares an uploaded image with images from the Internet Archive. It has over [37.3 million pictures](https://rootabout.com/faq.php#What%20has%20RootAbout%20indexed) from Internet Archive collections indexed and therefore does not need to host any photos itself.&#x20;
+RootAbout is a reverse image search tool that compares an uploaded image with images from the Internet Archive. It has over [37.3 million pictures](https://rootabout.com/faq.php#What%20has%20RootAbout%20indexed) from Internet Archive collections indexed and therefore does not need to host any photos itself.
 
 To use the tool, you just need to upload an image of your choice. Under the search option, click on “Internet Archive.” Sometimes, this search option doesn’t work. You can go to the advanced search tab to adjust the size, flip and rotate the image and try again.
 
@@ -22,7 +22,7 @@ RootAbout also provides details about image [metadata](https://rootabout.com/faq
 
 ## Internet Archive Search
 
-To test the tool, we uploaded the image “Doradus Nebula” from NASA's Hubble Space [collection](https://hubblesite.org/contents/media/images/2001/21/1080-Image.html) (Internet Archive version [here](https://archive.org/details/NIX-PIA04200)). The search provided three results. The first result is shown here:&#x20;
+To test the tool, we uploaded the image “Doradus Nebula” from NASA's Hubble Space [collection](https://hubblesite.org/contents/media/images/2001/21/1080-Image.html) (Internet Archive version [here](https://archive.org/details/NIX-PIA04200)). The search provided three results. The first result is shown here:
 
 <figure><img src=".gitbook/assets/Root About search result.png" alt=""><figcaption><p>The first RootAbout match is from 2003.</p></figcaption></figure>
 
@@ -36,13 +36,13 @@ RootAbout displays all versions of the image it has indexed from the Wayback Mac
 
 ## **Open Library search**
 
-To test this feature, we uploaded the cover of [Ghost Wars](https://en.wikipedia.org/wiki/Ghost_Wars) by Steve Coll. The search yielded two results, the top result is shown below:&#x20;
+To test this feature, we uploaded the cover of [Ghost Wars](https://en.wikipedia.org/wiki/Ghost_Wars) by Steve Coll. The search yielded two results, the top result is shown below:
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-19 at 4.34.53 PM.png" alt=""><figcaption><p>The top result for the book cover of Ghost Wars using the Open Library Archive</p></figcaption></figure>
 
-The search indicates that the top result is a “strong match". The description notes this book edition was published in 2008 (note the original version was published in 2004). It states that the file size is 31,842 bytes and it provides a link to Open Library’s [webpage](https://openlibrary.org/books/OL24251547M/Ghost_Wars) for the book.&#x20;
+The search indicates that the top result is a “strong match". The description notes this book edition was published in 2008 (note the original version was published in 2004). It states that the file size is 31,842 bytes and it provides a link to Open Library’s [webpage](https://openlibrary.org/books/OL24251547M/Ghost_Wars) for the book.
 
-**Note**: This search also yielded a second “fair match” result. The publication date for this [version](https://openlibrary.org/books/OL7361460M/Ghost_Wars) is 2004, which shows that RootAbout can pull various versions of the same book that it has indexed from Open Library.&#x20;
+**Note**: This search also yielded a second “fair match” result. The publication date for this [version](https://openlibrary.org/books/OL7361460M/Ghost_Wars) is 2004, which shows that RootAbout can pull various versions of the same book that it has indexed from Open Library.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-19 at 4.49.28 PM.png" alt=""><figcaption><p>The second result shown by RootAbout</p></figcaption></figure>
 
@@ -58,18 +58,18 @@ The search indicates that the top result is a “strong match". The description 
 
 ## Requirements
 
-The images must be in[ JPEG or PNG](https://rootabout.com/faq.php#What%20can%20I%20upload) format. However, your web browser automatically converts other formats into PNG if you upload a picture.&#x20;
+The images must be in[ JPEG or PNG](https://rootabout.com/faq.php#What%20can%20I%20upload) format. However, your web browser automatically converts other formats into PNG if you upload a picture.
 
 ## Limitations
 
-* RootAbout only indexes the Internet Archive; so unlike TinEye, Google and other search engines [it does not focus on the whole internet](https://rootabout.com/faq.php#Why%20doesnt%20my%20image%20match).&#x20;
+* RootAbout only indexes the Internet Archive; so unlike TinEye, Google and other search engines [it does not focus on the whole internet](https://rootabout.com/faq.php#Why%20doesnt%20my%20image%20match).
 * The tool is also not able to match photos with pictures from the [Wayback Machine](https://bellingcat.gitbook.io/toolkit/more/all-tools/internet-archive) which can be a crucial limiting factor for open source researchers.
 * The search is sometimes slow. This is because the tool does not store Internet Archive pictures but it finds them on the Internet Archive via a six step process which is explained [here](https://rootabout.com/faq.php#Why%20is%20RootAbout%20sometimes%20slow).
-* According to the[ RootAbout website](https://rootabout.com/faq.php#What%20kinds%20of%20pictures%20will%20match), the tool only matches pictures that are nearly identical: "If your picture differs by more than 10%, then it probably won't match. Even simple changes, like cropping an edge or rotating the picture by 5° can be enough to make the picture appear different."&#x20;
+* According to the[ RootAbout website](https://rootabout.com/faq.php#What%20kinds%20of%20pictures%20will%20match), the tool only matches pictures that are nearly identical: "If your picture differs by more than 10%, then it probably won't match. Even simple changes, like cropping an edge or rotating the picture by 5° can be enough to make the picture appear different."
 
 ## Ethical Considerations
 
-Just like when you are using reverse image search features offered by search engines, you need to check the copyright of any result image that you get from RootAbout. On its [website](https://rootabout.com/faq.php), RootAbout states: “Each picture's copyright is retained by the original copyright holder. Pictures in the search results are provided by the public collections at the Internet Archive.” Be particularly careful when you plan to use pictures from the results list elsewhere.&#x20;
+Just like when you are using reverse image search features offered by search engines, you need to check the copyright of any result image that you get from RootAbout. On its [website](https://rootabout.com/faq.php), RootAbout states: “Each picture's copyright is retained by the original copyright holder. Pictures in the search results are provided by the public collections at the Internet Archive.” Be particularly careful when you plan to use pictures from the results list elsewhere.
 
 ## Guide
 
@@ -85,7 +85,7 @@ The tool is provided by Hacker Factor, also known as Dr. Neal Krawetz. More deta
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer         |
-| ----------------------- |
-| Anisa Shabir GAP member |
-|                         |
+| Page maintainer |
+| --------------- |
+| Anisa Shabir    |
+|                 |
