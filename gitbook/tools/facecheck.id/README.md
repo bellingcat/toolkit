@@ -44,7 +44,7 @@ Like other reverse facial recognition search engines, FaceCheck.ID will not prov
 
 ## Ethical Considerations
 
-FaceCheck.ID does not clearly list its sources, [its website only states](https://facecheck.id/Face-Search/Privacy) that the tool compares uploaded photos with photos "from public, readily available web pages such as public news websites and blogs."
+FaceCheck.ID does not clearly list its sources, [its website only states](https://facecheck.id/Face-Search/Privacy) that the tool compares uploaded photos with photos "from public, readily available web pages only."
 
 Ethical considerations include privacy concerns, copyright infringement, and possible proliferation of misinformation. Make sure you analyse the search results critically and cross-reference these with other sources of information to ensure your findings are accurate. Do not use copyright images without permission.&#x20;
 
@@ -58,7 +58,7 @@ Read the guide on the FaceCheck.ID [website](https://facecheck.id/Face-Search-Ef
 
 ## Tool provider
 
-The FaceCheck.ID website states it was created by Sentient Labs in Belize.
+The FaceCheck.ID website states it was created by Tech Solutions - Belize.
 
 ## Advertising Trackers
 
