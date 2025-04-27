@@ -42,7 +42,7 @@ Nevertheless, this is an easy and free check that is well worth trying if you co
 
 ## Limitations
 
-ICANN does not provide historical ownership information or screenshots for the domain in question. Consider accessing this data through more sophisticated, paid platforms like [DomainTools](https://whois.domaintools.com/), or explore some of the other solutions in the Guides and Articles section below.
+ICANN does not provide historical ownership information or screenshots for the domain in question. Consider accessing this data through more sophisticated, paid platforms like [DomainTools](https://whois.domaintools.com/) or [DeHashed](https://dehashed.com/), or explore some of the other solutions in the Guides and Articles section below.
 
 In November 2023, ICANN launched the [Registration Data Request Service](https://rdrs.icann.org/) (RDRS), an online portal whereby users deemed to have a legitimate interest (including law enforcement, government agencies, intellectual property attorneys, cybersecurity professionals, and others) can request registration data from registrants. However, RDRS does not guarantee access to the registration data. All communication and data disclosure between the registrars and requestors takes place outside of the system. &#x20;
 
@@ -58,7 +58,7 @@ Check out the [FAQ ](https://lookup.icann.org/en/faq)page on the ICANN Lookup we
 
 'How to Retrieve Domain WHOIS History Data After Redaction', _WhoisXMLAPI_, 29 March 2023. Available at: [https://drs.whoisxmlapi.com/blog/retrieve-domain-data-after-redaction#:\~:text=With%20the%20General%20Data%20Protection,Access%20Protocol%20(RDAP)%20protocols.](https://drs.whoisxmlapi.com/blog/retrieve-domain-data-after-redaction) (Accessed 27 December 2024).
 
-'WHOIS searches and domain due diligence post-GDPR', _Freshfields_, 26 October 2020. Available at: [https://technologyquotient.freshfields.com/post/102giie/whois-searches-and-domain-due-diligence-post-gdpr](https://technologyquotient.freshfields.com/post/102giie/whois-searches-and-domain-due-diligence-post-gdpr) (Accessed 27 December 2024).
+'WHOIS searches and domain due diligence post-GDPR', _Freshfields_, 26 October 2020. Available at: [https://www.lexology.com/library/detail.aspx?g=c0621980-8c01-476c-82eb-d2d6bf42684a](https://www.lexology.com/library/detail.aspx?g=c0621980-8c01-476c-82eb-d2d6bf42684a) (Accessed 27 April 2025).
 
 ## Tool provider
 
@@ -72,5 +72,5 @@ ICANN, U.S. ICANN stands for the Internet Corporation for Assigned Names and Num
 
 | Page maintainer |
 | --------------- |
-| Ana GAP member  |
+| Ana             |
 |                 |
