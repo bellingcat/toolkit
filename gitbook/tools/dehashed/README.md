@@ -1,5 +1,7 @@
 ---
-description: A search engine that provides access to a database of compromised credentials.
+description: >-
+  A platform that maintains a database of compromised credentials, with a
+  newly-launched web domain registration search tool.
 ---
 
 # DeHashed
