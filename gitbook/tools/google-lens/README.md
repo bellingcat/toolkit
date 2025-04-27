@@ -14,6 +14,8 @@ description: >-
 
 Use Google Lens to identify objects or locations that are visible in an image. This can be useful if you want to geolocate an image, or find out more information about the objects, landmarks or vegetation in a photograph in order to better understand its contents. Primarily a mobile phone application, it can also be used in the Chrome browser.&#x20;
 
+Google Lens now uses Google's AI tools to identify objects and places that feature in the images you search, and will sometimes provide you with an AI overview.&#x20;
+
 ### Using the Google Photos mobile application&#x20;
 
 Open a photograph in the [Google Photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos) mobile application and click the Google Lens![](<.gitbook/assets/image (3).png>)  icon at the bottom of the image. The app will highlight a specific part of the image in a rectangle, which you can move by dragging, or re-size using one of the corners, to make sure it captures your specific area or object of interest.
@@ -40,7 +42,7 @@ Right click any photo you come across while browsing the Internet using Google C
 
 ## Requirements
 
-You need the [Google Photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos) application on your mobile phone if you want to search an image in your gallery. Otherwise, you can use Google Lens with Google Chrome, but Google Chrome must be set as your default browser for this to work (see the Google Support page [here ](https://support.google.com/chrome/answer/15086890?hl=en)for more information).
+You need the [Google Photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos) application on your mobile phone if you want to search an image in your gallery. Otherwise, you can use Google Lens with Google Chrome or the Google application (see the Google Support page [here ](https://support.google.com/chrome/answer/15086890?hl=en)for more information).
 
 ## Limitations
 
