@@ -6,7 +6,7 @@ description: >-
 
 # DeHashed
 
-## URL
+URL
 
 [https://dehashed.com/](https://dehashed.com/)
 
@@ -41,23 +41,35 @@ Record any relevant results and data points as you go to map out a subject's onl
 
 #### Step-by-step guide on how to use Search
 
-The search engine is extremely simple to use and user-friendly: you can run a keyword search either by field or across all fields:
+The search engine is extremely simple to use and user-friendly. You can run a keyword search either by field or across all fields:
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Screenshot 1. You can search across all fields, or just pick one.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Screenshot 1. Search interface.</p></figcaption></figure>
 
 If you search by, say, email address, you will get a list of various data points associated with that email, including names and passwords. You can then run more searches against, for example, the names and passwords you identified during your original search with a view to finding more accounts and generating fresh research leads.&#x20;
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Screenshot 2. You can view the results with a paid subscription.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Screenshot 2. You need a paid subscription to view results.</p></figcaption></figure>
 
 It is free to search if you set up an account with just an email and password, but **you need a paid subscription to actually view the results**. See below for pricing information. &#x20;
 
 ### Using WHOIS for Open Source Investigations
 
-XXXXXXXX
+WHOIS databases can help you understand who is behind a website. There are two main contexts/ways you can approach this:
+
+1. Run a search against a domain name to find out more information about the identities of the individuals or companies that have registered a website.&#x20;
+2. Run a search against an individual or organisation to find out if they run any websites. &#x20;
 
 #### Step-by-step guide on how to use WHOIS
 
+Search by domain name, keyword, IP address or other domain-related information. The different categories are in the screenshot below, and the search engine will prompt you with the type of information you need to enter for each category.
 
+There are two main ways you can search:
+
+* The name of the domain (website) by using the WHOIS tab to find out current registration information, or the WHOIS History tab to retrieve information regarding previous owners or changes in ownership over the past ten years;
+* Any information you might have about the owner, ranging from name and physical address to their email address and phone number, by using Reverse WHOIS.
+
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Screenshot 3. WHOIS interface.</p></figcaption></figure>
+
+You will need to purchase credits to run a search.
 
 ## Cost
 
@@ -65,7 +77,13 @@ XXXXXXXX
 * [ ] Partially Free
 * [x] Paid
 
-You can run a limited number of searches for free but you have to create an account first. This is relatively easy and requires only an email address and password. However, if you want to actually view the hits, you need to purchase a subscription.&#x20;
+You can use Search for free, but you need to purchase a subscription to view the results.&#x20;
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Screenshot 4. Search pricing.</p></figcaption></figure>
+
+To use WHOIS, you need to buy credits.&#x20;
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Screenshot 5. WHOIS pricing.</p></figcaption></figure>
 
 The current pricing information for each one of its four offerings can be found [here](https://app.dehashed.com/subscriptions) (click 'Purchase').&#x20;
 
