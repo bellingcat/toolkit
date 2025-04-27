@@ -12,15 +12,22 @@ description: >-
 
 ## Description
 
-DeHashed has compiled a searchable database of leaked personal information and sensitive data. It allows users to search through billions of records, including **names, email addresses, usernames, IP address, physical address, phone number, vehicle identification number, and domains.**&#x20;
+DeHashed has compiled a searchable database of leaked personal information and sensitive data, and launched its web domain registration search tool in April 2025.&#x20;
 
-It is ostensibly designed for individuals and companies to detect and monitor data breaches in real time, but can also be effectively used for open source research.&#x20;
+The platform now operates across four service lines:
+
+* **Search:** DeHashed's original offering, Search allows users to search through billions of records, including names, email addresses, usernames, IP addresses, physical addresses, phone numbers, vehicle identification numbers, and web domains.&#x20;
+* **Monitoring**: Its new Monitor function alerts users in the event that their personal data, such as email addresses, is leaked. The free subscription allows for 10 monitor tasks.
+* **API**: Users can integrate the Dehashed API into their own applications.
+* **WHOIS**: The newly-launched WHOIS database allows users to search through web domain registration information, including historical data.
+
+DeHashed is ostensibly designed for individuals and companies to detect and monitor data breaches in real time, but its **Search** and **WHOIS** offerings also be effectively used for open source research.&#x20;
 
 You can search by domain or field, increase or decrease the number of results displayed, use wildcard characters, run regex searches (a form of advanced searching that looks for specific patterns) and mix operators (e.g. email and username together).
 
-DeHashed publishes a very basic (but useful) search guide [here](https://dehashed.com/search-guide), explaining how to search by field, use wildcard characters, or search a specific data origin.&#x20;
+DeHashed publishes a detailed search guide [here](https://app.dehashed.com/documentation/search-guide), explaining how to search by field, use wildcard characters, or search a specific data origin. The platform also published a list of its data sources [here](https://dehashed.com/data-wells), and has a FAQ page [here](https://app.dehashed.com/documentation/faq).
 
-### Using DeHashed for Open Source Investigations
+### Using Search for Open Source Investigations
 
 For example, you can use DeHashed to help search for someone who is trying to conceal their identity.&#x20;
 
@@ -32,7 +39,7 @@ Pay attention to their usernames and passwords. Do they contain numbers that cou
 
 Record any relevant results and data points as you go to map out a subject's online footprint. How many usernames, email addresses, IP addresses are they linked to?  What do these tell us about their online activities, interestes, location etc.?
 
-### Step-by-step guide on how to use DeHashed
+#### Step-by-step guide on how to use Search
 
 The search engine is extremely simple to use and user-friendly: you can run a keyword search either by field or across all fields:
 
@@ -44,15 +51,23 @@ If you search by, say, email address, you will get a list of various data points
 
 It is free to search if you set up an account with just an email and password, but **you need a paid subscription to actually view the results**. See below for pricing information. &#x20;
 
+### Using WHOIS for Open Source Investigations
+
+XXXXXXXX
+
+#### Step-by-step guide on how to use WHOIS
+
+
+
 ## Cost
 
 * [ ] Free
 * [ ] Partially Free
 * [x] Paid
 
-Running searches is free but you have to create an account first. This is relatively easy and requires only an email address and password. However, if you want to actually view the hits, you need to purchase a subscription.&#x20;
+You can run a limited number of searches for free but you have to create an account first. This is relatively easy and requires only an email address and password. However, if you want to actually view the hits, you need to purchase a subscription.&#x20;
 
-The current pricing information can be found [here](https://dehashed.com/pricing).&#x20;
+The current pricing information for each one of its four offerings can be found [here](https://app.dehashed.com/subscriptions) (click 'Purchase').&#x20;
 
 ## Level of difficulty
 
@@ -72,7 +87,7 @@ Consider the ethical and legal implications of analysing and using leaked user d
 
 ## Guides and articles
 
-This YouTube [video ](https://www.youtube.com/watch?v=3JztCgR85ls)provides a great demonstration of how to use DeHashed creatively to generate new research leads.
+This YouTube [video ](https://www.youtube.com/watch?v=3JztCgR85ls)provides a great demonstration of how to use DeHashed creatively to generate new research leads. NB: it uses the old version of the platform, but the research tips are still valid.
 
 ## Tool provider
 
