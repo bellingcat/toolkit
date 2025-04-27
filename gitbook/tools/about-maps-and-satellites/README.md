@@ -37,8 +37,8 @@ Maps are intertwined with cultural biases. Many other cultures create maps that 
 
 Some resources that explore these issues in more depth include:
 
-* _Thinking Critically About Maps: Researching, Resisting and Re-imagining the World — The Kit 1.0 documentation_ (no date). Available at: [https://kit.exposingtheinvisible.org/en/critical-maps.html](https://kit.exposingtheinvisible.org/en/critical-maps.html) (Accessed: 13 August 2024).
-* Houston, D. (2017) _Five maps that will change how you see the world_, _The Conversation_. Available at: [http://theconversation.com/five-maps-that-will-change-how-you-see-the-world-74967](http://theconversation.com/five-maps-that-will-change-how-you-see-the-world-74967) (Accessed: 26 August 2024).
+* _Thinking Critically About Maps: Researching, Resisting and Re-imagining the World — The Kit 1.0 documentation_ (no date). Available at: [https://kit.exposingtheinvisible.org/en/critical-maps.html](https://kit.exposingtheinvisible.org/en/critical-maps.html) (Accessed: 26th April 2025).
+* Houston, D. (2017) _Five maps that will change how you see the world_, _The Conversation_. Available at: [http://theconversation.com/five-maps-that-will-change-how-you-see-the-world-74967](http://theconversation.com/five-maps-that-will-change-how-you-see-the-world-74967) (Accessed: 26th April 2025).
 * Lucchesi, A.H. (2018) ‘“Indians Don’t Make Maps”: Indigenous Cartographic Traditions and Innovations’, _American Indian Culture and Research Journal_, 42(3). Available at: [https://doi.org/10.17953/aicrj.42.3.lucchesi](https://doi.org/10.17953/aicrj.42.3.lucchesi)
 
 **3D Space**
@@ -54,7 +54,7 @@ Researchers in turn have a responsibility to ensure the right to privacy of indi
 In regard to further ethical considerations the following may be helpful:
 
 * Bennett, M.M. et al. (2024) ‘Bringing satellites down to Earth: Six steps to more ethical remote sensing’, Global Environmental Change Advances, 2, p. 100003. Available at: [https://doi.org/10.1016/j.gecadv.2023.100003](https://doi.org/10.1016/j.gecadv.2023.100003).
-* February 2021, M.P.// 25 (2021) Why we need to think about ethics when using satellite data for development, Devex. Available at: [https://www.devex.com/news/sponsored/why-we-need-to-think-about-ethics-when-using-satellite-data-for-development-99148](https://www.devex.com/news/sponsored/why-we-need-to-think-about-ethics-when-using-satellite-data-for-development-99148) (Accessed: 3 April 2024).
+* February 2021, M.P.// 25 (2021) Why we need to think about ethics when using satellite data for development, Devex. Available at: [https://www.devex.com/news/sponsored/why-we-need-to-think-about-ethics-when-using-satellite-data-for-development-99148](https://www.devex.com/news/sponsored/why-we-need-to-think-about-ethics-when-using-satellite-data-for-development-99148) (Accessed: 26th April 2025).
 
 ### Limitations
 
@@ -104,9 +104,9 @@ These issues are important to consider when working with maps and satellite imag
 
 See also:
 
-Aberneithie, C. (2022) ‘Do mapping apps exacerbate prejudice?’, _New Statesman_, 15 August. Available at: [https://www.newstatesman.com/spotlight/2022/08/mapping-navigational-apps-gis-safety-bias-google-maps](https://www.newstatesman.com/spotlight/2022/08/mapping-navigational-apps-gis-safety-bias-google-maps) (Accessed: 15 September 2024).
+Aberneithie, C. (2022) ‘Do mapping apps exacerbate prejudice?’, _New Statesman_, 15 August. Available at: [https://www.newstatesman.com/spotlight/2022/08/mapping-navigational-apps-gis-safety-bias-google-maps](https://www.newstatesman.com/spotlight/2022/08/mapping-navigational-apps-gis-safety-bias-google-maps) (Accessed: 26th April 2025).
 
-‘Widespread Blurring of Satellite Images Reveals Secret Facilities’ (no date) _Federation of American Scientists_. Available at: [https://fas.org/publication/widespread-blurring-of-satellite-images-reveals-secret-facilities/](https://fas.org/publication/widespread-blurring-of-satellite-images-reveals-secret-facilities/) (Accessed: 26 August 2024).
+‘Widespread Blurring of Satellite Images Reveals Secret Facilities’ (no date) _Federation of American Scientists_. Available at: [https://fas.org/publication/widespread-blurring-of-satellite-images-reveals-secret-facilities/](https://fas.org/publication/widespread-blurring-of-satellite-images-reveals-secret-facilities/) (Accessed: 26th April 2025).
 
 **Crowdsourced data**
 
@@ -116,22 +116,22 @@ Crowdsourced data can be particularly prone to bias in the geographic coverage, 
 
 #### Wikis
 
-* _SentiWiki_ (no date). Available at: [https://sentiwiki.copernicus.eu/web/sentiwiki](https://sentiwiki.copernicus.eu/web/sentiwiki) (Accessed: 3 September 2024).
+* _SentiWiki_ (no date). Available at: [https://sentiwiki.copernicus.eu/web/sentiwiki](https://sentiwiki.copernicus.eu/web/sentiwiki) (Accessed: 26th April 2025).
 
 #### Tutorials and Articles
 
-* ‘Buying Optical Satellite Imagery? The Top Ten Things to Consider - Home - Aerial/Satellite Digital Mapping Solutions - LAND INFO ... landinfo.com’ (2020), 6 April. Available at: [https://landinfo.com/buying-optical-satellite-imagery-the-top-ten-things-to-consider/](https://landinfo.com/buying-optical-satellite-imagery-the-top-ten-things-to-consider/) (Accessed: 25 August 2024).
-* _1. Introduction to The Politics of Verticality_ (no date) _openDemocracy_. Available at: [https://www.opendemocracy.net/en/article\_801jsp/](https://www.opendemocracy.net/en/article_801jsp/) (Accessed: 30 August 2024).
-* _Key factors to consider when choosing between aerial & satellite imagery- Aerometrex_ (no date). Available at: [https://aerometrex.com.au/resources/blog/key-factors-consider-when-choosing-between-aerial-satellite-imagery/](https://aerometrex.com.au/resources/blog/key-factors-consider-when-choosing-between-aerial-satellite-imagery/) (Accessed: 3 September 2024).
-* _4. Spatial accuracy and Ortho-correction | 10 things to know about VHR satellite data_ (2022). Available at: [https://guides.geospatial.bas.ac.uk/10-things-to-know-about-vhr-satellite-data/4.-spatial-accuracy-and-ortho-correction](https://guides.geospatial.bas.ac.uk/10-things-to-know-about-vhr-satellite-data/4.-spatial-accuracy-and-ortho-correction) (Accessed: 3 September 2024).
-* Earth Science Data Systems, N. (2019) _What is Remote Sensing? | Earthdata_. Earth Science Data Systems, NASA. Available at: [https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing](https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing) (Accessed: 3 September 2024).
-* Earth Science Data Systems, N. (2020) _What is Data Latency? | Earthdata_. Earth Science Data Systems, NASA. Available at: [https://www.earthdata.nasa.gov/learn/backgrounders/data-latency](https://www.earthdata.nasa.gov/learn/backgrounders/data-latency) (Accessed: 3 September 2024).
-* Earth Science Data Systems, N. (2020) _What is Synthetic Aperture Radar? | Earthdata_. Earth Science Data Systems, NASA. Available at: [https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar](https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar) (Accessed: 3 September 2024).
-* _Tutorials | Center for Spatial Research_ (no date). Available at: [https://c4sr.columbia.edu/tutorials](https://c4sr.columbia.edu/tutorials) (Accessed: 15 September 2024).
+* ‘Buying Optical Satellite Imagery? The Top Ten Things to Consider - Home - Aerial/Satellite Digital Mapping Solutions - LAND INFO ... landinfo.com’ (2020), 6 April. Available at: [https://landinfo.com/buying-optical-satellite-imagery-the-top-ten-things-to-consider/](https://landinfo.com/buying-optical-satellite-imagery-the-top-ten-things-to-consider/) (Accessed: 26th April 2025).
+* _1. Introduction to The Politics of Verticality_ (no date) _openDemocracy_. Available at: [https://www.opendemocracy.net/en/article\_801jsp/](https://www.opendemocracy.net/en/article_801jsp/) (Accessed: 26th April 2025).
+* _Key factors to consider when choosing between aerial & satellite imagery- Aerometrex_ (no date). Available at: [https://aerometrex.com.au/resources/blog/key-factors-consider-when-choosing-between-aerial-satellite-imagery/](https://aerometrex.com.au/resources/blog/key-factors-consider-when-choosing-between-aerial-satellite-imagery/) (Accessed: 26th April 2025).
+* _4. Spatial accuracy and Ortho-correction | 10 things to know about VHR satellite data_ (2022). Available at: [https://guides.geospatial.bas.ac.uk/10-things-to-know-about-vhr-satellite-data/4.-spatial-accuracy-and-ortho-correction](https://guides.geospatial.bas.ac.uk/10-things-to-know-about-vhr-satellite-data/4.-spatial-accuracy-and-ortho-correction) (Accessed: 26th April 2025).
+* Earth Science Data Systems, N. (2019) _What is Remote Sensing? | Earthdata_. Earth Science Data Systems, NASA. Available at: [https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing](https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing) (Accessed: 26th April 2025).
+* Earth Science Data Systems, N. (2020) _What is Data Latency? | Earthdata_. Earth Science Data Systems, NASA. Available at: [https://www.earthdata.nasa.gov/learn/backgrounders/data-latency](https://www.earthdata.nasa.gov/learn/backgrounders/data-latency) (Accessed: 26th April 2025).
+* Earth Science Data Systems, N. (2020) _What is Synthetic Aperture Radar? | Earthdata_. Earth Science Data Systems, NASA. Available at: [https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar](https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar) (Accessed: 26th April 2025).
+* _Tutorials | Center for Spatial Research_ (no date). Available at: [https://c4sr.columbia.edu/tutorials](https://c4sr.columbia.edu/tutorials) (Accessed: 26th April 2025).
 
 **Video Tutorials**
 
-* _Video course: Mapping for Journalists_ (no date) _DataJournalism.com_. Available at: [https://datajournalism.com/watch/mapping-for-journalists](https://datajournalism.com/watch/mapping-for-journalists) (Accessed: 26 August 2024).
+* _Video course: Mapping for Journalists_ (no date) _DataJournalism.com_. Available at: [https://datajournalism.com/watch/mapping-for-journalists](https://datajournalism.com/watch/mapping-for-journalists) (Accessed: 26th April 2025).
 
 **Books**
 
