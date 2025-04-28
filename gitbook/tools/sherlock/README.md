@@ -47,7 +47,7 @@ The Sherlock Project maintains a usage and installation guide on Github: [https:
 
 ## Tool provider
 
-Original creator is [Siddharth Dushantha](https://github.com/sdushantha). The Sherlock Project has more than 200+ contributors:
+Original creator is [Siddharth Dushantha](https://github.com/sdushantha). The Sherlock Project has more than 200+ contributors.
 
 * [https://github.com/sherlock-project](https://github.com/sherlock-project)
 * [https://sherlockproject.xyz/](https://sherlockproject.xyz/)
