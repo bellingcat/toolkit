@@ -57,7 +57,7 @@ Some social media users have [speculated](https://x.com/chrisd9r/status/17777284
 
 ## Ethical Considerations
 
-This project is under [AGPL Licence](https://choosealicense.com/licenses/agpl-3.0/). The developers require that it is used "**only in personal, criminal investigations, pentesting, or open-source projects."**
+This project is under [AGPL Licence](https://choosealicense.com/licenses/agpl-3.0/). The developers require that it is used "only in personal, criminal investigations, pentesting, or open-source projects."
 
 ## Guides and articles
 
