@@ -18,7 +18,7 @@ Leak Lookup's collection appears to contain publicly available databases from we
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-24 at 3.20.21 PM.png" alt=""><figcaption><p>Sample record of breach information</p></figcaption></figure>
 
-As of February 2025, Leak-Lookup also [has](https://leak-lookup.com/docs/search) the following API offerings:
+As of April 2025, Leak-Lookup also [has](https://leak-lookup.com/docs/search) the following API offerings:
 
 * **Search:** The "search" API is designed to provide a simple and easy to use endpoint for end-users to search across all indexed breaches. Users can search by types of indicators such as email address, username, IP address, phone number, domain etc.&#x20;
 * **Hash:** The "hash" API is designed to provide hash-cracking capabilities for end-users, meaning a user can submit a hashed value of a password and the API endpoint will return the cleartext value of the password if the hash has been "cracked."&#x20;
