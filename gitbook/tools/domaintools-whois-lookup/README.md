@@ -20,7 +20,7 @@ The main Whois page includes a mix of free and paid tools that are offered by Do
 
 <figure><img src=".gitbook/assets/Screenshot 2024-06-15 at 2.09.32 PM.png" alt=""><figcaption></figcaption></figure>
 
-Of these, the following can be used without a DomainsTools license:
+Of these Tools, the following can be used without a DomainsTools license:
 
 * **Reverse NS:** see what other domains are served by the selected name server. This can help you understand which websites are managed by the same hosting provider or server.
   * A name server is a computer that translates domain names (such as www.google.com) into IP addresses (like 8.8.8.8), enabling computers to find and connect with each other on the internet.
