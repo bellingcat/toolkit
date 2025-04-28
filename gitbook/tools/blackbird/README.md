@@ -14,7 +14,7 @@ A command line tool to search for accounts by username and email address across 
 
 <figure><img src=".gitbook/assets/Screen Shot 2024-06-07 at 10.00.58 AM.png" alt=""><figcaption></figcaption></figure>
 
-Blackbird is integrated with [WhatsMyName](https://github.com/WebBreacher/WhatsMyName) project, witch has 600+ sites to perform accurate reverse username search. The data sources maintained by the WhatsMyName team can be found [here](https://github.com/WebBreacher/WhatsMyName/blob/main/wmn-data.json).&#x20;
+Blackbird is integrated with [WhatsMyName](https://github.com/WebBreacher/WhatsMyName) project, which has 600+ sites to perform accurate reverse username search. The data sources maintained by the WhatsMyName team can be found [here](https://github.com/WebBreacher/WhatsMyName/blob/main/wmn-data.json).&#x20;
 
 For email address searches, it appears to query the servers of websites maintained by WhatsMyName to determine whether an account has been made with that email address. If the user has a valid account on the service, Blackbird will return a URL of the user profile in the results.&#x20;
 
