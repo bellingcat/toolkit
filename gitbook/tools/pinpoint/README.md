@@ -15,7 +15,7 @@ description: >-
 
 Pinpoint is a research tool designed to assist journalists and academics in examining and analyzing large document collections. With Pinpoint, users can upload and search through documents, images, emails, handwritten notes, and audio files to find specific keywords, locations, organizations, or individuals. It’s part of the [Journalist Studio](https://journaliststudio.google.com/), Google’s free tool kit for research, data analysis, and data visualization.
 
-Users can store up to [200,000 documents ](https://support.google.com/pinpoint/answer/11955480?hl=en-IN#upload\_documents)in each collection, extract text from handwritten documents to make them searchable, query text from images, transcribe audio recordings and search for identifiers in image collections. For example, using Pinpoint, you can search for mentions of "abuse" or "violence" in [Washington Post's public collection of COVID-19 Nursing Home Inspections](https://journaliststudio.google.com/pinpoint/search?collection=989c939c11b20432):
+Users can store up to [200,000 documents ](https://support.google.com/pinpoint/answer/11955480?hl=en-IN#upload_documents)in each collection, extract text from handwritten documents to make them searchable, query text from images, transcribe audio recordings and search for identifiers in image collections. For example, using Pinpoint, you can search for mentions of keywords like "abuse" or "violence" in [Washington Post's public collection of COVID-19 Nursing Home Inspections](https://journaliststudio.google.com/pinpoint/search?collection=989c939c11b20432):
 
 <figure><img src=".gitbook/assets/Screenshot 2024-11-12 at 1.51.56 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -33,6 +33,8 @@ Users can store up to [200,000 documents ](https://support.google.com/pinpoint/a
 
 Anyone with a [Google account](https://support.google.com/pinpoint/answer/11948321?hl=en) can browse and use public collections by other organizations. However, you need to certify that you are an academic or a journalist in order to use the platform for your own documents.
 
+Researchers can apply through [this form](https://docs.google.com/forms/d/e/1FAIpQLSd2owbRY5gLj6iXDSgPrPapsPoFo4xD2VLmrAhJ24d-Isq1xQ/viewform) for early access to generative AI features.
+
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>The sign-up process requires information like the user's full name and the name of the employer.</p></figcaption></figure>
 
 ## Limitations & Ethical Considerations
@@ -43,7 +45,7 @@ Exercise caution and/or check with your parent organization before uploading sen
 
 According to [Pinpoint Additional Terms of Service](https://support.google.com/pinpoint/answer/13071911?hl=en), "if you upload content to Pinpoint, you give Google permission to use that content, including to operate and promote Pinpoint, in accordance with the [Google Terms of Service](https://policies.google.com/terms) and [Google’s Privacy Policy](https://policies.google.com/privacy)."
 
-Keep in mind that Pinpoint's generative AI features are currently only available in a [list of countries](https://support.google.com/pinpoint/answer/14338615?hl=en#support\_countries).
+Keep in mind that Pinpoint's generative AI features are currently only available in a [list of countries](https://support.google.com/pinpoint/answer/14338615?hl=en#support_countries).
 
 ## Guides and articles
 
