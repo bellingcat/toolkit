@@ -32,6 +32,10 @@ NOTE: The below menus are only accessible after creating an account and logging 
 
 [Live Map](https://www.marinetraffic.com/en/ais/home/centerx:-18.6/centery:28.9/zoom:6): The world map with roughly [550,000 vessels that MarineTraffic monitors](https://www.marinetraffic.com/en/ais/index/ships/nearby/shipid:188058/mmsi:235007275/%D8%9E) and has in its database shown on the map. Just point and click on a vessel to see basic information. Be aware that if a vessel is outside of coastal AIS range, the only information shown with a free plan account is its type (i.e. cargo, passenger, tanker vessel) and its name.
 
+{% hint style="info" %}
+Click anywhere on the map to view the exact coordinates,
+{% endhint %}
+
 [Vessels](https://www.marinetraffic.com/en/data/?asset_type=vessels\&columns=flag%2Cshipname%2Cphoto%2Crecognized_next_port%2Creported_eta%2Creported_destination%2Ccurrent_port%2Cimo%2Cship_type%2Cshow_on_live_map%2Ctime_of_latest_position%2Clat_of_latest_position%2Clon_of_latest_position%2Cnotes): This menu moves away from the map to show a list of all vessels in MarineTraffic's database and a search bar that allows searching by vessel name, MMSI, IMO or callsign. Once a vessel is selected, you can access some basic information. More useful data like its port call logs, characteristics and ownership are only available through a paid plan.&#x20;
 
 <div><figure><img src=".gitbook/assets/MT1.png" alt=""><figcaption><p>A detailed view for the vessel James R. Barker - its current voyage as of November 20, 2024 with place of departure and its final destination for this trip</p></figcaption></figure> <figure><img src=".gitbook/assets/MT2.png" alt=""><figcaption><p>A detailed view for the vessel James R. Barker - IMO and MMSI numbers, its call sign, the type of vessel, speed and draught (the determined depth of the vessel below the waterline, measured vertically to its hull's lowest)</p></figcaption></figure></div>
