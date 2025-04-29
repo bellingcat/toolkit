@@ -74,7 +74,7 @@ _**Example**_: Search for Boeing in the search bar, select Boeing Co. Below are 
 
 <figure><img src=".gitbook/assets/Image 4.png" alt="" width="563"><figcaption><p>Selected file from results page</p></figcaption></figure>
 
-Select Open Document to reach the `.htm` file or Open filing to reach the `.xml` file (each option opens a new tab in your browser)
+Select Open Document to reach the `.htm` file or Open filing to reach the `.xml` file (each option opens a new tab in the browser).           &#x20;
 
 The `.xml` file will contain different hyperlinks for document and data files. In this example the 8-K file (document ba-20240731.htm iXBRL) links to the full form 8-K filing (known as a “current report” and it is the report that companies must file with the SEC to announce major events that shareholders should know about).
 
@@ -84,13 +84,13 @@ If you want to parse EDGAR data, The Comprehensive R Archive Network have publis
 
 Alphanome have [published a parser for SEC data](https://sec-parser.readthedocs.io/en/stable/notebooks/user_guide.html). The guide is a walk-through for the steps needed to install and use the library for parsing SEC EDGAR HTML documents into semantic elements and trees.
 
-SEC have their own guides on how to use EDGAR, accessible [here](https://www.sec.gov/search-filings/edgar-search-assistance/how-do-i-use-edgar).
+A compilation of SEC guides on how to use EDGAR, accessible [here](https://www.sec.gov/search-filings/edgar-search-assistance/how-do-i-use-edgar).
 
-SEC also have some basic information on how to access their [EDGAR RESTful APIs here](https://www.sec.gov/search-filings/edgar-application-programming-interfaces).&#x20;
+SEC also have some basic information on how to access their [EDGAR RESTful APIs here](https://www.sec.gov/search-filings/edgar-application-programming-interfaces).
 
 ## Tool provider
 
-[U.S. Securities and Exchange Commission (SEC)](https://www.sec.gov/), United States
+[U.S. Securities and Exchange Commission (SEC)](https://www.sec.gov/), US
 
 ## Advertising Trackers
 
