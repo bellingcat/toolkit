@@ -16,6 +16,8 @@ This collection of web-based tools is used for verifying images. Each tool's nam
 
 The Clone Detection feature, for instance, spots similar areas within an image. This can mean that someone might have copied some features from the picture and has pasted to another area in the image. For example, clouds in the sky might have been cloned to make the sky look more cloudy.
 
+Users can test images for authenticity with the newly integrated C2PA Content Analysis feature. C2PA (Coalition for Content Provenance and Authenticity) embeds metadata about their [origins and history](https://c2pa.org/) into photos, videos, and audio. This standard enables users to [authenticate](https://www.bbc.co.uk/rd/blog/2024-03-c2pa-verification-news-journalism-credentials) and differentiate real from fake media by providing genuine provenance information.
+
 Forensically requires experience to fully understand each tool's function. For those new to OSINT verification techniques, watching the tutorial by the founder, Jonas Wagner, may be useful.
 
 ## Cost
