@@ -6,41 +6,41 @@ description: >-
 
 # OCCRP Aleph
 
-## _URL_
+## URL
 
-[_https://aleph.occrp.org/_](https://aleph.occrp.org/)
+[https://aleph.occrp.org/](https://aleph.occrp.org/)
 
-## _Description_
+## Description
 
-_Aleph is a platform by the Organized Crime and Corruption Reporting Project (OCCRP) to help journalists and investigators "follow the money". It provides access to many datasets on people and companies, and offers tools to organize and visualize data. Investigators can use Aleph to search sanctions lists, corporate registries, leaks, and more. They can also create workspaces to collaborate and upload their own data to cross-reference with Aleph's datasets._                 &#x20;
+Aleph is a platform by the Organized Crime and Corruption Reporting Project (OCCRP) to help journalists and investigators "follow the money". It provides access to many datasets on people and companies, and offers tools to organize and visualize data. Investigators can use Aleph to search sanctions lists, corporate registries, leaks, and more. They can also create workspaces to collaborate and upload their own data to cross-reference with Aleph's datasets.                 &#x20;
 
-### _How to search and filter data_
+### How to search and filter data
 
-_Type the name of an individual, an organization, a company or a keyword in the search bar. The results will display the total number of mentions of your search term and the <mark style="color:yellow;">yellow highlights</mark> will show the context in which the search term appears._
+Type the name of an individual, an organization, a company or a keyword in the search bar. The results will display the total number of mentions of your search term and the <mark style="color:yellow;">yellow highlights</mark> will show the context in which the search term appears.
 
 <figure><img src=".gitbook/assets/Ale1.png" alt="" width="563"><figcaption><p> The search term Dmitry Medvedev returns over 4,000 results.</p></figcaption></figure>
 
-_To narrow down the search results, use the menu on the left to filter by date, country, language of the document, and_ [_datasets_](#user-content-fn-1)[^1]_._
+To narrow down the search results, use the menu on the left to filter by date, country, language of the document, and datasets[^1].
 
 <figure><img src=".gitbook/assets/Ale2.png" alt="" width="375"><figcaption><p>Example of all the available filters.</p></figcaption></figure>
 
-_To view a particular entry, click on the hyperlink you are interested in. This opens a pop-up in the same window. From here you can review the document online or download it._
+To view a particular entry, click on the hyperlink you are interested in. This opens a pop-up in the same window. From here you can review the document online or download it.
 
 <figure><img src=".gitbook/assets/Ale3.png" alt="" width="563"><figcaption><p>View of a selected document from the results page</p></figcaption></figure>
 
-_The OCCRP Aleph website has a handy_ [_video tutorial_](https://www.youtube.com/watch?v=I3AxSMBzJ14) _on how to search and filter data as well as written detailed instructions on_ [_search basics_](https://docs.aleph.occrp.org/users/search/basics/)_._
+The OCCRP Aleph website has a handy [video tutorial](https://www.youtube.com/watch?v=I3AxSMBzJ14) on how to search and filter data as well as written detailed instructions on [search basics](https://docs.aleph.occrp.org/users/search/basics/).
 
-### _How to perform an advanced search_
+### How to perform an advanced search
 
-_In addition to basic keyword searches, Aleph offers advanced search capabilities, enabling users to find matches based on spelling variations, term proximity, and other sophisticated criteria._
+In addition to basic keyword searches, Aleph offers advanced search capabilities, enabling users to find matches based on spelling variations, term proximity, and other sophisticated criteria.
 
-_The advanced search options can be helpful in cases when there are too many results and you need to narrow down your search further. You can use the fields in the advanced search, or you can use search operators._
+The advanced search options can be helpful in cases when there are too many results and you need to narrow down your search further. You can use the fields in the advanced search, or you can use search operators.
 
 <figure><img src=".gitbook/assets/Ale4.png" alt="" width="563"><figcaption><p>Advanced search options on the Aleph website</p></figcaption></figure>
 
 <details>
 
-<summary><em>Some examples of search operators that can be used instead of the advanced search form above:</em></summary>
+<summary>Some examples of search operators that can be used instead of the advanced search form above:</summary>
 
 _**""** Quotations - putting a phrase within quotations will prompt the search to find the exact match of that phrase, for example **"money laundering"** will return results for this same search term._
 
@@ -58,79 +58,79 @@ _Searches can be as intricate as you want them to be, for example +Medved\~2 AND
 
 </details>
 
-_OCCRP Aleph does provide a step-by-step tutorial on advanced searches_ [_here_](https://docs.aleph.occrp.org/users/search/advanced/)_._
+OCCRP Aleph does provide a step-by-step tutorial on advanced searches [here](https://docs.aleph.occrp.org/users/search/advanced/).
 
-### _How to search within datasets_
+### How to search within datasets
 
-_At the top of the Aleph page there is a menu called Datasets which opens a search for each dataset in the OCCRP databank. You can use the search bar to find a specific dataset and browse its contents._
+At the top of the Aleph page there is a menu called Datasets which opens a search for each dataset in the OCCRP databank. You can use the search bar to find a specific dataset and browse its contents.
 
 <figure><img src=".gitbook/assets/Ale5.png" alt="" width="563"><figcaption><p>The top right menu Datasets takes you to the search bar. Use keywords to find datasets you are interested in.</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/Ale6.png" alt=""><figcaption><p>View of a specific dataset. Each of the names, emails, and entity types above is hyperlinked and opens a new page for the selected item.</p></figcaption></figure>
 
-_Use the Source Documents menu to review each uploaded file in this dataset. The documents are all available for download. Additionally, you can chose the Cross-reference menu to check for different spellings of names, or variations in the names. The cross-reference results are also available for download and can help clear out uncertainties in your research._
+Use the Source Documents menu to review each uploaded file in this dataset. The documents are all available for download. Additionally, you can chose the Cross-reference menu to check for different spellings of names, or variations in the names. The cross-reference results are also available for download and can help clear out uncertainties in your research.
 
 <div><figure><img src=".gitbook/assets/Ale7.png" alt=""><figcaption><p>Example of the Source documents view</p></figcaption></figure> <figure><img src=".gitbook/assets/Ale8.png" alt=""><figcaption><p>Example of the Cross-reference view</p></figcaption></figure></div>
 
-_If you have created an account for Aleph, you can also make use of their Investigation workspaces. Here is a_ [_detailed guide_](https://docs.aleph.occrp.org/users/investigations/overview/) _on how to create and handle a workspace._
+If you have created an account for Aleph, you can also make use of their Investigation workspaces. Here is a [detailed guide](https://docs.aleph.occrp.org/users/investigations/overview/) on how to create and handle a workspace.
 
-_You can find the_[ _languages supported on Aleph here_](https://docs.aleph.occrp.org/developers/reference/languages/) _and which ones have an_ [_OCR_](https://en.wikipedia.org/wiki/Optical_character_recognition) _feature._
+You can find the[ languages supported on Aleph here](https://docs.aleph.occrp.org/developers/reference/languages/) and which ones have an [OCR](https://en.wikipedia.org/wiki/Optical_character_recognition) feature.
 
-## _Cost_
+## Cost
 
-* [x] _Free_
-* [ ] _Partially Free_
-* [ ] _Paid_
+* [x] Free
+* [ ] Partially Free
+* [ ] Paid
 
-## _Level of difficulty_
+## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
-_Aleph provides a range of tools and mechanisms to aid investigations. They are simple to use, but familiarizing yourself with the different tools and their functions may take some time._
+Aleph provides a range of tools and mechanisms to aid investigations. They are simple to use, but familiarizing yourself with the different tools and their functions may take some time.
 
-## _Requirements_
+## Requirements
 
-_No account is necessary to browse Aleph data. However, if you need an export of the results from a search, you need to create a free account. This requires the submission of evidence of relevant previous work (reports, articles, etc.), the name of the organization you are affiliated with and your role there. The same goes for creating research project spaces._
+No account is necessary to browse Aleph data. However, if you need an export of the results from a search, you need to create a free account. This requires the submission of evidence of relevant previous work (reports, articles, etc.), the name of the organization you are affiliated with and your role there. The same goes for creating research project spaces.
 
-_Some datasets are only accessible to approved users. To be approved, you must fill out_ [_this form_](https://occrp.atlassian.net/servicedesk/customer/portal/14)_._
+Some datasets are only accessible to approved users. To be approved, you must fill out [this form](https://occrp.atlassian.net/servicedesk/customer/portal/14).
 
-## _Limitations_
+## Limitations
 
-_The OCCRP has restricted access to certain datasets. Access to protected materials can be granted to investigative journalists, activists, or researchers._
+The OCCRP has restricted access to certain datasets. Access to protected materials can be granted to investigative journalists, activists, or researchers.
 
-_Leaked datasets by nature are not always complete, and are thus imperfect sources._
+Leaked datasets by nature are not always complete, and are thus imperfect sources.
 
-_Some data types are not compatible with Aleph._
+Some data types are not compatible with Aleph.
 
-## _Ethical Considerations_
+## Ethical Considerations
 
-_While leaked datasets can provide valuable insights and foster transparency, they often involve sensitive and personal information obtained without consent. Thus, making use of these datasets can harm individuals whose data has been exposed. It is therefore imperative to weigh the public interest against privacy violations and ensure data is handled responsibly, with respect for legal and ethical standards._
+While leaked datasets can provide valuable insights and foster transparency, they often involve sensitive and personal information obtained without consent. Thus, making use of these datasets can harm individuals whose data has been exposed. It is therefore imperative to weigh the public interest against privacy violations and ensure data is handled responsibly, with respect for legal and ethical standards.
 
-## _Guides and articles_
+## Guides and articles
 
-[_Aleph User Guide_](https://docs.aleph.occrp.org/users/)
+[Aleph User Guide](https://docs.aleph.occrp.org/users/)
 
-_Aleph's_[ _technical documentation_](https://docs.aleph.occrp.org/developers/) _for developers, including an architecture overview, API usage, ingest pipelines, named entity and pattern extraction, development and operations guides._
+Aleph's[ technical documentation](https://docs.aleph.occrp.org/developers/) for developers, including an architecture overview, API usage, ingest pipelines, named entity and pattern extraction, development and operations guides.
 
-_OCCRP:_ [_How to Search, Use Filters, and Set Alerts_](https://www.youtube.com/watch?v=I3AxSMBzJ14)
+OCCRP: [How to Search, Use Filters, and Set Alerts](https://www.youtube.com/watch?v=I3AxSMBzJ14)
 
-_Humber College's StoryLab:_ [_Using OCCRP’s Aleph for Dark Web Data Analysis_](https://humberstorylab.ca/projects/general/using-occrps-aleph-for-dark-web-data-analysis/)
+Humber College's StoryLab: [Using OCCRP’s Aleph for Dark Web Data Analysis](https://humberstorylab.ca/projects/general/using-occrps-aleph-for-dark-web-data-analysis/)
 
 {% embed url="https://www.youtube.com/watch?v=-5-7Q7e1f6w" %}
 A detailed introduction to Aleph
 {% endembed %}
 
-_Associação Brasileira de Jornalismo Investigativo:_ [_Learn how to use Aleph in your journalistic investigations_](https://www.youtube.com/watch?v=4WEQvkOZWEw) _(video in Portuguese)_
+Associação Brasileira de Jornalismo Investigativo: [Learn how to use Aleph in your journalistic investigations](https://www.youtube.com/watch?v=4WEQvkOZWEw) (video in Portuguese)
 
-## _Tool provider_
+## Tool provider
 
-_The_ [_Organized Crime and Corruption Reporting Project (OCCRP)_](https://www.occrp.org/en/about-us)
+The [Organized Crime and Corruption Reporting Project (OCCRP)](https://www.occrp.org/en/about-us)
 
-## _Advertising Trackers_
+## Advertising Trackers
 
-* [ ] _This tool has not been checked for advertising trackers yet._
-* [x] _This tool uses tracking cookies. Use with caution._
-* [ ] _This tool does not appear to use tracking cookies._
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
+* [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer |
 | --------------- |
