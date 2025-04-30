@@ -40,11 +40,11 @@ Clicking on any of the Entity Names will open the profile for that specific enti
 
 <figure><img src=".gitbook/assets/SE7.png" alt="" width="563"><figcaption><p>Profile for Hap Jang Gang vessel. Click to expand and view explanation notes.</p></figcaption></figure>
 
-* An example of what a profile for an aircraft looks like. The information includes the manufacture date, the model of the aircraft (this usually includes the name of manufacturer, but not always), the current and sometimes the previous [tail number](#user-content-fn-1)[^1], and the owner of the aircraft. Please note that to search for aircraft in Sanctions Explorer, you can use either the tail number, the name of the aircraft or the manufacturer (Airbus, Sikorsky, LockheedMartin, Bell Helicopter, Embraer, Bombardier to name a few), or the model (Phenom 300 - an Embraer business jet, CRJ100 - a Bombardier-made regional jet).
+* An example of what a profile for an aircraft looks like. The information includes the manufacture date, the model of the aircraft (this usually includes the name of manufacturer, but not always), the current and sometimes the previous [tail number](#user-content-fn-1)[^1], and the owner of the aircraft. Please note that to search for aircraft in Sanctions Explorer, you can use either the tail number, the name of the aircraft or the manufacturer (Airbus, Sikorsky, LockheedMartin, Bell Helicopter, Embraer, Bombardier to name a few), or the model (Phenom 300, CRJ100, etc.).
 
 <div><figure><img src=".gitbook/assets/SE8.png" alt=""><figcaption><p>Profile for MSN 615 aircraft. Click to expand and view explanation notes.</p></figcaption></figure> <figure><img src=".gitbook/assets/SE9.png" alt=""><figcaption><p>Profile for MSN 615 aircraft. Click to expand and view explanation notes.</p></figcaption></figure></div>
 
-* Sanctions Exlorer also has an [Analytics](https://sanctionsexplorer.org/analytics) section, where you can see statistics for the number of sanctions added over time, by type of entity (aircraft, vessel, individual, organization), the number of sanctions by authority, as well as an interactive map which shows the number of sanctioned entities year by year.&#x20;
+* Sanctions Explorer also has an [Analytics](https://sanctionsexplorer.org/analytics) section, where you can see statistics for the number of sanctions added over time, by type of entity (aircraft, vessel, individual, organization), the number of sanctions by authority, as well as an interactive map which shows the number of sanctioned entities year by year.&#x20;
 
 <figure><img src=".gitbook/assets/SE10.png" alt=""><figcaption><p>Interactive map with the number of sanctioned entities by country and over time</p></figcaption></figure>
 
@@ -62,7 +62,7 @@ Free to use on their website. However, SanctionsExplorer is available on [AWS Ma
 
 ## Requirements
 
-\---     &#x20;
+Internet connection &#x20;
 
 ## Limitations
 
