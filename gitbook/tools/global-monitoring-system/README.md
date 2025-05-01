@@ -52,7 +52,7 @@ None so far.
 
 ## Guides and articles
 
-None found.
+[ECO-SOLVE: Using AI to Disrupt Global Wildlife Trafficking](https://www.acamstoday.org/eco-solve-using-ai-to-disrupt-global-wildlife-trafficking/)
 
 ## Tool provider
 
