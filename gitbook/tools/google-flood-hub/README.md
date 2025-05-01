@@ -55,11 +55,15 @@ You can find details on how to read the gauge side panel [here](https://support.
 
 ## Requirements
 
-No requirements
+Internet connection. , however, Google&#x20;
+
+&#x20;
 
 ## Limitations
 
 Access to the flood forecasting API is limited to pilot participants of the program and Google asks the research community to register for the [API pilot waiting list](https://docs.google.com/forms/d/e/1FAIpQLSfcKhe3CHsncM-_NQ66zLheEfXKnNbDPBtuIT7BSYCqYkmOaA/viewform) if they would like to use the API functionality.
+
+Currently this tool does not work without a connection to the web. However, [Google.org appears to be collaborating with organizations](https://blog.google/outreach-initiatives/sustainability/flood-hub-ai-flood-forecasting-more-countries/) to help offline alerting to areas where access to a smartphone or internet is limited or non-existent.
 
 ## Ethical Considerations
 
