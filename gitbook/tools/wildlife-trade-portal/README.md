@@ -46,15 +46,15 @@ This site uses media sources such as local news (for example, this seizure in [I
 
 Guides:
 
-TimberStats Resources: [Introduction](https://experience.arcgis.com/experience/f334dde3d5bd4f9fb2ba02516bd48c45/page/RESOURCES/)
+[TimberStats Resources Introduction](https://experience.arcgis.com/experience/f334dde3d5bd4f9fb2ba02516bd48c45/page/RESOURCES/)
 
-Traffic Bulletin: [Updates from the Wildlife Trade Portal](https://www.traffic.org/site/assets/files/13362/portal-updates.pdf) (2020)
+[Traffic Bulletin: Updates from the Wildlife Trade Portal](https://www.traffic.org/site/assets/files/13362/portal-updates.pdf)
 
 Articles:
 
-Stringham, C. O. et al.:[ Dataset of seized wildlife and their intended uses](https://www.sciencedirect.com/science/article/pii/S2352340921008076) (2021)
+[Dataset of seized wildlife and their intended uses](https://www.sciencedirect.com/science/article/pii/S2352340921008076)&#x20;
 
-Adam Cruise, AllAfrica: [South Africa is The World's Largest Exporter of Live Tigers](https://allafrica.com/stories/202412050130.html) (2024)
+[South Africa is The World's Largest Exporter of Live Tigers](https://allafrica.com/stories/202412050130.html)&#x20;
 
 ## Tool provider
 
