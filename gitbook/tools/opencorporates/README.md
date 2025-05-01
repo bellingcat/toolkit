@@ -48,13 +48,15 @@ OpenCorporates provides a unified search of corporate and legal entity-level dat
 Details provided by OpenCorporates depend on what the local companies register for this particular jurisdiction provides. Each jurisdiction is different, thus the level of detail might differ. Also be mindful of the fact that there might be more than one company with the same name and does not mean it is in any way connected to the one you are researching. The same rule applies for individuals. There may be more than one person with the same name in your results, but these could be name match only records.
 {% endhint %}
 
+The website has a very useful [Case Studies](https://opencorporates.com/case-studies/) section where you can view how companies and NGOs have used OpenCorporates data for their needs
+
 ## Cost
 
 * [ ] Free
 * [x] Partially Free
 * [ ] Paid
 
-API access requires a [monthly/yearly subscription](https://opencorporates.com/plug-in-our-data/) for commercial uses, starting from GBP 729 per year for the Entry package, GBP 6,600 /year for the Starter package, GBP 12,000/year for the Basic package.  &#x20;
+API access requires a [monthly/yearly subscription](https://opencorporates.com/plug-in-our-data/) for commercial uses, starting from GBP 2,250 per year for the Essentials package, GBP 6,600 /year for the Starter package, GBP 12,000/year for the Basic package.  &#x20;
 
 ## Level of difficulty
 
