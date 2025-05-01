@@ -12,11 +12,11 @@ description: >-
 
 ## Description
 
-OpenSanctions provides a structured database of people and entities subject to sanctions or other financial restrictions, politically exposed persons (PEPs) and other individuals and entities of interest. The database is curated by a team of researchers and journalists, and is designed to be easily accessible and usable by individuals, organizations, and governments.&#x20;
+OpenSanctions provides a structured database of people and entities subject to sanctions or other financial restrictions, politically exposed persons (PEPs) and other individuals and entities of interest. The database is curated by a team of researchers and journalists, and is designed to be easily accessible and usable by individuals, organizations, and governments.
 
-The data includes information on individuals, organizations, and vessels that are subject to sanctions, as well as the legal frameworks and sanctions regimes that apply to them. OpenSanctions is intended to help individuals and organizations comply with international sanctions laws, as well as to facilitate research and investigative journalism into financial crime and corruption.     &#x20;
+The data includes information on individuals, organizations, and vessels that are subject to sanctions, as well as the legal frameworks and sanctions regimes that apply to them. OpenSanctions is intended to help individuals and organizations comply with international sanctions laws, as well as to facilitate research and investigative journalism into financial crime and corruption.
 
-OpenSanctions has 269 separate dataset collections with multiple sources of data. All the data collected and provided by OpenSanctions is publicly available. The full list of sources can be found and explored [here](https://www.opensanctions.org/datasets/sources/). Each dataset has its own page with a description, options for a bulk download of data and information on where the data has been sourced from. The page also features consolidated sanctions on 75,746 entities.&#x20;
+OpenSanctions has 269 separate dataset collections with multiple sources of data. All the data collected and provided by OpenSanctions is publicly available. The full list of sources can be found and explored [here](https://www.opensanctions.org/datasets/sources/). Each dataset has its own page with a description, options for a bulk download of data and information on where the data has been sourced from. The page also features consolidated sanctions on 75,746 entities.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-09 at 10.59.49 AM.png" alt=""><figcaption><p>Schedule of updates frequency on the OpenSantions website.</p></figcaption></figure>
 
@@ -39,11 +39,11 @@ For basic desktop research, go to [https://www.opensanctions.org/research/](http
 
 **Example 2: Search for an individual**
 
-* Type the name of an individual in the search bar. If you are uncertain about the full legal name, try using the individual's last name. In this case Ivanov. The search returns 531 results for a last name Ivanov, and these results can be filtered by topics,  data sources and countries using the lists on the right.
+* Type the name of an individual in the search bar. If you are uncertain about the full legal name, try using the individual's last name. In this case Ivanov. The search returns 531 results for a last name Ivanov, and these results can be filtered by topics, data sources and countries using the lists on the right.
 
 <figure><img src=".gitbook/assets/OS8.png" alt="" width="563"><figcaption><p>Results for searching by keyword 'Ivanov'</p></figcaption></figure>
 
-* Once you have located the individual of interest, click on the name to open their profile. Please note that individuals appearing on the OpenSanctions website iclude sanctioned persons, as well as politically exposed persons (politicians, government officials, government employees). In this case the individual is a politician - member of a  national parliament.
+* Once you have located the individual of interest, click on the name to open their profile. Please note that individuals appearing on the OpenSanctions website iclude sanctioned persons, as well as politically exposed persons (politicians, government officials, government employees). In this case the individual is a politician - member of a national parliament.
 
 <figure><img src=".gitbook/assets/OS9.png" alt="" width="563"><figcaption><p>Profile for Momchil Ivanov with information about his date of birth, his full legal name and why he is a politically exposed person - member of the Bulgarian parliament.</p></figcaption></figure>
 
@@ -107,6 +107,12 @@ Neo4j: [OpenSanctions Demo](https://www.youtube.com/live/T3uGVrrMeTo?si=wPPIUZG_
 
 OpenSanctions Datenbanken GmbH, a for-profit entity based in Germany. From September 2021 to Feburary 2022, the project received financial support from the German Federal Ministry for Education and Research (Bundesministerium für Bildung und Forschung, BMBF) under the grant identifier 01IS21S48.
 
+## Similar tools
+
+There are various tools for researching sanctions on the web. Bellingcat also has descriptions and guides on SanctionsExplorer, EU Sanctions Map and OCCRP Aleph. Although they serve the same purpose, there are some major differences among them:
+
+<figure><img src=".gitbook/assets/Screenshot 2025-05-01 at 5.58.12 PM.png" alt=""><figcaption></figcaption></figure>
+
 ## Advertising Trackers
 
 * [ ] This tool has not been checked for advertising trackers yet.
@@ -116,6 +122,5 @@ OpenSanctions Datenbanken GmbH, a for-profit entity based in Germany. From Septe
 | Page maintainer |
 | --------------- |
 | LPetrova        |
-|                 |
 
 [^1]: The Office of Foreign Assets Control is a financial intelligence and enforcement agency of the U.S. Treasury Department. It administers and enforces economic and trade sanctions in support of U.S. national security and foreign policy objectives.
