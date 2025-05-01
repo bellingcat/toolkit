@@ -55,7 +55,7 @@ You can find details on how to read the gauge side panel [here](https://support.
 
 ## Requirements
 
-Internet connection. , however, Google&#x20;
+Internet connection.
 
 &#x20;
 
