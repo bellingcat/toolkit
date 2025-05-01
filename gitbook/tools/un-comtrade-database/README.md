@@ -42,6 +42,10 @@ The only difference between the premium service and the free one is the option t
 
 There are two types of downloads: classic and plus. In both you will get a document (.gz) that you will have to convert to XLS or CSV for analysis. I used this [tool](https://products.groupdocs.app/conversion/gz-to-xls). With the plus version you will get more detailed info such as customs code, mode of transport, among others. You can also use the [API](https://comtradedeveloper.un.org/signin?returnUrl=%2F) version to download the data. Here the README [file](https://github.com/uncomtrade/comtradeapicall?tab=readme-ov-file). For this API version, they will send your account information to your registered email so you can log in. It can take a couple of days.
 
+Through the official account of the Trade Statistics Branch on X, the UN [informs](https://x.com/UNTradeStats) about new information available on the platform and datasets. It also shares statistics and trends.
+
+<figure><img src=".gitbook/assets/GpO1AVXWkAA7AN9.png" alt=""><figcaption><p>Here an analytics of Ukraine in UN Comtrade <a href="https://x.com/UNTradeStats/status/1915073286586708420/photo/1">posted</a> by the Trade Statistics Branch on X.</p></figcaption></figure>
+
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
@@ -62,6 +66,8 @@ None
 
 User guides:
 
+[Getting Started Guide](https://uncomtrade.org/docs-category/getting-started/)
+
 [UN Comtrade Docs](https://uncomtrade.org/docs/)
 
 [UN Comtrade Docs User Guide](https://uncomtrade.org/docs-category/user-guide/)
@@ -76,7 +82,7 @@ Projects that used the tool:
 
 ## Tool provider
 
-United Nations, based in New York City.
+United Nations, based in New York City. Maintained by DESA/UN Statistics Division.
 
 ## Advertising Trackers
 
