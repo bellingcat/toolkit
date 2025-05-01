@@ -6,7 +6,7 @@ description: Identify birds (visually), through an app.
 
 ## URL
 
-https://merlin.allaboutbirds.org/&#x20;
+[https://merlin.allaboutbirds.org](https://merlin.allaboutbirds.org/)
 
 ## Description
 
