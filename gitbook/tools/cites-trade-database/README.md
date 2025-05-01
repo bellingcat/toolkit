@@ -66,6 +66,8 @@ Guide:
 
 Projects:
 
+[What do CITES data tell us about the legal wildcat trade?](https://news.mongabay.com/2025/04/what-do-cites-data-tell-us-about-the-legal-wildcat-trade/)
+
 [An Assessment of Wildlife Trade in Central Asia by TRAFFIC](https://www.traffic.org/site/assets/files/23066/en_wildlife_trade_in_central_asia-compressed.pdf)
 
 [Fisheries and trade of seahorses in Brazil: Historical perspective, current trends, and future directions - Rosa, Ierecê & Oliveira, Tacyana & Osório, Frederico & Moraes, Luiz & Castro, André & Barros, Glaura & Alves, Rômulo.](https://www.researchgate.net/publication/225459268_Fisheries_and_trade_of_seahorses_in_Brazil_Historical_perspective_current_trends_and_future_directions)
