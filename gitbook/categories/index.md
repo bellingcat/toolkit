@@ -12,6 +12,8 @@ hidden: true
 [geolocation.md](geolocation/geolocation.md)
 {% endcontent-ref %}
 
-
+{% content-ref url="people/people.md" %}
+[people.md](people/people.md)
+{% endcontent-ref %}
 
 {% include "../.gitbook/includes/untitled.md" %}
