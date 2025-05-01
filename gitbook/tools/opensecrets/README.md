@@ -15,7 +15,7 @@ OpenSecrets is a nonpartisan, independent, and nonprofit organization tracking m
 **Candidates & Officeholders - this section is divided into five subsections:**
 
 * [Candidates & Officeholders Overview ](https://www.opensecrets.org/candidates-officeholders)- this section includes lists on current and former individuals who held political positions on federal and state level in the U.S. - judicial officeholders, governors, state commissioners, members of congress. The data is presented as lists with the name of the individual, the state they represent and their current position.
-* [Members of Congress ](https://www.opensecrets.org/members-of-congress)- lists the names of current and past members of congress, including new ones joining and outgoing ones and shows how much they have managed to fundraise for their campaings and how much they have spent so far.
+* [Members of Congress ](https://www.opensecrets.org/members-of-congress)- lists the names of current and past members of congress, including new ones joining and outgoing ones and shows how much they have managed to fundraise for their campaigns and how much they have spent so far.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 6.49.49 PM.png" alt="" width="563"><figcaption><p>Members of both chambers of the current U.S. Congress</p></figcaption></figure>
 
@@ -58,6 +58,12 @@ OpenSecrets is a nonpartisan, independent, and nonprofit organization tracking m
 <figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 7.50.10 PM (1).png" alt="" width="563"><figcaption><p>2023 Spending by Russian individuals and entities</p></figcaption></figure>
 
 * [Revolving Door](https://www.opensecrets.org/revolving-door): database documenting the individuals who have worked in both the public sector and lobbying firms and may have conflicts of interest. Allows search by name of individuals, congressional committees, lobbying firms, or employment positions. This submenu can be used to research which PR or lobbying firms have hired former staffers of the White House, congressional or house committees, or which former members of the House or the Congress are lobbying for particular interests.&#x20;
+
+**Other ways to get data from OpenSecrets**
+
+You can get bulk data from the OpenSecrets database [here](https://www.opensecrets.org/bulk-data). This is where you can download compressed text files of the data OpenSecrets creates from raw data provided by various government agencies.
+
+You can also get [customized data sets](https://www.opensecrets.org/contracts). OpenSecrets offers custom data request and licensing on federal and state-level datasets for a price. According to their website, the data spans more than 30 years, and includes political contributions, expenditures, candidate lists and lobbying activities. The information can be delivered as summary data, itemized transaction data or customized research depending on the needs. OpenSecrets did not specify the pricing for this, but it appears payment go through PayPal.
 
 ## Cost
 
@@ -116,4 +122,3 @@ OpenSecrets is a 501(c)(3) tax-exempt, charitable organization based in Washingt
 | Page maintainer |
 | --------------- |
 | LPetrova        |
-|                 |
