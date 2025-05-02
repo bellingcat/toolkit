@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-TinEye can help a user locate the original source of an image, locate related images and locate other places where the image may be found on the internet. This [tutorial](https://www.youtube.com/watch?v=dKQZEXdyVjk) from the University of Glasgow Library provides a basic overview of how to perform a basic reverse image search with the tool.
+TinEye can help a user locate the original source of an image, locate related images and locate other places where the image may be found on the internet, including whether the image is a stock photo. This [tutorial](https://www.youtube.com/watch?v=dKQZEXdyVjk) from the University of Glasgow Library provides a basic overview of how to perform a basic reverse image search with the tool.
 
 ## Cost
 
@@ -20,7 +20,7 @@ TinEye can help a user locate the original source of an image, locate related im
 * [ ] Partially Free
 * [ ] Paid
 
-TinEye is [free](https://help.tineye.com/article/239-is-tineye-free-to-use) for non-commercial use. It does offer a [paid](https://services.tineye.com/TinEyeAlerts) service that allows a subscriber to track where and how their images appear online. The first month is 420 USD and each month after is 310 USD. TinEye also limits searches to 100 per day and 300 per week.
+TinEye is [free](https://help.tineye.com/article/239-is-tineye-free-to-use) for non-commercial use. It does offer a [paid](https://services.tineye.com/TinEyeAlerts) service that allows a subscriber to track where and how their images appear online. The first month is 420 USD and each additional month after is 310 USD. TinEye also limits searches to 100 per day and 300 per week.
 
 ## Level of difficulty
 
