@@ -118,7 +118,7 @@ Visually, **changing Field of View and changing Viewpoint Location** can appear 
 Most cameras are set to around 60 degree Field of View. Exceptions which would justify changing the Field of View to obtain a fit are the use of zoom, security camera imagery, which often uses high angle 'fish eye' lenses.
 {% endhint %}
 
-The PhotoFit feature is particularly useful where local "Streetview" imagery is not available, e.g. in the usual sources like [Google Earth](#user-content-fn-1)[^1], [Google Maps](#user-content-fn-2)[^2], [Yandex Maps,](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/q7NUaKbwWjmBoTIWkxHK/) Mapillary[^3], etc., either
+The PhotoFit feature is particularly useful where local "Streetview" imagery is not available, e.g. in the usual sources like [Google Earth](#user-content-fn-1)[^1], [Google Maps](#user-content-fn-1)[^1], [Yandex Maps,](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/q7NUaKbwWjmBoTIWkxHK/) Mapillary[^1], etc., either
 
 * because no images have been taken, e.g. in a very remote area OR
 * because they are unavailable for geopolitical reasons, e.g. war, government intervention.
@@ -416,13 +416,9 @@ Routes Software SRL, VIA CAVOUR 2 LOMAZZO, COMO, 22074 ITALY
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Sophie Tedling. |
-|                 |
+| Page maintainer: |
+| ---------------- |
+| Sophie Tedling   |
+|                  |
 
 [^1]: To be cross-referenced with other Toolbox tool entries.
-
-[^2]: To be cross-referenced with other Toolbox tool entries.
-
-[^3]: To be cross-referenced with other Toolbox tool entries.
