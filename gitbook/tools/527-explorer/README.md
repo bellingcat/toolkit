@@ -45,6 +45,8 @@ ProPublica: [How to Use ProPublica's 527 Explorer](https://www.youtube.com/watch
 
 Ellis Simani: [How a Network of Nonprofits Enriches Fundraisers While Spending Almost Nothing on Its Stated Cau](https://www.propublica.org/article/political-nonprofits-fundraising-ftc-irs-527s-pacs?)[se](https://www.propublica.org/article/political-nonprofits-fundraising-ftc-irs-527s-pacs?), ProPublica, June 18, 2024.
 
+OpenSecrets: [527 Basics](https://www.opensecrets.org/527s/basics.php)
+
 ## Tool provider
 
 [ProPublica](https://www.propublica.org/about/), US.
