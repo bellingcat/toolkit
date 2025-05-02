@@ -319,7 +319,7 @@ ShadeMap, US
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Sophie Tedling. |
-|                 |
+| Page maintainer: |
+| ---------------- |
+| Sophie Tedling   |
+|                  |
