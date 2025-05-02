@@ -87,7 +87,7 @@ GitHub user and developer details: [https://github.com/david-r-edgar/MapSwitcher
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Sophie Tedling. |
-|                 |
+| Page maintainer: |
+| ---------------- |
+| Sophie Tedling   |
+|                  |
