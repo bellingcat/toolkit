@@ -1,22 +1,38 @@
 ---
 description: A toolkit for open source researchers
+cover: .gitbook/assets/Bellingcat_Toolkit_Ann_Kiernan copy.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: false
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: false
+  pagination:
+    visible: false
 ---
 
-# About
+# Home
 
-### Welcome to Bellingcat’s Online Open Source Investigation Toolkit!
+## Welcome to Bellingcat’s Online Open Source Investigation Toolkit!
 
-<figure><img src=".gitbook/assets/Bellingcat_Toolkit_Ann_Kiernan copy.jpg" alt="" width="563"><figcaption><p><em>Illustration by Ann Kiernan for Bellingcat</em>.</p></figcaption></figure>
+This is your place to discover OSINT tools! Our toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more. Most of the tools that we include can be used for free.&#x20;
 
-This is your place to discover tools! Our toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more. Most of the tools that we include can be used for free.
+Click on the name of a tool to view an in-depth review and guide for the tool (if available). You can also [download this toolkit](https://github.com/bellingcat/toolkit/releases/tag/csv) (or some of its categories) as a csv.
 
-On the left hand side, you can see all available categories (for instance, Maps & Satellites or Geolocation). Click on these category names to enter the tool lists.
+#### Browse tools by category:
 
-Click on the name of the tool to view an in-depth description of the tool (if available).
 
-On the right hand side of each entry in the tool list is a direct link to the tool website.
 
-You can also [download this toolkit](https://github.com/bellingcat/toolkit/releases/tag/csv) (or some of its categories) as csv.
+<table data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><p><strong>Maps &#x26; Sattelites 🛰️</strong></p><ul><li><a data-mention href="tools/google-maps/">google-maps</a></li><li><a data-mention href="tools/google-earth-pro/">google-earth-pro</a></li><li><a data-mention href="categories/maps-and-satellites/street-view/street-view.md">street-view.md</a></li><li><a href="categories/maps-and-satellites/maps-and-satellites.md">More...</a></li></ul></td><td></td><td><a href="categories/maps-and-satellites/maps-and-satellites.md">maps-and-satellites.md</a></td></tr><tr><td><p><strong>Geolocation 🌐</strong></p><ul><li><a data-mention href="tools/openstreetmap-search-tool/">openstreetmap-search-tool</a></li><li><a data-mention href="tools/geohints/">geohints</a></li><li><a data-mention href="tools/suncalc/">suncalc</a></li><li><a href="categories/geolocation/geolocation.md">More...</a></li></ul></td><td></td><td><a href="categories/geolocation/geolocation.md">geolocation.md</a></td></tr><tr><td><p><strong>Image/Video 📸</strong></p><ul><li><a data-mention href="tools/google-lens/">google-lens</a></li><li><a data-mention href="tools/invid/">invid</a></li><li><a href="categories/image-video/image-video.md">More...</a></li></ul></td><td></td><td><a href="categories/image-video/image-video.md">image-video.md</a></td></tr><tr><td><p><strong>Social Media 🤳</strong></p><ul><li><a data-mention href="categories/social-media/twitter/twitter.md">twitter.md</a></li><li><a data-mention href="categories/social-media/facebook/facebook.md">facebook.md</a></li><li><a data-mention href="categories/social-media/instagram/instagram.md">instagram.md</a></li><li><a href="categories/social-media/social-media.md">More...</a></li></ul></td><td></td><td><a href="categories/social-media/social-media.md">social-media.md</a></td></tr><tr><td><p><strong>People 🧑‍🤝‍🧑</strong></p><ul><li><a data-mention href="tools/blackbird/">blackbird</a></li><li><a data-mention href="tools/sherlock/">sherlock</a></li><li><a data-mention href="tools/whats-my-name/">whats-my-name</a></li><li><a href="categories/people/people.md">More...</a></li></ul></td><td></td><td><a href="categories/people/people.md">people.md</a></td></tr><tr><td><p><strong>Websites 💻</strong></p><ul><li><a data-mention href="tools/internet-archive/">internet-archive</a></li><li><a data-mention href="tools/intelx.io/">intelx.io</a></li><li><a data-mention href="tools/domaintools-whois-lookup/">domaintools-whois-lookup</a></li><li><a href="categories/websites/websites.md">More...</a></li></ul></td><td></td><td><a href="categories/websites/websites.md">websites.md</a></td></tr><tr><td><p><strong>Companies &#x26; Finance 💹</strong></p><ul><li><a data-mention href="tools/edgar/">edgar</a></li><li><a data-mention href="tools/edgar-suite/">edgar-suite</a></li><li><a data-mention href="tools/opencorporates/">opencorporates</a></li><li><a href="categories/companies-and-finance/companies-and-finance.md">More...</a></li></ul></td><td></td><td><a href="categories/companies-and-finance/companies-and-finance.md">companies-and-finance.md</a></td></tr><tr><td><p><strong>Conflict 💥</strong></p><ul><li><a data-mention href="tools/acled/">acled</a></li><li><a data-mention href="tools/liveuamap/">liveuamap</a></li><li><a data-mention href="tools/open-source-munitions-portal/">open-source-munitions-portal</a></li><li><a href="categories/conflict/conflict.md">More...</a></li></ul></td><td></td><td><a href="categories/conflict/conflict.md">conflict.md</a></td></tr><tr><td><p><strong>Transport ✈️</strong></p><ul><li><a data-mention href="tools/flightaware/">flightaware</a></li><li><a data-mention href="tools/flightradar24/">flightradar24</a></li><li><a data-mention href="tools/marinetraffic/">marinetraffic</a></li><li><a href="categories/transport/transport.md">More...</a></li></ul></td><td></td><td><a href="categories/transport/transport.md">transport.md</a></td></tr><tr><td><p><strong>Environment &#x26; Wildlife 🐯</strong></p><ul><li><a data-mention href="tools/alltrails/">alltrails</a></li><li><a data-mention href="tools/global-forest-watch/">global-forest-watch</a></li><li><a data-mention href="tools/global-fishing-watch-map/">global-fishing-watch-map</a></li><li><a href="categories/environment-and-wildlife/environment-and-wildlife.md">More...</a></li></ul></td><td></td><td><a href="categories/environment-and-wildlife/environment-and-wildlife.md">environment-and-wildlife.md</a></td></tr><tr><td><p><strong>Archiving 🗂️</strong></p><ul><li><a data-mention href="tools/auto-archiver/">auto-archiver</a></li><li><a data-mention href="tools/distill/">distill</a></li><li><a data-mention href="tools/archive.today/">archive.today</a></li><li><a href="categories/archiving/archiving.md">More...</a></li></ul></td><td></td><td><a href="categories/archiving/archiving.md">archiving.md</a></td></tr><tr><td><p><strong>Data Org &#x26; Analysis 📊</strong></p><ul><li><a data-mention href="tools/atlos/">atlos</a></li><li><a data-mention href="tools/blender/">blender</a></li><li><a data-mention href="tools/datawrapper/">datawrapper</a></li><li><a href="categories/data/data.md">More...</a></li></ul></td><td></td><td><a href="categories/data/data.md">data.md</a></td></tr></tbody></table>
+
+## About
 
 This toolkit is still a work-in-progress and the number of available tool descriptions will grow over time. You can read more about the toolkit [here](https://www.bellingcat.com/resources/2024/09/24/bellingcat-online-investigations-toolkit/).
 
