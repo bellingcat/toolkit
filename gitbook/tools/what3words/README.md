@@ -17,7 +17,7 @@ description: >-
 
 what3words is a simple, clear and rapid way to communicate locations on earth. The world has been divided into 3m x 3m squares (around 57 trillion of them), and an unique identifier combining three words is assigned to each one. The app is available for  mobile phones and PC browsers and an API  ([Application Programming Interface](https://en.wikipedia.org/wiki/API)) is available to automate the conversion between what3word addresses and geographic co-ordinates.
 
-what3words can be used to communicate locations without numeric format geographic co-ordinates, which is particularly helpful when communication channels are poor quality, or unreliable. It is usable in many countries to summon the emergency services, e.g. Mountain Rescue, pinpoint meeting places, specify accurate deliveries, e.g. [Hermes](https://ti-insight.com/hermes-partners-with-what3words-in-the-uk/) and [Ikea](ttps://globalventuring.com%C2%A0%E2%80%BA%C2%A0ikea-maps-way-to-what3words) use it, and advertise accurate locations. Its use in Open Source research can cover any of these applications for the technology, as part of an investigation, or simply as a device to share locations between researchers.
+what3words can be used to communicate locations without numeric format geographic co-ordinates, which is particularly helpful when communication channels are poor quality, or unreliable. It is usable in many countries to summon the emergency services, e.g. Mountain Rescue, pinpoint meeting places, specify accurate deliveries, e.g. [Hermes](https://ti-insight.com/hermes-partners-with-what3words-in-the-uk/) and Ikea use it, and advertise accurate locations. Its use in Open Source research can cover any of these applications for the technology, as part of an investigation, or simply as a device to share locations between researchers.
 
 {% hint style="danger" %}
 **LANGUAGE:** It is possible to use what3words in a large range of languages. The 3-word phrase assignment across the grid squares is entirely different and unrelated in each language. Therefore there is no relationship between the 3-word phrases in different languages for the same grid square. They are **not** translations of word meanings between languages. When a user sets up a Second Language in the mobile app, two sets of 3-word phrases are displayed simultaneously, with the Second Language phrase below the First Language phrase. \[However the what3words features where a 3 word address can be input by speaking it or scanning it are not available in the second language].
@@ -121,7 +121,7 @@ what3words Limited, based in London, UK. Founded March 05, 2013 in Royston, Hert
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Sophie Tedling. |
-|                 |
+| Page maintainer: |
+| ---------------- |
+| Sophie Tedling   |
+|                  |
