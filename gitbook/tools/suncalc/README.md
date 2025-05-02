@@ -235,7 +235,7 @@ Torsten Hoffmann, Germany
 
 ***
 
-| Page maintainer |
-| --------------- |
-| Sophie Tedling. |
-|                 |
+| Page maintainer: |
+| ---------------- |
+| Sophie Tedling   |
+|                  |
