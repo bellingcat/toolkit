@@ -24,7 +24,7 @@ layout:
 
 This is your place to discover OSINT tools! Our toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more. Most of the tools that we include can be used for free. You can also [download this toolkit](https://github.com/bellingcat/toolkit/releases/tag/csv) (or some of its categories) as csv.
 
-_First time here?_ [_Read more_ _about the toolkit_ ](pages/about.md)_or see some of the_ [_most used_](most-used.md) _tools._
+_First time here?_ [_Read more_ _about the toolkit_ ](./#about)_or see some of the_ [_most used_](most-used.md) _tools._
 
 #### Browse tools by category:
 
