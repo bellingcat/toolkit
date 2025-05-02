@@ -24,7 +24,7 @@ const allTools = getTools().filter((tool) => !tool.draft );
         filepath: 'gitbook/new-tools.md',
         tag: 'most-used'
   };
-  const newTools = allTools.filter((x) => x.publishedAt && Date.now()-x.publishedAt < 2 * 7 * 24 * 60 * 60 * 1000);
+  const newTools = allTools.filter((x) => x.publishedAt && Date.now()-x.publishedAt < 4 * 7 * 24 * 60 * 60 * 1000);
   writeIfChanged(renderCategory(newlyPublished, newTools), newlyPublished.filepath);
 })();
 
