@@ -240,7 +240,7 @@ NB Algorithms have been adapted to avoid the effects of sun glint causing false 
 ...Regular approximately monthly on-orbit mission calibration manoeuvres are conducted for both satellites to maintain performance. These involve briefly rolling the satellite over in orbit to view the moon, using it to calibrate the reflective solar bands of the sensor. Anomalous observation data is often collected as the satellite rolls back to point the sensor at the earth, see example:
 
 <img src=".gitbook/assets/image (21).png" alt="ANOMALOUS OBSERVATION DATA CAUSED BY MONTHLY CALIBRATION MANOUEVRES (COURESTY NASA FIRMS)" data-size="original">\
-&#xNAN;_**(I**magery from NASA FIRMS )_
+\&#xNAN;_**(I**magery from NASA FIRMS )_
 
 </details>
 
@@ -281,9 +281,7 @@ NASA (North American Space Agency) via: Sentinel Hub and Copernicus Browser
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-
-
-### Page Maintained By
+### Page Maintained By:
 
 ***
 
