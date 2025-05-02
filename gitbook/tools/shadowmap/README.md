@@ -268,7 +268,7 @@ Founder (2021) and CEO Georg Molzer.
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Sophie Tedling. |
-|                 |
+| Page maintainer: |
+| ---------------- |
+| Sophie Tedling   |
+|                  |
