@@ -1,6 +1,6 @@
 ---
 description: A toolkit for open source researchers
-cover: .gitbook/assets/Bellingcat_Toolkit_Ann_Kiernan copy.jpg
+cover: .gitbook/assets/Bellingcat_Toolkit_Ann_Kiernan copy (1).jpg
 coverY: 0
 layout:
   cover:
@@ -22,7 +22,7 @@ layout:
 
 ## Welcome to Bellingcat’s Online Open Source Investigation Toolkit!
 
-This is your place to discover OSINT tools! Our toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more. Most of the tools that we include can be used for free.&#x20;
+This is your place to discover tools! Our toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more. Most of the tools that we include can be used for free.&#x20;
 
 Click on the name of a tool to view an in-depth review and guide for the tool (if available). You can also [download this toolkit](https://github.com/bellingcat/toolkit/releases/tag/csv) (or some of its categories) as a csv.
 

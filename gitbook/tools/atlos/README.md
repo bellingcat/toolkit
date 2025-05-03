@@ -50,7 +50,7 @@ This platform is open source (see [here](https://github.com/atlosdotorg/atlos)),
 
 Free for up to 10 incidents that can be created and edited per month. Even with this free version, you have unlimited view access, your team can be of any size, and you can export your data whenever you want.
 
-Further pricing information can be found [here](https://docs.atlos.org/overview/pricing/). &#x20;
+Further pricing information can be found [here](https://docs.atlos.org/overview/pricing/).
 
 ## Level of difficulty
 
@@ -60,7 +60,7 @@ Further pricing information can be found [here](https://docs.atlos.org/overview/
 
 At the top of the [tool webpage](https://www.atlos.org/), click on ‘Join Atlos’ and fill in the short form with your e-mail address and name and choose a password. You will be able to use multi-factor authentification to secure your access to Atlos.
 
-<figure><img src=".gitbook/assets/Capture d’écran 2025-02-26 à 22.10.51.png" alt=""><figcaption><p>Source: <a href="https://www.atlos.org/">https://www.atlos.org/</a></p></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption><p>Source: <a href="https://www.atlos.org/">https://www.atlos.org/</a></p></figcaption></figure>
 
 ## Limitations
 
@@ -74,7 +74,7 @@ Note that the tool providers have clarified [in their FAQ section](https://www.a
 
 ## Ethical Considerations
 
-Take a look at the Atlos security and risk model which is available [here](https://docs.atlos.org/safety-and-security/risk-model/).&#x20;
+Take a look at the Atlos security and risk model which is available [here](https://docs.atlos.org/safety-and-security/risk-model/).
 
 ## Guides and articles
 
