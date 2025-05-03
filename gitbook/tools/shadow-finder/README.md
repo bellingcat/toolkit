@@ -203,7 +203,7 @@ Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen
 | Sophie Tedling. |
 |                 |
 
-[^1]: <img src=".gitbook/assets/suncalcelevationSC (2).jpg" alt="" data-size="original">
+[^1]: 
 
 [^2]: EXIF data can contain non-visual information about an image, e.g. type of camera and lens, date and time the image was taken, location at which it was taken,...
 
@@ -213,7 +213,7 @@ Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen
 
 [^5]: You can view the code by clicking on "Show code" in blue at the bottom of the section under "time type:"
 
-[^6]: #### Definitions
+[^6]: **Definitions**
 
     from The American Heritage® Dictionary of the English Language, 5th Edition.
 
