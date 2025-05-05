@@ -1958,5 +1958,17 @@
     "members": 0,
     "spaces": 0,
     "createdAt": "2025-04-16T18:41:45.307Z"
+  },
+  {
+    "object": "team",
+    "id": "gZXAxCst965Dg8tWLrMS",
+    "title": "NotebookLM",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-05-05T18:23:46.416Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
