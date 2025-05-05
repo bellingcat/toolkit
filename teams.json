@@ -1982,5 +1982,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "597Xgmubp9MJu1c8BkkZ",
+    "title": "EIA Global Environmental Crime Tracker",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-05-05T18:46:21.628Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
