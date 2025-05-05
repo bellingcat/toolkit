@@ -2006,5 +2006,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "OrUntr8Iy6QibBRcROTE",
+    "title": "OCRmyPDF",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-05-05T19:57:28.550Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
