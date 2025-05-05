@@ -20,6 +20,8 @@ For example, if you search for the word “donkeys,” you will get all cases wo
 
 It is possible to contribute and add data to this tool by submitting this [form](https://docs.google.com/forms/d/1ZMKUz4TPofiGHgo04Qk2SSn6qu0VOKruAhsCtKD251Q/viewform?edit_requested=true). You can also download or request the raw [data](https://oxpeckers.org/get-the-data/).
 
+To date, the tool continues to receive updates.
+
 ## Cost
 
 * [x] Free
