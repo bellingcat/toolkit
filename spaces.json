@@ -6439,5 +6439,38 @@
       "merge": true,
       "review": true
     }
+  },
+  {
+    "object": "space",
+    "id": "kZ42ndhFjHx6jlMSot9D",
+    "title": "Environmental Justice Atlas",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-05-05T18:38:04.712Z",
+    "updatedAt": "2025-05-05T18:38:04.712Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/kZ42ndhFjHx6jlMSot9D",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/kZ42ndhFjHx6jlMSot9D/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "WUhxPW06H6kMfwhCT123",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "viewInviteLinks": true,
+      "edit": true,
+      "triggerGitSync": true,
+      "comment": true,
+      "merge": true,
+      "review": true
+    }
   }
 ]

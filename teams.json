@@ -1970,5 +1970,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "RSdT37j5sGF8slFdeIfY",
+    "title": "Environmental Justice Atlas",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-05-05T18:38:05.045Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
