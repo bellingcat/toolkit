@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Captive Tiger Facilities (EIA)](README.md)
+* [EIA Global Environmental Crime Tracker](README.md)
 * [Categories](categories.md)
