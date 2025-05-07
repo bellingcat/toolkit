@@ -22,11 +22,13 @@ According to the tool provider, Bulletpicker contains [“ordnance-related techn
 
 [The tool provider also says that its purpose is data-sharing between these sectors: Explosive Ordnance Disposal (EOD), Public Safety Bomb Technician (PSBT), and commercial UXO (Unexploded Ordnance) and is accessed by a wide range of users:  personnel from government agencies, historians, archaeologists, forensic experts, and others working in related fields.](https://buymeacoffee.com/bulletpicker)
 
-In the same source above, the provider mentions that the platform has:
+In the same source [above](https://buymeacoffee.com/bulletpicker), the provider mentions that the platform has:
 
 * Technical info on \~4,000 ordnance and related items
 * Access to 1,300+ publications in PDF format
 * A downloadable version for offline use in remote areas or those operating in places with limited connectivity is available for download[ here.](https://www.bulletpicker.com/offline-version.html)
+
+According to the tool,[ these technical manuals are public domain and include copyright-expired books scanned as PDF.](https://www.bulletpicker.com/_about.html)
 
 ### Key Areas&#x20;
 
@@ -35,6 +37,8 @@ The contents are organized into the following categories, accessible through the
 1.[ Library](https://www.bulletpicker.com/_library.html) - This section is a collection of manuals from different armed forces (including historical manuals)&#x20;
 
 2\. [Fillers](https://www.bulletpicker.com/_explosives.html) - this section contains resources on various fillers, defined as the[ "energetic material (propellants, explosives, or pyrotechnic mixes)" contained inside military munitions.](https://www.denix.osd.mil/uxo/explosives-safety/faqs/#faq-1) These are the explosive materials packed inside an ordnance and are the substances that do the job of creating the explosion. Contents are organized in alphabetical order by name of the explosive agent.&#x20;
+
+
 
 \
 \
