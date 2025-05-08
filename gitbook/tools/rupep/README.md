@@ -87,6 +87,8 @@ There is a limit to viewing 20 profiles (person or organisation) per day. You ca
 
 They do not permit use of their data for commercial purposes - see the [terms and conditions](https://rupep.org/en/t-and-c/).
 
+The data is obviously limited to Russia, Belarus and Kazakhstan. If you want to look at PEPs in other countries, [OpenSanctions](https://bellingcat.gitbook.io/toolkit/more/all-tools/opensanctions) could be a good source.
+
 ## Ethical Considerations
 
 As mentioned above, a PEP is someone in a prominent public position, which makes them a higher risk for bribery and corruption - but it does not mean that they are actually involved in bribery or corruption. It is important for researchers to understand this to prevent any misinterpretation of the data provided by the database.
