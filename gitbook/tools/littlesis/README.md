@@ -32,7 +32,7 @@ The person page has links to a wide range of relationships that the person has (
 
 The 'Interlocks' tab lists people with positions in the same organisations as the person you searched - this can help you see the networks of people with whom they are associated. The 'Giving' tab lists people who also received donations from organisations and people to whom the person donated. The 'Data' tab allows you to filter and search the person's relationships. For instance, here are the lobbying firms in which Hunter Biden holds current or past positions:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-10-29 at 09.35.03.png" alt=""><figcaption><p>Example of Hunter Biden's data tab</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-10-29 at 09.35.03.png" alt=""><figcaption><p>Example of a search on Hunter Biden's data tab</p></figcaption></figure>
 
 Here's an example of an organisation's page:
 
@@ -80,7 +80,7 @@ Public Accountancy Initiative: [How to Use the LittleSis.org database](https://w
 
 ## Tool provider
 
-The Public Accountability Initiative (PAI), U.S.
+The Public Accountability Initiative, U.S.
 
 ## Advertising Trackers
 
