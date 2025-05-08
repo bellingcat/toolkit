@@ -16,9 +16,11 @@ According to an [interview](https://netzpolitik.org/2022/pimeyes-ceo-the-user-is
 
 The[ ](https://pimeyes.com/en/faq)tool provider writes that the tool is "intendend solely for personal use." and "any search pertaining to other individuals is strictly prohibited". However, no measures are taken to prevent users from also uploading photos of others. Over time, the tool has also been added to the toolbox of open source researchers and journalists. For instance, Bellingcat used [Pimeyes during an investigation by German journalists](https://www.zdf.de/nachrichten/politik/deutschland/daniela-klette-verhaftung-gesichtserkennung-pimeyes-100.html) to search for a picture of RAF terror suspect Daniela Klette who had long been in hiding. The tool has also played a role i[n identifying US Capitol January 6 rioters](https://gijn.org/stories/how-open-source-experts-identified-the-us-capitol-rioters/).
 
-To use Pimeyes, open source researchers simply need to upload a photo of a person of interest. It is possible to upload up to five pictures of the same individual. If the quality of the picture is low, Pimeyes suggests uploading a better picture and provides tips like having the person in the picture "looking forward" and "no elements covering the face". However, it is also possible to ignore those suggestions and to start a search with a low quality image.
+To use Pimeyes, open source researchers simply need to upload a photo of a person of interest. It is possible to upload up to five pictures of the same individual. If the quality of the picture is low, Pimeyes suggests uploading a better picture and provides tips like having the person in the picture "looking forward" and "no elements covering the face". However, it is also possible to ignore those suggestions and to do a search with a low quality image.
 
+Users can choose whether they want to search for pictures that have been indexed by Pimeyes recently or they can opt for "Any Time".
 
+<figure><img src=".gitbook/assets/Time_Date_Pimeyes.png" alt=""><figcaption></figcaption></figure>
 
 If an image is of poor quality and the search fails, the edit option allows users to refine an image and repeat the search. Pimeye
 
