@@ -12,7 +12,7 @@ description: An AI-powered facial recognition reverse image search tool.
 
 PimEyes lets users upload pictures of a person and conducts an AI search to find pictures of faces that look similar. The PimEyes [website states](https://pimeyes.com/en/faq) that while it searches public websites, it does not search social media and videos or video thumbnails. Back in 2020, [netzpolitik.org ](https://netzpolitik.org/2020/pimeyes-face-search-company-is-abolishing-our-anonymity/)found social media photos in their results list while testing the tool.
 
-According to an [interview](https://netzpolitik.org/2022/pimeyes-ceo-the-user-is-the-stalker-not-the-search-engine/) with CEO Giorgi Gobronidze in 2022, PimEyes had "approximately 2.1 billion faces maximum" hashed at that point in time.
+According to an [interview](https://netzpolitik.org/2022/pimeyes-ceo-the-user-is-the-stalker-not-the-search-engine/) with CEO Giorgi Gobronidze, PimEyes had "approximately 2.1 billion faces maximum" hashed in 2022.
 
 PimEyes is intended **solely for personal use**. Pursuant to our Terms of Service, any search pertaining to other individuals is strictly prohibited. We take all necessary measures to ensure the privacy and protection of our users. We consider non-compliance with our policies to be a grave matter, tantamount to violating the law. [https://pimeyes.com/en/faq](https://pimeyes.com/en/faq)
 
