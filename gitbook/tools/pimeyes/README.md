@@ -14,23 +14,25 @@ PimEyes lets users upload pictures of a person and conducts an AI search to find
 
 According to an [interview](https://netzpolitik.org/2022/pimeyes-ceo-the-user-is-the-stalker-not-the-search-engine/) with CEO Giorgi Gobronidze, PimEyes had "approximately 2.1 billion faces maximum" hashed in 2022.
 
-The[ ](https://pimeyes.com/en/faq)tool provider writes that the tool is "intendend solely for personal use." and "any search pertaining to other individuals is strictly prohibited". However, no measures are taken to prevent users from also uploading photos of others. Over time, the tool has also been added to the toolbox of open source researchers and journalists. For instance, Bellingcat used [Pimeyes during an investigation by German journalists](https://www.zdf.de/nachrichten/politik/deutschland/daniela-klette-verhaftung-gesichtserkennung-pimeyes-100.html) to search for a picture of RAF terror suspect Daniela Klette who had long been in hiding. The tool has also played a role i[n identifying US Capitol January 6 rioters](https://gijn.org/stories/how-open-source-experts-identified-the-us-capitol-rioters/).
+The[ ](https://pimeyes.com/en/faq)tool provider writes that the tool is "intendend solely for personal use" and "any search pertaining to other individuals is strictly prohibited". However, no measures are taken to prevent users from also uploading photos of others.&#x20;
 
-To use Pimeyes, open source researchers simply need to upload a photo of a person of interest. It is possible to upload up to five pictures of the same individual. If the quality of the picture is low, Pimeyes suggests uploading a better picture and provides tips like having the person in the picture "looking forward" and "no elements covering the face". However, it is also possible to ignore those suggestions and to do a search with a low quality image.
+Over time, the tool has also been added to the toolbox of many open source researchers and journalists. For instance, Bellingcat used [Pimeyes during an investigation by German journalists](https://www.zdf.de/nachrichten/politik/deutschland/daniela-klette-verhaftung-gesichtserkennung-pimeyes-100.html) to search for a picture of RAF terror suspect Daniela Klette who had long been in hiding. The tool has also played a role i[n identifying US Capitol January 6 rioters](https://gijn.org/stories/how-open-source-experts-identified-the-us-capitol-rioters/).
+
+To use Pimeyes, open source researchers simply need to upload a photo of a person of interest. It is possible to upload up to five pictures of the same individual. If the quality of the picture is low, Pimeyes suggests uploading a better picture and provides tips like having the person in the picture "looking forward" and "no elements covering the face". However, it is also possible to ignore those suggestions and to do a search with a low quality image. Our own tests show that even with a low quality image, the tool is often able to provide results.
 
 Users can choose whether they want to search for pictures that have been indexed by Pimeyes recently or they can opt for "Any Time".
 
 <figure><img src=".gitbook/assets/Time_Date_Pimeyes.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Pimeyes indicates when each picture in the results list has been indexed by the tool. This can be seen at the bottom of the provided information box when clicking on a listed picture:
+Pimeyes indicates when each picture in the results list has been indexed by the tool. This can be seen at the bottom of the information box that comes up when clicking on a listed picture:
 
 <figure><img src=".gitbook/assets/Date_Stamp.png" alt="" width="239"><figcaption></figcaption></figure>
 
 By choosing "safe search" Pimeyes tries to exclude "possible adult content from results." There is also a "deep search" [option](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9) that is only available to users with the most expensive plan and which claims to search the index ["more thoroughly"](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9).
 
+The tool provider claims that their system is deleting pictures uploaded by users for search purposes within 48 hours and that they "[do not store any private data from our users](https://pimeyes.com/en/faq)". We are not able to independently verify those claims.
 
 
-&#x20;The system stores the photo for [48 hours](https://pimeyes.com/en/faq) and permanently deletes it afterward.&#x20;
 
 The system explores publicly available sources like websites, blogs and criminal records for searches. However, it cannot search the social media platforms as these sites restrict its access, unlike [Clearview AI](https://www.nytimes.com/2020/01/18/technology/clearview-privacy-facial-recognition.html), a tool that law enforcement agencies have widely used. After searching, one can remove a particular result by following the steps [here](https://pimeyes.com/en/faq).&#x20;
 
