@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-The data on the portal is gathered in real time from national registers, and only info provided free of charge on national registers is available for free on the portal (see the [general info page](https://e-justice.europa.eu/489/EN/business_registers__search_for_a_company_in_the_eu?EUROPEAN_UNION\&action=maximize\&idSubpage=1\&member=1)). These are the countries covered:
+The data on the portal is gathered in real time from national registers, and only info provided free of charge on national registers is available for free on the portal (see the [general info page](https://e-justice.europa.eu/topics/registers-business-insolvency-land/business-registers-search-company-eu/general-information-find-company_en)). These are the countries covered:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-11-27 at 09.12.44.png" alt=""><figcaption><p>Countries included in the consolidated register - you can 'select all'</p></figcaption></figure>
 
