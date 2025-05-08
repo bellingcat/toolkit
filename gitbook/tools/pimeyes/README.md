@@ -14,13 +14,11 @@ PimEyes lets users upload pictures of a person and conducts an AI search to find
 
 According to an [interview](https://netzpolitik.org/2022/pimeyes-ceo-the-user-is-the-stalker-not-the-search-engine/) with CEO Giorgi Gobronidze, PimEyes had "approximately 2.1 billion faces maximum" hashed in 2022.
 
-The[ ](https://pimeyes.com/en/faq)tool provider writes that the tool is "intendend solely for personal use." and "any search pertaining to other individuals is strictly prohibited". However, no measures are taken to prevent users from also uploading photos of others. Over time, the tool has also been added to the toolbox of open source researchers and journalists. For instance, Bellingcat used [Pimeyes during an investigation by German journalists](https://www.zdf.de/nachrichten/politik/deutschland/daniela-klette-verhaftung-gesichtserkennung-pimeyes-100.html) to search for a picture of RAF terror suspect Daniela Klette who had long been in hiding.
+The[ ](https://pimeyes.com/en/faq)tool provider writes that the tool is "intendend solely for personal use." and "any search pertaining to other individuals is strictly prohibited". However, no measures are taken to prevent users from also uploading photos of others. Over time, the tool has also been added to the toolbox of open source researchers and journalists. For instance, Bellingcat used [Pimeyes during an investigation by German journalists](https://www.zdf.de/nachrichten/politik/deutschland/daniela-klette-verhaftung-gesichtserkennung-pimeyes-100.html) to search for a picture of RAF terror suspect Daniela Klette who had long been in hiding. The tool has also played a role i[n identifying US Capitol January 6 rioters](https://gijn.org/stories/how-open-source-experts-identified-the-us-capitol-rioters/).
 
+To use the tool, open source researchers simply need to upload a photo of a person of interest. It is possible to upload up to five pictures of the same individual.&#x20;
 
-
-
-
-To get started, upload a photo of the person you want to verify. Users can upload up to five photos at a time. The search will produce relevant results. If an image is of poor quality and the search fails, the edit option allows users to refine an image and repeat the search. The “Take picture” option requires access to your computer’s camera.
+If an image is of poor quality and the search fails, the edit option allows users to refine an image and repeat the search.&#x20;
 
 A "safe search" option excludes "possible adult content from results." A "deep search" [option](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9) that takes longer and explores more databases is available to "advanced" subscription users.
 
