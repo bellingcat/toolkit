@@ -41,7 +41,7 @@ Lower on the  page, each PEP has a [network visualisation](#user-content-fn-1)[^
 
 <figure><img src=".gitbook/assets/Screenshot 2025-02-24 at 16.10.09.png" alt=""><figcaption></figcaption></figure>
 
-On the diagram, you can:
+On the diagram you can:
 
 * Zoom in to see detail on the PEP's network
 * Click on a round icon to see the details
@@ -89,7 +89,7 @@ They do not permit use of their data for commercial purposes - see the [terms an
 
 ## Ethical Considerations
 
-As mentioned above, a PEP is someone in a prominent public position, which makes them a higher risk for bribery and corruption - but it does not mean that they are actually involved in bribery or corruption. It is important for researchers to understand this important point to prevent any form of misinterpretation of the data provided by the database.
+As mentioned above, a PEP is someone in a prominent public position, which makes them a higher risk for bribery and corruption - but it does not mean that they are actually involved in bribery or corruption. It is important for researchers to understand this to prevent any misinterpretation of the data provided by the database.
 
 ## Guides and articles
 
