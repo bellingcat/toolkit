@@ -26,9 +26,11 @@ Pimeyes indicates when each picture in the results list has been indexed by the 
 
 <figure><img src=".gitbook/assets/Date_Stamp.png" alt="" width="239"><figcaption></figcaption></figure>
 
-By choosing "safe search" Pimeyes tries to exclude "possible adult content from results." A "deep search" [option](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9) that takes longer and explores more databases is available to "advanced" subscription users.
+By choosing "safe search" Pimeyes tries to exclude "possible adult content from results." There is also a "deep search" [option](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9) that is only available to users with the most expensive plan and which claims to search the index ["more thoroughly"](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9).
 
-Users can adjust the period from 24 hours to one year for efficient search.  The system stores the photo for [48 hours](https://pimeyes.com/en/faq) and permanently deletes it afterward.&#x20;
+
+
+&#x20;The system stores the photo for [48 hours](https://pimeyes.com/en/faq) and permanently deletes it afterward.&#x20;
 
 The system explores publicly available sources like websites, blogs and criminal records for searches. However, it cannot search the social media platforms as these sites restrict its access, unlike [Clearview AI](https://www.nytimes.com/2020/01/18/technology/clearview-privacy-facial-recognition.html), a tool that law enforcement agencies have widely used. After searching, one can remove a particular result by following the steps [here](https://pimeyes.com/en/faq).&#x20;
 
