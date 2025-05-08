@@ -22,13 +22,11 @@ Users can choose whether they want to search for pictures that have been indexed
 
 <figure><img src=".gitbook/assets/Time_Date_Pimeyes.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Pimeyes indicates when each picture in the results list has been indexed by the tool. This can be seen when clicking on a listed picture and by scrolling to the bottom of the provided information box:
+Pimeyes indicates when each picture in the results list has been indexed by the tool. This can be seen at the bottom of the provided information box when clicking on a listed picture:
 
 <figure><img src=".gitbook/assets/Date_Stamp.png" alt="" width="239"><figcaption></figcaption></figure>
 
-If an image is of poor quality and the search fails, the edit option allows users to refine an image and repeat the search. Pimeye
-
-A "safe search" option excludes "possible adult content from results." A "deep search" [option](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9) that takes longer and explores more databases is available to "advanced" subscription users.
+By choosing "safe search" Pimeyes tries to exclude "possible adult content from results." A "deep search" [option](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9) that takes longer and explores more databases is available to "advanced" subscription users.
 
 Users can adjust the period from 24 hours to one year for efficient search.  The system stores the photo for [48 hours](https://pimeyes.com/en/faq) and permanently deletes it afterward.&#x20;
 
