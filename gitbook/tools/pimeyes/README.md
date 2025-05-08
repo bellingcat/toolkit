@@ -14,7 +14,9 @@ PimEyes lets users upload pictures of a person and conducts an AI search to find
 
 According to an [interview](https://netzpolitik.org/2022/pimeyes-ceo-the-user-is-the-stalker-not-the-search-engine/) with CEO Giorgi Gobronidze, PimEyes had "approximately 2.1 billion faces maximum" hashed in 2022.
 
-PimEyes is intended **solely for personal use**. Pursuant to our Terms of Service, any search pertaining to other individuals is strictly prohibited. We take all necessary measures to ensure the privacy and protection of our users. We consider non-compliance with our policies to be a grave matter, tantamount to violating the law. [https://pimeyes.com/en/faq](https://pimeyes.com/en/faq)
+According to the[ PimEyes website](https://pimeyes.com/en/faq), the tool is "intendend solely for personal use." and "any search pertaining to other individuals is strictly prohibited". However, no measures are taken to prevent users from uploading photos of others.
+
+
 
 
 
