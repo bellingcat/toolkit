@@ -10,7 +10,7 @@ description: An AI-powered facial recognition reverse image search tool.
 
 ## Description
 
-PimEyes lets users upload pictures of a person and conducts an AI search to find pictures of faces that look similar. The results list presents photos with similar looking people together with links to websites where those pictures show up online, often allowing identification (name, organisation etc.) of the pictured individuals. The PimEyes [website states](https://pimeyes.com/en/faq) that it only searches public websites and does not look at social media and videos (or video thumbnails). Back in 2020, [netzpolitik.org ](https://netzpolitik.org/2020/pimeyes-face-search-company-is-abolishing-our-anonymity/)found social media photos in their results list while testing the tool.
+PimEyes lets users upload pictures of a person and conducts an AI search to find pictures of faces that look similar. It then lists photos with similar looking people and provides links to websites where those pictures show up online, often allowing identification (name, organisation etc.) of the pictured individuals. The PimEyes [website states](https://pimeyes.com/en/faq) that it only searches public websites and does not look at social media and videos (or video thumbnails). Back in 2020, [netzpolitik.org ](https://netzpolitik.org/2020/pimeyes-face-search-company-is-abolishing-our-anonymity/)found social media photos in their results list while testing the tool.
 
 According to an [interview](https://netzpolitik.org/2022/pimeyes-ceo-the-user-is-the-stalker-not-the-search-engine/) with CEO Giorgi Gobronidze, PimEyes had "approximately 2.1 billion faces maximum" hashed in 2022.
 
@@ -22,7 +22,7 @@ Users can choose whether they want to search for pictures that have been indexed
 
 <figure><img src=".gitbook/assets/Time_Date_Pimeyes.png" alt="" width="375"><figcaption></figcaption></figure>
 
-mmm
+Users can see when a particular picture has been indexed by Pimeyes when clicking on individual pictures in the results list:
 
 <figure><img src=".gitbook/assets/Date_Stamp.png" alt="" width="239"><figcaption></figcaption></figure>
 
