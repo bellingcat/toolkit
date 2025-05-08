@@ -22,7 +22,7 @@ Users can choose whether they want to search for pictures that have been indexed
 
 <figure><img src=".gitbook/assets/Time_Date_Pimeyes.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Users can see when a particular picture has been indexed by Pimeyes when clicking on individual pictures in the results list:
+Pimeyes indicates when each picture in the results list has been indexed by the tool. This can be seen when clicking on a listed picture and by scrolling to the bottom of the provided information box:
 
 <figure><img src=".gitbook/assets/Date_Stamp.png" alt="" width="239"><figcaption></figcaption></figure>
 
