@@ -20,7 +20,11 @@ To use Pimeyes, open source researchers simply need to upload a photo of a perso
 
 Users can choose whether they want to search for pictures that have been indexed by Pimeyes recently or they can opt for "Any Time".
 
-<figure><img src=".gitbook/assets/Time_Date_Pimeyes.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Time_Date_Pimeyes.png" alt="" width="375"><figcaption></figcaption></figure>
+
+mmm
+
+<figure><img src=".gitbook/assets/Date_Stamp.png" alt="" width="239"><figcaption></figcaption></figure>
 
 If an image is of poor quality and the search fails, the edit option allows users to refine an image and repeat the search. Pimeye
 
