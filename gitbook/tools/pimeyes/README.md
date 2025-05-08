@@ -10,11 +10,13 @@ description: An AI-powered facial recognition reverse image search tool.
 
 ## Description
 
-PimEyes lets users upload pictures of a person and conducts an AI search to find pictures of faces that look similar. The results list presents photos with similar looking people together with links to websites where those pictures show up online, often allowing identification (name, organisation etc.) of the pictured individuals. The PimEyes [website states](https://pimeyes.com/en/faq) that it searches public websites but not social media and videos (or video thumbnails). Back in 2020, [netzpolitik.org ](https://netzpolitik.org/2020/pimeyes-face-search-company-is-abolishing-our-anonymity/)found social media photos in their results list while testing the tool.
+PimEyes lets users upload pictures of a person and conducts an AI search to find pictures of faces that look similar. The results list presents photos with similar looking people together with links to websites where those pictures show up online, often allowing identification (name, organisation etc.) of the pictured individuals. The PimEyes [website states](https://pimeyes.com/en/faq) that it only searches public websites and does not look at social media and videos (or video thumbnails). Back in 2020, [netzpolitik.org ](https://netzpolitik.org/2020/pimeyes-face-search-company-is-abolishing-our-anonymity/)found social media photos in their results list while testing the tool.
 
 According to an [interview](https://netzpolitik.org/2022/pimeyes-ceo-the-user-is-the-stalker-not-the-search-engine/) with CEO Giorgi Gobronidze, PimEyes had "approximately 2.1 billion faces maximum" hashed in 2022.
 
-The[ ](https://pimeyes.com/en/faq)tool provider writes the tool is "intendend solely for personal use." and "any search pertaining to other individuals is strictly prohibited". However, no measures are taken to prevent users from also uploading photos of others.
+The[ ](https://pimeyes.com/en/faq)tool provider writes the tool is "intendend solely for personal use." and "any search pertaining to other individuals is strictly prohibited". However, no measures are taken to prevent users from also uploading photos of others. Over time, the tool has also been added to the toolbox of open source researchers and journalists. For instance, Bellingcat used [Pimeyes during an investigation by German journalists](https://www.zdf.de/nachrichten/politik/deutschland/daniela-klette-verhaftung-gesichtserkennung-pimeyes-100.html) to search for a picture of RAF terror suspect Daniela Klette who had been in hiding for a long time.&#x20;
+
+
 
 
 
