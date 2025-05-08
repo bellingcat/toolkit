@@ -20,7 +20,7 @@ Open Ownership makes it easy to see if a country has a BO register, and if it is
 
 To search for a country's page on OpenOwnership, scroll down to 'Find a specific country' on the [map page](https://www.openownership.org/en/map/).
 
-It also has a useful 'Worldwide action on beneficial ownership transparency' [map](https://www.openownership.org/en/map/) of which countries have BO registers:
+The 'Worldwide action on beneficial ownership transparency' [map](https://www.openownership.org/en/map/) shows which countries have BO registers:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-21 at 11.48.58.png" alt=""><figcaption><p>Map showing which countries are planning or implementing BO transparency reforms, or have live online registers</p></figcaption></figure>
 
