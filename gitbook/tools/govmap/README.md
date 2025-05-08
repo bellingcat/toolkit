@@ -9,13 +9,19 @@ description: >-
 
 ## URL
 
-[https://www.govmap.gov.il/](https://www.govmap.gov.il/)
+[https://www.govmap.gov.il/](https://www.govmap.gov.il/) - Hebrew
+
+[https://www.govmap.gov.il/?lang=en](https://www.govmap.gov.il/?lang=en) - English
 
 ## Description
 
-GovMap was developed by the Israeli government to provide the public with detailed geographical information about Israel. The web-based platform features a wide range of data, including property boundaries, urban planning and zoning information, as well as infrastructure details like roads, utilities, and public institutions. It allows users to search, view, and analyze the available geographical data.
+GovMap was developed by the Israeli government to provide the public with detailed geographical information about Israel. The web-based platform features a wide range of data, including property boundaries, urban planning and zoning information, and infrastructure details like cellular antennas, roads, utilities, and public institutions. It allows users to search, view, and analyze the available geographical data.
 
-The platform offers a centralized source of geographical information that can support a variety of users - from government officials and urban planners to real estate professionals and the general public. Open source researchers can obtain information on land use, planning proposals, and other data necessary for researching topics like development, investment etc. in Israel.
+According to the [tool](https://www.gov.il/en/departments/topics/research-govmap/govil-landing-page), the map uses “government offices as \[their] data sources” and [is a collaboration project among them with the Survey of Israel as the lead. ](https://www.gov.il/en/departments/topics/research-govmap/govil-landing-page) &#x20;
+
+For beginner users, note that the Hebrew user interface is slightly different from the English user interface, given the difference in the writing system between the two. Users are immediately taken to the landing page in Hebrew, and they can choose to switch to English on the bottom right.&#x20;
+
+<figure><img src=".gitbook/assets/2025-05-03_19-56-08.png" alt="" width="357"><figcaption><p>This is the landing page in Hebrew, switch languages at the bottom right. </p></figcaption></figure>
 
 **Features**:
 
@@ -57,8 +63,8 @@ To effectively use GovMap, especially for beginners or those looking to refine t
 
 * Hanham, M. (2015) _There’s a Map for That_, _Bellingcat_. Available at: [https://www.bellingcat.com/resources/how-tos/2015/04/10/theres-a-map-for-that/](https://www.bellingcat.com/resources/how-tos/2015/04/10/theres-a-map-for-that/) (Accessed: 10 April 2024).
 * _GovMap.Gov.Il - Free Israeli Government GIS Portal_ (2021). Available at: [https://www.youtube.com/watch?v=1VoXYNuVgPI](https://www.youtube.com/watch?v=1VoXYNuVgPI) (Accessed: 10 April 2024).
-* Team, B.I. (2023a) _Geolocating Hamas-Led Attacks on Israeli Civilians_, B_ellingcat_. Available at: [https://www.bellingcat.com/news/2023/10/20/geolocating-hamas-led-attacks-on-israeli-civilians/](https://www.bellingcat.com/news/2023/10/20/geolocating-hamas-led-attacks-on-israeli-civilians/) (Accessed: 14 April 2024).
-* Team, B.I. (2023b) _Jenin: Open Source Insights on Israel’s July Raids_, B_ellingcat_. Available at: [https://www.bellingcat.com/news/2023/08/02/jenin-open-source-insights-on-israels-july-raids/](https://www.bellingcat.com/news/2023/08/02/jenin-open-source-insights-on-israels-july-raids/) (Accessed: 14 April 2024).
+* Team, B.I. (2023a) _Geolocating Hamas-Led Attacks on Israeli Civilians_, &#x42;_&#x65;llingcat_. Available at: [https://www.bellingcat.com/news/2023/10/20/geolocating-hamas-led-attacks-on-israeli-civilians/](https://www.bellingcat.com/news/2023/10/20/geolocating-hamas-led-attacks-on-israeli-civilians/) (Accessed: 14 April 2024).
+* Team, B.I. (2023b) _Jenin: Open Source Insights on Israel’s July Raids_, &#x42;_&#x65;llingcat_. Available at: [https://www.bellingcat.com/news/2023/08/02/jenin-open-source-insights-on-israels-july-raids/](https://www.bellingcat.com/news/2023/08/02/jenin-open-source-insights-on-israels-july-raids/) (Accessed: 14 April 2024).
 
 **Video Tutorials**
 
