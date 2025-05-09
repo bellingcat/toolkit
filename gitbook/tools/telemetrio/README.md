@@ -13,11 +13,16 @@ description: >-
 
 ## Description
 
-Telemetr.io is a tool for journalists and researchers analyzing Telegram channels. It offers a database of categorized catalogs by country and language, along with access to numerous archived messages for tracking trends, user behavior, and interactions. Its message view analysis over time provides insights into content and engagement, enabling analysis of global and regional activity.
+Telemetr.io is a Telegram analytics suite aimed at journalists and researchers. It now tracks **more than 9.7 million public channels and groups** (May 2025) and stores historical data on posts, ads and audience metrics. Key features:
+
+* **Channel & Post Search** – keyword or ID look-ups with comment, reaction and share stats.
+* **Rankings & Collections** – leader-boards by country, category and “channel network”.
+* **Cheater Tag & Ads Index** – fraud score plus advertising intensity for every channel.
+* **Mini-App analytics** – metrics for over 4 000 Telegram Mini Apps.
+* **Event tracking & alerts** – real-time keyword or channel monitoring with Telegram bot notifications.
 
 {% hint style="danger" %}
-The export of data available in the Advanced Plan (and above) is limited to the catalog list of channels. For the export of most metrics described below, you will need API access, which is not included in the plan. (See below at API.) In the author's testing, reaching support was challenging, and canceling the subscription was not straightforward. (June 2024)\
-**Make sure to evaluate the capabilities of the different plans to determine which you require, or contact the sales team for a tailored plan.**&#x20;
+**Exports:** _Advanced_ and _Enterprise_ plans allow full CSV/Excel export of every metric shown on the site. _Basic_ and _Pro_ can only export the public channel catalogue. Check the pricing page or message **@telemetrio\_contact** for a custom quota.
 {% endhint %}
 
 Features:
@@ -481,13 +486,11 @@ The search results section lists advertisers based on the selected filters. Each
 
 ### API
 
-Telemetr.io provides a REST API that allows programmatic access to the platform’s data, so users can query Telegram analytics without using the web interface. To use the API, you must obtain an API access key through the `@telemetrio_api_bot` on Telegram (this bot handles API key registration).
+Telemetr.io offers a REST API (OpenAPI v3). Recent additions include the fields **`ads_index_grade`** (ad saturation) and **`err24_percent`** (24-hour error ratio).
+
+Tariffs: **Free, S, M, L, XL** – €0 / 25 / 65 / 199 / 499 per month, covering 5 to 10 000 verified channels and 1 000 to 2 000 000 calls. API keys are issued by @telemetrio\_api\_bot.
 
 The API follows the OpenAPI v3 specification for compatibility with various programming environments. It currently supports operations such as: searching for channels by name/keywords, retrieving basic information about a channel (ID, name, description, etc.), accessing channel statistics (subscriber counts, growth, engagement metrics), viewing recent channel messages, tracking changes in subscribers, and getting the history of message reach (views over time for messages). It also provides reference data like lists of supported languages, countries, and categories for channels (to interpret codes or filter data).
-
-The API is actively developed; new data fields and functions are added regularly. For instance, an _“ads\_index\_grade”_ field (reflecting the advertising index/grade for a channel) was introduced to the [channel stats endpoint in January 2025​.](https://api.telemetr.io/rapidoc)
-
-Information on all available API subscription plans (including pricing and limits) can be found on Telemetr.io’s API documentation site​ (API access is a separate service from the main Telemetr.io web subscription; obtaining extensive data via API beyond the free tier requires a paid API plan.)
 
 ## Cost
 
@@ -496,12 +499,21 @@ Information on all available API subscription plans (including pricing and limit
 * [ ] Paid
 
 {% hint style="warning" %}
-- The free tier may suffice for basic orientation and initial exploration, but its limitations (on number of channels tracked, search functions, event tracking, and data export) make it inadequate for most in-depth investigations.
+- The free tier may suffice for basic orientation and initial exploration, but its limitations (on a number of channels tracked, search functions, event tracking, and data export) make it inadequate for most in-depth investigations.
 - The Pro tier offers some improvements (more ad post tracking and limited audience analytics), serving as a starting point for research, but it remains significantly limited in scope.
-- The Advanced tier provides extensive search capabilities and some data export, but even here the export functionality is minimal (mostly just channel list data).
+- The Advanced tier provides extensive search capabilities and some data export, but even here, the export functionality is minimal (mostly just channel list data).
 - The Enterprise tier includes fully customizable options and is ideal for large-scale or institutional research needs, offering the most comprehensive access.
 - **API access** is available to export a larger set of channel metrics, but this is priced separately from the main subscriptions and has its own tiers and limits.
 {% endhint %}
+
+| Plan           | Monthly price\* | Key allowances                                      |
+| -------------- | --------------- | --------------------------------------------------- |
+| **Basic**      | free            | analyse 5 channels and 5 post searches per day      |
+| **Pro**        | €69             | 40 channels, ads search, limited event tracking     |
+| **Advanced**   | €149            | unlimited channels, full exports, multi-seat access |
+| **Enterprise** | from €265       | custom limits, SLA support, white-label API         |
+
+\*Prices published April 2025. Payments are made in the web dashboard with card, PayPal or cryptocurrency after signing in with a **Telegram or Google account**.
 
 ## Level of difficulty
 
@@ -509,17 +521,18 @@ Information on all available API subscription plans (including pricing and limit
 
 ## Requirements
 
-* Any modern web browser
-* A Telegram account or a Google account (required for searching for channels and for paid services)
+* Modern web browser.
+* **Telegram or Google account for single-sign-on**.
+* Spreadsheet or graphing tool (Excel, LibreOffice, Python, etc.) to open CSV exports.
 
 ## Limitations
 
-* **Access Thresholds:** The free tier only allows analysis of up to 5 channels per day and only five search queries by posts per day. This cap severely restricts how much you can explore without a subscription.
-* **Historical Data:** Historical analytics for channels (e.g., past subscriber counts, old posts) are limited to roughly the last 30 days on the Free tier. Deeper history is only available in higher tiers.
-* **Real-time Data:** Data isn’t perfectly real-time; there can be some delay in updates. This means Telemetr.io may not capture events the instant they happen, which can affect time-sensitive research.
-* **API Restrictions:** The free API access is very limited – you can query only 5 verified channels, with a rate limit of 1,000 requests per month and only a 7-day history for certain data​. Higher API tiers raise these limits (e.g., more channels, more requests, longer history) but require separate payment.
-* **Geographical Coverage:** Some features or metrics might not fully cover all regions or languages. For example, certain local Telegram data might be sparse, and metrics like language or country might be missing or less accurate for some channels.
-* **Miscategorization:** The categorization of channels is not perfect. Some channels are tagged in the wrong category (the "Facts" category in particular has been noted to contain various unrelated channels). Researchers should not take category labels at face value if precision is required – double-check the channel content.
+* **Access thresholds** – The **free** tier lets you analyse up to **5 channels per day** and run **5 post-search queries per day**; Event Tracking is limited to one keyword or one channel. [telemetr.io](https://telemetr.io/en/channels/2166657568-official77menang?utm_source=chatgpt.com)
+* **Historical data** – Free users see roughly the **last 30 days** of metrics. _Pro_ extends this to 90 days; _Advanced_ and higher tiers unlock **up to 12 months** of history.
+* **Real-time delay** – Updates are not instantaneous; stats refresh every **10–15 minutes**, which can miss very short-lived posts or rapid edits.
+* **API restrictions** – The free API plan allows **1 000 calls per month, 5 verified channels and 7 days of history**; paid plans (S → XL) raise those limits to 10 000 channels and 2 million calls, with history up to 365 days. [api.telemetr.io](https://api.telemetr.io/docs/intro/overview?utm_source=chatgpt.com)
+* **Geographical coverage** – Certain languages and smaller regions may have patchy or delayed coverage, so local trends can be under-represented.
+* **Miscategorisation** – Automatic topic tagging can be wrong (the “Facts” category is especially noisy); always review a channel manually if precision matters.
 
 Researchers should keep these limitations in mind when deciding if Telemetr.io meets their needs and when interpreting the data it provides.
 
@@ -573,4 +586,3 @@ Telemetr.io [https://telemetr.io/en/terms-of-use](https://telemetr.io/en/terms-o
 | Page maintainer |
 | --------------- |
 | Martin Sona     |
-|                 |
