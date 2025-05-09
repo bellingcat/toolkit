@@ -32,7 +32,9 @@ Github Project: [https://github.com/bellingcat/telegram-group-joiner](https://gi
 
 ## Requirements
 
-**Telegram API Keys:** Obtain your API ID and API Hash from [my.telegram.org](https://my.telegram.org). This involves registering an application to receive these credentials.
+**Telegram API Keys:** [Obtain your API ID and API Hash](https://core.telegram.org/api/obtaining_api_id) from [my.telegram.org](https://my.telegram.org). This involves registering an application to receive these credentials. After entering the API ID and Hash, the tool will ask for your phone number and the 5-digit login code that Telegram sends you.
+
+Use a modern desktop browser such as Chrome, Firefox, or Edge. (The page relies on WebAssembly; very old browsers (and some locked-down corporate ones) won’t load it. Safari older than v15 may fail to load the page.)
 
 ## Limitations
 
@@ -41,6 +43,8 @@ Github Project: [https://github.com/bellingcat/telegram-group-joiner](https://gi
 * Use a non-personal Telegram account dedicated to research purposes.
 * Consider using a dedicated phone number ("burner number") when setting up the account.
 * Utilize a VPN to enhance privacy and avoid potential geo-restrictions.
+* Accounts created or [logged in via TDLib can be flagged and suspended without warning](https://github.com/tdlib/td/issues/2920); use a spare account.
+* Telegram caps one account at roughly 500 groups/channels; after that, you’ll see ‘Limit reached’ errors.
 
 ## Ethical Considerations
 
@@ -56,7 +60,7 @@ Github Project: [https://github.com/bellingcat/telegram-group-joiner](https://gi
     Visit the [Telegram Group Joiner](https://bellingcat.github.io/telegram-group-joiner/) webpage.
 2.  **Authenticate:**
 
-    Enter your Telegram **API ID** and **API Hash** to authenticate the tool.
+    Enter your API ID, API Hash, **and then the 5-digit code Telegram texts you**.
 3.  **Prepare Group Links:**
 
     * You can preload group or channel links by using the `links` parameter in the URL.
@@ -68,7 +72,7 @@ Github Project: [https://github.com/bellingcat/telegram-group-joiner](https://gi
 
         ```
         https://t.me/bellingcat
-        https://t.me/+privateInvite,123id
+        https://t.me/+privateInvite123id
         ```
     * Combined Links:\
       `https://t.me/bellingcat;https://t.me/+privateInvite,123id`
@@ -91,4 +95,3 @@ Github Project: [https://github.com/bellingcat/telegram-group-joiner](https://gi
 | Page maintainer |
 | --------------- |
 | Martin Sona     |
-|                 |
