@@ -100,11 +100,9 @@ Josephine Lulamae's reflections on the ethical use of facial recognition tools i
 
 ## Guide
 
-See detailed [guide](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide) by PimEyes.
+Pimeyes' own [user guide.](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9)
 
-Another guide by PimEyes on [helping](https://pimeyes.com/en/blog/your-guide-to-using-pimeyes-the-cases-when-its-beneficial) users "detect catfishing, uncover fake dating profiles, and combat revenge porn."
-
-[Facial Recognition Made Easy](https://gijn.org/resource/facial-recognition-made-easy/) by Henk Van Ess.
+Henk van Ess: [Facial Recognition Made Easy](https://gijn.org/resource/facial-recognition-made-easy/)< Global Investigative Journalism Network, 2023.
 
 ## Similar tools
 
