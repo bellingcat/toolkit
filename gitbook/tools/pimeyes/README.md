@@ -92,6 +92,8 @@ Low-resolution images,  black-and-white pictures or pictures of people whose fac
 
 ## Ethical Considerations
 
+NPR article '[Too dangerous': Why even Google was afraid to release this technology by ](https://www.npr.org/2023/10/11/1204822946/facial-recognition-search-engine-ai-pim-eyes-google)
+
 PimEyes is known for pulling incorrect images of women from [pornographic](https://www.nytimes.com/2022/05/26/technology/pimeyes-facial-recognition-search.html) sites, which is a concern that needs to be addressed.
 
 See Poynter's starter kit for an AI ethics policy for [newsrooms](https://www.poynter.org/ethics-trust/2024/how-to-create-newsroom-artificial-intelligence-ethics-policy/).  Also, an [interview](https://lincolncenter.asu.edu/) of experts from Arizona State's Lincoln Center for Applied Ethics about the "The ethical implications of facial recognition technology."
