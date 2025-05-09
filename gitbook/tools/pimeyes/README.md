@@ -100,6 +100,10 @@ Another guide by PimEyes on [helping](https://pimeyes.com/en/blog/your-guide-to-
 
 [Facial Recognition Made Easy](https://gijn.org/resource/facial-recognition-made-easy/) by Henk Van Ess.
 
+## Similar tools
+
+
+
 ## Tool provider
 
 The website does not provide details about the tool provider. According to news reports, the details [surrounding](https://www.washingtonpost.com/technology/2021/05/14/pimeyes-facial-recognition-search-secrecy/) the initial [ownership](https://www.nytimes.com/2022/05/26/technology/pimeyes-facial-recognition-search.html) are murky. The new owner of PimEyes is [Giorgi](https://www.nytimes.com/2022/05/26/technology/pimeyes-facial-recognition-search.html) Gobronidze [as](https://netzpolitik.org/2022/pimeyes-ceo-the-user-is-the-stalker-not-the-search-engine/) of 2022.
