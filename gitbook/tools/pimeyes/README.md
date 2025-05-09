@@ -92,7 +92,7 @@ Low-resolution images,  black-and-white pictures or pictures of people whose fac
 
 ## Ethical Considerations
 
-NPR article '[Too dangerous': Why even Google was afraid to release this technology by ](https://www.npr.org/2023/10/11/1204822946/facial-recognition-search-engine-ai-pim-eyes-google)
+The use of facial recognition tools can be highly problematic from an ethical point of view. NPR's article '[Too dangerous': Why even Google was afraid to release this technology](https://www.npr.org/2023/10/11/1204822946/facial-recognition-search-engine-ai-pim-eyes-google) outlines how tools like Pimeyes&#x20;
 
 PimEyes is known for pulling incorrect images of women from [pornographic](https://www.nytimes.com/2022/05/26/technology/pimeyes-facial-recognition-search.html) sites, which is a concern that needs to be addressed.
 
