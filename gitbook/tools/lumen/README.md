@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Lumen is a project at Harvard University’s Berkman Klein Center for Internet & Society. It was built to increase transparency around online content removals. Lumen collects legal and extralegal takedown requests from large platforms (Google, Reddit, Medium, Vimeo, University of California, etc.) and private individuals or organizations, then makes these notices publicly accessible in a structured database. (Formerly known as “Chilling Effects.”)
+Lumen is a research project at Harvard University’s **Berkman Klein Center for Internet & Society that, as of 2025, houses more than 35 million takedown notices** and grows by roughly 40 000 each week. It aggregates legal and _extralegal_ removal demands from platforms such as Google, GitHub, Reddit, Medium, Vimeo, Wikipedia, **Meta (Facebook & Instagram)** and others. _(Twitter/X halted submissions in April 2023 while it reviews third-party data-sharing.)_ Formerly called “Chilling Effects”.
 
 ### Key use cases and features:
 
@@ -283,6 +283,9 @@ Lumen is a free and open source project.
 * **No Bulk Export via Website**: For large-scale or automated retrieval, you **must** use the API.
 * **Date & Result Limits**: Extremely large or unfiltered searches might be capped or require date-slicing.
 * **No Guarantee of Accuracy**: Lumen does not confirm or endorse the validity of a notice; some notices may be fraudulent or contain misinformation.
+* Coverage gaps: Twitter/X paused data-sharing on 15 Apr 2023; some other services (e.g. Stack Exchange) stopped years earlier.
+* Google omits sender names from **defamation** notices for privacy reasons, so those fields will read “Redacted”.
+* Although the software is GPL-2.0, individual notice texts remain under the terms set by the submitter; bulk redistribution of raw data may require permission.
 
 ## Ethical Considerations
 
@@ -304,6 +307,8 @@ Dan Morrill: [DMCA notice BPI Part 2 Empty Claims](https://www.youtube.com/watch
 
 [The Berkman Klein Centre for Internet & Society at Harvard University](https://github.com/berkmancenter)\
 A research-focused center studying the intersection of law, technology, and society.
+
+Current major contributors (2025): Google Search, YouTube, Meta (Facebook & Instagram), GitHub, Reddit, Wikipedia, Medium, Vimeo, DuckDuckGo, Wordpress, University of California systems. _Twitter/X not currently contributing._
 
 ## Advertising Trackers
 
