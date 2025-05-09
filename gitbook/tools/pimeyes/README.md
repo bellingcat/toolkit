@@ -30,14 +30,6 @@ By choosing "safe search" Pimeyes tries to exclude "possible adult content from 
 
 The tool provider claims that their system is deleting pictures uploaded by users for search purposes within 48 hours and that they "[do not store any private data from our users](https://pimeyes.com/en/faq)". We are not able to independently verify those claims.
 
-
-
-
-
-In recent years, the increased use of facial recognition tools has raised concerns about potential data and privacy abuse. However, when used responsibly, this technology is beneficial. For instance, in open source investigations, PimEyes can help identify individuals [targeted](https://gijn.org/resource/facial-recognition-made-easy/) by disinformation/misinformation.
-
-
-
 There is also a way around the paywall for accessing results.
 
 ## Using Google Dorks to circumvent PimEyes' paywall
