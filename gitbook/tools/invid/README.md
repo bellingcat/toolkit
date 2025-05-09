@@ -8,11 +8,11 @@ description: A toolkit that supports the verification of videos and images.
 
 [https://weverify.eu/verification-plugin/](https://weverify.eu/verification-plugin/)
 
-(v. 0.84.1 - Feb. 2015)
+(v. 0.84.1 - Feb. 2025)
 
 ### Description
 
-The InVID Verification Plugin is a comprehensive toolkit designed to assist journalists in verifying content on social networks. It offers a suite of tools to analyze and verify videos and images, including contextual information retrieval, reverse image search (Google, Yandex, Baidu), video fragmentation, and metadata extraction. The plugin supports multiple platforms, such as YouTube, Facebook, Twitter, and Instagram, making it a versatile tool for fact-checking and debunking tasks on social networks. (Some Twitter-related features may not work anymore due to the API policy change.)
+The InVID Verification Plugin is a comprehensive toolkit designed to assist journalists in verifying content on social networks. It offers a suite of tools to analyze and verify videos and images, including contextual information retrieval, several engines (Google, Lens, Bing, TinEye, Yandex, Baidu, Karma Decay, DBKF), video fragmentation, and metadata extraction. The plugin supports multiple platforms, such as YouTube, Facebook, Twitter, and Instagram, making it a versatile tool for fact-checking and debunking tasks on social networks. (Some Twitter-related features may not work anymore due to the API policy change.)
 
 {% hint style="info" %}
 If you're a journalist, fact-checker, or researcher, take a minute to apply and register to use the advanced tools. To do this, click "Advanced Tools" and then "Register". Register with your **professional email address.** Once you’re confirmed as registered, enter your email and then copy & paste the code emailed to you.
@@ -292,17 +292,20 @@ InVid is undergoing some renovations under the hood and I wasn't able to test th
 {% endtab %}
 {% endtabs %}
 
-
-
 ### **Audio**
 
 #### **Loccus (Locked Feature)**
 
 {% hint style="info" %}
-This feature changed with the most recent update, switching from loccus.ai to hiya.ai as a service provider for this feature but due to an error I wasn't able to test it yet. I will update this as soon as the issue is resolved.&#x20;
+This feature changed with the most recent update, switching from loccus.ai to hiya.ai as a service provider for this feature but due to an error I wasn't able to test it yet. I will update this as soon as the issue is resolved.
 {% endhint %}
 
-Detects AI-generated text-to-speech (voice cloning by AI), analyzing audio files to identify potential deep fake audio. Access is restricted to registered users.
+Detects AI-generated text-to-speech (voice cloning by AI), analyzing audio files to identify potential deep fake audio. Access is restricted to registered users.\
+
+
+{% hint style="info" %}
+This feature was renewed as InVid changed from Loccus to “Hiya voice-clone detector”. An updated demo will follow shortly.
+{% endhint %}
 
 {% tabs %}
 {% tab title="Loccus " %}
@@ -416,7 +419,7 @@ CrowdTangle is permanently gone. We hope that this feature will not disappear bu
 
 ## Requirements
 
-Chrome (Opera, Edge, and Firefox under development), Internet, and, for some features a professional Address
+Chromium browsers and Firefox are fully supported; Safari is not.
 
 ## Limitations
 
@@ -438,8 +441,6 @@ Tools like deepfake and AI-generated image detectors may produce false positives
 When using InVID for content verification, there is a risk of misinterpreting results, which could lead to erroneous conclusions. InVID provides tools for analyzing video authenticity by examining metadata, reverse image searching, and extracting keyframes, but the results do not automatically confirm authenticity. Researchers might misinterpret partial metadata or falsely correlate visual matches from reverse image searches, leading to an incorrect verification of content. Without a cautious and critical approach, users could mistake automated analysis for definitive proof, potentially spreading misinformation if content is improperly validated. It's essential to use InVID's findings as part of a broader verification process and corroborate with additional sources before drawing conclusions.
 {% endhint %}
 
-
-
 ## Guide
 
 [Guide To Using Reverse Image Search For Investigations](https://www.bellingcat.com/resources/how-tos/2019/12/26/guide-to-using-reverse-image-search-for-investigations/)
@@ -453,4 +454,3 @@ The InVID project has received funding from the European Union’s Horizon 2020 
 | Page Maintainer |
 | --------------- |
 | Martin Sona     |
-|                 |
