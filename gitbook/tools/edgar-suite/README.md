@@ -10,7 +10,7 @@ description: >-
 
 [https://pypi.org/project/edgar-tool/](https://pypi.org/project/edgar-tool/)
 
-* Source code is freely available on [GitHub](https://github.com/bellingcat/EDGAR) (v. 1.3.3, July 2024)
+* Source code is freely available on [GitHub](https://github.com/bellingcat/EDGAR) (v. 2.1.0; May 2025)
 * Users can download `edgar-tool` (the CLI) directly from [PyPI](https://pypi.org/project/edgar-tool/)
 
 ## EDGAR Database Overview
@@ -128,4 +128,3 @@ George Dyer (former Bellingcat Tech Fellow)
 | Page maintainer |
 | --------------- |
 | Martin Sona     |
-|                 |
