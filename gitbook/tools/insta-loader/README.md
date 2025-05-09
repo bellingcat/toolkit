@@ -10,12 +10,18 @@ description: >-
 
 [https://instaloader.github.io](https://instaloader.github.io)
 
+(as of May 9th, 2025)
+
+{% hint style="warning" %}
+Usage may lead to the loss of the Instagram account being used. Please see Limitations and Ethical Considerations before using this tool.&#x20;
+{% endhint %}
+
 ## Description
 
 Instaloader is an open-source tool for downloading and archiving content from Instagram. It is available as a command-line tool and a Python module. It allows researchers to retrieve and organize data, including media posts, stories, metadata, etc. Its versatility and ability to work with both public and private profiles (with proper authorization) can make it a valuable resource for open-source investigations.
 
 1. **Media Downloading**:
-   * Downloads photos and videos from public and private Instagram profiles, hashtags, stories, feeds, saved media, IGTV, and reels.
+   * Downloads photos and videos from public and private Instagram profiles, hashtags, Stories, feeds, saved media, **long-form videos (formerly IGTV)** and **Reels** (`--reels` flag).
    * It captures metadata such as captions, comments, geotags (such as Google Maps links), timestamps, and more.
    * Allows downloading from private profiles if you follow the account or provide valid credentials.
    * Offers optional parameters to limit downloads (e.g., specific sidecar slides, date ranges, post filters).
@@ -28,7 +34,7 @@ Instaloader is an open-source tool for downloading and archiving content from In
 ### Key Features
 
 1. **Targeted Content Retrieval**:
-   * **Profiles**: Download posts, profile pictures, tagged posts, reels, IGTV videos, stories, and highlights.
+   * **Profiles**: Download posts, profile pictures, tagged posts, reels, long-form videos (formerly IGTV, stories, and highlights.
    * **Hashtags and Locations**: Fetch posts associated with specific hashtags or geographical locations (requires login for location-based queries).
    * **User Feed and Saved Posts**: For logged-in accounts, retrieve posts from a user’s feed or saved collections.
    * **Individual Posts**: Download specific posts using their unique shortcode (e.g., `instaloader -- -SHORTCODE`).
@@ -105,7 +111,7 @@ While basic usage (e.g., downloading all posts from a profile) is straightforwar
 
 ### **Python Environment**
 
-* **Python 3.8 or higher**
+* **Python 3.9 or higher** (tested up to 3.13, 3.8 support was dropped in v4.14)
 * Primary dependencies (installed automatically with pip):
   * `requests`
   * `lxml`
@@ -118,13 +124,16 @@ While basic usage (e.g., downloading all posts from a profile) is straightforwar
 
 ## Limitations
 
+_**Heavy scripted use can trigger temporary locks or permanent bans.**_
+
 1. **Technical Barriers**:
    * Command-line usage can pose a challenge for non-technical users.
    * Python module usage requires programming knowledge.
 2. **Rate Limits and Restrictions**:
    * Instagram imposes strict rate limits that can trigger “429 Too Many Requests” errors if requests exceed certain thresholds.
    * Using proxies or VPNs may result in stricter rate limits.
-   * Instagram does **not publicly disclose** the exact thresholds for the web endpoints, so the limits can change without notice. Based on user experiences, the thresholds have become **much stricter in recent years**. For example, one user noted that previously you could make on the order of _\~200 requests per minute_ without issues, but as of late 2020, they started seeing 429 errors after only[ _2–5 requests per minute_](https://stackoverflow.com/questions/65002504/would-it-be-possible-to-use-ip-rotation-to-avoid-the-exception-toomanyrequestsex)​. In other words, Instagram dramatically lowered the allowed request rate for scraping. [Another Instaloader user](https://stackoverflow.com/questions/65067929/instagram-responded-with-http-error-429-too-many-requests) observed getting a 429 after analyzing just 2–3 posts in a row, even from different machines, indicating a very low threshold in effect​. The exact limit may vary over time or by content type – for instance, story downloads seem to [trigger limits faster than](https://github.com/instaloader/instaloader/issues/1711) regular posts (Instagram appears to “heavily rate-limit stories” requests).
+   * Instagram does **not publicly disclose** the exact thresholds for the web endpoints, so the limits can change without notice. Based on user experiences, the thresholds have become **much stricter in recent years**. For example, one user noted that previously, you could make on the order of _\~200 requests per minute_ without issues. Current [anecdotal](https://github.com/instaloader/instaloader/issues/2307) [ceiling ](https://github.com/instaloader/instaloader/issues/2524)is closer to **1–2 requests / 30s** for unauthenticated scrapes; thresholds vary by endpoint and change frequently. Community reports now place anonymous limits around 1–2 requests every 30 seconds, sometimes lower. In other words, Instagram dramatically lowered the allowed request rate for scraping. [Another Instaloader user](https://stackoverflow.com/questions/65067929/instagram-responded-with-http-error-429-too-many-requests) observed getting a 429 after analyzing just 2–3 posts in a row, even from different machines, indicating a very low threshold in effect​. The exact limit may vary over time or by content type – for instance, story downloads seem to [trigger limits faster than](https://github.com/instaloader/instaloader/issues/1711) regular posts (Instagram appears to “heavily rate-limit stories” requests).
+   * Checkpoint/401 [errors are common](https://github.com/instaloader/instaloader/issues/1937); importing browser cookies (`-b chrome` etc.) is a recommended workaround.
 3. **Data Integrity**:
    * Instaloader lacks built-in hashing to verify the authenticity of downloaded content.
 4. **Ethical and Legal Constraints**:
