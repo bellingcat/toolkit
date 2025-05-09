@@ -94,7 +94,7 @@ Another guide by PimEyes on [helping](https://pimeyes.com/en/blog/your-guide-to-
 
 ## Similar tools
 
-
+[FaceCheck.ID](https://bellingcat.gitbook.io/toolkit/more/all-tools/facecheck.id) is a similar facial recognition tool. While FaceCheck.ID only allows payment via cryptocurrency, a Pimeyes subscription can be paid via ["Credit or Debit card, PayPal, Google Pay or Apple Pay"](https://pimeyes.com/en/premium).
 
 ## Tool provider
 
