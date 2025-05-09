@@ -40,7 +40,7 @@ An efficient way to get to see which countries have BO registers freely availabl
 
 ## Requirements
 
-\-
+Internet connection
 
 ## Limitations
 
