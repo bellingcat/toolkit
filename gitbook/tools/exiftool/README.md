@@ -10,7 +10,7 @@ description: >-
 
 [https://exiftool.org/](https://exiftool.org/)
 
-(current version: 13.22 as of March 2025)
+(current version: 13.29 as of April 2025)
 
 ## Description
 
@@ -233,6 +233,7 @@ This command checks for any warnings or errors in the metadata structure of `sus
 * **Combine Tools:** Use ExifTool in conjunction with other tools like `strings`, `binwalk`, or `foremost` for comprehensive analysis.
 * **Script Automation:** Create scripts to automate metadata extraction from large datasets.
 * **Stay Ethical:** Always ensure your activities comply with legal and ethical guidelines, respecting privacy and data protection laws.
+* Since v 13.20 you can visualise tag data with the `-plot` option (SVG output). Example: `exiftool -plot GPSAltitude DIR`
 
 ***
 
