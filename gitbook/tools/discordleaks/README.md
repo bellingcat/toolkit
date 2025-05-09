@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Unicorn Riot is a non-profit media organization in the United States. In the course of its reporting on hate groups and extremist networks, Unicorn Riot’s reporters have collected Discord, Rocket.Chat, and Skype chat logs—often by monitoring or infiltrating private servers—and made them publicly accessible for journalistic and research purposes. The “DiscordLeaks” web app allows the public to browse, search, and investigate these leaked chat logs, primarily focusing on far-right groups.
+Unicorn Riot is a non-profit media organization in the United States. In the course of its reporting on hate groups and extremist networks, Unicorn Riot’s reporters have collected Discord and Rocket. Chat, and Skype chat logs—often by monitoring or infiltrating private servers—and made them publicly accessible for journalistic and research purposes. The “DiscordLeaks” web app allows the public to browse, search, and investigate these leaked chat logs, primarily focusing on far-right groups.
 
 <details>
 
@@ -26,7 +26,7 @@ As of recent reports, the DiscordLeaks archive hosts **millions of chat posts fr
 **Methodology:** Unicorn Riot journalists collected these chat logs in the course of investigating hate groups, often by **infiltrating or monitoring private Discord servers** with the help of anonymous sources. ([unicornriot.ninja](https://unicornriot.ninja/2017/charlottesville-violence-planned-discord-servers-unicorn-riot-reports/)​[github.com](./))&#x20;
 
 For example, on the eve of the Charlottesville rally (Aug 2017), an informant provided Unicorn Riot with access to Discord planning chats, which the journalists then downloaded as evidence of organized violence​([unicornriot.ninja](https://unicornriot.ninja/2017/charlottesville-violence-planned-discord-servers-unicorn-riot-reports/),​[unicornriot.ninja](https://unicornriot.ninja/2017/charlottesville-violence-planned-discord-servers-unicorn-riot-reports/)). The leaked Discord data is processed by Unicorn Riot’s team—**personal information of targets of harassment is redacted** for safety—and then uploaded in batches to the public _DiscordLeaks_ web app​([unicornriot.ninja](https://unicornriot.ninja/2017/charlottesville-violence-planned-discord-servers-unicorn-riot-reports/)). All software for the DiscordLeaks platform was developed by Unicorn Riot and volunteer engineers, enabling full-text search and cross-referencing across the leaked chats​([unicornriot.ninja](https://unicornriot.ninja/far-right-investigations-desk/),​[unicornriot.ninja](https://unicornriot.ninja/far-right-investigations-desk/)). \
-The platform also hosts logs from other chat services (like Rocket.Chat and Skype) that Unicorn Riot obtained during related investigations​([unicornriot.ninja](https://unicornriot.ninja/far-right-investigations-desk/)). Unicorn Riot emphasizes that making these primary source materials public enhances understanding of far-right tactics while supporting data journalism efforts​([unicornriot.ninja](https://unicornriot.ninja/far-right-investigations-desk/),​[unicornriot.ninja](https://unicornriot.ninja/far-right-investigations-desk/)).
+The platform also hosts logs from other chat services (like Rocket. Chat and Skype) that Unicorn Riot obtained during related investigations​([unicornriot.ninja](https://unicornriot.ninja/far-right-investigations-desk/)). Unicorn Riot emphasizes that making these primary source materials public enhances understanding of far-right tactics while supporting data journalism efforts​([unicornriot.ninja](https://unicornriot.ninja/far-right-investigations-desk/),​[unicornriot.ninja](https://unicornriot.ninja/far-right-investigations-desk/)).
 
 **Limitations Acknowledged:** Unicorn Riot notes that DiscordLeaks is _not an exhaustive record_ of all extremist chatter, only what their team could access ([github.com](./)). The archive is limited to the servers and time frames captured; some chats may be missing if servers were deleted or not fully logged​([github.com](./)). Content from the leaks is published “as-is” – **Unicorn Riot does not alter messages** beyond necessary redactions, so errors or misinformation by the original users remain in the logs​([github.com](./)). The DiscordLeaks site itself issues a **disclaimer about external links**, warning that Unicorn Riot hasn’t vetted any URLs inside the chats (which could be malicious), and advises readers to use caution and anonymity tools when browsing the leaked messages ([discordleaks.unicornriot.ninja](https://discordleaks.unicornriot.ninja/discord/user/79759)). In terms of editorial limits, Unicorn Riot has stated they withhold or censor certain details to protect individuals targeted by hate (for instance, they removed identifying info of people whom extremists discussed harming)​([unicornriot.ninja](https://unicornriot.ninja/2017/charlottesville-violence-planned-discord-servers-unicorn-riot-reports/)).&#x20;
 
@@ -40,12 +40,12 @@ Overall, Unicorn Riot presents DiscordLeaks as a research tool but cautions that
 
 1. Browsing Leaked Chat Logs
    * Users can navigate individual servers, channels, or participants within the archive.
-   * Logs span multiple platforms (Discord, Rocket.Chat, Skype), with Discord being the primary focus.
+   * Logs span multiple platforms (Discord, Rocket. Chat, Skype), with Discord being the primary focus.
 2. Searching and Filtering
    * The site provides search capabilities for specific usernames, keywords, or phrases.
    * Basic and advanced search modes help narrow down results by date range or server.
 3. Investigation of Far-Right Networks
-   * The logs often reveal organizational details, ideological discussions, and events planning.
+   * The logs often reveal organizational details, ideological discussions, and event planning.
    * Researchers and journalists can identify patterns and connections between groups or individuals.
 4. Public Access to Primary Source Material
    * Allows open scrutiny of communications that have historically been private.
@@ -70,12 +70,12 @@ Overall, Unicorn Riot presents DiscordLeaks as a research tool but cautions that
 
 * Server and Channel Logs:
   * Usernames, messages, timestamps, and attachments (where applicable).
-  * Topic-specific channels such as organizing events, sharing propaganda, or casual conversation.
+  * Topic-specific channels, such as organizing events, sharing propaganda, or casual conversation.
 * Cross-References of Activity:
   * The ability to track a specific user across multiple messages or servers.
   * Potential references to external resources, websites, or memes shared within the community.
 * Data from Other Platforms:
-  * Beyond Discord, archives from Rocket.Chat or Skype channels are also available, depending on what Unicorn Riot reporters collected.
+  * Beyond Discord, archives from Rocket. Chat or Skype channels are also available, depending on what Unicorn Riot reporters collected.
 
 ### Search and Browsing
 
@@ -102,7 +102,7 @@ Overall, Unicorn Riot presents DiscordLeaks as a research tool but cautions that
     ([unicornriot.ninja](https://unicornriot.ninja/far-right-investigations-desk/)). Observers pointed out that discussions in the chats (e.g. about weapons and running over protesters) bolstered claims that the rally organizers conspired to commit violence (​[cjr.org](https://www.cjr.org/united_states_project/charlottesville-alt-right-unicorn-riot.php)). Prosecutors in the criminal case against the Charlottesville car attacker, as well as other civil suits, also reviewed the DiscordLeak logs for relevant communications​([cjr.org](https://www.cjr.org/united_states_project/charlottesville-alt-right-unicorn-riot.php)). In these ways, Unicorn Riot’s published leaks have directly informed investigations and accountability efforts after far-right violence.
 *   **Investigative Journalism:** Many news outlets have **cited DiscordLeaks to expose extremist activities**. For example, _ProPublica_ tapped the Charlottesville Discord chat dump to report how white supremacists joked about vehicular attacks weeks before[ Heather Heyer](https://de.wikipedia.org/wiki/Heather_Heyer) was killed; while doing so, ProPublica independently verified the identities of at least two users from the leak to confirm the authenticity of the conversations​
 
-    ([propublica.org](https://www.propublica.org/article/white-supremacists-joked-about-using-cars-to-run-over-opponents-before-charlottesville),​[propublica.org](https://www.propublica.org/article/white-supremacists-joked-about-using-cars-to-run-over-opponents-before-charlottesville)). \
+    ([propublica.org](https://www.propublica.org/article/white-supremacists-joked-about-using-cars-to-run-over-opponents-before-charlottesville),​ [propublica.org](https://www.propublica.org/article/white-supremacists-joked-about-using-cars-to-run-over-opponents-before-charlottesville)). \
     &#xNAN;_&#x48;uffPost_ journalists used Unicorn Riot’s Discord chats to identify **members of hate groups embedded in institutions** – in 2019 HuffPost revealed 11 U.S. military service members as participants in[ Identity Evropa](https://app.gitbook.com/s/syFo2CguDc8O5VWEVXJP/categories)’s Discord server, after cross-referencing the leaked messages (​[vice.com](https://www.vice.com/en/article/unicorn-riot-outed-a-white-nationalist-in-the-national-guard-but-theyre-not-kicking-him-out/), ​[vice.com](https://www.vice.com/en/article/unicorn-riot-outed-a-white-nationalist-in-the-national-guard-but-theyre-not-kicking-him-out/)). Similarly, local reporters have used DiscordLeaks to link extremists to real-world actions; for instance, chat evidence from the leaks helped journalists document how [Patriot Front](https://en.wikipedia.org/wiki/Patriot_Front) members coordinated vandalism and propaganda campaigns nationwide​ ([vice.com](https://www.vice.com/en/article/patriot-front-leaked-chats-porn-habits/), ​[vice.com](https://www.vice.com/en/article/patriot-front-leaked-chats-porn-habits/)).
 *   **Academic and Analytical Research:** Scholars and extremism researchers have incorporated the DiscordLeaks dataset into their studies. A 2020 study on far-right online radicalization noted that researchers leveraged _Unicorn Riot’s Discord data from 129 different Discord servers_ to compile narratives of “redpilling” (radicalization) in those communities​
 
@@ -125,7 +125,7 @@ Overall, Unicorn Riot presents DiscordLeaks as a research tool but cautions that
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 * Beginner-Friendly (Web Browser Usage)
-  * Basic searching or browsing chat logs is straightforward; requires only a browser.
+  * Basic searching or browsing chat logs is straightforward; it requires only a browser.
 * Moderate for In-Depth Research
   * Large-scale text analysis, cross-referencing multiple users or servers, and systematic data collection may require more advanced skills.
 
@@ -145,7 +145,7 @@ Overall, Unicorn Riot presents DiscordLeaks as a research tool but cautions that
 
 * Infiltration and Privacy: The content originates from private servers that were accessed through journalistic or infiltration methods. Though published publicly, it may include sensitive or personal information.
 * Content Sensitivity: Chat logs may contain hate speech, extremist rhetoric, or graphic content. Users should proceed with caution.
-* Legal and Ethical Use: If referencing this material in publications or research, verify the context and consider potential legal implications. Always handle personal data responsibly.
+* Legal and Ethical Use: Verify the context and consider potential legal implications if referencing this material in publications or research. Always handle personal data responsibly.
 
 ## Tool provider
 
@@ -153,11 +153,10 @@ Overall, Unicorn Riot presents DiscordLeaks as a research tool but cautions that
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [x] This tool has not yet been checked for advertising trackers.
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer |
 | --------------- |
 | Martin Sona     |
-|                 |
