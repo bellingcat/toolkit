@@ -36,7 +36,7 @@ The tool provider claims that their system is deleting pictures uploaded by user
 
 In recent years, the increased use of facial recognition tools has raised concerns about potential data and privacy abuse. However, when used responsibly, this technology is beneficial. For instance, in open source investigations, PimEyes can help identify individuals [targeted](https://gijn.org/resource/facial-recognition-made-easy/) by disinformation/misinformation.
 
-Besides this, the first 10 searches are partially free. However, a subscription is required to access results (see the Cost section).
+
 
 There is also a way around the paywall for accessing results.
 
@@ -68,7 +68,9 @@ Users can design their search queries based on the photo and the site name using
 * [ ] Partially Free
 * [x] Paid
 
-The first 10 searches are partially free. A subscription is required to access the results. See the pricing [here](https://pimeyes.com/en/premium).
+The first 10 searches are partially free: It is possible to upload pictures and to see the results list but it is not possible to click on (or see) the URLs to see on which websites the pictures from the results list are appearing.&#x20;
+
+A subscription is always required to access the detailed results. See the pricing details [here](https://pimeyes.com/en/premium).
 
 ## Level of difficulty
 
