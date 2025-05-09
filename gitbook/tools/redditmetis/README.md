@@ -6,11 +6,22 @@ description: A brief one line description of this tool
 
 ## URL
 
-https://example.com
+[https://redditmetis.com](https://redditmetis.com)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+RedditMetis is a free, web-based dashboard for quick, one-off checks on any **public** Reddit account.\
+Type a username (without the `u/` prefix) and the site fetches the last 1 000 comments **and** the last 1 000 submissions made by that user, then builds an interactive report in your browser ([Homepage banner](https://redditmetis.com/)).
+
+**What the report shows**
+
+* **Activity statistics** – a heat-map of posting hours plus monthly counts of comments and submissions (helpful for spotting time-zones or daily routines).
+* **Comment analysis** – sentiment (positive / neutral / negative), readability scores (Flesch), average length and keyword cloud.
+* **Submission analysis** – top link types and external domains.
+* **Corpus overview** – most-used words, top subreddits, potentially controversial comments and entities that the user has self-disclosed (profession, nationality, etc.) with a link back to the original post for context.
+* **Export** – copy-ready CSV/JSON for offline archiving.
+
+RedditMetis was inspired by SnoopSnoo (now defunct) and rebuilt from a fork of its open-source code ([GitHub repo](https://github.com/jibalio/redditmetis)).
 
 ## Cost
 
@@ -18,7 +29,7 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+Enter a username, press **Analyse** – no technical skills required.
 
 ## Level of difficulty
 
@@ -26,35 +37,51 @@ https://example.com
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+* **No login needed** – all data comes from Reddit’s public API.
+* **Modern browser** – Chrome, Firefox, Edge or Safari 15 +. Older browsers may fail to render the interactive charts.
+* **Network speed** – the report is built client-side; a slow connection will delay the fetch.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+* **Public data only** – the tool cannot read private messages, private subreddits or removed content.
+* **Fixed scope** – each run covers exactly the latest **1 000 comments and 1 000 submissions**; older posts are ignored ([Site FAQ](https://redditmetis.com/faq)).
+* **Caching** – results are cached for **≈ 2 hours** to save API calls; very recent activity may not appear ([FAQ](https://redditmetis.com/faq)).
+* **Reddit rate limit** – the current free API ceiling is **100 requests per minute**; very busy accounts may take a minute or two to finish ([Reddit Data API wiki](https://www.reddit.com/r/redditdev/wiki/api/)).
+* **NLP accuracy** – sentiment and entity extraction can misread sarcasm or joking self-descriptions.
+* **Profile not found** – typos, shadow-bans or aggressive ad-blockers can break a lookup (FAQ).
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+* **Pattern revelation** – heat-maps can expose a user’s daily schedule or time-zone.
+* **Context matters** – automated sentiment may misclassify humour or irony; always read the source comment.
+* **No consent** – the analysed user does not approve each lookup; share results responsibly and within your local data-protection laws.
+* **Tool unaffiliated** – RedditMetis is not endorsed by Reddit.
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+[Guide: Using Reddit in OSINT](https://authentic8.com/osint-guide-reddit) (Aug 2024);\
+[Week in OSINT #2022-13](https://sector035.nl/articles/2022-13) (Apr 2022);\
+[Reddit for E-commerce – user-behaviour tips](https://buddyinfotech.com/reddit-ecommerce) (Dec 2024)
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Created by GitHub user **jibalio** and hosted on AWS. Codebase is a fork of u/orionmelt’s open-source SnoopSnoo analyser ([GitHub](https://github.com/jibalio/redditmetis)).
 
 ## Similar tools
 
-\[\[Compare this tool with similar tools which can be used for the same research purpose. What are the strengths and weaknesses of each tool?]]
+* [**Redective**](https://www.redective.com/) – comparable free report with activity charts and top subreddits.
+* **Reddit User Analyser** _(various mirrors)_ – fast, lightweight overview of favourites and word counts.
+* **Pushshift API** – historical Reddit dataset for developers; requires scripting.
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+Cookies are limited to site preferences, Google Analytics and AdSense ads (Cookie policy).
+
+| Page maintainer |
+| --------------- |
+| Martin Sona     |
+|                 |
