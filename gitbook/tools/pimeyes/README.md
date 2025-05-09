@@ -86,9 +86,11 @@ A web browser and a subscription for accessing results.
 
 ## Limitations
 
-Don't assume that only because Pimeyes presents a picture of a person as a match, that this picture necessarily shows your person of interest. Facial recognition tools can provide inaccurate results, it is important to combine the use of facial recognition tools with other research methods to be able to draw reliable conclusions.
+Don't assume that only because Pimeyes presents a picture of a person as a match, that this picture necessarily shows your person of interest. Facial recognition tools can provide inaccurate results, it is important to combine the use of facial recognition tools with other research methods to be able to draw accurate conclusions.
 
-Not all searches are effective,  see how conducting searches with PimEyes can be improved [here](https://pimeyes.com/en/blog/how-to-improve-the-facial-recognition-search-results).
+Low-resolution images,  black-and-white pictures or pictures of people whose faces are partly covered may not lead to useful results as outlined by [Pimeyes](https://pimeyes.com/en/blog/how-to-improve-the-facial-recognition-search-results).
+
+
 
 PimEyes is known for pulling incorrect images of women from [pornographic](https://www.nytimes.com/2022/05/26/technology/pimeyes-facial-recognition-search.html) sites, which is a concern that needs to be addressed.
 
