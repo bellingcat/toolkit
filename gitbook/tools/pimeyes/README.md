@@ -94,11 +94,11 @@ Low-resolution images,  black-and-white pictures or pictures of people whose fac
 
 The use of facial recognition tools can be highly problematic from an ethical point of view. NPR's article '[Too dangerous': Why even Google was afraid to release this technology](https://www.npr.org/2023/10/11/1204822946/facial-recognition-search-engine-ai-pim-eyes-google) outlines how tools like Pimeyes can enable stalking and the surveillance of people in the public space. The tool also provides [results from pornographic sites](https://www.nytimes.com/2022/05/26/technology/pimeyes-facial-recognition-search.html) and can (mis)identify women that are visible on pornographic pictures.
 
-PimEyes is known for pulling incorrect images of women from [pornographic](https://www.nytimes.com/2022/05/26/technology/pimeyes-facial-recognition-search.html) sites, which is a concern that needs to be addressed.
+Journalists and open source researchers should carefully assess whether and in which cases the use of facial recognition tools should be considered.&#x20;
 
-See Poynter's starter kit for an AI ethics policy for [newsrooms](https://www.poynter.org/ethics-trust/2024/how-to-create-newsroom-artificial-intelligence-ethics-policy/).  Also, an [interview](https://lincolncenter.asu.edu/) of experts from Arizona State's Lincoln Center for Applied Ethics about the "The ethical implications of facial recognition technology."
+Poynter providers a starter kit for an AI ethics policy for [newsrooms](https://www.poynter.org/ethics-trust/2024/how-to-create-newsroom-artificial-intelligence-ethics-policy/).  In this [interview](https://lincolncenter.asu.edu/), experts from Arizona State's Lincoln Center for Applied Ethics talk about the "The ethical implications of facial recognition technology."
 
-Josephine Lulamae's reflections on the ethical use of facial recognition tools in the AlgorithmWatch article: [War Crimes OSINT, Harassment, Doxxing Police and Protesters: Face Recognition for Everyone](https://algorithmwatch.org/en/face-recognition-for-everyone/) (2022).
+You might also want to have a look at Josephine Lulamae's reflections on the ethical use of facial recognition tools in AlgorithmWatch's article: [War Crimes OSINT, Harassment, Doxxing Police and Protesters: Face Recognition for Everyone](https://algorithmwatch.org/en/face-recognition-for-everyone/) (2022).
 
 ## Guide
 
