@@ -8,20 +8,20 @@ description: >-
 
 ## URL
 
-[https://telegramdb.org](https://telegramdb.org)
+[https://tgdb.org](https://www.tgdb.org/page/index)
 
 ## Description
 
-TelegramDB is a comprehensive search service for Telegram, enabling users to explore and analyze public Telegram groups, channels, and user information. Through its dedicated bot (**@tgdb\_bot**), researchers and casual users can:
+TelegramDB is a Telegram search engine you reach through the bot **@tgdb\_bot** or the companion site. It indexes every public group, channel and bot it can find – more than **30 million chats** and **11 billion membership records** as of January 2025 ([Telegram](https://t.me/s/tgdatabase?before=248)).\
+The bot lets you:
 
-1. **Search Public Chats:** Find public chats (groups, channels, or bots) by keyword or name.
-2. **User Presence Lookup:** Obtain information about a user’s public presence (e.g., see which public groups they have joined), a (premium-tier) query that can list the groups a user has been in​.
-3. **Data Exports for Analysis:** Generate CSV files of group members, cross-group overlaps, or “nearby” users based on shared group activity for advanced network analysis. These (premium-tier) features help map community networks and interactions.
-4. **Telegram Statistics:** Access up-to-date statistics on TelegramDB’s indexed Telegram network (e.g., total chats, users, membership counts) via the bot or website.
+1. **Look up public chats** by keyword, name or username.
+2. **Check a user’s public footprint** (`/where`) and see which groups they’ve joined.
+3. **Export data** (CSV) such as full member lists, overlapping users or “near” users for network analysis tools.
+4. **See live stats** on the TelegramDB index (`/stats`).
 
-_Recent updates:_ TelegramDB introduced a redesigned interface with an interactive menu (triggered by the `/search` command) and an improved search algorithm for more relevant results​
-
-The database allegedly comprises[ hundreds of millions of chats](https://t.me/s/tgdatabase), and the service continues to refine features for better OSINT results​. _(Launched in 2022, TelegramDB has grown rapidly; by late 2023, it reported over 1.1 million monthly active users.)_
+Usage has grown fast – TelegramDB passed **1.5 million monthly active users in April 2025** ([TGStat.com](https://tgstat.com/channel/%40tgdatabase)).\
+&#xNAN;_&#x4E;otable 2024-25 updates:_ a redesigned menu (`/search`), searches that can now return **up to 1 000 results** instead of 20, a contact-picker for user-centric commands, and a new website where you can manage your account and buy credits.
 
 ### Commands
 
@@ -48,7 +48,7 @@ The TelegramDB bot (@tgdb\_bot) offers a comprehensive set of commands to help u
 
 * **`/where [id or @username]`** – Reveal the public groups in which a user has been a member. (Requires credits for a full list; without credits it will only report the count of groups, up to 5 uses per day​.)
 * **`/members [id or @username]`** – Retrieve a CSV list of members of a specified group, including hidden or historical members (useful for archival member lists).
-* **`/network [id or @username]`** – Identify related chats (groups, channels, or forums) that share a significant number of members with the target, returned as a CSV ranked by overlap relevance.
+* **`/network [chat]`** – Identify related chats (groups, channels, or forums) that share a significant number of members with the target, returned as a CSV ranked by overlap relevance.
 * **`/near [id or @username]`** – Find “nearest” users to a given user based on shared group memberships, outputting a CSV of users who have the most groups in common (with usernames and overlap counts)​.
 * **`/credits`** – Check your credit balance and purchase additional credits through the bot’s payment interface​.
 
@@ -61,13 +61,12 @@ TelegramDB uses a credit-based model for advanced searches and data extraction:
 * **Free:** Basic searches (returns \~20 results max) and limited info queries are free​. This includes commands like `/search`/`/title` for keywords and basic `/info` lookups.
 * **Paid:** Expanded searches and premium data commands (e.g. `/where`, `/members`, `/network`, `/near`) require spending credits. These allow larger result sets and detailed data exports beyond the free limits.
 
-**Pricing:** Credits can be purchased in-app via the bot (Telegram’s built-in payment system)​. Example pricing tiers are approximately: 20 credits for €1.99, 50 credits for €4.99, 100 credits for €9.99, etc. Prices may vary by region and over time – the bot will show current offers via the `/credits` command. In practice, common searches might cost on the order of tens of credits; one informal sample showed query costs ranging from 10–27 credits, with a median of around 14 credits for typical extended searches.
+**Pricing:** TelegramDB uses credits. The **first 20 results of every search are free**; anything further or any premium command consumes credits.
 
-Specific premium command [costs scale](https://www.telegramdb.org/article/introduction) with the size of the result: for example, the `/where` command charges 3 credits base + 1 credit per 40 results returned​.  The `/search` command in premium mode has no base cost (0 credits for the first \~20 results) and then similarly charges 1 credit per \~40 additional results beyond the free threshold​. The`/members` command cost uses a custom formula (approximately `3 + 0.6 * x^0.8` for _x_ results) to account for very large member lists. _(Use `/credits` in the bot to preview the exact cost of a query before confirming – the bot always displays the credit price and number of results you will get upfront​_[_telegramdb.org_](https://telegramdb.org/article/introduction)_.)_
+_Inside the bot:_ Since April 2025, you can only buy credits with **Telegram Stars** due to Telegram and Apple rules ([TGStat.com](https://tgstat.com/channel/%40tgdatabase)). The bot shows the exact price before you confirm.\
+&#xNAN;_&#x4F;n the website:_ At ([tgdb.org](https://tgdb.org)) you can register and pay with **cryptocurrency, credit/debit card or PayPal** [TGStat.com](https://tgstat.com/channel/%40tgdatabase). Prices fluctuate, but typical bundles remain in the €2 – €10 range.
 
-**Payment methods:** Purchases are handled through Telegram’s payment platform integrated into the bot. Supported methods include standard options like credit/debit card; depending on the provider, services such as PayPal or cryptocurrency may be available​
-
-[telegramdb.org](https://telegramdb.org/article/introduction). (The bot will guide you through payment, and was reported to accept crypto and other methods in addition to bank cards. No separate website signup is required.)
+Each command tells you how many credits it will cost before it runs. Example: `/where` costs 3 credits plus 1 credit for every 40 results, while `/members` uses a sliding scale.
 
 #### Free
 
