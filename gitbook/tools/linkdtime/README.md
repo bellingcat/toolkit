@@ -1,16 +1,20 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  Build a clean timeline of any LinkedIn activity from a single URL or a whole
+  list of links.
 ---
 
 # Linkdtime
 
 ## URL
 
-https://example.com
+[https://github.com/Lucksi/LinkdTime](https://github.com/Lucksi/LinkdTime)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+LinkdTime is a command-line Python tool that scrapes LinkedIn pages to recover the precise date + time of posts, comments, replies and profile-image changes, then lays them out chronologically. You can feed it one URL to see when that action happened or pass a text file of many links to generate an HTML or TXT timeline with optional embedded images. Recognised activities include posts, comments, profile-picture changes, background-image changes and company-logo swaps ([GitHub](https://github.com/Lucksi/LinkdTime)).
+
+**Example use case** – An investigator collects all post and comment URLs made by a LinkedIn account suspected of astroturfing. Running LinkdTime reveals that the “organic” replies appeared within minutes of the original posts, supporting the hypothesis of coordinated behaviour.
 
 ## Cost
 
@@ -18,43 +22,54 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+Open-source under the GPL-3.0 licence; no paid tier ([GitHub](https://github.com/Lucksi/LinkdTime)).
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+* **Linux** with Python 3 (only platform officially tested, [GitHub](https://github.com/Lucksi/LinkdTime)).
+* Git to clone the repo;
+* Publicly reachable LinkedIn URLs (no login cookies needed).
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+* **Platform support** – not tested on Windows or macOS; manual tweaks may be required.
+* **LinkedIn layout changes** – relies on scraping; a markup update can break parsing.
+* **Rate-limits** – heavy use from one IP may trigger LinkedIn anti-bot measures; use pauses or rotating proxies.
+* **Private content** – cannot access posts visible only to logged-in connections.
+* **No GUI** – runs in the terminal; users comfortable with command lines will adapt fastest.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Scraping LinkedIn may violate its terms of service; check your legal context before large-scale use. Avoid publishing timelines that expose private individuals’ non-public activity without consent.
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+* “A LinkedIn Activity Date Finder – LinkdTime” – creator’s announcement on LinkedIn (Mar 2025, [LinkedIn](https://www.linkedin.com/posts/lucksi_github-lucksilinkdtime-a-linkedin-activity-activity-7297196149533216770-gXnx?utm_source=chatgpt.com)).
+* Featured in _OSINT Newsletter 67_ – tool showcase with workflow tips (Apr 2025, [X (formerly Twitter)](https://twitter.com/osintnewsletter/status/1910012947725689196?utm_source=chatgpt.com).
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Created and maintained by **Luca Garofalo (Lucksi)**, Italy-based open-source developer ([GitHub](https://github.com/Lucksi?utm_source=chatgpt.com)).
 
 ## Similar tools
 
-\[\[Compare this tool with similar tools which can be used for the same research purpose. What are the strengths and weaknesses of each tool?]]
+| Tool                                  | Strength                                       | Weakness                               |
+| ------------------------------------- | ---------------------------------------------- | -------------------------------------- |
+| **LinkdTime**                         | Precise timestamps, bulk timeline, open-source | Linux-only; breaks if LinkedIn changes |
+| **OSINT-Switzerland LinkedIn script** | Exports post IDs fast                          | No timeline output; limited to posts   |
+| **Wayback Machine**                   | Full historical snapshots                      | No post times; manual link lookup      |
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| Martin Sona     |
+|                 |
