@@ -349,11 +349,11 @@ Silverman, C. (2024, September 5). A look at the Information Laundromat website 
 
 ## Tool provider
 
-[Alliance for Securing Democracy at the German Marshall Fund](https://securingdemocracy.gmfus.org/),&#x20;
+[Alliance for Securing Democracy (German Marshall Fund](https://securingdemocracy.gmfus.org/) of the United States),&#x20;
 
 [Institute for Strategic Dialogue](https://www.isdglobal.org/) (based in the UK)
 
-[University of Amsterdam (Digital Methods Institute)](https://aihr.uva.nl/humanities-labs/digital-methods-initiative/digital-methods-initiative.html)
+[University of Amsterdam (Digital Methods Initiative)](https://aihr.uva.nl/humanities-labs/digital-methods-initiative/digital-methods-initiative.html)
 
 ## Advertising Trackers
 
