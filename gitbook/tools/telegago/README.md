@@ -16,7 +16,7 @@ description: >-
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Telegago is a Google Custom Search Engine (CSE) designed for Open Source Intelligence (OSINT) research on public Telegram content. By focusing on Telegram’s publicly available web domains (e.g., **t.me** and **telegram.me**), it allows users to perform targeted and precise searches without requiring a Telegram account.&#x20;
+Telegago is a Google Custom Search Engine (CSE) designed for Open Source Intelligence (OSINT) research on public Telegram content. By focusing on Telegram’s publicly available web domains (e.g., **t.me** and **telegram.me**), it allows users to perform targeted and precise searches without requiring a Telegram account.
 
 **Key Features**
 
@@ -86,8 +86,6 @@ Telegago is a Google Custom Search Engine (CSE) designed for Open Source Intelli
     * `“Kyiv explosion” "I recorded" after:2023-02-01 -rumors`
       * _(Shows recent firsthand video posts about Kyiv explosions while excluding the word “rumors.”)_
 
-
-
 ### Alternative Tools for Telegram Searches
 
 If you want to expand your search or use other Telegram-focused search tools, [here ](https://gijn.org/resource/tipsheet/tipsheet-latest-tools-investigating-with-telegram/)[are ](https://www.osintme.com/index.php/2022/10/18/the-osint-me-ultimate-guide-to-telegram-osint-and-privacy)some alternatives that are relevant and useful for Telegram OSINT:
@@ -119,6 +117,7 @@ No technical expertise is required beyond basic internet browsing skills.
 ## Limitations
 
 * **Public Content Only:** Telegago indexes only publicly accessible information on Telegram. Private or deleted content will not appear in search results.
+* CSE preview limitations: Search results usually show channel-level pages; single messages don’t always appear
 * **Search Effectiveness:** The quality of results depends on the specificity and effectiveness of your search terms.
 
 ## Ethical Considerations
