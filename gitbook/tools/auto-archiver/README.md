@@ -26,15 +26,57 @@ The Auto Archiver’s automation, expanded platform support, and use of robust a
 
 **Human Rights Investigations in Myanmar**: The tool has reportedly been used to [document social media posts related to human rights violations in Myanmar](https://osr4rightstools.org/auto-archiver), especially during the 2021 military coup. The tool enabled researchers to capture posts documenting protests, government crackdowns, and other rights abuses, many of which were at risk of being taken down by the government or by the platforms themselves under pressure.
 
+**Election Violence Evidence Preservation:** The Global Investigative Journalism Network (GIJN) has highlighted the Bellingcat Auto Archiver as a critical tool for preserving video evidence related to election violence, an issue of growing concern in 2024 and 2025. Its ability to simplify the previously complex process of video archiving led to its inclusion in GIJN's ["Top 10 Investigative Tools of 2023"](https://gijn.org/resource/revised-elections-reporting-guide-new-digging-tools/).
+
 **Tracking Misinformation and Disinformation Campaigns**: Researchers focusing on misinformation have utilized the Auto Archiver (and comparable tools like Hunchly) to [save tweets and posts involved in coordinated disinformation campaigns](https://gijn.org/resource/investigating-digital-threats-disinformation/). For example, during elections or in the context of high-profile political events, coordinated misinformation can quickly flood social media platforms, often spreading widely before accounts or posts are removed. The Auto Archiver preserves these posts, allowing analysts to later examine the strategies used in these campaigns, even if the original content is no longer publicly accessible.
 
 **Documentation of Environmental Disasters**: In [cases of environmental crises](https://www.deezer.com/de/episode/653737531), such as the 2020 wildfires in Australia or the 2023 earthquakes in Turkey and Syria, the Auto Archiver has been used to record firsthand accounts, videos, and images shared by residents. These records serve not only as evidence for immediate response and analysis but also as historical documentation that can assist future disaster response planning and research.
+
+### Supported Platforms
+
+| Platform         | Primary Archiving Method                                     | Fallback Method | Key API/Credential Requirements (Optional/Required)                   |
+| ---------------- | ------------------------------------------------------------ | --------------- | --------------------------------------------------------------------- |
+| Telegram         | Native Scraper                                               | Wayback Machine | Telegram API keys & bot token (Optional, for enhanced access)         |
+| TikTok           | Native Scraper (under active development/refinement)         | Wayback Machine | Potentially session cookies or other authentication tokens (evolving) |
+| Twitter (X)      | Native Scraper (utilizing API v2)                            | Wayback Machine | Twitter API V2 bearer token (Optional, for API access)                |
+| VKontakte (VK)   | Native Scraper                                               | Wayback Machine | VKontakte username & password (Optional, for authenticated access)    |
+| YouTube          | `yt-dlp` integration                                         | Wayback Machine | None typically required for public videos                             |
+| General Webpages | Browsertrix Crawler (likely development goal) / Direct Fetch | Wayback Machine | Internet Archive account (Optional, for Save Page Now submissions)    |
 
 ## Usage of Auto-Archiver
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Frontend of a fresh Auto Archiver in Bellingcat's hosted version of the tool.</p></figcaption></figure>
 
-#### Self-Hosting: Step-by-Step Setup (Updated)
+#### Auto-Archiver Ecosystem
+
+{% tabs %}
+{% tab title="Purpose" %}
+The Auto Archiver API serves as a crucial intermediary layer, designed to manage users, Google Sheets containing URLs for archiving, and individual URL submissions. It leverages Celery workers to asynchronously process these archive requests by invoking the capabilities of the core `bellingcat/auto-archiver` tool. This architecture allows for scalable and non-blocking archival operations. The API supports authentication via Google OAuth Apps, providing a secure method for user access, and can also grant full control via an API token. Cross-Origin Resource Sharing (CORS) is enabled, permitting web applications from different domains to interact with the API. The entire API is designed to be run using Docker, simplifying its deployment and management.  &#x20;
+{% endtab %}
+
+{% tab title="User Management" %}
+A key feature of the API is its sophisticated user management and access control system, configured via a `user-groups.yaml` file. This file defines user groups, which in turn dictate access levels, operational quotas, and the specific orchestrator configurations to be used for archiving tasks. Users can be assigned to groups either explicitly by their email address or implicitly based on their email domain. Individuals not fitting into predefined groups are assigned to a default group, whose permissions can be restricted as needed. Permissions are granular, allowing administrators to control aspects such as:  &#x20;
+
+* `read`: Defines which groups' archives a user can access (all, none, or a specific list of groups).  &#x20;
+* `read_public`: A boolean enabling search access to public archives.  &#x20;
+* `archive_url`: A boolean enabling the archiving of individual URLs within that group.  &#x20;
+* `archive_sheet`: A boolean enabling the archiving of entire spreadsheets.  &#x20;
+* `manually_trigger_sheet`: Allows manual triggering of sheet archiving.  &#x20;
+* `sheet_frequency`: Defines options for how often sheets are archived (e.g., "hourly," "daily").  &#x20;
+* `max_sheets`: Limits the total number of spreadsheets a user can manage.  &#x20;
+* `max_archive_lifespan_months`: Sets a retention period for archives in S3 storage.  &#x20;
+* `max_monthly_urls` / `max_monthly_mbs`: Imposes quotas on the number of URLs or total data size a user can archive per month.  &#x20;
+* `priority`: Assigns a "high" or "low" priority to archiving tasks from that group.
+{% endtab %}
+
+{% tab title="Auto-Archiver UI" %}
+**Purpose and Current Status:** The Auto Archiver UI, also referred to as the Auto Archiver Setup Tool, was initially presented as a prototype demo service hosted by Bellingcat at `auto-archiver.bellingcat.com`. Access to this instance is managed by Bellingcat's team and is typically granted to open-source researchers, journalists, or aligned groups, with limited quotas per user. The UI aims to provide a more user-friendly graphical interface for interacting with the Auto Archiver system, likely simplifying tasks such as submitting URLs for archiving and managing existing archives, by communicating with the backend API.  &#x20;
+
+Significantly, the code for this UI is now open-source under an MIT license and is available on GitHub (repository `bellingcat/auto-archiver-ui`, formerly potentially `bellingcat/auto-archiver-setup-tool`). This development allows organizations to deploy their own instances of the UI, providing their teams with an accessible front-end to their self-hosted Auto Archiver API and core tool. The UI is built using Vue.js and JavaScript.  &#x20;
+{% endtab %}
+{% endtabs %}
+
+### Self-Hosting: Step-by-Step Setup (Updated)
 
 1. **Set Up Google Cloud (if using Google Sheets):** Create a Google Cloud project and enable the Google Sheets (and Drive) APIs for it. Set up a Service Account in Google Cloud, download its JSON credentials, and share your Google Sheet with the service account’s email. This “non-human” account will allow the Auto Archiver to read and update your sheet on your behalf. ([gijn.org](https://gijn.org/stories/new-reporting-tools-to-archive-videos-find-qanon-networks-and-track-targets-via-online-reviews/).)
 2. **Download and Install the Tool:** You can install Auto Archiver on your own machine or server in a few ways:
@@ -55,6 +97,23 @@ The Auto Archiver’s automation, expanded platform support, and use of robust a
    * The tool will automatically determine which extractor module to use for each URL based on its domain/platform. For example, a TikTok link will invoke the TikTok extractor, a YouTube link will use the generic/yt-dlp extractor, a Telegram post will use the Telegram or Telethon extractor, and so on. Content and metadata will be saved according to your configuration (either on local storage or uploaded to your chosen cloud storage). The Wayback Machine extractor may also run as a backup to capture a snapshot of the page ([gijn.org](https://gijn.org/stories/new-reporting-tools-to-archive-videos-find-qanon-networks-and-track-targets-via-online-reviews/)).
 
 _Secure your keys:_ Remember to store API keys and credentials in a protected file or environment variable, not in plain code. Avoid exposing these secrets in any public repository or shared environment to prevent abuse or unauthorized access.
+
+<details>
+
+<summary>Configuration Deep Dive</summary>
+
+Configuration is central to tailoring the Auto Archiver's behavior:
+
+* **Orchestration Files (`orchestration.yaml`):** This YAML file is the primary configuration for the core Auto Archiver. It defines archiving strategies for different platforms, specifies storage backends (local, S3, Google Drive), configures media processing options, and sets other operational parameters. When using the Auto Archiver API, at least one `secrets/orchestration.yaml` file must be created and referenced. If the API's "archive sheets" feature is used with a database feeder for Google Sheets, an additional `orchestrationsheets-sheets.yaml` file with the `gsheet_feeder_db` feeder and database enabled and configured is also necessary.  &#x20;
+* **Environment Variables (`.env` files):** To securely manage sensitive information such as API keys, paths to credential files (like the Google Service Account JSON), and other deployment-specific settings, the Auto Archiver utilizes `.env` files. The core tool typically looks for a `.env` file in its project directory. The API component uses distinct files for different environments, specifically `.env.prod` for production and `.env.dev` for development setups.  &#x20;
+* **The New Configuration Editor:** Recognizing that manually editing YAML files can be complex and error-prone, the v1.0.0 release introduces a "Configurations Editor". This tool, accessible via the new documentation website (`auto-archiver.readthedocs.io`), is designed to simplify the creation and modification of `orchestration.yaml` files. The build process for the documentation site includes steps to generate this editor as an HTML page (`scripts/generate_settings_schema.py` and `npm run build` for `scripts/settings`). This suggests a web-based utility, possibly running client-side, that provides a guided interface for configuring the Auto Archiver, thereby lowering the technical barrier and potentially reducing configuration errors. This is a significant usability improvement, directly addressing one of the tool's noted limitations regarding setup complexity.  &#x20;
+
+- **API Deployment:** The Auto Archiver API is designed for Docker-based deployment. The GitHub repository provides Makefiles with targets like `make dev` for spinning up a development environment (which may include services like Redis) and `make prod` for production deployment. Setup involves configuring the appropriate `.env` file (`.env.dev` or `.env.prod`) and the `user-groups.yaml` file to define user access and permissions.  &#x20;
+- **UI Deployment (Self-hosted):** For organizations wishing to deploy the Auto Archiver UI, the process involves fetching the Vue.js-based source code from its GitHub repository (`bellingcat/auto-archiver-ui`). The project is built using `yarn` (e.g., `yarn build`). The resulting static assets can then be deployed to any web hosting service that supports static sites (e.g., Firebase Hosting, Netlify, AWS S3 with CloudFront, or a traditional web server). Critical to this setup is ensuring the UI is correctly configured to communicate with the organization's self-hosted instance of the Auto Archiver API. The original setup instructions mention dependencies on Firebase and Google Cloud projects , which self-hosters may need to replicate or adapt based on their infrastructure.  &#x20;
+
+The varied deployment options reflect a tiered approach to complexity. Docker offers a streamlined path for the core tool, while pip provides flexibility for Python-centric users. Full self-hosting of the API and UI offers maximum control for organizations but demands greater technical expertise and infrastructure management. This flexibility caters to a wide spectrum of users, from individual researchers to large investigative teams, though the "setup complexity" limitation becomes more pronounced as one moves towards deploying the full ecosystem.  &#x20;
+
+</details>
 
 {% hint style="warning" %}
 To secure API keys, store them in a protected environment file (e.g., `.env`) rather than directly in the code, use environment variables to access them; avoid sharing or exposing keys in public repositories to prevent unauthorized access and ensure data integrity.
