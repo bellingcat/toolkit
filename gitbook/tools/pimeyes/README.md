@@ -32,9 +32,7 @@ The tool provider claims that their system is deleting pictures uploaded by user
 
 
 
-The system explores publicly available sources like websites, blogs and criminal records for searches. However, it cannot search the social media platforms as these sites restrict its access, unlike [Clearview AI](https://www.nytimes.com/2020/01/18/technology/clearview-privacy-facial-recognition.html), a tool that law enforcement agencies have widely used. After searching, one can remove a particular result by following the steps [here](https://pimeyes.com/en/faq).&#x20;
 
-PimEyes is particularly useful for individuals whose photos have been posted without their content, according to its [FAQ](https://pimeyes.com/en/faq).  “PimEyes enables users to monitor their digital footprint and take proactive measures by issuing Takedown Requests to protect their privacy and security.” Users can expect the system to remove their pictures from future searches by filling the takedown [request ](https://pimeyes.com/en/opt-out-request-form)form. But it is not entirely full-proof, as the disclaimer notes: “Please, take into account that we are not liable for the origin of the photo, nor able to take it down from the website it was posted on.”
 
 In recent years, the increased use of facial recognition tools has raised concerns about potential data and privacy abuse. However, when used responsibly, this technology is beneficial. For instance, in open source investigations, PimEyes can help identify individuals [targeted](https://gijn.org/resource/facial-recognition-made-easy/) by disinformation/misinformation.
 
