@@ -6,7 +6,7 @@ description: Open source software for processing and analyzing images.
 
 ## URL
 
-https://imagej.com
+[https://imagej.net/ij/](https://imagej.net/ij/)
 
 ## Description
 
@@ -48,7 +48,7 @@ ImageJ provides a powerful toolkit to manipulate and analyze images at the pixel
 * **Hardware**: Minimum hardware requirements are low, but tasks involving large datasets or complex analyses (e.g., 3D rendering) benefit from higher RAM and faster CPUs.
 * **Installation**: Download and install from the official [ImageJ website](https://imagej.net/ij/) or the [Fiji website](https://fiji.sc/).
 
-**b. For ImageJ Online**
+**b. For**[ **ImageJ Online**](https://ij.imjoy.io/)
 
 * **Browser**: A modern web browser that supports Java applets or WebAssembly.
 * **Platform Independence**: Can run on any device with internet access, including tablets and Chromebooks.
@@ -66,13 +66,9 @@ ImageJ provides a powerful toolkit to manipulate and analyze images at the pixel
 
 When using ImageJ (or any similar tool) for open source research purposes, several ethical considerations must be considered to ensure responsible, lawful, and ethical usage of the software.
 
-* **Avoid Analyzing Private Individuals**: Refrain from analyzing or sharing images that contain identifiable individuals without their consent, especially if the data collection could lead to harm or violate privacy laws.
-* **Adhere to GDPR and Data Privacy Laws**: Ensure compliance with local and international privacy regulations, such as the EU's General Data Protection Regulation (GDPR), especially when working with images collected from public or private sources.
 * **Fact-Check Metadata**: Validate the authenticity of metadata (e.g., timestamps, geotags) accompanying the images to avoid using misleading or falsified information.
 * **Avoid Overinterpreting Results**: Ensure that any conclusions drawn from image analysis are based on accurate and reproducible data. Misrepresentation of findings could lead to misinformation or damage of reputations.
 * **Disclose Limitations**: Be transparent about the limitations of your analysis (e.g., errors in segmentation or counting accuracy).
-* **Respect Intellectual Property**: When using publicly available images (e.g., from social media or mapping platforms), attribute the source appropriately.
-* **Open Access to Findings**: Share your methodologies openly (without sensitive data) to enable peer review and prevent misuse.
 
 ## Guides and articles
 
