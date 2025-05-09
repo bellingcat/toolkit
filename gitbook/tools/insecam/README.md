@@ -1,16 +1,23 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  A global directory of online surveillance cameras which do not have password
+  protection.
 ---
 
 # Insecam
 
 ## URL
 
-https://example.com
+http://insecam.org \
+(Note: at the time of testing, https is not available for this site.)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Insecam shows live feeds of internet protocol (IP) surveillance cameras around the world. The live feeds are made available on this site because the camera owners did not change the camera's password to be different from the default factory setting. \
+\
+Insecam allows searches by location (city, country), camera brand, and date, i.e., date since camera setup.&#x20;
+
+The camera feeds show a variety of public spaces. Camera feeds of private residences are not shown on the site.&#x20;
 
 ## Cost
 
@@ -18,7 +25,7 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+No account registration required.&#x20;
 
 ## Level of difficulty
 
@@ -26,23 +33,28 @@ https://example.com
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+**Proceed with caution**: Please note the high number of advertising trackers and potential privacy issues.&#x20;
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+**Advertising trackers**: The Insecam site contains large numbers of advertisements, including banners and pop-ups. The site's functionalities are limited if using with an ad blocker. Any researchers using the site should take appropriate steps to protect their digital security.&#x20;
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+**Privacy and legal concerns**: People who appear in the video feeds have not explicitly consented to do so. Researchers should exercise ample caution when using the site, and in particular if sharing any images from the site. &#x20;
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+The following articles describe the general user experience and do not refer specifically to open-source research.&#x20;
+
+What I Discovered After Watching 24-Hour Surveillance Footage for a Week (VICE, 22 May, 2018, by Daisy Jones) [https://www.vice.com/en/article/what-i-discovered-after-watching-24-hour-surveillance-footage-for-a-week/](https://www.vice.com/en/article/what-i-discovered-after-watching-24-hour-surveillance-footage-for-a-week/)
+
+Insecam: the website that allows users to spy on strangers (Northeast Bylines, 4 March, 2025, by Gabriel Pazmiño) [https://northeastbylines.co.uk/business/technology/insecam-the-website-that-allows-users-to-spy-on-strangers/](https://northeastbylines.co.uk/business/technology/insecam-the-website-that-allows-users-to-spy-on-strangers/)\
+
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Anonymous
 
 ## Advertising Trackers
 
@@ -50,8 +62,7 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat volunteer team |
+|                           |
