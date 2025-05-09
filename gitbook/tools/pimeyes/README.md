@@ -90,11 +90,9 @@ Don't assume that only because Pimeyes presents a picture of a person as a match
 
 Low-resolution images,  black-and-white pictures or pictures of people whose faces are partly covered may not lead to useful results as outlined by [Pimeyes](https://pimeyes.com/en/blog/how-to-improve-the-facial-recognition-search-results).
 
-
+## Ethical Considerations
 
 PimEyes is known for pulling incorrect images of women from [pornographic](https://www.nytimes.com/2022/05/26/technology/pimeyes-facial-recognition-search.html) sites, which is a concern that needs to be addressed.
-
-## Ethical Considerations
 
 See Poynter's starter kit for an AI ethics policy for [newsrooms](https://www.poynter.org/ethics-trust/2024/how-to-create-newsroom-artificial-intelligence-ethics-policy/).  Also, an [interview](https://lincolncenter.asu.edu/) of experts from Arizona State's Lincoln Center for Applied Ethics about the "The ethical implications of facial recognition technology."
 
