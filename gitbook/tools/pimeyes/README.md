@@ -74,7 +74,7 @@ Users can design their search queries based on the photo and the site name using
 
 The first 10 searches are partially free: It is possible to upload pictures and to see the results list but it is not possible to click on (or see) the URLs to see on which websites the pictures from the results list are appearing.&#x20;
 
-A subscription is always required to access the detailed results. See the pricing details [here](https://pimeyes.com/en/premium).
+A subscription is always required to access detailed results. See the pricing details [here](https://pimeyes.com/en/premium).
 
 ## Level of difficulty
 
