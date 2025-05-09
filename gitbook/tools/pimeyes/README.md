@@ -16,7 +16,7 @@ The[ ](https://pimeyes.com/en/faq)tool provider [writes](https://pimeyes.com/en/
 
 During the last few years, many open source researchers and journalists have added the tool to their personal toolbox. For instance, Bellingcat used Pimeyes during [an investigation (by German journalists) to search for a picture of RAF terror suspect Daniela Klette](https://www.zdf.de/nachrichten/politik/deutschland/daniela-klette-verhaftung-gesichtserkennung-pimeyes-100.html) who had long been in hiding. The tool has also played a role in [identifying US Capitol January 6 rioters](https://gijn.org/stories/how-open-source-experts-identified-the-us-capitol-rioters/). It is important to note that using tools like Pimeyes is never enough to identify the same person across several pictures, facial recognition tools always have to be combined with other research methods to be able to draw reliable conclusions.
 
-To use Pimeyes, open source researchers can upload a photo of a person of interest. It is possible to upload up to five pictures of the same individual. If the quality of the picture is low, Pimeyes suggests uploading a better picture and provides tips like having the person in the picture "looking forward" or having "no elements covering the face". However, it is also possible to ignore those suggestions and to do a search with a low quality image. Our own tests show that even with a low quality image, the tool may still be able to provide results. While the tool struggled to find matches for people wearing masks, it was able to work with pictures of people who were visible from the side and often also with low resolution pictures.
+To use Pimeyes, open source researchers can upload a photo of a person of interest. It is possible to upload up to five pictures of the same individual. If the quality of the picture is low, Pimeyes suggests uploading a better picture and provides tips like having the person in the picture "looking forward" or having "no elements covering the face". However, it is also possible to ignore those suggestions and to do a search with a low quality image. Our own tests showed that even with a low quality image, the tool is often still be able to provide results. While the tool struggled to find matches for people wearing masks, it was able to work with pictures of people who were visible from the side and often also with low resolution pictures.
 
 Users can choose whether they want to search for pictures that have been indexed by Pimeyes recently or they can opt for "Any Time".
 
@@ -26,11 +26,17 @@ Pimeyes indicates when each picture in the results list has been indexed by the 
 
 <figure><img src=".gitbook/assets/Date_Stamp.png" alt="" width="239"><figcaption></figcaption></figure>
 
-Pimeyes is sometimes (but not always) able to find similar pictures that have been indexed by the tool on the same day. Keep in mind that this is not necessarily the day when the picture was published online. While working on long-term investigation, searching for the same picture at different points in time can therefore yield different results.&#x20;
+The tool is sometimes (but not always) able to find pictures that have been indexed by the tool on the same day. Keep in mind that this is not necessarily the day when the picture was published online. While working on long-term investigation, searching for the same picture at different points in time can yield new results.&#x20;
 
-By choosing "safe search" Pimeyes tries to exclude "possible adult content from results." There is also a "deep search" [option](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9) that is only available to users with the most expensive plan and which claims to search the index ["more thoroughly"](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9).
+By choosing "safe search" Pimeyes tries to exclude "possible adult content from results." which otherwise can show up. There is also a "deep search" [option](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9) that is only available to users with the most expensive plan and which claims to search the index ["more thoroughly"](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9).
 
 The tool provider claims that their system is deleting pictures uploaded by users for search purposes within 48 hours and that they "[do not store any private data from our users](https://pimeyes.com/en/faq)". We are not able to independently verify those claims.
+
+Pimeyes is a paid tool. However,&#x20;
+
+
+
+
 
 There is also a way around the paywall for accessing results.
 
