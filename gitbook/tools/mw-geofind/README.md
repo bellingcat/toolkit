@@ -1,8 +1,5 @@
 ---
-description: >-
-  MW Geofind is a tool designed to help users identify YouTube videos that have
-  been tagged with a specific location, facilitating the exploration of global
-  content from a geographical perspective.
+description: MW Geofind is a tool designed to help users identify geotagged YouTube videos.
 ---
 
 # MW Geofind
@@ -19,26 +16,23 @@ MW Geofind is an online tool designed for identifying Youtube videos that have b
 
 _**Channel Search**_
 
-* **Channel Search**: search channel(s) for geotagged videos by username, channel or playlist. These can be submitted as a comma separated list of multiple videos, playlists, or channels.
+* **Channel Search**: search channels for geotagged videos by username, channel or playlist. These can be submitted as a comma separated list of multiple videos, playlists, or channels.
 
-_**Topic and Location search**_
+_**Keyword and Location search**_
 
-* **Topic search**: search by keywords with keyword operators for boolean searches.
-* **Location search**: search by a named location, the users current location or a random location for a user specified radius.
-  * **Keywords**: search by keywords with keyword operators for boolean searches.
+* **Keyword search**: search by keywords with keyword operators for boolean searches.
+* **Location search**: search by a named location, with a user specified radius.
 * **Filter search results**: Sort by and filter search results by timeframe, language, safe search, duration, page limit, live events only, licensed with creative commons, high quality only and 3D only.
 
-_**All searches**_
+_**Other functions:**_&#x20;
 
-* **Dark mode toggle**
-* **Full screen map**
-* **Geo tag list search results**: filter by language and search within the results.
-* **Map**: a map to visualise the geographic location of the tagged video.
-* **Reset map to north**
-* **Sharing:** share the search results as a link.
-* **Zoom tool:** zoom in and out on the map.
+* Full screen
+* Map that visualises the geographic location of search results
+* Reset map to north&#x20;
+* Share search results as a link
+* Zoom tool
 
-Example search results for the search location _Amsterdam:_
+**Example: search results for the search location&#x20;**_**Amsterdam:**_
 
 <figure><img src=".gitbook/assets/Screenshot 2024-05-10 at 10.33.15 AM.png" alt="Screenshot of search results for the search location Amsterdam. The top of the screen is a green and blue map with images of geotagged videos. The bottom of the screen is the search interface. "><figcaption><p> Screenshot of search results for the search location Amsterdam.</p></figcaption></figure>
 
@@ -66,7 +60,7 @@ Latest changes: [https://github.com/mattwright324/youtube-geofind/commits/master
 
 MW Geofind is subjected to the following limitations:
 
-* **API rate limits:** searches are rate limited by YouTube. The application was allotted `1,000,000 quota units` which was the default at the time it was made (for more details see [Stack Overflow](https://stackoverflow.com/questions/15568405/how-can-i-calculate-my-youtube-api-usage/15580411#15580411)).&#x20;
+* **API rate limits:** searches are rate limited by YouTube. Rate limits are reset once a day at 9am Pacific time. If users find that the tool does not function, they should check again in the morning of Pacific time.&#x20;
 * **Geographical Coverage**: Its effectiveness and accuracy might vary across different geographical locations.
 * **Accuracy of location tags:** It is important to independently verify the location of any video that you find via the tool. The provided location might not be correct since Youtube users might add incorrect location information to their videos.
 
@@ -74,10 +68,8 @@ Be aware that the tool is not able to provide all videos that can be found on Yo
 
 ## Ethical Considerations
 
-When using MW Geofind for research purposes, researchers should be aware of several ethical considerations:
-
-* **Privacy and Confidentiality**: Ensuring that the data collected or used does not infringe on individual privacy rights or reveal confidential information.
-* **Compliance with Laws and Regulations**: Adhering to all applicable laws, regulations, and ethical guidelines related to data protection, privacy, and research activities.
+* **Privacy and Confidentiality**: Ensure that the data collected or used does not infringe on individual privacy rights or reveal confidential information.
+* **Compliance with Laws and Regulations**: Adhere to all applicable laws, regulations, and ethical guidelines related to data protection, privacy, and research activities.
 
 ## Guides and articles
 
@@ -112,7 +104,7 @@ Matthew Wright [https://mattw.io/](https://mattw.io/) - United States
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat Volunteer Team/Unassigned |
-|                                      |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
+|                           |
