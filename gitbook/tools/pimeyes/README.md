@@ -16,13 +16,13 @@ The[ ](https://pimeyes.com/en/faq)tool provider [writes](https://pimeyes.com/en/
 
 During the last few years, open source researchers and journalists have added the tool to their personal toolbox. For instance, Bellingcat used Pimeyes during [an investigation (by German journalists) to search for a picture of RAF terror suspect Daniela Klette](https://www.zdf.de/nachrichten/politik/deutschland/daniela-klette-verhaftung-gesichtserkennung-pimeyes-100.html) who had long been in hiding. The tool has also played a role in [identifying US Capitol January 6 rioters](https://gijn.org/stories/how-open-source-experts-identified-the-us-capitol-rioters/). It is important to note that using tools like Pimeyes is never enough to identify the same person across several pictures, facial recognition tools always have to be combined with other research methods if a researcher wants to be able to draw reliable conclusions.
 
-To use Pimeyes, simply upload a photo of a person of interest. It is possible to upload up to five pictures of the same individual. If the quality of the picture is low, Pimeyes suggests uploading a better picture and provides tips like having the person in the picture "looking forward" or having "no elements covering the face". However, it is also possible to ignore those suggestions and to do a search with a low quality image. Our own tests showed that even with a low quality image, the tool is often still be able to provide results. While the tool struggled to find matches for people wearing masks, it was able to work with pictures of people who were visible from the side and low resolution pictures.
+To use Pimeyes, simply upload a photo of a person of interest. It is possible to upload up to five pictures of the same individual. If the quality of the picture is low, Pimeyes suggests uploading a better picture and provides tips like having the person in the picture "looking forward" or having "no elements covering the face". However, it is also possible to ignore those suggestions and to do a search with a low quality image. Our own tests showed that even with a low quality image, the tool is often still able to provide results. While the tool struggled to find matches for people wearing masks, it was also able to work with pictures of people who were visible from the side.
 
 Users can choose whether they want to search for pictures that have been indexed by Pimeyes recently or they can opt for "Any Time".
 
 <figure><img src=".gitbook/assets/Time_Date_Pimeyes.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Pimeyes indicates when each picture in the results list has been indexed. This can be seen at the bottom of the information box that comes up when clicking on a listed picture:
+Pimeyes shows when each picture in the results list has been indexed. This can be seen at the bottom of the information box that comes up when clicking on a listed picture:
 
 <figure><img src=".gitbook/assets/Date_Stamp.png" alt="" width="239"><figcaption></figcaption></figure>
 
