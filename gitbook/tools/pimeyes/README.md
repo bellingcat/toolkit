@@ -36,13 +36,9 @@ Pimeyes is a paid tool. While users can receive a list of pictures with similar 
 
 To demonstrate this, we uploaded an image of the late former prime minister of Pakistan, Zulfikar Ali Bhutto. The tool provided several results but without a subscription, it was not possible to click on "Open website" for any of the results.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-22 at 11.26.41 PM (1).png" alt=""><figcaption></figcaption></figure>
-
 However, each of the photos in the results list displayed an imcomplete URL, in this case "https://thefrontierpos....".
 
-
-
-
+<figure><img src=".gitbook/assets/Screenshot 2025-01-22 at 11.26.41 PM (1).png" alt=""><figcaption><p>Example of one of several search results after uploading a picture of the former prime minister of Pakistan, Zulfikar Ali Bhutto. </p></figcaption></figure>
 
 By predicting how the full website URL might be called, we can get a required result without any payment.
 
