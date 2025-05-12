@@ -44,7 +44,7 @@ Typing this incomplete URL into search engines brought up the the name "The Fron
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-22 at 11.41.14 PM.png" alt=""><figcaption><p>Google Images results for a search for a name and the URL of the website to which a Pimeyes result might be linking.</p></figcaption></figure>
 
-The brought up several pictures of Zulfikar Ali Bhutto on the website of The Frontier Post, including the photo that had also showed up in our Pimeyes search results. Open source researchers can now click on the URL to this phot to continue their research.&#x20;
+The search brought up several pictures of Zulfikar Ali Bhutto from the website of The Frontier Post, including the photo that had also showed up in our Pimeyes search results. We could simply click on the URL to this photo to learn more.
 
 ## Cost
 
