@@ -34,11 +34,15 @@ The tool provider claims that their system is deleting pictures uploaded by user
 
 Pimeyes is a paid tool. While users can receive a list of pictures with similar looking people when uploading a picture to the free test version, they can not see on which websites those pictures can be found. However, in some cases open source researchers can also use Google dorks to try to find out more about the pictures in the results list.
 
-To demonstrate this, we uploaded an image of the late [former](https://i.tribune.com.pk/media/images/48389-zabpic-1491300516/48389-zabpic-1491300516-400x230.webp) prime minister of Pakistan, Zulfikar Ali Bhutto.
-
-Running the image through PimEyes provided multiple results but access requires a subscription. Selecting the required result shows us Bhutto's photo alongside an incomplete link:
+To demonstrate this, we uploaded an image of the late former prime minister of Pakistan, Zulfikar Ali Bhutto. The tool provided several results but without a subscription, it was not possible to click on "Open website" for any of the results.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-22 at 11.26.41 PM (1).png" alt=""><figcaption></figcaption></figure>
+
+However, each of the photos in the results list displayed an imcomplete URL, in this case "https://thefrontierpos....".
+
+
+
+
 
 By predicting how the full website URL might be called, we can get a required result without any payment.
 
