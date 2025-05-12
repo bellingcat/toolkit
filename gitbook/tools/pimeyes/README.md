@@ -84,7 +84,7 @@ You might also want to have a look at Josephine Lulamae's reflections on the eth
 
 Pimeyes' own [user guide.](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9)
 
-Henk van Ess: [Facial Recognition Made Easy](https://gijn.org/resource/facial-recognition-made-easy/)< Global Investigative Journalism Network, 2023.
+Henk van Ess: [Facial Recognition Made Easy](https://gijn.org/resource/facial-recognition-made-easy/), Global Investigative Journalism Network, 2023.
 
 ## Similar tools
 
@@ -94,7 +94,7 @@ While FaceCheck.ID only allows payment via cryptocurrency, a Pimeyes subscriptio
 
 ## Tool provider
 
-The website does not provide details about the tool provider. According to news reports, the details [surrounding](https://www.washingtonpost.com/technology/2021/05/14/pimeyes-facial-recognition-search-secrecy/) the initial [ownership](https://www.nytimes.com/2022/05/26/technology/pimeyes-facial-recognition-search.html) are murky. The new owner of PimEyes is [Giorgi](https://www.nytimes.com/2022/05/26/technology/pimeyes-facial-recognition-search.html) Gobronidze [as](https://netzpolitik.org/2022/pimeyes-ceo-the-user-is-the-stalker-not-the-search-engine/) of 2022.
+The website does not provide details about the tool provider. The CEO of PimEyes is [Giorgi Gobronidze ](https://www.nytimes.com/2022/05/26/technology/pimeyes-facial-recognition-search.html)[as](https://netzpolitik.org/2022/pimeyes-ceo-the-user-is-the-stalker-not-the-search-engine/) of 2022. You can read more about Pimeyes' ownership details in various several reports, for instance [here](https://www.washingtonpost.com/technology/2021/05/14/pimeyes-facial-recognition-search-secrecy/) and [here](https://www.nytimes.com/2022/05/26/technology/pimeyes-facial-recognition-search.html).&#x20;
 
 ## Advertising Trackers
 
