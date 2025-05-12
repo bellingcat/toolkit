@@ -32,7 +32,7 @@ Pimeyes also offers a "safe search" feature which tries to exclude "possible adu
 
 The tool provider claims that their system is deleting pictures uploaded by users for search purposes within 48 hours and that they "[do not store any private data from our users](https://pimeyes.com/en/faq)". We are not able to independently verify those claims.
 
-Pimeyes is a paid tool. While users can receive a list of pictures with similar looking people when uploading a picture to the free test version, they can not see on which websites those pictures can be found. However,  Google dorks can help find out
+Pimeyes is a paid tool. While users can receive a list of pictures with similar looking people when uploading a picture to the free test version, they can not see on which websites those pictures can be found. However,  you can also use Google dorks to try to find out more.
 
 
 
