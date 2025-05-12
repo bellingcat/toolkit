@@ -40,13 +40,15 @@ However, each of the photos in the results list displayed an imcomplete URL, in 
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-22 at 11.26.41 PM (1).png" alt=""><figcaption><p>Example of one of several search results after uploading a picture of the former prime minister of Pakistan, Zulfikar Ali Bhutto. </p></figcaption></figure>
 
-Typing this incomplete URL into search engines brought up the the name "The Frontier Post", a local Pakistan site, and the full URL of their website.&#x20;
-
-Taking cues from this, we'll use a site operator, and our complete search on Google will be: "Zulfikar Ali Bhutto" site:thefrontierpost.com
+Typing this incomplete URL into search engines brought up the the name "The Frontier Post", a local Pakistan site, and the full URL of their website. We now searched for "Zulfikar Ali Bhutto" site:thefrontierpost.com on Google:
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-22 at 11.41.14 PM.png" alt=""><figcaption></figcaption></figure>
 
-The search is a hit and here's the link to the required [result](https://thefrontierpost.com/zulfikar-ali-bhutto-an-ideology/), an exact match of the result that PimEyes yielded. This article was published two years ago, which can be checked against PimEyes date beneath the result that states "indexed on August 25, 2023", confirming our search result matches the one from the tool.
+The search brought up&#x20;
+
+
+
+is a hit and here's the link to the required [result](https://thefrontierpost.com/zulfikar-ali-bhutto-an-ideology/), an exact match of the result that PimEyes yielded. This article was published two years ago, which can be checked against PimEyes date beneath the result that states "indexed on August 25, 2023", confirming our search result matches the one from the tool.
 
 Users can design their search queries based on the photo and the site name using various Google operators.
 
