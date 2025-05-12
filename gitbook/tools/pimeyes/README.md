@@ -28,7 +28,7 @@ Pimeyes shows when each picture in the results list has been indexed. This can b
 
 The tool is sometimes (but not always) able to find pictures that have been indexed by Pimeyes on the same day. Keep in mind that this is not necessarily the day when the picture was published online. While working on long-term investigations, searching for the same picture at different points in time can yield new results.&#x20;
 
-Pimeyes also offers a "safe search" feature which tries to exclude "possible adult content from results". Be aware that this type of content can otherwise show up in the search results. There is also a "deep search" [option](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9) that is only available to users with the most advanced plan and which claims to search the index ["more thoroughly"](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9).
+Pimeyes also offers a "safe search" feature which tries to exclude "possible adult content from results". Be aware that this type of content may otherwise show up in the search results. There is also a "deep search" [option](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9) that is only available to users with the most advanced plan and which claims to search the index ["more thoroughly"](https://pimeyes.com/en/blog/how-to-use-pimeyes-a-brief-guide#paragraph9).
 
 The tool provider claims that their system is deleting pictures uploaded by users for search purposes within 48 hours and that they "[do not store any private data from our users](https://pimeyes.com/en/faq)". We are not able to independently verify those claims.
 
