@@ -42,15 +42,9 @@ However, each of the photos in the results list displayed an imcomplete URL, in 
 
 Typing this incomplete URL into search engines brought up the the name "The Frontier Post", a local Pakistan site, and the full URL of their website. We now searched for "_Zulfikar Ali Bhutto" site:thefrontierpost.com_ on Google:
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-22 at 11.41.14 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-01-22 at 11.41.14 PM.png" alt=""><figcaption><p>Google Images results for a search for a name and the URL of the website to which a Pimeyes result might be linking.</p></figcaption></figure>
 
-The search brought up&#x20;
-
-
-
-is a hit and here's the link to the required [result](https://thefrontierpost.com/zulfikar-ali-bhutto-an-ideology/), an exact match of the result that PimEyes yielded. This article was published two years ago, which can be checked against PimEyes date beneath the result that states "indexed on August 25, 2023", confirming our search result matches the one from the tool.
-
-Users can design their search queries based on the photo and the site name using various Google operators.
+The brought up several pictures of Zulfikar Ali Bhutto on the website of The Frontier Post, including the photo that had also showed up in our Pimeyes search results. Open source researchers can now click on the URL to this phot to continue their research.&#x20;
 
 ## Cost
 
