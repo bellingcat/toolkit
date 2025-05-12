@@ -40,7 +40,7 @@ However, each of the photos in the results list displayed an imcomplete URL, in 
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-22 at 11.26.41 PM (1).png" alt=""><figcaption><p>Example of one of several search results after uploading a picture of the former prime minister of Pakistan, Zulfikar Ali Bhutto. </p></figcaption></figure>
 
-Typing this incomplete URL into search engines brought up the the name "The Frontier Post", a local Pakistan site, and the full URL of their website. We now searched for "Zulfikar Ali Bhutto" site:thefrontierpost.com on Google:
+Typing this incomplete URL into search engines brought up the the name "The Frontier Post", a local Pakistan site, and the full URL of their website. We now searched for "_Zulfikar Ali Bhutto" site:thefrontierpost.com_ on Google:
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-22 at 11.41.14 PM.png" alt=""><figcaption></figcaption></figure>
 
