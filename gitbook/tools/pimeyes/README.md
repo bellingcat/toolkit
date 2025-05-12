@@ -40,7 +40,7 @@ However, each of the photos in the results list displayed an imcomplete URL, in 
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-22 at 11.26.41 PM (1).png" alt=""><figcaption><p>Example of a Pimeyes search result. Each result comes with information on when the photo was indexed by Pimeyes (here on August 25, 2023). </p></figcaption></figure>
 
-Typing this incomplete URL into search engines brought up the the name "The Frontier Post", a local Pakistan site, and the full URL of their website. We now searched for "_Zulfikar Ali Bhutto" site:thefrontierpost.com_ on Google:
+Typing this incomplete URL into search engines brought up the the name "The Frontier Post", a local Pakistan site, and the full URL of their website. It was now possible to simply search for "_Zulfikar Ali Bhutto" site:thefrontierpost.com_ on Google:
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-22 at 11.41.14 PM.png" alt=""><figcaption><p>Google Images results for a search for a name and the URL of the website to which a Pimeyes result might be linking.</p></figcaption></figure>
 
