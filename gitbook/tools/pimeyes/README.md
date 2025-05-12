@@ -40,7 +40,7 @@ Running the image through PimEyes provided multiple results but access requires 
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-22 at 11.26.41 PM (1).png" alt=""><figcaption></figcaption></figure>
 
-If you need these results urgently for an investigation, this might tempt you to pay $14.99 for one-time full access. But there’s another way around it: by predicting the answer to our search query, we can get a required result without any payment.
+By predicting how the full website URL might be called, we can get a required result without any payment.
 
 We know this personality is well-known, so the first keyword for our search is "Zulfikar Ali Bhutto." The site name appears to be "thefrontierpos," which is incomplete. A further search shows that this site is likely a Pakistani local publication known as "The Frontier Post." Taking cues from this, we'll use a site operator, and our complete search on Google will be: "Zulfikar Ali Bhutto" site:thefrontierpost.com
 
