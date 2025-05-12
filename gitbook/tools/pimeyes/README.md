@@ -38,7 +38,7 @@ To demonstrate this, we uploaded an image of the late former prime minister of P
 
 However, each of the photos in the results list displayed an imcomplete URL, in this case "https://thefrontierpos....".
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-22 at 11.26.41 PM (1).png" alt=""><figcaption><p>Example of one of several search results after uploading a picture of the former prime minister of Pakistan, Zulfikar Ali Bhutto. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-01-22 at 11.26.41 PM (1).png" alt=""><figcaption><p>Example of a Pimeyes search result. Each result comes with information on when the photo was indexed by Pimeyes (here on August 25, 2023). </p></figcaption></figure>
 
 Typing this incomplete URL into search engines brought up the the name "The Frontier Post", a local Pakistan site, and the full URL of their website. We now searched for "_Zulfikar Ali Bhutto" site:thefrontierpost.com_ on Google:
 
