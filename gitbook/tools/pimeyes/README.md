@@ -34,7 +34,7 @@ The tool provider claims that their system is deleting pictures uploaded by user
 
 Pimeyes is a paid tool. While users can receive a list of pictures with similar looking people when uploading a picture to the free test version, they can not see on which websites those pictures can be found. However, in some cases open source researchers can also use Google dorks to try to find out more about the pictures in the results list.
 
-To demonstrate this, we uploaded an image of the late former prime minister of Pakistan, Zulfikar Ali Bhutto. The tool provided several results but without a subscription, it was not possible to click on "Open website" for any of the results.&#x20;
+To demonstrate this, we uploaded an image of the late former prime minister of Pakistan, Zulfikar Ali Bhutto. The tool provided several pictures of him as a result but without a subscription, it was not possible to click on "Open website" for any of them.
 
 However, each of the photos in the results list displayed an imcomplete URL, in this case "https://thefrontierpos....".
 
@@ -42,7 +42,7 @@ However, each of the photos in the results list displayed an imcomplete URL, in 
 
 Typing this incomplete URL into search engines brought up the the name "The Frontier Post", a local Pakistan site, and the full URL of their website. It was now possible to simply search for "_Zulfikar Ali Bhutto" site:thefrontierpost.com_ on Google:
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-22 at 11.41.14 PM.png" alt=""><figcaption><p>Google Images results for a search for a name and the URL of the website to which a Pimeyes result might be linking.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Zulfikar 2.png" alt=""><figcaption><p>The final result by using Google dorks</p></figcaption></figure>
 
 The search brought up several pictures of Zulfikar Ali Bhutto from the website of The Frontier Post, including the photo that had also showed up in our Pimeyes search results. We could simply click on the URL to this photo to learn more.
 
@@ -76,7 +76,7 @@ The use of facial recognition tools can be highly problematic from an ethical po
 
 Journalists and open source researchers should carefully assess whether and in which cases the use of facial recognition tools should be considered.&#x20;
 
-Poynter providers a starter kit for an AI ethics policy for [newsrooms](https://www.poynter.org/ethics-trust/2024/how-to-create-newsroom-artificial-intelligence-ethics-policy/). In this [interview](https://lincolncenter.asu.edu/), experts from Arizona State's Lincoln Center for Applied Ethics talk about the "The ethical implications of facial recognition technology."
+Poynter provides a starter kit for an AI ethics policy for [newsrooms](https://www.poynter.org/ethics-trust/2024/how-to-create-newsroom-artificial-intelligence-ethics-policy/). In this [interview](https://news.asu.edu/20211117-solutions-ethical-implications-facial-recognition-technology), experts from Arizona State's Lincoln Center for Applied Ethics talk about the "The ethical implications of facial recognition technology."
 
 You might also want to have a look at Josephine Lulamae's reflections on the ethical use of facial recognition tools in AlgorithmWatch's article: [War Crimes OSINT, Harassment, Doxxing Police and Protesters: Face Recognition for Everyone](https://algorithmwatch.org/en/face-recognition-for-everyone/) (2022).
 
