@@ -155,6 +155,7 @@
   * [Overpass Turbo](tools/overpass-turbo/README.md)
   * [PeakVisor](tools/peakvisor/README.md)
   * [Picuki](tools/picuki/README.md)
+  * [PimEyes](tools/pimeyes/README.md)
   * [Pinpoint](tools/pinpoint/README.md)
   * [PixPlot](tools/pixplot/README.md)
   * [Planet Labs](tools/planet-labs/README.md)
