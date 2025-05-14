@@ -36,7 +36,7 @@ Street views are generally available on the road networks, indicated by the thic
 
 <img src=".gitbook/assets/right-click.png" alt="" data-size="original">
 
-See above: From the regular map view, point to the main road, right-click to show a shortcut menu > select the first item "panoramic preview".&#x20;
+See above: From the regular map view, point to the main road, right-click to show a shortcut menu > select the first item which means "panoramic preview" in English.&#x20;
 
 See below: The 360º preview is shown.
 
