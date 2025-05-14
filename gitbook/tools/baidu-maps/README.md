@@ -72,9 +72,9 @@ A 3D view is available. Baidu Maps also offers an API for building third-party a
 
 ### Similar tools
 
-Open-source researchers can cross-reference the other leading mapping services, including AMap (Gaode Maps) and Tencent Map (QQ Maps).
+Open-source researchers can cross-reference with other leading mapping services, including AMap (Gaode Maps) and Tencent Map (QQ Maps).
 
-For open-source researchers accessing Chinese map tools from overseas, Baidu Maps is the only tool that provides street view on the web browser. (Street view is not available on AMap, and is only available in Tencent Maps' mobile version.)
+For open-source researchers accessing Chinese map tools from overseas, Baidu Maps is the only tool that provides street view on the web browser. (Street view is not available on AMap, and is only available in Tencent Map's mobile version.)
 
 Note that all three mapping tools use (at least in part) the BeiDou Navigation Satellite System 北斗卫星导航系统 for their satellite and positioning capabilities. BeiDou is the global positioning and satellite technology developed by China, and [competes with GPS and Galileo](https://www.gpsworld.com/chinas-beidou-challenges-u-s-gps-dominance/). The exact ways that BeiDou is leveraged depends on the device, the chip, and the location where the mapping tool is used. &#x20;
 
