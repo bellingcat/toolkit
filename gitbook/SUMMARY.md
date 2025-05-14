@@ -1,11 +1,12 @@
 # Table of contents
 
-* [About](README.md)
+* [About](pages/README.md)
 * [Most Used](most-used.md)
 * [New Tools](new-tools.md)
 
 ## ⚒️ Categories
 
+* [Toolkit Categories](categories/index.md)
 * [Maps & Satellites](categories/maps-and-satellites/maps-and-satellites.md)
   * [Maps](categories/maps-and-satellites/maps/maps.md)
   * [Satellite Imagery](categories/maps-and-satellites/satellite-imagery/satellite-imagery.md)
