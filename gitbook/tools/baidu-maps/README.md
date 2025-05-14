@@ -52,7 +52,7 @@ The "time machine" function allows you to access older street view images, going
 
 **The Enigma of Coordinates in China**
 
-Most of the world uses the coordinate system WGS-84 (colloquially known as Earth coordinates), whereas China uses GCJ-02 (Mars coordinates). GCJ-02 uses an encryption algorithm that applies random offsets to the latitude and longitude of locations. Obfuscating the geographic data is for [national security purposes](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China).
+Most of the world uses the coordinate system [WGS-84](https://en.wikipedia.org/wiki/World_Geodetic_System) (colloquially known as Earth coordinates), whereas China uses GCJ-02 (Mars coordinates). GCJ-02 uses an encryption algorithm that applies random offsets to the latitude and longitude of locations. Obfuscating the geographic data is for [national security purposes](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China).
 
 Baidu Maps goes even further in its DD-09 coordinates system, applying additional encryption based on GCJ-02.
 
