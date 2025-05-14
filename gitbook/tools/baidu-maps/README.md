@@ -68,7 +68,7 @@ To search by coordinates instead, enter the coordinates (longitude first) and ch
 
 **3D models**
 
-A 3D view is available. Baidu Maps also offers API for building third-party apps that leverage 3D models and live data: [https://lbs.baidu.com/solutions/threedsvisualization](https://lbs.baidu.com/solutions/threedsvisualization)
+A 3D view is available. Baidu Maps also offers an API for building third-party apps that leverage 3D models and live data: [https://lbs.baidu.com/solutions/threedsvisualization](https://lbs.baidu.com/solutions/threedsvisualization)
 
 ### Similar tools
 
