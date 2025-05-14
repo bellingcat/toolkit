@@ -19,6 +19,8 @@ GovMap was developed by the Israeli government to provide the public with detail
 
 According to the [tool](https://www.gov.il/en/departments/topics/research-govmap/govil-landing-page), the map uses “government offices as \[their] data sources” and [is a collaboration project among them with the Survey of Israel as the lead. ](https://www.gov.il/en/departments/topics/research-govmap/govil-landing-page) &#x20;
 
+### Navigating between the English and Hebrew Homepages
+
 For beginner users, note that the Hebrew user interface is slightly different from the English user interface, given the difference in the writing system between the two. Users are immediately taken to the landing page in Hebrew, and they can choose to switch to English on the bottom right.&#x20;
 
 <figure><img src=".gitbook/assets/2025-05-03_19-56-08.png" alt="" width="357"><figcaption><p>This is the landing page in Hebrew, switch languages at the bottom right. </p></figcaption></figure>
