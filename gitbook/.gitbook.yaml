@@ -1,0 +1,6 @@
+root: ./
+
+structure:
+  readme: ./pages/README.md
+  summary: ./SUMMARY.md
+
