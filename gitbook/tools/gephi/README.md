@@ -20,27 +20,30 @@ Gephi has the ability to create [detailed](https://www.youtube.com/watch?v=GXtbL
 
 Gephi includes built-in support for computing **key metrics** that help identify important nodes in a network. Three core metrics commonly used are **degree centrality**, **betweenness centrality**, and **closeness centrality:**
 
-* [**Degree Centrality**](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/) measures how many direct connections (edges) a node has. A node with a high degree centrality has **many links to others**, making it well-connected. It’s essentially a count of immediate neighbors.
-  * _What it indicates:_ Nodes with higher degree centrality can be influencers or hubs that directly reach many others.
-  * _Example:_ In a Twitter network, a user with connections to many others (through follows or mentions) would have high degree centrality.
-* [**Betweenness Centrality**](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/) measures how often a node lies on the **shortest paths between other nodes**​. In other words, a node with high betweenness centrality is a critical **broker or bridge** in the network.
-  * _What it indicates:_ Such nodes connect different clusters or sections of the graph; they may not have the most connections, but they control information or resource flow by being on the paths that link others. A higher betweenness means a greater brokerage role. They act as gatekeepers or intermediaries.
-  * _Example:_ In a criminal network, a person who links two otherwise separate groups (even with only a few connections themselves) likely has high betweenness – remove that person and the network might fragment.
-* [**Closeness Centrality**](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/)**:** Measures how “close” a node is to all others in the network, typically defined as the **reciprocal of the total distance** from that node to all other nodes. A node with high closeness centrality can reach all others _quickly_ (in few hops on average).
-  * _What it indicates:_ This can identify nodes that are centrally positioned overall (not in a geographical sense, but in network topology). Such nodes could quickly disseminate information to the entire network.
-  * _Example:_ In a social network, someone at the “center” of the friend-of-friend graph (even if they aren’t connected to everyone directly) will have a high closeness score, meaning they are on average a short distance from anyone in the network.
+* [**Degree Centrality**](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/) measures how many direct connections (edges) a node has. A node with a high degree centrality has **many links to others**, making it well-connected. It’s essentially a count of immediate neighbors.&#x20;
+  * _What it indicates:_ Nodes with higher degree centrality can be influencers or hubs that directly reach many others.&#x20;
+  * _Example:_ In a Twitter network, a user with connections to many others (through follows or mentions) would have high degree centrality.&#x20;
+* [**Betweenness Centrality**](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/) measures how often a node lies on the **shortest paths between other nodes**​. In other words, a node with high betweenness centrality is a critical **broker or bridge** in the network.&#x20;
+  * _What it indicates:_ Such nodes connect different clusters or sections of the graph; they may not have the most connections, but they control information or resource flow by being on the paths that link others. A higher betweenness means a greater brokerage role. They act as gatekeepers or intermediaries.&#x20;
+  * _Example:_ In a criminal network, a person who links two otherwise separate groups (even with only a few connections themselves) likely has high betweenness – remove that person and the network might fragment.&#x20;
+*   [**Closeness Centrality**](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/)**:** Measures how “close” a node is to all others in the network, typically defined as the **reciprocal of the total distance** from that node to all other nodes. A node with high closeness centrality can reach all others _quickly_ (in few hops on average).
+
+    * _What it indicates:_ This can identify nodes that are centrally positioned overall (not in a geographical sense, but in network topology). Such nodes could quickly disseminate information to the entire network.&#x20;
+    * _Example:_ In a social network, someone at the “center” of the friend-of-friend graph (even if they aren’t connected to everyone directly) will have a high closeness score, meaning they are on average a short distance from anyone in the network.
+
+
 
 <details>
 
 <summary>Further important concepts and metrics available in Gephi</summary>
 
-#### **Core Concepts**
+### **Core Concepts**
 
 * **Weighted vs. Unweighted Metrics:** Many of these measures (degree, clustering coefficient, path length, centralities) can be computed in both unweighted (treating all edges equally) and weighted modes (if your edges have an associated weight).
 * **Directed vs. Undirected Graphs:** For directed graphs (e.g., Twitter follow networks), some metrics like in-degree/out-degree, PageRank, and HITS become crucial. In undirected graphs (e.g., co-appearance networks), you only have a single “degree” measure.
 * **Plugins & Experimental Metrics:** Gephi’s plugin repository may offer additional statistical measures or variants (for example, advanced community detection algorithms, [Hierarchical Edge Bundling](https://gephi.wordpress.com/tag/edge-bundling/), [timeline-based metrics](https://gephi.org/plugins/#/plugin/eventgraphlayout), or [new centrality formulas](https://gephi.org/plugins/#/plugin/bridge-gephi-plugin)). Be sure to check the Gephi Plugin Center if you need specialized metrics.
 
-#### Graph-Level Metrics
+### Graph-Level Metrics
 
 1. **Average Degree**
    * **What it is:** The mean number of connections (edges) each node has.
@@ -66,7 +69,7 @@ Gephi includes built-in support for computing **key metrics** that help identify
 
 ***
 
-#### Node-Level Metrics
+### Node-Level Metrics
 
 8. **Degree** / **Weighted Degree**
    * **What it is:** The count of direct connections each node has. In weighted graphs, edges can have a “weight,” and Weighted Degree sums those edge weights.
@@ -95,6 +98,8 @@ Gephi includes built-in support for computing **key metrics** that help identify
 
 </details>
 
+
+
 After running the statistical analysis functions, results can be used to visually style the graph (e.g., sizing nodes by centrality values). In sum, Gephi visualizes networks and quantifies network structure with built-in measures of centrality (degree, betweenness, closeness, etc.), which can be helpful for investigative analysis.
 
 ### Gephi in Investigative Journalism
@@ -111,6 +116,8 @@ Social network analysis has been used to investigate [political ](https://www.ca
 * [ ] Partially Free
 * [ ] Paid
 
+
+
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
@@ -119,7 +126,7 @@ Social network analysis has been used to investigate [political ](https://www.ca
 
 Due to its extensive features, Gephi has a moderate learning curve. Still, beginners can start with basic tutorials and sample datasets to understand the interface and critical functions like layouts, filters, and metrics. A good strategy is to focus on one feature at a time: experiment with layouts to arrange nodes, use filters to simplify complex networks, and apply basic metrics like centrality to interpret relationships. As they become comfortable, users can explore plugins and advanced features like[ time-based visualizations](https://github.com/gephi/gephi/wiki/Import-Dynamic-Data) for more tailored analyses.
 
-Gephi has an **active user community** that can provide help and share tips. The primary hub in recent years has been the [**Gephi Facebook Group**](https://www.facebook.com/groups/gephi/), which serves as the main place to ask questions and get support​. This Facebook group effectively replaced the older official forum. (The legacy [**Gephi Forum**](https://forum-gephi.org/) exists, but as of 2018–2019 it saw declining activity and new questions are directed to the Facebook ​forum.) Additionally, Gephi’s developers and power users monitor the [**GitHub issue tracker**](https://github.com/gephi/gephi/issues)**.**
+Gephi has an **active user community** that can provide help and share tips. The primary hub in recent years has been the [**Gephi Facebook Group**](https://www.facebook.com/groups/gephi/), which serves as the main place to ask questions and get support​. This Facebook group effectively replaced the older official forum. (The legacy [**Gephi Forum**](https://forum-gephi.org/) exists, but as of 2018–2019 it saw declining activity and new questions are directed to the Facebook ​forum.) Additionally, Gephi’s developers and power users monitor the [**GitHub issue tracker**](https://github.com/gephi/gephi/issues)**.**&#x20;
 
 ## Requirements
 
@@ -149,7 +156,7 @@ Levallois, C. (2017, January 20). _Simple Gephi Project from A to Z_. [https://s
 
 Levallois, C. (2024, November 27). _Gephi Tutorials_. [https://seinecle.github.io/gephi-tutorials/](https://seinecle.github.io/gephi-tutorials/)
 
-Grandjean, M. (2024). _Gephi_. Retrieved November 30, 2024, from [https://www.martingrandjean.ch/gephi/](https://www.martingrandjean.ch/gephi/)\
+Grandjean, M. (2024). _Gephi_. Retrieved November 30, 2024, from [https://www.martingrandjean.ch/gephi/](https://www.martingrandjean.ch/gephi/) \
 (Tutorials incl 30 Gephi examples)
 
 #### Videos
@@ -166,14 +173,14 @@ Cherven, K. (2015). _Mastering Gephi Network Visualization_. Packt Pub Ltd.
 
 _Gephi Cookbook | Cloud & Networking | Print_. (n.d.). Packt. Retrieved November 10, 2024, from [https://www.packtpub.com/en-us/product/gephi-cookbook-9781783987405?type=print](https://www.packtpub.com/en-us/product/gephi-cookbook-9781783987405?type=print)
 
-Barabási, A.-L. (2016). _Network Science_. [http://networksciencebook.com/](http://networksciencebook.com/)\
+Barabási, A.-L. (2016). _Network Science_. [http://networksciencebook.com/](http://networksciencebook.com/) \
 (this is EXCELLENT!)
 
-#### Open Datasets
+#### Open Datasets&#x20;
 
 _Datasets_. GitHub. Retrieved November 30, 2024, from [https://github.com/gephi/gephi/wiki/Datasets](https://github.com/gephi/gephi/wiki/Datasets)
 
-_ASNR - Animal Network Data_. Retrieved November 30, 2024, from [https://bansallab.github.io/asnr/data.html](https://bansallab.github.io/asnr/data.html)\
+_ASNR - Animal Network Data_. Retrieved November 30, 2024, from [https://bansallab.github.io/asnr/data.html](https://bansallab.github.io/asnr/data.html) \
 (ASNR aims to assemble and provide a comprehensive index of real-world animal interaction data sets across all taxa. Only high-value peer-reviewed data.)
 
 ### Comparison with similar software
@@ -197,3 +204,4 @@ Gephi Consortium (open-source community, CTO : Mathieu Bastian)
 | --------------- |
 | Martin Sona     |
 |                 |
+
