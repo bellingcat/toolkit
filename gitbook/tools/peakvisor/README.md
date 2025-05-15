@@ -323,9 +323,9 @@ Similarly, the Sun and Moon trails feature takes time to master for chronolocati
 
 ## Requirements
 
-An email login is needed for some functions like elevation data download, location and path saving. This can be created using the SIGN IN feature in the centre of the landing page - see below.
+An email login is needed for some functions like elevation data download, location and path saving. This can be created using the SIGN IN feature in the centre of the top menu on the landing page - see below.
 
-<div><figure><img src=".gitbook/assets/SIGN IN INTIALLY THERE (1).jpg" alt=""><figcaption><p>PEAKVISOR LANDING PAGE SHOWS A SIGN IN FUNCTION UNTIL A USER REGISTERS AN ACCOUNT</p></figcaption></figure> <figure><img src=".gitbook/assets/PROFILE APPEARS (1).jpg" alt=""><figcaption><p>ONCE THE USER HAS AN ACTIVE ACCOUNT, THEY GAIN ACCESS TO THE PROFILE FEATURES VIA THE LANDING PAGE</p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/PeakVisorSignInLanding.bmp" alt=""><figcaption><p><strong>PEAKVISOR LANDING PAGE SHOWS A "SIGN IN" FUNCTION UNTIL A USER REGISTERS AN ACCOUNT</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/PeakVisorProfileLanding (1).bmp" alt=""><figcaption><p><strong>ONCE THE USER HAS AN ACTIVE ACCOUNT, THEY GAIN ACCESS TO THE PROFILE FEATURES VIA THE LANDING PAGE</strong></p></figcaption></figure></div>
 
 ## Limitations
 
