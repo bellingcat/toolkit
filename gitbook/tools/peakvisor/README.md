@@ -330,7 +330,7 @@ An email login is needed for some functions like elevation data download, locati
 ## Limitations
 
 * **Performance:** PeakVisor Web version for OSINV is a development project, so performance can be volatile whilst upgrading. See [_Performance Issues and Their Management_](https://www.youtube.com/watch?v=xNqSwL9j8h4\&t=5353s)
-* **Urban Environments Rarely Usefully Rendered:** PeakVisor Source Data is greater than 30m/pixel in many areas, but features smaller than 30m cannot be assumed to be visible on PeakVisor Explorer View rendered terrains. Thus \*\*Urban environments\*\* will rarely be usefully rendered with respect to bulidings, but useful information can be gleaned about urban lanscapes and lines of sight.
+* **Urban Environments Rarely Usefully Rendered:** PeakVisor Source Data is greater than 30m/pixel in many areas, but features smaller than 30m cannot be assumed to be visible on PeakVisor Explorer View rendered terrains. Thus urban environments will rarely be usefully rendered with respect to bulidings, but useful information can be gleaned about urban lanscapes and lines of sight.
 * **Resizing Windows:** PeakVisor 3D and 3D Explorer windows can switch zoom scale when Teleporting between viewpoint locations in the model, which means users often need to resize and adjust scale during their work.
 * **Buffering Effect at Capacity Limit:** PeakVisor operates at the limit of capacity when the user continuously adjusts viewpoint in 3D Explorer View, because it must constantly re-render the imagery. If buffering limits are reached, the system will 'boomerang' back to a previous location. The way to work around this is to move the viewpoint in increments.
 
