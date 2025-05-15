@@ -54,13 +54,13 @@ The "time machine" function allows you to access older street view images, going
 
 Most of the world uses the coordinate system [WGS-84](https://en.wikipedia.org/wiki/World_Geodetic_System) (colloquially known as Earth coordinates), whereas China uses [GCJ-02](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China#GCJ-02) (Mars coordinates). GCJ-02 uses an encryption algorithm that applies random offsets to the latitude and longitude of locations. Obfuscating the geographic data is for [national security purposes](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China).
 
-Baidu Maps goes even further in its DD-09 coordinates system, applying additional encryption based on GCJ-02.
+Baidu Maps goes even further in its BD-09 coordinates system, applying additional encryption based on GCJ-02.
 
 **Where to get the coordinates in Baidu Maps**
 
-When searching for a location on Baidu Maps, the BB-09 coordinates are shown in the URL.
+When searching for a location on Baidu Maps, the BD-09 coordinates are shown in the URL.
 
-Another way to search is: [https://api.map.baidu.com/lbsapi/getpoint/](./#url). Search for a location and the BB-09 coordinates are shown in the top-right. **Note that in Chinese mapping tools, longitude comes before latitude**.
+Another way to search is: [https://api.map.baidu.com/lbsapi/getpoint/](./#url). Search for a location and the BD-09 coordinates are shown in the top-right. **Note that in Chinese mapping tools, longitude comes before latitude**.
 
 <figure><img src=".gitbook/assets/dafen_village (1).png" alt=""><figcaption><p>Example: From the Baidu Maps API getpoint page, the coordinates will show on the top-right when searching for Dafen Village, Shenzhen</p></figcaption></figure>
 
