@@ -48,13 +48,13 @@ On the web browser view, a reference number is shown at the bottom left, e.g., G
 
 ### No street view available
 
-Gaode Maps does not offer street view (the function was removed several years ago), making the tool less appealing for geolocation.&#x20;
+Gaode Maps does not offer street view (the function was removed several years ago), making the tool less directly useful for geolocation.&#x20;
 
 <details>
 
-<summary>The "wonder" 奇境 function - aerial or satellite photos</summary>
+<summary>The "wonder" 奇境 function (aerial photos in select locations)</summary>
 
-In the mobile app, a function called 奇境 (translates as "wonder", pinyin: _qijing_) is available for select locations, often scenic places such as parks and tourist sites. (To activate, see "Select layers - English annotations" above.) The function allows users to view the location in different times of day, weather conditions, or seasons.
+In the mobile app, a function called 奇境 (translates as "wonder", pinyin: _qijing_) is available for select locations, usually scenic places such as parks and tourist sites. The function allows users to view the location in different times of day, weather conditions, or seasons.
 
 <div align="center"><figure><img src=".gitbook/assets/park.png" alt="" width="188"><figcaption><p>Example: When the user moves the slider at the bottom, they can view the location in different times of day.</p></figcaption></figure></div>
 
@@ -67,6 +67,8 @@ The app provides global data for over 200 countries, including street maps, rout
 <figure><img src=".gitbook/assets/overseas.png" alt="" width="563"><figcaption><p>Using AMap to explore outside China. (left) Map in Vienna, Austria. (right) Walking route planning.</p></figcaption></figure>
 
 Business owners from any country could add their locations and information onto AMap (for instance, to attract Chinese travellers who may visit their countries).&#x20;
+
+
 
 ### Getting coordinates
 
@@ -82,7 +84,7 @@ API documentation for [3D map](https://lbs.amap.com/demo/javascript-api/example/
 
 ### User generated reviews
 
-User-generated reviews and photos are available in the mobile app (without login).&#x20;
+User-generated reviews are available in the mobile app only (without account login).&#x20;
 
 ### Using AMap in English (mobile app only)
 
