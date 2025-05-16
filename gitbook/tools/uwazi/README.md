@@ -9,7 +9,8 @@ description: >-
 
 ## URL
 
-[https://uwazi.io/](https://uwazi.io/)
+[https://uwazi.io/](https://uwazi.io/)\
+**v1.212.2** (published 14 May 2025)
 
 ## Description
 
@@ -39,7 +40,7 @@ On the other hand, the **hosted** option involves using Uwazi’s managed hostin
 
 ### **Security Measures**
 
-* An independent [security audit conducted by Recurity Labs](https://huridocs.org/2024/08/uwazi-undergoes-third-independent-audit-to-ensure-security/) (commissioned by HURIDOCS) evaluated Uwazi’s architecture and code against common vulnerabilities based on OWASP and SANS standards (which is about as good as it gets). The assessment confirmed that Uwazi maintains a high level of security. Several minor issues were identified, which have since been addressed and patched. Regular Audits are planned.
+* An independent [security audit conducted by Recurity Labs](https://huridocs.org/2024/08/uwazi-undergoes-third-independent-audit-to-ensure-security/) (commissioned by HURIDOCS) evaluated Uwazi’s architecture and code against common vulnerabilities based on OWASP and SANS standards (which is about as good as it gets). The assessment confirmed that Uwazi maintains a high level of security. Several minor issues were identified, which have since been addressed and patched. A second audit was done by [Assured ](https://www.opentech.fund/security-safety-audits/uwazi-security-audit/)in May 2024. Regular Audits are planned.
 * Uwazi integrates several technical measures that contribute to a secure environment for handling sensitive human rights documentation and related materials. These features include support for HTTPS encryption, secure user authentication (including two-factor authentication), and the option to run Uwazi behind a reverse proxy for additional network protections. Admins can configure role-based permissions to ensure only authorized users can access or modify sensitive content. Additionally, Uwazi supports regular updates, backups, and indexing maintenance, providing a stable foundation for safeguarding data integrity. Together, these features can make Uwazi a practical choice for organizations that need a reliable, secure digital infrastructure for their human rights work.
   * For configuring HTTPS, reverse proxy and environment variables: [Sysadmin Guide](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html)
   * For enabling two-factor authentication (2FA) and managing user permissions:[ Administrator’s Guide](https://uwazi.readthedocs.io/en/latest/admin-docs/managing-settings.html#how-to-configure-your-account)
@@ -72,7 +73,7 @@ For detailed instructions and configurations, refer to the [Sysadmin Guide](http
 * [x] Partially Free
 * [ ] Paid
 
-Uwazi offers a flexible pricing structure. The **self-hosted** version is free, allowing organizations to download and run the platform on their servers. For those preferring a managed solution, Uwazi provides [a **hosted** service starting with a free 30-day trial](https://uwazi.io/en/page/rf7so99k1p/try-uwazi). After the trial, the pricing is scaled based on the organization's needs, **with the first 100MB free for projects with a human rights impact**. Hosting fees support ongoing development and maintenance, with financial backing from partners like the [MacArthur Foundation](https://en.wikipedia.org/wiki/MacArthur_Foundation) and other organizations.
+Uwazi offers a flexible pricing structure. The **self-hosted** version is **free**, allowing organizations to download and run the platform on their servers. For those preferring a managed solution, Uwazi provides [a **hosted** service starting with a free 30-day trial](https://uwazi.io/en/page/rf7so99k1p/try-uwazi). After the trial, the pricing is scaled based on the organization's needs, **with the first 100MB free for projects with a human rights impact**. Hosting fees support ongoing development and maintenance, with financial backing from partners like the [MacArthur Foundation](https://en.wikipedia.org/wiki/MacArthur_Foundation) and other organizations.
 
 ## Level of difficulty
 
@@ -154,4 +155,3 @@ Uwazi uses cookies on its websites and applications to improve functionality, tr
 | Page maintainer |
 | --------------- |
 | Martin Sona     |
-| Cass Troy       |
