@@ -9,7 +9,8 @@ description: >-
 
 ## URL
 
-[https://app.rawgraphs.io/](https://app.rawgraphs.io/)
+[https://app.rawgraphs.io/](https://app.rawgraphs.io/)\
+(v. 2.0.0-beta11 as of May 2025)
 
 ## Description
 
