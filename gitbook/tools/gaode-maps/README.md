@@ -64,7 +64,7 @@ In the mobile app, a function called 奇境 (translates as "wonder", pinyin: _qi
 
 The app provides global data for over 200 countries, including street maps, route navigation (driving, public transportation, or walking) and business locations. Here's an example:
 
-<figure><img src=".gitbook/assets/overseas.png" alt="" width="563"><figcaption><p>Using AMap to explore outside China. (left) Map in Vienna, Austria. (right) Walking route planning.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/overseas.png" alt="" width="563"><figcaption><p>Using AMap to explore locations outside of China. Left: Map in Vienna, Austria. Right: Walking route planning.</p></figcaption></figure>
 
 Business owners from any country could add their locations and information onto AMap (for instance, to attract Chinese travellers who may visit their countries).&#x20;
 
