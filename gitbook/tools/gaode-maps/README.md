@@ -90,7 +90,7 @@ The English version is only available in the mobile app. In your app store, sear
 
 Functions not available in the English mobile app:&#x20;
 
-* Map data outside China
+* Map data from outside of China
 * User-generated reviews and photos originally posted in Chinese
 
 <details>
