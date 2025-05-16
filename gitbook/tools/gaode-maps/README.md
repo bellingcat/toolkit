@@ -16,7 +16,7 @@ API docs: [lbs.amap.com/api](https://lbs.amap.com/api)
 
 Gaode Maps offers maps, satellite imagery, directions (for driving, public transport, and walking), and real-time augmented reality navigation for driving. It is available via the web browser or as a mobile application. (The app was previously known as AutoNavi, and is currently named AMap outside China.) A few highlights:&#x20;
 
-* **Global data**: Maps, directions and recommended transport data are available globally, though data are the most detailed for China. &#x20;
+* **Global data**: Maps, directions and recommended transport data are available globally, though the data are most detailed for China. &#x20;
 * **Mobile app "AMap Global" available in English**: The English mobile app offers basic functions including map search, satellite imagery and directions in China. (Other functionalities may be limited.)
 * Notably, **Gaode Maps** **does not offer street view**.&#x20;
 
