@@ -36,7 +36,7 @@ After searching in pinyin or Chinese characters, select the layer or function.
 
 <summary>Select layers - English annotations</summary>
 
-Here are the layers and functions, annotated in English. Your view may be different depending your country.&#x20;
+Here are the layers and functions, annotated in English. Your view may be different depending on your country.&#x20;
 
 <figure><img src=".gitbook/assets/functions_annotated.png" alt=""><figcaption><p>Web browser view - select layer or function</p></figcaption></figure>
 
