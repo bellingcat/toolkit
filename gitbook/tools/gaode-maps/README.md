@@ -56,7 +56,7 @@ Gaode Maps does not offer street view (the function was removed several years ag
 
 In the mobile app, a function called 奇境 (translates as "wonder", pinyin: _qijing_) is available for select locations, usually scenic places such as parks and tourist sites. The function allows users to view the location during different times of day, weather conditions, or seasons.
 
-<div align="center"><figure><img src=".gitbook/assets/park.png" alt="" width="188"><figcaption><p>Example: When the user moves the slider at the bottom, they can view the location in different times of day.</p></figcaption></figure></div>
+<div align="center"><figure><img src=".gitbook/assets/park.png" alt="" width="188"><figcaption><p>Example: When the user moves the slider at the bottom, they can view the location during different times of the day.</p></figcaption></figure></div>
 
 </details>
 
