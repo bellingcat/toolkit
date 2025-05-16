@@ -24,7 +24,7 @@ AMap is a data provider to Apple Maps. The Apple Maps app automatically switches
 
 In many Android phone models sold in China, Gaode Maps is pre-installed instead of Google Maps.&#x20;
 
-Unless specified, all functions described on this page can be accessed without registering an account.&#x20;
+Unless specified, all functions described on this page can be accessed without registering for an account.&#x20;
 
 #### Basic search
 
