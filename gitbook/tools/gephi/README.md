@@ -6,7 +6,8 @@ description: Open-source network analysis and visualization software
 
 ## URL
 
-[https://gephi.org](https://gephi.org)
+[https://gephi.org](https://gephi.org)\
+(0.10.1 as of May 2025)
 
 ## Description
 
