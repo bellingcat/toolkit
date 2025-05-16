@@ -21,7 +21,7 @@ According to the [tool](https://www.gov.il/en/departments/topics/research-govmap
 
 ### Navigating between the English and Hebrew Homepages
 
-For beginner users, note that the Hebrew user interface is slightly different from the English user interface, given the difference in the writing system between the two. Users are immediately taken to the landing page in Hebrew, and they can choose to switch to English on the bottom corner.&#x20;
+For beginner users, note that the Hebrew user interface is slightly different from the English user interface, given the difference in the writing system between the two. Users are immediately taken to the landing page in Hebrew, and they can choose to switch to English on the bottom left corner.&#x20;
 
 <figure><img src=".gitbook/assets/2025-05-03_19-56-08.png" alt="" width="357"><figcaption><p>This is the landing page in Hebrew, switch languages at the bottom left. </p></figcaption></figure>
 
