@@ -93,8 +93,8 @@ Israeli government [https://www.gov.il](https://www.gov.il) - Israel
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat Volunteer Team/Unassigned |
-|                                      |
+| Page maintainer                               |
+| --------------------------------------------- |
+| <p>Afton </p><p>Bellingcat Volunteer Team</p> |
+|                                               |
 
