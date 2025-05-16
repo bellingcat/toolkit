@@ -130,7 +130,7 @@ Although Gaode Maps (AMap) does not provide street view, its satellite imagery, 
 ## Limitations
 
 * **No street view**
-* **Geographical Restrictions**: The most detailed map coverage and most extensive functions (e.g., searching for nearby services and facilities) are available in China.&#x20;
+* **Geographical Restrictions**: The most detailed map coverage and most extensive functions (e.g., searching for nearby services and facilities) are only available in China.&#x20;
 * **Access Speed**: International users will experience slower access speeds or need a Chinese IP address to access certain APIs.
 * **Language Barrier**: The user interface of the web version is only available in Chinese.
 
