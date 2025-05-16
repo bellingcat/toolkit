@@ -19,7 +19,7 @@ Features:
 * **3D View**: toggle 2D view and rotate and change camera angle.
 * **Coverage:** Global but can be limited in some areas.
 * **Graphic Options**:
-  * Ground Elevation:
+  * Ground Elevation
   * Weather: Sun, rain or snow
   * Time (current date): Live, Night, Morning, Noon, Evening
   * Traffic: Boats
@@ -29,7 +29,7 @@ Features:
 * **Locate user**: share your location to centre it on the map.
 * **Zoom tool:** zoom in and out on the map.
 
-The example below shows a search results for the term _Amsterdam_.
+The example below shows a search result for the term _Amsterdam_.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-05-07 at 7.20.27 PM.png" alt="Screenshot of F4Map search result for Amsterdam shows Amsterdam Central Station in 3D on a map."><figcaption><p>Screenshot of F4Map search result for Amsterdam shows Amsterdam Central Station in 3D on a map.</p></figcaption></figure>
 
@@ -55,11 +55,11 @@ Latest changes: [https://core.f4map.com/changelog](https://core.f4map.com/change
 
 ## Limitations
 
-* **Data Currency and Accuracy:** F4map relies on OpenStreetMap data, which means the accuracy and currency of the data are dependent on the contributions from the OSM community. This might result in varying levels of data quality across different regions. See [Overpass Turbo Data Out of Date](https://www.reddit.com/r/openstreetmap/comments/jcamkz/overpass\_turbo\_data\_out\_of\_date/) for more information.
-* **Resource Intensity:** Rendering 3D maps, especially in areas with high detail, can be resource-intensive, potentially leading to slower performance on less powerful devices. F4 Maps uses [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL\_API) which has performance implications on low spec machines particularly with large amounts of data.&#x20;
+* **Data Currency and Accuracy:** F4map relies on OpenStreetMap (OSM) data, which means the accuracy and currency of the data are dependent on the contributions from the OSM community. This might result in varying levels of data quality across different regions. See [Overpass Turbo Data Out of Date](https://www.reddit.com/r/openstreetmap/comments/jcamkz/overpass_turbo_data_out_of_date/) for more information.
+* **Resource Intensity:** Rendering 3D maps, especially in areas with high detail, can be resource-intensive, potentially leading to slower performance on less powerful devices. F4 Maps uses [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) which has performance implications on low spec machines particularly with large amounts of data.&#x20;
 * **Coverage:** While F4map covers a global scale, the level of detail and the presence of 3D structures greatly vary by location, with urban areas typically having more detailed models than rural ones. There is no documentation on F4 Maps coverage. &#x20;
 * **API Usage Limits:** F4map may impose limits on API requests to manage load on their servers, which could affect users requiring high volumes of data requests for large scale projects. No documentation available.
-* **Black Listing**: Windows XP and Vista have been black listed on Chrome since version 32, to force activation you can enable _Override software rendering list_ under_chrome:flags. See the_ [_FAQ_](http://wiki.map.f4-group.com/faq)_._&#x20;
+* **Black Listing**: Windows XP and Vista have been black listed on Chrome since version 32, to force activation you can enable _Override software rendering list_ unde&#x72;_&#x63;hrome:flags. See the_ [_FAQ_](http://wiki.map.f4-group.com/faq)_._&#x20;
 
 ## Ethical Considerations
 
@@ -77,7 +77,7 @@ To effectively use F4Map, especially for beginners or those looking to refine th
 **Official Wiki**&#x20;
 
 * [https://wiki.f4map.com/](https://wiki.f4map.com/)
-* [https://wiki.openstreetmap.org/wiki/F4\_Map](https://wiki.openstreetmap.org/wiki/F4\_Map)
+* [https://wiki.openstreetmap.org/wiki/F4\_Map](https://wiki.openstreetmap.org/wiki/F4_Map)
 
 #### Video Tutorials
 
@@ -102,8 +102,8 @@ F4 [https://www.f4-group.com/](https://www.f4-group.com/) - France
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat Volunteer Team/Unassigned |
-|                                      |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
+|                           |
 
