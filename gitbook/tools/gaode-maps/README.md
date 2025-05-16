@@ -153,5 +153,5 @@ Alibaba Group [https://www.alibabagroup.com](https://www.alibabagroup.com/en-US/
 
 | Page maintainer           |
 | ------------------------- |
-| Bellingcat volunteer team |
+| Bellingcat Volunteer Team |
 |                           |
