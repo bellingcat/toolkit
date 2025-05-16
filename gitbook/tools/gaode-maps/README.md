@@ -28,7 +28,7 @@ Unless specified, all functions described on this page can be accessed without r
 
 #### Basic search
 
-After searching in pinyin or Chinese characters, select the layer or function.
+After searching in [Pinyin ](https://en.wikipedia.org/wiki/Pinyin)or Chinese characters, select the layer or function.
 
 <figure><img src=".gitbook/assets/gaode_search.png" alt="" width="563"><figcaption><p>Web browser view > after searching for a specific location (example: Pu'er Simao Airport, Yunnan)</p></figcaption></figure>
 
