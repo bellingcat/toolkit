@@ -10,7 +10,7 @@ description: >-
 
 [https://www.zotero.org](https://www.zotero.org)
 
-Current version: 7.0.13 (Feb 2025)
+Current version: 7.0.15 (May 2025)
 
 ## Description
 
