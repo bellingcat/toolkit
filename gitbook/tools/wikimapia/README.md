@@ -30,8 +30,6 @@ The example below shows selecting the _bridges_ category for Amsterdam:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-06-23 at 10.24.30 AM.png" alt="Screenshot of selecting the bridges category for Amsterdam. The screenshot shows a street map with all the bridges in Amsterdam marked with place markers."><figcaption><p>Screenshot of selecting the <em>bridges</em> category for Amsterdam.</p></figcaption></figure>
 
-
-
 ### Use Case examples for Open Source Researchers
 
 1. **Locating Hard-to-Find Places**: Researchers can use Wikimapia to identify and access detailed information about obscure or difficult-to-locate places that might not be documented in traditional mapping tools.
@@ -66,31 +64,31 @@ The example below shows selecting the _bridges_ category for Amsterdam:
 When using Wikimapia, ethical considerations include:
 
 * **Privacy Concerns**: Sharing or mapping sensitive locations may infringe on individuals' or groups' privacy rights. Users should be cautious about adding locations that could compromise privacy.
-* **Misinformation**: Given the user-generated nature of the content, there is a risk of spreading misinformation. Contributors should ensure the accuracy of the information they provide. Users needs to verify any information they use from Wikimapia.
+* **Misinformation**: Given the user-generated nature of the content, there is a risk of spreading misinformation. Contributors should ensure the accuracy of the information they provide. Users needs to verify any information they use from Wikimapia.&#x20;
 
 ## Guide
 
 To effectively use Wikimapia, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
 
-**Official Wiki**&#x20;
+**Official Wiki**
 
 * [https://wiki.openstreetmap.org/wiki/Wikimapia](https://wiki.openstreetmap.org/wiki/Wikimapia)
 
 **Tutorials and Articles**
 
-* _Geospatial awareness: how to add data to Google Earth & must-have datasets_ (no date). Available at: [https://benjaminstrick.com/geospatial-awareness-how-to-add-data-to-google-earth/](https://benjaminstrick.com/geospatial-awareness-how-to-add-data-to-google-earth/) (Accessed: 17 April 2024).
-* _Quick start - Wikimapia_ (no date). Available at: [https://wikimapia.org/docs/Quick\_start](https://wikimapia.org/docs/Quick_start) (Accessed: 17 April 2024).
-* Seitz, J. (2015) _Automating Photo Retrieval for Geolocating - Part 2:Wikimapia_, _bellingcat_. Available at: [https://www.bellingcat.com/resources/2015/05/13/automating-photo-retrieval-for-geolocating-part-2-wikimapia/](https://www.bellingcat.com/resources/2015/05/13/automating-photo-retrieval-for-geolocating-part-2-wikimapia/) (Accessed: 17 April 2024).
-* Sheldon, M. (2022) _Meet the Irregular Troops Backing up Russia’s Army in the Kharkiv Region_, _bellingcat_. Available at: [https://www.bellingcat.com/news/2022/06/17/meet-the-irregular-troops-backing-up-russias-army-in-the-donbas/](https://www.bellingcat.com/news/2022/06/17/meet-the-irregular-troops-backing-up-russias-army-in-the-donbas/) (Accessed: 17 April 2024).
+* _Geospatial awareness: how to add data to Google Earth & must-have datasets_ (no date). Available at: [https://benjaminstrick.com/geospatial-awareness-how-to-add-data-to-google-earth/](https://benjaminstrick.com/geospatial-awareness-how-to-add-data-to-google-earth/) (Accessed: 17 May 2025).
+* _Quick start - Wikimapia_ (no date). Available at: [https://wikimapia.org/docs/Quick\_start](https://wikimapia.org/docs/Quick_start) (Accessed: 17 May 2025).
+* Seitz, J. (2015) _Automating Photo Retrieval for Geolocating - Part 2:Wikimapia_, _bellingcat_. Available at: [https://www.bellingcat.com/resources/2015/05/13/automating-photo-retrieval-for-geolocating-part-2-wikimapia/](https://www.bellingcat.com/resources/2015/05/13/automating-photo-retrieval-for-geolocating-part-2-wikimapia/) (Accessed: 17 May 2025).
+* Sheldon, M. (2022) _Meet the Irregular Troops Backing up Russia’s Army in the Kharkiv Region_, _bellingcat_. Available at: [https://www.bellingcat.com/news/2022/06/17/meet-the-irregular-troops-backing-up-russias-army-in-the-donbas/](https://www.bellingcat.com/news/2022/06/17/meet-the-irregular-troops-backing-up-russias-army-in-the-donbas/) (Accessed: 17 May 2025).
 
 **Video Tutorials**
 
-* _Wikimapia Quick Start Tutorial.MP4_ (2014). Available at: [https://www.youtube.com/watch?v=MbN36OxmX9A](https://www.youtube.com/watch?v=MbN36OxmX9A) (Accessed: 17 April 2024).
+* _Wikimapia Quick Start Tutorial.MP4_ (2014). Available at: [https://www.youtube.com/watch?v=MbN36OxmX9A](https://www.youtube.com/watch?v=MbN36OxmX9A) (Accessed: 17 May 2025).
 
 #### Developer Resources
 
-* _Getting Started with wikimapia\_api — wikimapia\_api 0.1.0.dev1 documentation_ (no date). Available at: [https://wikimapia-api-py.readthedocs.io/en/latest/tutorial.html](https://wikimapia-api-py.readthedocs.io/en/latest/tutorial.html) (Accessed: 17 April 2024).
-* _Python Wikimapia API documentation — wikimapia\_api 0.1.0.dev1 documentation_ (no date). Available at: [https://wikimapia-api-py.readthedocs.io/en/latest/index.html](https://wikimapia-api-py.readthedocs.io/en/latest/index.html) (Accessed: 17 April 2024).
+* _Getting Started with wikimapia\_api — wikimapia\_api 0.1.0.dev1 documentation_ (no date). Available at: [https://wikimapia-api-py.readthedocs.io/en/latest/tutorial.html](https://wikimapia-api-py.readthedocs.io/en/latest/tutorial.html) (Accessed: 17 May 2025).
+* _Python Wikimapia API documentation — wikimapia\_api 0.1.0.dev1 documentation_ (no date). Available at: [https://wikimapia-api-py.readthedocs.io/en/latest/index.html](https://wikimapia-api-py.readthedocs.io/en/latest/index.html) (Accessed: 17 May 2025).
 
 **Community and Support**
 
@@ -114,4 +112,3 @@ It was created by a Russian software development company called Wikimapia Ltd. T
 | ------------------------------------- |
 | Bellingcat Volunteer Team/ Unassigned |
 |                                       |
-
