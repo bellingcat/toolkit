@@ -21,15 +21,13 @@ While the available resources may differ by country, with some offering more com
 
 <figure><img src=".gitbook/assets/osint-map1.png" alt=""><figcaption><p>Front page of OSINT tools map.</p></figcaption></figure>
 
-To start using the OSINT tools map, click directly  to explore specific countries, cities, or regions, or use the search bar to quickly find the location you are interested in. Additionally, the platform offers a list of countries, cities, territories, and services, which can be accessed by scrolling down, providing an alternative way to navigate through the various available resources.
+To start using the OSINT tools map, click directly to explore specific countries, cities, or regions, or use the search bar to quickly find the location you are interested in. Additionally, the platform offers a list of countries, cities, territories, and services, which can be accessed by scrolling down, providing an alternative way to navigate through the various available resources.
 
-For example, for France, various online resources provide valuable information across different sectors. The official cadastral map can be accessed through cadastre.gouv.fr, offering detailed property records. For business registry information, verif.com serves as a useful platform, helping users check company details. Vehicle information can be found on siv-auto.fr, which provides registration and status updates.&#x20;
+For example, for France, various online resources provide valuable information across different sectors. The official cadastral map can be accessed through cadastre.gouv.fr, offering detailed property records. For business registry information, verif.com serves as a useful platform, helping users check company details. Vehicle information can be found on siv-auto.fr, which provides registration and status updates.
 
 The French Yellow Pages can be explored through the Yellow/White pages directory, which lists businesses and services. For transport-related updates, the live map on sncf.com provides real-time information about train schedules. Additionally, papers.fr offers access to over 25 million death notices since 1970, as well as company information, contributing to a comprehensive resource for historical and business data.
 
-<figure><img src=".gitbook/assets/osint-map-france.png" alt=""><figcaption><p>France OSINT resources </p></figcaption></figure>
-
-
+<figure><img src=".gitbook/assets/osint-map-france.png" alt=""><figcaption><p>France OSINT resources</p></figcaption></figure>
 
 ## Cost
 
@@ -43,7 +41,7 @@ The French Yellow Pages can be explored through the Yellow/White pages directory
 
 ## Requirements
 
-\-
+* The OSINT Tools Map is fully web-based and can be accessed using any modern browser (e.g., Chrome, Firefox, Edge, Safari) on desktop or mobile devices.
 
 ## Limitations
 
@@ -51,15 +49,15 @@ The map is a directory and not a database. Some of the external databases may re
 
 ## Ethical Considerations
 
-It is always important to keep an eye on local privacy regulations and ethical standards. Be aware that improper use of personal data from publicly available information may have legal implications.&#x20;
+It is always important to keep an eye on local privacy regulations and ethical standards. Be aware that improper use of personal data from publicly available information may have legal implications.
 
-## Guide
+## Guide and articles
 
-\-
+* You can find the official GitHub repository here: [https://github.com/cipher387/osintmap](https://github.com/cipher387/osintmap)&#x20;
 
 ## Tool provider
 
-From the website: [https://cybdetective.com/](https://cybdetective.com/)
+The OSINT Tools Map was created by [@cyb\_detective ](https://cybdetective.com/).
 
 ## Advertising Trackers
 
