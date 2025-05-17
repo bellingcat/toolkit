@@ -88,9 +88,9 @@ Second, compare that same close up reference image to the visual guides the tool
 Note: [This link](https://www.gkstill.com/Support/crowd-density/625sm/Density6.html) can be used if you have a **"static" crowd** (mostly stationary). For **moving crowds** ("crowd flow"), users may use the reference on this link:[ https://www.gkstill.com/Support/crowd-flow/4People.html](https://www.gkstill.com/Support/crowd-flow/4People.html)&#x20;
 {% endhint %}
 
-<figure><img src=".gitbook/assets/Density Comparison.png" alt=""><figcaption><p>On the left is a reference guide showing crowd density for 4 people per square meter and 4.5 people per square meter. On the right is a drone footage from the event in question. Looking at both images can assist users in making estimations on crowd density. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-05-16_20-22-07-edit.png" alt="" width="304"><figcaption><p>This is a <a href="https://www.gkstill.com/Support/crowd-density/CrowdDensity-1.html">reference guide </a>showing crowd density for 4 people per square meter and 4.5 people per square meter. Compare this to a clear photo of the reference image if possible from the event in question. Looking at both images can assist users in making estimations on crowd density. </p></figcaption></figure>
 
-In this example, we used [drone footage from AP](https://youtu.be/KAOQ9MevvRU?feature=shared), to find a clip that shows the density in the area we are interested in. By comparing Keith Still’s image reference, we concluded that the protest crowd maybe somewhere between 4 people per square meter and 4.5 people per square meter.&#x20;
+In this example, we used [drone footage from AP](https://youtu.be/KAOQ9MevvRU?feature=shared) (at 0:14 seconds), to find a clip that shows the density in the area we are interested in. By comparing Keith Still’s image reference, we concluded that the protest crowd maybe somewhere between 4 people per square meter and 4.5 people per square meter.&#x20;
 
 Remember: Even with reference images, obstructions like buildings or bridges can limit your ability to see the entire crowd. Be mindful of these limitations when making your estimations.
 
