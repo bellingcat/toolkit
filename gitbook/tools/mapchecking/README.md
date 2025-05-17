@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-This tool helps users estimate the maximum number of people standing in a particular area. MapChecking is a crowd-counting tool designed to assist in visualizing and analyzing the area covered by a specific event or situation, typically protests, demonstrations, or other gatherings. The tool allows users to input parameters such as the area they are expected to occupy, the shape of the area (by drawing a polygon), and the estimated density of the crowd.
+This tool helps users estimate the maximum number of people standing in a particular area. MapChecking is a crowd-counting tool designed to assist in visualizing and analyzing the area covered by a specific event or situation, typically protests, demonstrations, or other gatherings, whether ongoing or planned. The tool allows users to input parameters such as the area being analyzed, the shape of the area (by drawing a polygon), and the estimated density of the crowd.
 
 Based on the steps below, MapChecking can calculate the estimated density of participants in the overall space they cover on a map. The tool allows users to do all the steps on one webpage.&#x20;
 
