@@ -46,7 +46,7 @@ Our source image is a clip from a [video uploaded to X](https://x.com/BarakRavid
 It is helpful if the location you put in the tool is **already geolocated/verified.**&#x20;
 {% endhint %}
 
-Input the address of an already verified location into the map interface. For simplicity, we will use only the image above of the event to demonstrate the tool’s features.
+Input the address of an already verified location into the map interface. For simplicity of this demonstration, we will use only the image above of the event to demonstrate the tool’s features. However, you must do due diligence by looking at multiple images of the event you are investigating.&#x20;
 
 We geolocated this area and found it in Democracy Square in Tel Aviv, at the intersection of Eli'ezer Kaplan Street and Giv'at HaTah̠moshet Street. The coordinates are 32.073368, 34.790295.&#x20;
 
@@ -57,7 +57,7 @@ NOTE: Putting the coordinates on the map does not seem to work at the time of te
 {% endhint %}
 
 {% hint style="warning" %}
-**TIP:** Enhancing Image Analysis: Combining Images and Minding Obstacles
+**TIP: Why is it important to look at multiple images?**
 
 When analyzing images, especially those depicting large crowds, combining multiple source images taken from different angles is often beneficial. This helps to capture the full scope of the event and avoid blind spots caused by obstructions.
 
