@@ -17,10 +17,10 @@ This tool helps users estimate the maximum number of people standing in a partic
 Based on the steps below, MapChecking can calculate the estimated density of participants in the overall space they cover on a map. The tool allows users to do all the steps on one webpage.&#x20;
 
 1. Input Location
-2. Draw a Polygon To Delineate the Area of Interest
-3. Map Visualization and Matching
+2. Draw a Polygon and Map Visualization
+3. Matching and Double-Checking
 4. Determine Crowd Density Per Square Meter
-5. Calculate Total Estimated Crowd Size&#x20;
+5. Calculate Total Estimated Crowd Size
 
 <figure><img src=".gitbook/assets/Screenshot 2024-09-04 062958.png" alt=""><figcaption><p>(Image source: Mapchecking.com) This shows a sample location using the tool. Users can delineate the area of interest using a polygon (shown here with a yellow shaded area). Users can view the area on the regular Google map overlay or satellite view. To the right of the map is a slider that users can drag to estimate the crowd density "from "Light" to "Crowded" to "Packed". The total estimated number in black font changes as the slider moves. </p></figcaption></figure>
 
