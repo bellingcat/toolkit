@@ -62,8 +62,6 @@ When analyzing images, especially those depicting large crowds, combining multip
 _Remember:_ Even with combined images, obstructions like buildings or bridges can limit visibility. Always be mindful of these factors and consider the potential limitations of the visual data.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/Screenshot 2024-09-02 155032.png" alt="" width="375"><figcaption><p> In addition to other verification methods, Google Street View was used in this image to verify the general area of protest. We also used the the 3d buildings to assist us in matching the general area.  </p></figcaption></figure>
-
 ### **STEP 2: Drawing A Polygon and Map Visualization**
 
 The next step is to delineate the area of interest by drawing a polygon. The defined area is automatically overlaid on a map.
