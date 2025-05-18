@@ -78,10 +78,6 @@ For open-source researchers accessing Chinese map tools from overseas, Baidu Map
 
 Note that all three mapping tools use (at least in part) the BeiDou Navigation Satellite System 北斗卫星导航系统 for their satellite and positioning capabilities. BeiDou is the global positioning and satellite technology developed by China, and [competes with GPS and Galileo](https://www.gpsworld.com/chinas-beidou-challenges-u-s-gps-dominance/). The exact ways that BeiDou is leveraged depends on the device, the chip, and the location where the mapping tool is used. &#x20;
 
-Another tool to compare satellite imagery of China is [https://www.earthol.com/](https://www.earthol.com/)
-
-<figure><img src=".gitbook/assets/Earthol.com (1).png" alt="" width="563"><figcaption><p>Main page, Earthol.com. The English annotations are added.</p></figcaption></figure>
-
 ## Cost
 
 * [x] Free
