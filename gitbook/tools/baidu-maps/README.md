@@ -107,7 +107,7 @@ Researchers and developers should consider several limitations:
 * **Geographical Restrictions**: The most detailed coverage is limited to China. Little to no data is available for other countries.
 * **Language Barrier**: The user interface is only available in Chinese.
 * **Access Speed**: International users will experience slower access speeds.&#x20;
-* **Barriers accessing the API**: Non-Chinese individuals may have difficulty registering a Baidu developer account, preventing them from using Baidu's location-based services APIs. For individual developer accounts, only Chinese individuals are allowed. Company developer accounts can be opened by overseas companies.&#x20;
+* **Barriers accessing the API**: Non-Chinese individuals may have difficulty registering a Baidu developer account, preventing them from using Baidu's location-based services APIs. For individual developer accounts, only Chinese individuals can register. Company developer accounts can be opened by overseas companies. (See Baidu LBS account authentication FAQ - question 23 - in [Chinese](https://lbsyun.baidu.com/index.php?title=FAQ/authentication) and [English](https://lbsyun-baidu-com.translate.goog/index.php?title=FAQ/authentication&_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)).&#x20;
 
 ## Ethical Considerations
 
