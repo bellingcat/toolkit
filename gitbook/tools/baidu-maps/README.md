@@ -106,7 +106,8 @@ Researchers and developers should consider several limitations:
 
 * **Geographical Restrictions**: The most detailed coverage is limited to China. Little to no data is available for other countries.
 * **Language Barrier**: The user interface is only available in Chinese.
-* **Access Speed**: International users will experience slower access speeds or need a Chinese IP address to access certain APIs.
+* **Access Speed**: International users will experience slower access speeds.&#x20;
+* **Barriers accessing the API**: Non-Chinese individuals may have difficulty registering a Baidu developer account, preventing them from using Baidu's location-based services APIs. For individual developer accounts, only Chinese individuals are allowed. Company developer accounts can be opened by overseas companies.&#x20;
 
 ## Ethical Considerations
 
