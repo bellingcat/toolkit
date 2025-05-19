@@ -131,6 +131,7 @@
   * [Lumen](tools/lumen/README.md)
   * [Maigret](tools/maigret/README.md)
   * [Maltego Graph](tools/maltego/README.md)
+  * [MapChecking](tools/mapchecking/README.md)
   * [Mapillary](tools/mapillary/README.md)
   * [MapSwitcher](tools/mapswitcher/README.md)
   * [MarineTraffic](tools/marinetraffic/README.md)
