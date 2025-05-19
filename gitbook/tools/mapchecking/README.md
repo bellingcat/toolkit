@@ -150,7 +150,7 @@ Accuracy and Validation: Ethical use of MapChecking requires combining it with m
 
 Dynamic Nature of Crowds: Since crowds are dynamic and people move around, counting static points may not capture the real-time fluctuations of the crowd size. Ethical considerations require informing users and stakeholders that the count is a snapshot in time and may not fully reflect the dynamic nature of demonstrations or events.
 
-Density Variability: Since crowd density is not uniform ethical practice encourages users to analyze density variations carefully and provide separate estimates for different areas where appropriate.
+Density Variability: Since crowd density is not uniform ethical practice encourages users to analyze density variations carefully and to provide separate estimates for different areas where appropriate.
 
 Possibility of Misrepresentation: In the context of politically sensitive events, such as demonstrations, overestimating or underestimating crowd sizes can have significant implications. Ethical use of Mapchecking is encouraged.&#x20;
 
