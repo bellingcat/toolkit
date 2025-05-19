@@ -82,9 +82,9 @@ Baidu Maps' positioning and navigation capabilities are powered by the BeiDou Na
 
 (For more about BeiDou: see [Wikipedia](https://en.wikipedia.org/wiki/BeiDou); [BeiDou official website](http://en.beidou.gov.cn/); an academic article in [_Satellite Navigation,_ 2020](https://doi.org/10.1186/s43020-019-0006-0).)&#x20;
 
-Outside China, Baidu Maps has a partnership with [HERE Technologies](https://en.wikipedia.org/wiki/Here_WeGo), the Amsterdam-based mapping and data company. Other [information providers include](https://map.baidu.com/zt/client/copyrightPc/index.html) OpenStreetMap, MapKing (for Hong Kong and Southeast Asia) and LocalKing (Taiwan).&#x20;
+As for all Chinese mapping apps, Baidu Maps' satellite imagery is provided by China Siwei Surveying & Mapping Technology, which uses data procured from DigitalGlobe, the US company.&#x20;
 
-When searching for locations outside China, using English search terms will generally work.&#x20;
+Outside China, Baidu Maps has a partnership with [HERE Technologies](https://en.wikipedia.org/wiki/Here_WeGo), the Amsterdam-based mapping and data company. Other [information providers include](https://map.baidu.com/zt/client/copyrightPc/index.html) OpenStreetMap, MapKing (for Hong Kong and Southeast Asia) and LocalKing (Taiwan).
 
 ### Similar tools
 
