@@ -6,7 +6,7 @@ description: >-
 
 # MapChecking
 
-## Image Source: [X](https://x.com/BarakRavid/status/1830292233922482540). The post mentions that tens of thousands of protesters came to the protest in Tel AvivURL
+## URL
 
 [https://www.mapchecking.com/](https://www.mapchecking.com/)
 
