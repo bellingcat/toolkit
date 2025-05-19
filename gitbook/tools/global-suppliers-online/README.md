@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-This is a website where suppliers from all over the world promote their goods and contact buyers. If your research is related to companies or individuals engaged in the trade of any goods, you can search for their name and, if they have published their services on this site, obtain relevant details such as addresses, products traded and even a point of contact, such as the name of a person in charge of the trade. You can also discover who is asking for some items or goods you are researching and get contact points, company names and countries involved.
+Global Suppliers Online is a website where suppliers from all over the world promote their goods and contact buyers. If your research is related to companies or individuals engaged in the trade of any goods, you can search for their name and, if they have published their services on this site, obtain relevant details such as addresses, products traded and even a point of contact, such as the name of a person in charge of the trade. You can also discover who is asking for some items or goods you are researching and get contact points, company names and countries involved.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-02-28 at 5.34.12 PM.png" alt=""><figcaption><p>Here I was looking for sea cucumbers, a highly traded species, and found inquiries from people who wanted to buy or sell them all over the world. People names were covered.</p></figcaption></figure>
 
