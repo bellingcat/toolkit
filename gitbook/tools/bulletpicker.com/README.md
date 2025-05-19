@@ -170,14 +170,6 @@ A modern web browser with JavaScript enabled
 
 PDF Reader
 
-Based on the technical nature of the subject matter (Ordnance, Explosives), understanding the information on Bulletpicker.com might require some prior knowledge or a careful approach. Beginner users without a background in this area should exercise caution and take note of the site's limitations.
-
-## Requirements
-
-A modern web browser with JavaScript enabled
-
-PDF Reader
-
 ## Limitations
 
 [**The tool’s homepage explicitly states several limitations:**](https://www.bulletpicker.com/index.html)
