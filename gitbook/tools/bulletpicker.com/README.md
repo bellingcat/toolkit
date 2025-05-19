@@ -272,7 +272,7 @@ According to the website, Bulletpicker.com is provided by an unnamed ["retired p
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| <p>Afton</p><p>Previously: Andro</p> |
-|                                      |
+| Page maintainer                         |
+| --------------------------------------- |
+| <p>Afton </p><p>(Previously: Andro)</p> |
+|                                         |
