@@ -18,7 +18,7 @@ Tencent Maps provides detailed maps, satellite imagery, street view, directions 
 
 In Tencent Maps, user-generated reviews and photos are integrated with [Dianping](https://www.dianping.com/), the Chinese equivalent of Yelp.&#x20;
 
-#### Basic search: Map and satellite imagery
+### Basic search: Map and satellite imagery
 
 Search for the location and select the layer (e.g., satellite imagery) or function (e.g., ruler).&#x20;
 
