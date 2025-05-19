@@ -38,7 +38,7 @@ The contents are organized into the following categories, accessible through the
 
 2\. [Fillers](https://www.bulletpicker.com/_explosives.html) - this section contains resources on various fillers, defined as the ["energetic material (propellants, explosives, or pyrotechnic mixes)"](https://www.denix.osd.mil/uxo/explosives-safety/faqs/#faq-1) contained inside military munitions. These are the explosive materials packed inside an ordnance and are the substances that do the job of creating the explosion. Contents are organized in alphabetical order by name of the explosive agent.&#x20;
 
-<figure><img src=".gitbook/assets/2025-05-01_16-03-25.png" alt="" width="277"><figcaption><p>Users can locate the navigation panel to the left of the website. This is a sample of llst of fillers available in the  website organized in alphabetical order. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-05-01_16-03-25.png" alt="" width="277"><figcaption><p>Users can locate the navigation panel to the left of the website. This is a sample of llst of fillers available on the website organized in alphabetical order. </p></figcaption></figure>
 
 3\. [Ordnance](https://www.bulletpicker.com/_ord.html) - This section contains a list of various weapon systems, along with a brief introduction to each system. If you are new to the subject matter, it is recommended to start by exploring the “General Information” tab before moving on to more technical sections.&#x20;
 
