@@ -72,17 +72,15 @@ To search by coordinates instead, enter the coordinates (longitude first) and ch
 
 A 3D view is available. Baidu Maps also offers an API for building third-party apps that leverage 3D models and live data: [https://lbs.baidu.com/solutions/threedsvisualization](https://lbs.baidu.com/solutions/threedsvisualization)
 
-### **Global coverage**
+**Global coverage**
 
 Baidu Maps' coverage and capabilities are available globally, though the user interface is only available in Chinese. When searching for locations outside China, English search terms can be used.&#x20;
 
 ### **Underlying technologies and data**
 
-Baidu Maps' positioning and navigation capabilities are powered by the BeiDou Navigation Satellite System 北斗卫星导航系统. BeiDou is the global positioning and satellite technology developed by the Chinese government, and [competes with GPS and Galileo](https://www.gpsworld.com/chinas-beidou-challenges-u-s-gps-dominance/). (In October 2022, Baidu [announced an official switch](https://www.globaltimes.cn/page/202210/1276991.shtml) to prioritizing the use of Beidou for over 97% of its positioning calls.)&#x20;
+Baidu Maps' positioning and navigation capabilities are powered by the BeiDou Navigation Satellite System 北斗卫星导航系统. BeiDou is the global positioning and satellite technology developed by the Chinese government, and [competes with GPS and Galileo](https://www.gpsworld.com/chinas-beidou-challenges-u-s-gps-dominance/). (For more about BeiDou: see [Wikipedia](https://en.wikipedia.org/wiki/BeiDou); [BeiDou official website](http://en.beidou.gov.cn/); an academic article in [_Satellite Navigation,_ 2020](https://doi.org/10.1186/s43020-019-0006-0).)&#x20;
 
-(For more about BeiDou: see [Wikipedia](https://en.wikipedia.org/wiki/BeiDou); [BeiDou official website](http://en.beidou.gov.cn/); an academic article in [_Satellite Navigation,_ 2020](https://doi.org/10.1186/s43020-019-0006-0).)&#x20;
-
-As for all Chinese mapping apps, Baidu Maps' satellite imagery is provided by China Siwei Surveying & Mapping Technology, which uses data procured from DigitalGlobe, the US company.&#x20;
+For all Chinese mapping tools, satellite imagery is provided by China Siwei Surveying & Mapping Technology, which uses data procured from DigitalGlobe, the US company.&#x20;
 
 Outside China, Baidu Maps has a partnership with [HERE Technologies](https://en.wikipedia.org/wiki/Here_WeGo), the Amsterdam-based mapping and data company. Other [information providers include](https://map.baidu.com/zt/client/copyrightPc/index.html) OpenStreetMap, MapKing (for Hong Kong and Southeast Asia) and LocalKing (Taiwan).
 
