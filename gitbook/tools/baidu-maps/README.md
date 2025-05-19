@@ -12,7 +12,9 @@ API documentation, [https://api.map.baidu.com/](https://api.map.baidu.com/)
 
 ## Description
 
-Baidu Maps offers maps, street view, satellite imagery, and real-time route planning. It is available via the web browser or as a mobile application.
+Baidu Maps offers maps, street view, satellite imagery, and real-time route planning. It is available via the web browser or as a mobile application. \
+\
+Baidu Maps' location and navigation capabilities are powered by the BeiDou Navigation Satellite System 北斗卫星导航系统, instead of the US-developed GPS.&#x20;
 
 #### The basics
 
@@ -72,6 +74,10 @@ To search by coordinates instead, enter the coordinates (longitude first) and ch
 
 A 3D view is available. Baidu Maps also offers an API for building third-party apps that leverage 3D models and live data: [https://lbs.baidu.com/solutions/threedsvisualization](https://lbs.baidu.com/solutions/threedsvisualization)
 
+### **Global coverage**
+
+Although Baidu's user interface is only available in Chinese, its map coverage and route planning capabilities are available globally. Outside China, Baidu Maps has a partnership with [HERE Technologies](https://en.wikipedia.org/wiki/Here_WeGo). Other information providers include OpenStreetMap, MapKing (for Hong Kong and Southeast Asia) and LocalKing (Taiwan).&#x20;
+
 ### Similar tools
 
 Open-source researchers can cross-reference with other leading mapping services, including AMap (Gaode Maps) and Tencent Map (QQ Maps).
@@ -104,10 +110,9 @@ Note that all three mapping tools use (at least in part - for their China covera
 
 Researchers and developers should consider several limitations:
 
-* **Geographical Restrictions**: The most detailed coverage is limited to China. Little to no data is available for other countries.
 * **Language Barrier**: The user interface is only available in Chinese.
-* **Access Speed**: International users will experience slower access speeds.&#x20;
-* **Barriers accessing the API**: Non-Chinese individuals will have difficulty registering a Baidu developer account, preventing them from using Baidu's location-based services APIs. For individual developer accounts, only Chinese citizens can register. (Individuals must be between the ages of 18 and 65. Real-name registration and a selfie of the individual holding their ID are required. Reference: [Baidu Developer Account Registration Procedure](https://app.baidu.com/newapp/docs/%E5%BC%80%E5%8F%91%E8%80%85%E5%87%86%E5%85%A5/%E5%BC%80%E5%8F%91%E8%80%85%E6%B3%A8%E5%86%8C%E6%B5%81%E7%A8%8B/) - in Chinese.) Company developer accounts can be opened by overseas companies. (See Baidu LBS account authentication FAQ - question 23 - in [Chinese](https://lbsyun.baidu.com/index.php?title=FAQ/authentication) and [English](https://lbsyun-baidu-com.translate.goog/index.php?title=FAQ/authentication&_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)).&#x20;
+* **Access Speed**: International users will experience slower access speeds, especially if using a VPN.&#x20;
+* **Barriers accessing the API**: Non-Chinese individuals will have difficulty registering a Baidu developer account, preventing them from using Baidu's location-based services APIs. For individual developer accounts, only Chinese citizens can register. (Individuals must be between the ages of 18 and 65. Real-name registration and a selfie of the individual holding their ID are required. Reference: [Baidu Developer Account Registration Procedure](https://app.baidu.com/newapp/docs/%E5%BC%80%E5%8F%91%E8%80%85%E5%87%86%E5%85%A5/%E5%BC%80%E5%8F%91%E8%80%85%E6%B3%A8%E5%86%8C%E6%B5%81%E7%A8%8B/) - in Chinese.) Company developer accounts can be opened by overseas companies. (See Baidu LBS account authentication FAQ, question 23 - in [Chinese](https://lbsyun.baidu.com/index.php?title=FAQ/authentication) and [English](https://lbsyun-baidu-com.translate.goog/index.php?title=FAQ/authentication&_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)).&#x20;
 
 ## Ethical Considerations
 
