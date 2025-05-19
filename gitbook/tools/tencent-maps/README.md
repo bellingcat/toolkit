@@ -16,7 +16,7 @@ API documentation, [https://lbs.qq.com/service/webService/webServiceGuide/webSer
 
 Tencent Maps provides detailed maps, satellite imagery, street view, directions for driving, public transport and walking, and real-time traffic conditions. In Q1 2025, a Deepseek AI assistant was launched in the mobile app for users to ask for recommendations and real-time information.&#x20;
 
-In Tencent Maps, user-generated reviews and photos are integrated with Dianping ([https://www.dianping.com/](https://www.dianping.com/)), the Chinese equivalent of Yelp.&#x20;
+In Tencent Maps, user-generated reviews and photos are integrated with [Dianping](https://www.dianping.com/), the Chinese equivalent of Yelp.&#x20;
 
 #### Basic search: Map and satellite imagery
 
