@@ -30,6 +30,8 @@ Street views are generally available on the road networks, indicated by the thic
 
 <figure><img src=".gitbook/assets/streetview_available.png" alt=""><figcaption><p>The thickened gray routes indicate that street view is available.</p></figcaption></figure>
 
+Street view images are captured by a Baidu-operated fleet of vehicles, which are fitted with single-lens reflex (SLR) cameras, GPS and inertial navigation sensors. However, the fleet's image capture schedules are not made public.&#x20;
+
 <details>
 
 <summary>Panoramic preview for street view</summary>
@@ -43,6 +45,8 @@ See below: The 360º preview is shown.
 <img src=".gitbook/assets/panoramic_preview.png" alt="" data-size="original">
 
 </details>
+
+
 
 **Time machine 时光机**
 
@@ -76,7 +80,9 @@ Open-source researchers can cross-reference with other leading mapping services,
 
 For open-source researchers accessing Chinese map tools from overseas, Baidu Maps is the only tool that provides street view on the web browser. (Street view is not available on AMap, and is only available in Tencent Map's mobile version.)
 
-Note that all three mapping tools use (at least in part - for their China coverage) the BeiDou Navigation Satellite System 北斗卫星导航系统 for their satellite and positioning capabilities. BeiDou is the global positioning and satellite technology developed by the Chinese government, and [competes with GPS and Galileo](https://www.gpsworld.com/chinas-beidou-challenges-u-s-gps-dominance/). (For more about BeiDou: see [Wikipedia](https://en.wikipedia.org/wiki/BeiDou); [BeiDou official website](http://en.beidou.gov.cn/), or an academic article in [_Satellite Navigation,_ 2020](https://doi.org/10.1186/s43020-019-0006-0).) The exact ways that BeiDou is leveraged in each mapping tool depends on the device, the chip, and the location where the mapping tool is used.&#x20;
+Note that all three mapping tools use (at least in part - for their China coverage) the BeiDou Navigation Satellite System 北斗卫星导航系统 for their satellite and positioning capabilities. BeiDou is the global positioning and satellite technology developed by the Chinese government, and [competes with GPS and Galileo](https://www.gpsworld.com/chinas-beidou-challenges-u-s-gps-dominance/). The exact ways that BeiDou is leveraged in each mapping tool depends on the device, the chip, and the location where the mapping tool is used. \
+\
+(For more about BeiDou: see [Wikipedia](https://en.wikipedia.org/wiki/BeiDou); [BeiDou official website](http://en.beidou.gov.cn/); an academic article in [_Satellite Navigation,_ 2020](https://doi.org/10.1186/s43020-019-0006-0).)&#x20;
 
 ## Cost
 
