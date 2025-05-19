@@ -50,13 +50,35 @@ _Ordnance → Bombs → Ukraine_&#x20;
 
 <figure><img src=".gitbook/assets/2025-05-01_16-02-21.png" alt="" width="195"><figcaption><p>Researchers interested in a praticular kind of ordnance can first navigate to the type of ordnance (Bombs, Clusters, etc) followed by the country it may belong to as seen in this screenshot (Image Credit: Bulletpicker.com) </p></figcaption></figure>
 
+<figure><img src=".gitbook/assets/2025-05-07_17-06-05-guide.png" alt="" width="375"><figcaption><p>(Click to enlarge) This is a quick guide we created for navigating information on various ordinances listed on the website. Note that not all types of ordnance have information on each of these categories. Some do not have images, and some do not have information on how they function or information on hazardous content. </p></figcaption></figure>
 
+4\. [Fuzes](https://www.bulletpicker.com/_fuze.html) -  According to [this](https://en.wikipedia.org/wiki/Fuze), a fuze is a “device with explosive components designed to initiate the main charge” and determines when the explosion happens. This section of the website lists various types of fuzes and are categorized by country. [Some types contain a short description, an image, a short description of its function, hazardous components, if any. ](https://www.bulletpicker.com/adapter-booster_-m102a1.html)Also note that sometimes items will contain just a diagram and no real-life photo, or just a real-life photo with no diagram. Sometimes, these items contain both.&#x20;
 
-\
+The content is organized by type of ordnance in which the fuze is used in, and then followed by a subcategory organized by country.&#x20;
 
+**For example:**
 
-\
+_Fuzes → Bombs, Clusters and Dispensers → France_&#x20;
 
+{% hint style="info" %}
+NOTE: When researching ordnance, explosives, and related items using Bulletpicker, it is essential to remember that the content is not for identification or instructional purposes and does not take the place of a qualified specialist. Users are responsible for verifying information with other official references.
+{% endhint %}
+
+### Basic Identification of Ammunition in Ukraine
+
+The website includes a copy of the 2024 guide to Basic Identification of Ammunition in Ukraine, in both [English and Ukrainian.](https://ukr.bulletpicker.com/id-guides.html)&#x20;
+
+### Use cases
+
+Based on the content, Bulletpicker.com could be used for:
+
+* Historical Research: Accessing information on older ordnance, such as “[Allied and Enemy Explosives (1946)](https://www.bulletpicker.com/pdf/Allied-and-Enemy-Explosives.pdf)” or "[Current British Land Service Fuzes (1962)](https://www.bulletpicker.com/pdf/Current-British-Land-Service-Fuzes.pdf)”. It can be a valuable archive for technical manuals from old and recent conflicts.
+* General Knowledge: Learning about different types of explosives, chemical agents, and related items. Because the website has an extensive categorical organization, it allows users to develop a comprehensive knowledge of weapons systems, their technical specifications, and other identifying characteristics across multiple countries and time frames.
+* Technical Reference (with caveats): Although the site explicitly states that it is not for identification or instruction by unqualified individuals, trained specialists may use it as one reference point among others. For those with foundational knowledge or have professional qualifications, this tool may be useful because it provides data such as:
+  * Chemical composition of a filler
+  * [Ballistic properties](https://www.bulletpicker.com/landmine_-apers_-m2a4.html) (how the weapon behaves as it travels in space)
+  * [Manufacturing markings](https://www.bulletpicker.com/rocket_-57mm-heat_frag_-s-5kpb.html) and [Cross-sectional diagrams](https://www.bulletpicker.com/rocket-motor_-68mm_-model-f1.html)
+  * Precise measurements&#x20;
 
 ## Cost
 
@@ -66,23 +88,61 @@ _Ordnance → Bombs → Ukraine_&#x20;
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
+
+Based on the disclaimers and the technical nature of the subject matter (Ordnance, Explosives), navigating and understanding the information on Bulletpicker.com might require some prior knowledge or a careful approach. Beginner users without a background in this area should exercise extreme caution and know the site's limitations.
 
 ## Requirements
 
-None
+A modern web browser with JavaScript enabled
+
+PDF Reader
 
 ## Limitations
 
-Many of the resources are pdf documents or images that require opening, which can be time consuming, however the search and index help to mitigate that.
+[**The tool’s homepage explicitly states several limitations:**](https://www.bulletpicker.com/index.html)
+
+* The content is not for Demining, Unexploded Ordnance (UXO), or  Explosive Ordnance Disposal (EOD) information.
+* Not designed to teach EOD/UXO technicians or deminers.
+* Not designed to identify UXO or ordnance.
+* Content is not for identification or instructional purposes for unqualified individuals.
+* Does not replace qualified specialists.
+* Users are responsible for verifying content with other official references.
+* Bulletpicker, LLC is not associated with the DoD or the US Government.
+* Bulletpicker, LLC does not handle classified Government documents or data.
+* Proximity to UXO is always dangerous and should be avoided; only trained personnel should handle it.
+
+Based on our review, here are additional limitations:
+
+1. Foundational knowledge required&#x20;
+
+The content of Bulletpicker.com is intended for those with a foundational background on military weapons systems. Beginner users will not find introductory content. It is not designed for beginner users, and assumes they possess foundational knowledge of ordnance terminology and identification.&#x20;
+
+2. Content Variability:&#x20;
+
+Information depth and organization vary across the different sections of the website, possibly due to the reliance on public domain materials and sources with expired copyrights. This creates noticeable inconsistencies in coverage.
+
+For example, [the Ordnance/Bombs subcategory ](https://www.bulletpicker.com/_bombs.html)includes resources for 13 countries, while the [“Clusters and Dispensers” subcategory](https://www.bulletpicker.com/_clusters.html) covers eight countries plus an “unknown” category.&#x20;
+
+It is unclear whether this coverage limitation stems from data availability constraints or reflects the actual global distribution of ordnance manufacturing capabilities. In other words,  is this because these are the only resources publicly available, or is this the list of countries known to produce such types of devices? &#x20;
+
+Another example is that not all items will contain an image or diagram.&#x20;
+
+Users have to be aware that some information may not be available due to security and confidentiality reasons.&#x20;
+
+3. Searching:&#x20;
+
+Many of the resources are PDF documents or images that require opening, which can be time consuming, however, the search and index help to mitigate that.
+
+If the researcher has limited foundational knowledge on the subject matter, this may not be the first resource to use for weapons identification. Users may need to know some technical terms to use the search function effectively and find what they want.&#x20;
 
 ## Ethical Considerations
 
-\-
+Given the sensitive nature of the information (ordnance and explosives), users should consider the ethical implications of how they use this information. It should not be used for any illegal or harmful activities. Respecting the disclaimers and limitations of the site is crucial
 
 ## Guide
 
-\-
+\[None at the moment]
 
 ## Tool provider
 
@@ -90,11 +150,11 @@ According to the website, Bulletpicker.com is provided by an unnamed ["retired p
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Andro           |
-|                 |
+| Page maintainer                      |
+| ------------------------------------ |
+| <p>Afton</p><p>Previously: Andro</p> |
+|                                      |
