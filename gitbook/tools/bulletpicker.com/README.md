@@ -207,42 +207,6 @@ Many of the resources are PDF documents or images that require opening, which ca
 
 If the researcher has limited foundational knowledge on the subject matter, this may not be the first resource to use for weapons identification. Users may need to know some technical terms to use the search function effectively and find what they want.&#x20;
 
-Overall, this website is an extremely valuable resource. Users, however, should be mindful of some limitations.&#x20;
-
-[**The tool’s homepage explicitly states several limitations:**](https://www.bulletpicker.com/index.html)
-
-* The content is not for Demining, Unexploded Ordnance (UXO), or  Explosive Ordnance Disposal (EOD) information.
-* Not designed to teach EOD/UXO technicians or deminers.
-* Not designed to identify UXO or ordnance.
-* Content is not for identification or instructional purposes for unqualified individuals.
-* Does not replace qualified specialists.
-* Users are responsible for verifying content with other official references.
-* Bulletpicker, LLC is not associated with the DoD or the US Government.
-* Bulletpicker, LLC does not handle classified Government documents or data.
-* Proximity to UXO is always dangerous and should be avoided; only trained personnel should handle it.
-
-Based on our review, here are additional limitations:
-
-1. Foundational knowledge required&#x20;
-
-The content of Bulletpicker.com is intended for those with a foundational background on military weapons systems. Beginner users will not find introductory content and assume they possess foundational knowledge of ordnance terminology.&#x20;
-
-2. Content Variability:&#x20;
-
-Information depth and organization vary across the different sections of the website, possibly due to the reliance on public domain materials and sources with expired copyrights. This creates noticeable inconsistencies in coverage.
-
-For example, [the Ordnance/Bombs subcategory ](https://www.bulletpicker.com/_bombs.html)includes resources for 13 countries, while the [“Clusters and Dispensers” subcategory](https://www.bulletpicker.com/_clusters.html) covers eight countries plus an “unknown” category.&#x20;
-
-It is unclear whether this coverage limitation stems from data availability constraints or reflects the actual global distribution of ordnance manufacturing capabilities. In other words,  is this because these are the only resources publicly available, or is this the list of countries known to produce such types of devices? &#x20;
-
-Another limitation is that not all items will contain an image or diagram (if that interests the researcher).
-
-Users must be aware that some information may just not be available for security and confidentiality reasons.
-
-3. Navigation:
-
-Many of the resources are PDF documents or images that require opening, which can be time-consuming; however, the search and index help to mitigate that.
-
 ## Ethical Considerations
 
 Given the sensitive nature of the information (ordnance and explosives), users should consider the ethical implications of how they use this information. It should not be used for any illegal or harmful activities. Respecting the disclaimers and limitations of the site is imperative.&#x20;
