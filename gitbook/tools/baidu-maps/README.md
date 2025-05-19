@@ -90,9 +90,7 @@ Open-source researchers can cross-reference with other leading mapping services,
 
 For open-source researchers accessing Chinese map tools from overseas, Baidu Maps is the only tool that provides street view on the web browser. (Street view is not available on AMap, and is only available in Tencent Map's mobile version.)
 
-Note that all three mapping tools use (at least in part - for their China coverage) the BeiDou Navigation Satellite System for their positioning capabilities. The exact ways that BeiDou is leveraged in each mapping tool depends on the device, the chip, and the location where the mapping tool is used. \
-\
-
+Note that all three mapping tools use (at least in part - for their China coverage) the BeiDou Navigation Satellite System for their positioning capabilities. The exact ways that BeiDou is leveraged in each mapping tool depends on the device, the chip, and the location where the mapping tool is used.&#x20;
 
 ## Cost
 
