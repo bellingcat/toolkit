@@ -22,7 +22,7 @@ According to the tool provider, Bulletpicker contains [“ordnance-related techn
 
 The tool provider also says that its purpose is data-sharing between [these sectors](https://buymeacoffee.com/bulletpicker): Explosive Ordnance Disposal (EOD), Public Safety Bomb Technician (PSBT), and commercial UXO (Unexploded Ordnance) and is accessed by a [wide range of users](https://buymeacoffee.com/bulletpicker): personnel from government agencies, historians, archaeologists, forensic experts, and others working in related fields.
 
-In the same source [above](https://buymeacoffee.com/bulletpicker), the provider mentions that the platform has:
+[The provider mentions](https://buymeacoffee.com/bulletpicker) that the platform has:
 
 * Technical info on \~4,000 ordnance and related items
 * Access to 1,300+ publications in PDF format
