@@ -1,7 +1,7 @@
 ---
 description: >-
-  Mapping application and technology from the Chinese company Alibaba. (Also
-  known as AMap.)
+  Gaode Maps, also known as AMap, is a mapping application and technology from
+  the Chinese company Alibaba.
 ---
 
 # Gaode Maps
