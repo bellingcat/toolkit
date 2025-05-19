@@ -34,7 +34,7 @@ According to the tool website, these technical manuals are [public domain and in
 
 The contents are organized into the following categories, accessible through the navigation menu on the left side of the page.&#x20;
 
-1.[ Library](https://www.bulletpicker.com/_library.html) - This section is a collection of manuals from different armed forces (including historical manuals)&#x20;
+1.[ Library](https://www.bulletpicker.com/_library.html) - This section is a collection of manuals from different armed forces (including historical manuals).
 
 2\. [Fillers](https://www.bulletpicker.com/_explosives.html) - this section contains resources on various fillers, defined as the[ "energetic material (propellants, explosives, or pyrotechnic mixes)" contained inside military munitions.](https://www.denix.osd.mil/uxo/explosives-safety/faqs/#faq-1) These are the explosive materials packed inside an ordnance and are the substances that do the job of creating the explosion. Contents are organized in alphabetical order by name of the explosive agent.&#x20;
 
