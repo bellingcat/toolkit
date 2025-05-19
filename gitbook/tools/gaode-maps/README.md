@@ -1,6 +1,6 @@
 ---
 description: >-
-  Gaode Maps, also known as AMap, is a mapping application and technology from
+  Gaode Maps (also known as AMap) is a mapping application and technology from
   the Chinese company Alibaba.
 ---
 
@@ -20,7 +20,7 @@ Gaode Maps offers maps, satellite imagery, directions (for driving, public trans
 * **Mobile app "AMap Global" available in English**: The English mobile app offers basic functions including map search, satellite imagery and directions in China. (Other functionalities may be limited.)
 * Notably, **Gaode Maps** **does not offer street view**.&#x20;
 
-AMap is a data provider to Apple Maps. The Apple Maps app automatically switches to using AMap data when the device is in China (e.g., when global iPhone users travel from overseas to mainland China).&#x20;
+AMap is a [data provider](http://blogs.wsj.com/chinarealtime/2012/09/26/apple-built-special-version-of-maps-for-china/?mod=WSJBlog) to Apple Maps. The Apple Maps app automatically switches to using AMap data [when the device is in China](https://www.trip.com/guide/phone/apple-map-in-china.html) (e.g., when global iPhone users travel from overseas to mainland China).&#x20;
 
 In many Android phone models sold in China, Gaode Maps is pre-installed instead of Google Maps.&#x20;
 
