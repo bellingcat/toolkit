@@ -80,7 +80,7 @@ Baidu Maps' coverage and capabilities are available globally, though the user in
 
 Baidu Maps' positioning and navigation capabilities are powered by the BeiDou Navigation Satellite System 北斗卫星导航系统. BeiDou is the global positioning and satellite technology developed by the Chinese government, and [competes with GPS and Galileo](https://www.gpsworld.com/chinas-beidou-challenges-u-s-gps-dominance/). (For more about BeiDou: see [Wikipedia](https://en.wikipedia.org/wiki/BeiDou); [BeiDou official website](http://en.beidou.gov.cn/); an academic article in [_Satellite Navigation,_ 2020](https://doi.org/10.1186/s43020-019-0006-0).)&#x20;
 
-For all Chinese mapping tools, satellite imagery is provided by China Siwei Surveying & Mapping Technology, which uses data procured from DigitalGlobe, the US company.&#x20;
+For all Chinese mapping tools, satellite imagery is provided by China Siwei Surveying & Mapping Technology, which uses data and imagery from DigitalGlobe, the US company.&#x20;
 
 Outside China, Baidu Maps has a partnership with [HERE Technologies](https://en.wikipedia.org/wiki/Here_WeGo), the Amsterdam-based mapping and data company. Other [information providers include](https://map.baidu.com/zt/client/copyrightPc/index.html) OpenStreetMap, MapKing (for Hong Kong and Southeast Asia) and LocalKing (Taiwan).
 
