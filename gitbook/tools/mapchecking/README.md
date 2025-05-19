@@ -17,7 +17,7 @@ This tool helps users estimate the maximum number of people standing in a partic
 Based on the steps below, MapChecking can calculate the estimated density of participants in the overall space they cover on a map. The tool allows users to do all the steps on one webpage.&#x20;
 
 1. Input Location
-2. Draw a Polygon and Map Visualization
+2. Drawing a Polygon and Map Visualization
 3. Matching and Double-Checking
 4. Determine Crowd Density Per Square Meter
 5. Calculate Total Estimated Crowd Size
