@@ -166,9 +166,8 @@ Based on the disclaimers and the technical nature of the subject matter (Ordnanc
 
 ## Requirements
 
-A modern web browser with JavaScript enabled
-
-PDF Reader
+* A modern web browser with JavaScript enabled
+* PDF Reader
 
 ## Limitations
 
