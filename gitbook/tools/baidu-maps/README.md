@@ -76,7 +76,7 @@ A 3D view is available. Baidu Maps also offers an API for building third-party a
 
 Baidu Maps' coverage and capabilities are available globally, though the user interface is only available in Chinese. When searching for locations outside China, English search terms can be used.&#x20;
 
-### **Underlying technologies and data**
+### **Underlying technologies and data providers**
 
 Baidu Maps' positioning and navigation capabilities are powered by the BeiDou Navigation Satellite System 北斗卫星导航系统. BeiDou is the global positioning and satellite technology developed by the Chinese government, and [competes with GPS and Galileo](https://www.gpsworld.com/chinas-beidou-challenges-u-s-gps-dominance/). (For more about BeiDou: see [Wikipedia](https://en.wikipedia.org/wiki/BeiDou); [BeiDou official website](http://en.beidou.gov.cn/); an academic article in [_Satellite Navigation,_ 2020](https://doi.org/10.1186/s43020-019-0006-0).)&#x20;
 
