@@ -51,7 +51,7 @@ Input the address of an already verified location into the map interface. For si
 We geolocated this area and found it in Democracy Square in Tel Aviv, at the intersection of Eli'ezer Kaplan Street and Giv'at HaTah̠moshet Street. The coordinates are 32.073368, 34.790295.&#x20;
 
 {% hint style="info" %}
-NOTE: Putting the coordinates on the map does not seem to work at the time of testing the tool on both Firefox and Chrome browsers. Use street address instead to find location in question
+NOTE: Putting the coordinates on the map does not seem to work at the time of testing the tool on both Firefox and Chrome browsers. Use street address instead to find location in question.
 {% endhint %}
 
 {% hint style="warning" %}
