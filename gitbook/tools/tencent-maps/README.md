@@ -28,9 +28,9 @@ Search for the location and select the layer (e.g., satellite imagery) or functi
 
 <summary>Annotated menu - mobile</summary>
 
-<figure><img src=".gitbook/assets/layers_annotated_tencent copy (1).png" alt="" width="375"><figcaption><p>Basic mobile app menu. You may be more or fewer selections depending on your settings and location.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/layers_annotated_tencent copy (1).png" alt="" width="375"><figcaption><p>Basic mobile app menu. You may be seeing more or fewer options depending on your settings and location.</p></figcaption></figure>
 
-See below section for steps to access street views.&#x20;
+Information on how to access street views can be found further below.&#x20;
 
 </details>
 
