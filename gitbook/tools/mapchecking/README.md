@@ -106,7 +106,7 @@ NOTE: The total estimate changes, as the crowd density slides from light to crow
 
 <figure><img src=".gitbook/assets/Screenshot 2024-09-04 134055-marked.png" alt="" width="375"><figcaption><p>The final step is dragging the slider (shown in the orange circle) between the different crowd density options. When dragging the slider to "Packed", users can see that the density per square meter is 4.25 (shown in the yellow rectangle) which matches our STEP 4 estimate. </p></figcaption></figure>
 
-You can also read through Nixintel's article [Counting crowds in public spaces ](https://nixintel.info/osint/counting-crowds-in-public-spaces/)to see how MapChecking was used to estimate the crowds of the same protest independently from our test.&#x20;
+You can also read through Nixintel's article [Counting crowds in public spaces ](https://nixintel.info/osint/counting-crowds-in-public-spaces/)to see how MapChecking was used to estimate the crowds of the same protest independently from (and before) our own test.&#x20;
 
 ## Cost
 
