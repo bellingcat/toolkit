@@ -76,7 +76,9 @@ A 3D view is available. Baidu Maps also offers an API for building third-party a
 
 ### **Global coverage**
 
-Although Baidu's user interface is only available in Chinese, its map coverage and route planning capabilities are available globally. Outside China, Baidu Maps has a partnership with [HERE Technologies](https://en.wikipedia.org/wiki/Here_WeGo). Other information providers include OpenStreetMap, MapKing (for Hong Kong and Southeast Asia) and LocalKing (Taiwan).&#x20;
+Although Baidu's user interface is only available in Chinese, its map coverage and route planning capabilities are available globally. Outside China, Baidu Maps has a partnership with [HERE Technologies](https://en.wikipedia.org/wiki/Here_WeGo). Other [information providers include](https://map.baidu.com/zt/client/copyrightPc/index.html) OpenStreetMap, MapKing (for Hong Kong and Southeast Asia) and LocalKing (Taiwan).&#x20;
+
+When searching for locations outside China, using English search terms will generally work in English-speaking countries. In such cases, using a precise search term is recommended.&#x20;
 
 ### Similar tools
 
