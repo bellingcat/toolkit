@@ -72,7 +72,7 @@ The next step is to delineate the area of interest by drawing a polygon. The def
 
 Double-check whether your area of interest in the source image matches the polygon drawn within the MapChecking tool. To do so, you can draw a polygon on the source image in a separate program and put both pictures next to each other (as shown in the picture below).
 
-<figure><img src=".gitbook/assets/MapChecking.png" alt=""><figcaption><p>On the left is the source image overlaid with a polygon using Paint, and to the right is the polygon drawn utilizing MapChecking. The right image is rotated to approximate the perspective as shown in the source image. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/MapChecking.png" alt=""><figcaption><p>On the left is the<a href="https://x.com/BarakRavid/status/1830292233922482540"> source image</a> overlaid with a polygon using Paint, and to the right is the polygon drawn utilizing MapChecking. The right image is rotated to approximate the perspective as shown in the source image. </p></figcaption></figure>
 
 ### STEP 4: Determine Crowd Density Per Square Meter
 
