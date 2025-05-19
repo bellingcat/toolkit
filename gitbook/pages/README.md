@@ -1,22 +1,38 @@
 ---
 description: A toolkit for open source researchers
+cover: .gitbook/assets/Bellingcat_Toolkit_Ann_Kiernan copy.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: false
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: false
+  pagination:
+    visible: false
 ---
 
-# About
+# Home
 
-### Welcome to Bellingcat’s Online Open Source Investigation Toolkit!
-
-<figure><img src=".gitbook/assets/Bellingcat_Toolkit_Ann_Kiernan copy.jpg" alt="" width="563"><figcaption><p><em>Illustration by Ann Kiernan for Bellingcat</em>.</p></figcaption></figure>
+## Welcome to Bellingcat’s Online Open Source Investigation Toolkit!
 
 This is your place to discover tools! Our toolkit includes satellite and mapping services, tools for verifying photos and videos, websites to archive web pages, and much more. Most of the tools that we include can be used for free.
 
-On the left hand side, you can see all available categories (for instance, Maps & Satellites or Geolocation). Click on these category names to enter the tool lists.
+Click on the name of a tool to view an in-depth review and guide for the tool (if available). You can also [download this toolkit](https://github.com/bellingcat/toolkit/releases/tag/csv) (or some of its categories) as a csv.
 
-Click on the link in the "Tool Review and Guide" column to view an in-depth description of each tool (if available). Otherwise, you will find a direct link to the tool website there.
+#### Browse tools by category:
 
-You can also [download this toolkit](https://github.com/bellingcat/toolkit/releases/tag/csv) (or some of its categories) as csv.
+{% include "https://app.gitbook.com/s/wRheccA9m6vw1G3kXACN/~/reusable/O9YmLzpKoSdlNN0Qx9rq/" %}
 
-This toolkit is a work-in-progress and the number of available tool descriptions will grow over time. You can read more about the toolkit [here](https://www.bellingcat.com/resources/2024/09/24/bellingcat-online-investigations-toolkit/).
+## About
+
+This toolkit is still a work-in-progress and the number of available tool descriptions will grow over time. You can read more about the toolkit [here](https://www.bellingcat.com/resources/2024/09/24/bellingcat-online-investigations-toolkit/).
 
 <details>
 
