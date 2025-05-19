@@ -6,7 +6,7 @@ description: >-
 
 # MapChecking
 
-## URL
+## Image Source: [X](https://x.com/BarakRavid/status/1830292233922482540). The post mentions that tens of thousands of protesters came to the protest in Tel AvivURL
 
 [https://www.mapchecking.com/](https://www.mapchecking.com/)
 
@@ -38,7 +38,7 @@ For this tool description, we take the [protest in Tel Aviv on 1 September 2024]
 
 Our source image is a clip from a [video uploaded to X](https://x.com/BarakRavid/status/1830292233922482540). The post mentions "tens of thousands" of protesters in Tel Aviv.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2024-09-02 153133.png" alt="" width="563"><figcaption><p>Image Source: <a href="https://x.com/BarakRavid/status/1830292233922482540">X</a>. The post mentions that tens of thousands of protesters came to the protest in Tel Aviv. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-05-19 at 17.13.28.png" alt="" width="563"><figcaption><p>Image Source: <a href="https://x.com/BarakRavid/status/1830292233922482540">X</a>. The post mentions that tens of thousands of protesters came to the protest in Tel Aviv</p></figcaption></figure>
 
 ### **STEP 1: Input Location**
 
