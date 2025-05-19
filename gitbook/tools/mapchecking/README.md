@@ -57,7 +57,7 @@ NOTE: Putting the coordinates on the map does not seem to work at the time of te
 {% hint style="warning" %}
 **TIP: Why is it important to look at multiple images?**
 
-When analyzing images, especially those depicting large crowds, combining multiple source images taken from different angles is often beneficial. This helps to capture the full scope of the event and avoid blind spots caused by obstructions.
+When analyzing images, especially those depicting large crowds, combining multiple source images taken from different angles is often beneficial. This is helpful to capture the full scope of the event and to avoid blind spots caused by obstructions.
 
 _Remember:_ Even with combined images, obstructions like buildings or bridges can limit visibility. Always be mindful of these factors and consider the potential limitations of the visual data.
 {% endhint %}
