@@ -28,7 +28,7 @@ The tool provider also says that its purpose is data-sharing between [these sect
 * Access to 1,300+ publications in PDF format
 * A downloadable version for offline use in remote areas or those operating in places with limited connectivity which is available for download[ here.](https://www.bulletpicker.com/offline-version.html)
 
-According to the tool, these technical manuals are [public domain and include copyright-expired books](https://www.bulletpicker.com/_about.html) scanned as PDF.
+According to the tool website, these technical manuals are [public domain and include copyright-expired books](https://www.bulletpicker.com/_about.html) scanned as PDF.
 
 ### Key Areas&#x20;
 
