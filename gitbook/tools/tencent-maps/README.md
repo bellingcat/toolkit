@@ -124,5 +124,5 @@ Tencent Holdings Ltd. [https://www.tencent.com/](https://www.tencent.com/) - Chi
 
 | Page maintainer           |
 | ------------------------- |
-| Bellingcat volunteer team |
+| Bellingcat Volunteer Team |
 |                           |
