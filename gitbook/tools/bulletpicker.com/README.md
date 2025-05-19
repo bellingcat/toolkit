@@ -195,7 +195,7 @@ Information depth and organization vary across the different sections of the web
 
 For example, [the Ordnance/Bombs subcategory ](https://www.bulletpicker.com/_bombs.html)includes resources for 13 countries, while the [“Clusters and Dispensers” subcategory](https://www.bulletpicker.com/_clusters.html) covers eight countries plus an “unknown” category.&#x20;
 
-It is unclear whether this coverage limitation stems from data availability constraints or reflects the actual global distribution of ordnance manufacturing capabilities. In other words,  is this because these are the only resources publicly available, or is this the list of countries known to produce such types of devices? &#x20;
+It is unclear to the author whether this coverage limitation stems from data availability constraints or reflects the actual global distribution of ordnance manufacturing capabilities. In other words, is this because these are the only resources publicly available, or is this the list of countries known to produce such types of devices? &#x20;
 
 Another example is that not all items will contain an image or diagram.&#x20;
 
