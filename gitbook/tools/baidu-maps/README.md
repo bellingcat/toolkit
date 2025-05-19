@@ -30,7 +30,7 @@ Street views are generally available on the road networks, indicated by the thic
 
 <figure><img src=".gitbook/assets/streetview_available.png" alt=""><figcaption><p>The thickened gray routes indicate that street view is available.</p></figcaption></figure>
 
-Street view images are captured by a Baidu-operated fleet of vehicles, which are fitted with single-lens reflex (SLR) cameras, GPS and inertial navigation sensors. However, the fleet's image capture schedules are not made public.&#x20;
+Street view images are captured by a [Baidu-operated fleet of vehicles](https://web.archive.org/web/20250519015136/https://www.cheyun.com/articleDetail/11826), which are fitted with single-lens reflex (SLR) cameras, GPS and inertial navigation sensors. However, the fleet's image capture schedules are not made public.&#x20;
 
 <details>
 
@@ -45,8 +45,6 @@ See below: The 360º preview is shown.
 <img src=".gitbook/assets/panoramic_preview.png" alt="" data-size="original">
 
 </details>
-
-
 
 **Time machine 时光机**
 
