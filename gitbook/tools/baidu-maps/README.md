@@ -72,15 +72,19 @@ To search by coordinates instead, enter the coordinates (longitude first) and ch
 
 A 3D view is available. Baidu Maps also offers an API for building third-party apps that leverage 3D models and live data: [https://lbs.baidu.com/solutions/threedsvisualization](https://lbs.baidu.com/solutions/threedsvisualization)
 
-### **Underlying technologies**
-
-Baidu Maps' location and navigation capabilities are powered by the BeiDou Navigation Satellite System 北斗卫星导航系统, instead of the US-developed GPS.&#x20;
-
 ### **Global coverage**
 
-Although Baidu's user interface is only available in Chinese, its map coverage and route planning capabilities are available globally. Outside China, Baidu Maps has a partnership with [HERE Technologies](https://en.wikipedia.org/wiki/Here_WeGo). Other [information providers include](https://map.baidu.com/zt/client/copyrightPc/index.html) OpenStreetMap, MapKing (for Hong Kong and Southeast Asia) and LocalKing (Taiwan).&#x20;
+Baidu Maps' coverage and capabilities are available globally, though the user interface is only available in Chinese. When searching for locations outside China, English search terms can be used.&#x20;
 
-When searching for locations outside China, using English search terms will generally work in English-speaking countries. In such cases, using a precise search term is recommended.&#x20;
+### **Underlying technologies and data**
+
+Baidu Maps' positioning and navigation capabilities are powered by the BeiDou Navigation Satellite System 北斗卫星导航系统. BeiDou is the global positioning and satellite technology developed by the Chinese government, and [competes with GPS and Galileo](https://www.gpsworld.com/chinas-beidou-challenges-u-s-gps-dominance/). (In October 2022, Baidu [announced an official switch](https://www.globaltimes.cn/page/202210/1276991.shtml) to prioritizing the use of Beidou for over 97% of its positioning calls.)&#x20;
+
+(For more about BeiDou: see [Wikipedia](https://en.wikipedia.org/wiki/BeiDou); [BeiDou official website](http://en.beidou.gov.cn/); an academic article in [_Satellite Navigation,_ 2020](https://doi.org/10.1186/s43020-019-0006-0).)&#x20;
+
+Outside China, Baidu Maps has a partnership with [HERE Technologies](https://en.wikipedia.org/wiki/Here_WeGo), the Amsterdam-based mapping and data company. Other [information providers include](https://map.baidu.com/zt/client/copyrightPc/index.html) OpenStreetMap, MapKing (for Hong Kong and Southeast Asia) and LocalKing (Taiwan).&#x20;
+
+When searching for locations outside China, using English search terms will generally work.&#x20;
 
 ### Similar tools
 
@@ -88,9 +92,9 @@ Open-source researchers can cross-reference with other leading mapping services,
 
 For open-source researchers accessing Chinese map tools from overseas, Baidu Maps is the only tool that provides street view on the web browser. (Street view is not available on AMap, and is only available in Tencent Map's mobile version.)
 
-Note that all three mapping tools use (at least in part - for their China coverage) the BeiDou Navigation Satellite System 北斗卫星导航系统 for their satellite and positioning capabilities. BeiDou is the global positioning and satellite technology developed by the Chinese government, and [competes with GPS and Galileo](https://www.gpsworld.com/chinas-beidou-challenges-u-s-gps-dominance/). The exact ways that BeiDou is leveraged in each mapping tool depends on the device, the chip, and the location where the mapping tool is used. \
+Note that all three mapping tools use (at least in part - for their China coverage) the BeiDou Navigation Satellite System for their positioning capabilities.  The exact ways that BeiDou is leveraged in each mapping tool depends on the device, the chip, and the location where the mapping tool is used. \
 \
-(For more about BeiDou: see [Wikipedia](https://en.wikipedia.org/wiki/BeiDou); [BeiDou official website](http://en.beidou.gov.cn/); an academic article in [_Satellite Navigation,_ 2020](https://doi.org/10.1186/s43020-019-0006-0).)&#x20;
+
 
 ## Cost
 
@@ -116,7 +120,7 @@ Researchers and developers should consider several limitations:
 
 * **Language Barrier**: The user interface is only available in Chinese.
 * **Access Speed**: International users will experience slower access speeds, especially if using a VPN.&#x20;
-* **Barriers accessing the API**: Non-Chinese individuals will have difficulty registering a Baidu developer account, preventing them from using Baidu's location-based services APIs. For individual developer accounts, only Chinese citizens can register. (Individuals must be between the ages of 18 and 65. Real-name registration and a selfie of the individual holding their ID are required. Reference: [Baidu Developer Account Registration Procedure](https://app.baidu.com/newapp/docs/%E5%BC%80%E5%8F%91%E8%80%85%E5%87%86%E5%85%A5/%E5%BC%80%E5%8F%91%E8%80%85%E6%B3%A8%E5%86%8C%E6%B5%81%E7%A8%8B/) - in Chinese.) Company developer accounts can be opened by overseas companies. (See Baidu LBS account authentication FAQ, question 23 - in [Chinese](https://lbsyun.baidu.com/index.php?title=FAQ/authentication) and [English](https://lbsyun-baidu-com.translate.goog/index.php?title=FAQ/authentication&_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)).&#x20;
+* **Barriers accessing the API**: Non-Chinese individuals will have difficulty registering a Baidu developer account, preventing them from using Baidu's location-based services APIs. For individual developer accounts, only Chinese citizens can register. Company developer accounts can be opened by overseas companies. (See Baidu LBS account authentication FAQ, question 23 - in [Chinese](https://lbsyun.baidu.com/index.php?title=FAQ/authentication) and [English](https://lbsyun-baidu-com.translate.goog/index.php?title=FAQ/authentication&_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp); [Baidu Developer Account Registration Procedure](https://app.baidu.com/newapp/docs/%E5%BC%80%E5%8F%91%E8%80%85%E5%87%86%E5%85%A5/%E5%BC%80%E5%8F%91%E8%80%85%E6%B3%A8%E5%86%8C%E6%B5%81%E7%A8%8B/) - in Chinese).&#x20;
 
 ## Ethical Considerations
 
