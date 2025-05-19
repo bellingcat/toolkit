@@ -110,7 +110,7 @@ Note that all three mapping tools use (at least in part - for their China covera
 
 * **Web**: any modern web browser
 * **Mobile**: iOS and Android (basic functionality is available without registering an account)
-* **Developer Platform**_:_ email address and account registration
+* **Developer Platform:** For individual developer accounts, only Chinese citizens can register. (Individuals must be between ages 18 and 65. Real-name registration and a selfie of the individual holding their ID are required.) Company developer accounts can be opened by overseas companies.&#x20;
 
 ## Limitations
 
@@ -118,7 +118,7 @@ Researchers and developers should consider several limitations:
 
 * **Language Barrier**: The user interface is only available in Chinese.
 * **Access Speed**: International users will experience slower access speeds, especially if using a VPN.&#x20;
-* **Barriers accessing the API**: Non-Chinese individuals will have difficulty registering a Baidu developer account, preventing them from using Baidu's location-based services APIs. For individual developer accounts, only Chinese citizens can register. Company developer accounts can be opened by overseas companies. (See FAQ #23 for Baidu location-based services account authentication - in [Chinese](https://lbsyun.baidu.com/index.php?title=FAQ/authentication) and [English](https://lbsyun-baidu-com.translate.goog/index.php?title=FAQ/authentication&_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp); [Baidu Developer Account Registration Procedure](https://app.baidu.com/newapp/docs/%E5%BC%80%E5%8F%91%E8%80%85%E5%87%86%E5%85%A5/%E5%BC%80%E5%8F%91%E8%80%85%E6%B3%A8%E5%86%8C%E6%B5%81%E7%A8%8B/) - in Chinese).
+* **Barriers accessing the API**: Non-Chinese individuals will have difficulty registering a Baidu developer account, preventing them from using Baidu's location-based services APIs. (See FAQ #23 for Baidu location-based services account authentication - in [Chinese](https://lbsyun.baidu.com/index.php?title=FAQ/authentication) and [English](https://lbsyun-baidu-com.translate.goog/index.php?title=FAQ/authentication&_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp); [Baidu Developer Account Registration Procedure](https://app.baidu.com/newapp/docs/%E5%BC%80%E5%8F%91%E8%80%85%E5%87%86%E5%85%A5/%E5%BC%80%E5%8F%91%E8%80%85%E6%B3%A8%E5%86%8C%E6%B5%81%E7%A8%8B/) - in Chinese).
 
 ## Ethical Considerations
 
