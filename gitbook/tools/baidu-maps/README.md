@@ -12,9 +12,7 @@ API documentation, [https://api.map.baidu.com/](https://api.map.baidu.com/)
 
 ## Description
 
-Baidu Maps offers maps, street view, satellite imagery, and real-time route planning. It is available via the web browser or as a mobile application. \
-\
-Baidu Maps' location and navigation capabilities are powered by the BeiDou Navigation Satellite System 北斗卫星导航系统, instead of the US-developed GPS.&#x20;
+Baidu Maps offers maps, street view, satellite imagery, and real-time route planning. It is available via the web browser or as a mobile application.&#x20;
 
 #### The basics
 
@@ -73,6 +71,10 @@ To search by coordinates instead, enter the coordinates (longitude first) and ch
 **3D models**
 
 A 3D view is available. Baidu Maps also offers an API for building third-party apps that leverage 3D models and live data: [https://lbs.baidu.com/solutions/threedsvisualization](https://lbs.baidu.com/solutions/threedsvisualization)
+
+### **Underlying technologies**
+
+Baidu Maps' location and navigation capabilities are powered by the BeiDou Navigation Satellite System 北斗卫星导航系统, instead of the US-developed GPS.&#x20;
 
 ### **Global coverage**
 
