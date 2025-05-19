@@ -144,7 +144,7 @@ Crowd density [is not uniform](https://www.aware-online.com/en/calculate-the-num
 
 Exclusions for Low Visibility Areas: Certain areas of the source image may have low visibility or fewer people, which can affect the overall count. Highlighting these areas can improve the transparency of the estimate.
 
-Transparency in Methodology: It is essential to be transparent about the limitations of the tool, especially regarding its reliance on clear images and fixed points in time. Users must communicate that the estimate provided is based on specific conditions and may not reflect the total count, particularly if areas are outside the camera's view or affected by poor visibility.
+Transparency in Methodology: It is essential to be transparent about the limitations of the tool, especially regarding its reliance on clear images and fixed points in time. Users must communicate that the estimate provided is based on specific conditions and may not reflect the total count, particularly if areas are outside the camera's view or are affected by poor visibility.
 
 Accuracy and Validation: Ethical use of MapChecking requires combining it with multiple methods and sources to arrive at a more accurate estimate. Relying solely on one tool without cross-referencing other data (e.g., additional images, videos, or on-the-ground reports) may lead to underestimating or overestimating crowd sizes.
 
