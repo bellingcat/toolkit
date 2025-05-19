@@ -211,8 +211,6 @@ If the researcher has limited foundational knowledge on the subject matter, this
 
 Given the sensitive nature of the information (ordnance and explosives), users should consider the ethical implications of how they use this information. It should not be used for any illegal or harmful activities. Respecting the disclaimers and limitations of the site is imperative.&#x20;
 
-Given the sensitive nature of the information (ordnance and explosives), users should consider the ethical implications of how they use this information. It should not be used for any illegal or harmful activities. Respecting the disclaimers and limitations of the site is crucial
-
 ## Guide
 
 None at the moment.
