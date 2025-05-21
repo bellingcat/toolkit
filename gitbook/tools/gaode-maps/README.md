@@ -28,7 +28,7 @@ Unless specified, all functions described on this page can be accessed without r
 
 #### Basic search
 
-After searching in [Pinyin ](https://en.wikipedia.org/wiki/Pinyin)or Chinese characters, select the layer or function.
+After searching in [Pinyin](https://en.wikipedia.org/wiki/Pinyin) or Chinese characters, select the layer or function.
 
 <figure><img src=".gitbook/assets/gaode_search.png" alt="" width="563"><figcaption><p>Web browser view > after searching for a specific location (example: Pu'er Simao Airport, Yunnan)</p></figcaption></figure>
 
@@ -36,9 +36,13 @@ After searching in [Pinyin ](https://en.wikipedia.org/wiki/Pinyin)or Chinese cha
 
 <summary>Select layers - English annotations</summary>
 
-Here are the layers and functions, annotated in English. Your view may be different depending on your country.&#x20;
+Here are the layers and functions, annotated in English. Your view may be different depending on your country. \
+\
+Web browser view:&#x20;
 
 <figure><img src=".gitbook/assets/functions_annotated.png" alt=""><figcaption><p>Web browser view - select layer or function</p></figcaption></figure>
+
+Mobile view:
 
 <figure><img src=".gitbook/assets/annotated.png" alt="" width="176"><figcaption><p>Mobile view > select layer or function</p></figcaption></figure>
 
