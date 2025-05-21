@@ -137,8 +137,6 @@ It is unclear to the author whether this coverage limitation stems from data ava
 
 Another example is that not all items will contain an image or diagram.&#x20;
 
-Users have to be aware that some information may not be available due to security and confidentiality reasons.&#x20;
-
 3. Searching:&#x20;
 
 Many of the resources are PDF documents or images that require opening, which can be time consuming, however, the search and index help to mitigate that.
