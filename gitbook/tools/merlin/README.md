@@ -46,7 +46,9 @@ Merlin can be downloaded for free on Android and Apple devices.
 
 ## Limitations
 
-The application cannot be used via computer. In addition, the system may not effectively match some birds.
+&#x20;Keep in mind that the system may not always be successful in identifying birds.
+
+The application cannot be used via a computer, you need to use the app.
 
 ## Ethical Considerations
 
