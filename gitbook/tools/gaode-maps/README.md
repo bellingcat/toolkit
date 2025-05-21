@@ -53,7 +53,7 @@ Here are the layers and functions, annotated in English. Your view may be differ
 
 On the web browser view, a reference number is shown at the bottom left, e.g., GS(2025)1234. The year refers to when the map was approved for publication by China's State Bureau of Surveying and Mapping.&#x20;
 
-(According to Article 15 of the _Mapping Administration Regulation,_ 2015, all maps of China for public dissemination must be approved by the relevant government body. Exceptions are made for maps of tourist destinations and metro lines. For reference, see the [regulation](https://zh.wikisource.org/wiki/%E5%9C%B0%E5%9B%BE%E7%AE%A1%E7%90%86%E6%9D%A1%E4%BE%8B) in Chinese or this May 2018 [news article](https://web.archive.org/web/20180519041828/https://www.scmp.com/news/china/economy/article/2146876/charts-why-chinese-publishers-dont-want-maps-their-books) in English.)
+(According to Article 15 of the _Mapping Administration Regulation,_ 2015, all maps for public dissemination must be approved by the relevant government body. Exceptions are made for maps of tourist destinations and metro lines. For reference, see the [regulation](https://zh.wikisource.org/wiki/%E5%9C%B0%E5%9B%BE%E7%AE%A1%E7%90%86%E6%9D%A1%E4%BE%8B) in Chinese or this 2018 [news article](https://web.archive.org/web/20180519041828/https://www.scmp.com/news/china/economy/article/2146876/charts-why-chinese-publishers-dont-want-maps-their-books) in English.)
 
 ### No street view available
 
