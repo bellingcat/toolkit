@@ -70,8 +70,6 @@ Two limitations to be aware of:&#x20;
 1. Be aware that street views may be outdated, restricted or unavailable. In such cases, there may be glitches.&#x20;
 2. Metadata such as the date of image capture or the approval reference are not available.&#x20;
 
-
-
 ## Cost
 
 * [x] Free
@@ -90,7 +88,7 @@ Two limitations to be aware of:&#x20;
 
 ## Limitations
 
-* **Geographical Restrictions**: Some data and features are [restricted outside of China](./#url) due to legal or licensing issues. Users outside of China may find it cumbersome to use Tencent Maps. For example, to set up a QQ account for map users, a Chinese phone number is required. Additionally, some foreign VPN traffic are blocked from accessing the web version.
+* **Geographical Restrictions**: Some data and features are [restricted outside of China](./#url) due to legal or licensing issues. Users outside of China may find it cumbersome to use Tencent Maps. For example, to set up a QQ account for map users, a Chinese phone number is required. Additionally, some foreign VPN services are blocked from accessing the web version.
 * **Data availability**: Highly-detailed maps are only available for China. Other countries appear blank.&#x20;
 * **Limited functionalities on web browser**: The app's more extensive features, including street view, are only available on the mobile app.&#x20;
 * **Language**: The mapping application, documentation and support are available in Chinese only.
