@@ -54,7 +54,7 @@ Each type of ordnance has a subcategory organized by country.&#x20;
 
 **For example:**&#x20;
 
-Users interested in resources related to Ukrainian ordnance can follow the steps below:  &#x20;
+Users interested in resources related to Ukrainian ordnance can follow the steps as follows:&#x20;
 
 _Ordnance → Bombs → Ukraine_&#x20;
 
