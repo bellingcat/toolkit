@@ -24,7 +24,7 @@ You can record birds and Merlin will match them with birds near you based on you
 
 3. Photo ID
 
-You can take a photo of your bird or upload an existing one from your gallery. You can also optionally add location and date information. The app will match the image with species in the database.
+You can take a photo of your bird of interest or upload an existing one from your gallery. You can also optionally add location and date information. The app will match the image with species in the database.
 
 <div align="left"><figure><img src=".gitbook/assets/WhatsAppVideo2025-04-04at16.47.231-ezgif.com-video-to-gif-converter.gif" alt="" width="208"><figcaption><p>An example of this option looking for a blue and yellow macaw in Colombia.</p></figcaption></figure></div>
 
