@@ -22,9 +22,9 @@ Gaode Maps offers maps, satellite imagery, directions (for driving, public trans
 
 As for all Chinese mapping tools, satellite imagery is provided by China Siwei Surveying & Mapping Technology, which uses data and imagery from DigitalGlobe, the US company.\
 \
-**AMap for iOS and Android users in China**
+**Gaode Maps for iOS and Android users in China**
 
-* AMap is a [data provider](http://blogs.wsj.com/chinarealtime/2012/09/26/apple-built-special-version-of-maps-for-china/?mod=WSJBlog) to Apple Maps. The Apple Maps app automatically switches to using AMap data [when the device is in China](https://www.trip.com/guide/phone/apple-map-in-china.html) (e.g., when global iPhone users travel from overseas to mainland China, or when the iPhone is bought in China).&#x20;
+* Gaode Maps is a [data provider](http://blogs.wsj.com/chinarealtime/2012/09/26/apple-built-special-version-of-maps-for-china/?mod=WSJBlog) to Apple Maps. The Apple Maps app automatically switches to using Gaode Maps data [when the device is in China](https://www.trip.com/guide/phone/apple-map-in-china.html) (e.g., when global iPhone users travel from overseas to mainland China, or when the iPhone is bought in China).&#x20;
 * In many Android phone models sold in China, Gaode Maps is pre-installed instead of Google Maps.&#x20;
 
 Unless specified, all functions described on this page can be accessed without registering for an account.&#x20;
