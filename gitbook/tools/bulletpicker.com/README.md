@@ -50,7 +50,7 @@ The contents are organized into the following categories, accessible through the
 
 3\. [Ordnance](https://www.bulletpicker.com/_ord.html) - This section contains a list of various weapon systems, along with a brief introduction to each system. If you are new to the subject matter, it is recommended to start by exploring the “General Information” tab before moving on to more technical sections.&#x20;
 
-Each type of ordnance has a subcategory organized by country.&#x20;
+Each type of ordnance has a subcategory _organized by country._&#x20;
 
 **For example:**&#x20;
 
