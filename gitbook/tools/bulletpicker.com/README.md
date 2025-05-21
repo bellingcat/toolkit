@@ -28,68 +28,11 @@ The tool provider also says that its purpose is data-sharing between [these sect
 * Access to 1,300+ publications in PDF format
 * A downloadable version for offline use in remote areas or those operating in places with limited connectivity which is available for download[ here.](https://www.bulletpicker.com/offline-version.html)
 
-According to the tool website, these technical manuals are [public domain and include copyright-expired books](https://www.bulletpicker.com/_about.html) scanned as PDF.
-
-### Key Areas&#x20;
-
-The contents are organized into the following categories, accessible through the navigation menu on the left side of the page.&#x20;
-
-1.[ Library](https://www.bulletpicker.com/_library.html) - This section is a collection of manuals from different armed forces (including historical manuals).
-
-2\. [Fillers](https://www.bulletpicker.com/_explosives.html) - this section contains resources on various fillers, defined as the ["energetic material (propellants, explosives, or pyrotechnic mixes)"](https://www.denix.osd.mil/uxo/explosives-safety/faqs/#faq-1) contained inside military munitions. These are the explosive materials packed inside an ordnance and are the substances that do the job of creating the explosion. Contents are organized in alphabetical order by name of the explosive agent.&#x20;
-
-<figure><img src=".gitbook/assets/2025-05-01_16-03-25.png" alt="" width="277"><figcaption><p>Users can locate the navigation panel to the left of the website. This is a sample of llst of fillers available on the website organized in alphabetical order. </p></figcaption></figure>
-
-3\. [Ordnance](https://www.bulletpicker.com/_ord.html) - This section contains a list of various weapon systems, along with a brief introduction to each system. If you are new to the subject matter, it is recommended to start by exploring the “General Information” tab before moving on to more technical sections.&#x20;
-
-Each type of ordnance has a subcategory organized by country.&#x20;
-
-**For example:**&#x20;
-
-_Ordnance → Bombs → Ukraine_&#x20;
-
-<figure><img src=".gitbook/assets/2025-05-01_16-02-21.png" alt="" width="195"><figcaption><p>Researchers interested in a praticular kind of ordnance can first navigate to the type of ordnance (Bombs, Clusters, etc) followed by the country it may belong to as seen in this screenshot (Image Credit: Bulletpicker.com) </p></figcaption></figure>
-
-<figure><img src=".gitbook/assets/2025-05-07_17-06-05-guide.png" alt="" width="375"><figcaption><p>(Click to enlarge) This is a quick guide we created for navigating information on various ordinances listed on the website. Note that not all types of ordnance have information on each of these categories. Some do not have images, and some do not have information on how they function or information on hazardous content. </p></figcaption></figure>
-
-4\. [Fuzes](https://www.bulletpicker.com/_fuze.html) -  According to this [Wikipedia article](https://en.wikipedia.org/wiki/Fuze), a fuze is a “device with explosive components designed to initiate the main charge” and determines when the explosion happens. This section of the website lists various types of fuzes which are categorized by country. Some types contain a short description, an image, a short description of its function, hazardous components, if any, - for example [here](https://www.bulletpicker.com/adapter-booster_-m102a1.html). Also note that sometimes items will contain just a diagram and no real-life photo, or just a real-life photo with no diagram. Sometimes, these items contain both.&#x20;
-
-The content is organized by type of ordnance in which the fuze is used in, and then followed by a subcategory organized by country.&#x20;
-
-**For example:**
-
-_Fuzes → Bombs, Clusters and Dispensers → France_&#x20;
+According to the tool website, these technical manuals are [public domain and include copyright-expired books](https://www.bulletpicker.com/_about.html) scanned as PDF.&#x20;
 
 {% hint style="info" %}
 NOTE: When researching ordnance, explosives, and related items using Bulletpicker, it is essential to remember that the content is not for identification or instructional purposes and does not take the place of a qualified specialist. Users are responsible for verifying information with other official references.
 {% endhint %}
-
-### Basic Identification of Ammunition in Ukraine
-
-The website includes a copy of the 2024 guide to Basic Identification of Ammunition in Ukraine, in both [English and Ukrainian.](https://ukr.bulletpicker.com/id-guides.html)&#x20;
-
-### Use cases
-
-Based on the content, Bulletpicker.com could be used for:
-
-* Historical Research: Accessing information on older ordnance, such as “[Allied and Enemy Explosives (1946)](https://www.bulletpicker.com/pdf/Allied-and-Enemy-Explosives.pdf)” or "[Current British Land Service Fuzes (1962)](https://www.bulletpicker.com/pdf/Current-British-Land-Service-Fuzes.pdf)”. It can be a valuable archive for technical manuals from old and recent conflicts.
-* General Knowledge: Learning about different types of explosives, chemical agents, and related items. Because the website has an extensive categorical organization, it allows users to develop a comprehensive knowledge of weapons systems, their technical specifications, and other identifying characteristics across multiple countries and time frames.
-* Technical Reference (with caveats): Although the site explicitly states that it is not for identification or instruction by unqualified individuals, trained specialists may use it as one reference point among others. For those with foundational knowledge or have professional qualifications, this tool may be useful because it provides data such as:
-  * Chemical composition of a filler
-  * [Ballistic properties](https://www.bulletpicker.com/landmine_-apers_-m2a4.html) (how the weapon behaves as it travels in space)
-  * [Manufacturing markings](https://www.bulletpicker.com/rocket_-57mm-heat_frag_-s-5kpb.html) and [Cross-sectional diagrams](https://www.bulletpicker.com/rocket-motor_-68mm_-model-f1.html)
-  * Precise measurements&#x20;
-
-[The tool provider also says that its purpose is data-sharing between these sectors: Explosive Ordnance Disposal (EOD), Public Safety Bomb Technician (PSBT), and commercial UXO (Unexploded Ordnance) and is accessed by a wide range of users:  personnel from government agencies, historians, archaeologists, forensic experts, and others working in related fields.](https://buymeacoffee.com/bulletpicker)
-
-In the same source above, the provider mentions that the platform has:
-
-* Technical info on \~4,000 ordnance and related items
-* Access to 1,300+ publications in PDF format
-* A downloadable version for offline use in remote areas or those operating in places with limited connectivity is available [here. ](https://www.bulletpicker.com/offline-version.html)
-* Some items have accompanying images, and information on hazardous components.&#x20;
-
-According to the tool,[ these technical manuals are public domain and include copyright-expired books scanned as PDF.  ](https://www.bulletpicker.com/_about.html)
 
 ### Key Areas&#x20;
 
@@ -121,13 +64,13 @@ _Ordnance → Bombs → Ukraine_&#x20;
 
 Information on ballistic properties ([how weapons behave as they are launched](https://en.wikipedia.org/wiki/Ballistics)) can be found under "description" or "functioning." &#x20;
 
-4\. [Fuzes](https://www.bulletpicker.com/_fuze.html) -  According to [this](https://en.wikipedia.org/wiki/Fuze), a fuze is a “device with explosive components designed to initiate the main charge” and determines when the explosion happens. This section of the website lists various types of fuzes and is categorized by country. [Some types contain a short description, an image, a short description of its function, and hazardous components, if any. ](https://www.bulletpicker.com/adapter-booster_-m102a1.html)
+4\. [Fuzes](https://www.bulletpicker.com/_fuze.html) -  According to this [Wikipedia article](https://en.wikipedia.org/wiki/Fuze), a fuze is a “device with explosive components designed to initiate the main charge” and determines when the explosion happens. This section of the website lists various types of fuzes which are categorized by country. Some types contain a short description, an image, a short description of its function, hazardous components, if any, - for example [here](https://www.bulletpicker.com/adapter-booster_-m102a1.html). Also note that sometimes items will contain just a diagram and no real-life photo, or just a real-life photo with no diagram. Sometimes, these items contain both.&#x20;
 
 The content is organized by type of ordnance in which the fuze is used, and then followed by a subcategory organized by country.&#x20;
 
 **For example:**
 
-_Fuzes → Bombs, Clusters and Dispensers → France_&#x20;
+_Fuzes → Bombs, Clusters and Dispensers → France_
 
 {% hint style="warning" %}
 WARNING: When researching ordnance, explosives, and related items using Bulletpicker, it is essential to remember that the content is not for identification or instructional purposes and does not take the place of a qualified specialist. Users are responsible for verifying information with other official references.
