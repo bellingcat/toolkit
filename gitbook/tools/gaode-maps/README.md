@@ -20,9 +20,12 @@ Gaode Maps offers maps, satellite imagery, directions (for driving, public trans
 * **Mobile app "AMap Global" available in English**: The English mobile app offers basic functions including map search, satellite imagery and directions in China. (Other functionalities may be limited.)
 * Notably, **Gaode Maps** **does not offer street view**.&#x20;
 
-AMap is a [data provider](http://blogs.wsj.com/chinarealtime/2012/09/26/apple-built-special-version-of-maps-for-china/?mod=WSJBlog) to Apple Maps. The Apple Maps app automatically switches to using AMap data [when the device is in China](https://www.trip.com/guide/phone/apple-map-in-china.html) (e.g., when global iPhone users travel from overseas to mainland China).&#x20;
+As for all Chinese mapping tools, satellite imagery is provided by China Siwei Surveying & Mapping Technology, which uses data and imagery from DigitalGlobe, the US company.\
+\
+**AMap for iOS and Android users in China**
 
-In many Android phone models sold in China, Gaode Maps is pre-installed instead of Google Maps.&#x20;
+* AMap is a [data provider](http://blogs.wsj.com/chinarealtime/2012/09/26/apple-built-special-version-of-maps-for-china/?mod=WSJBlog) to Apple Maps. The Apple Maps app automatically switches to using AMap data [when the device is in China](https://www.trip.com/guide/phone/apple-map-in-china.html) (e.g., when global iPhone users travel from overseas to mainland China, or when the iPhone is bought in China).&#x20;
+* In many Android phone models sold in China, Gaode Maps is pre-installed instead of Google Maps.&#x20;
 
 Unless specified, all functions described on this page can be accessed without registering for an account.&#x20;
 
@@ -38,19 +41,19 @@ After searching in [Pinyin](https://en.wikipedia.org/wiki/Pinyin) or Chinese cha
 
 Here are the layers and functions, annotated in English. Your view may be different depending on your country. \
 \
-Web browser view:&#x20;
+**Web browser toolbar**&#x20;
 
 <figure><img src=".gitbook/assets/functions_annotated.png" alt=""><figcaption><p>Web browser view - select layer or function</p></figcaption></figure>
 
-Mobile view:
+**Mobile view**
 
 <figure><img src=".gitbook/assets/annotated.png" alt="" width="176"><figcaption><p>Mobile view > select layer or function</p></figcaption></figure>
 
 </details>
 
-On the web browser view, a reference number is shown at the bottom left, e.g., GS(2025)1234. The year refers to the year when the map was approved for publication by China's State Bureau of Surveying and Mapping.&#x20;
+On the web browser view, a reference number is shown at the bottom left, e.g., GS(2025)1234. The year refers to when the map was approved for publication by China's State Bureau of Surveying and Mapping.&#x20;
 
-(According to Article 15 of the _Mapping Administration Regulation,_ 2015, all maps of China for public dissemination must be approved by the relevant government body. Exceptions are made for maps of tourist destinations and metro lines. For reference, see the [regulation](https://zh.wikisource.org/wiki/%E5%9C%B0%E5%9B%BE%E7%AE%A1%E7%90%86%E6%9D%A1%E4%BE%8B) in Chinese or this [news article](https://web.archive.org/web/20180519041828/https://www.scmp.com/news/china/economy/article/2146876/charts-why-chinese-publishers-dont-want-maps-their-books) in English.)
+(According to Article 15 of the _Mapping Administration Regulation,_ 2015, all maps of China for public dissemination must be approved by the relevant government body. Exceptions are made for maps of tourist destinations and metro lines. For reference, see the [regulation](https://zh.wikisource.org/wiki/%E5%9C%B0%E5%9B%BE%E7%AE%A1%E7%90%86%E6%9D%A1%E4%BE%8B) in Chinese or this May 2018 [news article](https://web.archive.org/web/20180519041828/https://www.scmp.com/news/china/economy/article/2146876/charts-why-chinese-publishers-dont-want-maps-their-books) in English.)
 
 ### No street view available
 
@@ -70,7 +73,7 @@ In the mobile app, a function called 奇境 (translates as "wonder", pinyin: _qi
 
 The app provides global data for over 200 countries, including street maps, route navigation (driving, public transportation, or walking) and business locations. Here's an example:
 
-<figure><img src=".gitbook/assets/overseas.png" alt="" width="563"><figcaption><p>Using AMap to explore locations outside of China. Left: Map in Vienna, Austria. Right: Walking route planning.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/overseas.png" alt="" width="563"><figcaption><p>Left: Map in Vienna, Austria. Right: Walking route planning.</p></figcaption></figure>
 
 Business owners from any country could add their locations and information onto AMap (for instance, to attract Chinese travellers who may visit their countries).&#x20;
 
