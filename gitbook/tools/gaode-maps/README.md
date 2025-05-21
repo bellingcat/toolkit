@@ -83,7 +83,9 @@ Within AMap, if you search for a specific location, the coordinates are shown in
 
 For background: China uses a coordinate system called [GCJ-02](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China#GCJ-02) (colloquially known as Mars coordinates), whereas the rest of the world uses [WGS-84](https://en.wikipedia.org/wiki/World_Geodetic_System) (Earth coordinates). Using an encryption algorithm, GCJ-02 applies random offsets to the latitude and longitude of locations. Obfuscating the geographic data is for [national security purposes](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China).&#x20;
 
-If you use Google Maps, the coordinates you obtain for China are in the GCJ-02 system. You could copy the coordinates from Google Maps (in latitude-longitude format) and use them as a search term in AMap.
+If you use Google Maps, the coordinates you obtain for China are already in the GCJ-02 system, though in latitude-longitude format. To do a reverse search using coordinates, go to [https://lbs.amap.com/tools/picker](https://lbs.amap.com/tools/picker), check the box for searching by coordinates, and make sure to enter the coordinates with longitude first.
+
+<div data-full-width="false"><figure><img src=".gitbook/assets/reverse_search.png" alt="" width="563"><figcaption><p>Page: <a href="https://lbs.amap.com/tools/picker">https://lbs.amap.com/tools/picker</a><br>Note: Without logging in, a keyword search will only yield coordinates with 2 decimal point only.</p></figcaption></figure></div>
 
 ### 3D maps
 
@@ -138,12 +140,13 @@ Gaode Maps, using the international branding "AMap", is unique in offering a ful
 
 * **Web:** any modern web browser
 * **Mobile:** iOS or Android (or HarmonyOS). Globally available. User accounts can be set up with international phone numbers.&#x20;
-* **API:** Individuals must register with their real name, including providing their ID and Alipay account. Individual accounts can only be used for educational or nonprofit purposes, and not for commercial purposes. This is strictly enforced. Users may be asked to provide Chinese government-approved documents to demonstrate their nonprofit status. (References: 1, 2)
+* **API:** Individuals must [register with their real name](https://web.archive.org/web/20230531004539/https://52xlsj.com/gaodeapi), including providing their ID and Alipay account. Individual developer accounts can only be used for educational or nonprofit purposes, and not for commercial purposes. This is strictly enforced. If claiming educational or nonprofit status, users may be asked to provide government-approved supporting documents.&#x20;
 
 ## Limitations
 
 * **No street view**
 * **Language Barrier**: In the web version, the user interface is only available in Chinese.
+* **Barriers accessing the API.**&#x20;
 
 ## Ethical Considerations
 
