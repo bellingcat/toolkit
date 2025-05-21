@@ -125,14 +125,12 @@ Although Gaode Maps (AMap) does not provide street view, its satellite imagery, 
 
 * **Web:** any modern web browser
 * **Mobile:** iOS or Android (or HarmonyOS). Globally available. User accounts can be set up with international phone numbers.&#x20;
-* **API:** Email address, phone number, and a payment method
+* **API:** Individuals must register with their real name, including providing their ID and Alipay account. Individual accounts can only be used for educational or nonprofit purposes, and not for commercial purposes. This is strictly enforced. Users may be asked to provide Chinese government-approved documents to demonstrate their nonprofit status. (References: 1, 2)
 
 ## Limitations
 
 * **No street view**
-* **Geographical Restrictions**: The most detailed map coverage and most extensive functions (e.g., searching for nearby services and facilities) are only available in China.&#x20;
-* **Access Speed**: International users will experience slower access speeds or need a Chinese IP address to access certain APIs.
-* **Language Barrier**: The user interface of the web version is only available in Chinese.
+* **Language Barrier**: In the web version, the user interface is only available in Chinese.
 
 ## Ethical Considerations
 
