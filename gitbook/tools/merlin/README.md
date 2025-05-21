@@ -52,7 +52,7 @@ The application cannot be used via a computer, you need to use the app.
 
 ## Ethical Considerations
 
-Wanting to identify birds is not an opportunity to disturb or mistreat them in any way. Check out the Wisconsin Ornithological Society's Code of Ethics: https://wsobirds.org/about-wso/code-of-ethics
+Wanting to identify birds is not an opportunity to disturb or mistreat them in any way. Check out the [Wisconsin Ornithological Society's Code of Ethics](https://wsobirds.org/about-wso/code-of-ethics).
 
 ## Guide
 
