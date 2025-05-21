@@ -56,7 +56,7 @@ For background: China uses a coordinate system called [GCJ-02](https://en.wikipe
 
 Steps: &#x20;
 
-1. Select **Layers > Street View** (see **Annotated Menu - mobile app**). The blue lines along the roads indicate that street view is available.
+1. Select **Layers > Street View** (see [**Annotated Menu - mobile app**](./#annotated-menu-mobile)). The blue lines along the roads indicate that street view is available.
 
 <figure><img src=".gitbook/assets/streetview_bluelines (1).png" alt=""><figcaption><p>(English annotation added) The blue lines indicate where street views should be available. Notice that the pin is always in the middle. Move the map, not the pin. </p></figcaption></figure>
 
