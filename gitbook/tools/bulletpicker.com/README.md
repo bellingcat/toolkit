@@ -133,14 +133,11 @@ _Fuzes → Bombs, Clusters and Dispensers → France_&#x20;
 WARNING: When researching ordnance, explosives, and related items using Bulletpicker, it is essential to remember that the content is not for identification or instructional purposes and does not take the place of a qualified specialist. Users are responsible for verifying information with other official references.
 {% endhint %}
 
-### Basic Identification of Ammunition in Ukraine
-
-The website includes a copy of the 2024 guide to Basic Identification of Ammunition in Ukraine, in both [English and Ukrainian.](https://ukr.bulletpicker.com/id-guides.html)&#x20;
-
 ## Use cases
 
 Based on the content, Bulletpicker.com could be used for:
 
+* **Basic Identification of Ammunition in Ukraine:** The website includes a copy of the 2024 guide to Basic Identification of Ammunition in Ukraine, in both [English and Ukrainian.](https://ukr.bulletpicker.com/id-guides.html)&#x20;
 * **Historical Research:** Accessing information on older ordnance, such as “[Allied and Enemy Explosives (1946)](https://www.bulletpicker.com/pdf/Allied-and-Enemy-Explosives.pdf)” or "[Current British Land Service Fuzes (1962)](https://www.bulletpicker.com/pdf/Current-British-Land-Service-Fuzes.pdf)”. It can be a valuable archive for technical manuals from old and recent conflicts.&#x20;
 * **General Knowledge:** Learning about different types of explosives, chemical agents, and related items. Because the website has an extensive categorical organization, it allows users to develop a comprehensive knowledge of weapons systems, their technical specifications, and other identifying characteristics across multiple countries and time frames.&#x20;
 * **Technical Reference (with caveats):** Although the site explicitly states that it is not for identification or instruction by unqualified individuals, trained specialists may use it as one reference point among others. For those with foundational knowledge or who have professional qualifications,  this tool may be helpful because it provides data such as:
