@@ -118,7 +118,11 @@ Functions not available in the English mobile app:&#x20;
 
 ## Similar tools
 
-Although Gaode Maps (AMap) does not provide street view, its satellite imagery, user-generated reviews and photos, and global data may be useful to open-source research. Researchers can cross-reference the location in the 3 apps to get different information or images.&#x20;
+Gaode Maps, using the international branding "AMap", is unique in offering a full English language interface in a mobile app. \
+\
+
+
+
 
 ## Cost
 
