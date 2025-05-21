@@ -60,7 +60,7 @@ Steps: &#x20;
 
 <figure><img src=".gitbook/assets/streetview_bluelines (1).png" alt=""><figcaption><p>(English annotation added) The blue lines indicate where street views should be available. Notice that the pin is always in the middle. Move the map, not the pin. </p></figcaption></figure>
 
-2. Move the map to where you want to see the street view. Please note: **To see the street view of another location, touch to&#x20;**_**move the map, not the pin**_**.**&#x20;
+2. Move the map to where you want to see the street view. Please note: **To see the street view of another location,&#x20;**_**move the map, not the pin**_**.**&#x20;
 3. A location description is shown. Click the rectangle to enter street view.&#x20;
 
 <figure><img src=".gitbook/assets/streetview_example.png" alt="" width="563"><figcaption><p>Example of Tencent Maps street view</p></figcaption></figure>
