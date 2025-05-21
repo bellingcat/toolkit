@@ -50,7 +50,7 @@ Tencent Maps has API documentation available for [switching between 2D/3D models
 
 Search on this page in the web browser: [https://lbs.qq.com/getPoint/](https://lbs.qq.com/getPoint/)
 
-For background: China uses a coordinate system called GCJ-02 (colloquially known as Mars coordinates), whereas the rest of the world uses WGS-84 (Earth coordinates). GCJ-02 uses an encryption algorithm to apply random offsets to the latitude and longitude of locations. Obfuscating the geographic data is for [national security purposes](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China).&#x20;
+For background: China uses a coordinate system called [GCJ-02](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China#GCJ-02) (colloquially known as Mars coordinates), whereas the rest of the world uses [WGS-84](https://en.wikipedia.org/wiki/World_Geodetic_System) (Earth coordinates). GCJ-02 uses an encryption algorithm to apply random offsets to the latitude and longitude of locations. Obfuscating the geographic data is for [national security purposes](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China).&#x20;
 
 ### Street View - available in mobile app only
 
