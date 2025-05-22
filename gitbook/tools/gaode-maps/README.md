@@ -122,9 +122,9 @@ Functions not available in the English mobile app:&#x20;
 
 ## Similar tools
 
-Gaode Maps, using the international branding "AMap", is unique in offering a full English language interface in its mobile app. (Baidu Maps provides maps globally, but the interface is still in Chinese.)&#x20;
+Gaode Maps, using the international branding "AMap", is the only Chinese mapping tool that offers a full English language interface in its mobile version. (Baidu Maps provides maps globally, but the interface is still in Chinese. Tencent Maps provides only maps for China.)&#x20;
 
-Note that surveying and mapping data are [becoming increasingly sensitive in China](https://www.kwm.com/cn/en/insights/latest-thinking/compliance-risks-of-surveying-and-mapping-for-intelligent-connected-vehicles.html), especially given Gaode Maps' focus on offering data to support real-time navigation of intelligent connected vehicles and/or autonomous vehicles.&#x20;
+Gaode Maps is developing the data and software infrastructure to [support internet connected cars](https://www.caixinglobal.com/2019-08-30/chinas-gaode-map-teams-up-with-automakers-in-ride-hailing-services-101456629.html). Such surveying and mapping data are [increasingly considered sensitive and protected information](https://www.kwm.com/cn/en/insights/latest-thinking/compliance-risks-of-surveying-and-mapping-for-intelligent-connected-vehicles.html) in China.&#x20;
 
 \
 
@@ -150,11 +150,11 @@ Note that surveying and mapping data are [becoming increasingly sensitive in Chi
 * **No street view**
 * **Language barrier**: In the web version, the user interface is only available in Chinese.
 * **Barriers accessing the API.** Although not explicitly stated in Gaode Maps' documentation, non-Chinese citizens and companies may have difficulty setting up a developer account due to requirements to provide real name, identification, a Chinese phone number, and/or supporting documents.&#x20;
-* **Geographical barriers**: [VPNs are banned in China](https://www.bbc.com/news/technology-30982198) and there are limited gateways for international internet traffic to interact with Chinese websites. Users may experience slower loading speeds or some instability or errors when accessing Chinese websites using an overseas VPN.&#x20;
+* **Geographical barriers**: [VPNs are banned in China](https://www.bbc.com/news/technology-30982198) and there are [limited gateways for international internet traffic to interact with Chinese websites](https://www.thousandeyes.com/blog/deconstructing-great-firewall-china). Overseas users may experience slower speeds and more frequent prompts to login.&#x20;
 
 ## Ethical Considerations
 
-* See the Bellingcat toolkit's [About Maps and Satellites](https://bellingcat.gitbook.io/toolkit/more/all-tools/about-maps-and-satellites) page for some general caveats when working with maps and satellite imagery including a general discussion on censorship and content control.
+* See the Bellingcat toolkit's [About Maps and Satellites](https://bellingcat.gitbook.io/toolkit/more/all-tools/about-maps-and-satellites) page for some general caveats when working with maps and satellite imagery including a general discussion on censorship and content control.&#x20;
 * **Privacy Concerns**: Like many mapping services, Gaode Maps gathers user data, raising concerns about user privacy. (An [April 2021 notice from the Cyberspace Administration of China](./#url) named all leading Chinese mapping tools among 33 apps for extensively collecting user data, beyond what is relevant to their service provision.)
 
 ## Tool provider
