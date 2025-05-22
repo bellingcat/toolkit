@@ -36,8 +36,8 @@ For more information on PGP and how it is used by Proton Mail, check these two g
 
 The tool supports two modes:
 
-* **Light Mode:** Uses Proton Mail's API to check email validity.
-* **Selenium Mode (Deprecated):** Connects with your own Proton Mail credentials to check email addresses. This is useful for testing multiple Proton Mail addresses without getting a cooldown as the API used in the Light Mode has a request limit. This mode is currently non-functional due to issues with Proton Mail updates but will be fixed in the future according to the developer.
+* **Light Mode (API Mode):** Uses Proton Mail's API to check email validity. This mode is best suited for quick checking a few usernames or emails as the API has a request limit.
+* **Selenium Mode (Browser-automated mode):** Connects with your own Proton Mail credentials to check email addresses. Use this mode to test a consequent list of usernames or emails without getting a cooldown. Also use it when you need to verify [business emails](https://proton.me/blog/business-email-address).
 
 ## Cost
 
@@ -63,21 +63,8 @@ The tool requires users to run Python scripts and configure API access or creden
 
 ## Limitations
 
-* **Selenium Mode Deprecation:** The default Selenium mode is deprecated and currently non-functional due to recent Proton Mail updates.
 * **On PGP Key Creation Date**: The PGP Key Creation Date isn't always the email address creation date as a new PGP Key can be generated from the Proton Mail settings.
-* **API Limits:** The light mode relies on Proton Mail's API that has request limits. You might want to avoid getting a cooldown by using a proxy or a VPN.
-
-{% hint style="info" %}
-**Proxy**
-
-In networking, a **proxy server** is a server that acts as an intermediary for your network traffic.
-
-Your computer asks the proxy to ask another server for something, and that server returns it to the proxy, which relays it back to you.
-
-VPNs can be thought of as a form of proxies that ensures, in theory, end-to-end encryption among other properties.
-
-More on this [here](https://www.fortinet.com/resources/cyberglossary/proxy-vs-vpn).
-{% endhint %}
+* **API Limits:** The light mode relies on Proton Mail's API that has request limit of 100 requests per hour.
 
 ## How to Use
 
@@ -92,7 +79,7 @@ git clone https://github.com/Kr0wZ/NeutrOSINT.git
 cd NeutrOSINT
 ```
 
-2. **Set Up a Virtual Environment (Optional but Recommended)**
+2. **Set Up a Virtual Environment**
 
 ```
 python3 -m venv venv
@@ -100,73 +87,159 @@ source venv/bin/activate # For Linux/Mac
 venv\Scripts\activate # For Windows
 ```
 
-[This article](https://new.pythonforengineers.com/blog/python-tip-always-use-a-virtual-environment/) explains why virtual environments are recommended for Python.
+[This article](https://new.pythonforengineers.com/blog/python-tip-always-use-a-virtual-environment/) explains why virtual environments are recommended for manipulating Python projects.
 
-3. **Install Dependencies:**
+3. **Install NeutrOSINT:**
 
 ```
-pip install -r requirements.txt
+pip install -e .
 ```
 
 ### Usage
 
-NeutrOSINT has two main modes of operation: Light Mode and Selenium Mode (deprecated). We will focus on the functional Light Mode only.
-
 #### Command Syntax
 
 ```
-python main.py [-l] [-f FILE | -e EMAIL] [-o FILE] [-P IP:PORT]
+ neutrosint [-h] [-l] [-u USERNAME] [-p PASSWORD] [-f FILE | -e EMAIL] [-k] [-o FILE] [-P IP:PORT]
 ```
 
-Common Options
+#### Options
 
 ```
--l, --light: Use light mode (recommended for most cases).
--e EMAIL: Check a single email address.
--f FILE: Check a list of email addresses (one per line in a file).
--o FILE: Specify the output file to store results.
--P IP:PORT: Use a proxy (Useful for batch requests).
+  -h, --help            show the help message
+  -l, --light           Light mode in which we call the API instead of connecting with credentials. Useful when few emails to check. This mode is used by default when the option is not specified.
+  -u USERNAME, --username USERNAME
+                        (Selenium Mode) Username to connect to your ProtonMail account
+  -p PASSWORD, --password PASSWORD
+                        (Selenium Mode) Password to connect to your ProtonMail account
+  -f FILE, --file FILE  Specify containing list of emails to check
+  -e EMAIL, --email EMAIL
+                        Check existence of this email. You can also input a username and it will look for the associated emails in all Proton's domains.
+  -k, --key             Print the public PGP key for that email account
+  -o FILE, --output FILE
+                        File where results are stored
+  -P IP:PORT, --proxy IP:PORT
+                        IP:PORT of proxy to make requests. To use Tor, you must have installed it and specify '127.0.0.1:9050' as proxy
 ```
 
 ### Examples
 
 **Example 1: Validate a Single Email Address**
 
-```
-python main.py -l -e testemail@proton.me
-```
-
-Output Example (printed in terminal):
+This is the most basic usage of NeutrOSINT. It will test **testemail@proton.me** validity and display its **PGP Creation Date**, **Fingerprint** and **Encryption Algorithm**.
 
 ```
-[+] Valid email: testemail@proton.me - Creation date: 2023-01-18 11:13:24
+neutrosint -e testemail@proton.me
 ```
 
-**Example 2: Validate Multiple Emails from a File**
+Output:
 
-Create a file named **emails.txt** with one email address per line:
+```
+[+] Valid email: testemail@proton.me - PGP key creation date: 2024-01-23 19:03:09 - Fingerprint: 48a12baccc85050aca5372933902de16b4d380d5 - Algorithm: ECC Curve25519
+```
+
+**Example 2: Display the PGP Public Key**
+
+You can specify the **-k** option to display the PGP Key.&#x20;
+
+```
+neutrosint -e testemail@proton.me -k
+```
+
+Output:
+
+```
+[+] Valid email: testemail@proton.me - PGP key creation date: 2024-01-23 19:03:09 - Fingerprint: 48a12baccc85050aca5372933902de16b4d380d5 - Algorithm: ECC Curve25519
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: ProtonMail
+
+xjMEZa//XRYJKwYBBAHaRw8BAQdAlrdmzYiqWhpOXKvXzrxVfROeXFkkk2pZ
+LhmJSBEI/FDNKXRlc3RlbWFpbEBwcm90b24ubWUgPHRlc3RlbWFpbEBwcm90
+b24ubWU+wr8EExYIAHEFgmWv/10DCwkHCRA5At4WtNOA1TUUAAAAAAAcABBz
+YWx0QG5vdGF0aW9ucy5vcGVucGdwanMub3JnrnuQFWwUa3SonwqI2d0WEAIV
+CAMWAAICGQECmwMCHgEWIQRIoSuszIUFCspTcpM5At4WtNOA1QAA6IkA/0lz
+c9mUVF0fhbbylbWW1uHCdWIzR/49+p3/8/HbNGYPAQDcmAggo6MDnfA5XsYM
++JRaKMPIHaP+VrU0vhjWrAwRCc44BGWv/10SCisGAQQBl1UBBQEBB0BE1Q6b
+BXErbggFa2YhRMg75yUG7L2zwomI90AHthKoBwMBCgnCrgQYFggAYAWCZa//
+XQkQOQLeFrTTgNU1FAAAAAAAHAAQc2FsdEBub3RhdGlvbnMub3BlbnBncGpz
+Lm9yZ8ouMuN9vVvT1xInLOdGJE8CmwwWIQRIoSuszIUFCspTcpM5At4WtNOA
+1QAADqEBAIKTLyp9hYAbUtFQqeSRS+c2W2Jlny6Hk1SzYefvTcKRAP4h4UtA
+WLtava4OQTLtDRF2Cia64P7TRSnrjXnbW49RBQ==
+=BDcT
+-----END PGP PUBLIC KEY BLOCK-----
+```
+
+**Example 3: Fetch for a username**
+
+You can specify a username and it will look for the associated emails in all known Proton domain names.
+
+```
+neutrosint -e ausername
+```
+
+Output:
+
+```
+[+] Valid email: ausername@proton.me - PGP key creation date: 2022-04-15 14:34:15 - Fingerprint: faf075734410f5fd5d17dca0371cde3748787c9c - Algorithm: ECC Curve25519
+[+] Valid email: ausername@protonmail.com - PGP key creation date: 2016-09-18 18:45:41 - Fingerprint: a3e3117f120e5c943bacc7f9fa23b3614b64ce53 - Algorithm: RSA 2048
+[-] Proton email does not exist: ausername@pm.me
+[+] Valid email: ausername@protonmail.ch - PGP key creation date: 2024-06-23 14:10:00 - Fingerprint: 3188ad11691d4be2a2ac914dc0a221bd972514ae - Algorithm: ECC Curve25519
+[-] Proton email does not exist: ausername@passmail.net
+```
+
+**Example 4: Validate Multiple Emails from a File**
+
+Create a file named **emails.txt** with one entry (email or username) per line:
 
 ```
 testemail1@proton.me
 testemail2@proton.me
 invalidemail@proton.me
+testemail
 ```
 
-Run the command:
+Run the command below. It will also save the results in a results.txt file.
 
 ```
-python main.py -l -f emails.txt -o results.txt
+neutrosint -f emails.txt -o results.txt
 ```
 
-Output Example (results.txt):
+Output:
 
 ```
-[+] Valid email: testemail1@proton.me - Creation date: 2024-10-01 10:45:32
-[+] Valid email: testemail2@proton.me - Creation date: 2023-12-15 14:20:11
-[-] Proton email not exists: : invalidemail@proton.me
+[+] Valid email: testemail1@proton.me - PGP key creation date: 2024-05-26 14:59:57 - Fingerprint: ecad29c2dbe7bfe2502de60ead400eed276af9d5 - Algorithm: ECC Curve25519
+[+] Valid email: testemail2@proton.me - PGP key creation date: 2024-10-10 18:18:32 - Fingerprint: 0fe007f41351ef6daf04d938c485697fe97859f6 - Algorithm: ECC Curve25519
+[+] Valid email: invalidemail@proton.me - PGP key creation date: 2024-01-14 04:58:45 - Fingerprint: eb75346a5445fdfed2a4763b6558080449dcfd52 - Algorithm: ECC Curve25519
+[+] Valid email: testemail@proton.me - PGP key creation date: 2024-01-23 19:03:09 - Fingerprint: 48a12baccc85050aca5372933902de16b4d380d5 - Algorithm: ECC Curve25519
+[+] Valid email: testemail@protonmail.com - PGP key creation date: 2020-03-18 05:37:43 - Fingerprint: 0a2b8de4786db46dd34fa43328fb68b38741b588 - Algorithm: RSA 2048
+[-] Proton email does not exist: testemail@pm.me
+[+] Valid email: testemail@protonmail.ch - PGP key creation date: 2024-09-05 14:09:24 - Fingerprint: c30fa959ceec222bb749433ced59990eb9220863 - Algorithm: ECC Curve25519
+[-] Proton email does not exist: testemail@passmail.net
 ```
 
-**Example 3: Using a Proxy (Advanced)**
+**Example 5: Using Selenium Mode**
+
+The request limit of the API in Light Mode is 100 requests. When you reach the API limit, the following message will be displayed:
+
+```
+[+] Valid email: someemail@protonmail.com - Can't retrieve PGP keys. API limit reached
+```
+
+If you reach this limit or if you know you have a lot of entries to test, then you can use Selenium Mode which requires to have a valid set of credentials. The Selenium Mode will automate a browser to simulate a human-like interaction with the Proton Mail website. It will login using your credentials, start composing a new email and check for the target availability.
+
+When you type in an email in the destination field, a request is made to check for the email availability when it's a Proton Email.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>The lock shows that the email is valid and the encryption is possible.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>When the email does not exist, an error message is displayed.</p></figcaption></figure>
+
+The Selenium Mode will leverage the UI's capabilities to retrieve this information. To use it you need to specify your email and password using the **-u** and **-e** options.
+
+This example will use a file containing more than 100 usernames.
+
+
+
+**Example ?: Using a Proxy (Advanced)**
 
 Start your proxy and specify it in the command line (e.g. 127.0.0.1:8080). Your might want to use:
 
