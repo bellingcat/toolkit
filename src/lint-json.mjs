@@ -12,9 +12,6 @@ getTools().forEach((tool) => {
 
 });
 
-// Copy the about page to main content
-fs.writeFileSync('gitbook/README.md', fs.readFileSync('gitbook/pages/README.md', 'utf-8'));
-
 // Sort the tools in the summary
 const summary = getSummary('gitbook');
 
