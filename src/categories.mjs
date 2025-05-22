@@ -125,7 +125,7 @@ function renderLink(category, tool) {
   const summary = getSummary('gitbook');
   if (!summary.match(path.relative('gitbook/', tool.filepath))) {
     const url = tool.url;
-    return `[${url}](${url})`;
+    return `<p><sub><em><mark style="background-color:blue;">Guide not available</mark></em></sub></p><mark style="background-color:blue;"> [${url}](${url}) </mark>`;
   }
   const absolute = absoluteUrl(tool);
   const relative = path.relative(path.dirname(category.filepath), tool.filepath)
