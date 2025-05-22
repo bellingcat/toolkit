@@ -81,9 +81,11 @@ Business owners from any country could add their locations and information onto 
 
 Within AMap, if you search for a specific location, the coordinates are shown in the URL, in longitude-latitude format.&#x20;
 
-For background: China uses a coordinate system called [GCJ-02](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China#GCJ-02) (colloquially known as Mars coordinates), whereas the rest of the world uses [WGS-84](https://en.wikipedia.org/wiki/World_Geodetic_System) (Earth coordinates). Using an encryption algorithm, GCJ-02 applies random offsets to the latitude and longitude of locations. Obfuscating the geographic data is for [national security purposes](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China).&#x20;
+For background: China uses a coordinate system called [GCJ-02](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China#GCJ-02) (colloquially known as Mars coordinates), whereas the rest of the world uses [WGS-84](https://en.wikipedia.org/wiki/World_Geodetic_System) (Earth coordinates). GCJ-02 uses an encryption algorithm to apply random offsets to the latitude and longitude of locations. Obfuscating the geographic data is for [national security purposes](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China).&#x20;
 
-If you use Google Maps, the coordinates you obtain for China are already in the GCJ-02 system, though in latitude-longitude format. To do a reverse search using coordinates, go to [https://lbs.amap.com/tools/picker](https://lbs.amap.com/tools/picker), check the box for searching by coordinates, and make sure to enter the coordinates with longitude first.
+If you use Google Maps, the coordinates you obtain for China are already in the GCJ-02 system, though in latitude-longitude format. Please note that in Chinese mapping tools, coordinates are shown with longitude first. \
+\
+To search for a location in Gaode Maps using coordinates, go to [https://lbs.amap.com/tools/picker](https://lbs.amap.com/tools/picker), select the option to search by coordinates, and enter the coordinates in longitude-latitude format.
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/reverse_search.png" alt="" width="563"><figcaption><p>Page: <a href="https://lbs.amap.com/tools/picker">https://lbs.amap.com/tools/picker</a><br>Note: Without logging in, a keyword search will only yield coordinates with 2 decimal point only.</p></figcaption></figure></div>
 
@@ -120,10 +122,11 @@ Functions not available in the English mobile app:&#x20;
 
 ## Similar tools
 
-Gaode Maps, using the international branding "AMap", is unique in offering a full English language interface in a mobile app. \
+Gaode Maps, using the international branding "AMap", is unique in offering a full English language interface in its mobile app. (Baidu Maps provides maps globally, but the interface is still in Chinese.)&#x20;
+
+Note that surveying and mapping data are [becoming increasingly sensitive in China](https://www.kwm.com/cn/en/insights/latest-thinking/compliance-risks-of-surveying-and-mapping-for-intelligent-connected-vehicles.html), especially given Gaode Maps' focus on offering data to support real-time navigation of intelligent connected vehicles and/or autonomous vehicles.&#x20;
+
 \
-
-
 
 
 ## Cost
@@ -145,8 +148,9 @@ Gaode Maps, using the international branding "AMap", is unique in offering a ful
 ## Limitations
 
 * **No street view**
-* **Language Barrier**: In the web version, the user interface is only available in Chinese.
-* **Barriers accessing the API.**&#x20;
+* **Language barrier**: In the web version, the user interface is only available in Chinese.
+* **Barriers accessing the API.** Although not explicitly stated in Gaode Maps' documentation, non-Chinese citizens and companies may have difficulty setting up a developer account due to requirements to provide real name, identification, a Chinese phone number, and/or supporting documents.&#x20;
+* **Geographical barriers**: [VPNs are banned in China](https://www.bbc.com/news/technology-30982198) and there are limited gateways for international internet traffic to interact with Chinese websites. Users may experience slower loading speeds or some instability or errors when accessing Chinese websites using an overseas VPN.&#x20;
 
 ## Ethical Considerations
 
