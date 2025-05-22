@@ -239,9 +239,9 @@ This example will use a file containing more than 100 usernames.
 
 
 
-**Example ?: Using a Proxy (Advanced)**
+**Example 6: Using a Proxy (Advanced)**
 
-Start your proxy and specify it in the command line (e.g. 127.0.0.1:8080). Your might want to use:
+Start your proxy and specify it in the command line (e.g. 127.0.0.1:8080). You might want to use:
 
 * [**Tor**](https://www.torproject.org/)**:** The Onion Router opens a proxy at 127.0.0.1:9050
 * Any free or paid proxy from a provider you trust.
