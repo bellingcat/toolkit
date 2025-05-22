@@ -129,7 +129,7 @@ function renderLink(category, tool) {
   }
   const absolute = absoluteUrl(tool);
   const relative = path.relative(path.dirname(category.filepath), tool.filepath)
-  return `<mark style="background-color:blue;"> [${absolute}](${relative}) </mark>`;
+  return `[${absolute}](${relative})`;
 }
 
 function renderTable(tools, category) {
