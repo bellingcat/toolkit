@@ -124,7 +124,7 @@ Functions not available in the English mobile app:&#x20;
 
 Gaode Maps, using the international branding "AMap", is the only Chinese mapping tool that offers a full English language interface in its mobile version. In comparison, Baidu Maps provides maps globally in its Chinese interface, whereas Tencent Maps provides only maps for China.
 
-Unfortunately for researchers in search of geolocation tools, Gaode Maps does not offer street view imagery. Instead, researchers can see Baidu Maps for a more comprehensive set of street view images, and check Tencent Maps to compare with older images from roughly 5 to 7 years prior. This is because older street view imagery captured by SOSO Maps was integrated into Tencent Maps after their parent companies' merged in 2021.&#x20;
+Gaode Maps does not offer street view imagery. Instead, researchers can see Baidu Maps for a more comprehensive set of street view images, and check Tencent Maps for images from roughly 5 to 7 years prior. This is because older street view imagery captured by SOSO Maps (now defunct Chinese mapping tool) was integrated into Tencent Maps after their [parent companies' merged in 2021](https://www.techinasia.com/tencent-completes-merger-chinese-search-engine-sogou).&#x20;
 
 ## Cost
 
