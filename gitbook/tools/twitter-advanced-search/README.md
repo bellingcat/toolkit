@@ -236,7 +236,7 @@ If a user changes their handle, the Advanced Search tool won't return posts unde
 
 2. **Missing Misspellings and Variations:**
 
-Even after using the advanced search tool, you might miss tweets with typos or variations in the spelling of your search term. This is because the tool searches for exact matches.
+The advanced search tool works on exact matches. The limitation of exact-match searching means that this can miss tweets with spelling errors or variations of your keywords.&#x20;
 
 The fix is to cast a wider net. You can improve your search results by considering misspelled variations. Simply take those misspellings and alternative spellings you discover and use them as new search terms related to the research topic. Add these variations to your existing list of keyword combinations.
 
