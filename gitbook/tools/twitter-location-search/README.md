@@ -100,7 +100,7 @@ Based on our tests, the **"near:"** search operator sometimes produces irrelevan
 
 ## Ethical Considerations
 
-* Individual Privacy: Be mindful of individual privacy. While public tweets are accessible, avoid exposing personal information of individuals without their consent, in particular if they are not involved in any incidents of public interest.
+* Individual Privacy: Even though tweets are publicly posted, it is necessary to respect users' privacy by avoiding the disclosure of personal information without consent.&#x20;
 * Transparency: If sharing findings publicly, consider anonymizing personally identifiable information to protect individuals' privacy.
 * Data Reliability: Be aware that Twitter's location data is not always accurate. Avoid drawing definitive conclusions based solely on location data without corroboration from other sources
 
