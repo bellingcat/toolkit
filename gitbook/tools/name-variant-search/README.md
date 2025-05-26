@@ -40,7 +40,7 @@ Enter a name and press enter. Add suggested variants to refine results. Use the 
 
 ### Tool provider <a href="#tool-provider" id="tool-provider"></a>
 
-Bellingcat, NL
+[Bellingcat](https://bellingcat.com), NL
 
 | Page Maintainer           |
 | ------------------------- |
