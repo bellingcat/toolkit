@@ -99,7 +99,7 @@ User-generated reviews are available in the mobile app only (without account log
 
 ### Using AMap in English (mobile app only)
 
-The English version is only available in the mobile app. In your app store, search "AMap Global", download and install.&#x20;
+The English version is only available as mobile app. In your app store, search "AMap Global", download and install.&#x20;
 
 Functions not available in the English mobile app:&#x20;
 
