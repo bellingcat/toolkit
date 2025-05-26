@@ -10,7 +10,7 @@ description: Identify birds (visually), through an app.
 
 ## Description
 
-Merlin is a bird-identification app with a repository of over 10,000 birds in its system. It has three identification methods:
+Merlin is a bird-identification app with a repository of over [10,000 birds](https://support.ebird.org/en/support/solutions/articles/48000961587-merlin-bird-id-faqs) in its system. It has three identification methods:
 
 1. Step by step
 
