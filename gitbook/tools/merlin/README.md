@@ -10,7 +10,7 @@ description: Identify birds (visually), through an app.
 
 ## Description
 
-Merlin is a bird-identification app with a repository of over [10,000 birds](https://support.ebird.org/en/support/solutions/articles/48000961587-merlin-bird-id-faqs) in its system. This application can be useful for open source researchers looking to identify a bird in a photo, video or audio. Bird identification can allow the location of specific regions where an audio, photo or video may have been taken!
+Merlin is a bird-identification app with a repository of over [10,000 birds](https://support.ebird.org/en/support/solutions/articles/48000961587-merlin-bird-id-faqs) in its system. This app can enable open source researchers to analyze and discover the location where an audio, photo or video featuring a bird may have been taken.
 
 It has three identification methods:
 
