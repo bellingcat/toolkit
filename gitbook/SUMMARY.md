@@ -95,6 +95,7 @@
   * [FlightAware](tools/flightaware/README.md)
   * [Flightradar24](tools/flightradar24/README.md)
   * [Forensically](tools/forensically/README.md)
+  * [Gaode Maps](tools/gaode-maps/README.md)
   * [GeoHints](tools/geohints/README.md)
   * [Gephi](tools/gephi/README.md)
   * [Ghunt](tools/ghunt/README.md)

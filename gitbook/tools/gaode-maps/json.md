@@ -14,7 +14,8 @@ description: This is the JSON codeblock for this tool
   "tags": [
     "maps-and-satellites",
     "maps"
-  ]
+  ],
+  "publishedAt": 1748253738589
 }
 ```
 {% endcode %}
