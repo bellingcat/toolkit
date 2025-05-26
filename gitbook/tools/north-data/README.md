@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-North Data is an online platform offering detailed company information sourced from public records like trade registers, annual reports, funding registers, trademark registers, and patent registers. The platform, primarily focuses on European countries ([currently ](https://help.northdata.com/en/center/power-search-geographic-filters)**18 jurisdictions**—DE, AT, CH, FR, NL, BE, LU, IT, ES, DK, NO, SE, FI, IE, GB, PT, IS, LI).&#x20;
+North Data is an online platform offering detailed company information sourced from public records like trade registers, annual reports, funding registers, trademark registers, and patent registers. The platform, primarily focuses on European countries ([currently](https://help.northdata.com/en/center/power-search-geographic-filters) 21 **jurisdictions**).
 
 Key features and content include:
 
@@ -50,7 +50,7 @@ User registration is required for accessing certain features (see cost section).
 
 * Interactive graph starts with first-degree relations (company ↔︎ persons/companies). You can click nodes to reveal second-degree links, but bulk export/API still returns first-degree only.
 * Our own tests showed that some financial data or indicators are limited under a free account, are inconsistently updated or unavailable.
-* The data is only limited to 18 countries, the full list of sources with update frequency can be found [here](https://www.northdata.com/_coverage#sources).
+* The data is only limited to 21 countries, the full list of sources with update frequency can be found [here](https://www.northdata.com/_coverage#sources).
 
 ## Ethical Considerations
 
