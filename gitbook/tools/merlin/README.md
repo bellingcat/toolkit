@@ -28,12 +28,17 @@ You can take a photo of your bird of interest or upload an existing one from you
 
 <div align="left"><figure><img src=".gitbook/assets/WhatsAppVideo2025-04-04at16.47.231-ezgif.com-video-to-gif-converter.gif" alt="" width="208"><figcaption><p>An example of this option looking for a blue and yellow macaw in Colombia.</p></figcaption></figure></div>
 
-For a successful identification, be sure to enter as many characteristics as you can. This way the system can provide more specific results. In testing the app, 8 out of 10 times the system returned the bird I was looking for (and I recognize it). The app gives many options and can be confusing if searching for a bird with similar colors and characteristics to others. \
-
+For a successful identification, be sure to enter as many characteristics as you can. This way the system can provide more specific results. In testing the app, 8 out of 10 times the system returned the bird I was looking for (and I recognize it). The app gives many options and can be confusing if searching for a bird with similar colors and characteristics to others.&#x20;
 
 For example, if you search for a medium-sized black bird that was seen flying, the system will return a lot of black birds in your area, and there may be too many to recognize yours. But if you also add red in the system because you saw that the bird's eyes were that color, the app will give you more particular results (in my case, I got as second choice the bronzed cowbird and this was my bird!).&#x20;
 
 It is not necessary to create an account to use the application. However, one of the advantages of creating one is that you can create lists of the birds you search for and save them. In addition, Merlin allows downloading data packets based on the location of interest. For example, you can download a Paraguayan birds packet to get more specific results when searching for birds in this country.
+
+**Similar tools**
+
+There are other apps that help identify birds. There is [eBird](https://ebird.org/explore), an app where you can search photos and sounds, explore birds hotspots and explore various bird statistics in each region. This app has many more features than Merlin and is not as focused on identification as it is on recording birds in lists, which makes it ideal for birding. However, the good news is that this app was also designed by Cornell University and is a Merlin partner! This alliance means that, after identifying your bird with Merlin, you can add it to lists in eBird if you wish (although you can also create lists in Merlin).
+
+Other popular bird identification apps feature region-specific information, such as [Birds in Backyards](https://www.birdsinbackyards.net/) for Australia and [Bird Spot](https://www.birdspot.co.uk/british-bird-identifier) for British birds.
 
 ## Cost
 
