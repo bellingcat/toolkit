@@ -70,6 +70,8 @@ Help Center: [https://support.ebird.org/en/support/solutions/articles/4800096622
 
 How to use the Merlin Bird ID App (Photo/Call ID): A Beginner's Guide: [https://www.youtube.com/watch?v=Woe\_Q6S8oyw](https://www.youtube.com/watch?v=Woe_Q6S8oyw)
 
+Merlin Bird ID Demo from the Cornell Lab of Ornithology: [https://www.youtube.com/watch?v=xmSUOLxyatY](https://www.youtube.com/watch?v=xmSUOLxyatY)
+
 ## Tool provider
 
 Cornell Lab of Ornithology, based on New York.
