@@ -30,7 +30,7 @@ You can take a photo of your bird of interest or upload an existing one from you
 
 <div align="left"><figure><img src=".gitbook/assets/WhatsAppVideo2025-04-04at16.47.231-ezgif.com-video-to-gif-converter.gif" alt="" width="208"><figcaption><p>An example of this option looking for a blue and yellow macaw in Colombia.</p></figcaption></figure></div>
 
-For a successful identification, be sure to enter as many characteristics as you can. This way the system can provide more specific results. In testing the app, 8 out of 10 times the system returned the bird I was looking for (and I recognize it). The app gives many options and can be confusing if searching for a bird with similar colors and characteristics to others.&#x20;
+For a successful identification, be sure to enter as many characteristics as you can. This way the system can provide more specific results. In testing the app, 8 out of 10 times the system returned the bird I was looking for. The app gives many options and can be confusing if searching for a bird with similar colors and characteristics to others.&#x20;
 
 For example, if you search for a medium-sized black bird that was seen flying, the system will return a lot of black birds in your area, and there may be too many to recognize yours. But if you also add red in the system because you saw that the bird's eyes were that color, the app will give you more particular results (in my case, I got as second choice the bronzed cowbird and this was my bird!).&#x20;
 
@@ -58,7 +58,7 @@ Merlin can be downloaded for free on Android and Apple devices.
 
 ## Limitations
 
-&#x20;Keep in mind that the system may not always be successful in identifying birds.
+Keep in mind that the system may not always be successful in identifying birds.
 
 The application cannot be used via a computer, you need to use the app.
 
