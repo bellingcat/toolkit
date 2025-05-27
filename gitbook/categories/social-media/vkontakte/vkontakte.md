@@ -2,7 +2,6 @@
 
 | Name | Description | Cost | Tool Review and Guide |
 | --- | --- | --- | --- |
-| Bellingcat VK Scraper | Github - scrape data, and especially media links like videos and photos, from vk.com URLs. | <mark style="background-color:green;">Free</mark> | <p><sub><em>Guide not available</em></sub></p><mark style="background-color:blue;"> [https://github.com/bellingcat/vk-url-scraper](https://github.com/bellingcat/vk-url-scraper) </mark> |
 | FindClone | Searches images from VK profiles (within certain limits) | <mark style="background-color:green;">Free</mark> | <p><sub><em>Guide not available</em></sub></p><mark style="background-color:blue;"> [https://findclone.ru/](https://findclone.ru/) </mark> |
 | Photo-Map.RU | Geotagged VK posts. | <mark style="background-color:green;">Free</mark> | <p><sub><em>Guide not available</em></sub></p><mark style="background-color:blue;"> [http://photo-map.ru/](http://photo-map.ru/) </mark> |
 | Search4Faces | Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse) | <mark style="background-color:green;">Free</mark> | <p><sub><em>Guide not available</em></sub></p><mark style="background-color:blue;"> [https://search4faces.com](https://search4faces.com) </mark> |
