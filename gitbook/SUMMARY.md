@@ -137,6 +137,7 @@
   * [Mapillary](tools/mapillary/README.md)
   * [MapSwitcher](tools/mapswitcher/README.md)
   * [MarineTraffic](tools/marinetraffic/README.md)
+  * [Merlin](tools/merlin/README.md)
   * [Meta Content Library](tools/meta-content-library/README.md)
   * [MW Geofind](tools/mw-geofind/README.md)
   * [Name Variant Search](tools/name-variant-search/README.md)
