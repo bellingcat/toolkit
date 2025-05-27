@@ -70,6 +70,10 @@ Two limitations to be aware of:&#x20;
 1. Be aware that street views may be outdated, restricted or unavailable. In such cases, there may be glitches.&#x20;
 2. Metadata such as the date of image capture or the approval reference are not available.&#x20;
 
+### Similar tools
+
+
+
 ## Cost
 
 * [x] Free
@@ -88,12 +92,15 @@ Two limitations to be aware of:&#x20;
 
 ## Limitations
 
-* **Geographical Restrictions**: Some data and features are [restricted outside of China](./#url) due to legal or licensing issues. Users outside of China may find it cumbersome to use Tencent Maps. For example, to set up a QQ account for map users, a Chinese phone number is required. Additionally, some foreign VPN services are blocked from accessing the web version.
+* **Geographical Restrictions**: Some data and features are restricted outside of China. A QQ account is required to create an account to use Tencent's services. Most foreign VPNs are blocked from using Tencent Maps' web version.&#x20;
+
+(QQ is the consumer-interfacing brand name for Tencent's services. Users have an overarching QQ account for using Tencent's online social games, music, shopping, microblogging, movies, and group and voice chat software.)&#x20;
+
 * **Data availability**: Highly-detailed maps are only available for China. Other countries appear blank.&#x20;
 * **Limited functionalities on web browser**: The app's more extensive features, including street view, are only available on the mobile app.&#x20;
-* **Language**: The mapping application, documentation and support are available in Chinese only.
+* **Language barrier**: The mapping application, documentation and support are available in Chinese only.
 * **API Rate Limits**: API calls are capped at a concurrency limit: 5 times/second/interface/Key Daily and calls: 10,000 times/interface/Key. For researchers requiring high-frequency data access, this might pose a limitation (see [here](https://lbs-qq-com.translate.goog/faq/accountQuota/faqKey?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_hist=true)).
-* **Access speed**: International users will experience slower access speeds or need a Chinese IP address to access certain APIs. Researchers using an overseas VPN to visit Chinese websites may also find their access blocked.
+* **Geographical barrier - access speed**: [VPNs are banned in China](https://www.bbc.com/news/technology-30982198) and there are [limited gateways for international internet traffic to interact with Chinese websites](https://www.thousandeyes.com/blog/deconstructing-great-firewall-china). Overseas users may experience slower speeds and more frequent prompts to login.&#x20;
 
 ## Ethical Considerations
 
