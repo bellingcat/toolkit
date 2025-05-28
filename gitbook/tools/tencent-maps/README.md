@@ -87,20 +87,26 @@ Two limitations to be aware of:&#x20;
 ## Requirements
 
 * **Web:** web browser.
-* **Mobile:** iOS, Android (or HarmonyOS). For researchers outside China, the mobile app is not available in the app store. Instead, install by apk.
-* **API:** Email address and a method of payment, e.g., credit card.&#x20;
+* **Mobile:** iOS, Android, or HarmonyOS (Huawei's operating system). For researchers outside China, the mobile app is not available in the app store. Instead, install by APK.&#x20;
+
+<details>
+
+<summary>What is APK? </summary>
+
+APK, or Android Package Kit, refers to the core format which Android uses to distribute and install apps. The easiest way is simply to do a Google search for Tencent Maps apk. Please apply the usual security precautions when downloading software online.&#x20;
+
+</details>
 
 ## Limitations
 
-* **Geographical Restrictions**: Some data and features are restricted outside of China. A QQ account is required to create an account to use Tencent's services. Most foreign VPNs are blocked from using Tencent Maps' web version.&#x20;
-
-(QQ is the consumer-interfacing brand name for Tencent's services. Users have an overarching QQ account for using Tencent's online social games, music, shopping, microblogging, movies, and group and voice chat software.)&#x20;
-
-* **Data availability**: Highly-detailed maps are only available for China. Other countries appear blank.&#x20;
+* **Geographical restrictions to account registration and API access**: A QQ account is required for registering for API access. In order to register a QQ account, a Chinese phone number is needed. Given this, international users will find it difficult to create an account by which they can obtain API access keys. \
+  \
+  (QQ is the consumer-interfacing brand name for Tencent's services. Similar to a Google users having a single sign-in for various Google services, in the Chinese internet, users have an overarching QQ account for accessing Tencent's online games, music, movies, microblogging, movies and other services.)&#x20;
+* **Maps only available for China**: Other countries appear blank.&#x20;
+* **Geoblock and access speeds**: [VPNs are banned in China](https://www.bbc.com/news/technology-30982198), and VPNs are blocked from loading Tencent Maps' web version. Also, due to [limited gateways for international internet traffic to interact with Chinese websites](https://www.thousandeyes.com/blog/deconstructing-great-firewall-china), overseas users may experience slower speeds and more frequent prompts to login — on both web and mobile.&#x20;
 * **Limited functionalities on web browser**: The app's more extensive features, including street view, are only available on the mobile app.&#x20;
-* **Language barrier**: The mapping application, documentation and support are available in Chinese only.
-* **API Rate Limits**: API calls are capped at a concurrency limit: 5 times/second/interface/Key Daily and calls: 10,000 times/interface/Key. For researchers requiring high-frequency data access, this might pose a limitation (see [here](https://lbs-qq-com.translate.goog/faq/accountQuota/faqKey?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_hist=true)).
-* **Geographical barrier - access speed**: [VPNs are banned in China](https://www.bbc.com/news/technology-30982198) and there are [limited gateways for international internet traffic to interact with Chinese websites](https://www.thousandeyes.com/blog/deconstructing-great-firewall-china). Overseas users may experience slower speeds and more frequent prompts to login.&#x20;
+* **Language barrier**: The app, including documentation and support are only available in Chinese.&#x20;
+* **API Rate Limits**: API calls are capped at a concurrency limit: 5 times/second/interface/Key Daily and calls: 10,000 times/interface/Key. For researchers requiring high-frequency data access, this might pose a limitation ([documentation](https://lbs-qq-com.translate.goog/faq/accountQuota/faqKey?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_hist=true), in English via Google Translate).&#x20;
 
 ## Ethical Considerations
 
@@ -109,13 +115,9 @@ Two limitations to be aware of:&#x20;
 
 ## Guides and articles
 
-**Official Wiki**
+**Official Wiki**, [https://map.qq.com/help/index.html](https://map.qq.com/help/index.html) ([English translation](https://map-qq-com.translate.goog/help/index.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en))
 
-* [https://map.qq.com/help/index.html](https://map.qq.com/help/index.html) ([English translation](https://map-qq-com.translate.goog/help/index.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en))
-
-#### Developer Resources
-
-* [https://lbs.qq.com/](https://lbs.qq.com/) ([English translation](https://lbs-qq-com.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en))
+**Developer Resources**, [https://lbs.qq.com/](https://lbs.qq.com/) ([English translation](https://lbs-qq-com.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en))
 
 ## Tool provider
 
