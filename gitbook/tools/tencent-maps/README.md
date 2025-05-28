@@ -70,6 +70,8 @@ Two limitations to be aware of:&#x20;
 1. Be aware that street views may be outdated, restricted or unavailable. In such cases, there may be glitches.&#x20;
 2. Metadata such as the date of image capture or the approval reference are not available.&#x20;
 
+In fact, due to a [2021 merger between Tencent and Sogou](https://www.techinasia.com/tencent-completes-merger-chinese-search-engine-sogou), older street view imagery captured by SOSO Maps was integrated into Tencent Maps. (SOSO Maps, now defunct was previously a subsidiary of Sogou.) Tencent Maps users still often see SOSO Maps' vehicles in the street view imagery (as shown above), indicating that the image was taken some time before the merger.&#x20;
+
 ### Similar tools
 
 
