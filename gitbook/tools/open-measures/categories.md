@@ -15,17 +15,13 @@
 
 ## Social Media
 
-* [ ] [Discord](https://bellingcat.gitbook.io/toolkit/categories/social-media/discord)
 * [ ] [Facebook](https://bellingcat.gitbook.io/toolkit/categories/social-media/facebook)
 * [ ] [Instagram](https://bellingcat.gitbook.io/toolkit/categories/social-media/instagram)
-* [ ] [LinkedIn](https://bellingcat.gitbook.io/toolkit/categories/social-media/linkedin)
 * [x] [Multiple Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/multiple-networks)
 * [x] [Other Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/other-networks)
-* [ ] [Reddit](https://bellingcat.gitbook.io/toolkit/categories/social-media/reddit)
 * [x] [Telegram](https://bellingcat.gitbook.io/toolkit/categories/social-media/telegram)
 * [x] [Tiktok](https://bellingcat.gitbook.io/toolkit/categories/social-media/tiktok)
 * [ ] [Twitter/X](https://bellingcat.gitbook.io/toolkit/categories/social-media/twitter)
-* [ ] [Vkontakte](https://bellingcat.gitbook.io/toolkit/categories/social-media/vkontakte)
 * [ ] [Youtube](https://bellingcat.gitbook.io/toolkit/categories/social-media/youtube)
 
 ## Other
