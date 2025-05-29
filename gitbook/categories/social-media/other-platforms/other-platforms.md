@@ -1,3 +1,7 @@
+---
+description: Tools for other platforms including Bluesky, Discord, Linkedin, Reddit, and Vkontakte.
+---
+
 # Other Platforms
 
 | Name | Description | Cost | Tool Review and Guide |

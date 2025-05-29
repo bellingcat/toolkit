@@ -84,11 +84,9 @@ generateTemplateCategoriesMarkdown(allCategories);
 function renderCategory(category, categoryTools = []) {
   return renderIntro(category) + renderTable(categoryTools, category);
 }
-function renderTitle(category) {
-  return `# ${category.title}\n\n`;
-}
 function renderIntro(category) {
-  return `${category.content}\n\n`;
+  const desc = category.description ? `---\ndescription: ${category.description}\n---\n\n` : '';
+  return `${desc}${category.content}\n\n`;
 }
 
 function renderCost(cost) {

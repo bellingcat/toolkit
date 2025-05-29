@@ -23,5 +23,4 @@ const toolList = parts[1]
 const items = toolList.split('\n').sort(function (a, b) {
       return a.toLowerCase().localeCompare(b.toLowerCase());
 }).filter((x) => x.length);
-console.log(items.join());
 fs.writeFileSync('gitbook/SUMMARY.md', [parts[0], heading, items.join('\n')].join(''));
