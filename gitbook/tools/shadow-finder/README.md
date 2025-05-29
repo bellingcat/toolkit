@@ -13,6 +13,10 @@ description: >-
 
 ## Description
 
+{% hint style="warning" %}
+Temporary Workaround in Place: Work is underway to update one of this open source tool's dependencies in the GitHub repository where it is stored. A quick workaround is described there to ensure that the tool works fine in the interim. Shadow Finder is available and working during this period.
+{% endhint %}
+
 <figure><img src=".gitbook/assets/Screenshot (1).JPG" alt=""><figcaption><p><strong>THE SHADOW &#x26; OBJECT MEASURED CAN ONLY LIE SOMEWHERE ON THE BRIGHT CIRCLE .</strong> </p></figcaption></figure>
 
 Enter shadow length and object height, (or, instead, [the angle of elevation of the sun](#user-content-fn-1)[^1]) for a research source image, then also the date and time of the image, and see the potential locations at which such a shadow could be created for that point in time as the bright area (circle) on the world map.
@@ -202,7 +206,7 @@ Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen
 
 | Page maintainer |
 | --------------- |
-| Sophie Tedling. |
+| Sophie Tedling  |
 |                 |
 
 [^1]: ![](<.gitbook/assets/suncalcelevationSC (2).jpg>)
