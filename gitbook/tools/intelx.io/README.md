@@ -10,7 +10,7 @@ http://intelx.io/
 
 ## Description
 
-Intelx lets you search email addresses (and other inputs) in its database of information from the darknet, document sharing platforms, whois data, public data leaks and others. You can expect to find associated accounts, names, IP addresses, passwords, dates of birth, etc.&#x20;
+Intelligence X lets you search email addresses (and other inputs) in its database of information from the darknet, document sharing platforms, whois data, public data leaks and others. You can expect to find associated accounts, names, IP addresses, passwords, dates of birth, etc.&#x20;
 
 &#x20;In the example below, Intelx finds a particular email address in a leak of Twitter and Chegg. The twitter one shows info on names, screen names, followers and the creation time. The Chegg database shows email addresses and their passwords.
 
