@@ -10,7 +10,7 @@ https://whatsmyname.app/
 
 ## Description
 
-WhatsMyName checks if a particular username exists on different platforms and websites and if it does, it links to it. It is a quick way to find where else a person of interest might have accounts. &#x20;
+WhatsMyName Web checks if a particular username exists on different platforms and websites and if it does, it links to it. It is a quick way to find where else a person of interest might have accounts. &#x20;
 
 By searching Bellingcat on WhatsMyName web, we get 37 places where this username is used. The green boxes are clickable and will take you to the user page.&#x20;
 
