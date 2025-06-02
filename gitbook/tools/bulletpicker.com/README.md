@@ -133,15 +133,11 @@ Information depth and organization vary across the different sections of the web
 
 For example, [the Ordnance/Bombs subcategory ](https://www.bulletpicker.com/_bombs.html)includes resources for 13 countries, while the [“Clusters and Dispensers” subcategory](https://www.bulletpicker.com/_clusters.html) covers eight countries plus an “unknown” category.&#x20;
 
-It is unclear to the author whether this coverage limitation stems from data availability constraints or reflects the actual global distribution of ordnance manufacturing capabilities. In other words, is this because these are the only resources publicly available, or is this the list of countries known to produce such types of devices? &#x20;
+According to the tool provider, variation in content is due to several reasons, including: (1) Many documents exist but are classified as “For Official Use Only” (FOUO), making their distribution illegal. (2) Documents that appear on document hosting websites, such as Scribd or archive.org, are not allowed to be posted on the website, as this can result in immediate legal issues from authorities. (3) [The International Traffic in Arms Regulations (ITAR) also strictly control the sharing of military and defence-related information or “technical data”  ](https://www.varonis.com/blog/itar-compliance)without special permission.&#x20;
 
 Another example is that not all items will contain an image or diagram.&#x20;
 
-3. Searching:&#x20;
-
-Many of the resources are PDF documents or images that require opening, which can be time consuming, however, the search and index help to mitigate that.
-
-If the researcher has limited foundational knowledge on the subject matter, this may not be the first resource to use for weapons identification. Users may need to know some technical terms to use the search function effectively and find what they want.&#x20;
+According to the tool provider, this is because some images are classified as sensitive materials, have poor image quality, or require time management due to the massive volume of submissions received.&#x20;
 
 ## Ethical Considerations
 
@@ -153,7 +149,9 @@ None at the moment.
 
 ## Tool provider
 
-According to the website, Bulletpicker.com is provided by an unnamed ["retired project manager for the Department of Defense"](https://www.bulletpicker.com/_me.html) and several [contributors](https://www.bulletpicker.com/contributors.html).
+Ted Carlson and several [contributors](https://www.bulletpicker.com/contributors.html)
+
+USA
 
 ## Advertising Trackers
 
@@ -161,7 +159,7 @@ According to the website, Bulletpicker.com is provided by an unnamed ["retired p
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                         |
-| --------------------------------------- |
-| <p>Afton </p><p>(Previously: Andro)</p> |
-|                                         |
+| Page maintainer |
+| --------------- |
+| Afton           |
+|                 |
