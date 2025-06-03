@@ -39,7 +39,7 @@ Clicking on the List paperclip icon will take you to the lists of persons, entit
 
 <figure><img src=".gitbook/assets/eusm7.png" alt="" width="375"><figcaption><p>View of the top right corner filters on the website</p></figcaption></figure>
 
-* Clicking on a country on the map - this will open a pop-up window with the type of sanctions imposed on this country. The additional information is accessible by clicking the  small text that says "Info" at the bottom of the pop-up.
+* Clicking on a country on the map - this will open a pop-up window with the type of sanctions imposed on this country. The additional information is accessible by clicking the small text that says "Info" at the bottom of the pop-up.
 
 **What information can you find in the EU Sanctions Map?**
 
@@ -68,7 +68,7 @@ Clicking on the List paperclip icon will take you to the lists of persons, entit
 * Sanctions adopted by either EU or UN or both&#x20;
 * Description on why sanctions were imposed
 * The date this country was sanctioned, the expiration date of the sanctions and date of last legal update
-* A full lust of sanctions and their types imposed on the people and entities from that country
+* A full list of sanctions and their types imposed on the people and entities from that country
 * List of overall sactions (e.g. asset freeze, prohibition to satisfy claims, arms embargo)
 * Legal acts with links to the official documents
 * Official documents on EU guidelines and best practices on restrictive measures
