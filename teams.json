@@ -2018,5 +2018,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "wsIf3vnIYnZ5tRA5PKIE",
+    "title": "Amazon Rekognition",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-03T09:38:01.659Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
