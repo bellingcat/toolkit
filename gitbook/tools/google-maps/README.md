@@ -12,19 +12,18 @@ description: >-
 
 ## Description
 
-Google Maps is a web-based service offering comprehensive information about geographical regions globally. It provides road maps, aerial and satellite views, street views which makes it a good resource for open source researchers. It includes features like real-time traffic updates, business information, 3D views, and location sharing. Accessible through web, mobile, and API integrations, Google Maps supports many geolocation needs.&#x20;
+Google Maps is a web-based service offering comprehensive information about geographical regions globally. It provides road maps, aerial and satellite views, and street views which makes it a useful resource for open source researchers. It includes features like real-time traffic updates, business information, 3D views, and location sharing. Accessible through web, mobile, and API integrations, Google Maps supports many geolocation needs.&#x20;
 
 **Features:**
 
 * **3D view**
-* **Add or edit map:** add or edit items like missing places or business.
+* **Add or edit map:** add or edit items like missing places or businesses.
 * **Compass North**: realign the map to compass north.
-* **Current Location**: option to centre the map at user's location.
+* **Current Location**: option to centre the map at the user's location.
 * **Directions**: get directions from your current location or between two locations by Best Travel modes, Driving, Transit, Walking, Cycling, Flights.
 * **Layers**: multiple map layers available including Transit, Traffic, Biking, Terrain, Street View, Wildfires, Air Quality, Satellite.
 * **Location Sharing**: users can choose to share their location through the mobile app with friends and visualise it in the web app.
-* **Manage your Data**: ensure the privacy of user data.
-* **Measure distance:** measure distance between points in kilometers.
+* **Measure distance:** measure the distance between points in kilometers.
 * **Print**: print the current map or save it to PDF.
 * **Recents**: a historical list of recent searches.
 * **Save**: save custom maps and locations as Lists, Labeled, and Visited.
@@ -32,7 +31,7 @@ Google Maps is a web-based service offering comprehensive information about geog
 * **Send to phone (from the web client)**: share the current view to your phone.
 * **Sharing and embedding:** share selected locations as a link, embed or to social media with URL shortening available.
 * **Show Imagery**: show photos uploaded by users of specific locations. This imagery also displays the capture date in very small text bottom right.&#x20;
-* **Sidebar**: for a city Iconic parts of the city Hotels, Neighborhoods, Restaurants, Hotels, Things to do, Museums, Transit, Pharmacies, ATMs.
+* **Sidebar**: Iconic parts of a city's Hotels, Neighborhoods, Restaurants, Hotels, Things to do, Museums, Transit, Pharmacies, ATMs.
 * **Street View**: see current and historical Street View imagery. This imagery displays the capture date in very small text bottom right and using _see more dates_ in the popup will show all street view captures across time in a timeline below the map.
 * **Timeline (Mobile only)**: a record of your locations and searches.
 * **Travel Time**
@@ -47,7 +46,7 @@ Google Maps is available in the following formats:
 
 The example below shows a search for _Amsterdam_:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-06-23 at 11.56.54 AM.png" alt="Screenshot of search for Amsterdam shows a street map of Amsterdam with a menu of amenities."><figcaption><p>Screenshot of search for Amsterdam.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-06-23 at 11.56.54 AM.png" alt="Screenshot of search for Amsterdam shows a street map of Amsterdam with a menu of amenities."><figcaption><p>Screenshot of a search for Amsterdam.</p></figcaption></figure>
 
 ## Use Cases
 
