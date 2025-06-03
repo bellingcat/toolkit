@@ -2090,5 +2090,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "aL8hZBCuPnCp7oFk1WKM",
+    "title": "DNS History",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-03T11:12:53.726Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
