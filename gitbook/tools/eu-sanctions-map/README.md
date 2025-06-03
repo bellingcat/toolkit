@@ -26,7 +26,7 @@ The tool offers multiple search options and filters, including by theme.
 
 <figure><img src=".gitbook/assets/EUSM3.png" alt=""><figcaption><p>View of the alphabetized list with the first contry on it</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/EUSM4.png" alt=""><figcaption><p>Clicking on each of the icons displays the specific type of sanction</p></figcaption></figure>
+<figure><img src=".gitbook/assets/EUSM4.png" alt=""><figcaption><p>Clicking on each of the icons displays the specific type of sanction.</p></figcaption></figure>
 
 Clicking on the List paperclip icon will take you to the lists of persons, entities and items sanctioned in a specific country. These lists are broken down by type of restriction/sanction providing the names of persons and entities. Each listed entity is hyperlinked and when clicked opens a pop-up window with even more information.
 
