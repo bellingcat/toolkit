@@ -2030,5 +2030,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "6pZKyFN4xEWOTiDP2dQJ",
+    "title": "FastPeopleSearch",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-03T10:00:24.271Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
