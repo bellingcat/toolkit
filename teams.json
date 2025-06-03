@@ -2138,5 +2138,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "C2EnuZLtv8wORHGYOJYA",
+    "title": "Judyrecords",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-03T11:50:27.505Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
