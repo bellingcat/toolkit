@@ -17,6 +17,8 @@ Autostitch is an image stitching tool that automatically combines multiple photo
 
 Open source researchers can use the tool to create a panoramic image of a location that is visible in a video, in particular if the video includes shots from several perspectives and has been filmed with a moving camera.
 
+Users can adjust the output setting for panorama. The setting options include the output size, blending options, and JPEG quality found under advanced options. Despite these options, the tool has certain limitations which will be outlined in the limitation section.
+
 ## Cost
 
 * [x] Free
@@ -34,7 +36,7 @@ Open source researchers can use the tool to create a panoramic image of a locati
 ## Limitations
 
 * Limited control over stitching parameters.
-* May struggle with images that have very minimal overlap.
+* May struggle with images that have very minimal overlap. Users often face the error “failed to align images.” One may need to sort images individually and remove those that have minimum overlap. Works better with a large set of images that have been sorted meticulously- includes images having considerable overlap.                                                                                                    Autostitch works best for sequential images from a video. A video can be converted to sequential images using video splitting tools such as chitpit.com or sites like ezgif.com/video-to-jpg.
 * **Performance Issues**: Performance can degrade with large image sets and Auotostitch has been found to have [performance issues](https://www.neopanoramic.com/review/autostitch).
 * **Limited support and documentation.**
 
@@ -71,7 +73,7 @@ Licensed by the University of British Columbia (Canada) to multiple companies in
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer         |
-| ----------------------- |
-| Anisa Shabir GAP member |
-|                         |
+| Page maintainer |
+| --------------- |
+| Anisa Shabir    |
+|                 |
