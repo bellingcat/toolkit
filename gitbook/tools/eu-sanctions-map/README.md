@@ -22,7 +22,7 @@ The tool offers multiple search options and filters, including by theme.
 
 <figure><img src=".gitbook/assets/EUSM2.png" alt=""><figcaption><p>Front page list view of the thematic sanctions</p></figcaption></figure>
 
-* **Country-level sanctions and restrictions** - the tool has an alphabetized list of countries agains which some sort of sanctions or restrictions have been imposed. Each entry on the front page provides basic information on the restrictive measures, little icons depicting the sanctions and three  separate sub-pages with detailed information.
+* **Country-level sanctions and restrictions** - the tool has an alphabetized list of countries against which some sort of sanctions or restrictions have been imposed. Each entry on the front page provides basic information on the restrictive measures, little icons depicting the sanctions and three  separate sub-pages with detailed information.
 
 <figure><img src=".gitbook/assets/EUSM3.png" alt=""><figcaption><p>View of the alphabetized list with the first contry on it</p></figcaption></figure>
 
