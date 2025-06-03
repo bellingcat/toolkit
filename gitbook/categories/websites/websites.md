@@ -3,7 +3,6 @@
 | Name | Description | Cost | Tool Review and Guide |
 | --- | --- | --- | --- |
 | Distill.io | Distill.io is a website change monitoring tool that allows users to track changes on web pages. | <mark style="background-color:orange;">Partially Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/distill](../../tools/distill/README.md) |
-| DNS Cyrillic Check | Check if malicious or Cyrillic domains are registered | <mark style="background-color:green;">Free</mark> | <p><sub><em>Guide not available</em></sub></p><mark style="background-color:blue;"> [https://holdintegrity.com/checker](https://holdintegrity.com/checker) </mark> |
 | DNS History | Collection of historical DNS information. | <mark style="background-color:green;">Free</mark> | <p><sub><em>Guide not available</em></sub></p><mark style="background-color:blue;"> [http://completedns.com/](http://completedns.com/) </mark> |
 | DomainTools Whois Lookup | DomainTools Whois provides detailed domain name registration information, and can be used to investigate details about domains or IP addresses. | <mark style="background-color:orange;">Partially Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/domaintools-whois-lookup](../../tools/domaintools-whois-lookup/README.md) |
 | Geo IP Tools | Check your own IP, handy to check if your VPN is working. | <mark style="background-color:green;">Free</mark> | <p><sub><em>Guide not available</em></sub></p><mark style="background-color:blue;"> [http://geoiptool.com/](http://geoiptool.com/) </mark> |
