@@ -2042,5 +2042,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "uU1XlFMRojLMJ83qfHZO",
+    "title": "Wind & Particulate Map",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-03T10:12:55.762Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
