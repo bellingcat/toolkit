@@ -76,7 +76,7 @@ Clicking on the List paperclip icon will take you to the lists of persons, entit
 
 {% tab title="Legal acts" %}
 * Legal acts with links to the official European Council and other EU administration documents, including the type, title and number of each document.&#x20;
-* Legal acts with links to the official European Council and other EU administration documents, including the type, title and number of each document. These documents provide the full details on each sanction and are good resource if you need to cite official sources and the legal basis.
+* Legal acts with links to the official European Council and other EU administration documents, including the type, title and number of each document. These documents provide the full details on each sanction and are a good resource if you need to cite official sources and the legal basis.
 * These documents are hosted on the EUR-Lex website in PDF and HTML formats and are translated (usually, but not always) in all the official languages of the European Union.
 {% endtab %}
 {% endtabs %}
