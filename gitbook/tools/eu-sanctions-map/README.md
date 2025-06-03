@@ -110,7 +110,7 @@ Internet connection
 
 Our research shows that this resource only provides information on sanctioned entities. It does not provide information on politically exposed persons (PEPs).&#x20;
 
-EU Sanctions Mao does not have an API integration feature, so downloading data in bulk might be more difficult.
+EU Sanctions Map does not have an API integration feature, so downloading data in bulk might be more difficult.
 
 This tool only contains the names of persons and entities sanctioned by the EU and the UN, and does not provide sanctions imposed by other countries.
 
