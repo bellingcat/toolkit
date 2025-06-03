@@ -14,10 +14,10 @@ description: >-
 
 Satellites.pro lets you view satellite imagery and mapping services including maps from:&#x20;
 
-* Apple Maps
+* [Apple Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/apple-maps)
 * OpenStreetMap
-* Google Map
-* Yandex Map
+* [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps)
+* [Yandex Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps)
 
 The tool allows open source researchers to easily switch between maps and imagery from all those providers in a simple and straightforward way without the need to go to the providers' sites separately.
 
@@ -48,7 +48,7 @@ Any modern web browser.
 satellites.pro has the following limitations that researchers should consider:
 
 * **Data Accuracy and Currency**: Data may not always be up to date, leading to potential discrepancies with current conditions. Users should verify important information through other sources. For Apple, Google and Open Street Map see the toolkit entries for the associated maps. [Yandex Maps Editor Support](https://yandex.com/support/mapeditor/sputnik.html) says Yandex imagery is updated irregularly but does not specify how often imagery is updated.
-* **Resolution and Detail**: Image resolution varies across different regions and services, with some areas having detailed imagery and others being less clear. Again, see Apple, Google and Open Street Map toolkit entries for more details. Yandex does not provide further information on this.   &#x20;
+* **Resolution and Detail**: Image resolution varies across different regions and services, with some areas having detailed imagery and others being less clear. Again, see [Apple Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/apple-maps), [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps) and Open Street Map toolkit entries for more details. [Yandex Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps) does not provide further information on this.   &#x20;
 
 ## Ethical Considerations
 
