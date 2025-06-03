@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Deepfake-O-Meter](README.md)
-* [Categories](categories.md)
+* [DeepFake-O-Meter](README.md)
+* [JSON](json.md)
