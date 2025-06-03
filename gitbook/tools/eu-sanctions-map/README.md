@@ -87,9 +87,9 @@ At the top of the page there is a list of additional resources, pertaining to or
 
 1. [EU Sanctions Whistleblower Tool](https://eusanctions.integrityline.com/frontpage) - can be used to report violations of sanctions. It allows to anonymously submit a report and also provides additional resources on what can be reported.
 2. Competent Auhtorities - a list of the authorities in each EU Member State that deal with the sanctions. Each country links out to the specific website for that country.
-3. [TARIC Database](https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en) - an EU-wide customs tariff database that allows searching by goods code, origin and destination
+3. [TARIC Database](https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en) - an EU-wide customs tariff database that allows searching by goods code, origin and destination.
 4. Consolidated List of Travel Bans - a downloadable file with a list of persons subject, under EU sanctions, to travel restrictions. The file is regularly updated and offers a subscription to an email alert when a new version is added.
-5. [Consolidated List of Financial Sanctions](https://data.europa.eu/data/datasets/consolidated-list-of-persons-groups-and-entities-subject-to-eu-financial-sanctions?locale=en) - a list of persons, groups and entities subject to EU financial sanctions
+5. [Consolidated List of Financial Sanctions](https://data.europa.eu/data/datasets/consolidated-list-of-persons-groups-and-entities-subject-to-eu-financial-sanctions?locale=en) - a list of persons, groups and entities subject to EU financial sanctions.
 6. [EU Sanctions Tracker](https://data.europa.eu/apps/eusanctionstracker/) - A website geared more towards statitcists and data overtime. It has interactive overall charts, but also charts for each sanctioned country, entity or individual. It also provides the same information as the EU Sanctions Map but in a more interactive form. It also allows for data to be downloaded in a CSV format to be used later in custom-made charts.&#x20;
 
 ## Cost
