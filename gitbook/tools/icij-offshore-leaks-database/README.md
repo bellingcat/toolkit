@@ -63,7 +63,7 @@ For user convenience, the data is converted into multiple CSV files, providing t
 
 ### **The New Reconciliation API**
 
-A new[ Reconciliation API feature](https://www.icij.org/inside-icij/2025/01/explore-the-latest-tool-to-power-up-investigations-via-the-offshore-leaks-database/) allows users to match their datasets against the ICIJ database. It is funded by the German development agency Deutsche Gesellschaft für Internationale Zusammenarbeit. Users can use this API to[ match](https://www.icij.org/inside-icij/2025/01/explore-the-latest-tool-to-power-up-investigations-via-the-offshore-leaks-database/) “names, addresses and corporate entities” against the ICIJ’s database. ICIJ states, “The tool accelerates investigations by integrating external data sources.”&#x20;
+A new[ Reconciliation API feature](https://www.icij.org/inside-icij/2025/01/explore-the-latest-tool-to-power-up-investigations-via-the-offshore-leaks-database/) allows users to match their datasets against the ICIJ database. It is funded by the German development agency Deutsche Gesellschaft für Internationale Zusammenarbeit. Users can use this API to[ match](https://www.icij.org/inside-icij/2025/01/explore-the-latest-tool-to-power-up-investigations-via-the-offshore-leaks-database/) “names, addresses and corporate entities” against ICIJ’s database. ICIJ states, “The tool accelerates investigations by integrating external data sources.”&#x20;
 
 The supported API types are[ General API](https://offshoreleaks.icij.org/docs/reconciliation), Query API, Data Extension API, Suggest API, View API, Preview API, and Namespaced API. Explore each API’s function[ here](https://offshoreleaks.icij.org/docs/reconciliation). Users can watch this[ tutorial](https://www.youtube.com/watch?v=p2783xIcfdA) by ICIJ on how to use this new feature.
 
@@ -87,9 +87,9 @@ When using the dataset, you have to credit the International Consortium of Inves
 
 ## Limitations
 
-Not all names behind entities can appear in the dataset. "information about ownership is often buried in emails, power-of-attorney letters and internal notes and cannot easily be extracted in a systematic manner," [says](https://offshoreleaks.icij.org/pages/faq) ICIJ.
+Not all names behind entities will necessarily appear in the dataset: "information about ownership is often buried in emails, power-of-attorney letters and internal notes and cannot easily be extracted in a systematic manner," [says](https://offshoreleaks.icij.org/pages/faq) ICIJ.
 
-The data does not include personal information such as bank accounts, email exchanges, or financial transactions. Researchers seeking this type of information may need to use other OSINT tools or data sources.
+The data does not include personal information such as bank accounts, email exchanges, or financial transactions. Researchers seeking this type of information may need to use other open source research tools or data sources.
 
 ## Ethical Considerations
 
