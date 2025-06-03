@@ -2114,5 +2114,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "Mz6IjmFyuBXSxm0SOKCV",
+    "title": "Moz Link Explorer",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-03T11:31:13.824Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
