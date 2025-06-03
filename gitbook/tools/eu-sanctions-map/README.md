@@ -120,7 +120,7 @@ Personally Identifiable Information (PII) is sometimes visible in the entries fo
 
 ## Guides and articles
 
-EU Sanctions Map's [guidelines for users](https://www.sanctionsmap.eu/files/8kzts1vz52axv4yr8fjj0tpfg/help-e.pdf)
+EU Sanctions Map's [guidelines for users](https://www.sanctionsmap.eu/files/8kzts1vz52axv4yr8fjj0tpfg/help-e.pdf) (pdf)
 
 Thomson Reuters Practical Law - [Did you know? EU Sanctions Map for up to date information on restrictive measures](https://uk.practicallaw.thomsonreuters.com/w-038-9469?transitionType=Default\&contextData=%28sc.Default%29)
 
