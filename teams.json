@@ -2126,5 +2126,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "pVgb8MBlNVarDh4lqCnC",
+    "title": "Face Comparison ToolPie",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-03T11:42:09.276Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
