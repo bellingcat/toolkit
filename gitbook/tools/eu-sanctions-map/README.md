@@ -132,7 +132,7 @@ The European Commission (EC)
 
 ## Similar tools
 
-There are various tools for researching sanctions on the web. Bellingcat also has descriptions and guides on SanctionsExplorer, OpenSanctions and OCCRP Aleph. Although they serve the same purpose, there are some major differences among them:
+There are various tools for researching sanctions on the web. Bellingcat also has descriptions and guides on [SanctionsExplorer](https://bellingcat.gitbook.io/toolkit/more/all-tools/sanctionsexplorer), [OpenSanctions](https://bellingcat.gitbook.io/toolkit/more/all-tools/opensanctions) and [OCCRP Aleph](https://bellingcat.gitbook.io/toolkit/more/all-tools/occrp-aleph). Although they serve the same purpose, there are some major differences among them:
 
 <figure><img src=".gitbook/assets/Screenshot 2025-05-01 at 5.51.18 PM.png" alt=""><figcaption></figcaption></figure>
 
