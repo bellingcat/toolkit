@@ -2102,5 +2102,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "7AREPoMY0Hl1mGcXlZUu",
+    "title": "Geo Data Tool",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-03T11:20:36.612Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]

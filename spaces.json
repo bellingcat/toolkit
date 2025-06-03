@@ -6802,5 +6802,38 @@
       "merge": true,
       "review": true
     }
+  },
+  {
+    "object": "space",
+    "id": "w0RJhLBKHrXnq0LERm8u",
+    "title": "Geo Data Tool",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-06-03T11:20:36.249Z",
+    "updatedAt": "2025-06-03T11:20:36.249Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/w0RJhLBKHrXnq0LERm8u",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/w0RJhLBKHrXnq0LERm8u/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "5bC5CTTJMbNZprdKO3bG",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "viewInviteLinks": true,
+      "edit": true,
+      "triggerGitSync": true,
+      "comment": true,
+      "merge": true,
+      "review": true
+    }
   }
 ]
