@@ -2150,5 +2150,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "iZrCSpXbu0P2556ZZNvH",
+    "title": "Anytype",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-03T11:57:30.264Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
