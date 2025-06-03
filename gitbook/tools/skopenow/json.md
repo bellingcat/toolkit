@@ -7,17 +7,7 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Skopenow",
-  "tags": [
-    "facebook",
-    "twitter",
-    "linkedin",
-    "instagram",
-    "crunchbase",
-    "pinterest",
-    "multiple-networks"
-  ],
-  "description": "Social Media Investigations - name, phone, email, username searches"
+  "tags": []
 }
 ```
 {% endcode %}
