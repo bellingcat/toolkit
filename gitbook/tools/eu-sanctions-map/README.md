@@ -10,7 +10,7 @@ description: Database of sanctions imposed by the European Union
 
 ## Description
 
-The European Union uses sanctions as a tool under the Common Foreign and Security Policy (CFSP). The EU implements all sanctions adopted by the United Nations Security Council and these are a[utomatically transposed into EU law](https://www.eeas.europa.eu/eeas/sanctions-eu-adoption_en). The EU also applies additional measures to complement and reinforce UN sanctions, and adopts its own sanctions as the Union sees fit. This tool covers both EU and UN Sanctions on individuals, entities and countries.
+The European Union uses sanctions as a tool under the Common Foreign and Security Policy ([CFSP](https://fpi.ec.europa.eu/what-we-do/common-foreign-and-security-policy_en)). The EU implements all sanctions adopted by the United Nations Security Council and these are automatically[ transposed into EU law](https://www.eeas.europa.eu/eeas/sanctions-eu-adoption_en). The EU also applies additional measures to complement and reinforce UN sanctions, and adopts its own sanctions as the Union sees fit. This tool covers both EU and UN Sanctions on individuals, entities and countries.
 
 **Search the EU Sanctions Map**
 
