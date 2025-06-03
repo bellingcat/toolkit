@@ -2078,5 +2078,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "OyiLdXxZCL0FI2GoIrJN",
+    "title": "IDN Checker",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-03T11:03:01.656Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
