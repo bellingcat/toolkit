@@ -2054,5 +2054,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "HXDOX3RcizLd4YDd8M0n",
+    "title": "River Runner Global",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-03T10:21:37.693Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
