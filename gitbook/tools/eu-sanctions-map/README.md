@@ -35,7 +35,7 @@ Clicking on the List paperclip icon will take you to the lists of persons, entit
 <figure><img src=".gitbook/assets/EUSM6.png" alt=""><figcaption><p>A pop-up window with details on a sanctioned individual from Afghanistan.</p></figcaption></figure>
 
 * **Using the search bar** - here you can type any name of an entity/individual/country to see if there are any sanctions against them. The search works with Cyrillic and Latin script, but does not work with Arabic or Chinese for example. Such names are all transliterated in Latin script, so be mindful of variations of the names (e.g. Mohamed/ Mohammad/ Muhammad or Akund/Akhund).
-* **The more useful dropdown menu** at the top of the page - this is a quick way to filter the information. Filters include which governing body adopted the sanctions, the themes, the countries and the most usefull option - filter by type of sanction.
+* **The more useful dropdown menu** at the top of the page - this is a quick way to filter the information. Filters include which governing body adopted the sanctions, the themes, the countries and the most useful option - filter by type of sanction.
 
 <figure><img src=".gitbook/assets/eusm7.png" alt="" width="375"><figcaption><p>View of the top right corner filters on the website</p></figcaption></figure>
 
