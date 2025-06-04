@@ -2198,5 +2198,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "s9Kl5BnuQ9OJp6hsBpMJ",
+    "title": "WildMe & WildBook",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-04T12:32:47.302Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
