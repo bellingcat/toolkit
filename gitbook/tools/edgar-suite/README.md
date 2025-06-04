@@ -77,8 +77,6 @@ Despite [EDGAR](https://bellingcat.gitbook.io/toolkit/more/all-tools/edgar)’s 
 * In addition to the real-time search & RSS, the tool’s maintainers provide a **financial dataset** in `.csv` form. This dataset aims to unify official EDGAR numbers into consistent lines for each public company, making cross-company or time-series analysis more straightforward.
   * Great for generating quick historical charts (like net income trends) in Excel or Python.
 
-_(Inspired by the Bellingcat Tech Fellowship, it aims to make EDGAR’s **free** data more accessible to journalists, researchers, and OSINT analysts.)_
-
 ## Cost
 
 * [x] Free
