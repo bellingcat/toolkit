@@ -2162,5 +2162,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "mL0hNsdDomLvyThuIPKu",
+    "title": "BirdNet",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-04T12:00:56.586Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
