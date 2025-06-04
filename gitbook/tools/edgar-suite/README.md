@@ -15,11 +15,11 @@ description: >-
 
 ## EDGAR Database Overview
 
-**EDGAR** (Electronic Data Gathering, Analysis, and Retrieval) serves as the SEC’s public database of corporate filings. It includes both quantitative and qualitative data for legal entities that issue securities in the U.S. Accessible since the mid-1990s, EDGAR offers its data for free, rendering it a crucial resource for corporate OSINT, financial analysis, and investigative endeavors.
+[**EDGAR**](https://bellingcat.gitbook.io/toolkit/more/all-tools/edgar) (Electronic Data Gathering, Analysis, and Retrieval) serves as the SEC’s public database of corporate filings. It includes both quantitative and qualitative data for legal entities that issue securities in the U.S. Accessible since the mid-1990s, EDGAR offers its data for free, rendering it a crucial resource for corporate OSINT, financial analysis, and investigative endeavors.
 
 #### Why Use edgar-tool Instead of the EDGAR Website?
 
-Despite EDGAR’s utility, its **web interface** can be difficult to use for large-scale tasks or specialized queries (e.g., no simple batch downloading, no single RSS feed for multiple entities, etc.). **edgar-tool** overcomes these limitations by:
+Despite [EDGAR](https://bellingcat.gitbook.io/toolkit/more/all-tools/edgar)’s utility, its **web interface** can be difficult to use for large-scale tasks or specialized queries (e.g., no simple batch downloading, no single RSS feed for multiple entities, etc.). **edgar-tool** overcomes these limitations by:
 
 1. **Automating Search & Download**: Scrapes EDGAR in chunks, merges results, and exports them in `.csv` or `.jsonl`, avoiding repetitive manual page-by-page downloads.
 2. **Enabling Large-Scale Analysis**: The tool can handle thousands of filings, letting you run advanced queries (like tracking mentions of a keyword in multiple forms).
