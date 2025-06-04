@@ -1,6 +1,6 @@
 ---
 updated: '2025-06-04'
-description: Simple tool to help search for different ways of writing a name
+description: Simple tool to help search for different ways of writing a name.
 ---
 
 # Bellingcat Name Variant Search
