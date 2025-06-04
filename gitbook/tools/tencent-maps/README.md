@@ -78,7 +78,7 @@ If the researcher is an existing user of WeChat (international version) or Weixi
 
 ## Similar tools
 
-Researchers can compare results across the 3 Chinese mapping tools: Tencent Maps, Gaode Maps, and Baidu Maps. For researchers based outside of China, Tencent Maps might be the most challenging to use as street view is only available on the mobile app.&#x20;
+Researchers can compare results across the three Chinese mapping tools: Tencent Maps, [Gaode Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/gaode-maps), and [Baidu Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/baidu-maps). For researchers based outside of China, Tencent Maps might be the most challenging to use as street view is only available on the mobile app.&#x20;
 
 If researching business establishments or user perceptions of popular locations (e.g., transport hubs), the user-generated reviews in Tencent Maps and Gaode Maps tend to include many photos and long comments. Researchers should be aware that these may be heavily curated (e.g., [users are incentivized by marketing campaigns](https://www.theworldofchinese.com/2023/03/the-shady-world-of-chinese-online-reviews/) to generate content). Nonetheless, such user-generated content may be useful, for example where street view imagery is unavailable or outdated.&#x20;
 
