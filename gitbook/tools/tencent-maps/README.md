@@ -101,7 +101,7 @@ If researching business establishments or user perceptions of popular locations 
 
 <summary>More about APK</summary>
 
-APK, or Android Package Kit, refers to the core format which Android uses to distribute and install apps. The easiest way is simply to do a Google search for Tencent Maps apk. Please apply the usual security precautions when downloading software online.&#x20;
+APK, or Android Package Kit, refers to the core format which Android uses to distribute and install apps. The easiest way is simply to do a Google search for Tencent Maps apk (or in Chinese: 腾讯地图 apk). Please apply the usual security precautions when downloading software online.&#x20;
 
 </details>
 
