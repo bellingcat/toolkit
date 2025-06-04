@@ -12,6 +12,7 @@ const publishedTools = getTools().filter((tool) => inSummary(tool));
 Promise.all(publishedTools.map(function(tool) {
   return getUpdatedAt(tool).then(function(updatedAt) {
     if (!updatedAt) { return null; }
+    console.log(tool.filename, updatedAt);
 
     tool.frontmatter.updated = updatedAt;
     writeIfChanged(matter.stringify(tool.content, tool.frontmatter), tool.filepath);
