@@ -2210,5 +2210,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "DDTn78UDsvv7BM1C8vTs",
+    "title": "World Database Protected Areas",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-04T12:41:01.293Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
