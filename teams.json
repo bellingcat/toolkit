@@ -2186,5 +2186,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "aTFXDJKywgPN0A6j8peV",
+    "title": "Movebank",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-04T12:23:58.667Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
