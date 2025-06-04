@@ -84,6 +84,7 @@
   * [Equasis](tools/equasis/README.md)
   * [Etherscan](tools/etherscan/README.md)
   * [EU consolidated corporate registers](tools/eu-consolidated-corporate-registers/README.md)
+  * [EU Sanctions Map](tools/eu-sanctions-map/README.md)
   * [ExifTool](tools/exiftool/README.md)
   * [F4Map](tools/f4map/README.md)
   * [FaceCheck.ID](tools/facecheck.id/README.md)
