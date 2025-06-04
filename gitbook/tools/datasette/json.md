@@ -8,9 +8,6 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "draft": true,
-  "name": "Datasette",
-  "description": "A brief one-line description of the tool.",
-  "url": "https://example.com",
   "tags": []
 }
 ```
