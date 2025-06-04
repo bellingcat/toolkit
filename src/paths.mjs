@@ -22,6 +22,7 @@ function processMarkdownFile(filepath, filename, slug = []) {
     slug = [...slug, page];
   }
   return {
+    frontmatter: data,
     content,
     ...data,
     slug, title, filename, filepath, directory
