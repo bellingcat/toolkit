@@ -16,6 +16,12 @@ description: >-
 
 ShipFinder is an application designed to track vessels in (near) real-time across the globe. It has a map-based interactive interface which allows users to search for vessels based on location, name MMSI (Maritime Mobile Service Identities), destination, IMO (International Maritime Organisation) number or callsign.    &#x20;
 
+{% hint style="info" %}
+IMO numbers are unique, seven-digit tracking numbers assigned to ships and shipping companies by S\&P Global Market Intelligence on behalf of the International Maritime Organization. Unlike ship names and company names which can change, IMO numbers remain constant. More information about IMO numbers can be found on the [International Maritime Organization's website](https://www.imo.org/en/OurWork/IIIS/Pages/IMO-Identification-Number-Schemes.aspx).
+
+MMSI (Maritime Mobile Service Identities) numbers are nine-digit numbers used to uniquely identify ships in radio and AIS (Automatic Identification System) broadcasts. MMSI numbers are issued by the country a ship is flagged to and managed by the International Telecommunications Union. More information about MMSI numbers can be found on the [International Telecommunications Union's website](https://www.itu.int/en/ITU-R/terrestrial/Pages/by-categories-faq.aspx?categorizedby=17).
+{% endhint %}
+
 The map-based layout allows users to zoom in and out to view vessel locations in specific areas or worldwide. The search function enables users to quickly find and track specific ships or ports. Fleetfinder acquires informs its map through the collection of AIS (Automatic Identification System) data. This is broadcast over radiowaves by ships and then picked up by either ShipFinder's own receivers or those belonging to the platform's partners.&#x20;
 
 The app is available on both mobile and desktop platforms, ensuring users can monitor marine traffic from various devices.&#x20;
