@@ -109,7 +109,7 @@ APK, or Android Package Kit, refers to the core format which Android uses to dis
 
 * **Geographical restrictions to account registration and API access**: A QQ account is required for registering for API access. In order to register a QQ account, a Chinese phone number is needed. Given this, international users will find it difficult to create an account by which they can obtain API access keys. \
   \
-  (QQ is the consumer-interfacing brand name for Tencent's services. Similar to a Google users having a single sign-in for various Google services, in the Chinese internet, users have an overarching QQ account for accessing Tencent's online games, music, movies, microblogging, movies and other services.)&#x20;
+  QQ is the consumer-interfacing brand name for Tencent's services. Similar to Google users having a single sign-in for various Google services, in the Chinese internet, users have an overarching QQ account for accessing Tencent's online games, music, movies, microblogging, movies and other services.
 * **Maps only available for China**: Other countries appear blank.&#x20;
 * **Geoblock and access speeds**: [VPNs are banned in China](https://www.bbc.com/news/technology-30982198), and VPNs are blocked from loading Tencent Maps' web version. Also, due to [limited gateways for international internet traffic to interact with Chinese websites](https://www.thousandeyes.com/blog/deconstructing-great-firewall-china), overseas users may experience slower speeds and more frequent prompts to login — on both web and mobile.&#x20;
 * **Limited functionalities on web browser**: The app's more extensive features, including street view, are only available on the mobile app.&#x20;
