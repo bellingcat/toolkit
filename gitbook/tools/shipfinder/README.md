@@ -14,7 +14,7 @@ description: >-
 
 <figure><img src=".gitbook/assets/shipfinderinterface.JPG" alt=""><figcaption><p><strong>SHIPFINDER INTERFACE SHOWING VESSELS AROUND ISTANBUL, AND DETAILS OF A SELECTED VESSEL</strong></p></figcaption></figure>
 
-ShipFinder is an application designed to track vessels in (near) real-time across the globe. It has a map-based interactive interface which allows users to search for vessels based on location, name MMSI (Maritime Mobile Service Identities), destination, IMO (International Maritime Organisation) number or callsign.&#x20;
+ShipFinder is an application designed to track vessels in (near) real-time across the globe. It has a map-based interactive interface which allows users to search for vessels based on location, name MMSI (Maritime Mobile Service Identities), destination, IMO (International Maritime Organisation) number or callsign.    &#x20;
 
 The map-based layout allows users to zoom in and out to view vessel locations in specific areas or worldwide. The search function enables users to quickly find and track specific ships or ports. Fleetfinder acquires informs its map through the collection of AIS (Automatic Identification System) data. This is broadcast over radiowaves by ships and then picked up by either ShipFinder's own receivers or those belonging to the platform's partners.&#x20;
 
@@ -51,7 +51,7 @@ ShipFinder's online version does not require a user to sign up or input an email
 
 ## Limitations
 
-* **Advanced Features**: Compared to other maritime tracking apps, ShipFinder's online and free application versions might lack some advanced features like filtering options and comprehensive vessel databases that tools such as [MarineTraffic ](https://www.marinetraffic.com/en/ais/home/centerx:-5.8/centery:47.7/zoom:8)and [VesselFinder ](https://www.vesselfinder.com/)offer. Both alternatives also have access to a more compresensive AIS data network, displaying more of the ships that are in a given area. One advantage that ShipFinder offers over the alternatives is that it has no monthly fees, only a one-time purchase. This may make it more accessible for researchers that operate on a restricted budget.&#x20;
+* **Advanced Features**: Compared to other maritime tracking apps, ShipFinder's online and free application versions might lack some advanced features like filtering options and comprehensive vessel databases that tools such as [MarineTraffic](https://bellingcat.gitbook.io/toolkit/more/all-tools/marinetraffic) and [VesselFinder](https://bellingcat.gitbook.io/toolkit/more/all-tools/vesselfinder) offer. Both alternatives also have access to a more compresensive AIS data network, displaying more of the ships that are in a given area. One advantage that ShipFinder offers over the alternatives is that it has no monthly fees, only a one-time purchase. This may make it more accessible for researchers that operate on a restricted budget.&#x20;
 * **AIS Data**: ShipFinder's platform is based on AIS data. This means that if ships are broadcasting too far from a receiver that the platform has access to, it will be lacking data on that vessel. This can occur when a ship is too far from shore for a receiver to pick up its signals. It can also occur if the ship is in a remote area where ShipFinder does not have access to the data collected by a recieving station.&#x20;
 * **Subscription Costs**: The premium version of the app on the Apple Store, which offers additional features, currently [costs ](https://apps.apple.com/us/developer/pinkfroot-limited/id319726822)USD 4.99.&#x20;
 
