@@ -16,7 +16,7 @@ API documentation, [https://lbs.qq.com/service/webService/webServiceGuide/webSer
 
 Tencent Maps provides detailed maps, satellite imagery, street view, directions for driving, public transport and walking, and real-time traffic conditions. In Q1 2025, a Deepseek AI assistant was [piloted in the mobile app](https://www.thestandard.com.hk/market/article/70227/Tencent-shares-surge-as-DeepSeek-joins-WeChat) for users to ask for recommendations and real-time information.&#x20;
 
-In Tencent Maps, user-generated reviews and photos are integrated with [Dianping](https://www.dianping.com/), the Chinese equivalent of Yelp.&#x20;
+In Tencent Maps, user-generated reviews and photos are integrated with [Dianping](https://www.dianping.com/), the Chinese equivalent of Yelp which also offers food and daily products delivery.&#x20;
 
 ### Basic search: Map and satellite imagery
 
@@ -70,11 +70,13 @@ Two limitations to be aware of:&#x20;
 1. Be aware that street views may be outdated, restricted or unavailable. In such cases, there may be glitches.&#x20;
 2. Metadata such as the date of image capture or the approval reference are not available.&#x20;
 
-In fact, due to a [2021 merger between Tencent and Sogou](https://www.techinasia.com/tencent-completes-merger-chinese-search-engine-sogou), older street view imagery captured by SOSO Maps was integrated into Tencent Maps. (SOSO Maps, now defunct was previously a subsidiary of Sogou.) Tencent Maps users still often see SOSO Maps' vehicles in the street view imagery (as shown above), indicating that the image was taken some time before the merger.&#x20;
+Due to a [2021 merger between Tencent and Sogou](https://www.techinasia.com/tencent-completes-merger-chinese-search-engine-sogou), older street view imagery captured by SOSO Maps was integrated into Tencent Maps. (SOSO Maps, now defunct, was formerly a subsidiary of Sogou.) Tencent Maps users still often see SOSO Maps' vehicles in the street view imagery (as shown above), indicating that the image was taken some time before the merger.&#x20;
 
-### Similar tools
+## Similar tools
 
+Researchers using Tencent Maps can compare the results with Baidu Maps and Gaode Maps, as well as Google Maps.&#x20;
 
+If researching business establishments in China or user perceptions of popular locations (e.g., transport hubs), the user-generated reviews in Tencent Maps and Gaode Maps tend to include many photos and long comments. Researchers should be aware that these may be heavily curated (e.g., [users are incentivized by marketing campaigns](https://www.theworldofchinese.com/2023/03/the-shady-world-of-chinese-online-reviews/) to generate content). Nonetheless, such user-generated content may be useful, for example where street view imagery is unavailable or outdated.&#x20;
 
 ## Cost
 
@@ -93,7 +95,7 @@ In fact, due to a [2021 merger between Tencent and Sogou](https://www.techinasia
 
 <details>
 
-<summary>What is APK? </summary>
+<summary>More about APK</summary>
 
 APK, or Android Package Kit, refers to the core format which Android uses to distribute and install apps. The easiest way is simply to do a Google search for Tencent Maps apk. Please apply the usual security precautions when downloading software online.&#x20;
 
