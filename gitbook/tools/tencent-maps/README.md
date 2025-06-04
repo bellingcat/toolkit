@@ -72,11 +72,15 @@ Two limitations to be aware of:&#x20;
 
 Due to a [2021 merger between Tencent and Sogou](https://www.techinasia.com/tencent-completes-merger-chinese-search-engine-sogou), older street view imagery captured by SOSO Maps was integrated into Tencent Maps. (SOSO Maps, now defunct, was formerly a subsidiary of Sogou.) Tencent Maps users still often see SOSO Maps' vehicles in the street view imagery (as shown above), indicating that the image was taken some time before the merger.&#x20;
 
+### Lite version in WeChat
+
+If the researcher is an existing user of WeChat (international version) or Weixin (China-only version), a lite version of Tencent Maps is available as a [mini program](https://walkthechat.com/wechat-mini-programs-simple-introduction/). For general consumers, the mini program offers conveniences in navigation, ride sharing, and location sharing. However, for the purpose of research it has limited functionality: the mini program does not support extracting coordinates and does not show street view.&#x20;
+
 ## Similar tools
 
-Researchers using Tencent Maps can compare the results with Baidu Maps and Gaode Maps, as well as Google Maps.&#x20;
+Researchers can compare results across the 3 Chinese mapping tools: Tencent Maps, Gaode Maps, and Baidu Maps. For researchers based outside of China, Tencent Maps might be the most challenging to use as street view is only available on the mobile app.&#x20;
 
-If researching business establishments in China or user perceptions of popular locations (e.g., transport hubs), the user-generated reviews in Tencent Maps and Gaode Maps tend to include many photos and long comments. Researchers should be aware that these may be heavily curated (e.g., [users are incentivized by marketing campaigns](https://www.theworldofchinese.com/2023/03/the-shady-world-of-chinese-online-reviews/) to generate content). Nonetheless, such user-generated content may be useful, for example where street view imagery is unavailable or outdated.&#x20;
+If researching business establishments or user perceptions of popular locations (e.g., transport hubs), the user-generated reviews in Tencent Maps and Gaode Maps tend to include many photos and long comments. Researchers should be aware that these may be heavily curated (e.g., [users are incentivized by marketing campaigns](https://www.theworldofchinese.com/2023/03/the-shady-world-of-chinese-online-reviews/) to generate content). Nonetheless, such user-generated content may be useful, for example where street view imagery is unavailable or outdated.&#x20;
 
 ## Cost
 
