@@ -14,7 +14,7 @@ description: >-
 
 <figure><img src=".gitbook/assets/shipfinderinterface.JPG" alt=""><figcaption><p><strong>SHIPFINDER INTERFACE SHOWING VESSELS AROUND ISTANBUL, AND DETAILS OF A SELECTED VESSEL</strong></p></figcaption></figure>
 
-ShipFinder is an application designed to track vessels in (near) real-time across the globe. It has a map-based interactive interface which allows users to search for vessels based on location, name MMSI (Maritime Mobile Service Identities), destination, IMO (International Maritime Organisation) number or callsign.    &#x20;
+ShipFinder is an application designed to track vessels in near real-time across the globe. It has a map-based interactive interface which allows users to search for vessels based on location, name MMSI (Maritime Mobile Service Identities), destination, IMO (International Maritime Organisation) number or callsign.    &#x20;
 
 {% hint style="info" %}
 IMO numbers are unique, seven-digit tracking numbers assigned to ships and shipping companies by S\&P Global Market Intelligence on behalf of the International Maritime Organization. Unlike ship names and company names which can change, IMO numbers remain constant. More information about IMO numbers can be found on the [International Maritime Organization's website](https://www.imo.org/en/OurWork/IIIS/Pages/IMO-Identification-Number-Schemes.aspx).
