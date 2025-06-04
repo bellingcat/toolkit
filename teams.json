@@ -2174,5 +2174,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "sliq1Huxo1NVhkXsV4g0",
+    "title": "Copernicus Atmosphere Monitoring Service",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-04T12:15:29.366Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
