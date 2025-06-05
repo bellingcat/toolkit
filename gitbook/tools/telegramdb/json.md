@@ -7,7 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "url": "https://telegramdb.org",
   "tags": [
     "search-engine",
     "osint",
