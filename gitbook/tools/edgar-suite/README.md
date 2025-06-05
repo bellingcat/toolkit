@@ -2,6 +2,7 @@
 description: >-
   Tool for the retrieval of corporate and financial data from SEC's EDGAR
   (Electronic Data Gathering, Analysis, and Retrieval) database.
+updated: '2025-06-04'
 ---
 
 # EDGAR Command Line Interface (edgar-tool)
