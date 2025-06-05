@@ -7,14 +7,7 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Gaode Maps",
-  "url": "https://gaode.com/",
-  "description": "Popular mapping service in mainland China. When it comes to navigation for drivers and individuals using public transportation, Gaode Maps seems to be a better job than Baidu Maps.",
-  "cost": "Free",
-  "tags": [
-    "maps-and-satellites",
-    "maps"
-  ],
+  "tags": [],
   "publishedAt": 1748253738589
 }
 ```

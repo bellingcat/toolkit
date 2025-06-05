@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-Main site: [www.amap.com](./#url), or [www.gaode.com](./#url)
+Main site: [www.amap.com](https://amap.com), or [www.gaode.com](https://gaode.com)
 
 API docs: [lbs.amap.com/api](https://lbs.amap.com/api)
 
