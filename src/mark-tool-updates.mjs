@@ -26,7 +26,6 @@ async function getUpdatedAt(tool) {
   // search git history for commits starting with GITBOOK-tool-slug-{number}: 
   // and find the most recent commit date
   const cmd = `git log --since="1 day ago" --grep="GITBOOK-${tool.filename}-\d" --format=%cd --date=short | head -n 1`;
-  console.log(cmd);
   const { stdout, stderr } = await exec(cmd);
   if (stderr) {
     console.error(stderr);

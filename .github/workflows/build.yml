@@ -20,6 +20,9 @@ jobs:
       - name: Validate and format JSON
         run: node src/lint-json.mjs
 
+      - name: Mark tool updates
+        run: node src/mark-tool-updates.mjs
+
       - name: Run node script to update categories
         run: |
           node src/categories.mjs
