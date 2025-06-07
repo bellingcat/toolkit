@@ -2246,5 +2246,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "CFYUGYWygZlitG8diIea",
+    "title": "ThatsThem",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-07T17:11:55.410Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
