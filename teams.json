@@ -2258,5 +2258,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "fAYZjYAk61vy9NiRWdwJ",
+    "title": "Nuwber",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-07T17:20:05.884Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
