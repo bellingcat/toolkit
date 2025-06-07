@@ -2222,5 +2222,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "QrfPqtMQNQwwiGfSc025",
+    "title": "FOIA requests search tools",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-07T16:46:57.403Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
