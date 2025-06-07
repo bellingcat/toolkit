@@ -2234,5 +2234,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "b4oq4RX89Pi7MK2BcIYE",
+    "title": "Webmii",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-07T17:01:55.666Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
