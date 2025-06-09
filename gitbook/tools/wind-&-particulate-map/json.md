@@ -7,13 +7,7 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Wind & Particulate Map",
-  "url": "https://earth.nullschool.net/#current/particulates/surface/level/overlay=pm2.5/orthographic=-28.21,30.66,553",
-  "description": "Map that visualizes wind, particulaes, and other data",
-  "cost": "Free",
-  "details": "",
   "tags": [
-    "environment-and-wildlife"
   ]
 }
 ```
