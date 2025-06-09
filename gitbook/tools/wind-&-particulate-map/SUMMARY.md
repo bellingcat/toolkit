@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Wind & Particulate Map](README.md)
+* [Nullschool Earth Map](README.md)
 * [Categories](categories.md)
