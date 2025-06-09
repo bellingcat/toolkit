@@ -2270,5 +2270,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "CpkiJcvv67M4DOFHWwTr",
+    "title": "Resource Watch",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-09T15:33:06.695Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
