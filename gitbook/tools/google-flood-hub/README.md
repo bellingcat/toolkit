@@ -32,7 +32,7 @@ Additionally, you can chose to see lower confidence gauges that do not meet Goog
 
 Inundation probability show the areas likely to be submerged under water during a flood. Please be advised that this metric is not supported for all gauges (sometimes the Google model may not have shown clear inundation patterns. In these regions we decide to only share the hydrologic information).&#x20;
 
-Inundation history shows the frequency of inundation in the past. This helps identifying higher risk areas based on historical records. The different levels do not show how deep the water was, but how often the are was under water. According to Google's documentation, this layer has limitations and "does not extend to the extreme northern or southern points." It is restricted to the following latitudes and longitudes:
+Inundation history shows the frequency of inundation in the past. This helps identifying higher risk areas based on historical records. The different levels do not show how deep the water was, but how often the area was under water. According to Google's documentation, this layer has limitations and "does not extend to the extreme northern or southern points." It is restricted to the following latitudes and longitudes:
 
 * **Minimum latitude:** -39.0
 * **Minimum longitude:** -125.0
