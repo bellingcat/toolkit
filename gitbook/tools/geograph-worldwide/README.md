@@ -1,16 +1,50 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  Geograph is a website that attempts to create a comprehensive collection of
+  photographs of every part of given region
 ---
 
 # Geograph Worldwide
 
 ## URL
 
-https://example.com
+[https://www.geograph.org/](https://www.geograph.org/)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Geograph is a concept and [open source code](https://www.geograph.org/developers.php) for a online website to create a comprehensive collection of photographs capturing every part of given region.
+
+Currently there are three [active projects](https://www.geograph.org/projects.php), shown below - including a photograph from each.
+
+Britain and Ireland, Germany and the Channel Islands
+
+
+
+
+
+Geograph is a project dedicated to collecting and sharing geographically representative photographs of every square kilometer in the British Isles.
+
+## Description
+
+Geograph is a project that aims to collect geographically representative photographs and information for every square kilometer of the British Isles. The site provides a comprehensive and searchable collection of images, allowing users to explore different locations through visual documentation. It solves the problem of geographically contextualizing locations with real photographic evidence.
+
+Example use case: A geography teacher can use Geograph to show students real pictures of various landscapes across the British Isles, enhancing their understanding of geographical diversity.
+
+
+
+## Additional Features
+
+* Users can search for photographs by location or keywords.
+* The website provides detailed maps to help locate images geographically.
+* Contributors can track their contributions and earn points based on their activity.
+
+## Conclusion
+
+Geograph is an invaluable resource for anyone interested in the geographical and cultural diversity of Great Britain and Ireland. Whether you're looking to contribute to this growing repository or simply explore the rich collection of images, Geograph provides a unique way to understand and appreciate these regions.
+
+**Features**
+
+
 
 ## Cost
 
@@ -18,15 +52,16 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+* Web: any modern web browser.
+* contributing photos - email address to set up an account
+
+
 
 ## Limitations
 
@@ -38,11 +73,31 @@ https://example.com
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+
+
+**Official Wiki**
+
+[https://www.geograph.org.uk/content/documentation.php](https://www.geograph.org.uk/content/documentation.php)
+
+
+
+[**https://github.com/geograph-project/**](https://github.com/geograph-project/)
+
+**Video**
+
+* _Geograph Britain and Ireland - Intro_ (2024). Available at: [https://www.youtube.com/watch?v=Y6QNJDEQ58Y](https://www.youtube.com/watch?v=Y6QNJDEQ58Y) (Accessed: 8 September 2024).
+
+
+
+
+
+[https://www.geograph.org.uk/contact.php](https://www.geograph.org.uk/contact.php)
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Geograph Project Limited [https://www.geograph.org.uk/](https://www.geograph.org.uk/) - United Kingdom
+
+It is a not-for-profit company, limited by guarantee, whose objects are educational in the broadest sense. The company is registered in England and Wales, number 7473967 with its registered office at Dept 1706, 43 Owston Road, Carcroft, Doncaster, South Yorkshire. DN6 8DA. Geograph Project Limited is a charity registered in England and Wales, number 1145621.
 
 ## Advertising Trackers
 
@@ -50,8 +105,7 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer                      |
+| ------------------------------------ |
+| Bellingcat volunteer team/Unassigned |
+|                                      |
