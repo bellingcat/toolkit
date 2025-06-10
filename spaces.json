@@ -7297,5 +7297,38 @@
       "merge": true,
       "review": true
     }
+  },
+  {
+    "object": "space",
+    "id": "n63YY5BfEgyTdePnlGpj",
+    "title": "Social Searcher",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-06-10T15:12:12.931Z",
+    "updatedAt": "2025-06-10T15:12:12.931Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/n63YY5BfEgyTdePnlGpj",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/n63YY5BfEgyTdePnlGpj/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "PqxYz2EHtVJzRx91CX0N",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "viewInviteLinks": true,
+      "edit": true,
+      "triggerGitSync": true,
+      "comment": true,
+      "merge": true,
+      "review": true
+    }
   }
 ]

@@ -2282,5 +2282,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "ErNjYgvO3JqJL7R0VPwD",
+    "title": "Social Searcher",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-10T15:12:13.409Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
