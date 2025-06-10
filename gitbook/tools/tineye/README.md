@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-TinEye can help a user locate the original source of an image, locate related images and locate other places where the image may be found on the internet, including whether the image is a stock photo. This [tutorial](https://www.youtube.com/watch?v=dKQZEXdyVjk) from the University of Glasgow Library provides a basic overview of how to perform a basic reverse image search with the tool.
+TinEye can help a user locate the original source of an image, locate related images and locate other places where the image may be found on the internet, including whether the image is a stock photo. Users may use TinEye to verify images or track where images appear online. This [tutorial](https://www.youtube.com/watch?v=dKQZEXdyVjk) from the University of Glasgow Library provides a basic overview of how to perform a basic reverse image search with the tool.
 
 ## Cost
 
