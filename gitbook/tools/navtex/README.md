@@ -20,7 +20,7 @@ Messages are standardized and use a specific format that includes a header with 
 
 The navtex.net homepage also includes a guide on how to read the standardised format that the messages are written in.
 
-#### Key Features of NAVTEX
+#### This is how NAVTEX works:
 
 1. **Frequency and Range**:
    * NAVTEX broadcasts on the MF frequency of 518 kHz in English, which is the primary frequency for international broadcasts.
