@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-NAVTEX (Navigational Telex) is an international automated medium frequency direct-printing service used for broadcasting maritime safety information. It provides vital navigational and meteorological warnings, forecasts, and urgent maritime safety information to ships. NAVTEX operates under the Global Maritime Distress and Safety System (GMDSS) and is a key component of ensuring safe navigation at sea. Navtex.net is an archive that dates back to December 2012 and which records all NAVTEX broadcasts.   &#x20;
+NAVTEX (Navigational Telex) is an international automated medium frequency direct-printing service used for broadcasting maritime safety information. It provides vital navigational and meteorological warnings, forecasts, and urgent maritime safety information to ships. NAVTEX operates under the [Global Maritime Distress and Safety System (GMDSS)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/maritime-mobile/ship-radio-stations/global-maritime) and is a key component of ensuring safe navigation at sea. Navtex.net is an archive that dates back to December 2012 and which records all NAVTEX broadcasts.   &#x20;
 
 #### Key Features of NAVTEX
 
