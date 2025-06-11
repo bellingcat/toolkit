@@ -35,10 +35,6 @@ The app is available on both mobile and desktop platforms, ensuring users can mo
 5. [**Spotting Community**](https://my.pinkfroot.com/): The app also has an accompanying community page where members can post pictures of ships that they have spotted. These are often searchable by name or MMSI number.&#x20;
 6. **Customizable Alerts**: Paid users of the app can set up personalized alerts for specific vessels or areas. This feature keeps users informed about significant events, such as a ship's arrival at a port or changes in its route.
 
-**Performance**
-
-The app's performance has minimal lag even when tracking multiple vessels simultaneously.
-
 ## Cost
 
 * [ ] Free
