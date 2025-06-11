@@ -55,7 +55,9 @@ NAVTEX plays a critical role in maritime safety by ensuring that ships have acce
 
 ## Limitations
 
-The website appears to have gone some time without being updated, this may result in slow or unintuitive features as well as unexpected errors. In addition, the NAVTEX archive data pieces are stored in individual .txt files, which may make them difficult to search through.&#x20;
+The website appears to have gone some time without being updated. For instance, no new blog post has been added during the last decade. However, the [Navtex archive](https://www.navtex.net/navtex-archive.html) seems to be up to date, it ranges from 2012 to this year.
+
+The NAVTEX archive data pieces are stored in individual .txt files, which may make them difficult to search through.&#x20;
 
 ## Ethical Considerations
 
