@@ -25,7 +25,7 @@ The navtex.net homepage also includes a guide on how to read the standardised fo
 #### This is how NAVTEX works:
 
 1. **Automated Reception**:
-   * Ships equipped with NAVTEX receivers can automatically receive and display messages. The receivers are designed to automatically reject duplicate messages and messages not intended for the ship’s current area, reducing the risk of information overload.
+   * Ships equipped with NAVTEX receivers can automatically receive and display messages. The automated nature of NAVTEX allows for continuous reception of important messages without requiring manual intervention. The receivers are designed to automatically reject duplicate messages and messages not intended for the ship’s current area, reducing the risk of information overload.
    * Ships are required to have NAVTEX receivers as part of their GMDSS equipment, especially if they operate in coastal areas. These receivers are designed to be highly reliable, operating continuously to ensure that no critical information is missed.
 2. **Frequency and Range**:
    * NAVTEX broadcasts on the MF frequency of 518 kHz in English, which is the primary frequency for international broadcasts.
@@ -35,9 +35,9 @@ The navtex.net homepage also includes a guide on how to read the standardised fo
 
 * NAVTEX messages are broadcast at regular intervals, typically every four hours, ensuring that ships receive timely updates.
 
-#### Importance in Maritime Safety
 
-NAVTEX plays a critical role in maritime safety by ensuring that ships have access to up-to-date safety information regardless of their location. The automated nature of NAVTEX allows for continuous reception of important messages without requiring manual intervention, making it an essential tool for the safety of life at sea.
+
+
 
 ## Cost
 
