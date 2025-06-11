@@ -22,7 +22,7 @@ IMO numbers are unique, seven-digit tracking numbers assigned to ships and shipp
 MMSI (Maritime Mobile Service Identities) numbers are nine-digit numbers used to uniquely identify ships in radio and AIS (Automatic Identification System) broadcasts. MMSI numbers are issued by the country a ship is flagged to and managed by the International Telecommunications Union. More information about MMSI numbers can be found on the [International Telecommunications Union's website](https://www.itu.int/en/ITU-R/terrestrial/Pages/by-categories-faq.aspx?categorizedby=17).
 {% endhint %}
 
-The map-based layout allows users to zoom in and out to view vessel locations in specific areas or worldwide. The search function enables users to quickly find and track specific ships or ports. ShipFinder informs its map through the collection of [AIS](https://app.gitbook.com/s/zTseAuK8omzvmNw475qA/) (Automatic Identification System) data. This is broadcast over radiowaves by ships and then picked up by either ShipFinder's own receivers or those belonging to the platform's partners.&#x20;
+The map-based layout allows users to zoom in and out to view vessel locations in specific areas or worldwide. The search function enables users to quickly find and track specific ships or ports. ShipFinder informs its map through the collection of [AIS](https://shipping.nato.int/nsc/operations/news/2021/ais-automatic-identification-system-overview) (Automatic Identification System) data. This is broadcast over radiowaves by ships and then picked up by either ShipFinder's own receivers or those belonging to the platform's partners.&#x20;
 
 The app is available on both mobile and desktop platforms, ensuring users can monitor marine traffic from various devices.&#x20;
 
@@ -52,8 +52,6 @@ The browser-based version of ShipFinder is free. However, its mobile application
 ShipFinder's online version does not require a user to sign up or input an email address. However, the applications on android and apple devices will require an account in their respective stores to download ShipFinder.
 
 ## Limitations
-
-
 
 * **AIS Data**: ShipFinder's platform is based on [AIS](https://app.gitbook.com/s/y4PuseOaDGmxp1otYeL9/) data. This means that if ships are broadcasting too far from a receiver that the platform has access to, it will be lacking data on that vessel. This can occur when a ship is too far from shore for a receiver to pick up its signals. It can also occur if the ship is in a remote area where ShipFinder does not have access to the data collected by a recieving station.&#x20;
 * **Subscription Costs**: The premium version of the app on the Apple Store, which offers additional features, currently [costs ](https://apps.apple.com/us/developer/pinkfroot-limited/id319726822)USD 4.99.&#x20;
