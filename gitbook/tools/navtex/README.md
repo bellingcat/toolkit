@@ -14,6 +14,12 @@ description: >-
 
 NAVTEX (Navigational Telex) is an international automated medium frequency direct-printing service used for broadcasting maritime safety information. It provides vital navigational and meteorological warnings, forecasts, and urgent maritime safety information to ships. NAVTEX operates under the [Global Maritime Distress and Safety System (GMDSS)](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/maritime-mobile/ship-radio-stations/global-maritime) and is a key component of ensuring safe navigation at sea. Navtex.net is an [archive](https://www.navtex.net/navtex-archive.html) that dates back to December 2012 and which records all NAVTEX broadcasts.   &#x20;
 
+NAVTEX messages include navigational warnings (such as changes to navigational aids, new hazards, and construction), meteorological warnings (weather forecasts and warnings), search and rescue information, and other urgent safety information.
+
+Messages are standardized and use a specific format that includes a header with identifiers for the transmitting station, message type, and a unique identifier to prevent duplication.
+
+The navtex.net homepage also includes a guide on how to read the standardised format that the messages are written in.
+
 #### Key Features of NAVTEX
 
 1. **Frequency and Range**:
@@ -22,13 +28,9 @@ NAVTEX (Navigational Telex) is an international automated medium frequency direc
    * The service has a typical range of about 200-400 nautical miles from the transmitter, depending on the location and conditions.
 2. **Automated Reception**:
    * Ships equipped with NAVTEX receivers can automatically receive and display messages. The receivers are designed to automatically reject duplicate messages and messages not intended for the ship’s current area, reducing the risk of information overload.
-3. **Message Content**:
-   * NAVTEX messages include navigational warnings (such as changes to navigational aids, new hazards, and construction), meteorological warnings (weather forecasts and warnings), search and rescue information, and other urgent safety information.
-4. **Standardized Format**:
-   * Messages are standardized and use a specific format that includes a header with identifiers for the transmitting station, message type, and a unique identifier to prevent duplication.
-   * The navtex.net homepage also includes a guide on how to read the standardised format that the messages are written in.
-5. **Scheduled Broadcasts**:
-   * NAVTEX messages are broadcast at regular intervals, typically every four hours, ensuring that ships receive timely updates.
+3. **Scheduled Broadcasts**:
+
+* NAVTEX messages are broadcast at regular intervals, typically every four hours, ensuring that ships receive timely updates.
 
 #### Importance in Maritime Safety
 
