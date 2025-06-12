@@ -7,9 +7,9 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "draft": true,
   "name": "ShipFinder",
-  "tags": []
+  "tags": [],
+  "publishedAt": 1749717601081
 }
 ```
 {% endcode %}
