@@ -7330,5 +7330,38 @@
       "merge": true,
       "review": true
     }
+  },
+  {
+    "object": "space",
+    "id": "mc7708sRFb1N97B2ipXx",
+    "title": "Tianyancha",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-06-12T09:17:07.569Z",
+    "updatedAt": "2025-06-12T09:17:07.569Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/mc7708sRFb1N97B2ipXx",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/mc7708sRFb1N97B2ipXx/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "Z9QwfqCJyUq6gHhbTzn9",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "viewInviteLinks": true,
+      "edit": true,
+      "triggerGitSync": true,
+      "comment": true,
+      "merge": true,
+      "review": true
+    }
   }
 ]

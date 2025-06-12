@@ -2294,5 +2294,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "Q0ZTyPqeG7y99T2OgnNG",
+    "title": "Tianyancha",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-12T09:17:07.897Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
