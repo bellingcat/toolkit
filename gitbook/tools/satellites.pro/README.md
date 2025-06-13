@@ -23,7 +23,9 @@ The tool allows open source researchers to easily switch between maps and imager
 
 Windows users can access Apple Maps via satellites.pro which was not easily possible before the launch of Apple Maps on the web in July 2024.
 
-The tool also lets you measure distance, calculate distance between start and end points and see the current weather at a location.
+The tool has a plan view (flat map) and a satellite view (high resolution) as well as a zoom option. You can measure distance, calculate distance between start and end points for (car, bus, pedestrian, cyclist, train and taxi) and see the current weather at a location.
+
+You also have the various options with each dedicated map selected (Apple Maps, OpenStreet Map, Google Maps and Yandex Maps).
 
 The example below shows a search for _Amsterdam_ using Apple Maps:
 
