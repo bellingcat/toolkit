@@ -63,7 +63,10 @@ Geograph is an invaluable resource for anyone interested in the geographical and
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+Geograph has the following limitations:
+
+* **Only 3 Regions:** Britain and Ireland, Germany and the Channel Islands are the only regions and countries that are included. Some have better coverage than others and there is no information available for other countries.
+* **Resolution and Detail**: Image resolution varies across different regions and services, with some areas having older images and maybe less detailed and clear.&#x20;
 
 ## Ethical Considerations
 
