@@ -10,7 +10,9 @@ description: Browser extension for simple web scraping, with table output
 
 ## Description
 
-Instant Data Scraper is a browser plug-in that works with Microsoft Edge or Chrome based browsers. It allows users to scrape data from a web page, across pages, or with a dynamic crawl for lists that do not load in their entirety, and exports the results as a file into a .csv or .xlsx file to your local storage, without the need to understand how to code. The tool also allows you to choose which table on a page is being scraped.
+Instant Data Scraper extracts data from web pages and exports it as Excel or CSV files. It is an automated data extraction tool for any website. It uses AI to predict which data is most relevant on a HTML page and allows saving it to Excel or CSV file (XLS, XLSX, CSV).
+
+This tool does not require website specific scripts, instead it uses heuristic AI analysis of HTML structure to detect data for extraction. If the prediction is not satisfactory, it lets the user customise the selections for greater accuracy. This type of scraping technology is much more convenient, because it does not require large user created libraries of scraping scripts, which often become filled with outdated and redundant versions. This means that our scraping method works just as well with small and lesser known websites, as it does with global giants like Amazon. Also, our users do not need to have any coding, json or xml skills!
 
 ## Cost
 
