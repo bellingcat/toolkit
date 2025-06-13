@@ -67,7 +67,11 @@ Geograph is an invaluable resource for anyone interested in the geographical and
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Geograph like any other geolocation tool, presents several ethical considerations:
+
+* **Privacy Concerns**: Collecting and storing geolocation data and photos can lead to privacy breaches. It's essential to ensure that users are informed and give explicit consent.
+* **Bias and Discrimination**: Avoid using geolocation data in ways that could lead to discriminatory practices or biases.
+* **Anonymization**: Where possible, anonymize geolocation data to protect the identities of the individuals involved.
 
 ## Guides and articles
 
@@ -103,7 +107,7 @@ It is a not-for-profit company, limited by guarantee, whose objects are educatio
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat volunteer Paul |
-|                           |
+| Page maintainer                       |
+| ------------------------------------- |
+| Paul - Bellingcat Volunteer Community |
+|                                       |
