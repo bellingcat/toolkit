@@ -1,7 +1,7 @@
 ---
 description: >-
   Geograph is a website that attempts to create a comprehensive collection of
-  photographs of every part of given region
+  photographs of every part of given region.
 ---
 
 # Geograph Worldwide
@@ -12,17 +12,15 @@ description: >-
 
 ## Description
 
-Geograph is a concept and [open source code](https://www.geograph.org/developers.php) for a online website to create a comprehensive collection of photographs capturing every part of given region.
+Geograph is a community project concept and [open source code](https://www.geograph.org.uk/article/Geograph-for-Developers) for an online website to create a comprehensive collection of photographs capturing every part of a given region.
 
-Currently there are three [active projects](https://www.geograph.org/projects.php), shown below - including a photograph from each.
+Currently there are three [active projects](https://www.geograph.org/projects.php), built on the Geograph Concept of collecting photos by 1km grid square.
 
-Britain and Ireland, Germany and the Channel Islands
-
-
+Britain and Ireland, Germany and the Channel Islands.
 
 
 
-Geograph is a project dedicated to collecting and sharing geographically representative photographs of every square kilometer in the British Isles.
+
 
 ## Description
 
@@ -105,7 +103,7 @@ It is a not-for-profit company, limited by guarantee, whose objects are educatio
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat volunteer team/Unassigned |
-|                                      |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat volunteer Paul |
+|                           |
