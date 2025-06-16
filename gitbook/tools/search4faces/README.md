@@ -29,7 +29,7 @@ A search for a Donald Trump picture selecting the VK and Odnoassniki avatars col
 
 <figure><img src=".gitbook/assets/Screenshot 2025-06-16 at 19.06.43.png" alt=""><figcaption><p>The results include a probability score indicating how likely it is according to the tool that the picture shows the same person as the picture uploaded by the user. It also provides a name for the person but this name can be wrong (for instance if someone added a picture of Donald Trump to their social media account).</p></figcaption></figure>
 
-By clicking on any of the photos in the results list, users are directly brought to the social media profile that featured the picture. Keep in mind that the Search4face database is not updated on a regular basis. VK or Odnoklassniki accounts might have changed their avatar or might have been deleted in the meantime.
+By clicking on any of the photos in the results list, users are directly brought to the social media profile that featured the picture. Keep in mind that the Search4face database is not updated on a regular basis. VK or Odnoklassniki accounts might have changed their avatar or the accounts might have been deleted in the meantime.
 
 ## Cost
 
