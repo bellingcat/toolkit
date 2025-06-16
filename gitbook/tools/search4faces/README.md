@@ -21,9 +21,15 @@ description: >-
 
 The tool also has a search feature for recognizing celebrities which - [according to the tool provider](https://web.archive.org/web/20250616164148/https://search4faces.com/index.html) - is based on Wikipedia and[ IMDb](https://en.wikipedia.org/wiki/IMDb) data.&#x20;
 
-The site is available in Russian and English. To start a search, users first need to choose a collection and they can then upload the picture of a person of interest.&#x20;
+The site is available in Russian and English. To start a search, users first need to choose a collection. They can then upload the picture of a person of interest.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2025-06-16 at 18.09.44.png" alt=""><figcaption><p>A sample search within the "Avatar of Tiktok users" database. It is possible (but not required) to specify the gender, country, city or age of people of interest before starting a search.</p></figcaption></figure>
+
+A search for a Donald Trump picture selecting the Vkontakte and Odnoassniki collection, for example, brought up various pictures that are currently being used of have been used by Vkontakte users:
+
+<figure><img src=".gitbook/assets/Screenshot 2025-06-16 at 19.06.43.png" alt=""><figcaption></figcaption></figure>
+
+Clicking on any of the pictures, will bring&#x20;
 
 ## Cost
 
