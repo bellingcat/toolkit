@@ -10,7 +10,7 @@ description: A tool that allows forensic analysis of images.
 
 ## Description
 
-Image Verification Assistant allows users to detect manipulations in images. The tool uses multiple image tampering detection algorithms, and provides features such as an in-depth metadata analysis of an image.
+The Image Verification Assistant can help users detect manipulations in images. The tool uses multiple image tampering detection algorithms, and provides features such as an in-depth metadata analysis of an image.
 
 With increasing disinformation, the tool is essential for fact-checkers who regularly analyze altered images. It features various forensic filters, allowing users to switch between them, which effectively enables them to spot the sneakiest alterations that would otherwise go unnoticed.
 
