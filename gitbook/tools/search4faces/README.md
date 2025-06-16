@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-**Search4Faces** is a reverse face search engine that allows users to find the profile photos of individuals across various online platforms. The tool is implemented in Python and is accessible via a web interface or as a Python library. As of June 2025, the tool has complete or partial collection of the following [four databases](https://web.archive.org/web/20250616163324/https://search4faces.com/en/):
+**Search4Faces** is a reverse face search engine that allows users to find the profile photos of individuals across various online platforms. The tool is implemented in Python and is accessible via a web interface or as a Python library. As of June 2025, the tool has (partial) collections of the following [four databases](https://web.archive.org/web/20250616163324/https://search4faces.com/en/):
 
 1. Avatars of the social network Vkontakte and main photos of the social network Odnoklassniki,
 2. Profile photos of the social network Vkontakte (VK),&#x20;
