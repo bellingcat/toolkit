@@ -37,7 +37,7 @@ By clicking on any of the photos in the results list, users are directly brought
 * [x] Partially Free
 * [ ] Paid
 
-Search features on the site itself are free, but [API access](https://search4faces.com/en/api.html) is paid with multiple plans ranging from 15000 calls for 40 USD to 135000 calls for 320 USD.&#x20;
+Search features on the site itself are free, but [API access](https://web.archive.org/web/20250425192912/https://search4faces.com/en/api.html) is paid with multiple plans ranging from 15000 calls for 40 USD to 135000 calls for 320 USD.&#x20;
 
 ## Level of difficulty
 
