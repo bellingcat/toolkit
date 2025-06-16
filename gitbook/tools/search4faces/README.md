@@ -33,8 +33,8 @@ By clicking on any of the photos in the results list, users are directly brought
 
 ## Cost
 
-* [ ] Free
-* [x] Partially Free
+* [x] Free
+* [ ] Partially Free
 * [ ] Paid
 
 Search features on the site itself are free, but [API access](https://web.archive.org/web/20250425192912/https://search4faces.com/en/api.html) is paid with multiple plans ranging from 15000 calls for 40 USD to 135000 calls for 320 USD.&#x20;
@@ -45,8 +45,8 @@ Search features on the site itself are free, but [API access](https://web.archiv
 
 ## Requirements
 
+* No requirements for using the search features on the site. It is not necessary to create an account.
 * API can be accessed after purchasing a plan or contacting their team for trial access. The API uses JSON-RPC 2.0 protocol over HTTPS, and you can interact with it using client libraries available for Python and PHP.
-* No requirements for using the search features on the site itself. It is not necessary to create an account.
 
 ## Limitations
 
