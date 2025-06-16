@@ -25,11 +25,11 @@ The site is available in Russian and English. To start a search, users first nee
 
 <figure><img src=".gitbook/assets/Screenshot 2025-06-16 at 18.09.44.png" alt=""><figcaption><p>A sample search within the "Avatar of Tiktok users" database. It is possible (but not required) to specify the gender, country, city or age of people of interest before starting a search.</p></figcaption></figure>
 
-A search for a Donald Trump picture selecting the VK and Odnoassniki avatars collection, for instance, brought up various pictures of Donald Trump that are currently being used (or have been used) by VK users as avatars:
+A search for a Donald Trump picture selecting the VK and Odnoassniki avatars collection, for instance, brought up various pictures of Donald Trump that are currently being used (or have been used) as avatars by VK users:
 
-<figure><img src=".gitbook/assets/Screenshot 2025-06-16 at 19.06.43.png" alt=""><figcaption><p>The results include a probability score of how likely it is according to the tool that the picture shows the same person as the picture uploaded by the user. It also provides a name for the person but this name can be wrong (for instance if someone uses the picture of Donald Trump for their own social media account).</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-06-16 at 19.06.43.png" alt=""><figcaption><p>The results include a probability score indicating how likely it is according to the tool that the picture shows the same person as the picture uploaded by the user. It also provides a name for the person but this name can be wrong (for instance if someone added a picture of Donald Trump to their social media account).</p></figcaption></figure>
 
-By clicking on any of the photos in the results list, users are directly brought to the social media profile that featured the picture. Keep in mind that the Search4face database is not updated on a regular basis. The VK or Odnoklassniki accounts might have changed their avatar or they might have been deleted in the meantime.
+By clicking on any of the photos in the results list, users are directly brought to the social media profile that featured the picture. Keep in mind that the Search4face database is not updated on a regular basis. VK or Odnoklassniki accounts might have changed their avatar or might have been deleted in the meantime.
 
 ## Cost
 
