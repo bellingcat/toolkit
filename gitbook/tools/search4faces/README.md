@@ -15,7 +15,7 @@ description: >-
 **Search4Faces** is a reverse face search engine that allows users to find the profile photos of individuals across various online platforms. The tool is implemented in Python and is accessible via a web interface or as a Python library. As of June 2025, the tool has complete or partial collection of the following [four databases](https://web.archive.org/web/20250616163324/https://search4faces.com/en/):
 
 1. Avatars of the social network Vkontakte and main photos of the social network Odnoklassniki,
-2. Profile photos of the social network Vkontakte,&#x20;
+2. Profile photos of the social network Vkontakte (VK),&#x20;
 3. Avatars of Tiktok users,&#x20;
 4. Avatars of ClubHouse users.
 
@@ -25,11 +25,11 @@ The site is available in Russian and English. To start a search, users first nee
 
 <figure><img src=".gitbook/assets/Screenshot 2025-06-16 at 18.09.44.png" alt=""><figcaption><p>A sample search within the "Avatar of Tiktok users" database. It is possible (but not required) to specify the gender, country, city or age of people of interest before starting a search.</p></figcaption></figure>
 
-A search for a Donald Trump picture selecting the Vkontakte and Odnoassniki collection, for example, brought up various pictures that are currently being used of have been used by Vkontakte users:
+A search for a Donald Trump picture selecting the VK and Odnoassniki avatars collection, for example, brought up various pictures of Donald Trump that are currently being used (or have been used) by VK users as avatars:
 
 <figure><img src=".gitbook/assets/Screenshot 2025-06-16 at 19.06.43.png" alt=""><figcaption></figcaption></figure>
 
-Clicking on any of the pictures, will bring&#x20;
+By clicking on any of the photos in the results list, users are directly brought to the social media profile where the picture has been found. Keep in mind that the search4face database is not updated on a regular basis. The VK or Odnoklassniki accounts might have changed their avatar in the meantime or they might even not exist anymore.
 
 ## Cost
 
