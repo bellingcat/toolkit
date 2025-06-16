@@ -12,12 +12,14 @@ description: >-
 
 ## Description
 
-**Search4Faces** is a reverse face search engine that allows users to find the profile photos of individuals across various online platforms. The tool is implemented in Python and is accessible via a web interface or as a Python library. As of April 2025, the tool [has](https://search4faces.com/en/index.html) complete or partial collection of the following four databases. Avatars of the social network Vkontakte and main photos of the social network Odnoklassniki,&#x20;
+**Search4Faces** is a reverse face search engine that allows users to find the profile photos of individuals across various online platforms. The tool is implemented in Python and is accessible via a web interface or as a Python library. As of June 2025, the tool [has](https://search4faces.com/en/index.html) complete or partial collection of the following four databases:
 
 1. Avatars of the social network Vkontakte and main photos of the social network Odnoklassnik
 2. Profile photos of the social network Vkontakte,&#x20;
 3. Avatars of Tiktok users,&#x20;
 4. Avatars of ClubHouse users.
+
+In addition, the tool providers indicates that it can recognize celebrities based on Wikipedia and Imdb data [https://search4faces.com/index.html](https://search4faces.com/index.html)
 
 <figure><img src=".gitbook/assets/Screenshot 2024-12-12 at 9.37.30 AM.png" alt=""><figcaption><p>A sample search using a stock image within the "Avatar of Tiktok users" database</p></figcaption></figure>
 
@@ -36,7 +38,7 @@ Search features on the site itself are free, but [API access](https://search4fac
 ## Requirements
 
 * API can be accessed after purchasing a plan or contacting their team for trial access. The API uses JSON-RPC 2.0 protocol over HTTPS, and you can interact with it using client libraries available for Python and PHP.
-* No requirements for using the search features on the site itself.
+* No requirements for using the search features on the site itself. It is not necessary to create an account.
 
 ## Limitations
 
