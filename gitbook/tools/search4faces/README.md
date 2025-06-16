@@ -78,5 +78,5 @@ The tool provider is currently unknown. The website is offered in Russian and in
 
 | Page maintainer |
 | --------------- |
-| Shiva           |
+| hande           |
 |                 |
