@@ -1,5 +1,5 @@
 ---
-description: A tool that allows forensic analysis of manipulated images.
+description: A tool that allows forensic analysis of images.
 ---
 
 # Image Verification Assistant
