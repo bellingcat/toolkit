@@ -21,7 +21,9 @@ description: >-
 
 In addition, the tool has a search feature for recognizing celebrities which  is based on Wikipedia and Imdb data - according to the tool provider [https://search4faces.com/index.html](https://search4faces.com/index.html)
 
-<figure><img src=".gitbook/assets/Screenshot 2025-06-16 at 18.09.44.png" alt=""><figcaption><p>A sample search using a stock image within the "Avatar of Tiktok users" database</p></figcaption></figure>
+The site is available in Russian and English. To start a search, users need to choose a collection and they can then upload the picture of a face.&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2025-06-16 at 18.09.44.png" alt=""><figcaption><p>A sample search within the "Avatar of Tiktok users" database. It is possible (but not required) to specify the gender, country, city or age of people of interest before starting a search.</p></figcaption></figure>
 
 ## Cost
 
