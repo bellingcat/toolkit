@@ -18,9 +18,9 @@
 * [ ] [Facebook](https://bellingcat.gitbook.io/toolkit/categories/social-media/facebook)
 * [ ] [Instagram](https://bellingcat.gitbook.io/toolkit/categories/social-media/instagram)
 * [ ] [Multiple Platforms](https://bellingcat.gitbook.io/toolkit/categories/social-media/multiple-platforms)
-* [x] [Other Platforms](https://bellingcat.gitbook.io/toolkit/categories/social-media/other-platforms)
+* [ ] [Other Platforms](https://bellingcat.gitbook.io/toolkit/categories/social-media/other-platforms)
 * [ ] [Telegram](https://bellingcat.gitbook.io/toolkit/categories/social-media/telegram)
-* [x] [Tiktok](https://bellingcat.gitbook.io/toolkit/categories/social-media/tiktok)
+* [ ] [Tiktok](https://bellingcat.gitbook.io/toolkit/categories/social-media/tiktok)
 * [ ] [Twitter/X](https://bellingcat.gitbook.io/toolkit/categories/social-media/twitter)
 * [ ] [Youtube](https://bellingcat.gitbook.io/toolkit/categories/social-media/youtube)
 
