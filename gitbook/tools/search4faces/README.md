@@ -51,7 +51,7 @@ Search features on the site itself are free, but [API access](https://web.archiv
 ## Limitations
 
 * Since the Search4Face database is limited, it often not able to provide any results for an uploaded picture. Our own tests suggest that in those cases, the search engine appears to compare general characteristics of the provided face (hair, eye or skin color) which does not tend to be helpful for open source researchers.&#x20;
-* Image data for each social networking site is not updated in real-time, most datasets end in [2022 or earlier](https://web.archive.org/web/20250520182518/https://search4faces.com/en/). Certain user profiles can evade detection by changing their details.&#x20;
+* Image data for each social networking site is not updated in real-time, most datasets end in [2022 or earlier](https://web.archive.org/web/20250520182518/https://search4faces.com/en/). The Russian language version of the tool website states that the VK profile photo database was[ last updated in 2025](https://web.archive.org/web/20250616202030/https://search4faces.com/search.html). Certain user profiles can evade detection by changing their details.&#x20;
 * The tool relies on other parameters (such as, age and gender) to improve results, using estimates of the values may limit its accuracy.
 * You cannot search multiple databases at once.
 
