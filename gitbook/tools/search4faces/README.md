@@ -82,6 +82,12 @@ The tool provider is currently unknown. The website is offered in Russian and in
 
 ## Similar Tools
 
+While open source researcher may want to decide to test Search4Faces during investigations that involve people of interest from Russian speaking countries, other facial recognition tools may work better for people based in other countries.&#x20;
+
+Similar tools are Pimeyes or FaceCheck.Id. Unlike Search4Faces,  both of those tools are paid tools and their websites don’t list social media photos as sources.&#x20;
+
+It is recommended to be cautious when using any of those tools since it the identity of the tool providers are unknown.
+
 ## Advertising Trackers
 
 * [ ] This tool has not been checked for advertising trackers yet.
