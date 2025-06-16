@@ -80,6 +80,8 @@ Key features of Search4Faces include:
 
 The tool provider is currently unknown. The website is offered in Russian and in English. Its domain registrar is the Bahamas based Whois Privacy Corp.
 
+## Similar Tools
+
 ## Advertising Trackers
 
 * [ ] This tool has not been checked for advertising trackers yet.
