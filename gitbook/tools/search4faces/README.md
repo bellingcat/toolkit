@@ -19,7 +19,7 @@ description: >-
 3. Avatars of Tiktok users,&#x20;
 4. Avatars of ClubHouse users.
 
-In addition, the tool providers indicates that it can recognize celebrities based on Wikipedia and Imdb data [https://search4faces.com/index.html](https://search4faces.com/index.html)
+In addition, the tool has a search feature for recognizing celebrities which - according to the tool provider - is based on Wikipedia and Imdb data. [https://search4faces.com/index.html](https://search4faces.com/index.html)
 
 <figure><img src=".gitbook/assets/Screenshot 2024-12-12 at 9.37.30 AM.png" alt=""><figcaption><p>A sample search using a stock image within the "Avatar of Tiktok users" database</p></figcaption></figure>
 
