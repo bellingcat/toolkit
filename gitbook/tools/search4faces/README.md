@@ -16,7 +16,7 @@ description: >-
 
 1. Avatars of the social network Vkontakte and main photos of the social network Odnoklassniki,
 2. Profile photos of the social network Vkontakte (VK),&#x20;
-3. Avatars of Tiktok users,&#x20;
+3. Avatars of TikTok users,&#x20;
 4. Avatars of ClubHouse users.
 
 The tool also has a search feature for recognizing celebrities which - [according to the tool provider](https://web.archive.org/web/20250616164148/https://search4faces.com/index.html) - is based on Wikipedia and [IMDb](https://en.wikipedia.org/wiki/IMDb) data.&#x20;
@@ -24,7 +24,7 @@ The tool also has a search feature for recognizing celebrities which - [accordin
 Key features of Search4Faces include:
 
 1. **Face Recognition Search**:.
-   * Searches through multiple databases, including those of social networks (VKontakte, Odnoklassniki, TikTok, and Clubhouse), to find similar faces.
+   * Searches through multiple databases, including those of social networks to find similar faces.
    * Users can specify which database to search in, and results include links to the relevant social media profiles.
 2. **Customization and API Integration**:
    * Search4Faces offers an API that can be integrated into applications for automated and scalable facial recognition searches.
@@ -37,9 +37,9 @@ The site is available in Russian and English. To start a search, users first nee
 
 For instance, after uploading a Donald Trump picture and selecting the VK and Odnoassniki avatars collection, we received various pictures of Donald Trump that are currently being used (or have been used) as avatars by VK users:
 
-<figure><img src=".gitbook/assets/Screenshot 2025-06-16 at 19.06.43.png" alt=""><figcaption><p>The results include a probability score indicating how likely it is according to the tool that the picture shows the same person as the picture uploaded by the user. It also provides a name for the person but this name can be wrong (for instance if someone uses picture of Donald Trump for their personal social media account).</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-06-16 at 19.06.43.png" alt=""><figcaption><p>The results include a probability score indicating how likely it is according to the tool that the picture shows the same person as the picture uploaded by the user. It also provides a name for the person but this name can be wrong (for instance if someone uses the picture of Donald Trump for their personal social media account).</p></figcaption></figure>
 
-By clicking on any of the photos in the results list, users are directly brought to the social media profile that features or featured the picture. Keep in mind that the Search4Faces database is not updated on a regular basis. VK or Odnoklassniki accounts might have changed their avatar or the accounts might even have been deleted in the meantime.
+By clicking on any of the photos in the results list, users are directly brought to the social media profile that features the picture. Keep in mind that the Search4Faces database is not updated on a regular basis. The owners of the social media accounts might have changed their avatars or the accounts might even have been deleted in the meantime.
 
 ## Cost
 
@@ -86,7 +86,7 @@ The tool provider is currently unknown. The website is offered in Russian and in
 
 While open source researcher may want to decide to test Search4Faces during investigations that involve people of interest from Russian speaking countries, other facial recognition tools may often work better for people based in other countries.&#x20;
 
-Similar tools are [Pimeyes](https://bellingcat.gitbook.io/toolkit/more/all-tools/pimeyes) or [FaceCheck.Id](https://bellingcat.gitbook.io/toolkit/more/all-tools/facecheck.id). Unlike Search4Faces,  both of those tools are paid tools and their websites don’t list social media photos as sources. Search4Faces is currently able to identify some older TikTok accounts.
+Similar tools are [Pimeyes](https://bellingcat.gitbook.io/toolkit/more/all-tools/pimeyes) or [FaceCheck.Id](https://bellingcat.gitbook.io/toolkit/more/all-tools/facecheck.id). Unlike Search4Faces,  both of those tools are paid tools and their websites don’t list social media photos as sources. Search4Faces is currently able to identify some older TikTok accounts which may be useful for some research cases.
 
 It is recommended to be cautious when using any of those tools since it the tool providers' identities tend to be unknown.
 
