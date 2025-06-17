@@ -12,11 +12,7 @@ description: This is the JSON codeblock for this tool
     "vkontakte",
     "odnoklassniki",
     "clubhouse"
-  ],
-  "name": "Search4Faces",
-  "url": "https://search4faces.com",
-  "description": "Upload a facepic, find similar on VKontakte, Odnoklassniki, TikTok, Clubhouse)",
-  "cost": "Free"
+  ]
 }
 ```
 {% endcode %}
