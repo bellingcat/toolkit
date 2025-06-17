@@ -11,7 +11,6 @@ description: This is the JSON codeblock for this tool
     "facial-recognition",
     "vkontakte",
     "odnoklassniki",
-    "tiktok",
     "clubhouse",
     "other-networks"
   ],
