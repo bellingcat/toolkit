@@ -1,6 +1,6 @@
 # Table of contents
 
-* [About](pages/README.md)
+* [Home](pages/README.md)
 * [Most Used](most-used.md)
 * [New Tools](new-tools.md)
 
