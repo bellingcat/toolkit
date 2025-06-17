@@ -21,6 +21,16 @@ description: >-
 
 The tool also has a search feature for recognizing celebrities which - [according to the tool provider](https://web.archive.org/web/20250616164148/https://search4faces.com/index.html) - is based on Wikipedia and [IMDb](https://en.wikipedia.org/wiki/IMDb) data.&#x20;
 
+Key features of Search4Faces include:
+
+1. **Face Recognition Search**:.
+   * Searches through multiple databases, including those of social networks (VKontakte, Odnoklassniki, TikTok, and Clubhouse), to find similar faces.
+   * Users can specify which database to search in, and results include links to the relevant social media profiles.
+2. **Customization and API Integration**:
+   * Search4Faces offers an API that can be integrated into applications for automated and scalable facial recognition searches.
+   * The API supports asynchronous operations and provides customizable search parameters, such as limiting the number of results or specifying whether to include hidden profiles in the search results.
+   * The tool can also be configured for more targeted searches, depending on the databases and permissions set by the user.
+
 The site is available in Russian and English. To start a search, users first need to choose a collection. They can then upload the picture of a person of interest.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2025-06-16 at 18.09.44.png" alt=""><figcaption><p>A sample search within the "Avatar of Tiktok users" database. It is possible (but not required) to specify the gender, country, city or age of people of interest before starting a search.</p></figcaption></figure>
@@ -65,16 +75,6 @@ Make sure to carefully assess whether the use of facial recognition tools is req
 ## Guide
 
 [Example investigation using the tool](https://publication.osintambition.org/behind-the-steps-revealing-digital-identity-through-osint-and-socmint-unraveling-the-7735033b867d)
-
-Key features of Search4Faces include:
-
-1. **Face Recognition Search**:.
-   * Searches through multiple databases, including those of social networks (VKontakte, Odnoklassniki, TikTok, and Clubhouse), to find similar faces.
-   * Users can specify which database to search in, and results include links to the relevant social media profiles.
-2. **Customization and API Integration**:
-   * Search4Faces offers an API that can be integrated into applications for automated and scalable facial recognition searches.
-   * The API supports asynchronous operations and provides customizable search parameters, such as limiting the number of results or specifying whether to include hidden profiles in the search results.
-   * The tool can also be configured for more targeted searches, depending on the databases and permissions set by the user.![](<.gitbook/assets/Screenshot 2024-12-12 at 9.36.35 AM.png>)
 
 ## Tool provider
 
