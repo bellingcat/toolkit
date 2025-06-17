@@ -23,7 +23,7 @@ The tool also has a search feature for recognizing celebrities which - [accordin
 
 Key features of Search4Faces include:
 
-1. **Face Recognition Search**:.
+1. **Face Recognition Search**:
    * Searches through multiple databases, including those of social networks to find similar faces.
    * Users can specify which database to search in, and results include links to the relevant social media profiles.
 2. **Customization and API Integration**:
