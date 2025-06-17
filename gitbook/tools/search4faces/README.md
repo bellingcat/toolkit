@@ -52,7 +52,7 @@ Search features on the site itself are free, but [API access](https://web.archiv
 
 * Since the Search4Faces database is limited, the tool is often not able to provide any results for an uploaded picture. Our own tests suggest that in those cases, the search engine appears to compare general characteristics of the provided face (hair, eye or skin color) which does not tend to be helpful for open source researchers.&#x20;
 * Image data for each social networking site is not updated in real-time, most datasets end in [2022 or earlier](https://web.archive.org/web/20250520182518/https://search4faces.com/en/). The Russian language version of the tool website states that the VK profile photo database was[ last updated in 2025](https://web.archive.org/web/20250616202030/https://search4faces.com/search.html).&#x20;
-* Certain user profiles can evade detection by changing their details. If you click on an image in the results list, it might bring you to a social media account whose name and avatar has been changed or whose posts have been deleted.
+* Certain user profiles can evade detection by changing their details. If you click on an image in the results list, it might bring you to a social media account whose name, avatar or posts have been changed or deleted.
 * You cannot search multiple databases at once.
 
 ## Ethical Considerations
@@ -60,7 +60,7 @@ Search features on the site itself are free, but [API access](https://web.archiv
 * Persons with similar faces can be misidentified without accounting for other contextual information.
 * Results can leak personally identifiable information such as general location, home address or the same of associated persons.
 
-Josephine Lulamae, Algorith Watch: [War Crimes OSINT, Harassment, Doxxing Police and Protesters: Face Recognition for Everyone.](https://algorithmwatch.org/en/face-recognition-for-everyone/)
+Make sure to carefully assess whether the use of facial recognition tools is required for your type of research. Josephine Lulamae reflects on ethical questions around the use of facial recognition tools in the AlgorithmWatch article: [War Crimes OSINT, Harassment, Doxxing Police and Protesters: Face Recognition for Everyone](https://algorithmwatch.org/en/face-recognition-for-everyone/) (2022).
 
 ## Guide
 
