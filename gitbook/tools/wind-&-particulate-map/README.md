@@ -1,6 +1,6 @@
 ---
 description: >-
-  View current and historic wind, weather, ocean, and pollution conditions on an
+  View current and historic wind, weather, ocean and pollution conditions on an
   interactive animated map.
 ---
 
@@ -16,13 +16,13 @@ description: >-
 
 ## Description
 
-**Nullschool Earth Map** is an interactive, animated visualization of global environmental data. It displays near real-time information on wind, ocean currents, waves, air pollutants, and more. Users can explore different data layers, projections, and dates to observe environmental conditions across the planet.&#x20;
+**Nullschool Earth Map** is an interactive, animated visualization of global environmental data. It displays near real-time information on wind, ocean currents, waves, air pollutants and more. Users can explore different data layers, projections and dates to observe environmental conditions across the planet.&#x20;
 
-In addition to viewing global environmental trends, by clicking on a specific location or specifying latitude/longitude coordinates in the URL, users can get interpolated data values of any give metric for a specified location.
+In addition to viewing global environmental trends, by clicking on a specific location or specifying latitude/longitude coordinates in the URL, users can get interpolated data values of any given metric for a specified location.
 
 To change the date, mode and other metrics, click the "earth" label with the three-line menu icon in the bottom-left corner of the screen.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-06-08 at 10.23.04 PM.png" alt="Interface menu showing options for date, mode (air, ocean, chem, particulates, space, bio), animate (wind, currents, waves), overlay (DUex, PM1, PM2.5, PM10, OMaot, SO4ex), and map projection. "><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-06-08 at 10.23.04 PM.png" alt="Interface menu showing options for date, mode (air, ocean, chem, particulates, space, bio), animate (wind, currents, waves), overlay (DUex, PM1, PM2.5, PM10, OMaot, SO4ex), and map projection. "><figcaption><p>Available data layers</p></figcaption></figure>
 
 ## Cost
 
@@ -46,7 +46,7 @@ No special setup is needed. The map works well on mobile devices and is optimize
 
 ## Ethical Considerations
 
-* **Do not overstate precision.** The map visualizes model-based, interpolated data. It is **not precise at a hyper-local level** and should be used as supporting context, not as definitive proof.
+* **Do not overstate precision.** The map visualizes model-based, interpolated data. It is not precise at a hyper-local level and should be used as supporting context, not as definitive proof.
 * **Use in combination with other sources.** Cross-reference environmental data with satellite imagery, eyewitness reports or local measurements to avoid misinterpretation.
 * **Avoid misleading visuals.** Animated wind or pollution overlays can appear dramatic. Be careful not to exaggerate claims or mislead audiences based on the visual effect alone.
 
