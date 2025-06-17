@@ -31,7 +31,7 @@ Key features of Search4Faces include:
    * The API supports asynchronous operations and provides customizable search parameters, such as limiting the number of results or specifying whether to include hidden profiles in the search results.
    * The tool can also be configured for more targeted searches, depending on the databases and permissions set by the user.
 
-The site is available in Russian and English. To start a search, users first need to choose a collection. They can then upload the picture of a person of interest.&#x20;
+The site is available in Russian and English. To start a search, users first need to choose a database. They can then upload the picture of a person of interest.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2025-06-16 at 18.09.44.png" alt=""><figcaption><p>A sample search within the "Avatar of Tiktok users" database. It is possible (but not required) to specify the gender, country, city or age of people of interest before starting a search.</p></figcaption></figure>
 
