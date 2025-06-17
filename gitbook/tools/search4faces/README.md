@@ -74,7 +74,7 @@ Make sure to carefully assess whether the use of facial recognition tools is req
 
 ## Guide
 
-[Example investigation using the tool](https://publication.osintambition.org/behind-the-steps-revealing-digital-identity-through-osint-and-socmint-unraveling-the-7735033b867d)
+An example of how Search4Faces was used to reveal a TikTok profile can be found [here](https://publication.osintambition.org/behind-the-steps-revealing-digital-identity-through-osint-and-socmint-unraveling-the-7735033b867d).
 
 Search4Faces was used by Bellingcat in the following investigation: [Tracking the Faceless Killers who Mutilated and Executed a Ukrainian POW](https://www.bellingcat.com/news/2022/08/05/tracking-the-faceless-killers-who-mutilated-and-executed-a-ukrainian-pow/), 2022.
 
@@ -84,9 +84,9 @@ The tool provider is currently unknown. The website is offered in Russian and in
 
 ## Similar Tools
 
-While open source researcher may want to decide to test Search4Faces during investigations that involve people of interest from Russian speaking countries, other facial recognition tools may work better for people based in other countries.&#x20;
+While open source researcher may want to decide to test Search4Faces during investigations that involve people of interest from Russian speaking countries, other facial recognition tools may often work better for people based in other countries.&#x20;
 
-Similar tools are [Pimeyes](https://bellingcat.gitbook.io/toolkit/more/all-tools/pimeyes) or [FaceCheck.Id](https://bellingcat.gitbook.io/toolkit/more/all-tools/facecheck.id). Unlike Search4Faces,  both of those tools are paid tools and their websites don’t list social media photos as sources.&#x20;
+Similar tools are [Pimeyes](https://bellingcat.gitbook.io/toolkit/more/all-tools/pimeyes) or [FaceCheck.Id](https://bellingcat.gitbook.io/toolkit/more/all-tools/facecheck.id). Unlike Search4Faces,  both of those tools are paid tools and their websites don’t list social media photos as sources. Search4Faces is currently able to identify some older TikTok accounts.
 
 It is recommended to be cautious when using any of those tools since it the tool providers' identities tend to be unknown.
 
