@@ -19,7 +19,7 @@ description: >-
 3. Avatars of Tiktok users,&#x20;
 4. Avatars of ClubHouse users.
 
-The tool also has a search feature for recognizing celebrities which - [according to the tool provider](https://web.archive.org/web/20250616164148/https://search4faces.com/index.html) - is based on Wikipedia and[ IMDb](https://en.wikipedia.org/wiki/IMDb) data.&#x20;
+The tool also has a search feature for recognizing celebrities which - [according to the tool provider](https://web.archive.org/web/20250616164148/https://search4faces.com/index.html) - is based on Wikipedia and [IMDb](https://en.wikipedia.org/wiki/IMDb) data.&#x20;
 
 The site is available in Russian and English. To start a search, users first need to choose a collection. They can then upload the picture of a person of interest.&#x20;
 
