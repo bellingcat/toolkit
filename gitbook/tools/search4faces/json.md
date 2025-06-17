@@ -11,8 +11,7 @@ description: This is the JSON codeblock for this tool
     "facial-recognition",
     "vkontakte",
     "odnoklassniki",
-    "clubhouse",
-    "other-networks"
+    "clubhouse"
   ],
   "name": "Search4Faces",
   "url": "https://search4faces.com",
