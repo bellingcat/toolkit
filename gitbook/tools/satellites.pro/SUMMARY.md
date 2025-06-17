@@ -1,4 +1,4 @@
 # Table of contents
 
-* [satellites.pro](README.md)
+* [Satellites.pro](README.md)
 * [Categories](categories.md)
