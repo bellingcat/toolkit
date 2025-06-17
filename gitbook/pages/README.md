@@ -1,6 +1,6 @@
 ---
 description: A toolkit for open source researchers
-cover: .gitbook/assets/Bellingcat_Toolkit_Ann_Kiernan copy.jpg
+cover: .gitbook/assets/Bellingcat_Toolkit_Ann_Kiernan stretched.png
 coverY: 0
 layout:
   cover:
@@ -18,7 +18,7 @@ layout:
     visible: false
 ---
 
-# Home
+# About
 
 ## Welcome to Bellingcat’s Online Open Source Investigation Toolkit!
 
@@ -28,7 +28,7 @@ Click on the name of a tool to view an in-depth review and guide for the tool (i
 
 #### Browse tools by category:
 
-{% include "https://app.gitbook.com/s/wRheccA9m6vw1G3kXACN/~/reusable/O9YmLzpKoSdlNN0Qx9rq/" %}
+{% include "https://app.gitbook.com/s/FuL0vtRVpXHiKZgFkMFR/~/reusable/nacdywZl5kcBINjHUpMh/" %}
 
 ## About
 
