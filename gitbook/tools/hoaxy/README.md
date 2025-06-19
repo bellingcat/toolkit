@@ -64,7 +64,7 @@ For example: "Amazon deforestation" AND (illegal OR logging) has:videos
 
 **IMPORT YOUR OWN DATA**
 
-In addition to examining content from Bluesky and X, [users can also import their own data](https://hoaxy.osome.iu.edu/faq#faq-q30) into the tool’s visualization tool, as long as the data is in the required format: CSV and JSON.&#x20;
+In addition to examining content from Bluesky and X, [users can also import their own data](https://hoaxy.osome.iu.edu/faq#faq-q30) into the tool’s visualization tool, as long as the data is in the required format: CSV and JSON.
 
 #### **VISUALIZATION**
 
@@ -106,7 +106,7 @@ The tool also allows you to play a short animated clip showing how the nodes and
 
 #### CHECKING YOUR RESULTS
 
-It is advisable to check the graph to see what kind of data and content is being displayed and whether it matches your research topic. To do this, users can select a cluster and click on a node/user account. It will generate a pop-up window showing who that account mentions, replies to, or quotes. It will also share a link to the particular post being discussed. Users can also click on the edges (connecting lines) and this will generate a pop-up window showing the post itself.
+It is recommended to review your results to understand the type of data and content presented and determine if it aligns with your research topic. To explore, users can choose a cluster and click a node or user account. This action displays a pop up window displaying accounts it interacts with- through mentions, replies, or quotes— and includes a link to that specific post. Additionally, clicking on the connecting lines (edges) will bring up a pop up showing the related post.&#x20;
 
 <table data-card-size="large" data-view="cards" data-full-width="true"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Click on a node, and it will show you actions made by that account and who it interacted with. In this example, we did a Bluesky search for @bellingcat.com. On the right side, we selected the account @scrippsnews.bsky.social, and to the left, a pop-up window appears to show the activity. Underneath (shown in green arrows) are links to the post or content being forwarded.</td><td></td><td></td><td><a href=".gitbook/assets/Bellingcat viz node feature 1.png">Bellingcat viz node feature 1.png</a></td></tr><tr><td></td><td>Click on an edge (the color-coded connecting lines) to automatically generate a pop-up window showing the content being shared from one account to another (or from one node to another).</td><td></td><td><a href=".gitbook/assets/Bellingcat viz Node 1.png">Bellingcat viz Node 1.png</a></td></tr></tbody></table>
 
