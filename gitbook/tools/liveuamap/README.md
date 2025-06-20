@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-LiveUAMap is a comprehensive tool that provides real-time updates on global geopolitical events, conflicts, and crises. Using an interactive map interface, the platform allows users to gain insights into various incidents happening worldwide. It aggregates data from multiple sources, including news outlets, social media, and direct reports from affected areas
+LiveUAMap is a comprehensive tool that provides real-time updates on global geopolitical events, conflicts, and crises. Using an interactive map interface, the platform allows users to gain insights into various incidents happening worldwide. It aggregates data from multiple sources, including news outlets, social media, and direct reports from affected areas.
 
 One of the key features of LiveUAMap is its ability to display a wide range of events, including but not limited to military actions, protests, government decisions, and natural disasters. Users can filter events based on their type, location, and time frame, which makes it easier to track developments of particular interest or concern.
 
