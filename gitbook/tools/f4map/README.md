@@ -12,26 +12,28 @@ description: >-
 
 ## Description
 
-F4map is an interactive 3D mapping web application that enables users to explore and navigate through 3D city models and landscapes online. This tool leverages WebGL technology to render realistic 3D graphics directly in web browsers without the need for additional plugins. It solves the problem of visualizing geospatial data in an immersive and detailed way, providing users with a view of urban and natural environments.&#x20;
+F4map is an interactive 3D mapping web application that enables users to explore and navigate through 3D city models and landscapes online. This tool leverages [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) technology to render realistic 3D graphics directly in web browsers without the need for additional plugins. It visualizes geospatial data in an immersive and detailed way, providing users with a view of urban and natural environments.&#x20;
 
 Features:
 
 * **3D View**: toggle 2D view and rotate and change camera angle.
 * **Coverage:** Global but can be limited in some areas.
 * **Graphic Options**:
-  * Ground Elevation
+  * Ground Elevation: On/off toggle for terrain; no other elevation options available.
   * Weather: Sun, rain or snow
   * Time (current date): Live, Night, Morning, Noon, Evening
   * Traffic: Boats
   * Display: Building names, F4 specific buildings, Urban details (wall, chimney, power lines, street lamps...), Natural details (forest, fountain...), Real time water reflection, Dynamic shadows, SSAO, Render SSAO when moving
-* **Language:** limited to English supports multiple languages
+* **Language:** interface in English only; map labels appear in multiple languages based on OpenStreetMap data.
 * **Location search:** search by location name or coordinates.
 * **Locate user**: share your location to centre it on the map.
 * **Zoom tool:** zoom in and out on the map.
 
-The example below shows a search result for the term _Amsterdam_.
+The example below shows a search result for the term Paris, displaying a detailed 3D view of the Eiffel Tower and its surroundings, including nearby embassies, schools, and urban infrastructure—useful for geographic orientation, urban analysis, or OSINT research.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-05-07 at 7.20.27 PM.png" alt="Screenshot of F4Map search result for Amsterdam shows Amsterdam Central Station in 3D on a map."><figcaption><p>Screenshot of F4Map search result for Amsterdam shows Amsterdam Central Station in 3D on a map.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/paris_4fmap.png" alt=""><figcaption><p>F4Map 3D view of central Paris, featuring the Eiffel Tower and nearby landmarks.</p></figcaption></figure>
+
+
 
 F4Map is available in the following formats:
 
