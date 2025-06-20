@@ -54,8 +54,6 @@ Open source researchers can find LiveUAMap to be a helpful resource for their in
 5. **Geopolitical Research**: For studies focusing on geopolitical implications, LiveUAMap offers a visual and interactive means to monitor and analyze the influence of different global and regional powers in specific areas.
 6. **Educational Purposes**: Open source researchers can use LiveUAMap as a teaching tool to illustrate the dynamics of global events, conflict zones, or geopolitical changes to students or other audiences.
 
-By utilizing the comprehensive features of LiveUAMap, such as timely updates, interactive maps, and access to both current and historical data, open source researchers can enhance their understanding of global events.
-
 ## Cost
 
 * [ ] Free
