@@ -16,7 +16,7 @@ Google Flood Hub is developed by Google Research and uses [AI models to forecast
 
 Open source researchers, especially those focusing on environmental research and natural disaster monitoring, can use Google Flood Hub's predictive analytics as well as real-time monitoring to keep track of developments in areas of interest.&#x20;
 
-As of November 2024, Flood Hub [covers](https://sites.research.google/gr/floodforecasting/) river basins in over 80 countries worldwide, providing critical flood forecasting for over 1,800 sites and, covering a population of 460M people.
+As of June 2025, Flood Hub [covers](https://sites.research.google/gr/floodforecasting/) river basins in over 80 countries worldwide, providing critical flood forecasting for over 1,800 sites and, covering a population of 460M people.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-11-21 at 4.18.55 PM.png" alt=""><figcaption><p>View of Pittsburgh, Pennsylvania on Google Flood Hub including current and expected river water and danger levels. </p></figcaption></figure>
 
