@@ -19,13 +19,21 @@ One of the key features of LiveUAMap is its ability to display a wide range of e
 ### Features:
 
 * **Coverage:** covers multiple countries and regions including Ukraine, USA, Israel/Palestine, Yemen.
-* **Language:** supports multiple languages including English, Spanish, Ukrainian, Russian, French and Arabic.
+* **Language:** supports multiple languages including English, Spanish, Ukrainian, Russian and Arabic.
 * **Polygons**: allows to draw shareable polygon shapes to select specific areas.
 * **Measure distance:** measure distance between points in feet and metres.
 * **History:** partial history.
-* **News Feed:** allows you to jump to locations on the map or to see news events for locations on the map (all news items include sources).
-* **Time Filter:** filter by date.
-* **Event Filter:** Incidents include road accidents, drones/robots, explosions/blasts, police, animals, etc.
+* **News feed:** allows you to jump to locations on the map or to see news events for locations on the map (all news items include sources).
+* **Time:** filter by date.
+* **Filter:** Incidents include road accidents, drones/robots, explosions/blasts, police, animals, etc.
+* **Coverage:** covers multiple countries and regions including Ukraine, USA, Israel/Palestine, Yemen.
+* **Language:** supports multiple languages including English, Spanish, Ukrainian, Russian and Arabic.
+* **Polygons**: allows to draw shareable polygon shapes to select specific areas.
+* **Measure distance:** measure distance between points in feet and metres.
+* **History:** partial history.
+* **News feed:** allows you to jump to locations on the map or to see news events for locations on the map (all news items include sources).
+* **Time:** filter by date.
+* **Filter:** Incidents include road accidents, drones/robots, explosions/blasts, police, animals, etc.
 
 ### Pro-version features:
 
