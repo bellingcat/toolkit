@@ -84,7 +84,7 @@ LiveUAMap.com, while a valuable resource for learning about geopolitical and con
 
 ## Ethical Considerations
 
-When using LiveUAMap.com, users and providers should be mindful of several ethical considerations:
+When using LiveUAMap.com, users should be mindful of several ethical considerations:
 
 * **Source Transparency**: It is essential to clearly cite sources and understand their reliability and potential biases. This ensures the credibility of the information being presented.
 * **Privacy and Security**: In conflict zones, the dissemination of certain information could pose risks to individuals' safety and security. It's crucial to balance the public's right to know with the potential harm that information could cause.
