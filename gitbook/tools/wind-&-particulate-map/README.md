@@ -52,13 +52,8 @@ No special setup is needed. The map works well on mobile devices and is optimize
 
 ## Guide
 
-* \[About Page]\([https://earth.nullschool.net/about.html](https://earth.nullschool.net/about.html))
-
-More information can be found about the map via its social media pages:
-
-* \[nullschool Facebook page]\([https://www.facebook.com/EarthWindMap](https://www.facebook.com/EarthWindMap))
-* \[nullschool Instagram]\([https://www.instagram.com/nullschool/](https://www.instagram.com/nullschool/))
-* \[nullschool Youtube channel]\([https://www.youtube.com/channel/UCZyd1nnJuvS-EZvAV-IDtPg](https://www.youtube.com/channel/UCZyd1nnJuvS-EZvAV-IDtPg))
+* The site's [About page](https://earth.nullschool.net/about.html) includes an explanation of the abbreviations used on the site.
+* More information about the map is also provided via the Nullschool Earth Map social media accounts ([Facebook](https://www.facebook.com/EarthWindMap), [Instagram](https://www.instagram.com/nullschool/), [Youtube](https://www.youtube.com/channel/UCZyd1nnJuvS-EZvAV-IDtPg)).
 
 ## Tool provider
 
