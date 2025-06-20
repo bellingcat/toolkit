@@ -53,7 +53,7 @@ No special setup is needed. The map works well on mobile devices and is optimize
 ## Guide
 
 * The site's [About page](https://earth.nullschool.net/about.html) includes an explanation of the abbreviations used on the site.
-* More information about the map is also provided via the Nullschool Earth Map social media accounts ([Facebook](https://www.facebook.com/EarthWindMap), [Instagram](https://www.instagram.com/nullschool/), [Youtube](https://www.youtube.com/channel/UCZyd1nnJuvS-EZvAV-IDtPg)).
+* More information about the map is also provided via Nullschool Earth Map's social media accounts ([Facebook](https://www.facebook.com/EarthWindMap), [Instagram](https://www.instagram.com/nullschool/), [Youtube](https://www.youtube.com/channel/UCZyd1nnJuvS-EZvAV-IDtPg)).
 
 ## Tool provider
 
