@@ -74,7 +74,7 @@ Open source researchers can find LiveUAMap to be a helpful resource for their in
 
 ## Limitations
 
-LiveUAMap.com, while a valuable resource for real-time geopolitical and conflict-related events, has several limitations, including:
+LiveUAMap.com, while a valuable resource for learning about geopolitical and conflict-related events, has several limitations, including:
 
 * **Data Reliability**: The information is compiled from various sources, which can vary in reliability and perspective, making it essential to cross-reference facts.
 * **Limited Historical Data**: Access to historical data might be limited or require a subscription, restricting comprehensive historical analysis.
