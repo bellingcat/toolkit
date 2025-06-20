@@ -62,9 +62,9 @@ More information can be found about the map via its social media pages:
 
 ## Tool provider
 
-This map was created and is maintained by Cameron Beccario, who can be found on \[Bluesky]\([https://bsky.app/profile/cambecc.bsky.social](https://bsky.app/profile/cambecc.bsky.social)) and \[LinkedIn]\([www.linkedin.com/in/cambecc](http://www.linkedin.com/in/cambecc)).
+This map was created and is maintained by Cameron Beccario, who can be found on [Bluesky](https://bsky.app/profile/cambecc.bsky.social) and [LinkedIn](https://www.linkedin.com/in/cambecc/).
 
-Feedback about the map can be provided via \[this form]\([https://docs.google.com/forms/d/e/1FAIpQLSfL0NFHIL2TXx6afSyrXCSd15liLDDfVyOTfKKHhj3ZcopZgQ/viewform](https://docs.google.com/forms/d/e/1FAIpQLSfL0NFHIL2TXx6afSyrXCSd15liLDDfVyOTfKKHhj3ZcopZgQ/viewform)) or sent to [feedback@nullschool.net](mailto:feedback@nullschool.net).&#x20;
+Feedback about the map can be provided via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfL0NFHIL2TXx6afSyrXCSd15liLDDfVyOTfKKHhj3ZcopZgQ/viewform).
 
 ## Advertising Trackers
 
