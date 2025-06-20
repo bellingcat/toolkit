@@ -2306,5 +2306,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "Q163QrMgwIDMWtYPE1qy",
+    "title": "Gongsi",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-20T17:07:04.836Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
