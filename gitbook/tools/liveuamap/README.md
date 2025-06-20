@@ -91,8 +91,6 @@ When using LiveUAMap.com, users should be mindful of several ethical considerati
 * **Information Accuracy**: Given the fast-paced nature of updates and the reliance on a variety of sources, there's a responsibility to verify information before disseminating it to prevent the spread of misinformation.
 * **Bias and Perspective**: Highlighting the importance of presenting information as impartially as possible.
 
-Understanding and addressing these considerations are crucial in maintaining the ethical integrity of using and providing information on platforms like [LiveUAMap.com](https://liveuamap.com/).
-
 ## Guide
 
 To effectively use Liveuamap, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
