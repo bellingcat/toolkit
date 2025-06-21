@@ -8,10 +8,8 @@ description: This is the JSON codeblock for this tool
 ```json
 {
   "tags": [
-    "free",
     "international",
     "news",
-    "maps",
     "conflict-zones",
     "real-time",
     "mapping",
