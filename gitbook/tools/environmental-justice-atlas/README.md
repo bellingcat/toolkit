@@ -1,5 +1,5 @@
 ---
-description: Map of environmental-related conflict globally
+description: Map of environmental-related conflicts globally
 ---
 
 # Environmental Justice Atlas
@@ -10,7 +10,9 @@ https://ejatlas.org/
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Launched in 2012, the Environmental Justice Atlas (also known as the EJAtlas) is a project based on the work of hundreds of contributors including from academics, citizens, informal committees, NGOs and other activist groups. The database is meant to be a resource for teaching, networking and advocacy of over 4,300 social conflicts involving environmental issues around the world.
+
+The map covers conflicts across 10 categories including: nuclear, mineral ores and building extractions, waste management, biomass and land conflicts, fossil fuels, energy and climate justice, water management, infrastructure and built environment, tourism recreation, biodiversity conservation conflicts and industrial and utilities conflicts. The database contains information including the investors, details about these deals, conflict impacts, project details, outcomes, references to legislation, academic research, videos and images.
 
 ## Cost
 
@@ -18,31 +20,31 @@ https://ejatlas.org/
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+According to the site's FAQ, a user is free to use the database for noncommercial purposes only, with attribution given to the EJAtlas with a link to its homepage.
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+Access to the internet is required for the database.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+EJAtlas acknowledges that there are limitations to the data, including the availability of information, the changing nature of the situation on the ground, the time constraints of the contributors and volunteers plus when contextualization comes in conflict such as when conservation activities clash with local communities. EJAtlas [describes](https://ejatlas.org/backoffice/cms/en/faq/) itself as a "an archive of socioecological resistances."
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+None.
 
 ## Guide
 
-\[\[Link to a guide on this tool]]
+While not a guide, the site's [FAQ](https://ejatlas.org/backoffice/cms/en/faq/) can be helpful for context and background information.
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+EnvJustice Project
 
 ## Advertising Trackers
 
@@ -54,4 +56,3 @@ https://ejatlas.org/
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
