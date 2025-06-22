@@ -50,11 +50,13 @@ Basic to intermediate experience with the Python programming language.&#x20;
 
 ## Limitations
 
-The tool can lead to your Telegram account being blocked, which seems more likely if you use the tool for large numbers of phone numbers or if you use a VPN (that could be associated with spam activity). To mitigate this risk, it is recommended to avoid using your personal account with this tool.
+The tool can lead to your Telegram account being blocked, which seems more likely if you use the tool for large numbers of phone numbers or if you use a VPN (that could be associated with spam activity).&#x20;
+
+To mitigate this risk, it is recommended to avoid using your personal account with this tool.
 
 ## Ethical Considerations
 
-It is possible to gain access to people's names and images using this tool, and should be used as part of tightly scoped investigations. Users should be careful not to dox people they are investigating when sharing their findings.&#x20;
+It is possible to gain access to people's names and images using this tool, and should be used as part of tightly scoped investigations. Users should be cautious not to disclose personal information about individuals they are investigating when sharing their findings.&#x20;
 
 ## Guides and articles
 
