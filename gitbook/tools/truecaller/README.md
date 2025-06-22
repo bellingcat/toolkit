@@ -80,10 +80,10 @@ In addition to the free version, the tool has three paid tiers: Premium, Family,
 
 ## Requirements
 
-1. Either a Gmail or Microsoft email account
+1. Either a Gmail or a Microsoft email account
 2. Mobile or desktop device
 3. If using the mobile app, it requires Android 4.4 or higher, or iOS 15 or higher.&#x20;
-   1. Android and iPhone devices have varying features availability according to [this article](https://techcrunch.com/2025/01/21/truecaller-brings-real-time-caller-id-to-iphone-users/). For a while, iPhone users have not been able to take advantage of getting the identification of callers in real time. However, as of  January 2025, the tool provider has made it available for iPhone users.&#x20;
+   1. Android and iPhone devices have varying feature availability according to [this article](https://techcrunch.com/2025/01/21/truecaller-brings-real-time-caller-id-to-iphone-users/). For a while, iPhone users have not been able to take advantage of getting the identification of callers in real time. However, as of  January 2025, the tool provider has made it available for iPhone users.&#x20;
 
 ## Limitations
 
@@ -95,14 +95,14 @@ The tool provider does not specify the quota, but users will get an “[exceeded
 
 In addition, the names may not always reflect the individual’s true identity. Users can provide false names or names to a Truecaller user that do not correspond to the person behind the phone number, so the accuracy of a name may require further corroboration.
 
-3. User Privacy Concerns: According to this [article](https://techpoint.africa/2019/12/18/truecaller-data-developer-dive/), the app may be uploading your device information into their servers, and the app may be using an unsecured method of uploading that data.
+3. User Privacy Concerns: According to this [article](https://techpoint.africa/2019/12/18/truecaller-data-developer-dive/), the app may be uploading your device information to their servers, and the app may be using an unsecured method of uploading that data.
 4. [Truecaller Users' Ability To Change Name on the Tool](https://support.truecaller.com/support/solutions/articles/81000392586-how-do-i-change-my-name-in-truecaller-): According to the tool provider, users who have the tool installed can change the way their name appears on the app if their phone number is showing the wrong name. Allowing users to update their name on Truecaller helps keep information accurate and up-to-date, improving user experience and reducing confusion. Still, this feature raises concerns about potential misuse, such as impersonation or fraud, if names are changed easily. While the tool provides a [verification process](https://www.truecaller.com/blog/features/truecaller-verified-badge) to check the real identity behind a phone number, it may not entirely eliminate the risk.
 
 ## Ethical Considerations
 
 1. Use and misuse of information:
 
-Because this tool contains personally identifiable information, it is crucial to understand that using Truecaller must adhere to legal and ethical guidelines before proceeding. It is also advisable that users double-check privacy laws prior to using Truecaller info in any investigation. Minimize harm when presenting or publishing investigations, and publish only necessary information relevant for investigations in the public interest (for instance, in investigative journalism).
+Because this tool contains personally identifiable information, it is crucial to understand that using Truecaller must adhere to legal and ethical guidelines before proceeding. It is also advisable that users double-check privacy laws prior to using Truecaller's information in any investigation. Minimize harm when presenting or publishing investigations, and publish only necessary information relevant to investigations in the public interest (for instance, in investigative journalism).
 
 2. Other privacy-related issues:&#x20;
 
@@ -110,13 +110,13 @@ This [article](https://techcabal.com/2018/05/02/your-data-is-our-data-a-truecall
 
 What this means is that whether you use the service or not, and regardless of whether you delete your data from Truecaller's database, [your information can still reappear. If even one person with your number registers for Truecaller, your details could be added back into the system](https://techcabal.com/2018/05/02/your-data-is-our-data-a-truecaller-breakdown/). Additionally, if you don't use Truecaller, you can't verify if the company has your data.&#x20;
 
-Moreover, the [privacy policy](https://www.truecaller.com/privacy/our-privacy-policy/privacy-policy/row) seems to imply that if you share someone else's personal information with the tool, you must ensure they are aware of and consent to the tool's use of their data. (See the third paragraph of the [privacy policy)](https://www.truecaller.com/privacy/our-privacy-policy/privacy-policy/row)
+Moreover, the [privacy policy](https://www.truecaller.com/privacy/our-privacy-policy/privacy-policy/row) seems to imply that if you share someone else's personal information with the tool, you must ensure they are aware of and consent to the tool's use of their data. (See the third paragraph of the [privacy policy.)](https://www.truecaller.com/privacy/our-privacy-policy/privacy-policy/row)
 
 3. Enhanced Search Feature Privacy Risks:
 
 Users need to note that when signing up with an email address, users outside the EU might inadvertently give permission to upload data associated with a particular email address without realizing it. This feature is called "Enhanced Search Feature". It is checked on the box by default when signing up. Keep an eye on this if you decide to use the tool. [ ](https://www.truecaller.com/privacy/our-privacy-policy/privacy-policy/row)
 
-[Item 1.4 ](https://www.truecaller.com/privacy/our-privacy-policy/privacy-policy/row)of its Privacy Policy shows where you get the app matters. If users download it from sources other than the App Store or Google Play, such as on the web, it might collect your contact info if you turn on a specific feature called “Truecaller Enhanced Search Functionality.” If you use the Enhanced Search feature, Truecaller can collect names, phone numbers, Google IDs, and email addresses from your contacts list.
+[Item 1.4 ](https://www.truecaller.com/privacy/our-privacy-policy/privacy-policy/row)of its Privacy Policy showsthat  where you get the app matters. If users download it from sources other than the App Store or Google Play, such as on the web, it might collect your contact info if you turn on a specific feature called “Truecaller Enhanced Search Functionality.” If you use the Enhanced Search feature, Truecaller can collect names, phone numbers, Google IDs, and email addresses from your contacts list.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-09-09 172809-marked.png" alt="" width="563"><figcaption><p> (Image Source: truecaller.com) This is the sign-up page for Truecaller for users outside of the EU, geared explicitly towards email address sign-up instead of telephone number sign-up. Users are prompted to sign up with either their Google or Microsoft account. Immediately below, “Enhanced Search” is automatically selected. Any concerns about privacy during an investigation should take note of this feature.    </p></figcaption></figure>
 
@@ -138,8 +138,8 @@ Truecaller, Sweden
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer |
