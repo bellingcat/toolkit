@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-[Bulletpicker ](https://www.bulletpicker.com/index.html)is a repository full of a variety of ammunition guidebooks and manuals from several different armed forces. The database is searchable, and each item of ordnance has its dedicated page, the majority with images, schematics, and a description. Each entry links to the source of the information.
+The [Bulletpicker platform](https://www.bulletpicker.com/index.html) compiles a wide range of ammunition manuals and guidebooks from multiple military forces. Users can search the database easily, and every item provides a link back to the original source. Each ordnance item in Bulletpicker has its own page, typically including technical diagrams, real-life images (if available) and a written overview.
 
 {% hint style="danger" %}
 **NOTE:** This website contains information about ordnance, explosives, and related items for educational and reference purposes only. The content should not be used for: (1) attempting self-guided disposal of explosive devices; (2) manufacturing explosive devices or components; (3) handling unexploded ordnance without proper training; (4) any illegal activities involving explosive materials.
