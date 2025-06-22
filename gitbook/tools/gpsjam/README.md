@@ -150,16 +150,16 @@ As a potential consequence, the tool may sometimes not work for drones. Because 
 
 5. [**Calculating the percentage of “bad” aircraft has the potential to bias map data:** ](https://gpsjam.org/faq#how-is-the-percentage-calculated)Think of each hex on the map as a small zone in the sky. To determine the color of each hex (green, yellow, or red), the system checks how many planes passed through that zone and whether their GPS is working correctly.
 
-“Good planes” are planes with functioning GPS.
+_“Good planes”_ are planes with functioning GPS.
 
-“Bad planes” are planes experiencing GPS issues.
+_“Bad planes”_ are planes experiencing GPS issues.
 
 To figure out the color of the hex, the tool calculates a percentage based on the ratio of good planes to bad planes within that zone. If a lot of planes have GPS problems, the percentage of bad planes will be higher, turning the hex yellow or red. If most planes are fine, the hex stays green.
 
 \
 However, here’s the catch: in areas with very few planes, a single bad GPS reading could make it seem like there’s a serious issue, even if it’s just a one-off problem. To correct for this, they subtract one "bad plane" from the total count to reduce false alarms in zones with fewer planes.
 
-The downside of this process is that in areas with very few planes, this adjustment might cause the system to miss real problems because there’s not enough data to confidently show that something is wrong.
+The downside of this process is that in areas with very few planes, this adjustment may cause the system to miss real problems because there is not enough data to confidently indicate that something is wrong.
 
 In short, they balance showing accurate issues without overreacting to random bad signals, but this approach can hide real issues in places with less air traffic.
 
