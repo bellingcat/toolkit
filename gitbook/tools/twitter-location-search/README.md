@@ -96,7 +96,7 @@ To mitigate these limitations, users should avoid location-only searches and tak
 
 5. **Inability to Distinguish Between User-Reported Location and Profile Location**
 
-Based on our tests, the **"near:"** search operator sometimes produces irrelevant results due to the platform's limitations in accurately determining post locations. The tool sometimes struggles to differentiate between a user's profile location and actual location where a post was created. This leads results that include posts from people who simply live in the area, not necessarily those related to a specific event or topic being searched.&#x20;
+Based on our tests, the **"near:"** search operator sometimes produces irrelevant results due to the platform's limitations in accurately determining post locations. The tool sometimes struggles to differentiate between a user's profile location and the actual location where a post was created. This leads to results that include posts from people who simply live in the area, not necessarily those related to a specific event or topic being searched.&#x20;
 
 ## Ethical Considerations
 
@@ -110,7 +110,7 @@ X.com, USA
 
 ## Guide
 
-See Bellingcat’s Case Study into tweets during the COVID-19 crisis in India showing the scarcity of precise geolocation data, requiring multiple geocoded queries to approximate geographic distribution:
+See Bellingcat’s Case Study into tweets during the COVID-19 crisis in India, showing the lack of precise geolocation data, requiring multiple geocoded queries to approximate geographic distribution:
 
 [https://www.bellingcat.com/resources/2021/05/19/geofenced-searches-on-twitter-a-case-study-detailing-south-asias-covid-crisis/](https://www.bellingcat.com/resources/2021/05/19/geofenced-searches-on-twitter-a-case-study-detailing-south-asias-covid-crisis/)
 
