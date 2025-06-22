@@ -57,7 +57,7 @@ This can aid open-source investigations with a time-sensitive location element.
 
 It can be used to:
 
-* Potentially verify travel claims: By entering a location and timeframe, investigators can see if a reported train travel aligns with what's realistically possible.
+* Potentially verify travel claims: By entering a location and timeframe, investigators can determine if a reported train travel aligns with what is realistically possible.
 * Potentially track movement patterns: Analyze potential routes and locations reachable by train within a specific timeframe, helping identify areas a person of interest might have visited.
 
 ### How does it work?
@@ -76,11 +76,11 @@ Think of a graph like a map, but instead of just showing locations, it also show
 
 _2. Exploring the Graph:_
 
-For each station, the system checks to which other stations you can get in a certain amount of time. For example, it might check which stations you can reach from Station A in 1 hour, 2 hours, etc.
+For each station, the system checks which other stations you can get to in a certain amount of time. For example, it might check which stations you can reach from Station A within 1 hour, 2 hours, and so on.
 
 **Data Source:**
 
-**Deutsche Bahn (DB) Data:** The information about train times and stations comes from Deutsche Bahn. Deutsche Bahn co-operates routes with different countries' rail systems ([https://io.deutschebahn.com/en/services/passenger-rail/](https://io.deutschebahn.com/en/services/passenger-rail/)) and therefore has data on train schedules for [international destinations](https://ibir.deutschebahn.com/2023/fileadmin/downloads/db_ib23_e_web_01.pdf) (based on 2023 Integrated Report, p.38, p.49). According to DB International Operations’ website, “DB’s regional services do not only operate in Germany, but also across borders and in other European countries, including the UK, Czech Republic, Denmark, the Netherlands, Poland, and Portugal.”
+**Deutsche Bahn (DB) Data:** The information about train times and stations comes from Deutsche Bahn. Deutsche Bahn cooperates routes with different countries' rail systems ([https://io.deutschebahn.com/en/services/passenger-rail/](https://io.deutschebahn.com/en/services/passenger-rail/)) and therefore has data on train schedules for [international destinations](https://ibir.deutschebahn.com/2023/fileadmin/downloads/db_ib23_e_web_01.pdf) (based on 2023 Integrated Report, p.38, p.49). According to DB International Operations’ website, “DB’s regional services do not only operate in Germany, but also across borders and in other European countries, including the UK, Czech Republic, Denmark, the Netherlands, Poland, and Portugal.”
 
 **API by Direkt Bahn Guru:** This data is made easier to access and use through a tool (API) provided by [Direkt Bahn Guru](https://direkt.bahn.guru/), which helps organize and provide the data in a convenient format.
 
@@ -116,7 +116,7 @@ While Ukraine is marked as available on the map, it may be incomplete. Make sure
 
 2. **Accuracy**
 
-Chronotrains.com includes a caveat [that the travel times are based on estimates only provided by Deutsche Bahn data](https://www.chronotrains.com/en/8) (Under FAQs). Actual arrival times may not always match. Therefore, it is important to use this platform for estimates.
+Chronotrains.com includes a caveat [that the travel times are based on estimates only provided by Deutsche Bahn data](https://www.chronotrains.com/en/8) (Under FAQs). Actual arrival times may not always match. Therefore, it is important to use this platform ony for estimates.
 
 3. **Adding Connections (“Edges”) Between “Closeby Stations” Based on Assumed Walking Speed**
 
@@ -126,7 +126,7 @@ According to its [GitHub page](https://github.com/benjamintd/chronotrains), “c
 
 **Assumed speed:** The system also assumes that you can walk/travel between these stations at a speed of 9/km/h (5.59 mph) - which is described as [“faster than walking but slower than biking.”](https://github.com/benjamintd/chronotrains)
 
-It is important to note that this speed can be variable from person to person and that this is an average estimate. So when looking at the data on Chronotrains, keep these limitations in mind.
+It is important to note that this speed can vary from person to person and that this is an average estimate. So, when looking at the data on Chronotrains, keep these limitations in mind.
 
 4. **Local Transit Exclusion**
 
@@ -148,9 +148,9 @@ These types of multi-modal journeys, which involve switching from a train to a b
 
 According to its [GitHub page](https://github.com/benjamintd/chronotrains), when switching from one train to another, the system assumes it takes 20 minutes. Since this can be variable depending on the person or unforeseen transit delays,  the data should be taken as an estimate and needs to be cross-checked with other train schedules.
 
-6. **Some Trains May Be Not Be Reflected on the Map**
+6. **Some Trains May Not Be Reflected on the Map**
 
-[A post from May 2023](https://x.com/jason_boyer/status/1663822318982889472), shows that certain train connections that should be visible on the map may not appear (to date, the issue described in the post does not seem to occur anymore at that specific location). In addition, there is another reason why some train information are missing. Since Chronotrains also uses data from Direkt Bahn Guru, this GitHub page acknowledges that: [“The API includes most trains in central Europe, but data availability gets significantly lower the further away stations are from routes (co-) operated by DB.” ](https://gist.github.com/juliuste/f9776a6b7925bc6cc2d52225dd83336e)Also, according to this page, trains from smaller companies are often not included compared to those from state-owned operators, probably because they don't share data as much.
+[A post from May 2023](https://x.com/jason_boyer/status/1663822318982889472), shows that certain train connections that should be visible on the map may not appear (to date, the issue described in the post does not seem to occur anymore at that specific location). In addition, there is another reason why some train information is missing. Since Chronotrains also uses data from Direkt Bahn Guru, this GitHub page acknowledges that: [“The API includes most trains in central Europe, but data availability gets significantly lower the further away stations are from routes (co-) operated by DB.” ](https://gist.github.com/juliuste/f9776a6b7925bc6cc2d52225dd83336e)Also, according to this page, trains from smaller companies are often not included compared to those from state-owned operators, probably because they don't share data as much.
 
 7. **Data From Deutsche Bahn API Has** [**Limits**](https://gist.github.com/juliuste/f9776a6b7925bc6cc2d52225dd83336e)**.**
 
@@ -172,7 +172,7 @@ As mentioned above, Chronotrains uses data based on pre-scheduled train times an
 
 **Accuracy:**
 
-Chronotrains data should be treated as an estimate or an investigative lead that needs further verification. While Chronotrains uses established train schedule data, it's important to consider if there could be any bias within that data itself. For instance, if certain routes are less frequently traveled or have less up-to-date scheduling information, this could skew the results generated by Chronotrains.
+Chronotrains' data should be treated as an estimate or an investigative lead that needs further verification. While Chronotrains uses established train schedule data, it's important to consider if there could be any bias within that data itself. For instance, if certain routes are less frequently traveled or have less up-to-date scheduling information, this could skew the results generated by Chronotrains.
 
 If less frequently traveled routes are underrepresented, the overall dataset might not accurately reflect precise travel estimates. However, this does not drastically compromise the overall quality and reliability of Chronotrains' data. These travel estimates can still be valuable, particularly when coupled with mitigation strategies such as regularly verifying data from multiple reliable sources, including real-time updates and local transit information.
 
