@@ -29,7 +29,7 @@ This could mean the investigator will have to manually compile a list of all tho
 <figure><img src=".gitbook/assets/ScreenRecording2024-09-15195317-ezgif.com-censor.gif" alt="" width="563"><figcaption><p>This is an example of a post of Bayon Temple, a popular tourist destination in Siem Reap, Cambodia. However, the challenge is that when a user tags the image, various location suggestions appear. Searching for relevant media through individual location tags is inefficient and may risk excluding pertinent potential images/videos for the investigation.</p></figcaption></figure>
 
 1. This tool solves the problem of efficiency. Instagram Location Search casts a broader net by compiling all the location tags near a set of coordinates along with their respective links to Instagram’s Explore page.
-2. This tool also solves the problem of ease of exporting the data in various output formats that are tailored to the individual needs of the investigator.
+2. This tool also addresses the issue of exporting data in various output formats tailored to the individual needs of the investigator.
 
 <details>
 
@@ -64,8 +64,8 @@ NOTE: Giving access to your Instagram account using this tool may breach the pla
 
 ### Use Case
 
-1. A potential use case for this tool is for real-time security or conflict monitoring especially on developing news. According to this [review](https://web.archive.org/web/20240419233411/https://os2int.com/toolbox/identifying-and-scraping-from-instagram-locations-with-instagram-location-search/), the tool was used to help find “media of intelligence value” while monitoring the ongoing military coup in Khartoum, Sudan.
-2. Another potential use case is looking for images of ships and other vessels on Instagram or posts by workers or crew members. A similar tool was used during the discovery phase in [Bellingcat’s Tobago oil spill investigation](https://www.bellingcat.com/news/2024/02/14/identifying-the-mystery-vessel-at-the-site-of-trinidad-tobagos-national-emergency-oil-spill/). In the same investigation, researchers were able to find potential employees by searching for photos tagged at the a location of interest. Their followers and liked posts were also analyzed. This allowed researchers to discover additional employees who had posted pictures of the same location but hadn't geotagged them, providing additional leads.
+1. A potential use case for this tool is for real-time security or conflict monitoring, especially on developing news. According to this [review](https://web.archive.org/web/20240419233411/https://os2int.com/toolbox/identifying-and-scraping-from-instagram-locations-with-instagram-location-search/), the tool was used to help find “media of intelligence value” while monitoring the ongoing military coup in Khartoum, Sudan.
+2. Another potential use case is looking for images of ships and other vessels on Instagram or posts by workers or crew members. A similar tool was used during the discovery phase in [Bellingcat’s Tobago oil spill investigation](https://www.bellingcat.com/news/2024/02/14/identifying-the-mystery-vessel-at-the-site-of-trinidad-tobagos-national-emergency-oil-spill/). In the same investigation, researchers identified potential employees by searching for photos tagged at a location of interest. Their followers and liked posts were also analyzed. This allowed researchers to discover additional employees who had posted pictures of the same location but hadn't geotagged them, providing additional leads.
 
 ## Cost
 
@@ -91,9 +91,9 @@ Some beginner understanding of command line tools
 
 1. Level of difficulty
 
-One of the tool's limitations is that users are required to have a fundamental knowledge of both the command line and Python programming. Without this, they may struggle with basic operations and troubleshooting. However, there are simple guides available.
+One of the tool's limitations is that users are required to have a fundamental knowledge of both the command line and Python programming. Without this, they may struggle with basic operations and troubleshooting. However, simple guides are available.
 
-2. Potential flagging of account
+2. Potential flagging of user account
 
 Using Bellingcat's Instagram location search tool may pose certain risks. As mentioned above, granting access to your Instagram account through this tool could potentially violate Instagram’s Terms of Service, which might result in your account being flagged or suspended. Mitigate by using a dedicated research account.
 
