@@ -92,7 +92,7 @@ Find posts from specific accounts to specific accounts or that mention specific 
 
 These are the subfilters:
 
-**“From these accounts”** Searching for posts from `@Iamsterdam` will show posts posted by this account.
+**“From these accounts,”** Searching for posts from `@Iamsterdam` will show posts posted by this account.
 
 **“To these accounts”** Searching for posts sent to @Iamsterdam will show posts in which other users replied to @Iamsterdam.
 
@@ -121,7 +121,7 @@ This ability to isolate replies proves especially valuable in numerous areas. Fo
 {% hint style="info" %}
 TIP: This filter does not allow you to specify a specific website or URL. The search will simply include posts with any link, regardless of the domain.&#x20;
 
-Instead, use "this exact phrase" to type  the specific link you are looking for.&#x20;
+Instead, use "this exact phrase" to type the specific link you are looking for.&#x20;
 {% endhint %}
 
 #### **ENGAGEMENTS**
@@ -183,7 +183,7 @@ Saving searches is simple:
 ### _**Advanced Search (Mobile App)**_
 
 {% hint style="success" %}
-If doing Advanced Search on a mobile device, it may be preferable to go to the mobile device’s web browser and perform the steps outlined above with the Advanced Search interface, instead of the the app.&#x20;
+If doing Advanced Search on a mobile device, it may be preferable to go to the mobile device’s web browser and perform the steps outlined above with the Advanced Search interface, instead of the app.&#x20;
 {% endhint %}
 
 However, if you must do a granular search on the X app, you can do so in the search box, using operators or boolean, just as one would when searching various search engines like Google.
@@ -198,15 +198,15 @@ A sample search done on mobile can be seen in the image below.
 
 ### _**What problem does it solve?**_
 
-There is a sea of content constantly flowing around real-time events and trending topics. Twitter Advanced Search addresses the challenge to navigate this vast ocean of information by providing filtering options and the ability to search across a wider range of criteria for relevant results.&#x20;
+There is a sea of content constantly flowing around real-time events and trending topics. Twitter Advanced Search addresses the challenge of navigating this vast ocean of information by providing filtering options and the ability to search across a wider range of criteria for relevant results.&#x20;
 
 The research process of open-source researchers is often iterative. We often start broad, using search terms like "protest" and "Syria" in the discovery phase. As we sift through the initial results, we might encounter posts mentioning a specific location like "Daraa" or a prominent group named "Syrian Revolutionary Forces." These findings become stepping stones. We then refine our search terms, incorporating these new details or harvesting new search terms. This might involve searching for posts containing "Daraa protest" or "Syrian Revolutionary Forces leader." The search might also expand to Arabic hashtags related to the protest or the group.
 
-Using different combinations of parameters such as locations, languages, and hashtags in Advanced Search is beneficial during this evolving process. It allows investigators to continuously refine their search queries throughout the research process.
+Using different combinations of parameters, such as locations, languages, and hashtags in Advanced Search, is beneficial during this evolving process. It allows investigators to refine their search queries throughout the research process continuously.
 
 ### Radar
 
-As of Oct 18 2024, [X launche](https://x.com/premium/status/1847338164412960802?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1847338164412960802%7Ctwgr%5Ef5e8ad612c44f76b06a5eb49d841c99bd0e3b8b1%7Ctwcon%5Es1_\&ref_url=https%3A%2F%2Ftechcrunch.com%2F2024%2F10%2F21%2Fx-rolls-out-its-real-time-search-tool-radar-to-premium-subscribers%2F)[d](https://x.com/premium/status/1847338164412960802?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1847338164412960802%7Ctwgr%5Ef5e8ad612c44f76b06a5eb49d841c99bd0e3b8b1%7Ctwcon%5Es1_\&ref_url=https%3A%2F%2Ftechcrunch.com%2F2024%2F10%2F21%2Fx-rolls-out-its-real-time-search-tool-radar-to-premium-subscribers%2F) a real-time search and analysis tool called "Radar". However, this is only available to Premium+ subscribers, and this is so far an early version. It is a feature that used only to be available for businesses and was previously called "Insights." [It claims to allow account holders to track topics and trends in real-time.](https://web.swipeinsight.app/posts/x-expands-radar-access-real-time-trend-analysis-tool-for-premium-users-11939) According to [TechCrunch](https://techcrunch.com/2024/10/21/x-rolls-out-its-real-time-search-tool-radar-to-premium-subscribers/?guccounter=1\&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8\&guce_referrer_sig=AQAAAHGYJM6G7eP7gNxD5RPmmGqFmcTuiKDJaUCDUeihLCuq_1HXhEoG897iZ3OZGqQHXuHe7vwZWKdDljXzXkiJjJPGXFjACfjbS_Up7YW37YR7581V3BZI-N64ou8laovrZAIQGkhTy-kP6DAOvpx8_Qk2jgwgm1ARWBKhPnN7zqqo), this could "perform keyword analyses, visualize trend activity, and filter conversations in real-time". According to this source, one of its "Core Features" is to track conversation volume over time and conversation velocity.
+As of Oct 18, 2024, [X launche](https://x.com/premium/status/1847338164412960802?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1847338164412960802%7Ctwgr%5Ef5e8ad612c44f76b06a5eb49d841c99bd0e3b8b1%7Ctwcon%5Es1_\&ref_url=https%3A%2F%2Ftechcrunch.com%2F2024%2F10%2F21%2Fx-rolls-out-its-real-time-search-tool-radar-to-premium-subscribers%2F)[d](https://x.com/premium/status/1847338164412960802?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1847338164412960802%7Ctwgr%5Ef5e8ad612c44f76b06a5eb49d841c99bd0e3b8b1%7Ctwcon%5Es1_\&ref_url=https%3A%2F%2Ftechcrunch.com%2F2024%2F10%2F21%2Fx-rolls-out-its-real-time-search-tool-radar-to-premium-subscribers%2F) a real-time search and analysis tool called "Radar". However, this is only available to Premium+ subscribers, and this is so far an early version. It is a feature that was previously available to businesses and was formerly known as "Insights." [It claims to allow account holders to track topics and trends in real-time.](https://web.swipeinsight.app/posts/x-expands-radar-access-real-time-trend-analysis-tool-for-premium-users-11939) According to [TechCrunch](https://techcrunch.com/2024/10/21/x-rolls-out-its-real-time-search-tool-radar-to-premium-subscribers/?guccounter=1\&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8\&guce_referrer_sig=AQAAAHGYJM6G7eP7gNxD5RPmmGqFmcTuiKDJaUCDUeihLCuq_1HXhEoG897iZ3OZGqQHXuHe7vwZWKdDljXzXkiJjJPGXFjACfjbS_Up7YW37YR7581V3BZI-N64ou8laovrZAIQGkhTy-kP6DAOvpx8_Qk2jgwgm1ARWBKhPnN7zqqo), this could "perform keyword analyses, visualize trend activity, and filter conversations in real-time". According to this source, one of its "Core Features" is to track conversation volume over time and conversation velocity.
 
 We are unable to test this paid feature at the moment, but a short demo is available here: https://x.com/premium/status/1847338164412960802 and here: https://x.com/premium/status/1848510511916494970
 
@@ -244,7 +244,7 @@ By including these additional spellings, you'll be conducting a more comprehensi
 
 3. **Keyword Specificity and Irrelevant Results:**
 
-After testing the tool, if the keyword is common or used in different contexts, it might retrieve irrelevant mentions. Let's say you're searching for information about the recent developments in "electric cars." This is a common term, used in many different contexts.
+After testing the tool, if the keyword is common or used in different contexts, it might retrieve irrelevant mentions. Let's say you're searching for information about the recent developments in "electric cars." This is a common term used in many different contexts.
 
 The search might return tweets about a toy car commercial featuring electric vehicles, a news report on a power outage affecting electric car charging stations, etc., and might not be relevant to the research question.
 
@@ -258,7 +258,7 @@ It sometimes does not catch all the search parameters. Testing both in the web b
 
 6. **The “Links” Filter Cannot Specify a Domain**
 
-As mentioned above, users can search for posts containing links however one cannot specify which domain. Users can circumvent this limitation by using "this exact phrase" instead, or using search operators directly on the search bar. [For example: ](https://medium.com/@prajwalshivareddy/unlocking-the-power-of-x-formerly-twitter-unveiling-effective-search-methods-and-syntax-69974a27d12)**url:example.com**
+As mentioned above, users can search for posts containing links; however, one cannot specify which domain. Users can circumvent this limitation by using "this exact phrase" instead, or using search operators directly on the search bar. [For example: ](https://medium.com/@prajwalshivareddy/unlocking-the-power-of-x-formerly-twitter-unveiling-effective-search-methods-and-syntax-69974a27d12)**url:example.com**
 
 7. **Limits to Available History of Posts**
 
@@ -266,7 +266,7 @@ Twitter's Advanced Search boasts an impressive range, allowing you to delve into
 
 8. **Inability to Filter For Media**
 
-Open-source investigators are constantly looking for and collecting media during research, whether images or videos. The Advanced Search does not have a search filter for this. To do so, investigators may prefer to use boolean or search operators on the search bar to find what they need. An example would be to input “Amsterdam” as a keyword and add [filter:native\_video (or filter:media or filter:videos, etc)](https://github.com/igorbrigadir/twitter-advanced-search)
+Open-source investigators are constantly looking for and collecting media during research, whether images or videos. The Advanced Search does not have a search filter for this. To do so, investigators may prefer to use Boolean or search operators on the search bar to find what they need. An example would be to input “Amsterdam” as a keyword and add [filter:native\_video (or filter:media or filter:videos, etc)](https://github.com/igorbrigadir/twitter-advanced-search)
 
 One can also use the search bar using keywords, and click on the Media tab under the results.
 
