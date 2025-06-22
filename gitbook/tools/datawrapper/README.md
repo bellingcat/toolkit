@@ -6,19 +6,19 @@ description: >-
 
 # Datawrapper
 
-## URL
+## ,URL
 
 https://www.datawrapper.de/
 
 ## Description
 
-The purpose of the tool is to help users convert raw data into interactive and visually appealing graphics without the need to have advanced technical skills. According to a Datawrapper co-founder:  &#x20;
+The purpose of the tool is to help users convert raw data into interactive and visually appealing graphics without requiring advanced technical skills. According to a Datawrapper co-founder:  &#x20;
 
 "\[[t\]he idea is that you have a two-minute interaction with the tool](https://www.icij.org/inside-icij/2018/08/nine-essential-tools-from-icijs-data-journalism-and-programming-experts/)”. Its target users are primarily journalists, researchers, and data analysts who would like to communicate data insights effectively. The International Consortium of Investigative Journalism [said that](https://www.icij.org/inside-icij/2018/08/nine-essential-tools-from-icijs-data-journalism-and-programming-experts/) Datawrapper as "an open source tool for anyone who wants to create a chart or map from their data, came out of the knowledge that expecting every journalist to know code is unrealistic."
 
 ### How it works
 
-Datawrapper is particularly helpful during the analysis and presentation stage of digital open-source investigations. It supports three categories of visualizations: **Chart, Map, and Table**. Note that the chart, map, and table generated are, by default, interactive. They will respond to the user’s mouse hovering over the various data on display. &#x20;
+Datawrapper is particularly helpful during the analysis and presentation stage of digital open-source investigations. It supports three categories of visualizations: **Chart, Map, and Table**. Note that the charts, maps, and tables generated are, by default, interactive. They will respond to the user’s mouse hovering over the various data on display. &#x20;
 
 {% hint style="success" %}
 TIP: It is helpful to check the[ Datawrapper Academy](https://academy.datawrapper.de/) website or its blog prior to beginning a project. It covers straightforward descriptions of various chart, map, and table types. This is useful for determining which kind of data and how many data points you need for a particular type of visualization.
@@ -30,28 +30,28 @@ NOTE: Prepare your data. Ensure that your data is organized, complete and refine
 
 ### CHART
 
-Charts can turn complex data into visual representations that are easier to interpret. It simplifies information by distilling large amounts of data, making it more straightforward to grasp key trends, patterns, and outliers without wading through raw data. It can also reveal relationships between variables.&#x20;
+Charts can turn complex data into visual representations that are easier to interpret. It simplifies information by distilling large amounts of data, making it easier to grasp key trends, patterns, and outliers without having to wade through raw data. It can also reveal relationships between variables.&#x20;
 
-If using Datawrapper to create a chart, users have four main steps to complete. They (1) upload their data, (2) double-check that data is displayed correctly, (3) visualize, and, finally (4) publish/download or embed the final product.&#x20;
+If using Datawrapper to create a chart, users have four main steps to complete. They (1) upload their data, (2) double-check that data is displayed correctly, (3) visualize, and, finally, (4) publish/download or embed the final product.&#x20;
 
-Log in and proceed to Dashboard. Click, “Create New” and select “Chart”.
+Log in and proceed to the Dashboard. Click, “Create New” and select “Chart”.
 
 #### _**Upload Data**_
 
 Users can upload data in four ways:&#x20;
 
-1. Copy and paste an already existing data table onto the empty field to the right.&#x20;
+1. Copy and paste an already existing data table into the empty field to the right.&#x20;
 2. Upload an XLS/CSV file (typically one used in MS Excel)
 3. Connect to Google Sheets by inputting a link. &#x20;
 4. Enter a URL link to an external CSV file.
 
 #### _**Check Data**_
 
-Datawrapper includes this step to allow users to verify the accuracy of their uploaded data and ensure that the tool displays the information as intended. Users should carefully check that all rows and columns are present, verify that each cell contains the correct value, confirm that there are no missing data, and make sure that the categories are correctly represented.
+Datawrapper includes this step to allow users to verify the accuracy of their uploaded data and ensure that the tool displays the information as intended. Users should carefully check that all rows and columns are present, verify that each cell contains the correct value, confirm that there is no missing data, and make sure that the categories are correctly represented.
 
 <details>
 
-<summary>Sample Steps for Checking Your Data (CLICK TO EXPAND)</summary>
+<summary>Sample Steps for Checking Your Data <mark style="color:green;">(CLICK TO EXPAND)</mark></summary>
 
 Suppose you’re using Datawrapper to create a chart showing the number of armed conflict incidents reported in various countries over the past year. After uploading your data, Datawrapper prompts you to review it.
 
@@ -106,7 +106,7 @@ NOTE on the "Layout" tab: Output locale language does not translate content user
 The final step is to publish the chart. This step is particularly important if users plan to embed it in websites or blogs or share the visualization on social media platforms. Visualizations are private by default unless users publish them. &#x20;
 
 {% hint style="warning" %}
-NOTE: Datawrapper does not share visualizations publicly, even after publishing. It becomes visible only if users forward the URL to other individuals or embed them in their websites.&#x20;
+NOTE: Datawrapper does not share visualizations publicly, even after publishing. It becomes visible only if users forward the URL to other individuals or embed it in their websites.&#x20;
 
 Any changes made to the chart will not be visible to the audience until you "republish" the chart.&#x20;
 {% endhint %}
@@ -160,7 +160,7 @@ So, when you look at the map, you can easily see which areas have the best inter
 
 #### **Select your map**
 
-This step allows users to select what kind of base map is needed for data visualization. The Datawrapper list of maps contains a huge selection. The types of maps available are: World maps, regional maps, and country maps. As a plus, some countries have different subtypes available as well. For instance,  Argentina also includes a map divided by departments, or by electoral districts, by provinces. It also has available a map subtype that is city-specific such as the Argentina - Buenos Aires Metropolitan Area.&#x20;
+This step allows users to select what kind of base map is needed for data visualization. The Datawrapper list of maps contains a huge selection. The types of maps available are: World maps, regional maps, and country maps. As a plus, some countries have different subtypes available as well. For instance,  Argentina also includes a map divided by departments, by electoral districts, or by provinces. It also has available a map subtype that is city-specific, such as the Argentina - Buenos Aires Metropolitan Area.&#x20;
 
 {% hint style="success" %}
 TIP: Users can also upload their own maps. However, this is a slightly advanced feature and you may consult [this guide.](https://academy.datawrapper.de/article/145-how-to-upload-your-own-map)
@@ -176,7 +176,7 @@ This section is automatically prefilled with two columns: Column A for the name 
 
 2. Upload a file: CSV or Excel (located to the left) &#x20;
 3. Copy and paste data (located to the left)&#x20;
-4. Connect a remote data set: input a link to external data (i.e. data from NASA) or connect to Google Sheets&#x20;
+4. Connect a remote data set: input a link to external data (i.e., data from NASA) or connect to Google Sheets.&#x20;
 
 {% hint style="warning" %}
 NOTE: The pre-made table seems to depend on the kind of map you select in the previous step. If you choose a World Map for your data, it will populate Column A with a list of countries in that map. If you choose a map of Asia, it will fill Column A with a list of countries for that continent.
@@ -201,9 +201,9 @@ Just like in the CHART section above, the Visualize tab lets users customize the
 The refine tab allows users to customize the details of the map. This includes:
 
 * &#x20;Customizing the colors to represent different values;
-* &#x20;Deciding whether you want the legend on display and the way the legend looks;
+* &#x20;Deciding whether you want the legend on display and the way the legend looks.
 * Making the map zoomable or not, and the location of the zoom button;
-* Map appearance: whether you want a full map or a partial map on display, the size in pixels, map alignment;
+* Map appearance: whether you want a full map or a partial map on display, the size in pixels, and map alignment;
 * Appearance of region borders (or not).
 {% endtab %}
 
@@ -282,7 +282,7 @@ The steps for creating a symbol map are very similar to those for the choropleth
 {% tabs %}
 {% tab title="Refine" %}
 * Customize symbols of your choice and their size.
-* Users can also customize the colors, and choose the column you want to be highlighted on the map. For example, if looking at incidents of armed clashes in Burkina Faso, a user might want to highlight how many of those are targeting civilians. In this case, select the column “civilian targeting”. &#x20;
+* Users can also customize the colors and choose the column they want to be highlighted on the map. For example, if looking at incidents of armed clashes in Burkina Faso, a user might want to highlight how many of those are targeting civilians. In this case, select the column “civilian targeting”. &#x20;
 * Customize map features: by making the map zoomable or by including an “inset map” to provide context on the location for those who are not familiar with it.
 {% endtab %}
 
@@ -401,7 +401,7 @@ Tables are highly versatile data visualization tools, allowing for the inclusion
 
 **Start a New Visualization**
 
-* Click on "Create a New Chart": After logging in, you’ll be taken to the dashboard. Click on the "Create a New Chart" button.
+* Click on "Create a New Chart.": After logging in, you’ll be taken to the dashboard. Click on the "Create a New Chart" button.
 * Select "Table": Datawrapper offers several chart types, but for this tutorial, select "Table" from the list of options.
 
 **Table Creation**
@@ -439,10 +439,10 @@ Tables are highly versatile data visualization tools, allowing for the inclusion
 
 Datawrapper offers team features, enabling multiple users to work together on visualizations. This is particularly useful for investigative teams, allowing for shared insights and efficient workflows. It is also especially useful for collaboration within one organization and in instances where a team from one organization partners with a team from another organization. &#x20;
 
-Detailed instructions on creating and managing Teams in Datawrapper, can be found [here](https://academy.datawrapper.de/article/209-how-to-create-a-team) and[ here](https://academy.datawrapper.de/article/217-what-are-teams).  However, below is a summary of those steps and some important caveats. &#x20;
+Detailed instructions on creating and managing Teams in Datawrapper can be found [here](https://academy.datawrapper.de/article/209-how-to-create-a-team) and[ here](https://academy.datawrapper.de/article/217-what-are-teams).  However, below is a summary of those steps and some important caveats. &#x20;
 
 {% hint style="info" %}
-NOTE #1: According to the tool provider: If you create a team, you will automatically be the team owner – and every member of a team can use the features of the team owner's pricing plan. For example, if you bought a custom plan with two custom design themes, and you create a team, everybody in your team will be able to create charts with these two themes, use the PDF export, and use all other custom features.
+NOTE #1: According to the tool provider, if you create a team, you will automatically be the team owner, and every member of a team can use the features of the team owner's pricing plan. For example, if you bought a custom plan with two custom design themes, and you create a team, everybody in your team will be able to create charts with these two themes, use the PDF export, and use all other custom features.
 
 NOTE #2: Even as a “team owner,” members you have invited have the ability to edit the visualizations. Every member can edit, publish, or embed any visualization in a team folder.
 {% endhint %}
@@ -521,27 +521,27 @@ NOTE: Even the free version includes robust features and can perform most data v
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
-For charts and tables - the difficulty is level 2 out of 5.&#x20;
+For charts and tables, the difficulty is level 2 out of 5.&#x20;
 
-For maps - the difficulty level can increase from 2 to 3 out of 5.&#x20;
+For maps, the difficulty level can increase from 2 to 3 out of 5.&#x20;
 
 The difficulty level also increases as your dataset gets more complicated. The difficulty level also depends on the detail of customization users want in order to communicate their data in these visualizations. Each visualization type has many features that are not obvious to beginners.&#x20;
 
 ## Requirements
 
 1. Create a user account;
-2. Internet connection and modern browser;
+2. Internet connection and a modern browser;
 3. Desktop device;
 4. An organized external dataset;
-5. May need a subscription if users want extra features. The free version, however, is more than enough for many users.
+5. Users may need a subscription to access extra features. The free version, however, is more than enough for many users.
 
 ## Limitations
 
 **1. Charts:**
 
-* _**Data Skills:**_ Creating clear charts might require some knowledge of Excel formulas and data formatting. Uploading incomplete data can lead to unexpected results. Datawrapper has a list of troubleshooting issues that seem to be related to how CSV files are formatted prior to uploading them, for instance on [how to prevent Excel from changing numbers into dates](https://academy.datawrapper.de/article/89-prevent-excel-from-changing-numbers-into-dates) or [on receiving the message "undefined" when uploading a csv](https://academy.datawrapper.de/article/109-undefined-what-it-means-and-what-to-do).&#x20;
+* _**Data Skills:**_ Creating clear charts might require some knowledge of Excel formulas and data formatting. Uploading incomplete data can lead to unexpected results. Datawrapper has a list of troubleshooting issues that seem to be related to how CSV files are formatted prior to uploading them, for instance, on [how to prevent Excel from changing numbers into dates](https://academy.datawrapper.de/article/89-prevent-excel-from-changing-numbers-into-dates), or [on receiving the message "undefined" when uploading a CSV](https://academy.datawrapper.de/article/109-undefined-what-it-means-and-what-to-do).&#x20;
 * _**Missing Data:**_ Line charts might show gaps if your data has missing values. This isn't always a bad thing, but it's important to understand why the gaps appear.
-  * Patchy data in line charts sometimes appear if the dataset is missing values. Sometimes it is because there is no data available  (in which case Datawrapper does not want to mislead by filling in a connection between one data point to another). Sometimes it is because of [problems formatting the data](https://academy.datawrapper.de/article/321-patchy-data).&#x20;
+  * Patchy data in line charts sometimes appears if the dataset is missing values. Sometimes it is because there is no data available  (in which case Datawrapper does not want to mislead by filling in a connection between one data point and another). Sometimes it is because of [problems formatting the data](https://academy.datawrapper.de/article/321-patchy-data).&#x20;
 
 **2. Maps:**
 
@@ -554,7 +554,7 @@ The difficulty level also increases as your dataset gets more complicated. The d
     * Some map features and their functions are not immediately obvious to the user. For example, errors appear when making the map zoomable. Map labels sometimes do not appear at all.&#x20;
     * When you embed a map, it starts at a zoomed-out view. This is okay for a general overview, but it can be difficult to see details. Zooming in lets you explore specific areas.
     * If you don't set it up right, important information like city names or labels might disappear when you zoom in or out. This can be confusing for people trying to understand your map.
-    * Datawrapper explains that "you will find that the map labels don't show up before you either zoom in or set the minimum zoom for labels to 1” To avoid this, you need to make sure the labels are visible[ by setting it to 1](https://academy.datawrapper.de/article/238-my-map-labels-dont-show-u) no matter how much people zoom in or out.
+    * Datawrapper explains that "you will find that the map labels don't show up before you either zoom in or set the minimum zoom for labels to 1.” To avoid this, you need to make sure the labels are visible[ by setting them to 1](https://academy.datawrapper.de/article/238-my-map-labels-dont-show-u), no matter how much people zoom in or out.
 
 
 * Copy-Pasting and CSV Import Errors\
@@ -571,11 +571,11 @@ The difficulty level also increases as your dataset gets more complicated. The d
 * _**Data Limits:**_ Datawrapper [works best with smaller datasets](https://academy.datawrapper.de/article/310-max-size-for-data-upload). Uploading very large datasets can lead to slow loading times and lag.&#x20;
 * _**Updates:**_ You can't update visualizations once published. However, you can update the data each time you open the chart and republish.
 * _**Translations:**_ Datawrapper can translate the built-in features of the tool, but not the content you manually enter (like the chart title). This can be confusing for viewers in different languages.
-  * However, it translates the built-in features of the tool itself. For example, the chart's title is usually inputted manually by the user. If this title is in English, it will not be translated once users choose an output locale in a different language. Measurements (miles/kilometers), names of countries, distance, and date formatting are all part of the tool and will, therefore, be translated if specified in the output locale.&#x20;
-* _**Privacy:**_ For the free account: Even if you cancel your subscription or delete your account, your visualizations will [remain online](https://www.datawrapper.de/pricing) (see also [here](https://www.datawrapper.de/faq#what-happens-to-my-visualizations-when-i-cancel-my-plan-or-close-my-account)).
+  * However, it translates the built-in features of the tool itself. For example, the chart's title is usually put in manually by the user. If this title is in English, it will not be translated once users choose an output locale in a different language. Measurements (miles/kilometers), names of countries, distance, and date formatting are all part of the tool and will, therefore, be translated if specified in the output locale.&#x20;
+* _**Privacy:**_ For the free account, Even if you cancel your subscription or delete your account, your visualizations will [remain online](https://www.datawrapper.de/pricing) (see also [here](https://www.datawrapper.de/faq#what-happens-to-my-visualizations-when-i-cancel-my-plan-or-close-my-account)).
 * _**Single Sign-On:**_ Free and custom plans don't offer a central login system for managing user access.
 
-For more list of limitations, see:
+For a more complete list of limitations, see:
 
 * [https://academy.datawrapper.de/category/83-troubleshooting?sort=custom](https://academy.datawrapper.de/category/83-troubleshooting?sort=custom)
 
