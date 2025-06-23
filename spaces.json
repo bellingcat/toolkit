@@ -7396,5 +7396,38 @@
       "merge": true,
       "review": true
     }
+  },
+  {
+    "object": "space",
+    "id": "xXSGZp6CEqL82cHp4V2B",
+    "title": "Mappy",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-06-23T12:08:47.856Z",
+    "updatedAt": "2025-06-23T12:08:47.856Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/xXSGZp6CEqL82cHp4V2B",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/xXSGZp6CEqL82cHp4V2B/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "OiWR01A9kbswx1R0h3ml",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "viewInviteLinks": true,
+      "edit": true,
+      "triggerGitSync": true,
+      "comment": true,
+      "merge": true,
+      "review": true
+    }
   }
 ]

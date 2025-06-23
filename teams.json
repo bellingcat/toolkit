@@ -2318,5 +2318,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "eT7C3nNnRXLmcpU0XjBx",
+    "title": "Mappy",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-23T12:08:48.268Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
