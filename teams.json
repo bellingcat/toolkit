@@ -2330,5 +2330,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "qLWOpBboiXCUQx6nnGLC",
+    "title": "Amazonia Socio Ambiental",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-23T12:16:30.801Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
