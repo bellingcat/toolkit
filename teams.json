@@ -2354,5 +2354,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "UlMoUZSz9YqQnw1Tj2an",
+    "title": "SnapSave",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-23T13:19:51.489Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]

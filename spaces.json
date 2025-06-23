@@ -7495,5 +7495,38 @@
       "merge": true,
       "review": true
     }
+  },
+  {
+    "object": "space",
+    "id": "Z6yw2bCcBTiKrq9Fdatx",
+    "title": "SnapSave",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-06-23T13:19:51.120Z",
+    "updatedAt": "2025-06-23T13:19:51.120Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/Z6yw2bCcBTiKrq9Fdatx",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/Z6yw2bCcBTiKrq9Fdatx/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "0rAq5JUBq49hJy5chI4H",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "viewInviteLinks": true,
+      "edit": true,
+      "triggerGitSync": true,
+      "comment": true,
+      "merge": true,
+      "review": true
+    }
   }
 ]
