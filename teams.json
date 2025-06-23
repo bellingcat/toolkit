@@ -2378,5 +2378,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "ROFmlAnJBLFnnOZTXkGM",
+    "title": "Video Speed Controller",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-23T15:38:45.536Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]

@@ -7561,5 +7561,38 @@
       "merge": true,
       "review": true
     }
+  },
+  {
+    "object": "space",
+    "id": "8vA9AfRXUMGJn0dbdxvY",
+    "title": "Video Speed Controller",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-06-23T15:38:45.181Z",
+    "updatedAt": "2025-06-23T15:38:45.181Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/8vA9AfRXUMGJn0dbdxvY",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/8vA9AfRXUMGJn0dbdxvY/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "8SxjenoQ10jlPmI26GJ0",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "viewInviteLinks": true,
+      "edit": true,
+      "triggerGitSync": true,
+      "comment": true,
+      "merge": true,
+      "review": true
+    }
   }
 ]
