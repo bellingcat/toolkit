@@ -7528,5 +7528,38 @@
       "merge": true,
       "review": true
     }
+  },
+  {
+    "object": "space",
+    "id": "r3WzFR0JWGcvDkgedWQs",
+    "title": "Social Blade",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-06-23T13:27:54.383Z",
+    "updatedAt": "2025-06-23T13:27:54.383Z",
+    "editMode": "live",
+    "urls": {
+      "location": "/spaces/r3WzFR0JWGcvDkgedWQs",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/r3WzFR0JWGcvDkgedWQs/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "S258EfkZrV433DMZpBT7",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "viewInviteLinks": true,
+      "edit": true,
+      "triggerGitSync": true,
+      "comment": true,
+      "merge": true,
+      "review": true
+    }
   }
 ]

@@ -2366,5 +2366,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "jlR55F9D5peOR0QaReOx",
+    "title": "Social Blade",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-23T13:27:54.771Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
