@@ -2342,5 +2342,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "UsEsqav6zJfwHdIIVACl",
+    "title": "OpenStreetMap",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-23T12:23:08.153Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
