@@ -39,7 +39,7 @@ For instance, after uploading a Donald Trump picture and selecting the VK and Od
 
 <figure><img src=".gitbook/assets/Screenshot 2025-06-16 at 19.06.43.png" alt=""><figcaption><p> The results include a probability score indicating how likely it is, according to the tool, that the pictures show the same person as the one in the image uploaded by the user. It also provides a name for the person but this name can be wrong (for instance if someone uses Donald Trump's for their personal social media account).</p></figcaption></figure>
 
-By clicking on any of the photos in the results list, users are directly brought to the social media profile that features the picture. Keep in mind that the Search4Faces database is not updated on a regular basis. The owners of the social media accounts might have changed their avatars or the accounts might even have been deleted in the meantime.
+By clicking on any photo in the results list, users are taken directly to the social media profile where the picture appears. Keep in mind that the Search4Faces database is not updated on a regular basis. Social media account owners might have changed their avatars or their accounts might even have been deleted in the meantime.
 
 ## Cost
 
