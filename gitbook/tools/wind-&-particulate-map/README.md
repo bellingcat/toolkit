@@ -46,7 +46,8 @@ No special setup is needed. The map works well on mobile devices and is optimize
 
 ## Ethical Considerations
 
-* **Do not overstate precision.** The map visualizes model-based, interpolated data. It is not precise at a hyper-local level and should be used as supporting context, not as definitive proof.
+* **Do not overstate precision.** Some layers of this map are based on model-based, [interpolated](https://en.wikipedia.org/wiki/Interpolation) data. It may not be precise at a hyper-local level and should be used as supporting context, not as definitive proof.&#x20;
+  * The GFS (Global Forecast System) grid, used in Air Mode, [has a resolution of 1°](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00631). This means the map is divided into squares that are 1 degree of latitude by 1 degree of longitude in size. Data is reported by the [National Oceanic and Atmospheric Administration ](https://www.noaa.gov/)at grid intersection points. [Intermediate points](https://github.com/kkpoon/nullschool-earth/blob/master/README.md#implementation-notes) are interpolated in the browser using [bilinear interpolation](http://en.wikipedia.org/wiki/Bilinear_interpolation). When the map is re-projected, [finite difference approximations](https://en.wikipedia.org/wiki/Numerical_differentiation) are used to estimate distortion during the interpolation process. This is the only layer that seems to use on-the-fly interpolation. Other layers may be interpolated by their original sources.
 * **Use in combination with other sources.** Cross-reference environmental data with satellite imagery, eyewitness reports or local measurements to avoid misinterpretation.
 * **Avoid misleading visuals.** Animated wind or pollution overlays can appear dramatic. Be careful not to exaggerate claims or mislead audiences based on the visual effect alone.
 
@@ -57,7 +58,7 @@ No special setup is needed. The map works well on mobile devices and is optimize
 
 ## Tool provider
 
-This map was created and is maintained by Cameron Beccario, who can be found on [Bluesky](https://bsky.app/profile/cambecc.bsky.social) and [LinkedIn](https://www.linkedin.com/in/cambecc/).
+This map was created and is maintained by Cameron Beccario, who was born in the United States and is based in Japan. He can be found on [Bluesky](https://bsky.app/profile/cambecc.bsky.social) and [LinkedIn](https://www.linkedin.com/in/cambecc/).
 
 Feedback about the map can be provided via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfL0NFHIL2TXx6afSyrXCSd15liLDDfVyOTfKKHhj3ZcopZgQ/viewform).
 
