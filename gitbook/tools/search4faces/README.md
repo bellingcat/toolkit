@@ -28,7 +28,7 @@ Key features of Search4Faces include:
    * Users can specify which database to search in, and results include links to the relevant social media profiles.
 2. **Customization and API Integration**:
    * Search4Faces offers an API that can be integrated into applications for automated and scalable facial recognition searches.
-   * The API supports asynchronous operations and provides customizable search parameters, such as limiting the number of results or specifying whether to include hidden profiles in the search results.
+   * The API supports asynchronous operations and provides customizable search parameters, such as limiting the number of results.
    * The tool can also be configured for more targeted searches, depending on the databases and permissions set by the user.
 
 The site is available in Russian and English. To start a search, users first need to choose a database. They can then upload the picture of a person of interest.&#x20;
