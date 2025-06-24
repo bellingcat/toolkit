@@ -62,7 +62,7 @@ Search features on the site itself are free, but [API access](https://web.archiv
 
 * Since the Search4Faces database contains only a limited selection of the social media platform’s content rather than a complete archive, the tool is often unable to provide results for an uploaded picture. Our own tests suggest that in those cases, the search engine appears to compare general characteristics of the provided face (hair, eye or skin color) which does not tend to be helpful for open source researchers.&#x20;
 * Image data for each social networking site is not updated in real-time, most datasets end in [2022 or earlier](https://web.archive.org/web/20250520182518/https://search4faces.com/en/). The Russian language version of the tool website states that the VK profile photo database was[ last updated in 2025](https://web.archive.org/web/20250616202030/https://search4faces.com/search.html).&#x20;
-* Certain user profiles can evade detection by changing their details. If you click on an image in the results list, it might bring you to a social media account whose name, avatar or posts have been changed or deleted.
+* Certain user profiles can evade detection by changing their details. If you click on an image in the results list, you may be taken to a social media account whose name, avatar, or posts have been changed or deleted.
 * You cannot search multiple databases at once.
 
 ## Ethical Considerations
@@ -76,7 +76,7 @@ Make sure to carefully assess whether the use of facial recognition tools is req
 
 An example of how Search4Faces was used to reveal a TikTok profile can be found [here](https://publication.osintambition.org/behind-the-steps-revealing-digital-identity-through-osint-and-socmint-unraveling-the-7735033b867d).
 
-Search4Faces was used by Bellingcat in the following investigation to find an Odnoklassniki profile of a person of interest: [Tracking the Faceless Killers who Mutilated and Executed a Ukrainian POW](https://www.bellingcat.com/news/2022/08/05/tracking-the-faceless-killers-who-mutilated-and-executed-a-ukrainian-pow/), 2022.
+Search4Faces was used by Bellingcat in the following investigation to find a Odnoklassniki profile of a person of interest: [Tracking the Faceless Killers who Mutilated and Executed a Ukrainian POW](https://www.bellingcat.com/news/2022/08/05/tracking-the-faceless-killers-who-mutilated-and-executed-a-ukrainian-pow/), 2022.
 
 ## Tool provider
 
@@ -88,7 +88,7 @@ While open source researcher may want to decide to test Search4Faces during inve
 
 Similar tools are [Pimeyes](https://bellingcat.gitbook.io/toolkit/more/all-tools/pimeyes) or [FaceCheck.Id](https://bellingcat.gitbook.io/toolkit/more/all-tools/facecheck.id). Unlike Search4Faces,  both of those tools are paid tools and their websites don’t list social media photos as sources. Search4Faces is currently able to identify some older TikTok or ClubHouse accounts which may be useful for some research cases even if the people of interest are not based in a Russian speaking country.
 
-It is recommended to be cautious when using any of those tools since it the tool providers' identities tend to be unknown.
+It is recommended to be cautious when using any of those tools since it the tool providers' identities are often unknown.
 
 ## Advertising Trackers
 
