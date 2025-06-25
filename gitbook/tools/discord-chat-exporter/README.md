@@ -25,7 +25,7 @@ Some features include:
 * Support for Markdown, reactions and attachments
 * The CLI version can be used to schedule exports
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Exporting comes up with various options</p></figcaption></figure>
+<div align="left"><figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Exporting comes up with various options ((We use this example to show you how the tool works. It is not allowed to archive Bellingcat's Discord).</p></figcaption></figure></div>
 
 ## Cost
 
@@ -53,15 +53,15 @@ GUI is beginner-friendly. CLI requires command-line familiarity. Both versions n
 ## Limitations
 
 * **Access Limitations**: Only exports content accessible by the logged-in account or authorized bot.
-* **Terms of Service Compliance** (**Important):** Automating personal accounts is against Discord's [Terms of Service ](https://discord.com/terms)and may result in account termination if excessive requests are done. Carefully consider ethical and legal questions before you decide to use the tool.
+* **Terms of Service Compliance** (**Important):** Automating personal accounts is against Discord's [Terms of Service ](https://discord.com/terms)and may result in account termination. Carefully consider ethical and legal questions before you decide to use the tool.
 * **Bot Tokens limitations:** The use of bots requires some knowledge on the Discord Developer API.
 * **Unavailable features:** Exporting a forum thread is currently not implemented in the GUI version.
 
 ## Ethical Considerations
 
-* Consider consulting your organisation’s legal team to discuss Discord's [Terms of Service](https://discord.com/terms) and other legal and ethical questions before using this tool.&#x20;
+* Consider consulting your organization’s legal team to discuss Discord's [Terms of Service](https://discord.com/terms) and other legal and ethical questions before using this tool.&#x20;
 * Only export chats you have permission to access; unauthorized exporting may violate privacy laws.&#x20;
-* Consider anonymizing data if used for a public work.
+* Consider anonymizing data if used for public work.
 
 ## Guides and articles
 
