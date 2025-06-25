@@ -59,7 +59,8 @@ GUI is beginner-friendly. CLI requires command-line familiarity. Both versions n
 
 ## Ethical Considerations
 
-* Only export chats you have permission to access; unauthorized exporting may violate privacy laws.
+* Consider consulting your organisation’s legal team to discuss Discord's [Terms of Service](https://discord.com/terms) and other legal and ethical questions before using this tool.&#x20;
+* Only export chats you have permission to access; unauthorized exporting may violate privacy laws.&#x20;
 * Consider anonymizing data if used for a public work.
 
 ## Guides and articles
