@@ -21,7 +21,7 @@ It comes as a command-line interface or a graphical interface and allows users t
 Some features include:
 
 * Filtering Options: by date ranges, keywords, user or message type (only export pinned messages for example)
-* Selecting multiple threads to export as once
+* Selecting multiple threads to export at once
 * Support for Markdown, reactions and attachments
 * The CLI version can be used to schedule exports
 
