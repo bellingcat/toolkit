@@ -74,6 +74,7 @@
   * [Convert Geographic Units](tools/convert-geographic-units/README.md)
   * [Datawrapper](tools/datawrapper/README.md)
   * [DeHashed](tools/dehashed/README.md)
+  * [Discord Chat Exporter](tools/discord-chat-exporter/README.md)
   * [DiscordLeaks](tools/discordleaks/README.md)
   * [Distill.io](tools/distill/README.md)
   * [DomainTools Whois Lookup](tools/domaintools-whois-lookup/README.md)
