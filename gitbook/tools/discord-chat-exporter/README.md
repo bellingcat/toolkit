@@ -14,7 +14,7 @@ description: A tool for exporting Discord chat logs in multiple formats.
 
 It comes as a command-line interface or a graphical interface and allows users to export messages from various sources: Discord's direct messages, group chats, servers' channels and threads.&#x20;
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>The GUI allows you to list and select the threads to export (This is just an example, it is not allowed to archive Bellingcat's Discord)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>The GUI allows you to list and select the threads to export (We use this example to show you how the tool works. It is not allowed to archive Bellingcat's Discord).</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>The CLI is more configurable but needs familiarity with command-line tools</p></figcaption></figure>
 
