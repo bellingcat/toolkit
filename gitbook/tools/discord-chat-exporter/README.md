@@ -54,7 +54,7 @@ GUI is beginner-friendly. CLI requires command-line familiarity. Both versions n
 
 * **Access Limitations**: Only exports content accessible by the logged-in account or authorized bot.
 * **Terms of Service Compliance** (**Important):** Automating personal accounts is against Discord's [Terms of Service ](https://discord.com/terms)and may result in account termination. Carefully consider ethical and legal questions before you decide to use the tool.
-* **Bot Tokens limitations:** The use of bots requires some knowledge on the Discord Developer API.
+* **Bot Tokens limitations:** The use of bots requires some knowledge on the Discord Developer API. It can limit the tool's functionality to servers.
 * **Unavailable features:** Exporting a forum thread is currently not implemented in the GUI version.
 
 ## Ethical Considerations
