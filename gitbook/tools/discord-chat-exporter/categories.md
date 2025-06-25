@@ -18,7 +18,7 @@
 * [ ] [Facebook](https://bellingcat.gitbook.io/toolkit/categories/social-media/facebook)
 * [ ] [Instagram](https://bellingcat.gitbook.io/toolkit/categories/social-media/instagram)
 * [ ] [Multiple Platforms](https://bellingcat.gitbook.io/toolkit/categories/social-media/multiple-platforms)
-* [ ] [Other Platforms](https://bellingcat.gitbook.io/toolkit/categories/social-media/other-platforms)
+* [x] [Other Platforms](https://bellingcat.gitbook.io/toolkit/categories/social-media/other-platforms)
 * [ ] [Telegram](https://bellingcat.gitbook.io/toolkit/categories/social-media/telegram)
 * [ ] [Tiktok](https://bellingcat.gitbook.io/toolkit/categories/social-media/tiktok)
 * [ ] [Twitter/X](https://bellingcat.gitbook.io/toolkit/categories/social-media/twitter)
@@ -26,7 +26,7 @@
 
 ## Other
 
-* [x] [Archiving](https://bellingcat.gitbook.io/toolkit/categories/archiving)
+* [ ] [Archiving](https://bellingcat.gitbook.io/toolkit/categories/archiving)
 * [ ] [Companies & Finance](https://bellingcat.gitbook.io/toolkit/categories/companies-and-finance)
 * [ ] [Conflict](https://bellingcat.gitbook.io/toolkit/categories/conflict)
 * [ ] [Data Organization & Analysis](https://bellingcat.gitbook.io/toolkit/categories/data)
