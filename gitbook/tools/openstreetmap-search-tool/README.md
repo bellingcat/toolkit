@@ -96,8 +96,8 @@ To effectively use Bellingcat OpenStreetMap Search, especially for beginners or 
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat Volunteer Team/Unassigned |
-|                                      |
+| Page maintainer                 |
+| ------------------------------- |
+| Sophie Tedling and Anisa Shabir |
+|                                 |
 
