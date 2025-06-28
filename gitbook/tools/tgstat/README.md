@@ -15,7 +15,7 @@ description: >-
 
 ## Description
 
-TGStat is a Russia-based social media analytics platform that offers comprehensive statistics and insights for Telegram channels and groups. According to its website, it provides detailed information on popular Telegram channels and members, including engagement metrics, growth trends, and audience demographics.&#x20;
+TGStat is a Russia-based social media analytics platform that offers comprehensive statistics and insights for Telegram channels and groups. In other words, it is a tool that gathers publicly available Telegram data in real time to show you how well channels are performing. According to its website, it provides detailed information on popular Telegram channels and members, including engagement metrics, growth trends, and audience demographics.&#x20;
 
 For Telegram channels, TGStat covers statistics for:
 
@@ -49,11 +49,11 @@ TGStat is helpful for discovery, especially for those monitoring events in Russi
 
 _**What problem does it solve?**_
 
-TGStat solves a discovery and time management issue. Telegram’s search function lacks advanced features and filters, making it difficult for unfamiliar users to find specific information. Success often relies on knowing local terminology and search nuances. However, TGStat can assist through advanced search filters, comparison, and analytics.
+TGStat solves a discovery and time management issue. Telegram’s search function lacks advanced features and filters, making it difficult for unfamiliar users to find specific information. Success often relies on knowing local terminology and search nuances. However, TGStat can assist with this problem through advanced search filters, comparison, and analytics.
 
 ### **Advanced Search Features**
 
-It assists researchers in finding relevant channels to follow on specific topics. Some features are:
+It helps researchers find relevant channels to follow on specific topics. Some features are:
 
 1. _Filter by country:_ On TGStat, users can filter channels by country. The list of countries available in the search filters are: Russia, Ukraine, Belarus, Uzbekistan, Kazakhstan, Kyrgyzstan, Iran, China, India, and Ethiopia.
 
