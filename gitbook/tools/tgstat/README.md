@@ -185,7 +185,7 @@ The paid version of the tool requires:
 
 2\. Telegram account
 
-3\. Paid subscription (the paywall accepts foreign credit cards)
+3\. Paid subscription (Note that bank cards from other countries, such as those from the US, may no longer be accepted due to changes in the paywall).
 
 ### Limitations
 
