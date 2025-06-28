@@ -15,7 +15,13 @@ description: >-
 
 ## Description
 
-TGStat is a Russia-based social media analytics platform that offers comprehensive statistics and insights for Telegram channels and groups. In other words, it is a tool that gathers publicly available Telegram data in real time to show you how well channels are performing. According to its website, it provides detailed information on popular Telegram channels and members, including engagement metrics, growth trends, and audience demographics.&#x20;
+TGStat is a Russia-based social media analytics platform that offers comprehensive statistics and insights for Telegram channels and groups. In other words, it is a tool that gathers publicly available Telegram data in real time to show you how well channels are performing.&#x20;
+
+{% hint style="warning" %}
+Use a research account if using TGStat, since[ it is unclear what data it gathers from its users.](https://gijn.org/resource/tipsheet/tipsheet-latest-tools-investigating-with-telegram)
+{% endhint %}
+
+According to its website, it provides detailed information on popular Telegram channels and members, including engagement metrics, growth trends, and audience demographics.&#x20;
 
 For Telegram channels, TGStat covers statistics for:
 
