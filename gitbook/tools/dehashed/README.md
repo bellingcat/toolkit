@@ -105,7 +105,7 @@ Consider the ethical and legal implications of analysing and using leaked user d
 
 ## Guides and articles
 
-This YouTube [video ](https://www.youtube.com/watch?v=3JztCgR85ls)provides a great demonstration of how to use DeHashed creatively to generate new research leads. NB: it uses the old version of the platform, but the research tips are still valid.
+The following YouTube [tutorial ](https://www.youtube.com/watch?v=UeI7wEdLPn8)demonstrates how to use DeHashed creatively to generate new research leads. NB: the tutorial uses the old version of the platform, but the research tips are still valid.
 
 ## Tool provider
 
