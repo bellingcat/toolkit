@@ -24,6 +24,8 @@ Open a photograph in the [Google Photos](https://play.google.com/store/apps/deta
 
 <div align="left"><figure><img src=".gitbook/assets/3.PNG" alt="" width="296"><figcaption><p>Screenshot 3. The suggested object or area will be highlighted in a rectangle, which you can click and drag to move, or use one of the corners to re-size it. The results will appear at the bottom of your phone screen. </p></figcaption></figure> <figure><img src=".gitbook/assets/4.PNG" alt="" width="300"><figcaption><p>Screenshot 4. Drag the sidebar up to scroll through a full list of the hits and hyperlinks. You can also add keywords using the Google search bar, which is at the top of this screenshot, to narrow down your search.</p></figcaption></figure></div>
 
+You can also click 'About this image' (see Screenshot 4) to find out more information regarding the content of the image.
+
 ### Using Google Lens in the browser&#x20;
 
 Right click any photo you come across while browsing the Internet using Google Chrome and click 'Search with Google Lens'. The results will be shown on the right.&#x20;
@@ -58,6 +60,10 @@ Make sure you analyse the search results critically and cross-reference these wi
 
 'Search with an image on Google', _Google Search Help._ Available at: [https://support.google.com/websearch/answer/1325808?hl=en\&co=GENIE.Platform%3DAndroid#:\~:text=In%20the%20search%20bar%2C%20tap,and%20hold%20the%20Shutter%20button%20.](https://support.google.com/websearch/answer/1325808?hl=en\&co=GENIE.Platform%3DAndroid) (Accessed 27 December 2024).
 
+'8 ways Google Lens can help make your life easier', _Google Blog._ Available at: [https://blog.google/products/google-lens/google-lens-features/](https://blog.google/products/google-lens/google-lens-features/) (Accessed 29 June 2025).
+
+'5 ways to search what you see with Google Lens', _Google Blog._ Available at: [https://blog.google/products/search/google-lens-tips-2025/](https://blog.google/products/search/google-lens-tips-2025/) (Accessed 29 June 2025).
+
 ## Tool provider
 
 Google [https://about.google/](https://about.google/) - United States
@@ -70,5 +76,5 @@ Google [https://about.google/](https://about.google/) - United States
 
 | Page maintainer |
 | --------------- |
-| Ana GAP member  |
+| Ana             |
 |                 |
