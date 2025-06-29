@@ -2,6 +2,7 @@
 description: >-
   Maigret is a Python script that retrieves user information by searching for
   usernames across various websites and social media platforms.
+icon: user-magnifying-glass
 layout:
   title:
     visible: true
@@ -25,15 +26,15 @@ layout:
 
 Maigret is a command-line tool that collects information about a person using their username. It checks for accounts across over [3000](https://github.com/soxoj/maigret/blob/main/sites.md) sites, gathering available information directly from web pages, without the need for API keys. The tool itself is a fork of the[ Sherlock project.](https://github.com/sherlock-project/sherlock)
 
-If not explicitly specified with a tag, Maigret will start its search with the top 500 sites from its database, including many popular social platforms. Users have the option to expand the search by including different options, ranging from specific sites to countries and identifiers.&#x20;
+If not explicitly specified with a tag, Maigret will start its search with the top 500 sites from its database, including many popular social platforms. Users have the option to expand the search by including different options, ranging from specific sites to countries and identifiers.
 
 Identifiers refer to unique markers associated with user accounts on specific platforms, such as a **gaia\_id** (Google's internal numeric user identifier, previously found in Google Plus accounts) or other similar unique attributes. These allow Maigret to conduct more targeted and precise searches beyond ordinary usernames.
 
-<figure><img src=".gitbook/assets/maigret.png" alt=""><figcaption><p>Search for the username "bellingcat" on Maigret </p></figcaption></figure>
+<figure><img src=".gitbook/assets/maigret.png" alt=""><figcaption><p>Search for the username "bellingcat" on Maigret</p></figcaption></figure>
 
 To start a simple search on Maigret, all you need to do is provide one or more usernames for the individual you want to investigate. For example, searching for "bellingcat" will check if that username exists across the platforms supported by the tool (like social networks, forums, blogs and more). If an account is found, a report detailing where the username appears will be generated. This includes links to profile pages or relevant content on those platforms (e.g., Facebook, Instagram etc) and any available additional metadata like account creation dates or follower counts, if retrievable. In this case of "bellingcat," we discovered accounts on Telegram, Instagram, Github, TikTok and GithubGist.
 
-In addition, Maigret scans account webpages (username bellingcat on X will return -[https://x.com/bellingcat](https://x.com/bellingcat)) to extract personal details and links to other profiles, displaying this information in the command line output and including it in reports. It also uses found IDs and usernames to start new searches automatically.&#x20;
+In addition, Maigret scans account webpages (username bellingcat on X will return -[https://x.com/bellingcat](https://x.com/bellingcat)) to extract personal details and links to other profiles, displaying this information in the command line output and including it in reports. It also uses found IDs and usernames to start new searches automatically.
 
 The tool supports generating reports in various formats, including HTML, PDF, TXT, [XMind 8 mindmap](https://xmind.app/user-guide/xmind/), and JSON. HTML and PDF reports include profile photos, all gathered personal information, and additional data like full name, gender, and location based on the statistics of all found accounts.
 
@@ -53,7 +54,10 @@ A short text report is also shown in the command line after the search phase.
 
 ## Requirements
 
-Python3
+
+
+* Python3 (for installation).
+* Telegram account (required to use the bot).
 
 ## Installation and usage
 
@@ -84,9 +88,9 @@ To search for accounts with specific username, use:
 // maigret <username>
 ```
 
-For more detailed searches, you can add options like '-a' to search all sites, or '-o' to save the output to a specific file format, such as HTML or PDF. Maigret also supports multiple usernames in a single search by listing them together: maigret  \<username1> \<username2> .
+For more detailed searches, you can add options like '-a' to search all sites, or '-o' to save the output to a specific file format, such as HTML or PDF. Maigret also supports multiple usernames in a single search by listing them together: maigret \<username1> \<username2> .
 
-You can also create advanced queries using built-in categories, boolean operators, and substring matches for source names.&#x20;
+You can also create advanced queries using built-in categories, boolean operators, and substring matches for source names.
 
 For example, you can search for all accounts that have the username 'bellingcat' on websites categorized as 'social':"
 
@@ -104,7 +108,7 @@ For example, to run the web interface on port 5000, use:
 // maigret --web 5000
 ```
 
-Once Maigret is running with the web interface, open your browser and go to http://127.0.0.1:5000.&#x20;
+Once Maigret is running with the web interface, open your browser and go to http://127.0.0.1:5000.
 
 Here, you can enter one or more usernames to initiate a search. After the search is complete, the web interface will display a graphical representation of the results, a table with all the accounts found, and provide options to download the reports in multiple formats (HTML, PDF, etc.).
 
