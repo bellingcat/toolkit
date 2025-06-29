@@ -13,9 +13,13 @@ description: >-
 
 ## Description
 
-Pinpoint is a research tool designed to assist journalists and academics in examining and analyzing large document collections. With Pinpoint, users can upload and search through documents, images, emails, handwritten notes, and audio files to find specific keywords, locations, organizations, or individuals. It’s part of the [Journalist Studio](https://journaliststudio.google.com/), Google’s free tool kit for research, data analysis, and data visualization.
+Pinpoint is a research tool designed to assist journalists and academics in examining and analyzing large document collections. With Pinpoint, users can upload and search through documents, images, emails, handwritten notes, and transcriptions of audio files to find specific keywords, locations, organizations, or individuals. It is part of the [Journalist Studio](https://journaliststudio.google.com/), Google’s free tool kit for research, data analysis, and data visualization.  It also supports metadata extraction, so users can search by fields like date, sender, etc.
 
-Users can store up to [200,000 documents ](https://support.google.com/pinpoint/answer/11955480?hl=en-IN#upload_documents)in each collection, extract text from handwritten documents to make them searchable, query text from images, transcribe audio recordings and search for identifiers in image collections. For example, using Pinpoint, you can search for mentions of keywords like "abuse" or "violence" in [Washington Post's public collection of COVID-19 Nursing Home Inspections](https://journaliststudio.google.com/pinpoint/search?collection=989c939c11b20432):
+Users can store up to [200,000 documents ](https://support.google.com/pinpoint/answer/11955480?hl=en-IN#upload_documents)in each collection, extract text from handwritten documents to make them searchable, query text from images, transcribe audio recordings and search for identifiers in image collections.&#x20;
+
+Its "extract structured data" function allows you to convert similarly structured documents into a spreadsheet which can be exported to Excel, Google Sheets or a database.
+
+For example, using Pinpoint, you can search for mentions of keywords like "abuse" or "violence" in [Washington Post's public collection of COVID-19 Nursing Home Inspections](https://journaliststudio.google.com/pinpoint/search?collection=989c939c11b20432):
 
 <figure><img src=".gitbook/assets/Screenshot 2024-11-12 at 1.51.56 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -31,7 +35,7 @@ Users can store up to [200,000 documents ](https://support.google.com/pinpoint/a
 
 ## Requirements
 
-Anyone with a [Google account](https://support.google.com/pinpoint/answer/11948321?hl=en) can browse and use public collections by other organizations. However, you need to certify that you are an academic or a journalist in order to use the platform for your own documents.
+Anyone with a [Google account](https://support.google.com/pinpoint/answer/11948321?hl=en) can browse and use public collections by other organizations. However, you need to certify [here](https://journaliststudio.google.com/pinpoint/requestaccess) that you are an academic or a journalist in order to use the platform for your own documents.
 
 Researchers can apply through [this form](https://docs.google.com/forms/d/e/1FAIpQLSd2owbRY5gLj6iXDSgPrPapsPoFo4xD2VLmrAhJ24d-Isq1xQ/viewform) for early access to generative AI features.
 
@@ -39,7 +43,7 @@ Researchers can apply through [this form](https://docs.google.com/forms/d/e/1FAI
 
 ## Limitations & Ethical Considerations
 
-Pinpoint has experimental features that use Google's Generative AI solutions, and according to [this notice](https://support.google.com/pinpoint/answer/14338615?hl=en) on Generative AI in Pinpoint, these features "may display inaccurate information, including information about people." Additionally, some of the information you provide may be used to improve functionality, and "Google human reviewers may read, annotate and process a sample of your Pinpoint data, including your prompts and thumbs up or down feedback." As a result, Google cautions against including information "that can be used to identify you, such as phone numbers, email addresses, or birth dates when using Pinpoint’s generative AI features."
+Pinpoint has experimental features that use Google's Generative AI solutions, and according to [this notice](https://support.google.com/pinpoint/answer/14338615?hl=en) on Generative AI in Pinpoint, these features "may display inaccurate information, including information about people." Additionally, some of the information you provide may be used to improve functionality, and "Google [human reviewers may read, annotate and process a sample of your Pinpoint data](https://support.google.com/pinpoint/answer/14338615?hl=en), including your prompts and thumbs up or down feedback." As a result, Google cautions against including information "that can be used to identify you, such as phone numbers, email addresses, or birth dates when using Pinpoint’s generative AI features."
 
 Exercise caution and/or check with your parent organization before uploading sensitive or proprietary information, documents and data into Pinpoint.
 
@@ -49,9 +53,7 @@ Keep in mind that Pinpoint's generative AI features are currently only available
 
 ## Guides and articles
 
-[Getting Started with Pinpoint](https://journaliststudio.google.com/pinpoint/getting-started), and [video](https://newsinitiative.withgoogle.com/resources/trainings/pinpoint/video-getting-started-with-pinpoint/)
-
-[About Pinpoint](https://support.google.com/pinpoint/answer/11948320?hl=en)
+[Getting Started with Pinpoint](https://support.google.com/pinpoint/answer/11948320?hl=en\&ref_topic=11949739\&sjid=5429787754045626721-NC), and [video](https://newsinitiative.withgoogle.com/resources/trainings/pinpoint/video-getting-started-with-pinpoint/)
 
 [How to make the most of Pinpoint](https://www.fastcompany.com/90841519/how-to-make-the-most-of-pinpoint-part-of-googles-toolkit-for-journalists) by Fast Company
 
@@ -65,7 +67,7 @@ Google, US
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat Volunteer Team/Unassigned |
-|                                      |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
+|                           |
