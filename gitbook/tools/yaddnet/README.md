@@ -58,7 +58,7 @@ In summary, YaDDNet is a specialized platform that facilitates the real-time sha
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainers:-       |
+| ------------------------ |
+| Scoot and Sophie Tedling |
+|                          |
