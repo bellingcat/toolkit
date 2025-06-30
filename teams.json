@@ -2402,5 +2402,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "bGvvonW5QcppL2JFDATi",
+    "title": "Locust Hub",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-30T10:21:39.178Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
