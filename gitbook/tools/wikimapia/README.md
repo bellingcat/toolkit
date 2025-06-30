@@ -98,9 +98,9 @@ To effectively use Wikimapia, especially for beginners or those looking to refin
 
 ## Tool provider
 
-Wikimapia Ltd. [https://wikimapia.org/](https://wikimapia.org/) - Russia (created by Alexander Koryakin and Eugen Saveliev)
+Wikimapia Ltd. [https://wikimapia.org/](https://wikimapia.org/)&#x20;
 
-It was created by a Russian software development company called Wikimapia Ltd. The company was founded by Alexandre Koriakine and Evgeniy Saveliev in 2006.
+Wikimapia was created by the Russian software company Wikimapia Ltd., founded in 2006 by Alexander Koryakin and Eugen Saveliev.
 
 ## Advertising Trackers
 
