@@ -281,8 +281,8 @@ NASA (North American Space Agency) via: Sentinel Hub and Copernicus Browser
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-### Page Maintained By:
+### Page Maintained By:-
 
 ***
 
-Sophie Tedling
+Sophie Tedling.
