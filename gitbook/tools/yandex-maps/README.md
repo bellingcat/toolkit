@@ -158,7 +158,7 @@ NB Yandex was sold in 2024, so observers are checking to see if this affects dat
 
 The author's own checks in May 2025 showed Yandex using trackers.
 
-| Page maintainer: |
-| ---------------- |
-| Sophie Tedling   |
-|                  |
+| Page maintainer:- |
+| ----------------- |
+| Sophie Tedling.   |
+|                   |
