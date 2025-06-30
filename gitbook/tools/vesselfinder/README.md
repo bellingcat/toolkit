@@ -135,6 +135,6 @@ Some of the vessels are government-owned and a small part of those are intended 
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer:            |
-| --------------------------- |
-| LPetrova and Sophie Tedling |
+| Page maintainer:-            |
+| ---------------------------- |
+| LPetrova and Sophie Tedling. |
