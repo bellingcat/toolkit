@@ -2390,5 +2390,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "JgVaKSupShRFR8RtF7vp",
+    "title": "Picarta",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-30T09:42:40.107Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
