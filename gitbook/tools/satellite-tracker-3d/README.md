@@ -6,7 +6,7 @@ description: A brief one line description of this tool
 
 ## URL
 
-https://example.com
+**https://example.com**
 
 ## Description
 
@@ -50,8 +50,7 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainers:-       |
+| ------------------------ |
+| Scoot and Sophie Tedling |
+|                          |
