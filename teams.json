@@ -2414,5 +2414,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "EdgEMmqsjSLDZkrOIuan",
+    "title": "PublicWWW",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-06-30T10:39:56.498Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
