@@ -204,10 +204,10 @@ Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Sophie Tedling  |
-|                 |
+| Page maintainer:- |
+| ----------------- |
+| Sophie Tedling.   |
+|                   |
 
 [^1]: ![](<.gitbook/assets/suncalcelevationSC (2).jpg>)
 
