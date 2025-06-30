@@ -44,7 +44,7 @@ Most of the cases seem to have been added until 2021 and 2022, only few cases ar
 
 ## Ethical Considerations
 
-It uses information from reporters and unofficial media as sources, which could result in ethical dilemmas depending on the investigation and the policies surrounding it.
+It uses information from reporters and unofficial media as sources, which could result in ethical dilemmas depending on the type of investigation and the policies surrounding it.
 
 ## Guides and articles
 
