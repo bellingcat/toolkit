@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-[https://www.atlos.org/](https://www.atlos.org/)&#x20;
+[https://www.atlos.org/](https://www.atlos.org/) &#x20;
 
 ## Description
 
@@ -48,7 +48,7 @@ This platform is open source (see [here](https://github.com/atlosdotorg/atlos)),
 * [x] Partially Free
 * [ ] Paid
 
-Free for up to 10 incidents that can be created and edited per month. Even with this free version, you have unlimited view access, your team can be of any size, and you can export your data whenever you want.
+Free for a limited number of incidents that can be created and modified per month. Even with this free version, you have unlimited view access, your team can be of any size, and you can export your data whenever you want.
 
 Further pricing information can be found [here](https://docs.atlos.org/overview/pricing/). &#x20;
 
@@ -83,7 +83,7 @@ Take a look at the Atlos security and risk model which is available [here](https
 
 ## Tool provider
 
-ATLOS is a collaborative platform created by two Stanford University students ([Miles McCain](https://github.com/milesmcc) and [Noah Schechter](https://github.com/noah-schechter), United States) who formed a non-profit association.
+ATLOS is a collaborative platform created by two Stanford University students ([Miles McCain](https://github.com/milesmcc) and [Noah Schechter](https://github.com/noah-schechter), United States) who formed a non-profit association.&#x20;
 
 ## Advertising Trackers
 
