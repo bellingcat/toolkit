@@ -120,6 +120,10 @@ To effectively use Liveuamap, especially for beginners or those looking to refin
 
 * [https://www.facebook.com/liveuamap](https://www.facebook.com/liveuamap) (see: [https://liveuamap.com/about#socmedia](https://liveuamap.com/about#socmedia) for full list)
 
+**Official Blog**
+
+* [https://blog.liveuamap.com](https://blog.liveuamap.com)
+
 ## Tool provider
 
 Liveuamap LLC [https://liveuamap.com/about#team](https://liveuamap.com/about#team) - United States
