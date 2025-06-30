@@ -171,7 +171,7 @@ Guides provided by MarineTraffic:
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer             |
-| --------------------------- |
-| LPetrova and Sophie Tedling |
-|                             |
+| Page maintainer:-            |
+| ---------------------------- |
+| LPetrova and Sophie Tedling. |
+|                              |
