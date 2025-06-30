@@ -416,9 +416,9 @@ Routes Software SRL, VIA CAVOUR 2 LOMAZZO, COMO, 22074 ITALY
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer: |
-| ---------------- |
-| Sophie Tedling   |
-|                  |
+| Page maintainer:- |
+| ----------------- |
+| Sophie Tedling.   |
+|                   |
 
 [^1]: To be cross-referenced with other Toolbox tool entries.
