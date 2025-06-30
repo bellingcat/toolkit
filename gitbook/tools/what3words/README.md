@@ -121,7 +121,7 @@ what3words Limited, based in London, UK. Founded March 05, 2013 in Royston, Hert
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer: |
-| ---------------- |
-| Sophie Tedling   |
-|                  |
+| Page maintainer:- |
+| ----------------- |
+| Sophie Tedling.   |
+|                   |
