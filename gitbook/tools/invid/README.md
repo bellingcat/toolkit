@@ -100,7 +100,7 @@ Extracts metadata from JPEG images and videos in MP4 or M4V formats, providing d
 {% endtab %}
 {% endtabs %}
 
-**Deepfake (Locked Feature)**
+**Deepfake (Restricted Feature)**
 
 Uses a machine learning classifier to determine the probability that a video contains AI-manipulated faces, such as face swapping or face reenactment. Access is restricted to registered users.
 
@@ -124,27 +124,12 @@ Uses a machine learning classifier to determine the probability that a video con
 
 ### **Image**
 
-**Image Analysis**
-
-Provides contextual information for images posted on Facebook, helping to verify their origin and context.
-
-{% hint style="info" %}
-This function might not be available at this time due to changes in Facebook TOS.
-{% endhint %}
-
-{% tabs %}
-{% tab title="Facebook Image Analysis" %}
-<figure><img src=".gitbook/assets/image (18) (1).png" alt=""><figcaption><p>Copy the address of an image uploaded to facebook.</p></figcaption></figure>
-{% endtab %}
-
-{% tab title="Error" %}
-<figure><img src=".gitbook/assets/image (19) (1).png" alt=""><figcaption><p>At this point I was not able to find a photo that would not produce this error. The tutorial says I have to be logged in, which I am, but unfortunately I haven't gotten a working link yet, even when posted from my own profile.</p></figcaption></figure>
-{% endtab %}
-{% endtabs %}
-
 #### **Magnifier**
 
-Offers a magnifying lens and photo editor to examine images in detail, allowing for close inspection of specific areas.
+In a nutshell, **Magnifier** is the “digital loupe” inside the InVID-WeVerify plug-in: you load any still image (URL or local file) and the module lets you zoom, sharpen and flip it at pixel level, then push the same frame to reverse-image search or the forensic filters.
+
+* **Deep zoom & live lens** – Hover anywhere on the picture and a resizable loupe shows the native pixels at up to ×20, perfect for reading licence plates, shoulder patches or tiny timestamps.&#x20;
+* **Enhancement tools** – One-click buttons apply bicubic up-scaling, edge-sharpen, mirror-flip or 90° rotation so faint characters or mirrored selfies become legible.
 
 {% tabs %}
 {% tab title="Magnifier Tab" %}
@@ -214,7 +199,7 @@ Extracts text from images, making it easier to analyze and verify textual conten
 {% endtab %}
 {% endtabs %}
 
-**CheckGIF (Locked Feature)**
+**CheckGIF (Restricted Feature)**
 
 Compares an original image with a tampered one, including cropped images, and generates a GIF highlighting differences. Access is restricted to registered users.
 
@@ -236,7 +221,7 @@ This plugin will not be able to solve the question of the correct pronunciation 
 {% endtab %}
 {% endtabs %}
 
-**Synthetic Image (Locked Feature)** - Determines the probability that an image is AI-generated, using machine learning to assess potential manipulations. Access is restricted to registered users.
+**Synthetic Image (Restricted Feature)** - Determines the probability that an image is AI-generated, using machine learning to assess potential manipulations. Access is restricted to registered users.
 
 {% tabs %}
 {% tab title="Synthetic Image" %}
@@ -252,43 +237,55 @@ This plugin will not be able to solve the question of the correct pronunciation 
 {% endtab %}
 {% endtabs %}
 
-**Deepfake (Locked Feature)** - Detects if an image has been manipulated through face swapping, providing insights into possible deepfake content. Access is restricted to registered users.
+#### **Deepfake (Restricted Feature)**&#x20;
+
+The **Deepfake tab** in the InVID-WeVerify verification plug-in is an experimental video-forensics tool built by **ITI CERTH** under the EU-funded **vera.ai** project. You paste a video URL (or upload a local clip) and the service breaks the file into frames, detects every visible face, and runs an [**ensemble of five CNN-based detectors**](https://ar5iv.labs.arxiv.org/html/2204.12816) (Xception, EfficientNet-B4, Capsule-Forensics ++ & two proprietary lightweight models). The ensemble outputs a **0–1 probability score** that the footage contains AI-manipulated faces (face-swap / reenactment). Results are colour-coded (green < 0.30, amber 0.30-0.60, red > 0.60) and accompanied by per-frame thumbnails so you can jump straight to suspicious segments. All processing happens on CERTH’s servers; only hash-anonymised frames are stored for 30 days to improve the model.
 
 {% tabs %}
 {% tab title="Deepfake Tab" %}
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (47).png" alt=""><figcaption><p><strong>Why the “experimental” warning matters</strong>: <a href="https://www.cjr.org/tow_center/what-journalists-should-know-about-deepfake-detection-technology-in-2025-a-non-technical-guide.php">Independent benchmarks</a> find that even strong academic detectors reach <strong>70-90 %</strong> accuracy—but performance drops when they meet brand-new generation techniques or heavily compressed social-media video. False positives rise on fast-moving crowds or blurred backgrounds, so the plug-in warns users to cross-check with source video searches, key-frame reverse-image queries, or manual forensic review.</p></figcaption></figure>
 {% endtab %}
 
-{% tab title="Results" %}
-Nothing to see here. As soon as I've made a deepfake using materials I have the rights to, I will post it here.
+{% tab title="No deepfake" %}
+<figure><img src=".gitbook/assets/image (49).png" alt=""><figcaption><p>I used a "real" video from the <a href="https://www.kaggle.com/datasets/reubensuju/celeb-df-v2">Celeb DF (v2) dataset</a> on Kaggle as an example. As expected, correctly classified as a real video.</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Deepfake" %}
+<figure><img src=".gitbook/assets/image (50).png" alt=""><figcaption><p>Another deepfake video from the same dataset (same person) showed strong evidence suggesting that this video contains AI manipulated faces.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
-**Geolocalizer (Locked Feature)** - Attempts to geolocate an image using an algorithm, helping to identify where a picture was taken. Access is restricted to registered users.
+#### **Geolocalizer (Locked Feature)**&#x20;
+
+The _Geolocalizer_ (locked / beta) lets you upload or paste any still-image link; the plug-in then calls an experimental CERTH service that estimates **where on Earth the picture was taken**. It does this entirely by visual analysis—no EXIF GPS is required. You get a latitude/longitude guess, a rough confidence band, and a set of visually similar reference pictures you can open in a map viewer for manual comparison. Accuracy is usually “city-level” (±25 km) for landmarks and distinctive skylines, but drops on rural or indoor scenes. The module is being developed under the EU **vera.ai** programme and is still labelled _experimental_, so double-check every hit with classic open-source techniques.&#x20;
+
+All[ heavy lifting happens on ITI CERTH servers](https://tech.ebu.ch/events/2025/veraai-training-workshop-series); the plug-in strips EXIF and hashes the file name before upload. Hash-anonymised embeddings are kept for 30 days to retrain the model, then purged.
+
+* Treat results as leads—cross-check with Street View, SunCalc and local news imagery.
 
 {% tabs %}
 {% tab title="Geolocalizer Tab" %}
-<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>I'm using an example from Logan William's excellent article on the OSM Search tool.<br>Williams, L. (2023, May 8). <em>Finding Geolocation Leads with Bellingcat’s OpenStreetMap Search Tool</em>. Bellingcat. <a href="https://www.bellingcat.com/resources/how-tos/2023/05/08/finding-geolocation-leads-with-bellingcats-openstreetmap-search-tool/">https://www.bellingcat.com/resources/how-tos/2023/05/08/finding-geolocation-leads-with-bellingcats-openstreetmap-search-tool/</a><br></p></figcaption></figure>
-{% endtab %}
-
-{% tab title="First attempt" %}
-<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption><p>unfortunately I get an error for what should have been a street in Brussels.</p></figcaption></figure>
-{% endtab %}
-
-{% tab title="Second attempt" %}
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>Also, I had no luck with this shadow on a beach, which you can geolocate using only the sun! And math. And two geniuses:<br>Reich, Galen &#x26; Friesen, Gabòr. (2024, August 22). <em>Chasing Shadows: Geolocate Images with Bellingcat’s Shadow Finder Tool</em>. Bellingcat. <a href="https://www.bellingcat.com/resources/2024/08/22/shadow-geolocate-geolocation-locate-image-tool-open-source-bellingcat-measure/">https://www.bellingcat.com/resources/2024/08/22/shadow-geolocate-geolocation-locate-image-tool-open-source-bellingcat-measure/</a></p></figcaption></figure>
-{% endtab %}
-{% endtabs %}
-
-**Provenance (C2PA) -** It reads an image or video's [C2pa ](https://c2pa.org/)data.
-
-{% tabs %}
-{% tab title="Provenance Tab" %}
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (51).png" alt=""><figcaption><p>The service should return <strong>48.858 N, 2.293 E (Champ-de-Mars, Paris)</strong> with a green confidence bar.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Result" %}
-InVid is undergoing some renovations under the hood and I wasn't able to test this feature because it threw an error. I will update this page as soon as the error is resolved.
+<figure><img src=".gitbook/assets/image (52).png" alt=""><figcaption><p>Why this works: the Eiffel Tower is heavily represented in the training corpus, so the index finds dozens of close neighbours within 500 m.</p></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
+**Provenance (C2PA)**&#x20;
+
+It reads an image or video's [C2pa ](https://c2pa.org/)data. **C2PA** stands for the _Coalition for Content Provenance and Authenticity_, an open standard backed by Adobe, Microsoft, Google, the BBC and others. It embeds a tamper-evident “manifest” (hashed, then signed) in JPEG, PNG, MP4, WebP and AVIF files. If someone alters pixels or edits the manifest, the signature breaks.
+
+The plug-in parses the manifest with the same open-source library used by Adobe’s and Digimarc’s browser extensions, then renders a human-readable report. If the signature chain resolves to a trusted root certificate, you’ll see a green “verified” badge; otherwise you get a warning.
+
+{% tabs %}
+{% tab title="Provenance Tab" %}
+<figure><img src=".gitbook/assets/image (53).png" alt=""><figcaption><p><a href="https://c2pa.org/public-testfiles/image/">Real photo</a>, Invalid credentials: Claim signature mismatch</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Result" %}
+<figure><img src=".gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -335,19 +332,19 @@ Performs advanced search queries on X (formerly Twitter), including precise time
 
 **Fact Check Semantic Search (Locked Feature)**
 
-Uses semantic search algorithms to find fact-checked information across various sources, improving the accuracy of verification. Access is restricted to registered users.
+Paste a sentence, paragraph or whole social-media post and the tool looks for **semantically similar fact-checks** in a [multilingual database of ≈ 300 000 verified debunks](https://cedmohub.eu/ai-solutions/tools/) from more than [160 IFCN-signatory](https://edmo.eu/edmo-news/ai-and-disinformation-edmo-hubs-initiatives/) organisations. It therefore answers the question _“Has anyone already debunked this claim?”_ even when the input language differs from the fact-check language. Claims are pulled hourly from the [**Database of Known Fakes** (DBKF)](https://arxiv.org/pdf/2504.20668) back-end, which aggregates RSS, ClaimReview, and custom scrapers.
 
 {% tabs %}
 {% tab title="Fact Check Semantic Search" %}
-<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (41).png" alt=""><figcaption><p>Input box – drop in one or more sentences; longer context usually returns stronger matches. <br>Show Advanced Settings lets you filter by language, publisher or publication date; raise/lower the similarity threshold; switch between “exact-match keywords” and “full semantic” modes (the latter is default). Results open in a new tab with the claim, verdict, publisher, date and a direct link to the full article for manual review.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Query" %}
-<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption><p>It's a valid question.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (42).png" alt=""><figcaption><p>For testing, I used the Spanish phrase for: “A Facebook post claims that the mRNA COVID-19 vaccines can make women sterile and that couples should wait at least a year after vaccination before trying to have a baby. Is that true?”</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results" %}
-<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption><p>While I didn't find my answer ("no, he did not"), the answers provided were all fact-checked. He did not join a group of comedians, was not headed to Moscow, and was not dead, but there is a photo of Elon Musk with a real robot. Even though fact-checked, it is always important to consider other sources and the possibility of things changing.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (43).png" alt=""><figcaption><p>The wealth of over 100 results also contained direct debunks in Spanish, translated into English.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -357,25 +354,21 @@ Provides a customized search engine (CSE) for cross-network queries, simultaneou
 
 {% tabs %}
 {% tab title="XNetwork" %}
-<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Results" %}
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
 **Factchecks**
 
-Facilitates the discovery of fact-checked articles and reports from trusted fact-checking organizations, aiding in content verification.
+This module is a **Google Programmable Search Engine (CSE)** wired to \~240 trusted fact-checking outlets – chiefly [IFCN signatories](https://github.com/IFCN/verified-signatories) plus long-standing projects such as Snopes, Full Fact and Africa Check. A single query lets you ask **“Has someone published a debunk on this?”** and brings back only results that already carry a ClaimReview-style verdict.
 
 {% tabs %}
 {% tab title="Factchecks" %}
-<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption><p>Similar to the semanitc search above, providing similar results and give an additional means of arriving at fact-checked articles.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (45).png" alt=""><figcaption><p>I didn't get any results for any example prompts this time, but I'll update you if this changes.</p></figcaption></figure>
 {% endtab %}
 
-{% tab title="Results" %}
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+{% tab title="Factcheck 2" %}
+<figure><img src=".gitbook/assets/image (46).png" alt=""><figcaption><p>With this prompts, almost a classic at this point, we get results.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -388,10 +381,6 @@ Performs social network analysis on Twitter, analyzing interactions, trends, and
 {% tabs %}
 {% tab title="Twitter SNA" %}
 <figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Results" %}
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Unfortunately, this feature doesn't work at the moment due to Twitter's policy changes.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
