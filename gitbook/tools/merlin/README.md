@@ -54,7 +54,7 @@ Other popular bird identification apps feature region-specific information, such
 
 ## Requirements
 
-Merlin can be downloaded for free on Android and Apple devices.
+Merlin can be [downloaded](https://merlin.allaboutbirds.org/download/) for free on Android and Apple devices.
 
 ## Limitations
 
