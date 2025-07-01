@@ -1,24 +1,32 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  An AI-powered image geolocalization tool to determine where a photo was taken
+  even if its EXIF metadata lacks GPS coordinates.
 ---
 
 # Picarta
 
 ## URL
 
-https://example.com
+[https://picarta.ai/](https://picarta.ai/)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+In the absence of GPS EXIF data, its AI system provides GPS estimation. Image EXIF data includes camera model and timestamps.&#x20;
+
+It also offers [georeferencing for aerial imagery](https://picarta.ai/aerial-imagery) captured by aircraft, drones, and satellites. A landmark detection feature is yet to be rolled out.
+
+The API can return up to 100 results with [confidence scores](https://picarta.ai/how-to-use?utm_source=chatgpt.com).&#x20;
+
+The aerial imagery function can be used to for land use monitoring, and environmental assessments and other OSINT research.&#x20;
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+The free plan allows for two searches per day and 100 API Calls. Additional features are available in [paid plans](https://picarta.ai/pricing) to varying degrees.
 
 ## Level of difficulty
 
@@ -26,27 +34,31 @@ https://example.com
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+Can be used through the [website](https://picarta.ai/how-to-use?), via API, or using an offline model. .&#x20;
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+The level of accuracy varies widely especially if the photo uploaded lacks distinctive landmarks or features or is of poor quality.&#x20;
+
+While it can help to narrow down on the possible locations, it will still require the user to review and verify the options which can be time-consuming and possibly not provide an accurate assessment.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+The website states that uploaded pictures will be deleted.
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+Overview [guide](https://openaimaster.com/what-is-picarta-ai-how-to-use/).
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Picarta.ai
 
 ## Similar tools
 
-\[\[Compare this tool with similar tools which can be used for the same research purpose. What are the strengths and weaknesses of each tool?]]
+It can predict the GPS location of an outdoor image by looking at the top 100 predictions for the input image with a probability of[ 70 percent](https://picarta.ai/how-to-use?).&#x20;
+
+It is useful for determining geolocation compared to Google Reverse Search which can only determine duplicate images or identify people and objects.
 
 ## Advertising Trackers
 
@@ -54,7 +66,7 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
+|                           |
