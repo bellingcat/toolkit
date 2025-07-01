@@ -66,11 +66,11 @@ Created and maintained by [**Luca Garofalo**](https://github.com/Lucksi) **(Luck
 
 ## Similar tools
 
-| Tool                                  | Strength                                       | Weakness                               |
-| ------------------------------------- | ---------------------------------------------- | -------------------------------------- |
-| **LinkdTime**                         | Precise timestamps, bulk timeline, open-source | Linux-only; breaks if LinkedIn changes |
-| **OSINT-Switzerland LinkedIn script** | Exports post IDs fast                          | No timeline output; limited to posts   |
-| **Wayback Machine**                   | Full historical snapshots                      | No post times; manual link lookup      |
+| Tool                                                                                         | Strength                                       | Weakness                               |
+| -------------------------------------------------------------------------------------------- | ---------------------------------------------- | -------------------------------------- |
+| **LinkdTime**                                                                                | Precise timestamps, bulk timeline, open-source | Linux-only; breaks if LinkedIn changes |
+| **OSINT-Switzerland LinkedIn script**                                                        | Exports post IDs fast                          | No timeline output; limited to posts   |
+| [**Wayback Machine**](https://bellingcat.gitbook.io/toolkit/more/all-tools/internet-archive) | Full historical snapshots                      | No post times; manual link lookup      |
 
 ## Advertising Trackers
 
