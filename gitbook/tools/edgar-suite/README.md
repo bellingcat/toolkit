@@ -1,8 +1,8 @@
 ---
+updated: '2025-06-04'
 description: >-
   Tool for the retrieval of corporate and financial data from SEC's EDGAR
   (Electronic Data Gathering, Analysis, and Retrieval) database.
-updated: '2025-06-04'
 ---
 
 # EDGAR Command Line Interface (edgar-tool)
@@ -11,7 +11,7 @@ updated: '2025-06-04'
 
 [https://pypi.org/project/edgar-tool/](https://pypi.org/project/edgar-tool/)
 
-* Source code is freely available on [GitHub](https://github.com/bellingcat/EDGAR) (v. 2.1.0; May 2025)
+* Source code is freely available on [GitHub](https://github.com/bellingcat/EDGAR) (v 2.1.2 – 15 May 2025, last checked July 1st)
 * Users can download `edgar-tool` (the CLI) directly from [PyPI](https://pypi.org/project/edgar-tool/)
 
 ## EDGAR Database Overview
@@ -60,7 +60,7 @@ Despite [EDGAR](https://bellingcat.gitbook.io/toolkit/more/all-tools/edgar)’s 
 
 #### 5. Command-Line Simplicity & Python Integration
 
-* **CLI Usage**: A single terminal command (e.g., `edgar-tool text_search "John Doe"`) runs queries with optional arguments for specialized tasks.
+* **CLI Usage**: A single terminal command (e.g., `edgar text_search "John Doe"`) runs queries with optional arguments for specialized tasks.
 * **Python Compatibility**: If deeper analysis or automated workflows are desired, you can embed `edgar-tool` results in Jupyter notebooks, or orchestrate them within a Python pipeline (particularly helpful for large OSINT or data-mining projects).
 
 #### 6. Support for Large Queries & Retry Logic
