@@ -1,5 +1,5 @@
 ---
-description: A brief one line description of this tool
+description: A repository for desert locust data.
 ---
 
 # Locust Hub
@@ -42,7 +42,7 @@ https://example.com
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Managed by the Food and Agriculture Organization (FAO) of the United Nations.
 
 ## Similar tools
 
@@ -54,7 +54,7 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat volunteer team |
+|                           |
