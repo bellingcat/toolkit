@@ -39,17 +39,17 @@ Open-source under the GPL-3.0 licence; no paid tier ([GitHub](https://github.com
 
 ## Requirements
 
-* **Linux** with Python 3 (only platform officially tested, see [GitHub](https://github.com/Lucksi/LinkdTime)).
+* **Linux** with Python 3 (only platform officially tested, see [GitHub](https://github.com/Lucksi/LinkdTime));
 * Git to clone the repo;
 * Target LinkedIn URLs must load without being signed in (no login cookies needed).
 
 ## Limitations
 
-* Untested on Windows or macOS—manual tweaks may be necessary
-* Breaks if LinkedIn changes its HTML structure (pure scraping)
-* Cannot access content behind the login wall or private-visibility posts
-* Heavy, rapid queries may trigger LinkedIn's anti-bot defences; use rate-limiting or rotating proxies
-* No graphical interface—terminal only
+* Untested on Windows or macOS—manual tweaks may be necessary;
+* Breaks if LinkedIn changes its HTML structure (pure scraping);
+* Cannot access content behind the login wall or private-visibility posts;
+* Heavy, rapid queries may trigger LinkedIn's anti-bot defences; use rate-limiting or rotating proxies;
+* No graphical interface—terminal only.
 
 ## Ethical Considerations
 
