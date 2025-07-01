@@ -15,7 +15,7 @@ description: >-
 
 LinkdTime is a command-line Python tool that scrapes LinkedIn pages to recover the precise date and time of posts, comments, replies and profile-image changes, then lays them out chronologically. You can feed it one URL to see when that action happened or pass a text file of many links to generate an HTML or TXT timeline with optional embedded images. Recognised activities include posts, comments, profile-picture changes, background-image changes and company-logo swaps (see [GitHub](https://github.com/Lucksi/LinkdTime)).
 
-**Example use case** – An investigator collects all post and comment URLs made by a LinkedIn account suspected of astroturfing. Running LinkdTime reveals that the “organic” replies appeared within minutes of the original posts, supporting the hypothesis of coordinated behaviour.
+**Example use case** – An investigator collects all post and comment URLs made by a LinkedIn account suspected of astroturfing using LinkdTime. Running LinkdTime reveals that the “organic” replies appeared within minutes of the original posts, supporting the hypothesis of coordinated behaviour.
 
 ## Typical Workflow
 
