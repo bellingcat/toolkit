@@ -41,7 +41,7 @@ Open-source under the GPL-3.0 licence; no paid tier ([GitHub](https://github.com
 
 * **Linux** with Python 3 (only platform officially tested, see [GitHub](https://github.com/Lucksi/LinkdTime)).
 * Git to clone the repo;
-* Target LinkedIn URLs must load without being signed in (no login cookies needed)
+* Target LinkedIn URLs must load without being signed in (no login cookies needed).
 
 ## Limitations
 
