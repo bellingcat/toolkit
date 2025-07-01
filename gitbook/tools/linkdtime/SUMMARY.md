@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Linkdtime](README.md)
+* [LinkdTime](README.md)
 * [Categories](categories.md)

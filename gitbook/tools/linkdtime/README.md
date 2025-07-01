@@ -4,7 +4,7 @@ description: >-
   list of links.
 ---
 
-# Linkdtime
+# LinkdTime
 
 ## URL
 
@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-LinkdTime is a command-line Python tool that scrapes LinkedIn pages to recover the precise date + time of posts, comments, replies and profile-image changes, then lays them out chronologically. You can feed it one URL to see when that action happened or pass a text file of many links to generate an HTML or TXT timeline with optional embedded images. Recognised activities include posts, comments, profile-picture changes, background-image changes and company-logo swaps ([GitHub](https://github.com/Lucksi/LinkdTime)).
+LinkdTime is a command-line Python tool that scrapes LinkedIn pages to recover the precise date and time of posts, comments, replies and profile-image changes, then lays them out chronologically. You can feed it one URL to see when that action happened or pass a text file of many links to generate an HTML or TXT timeline with optional embedded images. Recognised activities include posts, comments, profile-picture changes, background-image changes and company-logo swaps ([GitHub](https://github.com/Lucksi/LinkdTime)).
 
 **Example use case** – An investigator collects all post and comment URLs made by a LinkedIn account suspected of astroturfing. Running LinkdTime reveals that the “organic” replies appeared within minutes of the original posts, supporting the hypothesis of coordinated behaviour.
 
@@ -21,12 +21,6 @@ LinkdTime is a command-line Python tool that scrapes LinkedIn pages to recover t
 
 ```
 git clone https://github.com/Lucksi/LinkdTime
-cd LinkdTime
-python3 main.py https://www.linkedin.com/posts/…
-
-# or
-python3 main.py timeline list_of_links.txt --timezone GMT+2 --save
-
 ```
 
 The script [returns ](https://github.com/Lucksi/LinkdTime)either a single timestamp or a full HTML / TXT timeline (optional embedded images or Base64). Investigators can therefore spot coordination patterns, for example, discovering that replies labelled “organic” landed within minutes of each other.
