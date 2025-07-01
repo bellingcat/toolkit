@@ -59,9 +59,9 @@ The list allows obtaining the UN/LOCODE Code List 2024-1 for each country or ter
 This menu also allows to search expected arrivals, arrivals and departures by a ship's name IMO or MMSI. A paid subscription also features looking up data on berth calls and port congestion.&#x20;
 
 {% hint style="info" %}
-Berth calls describes events that take place in a berth within a port, such as docking and undocking of vessels in them. There are various areas within the port, where vessels can dock.&#x20;
+Berth calls describe events that take place in a berth within a port, such as docking and undocking of vessels in them. There are various areas within the port, where vessels can dock.&#x20;
 
-Berth in ports are designated locations where a vessel can dock to load and unload cargo or passengers. Berths are designated by the management of a facility (e.g., port authority, harbor master). Vessels are assigned to berths by these authorities.
+Berths in ports are designated locations where a vessel can dock to load and unload cargo or passengers. Berths are designated by the management of a facility (e.g., port authority, harbor master). Vessels are assigned to berths by these authorities.
 {% endhint %}
 
 If you have a paid subscription, the Ports menu also offers information on port congestion, and the exact names of the ships expected to arrive or depart.
@@ -84,7 +84,7 @@ You can read more on AtoN [here](https://en.wikipedia.org/wiki/Navigational_aid)
 
 A profile for a company gives contact information and address, years in business and the nature of business.
 
-[Stations](https://www.marinetraffic.com/en/data/?asset_type=stations\&columns=country,station_name,status,last_signal,availability,max_distance,avg_distance,area_covered): A list of 5,644 AIS stations with details for each one, including status, last signal time, average and maximum reception distance in nautical miles, area covered, station elevation, who operates it, equipment description, statistics about the AIS message types and records received about vessels in the past hour.
+[Stations](https://www.marinetraffic.com/en/data/?asset_type=stations\&columns=country,station_name,status,last_signal,availability,max_distance,avg_distance,area_covered): A list of 5,644 AIS stations with details for each one, including status, last signal time, average and maximum reception distance in nautical miles, area covered, station elevation, who operates it, equipment description, statistics about the AIS message types and records received about vessels in the past hour. Youn can read additional details on this functionality [here](https://support.marinetraffic.com/en/articles/9552984-station-detail-page).&#x20;
 
 This menu also offers the opportunity to apply for free AIS-receiving equipment by filling out [this form](https://www.marinetraffic.com/en/join-us/free-receiver-application). Some conditions apply and it appears MarineTraffic may not approve an application if your specific area is already covered by at least one AIS receiver.&#x20;
 
@@ -171,7 +171,7 @@ Guides provided by MarineTraffic:
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer:-            |
-| ---------------------------- |
-| LPetrova and Sophie Tedling. |
-|                              |
+| Page maintainer:-           |
+| --------------------------- |
+| LPetrova and Sophie Tedling |
+|                             |
