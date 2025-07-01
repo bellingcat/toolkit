@@ -8,11 +8,11 @@ description: A toolkit that supports the verification of videos and images.
 
 [https://weverify.eu/verification-plugin/](https://weverify.eu/verification-plugin/)
 
-(v. 0.84.1 - Feb. 2025)
+(v. 0.86 - June 2025; last checked: July 1st 2025)
 
 ### Description
 
-The InVID Verification Plugin is a comprehensive toolkit designed to assist journalists in verifying content on social networks. It offers a suite of tools to analyze and verify videos and images, including contextual information retrieval, several engines (Google, Lens, Bing, TinEye, Yandex, Baidu, Karma Decay, DBKF), video fragmentation, and metadata extraction. The plugin supports multiple platforms, such as YouTube, Facebook, Twitter, and Instagram, making it a versatile tool for fact-checking and debunking tasks on social networks. (Some Twitter-related features may not work anymore due to the API policy change.)
+The InVID Verification Plugin is a comprehensive toolkit designed to assist journalists in verifying content on social networks. It offers a suite of tools to analyze and verify videos and images, including contextual information retrieval, several engines (Google, Lens, Bing, TinEye, Yandex, Baidu, Karma Decay, DBKF), video fragmentation, and metadata extraction. The plugin supports multiple platforms, such as YouTube, Facebook, Twitter, and Instagram, making it a versatile tool for fact-checking and debunking tasks on social networks. (Some Twitter-related features may not work anymore due to the API policy change.) Since v0.85 the plug-in has gained a [WACZ](https://specs.webrecorder.net/wacz/1.1.1/) disinformation-archiving tool, a [Hiya-powered voice-clone detector](https://www.hiya.com/products/deepfake-voice-detector), and full [Hungarian localisation](https://www.hdmo.eu/hungarian-version-of-invid-weverify-verification-plug-in-released-by-afp-media-lab/) (joining EN, FR, ES, EL, AR, IT & DE).
 
 {% hint style="info" %}
 If you're a journalist, fact-checker, or researcher, take a minute to apply and register to use the advanced tools. To do this, click "Advanced Tools" and then "Register". Register with your **professional email address.** Once you’re confirmed as registered, enter your email and then copy & paste the code emailed to you.
@@ -294,26 +294,26 @@ InVid is undergoing some renovations under the hood and I wasn't able to test th
 
 ### **Audio**
 
-#### **Loccus (Locked Feature)**
+#### Hiya Voice-Clone Detector _(Locked Feature)_
 
-{% hint style="info" %}
-This feature changed with the most recent update, switching from loccus.ai to hiya.ai as a service provider for this feature but due to an error I wasn't able to test it yet. I will update this as soon as the issue is resolved.
-{% endhint %}
+Uses Hiya.ai’s classifier to spot AI text-to-speech or cloned voices in WAV/MP3 uploads, flagging likely synthetic segments. Requires registration; processing happens server-side, and no audio is stored after analysis (see privacy notice in the plug-in).\
 
-Detects AI-generated text-to-speech (voice cloning by AI), analyzing audio files to identify potential deep fake audio. Access is restricted to registered users.\
-
-
-{% hint style="info" %}
-This feature was renewed as InVid changed from Loccus to “Hiya voice-clone detector”. An updated demo will follow shortly.
-{% endhint %}
 
 {% tabs %}
-{% tab title="Loccus " %}
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p>I'm using this well-known deepfake of Monika Tódová, a well-known journalist. During the 2023 parliamentary election, this conversation, pure fabrication, became the first documented case of a deepfake playing a role in the pre-election battle.<br>Karin Kőváry Sólymos. (2023). Slovakia: Deepfake audio of Denník N journalist offers worrying example of AI abuse. <em>Ipi.Media</em>. <a href="https://ipi.media/slovakia-deepfake-audio-of-dennik-n-journalist-offers-worrying-example-of-ai-abuse/">https://ipi.media/slovakia-deepfake-audio-of-dennik-n-journalist-offers-worrying-example-of-ai-abuse/</a></p></figcaption></figure>
+{% tab title="Hiya " %}
+<figure><img src=".gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Results" %}
+{% tab title="Results (deprecated model)" %}
 <figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>While the average score indicates that most of the conversation comprises actual speech, it also shows a high likelihood of detection for some parts of the two-minute recording. More often than not, altering just a few words to change a conversation's meaning completely is sufficient.<br>Mai, K. T., Bray, S., Davies, T., &#x26; Griffin, L. D. (2023). Warning: Humans cannot reliably detect speech deepfakes. <em>PLOS ONE</em>, <em>18</em>(8), e0285333. <a href="https://doi.org/10.1371/journal.pone.0285333">https://doi.org/10.1371/journal.pone.0285333</a><br></p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Results (elevenlabs)" %}
+<figure><img src=".gitbook/assets/image (39).png" alt=""><figcaption><p>A deepfake crated by text-to-speech and voice clone provider <a href="https://elevenlabs.io/voice-library">elevenlabs </a>was detected reliably. </p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Results (google AudioLM)" %}
+<figure><img src=".gitbook/assets/image (40).png" alt=""><figcaption><p>An example from Google's Language modeling Approach <a href="https://google-research.github.io/seanet/audiolm/examples/">AudioLM</a> also was detected reliably.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -383,7 +383,7 @@ Facilitates the discovery of fact-checked articles and reports from trusted fact
 
 **Twitter SNA (Locked Feature)**
 
-Performs social network analysis on Twitter, analyzing interactions, trends, and relationships to understand information spread and impact. Deprecated since July 1st, 2023, due to X/Twitter code changes. Is on registration, so might work again at some point and this article will reflect that. Access is restricted to registered users.
+Performs social network analysis on Twitter, analyzing interactions, trends, and relationships to understand information spread and impact. Deprecated since July 1st, 2023, due to X/Twitter code changes. It is on registration, so it might work again at some point, and this article will reflect that. Access is restricted to registered users.
 
 {% tabs %}
 {% tab title="Twitter SNA" %}
@@ -409,6 +409,10 @@ CrowdTangle is permanently gone. We hope that this feature will not disappear bu
 {% endtab %}
 {% endtabs %}
 
+#### WACZ Export _(Locked Feature)_
+
+Packages selected URLs, keyframes, or images into a forensically sound **WACZ** bundle for long-term preservation and evidence sharing. Accessible to registered fact-checkers under the IFCN DisinfoArchiving project (2024-25). The feature description appears in the [extension overview](https://chromewebstore.google.com/detail/fake-news-debunker-by-inv/mhccpoafgdgbhnjfhkcmgknndkeenfhe?hl=en), but didn't appear to work at the time of testing.&#x20;
+
 ## Cost
 
 * [x] Free
@@ -419,23 +423,24 @@ CrowdTangle is permanently gone. We hope that this feature will not disappear bu
 
 ## Requirements
 
-Chromium browsers and Firefox are fully supported; Safari is not.
+Chromium-based browsers and Firefox (via manual `.xpi` install) are supported; Safari is not.\
+Firefox install instructions remain on the project’s [GitHub mirror.](https://github.com/AFP-Medialab/invid-weverify-firefox)
 
 ## Limitations
 
 * **External Services**: Some tools within the plugin rely on external services that are not open-sourced, which may affect transparency and long-term accessibility.
 * **API Restrictions**: Certain features, such as Twitter analysis, have been deprecated due to changes in platform APIs.
 * **Locked Features**: Several advanced features are restricted to registered users, such as journalists and researchers, which may limit access for general users.
-* **Processing Time**: The analysis of videos with a large number of comments or metadata can be slow, affecting efficiency.
-* **Browser Compatibility**: The plugin is primarily designed for Chrome and Opera browsers, with limited support for other browsers like Firefox.
+* **Processing Time**: Analyzing videos with a large number of comments or metadata can be slow, affecting efficiency.
+* **Browser Compatibility**: The plugin is primarily designed for Chrome and Opera browsers, with limited support for other browsers, such as Firefox.
 * **Geolocation Accuracy**: The Geolocalizer's accuracy depends on the availability and quality of metadata, which may not always be reliable.
 * **AI Detection Limitations**: The accuracy of synthetic image and deepfake detection tools can vary, and false positives or negatives may occur.
 
 ## Ethical Considerations
 
-The InVID Verification Plugin helps researchers and journalists verify online media, but there are ethical implications when using it. First, the plugin relies on metadata extraction and reverse searches, which may access personal or private data embedded in media. This raises privacy concerns, especially if personal information is unintentionally exposed or used without consent.
+The InVID Verification Plugin helps researchers and journalists verify online media, but it also raises ethical concerns when used. First, the plugin relies on metadata extraction and reverse searches, which may access personal or private data embedded in media. This raises significant privacy concerns, particularly if personal information is unintentionally disclosed or used without consent.
 
-Tools like deepfake and AI-generated image detectors may produce false positives or negatives, potentially leading to incorrect conclusions or accusations. It is essential to verify results through multiple sources before making claims. Users should also be mindful of the ethical responsibility of using the tool only for legitimate verification purposes, not for harmful surveillance or invasive investigations.
+Tools like deepfake- and AI-generated image detectors may produce false positives or negatives, potentially leading to incorrect conclusions or accusations. It is essential to verify results through multiple sources before making claims. Users should also be mindful of the ethical responsibility of using the tool only for legitimate verification purposes, not for harmful surveillance or invasive investigations.
 
 {% hint style="info" %}
 When using InVID for content verification, there is a risk of misinterpreting results, which could lead to erroneous conclusions. InVID provides tools for analyzing video authenticity by examining metadata, reverse image searching, and extracting keyframes, but the results do not automatically confirm authenticity. Researchers might misinterpret partial metadata or falsely correlate visual matches from reverse image searches, leading to an incorrect verification of content. Without a cautious and critical approach, users could mistake automated analysis for definitive proof, potentially spreading misinformation if content is improperly validated. It's essential to use InVID's findings as part of a broader verification process and corroborate with additional sources before drawing conclusions.
