@@ -8,13 +8,28 @@ description: >-
 
 ## URL
 
-[https://github.com/Lucksi/LinkdTime](https://github.com/Lucksi/LinkdTime)
+[https://github.com/Lucksi/LinkdTime](https://github.com/Lucksi/LinkdTime)\
+
 
 ## Description
 
 LinkdTime is a command-line Python tool that scrapes LinkedIn pages to recover the precise date + time of posts, comments, replies and profile-image changes, then lays them out chronologically. You can feed it one URL to see when that action happened or pass a text file of many links to generate an HTML or TXT timeline with optional embedded images. Recognised activities include posts, comments, profile-picture changes, background-image changes and company-logo swaps ([GitHub](https://github.com/Lucksi/LinkdTime)).
 
 **Example use case** – An investigator collects all post and comment URLs made by a LinkedIn account suspected of astroturfing. Running LinkdTime reveals that the “organic” replies appeared within minutes of the original posts, supporting the hypothesis of coordinated behaviour.
+
+## Typical Workflow
+
+```
+git clone https://github.com/Lucksi/LinkdTime
+cd LinkdTime
+python3 main.py https://www.linkedin.com/posts/…
+
+# or
+python3 main.py timeline list_of_links.txt --timezone GMT+2 --save
+
+```
+
+The script [returns ](https://github.com/Lucksi/LinkdTime)either a single timestamp or a full HTML / TXT timeline (optional embedded images or Base64). Investigators can therefore spot coordination patterns, for example, discovering that replies labelled “organic” landed within minutes of each other.
 
 ## Cost
 
@@ -32,15 +47,15 @@ Open-source under the GPL-3.0 licence; no paid tier ([GitHub](https://github.com
 
 * **Linux** with Python 3 (only platform officially tested, [GitHub](https://github.com/Lucksi/LinkdTime)).
 * Git to clone the repo;
-* Publicly reachable LinkedIn URLs (no login cookies needed).
+* Target LinkedIn URLs must load without being signed in (no login cookies needed)
 
 ## Limitations
 
-* **Platform support** – not tested on Windows or macOS; manual tweaks may be required.
-* **LinkedIn layout changes** – relies on scraping; a markup update can break parsing.
-* **Rate-limits** – heavy use from one IP may trigger LinkedIn anti-bot measures; use pauses or rotating proxies.
-* **Private content** – cannot access posts visible only to logged-in connections.
-* **No GUI** – runs in the terminal; users comfortable with command lines will adapt fastest.
+* Untested on Windows or macOS—manual tweaks may be necessary
+* Breaks if LinkedIn changes its HTML structure (pure scraping)
+* Cannot access content behind the login wall or private-visibility posts
+* Heavy, rapid queries may trigger LinkedIn's anti-bot defences; use rate-limiting or rotating proxies
+* No graphical interface—terminal only
 
 ## Ethical Considerations
 
@@ -53,7 +68,7 @@ Scraping LinkedIn may violate its terms of service; check your legal context bef
 
 ## Tool provider
 
-Created and maintained by **Luca Garofalo (Lucksi)**, Italy-based open-source developer ([GitHub](https://github.com/Lucksi?utm_source=chatgpt.com)).
+Created and maintained by **Luca Garofalo (Lucksi)**, an Italy-based open-source developer ([GitHub](https://github.com/Lucksi?utm_source=chatgpt.com)).
 
 ## Similar tools
 
@@ -72,4 +87,3 @@ Created and maintained by **Luca Garofalo (Lucksi)**, Italy-based open-source de
 | Page maintainer |
 | --------------- |
 | Martin Sona     |
-|                 |
