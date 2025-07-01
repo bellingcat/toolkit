@@ -3,6 +3,7 @@ description: >-
   A platform offering detailed maps, satellite imagery, street views (static &
   sometimes dynamic imagery, including aerial views). Often the best available
   data on Russia & surrounding regions.
+updated: '2025-06-30'
 ---
 
 # Yandex Maps

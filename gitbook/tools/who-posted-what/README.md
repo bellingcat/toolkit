@@ -2,6 +2,7 @@
 description: >-
   A tool that allows a keyword search on Facebook on a specific date or within a
   specific time frame.
+updated: '2025-06-30'
 ---
 
 # Who posted what?

@@ -1,5 +1,6 @@
 ---
 description: Live marine vessel tracker.
+updated: '2025-06-30'
 ---
 
 # VesselFinder

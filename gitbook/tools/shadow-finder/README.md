@@ -3,6 +3,7 @@ description: >-
   To analyse shadows in source imagery, Shadow Finder maps all points on the
   earth where a shadow of given length could occur at a given date & time, IF
   the height of the object casting it is known.
+updated: '2025-06-30'
 ---
 
 # Shadow Finder

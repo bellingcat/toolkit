@@ -2,6 +2,7 @@
 description: >-
   ExifTool is a command-line application for reading, writing, and editing meta
   information in files.
+updated: '2025-07-01'
 ---
 
 # ExifTool

@@ -2,6 +2,7 @@
 description: >-
   An open, community-based project, providing (near) real-time information on
   the movements of ships and their locations in harbours and ports.
+updated: '2025-07-01'
 ---
 
 # MarineTraffic

@@ -1,5 +1,6 @@
 ---
 description: AI video tool for facial detection and other types of insights.
+updated: '2025-06-30'
 ---
 
 # Azure AI Video Indexer

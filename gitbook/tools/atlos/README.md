@@ -2,6 +2,7 @@
 description: >-
   ATLOS is a platform for collaborative and large-scale open source
   investigations.
+updated: '2025-06-30'
 ---
 
 # Atlos

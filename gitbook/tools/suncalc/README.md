@@ -3,6 +3,7 @@ description: >-
   Suncalc models the relationship between the date, time of day, the geographic
   location of a place, and the position of the sun in the sky, together with the
   length & direction of the shadows it casts.
+updated: '2025-06-30'
 ---
 
 # SunCalc

@@ -1,5 +1,6 @@
 ---
 description: A toolkit that supports the verification of videos and images.
+updated: '2025-07-01'
 ---
 
 # InVID Verification Plugin

@@ -1,5 +1,6 @@
 ---
 description: Database of sanctions imposed by the European Union
+updated: '2025-07-01'
 ---
 
 # EU Sanctions Map

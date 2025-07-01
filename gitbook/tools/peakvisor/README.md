@@ -3,6 +3,7 @@ description: >-
   Dual window views for any global location: (1) a 2-D map & (2) a 3-D rendered
   terrain model, with photo fitting, shade/slope mapping, sun trails & weather
   data. In active development for OS research.
+updated: '2025-06-30'
 ---
 
 # PeakVisor

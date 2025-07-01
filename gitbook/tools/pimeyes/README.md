@@ -1,5 +1,6 @@
 ---
 description: An AI-powered facial recognition reverse image search tool.
+updated: '2025-06-30'
 ---
 
 # PimEyes

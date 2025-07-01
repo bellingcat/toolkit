@@ -3,6 +3,7 @@ description: >-
   Uwazi is an open-source platform that simplifies the management of document
   collections, particularly for human rights documentation in the justice and
   advocacy fields.
+updated: '2025-06-30'
 ---
 
 # Uwazi
