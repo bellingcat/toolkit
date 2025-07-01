@@ -62,7 +62,7 @@ Scraping LinkedIn may violate its terms of service; check your legal context bef
 
 ## Tool provider
 
-Created and maintained by **Luca Garofalo (Lucksi)**, an Italy-based open-source developer ([GitHub](https://github.com/Lucksi?utm_source=chatgpt.com)).
+Created and maintained by [**Luca Garofalo**](https://github.com/Lucksi) **(Lucksi)**, an Italy-based open-source developer.
 
 ## Similar tools
 
