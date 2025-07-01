@@ -42,7 +42,7 @@ The only difference between the premium service and the free one is the option t
 
 There are two types of downloads: classic and plus. In both you will get a document (.gz) that you will have to convert to XLS or CSV for analysis. I used this [tool](https://products.groupdocs.app/conversion/gz-to-xls). With the plus version you will get more detailed info such as customs code, mode of transport, among others. You can also use the [API](https://comtradedeveloper.un.org/signin?returnUrl=%2F) version to download the data. Here the README [file](https://github.com/uncomtrade/comtradeapicall?tab=readme-ov-file). For this API version, they will send your account information to your registered email so you can log in. It can take a couple of days.
 
-Through the official account of the Trade Statistics Branch on X, the UN [informs](https://x.com/UNTradeStats) about new information available on the platform and datasets. It also shares statistics and trends.
+Through the official account of the Trade Statistics Branch on X, the UN [informs](https://x.com/UNTradeStats) about new information available on the platform and released datasets. It also shares statistics and trends.
 
 <figure><img src=".gitbook/assets/GpO1AVXWkAA7AN9.png" alt=""><figcaption><p>Here an analytics of Ukraine in UN Comtrade <a href="https://x.com/UNTradeStats/status/1915073286586708420/photo/1">posted</a> by the Trade Statistics Branch on X.</p></figcaption></figure>
 
@@ -74,11 +74,13 @@ User guides:
 
 [UN Comtrade Analytics User Guide](https://comtrade.un.org/labs/data-explorer/UserGuide%20UN%20Comtrade%20Analytics.pdf)
 
-Projects that used the tool:
+Projects and articles that used the tool:
 
 [Is the US-China trade war spoiling international trade statistics? By Vali Stan, Lukas Linsi and Daniel Mügge](https://www.globalpolicyjournal.com/blog/29/01/2024/us-china-trade-war-spoiling-international-trade-statistics)
 
 [Red Flags in Trade Data by Conflict Armament Research](http://storymaps.arcgis.com/stories/5090228a1cd04ca7ae8c11cedd8d78fb)
+
+[Key statistics and trends in international trade 2024](https://unctad.org/system/files/official-document/ditctab2025d2_en.pdf)
 
 ## Tool provider
 
