@@ -70,7 +70,7 @@ None.
 
 ## Tool provider
 
-The website says "Internet Trade Services", but I could not find any info on them.
+The website says "Internet Trade Services", but I could not find any information on them.
 
 ## Advertising Trackers
 
