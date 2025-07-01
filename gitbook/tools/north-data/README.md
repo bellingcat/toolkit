@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-North Data is an online platform offering detailed company information sourced from public records like trade registers, annual reports, funding registers, trademark registers, and patent registers. The platform, primarily focuses on European countries ([currently](https://help.northdata.com/en/center/power-search-geographic-filters) 21 **jurisdictions**).
+North Data is an online platform offering detailed company information sourced from public records like trade registers, annual reports, funding registers, trademark registers, and patent registers. The platform, primarily focuses on European countries. Coverage (June 2025): **77 million+ companies in 24 European jurisdictions** ([newest additions](https://www.linkedin.com/company/northdata/): Netherlands, Czech Republic & Portugal).
 
 Key features and content include:
 
@@ -25,6 +25,8 @@ Key features and content include:
 2. **Advanced Search and Filtering**: By industry segment, performance indicators, and events. Full attribute list available [here](https://help.northdata.com/en/center/power-search-overview).
 3. **Data Accessibility**: Free basic access, premium services, and API integration.
 4. **Visualization Tools**: Plotting financial information and link analysis.
+5. **Power Search & EUID look-ups:** over 60 field filters (geo, turnover, ESG keywords, EUID, etc.) with export to CSV/XLSX.
+6. **Google Sheets integration:** official Apps-Script template fetches live indicators into a spreadsheet.
 
 ## Cost
 
@@ -32,7 +34,16 @@ Key features and content include:
 * [x] Partially Free
 * [ ] Paid
 
-North Data provides a tiered access model for its users, offering both free and paid subscription options. The site may also grant access to paid features to investigative journalists on request. [See here](https://www.northdata.com/_journalism)
+#### Cost & access
+
+| Tier                       | Monthly price\*                  | What you get                                                                             |
+| -------------------------- | -------------------------------- | ---------------------------------------------------------------------------------------- |
+| **Free (no login)**        | €0                               | Simple company & person look-up, first-degree network graph, last 3 years of key figures |
+| **Free (registered)**      | €0                               | Custom watchlists, e-mail alerts, CSV export (≤ 1 000 rows), basic event history         |
+| **Premium**                | from **€39 / mth** (single-user) | Full financials, multi-degree graphs, Power Search, PDF filings, unlimited export        |
+| **API / Quarterly Export** | quote                            | JSON / XML API (OpenAPI 3), bulk dumps for data warehouses                               |
+
+\* Prices from Help-Center billing FAQ; multi-seat & NGO concessions on request.
 
 | Free                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Paid                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -50,7 +61,8 @@ User registration is required for accessing certain features (see cost section).
 
 * Interactive graph starts with first-degree relations (company ↔︎ persons/companies). You can click nodes to reveal second-degree links, but bulk export/API still returns first-degree only.
 * Our own tests showed that some financial data or indicators are limited under a free account, are inconsistently updated or unavailable.
-* The data is only limited to 21 countries, the full list of sources with update frequency can be found [here](https://www.northdata.com/_coverage#sources).
+* The data is only limited to 24 countries, the full list of sources with update frequency can be found [here](https://www.northdata.com/_coverage#sources).
+* Network graph initially shows first-degree relations; you can click nodes to reveal deeper levels, but **CSV / API export is still limited to one hop**.
 
 ## Ethical Considerations
 
@@ -74,7 +86,7 @@ User registration is required for accessing certain features (see cost section).
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Martin Sona (original author: Shiva) |
-|                                      |
+| Page maintainer |
+| --------------- |
+| Martin Sona     |
+|                 |
