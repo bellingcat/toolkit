@@ -6,7 +6,7 @@ description: >-
 
 # National Interagency Fire Center
 
-## URL <a href="#https-www.nifc.gov" id="https-www.nifc.gov"></a>
+## URL
 
 [https://www.nifc.gov/](https://www.nifc.gov/)
 

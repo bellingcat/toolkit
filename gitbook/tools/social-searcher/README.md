@@ -4,7 +4,7 @@ description: Search hashtags and usernames across various platforms.
 
 # Social-searcher
 
-URL
+## URL
 
 https://www.social-searcher.com/
 

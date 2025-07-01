@@ -7,7 +7,7 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "url": "https://zinc.cse.buffalo.edu/ubmdfl/deep-o-meter/home_login",
+  "url": "https://zinc.cse.buffalo.edu/ubmdfl/deep-o-meter/",
   "tags": [
     "free",
     "international",
