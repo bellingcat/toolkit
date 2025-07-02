@@ -79,7 +79,7 @@ FlightAware will display a list of matching flight/s. The information available 
 
 ### PHOTOS
 
-FlightAware also has a photo gallery available based on aircraft type. There are two ways to search for photos.
+FlightAware also offers a photo gallery, organized by aircraft type. There are two ways to search for photos.
 
 **Community Page**
 
@@ -87,11 +87,11 @@ First, click on the URL, hover over the “Community” link on the top right, a
 
 **Aircraft Details Page**
 
-When clicking on a particular flight, the full detailed page will load (See image under “Viewing Results” section above) and navigate to the bottom right of the page.
+When you click on a particular flight, the full, detailed page will load (See the image in the “Viewing Results” section above) and navigate to the bottom right of the page.
 
 ### **KML OF FLIGHT LOG FOR CERTAIN GEOLOCATION TASKS**
 
-Lastly, for flights that have already landed or are completed, FlightAware allows users to download a KML file of the flight log. This will contain all the coordinates of its flight path, the altitude, and other information that helps users visualize. To do this, click on the flight page of a flight in question, click on “View track log”. Then navigate to the upper left corner of the page and click “+ Google Earth” icon, as shown below.
+Lastly, for flights that have already landed or are completed, FlightAware allows users to download a KML file of the flight log. This will contain all the coordinates of its flight path, altitude, and other information that helps users visualize it. To do this, click on the flight page of a flight in question, click on “View track log”. Then navigate to the upper left corner of the page and click the “+ Google Earth” icon, as shown below.
 
 {% hint style="warning" %}
 NOTE: Remember that historical information is limited for the free account, so flight log information may not always be available.
@@ -128,7 +128,7 @@ When doing flight tracking for investigations, it is essential to know what data
 
 <details>
 
-<summary>CALL SIGN: What is it? Why is it important? <mark style="color:green;">(CLICK TO EXPAND)</mark></summary>
+<summary><strong>CALL SIGN: What is it? Why is it important? </strong><mark style="color:green;"><strong>(CLICK TO EXPAND)</strong></mark></summary>
 
 **What is it?**[ Call signs are used to identify specific flights/flight routes and for communication and identification in air traffic control.](https://skybrary.aero/articles/aircraft-call-sign) They are unique identifiers of an aircraft. They help differentiate each aircraft in the sky from one another. According to this Bellingcat[ guide](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/), private aircraft often use their registration number as their call sign. In contrast, commercial flights usually have call signs based on their specific routes.
 
