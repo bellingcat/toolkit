@@ -13,22 +13,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Install dependencies
         run: npm install
 
       - name: Validate and format JSON
         run: node src/lint-json.mjs
-
-      - name: Mark tool updates
-        run: node src/mark-tool-updates.mjs
-
-      - name: temp
-        run: |
-          git log -20
-          git log -20 --grep="GITBOOK"
 
       - name: Run node script to update categories
         run: |
