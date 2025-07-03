@@ -2,6 +2,7 @@
 description: >-
   Aleph offers a way to research sanctions lists, corporate registries, leaks,
   and more
+updated: '2025-07-03'
 ---
 
 # OCCRP Aleph
