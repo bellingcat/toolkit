@@ -26,7 +26,7 @@ jobs:
         run: node src/mark-tool-updates.mjs
 
       - name: temp
-        run: git log -20
+        run: git log --since="1 day ago" --grep="GITBOOK-license-plate-maps-\d" --format=%cd --date=short | head -n 1
 
       - name: Run node script to update categories
         run: |
