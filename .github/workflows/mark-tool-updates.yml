@@ -23,11 +23,7 @@ jobs:
 
       - name: temp
         run: |
-          git log -1 --grep="GITBOOK-edgar"
-          git log -1 --grep="GITBOOK-edgar-\d"
-          git log -1 --grep="GITBOOK-edgar-\\d"
-          git log --since="1 day ago" --grep="GITBOOK-edgar-\d" --format=%cd --date=short | head -n 1
-          git log --since="1 day ago" --grep="GITBOOK-edgar-\\d" --format=%cd --date=short | head -n 1
+          git log --since="1 day ago" --grep="GITBOOK-edgar" --format=%cd --date=short | head -n 1
 
       - name: Mark tool updates
         run: node src/mark-tool-updates.mjs
