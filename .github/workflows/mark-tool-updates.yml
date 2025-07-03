@@ -1,4 +1,4 @@
-name: Mark tool updates
+name: Mark Tool Updates
 
 on:
   schedule:
@@ -20,10 +20,6 @@ jobs:
 
       - name: Validate and format JSON
         run: node src/lint-json.mjs
-
-      - name: temp
-        run: |
-          git log --since="1 day ago" --grep="GITBOOK-edgar-[0-9][0-9]*" --format=%cd --date=short | head -n 1
 
       - name: Mark tool updates
         run: node src/mark-tool-updates.mjs
