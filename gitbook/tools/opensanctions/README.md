@@ -39,7 +39,7 @@ For basic desktop research, go to [https://www.opensanctions.org/research/](http
 
 **Example 2: Search for an individual**
 
-* Type the name of an individual in the search bar. If you are uncertain about the full legal name, try using the individual's last name. In this case Ivanov. The search returns 531 results for a last name Ivanov, and these results can be filtered by topics, data sources and countries using the lists on the right.
+* Type the name of an individual in the search bar. If you are uncertain about the full legal name, try using the individual's last name. In this case Ivanov. The search returns 531 results for a last name Ivanov. The results can be filtered by topics, data sources and countries using the lists on the right.
 
 <figure><img src=".gitbook/assets/OS8.png" alt="" width="563"><figcaption><p>Results for searching by keyword 'Ivanov'</p></figcaption></figure>
 
@@ -93,9 +93,9 @@ Personally Identifiable Information (PII) is usually masked or hidden and the in
 
 ## Guide
 
-OpenSactions API user and implementation [guide](https://api.opensanctions.org/#section/Introduction).
+OpenSanctions API user and implementation [guide](https://api.opensanctions.org/#section/Introduction).
 
-OpenSantions datasets [colections](https://www.opensanctions.org/datasets/) in `.json` format that are downloadable, with the option to be integrated in other systems and databases.
+OpenSanctions datasets [colections](https://www.opensanctions.org/datasets/) in `.json` format that are downloadable, with the option to be integrated in other systems and databases.
 
 A [use-case article](https://www.opensanctions.org/articles/2024-05-03-guernsey-fiu/) on how the Guernsey Financial Intelligence Unit used OpenSanctions to fight money laundering and drug trafficking.
 
@@ -105,7 +105,7 @@ Neo4j: [OpenSanctions Demo](https://www.youtube.com/live/T3uGVrrMeTo?si=wPPIUZG_
 
 ## Tool provider
 
-OpenSanctions Datenbanken GmbH, a for-profit entity based in Germany. From September 2021 to Feburary 2022, the project received financial support from the German Federal Ministry for Education and Research (Bundesministerium für Bildung und Forschung, BMBF) under the grant identifier 01IS21S48.
+OpenSanctions Datenbanken GmbH, a for-profit entity based in Germany. From September 2021 to February 2022, the project received financial support from the German Federal Ministry for Education and Research (Bundesministerium für Bildung und Forschung, BMBF) under grant identifier 01IS21S48.
 
 ## Similar tools
 
