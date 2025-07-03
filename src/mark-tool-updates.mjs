@@ -30,6 +30,7 @@ async function getUpdatedAt(tool) {
     console.error(stderr);
   }
   if (stdout) {
+    console.log(cmd);
     console.log(tool.title,":", stdout);
   }
   const commitDate = stdout.trim();
