@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  mark-tool-updates:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,8 +23,7 @@ jobs:
 
       - name: temp
         run: |
-          git log -20
-          git log -20 --grep="GITBOOK-edgar"
+          git log -20 --grep="GITBOOK-edgar-\d"
 
       - name: Mark tool updates
         run: node src/mark-tool-updates.mjs
