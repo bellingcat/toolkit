@@ -19,15 +19,6 @@ Promise.all(publishedTools.map(function(tool) {
     return updatedAt;
   });
 })).then(function(result) {
-  return exec('git show').then(function(result) {
-    const { stdout, stderr } = result;
-    if (stderr) {
-      console.error(stderr);
-    }
-    if (stdout) {
-      console.log(stdout);
-    }
-  });
 });
 
 async function getUpdatedAt(tool) {
@@ -38,7 +29,9 @@ async function getUpdatedAt(tool) {
   if (stderr) {
     console.error(stderr);
   }
-  console.log(tool.title,":", stdout);
+  if (stdout) {
+    console.log(tool.title,":", stdout);
+  }
   const commitDate = stdout.trim();
   if (!commitDate) {
     return null;
