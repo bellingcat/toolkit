@@ -18,15 +18,16 @@ Promise.all(publishedTools.map(function(tool) {
 
     return updatedAt;
   });
-})).then(function() {
-  const cmd = 'git show';
-  const { stdout, stderr } = await exec(cmd);
-  if (stderr) {
-    console.error(stderr);
-  }
-  if (stdout) {
-    console.log(stdout);
-  }
+})).then(function(result) {
+  return exec('git show').then(function(result) {
+    const { stdout, stderr } = result;
+    if (stderr) {
+      console.error(stderr);
+    }
+    if (stdout) {
+      console.log(stdout);
+    }
+  });
 });
 
 async function getUpdatedAt(tool) {
