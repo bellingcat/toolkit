@@ -7,19 +7,20 @@ description: >-
 
 # Meta Content Library
 
-## URL
+[https://transparency.meta.com/researchtools/meta-content-library](https://transparency.meta.com/researchtools/meta-content-library)/\
 
-[https://transparency.meta.com/researchtools/meta-content-library](https://transparency.meta.com/researchtools/meta-content-library)/
 
 {% hint style="info" %}
 While this is a free tool, access is strictly limited to academic researchers and journalists working at not-for-profit organisations. Individuals can [apply for access](https://docs.google.com/document/d/1iN4KOvFaYGZro23cB4j1FveouXMBcZnKl-yTUyx6fCg/) to these tools at the[ Inter-university Consortium for Political and Social Research (ICPSR)](https://en.wikipedia.org/wiki/Inter-university_Consortium_for_Political_and_Social_Research) at the University of Michigan. If you intend to use it for research purposes, make sure to keep in mind the application time: The review process typically takes between [2-4 weeks](https://socialmediaarchive.org/pages/?page=FAQs\&ln=en), but can take up to[ 3-6 months](https://www.researchdatagov.org/faq) for multi-agency data access requests or if [additional reviews](https://socialmediaarchive.org/pages/?page=Meta%20Content%20Library%20FAQs\&ln=en) are needed.
 {% endhint %}
 
-(as of the most recent update from May 5th, 2025)
+<p align="center">(as of the most recent update from May 5th, 2025)<br></p>
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Description
 
-The **Meta Content Library** is a research tool providing vetted academic and non-profit researchers access to public posts from Facebook, Instagram, and Threads. It allows near real-time and historical analysis of social media content, facilitating studies on political discourse, public health trends, misinformation, and more. (Replaces deprecated CrowdTangle for research at scale; the only Meta-sanctioned source that exposes view-count (“exposure”) data.)
+The **Meta Content Library** is a research tool that provides vetted academic and non-profit researchers with access to public posts from Facebook, Instagram, and Threads. It enables near real-time and historical analysis of social media content, facilitating studies on political discourse, public health trends, misinformation, and other topics. (Replaces deprecated CrowdTangle for research at scale; the only Meta-sanctioned source that exposes view-count (“exposure”) data.)
 
 The platform features:
 
