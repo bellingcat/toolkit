@@ -15,7 +15,6 @@ description: This is the JSON codeblock for this tool
     "geotagged",
     "video",
     "geospatial",
-    "geolocation",
     "chronolocation"
   ]
 }
