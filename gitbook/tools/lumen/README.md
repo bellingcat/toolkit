@@ -12,14 +12,14 @@ description: >-
 
 ## Description
 
-Lumen is a research project at Harvard University’s **Berkman Klein Center for Internet & Society that, as of 2025, houses more than 35 million takedown notices** and grows by roughly 40 000 each week. It aggregates legal and _extralegal_ removal demands from platforms such as Google, GitHub, Reddit, Medium, Vimeo, Wikipedia, **Meta (Facebook & Instagram)** and others. _(Twitter/X halted submissions in April 2023 while it reviews third-party data-sharing.)_ Formerly called “Chilling Effects”.
+**Lumen** is a research project housed at Harvard Law School (originating at the Berkman Klein Center) that, as of mid‑2025, hosts **≈ 43 million** takedown notices referencing almost **10 billion** URLs and is growing by **over 200 000 notices every week**. It aggregates legal and extra‑legal removal demands from platforms such as Google Search, Meta (Facebook & Instagram), GitHub, Reddit, Medium, Vimeo, Wikipedia, DuckDuckGo, Cloudflare, WordPress and others. **Twitter/X paused data‑sharing on 15 Apr 2023**, and **YouTube is not currently contributing**. Formerly known as _Chilling Effects_, Lumen’s goal is to provide transparency around online content‑removal requests.
 
 ### Key use cases and features:
 
 * **Notices Repository:** Lumen keeps a collection of important notices, like DMCA claims, defamation issues, privacy concerns, trademark matters, and court orders. Each notice shares details about the sender and recipient, such as who requested the content removal and which hosting or search service was involved. It also provides a brief overview of the reasons for the request and includes the URLs of the content being questioned.
-* **Search and Filtering:** The website provides a powerful search interface. You can filter by notice type, date received, sender, recipient, and more. Casual users see truncated URLs for privacy, while researchers may request additional access to view full URLs and attachments.
+* **Search and Filtering:** full‑text query plus facets (notice type, sender, recipient, date, language, etc.). [Since Jun 2024 ](https://lumendatabase.org/blog_entries/new-features-for-researchers)users can run exact‑match searches by quoting a phrase and, if logged‑in as researchers, add individual notices to a personal “watch” list to be alerted of updates.
 * **API for Advanced Research**\
-  Researchers and investigative journalists can obtain API credentials to automate queries for large-scale data analysis. The API supports:
+  Researchers and investigative journalists[ can obtain API credentials ](https://github.com/berkmancenter/lumendatabase/wiki/Lumen-API-Documentation)to automate queries for large-scale data analysis. The API supports:
   * Searching by keywords, date ranges, parties involved, etc.
   * Retrieving entire notices as JSON for customized analytics.
   * Programmatic data collection over time to identify trends in takedown requests.
@@ -278,10 +278,10 @@ Lumen is a free and open source project.
 
 ## Limitations
 
-* **Partial Coverage**: Only notices shared voluntarily by participating platforms (Google, Vimeo, Medium, etc.) or directly submitted by third parties. Some sites do not contribute data, and others may stop contributing.
+* **Partial Coverage**: Coverage depends on voluntary submissions; **Twitter/X (since Apr 2023) and YouTube currently absent**.
 * **Redacted Fields:** Personally identifying information and entire text explanations may be redacted. For unregistered visitors, full URLs are truncated.
 * **No Bulk Export via Website**: For large-scale or automated retrieval, you **must** use the API.
-* **Date & Result Limits**: Extremely large or unfiltered searches might be capped or require date-slicing.
+* **Date & Result Limits**: Extremely large or unfiltered searches might be capped or require date-slicing. Large, unfiltered queries can hit the 10 000‑result cap; slice by date when pulling data. Database growth now **> 200 k notices/week**.
 * **No Guarantee of Accuracy**: Lumen does not confirm or endorse the validity of a notice; some notices may be fraudulent or contain misinformation.
 * Coverage gaps: Twitter/X paused data-sharing on 15 Apr 2023; some other services (e.g. Stack Exchange) stopped years earlier.
 * Google omits sender names from **defamation** notices for privacy reasons, so those fields will read “Redacted”.
@@ -295,7 +295,7 @@ Lumen is a free and open source project.
 
 ## Guides and articles
 
-[Lumen API documentation](https://github.com/berkmancenter/lumendatabase/wiki/Lumen-API-Documentation)
+**Official API Docs (GitBook, Jan 2025)** – [berkman-klein-center.gitbook.io/lumen-database](https://berkman-klein-center.gitbook.io/lumen-database)
 
 Steve Vondran: [How to track Trump Twitter Takedowns on the lumen database](https://www.youtube.com/watch?v=tY5sOxznvEU)\*, Youtube.
 
