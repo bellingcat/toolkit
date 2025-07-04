@@ -10,13 +10,15 @@ description: >-
 
 [https://www.zotero.org](https://www.zotero.org)
 
-Current version: 7.0.15 (May 2025)
+Current version: **7.0.19 (26 Jun 2025)**
 
 ## Description
 
-Zotero is a free, open-source reference management tool for macOS, Windows, Linux, and iOS. It enables you to collect, organize, annotate, cite, and share research materials. It works seamlessly with major web browsers (via a browser extension) and word processors (e.g., Microsoft Word, LibreOffice, Google Docs) to streamline research and citation workflows.
+Zotero is a free, open‑source reference‑management tool for macOS, Windows, Linux, **iOS and Android**. It lets you collect, organize, annotate, cite and share research materials. A browser connector captures sources from the web, while word‑processor plugins (Microsoft Word, LibreOffice, Google Docs) streamline citation workflows.
 
-While Zotero primarily targets academic research, it can also serve as a powerful **archiving** tool for OSINT practitioners. You can save snapshots of web pages, attach PDFs or any other file types, and maintain detailed metadata—making it valuable for both scholarly and investigative needs.
+While Zotero primarily targets academic research, it can also serve as a powerful **archiving** tool for OSINT practitioners. You can save snapshots of web pages, attach PDFs or any other file types, and maintain detailed metadata, making it valuable for both scholarly and investigative needs.
+
+&#x20;Official **iOS & Android** apps provide full‑library sync, PDF reading and annotation on the go
 
 {% hint style="info" %}
 **These examples assume you have made a free account and installed Zotero and the browser plugin on your system.**
@@ -42,8 +44,8 @@ We want to save the review for later referencing. If somebody asks our opinion a
 ### Phase B - Archiving
 
 * **Snapshots & Attachments**
-  * Save a **snapshot** of a webpage (including HTML source and a screenshot PDF).
-  * Attach any relevant files to each entry (e.g., archived PDF, supporting images, source code).
+  * **Snapshots** – Save a local **HTML snapshot** of any webpage (static copy of source & assets)
+  * **Attachments** – Drag‑and‑drop or auto‑download PDFs, images and other files.
 * **Adding Full-Text PDFs**
   * Zotero can auto-download PDFs if it detects open-access links. Otherwise, you can attach PDFs manually.
   * Annotations can be made directly on the PDF within Zotero’s built-in reader (available in Zotero 7+).
@@ -112,7 +114,7 @@ Now, you're ready to write your paper. A Word plugin exists:\\
 
 ### Examples 2 ... n
 
-**Works also on news articles.**
+**Also works on news articles.**
 
 <figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
@@ -125,7 +127,7 @@ Mind, though, that if you want an excellent screen capture to accompany your ref
 Oh, and if you select multiple entries, the bibliography will also contain multiple references:
 
 \
-\&#xNAN;_Bellingcat-Analyst Nick Waters: Kriegsverbrechen in der Ukraine: „Unsere Beweise müssen vor Gericht halten“_. (2024, March 22). [https://www.kleinezeitung.at/politik/aussenpolitik/18296327/kriegsverbrechen-in-der-ukraine-unsere-beweise-muessen-vor-gericht](https://www.kleinezeitung.at/politik/aussenpolitik/18296327/kriegsverbrechen-in-der-ukraine-unsere-beweise-muessen-vor-gericht)
+&#xNAN;_&#x42;ellingcat-Analyst Nick Waters: Kriegsverbrechen in der Ukraine: „Unsere Beweise müssen vor Gericht halten“_. (2024, March 22). [https://www.kleinezeitung.at/politik/aussenpolitik/18296327/kriegsverbrechen-in-der-ukraine-unsere-beweise-muessen-vor-gericht](https://www.kleinezeitung.at/politik/aussenpolitik/18296327/kriegsverbrechen-in-der-ukraine-unsere-beweise-muessen-vor-gericht)
 
 _Gefälschter BBC-Bericht: Bellingcat berichtete nicht über Waffenschmuggel der Ukraine an Hamas_. (n.d.). Retrieved August 2, 2024, from [https://correctiv.org/faktencheck/2023/10/23/ukraine-hamas-gefaelschter-bbc-bericht-bellingcat-bestaetigte-keinen-waffenschmuggel/](https://correctiv.org/faktencheck/2023/10/23/ukraine-hamas-gefaelschter-bbc-bericht-bellingcat-bestaetigte-keinen-waffenschmuggel/)
 
@@ -145,12 +147,12 @@ Bellingcat. (2024, February 9). _Command Line Fundamentals: Bellingcat Tech Seri
 
 **Find out what else it can archive!**
 
-### Zotero as archive tool & the Berkeley Protocol
+### Zotero as an archive tool & the Berkeley Protocol
 
 Proper documentation is essential if the material is used in legal, academic, or policy advocacy contexts. [The Berkeley Protocol ](https://www.ohchr.org/sites/default/files/2024-01/OHCHR_BerkeleyProtocol.pdf)outlines how OSINT data should be handled to be admissible in court (at least in the context of international proceedings).
 
 * **Berkeley Protocol Alignment**: Properly stored OSINT data improves evidentiary value in legal and policy contexts. Zotero’s ability to capture full snapshots, along with timestamps, aids transparency and reproducibility.
-* **Local & Cloud Sync**: By default, Zotero stores data locally, with **optional** cloud syncing (end-to-end encrypted in transit and at rest on Zotero’s servers). For **highly sensitive data**, you can self-host the Zotero data server or forgo syncing altogether.
+* **Local & Cloud Sync** – Data stay local unless you enable sync. When you do, traffic is encrypted in transit and files in new accounts are **AES‑256 encrypted at rest on Zotero’s AWS servers** (not end‑to‑end)
 * **Limitations**:
   1. No native encryption of local files.
   2. No automatic hashing of archived material.
