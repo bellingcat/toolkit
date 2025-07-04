@@ -68,7 +68,7 @@ Open-source under the GPL-3.0 licence; no paid tier ([GitHub](https://github.com
 
 ## Ethical Considerations
 
-* Scraping LinkedIn may violate its terms of service; check your legal context before large-scale use.
+* Scraping LinkedIn may violate its [terms of service](https://app.gitbook.com/s/y4PuseOaDGmxp1otYeL9/); check your legal context before large-scale use.
 * LinkdTime extracts only information already **publicly visible**; nevertheless, assembling complete timelines can expose behavioural or work-pattern insights that the subject did not expect to be profiled.&#x20;
 
 ## Guides and articles
