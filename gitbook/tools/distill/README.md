@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-Distill.io is a website change monitoring tool that enables users to track changes on web pages and receive alerts via multiple channels, including email, SMS, and push notifications. It supports various types of content, including web pages, PDFs, JSON, Word documents, XML, feeds, uptime information, and sitemaps. Available as a web app, browser extension, and mobile app, Distill.io allows users to monitor websites both locally and in the cloud.
+Distill.io is a website‑change monitoring tool that tracks **web pages, PDFs, JSON, Word docs, XML, RSS/Atom feeds, uptime endpoints and, new in 2024, crawler‑based Sitemap monitors (alpha)**. Alerts can arrive by email, SMS, push, Discord, Slack, MS Teams or custom webhooks. Distill is available as a **web app, browser extension, mobile apps (iOS & Android) and a desktop app for Windows & macOS (public alpha)**
 
 #### **Practical Applications for Open Source Researchers**
 
@@ -34,6 +34,7 @@ For Open Source Researchers, Distill.io can be an invaluable tool for:
 * [**Regular Expressions**](https://en.wikipedia.org/wiki/Regular_expression) **(Regex):**
   * Enable advanced pattern matching to monitor specific text patterns.
   * Helpful for filtering and extracting specific data from complex pages.
+  * **Regex in Visual Selector** – apply regular expressions from the _Text filter_ panel to include or exclude specific patterns at selection time
 * **Content Extraction:**
   * Ability to extract and export data from monitored pages.
   * Supports formats like CSV or JSON for integration with other analysis tools.
@@ -42,6 +43,7 @@ For Open Source Researchers, Distill.io can be an invaluable tool for:
   * Simplifies the process of identifying significant alterations.
 * **Scheduling and Frequency:**
   * Customizable check intervals, with paid plans offering more frequent monitoring.
+  * Free 6 h · Starter 10 min · Professional 5 min · Flexi 2 min for cloud monitors; local checks can run as fast as 5 s.
   * Potentially useful for time-sensitive investigations where prompt alerts are crucial.
 
 ## Using Distill.io
@@ -53,9 +55,9 @@ First, you can register with your own email, or use a dedicated email address or
 When you add a new monitor, you make the following choices:
 
 * [Source](https://distill.io/docs/web-monitor/config-and-advanced-monitor-options/): Whether to monitor the whole page or only a part of it. Select the [Visual Selector ](https://distill.io/docs/web-monitor/what-is-visual-selector/)if you want to monitor only certain parts (recommended).
-* Device:[ Where the service runs](https://distill.io/docs/web-monitor/cloud-local-monitors/) - Distill.io can run locally or in the cloud. This determines whether it only checks while your computer is running (local) or 24/7 (cloud). In the free plan, you can run only a limited number of trackers in one account, but more locally than in the cloud. Consequently, you can check cloud-based monitors in the [web-app](https://distill.io/docs/web-monitor/using-web-app-to-track-webpage-changes/), while local monitors live in [the browser extension](https://distill.io/docs/web-monitor/distill-chrome-extension/).
+* Device:[ Where the service runs](https://distill.io/docs/web-monitor/cloud-local-monitors/) - Distill.io can run locally or in the cloud. This determines whether it only checks while your computer is running (local) or 24/7 (cloud). In the free plan, you can run only a limited number of trackers in one account, but more locally than in the cloud (25 local vs 5 cloud monitors on Free). Consequently, you can check cloud-based monitors in the [web-app](https://distill.io/docs/web-monitor/using-web-app-to-track-webpage-changes/), while local monitors live in [the browser extension](https://distill.io/docs/web-monitor/distill-chrome-extension/).
 * Name: Pick a name for your Monitor that's easy to recognize for you and informative. You may want to configure several monitors for one website, so consider the purpose as well when picking a name.
-* Actions: The free service allows you to send yourself an [email](https://distill.io/docs/web-monitor/get-email-alert-on-webpage-change/), or if you're running a local monitor, open the website, get a notification, or [play a sound](https://distill.io/docs/web-monitor/audio-notification-on-change/). Paid customers can choose a number of additional notification options. Noteworthy among those are push notifications if you're using the [phone app ](https://distill.io/docs/web-monitor/web-monitor-for-ios/)(be mindful of possible tracking), [SMS](https://distill.io/docs/web-monitor/get-sms-alert-on-webpage-change/), notifications on [Discord, Teams and Slack](https://distill.io/docs/web-monitor/change-notifications-on-slack-discord-and-teams/), [webhooks ](https://distill.io/docs/web-monitor/trigger-webhook-on-website-change/)(which allow developers to integrate it into 3rd party services)
+* Actions: The free service allows you to send yourself an [email](https://distill.io/docs/web-monitor/get-email-alert-on-webpage-change/), or if you're running a local monitor, open the website, get a notification, or [play a sound](https://distill.io/docs/web-monitor/audio-notification-on-change/). Starter unlocks webhooks & SMS; Professional adds unlimited emails/push & higher SMS caps; Flexi raises all limits. Noteworthy among those are push notifications if you're using the [phone app ](https://distill.io/docs/web-monitor/web-monitor-for-ios/)(be mindful of possible tracking), [SMS](https://distill.io/docs/web-monitor/get-sms-alert-on-webpage-change/), notifications on [Discord, Teams and Slack](https://distill.io/docs/web-monitor/change-notifications-on-slack-discord-and-teams/), [webhooks ](https://distill.io/docs/web-monitor/trigger-webhook-on-website-change/)(which allow developers to integrate it into 3rd party services)
 * [Schedule Checks](https://distill.io/docs/web-monitor/schedule-checks/): How often do you need your source to be checked for changes?
 
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Add a monitor for your website and configure source, schedule checks, and define alerts when changes occur.</p></figcaption></figure>
@@ -76,10 +78,11 @@ After you click save, your monitor will be active.
   * You can use Distill.io with other open-source research tools to integrate data from Distill.io with databases or visualization tools.
 * **Use Cloud Monitors for Reliability:**
   * One option is to run monitors on Distill.io's servers, ensuring continuous monitoring even when your device is offline. For monitoring tasks where information can change quickly, this can be critical because uptime is constant.
-* **Leverage API Access:**
-  * The highest-tier plans offer API access, but lower-tier plans offer webhooks and similar automation tools, like the possibility to run macros locally. That can help integrate monitoring data into custom applications.
+* **API (Enterprise only)**&#x20;
+  * Request programmatic access to watchlists and change data for full automation.
 * **Monitor Authentication-Protected Pages:**
   * Distill.io supports monitoring pages that require a login. This can ensure compliance with the terms of service and legal considerations when monitoring such content.
+  * **Proxy & Macros** – cloud monitors can route through residential/geo‑proxies and execute multi‑step macros; loops and the new “doesn’t match any previous text” condition (Feb 2025) reduce false positives.
 
 ## Cost
 
@@ -94,8 +97,9 @@ After you click save, your monitor will be active.
   * 30 email alerts
   * **Limitations:** Maximum check interval of 6 hours for cloud monitors
 - **Paid Plans:**
+- Starter $15 / Professional $35 / Flexi $80+ per month; see [pricing page](https://distill.io/pricing/) for full resource tables.
   * **Starter Plan:** Increased limits and faster check frequencies (e.g., every 10 minutes)
-  * **Pro Plan:** More monitors, higher check frequency (e.g., every 5 minutes), SMS alerts
+  * **Professional Plan:** More monitors, higher check frequency (e.g., every 5 minutes), SMS alerts
   * **Enterprise Plan:** Custom solutions with the highest limits and priority support
   * **Pricing:** Detailed pricing is available on the Distill.io pricing page
 
@@ -114,7 +118,7 @@ After you click save, your monitor will be active.
   * Available on iOS and Android
   * **Features:** Receive push notifications and manage monitors
 * **Desktop App:**
-  * **Availability:** Check the Distill.io website for the latest information
+  * Desktop App for Windows & macOS (public alpha – install links in Docs).
   * **Advantage:** Allows local monitoring without keeping the browser open
 
 #### **Limitations**
@@ -131,7 +135,7 @@ After you click save, your monitor will be active.
   * Less reliable if the device is turned off or disconnected from the internet
 * **Dynamic Content:**
   * Monitoring JavaScript-rendered content may require advanced configuration
-  * Some dynamic elements might not be captured without using cloud monitors
+  * Some dynamic elements might not be captured without using cloud monitors or by running a macro with loop support (added 2024) to pre‑load dynamic sections.
 
 ## Ethical Considerations
 
