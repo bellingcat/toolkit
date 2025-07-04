@@ -124,6 +124,7 @@
   * [KartaView](tools/kartaview/README.md)
   * [Leak-Lookup](tools/leak-lookup/README.md)
   * [License Plate Maps](tools/license-plate-maps/README.md)
+  * [LinkdTime](tools/linkdtime/README.md)
   * [LittleSis](tools/littlesis/README.md)
   * [Liveuamap](tools/liveuamap/README.md)
   * [Logseq](tools/logseq/README.md)
