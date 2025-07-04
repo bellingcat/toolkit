@@ -18,7 +18,7 @@ LinkdTime is a command-line Python tool that scrapes LinkedIn pages to recover t
 
 It accepts either:\
 • **A single LinkedIn URL** – e.g. `https://www.linkedin.com/feed/update/urn:li:activity:...` or a comment permalink – and prints the precise UTC time the action occurred;\
-• **A text file of many URLs** – one per line – and builds a chronological **HTML or TXT timeline**. Use `--save` to embed images as Base64 inside the HTML or `--download` to save originals alongside it
+• **A text file of many URLs** – one per line – and builds a chronological **HTML or TXT timeline**. Use `--save` to embed images as Base64 inside the HTML or `--download` to save originals alongside it.
 
 **Example use case**
 
