@@ -37,7 +37,7 @@ python3 main.py timeline links.txt --autoname --description "Suspect A activity"
 # flags: --save  (embed Base64)  •  --download  (save images)
 ```
 
-The script [returns ](https://github.com/Lucksi/LinkdTime)either a single timestamp or a full HTML / TXT timeline (optional embedded images or Base64). Investigators can therefore spot coordination patterns, for example, discovering that replies labelled “organic” landed within minutes of each other. The tool prints either one ISO 8601 timestamp or writes `timeline.html` / `timeline.txt`. Investigators can visualise coordination, e.g. _five “organic” replies_ landing **< 3 min** after a post may indicate **astroturfing** (see definition above).
+The script [returns ](https://github.com/Lucksi/LinkdTime)either a single timestamp or a full HTML / TXT timeline (optional embedded images or Base64). Investigators can therefore spot coordination patterns, for example, discovering that replies labelled “organic” landed within minutes of each other. The tool prints either one [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) timestamp or writes `timeline.html` / `timeline.txt`. Investigators can visualise coordination, e.g. _five “organic” replies_ landing **< 3 min** after a post may indicate **astroturfing** (see definition above).
 
 ## Cost
 
