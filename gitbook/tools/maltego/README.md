@@ -23,7 +23,7 @@ We tested Maltego Graph CE 4.9.3 (Community Edition) version for this toolkit de
 
 <figure><img src=".gitbook/assets/2025-07-02_21-29-39welcome.png" alt=""><figcaption><p> Seen here is the start page of Maltego Graph, which loads after sign-in/authentication. To the left are recent updates to the software. To the right is the Data/Transform Hub where users can transform as many data sources as their account allows. </p></figcaption></figure>
 
-#### What are Entities and Attributes?&#x20;
+### What are Entities and Attributes?&#x20;
 
 [Maltego uses specialized terms. ](https://docs.maltego.com/en/support/solutions/articles/15000008829-glossary-for-maltego-graph-desktop-#collaboration-0-0)However, as a beginner, users may want to familiarize themselves with what Maltego calls ”Entities” and “Attributes” before starting investigations. A solid understanding of this distinction is key to organizing information in any investigation.&#x20;
 
@@ -52,15 +52,15 @@ Maltego comes with Standard entities. Read more about this [here.](https://docs.
 
 <div align="center" data-full-width="false"><figure><img src=".gitbook/assets/Recording2025-07-01012503-entitypalette-ezgif.com-crop.gif" alt="" width="203"><figcaption><p>Here is a sample list of pre-loaded Entities in Maltego. Users can find it in the “Investigate” tab. Users can drag and drop an entity as the starting point for their investigation. </p></figcaption></figure></div>
 
-#### What do the Buttons Mean in Maltego Graph?&#x20;
+### What do the Buttons Mean in Maltego Graph?&#x20;
 
-_**Main Buttons**_
+#### _**Main Buttons**_
 
 The interface for Maltego requires familiarization. Below are the most commonly used features of the tool.&#x20;
 
 <figure><img src=".gitbook/assets/2025-06-30_21-19-39-mainmenu.png" alt="" width="563"><figcaption><p>These are the main menu features found on the topmost portion of the application.</p></figcaption></figure>
 
-**The "Investigate" Tab**
+#### _**The "Investigate" Tab**_
 
 While there are several other tabs, the main tab that beginner users may want to familiarize themselves with is the “Investigate” Tab.&#x20;
 
@@ -72,7 +72,7 @@ The “Investigate” Tab is key as this is where users can organize their data.
 
 <figure><img src=".gitbook/assets/Invesitgate tab.png" alt=""><figcaption><p>This shows a quick primer of the Investigate tab, which shows options on how to efficiently organize your data points. </p></figcaption></figure>
 
-**Graph Layout**
+#### _**Graph Layout**_
 
 Beginner users will need to orient themselves with the layout of the graph. Below are the different sections. &#x20;
 
@@ -85,7 +85,7 @@ For a detailed step on starting your first graph, look at the documentation [her
 
 ### **How does it work?**
 
-#### **USING MALTEGO GRAPH WITH TRANSFORMS**
+### **USING MALTEGO GRAPH WITH TRANSFORMS**
 
 **1. It is a centralized search tool**
 
@@ -103,7 +103,7 @@ The researcher can hover over each search result returned. This will produce an 
 
 <figure><img src=".gitbook/assets/running transforms.mp4.gif" alt=""><figcaption><p>RUNNING A TRANSFORM: Here is an example of running a transform on a website of interest. In this example, an investigator may be interested in knowing what is behind this website and confirming that the domain exists. He/she runs a transform by right-clicking on this entity. A Transform Menu shows up, and the user clicks on a Transform (DNSNames). This then runs a piece of code that takes a piece of information (www.paterva.com website) as input and returns related information as output (DNS Name). This new icon at the bottom is data confirming that the website name exists. </p></figcaption></figure>
 
-_**Understanding Transform Results**_
+#### _**Understanding Transform Results**_
 
 Sometimes, if the transforms have many results, it is advisable to use the “Block Layout”. This is helpful for new users as Maltego usually organizes the results according to relevance. It gives it a higher “weight” according to the most relevance and a low score for the least relevance. The top most line is the result with the highest weight, and the lowest line has the lowest “weight” or relevance.&#x20;
 
@@ -119,9 +119,9 @@ In Maltego Graph, the search results produced by a transform act as a new lead o
 
 When running a series of transforms in Maltego, the relationship between the newly discovered data and the starting data is automatically plotted in a graph for link analysis.
 
-#### **USING MALTEGO GRAPH AS METHODOLOGY**
+### **USING MALTEGO GRAPH AS METHODOLOGY**
 
-Maltego Graph can also be used beyond the Transforms Hub. Without using transforms, Maltego Graph can be used as a methodology to help map investigations using data that researchers themselves collected.&#x20;
+Maltego Graph can also be used beyond the Transforms Hub. Without using transforms, Maltego Graph can be more effective when used as a methodology to help map investigations using data that researchers themselves collected.&#x20;
 
 To use Maltego Graph for this purpose, the user will go through the discovery,  archiving, and other necessary steps needed for an open-source investigation. After collecting the data, the user can then map those links manually in a graph by organizing the entities and making links to attributes to other data points.&#x20;
 
@@ -181,8 +181,8 @@ Maltego's limitations for open source researchers, regardless of which edition, 
 
 1. **Steep learning curve:** Maltego is designed for people with some technical background. This background helps the user understand how to manipulate its features and take full advantage of them. It also has jargon and specific terminology that requires prior familiarization. However, Maltego's documentation does a good job of defining most of these terminologies. In addition, transform requests sometimes produce error codes that may be a challenge to understand without a background in Java. Understanding terminology and features requires time and perhaps a live or in-person training. Note: As of May 2024, Maltego launched their "Maltego Academy" which has a series of short training videos for beginners ([https://www.maltego.com/blog/maltego-academy-learn-how-to-be-a-top-investigator/](https://www.maltego.com/blog/maltego-academy-learn-how-to-be-a-top-investigator/)). They also now offer a monthly recurring training on on-demand topics, where participants can ask questions live ([https://academy.maltego.com/live-sessions](https://academy.maltego.com/live-sessions.)).
 2. **CE version’s lack of collaboration and auto-save features:** The free version lacks the ability to collaborate with other users simultaneously, especially when a large group is working on a single investigation together. CE users will also need to constantly save their work due to the lack of auto-save features.
-3. **Requires understanding of data sources:** To get the full benefit of Maltego, the user needs to understand what data he is looking for and which data sources will give him the best results. In this case, it requires some familiarity with the data sources from which users place their queries. A valuable list of research leads are only as good as your data source. For instance, if the user has access to some social media accounts, but not to some others, then results can be limited.
-4. **Using Maltego Transforms requires significant setup and preparation.** It is not an “out-of-the-box” instant solution. Based on our tests, users must install the data sources (both free and commercial) they intend to use, many of which require API keys — even for free tiers. This means users need to manually request and manage credentials for each provider. To some researchers, this may not be a preferable option. [Additionally, users who need higher query limits or access to premium datasets may need to subscribe to Maltego Data Pass or acquire separate licenses for individual data sources.](https://docs.maltego.com/en/support/solutions/articles/15000058711-data-pass-and-connectors-for-maltego-community-edition-version-4-8-0-?utm_source=chatgpt.com#overview-0-0)&#x20;
+3. **Requires understanding of data sources:** To get the full benefit of Maltego, users need to understand what data they are looking for and which data sources will give them the best results. In this case, it requires some familiarity with the data sources from which users place their queries. A valuable list of research leads is only as good as your data source. For instance, if the user has access to some social media accounts but not to some others, then results can be limited.
+4. **Using Maltego Transforms requires significant setup and preparation.** It is not an “out-of-the-box” instant solution. Based on our tests, users must install the data sources (both free and commercial) they intend to use, many of which require API keys, even for the free tiers. This means users need to manually request and manage credentials for each provider. To some researchers, this may not be a preferable option. [Additionally, users who need higher query limits or access to premium datasets may need to subscribe to Maltego Data Pass or acquire separate licenses for individual data sources.](https://docs.maltego.com/en/support/solutions/articles/15000058711-data-pass-and-connectors-for-maltego-community-edition-version-4-8-0-?utm_source=chatgpt.com#overview-0-0)&#x20;
 5. **Maltego CE users might need to supplement their investigations with alternative methods:** Community Edition users have a cap on how many times they can request a transform from a data provider. Most providers put the limit on 15 to 20 requests per month. This limits the capability to data pivot within the software unless you upgrade your subscription to various data sources. In this case, one may want to revert to other means, like Google dorking, using web scrapers, and researching on individual social media platforms.
 6. **Parsing search results can be tricky:** Maltego transforms sometimes return very generalized results. If you are searching for a name, i.e., Graham Wilson, it will produce results containing either both "Graham Wilson" or results with just "Graham" or just "Wilson."
 7. **Price:** Maltego can be pricey, especially for individual, beginner open-source researchers, freelancers, or non-profit organizations. Users may need to purchase additional subscriptions to data sources to equip investigations with the right set of data. Some Maltego users may find that a maximum of 12 transform results per request is too limited to get a workable investigative lead. This means the researcher must wait for a month to get a new quota on transform requests. A cap on transform results plus a cap on data sources may not always provide the desired results. And may, for some, be time-consuming.
@@ -198,9 +198,29 @@ Overall, Maltego allows investigators to visualize connections between different
 
 ## Guide
 
-Maltego Essentials (offered by Maltego): [https://www.youtube.com/watch?v=ceQhIBKFp2A\&list=PLfRX-xJAc2yz6CjQVQuogJeCBoy8HbCOR](https://www.youtube.com/watch?v=ceQhIBKFp2A\&list=PLfRX-xJAc2yz6CjQVQuogJeCBoy8HbCOR)
+**Guides from Maltego:**&#x20;
 
-Maltego offers an online learning platform called [Maltego Academy ](https://academy.maltego.com/home)(only accessible with a Maltego ID).
+Maltego Documentation https://docs.maltego.com/en/support/solutions/articles/15000008703-maltego-graph-desktop-application-requirements
+
+Video: Maltego Essentials (offered by Maltego): [https://www.youtube.com/watch?v=ceQhIBKFp2A\&list=PLfRX-xJAc2yz6CjQVQuogJeCBoy8HbCOR](https://www.youtube.com/watch?v=ceQhIBKFp2A\&list=PLfRX-xJAc2yz6CjQVQuogJeCBoy8HbCOR)
+
+An online learning platform called [Maltego Academy ](https://academy.maltego.com/home)(only accessible with a Maltego ID).
+
+[https://www.maltego.com/blog/how-to-store-and-prepare-osint-and-maltego-evidence-for-prosecutors/](https://www.maltego.com/blog/how-to-store-and-prepare-osint-and-maltego-evidence-for-prosecutors/)
+
+
+
+**Use Case**
+
+1. For open-source investigators, Maltego has been used in tracking disinformation.&#x20;
+
+For example: Gisela Perez de Acha and Stephanie Croft, [“Webinar: Anti Birth Control Disinformation in the US”](https://www.maltego.com/webinars/webinar-anti-birth-control-disinformation-in-the-us/) and
+
+[“Investigative Journalism on Disinformation Campaigns: UC Berkeley Human Rights Center” ](https://www.maltego.com/blog/investigative-journalism-on-disinformation-campaigns-uc-berkeley-human-rights-center/)
+
+2. This has also been used to conduct a digital footprint tracing.&#x20;
+
+For example: [“Investigating the Alleged Leak of FSB Agents’ Phone Numbers”](https://www.maltego.com/blog/investigating-the-alleged-leak-of-fsb-agents-phone-numbers/)
 
 ## Tool provider
 
