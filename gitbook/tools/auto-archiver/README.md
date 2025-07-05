@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>A screen grab of an Auto Archiver execution for the Tajik-Kyrgyz border conflict. <a href="https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/">Source</a>.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>A screen grab of an Auto Archiver execution for the Tajik-Kyrgyz border conflict. <a href="https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/">Source</a>.</p></figcaption></figure>
 
 The Auto Archiver is a powerful, open-source tool developed by Bellingcat that automates the process of archiving online content. It's designed for journalists, researchers, and human rights defenders who need to preserve digital evidence from the web. With Auto Archiver, you can systematically save social media posts, videos, images, and entire webpages to ensure they remain accessible even if the original content is taken down.
 
@@ -46,7 +46,7 @@ For those who prefer not to manage their own installation, a commercial, managed
 
 ## Usage of Auto-Archiver
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Frontend of a fresh Auto Archiver in Bellingcat's hosted version of the tool.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Frontend of a fresh Auto Archiver in Bellingcat's hosted version of the tool.</p></figcaption></figure>
 
 ### Supported Platforms
 
@@ -72,13 +72,14 @@ _All platforms:_ if the primary method fails (due to login requirements, errors,
 
 <summary>Core Engine Deep Dive</summary>
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p><em>Auto-Archiver processing pipeline.</em> The orchestrator runs each URL through configured modules in sequence. <strong>Feeder</strong> modules supply URLs (from user input, CSV, Google Sheets, etc.), then <strong>Extractor</strong> modules fetch the content (using site-specific archivers or web downloaders). <strong>Enricher</strong> modules add metadata (e.g. screenshots, hashes, timestamps). Outputs are written via <strong>Storage</strong> modules (saving files locally or to cloud storage) and <strong>Database</strong> modules (updating a Google Sheet, CSV log, etc.). A <strong>Formatter</strong> can generate a human-friendly report (e.g. an HTML page linking the archived media). The default pipeline (v1.0.1) uses the CLI feeder, generic and site-specific extractors (Twitter, Telegram, etc.), several enrichers (screenshot, SSL info, hashes, thumbnails, etc.), local storage, CSV/console logging, and an HTML formatter</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p><em>Auto-Archiver processing pipeline.</em> The orchestrator runs each URL through configured modules in sequence. <strong>Feeder</strong> modules supply URLs (from user input, CSV, Google Sheets, etc.), then <strong>Extractor</strong> modules fetch the content (using site-specific archivers or web downloaders). <strong>Enricher</strong> modules add metadata (e.g. screenshots, hashes, timestamps). Outputs are written via <strong>Storage</strong> modules (saving files locally or to cloud storage) and <strong>Database</strong> modules (updating a Google Sheet, CSV log, etc.). A <strong>Formatter</strong> can generate a human-friendly report (e.g. an HTML page linking the archived media). The default pipeline (v1.0.1) uses the CLI feeder, generic and site-specific extractors (Twitter, Telegram, etc.), several enrichers (screenshot, SSL info, hashes, thumbnails, etc.), local storage, CSV/console logging, and an HTML formatter</p></figcaption></figure>
 
 * Input Feeders: The tool is designed to ingest lists of URLs from a variety of sources, which it refers to as "feeders". The most common and well-documented method is using a Google Sheet, where a user simply pastes URLs into a designated column. This method requires the user to create a Google Cloud Service Account, generate a JSON credentials file, and share the target Google Sheet with the service account's unique email address, granting it editor permissions. The tool also supports simpler feeders, such as local CSV files or direct URL input from the command-line interface (CLI).  &#x20;
 * Modular Extractors: A key strength of the Auto Archiver is its modular design for handling different platforms. Upon receiving a URL, the tool intelligently routes it to a platform-specific "extractor" module designed to handle the unique structure and characteristics of that site. For example, a TikTok URL will be processed by the TikTok extractor, a YouTube link by the YouTube extractor, and a Telegram post by the Telegram extractor. This modularity allows the tool to be flexible and extensible, with the community able to contribute new extractors or update existing ones as platforms change.  &#x20;
 * Underlying Dependencies: The core engine's power comes from its integration with other robust open-source libraries. For downloading videos from a vast array of sites, it leverages the industry-standard `yt-dlp` library. For interacting with Telegram, it utilizes libraries such as Telethon. To capture screenshots and render complex, JavaScript-heavy webpages, it employs a headless browser, such as an integrated version of Google Chrome.  &#x20;
-* Configurable Storage Backends: The user has complete control over where the archived data is stored. The configuration file allows for specifying a storage backend, which can be a folder on the local machine, a cloud-based object storage bucket compatible with the Amazon S3 API (such as Digital Ocean Spaces or AWS S3), or a folder within the user's Google Drive.  &#x20;
-* Feedback Loop: One of the tool's most user-friendly features, particularly when using the Google Sheets feeder, is its ability to provide real-time feedback. As it processes each URL, the tool writes the status of the job—such as "in progress," "success," or a specific error message—back into the adjacent columns of the same spreadsheet. Upon successful archival, it populates these columns with valuable information, including a direct link to the archived content in the configured storage location, a link to the screenshot, and any extracted metadata like the post's title or duration
+
+- Configurable Storage Backends: The user has complete control over where the archived data is stored. The configuration file allows for specifying a storage backend, which can be a folder on the local machine, a cloud-based object storage bucket compatible with the Amazon S3 API (such as Digital Ocean Spaces or AWS S3), or a folder within the user's Google Drive.  &#x20;
+- Feedback Loop: One of the tool's most user-friendly features, particularly when using the Google Sheets feeder, is its ability to provide real-time feedback. As it processes each URL, the tool writes the status of the job—such as "in progress," "success," or a specific error message—back into the adjacent columns of the same spreadsheet. Upon successful archival, it populates these columns with valuable information, including a direct link to the archived content in the configured storage location, a link to the screenshot, and any extracted metadata like the post's title or duration
 
 </details>
 
@@ -104,6 +105,8 @@ pip install auto-archiver
 ```
 
 This adds an `auto-archiver` command to your [system path](https://realpython.com/add-python-to-path/). You can check it by running `auto-archiver --help` for available options. (Advanced users can also [clone the GitHub repo](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop) and install manually, but pip is easier.)
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Diagram: How Auto Archiver routes finished files to different storage back-ends—Local disk, S3, Google Drive, or Atlos DB—and returns the corresponding public/CDN or Drive URLs.</p></figcaption></figure>
 
 ### **Configuration**
 
