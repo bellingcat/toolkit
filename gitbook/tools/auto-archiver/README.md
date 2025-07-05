@@ -48,35 +48,6 @@ For those who prefer not to manage their own installation, a commercial, managed
 
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Frontend of a fresh Auto Archiver in Bellingcat's hosted version of the tool.</p></figcaption></figure>
 
-### Auto-Archiver Ecosystem
-
-{% tabs %}
-{% tab title="Purpose" %}
-The Auto Archiver API serves as a crucial intermediary layer, designed to manage users, Google Sheets containing URLs for archiving, and individual URL submissions. It leverages Celery workers to asynchronously process these archive requests by invoking the capabilities of the core `bellingcat/auto-archiver` tool. This architecture allows for scalable and non-blocking archival operations. The API supports authentication via Google OAuth Apps, providing a secure method for user access, and can also grant full control via an API token. Cross-Origin Resource Sharing (CORS) is enabled, permitting web applications from different domains to interact with the API. The entire API is designed to be run using Docker, simplifying its deployment and management.  &#x20;
-{% endtab %}
-
-{% tab title="User Management" %}
-A key feature of the API is its sophisticated user management and access control system, configured via a `user-groups.yaml` file. This file defines user groups, which in turn dictate access levels, operational quotas, and the specific orchestrator configurations to be used for archiving tasks. Users can be assigned to groups either explicitly by their email address or implicitly based on their email domain. Individuals not fitting into predefined groups are assigned to a default group, whose permissions can be restricted as needed. Permissions are granular, allowing administrators to control aspects such as:  &#x20;
-
-* `read`: Defines which groups' archives a user can access (all, none, or a specific list of groups).  &#x20;
-* `read_public`: A boolean enabling search access to public archives.  &#x20;
-* `archive_url`: A boolean enabling the archiving of individual URLs within that group.  &#x20;
-* `archive_sheet`: A boolean enabling the archiving of entire spreadsheets.  &#x20;
-* `manually_trigger_sheet`: Allows manual triggering of sheet archiving.  &#x20;
-* `sheet_frequency`: Defines options for how often sheets are archived (e.g., "hourly," "daily").  &#x20;
-* `max_sheets`: Limits the total number of spreadsheets a user can manage.  &#x20;
-* `max_archive_lifespan_months`: Sets a retention period for archives in S3 storage.  &#x20;
-* `max_monthly_urls` / `max_monthly_mbs`: Imposes quotas on the number of URLs or total data size a user can archive per month.  &#x20;
-* `priority`: Assigns a "high" or "low" priority to archiving tasks from that group.
-{% endtab %}
-
-{% tab title="Auto-Archiver UI" %}
-**Purpose and Current Status:** The Auto Archiver UI, also referred to as the Auto Archiver Setup Tool, was initially presented as a prototype demo service hosted by Bellingcat at `auto-archiver.bellingcat.com`. Access to this instance is managed by Bellingcat's team and is typically granted to open-source researchers, journalists, or aligned groups, with limited quotas per user. The UI aims to provide a more user-friendly graphical interface for interacting with the Auto Archiver system, likely simplifying tasks such as submitting URLs for archiving and managing existing archives, by communicating with the backend API.  &#x20;
-
-Significantly, the code for this UI is now open-source under an MIT license and is available on GitHub (repository `bellingcat/auto-archiver-ui`, formerly potentially `bellingcat/auto-archiver-setup-tool`). This development allows organizations to deploy their own instances of the UI, providing their teams with an accessible front-end to their self-hosted Auto Archiver API and core tool. The UI is built using Vue.js and JavaScript.  &#x20;
-{% endtab %}
-{% endtabs %}
-
 ### Supported Platforms
 
 The tool uses a modular system of "extractors" to target different sites. If a primary method fails, it defaults to submitting the URL to the Wayback Machine for a basic snapshot.
@@ -138,7 +109,7 @@ This adds an `auto-archiver` command to your [system path](https://realpython.co
 
 Auto Archiver is highly configurable via a [YAML file](https://circleci.com/blog/what-is-yaml-a-beginner-s-guide/) (often named `orchestration.yaml` or `config.yaml`). You can create this by hand or use the tool’s [built-in configuration editor](https://auto-archiver.readthedocs.io/en/v1.0.1/installation/config_editor.html) for guidance.&#x20;
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>“Configuration Editor” screenshot from Auto Archiver’s web UI, showing step 1 (selecting or dragging in your <code>orchestration.yaml</code>) and step 2 (toggling and reordering Feeder and Extractor modules)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Auto Archiver’s web-based <strong>Configuration Editor</strong>: upload an existing <code>orchestration.yaml</code> (step 1), then tick or drag modules—Feeders, Extractors, Enrichers, Databases, Storages, Formatters—to build a custom archiving pipeline before saving the new YAML or copying it to your clipboard (steps 2-4).</p></figcaption></figure>
 
 Key settings in the config include:
 
@@ -330,3 +301,7 @@ Bellingcat
 * [x] This tool does not appear to use tracking cookies.&#x20;
 
 _The tool itself does not appear to use any advertising trackers._ However, if you use the Google Sheets integration, be aware that Google’s services use tracking cookies. In operational use, the Auto Archiver runs locally or on your own server, so your data stays under your control.
+
+| Page maintainer |
+| --------------- |
+| Martin Sona     |
