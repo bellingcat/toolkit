@@ -270,7 +270,7 @@ _(Most platform credentials are only needed if you intend to archive from that p
 
 **Protect Sources, Researchers, and Data**
 
-* **Secure working copies, k**eep originals immutable. Store raw archives and sensitive spreadsheets in access‑controlled drives; share only with partners who follow the same standards.
+* **Secure working copies, and k**eep originals immutable. Store raw archives and sensitive spreadsheets in access‑controlled drives; share only with partners who follow the same standards.
 * **Anticipate retaliation.** Geolocation or doxxing can endanger the uploader; weigh disclosure against possible harm, and anonymise when prudent.
 
 ## Guides and articles
