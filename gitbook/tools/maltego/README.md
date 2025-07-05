@@ -25,7 +25,7 @@ We tested Maltego Graph CE 4.9.3 (Community Edition) version for this toolkit de
 
 ### What are Entities and Attributes?&#x20;
 
-[Maltego uses specialized terms. ](https://docs.maltego.com/en/support/solutions/articles/15000008829-glossary-for-maltego-graph-desktop-#collaboration-0-0)However, as a beginner, users may want to familiarize themselves with what Maltego calls ”Entities” and “Attributes” before starting investigations. A solid understanding of this distinction is key to organizing information in any investigation.&#x20;
+[Maltego uses specialized terms. ](https://docs.maltego.com/en/support/solutions/articles/15000008829-glossary-for-maltego-graph-desktop-#collaboration-0-0)However, as a beginner, users may want to familiarize themselves with what Maltego calls ”Entities” and “Attributes”. A solid understanding of this distinction is key to organizing information in any investigation.&#x20;
 
 All investigations in Maltego begin with researching an Entity.&#x20;
 
