@@ -29,10 +29,6 @@ async function getUpdatedAt(tool) {
   if (stderr) {
     console.error(stderr);
   }
-  if (stdout) {
-    console.log(cmd);
-    console.log(tool.title,":", stdout);
-  }
   const commitDate = stdout.trim();
   if (!commitDate) {
     return null;
