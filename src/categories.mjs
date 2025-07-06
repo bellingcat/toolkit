@@ -4,19 +4,6 @@ import pkg from './paths.mjs'
 const { apiCall, getCategories, getTools, writeIfChanged, getSummary, processMarkdownFile} = pkg;
 
 const allTools = getTools().filter((tool) => !tool.draft );
-(function renderMostUsed() {
-  const mostUsed = {
-        title: 'Most Used',
-        content: '# Most Used',
-        filepath: 'gitbook/most-used.md',
-        tag: 'most-used'
-  };
-  const markdownFile = processMarkdownFile(mostUsed.filepath, 'most-used.md');
-  const mostUsedTools = allTools.filter((tool) => (tool.tags || []).includes('most-used'));
-  const mostUsedFilePath = 'gitbook/most-used.md';
-  writeIfChanged(renderCategory(mostUsed, mostUsedTools), mostUsedFilePath);
-})();
-
 (function renderNewlyPublished() {
   const newlyPublished = {
         title: 'Newly Published',
