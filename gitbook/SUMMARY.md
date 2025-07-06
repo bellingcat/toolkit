@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Home](pages/README.md)
-* [Most Used](most-used.md)
 * [New Tools](new-tools.md)
 
 ## ⚒️ Categories
