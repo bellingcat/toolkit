@@ -68,10 +68,10 @@ To effectively use QGIS, especially for beginners or those looking to refine the
 
 **Video Tutorials**
 
-* _Map Academy - YouTube_ (no date). Available at: [https://www.youtube.com/@automaticknowledge](https://www.youtube.com/@automaticknowledge) (Accessed: 26 April 2025).
-* _Video course: Mapping for Journalists_ (no date) _DataJournalism.com_. Available at: [https://datajournalism.com/watch/mapping-for-journalists](https://datajournalism.com/watch/mapping-for-journalists) (Accessed: 26 April 2025).
-* _Learn GIS - QGIS Full Course for Beginners (New for 2024)_ (2024). Available at: [https://www.youtube.com/watch?v=SovdBaus7pM](https://www.youtube.com/watch?v=SovdBaus7pM) (Accessed: 26 April 2025).
-* _Introduction to QGIS_ (2022) _Spatial Thoughts_. Available at: [https://spatialthoughts.com/courses/introduction-to-qgis/](https://spatialthoughts.com/courses/introduction-to-qgis/) (Accessed: 26 April 2025).
+* _Map Academy - YouTube_ (no date). Available at: [https://www.youtube.com/@automaticknowledge](https://www.youtube.com/@automaticknowledge) (Accessed: 6 July 2025).
+* _Video course: Mapping for Journalists_ (no date) _DataJournalism.com_. Available at: [https://datajournalism.com/watch/mapping-for-journalists](https://datajournalism.com/watch/mapping-for-journalists) (Accessed: 6 July 2025).
+* _Learn GIS - QGIS Full Course for Beginners (New for 2024)_ (2024). Available at: [https://www.youtube.com/watch?v=SovdBaus7pM](https://www.youtube.com/watch?v=SovdBaus7pM) (Accessed: 6 July 2025).
+* _Introduction to QGIS_ (2022) _Spatial Thoughts_. Available at: [https://spatialthoughts.com/courses/introduction-to-qgis/](https://spatialthoughts.com/courses/introduction-to-qgis/) (Accessed: 6 July 2025).
 
 **Community and Support**
 
