@@ -8,8 +8,7 @@ const allTools = getTools().filter((tool) => !tool.draft );
   const newlyPublished = {
         title: 'Newly Published',
         content: '---\ndescription: These tools were added to the toolkit within the last four weeks.\n---\n# New Tools\n',
-        filepath: 'gitbook/new-tools.md',
-        tag: 'most-used'
+        filepath: 'gitbook/new-tools.md'
   };
   const newTools = allTools.filter((x) => x.publishedAt && Date.now()-x.publishedAt < 4 * 7 * 24 * 60 * 60 * 1000);
   writeIfChanged(renderCategory(newlyPublished, newTools), newlyPublished.filepath);
