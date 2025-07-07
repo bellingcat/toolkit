@@ -1,5 +1,6 @@
 ---
 description: QGIS is a free Open Source Geographic Information System (GIS).
+updated: '2025-07-06'
 ---
 
 # QGIS

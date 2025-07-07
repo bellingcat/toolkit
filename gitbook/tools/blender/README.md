@@ -3,6 +3,7 @@ description: >-
   Blender is an open-source 3D creation suite supporting the 3D
   pipeline—modeling, rigging, animation, simulation, rendering, compositing, and
   motion tracking, even video editing.
+updated: '2025-07-06'
 ---
 
 # Blender
