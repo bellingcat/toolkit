@@ -29,10 +29,6 @@ Given a person's name, this tool will generate various plausible alternative for
 
 Internet
 
-### Ethical Considerations <a href="#ethical-considerations" id="ethical-considerations"></a>
-
-There are many legitimate reasons to use variations of one's name online. Consider the ethical implications of
-
 ### Guide <a href="#guide" id="guide"></a>
 
 Enter a name and press enter. Add suggested variants to refine results. Use the checkboxes to filter by site.
