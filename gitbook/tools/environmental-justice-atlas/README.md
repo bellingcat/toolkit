@@ -10,7 +10,7 @@ description: Map of environmental-related conflicts globally
 
 ## Description
 
-Launched in 2012, the Environmental Justice Atlas (also known as the EJAtlas) is a project based on the work of hundreds of contributors including from academics, citizens, informal committees, NGOs and other activist groups. The database is meant to be a resource for teaching, networking and advocacy of over 4,300 social conflicts involving environmental issues around the world. It can also be a helpful resource for open source researchers.
+Launched in 2012, the Environmental Justice Atlas (also known as the EJAtlas) is a project based on the work of hundreds of contributors including from academics, citizens, informal committees, NGOs and other activist groups. The database is meant to be a resource for teaching, networking and advocacy of over 4,300 social conflicts involving environmental issues around the world. It can also be a helpful resource for open source researchers due to its....(finish the sentence).
 
 The map covers conflicts across 10 categories including: nuclear, mineral ores and building extractions, waste management, biomass and land conflicts, fossil fuels, energy and climate justice, water management, infrastructure and built environment, tourism recreation, biodiversity conservation conflicts and industrial and utilities conflicts. The database contains information including the investors, details about these deals, conflict impacts, project details, outcomes, references to legislation, academic research, videos and images.
 
