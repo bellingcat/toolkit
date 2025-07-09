@@ -24,6 +24,17 @@ jobs:
       - name: Mark tool updates
         run: node src/mark-tool-updates.mjs
 
+      - name: Detect changes
+        uses: dorny/paths-filter@v3
+        id: changes
+        with:
+          base: HEAD
+          filters: |
+            all:
+              - '**'
+            tools:
+              - 'gitbook/tools/**'
+
       - name: Commit tools
         if: steps.changes.outputs.tools == 'true'
         run: |
