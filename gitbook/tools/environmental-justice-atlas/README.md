@@ -52,7 +52,7 @@ EnvJustice Project
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat volunteer team |
+|                           |
