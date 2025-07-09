@@ -28,7 +28,7 @@ According to the site's FAQ, a user is free to use the database for noncommercia
 
 ## Requirements
 
-Access to the internet is required for the database.
+None
 
 ## Limitations
 
