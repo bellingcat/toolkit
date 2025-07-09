@@ -2,18 +2,6 @@
 description: >-
   Maigret is a Python script that retrieves user information by searching for
   usernames across various websites and social media platforms.
-icon: user-magnifying-glass
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Maigret
