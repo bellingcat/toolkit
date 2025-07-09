@@ -54,6 +54,13 @@ function getPages(pathname, slug = []) {
 }
 function getCategories() {
   const root = 'gitbook/categories';
+  return getPaths(root);
+}
+function getRegions() {
+  const root = 'gitbook/regions';
+  return getPaths(root);
+}
+function getPaths(root) {
   return getPages(root).filter((markdownFile) => {
     // Take all README.md files as categories
     return markdownFile.filename == 'README.md';
@@ -207,4 +214,4 @@ async function apiCall(url, params) {
   }
 }
 
-export default { apiCall, getTools, getCategories, writeIfChanged, getSummary, processMarkdownFile };
+export default { apiCall, getTools, getCategories, getRegions, writeIfChanged, getSummary, processMarkdownFile };
