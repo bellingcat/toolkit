@@ -6,7 +6,7 @@ description: Map of environmental-related conflicts globally
 
 ## URL
 
-https://ejatlas.org/
+[https://ejatlas.org/](https://ejatlas.org/)
 
 ## Description
 
