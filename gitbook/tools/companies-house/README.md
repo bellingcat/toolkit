@@ -10,7 +10,7 @@ description: Search companies and individuals in the United Kingdom.
 
 ## Description
 
-Use Companies House to get information on companies registered in the UK - it's the official register of companies (so a government agency collates the data).&#x20;
+Use Companies House to get information on companies registered in the UK - it's the official register of companies (so a government agency collates the data).
 
 Anyone wanting to operate a limited company in the UK has to register with them. This includes a limited company (Ltd), public limited company (PLC), or limited liability partnership (LLP). The size of the company does not determine the requirement to register. Sole traders don't have to register; nor do partnerships (without limited liability) - those are companies that involve two or more people that share ownership. Companies House is also responsible for dissolving companies.
 
@@ -27,7 +27,9 @@ You can also search for UK companies on [OpenCorporates](https://bellingcat.gitb
 
 The [Register of Overseas Entities](https://www.gov.uk/government/collections/register-of-overseas-entities) is also published on Companies House. It's the register of overseas entities that own land or property in the UK, which are required to declare their beneficial owners and/or managing officers. To search for them use the [advanced search](https://find-and-update.company-information.service.gov.uk/advanced-search) function and change the company type filter to ‘overseas entity’. If you then select search, you'll see the first 10,000 records on the register. Use other filters (e.g. the incorporation date filter, or part of the company name) to narrow down your search results.
 
-You can [download](https://download.companieshouse.gov.uk/en_output.html) all the basic company data of live companies on the register.  This would be useful for things like compiling statistics on the number of company formations in a particular year, or a geographical analysis of all registered addresses.
+You can [download](https://download.companieshouse.gov.uk/en_output.html) all the basic company data of live companies on the register. This would be useful for things like compiling statistics on the number of company formations in a particular year, or a geographical analysis of all registered addresses.
+
+Companies House has various APIs - see the list [here](https://developer-specs.company-information.service.gov.uk/). An API allows you to query data in bulk and can make data analysis much more efficient.
 
 Note that companies in overseas territories (e.g. Gibraltar) don't need to register with Companies House - for such companies, go to the territory's registry.
 
