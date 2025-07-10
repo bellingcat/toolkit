@@ -24,7 +24,7 @@ Depending on the entry, the information may be available in languages including 
 * [ ] Partially Free
 * [ ] Paid
 
-According to the site's FAQ, a user is free to use the database for noncommercial purposes only, with attribution given to the EJAtlas with a link to its homepage.
+According to the site's [FAQ](https://ejatlas.org/backoffice/cms/en/faq/), a user is free to use the database for noncommercial purposes only, with attribution given to the EJAtlas with a link to its homepage.
 
 ## Level of difficulty
 
