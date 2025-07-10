@@ -11,7 +11,7 @@ description: >-
 
 [https://github.com/jordanwildon/Telepathy](https://github.com/jordanwildon/Telepathy)
 
-Version: Telepathy 2.3.4 (as of May 25)
+Version: Telepathy 2.3.4 (as of July 25)
 
 ## Description
 
