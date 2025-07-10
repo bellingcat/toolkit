@@ -16,6 +16,8 @@ Launched in 2012, the Environmental Justice Atlas (also known as the EJAtlas) is
 
 The map covers conflicts across 10 [categories](https://ejatlas.org/backoffice/cms/en/faq/) including: nuclear, mineral ores and building extractions, waste management, biomass and land conflicts, fossil fuels, energy and climate justice, water management, infrastructure and built environment, tourism recreation, biodiversity conservation conflicts and industrial and utilities conflicts. The database contains information including the investors, details about these deals, conflict impacts, project details, outcomes, references to legislation, academic research, videos and images. Open source researchers may find the map useful for these categories or related areas for historical information, links to relevant organizations and source materials and as an overview of specific conflicts.
 
+Depending on the entry, the information may be available in languages including English, French, Italian, Chinese, Arabic, or Turkish. Not all entries will be available in multiple languages.
+
 ## Cost
 
 * [x] Free
