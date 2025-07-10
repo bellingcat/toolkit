@@ -10,7 +10,7 @@ description: Search 70 million US customs sea shipment records, find company sup
 
 ## Description
 
-Every sea shipment into the United States requires a bill of lading. ImportYeti has acquired all the bills of lading data, from January 2015, [through a freedom of information request to US Customs](https://www.importyeti.com/faqs). ImportYeti provides free access to the data online. Bills of lading include fields like: Purchaser and supplier names, supplier country, weight of goods, ports shipped to and from, and product HS ([Harmonized System](https://en.wikipedia.org/wiki/Harmonized_System)) code which classifies traded products.
+Every sea shipment into the United States requires a bill of lading. ImportYeti has acquired all the bills of lading data from January 2015 [through a freedom of information request to US Customs](https://www.importyeti.com/faqs). ImportYeti provides free access to the data online. Bills of lading include fields like: Purchaser and supplier names, supplier country, weight of goods, ports shipped to and from, and product HS ([Harmonised System](https://en.wikipedia.org/wiki/Harmonized_System)) code which classifies traded products.
 
 The tool was built to help people find suppliers of goods (e.g. manufacturers that make a product they want to sell). An OSINT researcher might use it to investigate sourcing of goods from unethical suppliers, or sanctions violations. The free search allows for searching by company name, supplier, or product. Note that you must search by a company's legal name.
 
@@ -20,7 +20,7 @@ Here are screenshots illustrating the kinds of data you can get through ImportYe
 
 <figure><img src=".gitbook/assets/Screenshot 2024-09-25 at 11.30.10.png" alt=""><figcaption><p>The top of the search results for a randomly selected company</p></figcaption></figure>
 
-The 'Smart Bookmarks' button allows you to save companies in groups, which could be useful for different investigations or types of companies.  The 'Downloads' button allows for download of the bills of lading, or the full suppliers list. Downloads require you to be signed in with custom plan access.&#x20;
+The 'Smart Bookmarks' button allows you to save companies in groups, which could be useful for different investigations or types of companies (it's only there when you are logged in). The 'Downloads' button allows for download of the bills of lading, or the full suppliers list. Downloads require you to be signed in with custom plan access.
 
 Here's the top of Harrington Moore's table of suppliers, i.e. the list of all suppliers from which they receive shipped goods:
 
@@ -56,7 +56,7 @@ The data is only for shipments into the United States. Good transported by land 
 
 Companies can request that their import records are made private (see the US Customs and Border Protection's '[Electronic Vessel Manifest Confidentiality](https://www.cbp.gov/trade/automated/electronic-vessel-manifest-confidentiality)').
 
-Sometimes supplier contact details aren't on the site. See 'How do I find a supplier's contact info?' in ImportYeti's [FAQs](https://www.importyeti.com/faqs) for tips on how to find them.&#x20;
+Sometimes supplier contact details aren't on the site. See 'How do I find a supplier's contact info?' in ImportYeti's [FAQs](https://www.importyeti.com/faqs) for tips on how to find them.
 
 Their data does not extend before 2015.
 
