@@ -9,7 +9,8 @@ description: >-
 
 ## URL
 
-[https://telemetr.io/](https://telemetr.io/)
+[https://telemetr.io/](https://telemetr.io/)\
+(as of July 2025)
 
 ## Description
 
