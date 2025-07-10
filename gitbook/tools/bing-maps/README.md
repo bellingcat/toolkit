@@ -3,6 +3,7 @@ description: >-
   Bing Maps is a web mapping service provided by Microsoft that offers detailed
   geographical information and tools for route planning, location search, and
   satellite imagery.
+updated: '2025-07-09'
 ---
 
 # Bing Maps
