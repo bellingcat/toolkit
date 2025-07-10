@@ -20,7 +20,7 @@ NAVTEX messages include navigational warnings (such as changes to navigational a
 
 Messages are standardized and use a specific format that includes a header with identifiers for the transmitting station, message type, and a unique identifier to prevent duplication.
 
-The navtex.net homepage also includes a guide on how to read the standardised format that the messages are written in.
+The navtex.net homepage also includes a [guide](https://www.navtex.net/index.html) (at the very bottom of the page) on how to read the standardised format that the messages are written in.&#x20;
 
 #### This is how NAVTEX works:
 
@@ -34,10 +34,6 @@ The navtex.net homepage also includes a guide on how to read the standardised fo
 3. **Scheduled Broadcasts**:
 
 * NAVTEX messages are broadcast at regular intervals, typically every four hours, ensuring that ships receive timely updates.
-
-
-
-
 
 ## Cost
 
@@ -65,11 +61,11 @@ The NAVTEX archive data pieces are stored in individual .txt files, which may ma
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+The guide to reading the various parts of a NAVTEX message is located on the website's [home page](https://www.navtex.net/index.html) at the very bottom of the page.&#x20;
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+The NAVTEX website is a passion project set up by what appears to be just one individual, or a very small team at best. The website itself credits its creation to an individual by the name of Geir Laastad, a former sailor who goes by the nickname/call sign of "LA6LU". The aim of the website's creation is to provide a secondary source of NAVTEX data for ships that may have a reliable internet connection, but not a reliable NAVTEX receiver.&#x20;
 
 ## Advertising Trackers
 
