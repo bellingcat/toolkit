@@ -2,3 +2,4 @@
 
 * [The Information Laundromat](README.md)
 * [Categories](categories.md)
+* [Regions](regions.md)
