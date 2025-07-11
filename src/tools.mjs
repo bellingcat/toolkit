@@ -158,9 +158,28 @@ async function fetchTeams(page='') {
   return data.items;
 }
 
-async function createToolOnGitbook(toolName, email) {
+async function createToolOnGitbook(toolName, category, email) {
   debug('Creating tool on Gitbook', toolName);
-  const space = await createSpace(toolName);
+  debug('Guardian Category', category);
+
+  // Convert category to collection id.
+  const collection = {
+    // These labels should match the options in the github workflow add-tool.yml
+    archiving: 'EWkYTKTTUxj3V6CKwjKl',
+    image-video: 'ycJZDnUDWVHM2L6lInVS',
+    companies-and-finance: 'svFhzrsOy9kqEP1YTGBh',
+    conflict: '9Brj2NJvnGumfCKJbyIv',
+    data: 'IfM4GXWV1raqMAPhkSbu',
+    environment-and-wildlife: 'NsaGq3UKUoOVccdZdMco',
+    geolocation: 'hHz5Z3bwIXn3SiIeIaRz',
+    maps-and-satellites: 'H7HdQQbugoU5VAdlxKdh',
+    people: 'd9QXWHW4alemIUzkPF6l',
+    social-media: '8SB4cANB9OcQ69Ify27J',
+    transport: 'K3X10wt5UK7xDSRT8gar',
+    websites: 'FjtL9eHx1MoDVJqVWeLR'
+  }[category];
+
+  const space = await createSpace(toolName, collection);
   const team = await createTeam(toolName);
 
   if (email) {
@@ -186,7 +205,7 @@ async function findSpace(name, page='') {
   }
 }
 
-async function createSpace(name) {
+async function createSpace(name, collection) {
   const space = await findSpace(name);
   if (space) {
     debug('Space already exists');
@@ -199,7 +218,7 @@ async function createSpace(name) {
     body: {
       title: name,
       emoji: '🛠️',
-      parent: 'jQKvylm6WgaH5IFrlIMh'
+      parent: collection || 'jQKvylm6WgaH5IFrlIMh'
     },
   });
 

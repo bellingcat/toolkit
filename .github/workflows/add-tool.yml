@@ -11,6 +11,22 @@ on:
       email:
         description: 'Team Member Email (optional)'
         type: string
+      category:
+        description: 'Guardian Category'
+        type: choice
+        options:
+          - archiving
+          - image-video
+          - companies-and-finance
+          - conflict
+          - data
+          - environment-and-wildlife
+          - geolocation
+          - maps-and-satellites
+          - people
+          - social-media
+          - transport
+          - websites
 
 jobs:
   add-tool:
