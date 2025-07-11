@@ -30,9 +30,9 @@ The map covers conflicts across 10 [categories](https://ejatlas.org/backoffice/c
 
 The database contains information including investors, details about deals, conflict impacts, project details, outcomes, references to legislation, academic research, videos and images.&#x20;
 
-Open source researchers may find the map useful for these categories or related areas for historical information, links to relevant organizations and source materials and as an overview of specific conflicts. The map can be filtered by multiple types of criteria, including region, start/end date, type of conflict and more. A researcher may also perform searches such as entering the word "gas," and the search results will include any entry that uses the word "gas" in the text.
+Open source researchers may find the map also useful for finding historical information, links to relevant organizations and source materials, and to get an overview of specific conflicts. The map can be filtered by multiple types of criteria, including region, start/end date, type of conflict and more. A researcher may also perform searches such as entering the word "gas," and the search results will include any entry that uses the word "gas" in the text.
 
-Depending on the entry, the information may be available in languages including English, French, Italian, Chinese, Arabic, or Turkish. Not all entries will be available in multiple languages.&#x20;
+Depending on the entry, information may be available in languages like English, French, Italian, Chinese, Arabic, or Turkish. Not all entries will be available in multiple languages.&#x20;
 
 ## Cost
 
@@ -40,7 +40,7 @@ Depending on the entry, the information may be available in languages including 
 * [ ] Partially Free
 * [ ] Paid
 
-According to the site's [FAQ](https://ejatlas.org/backoffice/cms/en/faq/), a user is free to use the database for noncommercial purposes only, with attribution given to the EJAtlas with a link to its homepage.
+According to the site's [FAQ](https://ejatlas.org/backoffice/cms/en/faq/), users are free to use the database for noncommercial purposes, with attribution given to the EJAtlas and a link to their homepage.
 
 ## Level of difficulty
 
