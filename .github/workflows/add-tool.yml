@@ -14,6 +14,7 @@ on:
       category:
         description: 'Guardian Category'
         type: choice
+        required: true
         options:
           - none
           - archiving
