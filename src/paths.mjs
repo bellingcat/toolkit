@@ -163,8 +163,12 @@ function getTools() {
       const categoriesFilePath = path.join(toolDir, 'categories.md');
       const categories = markdownToCategories(categoriesFilePath);
 
+      // get region data from regions.md if it exists
+      const regionsFilePath = path.join(toolDir, 'regions.md');
+      const regions = markdownToCategories(regionsFilePath);
+
       // merge json.tags and categories and dedupe
-      let tags = [...new Set([...json.tags, ...categories])];
+      let tags = [...new Set([...json.tags, ...categories, ...regions])];
 
       return {
         ...markdownFile,
@@ -173,6 +177,7 @@ function getTools() {
         ...json,  // JSON data overrides
         tags,
         categoriesFilePath,
+        regionsFilePath,
         categories,
         jsonFilePath,
         json, // the original json structure

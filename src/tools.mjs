@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import pkg from './paths.mjs'
-const {apiCall, getCategories, getTools, writeIfChanged, getSummary} = pkg;
+const {apiCall, getCategories, getTools, getRegions, writeIfChanged, getSummary} = pkg;
 
 /* Example
 createTool({
@@ -15,19 +15,26 @@ createTool({
 function debug(...args) {
     console.debug(...args);
 }
-function toolToCategories(tool) {
-  let categories = getCategories();
-
-  let template = fs.readFileSync('template/categories.md', 'utf-8');
-  for (const category of categories) {
-    const slug = category.tag;
-    // if the category slug is in the tool tags
+function checkBoxes(tool, choices, template) {
+  for (const choice of choices) {
+    const slug = choice.tag;
+    // if the slug is in the tool tags
     if (tool.tags.includes(slug)) {
-      // replace the line [ ] (Tool Name)[link] with [x] (Tool Name)[link]
-      template = template.replace(`[ ] [${category.title}]`, `[x] [${category.title}]`);
+      // replace the line [ ] (Title)[link] with [x] (Title)[link]
+      template = template.replace(`[ ] [${choice.title}]`, `[x] [${choice.title}]`);
     }
   }
   return template;
+}
+function toolToRegions(tool) {
+  let regions = getRegions();
+  let template = fs.readFileSync('template/regions.md', 'utf-8');
+  return checkBoxes(tool, regions, template);
+}
+function toolToCategories(tool) {
+  let categories = getCategories();
+  let template = fs.readFileSync('template/categories.md', 'utf-8');
+  return checkBoxes(tool, categories, template);
 }
 function toolToJson(tool) {
   const json = JSON.stringify(tool, null, 2);
@@ -332,8 +339,8 @@ function updateToolJSON(tool, json) {
 }
 
 function updateToolCategories(tool) {
-  const pathname = tool.categoriesFilePath;
-  writeIfChanged(toolToCategories(tool), pathname);
+  writeIfChanged(toolToCategories(tool), tool.categoriesFilePath);
+  writeIfChanged(toolToRegions(tool), tool.regionsFilePath);
 }
 
 function updateToolSummary(tool) {
