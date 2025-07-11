@@ -2,3 +2,4 @@
 
 * [EIA Global Environmental Crime Tracker](README.md)
 * [Categories](categories.md)
+* [Regions](regions.md)

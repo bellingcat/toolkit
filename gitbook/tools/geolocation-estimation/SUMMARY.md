@@ -2,3 +2,4 @@
 
 * [Geolocation Estimation](README.md)
 * [Categories](categories.md)
+* [Regions](regions.md)

@@ -2,3 +2,4 @@
 
 * [FOIA requests search tools](README.md)
 * [Categories](categories.md)
+* [Regions](regions.md)
