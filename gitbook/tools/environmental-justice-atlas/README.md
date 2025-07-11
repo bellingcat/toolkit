@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Launched in 2012, the Environmental Justice Atlas (also known as the EJAtlas) is a project based on the work of [hundreds of contributors](https://ejatlas.org/backoffice/cms/en/faq/) including from academics, citizens, informal committees, NGOs and other activist groups. The database is meant to be a resource for teaching, networking and advocacy of social conflicts involving environmental issues around the world. It can also be a helpful resource for open source researchers due to its archive of information that can provide history and context for a conflict.
+Launched in 2012, the Environmental Justice Atlas (also known as the EJAtlas) is a project based on the work of [hundreds of contributors](https://ejatlas.org/backoffice/cms/en/faq/) including from academics, citizens, informal committees, NGOs and other activist groups. The database is meant to be a resource for teaching, networking and advocacy of social conflicts involving environmental issues around the world. It can also be a helpful resource for open source researchers due to its archive of information that can provide history and context of conflict.
 
 The map covers conflicts across 10 [categories](https://ejatlas.org/backoffice/cms/en/faq/) including:&#x20;
 
@@ -28,7 +28,7 @@ The map covers conflicts across 10 [categories](https://ejatlas.org/backoffice/c
 * Biodiversity Conservation Conflicts&#x20;
 * Industrial and Utilities Conflicts&#x20;
 
-The database contains information including the investors, details about these deals, conflict impacts, project details, outcomes, references to legislation, academic research, videos and images.&#x20;
+The database contains information including investors, details about deals, conflict impacts, project details, outcomes, references to legislation, academic research, videos and images.&#x20;
 
 Open source researchers may find the map useful for these categories or related areas for historical information, links to relevant organizations and source materials and as an overview of specific conflicts. The map can be filtered by multiple types of criteria, including region, start/end date, type of conflict and more. A researcher may also perform searches such as entering the word "gas," and the search results will include any entry that uses the word "gas" in the text.
 
