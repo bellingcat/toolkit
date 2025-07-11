@@ -116,6 +116,7 @@ function createTool(tool, opts={}) {
     fs.writeFileSync(`${pathname}/README.md`, toolToReadme(tool));
     fs.writeFileSync(`${pathname}/SUMMARY.md`, toolToSummary(tool));
     fs.writeFileSync(`${pathname}/categories.md`, toolToCategories(tool));
+    fs.writeFileSync(`${pathname}/regions.md`, toolToRegions(tool));
     debug("Tool created");
   }
   debug("");
