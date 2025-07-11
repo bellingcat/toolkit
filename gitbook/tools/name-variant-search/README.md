@@ -1,5 +1,5 @@
 ---
-updated: '2025-07-08'
+updated: '2025-07-11'
 description: Simple tool to help search for different ways of writing a name.
 ---
 
