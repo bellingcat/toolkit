@@ -1,5 +1,6 @@
 ---
 description: Search companies and individuals in the United Kingdom.
+updated: '2025-07-10'
 ---
 
 # Companies House
