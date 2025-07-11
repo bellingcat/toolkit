@@ -81,6 +81,7 @@
   * [Earth Online](tools/earth-online/README.md)
   * [EDGAR Suite](tools/edgar-suite/README.md)
   * [EDGAR](tools/edgar/README.md)
+  * [Environmental Justice Atlas](tools/environmental-justice-atlas/README.md)
   * [Equasis](tools/equasis/README.md)
   * [Etherscan](tools/etherscan/README.md)
   * [EU consolidated corporate registers](tools/eu-consolidated-corporate-registers/README.md)

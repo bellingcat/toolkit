@@ -2,6 +2,7 @@
 description: >-
   Maps environmental conflicts around the world to provide information about who
   is involved, their impact and other information.
+updated: '2025-07-11'
 ---
 
 # Environmental Justice Atlas
