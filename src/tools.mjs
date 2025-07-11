@@ -176,7 +176,8 @@ async function createToolOnGitbook(toolName, category, email) {
     people: 'd9QXWHW4alemIUzkPF6l',
     social-media: '8SB4cANB9OcQ69Ify27J',
     transport: 'K3X10wt5UK7xDSRT8gar',
-    websites: 'FjtL9eHx1MoDVJqVWeLR'
+    websites: 'FjtL9eHx1MoDVJqVWeLR',
+    none: 'jQKvylm6WgaH5IFrlIMh'
   }[category];
 
   const space = await createSpace(toolName, collection);

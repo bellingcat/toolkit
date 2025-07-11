@@ -15,6 +15,7 @@ on:
         description: 'Guardian Category'
         type: choice
         options:
+          - none
           - archiving
           - image-video
           - companies-and-finance
