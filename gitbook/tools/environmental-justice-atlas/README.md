@@ -52,9 +52,11 @@ None
 
 ## Limitations
 
-In its [FAQ](https://ejatlas.org/backoffice/cms/en/faq/), EJAtlas specifically acknowledges that there are limitations to the data, including the availability of information, the changing nature of the situation on the ground, time constraints of contributors and volunteers plus when there are inter-group conflicts such as conservation activities clashing with the interests of local communities. This includes entries that may only be available in English. The FAQ also addresses issues of data quality, and states all of its data is "based and derived from secondary sources" and that it makes an effort to verify this information is from "trusted publications."
+In its [FAQ](https://ejatlas.org/backoffice/cms/en/faq/), EJAtlas specifically acknowledges that there are limitations to the data, including the availability of information, the changing nature of the situation on the ground or time constraints of contributors and volunteers. In addition, inter-group conflicts may appear, for instance when conservation activities clash with the interests of local communities.&#x20;
 
-EJAtlas [describes](https://ejatlas.org/backoffice/cms/en/faq/) itself as a "an archive of socioecological resistances."
+Some entries may only be available in English.&#x20;
+
+In the FAQ, the team behind the site also addresses issues of data quality, stating that all data that can be found on the site is "based and derived from secondary sources". The team also writes that they try to make sure that any information is from "trusted publications." It recommended to verify information found on the site.&#x20;
 
 ## Ethical Considerations
 
