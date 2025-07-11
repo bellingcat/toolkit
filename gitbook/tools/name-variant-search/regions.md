@@ -1,5 +1,5 @@
 ---
-description: Check the box if your tool is specific to any of these regions
+description: Check the boxes if your tool is specific to any of these regions
 ---
 
 # Regions

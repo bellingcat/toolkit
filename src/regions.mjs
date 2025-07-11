@@ -17,7 +17,7 @@ function generateTemplateRegionsMarkdown(categories) {
     }
   }).filter(post => { return post && post });
 
-  const frontmatter = '---\ndescription: Check the boxes if your tool is specific to any of these regions\n---\n';
+  const frontmatter = '---\ndescription: Check the boxes if your tool is specific to any of these regions\n---\n\n';
   const content = frontmatter + '# Regions' + [
     groups.join('\n'),
     topLevel.join('\n')
