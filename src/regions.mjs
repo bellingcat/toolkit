@@ -9,7 +9,7 @@ function generateTemplateRegionsMarkdown(categories) {
   const topLevel = [];
   const groups = categories.map((category) => {
     if (category.hasSubcategories) {
-      return `\n## ${category.title}\n`;
+      return null; // the "regions" category
     } else if (category.hasParent) {
       return `* [ ] [${category.title}](https://bellingcat.gitbook.io/toolkit/regions/${category.slug.join('/')})`;
     } else {
@@ -17,7 +17,7 @@ function generateTemplateRegionsMarkdown(categories) {
     }
   }).filter(post => { return post && post });
 
-  const content = '# Regions\n' + [
+  const content = '# Regions' + [
     groups.join('\n'),
     topLevel.join('\n')
   ].join('\n\n') + '\n';
