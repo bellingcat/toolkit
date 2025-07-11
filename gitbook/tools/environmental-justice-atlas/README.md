@@ -1,12 +1,12 @@
 ---
-description: Map of environmental-related conflicts globally
+description: >-
+  Maps environmental conflicts around the world to provide information about who
+  is involved, their impact and other information.
 ---
 
 # Environmental Justice Atlas
 
 ## URL
-
-The Environmental Justice Atlas maps environmental conflicts around the world sourced from hundreds of contributors to provide information about who is involved with these conflicts, what are the impacts, and other information relating to the conflicts.
 
 [https://ejatlas.org/](https://ejatlas.org/)
 
