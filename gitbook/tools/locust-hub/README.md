@@ -68,7 +68,7 @@ For predictive modelling, Locust Hub is best used in conjunction with other tool
 
 Windspeed: [https://www.windfinder.com/](https://www.windfinder.com/)
 
-Weather and Rainfall: [https://worldview.earthdata.nasa.gov/](https://worldview.earthdata.nasa.gov/)
+Weather and Rainfall data offered by [Nasa Worldview](https://bellingcat.gitbook.io/toolkit/more/all-tools/nasa-worldview).
 
 Agricultural Impact: [https://app.gro-intelligence.com/displays/WdK0QlkqK](https://app.gro-intelligence.com/displays/WdK0QlkqK)
 
