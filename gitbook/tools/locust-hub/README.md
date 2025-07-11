@@ -10,7 +10,7 @@ description: A repository for desert locust data.
 
 ## Description
 
-A public portal managed by the Food and Agriculture Organization (FAO) of the United Nations. The portal offers a geographic and time sensitive visualization of both hopper groups and swarms. The data is concatenated [from reports to the FAO from affected countries](https://www.bellingcat.com/resources/how-tos/2020/06/23/how-to-track-desert-locust-swarms/).
+A public portal managed by the Food and Agriculture Organization (FAO) of the United Nations. The portal offers a geographic and time sensitive visualization of both locust hopper groups and swarms. The data is concatenated [from reports to the FAO from affected countries](https://www.bellingcat.com/resources/how-tos/2020/06/23/how-to-track-desert-locust-swarms/).
 
 [<img src="https://www.bellingcat.com/app/uploads/2020/06/Locust-1.png" alt="" data-size="original">](https://www.bellingcat.com/app/uploads/2020/06/Locust-1.png)
 
