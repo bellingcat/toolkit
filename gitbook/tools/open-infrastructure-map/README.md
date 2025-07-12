@@ -6,7 +6,7 @@ description: A brief one line description of this tool
 
 ## URL
 
-https://example.com
+[https://openinframap.org](https://openinframap.org)
 
 ## Description
 
@@ -54,4 +54,3 @@ https://example.com
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
