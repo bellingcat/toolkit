@@ -14,8 +14,8 @@ description: A brief one line description of this tool
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
 \[\[Pricing or subscription information, if relevant.]]
