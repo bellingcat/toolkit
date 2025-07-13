@@ -24,16 +24,38 @@ The navtex.net homepage also includes a [guide](https://www.navtex.net/index.htm
 
 #### This is how NAVTEX works:
 
-1. **Automated Reception**:
+1. [**Automated Reception**](https://www.marinepublic.com/blogs/training/820808-complete-navtex-guide-understanding-maritime-communication):
    * Ships equipped with NAVTEX receivers can automatically receive and display messages. The automated nature of NAVTEX allows for continuous reception of important messages without requiring manual intervention. The receivers are designed to automatically reject duplicate messages and messages not intended for the ship’s current area, reducing the risk of information overload.
    * Ships are required to have NAVTEX receivers as part of their GMDSS equipment, especially if they operate in coastal areas. These receivers are designed to be highly reliable, operating continuously to ensure that no critical information is missed.
-2. **Frequency and Range**:
+2. [**Frequency and Range**](https://www.navcen.uscg.gov/sites/default/files/pdf/gmdss/NAVTEX-NTM.pdf):
    * NAVTEX broadcasts on the MF frequency of 518 kHz in English, which is the primary frequency for international broadcasts.
    * It also operates on 490 kHz and 4209.5 kHz for national broadcasts in local languages.
    * The service has a typical range of about 200-400 nautical miles from the transmitter, depending on the location and conditions.
 3. **Scheduled Broadcasts**:
+   * NAVTEX messages are broadcast at regular intervals, typically every four hours, ensuring that ships receive timely updates.
 
-* NAVTEX messages are broadcast at regular intervals, typically every four hours, ensuring that ships receive timely updates.
+#### An example of a NAVTEX message:
+
+This message was received on 15/11/2013. It is the example given by navtex.net.
+
+_ZCZC LA83_
+
+_150102 UTC NOV 13_\
+_DANISH NAV WARN 999/13_\
+_SKAGERAK.JAMMERBUGT_\
+_FISHING VESSEL SUNK 57-18.32N 008-57.6E_\
+_DEPTH ABOVE WRECK UNKNOWN_\
+_NNNN_
+
+* ZCZC = This indicates the start of the NAVTEX message.
+* L = This is the ID of the station transmitting the message. This character is called B1. In this case "L" = Rogaland, Norway.
+* A = This is the type of subject of the message. This character is called the B2. In this case "A" = Navigational Warning).&#x20;
+* 83 = This is a serial number for each B2 message, these are added to differentiate the NAVEX message from similar ones that might be sent from the same transmitter. In the example above, this indicates Navigational Warning no. 83 from Rogaland Radio.
+* 150102 = These numbers are the day, hour and minute that the message arrived.
+* UTC = Universal Coordinated Time&#x20;
+* NOV = This indicates the month. In this case, "NOV" = November
+* 13 = This indicates the year. In this case "13" = 2013&#x20;
+* NNNN = End of Navtex message
 
 ## Cost
 
@@ -61,7 +83,7 @@ The NAVTEX archive data pieces are stored in individual .txt files, which may ma
 
 ## Guides and articles
 
-The guide to reading the various parts of a NAVTEX message is located on the website's [home page](https://www.navtex.net/index.html) at the very bottom of the page.&#x20;
+The guide to reading the various parts of a NAVTEX message is located on the website's [home page](https://www.navtex.net/index.html) at the very bottom of the page. There are also alternate guides available, such as [this one](https://www.marinepublic.com/blogs/training/820808-complete-navtex-guide-understanding-maritime-communication), that give a more complete picture of NAVTEX, its use and its importance.&#x20;
 
 ## Tool provider
 
