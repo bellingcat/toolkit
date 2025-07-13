@@ -12,39 +12,30 @@ description: >-
 
 ## Description
 
-Here WeGo is a navigation app that serves as a robust alternative to popular services like Google Maps and Apple Maps. It offers a range of features tailored for both casual users and those requiring more detailed navigation tools. Key Features: &#x20;
+Here WeGo is a navigation app that serves as a robust alternative to popular services like Google Maps and Apple Maps. It offers a range of features tailored for both casual users and those requiring more detailed navigation tools.
 
-```
-Offline Maps:
-    One of the standout features of Here WeGo is its offline maps capability. Users can download maps for entire cities, regions, or countries, enabling navigation without an internet connection. This is particularly useful for travelers in areas with poor network coverage or those looking to save on data costs​ (JustUseApp)​.
+#### Key Features:
 
-Comprehensive Navigation:
-    The app provides detailed turn-by-turn directions for driving, walking, cycling, and public transit. Users appreciate the clear and accurate directions, although there have been some reports of occasional confusion with lane indicators and arrows​ (Apple)​​ (JustUseApp)​.
+1. Offline Maps:
+   * One of the standout features of Here WeGo is its offline maps capability. Users can download maps for entire cities, regions, or countries, enabling navigation without an internet connection. This is particularly useful for travelers in areas with poor network coverage or those looking to save on data costs​ (JustUseApp)​.
+2. Comprehensive Navigation:
+   * The app provides detailed turn-by-turn directions for driving, walking, cycling, and public transit.&#x20;
 
-Real-Time Information:
-    Here WeGo integrates real-time traffic data to help users avoid congestion and find the fastest routes. It also offers information on public transportation schedules and options, making it a versatile tool for urban navigation​ (Apple)​.
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Privacy Focus:
-    Unlike some competitors, Here WeGo emphasizes user privacy. It collects minimal data compared to other navigation apps, which is a significant plus for privacy-conscious users​ (Apple)​.
-
-User Interface:
-    The app features a clean and user-friendly interface. It supports multiple languages and provides a smooth user experience across different devices, including smartphones and in-dash systems with Android Auto​ (Apple)​​ (JustUseApp)​.
-```
-
-Performance
-
-Users generally find Here WeGo to be reliable and accurate. The app excels in offline mode, maintaining functionality even without an internet connection. However, it can be heavy on battery usage when used extensively in standalone mode, so keeping a charger handy is advisable​ (JustUseApp)​. Areas for Improvement
-
-```
-Advanced Features:
-    While Here WeGo covers the basics well, some advanced features found in other apps, such as street view or augmented reality navigation, are missing. Enhancing these aspects could improve its competitiveness​ (JustUseApp)​.
-
-Voice Navigation:
-    Some users have noted that the voice directions can sound digital and processed. Smoother and more natural-sounding voices would enhance the overall user experience​ (Apple)​.
-
-Search Functionality:
-    The search functionality is generally reliable, but there are occasional issues with finding specific destinations, particularly in less digitalized areas. Improving the search algorithm and adding more points of interest could address this​ (JustUseApp)​.
-```
+1. Real-Time Information:\
+   Here WeGo integrates real-time traffic data to help users avoid congestion and find the fastest routes. It also offers information on public transportation schedules and options, making it a versatile tool for urban navigation​ (Apple)​.
+2. Privacy Focus:\
+   Unlike some competitors, Here WeGo emphasizes user privacy. It collects minimal data compared to other navigation apps, which is a significant plus for privacy-conscious users​ (Apple)​.
+3. User Interface:\
+   The app features a clean and user-friendly interface. It supports multiple languages and provides a smooth user experience across different devices, including smartphones and in-dash systems with Android Auto​ (Apple)​​ (JustUseApp)​.
+4. Performance: Users generally find Here WeGo to be reliable and accurate. The app excels in offline mode, maintaining functionality even without an internet connection. However, it can be heavy on battery usage when used extensively in standalone mode, so keeping a charger handy is advisable​ (JustUseApp)​. Areas for Improvement&#x20;
+5. Advanced Features:\
+   While Here WeGo covers the basics well, some advanced features found in other apps, such as street view or augmented reality navigation, are missing. Enhancing these aspects could improve its competitiveness​ (JustUseApp)​.
+6. Voice Navigation:\
+   Some users have noted that the voice directions can sound digital and processed. Smoother and more natural-sounding voices would enhance the overall user experience​ (Apple)​.
+7. Search Functionality:\
+   The search functionality is generally reliable, but there are occasional issues with finding specific destinations, particularly in less digitalized areas. Improving the search algorithm and adding more points of interest could address this​ (JustUseApp)​.
 
 Conclusion
 
@@ -78,7 +69,7 @@ Unlike some other sattelite imagery tools, Here WeGo does not appear to indicate
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+A guide to what Here WeGo, its setup and its use is available on a community-run website [here](https://www.herewego.info/en/here-wego/).&#x20;
 
 ## Tool provider
 
