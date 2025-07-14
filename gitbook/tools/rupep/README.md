@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-RuPEP can help you to dig into the network of people and organisations around a politically exposed person (PEP). A PEP is someone in a prominent public position, which makes them a higher risk for bribery and corruption (but which does not mean that they are automatically involved in such activities). RuPEP is a database of PEPs but also includes:
+RuPEP can help you to dig into the network of people and organisations around a politically exposed person (PEP). A PEP is someone in a prominent public position, which makes them a higher risk for bribery and corruption (though this does not mean that they are actually involved in such activities). RuPEP is a database of PEPs that also includes:
 
 * Family members and business partners of PEPs
 * Others associated with them according to media reports
