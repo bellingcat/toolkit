@@ -10,7 +10,7 @@ https://gongsi.com.cn
 
 ## Description
 
-A Chinese database providing company information on Chinese enterprise companies. Users can search and filter via companies, individuals or geographic regions in China.
+A Chinese database providing company information on Chinese enterprise companies. The database obtains information by crawling data from various Chinese authority websites (e.g., National Enterprise Credit Information Publicity System, China Court Judgment Documents Network).
 
 ## Cost
 
@@ -30,7 +30,7 @@ The usage of VPN and Chinese translation (e.g. DeepL) can be useful.
 
 ## Limitations
 
-As this is a private platform, information should be cross-checked and verified with other available sources.
+
 
 ## Ethical Considerations
 
@@ -58,7 +58,7 @@ There are other search options available, including contact information.
 
 ## Tool provider
 
-满商公司网 ([`Gongsi.com.cn`](https://www.gongsi.com.cn/)), China
+[满商公司网](https://www.gongsi.com.cn/) (Gongsi.com.cn), China
 
 ## Similar tools
 
