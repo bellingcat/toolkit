@@ -38,27 +38,27 @@ Nil.
 
 ## Guides and articles
 
-Search by Enterprise:&#x20;
+**Search by Enterprise:**&#x20;
 
 
 
-Search by Legal Shareholder:
+**Search by Legal Shareholder:**
 
 
 
-Search by Industry:
+**Search by Industry:**
 
 
 
-Search by Geographical regions:
+**Search by Geographical regions:**
 
 
 
-There are other search options available, including contact information and&#x20;
+There are other search options available, including contact information.
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+满商公司网 ([`Gongsi.com.cn`](https://www.gongsi.com.cn/)), China
 
 ## Similar tools
 
