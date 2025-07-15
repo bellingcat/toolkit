@@ -6,7 +6,7 @@ description: A repository for information on Chinese enterprise companies.
 
 ## URL
 
-https://gongsi.com.cn
+[https://m.gongsi.com.cn/](https://m.gongsi.com.cn/)
 
 ## Description
 
@@ -30,7 +30,7 @@ The usage of VPN and Chinese translation (e.g. DeepL) can be useful.
 
 ## Limitations
 
-
+Not all search returned information will be displayed if you do not log in with a registered account (which would require a Chinese mobile number). Results displayed nominally would be adequate to&#x20;
 
 ## Ethical Considerations
 
@@ -38,15 +38,21 @@ Nil.
 
 ## Guides and articles
 
+The landing page (when translated into English) looks like this:
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
 **Search by Enterprise:**&#x20;
 
 
 
 **Search by Legal Shareholder:**
 
-
+You can search the list of enterprises and companies associated with a particular individual. A list of associated companies which the individual legal shareholder of will be listed.
 
 **Search by Industry:**
+
+To find a list of&#x20;
 
 
 
