@@ -69,7 +69,7 @@ _NNNN_
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+None
 
 ## Limitations
 
