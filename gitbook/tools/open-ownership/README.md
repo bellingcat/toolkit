@@ -1,5 +1,6 @@
 ---
 description: Links to beneficial ownership registers.
+updated: '2025-07-14'
 ---
 
 # Open Ownership

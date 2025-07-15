@@ -2,6 +2,7 @@
 description: >-
   Online database of politically exposed persons in Russia, Belarus and
   Kazakhstan.
+updated: '2025-07-14'
 ---
 
 # RuPEP

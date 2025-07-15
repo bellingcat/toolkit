@@ -1,5 +1,6 @@
 ---
 description: A mapping application provided by Chinese technology company Baidu Inc.
+updated: '2025-07-14'
 ---
 
 # Baidu Maps
