@@ -2,6 +2,7 @@
 description: >-
   Consolidated company registers covering most of the EU, Iceland Liechtenstein
   and Norway.
+updated: '2025-07-14'
 ---
 
 # EU consolidated corporate registers
