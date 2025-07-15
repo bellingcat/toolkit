@@ -36,7 +36,7 @@ The navtex.net homepage also includes a [guide](https://www.navtex.net/index.htm
 
 #### An example of a NAVTEX message:
 
-This message was received on 15/11/2013. It is the example given by navtex.net.
+This message was received on 15/11/2013. It is the example given by [navtex.net](https://www.navtex.net/).
 
 _ZCZC LA83_
 
