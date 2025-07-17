@@ -1,6 +1,6 @@
 ---
-description: 'Search 70 million US customs sea shipment records, find company suppliers.'
 updated: '2025-07-10'
+description: Search 70 million US customs sea shipment records, find company suppliers.
 ---
 
 # ImportYeti
@@ -60,6 +60,8 @@ Companies can request that their import records are made private (see the US Cus
 Sometimes supplier contact details aren't on the site. See 'How do I find a supplier's contact info?' in ImportYeti's [FAQs](https://www.importyeti.com/faqs) for tips on how to find them.
 
 Their data does not extend before 2015.
+
+To access trade data for countries other than the US, there are a range of commercial providers including (in alphabetical order) [Exportgenius](https://www.exportgenius.in/), [ImportGenius](https://www.importgenius.com/), [Panjiva](https://www.spglobal.com/market-intelligence/en/solutions/products/panjiva-supply-chain-intelligence?utm_source=panjiva\&utm_medium=website\&utm_content=homepage), and [Sayari](https://sayari.com). There are many more, and new suppliers can come up regularly.
 
 ## Ethical Considerations
 
