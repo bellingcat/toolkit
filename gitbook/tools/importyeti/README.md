@@ -1,6 +1,6 @@
 ---
-updated: '2025-07-10'
-description: Search 70 million US customs sea shipment records, find company suppliers.
+updated: '2025-07-17'
+description: 'Search 70 million US customs sea shipment records, find company suppliers.'
 ---
 
 # ImportYeti
