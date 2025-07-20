@@ -12,15 +12,7 @@ description: >-
 
 ## Description
 
-While not an organization itself, the NIFC is composed of employees from nine United States federal and state agencies provides information and support for wildland fire personnel and other emergency services for ground firefighting efforts as well as developing fire policy.
-
-Five agencies including the Department of the Interior’s Bureau of Land Management, National Park Service, U.S. Fish and Wildlife Service, and Bureau of Indian Affairs, and the U.S. Department of Agriculture’s Forest Service work together to manage wildfires on 700 million acres of Uninted States federal public land.
-
-In addition, the National Association of State Foresters, the U.S. Fire Administration, the National Weather Service, and the Department of Defense provide leadership, policy oversight, and coordination for wildland fire programs in the United States.
-
-Although wildfires are the NIFC's main mission, the center also provides support for earthquakes, floods, hurricanes, volcanic eruptions, and attacks.
-
-The NIFC is a resource that provides historical information on wildfires in the United States including statistics, maps, daily situation reports, news, agency-specific information and general information about how ground wildfires are managed.
+The NIFC is a resource that provides historical information on wildfires in the United States including statistics, maps, daily situation reports, news, agency-specific information and general information about how ground wildfires are managed. A researcher can use the site in various ways: performing keyword searches in the search, clicking on the links for specific information relating to wildfires including general fire data, updates to current wildfire incidents, historical information for past wildfires, maps, statistics and more.
 
 ## Cost
 
@@ -28,15 +20,13 @@ The NIFC is a resource that provides historical information on wildfires in the 
 * [ ] Partially Free
 * [ ] Paid
 
-
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
-Internet access is required for accessing the NIFC. Some&#x20;
+Internet access is required for accessing the NIFC. Some
 
 ## Limitations
 
