@@ -114,7 +114,6 @@
   * [Hunchly](tools/hunchly/README.md)
   * [ICANN Lookup](tools/icann-lookup/README.md)
   * [ICIJ Offshore Leaks Database](tools/icij-offshore-leaks-database/README.md)
-  * [ImportGenius](tools/importgenius/README.md)
   * [ImportYeti](tools/importyeti/README.md)
   * [Index Database](tools/index-database/README.md)
   * [Instagram Location Search](tools/instagram-location-search/README.md)
