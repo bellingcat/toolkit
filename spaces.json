@@ -7693,5 +7693,38 @@
       "merge": true,
       "review": true
     }
+  },
+  {
+    "object": "space",
+    "id": "GhOlGbtGsRa8O8bJ93L1",
+    "title": "Domain Research Suite",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-07-22T10:05:07.196Z",
+    "updatedAt": "2025-07-22T10:05:07.196Z",
+    "editMode": "locked",
+    "urls": {
+      "location": "/spaces/GhOlGbtGsRa8O8bJ93L1",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/GhOlGbtGsRa8O8bJ93L1/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "jQKvylm6WgaH5IFrlIMh",
+    "revision": "LkWCFaExrjmbzp4vGGeP",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "viewInviteLinks": true,
+      "edit": true,
+      "triggerGitSync": true,
+      "comment": true,
+      "merge": true,
+      "review": true
+    }
   }
 ]

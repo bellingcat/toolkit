@@ -2426,5 +2426,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "dWHULTzDLV0qnMLzI7Mb",
+    "title": "Domain Research Suite",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-07-22T10:05:07.548Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
