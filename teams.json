@@ -1,1971 +1,11 @@
 [
   {
     "object": "team",
-    "id": "0PwHSqQV7tXnrA7Ij7Pp",
-    "title": "ImportGenius",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-18T13:36:14.445Z"
-  },
-  {
-    "object": "team",
-    "id": "0T83IjoTIanEJdEIByVy",
-    "title": "Yandex Maps",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-09T02:08:20.872Z"
-  },
-  {
-    "object": "team",
-    "id": "0rFcKiHkKLeRlObSg98K",
-    "title": "Zotero",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-10T22:13:36.518Z"
-  },
-  {
-    "object": "team",
-    "id": "1NxHFSua4liHutC1l9ja",
-    "title": "MW Geofind",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-05T02:16:25.333Z"
-  },
-  {
-    "object": "team",
-    "id": "1eJW2AXNGRwSTqdVvdwq",
-    "title": "Whoxy",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-25T13:56:12.578Z"
-  },
-  {
-    "object": "team",
-    "id": "29CvCrZ78xkqFDSib3xg",
-    "title": "North Data",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-07T23:35:43.460Z"
-  },
-  {
-    "object": "team",
-    "id": "2DQyv3wwZw29SjQm2ax0",
-    "title": "Apollo Mapping",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-08-23T13:28:22.796Z"
-  },
-  {
-    "object": "team",
-    "id": "2DcCOhDpkdqMUa8YTjrA",
-    "title": "WaTools",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-08T00:00:48.853Z"
-  },
-  {
-    "object": "team",
-    "id": "2KzzlDtilRcwg1LZM5MC",
-    "title": "PixPlot",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-09T22:21:37.096Z"
-  },
-  {
-    "object": "team",
-    "id": "2TRqpLKifDzBb5veZopj",
-    "title": "Spectrum Analyzer",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-08-01T18:43:53.231Z"
-  },
-  {
-    "object": "team",
-    "id": "2YeGGqIgpqVRMXBxpymo",
-    "title": "Hugin",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-22T19:33:44.766Z"
-  },
-  {
-    "object": "team",
-    "id": "4IAEgMH03a5Rbwb3tcKw",
-    "title": "Earth Explorer",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-03-28T20:55:47.371Z"
-  },
-  {
-    "object": "team",
-    "id": "4VBXZE0hBFN60tpJZHDf",
-    "title": "Maltego",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-03-30T01:30:44.447Z"
-  },
-  {
-    "object": "team",
-    "id": "4vVlgEvbg8nktJVtaCkY",
-    "title": "The Information Laundromat",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-20T17:26:01.839Z"
-  },
-  {
-    "object": "team",
-    "id": "5PslDMNQW5Ayw4CCRqYV",
-    "title": "Umbra Space",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-08-23T13:04:09.352Z"
-  },
-  {
-    "object": "team",
-    "id": "5qTFA148VnV46jTVaOpz",
-    "title": "Mapillary",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-03T19:37:00.829Z"
-  },
-  {
-    "object": "team",
-    "id": "5zUrHyQWEPSwvCqkjgFc",
-    "title": "527 Explorer",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-07-16T18:22:22.492Z"
-  },
-  {
-    "object": "team",
-    "id": "673acxHl77pNIxr5Oy4Z",
-    "title": "On-Chain-Investigations-Tools-List",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-11T01:52:34.559Z"
-  },
-  {
-    "object": "team",
-    "id": "67920Ip9FpnQzVMF4TLU",
-    "title": "WolframAlpha",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-08-23T13:39:13.851Z"
-  },
-  {
-    "object": "team",
-    "id": "6IxTzUc51ZlxHoHQCRQO",
-    "title": "Global Fishing Watch Map",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-02T00:57:03.110Z"
-  },
-  {
-    "object": "team",
-    "id": "6K1dO9Pue24EEssS8WQQ",
-    "title": "RAWGraphs",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-05T01:03:07.470Z"
-  },
-  {
-    "object": "team",
-    "id": "6RIWbZ6uKR8m6kwje0s7",
-    "title": "Tool Page Maintainers",
-    "members": 16,
-    "spaces": 1,
-    "createdAt": "2024-03-05T14:43:16.105Z"
-  },
-  {
-    "object": "team",
-    "id": "6f5jTlHcXfxZDhtZUJMl",
-    "title": "Shadow Finder",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-07T11:00:55.623Z"
-  },
-  {
-    "object": "team",
-    "id": "6mOJJOXfhfgGZo664on5",
-    "title": "Open Measures",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-21T19:11:50.331Z"
-  },
-  {
-    "object": "team",
-    "id": "7CIimXXsTRsTaINza5uH",
-    "title": "4plebs",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-21T19:45:07.613Z"
-  },
-  {
-    "object": "team",
-    "id": "7lozgpwin8JYBdV8K0LV",
-    "title": "Strava",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-07T11:12:01.169Z"
-  },
-  {
-    "object": "team",
-    "id": "8i0KGxq98FcJZ4F8crIH",
-    "title": "Ghunt",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-12T21:27:05.855Z"
-  },
-  {
-    "object": "team",
-    "id": "8lVi1NvhLj3UbD5FLvg4",
-    "title": "Twitter Location Search",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-06-20T11:24:32.360Z"
-  },
-  {
-    "object": "team",
-    "id": "92K6IjqvPOHCHsh2e3WX",
-    "title": "OpenCorporates",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-29T02:45:46.758Z"
-  },
-  {
-    "object": "team",
-    "id": "95u2aFt4fHwcbyhuHL1A",
-    "title": "Google Flood Hub",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-25T13:42:00.864Z"
-  },
-  {
-    "object": "team",
-    "id": "9F2YvQu4QzjwbbAC28mM",
-    "title": "Ethtective",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-11T01:47:12.046Z"
-  },
-  {
-    "object": "team",
-    "id": "A8t4Dy3lYrPa8xQSaIJ6",
-    "title": "Blockchain.com Explorer",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-11T01:19:55.350Z"
-  },
-  {
-    "object": "team",
-    "id": "ACPjFhPdIqIdxD4H6uWt",
-    "title": "NASA Worldview",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-24T20:56:00.552Z"
-  },
-  {
-    "object": "team",
-    "id": "AKlJ5ZH3Gfj7kX4GqNpI",
-    "title": "GovMap",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-09T20:52:06.955Z"
-  },
-  {
-    "object": "team",
-    "id": "ATcWKiSNULboq4junUjo",
-    "title": "Uwazi",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-08-13T17:52:47.684Z"
-  },
-  {
-    "object": "team",
-    "id": "Aw5CbCjMx3Voc1FwmWl1",
-    "title": "Companies House",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-09-18T11:32:37.079Z"
-  },
-  {
-    "object": "team",
-    "id": "Ax1mKKSv2d13nA1wg2Ul",
-    "title": "Blackbird",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-04T01:28:01.781Z"
-  },
-  {
-    "object": "team",
-    "id": "BGHvP82JnMOIWuz85eIz",
-    "title": "WalletExplorer.com",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-11T01:24:27.105Z"
-  },
-  {
-    "object": "team",
-    "id": "BIUoe6he9kR5yLgRHtuR",
-    "title": "Chronotrains",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-06T16:03:08.174Z"
-  },
-  {
-    "object": "team",
-    "id": "Bs75ftG9ExvdyIGql2jP",
-    "title": "Internet Archive",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-21T19:28:05.715Z"
-  },
-  {
-    "object": "team",
-    "id": "CGsVgmzdRVdAFksaskkB",
-    "title": "Sherlock",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-04T01:19:11.998Z"
-  },
-  {
-    "object": "team",
-    "id": "CWVB6Qz9veUBIzHmIif0",
-    "title": "Open Source Munitions Portal",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-03T23:06:38.988Z"
-  },
-  {
-    "object": "team",
-    "id": "CZqJdanuhaFdf01Y27hr",
-    "title": "Explosive Ordnance Identification Resources",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-07-25T13:24:51.198Z"
-  },
-  {
-    "object": "team",
-    "id": "CdfRNd5fqn7uQMIvqlzw",
-    "title": "Maritime Awareness Project",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-06T19:00:20.026Z"
-  },
-  {
-    "object": "team",
-    "id": "ChWvBysPz3HcQOzyC2WM",
-    "title": "Convert Geographic Units",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-08-28T16:46:52.258Z"
-  },
-  {
-    "object": "team",
-    "id": "DWvyU5ehpP3NmRVLTzl6",
-    "title": "Panjiva",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-18T13:31:47.310Z"
-  },
-  {
-    "object": "team",
-    "id": "Dj2ySu25JWGUoI0PFIPE",
-    "title": "Telegram Group Joiner",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-09T21:19:40.200Z"
-  },
-  {
-    "object": "team",
-    "id": "Dk8b7EMi1lDn1AAI1vXc",
-    "title": "WhatsMyName",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-03-30T01:59:15.198Z"
-  },
-  {
-    "object": "team",
-    "id": "Ewcw1WySJgIw3kbplvux",
-    "title": "Radar Interference Tracker",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-07-25T14:51:50.338Z"
-  },
-  {
-    "object": "team",
-    "id": "FTQeEdNHW9crCfaH7g6q",
-    "title": "CAT-UXO",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-03T23:13:30.450Z"
-  },
-  {
-    "object": "team",
-    "id": "Fj6deP4zeQuAwNt3CCGv",
-    "title": "Satellites.pro",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-09T00:13:01.240Z"
-  },
-  {
-    "object": "team",
-    "id": "FjELTrFVzBsg2ktE3wKZ",
-    "title": "Auto Archiver",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-07-25T17:43:23.232Z"
-  },
-  {
-    "object": "team",
-    "id": "FwLN5P6E46ih6W8OyV4m",
-    "title": "Instant Data Scraper",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-08-01T18:54:39.566Z"
-  },
-  {
-    "object": "team",
-    "id": "GFiibfFLvdsZgaeZRavJ",
-    "title": "KartaView",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-04T23:27:54.555Z"
-  },
-  {
-    "object": "team",
-    "id": "GWOMNMyp7AsLtwXXgy0C",
-    "title": "QGIS",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-03-30T03:19:21.530Z"
-  },
-  {
-    "object": "team",
-    "id": "Gq6aIv1VskG2kkRoPDnS",
-    "title": "Shodan",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-08-24T11:03:42.526Z"
-  },
-  {
-    "object": "team",
-    "id": "H2GMs9xH4BD50ldFq227",
-    "title": "OpenSeaMap",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-06T15:34:56.827Z"
-  },
-  {
-    "object": "team",
-    "id": "HGauOmLZ0m8oOVac2zJe",
-    "title": "Datasette",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-08T00:58:06.833Z"
-  },
-  {
-    "object": "team",
-    "id": "HMXBhmG2xOjOYXYh0vdg",
-    "title": "EDGAR Suite",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-03-28T20:15:13.421Z"
-  },
-  {
-    "object": "team",
-    "id": "HOECyMfazPSX7eymTjeS",
-    "title": "OpenStreetMap Search Tool",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-03T19:34:50.033Z"
-  },
-  {
-    "object": "team",
-    "id": "HqOt7hrPSzzumHa1HrRh",
-    "title": "MyShipTracking",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-30T21:31:58.438Z"
-  },
-  {
-    "object": "team",
-    "id": "I33E8EM8Jr7n5LPOWEnW",
-    "title": "Linkedin Ad Library",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-09T23:13:48.246Z"
-  },
-  {
-    "object": "team",
-    "id": "II1djPdSwchBtHFKJKqf",
-    "title": "MapChecking",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-06T15:50:32.271Z"
-  },
-  {
-    "object": "team",
-    "id": "ILT1X2zpjtLfPnzWmfxm",
-    "title": "FlightAware",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-06T18:16:43.240Z"
-  },
-  {
-    "object": "team",
-    "id": "IODAVbsTiOGijYjV2Jcc",
-    "title": "Telepathy",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-09T21:04:35.069Z"
-  },
-  {
-    "object": "team",
-    "id": "IgcGxRWQdJs4gfYXVLuJ",
-    "title": "FaceCheck.ID",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-04T08:51:39.190Z"
-  },
-  {
-    "object": "team",
-    "id": "IyHLPDO4d3mqvJoJo5Jn",
-    "title": "Snap Map",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-16T00:05:53.697Z"
-  },
-  {
-    "object": "team",
-    "id": "J8MF9MMHHIwnyF9olEA2",
-    "title": "AllTrails",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-12T21:33:33.287Z"
-  },
-  {
-    "object": "team",
-    "id": "K5Sw1exVgYg5IMiOMKBG",
-    "title": "Deepfake-O-Meter",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-09T22:40:12.620Z"
-  },
-  {
-    "object": "team",
-    "id": "KjcLE0jsl9c7jNAxu2n6",
-    "title": "TGStat",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-03-30T01:21:47.471Z"
-  },
-  {
-    "object": "team",
-    "id": "KuTAv0thZ4rGlnLNZMSK",
-    "title": "Geospy.ai",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-03T23:25:29.850Z"
-  },
-  {
-    "object": "team",
-    "id": "LXyMuXiNFof11xZ4QZYl",
-    "title": "Equasis",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-22T14:03:02.653Z"
-  },
-  {
-    "object": "team",
-    "id": "LbhIqQK6JKB8VcSxGc2x",
-    "title": "UNOSAT Analyses",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-08-26T20:14:10.151Z"
-  },
-  {
-    "object": "team",
-    "id": "M51aZzS78enpyWHOsq5T",
-    "title": "Quick geolocation search",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-20T17:02:36.852Z"
-  },
-  {
-    "object": "team",
-    "id": "NPTzlCI6I4WRxcso7gnS",
-    "title": "Meta Content Library and API",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-09T21:15:33.227Z"
-  },
-  {
-    "object": "team",
-    "id": "NZRSMaVTAZ9DgMvwsdHj",
-    "title": "ShipFinder",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-24T21:07:52.804Z"
-  },
-  {
-    "object": "team",
-    "id": "NlxTA4dGfvz70u0oFWhF",
-    "title": "Hoaxy",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-06-07T11:29:26.064Z"
-  },
-  {
-    "object": "team",
-    "id": "OH8OpRyGcrMx3BH7jA4u",
-    "title": "Time.Graphics",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-04T22:40:16.182Z"
-  },
-  {
-    "object": "team",
-    "id": "OLWFgntaYt0C4GQp63C7",
-    "title": "MarineTraffic",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-24T20:25:13.967Z"
-  },
-  {
-    "object": "team",
-    "id": "OUJnlfks7TYMB4yfyDLm",
-    "title": "Navtex",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-30T21:19:00.232Z"
-  },
-  {
-    "object": "team",
-    "id": "OczijvSUHlJiOXJUSoUk",
-    "title": "AutoStitch",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-08T00:43:38.882Z"
-  },
-  {
-    "object": "team",
-    "id": "OfTWzhh0KpoWvxdzTnky",
-    "title": "Pinpoint",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-10T23:10:29.236Z"
-  },
-  {
-    "object": "team",
-    "id": "Olhapig4RdhkSmB6tKfx",
-    "title": "TruffleHog",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-08-24T11:10:16.789Z"
-  },
-  {
-    "object": "team",
-    "id": "PF7l1ZzcXlauK3c60FUG",
-    "title": "EDGAR",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-03-27T21:05:09.614Z"
-  },
-  {
-    "object": "team",
-    "id": "PMcD0hFOrRkT1zwHwQ5Q",
-    "title": "ShadeMap",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-09T02:01:08.551Z"
-  },
-  {
-    "object": "team",
-    "id": "PSmBTrrZuK8FchDeTJGX",
-    "title": "Fact Check Explorer",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-11T19:01:07.790Z"
-  },
-  {
-    "object": "team",
-    "id": "PniQ5d7sm3p1Xwhc8Cgk",
-    "title": "TikTok Ad Library",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-09T23:01:24.056Z"
-  },
-  {
-    "object": "team",
-    "id": "Q6Qv9XVEL3PiWluDm7SS",
-    "title": "DomainTools Whois Lookup",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-12T08:43:58.860Z"
-  },
-  {
-    "object": "team",
-    "id": "QAHyRrUPv6oiVtHuxpCj",
-    "title": "GPSJAM",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-06T19:23:24.702Z"
-  },
-  {
-    "object": "team",
-    "id": "QXpuD6pei7bBx1fEztgK",
-    "title": "Photo-Map.RU",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-06T18:34:55.175Z"
-  },
-  {
-    "object": "team",
-    "id": "SHDCVjUrFSw4WQGoJcso",
-    "title": "SanctionsExplorer",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-07T11:46:22.556Z"
-  },
-  {
-    "object": "team",
-    "id": "SQYrwRdwUOanmi0kfMlg",
-    "title": "3xpl",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-11T01:28:49.243Z"
-  },
-  {
-    "object": "team",
-    "id": "SYWoq8gwEXZ8ylKsvtQA",
-    "title": "LittleSis",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-18T13:43:22.207Z"
-  },
-  {
-    "object": "team",
-    "id": "SknFtf13qkD4frcQPlo5",
-    "title": "OpenSecrets",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-08-13T18:12:29.851Z"
-  },
-  {
-    "object": "team",
-    "id": "So5K3EthknYYP5Jpxw6L",
-    "title": "China-related resources",
-    "members": 0,
-    "spaces": 1,
-    "createdAt": "2024-09-10T10:45:25.892Z"
-  },
-  {
-    "object": "team",
-    "id": "TQzgXihAkPKYTG2kySfX",
-    "title": "Logseq",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-11T01:13:09.861Z"
-  },
-  {
-    "object": "team",
-    "id": "TYsDAHSXUuQEIxFiZXdu",
-    "title": "4CAT",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-08T00:51:54.832Z"
-  },
-  {
-    "object": "team",
-    "id": "TpdbC2TaDc4erxtHzgwx",
-    "title": "ICIJ Offshore Leaks Database",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-07-25T13:47:18.056Z"
-  },
-  {
-    "object": "team",
-    "id": "TtqOrB6i5nY6MAbpgNtI",
-    "title": "WalletScan",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-11T01:33:57.339Z"
-  },
-  {
-    "object": "team",
-    "id": "UKZMsyH7ahlJHtTjcHRm",
-    "title": "Telegago",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-09T21:22:51.994Z"
-  },
-  {
-    "object": "team",
-    "id": "V3vnXKTnNDtTY50xBziD",
-    "title": "InstaLoader",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-03-19T13:28:48.712Z"
-  },
-  {
-    "object": "team",
-    "id": "VyuYJRA8lTiECuL0LTjI",
-    "title": "Omnivore",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-11T17:49:11.357Z"
-  },
-  {
-    "object": "team",
-    "id": "W8EcOMhaTt7YT9BumqoA",
-    "title": "Skopenow",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-25T13:21:19.153Z"
-  },
-  {
-    "object": "team",
-    "id": "WPWIu5fNru5M18ZVpFaR",
-    "title": "Google Maps",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-03T19:30:37.293Z"
-  },
-  {
-    "object": "team",
-    "id": "WeGNfAKHrHpym4nj7nx5",
-    "title": "VirusTotal",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-08-26T19:48:32.375Z"
-  },
-  {
-    "object": "team",
-    "id": "XQY0Wa2Yrnz3Lo74hzDg",
-    "title": "Telemetrio",
-    "members": 3,
-    "spaces": 1,
-    "createdAt": "2024-04-09T20:56:41.389Z"
-  },
-  {
-    "object": "team",
-    "id": "XYpqWUpz6PHKOq3injHJ",
-    "title": "What CMS",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-27T16:21:03.049Z"
-  },
-  {
-    "object": "team",
-    "id": "Xl2VEy03Yg0YXf7PbIcr",
-    "title": "Bing Maps",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-09T20:43:34.826Z"
-  },
-  {
-    "object": "team",
-    "id": "Xrf8naHvbIC24BRXvu57",
-    "title": "DiscordLeaks",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-11T23:21:12.164Z"
-  },
-  {
-    "object": "team",
-    "id": "YC2kpJ3CPINDDa7tD5Dj",
-    "title": "Tiktok Timestamp",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-10T18:36:57.543Z"
-  },
-  {
-    "object": "team",
-    "id": "YKsLPli4hWqzjuAwa9Ge",
-    "title": "Baidu Maps",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-18T00:28:11.590Z"
-  },
-  {
-    "object": "team",
-    "id": "Z62CDuPdQ10nBKbvbIjD",
-    "title": "X Ads Repository",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-09T23:11:18.170Z"
-  },
-  {
-    "object": "team",
-    "id": "ZJMj8lot4Gpk0xG0ysDf",
-    "title": "Flightradar24",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-10T22:18:09.605Z"
-  },
-  {
-    "object": "team",
-    "id": "ZqDeHD0SsyuLVBvD1RX0",
-    "title": "Copernicus Data Space Ecosystem",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-03T21:36:33.804Z"
-  },
-  {
-    "object": "team",
-    "id": "Zt4GmOEORt6ki4HdhplP",
-    "title": "Etherscan",
-    "members": 0,
-    "spaces": 1,
-    "createdAt": "2024-07-30T19:55:42.324Z"
-  },
-  {
-    "object": "team",
-    "id": "ZzT2INRT3Rawfu3ZDizb",
-    "title": "Twitter Video Downloader",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-06-07T12:24:26.486Z"
-  },
-  {
-    "object": "team",
-    "id": "ZzWMo4ZUVfPngwCpZlYD",
-    "title": "Google Earth Pro",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-03T19:26:37.394Z"
-  },
-  {
-    "object": "team",
-    "id": "b7Iq4vZpm1sl7rmIhZ9m",
-    "title": "TinEye",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-08-26T19:41:14.944Z"
-  },
-  {
-    "object": "team",
-    "id": "b7o2bNFRsjU8f7J1eN3p",
-    "title": "Shadowmap",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-07T10:49:32.161Z"
-  },
-  {
-    "object": "team",
-    "id": "bzhVvgEuI4uCR4vC2Kul",
-    "title": "Liveuamap",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-15T18:33:36.402Z"
-  },
-  {
-    "object": "team",
-    "id": "c0H4nr3rk1OHjQAG8uxw",
-    "title": "TelegramDB",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-09T21:25:36.742Z"
-  },
-  {
-    "object": "team",
-    "id": "cRPHfQNnT1KNr3FMvAID",
-    "title": "Suncalc",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-09T01:54:19.322Z"
-  },
-  {
-    "object": "team",
-    "id": "d28XROU2umRjeNBQ3UXn",
-    "title": "Google Ads Transparency Center",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-09T23:06:37.174Z"
-  },
-  {
-    "object": "team",
-    "id": "dF0xw4ML9atnBuYM42w2",
-    "title": "TikTok Hashtag Analysis",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-03T22:35:35.548Z"
-  },
-  {
-    "object": "team",
-    "id": "dwX8QEXybqIBVWQ8jKTI",
-    "title": "OpenSanctions",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-10T20:51:10.521Z"
-  },
-  {
-    "object": "team",
-    "id": "f2c4OoEnsThy5lm9MOku",
-    "title": "Name Variant Search",
-    "members": 3,
-    "spaces": 1,
-    "createdAt": "2024-03-04T12:42:08.517Z"
-  },
-  {
-    "object": "team",
-    "id": "fFDgdGG8q2lawiixzGV0",
-    "title": "Forensically",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-10T23:22:55.370Z"
-  },
-  {
-    "object": "team",
-    "id": "fKnGDN23pPLevqQA3UaC",
-    "title": "Blender",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-09T22:10:01.392Z"
-  },
-  {
-    "object": "team",
-    "id": "fNx0SOC4QUeXQ0o07DTF",
-    "title": "Wayback Machine Downloader",
-    "members": 0,
-    "spaces": 1,
-    "createdAt": "2024-05-16T22:50:59.453Z"
-  },
-  {
-    "object": "team",
-    "id": "fcsyfPwY1Tq9mK2gMGJI",
-    "title": "Wikimapia",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-15T18:31:58.419Z"
-  },
-  {
-    "object": "team",
-    "id": "gE1VPYMqoTq72XOurP8q",
-    "title": "List of business registers",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-18T14:16:49.694Z"
-  },
-  {
-    "object": "team",
-    "id": "gEvfHXM7cqAbmeQEjMYn",
-    "title": "Who posted what?",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-13T20:35:52.344Z"
-  },
-  {
-    "object": "team",
-    "id": "gLdv6Iq6LaNBYpGwddIo",
-    "title": "Telegram Phone Number Checker",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-06-06T15:26:28.461Z"
-  },
-  {
-    "object": "team",
-    "id": "gaAMCsBsB3TleTGAkCP3",
-    "title": "OCCRP Aleph",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-29T02:37:23.594Z"
-  },
-  {
-    "object": "team",
-    "id": "gvpkTOMhvBTditbMnFwW",
-    "title": "Geogramint",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-07T12:43:50.319Z"
-  },
-  {
-    "object": "team",
-    "id": "hYyodkGfY1E8JPz9yLOB",
-    "title": "Distill",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-07-25T13:33:39.573Z"
-  },
-  {
-    "object": "team",
-    "id": "hcFVrsFUr0C8yaVQozrf",
-    "title": "InVID",
-    "members": 3,
-    "spaces": 1,
-    "createdAt": "2024-04-10T22:26:12.774Z"
-  },
-  {
-    "object": "team",
-    "id": "hnDeMUlqJ4eb3PbgI5WH",
-    "title": "Google Earth Engine",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-03-30T03:26:31.827Z"
-  },
-  {
-    "object": "team",
-    "id": "iTardhauobsC0JUxMi0A",
-    "title": "Neo4j",
-    "members": 1,
-    "spaces": 0,
-    "createdAt": "2024-05-05T00:51:32.343Z"
-  },
-  {
-    "object": "team",
-    "id": "iiwandq96eYFPR4117eX",
-    "title": "Hunchly",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-03T19:20:31.078Z"
-  },
-  {
-    "object": "team",
-    "id": "jN1LDab8zZ8eJZDVysHk",
-    "title": "Satellite Tracker 3D",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-08-01T18:20:13.536Z"
-  },
-  {
-    "object": "team",
-    "id": "jThJHDOkDd0vLPQ1ykyh",
-    "title": "Here WeGo",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-30T21:38:25.575Z"
-  },
-  {
-    "object": "team",
-    "id": "ja6CoGxrqTxQ1CSfqavJ",
-    "title": "Obsidian",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-11T01:15:26.561Z"
-  },
-  {
-    "object": "team",
-    "id": "k07DU1JPJflzBJ5mMgQR",
-    "title": "Gephi",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-09T21:29:50.112Z"
-  },
-  {
-    "object": "team",
-    "id": "kQfZsheCyDBdgXjWLqdG",
-    "title": "Meta Ad Library",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-09T23:08:27.245Z"
-  },
-  {
-    "object": "team",
-    "id": "kRuYhpKMfjCoE2Y7SVM3",
-    "title": "TikTok-Api",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-03T22:32:37.972Z"
-  },
-  {
-    "object": "team",
-    "id": "kgcBt9egTcL3zM0ClV3C",
-    "title": "ICANN Lookup",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-04T08:56:37.355Z"
-  },
-  {
-    "object": "team",
-    "id": "kjQQe1ga4fClcr486hjg",
-    "title": "Geograph Worldwide",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-08-28T17:24:56.523Z"
-  },
-  {
-    "object": "team",
-    "id": "kjZICPRGBB10OUqGgKfE",
-    "title": "Tool Page Reviewers",
-    "members": 2,
-    "spaces": 0,
-    "createdAt": "2024-09-26T12:53:38.955Z"
-  },
-  {
-    "object": "team",
-    "id": "km5QU4kVDKLwCHRwhAyI",
-    "title": "Lumen",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-07T23:51:15.260Z"
-  },
-  {
-    "object": "team",
-    "id": "l9tWPBRFEhRj7KmYTZY0",
-    "title": "Earth Online",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-03-30T03:32:23.524Z"
-  },
-  {
-    "object": "team",
-    "id": "lfN2Gp2qghyAEPoe43Xo",
-    "title": "Twitter Advanced Search",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-06-20T11:21:51.687Z"
-  },
-  {
-    "object": "team",
-    "id": "mNVGbqSRXVjbzoEKNzMh",
-    "title": "Snap Political Ads Library",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-09T23:04:13.277Z"
-  },
-  {
-    "object": "team",
-    "id": "mzHNezhbxIFYq7rPd5Nr",
-    "title": "ImportYeti",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-18T13:26:32.860Z"
-  },
-  {
-    "object": "team",
-    "id": "nHHmg3frFFmY6eqWO1fz",
-    "title": "GeoHints",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-07T12:16:46.910Z"
-  },
-  {
-    "object": "team",
-    "id": "nOVJpjZ69hF01fB4zPTu",
-    "title": "FleetMon",
-    "members": 1,
-    "spaces": 0,
-    "createdAt": "2024-04-24T21:14:27.356Z"
-  },
-  {
-    "object": "team",
-    "id": "oLQ2yfNyzkWM75GxEbl8",
-    "title": "ExifTool",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-10T22:42:37.417Z"
-  },
-  {
-    "object": "team",
-    "id": "obmuCHSA703OTW1EKGlS",
-    "title": "Breadcrumbs",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-11T01:44:05.830Z"
-  },
-  {
-    "object": "team",
-    "id": "on97fn4oZRNgiktCENVI",
-    "title": "Yaddnet",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-30T17:38:26.185Z"
-  },
-  {
-    "object": "team",
-    "id": "oo8veHKxXJhWYMRQilJR",
-    "title": "Chainabuse",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-11T01:38:01.658Z"
-  },
-  {
-    "object": "team",
-    "id": "ot4yYYD5qY0Qsr5ecaSI",
-    "title": "Planet Labs",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-08-23T12:57:44.080Z"
-  },
-  {
-    "object": "team",
-    "id": "p7viftmZmbCBEiwc7tzw",
-    "title": "RuPEP",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-18T14:01:35.846Z"
-  },
-  {
-    "object": "team",
-    "id": "pdB2piUZHncsLmoytVeG",
-    "title": "OSINT tools map",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-25T14:50:18.910Z"
-  },
-  {
-    "object": "team",
-    "id": "pvw2yDoNwqTqxmnbofdi",
-    "title": "Overpass Turbo",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-03-30T03:23:56.459Z"
-  },
-  {
-    "object": "team",
-    "id": "q0lducPQ8PMXRr6giHsl",
-    "title": "OrbTrack",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-22T19:24:36.424Z"
-  },
-  {
-    "object": "team",
-    "id": "q8slDSdk3Lz8y6Vbai9i",
-    "title": "Picuki",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-27T16:32:54.868Z"
-  },
-  {
-    "object": "team",
-    "id": "qAfElmJF0uQu6KtX4HGF",
-    "title": "DeHashed",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-04T08:27:39.275Z"
-  },
-  {
-    "object": "team",
-    "id": "qECfYkYiA1VXbSIj2xS1",
-    "title": "Have I Been Pwned",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-03-30T01:52:59.820Z"
-  },
-  {
-    "object": "team",
-    "id": "qOXHGrWIbTxBJYj61yKV",
-    "title": "KakaoMap",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-24T20:03:02.074Z"
-  },
-  {
-    "object": "team",
-    "id": "qyEuFDkIYPVmpaPvfUqS",
-    "title": "ADS-B Exchange",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-10T22:37:34.315Z"
-  },
-  {
-    "object": "team",
-    "id": "r2FtSNwQBbujdRZHTPwh",
-    "title": "MapSwitcher",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-02T00:54:31.985Z"
-  },
-  {
-    "object": "team",
-    "id": "rtJJwNx8aRHdBMtQYE11",
-    "title": "Apple Maps",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-09T22:28:28.522Z"
-  },
-  {
-    "object": "team",
-    "id": "sHhA1ItNgU4qIEJuXGcc",
-    "title": "F4map",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-04T22:25:14.729Z"
-  },
-  {
-    "object": "team",
-    "id": "sU5gh0YCMq45UZpPVufz",
-    "title": "Airbus OneAtlas",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-08-23T13:10:19.459Z"
-  },
-  {
-    "object": "team",
-    "id": "sWPgvSmJC29rogZQZIMX",
-    "title": "VesselFinder",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-24T21:01:06.890Z"
-  },
-  {
-    "object": "team",
-    "id": "tG4a7jdDPpOwxdc9CaCb",
-    "title": "Index Database",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-03-30T03:08:28.670Z"
-  },
-  {
-    "object": "team",
-    "id": "tiAwoj3vsv592l6twNFs",
-    "title": "Archive.today",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-12T20:19:06.156Z"
-  },
-  {
-    "object": "team",
-    "id": "uKGLEc6sx6Nc7O5imlpi",
-    "title": "Instagram Location Search",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-06-10T18:45:16.883Z"
-  },
-  {
-    "object": "team",
-    "id": "uNslLW9ZAfJeHpHtYP2t",
-    "title": "Search4Faces",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-08T00:11:15.411Z"
-  },
-  {
-    "object": "team",
-    "id": "uS6B43ZKCy654447MlQG",
-    "title": "Global Forest Watch",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-03-28T20:35:27.377Z"
-  },
-  {
-    "object": "team",
-    "id": "uZIiBGgu62y46Iczj5EQ",
-    "title": "Azure AI Video Indexer",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-20T17:15:35.574Z"
-  },
-  {
-    "object": "team",
-    "id": "v3lRzvVO7kWhe4tNN6Na",
-    "title": "Namechk",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-08-28T17:12:50.144Z"
-  },
-  {
-    "object": "team",
-    "id": "vQ3hVuDJhkhTmLErta1A",
-    "title": "Hitta.se",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-22T13:31:06.272Z"
-  },
-  {
-    "object": "team",
-    "id": "vqmLoGjOqX7I4VWTNhay",
-    "title": "Snscrape",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-03T22:24:47.604Z"
-  },
-  {
-    "object": "team",
-    "id": "w27MunK3CpygPB13FX4w",
-    "title": "Sentinel Hub Playground",
-    "members": 3,
-    "spaces": 1,
-    "createdAt": "2024-03-30T03:13:24.693Z"
-  },
-  {
-    "object": "team",
-    "id": "wH4IymVBWsHfNTOYK7rO",
-    "title": "Geolocation Estimation",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-08-28T17:55:14.573Z"
-  },
-  {
-    "object": "team",
-    "id": "wRewugBtxP64pm22oRr2",
-    "title": "Datawrapper",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-06T16:14:05.998Z"
-  },
-  {
-    "object": "team",
-    "id": "wdf0oK7isXooLFpv5LYx",
-    "title": "Intelx.io",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-03-30T02:57:37.309Z"
-  },
-  {
-    "object": "team",
-    "id": "xTh1IpVL6Kh56nOJ9kQ1",
-    "title": "NASA Firms",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-09T02:06:13.275Z"
-  },
-  {
-    "object": "team",
-    "id": "xVN55MzFEFpXTt0GZdq7",
-    "title": "Bulletpicker.com",
-    "members": 2,
-    "spaces": 1,
-    "createdAt": "2024-04-03T23:17:12.966Z"
-  },
-  {
-    "object": "team",
-    "id": "y2iyZKxyTohSBZZl7ftA",
-    "title": "Google Lens",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-09-04T08:40:08.803Z"
-  },
-  {
-    "object": "team",
-    "id": "yCQoip34htBY09MbCHVG",
-    "title": "ACLED",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-05-08T01:28:15.900Z"
-  },
-  {
-    "object": "team",
-    "id": "yPJc3AniWUiqSD1eMu2D",
-    "title": "Tencent Maps",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-04-21T19:56:08.344Z"
-  },
-  {
-    "object": "team",
-    "id": "yQs4xQIGDTJRFxMypd8S",
-    "title": "Truecaller",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-06-06T15:17:40.594Z"
-  },
-  {
-    "object": "team",
-    "id": "zaT3T2l0W5M1NHTinqUd",
-    "title": "PeakVisor",
-    "members": 1,
-    "spaces": 1,
-    "createdAt": "2024-03-28T16:53:42.448Z"
-  },
-  {
-    "object": "team",
-    "id": "RTpFFg9nualKkXZAq6sZ",
-    "title": "Open Ownership",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-10-21T08:37:30.324Z"
-  },
-  {
-    "object": "team",
-    "id": "xsa1bEWGINGp6TZfHc3P",
-    "title": "Open Infrastructure Map",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-10-22T09:21:58.081Z"
-  },
-  {
-    "object": "team",
-    "id": "XXXdtHrYbQ4I5AXAlmE8",
-    "title": "UTM Grid Zones",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-10-22T09:28:08.389Z"
-  },
-  {
-    "object": "team",
-    "id": "e0Z616xNxcf912yd6hWK",
-    "title": "what3words",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-10-22T09:32:59.477Z"
-  },
-  {
-    "object": "team",
-    "id": "gi9MlDY9Iznb0Sy2i7L4",
-    "title": "Soar",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-10-22T09:38:03.320Z"
-  },
-  {
-    "object": "team",
-    "id": "ZfoOjf5cPTs40RiaBMD3",
-    "title": "Wikipedia list of registers",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-10-22T10:19:13.866Z"
-  },
-  {
-    "object": "team",
-    "id": "DeEvP3pHgZ8XzGktRLdl",
-    "title": "European e-Justice portal",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-10-31T13:17:27.703Z"
-  },
-  {
-    "object": "team",
-    "id": "6P3eyKXCZp7msWScFBWU",
-    "title": "Search by Image",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-11-07T21:25:17.118Z"
-  },
-  {
-    "object": "team",
-    "id": "kJ88BvGDy9UUAtzuVeEw",
-    "title": "Discord Chat Exporter",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-11-08T10:19:43.329Z"
-  },
-  {
-    "object": "team",
-    "id": "r93QonF0xpnm7aQv1Bbu",
-    "title": "Maigret",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-11-08T10:29:49.474Z"
-  },
-  {
-    "object": "team",
-    "id": "qFKnbwlm1S6nlP206CX6",
-    "title": "UN Comtrade Database",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-11-08T10:43:46.964Z"
-  },
-  {
-    "object": "team",
-    "id": "GYVOTTncF9EWIJWrZTHs",
-    "title": "SkyFi",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-11-08T20:42:34.570Z"
-  },
-  {
-    "object": "team",
-    "id": "KHbGN22AC7iMnxPPqgkv",
-    "title": "Global Suppliers Online",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-11-08T20:55:04.559Z"
-  },
-  {
-    "object": "team",
-    "id": "Pk2hBGs266ohp1aoBwwp",
-    "title": "CITES Trade Database",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-11-08T21:06:01.184Z"
-  },
-  {
-    "object": "team",
-    "id": "LMNWO26RMd29A2Q7LyEr",
-    "title": "Wildlife Trade Portal",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-11-16T20:09:13.417Z"
-  },
-  {
-    "object": "team",
-    "id": "i0v7SNDz4gx92KBYeLNE",
-    "title": "EU consolidated corporate registers",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-11-21T19:21:26.310Z"
-  },
-  {
-    "object": "team",
-    "id": "irsem9FAqebD8m2CiqmT",
-    "title": "Aqueduct Water Risk Atlas",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-11-26T13:30:42.382Z"
-  },
-  {
-    "object": "team",
-    "id": "sVebI4QbSc2jYpa4er4t",
-    "title": "Submarine Cable Map",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-11-26T13:43:54.637Z"
-  },
-  {
-    "object": "team",
-    "id": "2dJgD2tFWU6QlcrL3c8W",
-    "title": "WildEye",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-11-26T13:58:52.873Z"
-  },
-  {
-    "object": "team",
-    "id": "p6GoNsly9umUbGuY9QXk",
-    "title": "Global Monitoring System",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-11-26T17:39:02.684Z"
-  },
-  {
-    "object": "team",
     "id": "06swGWg7EFlQL1nA00R7",
     "title": "ImageJ",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-11-26T18:26:28.911Z"
-  },
-  {
-    "object": "team",
-    "id": "xzupqUl1PlV0NfmmoPO0",
-    "title": "Web Archives",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-11-26T18:38:08.138Z"
-  },
-  {
-    "object": "team",
-    "id": "IGM0RF56xVCvSp6gKkHY",
-    "title": "Leak-Lookup",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-12-02T21:14:17.252Z"
-  },
-  {
-    "object": "team",
-    "id": "xDokGE8GKQlhstElfKdU",
-    "title": "Telemetry",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-12-03T11:35:43.604Z"
-  },
-  {
-    "object": "team",
-    "id": "8RjWftpyVr4MXkwUrS4n",
-    "title": "NeutrOSINT",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-12-03T12:25:01.392Z"
-  },
-  {
-    "object": "team",
-    "id": "1kUyQJjtvIezWVEGL3RE",
-    "title": "xIFr",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-12-03T12:36:13.267Z"
-  },
-  {
-    "object": "team",
-    "id": "JJKTX4fiB34A0vsvhLqq",
-    "title": "Airfleets",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-12-03T14:08:24.330Z"
-  },
-  {
-    "object": "team",
-    "id": "WRKvT0cin4s7I3lWs6vk",
-    "title": "License Plate Maps",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-12-03T14:30:01.893Z"
-  },
-  {
-    "object": "team",
-    "id": "N59Z0I9Th32p3RJMWuVF",
-    "title": "TrueMedia",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-12-03T14:40:46.160Z"
-  },
-  {
-    "object": "team",
-    "id": "naHxaByTMyek4Txop5PV",
-    "title": "BskyThreadReader",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-12-10T19:15:51.497Z"
-  },
-  {
-    "object": "team",
-    "id": "rVJyrTbpOwtSPXwA0khd",
-    "title": "Bluesky Insights",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-12-10T19:41:34.484Z"
-  },
-  {
-    "object": "team",
-    "id": "cX1GGXRelr4aZwb5rnD3",
-    "title": "Bluesky network analyzer",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-12-10T19:48:29.555Z"
-  },
-  {
-    "object": "team",
-    "id": "qOa7ubJWfvMRXMETXPwS",
-    "title": "RootAbout",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-12-11T10:32:22.030Z"
-  },
-  {
-    "object": "team",
-    "id": "UfnR3YFJ4kagRo7pUZUy",
-    "title": "Landviewer",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-12-13T17:57:05.022Z"
-  },
-  {
-    "object": "team",
-    "id": "kicynfcUVwCL30B7EQYY",
-    "title": "Image Verification Assistant",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-12-13T18:02:40.581Z"
-  },
-  {
-    "object": "team",
-    "id": "WGQZyDgwgzAnh4mHPTET",
-    "title": "PimEyes",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2024-12-13T18:12:32.154Z"
-  },
-  {
-    "object": "team",
-    "id": "KaT19XBc0jNEOODPh1cQ",
-    "title": "Spot",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-01-14T11:02:41.075Z"
-  },
-  {
-    "object": "team",
-    "id": "7QWvSj97eQQeBJfQVBMS",
-    "title": "Atlos",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-01-27T18:05:13.624Z"
-  },
-  {
-    "object": "team",
-    "id": "wBnWjywwMNbs8J838vkb",
-    "title": "Insecam",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-02-24T13:27:28.215Z"
-  },
-  {
-    "object": "team",
-    "id": "ANqiWabh9zyBKOeKOOOC",
-    "title": "Icarus Flights",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-03-04T14:37:05.789Z"
-  },
-  {
-    "object": "team",
-    "id": "BC6xSEunw5Xmx1di7FU0",
-    "title": "Airframes",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-03-04T14:48:26.330Z"
-  },
-  {
-    "object": "team",
-    "id": "y1oJT2QjS3pNpL6TwF87",
-    "title": "SnapIntel",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-03-12T18:44:47.584Z"
-  },
-  {
-    "object": "team",
-    "id": "OOEEH4wS8pR69aOgiq3q",
-    "title": "EU Sanctions Map",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-03-12T20:05:15.628Z"
-  },
-  {
-    "object": "team",
-    "id": "1IjEK6yCc7YS1cFO3cko",
-    "title": "RedditMetis",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-03-12T20:25:51.440Z"
-  },
-  {
-    "object": "team",
-    "id": "QENolOl0gFNbxwjNp6qW",
-    "title": "Linkdtime",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-03-12T20:52:12.754Z"
-  },
-  {
-    "object": "team",
-    "id": "q4cfFzTBrHFz1oPt743G",
-    "title": "Hiya Deepfake Voice Detector",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-03-12T21:03:17.986Z"
-  },
-  {
-    "object": "team",
-    "id": "6BjKPGSr1VSeqUPXcQ63",
-    "title": "Gaode Maps",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-03-13T10:21:15.238Z"
-  },
-  {
-    "object": "team",
-    "id": "6sIyHWz6goMkUrguXPLd",
-    "title": "Merlin",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-03-26T10:29:25.369Z"
-  },
-  {
-    "object": "team",
-    "id": "ESEZ0mkx3P9maRSIDEuU",
-    "title": "Zeeschuimer",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-04-16T18:30:46.036Z"
-  },
-  {
-    "object": "team",
-    "id": "FJZqsXgSGKbZV4WfqxN9",
-    "title": "Streamwall",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-04-16T18:41:45.307Z"
-  },
-  {
-    "object": "team",
-    "id": "gZXAxCst965Dg8tWLrMS",
-    "title": "NotebookLM",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-05-05T18:23:46.416Z",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-11-26T18:26:28.911Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -1973,11 +13,203 @@
   },
   {
     "object": "team",
-    "id": "RSdT37j5sGF8slFdeIfY",
-    "title": "Environmental Justice Atlas",
+    "id": "0PwHSqQV7tXnrA7Ij7Pp",
+    "title": "ImportGenius",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-09-18T13:36:14.445Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "0T83IjoTIanEJdEIByVy",
+    "title": "Yandex Maps",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T02:08:20.872Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "0rFcKiHkKLeRlObSg98K",
+    "title": "Zotero",
+    "members": 3,
+    "spaces": 1,
+    "createdAt": "2024-04-10T22:13:36.518Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "1IjEK6yCc7YS1cFO3cko",
+    "title": "RedditMetis",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-03-12T20:25:51.440Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "1NxHFSua4liHutC1l9ja",
+    "title": "MW Geofind",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-05T02:16:25.333Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "1eJW2AXNGRwSTqdVvdwq",
+    "title": "Whoxy",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-09-25T13:56:12.578Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "1kUyQJjtvIezWVEGL3RE",
+    "title": "xIFr",
     "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-05-05T18:38:05.045Z",
+    "spaces": 1,
+    "createdAt": "2024-12-03T12:36:13.267Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "29CvCrZ78xkqFDSib3xg",
+    "title": "North Data",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-05-07T23:35:43.460Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "2DQyv3wwZw29SjQm2ax0",
+    "title": "Apollo Mapping",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-08-23T13:28:22.796Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "2DcCOhDpkdqMUa8YTjrA",
+    "title": "WaTools",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-05-08T00:00:48.853Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "2KzzlDtilRcwg1LZM5MC",
+    "title": "PixPlot",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T22:21:37.096Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "2TRqpLKifDzBb5veZopj",
+    "title": "Spectrum Analyzer",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-08-01T18:43:53.231Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "2YeGGqIgpqVRMXBxpymo",
+    "title": "Hugin",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-22T19:33:44.766Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "2dJgD2tFWU6QlcrL3c8W",
+    "title": "WildEye",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-11-26T13:58:52.873Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "4IAEgMH03a5Rbwb3tcKw",
+    "title": "Earth Explorer",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-03-28T20:55:47.371Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "4VBXZE0hBFN60tpJZHDf",
+    "title": "Maltego",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T01:30:44.447Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "4vVlgEvbg8nktJVtaCkY",
+    "title": "The Information Laundromat",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-09-20T17:26:01.839Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -1987,8 +219,8 @@
     "object": "team",
     "id": "597Xgmubp9MJu1c8BkkZ",
     "title": "EIA Global Environmental Crime Tracker",
-    "members": 0,
-    "spaces": 0,
+    "members": 1,
+    "spaces": 1,
     "createdAt": "2025-05-05T18:46:21.628Z",
     "permissions": {
       "admin": true,
@@ -1997,11 +229,11 @@
   },
   {
     "object": "team",
-    "id": "B7jn77g4RKTiFYXe3DNR",
-    "title": "National Interagency Fire Center",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-05-05T19:39:39.651Z",
+    "id": "5PslDMNQW5Ayw4CCRqYV",
+    "title": "Umbra Space",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-08-23T13:04:09.352Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2009,11 +241,11 @@
   },
   {
     "object": "team",
-    "id": "OrUntr8Iy6QibBRcROTE",
-    "title": "OCRmyPDF",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-05-05T19:57:28.550Z",
+    "id": "5qTFA148VnV46jTVaOpz",
+    "title": "Mapillary",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T19:37:00.829Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2021,11 +253,131 @@
   },
   {
     "object": "team",
-    "id": "wsIf3vnIYnZ5tRA5PKIE",
-    "title": "Amazon Rekognition",
-    "members": 0,
+    "id": "5zUrHyQWEPSwvCqkjgFc",
+    "title": "527 Explorer",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-07-16T18:22:22.492Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "673acxHl77pNIxr5Oy4Z",
+    "title": "On-Chain-Investigations-Tools-List",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-11T01:52:34.559Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "67920Ip9FpnQzVMF4TLU",
+    "title": "WolframAlpha",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-08-23T13:39:13.851Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "6BjKPGSr1VSeqUPXcQ63",
+    "title": "Gaode Maps",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-03-13T10:21:15.238Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "6Ix9Gnl6wWDfwHVzL9J7",
+    "title": "Environment & Wildlife Guardians",
+    "members": 1,
     "spaces": 0,
-    "createdAt": "2025-06-03T09:38:01.659Z",
+    "createdAt": "2025-05-07T14:44:54.405Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "6IxTzUc51ZlxHoHQCRQO",
+    "title": "Global Fishing Watch Map",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-02T00:57:03.110Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "6K1dO9Pue24EEssS8WQQ",
+    "title": "RAWGraphs",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-05-05T01:03:07.470Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "6P3eyKXCZp7msWScFBWU",
+    "title": "Search by Image",
+    "members": 0,
+    "spaces": 1,
+    "createdAt": "2024-11-07T21:25:17.118Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "6RIWbZ6uKR8m6kwje0s7",
+    "title": "Tool Page Maintainers",
+    "members": 7,
+    "spaces": 1,
+    "createdAt": "2024-03-05T14:43:16.105Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "6f5jTlHcXfxZDhtZUJMl",
+    "title": "Shadow Finder",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-06-07T11:00:55.623Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "6mOJJOXfhfgGZo664on5",
+    "title": "Open Measures",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-21T19:11:50.331Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2035,8 +387,8 @@
     "object": "team",
     "id": "6pZKyFN4xEWOTiDP2dQJ",
     "title": "FastPeopleSearch",
-    "members": 0,
-    "spaces": 0,
+    "members": 1,
+    "spaces": 1,
     "createdAt": "2025-06-03T10:00:24.271Z",
     "permissions": {
       "admin": true,
@@ -2045,59 +397,11 @@
   },
   {
     "object": "team",
-    "id": "uU1XlFMRojLMJ83qfHZO",
-    "title": "Wind & Particulate Map",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-03T10:12:55.762Z",
-    "permissions": {
-      "admin": true,
-      "view": true
-    }
-  },
-  {
-    "object": "team",
-    "id": "HXDOX3RcizLd4YDd8M0n",
-    "title": "River Runner Global",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-03T10:21:37.693Z",
-    "permissions": {
-      "admin": true,
-      "view": true
-    }
-  },
-  {
-    "object": "team",
-    "id": "Ml9SyMwpZ8ckRmApG2yr",
-    "title": "WHOIS History",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-03T10:54:29.966Z",
-    "permissions": {
-      "admin": true,
-      "view": true
-    }
-  },
-  {
-    "object": "team",
-    "id": "OyiLdXxZCL0FI2GoIrJN",
-    "title": "IDN Checker",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-03T11:03:01.656Z",
-    "permissions": {
-      "admin": true,
-      "view": true
-    }
-  },
-  {
-    "object": "team",
-    "id": "aL8hZBCuPnCp7oFk1WKM",
-    "title": "DNS History",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-03T11:12:53.726Z",
+    "id": "6sIyHWz6goMkUrguXPLd",
+    "title": "Merlin",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-03-26T10:29:25.369Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2107,8 +411,8 @@
     "object": "team",
     "id": "7AREPoMY0Hl1mGcXlZUu",
     "title": "Geo Data Tool",
-    "members": 0,
-    "spaces": 0,
+    "members": 1,
+    "spaces": 1,
     "createdAt": "2025-06-03T11:20:36.612Z",
     "permissions": {
       "admin": true,
@@ -2117,11 +421,11 @@
   },
   {
     "object": "team",
-    "id": "Mz6IjmFyuBXSxm0SOKCV",
-    "title": "Moz Link Explorer",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-03T11:31:13.824Z",
+    "id": "7CIimXXsTRsTaINza5uH",
+    "title": "4plebs",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-21T19:45:07.613Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2129,11 +433,251 @@
   },
   {
     "object": "team",
-    "id": "pVgb8MBlNVarDh4lqCnC",
-    "title": "Face Comparison ToolPie",
+    "id": "7QWvSj97eQQeBJfQVBMS",
+    "title": "Atlos",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-01-27T18:05:13.624Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "7lozgpwin8JYBdV8K0LV",
+    "title": "Strava",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-06-07T11:12:01.169Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "8RjWftpyVr4MXkwUrS4n",
+    "title": "NeutrOSINT",
+    "members": 0,
+    "spaces": 1,
+    "createdAt": "2024-12-03T12:25:01.392Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "8i0KGxq98FcJZ4F8crIH",
+    "title": "Ghunt",
+    "members": 0,
+    "spaces": 1,
+    "createdAt": "2024-06-12T21:27:05.855Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "8lVi1NvhLj3UbD5FLvg4",
+    "title": "Twitter Location Search",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-06-20T11:24:32.360Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "92K6IjqvPOHCHsh2e3WX",
+    "title": "OpenCorporates",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-29T02:45:46.758Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "95u2aFt4fHwcbyhuHL1A",
+    "title": "Google Flood Hub",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-09-25T13:42:00.864Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "9F2YvQu4QzjwbbAC28mM",
+    "title": "Ethtective",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-11T01:47:12.046Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "A8t4Dy3lYrPa8xQSaIJ6",
+    "title": "Blockchain.com Explorer",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-11T01:19:55.350Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "ACPjFhPdIqIdxD4H6uWt",
+    "title": "NASA Worldview",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-24T20:56:00.552Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "ADSsNkrZlEFpFCxQDZHI",
+    "title": "People Guardians",
+    "members": 1,
+    "spaces": 0,
+    "createdAt": "2025-05-07T14:43:32.223Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "AKlJ5ZH3Gfj7kX4GqNpI",
+    "title": "GovMap",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T20:52:06.955Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "ANqiWabh9zyBKOeKOOOC",
+    "title": "Icarus Flights",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-03-04T14:37:05.789Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "ATcWKiSNULboq4junUjo",
+    "title": "Uwazi",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-08-13T17:52:47.684Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "Aw5CbCjMx3Voc1FwmWl1",
+    "title": "Companies House",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-09-18T11:32:37.079Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "Ax1mKKSv2d13nA1wg2Ul",
+    "title": "Blackbird",
+    "members": 0,
+    "spaces": 1,
+    "createdAt": "2024-06-04T01:28:01.781Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "B7jn77g4RKTiFYXe3DNR",
+    "title": "National Interagency Fire Center",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-05-05T19:39:39.651Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "BC6xSEunw5Xmx1di7FU0",
+    "title": "Airframes",
     "members": 0,
     "spaces": 0,
-    "createdAt": "2025-06-03T11:42:09.276Z",
+    "createdAt": "2025-03-04T14:48:26.330Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "BGHvP82JnMOIWuz85eIz",
+    "title": "WalletExplorer.com",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-11T01:24:27.105Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "BIUoe6he9kR5yLgRHtuR",
+    "title": "Chronotrains",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-06-06T16:03:08.174Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "Bs75ftG9ExvdyIGql2jP",
+    "title": "Internet Archive",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-21T19:28:05.715Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2143,8 +687,8 @@
     "object": "team",
     "id": "C2EnuZLtv8wORHGYOJYA",
     "title": "Judyrecords",
-    "members": 0,
-    "spaces": 0,
+    "members": 1,
+    "spaces": 1,
     "createdAt": "2025-06-03T11:50:27.505Z",
     "permissions": {
       "admin": true,
@@ -2153,11 +697,11 @@
   },
   {
     "object": "team",
-    "id": "iZrCSpXbu0P2556ZZNvH",
-    "title": "Anytype",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-03T11:57:30.264Z",
+    "id": "CFYUGYWygZlitG8diIea",
+    "title": "ThatsThem",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-07T17:11:55.410Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2165,11 +709,11 @@
   },
   {
     "object": "team",
-    "id": "mL0hNsdDomLvyThuIPKu",
-    "title": "BirdNet",
+    "id": "CGsVgmzdRVdAFksaskkB",
+    "title": "Sherlock",
     "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-04T12:00:56.586Z",
+    "spaces": 1,
+    "createdAt": "2024-06-04T01:19:11.998Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2177,11 +721,11 @@
   },
   {
     "object": "team",
-    "id": "sliq1Huxo1NVhkXsV4g0",
-    "title": "Copernicus Atmosphere Monitoring Service",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-04T12:15:29.366Z",
+    "id": "CWVB6Qz9veUBIzHmIif0",
+    "title": "Open Source Munitions Portal",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T23:06:38.988Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2189,11 +733,11 @@
   },
   {
     "object": "team",
-    "id": "aTFXDJKywgPN0A6j8peV",
-    "title": "Movebank",
+    "id": "CZqJdanuhaFdf01Y27hr",
+    "title": "Explosive Ordnance Identification Resources",
     "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-04T12:23:58.667Z",
+    "spaces": 1,
+    "createdAt": "2024-07-25T13:24:51.198Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2201,11 +745,35 @@
   },
   {
     "object": "team",
-    "id": "s9Kl5BnuQ9OJp6hsBpMJ",
-    "title": "WildMe & WildBook",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-04T12:32:47.302Z",
+    "id": "CdfRNd5fqn7uQMIvqlzw",
+    "title": "Maritime Awareness Project",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-06-06T19:00:20.026Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "ChWvBysPz3HcQOzyC2WM",
+    "title": "Convert Geographic Units",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-08-28T16:46:52.258Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "CpkiJcvv67M4DOFHWwTr",
+    "title": "Resource Watch",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-09T15:33:06.695Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2216,7 +784,7 @@
     "id": "DDTn78UDsvv7BM1C8vTs",
     "title": "World Database Protected Areas",
     "members": 0,
-    "spaces": 0,
+    "spaces": 1,
     "createdAt": "2025-06-04T12:41:01.293Z",
     "permissions": {
       "admin": true,
@@ -2225,11 +793,11 @@
   },
   {
     "object": "team",
-    "id": "QrfPqtMQNQwwiGfSc025",
-    "title": "FOIA requests search tools",
+    "id": "DWvyU5ehpP3NmRVLTzl6",
+    "title": "Panjiva",
     "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-07T16:46:57.403Z",
+    "spaces": 1,
+    "createdAt": "2024-09-18T13:31:47.310Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2237,11 +805,11 @@
   },
   {
     "object": "team",
-    "id": "b4oq4RX89Pi7MK2BcIYE",
-    "title": "Webmii",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-07T17:01:55.666Z",
+    "id": "Dj2ySu25JWGUoI0PFIPE",
+    "title": "Telegram Group Joiner",
+    "members": 3,
+    "spaces": 1,
+    "createdAt": "2024-04-09T21:19:40.200Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2249,11 +817,11 @@
   },
   {
     "object": "team",
-    "id": "CFYUGYWygZlitG8diIea",
-    "title": "ThatsThem",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-07T17:11:55.410Z",
+    "id": "Dk8b7EMi1lDn1AAI1vXc",
+    "title": "WhatsMyName",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T01:59:15.198Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2261,11 +829,11 @@
   },
   {
     "object": "team",
-    "id": "fAYZjYAk61vy9NiRWdwJ",
-    "title": "Nuwber",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-07T17:20:05.884Z",
+    "id": "ESEZ0mkx3P9maRSIDEuU",
+    "title": "Zeeschuimer",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-04-16T18:30:46.036Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2273,11 +841,11 @@
   },
   {
     "object": "team",
-    "id": "CpkiJcvv67M4DOFHWwTr",
-    "title": "Resource Watch",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-09T15:33:06.695Z",
+    "id": "EdgEMmqsjSLDZkrOIuan",
+    "title": "PublicWWW",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-30T10:39:56.498Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2287,9 +855,729 @@
     "object": "team",
     "id": "ErNjYgvO3JqJL7R0VPwD",
     "title": "Social Searcher",
-    "members": 0,
-    "spaces": 0,
+    "members": 1,
+    "spaces": 1,
     "createdAt": "2025-06-10T15:12:13.409Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "Ewcw1WySJgIw3kbplvux",
+    "title": "Radar Interference Tracker",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-07-25T14:51:50.338Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "FJZqsXgSGKbZV4WfqxN9",
+    "title": "Streamwall",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-04-16T18:41:45.307Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "FTQeEdNHW9crCfaH7g6q",
+    "title": "CAT-UXO",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T23:13:30.450Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "Fj6deP4zeQuAwNt3CCGv",
+    "title": "Satellites.pro",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T00:13:01.240Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "FjELTrFVzBsg2ktE3wKZ",
+    "title": "Auto Archiver",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-07-25T17:43:23.232Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "FwLN5P6E46ih6W8OyV4m",
+    "title": "Instant Data Scraper",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-08-01T18:54:39.566Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "GFiibfFLvdsZgaeZRavJ",
+    "title": "KartaView",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-04T23:27:54.555Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "GWOMNMyp7AsLtwXXgy0C",
+    "title": "QGIS",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T03:19:21.530Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "GYVOTTncF9EWIJWrZTHs",
+    "title": "SkyFi",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-11-08T20:42:34.570Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "Gq6aIv1VskG2kkRoPDnS",
+    "title": "Shodan",
+    "members": 0,
+    "spaces": 1,
+    "createdAt": "2024-08-24T11:03:42.526Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "H2GMs9xH4BD50ldFq227",
+    "title": "OpenSeaMap",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-06-06T15:34:56.827Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "HGauOmLZ0m8oOVac2zJe",
+    "title": "Datasette",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-05-08T00:58:06.833Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "HMXBhmG2xOjOYXYh0vdg",
+    "title": "EDGAR Suite",
+    "members": 3,
+    "spaces": 1,
+    "createdAt": "2024-03-28T20:15:13.421Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "HOECyMfazPSX7eymTjeS",
+    "title": "OpenStreetMap Search Tool",
+    "members": 3,
+    "spaces": 1,
+    "createdAt": "2024-04-03T19:34:50.033Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "HXDOX3RcizLd4YDd8M0n",
+    "title": "River Runner Global",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-03T10:21:37.693Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "HqOt7hrPSzzumHa1HrRh",
+    "title": "MyShipTracking",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-30T21:31:58.438Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "I33E8EM8Jr7n5LPOWEnW",
+    "title": "Linkedin Ad Library",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-09T23:13:48.246Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "I7Z6whWQ1HeSoZ04Y5T2",
+    "title": "Geolocation Guardians",
+    "members": 1,
+    "spaces": 0,
+    "createdAt": "2025-05-07T14:45:13.462Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "IGM0RF56xVCvSp6gKkHY",
+    "title": "Leak-Lookup",
+    "members": 0,
+    "spaces": 1,
+    "createdAt": "2024-12-02T21:14:17.252Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "II1djPdSwchBtHFKJKqf",
+    "title": "MapChecking",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-06-06T15:50:32.271Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "ILT1X2zpjtLfPnzWmfxm",
+    "title": "FlightAware",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-06-06T18:16:43.240Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "IODAVbsTiOGijYjV2Jcc",
+    "title": "Telepathy",
+    "members": 3,
+    "spaces": 1,
+    "createdAt": "2024-04-09T21:04:35.069Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "IgcGxRWQdJs4gfYXVLuJ",
+    "title": "FaceCheck.ID",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-09-04T08:51:39.190Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "IyHLPDO4d3mqvJoJo5Jn",
+    "title": "Snap Map",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-16T00:05:53.697Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "J8MF9MMHHIwnyF9olEA2",
+    "title": "AllTrails",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-06-12T21:33:33.287Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "JJ4zQYMPfIrMGlklT1y0",
+    "title": "Staff",
+    "members": 3,
+    "spaces": 0,
+    "createdAt": "2024-10-02T11:51:47.281Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "JJKTX4fiB34A0vsvhLqq",
+    "title": "Airfleets",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-12-03T14:08:24.330Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "JgVaKSupShRFR8RtF7vp",
+    "title": "Picarta",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-30T09:42:40.107Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "K5Sw1exVgYg5IMiOMKBG",
+    "title": "Deepfake-O-Meter",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T22:40:12.620Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "KHbGN22AC7iMnxPPqgkv",
+    "title": "Global Suppliers Online",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-11-08T20:55:04.559Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "KaT19XBc0jNEOODPh1cQ",
+    "title": "Spot",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2025-01-14T11:02:41.075Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "KjcLE0jsl9c7jNAxu2n6",
+    "title": "TGStat",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T01:21:47.471Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "KuTAv0thZ4rGlnLNZMSK",
+    "title": "Geospy.ai",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T23:25:29.850Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "LGXDI0ZyVVVCGpxn5sGt",
+    "title": "Websites Guardians",
+    "members": 1,
+    "spaces": 0,
+    "createdAt": "2025-05-07T14:44:07.926Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "LMNWO26RMd29A2Q7LyEr",
+    "title": "Wildlife Trade Portal",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-11-16T20:09:13.417Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "LXyMuXiNFof11xZ4QZYl",
+    "title": "Equasis",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-22T14:03:02.653Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "LbhIqQK6JKB8VcSxGc2x",
+    "title": "UNOSAT Analyses",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-08-26T20:14:10.151Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "LjZJByWZETDqOjgnuJzq",
+    "title": "Archiving Guardians",
+    "members": 1,
+    "spaces": 0,
+    "createdAt": "2025-05-07T14:42:28.394Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "M51aZzS78enpyWHOsq5T",
+    "title": "Quick geolocation search",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-09-20T17:02:36.852Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "Md5cviJLxdM0sUbIJcln",
+    "title": "Companies & Finance Guardians",
+    "members": 1,
+    "spaces": 0,
+    "createdAt": "2025-05-07T14:43:59.016Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "Ml9SyMwpZ8ckRmApG2yr",
+    "title": "WHOIS History",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-03T10:54:29.966Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "Mz6IjmFyuBXSxm0SOKCV",
+    "title": "Moz Link Explorer",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-03T11:31:13.824Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "N59Z0I9Th32p3RJMWuVF",
+    "title": "TrueMedia",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-12-03T14:40:46.160Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "NPTzlCI6I4WRxcso7gnS",
+    "title": "Meta Content Library and API",
+    "members": 3,
+    "spaces": 1,
+    "createdAt": "2024-04-09T21:15:33.227Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "NZRSMaVTAZ9DgMvwsdHj",
+    "title": "ShipFinder",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-24T21:07:52.804Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "NlxTA4dGfvz70u0oFWhF",
+    "title": "Hoaxy",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-06-07T11:29:26.064Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "OH8OpRyGcrMx3BH7jA4u",
+    "title": "Time.Graphics",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-05-04T22:40:16.182Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "OLWFgntaYt0C4GQp63C7",
+    "title": "MarineTraffic",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-24T20:25:13.967Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "OOEEH4wS8pR69aOgiq3q",
+    "title": "EU Sanctions Map",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-03-12T20:05:15.628Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "OUJnlfks7TYMB4yfyDLm",
+    "title": "Navtex",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-30T21:19:00.232Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "OczijvSUHlJiOXJUSoUk",
+    "title": "AutoStitch",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-08T00:43:38.882Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "OfTWzhh0KpoWvxdzTnky",
+    "title": "Pinpoint",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-10T23:10:29.236Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "Olhapig4RdhkSmB6tKfx",
+    "title": "TruffleHog",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-08-24T11:10:16.789Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "OrUntr8Iy6QibBRcROTE",
+    "title": "OCRmyPDF",
+    "members": 0,
+    "spaces": 1,
+    "createdAt": "2025-05-05T19:57:28.550Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "OyiLdXxZCL0FI2GoIrJN",
+    "title": "IDN Checker",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-03T11:03:01.656Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "PF7l1ZzcXlauK3c60FUG",
+    "title": "EDGAR",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-27T21:05:09.614Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "PMcD0hFOrRkT1zwHwQ5Q",
+    "title": "ShadeMap",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T02:01:08.551Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "PSmBTrrZuK8FchDeTJGX",
+    "title": "Fact Check Explorer",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-11T19:01:07.790Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "Pk2hBGs266ohp1aoBwwp",
+    "title": "CITES Trade Database",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-11-08T21:06:01.184Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "PniQ5d7sm3p1Xwhc8Cgk",
+    "title": "TikTok Ad Library",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-09T23:01:24.056Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2299,8 +1587,8 @@
     "object": "team",
     "id": "Q0ZTyPqeG7y99T2OgnNG",
     "title": "Tianyancha",
-    "members": 0,
-    "spaces": 0,
+    "members": 1,
+    "spaces": 1,
     "createdAt": "2025-06-12T09:17:07.897Z",
     "permissions": {
       "admin": true,
@@ -2311,8 +1599,8 @@
     "object": "team",
     "id": "Q163QrMgwIDMWtYPE1qy",
     "title": "Gongsi",
-    "members": 0,
-    "spaces": 0,
+    "members": 1,
+    "spaces": 1,
     "createdAt": "2025-06-20T17:07:04.836Z",
     "permissions": {
       "admin": true,
@@ -2321,11 +1609,11 @@
   },
   {
     "object": "team",
-    "id": "eT7C3nNnRXLmcpU0XjBx",
-    "title": "Mappy",
+    "id": "Q6Qv9XVEL3PiWluDm7SS",
+    "title": "DomainTools Whois Lookup",
     "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-23T12:08:48.268Z",
+    "spaces": 1,
+    "createdAt": "2024-06-12T08:43:58.860Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2333,11 +1621,11 @@
   },
   {
     "object": "team",
-    "id": "qLWOpBboiXCUQx6nnGLC",
-    "title": "Amazonia Socio Ambiental",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-23T12:16:30.801Z",
+    "id": "QAHyRrUPv6oiVtHuxpCj",
+    "title": "GPSJAM",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-06-06T19:23:24.702Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2345,11 +1633,11 @@
   },
   {
     "object": "team",
-    "id": "UsEsqav6zJfwHdIIVACl",
-    "title": "OpenStreetMap",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-23T12:23:08.153Z",
+    "id": "QENolOl0gFNbxwjNp6qW",
+    "title": "Linkdtime",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2025-03-12T20:52:12.754Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2357,11 +1645,11 @@
   },
   {
     "object": "team",
-    "id": "UlMoUZSz9YqQnw1Tj2an",
-    "title": "SnapSave",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-23T13:19:51.489Z",
+    "id": "QXpuD6pei7bBx1fEztgK",
+    "title": "Photo-Map.RU",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-06-06T18:34:55.175Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2369,11 +1657,11 @@
   },
   {
     "object": "team",
-    "id": "jlR55F9D5peOR0QaReOx",
-    "title": "Social Blade",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-06-23T13:27:54.771Z",
+    "id": "QrfPqtMQNQwwiGfSc025",
+    "title": "FOIA requests search tools",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-07T16:46:57.403Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2383,8 +1671,8 @@
     "object": "team",
     "id": "ROFmlAnJBLFnnOZTXkGM",
     "title": "Video Speed Controller",
-    "members": 0,
-    "spaces": 0,
+    "members": 1,
+    "spaces": 1,
     "createdAt": "2025-06-23T15:38:45.536Z",
     "permissions": {
       "admin": true,
@@ -2393,11 +1681,527 @@
   },
   {
     "object": "team",
-    "id": "JgVaKSupShRFR8RtF7vp",
-    "title": "Picarta",
+    "id": "RSdT37j5sGF8slFdeIfY",
+    "title": "Environmental Justice Atlas",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-05-05T18:38:05.045Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "RTpFFg9nualKkXZAq6sZ",
+    "title": "Open Ownership",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-10-21T08:37:30.324Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "Rr1BiYRUA7AxgrxRNJtA",
+    "title": "Transport Guardians",
+    "members": 1,
+    "spaces": 0,
+    "createdAt": "2025-05-07T14:44:43.501Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "SHDCVjUrFSw4WQGoJcso",
+    "title": "SanctionsExplorer",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-06-07T11:46:22.556Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "SQYrwRdwUOanmi0kfMlg",
+    "title": "3xpl",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-11T01:28:49.243Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "SYWoq8gwEXZ8ylKsvtQA",
+    "title": "LittleSis",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-09-18T13:43:22.207Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "SknFtf13qkD4frcQPlo5",
+    "title": "OpenSecrets",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-08-13T18:12:29.851Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "So5K3EthknYYP5Jpxw6L",
+    "title": "China-related resources",
+    "members": 0,
+    "spaces": 1,
+    "createdAt": "2024-09-10T10:45:25.892Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "TQzgXihAkPKYTG2kySfX",
+    "title": "Logseq",
+    "members": 3,
+    "spaces": 1,
+    "createdAt": "2024-04-11T01:13:09.861Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "TYsDAHSXUuQEIxFiZXdu",
+    "title": "4CAT",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-08T00:51:54.832Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "TpdbC2TaDc4erxtHzgwx",
+    "title": "ICIJ Offshore Leaks Database",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-07-25T13:47:18.056Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "TtqOrB6i5nY6MAbpgNtI",
+    "title": "WalletScan",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-11T01:33:57.339Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "UKZMsyH7ahlJHtTjcHRm",
+    "title": "Telegago",
+    "members": 3,
+    "spaces": 1,
+    "createdAt": "2024-04-09T21:22:51.994Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "UfnR3YFJ4kagRo7pUZUy",
+    "title": "Landviewer",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-12-13T17:57:05.022Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "UlMoUZSz9YqQnw1Tj2an",
+    "title": "SnapSave",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-23T13:19:51.489Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "UsEsqav6zJfwHdIIVACl",
+    "title": "OpenStreetMap",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-23T12:23:08.153Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "V3vnXKTnNDtTY50xBziD",
+    "title": "InstaLoader",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-19T13:28:48.712Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "VyuYJRA8lTiECuL0LTjI",
+    "title": "Omnivore",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-11T17:49:11.357Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "W8EcOMhaTt7YT9BumqoA",
+    "title": "Skopenow",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-09-25T13:21:19.153Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "WGQZyDgwgzAnh4mHPTET",
+    "title": "PimEyes",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-12-13T18:12:32.154Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "WPWIu5fNru5M18ZVpFaR",
+    "title": "Google Maps",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T19:30:37.293Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "WRKvT0cin4s7I3lWs6vk",
+    "title": "License Plate Maps",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-12-03T14:30:01.893Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "WeGNfAKHrHpym4nj7nx5",
+    "title": "VirusTotal",
+    "members": 0,
+    "spaces": 1,
+    "createdAt": "2024-08-26T19:48:32.375Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "Ww9L2fCYrLAHJjXweOtK",
+    "title": "Image/Video Guardians",
+    "members": 1,
+    "spaces": 0,
+    "createdAt": "2025-05-07T14:43:16.327Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "XQY0Wa2Yrnz3Lo74hzDg",
+    "title": "Telemetrio",
+    "members": 3,
+    "spaces": 1,
+    "createdAt": "2024-04-09T20:56:41.389Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "XXXdtHrYbQ4I5AXAlmE8",
+    "title": "UTM Grid Zones",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-10-22T09:28:08.389Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "XYpqWUpz6PHKOq3injHJ",
+    "title": "What CMS",
+    "members": 0,
+    "spaces": 1,
+    "createdAt": "2024-09-27T16:21:03.049Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "Xl2VEy03Yg0YXf7PbIcr",
+    "title": "Bing Maps",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T20:43:34.826Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "Xrf8naHvbIC24BRXvu57",
+    "title": "DiscordLeaks",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-06-11T23:21:12.164Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "YC2kpJ3CPINDDa7tD5Dj",
+    "title": "Tiktok Timestamp",
+    "members": 1,
+    "spaces": 0,
+    "createdAt": "2024-06-10T18:36:57.543Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "YKsLPli4hWqzjuAwa9Ge",
+    "title": "Baidu Maps",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-18T00:28:11.590Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "Z62CDuPdQ10nBKbvbIjD",
+    "title": "X Ads Repository",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-09T23:11:18.170Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "ZJMj8lot4Gpk0xG0ysDf",
+    "title": "Flightradar24",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-10T22:18:09.605Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "ZfoOjf5cPTs40RiaBMD3",
+    "title": "Wikipedia list of registers",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-10-22T10:19:13.866Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "ZqDeHD0SsyuLVBvD1RX0",
+    "title": "Copernicus Data Space Ecosystem",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T21:36:33.804Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "Zt4GmOEORt6ki4HdhplP",
+    "title": "Etherscan",
+    "members": 0,
+    "spaces": 1,
+    "createdAt": "2024-07-30T19:55:42.324Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "ZzT2INRT3Rawfu3ZDizb",
+    "title": "Twitter Video Downloader",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-06-07T12:24:26.486Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "ZzWMo4ZUVfPngwCpZlYD",
+    "title": "Google Earth Pro",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T19:26:37.394Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "aL8hZBCuPnCp7oFk1WKM",
+    "title": "DNS History",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-03T11:12:53.726Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "aNSMWp3g61VGwuMCxZNa",
+    "title": "Conflict Guardians",
     "members": 0,
     "spaces": 0,
-    "createdAt": "2025-06-30T09:42:40.107Z",
+    "createdAt": "2025-05-07T14:44:58.957Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "aTFXDJKywgPN0A6j8peV",
+    "title": "Movebank",
+    "members": 0,
+    "spaces": 1,
+    "createdAt": "2025-06-04T12:23:58.667Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "b4oq4RX89Pi7MK2BcIYE",
+    "title": "Webmii",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-07T17:01:55.666Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "b7Iq4vZpm1sl7rmIhZ9m",
+    "title": "TinEye",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-08-26T19:41:14.944Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "b7o2bNFRsjU8f7J1eN3p",
+    "title": "Shadowmap",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-06-07T10:49:32.161Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2407,8 +2211,8 @@
     "object": "team",
     "id": "bGvvonW5QcppL2JFDATi",
     "title": "Locust Hub",
-    "members": 0,
-    "spaces": 0,
+    "members": 1,
+    "spaces": 1,
     "createdAt": "2025-06-30T10:21:39.178Z",
     "permissions": {
       "admin": true,
@@ -2417,11 +2221,1331 @@
   },
   {
     "object": "team",
-    "id": "EdgEMmqsjSLDZkrOIuan",
-    "title": "PublicWWW",
-    "members": 0,
+    "id": "bzhVvgEuI4uCR4vC2Kul",
+    "title": "Liveuamap",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-15T18:33:36.402Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "c0H4nr3rk1OHjQAG8uxw",
+    "title": "TelegramDB",
+    "members": 3,
+    "spaces": 1,
+    "createdAt": "2024-04-09T21:25:36.742Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "cRPHfQNnT1KNr3FMvAID",
+    "title": "Suncalc",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T01:54:19.322Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "cX1GGXRelr4aZwb5rnD3",
+    "title": "Bluesky network analyzer",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-12-10T19:48:29.555Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "d28XROU2umRjeNBQ3UXn",
+    "title": "Google Ads Transparency Center",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-09T23:06:37.174Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "dF0xw4ML9atnBuYM42w2",
+    "title": "TikTok Hashtag Analysis",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T22:35:35.548Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "dWHULTzDLV0qnMLzI7Mb",
+    "title": "Domain Research Suite",
+    "members": 1,
     "spaces": 0,
-    "createdAt": "2025-06-30T10:39:56.498Z",
+    "createdAt": "2025-07-22T10:05:07.548Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "dwX8QEXybqIBVWQ8jKTI",
+    "title": "OpenSanctions",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-10T20:51:10.521Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "e0Z616xNxcf912yd6hWK",
+    "title": "what3words",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-10-22T09:32:59.477Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "eT7C3nNnRXLmcpU0XjBx",
+    "title": "Mappy",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-23T12:08:48.268Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "epBREBXILSikMhaH07Vk",
+    "title": "Maps & Sats Guardians",
+    "members": 1,
+    "spaces": 0,
+    "createdAt": "2025-05-07T14:43:41.764Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "f2c4OoEnsThy5lm9MOku",
+    "title": "Name Variant Search",
+    "members": 3,
+    "spaces": 1,
+    "createdAt": "2024-03-04T12:42:08.517Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "fAYZjYAk61vy9NiRWdwJ",
+    "title": "Nuwber",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-07T17:20:05.884Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "fFDgdGG8q2lawiixzGV0",
+    "title": "Forensically",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-10T23:22:55.370Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "fKnGDN23pPLevqQA3UaC",
+    "title": "Blender",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T22:10:01.392Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "fNx0SOC4QUeXQ0o07DTF",
+    "title": "Wayback Machine Downloader",
+    "members": 0,
+    "spaces": 1,
+    "createdAt": "2024-05-16T22:50:59.453Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "fcsyfPwY1Tq9mK2gMGJI",
+    "title": "Wikimapia",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-15T18:31:58.419Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "gEvfHXM7cqAbmeQEjMYn",
+    "title": "Who posted what?",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-09-13T20:35:52.344Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "gLdv6Iq6LaNBYpGwddIo",
+    "title": "Telegram Phone Number Checker",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-06-06T15:26:28.461Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "gZXAxCst965Dg8tWLrMS",
+    "title": "NotebookLM",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-05-05T18:23:46.416Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "gaAMCsBsB3TleTGAkCP3",
+    "title": "OCCRP Aleph",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-29T02:37:23.594Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "gi9MlDY9Iznb0Sy2i7L4",
+    "title": "Soar",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-10-22T09:38:03.320Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "gvpkTOMhvBTditbMnFwW",
+    "title": "Geogramint",
+    "members": 1,
+    "spaces": 0,
+    "createdAt": "2024-06-07T12:43:50.319Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "hYyodkGfY1E8JPz9yLOB",
+    "title": "Distill",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-07-25T13:33:39.573Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "hcFVrsFUr0C8yaVQozrf",
+    "title": "InVID",
+    "members": 3,
+    "spaces": 1,
+    "createdAt": "2024-04-10T22:26:12.774Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "hnDeMUlqJ4eb3PbgI5WH",
+    "title": "Google Earth Engine",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T03:26:31.827Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "i0v7SNDz4gx92KBYeLNE",
+    "title": "EU consolidated corporate registers",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-11-21T19:21:26.310Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "iTardhauobsC0JUxMi0A",
+    "title": "Neo4j",
+    "members": 1,
+    "spaces": 0,
+    "createdAt": "2024-05-05T00:51:32.343Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "iZrCSpXbu0P2556ZZNvH",
+    "title": "Anytype",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-03T11:57:30.264Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "iiwandq96eYFPR4117eX",
+    "title": "Hunchly",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T19:20:31.078Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "irsem9FAqebD8m2CiqmT",
+    "title": "Aqueduct Water Risk Atlas",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-11-26T13:30:42.382Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "jN1LDab8zZ8eJZDVysHk",
+    "title": "Satellite Tracker 3D",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-08-01T18:20:13.536Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "jThJHDOkDd0vLPQ1ykyh",
+    "title": "Here WeGo",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-30T21:38:25.575Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "ja6CoGxrqTxQ1CSfqavJ",
+    "title": "Obsidian",
+    "members": 3,
+    "spaces": 1,
+    "createdAt": "2024-04-11T01:15:26.561Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "jlR55F9D5peOR0QaReOx",
+    "title": "Social Blade",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-23T13:27:54.771Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "k07DU1JPJflzBJ5mMgQR",
+    "title": "Gephi",
+    "members": 3,
+    "spaces": 1,
+    "createdAt": "2024-04-09T21:29:50.112Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "k9JgZnJDPUKUpHcELpte",
+    "title": "Data Org & Analysis Guardians",
+    "members": 1,
+    "spaces": 0,
+    "createdAt": "2025-05-07T14:42:41.668Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "kJ88BvGDy9UUAtzuVeEw",
+    "title": "Discord Chat Exporter",
+    "members": 0,
+    "spaces": 1,
+    "createdAt": "2024-11-08T10:19:43.329Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "kQfZsheCyDBdgXjWLqdG",
+    "title": "Meta Ad Library",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-09T23:08:27.245Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "kRuYhpKMfjCoE2Y7SVM3",
+    "title": "TikTok-Api",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-03T22:32:37.972Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "kgcBt9egTcL3zM0ClV3C",
+    "title": "ICANN Lookup",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-09-04T08:56:37.355Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "kicynfcUVwCL30B7EQYY",
+    "title": "Image Verification Assistant",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-12-13T18:02:40.581Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "kjQQe1ga4fClcr486hjg",
+    "title": "Geograph Worldwide",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-08-28T17:24:56.523Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "kjZICPRGBB10OUqGgKfE",
+    "title": "Tool Page Reviewers",
+    "members": 1,
+    "spaces": 0,
+    "createdAt": "2024-09-26T12:53:38.955Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "km5QU4kVDKLwCHRwhAyI",
+    "title": "Lumen",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-05-07T23:51:15.260Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "l9tWPBRFEhRj7KmYTZY0",
+    "title": "Earth Online",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T03:32:23.524Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "lfN2Gp2qghyAEPoe43Xo",
+    "title": "Twitter Advanced Search",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-06-20T11:21:51.687Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "mL0hNsdDomLvyThuIPKu",
+    "title": "BirdNet",
+    "members": 0,
+    "spaces": 1,
+    "createdAt": "2025-06-04T12:00:56.586Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "mNVGbqSRXVjbzoEKNzMh",
+    "title": "Snap Political Ads Library",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-09T23:04:13.277Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "mzHNezhbxIFYq7rPd5Nr",
+    "title": "ImportYeti",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-09-18T13:26:32.860Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "nHHmg3frFFmY6eqWO1fz",
+    "title": "GeoHints",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-06-07T12:16:46.910Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "nOVJpjZ69hF01fB4zPTu",
+    "title": "FleetMon",
+    "members": 2,
+    "spaces": 0,
+    "createdAt": "2024-04-24T21:14:27.356Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "naHxaByTMyek4Txop5PV",
+    "title": "BskyThreadReader",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-12-10T19:15:51.497Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "oLQ2yfNyzkWM75GxEbl8",
+    "title": "ExifTool",
+    "members": 3,
+    "spaces": 1,
+    "createdAt": "2024-04-10T22:42:37.417Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "obmuCHSA703OTW1EKGlS",
+    "title": "Breadcrumbs",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-11T01:44:05.830Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "on97fn4oZRNgiktCENVI",
+    "title": "Yaddnet",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-30T17:38:26.185Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "oo8veHKxXJhWYMRQilJR",
+    "title": "Chainabuse",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-11T01:38:01.658Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "ot4yYYD5qY0Qsr5ecaSI",
+    "title": "Planet Labs",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-08-23T12:57:44.080Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "p6GoNsly9umUbGuY9QXk",
+    "title": "Global Monitoring System",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-11-26T17:39:02.684Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "p7viftmZmbCBEiwc7tzw",
+    "title": "RuPEP",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-09-18T14:01:35.846Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "pVgb8MBlNVarDh4lqCnC",
+    "title": "Face Comparison ToolPie",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-03T11:42:09.276Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "pdB2piUZHncsLmoytVeG",
+    "title": "OSINT tools map",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-09-25T14:50:18.910Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "pvw2yDoNwqTqxmnbofdi",
+    "title": "Overpass Turbo",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T03:23:56.459Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "q0lducPQ8PMXRr6giHsl",
+    "title": "OrbTrack",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-22T19:24:36.424Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "q4cfFzTBrHFz1oPt743G",
+    "title": "Hiya Deepfake Voice Detector",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-03-12T21:03:17.986Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "q8slDSdk3Lz8y6Vbai9i",
+    "title": "Picuki",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-09-27T16:32:54.868Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "qAfElmJF0uQu6KtX4HGF",
+    "title": "DeHashed",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-09-04T08:27:39.275Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "qECfYkYiA1VXbSIj2xS1",
+    "title": "Have I Been Pwned",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T01:52:59.820Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "qFKnbwlm1S6nlP206CX6",
+    "title": "UN Comtrade Database",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-11-08T10:43:46.964Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "qLWOpBboiXCUQx6nnGLC",
+    "title": "Amazonia Socio Ambiental",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-23T12:16:30.801Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "qOXHGrWIbTxBJYj61yKV",
+    "title": "KakaoMap",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-24T20:03:02.074Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "qOa7ubJWfvMRXMETXPwS",
+    "title": "RootAbout",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-12-11T10:32:22.030Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "qyEuFDkIYPVmpaPvfUqS",
+    "title": "ADS-B Exchange",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-10T22:37:34.315Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "r2FtSNwQBbujdRZHTPwh",
+    "title": "MapSwitcher",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-02T00:54:31.985Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "r93QonF0xpnm7aQv1Bbu",
+    "title": "Maigret",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-11-08T10:29:49.474Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "rVJyrTbpOwtSPXwA0khd",
+    "title": "Bluesky Insights",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-12-10T19:41:34.484Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "rtJJwNx8aRHdBMtQYE11",
+    "title": "Apple Maps",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T22:28:28.522Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "s9Kl5BnuQ9OJp6hsBpMJ",
+    "title": "WildMe & WildBook",
+    "members": 0,
+    "spaces": 1,
+    "createdAt": "2025-06-04T12:32:47.302Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "sHhA1ItNgU4qIEJuXGcc",
+    "title": "F4map",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-05-04T22:25:14.729Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "sU5gh0YCMq45UZpPVufz",
+    "title": "Airbus OneAtlas",
+    "members": 1,
+    "spaces": 0,
+    "createdAt": "2024-08-23T13:10:19.459Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "sVebI4QbSc2jYpa4er4t",
+    "title": "Submarine Cable Map",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-11-26T13:43:54.637Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "sWPgvSmJC29rogZQZIMX",
+    "title": "VesselFinder",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-24T21:01:06.890Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "sliq1Huxo1NVhkXsV4g0",
+    "title": "Copernicus Atmosphere Monitoring Service",
+    "members": 0,
+    "spaces": 1,
+    "createdAt": "2025-06-04T12:15:29.366Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "tG4a7jdDPpOwxdc9CaCb",
+    "title": "Index Database",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T03:08:28.670Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "tiAwoj3vsv592l6twNFs",
+    "title": "Archive.today",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-09-12T20:19:06.156Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "uKGLEc6sx6Nc7O5imlpi",
+    "title": "Instagram Location Search",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-06-10T18:45:16.883Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "uNslLW9ZAfJeHpHtYP2t",
+    "title": "Search4Faces",
+    "members": 0,
+    "spaces": 1,
+    "createdAt": "2024-05-08T00:11:15.411Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "uS6B43ZKCy654447MlQG",
+    "title": "Global Forest Watch",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-28T20:35:27.377Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "uU1XlFMRojLMJ83qfHZO",
+    "title": "Wind & Particulate Map",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-03T10:12:55.762Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "uZIiBGgu62y46Iczj5EQ",
+    "title": "Azure AI Video Indexer",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-09-20T17:15:35.574Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "v3lRzvVO7kWhe4tNN6Na",
+    "title": "Namechk",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-08-28T17:12:50.144Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "vQ3hVuDJhkhTmLErta1A",
+    "title": "Hitta.se",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-22T13:31:06.272Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "vqmLoGjOqX7I4VWTNhay",
+    "title": "Snscrape",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T22:24:47.604Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "w27MunK3CpygPB13FX4w",
+    "title": "Sentinel Hub Playground",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T03:13:24.693Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "wBnWjywwMNbs8J838vkb",
+    "title": "Insecam",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-02-24T13:27:28.215Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "wH4IymVBWsHfNTOYK7rO",
+    "title": "Geolocation Estimation",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-08-28T17:55:14.573Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "wRewugBtxP64pm22oRr2",
+    "title": "Datawrapper",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-06-06T16:14:05.998Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "wdf0oK7isXooLFpv5LYx",
+    "title": "Intelx.io",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-03-30T02:57:37.309Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "wnVDoel6oEClgYe4VfN9",
+    "title": "Social Media Guardians",
+    "members": 1,
+    "spaces": 0,
+    "createdAt": "2025-05-07T14:43:04.645Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "wsIf3vnIYnZ5tRA5PKIE",
+    "title": "Amazon Rekognition",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-06-03T09:38:01.659Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "xDokGE8GKQlhstElfKdU",
+    "title": "Telemetry",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-12-03T11:35:43.604Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "xTh1IpVL6Kh56nOJ9kQ1",
+    "title": "NASA Firms",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-09T02:06:13.275Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "xVN55MzFEFpXTt0GZdq7",
+    "title": "Bulletpicker.com",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-04-03T23:17:12.966Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "xsa1bEWGINGp6TZfHc3P",
+    "title": "Open Infrastructure Map",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-10-22T09:21:58.081Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "xzupqUl1PlV0NfmmoPO0",
+    "title": "Web Archives",
+    "members": 0,
+    "spaces": 1,
+    "createdAt": "2024-11-26T18:38:08.138Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "y1oJT2QjS3pNpL6TwF87",
+    "title": "SnapIntel",
+    "members": 0,
+    "spaces": 1,
+    "createdAt": "2025-03-12T18:44:47.584Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "y2iyZKxyTohSBZZl7ftA",
+    "title": "Google Lens",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-09-04T08:40:08.803Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "yCQoip34htBY09MbCHVG",
+    "title": "ACLED",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2024-05-08T01:28:15.900Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "yPJc3AniWUiqSD1eMu2D",
+    "title": "Tencent Maps",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-04-21T19:56:08.344Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "yQs4xQIGDTJRFxMypd8S",
+    "title": "Truecaller",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-06-06T15:17:40.594Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "zaT3T2l0W5M1NHTinqUd",
+    "title": "PeakVisor",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2024-03-28T16:53:42.448Z",
     "permissions": {
       "admin": true,
       "view": true
