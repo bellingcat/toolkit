@@ -141,6 +141,7 @@
   * [Namechk](tools/namechk/README.md)
   * [NASA Firms](tools/nasa-firms/README.md)
   * [NASA Worldview](tools/nasa-worldview/README.md)
+  * [Navtex](tools/navtex/README.md)
   * [NeutrOSINT](tools/neutrosint/README.md)
   * [North Data](tools/north-data/README.md)
   * [Obsidian](tools/obsidian/README.md)

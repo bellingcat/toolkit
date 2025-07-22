@@ -7,9 +7,9 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "draft": true,
   "name": "Navtex",
-  "tags": []
+  "tags": [],
+  "publishedAt": 1753180494932
 }
 ```
 {% endcode %}
