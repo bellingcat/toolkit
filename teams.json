@@ -1263,7 +1263,7 @@
     "object": "team",
     "id": "LGXDI0ZyVVVCGpxn5sGt",
     "title": "Websites Guardians",
-    "members": 1,
+    "members": 2,
     "spaces": 0,
     "createdAt": "2025-05-07T14:44:07.926Z",
     "permissions": {
@@ -3546,18 +3546,6 @@
     "members": 1,
     "spaces": 1,
     "createdAt": "2024-03-28T16:53:42.448Z",
-    "permissions": {
-      "admin": true,
-      "view": true
-    }
-  },
-  {
-    "object": "team",
-    "id": "dWHULTzDLV0qnMLzI7Mb",
-    "title": "Domain Research Suite",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-07-22T10:05:07.548Z",
     "permissions": {
       "admin": true,
       "view": true

@@ -137,20 +137,40 @@ function createTool(tool, opts={}) {
   return slug;
 }
 
-async function fetchSpaces(page='') {
-  const data = await apiCall('https://api.gitbook.com/v1/collections/jQKvylm6WgaH5IFrlIMh/spaces?' + new URLSearchParams({ page: page }), {
+async function fetchSpaces(page='', collectionId='jQKvylm6WgaH5IFrlIMh') {
+  const collections = await apiCall(`https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/collections?` + new URLSearchParams({ nested: true }), {
     method: 'GET',
   });
-  console.log(data.items.map((item) => `${item.id} ${item.title}`));
+  const collectionIds = ['jQKvylm6WgaH5IFrlIMh'].concat( collections.items.filter((c) => c.parent === 'jQKvylm6WgaH5IFrlIMh').map((c) => c.id) );
+  console.log(collectionIds);
+
+  let results = [];
+  for (var i in collectionIds) {
+    const id = collectionIds[i];
+    let spaces = await _fetchSpaces('', id);
+    console.log(id, spaces.length);
+    results = results.concat(spaces);
+
+    // sleep to avoid rate limit errors
+    //await new Promise(resolve => setTimeout(resolve, 1000));
+  }
+  return results;
+}
+
+async function _fetchSpaces(page='', collectionId='jQKvylm6WgaH5IFrlIMh') {
+  const data = await apiCall(`https://api.gitbook.com/v1/collections/${collectionId}/spaces?` + new URLSearchParams({ page: page }), {
+    method: 'GET',
+  });
+  //console.log(data.items.map((item) => `${item.id} ${item.title}`));
   if (data.next) {
-    console.log('next', data.next);
+    //console.log('next', data.next);
     if (data.next.page === data.items[0].id) {
       console.log("next page is same as current page!");
       // hack! gitbook api bug: the last item is the same as the first time. take the id of the second to last item as the next page
-      return data.items.concat(await fetchSpaces(data.items[data.items.length-2].id));
+      return data.items.concat(await _fetchSpaces(data.items[data.items.length-2].id, collectionId));
     }
     if (data.next.page) {
-      return data.items.concat(await fetchSpaces(data.next.page));
+      return data.items.concat(await _fetchSpaces(data.next.page, collectionId));
     }
   }
   return data.items;
@@ -354,6 +374,7 @@ export default {
   createToolOnGitbook,
   fetchTeams,
   fetchSpaces,
+  findSpace,
   publishTool,
   removeTool,
   updateToolJSON,
