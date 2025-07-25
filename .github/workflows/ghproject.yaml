@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Get project data
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
           ORGANIZATION: bellingcat
           PROJECT_NUMBER: 6
         # Uses [GitHub CLI](https://cli.github.com/manual/) to query the API for the ID of the project and return the name and ID of the first 20 fields in the project. `fields` returns a union and the query uses inline fragments (`... on`) to return information about any `ProjectV2Field` and `ProjectV2SingleSelectField` fields. The response is stored in a file called `project_data.json`.
@@ -55,7 +55,7 @@ jobs:
       # Gets items from the project and stores them in project_items.json
       - name: Get items
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
         run: |
           gh api graphql -f query='
             query{
@@ -126,7 +126,7 @@ jobs:
       # Sets the value of the `Status` field to `Review Requested`. Sets the value of the `Date submitted` field.'
       - name: Update status
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
         run: |
           gh api graphql -f query='
             mutation (
