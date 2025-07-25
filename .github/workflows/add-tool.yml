@@ -93,7 +93,7 @@ jobs:
 
       - name: Get project ID
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
           ORGANIZATION: bellingcat
           PROJECT_NUMBER: 6
         run: |
@@ -110,7 +110,7 @@ jobs:
 
       - name: Get project data
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
           ORGANIZATION: bellingcat
           PROJECT_NUMBER: 6
         # Uses [GitHub CLI](https://cli.github.com/manual/) to query the API for the ID of the project and return the name and ID of the first 20 fields in the project. `fields` returns a union and the query uses inline fragments (`... on`) to return information about any `ProjectV2Field` and `ProjectV2SingleSelectField` fields. The response is stored in a file called `project_data.json`.
@@ -147,7 +147,7 @@ jobs:
 
       - name: Add to Project
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
           TOOL_NAME: ${{ inputs.toolName }}
         run: |
           item_id="$( gh api graphql -f query='
@@ -166,7 +166,7 @@ jobs:
 
       - name: Update status
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
         run: |
           gh api graphql -f query='
             mutation (
