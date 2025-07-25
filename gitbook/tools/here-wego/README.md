@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Here WeGo is a navigation app that serves as a robust alternative to popular services like Google Maps and Apple Maps. It offers a range of features tailored for both casual users and those requiring more detailed navigation tools.
+Here WeGo is a navigation app that serves as a robust alternative to popular services like [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps) and [Apple Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/apple-maps). It offers a range of features tailored for both casual users and those requiring more detailed navigation tools.
 
 The app functions much like Google or Apple maps. Users that are familiar with either platform will find many of the same basic features present on the Here WeGo website or application. Key features as wel as downsides are highlighted in the points below.&#x20;
 
