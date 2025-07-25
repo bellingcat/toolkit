@@ -151,17 +151,17 @@ jobs:
           TOOL_NAME: ${{ inputs.toolName }}
         run: |
           item_id="$( gh api graphql -f query='
-            mutation {
-              addProjectV2DraftIssue(input: {
-                projectId: $project
-                title: $TOOL_NAME
-              }) {
+            mutation (
+              $project: ID!
+              $tool: String!
+            ){
+              addProjectV2DraftIssue(input: { projectId: $project title: $tool }) {
                 projectItem {
                   id
                 }
               }
-            }'-f project=$PROJECT_ID --jq '.data.addProjectV2ItemById.item.id')"
-          echo 'ITEM_ID='$item_id >> $GITHUB_ENV
+            }' -f project=$PROJECT_ID -F tool=$TOOL_NAME --jq '.data.addProjectV2DraftIssue.projectItem.id' )"
+            echo 'ITEM_ID='$item_id >> $GITHUB_ENV
 
 
       - name: Update status
@@ -174,8 +174,6 @@ jobs:
               $item: ID!
               $status_field: ID!
               $status_value: String!
-              $date_field: ID!
-              $date_value: Date!
             ) {
               set_status: updateProjectV2ItemFieldValue(input: {
                 projectId: $project
@@ -189,18 +187,6 @@ jobs:
                   id
                   }
               }
-              set_date_posted: updateProjectV2ItemFieldValue(input: {
-                projectId: $project
-                itemId: $item
-                fieldId: $date_field
-                value: {
-                  date: $date_value
-                }
-              }) {
-                projectV2Item {
-                  id
-                }
-              }
-            }' -f project=$PROJECT_ID -f item=$ITEM_ID -f status_field=$STATUS_FIELD_ID -f status_value=${{ env.DRAFT_OPTION_ID }} -f date_field=$DATE_FIELD_ID -f date_value=$DATE --silent
+            }' -f project=$PROJECT_ID -f item=$ITEM_ID -f status_field=$STATUS_FIELD_ID -f status_value=${{ env.DRAFT_OPTION_ID }} -f --silent
 
             #'
