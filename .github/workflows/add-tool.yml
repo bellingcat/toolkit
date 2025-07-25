@@ -93,7 +93,7 @@ jobs:
 
       - name: Get project ID
         env:
-          GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ORGANIZATION: bellingcat
           PROJECT_NUMBER: 6
         run: |
