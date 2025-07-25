@@ -1,6 +1,6 @@
 ---
 description: >-
-  Sattelite imagery tool that can serve as an alternative to Google or Apple
+  Satelitte imagery tool that can serve as an alternative to Google or Apple
   Maps.
 ---
 
