@@ -1,7 +1,7 @@
 ---
 description: >-
-  Satelitte imagery tool that can serve as an alternative to Google or Apple
-  Maps.
+  Satelitte imagery tool that can serve as an alternative to Google Maps or
+  Apple Maps.
 ---
 
 # HERE WeGo
