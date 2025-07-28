@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-https://eia-international.org/global-environmental-crime-tracker/
+[https://eia-international.org/global-environmental-crime-tracker/](https://eia-international.org/global-environmental-crime-tracker/)
 
 ## Description
 
