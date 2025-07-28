@@ -14,7 +14,7 @@ description: >-
 
 <figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>A screen grab of an Auto Archiver execution for the Tajik-Kyrgyz border conflict. <a href="https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/">Source</a>.</p></figcaption></figure>
 
-The Auto Archiver is a powerful, open-source tool developed by Bellingcat that automates the process of archiving online content. It's designed for journalists, researchers, and human rights defenders who need to preserve digital evidence from the web. With Auto Archiver, you can systematically save social media posts, videos, images, and entire webpages to ensure they remain accessible even if the original content is taken down.
+The Auto Archiver is an open-source tool developed by Bellingcat that automates the process of archiving online content. It's designed for journalists, researchers, and human rights defenders who need to preserve digital evidence from the web. With Auto Archiver, you can systematically save social media posts, videos, images, and entire webpages to ensure they remain accessible even if the original content is taken down.
 
 ### How It Works
 
