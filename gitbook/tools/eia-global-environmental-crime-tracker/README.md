@@ -1,8 +1,10 @@
 ---
-description: Map/tracking of environmental crimes including trade in ivory, rhino, big cats, and other exotic animals.
+description: >-
+  Map/tracking of environmental crimes including trade in ivory, rhino, big
+  cats, and other exotic animals.
 ---
 
-# EIA Global Environmental Crime tracker
+# EIA Global Environmental Crime Tracker
 
 ## URL
 
@@ -10,7 +12,11 @@ https://eia-international.org/global-environmental-crime-tracker/
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+The Environmental Investigation Agency (EIA) Global Environmental Crime Tracker is central public database which provides information about different types of international crime. Using publicly available information including government reports, enforcement agency press releases and non-governmental and academic papers, international news coverage and details from partner NGOs, the tracker allows the user to track global trends through tools such as dashboards and maps.&#x20;
+
+The tracker can illustrate smuggling and trafficking hotspots as well as transportation routes.
+
+According to the EIA, the tracker covers criminal activity in Asia, Africa and Europe and has previously focused on elephants, pangolins, rhinos, tigers, leopards in their Asian range, snow leopards, clouded leopards, the totoaba fish and timber. In April 2022, the tracker was updated to include illegal trade of hydrofluorocarbon (HFC) climate-harming gases. The EIA hopes to add other types of environmental crime in the future.
 
 ## Cost
 
@@ -18,7 +24,7 @@ https://eia-international.org/global-environmental-crime-tracker/
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+
 
 ## Level of difficulty
 
@@ -26,23 +32,25 @@ https://eia-international.org/global-environmental-crime-tracker/
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+Internet access is required to use the tracker.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+The EIA acknowledges it is a small NGO with a limited capacity to collect data. Not all information is available by open-source means and the EIA does not have the resources to contact all law enforcement agencies at the local level. While the EIA tries to fill in gaps wherever possible, it does not have the resources to identify and all seizure and prosecutions.&#x20;
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+The EIA acknowledges one of its donors is the UK government through the IWT Challenge Fund
 
 ## Guide
 
-\[\[Link to a guide on this tool]]
+EIA's [User Guide](https://eia-international.org/wp-content/uploads/EIA-UK-Global-Environmental-Crime-Tracker-User-Guide-v3.pdf)
+
+EIA has a [video](https://www.youtube.com/watch?v=mKfZ7XDxb_4) that offers an overview of the tracker.
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+The EIA, which works to protect the natural world by exposing environmental crimes and abuses and the responsible parties through investigations. The EIA also campaigns for better environmental protection through stronger enforcement of environmental laws, progressive policies and changes in consumer behavior.
 
 ## Advertising Trackers
 
@@ -54,4 +62,3 @@ https://eia-international.org/global-environmental-crime-tracker/
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
-
