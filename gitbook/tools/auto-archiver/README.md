@@ -268,7 +268,7 @@ _(Most platform credentials are only needed if you intend to archive from that p
 
 **Protect Sources, Researchers, and Data**
 
-* **Secure working copies, and k**eep originals immutable. Store raw archives and sensitive spreadsheets in access‑controlled drives; share only with partners who follow the same standards.
+* **Secure working copies,** and keep originals immutable. Store raw archives and sensitive spreadsheets in access‑controlled drives; share only with partners who follow the same standards.
 * **Anticipate retaliation.** Geolocation or doxxing can endanger the uploader; weigh disclosure against possible harm, and anonymise when prudent.
 
 ## Guides and articles
@@ -279,16 +279,14 @@ _**Bellingcat/auto-archiver**_**.** (2024). \[Python]. Bellingcat. [https://gith
 
 GIJN Article: [New Reporting Tools to Archive Videos, Find QAnon Networks, and Track Targets via Online Reviews](https://gijn.org/stories/new-reporting-tools-to-archive-videos-find-qanon-networks-and-track-targets-via-online-reviews/) (Features the Auto Archiver as a key tool for journalists.)
 
-Managed Service: [https://auto-archiver.com/](https://auto-archiver.com/) (A commercial, managed version of the tool for those who do not want to self-host.)
-
 #### Resources and Support
 
 * **Current Version:** Auto Archiver is under active development. As of July 2025, the latest version is **v1.1.1** (released June 30, 2025).
 * **Documentation:** Official docs are available on [_ReadTheDocs_](https://auto-archiver.readthedocs.io/en/v1.0.1/index.html) (covering [installation](https://auto-archiver.readthedocs.io/en/latest/installation/installation.html), [modules](https://auto-archiver.readthedocs.io/en/latest/core_modules.html), and [usage in detail](https://auto-archiver.readthedocs.io/en/latest/how_to.html)). The documentation includes a [configuration guide](https://auto-archiver.readthedocs.io/en/latest/development/settings_page.html) and examples of advanced setups. _(Note:_ The docs may lag a bit behind the very latest features, so community forums can help fill the gaps.)
 * **GitHub:** The source code is on GitHub at [**bellingcat/auto-archiver**](https://github.com/bellingcat/auto-archiver). The README there provides installation instructions and links to the docs. Check the GitHub **issues** page if you encounter bugs – you might find that others have reported the same, along with fixes or workarounds. You can also open a new issue to ask questions or report problems. The project is open-source (MIT License) and [welcomes contributions](https://auto-archiver.readthedocs.io/en/latest/development/creating_modules.html).
 * **Community & Support:** For direct support, consider the following:
-  * Bellingcat’s tech team occasionally provides guidance through Bellingcat’s online channels. Keep an eye on the Bellingcat [website’s **Guides** section](https://bellingcat.gitbook.io/toolkit/resources/guides-and-handbooks) or their Twitter/Mastodon for any updated tutorials.
-  * The [**online community**](https://www.bellingcat.com/follow-bellingcat-on-social-media/) (on Twitter, Reddit, or [Discord groups](https://discord.gg/bellingcat)) is very helpful – many researchers use Auto Archiver, so if you ask in a forum like the _r/OSINT_ subreddit or the GIJN mailing list, someone might have an answer.
+  * Bellingcat occasionally provides guidance through Bellingcat’s online channels. Keep an eye on the Bellingcat [website’s **Guides** section](https://bellingcat.gitbook.io/toolkit/resources/guides-and-handbooks) or their Twitter/Mastodon for any updated tutorials.
+  * The Bellingcat [**online community**](https://www.bellingcat.com/follow-bellingcat-on-social-media/) (on Twitter, Reddit, or [Discord groups](https://discord.gg/bellingcat)) can be helpful – many researchers use Auto Archiver, so if you ask in a forum like the _r/OSINT_ subreddit or the GIJN mailing list, someone might have an answer.
   * The GitHub repository has a [**Discussions** tab](https://github.com/bellingcat/auto-archiver/discussions) where you can ask how-to questions outside of formal bug reports.
 
 ## Tool provider
