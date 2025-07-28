@@ -34,8 +34,6 @@ The Auto Archiver’s automation, expanded platform support, and use of robust a
 
 To run Auto Archiver locally, some technical knowledge is needed for the initial setup. The easiest method is using Docker, which bundles all dependencies and simplifies the installation process.
 
-For those who prefer not to manage their own installation, a commercial, managed version of the tool is available from [auto-archiver.com](https://auto-archiver.com/). This service is provided by [OSR4Rights](https://osr4rights.org/), a partner organization that has collaborated with Bellingcat on the development of the tool.
-
 ## Notable instances and case studies:
 
 * **Russia-Ukraine War**: [Bellingcat used the Auto Archiver to systematically capture social media posts](https://www.bellingcat.com/resources/how-tos/2022/03/08/how-to-archive-telegram-content-to-document-russias-invasion-of-ukraine/) from platforms like Telegram and X, creating a permanent record of military movements, civilian harm, and other evidence.
