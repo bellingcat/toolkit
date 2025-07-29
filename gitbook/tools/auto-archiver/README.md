@@ -2,6 +2,7 @@
 description: >-
   Bellingcat's tool to automatically archive social media posts, videos, and
   images. Free and Open-Source.
+updated: '2025-07-28'
 ---
 
 # Auto Archiver
