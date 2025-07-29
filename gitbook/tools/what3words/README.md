@@ -15,7 +15,7 @@ description: >-
 
 <figure><img src=".gitbook/assets/screenshot1.JPG" alt=""><figcaption><p>THE <strong>WHAT3WORDS INTERFACE, SHOWING THE 3M X 3M SQUARE ON MAGDALEN BRIDGE IN OXFORD, UK, WHICH CORRESPONDS TO THE EXAMPLE 3-WORD PHRASE </strong><em><strong>BLEAT.MENTAL.LOCATE</strong></em><strong>.</strong></p></figcaption></figure>
 
-what3words is a simple, clear and rapid way to communicate locations on earth. The world has been divided into 3m x 3m squares (around 57 trillion of them), and an unique identifier combining three words is assigned to each one. The app is available for  mobile phones and PC browsers and an API  ([Application Programming Interface](https://en.wikipedia.org/wiki/API)) is available to automate the conversion between what3word addresses and geographic co-ordinates.
+what3words is a simple, clear and rapid way to communicate locations on earth. The world has been divided into 3m x 3m squares (around 57 trillion of them), and an unique identifier combining three words is assigned to each one. The app is available for mobile phones and PC browsers and an API  ([Application Programming Interface](https://en.wikipedia.org/wiki/API)) is available to automate the conversion between what3word addresses and geographic co-ordinates.
 
 what3words can be used to communicate locations without numeric format geographic co-ordinates, which is particularly helpful when communication channels are poor quality, or unreliable. It is usable in many countries to summon the emergency services, e.g. Mountain Rescue, pinpoint meeting places, specify accurate deliveries, e.g. [Hermes](https://ti-insight.com/hermes-partners-with-what3words-in-the-uk/) and [Ikea](https://www.reuters.com/article/technology/ikea-invests-in-mapping-technology-startup-what3words-idUSKBN2BG2IB/) use it, and advertise accurate locations. Its use in Open Source research can cover any of these applications for the technology, as part of an investigation, or simply as a device to share locations between researchers.
 
@@ -113,7 +113,7 @@ what3words provides a [How to Use](https://what3words.com/how-to-use-the-what3wo
 
 ## Tool Provider
 
-[what3words Limited](https://what3words.com/contact-us), based in London, UK. Founded March 05, 2013 in Royston, Hertfordshire, UK.
+[what3words Limited](https://what3words.com/contact-us), based in London, UK.&#x20;
 
 ## Advertising Trackers
 
