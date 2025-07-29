@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Judyrecords](README.md)
+* [judyrecords](README.md)
 * [Categories](categories.md)
 * [Regions](regions.md)
