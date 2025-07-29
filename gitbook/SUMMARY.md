@@ -206,6 +206,7 @@
   * [Wayback Machine](tools/internet-archive/README.md)
   * [Web Archives](tools/web-archives/README.md)
   * [What CMS](tools/what-cms/README.md)
+  * [what3words](tools/what3words/README.md)
   * [WhatsMyName](tools/whats-my-name/README.md)
   * [Who posted what?](tools/who-posted-what/README.md)
   * [Whoxy](tools/whoxy/README.md)
