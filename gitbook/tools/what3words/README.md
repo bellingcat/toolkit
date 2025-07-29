@@ -17,7 +17,7 @@ description: >-
 
 what3words is a simple, clear and rapid way to communicate locations on earth. The world has been divided into 3m x 3m squares (around 57 trillion of them), and an unique identifier combining three words is assigned to each one. The app is available for  mobile phones and PC browsers and an API  ([Application Programming Interface](https://en.wikipedia.org/wiki/API)) is available to automate the conversion between what3word addresses and geographic co-ordinates.
 
-what3words can be used to communicate locations without numeric format geographic co-ordinates, which is particularly helpful when communication channels are poor quality, or unreliable. It is usable in many countries to summon the emergency services, e.g. Mountain Rescue, pinpoint meeting places, specify accurate deliveries, e.g. [Hermes](https://ti-insight.com/hermes-partners-with-what3words-in-the-uk/) and Ikea use it, and advertise accurate locations. Its use in Open Source research can cover any of these applications for the technology, as part of an investigation, or simply as a device to share locations between researchers.
+what3words can be used to communicate locations without numeric format geographic co-ordinates, which is particularly helpful when communication channels are poor quality, or unreliable. It is usable in many countries to summon the emergency services, e.g. Mountain Rescue, pinpoint meeting places, specify accurate deliveries, e.g. [Hermes](https://ti-insight.com/hermes-partners-with-what3words-in-the-uk/) and [Ikea](https://www.reuters.com/article/technology/ikea-invests-in-mapping-technology-startup-what3words-idUSKBN2BG2IB/) use it, and advertise accurate locations. Its use in Open Source research can cover any of these applications for the technology, as part of an investigation, or simply as a device to share locations between researchers.
 
 {% hint style="danger" %}
 **LANGUAGE:** It is possible to use what3words in a large range of languages. The 3-word phrase assignment across the grid squares is entirely different and unrelated in each language. Therefore there is no relationship between the 3-word phrases in different languages for the same grid square. They are **not** translations of word meanings between languages. When a user sets up a Second Language in the mobile app, two sets of 3-word phrases are displayed simultaneously, with the Second Language phrase below the First Language phrase. \[However the what3words features where a 3 word address can be input by speaking it or scanning it are not available in the second language].
@@ -32,7 +32,7 @@ There is considerable variation between the app version of what3words and the PC
 ### Use Cases for what3words with Input Data, Output Data and Data Input Options...(Click each tab to see further information) <a href="#use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see" id="use-cases-for-nasa-firms-with-input-data-output-data-and-data-input-options...-click-each-tab-to-see"></a>
 
 {% tabs %}
-{% tab title="USER INPUTS" %}
+{% tab title="USER INPUT DATA" %}
 * A tile square geographic location on the map (map options are [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps), MapBox, OSM, Tomtom and Esri)
 * A what3words location phrase
 * A text address
@@ -100,7 +100,7 @@ The app will not draw the 3m square within the StreetView imagery, only on aeria
 
 ## Limitations
 
-* Very similar phrases for proximate squares could cause error/confusion: At the time of writing 11/11/24, recent research on what3words reported by the BBC has revealed some flaws in the system regarding its aim not to assign similar 3 word phrases to nearby areas. This similarity also includes homophones, i.e. words which sound similar, rather than look similar. This is because what3words is used to communicate over voice channels, particularly for the emergency services, so similar-sounding or similar-looking phrases at proximate squares is likely to lead to errors in location. The [BBC reported](https://www.bbc.co.uk/news/technology-56901363) that a researcher had found 'thousands' of 3 word phrases which were either very similar looking, or similar sounding, had been assigned to locations less than 1km  apart. On entering a 3 word address in the Account Setup page, for example, the 3 word address of the user's own home, the locations of other similar addresses are displayed to allow checking of their proximity.
+* Very similar phrases for proximate squares could cause error/confusion: At the time of writing 11/11/24, recent [research on what3words reported by the BBC](https://www.bbc.co.uk/news/technology-56901363) has revealed some flaws in the system regarding its aim not to assign similar 3 word phrases to nearby areas. This similarity also includes homophones, i.e. words which sound similar, rather than look similar. This is because what3words is used to communicate over voice channels, particularly for the emergency services, so similar-sounding or similar-looking phrases at proximate squares is likely to lead to errors in location. The BBC reported that a researcher had found 'thousands' of 3 word phrases which were either very similar looking, or similar sounding, had been assigned to locations less than 1km  apart. On entering a 3 word address in the Account Setup page, for example, the 3 word address of the user's own home, the locations of other similar addresses are displayed to allow checking of their proximity.
 
 <figure><img src=".gitbook/assets/screenshot7.JPG" alt=""><figcaption><p> <strong>WHAT3WORDS INTERFACE SHOWING AUTO-COMPLETED OPTIONS FOR A USER-INPUT, 3-WORD LOCATION PHRASE WITH THEIR DIFFERING GEOGRAPHICAL DETAILS</strong></p></figcaption></figure>
 
@@ -113,7 +113,7 @@ what3words provides a [How to Use](https://what3words.com/how-to-use-the-what3wo
 
 ## Tool Provider
 
-what3words Limited, based in London, UK. Founded March 05, 2013 in Royston, Hertfordshire, UK.
+[what3words Limited](https://what3words.com/contact-us), based in London, UK. Founded March 05, 2013 in Royston, Hertfordshire, UK.
 
 ## Advertising Trackers
 
