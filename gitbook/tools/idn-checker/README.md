@@ -108,7 +108,6 @@ The key is using IDN Checker as part of a broader, contextual analysis rather th
 
 There are no official guides for IDN Checker as it is a relatively simple tool to use, however, IDN Checker has been mentioned in several articles on IDN homograph attacks:
 
-* Look-Alike Domains and Visual Confusion: [https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/](https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/)
 * Social Engineering and (Spear) Phishing: [https://www.kicksecure.com/wiki/Social\_Engineering](https://www.kicksecure.com/wiki/Social_Engineering)
 * Search for PunyCode Look-alikes With Hold Integrity IDN Checker: [https://www.inmotionhosting.com/support/security/search-punycode-look-alikes-idn-checker/](https://www.inmotionhosting.com/support/security/search-punycode-look-alikes-idn-checker/)
 
