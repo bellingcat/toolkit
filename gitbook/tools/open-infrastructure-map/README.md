@@ -31,10 +31,21 @@ Once the user has zoomed in sufficiently on a location — e.g. a power station 
 
 The map also provides a selectable "[nighttime lights](https://mapyourgrid.org/tools/)" background option, in addition to the standard OSM background.
 
-On the top left of the screen, significant functionality is accessed via the menu links labelled **About, Stats** and **Export**:
+On the top left of the screen, significant functionalitfy is accessed via the menu links labelled **About, Stats** and **Export**:
 
 * **About:** This link gives comprehensive information on the tool's data, including how to add to it, how to access it, what the tool's components are, where the code is located, who wrote it, and where to find user communities online.
-* **Stats:** This link provides a service which delivers statistical information on the electricity network of a selected area (often a small country) in terms of the proportions of different voltage power lines and their cumulative length. It gives a quick picture of the shape and composition of power networks.
+*   **Stats:** This link provides a service which delivers statistical information on the electricity network of a selected area (usually a country) in terms of&#x20;
+
+    * the proportions of different voltage power lines and their cumulative length.&#x20;
+    *   **EXAMPLE OUTPUT FOR USA: POWER LINES WITH DISTRIBUTION BY VOLTAGE & LENGTH**
+
+        <figure><img src=".gitbook/assets/statsUS3.JPG" alt=""><figcaption></figcaption></figure>
+    * the power plants by number, energy source and output in MW
+    *   **EXAMPLE OUTPUT FOR USA: POWER PLANTS DISTRIBUTED BY NUMBER, SOURCE & MW**
+
+        <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+    It gives a quick picture of the shape and composition of power generation and power networks.
 * **Export:** This link details scope of the Open Infrastructure Map data, the available formats for export and their limitations, and gives access to purchase exported data, along with the relevant terms and conditions. At the time of writing on 30/7/25 prices ranged from GBP 80 for a power export per country to GBP 700 for a power export worldwide
 
 Since Open Infrastructure Map aids in infrastructure visibility, it could assist in pursuits as varied as researching a country's oil infrastructure (as referenced, for example, in [https://www.bellingcat.com/resources/2021/04/15/what-oil-satellite-technology-and-iraq-can-tell-us-about-pollution/](https://www.bellingcat.com/resources/2021/04/15/what-oil-satellite-technology-and-iraq-can-tell-us-about-pollution/),  helping companies focused on energy infrastructure planning, or assisting authorities with emergency preparedness, among many other uses.
