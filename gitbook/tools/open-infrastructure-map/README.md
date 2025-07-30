@@ -1,7 +1,7 @@
 ---
 description: >-
   A map of the world's electricity, gas, water, and other infrastructure, using
-  data from OpenStreetMap.
+  data from OpenStreetMap (OSM).
 ---
 
 # Open Infrastructure Map
@@ -21,13 +21,15 @@ Open Infrastructure Map allows users to search for and view global infrastructur
 * water
 * other pipelines
 
-The basic purpose of the tool is that infrastructure data is contained within ISM, but not exposed by default, and this tool fills that gap.
+The basic purpose of the tool is that infrastructure data is contained within OSM, but not exposed by default, and this tool fills that gap. Users can select and display different layers of infrastructure data at their chosen location on the globe.
+
+### The Interface
 
 The tool presents a globe the user can turn in order to zoom in on a geographical location of interest.  On the sidebar are various types of infrastructure the user can select or deselect.  The sidebar also contains a key with icons and colored lines representing various infrastructure types, which the user can consult to identify the infrastructure being displayed. For example, an icon of a tower denotes a telecom tower; a red line represents a ≥ 220 kV powerline, and so forth. &#x20;
 
 Once the user has zoomed in sufficiently on a location — for example, a power station -- the user can click on it, which opens a mini window containing additional details about the location.&#x20;
 
-The map also provides a selectable "nighttime lights" feature.
+The map also provides a selectable "[nighttime lights](https://mapyourgrid.org/tools/)" feature.
 
 Much of the interface functionality is contained in the menu links labelled About, Stats and Export.&#x20;
 
@@ -87,7 +89,7 @@ Articles on research done with this tool: [https://news.sky.com/story/ukraine-wa
 
 ## Tool provider
 
-Russ Garrett from London created and runs the tool.  He describes himself as a generalist software developer, systems architect and operations engineer. [https://russ.garrett.co.uk/](https://russ.garrett.co.uk/)
+[Russ Garrett](https://russ.garrett.co.uk/) from London created and runs the tool.  He describes himself as a generalist software developer, systems architect and operations engineer.&#x20;
 
 ## Advertising Trackers
 
