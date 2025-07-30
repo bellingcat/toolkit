@@ -1,7 +1,7 @@
 ---
 description: >-
   A map of the world's electricity, gas, water, and other infrastructure, using
-  data from OpenStreetMap (OSM).
+  data from OpenStreetMap.
 ---
 
 # Open Infrastructure Map
@@ -97,7 +97,7 @@ Articles on research done with this tool: [https://news.sky.com/story/ukraine-wa
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer       |
-| --------------------- |
-| sophie 30 07 25 18 07 |
-|                       |
+| Page maintainer                 |
+| ------------------------------- |
+| sophie 30 07 25 18 07 and scoot |
+|                                 |
