@@ -1,7 +1,5 @@
 ---
-description: >-
-  IDN Checker detects visually similar versions of a domain to detect phishing
-  or impersonation.
+description: IDN Checker detects visually similar versions of a domain.
 ---
 
 # IDN Checker
