@@ -102,5 +102,5 @@ Using the nighttime lights feature: [https://mapyourgrid.org/tools/](https://map
 
 | Page maintainer       |
 | --------------------- |
-| sophie 30 07 25 21:03 |
+| sophie 30 07 25 22:35 |
 |                       |
