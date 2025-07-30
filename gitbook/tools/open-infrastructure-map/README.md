@@ -25,23 +25,16 @@ The basic purpose of the tool is that infrastructure data is contained within OS
 
 ### The Interface
 
-The tool presents a globe the user can turn in order to zoom in on a geographical location of interest.  On the sidebar are various types of infrastructure the user can select or deselect.  The sidebar also contains a key with icons and colored lines representing various infrastructure types, which the user can consult to identify the infrastructure being displayed. For example, an icon of a tower denotes a telecom tower; a red line represents a ≥ 220 kV powerline, and so forth. &#x20;
+The tool presents a globe the user can turn in order to zoom in on a geographical location of interest.  Location can also be selected by writing a text name or latitude and longitude co-ordinates into the Search text box on the top left of the screen.  Clicking the Layers button on the right of the screen gives a checkbox list of various types of infrastructure the user can select or deselect for display.  Clicking the Key button provides a guide to interpreting the icons and colored lines representing various infrastructure types, which the user can consult to identify the infrastructure being displayed. For example, an icon of a tower denotes a telecom tower; a red line represents a ≥ 220 kV powerline, and so forth. &#x20;
 
-Once the user has zoomed in sufficiently on a location — for example, a power station -- the user can click on it, which opens a mini window containing additional details about the location.&#x20;
+Once the user has zoomed in sufficiently on a location — e.g. a power station -- the user can Left click on it, which opens a mini window containing additional details about the location.&#x20;
 
-The map also provides a selectable "[nighttime lights](https://mapyourgrid.org/tools/)" feature.
+The map also provides a selectable "[nighttime lights](https://mapyourgrid.org/tools/)" background option, in addition to the standard OSM background.
 
-Much of the interface functionality is contained in the menu links labelled About, Stats and Export.&#x20;
+On the top left of the screen, significant functionality is accessed via the menu links labelled About, Stats and Export:
 
-About: There is good advice under “About” which is about what users do in practice about exporting data – it’s different depending upon the amount of data required.
-
-As shown in the layers menu, the tool is used to filter a number of layers showing different types of infrastructure, as shown in the layers menu, which can be found (at <mark style="color:$warning;">tbd</mark>). &#x20;
-
-<mark style="color:$warning;">tbd</mark>: One point which users need clarifying is what the layer option under Validation called Osmose (Power) is about (because there are separate layers for Power). Google “Osmose” and see what you make of it as validation.
-
-<mark style="color:$warning;">tbd</mark>: We should consider showing graphics on the GUI because its not intuitive, graphics on the Layers because they are important and the menu is small, and the section on power statistics hidden under the “statistics” link, which actually looks quite useful.
-
-<mark style="color:$warning;">to be checked</mark>: I cannot get the search input box on the main page to take co-ordinates for a location, can you? It only seems to take text as input. This is quite an important point for users. Please check.
+* About: This link gives comprehensive information on the tool's data, including how to add to it, how to access it, what the tool's components are, where the code is located, who wrote it, and where to find user communities online.
+* Stats: This link provides a service which delivers statistical information on the electricity network of a selected area (often a small country) in terms of the proportions of different voltage power lines and their cumulative length. It gives a quick picture of the shape and composition of power networks.
 
 <mark style="color:$warning;">?</mark> One points about the maps is whether they are the literal paths of the infrastructure, or simply showing a connection between two points, always as the shortest distance. This matters for applications like tracking ship anchor dragging across undersea cables.
 
@@ -73,6 +66,8 @@ An internet connection and browser.
 
 Open Infrastructure Map may be incomplete or contain outdated information.
 
+The infrastructure paths on the map may be schematic, i.e. omit information like the exact path of the infrastructure, e.g. a data cable, in favour of displaying very clearly the connectivity of the cable, e.g. where it starts and finishes. City 'Tube' maps are a good example of schematic maps
+
 <mark style="color:$warning;">tbd</mark>: Another item under limitations should be the limitations detailed about the power statistics provided under the Statistics link.
 
 ## Ethical Considerations
@@ -97,7 +92,7 @@ Articles on research done with this tool: [https://news.sky.com/story/ukraine-wa
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                 |
-| ------------------------------- |
-| sophie 30 07 25 18 07 and scoot |
-|                                 |
+| Page maintainer       |
+| --------------------- |
+| sophie 30 07 25 20:20 |
+|                       |
