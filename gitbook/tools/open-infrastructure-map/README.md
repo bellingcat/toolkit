@@ -12,6 +12,8 @@ description: >-
 
 ## Description
 
+<figure><img src=".gitbook/assets/OPENINFRAMAP1.gif" alt=""><figcaption></figcaption></figure>
+
 Open Infrastructure Map allows users to search for and view global infrastructure networks, to include:
 
 * power lines, power plants, generators, power line supports, switchgear
@@ -25,7 +27,11 @@ The basic purpose of the tool is that infrastructure data is contained within OS
 
 ### The Interface
 
-The tool presents a globe the user can turn in order to zoom in on a geographical location of interest.  Location can also be selected by writing a text name or latitude and longitude co-ordinates into the Search text box on the top left of the screen.  Clicking the **Layers button** on the right of the screen gives a checkbox list of various types of infrastructure the user can select or deselect for display.  Clicking the **Key button** provides a guide to interpreting the icons and colored lines representing various infrastructure types, which the user can consult to identify the infrastructure being displayed. For example, an icon of a tower denotes a telecom tower; a red line represents a ≥ 220 kV powerline, and so forth. &#x20;
+The tool presents a globe the user can turn in order to zoom in on a geographical location of interest.  Location can also be selected by writing a text name or latitude and longitude co-ordinates into the Search text box on the top left of the screen. &#x20;
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Clicking the **Layers button** on the right of the screen gives a checkbox list of various types of infrastructure the user can select or deselect for display.  Clicking the **Key button** provides a guide to interpreting the icons and colored lines representing various infrastructure types, which the user can consult to identify the infrastructure being displayed. For example, an icon of a tower denotes a telecom tower; a red line represents a ≥ 220 kV powerline, and so forth. &#x20;
 
 Once the user has zoomed in sufficiently on a location — e.g. a power station -- the user can Left click on it, which opens a mini window containing additional details about the location.&#x20;
 
@@ -43,7 +49,7 @@ On the top left of the screen, significant functionalitfy is accessed via the me
     * the power plants by number, energy source and output in MW
     *   **EXAMPLE OUTPUT FOR USA: POWER PLANTS DISTRIBUTED BY NUMBER, SOURCE & MW**
 
-        <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+        <figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
     It gives a quick picture of the shape and composition of power generation and power networks.
 * **Export:** This link details scope of the Open Infrastructure Map data, the available formats for export and their limitations, and gives access to purchase exported data, along with the relevant terms and conditions. At the time of writing on 30/7/25 prices ranged from GBP 80 for a power export per country to GBP 700 for a power export worldwide
