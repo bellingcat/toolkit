@@ -98,7 +98,7 @@ Using the nighttime lights feature: [https://mapyourgrid.org/tools/](https://map
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                               |
-| --------------------------------------------- |
-| sophie 31 07 25 15:18 UK; scoot 7/30/25 21:28 |
-|                                               |
+| Page maintainer |
+| --------------- |
+| Sophie/Sarah    |
+|                 |
