@@ -107,7 +107,6 @@ jobs:
             }' -f org=$ORGANIZATION -F number=$PROJECT_NUMBER > project_data.json
           #'
           echo 'PROJECT_ID='$(jq '.data.organization.projectV2.id' project_data.json) >> $GITHUB_ENV
-          cat project_data.json
 
       - name: Get project data
         env:
@@ -158,7 +157,7 @@ jobs:
                   id
                 }
               }
-            }'-f project=$PROJECT_ID -F tool=$TOOL_NAME --jq '.data.addProjectV2ItemById.item.id'
+            }' -f project=$PROJECT_ID -F tool=$TOOL_NAME --jq '.data.addProjectV2ItemById.item.id'
             # echo 'ITEM_ID='$item_id >> $GITHUB_ENV
 
 
