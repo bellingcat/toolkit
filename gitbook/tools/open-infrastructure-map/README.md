@@ -29,7 +29,7 @@ The basic advantage of the tool is that it reveals the infrastructure data conta
 
 The tool presents a globe that the user can turn in order to zoom in on a geographical location of interest.  A location can also be selected by either typing a name or entering latitude and longitude co-ordinates into the search box on the top left of the screen. &#x20;
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p><strong>EXPLODED VIEW OF THE OPEN INFRASTRUCTURE MAP INTERFACE, SHOWING SOME OF THE FEATURES AVAILABLE</strong></p></figcaption></figure>
 
 Clicking the **Layers button** on the right of the screen opens a checkbox list of various types of infrastructure that the user can select or deselect for display.  Clicking the **Key button** provides a guide to interpreting the icons and colored lines representing various infrastructure types, which the user can consult to identify the infrastructure being displayed. For example, an icon of a tower denotes a telecom tower; a red line represents a ≥ 220 kV powerline, and so forth. &#x20;
 
@@ -43,15 +43,13 @@ On the top left of the screen, one can access significant functionality via the 
 * **Stats:** This link allows for selecting an area (usually a country) to obtain statistical information on its electricity network; specifically:
   *   The proportions of different voltage power lines and their cumulative length:
 
-      *   **EXAMPLE OUTPUT FOR USA: POWER LINES WITH DISTRIBUTION BY VOLTAGE & LENGTH:**
+      <figure><img src=".gitbook/assets/statsUS3.JPG" alt=""><figcaption><p><strong>EXAMPLE OUTPUT FOR USA: POWER LINES WITH DISTRIBUTION BY VOLTAGE &#x26; LENGTH:</strong></p></figcaption></figure>
 
-          <figure><img src=".gitbook/assets/statsUS3.JPG" alt=""><figcaption></figcaption></figure>
-      * (<mark style="color:$warning;">am trying to move this bullet once to the left so that it aligns with the above "The proportions" bullet, but when I do, it seems to move the below sentence — the one that begins with "It gives a quick picture of the shape and composition..."</mark>) The power plants by number, energy source and output in megawatts (MW):
-        *   **EXAMPLE OUTPUT FOR USA: POWER PLANTS DISTRIBUTED BY NUMBER, SOURCE & MW:**
+      *   &#x20;The power plants by number, energy source and output in megawatts (MW):
 
-            <figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+          <figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p><strong>EXAMPLE OUTPUT FOR USA: POWER PLANTS DISTRIBUTED BY NUMBER, SOURCE &#x26; MW</strong></p></figcaption></figure>
 
-      It gives a quick picture of the shape and composition of power generation and power networks (<mark style="color:$warning;">am unclear about this bit - is it supposed to pertain to the above power line and substation count graphic?</mark>).
+      These statistics givee a quick picture of the shape and composition of power generation and power networks.
 * **Export:** This link details the scope of the Open Infrastructure Map data, the available formats for export and their limitations, and gives access to purchase exported data, along with the relevant terms and conditions. At the time of writing on 30/7/25, prices ranged from GBP 80 for a power export per country to GBP 700 for a power export worldwide.
 
 Since Open Infrastructure Map aids in infrastructure visibility, it could assist in pursuits as varied as [researching a country's oil infrastructure](./#url),  helping companies focused on energy infrastructure planning, or assisting authorities with emergency preparedness, among many other uses.
@@ -78,7 +76,7 @@ Open Infrastructure Map may be incomplete or contain outdated information.
 
 The infrastructure paths on the map may be schematic, i.e. they may omit information such as the exact path of the infrastructure — for example, a data cable — in favour of clearly displaying where the cable starts and finishes. (London's 'Tube' maps are a good example of schematic maps.)
 
-The data exports provided by the tool are validated to work correctly with Google Earth Pro, but due to their size, they may not work in all applications that consume KML (<mark style="color:$warning;">I don't think the layperson will know what KML is - like me!</mark>). Due to size limitations with Google Earth Pro, KML exports for larger countries (the USA, Russia, and China) are filtered to only include power assets with a voltage rating of 25 kV or above, and generation assets with an output of 50 MW and above. Worldwide KML exports are not possible due to these limitations.
+The data exports provided by the tool are validated to work correctly with Google Earth Pro, but due to their size, they may not work in all applications that consume KML ([Keyhole Markup Language](https://www.geowgs84.com/post/what-exactly-is-a-kml-file-and-how-can-i-create-one)). Due to size limitations with Google Earth Pro, KML exports for larger countries (the USA, Russia, and China) are filtered to only include power assets with a voltage rating of 25 kV or above, and generation assets with an output of 50 MW and above. Worldwide KML exports are not possible due to these limitations.
 
 ## Ethical Considerations
 
@@ -100,7 +98,7 @@ Using the nighttime lights feature: [https://mapyourgrid.org/tools/](https://map
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                            |
-| ------------------------------------------ |
-| sophie 30 07 25 22:35; scoot 7/30/25 21:28 |
-|                                            |
+| Page maintainer                               |
+| --------------------------------------------- |
+| sophie 31 07 25 15:18 UK; scoot 7/30/25 21:28 |
+|                                               |
