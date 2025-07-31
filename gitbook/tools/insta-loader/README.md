@@ -567,7 +567,9 @@ While basic usage (e.g., downloading all posts from a profile) is straightforwar
 
 ## Limitations
 
+{% hint style="warning" %}
 _**Heavy scripted use can trigger temporary locks or permanent bans.**_
+{% endhint %}
 
 1. **Technical Barriers**:
    * Command-line usage can pose a challenge for non-technical users.
