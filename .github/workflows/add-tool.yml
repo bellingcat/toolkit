@@ -150,15 +150,18 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
           TOOL_NAME: ${{ inputs.toolName }}
         run: |
-          gh api graphql -f query='
-            mutation {
+          item_id="( gh api graphql -f query='
+            mutation (
+              $project: ID!
+              $tool: String!
+            ){
               addProjectV2DraftIssue(input: { projectId: $project title: $tool }) {
                 projectItem {
                   id
                 }
               }
-            }' -f project=$PROJECT_ID -F tool=$TOOL_NAME --jq '.data.addProjectV2ItemById.item.id'
-            # echo 'ITEM_ID='$item_id >> $GITHUB_ENV
+            }' -f project=$PROJECT_ID -F tool=$TOOL_NAME --jq '.data.addProjectV2ItemById.item.id' )"
+            echo 'ITEM_ID='$item_id >> $GITHUB_ENV
 
 
       - name: Update status
