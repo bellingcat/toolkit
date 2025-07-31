@@ -10,8 +10,6 @@ description: >-
 
 [https://instaloader.github.io](https://instaloader.github.io)
 
-(as of July 13th, 2025)
-
 {% hint style="warning" %}
 Usage may lead to the loss of the Instagram account being used. Please see Limitations and Ethical Considerations before using this tool.&#x20;
 {% endhint %}
