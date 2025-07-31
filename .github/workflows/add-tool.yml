@@ -150,7 +150,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
           TOOL_NAME: ${{ inputs.toolName }}
         run: |
-          item_id="( gh api graphql -f query='
+          item_id="$( gh api graphql -f query='
             mutation (
               $project: ID!
               $tool: String!
