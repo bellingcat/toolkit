@@ -1,5 +1,5 @@
 ---
-description: Download pictures or videos with metadata from Instagram.
+description: Download pictures or videos (with metadata) from Instagram.
 ---
 
 # InstaLoader
