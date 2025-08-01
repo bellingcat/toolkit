@@ -226,7 +226,6 @@ async function createToolOnGitbook(toolName, category, email) {
 }
 
 async function findSpace(name, page='') {
-  debug("searching for existing space", page);
   const spaces = readSpaces();
   const space = spaces.find((space) => space.title === name);
   if (space) {
@@ -336,6 +335,13 @@ async function createTeam(name) {
 
   return data;
 }
+
+async function fetchChangeRequests(space) {
+  const data = await apiCall(`https://api.gitbook.com/v1/spaces/${space.id}/change-requests`, {
+    method: 'GET'
+  });
+  return data;
+}
 function removeTool(toolName) {
   // Remove the tool directory
   if (fs.existsSync(`gitbook/tools/${toolName}`)) {
@@ -374,6 +380,7 @@ export default {
   createToolOnGitbook,
   fetchTeams,
   fetchSpaces,
+  fetchChangeRequests,
   findSpace,
   publishTool,
   removeTool,
