@@ -9,7 +9,6 @@ description: This is the JSON codeblock for this tool
 {
   "name": "youtube-dl",
   "url": "http://rg3.github.io/youtube-dl/",
-  "description": "Python tool to download from a variety of sources. Select video / audio formats, quality etc. Updated frequently to support parsing the relevant sources (alternate link: youtube-dl.org)",
   "cost": "Free",
   "tags": [
     "youtube"
