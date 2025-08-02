@@ -12,11 +12,11 @@ description: >-
 
 ## Description
 
-The Environmental Investigation Agency (EIA) Global Environmental Crime Tracker is a central public database which provides information about different types of international crime. Using publicly available information including government reports, enforcement agency press releases and non-governmental and academic papers, international news coverage and details from partner NGOs, the tracker allows the user to track global trends through tools such as dashboards and maps. The EIA is headquartered in the United States with additional offices in the United Kingdom.
+The Environmental Investigation Agency (EIA) Global Environmental Crime Tracker is a central public database which provides information about different types of international crime. Using publicly available information including government reports, enforcement agency press releases and non-governmental and academic papers, international news coverage and details from partner NGOs, the tracker allows the user to track global trends through tools such as dashboards and maps. The EIA's offices are in the United Kingdom.
 
 The tracker can illustrate smuggling and trafficking hotspots as well as transportation routes.
 
-According to the EIA, the tracker covers criminal activity in Asia, Africa and Europe and has previously focused on elephants, pangolins, rhinos, tigers, leopards in their Asian range, snow leopards, clouded leopards, the totoaba fish and timber. In April 2022, the tracker was updated to include illegal trade of hydrofluorocarbon (HFC) climate-harming gases. The EIA hopes to add other types of environmental crime in the future.
+According to the EIA, the tracker covers criminal activity in Asia, Africa and Europe and has previously focused on elephants, pangolins, rhinos, tigers, leopards in their Asian range, snow leopards, clouded leopards, the totoaba fish and timber. In April 2022, the tracker was updated to include illegal trade of hydrofluorocarbon (HFC) climate-harming gases. The EIA hopes to add other types of environmental crime in the future, as it currently does not cover Latin America, Antarctica or Oceania.
 
 ## Cost
 
