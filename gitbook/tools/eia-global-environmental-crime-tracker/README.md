@@ -40,7 +40,7 @@ The EIA acknowledges it is a small NGO with a limited capacity to collect data. 
 
 ## Ethical Considerations
 
-The EIA acknowledges one of its donors is the UK government through the IWT Challenge Fund
+The EIA acknowledges one of its donors is the UK government through the IWT Challenge Fund, which specifically [supports](https://eia-international.org/global-environmental-crime-tracker/) the EIA's prosecution dashboard.
 
 ## Guide
 
