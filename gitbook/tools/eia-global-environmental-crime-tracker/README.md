@@ -16,7 +16,7 @@ The Environmental Investigation Agency (EIA) Global Environmental Crime Tracker 
 
 The tracker can illustrate smuggling and trafficking hotspots as well as transportation routes.
 
-According to the EIA, the tracker covers criminal activity in Asia, Africa and Europe and has previously focused on elephants, pangolins, rhinos, tigers, leopards in their Asian range, snow leopards, clouded leopards, the totoaba fish and timber. In April 2022, the tracker was updated to include illegal trade of hydrofluorocarbon (HFC) climate-harming gases. The EIA hopes to add other types of environmental crime in the future, as it currently does not cover Latin America, Antarctica or Oceania.
+According to the EIA, the tracker covers criminal activity in [North American, Asia, Africa and Europe](https://eia-international.org/about-us/where-do-we-work/) and has [focused](https://eia-international.org/our-investigations/global-environmental-crime-tracker-2/) on elephants, pangolins, rhinos, tigers, leopards in their Asian range, snow leopards, clouded leopards, the totoaba fish and timber. In April 2022, the tracker was updated to include illegal trade of hydrofluorocarbon (HFC) climate-harming gases. The EIA hopes to add other types of environmental crime in the future, as it currently does not cover Latin America, Antarctica or Oceania.
 
 ## Cost
 
