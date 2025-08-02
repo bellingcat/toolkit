@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-The Environmental Investigation Agency (EIA) Global Environmental Crime Tracker is a central public database which provides information about different types of international crime. Using publicly available information including government reports, enforcement agency press releases and non-governmental and academic papers, international news coverage and details from partner NGOs, the tracker allows the user to track global trends through tools such as dashboards and maps.&#x20;
+The Environmental Investigation Agency (EIA) Global Environmental Crime Tracker is a central public database which provides information about different types of international crime. Using publicly available information including government reports, enforcement agency press releases and non-governmental and academic papers, international news coverage and details from partner NGOs, the tracker allows the user to track global trends through tools such as dashboards and maps. The EIA is headquartered in the United States with additional offices in the United Kingdom.
 
 The tracker can illustrate smuggling and trafficking hotspots as well as transportation routes.
 
