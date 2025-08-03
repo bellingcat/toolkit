@@ -87,17 +87,13 @@ Determination of the purpose, nature or further details of an entity seen in an 
 
 ## Limitations
 
-1. Spot gives various errors. These are the different errors users will come across:
+1. Spot gives various errors. These are some of the different errors users will come across:
 
-<figure><img src=".gitbook/assets/Cologne system hickup.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/geometry2025-07-05 at 22.04.20.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/London Unknown error copy.png" alt=""><figcaption></figcaption></figure>
+<div><figure><img src=".gitbook/assets/Cologne system hickup.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/geometry2025-07-05 at 22.04.20.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/London Unknown error copy.png" alt=""><figcaption></figcaption></figure></div>
 
 &#x20; &#x20;
 
-1. Complex queries can return no results. Simplify the search as much as possible.
+1. Complex queries can return no results so users should simplify their search criteria as far as possible.
 2. The tool exhibits srange behaviour. Sometimes results may not meet the search criteria.
 3. Some queries may take time to get results.&#x20;
 4. Spot is based on OpenStreet Map Data. Anything not found in OSM’s database will not be returned in results.
