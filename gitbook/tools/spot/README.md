@@ -87,7 +87,7 @@ Determination of the purpose, nature or further details of an entity seen in an 
 
 ## Limitations
 
-1. Hiccups → errors: Spot is \[add screenshots of three errors here]
+1. Spot gives various errors. These are the different errors users will come across:
 
 <figure><img src=".gitbook/assets/Cologne system hickup.png" alt=""><figcaption></figcaption></figure>
 
