@@ -63,7 +63,7 @@ The integration of mapping services like Google, Yandex, and Bing further enhanc
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+The tool was developed by [DW Innovation](https://innovation.dw.com/en/articles) and is [co-funded](https://corporate.dw.com/en/geolocation-made-easy-with-new-dw-tool-spot/a-71256709) by the “German Secretary of State for Culture and the Media (BKM) via the KID2 Project (Künstliche Intelligenz gegen Desinformation #2).”
 
 ## Advertising Trackers
 
