@@ -95,12 +95,13 @@ Determination of the purpose, nature or further details of an entity seen in an 
 
 <figure><img src=".gitbook/assets/London Unknown error copy.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;    Hallucinates.&#x20;
+&#x20; &#x20;
 
 1. Complex queries can return no results. Simplify the search as much as possible.
-2. Some queries may take time to get results.&#x20;
-3. Spot is based on OpenStreet Map Data. Anything not found in OSM’s database will not be returned in results.
-4. Results may not always be accurate and should be double-checked against other mapping tools like Google Maps, OpenStreetMap, including street-view photography.
+2. The tool exhibits srange behaviour. Sometimes the results may not represent of the search query.
+3. Some queries may take time to get results.&#x20;
+4. Spot is based on OpenStreet Map Data. Anything not found in OSM’s database will not be returned in results.
+5. Results may not always be accurate and should be double-checked against other mapping tools like Google Maps, OpenStreetMap, including street-view photography.
 
 
 
