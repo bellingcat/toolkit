@@ -87,7 +87,15 @@ Determination of the purpose, nature or further details of an entity seen in an 
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+1. Hiccups → errors: Spot is \[add screenshots of three errors here]
+2. Hallucinates.&#x20;
+3. Complex queries can return no results. Simplify the search as much as possible.
+4. Some queries may take time to get results.&#x20;
+5. Spot is based on OpenStreet Map Data. Anything not found in OSM’s database will not be returned in results.
+6. Results may not always be accurate and may represent a broader area. For instance, in the Paris search, the rectangular box shown below shows a large search area, and does not represent the exact elements from our search. Make sure to double-check your findings against other mapping tools like Google Maps and OpenStreetMap.
+7. Just because it says it's AI-powered doesn't mean the tool is a magic wand that fulfills every wish, especially when it comes to searching for geolocation. AI here should not be conflated with accuracy, as [LLMs](https://www.bellingcat.com/resources/how-tos/2025/06/06/have-llms-finally-mastered-geolocation/) have come a long way in helping geolocate images, but are still far from mastering it.
+
+Something about how the LLM was trained in a way that may introduce biases, as it may not be all-encompassing.
 
 ## Ethical Considerations
 
