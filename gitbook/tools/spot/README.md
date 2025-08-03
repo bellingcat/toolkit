@@ -1,7 +1,8 @@
 ---
 description: >-
   A natural language (i.e. human conversational language) interface for querying
-  OpenStreetMap to find locations which meet the user's search criteria.
+  the OpenStreetMap database to find locations which meet the user's search
+  criteria.
 ---
 
 # Spot
@@ -12,7 +13,7 @@ https://www.findthatspot.io
 
 ## Description
 
-Spot provides an interface to Open Street Map, which is a free, open map database of the world, updated and maintained by a community of volunteers via collaborative working. Open Street Map contains the locations of a large number of features such as buildings and infrastructure, e.g. town hall, water, pylon, railway. The Spot user can describe a location search in terms of these features and a given search area, and Spot will return a map showing those candidate groups of features whenever they meet the user's criteria. The location can be described in terms of a large vocuabulary of map features, their proximity and their geography. A common OSINV use case involves the user describing an image or video frame which they want to geolocate, and using Spot to generate potential solution locations around a particular geographic region like a named city.
+Spot provides an interface to Open Street Map, which is a free, open map database of the world, updated and maintained by a community of volunteers via collaborative working. Open Street Map contains the locations of a large number of features such as buildings and infrastructure, e.g. town hall, water, pylon, railway. The Spot user can describe a location search in terms of these features and a given search area, and Spot will return a map showing those candidate groups of features whenever they meet the user's criteria. The location can be described in terms of a large vocabulary of map features, their proximity and their geography. A common OSINV use case involves the user describing an image or video frame which they want to geolocate, and using Spot to generate potential solution locations around a particular geographic region like a named city.
 
 \---------------------------------------------reworked down to here-----------------------------------------
 
