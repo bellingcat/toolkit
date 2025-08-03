@@ -33,6 +33,42 @@ The integration of mapping services like Google, Yandex, and Bing further enhanc
 
 \[Need Venn diagram or a hierarchy demonstrating tool to show the issues of categorization, e.g. we want all military bases. If the system has categorized police buildings separately, we will need to search for those separately: they will not be returned within a military bases search. If the system has a hierarchy within which police buildings are a subset of military bases, then police buildings will be returned in a military bases search. This is an important point about categorisations.]
 
+### The Interface
+
+
+
+
+
+Data Input, Output and Formats
+
+{% tabs %}
+{% tab title="INPUT DATA" %}
+Natural language description of a location to be found - includes entities at the location, their relative proximity and the geographic search area.
+
+OR
+
+Overpass Turbo query - references entities with the appropriate OSM tags, describes their relative proximity with distances and provides the geographic search area. (Search parameters)
+{% endtab %}
+
+{% tab title="SPOT OUTPUT DATA" %}
+Location map marking all entities in groups which satisfy the search criteria, but not marking those groups individually.
+{% endtab %}
+
+{% tab title="USE CASES" %}
+Geolocation of photograph/video imagery
+
+Determination of the purpose, nature or further details of an entity seen in an image at a known location, e.g. the tall building is a place of worship.
+{% endtab %}
+
+{% tab title="DATA INPUT OPTIONS" %}
+
+{% endtab %}
+{% endtabs %}
+
+
+
+
+
 ## Cost
 
 * [x] Free
