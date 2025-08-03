@@ -93,6 +93,8 @@ Determination of the purpose, nature or further details of an entity seen in an 
 
 <figure><img src=".gitbook/assets/London Unknown error.png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src=".gitbook/assets/geometry2025-07-05 at 22.04.20.png" alt=""><figcaption></figcaption></figure>
+
 Hallucinates.&#x20;
 
 1. Complex queries can return no results. Simplify the search as much as possible.
