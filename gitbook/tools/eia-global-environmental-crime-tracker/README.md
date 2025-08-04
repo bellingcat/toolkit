@@ -36,7 +36,7 @@ Internet access is required to use the tracker.
 
 ## Limitations
 
-The EIA acknowledges it is a small NGO with a limited capacity to collect data. Not all information is available by open-source means and the EIA does not have the resources to contact all law enforcement agencies at the local level. While the EIA tries to fill in gaps wherever possible, it does not have the resources to identify and all seizure and prosecutions.&#x20;
+The EIA is a small NGO with a limited capacity to collect data. Not all information is available by open-source means and the EIA does contact all law enforcement agencies at the local level. It also does not identify all seizure and prosecutions.&#x20;
 
 ## Ethical Considerations
 
