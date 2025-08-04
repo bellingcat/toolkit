@@ -1,5 +1,5 @@
 ---
-description: KartaView is a crowdsourced, street-level imagery platform.
+description: KartaView is a crowdsourced platform for street view imagery.
 ---
 
 # KartaView
@@ -10,32 +10,76 @@ description: KartaView is a crowdsourced, street-level imagery platform.
 
 ## Description
 
-KartaView is an open-source, collaborative street-level imagery platform designed to enhance mapping efforts by providing detailed visual context. It leverages crowdsourced photos to help validate and improve map data, making it a valuable resource for contributors to mapping projects like OpenStreetMap. Users can upload their own street-level photographs or explore those submitted by others, facilitating a comprehensive understanding of specific locations.&#x20;
+KartaView is a crowdsourced and [partially open-source](https://github.com/kartaview) street view imagery platform, with particularly extensive coverage in South East Asia. Contributors from anywhere in the world can upload imagery including 360° photos, vehicle dashcam photos, or series of photos captured by users traveling along a route in a vehicle, bicycle, or on foot.
 
-KartaView offers coverage in some areas where Google lacks coverage. The uploaded images include some metadata, such as timestamps, device, and operating system.
+For open-source researchers, KartaView can serve as an additional or alternative reference point to Google's street view. KartaView also provides an JOSM (Java OpenStreetMap Editor) extension where users can update or verify [OpenStreetMap](https://www.openstreetmap.org/) data.&#x20;
 
-**Features:**
+KartaView's imagery is [licensed](https://kartaview.org/terms) under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en), which means that users can share or adapt the imagery with attribution and under the same or compatible license.
 
-* **Compass**: compass north indicator.
-* **Coverage:** Global but can be limited in some areas.
-* **Edit data**: OSM and traffic signs are taggable.
-* **Full screen mode**
-* **High definition image** **toggle**.
-* **Image metadata**: street view imagery includes the following metadata: Coordinates, Date and time Recorded, Track Distance, Photos, Camera Type, FOV
-* **Image thumbnail toggle**
-* **Language:** limited to English.
-* **Location search:** search by location name or coordinates.
-* **Zoom tool:** zoom in and out on the map.
+KartaView is owned by GrabMaps, a mapping technology arm of Grab Holdings. Leveraging Grab's operations in Southeast Asia (in ride-sharing, food and grocery delivery, and digital payment), GrabMaps regularly commissions Grab drivers and [provides equipment](https://www.gizguide.com/2025/04/grab-hardware-innovations.html) and training for drivers to contribute to mapping.&#x20;
 
-The example below shows the results of searching for _Amsterdam,_ selecting a road and the imagery filmed on the road: &#x20;
+### Finding available street view imagery
 
-<figure><img src=".gitbook/assets/Screenshot 2024-05-09 at 8.17.58 AM.png" alt="Screenshot of searching for Amsterdam, selecting a road and the imagery filmed on the road. The image shows a street in Amsterdam with a large building in the background.  and "><figcaption><p>Screenshot of searching for <em>Amsterdam,</em> selecting a road and the imagery filmed on the road</p></figcaption></figure>
+Search by keyword, address, or coordinates. If you see an empty map, make sure to zoom in to see the purple lines.&#x20;
+
+<figure><img src=".gitbook/assets/KartaView_Nakhon Ratchasima.png" alt="" width="563"><figcaption><p>Purple lines indicate available street view imagery in KartaView. This is an example from searching Nakhon Ratchasima, Thailand.</p></figcaption></figure>
+
+Zoom in even more and click on the purple line to reveal the available tracks. Green dots indicate that images are available, and the larger bubbles correspond to the thumbnails shown at the bottom.&#x20;
+
+<figure><img src=".gitbook/assets/tracks_.png" alt=""><figcaption><p>Location in Bandung, Indonesia. Note that some street view images (green dots) are between buildings or inside buildings, indicating that these were captured by pedestrians or motorcycles. </p></figcaption></figure>
+
+Appearing at the bottom of the screen, the Tracks are series of images available for that location. Shown under the thumbnails are the distance traveled, the number of photos, and the date of image capture (note: not the date of upload).
+
+<figure><img src=".gitbook/assets/tracks (1).png" alt=""><figcaption></figcaption></figure>
+
+### Metadata
+
+Each uploaded image contains metadata including coordinates, date and time of recording, and the device used for image capture. The metadata is generated in the uploading process, either directly from the camera's EXIF info or from a custom GeoJSON file (see [KartaView GitHub documentation, point 2](https://github.com/kartaview/upload-scripts)).&#x20;
+
+<figure><img src=".gitbook/assets/metadata.png" alt=""><figcaption><p>Most of the images uploaded by KartaView users are sequences of still photos, and do not support 360° panning. </p></figcaption></figure>
+
+### 3D mapping
+
+KartaView offers the functionality of uploading and visualizing 3D point cloud data — although this function appears to be still in beta and not widely adopted. Contributors can upload 3D scans of architecture or geographical features in LiDAR or 3D mesh files (see [documentation](https://3d.kartaview.org/explore#10/1.3521/103.8198) for file formats), and KartaView's [3D viewer](https://kartaview.org/doc/uploads-3d) will visualize and map the data as point cloud data.&#x20;
+
+<details>
+
+<summary>LiDAR — Light Detection and Ranging</summary>
+
+LiDAR ([Light Detection and Ranging](https://oceanservice.noaa.gov/facts/lidar.html)) is a remote sensing method that uses infrared light pulses to determine the distance from the sensor to the surface of an object. \
+\
+Users of iPhone Pro and Pro Max already have a LiDAR scanner available (since the iPhone 12 Pro and Pro Max, launched 2020), which works to improve photos taken in low-light conditions and requiring depth sensing.&#x20;
+
+KartaView has [developed 3D cameras and dashcams](https://www.gizguide.com/2025/04/grab-hardware-innovations.html) for both the [in-house use of Grab](https://www.grab.com/sg/inside-grab/stories/kartacam-2-grab-new-map-making-camera-launch/) and as a hardware business. The latest models of these cameras are compatible with LiDAR technology and are also sold on the [KartaView website](https://store.kartaview.org/).
+
+</details>
+
+### Advantage in Southeast Asia
+
+**Contribution to OpenStreetMap**: GrabMaps claims to have added (since 2017) [900,000km of roads and 50 million points of interest](https://www.gizguide.com/2025/04/grab-hardware-innovations.html) to OpenStreetMap that were not previously available. These contributions have been made by Grab drivers, merchants and customers. (We are unable to independently verify the claimed numbers.)
+
+**Hyperlocal mapping**: In GrabMaps' statements, roads in Southeast Asia that are added to KartaView include [alleyways](https://www.grab.com/sg/inside-grab/stories/mapping-hidden-roads-alleys-southeast-asia-driver-partners/) that cannot be navigated using four-wheeled vehicles. The intention is to facilitate more efficient delivery routing for Grab drivers.&#x20;
+
+**Available 360° imagery**: [KartaView provides 360° imagery in urban areas in Southeast Asia](https://kartaview.org/landing/open-imagery) — particularly in Thailand, Indonesia, the Philippines, Malaysia, and Vietnam. The full dataset is available via KartaView in the web browser and also for download (subject to user registration and provision of full name, work email, and company).&#x20;
+
+### Available formats
 
 KartaView is available in the following formats:
 
-* Web
-* Mobile
-* API
+* Web browser
+* Mobile app, which can be used to record geodata and street view imagery.
+* API, [https://kartaview.org/doc/](https://kartaview.org/doc/)
+* JOSM (Java OpenStreetMap Editor) extension ([link](https://wiki.openstreetmap.org/wiki/JOSM/Plugins/KartaView)). This is an offline desktop application (Mac, PC, Linux) that allows the user to edit and enrich OpenStreetMap data by leveraging 360° images from KartaView. For instance, upon uploading new images, users can manually pinpoint the exact location on OpenStreetMap and tag any traffic signs appearing on the image.&#x20;
+
+## Similar tools
+
+[**Mapillary**](https://www.mapillary.com/app/) ([Bellingcat toolkit description](https://bellingcat.gitbook.io/toolkit/more/all-tools/mapillary)), which is owned by Meta, also offers street view imagery uploaded by users. Mapillary [positions itself](https://blog.mapillary.com/update/2024/01/12/Mapillary-10-Years-2-Billion-Images.html) as having a large user base and an active community, and it was an early mover in using artificial intelligence in feature detection (as reported in [2019](https://geospatialworld.net/news/mapillary-puts-186-million-ai-generated-map-features-on-global-map/)). In practice, researchers are encouraged to access street view imagery in both Mapillary and KartaView as these can be complementary resources.&#x20;
+
+Note a key difference in user experience design: Whereas KartaView's global or country-level map could appear empty unless the user zooms in further, Mapillary takes the opposite design approach. Mapillary's global map gives the impression of ample imagery available in very dense distribution. Upon zooming in to a city or neighborhood, there are thin green lines that indicate the actual availability of imagery.&#x20;
+
+**KartaView's licensing is more open than Google Maps:** KartaView's street view imagery and API are under the CC-BY-SA license, enabling anyone to use the images and data with proper attribution and an equivalent license, including for commercial or non-commercial purposes. In comparison, Google Maps' licensing is more restrictive: non-commercial use is allowed with proper attribution, and commercial use is subject to copyright and requires authorization.&#x20;
+
+A related tool is **ZenSVI** ([GitHub](https://github.com/koito19960406/ZenSVI); [documentation](https://zensvi.readthedocs.io/en/latest/)), a Python package for analyzing street view imagery, developed by a lab at the National University of Singapore. Using this package, researchers can download street view imagery from Mapillary and KartaView, analyze the metadata, and extract features using computer vision models. The package also supports transforming the imagery into different formats (e.g., depth map, point cloud) and visualizing the output.&#x20;
 
 ## Cost
 
@@ -49,58 +93,37 @@ KartaView is available in the following formats:
 
 ## Requirements
 
-* **Web:** any modern we browser.&#x20;
+* **Web:** any modern web browser.&#x20;
 * **Mobile**: iOS and Android.
-* **API:** an email for a user account and an API key.
+* **API:** Public endpoints do not require authentication. To access authenticated endpoints, API users provide an email for a user account and an access key.&#x20;
+* JOSM: Any major operating system.
 
 ## Limitations
 
-KartaView has the following limitations:
-
-* **Coverage**: KartaView's coverage is uneven, being heavily dependent on community contributions. Some areas, particularly rural or less populated regions, may have few to no images. This issue is covered in [Street view imagery in urban analytics and GIS: A review](https://www.sciencedirect.com/science/article/pii/S0169204621001808) and [A comprehensive framework for evaluating the quality of street view imagery](https://www.sciencedirect.com/science/article/pii/S1569843222002825).
-* **Up-to-Date Information**: As with any community-driven project, there can be a delay between when an image is captured and when it is available on KartaView. This means some images may not reflect the current state of the location.
-* **Privacy Concerns**: Although KartaView blurs faces and license plates in images automatically, there's a potential for sensitive information to be captured inadvertently.
-* **Technical Requirements**: To contribute, users need a smartphone with a GPS and a camera or a dedicated GPS-enabled camera. This may limit participation from those without the necessary technology.
-* **API Rate limits**: The API will have rate limits but these are not documented.
+* **Limited availability of 360° imagery**: In most regions globally, imagery uploaded to KartaView are series of still images rather than 360° images that allow panning in different directions.
+* **Uneven coverage or updating frequency**: User-generated imagery may not be updated frequently, and may not reflect the current state of the location.&#x20;
+* **Inconsistent image quality**: Image quality can differ, depending on the recording conditions, recording device, or file compression techniques. (Some imagery on KartaView may have been recorded in low-light settings or in low resolution.) Compared to tech companies (such as Google Maps) that operate a standardized fleet of vehicles with professional recording equipment, KartaView has less control over image quality or recording conditions.&#x20;
+* **Accuracy of metadata**: Researchers using KartaView's imagery should be aware that the metadata (e.g., coordinates or times) provided may not always be accurate. Additional verification is advisable.&#x20;
+* **API Rate limits**: The rate limits are 1,000 requests per hour with authentication, and 100 requests per hour with the public API.
+* **Requiring zoom-in to check for available imagery:** From the web browser, Kartaview is designed such that the global or country-level view appear relatively empty, giving the impression that street view imagery is not available. Only when zoomed in to a city or neighborhood, more purple lines will appear.&#x20;
 
 ## Ethical Considerations
 
-When using KartaView for research purposes, several ethical considerations must be taken into account:
-
-* **Privacy and Anonymity**: Even though KartaView makes efforts to blur faces and license plates, researchers should consider the implications of using images that might inadvertently reveal identifying details of individuals or private properties.
-* **Consent**: The people captured in the images have not given their explicit consent to be photographed or to have their images used for research. Researchers need to weigh the public interest of their work against the privacy expectations of individuals.
-* **Accuracy and Representation**: Areas with less coverage may be underrepresented in research findings, affecting the accuracy and fairness of any conclusions drawn.
-
-## Guide
-
-**Tutorials and Articles**
-
-* _Geospatial OSINT Investigations Tips & Techniques_ (no date). Available at: [https://www.skopenow.com/resource-center/geospatial-osint-investigations-tips-techniques](https://www.skopenow.com/resource-center/geospatial-osint-investigations-tips-techniques) (Accessed: 9 May 2024).
-* ‘Nixintel Open Source Intelligence & Investigations Six Tools To Help With Geolocation’ (2022) _Nixintel Open Source Intelligence & Investigations_, 24 July. Available at: [https://nixintel.info/osint-tools/six-tools-to-help-with-geolocation/](https://nixintel.info/osint-tools/six-tools-to-help-with-geolocation/) (Accessed: 9 May 2024).
-
-#### Video Tutorials
-
-* _OSINT At Home #11 – Six street view applications to explore the world_ (2021). Available at: [https://www.youtube.com/watch?v=j5BMtXIpRHo](https://www.youtube.com/watch?v=j5BMtXIpRHo) (Accessed: 9 May 2024).
-
-#### Developer Resources
-
-* [https://doc.kartaview.org/](https://doc.kartaview.org/)
-
-**Community and Support**
-
-* FAQ available [https://kartaview.org/landing](https://kartaview.org/landing)
+* **Privacy and Anonymity**: KartaView applies machine learning algorithms to blur faces, license plates, and house numbers when users upload new images. However, these algorithms can still be inadequate, as illustrated in [KartaView's discussion of past issues](https://www.grab.com/sg/inside-grab/stories/blurring-faces-and-licence-plates-in-street-level-images-to-protect-privacy/) (e.g., not blurring details shown in mirror reflections). If encountering images that contain identifying details of individuals or private properties, researchers should exercise prudence and consider the implications of using such images.&#x20;
+* **Accuracy and Representation**: Like any crowdsourced platform, Kartaview's street view imagery tends to disproportionately represent [developed countries and urban areas](https://www.sciencedirect.com/science/article/pii/S1569843222002825). In comparison, [developing countries](https://www.nature.com/articles/d44148-023-00204-1), rural areas or sparsely populated regions are underrepresented, or may show outdated street view images.\
+  Researchers focusing on developing regions should take extra steps to seek out local or alternative providers of maps or street view imagery to ensure accuracy and comprehensiveness. Please see [this Wikipedia article](https://en.wikipedia.org/wiki/List_of_street_view_services) for a list of local providers of street view imagery.
 
 ## Tool provider
 
-Grab [https://www.grab.com/](https://www.grab.com/) - Singapore
+KartaView is owned by GrabMaps, [https://grabmaps.grab.com/](https://grabmaps.grab.com/) - Singapore. GrabMaps is part of [Grab Holdings](https://www.grab.com/sg/).&#x20;
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat Volunteer Team |
-|                           |
+| Page maintainer |
+| --------------- |
+| river\_n        |
+|                 |
