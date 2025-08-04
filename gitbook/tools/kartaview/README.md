@@ -12,7 +12,7 @@ description: KartaView is a crowdsourced platform for street view imagery.
 
 KartaView is a crowdsourced street view imagery platform with a particular focus on providing extensive coverage in Southeast Asia. Contributors from anywhere in the world can upload imagery including 360° photos, vehicle dashcam photos, or series of photos captured by users traveling along a route in a vehicle, bicycle, or on foot.
 
-For open-source researchers, KartaView can serve as an additional or alternative reference point to Google's street view. KartaView also provides an JOSM (Java OpenStreetMap Editor) extension where users can update [OpenStreetMap](https://www.openstreetmap.org/) data.&#x20;
+For open-source researchers, KartaView can serve as an additional or alternative reference point to Google's street view. KartaView also provides an JOSM (Java OpenStreetMap Editor) extension where users can update [OpenStreetMap](https://www.openstreetmap.org/) data as they upload imagery.&#x20;
 
 KartaView's imagery is [licensed](https://kartaview.org/terms) under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en), which means that users can share or adapt the imagery with attribution and under the same or compatible license.
 
