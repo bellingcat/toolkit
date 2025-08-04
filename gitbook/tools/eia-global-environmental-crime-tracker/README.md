@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-The Environmental Investigation Agency (EIA) Global Environmental Crime Tracker is a central public database which provides information about different types of international crime. Using publicly available information [including](https://eia-international.org/global-environmental-crime-tracker/) government reports, enforcement agency press releases and non-governmental and academic papers, international news coverage and details from partner NGOs, the tracker allows the user to track global trends through tools such as dashboards and maps. The EIA's [offices](https://eia-international.org/about-us/contact-us/) are in the United Kingdom.
+The Environmental Investigation Agency (EIA) Global Environmental Crime Tracker is a central public database which provides information about different types of international crime. Using publicly available information [including](https://eia-international.org/global-environmental-crime-tracker/) government reports, enforcement agency press releases and non-governmental and academic papers, international news coverage and details from partner NGOs, the tracker allows the user to track global trends through tools such as dashboards and maps.&#x20;
 
 The [tracker](https://app.powerbi.com/view?r=eyJrIjoiZGJmNGIwODgtMTgyMS00NmVlLWJmNWUtZTAzZDBlMmQ1ODI2IiwidCI6IjBiMzNkZjAwLTYzNGMtNDBlYy1iOGQ5LTZhMGI2MjYyNmU1ZCJ9\&pageName=ReportSection3a4afc2758f1f77c3f32) can illustrate smuggling and trafficking hotspots as well as transportation routes. A researcher can select an animal and examine various types of data associated with it, which is unique to each animal: a map of incidents, how many incidents happened by year, the destination country, what parts of the animal were harvested and how many. A user can also look at individual trackers for illegal logging, illegal refrigerant gas and illegal logging which includes data including maps of incidents, weight or volume and specific information such as species of timber or types of gas. A researcher may also examine the data by mapping, prosecutors and trade routes.
 
@@ -50,7 +50,7 @@ EIA has a [video](https://www.youtube.com/watch?v=mKfZ7XDxb_4) that offers an ov
 
 ## Tool provider
 
-The EIA, which works to protect the natural world by exposing environmental crimes and abuses and the responsible parties through investigations. The EIA also campaigns for better environmental protection through stronger enforcement of environmental laws, progressive policies and changes in consumer behavior.
+The EIA, which works to protect the natural world by exposing environmental crimes and abuses and the responsible parties through investigations. The EIA also campaigns for better environmental protection through stronger enforcement of environmental laws, progressive policies and changes in consumer behavior. The EIA's [offices](https://eia-international.org/about-us/contact-us/) are in the United Kingdom.
 
 ## Advertising Trackers
 
