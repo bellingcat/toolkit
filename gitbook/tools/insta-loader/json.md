@@ -7,10 +7,7 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "tags": [
-    "instagram"
-  ],
-  "url": "https://instaloader.github.io"
+  "tags": [],
 }
 ```
 {% endcode %}
