@@ -9,7 +9,7 @@ description: >-
 ## URL
 
 [https://distill.io/](https://distill.io/)\
-(last revised July 2nd, 2025)
+(last revised Aug 5th, 2025)
 
 ## Description
 
