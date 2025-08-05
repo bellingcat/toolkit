@@ -2,20 +2,6 @@
 description: A toolkit for open source researchers
 cover: .gitbook/assets/Bellingcat_Toolkit_Ann_Kiernan stretched.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: false
 ---
 
 # About
