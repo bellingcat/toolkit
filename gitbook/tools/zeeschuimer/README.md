@@ -1,13 +1,17 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  Zeeschuimer is a browser extension for collecting social media posts that are
+  visible in your web browser, enabling systematic analysis of content from
+  platforms that are hard to scrape via APIs
 ---
 
 # Zeeschuimer
 
 ## URL
 
-**GitHub:** [digitalmethodsinitiative/zeeschuimer](https://github.com/digitalmethodsinitiative/zeeschuimer) – (Firefox extension download and source code)\
-**Tool page:** [Digital Methods Initiative – Zeeschuimer](https://medialab.sciencespo.fr/en/tools/zeeschuimer/)
+**GitHub:** [https://github.com/digitalmethodsinitiative/zeeschuimer](https://github.com/digitalmethodsinitiative/zeeschuimer) – (Firefox extension download and source code)\
+**Tool page:** [Digital Methods Initiative – Zeeschuimer](https://medialab.sciencespo.fr/en/tools/zeeschuimer/)\
+(Reviewed Version: 1.13.1 on 06. Aug 2025)
 
 ## Description
 
