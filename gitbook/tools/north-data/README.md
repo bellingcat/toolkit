@@ -1,8 +1,8 @@
 ---
+updated: '2025-07-01'
 description: >-
   Search for people and companies in EU corporate and trade registers +
   visualize relationships
-updated: '2025-07-01'
 ---
 
 # North Data
@@ -13,7 +13,7 @@ updated: '2025-07-01'
 
 ## Description
 
-North Data is an online platform offering detailed company information sourced from public records like trade registers, annual reports, funding registers, trademark registers, and patent registers. The platform, primarily focuses on European countries. Coverage (June 2025): **77 million+ companies in 24 European jurisdictions** ([newest additions](https://www.linkedin.com/company/northdata/): Netherlands, Czech Republic & Portugal).
+North Data is an online platform offering detailed company information sourced from public records like trade registers, annual reports, funding registers, trademark registers, and patent registers. The platform, primarily focuses on European countries. Coverage (Aug 2025): **78 million+ companies in 24 European jurisdictions** ([newest additions](https://www.linkedin.com/company/northdata/): Netherlands, Czech Republic & Portugal).
 
 Key features and content include:
 
