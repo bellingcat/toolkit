@@ -68,9 +68,9 @@ Zeeschuimer is completely free to use. It is an open-source project released und
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
-**Easy for most users.** If you’re comfortable [installing a browser add-on](https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox), you can use Zeeschuimer. There’s no coding involved – all interaction is through a simple point-and-click interface in the browser. The slightly technical aspects are: you must use a compatible browser (Firefox or a Firefox-based browser) and you may need to install the extension from a file. The workflow (browsing and clicking “export”) is straightforward, but **be prepared to spend time manually scrolling** through your feed or results to gather the data you need. Overall, on a 5-point scale (5 being very difficult technical tools, and 1 being extremely basic), Zeeschuimer ranks about 2/5 in difficulty.
+**Easy for most users.** If you’re comfortable [installing a browser add-on](https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox), you can use Zeeschuimer. There’s no coding involved – all interaction is through a simple point-and-click interface in the browser. The slightly technical aspects are: you must use a compatible browser (Firefox or a Firefox-based browser) and you may need to install the extension from a file. The workflow (browsing and clicking “export”) is straightforward, but **be prepared to spend time manually scrolling** through your feed or results to gather the data you need.
 
 ## Requirements
 
