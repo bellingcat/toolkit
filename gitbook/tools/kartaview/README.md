@@ -10,7 +10,7 @@ description: KartaView is a crowdsourced platform for street view imagery.
 
 ## Description
 
-KartaView is a crowdsourced street view imagery platform with a particular focus on providing extensive coverage in Southeast Asia. Contributors from anywhere in the world can upload imagery including 360° photos, vehicle dashcam photos, or series of photos captured by users traveling along a route in a vehicle, bicycle, or on foot.
+KartaView is a crowdsourced street view imagery platform, with particularly extensive coverage in South East Asia. Contributors from anywhere in the world can upload imagery including 360° photos, vehicle dashcam photos, or series of photos captured by users traveling along a route in a vehicle, bicycle, or on foot.
 
 For open-source researchers, KartaView can serve as an additional or alternative reference point to Google's street view. KartaView also provides a JOSM (Java OpenStreetMap Editor) extension where users can update [OpenStreetMap](https://www.openstreetmap.org/) data as they upload imagery.&#x20;
 
@@ -20,11 +20,11 @@ KartaView is owned by GrabMaps, a mapping technology arm of Grab Holdings. Lever
 
 ### Finding available street view imagery
 
-Search by keyword, address, or coordinates. If you see an empty map, make sure to zoom in to see the purple lines.&#x20;
+Search by typing a keyword, address, or coordinates into the search box and clicking on the magnifier icon. If you see an empty map, make sure to zoom in using the mouse wheel or the “+” button to see the purple lines.&#x20;
 
 <figure><img src=".gitbook/assets/KartaView_Nakhon Ratchasima.png" alt="" width="563"><figcaption><p>Purple lines indicate available street view imagery in KartaView. This is an example from searching Nakhon Ratchasima, Thailand.</p></figcaption></figure>
 
-Zoom in even more and click on the purple line to reveal the available tracks. Green dots indicate that images are available, and the larger bubbles correspond to the thumbnails shown at the bottom.&#x20;
+Zoom in even more and left-click on the purple line to reveal the available tracks. Green dots indicate that images are available, and the larger bubbles correspond to the thumbnails shown at the bottom.&#x20;
 
 <figure><img src=".gitbook/assets/tracks_.png" alt=""><figcaption><p>Location in Bandung, Indonesia. Note that some street view images (green dots) are between buildings or inside buildings, indicating that these were captured by pedestrians or motorcycles. </p></figcaption></figure>
 
@@ -111,7 +111,7 @@ A related tool is **ZenSVI** ([GitHub](https://github.com/koito19960406/ZenSVI);
 
 * **Privacy and Anonymity**: KartaView applies machine learning algorithms to blur faces, license plates, and house numbers when users upload new images. However, these algorithms can still be inadequate, as illustrated in [KartaView's discussion of past issues](https://www.grab.com/sg/inside-grab/stories/blurring-faces-and-licence-plates-in-street-level-images-to-protect-privacy/) (e.g., not blurring details shown in mirror reflections). If encountering images that contain identifying details of individuals or private properties, researchers should exercise prudence and consider the implications of using such images.&#x20;
 * **Accuracy and Representation**: Like any crowdsourced platform, Kartaview's street view imagery tends to disproportionately represent [developed countries and urban areas](https://www.sciencedirect.com/science/article/pii/S1569843222002825). In comparison, [developing countries](https://www.nature.com/articles/d44148-023-00204-1), rural areas or sparsely populated regions are underrepresented, or may show outdated street view images.\
-  Researchers focusing on developing regions should take extra steps to seek out local or alternative providers of maps or street view imagery to ensure accuracy and comprehensiveness. Please see [this Wikipedia article](https://en.wikipedia.org/wiki/List_of_street_view_services) for a list of local providers of street view imagery.
+  Researchers focusing on developing regions should take extra steps to seek out local or alternative providers of maps or street view imagery to ensure accuracy and comprehensiveness. Please see [Wikipedia Street View Service List](https://en.wikipedia.org/wiki/List_of_street_view_services) for a list of local providers of street view imagery.
 
 ## Tool provider
 
