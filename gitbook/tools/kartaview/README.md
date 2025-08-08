@@ -50,7 +50,7 @@ LiDAR ([Light Detection and Ranging](https://oceanservice.noaa.gov/facts/lidar.h
 \
 Users of iPhone Pro and Pro Max already have a LiDAR scanner available (since the iPhone 12 Pro and Pro Max, launched 2020), which works to improve photos taken in low-light conditions and requiring depth sensing.&#x20;
 
-KartaView has [developed 3D cameras and dashcams](https://www.gizguide.com/2025/04/grab-hardware-innovations.html) for both the [in-house use of Grab](https://www.grab.com/sg/inside-grab/stories/kartacam-2-grab-new-map-making-camera-launch/) and as a hardware business. The latest models of these cameras are compatible with LiDAR technology and are also sold on the [KartaView website](https://store.kartaview.org/).
+KartaView has [developed 3D cameras and dashcams](https://www.gizguide.com/2025/04/grab-hardware-innovations.html) for both the [in-house use of Grab](https://www.grab.com/sg/inside-grab/stories/kartacam-2-grab-new-map-making-camera-launch/) and as a hardware business. The latest models of these cameras are compatible with LiDAR technology.
 
 </details>
 
