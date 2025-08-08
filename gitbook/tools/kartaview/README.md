@@ -58,7 +58,7 @@ KartaView has [developed 3D cameras and dashcams](https://www.gizguide.com/2025/
 
 **Contribution to OpenStreetMap**: GrabMaps claims to have added (since 2017) [900,000km of roads and 50 million points of interest](https://www.gizguide.com/2025/04/grab-hardware-innovations.html) to OpenStreetMap that were not previously available. These contributions have been made by Grab drivers, merchants and customers. (We are unable to independently verify the claimed numbers.)
 
-**Hyperlocal mapping**: In GrabMaps' statements, roads in Southeast Asia that are added to KartaView include [alleyways](https://www.grab.com/sg/inside-grab/stories/mapping-hidden-roads-alleys-southeast-asia-driver-partners/) that cannot be navigated using four-wheeled vehicles. The intention is to facilitate more efficient delivery routing for Grab drivers.&#x20;
+**Hyperlocal mapping**: In GrabMaps' statements, roads in Southeast Asia that are added to KartaView include [alleyways](https://www.grab.com/sg/inside-grab/stories/mapping-hidden-roads-alleys-southeast-asia-driver-partners/) that cannot be navigated using four-wheeled vehicles. The intention is to facilitate more efficient delivery routing for Grab drivers but looking at alleyways can also be useful for open source researchers.
 
 **Available 360° imagery**: [KartaView provides 360° imagery in urban areas in Southeast Asia](https://kartaview.org/landing/open-imagery) — particularly in Thailand, Indonesia, the Philippines, Malaysia, and Vietnam. The full dataset is available via KartaView in the web browser and also for download (subject to user registration and provision of full name, work email, and company).&#x20;
 
