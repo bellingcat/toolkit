@@ -35,11 +35,7 @@ The integration of mapping services like Google, Yandex, and Bing further enhanc
 
 ### The Interface
 
-
-
-
-
-Data Input, Output and Formats
+#### Data Input, Output and Formats
 
 {% tabs %}
 {% tab title="INPUT DATA" %}
@@ -65,11 +61,34 @@ Determination of the purpose, nature or further details of an entity seen in an 
 {% endtab %}
 {% endtabs %}
 
+### Results from Spot
 
+Spot displays results on an interactive map. Potential location matches from the search appear on the map, all at the same time.&#x20;
 
+Entities from the search are highlighted in different colors, and users can select or deselect the ones they want to see on the interface through the “Map Legend” at the bottom left.&#x20;
 
+To confirm which result matches our required location, one must sift through all the available possibilities on the map.&#x20;
 
-## Cost
+For instance, for a search query in the City of London that reads, “Find a building with 10 stories or more within 50m of water and a church in the City of London”, the tool's interface with possible locations (results) looks like this:
+
+<figure><img src=".gitbook/assets/Spot results .png" alt=""><figcaption></figcaption></figure>
+
+The purple blobs on the map legend represent churches, orange indicates water, and red signifies buildings with 10 or more stories. The church, water, and the building can be entities from an image or video showing a specific location that a user is geolocating.
+
+The slide bar on the right allows zooming in on a single location or zooming out to view all results. Clicking on a specific entity from one of the results shows its details, which also include a link to its OSM ID. In this case, clicking on the church indicates that its “denomination” is “Anglican” and was “rebuilt” in “1906.” Click on the OSM ID link for more details.
+
+<figure><img src=".gitbook/assets/Spot church details.png" alt=""><figcaption><p>Details about the church.</p></figcaption></figure>
+
+The exact location where the entity is situated can also be opened in the integrated mapping services like Google Maps, Bing, and Yandex. This ensures location verification through multiple mapping services in one place, thus saving time and allowing for greater flexibility.
+
+Spot has also integrated Google Street View for location verification.  Clicking on “Open Google Street View” opens a window displaying the location's street-level photography. Use this feature to match entities and features against the photo or video being geolocated.
+
+Users can also switch between map layers that include “vector map”, “hybrid view” and “OSM Style Map”. The screenshot below shows a location from search results in the hybrid view and the Google Street View tab showing street-level photography of the selected result.
+
+<figure><img src=".gitbook/assets/Spot hybrid view on map.png" alt=""><figcaption></figcaption></figure>
+
+\
+Cost
 
 * [x] Free
 * [ ] Partially Free
@@ -119,7 +138,7 @@ The tool was developed by [DW Innovation](https://innovation.dw.com/en/articles)
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer                       |
+| ------------------------------------- |
+| Anisa Shabir 7:26 pm PKT on August 10 |
+|                                       |
