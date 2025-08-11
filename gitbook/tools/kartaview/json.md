@@ -7,16 +7,12 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "KartaView",
-  "description": "KartaView is a crowdsourced, street-level imagery platform that allows users to contribute, view, and use photos to enhance and validate map data.",
-  "url": "https://kartaview.org/map",
   "tags": [
     "free",
     "international",
     "kartaview",
     "mapillary",
     "streetview",
-    "maps",
     "geospatial"
   ]
 }
