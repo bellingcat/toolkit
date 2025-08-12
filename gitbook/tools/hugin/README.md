@@ -29,7 +29,7 @@ Hugin is an open-source panorama photo stitching and HDR (High Dynamic Range ima
 
 Hugin is available on the following platforms:
 
-* Linux&#x20;
+* Linux (packages available for Debina, Fedora, Gentoo, Ubuntu, and others)
 * FreeBSD
 * BSD
 * Mac (not Silicon)
@@ -62,15 +62,15 @@ To effectively use Hugin, especially for beginners or those looking to refine th
 
 **Tutorials and Articles**
 
-* _Carpebble - Using Hugin_ (no date). Available at: [https://sites.google.com/site/carpebble/home/360x180-panoramas/using-hugin](https://sites.google.com/site/carpebble/home/360x180-panoramas/using-hugin) (Accessed: 3 June 2024).
-* _Creating linear panoramas with Hugin_ (no date). Available at: [http://www.dojoe.net/tutorials/linear-pano/](http://www.dojoe.net/tutorials/linear-pano/) (Accessed: 3 June 2024).
-* _Hugin Tutorials_ (no date). Available at: [https://hugin.sourceforge.io/tutorials/index.shtml](https://hugin.sourceforge.io/tutorials/index.shtml) (Accessed: 3 June 2024).
+* _Carpebble - Using Hugin_ (no date). Available at: [https://sites.google.com/site/carpebble/home/360x180-panoramas/using-hugin](https://sites.google.com/site/carpebble/home/360x180-panoramas/using-hugin) (Accessed: 4 August 2025).
+* _Creating linear panoramas with Hugin_ (no date). Available at: [http://www.dojoe.net/tutorials/linear-pano/](http://www.dojoe.net/tutorials/linear-pano/) (Accessed: 4 August 2025).
+* _Hugin Tutorials_ (no date). Available at: [https://hugin.sourceforge.io/tutorials/index.shtml](https://hugin.sourceforge.io/tutorials/index.shtml) (Accessed: 4 August 2025).
 
 **Video Tutorials**
 
-* _How To: Hi-Res Panos in Hugin - Advanced_ (2020). Available at: [https://www.youtube.com/watch?v=06jXEJMTQds](https://www.youtube.com/watch?v=06jXEJMTQds) (Accessed: 3 June 2024).
-* _Panorama stitching with Hugin Tutorial Part 1 - Introduction_ (2020). Available at: [https://www.youtube.com/watch?v=DMYlm3D3NhY](https://www.youtube.com/watch?v=DMYlm3D3NhY) (Accessed: 3 June 2024).
-* _Panorama stitching with Hugin Tutorial Part 2 - Expert Mode_ (2020). Available at: [https://www.youtube.com/watch?v=\_Ad1Mi5BzGk](https://www.youtube.com/watch?v=\_Ad1Mi5BzGk) (Accessed: 3 June 2024).
+* _How To: Hi-Res Panos in Hugin - Advanced_ (2020). Available at: [https://www.youtube.com/watch?v=06jXEJMTQds](https://www.youtube.com/watch?v=06jXEJMTQds) (Accessed: 4 August 2025).
+* _Panorama stitching with Hugin Tutorial Part 1 - Introduction_ (2020). Available at: [https://www.youtube.com/watch?v=DMYlm3D3NhY](https://www.youtube.com/watch?v=DMYlm3D3NhY) (Accessed: 4 August 2025).
+* _Panorama stitching with Hugin Tutorial Part 2 - Expert Mode_ (2020). Available at: [https://www.youtube.com/watch?v=\_Ad1Mi5BzGk](https://www.youtube.com/watch?v=_Ad1Mi5BzGk) (Accessed: 4 August 2025).
 
 #### Developer Resources
 
@@ -87,17 +87,17 @@ By utilizing these resources, users can enhance their Hugin experience.
 
 ## Tool provider
 
-Pablo d'Angelo (Original Author, GSoC 2007 and 2008 mentor, German translation, original CMake build, original Windows SD)
+Pablo d'Angelo (Original Author, GSoC 2007 and 2008 mentor, German translation, original CMake build, original Windows SDK)
 
 Full authors list: [https://sourceforge.net/p/hugin/hugin/ci/default/tree/authors.txt](https://sourceforge.net/p/hugin/hugin/ci/default/tree/authors.txt)
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat Volunteer Team/Unassigned |
-|                                      |
+| Page maintainer               |
+| ----------------------------- |
+| Bellingcat Volunteer Team/Aly |
+|                               |
