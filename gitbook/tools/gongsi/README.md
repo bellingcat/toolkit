@@ -148,9 +148,7 @@ There are other search options available, including searching by contact informa
 
 ## Tool provider
 
-[满商公司网](https://www.gongsi.com.cn/) (Gongsi.com.cn), China
-
-满商公司网 ([Gongsi.com.cn](https://www.gongsi.com.cn/)), China
+[满商公司网](https://www.gongsi.com.cn/) ([Gongsi.com.cn](https://www.gongsi.com.cn/)), China
 
 ## Similar tools
 
