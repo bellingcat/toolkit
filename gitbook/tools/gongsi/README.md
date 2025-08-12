@@ -32,11 +32,15 @@ The usage of VPN and Chinese translation (e.g. DeepL) can be useful.
 
 Not all search returned information will be displayed if you do not log in with a registered account (which would require a Chinese mobile number). Search results displayed without logging in with a registered account would not be 100%. For more accurate results, it is advisable to cross-check with other similar websites (e.g., Tianyancha, Qichacha).
 
+Depending on your internet connection and/or VPN usage, the website may not turn up results on first search. It is advisable to try and refresh the webpage again - this step usually returns search results.
+
 ## Ethical Considerations
 
 Nil.
 
 ## Guides and articles
+
+**Search by Enterprise:**&#x20;
 
 Users can apply various search criteria, such as:
 
@@ -63,15 +67,17 @@ When a search result is clicked, it will bring you to the details of the enterpr
 
 <figure><img src=".gitbook/assets/image (5).png" alt="" width="188"><figcaption></figcaption></figure>
 
-**Search by Legal Shareholder  ("法定代表人"):**
+**Search by Legal Shareholder:**
 
 You can search the list of enterprises and companies associated with a particular individual. A list of associated companies which the individual legal shareholder of will be listed.
 
 <figure><img src=".gitbook/assets/image.png" alt="" width="188"><figcaption></figcaption></figure>
 
-**Search by Industry ("经营范围"):**
+**Search by Industry:**
 
 You can search for enterprises by industry.&#x20;
+
+**Search by Geographical regions:**
 
 For instance, in this example below, the filter "房地厂业" ("property development") was applied, allowing results related to property development enterprises to be listed below. You can add more filters to refine your results further (e.g., filtering by geographical regions).
 
@@ -83,11 +89,15 @@ Alternatively, you can also find from a list of industrial sectors ("按行业�
 
 You can also search for enterprises via geographical cities, such as Beijing, Tianjin, Shanghai, Nanjing, etc. You can find this function by scrolling down on the main landing page.
 
+There are other search options available, including searching by contact information.
+
 <figure><img src=".gitbook/assets/image (6).png" alt="" width="188"><figcaption></figcaption></figure>
 
 ## Tool provider
 
 [满商公司网](https://www.gongsi.com.cn/) (Gongsi.com.cn), China
+
+满商公司网 ([Gongsi.com.cn](https://www.gongsi.com.cn/)), China
 
 ## Similar tools
 
