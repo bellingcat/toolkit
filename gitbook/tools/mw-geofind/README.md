@@ -20,7 +20,7 @@ Users search for YouTube videos mainly by keywords or location (i.e., location n
 * When searching by location, users can set a radius of up to 1000km.
 * Search results are visualized on a map, which shows icons from the YouTube channels. See example below. &#x20;
 
-<figure><img src=".gitbook/assets/map.png" alt=""><figcaption><p>Search results for Youtube videos geotagged within 20km of the Hungarian State Opera House in Budapest. A radius of 20km is shown (in the green circle). Each icon represents a Youtube channel. Note that the map also shows some videos geotagged beyond the 20km radius.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/map.png" alt=""><figcaption><p>Search results for YouTube videos geotagged within 20km of the Hungarian State Opera House in Budapest. A radius of 20km is shown (in the green circle). Each icon represents a YouTube channel. Note that the map also shows some videos geotagged beyond the 20km radius.</p></figcaption></figure>
 
 * Under **Share,** a link can be copied and shared so that others can access the search results.&#x20;
 * Under **Geotags**, users can view the search results listed, including thumbnail, video title, upload date, duration, and an excerpt of the video description. Due to restrictions from YouTube, an export function is not directly available.&#x20;
@@ -40,9 +40,9 @@ Here are excerpts of the json data available. \
 
 ### **Understanding geotags in YouTube videos.**
 
-Video creators can choose to specify a location during the upload process or afterwards. Typically, video creators start typing in a place name or address, and select their chosen location from a dropdown list.&#x20;
+In YouTube, geotags are [set manually by the video creators](https://support.google.com/youtube/answer/7638112?hl=en\&co=GENIE.Platform%3DDesktop), and [not derived from the videos' EXIF data](https://github.com/mattwright324/youtube-geofind/wiki). When video creators upload their content, they can choose to specify a location. (Typically, they start typing the name of the location, and a dropdown list becomes available for selection. This selection mechanism can sometimes lead to inaccuracies.)&#x20;
 
-Note that video creators can easily provide an imprecise location (e.g., entering "United States" instead of "Hard Rock Stadium, Miami") or a misleading location. It is common for content creators to tag their videos to a different location as a tactic to make the video more discoverable, or to target audiences in a specific country. (The effectiveness of such tactics is subject to debate.) Importantly, the geotag is **not derived** from the video's EXIF data or the IP address of the upload. \
+Geotags can also be [imprecise](https://github.com/mattwright324/youtube-geofind/wiki), as [YouTube's metadata](https://developers.google.com/youtube/v3/docs/search/list) are set up such that the same coordinates can refer to multiple locations (e.g., "Manhattan, New York" and "United States" can have the same coordinates). Researchers should set the radius in MW Geofind to specify the search parameters. \
 \
 Given these caveats, researchers should use the search results from MW Geofind as one of many reference points and seek to independently verify any location information.&#x20;
 
@@ -58,7 +58,7 @@ YouTube's search can perform a similar search by location, with several disadvan
 
 <details>
 
-<summary>How to do a location search on Youtube</summary>
+<summary>How to do a location search on YouTube</summary>
 
 1. Enter a location name in the search bar.&#x20;
 2. Click "Filters".&#x20;
