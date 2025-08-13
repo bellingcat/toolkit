@@ -31,11 +31,11 @@ Alternatively, you can also simply type different search terms in the search box
 
 If you have a particular enterprise in mind, you can input it into the search bar. For greater accuracy, search terms should be in Chinese.
 
-The search results starts with listings that are matching the name of the company but it also shows companies with similar names.&#x20;
+The search results starts with listings that match the name of the company but they also show companies with similar names.&#x20;
 
-The status of enterprises are colour coded. For example, the status of active enterprises are displayed in green, with the words "存续" ("existing"). Status of de-registered companies are displayed in orange, with the words "注销" ("de-registered").
+The status of enterprises are colour coded. For example, the status of active enterprises is displayed in green, with the words "存续" ("existing"). The status of de-registered companies is displayed in orange, with the words "注销" ("de-registered").
 
-When a search result is clicked, it will bring you to the details of the enterprise. Details include enterprise name, name of legal shareholder ("法定代表人"),  date of company establishment ("成立时间") etc.
+When you click on a search result, it will bring you to the details of the enterprise. Details include enterprise name, name of legal shareholder ("法定代表人"), date of company establishment ("成立时间") etc.
 
 <figure><img src=".gitbook/assets/image (5).png" alt="" width="188"><figcaption></figcaption></figure>
 
