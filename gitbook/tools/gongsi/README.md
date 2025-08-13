@@ -41,7 +41,7 @@ When you click on a search result, it will bring you to the details of the enter
 
 **Search by Legal Shareholder:**
 
-You can search the list of enterprises and companies associated with a particular individual. A list of associated companies which the individual legal shareholder of will be listed.
+You can also search for a list of of enterprises and companies that are associated with a particular individual:
 
 <figure><img src=".gitbook/assets/image.png" alt="" width="188"><figcaption></figcaption></figure>
 
