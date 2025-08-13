@@ -72,7 +72,7 @@ _Figure: The Zeeschuimer extension’s interface allows you to enable/disable ca
 * [ ] Partially Free
 * [ ] Paid
 
-Zeeschuimer is completely free to use. It is an open-source project released under the[ Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/). There are no usage fees. You can download the extension from the official GitHub page and use it as needed. (If you choose to integrate with 4CAT or other analysis tools. However, analysis tools such as NodeXL Pro or a hosted 4CAT server may require separate licences or institutional access.)
+Zeeschuimer is completely free to use. It is an open-source project released under the[ Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/). There are no usage fees. You can download the extension from the official GitHub page and use it as needed. If you choose, you can integrate it with 4CAT or other analysis tools. However, analysis tools such as NodeXL Pro or a hosted 4CAT server may require separate licences or institutional access.
 
 ## Level of difficulty
 
