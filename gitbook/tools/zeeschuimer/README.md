@@ -123,8 +123,7 @@ _(Additional resources: The_ [_Digital Methods Initiative’s own tool page_](ht
 
 ## Tool provider
 
-[Digital Methods Initiative (University of Amsterdam)](https://digitalmethods.net/)\
-The Digital Methods Initiative (DMI) is one of Europe’s leading Internet Studies research groups at UvA, focused on researching the “natively digital” by designing methods and tools to repurpose platforms like Twitter, Facebook, Instagram, YouTube, Reddit, and Google for social and political inquiry.
+[Digital Methods Initiative](https://digitalmethods.net/), University of Amsterdam, Netherlands.
 
 ## Similar tools
 
