@@ -1,5 +1,6 @@
 ---
 description: MW Geofind is a tool for finding geotagged YouTube videos.
+updated: '2025-08-12'
 ---
 
 # MW Geofind
