@@ -21,7 +21,7 @@ Users can apply various search criteria, such as:
 * Search by Industry ("经营范围")
 * Search by Geographical Cities ("热门城市")
 
-Alternatively, typing your search term in the search box and then applying different search filters is also allowed.
+Alternatively, you can also simply type different search terms in the search box and apply search filters afterwards.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-07-19 115637.png" alt=""><figcaption></figcaption></figure>
 
