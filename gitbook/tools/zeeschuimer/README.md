@@ -2,7 +2,7 @@
 description: >-
   Zeeschuimer is a browser extension for collecting social media posts that are
   visible in your web browser, enabling systematic analysis of content from
-  platforms that are hard to scrape via APIs
+  platforms that are hard to scrape via APIs.
 ---
 
 # Zeeschuimer
