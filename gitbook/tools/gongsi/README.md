@@ -31,7 +31,7 @@ Alternatively, you can also simply type different search terms in the search box
 
 If you have a particular enterprise in mind, you can input it into the search bar. For greater accuracy, search terms should be in Chinese.
 
-Search results are then listed, with the closest identified listings and other similarly named listings shown.
+The search results starts with listings that are matching the name of the company but it also shows companies with similar names.&#x20;
 
 The status of enterprises are colour coded. For example, the status of active enterprises are displayed in green, with the words "存续" ("existing"). Status of de-registered companies are displayed in orange, with the words "注销" ("de-registered").
 
