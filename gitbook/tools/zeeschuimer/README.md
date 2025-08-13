@@ -25,9 +25,9 @@ By **logging the posts and other items that load in your browser feed**, Zeeschu
 
 Major social‑media platforms have closed or severely limited their public APIs, making it difficult to obtain data for research and journalism. Web‑scraping libraries often struggle with constantly changing front‑end code or risk violating terms of service. Zeeschuimer addresses this challenge by **recording** rather than scraping – it captures the requests and responses your browser makes as you scroll through a platform and extracts the relevant post or comment information.     &#x20;
 
-The developers [describe](https://github.com/digitalmethodsinitiative/zeeschuimer) that _“the extension does not interfere with normal browsing and never uploads data automatically; it uses the browser’s WebRequest API to locally intercept and parse the data that these platforms send to your browser”._ In other words, it behaves like a passive observer: recording network calls for posts as you scroll, without modifying what you see or alerting the platform.&#x20;
+The developers [describe](https://github.com/digitalmethodsinitiative/zeeschuimer) that _“the extension does not interfere with normal browsing and never uploads data automatically; it uses the browser’s WebRequest API to locally intercept and parse the data that these platforms send to your browser”._ In other words, it behaves like a passive observer: recording network calls for posts as you scroll, without modifying what you see or alerting the platform.                                   \
 
-\
+
 This approach allows researchers to collect data from platforms that have no [public API,](https://www.techtarget.com/searchapparchitecture/definition/open-API-public-API) such as TikTok and Instagram, while keeping control over what is collected and when it is exported. Because the extension stores data locally and only uploads when explicitly instructed, it also helps researchers respect privacy and [institutional data‑protection rules](https://gdprhub.eu/Data_Protection_in_the_European_Union).
 
 #### How does it work?
