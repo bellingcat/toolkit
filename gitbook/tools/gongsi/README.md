@@ -89,62 +89,11 @@ Depending on your internet connection and/or VPN usage, the website may not turn
 
 ## Ethical Considerations
 
-Nil.
+\-
 
 ## Guides and articles
 
-**Search by Enterprise:**&#x20;
 
-Users can apply various search criteria, such as:
-
-* Search by Enterprise ("企业名称")
-* Search by Legal Shareholder ("法定代表人")
-* Search by Industry ("经营范围")
-* Search by Geographical Cities ("热门城市")
-
-Alternatively, typing your search term in the search box and then applying different search filters is also allowed.
-
-<figure><img src=".gitbook/assets/Screenshot 2025-07-19 115637.png" alt=""><figcaption></figcaption></figure>
-
-
-
-**Search by Enterprise ("企业名称"):**&#x20;
-
-If you have a particular enterprise in mind, you can input it into the search bar. For greater accuracy, search terms should be in Chinese.
-
-Search results are then listed, with the closest identified listings and other similarly named listings shown.
-
-The status of enterprises are colour coded. For example, the status of active enterprises are displayed in green, with the words "存续" ("existing"). Status of de-registered companies are displayed in orange, with the words "注销" ("de-registered").
-
-When a search result is clicked, it will bring you to the details of the enterprise. Details include enterprise name, name of legal shareholder ("法定代表人"),  date of company establishment ("成立时间") etc.
-
-<figure><img src=".gitbook/assets/image (5).png" alt="" width="188"><figcaption></figcaption></figure>
-
-**Search by Legal Shareholder:**
-
-You can search the list of enterprises and companies associated with a particular individual. A list of associated companies which the individual legal shareholder of will be listed.
-
-<figure><img src=".gitbook/assets/image.png" alt="" width="188"><figcaption></figcaption></figure>
-
-**Search by Industry:**
-
-You can search for enterprises by industry.&#x20;
-
-**Search by Geographical regions:**
-
-For instance, in this example below, the filter "房地厂业" ("property development") was applied, allowing results related to property development enterprises to be listed below. You can add more filters to refine your results further (e.g., filtering by geographical regions).
-
-Alternatively, you can also find from a list of industrial sectors ("按行业查询") by scrolling down from the main landing page.
-
-<figure><img src=".gitbook/assets/image (1).png" alt="" width="188"><figcaption></figcaption></figure>
-
-**Search by Geographical Cities ("热门城市"):**
-
-You can also search for enterprises via geographical cities, such as Beijing, Tianjin, Shanghai, Nanjing, etc. You can find this function by scrolling down on the main landing page.
-
-There are other search options available, including searching by contact information.
-
-<figure><img src=".gitbook/assets/image (6).png" alt="" width="188"><figcaption></figcaption></figure>
 
 ## Tool provider
 
