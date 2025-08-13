@@ -49,7 +49,7 @@ You can also search for a list of of enterprises and companies that are associat
 
 You can search for enterprises by industry. For instance, in this example below, the filter "房地厂业" ("property development") was applied, allowing results related to property development enterprises to be listed below. You can add more filters to refine your results further (e.g., filtering by geographical regions).
 
-Alternatively, you can also find from a list of industrial sectors ("按行业查询") by scrolling down from the main landing page.
+Alternatively, you can also choose from a list of industrial sectors ("按行业查询") by scrolling down from the main landing page.
 
 <figure><img src=".gitbook/assets/image (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
