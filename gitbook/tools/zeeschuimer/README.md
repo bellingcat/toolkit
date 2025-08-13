@@ -40,7 +40,7 @@ This approach allows researchers to collect data from platforms that have no [pu
 
 In practical terms, this means a journalist could **capture a personalized feed or search results,** preserving not just URLs but metadata like timestamps, captions, and comments, and then analyze that collection for patterns (such as which accounts or themes dominated the feed).
 
-**Supported Platforms:** As of 2025, Zeeschuimer works with a range of social networks and content-sharing platforms, including:
+**Supported Platforms:** As of 2025, Zeeschuimer works with [a range of social networks and content-sharing platforms](https://medialab.sciencespo.fr/en/tools/zeeschuimer/), including:
 
 * **TikTok** (videos/posts and comments)
 * **Instagram** (posts only)
@@ -52,7 +52,7 @@ In practical terms, this means a journalist could **capture a personalized feed 
 * **Gab**
 * **Truth Social**
 * **Pinterest**
-* **RedNote** [(Xiaohongshu)](https://medialab.sciencespo.fr/en/tools/zeeschuimer/)
+* **RedNote** (Xiaohongshu)
 
 This list is actively maintained and may expand. The extension’s code must be updated for each platform as their website structures change, so support can occasionally break when a site is redesigned. &#x20;
 
