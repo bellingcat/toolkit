@@ -15,7 +15,9 @@ description: >-
 
 ## Description
 
-Zeeschuimer (Dutch for “sea foamer”) is a browser extension that **captures data from social media platforms as you browse them**, storing the posts you see for later analysis It was developed for researchers and journalists who need to study content on platforms that lack accessible data export tools or APIs – for example, TikTok or certain parts of Instagram where traditional scraping is difficult. By **logging the posts and other items that load in your browser feed**, Zeeschuimer lets you build a dataset of exactly what was shown to you during a browsing session.
+Zeeschuimer (Dutch for “sea foamer”) is a browser extension that **captures data from social media platforms as you browse them**, storing the posts you see for later analysis It was developed for researchers and journalists who need to study content on platforms that lack accessible data export tools or APIs – for example, TikTok or certain parts of Instagram where traditional scraping is difficult.&#x20;
+
+By **logging the posts and other items that load in your browser feed**, Zeeschuimer lets you build a dataset of exactly what was shown to you during a browsing session.
 
 ### What problem does it solve?
 
