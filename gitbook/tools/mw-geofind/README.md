@@ -15,7 +15,7 @@ MW Geofind is an online tool designed for identifying YouTube videos tagged with
 
 ### How to use
 
-You can search for YouTube videos by keywords or location (i.e., location name or coordinates), with additional filters by timeframe, video duration, and language.
+You can search for YouTube videos by keywords or location (i.e., location name or coordinates). Additionally, you can filter the results by timeframe ("past hour", "past 30 days etc.), video duration, and language.
 
 * To optimize the keyword search, see [documentation](https://github.com/mattwright324/youtube-geofind/wiki/YouTube-Keyword-Operators) for YouTube keyword operators.
 * When searching by location, users can set a radius of up to 1000km.
