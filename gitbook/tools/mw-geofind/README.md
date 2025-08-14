@@ -30,7 +30,7 @@ You can search for YouTube videos by keywords or location (i.e., location name o
 
 <summary>How to access video metadata</summary>
 
-Users can click "View metadata" to view the video's metadata in json. A new tab will open in "[MW Metadata - Bulk](https://mattw.io/youtube-metadata/bulk)", another tool by the same developer.
+Users can click on "View metadata" on any result in the search results list to view a video's metadata in json. A new tab will open in "[MW Metadata - Bulk](https://mattw.io/youtube-metadata/bulk)" which is another tool by the same developer.
 
 <figure><img src=".gitbook/assets/geofind_ex.png" alt=""><figcaption><p>View metadata - marked in blue</p></figcaption></figure>
 
