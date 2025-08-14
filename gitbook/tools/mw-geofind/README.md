@@ -55,7 +55,7 @@ Find the code and latest commits on Github: [https://github.com/mattwright324/yo
 
 ### Similar tools
 
-YouTube's search can perform a similar search by location, with several disadvantages.
+YouTube's search can perform a similar search by location but there are several disadvantages.
 
 <details>
 
