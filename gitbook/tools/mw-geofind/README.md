@@ -97,7 +97,7 @@ See the [MW Geofind documentation](https://github.com/mattwright324/youtube-geof
 
 ## Ethical Considerations
 
-**Privacy**: Video creators could have deliberately or inadvertently provided location information and other identifying details in their video content, geotag, or other metadata. When using information from publicly uploaded videos, researchers should take into account the context of their research or the timing of their publication, giving full respect to the privacy of the video creator or any individuals appearing in the video.
+**Privacy**: Video creators could have deliberately or inadvertently provided wrong location information and other identifying details in their video content, geotag, or other metadata. When using information from publicly uploaded videos, researchers should take into account the context of their research or the timing of their publication, giving full respect to the privacy of the video creator or any individuals appearing in the video.
 
 ## Guides and articles
 
