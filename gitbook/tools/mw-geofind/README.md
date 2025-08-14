@@ -23,7 +23,7 @@ You can search for YouTube videos by keywords or location (i.e., location name o
 
 <figure><img src=".gitbook/assets/map.png" alt=""><figcaption><p>Search results for YouTube videos geotagged within 20km of the Hungarian State Opera House in Budapest. A radius of 20km is shown (in the green circle). Each icon represents a YouTube channel. Note that the map also shows some videos geotagged beyond the 20km radius.</p></figcaption></figure>
 
-* Under **Geotags**, users can view the search results listed, including thumbnail, video title, upload date, duration, and an excerpt of the video description. Due to restrictions from YouTube, an export function is not directly available.
+* Under **Geotags**, user can find a list of the search results, including a thumbnail, the video title, upload date, duration, and an excerpt of the video description. Due to restrictions from YouTube, an export function is not directly available.
 * Under **Share,** a link can be copied and shared so that others can access the search results.
 
 <details>
