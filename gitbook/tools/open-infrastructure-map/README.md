@@ -23,7 +23,7 @@ Open Infrastructure Map allows users to search for and view global infrastructur
 * water
 * other pipelines
 
-The tool helps reveal infrastructure data from [OpenStreetMap](https://www.openstreetmap.org/) (OSM) which is not accessible in an easy way when visiting OSM. Users can select and display different layers of infrastructure data at their chosen location on the globe.
+Users can select and display different layers of infrastructure data at their chosen location on the globe. The map helps reveal infrastructure data from [OpenStreetMap](https://www.openstreetmap.org/) (OSM) which is not as easy to access when directly visiting OSM.&#x20;
 
 ### The Interface
 
