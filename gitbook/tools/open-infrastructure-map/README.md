@@ -23,7 +23,7 @@ Open Infrastructure Map allows users to search for and view global infrastructur
 * water
 * other pipelines
 
-The basic advantage of the tool is that it reveals the infrastructure data contained within [OpenStreetMap](https://www.openstreetmap.org/) (which by default OSM does not expose). Users can select and display different layers of infrastructure data at their chosen location on the globe.
+The tool helps reveal infrastructure data that can be found within [OpenStreetMap](https://www.openstreetmap.org/) (OSM) but that is not easily visible when visiting OSM. Users can select and display different layers of infrastructure data at their chosen location on the globe.
 
 ### The Interface
 
