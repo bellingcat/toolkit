@@ -93,7 +93,7 @@ See the [MW Geofind documentation](https://github.com/mattwright324/youtube-geof
 ## Limitations
 
 * **API rate limits:** MW Geofind is a popular tool that frequently (almost daily) exhausts YouTube's API rate limits. The rate limits are reset daily around 9am US Pacific time. Therefore, users who find MW Geofind unresponsive or not functioning should check back again in the morning, Pacific time.
-* **Location information may be inaccurate**: MW Geofind makes an initial search and then makes additional calls to get `recordingDetails` and `locationDescription` from the YouTube[ API](https://developers.google.com/youtube/v3/docs/videos#recordingDetails). Users should understand that the coordinates do not necessarily refer to a precise location, as the same coordinates can refer to a country, city, landmark, address, or point of interest. Again, users should seek to independently verify the location information. Please see discussion in MW Geofind [project wiki](https://github.com/mattwright324/youtube-geofind/wiki).
+* **Location information may be inaccurate**: MW Geofind makes an initial search and then makes additional calls to get `recordingDetails` and `locationDescription` from the YouTube[ API](https://developers.google.com/youtube/v3/docs/videos#recordingDetails). Users should understand that the coordinates do not necessarily refer to a precise location, as the same coordinates can refer to a country, city, landmark, address, or point of interest. Again, users should seek to independently verify the location information. You can find a discussion about this issue in MW Geofind's [project wiki](https://github.com/mattwright324/youtube-geofind/wiki).
 
 ## Ethical Considerations
 
