@@ -52,9 +52,9 @@ On the top left of the screen, one can access significant functionality via the 
       These statistics givee a quick picture of the shape and composition of power generation and power networks.
 * **Export:** This link details the scope of the Open Infrastructure Map data, the available formats for export and their limitations, and gives access to purchase exported data, along with the relevant terms and conditions. At the time of writing on 30/7/25, prices ranged from GBP 80 for a power export per country to GBP 700 for a power export worldwide.
 
-Since Open Infrastructure Map aids in infrastructure visibility, it could assist in pursuits as varied as [researching a country's oil infrastructure](./#url),  helping companies focused on energy infrastructure planning, or assisting authorities with emergency preparedness, among many other uses.
+Since Open Infrastructure Map aids in infrastructure visibility, it could assist in pursuits as varied as researching a country's oil infrastructure,  helping companies focused on energy infrastructure planning, or assisting authorities with emergency preparedness, among many other uses.
 
-**Example use case:** An energy company focused on accelerating the global transition towards 100% renewable energy used Open Infrastructure Map to [map and view India's power infrastructure](./#url).
+**Example use case:** An energy company focused on accelerating the global transition towards 100% renewable energy used Open Infrastructure Map to map and view India's power infrastructure.
 
 ## Cost
 
