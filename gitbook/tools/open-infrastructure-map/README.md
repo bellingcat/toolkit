@@ -14,7 +14,7 @@ description: >-
 
 <figure><img src=".gitbook/assets/OPENINFRAMAP1.gif" alt=""><figcaption></figcaption></figure>
 
-Open Infrastructure Map allows users to search for and view global infrastructure networks, to include:
+Open Infrastructure Map allows users to search for and view global infrastructure networks which include:
 
 * power lines, power plants, generators, power line supports, switchgear
 * telecom
@@ -23,7 +23,7 @@ Open Infrastructure Map allows users to search for and view global infrastructur
 * water
 * other pipelines
 
-The basic advantage of the tool is that it reveals the infrastructure data contained within OSM (which by default OSM does not expose). Users can select and display different layers of infrastructure data at their chosen location on the globe.
+The basic advantage of the tool is that it reveals the infrastructure data contained within OpenStreetMap (which by default OSM does not expose). Users can select and display different layers of infrastructure data at their chosen location on the globe.
 
 ### The Interface
 
