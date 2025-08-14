@@ -71,7 +71,7 @@ YouTube's search can perform a similar search by location but there are several 
 Some of the disadvantages compared to MW Geofind are:
 
 * On YouTube, the user can only search by location name and not by coordinates.
-* On YouTube, geotags are in the video creator's chosen language. E.g., a French speaker may geotag their video "États-Unis" instead of "United States". If you search on YouTube by location name, the correct language needs to be used to find geotagged videos. In comparison, if you use MW Geofind to search by coordinates the language a creator chose does not influence the search results.
+* On YouTube, geotags are in the video creator's chosen language. E.g., a French speaker may geotag their video "États-Unis" instead of "United States". If you search by location name, you would need to use the French name if you want this video to show up in your search results. However, if you type in "United States", it will never show up in your results. In comparison, if you use MW Geofind to search by coordinates the language a creator chose does not affect the search results.
 * On YouTube, the time frame selected must be recent (i.e., the choices are limited to "last hour", "today", "this week", "this month", "this year"). MW Geofind allows more flexibility (e.g., between Jan 1 to Feb 15, 2017), enabling searches for older videos.
 
 See the [MW Geofind documentation](https://github.com/mattwright324/youtube-geofind/wiki) for more information.
