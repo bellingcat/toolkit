@@ -216,4 +216,5 @@
   * [Wildlife Trade Portal](tools/wildlife-trade-portal/README.md)
   * [xIFr](tools/xifr/README.md)
   * [Yandex Maps](tools/yandex-maps/README.md)
+  * [Zeeschuimer](tools/zeeschuimer/README.md)
   * [Zotero](tools/zotero/README.md)
