@@ -123,7 +123,7 @@ KartaView is owned by GrabMaps, [https://grabmaps.grab.com/](https://grabmaps.gr
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| river\_n        |
-|                 |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
+|                           |
