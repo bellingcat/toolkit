@@ -120,13 +120,19 @@ Cost
 
 
 
-Ethical Considerations
+## **Ethical Considerations**
 
-\[\[The ethical considerations of each tool should be described.]]
+1. Users should verify the accuracy of the results, as they may not always match the search criteria. Furthermore, since the OpenStreetMap data is crowdsourced, users should always cross-check and confirm the results using other mapping services like Google, Yandex, Bing, etc., and street-level photography.
+2. Spot’s Trusted AI principles page states that “The user prompts that are entered in the Spot application are being used to re-train the model on real user queries to improve the user relevance of the AI model.” Furthermore, the same page says, “User control -- no publicly anonymous available access but certain monitoring of users will be done via login functionality.” Therefore, entering any information in the query or users’ login credentials may potentially end up revealing sensitive information about the individual or the investigation.
+3. The tool uses “cookieless tracking”. Although the “tracking” feature can be disabled on the “Legal & Privacy Statement” page, users should still take precautions, such as using VPNs and browser extensions, to block tracking and prevent the potential revealing of their location.
+
+In their Legal & Privacy Statement, the tool provider says that the data collected is usually kept for 30 days, after which it is deleted. However, it also reiterates that “under exceptional circumstances, we need them for a longer period for the above-mentioned purposes. In such a case, we erase the data as soon as they're no longer required.”
+
+Spot also uses third-party services like Nominatim, Maptiler, Mapbox, Versatiles, OSM Tiles, Google Street View and MongoDB to make the application work when a user enters a search prompt. Make sure to check their Legal & Privacy Statement to understand how the data is processed.
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+Spot offers a tutorial on how to use the tool on its website. For instructions, see the page [here](https://www.findthatspot.io/tutorial/instructions). To learn how to use the tool, visit Spot’s page [here](https://www.findthatspot.io/tutorial/example). For detailed videos, see this [page](https://www.findthatspot.io/tutorial/videos) by the tool provider.
 
 ## Tool provider
 
@@ -140,5 +146,5 @@ The tool was developed by [DW Innovation](https://innovation.dw.com/en/articles)
 
 | Page maintainer                       |
 | ------------------------------------- |
-| Anisa Shabir 7:26 pm PKT on August 10 |
+| Anisa Shabir 5:10 pm PKT on August 17 |
 |                                       |
