@@ -74,7 +74,7 @@ YouTube's search can perform a similar search by location.&#x20;
 
 </details>
 
-Based on our testing, searching directly on Youtube can lead to more comprehensive search results (i.e., more videos found). However, the search on Youtube also comes with  a few disadvantages, as discussed in the [MW Geofind documentation](https://github.com/mattwright324/youtube-geofind/wiki):
+Based on our testing, searching directly on Youtube can lead to more comprehensive search results (i.e., more videos found). However, the search on Youtube also comes with a few disadvantages, as discussed in the [MW Geofind documentation](https://github.com/mattwright324/youtube-geofind/wiki):
 
 * On YouTube, the user can only search by location name and not by coordinates.
 * On YouTube, geotags are in the video creator's chosen language. E.g., a French speaker may geotag their video "États-Unis" instead of "United States". If you search by location name, you would need to use the French name if you want this video to show up in your search results. However, if you type in "United States", it will never show up in your results. In comparison, if you use MW Geofind and search by coordinates, the language a creator chose does not affect the search results.
@@ -100,7 +100,7 @@ Based on our testing, searching directly on Youtube can lead to more comprehensi
 * **Location information may be inaccurate**: MW Geofind makes an initial search and then makes additional calls to get `recordingDetails` and `locationDescription` from the YouTube[ API](https://developers.google.com/youtube/v3/docs/videos#recordingDetails). Users should understand that the coordinates do not necessarily refer to a precise location, as the same coordinates can refer to a country, city, landmark, address, or point of interest. Again, users should seek to independently verify the location information. You can find a discussion about this issue in MW Geofind's [project wiki](https://github.com/mattwright324/youtube-geofind/wiki).
 * **Search results are not comprehensive**: MW Geofind is a tool specific to finding for geotagged videos. As discussed above, the video creator can choose to omit geotagging (i.e., leaving it blank), or provide inaccurate or imprecise geotags, or geotag in a different language. Therefore, search results from MW Geofind can be seen as a narrow subset of all possible videos uploaded from a location. \
   \
-  If researchers wish to find all possible videos relevant to a location, they may be better off simply typing the location name into Youtube's search bar, then adjusting through "Filters" (see Similar Tools above) for the upload date or other criteria. This generic Youtube search will show videos where the location name appears in the video's title, description, chapter titles, and channel name and descriptions, in addition to any algorithm-driven personalization.&#x20;
+  If researchers wish to find all possible videos relevant to a location, they may be better off simply typing the location name into Youtube's search bar, then adjusting through "Filters" (see [Similar Tools](./#similar-tools) above) for the upload date or other criteria. This generic Youtube search will show videos where the location name appears in the video's title, description, chapter titles, and channel name and descriptions, in addition to any algorithm-driven personalization.&#x20;
 
 ## Ethical Considerations
 
