@@ -28,7 +28,7 @@ TinEye is [free](https://help.tineye.com/article/239-is-tineye-free-to-use) for 
 
 ## Requirements
 
-None
+Internet access is required to access TinEye.
 
 ## Limitations
 
