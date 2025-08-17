@@ -2,6 +2,7 @@
 description: >-
   This tool allows you to search for the current registration data of internet
   domain names.
+updated: '2025-08-17'
 ---
 
 # ICANN Lookup
