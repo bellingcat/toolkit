@@ -72,5 +72,5 @@ ICANN, U.S. ICANN stands for the Internet Corporation for Assigned Names and Num
 
 | Page maintainer |
 | --------------- |
-| Ana             |
+| Ana.            |
 |                 |
