@@ -68,5 +68,5 @@ The FaceCheck.ID website states it was created by Tech Solutions - Belize.
 
 | Page maintainer |
 | --------------- |
-| Ana             |
+| Ana.            |
 |                 |
