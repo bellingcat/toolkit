@@ -94,15 +94,15 @@ Cost
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+Only sign up is required to use the tool.
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+Any web browser and a sign-up through GitHub or Google are required to use the tool.
 
 ## Limitations
 
@@ -122,7 +122,7 @@ Cost
 
 ## **Ethical Considerations**
 
-1. Users should verify the accuracy of the results, as they may not always match the search criteria. Furthermore, since the OpenStreetMap data is crowdsourced, users should always cross-check and confirm the results using other mapping services like Google, Yandex, Bing, etc., and street-level photography.
+1. Users should verify the accuracy of the results, as they may not always match the search criteria. Since the tool uses OpenStreetMap data, which is crowdsourced, users should always cross-check and confirm the results using other mapping services like Google, Yandex, Bing, etc., and street-level photography.
 2. Spot’s Trusted AI principles page states that “The user prompts that are entered in the Spot application are being used to re-train the model on real user queries to improve the user relevance of the AI model.” Furthermore, the same page says, “User control -- no publicly anonymous available access but certain monitoring of users will be done via login functionality.” Therefore, entering any information in the query or users’ login credentials may potentially end up revealing sensitive information about the individual or the investigation.
 3. The tool uses “cookieless tracking”. Although the “tracking” feature can be disabled on the “Legal & Privacy Statement” page, users should still take precautions, such as using VPNs and browser extensions, to block tracking and prevent the potential revealing of their location.
 
@@ -146,5 +146,5 @@ The tool was developed by [DW Innovation](https://innovation.dw.com/en/articles)
 
 | Page maintainer                       |
 | ------------------------------------- |
-| Anisa Shabir 5:10 pm PKT on August 17 |
+| Anisa Shabir 5:25 pm PKT on August 17 |
 |                                       |
