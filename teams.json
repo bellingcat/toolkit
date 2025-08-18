@@ -3550,5 +3550,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "yCkk9agsoKX4JhpAk3cU",
+    "title": "RAMMB SLIDER",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-08-18T09:42:17.455Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
