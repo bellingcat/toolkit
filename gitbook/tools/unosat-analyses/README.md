@@ -59,7 +59,7 @@ UNOSAT Analyses has been used in various publications and investigations, such a
 
 ## Tool provider
 
-[United Nations Satellite Centre](https://unosat.org/), part of the United Nations Institute for Training and Research (UNITAR)
+[United Nations Satellite Centre](https://unosat.org/), part of the United Nations Institute for Training and Research (UNITAR).
 
 ## Advertising Trackers
 
