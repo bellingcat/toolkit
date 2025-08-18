@@ -12,14 +12,14 @@ description: >-
 
 ## Description
 
-4plebs.org is an archive site that primarily focuses on archiving threads from various boards on the 4chan imageboard. This includes popular sections such as /pol/ (Politically Incorrect), /x/ (Paranormal), /tg/ (Traditional Games), and several others. The site provides a searchable database of past threads, allowing users to find and revisit discussions and content that have been posted on 4chan, which typically removes threads after a certain period. The archive is used by researchers, enthusiasts, and casual users who are interested in exploring or referencing the content that has been posted on 4chan in the past. As an example, a researcher studying internet culture may use 4plebs.org to compile data on specific trends or topics discussed within 4chan's communities over time.
+4plebs.org is an archive site that primarily focuses on archiving threads from various boards on the 4chan image board. This includes popular sections such as /pol/ (Politically Incorrect), /x/ (Paranormal), /tg/ (Traditional Games), and several others. The site provides a searchable database of past threads, allowing users to find and revisit discussions and content that have been posted on 4chan, which typically removes threads after a certain period. The archive is used by researchers, enthusiasts, and casual users who are interested in exploring or referencing the content that has been posted on 4chan in the past. As an example, a researcher studying internet culture may use 4plebs.org to compile data on specific trends or topics discussed within 4chan's communities over time.
 
 **Features**
 
 * **Search:** filter searches across `Thread No.`, `Subject`, `Username` etc. and search for content in specific boards.
 * **Browse archives:** you can browse the following boards which have been archived:&#x20;
   * `adv/` Advice `/f/` Flash `/hr/` High Resolution `/o/` Auto `/pol/` Politically Incorrect `[s4s]` Sh\*t 4chan Says `/sp/` Sports `/tg/` Traditional Games `/trv/` Travel `/tv/` Television & Film `/x/` Paranormal
-* **API:** access to a programmable interface to download and search for content. &#x20;
+* **API:** access to a programmable interface to download and search for content.
 
 The example below shows the results of searching for the term _Bellingcat_ across all archives:
 
