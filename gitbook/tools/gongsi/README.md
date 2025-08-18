@@ -16,16 +16,16 @@ A Chinese database providing company information on Chinese enterprise companies
 
 **Search by Enterprise:**&#x20;
 
-Users can apply various search criteria, such as:
+Users can apply various search criteria (as seen in the screenshot below), such as:
 
-* Search by Enterprise ("企业名称")
+* Search by Enterprise ("企业名称") &#x20;
 * Search by Legal Shareholder ("法定代表人")
 * Search by Industry ("经营范围")
 * Search by Geographical Cities ("热门城市")
 
 Alternatively, you can also simply type different search terms in the search box and apply search filters afterwards.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-07-19 115637.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-07-19 115637.png" alt=""><figcaption><p>"企业名称" = Search by Enterprise; "法定代表人" = Search by Legal Shareholder;  经营范围" = Search by Industry; "热门城市"= Search by Geographical Cities</p></figcaption></figure>
 
 
 
