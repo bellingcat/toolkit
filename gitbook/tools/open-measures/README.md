@@ -37,7 +37,7 @@ Enterprise Features:
 * **Multi-media imagery analysis**: Images and video media application. Multi media.
 * **Custom social media crawl requests**: Access to custom crawl requests of keywords, profiles, and channels.
 
-Open Measures provides a[ Command Line Interface (CLI)](https://gitlab.com/openmeasures/smat-cli) for quickly accessing bulk data and a [Jupyter Notebook](https://colab.research.google.com/drive/1kDyRIC0NBOj4Egn_VdK837QBNqDERRi_?usp=sharing) for accessing the API.
+Open Measures provides a [Command Line Interface (CLI)](https://gitlab.com/openmeasures/smat-cli) for quickly accessing bulk data and a [Jupyter Notebook](https://colab.research.google.com/drive/1kDyRIC0NBOj4Egn_VdK837QBNqDERRi_?usp=sharing) for accessing the API.
 
 Example of a timeline search result for the term _QAnon:_
 
@@ -59,7 +59,7 @@ Open Measures says the Pro and Enterprise solutions are paid for all users, but 
 
 ## Requirements
 
-* **API:** No registration required for the pubic (free) API.
+* **API:** No registration required for the public (free) API.
 
 ## Limitations
 
