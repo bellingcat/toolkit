@@ -1,8 +1,10 @@
 ---
-description: A repository for information on Chinese enterprise companies.
+description: >-
+  Gongsi Wang (formally known as Manshang Gongsi Wang 满商公司网) is a repository for
+  information on Chinese enterprise companies.
 ---
 
-# Gongsi
+# Gongsi Wang (满商公司网)
 
 ## URL
 
@@ -63,8 +65,8 @@ There are other search options available, including searching by contact informa
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
 ## Level of difficulty
@@ -95,7 +97,13 @@ Depending on your internet connection and/or VPN usage, the website may not turn
 
 ## Similar tools
 
-\[\[Compare this tool with similar tools which can be used for the same research purpose. What are the strengths and weaknesses of each tool?]]
+Tools similar to Gongsi Wang (满商公司网) include Tianyancha and Qichacha.&#x20;
+
+Gongsi Wang, Tianyancha and Qichacha obtain their data sources from government registries, and provide enterprise credit and background information on Chinese companies.
+
+There are some small differences. Qichacha, for instance, allows API services and provides visual network graphs. Gongsi Wang is slightly dated and does not provide such services.
+
+
 
 ## Advertising Trackers
 
