@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-A Chinese database providing company information on Chinese enterprise companies. The database obtains information by crawling data from various Chinese authority websites (e.g., [National Enterprise Credit Information Publicity System](https://www.gsxt.gov.cn/), [China Court Judgment Documents Network](https://english.court.gov.cn/2024-02/28/c_965997.htm)).
+A Chinese database providing company information on Chinese enterprise companies. The database obtains information by obtaining data from various Chinese authority websites (e.g., [National Enterprise Credit Information Publicity System](https://www.gsxt.gov.cn/), [China Court Judgment Documents Network](https://english.court.gov.cn/2024-02/28/c_965997.htm)), as well as enforcement notices.
 
 **Search by Enterprise:**&#x20;
 
