@@ -12,7 +12,7 @@ description: An analytical search tool for Telegram groups and channels.
 
 According to its [website](https://www.telemetryapp.io/product) Telemetry has data from more than 1m+ Telegram channels and 2.5b+ messages, and supports boolean search queries that return results from public Telegram messages, groups, and channels, allowing for analysis of group and individual activity on the platform.&#x20;
 
-The platform can be used to identify in which groups certain topics or terminology are being discussed or to search for conversations taking place in certain groups or channels.&#x20;
+The platform can be used to identify in which groups certain topics or terminology are being discussed or to search for conversations taking place in certain groups or channels.
 
 
 
@@ -35,7 +35,7 @@ It also [offers ](https://www.telemetryapp.io/product)an API to search, monitor 
 * [x] Partially Free
 * [ ] Paid
 
-Telemetry allows 5 free searches per day (providing up to 25 results each) per account.
+Telemetry allows 15 free searches per day (providing up to 25 results each) per account.
 
 Beyond the free version, Basic ($29 USD), Pro ($99 USD), and Enterprise (bespoke) plans are [available ](https://www.telemetryapp.io/pricing)for varying monthly prices, and include additional capabilities such as more search credits, longer data lookbacks in searches, data export options, and more.
 
