@@ -1,5 +1,6 @@
 ---
 description: An analytical search tool for Telegram groups and channels.
+updated: '2025-08-18'
 ---
 
 # Telemetry

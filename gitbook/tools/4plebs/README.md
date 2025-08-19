@@ -2,6 +2,7 @@
 description: >-
   Searchable archive of specific 4chan boards that makes it possible to read
   threads after they are purged from 4chan.
+updated: '2025-08-18'
 ---
 
 # 4plebs
