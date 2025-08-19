@@ -68,7 +68,7 @@ IDN Checker is a free tool, however it is part of a broader premium suite of dom
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr><tr><td>null</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 IDN Checker has an easy-to-understand user interface, it does not require any technical knowledge to search and does not ask the user to create an account.
 
