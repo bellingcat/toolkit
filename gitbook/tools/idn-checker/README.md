@@ -137,4 +137,4 @@ While there exists many tools to monitor domain registrations, to our knowledge 
 
 | Page maintainer           |
 | ------------------------- |
-| Bellingcat volunteer team |
+| Bellingcat Volunteer Team |
