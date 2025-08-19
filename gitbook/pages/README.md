@@ -78,6 +78,8 @@ If you have any feedback or questions, please get in touch with Johanna Wild via
 
 Bellingcat is an independent investigative collective of researchers, investigators and citizen journalists brought together by a passion for open source research.
 
+[https://www.youtube.com/watch?v=DyQyHt4LNKM](https://www.youtube.com/watch?v=DyQyHt4LNKM)&#x20;
+
 You can follow [Bellingcat](https://www.bellingcat.com)'s work here:
 
 [Bellingcat website](https://www.bellingcat.com/), [BlueSky](https://bsky.app/profile/bellingcat.com), [Discord](https://discord.com/invite/bellingcat), [Facebook](https://www.facebook.com/bellingcat),[Github](https://github.com/bellingcat), [Instagram](https://www.instagram.com/bellingcatofficial/), [Mastodon](https://mstdn.social/@Bellingcat), [Patreon](https://www.patreon.com/bellingcat), [Reddit](https://www.reddit.com/r/bellingcat/), [Soundcloud](https://soundcloud.com/bellingcat), [Twitch](https://www.twitch.tv/bellingcat_live), [X](categories/social-media/youtube/youtube.md),[Youtube](https://www.youtube.com/@bellingcatofficial/videos).
