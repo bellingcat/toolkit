@@ -1,6 +1,6 @@
 ---
-description: A mapping application provided by Chinese technology company Baidu Inc.
 updated: '2025-07-14'
+description: A mapping application provided by Chinese technology company Baidu Inc.
 ---
 
 # Baidu Maps
@@ -13,7 +13,7 @@ API documentation, [https://api.map.baidu.com/](https://api.map.baidu.com/)
 
 ## Description
 
-Baidu Maps offers maps, street view, satellite imagery, and real-time route planning. It is available via the web browser or as a mobile application.&#x20;
+Baidu Maps offers maps, street view, satellite imagery, and real-time route planning. It is available via the web browser or as a mobile application.
 
 #### The basics
 
@@ -31,7 +31,7 @@ Street views are generally available on the road networks, indicated by the thic
 
 <figure><img src=".gitbook/assets/streetview_available.png" alt=""><figcaption><p>The thickened gray routes indicate that street view is available.</p></figcaption></figure>
 
-Street view images are captured by a [Baidu-operated fleet of vehicles](https://web.archive.org/web/20250519015136/https://www.cheyun.com/articleDetail/11826), which are fitted with single-lens reflex (SLR) cameras, GPS and inertial navigation sensors. However, the fleet's image capture schedules are not made public.&#x20;
+Street view images are captured by a [Baidu-operated fleet of vehicles](https://web.archive.org/web/20250519015136/https://www.cheyun.com/articleDetail/11826), which are fitted with single-lens reflex (SLR) cameras, GPS and inertial navigation sensors. However, the fleet's image capture schedules are not made public.
 
 <details>
 
@@ -39,7 +39,7 @@ Street view images are captured by a [Baidu-operated fleet of vehicles](https://
 
 <img src=".gitbook/assets/right-click.png" alt="" data-size="original">
 
-See above: From the regular map view, point to the main road (where street view is more likely to be available), right-click to show a shortcut menu > select the first item which means "panoramic preview" in English.&#x20;
+See above: From the regular map view, point to the main road (where street view is more likely to be available), right-click to show a shortcut menu > select the first item which means "panoramic preview" in English.
 
 See below: The 360º preview is shown.
 
@@ -75,13 +75,13 @@ A 3D view is available. Baidu Maps also offers an API for building third-party a
 
 **Global coverage**
 
-Baidu Maps' coverage and capabilities are available globally, though the user interface is only available in Chinese. When searching for locations outside China, English search terms can be used.&#x20;
+Baidu Maps' coverage and capabilities are available globally, though the user interface is only available in Chinese. When searching for locations outside China, English search terms can be used.
 
 ### **Underlying technologies and data providers**
 
-Baidu Maps' positioning and navigation capabilities are powered by the BeiDou Navigation Satellite System 北斗卫星导航系统. BeiDou is the global positioning and satellite technology developed by the Chinese government, and [competes with GPS and Galileo](https://www.gpsworld.com/chinas-beidou-challenges-u-s-gps-dominance/). (For more about BeiDou: see [Wikipedia](https://en.wikipedia.org/wiki/BeiDou); [BeiDou official website](http://en.beidou.gov.cn/); an academic article in [_Satellite Navigation,_ 2020](https://doi.org/10.1186/s43020-019-0006-0).)&#x20;
+Baidu Maps' positioning and navigation capabilities are powered by the BeiDou Navigation Satellite System 北斗卫星导航系统. BeiDou is the global positioning and satellite technology developed by the Chinese government, and [competes with GPS and Galileo](https://www.gpsworld.com/chinas-beidou-challenges-u-s-gps-dominance/). (For more about BeiDou: see [Wikipedia](https://en.wikipedia.org/wiki/BeiDou); [BeiDou official website](http://en.beidou.gov.cn/); an academic article in [_Satellite Navigation,_ 2020](https://doi.org/10.1186/s43020-019-0006-0).)
 
-For all Chinese mapping tools, satellite imagery is provided by China Siwei Surveying & Mapping Technology, which uses data and imagery from DigitalGlobe, the US company.&#x20;
+For all Chinese mapping tools, satellite imagery is provided by China Siwei Surveying & Mapping Technology, which uses data and imagery from DigitalGlobe, the US company.
 
 Outside China, Baidu Maps has a partnership with [HERE Technologies](https://en.wikipedia.org/wiki/Here_WeGo), the Amsterdam-based mapping and data company. Other [information providers include](https://map.baidu.com/zt/client/copyrightPc/index.html) OpenStreetMap, MapKing (for Hong Kong and Southeast Asia) and LocalKing (Taiwan).
 
@@ -91,7 +91,7 @@ Open-source researchers can cross-reference with other leading mapping services,
 
 For open-source researchers accessing Chinese map tools from overseas, Baidu Maps is the only tool that provides street view on the web browser. (Street view is not available on AMap, and is only available in Tencent Map's mobile version.)
 
-Note that all three mapping tools use (at least in part - for their China coverage) the BeiDou Navigation Satellite System for their positioning capabilities. The exact ways that BeiDou is leveraged in each mapping tool depends on the device, the chip, and the location where the mapping tool is used.&#x20;
+Note that all three mapping tools use (at least in part - for their China coverage) the BeiDou Navigation Satellite System for their positioning capabilities. The exact ways that BeiDou is leveraged in each mapping tool depends on the device, the chip, and the location where the mapping tool is used.
 
 ## Cost
 
@@ -109,14 +109,14 @@ Note that all three mapping tools use (at least in part - for their China covera
 
 * **Web**: any modern web browser
 * **Mobile**: iOS and Android (basic functionality is available without registering an account)
-* **Developer Platform:** For individual developer accounts, only Chinese citizens can register. (Individuals must be between ages 18 and 65. Real-name registration and a selfie of the individual holding their ID are required.) Company developer accounts can be opened by overseas companies.&#x20;
+* **Developer Platform:** For individual developer accounts, only Chinese citizens can register. (Individuals must be between ages 18 and 65. Real-name registration and a selfie of the individual holding their ID are required.) Company developer accounts can be opened by overseas companies.
 
 ## Limitations
 
 Researchers and developers should consider several limitations:
 
 * **Language Barrier**: The user interface is only available in Chinese.
-* **Access Speed**: International users will experience slower access speeds, especially if using a VPN.&#x20;
+* **Access Speed**: International users will experience slower access speeds, especially if using a VPN.
 * **Barriers accessing the API**: Non-Chinese individuals will have difficulty registering a Baidu developer account, preventing them from using Baidu's location-based services APIs. (See FAQ #23 for Baidu location-based services account authentication - in [Chinese](https://lbsyun.baidu.com/index.php?title=FAQ/authentication) and [English](https://lbsyun-baidu-com.translate.goog/index.php?title=FAQ/authentication&_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp); [Baidu Developer Account Registration Procedure](https://app.baidu.com/newapp/docs/%E5%BC%80%E5%8F%91%E8%80%85%E5%87%86%E5%85%A5/%E5%BC%80%E5%8F%91%E8%80%85%E6%B3%A8%E5%86%8C%E6%B5%81%E7%A8%8B/) - in Chinese).
 
 ## Ethical Considerations
@@ -148,8 +148,8 @@ Baidu Inc [http://www.baidu.com/](http://www.baidu.com/) - China
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer           |
