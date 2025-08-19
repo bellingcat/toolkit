@@ -67,11 +67,11 @@ Registering for an account can be done via Facebook or with an email address. Th
 
 ## Limitations
 
-Unlike some other sattelite imagery tools, Here WeGo does not appear to indicate the date of the images it displays. Nor does it offer different chronological options, which may be limiting for researchers looking to assign a specific time to an image.&#x20;
+Unlike some other satellite imagery tools, Here WeGo does not appear to indicate the date of the images it displays. Nor does it offer different chronological options, which may be limiting for researchers looking to assign a specific time to an image.&#x20;
 
 ## Ethical Considerations
 
-Sattelite imagery captures images of the earth indiscriminately. Here WeGo's displays of sattelite imagery may therefore cause sensitive or private images and information about individuals or organisations to become unexpectedly public. Researchers are encouraged to make use of Here WeGo and the information it provides responsibly and for research in the public interest.
+Satellite imagery captures images of the earth indiscriminately. Here WeGo's displays of satellite imagery may therefore cause sensitive or private images and information about individuals or organisations to become unexpectedly public. Researchers are encouraged to make use of Here WeGo and the information it provides responsibly and for research in the public interest.
 
 ## Guides and articles
 
