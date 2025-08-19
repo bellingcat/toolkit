@@ -20,7 +20,7 @@ IDN Checker helps identify and investigate such domains. Specific applications i
 
 * **Phishing detection**: exposing domains that look identical to legitimate targets
 * **Brand abuse tracking**: finding spoofed sites impersonating corporate identities
-* **Threat actor identification**: mapping spoofed domains back to registrants via their WHOIS record
+* **Threat actor identification**: mapping spoofed domains back to registrants via their [WHOIS record](https://bellingcat.gitbook.io/toolkit/more/all-tools/domaintools-whois-lookup), a public record containing information on the registrant of a domain.
 
 In order to start searching, you simply need to input the domain name and TLD in the appropriate fields, as in the example below:
 
@@ -42,11 +42,13 @@ _(Yellow warning for the target domain bellingcat.com, indicating homograph doma
 
 _(Red alert for the target domain google.com, indicating existing registered homograph domains)_
 
-Red alerts will also redirect to a WHOIS.com search of the domain to find more information on the registrant.
+Red alerts will also redirect to a [WHOIS.com](https://www.whois.com/) search of the domain to find more information on the registrant.
 
 It is notable that some of these domains will not be identifiable through a default current WHOIS search. Indeed, red alerts will also be displayed for domains that were registered in the past, but are no longer registered. For example, a current WHOIS search for the domain _gôogle.com_ (punycode _xn--gogle-6ta.com_) will show that it is not currently registered, whereas a historical WHOIS search for this domain will bring up several WHOIS records.
 
-For each warning or alert, IDN Checker will provide the punycode of the domain, as well as the script of the domain. Punycode allows non-ASCII characters (like accented letters, Cyrillic, or Greek characters) to be represented in domain names using only ASCII characters. This is important because punycode may be used for automated detection, monitoring and filtering of such domains.
+For each warning or alert, IDN Checker will provide the internationalized domain name, as well as the [punycode](https://en.wikipedia.org/wiki/Punycode) of the domain (the 'translation' of the international domain name using only [ASCII characters](https://en.wikipedia.org/wiki/ASCII#Character_set)). Punycode allows non-ASCII characters (like Latin accented letters, Cyrillic, or Greek characters) to be represented in domain names using only ASCII characters.
+
+This is important because the punycode of a domain may be used for automated detection, monitoring and filtering of such domains.
 
 <div><figure><img src=".gitbook/assets/IDNchecker4.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/IDNchecker5.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -106,21 +108,24 @@ The key is using IDN Checker as part of a broader, contextual analysis rather th
 
 ## Guides and articles
 
-There are no official guides for IDN Checker as it is a relatively simple tool to use, however, IDN Checker has been mentioned in several articles on IDN homograph attacks:
+There are no official guides for IDN Checker, as it is a relatively simple tool to use. Regarding IDN homograph attacks, you may find more information on Wikipedia:
 
-* Social Engineering and (Spear) Phishing: [https://www.kicksecure.com/wiki/Social\_Engineering](https://www.kicksecure.com/wiki/Social_Engineering)
-* Search for PunyCode Look-alikes With Hold Integrity IDN Checker: [https://www.inmotionhosting.com/support/security/search-punycode-look-alikes-idn-checker/](https://www.inmotionhosting.com/support/security/search-punycode-look-alikes-idn-checker/)
+* IDN homograph attack: [https://en.wikipedia.org/wiki/IDN\_homograph\_attack](https://en.wikipedia.org/wiki/IDN_homograph_attack)
 
+For a recent example of how an internationalized domain name can be used maliciously, you may refer to:
 
+* IDN Homograph Attack - Reborn of the Rare Case, by Jerry Shah: [https://shahjerry33.medium.com/idn-homograph-attack-reborn-of-the-rare-case-99fa1e342352](https://shahjerry33.medium.com/idn-homograph-attack-reborn-of-the-rare-case-99fa1e342352)
 
 ## Tool provider
 
-This tool is provided by Hold Security LLC, [https://holdsecurity.com/](https://holdsecurity.com/)\
+This tool is provided by Hold Security LLC, [https://holdsecurity.com/](https://holdsecurity.com/)
+
+This company is headquartered in the US (Wisconsin), and has offices in Ukraine and the Czech Republic.\
 
 
 ## Similar tools
 
-While there exists many tools to monitor domain registrations, IDN Checker seems to be the only free tool to verify IDN registrations from a target domain.
+While there exists many tools to monitor domain registrations, to our knowledge IDN Checker is the only free tool to verify IDN registrations from a target domain at this time.
 
 
 
