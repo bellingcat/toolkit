@@ -17,7 +17,7 @@ Spot provides an interface for searching OpenStreetMap[^1] using everyday langua
 
 [OpenStreetMap](https://www.openstreetmap.org/about) (OSM) shows a very large number of both natural and man-made features, e.g. buildings, infrastructure, bodies of water.  These features are labelled according to [OSM's own detailed classification system](https://wiki.openstreetmap.org/wiki/Map_features), e.g. town hall, lake, pylon, railway, ... and they can be used as search terms to express users' search criteria. An example Spot user search might be "_**Find a car park near a cafe and a marina within 80m in the Hague**_".&#x20;
 
-A range of tools exists to allow users to query OpenStreetMap (See Alternative Tools below) using different methods to build the user's search query: some involve a formal language, some use a graphical interface. Spot is characterised by the use of [natural language](#user-content-fn-2)[^2] to express the users' search query.
+A range of tools exists to allow users to query OpenStreetMap (See Similar Tools below) using different methods to build the user's search query: some involve a formal language, some use a graphical interface. Spot is characterised by the use of [natural language](#user-content-fn-2)[^2] to express the users' search query.
 
 The Spot user can describe a location search in terms of&#x20;
 
@@ -99,7 +99,7 @@ The exact location where the entity is situated can also be opened in the integr
 
 Spot has also integrated Google Street View for location verification.  Clicking on “Open Google Street View” opens a window displaying the location's street-level photography. Use this feature to match entities and features against the photo or video being geolocated.
 
-Users can also switch between map layers that include “vector map”, “hybrid view” and “OSM Style Map”. The screenshot below shows a location from search results in the hybrid view and the Google Street View tab showing street-level photography of the selected result.
+Users can also switch between map layers that include “[vector map](#user-content-fn-3)[^3]”, “hybrid view” and “OSM Style Map”. The screenshot below shows a location from search results in the hybrid view and the Google Street View tab showing street-level photography of the selected result.
 
 <figure><img src=".gitbook/assets/Spot hybrid view on map.png" alt=""><figcaption></figcaption></figure>
 
@@ -150,6 +150,10 @@ Spot also uses third-party services like Nominatim, Maptiler, Mapbox, Versatiles
 
 Spot offers a tutorial on how to use the tool on its website. For instructions, see the page [here](https://www.findthatspot.io/tutorial/instructions). To learn how to use the tool, visit Spot’s page [here](https://www.findthatspot.io/tutorial/example). For detailed videos, see this [page](https://www.findthatspot.io/tutorial/videos) by the tool provider.
 
+### Similar Tools
+
+_**Maybe a table here? We need to test with reference to Spot paper Table 1**_
+
 ## Tool provider
 
 The tool was developed by [DW Innovation](https://innovation.dw.com/en/articles) and is [co-funded](https://corporate.dw.com/en/geolocation-made-easy-with-new-dw-tool-spot/a-71256709) by the “German Secretary of State for Culture and the Media (BKM) via the KID2 Project (Künstliche Intelligenz gegen Desinformation #2).”
@@ -168,3 +172,5 @@ The tool was developed by [DW Innovation](https://innovation.dw.com/en/articles)
 [^1]: [Open Street Map](https://www.openstreetmap.org/) is a free, open map database of the world, updated and maintained by a community of volunteers via collaborative working.&#x20;
 
 [^2]: i.e. human conversational language
+
+[^3]: Definition here
