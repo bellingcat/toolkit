@@ -6,7 +6,7 @@ description: Mapping service (and streetview in a couple of French cities)
 
 ## URL
 
-http://en.mappy.com/
+[http://en.mappy.com/](http://en.mappy.com/)
 
 ## Description
 
