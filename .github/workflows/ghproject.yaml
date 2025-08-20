@@ -133,9 +133,7 @@ jobs:
         env:
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
         run: |
-          cat project_items.json
-          node src/ghproject.mjs >> items.out
-          items="$(cat items.out)"
+          items="$(node src/ghproject.mjs)"
           echo $items
           echo 'PROJECT_ITEMS='$items >> $GITHUB_ENV
 
