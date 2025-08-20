@@ -29,15 +29,17 @@ e.g. "_**Find a pharmacy and a traffic light and a bus stop and a bridge within 
 
 A common OSINV use case involves the user describing an image or video frame which they want to geolocate, and using Spot to generate potential solution locations around a particular geographic region like a named city.
 
-\---------------------------------------------reworked down to here-----------------------------------------
 
-Structure of Spot
+
+#### What Spot Does
 
 Spot works in 3 stages:
 
-1. uses natural language prompts as input,&#x20;
-2. converts them into code to perform a search
-3. displays the results on a map. Natural language [refers](https://www.ft.com/content/c0c8d205-e158-409e-963c-a3ac821cd7ba?utm_source=chatgpt.com) to human speech or text processed by artificial intelligence, and this process is known as Natural Language Processing (NLP). Spot also supports multiple languages for effective location searches in addition to English.
+1. Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language and converts these sentences into query language  code with a formal structure.
+2. Spot  uses the query  language code to perform a search of OpenStreetMap
+3. Spot displaysdisplays the results on a map.&#x20;
+4. \---------------------------------------------reworked down to here-----------------------------------------
+5. Natural language [refers](https://www.ft.com/content/c0c8d205-e158-409e-963c-a3ac821cd7ba?utm_source=chatgpt.com) to human speech or text processed by artificial intelligence, and this process is known as Natural Language Processing (NLP). Spot also supports multiple languages for effective location searches in addition to English.
 
 \
 The integration of mapping services like Google, Yandex, and Bing further enhances the tool. Users can also view their location of interest in Google Street View. Collaboration is facilitated by enabling users to save, download, and share their sessions.
