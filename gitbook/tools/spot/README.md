@@ -129,12 +129,10 @@ Any web browser and a sign-up through GitHub or Google are required to use the t
 &#x20; &#x20;
 
 1. Complex queries can return no results so users should simplify their search criteria as far as possible.
-2. The tool exhibits srange behaviour. Sometimes results may not meet the search criteria.
+2. The tool exhibits strange behaviour. Sometimes results may not meet the search criteria.
 3. Some queries may take time to get results.&#x20;
 4. Spot is based on OpenStreet Map Data. Anything not found in OSM’s database will not be returned in results.
 5. Results may not always be accurate and should be double-checked against other mapping tools like Google Maps, OpenStreetMap, including street-view photography.
-
-
 
 ## **Ethical Considerations**
 
@@ -148,7 +146,13 @@ Spot also uses third-party services like [Nominatim](https://nominatim.org/), [M
 
 ## Guides and articles
 
-Spot offers a tutorial on how to use the tool on its website. For instructions, see the page [here](https://www.findthatspot.io/tutorial/instructions). To learn how to use the tool, visit Spot’s page [here](https://www.findthatspot.io/tutorial/example). For detailed videos, see this [page](https://www.findthatspot.io/tutorial/videos) by the tool provider.
+Spot offers a tutorial on how to use the tool on its website. For instructions, see the page [here](https://www.findthatspot.io/tutorial/instructions).&#x20;
+
+{% embed url="https://www.youtube.com/watch?t=10s&v=vwsfaiy_5ck" %}
+
+
+
+To learn how to use the tool, visit Spot’s page [here](https://www.findthatspot.io/tutorial/example). For detailed videos, see this [page](https://www.findthatspot.io/tutorial/videos) by the tool provider.
 
 ### Similar Tools
 
@@ -160,9 +164,12 @@ The tool was developed by [DW Innovation](https://innovation.dw.com/en/articles)
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
+* [x] This tool uses cookieless tracking.&#x20;
 * [ ] This tool does not appear to use tracking cookies.
+
+It is possible for users to disable cookiless tracking
 
 | Page maintainer                       |
 | ------------------------------------- |
