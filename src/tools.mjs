@@ -225,7 +225,7 @@ async function createToolOnGitbook(toolName, category, email) {
   }
 }
 
-async function findSpace(name, page='') {
+function findSpace(name, page='') {
   const spaces = readSpaces();
   const space = spaces.find((space) => space.title === name);
   if (space) {
