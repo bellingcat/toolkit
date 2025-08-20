@@ -16,7 +16,6 @@ tools.forEach(async function(tool) {
   if (summary.match(path.relative('gitbook/', tool.filepath))) {
     return; // Already published
   }
-  console.debug(tool.title);
 
   const space = findSpace(tool.title);
   if (!space) {
