@@ -144,7 +144,7 @@ Any web browser and a sign-up through GitHub or Google are required to use the t
 
 In their Legal & Privacy Statement, the tool provider says that the data collected is usually kept for 30 days, after which it is deleted. However, it also reiterates that “under exceptional circumstances, we need them for a longer period for the above-mentioned purposes. In such a case, we erase the data as soon as they're no longer required.”
 
-Spot also uses third-party services like Nominatim, Maptiler, Mapbox, Versatiles, OSM Tiles, Google Street View and MongoDB to make the application work when a user enters a search prompt. Make sure to check their Legal & Privacy Statement to understand how the data is processed.
+Spot also uses third-party services like [Nominatim](https://nominatim.org/), [Maptiler](https://www.maptiler.com/), [Mapbox](https://www.mapbox.com/), [Versatiles](https://versatiles.org/), [OSM Tiles](https://openmaptiles.org/), [Google Street View](https://www.google.com/streetview/) and [MongoDB](https://www.mongodb.com/) to make the application work when a user enters a search prompt. Make sure to check their Legal & Privacy Statement to understand how the data is processed.
 
 ## Guides and articles
 
