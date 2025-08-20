@@ -148,11 +148,13 @@ Spot also uses third-party services like [Nominatim](https://nominatim.org/), [M
 
 Spot offers a tutorial on how to use the tool on its website. For instructions, see the page [here](https://www.findthatspot.io/tutorial/instructions).&#x20;
 
-{% embed url="https://www.youtube.com/watch?t=10s&v=vwsfaiy_5ck" %}
+{% embed url="https://www.youtube.com/watch?t=10s&v=vwsfaiy_5ck" fullWidth="false" %}
 
 
 
 To learn how to use the tool, visit Spot’s page [here](https://www.findthatspot.io/tutorial/example). For detailed videos, see this [page](https://www.findthatspot.io/tutorial/videos) by the tool provider.
+
+
 
 ### Similar Tools
 
