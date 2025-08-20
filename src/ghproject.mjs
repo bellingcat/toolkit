@@ -5,7 +5,7 @@ const {getTools, getSummary} = pkg;
 import pkg2 from './tools.mjs'
 const {fetchChangeRequests, findSpace} = pkg2
 
-const items = JSON.parse(fs.readFileSync('project_items.json', 'utf-8')).data.items.nodes;
+const items = JSON.parse(fs.readFileSync('project_items.json', 'utf-8')).data.node.items.nodes;
 const tools = getTools();
 const summary = getSummary('gitbook');
 

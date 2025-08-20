@@ -7,6 +7,12 @@ jobs:
   sync_crs:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm install
+
       - name: Get project data
         env:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
@@ -60,12 +66,12 @@ jobs:
         run: |
           gh api graphql -f query='
             query (
-              project: ID!
+              $project: ID!
             ) {
               node(id: $project) {
                   ... on ProjectV2 {
                     items(first: 20) {
-                      nodes{
+                      nodes {
                         id
                         fieldValues(first: 8) {
                           nodes{
@@ -125,7 +131,9 @@ jobs:
       # Read project_items.json, find item ids that need update '
       - name: Process items
         run: |
-          items="$(node src/ghproject.mjs)"
+          cat project_items.json
+          node src/ghproject.mjs >> items.out
+          items="$(cat items.out)"
           echo $items
           echo 'PROJECT_ITEMS='$items >> $GITHUB_ENV
 
