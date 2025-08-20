@@ -189,7 +189,7 @@ jobs:
                   itemId: $item
                   fieldId: $url_field
                   value: {
-                    date: $url_value
+                    text: $url_value
                   }
                 }) {
                   projectV2Item {
