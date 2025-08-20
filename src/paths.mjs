@@ -147,7 +147,7 @@ function getTools() {
           url = markdownLink ? markdownLink[2] : urlmarkdown[1];
         }
       } else {
-        console.log(slug, ": No URL in the README");
+        console.warn(slug, ": No URL in the README");
         if (!json.url) {
           url = `https://bellingcat.gitbook.io/toolkit/more/all-tools/${slug}`;
           console.warn("... Defaulting to", url);

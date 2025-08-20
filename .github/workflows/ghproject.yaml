@@ -7,6 +7,12 @@ jobs:
   sync_crs:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm install
+
       - name: Get project data
         env:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
@@ -60,12 +66,12 @@ jobs:
         run: |
           gh api graphql -f query='
             query (
-              project: ID!
+              $project: ID!
             ) {
               node(id: $project) {
                   ... on ProjectV2 {
-                    items(first: 20) {
-                      nodes{
+                    items(last: 100) {
+                      nodes {
                         id
                         fieldValues(first: 8) {
                           nodes{
@@ -124,9 +130,10 @@ jobs:
 
       # Read project_items.json, find item ids that need update '
       - name: Process items
+        env:
+          GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
         run: |
           items="$(node src/ghproject.mjs)"
-          echo $items
           echo 'PROJECT_ITEMS='$items >> $GITHUB_ENV
 
       # Sets the value of the `Status` field to `Review Requested`.
@@ -136,11 +143,12 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
         run: |
-          for item in $PROJECT_ITEMS
+          for project_item in $PROJECT_ITEMS
           do
-            item_id=jq '.id' item
-            date_submitted=jq '.date_submitted' item
-            url=jq '.url' item
+            item_id=$(echo $project_item | jq '.id')
+            date_submitted=$(echo $project_item | jq -r '.date_submitted')
+            echo $date_submitted
+            url=$(echo $project_item | jq -r '.url')
             gh api graphql -f query='
               mutation (
                 $project: ID!
@@ -181,7 +189,7 @@ jobs:
                   itemId: $item
                   fieldId: $url_field
                   value: {
-                    date: $url_value
+                    text: $url_value
                   }
                 }) {
                   projectV2Item {
