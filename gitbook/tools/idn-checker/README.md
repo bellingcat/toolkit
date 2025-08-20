@@ -1,5 +1,6 @@
 ---
 description: IDN Checker detects visually similar versions of a domain.
+updated: '2025-08-19'
 ---
 
 # IDN Checker
