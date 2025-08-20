@@ -12,7 +12,7 @@ const summary = getSummary('gitbook');
 function itemTitle(item) {
   return item.fieldValues.nodes.find((node) => node.field.name === "Title").text ;
 }
-tools.forEach(function(tool) {
+tools.forEach(async function(tool) {
   if (summary.match(path.relative('gitbook/', tool.filepath))) {
     return; // Already published
   }
@@ -29,7 +29,7 @@ tools.forEach(function(tool) {
     return;
   }
 
-  const changeRequets = fetchChangeRequests(space);
+  const changeRequets = await fetchChangeRequests(space);
   if (changeRequests.count) {
     const request = changeRequests.items[0];
     console.log(
