@@ -1,5 +1,5 @@
 ---
-description: Mapping service (and streetview in a couple of French cities \[double check this!])
+description: Mapping service (and streetview in a couple of French cities)
 ---
 
 # Mappy
@@ -10,7 +10,9 @@ http://en.mappy.com/
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Mapping and directions service for locations in Europe. Mappy provides directions for pedestrians, cars, motorcycles, buses and trains where available. It touts its real-time traffic information, which it says can help users determine the fastest routes to their destination. Mappy also gives users a street-view option in some locations in France. Using the Mappy app, users can view control zones and speed camera locations.&#x20;
+
+Mappy is available as a website and as an app for Android and iOS devices.
 
 ## Cost
 
@@ -18,7 +20,7 @@ http://en.mappy.com/
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+
 
 ## Level of difficulty
 
@@ -26,32 +28,33 @@ http://en.mappy.com/
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+None. The Mappy app is available for Android and Apple devices.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+The full capacities of Mappy are only available in Europe - for example, addresses in the US resulted in the city but not the location, and addresses in Mexico were not available to search at all.
+
+The street-view option is only available in select locations in France.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Mappy describes itself as "100% made in France which respects privacy." &#x20;
 
 ## Guide
 
-\[\[Link to a guide on this tool]]
+[\[\[Link to a guide on this tool\]\]](https://www.manua.ls/mappy/iti-s449/manual)
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Mappy's parent company is Mappy S.A., a technological services company based in France.
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer               |
+| ----------------------------- |
+| Aly/Bellingcat Volunteer Team |
+|                               |
