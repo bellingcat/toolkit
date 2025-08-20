@@ -59,7 +59,9 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
         run: |
           gh api graphql -f query='
-            query{
+            query(
+              project: ID!
+            ) {
               node(id: $project) {
                   ... on ProjectV2 {
                     items(first: 20) {
