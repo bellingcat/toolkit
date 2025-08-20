@@ -12,6 +12,10 @@ const summary = getSummary('gitbook');
 function itemTitle(item) {
   return item.fieldValues.nodes.find((node) => node.field.name === "Title").text ;
 }
+function formatDate(date) {
+  var options = { year: 'numeric', month: 'long', day: 'numeric' };
+  return date.toLocaleDateString("en-US", options)).replace(/\//g, '-');
+}
 tools.forEach(async function(tool) {
   if (summary.match(path.relative('gitbook/', tool.filepath))) {
     return; // Already published
@@ -34,7 +38,7 @@ tools.forEach(async function(tool) {
     console.log(
       JSON.stringify({
         id: item.id,
-        date_submitted: request.updatedAt,
+        date_submitted: formatDate(request.updatedAt),
         url: request.urls.app
       }),
     ' ');
