@@ -225,7 +225,7 @@ async function createToolOnGitbook(toolName, category, email) {
   }
 }
 
-function findSpace(name, page='') {
+function findSpace(name) {
   const spaces = readSpaces();
   const space = spaces.find((space) => space.title === name);
   if (space) {
@@ -284,7 +284,7 @@ async function renameSpace(space, name) {
   return data;
 }
 
-async function findTeam(name, page='') {
+function findTeam(name) {
   const teams = readTeams();
   const team = teams.find((team) => team.title === name);
   if (team) {
@@ -320,7 +320,7 @@ async function _createTeam(name) {
 }
 
 async function createTeam(name) {
-  const team = await findTeam(name);
+  const team = findTeam(name);
   if (team) {
     debug('Team already exists');
     return team;
