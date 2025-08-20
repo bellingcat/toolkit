@@ -144,11 +144,11 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
         run: |
-          for item in $PROJECT_ITEMS
+          for project_item in $PROJECT_ITEMS
           do
-            item_id=$(jq '.id' $item)
-            date_submitted=$(jq '.date_submitted' $item)
-            url=$(jq '.url' $item)
+            item_id=$(jq '.id' $project_item)
+            date_submitted=$(jq '.date_submitted' $project_item)
+            url=$(jq '.url' $project_item)
             gh api graphql -f query='
               mutation (
                 $project: ID!
