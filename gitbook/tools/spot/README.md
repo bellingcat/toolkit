@@ -154,7 +154,9 @@ There is a more detailed video on Prompting
 
 {% embed url="https://www.youtube.com/watch?v=wfLSdDrWMC4" %}
 
+There is also training on viewing and interpreting Spot results
 
+{% embed url="https://www.youtube.com/watch?v=RMRumWNf298" %}
 
 ### Similar Tools
 
