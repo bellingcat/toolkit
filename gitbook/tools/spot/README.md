@@ -13,7 +13,15 @@ https://www.findthatspot.io
 
 ## Description
 
-Spot provides an interface to Open Street Map, which is a free, open map database of the world, updated and maintained by a community of volunteers via collaborative working. Open Street Map contains the locations of a large number of features such as buildings and infrastructure, e.g. town hall, water, pylon, railway. The Spot user can describe a location search in terms of these features and a given search area, and Spot will return a map showing those candidate groups of features whenever they meet the user's criteria. The location can be described in terms of a large vocabulary of map features, their proximity and their geography. A common OSINV use case involves the user describing an image or video frame which they want to geolocate, and using Spot to generate potential solution locations around a particular geographic region like a named city.
+Spot provides an interface for searching OpenStreetMap[^1] using everyday language.&#x20;
+
+[OpenStreetMap](https://www.openstreetmap.org/about) (OSM) shows a very large number of both natural and man-made features, e.g. buildings, infrastructure, bodies of water.  These features are labelled according to [OSM's own detailed classification system](https://wiki.openstreetmap.org/wiki/Map_features), e.g. town hall, lake, pylon, railway, ... and they can be used as search terms to express users' search criteria. An example Spot user search might be "Find a car park near a cafe and a marina within 80m in the Hague".&#x20;
+
+A range of tools exists to allow users to query OpenStreetMap (See Alternative Tools below) using different methods to build the user's search query: some involve a formal language, some use a graphical interface. Spot is characterised by the use of [natural language](#user-content-fn-2)[^2] to express the users' search query.
+
+The Spot user can describe a location search in terms of logical groupings of these features, their relative distance from one another, and a geographical location, e.g. "Find a pharmacy and a traffic light and a bus stop and a bridge within 70m in Cologne" and a given search area, and Spot will return a map showing those candidate groups of features whenever they meet the user's criteria in the given location.&#x20;
+
+A common OSINV use case involves the user describing an image or video frame which they want to geolocate, and using Spot to generate potential solution locations around a particular geographic region like a named city.
 
 \---------------------------------------------reworked down to here-----------------------------------------
 
@@ -148,3 +156,7 @@ The tool was developed by [DW Innovation](https://innovation.dw.com/en/articles)
 | ------------------------------------- |
 | Anisa Shabir 5:25 pm PKT on August 17 |
 |                                       |
+
+[^1]: [Open Street Map](https://www.openstreetmap.org/) is a free, open map database of the world, updated and maintained by a community of volunteers via collaborative working.&#x20;
+
+[^2]: i.e. human conversational language
