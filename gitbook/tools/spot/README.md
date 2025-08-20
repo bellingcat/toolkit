@@ -128,11 +128,12 @@ Any web browser and a sign-up through GitHub or Google are required to use the t
 
 &#x20; &#x20;
 
-1. Complex queries can return no results so users should simplify their search criteria as far as possible.
-2. The tool exhibits strange behaviour. Sometimes results may not meet the search criteria.
-3. Some queries may take time to get results.&#x20;
-4. Spot is based on OpenStreet Map Data. Anything not found in OSM’s database will not be returned in results.
-5. Results may not always be accurate and should be double-checked against other mapping tools like Google Maps, OpenStreetMap, including street-view photography.
+1. Spot does not answer the question "How many different locations satisfy my criteria in the given search area? This is because Spot simply draws each feature on the map which is part of a solution location, i.e. a location which satisfies the search criteria, but does not relate them in any way.&#x20;
+2. Complex queries can return no results so users should simplify their search criteria as far as possible.
+3. The tool exhibits strange behaviour. Sometimes results may not meet the search criteria.
+4. Some queries may take time to get results.&#x20;
+5. Spot is based on OpenStreet Map Data. Anything not found in OSM’s database will not be returned in results.
+6. Results may not always be accurate and should be double-checked against other mapping tools like Google Maps, OpenStreetMap, including street-view photography.
 
 ## **Ethical Considerations**
 
