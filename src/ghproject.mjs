@@ -14,7 +14,7 @@ function itemTitle(item) {
 }
 function formatDate(date) {
   var options = { year: 'numeric', month: 'long', day: 'numeric' };
-  return date.toLocaleDateString("en-US", options)).replace(/\//g, '-');
+  return date.toLocaleDateString("en-US", options).replace(/\//g, '-');
 }
 tools.forEach(async function(tool) {
   if (summary.match(path.relative('gitbook/', tool.filepath))) {
