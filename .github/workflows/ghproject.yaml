@@ -146,9 +146,9 @@ jobs:
         run: |
           for item in $PROJECT_ITEMS
           do
-            item_id=jq '.id' item
-            date_submitted=jq '.date_submitted' item
-            url=jq '.url' item
+            item_id=$(jq '.id' $item)
+            date_submitted=$(jq '.date_submitted' $item)
+            url=$(jq '.url' $item)
             gh api graphql -f query='
               mutation (
                 $project: ID!
