@@ -134,7 +134,6 @@ jobs:
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
         run: |
           items="$(node src/ghproject.mjs)"
-          echo $items
           echo 'PROJECT_ITEMS='$items >> $GITHUB_ENV
 
       # Sets the value of the `Status` field to `Review Requested`.
@@ -148,6 +147,7 @@ jobs:
           do
             item_id=$(echo $project_item | jq '.id')
             date_submitted=$(echo $project_item | jq '.date_submitted')
+            echo $date_submitted
             url=$(echo $project_item | jq '.url')
             gh api graphql -f query='
               mutation (
