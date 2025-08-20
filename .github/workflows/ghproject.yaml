@@ -130,6 +130,8 @@ jobs:
 
       # Read project_items.json, find item ids that need update '
       - name: Process items
+        env:
+          GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
         run: |
           cat project_items.json
           node src/ghproject.mjs >> items.out
