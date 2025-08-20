@@ -12,9 +12,9 @@ const summary = getSummary('gitbook');
 function itemTitle(item) {
   return item.fieldValues.nodes.find((node) => node.field.name === "Title").text ;
 }
-function formatDate(date) {
-  var options = { year: 'numeric', month: 'long', day: 'numeric' };
-  return date.toLocaleDateString("en-US", options).replace(/\//g, '-');
+function formatDate(dateString) {
+  var date = new Date(dateString);
+  return date.toISOString().replace(/T.*/,'');
 }
 tools.forEach(async function(tool) {
   if (summary.match(path.relative('gitbook/', tool.filepath))) {
