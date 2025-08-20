@@ -70,7 +70,7 @@ jobs:
             ) {
               node(id: $project) {
                   ... on ProjectV2 {
-                    items(first: 20) {
+                    items(last: 100) {
                       nodes {
                         id
                         fieldValues(first: 8) {
