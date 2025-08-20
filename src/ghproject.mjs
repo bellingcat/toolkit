@@ -29,7 +29,7 @@ tools.forEach(async function(tool) {
     return;
   }
 
-  const changeRequets = await fetchChangeRequests(space);
+  const changeRequests = await fetchChangeRequests(space);
   if (changeRequests.count) {
     const request = changeRequests.items[0];
     console.log(
