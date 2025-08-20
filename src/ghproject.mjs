@@ -29,6 +29,7 @@ tools.forEach(async function(tool) {
     return;
   }
 
+  console.error("Getting change request for ", space);
   const changeRequets = await fetchChangeRequests(space);
   if (changeRequests.count) {
     const request = changeRequests.items[0];
