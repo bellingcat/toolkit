@@ -55,7 +55,7 @@ The example below shows selecting the _bridges_ category for Amsterdam:
 ## Limitations
 
 * **Data Accuracy**: Wikimapia's content is user-generated, leading to potential inaccuracies.
-* **Outdated information:** Many Wikimapia entries are many years old and are not kept up to date anymore. Information found on Wikipedia does not always correspond with the current situation at a specific location.
+* **Outdated information:** Many Wikimapia entries are many years old and are not kept up to date anymore. Information found on Wikimapia does not always correspond with the current situation at a specific location.
 * **Coverage Inconsistency**: Some areas, especially in less populated or less accessible regions, may have sparse or no data.
 * **API Rate Limiting**: There might be limitations on the number of API requests that can be made in a certain timeframe, impacting extensive data retrieval tasks. The actual [rate limits](https://api.wikimedia.org/wiki/Rate_limits) are not clearly documented at this time.
 
