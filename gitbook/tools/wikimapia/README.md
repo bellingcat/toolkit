@@ -3,6 +3,7 @@ description: >-
   Wikimapia is a collaborative mapping project that aims to describe every
   location on Earth, combining the interactive features of a detailed map with
   the versatility of a wiki system.
+updated: '2025-08-20'
 ---
 
 # Wikimapia
