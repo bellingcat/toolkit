@@ -1,5 +1,5 @@
 ---
-description: Browser extension for simple web scraping, with table output
+description: Browser extension for simple web scraping, with table output.
 ---
 
 # Instant Data Scraper
