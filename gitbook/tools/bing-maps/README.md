@@ -1,9 +1,9 @@
 ---
+updated: '2025-07-09'
 description: >-
   Bing Maps is a web mapping service provided by Microsoft that offers detailed
   geographical information and tools for route planning, location search, and
   satellite imagery.
-updated: '2025-07-09'
 ---
 
 # Bing Maps
@@ -14,7 +14,7 @@ updated: '2025-07-09'
 
 ## Description
 
-Bing Maps is a web mapping service provided by Microsoft. It offers users access to detailed maps and driving directions, as well as features such as street view, 3D maps, and traffic updates. The tool serves various purposes, from helping users navigate from point A to B efficiently, to planning trips, and conducting geographical research.&#x20;
+Bing Maps is a web mapping service provided by Microsoft. It offers users access to detailed maps and driving directions, as well as features such as street view, 3D maps, and traffic updates. The tool serves various purposes, from helping users navigate from point A to B efficiently, to planning trips, and conducting geographical research.
 
 **Features:**
 
@@ -35,11 +35,11 @@ Example search results for the term _Amsterdam:_
 Bing Maps can be a valuable tool for open source researchers in various ways, such as:
 
 * **Geolocation Verification:** Verifying the location of a photo or video shared on social media to confirm the authenticity of claims made online.
-* **Investigative Reporting:** Tracking and mapping out relevant locations to a story, thereby providing readers with a clearer understanding of the spatial relationships and geographical details of the investigation. One issue to remember is that Bing map imagery may not be up to date see [How often are Bing satellite Maps updated?](https://www.ncesc.com/geographic-pedia/how-often-are-bing-satellite-maps-updated/) for more information.
+* **Investigative Reporting:** Tracking and mapping out relevant locations to a story, thereby providing readers with a clearer understanding of the spatial relationships and geographical details of the investigation. One issue to remember is that Bing map imagery may not be up to date see [How often are Bing satellite Maps updated?](https://www.studycountry.com/wiki/how-often-are-bing-satellite-maps-updated) for more information.
 * **Historical Analysis:** Comparing current maps with historical data to highlight changes over time in areas of interest, which can add depth to stories on urban development, environmental changes, or socio-economic shift.
 * **Infrastructure Analysis:** Analyzing satellite images and 3D maps of critical infrastructure for changes or developments that might indicate political, military, or economic events.
 * **Environmental Monitoring:** Monitoring changes in landscapes, forest cover, water bodies, etc., to report on environmental issues or natural disasters.
-* **Gathering Geopolitical Intelligence:** Mapping conflict zones, territorial control changes, or military movements using updated satellite imagery to understand geopolitical dynamics.&#x20;
+* **Gathering Geopolitical Intelligence:** Mapping conflict zones, territorial control changes, or military movements using updated satellite imagery to understand geopolitical dynamics.
 
 ## Cost
 
@@ -47,7 +47,7 @@ Bing Maps can be a valuable tool for open source researchers in various ways, su
 * [x] Partially Free
 * [ ] Paid
 
-Developer API may incur costs depending on usage (see: [https://www.microsoft.com/en-us/maps/bing-maps/licensing](https://www.microsoft.com/en-us/maps/bing-maps/licensing))..
+Developer API may incur costs depending on usage (see: [https://www.microsoft.com/en-us/maps/bing-maps/licensing](https://azure.microsoft.com/en-us/pricing/details/api-management/))..
 
 ## Level of difficulty
 
@@ -61,10 +61,10 @@ Developer API may incur costs depending on usage (see: [https://www.microsoft.co
 
 ## Limitations
 
-* **Licensing and Cost**: Bing Maps API incurs costs for extensive usage beyond the provided free usage quotas, which might not be suitable for projects with limited budgets (see: [https://www.microsoft.com/en-us/maps/bing-maps/licensing](https://www.microsoft.com/en-us/maps/bing-maps/licensing)).
+* **Licensing and Cost**: Bing Maps API incurs costs for extensive usage beyond the provided free usage quotas, which might not be suitable for projects with limited budgets (see: [https://www.microsoft.com/en-us/maps/bing-maps/licensing](https://azure.microsoft.com/en-us/pricing/details/api-management/)).
 * **Data Coverage**: While comprehensive, Bing Maps has less detailed mapping data in certain remote or less-populated regions compared to other services such as Google Maps.
 * **Developer API Limits**: There are daily rate limits on API calls, which may impact large-scale applications or services requiring high numbers of requests (see: [https://www.microsoft.com/en-us/maps/bing-maps/product/](https://www.microsoft.com/en-us/maps/bing-maps/product/)).
-* **Update Frequency**: The frequency of map updates for certain areas may not be as regular as some users require, potentially affecting the accuracy of the maps. See [How often are Bing satellite Maps updated?](https://www.ncesc.com/geographic-pedia/how-often-are-bing-satellite-maps-updated/) for more information.
+* **Update Frequency**: The frequency of map updates for certain areas may not be as regular as some users require, potentially affecting the accuracy of the maps. See [How often are Bing satellite Maps ?](https://www.studycountry.com/wiki/how-often-are-bing-satellite-maps-updated) for more information.
 * **Feature Set**: Although Bing Maps offers a wide range of functionalities, it lacks features found in other mapping services, such as the more advanced analytical tools and detailed terrain information found in Google Earth Pro.
 
 ## Ethical Considerations
@@ -73,13 +73,13 @@ When open source researchers use Bing Maps, they should consider the following e
 
 * **Privacy and Anonymity**: Be cautious when reporting on sensitive areas or topics. Ensure individuals' locations or movements are not disclosed without consent, especially in contexts where revealing locations could endanger lives or privacy.
 * **Data Accuracy and Misrepresentation**: Verify the accuracy of the information provided by Bing Maps. Misrepresenting a location, either intentionally or accidentally due to outdated or incorrect map data, can lead to misinformation and harm reputations. For more information see [Google Earth, Google satellite, and Bing aerial accuracy](https://gis.stackexchange.com/questions/86734/google-earth-google-satellite-and-bing-aerial-accuracy).
-* **Impartiality and Bias**: Understand the limitations of Bing Maps in representing disputed territories or areas of conflict. Be aware of how the depiction of these areas might convey a particular political stance or bias, affecting the impartiality of the reportage.  Examples of this can be seen in [border bias](https://www.washingtonpost.com/technology/2020/02/14/google-maps-political-borders/) and [local 'safety' bias](https://www.newstatesman.com/spotlight/tech-regulation/emerging-technologies/2022/08/mapping-navigational-apps-gis-safety-bias-google-maps).
+* **Impartiality and Bias**: Understand the limitations of Bing Maps in representing disputed territories or areas of conflict. Be aware of how the depiction of these areas might convey a particular political stance or bias, affecting the impartiality of the reportage. Examples of this can be seen in [border bias](https://www.washingtonpost.com/technology/2020/02/14/google-maps-political-borders/) and [local 'safety' bias](https://www.newstatesman.com/spotlight/tech-regulation/emerging-technologies/2022/08/mapping-navigational-apps-gis-safety-bias-google-maps).
 
 ## Guide
 
 To effectively use Bing Maps, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
 
-**Official Wiki**&#x20;
+**Official Wiki**
 
 * **No official wiki** (but the Bing Maps Blog is available here: [https://blogs.bing.com/maps/](https://blogs.bing.com/maps/))
 * **Unofficial GIS Wiki:** [http://wiki.gis.com/wiki/index.php/Bing\_Maps](http://wiki.gis.com/wiki/index.php/Bing_Maps)
@@ -117,4 +117,3 @@ Microsoft [https://www.microsoft.com](https://www.microsoft.com) - United States
 | ------------------------------------- |
 | Paul - Bellingcat Volunteer Community |
 |                                       |
-
