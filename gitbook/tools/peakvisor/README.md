@@ -1,16 +1,16 @@
 ---
+updated: '2025-06-30'
 description: >-
   Dual window views for any global location: (1) a 2-D map & (2) a 3-D rendered
   terrain model, with photo fitting, shade/slope mapping, sun trails & weather
   data. In active development for OS research.
-updated: '2025-06-30'
 ---
 
 # PeakVisor
 
 ## URL
 
-https://peakvisor.com
+[https://peakvisor.com](https://peakvisor.com/)
 
 ## Description
 
@@ -419,7 +419,7 @@ Routes Software SRL, VIA CAVOUR 2 LOMAZZO, COMO, 22074 ITALY
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling.   |
+| Sophie Tedling:   |
 |                   |
 
 [^1]: To be cross-referenced with other Toolbox tool entries.
