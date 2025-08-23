@@ -148,9 +148,13 @@ PeakVisor provides an elevation data download feature for a maximum ground surfa
 
 ### FIVE Different Views for Terrain in PeakVisor
 
+{% hint style="warning" %}
+3D Map view feature is temporarily disabled as at 23/8/25, pending review.&#x20;
+{% endhint %}
+
 1. [Explorer View](./#view-one-explorer-view-3d-rendered-terrain-model) (3D rendered terrain model displayed with 2D Map View)
-2. [2D Map View](./#view-two-2d-map-view)
-3. [3D Map View](./#view-three-3d-map-view)
+2. [2D Map View](./#view-two-2d-map-view)&#x20;
+3. [3D Map View](./#view-three-3d-map-view)- Temporarily disabled as at 23/8/25
 4. [Hike Map View](./#view-four-hike-map-view)
 5. [Ski Map View](./#view-five-ski-map-view)
 
@@ -231,7 +235,7 @@ When the sun is centre screen in the PeakVisor Explorer view, the yaw value in t
 
 There are also view types for Skiers and Hikers, each of which has functionality useful for Open Source research:
 
-### VIEW TWO: 2D Map View
+### VIEW TWO: 2D Map View&#x20;
 
 <details>
 
@@ -245,7 +249,7 @@ There are also view types for Skiers and Hikers, each of which has functionality
 
 <figure><img src=".gitbook/assets/2Dwindowmatterhorn.JPG" alt="" width="563"><figcaption><p><strong>PEAKVISOR 2D MAP VIEW WITH CONTOUR LINES AND MAP LABELS (PLACES, PATHS, CONTOURS ETC)</strong></p></figcaption></figure>
 
-### VIEW THREE: 3D Map View
+### VIEW THREE: 3D Map View - <mark style="color:$danger;">temporarily disabled pending review</mark>
 
 <details>
 
