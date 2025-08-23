@@ -1,9 +1,9 @@
 ---
+updated: '2025-06-30'
 description: >-
   A platform offering detailed maps, satellite imagery, street views (static &
   sometimes dynamic imagery, including aerial views). Often the best available
   data on Russia & surrounding regions.
-updated: '2025-06-30'
 ---
 
 # Yandex Maps
@@ -161,5 +161,5 @@ The author's own checks in May 2025 showed Yandex using trackers.
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling.   |
+| Sophie Tedling:   |
 |                   |
