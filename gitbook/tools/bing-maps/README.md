@@ -14,11 +14,21 @@ description: >-
 
 ## Description
 
-Bing Maps is a web mapping service provided by Microsoft. It offers users access to detailed maps and driving directions, as well as features such as street view, 3D maps, and traffic updates. The tool serves various purposes, from helping users navigate from point A to B efficiently, to planning trips, and conducting geographical research.
+Bing Maps is a web mapping service provided by Microsoft. It offers users access to detailed maps and driving directions, the tool serves various purposes, from helping users navigate from point A to B efficiently, to planning trips, and conducting geographical research.&#x20;
+
+The imagery includes samples taken by satellite sensors, aerial cameras (including 45 degree oblique "bird's eye" aerial imagery licensed from [Pictometry International](https://en.wikipedia.org/wiki/Pictometry_International)), Streetside imagery, 3D city models and terrain.&#x20;
 
 **Features:**
 
-* **Language:** supports multiple languages.
+* Supports multiple languages.
+* Photo-based images with features such as Streetside and 45 degree oblique "bird’s eye" views (nominally including 4 views at 90 degree viewpoint increments) that present data in context while simplifying orientation and navigation.
+* The ability to overlay standard or custom data points and layers with different themes.
+* Building-level geocoding for more than 70 million addresses in the United States.
+* Developer support options available.
+*   Set of APIs available upon which developers can build applications.
+
+    \
+
 
 Bing Maps is available in the following formats:
 
