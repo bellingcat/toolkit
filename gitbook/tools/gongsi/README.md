@@ -25,7 +25,7 @@ Users can apply various search criteria (as seen in the screenshot below), such 
 
 Alternatively, you can also simply type different search terms in the search box and apply search filters afterwards.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-07-19 115637.png" alt=""><figcaption><p>"企业名称" = Search by Enterprise; "法定代表人" = Search by Legal Shareholder;  经营范围" = Search by Industry; "热门城市"= Search by Geographical Cities</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-08-25 144757.png" alt=""><figcaption><p>"企业名称" = Search by Enterprise; "法定代表人" = Search by Legal Shareholder;  经营范围" = Search by Industry; "热门城市"= Search by Geographical Cities</p></figcaption></figure>
 
 
 
@@ -39,13 +39,13 @@ The status of enterprises are colour coded. For example, the status of active en
 
 When you click on a search result, it will bring you to the details of the enterprise. Details include enterprise name, name of legal shareholder ("法定代表人"), date of company establishment ("成立时间") etc.
 
-<figure><img src=".gitbook/assets/image (5).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-08-25 143742.png" alt=""><figcaption></figcaption></figure>
 
 **Search by Legal Shareholder:**
 
 You can also search for a list of of enterprises and companies that are associated with a particular individual:
 
-<figure><img src=".gitbook/assets/image.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-08-25 142407.png" alt=""><figcaption></figcaption></figure>
 
 **Search by Industry:**
 
@@ -53,7 +53,7 @@ You can search for enterprises by industry. For instance, in this example below,
 
 Alternatively, you can also choose from a list of industrial sectors ("按行业查询") by scrolling down from the main landing page.
 
-<figure><img src=".gitbook/assets/image (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-08-25 141238.png" alt=""><figcaption></figcaption></figure>
 
 **Search by Geographical Cities ("热门城市"):**
 
@@ -61,7 +61,7 @@ You can also search for enterprises via geographical cities, such as Beijing, Ti
 
 There are other search options available, including searching by contact information.
 
-<figure><img src=".gitbook/assets/image (6).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-08-25 135610.png" alt=""><figcaption></figcaption></figure>
 
 ## Cost
 
@@ -75,13 +75,15 @@ There are other search options available, including searching by contact informa
 
 ## Requirements
 
-The usage of VPN and Chinese translation (e.g. DeepL) can be useful.
+The usage of a Chinese translation tool (e.g. DeepL) can be useful.
 
 ## Limitations
 
-Not all search returned information will be displayed if you do not log in with a registered account (which would require a Chinese mobile number). Search results displayed without logging in with a registered account would not be 100%. For more accurate results, it is advisable to cross-check with other similar websites (e.g., Tianyancha, Qichacha).
+Not all search returned information will be displayed if you do not log in with a registered account (which would require a Chinese mobile number) as non-registered account users would have basic search functions (as elaborated in the article). While creating a registered account is free, this would require a Chinese mobile number.&#x20;
 
-Depending on your internet connection and/or VPN usage, the website may not turn up results on first search. It is advisable to try and refresh the webpage again - this step usually returns search results.
+Search results displayed without logging in with a registered account would not be 100%. For more accurate results, it is advisable to cross-check with other similar websites (e.g., Tianyancha, Qichacha).
+
+Depending on your internet connection, the website may not turn up results on first search. It is advisable to try and refresh the webpage again - this step usually returns search results.
 
 ## Ethical Considerations
 
