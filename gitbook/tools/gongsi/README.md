@@ -87,7 +87,7 @@ Depending on your internet connection, the website may not turn up results on fi
 
 ## Ethical Considerations
 
-\-
+Since data is publicly available and sourced from government records, users can use this tool without ethical concerns. Information on companies and individuals must not be exploited for personal gain, doxxing, harassment, or any actions that may be deemed illegal or unlawful.
 
 ## Guides and articles
 
