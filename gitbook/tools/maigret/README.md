@@ -1,8 +1,8 @@
 ---
+updated: '2025-07-09'
 description: >-
   Maigret is a Python script that retrieves user information by searching for
   usernames across various websites and social media platforms.
-updated: '2025-07-09'
 ---
 
 # Maigret
@@ -42,8 +42,6 @@ A short text report is also shown in the command line after the search phase.
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
 ## Requirements
-
-
 
 * Python3 (for installation).
 * Telegram account (required to use the bot).
@@ -105,7 +103,9 @@ Here, you can enter one or more usernames to initiate a search. After the search
 
 ## Limitations and Ethical Consideration
 
-Maigret may miss valid results from various sources. Additionally, it may encounter issues with bot protection and CAPTCHAs, leading to errors in the search results. There is also a possibility of false positives, where the tool might incorrectly identify accounts belonging to the searched username.
+It is important to understand Maigret's limitations. The tool can be hampered by bot protection and CAPTCHAs, which may lead to incomplete searches. Results can also include false positives, meaning accounts may be incorrectly attributed to your target.
+
+Recent updates, such as the user-friendly web interface and username permutator, make the tool more accessible but do not change these core limitations. With enhanced usability comes a greater ethical responsibility. Users must verify all findings and use Maigret legally, respecting individual privacy and the websites' terms of service.
 
 ## Guides and articles
 
