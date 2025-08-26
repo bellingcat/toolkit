@@ -1,9 +1,9 @@
 ---
-description: >-
-  Wikimapia is a collaborative mapping project that aims to describe every
-  location on Earth, combining the interactive features of a detailed map with
-  the versatility of a wiki system.
 updated: '2025-08-20'
+description: >-
+  Wikimapia is a long-running collaborative mapping project that provides open
+  source researchers with a unique database of historical, user-generated
+  content.
 ---
 
 # Wikimapia
@@ -14,29 +14,50 @@ updated: '2025-08-20'
 
 ## Description
 
-Wikimapia is an open-content collaborative mapping project that aims to mark and describe all geographical objects in the world. It combines an interactive web map with a wiki system, allowing users to add information and edit content about any location on the globe. This tool provides a vast amount of detailed geographical and local information that might not be available through other sources.
+Wikimapia is a collaborative mapping project that combines an interactive map with a wiki system. While it aims to describe every location on Earth, it is crucial for researchers to understand that the tool is outdated. The platform is no longer actively maintained, and the vast majority of its data is more than five years old. While new places are still added globally at a very low rate, this activity is not enough to keep the map current, and the platform's core dataset should be treated as rather historical.
 
-Wikimapia can solve several problems for researchers, including locating hard-to-find places, understanding the geographical context of an area, and discovering local knowledge about specific locations. For example, an open source researcher studying urban development can use Wikimapia to identify newly developed areas, understand local infrastructure, and gather data on land use without requiring physical travel to the location. The tool is sometimes able to provide more accurate place names and areas than other annotated maps.
+Despite its age, Wikimapia's historical dataset can be a valuable source for open-source researchers in specific contexts:
 
-Features:
+* **Historical Geolocation:** The platform is useful for investigating past events. For instance, user tags from 2014 can help identify buildings or military positions in Ukraine that have since been altered or destroyed.
+* **Regional Focus:** The data on Wikimapia is most comprehensive in regions where it had a large user base, particularly in Russia, Ukraine, and other Eastern European countries. For research focused on this area in the 2007-2015 timeframe, it may contain labels and details not found on other maps from that period. It is not the _best_ data source available for any region today, but it can be a unique source for historical context.
 
-* **Search:** search for locations by name.
-* **Categories:** explore amenities on the map by filtering category of amenity (for instance hospital, military, stores/shops etc.).
-* **Language:** supports multiple languages.
+The screenshot below with the view of Donetsk International Airport on Wikimapia demonstrates its value as a historical record. The main airport area is labeled "Ruined," a title updated by users following its destruction in 2014. The map is covered in detailed, user-added polygons that pinpoint specific locations, including historical events like the nearby "Il-76 shoot-down."
+
+<figure><img src=".gitbook/assets/donetsk_international_airport.png" alt=""><figcaption><p>Screenshot of a search for 'Donetsk International Airport'.</p></figcaption></figure>
+
+### Features:
+
+* **Search & Categories:** Search for locations by name or filter the map by dozens of pre-set categories (e.g., military, hospital, factory).
+* **Multiple Map Layers:** Switch between various base map providers, including Google Maps, Bing Maps, and OpenStreetMap.
+* **Measurement Tool:** Includes a tool for measuring distances between points on the map.
 * **Measure distance:** measure distance between points in feet and metres.
-* **Map Types**: Wikimapia Satellite/Map, Bing Hybrid, Bing Map, Bing Satellite, Google Hybrid, Google Map, Google Satellite, OpenStreetMap, Google Terrain, Yahoo Satellite.
-* **Zoom tool:** zoom in and out on the map.
-
-The example below shows selecting the _bridges_ category for Amsterdam:
-
-<figure><img src=".gitbook/assets/Screenshot 2024-06-23 at 10.24.30 AM.png" alt="Screenshot of selecting the bridges category for Amsterdam. The screenshot shows a street map with all the bridges in Amsterdam marked with place markers."><figcaption><p>Screenshot of selecting the <em>bridges</em> category for Amsterdam.</p></figcaption></figure>
+* **Multilingual Interface:** The user interface is available in multiple languages.
 
 ### Use Case examples for Open Source Researchers
 
-1. **Locating Hard-to-Find Places**: Researchers can use Wikimapia to identify and access detailed information about obscure or difficult-to-locate places that might not be documented in traditional mapping tools.
-2. **Geographical Context Understanding**: By leveraging the detailed descriptions and user-contributed content in Wikimapia, researchers can gain a deeper understanding of the geographical context of specific areas, including local insights that are often missing from commercial maps.
-3. **Urban Development Tracking**: For those studying urban development, Wikimapia offers a unique perspective on the evolution of cities and neighborhoods. Researchers can observe changes in land use, expansion of residential areas, and development of infrastructure over time.
-4. **Cultural and Historical Research**: This platform allows researchers to explore the history and cultural significance of specific locations. User-contributed information provides insights into local landmarks, historical sites, and cultural narratives.
+1. **Corooborating Old Evidence:** Use the map's historical annotations to find supplementary evidence for claims or events mentioned in old news reports, videos, or documents from the 2007-2015 period.
+2. **Discovering Informal Place Names:** Identify local, unofficial, or historical names for locations that do not appear on official maps, which can be crucial for keyword searching in local languages.
+3. **Analyzing Historical Site Layouts:** Examine the detailed, user-drawn layouts of industrial sites, military bases, or critical infrastructure as they existed before being altered, expanded, or destroyed.
+4. **Cultural and Historical Context:** Gain insights into the significance of local landmarks or historical sites based on what users were documenting and describing during the platform's most active years.
+
+## Similar Tools: Wikimapia vs. OpenStreetMap
+
+For nearly all modern mapping needs, OpenStreetMap (OSM) is the recommended alternative to Wikimapia. It is the tool that has effectively replaced Wikimapia as the leading global, collaborative mapping project.
+
+While both are crowdsourced, they are fundamentally different in their purpose and current state.
+
+| Feature            | Wikimapia                                                                     | OpenStreetMap(OSM)                                                                   |
+| ------------------ | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| **Primary Use**    | A historical archive for viewing past, user-generated labels.                 | A live, current, and detailed global map for present-day use.                        |
+| **Data Freshness** | Stale (mostly pre-2016 data).                                                 | Continuously updated by millions of active contributors.                             |
+| **Data Type**      | Simple polygons with informal text descriptions.                              | Highly structured geospatial data (points, lines, relations) with standardized tags. |
+| **Community**      | Extremely low activity. A small forum presence but no widespread map updates. | Massive, active global community with established editing rules and quality control. |
+| **License**        | Restrictive, with unclear terms for data reuse.                               | Open Database License (ODbL), allowing data to be freely used and redistributed.     |
+
+#### Who Should Use Which Tool?
+
+* **Use Wikimapia if**: You are an open source researcher needing historical context for a specific time period (pre-2016) in specific regions (e.g., Eastern Europe), especially for finding informally labeled sites.&#x20;
+* **Use OpenStreetMap if:** You need more current crowdsourced, and reusable map data for any other purpose, including analysis, visualization, navigation, or as a base layer for your own research. OSM is the standard for up-to-date, open-source geospatial information.
 
 ## Cost
 
@@ -55,51 +76,39 @@ The example below shows selecting the _bridges_ category for Amsterdam:
 
 ## Limitations
 
+Researchers must be aware of Wikimapia's significant limitations. The data should never be used as a standalone source and must be treated with extreme caution.
+
 * **Data Accuracy**: Wikimapia's content is user-generated, leading to potential inaccuracies.
-* **Outdated information:** Many Wikimapia entries are many years old and are not kept up to date anymore. Information found on Wikimapia does not always correspond with the current situation at a specific location.
-* **Coverage Inconsistency**: Some areas, especially in less populated or less accessible regions, may have sparse or no data.
+* **Outdated information:** This is the most critical limitation. The overwhelming majority of the data does not reflect the current reality of a location and must be verified using contemporary sources.
+* **Inconsistent Coverage:** Data density varies dramatically. While areas like Eastern Europe are heavily detailed with historical data, many other regions have sparse or non-existent information.
 * **API Rate Limiting**: There might be limitations on the number of API requests that can be made in a certain timeframe, impacting extensive data retrieval tasks. The actual [rate limits](https://api.wikimedia.org/wiki/Rate_limits) are not clearly documented at this time.
 
 ## Ethical Considerations
 
 When using Wikimapia, ethical considerations include:
 
-* **Privacy Concerns**: Sharing or mapping sensitive locations may infringe on individuals' or groups' privacy rights. Users should be cautious about adding locations that could compromise privacy.
-* **Misinformation**: Given the user-generated nature of the content, there is a risk of spreading misinformation. Contributors should ensure the accuracy of the information they provide. Users needs to verify any information they use from Wikimapia.&#x20;
+* **Responsibility for Verification:** Given that the platform contains unverified, outdated, and potentially false information, researchers have an ethical responsibility to rigorously verify any claims before using them in publications or reports. Publishing unverified data from Wikimapia risks spreading misinformation.
+* **Handling Sensitive and Private Information:** The map's archive may contain labels for private homes or other sensitive locations added without consent. Researchers must be cautious not to amplify or republish information that could infringe on the privacy and security of individuals.
 
 ## Guide
 
-To effectively use Wikimapia, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
+The following resources are recommended for understanding how Wikimapia has been used in an open source research context. Note that most of these guides are several years old and should be viewed as examples of methodology rather than tutorials for a modern tool.
 
-**Official Wiki**
-
-* [https://wiki.openstreetmap.org/wiki/Wikimapia](https://wiki.openstreetmap.org/wiki/Wikimapia)
-
-**Tutorials and Articles**
-
-* _Geospatial awareness: how to add data to Google Earth & must-have datasets_ (no date). Available at: [https://benjaminstrick.com/geospatial-awareness-how-to-add-data-to-google-earth/](https://benjaminstrick.com/geospatial-awareness-how-to-add-data-to-google-earth/) (Accessed: 17 May 2025).
-* _Quick start - Wikimapia_ (no date). Available at: [https://wikimapia.org/docs/Quick\_start](https://wikimapia.org/docs/Quick_start) (Accessed: 17 May 2025).
-* Seitz, J. (2015) _Automating Photo Retrieval for Geolocating - Part 2:Wikimapia_, _bellingcat_. Available at: [https://www.bellingcat.com/resources/2015/05/13/automating-photo-retrieval-for-geolocating-part-2-wikimapia/](https://www.bellingcat.com/resources/2015/05/13/automating-photo-retrieval-for-geolocating-part-2-wikimapia/) (Accessed: 17 May 2025).
-* Sheldon, M. (2022) _Meet the Irregular Troops Backing up Russia’s Army in the Kharkiv Region_, _bellingcat_. Available at: [https://www.bellingcat.com/news/2022/06/17/meet-the-irregular-troops-backing-up-russias-army-in-the-donbas/](https://www.bellingcat.com/news/2022/06/17/meet-the-irregular-troops-backing-up-russias-army-in-the-donbas/) (Accessed: 17 May 2025).
-
-**Video Tutorials**
-
-* _Wikimapia Quick Start Tutorial.MP4_ (2014). Available at: [https://www.youtube.com/watch?v=MbN36OxmX9A](https://www.youtube.com/watch?v=MbN36OxmX9A) (Accessed: 17 May 2025).
-
-#### Developer Resources
-
-* _Getting Started with wikimapia\_api — wikimapia\_api 0.1.0.dev1 documentation_ (no date). Available at: [https://wikimapia-api-py.readthedocs.io/en/latest/tutorial.html](https://wikimapia-api-py.readthedocs.io/en/latest/tutorial.html) (Accessed: 17 May 2025).
-* _Python Wikimapia API documentation — wikimapia\_api 0.1.0.dev1 documentation_ (no date). Available at: [https://wikimapia-api-py.readthedocs.io/en/latest/index.html](https://wikimapia-api-py.readthedocs.io/en/latest/index.html) (Accessed: 17 May 2025).
-
-**Community and Support**
-
-* [http://wikimapia.org/docs/Help/FAQ#Community](http://wikimapia.org/docs/Help/FAQ#Community)
-* [http://wikimapia.org/forum/](http://wikimapia.org/forum/index.php)
-* [https://gis.stackexchange.com/questions/tagged/wikimapia](https://gis.stackexchange.com/questions/tagged/wikimapia)
+* Open Source Research Case Studies (Highly Recommended):
+  * Seitz, J. (2015) [_Automating Photo Retrieval for Geolocating - Part 2:Wikimapia_](https://www.bellingcat.com/resources/2015/05/13/automating-photo-retrieval-for-geolocating-part-2-wikimapia/), Bellingcat. This article is an excellent example of how the tool's data was used in geolocating workflows at its peak.
+  * Sheldon, M. (2022) [_Meet the Irregular Troops Backing up Russia’s Army in the Kharkiv Region_, Bellingcat](https://www.bellingcat.com/news/2022/06/17/meet-the-irregular-troops-backing-up-russias-army-in-the-donbas). This article shows the tool being used to identify the location of a Russian military base, demonstrating its value in conflict analysis.
+* Historical Guides:
+  * [_Wikimapia Quick Start Tutorial.MP4_](https://www.youtube.com/watch?v=MbN36OxmX9A) (2014). This official video shows the basic functionality of the Wikimapia interface as it was during its most active period.
+  * [_Wikimapia Forum_](http://wikimapia.org/forum/index.php). The official forum, while having very low activity, is a place to see historical discussions about the tool.
+* Developer and User Resources (Advanced/Historical):
+  * Disclaimer: The Wikimapia API is not actively maintained and may be unreliable. These resources are for archival purposes.
+  * [Official Wiki](https://wiki.openstreetmap.org/wiki/Wikimapia).
+  * [Getting Started with wikimapia\_api (Python)](https://wikimapia-api-py.readthedocs.io/en/latest/).
+  * [GIS StackExchange](https://gis.stackexchange.com/questions/tagged/wikimapia): (Archive of technical questions).
 
 ## Tool provider
 
-Wikimapia Ltd. [https://wikimapia.org/](https://wikimapia.org/)&#x20;
+Wikimapia Ltd. [https://wikimapia.org/](https://wikimapia.org/)
 
 Wikimapia was created by the Russian software company Wikimapia Ltd., founded in 2006 by Alexander Koryakin and Eugen Saveliev.
 
