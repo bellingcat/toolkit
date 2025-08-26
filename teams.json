@@ -3562,5 +3562,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "UW6izmJIaQSylVW5Qdky",
+    "title": "Urlscan.io",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-08-26T17:12:23.372Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
