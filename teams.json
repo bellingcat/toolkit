@@ -3574,5 +3574,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "ddA7pP5rMYIVODNIZYkj",
+    "title": "Grep.app",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-08-26T17:38:47.753Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
