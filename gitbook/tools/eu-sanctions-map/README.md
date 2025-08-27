@@ -1,6 +1,6 @@
 ---
-description: Database of sanctions imposed by the European Union
 updated: '2025-07-01'
+description: Database of sanctions imposed by the European Union
 ---
 
 # EU Sanctions Map
@@ -23,7 +23,7 @@ The tool offers multiple search options and filters, including by theme.
 
 <figure><img src=".gitbook/assets/EUSM2.png" alt=""><figcaption><p>Front page list view of the thematic sanctions</p></figcaption></figure>
 
-* **Country-level sanctions and restrictions** - the tool has an alphabetized list of countries against which some sort of sanctions or restrictions have been imposed. Each entry on the front page provides basic information on the restrictive measures, little icons depicting the sanctions and three  separate sub-pages with detailed information.
+* **Country-level sanctions and restrictions** - the tool has an alphabetized list of countries against which some sort of sanctions or restrictions have been imposed. Each entry on the front page provides basic information on the restrictive measures, little icons depicting the sanctions and three separate sub-pages with detailed information.
 
 <figure><img src=".gitbook/assets/EUSM3.png" alt=""><figcaption><p>View of the alphabetized list with the first contry on it</p></figcaption></figure>
 
@@ -31,7 +31,7 @@ The tool offers multiple search options and filters, including by theme.
 
 Clicking on the List paperclip icon will take you to the lists of persons, entities and items sanctioned in a specific country. These lists are broken down by type of restriction/sanction providing the names of persons and entities. Each listed entity is hyperlinked and when clicked opens a pop-up window with even more information.
 
-<figure><img src=".gitbook/assets/EUSM5.png" alt=""><figcaption><p>A partial view of the Lists subpage for Afghanistan with type of sanction, names of sanctioned people/entities and when these sanctions  entered into force.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/EUSM5.png" alt=""><figcaption><p>A partial view of the Lists subpage for Afghanistan with type of sanction, names of sanctioned people/entities and when these sanctions entered into force.</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/EUSM6.png" alt=""><figcaption><p>A pop-up window with details on a sanctioned individual from Afghanistan.</p></figcaption></figure>
 
@@ -58,7 +58,7 @@ Clicking on the List paperclip icon will take you to the lists of persons, entit
 {% endtab %}
 
 {% tab title="Entities" %}
-* Name - including in Cyrillic&#x20;
+* Name - including in Cyrillic
 * Country of origin
 * The date this entity was sanctioned
 * Link to the official legal act with which the sanction was imposed
@@ -66,7 +66,7 @@ Clicking on the List paperclip icon will take you to the lists of persons, entit
 {% endtab %}
 
 {% tab title="Countries" %}
-* Sanctions adopted by either EU or UN or both&#x20;
+* Sanctions adopted by either EU or UN or both
 * Description on why sanctions were imposed
 * The date this country was sanctioned, the expiration date of the sanctions and date of last legal update
 * A full list of sanctions and their types imposed on the people and entities from that country
@@ -76,7 +76,7 @@ Clicking on the List paperclip icon will take you to the lists of persons, entit
 {% endtab %}
 
 {% tab title="Legal acts" %}
-* Legal acts with links to the official European Council and other EU administration documents, including the type, title and number of each document.&#x20;
+* Legal acts with links to the official European Council and other EU administration documents, including the type, title and number of each document.
 * Legal acts with links to the official European Council and other EU administration documents, including the type, title and number of each document. These documents provide the full details on each sanction and are a good resource if you need to cite official sources and the legal basis.
 * These documents are hosted on the EUR-Lex website in PDF and HTML formats and are translated (usually, but not always) in all the official languages of the European Union.
 {% endtab %}
@@ -91,7 +91,7 @@ At the top of the page there is a list of additional resources, pertaining to or
 3. [TARIC Database](https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en) - an EU-wide customs tariff database that allows searching by goods code, origin and destination.
 4. [Consolidated List of Travel Bans](https://www.sanctionsmap.eu/#/main/travel/ban) - a downloadable file with a list of persons subject, under EU sanctions, to travel restrictions. The file is regularly updated and offers a subscription to an email alert when a new version is added.
 5. [Consolidated List of Financial Sanctions](https://data.europa.eu/data/datasets/consolidated-list-of-persons-groups-and-entities-subject-to-eu-financial-sanctions?locale=en) - a list of persons, groups and entities subject to EU financial sanctions.
-6. [EU Sanctions Tracker](https://data.europa.eu/apps/eusanctionstracker/) - A website geared more towards statitcists and data overtime. It has interactive overall charts, but also charts for each sanctioned country, entity or individual. It also provides the same information as the EU Sanctions Map but in a more interactive form. It also allows for data to be downloaded in a CSV format to be used later in custom-made charts.&#x20;
+6. [EU Sanctions Tracker](https://data.europa.eu/apps/eusanctionstracker/) - A website geared more towards statistics and data sets over time. Contains overall charts, but also charts for each sanctioned country, entity or individual. It also provides the same information as the EU Sanctions Map but in an interactive form. Allows for data downloads in a CSV format.
 
 ## Cost
 
@@ -109,7 +109,7 @@ Internet connection
 
 ## Limitations
 
-Our research shows that this resource only provides information on sanctioned entities. It does not provide information on politically exposed persons (PEPs).&#x20;
+Our research shows that this resource only provides information on sanctioned entities. It does not provide information on politically exposed persons (PEPs).
 
 EU Sanctions Map does not have an API integration feature, so downloading data in bulk might be more difficult.
 
