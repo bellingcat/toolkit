@@ -79,7 +79,7 @@ While both are crowdsourced, they are fundamentally different in their purpose a
 Researchers must be aware of Wikimapia's significant limitations. The data should never be used as a standalone source and must be treated with extreme caution.
 
 * **Data Accuracy**: Wikimapia's content is user-generated, leading to potential inaccuracies.
-* **Outdated information:** This is the most critical limitation. The overwhelming majority of the data does not reflect the current reality of a location and must be verified using contemporary sources.
+* **Outdated information:** This is the most critical limitation. The overwhelming majority of the data may not reflect the current reality of a location and must be verified using contemporary sources.
 * **Inconsistent Coverage:** Data density varies dramatically. While areas like Eastern Europe are heavily detailed with historical data, many other regions have sparse or non-existent information.
 * **API Rate Limiting**: There might be limitations on the number of API requests that can be made in a certain timeframe, impacting extensive data retrieval tasks. The actual [rate limits](https://api.wikimedia.org/wiki/Rate_limits) are not clearly documented at this time.
 
