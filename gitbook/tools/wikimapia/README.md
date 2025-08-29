@@ -28,7 +28,7 @@ The screenshot below with the view of Donetsk International Airport on Wikimapia
 ### Features:
 
 * **Search & Categories:** Search for locations by name or filter the map by dozens of pre-set categories (e.g., military, hospital, factory).
-* **Multiple Map Layers:** Switch between various base map providers, including Google Maps, Bing Maps, and OpenStreetMap.
+* **Multiple Map Layers:** Switch between various base map providers, including [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps), [Bing Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/bing-maps), and OpenStreetMap.
 * **Measurement Tool:** Includes a tool for measuring distances between points on the map.
 * **Measure distance:** measure distance between points in feet and metres.
 * **Multilingual Interface:** The user interface is available in multiple languages.
