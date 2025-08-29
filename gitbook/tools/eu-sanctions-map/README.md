@@ -1,5 +1,5 @@
 ---
-updated: '2025-07-01'
+updated: '2025-08-27'
 description: Database of sanctions imposed by the European Union
 ---
 
