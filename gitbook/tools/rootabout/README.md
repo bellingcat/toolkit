@@ -1,8 +1,8 @@
 ---
+updated: '2025-06-30'
 description: >-
   RootAbout is a reverse image search tool that pulls indexed images from the
   Internet Archive.
-updated: '2025-06-30'
 ---
 
 # RootAbout
@@ -86,7 +86,7 @@ The tool is provided by Hacker Factor, also known as Dr. Neal Krawetz. More deta
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer         |
-| ----------------------- |
-| Anisa Shabir GAP member |
-|                         |
+| Page maintainer |
+| --------------- |
+| Anisa Shabir    |
+|                 |
