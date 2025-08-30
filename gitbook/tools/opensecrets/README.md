@@ -40,7 +40,7 @@ OpenSecrets is a nonpartisan, independent, and nonprofit organization tracking m
 **Industries & Interest Groups - political action committees, industries, non-governmental organizations who spend money to support political candidates and issues**
 
 * [Political Ads ](https://www.opensecrets.org/political-ads)- allows tracking of political spending online (Facebook and Google) by advertiser and each advertiser has its own separate profile with specifics (Including which Facebook pages ran the ads); and by TV and Radio - contains pdf files submitted to the Federal Communications Commission by broadcasters around the country.
-* [Dark Money](https://www.opensecrets.org/dark-money) - a sub-page with articles on dark money as well as who spent [dark money](https://www.opensecrets.org/dark-money/basics) and where that dark money went.
+* [Dark Money](https://www.opensecrets.org/dark-money) - sub-page with articles on dark money as well as who spent [dark money](https://www.opensecrets.org/dark-money/basics) and where that dark money went.
 * [Industries](https://www.opensecrets.org/industries) - cumulative data on which industries spent money. Also for each interest group there is a summary of political giving dating back to the 1990 election cycle (breakdowns by type of contribution & political party top contributors); a list of organizations (usually U.S. companies) that have given the most from that industry through their employees and political action committees; a list of candidates that have received the most from a particular industry.
 * [Organizations](https://www.opensecrets.org/orgs/all-profiles) - Each organization profile tracks campaign contributions from the organization's employees and members, its PAC and from the organization itself, only when it gives to outside groups. Each profile also tracks the organization’s lobbying activity to influence public policy, as well as its outside spending to influence elections.
 * [527s](https://www.opensecrets.org/527s) - groups, formed under section 527 of the Internal Revenue Code, primarily are involved in issue advocacy. Some organizations, including labor unions, use 527 accounts to support or oppose state and local candidates and contribute to other committees. The data is presented as simple lists with contributors' names and amounts.
@@ -63,7 +63,7 @@ OpenSecrets is a nonpartisan, independent, and nonprofit organization tracking m
 
 You can get bulk data from the OpenSecrets database [here](https://www.opensecrets.org/bulk-data). This is where you can download compressed text files of the data OpenSecrets creates from raw data provided by various government agencies.
 
-You can also get [customized data sets](https://www.opensecrets.org/contracts). OpenSecrets offers custom data request and licensing on federal and state-level datasets for a price. According to their website, the data spans more than 30 years, and includes political contributions, expenditures, candidate lists and lobbying activities. The information can be delivered as summary data, itemized transaction data or customized research depending on the needs. OpenSecrets did not specify the pricing for this, but it appears payment go through PayPal.
+You can also get [customized data sets](https://www.opensecrets.org/contracts). OpenSecrets offers custom data request and licensing on federal and state-level datasets for a price. According to the website, the data spans more than 30 years, and includes political contributions, expenditures, candidate lists and lobbying activities. The information can be delivered as summary data, itemized transaction data or customized research depending on the needs. OpenSecrets did not specify the pricing for this, but it appears payment go through PayPal.
 
 ## Cost
 
@@ -81,7 +81,7 @@ RESTful API functionality is available only after registration, the user must ac
 
 ## Limitations
 
-&#x20;Registrations for the API use are [currently closed](https://www.opensecrets.org/api/admin/index.php?function=signup).
+Registrations for the API have been [discontinued](https://www.opensecrets.org/api/admin/index?function=signup) as of April 2025.
 
 According to OpenSecrets' [own website](https://www.opensecrets.org/federal-lobbying), employment histories for registered lobbyists may be incomplete prior to 1998 because the Senate Office of Public Records has not made registrations and reports available electronically for those years.
 
@@ -99,15 +99,11 @@ OpenSecrets: [Foreign Lobby Watch Demonstration](https://www.youtube.com/watch?v
 
 OpenSecrets: [What is dark money](https://www.opensecrets.org/dark-money/basics) (article)
 
-OpenSecrets: [Learning center](https://www.opensecrets.org/resources/learn/) with a glossary and articles as well as a Follow the Money [handbook](https://www.opensecrets.org/resources/ftm/ch06p1.php)
+OpenSecrets: [Learning center](https://www.opensecrets.org/resources/learn/)
 
 OpenSecrets: [Open data](https://groups.google.com/g/opensecrets-open-data?pli=1) with questions from other users, answers from the organization - a FAQ resource of sorts, but better.
 
-OpenSecrets: [Open data documentation](https://www.opensecrets.org/resources/create/data_doc.php)
-
-OpenSecrets: [API documentation](https://www.opensecrets.org/resources/create/api_doc.php) with [Python](https://github.com/opensecrets/python-crpapi), [PHP](https://github.com/opensecrets/php-crpapi) and [Ruby](https://github.com/grempe/opensecrets) libraries uploaded on Github.
-
-OpenSecrets: [Developer tools](https://www.opensecrets.org/resources/create/tools.php)
+OpenSecrets: [Python](https://github.com/opensecrets/python-crpapi), [PHP](https://github.com/opensecrets/php-crpapi) and [Ruby](https://github.com/grempe/opensecrets) libraries uploaded on Github.
 
 ## Tool provider
 
