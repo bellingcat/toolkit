@@ -31,21 +31,17 @@ A common OSINV use case involves the user describing an image or video frame whi
 
 ### What Spot Does
 
-Spot works in 3 stages:
+Spot works in 4 stages:
 
-1. Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language and converts these sentences into query language  code with a formal structure.
-2. Spot  uses the query  language code to perform a search of OpenStreetMap
-3. Spot displays the results on a map.&#x20;
-4. \---------------------------------------------reworked down to here-----------------------------------------
-5. Natural language [refers](https://www.ft.com/content/c0c8d205-e158-409e-963c-a3ac821cd7ba?utm_source=chatgpt.com) to human speech or text processed by artificial intelligence, and this process is known as Natural Language Processing (NLP). Spot also supports multiple languages for effective location searches in addition to English.
-
-\
-The integration of mapping services like Google, Yandex, and Bing further enhances the tool. Users can also view their location of interest in Google Street View. Collaboration is facilitated by enabling users to save, download, and share their sessions.
+1. Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language and converts these sentences into query language  code with a formal structure (which is displayed to the user in a separate box in the interface).
+2. Spot  uses the query  language code to perform a search of OpenStreetMap.
+3. Spot displays all the features which satisfy the user's input search on a map.&#x20;
+4. Fore each feature marked on the output map, Spot offers the user the option to open a [street view](#user-content-fn-4)[^4] window within the tool, using data from a choice of three of the largest providers of street view photography (Google, Yandex, and Bing).
 
 \
 
 
-\[Need Venn diagram or a hierarchy demonstrating tool to show the issues of categorization, e.g. we want all military bases. If the system has categorized police buildings separately, we will need to search for those separately: they will not be returned within a military bases search. If the system has a hierarchy within which police buildings are a subset of military bases, then police buildings will be returned in a military bases search. This is an important point about categorisations.]
+\[Need Venn diagram or a hierarchy demonstrating tool to show the issues of categorization, e.g. we want all military bases. If the system has categorized police buildings separately, we will need to search for those separately: they will not be returned within a military bases search. If the system has a hierarchy within which police buildings are a subset of military bases, then police buildings will be returned in a military bases search. This is an important point about categorisations. It is a generic issue, not specific to Spot]
 
 ### The Interface
 
@@ -117,7 +113,7 @@ The exact location where the entity is situated can also be opened in the integr
 
 Spot has also integrated Google Street View for location verification.  Clicking on “Open Google Street View” opens a window displaying the location's street-level photography. Use this feature to match entities and features against the photo or video being geolocated.
 
-Users can also switch between map layers that include “[vector map](#user-content-fn-4)[^4]”, “hybrid view” and “OSM Style Map”. The screenshot below shows a location from search results in the hybrid view and the Google Street View tab showing street-level photography of the selected result.
+Users can also switch between map layers that include “[vector map](#user-content-fn-5)[^5]”, “hybrid view” and “OSM Style Map”. The screenshot below shows a location from search results in the hybrid view and the Google Street View tab showing street-level photography of the selected result.
 
 <figure><img src=".gitbook/assets/Spot hybrid view on map.png" alt=""><figcaption></figcaption></figure>
 
@@ -140,8 +136,11 @@ Any web browser and a sign-up through GitHub or Google are required to use the t
 
 ## Limitations
 
+All tools which query OpenStreetMap share the limitations which the structure of the Overpass Turbo query language
+
 1. The format of Spot's output is imprecise relative to other tools which clearly group the factors supporting each different solution location proposed in response to the user's query. Spot puts all the factors supporting each solution location onto the same output map, without counting the number of different solutions locations and indicating the supporting features for each one.
-2. Spot gives various errors (as at testing on 31/8/25). These are some of the different errors users will come across:
+2. Spot's valuable integrated street view access operates at the location of each feature on the solution map. Given that usually  all the features mentioned in a query will be visible in the source image which is being geolocated, the view **at** a feature location is not likely to be a match. e.g. street view imagery taken at the central co-ordinates of the Eiffel Tower is unlikely to include images where the Eiffel Tower is clearly visible.
+3. Spot gives various errors (as at testing on 31/8/25). These are some of the different errors users will come across:
 
 <div><figure><img src=".gitbook/assets/Cologne system hickup.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/geometry2025-07-05 at 22.04.20.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/London Unknown error copy.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -206,4 +205,6 @@ It is possible for users to disable cookiless tracking
 
 [^3]: AND is a [logical operator](https://www.w3schools.com/programming/prog_operators_logical.php) here, like OR.
 
-[^4]: Definition here
+[^4]: Street view photographs are taken at ground level (as opposed to satellite view imagery, taken from above), giving a view of what a human would see at a location by looking around.
+
+[^5]: Definition here
