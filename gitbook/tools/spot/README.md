@@ -1,8 +1,8 @@
 ---
 description: >-
   A natural language (i.e. human conversational language) interface for querying
-  the OpenStreetMap database to find locations which meet the user's search
-  criteria.
+  the OpenStreetMap database to find locations which meet the search criteria
+  described by the user.
 ---
 
 # Spot
@@ -17,13 +17,13 @@ Spot provides an interface for searching OpenStreetMap[^1] using everyday langua
 
 <details>
 
-<summary><a href="https://www.openstreetmap.org/about">OpenStreetMap</a> (OSM) shows a very large number of both natural and man-made features, e.g. buildings, infrastructure, bodies of water. <em>Click the arrow for more on OSM</em>...</summary>
+<summary><a href="https://www.openstreetmap.org/about">OpenStreetMap</a> (OSM) labels a very large number of both natural and man-made features, e.g. buildings, infrastructure, bodies of water. <em>Click the arrow for more on OSM</em>...</summary>
 
 These features are labelled according to [OSM's own detailed classification system](https://wiki.openstreetmap.org/wiki/Map_features), e.g. town hall, lake, pylon, railway, ... and they can be used as search terms to express users' search criteria. An example Spot user search might be "_**Find a car park near a cafe and a marina within 80m in the Hague**_"
 
 </details>
 
-Spot is one amongst a range of tools which exists to allow users to query OpenStreetMap (See [Similar Tools](./#similar-tools) below). These tools use different methods to build the user's search query: some involve a formal language, some use a graphical interface. Spot is characterised by the use of [natural language](#user-content-fn-2)[^2] to express the users' search query, and this is a relatively new approach.&#x20;
+Spot is one amongst [a range of tools](./#similar-tools) which exists to allow users to query OpenStreetMap. These tools all run a search of OpenStreetMap in the same way, but they use different methods to build the user's search query: some involve writing in a formal language, some use a graphical interface. Spot is characterised by the use of [natural language](#user-content-fn-2)[^2] to express the users' search query, and this is a relatively new approach.&#x20;
 
 The Spot user can describe a location search in terms of :-
 
@@ -33,7 +33,7 @@ The Spot user can describe a location search in terms of :-
 
 e.g. Enter "_**Find a pharmacy and a traffic light and a bus stop and a bridge within 70m in Cologne**_" and, in response, Spot will return a map showing those candidate groups of features whenever they meet the user's distance criteria within the given geographical search area.&#x20;
 
-A common OSINV use case involves the user describing an image or video frame which they want to geolocate, and using Spot to generate and visually inspect potential solution locations around a particular geographic region like a named city.&#x20;
+**A common OSINV use case** involves the user describing an image or video frame which they want to geolocate, and using Spot to generate and visually inspect potential solution locations around a particular geographic region like a named city.&#x20;
 
 ### What Spot Does
 
@@ -43,42 +43,34 @@ Spot works in 4 stages, from natural language input to streetview comparison of 
 {% step %}
 ### Natural Language Query Input
 
-Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language, and converts these sentences into query language  code with a formal structure (which isdisplayed to the user in a separate box in the interface) called [Overpass Query Language](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL).
+Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language, and converts these sentences into query language  code with a formal structure (which is displayed to the user in a separate box in the interface) called [Overpass Query Language](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL).
+
+![](<.gitbook/assets/image (6).png>)![](<.gitbook/assets/image (8).png>)
 {% endstep %}
 
 {% step %}
 ### Run Overpass Query on the OpenStreetMap Database
 
-Spot  uses the query  language code to perform a search of OpenStreetMap (by building an Overpass query).
+Spot  uses the query  language code to perform a search of OpenStreetMap (by building an Overpass query and running it with the [Overpass API](https://wiki.openstreetmap.org/wiki/Overpass_API)).
 {% endstep %}
 
 {% step %}
 ### Dipslay All Solution Features on A Map
 
 Spot displays all the features which satisfy the user's input search on a map. It does not sort features which relate to different candidate location solutions, so if there is more than one potential solution this may not be apparent.
+
+<p align="center"><img src=".gitbook/assets/image (9).png" alt=""></p>
 {% endstep %}
 
 {% step %}
-### Offer Choice of Streetview Options for Each Feature
+### Offer A Choice of Streetview Options for Each Solution Feature
 
 For each feature marked on the output map, Spot offers the user the option to open a [street view](#user-content-fn-4)[^4] window within the tool, using data from a choice of three of the largest providers of street view photography (Google, Yandex, and Bing).
 {% endstep %}
 {% endstepper %}
 
-<details>
-
-<summary>Spot works in 4 stages, from natural language input to streetview comparison of outputs. <em>Click for more on the 4 stages...</em></summary>
-
-1. Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language, and converts these sentences into query language  code with a formal structure (which isdisplayed to the user in a separate box in the interface) called [Overpass Query Language](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL).
-2. Spot  uses the query  language code to perform a search of OpenStreetMap (by building an Overpass query).
-3. Spot displays all the features which satisfy the user's input search on a map. It does not sort features which relate to different candidate location solutions, so if there is more than one potential solution,&#x20;
-
-1) For each feature marked on the output map, Spot offers the user the option to open a [street view](#user-content-fn-4)[^4] window within the tool, using data from a choice of three of the largest providers of street view photography (Google, Yandex, and Bing).
-
-</details>
-
 {% hint style="warning" %}
-Hint here that only stage 1 uses AI, the others do not. So quality of search is not AI.
+**USE OF 'AI' TECHNOLOGY IN SPOT IS LIMITED TO STAGE 1 ONLY, I.E. LANGUAGE CONVERSION OF THE SEARCH QUERY.** Spot's use of AI is limited to conversion of the user's natural language search into the formal Overpass Query Language which can be used to query OpenStreetMap. The Overpass query is run by Spot via the [Overpass ](https://wiki.openstreetmap.org/wiki/Overpass_API)API[^5][ ](https://wiki.openstreetmap.org/wiki/Overpass_API) in exactly the same way as all the other OSM interface tools. The quality and speed of the search is not impacted by AI technology in Spot. NB Tests run by these authors on city searches in August 2025 suggest that well over 50% of the time Spot takes to complete a search is used to run the Natual Language to Overpass Query Language conversion.&#x20;
 {% endhint %}
 
 \[Need Venn diagram or a hierarchy demonstrating tool to show the issues of categorization, e.g. we want all military bases. If the system has categorized police buildings separately, we will need to search for those separately: they will not be returned within a military bases search. If the system has a hierarchy within which police buildings are a subset of military bases, then police buildings will be returned in a military bases search. This is an important point about categorisations. It is a generic issue, not specific to Spot]
@@ -159,7 +151,7 @@ The exact location where the entity is situated can also be opened in the integr
 
 Spot has also integrated Google Street View for location verification.  Clicking on “Open Google Street View” opens a window displaying the location's street-level photography. Use this feature to match entities and features against the photo or video being geolocated.
 
-Users can also switch between map layers that include “[vector map](#user-content-fn-5)[^5]”, “hybrid view” and “OSM Style Map”. The screenshot below shows a location from search results in the hybrid view and the Google Street View tab showing street-level photography of the selected result.
+Users can also switch between map layers that include “[vector map](#user-content-fn-6)[^6]”, “hybrid view” and “OSM Style Map”. The screenshot below shows a location from search results in the hybrid view and the Google Street View tab showing street-level photography of the selected result.
 
 <figure><img src=".gitbook/assets/Spot hybrid view on map.png" alt=""><figcaption></figcaption></figure>
 
@@ -254,4 +246,6 @@ It is possible for users to disable cookiless tracking
 
 [^4]: Street view photographs are taken at ground level (as opposed to satellite view imagery, taken from above), giving a view of what a human would see at a location by looking around.
 
-[^5]: Definition here
+[^5]: Application Programming Interface, a service which allows
+
+[^6]: Definition here
