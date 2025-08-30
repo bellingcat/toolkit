@@ -192,9 +192,11 @@ Any web browser and a sign-up through GitHub or Google are required to use the t
 
 ## Limitations
 
-All tools which query OpenStreetMap share the limitations which the structure of the Overpass Turbo query language
+{% hint style="info" %}
+All tools which query OpenStreetMap share the limitations which the structure of the OpenStreetMap tagging scheme imposes. Knowledge of the relationship between different but connected tagging categories is needed to perform efficient searches where one tag is deemed to be a subset of another, e.g. if the stream tag is a subset of river tag, if the river tag is a subset of the water tag. Searching with the tag 'stream' will return a smaller set of results than 'river', and likewise 'river' will return a smaller set of results than 'water'. Knowing which tag to use for a search affects the number and quality of search results returned, and therefore the speed of the overall search.
+{% endhint %}
 
-1. The format of Spot's output is imprecise relative to other tools which clearly group the factors supporting each different solution location proposed in response to the user's query. Spot puts all the factors supporting each solution location onto the same output map, without counting the number of different solution locations and indicating the supporting features for each one. So Spot does not answer the question "How many different locations satisfy my criteria in the given search area?&#x20;
+1. The format of Spot's output is imprecise relative to other tools which clearly group the features supporting each different solution location proposed in response to the user's query. Spot puts all the features supporting each solution location onto the same output map, without counting the number of different solution locations and indicating the supporting features for each one. So Spot does **not** answer the question "How many different locations satisfy my criteria in the given search area? "
 2. Spot's valuable integrated street view access operates at the location of each feature on the solution map. Given that usually  all the features mentioned in a query will be visible in the source image which is being geolocated, the view **at** a feature location is not likely to be a match. e.g. street view imagery taken at the central co-ordinates of the Eiffel Tower is unlikely to include images where the Eiffel Tower is clearly visible.
 3. Spot gives various errors (as at testing on 31/8/25). These are some of the different errors users will come across:
 
@@ -205,7 +207,7 @@ All tools which query OpenStreetMap share the limitations which the structure of
 
 
 4. Complex queries can return no results so users should simplify their search criteria as far as possible.
-5. The tool exhibits strange behaviour. Sometimes results may not meet the search criteria.
+5. The tool exhibits strange behaviour at the time of writing in August 2025. Sometimes results may not meet the search criteria.
 6. Some queries may take time to get results. This is because search time increases with the size of the search area, the number of search terms involved and the complexity of the logical combinations of search terms used in the query.
 7. Spot is based on OpenStreet Map Data. Anything not found in OSM’s database will not be returned in results.
 8. Results may not always be accurate and should be double-checked against other mapping tools like Google Maps, Yandex Maps, Bing Maps, including street-view photography.&#x20;
@@ -215,10 +217,8 @@ All tools which query OpenStreetMap share the limitations which the structure of
 1. Since the tool uses OpenStreetMap data, which is crowdsourced, users should always cross-check and confirm the results using other mapping services like Google, Yandex, Bing, etc., and street-level photography.
 2. Spot’s Trusted AI principles page states that “The user prompts that are entered in the Spot application are being used to re-train the model on real user queries to improve the user relevance of the AI model.” Furthermore, the same page says, “User control -- no publicly anonymous available access but certain monitoring of users will be done via login functionality.” Therefore, entering any information in the query or users’ login credentials may potentially end up revealing sensitive information about the individual or the investigation.
 3. The tool uses “cookieless tracking”. Although the “tracking” feature can be disabled on the “Legal & Privacy Statement” page, users should still take precautions, such as using VPNs and browser extensions, to block tracking and prevent the potential revealing of their location.
-
-In their Legal & Privacy Statement, the tool provider says that the data collected is usually kept for 30 days, after which it is deleted. However, it also reiterates that “under exceptional circumstances, we need them for a longer period for the above-mentioned purposes. In such a case, we erase the data as soon as they're no longer required.”
-
-Spot also uses third-party services like [Nominatim](https://nominatim.org/), [Maptiler](https://www.maptiler.com/), [Mapbox](https://www.mapbox.com/), [Versatiles](https://versatiles.org/), [OSM Tiles](https://openmaptiles.org/), [Google Street View](https://www.google.com/streetview/) and [MongoDB](https://www.mongodb.com/) to make the application work when a user enters a search prompt. Make sure to check their Legal & Privacy Statement to understand how the data is processed.
+4. In their Legal & Privacy Statement, the tool provider says that the data collected is usually kept for 30 days, after which it is deleted. However, it also reiterates that “under exceptional circumstances, we need them for a longer period for the above-mentioned purposes. In such a case, we erase the data as soon as they're no longer required.”
+5. Spot also uses third-party services like [Nominatim](https://nominatim.org/), [Maptiler](https://www.maptiler.com/), [Mapbox](https://www.mapbox.com/), [Versatiles](https://versatiles.org/), [OSM Tiles](https://openmaptiles.org/), [Google Street View](https://www.google.com/streetview/) and [MongoDB](https://www.mongodb.com/) to make the application work when a user enters a search prompt. Make sure to check their Legal & Privacy Statement to understand how the data is processed.
 
 ## Guides and articles
 
@@ -236,7 +236,11 @@ There is also training on viewing and interpreting Spot results
 
 ## Similar Tools
 
-_**Maybe a table here? We need to test with reference to Spot paper Table 1**_
+| TOOL                            | DESCRIPTION | INPUT | OUTPUT |
+| ------------------------------- | ----------- | ----- | ------ |
+| Bellingcat OpenStreetMap Search |             |       |        |
+|                                 |             |       |        |
+|                                 |             |       |        |
 
 ## Tool provider
 
@@ -251,10 +255,10 @@ The tool was developed by [DW Innovation](https://innovation.dw.com/en/articles)
 
 It is possible for users to disable cookiless tracking
 
-| Page maintainer                       |
-| ------------------------------------- |
-| Anisa Shabir 6:10 pm PKT on August 30 |
-|                                       |
+| Page maintainer                                                         |
+| ----------------------------------------------------------------------- |
+| Anisa Shabir 6:10 pm PKT on August 30. Sophie Tedling 00:36 GMT 31/8/25 |
+|                                                                         |
 
 [^1]: [Open Street Map](https://www.openstreetmap.org/) is a free, open map database of the world, which is updated and maintained by a community of volunteers via collaborative working. 
 
