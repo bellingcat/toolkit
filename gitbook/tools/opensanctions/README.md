@@ -1,8 +1,8 @@
 ---
+updated: '2025-07-03'
 description: >-
   Open-source international database of sanctions data, persons of interest and
   politically exposed persons.
-updated: '2025-07-03'
 ---
 
 # OpenSanctions
@@ -96,13 +96,13 @@ Personally Identifiable Information (PII) is usually masked or hidden and the in
 
 OpenSanctions API user and implementation [guide](https://api.opensanctions.org/#section/Introduction).
 
-OpenSanctions datasets [colections](https://www.opensanctions.org/datasets/) in `.json` format that are downloadable, with the option to be integrated in other systems and databases.
+OpenSanctions datasets [collections](https://www.opensanctions.org/datasets/) in `.json` format that are downloadable, with the option to be integrated in other systems and databases.
 
 A [use-case article](https://www.opensanctions.org/articles/2024-05-03-guernsey-fiu/) on how the Guernsey Financial Intelligence Unit used OpenSanctions to fight money laundering and drug trafficking.
 
-Convier: [Sanctions screening of documents with OpenSanctions and Convier](https://www.youtube.com/watch?v=eLVHuM6WLfY\&t=1801s)
+Convier: [Sanctions screening of documents with OpenSanctions and Convier](https://www.youtube.com/watch?v=eLVHuM6WLfY)
 
-Neo4j: [OpenSanctions Demo](https://www.youtube.com/live/T3uGVrrMeTo?si=wPPIUZG_-Z24cCzM\&t=1319).
+Neo4j: [OpenSanctions Demo](https://www.youtube.com/live/T3uGVrrMeTo?si=wPPIUZG_-Z24cCzM\&t=1319)
 
 ## Tool provider
 
