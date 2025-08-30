@@ -1,6 +1,6 @@
 ---
-description: Live marine vessel tracker.
 updated: '2025-06-30'
+description: Live marine vessel tracker
 ---
 
 # VesselFinder
@@ -17,10 +17,18 @@ VesselFinder is a maritime tracking application and an online desktop tool that 
 
 After creating an account, users can access a search portal to look up vessels by name, IMO or MMSI number, tonnage, flag, dimensions, etc., which can help to identify a vessel for which only some identifying information is known.
 
+<details>
+
+<summary></summary>
+
+
+
+</details>
+
 {% hint style="info" %}
 IMO numbers are unique, seven-digit tracking numbers assigned to ships and shipping companies by S\&P Global Market Intelligence on behalf of the International Maritime Organization. Unlike ship names and company names which can change, IMO numbers remain constant. More information about IMO numbers can be found on the [International Maritime Organization's website](https://www.imo.org/en/OurWork/IIIS/Pages/IMO-Identification-Number-Schemes.aspx).
 
-MMSI (Maritime Mobile Service Identities) numbers are nine-digit numbers used to uniquely identify ships in radio and AIS (Automatic Identification System) broadcasts. MMSI numbers are issued by the country a ship is flagged to and managed by the International Telecommunications Union. More information about MMSI numbers can be found on the [International Telecommunications Union's website](https://www.itu.int/en/ITU-R/terrestrial/Pages/by-categories-faq.aspx?categorizedby=17)..
+MMSI (Maritime Mobile Service Identities) numbers are nine-digit numbers used to uniquely identify ships in radio and AIS (Automatic Identification System) broadcasts. MMSI numbers are issued by the country a ship is flagged to and managed by the International Telecommunications Union. More information about MMSI numbers can be found on the [International Telecommunications Union's website](https://www.itu.int/en/ITU-R/terrestrial/Pages/by-categories-faq.aspx?categorizedby=17).
 {% endhint %}
 
 #### Main desktop & in-app menus
@@ -33,13 +41,13 @@ Detailed Vessel Information: The app provides comprehensive data on each vessel,
 
 [Historical Data](https://www.vesselfinder.com/historical-ais-data) and Playback: VesselFinder offers access to historical data, allowing researchers to analyze past vessel movements and shipping patterns. The playback feature enables users to visualize and study historical maritime traffic, which is essential for longitudinal studies and trend analyses.
 
-Customizable Alerts: Researchers can set up alerts for specific vessels, ports, or maritime areas. This feature ensures that they are promptly notified about significant events or changes, such as a vessel's arrival or departure, route deviations, or unusual activities.
+Customizable Alerts: Set up alerts for specific vessels, ports, or maritime areas. This feature will send notifications about significant events or changes, such as a vessel's arrival or departure, route deviations, or unusual activities.
 
 [Data Export and API Access](https://www.vesselfinder.com/realtime-ais-data#live-ais-api): For in-depth research, VesselFinder provides options to export data and offers API access. Researchers can integrate VesselFinder’s data into their own analytical tools and databases, facilitating more complex analyses and custom research projects.
 
 Weather Data Integration: The app includes weather data overlays, providing insights into how sea conditions might affect vessel movements. This feature can be valuable for studies examining the impact of weather on maritime operations.
 
-Additionally, here's a quick overview of the different capabilities and menus available:
+Below quick overview of the different capabilities and menus available:
 
 * [Vessels database](https://www.vesselfinder.com/vessels) - search for a specific vessel based on the following parameters: ship name, MMSI, IMO number, the flag the ship sails under (e.g. Austria), the type of vessel (cargo, passenger, tanker, military, fishing) and the dimensions of the ship (length, gross tonnage, deadweight tonnage, and the year it was built).
 
@@ -57,7 +65,7 @@ Additionally, here's a quick overview of the different capabilities and menus av
 
 <summary>Full list of LOCODEs by country</summary>
 
-The full list can be found on the [United Nations Economic Commission for Europe (UNECE) website](https://unece.org/trade/cefact/unlocode-code-list-country-and-territory). By selecting a country, the system displays the entire UN/LOCODE list of subdivisions, i.e. the country, the port names and their coordinates.&#x20;
+The full list can be found on the [United Nations Economic Commission for Europe (UNECE) website](https://unece.org/trade/cefact/unlocode-code-list-country-and-territory). By selecting a country, the system displays the entire UN/LOCODE list of subdivisions, i.e. the country, the port names and their coordinates.
 
 The list allows obtaining the UN/LOCODE Code List 2024-1 for each country or territory. The latest version was published in July 2024.
 
@@ -92,7 +100,7 @@ The Premium package offer includes 7 days of track history, 500 ships tracked, 5
 
 Container tracking data and dashboards are available for [purchase separately](https://www.vesselfinder.com/container-tracking) if needed, prices are based on the number of containers tracked with the lowest being 1 container.
 
-You can find an overview of all plans [here.](https://www.vesselfinder.com/get-premium)
+The overview of all plans is [here.](https://www.vesselfinder.com/get-premium)
 
 ## Level of difficulty
 
@@ -100,7 +108,7 @@ You can find an overview of all plans [here.](https://www.vesselfinder.com/get-p
 
 ## Requirements
 
-Does not require an account to browse, but creating a free one will unlock some additional features such as creating a fleet.
+Does not require an account to browse, but creating a free one will unlock some additional features such as creating a fleet.  .
 
 ## Limitations
 
@@ -128,7 +136,7 @@ Some of the vessels are government-owned and a small part of those are intended 
 
 ## Tool provider
 
-[Astra Paging Ltd.](https://www.astrapaging.com/about), based in Sliven, Bulgaria for the desktop version, and [VT Explorer Ltd.](https://www.vtexplorer.com/) in Polegate, East Sussex, UK developed the application version.
+[Astra Paging Ltd.](https://www.astrapaging.com/about), based in Sliven, Bulgaria for the desktop version. [VT Explorer Ltd.](https://www.vtexplorer.com/) in Polegate, East Sussex, UK developed the application version.
 
 ## Advertising Trackers
 
@@ -136,6 +144,6 @@ Some of the vessels are government-owned and a small part of those are intended 
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer:-            |
-| ---------------------------- |
-| LPetrova and Sophie Tedling. |
+| Page maintainer:-           |
+| --------------------------- |
+| LPetrova and Sophie Tedling |
