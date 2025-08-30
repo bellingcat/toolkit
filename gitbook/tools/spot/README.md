@@ -9,7 +9,7 @@ description: >-
 
 ## URL
 
-https://www.findthatspot.io
+[https://www.findthatspot.io](https://www.findthatspot.io/)
 
 ## Description
 
@@ -17,15 +17,15 @@ Spot provides an interface for searching OpenStreetMap[^1] using everyday langua
 
 [OpenStreetMap](https://www.openstreetmap.org/about) (OSM) shows a very large number of both natural and man-made features, e.g. buildings, infrastructure, bodies of water.  These features are labelled according to [OSM's own detailed classification system](https://wiki.openstreetmap.org/wiki/Map_features), e.g. town hall, lake, pylon, railway, ... and they can be used as search terms to express users' search criteria. An example Spot user search might be "_**Find a car park near a cafe and a marina within 80m in the Hague**_".&#x20;
 
-A range of tools exists to allow users to query OpenStreetMap (See Similar Tools below) using different methods to build the user's search query: some involve a formal language, some use a graphical interface. Spot is characterised by the use of [natural language](#user-content-fn-2)[^2] to express the users' search query.
+Spot is one amongst a range of tools which exists to allow users to query OpenStreetMap (See Similar Tools below). These tools use different methods to build the user's search query: some involve a formal language, some use a graphical interface. Spot is characterised by the use of [natural language](#user-content-fn-2)[^2] to express the users' search query.
 
 The Spot user can describe a location search in terms of&#x20;
 
-* logical groupings of these map features
-* their relative distance from one another
-* the location of a geographical search area&#x20;
+* logical groupings of these map features, e.g. a pharmacy AND a traffic light
+* their relative distance from one another, e.g. within 70m of one another
+* the location of a geographical search area , e.g. in Cologne
 
-e.g. "_**Find a pharmacy and a traffic light and a bus stop and a bridge within 70m in Cologne**_" and Spot will return a map showing those candidate groups of features whenever they meet the user's distance criteria within the given location.&#x20;
+e.g. "_**Find a pharmacy and a traffic light and a bus stop and a bridge within 70m in Cologne**_" and, in response, Spot will return a map showing those candidate groups of features whenever they meet the user's distance criteria within the given location.&#x20;
 
 A common OSINV use case involves the user describing an image or video frame which they want to geolocate, and using Spot to generate potential solution locations around a particular geographic region like a named city.
 
