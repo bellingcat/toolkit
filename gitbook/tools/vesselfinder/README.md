@@ -17,14 +17,6 @@ VesselFinder is a maritime tracking application and an online desktop tool that 
 
 After creating an account, users can access a search portal to look up vessels by name, IMO or MMSI number, tonnage, flag, dimensions, etc., which can help to identify a vessel for which only some identifying information is known.
 
-<details>
-
-<summary></summary>
-
-
-
-</details>
-
 {% hint style="info" %}
 IMO numbers are unique, seven-digit tracking numbers assigned to ships and shipping companies by S\&P Global Market Intelligence on behalf of the International Maritime Organization. Unlike ship names and company names which can change, IMO numbers remain constant. More information about IMO numbers can be found on the [International Maritime Organization's website](https://www.imo.org/en/OurWork/IIIS/Pages/IMO-Identification-Number-Schemes.aspx).
 
