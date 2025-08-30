@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-Spot provides an interface for searching OpenStreetMap[^1] using everyday language.&#x20;
+Spot provides an interface for searching OpenStreetMap[^1] using everyday language ( multiple languages are supported in addition to English.
 
 [OpenStreetMap](https://www.openstreetmap.org/about) (OSM) shows a very large number of both natural and man-made features, e.g. buildings, infrastructure, bodies of water.  These features are labelled according to [OSM's own detailed classification system](https://wiki.openstreetmap.org/wiki/Map_features), e.g. town hall, lake, pylon, railway, ... and they can be used as search terms to express users' search criteria. An example Spot user search might be "_**Find a car park near a cafe and a marina within 80m in the Hague**_".&#x20;
 
@@ -21,23 +21,21 @@ Spot is one amongst a range of tools which exists to allow users to query OpenSt
 
 The Spot user can describe a location search in terms of&#x20;
 
-* logical groupings of these map features, e.g. a pharmacy AND a traffic light
+* logical groupings of these map features, e.g. a pharmacy AND[^3] a traffic light
 * their relative distance from one another, e.g. within 70m of one another
-* the location of a geographical search area , e.g. in Cologne
+* the location of a geographical search area, e.g. in Cologne
 
 e.g. "_**Find a pharmacy and a traffic light and a bus stop and a bridge within 70m in Cologne**_" and, in response, Spot will return a map showing those candidate groups of features whenever they meet the user's distance criteria within the given location.&#x20;
 
 A common OSINV use case involves the user describing an image or video frame which they want to geolocate, and using Spot to generate potential solution locations around a particular geographic region like a named city.
 
-
-
-#### What Spot Does
+### What Spot Does
 
 Spot works in 3 stages:
 
 1. Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language and converts these sentences into query language  code with a formal structure.
 2. Spot  uses the query  language code to perform a search of OpenStreetMap
-3. Spot displaysdisplays the results on a map.&#x20;
+3. Spot displays the results on a map.&#x20;
 4. \---------------------------------------------reworked down to here-----------------------------------------
 5. Natural language [refers](https://www.ft.com/content/c0c8d205-e158-409e-963c-a3ac821cd7ba?utm_source=chatgpt.com) to human speech or text processed by artificial intelligence, and this process is known as Natural Language Processing (NLP). Spot also supports multiple languages for effective location searches in addition to English.
 
@@ -119,7 +117,7 @@ The exact location where the entity is situated can also be opened in the integr
 
 Spot has also integrated Google Street View for location verification.  Clicking on “Open Google Street View” opens a window displaying the location's street-level photography. Use this feature to match entities and features against the photo or video being geolocated.
 
-Users can also switch between map layers that include “[vector map](#user-content-fn-3)[^3]”, “hybrid view” and “OSM Style Map”. The screenshot below shows a location from search results in the hybrid view and the Google Street View tab showing street-level photography of the selected result.
+Users can also switch between map layers that include “[vector map](#user-content-fn-4)[^4]”, “hybrid view” and “OSM Style Map”. The screenshot below shows a location from search results in the hybrid view and the Google Street View tab showing street-level photography of the selected result.
 
 <figure><img src=".gitbook/assets/Spot hybrid view on map.png" alt=""><figcaption></figcaption></figure>
 
@@ -142,7 +140,8 @@ Any web browser and a sign-up through GitHub or Google are required to use the t
 
 ## Limitations
 
-1. Spot gives various errors. These are some of the different errors users will come across:
+1. The format of Spot's output is imprecise relative to other tools which clearly group the factors supporting each different solution location proposed in response to the user's query. Spot puts all the factors supporting each solution location onto the same output map, without counting the number of different solutions locations and indicating the supporting features for each one.
+2. Spot gives various errors (as at testing on 31/8/25). These are some of the different errors users will come across:
 
 <div><figure><img src=".gitbook/assets/Cologne system hickup.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/geometry2025-07-05 at 22.04.20.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/London Unknown error copy.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -205,4 +204,6 @@ It is possible for users to disable cookiless tracking
 
 [^2]: i.e. human conversational language
 
-[^3]: Definition here
+[^3]: AND is a [logical operator](https://www.w3schools.com/programming/prog_operators_logical.php) here, like OR.
+
+[^4]: Definition here
