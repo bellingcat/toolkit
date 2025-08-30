@@ -34,12 +34,16 @@ A common OSINV use case involves the user describing an image or video frame whi
 Spot works in 4 stages:
 
 1. Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language and converts these sentences into query language  code with a formal structure (which is displayed to the user in a separate box in the interface).
-2. Spot  uses the query  language code to perform a search of OpenStreetMap.
+2. Spot  uses the query  language code to perform a search of OpenStreetMap (by building an Overpass query).
 3. Spot displays all the features which satisfy the user's input search on a map.&#x20;
-4. Fore each feature marked on the output map, Spot offers the user the option to open a [street view](#user-content-fn-4)[^4] window within the tool, using data from a choice of three of the largest providers of street view photography (Google, Yandex, and Bing).
+4. For each feature marked on the output map, Spot offers the user the option to open a [street view](#user-content-fn-4)[^4] window within the tool, using data from a choice of three of the largest providers of street view photography (Google, Yandex, and Bing).
 
 \
 
+
+{% hint style="info" %}
+Hint here that only stage 1 uses AI, the others do not. So quality of search is not AI.
+{% endhint %}
 
 \[Need Venn diagram or a hierarchy demonstrating tool to show the issues of categorization, e.g. we want all military bases. If the system has categorized police buildings separately, we will need to search for those separately: they will not be returned within a military bases search. If the system has a hierarchy within which police buildings are a subset of military bases, then police buildings will be returned in a military bases search. This is an important point about categorisations. It is a generic issue, not specific to Spot]
 
@@ -152,7 +156,7 @@ All tools which query OpenStreetMap share the limitations which the structure of
 5. The tool exhibits strange behaviour. Sometimes results may not meet the search criteria.
 6. Some queries may take time to get results.&#x20;
 7. Spot is based on OpenStreet Map Data. Anything not found in OSM’s database will not be returned in results.
-8. Results may not always be accurate and should be double-checked against other mapping tools like Google Maps, OpenStreetMap, including street-view photography. <mark style="color:$danger;">WONDERING IF THIS IS MORE OF A DATA SOURCE ISSUE, I.E. CHECK AGAINST TOOLS WHICH DONT USE OSM DATA??</mark>
+8. Results may not always be accurate and should be double-checked against other mapping tools like Google Maps, Yandex Maps, Bing Maps, including street-view photography.&#x20;
 
 ## **Ethical Considerations**
 
