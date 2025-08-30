@@ -1,6 +1,6 @@
 ---
-description: AI video tool for facial detection and other types of insights.
 updated: '2025-06-30'
+description: AI video tool for facial detection and other types of insights.
 ---
 
 # Azure AI Video Indexer
@@ -115,7 +115,7 @@ Microsoft, United States.
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer         |
-| ----------------------- |
-| Anisa Shabir GAP member |
-|                         |
+| Page maintainer |
+| --------------- |
+| Anisa Shabir    |
+|                 |
