@@ -17,7 +17,7 @@ Spot provides an interface for searching OpenStreetMap[^1] using everyday langua
 
 [OpenStreetMap](https://www.openstreetmap.org/about) (OSM) shows a very large number of both natural and man-made features, e.g. buildings, infrastructure, bodies of water.  These features are labelled according to [OSM's own detailed classification system](https://wiki.openstreetmap.org/wiki/Map_features), e.g. town hall, lake, pylon, railway, ... and they can be used as search terms to express users' search criteria. An example Spot user search might be "_**Find a car park near a cafe and a marina within 80m in the Hague**_".&#x20;
 
-Spot is one amongst a range of tools which exists to allow users to query OpenStreetMap (See Similar Tools below). These tools use different methods to build the user's search query: some involve a formal language, some use a graphical interface. Spot is characterised by the use of [natural language](#user-content-fn-2)[^2] to express the users' search query.
+Spot is one amongst a range of tools which exists to allow users to query OpenStreetMap (See Similar Tools below). These tools use different methods to build the user's search query: some involve a formal language, some use a graphical interface. Spot is characterised by the use of [natural language](#user-content-fn-2)[^2] to express the users' search query, and this is relatively unusual.&#x20;
 
 The Spot user can describe a location search in terms of&#x20;
 
@@ -138,7 +138,7 @@ Any web browser and a sign-up through GitHub or Google are required to use the t
 
 All tools which query OpenStreetMap share the limitations which the structure of the Overpass Turbo query language
 
-1. The format of Spot's output is imprecise relative to other tools which clearly group the factors supporting each different solution location proposed in response to the user's query. Spot puts all the factors supporting each solution location onto the same output map, without counting the number of different solutions locations and indicating the supporting features for each one.
+1. The format of Spot's output is imprecise relative to other tools which clearly group the factors supporting each different solution location proposed in response to the user's query. Spot puts all the factors supporting each solution location onto the same output map, without counting the number of different solution locations and indicating the supporting features for each one. So Spot does not answer the question "How many different locations satisfy my criteria in the given search area?&#x20;
 2. Spot's valuable integrated street view access operates at the location of each feature on the solution map. Given that usually  all the features mentioned in a query will be visible in the source image which is being geolocated, the view **at** a feature location is not likely to be a match. e.g. street view imagery taken at the central co-ordinates of the Eiffel Tower is unlikely to include images where the Eiffel Tower is clearly visible.
 3. Spot gives various errors (as at testing on 31/8/25). These are some of the different errors users will come across:
 
@@ -146,12 +146,13 @@ All tools which query OpenStreetMap share the limitations which the structure of
 
 &#x20; &#x20;
 
-1. Spot does not answer the question "How many different locations satisfy my criteria in the given search area? This is because Spot simply draws each feature on the map which is part of a solution location, i.e. a location which satisfies the search criteria, but does not relate them in any way.&#x20;
-2. Complex queries can return no results so users should simplify their search criteria as far as possible.
-3. The tool exhibits strange behaviour. Sometimes results may not meet the search criteria.
-4. Some queries may take time to get results.&#x20;
-5. Spot is based on OpenStreet Map Data. Anything not found in OSM’s database will not be returned in results.
-6. Results may not always be accurate and should be double-checked against other mapping tools like Google Maps, OpenStreetMap, including street-view photography.
+
+
+1. Complex queries can return no results so users should simplify their search criteria as far as possible.
+2. The tool exhibits strange behaviour. Sometimes results may not meet the search criteria.
+3. Some queries may take time to get results.&#x20;
+4. Spot is based on OpenStreet Map Data. Anything not found in OSM’s database will not be returned in results.
+5. Results may not always be accurate and should be double-checked against other mapping tools like Google Maps, OpenStreetMap, including street-view photography. <mark style="color:$danger;">WONDERING IF THIS IS MORE OF A DATA SOURCE ISSUE, I.E. CHECK AGAINST TOOLS WHICH DONT USE OSM DATA??</mark>
 
 ## **Ethical Considerations**
 
