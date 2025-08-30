@@ -107,7 +107,7 @@ Determination of the purpose, nature or further details of an entity seen in an 
 {% endtab %}
 {% endtabs %}
 
-### Exploring and understanding results on Spot’s map interface
+### Spot’s result map&#x20;
 
 To understand the results and how to use the Spot's interface, the following search query was used as an example: “Find a building with 10 stories or more within 50m of water and a church in the City of London”.  The tool's interface with possible locations (results) looks like this:
 
@@ -166,7 +166,7 @@ All tools which query OpenStreetMap share the limitations which the structure of
 
 ## **Ethical Considerations**
 
-1. Users should verify the accuracy of the results, as they may not always match the search criteria. Since the tool uses OpenStreetMap data, which is crowdsourced, users should always cross-check and confirm the results using other mapping services like Google, Yandex, Bing, etc., and street-level photography.
+1. Since the tool uses OpenStreetMap data, which is crowdsourced, users should always cross-check and confirm the results using other mapping services like Google, Yandex, Bing, etc., and street-level photography.
 2. Spot’s Trusted AI principles page states that “The user prompts that are entered in the Spot application are being used to re-train the model on real user queries to improve the user relevance of the AI model.” Furthermore, the same page says, “User control -- no publicly anonymous available access but certain monitoring of users will be done via login functionality.” Therefore, entering any information in the query or users’ login credentials may potentially end up revealing sensitive information about the individual or the investigation.
 3. The tool uses “cookieless tracking”. Although the “tracking” feature can be disabled on the “Legal & Privacy Statement” page, users should still take precautions, such as using VPNs and browser extensions, to block tracking and prevent the potential revealing of their location.
 
