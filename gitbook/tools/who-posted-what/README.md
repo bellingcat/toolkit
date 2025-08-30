@@ -1,8 +1,8 @@
 ---
+updated: '2025-06-30'
 description: >-
   A tool that allows a keyword search on Facebook on a specific date or within a
   specific time frame.
-updated: '2025-06-30'
 ---
 
 # Who posted what?
@@ -22,8 +22,8 @@ A search can be:
 1. A keyword on a specific day: “Ukraine” on February 4, 2020. A new tab will open on Facebook showing posts related to Ukraine on Feb. 4 of 2020.
 2. A keyword search for a specific month: “Barack Obama” from “September 2020.” The new tab opens with relevant results.
 3. A keyword search for a specific year: “coronavirus” from “2019.” For 2019 there are no results for coronavirus. But when we change the year to 2020, the results are abundant, since COVID-19 was declared a pandemic in March 2020.
-4. Timerange: This option allows users to search for keywords within a specific time period, for example for posts about “Emmanuel Macron” from August 22, 2019 to February 20, 2021.&#x20;
-5. Location: Search for posts about “Mark Kelly”  at the location ID “105540216147364” which corresponds to Phoenix, Arizona.&#x20;
+4. Timerange: This option allows users to search for keywords within a specific time period, for example for posts about “Emmanuel Macron” from August 22, 2019 to February 20, 2021.
+5. Location: Search for posts about “Mark Kelly” at the location ID “105540216147364” which corresponds to Phoenix, Arizona.
 6. “Posts directly from/Posts associated with”: This search query allows you to find posts which include specific keywords from a particular user account. Copy and paste "https://www.facebook.com/narendramodi” into the bar under “Get ID.” The Facebook UID of the Indian prime minister is “100044527235621.” Select “post from” or “posts associated with” from the drop down options. Enter “100044527235621” into "Posts from"_,_ then “mosque” into "about." A new tab on Facebook opens, showing Modi’s posts about mosques.
 
 ## Cost
@@ -64,6 +64,6 @@ Daniel Endresz, Dan Nemec and Tormund Gerhardsen (Idea: Henk van Ess).
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer          |
-| ------------------------ |
-| Anisa Shabir  GAP member |
+| Page maintainer |
+| --------------- |
+| Anisa Shabir    |
