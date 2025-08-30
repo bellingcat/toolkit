@@ -14,7 +14,7 @@
 
 **USE OF 'AI' TECHNOLOGY IN SPOT IS LIMITED TO STAGE 1 ONLY, I.E. LANGUAGE CONVERSION OF TH**
 
-
+\[Need Venn diagram or a hierarchy demonstrating tool to show the issues of categorization, e.g. we want all military bases. If the system has categorized police buildings separately, we will need to search for those separately: they will not be returned within a military bases search. If the system has a hierarchy within which police buildings are a subset of military bases, then police buildings will be returned in a military bases search. This is an important point about categorisations. It is a generic issue, not specific to Spot]
 
 {% embed url="https://docs.google.com/presentation/d/1VdYgTcq0P77UH44QVfEEWExu5bAzhtscxkCfDOkyfMs/edit?usp=sharing" %}
 
