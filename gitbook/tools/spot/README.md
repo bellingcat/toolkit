@@ -13,11 +13,17 @@ description: >-
 
 ## Description
 
-Spot provides an interface for searching OpenStreetMap[^1] using everyday language ( multiple languages are supported in addition to English.
+Spot provides an interface for searching OpenStreetMap[^1] using everyday language (multiple languages are supported in addition to English).
 
-[OpenStreetMap](https://www.openstreetmap.org/about) (OSM) shows a very large number of both natural and man-made features, e.g. buildings, infrastructure, bodies of water.  These features are labelled according to [OSM's own detailed classification system](https://wiki.openstreetmap.org/wiki/Map_features), e.g. town hall, lake, pylon, railway, ... and they can be used as search terms to express users' search criteria. An example Spot user search might be "_**Find a car park near a cafe and a marina within 80m in the Hague**_".&#x20;
+<details>
 
-Spot is one amongst a range of tools which exists to allow users to query OpenStreetMap (See Similar Tools below). These tools use different methods to build the user's search query: some involve a formal language, some use a graphical interface. Spot is characterised by the use of [natural language](#user-content-fn-2)[^2] to express the users' search query, and this is relatively unusual.&#x20;
+<summary><a href="https://www.openstreetmap.org/about">OpenStreetMap</a> (OSM) shows a very large number of both natural and man-made features, e.g. buildings, infrastructure, bodies of water. <em>Click the arrow for more on OSM</em>...</summary>
+
+These features are labelled according to [OSM's own detailed classification system](https://wiki.openstreetmap.org/wiki/Map_features), e.g. town hall, lake, pylon, railway, ... and they can be used as search terms to express users' search criteria. An example Spot user search might be "_**Find a car park near a cafe and a marina within 80m in the Hague**_"
+
+</details>
+
+Spot is one amongst a range of tools which exists to allow users to query OpenStreetMap (See [Similar Tools](./#similar-tools) below). These tools use different methods to build the user's search query: some involve a formal language, some use a graphical interface. Spot is characterised by the use of [natural language](#user-content-fn-2)[^2] to express the users' search query, and this is a relatively new approach.&#x20;
 
 The Spot user can describe a location search in terms of&#x20;
 
@@ -25,9 +31,9 @@ The Spot user can describe a location search in terms of&#x20;
 * their relative distance from one another, e.g. within 70m of one another
 * the location of a geographical search area, e.g. in Cologne
 
-e.g. "_**Find a pharmacy and a traffic light and a bus stop and a bridge within 70m in Cologne**_" and, in response, Spot will return a map showing those candidate groups of features whenever they meet the user's distance criteria within the given location.&#x20;
+e.g. Enter "_**Find a pharmacy and a traffic light and a bus stop and a bridge within 70m in Cologne**_" and, in response, Spot will return a map showing those candidate groups of features whenever they meet the user's distance criteria within the given geographical search area.&#x20;
 
-A common OSINV use case involves the user describing an image or video frame which they want to geolocate, and using Spot to generate potential solution locations around a particular geographic region like a named city.
+A common OSINV use case involves the user describing an image or video frame which they want to geolocate, and using Spot to generate and inspect potential solution locations around a particular geographic region like a named city.&#x20;
 
 ### What Spot Does
 
@@ -160,7 +166,7 @@ All tools which query OpenStreetMap share the limitations which the structure of
 
 4. Complex queries can return no results so users should simplify their search criteria as far as possible.
 5. The tool exhibits strange behaviour. Sometimes results may not meet the search criteria.
-6. Some queries may take time to get results.&#x20;
+6. Some queries may take time to get results. This is because search time increases with the size of the search area, the number of search terms involved and the complexity of the logical combinations of search terms used in the query.
 7. Spot is based on OpenStreet Map Data. Anything not found in OSM’s database will not be returned in results.
 8. Results may not always be accurate and should be double-checked against other mapping tools like Google Maps, Yandex Maps, Bing Maps, including street-view photography.&#x20;
 
@@ -188,7 +194,7 @@ There is also training on viewing and interpreting Spot results
 
 {% embed url="https://www.youtube.com/watch?v=RMRumWNf298" %}
 
-### Similar Tools
+## Similar Tools
 
 _**Maybe a table here? We need to test with reference to Spot paper Table 1**_
 
@@ -210,7 +216,7 @@ It is possible for users to disable cookiless tracking
 | Anisa Shabir 6:10 pm PKT on August 30 |
 |                                       |
 
-[^1]: [Open Street Map](https://www.openstreetmap.org/) is a free, open map database of the world, updated and maintained by a community of volunteers via collaborative working.&#x20;
+[^1]: [Open Street Map](https://www.openstreetmap.org/) is a free, open map database of the world, which is updated and maintained by a community of volunteers via collaborative working. 
 
 [^2]: i.e. human conversational language
 
