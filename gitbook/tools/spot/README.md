@@ -23,7 +23,7 @@ These features are labelled according to [OSM's own detailed classification syst
 
 </details>
 
-Spot is one amongst [a range of tools](./#similar-tools) which exists to allow users to query OpenStreetMap. These tools all run a search of OpenStreetMap in the same way, but they use different methods to build the user's search query: some involve writing in a formal language, some use a graphical interface. Spot is characterised by the use of [natural language](#user-content-fn-2)[^2] to express the users' search query, and this is a relatively new approach.&#x20;
+Spot is one amongst [a range of OSM search tools](./#similar-tools) which exists to allow users to query OpenStreetMap. These tools all run a search of OpenStreetMap in the same way, but they use different methods to build the user's search query: some involve writing in a formal language, some use a graphical interface. Spot is characterised by the use of [natural language](#user-content-fn-2)[^2] to express the users' search query, and this is a relatively new approach.&#x20;
 
 The Spot user can describe a location search in terms of :-
 
@@ -35,15 +35,13 @@ e.g. Enter "_**Find a pharmacy and a traffic light and a bus stop and a bridge w
 
 **A common OSINV use case** involves the user describing an image or video frame which they want to geolocate, and using Spot to generate and visually inspect potential solution locations around a particular geographic region like a named city.&#x20;
 
-{% embed url="https://docs.google.com/presentation/d/1VdYgTcq0P77UH44QVfEEWExu5bAzhtscxkCfDOkyfMs/edit?usp=sharing" %}
-
-[Test slides](https://docs.google.com/presentation/d/1VdYgTcq0P77UH44QVfEEWExu5bAzhtscxkCfDOkyfMs/edit?usp=sharing)
-
 ### What Spot Does
 
 Spot works in 4 stages, from natural language input to streetview comparison of outputs.&#x20;
 
-<table><thead><tr><th width="200" align="center">Stage</th><th width="298" align="center">Description</th><th align="center">Interface Feature</th></tr></thead><tbody><tr><td align="center"><h3>1. Natural Language </h3><h3>Query Input</h3></td><td align="center">Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language, and converts these sentences into query language  code with a formal structure (which is displayed to the user in a separate box in the interface) called <a href="https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL">Overpass Query Language</a>.</td><td align="center"><div><figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div></td></tr><tr><td align="center"><h3>2. Run Overpass </h3><h3>Query on the </h3><h3>OpenStreetMap </h3><h3>Database</h3></td><td align="center">Spot  uses the query  language code to perform a search of OpenStreetMap (by building an Overpass query and running it with the <a href="https://wiki.openstreetmap.org/wiki/Overpass_API">Overpass API</a>).</td><td align="center"><div><figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div></td></tr><tr><td align="center"><h3>3. Dipslay All </h3><h3>Solution Features </h3><h3>on A Map</h3></td><td align="center">Spot displays all the features which satisfy the user's input search on a map. It does not sort features which relate to different candidate location solutions, so if there is more than one potential solution this may not be apparent.</td><td align="center"><div><figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div></td></tr><tr><td align="center"><h3>4. Offer A Choice of </h3><h3>Streetview Options </h3><h3>for Each Solution </h3><h3>Feature</h3></td><td align="center">For each feature marked on the output map, Spot offers the user the option to open a <a data-footnote-ref href="#user-content-fn-4">street view</a> window within the tool, using data from a choice of three of the largest providers of street view photography (Google, Yandex, and Bing).</td><td align="center"><div><figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div></td></tr></tbody></table>
+<table><thead><tr><th width="200" align="center">STAGE</th><th width="298" align="center">ACTION</th><th align="center">INTERFACE FEATURE</th></tr></thead><tbody><tr><td align="center"><h3>1. Natural Language </h3><h3>Query Input</h3></td><td align="center">Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language, and converts these sentences into query language  code with a formal structure (which is displayed to the user in a separate box in the interface) called <a href="https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL">Overpass Query Language</a>.</td><td align="center"><div><figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div></td></tr><tr><td align="center"><h3>2. Run Overpass </h3><h3>Query on the </h3><h3>OpenStreetMap </h3><h3>Database</h3></td><td align="center">Spot  uses the query  language code to perform a search of OpenStreetMap (by building an Overpass query and running it with the <a href="https://wiki.openstreetmap.org/wiki/Overpass_API">Overpass API</a>).</td><td align="center"><div><figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div></td></tr><tr><td align="center"><h3>3. Dipslay All </h3><h3>Solution Features </h3><h3>on A Map</h3></td><td align="center">Spot displays all the features which satisfy the user's input search on a map. It does not sort features which relate to different candidate location solutions, so if there is more than one potential solution this may not be apparent.</td><td align="center"><div><figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div></td></tr><tr><td align="center"><h3>4. Offer A Choice of </h3><h3>Streetview Options </h3><h3>for Each Solution </h3><h3>Feature</h3></td><td align="center">For each feature marked on the output map, Spot offers the user the option to open a <a data-footnote-ref href="#user-content-fn-4">street view</a> window within the tool, using data from a choice of three of the largest providers of street view photography (Google, Yandex, and Bing).</td><td align="center"><div><figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div></td></tr></tbody></table>
+
+***
 
 Spot works in 4 stages, from natural language input to streetview comparison of outputs.&#x20;
 
@@ -79,6 +77,8 @@ For each feature marked on the output map, Spot offers the user the option to op
 {% endstep %}
 {% endstepper %}
 
+***
+
 {% hint style="warning" %}
 **USE OF 'AI' TECHNOLOGY IN SPOT IS LIMITED TO STAGE 1 ONLY, I.E. LANGUAGE CONVERSION OF THE SEARCH QUERY.**&#x20;
 
@@ -89,9 +89,7 @@ The quality and speed of the search is not impacted by the Large Language Model 
 N.B. Tests run by these authors on city searches in August 2025 suggest that well over 50% of the time Spot takes to complete a search is used to run the Natual Language to Overpass Query Language conversion, NOT the Overpass query of OpenStreetMap itself.&#x20;
 {% endhint %}
 
-\[Need Venn diagram or a hierarchy demonstrating tool to show the issues of categorization, e.g. we want all military bases. If the system has categorized police buildings separately, we will need to search for those separately: they will not be returned within a military bases search. If the system has a hierarchy within which police buildings are a subset of military bases, then police buildings will be returned in a military bases search. This is an important point about categorisations. It is a generic issue, not specific to Spot]
-
-### The Interface
+## The Interface
 
 The first thing a user sees when they visit the Spot website is a modal window (a pop-up). This box includes a search box, where an example query is typed out word by word and then disappears automatically. “Find me a tram stop next to a park within 150 metres of a traffic light and a parking garage in Prague,” says the animated auto-query. This demonstrates how to phrase a search for the tool to understand. Text for the search prompt can be entered here or performed after closing this window.
 
@@ -117,7 +115,7 @@ After conducting a search, you can always adjust the Search Parameters to refine
 
 Spot displays the results on an interactive map. These are potential location solutions from the search appearing on the map simultaneously.&#x20;
 
-Entities from the search are highlighted in different colours, and users can select or deselect the ones they want to see on the interface through the “Map Legend” at the bottom left. The slider on the right allows you to zoom in on a single location or zoom out to view all results.
+Search features are highlighted in different colours, and users can select or deselect the ones they want to see on the interface through the “Map Legend” at the bottom left, or just make them flash momentarily by hovring the mouse over the Map Legend. The slider on the right allows you to zoom in on a single location or zoom out to view all results.
 
 To confirm which result matches our required location, one must sift through all the available possibilities on the map.&#x20;
 
@@ -133,11 +131,11 @@ Natural language description of a location to be found - includes entities at th
 
 OR
 
-Overpass Turbo query - references entities with the appropriate OSM tags, describes their relative proximity with distances and provides the geographic search area. (Search parameters)
+Overpass Turbo query search parameters - references entities with the appropriate OSM tags, describes their relative proximity with distances and provides the geographic search area. (Search parameters)
 {% endtab %}
 
 {% tab title="SPOT OUTPUT DATA" %}
-Location map marking all entities in groups which satisfy the search criteria, but not marking those groups individually.
+Location map marking all features in candidate solutions which satisfy the search criteria, but not marking those groups individually or providing an approximate location for viewpoints which could include them all.
 {% endtab %}
 
 {% tab title="USE CASES" %}
@@ -147,7 +145,11 @@ Determination of the purpose, nature or further details of an entity seen in an 
 {% endtab %}
 
 {% tab title="DATA INPUT OPTIONS" %}
+Enter a natural language sentence in the search box
 
+OR
+
+Use the search parameters box to adjust existing search features and their relative distances via a part text, part graphic subwindow.
 {% endtab %}
 {% endtabs %}
 
