@@ -14,4 +14,14 @@
 
 **USE OF 'AI' TECHNOLOGY IN SPOT IS LIMITED TO STAGE 1 ONLY, I.E. LANGUAGE CONVERSION OF TH**
 
+
+
+{% embed url="https://docs.google.com/presentation/d/1VdYgTcq0P77UH44QVfEEWExu5bAzhtscxkCfDOkyfMs/edit?usp=sharing" %}
+
+### https://docs.google.com/presentation/d/1VdYgTcq0P77UH44QVfEEWExu5bAzhtscxkCfDOkyfMs/edit?usp=sharing <a href="#react-aria6249617902-r1rkh" id="react-aria6249617902-r1rkh"></a>
+
+docs.google.com
+
+​[Test slides](https://docs.google.com/presentation/d/1VdYgTcq0P77UH44QVfEEWExu5bAzhtscxkCfDOkyfMs/edit?usp=sharing)
+
 [^1]: Street view photographs are taken at ground level (as opposed to satellite view imagery, taken from above), giving a view of what a human would see at a location by looking around.
