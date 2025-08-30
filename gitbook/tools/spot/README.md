@@ -109,7 +109,7 @@ To understand the results and how to use the Spot's interface, the following sea
 
 The purple blobs on the map legend represent churches, orange indicates water, and red signifies buildings with 10 or more stories. The church, water, and the building can be entities from an image or video showing a specific location that a user is geolocating.
 
-The slide bar on the right allows zooming in on a single location or zooming out to view all results. Clicking on a specific entity from one of the results shows its details, which also include a link to its OSM ID. In this case, clicking on the church indicates that its “denomination” is “Anglican” and was “rebuilt” in “1906.” Click on the OSM ID link for more details.
+Clicking on a specific entity from one of the results shows details, which include a link to its OSM ID. This link opens a new tab to its location on the OpenStreetMap website, where you can find this entity and explore further. In this case, clicking on the church indicates that its “denomination” is “Anglican” and was “rebuilt” in “1906.” Click on the OSM ID link for more details.
 
 <figure><img src=".gitbook/assets/Spot church details.png" alt=""><figcaption><p>Details about the church.</p></figcaption></figure>
 
