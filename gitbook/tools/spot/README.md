@@ -39,13 +39,17 @@ e.g. Enter "_**Find a pharmacy and a traffic light and a bus stop and a bridge w
 
 Spot works in 4 stages, from natural language input to streetview comparison of outputs.&#x20;
 
+<table><thead><tr><th width="200" align="center">Stage</th><th width="298" align="center">Description</th><th align="center">Interface Feature</th></tr></thead><tbody><tr><td align="center"><h3>1. Natural Language </h3><h3>Query Input</h3></td><td align="center">Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language, and converts these sentences into query language  code with a formal structure (which is displayed to the user in a separate box in the interface) called <a href="https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL">Overpass Query Language</a>.</td><td align="center"><div><figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div></td></tr><tr><td align="center"><h3>2. Run Overpass </h3><h3>Query on the </h3><h3>OpenStreetMap </h3><h3>Database</h3></td><td align="center">Spot  uses the query  language code to perform a search of OpenStreetMap (by building an Overpass query and running it with the <a href="https://wiki.openstreetmap.org/wiki/Overpass_API">Overpass API</a>).</td><td align="center"><div><figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div></td></tr><tr><td align="center"><h3>3. Dipslay All </h3><h3>Solution Features </h3><h3>on A Map</h3></td><td align="center">Spot displays all the features which satisfy the user's input search on a map. It does not sort features which relate to different candidate location solutions, so if there is more than one potential solution this may not be apparent.</td><td align="center"><div><figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div></td></tr><tr><td align="center"><h3>4. Offer A Choice of </h3><h3>Streetview Options </h3><h3>for Each Solution </h3><h3>Feature</h3></td><td align="center">For each feature marked on the output map, Spot offers the user the option to open a <a data-footnote-ref href="#user-content-fn-4">street view</a> window within the tool, using data from a choice of three of the largest providers of street view photography (Google, Yandex, and Bing).</td><td align="center"><div><figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div></td></tr></tbody></table>
+
+Spot works in 4 stages, from natural language input to streetview comparison of outputs.&#x20;
+
 {% stepper %}
 {% step %}
 ### Natural Language Query Input
 
 Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language, and converts these sentences into query language  code with a formal structure (which is displayed to the user in a separate box in the interface) called [Overpass Query Language](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL).
 
-![](<.gitbook/assets/image (6).png>)![](<.gitbook/assets/image (8).png>)
+![](<.gitbook/assets/image (6) (1).png>)![](<.gitbook/assets/image (8) (1).png>)
 {% endstep %}
 
 {% step %}
@@ -59,13 +63,15 @@ Spot  uses the query  language code to perform a search of OpenStreetMap (by bui
 
 Spot displays all the features which satisfy the user's input search on a map. It does not sort features which relate to different candidate location solutions, so if there is more than one potential solution this may not be apparent.
 
-<p align="center"><img src=".gitbook/assets/image (9).png" alt=""></p>
+<p align="center"><img src=".gitbook/assets/image (9) (1).png" alt=""></p>
 {% endstep %}
 
 {% step %}
 ### Offer A Choice of Streetview Options for Each Solution Feature
 
 For each feature marked on the output map, Spot offers the user the option to open a [street view](#user-content-fn-4)[^4] window within the tool, using data from a choice of three of the largest providers of street view photography (Google, Yandex, and Bing).
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
