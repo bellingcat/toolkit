@@ -55,7 +55,7 @@ The first thing a user sees when they visit the Spot website is a modal window (
 
 In the top left corner, a query can be entered into the search box. This is the first step, also explained in the description above, where Spot takes the input as natural language prompts.
 
-Just below the search bar is an expandable “Search Parameters” box, where the location, entities, and the relationship between them – specifically, how far apart they are from each other. Entities are features labelled according to OpenStreetMap’s own classification system.&#x20;
+Just below the search bar is an expandable “Search Parameters” box, where the location, entities, and the relationship between them —specifically, how far apart they are from each other— can be viewed. Entities are features labelled according to OpenStreetMap’s own classification system.&#x20;
 
 Here, you can edit the OSM tags assigned to each feature by clicking the “pencil” icon. OSM tags define features of map[ elements](https://wiki.openstreetmap.org/wiki/Tags) or changesets as [they](https://taginfo.openstreetmap.org/about) “add meaning to geographic objects.” Elements are the “nodes”, “ways” and “relations”
 
@@ -65,8 +65,19 @@ A tag is made of two [items](https://wiki.openstreetmap.org/wiki/Tags): a key an
 
 This feature is similar to [Bellingcat’s OpenStreetMap](https://osm-search.bellingcat.com/) search tool, which utilises a custom setting for adding features, enabling adjustments via the OSM key and value.
 
-\
-Data Input, Output and Formats
+After conducting a search, you can always adjust the Search Parameters to refine criteria and update results.
+
+Spot displays the results on an interactive map. These are potential location solutions from the search appearing on the map simultaneously.&#x20;
+
+Entities from the search are highlighted in different colours, and users can select or deselect the ones they want to see on the interface through the “Map Legend” at the bottom left. The slider on the right allows you to zoom in on a single location or zoom out to view all results.
+
+To confirm which result matches our required location, one must sift through all the available possibilities on the map.&#x20;
+
+The exact location where the entity is situated can also be viewed in integrated mapping services, such as Google Maps, Bing, and Yandex. This ensures location verification through multiple mapping services in one place, thus saving time and allowing for greater flexibility.
+
+Spot has also integrated Google Street View for location verification. Clicking on “Open Google Street View” opens a window displaying the location's street-level photography. Use this feature to match entities and features against the photo or video being geolocated.
+
+### Data Input, Output and Formats
 
 {% tabs %}
 {% tab title="INPUT DATA" %}
@@ -92,15 +103,9 @@ Determination of the purpose, nature or further details of an entity seen in an 
 {% endtab %}
 {% endtabs %}
 
-### Results from Spot
+### Exploring/Understanding Results through the Spot’s interface
 
-Spot displays results on an interactive map. Potential location matches from the search appear on the map, all at the same time.&#x20;
-
-Entities from the search are highlighted in different colors, and users can select or deselect the ones they want to see on the interface through the “Map Legend” at the bottom left.&#x20;
-
-To confirm which result matches our required location, one must sift through all the available possibilities on the map.&#x20;
-
-For instance, for a search query in the City of London that reads, “Find a building with 10 stories or more within 50m of water and a church in the City of London”, the tool's interface with possible locations (results) looks like this:
+To understand the results and how to use the Spot's interface, the following search query was used as an example: “Find a building with 10 stories or more within 50m of water and a church in the City of London”.  The tool's interface with possible locations (results) looks like this:
 
 <figure><img src=".gitbook/assets/Spot results .png" alt=""><figcaption></figcaption></figure>
 
@@ -193,7 +198,7 @@ It is possible for users to disable cookiless tracking
 
 | Page maintainer                       |
 | ------------------------------------- |
-| Anisa Shabir 5:26 pm PKT on August 30 |
+| Anisa Shabir 6:10 pm PKT on August 30 |
 |                                       |
 
 [^1]: [Open Street Map](https://www.openstreetmap.org/) is a free, open map database of the world, updated and maintained by a community of volunteers via collaborative working.&#x20;
