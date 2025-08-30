@@ -148,11 +148,11 @@ All tools which query OpenStreetMap share the limitations which the structure of
 
 
 
-1. Complex queries can return no results so users should simplify their search criteria as far as possible.
-2. The tool exhibits strange behaviour. Sometimes results may not meet the search criteria.
-3. Some queries may take time to get results.&#x20;
-4. Spot is based on OpenStreet Map Data. Anything not found in OSM’s database will not be returned in results.
-5. Results may not always be accurate and should be double-checked against other mapping tools like Google Maps, OpenStreetMap, including street-view photography. <mark style="color:$danger;">WONDERING IF THIS IS MORE OF A DATA SOURCE ISSUE, I.E. CHECK AGAINST TOOLS WHICH DONT USE OSM DATA??</mark>
+4. Complex queries can return no results so users should simplify their search criteria as far as possible.
+5. The tool exhibits strange behaviour. Sometimes results may not meet the search criteria.
+6. Some queries may take time to get results.&#x20;
+7. Spot is based on OpenStreet Map Data. Anything not found in OSM’s database will not be returned in results.
+8. Results may not always be accurate and should be double-checked against other mapping tools like Google Maps, OpenStreetMap, including street-view photography. <mark style="color:$danger;">WONDERING IF THIS IS MORE OF A DATA SOURCE ISSUE, I.E. CHECK AGAINST TOOLS WHICH DONT USE OSM DATA??</mark>
 
 ## **Ethical Considerations**
 
