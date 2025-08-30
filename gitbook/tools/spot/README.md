@@ -55,6 +55,10 @@ In the top left corner, a query can be entered into the search box. This is the 
 
 Just below the search bar is an expandable “Search Parameters” box, where the location, entities, and the relationship between them —specifically, how far apart they are from each other— can be viewed. Entities are features labelled according to OpenStreetMap’s own classification system.&#x20;
 
+<details>
+
+<summary>Search Parameters</summary>
+
 Here, you can edit the OSM tags assigned to each feature by clicking the “pencil” icon. OSM tags define features of map[ elements](https://wiki.openstreetmap.org/wiki/Tags) which “add meaning to geographic objects.” Elements are the “nodes”, “ways” and “relations”
 
 According to the TagInfo site for OSM tags, “there is no fixed list of those tags. New tags can be invented and used as needed. Everybody can come up with a new tag and add it to new or existing objects.”
@@ -62,6 +66,8 @@ According to the TagInfo site for OSM tags, “there is no fixed list of those t
 A tag is made of two [items](https://wiki.openstreetmap.org/wiki/Tags): a key and a value. A key describes the category or type of feature. A [value](https://wiki.openstreetmap.org/wiki/Tags) “provides detail for the key-specified feature." For example, an OSM key, “waterway”, can have multiple values that define this key. Some of them include a stream, ditch, river, drain, canal, and dam, among others. These can be adjusted depending on the needs of the search.
 
 This feature is similar to [Bellingcat’s OpenStreetMap](https://osm-search.bellingcat.com/) search tool, which utilises a custom setting for adding features, enabling adjustments via the OSM key and value.
+
+</details>
 
 After conducting a search, you can always adjust the Search Parameters to refine criteria and update results.
 
