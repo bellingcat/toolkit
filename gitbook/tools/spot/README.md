@@ -51,7 +51,22 @@ The integration of mapping services like Google, Yandex, and Bing further enhanc
 
 ### The Interface
 
-#### Data Input, Output and Formats
+The first thing a user sees when they visit the Spot website is a modal window (a pop-up). This box includes a search box, where an example query is typed out word by word and then disappears automatically. “Find me a tram stop next to a park within 150 metres of a traffic light and a parking garage in Prague,” says the animated auto-query. This demonstrates how to phrase a search for the tool to understand. Text for the search prompt can be entered here or performed after closing this window.
+
+In the top left corner, a query can be entered into the search box. This is the first step, also explained in the description above, where Spot takes the input as natural language prompts.
+
+Just below the search bar is an expandable “Search Parameters” box, where the location, entities, and the relationship between them – specifically, how far apart they are from each other. Entities are features labelled according to OpenStreetMap’s own classification system.&#x20;
+
+Here, you can edit the OSM tags assigned to each feature by clicking the “pencil” icon. OSM tags define features of map[ elements](https://wiki.openstreetmap.org/wiki/Tags) or changesets as [they](https://taginfo.openstreetmap.org/about) “add meaning to geographic objects.” Elements are the “nodes”, “ways” and “relations”
+
+According to the TagInfo site for OSM tags, “there is no fixed list of those tags. New tags can be invented and used as needed. Everybody can come up with a new tag and add it to new or existing objects.”
+
+A tag is made of two [items](https://wiki.openstreetmap.org/wiki/Tags): a key and a value. A key describes the category or type of feature. A [value](https://wiki.openstreetmap.org/wiki/Tags) “provides detail for the key-specified feature." For example, an OSM key, “waterway”, can have multiple values that define this key. Some of them include a stream, ditch, river, drain, canal, and dam, among others. These can be adjusted depending on the needs of the search.
+
+This feature is similar to [Bellingcat’s OpenStreetMap](https://osm-search.bellingcat.com/) search tool, which utilises a custom setting for adding features, enabling adjustments via the OSM key and value.
+
+\
+Data Input, Output and Formats
 
 {% tabs %}
 {% tab title="INPUT DATA" %}
@@ -178,7 +193,7 @@ It is possible for users to disable cookiless tracking
 
 | Page maintainer                       |
 | ------------------------------------- |
-| Anisa Shabir 5:25 pm PKT on August 17 |
+| Anisa Shabir 5:26 pm PKT on August 30 |
 |                                       |
 
 [^1]: [Open Street Map](https://www.openstreetmap.org/) is a free, open map database of the world, updated and maintained by a community of volunteers via collaborative working.&#x20;
