@@ -45,7 +45,9 @@ OpenCorporates provides a unified search of corporate and legal entity-level dat
 <figure><img src=".gitbook/assets/OC7.png" alt="" width="563"><figcaption><p>Specific information for IBM CEO Arvind Krishna from one of selected search results</p></figcaption></figure>
 
 {% hint style="warning" %}
-Details provided by OpenCorporates depend on what the local companies register for this particular jurisdiction provides. Each jurisdiction is different, thus the level of detail might differ. Also be mindful of the fact that there might be more than one company with the same name and does not mean it is in any way connected to the one you are researching. The same rule applies for individuals. There may be more than one person with the same name in your results, but these could be name match only records.
+Data in  OpenCorporates is dependent on the information provided by the local companies registers provide in their jurisdictions. Each jurisdiction is different, thus the level of detail might differ. b
+
+Be mindful that there might be more than one company with the same name and that does not mean it is in any way connected to the one you are researching. The same rule applies for individuals. There may be more than one person with the same name in your results, but these could be name match only records.
 {% endhint %}
 
 The website has a very useful [Case Studies](https://opencorporates.com/case-studies/) section where you can view how companies and NGOs have used OpenCorporates data for their needs
