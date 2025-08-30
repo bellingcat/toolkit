@@ -25,7 +25,7 @@ These features are labelled according to [OSM's own detailed classification syst
 
 Spot is one amongst a range of tools which exists to allow users to query OpenStreetMap (See [Similar Tools](./#similar-tools) below). These tools use different methods to build the user's search query: some involve a formal language, some use a graphical interface. Spot is characterised by the use of [natural language](#user-content-fn-2)[^2] to express the users' search query, and this is a relatively new approach.&#x20;
 
-The Spot user can describe a location search in terms of&#x20;
+The Spot user can describe a location search in terms of :-
 
 * logical groupings of these map features, e.g. a pharmacy AND[^3] a traffic light
 * their relative distance from one another, e.g. within 70m of one another
@@ -33,21 +33,49 @@ The Spot user can describe a location search in terms of&#x20;
 
 e.g. Enter "_**Find a pharmacy and a traffic light and a bus stop and a bridge within 70m in Cologne**_" and, in response, Spot will return a map showing those candidate groups of features whenever they meet the user's distance criteria within the given geographical search area.&#x20;
 
-A common OSINV use case involves the user describing an image or video frame which they want to geolocate, and using Spot to generate and inspect potential solution locations around a particular geographic region like a named city.&#x20;
+A common OSINV use case involves the user describing an image or video frame which they want to geolocate, and using Spot to generate and visually inspect potential solution locations around a particular geographic region like a named city.&#x20;
 
 ### What Spot Does
 
-Spot works in 4 stages:
+{% stepper %}
+{% step %}
+### Natural Language Query Input
 
-1. Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language and converts these sentences into query language  code with a formal structure (which is displayed to the user in a separate box in the interface).
+
+{% endstep %}
+
+{% step %}
+### Run Overpass Query on the OpenStreetMap Database
+
+
+{% endstep %}
+
+{% step %}
+### Dipslay All Solution Features on A Map
+
+
+{% endstep %}
+
+{% step %}
+### Offer Choice of Streetview Options for Each Feature
+
+
+{% endstep %}
+{% endstepper %}
+
+<details>
+
+<summary>Spot works in 4 stages, from natural language input to streetview comparison of outputs. <em>Click for more on the 4 stages...</em></summary>
+
+1. Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language, and converts these sentences into query language  code with a formal structure (which isdisplayed to the user in a separate box in the interface) called [Overpass Query Language](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL).
 2. Spot  uses the query  language code to perform a search of OpenStreetMap (by building an Overpass query).
-3. Spot displays all the features which satisfy the user's input search on a map.&#x20;
-4. For each feature marked on the output map, Spot offers the user the option to open a [street view](#user-content-fn-4)[^4] window within the tool, using data from a choice of three of the largest providers of street view photography (Google, Yandex, and Bing).
+3. Spot displays all the features which satisfy the user's input search on a map. It does not sort features which relate to different candidate location solutions, so if there is more than one potential solution,&#x20;
 
-\
+1) For each feature marked on the output map, Spot offers the user the option to open a [street view](#user-content-fn-4)[^4] window within the tool, using data from a choice of three of the largest providers of street view photography (Google, Yandex, and Bing).
 
+</details>
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Hint here that only stage 1 uses AI, the others do not. So quality of search is not AI.
 {% endhint %}
 
