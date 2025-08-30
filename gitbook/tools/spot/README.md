@@ -35,6 +35,10 @@ e.g. Enter "_**Find a pharmacy and a traffic light and a bus stop and a bridge w
 
 **A common OSINV use case** involves the user describing an image or video frame which they want to geolocate, and using Spot to generate and visually inspect potential solution locations around a particular geographic region like a named city.&#x20;
 
+{% embed url="https://docs.google.com/presentation/d/1VdYgTcq0P77UH44QVfEEWExu5bAzhtscxkCfDOkyfMs/edit?usp=sharing" %}
+
+[Test slides](https://docs.google.com/presentation/d/1VdYgTcq0P77UH44QVfEEWExu5bAzhtscxkCfDOkyfMs/edit?usp=sharing)
+
 ### What Spot Does
 
 Spot works in 4 stages, from natural language input to streetview comparison of outputs.&#x20;
@@ -76,7 +80,13 @@ For each feature marked on the output map, Spot offers the user the option to op
 {% endstepper %}
 
 {% hint style="warning" %}
-**USE OF 'AI' TECHNOLOGY IN SPOT IS LIMITED TO STAGE 1 ONLY, I.E. LANGUAGE CONVERSION OF THE SEARCH QUERY.** Spot's use of AI is limited to conversion of the user's natural language search into the formal Overpass Query Language which can be used to query OpenStreetMap. The Overpass query is run by Spot via the [Overpass ](https://wiki.openstreetmap.org/wiki/Overpass_API)API[^5][ ](https://wiki.openstreetmap.org/wiki/Overpass_API) in exactly the same way as all the other OSM interface tools. The quality and speed of the search is not impacted by AI technology in Spot. NB Tests run by these authors on city searches in August 2025 suggest that well over 50% of the time Spot takes to complete a search is used to run the Natual Language to Overpass Query Language conversion.&#x20;
+**USE OF 'AI' TECHNOLOGY IN SPOT IS LIMITED TO STAGE 1 ONLY, I.E. LANGUAGE CONVERSION OF THE SEARCH QUERY.**&#x20;
+
+Spot's use of AI is limited to conversion of the user's natural language search into the formal Overpass Query Language which can be used to query OpenStreetMap. This is done using a [Large Language Model](https://en.wikipedia.org/wiki/Large_language_model) or LLM. The Overpass query is run by Spot via the [Overpass API](https://wiki.openstreetmap.org/wiki/Overpass_API) in exactly the same way as all the other OSM interface tools.&#x20;
+
+The quality and speed of the search is not impacted by the Large Language Model AI technology in Spot.&#x20;
+
+N.B. Tests run by these authors on city searches in August 2025 suggest that well over 50% of the time Spot takes to complete a search is used to run the Natual Language to Overpass Query Language conversion, NOT the Overpass query of OpenStreetMap itself.&#x20;
 {% endhint %}
 
 \[Need Venn diagram or a hierarchy demonstrating tool to show the issues of categorization, e.g. we want all military bases. If the system has categorized police buildings separately, we will need to search for those separately: they will not be returned within a military bases search. If the system has a hierarchy within which police buildings are a subset of military bases, then police buildings will be returned in a military bases search. This is an important point about categorisations. It is a generic issue, not specific to Spot]
@@ -157,7 +167,7 @@ The exact location where the entity is situated can also be opened in the integr
 
 Spot has also integrated Google Street View for location verification.  Clicking on “Open Google Street View” opens a window displaying the location's street-level photography. Use this feature to match entities and features against the photo or video being geolocated.
 
-Users can also switch between map layers that include “[vector map](#user-content-fn-6)[^6]”, “hybrid view” and “OSM Style Map”. The screenshot below shows a location from search results in the hybrid view and the Google Street View tab showing street-level photography of the selected result.
+Users can also switch between map layers that include “[vector map](#user-content-fn-5)[^5]”, “hybrid view” and “OSM Style Map”. The screenshot below shows a location from search results in the hybrid view and the Google Street View tab showing street-level photography of the selected result.
 
 <figure><img src=".gitbook/assets/Spot hybrid view on map.png" alt=""><figcaption></figcaption></figure>
 
@@ -252,6 +262,4 @@ It is possible for users to disable cookiless tracking
 
 [^4]: Street view photographs are taken at ground level (as opposed to satellite view imagery, taken from above), giving a view of what a human would see at a location by looking around.
 
-[^5]: Application Programming Interface, a service which allows
-
-[^6]: Definition here
+[^5]: Definition here
