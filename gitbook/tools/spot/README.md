@@ -55,7 +55,7 @@ In the top left corner, a query can be entered into the search box. This is the 
 
 Just below the search bar is an expandable “Search Parameters” box, where the location, entities, and the relationship between them —specifically, how far apart they are from each other— can be viewed. Entities are features labelled according to OpenStreetMap’s own classification system.&#x20;
 
-Here, you can edit the OSM tags assigned to each feature by clicking the “pencil” icon. OSM tags define features of map[ elements](https://wiki.openstreetmap.org/wiki/Tags) or changesets as [they](https://taginfo.openstreetmap.org/about) “add meaning to geographic objects.” Elements are the “nodes”, “ways” and “relations”
+Here, you can edit the OSM tags assigned to each feature by clicking the “pencil” icon. OSM tags define features of map[ elements](https://wiki.openstreetmap.org/wiki/Tags) which “add meaning to geographic objects.” Elements are the “nodes”, “ways” and “relations”
 
 According to the TagInfo site for OSM tags, “there is no fixed list of those tags. New tags can be invented and used as needed. Everybody can come up with a new tag and add it to new or existing objects.”
 
