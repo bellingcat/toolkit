@@ -107,7 +107,7 @@ Determination of the purpose, nature or further details of an entity seen in an 
 {% endtab %}
 {% endtabs %}
 
-### Exploring/Understanding Results through the Spot’s interface
+### Exploring and understanding results on Spot’s map interface
 
 To understand the results and how to use the Spot's interface, the following search query was used as an example: “Find a building with 10 stories or more within 50m of water and a church in the City of London”.  The tool's interface with possible locations (results) looks like this:
 
