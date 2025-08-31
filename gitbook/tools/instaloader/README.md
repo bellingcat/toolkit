@@ -9,16 +9,18 @@ description: Download pictures or videos (with metadata) from Instagram.
 [https://instaloader.github.io](https://instaloader.github.io)
 
 {% hint style="warning" %}
-Usage may lead to the loss of the Instagram account being used. Please see Limitations and Ethical Considerations before using this tool.&#x20;
+Usage may lead to the loss of the Instagram account being used. Please see Limitations and Ethical Considerations before using this tool.
 {% endhint %}
 
 ## Description
 
-Instaloader is an open-source tool for downloading and archiving content from Instagram. It is available as a command-line tool and a Python module. It allows researchers to retrieve and organize data, including media posts, stories, metadata, etc. Its versatility and ability to work with both public and private profiles (with proper authorization) can make it a valuable resource for open-source investigations.
+Instaloader lets you save Instagram content for documentation and analysis. It can download posts, videos, Stories, Highlights, Reels, and profile pictures. It also exports captions, timestamps, and geotags so you keep context with the media.\
+Investigators typically use it to archive a profile, collect evidence before takedowns, or fetch posts for later review. Logged-in mode provides access to your feed, saved posts, and followed accounts, where permitted.\
+You can run it from the command line or script it in Python. It supports resuming interrupted downloads and only grabs new items to keep an archive up to date.
 
 1. **Media Downloading**:
    * Downloads photos and videos from public and private Instagram profiles, hashtags, Stories, feeds, saved media, **long-form videos (formerly IGTV),** and **Reels** (`--reels` flag).
-   * It captures metadata such as captions, comments, geotags (such as Google Maps links), timestamps, and more.
+   * It captures metadata, including captions, comments, geotags (such as Google Maps links), timestamps, and more.
    * Allows downloading from private profiles if you follow the account or provide valid credentials.
    * Offers optional parameters to limit downloads (e.g., specific sidecar slides, date ranges, post filters).
 2. **Automation and Customization**:
@@ -104,10 +106,10 @@ python setup.py install
 
 **What the three commands do**
 
-1. `git clone …`  downloads the Instaloader source code into a new folder.
-2. `cd instaloader`  moves into that folder.
-3. `python -m pip install .` (or `python setup.py install`)  builds and installs the package from the source you just checked out.\
-   &#xNAN;_&#x54;ip: run this inside a virtual-env so it won’t clash with other Python tools._
+1. `git clone …` downloads the Instaloader source code into a new folder.
+2. `cd instaloader` moves into that folder.
+3. `python -m pip install .` (or `python setup.py install`) builds and installs the package from the source you just checked out.\
+   \&#xNAN;_Tip: run this inside a virtual-env so it won’t clash with other Python tools._
 {% endtab %}
 {% endtabs %}
 
@@ -139,7 +141,7 @@ instaloader --count 100 "#ukraine"
 instaloader --login YOUR_USER --stories --no-posts --quiet user_a user_b user_c
 ```
 
-The `--stories` flag is documented in the [CLI reference.](https://instaloader.github.io/cli-options.html)&#x20;
+The `--stories` flag is documented in the [CLI reference.](https://instaloader.github.io/cli-options.html)
 
 ***
 
@@ -243,7 +245,7 @@ print("Deleted on IG:", deleted)
 print("Not yet downloaded:", new)
 ```
 
-_(The full script is in Instaloader’s_ [_`docs/codesnippets/` folder_](https://instaloader.github.io/codesnippets.html)_.)_&#x20;
+_(The full script is in Instaloader’s_ [_`docs/codesnippets/` folder_](https://instaloader.github.io/codesnippets.html)_.)_
 
 </details>
 
@@ -288,8 +290,6 @@ with open("posts.csv", "w", newline="", encoding="utf-8") as f:
 print(f"Exported {len(rows)} rows to posts.csv")
 
 ```
-
-
 
 </details>
 
@@ -393,7 +393,7 @@ for post in tqdm.tqdm(posts, total=MAX_ITEMS):
 </details>
 
 {% hint style="info" %}
-#### How to integrate these scripts
+**How to integrate these scripts**
 
 * **One-shot analysis:** run directly from your project folder after activating the virtual-env.
 * **Scheduled jobs:** wrap in a shell script and call via cron (`crontab -e`) or Windows Task Scheduler.
@@ -534,7 +534,7 @@ When you're working with the [Bellingcat Auto Archiver](https://bellingcat.gitbo
 * [ ] Partially Free
 * [ ] Paid
 
-Instaloader is a free, open-source project.&#x20;
+Instaloader is a free, open-source project.
 
 ## Level of difficulty
 
@@ -553,8 +553,8 @@ While basic usage (e.g., downloading all posts from a profile) is straightforwar
 * **Python 3.9 or higher** (tested up to 3.13, 3.8 support was dropped in v4.14)
 * Primary dependencies (installed automatically with pip):
   * [`requests`](https://pypi.org/project/requests/) Requests lets you send HTTP/1.1 requests effortlessly, with automatic query-string encoding, JSON support, and more
-  * &#x20;[`lxml`](https://github.com/lxml/lxml) is a feature-rich and easy-to-use library for processing XML and HTML in the Python language, with good performance, and memory efficiency,
-  * &#x20;[`BeautifulSoup4`](https://pypi.org/project/beautifulsoup4/) Python package for parsing HTML/XML (including malformed markup) into a navigable parse tree for data extraction. Provides idiomatic tools for iterating, searching, and modifying the parse tree (optional; only needed for certain features)
+  * [`lxml`](https://github.com/lxml/lxml) is a feature-rich and easy-to-use library for processing XML and HTML in the Python language, with good performance, and memory efficiency,
+  * [`BeautifulSoup4`](https://pypi.org/project/beautifulsoup4/) Python package for parsing HTML/XML (including malformed markup) into a navigable parse tree for data extraction. Provides idiomatic tools for iterating, searching, and modifying the parse tree (optional; only needed for certain features)
 
 ### **Access Requirements**
 
@@ -569,7 +569,7 @@ _**Heavy scripted use can trigger temporary locks or permanent bans.**_
 
 1. **Technical Barriers**:
    * Command-line usage can pose a challenge for non-technical users.
-   * Using the Python module requires basic programming knowledge.&#x20;
+   * Using the Python module requires basic programming knowledge.
 2. **Rate Limits and Restrictions**:
    * Instagram actively attempts to detect and restrict automated scraping. Even moderate usage of Instaloader can lead to security warnings or [temporary locks](https://github.com/instaloader/instaloader/issues/2555) on your account.
    * Instagram imposes strict rate limits that can trigger **429 Too Many Requests** errors if requests exceed certain thresholds.
@@ -597,7 +597,7 @@ If you encounter 429 errors or want to avoid them, consider these practices:
 * **Handle 429 Gracefully:** If you get a 429 error, **stop requests and wait**. Instaloader’s built-in backoff will pause execution; respect it. If you’re writing a custom script and catch a `TooManyRequestsException`, implement a long sleep (e.g., 10–15 minutes or more) before retrying. [Do not aggressively retry failed requests](https://github.com/instaloader/instaloader/issues/834) or you risk extending the ban​.
 * **IP and Account Rotation (Last resort):** In extreme cases, if one IP address is consistently getting blocked, you might try switching to another network/IP or using a proxy with a different IP. This can bypass an IP-based throttle, but use caution: Instagram might detect account sharing or unusual IP changes. If you have multiple Instagram accounts, you could distribute your queries among them (log in with different accounts for different tasks) to stay under per-account limits. Only do this with accounts you control, and **never** use accounts without permission.e.
 
-Ultimately, [**there is no way to completely “bypass” Instagram’s rate limits**](https://stackoverflow.com/questions/65002504/would-it-be-possible-to-use-ip-rotation-to-avoid-the-exception-toomanyrequestsex) – you must work within them​. The key is to slow down and behave more like a normal user. If you hit a limit, patience is the only guaranteed solution (wait until the block lifts). Trying to outsmart Instagram’s anti-scraping measures (with rapid IP rotations, etc.) often only works briefly, if at all, and can risk longer-term bans.
+Ultimately, [**there is no way to completely “bypass” Instagram’s rate limits**](https://instaloader.github.io/troubleshooting.html#too-many-requests) – you must work within them​. The key is to slow down and behave more like a normal user. If you hit a limit, patience is the only guaranteed solution (wait until the block lifts). Trying to outsmart Instagram’s anti-scraping measures (with rapid IP rotations, etc.) often only works briefly, if at all, and can risk longer-term bans.
 
 </details>
 
@@ -620,8 +620,6 @@ The software is developed primarily by Alexander Graf (GitHub: [aandergr](https:
 * [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
-
-
 
 | Page Maintainer |
 | --------------- |
