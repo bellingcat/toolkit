@@ -1,9 +1,9 @@
 ---
+updated: '2025-06-30'
 description: >-
   Tilting global map of 3D buildlings and the shadows they cast at a specific
   time of the day, but date fixed at "today" in free version. Paid versions
   allow date change and offer 3D models.
-updated: '2025-06-30'
 ---
 
 # ShadowMap
@@ -271,5 +271,5 @@ Founder (2021) and CEO Georg Molzer.
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling.   |
+| Sophie Tedling:   |
 |                   |
