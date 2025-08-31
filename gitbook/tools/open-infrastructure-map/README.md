@@ -79,7 +79,7 @@ An internet connection and browser.
 
 ## Limitations
 
-Open Infrastructure Map may be incomplete or contain outdated information <mark style="color:$warning;">because OpenStreetMap relies on crowdsourced data, which is never 100% accurate (see if can find link to articles that explain this OSM issue).</mark>
+Open Infrastructure Map may be incomplete or contain outdated information <mark style="color:$warning;">because OpenStreetMap relies on crowdsourced data, which is</mark> [<mark style="color:$warning;">never 100% accurate</mark>](https://www.nature.com/articles/s41467-023-39698-6)<mark style="color:$warning;">.</mark>
 
 The infrastructure paths on the map may be schematic, i.e. they may omit information such as the exact path of the infrastructure — for example, a data cable — in favour of clearly displaying where the cable starts and finishes. (London's 'Tube' maps are a good example of schematic maps.)
 
