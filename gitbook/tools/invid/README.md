@@ -1,6 +1,6 @@
 ---
-description: A toolkit that supports the verification of videos and images.
 updated: '2025-07-01'
+description: A toolkit that supports the verification of videos and images.
 ---
 
 # InVID Verification Plugin
@@ -9,7 +9,7 @@ updated: '2025-07-01'
 
 [https://weverify.eu/verification-plugin/](https://weverify.eu/verification-plugin/)
 
-(v. 0.86 - June 2025; last checked: July 1st 2025)
+(v. 0.87 - July 2025; last checked: August 31 st 2025)
 
 ### Description
 
@@ -129,7 +129,7 @@ Uses a machine learning classifier to determine the probability that a video con
 
 In a nutshell, **Magnifier** is the “digital loupe” inside the InVID-WeVerify plug-in: you load any still image (URL or local file) and the module lets you zoom, sharpen and flip it at pixel level, then push the same frame to reverse-image search or the forensic filters.
 
-* **Deep zoom & live lens** – Hover anywhere on the picture and a resizable loupe shows the native pixels at up to ×20, perfect for reading licence plates, shoulder patches or tiny timestamps.&#x20;
+* **Deep zoom & live lens** – Hover anywhere on the picture and a resizable loupe shows the native pixels at up to ×20, perfect for reading licence plates, shoulder patches or tiny timestamps.
 * **Enhancement tools** – One-click buttons apply bicubic up-scaling, edge-sharpen, mirror-flip or 90° rotation so faint characters or mirrored selfies become legible.
 
 {% tabs %}
@@ -238,7 +238,7 @@ This plugin will not be able to solve the question of the correct pronunciation 
 {% endtab %}
 {% endtabs %}
 
-#### **Deepfake (Restricted Feature)**&#x20;
+#### **Deepfake (Restricted Feature)**
 
 The **Deepfake tab** in the InVID-WeVerify verification plug-in is an experimental video-forensics tool built by **ITI CERTH** under the EU-funded **vera.ai** project. You paste a video URL (or upload a local clip) and the service breaks the file into frames, detects every visible face, and runs an [**ensemble of five CNN-based detectors**](https://ar5iv.labs.arxiv.org/html/2204.12816) (Xception, EfficientNet-B4, Capsule-Forensics ++ & two proprietary lightweight models). The ensemble outputs a **0–1 probability score** that the footage contains AI-manipulated faces (face-swap / reenactment). Results are colour-coded (green < 0.30, amber 0.30-0.60, red > 0.60) and accompanied by per-frame thumbnails so you can jump straight to suspicious segments. All processing happens on CERTH’s servers; only hash-anonymised frames are stored for 30 days to improve the model.
 
@@ -256,9 +256,9 @@ The **Deepfake tab** in the InVID-WeVerify verification plug-in is an experiment
 {% endtab %}
 {% endtabs %}
 
-#### **Geolocalizer (Locked Feature)**&#x20;
+#### **Geolocalizer (Locked Feature)**
 
-The _Geolocalizer_ (locked / beta) lets you upload or paste any still-image link; the plug-in then calls an experimental CERTH service that estimates **where on Earth the picture was taken**. It does this entirely by visual analysis—no EXIF GPS is required. You get a latitude/longitude guess, a rough confidence band, and a set of visually similar reference pictures you can open in a map viewer for manual comparison. Accuracy is usually “city-level” (±25 km) for landmarks and distinctive skylines, but drops on rural or indoor scenes. The module is being developed under the EU **vera.ai** programme and is still labelled _experimental_, so double-check every hit with classic open-source techniques.&#x20;
+The _Geolocalizer_ (locked / beta) lets you upload or paste any still-image link; the plug-in then calls an experimental CERTH service that estimates **where on Earth the picture was taken**. It does this entirely by visual analysis—no EXIF GPS is required. You get a latitude/longitude guess, a rough confidence band, and a set of visually similar reference pictures you can open in a map viewer for manual comparison. Accuracy is usually “city-level” (±25 km) for landmarks and distinctive skylines, but drops on rural or indoor scenes. The module is being developed under the EU **vera.ai** programme and is still labelled _experimental_, so double-check every hit with classic open-source techniques.
 
 All[ heavy lifting happens on ITI CERTH servers](https://tech.ebu.ch/events/2025/veraai-training-workshop-series); the plug-in strips EXIF and hashes the file name before upload. Hash-anonymised embeddings are kept for 30 days to retrain the model, then purged.
 
@@ -274,7 +274,7 @@ All[ heavy lifting happens on ITI CERTH servers](https://tech.ebu.ch/events/2025
 {% endtab %}
 {% endtabs %}
 
-**Provenance (C2PA)**&#x20;
+**Provenance (C2PA)**
 
 It reads an image or video's [C2pa ](https://c2pa.org/)data. **C2PA** stands for the _Coalition for Content Provenance and Authenticity_, an open standard backed by Adobe, Microsoft, Google, the BBC and others. It embeds a tamper-evident “manifest” (hashed, then signed) in JPEG, PNG, MP4, WebP and AVIF files. If someone alters pixels or edits the manifest, the signature breaks.
 
@@ -294,8 +294,7 @@ The plug-in parses the manifest with the same open-source library used by Adobe�
 
 #### Hiya Voice-Clone Detector _(Locked Feature)_
 
-Uses Hiya.ai’s classifier to spot AI text-to-speech or cloned voices in WAV/MP3 uploads, flagging likely synthetic segments. Requires registration; processing happens server-side, and no audio is stored after analysis (see privacy notice in the plug-in).\
-
+Uses Hiya.ai’s classifier to spot AI text-to-speech or cloned voices in WAV/MP3 uploads, flagging likely synthetic segments. Requires registration; processing happens server-side, and no audio is stored after analysis (see privacy notice in the plug-in).\\
 
 {% tabs %}
 {% tab title="Hiya " %}
@@ -307,7 +306,7 @@ Uses Hiya.ai’s classifier to spot AI text-to-speech or cloned voices in WAV/MP
 {% endtab %}
 
 {% tab title="Results (elevenlabs)" %}
-<figure><img src=".gitbook/assets/image (39).png" alt=""><figcaption><p>A deepfake crated by text-to-speech and voice clone provider <a href="https://elevenlabs.io/voice-library">elevenlabs </a>was detected reliably. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (39).png" alt=""><figcaption><p>A deepfake crated by text-to-speech and voice clone provider <a href="https://elevenlabs.io/voice-library">elevenlabs </a>was detected reliably.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results (google AudioLM)" %}
@@ -337,7 +336,7 @@ Paste a sentence, paragraph or whole social-media post and the tool looks for **
 
 {% tabs %}
 {% tab title="Fact Check Semantic Search" %}
-<figure><img src=".gitbook/assets/image (41).png" alt=""><figcaption><p>Input box – drop in one or more sentences; longer context usually returns stronger matches. <br>Show Advanced Settings lets you filter by language, publisher or publication date; raise/lower the similarity threshold; switch between “exact-match keywords” and “full semantic” modes (the latter is default). Results open in a new tab with the claim, verdict, publisher, date and a direct link to the full article for manual review.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (41).png" alt=""><figcaption><p>Input box – drop in one or more sentences; longer context usually returns stronger matches.<br>Show Advanced Settings lets you filter by language, publisher or publication date; raise/lower the similarity threshold; switch between “exact-match keywords” and “full semantic” modes (the latter is default). Results open in a new tab with the claim, verdict, publisher, date and a direct link to the full article for manual review.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Query" %}
@@ -401,7 +400,7 @@ CrowdTangle is permanently gone. We hope that this feature will not disappear bu
 
 #### WACZ Export _(Locked Feature)_
 
-Packages selected URLs, keyframes, or images into a forensically sound **WACZ** bundle for long-term preservation and evidence sharing. Accessible to registered fact-checkers under the IFCN DisinfoArchiving project (2024-25). The feature description appears in the [extension overview](https://chromewebstore.google.com/detail/fake-news-debunker-by-inv/mhccpoafgdgbhnjfhkcmgknndkeenfhe?hl=en), but didn't appear to work at the time of testing.&#x20;
+Packages selected URLs, keyframes, or images into a forensically sound **WACZ** bundle for long-term preservation and evidence sharing. Accessible to registered fact-checkers under the IFCN DisinfoArchiving project (2024-25). The feature description appears in the [extension overview](https://chromewebstore.google.com/detail/fake-news-debunker-by-inv/mhccpoafgdgbhnjfhkcmgknndkeenfhe?hl=en), but didn't appear to work at the time of testing.
 
 ## Cost
 
