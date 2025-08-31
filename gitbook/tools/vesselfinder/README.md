@@ -100,7 +100,7 @@ The overview of all plans is [here.](https://www.vesselfinder.com/get-premium)
 
 ## Requirements
 
-Does not require an account to browse, but creating a free one will unlock some additional features such as creating a fleet.  .
+Does not require an account to browse, but creating a free one will unlock some additional features such as creating a fleet. .
 
 ## Limitations
 
@@ -136,6 +136,6 @@ Some of the vessels are government-owned and a small part of those are intended 
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer:-           |
-| --------------------------- |
-| LPetrova and Sophie Tedling |
+| Page maintainer:-            |
+| ---------------------------- |
+| LPetrova and Sophie Tedling: |
