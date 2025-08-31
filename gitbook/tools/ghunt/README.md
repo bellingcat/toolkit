@@ -38,9 +38,11 @@ Once authenticated, you have the following search options:
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
+
+The CLI is free and open‑source, and note that OSINT Industries offers a [paid online version](https://www.osint.industries/pricing) with plans starting at £19/month for 30 searches (Basic plan), £49/month for 100 searches (Intermediate), £99/month for 300 searches (Advanced) and enterprise plans from £1 000/month
 
 ## Level of difficulty
 
