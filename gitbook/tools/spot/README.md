@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-Spot provides an interface for searching OpenStreetMap[^1] using everyday language (multiple languages are supported in addition to English).
+Spot provides an interface for searching OpenStreetMap[^1] using everyday language as input (multiple languages are supported in addition to English).
 
 <details>
 
@@ -80,13 +80,11 @@ For each feature marked on the output map, Spot offers the user the option to op
 ***
 
 {% hint style="warning" %}
-**USE OF 'AI' TECHNOLOGY IN SPOT IS LIMITED TO STAGE 1 ONLY, I.E. LANGUAGE CONVERSION OF THE SEARCH QUERY.**&#x20;
+**USE OF 'AI' TECHNOLOGY IN SPOT IS LIMITED TO CONVERTING THE LANGUAGE OF THE SEARCH QUERY, I.E. STAGE 1 ONLY**
 
-Spot's use of AI is limited to conversion of the user's natural language search into the formal Overpass Query Language which can be used to query OpenStreetMap. This is done using a [Large Language Model](https://en.wikipedia.org/wiki/Large_language_model) or LLM. The Overpass query is run by Spot via the [Overpass API](https://wiki.openstreetmap.org/wiki/Overpass_API) in exactly the same way as all the other OSM interface tools.&#x20;
-
-The quality and speed of the search is not impacted by the Large Language Model AI technology in Spot.&#x20;
-
-N.B. Tests run by these authors on city searches in August 2025 suggest that well over 50% of the time Spot takes to complete a search is used to run the Natual Language to Overpass Query Language conversion, NOT the Overpass query of OpenStreetMap itself.&#x20;
+* **Limited AI Used:** Spot's use of AI is limited to conversion of the user's natural language search into the formal Overpass Query Language which can be used to query OpenStreetMap. This conversion is done using a [Large Language Model](https://en.wikipedia.org/wiki/Large_language_model) or LLM. The Overpass query is run by Spot via the [Overpass API](https://wiki.openstreetmap.org/wiki/Overpass_API) in exactly the same way as all the other OSM interface tools.&#x20;
+* **Search Is Not Using AI:** The quality and speed of the search is not impacted by the Large Language Model AI technology in Spot.&#x20;
+* **AI Uses Most of the Search Time:** N.B. Tests run by these authors on city searches in August 2025 suggest that well over 50% of the time Spot takes to complete a search is used to run the Natual Language to Overpass Query Language conversion, NOT the Overpass query of OpenStreetMap itself.&#x20;
 {% endhint %}
 
 ## The Interface
@@ -131,17 +129,16 @@ Natural language description of a location to be found - includes entities at th
 
 OR
 
-Overpass Turbo query search parameters - references entities with the appropriate OSM tags, describes their relative proximity with distances and provides the geographic search area. (Search parameters)
+Overpass Turbo query search parameters - references entities with the appropriate OSM tags, describes their relative proximity with distances and provides the geographic search area.&#x20;
 {% endtab %}
 
 {% tab title="SPOT OUTPUT DATA" %}
-Location map marking all features in candidate solutions which satisfy the search criteria, but not marking those groups individually or providing an approximate location for viewpoints which could include them all.
+Location map marking all features in candidate solutions which satisfy the search criteria, but not marking those groups individually, giving the number of candidate solutions for the search, or providing an approximate location for viewpoints which could include them all.
 {% endtab %}
 
 {% tab title="USE CASES" %}
-Geolocation of photograph/video imagery
-
-Determination of the purpose, nature or further details of an entity seen in an image at a known location, e.g. the tall building is a place of worship.
+* Geolocation of photograph/video imagery
+* Determination of the purpose, nature or further details of an entity seen in an image at a known location, e.g. the tall building is a place of worship.
 {% endtab %}
 
 {% tab title="DATA INPUT OPTIONS" %}
@@ -153,7 +150,7 @@ Use the search parameters box to adjust existing search features and their relat
 {% endtab %}
 {% endtabs %}
 
-### Spot’s result map&#x20;
+### Spot’s Output Result Map&#x20;
 
 To understand the results and how to use the Spot's interface, the following search query was used as an example: “Find a building with 10 stories or more within 50m of water and a church in the City of London”.  The tool's interface with possible locations (results) looks like this:
 
