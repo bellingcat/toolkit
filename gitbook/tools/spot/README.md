@@ -265,10 +265,10 @@ The tool was developed by [DW Innovation](https://innovation.dw.com/en/articles)
 
 It is possible for users to disable cookiless tracking
 
-| Page maintainer                                                        |
-| ---------------------------------------------------------------------- |
-| Anisa Shabir, 7:26 pm PKT, August 31. Sophie Tedling 20:22 GMT 31/8/25 |
-|                                                                        |
+| Page maintainer                             |
+| ------------------------------------------- |
+| Anisa Shabir and Sophie Tedling GMT 31/8/25 |
+|                                             |
 
 [^1]: [Open Street Map](https://www.openstreetmap.org/) is a free, open map database of the world, which is updated and maintained by a community of volunteers via collaborative working. 
 
