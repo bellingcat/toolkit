@@ -9,7 +9,7 @@ description: >-
 ## URL
 
 [https://distill.io/](https://distill.io/)\
-(last revised Aug 5th, 2025)
+(last revised Aug 31., 2025)
 
 ## Description
 
@@ -19,11 +19,11 @@ Distill.io is a website‑change monitoring tool that tracks **web pages, PDFs, 
 
 For Open Source Researchers, Distill.io can be an invaluable tool for:
 
-* **Monitoring Target Websites:** Keep track of updates on websites related to investigations, such as changes in content, new postings, or removals.
-* **Tracking Social Media Profiles:** Monitor public social media pages or profiles for updates without the need to log into the platform.
-* **Alerting on Keyword Changes:** Set up alerts for specific keywords or phrases appearing or disappearing from web pages, which can signal significant events.
+* **Monitoring Target Websites:** Keep track of updates on websites related to investigations, including changes in content, new postings, and removals.
+* **Tracking Social Media Profiles:** Monitor public social media pages or profiles for updates without needing to log in to the platform.
+* **Alerting on Keyword Changes:** Set up alerts for specific keywords or phrases that appear or disappear from web pages, which can signal significant events.
 * **Watching Dynamic Content:** Use advanced selection tools to monitor content that changes dynamically, such as JavaScript-rendered pages.
-* **Archiving Web Page Changes:** Maintain a history of changes to a web page, which can be useful for documenting the evolution of information over time.
+* **Archiving Web Page Changes:** Maintaining a history of changes to a web page is useful for documenting the evolution of information over time.
 * **Monitoring Hidden Elements:** Detect changes in hidden HTML elements or metadata that might not be immediately visible on the page.
 
 #### **Key Features Beneficial for Open Source Researchers**
@@ -39,7 +39,7 @@ For Open Source Researchers, Distill.io can be an invaluable tool for:
   * Ability to extract and export data from monitored pages.
   * Supports formats like CSV or JSON for integration with other analysis tools.
 * **Change Highlighting:**
-  * Visual representation of what has changed on the page.
+  * Visual representation of the changes made to the page.
   * Simplifies the process of identifying significant alterations.
 * **Scheduling and Frequency:**
   * Customizable check intervals, with paid plans offering more frequent monitoring.
@@ -74,7 +74,7 @@ After you click save, your monitor will be active.
 
 ## **Additional Tips for OSINT Researchers**
 
-* **Combine with Other Tools:**
+* **is critical because uptime is crucialCombine with Other Tools:**
   * You can use Distill.io with other open-source research tools to integrate data from Distill.io with databases or visualization tools.
 * **Use Cloud Monitors for Reliability:**
   * One option is to run monitors on Distill.io's servers, ensuring continuous monitoring even when your device is offline. For monitoring tasks where information can change quickly, this can be critical because uptime is constant.
