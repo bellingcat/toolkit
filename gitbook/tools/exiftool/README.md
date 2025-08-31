@@ -1,8 +1,8 @@
 ---
+updated: '2025-07-01'
 description: >-
   ExifTool is a command-line application for reading, writing, and editing meta
   information in files.
-updated: '2025-07-01'
 ---
 
 # ExifTool
@@ -11,15 +11,15 @@ updated: '2025-07-01'
 
 [https://exiftool.org/](https://exiftool.org/)
 
-(current version: **13.31 – 19 June 2025**)
+(current version: **13.34 – August 2025**)
 
 ## Description
 
-ExifTool is a platform-independent library and command-line application designed for reading, writing, and editing meta information in a wide range of file formats. It supports well-known metadata standards like EXIF and GPS, as well as lesser-known formats such as IPTC, XMP, and JFIF. For example, IPTC (International Press Telecommunications Council) metadata is commonly used in news and photojournalism workflows, XMP (Extensible Metadata Platform) is an Adobe-designed standard that enables structured, extensible metadata within files, and JFIF (JPEG File Interchange Format) is a standardized method for including metadata in JPEG images. With the ability to process images, audio, and video files, ExifTool is a versatile solution for photographers, archivists, and digital forensics professionals. It can extract detailed information, batch process entire collections, rename files based on embedded metadata, and even use hidden GPS coordinates to locate where images were made.&#x20;
+ExifTool is a platform-independent library and command-line application designed for reading, writing, and editing meta information in a wide range of file formats. It supports well-known metadata standards like EXIF and GPS, as well as lesser-known formats such as IPTC, XMP, and JFIF. For example, IPTC (International Press Telecommunications Council) metadata is commonly used in news and photojournalism workflows, XMP (Extensible Metadata Platform) is an Adobe-designed standard that enables structured, extensible metadata within files, and JFIF (JPEG File Interchange Format) is a standardized method for including metadata in JPEG images. With the ability to process images, audio, and video files, ExifTool is a versatile solution for photographers, archivists, and digital forensics professionals. It can extract detailed information, batch process entire collections, rename files based on embedded metadata, and even use hidden GPS coordinates to locate where images were made.
 
 ## Using ExifTool for Open Source Research: Code Examples and Applications
 
-ExifTool can be a helpful utility for open-source researchers. It allows for the extraction and analysis of metadata from various file types, which can reveal hidden information about digital media.&#x20;
+ExifTool can be a helpful utility for open-source researchers. It allows for the extraction and analysis of metadata from various file types, which can reveal hidden information about digital media.
 
 {% hint style="warning" %}
 Remember that all metadata can be manipulated and should never be taken at face value. Always verify metadata through independent sources or methods before drawing conclusions.
@@ -43,7 +43,7 @@ This command displays all metadata from `image.jpg`. This can help identify the 
 exiftool -gpslatitude -gpslongitude suspect_image.jpg
 ```
 
-This command extracts GPS latitude and longitude data from `suspect_image.jpg`.  After obtaining the GPS coordinates, you can input them into mapping services like Google Earth to visualize the location.
+This command extracts GPS latitude and longitude data from `suspect_image.jpg`. After obtaining the GPS coordinates, you can input them into mapping services like Google Earth to visualize the location.
 
 ***
 
@@ -63,7 +63,7 @@ This command retrieves all date and time metadata tags from the image, such as `
 exiftool -T -FileName -CreateDate -Model *.jpg > metadata_report.txt
 ```
 
-This command generates a tab-delimited report (`metadata_report.txt`) for all `.jpg` files in the directory, listing filenames, creation dates, and camera models.&#x20;
+This command generates a tab-delimited report (`metadata_report.txt`) for all `.jpg` files in the directory, listing filenames, creation dates, and camera models.
 
 ***
 
@@ -244,17 +244,15 @@ This command checks for any warnings or errors in the metadata structure of `sus
 * [ ] Partially Free
 * [ ] Paid
 
-
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
 ## Requirements
 
-Requires Perl 5.004 or later for the Perl version.&#x20;
+Requires Perl 5.004 or later for the Perl version.
 
-The Windows executable version does not require Perl.&#x20;
+The Windows executable version does not require Perl.
 
 The MacOS package installs the ExifTool command-line application and libraries.
 
@@ -319,4 +317,3 @@ Phil Harvey (will respond to inquiries in the [https://exiftool.org/forum/](http
 | --------------- |
 | Martin Sona     |
 |                 |
-
