@@ -1,5 +1,5 @@
 ---
-updated: '2025-07-03'
+updated: '2025-08-30'
 description: >-
   Open-source international database of sanctions data, persons of interest and
   politically exposed persons.
