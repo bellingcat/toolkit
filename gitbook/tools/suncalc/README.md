@@ -1,16 +1,16 @@
 ---
+updated: '2025-06-30'
 description: >-
   Suncalc models the relationship between the date, time of day, the geographic
   location of a place, and the position of the sun in the sky, together with the
   length & direction of the shadows it casts.
-updated: '2025-06-30'
 ---
 
 # SunCalc
 
 ## URL
 
-https://www.suncalc.org
+[https://www.suncalc.org](https://www.suncalc.org/)
 
 ## Description
 
@@ -238,5 +238,5 @@ Torsten Hoffmann, Germany
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling.   |
+| Sophie Tedling:   |
 |                   |
