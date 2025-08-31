@@ -9,15 +9,16 @@ description: >-
 ## URL
 
 [https://acleddata.com/](https://acleddata.com/)\
-(as of July 2nd, 2025)
+(as of August 31st, 2025)
 
 {% hint style="info" %}
-**Heads-up:** ACLED’s full website relaunch (public beta announced July 2025) promises faster front-end performance and a unified login. Links should stay stable, but double-check any automated parsers.
+**Heads-up:** ACLED’s full website relaunch (public beta announced July 2025) promises faster front-end performance and a unified login. Links should stay stable, but double-check any automated parsers.\
+Update (August 2025): Since the relaunch, most tools, including the Data Export Tool, Explorer, Trendfinder, CAST, the Conflict Exposure Calculator and the Conflict Index, require a **myACLED account**.
 {% endhint %}
 
 ## Description
 
-ACLED provides detailed, up-to-date information on political violence and protest events worldwide. The toolset includes the [ACLED Explorer](https://acleddata.com/explorer/), [Trendfinder](https://acleddata.com/trendfinder/), [Conflict Alert System (CAST)](https://acleddata.com/conflict-alert-system/), and a [Conflict Exposure Calculator](https://acleddata.com/conflict-exposure/), allowing users to track, analyze, and forecast conflict dynamics. Users can download datasets and utilize interactive dashboards for in-depth analysis of trends, country-specific profiles, and more. Covering **all countries and territories (≈240)**, ACLED’s data supports research, humanitarian, and policy applications by enabling users to observe conflict patterns, identify trends, and assess regional stability risks.
+ACLED provides detailed, up-to-date information on political violence and protest events worldwide. The toolset includes the [ACLED Explorer](https://acleddata.com/explorer/), [Trendfinder](https://acleddata.com/platform/trendfinder), [Conflict Alert System (CAST)](https://acleddata.com/platform/cast-conflict-alert-system), and a [Conflict Exposure Calculator](https://acleddata.com/platform/conflict-exposure-calculator), allowing users to track, analyze, and forecast conflict dynamics. Users can download datasets and utilize interactive dashboards for in-depth analysis of trends, country-specific profiles, and more. Covering **all countries and territories (≈240)**, ACLED’s data supports research, humanitarian, and policy applications by enabling users to observe conflict patterns, identify trends, and assess regional stability risks.
 
 * **Timely Data:** A detailed dataset on the dates, locations, actors, and fatalities of political violence and protests, updated weekly.
 * [**Analysis reports**](https://acleddata.com/analysis/): Written reports by ACLED analysts and researchers based of ACLED data.
@@ -167,7 +168,7 @@ CAST monthly forecasts are concise digests produced by ACLED’s Conflict Alert 
 
 #### _**Conflict Exposure Calculator**_
 
-Shows the number of people exposed to conflict in the selected area and time period.
+[Shows the number of people](https://acleddata.com/platform/conflict-exposure-calculator) exposed to conflict in the selected area and time period.
 
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -198,13 +199,17 @@ Example below: May 2024.
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
+
+The free _myACLED_ tier provides access to dashboards and aggregated data, while higher tiers (Research, Partner, Enterprise) may involve a fee and give disaggregated or real‑time event data.
 
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
+
+Medium – interactive dashboards and API require some technical skill.
 
 ## Requirements
 
@@ -218,12 +223,12 @@ _Details of registration are available here:_ [_https://developer.acleddata.com/
 
 The ACLED dataset and tools come with several limitations that researchers should be aware of before deciding to utilize them in their projects:
 
-* **Geographical Coverage**: While ACLED covers over 50 countries around the world, there may be gaps in coverage, especially in regions with less accessible information or ongoing conflicts.
+* **Geographical Coverage**: While ACLED covers all countries around the world, there may be gaps in coverage, especially in regions with less accessible information or ongoing conflicts.
 * **Data Updates**: Though ACLED regularly updates its dataset, there can be a lag in reporting of certain events due to the time it takes to verify information. This might affect research that requires the most current data.
 * **Resolution and Granularity**: The level of detail and granularity of data can vary by location and event, potentially impacting analyses that require uniform detail across datasets.
 * **Access Restrictions**: Some detailed data or analysis tools may only be available to users with specific access levels, which could limit the scope of research for those with basic access.
 * **Dependence on Open Sources**: The quality and reliability of ACLED data is dependent on the availability and veracity of open sources. In regions where media is restricted or unreliable, this could impact the accuracy of the dataset.
-* _**Conflict Alert System (CAST):**_ As a future forecasting system, it comes with caveats regarding accuracy. To understand more, see the methodology [here](https://acleddata.com/acleddatanew/wp-content/uploads/dlm_uploads/2023/07/ACLED-CAST-Methodology-%E2%80%93-July-2023.pdf).
+* _**Conflict Alert System (CAST):**_ As a future forecasting system, it comes with caveats regarding accuracy. To understand more, see the methodology [here](https://acleddata.com/acleddatanew/wp-content/uploads/dlm_uploads/2023/07/ACLED-CAST-Methodology-%E2%80%93-July-2023.pdf). CAST forecasts are indicative and should not be treated as certainties.
 
 Researchers should consider these limitations in conjunction with their research goals and methodologies to determine if ACLED's tools and datasets suit their needs.
 
@@ -233,7 +238,7 @@ When using ACLED's tools and datasets, researchers must navigate several ethical
 
 * **Data Misinterpretation**: There is a risk that data could be misinterpreted or taken out of context, potentially leading to harmful conclusions or actions. Researchers must strive for accuracy and clarity in their analyses.
 * **Bias and Representation**: It's essential to acknowledge any biases in the data collection and reporting processes and understand how these may affect the representation of certain groups or incidents.
-* **Ethical Use and Attribution**: Users of ACLED data should commit to using the data ethically, including proper attribution and acknowledgment of ACLED as the data source, and should not use the data for purposes that could incite violence or conflict.
+* **Ethical Use and Attribution**: Users of ACLED data should commit to using the data ethically, including proper attribution and acknowledgment of ACLED as the data source, and should not use the data for purposes that could incite violence or conflict. Users must follow ACLED’s End User License Agreement, content‑usage terms and attribution policy when re‑using the data.
 
 Researchers and users of ACLED data are encouraged to engage with these ethical considerations thoughtfully, ensuring their work contributes positively to global understanding and resolution of international conflicts.
 
@@ -270,11 +275,12 @@ ACLED offers a [Quick Guide to ACLED Data](https://acleddata.com/resources/quick
 
 **Community and Support**
 
-* [https://acleddata.com/knowledge-base/](https://acleddata.com/knowledge-base/)
+* [https://acleddata.com/knowledge-base/](https://acleddata.com/conflict-data/knowledge-base)
+* [https://acleddata.com/platform/trendfinder](https://acleddata.com/platform/trendfinder)
 
 ## Tool provider
 
-The Armed Conflict Location & Event Data Project (ACLED) [https://acleddata.com/](https://acleddata.com/) - United States&#x20;
+The Armed Conflict Location & Event Data Project (ACLED) [https://acleddata.com/](https://acleddata.com/) - ACLED is an independent non‑profit organisation incorporated in Wisconsin, United States&#x20;
 
 ACLED was created by [Clionadh Raleigh](https://acleddata.com/prof-clionadh-raleigh/), a Professor of Political Violence and Geography at the University of Sussex, in 2005 as a component of her PhD work. Since 2014, ACLED has operated as a non-profit, non-governmental organization incorporated in Wisconsin. ACLED operates as an independent, impartial, international non-profit organization that collects data on violent conflict and protests globally. It is a registered non-profit with 501(c)(3) status in the United States
 
