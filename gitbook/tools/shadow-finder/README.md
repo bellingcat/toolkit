@@ -1,33 +1,31 @@
 ---
+updated: '2025-06-30'
 description: >-
   To analyse shadows in source imagery, Shadow Finder maps all points on the
   earth where a shadow of given length could occur at a given date & time, IF
   the height of the object casting it is known.
-updated: '2025-06-30'
 ---
 
 # Shadow Finder
 
 ## URL
 
-[https://colab.research.google.com/github/Bellingcat/ShadowFinder/blob/main/ShadowFinderColab.ipynb](https://colab.research.google.com/github/Bellingcat/ShadowFinder/blob/main/ShadowFinderColab.ipynb)
+{% embed url="https://colab.research.google.com/github/Bellingcat/ShadowFinder/blob/main/ShadowFinderColab.ipynb" %}
+
+[https://github.com/bellingcat/ShadowFinder](https://github.com/bellingcat/ShadowFinder)
 
 ## Description
 
-{% hint style="warning" %}
-Temporary Workaround in Place: Work is underway to update one of this open source tool's dependencies in the GitHub repository where it is stored. A quick workaround is described there to ensure that the tool works fine in the interim. Shadow Finder is available and working during this period.
-{% endhint %}
-
-<figure><img src=".gitbook/assets/Screenshot (1).JPG" alt=""><figcaption><p><strong>THE SHADOW &#x26; OBJECT MEASURED CAN ONLY LIE SOMEWHERE ON THE BRIGHT CIRCLE .</strong> </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot (1).JPG" alt=""><figcaption><p><strong>THE SHADOW &#x26; OBJECT MEASURED CAN ONLY LIE SOMEWHERE ON THE BRIGHT CIRCLE .</strong></p></figcaption></figure>
 
 Enter shadow length and object height, (or, instead, [the angle of elevation of the sun](#user-content-fn-1)[^1]) for a research source image, then also the date and time of the image, and see the potential locations at which such a shadow could be created for that point in time as the bright area (circle) on the world map.
 
-* The bright yellow area of the circle marks all the locations which perfectly match your input information.&#x20;
+* The bright yellow area of the circle marks all the locations which perfectly match your input information.
 * The purple areas of the circle mark locations within a 20% error band (included because your input information may not be perfectly measured).
 * The grey area shows the parts of the world in daylight.
 * The white area shows where the sun is below the horizon.
 
-[Accuracy of your input measurements](./#data-input-options) affects the size of the matching output area. A small output area is usually desirable for a researcher, since it reduces the search space of a geolocation.&#x20;
+[Accuracy of your input measurements](./#data-input-options) affects the size of the matching output area. A small output area is usually desirable for a researcher, since it reduces the search space of a geolocation.
 
 Note that the tool can be used to consider a range of inputs if the exact values are not known, since the outputs vary relatively smoothly with changes in input values.
 
@@ -53,21 +51,19 @@ Shadow Finder needs the date and time of the source image containing the shadow 
 
 ![](<.gitbook/assets/image (1).png>)
 
-5. Scroll down to enter your shadow measurement details into the app. Input EITHER&#x20;
+5. Scroll down to enter your shadow measurement details into the app. Input EITHER
 
-a. both object height and shadow length (using the same units, whether thats mm, cm, m, feet, inches. Pixels in an image may be the easiest units - it doesn't matter because Shadow Finder just needs the ratio of object height divided by shadow length)&#x20;
+a. both object height and shadow length (using the same units, whether thats mm, cm, m, feet, inches. Pixels in an image may be the easiest units - it doesn't matter because Shadow Finder just needs the ratio of object height divided by shadow length)
 
-OR&#x20;
+OR
 
-&#x20;b.  the elevation angle of the sun in degrees
+b. the elevation angle of the sun in degrees
 
 <img src=".gitbook/assets/shadowdetails.JPG" alt="" data-size="original">
 
 **Definition:** The elevation angle of the sun is the inverse tangent of the ratio of the height of an object for which the sun casts a shadow to the length of that shadow. Shadow Finder needs that angle in degrees (not radians, be careful with units here).
 
 <img src=".gitbook/assets/SUNCALCTRAILSscjpg.jpg" alt="" data-size="original">
-
-
 
 6. and then enter the date[^3], time[^4] (and [time zone](https://en.wikipedia.org/wiki/Time_zone) you are using):
 
@@ -122,11 +118,11 @@ There are multiple alternative routes to running the Shadow Finder code in addit
 * Time
 * EITHER
 
-&#x20;          Object and Shadow lengths
+Object and Shadow lengths
 
-&#x20;      OR
+OR
 
-&#x20;         Angle of sun elevation
+Angle of sun elevation
 {% endtab %}
 
 {% tab title="Shadow Finder Output Data" %}
@@ -146,7 +142,7 @@ Data can only be input as numeric values into the text input boxes in Shadow Fin
 
 Comparison of Outputs for the same time and date with different types of input Data. The input area on the right (for input as lengths) yields a narrower output area than the one on the left (for input as an angle). So for the same measurement error, two lengths give a more accurate output than one angle.
 
-<table><thead><tr><th width="300">INPUT DATA GIVEN AS AN ANGLE </th><th>INPUT DATA GIVEN AS TWO LENGTHS</th></tr></thead><tbody><tr><td>i.e. The elevation angle of the sun in degrees.</td><td>i.e. the height of the observed object and the length of the shadow it casts</td></tr><tr><td><img src=".gitbook/assets/aNGLE INPUT comparison.jpg" alt="" data-size="original"></td><td><img src=".gitbook/assets/LENGTHS INPUT comparison.jpg" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th width="300">INPUT DATA GIVEN AS AN ANGLE</th><th>INPUT DATA GIVEN AS TWO LENGTHS</th></tr></thead><tbody><tr><td>i.e. The elevation angle of the sun in degrees.</td><td>i.e. the height of the observed object and the length of the shadow it casts</td></tr><tr><td><img src=".gitbook/assets/aNGLE INPUT comparison.jpg" alt="" data-size="original"></td><td><img src=".gitbook/assets/LENGTHS INPUT comparison.jpg" alt="" data-size="original"></td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
@@ -154,7 +150,7 @@ The output map appears at the bottom of the page when Shadow Finder code has bee
 
 <figure><img src=".gitbook/assets/Screenshot.JPG" alt=""><figcaption><p><strong>SHADOW FINDER MAP OUTPUT FOR NOON ON 29/2/24 WHERE THE BRIGHT RING LOCATES THE PLACES WHERE OBJECTS CAST SHADOWS 80% OF THEIR HEIGHT</strong></p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/comparison sun location.JPG" alt=""><figcaption><p><a href="https://www.timeanddate.com/worldclock/sunearth.html"><strong>TIME &#x26; DATE MAP</strong></a> <strong>FOR NOON ON 29/2/24  WITH SUN &#x26; MOON POSITIONS OVERLAID</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/comparison sun location.JPG" alt=""><figcaption><p><a href="https://www.timeanddate.com/worldclock/sunearth.html"><strong>TIME &#x26; DATE MAP</strong></a> <strong>FOR NOON ON 29/2/24 WITH SUN &#x26; MOON POSITIONS OVERLAID</strong></p></figcaption></figure>
 
 The two representations concur on the daylight distribution and sun position for the same time and date shown:
 
@@ -210,7 +206,7 @@ Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen
 | Sophie Tedling.   |
 |                   |
 
-[^1]: ![](<.gitbook/assets/suncalcelevationSC (2).jpg>)
+[^1]: <img src=".gitbook/assets/suncalcelevationSC (2).jpg" alt="" data-size="original">
 
 [^2]: EXIF data can contain non-visual information about an image, e.g. type of camera and lens, date and time the image was taken, location at which it was taken,...
 
@@ -220,9 +216,7 @@ Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen
 
 [^5]: You can view the code by clicking on "Show code" in blue at the bottom of the section under "time type:"
 
-[^6]: 
-
-    ### Definitions
+[^6]: #### Definitions
 
     from The American Heritage® Dictionary of the English Language, 5th Edition.
 
