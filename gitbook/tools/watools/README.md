@@ -50,8 +50,8 @@ The web tools use simple forms and don’t require technical knowledge.&#x20;
 ## Requirements
 
 * No account or API key is needed for the basic tools.
-* To use WA Watcher’s push notifications, you must allow browser notifications on desktop or Android; iOS users will receive notifications via a Telegram bot.
-* Works in a modern browser; WA Watcher also has apps for Android and iOS. The service offers a limited free trial; a subscription is required for ongoing tracking.
+* To use WA Watcher’s push notifications, you must allow browser notifications to receive online alerts.
+* Works in a modern browser. The service offers a limited free trial; a subscription is required for ongoing tracking.
 
 ## Limitations
 
@@ -60,6 +60,7 @@ The web tools use simple forms and don’t require technical knowledge.&#x20;
 * WA Watcher must remain active (in a browser tab or app) to record changes; notifications rely on third‑party push services and may not always arrive promptly.
 * The site has minimal documentation and support; some pages (e.g., blog or terms) return errors.
 * Use of these tools may violate WhatsApp’s terms of service or local laws; accuracy is not guaranteed.
+* Whether the three-day-trial can be canceled before your account is credited with the subscription could not be confirmed. There does not appear an option to delete your account.
 
 ## Ethical Considerations
 
