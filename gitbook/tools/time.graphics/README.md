@@ -10,9 +10,27 @@ description: A tool for creating, visualizing, and managing timelines online.
 
 ## Description
 
-Time.Graphics is an online tool for creating interactive timelines, useful for organizing and visualizing events chronologically. Designed for educators, businesses, and individuals, it allows users to structure events with multimedia elements and integrate data from Google Calendar, Google Maps, and spreadsheets. The tool provides an interface that enables researchers to map out events, analyze historical data, or manage project timelines, which can be useful in investigative and open-source research contexts. A unique feature is the option to manage team accounts, making it suitable for collaborative settings, such as educational institutions and research teams.
+Time.Graphics lets you build timelines directly in your browser. You can add text, images, videos, map locations, and tags. It supports importing events from Google Calendar and exporting timelines as high-resolution images or offline archives.\
+Investigators use it to sequence events, compare narratives, and show changes over time. Typical uses include incident chronologies, protest timelines, or case histories.\
+Example: assemble posts, press releases, and footage timestamps into a single scrollable timeline, then export a poster-sized image for reports.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>A timeline of the history of Russia Today, created by the author, some information redacted.</p></figcaption></figure>
+{% tabs %}
+{% tab title="Example Timeline" %}
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Options: Single Event" %}
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Options: Percentage" %}
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Options: Data" %}
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
 
 ## Feature Breakdown
 
@@ -57,22 +75,28 @@ Time.Graphics is an online tool for creating interactive timelines, useful for o
 * [x] Partially Free
 * [ ] Paid
 
-- **Free**: Basic public timelines and limited multimedia features.
-- **Premium**: Starting from short-term (1-day) subscriptions; enables private timelines, Google Calendar integration, more robust export, and better media handling. Educational discounts available.
+&#x20;Free accounts create public timelines. Premium unlocks private or link-only timelines and removes watermarks. Pricing listed by the provider on 2025-08-31: 1 day 4.90 USD; 1 month 18.90 USD; 1 year 99 USD; education pricing available.
 
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
-Generally beginner-friendly for basic timelines. More advanced features (JSON data, multi-statistics plotting) may require moderate technical proficiency.
+Generally beginner-friendly for basic timelines. More advanced features (JSON data, multi-statistics plotting) may require moderate technical proficiency. Point-and-click editor with optional Google integrations.
 
 ## Requirements
 
-Requires a registered account. Premium features necessitate a paid subscription.
+* Account registration; email confirmation required.
+* Modern web browser.
+* Premium required for private or link-only timelines.
+* Google account needed to import from Google Calendar and to export to Google Drive; Dropbox export also supported.
 
 ## Limitations
 
-The free version lacks private timelines and extensive media integration. Some premium-only features, such as downloading high-resolution files and Google Calendar integration, limit functionality for free users. Timelines are stored on the platform, so users without an internet connection must download timelines for offline access.
+* Free tier cannot make private or link-only timelines.
+* Free downloads include a watermark.
+* When Premium ends you cannot edit private timelines; existing timelines remain visible according to their access setting.
+* Public timelines may be indexed by search engines.
+* Terms prohibit scraping or automated collection of other users’ content.
 
 ## Ethical Considerations
 
@@ -82,11 +106,18 @@ The free version lacks private timelines and extensive media integration. Some p
 
 For effective privacy management on Time.Graphics, users should carefully consider the privacy settings for each timeline, especially when handling sensitive or confidential data. By default, timelines created in the free version are set to public, meaning they are accessible to anyone online. For users requiring privacy or limited access, the **premium version** provides essential options, including the ability to set timelines to private or restrict access to those with a direct link. This link-restricted access is beneficial for sharing information with a controlled audience without making it publicly visible. Users should regularly review and update privacy settings, particularly when working in collaborative settings, to prevent accidental public sharing. For highly sensitive content, it’s advisable to enable premium features that allow complete control over who can view and interact with each timeline, ensuring data is kept secure and accessible only to authorized individuals.
 
+* Avoid publishing sensitive personal data; get consent where appropriate.
+* Respect copyright and platform terms when attaching media.
+* For minors or educational use, ensure compliance with local law and institutional policy.
+
 ## Guides and articles
 
 Timeline Maker. (2019, July 17). _How to add “Geo locations” to events_ \[Video recording]. [https://www.youtube.com/watch?v=02IwGTSOyNQ](https://www.youtube.com/watch?v=02IwGTSOyNQ)
 
 Timeline Maker. (2019, July 15). _How to embed timelines into your website or blog_ \[Video recording]. [https://www.youtube.com/watch?v=mojWqdii1XY](https://www.youtube.com/watch?v=mojWqdii1XY)
+
+Timeline Maker. (2019, July 15). [How-to video: Grouping](https://www.youtube.com/watch?v=WJZ8V18vNFI\&utm_source=chatgpt.com) \[Video recording]. \
+[https://www.youtube.com/watch?v=WJZ8V18vNFI](https://www.youtube.com/watch?v=WJZ8V18vNFI)
 
 ## Tool provider
 
