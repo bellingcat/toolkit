@@ -91,9 +91,13 @@ For each feature marked on the output map, Spot offers the user the option to op
 
 The first thing a user sees when they visit the Spot website is a modal window (a pop-up). This box includes a search box, where an example query is typed out word by word and then disappears automatically. “Find me a tram stop next to a park within 150 metres of a traffic light and a parking garage in Prague,” says the animated auto-query. This demonstrates how to phrase a search for the tool to understand. Text for the search prompt can be entered here or performed after closing this window.
 
+<figure><img src=".gitbook/assets/Animated aut-query.png" alt="" width="375"><figcaption></figcaption></figure>
+
 In the top left corner, a query can be entered into the search box. This is the first step, also explained in the description above, where Spot takes the input as natural language prompts.
 
 Just below the search bar is an expandable “Search Parameters” box, where the location, entities, and the relationship between them —specifically, how far apart they are from each other— can be viewed. Entities are features labelled according to OpenStreetMap’s own classification system.&#x20;
+
+<figure><img src=".gitbook/assets/Search parameters.png" alt=""><figcaption><p>Search Parameters and the search box.</p></figcaption></figure>
 
 <details>
 
@@ -263,7 +267,7 @@ It is possible for users to disable cookiless tracking
 
 | Page maintainer                                                        |
 | ---------------------------------------------------------------------- |
-| Anisa Shabir, 3:46 pm PKT, August 31. Sophie Tedling 00:36 GMT 31/8/25 |
+| Anisa Shabir, 4:16 pm PKT, August 31. Sophie Tedling 00:36 GMT 31/8/25 |
 |                                                                        |
 
 [^1]: [Open Street Map](https://www.openstreetmap.org/) is a free, open map database of the world, which is updated and maintained by a community of volunteers via collaborative working. 
