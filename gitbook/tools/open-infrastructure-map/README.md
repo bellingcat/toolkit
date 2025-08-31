@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-<figure><img src=".gitbook/assets/OPENINFRAMAP1.gif" alt=""><figcaption></figcaption></figure>
+<div data-full-width="false"><figure><img src=".gitbook/assets/OPENINFRAMAP1.gif" alt=""><figcaption><p>OPEN INFRASTRUCTURE MAP INTERFACE, SHOWING THE USER ZOOMING IN ON A LOCATION, SELECTING AN OFFSHORE WIND TURBINE THEN A POWER PLANT, AND SUMMONING AN INFORMATION WINDOW FOR EACH USING LEFT CLICK.</p></figcaption></figure></div>
 
 Open Infrastructure Map allows users to search for and view global infrastructure networks which include:
 
@@ -79,11 +79,9 @@ An internet connection and browser.
 
 ## Limitations
 
-Open Infrastructure Map may be incomplete or contain outdated information <mark style="color:$warning;">because OpenStreetMap relies on crowdsourced data, which is</mark> [<mark style="color:$warning;">never 100% accurate</mark>](https://www.nature.com/articles/s41467-023-39698-6)<mark style="color:$warning;">.</mark>
-
-The infrastructure paths on the map may be schematic, i.e. they may omit information such as the exact path of the infrastructure — for example, a data cable — in favour of clearly displaying where the cable starts and finishes. (London's 'Tube' maps are a good example of schematic maps.)
-
-The data exports provided by the tool are validated to work correctly with Google Earth Pro, but due to their size, they may not work in all applications that consume KML ([Keyhole Markup Language](https://www.geowgs84.com/post/what-exactly-is-a-kml-file-and-how-can-i-create-one)). Due to size limitations with Google Earth Pro, KML exports for larger countries (the USA, Russia, and China) are filtered to only include power assets with a voltage rating of 25 kV or above, and generation assets with an output of 50 MW and above. Worldwide KML exports are not possible due to these limitations.
+* Open Infrastructure Map may be incomplete or contain outdated information <mark style="color:$primary;">because OpenStreetMap relies on crowdsourced data, which is unlikely to be</mark>[ <mark style="color:$primary;">100% accurate</mark>](https://www.nature.com/articles/s41467-023-39698-6)
+* The infrastructure paths on the map may be schematic, i.e. they may omit information such as the exact path of the infrastructure — for example, a data cable — in favour of clearly displaying where the cable starts and finishes. (London's 'Tube' maps are a good example of schematic maps, also see [Evaluating schematic route maps in wayfinding tasks for in-car navigation by Galvado, Krukar and Schwering](https://pmc.ncbi.nlm.nih.gov/articles/PMC8437094/).)
+* The [data exports provided by the tool](https://www.infrageomatics.com/products/osm-export) are validated to work correctly with Google Earth Pro, but due to their size, they may not work in all applications that consume KML ([Keyhole Markup Language](https://www.geowgs84.com/post/what-exactly-is-a-kml-file-and-how-can-i-create-one)). Due to size limitations with Google Earth Pro, KML exports for larger countries (the USA, Russia, and China) are filtered to only include power assets with a voltage rating of 25 kV or above, and generation assets with an output of 50 MW and above. Worldwide KML exports are not possible due to these limitations.
 
 ## Ethical Considerations
 
