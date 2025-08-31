@@ -10,8 +10,6 @@ description: >-
 
 ## URL
 
-{% embed url="https://colab.research.google.com/github/Bellingcat/ShadowFinder/blob/main/ShadowFinderColab.ipynb" %}
-
 [https://github.com/bellingcat/ShadowFinder](https://github.com/bellingcat/ShadowFinder)
 
 ## Description
@@ -203,7 +201,7 @@ Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling.   |
+| Sophie Tedling:   |
 |                   |
 
 [^1]: <img src=".gitbook/assets/suncalcelevationSC (2).jpg" alt="" data-size="original">
