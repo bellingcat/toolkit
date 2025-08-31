@@ -103,7 +103,11 @@ Yes; the name is overloaded. Examples:
 
 ## Guides and articles
 
-No official guides or how‑to videos were found at the time of writing. [WA Watcher privacy policy](https://watools.io/wa-watcher-privacy-policy?utm_source=chatgpt.com) provides basic information.
+Business Insider [documented ](https://www.businessinsider.com/whatsapp-tracking-apps-online-activity-sleep-interactions-2020-9)the rise of “outside apps tracking WhatsApp online activity” and the **removal of many from Google Play** in 2020.&#x20;
+
+WIRED [profiled Chatwatch](https://www.wired.com/story/whos-in-town-map-instagram-location-history/) and reported WhatsApp’s **technical response on Web** that limited visibility to contacts, attributed by the developer as a reaction to the app’s publicity.
+
+WhatsApp later **rolled out “Who can see when I’m online”**; [WABetaInfo](https://wabetainfo.com/whatsapp-is-working-on-the-ability-to-hide-the-online-status/) and [mainstream tech press ](https://9to5mac.com/2022/07/02/whatsapp-hide-online-status/)covered the change that further blunts these trackers.
 
 ## Tool provider
 
