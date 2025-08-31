@@ -1,6 +1,6 @@
 ---
 description: >-
-  Search hundreds of thousands of messages leaked from 180+ white-supremacist /
+  Search hundreds of thousands of messages leaked from 290+ white-supremacist /
   nazi discord servers.
 ---
 
@@ -8,7 +8,8 @@ description: >-
 
 ## URL
 
-[https://discordleaks.unicornriot.ninja/discord/server/](https://discordleaks.unicornriot.ninja/discord/server/)
+[https://discordleaks.unicornriot.ninja/discord/server/](https://discordleaks.unicornriot.ninja/discord/server/)\
+(last accessed Aug 31. 2025)
 
 ## Description
 
