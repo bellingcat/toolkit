@@ -1,8 +1,8 @@
 ---
+updated: '2025-07-03'
 description: >-
   Aleph offers a way to research sanctions lists, corporate registries, leaks,
   and more
-updated: '2025-07-03'
 ---
 
 # OCCRP Aleph
@@ -13,13 +13,13 @@ updated: '2025-07-03'
 
 ## Description
 
-Aleph is a platform by the Organized Crime and Corruption Reporting Project (OCCRP) to help journalists and investigators "follow the money". It provides access to many datasets on people and companies, and offers tools to organize and visualize data. Investigators can use Aleph to search sanctions lists, corporate registries, leaks, and more. They can also create workspaces to collaborate and upload their own data to cross-reference with Aleph's datasets.                 &#x20;
+Aleph is a platform by the Organized Crime and Corruption Reporting Project (OCCRP) to help journalists and investigators "follow the money". It provides access to many datasets on people and companies, and offers tools to organize and visualize data. Investigators can use Aleph to search sanctions lists, corporate registries, leaks, and more. They can also create workspaces to collaborate and upload their own data to cross-reference with Aleph's datasets.
 
 ### How to search and filter data
 
 Type the name of an individual, an organization, a company or a keyword in the search bar. The results will display the total number of mentions of your search term and the <mark style="color:yellow;">yellow highlights</mark> will show the context in which the search term appears.
 
-<figure><img src=".gitbook/assets/Ale1.png" alt="" width="563"><figcaption><p> The search term Dmitry Medvedev returns over 4,000 results.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Ale1.png" alt="" width="563"><figcaption><p>The search term Dmitry Medvedev returns over 4,000 results.</p></figcaption></figure>
 
 To narrow down the search results, use the menu on the left to filter by date, country, language of the document, and datasets[^1].
 
@@ -91,9 +91,9 @@ Aleph provides a range of tools and mechanisms to aid investigations. They are s
 
 ## Requirements
 
-No account is necessary to browse Aleph data. However, if you need an export of the results from a search, you need to create a free account. This requires the submission of evidence of relevant previous work (reports, articles, etc.), the name of the organization you are affiliated with and your role there. The same goes for creating research project spaces.
+No account is necessary to browse Aleph data. However, if you need to export search results, you need to create a free account. This requires the submission of evidence of relevant previous work (reports, articles, etc.), the name of the organization you are affiliated with and your role there. The same goes for creating research project spaces.
 
-Some datasets are only accessible to approved users. To be approved, you must fill out [this form](https://occrp.atlassian.net/servicedesk/customer/portal/14).
+Some datasets are only accessible to approved users. To be approved, fill out [this form](https://occrp.atlassian.net/servicedesk/customer/portal/14).
 
 ## Limitations
 
