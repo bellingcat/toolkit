@@ -52,18 +52,18 @@ On the top left of the screen, one can access significant functionality via the 
 
         <figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p><strong>EXAMPLE OUTPUT FOR USA: POWER PLANTS DISTRIBUTED BY NUMBER, SOURCE &#x26; MW</strong></p></figcaption></figure>
 
-    These statistics give a quick picture of the shape and composition of power generation and power networks.  <mark style="color:$warning;">That said, the statistics are based on OSM data, which is crowdsourced and therefore not 100% reliable.</mark>
+    These statistics give a quick picture of the shape and composition of power generation and power networks.  That said, the statistics are based on OSM data, which is crowdsourced and therefore rarely 100% reliable.
 * **Export:** This link details the scope of the Open Infrastructure Map data, the available formats for export and their limitations, and gives access to purchase exported data, along with the relevant terms and conditions. At the time of writing on 30/7/25, prices ranged from GBP 80 for a power export per country to GBP 700 for a power export worldwide.
 
-Since Open Infrastructure Map aids in infrastructure visibility, it could assist in pursuits as varied as researching a country's oil infrastructure,  helping companies focused on energy infrastructure planning, or assisting authorities with emergency preparedness, among many other uses.
+Open Infrastructure Map can support investigations  around infrastructure, general geolocations and ecology/sustainability.
 
 ## Example Use Case
 
-<mark style="color:$warning;">A user leveraged Open Infrastructure Map to</mark> [<mark style="color:$warning;">locate Los Angeles's Scattergood-Olympic underground transmission line.</mark>](https://news.ycombinator.com/item?id=29951252)
+A user leveraged Open Infrastructure Map to [locate Los Angeles's Scattergood-Olympic underground transmission line.](https://news.ycombinator.com/item?id=29951252)
 
 ## Cost&#x20;
 
-<mark style="color:$warning;">It is free to use the tool to view and explore infrastructure data, but access to large-scale or packaged commercial data exports comes with a cost.</mark>&#x20;
+It is free to use the tool to view and explore infrastructure data, but access to large-scale or packaged commercial data exports comes with a cost.&#x20;
 
 * [ ] Free
 * [x] Partially Free
