@@ -1,9 +1,9 @@
 ---
+updated: '2025-07-10'
 description: >-
   Telepathy is a versatile Telegram toolkit for OSINT analysts, enabling chat
   archiving, memberlist gathering, user location lookup, top poster analysis,
   message mapping, and more.
-updated: '2025-07-10'
 ---
 
 # Telepathy
@@ -12,7 +12,7 @@ updated: '2025-07-10'
 
 [https://github.com/jordanwildon/Telepathy](https://github.com/jordanwildon/Telepathy)
 
-Version: Telepathy 2.3.4 (as of July 25)
+Version: Telepathy 2.3.4 (as of August 25)
 
 ## Description
 
