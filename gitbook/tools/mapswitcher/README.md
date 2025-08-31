@@ -89,5 +89,5 @@ GitHub user and developer details: [https://github.com/david-r-edgar/MapSwitcher
 
 | Page maintainer: |
 | ---------------- |
-| Sophie Tedling   |
+| Sophie Tedling:  |
 |                  |
