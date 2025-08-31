@@ -3,6 +3,7 @@ description: >-
   Autostitch is a free tool for seamlessly combining multiple photos into a
   single panoramic image, making it ideal for creating wide-angle photography
   without needing specialized equipment.
+updated: '2025-08-30'
 ---
 
 # AutoStitch

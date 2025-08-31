@@ -3,6 +3,7 @@ description: >-
   Flightradar24, a real-time flight tracking service, that provides
   comprehensive information about aircraft positions, flight numbers, routes,
   historical data, detailed aircraft specifications.
+updated: '2025-08-30'
 ---
 
 # Flightradar24

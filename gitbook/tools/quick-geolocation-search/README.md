@@ -1,5 +1,6 @@
 ---
 description: A tool that brings several maps into one place for easy location search.
+updated: '2025-08-30'
 ---
 
 # Quick geolocation search

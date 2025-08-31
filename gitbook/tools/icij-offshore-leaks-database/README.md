@@ -3,6 +3,7 @@ description: >-
   A database providing otherwise secret information about more than 810k
   offshore companies, foundations, and trusts based on leaks like the Panama
   Papers or the Paradise Papers.
+updated: '2025-08-30'
 ---
 
 # ICIJ Offshore Leaks Database
