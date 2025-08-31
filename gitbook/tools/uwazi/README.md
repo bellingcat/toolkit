@@ -1,9 +1,9 @@
 ---
+updated: '2025-06-30'
 description: >-
   Uwazi is an open-source platform that simplifies the management of document
   collections, particularly for human rights documentation in the justice and
   advocacy fields.
-updated: '2025-06-30'
 ---
 
 # Uwazi
@@ -11,7 +11,7 @@ updated: '2025-06-30'
 ## URL
 
 [https://uwazi.io/](https://uwazi.io/)\
-latest stable 1.219.x (June 2025) and upcoming 1.220 (published July 1st 2025)
+latest stable 1.227.9 (August 2025)&#x20;
 
 ## Description
 
@@ -83,7 +83,7 @@ Uwazi offers a flexible pricing structure. The **self-hosted** version is **free
 
 ## Requirements
 
-To use Uwazi, particularly if you're opting for the self-hosted version, you'll need a server with sufficient resources to handle the platform and a level of technical expertise to manage installation and maintenance. For both hosted and self-hosted options, you need a valid email address to set up accounts and manage user permissions. No additional software is required if using the hosted version, as HURIDOCS handles all management.
+To use Uwazi, particularly if you're opting for the self-hosted version, you'll need a server with sufficient resources to handle the platform and a level of technical expertise to manage installation and maintenance. For both hosted and self-hosted options, you need a valid email address to set up accounts and manage user permissions. No additional software is required if using the hosted version, as HURIDOCS handles all management. (Dependencies include Node.js ≥ 20.9, ElasticSearch 8.18.0 (+ optional ICU plugin), MongoDB 6.0 with replica set, Yarn)
 
 ## Limitations
 
@@ -98,7 +98,7 @@ To use Uwazi, particularly if you're opting for the self-hosted version, you'll 
 
 While Uwazi’s security capabilities help protect sensitive information, responsible use remains essential. Human rights documentation often involves vulnerable individuals and communities, so it’s critical to limit data access to trusted team members, maintain strict user permissions, and keep collections private if public release is not appropriate. Ensure robust password practices, enable two-factor authentication, and review audit logs regularly. Consider applicable data protection laws, inform users about the use of cookies, and ensure that any publicly shared data does not expose personal details or put individuals at risk. By taking these ethical considerations into account, Uwazi users can help ensure that their documentation efforts respect privacy, uphold legal standards, and serve the broader goal of advancing human rights.
 
-* **Data Encryption**: Uwazi uses HTTPS encryption for secure data transmission, protecting sensitive information from unauthorized access. Uwazi also supports data encryption at rest, ensuring that all sensitive information is protected from unauthorized access during transmission and while stored on the server.&#x20;
+* **Data Encryption**: Uwazi uses HTTPS encryption for secure data transmission, protecting sensitive information from unauthorized access. Uwazi also supports data encryption at rest, ensuring that all sensitive information is protected from unauthorized access during transmission and while stored on the server.
 * **User Authentication**: Two-factor authentication (2FA) is available to enhance account security.
 * **Hosting Security**: Uwazi’s hosted environments are secured with regular updates and security patches.
 * **Data Backup and Recovery**: Regular backups must be conducted to ensure data integrity and availability in case of failures.
@@ -144,7 +144,7 @@ You can view the full showcase [here](https://uwazi.io/en/page/k5htkcauq7i/showc
 
 ## Tool provider
 
-Uwazi is developed by the NGO HURIDOCS (Human Rights Information and Documentation Systems), Switzerland. Information about HURIDOCS funding can be found [here](https://huridocs.org/about/funding/).&#x20;
+Uwazi is developed by the NGO HURIDOCS (Human Rights Information and Documentation Systems), Switzerland. Information about HURIDOCS funding can be found [here](https://huridocs.org/about/funding/).
 
 ## Advertising Trackers
 
@@ -152,7 +152,7 @@ Uwazi is developed by the NGO HURIDOCS (Human Rights Information and Documentati
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-Uwazi uses cookies on its websites and applications to improve functionality, track usage statistics (Google Analytics), facilitate navigation and enable social media sharing. First-party and third-party cookies are used, including session cookies, persistent cookies, and pixel tags. Users can control cookies through their browser settings, but disabling them may limit functionality. This would, for example, restrict the ability to embed posts or integrate content from, for example, WordPress, Matomo Analytics Facebook, YouTube, LinkedIn, LimeSurvey, or GitHub. Their dedicated [cookie policy ](https://uwazi.io/page/sg0hbnvot3l/cookies-policy)page explains their use of cookies in detail.&#x20;
+Uwazi uses cookies on its websites and applications to improve functionality, track usage statistics (Google Analytics), facilitate navigation and enable social media sharing. First-party and third-party cookies are used, including session cookies, persistent cookies, and pixel tags. Users can control cookies through their browser settings, but disabling them may limit functionality. This would, for example, restrict the ability to embed posts or integrate content from, for example, WordPress, Matomo Analytics Facebook, YouTube, LinkedIn, LimeSurvey, or GitHub. Their dedicated [cookie policy ](https://uwazi.io/page/sg0hbnvot3l/cookies-policy)page explains their use of cookies in detail.
 
 | Page maintainer |
 | --------------- |
