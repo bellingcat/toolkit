@@ -99,7 +99,7 @@ Just below the search bar is an expandable “Search Parameters” box, where th
 
 <summary>Search Parameters</summary>
 
-Here, you can edit the OSM tags assigned to each feature by clicking the “pencil” icon. OSM tags define features of map[ elements](https://wiki.openstreetmap.org/wiki/Tags) which “add meaning to geographic objects.” Elements are the “nodes”, “ways” and “relations”
+Here, you can edit the OSM tags assigned to each feature. OSM tags define features of map[ elements](https://wiki.openstreetmap.org/wiki/Tags) which “add meaning to geographic objects.”&#x20;
 
 According to the TagInfo site for OSM tags, “there is no fixed list of those tags. New tags can be invented and used as needed. Everybody can come up with a new tag and add it to new or existing objects.”
 
@@ -152,26 +152,35 @@ Use the search parameters box to adjust existing search features and their relat
 
 ### Spot’s Output Result Map&#x20;
 
-To understand the results and how to use the Spot's interface, the following search query was used as an example: “Find a building with 10 stories or more within 50m of water and a church in the City of London”.  The tool's interface with possible locations (results) looks like this:
+To use Spot for geolocation and understand how to use its interface, we used this image of a church by the user “[jirashimosu](https://www.instagram.com/p/DK0UTHwIDIA/)” ([archive](https://archive.md/sxYZ2)) on Instagram. The caption, “London Summer Fragments Day #1”, indicates that the photo was taken somewhere in London. However, in OSINV, finding the exact location is paramount, as accuracy is crucial.
 
-<figure><img src=".gitbook/assets/Spot results .png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-08-31 at 15.06.10.png" alt="" width="375"><figcaption><p>An image on Instagram showing a church in London. (Credit: Gerasimos Evangelatos)</p></figcaption></figure>
 
-The purple blobs on the map legend represent churches, orange indicates water, and red signifies buildings with 10 or more stories. The church, water, and the building can be entities from an image or video showing a specific location that a user is geolocating.
+The visual clues in the image provide an opportunity to locate the exact area using Spot. In this particular case,  tall buildings that are 10 stories or more also appear behind the church. More importantly, a water body with fountains side by side is also visible in the image. One can also roughly estimate the distance as the features in the image seem to be close to each other.
 
-Clicking on a specific entity from one of the results shows details, which include a link to its OSM ID. This link opens a new tab to its location on the OpenStreetMap website, where you can find this entity and explore further. In this case, clicking on the church indicates that its “denomination” is “Anglican” and was “rebuilt” in “1906.” Click on the OSM ID link for more details.
+Taking these features into account, a query for Spot can be constructed that reads: “Find a church within 100m of a building with 10 stories or more and water in the City of London.”  The interface displays these possible solution, which looks like this:
 
-<figure><img src=".gitbook/assets/Spot church details.png" alt=""><figcaption><p>Details about the church.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-08-31 at 15.10.38.png" alt=""><figcaption></figcaption></figure>
 
-The exact location where the entity is situated can also be opened in the integrated mapping services like Google Maps, Bing, and Yandex. This ensures location verification through multiple mapping services in one place, thus saving time and allowing for greater flexibility.
+The red blobs on the map legend represent churches, blue indicates water, and yellow signifies buildings with 10 or more stories. The church, water, and the building are features from an image or video showing a specific location that a user is geolocating.
 
-Spot has also integrated Google Street View for location verification.  Clicking on “Open Google Street View” opens a window displaying the location's street-level photography. Use this feature to match entities and features against the photo or video being geolocated.
+To explore a specific solution, use the slider to zoom in on the result of your choice.
 
-Users can also switch between map layers that include “[vector map](#user-content-fn-5)[^5]”, “hybrid view” and “OSM Style Map”. The screenshot below shows a location from search results in the hybrid view and the Google Street View tab showing street-level photography of the selected result.
+Then clicking on a specific feature from one of the results shows its details, which include a link to its OSM ID. This link opens a new tab to its location on the OpenStreetMap website, where you can find this entity and explore further. In this case, clicking on the church (higlighted in red) indicates that it's called "St-Giles-without-Cripplegate", its “denomination” is “Anglican” and was “rebuilt” in “1906.” Click on the OSM ID link for more details.
 
-<figure><img src=".gitbook/assets/Spot hybrid view on map.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-08-31 at 15.15.05.png" alt=""><figcaption></figcaption></figure>
 
-\
-Cost
+The exact location where the entity is situated can also be opened in the integrated mapping services like Google Maps, Bing, and Yandex. This ensures location verification through multiple mapping services in one place, thus saving time and allowing for greater flexibility. Here, opening the location for church in Google Maps reveals it's located at coordinates [51.5187148,-0.0963922](https://www.google.com/maps/place/@51.5187148,-0.0963922,543m/data=!3m1!1e3!4m6!1m5!3m4!2zNTHCsDMxJzA3LjQiTiAwwrAwNSczNy43Ilc!8m2!3d51.5187222!4d-0.0938056?entry=ttu\&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D).
+
+Use the integrated Google Street View for location verification. Clicking on any blob on the map allows to view the street-level photography of the church's location. On Spot, select one of the points highlighting water from this area, and then open the Google Street view. By exploring the location through street view confirms that this location matches the one in the photo from Instagram above as shown here:
+
+<figure><img src=".gitbook/assets/Screenshot 2025-08-31 at 15.24.35.png" alt=""><figcaption></figcaption></figure>
+
+Users can also switch between map layers that include “[vector map](#user-content-fn-5)[^5]”, “[hybrid view](#user-content-fn-6)[^6]” and “[OSM Style Map](#user-content-fn-7)[^7]”. The screenshot below shows a location from search results in the hybrid view and the Google Street View tab showing street-level photography of the selected result.
+
+<figure><img src=".gitbook/assets/hybrid view .png" alt=""><figcaption></figcaption></figure>
+
+### Cost
 
 * [x] Free
 * [ ] Partially Free
@@ -252,10 +261,10 @@ The tool was developed by [DW Innovation](https://innovation.dw.com/en/articles)
 
 It is possible for users to disable cookiless tracking
 
-| Page maintainer                                                         |
-| ----------------------------------------------------------------------- |
-| Anisa Shabir 6:10 pm PKT on August 30. Sophie Tedling 00:36 GMT 31/8/25 |
-|                                                                         |
+| Page maintainer                                                        |
+| ---------------------------------------------------------------------- |
+| Anisa Shabir, 3:46 pm PKT, August 31. Sophie Tedling 00:36 GMT 31/8/25 |
+|                                                                        |
 
 [^1]: [Open Street Map](https://www.openstreetmap.org/) is a free, open map database of the world, which is updated and maintained by a community of volunteers via collaborative working. 
 
@@ -265,4 +274,8 @@ It is possible for users to disable cookiless tracking
 
 [^4]: Street view photographs are taken at ground level (as opposed to satellite view imagery, taken from above), giving a view of what a human would see at a location by looking around.
 
-[^5]: Definition here
+[^5]: “Vector maps are two-dimensional maps that use geometrical shapes such as points, lines, and polygons to represent geographical features,” according to LocationIQ’s [website](https://blog.locationiq.com/vector-or-raster-maps-which-one-is-best-for-you/).&#x20;
+
+[^6]: A Hybrid Map displays the map interface combining both satellite and vector maps.
+
+[^7]: An OSM-style map, as the name suggests, displays the interface in OpenStreetMap view format.
