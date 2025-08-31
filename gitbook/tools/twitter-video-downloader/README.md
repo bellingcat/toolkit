@@ -9,7 +9,7 @@ description: >-
 ## URL
 
 [https://twittervideodownloader.com/](https://twittervideodownloader.com/)\
-(May 2025)
+(August 2025)
 
 ## Description
 
@@ -22,6 +22,10 @@ Twitter Video Downloader is a web-based tool that allows users to download video
 5. The selected video will open in a new browser tab.
 6. Right-click (or control-click on Mac) on the video and select **Save Video As**.
 7. Rename the file if needed and save it to your desired location.
+
+
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Cost
 
@@ -39,17 +43,17 @@ Internet, web browser
 
 ## Limitations
 
-* **No Batch Downloads**: Users must download videos one at a time.
+* **No Batch Downloads**: Users must download videos individually.
 * **Limited to Public Tweets**: Videos from private or protected accounts cannot be downloaded.
-* **Possible Website Downtime**: As this is a third-party tool, availability may be inconsistent.
-* **Potential for URL Changes**: If X (Twitter) modifies its media hosting structure, the tool may stop working until updated.
-* **No Audio Extraction**: This tool does not allow users to download only the audio from videos.
+* **Possible Website Downtime**: Please note that this is a third-party tool, and its availability may be inconsistent.
+* **Potential for URL Changes**: If X (Twitter) modifies its media hosting structure, the tool may stop functioning until an update is made.
+* **No Audio Extraction**: This tool does not allow users to extract audio from videos.
 
-## Ethical Considersations
+## Ethical Considerations
 
 * **Respect Copyright**: Ensure that downloaded content is used in compliance with copyright laws and platform policies.
-* **Avoid Misuse**: This tool should not be used to collect or distribute videos without permission, where applicable.
-* **Verify Sources**: When using downloaded videos for research, verify authenticity and context to prevent misinformation.
+* **Avoid Misuse**: This tool should not be used to collect or distribute videos without obtaining the necessary permissions, where applicable.
+* **Verify Sources**: When using downloaded videos for research, verify their authenticity and context to prevent the spread of misinformation.
 
 ## Similar Tools
 
@@ -70,7 +74,7 @@ Internet, web browser
 
 ## Tool provider
 
-The website does not provide detailed ownership information. The only contact available is an email address: vssmartniceman97@gmail.com
+The website does not provide detailed information on ownership. The only contact available is an email address: vssmartniceman97@gmail.com
 
 ## Advertising Trackers
 
