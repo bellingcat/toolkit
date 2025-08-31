@@ -246,11 +246,8 @@ There is also training on viewing and interpreting Spot results
 
 ## Similar Tools
 
-| TOOL                                                                                     | DESCRIPTION | INPUT | OUTPUT |
-| ---------------------------------------------------------------------------------------- | ----------- | ----- | ------ |
-| Bellingcat OpenStreetMap Search                                                          |             |       |        |
-| [Overpass Turbo](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/yNF6qm7Ej1iALSmdkA3h/) |             |       |        |
-|                                                                                          |             |       |        |
+* Bellingcat OpenStreetMap Search
+* [Overpass Turbo](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/yNF6qm7Ej1iALSmdkA3h/)
 
 ## Tool provider
 
