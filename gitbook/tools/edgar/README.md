@@ -56,7 +56,9 @@ According to their own [website](https://www.sec.gov/edgar/searchedgar/aboutedga
 
 ## Ethical Considerations
 
-\-
+Some filings may contain personal identifiers (names, addresses, signatures). Even though these are public, using them for non-financial purposes (e.g., profiling, marketing, or doxxing) is ethically problematic.
+
+While EDGAR is public, using advanced scraping or automation tools to gain a speed advantage in trading or analysis raises fairness concerns.
 
 ## Guide
 
@@ -91,7 +93,7 @@ SEC also have some basic information on how to access their [EDGAR RESTful APIs 
 
 ## Tool provider
 
-[U.S. Securities and Exchange Commission (SEC)](https://www.sec.gov/), U.S.&#x20;
+[U.S. Securities and Exchange Commission (SEC)](https://www.sec.gov/), U.S.
 
 ## Advertising Trackers
 
