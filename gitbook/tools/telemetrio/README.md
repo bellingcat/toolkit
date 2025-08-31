@@ -1,9 +1,9 @@
 ---
+updated: '2025-07-10'
 description: >-
   Telemetr.io offers a range of Telegram-related services based on a catalog of
   Telegram channels: country and category-specific rankings, curated
   collections, real-time event tracking, and an API.
-updated: '2025-07-10'
 ---
 
 # Telemetrio
@@ -11,7 +11,7 @@ updated: '2025-07-10'
 ## URL
 
 [https://telemetr.io/](https://telemetr.io/)\
-(as of July 2025)
+(as of August 2025)
 
 ## Description
 
