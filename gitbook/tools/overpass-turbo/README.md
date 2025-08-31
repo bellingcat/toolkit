@@ -1,9 +1,9 @@
 ---
+updated: '2025-07-06'
 description: >-
   Overpass Turbo is a web-based tool for querying and visualizing OpenStreetMap
   crowd sourced data, aiding in extracting specific information like locations
   of amenities e.g.hospitals.
-updated: '2025-07-06'
 ---
 
 # Overpass Turbo
@@ -69,11 +69,11 @@ Any modern web browser.
 
 * **Query Complexity and Performance:** Overpass Turbo might struggle with very complex queries or large data sets, leading to long response times or timeouts. There are some performance hints in [the documentation](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL).
 * **Learning Curve:** For new users, the query language (Overpass QL) has a steep learning curve.
-* **Resource Intensity:** Running intensive queries can put a significant load on the Overpass servers, potentially leading to throttling or temporary bans. More information on [rate limits and quotas](https://dev.overpass-api.de/overpass-doc/en/preface/commons.html) plus a some performance advice is available at the end of [_A Turbo Introduction to Overpass_](https://upload.wikimedia.org/wikipedia/commons/f/fe/A_turbo_introduction_to_Overpass_\(with_notes\).pdf). &#x20;
+* **Resource Intensity:** Running intensive queries can put a significant load on the Overpass servers, potentially leading to throttling or temporary bans. More information on [rate limits and quotas](https://dev.overpass-api.de/overpass-doc/en/preface/commons.html) plus a some performance advice is available at the end of [_A Turbo Introduction to Overpass_](https://upload.wikimedia.org/wikipedia/commons/f/fe/A_turbo_introduction_to_Overpass_\(with_notes\).pdf).
 * **Data Currency:** While Overpass Turbo provides access to up-to-date OSM data, there may be a minor delay in data refresh rates which could impact real-time data analysis needs. See [Overpass Turbo Data Out of Date](https://www.reddit.com/r/openstreetmap/comments/jcamkz/overpass_turbo_data_out_of_date/) for more information.
 * **Geographical Limitations:** Performance and efficiency can degrade for queries that span very large geographical areas or the entire globe.
 * **User Interface:** While functional, the user interface may not be as intuitive or user-friendly for those not familiar with geographical information systems (GIS) or coding.
-* **Crowdsourced data**: availability of data depends on the data users have provided to OSM. There is evidence that data from Volunteered Geographic Information Research can be more current in times of humanitarian crisis (the 2010 [Haiti](https://onlinelibrary.wiley.com/doi/abs/10.2202/1948-4682.1069) earthquake for example) but this may not always be the case.&#x20;
+* **Crowdsourced data**: availability of data depends on the data users have provided to OSM. There is evidence that data from Volunteered Geographic Information Research can be more current in times of humanitarian crisis (the 2010 [Haiti](https://onlinelibrary.wiley.com/doi/abs/10.2202/1948-4682.1069) earthquake for example) but this may not always be the case.
 
 ## Ethical Considerations
 
@@ -95,12 +95,12 @@ To effectively use Overpass Turbo, especially for beginners or those looking to 
 
 #### Tutorials and Articles
 
-* [_Overpass Tutorial_](https://osm-queries.ldodds.com/tutorial/index.html) (no date). Available at: [https://osm-queries.ldodds.com/tutorial/index.html](https://osm-queries.ldodds.com/tutorial/index.html) (Accessed: 6 July 2025).
-* [_Learn Overpass._](https://osmlab.github.io/learnoverpass/en/) (no date). Available at: [https://osmlab.github.io/learnoverpass//en/](https://osmlab.github.io/learnoverpass/en/) (Accessed: 6 July 2025).
+* [_Overpass Tutorial_](https://osm-queries.ldodds.com/tutorial/index.html) (no date). Available at: [https://osm-queries.ldodds.com/tutorial/index.html](https://osm-queries.ldodds.com/tutorial/index.html) (Accessed: 31 August 2025).
+* [_Learn Overpass._](https://osmlab.github.io/learnoverpass/en/) (no date). Available at: [https://osmlab.github.io/learnoverpass//en/](https://osmlab.github.io/learnoverpass/en/) (Accessed: 31 August 2025).
 
 #### Video Tutorials
 
-* [_A turbo introduction to Overpass_](https://www.youtube.com/watch?v=q9QI4AfwHoM) _- MInh Nguyễn_ (2019). Available at: [https://www.youtube.com/watch?v=q9QI4AfwHoM](https://www.youtube.com/watch?v=q9QI4AfwHoM) (Accessed: 6 July 2025).
+* [_A turbo introduction to Overpass_](https://www.youtube.com/watch?v=q9QI4AfwHoM) _- MInh Nguyễn_ (2019). Available at: [https://www.youtube.com/watch?v=q9QI4AfwHoM](https://www.youtube.com/watch?v=q9QI4AfwHoM) (Accessed: 31 August 2025).
 
 #### Community and Support
 
