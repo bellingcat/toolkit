@@ -19,12 +19,13 @@ Information Laundromat is an open-source **lead generation tool** designed for i
 * Compares URLs, titles, or text snippets (≥15 words) across the open web.
 * Uses multiple sources—such as the [**Global Database of Events, Language, and Tone (GDELT)**](https://www.gdeltproject.org/), various search engines, and the [**Copyscape** ](https://www.copyscape.com/)plagiarism detection service—to identify near-duplicate or highly similar content. (Note: **GDELT** is a global database that logs worldwide broadcasts/online news, and **Copyscape** checks plagiarism by comparing text across its index.)
 * Provides similarity scores (e.g., 97% for near-identical copies) to help investigators see which sites replicate or closely mimic the queried text.
+* **Content Similarity** compares a URL, title or text snippet against search engines, GDELT and Copyscape, returning a match score; items scoring around **70%+** are often the most actionable leads
 * **Craig Silverman** (2024, [_Digital Investigations_](https://digitalinvestigations.substack.com/p/a-look-at-the-information-laundromat)) describes the Laundromat as “one of the newest and most interesting free website analysis tools I’ve come across,” and notes how ASD used it to detect repeated reprinting of Russia Today (RT) content.
 * According to Silverman’s interview with the tool’s developer, Peter Benzoni, items scoring [**70% or higher**](https://digitalinvestigations.substack.com/p/a-look-at-the-information-laundromat) on content similarity are “likely to be most of interest.”
 
 {% tabs %}
 {% tab title="Content Similarity Search" %}
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>"Content Similarity” input form: shows how to enter a URL or text snippet, select a country, language, and search engines, and then run a search for reprinted or near-identical content</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>"Content Similarity” input form: shows how to enter a URL or text snippet, select a country, language, and search engines, and then run a search for reprinted or near-identical content</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results" %}
@@ -34,7 +35,7 @@ Information Laundromat is an open-source **lead generation tool** designed for i
 
 ### **2. Metadata Similarity Search**
 
-
+**Metadata Similarity** extracts and compares site indicators (e.g., analytics IDs, certificates, IPs) and ranks overlaps by evidence tier; optional toggles include **Run URLSCAN** and **In‑group matching**.
 
 {% tabs %}
 {% tab title="Metadata Similarity Search" %}
@@ -270,6 +271,20 @@ Scans domains to find shared infrastructure, such as [**IP addresses**](https://
 
 By combining these searches, users can quickly spot patterns of content laundering and potential infrastructure overlaps. **Batch processing** is available via registration, enabling a rapid first-pass examination of multiple URLs or domains.
 
+### 3. Image Similarity Search
+
+**Image Similarity (experimental)** accepts an image URL and looks for visually similar images on the web; behavior may be unreliable and subject to change
+
+{% tabs %}
+{% tab title="Image Similarity" %}
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Second Tab" %}
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>For now I wasn't able to generate useful results, but the scope is impressive. Watch this space!</p></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
 ## Using Information Laundromat
 
 ### **Step-by-step guide: Content Similarity Search**
@@ -314,6 +329,10 @@ To identify websites that replicate or closely match specific content, helping t
 5. **Export and Analyze**:
    * Export results to cross-check using external OSINT platforms like [DNSlytics](https://dnslytics.com/), or passive DNS providers. **Passive DNS providers** log and display historical DNS data—like past IP addresses, name server changes, or subdomains—over time. These archives allow investigators to piece together domain ownership changes, prior hosting details, and hidden network relationships that typical live DNS lookups may no longer reveal.
    * Investigators should integrate these findings with manual verification.
+
+
+
+
 
 ## Cost
 
