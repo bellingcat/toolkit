@@ -77,7 +77,7 @@ Joseph Jones: [Investigating Google Accounts with GHunt](https://web.archive.org
 
 ## Tool provider
 
-Ghunt is developed by French security researcher **Thomas “mxrch” Hertzog**. He is a member of **HideAndSec**, a group of cybersecurity enthusiasts interested in software security, binary analysis, web security, cryptography, and IoT; the group operates a Capture‑the‑Flag team from France, founded in 2019. HideAndSec’s members include mxrch and other researchers.
+Ghunt is developed by French security researcher **Thomas “mxrch” Hertzog**. He is a member of [**HideAndSec**](https://hideandsec.sh/books/about-us/page/hideandsec), a group of cybersecurity enthusiasts interested in software security, binary analysis, web security, cryptography, and IoT; the group operates a Capture‑the‑Flag team from France, founded in 2019. HideAndSec’s members include mxrch and other researchers.
 
 Github: [https://github.com/mxrch](https://github.com/mxrch)
 
