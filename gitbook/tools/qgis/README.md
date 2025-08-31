@@ -1,6 +1,6 @@
 ---
-description: QGIS is a free Open Source Geographic Information System (GIS).
 updated: '2025-07-06'
+description: QGIS is a free Open Source Geographic Information System (GIS).
 ---
 
 # QGIS
@@ -42,7 +42,7 @@ While QGIS is a powerful tool for geographical information systems, it does have
 * **Performance Issues with Large Datasets:** QGIS can become slow when handling very large datasets or complex vector operations. This could impact productivity, particularly on less powerful hardware.
 * **Steep Learning Curve:** New users may find the software challenging to learn. While there is extensive documentation and community support, the initial learning phase can be time-consuming.
 * **Plugin Reliability:** Not all plugins are equally maintained or documented. Users might encounter stability issues with certain plugins, which can affect project timelines.
-* **Limited Advanced Analysis Features:** For highly advanced GIS analysis, some users may find QGIS lacks specific functionalities found in some paid alternatives. For instance, [ArcGIS Pro](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview) has the Living Atlas of the World a comprehensive collection of high-quality, authoritative maps, and data layers that include demographic, environmental, and geographic information (a comparison between QGIS and ArcGIS is available [here](https://www.youtube.com/watch?v=49QydETVNwg\))).&#x20;
+* **Limited Advanced Analysis Features:** For highly advanced GIS analysis, some users may find QGIS lacks specific functionalities found in some paid alternatives. For instance, [ArcGIS Pro](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview) has the Living Atlas of the World a comprehensive collection of high-quality, authoritative maps, and data layers that include demographic, environmental, and geographic information (a comparison between QGIS and ArcGIS is available [here](https://www.youtube.com/watch?v=49QydETVNwg\))).
 
 ## Ethical Considerations
 
@@ -52,15 +52,15 @@ See general Maps and Satellites guidance.
 
 To effectively use QGIS, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
 
-**Official Wiki**&#x20;
+**Official Wiki**
 
-* **Official QGIS Training Manual**: [https://docs.qgis.org/3.34/en/docs/training\_manual/](https://docs.qgis.org/3.34/en/docs/training_manual/) &#x20;
+* **Official QGIS Training Manual**: [https://docs.qgis.org/3.34/en/docs/training\_manual/](https://docs.qgis.org/3.34/en/docs/training_manual/)
 
 **Tutorials and Articles**
 
-* _Introduction to QGIS_ (2022) _Spatial Thoughts_. Available at: [https://spatialthoughts.com/courses/introduction-to-qgis/](https://spatialthoughts.com/courses/introduction-to-qgis/) (Accessed: 26 April 2025).
-* _NICAR 2016: QGIS 2_ (no date). Available at: [http://www.mikejcorey.com/nicar\_qgis\_advanced/](http://www.mikejcorey.com/nicar_qgis_advanced/) (Accessed: 26 April 2025).
-* _The Fast & The Mapped: QGIS Basics_ (no date). Available at: [http://dhmontgomery.com/ire2017/](http://dhmontgomery.com/ire2017/) (Accessed: 26 April 2025).
+* _Introduction to QGIS_ (2022) _Spatial Thoughts_. Available at: [https://spatialthoughts.com/courses/introduction-to-qgis/](https://spatialthoughts.com/courses/introduction-to-qgis/) (Accessed: 31 August 2025).
+* _NICAR 2016: QGIS 2_ (no date). Available at: [http://www.mikejcorey.com/nicar\_qgis\_advanced/](http://www.mikejcorey.com/nicar_qgis_advanced/) (Accessed: 31 August 2025).
+* _The Fast & The Mapped: QGIS Basics_ (no date). Available at: [http://dhmontgomery.com/ire2017/](http://dhmontgomery.com/ire2017/) (Accessed: 31 August 2025).
 
 **Use Cases**
 
@@ -69,10 +69,10 @@ To effectively use QGIS, especially for beginners or those looking to refine the
 
 **Video Tutorials**
 
-* _Map Academy - YouTube_ (no date). Available at: [https://www.youtube.com/@automaticknowledge](https://www.youtube.com/@automaticknowledge) (Accessed: 6 July 2025).
-* _Video course: Mapping for Journalists_ (no date) _DataJournalism.com_. Available at: [https://datajournalism.com/watch/mapping-for-journalists](https://datajournalism.com/watch/mapping-for-journalists) (Accessed: 6 July 2025).
-* _Learn GIS - QGIS Full Course for Beginners (New for 2024)_ (2024). Available at: [https://www.youtube.com/watch?v=SovdBaus7pM](https://www.youtube.com/watch?v=SovdBaus7pM) (Accessed: 6 July 2025).
-* _Introduction to QGIS_ (2022) _Spatial Thoughts_. Available at: [https://spatialthoughts.com/courses/introduction-to-qgis/](https://spatialthoughts.com/courses/introduction-to-qgis/) (Accessed: 6 July 2025).
+* _Map Academy - YouTube_ (no date). Available at: [https://www.youtube.com/@automaticknowledge](https://www.youtube.com/@automaticknowledge) (Accessed: 31 August 2025).
+* _Video course: Mapping for Journalists_ (no date) _DataJournalism.com_. Available at: [https://datajournalism.com/watch/mapping-for-journalists](https://datajournalism.com/watch/mapping-for-journalists) (Accessed: 31 August 2025).
+* _Learn GIS - QGIS Full Course for Beginners (New for 2024)_ (2024). Available at: [https://www.youtube.com/watch?v=SovdBaus7pM](https://www.youtube.com/watch?v=SovdBaus7pM) (Accessed: 31 August 2025).
+* _Introduction to QGIS_ (2022) _Spatial Thoughts_. Available at: [https://spatialthoughts.com/courses/introduction-to-qgis/](https://spatialthoughts.com/courses/introduction-to-qgis/) (Accessed: 31 August 2025).
 
 **Community and Support**
 
@@ -93,4 +93,3 @@ To effectively use QGIS, especially for beginners or those looking to refine the
 | ------------------------- |
 | Bellingcat Volunteer Team |
 |                           |
-
