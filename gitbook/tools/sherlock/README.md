@@ -6,7 +6,8 @@ description: Check usernames across more than 400 websites and social networks.
 
 ## URL
 
-[https://github.com/sherlock-project/sherlock](https://github.com/sherlock-project/sherlock)
+[https://github.com/sherlock-project/sherlock](https://github.com/sherlock-project/sherlock)\
+(current version 0.15.0, published July 8th 2024, as of 31. Aug 2025)
 
 ## Description
 
