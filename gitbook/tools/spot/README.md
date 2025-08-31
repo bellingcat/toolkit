@@ -61,7 +61,7 @@ Spot  uses the query  language code to perform a search of OpenStreetMap (by bui
 {% endstep %}
 
 {% step %}
-### Dipslay All Solution Features on A Map
+### Display All Solution Features on A Map
 
 Spot displays all the features which satisfy the user's input search on a map. It does not sort features which relate to different candidate location solutions, so if there is more than one potential solution this may not be apparent.
 
@@ -84,12 +84,12 @@ For each feature marked on the output map, Spot offers the user the option to op
 
 * **Limited AI Used:** Spot's use of AI is limited to conversion of the user's natural language search into the formal Overpass Query Language which can be used to query OpenStreetMap. This conversion is done using a [Large Language Model](https://en.wikipedia.org/wiki/Large_language_model) or LLM. The Overpass query is run by Spot via the [Overpass API](https://wiki.openstreetmap.org/wiki/Overpass_API) in exactly the same way as all the other OSM interface tools.&#x20;
 * **Search Is Not Using AI:** The quality and speed of the search is not impacted by the Large Language Model AI technology in Spot.&#x20;
-* **AI Uses Most of the Search Time:** N.B. Tests run by these authors on city searches in August 2025 suggest that well over 50% of the time Spot takes to complete a search is used to run the Natual Language to Overpass Query Language conversion, NOT the Overpass query of OpenStreetMap itself.&#x20;
+* **AI Uses Most of the Search Time:** N.B. Tests run by these authors on city searches in August 2025 suggest that well over 50% of the time Spot takes to complete a search is used to run the Natural Language to Overpass Query Language conversion, NOT the Overpass query of OpenStreetMap itself.&#x20;
 {% endhint %}
 
 ## The Interface
 
-The first thing a user sees when they visit the Spot website is a modal window (a pop-up). This box includes a search box, where an example query is typed out word by word and then disappears automatically. “Find me a tram stop next to a park within 150 metres of a traffic light and a parking garage in Prague,” says the animated auto-query. This demonstrates how to phrase a search for the tool to understand. Text for the search prompt can be entered here or performed after closing this window.
+The first thing a user sees when they visit the Spot website is a modal window (a pop-up). This box includes a search box, where an example query is typed out word by word and then disappears automatically. “Find me a tram stop next to a park within 150 meters of a traffic light and a parking garage in Prague,” says the animated auto-query. This demonstrates how to phrase a search for the tool to understand. Text for the search prompt can be entered here or performed after closing this window.
 
 <figure><img src=".gitbook/assets/Animated aut-query.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -103,13 +103,13 @@ Just below the search bar is an expandable “Search Parameters” box, where th
 
 <summary>Search Parameters</summary>
 
-Here, you can edit the OSM tags assigned to each feature. OSM tags define features of map[ elements](https://wiki.openstreetmap.org/wiki/Tags) which “add meaning to geographic objects.”&#x20;
+Here, you can edit the OSM tags assigned to each feature. OSM tags define features of map [elements](https://wiki.openstreetmap.org/wiki/Tags) which “add meaning to geographic objects.”&#x20;
 
 According to the TagInfo site for OSM tags, “there is no fixed list of those tags. New tags can be invented and used as needed. Everybody can come up with a new tag and add it to new or existing objects.”
 
 A tag is made of two [items](https://wiki.openstreetmap.org/wiki/Tags): a key and a value. A key describes the category or type of feature. A [value](https://wiki.openstreetmap.org/wiki/Tags) “provides detail for the key-specified feature." For example, an OSM key, “waterway”, can have multiple values that define this key. Some of them include a stream, ditch, river, drain, canal, and dam, among others. These can be adjusted depending on the needs of the search.
 
-This feature is similar to [Bellingcat’s OpenStreetMap](https://osm-search.bellingcat.com/) search tool, which utilises a custom setting for adding features, enabling adjustments via the OSM key and value.
+This feature is similar to [Bellingcat’s OpenStreetMap](https://osm-search.bellingcat.com/) search tool, which uses a custom setting for adding features, enabling adjustments via the OSM key and value.
 
 </details>
 
@@ -160,9 +160,9 @@ To use Spot for geolocation and understand how to use its interface, we used thi
 
 <figure><img src=".gitbook/assets/Screenshot 2025-08-31 at 15.06.10.png" alt="" width="375"><figcaption><p>An image on Instagram showing a church in London. (Credit: Gerasimos Evangelatos)</p></figcaption></figure>
 
-The visual clues in the image provide an opportunity to locate the exact area using Spot. In this particular case,  tall buildings that are 10 stories or more also appear behind the church. More importantly, a water body with fountains side by side is also visible in the image. One can also roughly estimate the distance as the features in the image seem to be close to each other.
+The visual clues in the image provide an opportunity to locate the exact area using Spot. In this particular case, tall buildings that are 10 stories or more also appear behind the church. More importantly, a water body with fountains side by side is also visible in the image. One can also roughly estimate the distance as the features in the image seem to be close to each other.
 
-Taking these features into account, a query for Spot can be constructed that reads: “Find a church within 100m of a building with 10 stories or more and water in the City of London.”  The interface displays these possible solution, which looks like this:
+Taking these features into account, a query for Spot can be constructed that reads: “Find a church within 100m of a building with 10 stories or more and water in the City of London.”  The interface displays all possible solutions, which looks like this:
 
 <figure><img src=".gitbook/assets/Screenshot 2025-08-31 at 15.10.38.png" alt=""><figcaption></figcaption></figure>
 
@@ -207,7 +207,7 @@ All tools which query OpenStreetMap share the limitations which the structure of
 {% endhint %}
 
 1. The format of Spot's output is imprecise relative to other tools which clearly group the features supporting each different solution location proposed in response to the user's query. Spot puts all the features supporting each solution location onto the same output map, without counting the number of different solution locations and indicating the supporting features for each one. So Spot does **not** answer the question "How many different locations satisfy my criteria in the given search area? "
-2. Spot's valuable integrated street view access operates at the location of each feature on the solution map. Given that usually  all the features mentioned in a query will be visible in the source image which is being geolocated, the view **at** a feature location is not likely to be a match. e.g. street view imagery taken at the central co-ordinates of the Eiffel Tower is unlikely to include images where the Eiffel Tower is clearly visible.
+2. Spot's valuable integrated street view access operates at the location of each feature on the solution map. Given that usually all the features mentioned in a query will be visible in the source image which is being geolocated, the view **at** a feature location is not likely to be a match. e.g. street view imagery taken at the central co-ordinates of the Eiffel Tower is unlikely to include images where the Eiffel Tower is clearly visible.
 3. Spot gives various errors (as at testing on 31/8/25). These are some of the different errors users will come across:
 
 <div><figure><img src=".gitbook/assets/Cologne system hickup.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/geometry2025-07-05 at 22.04.20.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/London Unknown error copy.png" alt=""><figcaption></figcaption></figure></div>
@@ -267,7 +267,7 @@ It is possible for users to disable cookiless tracking
 
 | Page maintainer                                                        |
 | ---------------------------------------------------------------------- |
-| Anisa Shabir, 4:16 pm PKT, August 31. Sophie Tedling 00:36 GMT 31/8/25 |
+| Anisa Shabir, 7:26 pm PKT, August 31. Sophie Tedling 00:36 GMT 31/8/25 |
 |                                                                        |
 
 [^1]: [Open Street Map](https://www.openstreetmap.org/) is a free, open map database of the world, which is updated and maintained by a community of volunteers via collaborative working. 
