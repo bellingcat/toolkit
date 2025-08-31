@@ -10,15 +10,15 @@ description: >-
 
 [https://www.zotero.org](https://www.zotero.org)
 
-Current version: **7.0.19 (26 Jun 2025)**
+Current version: **7.0.24 (August  2025)**
 
 ## Description
 
-Zotero is a free, open‑source reference‑management tool for macOS, Windows, Linux, **iOS and Android**. It lets you collect, organize, annotate, cite and share research materials. A browser connector captures sources from the web, while word‑processor plugins (Microsoft Word, LibreOffice, Google Docs) streamline citation workflows.
+Zotero is a free, open‑source reference‑management tool for macOS, Windows, Linux, **iOS , and Android**. It lets you collect, organize, annotate, cite, and share research materials. A browser connector captures sources from the web, while word‑processor plugins (Microsoft Word, LibreOffice, Google Docs) streamline citation workflows.
 
 While Zotero primarily targets academic research, it can also serve as a powerful **archiving** tool for OSINT practitioners. You can save snapshots of web pages, attach PDFs or any other file types, and maintain detailed metadata, making it valuable for both scholarly and investigative needs.
 
-&#x20;Official **iOS & Android** apps provide full‑library sync, PDF reading and annotation on the go
+&#x20;Official **iOS & Android** apps provide full‑library sync, PDF readin,g and annotation on the go
 
 {% hint style="info" %}
 **These examples assume you have made a free account and installed Zotero and the browser plugin on your system.**
@@ -28,7 +28,7 @@ While Zotero primarily targets academic research, it can also serve as a powerfu
 
 * **Collecting Items**
   * When you visit a web page with recognized bibliographic information (e.g., a journal article), Zotero displays an icon (paper, folder, or book) in your browser’s toolbar. Clicking it **captures** metadata and (if available) a full-text PDF automatically.
-  * Supports collecting a wide range of sources: academic papers, newspaper articles, websites, YouTube videos, code repositories, etc.
+  * Supports collecting a wide range of sources, including academic papers, newspaper articles, websites, YouTube videos, and code repositories.
 * **Organizing Your Research**
   * Add **tags** or create **collections** to group related items (e.g., by project or topic).
   * Bulk-edit metadata or manually correct fields if Zotero’s automatic capture is incomplete.
