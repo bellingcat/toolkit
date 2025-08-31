@@ -83,10 +83,6 @@ An internet connection and browser.
 * The infrastructure paths on the map may be schematic, i.e. they may omit information such as the exact path of the infrastructure — for example, a data cable — in favour of clearly displaying where the cable starts and finishes. (London's 'Tube' maps are a good example of schematic maps, also see [Evaluating schematic route maps in wayfinding tasks for in-car navigation by Galvado, Krukar and Schwering](https://pmc.ncbi.nlm.nih.gov/articles/PMC8437094/).)
 * The [data exports provided by the tool](https://www.infrageomatics.com/products/osm-export) are validated to work correctly with Google Earth Pro, but due to their size, they may not work in all applications that consume KML ([Keyhole Markup Language](https://www.geowgs84.com/post/what-exactly-is-a-kml-file-and-how-can-i-create-one)). Due to size limitations with Google Earth Pro, KML exports for larger countries (the USA, Russia, and China) are filtered to only include power assets with a voltage rating of 25 kV or above, and generation assets with an output of 50 MW and above. Worldwide KML exports are not possible due to these limitations.
 
-## Ethical Considerations
-
-<mark style="color:$warning;">Users of Open Infrastructure Map could potentially use this resource for malign purposes, such as criminally targeting infrastructure</mark>.
-
 ## Guides and articles
 
 Article on research conducted with this tool: [https://news.sky.com/story/ukraine-war-how-much-the-lights-have-gone-out-in-kyiv-revealed-for-the-first-time-by-nasa-satellites-12773049](https://news.sky.com/story/ukraine-war-how-much-the-lights-have-gone-out-in-kyiv-revealed-for-the-first-time-by-nasa-satellites-12773049)&#x20;
