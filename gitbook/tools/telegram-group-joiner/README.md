@@ -8,7 +8,8 @@ description: >-
 
 ## URL
 
-[https://bellingcat.github.io/telegram-group-joiner/](https://bellingcat.github.io/telegram-group-joiner/)
+[https://bellingcat.github.io/telegram-group-joiner/](https://bellingcat.github.io/telegram-group-joiner/)\
+(last checked Aug. 31, 2025)
 
 ## Description
 
