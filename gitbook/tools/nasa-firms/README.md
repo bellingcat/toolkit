@@ -1,8 +1,8 @@
 ---
+updated: '2025-06-30'
 description: >-
   Displays a world map overlaid with infra-red data from one or more satellites,
   some, but not all of which may represent heat from fires and explosions.
-updated: '2025-06-30'
 ---
 
 # NASA FIRMS
@@ -279,11 +279,11 @@ NASA (North American Space Agency) via: Sentinel Hub and Copernicus Browser
 ## Advertising Trackers
 
 * [ ] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [x] This tool does not appear to use tracking cookies.
+* [x] This tool uses tracking cookies. Use with caution.
+* [ ] This tool does not appear to use tracking cookies.
 
 ### Page Maintained By:-
 
 ***
 
-Sophie Tedling.
+Sophie Tedling:
