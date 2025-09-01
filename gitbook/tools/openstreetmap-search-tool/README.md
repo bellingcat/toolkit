@@ -2,6 +2,7 @@
 description: >-
   A user interface to search OpenStreetMap data for features in proximity to
   each other.
+updated: '2025-08-31'
 ---
 
 # Bellingcat OpenStreetMap Search

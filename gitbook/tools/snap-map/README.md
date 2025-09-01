@@ -1,5 +1,6 @@
 ---
 description: Searchable map of geotagged snaps.
+updated: '2025-08-31'
 ---
 
 # Snap Map

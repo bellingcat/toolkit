@@ -1,5 +1,6 @@
 ---
 description: Open-source network analysis and visualization software
+updated: '2025-08-31'
 ---
 
 # Gephi

@@ -2,6 +2,7 @@
 description: >-
   Automate joining multiple Telegram groups and channels, ideal for researchers
   monitoring specific topics.
+updated: '2025-08-31'
 ---
 
 # Telegram Group Joiner

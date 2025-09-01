@@ -1,5 +1,5 @@
 ---
-updated: '2025-07-03'
+updated: '2025-08-31'
 description: >-
   Aleph offers a way to research sanctions lists, corporate registries, leaks,
   and more

@@ -1,5 +1,6 @@
 ---
 description: Check usernames across more than 400 websites and social networks.
+updated: '2025-08-31'
 ---
 
 # Sherlock

@@ -2,6 +2,7 @@
 description: >-
   Chrome extension switches  between online map apps, maintaining (as far as
   possible) the map centre, zoom level, & directions of the source map.
+updated: '2025-08-31'
 ---
 
 # MapSwitcher

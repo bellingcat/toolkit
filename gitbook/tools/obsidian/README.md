@@ -2,6 +2,7 @@
 description: >-
   A knowledge management and note-taking app with extensive customization
   options.
+updated: '2025-08-31'
 ---
 
 # Obsidian

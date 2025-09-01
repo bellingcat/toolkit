@@ -1,5 +1,5 @@
 ---
-updated: '2025-06-30'
+updated: '2025-08-31'
 description: >-
   Displays a world map overlaid with infra-red data from one or more satellites,
   some, but not all of which may represent heat from fires and explosions.
