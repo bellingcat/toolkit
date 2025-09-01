@@ -2,7 +2,7 @@
 
 | Name | Description | Cost | Tool Review and Guide |
 | --- | --- | --- | --- |
-| ACLED (Armed Conflict Location & Event Data Project) | ACLED provides data and analysis on political violence and protest around the world, facilitating research, policy making, and journalistic reporting. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/acled](../../tools/acled/README.md) |
+| ACLED (Armed Conflict Location & Event Data Project) | ACLED provides data and analysis on political violence and protest around the world, facilitating research, policy making, and journalistic reporting. | <mark style="background-color:orange;">Partially Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/acled](../../tools/acled/README.md) |
 | Bulletpicker.com | Bulletpicker.com is a collection of ammunition guidebooks and manuals from several different armed forces. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/bulletpicker.com](../../tools/bulletpicker.com/README.md) |
 | CAT UXO | A repository for professionals working in the explosive ordnance disposal (EOD) space. | <mark style="background-color:orange;">Partially Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/cat-uxo](../../tools/cat-uxo/README.md) |
 | LiveUAMap | LiveUAMap is a mapping tool that provides up-to-date information on global geopolitical events, conflicts, and crises. | <mark style="background-color:orange;">Partially Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/liveuamap](../../tools/liveuamap/README.md) |
