@@ -1,6 +1,6 @@
 ---
-description: Searchable map of geotagged snaps.
 updated: '2025-08-31'
+description: Searchable map of geotagged snaps.
 ---
 
 # Snap Map
@@ -17,19 +17,19 @@ You can open Snap Map in the Snapchat mobile app or in a web browser at map.snap
 
 Investigators use Snap Map to understand real-time situations such as protests, natural disasters, or large gatherings by reviewing short clips uploaded by people on the ground.
 
-**Access Snap Maps**: Open the Snapchat app on your mobile device and click the location icon in the bottom left corner of the screen to access Snap Maps.&#x20;
+**Access Snap Maps**: Open the Snapchat app on your mobile device and click the location icon in the bottom left corner of the screen to access Snap Maps.
 
 **Explore Locations**: Once on Snap Maps, users can explore different locations by zooming in and out on the map.
 
-**View Snaps**: Snap Map posts appear as hot spots on a heat map. Users can click on the colored dots on the map to view public posts that are tagged as being posted from that location. The warmer the color of the hot spot, the more Snap Maps are being posted there.&#x20;
+**View Snaps**: Snap Map posts appear as hot spots on a heat map. Users can click on the colored dots on the map to view public posts that are tagged as being posted from that location. The warmer the color of the hot spot, the more Snap Maps are being posted there.
 
 **Filter Content**: Use the search bar in the upper-right corner to filter content by keywords. For example, if you're researching a specific event or topic, you can search for relevant keywords to find related Snaps.
 
-**Discover Specific Locations:** Certain locations, such as museums, restaurants, and universities, are automatically displayed on the heat map. Users can also zoom in on the map to locate these locations and view public posts that have been geotagged to that specific place.&#x20;
+**Discover Specific Locations:** Certain locations, such as museums, restaurants, and universities, are automatically displayed on the heat map. Users can also zoom in on the map to locate these locations and view public posts that have been geotagged to that specific place.
 
-**Use Cases:** Snap Maps can be a useful tool for gathering geospatial information and understanding real-time events.&#x20;
+**Use Cases:** Snap Maps can be a useful tool for gathering geospatial information and understanding real-time events.
 
-Snap Maps is also a good starting point for investigations into human networks in specific locations. Snap Map posts are linked to a specific Snapchat user, allowing other users to click on them and view the user's public profile. The public profile may include the user's Snapchat username, bio, and other publicly visible posts.&#x20;
+Snap Maps is also a good starting point for investigations into human networks in specific locations. Snap Map posts are linked to a specific Snapchat user, allowing other users to click on them and view the user's public profile. The public profile may include the user's Snapchat username, bio, and other publicly visible posts.
 
 ## Cost
 
@@ -76,12 +76,10 @@ Sung, Morgan: People are turning to Snap Map for firsthand perspectives from Gaz
 
 Snapchat, Snap Inc., USA
 
-
-
 * [ ] This tool has not been checked for advertising trackers yet.
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer               |
-| ----------------------------- |
-| <ul><li>Martin Sona</li></ul> |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
