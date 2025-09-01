@@ -1,5 +1,5 @@
 ---
-updated: '2025-07-01'
+updated: '2025-08-31'
 description: >-
   Tool for the retrieval of corporate and financial data from SEC's EDGAR
   (Electronic Data Gathering, Analysis, and Retrieval) database.

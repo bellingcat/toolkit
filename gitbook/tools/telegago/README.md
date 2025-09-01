@@ -2,6 +2,7 @@
 description: >-
   Telegago is a Google Custom Search Engine tailored for searching public
   Telegram content for OSINT purposes.
+updated: '2025-08-31'
 ---
 
 # Telegago

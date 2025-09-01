@@ -2,6 +2,7 @@
 description: >-
   A collection of web-based image forensics tools. Can identify fake or doctored
   images.
+updated: '2025-08-31'
 ---
 
 # Forensically

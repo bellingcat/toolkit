@@ -1,5 +1,6 @@
 ---
 description: A command line tool for obtaining information about Google accounts.
+updated: '2025-08-31'
 ---
 
 # Ghunt

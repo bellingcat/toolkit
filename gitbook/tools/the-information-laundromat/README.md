@@ -2,6 +2,7 @@
 description: >-
   A tool for analyzing content replication and site architecture to detect
   information laundering.
+updated: '2025-08-31'
 ---
 
 # The Information Laundromat

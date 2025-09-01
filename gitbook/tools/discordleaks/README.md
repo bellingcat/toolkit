@@ -2,6 +2,7 @@
 description: >-
   Search hundreds of thousands of messages leaked from 290+ white-supremacist /
   nazi discord servers.
+updated: '2025-08-31'
 ---
 
 # DiscordLeaks

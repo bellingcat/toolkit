@@ -1,5 +1,5 @@
 ---
-updated: '2025-07-01'
+updated: '2025-08-31'
 description: >-
   ExifTool is a command-line application for reading, writing, and editing meta
   information in files.

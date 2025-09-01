@@ -2,6 +2,7 @@
 description: >-
   A tool for collecting, organizing, annotating, citing, and sharing research
   sources.
+updated: '2025-08-31'
 ---
 
 # Zotero

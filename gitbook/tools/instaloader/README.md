@@ -1,5 +1,6 @@
 ---
 description: Download pictures or videos (with metadata) from Instagram.
+updated: '2025-08-31'
 ---
 
 # InstaLoader
