@@ -1,5 +1,7 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  Anytype is a local-first, encrypted, schema-flexible knowledge manager for
+  linked data.
 ---
 
 # Anytype
@@ -62,6 +64,13 @@ Anytype’s basic functions (creating objects, linking notes) are straightforwar
 * **Network storage caps** – Free accounts include only 100 MB of network storage, which can fill quickly if you store media files; additional storage requires a paid membership.
 * **Performance** – Extremely large graphs or media‑heavy vaults might cause slowdowns on older hardware. The mobile apps lag behind desktop in terms of features.
 
+### Practical tips and gotchas
+
+* **Backups**: Regularly export Space or include your Data Location in your system backups. If you lose the 12-word key, the vault cannot be recovered.
+* **Mobile caveats**: search inside objects on iOS and some batch operations on mobile are not yet available; do heavy schema work on desktop.&#x20;
+* **Publishing**: if you use Anytype’s **Web Publishing**, selected pages are uploaded unencrypted; that is deliberate for discoverability. Treat it as a separate, public channel.
+* **Licensing**: code is “source‑available” under the Any Source Available License; not OSI‑approved open source. This matters for organizations with strict FLOSS policies.
+
 ## Ethical Considerations
 
 [Anytype emphasises](https://doc.anytype.io/anytype-docs/advanced/data-and-security/how-we-keep-your-data-safe) autonomy and privacy by storing data locally and encrypting it, with keys held by the user. This protects sensitive investigative data from third‑party access. Still, investigators should practice good operational security: use dedicated devices or burner accounts for high-risk projects, be cautious when inviting collaborators, and sanitize data before publishing pages online. Since the platform is in beta, be aware of potential bugs and install updates regularly. Additionally, back up critical data on a regular basis.
@@ -88,7 +97,7 @@ Anytype is developed by **Any Association (Zug, Switzerland & Berlin, Germany)**
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
