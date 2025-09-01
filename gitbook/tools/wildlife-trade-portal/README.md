@@ -22,7 +22,7 @@ You can contribute to this site by providing the source, the date, the country o
 
 The Wildlife Trade Portal is also connected to another tool called [TimberStats](https://experience.arcgis.com/experience/f334dde3d5bd4f9fb2ba02516bd48c45/page/INFO/). This site, launched on November 2024, allows you to explore timber trade data from the UN Comtrade database via API. It offers an Annual Trade Statistics Dashboard, where you can explore trade flows around the world, and an Annual Trade Discrepancies Dashboard, where you can find inconsistencies in reported trade between two countries.
 
-To date, this tool continues to receive frequent updates.
+To date, this tool continues to receive frequent updates. Recently, the tool provider [confirmed](https://www.traffic.org/news/fight-against-illegal-wildlife-trade-boosted-by-wolfson-tech-funding-award/) that it will use a grant to support the use of AI in order to further refine the tool.
 
 
 
