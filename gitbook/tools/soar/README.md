@@ -129,12 +129,12 @@ Point and click at a location on a map
 
 Source: [Soar.Earth Digital Atlas QGIS Plugin - North Road](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)
 
-3\. Collaboration Features:
+3\. Collaboration Features: <mark style="color:$info;">The pin feature and embed maps are not a feature that is available anymore, I was looking for it for about an hour but cannot find it. So this must be outdated. I will strike through for now instead of delete.</mark>&#x20;
 
-* "Pin" feature to save and overlay layers.
-* Annotations visible in embedded maps for collaborative context.
+* "<mark style="color:$info;">P</mark>~~<mark style="color:$info;">in" feature to save and overlay layers.</mark>~~
+* ~~<mark style="color:$info;">Annotations visible in embedded maps for collaborative context.</mark>~~
 
-[https://about.soar.earth/blog-pages/soar-earth-launches-interactive-maps-on-any-website-with-new-embedded-map-tool](https://about.soar.earth/blog-pages/soar-earth-launches-interactive-maps-on-any-website-with-new-embedded-map-tool)
+[~~<mark style="color:$info;">https://about.soar.earth/blog-pages/soar-earth-launches-interactive-maps-on-any-website-with-new-embedded-map-tool</mark>~~](https://about.soar.earth/blog-pages/soar-earth-launches-interactive-maps-on-any-website-with-new-embedded-map-tool)
 
 ## Cost
 
@@ -215,10 +215,10 @@ Soar, Perth, Australia<mark style="color:$danger;">**?**</mark>
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                           |
-| ----------------------------------------- |
-| Afton and Sophie Tedling 2/9/25 20:15 GMT |
-|                                           |
+| Page maintainer                                            |
+| ---------------------------------------------------------- |
+| Afton 2/9/25 21:39 GMT and Sophie Tedling 2/9/25 20:15 GMT |
+|                                                            |
 
 
 
