@@ -50,7 +50,7 @@ https://example.com
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer          |
-| ------------------------ |
-| Afton and Sophie Tedling |
-|                          |
+| Page maintainer                       |
+| ------------------------------------- |
+| Afton and Sophie Tedling 2/9/25 15:27 |
+|                                       |
