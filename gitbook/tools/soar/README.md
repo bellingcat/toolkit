@@ -13,6 +13,18 @@ description: >-
 
 ## Description
 
+<mark style="color:$danger;">**NOTE: NOT ALL MAPS HAVE TRANSPARENCY FEATURE**</mark>&#x20;
+
+<mark style="color:$danger;">**NOTE: Check base data is OSM**</mark>
+
+<mark style="color:$danger;">**NOTE: Afton discovered some very high resolution 8cm per pixel maps from sources like EU on Soar**</mark>
+
+<mark style="color:$danger;">**TEST is it the LoFi maps which don't have transparency by definition? TEST: Do all Georeferenced maps have transparency feature?**</mark>
+
+<mark style="color:$danger;">**TEST: Does LoFi mean "Soar didn't fit over OSM" and Georeferenced mean "Soar did fit over OSM"? See LoFi defined Christian Triebert Crimean Bridge damage map**</mark>
+
+<mark style="color:$danger;">**AMAZING FEATURE: TEST Does Soar AUTOFIT all Georeferenced maps over the basic OSM background by scaling and orientating them? Norte de Chile old map is a really good example.**</mark>
+
 The Soar platform provides a number of services: <mark style="color:$danger;">**QUESTION: What is the difference between the features "Maps" and "Discover"? Is it actually just two routes to the same database, Maps being searched by location and Discover doing searching by topic and type? Afton's research shows different priorities in the search algorithms: TEST The Discover section offers no geo co-ordinates  input location but its search algorithm prioritises newly added material and regular contributors of content.**</mark>
 
 1. A large database of maps and imagery displaying&#x20;
