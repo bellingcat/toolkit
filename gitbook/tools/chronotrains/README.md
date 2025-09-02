@@ -126,11 +126,11 @@ According to its [GitHub page](https://github.com/benjamintd/chronotrains), “c
 
 **Assumed speed:** The system also assumes that you can walk/travel between these stations at a speed of 9/km/h (5.59 mph) - which is described as [“faster than walking but slower than biking.”](https://github.com/benjamintd/chronotrains)
 
-It is important to note that this speed can vary from person to person and that this is an average estimate. So, when looking at the data on Chronotrains, keep these limitations in mind.
+It is important to note that this speed can vary from person to person and that this is an average estimate. So, whenever examining  data on Chronotrains, keep these limitations in mind.
 
 4. **Local Transit Exclusion**
 
-The tool does not show options involving connections by local transit methods such as buses, bikes, or walking. The tool provider offers the following explanation on the tool's Github page: "Because local transit is not included for most cities, there are no journeys available between different stations that can actually be connected by bus, bike, or on foot."
+The tool does not display options involving connections by local transit methods such as buses, bikes, or walking. The tool provider offers the following explanation on the tool's Github page: "Because local transit is not included for most cities, there are no journeys available between different stations that can actually be connected by bus, bike, or on foot."
 
 Specifically, as mentioned above, _if two locations are more than 10 km/6.2 mi apart_, it will not display a journey/connection. For instance, if a user wants to go from point A to point D:
 
