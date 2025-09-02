@@ -63,7 +63,7 @@ Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceani
 
 <mark style="color:$danger;">**We thought we might illustrate a stoary with the Evergreen Ship incident,stuck in the Suez canal 23-29/3/21**</mark>
 
-2. The facility to upload and share user maps (Formats are Georeferenced maps=GeoTIFF, ECW and JP2, LoFi Map formats = PNG and JPEG and create geographical media (called Stoaries <mark style="color:$danger;">**need to check the exact definition of a Stoary - is it a set of digital pages which can include gif animation?**</mark>) to communicate complex information, e.g. changes over time
+2. The facility to upload and share user maps (Formats are Georeferenced maps=GeoTIFF, ECW and JP2, LoFi Map formats = PNG and JPEG and create geographical media (called Stoaries <mark style="color:$danger;">**need to check the exact definition of a Stoary - is it a set of digital pages which can include gif animation? Stoaries - you can annotate a map (TEST maybe only an OSB background map, not a Soar upload) and it will allow you to add the coordinates of a map pin in any chosen metric system. You can add photos or video to locations**</mark> to communicate complex information, e.g. changes over time
 
 <mark style="color:$danger;">**NB There are quite a few things which don't actually export to GeoJSON format when you export**</mark>
 
@@ -213,7 +213,7 @@ Soar, Perth, Australia<mark style="color:$danger;">**?**</mark>
 
 | Page maintainer                           |
 | ----------------------------------------- |
-| Afton and Sophie Tedling 2/9/25 19:04 GMT |
+| Afton and Sophie Tedling 2/9/25 20:09 GMT |
 |                                           |
 
 
