@@ -17,10 +17,10 @@ The Soar platform provides a number of services: <mark style="color:$danger;">**
 
 1. A large database of maps and imagery displaying&#x20;
 
-* a wide variety of geographically distributed information,e.g. weather, maritime tides, distribution of dust and ash, soil moisture...&#x20;
-* with different time modalities, e.g. static maps created over a long time period stretching back to  <mark style="color:$danger;">**1800 (looking for read date of oldest),**</mark> maps displaying real time information feeds,&#x20;
+* a wide variety of geographically distributed information,e.g. weather, maritime tides, distribution of dust and ash, soil moisture, population, radar, ...&#x20;
+* different time modalities, e.g. static maps created over a long time period stretching back to  <mark style="color:$danger;">**1800 (looking for read date of oldest),**</mark> maps displaying real time information feeds, animated gif maps displaying a sequence of changing information over time
 
-These Soar entires are serachable by :<mark style="color:$danger;">**Need to test what other search keys can be used - there are filters in Discover section for 2 Map Types: LoFi and Georeferenced, which we should probably define (I can't right now) and then about 15 categorisations:**</mark>
+These Soar database entries are serachable by :<mark style="color:$danger;">**Need to test what other search keys apart from Location can be used - there are filters in Discover section for 2 Map Types: LoFi and Georeferenced, which we should probably define (I can't right now) and then about 15 categorisations:**</mark>
 
 location &#x20;
 
@@ -34,8 +34,11 @@ One of Soar's most immediately valuable features is the ability to overlay image
 
 <mark style="color:$danger;">**NB Note that Soar puts labels over Thumbnail maps to give information as to format, but these formats don't correspond exactly to the filters offered by Soar - labels include "GIF", "REAL TIME", "DAILY", POPULAR", "NEW", "LoFi (which IS one of the filterable categories)**</mark>
 
-2. An interface
-3. The facility to create maps (called Stoaries <mark style="color:$danger;">**need to check the exact definition of a Stoary - is it a set of digital pages which can include gif animation?**</mark>) to communicate complex information, e.g. changes over time
+2. An interface supporting access to satellite imagery for areas of interest and timeframes specified by the user, offering both free and charged data:
+   1. Sentinel-2 : Medium resolution, free
+   2. NASA : Low resolution, free
+   3. Pics from Space, charged [https://www.picsfromspace.com/](https://www.picsfromspace.com/) <mark style="color:$danger;">**Need to research this, needs login. Does it only provide SkyMap50 high resolution imagery? Looks like yes - See**</mark> [<mark style="color:$danger;">**https://spymesat.com/skymap.html**</mark>](https://spymesat.com/skymap.html) <mark style="color:$danger;">**"**</mark>_<mark style="color:$warning;">**Launched in 2018 (01 & 02) and 2018 (03 & 04) from the Taiyuan Satellite Launch Center in China, the four syn-synchronous satellites operate at an altitude of 500km and can monitor daily any location on the Earth at 50cm per pixel image resolution. At this zoom level, ground features such as individual trees, fences, cars and trucks can be all seen...**</mark><mark style="color:$warning;">SkyMap50 archival imagery orders can take between 2 to 5 working days to process and is available only in GeoTIFF format"</mark>_
+3. The facility to upload and share user maps (Formats are Georeferenced maps=GeoTIFF, ECW and JP2, LoFi Map formats = PNG and JPEGand create geographical media (called Stoaries <mark style="color:$danger;">**need to check the exact definition of a Stoary - is it a set of digital pages which can include gif animation?**</mark>) to communicate complex information, e.g. changes over time
 
 <mark style="color:$danger;">**NB There are quite a few things which don't actually export to GeoJSON format when you export**</mark>
 
@@ -50,7 +53,7 @@ Here's an uploaded gif map example [https://soar.earth/maps/oceania-judbarra-nat
 ## Cost
 
 * [x] Free
-* [ ] Partially Free
+* [x] Partially Free
 * [ ] Paid
 
 \[\[Pricing or subscription information, if relevant.]]
@@ -87,5 +90,5 @@ Here's an uploaded gif map example [https://soar.earth/maps/oceania-judbarra-nat
 
 | Page maintainer                           |
 | ----------------------------------------- |
-| Afton and Sophie Tedling 2/9/25 16:41 GMT |
+| Afton and Sophie Tedling 2/9/25 17:28 GMT |
 |                                           |
