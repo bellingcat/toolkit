@@ -15,7 +15,14 @@ description: >-
 
 The Soar platform provides a number of services:
 
-A large database of maps and imagery displaying a wide variety of geographical information,e.g. weather, maritime tides, distribution of dust and ash, soil moisture... created over a long time period stretching back to  serachable by location <mark style="color:$danger;">**Need to test what other search keys can be used - there are filters in Discover section for 2 Map Types: LoFi and Georeferenced, which we should probably define (I can't right now) and then about 15 categorisations:**</mark>&#x20;
+A large database of maps and imagery displaying&#x20;
+
+* a wide variety of geographically distributed information,e.g. weather, maritime tides, distribution of dust and ash, soil moisture...&#x20;
+* with different time modalities, e.g. static maps created over a long time period stretching back to  <mark style="color:$danger;">**1800 (looking for read date of oldest),**</mark> maps displaying real time information feeds,&#x20;
+
+These Soar entires are serachable by :<mark style="color:$danger;">**Need to test what other search keys can be used - there are filters in Discover section for 2 Map Types: LoFi and Georeferenced, which we should probably define (I can't right now) and then about 15 categorisations:**</mark>
+
+location &#x20;
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -25,7 +32,7 @@ A large database of maps and imagery displaying a wide variety of geographical i
 
 One of Soar's most immediately valuable features is the ability to overlay imagery and maps in layers and the adjust transparency. <mark style="color:$danger;">**Need to test can we adjust the relative scale of the maps to get them to fit over one another in the same location??**</mark>
 
-
+<mark style="color:$danger;">**NB Note that Soar puts labels over Thumbnail maps to give information as to format, but these formats don't correspond exactly to the filters offered by Soar - labels include "GIF", "REAL TIME", "DAILY", POPULAR", "NEW", "LoFi (which IS one of the filterable categories)**</mark>
 
 The facility to create maps (called Stoaries <mark style="color:$danger;">**need to check the exact definition of a Stoary - is it a set of digital pages which can include gif animation?**</mark>) to communicate complex information, e.g. changes over time
 
@@ -79,5 +86,5 @@ Here's an uploaded gif map example [https://soar.earth/maps/oceania-judbarra-nat
 
 | Page maintainer                           |
 | ----------------------------------------- |
-| Afton and Sophie Tedling 2/9/25 16:22 GMT |
+| Afton and Sophie Tedling 2/9/25 16:37 GMT |
 |                                           |
