@@ -15,11 +15,25 @@ description: >-
 
 The Soar platform provides a number of services:
 
-A large database of maps and imagery displaying a wide variety of geographical information,e.g. weather, maritime tides, distribution of dust and ash, soil moisture... created over a long time period stretching back to  serachable by location
+A large database of maps and imagery displaying a wide variety of geographical information,e.g. weather, maritime tides, distribution of dust and ash, soil moisture... created over a long time period stretching back to  serachable by location <mark style="color:$danger;">**Need to test what other search keys can be used - there are filters in Discover section for 2 Map Types: LoFi and Georeferenced, which we should probably define (I can't right now) and then about 15 categorisations:**</mark>&#x20;
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 One of Soar's most immediately valuable features is the ability to overlay imagery and maps in layers and the adjust
 
-### The Interface
+
+
+The facility to create maps (called Stoaries <mark style="color:$danger;">**need to check the exact definition of a Stoary - is it a set of digital pages which can include gif animation?**</mark>) to communicate complex information, e.g. changes over time
+
+<mark style="color:$danger;">**NB There are quite a few things which don't actually export to GeoJSON format when you export**</mark>
+
+<div data-full-width="true"><figure><img src=".gitbook/assets/image.png" alt="" width="305"><figcaption><p><mark style="color:$danger;">Dont necessarily intend this to be in the finished entry, just showing it here</mark></p></figcaption></figure></div>
+
+## The Interface
 
 
 
@@ -49,7 +63,7 @@ One of Soar's most immediately valuable features is the ability to overlay image
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+[Exploring a Digital Atlas of Maps and Imagery on Soar.Earth from Open.gis.lab](https://opengislab.com/blog/2021/7/11/exploring-a-digital-atlas-of-maps-and-imagery-on-soarearth)
 
 ## Tool provider
 
