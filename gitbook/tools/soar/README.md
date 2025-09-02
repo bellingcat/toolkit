@@ -20,7 +20,7 @@ The Soar platform provides a number of services: <mark style="color:$danger;">**
 * a wide variety of geographically distributed information,e.g. weather, maritime tides, distribution of dust and ash, soil moisture, population, radar, ...&#x20;
 * different time modalities, e.g. static maps created over a long time period stretching back to  <mark style="color:$danger;">**1800 (looking for read date of oldest),**</mark> maps displaying real time information feeds, animated gif maps displaying a sequence of changing information over time
 
-These Soar database entries are searchable by : <mark style="color:$danger;">**Need to test what other search keys apart from Location can be used - there are filters in Discover section for 2 Map Types:**</mark> [<mark style="color:$danger;">**LoFi**</mark>](#user-content-fn-1)[^1] <mark style="color:$danger;">**and Georeferenced (use Soar definitions of these two terms - i.e. either fits over a geo world map or not), which we should probably define (I can't right now) and then about 15 categorisations (Afton finds categorisation to be arbitrary - TEST one map can be categorised under more than one heading - test):**</mark>
+These Soar database entries are searchable by : <mark style="color:$danger;">**Need to test what other search keys apart from Location can be used - there are filters in Discover section for 2 Map Types:**</mark> [<mark style="color:$danger;">**LoFi**</mark>](#user-content-fn-1)[^1] <mark style="color:$danger;">**and Georeferenced (use Soar definitions of these two terms - i.e. either fits over a geo world map or not), which we should probably define (I can't right now) and then about 15 categorisations (Afton finds categorisation to be arbitrary - TEST RESULT: one map can be categorised under more than one heading - test):**</mark>
 
 * location (Maps Section designed for this)&#x20;
 * **category (Discover Section designed for this)**
@@ -201,7 +201,7 @@ Soar, Perth, Australia<mark style="color:$danger;">**?**</mark>
 
 | Page maintainer                           |
 | ----------------------------------------- |
-| Afton and Sophie Tedling 2/9/25 18:58 GMT |
+| Afton and Sophie Tedling 2/9/25 19:04 GMT |
 |                                           |
 
 
