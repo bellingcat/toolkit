@@ -2,7 +2,7 @@
 description: >-
   Soar is a database of over a million diverse maps, on a platform where users
   can explore, upload, share and interact with  a vast collection of maps and
-  imagery.
+  imagery (including satellite, aerial & radar).
 ---
 
 # Soar
@@ -13,7 +13,15 @@ description: >-
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+The Soar platform provides a number of services:
+
+A large database of maps and imagery displaying a wide variety of geographical information,e.g. weather, maritime tides, distribution of dust and ash, soil moisture... created over a long time period stretching back to  serachable by location
+
+One of Soar's most immediately valuable features is the ability to overlay imagery and maps in layers and the adjust
+
+### The Interface
+
+
 
 ## Cost
 
