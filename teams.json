@@ -3586,5 +3586,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "DqZSUir6IQ1N6exKyNh3",
+    "title": "Police Records Access Project",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-09-02T20:20:42.085Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
