@@ -174,6 +174,10 @@ D. Responsible Sharing:
 
 [Exploring a Digital Atlas of Maps and Imagery on Soar.Earth from Open.gis.lab](https://opengislab.com/blog/2021/7/11/exploring-a-digital-atlas-of-maps-and-imagery-on-soarearth)
 
+## Similar Tools
+
+Similar for creating Stoaries, seeing satellite imagery...
+
 ## Tool provider
 
 Soar, Perth, Australia<mark style="color:$danger;">**?**</mark>
@@ -186,6 +190,6 @@ Soar, Perth, Australia<mark style="color:$danger;">**?**</mark>
 
 | Page maintainer                           |
 | ----------------------------------------- |
-| Afton and Sophie Tedling 2/9/25 18:01 GMT |
+| Afton and Sophie Tedling 2/9/25 18:16 GMT |
 |                                           |
 
