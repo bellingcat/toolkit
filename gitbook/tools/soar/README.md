@@ -13,9 +13,9 @@ description: >-
 
 ## Description
 
-The Soar platform provides a number of services:
+The Soar platform provides a number of services: <mark style="color:$danger;">**QUESTION: What is the difference bewteen the features "Maps" and "Discover"?**</mark>&#x20;
 
-A large database of maps and imagery displaying&#x20;
+1. A large database of maps and imagery displaying&#x20;
 
 * a wide variety of geographically distributed information,e.g. weather, maritime tides, distribution of dust and ash, soil moisture...&#x20;
 * with different time modalities, e.g. static maps created over a long time period stretching back to  <mark style="color:$danger;">**1800 (looking for read date of oldest),**</mark> maps displaying real time information feeds,&#x20;
@@ -34,7 +34,8 @@ One of Soar's most immediately valuable features is the ability to overlay image
 
 <mark style="color:$danger;">**NB Note that Soar puts labels over Thumbnail maps to give information as to format, but these formats don't correspond exactly to the filters offered by Soar - labels include "GIF", "REAL TIME", "DAILY", POPULAR", "NEW", "LoFi (which IS one of the filterable categories)**</mark>
 
-The facility to create maps (called Stoaries <mark style="color:$danger;">**need to check the exact definition of a Stoary - is it a set of digital pages which can include gif animation?**</mark>) to communicate complex information, e.g. changes over time
+2. An interface
+3. The facility to create maps (called Stoaries <mark style="color:$danger;">**need to check the exact definition of a Stoary - is it a set of digital pages which can include gif animation?**</mark>) to communicate complex information, e.g. changes over time
 
 <mark style="color:$danger;">**NB There are quite a few things which don't actually export to GeoJSON format when you export**</mark>
 
@@ -80,11 +81,11 @@ Here's an uploaded gif map example [https://soar.earth/maps/oceania-judbarra-nat
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer                           |
 | ----------------------------------------- |
-| Afton and Sophie Tedling 2/9/25 16:37 GMT |
+| Afton and Sophie Tedling 2/9/25 16:41 GMT |
 |                                           |
