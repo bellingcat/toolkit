@@ -23,7 +23,7 @@ A large database of maps and imagery displaying a wide variety of geographical i
 
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-One of Soar's most immediately valuable features is the ability to overlay imagery and maps in layers and the adjust
+One of Soar's most immediately valuable features is the ability to overlay imagery and maps in layers and the adjust transparency. <mark style="color:$danger;">**Need to test can we adjust the relative scale of the maps to get them to fit over one another in the same location??**</mark>
 
 
 
@@ -32,6 +32,8 @@ The facility to create maps (called Stoaries <mark style="color:$danger;">**need
 <mark style="color:$danger;">**NB There are quite a few things which don't actually export to GeoJSON format when you export**</mark>
 
 <div data-full-width="true"><figure><img src=".gitbook/assets/image.png" alt="" width="305"><figcaption><p><mark style="color:$danger;">Dont necessarily intend this to be in the finished entry, just showing it here</mark></p></figcaption></figure></div>
+
+Here's an uploaded gif map example [https://soar.earth/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99](https://soar.earth/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99)
 
 ## The Interface
 
@@ -77,5 +79,5 @@ The facility to create maps (called Stoaries <mark style="color:$danger;">**need
 
 | Page maintainer                           |
 | ----------------------------------------- |
-| Afton and Sophie Tedling 2/9/25 16:19 GMT |
+| Afton and Sophie Tedling 2/9/25 16:22 GMT |
 |                                           |
