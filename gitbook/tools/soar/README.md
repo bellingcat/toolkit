@@ -1,12 +1,15 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  Soar is a database of over a million diverse maps, on a platform where users
+  can explore, upload, share and interact with  a vast collection of maps and
+  imagery.
 ---
 
 # Soar
 
 ## URL
 
-https://example.com
+[https://soar.earth/](https://soar.earth/)
 
 ## Description
 
