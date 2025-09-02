@@ -11,11 +11,11 @@ description: Illicit online wildlife markets data from Brazil, South Africa and 
 
 ## Description
 
-This tool allows us to explore a [growing](https://globalinitiative.net/wp-content/uploads/2024/10/Monitoring-illegal-wildlife-trade-Brazil-and-South-Africa-GI-TOC-October-2024.pdf) phenomenon in the world of wildlife trafficking: the use of social networks and online marketplaces to offer live animals or parts of them.
+This tool allows us to explore a [growing](https://globalinitiative.net/wp-content/uploads/2024/10/Monitoring-illegal-wildlife-trade-Brazil-and-South-Africa-GI-TOC-October-2024.pdf) phenomenon in the world of wildlife trafficking: the use of social networks and online marketplaces to offer live animals or parts of them. To date, the tool has [recorded](https://www.linkedin.com/pulse/september-2025-the-global-initiative-against-tran-hqs9f/) nearly 13,000 online wildlife trade ads on various platforms, written in 29 different languages, across 10 data hubs.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-01-27 at 11.19.37 AM.png" alt=""><figcaption><p>Traffickers use social networks and online marketplaces such as Facebook Marketplace to sell or ask for live animals for sale or animal parts. The trade is sometimes <a href="https://globalinitiative.net/wp-content/uploads/2024/10/Monitoring-illegal-wildlife-trade-Brazil-and-South-Africa-GI-TOC-October-2024.pdf">connected</a> with other illegal markets such as drugs trafficking. The screenshot above is from a video that you can find <a href="https://www.youtube.com/watch?v=WfEKg_pqYvs\">here</a>.</p></figcaption></figure>
 
-You can filter by 31 species, 17 countries (among them Brazil, South Africa, Bangladesh, Colombia, India, Turkey, Thailand) and 40 different online marketplaces such as Instagram, Facebook, OLX and Mercado Livre (the last two refer to online marketplaces). When you perform a search you will get different visuals showing the number of detections, a market tracker and a trend monitor, all very useful to understand the market prevalence in certain online marketplaces.
+The system allows filtering by 31 species, 16 countries plus unknown location (among the countries you can find Brazil, South Africa, Bangladesh, Colombia, India, Turkey, Thailand) and 40 different online marketplaces such as Instagram, Facebook, OLX and Mercado Livre (the last two refer to online marketplaces). When you perform a search you will get different visuals showing the number of detections, a market tracker and a trend monitor, all very useful to understand the market prevalence in certain online marketplaces.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-02-28 at 5.57.41 PM.png" alt=""><figcaption><p>Here, for example, I have searched for Pangolin in all countries + all platforms covered by the site.</p></figcaption></figure>
 
@@ -47,7 +47,7 @@ None.
 
 ## Limitations
 
-Not all species are available and the tool only shows results for 16 countries. March 23, 2025 was the last update and information is not updated automatically. Information in datasets is not very detailed. There is no information on whether this site is updated manually by a team or whether its updated using keywords appearing in the monitored social media and marketplaces, however, [contributions](https://www.ecosolve.eco/about) can be made to the database, which would indicate that there may be human sources fact checking the information.
+Not all species are available and the tool only shows results for 16 countries plus unknown location. March 23, 2025 was the last update and information is not updated automatically. Information in datasets is not very detailed. There is no information on whether this site is updated manually by a team or whether its updated using keywords appearing in the monitored social media and marketplaces, however, [contributions](https://www.ecosolve.eco/about) can be made to the database, which would indicate that there may be human sources fact checking the information.
 
 ## Ethical Considerations
 
