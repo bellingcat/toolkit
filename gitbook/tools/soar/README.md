@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-The Soar platform provides a number of services: <mark style="color:$danger;">**QUESTION: What is the difference bewteen the features "Maps" and "Discover"?**</mark>&#x20;
+The Soar platform provides a number of services: <mark style="color:$danger;">**QUESTION: What is the difference bewteen the features "Maps" and "Discover"? Is it actually just two routes to the same database, Maps being searched by location and Discover doing searching by topic and type?**</mark>
 
 1. A large database of maps and imagery displaying&#x20;
 
@@ -30,7 +30,9 @@ location &#x20;
 
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-One of Soar's most immediately valuable features is the ability to overlay imagery and maps in layers and the adjust transparency. <mark style="color:$danger;">**Need to test can we adjust the relative scale of the maps to get them to fit over one another in the same location??**</mark>
+One of Soar's most immediately valuable features is the ability to overlay imagery and maps in layers and the adjust transparency. <mark style="color:$danger;">**Need to test can we adjust the relative scale of the maps to get them to fit over one another in the same location?? Or is the interaction with the satellite imagery different in these two modes of Map and Discover?**</mark>
+
+Another very valuable feature is that Soar inserts connective links between maps which cover the same area <mark style="color:$danger;">**Need to check this carefully and either bin or provide an example see**</mark> [<mark style="color:$danger;">**https://opengislab.com/blog/2021/7/11/exploring-a-digital-atlas-of-maps-and-imagery-on-soarearth**</mark>](https://opengislab.com/blog/2021/7/11/exploring-a-digital-atlas-of-maps-and-imagery-on-soarearth)
 
 <mark style="color:$danger;">**NB Note that Soar puts labels over Thumbnail maps to give information as to format, but these formats don't correspond exactly to the filters offered by Soar - labels include "GIF", "REAL TIME", "DAILY", POPULAR", "NEW", "LoFi (which IS one of the filterable categories)**</mark>
 
@@ -48,7 +50,35 @@ Here's an uploaded gif map example [https://soar.earth/maps/oceania-judbarra-nat
 
 ## The Interface
 
+{% tabs fullWidth="true" %}
+{% tab title="DATA INPUT" %}
+Location
 
+Location and time
+{% endtab %}
+
+{% tab title="SOAR OUTPUT" %}
+Maps
+
+Satellite imagery
+{% endtab %}
+
+{% tab title="USE CASES" %}
+Looking for a map
+
+Looking for satellite imagery
+
+Triangulating a problem by overlaying two data sources and using transparency
+{% endtab %}
+
+{% tab title="GRAPHICAL INPUT OPTIONS" %}
+Input text name of location OR
+
+Geographical co-ordinates OR
+
+Point and click at a location on a map
+{% endtab %}
+{% endtabs %}
 
 ## Cost
 
@@ -90,5 +120,5 @@ Here's an uploaded gif map example [https://soar.earth/maps/oceania-judbarra-nat
 
 | Page maintainer                           |
 | ----------------------------------------- |
-| Afton and Sophie Tedling 2/9/25 17:28 GMT |
+| Afton and Sophie Tedling 2/9/25 17:41 GMT |
 |                                           |
