@@ -121,7 +121,7 @@ Point and click at a location on a map
 
 &#x20; Latitude/Longitude display.
 
-2\. QGIS Plugin (for advanced users):
+2\. QGIS Plugin (for advanced users): <mark style="color:$info;">**TO TEST**</mark>
 
 * Direct export of QGIS maps and images to Soar.
 * Browse and load Soar's public catalog into QGIS projects.
