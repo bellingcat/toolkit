@@ -3,6 +3,7 @@ description: >-
   Chronotrains is a free interactive map designed to explore the reach of
   Europe’s extensive rail network. Enter a starting point and travel time to see
   reachable destinations by train.
+updated: '2025-09-02'
 ---
 
 # Chronotrains
