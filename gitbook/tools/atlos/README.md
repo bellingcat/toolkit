@@ -1,15 +1,15 @@
 ---
+updated: '2025-06-30'
 description: >-
   ATLOS is a platform for collaborative and large-scale open source
   investigations.
-updated: '2025-06-30'
 ---
 
 # Atlos
 
 ## URL
 
-[https://www.atlos.org/](https://www.atlos.org/) &#x20;
+[https://www.atlos.org/](https://www.atlos.org/)
 
 ## Description
 
@@ -26,7 +26,7 @@ You can, on a single page:
 
 <figure><img src=".gitbook/assets/sourcematerial.png" alt=""><figcaption><p>View of an archived file, in this example a video.<br>Source: <a href="https://docs.atlos.org/incidents/source-material/">https://docs.atlos.org/incidents/source-material/</a></p></figcaption></figure>
 
-* see material displayed in default greyscale, or colour;
+* see visual material displayed in default greyscale, or colour;
 * organise who is assigned to a case or will receive updates on it;
 * work on the case simultaneously;
 * .... and transparently (no comments written on ATLOS can be deleted afterwards, the whole investigation process is recorded);
@@ -51,7 +51,7 @@ This platform is open source (see [here](https://github.com/atlosdotorg/atlos)),
 
 Free for a limited number of incidents that can be created and modified per month. Even with this free version, you have unlimited view access, your team can be of any size, and you can export your data whenever you want.
 
-Further pricing information can be found [here](https://docs.atlos.org/overview/pricing/). &#x20;
+Further pricing information can be found [here](https://docs.atlos.org/overview/pricing/).
 
 ## Level of difficulty
 
@@ -75,7 +75,7 @@ Note that the tool providers have clarified [in their FAQ section](https://www.a
 
 ## Ethical Considerations
 
-Take a look at the Atlos security and risk model which is available [here](https://docs.atlos.org/safety-and-security/risk-model/).&#x20;
+Take a look at the Atlos security and risk model which is available [here](https://docs.atlos.org/safety-and-security/risk-model/).
 
 ## Guides and articles
 
@@ -84,7 +84,7 @@ Take a look at the Atlos security and risk model which is available [here](https
 
 ## Tool provider
 
-ATLOS is a collaborative platform created by two Stanford University students ([Miles McCain](https://github.com/milesmcc) and [Noah Schechter](https://github.com/noah-schechter), United States) who formed a non-profit association.&#x20;
+ATLOS is a collaborative platform created by two Stanford University students ([Miles McCain](https://github.com/milesmcc) and [Noah Schechter](https://github.com/noah-schechter), United States) who formed a non-profit association.
 
 ## Advertising Trackers
 
