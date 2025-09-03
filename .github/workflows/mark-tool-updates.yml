@@ -47,15 +47,5 @@ jobs:
         if: steps.changes.outputs.all == 'true'
         uses: ad-m/github-push-action@master
         with:
-          branch: updates
-          force: true
+          branch: main
 
-      - name: Create Pull Request
-        if: steps.changes.outputs.all == 'true'
-        uses: peter-evans/create-pull-request@v7
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: updates
-          commit-message: "Mark tools updated today"
-          title: "Mark tool updates"
-          body: "This pull request updates timestamps on tool pages"
