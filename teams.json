@@ -3598,5 +3598,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "fWeiv1BDWrJwm6jsxrYA",
+    "title": "Species+",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-09-03T09:34:59.460Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
