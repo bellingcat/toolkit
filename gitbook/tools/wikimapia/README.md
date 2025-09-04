@@ -59,7 +59,7 @@ While both are crowdsourced, they are fundamentally different in their purpose a
 | **Primary Use**    | A historical archive for viewing past, user-generated labels.                                 | A live, current, and detailed global map for present-day use.                                                               |
 | **Data Freshness** | Stale (mostly pre-2016 data).                                                                 | Continuously updated by active contributors.                                                                                |
 | **Data Type**      | Simple polygons with informal text descriptions.                                              | Highly structured geospatial data (points, lines, relations) with standardized tags.                                        |
-| **Community**      | Low activity. A small forum presence but no widespread map updates.                           | Active global community with established editing rules and quality control.                                                 |
+| **Community**      | Low activity. A small forum presence but no widespread map updates.                           | Active global community with established editing rules and quality control efforts.                                         |
 | **License**        | [Restrictive](https://wikimapia.org/terms_reference.html), with unclear terms for data reuse. | [Open Database License (ODbL)](https://www.openstreetmap.org/copyright), allowing data to be freely used and redistributed. |
 
 #### Who Should Use Which Tool?
