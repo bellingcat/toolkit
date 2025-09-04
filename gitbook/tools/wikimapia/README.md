@@ -16,7 +16,7 @@ description: >-
 
 Wikimapia is a collaborative mapping project that combines an interactive map with a wiki system. While it aims to describe every location on Earth, researchers must understand that the tool is a historical archive, not a current map. The platform is [no longer actively maintained](https://en.wikipedia.org/wiki/Wikimapia#Decline_and_current_status), a fact supported by several key observations.
 
-Firstly, many of the site's secondary features, such as the official "Wikimapia statistics" pages, are broken and have been non-functional for years. Secondly, while a live "Countries watchlist" feed shows that a handful of users are still making minor edits, the rate of adding new, significant places is extremely low—roughly 100-150 per week based on an analysis of the "New places" feed. This low rate of meaningful updates means the vast majority of the data is several years out of date and cannot be considered a reflection of the current reality.
+Firstly, many of the site's secondary features, such as the official "Wikimapia statistics" pages, are broken and have been non-functional for years. Secondly, while a live "Countries watchlist" feed shows that a handful of users are still making minor edits, the rate of adding new, significant places is extremely low—roughly 100-150 per week based on our analysis of the "New places" feed. This low rate of meaningful updates means the vast majority of the data is several years out of date and cannot be considered a reflection of the current reality.
 
 Despite its age, Wikimapia's historical dataset can be a valuable source for open-source researchers in specific contexts:
 
