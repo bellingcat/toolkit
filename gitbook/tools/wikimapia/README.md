@@ -39,9 +39,7 @@ The log shows user activity from the year 2014, specifically highlighting two ke
 * **Measure distance:** measure distance between points in feet and metres.
 * **Multilingual Interface:** The user interface is available in multiple languages.
 
-This single screenshot illustrates two of Wikimapia's features working together. The main map view shows the result of a category filter, displaying only locations tagged as a "hospital" in the Berlin area. By selecting one of these hospitals, the information panel on the left opens, revealing details about that specific place, including the "last modified" date located at the very bottom of the panel.
-
-<figure><img src=".gitbook/assets/berlin_hospital_search.png" alt=""><figcaption><p>Demonstrating multiple Wikimapia features: a category search for "hospital" in Berlin, and the "last modified" date for a specific entry.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/berlin_hospital_search.png" alt=""><figcaption><p>This screenshot illustrates two of Wikimapia's features working together. The main map view shows the result of a category filter, displaying only locations tagged as a "hospital" in the Berlin area. By selecting one of these hospitals, the information panel on the left opens, revealing details about that specific place, including the "last modified" date located at the very bottom of the panel.</p></figcaption></figure>
 
 ### Use Case examples for Open Source Researchers
 
