@@ -50,7 +50,7 @@ The log shows user activity from the year 2014, specifically highlighting two ke
 
 ## Similar Tools: Wikimapia vs. OpenStreetMap
 
-For nearly all modern mapping needs, OpenStreetMap (OSM) is the recommended alternative to Wikimapia. It is the tool that has effectively replaced Wikimapia as the leading global, collaborative mapping project.
+For nearly all modern mapping needs, OpenStreetMap (OSM) is the recommended alternative to Wikimapia. In our point of view, it is the tool that has effectively replaced Wikimapia as the leading global, collaborative mapping project.
 
 While both are crowdsourced, they are fundamentally different in their purpose and current state.
 
