@@ -17,6 +17,8 @@ description: >-
 
 <mark style="color:$danger;">**NOTE: NOT ALL MAPS HAVE TRANSPARENCY FEATURE**</mark>&#x20;
 
+<mark style="color:$info;">Based on our tests, the category "geo-referenced maps" mostly has the transparency feature. However, this feature cannot be used on "lo-fi" maps.</mark>&#x20;
+
 <mark style="color:$danger;">**NOTE: Check base data is OSM**</mark>
 
 <mark style="color:$danger;">**NOTE: Afton discovered some very high resolution 8cm per pixel maps from sources like EU on Soar**</mark>
@@ -34,7 +36,22 @@ The Soar platform provides a number of services: <mark style="color:$danger;">**
 * a wide variety of geographically distributed information,e.g. weather, maritime tides, distribution of dust and ash, soil moisture, population, radar, ...&#x20;
 * different time modalities, e.g. static maps created over a long time period stretching back to  <mark style="color:$danger;">**1800 (looking for read date of oldest),**</mark> maps displaying real time information feeds, animated gif maps displaying a sequence of changing information over time
 
-These Soar database entries are searchable by : <mark style="color:$danger;">**Need to test what other search keys apart from Location can be used - there are filters in Discover section for 2 Map Types:**</mark> [<mark style="color:$danger;">**LoFi**</mark>](#user-content-fn-1)[^1] <mark style="color:$danger;">**and Georeferenced (use Soar definitions of these two terms - i.e. either fits over a geo world map or not), which we should probably define (I can't right now) and then about 15 categorisations (Afton finds categorisation to be arbitrary - TEST RESULT: one map can be categorised under more than one heading - test):**</mark>
+These Soar database entries are searchable by : <mark style="color:$danger;">**Need to test what other search keys apart from Location can be used - there are filters in Discover section for 2 Map Types:**</mark>&#x20;
+
+[<mark style="color:$danger;">**LoFi**</mark>](#user-content-fn-1)[^1] <mark style="color:$danger;">**and Georeferenced (use Soar definitions of these two terms - i.e. either fits over a geo world map or not), which we should probably define (I can't right now) and then about 15 categorisations (Afton finds categorisation to be arbitrary - TEST RESULT: one map can be categorised under more than one heading - test):**</mark>
+
+<mark style="color:$info;">**(Afton's try at definition)**</mark>&#x20;
+
+<mark style="color:$info;">**LoFi Maps - short for "low-fidelity". According to a June 25, 2025 Newsletter (mailing list) - these maps focus more on visual appeal than technical accuracy. In other words, these are image files that can't be layered on top of standard geographic basemaps like OSM due to the lack of necessary data to position them on a map accurately. Users may still zoom in and pan around, but it's best to treat them as standalone images that can't be integrated with geographic layers.**</mark>&#x20;
+
+<mark style="color:$info;">**(The verbatim from the newsletter: "**</mark>
+
+| <table data-header-hidden><thead><tr><th></th></tr></thead><tbody><tr><td><table data-header-hidden><thead><tr><th></th></tr></thead><tbody><tr><td>At Soar, we often come across maps that are more visual or artistic in nature. These are what we call <em>LoFi Maps</em> - short for <em>low-fidelity</em>. Put simply, LoFi Maps are maps that don't include the data that places them over the base map. Instead, they're viewable as a standard image which you can zoom into, pan around, and explore, just without the base map.</td></tr></tbody></table></td></tr><tr><td>At Soar, we often come across maps that are more visual or artistic in nature. These are what we call <em>LoFi Maps</em> - short for <em>low-fidelity</em>. Put simply, LoFi Maps are maps that don't include the data that places them over the base map. Instead, they're viewable as a standard image which you can zoom into, pan around, and explore, just without the base map.</td></tr></tbody></table> |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <table data-header-hidden><thead><tr><th></th></tr></thead><tbody><tr><td>At Soar, we often come across maps that are more visual or artistic in nature. These are what we call <em>LoFi Maps</em> - short for <em>low-fidelity</em>. Put simply, LoFi Maps are maps that don't include the data that places them over the base map. Instead, they're viewable as a standard image which you can zoom into, pan around, and explore, just without the base map.</td></tr></tbody></table>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| At Soar, we often come across maps that are more visual or artistic in nature. These are what we call _LoFi Maps_ - short for _low-fidelity_. Put simply, LoFi Maps are maps that don't include the data that places them over the base map. Instead, they're viewable as a standard image which you can zoom into, pan around, and explore, just without the base map.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+
+
 
 * location (Maps Section designed for this)&#x20;
 * **category (Discover Section designed for this)**
@@ -129,7 +146,7 @@ Point and click at a location on a map
 
 Source: [Soar.Earth Digital Atlas QGIS Plugin - North Road](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)
 
-3\. Collaboration Features: <mark style="color:$info;">The pin feature and embed maps are not a feature that is available anymore, I was looking for it for about an hour but cannot find it. So this must be outdated. I will strike through for now instead of delete.</mark>&#x20;
+3\. Collaboration Features: <mark style="color:$info;">The pin feature and embed maps are not features that are available anymore. So this must be outdated. I will strike through for now instead of delete.</mark>&#x20;
 
 * "<mark style="color:$info;">P</mark>~~<mark style="color:$info;">in" feature to save and overlay layers.</mark>~~
 * ~~<mark style="color:$info;">Annotations visible in embedded maps for collaborative context.</mark>~~
@@ -163,6 +180,10 @@ Overall: For a casual user exploring maps, the difficulty is low. For an investi
 * Data Analysis Beyond Basic Visualization: While Soar provides basic tools like measurement and annotation, complex spatial analysis typically requires exporting data to dedicated GIS software (like QGIS), indicating that Soar serves more as a data repository and visualization tool than a comprehensive analytical suite.
 
 ## Requirements
+
+<mark style="color:$info;">Account sign up</mark>
+
+<mark style="color:$info;">Modern browser - There are definitely moments where loading maps and zooming in for details caused my browser to freeze.</mark>&#x20;
 
 \[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
 
