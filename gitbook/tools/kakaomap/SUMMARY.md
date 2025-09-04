@@ -1,5 +1,5 @@
 # Table of contents
 
-* [KakaoMap](README.md)
+* [Kakao Map](README.md)
 * [Categories](categories.md)
 * [Regions](regions.md)
