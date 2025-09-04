@@ -29,7 +29,7 @@ The screenshot below with the view of [Donetsk International Airport](https://ww
 
 The log shows user activity from the year 2014, specifically highlighting two key changes in response to the battle for the airport. First, at Revision 56, a user adds a protection status of "(destroyed)"; this is immediately followed by Revision 58, where the same user performs an "Edit title \[en]", adding the word "Ruined" to the official name. This sequence demonstrates how Wikimapia was updated in near real-time by its users to try to document the consequences of a major conflict.
 
-<figure><img src=".gitbook/assets/wikimapia_airport_tag.png" alt=""><figcaption><p>This screenshot captures the edit history for the Donetsk International Airport entry on Wikimapia, providing a clear example of its use as a historical ledger.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/wikimapia_airport_tag.png" alt=""><figcaption><p>This screenshot captures the edit history for the Donetsk International Airport entry on Wikimapia, providing a clear example of user efforts to use it as a historical ledger.</p></figcaption></figure>
 
 ### Features:
 
