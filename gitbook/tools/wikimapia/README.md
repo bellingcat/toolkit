@@ -43,7 +43,7 @@ The log shows user activity from the year 2014, specifically highlighting two ke
 
 ### Use Case examples for Open Source Researchers
 
-1. **Corooborating Old Evidence:** Use the map's historical annotations to find supplementary evidence for claims or events mentioned in old news reports, videos, or documents from the 2007-2015 period.
+1. **Corooborating Old Evidence:** Use the map's historical annotations to find supplementary information on claims or events mentioned in old news reports, videos, or documents from the 2007-2015 period.
 2. **Discovering Informal Place Names:** Identify local, unofficial, or historical names for locations that do not appear on official maps, which can be crucial for keyword searching in local languages.
 3. **Analyzing Historical Site Layouts:** Examine the detailed, user-drawn layouts of industrial sites, military bases, or critical infrastructure as they existed before being altered, expanded, or destroyed.
 4. **Cultural and Historical Context:** Gain insights into the significance of local landmarks or historical sites based on what users were documenting and describing during the platform's most active years.
