@@ -42,9 +42,17 @@ These Soar database entries are searchable by : <mark style="color:$danger;">**N
 
 <mark style="color:$info;">(Afton's try at definition --Feel free to rephrase!)</mark>&#x20;
 
-<mark style="color:$info;">LoFi Maps - short for "low-fidelity". According to a June 25, 2025 Newsletter (mailing list) - these maps focus more on visual appeal than technical accuracy. In other words, these are image files that can't be layered on top of standard geographic basemaps like OSM due to the lack of necessary data to position them on a map accurately. Users may still zoom in and pan around, but it's best to treat them as standalone images that can't be integrated with geographic layers.</mark>&#x20;
+<mark style="color:$info;">**LoFi Maps**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">- short for "low-fidelity". According to a June 25, 2025 Newsletter (mailing list) - these maps focus more on visual appeal than technical accuracy. In other words, these are image files that can't be layered on top of standard geographic basemaps like OSM due to the lack of necessary data to position them on a map accurately. Users may still zoom in and pan around, but it's best to treat them as standalone images that can't be integrated with geographic layers.</mark>&#x20;
+
+<mark style="color:$info;">Users cannot use the transparency slider for LoFi maps.</mark>&#x20;
+
+<figure><img src=".gitbook/assets/lofi.png" alt="" width="375"><figcaption><p><mark style="color:$info;">for reference only (we dont have to keep it in the final description)</mark> </p></figcaption></figure>
 
 **(The verbatim from the newsletter: "**<mark style="color:$info;">At Soar, we often come across maps that are more visual or artistic in nature. These are what we call LoFi Maps - short for low-fidelity. Put simply, LoFi Maps are maps that don't include the data that places them over the base map. Instead, they're viewable as a standard image which you can zoom into, pan around, and explore, just without the base map.")</mark>
+
+<mark style="color:$info;">**Georeferenced Maps -**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">maps or images (whether satellite, aerial, or drone capture) that contain specific Earth coordinates and allow for precise geographic positioning. These coordinate-linking allows for layering additional map data on top or making transparency adjustments.</mark>&#x20;
+
+<figure><img src=".gitbook/assets/2025-09-03_21-39-44.png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
@@ -176,9 +184,9 @@ Overall: For a casual user exploring maps, the difficulty is low. For an investi
 
 ## Requirements
 
-<mark style="color:$info;">Account sign up</mark>
+<mark style="color:$info;">Account sign up / Email Address</mark>
 
-<mark style="color:$info;">Modern browser - There are definitely moments where loading maps and zooming in for details caused my browser to freeze.</mark>&#x20;
+<mark style="color:$info;">Modern browser - There are definitely moments where loading maps and zooming in for details can cause the browser to freeze.</mark>&#x20;
 
 \[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
 
@@ -233,7 +241,7 @@ Soar, Perth, Australia<mark style="color:$danger;">**?**</mark>
 
 | Page maintainer                                            |
 | ---------------------------------------------------------- |
-| Afton 2/9/25 21:39 GMT and Sophie Tedling 2/9/25 20:15 GMT |
+| Afton 4/9/25 14:22 GMT and Sophie Tedling 2/9/25 20:15 GMT |
 |                                                            |
 
 
