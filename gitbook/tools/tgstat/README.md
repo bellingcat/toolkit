@@ -15,7 +15,7 @@ description: >-
 
 ## Description
 
-TGStat is a Russia-based social media analytics platform that offers comprehensive statistics and insights for Telegram channels and groups. In other words, it is a tool that gathers publicly available Telegram data in real time to show you how well channels are performing.&#x20;
+TGStat is a Russia-based social media analytics platform that offers comprehensive statistics and insights for Telegram channels and groups. In other words, it is a tool that gathers publicly available Telegram data in real time to show how well channels are performing.&#x20;
 
 {% hint style="warning" %}
 Use a research account if using TGStat, since[ it is unclear what data it gathers from its users.](https://gijn.org/resource/tipsheet/tipsheet-latest-tools-investigating-with-telegram)
@@ -25,31 +25,21 @@ According to its website, it provides detailed information on popular Telegram c
 
 For Telegram channels, TGStat covers statistics for:
 
-\- Subscriber numbers
-
-\- Average post reach
-
-\- Daily views &#x20;
-
-\- Share count
-
-\- Mentions
-
-\- Posting frequency
+* Number of subscribers
+* Average post reach
+* Daily views &#x20;
+* Share count
+* Mentions
+* Posting frequency
 
 For Telegram groups, TGStat also provides analytics focusing on various aspects such as:
 
--Member Growth
-
--Engagement Metrics
-
--User Activity
-
--Member Demographics
-
--Content Analysis
-
--Administrator Insights
+* Member Growth
+* Engagement Metrics
+* User Activity
+* Member Demographics
+* Content Analysis
+* Administrator Insights
 
 TGStat is helpful for discovery, especially for those monitoring events in Russian-speaking countries, post-Soviet regions, or far-right groups. It analyzes a diverse set of channels and groups. The statistics are constantly being refreshed and updated in [real-time](https://databar.ai/explore/tgstat).
 
@@ -61,7 +51,7 @@ TGStat solves a discovery and time management issue. Telegram’s search functio
 
 It helps researchers find relevant channels to follow on specific topics. Some features are:
 
-1. _Filter by country:_ On TGStat, users can filter channels by country. The list of countries available in the search filters are: Russia, Ukraine, Belarus, Uzbekistan, Kazakhstan, Kyrgyzstan, Iran, China, India, and Ethiopia.
+1. _Filter by country:_  Users can filter channels by country. The list of countries available in the search filters are: Russia, Ukraine, Belarus, Uzbekistan, Kazakhstan, Kyrgyzstan, Iran, China, India, and Ethiopia.
 
 <figure><img src=".gitbook/assets/IMG_0178.jpg" alt=""><figcaption><p>This shows a catalog of public Telegram channels and open groups categorzed by country. The user can navigate to this feature by clicking “Catalog” in the upper left, then clicking “channels and groups catalog”. </p></figcaption></figure>
 
@@ -126,7 +116,9 @@ In addition, users can see a channel or group's popularity over time.
 
 <figure><img src=".gitbook/assets/IMG_0211.jpeg" alt=""><figcaption><p>When trying to look for more information on a research topic, or to figure out which other channels may be discussing a particular incident under investigation, TGStat users can navigate the “similar channels” or “related channels”. This can be found on the main page of the user’s TGStat profile.  </p></figcaption></figure>
 
-_**Analytics:**_ TGStat assists in analyzing content and reach. It provides insight into the channel or group’s performance, such as subscriber numbers, subscribers acquired over time, or those acquired based on the popularity of posts, reach, views per post, and engagement metrics (likes, comments, shares) per individual posts. This enables the user to understand what content resonates with a particular audience.
+### **Analytics**
+
+TGStat helps analyze content and reach. It provides insight into the channel or group’s performance, such as subscriber numbers, subscribers acquired over time, or those acquired based on the popularity of posts, reach, views per post, and engagement metrics (likes, comments, shares) per individual posts. This enables the user to understand what content resonates with a particular audience.
 
 <figure><img src=".gitbook/assets/IMG_0195 (1).PNG" alt=""><figcaption><p>This screenshot shows a TGStat feature called “Views Analysis”. This feature allows users to check a post’s popularity by date and by hour after it's been published. This feature can be accessed through the menu on the left of the page.</p></figcaption></figure>
 
@@ -237,6 +229,14 @@ _**Use cases**_
 TGStat has been particularly used in content verification, especially in tracking the spread of disinformation/ misinformation. (See: DFRLab’s lists of research involving misinformation. A good example is the following article from DFRLab: [https://dfrlab.org/2024/02/08/russian-milbloggers-falsely-accuse-kazakhstan-of-opening-a-nato-military-facility/](https://dfrlab.org/2024/02/08/russian-milbloggers-falsely-accuse-kazakhstan-of-opening-a-nato-military-facility/)
 
 TGStat was also used to analyze the far reaching influence of Telegram communities on Russian media outlets in the country’s war against Ukraine: [https://dfrlab.org/2024/06/10/another-battlefield-russian-telegram/](https://dfrlab.org/2024/06/10/another-battlefield-russian-telegram/).
+
+### Similar Tools
+
+| TGStat                                                                         | Web-based analytics; easy dashboard                    | <p>Analytics focused on public Telegram channels/groups, tracking metrics such as subscriber growth, reach, mentions, posting frequency, engagement trends, and citation (ingoing and outgoing mentions).</p><p>Filtering by country,  category, langauge and real-time updates</p><p>API</p> | <p><br></p><p>The country filter useful mostly on post-Soviet regions; other regions lacks country filter</p><p><br></p><p>Paid version required for detailed data, and cards from the US and other countries can’t be used for subscription. </p><p><br></p><p>(see limitations section <a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/tgstat#limitations">above</a>)</p> |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Telemetr.io](https://bellingcat.gitbook.io/toolkit/more/all-tools/telemetrio) | Web based analytics; robust interface                  | <p>Tracking metrics such as subscriber growth, reach, mentions, posting frequency, engagement trends, and citation/ quoting.</p><p>Fraud detection, real time alerts</p><p>Search by post or by ad</p><p><br></p><p>API</p><p>visualization</p><p>API</p><p><br></p>                          | <p><br></p><p>Advanced features require a subscriptions</p><p><br></p><p>(see more <a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/telemetrio#limitations">here</a>)</p>                                                                                                                                                                                                    |
+| [TelegramDB](https://bellingcat.gitbook.io/toolkit/more/all-tools/telegramdb)  | Telegram bot interface; minimal text-based commands    | <p>Directory of public entities (groups, channels, users)</p><p><br></p><p>Keyword, user and username search</p><p><br></p><p>Groups joined by users</p><p><br></p><p>Live stats </p>                                                                                                         | <p>Public content only</p><p><br></p><p>API constraints</p><p><br></p><p>Search Costs</p><p><br></p><p>User -specific searches require paid vredits</p><p><br></p><p>(See more <a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/telegramdb#limitations">here</a>)</p>                                                                                                        |
+| [Telepathy](https://bellingcat.gitbook.io/toolkit/more/all-tools/telepathy)    | Scraping via command line interface; targeted datasets | <p>Extracts chat metadata</p><p><br></p><p>Archiving of messages</p><p><br></p><p>User and location search</p><p><br></p><p>Export CSV</p><p><br></p><p>Chat Exports</p>                                                                                                                      | <p>Requires technical expertise; command line familiarity, python</p><p><br></p><p>Windows compatibility issues</p><p><br></p><p>(See more <a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/telepathy#limitations">here</a>)</p>                                                                                                                                             |
 
 ### Tool Provider
 
