@@ -61,74 +61,12 @@ jobs:
           echo 'REVIEW_OPTION_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .options[] | select(.name=="Review Requested") |.id' project_data.json) >> $GITHUB_ENV
 
 
-      # Gets items from the project and stores them in project_items.json
-      - name: Get items
+      # Downloads all items from the project and stores them in project_items.json
+      - name: Get project items
         env:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
         run: |
-          gh api graphql -f query='
-            query (
-              $project: ID!
-            ) {
-              node(id: $project) {
-                  ... on ProjectV2 {
-                    items(last: 100) {
-                      nodes {
-                        id
-                        fieldValues(first: 8) {
-                          nodes{
-                            ... on ProjectV2ItemFieldTextValue {
-                              text
-                              field {
-                                ... on ProjectV2FieldCommon {
-                                  name
-                                }
-                              }
-                            }
-                            ... on ProjectV2ItemFieldDateValue {
-                              date
-                              field {
-                                ... on ProjectV2FieldCommon {
-                                  name
-                                }
-                              }
-                            }
-                            ... on ProjectV2ItemFieldSingleSelectValue {
-                              name
-                              field {
-                                ... on ProjectV2FieldCommon {
-                                  name
-                                }
-                              }
-                            }
-                          }
-                        }
-                        content{
-                          ... on DraftIssue {
-                            title
-                          }
-                          ...on Issue {
-                            title
-                            assignees(first: 10) {
-                              nodes{
-                                login
-                              }
-                            }
-                          }
-                          ...on PullRequest {
-                            title
-                            assignees(first: 10) {
-                              nodes{
-                                login
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }' -f project=$PROJECT_ID -f status_field=$STATUS_FIELD_ID -f status_value=${{ env.TODO_OPTION_ID }} -f date_field=$DATE_FIELD_ID -f date_value=$DATE > project_items.json
+          ./src/project_items.bash
 
       # Read project_items.json, find item ids that need update '
       - name: Process items
