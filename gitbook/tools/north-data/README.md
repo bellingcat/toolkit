@@ -18,7 +18,7 @@ North Data is an online platform offering detailed company information sourced f
 Key features and content include:
 
 1. **Company Profiles including**:
-   * **General Information**: Includes company name, address, legal form, registration details, contact information, and identifiers such as VAT numbers.
+   * **General Information**: This includes the company name, address, legal form, registration details, contact information, and identifiers such as VAT numbers.
    * **Financial Data**: Provides revenue, profit, equity, liabilities, employee numbers, average salaries, and key financial ratios like return on equity and earnings growth.
    * **Corporate Structure**: Details about subsidiaries, parent companies, affiliated entities, shareholders, and ownership structure.
    * **Management and Key Personnel**: Information on directors and key executives, historical data on management changes, and significant personnel events.
@@ -26,8 +26,8 @@ Key features and content include:
 2. **Advanced Search and Filtering**: By industry segment, performance indicators, and events. Full attribute list available [here](https://help.northdata.com/en/center/power-search-overview).
 3. **Data Accessibility**: Free basic access, premium services, and API integration.
 4. **Visualization Tools**: Plotting financial information and link analysis.
-5. **Power Search & EUID look-ups:** over 60 field filters (geo, turnover, ESG keywords, EUID, etc.) with export to CSV/XLSX.
-6. **Google Sheets integration:** official Apps-Script template fetches live indicators into a spreadsheet.
+5. **Power Search & EUID look-ups:** over 60 field filters (including geo, turnover, ESG keywords, and EUID) with export to CSV/XLSX.
+6. **Google Sheets integration:** official Apps Script template fetches live indicators into a spreadsheet.
 
 ## Cost
 
@@ -35,7 +35,9 @@ Key features and content include:
 * [x] Partially Free
 * [ ] Paid
 
-#### Cost & access
+{% hint style="success" %}
+#### Accredited journalists can[ ask for a free Premium account.](https://www.northdata.com/_journalism)&#x20;
+{% endhint %}
 
 | Tier                       | Monthly price\*                  | What you get                                                                             |
 | -------------------------- | -------------------------------- | ---------------------------------------------------------------------------------------- |
@@ -52,7 +54,7 @@ Key features and content include:
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
