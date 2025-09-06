@@ -27,11 +27,11 @@ ProPublica's 527 Explorer allows people to review the finances of nonprofit orga
 
 ## Requirements
 
-\-
+Internet access is required for the tool.
 
 ## Limitations
 
-The tool is likely best used together with other databases that look at other types of financial contributions and expenditures (Federal Elections Commission, state and local level election office websites, lobbying disclosure databases, etc.). If a user wishes to view the original IRS form, they may need to visit the IRS website anyway. While the tool has a feature that shows similar donors, a user may also need to be aware of acronyms or name variations of the organizations of interest.
+The tool is likely best used together with other databases that look at other types of financial contributions and expenditures (Federal Elections Commission, state and local level government websites, lobbying disclosure databases, etc.). If a user wishes to view the original IRS form, they may need to visit the IRS website anyway. While the tool has a feature that shows similar donors, a user may also need to be aware of acronyms or name variations of the organizations of interest.
 
 ## Ethical Considerations
 
