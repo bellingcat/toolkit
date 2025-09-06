@@ -23,6 +23,8 @@ TIP: Finding plane information requires a multi-source approach. Check more than
 NOTE: FlightAware is useful for tracking the following types of flights (see a list of flight types in the filtering options box on the right hand side above the [live map](https://www.flightaware.com/live/map)): [commercial flights](#user-content-fn-1)[^1], [business flights](#user-content-fn-2)[^2], [cargo flights](#user-content-fn-3)[^3], [general aviation flights](#user-content-fn-4)[^4], and MEDEVAC[^5]. However, take note that it honors requests to remove any aircraft if the owner asks for it as pointed out in this [planespotting guide by GIJN](https://gijn.org/resource/planespotting-an-updated-guide-to-tracking-aircraft-around-the-world/).
 {% endhint %}
 
+If you want to look at a breakdown of where the flight data is coming from, FlightAware breaks it down for the users in [this section](https://www.flightaware.com/adsb/stats/).&#x20;
+
 When used for open-source investigations, flight-tracking websites like FlightAware can assist in:
 
 * [Supporting real-time news analysis](https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/), such as [Yevgeny Prigozhin’s plane crash](https://www.flightradar24.com/blog/russian-legacy-600-crashes-near-tver/)
