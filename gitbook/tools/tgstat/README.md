@@ -3,6 +3,7 @@ description: >-
   TGStat is a web-based analytics tool for Telegram that monitors active
   channels and provides profile analytics and statistics. It tracks channel
   subscribers’ growth rate, reach, and citation index.
+updated: '2025-09-05'
 ---
 
 # TGStat
