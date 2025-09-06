@@ -9,7 +9,7 @@ description: >-
 
 ## URL
 
-[http://flightaware.com/](http://flightaware.com/)
+[https://www.flightaware.com/live/](https://www.flightaware.com/live/)
 
 ## Description
 
