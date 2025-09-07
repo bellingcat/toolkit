@@ -1,12 +1,14 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  A database providing searchable access to California law enforcement records
+  including police use-of-force incidents, shootings, and misconduct cases.
 ---
 
 # Police Records Access Project
 
 ## URL
 
-https://example.com
+{% embed url="https://clean.calmatters.org/" %}
 
 ## Description
 
