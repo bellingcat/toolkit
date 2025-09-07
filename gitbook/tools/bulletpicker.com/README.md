@@ -2,6 +2,7 @@
 description: >-
   Bulletpicker.com is a collection of ammunition guidebooks and manuals from
   several different armed forces.
+updated: '2025-09-07'
 ---
 
 # Bulletpicker.com

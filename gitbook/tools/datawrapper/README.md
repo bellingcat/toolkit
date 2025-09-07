@@ -2,6 +2,7 @@
 description: >-
   A tool for creating interactive charts, maps, and tables from your data,
   offering a user-friendly interface for visualizing information.
+updated: '2025-09-07'
 ---
 
 # Datawrapper
