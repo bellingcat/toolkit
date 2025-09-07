@@ -8,13 +8,13 @@ description: >-
 
 ## URL
 
-https://www.datawrapper.de/
+{% embed url="https://www.datawrapper.de/" %}
 
 ## Description
 
 The purpose of the tool is to help users convert raw data into interactive and visually appealing graphics without requiring advanced technical skills. According to a Datawrapper co-founder:  &#x20;
 
-"\[[t\]he idea is that you have a two-minute interaction with the tool](https://www.icij.org/inside-icij/2018/08/nine-essential-tools-from-icijs-data-journalism-and-programming-experts/)”. Its target users are primarily journalists, researchers, and data analysts who would like to communicate data insights effectively. The International Consortium of Investigative Journalism [said that](https://www.icij.org/inside-icij/2018/08/nine-essential-tools-from-icijs-data-journalism-and-programming-experts/) Datawrapper as "an open source tool for anyone who wants to create a chart or map from their data, came out of the knowledge that expecting every journalist to know code is unrealistic."
+"\[[t\]he idea is that you have a two-minute interaction with the tool](https://www.icij.org/inside-icij/2018/08/nine-essential-tools-from-icijs-data-journalism-and-programming-experts/)”. Its target users are primarily journalists, researchers, and data analysts who would like to communicate data insights effectively. The International Consortium of Investigative Journalism [said that](https://www.icij.org/inside-icij/2018/08/nine-essential-tools-from-icijs-data-journalism-and-programming-experts/) Datawrapper, as "an open source tool for anyone who wants to create a chart or map from their data, came out of the knowledge that expecting every journalist to know code is unrealistic."
 
 ### How it works
 
@@ -34,7 +34,7 @@ Charts can turn complex data into visual representations that are easier to inte
 
 If using Datawrapper to create a chart, users have four main steps to complete. They (1) upload their data, (2) double-check that data is displayed correctly, (3) visualize, and, finally, (4) publish/download or embed the final product.&#x20;
 
-Log in and proceed to the Dashboard. Click, “Create New” and select “Chart”.
+Log in and proceed to the Dashboard. Click “Create New” and select “Chart”.
 
 #### _**Upload Data**_
 
@@ -160,10 +160,10 @@ So, when you look at the map, you can easily see which areas have the best inter
 
 #### **Select your map**
 
-This step allows users to select what kind of base map is needed for data visualization. The Datawrapper list of maps contains a huge selection. The types of maps available are: World maps, regional maps, and country maps. As a plus, some countries have different subtypes available as well. For instance,  Argentina also includes a map divided by departments, by electoral districts, or by provinces. It also has available a map subtype that is city-specific, such as the Argentina - Buenos Aires Metropolitan Area.&#x20;
+This step allows users to select what kind of base map is needed for data visualization. The Datawrapper list of maps contains a vast selection. The types of maps available are: World maps, regional maps, and country maps. As an added benefit, some countries offer different subtypes as well. For instance,  Argentina also includes a map divided by departments, by electoral districts, or by provinces. It also provides a city-specific map subtype, such as the Argentina - Buenos Aires Metropolitan Area.&#x20;
 
 {% hint style="success" %}
-TIP: Users can also upload their own maps. However, this is a slightly advanced feature and you may consult [this guide.](https://academy.datawrapper.de/article/145-how-to-upload-your-own-map)
+TIP: Users can also upload their own maps. However, this is a slightly advanced feature, and you may consult [this guide.](https://academy.datawrapper.de/article/145-how-to-upload-your-own-map)
 {% endhint %}
 
 **Add your data**
@@ -201,7 +201,7 @@ Just like in the CHART section above, the Visualize tab lets users customize the
 The refine tab allows users to customize the details of the map. This includes:
 
 * &#x20;Customizing the colors to represent different values;
-* &#x20;Deciding whether you want the legend on display and the way the legend looks.
+* &#x20;Decide whether you want the legend on display and how it looks.
 * Making the map zoomable or not, and the location of the zoom button;
 * Map appearance: whether you want a full map or a partial map on display, the size in pixels, and map alignment;
 * Appearance of region borders (or not).
@@ -364,6 +364,9 @@ NOTE: Every marker's position is fixed to the map's position; if you move the ma
 **Design Your Map**
 
 * Base map: Choose an appropriate base map from the available options. Consider the style and level of detail required for your map.
+  * Users can now use a ["globe projection" type of locator map. ](https://www.datawrapper.de/blog/new-globe-projection-locator-maps)This is especially usefiul for:&#x20;
+    * **Large regions showing accurate relative sizes** - Countries appear in their true proportions rather than distorted
+    * **Global routes** - Flight paths and shipping lanes that span continents look natural following Earth's curvature.&#x20;
 * Zoom level: Adjust the zoom level to focus on the desired area while providing enough context.
 * Map style: Customize the map appearance with colors, fonts, and other design elements to match your branding or preferences.
 
@@ -488,7 +491,7 @@ Datawrapper recently [added an integration into ](https://blog.datawrapper.de/cr
 * **Cross-Platform Adaptability:** Visualizations created in PowerPoint can be used interactively on websites, as PNGs on social media, or in PDFs and print reports.
 * **Interactive Visualizations:** A separate add-in enables fully interactive features like zoomable maps, hover tooltips, and sortable tables. Learn more in the Datawrapper Academy.
 
-After testing this, we learned that the format differs slightly from the web version. The menu and editing options seem limited compared to the web interface. It may also take more time to familiarize yourself with the PowerPoint interface. Depending on the computing capability of your device, the visualizations in PowerPoint tend to lag sometimes whenever a feature in the visualization is being edited.&#x20;
+After testing this, we learned that the format differs slightly from the web version. The menu and editing options seem limited compared to the web interface. It may also take more time to familiarize yourself with the PowerPoint interface. Depending on the computing capability of your device, the visualizations in PowerPoint tend to lag sometimes when a feature in the visualization is being edited.&#x20;
 
 
 
@@ -525,11 +528,11 @@ For charts and tables, the difficulty is level 2 out of 5.&#x20;
 
 For maps, the difficulty level can increase from 2 to 3 out of 5.&#x20;
 
-The difficulty level also increases as your dataset gets more complicated. The difficulty level also depends on the detail of customization users want in order to communicate their data in these visualizations. Each visualization type has many features that are not obvious to beginners.&#x20;
+The difficulty level also increases as your dataset gets more complicated. The difficulty level also depends on the level of customization users want in order to communicate their data in these visualizations. Each visualization type has many features that are not obvious to beginners.&#x20;
 
 ## Requirements
 
-1. Create a user account;
+1. Create a user account.
 2. Internet connection and a modern browser;
 3. Desktop device;
 4. An organized external dataset;
@@ -541,7 +544,7 @@ The difficulty level also increases as your dataset gets more complicated. The d
 
 * _**Data Skills:**_ Creating clear charts might require some knowledge of Excel formulas and data formatting. Uploading incomplete data can lead to unexpected results. Datawrapper has a list of troubleshooting issues that seem to be related to how CSV files are formatted prior to uploading them, for instance, on [how to prevent Excel from changing numbers into dates](https://academy.datawrapper.de/article/89-prevent-excel-from-changing-numbers-into-dates), or [on receiving the message "undefined" when uploading a CSV](https://academy.datawrapper.de/article/109-undefined-what-it-means-and-what-to-do).&#x20;
 * _**Missing Data:**_ Line charts might show gaps if your data has missing values. This isn't always a bad thing, but it's important to understand why the gaps appear.
-  * Patchy data in line charts sometimes appears if the dataset is missing values. Sometimes it is because there is no data available  (in which case Datawrapper does not want to mislead by filling in a connection between one data point and another). Sometimes it is because of [problems formatting the data](https://academy.datawrapper.de/article/321-patchy-data).&#x20;
+  * Patchy data in line charts sometimes appears if the dataset is missing values. Sometimes it is because there is no data available  (in which case, Datawrapper does not want to mislead by filling in a connection between one data point and another). Sometimes it is because of [problems formatting the data](https://academy.datawrapper.de/article/321-patchy-data).&#x20;
 
 **2. Maps:**
 
@@ -567,12 +570,12 @@ The difficulty level also increases as your dataset gets more complicated. The d
 **3. General:**
 
 * _**Data Preparation:**_ Data needs to be well-organized and clean for Datawrapper to work effectively. This might require some data analysis skills or a good understanding of your data and its purpose. Uploading incomplete data can lead to delays and errors.&#x20;
-  * Prepping and organizing data requires some background in data analysis or, alternatively, a really good understanding of your data and what you want to highlight. This is particularly an issue because Datawrapper can take time to load data and is prone to formatting errors. According to this [article](https://www.analyticodigital.com/blog/top-data-visualization-tools-a-comparative-analysis), “Training staff and extracting meaningful insights post-visualization are additional hurdles.”&#x20;
+  * Prepping and organizing data requires some background in data analysis or, alternatively, a good understanding of your data and what you want to highlight. This is particularly an issue because Datawrapper can take time to load data and is prone to formatting errors. According to this [article](https://www.analyticodigital.com/blog/top-data-visualization-tools-a-comparative-analysis), “Training staff and extracting meaningful insights post-visualization are additional hurdles.”&#x20;
 * _**Data Limits:**_ Datawrapper [works best with smaller datasets](https://academy.datawrapper.de/article/310-max-size-for-data-upload). Uploading very large datasets can lead to slow loading times and lag.&#x20;
 * _**Updates:**_ You can't update visualizations once published. However, you can update the data each time you open the chart and republish.
 * _**Translations:**_ Datawrapper can translate the built-in features of the tool, but not the content you manually enter (like the chart title). This can be confusing for viewers in different languages.
   * However, it translates the built-in features of the tool itself. For example, the chart's title is usually put in manually by the user. If this title is in English, it will not be translated once users choose an output locale in a different language. Measurements (miles/kilometers), names of countries, distance, and date formatting are all part of the tool and will, therefore, be translated if specified in the output locale.&#x20;
-* _**Privacy:**_ For the free account, Even if you cancel your subscription or delete your account, your visualizations will [remain online](https://www.datawrapper.de/pricing) (see also [here](https://www.datawrapper.de/faq#what-happens-to-my-visualizations-when-i-cancel-my-plan-or-close-my-account)).
+* _**Privacy:**_ For the free account, even if you cancel your subscription or delete your account, your visualizations will [remain online](https://www.datawrapper.de/pricing) (see also [here](https://www.datawrapper.de/faq#what-happens-to-my-visualizations-when-i-cancel-my-plan-or-close-my-account)).
 * _**Single Sign-On:**_ Free and custom plans don't offer a central login system for managing user access.
 
 For a more complete list of limitations, see:
@@ -581,7 +584,7 @@ For a more complete list of limitations, see:
 
 ## Ethical Considerations
 
-The main ethical consideration about data visualizations is the possibility that information can be misleading, no matter how good it looks:[“Some are misleading by mistake, some are misleading on purpose.”](https://www.dataspire.org/blog/5-tips-to-be-aware-of-how-charts-lie-book-review) This[ article ](https://medium.com/nightingale/constructing-a-career-in-data-visualization-the-how-18ad4900c120)discusses the possibility that charts can be misleading and that data interpretation has some general pitfalls.
+The primary ethical consideration about data visualizations is the possibility that information can be misleading, no matter how good it looks:[“Some are misleading by mistake, some are misleading on purpose.”](https://www.dataspire.org/blog/5-tips-to-be-aware-of-how-charts-lie-book-review) This[ article ](https://medium.com/nightingale/constructing-a-career-in-data-visualization-the-how-18ad4900c120)discusses the possibility that charts can be misleading and that data interpretation has some general pitfalls.
 
 <details>
 
@@ -622,7 +625,7 @@ Guide from The Guardian: [https://www.theguardian.com/global-development-profess
 
 _**Guides about Misleading Charts and Graphs:**_&#x20;
 
-University of Pittsburg [https://hsls.libguides.com/c.php?g=1333609\&p=9828731#:\~:text=Data%20can%20be%20manipulated%20by,can%20be%20displayed%20by%20selecting](https://hsls.libguides.com/c.php?g=1333609\&p=9828731)&#x20;
+University of Pittsburgh [https://hsls.libguides.com/c.php?g=1333609\&p=9828731#:\~:text=Data%20can%20be%20manipulated%20by,can%20be%20displayed%20by%20selecting](https://hsls.libguides.com/c.php?g=1333609\&p=9828731)&#x20;
 
 Nightingale, Journal of Data Visualization Society[https://medium.com/nightingale/constructing-a-career-in-data-visualization-the-how-18ad4900c120](https://medium.com/nightingale/constructing-a-career-in-data-visualization-the-how-18ad4900c120)&#x20;
 
