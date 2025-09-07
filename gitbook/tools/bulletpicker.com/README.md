@@ -8,11 +8,13 @@ description: >-
 
 ## URL
 
-[https://www.bulletpicker.com/index.html](https://www.bulletpicker.com/index.html)
+{% embed url="https://www.bulletpicker.com/index.html" %}
+
+The offline version is available [here. ](https://bulletpicker.com/pdf/bulletpicker-24-11-20.zip)
 
 ## Description
 
-The [Bulletpicker platform](https://www.bulletpicker.com/index.html) compiles a wide range of ammunition manuals and guidebooks from multiple military forces. Users can search the database easily, and every item provides a link back to the original source. Each ordnance item in Bulletpicker has its own page, typically including technical diagrams, real-life images (if available) and a written overview.
+The [Bulletpicker platform](https://www.bulletpicker.com/index.html) compiles a wide range of ammunition manuals and guidebooks from multiple military forces. Users can search the database easily, and every item provides a link back to the original source. Each ordnance item in Bulletpicker has its own page, typically including technical diagrams, real-life images (if available), and a written overview.
 
 {% hint style="danger" %}
 **NOTE:** This website contains information about ordnance, explosives, and related items for educational and reference purposes only. The content should not be used for: (1) attempting self-guided disposal of explosive devices; (2) manufacturing explosive devices or components; (3) handling unexploded ordnance without proper training; (4) any illegal activities involving explosive materials.
@@ -20,15 +22,15 @@ The [Bulletpicker platform](https://www.bulletpicker.com/index.html) compiles a 
 
 According to the tool provider, Bulletpicker contains [“ordnance-related technical manuals, generally from the World Wars, Vietnam, and more recent conflicts.”](https://buymeacoffee.com/bulletpicker)
 
-The tool provider also says that its purpose is data-sharing between [these sectors](https://buymeacoffee.com/bulletpicker): Explosive Ordnance Disposal (EOD), Public Safety Bomb Technician (PSBT), and commercial UXO (Unexploded Ordnance) and is accessed by a [wide range of users](https://buymeacoffee.com/bulletpicker): personnel from government agencies, historians, archaeologists, forensic experts, and others working in related fields.
+The tool provider also says that its purpose is data-sharing between [these sectors](https://buymeacoffee.com/bulletpicker): Explosive Ordnance Disposal (EOD), Public Safety Bomb Technician (PSBT), and commercial UXO (Unexploded Ordnance), and is accessed by a [wide range of users](https://buymeacoffee.com/bulletpicker): personnel from government agencies, historians, archaeologists, forensic experts, and others working in related fields.
 
 [The provider mentions](https://buymeacoffee.com/bulletpicker) that the platform has:
 
 * Technical info on \~4,000 ordnance and related items
 * Access to 1,300+ publications in PDF format
-* A downloadable version for offline use in remote areas or those operating in places with limited connectivity which is available for download[ here.](https://www.bulletpicker.com/offline-version.html)
+* A downloadable version for offline use in remote areas or those operating in places with limited connectivity is available for download[ here.](https://www.bulletpicker.com/offline-version.html)
 
-According to the tool website, these technical manuals are [public domain and include copyright-expired books](https://www.bulletpicker.com/_about.html) scanned as PDF.&#x20;
+According to the tool website, these technical manuals are in the [public domain and include copyright-expired books](https://www.bulletpicker.com/_about.html) scanned as PDFs.&#x20;
 
 {% hint style="info" %}
 NOTE: When researching ordnance, explosives, and related items using Bulletpicker, it is essential to remember that the content is not for identification or instructional purposes and does not take the place of a qualified specialist. Users are responsible for verifying information with other official references.
