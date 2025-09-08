@@ -85,7 +85,7 @@ Enter a username, press **Analyse** – no technical skills required.
 
 * **Pattern revelation** – heat maps can expose a user’s daily schedule or time zone.
 * **Context matters** – automated sentiment may misclassify humour or irony; always read the source comment.
-* **No consent** – the analysed user does not approve each lookup; share results responsibly and within your local data-protection laws.
+* **No consent** – the analysed user does not approve the lookups; share results responsibly and within your local data-protection laws.
 * **Tool unaffiliated** – RedditMetis is not endorsed by Reddit.
 
 ## Guides and articles
