@@ -47,7 +47,7 @@ Type a username (without the `u/` prefix) and the [site fetches](https://redditm
 * **Activity statistics** – a heat-map of posting hours plus monthly counts of comments and submissions (helpful for spotting time zones or daily routines).
 * **Comment analysis** – sentiment (positive / neutral / negative), readability scores (Flesch), average length, and keyword cloud.
 * **Submission analysis** – top link types and external domains.
-* **Corpus overview** – most-used words, top subreddits, potentially controversial comment,s and entities that the user has self-disclosed (profession, nationality, etc.) with a link back to the original post for context.
+* **Corpus overview** – most-used words, top subreddits, potentially controversial comments, and entities that the user has self-disclosed (profession, nationality, etc.) with a link back to the original post for context.
 * **Export** – copy-ready CSV/JSON for offline archiving.
 
 RedditMetis was inspired by SnoopSnoo (now defunct) and rebuilt from a fork of its open-source code ([GitHub repo](https://github.com/jibalio/redditmetis)).
