@@ -64,6 +64,8 @@ Enter a username, press **Analyse** – no technical skills required.
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
+Enter a username, press **Analyse** – no technical skills required.
+
 ## Requirements
 
 * **No login is needed – all data is sourced** from Reddit’s public API.
