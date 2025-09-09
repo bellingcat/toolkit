@@ -1,6 +1,6 @@
 ---
 description: >-
-  Global Forest watch is a free web based mapping platform which provides near
+  Global Forest watch is a free web based mapping platform that provides near
   real-time forest monitoring data.
 ---
 
@@ -12,11 +12,11 @@ description: >-
 
 ## Description
 
-**Features**\
-The main areas that the map is covering are
+Global Forest Watch offers a wide range of data layers which can be visualized on a map. They are organized into the five sections  "Forest Change", "Land Cover", "Land Use", "Climate" and "Biodiversity".
 
-* Forest change
-* The forest change column offers insights into the changes of forest areas throughout the world. The map offers also specific country insights for Brazil, Cambodia, Peru and Indonesia.
+Forest Change
+
+The main focus of the map is to cover forest change. It covers the whole world but it also offers country insights, for instance for Brazil, Cambodia, Peru and Indonesia.&#x20;
 
 The forest change column offers insights on Disturbance Alerts, Fires and Treecover Change
 
@@ -189,8 +189,6 @@ The different types of layers that the Climate section offers are:
 * Endemic Bird Areas
 
 <figure><img src=".gitbook/assets/Screenshot_1 Biodeversity.png" alt="Some of the Biodiversity layers showing on the map"><figcaption><p>Biodiversity layers and their visual representaion on the map.</p></figcaption></figure>
-
-
 
 ## Cost
 
