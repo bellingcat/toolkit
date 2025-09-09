@@ -192,11 +192,6 @@ The different types of layers that the Climate section offers are:
 
 
 
-**Benefits**\
--The data can be exported.\
--Interactive and easy visualization.\
--Tutorials on using the features are available through the website and are accessible.
-
 ## Cost
 
 * [x] Free
