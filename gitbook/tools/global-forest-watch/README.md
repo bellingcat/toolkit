@@ -12,17 +12,17 @@ description: >-
 
 ## Description
 
-Global Forest Watch offers a wide range of data layers which can be visualized on a map. They are organized into the five sections  "Forest Change", "Land Cover", "Land Use", "Climate" and "Biodiversity".
+Global Forest Watch offers a wide range of data layers which can be visualized on a map. The data is organized into five sections  "Forest Change", "Land Cover", "Land Use", "Climate" and "Biodiversity".
 
 ### Forest Change
 
-The main focus of the map is to cover forest change. It covers the whole world but it also offers country insights, for instance for Brazil, Cambodia, Peru and Indonesia.&#x20;
+The main focus of the map is to cover monitor change all across the world, including where trees are disappearing or appearing for the first time. It also offers country insights, for instance for Brazil, Cambodia, Peru and Indonesia.&#x20;
 
-The forest change column offers insights on Disturbance Alerts, Fires and Treecover Change
+The forest change column offers insights on Disturbance Alerts, Fires and Treecover Change:
 
 **Disturbance alerts**
 
-* GFW offers types of disturbance alerts that notify users when deforestation of degradation affects forests. The alerts are coming from satellite data that detect changes in the forest cover.&#x20;
+GFW offers types of disturbance alerts that notify users when deforestation of degradation affects forests. The alerts are coming from satellite data that detect changes in the forest cover.&#x20;
 
 There are three disturbance alerts:&#x20;
 
@@ -151,7 +151,7 @@ The different types of layers that the Climate section offers are:
 
 The **Biodiversity section** of the Global Forest Watch Map offers spatial data and tools to help users understand how forest ecosystems support global biodiversity
 
-### **Tools for Exploring Biodiversity in GFW**
+**Tools for Exploring Biodiversity in GFW**
 
 1. **Biodiversity Layers Panel**\
    Found under the **“Biodiversity”** section in the map’s left-hand layer menu, these datasets provide visual insights into species richness, habitat ranges, conservation priorities, and threats to biodiversity.
