@@ -20,18 +20,13 @@ The main focus of the map is to cover forest change. It covers the whole world b
 
 The forest change column offers insights on Disturbance Alerts, Fires and Treecover Change
 
-\
-
-
 **Disturbance alerts**
 
 * GFW offers types of disturbance alerts that notify users when deforestation of degradation affects forests. The alerts are coming from satellite data that detect changes in the forest cover.&#x20;
 
 There are three disturbance alerts:&#x20;
 
-**1. Intergrated deforestation alerts**
-
-Those alerts are using an integrated layer called GLAD (Global Land Analysis and Discovery) deforestation alerts. These alerts are updated weekly and are based on 30-meter resolution imagery from the Landsat satellite program, which detects sudden changes in vegetation that indicate tree cover loss. GLAD alerts are available globally and are especially useful in tropical forests.
+Integrated deforestation alerts: Those alerts are using an integrated layer called GLAD (Global Land Analysis and Discovery) deforestation alerts. These alerts are updated weekly and are based on 30-meter resolution imagery from the Landsat satellite program, which detects sudden changes in vegetation that indicate tree cover loss. GLAD alerts are available globally and are especially useful in tropical forests.
 
 Another key type of disturbance alert is RADD (Radar for Detecting Deforestation). Unlike optical satellite sensors, RADD alerts are based on radar imagery from the Sentinel-1 satellite, which can penetrate cloud cover and collect data in all weather conditions. These alerts are available every 5 to 12 days and offer a finer resolution (10 meters).
 
@@ -41,7 +36,7 @@ The system also provides a global vegetation disturbance alert but for now this 
 
 <figure><img src=".gitbook/assets/Screenshot_1deforastation.png" alt=""><figcaption><p>Disturbance alerts and their visual representation on the map.</p></figcaption></figure>
 
-**2. Fires**
+#### **Fires**
 
 GFW also provides detailed monitoring of active fires, which are a major cause of forest degradation and greenhouse gas emissions. The fire alerts come from NASA’s VIIRS (Visible Infrared Imaging Radiometer Suite) satellite sensor and are updated several times daily.
 
@@ -51,29 +46,21 @@ These VIIRS active fire alerts identify thermal anomalies—or “hotspots”—
 
 <figure><img src=".gitbook/assets/Screenshot_1 fires.png" alt=""><figcaption><p>Fire layers and their visual representation on the map.</p></figcaption></figure>
 
-**3.Tree cover change**
+#### **Tree cover change**
 
 GFW provides comprehensive data on tree cover loss and gain over time.
 
-\
-
-
 The Tree Cover Loss data, derived from annual satellite analysis (primarily Landsat imagery), tracks where forest cover has disappeared year by year since 2000. This data has a spatial resolution of 30 meters and includes global coverage, excluding some of the driest areas where tree cover is minimal. Users can view yearly loss, compare change over decades, and analyze drivers of deforestation.
-
-\
-
 
 Tree Cover Gain data shows where forests have regrown or expanded between 2000 and 2012. Although updated less frequently than loss data, this layer helps provide a more complete picture of forest dynamics.
 
 <figure><img src=".gitbook/assets/Screenshot_1forest cahnge.png" alt=""><figcaption></figcaption></figure>
 
-**2.Land Cover**
+### **Land Cover**
 
 Land Cover provides essential spatial data about **what types of natural or human-altered surfaces** exist across the globe.
 
 This Land Cover section offers:
-
-&#x20;
 
 * **Layer Toggle Panel**\
   On the left-hand side of the GFW map interface, under the **“Land Cover”** section, users can select from multiple global and regional datasets. These layers can be toggled on/off and displayed simultaneously with forest change data, protected areas, concessions, and other relevant features.
@@ -103,7 +90,7 @@ The different types of layers that the Land cover section offers are:
 
 <figure><img src=".gitbook/assets/Screenshot_1 tree cover.png" alt=""><figcaption><p>Land cover layers and their visual representation on the map.</p></figcaption></figure>
 
-**3.Land Use**
+### **Land Use**
 
 **Land use** refers to how humans utilize land for various activities such as agriculture, forestry, conservation, mining, and infrastructure. The GFW map offers multiple data layers showing the **spatial distribution of economic activities and land management designations**.
 
@@ -133,9 +120,7 @@ The different types of layers that the Land Use section offers are:
 * Indigenous and Community Lands
 * Population Density
 
-<figure><img src=".gitbook/assets/Screenshot_1 land use.png" alt=""><figcaption><p>Land use layers and their visual representation on the map.</p></figcaption></figure>
-
-4. **Climate**
+### **Climate**
 
 **The Climate section of the Global Forest Watch Map is designed to help users understand the relationship between forests and climate change.**
 
@@ -162,7 +147,7 @@ The different types of layers that the Climate section offers are:
 
 <figure><img src=".gitbook/assets/Screenshot_1 climate.png" alt=""><figcaption><p>Climate layers and their visual representation on the map.</p></figcaption></figure>
 
-**5.Biodiversity**
+### **Biodiversity**
 
 The **Biodiversity section** of the Global Forest Watch Map offers spatial data and tools to help users understand how forest ecosystems support global biodiversity
 
