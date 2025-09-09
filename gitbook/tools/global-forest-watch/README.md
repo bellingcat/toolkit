@@ -9,7 +9,7 @@ description: >-
 
 ## URL
 
-https://www.globalforestwatch.org/
+[https://www.globalforestwatch.org/](https://www.globalforestwatch.org/)
 
 ## Description
 
