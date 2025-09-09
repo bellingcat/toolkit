@@ -209,11 +209,9 @@ The different types of layers that the Climate section offers are:
 
 ## Requirements
 
-There are no requirements to use this tool, and no e-mail address is requested.\
-**Using with no account:** Explore features such as deforestation, fires, land cover, land use, biodiversity, and weather data from 2001 on (in most of the regions).\
+There are no requirements for using this tool. You can explore features such as deforestation, fires, land cover, land use, biodiversity, and weather data from 2001 on (in most of the regions) without creating an user account.\
 \
-However, researchers who want to optimize their research can create an account, sign up for alerts in an area of interest, analyze data, and receive email notifications when new alerts are available.\
-**To create an account:** After providing an email, you can use generic information on contact and affiliation.
+However, researchers who want to optimize their research can create an account using their e-mail address which them to sign up for alerts in an area of interest, analyze data, and receive email notifications when new alerts are available.&#x20;
 
 ## Limitations
 
