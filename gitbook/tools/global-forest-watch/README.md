@@ -1,7 +1,7 @@
 ---
 description: >-
   Global Forest watch is a free web based mapping platform which provides near
-  real time forest monitoring.
+  real-time forest monitoring data.
 ---
 
 # Global Forest Watch
