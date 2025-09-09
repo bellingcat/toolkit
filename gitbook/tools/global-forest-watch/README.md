@@ -225,6 +225,8 @@ However, researchers who want to optimize their research can create an account u
 
 Global Forest Watch provides a [step-by-step guide](https://www.globalforestwatch.org/help/map/guides/) on how to use the map.&#x20;
 
+The Global Forest Watch Fire Report Map is mentioned in Wim Zwijnenburg's Bellingcat article [Black Gold Burning: In Search Of South Sudan’s Oil Pollution](https://www.bellingcat.com/news/africa/2020/01/23/black-gold-burning-in-search-of-south-sudans-oil-pollution/)&#x20;
+
 ## Tool provider
 
 The World Resources Institute (WRI).
