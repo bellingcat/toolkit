@@ -217,7 +217,7 @@ However, researchers who want to optimize their research can create an account, 
 
 ## Limitations
 
-Like all data from satellite imagery, we can not say that the data is 100% accurate.
+\-
 
 ## Ethical Considerations
 
@@ -225,7 +225,7 @@ Like all data from satellite imagery, we can not say that the data is 100% accur
 
 ## Guide
 
-Step-by-step guide: https://www.globalforestwatch.org/help/map/guides/
+Global Forest Watch provides a [step-by-step guide](https://www.globalforestwatch.org/help/map/guides/) on how to use the map.&#x20;
 
 ## Tool provider
 
