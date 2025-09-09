@@ -14,7 +14,7 @@ description: >-
 
 Global Forest Watch offers a wide range of data layers which can be visualized on a map. They are organized into the five sections  "Forest Change", "Land Cover", "Land Use", "Climate" and "Biodiversity".
 
-Forest Change
+### Forest Change
 
 The main focus of the map is to cover forest change. It covers the whole world but it also offers country insights, for instance for Brazil, Cambodia, Peru and Indonesia.&#x20;
 
