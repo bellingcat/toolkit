@@ -235,7 +235,7 @@ The World Resources Institute (WRI).
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                |
-| ------------------------------ |
-| BL - Bellingcat Volunteer Team |
-|                                |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
+|                           |
