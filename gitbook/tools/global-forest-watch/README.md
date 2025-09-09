@@ -221,19 +221,7 @@ Like all data from satellite imagery, we can not say that the data is 100% accur
 
 ## Ethical Considerations
 
-There are minimal ethical considerations, as it is configured with a combination of sources (below). Still, consider the limitations when using the data to take action.\
-\
-Sources used by Global Forest Watch\
-World Topographic Map: © Mapbox, © OpenStreetMap, USGS, Landsat, Natural Earth and Open Addresses\
-Dark Matter: Carto\
-Satellite: Google Satellite\
-Landsat: Landsat OLI, USGS Earth Observation and Science Center, and Google Earth Engine\
-Labels: © Mapbox, © OpenStreetMap\
-Streets: © Mapbox, © OpenStreetMap\
-Political Boundaries: © Mapbox, © OpenStreetMap\
-Terrestrial Ecoregions: RESOLVE, 2017\
-River Basins: © Mapbox, © OpenStreetMap\
-Planet Mosaics: © Planet Labs Inc. Mosaics can also be downloaded from https://www.planet.com/nicfi/.
+\-
 
 ## Guide
 
