@@ -21,6 +21,16 @@ The main focus of the map is to cover monitor forest change by showing where tre
 
 The forest change column offers insights on Disturbance Alerts, Fires and Treecover Change:
 
+#### **Tree cover change**
+
+GFW provides comprehensive data on tree cover loss and gain over time.
+
+The Tree Cover Loss data, derived from annual satellite analysis (primarily Landsat imagery), tracks where forest cover has disappeared year by year since 2000. This data has a spatial resolution of 30 meters and includes global coverage, excluding some of the driest areas where tree cover is minimal. Users can view yearly loss, compare change over decades, and analyze drivers of deforestation.
+
+Tree Cover Gain data shows where forests have regrown or expanded between 2000 and 2012. Although updated less frequently than loss data, this layer helps provide a more complete picture of forest dynamics.
+
+<figure><img src=".gitbook/assets/Screenshot_1forest cahnge.png" alt=""><figcaption></figcaption></figure>
+
 **Disturbance alerts**
 
 GFW offers types of disturbance alerts that notify users when deforestation of degradation affects forests. The alerts are coming from satellite data that detect changes in the forest cover.
