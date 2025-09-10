@@ -1,8 +1,8 @@
 ---
+updated: '2025-09-09'
 description: >-
   Global Forest watch is a free web based mapping platform that provides near
   real-time forest monitoring data.
-updated: '2025-09-09'
 ---
 
 # Global Forest Watch
@@ -13,19 +13,19 @@ updated: '2025-09-09'
 
 ## Description
 
-Global Forest Watch offers a wide range of data layers which can be visualized on a map. The data is organized into five sections  "Forest Change", "Land Cover", "Land Use", "Climate" and "Biodiversity".
+Global Forest Watch offers a wide range of data layers which can be visualized on a map. The data is organized into five sections "Forest Change", "Land Cover", "Land Use", "Climate" and "Biodiversity".
 
 ### Forest Change
 
-The main focus of the map is to cover monitor change all across the world, including where trees are disappearing or appearing for the first time. It also offers country insights, for instance for Brazil, Cambodia, Peru and Indonesia.&#x20;
+The main focus of the map is to cover monitor forest change by showing where trees are disappearing (or appearing) all across the world. It also offers country insights, for instance for Brazil, Cambodia, Peru and Indonesia.
 
 The forest change column offers insights on Disturbance Alerts, Fires and Treecover Change:
 
 **Disturbance alerts**
 
-GFW offers types of disturbance alerts that notify users when deforestation of degradation affects forests. The alerts are coming from satellite data that detect changes in the forest cover.&#x20;
+GFW offers types of disturbance alerts that notify users when deforestation of degradation affects forests. The alerts are coming from satellite data that detect changes in the forest cover.
 
-There are three disturbance alerts:&#x20;
+There are three disturbance alerts:
 
 Integrated deforestation alerts: Those alerts are using an integrated layer called GLAD (Global Land Analysis and Discovery) deforestation alerts. These alerts are updated weekly and are based on 30-meter resolution imagery from the Landsat satellite program, which detects sudden changes in vegetation that indicate tree cover loss. GLAD alerts are available globally and are especially useful in tropical forests.
 
@@ -43,7 +43,7 @@ GFW also provides detailed monitoring of active fires, which are a major cause o
 
 These VIIRS active fire alerts identify thermal anomalies—or “hotspots”—that are likely to be caused by open burning, including wildfires, slash-and-burn agriculture, or land-clearing fires. With a resolution of approximately 375 meters, these alerts offer global coverage and are essential for detecting both natural and human-induced fires.
 
-&#x20;On the GFW map, users can view fire alerts in real time, filter by date, and overlay them with other data layers such as forest cover, protected areas, or concession boundaries. This helps users determine whether fires are occurring in sensitive or high-risk areas.
+On the GFW map, users can view fire alerts in real time, filter by date, and overlay them with other data layers such as forest cover, protected areas, or concession boundaries. This helps users determine whether fires are occurring in sensitive or high-risk areas.
 
 <figure><img src=".gitbook/assets/Screenshot_1 fires.png" alt=""><figcaption><p>Fire layers and their visual representation on the map.</p></figcaption></figure>
 
@@ -87,8 +87,6 @@ The different types of layers that the Land cover section offers are:
 * Tree Plantations
 * Global Peatlands
 
-
-
 <figure><img src=".gitbook/assets/Screenshot_1 tree cover.png" alt=""><figcaption><p>Land cover layers and their visual representation on the map.</p></figcaption></figure>
 
 ### **Land Use**
@@ -96,8 +94,6 @@ The different types of layers that the Land cover section offers are:
 **Land use** refers to how humans utilize land for various activities such as agriculture, forestry, conservation, mining, and infrastructure. The GFW map offers multiple data layers showing the **spatial distribution of economic activities and land management designations**.
 
 This Land Use section offers:
-
-&#x20;
 
 * **Layer Toggle Panel**\
   On the left-hand side of the GFW map interface, under the **“Land Cover”** section, users can select from multiple global and regional datasets. These layers can be toggled on/off and displayed simultaneously with forest change data, protected areas, concessions, and other relevant features.
@@ -144,8 +140,6 @@ The different types of layers that the Climate section offers are:
 * Tree Biomass Density
 * Potential Carbon Sequestation Rate
 
-
-
 <figure><img src=".gitbook/assets/Screenshot_1 climate.png" alt=""><figcaption><p>Climate layers and their visual representation on the map.</p></figcaption></figure>
 
 ### **Biodiversity**
@@ -162,8 +156,6 @@ The **Biodiversity section** of the Global Forest Watch Map offers spatial data 
    Biodiversity layers can be combined with **forest change data, land use data, and protection status** to identify at-risk ecosystems or areas where conservation is urgently needed.
 4. **Timeline Slider**\
    While biodiversity data is generally static or updated periodically (not annually), users can still assess changes by overlaying **recent forest loss or fire alerts** over biodiversity layers.
-
-
 
 The different types of layers that the Climate section offers are:
 
@@ -190,7 +182,7 @@ The different types of layers that the Climate section offers are:
 
 There are no requirements for using this tool. You can explore features such as deforestation, fires, land cover, land use, biodiversity, and weather data from 2001 on (in most of the regions) without creating an user account.\
 \
-However, researchers who want to optimize their research can create an account using their e-mail address which them to sign up for alerts in an area of interest, analyze data, and receive email notifications when new alerts are available.&#x20;
+However, researchers who want to optimize their research can create an account using their e-mail address which them to sign up for alerts in an area of interest, analyze data, and receive email notifications when new alerts are available.
 
 ## Limitations
 
@@ -202,9 +194,9 @@ However, researchers who want to optimize their research can create an account u
 
 ## Guide
 
-Global Forest Watch provides a [step-by-step guide](https://www.globalforestwatch.org/help/map/guides/) on how to use the map.&#x20;
+Global Forest Watch provides a [step-by-step guide](https://www.globalforestwatch.org/help/map/guides/) on how to use the map.
 
-The Global Forest Watch Fire Report Map is mentioned in Wim Zwijnenburg's Bellingcat article [Black Gold Burning: In Search Of South Sudan’s Oil Pollution](https://www.bellingcat.com/news/africa/2020/01/23/black-gold-burning-in-search-of-south-sudans-oil-pollution/)&#x20;
+The Global Forest Watch Fire Report Map is mentioned in Wim Zwijnenburg's Bellingcat article [Black Gold Burning: In Search Of South Sudan’s Oil Pollution](https://www.bellingcat.com/news/africa/2020/01/23/black-gold-burning-in-search-of-south-sudans-oil-pollution/)
 
 ## Tool provider
 
