@@ -57,16 +57,6 @@ On the GFW map, users can view fire alerts in real time, filter by date, and ove
 
 <figure><img src=".gitbook/assets/Screenshot_1 fires.png" alt=""><figcaption><p>Fire layers and their visual representation on the map.</p></figcaption></figure>
 
-#### **Tree cover change**
-
-GFW provides comprehensive data on tree cover loss and gain over time.
-
-The Tree Cover Loss data, derived from annual satellite analysis (primarily Landsat imagery), tracks where forest cover has disappeared year by year since 2000. This data has a spatial resolution of 30 meters and includes global coverage, excluding some of the driest areas where tree cover is minimal. Users can view yearly loss, compare change over decades, and analyze drivers of deforestation.
-
-Tree Cover Gain data shows where forests have regrown or expanded between 2000 and 2012. Although updated less frequently than loss data, this layer helps provide a more complete picture of forest dynamics.
-
-<figure><img src=".gitbook/assets/Screenshot_1forest cahnge.png" alt=""><figcaption></figcaption></figure>
-
 ### **Land Cover**
 
 Land Cover provides essential spatial data about **what types of natural or human-altered surfaces** exist across the globe.
