@@ -24,7 +24,7 @@ Open a photograph in the [Google Photos](https://play.google.com/store/apps/deta
 
 <div align="left"><figure><img src=".gitbook/assets/3.PNG" alt="" width="296"><figcaption><p>Screenshot 3. The suggested object or area will be highlighted in a rectangle, which you can click and drag to move, or use one of the corners to re-size it. The results will appear at the bottom of your phone screen. </p></figcaption></figure> <figure><img src=".gitbook/assets/4.PNG" alt="" width="300"><figcaption><p>Screenshot 4. Drag the sidebar up to scroll through a full list of the hits and hyperlinks. You can also add keywords using the Google search bar, which is at the top of this screenshot, to narrow down your search.</p></figcaption></figure></div>
 
-You can also click 'About this image' (see Screenshot 4) to find out more information regarding the content of the image.
+You can also click 'About this image' (see Screenshot 4) to find out more information regarding the content of the image. There is now also an option to use AI mode, which integrates Google's Gemini AI with Google Lens's visual search capabilities.
 
 ### Using Google Lens in the browser&#x20;
 
