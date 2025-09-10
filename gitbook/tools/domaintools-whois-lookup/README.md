@@ -20,13 +20,17 @@ The main Whois page includes a mix of free and paid tools that are offered by Do
 
 <figure><img src=".gitbook/assets/Screenshot 2024-06-15 at 2.09.32 PM.png" alt=""><figcaption></figcaption></figure>
 
-Of these Tools, the following can be used without a DomainsTools license:
+Of these Tools, the following can be used without a DomainTools license:
 
 * **Reverse NS:** see what other domains are served by the selected name server. This can help you understand which websites are managed by the same hosting provider or server.
   * A name server is a computer that translates domain names (such as www.google.com) into IP addresses (like 8.8.8.8), enabling computers to find and connect with each other on the internet.
 * **Reverse IP Address Lookup:** find all the domain names associated with a specific IP address.
-* C**urrent screenshot preview:** see the most recent screenshot of the content hosted on the website (if available)
+* **Current screenshot preview:** see the most recent screenshot of the content hosted on the website (if available)
 * **Available TLDs:** see an overview of other domains with the same website name but different top level domains (TLDs) such as ".net", ".org" or ".info". This can be used to discover other domains associated with the website, which may be used to host discover or outdated content.
+
+#### Advantages of a paid subscription
+
+From an investigations standpoint, one of the most valuable aspects of a paid subscription is that it will allow you to view historical information about a domain. This is increasingly important as more registrants are choosing to anonymise their identities. If the domain in question has historical ownership information, and you can compare the live version of the website to a previous version by using a web archiving tool like Wayback Machine, you might be able to infer (perhaps inconclusively) that the historical owner continues to run the webpage in question. &#x20;
 
 ## Cost
 
@@ -68,5 +72,5 @@ API documentation can be found [here](https://www.domaintools.com/resources/api-
 
 | Page maintainer |
 | --------------- |
-| hande           |
+|                 |
 |                 |
