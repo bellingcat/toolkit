@@ -23,7 +23,7 @@ Within the "Forest Change" section, users can activate more data layers, namely 
 
 #### **Tree cover change**
 
-GFW provides comprehensive data on tree cover loss and gain over time.
+Global Forest Watch (GFW) provides comprehensive data on tree cover loss and gain over time.
 
 The Tree Cover Loss data, derived from annual satellite analysis (primarily Landsat imagery), tracks where forest cover has disappeared year by year since 2000. This data has a spatial resolution of 30 meters and includes global coverage, excluding some of the driest areas where tree cover is minimal. Users can view yearly loss, compare change over decades, and analyze drivers of deforestation.
 
