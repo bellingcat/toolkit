@@ -99,8 +99,8 @@ Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceani
 
 <mark style="color:$info;">Stoary Feature:</mark>
 
-1. Pages of maps/imagery — If for instancce, you are following one event in different locations (i.e. Parade) Page 1 of a Stoary can be about one location, and then  Page 2 can be about a different map/location, and so on.&#x20;
-2. Annotation (especially the coordinates feature)
+1. <mark style="color:$info;">Pages of maps/imagery — If for instancce, you are following one event in different locations (i.e.</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**St. Patrick’s Day Parades (worldwide) Dublin, Boston, New York, or following the Zafar's path from**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">Sep to Dec 2024 (the bulk carrier transporting grains out of Crimea to Yemen) Page 1 of a Stoary can be about one location, and then  Page 2 can be about a different map/location, and so on.</mark>&#x20;
+2. <mark style="color:$info;">Annotation (especially the coordinates feature)</mark>
 
 <mark style="color:$danger;">\[Insert screenshot graphic of the location co-ordinates feature for annotating maps in Stoary section.]</mark>
 
@@ -264,7 +264,7 @@ Soar, Perth, Australia<mark style="color:$danger;">**?**</mark>
 
 | Page maintainer                                             |
 | ----------------------------------------------------------- |
-| Afton 11/9/25 21:03 GMT and Sophie Tedling 2/9/25 20:15 GMT |
+| Afton 11/9/25 22:08 GMT and Sophie Tedling 2/9/25 20:15 GMT |
 |                                                             |
 
 
