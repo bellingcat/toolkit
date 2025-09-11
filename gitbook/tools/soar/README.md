@@ -106,6 +106,8 @@ Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceani
 
 3. <mark style="color:$info;">anything else?</mark>&#x20;
 
+<mark style="color:$info;">Soar's guide to creating a Stoary is found</mark> [<mark style="color:$info;">here</mark>](https://www.youtube.com/watch?v=G97wi-zaTfM)<mark style="color:$info;">.</mark>&#x20;
+
 ## The Interface <mark style="color:$danger;">is weird in my view, seems to have changed over time and old versions look better, need to c</mark>heck
 
 {% tabs fullWidth="true" %}
