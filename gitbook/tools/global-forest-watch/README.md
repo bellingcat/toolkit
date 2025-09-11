@@ -41,9 +41,9 @@ Integrated deforestation alerts: Those alerts are using an integrated layer call
 
 Another key type of disturbance alert is RADD (Radar for Detecting Deforestation). Unlike optical satellite sensors, RADD alerts are based on radar imagery from the Sentinel-1 satellite, which can penetrate cloud cover and collect data in all weather conditions. These alerts are available every 5 to 12 days and offer a finer resolution (10 meters).
 
-The coverage of said deforestation covers a time frame of two years.
+The coverage of said tree loss covers a time frame of two years.
 
-The system also provides a global vegetation disturbance alert but for now this alert remains under construction without any statistics or analysis being shared through the map. THere is also a places to watch alert where mongabay reporting, oil palm and soy incidents that are linked to deforestation appear in the map.
+The system also provides a global vegetation disturbance alert but for now this alert remains under construction without any statistics or analysis being shared through the map. There is also a places to watch alert where mongabay reporting, oil palm and soy incidents that are linked to deforestation appear in the map.
 
 <figure><img src=".gitbook/assets/Screenshot_1deforastation.png" alt=""><figcaption><p>Disturbance alerts and their visual representation on the map.</p></figcaption></figure>
 
