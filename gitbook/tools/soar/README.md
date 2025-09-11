@@ -168,19 +168,13 @@ Source: [Soar.Earth Digital Atlas QGIS Plugin - North Road](https://north-road.c
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
-Some Satellite images that are high quality - can take long to load when zooming in and out (i.e. [https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69](https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69))&#x20;
+
 
 Difficulty Level and Learning Curve:
 
-Overall: For a casual user exploring maps, the difficulty is low. For an investigator requiring precise data or intending to contribute advanced imagery, the difficulty is moderate, requiring some understanding of geospatial data principles or reliance on integrated GIS tools.
+Overall: For a casual user exploring maps, the difficulty is moderate <mark style="color:$info;">(?)</mark>. For an investigator requiring precise data or intending to contribute advanced imagery, the difficulty is high <mark style="color:$info;">(?)</mark>, requiring some understanding of geospatial data principles or reliance on integrated GIS tools.
 
-* General User Interface: Soar.earth is generally designed to be user-friendly for basic exploration and viewing of maps and imagery. Many reviews and promotional materials highlight its intuitive interface, with features like a transparency slider and easy navigation. Basic functions such as account registration, Browse maps, and simple satellite searches are quick and easy to learn.
-* Intermediate to Advanced Use: The difficulty level increases for more advanced functionalities such as:
-* Uploading and Georeferencing: While the process is streamlined, users uploading their own maps or drone imagery need to ensure proper georeferencing and rectification. The platform has strict guidelines for alignment, which may require some prior knowledge or learning on the user's part, especially if their original data lacks precise georeferencing. The QGIS plugin simplifies this for GIS-savvy users but implies a higher barrier for those without GIS software experience.
-* Source: [Soar.Earth Upload Guide](https://about.soar.earth/documents/Soar.Earth-Upload-Guide_2021_landscape2.pdf), [Soar.Earth Digital Atlas QGIS Plugin - North Road](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)
-* Effective Satellite Data Selection: Understanding the nuances between Landsat, Sentinel, and SkyMap50 (e.g., resolution, revisit times, cost implications) to select the most appropriate imagery for a specific investigative objective requires a degree of familiarity with remote sensing concepts.
-* Source: [How to choose satellite imagery on Soar](https://about.soar.earth/blog-pages/how-to-choose-satellite-imagery-on-soar)
-* Data Analysis Beyond Basic Visualization: While Soar provides basic tools like measurement and annotation, complex spatial analysis typically requires exporting data to dedicated GIS software (like QGIS), indicating that Soar serves more as a data repository and visualization tool than a comprehensive analytical suite.
+
 
 ## Requirements
 
@@ -188,11 +182,21 @@ Overall: For a casual user exploring maps, the difficulty is low. For an investi
 
 <mark style="color:$info;">Modern browser - There are definitely moments where loading maps and zooming in for details can cause the browser to freeze.</mark>&#x20;
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+
 
 ## Limitations
 
-<mark style="color:$danger;">**Do we move some of the content above from the Level of Difficulty section?**</mark>
+<mark style="color:$danger;">**Do we move some of the content above from the Level of Difficulty section?**</mark>**&#x20;**<mark style="color:$info;">**Yes, I have moved some**</mark>
+
+* <mark style="color:$info;">Some Satellite images that are high quality - can take long to load when zooming in and out (i.e.</mark> [<mark style="color:$info;">https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69</mark>](https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69)<mark style="color:$info;">)</mark>&#x20;
+* <mark style="color:$info;">Confusing user interface</mark>
+* <mark style="color:$info;">Intermediate to Advanced Use: The difficulty level increases for more advanced functionalities. Some of them are:</mark>
+
+&#x20;  <mark style="color:$info;">- Uploading and Georeferencing: While the process is streamlined,</mark> [<mark style="color:$info;">users uploading their own maps or imagery need to ensure proper georeferencing and rectification. The platform has strict guidelines for alignment, which may require some prior knowledge or learning on the user's part,</mark>](https://about.soar.earth/help) <mark style="color:$info;">especially if their original data lacks precise georeferencing.</mark> [<mark style="color:$info;">The QGIS plugin helps with this process,</mark> ](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)<mark style="color:$info;">however this may be limited to for GIS-savvy users and may mean a higher barrier for those without GIS software experience.</mark>&#x20;
+
+
+
+
 
 ## Ethical Considerations
 
@@ -239,10 +243,10 @@ Soar, Perth, Australia<mark style="color:$danger;">**?**</mark>
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                            |
-| ---------------------------------------------------------- |
-| Afton 4/9/25 14:22 GMT and Sophie Tedling 2/9/25 20:15 GMT |
-|                                                            |
+| Page maintainer                                             |
+| ----------------------------------------------------------- |
+| Afton 11/9/25 21:03 GMT and Sophie Tedling 2/9/25 20:15 GMT |
+|                                                             |
 
 
 
