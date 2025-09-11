@@ -53,7 +53,7 @@ GFW also provides detailed monitoring of active fires, which are a major cause o
 
 These VIIRS active fire alerts identify thermal anomalies—or “hotspots”—that are likely to be caused by open burning, including wildfires, slash-and-burn agriculture, or land-clearing fires. With a resolution of approximately 375 meters, these alerts offer global coverage and are essential for detecting both natural and human-induced fires.
 
-On the GFW map, users can view fire alerts in real time, filter by date, and overlay them with other data layers such as forest cover, protected areas, or concession boundaries. This helps users determine whether fires are occurring in sensitive or high-risk areas.
+On the GFW map, users can view fire alerts in near real time, filter by date, and overlay them with other data layers such as forest cover, protected areas, or concession boundaries. This helps users determine whether fires are occurring in sensitive or high-risk areas.
 
 <figure><img src=".gitbook/assets/Screenshot_1 fires.png" alt=""><figcaption><p>Fire layers and their visual representation on the map.</p></figcaption></figure>
 
