@@ -83,17 +83,28 @@ Another very valuable feature is that Soar inserts connective links between maps
 
 Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99](https://soar.earth/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99)
 
-<mark style="color:$danger;">**We thought we might illustrate a stoary with the Evergreen Ship incident,stuck in the Suez canal 23-29/3/21**</mark>
+<mark style="color:$danger;">**We thought we might illustrate a stoary**</mark>**&#x20;**<mark style="color:$info;">**(I think maybe we tested the GIF feature for Evergreen instead of a Stoary?)**</mark>**&#x20;**<mark style="color:$danger;">**with the Evergreen Ship incident,stuck in the Suez canal 23-29/3/21**</mark>
 
-3. The facility to upload and share user maps (Formats are Georeferenced maps=GeoTIFF, ECW and JP2, LoFi Map formats = PNG and JPEG and create geographical media (called Stoaries <mark style="color:$danger;">**need to check the exact definition of a Stoary - is it a set of digital pages which can include gif animation? Stoaries - you can annotate a map (TEST maybe only an OSB background map, not a Soar upload) and it will allow you to add the coordinates of a map pin in any chosen metric system. You can add photos or video to locations**</mark> to communicate complex information, e.g. changes over time.
-
-\[Insert screenshot graphic of the location co-ordinates feature for annotating maps in Stoary section.]
+3. The facility to upload and share user maps (Formats are Georeferenced maps=GeoTIFF, ECW and JP2, LoFi Map formats = PNG and JPEG and create geographical media (called Stoaries <mark style="color:$danger;">**need to check the exact definition of a Stoary - is it a set of digital pages which can include gif animation? Stoaries - you can annotate a map (TEST maybe only an OSB background map, not a Soar upload**</mark>**&#x20;**<mark style="color:$info;">**(Tested and it looks like you can annotate a Soar upload (see my attempt at explaining the step below)**</mark><mark style="color:$danger;">**) and it will allow you to add the coordinates of a map pin in any chosen metric system. You can add photos or video to locations**</mark> to communicate complex information, e.g. changes over time.
 
 <mark style="color:$danger;">**NB There are quite a few things which don't actually export to GeoJSON format when you export**</mark>
 
 <div data-full-width="true"><figure><img src=".gitbook/assets/image.png" alt="" width="305"><figcaption><p><mark style="color:$danger;">Dont necessarily intend this to be in the finished entry, just showing it here</mark></p></figcaption></figure></div>
 
+### <mark style="color:$info;">Stoary</mark>
 
+<mark style="color:$info;">(I haven't seen a definition by Soar yet)</mark>\ <mark style="color:$info;">Based on our tests, a Stoary seems? to be a visualization feature of the Soar.Earth platform that allows story telling based on maps or imagery. Rather than using static imagery or a map screenshot, users are able to use maps/imagery and add context, a description, icons and additional multimedia. This helps walk readers through a story arc tied to a place.</mark>&#x20;
+
+<mark style="color:$info;">NOTE: Transparency feature is also available in a Stoary.</mark>&#x20;
+
+<mark style="color:$info;">Stoary Feature:</mark>
+
+1. Pages of maps/imagery — If for instancce, you are following one event in different locations (i.e. Parade) Page 1 of a Stoary can be about one location, and then  Page 2 can be about a different map/location, and so on.&#x20;
+2. Annotation (especially the coordinates feature)
+
+<mark style="color:$danger;">\[Insert screenshot graphic of the location co-ordinates feature for annotating maps in Stoary section.]</mark>
+
+3. <mark style="color:$info;">anything else?</mark>&#x20;
 
 ## The Interface <mark style="color:$danger;">is weird in my view, seems to have changed over time and old versions look better, need to c</mark>heck
 
