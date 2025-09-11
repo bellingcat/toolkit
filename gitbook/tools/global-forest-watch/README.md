@@ -17,7 +17,7 @@ Global Forest Watch offers a wide range of data layers which can be visualized o
 
 ### Forest Change
 
-The main focus of the map is to cover monitor forest change by showing where trees are disappearing (or appearing) all across the world. It also offers country insights, for instance for Brazil, Cambodia, Peru and Indonesia.
+The main focus of the map is to monitor forest change by showing where trees are disappearing (or appearing) all across the world. It also offers country insights, for instance for Brazil, Cambodia, Peru and Indonesia.
 
 The forest change column offers insights on Disturbance Alerts, Fires and Treecover Change:
 
