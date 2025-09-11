@@ -75,7 +75,7 @@
     "object": "team",
     "id": "1eJW2AXNGRwSTqdVvdwq",
     "title": "Whoxy",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2024-09-25T13:56:12.578Z",
     "permissions": {
@@ -135,7 +135,7 @@
     "object": "team",
     "id": "2KzzlDtilRcwg1LZM5MC",
     "title": "PixPlot",
-    "members": 2,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-04-09T22:21:37.096Z",
     "permissions": {
@@ -243,7 +243,7 @@
     "object": "team",
     "id": "5qTFA148VnV46jTVaOpz",
     "title": "Mapillary",
-    "members": 2,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-04-03T19:37:00.829Z",
     "permissions": {
@@ -387,7 +387,7 @@
     "object": "team",
     "id": "6pZKyFN4xEWOTiDP2dQJ",
     "title": "FastPeopleSearch",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-06-03T10:00:24.271Z",
     "permissions": {
@@ -447,7 +447,7 @@
     "object": "team",
     "id": "7lozgpwin8JYBdV8K0LV",
     "title": "Strava",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2024-06-07T11:12:01.169Z",
     "permissions": {
@@ -471,7 +471,7 @@
     "object": "team",
     "id": "8i0KGxq98FcJZ4F8crIH",
     "title": "Ghunt",
-    "members": 0,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-06-12T21:27:05.855Z",
     "permissions": {
@@ -543,7 +543,7 @@
     "object": "team",
     "id": "ACPjFhPdIqIdxD4H6uWt",
     "title": "NASA Worldview",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2024-04-24T20:56:00.552Z",
     "permissions": {
@@ -699,7 +699,7 @@
     "object": "team",
     "id": "CFYUGYWygZlitG8diIea",
     "title": "ThatsThem",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-06-07T17:11:55.410Z",
     "permissions": {
@@ -711,7 +711,7 @@
     "object": "team",
     "id": "CGsVgmzdRVdAFksaskkB",
     "title": "Sherlock",
-    "members": 0,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-06-04T01:19:11.998Z",
     "permissions": {
@@ -771,7 +771,7 @@
     "object": "team",
     "id": "CpkiJcvv67M4DOFHWwTr",
     "title": "Resource Watch",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-06-09T15:33:06.695Z",
     "permissions": {
@@ -783,7 +783,7 @@
     "object": "team",
     "id": "DDTn78UDsvv7BM1C8vTs",
     "title": "World Database Protected Areas",
-    "members": 0,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2025-06-04T12:41:01.293Z",
     "permissions": {
@@ -829,9 +829,21 @@
   },
   {
     "object": "team",
+    "id": "DqZSUir6IQ1N6exKyNh3",
+    "title": "Police Records Access Project",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2025-09-02T20:20:42.085Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
     "id": "ESEZ0mkx3P9maRSIDEuU",
     "title": "Zeeschuimer",
-    "members": 1,
+    "members": 2,
     "spaces": 1,
     "createdAt": "2025-04-16T18:30:46.036Z",
     "permissions": {
@@ -855,7 +867,7 @@
     "object": "team",
     "id": "ErNjYgvO3JqJL7R0VPwD",
     "title": "Social Searcher",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-06-10T15:12:13.409Z",
     "permissions": {
@@ -867,7 +879,7 @@
     "object": "team",
     "id": "Ewcw1WySJgIw3kbplvux",
     "title": "Radar Interference Tracker",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2024-07-25T14:51:50.338Z",
     "permissions": {
@@ -879,7 +891,7 @@
     "object": "team",
     "id": "FJZqsXgSGKbZV4WfqxN9",
     "title": "Streamwall",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-04-16T18:41:45.307Z",
     "permissions": {
@@ -903,7 +915,7 @@
     "object": "team",
     "id": "Fj6deP4zeQuAwNt3CCGv",
     "title": "Satellites.pro",
-    "members": 2,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-04-09T00:13:01.240Z",
     "permissions": {
@@ -927,7 +939,7 @@
     "object": "team",
     "id": "FwLN5P6E46ih6W8OyV4m",
     "title": "Instant Data Scraper",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2024-08-01T18:54:39.566Z",
     "permissions": {
@@ -975,7 +987,7 @@
     "object": "team",
     "id": "Gq6aIv1VskG2kkRoPDnS",
     "title": "Shodan",
-    "members": 0,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-08-24T11:03:42.526Z",
     "permissions": {
@@ -1035,7 +1047,7 @@
     "object": "team",
     "id": "HXDOX3RcizLd4YDd8M0n",
     "title": "River Runner Global",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-06-03T10:21:37.693Z",
     "permissions": {
@@ -1143,7 +1155,7 @@
     "object": "team",
     "id": "IyHLPDO4d3mqvJoJo5Jn",
     "title": "Snap Map",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2024-05-16T00:05:53.697Z",
     "permissions": {
@@ -1155,7 +1167,7 @@
     "object": "team",
     "id": "J8MF9MMHHIwnyF9olEA2",
     "title": "AllTrails",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2024-06-12T21:33:33.287Z",
     "permissions": {
@@ -1191,7 +1203,7 @@
     "object": "team",
     "id": "JgVaKSupShRFR8RtF7vp",
     "title": "Picarta",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-06-30T09:42:40.107Z",
     "permissions": {
@@ -1263,7 +1275,7 @@
     "object": "team",
     "id": "LGXDI0ZyVVVCGpxn5sGt",
     "title": "Websites Guardians",
-    "members": 2,
+    "members": 1,
     "spaces": 0,
     "createdAt": "2025-05-07T14:44:07.926Z",
     "permissions": {
@@ -1479,7 +1491,7 @@
     "object": "team",
     "id": "OfTWzhh0KpoWvxdzTnky",
     "title": "Pinpoint",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2024-05-10T23:10:29.236Z",
     "permissions": {
@@ -1491,7 +1503,7 @@
     "object": "team",
     "id": "Olhapig4RdhkSmB6tKfx",
     "title": "TruffleHog",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2024-08-24T11:10:16.789Z",
     "permissions": {
@@ -1611,7 +1623,7 @@
     "object": "team",
     "id": "Q6Qv9XVEL3PiWluDm7SS",
     "title": "DomainTools Whois Lookup",
-    "members": 0,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-06-12T08:43:58.860Z",
     "permissions": {
@@ -1659,7 +1671,7 @@
     "object": "team",
     "id": "QrfPqtMQNQwwiGfSc025",
     "title": "FOIA requests search tools",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-06-07T16:46:57.403Z",
     "permissions": {
@@ -1671,7 +1683,7 @@
     "object": "team",
     "id": "ROFmlAnJBLFnnOZTXkGM",
     "title": "Video Speed Controller",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-06-23T15:38:45.536Z",
     "permissions": {
@@ -1837,6 +1849,18 @@
   },
   {
     "object": "team",
+    "id": "UW6izmJIaQSylVW5Qdky",
+    "title": "Urlscan.io",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-08-26T17:12:23.372Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
     "id": "UfnR3YFJ4kagRo7pUZUy",
     "title": "Landviewer",
     "members": 1,
@@ -1851,7 +1875,7 @@
     "object": "team",
     "id": "UlMoUZSz9YqQnw1Tj2an",
     "title": "SnapSave",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-06-23T13:19:51.489Z",
     "permissions": {
@@ -1887,7 +1911,7 @@
     "object": "team",
     "id": "VyuYJRA8lTiECuL0LTjI",
     "title": "Omnivore",
-    "members": 2,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-04-11T17:49:11.357Z",
     "permissions": {
@@ -2007,7 +2031,7 @@
     "object": "team",
     "id": "Xl2VEy03Yg0YXf7PbIcr",
     "title": "Bing Maps",
-    "members": 2,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-04-09T20:43:34.826Z",
     "permissions": {
@@ -2151,7 +2175,7 @@
     "object": "team",
     "id": "aNSMWp3g61VGwuMCxZNa",
     "title": "Conflict Guardians",
-    "members": 0,
+    "members": 1,
     "spaces": 0,
     "createdAt": "2025-05-07T14:44:58.957Z",
     "permissions": {
@@ -2175,7 +2199,7 @@
     "object": "team",
     "id": "b4oq4RX89Pi7MK2BcIYE",
     "title": "Webmii",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-06-07T17:01:55.666Z",
     "permissions": {
@@ -2211,7 +2235,7 @@
     "object": "team",
     "id": "bGvvonW5QcppL2JFDATi",
     "title": "Locust Hub",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-06-30T10:21:39.178Z",
     "permissions": {
@@ -2305,6 +2329,18 @@
   },
   {
     "object": "team",
+    "id": "ddA7pP5rMYIVODNIZYkj",
+    "title": "Grep.app",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-08-26T17:38:47.753Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
     "id": "dwX8QEXybqIBVWQ8jKTI",
     "title": "OpenSanctions",
     "members": 1,
@@ -2367,7 +2403,7 @@
     "object": "team",
     "id": "fAYZjYAk61vy9NiRWdwJ",
     "title": "Nuwber",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-06-07T17:20:05.884Z",
     "permissions": {
@@ -2413,6 +2449,18 @@
   },
   {
     "object": "team",
+    "id": "fWeiv1BDWrJwm6jsxrYA",
+    "title": "Species+",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-09-03T09:34:59.460Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
     "id": "fcsyfPwY1Tq9mK2gMGJI",
     "title": "Wikimapia",
     "members": 2,
@@ -2451,7 +2499,7 @@
     "object": "team",
     "id": "gZXAxCst965Dg8tWLrMS",
     "title": "NotebookLM",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-05-05T18:23:46.416Z",
     "permissions": {
@@ -2475,7 +2523,7 @@
     "object": "team",
     "id": "gi9MlDY9Iznb0Sy2i7L4",
     "title": "Soar",
-    "members": 1,
+    "members": 2,
     "spaces": 1,
     "createdAt": "2024-10-22T09:38:03.320Z",
     "permissions": {
@@ -2559,7 +2607,7 @@
     "object": "team",
     "id": "iZrCSpXbu0P2556ZZNvH",
     "title": "Anytype",
-    "members": 1,
+    "members": 2,
     "spaces": 1,
     "createdAt": "2025-06-03T11:57:30.264Z",
     "permissions": {
@@ -2631,7 +2679,7 @@
     "object": "team",
     "id": "jlR55F9D5peOR0QaReOx",
     "title": "Social Blade",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-06-23T13:27:54.771Z",
     "permissions": {
@@ -2679,7 +2727,7 @@
     "object": "team",
     "id": "kQfZsheCyDBdgXjWLqdG",
     "title": "Meta Ad Library",
-    "members": 1,
+    "members": 2,
     "spaces": 1,
     "createdAt": "2024-04-09T23:08:27.245Z",
     "permissions": {
@@ -2727,7 +2775,7 @@
     "object": "team",
     "id": "kjQQe1ga4fClcr486hjg",
     "title": "Geograph Worldwide",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2024-08-28T17:24:56.523Z",
     "permissions": {
@@ -2763,7 +2811,7 @@
     "object": "team",
     "id": "l9tWPBRFEhRj7KmYTZY0",
     "title": "Earth Online",
-    "members": 2,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-03-30T03:32:23.524Z",
     "permissions": {
@@ -2823,7 +2871,7 @@
     "object": "team",
     "id": "nHHmg3frFFmY6eqWO1fz",
     "title": "GeoHints",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2024-06-07T12:16:46.910Z",
     "permissions": {
@@ -3003,7 +3051,7 @@
     "object": "team",
     "id": "q8slDSdk3Lz8y6Vbai9i",
     "title": "Picuki",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2024-09-27T16:32:54.868Z",
     "permissions": {
@@ -3135,7 +3183,7 @@
     "object": "team",
     "id": "rtJJwNx8aRHdBMtQYE11",
     "title": "Apple Maps",
-    "members": 2,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-04-09T22:28:28.522Z",
     "permissions": {
@@ -3231,7 +3279,7 @@
     "object": "team",
     "id": "tiAwoj3vsv592l6twNFs",
     "title": "Archive.today",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2024-09-12T20:19:06.156Z",
     "permissions": {
@@ -3279,7 +3327,7 @@
     "object": "team",
     "id": "uU1XlFMRojLMJ83qfHZO",
     "title": "Wind & Particulate Map",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-06-03T10:12:55.762Z",
     "permissions": {
@@ -3339,7 +3387,7 @@
     "object": "team",
     "id": "w27MunK3CpygPB13FX4w",
     "title": "Sentinel Hub Playground",
-    "members": 2,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-03-30T03:13:24.693Z",
     "permissions": {
@@ -3351,7 +3399,7 @@
     "object": "team",
     "id": "wBnWjywwMNbs8J838vkb",
     "title": "Insecam",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-02-24T13:27:28.215Z",
     "permissions": {
@@ -3411,7 +3459,7 @@
     "object": "team",
     "id": "wsIf3vnIYnZ5tRA5PKIE",
     "title": "Amazon Rekognition",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-06-03T09:38:01.659Z",
     "permissions": {
@@ -3517,6 +3565,18 @@
   },
   {
     "object": "team",
+    "id": "yCkk9agsoKX4JhpAk3cU",
+    "title": "RAMMB SLIDER",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-08-18T09:42:17.455Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
     "id": "yPJc3AniWUiqSD1eMu2D",
     "title": "Tencent Maps",
     "members": 1,
@@ -3546,66 +3606,6 @@
     "members": 1,
     "spaces": 1,
     "createdAt": "2024-03-28T16:53:42.448Z",
-    "permissions": {
-      "admin": true,
-      "view": true
-    }
-  },
-  {
-    "object": "team",
-    "id": "yCkk9agsoKX4JhpAk3cU",
-    "title": "RAMMB SLIDER",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-08-18T09:42:17.455Z",
-    "permissions": {
-      "admin": true,
-      "view": true
-    }
-  },
-  {
-    "object": "team",
-    "id": "UW6izmJIaQSylVW5Qdky",
-    "title": "Urlscan.io",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-08-26T17:12:23.372Z",
-    "permissions": {
-      "admin": true,
-      "view": true
-    }
-  },
-  {
-    "object": "team",
-    "id": "ddA7pP5rMYIVODNIZYkj",
-    "title": "Grep.app",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-08-26T17:38:47.753Z",
-    "permissions": {
-      "admin": true,
-      "view": true
-    }
-  },
-  {
-    "object": "team",
-    "id": "DqZSUir6IQ1N6exKyNh3",
-    "title": "Police Records Access Project",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-09-02T20:20:42.085Z",
-    "permissions": {
-      "admin": true,
-      "view": true
-    }
-  },
-  {
-    "object": "team",
-    "id": "fWeiv1BDWrJwm6jsxrYA",
-    "title": "Species+",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-09-03T09:34:59.460Z",
     "permissions": {
       "admin": true,
       "view": true
