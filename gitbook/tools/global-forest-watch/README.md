@@ -33,7 +33,7 @@ Tree Cover Gain data shows where forests have regrown or expanded between 2000 a
 
 **Disturbance alerts**
 
-GFW offers types of disturbance alerts that notify users when deforestation of degradation affects forests. The alerts are coming from satellite data that detect changes in the forest cover.
+GFW offers types of disturbance alerts that notify users when potential deforestation or degradation might affects forests. The alerts are coming from satellite data that detect changes in the forest cover.
 
 There are three disturbance alerts:
 
