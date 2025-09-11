@@ -2,6 +2,7 @@
 description: >-
   DomainTools Whois provides detailed domain name registration information, and
   can be used to investigate details about domains or IP addresses.
+updated: '2025-09-10'
 ---
 
 # DomainTools Whois Lookup

@@ -2,6 +2,7 @@
 description: >-
   Google Lens is an image recognition tool which can be used to identify
   locations or objects in photographs.
+updated: '2025-09-10'
 ---
 
 # Google Lens
