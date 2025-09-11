@@ -43,7 +43,7 @@ Another key type of disturbance alert is RADD (Radar for Detecting Deforestation
 
 The coverage of said tree loss covers a time frame of two years.
 
-The system also provides a global vegetation disturbance alert but for now this alert remains under construction without any statistics or analysis being shared through the map. There is also a places to watch alert where mongabay reporting, oil palm and soy incidents that are linked to deforestation appear in the map.
+The system also provides a global vegetation disturbance alert but for now this alert remains under construction without any statistics or analysis being shared through the map. There is also a "places to watch" alert where mongabay reporting, oil palm and soy incidents that are linked to deforestation appear in the map.
 
 <figure><img src=".gitbook/assets/Screenshot_1deforastation.png" alt=""><figcaption><p>Disturbance alerts and their visual representation on the map.</p></figcaption></figure>
 
