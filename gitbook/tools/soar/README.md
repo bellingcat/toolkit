@@ -93,18 +93,26 @@ Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceani
 
 ### <mark style="color:$info;">Stoary</mark>
 
-<mark style="color:$info;">(I haven't seen a definition by Soar yet)</mark>\ <mark style="color:$info;">Based on our tests, a Stoary seems? to be a visualization feature of the Soar.Earth platform that allows story telling based on maps or imagery. Rather than using static imagery or a map screenshot, users are able to use maps/imagery and add context, a description, icons and additional multimedia. This helps walk readers through a story arc tied to a place.</mark>&#x20;
+<mark style="color:$info;">(I haven't seen a definition by Soar yet)</mark>\ <mark style="color:$info;">Based on our tests, a Stoary seems (?) to be a visualization feature of the Soar.Earth platform that allows story telling based on maps or imagery. Rather than using static imagery or a map screenshot, users are able to use maps/imagery and add context, a description, icons and additional multimedia. This helps walk readers through a story arc tied to a place.</mark>&#x20;
 
 <mark style="color:$info;">NOTE: Transparency feature is also available in a Stoary.</mark>&#x20;
 
 <mark style="color:$info;">Stoary Feature:</mark>
 
-1. <mark style="color:$info;">Pages of maps/imagery — If for instancce, you are following one event in different locations (i.e.</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**St. Patrick’s Day Parades (worldwide) Dublin, Boston, New York, or following the Zafar's path from**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">Sep to Dec 2024 (the bulk carrier transporting grains out of Crimea to Yemen) Page 1 of a Stoary can be about one location, and then  Page 2 can be about a different map/location, and so on.</mark>&#x20;
+1. <mark style="color:$info;">Pages of maps/imagery — If for instancce, you are following one event in different locations (i.e. St. Patrick’s Day Parades (worldwide) Dublin, Boston, New York, or following the Zafar's path from Sep to Dec 2024 (the Russian bulk carrier transporting grains out of Crimea to Yemen) Page 1 of a Stoary can be about one location, and then  Page 2 can be about a different map/location, and so on.</mark>&#x20;
+   1. <mark style="color:$info;">Can use basemap (OSM, Satellite, etc) provided</mark>
+   2. <mark style="color:$info;">Can use user-uploaded Soar maps! (screenshot below)</mark>
+
+<figure><img src=".gitbook/assets/Screenshot 2025-09-11 094916-ed.png" alt="" width="375"><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/Screenshot 2025-09-11 095007.png" alt="" width="375"><figcaption></figcaption></figure>
+
 2. <mark style="color:$info;">Annotation (especially the coordinates feature)</mark>
 
 <mark style="color:$danger;">\[Insert screenshot graphic of the location co-ordinates feature for annotating maps in Stoary section.]</mark>
 
-3. <mark style="color:$info;">anything else?</mark>&#x20;
+3. <mark style="color:$info;">Photo Overlay -</mark> overlay photos from news or stock sites (with attribution), or social media.
+4. <mark style="color:$info;">Anything else?</mark>&#x20;
 
 <mark style="color:$info;">Soar's guide to creating a Stoary is found</mark> [<mark style="color:$info;">here</mark>](https://www.youtube.com/watch?v=G97wi-zaTfM)<mark style="color:$info;">.</mark>&#x20;
 
@@ -251,6 +259,13 @@ D. Responsible Sharing:
 Similar for creating Stoaries, seeing satellite imagery...
 
 For satellite image combination into animated gif, compare with integrated Sentinel functionality, also ezgif free online tool,...
+
+<mark style="color:$info;">Gif-creating tools on the toolkit include:</mark>
+
+1. <mark style="color:$info;">Sentinel Hub Playground (</mark>[<mark style="color:$info;">https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground</mark>](https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground)<mark style="color:$info;">)</mark>&#x20;
+2. <mark style="color:$info;">Nasa Worldview (</mark>[<mark style="color:$info;">https://bellingcat.gitbook.io/toolkit/more/all-tools/nasa-worldview</mark>](https://bellingcat.gitbook.io/toolkit/more/all-tools/nasa-worldview)<mark style="color:$info;">)</mark>
+
+<mark style="color:$info;">Free online tool, EZgif (</mark>[<mark style="color:$info;">https://ezgif.com/</mark>](https://ezgif.com/)<mark style="color:$info;">)</mark>&#x20;
 
 ## Tool provider
 
