@@ -236,9 +236,15 @@ D. Responsible Sharing:
 
 ## Guides and articles <mark style="color:$danger;">Soar seems to have good YouTube videos? need to find more</mark>
 
+
+
 [Exploring a Digital Atlas of Maps and Imagery on Soar.Earth - open.gis.lab](https://opengislab.com/blog/2021/7/11/exploring-a-digital-atlas-of-maps-and-imagery-on-soarearth), [Soar Tutorials - YouTube](https://www.google.com/search?q=https://www.youtube.com/playlist%3Flist%3DPL44e5M4E2bX-x1Q-y3d2f-1h9zV5r3jP5)
 
 [Exploring a Digital Atlas of Maps and Imagery on Soar.Earth from Open.gis.lab](https://opengislab.com/blog/2021/7/11/exploring-a-digital-atlas-of-maps-and-imagery-on-soarearth)
+
+<mark style="color:$info;">Possible Use Case:</mark> [<mark style="color:$info;">https://x.com/Soar\_Earth/status/1037937241979412481</mark>](https://x.com/Soar_Earth/status/1037937241979412481)&#x20;
+
+##
 
 ## Similar Tools
 
