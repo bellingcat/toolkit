@@ -93,13 +93,13 @@ Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceani
 
 ### <mark style="color:$info;">Stoary</mark>
 
-<mark style="color:$info;">(I haven't seen a definition by Soar yet)</mark>\ <mark style="color:$info;">Based on our tests, a Stoary seems (?) to be a visualization feature of the Soar.Earth platform that allows story telling based on maps or imagery. Rather than using static imagery or a map screenshot, users are able to use maps/imagery and add context, a description, icons and additional multimedia. This helps walk readers through a story arc tied to a place.</mark>&#x20;
+<mark style="color:$info;">(I haven't seen a definition by Soar yet)</mark>\ <mark style="color:$info;">Based on our tests, a Stoary seems (?) to be a visualization feature of the Soar.Earth platform that allows storytelling based on maps or imagery. Rather than using static imagery or a map screenshot, users are able to use maps/imagery and add context, a description, icons, and additional multimedia. This helps walk readers through a story arc tied to a place.</mark>&#x20;
 
 <mark style="color:$info;">NOTE: Transparency feature is also available in a Stoary.</mark>&#x20;
 
 <mark style="color:$info;">Stoary Feature:</mark>
 
-1. <mark style="color:$info;">Pages of maps/imagery — If for instancce, you are following one event in different locations (i.e. St. Patrick’s Day Parades (worldwide) Dublin, Boston, New York, or following the Zafar's path from Sep to Dec 2024 (the Russian bulk carrier transporting grains out of Crimea to Yemen) Page 1 of a Stoary can be about one location, and then  Page 2 can be about a different map/location, and so on.</mark>&#x20;
+1. <mark style="color:$info;">Pages of maps/imagery — If for instance, you are following one event in different locations (i.e. St. Patrick’s Day Parades, you can track it in cities like Dublin, Boston, New York, and visualize that. Another example could be following Zafar and its path from Sep to Dec 2024 (the Russian bulk carrier transporting grains out of Crimea to Yemen) Page 1 of a Stoary can be a map of Sevastopol port on a particular day, and then  Page 2 can be about a different map/location, for instance, of the Bosphorous Strait on another date, Page 3 can be it's location as seen in Djibouti and so on.</mark>&#x20;
    1. <mark style="color:$info;">Can use basemap (OSM, Satellite, etc) provided</mark>
    2. <mark style="color:$info;">Can use user-uploaded Soar maps! (screenshot below)</mark>
 
@@ -109,9 +109,9 @@ Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceani
 
 2. <mark style="color:$info;">Annotation (especially the coordinates feature)</mark>
 
-<mark style="color:$danger;">\[Insert screenshot graphic of the location co-ordinates feature for annotating maps in Stoary section.]</mark>
+<mark style="color:$danger;">\[Insert screenshot graphic</mark> <mark style="color:$info;">of the location co-ordinates feature for annotating maps in Stoary section.]</mark>
 
-3. <mark style="color:$info;">Photo Overlay -</mark> overlay photos from news or stock sites (with attribution), or social media.
+3. <mark style="color:$info;">Photo Overlay - overlay photos from news or stock sites (with attribution), or social media which can be good for corroboration.</mark>
 4. <mark style="color:$info;">Anything else?</mark>&#x20;
 
 <mark style="color:$info;">Soar's guide to creating a Stoary is found</mark> [<mark style="color:$info;">here</mark>](https://www.youtube.com/watch?v=G97wi-zaTfM)<mark style="color:$info;">.</mark>&#x20;
