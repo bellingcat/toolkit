@@ -235,12 +235,6 @@ B. Privacy / Consent:
 C. Misinformation and Disinformation:
 
 * Be aware that user-generated content, while valuable, may not always be authoritative. Always verify the source and context of shared maps/imagery.
-* Utilize critical thinking to assess the intent and reliability of uploaded data.
-
-D. Responsible Sharing:
-
-* Ensure that any shared analysis or imagery respects privacy, security, and ethical considerations.
-* Consider the potential impact of disseminated information.
 
 ## Guides and articles <mark style="color:$danger;">Soar seems to have good YouTube videos? need to find more</mark>
 
