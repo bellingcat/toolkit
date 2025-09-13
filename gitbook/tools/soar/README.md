@@ -93,18 +93,18 @@ Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceani
 
 ### <mark style="color:$info;">"Stoary": What is it?</mark>
 
-_<mark style="color:$info;">(I haven't seen a definition by Soar yet, I believe this is similar to "ESRI StoryMaps")</mark>_\ <mark style="color:$info;">Based on our tests, a Stoary seems to be a visualization feature of the Soar platform that allows storytelling based on maps or imagery. Rather than using static imagery or a map screenshot, users can use</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**pages**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">of maps/imagery to add context, descriptions, icons, and additional multimedia. This helps walk readers through a story arc tied to a place or several places.</mark>&#x20;
+_<mark style="color:$info;">(I haven't seen a definition by Soar yet, but I believe this is similar to "ESRI StoryMaps")</mark>_\ <mark style="color:$info;">Based on our tests, a Stoary seems to be a visualization feature of the Soar platform that allows storytelling based on maps or imagery. Rather than using static imagery or a map screenshot, users can use</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**pages**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">of maps/imagery to add context, descriptions, icons, and additional multimedia. This helps walk readers through a story arc tied to a place or several places.</mark>&#x20;
 
 <mark style="color:$info;">Allows creators to combine text, imagery, user-uploaded maps, and geospatial layers.</mark>&#x20;
 
-<mark style="color:$info;">Each page of a "Stoary" is scene-based. User can choose a location/view and add context.</mark>&#x20;
+<mark style="color:$info;">Each page of a "Stoary" is scene-based. The user can choose a location/view and add context.</mark>&#x20;
 
 <mark style="color:$info;">Soar's step-by-step guide to creating a Stoary is found</mark> [<mark style="color:$info;">here</mark>](https://www.youtube.com/watch?v=G97wi-zaTfM)<mark style="color:$info;">.</mark>&#x20;
 
 <mark style="color:$info;">**Stoary Features:**</mark>
 
-1. <mark style="color:$info;">Pages of maps/imagery — This feature is helpful if, for instance, users are following one event in different locations (i.e. St. Patrick’s Day Parades worldwide. One can track it in cities like Dublin, Boston, New York, and visualize that.</mark> &#x20;
-   1. <mark style="color:$info;">Each page of a Stoary can use basemap (OSM, Satellite, etc) provided</mark>
+1. <mark style="color:$info;">Pages of maps/imagery — This feature is helpful if, for instance, users are following one event in different locations (i.e., St. Patrick’s Day Parades worldwide. One can track it in cities like Dublin, Boston, and New York, and visualize that.</mark> &#x20;
+   1. <mark style="color:$info;">Each page of a Stoary can use a basemap (OSM, Satellite, etc) provided</mark>
    2.  <mark style="color:$info;">Can use user-uploaded Soar maps! (screenshot below)</mark>
 
        <mark style="color:$info;">NOTE: If using a Soar uploaded map for your Stoary, the transparency feature can be used.</mark>&#x20;
@@ -120,11 +120,15 @@ _<mark style="color:$info;">(I haven't seen a definition by Soar yet, I believe 
 3. <mark style="color:$info;">Photo Overlay - overlay photos from news or stock sites (with attribution), or social media, which can be good for corroboration.</mark>
 4. <mark style="color:$info;">Sharing and Exporting</mark>&#x20;
 
-To demonstrate the visualization capability of a "Stoary", we used the feature using information [from a 2024 investigation by Bellingcat](https://www.bellingcat.com/news/2024/12/18/ukraine-outraged-at-yemen-grain-shipment-from-occupied-crimea/). NOTE: This is for demonstration purposes only.&#x20;
+To demonstrate the visualization capability of a "Stoary", we used the feature below using information [from a 2024 investigation by Bellingcat](https://www.bellingcat.com/news/2024/12/18/ukraine-outraged-at-yemen-grain-shipment-from-occupied-crimea/). NOTE: This is for demonstration purposes only.&#x20;
 
 {% embed url="https://soar.earth/draw/2427" fullWidth="true" %}
 
-&#x20;
+<mark style="color:$info;">(We don't have to include this demo if we don't think it is that helpful.)</mark>&#x20;
+
+
+
+
 
 ## The Interface <mark style="color:$danger;">is weird in my view, seems to have changed over time and old versions look better, need to c</mark>heck
 
@@ -221,6 +225,9 @@ Overall: For a casual user exploring maps, the difficulty is moderate <mark styl
 
 * <mark style="color:$info;">Some Satellite images that are high quality - can take long to load when zooming in and out (i.e.</mark> [<mark style="color:$info;">https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69</mark>](https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69)<mark style="color:$info;">)</mark>&#x20;
 * <mark style="color:$info;">Confusing user interface</mark>
+*   <mark style="color:$info;">Stoaries are very difficult to edit. Going to the "page" of the map you want to edit does not take you to that location. Instead, you have to re-input the location or coordinates in the search bar.</mark> &#x20;
+
+    <mark style="color:$info;">Use a browser that does not go into "efficiency mode," as this can freeze the Soar and the Stoary interface consistently.</mark>&#x20;
 * <mark style="color:$info;">Intermediate to Advanced Use: The difficulty level increases for more advanced functionalities. Some of them are:</mark>
 
 &#x20;  <mark style="color:$info;">- Uploading and Georeferencing: While the process is streamlined,</mark> [<mark style="color:$info;">users uploading their own maps or imagery need to ensure proper georeferencing and rectification. The platform has strict guidelines for alignment, which may require some prior knowledge or learning on the user's part,</mark>](https://about.soar.earth/help) <mark style="color:$info;">especially if their original data lacks precise georeferencing.</mark> [<mark style="color:$info;">The QGIS plugin helps with this process,</mark> ](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)<mark style="color:$info;">however this may be limited to for GIS-savvy users and may mean a higher barrier for those without GIS software experience.</mark>&#x20;
@@ -283,7 +290,7 @@ Soar, Perth, Australia<mark style="color:$danger;">**?**</mark>
 
 | Page maintainer                                             |
 | ----------------------------------------------------------- |
-| Afton 12/9/25 22:08 GMT and Sophie Tedling 2/9/25 20:15 GMT |
+| Afton 13/9/25 19:44 GMT and Sophie Tedling 2/9/25 20:15 GMT |
 |                                                             |
 
 
