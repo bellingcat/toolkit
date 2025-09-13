@@ -9,7 +9,7 @@ description: >-
 
 ## URL
 
-[https://soar.earth/](https://soar.earth/)
+{% embed url="https://soar.earth/" %}
 
 ## Description
 
@@ -91,13 +91,15 @@ Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceani
 
 <div data-full-width="true"><figure><img src=".gitbook/assets/image.png" alt="" width="305"><figcaption><p><mark style="color:$danger;">Dont necessarily intend this to be in the finished entry, just showing it here</mark></p></figcaption></figure></div>
 
-### <mark style="color:$info;">Stoary</mark>
+### <mark style="color:$info;">"Stoary": What is it?</mark>
 
-<mark style="color:$info;">(I haven't seen a definition by Soar yet)</mark>\ <mark style="color:$info;">Based on our tests, a Stoary seems (?) to be a visualization feature of the Soar.Earth platform that allows storytelling based on maps or imagery. Rather than using static imagery or a map screenshot, users can use maps/imagery to add context, descriptions, icons, and additional multimedia. This helps walk readers through a story arc tied to a place or several places.</mark>&#x20;
+_<mark style="color:$info;">(I haven't seen a definition by Soar yet)</mark>_\ <mark style="color:$info;">Based on our tests, a Stoary seems to be a visualization feature of the Soar platform that allows storytelling based on maps or imagery. Rather than using static imagery or a map screenshot, users can use pages of maps/imagery to add context, descriptions, icons, and additional multimedia. This helps walk readers through a story arc tied to a place or several places.</mark>&#x20;
 
-<mark style="color:$info;">Stoary Feature:</mark>
+<mark style="color:$info;">Soar's guide to creating a Stoary is found</mark> [<mark style="color:$info;">here</mark>](https://www.youtube.com/watch?v=G97wi-zaTfM)<mark style="color:$info;">.</mark>&#x20;
 
-1. <mark style="color:$info;">Pages of maps/imagery — This feature is helpful if, for instance, users are following one event in different locations (i.e. St. Patrick’s Day Parades worldwide. One can track it in cities like Dublin, Boston, New York, and visualize that. Another example could be following Zafar and its path from October to November 2024 (the Russian bulk carrier transporting grains out of Crimea to Yemen). Page 1 of a Stoary can be a map of Sevastopol port on a particular day, and then  Page 2 can be about a different map/location, for instance, of the Bosphorous Strait on another date, Page 3 can be its location as seen in Djibouti, and so on.</mark>&#x20;
+<mark style="color:$info;">Stoary Features:</mark>
+
+1. <mark style="color:$info;">Pages of maps/imagery — This feature is helpful if, for instance, users are following one event in different locations (i.e. St. Patrick’s Day Parades worldwide. One can track it in cities like Dublin, Boston, New York, and visualize that.</mark> &#x20;
    1. <mark style="color:$info;">Can use basemap (OSM, Satellite, etc) provided</mark>
    2.  <mark style="color:$info;">Can use user-uploaded Soar maps! (screenshot below)</mark>
 
@@ -111,10 +113,14 @@ Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceani
 
 <mark style="color:$danger;">\[Insert screenshot graphic of the location co-ordinates feature for annotating maps in Stoary section.]</mark>
 
-3. <mark style="color:$info;">Photo Overlay - overlay photos from news or stock sites (with attribution), or social media which can be good for corroboration.</mark>
-4. <mark style="color:$info;">Anything else?</mark>&#x20;
+3. <mark style="color:$info;">Photo Overlay - overlay photos from news or stock sites (with attribution), or social media, which can be good for corroboration.</mark>
+4. <mark style="color:$info;">Sharing and Exporting</mark>&#x20;
 
-<mark style="color:$info;">Soar's guide to creating a Stoary is found</mark> [<mark style="color:$info;">here</mark>](https://www.youtube.com/watch?v=G97wi-zaTfM)<mark style="color:$info;">.</mark>&#x20;
+To demonstrate the visualization capability of a "Stoary", we used the feature using information [from a 2024 investigation by Bellingcat](https://www.bellingcat.com/news/2024/12/18/ukraine-outraged-at-yemen-grain-shipment-from-occupied-crimea/). NOTE: This is for demonstration purposes only.&#x20;
+
+{% embed url="https://soar.earth/draw/2427" fullWidth="true" %}
+
+&#x20;
 
 ## The Interface <mark style="color:$danger;">is weird in my view, seems to have changed over time and old versions look better, need to c</mark>heck
 
