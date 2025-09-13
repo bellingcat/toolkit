@@ -34,11 +34,31 @@ The Soar platform provides a number of services: <mark style="color:$danger;">**
 1. A large database of maps and imagery displaying&#x20;
 
 * a wide variety of geographically distributed information,e.g. weather, maritime tides, distribution of dust and ash, soil moisture, population, radar, ...&#x20;
-* different time modalities, e.g. static maps created over a long time period stretching back to  <mark style="color:$danger;">**1800 (looking for read date of oldest),**</mark> maps displaying real time information feeds, animated gif maps displaying a sequence of changing information over time
+* different time modalities, e.g. static maps created over a long time period stretching back to  <mark style="color:$danger;">**1800 (looking for read date of oldest),**</mark> maps displaying real-time information feeds, animated gif maps displaying a sequence of changing information over time
 
-These Soar database entries are searchable by : <mark style="color:$danger;">**Need to test what other search keys apart from Location can be used - there are filters in Discover section for 2 Map Types:**</mark>&#x20;
+These Soar database entries are searchable by : <mark style="color:$danger;">**Need to test what other search keys apart from Location can be used - there are filters in**</mark>&#x20;
 
-[<mark style="color:$danger;">**LoFi**</mark>](#user-content-fn-1)[^1] <mark style="color:$danger;">**and Georeferenced (use Soar definitions of these two terms - i.e. either fits over a geo world map or not), which we should probably define (I can't right now) and then about 15 categorisations (Afton finds categorisation to be arbitrary - TEST RESULT: one map can be categorised under more than one heading - test):**</mark>
+### <mark style="color:$info;">Maps</mark>
+
+<mark style="color:$info;">The default view is a zoomed-out satellite imagery of the Earth in the middle. To the left is a sidebar with a list of maps, to the right is a search box, zoom in, zoom out, and</mark> [<mark style="color:$info;">box zoom.</mark>](#user-content-fn-1)[^1]&#x20;
+
+<mark style="color:$info;">LEFT SIDE BAR</mark>
+
+<mark style="color:$info;">On the left is a sidebar with a list of user-uploaded maps.</mark>&#x20;
+
+<mark style="color:$info;">User view: Zoomed-out, will show maps organized according to what is featured by the tool provider, followed by new uploads.</mark>&#x20;
+
+<mark style="color:$info;">User view: Zoomed-in on a specific location, will show maps (all types) available related to that area in particular or the neighboring region (i.e, zooming in on Algeria, gave me a list of maps, first showing Algeria Soviet National Map, followed by aerial imagery of Spain, and conflict map in Libya);</mark> &#x20;
+
+<mark style="color:$info;">ON THE RIGHT:</mark>
+
+<mark style="color:$info;">**Search box -**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">Input: coordinates, city names, Country, neighborhoods, some famous landmarks, but not specific addresses (house number street name + city)  (what are these location data called? gazetteer? reference data? address locator? )</mark>
+
+### <mark style="color:$info;">Discover</mark>
+
+<mark style="color:$danger;">**Discover section for 2 Map Types:**</mark>&#x20;
+
+[<mark style="color:$danger;">**LoFi**</mark>](#user-content-fn-2)[^2] <mark style="color:$danger;">**and Georeferenced (use Soar definitions of these two terms - i.e. either fits over a geo world map or not), which we should probably define (I can't right now) and then about 15 categorisations (Afton finds categorisation to be arbitrary - TEST RESULT: one map can be categorised under more than one heading - test):**</mark>
 
 <mark style="color:$info;">(Afton's try at definition --Feel free to rephrase!)</mark>&#x20;
 
@@ -295,4 +315,6 @@ Soar, Perth, Australia<mark style="color:$danger;">**?**</mark>
 
 
 
-[^1]: Another terms is schematic
+[^1]: using your cursor to draw a box and the map zooms in on that area of interest
+
+[^2]: Another terms is schematic
