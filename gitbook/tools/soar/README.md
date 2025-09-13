@@ -93,14 +93,18 @@ Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceani
 
 ### <mark style="color:$info;">"Stoary": What is it?</mark>
 
-_<mark style="color:$info;">(I haven't seen a definition by Soar yet)</mark>_\ <mark style="color:$info;">Based on our tests, a Stoary seems to be a visualization feature of the Soar platform that allows storytelling based on maps or imagery. Rather than using static imagery or a map screenshot, users can use pages of maps/imagery to add context, descriptions, icons, and additional multimedia. This helps walk readers through a story arc tied to a place or several places.</mark>&#x20;
+_<mark style="color:$info;">(I haven't seen a definition by Soar yet, I believe this is similar to "ESRI StoryMaps")</mark>_\ <mark style="color:$info;">Based on our tests, a Stoary seems to be a visualization feature of the Soar platform that allows storytelling based on maps or imagery. Rather than using static imagery or a map screenshot, users can use</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**pages**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">of maps/imagery to add context, descriptions, icons, and additional multimedia. This helps walk readers through a story arc tied to a place or several places.</mark>&#x20;
 
-<mark style="color:$info;">Soar's guide to creating a Stoary is found</mark> [<mark style="color:$info;">here</mark>](https://www.youtube.com/watch?v=G97wi-zaTfM)<mark style="color:$info;">.</mark>&#x20;
+<mark style="color:$info;">Allows creators to combine text, imagery, user-uploaded maps, and geospatial layers.</mark>&#x20;
 
-<mark style="color:$info;">Stoary Features:</mark>
+<mark style="color:$info;">Each page of a "Stoary" is scene-based. User can choose a location/view and add context.</mark>&#x20;
+
+<mark style="color:$info;">Soar's step-by-step guide to creating a Stoary is found</mark> [<mark style="color:$info;">here</mark>](https://www.youtube.com/watch?v=G97wi-zaTfM)<mark style="color:$info;">.</mark>&#x20;
+
+<mark style="color:$info;">**Stoary Features:**</mark>
 
 1. <mark style="color:$info;">Pages of maps/imagery — This feature is helpful if, for instance, users are following one event in different locations (i.e. St. Patrick’s Day Parades worldwide. One can track it in cities like Dublin, Boston, New York, and visualize that.</mark> &#x20;
-   1. <mark style="color:$info;">Can use basemap (OSM, Satellite, etc) provided</mark>
+   1. <mark style="color:$info;">Each page of a Stoary can use basemap (OSM, Satellite, etc) provided</mark>
    2.  <mark style="color:$info;">Can use user-uploaded Soar maps! (screenshot below)</mark>
 
        <mark style="color:$info;">NOTE: If using a Soar uploaded map for your Stoary, the transparency feature can be used.</mark>&#x20;
