@@ -38,6 +38,35 @@ The Soar platform provides a number of services: <mark style="color:$danger;">**
 
 These Soar database entries are searchable by : <mark style="color:$danger;">**Need to test what other search keys apart from Location can be used - there are filters in**</mark>&#x20;
 
+### <mark style="color:$info;">Defining Soar's Atlas - What is it?</mark>&#x20;
+
+\ <mark style="color:$info;">Soar hosts about 1,043,975 maps \[define what types]. The data comes from, but is not limited to:</mark>&#x20;
+
+<mark style="color:$info;">1. Individuals (example https://soar.earth/profile/Warmapper and https://soar.earth/profile/spacefromspace)</mark>
+
+<mark style="color:$info;">2. Organizations (https://soar.earth/profile/UN or https://soar.earth/profile/EU)</mark>
+
+<mark style="color:$info;">3. Government agency (https://soar.earth/profile/USGS)</mark>&#x20;
+
+<mark style="color:$info;">4. Other satellite image providers (https://soar.earth/profile/Umbra)</mark> \
+
+
+<mark style="color:$info;">Categories or types of maps are: \[list]</mark>
+
+\
+&#xNAN;_<mark style="color:$info;">(The more I think about it, the clearer it becomes that) Soar is both a tool for working on geospatial data and a space for creative/custom map-making. When entering the Soar landing page, it offers users two main ways to engage with its maps. Each reflects a different approach and a purpose. Do you want to use it like Google Earth /Sentinel Hub? Or do you want visually compelling map content?</mark>_\
+
+
+<mark style="color:$info;">The</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**Discover**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">section leans more into visual storytelling. This takes you</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**directly**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">to the atlas' user-uploaded maps,imagery etc.  It is a collection of both georeferenced maps and what Soar calls "LoFi" maps, which are designed for data visualization and artistic expression, rather than geographic precision.  For georeferenced maps, you can use a transparency slider to adjust how much of the basemap underneath shows through. This helps compare features or blend historical and current views. LoFi maps don't offer this, since they are not spatially aligned, but stand out for their design and narrative focus.</mark>  \ <mark style="color:$info;">GIFS</mark>\
+
+
+<mark style="color:$info;">The</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**Maps**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">section works like a traditional GIS interface. You can search by coordinates, view satellite imagery, and layer your own georeferenced maps over basemaps. It is ideal for users who need accuracy and spatial detail. Zooming in or out triggers a dynamic sidebar to the left with related user-uploaded maps from Soar's Atlas, adding a curated browsing experience to the more technical side of the platform. The Maps takes you</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**indirectly**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">to the Atlas of user-uploaded maps, imagery.</mark>  \
+
+
+<mark style="color:$info;">There is, however, a crossover between these two sections. Features like the Atlas appearing on both and the transparency tool help bridge them. But that being said, the platform seems to lean slightly more toward showcasing its Atlas and visual content than emphasizing traditional mapping workflows. However, it does so in a way that still supports both audiences.</mark>&#x20;
+
+\ <mark style="color:$info;">Quote from the creator: "Soar could become as ubiquitous as Google Maps but with more context and community." (https://www.popsci.com/technology/soar-online-atlas-open-source-intelligence/)</mark>&#x20;
+
 ### <mark style="color:$info;">Maps</mark>
 
 <mark style="color:$info;">The default view is a zoomed-out satellite imagery of the Earth in the middle. To the left is a sidebar with a list of maps, to the right is a search box, zoom in, zoom out, and</mark> [<mark style="color:$info;">box zoom.</mark>](#user-content-fn-1)[^1]&#x20;
@@ -78,7 +107,7 @@ _<mark style="color:$info;">Filtering:</mark>_ <mark style="color:$info;"></mark
 
 <mark style="color:$danger;">**Discover section for 2 Map Types:**</mark>&#x20;
 
-[<mark style="color:$danger;">**LoFi**</mark>](#user-content-fn-2)[^2] <mark style="color:$danger;">**and Georeferenced (use Soar definitions of these two terms - i.e. either fits over a geo world map or not), which we should probably define (I can't right now) and then about 15 categorisations (Afton finds categorisation to be arbitrary - TEST RESULT: one map can be categorised under more than one heading - test):**</mark>
+[<mark style="color:$danger;">**LoFi**</mark>](#user-content-fn-2)[^2] <mark style="color:$danger;">**and Georeferenced (use Soar definitions of these two terms - i.e. either fits over a geo world map or not), which we should probably define (I can't right now) and then about 15 categorisations (Afton finds categorisation to be arbitrary - TEST RESULT: one map can be categorised under more than one heading - test):**</mark>**&#x20;**<mark style="color:$info;">**Are G**</mark><mark style="color:$info;">**IFs part of georeferenced maps? (they have the transparency slider on most of them, and the search results in the Discover section include, lofi, standard maps, and GIFs)**</mark>&#x20;
 
 <mark style="color:$info;">(Afton's try at definition --Feel free to rephrase!)</mark>&#x20;
 
