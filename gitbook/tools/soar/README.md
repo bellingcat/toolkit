@@ -42,33 +42,33 @@ These Soar database entries are searchable by : <mark style="color:$danger;">**N
 
 <mark style="color:$info;">The default view is a zoomed-out satellite imagery of the Earth in the middle. To the left is a sidebar with a list of maps, to the right is a search box, zoom in, zoom out, and</mark> [<mark style="color:$info;">box zoom.</mark>](#user-content-fn-1)[^1]&#x20;
 
-<mark style="color:$info;">LEFT SIDE BAR</mark>
+<mark style="color:$info;">**LEFT SIDEBAR**</mark>
 
 <mark style="color:$info;">On the left is a sidebar with a list of user-uploaded maps.</mark>&#x20;
 
-<mark style="color:$info;">\[Filter maps: Choose Filter] This list can be filtered as: Agriculture, Climate, Culture, Demographics, Earth Art, Economic, Environment, Geology, History, Imagery, Marine/Nautical, Politics, Radar, Elevation/Topography, Transport, Urban.</mark>&#x20;
+_<mark style="color:$info;">Filtering:</mark>_ <mark style="color:$info;"></mark><mark style="color:$info;">This list can be filtered as: Agriculture, Climate, Culture, Demographics, Earth Art, Economic, Environment, Geology, History, Imagery, Marine/Nautical, Politics, Radar, Elevation/Topography, Transport, Urban.</mark>&#x20;
 
-<mark style="color:$info;">User view: Zoomed-out, will show maps organized according to what is featured by the tool provider, followed by new uploads.</mark>&#x20;
-
-<mark style="color:$info;">Map results can also be filtered as above.</mark>&#x20;
-
-<mark style="color:$info;">User view: Zoomed-in on a specific location, will show maps (all types) available related to that area in particular or the neighboring region (i.e, zooming in on Algeria, gave me a list of maps, first showing Algeria Soviet National Map, followed by aerial imagery of Spain, and conflict map in Libya);</mark> &#x20;
+<mark style="color:$info;">**User view 1: Zoomed-out.**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">This will show maps organized according to what is featured by the tool provider, followed by new uploads.</mark>&#x20;
 
 <mark style="color:$info;">Map results can also be filtered as above.</mark>&#x20;
 
-<mark style="color:$info;">ON THE RIGHT:</mark>
+<mark style="color:$info;">**User view 2: Zoomed-in on a specific location.**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">This will show maps (all types) available related to that area in particular or the neighboring region (i.e, zooming in on Algeria, gave us a list of maps, first showing Algeria Soviet National Map, followed by aerial imagery of Spain, and conflict map in Libya);</mark> &#x20;
+
+<mark style="color:$info;">Map results can also be filtered as above.</mark>&#x20;
+
+<mark style="color:$info;">**ON THE RIGHT:**</mark>
 
 <mark style="color:$info;">**Search box -**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">Input: coordinates, city names, Country, neighborhoods, some famous landmarks, but not specific addresses (house number street name + city)  (what are these location data called? gazetteer? reference data? address locator?)</mark>
 
 <mark style="color:$info;">**Zoom options -**</mark> <mark style="color:$info;"></mark> <mark style="color:$info;"></mark><mark style="color:$info;">zoom in, zoom out, and</mark> [<mark style="color:$info;">box zoom.</mark>](#user-content-fn-1)[^1]&#x20;
 
-<mark style="color:$info;">BOTTOM RIGHT:</mark>
+<mark style="color:$info;">**BOTTOM RIGHT:**</mark>
 
 <mark style="color:$info;">Basemaps: OpenStreetMaps, Open Elevation, Satellite, Hybrid, White Base, Dark Base, White Blank, Dark Blank</mark>
 
 <mark style="color:$info;">Satellite Paths: Day/night, Sentinel 1A, Sentinel 2A, Sentinel 1B, Sentinel 2B, Landsat 8, International Space Station</mark>&#x20;
 
-<mark style="color:$info;">BOTTOM CENTER:</mark>&#x20;
+<mark style="color:$info;">**BOTTOM CENTER:**</mark>&#x20;
 
 <mark style="color:$info;">"Create a Map" or a "Stoary" (See below for detailed description of this feature).</mark>&#x20;
 
