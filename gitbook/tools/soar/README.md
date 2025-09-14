@@ -162,7 +162,7 @@ Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceani
 
 ### <mark style="color:$info;">"Stoary": What is it?</mark>
 
-_<mark style="color:$info;">(I haven't seen a definition by Soar yet, but I believe this is similar to "ESRI StoryMaps")</mark>_\ <mark style="color:$info;">Based on our tests, a Stoary seems to be a visualization feature of the Soar platform that allows storytelling based on maps or imagery. Rather than using static imagery or a map screenshot, users can use</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**pages**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">of maps/imagery to add context, descriptions, icons, and additional multimedia. This helps walk readers through a story arc tied to a place or several places.</mark>&#x20;
+_<mark style="color:$info;">(Post on X:</mark>_ [_<mark style="color:$info;">https://x.com/Soar\_Earth/status/1825483446816223415</mark>_](https://x.com/Soar_Earth/status/1825483446816223415)_<mark style="color:$info;">, but I believe this is similar to "ESRI StoryMaps")</mark>_\ <mark style="color:$info;">Based on our tests, a Stoary seems to be a visualization feature of the Soar platform that allows storytelling based on maps or imagery. Rather than using static imagery or a map screenshot, users can use</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**pages**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">of maps/imagery to add context, descriptions, icons, and additional multimedia. This helps walk readers through a story arc tied to a place or several places.</mark>&#x20;
 
 <mark style="color:$info;">It allows creators to combine text, imagery, user-uploaded maps, and geospatial layers.</mark>&#x20;
 
@@ -359,7 +359,7 @@ Soar, Perth, Australia<mark style="color:$danger;">**?**</mark>
 
 | Page maintainer                                             |
 | ----------------------------------------------------------- |
-| Afton 13/9/25 19:44 GMT and Sophie Tedling 2/9/25 20:15 GMT |
+| Afton 14/9/25 16:12 GMT and Sophie Tedling 2/9/25 20:15 GMT |
 |                                                             |
 
 
