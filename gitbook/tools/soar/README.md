@@ -107,7 +107,7 @@ _<mark style="color:$info;">Filtering:</mark>_ <mark style="color:$info;"></mark
 
 <mark style="color:$danger;">**Discover section for 2 Map Types:**</mark>&#x20;
 
-[<mark style="color:$danger;">**LoFi**</mark>](#user-content-fn-2)[^2] <mark style="color:$danger;">**and Georeferenced (use Soar definitions of these two terms - i.e. either fits over a geo world map or not), which we should probably define (I can't right now) and then about 15 categorisations (Afton finds categorisation to be arbitrary - TEST RESULT: one map can be categorised under more than one heading - test):**</mark>**&#x20;**<mark style="color:$info;">**Are G**</mark><mark style="color:$info;">**IFs part of georeferenced maps? (they have the transparency slider on most of them, and the search results in the Discover section include, lofi, standard maps, and GIFs)**</mark>&#x20;
+[<mark style="color:$danger;">**LoFi**</mark>](#user-content-fn-2)[^2] <mark style="color:$danger;">**and Georeferenced (use Soar definitions of these two terms - i.e. either fits over a geo world map or not), which we should probably define (I can't right now) and then about 15 categorisations (Afton finds categorisation to be arbitrary - TEST RESULT: one map can be categorised under more than one heading - test):**</mark>**&#x20;**<mark style="color:$info;">**Are GIFs part of georeferenced maps? (they have the transparency slider on most of them, and the search results in the Discover section include, lofi, standard maps, and GIFs)**</mark>&#x20;
 
 <mark style="color:$info;">(Afton's try at definition --Feel free to rephrase!)</mark>&#x20;
 
@@ -164,7 +164,7 @@ Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceani
 
 _<mark style="color:$info;">(I haven't seen a definition by Soar yet, but I believe this is similar to "ESRI StoryMaps")</mark>_\ <mark style="color:$info;">Based on our tests, a Stoary seems to be a visualization feature of the Soar platform that allows storytelling based on maps or imagery. Rather than using static imagery or a map screenshot, users can use</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**pages**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">of maps/imagery to add context, descriptions, icons, and additional multimedia. This helps walk readers through a story arc tied to a place or several places.</mark>&#x20;
 
-<mark style="color:$info;">Allows creators to combine text, imagery, user-uploaded maps, and geospatial layers.</mark>&#x20;
+<mark style="color:$info;">It allows creators to combine text, imagery, user-uploaded maps, and geospatial layers.</mark>&#x20;
 
 <mark style="color:$info;">Each page of a "Stoary" is scene-based. The user can choose a location/view and add context.</mark>&#x20;
 
