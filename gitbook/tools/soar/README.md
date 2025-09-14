@@ -15,9 +15,13 @@ description: >-
 
 \[Insert graphic of gif showing overlay of candidate Soar map over OSM background and increasing transparency to show perfect fit of Georeferenced map]
 
+<mark style="color:$info;">Soar is primarily a comprehensive digital atlas where users can discover, explore, navigate, and upload diverse maps and imagery. But it also functions as both a GIS exploration/navigation tool and a social platform for the global cartography community. The platform also enables satellite acquisition, user uploads, and visualization through its "Stoary" and GIFs feature for creating multi-slide map narratives with community-driven content sharing.</mark>
+
+<mark style="color:$info;">The main features are: DISCOVER, MAPS, SATELLITE, UPLOAD</mark>&#x20;
+
 <mark style="color:$danger;">**NOTE: NOT ALL MAPS HAVE TRANSPARENCY FEATURE**</mark>&#x20;
 
-<mark style="color:$info;">Based on our tests, the category "geo-referenced maps" mostly has the transparency feature. However, this feature cannot be used on "lo-fi" maps.</mark>&#x20;
+<mark style="color:$info;">NOTE: Based on our tests, the category "geo-referenced maps" mostly has the transparency feature. However, this feature cannot be used on "lo-fi" maps.</mark>&#x20;
 
 <mark style="color:$danger;">**NOTE: Check base data is OSM**</mark>
 
@@ -54,7 +58,7 @@ These Soar database entries are searchable by : <mark style="color:$danger;">**N
 <mark style="color:$info;">Categories or types of maps are: \[list]</mark>
 
 \
-&#xNAN;_<mark style="color:$info;">(The more I think about it, the clearer it becomes that) Soar is both a tool for working on geospatial data and a space for creative/custom map-making. When entering the Soar landing page, it offers users two main ways to engage with its maps. Each reflects a different approach and a purpose. Do you want to use it like Google Earth /Sentinel Hub? Or do you want visually compelling map content?</mark>_\
+&#xNAN;_<mark style="color:$info;">(The more I think about it, the clearer it becomes that) Soar is both a tool for working on geospatial data and a space for creative/custom map-making. When entering the Soar landing page, it offers users two main ways to engage with its atlas. Each reflects a different approach and a purpose. Do you want to use it like Google Earth /Sentinel Hub? Or do you want visually compelling map content?</mark>_\
 
 
 <mark style="color:$info;">The</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**Discover**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">section leans more into visual storytelling. This takes you</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**directly**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">to the atlas' user-uploaded maps,imagery etc.  It is a collection of both georeferenced maps and what Soar calls "LoFi" maps, which are designed for data visualization and artistic expression, rather than geographic precision.  For georeferenced maps, you can use a transparency slider to adjust how much of the basemap underneath shows through. This helps compare features or blend historical and current views. LoFi maps don't offer this, since they are not spatially aligned, but stand out for their design and narrative focus.</mark>  \ <mark style="color:$info;">GIFS</mark>\
@@ -67,7 +71,7 @@ These Soar database entries are searchable by : <mark style="color:$danger;">**N
 
 \ <mark style="color:$info;">Quote from the creator: "Soar could become as ubiquitous as Google Maps but with more context and community." (https://www.popsci.com/technology/soar-online-atlas-open-source-intelligence/)</mark>&#x20;
 
-### <mark style="color:$info;">Maps</mark>
+### <mark style="color:$info;">MAPS</mark>
 
 <mark style="color:$info;">The default view is a zoomed-out satellite imagery of the Earth in the middle. To the left is a sidebar with a list of maps, to the right is a search box, zoom in, zoom out, and</mark> [<mark style="color:$info;">box zoom.</mark>](#user-content-fn-1)[^1]&#x20;
 
@@ -103,7 +107,7 @@ _<mark style="color:$info;">Filtering:</mark>_ <mark style="color:$info;"></mark
 
 
 
-### <mark style="color:$info;">Discover</mark>
+### <mark style="color:$info;">DISCOVER</mark>
 
 <mark style="color:$danger;">**Discover section for 2 Map Types:**</mark>&#x20;
 
