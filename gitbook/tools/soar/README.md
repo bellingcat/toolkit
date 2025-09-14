@@ -17,7 +17,7 @@ description: >-
 
 <mark style="color:$info;">Soar is primarily a comprehensive digital atlas where users can discover, explore, navigate, and upload diverse maps and imagery. But it also functions as both a GIS exploration/navigation tool and a social platform for the global cartography community. The platform also enables satellite acquisition, user uploads, and visualization through its "Stoary" and GIFs feature for creating multi-slide map narratives with community-driven content sharing.</mark>
 
-<mark style="color:$info;">The main features are: DISCOVER, MAPS, SATELLITE, UPLOAD</mark>&#x20;
+<mark style="color:$info;">The main features are: DISCOVER, MAPS, SATELLITE, BOOKMARKS, UPLOAD</mark>&#x20;
 
 <mark style="color:$danger;">**NOTE: NOT ALL MAPS HAVE TRANSPARENCY FEATURE**</mark>&#x20;
 
