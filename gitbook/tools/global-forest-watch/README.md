@@ -81,7 +81,7 @@ On the left-hand side of the GFW map interface, under the **“Land Cover”** s
 
 ### **Climate**
 
-**The Climate section of the Global Forest Watch Map is designed to help users understand the relationship between forests and climate change.**
+The Climate section of the Global Forest Watch Map is designed to help users understand the **relationship between forests and climate change.**
 
 ### **Tools for Exploring Climate Layers in GFW**
 
