@@ -75,10 +75,8 @@ The map’s **Analysis Tool** lets users draw a custom area, upload a shapefile,
 
 **Land use** refers to how humans utilize land for various activities such as agriculture, forestry, conservation, mining, and infrastructure. The GFW map offers multiple data layers showing the **spatial distribution of economic activities and land management designations**.
 
-This Land Use section offers:
+On the left-hand side of the GFW map interface, under the **“Land Cover”** section, users can select from multiple global and regional datasets. These layers can be toggled on/off.
 
-* **Layer Toggle Panel**\
-  On the left-hand side of the GFW map interface, under the **“Land Cover”** section, users can select from multiple global and regional datasets. These layers can be toggled on/off and displayed simultaneously with forest change data, protected areas, concessions, and other relevant features.
 * **Timeline Control**\
   For certain land cover datasets, users can view data by year (e.g., to see land cover classification from 2015 through 2022), using the **timeline slider**.
 * **Opacity and Layer Ordering**\
