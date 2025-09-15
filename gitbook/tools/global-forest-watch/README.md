@@ -81,28 +81,11 @@ On the left-hand side of the GFW map interface, under the **“Land Cover”** s
 
 ### **Climate**
 
-The Climate section of the Global Forest Watch Map is designed to help users understand the **relationship between forests and climate change.**
+The "Climate" section of the Global Forest Watch Map is designed to help users understand the **relationship between forests and climate change.** It provides access to datasets related to **carbon stocks, carbon emissions, forest carbon flux, and forest carbon offsets**.
 
-### **Tools for Exploring Climate Layers in GFW**
+<figure><img src=".gitbook/assets/Screenshot_1 climate.png" alt=""><figcaption><p>Available "Climate" layers include "Forest greenhouse gas emissions" and "Forest carbon removals"</p></figcaption></figure>
 
-1. **Layer Panel – Climate Section**\
-   On the left side of the map interface, the **“Climate”** category provides access to datasets related to **carbon stocks, carbon emissions, forest carbon flux, and forest carbon offsets**.
-2. **Analysis Tool**\
-   Users can select a region (by drawing, uploading a file, or choosing an administrative boundary) to calculate **carbon emissions**, **carbon loss**, or **carbon stock totals** within that specific area.
-3. **Data Comparison**\
-   Climate layers can be overlaid with forest change data (e.g., tree cover loss) or land use layers (e.g., concessions, protected areas) to evaluate the **climate impact of land-use change**.
-4. **Temporal Exploration**\
-   Some datasets (such as emissions or sequestration data) are available by year, allowing users to analyze trends over time.
-
-The different types of layers that the Climate section offers are:
-
-* Forest Greenhouse Gas Emissions
-* Forest Greenhouse Gas Net Flux
-* Forest Carbon Removals
-* Tree Biomass Density
-* Potential Carbon Sequestation Rate
-
-<figure><img src=".gitbook/assets/Screenshot_1 climate.png" alt=""><figcaption><p>Climate layers and their visual representation on the map.</p></figcaption></figure>
+Climate layers can be overlaid with forest change data (e.g., tree cover loss) or land use layers (e.g., concessions, protected areas) to evaluate the potential **climate impact of land-use change**.
 
 ### **Biodiversity**
 
