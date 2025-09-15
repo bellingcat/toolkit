@@ -77,7 +77,7 @@ The map’s **Analysis Tool** lets users draw a custom area, upload a shapefile,
 
 On the left-hand side of the GFW map interface, under the **“Land Cover”** section, users can select from multiple global and regional datasets. These layers can be toggled on/off.
 
-<div align="center"><figure><img src=".gitbook/assets/Screenshot 2025-09-15 at 19.42.06.png" alt="" width="167"><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src=".gitbook/assets/Screenshot 2025-09-15 at 19.42.06.png" alt="" width="167"><figcaption><p>The Land Use section allows researchers to look at datasets like "Logging Concessions", "Mining Concessions" or "Oil and gas concessions".</p></figcaption></figure></div>
 
 * **Timeline Control**\
   For certain land cover datasets, users can view data by year (e.g., to see land cover classification from 2015 through 2022), using the **timeline slider**.
