@@ -89,29 +89,11 @@ Climate layers can be overlaid with forest change data (e.g., tree cover loss) o
 
 ### **Biodiversity**
 
-The **Biodiversity section** of the Global Forest Watch Map offers spatial data and tools to help users understand how forest ecosystems support global biodiversity
+The **Biodiversity section** of the Global Forest Watch Map offers data and tools to help users understand how forest ecosystems support global biodiversity. These datasets provide visual insights into species richness, habitat ranges, conservation priorities, and threats to biodiversity.
 
-**Tools for Exploring Biodiversity in GFW**
+<figure><img src=".gitbook/assets/Screenshot_1 Biodeversity.png" alt="Some of the Biodiversity layers showing on the map"><figcaption><p>The "Biodiversity" layer provides options like "Global biodiversity intactness" or "Biodiversity Hotsports"</p></figcaption></figure>
 
-1. **Biodiversity Layers Panel**\
-   Found under the **“Biodiversity”** section in the map’s left-hand layer menu, these datasets provide visual insights into species richness, habitat ranges, conservation priorities, and threats to biodiversity.
-2. **Analysis Tool**\
-   Users can select any region (custom-drawn, uploaded, or predefined) to analyze how much of the area falls within key biodiversity zones or critical habitats.
-3. **Layer Overlap & Prioritization**\
-   Biodiversity layers can be combined with **forest change data, land use data, and protection status** to identify at-risk ecosystems or areas where conservation is urgently needed.
-4. **Timeline Slider**\
-   While biodiversity data is generally static or updated periodically (not annually), users can still assess changes by overlaying **recent forest loss or fire alerts** over biodiversity layers.
-
-The different types of layers that the Climate section offers are:
-
-* Global Biodiversity Intactness
-* Global Biodiversity Significance
-* Alliance for Zero Extinction Sites
-* Key Biodiversity Areas
-* Biodiversity Hotspots
-* Endemic Bird Areas
-
-<figure><img src=".gitbook/assets/Screenshot_1 Biodeversity.png" alt="Some of the Biodiversity layers showing on the map"><figcaption><p>Biodiversity layers and their visual representaion on the map.</p></figcaption></figure>
+Biodiversity layers can be combined with **forest change data, land use data, and protection status** to identify at-risk ecosystems or areas where conservation is urgently needed. While biodiversity data is generally static or updated periodically (not annually), users can still assess changes by overlaying **recent forest loss or fire alerts** over biodiversity layers.
 
 ## Cost
 
