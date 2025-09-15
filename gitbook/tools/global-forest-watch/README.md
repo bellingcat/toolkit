@@ -61,7 +61,7 @@ On the GFW map, users can view fire alerts in near real time, filter by date, an
 
 Land Cover provides essential spatial data about **what types of natural or human-altered surfaces** exist across the globe. On the left-hand side of the GFW map interface, under the **“Land Cover”** section, users can select from multiple global and regional datasets.&#x20;
 
-<div align="left"><figure><img src=".gitbook/assets/Screenshot 2025-09-15 at 18.09.39.png" alt="" width="188"><figcaption><p>The Land cover section offers different types of layers including "Tree cover", "Natural Forests" or "Mangrove forests".</p></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/Screenshot 2025-09-15 at 18.09.39.png" alt="" width="188"><figcaption><p>The Land Cover section offers different types of layers including "Tree cover", "Natural Forests" or "Mangrove forests".</p></figcaption></figure></div>
 
 These layers can be toggled on/off and displayed simultaneously with forest change data, protected areas, concessions, and other relevant features.
 
@@ -75,29 +75,9 @@ The map’s **Analysis Tool** lets users draw a custom area, upload a shapefile,
 
 **Land use** refers to how humans utilize land for various activities such as agriculture, forestry, conservation, mining, and infrastructure. The GFW map offers multiple data layers showing the **spatial distribution of economic activities and land management designations**.
 
-On the left-hand side of the GFW map interface, under the **“Land Cover”** section, users can select from multiple global and regional datasets. These layers can be toggled on/off.
+On the left-hand side of the GFW map interface, under the **“Land Cover”** section, users can toggle on or off various dataset layers.
 
 <div align="center"><figure><img src=".gitbook/assets/Screenshot 2025-09-15 at 19.42.06.png" alt="" width="167"><figcaption><p>The Land Use section allows researchers to look at datasets like "Logging Concessions", "Mining Concessions" or "Oil and gas concessions".</p></figcaption></figure></div>
-
-* **Timeline Control**\
-  For certain land cover datasets, users can view data by year (e.g., to see land cover classification from 2015 through 2022), using the **timeline slider**.
-* **Opacity and Layer Ordering**\
-  Users can adjust the **opacity** of the land cover layers and rearrange their **layer order** in the map interface, allowing for better comparison between multiple datasets.
-* **Analysis Tool**\
-  The map’s **Analysis Tool** lets users draw a custom area, upload a shapefile, or select predefined administrative/ecological zones (like countries or river basins). GFW then calculates the **distribution of land cover classes** within the selected region.
-
-The different types of layers that the Land Use section offers are:
-
-* Logging Concessions
-* Mining Concession
-* Oil Palm Concessions
-* Mapped Cocoa plots per square kilometer
-* Palm Oil Mils
-* RSPO oil Palm Concessions
-* Wood Fiber Concessions
-* Protected Areas
-* Indigenous and Community Lands
-* Population Density
 
 ### **Climate**
 
