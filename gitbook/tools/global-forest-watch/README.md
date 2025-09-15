@@ -61,7 +61,7 @@ On the GFW map, users can view fire alerts in near real time, filter by date, an
 
 Land Cover provides essential spatial data about **what types of natural or human-altered surfaces** exist across the globe. On the left-hand side of the GFW map interface, under the **“Land Cover”** section, users can select from multiple global and regional datasets. These layers can be toggled on/off and displayed simultaneously with forest change data, protected areas, concessions, and other relevant features.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-09-15 at 18.09.39.png" alt="" width="188"><figcaption><p>The Land cover section offers different types of layers including "Tree cover", "Natural Forests" or "Mangrove forests".</p></figcaption></figure>
+<div align="center"><figure><img src=".gitbook/assets/Screenshot 2025-09-15 at 18.09.39.png" alt="" width="188"><figcaption><p>The Land cover section offers different types of layers including "Tree cover", "Natural Forests" or "Mangrove forests".</p></figcaption></figure></div>
 
 This Land Cover section offers:
 
@@ -71,23 +71,6 @@ This Land Cover section offers:
   Users can adjust the **opacity** of the land cover layers and rearrange their **layer order** in the map interface, allowing for better comparison between multiple datasets.
 * **Analysis Tool**\
   The map’s **Analysis Tool** lets users draw a custom area, upload a shapefile, or select predefined administrative/ecological zones (like countries or river basins). GFW then calculates the **distribution of land cover classes** within the selected region.
-
-The different types of layers that the Land cover section offers are:
-
-* Tree cover
-* Tropical Tree cover
-* Primary Forests
-* Tree Cover Height
-* Natural Forest
-* Forest landscape integrity index
-* Intact Forest landscapes
-* Land Cover
-* Mangrove Forests
-* Soy planted area
-* Tree Plantations
-* Global Peatlands
-
-<figure><img src=".gitbook/assets/Screenshot_1 tree cover.png" alt=""><figcaption><p>Land cover layers and their visual representation on the map.</p></figcaption></figure>
 
 ### **Land Use**
 
