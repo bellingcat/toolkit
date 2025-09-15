@@ -61,7 +61,7 @@ On the GFW map, users can view fire alerts in near real time, filter by date, an
 
 Land Cover provides essential spatial data about **what types of natural or human-altered surfaces** exist across the globe. On the left-hand side of the GFW map interface, under the **“Land Cover”** section, users can select from multiple global and regional datasets.&#x20;
 
-<div align="center"><figure><img src=".gitbook/assets/Screenshot 2025-09-15 at 18.09.39.png" alt="" width="188"><figcaption><p>The Land cover section offers different types of layers including "Tree cover", "Natural Forests" or "Mangrove forests".</p></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/Screenshot 2025-09-15 at 18.09.39.png" alt="" width="188"><figcaption><p>The Land cover section offers different types of layers including "Tree cover", "Natural Forests" or "Mangrove forests".</p></figcaption></figure></div>
 
 These layers can be toggled on/off and displayed simultaneously with forest change data, protected areas, concessions, and other relevant features.
 
