@@ -61,6 +61,8 @@ On the GFW map, users can view fire alerts in near real time, filter by date, an
 
 Land Cover provides essential spatial data about **what types of natural or human-altered surfaces** exist across the globe.
 
+<figure><img src=".gitbook/assets/Screenshot 2025-09-15 at 18.09.39.png" alt="" width="188"><figcaption></figcaption></figure>
+
 This Land Cover section offers:
 
 * **Layer Toggle Panel**\
