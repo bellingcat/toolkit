@@ -1,6 +1,6 @@
 ---
 description: Around 23 million records of trade in wildlife since 1975.
-updated: '2025-06-30'
+updated: '2025-09-15'
 ---
 
 # CITES Trade Database

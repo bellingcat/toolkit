@@ -1,6 +1,6 @@
 ---
 description: Collection of tools and maps for discerning license plates by country
-updated: '2025-07-03'
+updated: '2025-09-15'
 ---
 
 # License Plate Maps

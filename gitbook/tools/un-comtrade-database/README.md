@@ -1,5 +1,6 @@
 ---
 description: United Nations free database of global trade.
+updated: '2025-09-15'
 ---
 
 # UN Comtrade Database
