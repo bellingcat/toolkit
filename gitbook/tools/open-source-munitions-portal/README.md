@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-[https://osmp.airwars.org/](https://osmp.airwars.org/)
+[https://osmp.ngo/](https://osmp.ngo/)
 
 ## Description
 
