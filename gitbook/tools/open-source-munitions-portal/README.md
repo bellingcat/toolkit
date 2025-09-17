@@ -2,6 +2,7 @@
 description: >-
   A tool for researchers, journalists and practitioners trying to learn more
   about munitions and their use and impact in conflict.
+updated: '2025-09-17'
 ---
 
 # Open Source Munitions Portal
