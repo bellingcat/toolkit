@@ -47,97 +47,29 @@ jobs:
               }
             }' -f org=$ORGANIZATION -F number=$PROJECT_NUMBER > project_data.json
 
-          # Parses the response from the API query and stores the relevant IDs as environment variables. Modify this to get the ID for different fields or options. For example:
-          #
-          # - To get the ID of a field called `Team`, add `echo 'TEAM_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Team") | .id' project_data.json) >> $GITHUB_ENV`.
-          # - To get the ID of an option called `Octoteam` for the `Team` single select field, add `echo 'OCTOTEAM_OPTION_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Team") |.options[] | select(.name=="Octoteam") |.id' project_data.json) >> $GITHUB_ENV`.
-          #
-          # **Note:** This workflow assumes a  project with a single select field called "Status" that includes an option called "Review Requested" and a date field called "Date submitted".
+          #' Parses the response from the API query and stores the relevant IDs as environment variables
 
           echo 'PROJECT_ID='$(jq '.data.organization.projectV2.id' project_data.json) >> $GITHUB_ENV
           echo 'DATE_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Date submitted") | .id' project_data.json) >> $GITHUB_ENV
           echo 'URL_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "URL") | .id' project_data.json) >> $GITHUB_ENV
           echo 'STATUS_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .id' project_data.json) >> $GITHUB_ENV
           echo 'REVIEW_OPTION_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .options[] | select(.name=="Review Requested") |.id' project_data.json) >> $GITHUB_ENV
+          echo 'PUBLISHED_OPTION_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .options[] | select(.name=="Published") |.id' project_data.json) >> $GITHUB_ENV
 
 
-      # Downloads all items from the project and stores them in project_items.json
-      - name: Get project items
+      # Downloads all items from the project and adds missing ones
+      - name: Add missing project items
         env:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
         run: |
-          ./src/project_items.bash
+          ./src/ghproject_fetch.bash
+          node src/ghproject_missing_items.mjs | src/ghproject_add.bash
 
-      # Read project_items.json, find item ids that need update '
-      - name: Process items
-        env:
-          GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
-        run: |
-          items="$(node src/ghproject.mjs)"
-          echo 'PROJECT_ITEMS='$items >> $GITHUB_ENV
-
-      # Sets the value of the `Status` field to `Review Requested`.
-      # Sets the value of the `Date submitted` field.'
-      # Sets the value of the `URL` field.'
-      - name: Update status
+      # Downloads all items from the project and updates them
+      - name: Update project items
         env:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
         run: |
-          for project_item in $PROJECT_ITEMS
-          do
-            item_id=$(echo $project_item | jq '.id')
-            date_submitted=$(echo $project_item | jq -r '.date_submitted')
-            echo $date_submitted
-            url=$(echo $project_item | jq -r '.url')
-            gh api graphql -f query='
-              mutation (
-                $project: ID!
-                $item: ID!
-                $status_field: ID!
-                $status_value: String!
-                $date_field: ID!
-                $date_value: Date!
-                $url_field: ID!
-                $url_value: String!
-              ) {
-                set_status: updateProjectV2ItemFieldValue(input: {
-                  projectId: $project
-                  itemId: $item
-                  fieldId: $status_field
-                  value: {
-                    singleSelectOptionId: $status_value
-                    }
-                }) {
-                  projectV2Item {
-                    id
-                  }
-                }
-                set_date_posted: updateProjectV2ItemFieldValue(input: {
-                  projectId: $project
-                  itemId: $item
-                  fieldId: $date_field
-                  value: {
-                    date: $date_value
-                  }
-                }) {
-                  projectV2Item {
-                    id
-                  }
-                }
-                set_url: updateProjectV2ItemFieldValue(input: {
-                  projectId: $project
-                  itemId: $item
-                  fieldId: $url_field
-                  value: {
-                    text: $url_value
-                  }
-                }) {
-                  projectV2Item {
-                    id
-                  }
-                }
-              }' -f project=$PROJECT_ID -f item=$item_id -f status_field=$STATUS_FIELD_ID -f status_value=${{ env.REVIEW_OPTION_ID }} -f date_field=$DATE_FIELD_ID -f date_value=$date_submitted -f url_field=$URL_FIELD_ID -f url_value=$url  --silent
-              # '
-          done
-
+          ./src/ghproject_fetch.bash
+          node src/ghproject.mjs | src/ghproject_update.bash
 
