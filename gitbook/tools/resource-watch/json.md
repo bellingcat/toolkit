@@ -7,13 +7,7 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "name": "Resource Watch",
-  "url": "https://resourcewatch.org/data/explore",
-  "description": "A nonprofit platform, still in beta, that provides hundreds of data sets on the state of the planet’s resources and citizens. It is sponsored by the World Resources Institute and other organizations.",
-  "cost": "Free",
-  "tags": [
-    "environment-and-wildlife"
-  ]
+  "tags": []
 }
 ```
 {% endcode %}
