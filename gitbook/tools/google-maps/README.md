@@ -14,8 +14,6 @@ description: >-
 
 Google Maps is a web-based service offering comprehensive information about geographical regions globally. It provides road maps, aerial and satellite views, and street views which makes it a useful resource for open source researchers. It includes features like real-time traffic updates, business information, 3D views, and location sharing. Accessible through web, mobile, and API integrations, Google Maps supports many geolocation needs.&#x20;
 
-## **Features**
-
 Google Maps offers various features, such as real-time location sharing and timely traffic updates, among others. However, not all of these are relevant to open-source researchers who typically use this service for geolocation and verification purposes. Here are some of the features that are most pertinent to researchers.
 
 ### Satellite imagery
