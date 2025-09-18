@@ -16,9 +16,9 @@ Google Maps is a web-based service offering comprehensive information about geog
 
 ### Satellite imagery
 
-Google Maps has integrated satellite imagery into its service. This feature helps familiarize oneself with any location from above the ground-level view. It is handy for geolocation, as satellite view provides a realistic representation of any location, compared to the default map view.
+One of the key advantages for open-source researchers when using Google Maps is that it offers access to satellite imagery. Being able to look at locations from all around the world from above is handy when conducting geolocations.
 
-Satellite mode can be switched on via the layers menu located in the bottom left.
+Google Map's satellite mode can be switched on via the layers menu which is located at the bottom left of the map:
 
 <div align="left"><figure><img src=".gitbook/assets/Layers icon.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/Satellite view selection.png" alt="" width="264"><figcaption></figcaption></figure></div>
 
