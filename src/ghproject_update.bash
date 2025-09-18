@@ -44,9 +44,9 @@ do
         }
       }
     }' -f project=$PROJECT_ID -f item=$item_id -f status_field=$STATUS_FIELD_ID -f status_value=$status_value --silent
-  if [[ "$published" = "true" ]]; then
+  if [[ "$published" = true ]]; then
     # set published
-    echo "Set published: $published"
+    echo "Set published: $PUBLISHED_TRUE_OPTION_ID"
     gh api graphql -f query='
       mutation (
         $project: ID!
