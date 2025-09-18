@@ -7,7 +7,6 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "url": "https://www.suncalc.org",
   "tags": [
     "shadow-analysis",
     "most-used"
