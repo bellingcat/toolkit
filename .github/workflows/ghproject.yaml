@@ -53,8 +53,8 @@ jobs:
           echo 'DATE_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Date submitted") | .id' project_data.json) >> $GITHUB_ENV
           echo 'URL_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "URL") | .id' project_data.json) >> $GITHUB_ENV
           echo 'STATUS_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .id' project_data.json) >> $GITHUB_ENV
-          echo 'REVIEW_OPTION_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .options[] | select(.name=="Review Requested") |.id' project_data.json) >> $GITHUB_ENV
-          echo 'PUBLISHED_OPTION_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .options[] | select(.name=="Published") |.id' project_data.json) >> $GITHUB_ENV
+          echo 'REVIEW_OPTION_ID='$(jq -r '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .options[] | select(.name=="Review Requested") |.id' project_data.json) >> $GITHUB_ENV
+          echo 'PUBLISHED_OPTION_ID='$(jq -r '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .options[] | select(.name=="Published") |.id' project_data.json) >> $GITHUB_ENV
 
 
       # Downloads all items from the project and adds missing ones
