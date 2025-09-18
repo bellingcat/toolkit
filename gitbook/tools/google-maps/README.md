@@ -114,8 +114,6 @@ Google Maps is available in the following formats:
 
 The example below shows a search for _Amsterdam_:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-06-23 at 11.56.54 AM.png" alt="Screenshot of search for Amsterdam shows a street map of Amsterdam with a menu of amenities."><figcaption><p>Screenshot of a search for Amsterdam.</p></figcaption></figure>
-
 ## Use Cases
 
 1. **Location Verification**: Researchers can use Google Maps to verify the location of a news event, checking the geographical accuracy of claims made in various reports. Be aware that not all imagery is current, see: [Google Earth imagery updates](https://support.google.com/earth/community-guide/259934888/google-earth-imagery-updates?hl=en).&#x20;
