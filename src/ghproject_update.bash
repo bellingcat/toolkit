@@ -10,6 +10,7 @@ do
   item_id=$(echo $project_item | jq '.id')
   title=$(echo $project_item | jq '.title')
   date_submitted=$(echo $project_item | jq -r '.date_submitted')
+  published=$(echo $project_item | jq -r '.published')
   url=$(echo $project_item | jq -r '.url')
   status_name=$(echo $project_item | jq -r '.status')
   status_value=""
@@ -43,6 +44,30 @@ do
         }
       }
     }' -f project=$PROJECT_ID -f item=$item_id -f status_field=$STATUS_FIELD_ID -f status_value=$status_value --silent
+  if [[ "$published" = "true" ]]; then
+    # set published
+    echo "Set published: $published"
+    gh api graphql -f query='
+      mutation (
+        $project: ID!
+        $item: ID!
+        $status_field: ID!
+        $status_value: String!
+      ) {
+        set_status: updateProjectV2ItemFieldValue(input: {
+          projectId: $project
+          itemId: $item
+          fieldId: $status_field
+          value: {
+            singleSelectOptionId: $status_value
+          }
+        }) {
+          projectV2Item {
+            id
+          }
+        }
+      }' -f project=$PROJECT_ID -f item=$item_id -f status_field=$PUBLISHED_FIELD_ID -f status_value=$PUBLISHED_TRUE_OPTION_ID
+	fi
   if [[ "$date_submitted" != "null" ]]; then
     echo "Update item $item_id in project $PROJECT_ID date_field $DATE_FIELD_ID url_field $URL_FIELD_ID"
     gh api graphql -f query='
