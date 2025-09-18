@@ -112,8 +112,6 @@ Google Maps is available in the following formats:
 * Mobile
 * [Google Maps Platform](https://developers.google.com/maps): Developer API
 
-The example below shows a search for _Amsterdam_:
-
 ## Use Cases
 
 1. **Location Verification**: Researchers can use Google Maps to verify the location of a news event, checking the geographical accuracy of claims made in various reports. Be aware that not all imagery is current, see: [Google Earth imagery updates](https://support.google.com/earth/community-guide/259934888/google-earth-imagery-updates?hl=en).&#x20;
