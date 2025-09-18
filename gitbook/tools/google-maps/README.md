@@ -24,7 +24,7 @@ Google Map's satellite mode can be switched on via the layers menu which is loca
 
 It must be noted that satellite imagery is not shown in real-time, as Google sources its imagery from [various](https://support.google.com/earth/community-guide/259934888/google-earth-imagery-updates-and-historical-imagery?hl=en) suppliers, meaning it may be either recent or several years old. Expect to often find imagery that is [between one and several years](https://support.google.com/earth/community-guide/259934888/google-earth-imagery-updates-and-historical-imagery?hl=en) old. If you need very recent satellite imagery, for instance to report on a news event, you need to find alternatives to Google's free satellite imagery.
 
-The mapping service lacks a feature for viewing historical satellite imagery. To access older imagery, you can use [Google Earth Pro](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro).
+For many locations, Google provides historical satellite imagery allowing open-source researchers to compare imagery from the same location at different points in time. It is important to note that historical satellite is not accessible via Google Maps but only via [Google Earth Pro](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro).&#x20;
 
 ### 3D View
 
