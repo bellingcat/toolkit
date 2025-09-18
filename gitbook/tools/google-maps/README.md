@@ -16,7 +16,7 @@ Google Maps is a web-based service offering comprehensive information about geog
 
 ## **Features**
 
-Google Maps offers various features, such as real-time location sharing and timely traffic updates, among others. However, not all of these are relevant to open-source researchers who use this service for geolocation and verification purposes. Here are some features most pertinent to researchers.
+Google Maps offers various features, such as real-time location sharing and timely traffic updates, among others. However, not all of these are relevant to open-source researchers who typically use this service for geolocation and verification purposes. Here are some of the features that are most pertinent to researchers.
 
 ### Satellite imagery
 
