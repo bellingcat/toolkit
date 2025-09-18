@@ -30,7 +30,6 @@ tools.forEach(async function(tool) {
   let changed = false;
   const space = findSpace(tool.title);
   if (!space) {
-    console.error("No space for tool", tool.title);
     return;
   }
   const item = items.find((item) => item.title === tool.title);

@@ -12,8 +12,9 @@ do
   date_submitted=$(echo $project_item | jq -r '.date_submitted')
   echo $date_submitted
   url=$(echo $project_item | jq -r '.url')
-  status_value=$(echo $project_item | jq -r '.status')
-  case $status_value in
+  status_name=$(echo $project_item | jq -r '.status')
+  status_value=""
+  case $status_name in
     "Published")
       status_value=$PUBLISHED_OPTION_ID
       ;;
@@ -21,16 +22,14 @@ do
       status_value=$REVIEW_OPTION_ID
       ;;
   esac
+  # set status
+  echo "Set status: $status_value"
   gh api graphql -f query='
     mutation (
       $project: ID!
       $item: ID!
       $status_field: ID!
       $status_value: String!
-      $date_field: ID!
-      $date_value: Date!
-      $url_field: ID!
-      $url_value: String!
     ) {
       set_status: updateProjectV2ItemFieldValue(input: {
         projectId: $project
@@ -38,35 +37,48 @@ do
         fieldId: $status_field
         value: {
           singleSelectOptionId: $status_value
+        }
+      }) {
+        projectV2Item {
+          id
+        }
+      }
+    }' -f project=$PROJECT_ID -f item=$item_id -f status_field=$STATUS_FIELD_ID -f status_value=$status_value --silent
+  if [[ "$date_submitted" != "null" ]]; then
+    echo "Updatie change request info"
+    gh api graphql -f query='
+      mutation (
+        $project: ID!
+        $item: ID!
+        $date_field: ID!
+        $date_value: Date
+        $url_field: ID!
+        $url_value: String!
+      ) {
+        set_date_posted: updateProjectV2ItemFieldValue(input: {
+          projectId: $project
+          itemId: $item
+          fieldId: $date_field
+          value: {
+            date: $date_value
           }
-      }) {
-        projectV2Item {
-          id
+        }) {
+          projectV2Item {
+            id
+          }
         }
-      }
-      set_date_posted: updateProjectV2ItemFieldValue(input: {
-        projectId: $project
-        itemId: $item
-        fieldId: $date_field
-        value: {
-          date: $date_value
+        set_url: updateProjectV2ItemFieldValue(input: {
+          projectId: $project
+          itemId: $item
+          fieldId: $url_field
+          value: {
+            text: $url_value
+          }
+        }) {
+          projectV2Item {
+            id
+          }
         }
-      }) {
-        projectV2Item {
-          id
-        }
-      }
-      set_url: updateProjectV2ItemFieldValue(input: {
-        projectId: $project
-        itemId: $item
-        fieldId: $url_field
-        value: {
-          text: $url_value
-        }
-      }) {
-        projectV2Item {
-          id
-        }
-      }
-    }' -f project=$PROJECT_ID -f item=$item_id -f status_field=$STATUS_FIELD_ID -f status_value=$status_value -f date_field=$DATE_FIELD_ID -f date_value=$date_submitted -f url_field=$URL_FIELD_ID -f url_value=$url  --silent
+      }' -f project=$PROJECT_ID -f item=$item_id date_field=$DATE_FIELD_ID -f date_value=$date_submitted -f url_field=$URL_FIELD_ID -f url_value=$url  --silent
+  fi
 done
