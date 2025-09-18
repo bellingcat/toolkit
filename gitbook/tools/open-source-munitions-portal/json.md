@@ -7,10 +7,7 @@ description: This is the JSON codeblock for this tool
 {% code overflow="wrap" %}
 ```json
 {
-  "url": "https://osmp.airwars.org/",
-  "tags": [
-    "conflict"
-  ]
+  "tags": []
 }
 ```
 {% endcode %}
