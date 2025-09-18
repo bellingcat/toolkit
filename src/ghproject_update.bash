@@ -10,7 +10,6 @@ do
   item_id=$(echo $project_item | jq '.id')
   title=$(echo $project_item | jq '.title')
   date_submitted=$(echo $project_item | jq -r '.date_submitted')
-  echo $date_submitted
   url=$(echo $project_item | jq -r '.url')
   status_name=$(echo $project_item | jq -r '.status')
   status_value=""
@@ -45,13 +44,13 @@ do
       }
     }' -f project=$PROJECT_ID -f item=$item_id -f status_field=$STATUS_FIELD_ID -f status_value=$status_value --silent
   if [[ "$date_submitted" != "null" ]]; then
-    echo "Updatie change request info"
+    echo "Update item $item_id in project $PROJECT_ID date_field $DATE_FIELD_ID url_field $URL_FIELD_ID"
     gh api graphql -f query='
       mutation (
         $project: ID!
         $item: ID!
         $date_field: ID!
-        $date_value: Date
+        $date_value: Date!
         $url_field: ID!
         $url_value: String!
       ) {
@@ -79,6 +78,6 @@ do
             id
           }
         }
-      }' -f project=$PROJECT_ID -f item=$item_id date_field=$DATE_FIELD_ID -f date_value=$date_submitted -f url_field=$URL_FIELD_ID -f url_value=$url  --silent
+      }' -f project=$PROJECT_ID -f item=$item_id -f date_field=$DATE_FIELD_ID -f date_value=$date_submitted -f url_field=$URL_FIELD_ID -f url_value=$url  --silent
   fi
 done
