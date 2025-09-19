@@ -46,14 +46,20 @@ tools.forEach(async function(tool) {
     }
   }
 
-  const changeRequests = await fetchChangeRequests(space);
-  if (changeRequests.count) {
+  if (space.changeRequestsOpen) {
+    if (item.status !== "Review Requested" && item.status != "Editing in Progress") {
+      item.status = "Review Requested";
+      changed = true;
+    }
+    const changeRequests = await fetchChangeRequests(space);
     const request = changeRequests.items[0];
     const date = formatDate(request.updatedAt);
     if (item.date_submitted !== date) {
       item.date_submitted = date
+      changed = true;
+    }
+    if (item.url !== request.urls.app) {
       item.url = request.urls.app;
-      item.status = "Review Requested";
       changed = true;
     }
   }
