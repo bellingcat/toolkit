@@ -23,7 +23,7 @@ const items = JSON.parse(fs.readFileSync('project_items.json', 'utf-8')).map(fun
     status: getField("Status", item).name,
     published: getField("Published", item).name,
     date_submitted: getField("Date submitted", item).date,
-    url: getField("URL", item).text,
+    url: getField("Latest change request", item).text,
   }
 });
 
