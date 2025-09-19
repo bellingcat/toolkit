@@ -25,6 +25,7 @@ const items = JSON.parse(fs.readFileSync('project_items.json', 'utf-8')).map(fun
     date_submitted: getField("Date submitted", item).date,
     url: getField("Latest change request", item).text,
     updatedAt: getField("Last updated", item).date,
+    space: getField("Tool Space", item).text,
   }
 });
 
@@ -38,6 +39,11 @@ tools.forEach(async function(tool) {
   if (!item) {
     console.error("No gh project item for tool", tool.title);
     return;
+  }
+
+  if (item.space !== space.urls.app) {
+    item.space = space.urls.app;
+    changed = true;
   }
 
   if (tool.updated && item.updatedAt !== tool.updated) {
