@@ -66,7 +66,7 @@ do
             id
           }
         }
-      }' -f project=$PROJECT_ID -f item=$item_id -f status_field=$PUBLISHED_FIELD_ID -f status_value=$PUBLISHED_TRUE_OPTION_ID
+      }' -f project=$PROJECT_ID -f item=$item_id -f status_field=$PUBLISHED_FIELD_ID -f status_value=$PUBLISHED_TRUE_OPTION_ID --silent
 	fi
   if [[ "$date_submitted" != "null" ]]; then
     echo "Update item $item_id in project $PROJECT_ID date_field $DATE_FIELD_ID url_field $URL_FIELD_ID"
