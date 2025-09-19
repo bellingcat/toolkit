@@ -2,6 +2,7 @@
 description: >-
   Google Maps provides mapping information, satellite imagery and Google Street
   View imagery including historical Street View images.
+updated: '2025-09-18'
 ---
 
 # Google Maps
