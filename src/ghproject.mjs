@@ -24,6 +24,7 @@ const items = JSON.parse(fs.readFileSync('project_items.json', 'utf-8')).map(fun
     published: getField("Published", item).name,
     date_submitted: getField("Date submitted", item).date,
     url: getField("Latest change request", item).text,
+    updatedAt: getField("Last updated", item).date,
   }
 });
 
@@ -37,6 +38,11 @@ tools.forEach(async function(tool) {
   if (!item) {
     console.error("No gh project item for tool", tool.title);
     return;
+  }
+
+  if (tool.updated && item.updatedAt !== tool.updated) {
+    item.updatedAt = tool.updated;
+    changed = true;
   }
 
   if (summary.match(path.relative('gitbook/', tool.filepath))) {

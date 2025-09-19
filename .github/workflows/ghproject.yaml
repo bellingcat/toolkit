@@ -57,6 +57,7 @@ jobs:
           echo 'REVIEW_OPTION_ID='$(jq -r '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .options[] | select(.name=="Review Requested") |.id' project_data.json) >> $GITHUB_ENV
           echo 'PUBLISHED_OPTION_ID='$(jq -r '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .options[] | select(.name=="Published") |.id' project_data.json) >> $GITHUB_ENV
           echo 'PUBLISHED_TRUE_OPTION_ID='$(jq -r '.data.organization.projectV2.fields.nodes[] | select(.name== "Published") | .options[] | select(.name=="True") |.id' project_data.json) >> $GITHUB_ENV
+          echo 'UPDATED_DATE_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Last updated") | .id' project_data.json) >> $GITHUB_ENV
 
 
       # Downloads all items from the project and adds missing ones
