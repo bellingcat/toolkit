@@ -13,6 +13,7 @@ do
   date_updated=$(echo $project_item | jq -r '.updatedAt')
   published=$(echo $project_item | jq -r '.published')
   url=$(echo $project_item | jq -r '.url')
+  space=$(echo $project_item | jq -r '.space')
   status_name=$(echo $project_item | jq -r '.status')
   status_value=""
   case $status_name in
@@ -69,6 +70,30 @@ do
         }
       }' -f project=$PROJECT_ID -f item=$item_id -f status_field=$PUBLISHED_FIELD_ID -f status_value=$PUBLISHED_TRUE_OPTION_ID --silent
 	fi
+  if [[ "$space" != "null" ]]; then
+    # set space
+    echo "Set space: $space"
+    gh api graphql -f query='
+      mutation (
+        $project: ID!
+        $item: ID!
+        $url_field: ID!
+        $url_value: String!
+      ) {
+        set_space: updateProjectV2ItemFieldValue(input: {
+          projectId: $project
+          itemId: $item
+          fieldId: $url_field
+          value: {
+            text: $url_value
+          }
+        }) {
+          projectV2Item {
+            id
+          }
+        }
+      }' -f project=$PROJECT_ID -f item=$item_id -f url_field=$SPACE_URL_FIELD_ID -f url_value=$space --silent
+  fi
   if [[ "$date_updated" != "null" ]]; then
     echo $date_updated
     gh api graphql -f query='
