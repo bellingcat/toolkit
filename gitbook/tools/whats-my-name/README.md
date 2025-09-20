@@ -1,5 +1,6 @@
 ---
 description: Search for usernames on several hundred platforms
+updated: '2025-09-19'
 ---
 
 # WhatsMyName

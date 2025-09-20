@@ -1,5 +1,6 @@
 ---
 description: Does an email or a phone number appear in data breaches?
+updated: '2025-09-19'
 ---
 
 # Have I Been Pwned?
