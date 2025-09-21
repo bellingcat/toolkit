@@ -1,8 +1,8 @@
 ---
 description: >-
   Truecaller is a caller ID app that identifies incoming calls, blocks unwanted
-  numbers and gathers phone numbers and names from contact lists. It also
-  performs reverse phone number search.
+  numbers, and gathers phone numbers and names from contact lists. It also
+  performs a reverse phone number search.
 ---
 
 # TrueCaller
@@ -41,7 +41,7 @@ NOTE: [This requires verifying the user's name to match their bank-registered na
 
 If used with other tools and methods, open-source researchers can use Truecaller’s reverse phone number lookup when trying to ID an actor in an incident. If, for instance, researchers have a telephone number as a lead in their investigations, they can use this tool to generate more leads. A reverse phone number search may produce a name and a location, the countries they call most frequently, or the comments other app users make about them.
 
-Truecaller has been used in this Bellingcat investigation:
+Truecaller has been used in the following Bellingcat investigation:
 
 * Identifying the Russian GRU Commander associated with the MH17 crash: [https://www.bellingcat.com/news/uk-and-europe/2018/05/25/mh17-russian-gru-commander-orion-identified-oleg-ivannikov/](https://www.bellingcat.com/news/uk-and-europe/2018/05/25/mh17-russian-gru-commander-orion-identified-oleg-ivannikov/) \
 
