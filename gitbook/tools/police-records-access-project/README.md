@@ -32,7 +32,7 @@ description: >-
 
 ## Limitations \[Fraser]
 
-* no graphic content warning \[Afton]
+* no immediately visible graphic content warning — warning sign is tiny \[Afton]
 * this? \[Afton]
 
 <figure><img src=".gitbook/assets/2025-09-21_21-18-37-limitation.png" alt=""><figcaption></figcaption></figure>
