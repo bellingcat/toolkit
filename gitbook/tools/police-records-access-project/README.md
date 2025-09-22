@@ -37,6 +37,8 @@ description: >-
 
 <figure><img src=".gitbook/assets/2025-09-21_21-18-37-limitation.png" alt=""><figcaption></figcaption></figure>
 
+records may change or be updated: "Information about a case can change as agencies submit new or updated records" on the top of the search bar \[Afton]
+
 \[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
 
 ## Ethical Considerations \[Fraser]
