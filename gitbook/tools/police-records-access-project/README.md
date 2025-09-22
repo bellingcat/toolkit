@@ -12,7 +12,92 @@ description: >-
 
 ## Description \[Afton]
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+[The Police Record Access Project is a publicly searchable database containing previously confidential records on shootings by law enforcement officers, law enforcement misconduct, and serious uses of force in the State of California.](https://clean.calmatters.org/about)  The tool aims to [provide transparency](https://news.stanford.edu/stories/2025/09/police-records-access-project-searchable-database-law-enforcement-transparency) into some of the statewide law enforcement records. It was made possible by California’s transparency laws  (SB 1421 and SB 16).&#x20;
+
+_**Where is the data from?**_
+
+Since 2019, members of the [California Reporting Project](https://projects.scpr.org/california-reporting-project/) have requested data from [“nearly 700 law enforcement agencies”](https://clean.calmatters.org/about) in California
+
+[According to the tool provider](https://clean.calmatters.org/about), these agencies include:&#x20;
+
+* Police departments
+* Sheriff departments
+* Public school and university police forces
+* California Highway Patrol
+* Prison
+* Probation departments
+* District attorneys
+* California Attorney General’s office
+* Coroners
+* Medical examiners
+* Oversight boards and commissions
+* Other California government agencies &#x20;
+
+_**What types of records are available?**_&#x20;
+
+{% hint style="danger" %}
+**Graphic Content Warning:** Items may contain disturbing images, videos, or descriptions
+{% endhint %}
+
+The records are wide-ranging. According to the [tool provider](https://clean.calmatters.org/about) (para 2), they include, among others: Investigative reports, autopsy reports, written transcripts of law enforcement officers' interviews, video interviews of law enforcement officers, photographs, investigative hearings, and body-cam footage. In addition, our tests show that the records also include meeting minutes from different police commissions. &#x20;
+
+_**How was the database built and categorized?**_&#x20;
+
+According to the tool providers’ [methodology](https://clean.calmatters.org/about) (para 3), the database was built using cutting-edge technologies such as generative AI, coupled with a manual review of a subset of cases per year.&#x20;
+
+Each record is labeled in a neutral manner, indicating only a date and who provided the documents.&#x20;
+
+**Example:** 2/18/2024 - Documents provided by the San Diego Police Department, San Diego County&#x20;
+
+\
+The broad categories are Force, Shooting, and Misconduct.  These are defined by the tool providers as follows:&#x20;
+
+* **FORCE:** [“Police use-of-force incidents causing “great bodily injury” or death”](https://clean.calmatters.org/about#Methodology)
+* **SHOOTING:** [“Police shootings, fatal or not, including accidental and missed shots”](https://clean.calmatters.org/about#Methodology)
+* **MISCONDUCT:** [“Sustained findings by agencies that an officer committed specific types of misconduct, including sexual assault, excessive force, dishonesty, prejudical action, unlawful arrest, and unlawful search”](https://clean.calmatters.org/about#Methodology)
+
+{% hint style="success" %}
+Note: Each record/case can belong to ONE OR ALL three categories.&#x20;
+{% endhint %}
+
+### How to Use the Database
+
+_**Where To Access**_
+
+According to [this](https://news.stanford.edu/stories/2025/09/police-records-access-project-searchable-database-law-enforcement-transparency), the database is free to access through the websites of CalMatters and its partner news organizations:&#x20;
+
+* CalMatters - [https://clean.calmatters.org/](https://clean.calmatters.org/)&#x20;
+* KQED - [https://policerecords.kqed.org/](https://policerecords.kqed.org/)
+* LA Times - [https://clean.latimes.com/](https://clean.latimes.com/)
+* San Francisco Chronicle - [https://clean.sfchronicle.com/](https://clean.sfchronicle.com/)&#x20;
+
+_**How To Search**_
+
+The search functionality is straightforward to use. The key features are keyword search, filter, and viewing records as PDF
+
+1. Keyword search:  Users can perform a general search for officer names, locations or specific terms&#x20;
+2. Filters: Search can be refined by
+
+* County.&#x20;
+
+Based on our tests, the records have been categorized from approximately 56 out of the [58 counties](https://www.counties.org/counties/) in California.&#x20;
+
+* Law enforcement agency
+* Date range&#x20;
+* Case type
+
+\
+
+
+<figure><img src=".gitbook/assets/unknown.png" alt=""><figcaption><p>This is the landing page, which automatically sends users to the search function.</p></figcaption></figure>
+
+
+
+_**How to View and Search Specific Records**_
+
+Each case provides access to the original, redacted PDF documents. In each case, users can search through those specific documents listed using a dedicated search bar. This is helpful since each case can contain more than one document, and each document can contain several pages.&#x20;
+
+<figure><img src=".gitbook/assets/unknown (1).png" alt=""><figcaption><p>When clicking on a specific search result, users are shown the list of documents associated with that case. Note the search bar that searches documents specific to the case in question. </p></figcaption></figure>
 
 ## Cost
 
@@ -20,15 +105,15 @@ description: >-
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements \[Afton]
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+Modern web browser
+
+PDF reader
 
 ## Limitations \[Fraser]
 
@@ -49,21 +134,56 @@ i.e. This one says: 10/31/2023 [https://clean.calmatters.org/cases/1743019578959
 
 ## Guides and articles \[Afton]
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+UC Berkeley Journalism, "Learn about the Police Records Access Project," [https://www.youtube.com/watch?v=ZxNJ\_4Io-KQ](https://www.youtube.com/watch?v=ZxNJ_4Io-KQ)&#x20;
 
-## Tool provider \[Afton]
+\
+&#x20;KTVU, "Inside California’s new police records database," [https://www.youtube.com/watch?v=svPcA5XvJ6U](https://www.youtube.com/watch?v=svPcA5XvJ6U)&#x20;
 
-\[\[Name the tool provider (and potentially info on them)]]
+## Tool providers \[Afton]
+
+Based on [this](https://clean.calmatters.org/about#Who-we-are):
+
+[ACLU of Southern California](https://www.aclusocal.org/)
+
+[ACLU of Northern California](https://www.aclunc.org/)
+
+[Bay Area News Group](https://www.mercurynews.com/) / [Southern California News Group](https://www.ocregister.com/)
+
+[Berkeley Institute for Data Science](https://bids.berkeley.edu/)
+
+[Big Local News at Stanford University](https://biglocalnews.org/content/about/)
+
+[CapRadio](https://www.capradio.org/)
+
+[EPIC Data Lab](https://epic.berkeley.edu/)
+
+[Human Rights Data Analysis Group](https://hrdag.org/)
+
+[Innocence Project](https://innocenceproject.org/)
+
+[The Investigative Reporting Program at the UC Berkeley School of Journalism](https://journalism.berkeley.edu/)
+
+[LAist](https://laist.com/)
+
+[KQED](https://www.kqed.org/news/)
+
+[Los Angeles Times](https://www.latimes.com/)
+
+[National Association of Criminal Defense Lawyers](https://www.nacdl.org/)
+
+[UC Berkeley School of Law](https://www.law.berkeley.edu/)
+
+[UC Irvine School of Law](https://www.law.uci.edu/)
 
 ## Similar tools \[Afton]
 
-\[\[Compare this tool with similar tools which can be used for the same research purpose. What are the strengths and weaknesses of each tool?]]
+
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
 | Page maintainer                                                |
 | -------------------------------------------------------------- |
