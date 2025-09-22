@@ -1,7 +1,7 @@
 ---
 description: >-
-  Centralized website with vulnerable species information listed in CITES and
-  CMS.
+  Centralized website with vulnerable species information listed in CITES, CMS
+  and other multilateral environmental agreements (MEAs).
 ---
 
 # Species+
@@ -10,9 +10,25 @@ description: >-
 
 [https://www.speciesplus.net/species](https://www.speciesplus.net/species)
 
-## Description
+Description\
 
-This tool is also available as an app on [Google Play](https://play.google.com/store/apps/details?id=com.WCMC.speciesplus\&hl=en) and the [App Store.](https://apps.apple.com/co/app/species/id1641695320)
+
+
+This website provides information on all species currently listed in the Convention on International Trade in Endangered Species (CITES), the Convention on the Conservation of Migratory Species of Wild Animals (CMS), and other environmental agreements (MEAs). You can search by species, higher taxon, synonym, common name, or directly by CITES document. The entire database can be downloaded.
+
+The tool is useful for researchers and individuals who want to know or confirm the current status of a species, i.e., whether it can be traded or not, what type of regulations, quotas, suspensions, or decisions apply in certain regions.
+
+<figure><img src=".gitbook/assets/Screenshot 2025-09-22 at 9.59.53 AM.png" alt=""><figcaption></figcaption></figure>
+
+For example, here I searched for “pangolin.” I already know that all pangolin species are listed in Appendix I of CITES, which means they are completely prohibited from international trade. I got 8 results.
+
+<figure><img src=".gitbook/assets/Screenshot 2025-09-22 at 10.02.40 AM.png" alt=""><figcaption></figcaption></figure>
+
+When I clicked on the first result, I obtained information about the species and the CITES list, which confirmed my ideas about the pangolin ban.
+
+In addition, this tool is useful for finding information on geographical distribution and other names for species. It also has a repository of documents for each species, which is very useful for finding out about CITES proposals, reviews, and identification materials.
+
+Also available as an app on [Google Play](https://play.google.com/store/apps/details?id=com.WCMC.speciesplus\&hl=en) and the [App Store.](https://apps.apple.com/co/app/species/id1641695320)
 
 ## Cost
 
@@ -26,15 +42,15 @@ This tool is also available as an app on [Google Play](https://play.google.com/s
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+None.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+None so far.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+None so far.&#x20;
 
 ## Guides and articles
 
