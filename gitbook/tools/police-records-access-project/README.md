@@ -39,7 +39,9 @@ description: >-
 
 records may change or be updated: "Information about a case can change as agencies submit new or updated records" on the top of the search bar \[Afton]
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+* CHECK: Date? What is it of? The incident? Or the date it was requested? –unclear and unspecified \[Afton]
+
+i.e. This one says: 10/31/2023 [https://clean.calmatters.org/cases/1743019578959-kdy](https://clean.calmatters.org/cases/1743019578959-kdy) – but incident date on the doc says September 2014 [https://cleanpdfs.blob.core.windows.net/pdfs/74/28/04/742804475f8535e404fa8eae232a8b80d1cf31f6](https://cleanpdfs.blob.core.windows.net/pdfs/74/28/04/742804475f8535e404fa8eae232a8b80d1cf31f6)
 
 ## Ethical Considerations \[Fraser]
 
