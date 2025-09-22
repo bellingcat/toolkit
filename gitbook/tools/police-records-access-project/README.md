@@ -185,7 +185,7 @@ Based on [this](https://clean.calmatters.org/about#Who-we-are):
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer                                                          |
+| ------------------------------------------------------------------------ |
+| Afton and \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
+|                                                                          |
