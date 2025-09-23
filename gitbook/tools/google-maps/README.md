@@ -73,7 +73,7 @@ It is important to note that Street View does not provide real-time photography 
 
 Open-source researchers can use the time travel feature to view older images of a location in Street View. This is beneficial in understanding how a location has changed over time. The historical imagery feature was [launched](https://blog.google/products/maps/go-back-in-time-with-street-view/) in 2014, and coverage of some areas dates back as early as 2007.
 
-To view past images of an area, open the street view photography of the location of your choice. Once in street view mode, click on the “see more dates” at the top left corner.
+To view past images of an area, open the street view photography of the location of your choice. Once in street view mode, click on the “see more dates” at the top left corner (if available).
 
 <figure><img src=".gitbook/assets/Historical imagery clik.png" alt=""><figcaption></figcaption></figure>
 
