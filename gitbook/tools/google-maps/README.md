@@ -91,7 +91,7 @@ Not all areas around the world have extensive street view photography available.
 
 ### Measure Distance
 
-One of the most valuable features of Google Maps is its built-in measuring tool. A researcher can draw a line from one point on the map to another to determine the distance between them in area. If one measurement line is not sufficient, the tool also allows multiple lines to be drawn consecutively.
+Another useful feature of Google Maps is its built-in measuring tool. A researcher can draw a line from one point on the map to another to determine the distance between them in area. If one measurement line is not sufficient, the tool also allows multiple lines to be drawn consecutively.
 
 On the location of your choice, right-click on the map and select “Measure Distance” from the menu. Click on the starting point, drag to create a path, and then click again to complete the line. To remove it, click on the ending point. A point can also be moved by clicking on the point, holding and dragging it.
 
