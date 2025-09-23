@@ -107,7 +107,7 @@ Each case provides access to the original, redacted PDF documents. In each case,
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements \[Afton]
 
@@ -117,6 +117,9 @@ PDF reader
 
 ## Limitations \[Fraser]
 
+* the data is only updated after FOI
+* redaction
+* no images
 * no immediately visible graphic content warning — warning sign is tiny \[Afton]
 * this? \[Afton]
 
@@ -131,6 +134,9 @@ i.e. This one says: 10/31/2023 [https://clean.calmatters.org/cases/1743019578959
 ## Ethical Considerations \[Fraser]
 
 \[\[The ethical considerations of each tool should be described.]]
+
+* Privacy and harm victim data&#x20;
+* possible errors in data
 
 ## Guides and articles \[Afton]
 
