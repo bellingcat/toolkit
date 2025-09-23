@@ -29,7 +29,7 @@ For many locations, Google provides historical satellite imagery allowing open-s
 
 ### 3D View
 
-This feature displays urban features such as buildings, pylons, and other infrastructure, as well as natural elements like trees and mountains in a three-dimensional perspective. A 3D view enhances the user experience by providing an immersive spatial view of geographical locations which are typically presented in a two-dimensional format on a map. Users can tilt, rotate, and zoom in and out to explore areas of interest in greater depth.
+This feature displays urban features such as buildings, pylons, and other infrastructure, as well as natural elements like trees and mountains in a three-dimensional perspective. A 3D view can help open source researchers get an immersive spatial view of geographical locations which are typically presented in a two-dimensional format on a map. However, researchers should not rely on 3D View representations alone. It is always recommended to also look at other pictures of the same location.
 
 You can activate 3D mode by switching to satellite view, which you access by clicking on the layers icon at the bottom left. Make sure the globe option is enabled to use this feature. This option is in the Layers menu. For more details, [refer](https://support.google.com/maps/answer/3031966?hl=en) to this guide from Google support on how to switch between Google map types.
 
@@ -40,6 +40,8 @@ Once activated, users can switch between 2D and 3D views by clicking on this ico
 The screenshot below shows the Brooklyn Bridge in New York City in 3D view.
 
 <figure><img src=".gitbook/assets/Brooklyn Bridge 3d view.png" alt=""><figcaption></figcaption></figure>
+
+Users can tilt, rotate, and zoom in and out to explore areas of interest in greater depth.
 
 From the 3D map interface, switch to the Street View option to view street-level photography of the area.
 
