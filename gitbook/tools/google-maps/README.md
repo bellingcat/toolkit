@@ -1,8 +1,8 @@
 ---
+updated: '2025-09-18'
 description: >-
   Google Maps provides mapping information, satellite imagery and Google Street
   View imagery including historical Street View images.
-updated: '2025-09-18'
 ---
 
 # Google Maps
@@ -23,9 +23,9 @@ Google Map's satellite mode can be switched on via the layers menu which is loca
 
 <div align="left"><figure><img src=".gitbook/assets/Layers icon.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/Satellite view selection.png" alt="" width="264"><figcaption></figcaption></figure></div>
 
-It must be noted that satellite imagery is not shown in real-time, as Google sources its imagery from [various](https://support.google.com/earth/community-guide/259934888/google-earth-imagery-updates-and-historical-imagery?hl=en) suppliers, meaning it may be either recent or several years old. Expect to often find imagery that is [between one and several years](https://support.google.com/earth/community-guide/259934888/google-earth-imagery-updates-and-historical-imagery?hl=en) old. If you need very recent satellite imagery, for instance to report on a news event, you need to find alternatives to Google's free satellite imagery.
+It must be noted that satellite imagery is not shown in real-time and it might even not be from the last few months, as Google sources its imagery from [various](https://support.google.com/earth/community-guide/259934888/google-earth-imagery-updates-and-historical-imagery?hl=en) suppliers, meaning it could be several years old. Expect to often find imagery that is [between one and several years](https://support.google.com/earth/community-guide/259934888/google-earth-imagery-updates-and-historical-imagery?hl=en) old. If you need very recent satellite imagery, for instance to report on a news event, you need to find alternatives to Google's free satellite imagery.
 
-For many locations, Google provides historical satellite imagery allowing open-source researchers to compare imagery from the same location at different points in time. It is important to note that historical satellite imagery is not accessible via Google Maps but only via [Google Earth Pro](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro).&#x20;
+For many locations, Google provides historical satellite imagery allowing open-source researchers to compare imagery from the same location at different points in time. It is important to note that historical satellite imagery is not accessible via Google Maps but only via [Google Earth Pro](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro).
 
 ### 3D View
 
@@ -113,10 +113,10 @@ Google Maps is available in the following formats:
 
 ## Use Cases
 
-1. **Location Verification**: Researchers can use Google Maps to verify the location of a news event, checking the geographical accuracy of claims made in various reports. Be aware that not all imagery is current, see: [Google Earth imagery updates](https://support.google.com/earth/community-guide/259934888/google-earth-imagery-updates?hl=en).&#x20;
+1. **Location Verification**: Researchers can use Google Maps to verify the location of a news event, checking the geographical accuracy of claims made in various reports. Be aware that not all imagery is current, see: [Google Earth imagery updates](https://support.google.com/earth/community-guide/259934888/google-earth-imagery-updates?hl=en).
 2. **Event Visualization**: By utilizing the satellite and street view features, researchers can offer readers a visual context of an event location, making stories more immersive.
 3. **Investigative Research**: Google Maps can be an invaluable tool for investigative journalism, allowing reporters to explore and gather information on otherwise inaccessible locations or properties.
-4. **Environmental and Urban Changes**: The historical imagery available on Google Maps enables researchers to document changes in the environment or urban expansion over time, supporting stories on climate change or urban development.&#x20;
+4. **Environmental and Urban Changes**: The historical imagery available on Google Maps enables researchers to document changes in the environment or urban expansion over time, supporting stories on climate change or urban development.
 5. **Historical Street View Imagery and Historical images:** can be useful to geolocate events.
 
 ## Using Bellingcat Filename Finder for Google Maps
@@ -161,7 +161,7 @@ When journalists use Google Maps, they should consider the following ethical asp
 
 To effectively use Google Maps, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
 
-**Official Wiki**&#x20;
+**Official Wiki**
 
 * [Getting Started With Goggle Maps](https://support.google.com/maps/answer/144349)
 
@@ -198,8 +198,6 @@ Google [https://about.google/](https://about.google/) - United States
 | --------------- |
 | Anisa Shabir    |
 |                 |
-
-
 
 [^1]: According to Google, Street View Trekker is a wearable backpack fitted with a camera for capturing ground-level photography from narrow and inaccessible places. This system was first used to capture “the rough, rocky terrain of Arizona’s Grand Canyon.”
 
