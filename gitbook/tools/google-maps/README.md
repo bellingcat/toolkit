@@ -29,7 +29,7 @@ For many locations, Google provides historical satellite imagery allowing open-s
 
 ### 3D View
 
-This feature displays urban features such as buildings, pylons, and other infrastructure, as well as natural elements like trees and mountains in a three-dimensional perspective. A 3D view enhances the user experience by providing an immersive spatial view of geographical locations, typically presented in a two-dimensional format on a map. Users can tilt, rotate, and zoom in and out to explore areas of interest in greater depth.
+This feature displays urban features such as buildings, pylons, and other infrastructure, as well as natural elements like trees and mountains in a three-dimensional perspective. A 3D view enhances the user experience by providing an immersive spatial view of geographical locations which are typically presented in a two-dimensional format on a map. Users can tilt, rotate, and zoom in and out to explore areas of interest in greater depth.
 
 You can activate 3D mode by switching to satellite view, which you access by clicking on the layers icon at the bottom left. Make sure the globe option is enabled to use this feature. This option is in the Layers menu. For more details, [refer](https://support.google.com/maps/answer/3031966?hl=en) to this guide from Google support on how to switch between Google map types.
 
