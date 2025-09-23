@@ -134,10 +134,18 @@ i.e. This one says: 10/31/2023 [https://clean.calmatters.org/cases/1743019578959
 
 ## Guides and articles \[Afton]
 
-UC Berkeley Journalism, "Learn about the Police Records Access Project," [https://www.youtube.com/watch?v=ZxNJ\_4Io-KQ](https://www.youtube.com/watch?v=ZxNJ_4Io-KQ)&#x20;
 
-\
-&#x20;KTVU, "Inside California’s new police records database," [https://www.youtube.com/watch?v=svPcA5XvJ6U](https://www.youtube.com/watch?v=svPcA5XvJ6U)&#x20;
+
+* Lampros, A. (2025) ‘A new database on police use of force and misconduct in California makes public 1.5 million pages of once-secret police records’, _UC Berkeley Journalism_, 4 August. Available at: [https://journalism.berkeley.edu/police-records-access/](https://journalism.berkeley.edu/police-records-access/) (Accessed: 7 September 2025).
+* _Thousands of formerly secret files on police misconduct now public in California through searchable database | The Independent_ (no date). Available at: [https://www.independent.co.uk/news/world/americas/crime/california-police-misconduct-database-b2801901.html](https://www.independent.co.uk/news/world/americas/crime/california-police-misconduct-database-b2801901.html) (Accessed: 7 September 2025).
+* _Learn about the Police Records Access Project_ (2025). Available at: [https://www.youtube.com/watch?v=ZxNJ\_4Io-KQ](https://www.youtube.com/watch?v=ZxNJ_4Io-KQ) (Accessed: 17 September 2025).
+* _Inside California’s new police records database | KTVU_ (2025). Available at: [https://www.youtube.com/watch?v=svPcA5XvJ6U](https://www.youtube.com/watch?v=svPcA5XvJ6U) (Accessed: 17 September 2025).
+
+
+
+Use it with:
+
+National Police Index [https://national.cpdp.co/state/California](https://national.cpdp.co/state/California)
 
 ## Tool providers \[Afton]
 
