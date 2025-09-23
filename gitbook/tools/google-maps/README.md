@@ -87,7 +87,7 @@ The school celebrated its grand opening in Phoenix in [November 2008](https://cr
 
 Similarly, users can view imagery of the same area up to January 2023 and see how this region has changed over time! This feature is accessible in both the mobile and browser versions of Google Maps.
 
-Not all areas around the world have extensive street view photography available. To overcome this shortcoming, consider exploring other street view from other services, such as [Mapillary](https://bellingcat.gitbook.io/toolkit/more/all-tools/mapillary#limitations), [Yandex Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps), and [Kartaview](https://bellingcat.gitbook.io/toolkit/more/all-tools/kartaview), among others.
+Not all areas around the world have extensive street view photography available. To overcome this shortcoming, consider exploring other street view from other services, such as [Mapillary](https://bellingcat.gitbook.io/toolkit/more/all-tools/mapillary), [Yandex Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps), and [Kartaview](https://bellingcat.gitbook.io/toolkit/more/all-tools/kartaview), among others.
 
 ### Measure Distance
 
