@@ -37,11 +37,9 @@ Once activated, users can switch between 2D and 3D views by clicking on this ico
 
 <figure><img src=".gitbook/assets/2D or 3D.png" alt=""><figcaption></figcaption></figure>
 
-The screenshot below shows the Brooklyn Bridge in New York City in 3D view.
+The screenshot below shows the Brooklyn Bridge in New York City in 3D view. Users can tilt, rotate, and zoom in and out to explore areas of interest in greater depth.
 
 <figure><img src=".gitbook/assets/Brooklyn Bridge 3d view.png" alt=""><figcaption></figcaption></figure>
-
-Users can tilt, rotate, and zoom in and out to explore areas of interest in greater depth.
 
 From the 3D map interface, switch to the Street View option to view street-level photography of the area.
 
