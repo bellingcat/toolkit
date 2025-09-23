@@ -103,7 +103,7 @@ The visual below shows the distance between the Eiffel Tower and Émile Anthoine
 
 ### Other features
 
-Google Maps offers additional useful features. One of these is Custom Maps, which enables users to create, personalise, and share their maps. Read more about this feature [here](https://www.google.com/maps/about/mymaps/).
+Google Maps offers additional useful features. One of them is Custom Maps, which enables users to create, personalise, and share their maps. Read more about this feature [here](https://www.google.com/maps/about/mymaps/).
 
 ### **Formats**
 
