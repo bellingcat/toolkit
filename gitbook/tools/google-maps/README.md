@@ -51,7 +51,7 @@ Street View offers 360-degree imagery, allowing users to explore an area from a 
 
 As of [2022](https://blog.google/intl/en-ca/products/devices-services/street-view-turns-15-were-celebrating-with-stunning-image-collections-from-canada-and-around-the-world/), “Google Street View cars equipped with cameras have captured and shared more than 220 billion Street View images and travelled over 10 million miles — the equivalent of circling the globe more than 400 times” since the launch of this service in 2007.
 
-<figure><img src=".gitbook/assets/Google street view image .png" alt=""><figcaption><p>This Blue areas on this <a href="https://www.google.com/streetview/how-it-works/">Google Map</a> indicate coverage of Google's Street View imagery. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Google street view image .png" alt=""><figcaption><p>This Blue areas on this <a href="https://www.google.com/streetview/how-it-works/">Google Map</a> indicate coverage of Google's Street View imagery. Keep in mind that it depends on the location how recent the imagery is.</p></figcaption></figure>
 
 In recent years, Street View has become an invaluable resource for journalists and open-source researchers. Using Google’s street-level photography, researchers from Bellingcat successfully geolocated the house of a Malaysian wildlife trafficker for the [story](https://www.bellingcat.com/news/2025/02/11/the-hunt-for-malaysias-elusive-wildlife-trafficker/) “The Hunt for Malaysia's Elusive Wildlife Trafficker” in February 2025. They matched the photos of the house posted online with the Street View imagery, revealing the location where illegal wildlife trafficking was taking place.
 
