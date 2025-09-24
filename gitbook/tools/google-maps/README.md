@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-Google Maps is a web-based service offering comprehensive information about geographical regions globally. It provides road maps, aerial and satellite views, and street views which makes it a useful resource for open source researchers. It includes features like real-time traffic updates, business information, 3D views, and location sharing. However, not all of these are relevant to open-source researchers who typically use this service for geolocation and verification purposes. Here are some of the features that are most pertinent to researchers:
+Google Maps is a web-based service offering comprehensive information about geographical regions globally. It provides road maps, aerial and satellite views, and street views which makes it a useful resource for open-source researchers. It includes features like real-time traffic updates, business information, 3D views, and location sharing. However, not all of these are relevant to open-source researchers who typically use this service for geolocation and verification purposes. Here are some of the features that are most pertinent to researchers:
 
 ### Satellite imagery
 
@@ -25,11 +25,11 @@ Google Map's satellite mode can be switched on via the layers menu which is loca
 
 It must be noted that satellite imagery is not shown in real-time, as Google sources its imagery from [various](https://support.google.com/earth/community-guide/259934888/google-earth-imagery-updates-and-historical-imagery?hl=en) suppliers. If you need very recent satellite imagery, for instance to report on a news event, you need to find alternatives to the free satellite imagery provided on Google platforms.
 
-For many locations, Google provides historical satellite imagery allowing open-source researchers to compare imagery from the same location at different points in time. It is important to note that historical satellite imagery is not accessible via Google Maps but only via [Google Earth Pro](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro).&#x20;
+For many locations, Google provides historical satellite imagery allowing open-source researchers to compare imagery from the same location at different points in time. It is important to note that historical satellite imagery is not accessible via Google Maps but only via [Google Earth Pro](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-pro).
 
 ### 3D View
 
-This feature displays urban features such as buildings, pylons, and other infrastructure, as well as natural elements like trees and mountains in a three-dimensional perspective. A 3D view can help open source researchers get an immersive spatial view of geographical locations which are typically presented in a two-dimensional format on a map. However, researchers should not rely on 3D View representations alone. It is always recommended to also look at other pictures of the same location.
+This feature displays urban features such as buildings, pylons, and other infrastructure, as well as natural elements like trees and mountains in a three-dimensional perspective. A 3D view can help open-source researchers get an immersive spatial view of geographical locations which are typically presented in a two-dimensional format on a map. However, researchers should not rely on 3D View representations alone. It is always recommended to also look at other pictures of the same location.
 
 You can activate 3D mode by switching to satellite view, which you access by clicking on the layers icon at the bottom left. Make sure the globe option is enabled to use this feature. This option is in the Layers menu. For more details, [refer](https://support.google.com/maps/answer/3031966?hl=en) to this guide from Google support on how to switch between Google map types.
 
@@ -37,9 +37,9 @@ Once activated, users can switch between 2D and 3D views by clicking on this ico
 
 <figure><img src=".gitbook/assets/2D or 3D.png" alt=""><figcaption></figcaption></figure>
 
-Users can tilt, rotate, and zoom in and out to explore areas of interest in greater depth.&#x20;
+Users can tilt, rotate, and zoom in and out to explore areas of interest in greater depth.
 
-The screenshot below shows the Brooklyn Bridge in New York City in 3D view.&#x20;
+The screenshot below shows the Brooklyn Bridge in New York City in 3D view.
 
 <figure><img src=".gitbook/assets/Brooklyn Bridge 3d view.png" alt=""><figcaption></figcaption></figure>
 
