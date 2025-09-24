@@ -80,7 +80,7 @@ Bellingcat is an independent investigative collective of researchers, investigat
 
 You can follow [Bellingcat](https://www.bellingcat.com)'s work here:
 
-[Bellingcat website](https://www.bellingcat.com/), [BlueSky](https://bsky.app/profile/bellingcat.com), [Discord](https://discord.com/invite/bellingcat), [Facebook](https://www.facebook.com/bellingcat),[Github](https://github.com/bellingcat), [Instagram](https://www.instagram.com/bellingcatofficial/), [Mastodon](https://mstdn.social/@Bellingcat), [Patreon](https://www.patreon.com/bellingcat), [Reddit](https://www.reddit.com/r/bellingcat/), [Soundcloud](https://soundcloud.com/bellingcat), [Twitch](https://www.twitch.tv/bellingcat_live), [X](categories/social-media/youtube/youtube.md),[Youtube](https://www.youtube.com/@bellingcatofficial/videos).
+[Bellingcat website](https://www.bellingcat.com/), [BlueSky](https://bsky.app/profile/bellingcat.com), [Discord](https://discord.com/invite/bellingcat), [Facebook](https://www.facebook.com/bellingcat), [Github](https://github.com/bellingcat), [Instagram](https://www.instagram.com/bellingcatofficial/), [Mastodon](https://mstdn.social/@Bellingcat), [Patreon](https://www.patreon.com/bellingcat), [Reddit](https://www.reddit.com/r/bellingcat/), [RSS](https://rss.com/podcasts/bellingcatstagetalk/) (Stage Talks), [X](categories/social-media/youtube/youtube.md), [Youtube](https://www.youtube.com/@bellingcatofficial/videos).
 
 [Bellingcat](https://www.bellingcat.com/) is a non-profit and the ability to carry out our work is dependent on the kind support of individual donors. If you would like to support our work, you can so [here](https://www.bellingcat.com/donate/).
 
