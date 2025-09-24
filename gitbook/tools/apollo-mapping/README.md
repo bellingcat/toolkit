@@ -19,10 +19,10 @@ Use Apollo Image Hunter to find and purchase commercial satellite imagery on an 
 * Airbus Pléiades Neo (European)
 * Maxar WorldView (American)
 * Jilin-1 (Chinese)
-* SuperView-2 (Chinese)
+* Siwei SuperView-2 (Chinese)
 * KOMPSAT (Korean)
-* TerraSAR-X (German)
 * Beijing-3 (Chinese)
+* TerraSAR-X (SAR imagery) (German)
 
 The search interface is similar to [Sentinel Hub](https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground) or Planet Explorer. To find imagery, use the area selection tools to define your region of interest. By default, results are sorted by the most recent imagery, but you can also use date filters to find imagery from a particular point in time, and to filter by cloud cover, image resolution, and particular satellites.
 
