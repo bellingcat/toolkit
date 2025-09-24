@@ -47,7 +47,7 @@ From the 3D map interface, switch to the Street View option to view street-level
 
 ### **Street View**
 
-Street View offers 360-degree imagery, allowing users to explore an area from a ground-level perspective. Google Street View offers an extensive collection of [panoramas](https://www.google.com/streetview/) stitched together to provide a virtual representation of an area. [People](https://www.google.com/streetview/contribute/) from anywhere in the world can contribute to this vast collection of street view imagery. The tech giant employs various methods, including the [Street View Car](https://www.google.com/intl/ALL/streetview/explore/), [Street View Trekker](#user-content-fn-1)[^1], [Street View Trolley](#user-content-fn-2)[^2], and more, to capture and update imagery from “tight, narrow spaces or locations only accessible by foot” to “museums around the world”.
+Street View offers 360-degree imagery, allowing users to explore an area from a ground-level perspective. Google Street View offers an extensive collection of [panoramas](https://www.google.com/streetview/) stitched together to provide a virtual representation of an area. [People](https://www.google.com/streetview/contribute/) from anywhere in the world can contribute to this vast collection of street view imagery. The tech giant employs [various methods](https://www.google.com/intl/ALL/streetview/explore/), including the Street View Car, [Street View Trekker](https://blog.google/products/maps/mapping-stories-new-street-view-trekker/), [Street View Trolley](https://maps.googleblog.com/2011/02/street-view-takes-you-inside-museums.html), and more, to capture and update imagery from tight and narrow spaces or areas "[only accessible by foot](https://www.youtube.com/watch?v=9ae5MzPKAQ4)” to “[museums around the world](https://maps.googleblog.com/2011/02/street-view-takes-you-inside-museums.html)”.
 
 As of [2022](https://blog.google/intl/en-ca/products/devices-services/street-view-turns-15-were-celebrating-with-stunning-image-collections-from-canada-and-around-the-world/), “Google Street View cars equipped with cameras have captured and shared more than 220 billion Street View images and travelled over 10 million miles — the equivalent of circling the globe more than 400 times” since the launch of this service in 2007.
 
@@ -200,7 +200,3 @@ Google [https://about.google/](https://about.google/) - United States
 | --------------- |
 | Anisa Shabir    |
 |                 |
-
-[^1]: According to Google, Street View Trekker is a wearable backpack fitted with a camera for capturing ground-level photography from narrow and inaccessible places. This system was first used to capture “the rough, rocky terrain of Arizona’s Grand Canyon.”
-
-[^2]: This is a “push-cart mounted with a camera system” designed specifically for navigating indoor areas, for instance, to “fit through museum doorways and navigate around sculptures.”
