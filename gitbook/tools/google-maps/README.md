@@ -17,7 +17,7 @@ Google Maps is a web-based service offering comprehensive information about geog
 
 ### Satellite imagery
 
-One of the key advantages for open-source researchers when using Google Maps is that it offers access to satellite imagery. Being able to look at locations from all around the world from above is handy when conducting geolocations.
+One of the advantages for open-source researchers when using Google Maps is that it offers access to satellite imagery. Being able to look at locations from all around the world from above is handy when conducting geolocations.
 
 Google Map's satellite mode can be switched on via the layers menu which is located at the bottom left of the map:
 
