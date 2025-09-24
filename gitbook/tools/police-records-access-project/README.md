@@ -99,6 +99,10 @@ Each case provides access to the original, redacted PDF documents. In each case,
 
 <figure><img src=".gitbook/assets/unknown (1).png" alt=""><figcaption><p>When clicking on a specific search result, users are shown the list of documents associated with that case. Note the search bar that searches documents specific to the case in question. </p></figcaption></figure>
 
+* Might be worth mentioning the National Police Index [https://national.cpdp.co/state/California](https://national.cpdp.co/state/California) to look up further info about officers
+
+##
+
 ## Cost
 
 * [x] Free
@@ -117,9 +121,11 @@ PDF reader
 
 ## Limitations \[Fraser]
 
-* the data is only updated after FOI
-* redaction
-* no images
+* Although the database is updated every 24 hours it currently only contains records from 2015 to 2023.&#x20;
+* There is a time lag as police agencies must conclude an investigation before it is added to the database.&#x20;
+* A successful public records request must be completed to access some _**\[@afton not clear here what gets auto included and what doesn't]**_ of the data.
+* Some of the sensitive content has been redacted.
+* Images, video and audio from incidents is not included.
 * no immediately visible graphic content warning — warning sign is tiny \[Afton]
 * this? \[Afton]
 
@@ -133,10 +139,8 @@ i.e. This one says: 10/31/2023 [https://clean.calmatters.org/cases/1743019578959
 
 ## Ethical Considerations \[Fraser]
 
-\[\[The ethical considerations of each tool should be described.]]
-
-* Privacy and harm victim data&#x20;
-* possible errors in data
+* Privacy and harm - although victim data is redacted it may still be possible to identify a victim though the incident itself so caution should be exercised in how the data is used. &#x20;
+* Accuracy - possible errors in data mean that any data should be independently verified.
 
 ## Guides and articles \[Afton]
 
@@ -144,14 +148,15 @@ i.e. This one says: 10/31/2023 [https://clean.calmatters.org/cases/1743019578959
 
 * Lampros, A. (2025) ‘A new database on police use of force and misconduct in California makes public 1.5 million pages of once-secret police records’, _UC Berkeley Journalism_, 4 August. Available at: [https://journalism.berkeley.edu/police-records-access/](https://journalism.berkeley.edu/police-records-access/) (Accessed: 7 September 2025).
 * _Thousands of formerly secret files on police misconduct now public in California through searchable database | The Independent_ (no date). Available at: [https://www.independent.co.uk/news/world/americas/crime/california-police-misconduct-database-b2801901.html](https://www.independent.co.uk/news/world/americas/crime/california-police-misconduct-database-b2801901.html) (Accessed: 7 September 2025).
+
+
+
+### **Video Tutorials**
+
 * _Learn about the Police Records Access Project_ (2025). Available at: [https://www.youtube.com/watch?v=ZxNJ\_4Io-KQ](https://www.youtube.com/watch?v=ZxNJ_4Io-KQ) (Accessed: 17 September 2025).
 * _Inside California’s new police records database | KTVU_ (2025). Available at: [https://www.youtube.com/watch?v=svPcA5XvJ6U](https://www.youtube.com/watch?v=svPcA5XvJ6U) (Accessed: 17 September 2025).
 
 
-
-Use it with:
-
-National Police Index [https://national.cpdp.co/state/California](https://national.cpdp.co/state/California)
 
 ## Tool providers \[Afton]
 
