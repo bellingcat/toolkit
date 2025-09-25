@@ -2,6 +2,7 @@
 description: >-
   SkyFi is used to purchase commercial satellite imagery and task (order the
   collection of images) satellites without a subscription.
+updated: '2025-09-24'
 ---
 
 # SkyFi
