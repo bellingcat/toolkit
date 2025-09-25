@@ -59,7 +59,7 @@ Not publicly disclosed
 
 ## Similar tools
 
-What CMS - [https://bellingcat.gitbook.io/toolkit/more/all-tools/what-cms](https://bellingcat.gitbook.io/toolkit/more/all-tools/what-cms)
+[What CMS](https://bellingcat.gitbook.io/toolkit/more/all-tools/what-cms)
 
 ## Advertising Trackers
 
