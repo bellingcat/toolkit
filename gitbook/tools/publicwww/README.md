@@ -1,24 +1,31 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  PublicWWW is a source code search engine that allows you to search for any
+  alphanumeric snippet, signature, or keyword within the HTML, JavaScript, and
+  CSS code of over 475m web pages.
 ---
 
 # PublicWWW
 
 ## URL
 
-https://example.com
+[https://publicwww.com/](https://publicwww.com/)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+PublicWWW is a specialized search engine that indexes the underlying code and technologies of websites. Unlike traditional search engines, which focus on visible content, PublicWWW scans and catalogs HTML, JavaScript, CSS, and HTTP headers. It currently indexes over 475 million web pages, offering advanced search capabilities including regular expressions, domain filters, and other criteria for highly precise queries. Search results include snippet previews, popularity rankings, and the ability to export data in CSV format for further analysis.
+
+The platform enables users to identify specific code snippets, analytics codes, embedded widgets, themes, and other hidden elements used across the web. It can detect the use of content management systems, JavaScript libraries, tracking codes, and server-side technologies. PublicWWW also provides statistical insights such as file types analysed, generator tags, server headers, and technology adoption trends, allowing for detailed examination of website structures and code usage patterns across a large portion of the internet.
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+Free tier includes top 3m websites only
+
+Free & Pro Tier details and pricing: [https://publicwww.com/prices.html](https://publicwww.com/prices.html)
 
 ## Level of difficulty
 
@@ -26,35 +33,40 @@ https://example.com
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+**Web:** Any modern web browser
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+* Only sites that are crawlable by a web crawler are included.
+* No crawl schedule is available but it appears the database is updated regularly to reflect changes to the websites the tool covers.
+* Sites behind login walls, paywalls, or CAPTCHAs are typically excluded unless there’s a publicly accessible portion.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Unknown operator
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+Query syntax: [https://publicwww.com/syntax.html](https://publicwww.com/syntax.html)
+
+Example usage for OSINT investigation: [https://www.memeticwarfare.io/p/mww-chinese-ulster-cluster](https://www.memeticwarfare.io/p/mww-chinese-ulster-cluster)
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Not publicly disclosed
 
 ## Similar tools
 
-\[\[Compare this tool with similar tools which can be used for the same research purpose. What are the strengths and weaknesses of each tool?]]
+What CMS - [https://bellingcat.gitbook.io/toolkit/more/all-tools/what-cms](https://bellingcat.gitbook.io/toolkit/more/all-tools/what-cms)
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| Freya           |

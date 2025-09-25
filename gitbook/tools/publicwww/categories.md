@@ -34,4 +34,4 @@
 * [ ] [Geolocation](https://bellingcat.gitbook.io/toolkit/categories/geolocation)
 * [ ] [People](https://bellingcat.gitbook.io/toolkit/categories/people)
 * [ ] [Transport](https://bellingcat.gitbook.io/toolkit/categories/transport)
-* [ ] [Websites](https://bellingcat.gitbook.io/toolkit/categories/websites)
+* [x] [Websites](https://bellingcat.gitbook.io/toolkit/categories/websites)
