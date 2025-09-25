@@ -1,16 +1,18 @@
 ---
-description: A brief one line description of this tool
+description: Real-time weather satellites of the entire globe
 ---
 
 # RAMMB SLIDER
 
 ## URL
 
-https://example.com
+[https://rammb-slider.cira.colostate.edu/](https://rammb-slider.cira.colostate.edu/)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+RAMMB/CIRA SLIDER is a tool for viewing images from weather satellites around the planet in real-time. While these weather satellites are low resolution (the highest resolution satellites have only a 500 meter resolution), the data is updated as fast as every 5 minutes. Additionally, the satellites capture multispectral imagery that can highlight fires, vegetation, and atmospheric properties like moisture and types of cloud cover.
+
+These images are useful for monitoring large scale events, typically weather events such as wildfires, hurricanes and dust storms. By default, the tool animates a number of images, which is often useful for showing developing weather patterns. The parameters of this animation (length of time and number of frames) can be adjusted. The tool can display a number of different "data products." The default "GeoColor CIRA" option is useful for simulating a color view of the planet, but other options like "Fire Temperature CIRA" can be useful for visualizing particular phenomenon. Images and GIFs can be exported from the tool with the built in Download feature.&#x20;
 
 ## Cost
 
@@ -18,43 +20,41 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+No sign in is necessary. The tool is free to use.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+The weather satellites are low resolution and only suitable for viewing large-scale events like wildfires, hurricanes, dust storms, and other weather patterns.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+\-
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+\-
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Regional and Mesoscale Meteorology Branch (part of the United States' National Oceanic and Atmospheric Administration) and the Cooperative Institute for Research in the Atmosphere at Colorado State University.
 
 ## Similar tools
 
-\[\[Compare this tool with similar tools which can be used for the same research purpose. What are the strengths and weaknesses of each tool?]]
+NOAA's [radar page](https://radar.weather.gov/) provides a map of current precipitation using ground based doppler radar.
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies (Google Analytics). Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| Logan Williams  |
+|                 |
