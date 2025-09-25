@@ -165,6 +165,7 @@
   * [QGIS](tools/qgis/README.md)
   * [Quick geolocation search](tools/quick-geolocation-search/README.md)
   * [Radar Interference Tracker](tools/radar-interference-tracker/README.md)
+  * [RAMMB SLIDER](tools/rammb-slider/README.md)
   * [RAWGraphs](tools/rawgraphs/README.md)
   * [RootAbout](tools/rootabout/README.md)
   * [RuPEP](tools/rupep/README.md)
