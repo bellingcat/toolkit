@@ -12,20 +12,18 @@ description: >-
 
 ## Description
 
-Montanna State University's tool converts latitude and longitude coordinates to various alternative coordinate systems.
+Montana State University's Convert Geographic Units tool converts latitude and longitude coordinates to various alternative coordinate systems.
 
 **Features:**
 
-* **Map Datum:** supports WGS84, NAD83, WGS72, etc.
-* **Decimal Degrees:** convert from and to latitude and longitude decimal degrees.
-* **Degrees, Minutes, Seconds (DMS):** convert to and from DMS latitude and longitude for Northern and Southern Hemisphere coordinates.
-* **Standard UTM:** convert to and from Zone Easting and Northing for Northern and Southern Hemisphere coordinates.
-* **NATO UTM:** convert to and from latitude zone and longitude zone, digraph, Easting and Northing.
+* **Map Datum:** Supports WGS84, NAD83, WGS72, etc.
+* **Decimal Degrees:** Convert from and to latitude and longitude decimal degrees.
+* **Degrees, Minutes, Seconds (DMS):** Convert to and from DMS latitude and longitude for Northern and Southern Hemisphere coordinates.
+* **Standard UTM:** Convert to and from Zone Easting and Northing for Northern and Southern Hemisphere coordinates.
+* **NATO UTM:** Convert to and from latitude zone and longitude zone, digraph, Easting and Northing.
+* **Basic Interactive Google Map:** Zoom, map/satellite options & labels option.
 
-Also includes a small map with:&#x20;
-
-* **Zoom tool:** zoom in and out on the map.
-* **Layers:** Satellite and Terrain.
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Cost
 
@@ -39,7 +37,7 @@ Also includes a small map with:&#x20;
 
 ## Requirements
 
-* **Web:** any modern web browser.
+* **Web Access:** Any modern web browser.
 
 ## Limitations
 
@@ -47,25 +45,24 @@ Also includes a small map with:&#x20;
 
 ## Ethical Considerations
 
-\-
+N/A
 
 ## Guides and articles
 
-* _Earth’s Coordinate System | Intergovernmental Committee on Surveying and Mapping_ (no date). Available at: [https://www.icsm.gov.au/education/fundamentals-mapping/earths-coordinate-system](https://www.icsm.gov.au/education/fundamentals-mapping/earths-coordinate-system) (Accessed: 2 September 2024).
-* ‘Geographic coordinate system’ (2024) _Wikipedia_. Available at: [https://en.wikipedia.org/w/index.php?title=Geographic\_coordinate\_system\&oldid=1239962932](https://en.wikipedia.org/w/index.php?title=Geographic\_coordinate\_system\&oldid=1239962932) (Accessed: 2 September 2024).
-* _Understanding Latitude and Longitude_ (no date). Available at: [https://journeynorth.org/tm/LongitudeIntro.html](https://journeynorth.org/tm/LongitudeIntro.html) (Accessed: 2 September 2024).
+* _Earth’s Coordinate System | Intergovernmental Committee on Surveying and Mapping_ (no date). Available at: [https://www.icsm.gov.au/education/fundamentals-mapping/earths-coordinate-system](https://www.icsm.gov.au/education/fundamentals-mapping/earths-coordinate-system) (Accessed: 28 August 2025).
+* ‘Geographic coordinate system’ (2024) _Wikipedia_. Available at: [https://en.wikipedia.org/w/index.php?title=Geographic\_coordinate\_system\&oldid=1239962932](https://en.wikipedia.org/w/index.php?title=Geographic_coordinate_system\&oldid=1239962932) (Accessed: 28 August 2025).
+* _Understanding Latitude and Longitude_ (no date). Available at: [https://journeynorth.org/tm/LongitudeIntro.html](https://journeynorth.org/tm/LongitudeIntro.html) (Accessed: 28 August 2025).
 
 ## Tool provider
 
-Montanna State University [https://www.montana.edu/](https://www.montana.edu/) - United States
+Montana State University [https://www.montana.edu/](https://www.montana.edu/) - United States
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat volunteer team/Unassigned |
-|                                      |
+| Page maintainer |
+| --------------- |
+| Freya           |
