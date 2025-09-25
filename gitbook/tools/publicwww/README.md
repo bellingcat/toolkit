@@ -33,7 +33,7 @@ Free & Pro Tier details and pricing: [https://publicwww.com/prices.html](https:/
 
 ## Requirements
 
-**Web:** Any modern web browser
+An e-mail address is required to create an account.
 
 ## Limitations
 
