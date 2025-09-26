@@ -22,7 +22,7 @@ The database is designed to help explosive disposal professionals ("[EOD operato
 
 Based on our examination, CAT-UXO has 16 categories of EO, an additional related category for IED (Improvised Explosive Device) Incidents and a separate [category ](#user-content-fn-1)[^1]for [Terrorist Groups](https://cat-uxo.com/explosive-hazards/terrorist-groups). It has categorized hundreds of unique models of EO from various countries.&#x20;
 
-**EO TYPES COVERED BY THE TOOL:** Landmines, Submunitions, Grenades, Aircraft Bombs, Rockets, Missiles, Mortars, Projectiles, Firing Devices, Fuzes, Naval Devices, SALW[^2], UCAV[^3], [AFV ](#user-content-fn-4)[^4]\(i), Miscellaneous, IEDs (i), IED Incidents, Terrorist Groups&#x20;
+**EO TYPES COVERED BY THE TOOL:** Landmines, Submunitions, Grenades, Aircraft Bombs, Rockets, Missiles, Mortars, Projectiles, Firing Devices, Fuzes, Naval Devices, [SALW](https://www.nato.int/cps/en/natohq/topics_52142.htm), [UCAV](https://en.wikipedia.org/wiki/Unmanned_combat_aerial_vehicle), [AFV](https://app.gitbook.com/u/3aNONh26PSPQngxI26whadEBSbz2) (i), Miscellaneous, IEDs (i), IED Incidents, Terrorist Groups&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2025-09-15 072220.png" alt=""><figcaption><p> Search categories for EO on the landing page of the tool. </p></figcaption></figure>
 
@@ -539,15 +539,3 @@ Collective Awareness to Unexploded Ordnance (CAT-UXO), UK
 
 
 [^1]: List of active and inactive Terrorist groups and explosive hazards associated with them.&#x20;
-
-[^2]: Small Arms and Light Weapons
-
-    [https://www.google.com/url?sa=t\&source=web\&rct=j\&opi=89978449\&url=https://www.nato.int/cps/en/natohq/topics\_52142.htm\&ved=2ahUKEwjJq9\_b9N2PAxWN4skDHfunKcwQFnoECBgQAQ\&usg=AOvVaw0vxjxWLAJHravlbLV\_b2xc](https://www.google.com/url?sa=t\&source=web\&rct=j\&opi=89978449\&url=https://www.nato.int/cps/en/natohq/topics_52142.htm\&ved=2ahUKEwjJq9_b9N2PAxWN4skDHfunKcwQFnoECBgQAQ\&usg=AOvVaw0vxjxWLAJHravlbLV_b2xc)
-
-[^3]: Unmanned Combat Aerial Vehicle [https://en.wikipedia.org/wiki/Unmanned\_combat\_aerial\_vehicle](https://en.wikipedia.org/wiki/Unmanned_combat_aerial_vehicle)
-
-
-
-[^4]: Armoured Fighting Vehicle
-
-    [https://en.wikipedia.org/wiki/Armoured\_fighting\_vehicle](https://en.wikipedia.org/wiki/Armoured_fighting_vehicle)
