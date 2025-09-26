@@ -4,7 +4,7 @@ description: >-
   (EOD) space.
 ---
 
-# CAT UXO
+# CAT-UXO
 
 ## URL
 
@@ -12,11 +12,445 @@ description: >-
 
 ## Description
 
-[The Collective Awareness to UXO (CAT-UXO)](https://cat-uxo.com/) app is a go-to repository for many professionals working in the explosive ordnance disposal (EOD) space. It has categorized hundreds of unique models of EO, including all land service ammunition categories. Each entry in CAT-UXO’s database provides an image of the item of EO and a brief description. Each category can also be filtered by further sub-categories, and its country of origin, country of use, weight, and dimensions.
+{% hint style="warning" %}
+Disclaimer: This website contains information about ordnance, explosives, and related items for educational and reference purposes only. The content should not be used for: (1) attempting self-guided disposal of explosive devices; (2) manufacturing explosive devices or components; (3) handling unexploded ordnance without proper training; (4) any illegal activities involving explosive materials.
+{% endhint %}
 
-CAT-UXO is based in the United Kingdom with contributors adding information from all regions of the world.
+CAT-UXO is a repository of explosive ordnance (EO) information that is both a web-based platform and a mobile application. It is a [collective awareness platform](https://cat-uxo.com/about) for unexploded ordnance (UXO) and explosive hazards.
+
+The [database is designed to help explosive disposal professionals (EOD operators, Military, Police, NGOs, divers, dog handlers, medics, and mine risk managers) ](https://cat-uxo.com/about)identify dangerous munitions they might encounter in the field. However, information in CAT-UXO can be repurposed for open-source investigations.&#x20;
+
+Based on our examination, CAT-UXO has 16 categories of EO, an additional related category for IED[^1] Incidents and a separate [category ](#user-content-fn-2)[^2]for [Terrorist Groups](https://cat-uxo.com/explosive-hazards/terrorist-groups). It has categorized hundreds of unique models of EO from various countries.&#x20;
+
+**EO TYPES COVERED BY THE TOOL:** Landmines, Submunitions, Grenades, Aircraft Bombs, Rockets, Missiles, Mortars, Projectiles, Firing Devices, Fuzes, Naval Devices, SALW[^3], UCAV[^4], [AFV ](#user-content-fn-5)[^5]\(i), Miscellaneous, IEDs (i), IED Incidents, Terrorist Groups&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2025-09-15 072220.png" alt=""><figcaption><p> Search categories for EO on the landing page of the tool. </p></figcaption></figure>
+
+According to the tool provider, the data comes from:
+
+1. &#x20;[“Varying open source information and individuals.”  ](https://cat-uxo.com/terms-conditions)
+2. [Gathered via social media](https://cat-uxo.com/about)
+3. [Paid member contributors](https://cat-uxo.com/sign-up). Supporting CAT-UXO via paid membership allows members to contribute technical information on existing EO or [contribute a new hazard](https://cat-uxo.com/contribute) to the online database.&#x20;
+
+For each unique model, the database provides images of the EO and a detailed description.&#x20;
+
+**Some of the practical applications of this tool can be:**&#x20;
+
+* Visual identification aids through images
+* Comprehensive repository, widely trusted by practitioners, useful for both text and image-based identification.
+
+### EO TYPES AND EXPLAINERS
+
+CAT-UXO groups its information according to 16 EO Types. It also provides introductory information for some of these EO types geared toward beginner users. However, this information is not easy to find in the user interface. To do so,  click on EO Type and then click on the top results with the EO icon.&#x20;
+
+As of now, only these types of EO have introductory information, mostly sourced from Wikipedia: [Landmines](https://cat-uxo.com/explosive-hazards/landmines/01-landmine); [Submunitions](https://cat-uxo.com/explosive-hazards/submunitions/01-submunition); Grenade ([Hand Grenade](https://cat-uxo.com/explosive-hazards/grenades/01-hand-grenade) and [Projected Grenade](https://cat-uxo.com/explosive-hazards/grenades/02-projected-grenade)); [Rocket](https://cat-uxo.com/explosive-hazards/rockets/01-rocket);  [Fuze](https://cat-uxo.com/explosive-hazards/fuzes/01-fuze) ([Delay Fuze](https://cat-uxo.com/explosive-hazards/fuzes/03-delay-fuze), [Pibd](https://cat-uxo.com/explosive-hazards/fuzes/04-pibd), [AWAF](https://cat-uxo.com/explosive-hazards/fuzes/05-awaf), [Firing Pin](https://cat-uxo.com/explosive-hazards/fuzes/06-firing-pin)) &#x20;
+
+See below for steps in finding explainers.
+
+{% stepper %}
+{% step %}
+### Click on the EO Type&#x20;
+
+On the landing page, click on the icon of the EO type you are searching for
+
+<figure><img src=".gitbook/assets/2025-09-16_12-58-36-st.png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Click on the first result
+
+If available for that category, click on the first result, with the icon identical to the EO type of icon. I.e. The rocket icon will look the same on the results page. &#x20;
+
+<figure><img src=".gitbook/assets/2025-09-16_14-19-50st.png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+{% endstepper %}
+
+### SEARCHING FOR EO
+
+#### _SEARCH BAR AND SEARCH QUERY_
+
+<figure><img src=".gitbook/assets/Screenshot 2025-09-15 073154.png" alt=""><figcaption><p>On the landing page of the tool, users can find the search bar and the various EO types for ease of search.</p></figcaption></figure>
+
+To get the best results, it is helpful to know how the search bar works. The search functionality is versatile. It operates on keyword-based retrieval, matching search queries against indexed fields.&#x20;
+
+It also handles logical combinations of attributes, such as “Chinese fuze” or “81mm mortar,” as well as exact model designations such as “type 58 landmine.” It returns results when keywords appear in either the description or title. Partial words (i.e. “frag” for fragmentation) will also return results.&#x20;
+
+The system seems to search both the textual descriptions and visual identifiers, including markings, holes, grooves, and sometimes tail shape – if available.&#x20;
+
+* Terminology matters: Based on our own tests, the database appears to mostly index content using standardized military/technical naming conventions rather than casual language variations.&#x20;
+
+Example:  “anti-tank” ([the common EO term referring to a purpose or function of ordnance)](https://www.smallarmssurvey.org/sites/default/files/resources/SAS-Research-Note-16.pdf) returns more results than “anti tank” without the hyphen since it’s more likely to appear in formal descriptions.&#x20;
+
+* Foreign Language Search: Based on our tests, it can search using the Cyrillic alphabet if the characters appear in the title or description&#x20;
+
+#### DROP-DOWN FILTERING OPTIONS
+
+The interface also uses GUI-driven filtering without Boolean operators. This allows users to refine searches further using a dropdown filtering menu rather than advanced search syntax.&#x20;
+
+The interface also uses GUI-driven filtering without Boolean operators. This allows users to refine searches further using a dropdown filtering menu rather than advanced search syntax.&#x20;
+
+<figure><img src=".gitbook/assets/2025-09-15_09-44-27-ed.png" alt=""><figcaption><p>Search results can further be refined by more filtering options, as seen above the search results. Once entering the results page for the initial query, a filtering option becomes available. </p></figcaption></figure>
+
+An additional list of filtering options is found in the expandables.&#x20;
+
+<details>
+
+<summary>List of additional "Category" filters (CLICK TO EXPAND)</summary>
+
+AFV - Armoured Personnel Carrier
+
+AFV - Landmine Clearance&#x20;
+
+AFV - Main Battle Tank (MBT)
+
+AFV - Multiple Launch Rocket System (MLRS)
+
+AFV - Self-Propelled Anti-Aircraft Gun (SPAAG)
+
+AFV - Self-Propelled Artillery (SPA)
+
+AFV - Towed Artillery
+
+Aircraft Bomb
+
+Aircraft Bomb - Bomblet
+
+Aircraft Bomb - Chemical
+
+Aircraft Bomb - Cluster/Dispenser
+
+Aircraft Bomb - Concrete Piercing (CP)
+
+Aircraft Bomb - Fragmentation
+
+Aircraft Bomb - General Purpose  (GP)&#x20;
+
+Aircraft Bomb - Guided Bomb Unit (GBU)&#x20;
+
+Aircraft Bomb - High Capacity
+
+Aircraft Bomb - Incendiary&#x20;
+
+Aircraft Bomb - Practice
+
+Aircraft Bomb - Signal/Illuminating
+
+Firing Device - Anti-Disturbance
+
+Firing Device - Breakwire
+
+Firing Device - Combination&#x20;
+
+Firing Device - Concussion
+
+Firing Device - Pressure&#x20;
+
+Firing Device - Pressure Release
+
+Firing Device - Pull&#x20;
+
+Firing Device - Seismic&#x20;
+
+Firing Device - Tension Release&#x20;
+
+Firing Device - Time
+
+Fuze - Aircraft Bomb&#x20;
+
+Fuze - Depth Charge
+
+Fuze - Grenade Hand
+
+Fuze - Grenade Projected
+
+Fuze - Grenade Rifle
+
+Fuze - Info&#x20;
+
+Fuze - Landmine
+
+Fuze - Mortar
+
+Fuze - Projectile
+
+Fuze - Rocket
+
+Fuze - Seamine
+
+Fuze - Submunition&#x20;
+
+Grenade - Hand
+
+Grenade - Projected
+
+Grenade - Rifle
+
+IED
+
+IED - Animal Borne IED (ABIED)
+
+IED - Concealment
+
+IED - Explosive
+
+IED - Improvised Landmine
+
+IED - Incendiary
+
+IED - Main Charge
+
+IED - Postal&#x20;
+
+IED - Projected&#x20;
+
+IED - Suicide
+
+IED - Switch
+
+IED - Vehicle Borne IED (VBIED)
+
+Landmine - Anti-Helicopter (AH)
+
+Landmine - Anti-Personnel (AP) Blast
+
+Landmine - Anti-Personnel (AP) Bounding
+
+Landmine - Anti-Personnel (AP) Directional
+
+Landmine - Anti-Personnel (AP) Fragmentation
+
+Landmine - Anti-Vehicle (AV) Blast
+
+Landmine - Anti-Vehicle (AV) Off-Route
+
+Landmine - Anti-Vehicle (AV) Shaped Charge
+
+Landmine - Chemical
+
+Landmine - Clearance Device
+
+Landmine - Delivery Device
+
+Landmine - Improvised Landmine (ILM)
+
+Landmine - Signal Flare
+
+Misc - Accessories
+
+Misc - Decoy
+
+Misc - Demolition Charge
+
+Missile - Air to Air (AAM)
+
+Missile - Air to Surface (ASM)
+
+Missile - Anti-Ship (AShM)
+
+Missile - Anti-Tank (ATGM)&#x20;
+
+Missile - MANPADS
+
+Missile - Surface to Air (SAM)
+
+Missile - Surface to Surface (SSM)&#x20;
+
+Mortar - Carrier
+
+Projectile - High Explosive
+
+Projectile - SAA
+
+Projectile -Solid Shot
+
+Projectile - TP, Practice, Training
+
+Rocket - Air to Air
+
+Rocket - Air to Ground
+
+Rocket -Ground to Air
+
+Rocket - Ground to Ground
+
+SALW  - Assault Rifle
+
+SALW - ATGM
+
+SALW - Grenade Launcher
+
+SALW - Light Machine Gun (LMG)
+
+SALW - Machine Gun
+
+SALW - MANPADS
+
+SALW - Mortar
+
+SALW - Pistol
+
+SALW - Recoiless Rifle
+
+SALW - Rifle
+
+SALW - Rocket Launcher
+
+SALW - Shotgun
+
+SALW - Submachine gun&#x20;
+
+Submunition - Anti-Personnel (AP)
+
+Submunition - Anti-Runway (Cratering)
+
+Submunition - Anti-Vehicle (AV)
+
+Submunition - Chemical
+
+Submunition - Dual Purpose (DP)
+
+Submunition - Incendiary
+
+Submunition - Other&#x20;
+
+UCAV - Loitering Suicide
+
+UCAV - Munition
+
+UCAV - Platform
+
+UCAV - Suicide
+
+Unknown
+
+</details>
+
+<details>
+
+<summary>List of "Country of Origin" filters (CLICK TO EXPAND)</summary>
+
+USA, UK, Yugoslavia, Austria, Bulgaria, China, Colombia, France, Iran, Iraq, Ireland, Israel, Italy, Norway, Pakistan, Philippines, Russia, Singapore, South Korea&#x20;
+
+</details>
+
+<details>
+
+<summary>List of "Country Used In" filters (CLICK TO EXPAND)</summary>
+
+Afghanistan, Australia, Austria, Azerbaijan, Bangladesh, Belarus, Belgium, Bolivia, Bosnia and Herzegovina, Brazil, Bulgaria, Cambodia, Canada, Chechnya, Chile, China, Colombia, Costa Rica, Cyprus, Denmark, Ecuador, El Salvador, Estonia, Ethiopia, France, Georgia, Greece, Nepal, Nigeria, Norway, Pakistan, Panama, Philippines, Romania, Russia, Saudi Arabia, Somalia, South Korea, Sudan, Sweden, Switzerland, Syria, Taiwan, Thailand, Tunisia, Turkey, Ukraine, United Kingdom, USA, Venezuela, Vietnam, Yemen, Yugoslavia
+
+</details>
+
+<details>
+
+<summary>List of "Diameter" filters for certain EO Types (CLICK TO EXPAND)</summary>
+
+12.7 MM
+
+48 MM
+
+49 MM
+
+50 MM
+
+60 MM
+
+61 MM
+
+64 MM
+
+81 MM
+
+82 MM
+
+152 MM
+
+457 MM
+
+</details>
+
+<details>
+
+<summary>List of "Length" filters for certain EO Types (CLICK TO EXPAND)</summary>
+
+81 MM
+
+87 MM
+
+90 MM
+
+91 MM
+
+98 MM
+
+104 MM
+
+108 MM
+
+127 MM
+
+149 MM
+
+152 MM
+
+153 MM
+
+277 MM
+
+282 MM
+
+300 MM
+
+369 MM
+
+370 MM
+
+380 MM
+
+381 MM
+
+382 MM
+
+410 MM
+
+426 MM
+
+427 MM
+
+430 MM
+
+431 MM
+
+432 MM
+
+451 MM
+
+520 MM
+
+521 MM
+
+555 MM
+
+563 MM
+
+571 MM
+
+575 MM
+
+643 MM
+
+1000 MM
+
+1295 MM
+
+1550 MM
+
+7150 MM
+
+\
 
 
+</details>
 
 ## Cost
 
@@ -24,27 +458,68 @@ CAT-UXO is based in the United Kingdom with contributors adding information from
 * [x] Partially Free
 * [ ] Paid
 
-Paid plan unlocks additional information about each item of explosive ordnance.
+Info on paid membership can be found here:  [https://cat-uxo.com/sign-up](https://cat-uxo.com/sign-up)&#x20;
+
+{% hint style="info" %}
+You cannot sign up for a free account. Signing up for an account requires payment.&#x20;
+{% endhint %}
+
+The version used for this test is both the public/free version and a paid version.&#x20;
+
+Important main differences between the public and paid account, are as follows:
+
+| Images                         | One image of the EO  | Multiple images                                                                                                                               |
+| ------------------------------ | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| Description                    | Basic description    | Basic description + More technical information (i.e., diameter, length, fill, all-up weight (AUW), propellant, fill, fuze, function, warhead) |
+| Introduction/Explainers        | Basic description    | Basic description + additional slideshow of information                                                                                       |
+| Additional Member Contribution | Non accessible       | Accessible (helpful for images sourced in social media and in conflict zones)                                                                 |
+| Associated EO                  | Accessible           | Accessible                                                                                                                                    |
+| <p><br></p>                    | <p><br></p>          | <p><br></p>                                                                                                                                   |
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
+
+User interface difficulty is level 2 as searching and filtering are mostly intuitive
+
+\
+
 
 ## Requirements
 
-Payment and login required for paid version.
+Payment and login required for paid version. Technical subject matter knowledge may be helpful when using the tool.&#x20;
 
 ## Limitations
 
-Limited technical information.
+Note on Accuracy:&#x20;
+
+1. The Terms and Condition state, ["The information contained within this website is obtained from varying open-source information and individuals. The information is no way exhaustive or considered fully accurate and therefore qualified EOD trained persons should always adhere to authorised employers Standard Operating Procedures (SOPs) when working with explosive hazards."](https://cat-uxo.com/terms-conditions) It is advisable to use this tool with other similar tools to verify information.&#x20;
+2. Navigation inefficiency - The search bar functionality is limited to the landing page and search results page, and does not appear on other pages. This can disrupt workflow when working on time-sensitive research.&#x20;
+3. Limited multilingual support - Insufficient foreign names or markings and local terminology for international search matching. This may be critical for those working with Soviet, Chinese, or any locally-manufactured ordnance with local designations.&#x20;
+4. Restricted filtering options - No filters for color, shape, and other potentially useful physical features, which may be helpful if beginners do not have a background in ordnance. &#x20;
+5. Images of intact EO vs. Remnants of EO – The site has limited images of EO on the battlefield or in fragments. Open-source investigators who look at social media to determine types of EO used in conflict are usually confronted with pieces of EO fragments or partial images. They are most likely seeing EO partially buried or obscured in conflict zones. It is helpful to filter based on what can be observed in this limited context, such as color, shape, and markings.&#x20;
+
+However, to mitigate this, paid users can sometimes access additional information from contributors/other paid members, which may include images from social media in conflict zones or in partial form.&#x20;
+
+6. No offline functionality - Absence of an offline version creates challenges for field users with limited connectivity (unlike, for example, Bulletpicker.com)&#x20;
+7. It's unclear what quality requirements CAT-UXO has for contributors or how they review information before adding it to the database.
 
 ## Ethical Considerations
 
-Sponsored by commercial EOD entities.
+* Users must use this weapon information responsibly and legally. Follow all site warnings and restrictions.
+* There are liability and safety considerations. [The Terms and Conditions state that it does not teach or endorse EOD practices](https://cat-uxo.com/terms-conditions)
+* Sponsored by commercial EOD entities.
 
 ## Guide
 
-\-
+No guides available at the moment.&#x20;
+
+Use cases:&#x20;
+
+1. Carlos Gonzales, Mike Yambo, and Jackline Macharia, "Kenyan Weapons Linked to Sudan's Civil War," Bellingcat, June 15, 2025,[ https://www.bellingcat.com/news/2025/06/15/kenya-weapons-sudan-civil-war-conflict-khartoum-omdurman-munitions-ammunition/](https://www.bellingcat.com/news/2025/06/15/kenya-weapons-sudan-civil-war-conflict-khartoum-omdurman-munitions-ammunition/). (with contributions from P. Chaudhuri, Y. van der Weide, and J. Godin)
+2. Waters, Nick. "Investigating War Crimes: Banned and Restricted Weapons." Global Investigative Journalism Network, 2023.[ https://gijn.org/resource/reporters-guide-to-investigating-war-crimes-banned-and-restricted-weapons/](https://gijn.org/resource/reporters-guide-to-investigating-war-crimes-banned-and-restricted-weapons/).
+
+Waters, N. (2023). Розслідування воєнних злочинів: Заборонені та обмежені у використанні види зброї \[Investigating war crimes: Banned and restricted weapons]. Global Investigative Journalism Network.[ https://gijn.org/ua/resource/rozsliduvanna-voennih-zlociniv-zaboroneni-ta-obmezeni-u-vikoristanni-vidi-zbroi/](https://gijn.org/ua/resource/rozsliduvanna-voennih-zlociniv-zaboroneni-ta-obmezeni-u-vikoristanni-vidi-zbroi/)
 
 ## Tool provider
 
@@ -52,12 +527,31 @@ Collective Awareness to Unexploded Ordnance (CAT-UXO), UK
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer |
 | --------------- |
-| Andro           |
+| Afton           |
 |                 |
 
+
+
+[^1]: Improvised Explosive Device
+
+
+
+[^2]: List of active and inactive Terrorist groups and explosive hazards associated with them.&#x20;
+
+[^3]: Small Arms and Light Weapons
+
+    [https://www.google.com/url?sa=t\&source=web\&rct=j\&opi=89978449\&url=https://www.nato.int/cps/en/natohq/topics\_52142.htm\&ved=2ahUKEwjJq9\_b9N2PAxWN4skDHfunKcwQFnoECBgQAQ\&usg=AOvVaw0vxjxWLAJHravlbLV\_b2xc](https://www.google.com/url?sa=t\&source=web\&rct=j\&opi=89978449\&url=https://www.nato.int/cps/en/natohq/topics_52142.htm\&ved=2ahUKEwjJq9_b9N2PAxWN4skDHfunKcwQFnoECBgQAQ\&usg=AOvVaw0vxjxWLAJHravlbLV_b2xc)
+
+[^4]: Unmanned Combat Aerial Vehicle [https://en.wikipedia.org/wiki/Unmanned\_combat\_aerial\_vehicle](https://en.wikipedia.org/wiki/Unmanned_combat_aerial_vehicle)
+
+
+
+[^5]: Armoured Fighting Vehicle
+
+    [https://en.wikipedia.org/wiki/Armoured\_fighting\_vehicle](https://en.wikipedia.org/wiki/Armoured_fighting_vehicle)
