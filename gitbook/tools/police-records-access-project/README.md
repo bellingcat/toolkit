@@ -122,9 +122,16 @@ PDF reader
 ## Limitations \[Fraser]
 
 * Although the database is updated every 24 hours it currently only contains records from 2015 to 2023.&#x20;
+* The dataset does not include all use-of-force cases. Only two types of use-of-force incidents are covered in the database:
+  * Discharge of a weapon at a person by police (excluding tasers, paintball guns, or other weapons using less lethal ammunition).
+  * Police uses of force resulting in death or “great bodily injury.”
+* The database also does not include all allegations of police misconduct. It only contains cases of “sustained” findings of sexual assault, excessive force, dishonesty, prejudical action, unlawful arrest, and unlawful search or where an officer was accused of those actions and left the agency before the investigation was completed.
+* Some of the sensitive content has been redacted. Records where government agencies failed to redact personally identifying sensitive information are not listed in search results and some cases will display no files where those files have sensitive information.
+* Searches can miss relevant documents if different terminology is used (e.g., “taser” vs. “electronic control weapon”). Users should always review the underlying government records.
 * There is a time lag as police agencies must conclude an investigation before it is added to the database.&#x20;
+* Some records may be added after an investigation into a police shooting is closed and the agencies release the requested records.
 * A successful public records request must be completed to access some _**\[@afton not clear here what gets auto included and what doesn't]**_ of the data.
-* Some of the sensitive content has been redacted.
+* Some information may appear in multiple files.
 * Images, video and audio from incidents is not included.
 * no immediately visible graphic content warning — warning sign is tiny \[Afton]
 * this? \[Afton]
@@ -140,6 +147,7 @@ i.e. This one says: 10/31/2023 [https://clean.calmatters.org/cases/1743019578959
 ## Ethical Considerations \[Fraser]
 
 * Privacy and harm - although victim data is redacted it may still be possible to identify a victim though the incident itself so caution should be exercised in how the data is used. &#x20;
+* Some documents contain text or images some people might consider sensitive or disturbing.
 * Accuracy - possible errors in data mean that any data should be independently verified.
 
 ## Guides and articles \[Afton]
