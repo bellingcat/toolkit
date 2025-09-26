@@ -18,7 +18,7 @@ Disclaimer: This website contains information about ordnance, explosives, and re
 
 CAT-UXO is a repository of explosive ordnance (EO) information that is both a web-based platform and a mobile application. It is a [collective awareness platform](https://cat-uxo.com/about) for unexploded ordnance (UXO) and explosive hazards.
 
-The database is designed to help explosive disposal professionals ("[EOD operators, Military, Police, NGOs, divers, dog handlers, medics, and mine risk managers](https://cat-uxo.com/about)") identify dangerous munitions they might encounter in the field. However, information in CAT-UXO can be repurposed for open-source investigations.&#x20;
+The database is designed to help explosive disposal professionals ("[EOD operators, Military, Police, NGOs, divers, dog handlers, medics, and mine risk managers](https://cat-uxo.com/about)") identify dangerous munitions they might encounter in the field. However, the information provided by CAT-UXO can be repurposed for open-source investigations.&#x20;
 
 Based on our examination, CAT-UXO has 16 categories of EO, an additional related category for IED (Improvised Explosive Device) Incidents and a separate [category ](#user-content-fn-1)[^1]for [Terrorist Groups](https://cat-uxo.com/explosive-hazards/terrorist-groups). It has categorized hundreds of unique models of EO from various countries.&#x20;
 
