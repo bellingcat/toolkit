@@ -133,16 +133,17 @@ PDF reader
 * A successful public records request must be completed to access some _**\[@afton not clear here what gets auto included and what doesn't]**_ of the data.
 * Some information may appear in multiple files.
 * Images, video and audio from incidents is not included.
-* no immediately visible graphic content warning — warning sign is tiny \[Afton]
-* this? \[Afton]
+* There is no immediately visible graphic content warning. The warning sign is small and not easy to find.&#x20;
+* There is a caveat in the below image indicating that the search results may not necessarily identify all relevant documents/cases. Search results may also have incomplete information and that users should verify information found in the database. &#x20;
 
-<figure><img src=".gitbook/assets/2025-09-21_21-18-37-limitation.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-09-21_21-18-37-limitation.png" alt=""><figcaption><p>This is a caveat at the bottom of the main search results - and a graphic content warning that is not easy to find.</p></figcaption></figure>
 
-records may change or be updated: "Information about a case can change as agencies submit new or updated records" on the top of the search bar \[Afton]
+* Be aware that records may change or be updated: "Information about a case can change as agencies submit new or updated records" is specified on the top of the search bar.&#x20;
+*   CHECK:&#x20;
 
-* CHECK: Date? What is it of? The incident? Or the date it was requested? –unclear and unspecified \[Afton]
+    * Date? What is it of? The incident? Or the date it was requested? –unclear and unspecified \[Afton]
 
-i.e. This one says: 10/31/2023 [https://clean.calmatters.org/cases/1743019578959-kdy](https://clean.calmatters.org/cases/1743019578959-kdy) – but incident date on the doc says September 2014 [https://cleanpdfs.blob.core.windows.net/pdfs/74/28/04/742804475f8535e404fa8eae232a8b80d1cf31f6](https://cleanpdfs.blob.core.windows.net/pdfs/74/28/04/742804475f8535e404fa8eae232a8b80d1cf31f6)
+    i.e. This one says: 10/31/2023 [https://clean.calmatters.org/cases/1743019578959-kdy](https://clean.calmatters.org/cases/1743019578959-kdy) – but incident date on the doc says September 2014 [https://cleanpdfs.blob.core.windows.net/pdfs/74/28/04/742804475f8535e404fa8eae232a8b80d1cf31f6](https://cleanpdfs.blob.core.windows.net/pdfs/74/28/04/742804475f8535e404fa8eae232a8b80d1cf31f6)
 
 ## Ethical Considerations \[Fraser]
 
@@ -213,7 +214,7 @@ Based on [this](https://clean.calmatters.org/about#Who-we-are):
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                          |
-| ------------------------------------------------------------------------ |
-| Afton and \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                          |
+| Page maintainer                     |
+| ----------------------------------- |
+| Afton and Bellingcat volunteer team |
+|                                     |
