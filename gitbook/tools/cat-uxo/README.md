@@ -470,7 +470,6 @@ Important main differences between the public and paid account, are as follows:
 | Introduction/Explainers        | Basic description    | Basic description + additional slideshow of information                                                                                       |
 | Additional Member Contribution | Non accessible       | Accessible (helpful for images sourced in social media and in conflict zones)                                                                 |
 | Associated EO                  | Accessible           | Accessible                                                                                                                                    |
-| <p><br></p>                    | <p><br></p>          | <p><br></p>                                                                                                                                   |
 
 ## Level of difficulty
 
