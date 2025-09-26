@@ -509,8 +509,8 @@ No guides available at the moment.&#x20;
 
 Use cases:&#x20;
 
-1. Carlos Gonzales, Mike Yambo, and Jackline Macharia, "Kenyan Weapons Linked to Sudan's Civil War," Bellingcat, June 15, 2025,[ https://www.bellingcat.com/news/2025/06/15/kenya-weapons-sudan-civil-war-conflict-khartoum-omdurman-munitions-ammunition/](https://www.bellingcat.com/news/2025/06/15/kenya-weapons-sudan-civil-war-conflict-khartoum-omdurman-munitions-ammunition/). (with contributions from P. Chaudhuri, Y. van der Weide, and J. Godin)
-2. Waters, Nick. "Investigating War Crimes: Banned and Restricted Weapons." Global Investigative Journalism Network, 2023.[ https://gijn.org/resource/reporters-guide-to-investigating-war-crimes-banned-and-restricted-weapons/](https://gijn.org/resource/reporters-guide-to-investigating-war-crimes-banned-and-restricted-weapons/).
+1. Carlos Gonzales, Mike Yambo, and Jackline Macharia, "[Kenyan Weapons Linked to Sudan's Civil War](https://www.bellingcat.com/news/2025/06/15/kenya-weapons-sudan-civil-war-conflict-khartoum-omdurman-munitions-amm)," Bellingcat, June 15, 2025.
+2. Waters, Nick. "[Investigating War Crimes: Banned and Restricted Weapons.](https://app.gitbook.com/u/3aNONh26PSPQngxI26whadEBSbz2)" Global Investigative Journalism Network, 2023.
 
 Waters, N. (2023). Розслідування воєнних злочинів: Заборонені та обмежені у використанні види зброї \[Investigating war crimes: Banned and restricted weapons]. Global Investigative Journalism Network.[ https://gijn.org/ua/resource/rozsliduvanna-voennih-zlociniv-zaboroneni-ta-obmezeni-u-vikoristanni-vidi-zbroi/](https://gijn.org/ua/resource/rozsliduvanna-voennih-zlociniv-zaboroneni-ta-obmezeni-u-vikoristanni-vidi-zbroi/)
 
