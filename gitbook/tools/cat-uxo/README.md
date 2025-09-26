@@ -512,8 +512,6 @@ Use cases:&#x20;
 1. Carlos Gonzales, Mike Yambo, and Jackline Macharia, "[Kenyan Weapons Linked to Sudan's Civil War](https://www.bellingcat.com/news/2025/06/15/kenya-weapons-sudan-civil-war-conflict-khartoum-omdurman-munitions-amm)," Bellingcat, June 15, 2025.
 2. Waters, Nick. "[Investigating War Crimes: Banned and Restricted Weapons.](https://app.gitbook.com/u/3aNONh26PSPQngxI26whadEBSbz2)" Global Investigative Journalism Network, 2023.
 
-Waters, N. (2023). Розслідування воєнних злочинів: Заборонені та обмежені у використанні види зброї \[Investigating war crimes: Banned and restricted weapons]. Global Investigative Journalism Network.[ https://gijn.org/ua/resource/rozsliduvanna-voennih-zlociniv-zaboroneni-ta-obmezeni-u-vikoristanni-vidi-zbroi/](https://gijn.org/ua/resource/rozsliduvanna-voennih-zlociniv-zaboroneni-ta-obmezeni-u-vikoristanni-vidi-zbroi/)
-
 ## Tool provider
 
 Collective Awareness to Unexploded Ordnance (CAT-UXO), UK
