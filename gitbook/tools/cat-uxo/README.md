@@ -22,7 +22,7 @@ The database is designed to help explosive disposal professionals ("[EOD operato
 
 Based on our examination, CAT-UXO has 16 categories of EO, an additional related category for IED (Improvised Explosive Device) Incidents and a separate [category ](#user-content-fn-1)[^1]for [Terrorist Groups](https://cat-uxo.com/explosive-hazards/terrorist-groups). It has categorized hundreds of unique models of EO from various countries.&#x20;
 
-**EO TYPES COVERED BY THE TOOL:** Landmines, Submunitions, Grenades, Aircraft Bombs, Rockets, Missiles, Mortars, Projectiles, Firing Devices, Fuzes, Naval Devices, [SALW](https://www.nato.int/cps/en/natohq/topics_52142.htm), [UCAV](https://en.wikipedia.org/wiki/Unmanned_combat_aerial_vehicle), [AFV](https://app.gitbook.com/u/3aNONh26PSPQngxI26whadEBSbz2) (i), Miscellaneous, IEDs (i), IED Incidents, Terrorist Groups&#x20;
+**EO TYPES COVERED BY THE TOOL:** Landmines, Submunitions, Grenades, Aircraft Bombs, Rockets, Missiles, Mortars, Projectiles, Firing Devices, Fuzes, Naval Devices, [SALW](https://www.nato.int/cps/en/natohq/topics_52142.htm), [UCAV](https://en.wikipedia.org/wiki/Unmanned_combat_aerial_vehicle), [AFV](https://app.gitbook.com/u/3aNONh26PSPQngxI26whadEBSbz2), Miscellaneous, IEDs, IED Incidents, Terrorist Groups&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2025-09-15 072220.png" alt=""><figcaption><p> Search categories for EO on the landing page of the tool. </p></figcaption></figure>
 
@@ -521,7 +521,6 @@ Collective Awareness to Unexploded Ordnance (CAT-UXO), UK
 | Page maintainer |
 | --------------- |
 | Afton           |
-|                 |
 
 
 
