@@ -87,7 +87,7 @@ The interface also uses GUI-driven filtering without Boolean operators. This all
 
 <figure><img src=".gitbook/assets/2025-09-15_09-44-27-ed.png" alt=""><figcaption><p>Search results can be further refined by more filtering options, as seen above the search results. Once a user has entered the results page for the initial query, a filtering option becomes available. </p></figcaption></figure>
 
-An additional list of filtering options is found in the expandables.&#x20;
+An additional list of filtering options can be found in the expandables.&#x20;
 
 <details>
 
