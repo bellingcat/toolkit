@@ -490,7 +490,7 @@ Note on Accuracy:&#x20;
 3. Limited multilingual support - Insufficient foreign names or markings and local terminology for international search matching. This may be critical for those working with Soviet, Chinese, or any locally-manufactured ordnance with local designations.&#x20;
 4. Restricted filtering options - No filters for color, shape, and other potentially useful physical features, which may be helpful if beginners do not have a background in ordnance. &#x20;
 5. Images of intact EO vs. Remnants of EO – The site has limited images of EO on the battlefield or that are shown in fragments. Open-source investigators who look at social media to determine types of EO used in conflict are usually confronted with pieces of EO fragments or partial images. They are most likely seeing EO partially buried or obscured in conflict zones. It is helpful to filter based on what can be observed in this limited context, such as color, shape, and markings. However, to mitigate this, paid users can sometimes access additional information from    contributors/other paid members, which may include social media images from conflict zones or images that show EO in partial form.&#x20;
-6. No offline functionality - Absence of an offline version creates challenges for field users with limited connectivity (unlike, for example, Bulletpicker.com)&#x20;
+6. No offline functionality - Absence of an offline version creates challenges for field users with limited connectivity (unlike, for example, [Bulletpicker.com](https://bellingcat.gitbook.io/toolkit/more/all-tools/bulletpicker.com))&#x20;
 7. It's unclear what quality requirements CAT-UXO has for contributors or how they review information before adding it to the database.
 
 ## Ethical Considerations
