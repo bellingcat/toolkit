@@ -85,7 +85,7 @@ Example:  “anti-tank” ([the common EO term referring to a purpose or functio
 
 The interface also uses GUI-driven filtering without Boolean operators. This allows users to refine searches further using a dropdown filtering menu rather than advanced search syntax.&#x20;
 
-<figure><img src=".gitbook/assets/2025-09-15_09-44-27-ed.png" alt=""><figcaption><p>Search results can further be refined by more filtering options, as seen above the search results. Once entering the results page for the initial query, a filtering option becomes available. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-09-15_09-44-27-ed.png" alt=""><figcaption><p>Search results can be further refined by more filtering options, as seen above the search results. Once a user has entered the results page for the initial query, a filtering option becomes available. </p></figcaption></figure>
 
 An additional list of filtering options is found in the expandables.&#x20;
 
