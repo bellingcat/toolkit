@@ -10,7 +10,7 @@ description: >-
 
 {% embed url="https://clean.calmatters.org/" %}
 
-## Description \[Afton]
+## Description
 
 [The Police Record Access Project is a publicly searchable database containing previously confidential records on shootings by law enforcement officers, law enforcement misconduct, and serious uses of force in the State of California.](https://clean.calmatters.org/about)  The tool aims to [provide transparency](https://news.stanford.edu/stories/2025/09/police-records-access-project-searchable-database-law-enforcement-transparency) into some of the statewide law enforcement records. It was made possible by California’s transparency laws  (SB 1421 and SB 16). This centralized database also solves the challenge of having to file a public records request via numerous individual agencies.&#x20;
 
@@ -99,9 +99,9 @@ Each case provides access to the original, redacted PDF documents. In each case,
 
 <figure><img src=".gitbook/assets/unknown (1).png" alt=""><figcaption><p>When clicking on a specific search result, users are shown the list of documents associated with that case. Note the search bar that searches documents specific to the case in question. </p></figcaption></figure>
 
-* Might be worth mentioning the National Police Index [https://national.cpdp.co/state/California](https://national.cpdp.co/state/California) to look up further info about officers
-
-##
+{% hint style="info" %}
+TIP: Users can also cross check search results with the [National Police Index](https://national.cpdp.co/state/California) of California to look up further info about officers.
+{% endhint %}
 
 ## Cost
 
@@ -113,13 +113,13 @@ Each case provides access to the original, redacted PDF documents. In each case,
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
-## Requirements \[Afton]
+## Requirements
 
 Modern web browser
 
 PDF reader
 
-## Limitations \[Fraser]
+## Limitations&#x20;
 
 * Although the database is updated every 24 hours it currently only contains records from 2015 to 2023.&#x20;
 * The dataset does not include all use-of-force cases. Only two types of use-of-force incidents are covered in the database:
@@ -139,19 +139,15 @@ PDF reader
 <figure><img src=".gitbook/assets/2025-09-21_21-18-37-limitation.png" alt=""><figcaption><p>This is a caveat at the bottom of the main search results - and a graphic content warning that is not easy to find.</p></figcaption></figure>
 
 * Be aware that records may change or be updated: "Information about a case can change as agencies submit new or updated records" is specified on the top of the search bar.&#x20;
-*   CHECK:&#x20;
+* The tool shows a limitation in how it records or displays dates, since it is unclear whether the date provided refers to the incident, the request, or another point in time. For example, [one record](https://clean.calmatters.org/cases/1743019578959-kdy) lists the date as October 31, 2023, but the[ underlying document](https://cleanpdfs.blob.core.windows.net/pdfs/74/28/04/742804475f8535e404fa8eae232a8b80d1cf31f6) cites an incident date of September 2014. This inconsistency makes it difficult to determine which event the system’s listed date is actually tied to, reducing clarity and reliability for users reviewing case information.
 
-    * Date? What is it of? The incident? Or the date it was requested? –unclear and unspecified \[Afton]
-
-    i.e. This one says: 10/31/2023 [https://clean.calmatters.org/cases/1743019578959-kdy](https://clean.calmatters.org/cases/1743019578959-kdy) – but incident date on the doc says September 2014 [https://cleanpdfs.blob.core.windows.net/pdfs/74/28/04/742804475f8535e404fa8eae232a8b80d1cf31f6](https://cleanpdfs.blob.core.windows.net/pdfs/74/28/04/742804475f8535e404fa8eae232a8b80d1cf31f6)
-
-## Ethical Considerations \[Fraser]
+## Ethical Considerations&#x20;
 
 * Privacy and harm - although victim data is redacted it may still be possible to identify a victim though the incident itself so caution should be exercised in how the data is used. &#x20;
 * Some documents contain text or images some people might consider sensitive or disturbing.
 * Accuracy - possible errors in data mean that any data should be independently verified.
 
-## Guides and articles \[Afton]
+## Guides and articles
 
 ### Articles
 
@@ -168,7 +164,7 @@ PDF reader
 
 
 
-## Tool providers \[Afton]
+## Tool providers&#x20;
 
 Based on [this](https://clean.calmatters.org/about#Who-we-are):
 
@@ -204,7 +200,7 @@ Based on [this](https://clean.calmatters.org/about#Who-we-are):
 
 [UC Irvine School of Law](https://www.law.uci.edu/)
 
-## Similar tools \[Afton]
+## Similar tools
 
 
 
