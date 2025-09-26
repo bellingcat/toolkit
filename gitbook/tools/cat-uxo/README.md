@@ -41,9 +41,7 @@ For each unique model, the database provides images of the EO and a detailed des
 
 ### EO TYPES AND EXPLAINERS
 
-CAT-UXO groups its information according to 16 EO Types. It also provides introductory information for some of these EO types geared toward beginner users. However, this information is not easy to find in the user interface. To do so,  click on EO Type and then click on the top results with the EO icon.&#x20;
-
-As of now, only these types of EO have introductory information, mostly sourced from Wikipedia: [Landmines](https://cat-uxo.com/explosive-hazards/landmines/01-landmine); [Submunitions](https://cat-uxo.com/explosive-hazards/submunitions/01-submunition); Grenade ([Hand Grenade](https://cat-uxo.com/explosive-hazards/grenades/01-hand-grenade) and [Projected Grenade](https://cat-uxo.com/explosive-hazards/grenades/02-projected-grenade)); [Rocket](https://cat-uxo.com/explosive-hazards/rockets/01-rocket);  [Fuze](https://cat-uxo.com/explosive-hazards/fuzes/01-fuze) ([Delay Fuze](https://cat-uxo.com/explosive-hazards/fuzes/03-delay-fuze), [Pibd](https://cat-uxo.com/explosive-hazards/fuzes/04-pibd), [AWAF](https://cat-uxo.com/explosive-hazards/fuzes/05-awaf), [Firing Pin](https://cat-uxo.com/explosive-hazards/fuzes/06-firing-pin)) &#x20;
+CAT-UXO groups its information according to 16 EO Types. It also provides introductory information for some of these EO types geared toward beginner users. However, this information is not easy to find on the user interface. To find this information, click on EO Type and then click on the top results with the EO icon.&#x20;
 
 See below for steps in finding explainers.
 
@@ -64,6 +62,8 @@ If available for that category, click on the first result, with the icon identic
 <figure><img src=".gitbook/assets/2025-09-16_14-19-50st.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
+
+As of now, only these types of EO have introductory information, mostly sourced from Wikipedia: [Landmines](https://cat-uxo.com/explosive-hazards/landmines/01-landmine); [Submunitions](https://cat-uxo.com/explosive-hazards/submunitions/01-submunition); Grenade ([Hand Grenade](https://cat-uxo.com/explosive-hazards/grenades/01-hand-grenade) and [Projected Grenade](https://cat-uxo.com/explosive-hazards/grenades/02-projected-grenade)); [Rocket](https://cat-uxo.com/explosive-hazards/rockets/01-rocket);  [Fuze](https://cat-uxo.com/explosive-hazards/fuzes/01-fuze) ([Delay Fuze](https://cat-uxo.com/explosive-hazards/fuzes/03-delay-fuze), [Pibd](https://cat-uxo.com/explosive-hazards/fuzes/04-pibd), [AWAF](https://cat-uxo.com/explosive-hazards/fuzes/05-awaf), [Firing Pin](https://cat-uxo.com/explosive-hazards/fuzes/06-firing-pin)) &#x20;
 
 ### SEARCHING FOR EO
 
