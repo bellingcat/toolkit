@@ -41,9 +41,7 @@ For each unique model, the database provides images of the EO and a detailed des
 
 ### EO TYPES AND EXPLAINERS
 
-CAT-UXO groups its information according to 16 EO Types. It also provides introductory information for some of these EO types geared toward beginner users. However, this information is not easy to find on the user interface. To find this information, click on EO Type and then click on the top results with the EO icon.&#x20;
-
-See below for steps in finding explainers.
+CAT-UXO groups its information according to 16 EO Types. It also provides introductory information for some of these EO types geared toward beginner users. However, this information is not easy to find on the user interface. To find this information, click on EO Type and then click on the top results with the EO icon:
 
 {% stepper %}
 {% step %}
