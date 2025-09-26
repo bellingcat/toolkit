@@ -79,7 +79,7 @@ The system seems to search both the textual descriptions and visual identifiers,
 
 Example:  “anti-tank” ([the common EO term referring to a purpose or function of ordnance)](https://www.smallarmssurvey.org/sites/default/files/resources/SAS-Research-Note-16.pdf) returns more results than “anti tank” without the hyphen since it’s more likely to appear in formal descriptions.&#x20;
 
-* Foreign Language Search: Based on our tests, it can search using the Cyrillic alphabet if the characters appear in the title or description&#x20;
+* Foreign Language Search: Based on our tests, it can search using the Cyrillic alphabet if the characters appear in the title or description.
 
 #### DROP-DOWN FILTERING OPTIONS
 
