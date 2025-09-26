@@ -152,14 +152,15 @@ i.e. This one says: 10/31/2023 [https://clean.calmatters.org/cases/1743019578959
 
 ## Guides and articles \[Afton]
 
+### Articles
 
-
+* Lewis, S. and Small, J. (2024) _‘How to Kill a Cop’: Death, Despair and Corruption in California’s Most Violent Prison | KQED_. Available at: [https://www.kqed.org/news/12017652/how-to-kill-a-cop-death-despair-and-corruption-in-californias-most-violent-prison](https://www.kqed.org/news/12017652/how-to-kill-a-cop-death-despair-and-corruption-in-californias-most-violent-prison) (Accessed: 26 September 2025).
+* Solomon, M., Newsroom, M.K. of T.C. and KVCR, M.A. of (2023) _San Bernardino Police Involved In Fatal Shooting Of Fleeing Man Both Have Histories Of Alleged Excessive Force_, _LAist_. Available at: [https://laist.com/news/criminal-justice/san-bernardino-police-rob-adams-fatal-shooting-fleeing-man-michael-yeun-imran-ahmed](https://laist.com/news/criminal-justice/san-bernardino-police-rob-adams-fatal-shooting-fleeing-man-michael-yeun-imran-ahmed) (Accessed: 26 September 2025).
+* X _et al._ (2021) _What secret files on police officers tell us about law enforcement misconduct_, _Los Angeles Times_. Available at: [https://www.latimes.com/california/story/2021-03-19/sb-1421-sheriffs-department-disclosure](https://www.latimes.com/california/story/2021-03-19/sb-1421-sheriffs-department-disclosure) (Accessed: 26 September 2025).
 * Lampros, A. (2025) ‘A new database on police use of force and misconduct in California makes public 1.5 million pages of once-secret police records’, _UC Berkeley Journalism_, 4 August. Available at: [https://journalism.berkeley.edu/police-records-access/](https://journalism.berkeley.edu/police-records-access/) (Accessed: 7 September 2025).
 * _Thousands of formerly secret files on police misconduct now public in California through searchable database | The Independent_ (no date). Available at: [https://www.independent.co.uk/news/world/americas/crime/california-police-misconduct-database-b2801901.html](https://www.independent.co.uk/news/world/americas/crime/california-police-misconduct-database-b2801901.html) (Accessed: 7 September 2025).
 
-
-
-### **Video Tutorials**
+### **Video**&#x20;
 
 * _Learn about the Police Records Access Project_ (2025). Available at: [https://www.youtube.com/watch?v=ZxNJ\_4Io-KQ](https://www.youtube.com/watch?v=ZxNJ_4Io-KQ) (Accessed: 17 September 2025).
 * _Inside California’s new police records database | KTVU_ (2025). Available at: [https://www.youtube.com/watch?v=svPcA5XvJ6U](https://www.youtube.com/watch?v=svPcA5XvJ6U) (Accessed: 17 September 2025).
