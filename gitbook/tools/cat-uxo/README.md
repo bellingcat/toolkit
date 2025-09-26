@@ -47,7 +47,7 @@ CAT-UXO groups its information according to 16 EO Types. It also provides introd
 {% step %}
 ### Click on the EO Type&#x20;
 
-On the landing page, click on the icon of the EO type you are searching for
+On the landing page, click on the icon of the EO type you are searching for.
 
 <figure><img src=".gitbook/assets/2025-09-16_12-58-36-st.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
@@ -55,7 +55,7 @@ On the landing page, click on the icon of the EO type you are searching for
 {% step %}
 ### Click on the first result
 
-If available for that category, click on the first result, with the icon identical to the EO type of icon. I.e. The rocket icon will look the same on the results page. &#x20;
+If available for that category, click on the first result, with the icon identical to the EO type of icon. For example, you can see that the rocket icon looks the same as on the results page. &#x20;
 
 <figure><img src=".gitbook/assets/2025-09-16_14-19-50st.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
