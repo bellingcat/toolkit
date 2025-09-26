@@ -478,9 +478,6 @@ Important main differences between the public and paid account, are as follows:
 
 User interface difficulty is level 2 as searching and filtering are mostly intuitive
 
-\
-
-
 ## Requirements
 
 Payment and login required for paid version. Technical subject matter knowledge may be helpful when using the tool.&#x20;
