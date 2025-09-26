@@ -1,5 +1,6 @@
 ---
 description: Real-time weather satellites of the entire globe
+updated: '2025-09-25'
 ---
 
 # RAMMB SLIDER
