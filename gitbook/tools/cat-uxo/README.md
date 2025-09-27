@@ -2,6 +2,7 @@
 description: >-
   A repository for professionals working in the explosive ordnance disposal
   (EOD) space.
+updated: '2025-09-26'
 ---
 
 # CAT-UXO
