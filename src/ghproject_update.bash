@@ -24,28 +24,30 @@ do
       status_value=$REVIEW_OPTION_ID
       ;;
   esac
-  # set status
-  echo "Set status: $status_value"
-  gh api graphql -f query='
-    mutation (
-      $project: ID!
-      $item: ID!
-      $status_field: ID!
-      $status_value: String!
-    ) {
-      set_status: updateProjectV2ItemFieldValue(input: {
-        projectId: $project
-        itemId: $item
-        fieldId: $status_field
-        value: {
-          singleSelectOptionId: $status_value
+  if [[ "$status_name" != "null" ]]; then
+    # set status
+    echo "Set status: $status_value"
+    gh api graphql -f query='
+      mutation (
+        $project: ID!
+        $item: ID!
+        $status_field: ID!
+        $status_value: String!
+      ) {
+        set_status: updateProjectV2ItemFieldValue(input: {
+          projectId: $project
+          itemId: $item
+          fieldId: $status_field
+          value: {
+            singleSelectOptionId: $status_value
+          }
+        }) {
+          projectV2Item {
+            id
+          }
         }
-      }) {
-        projectV2Item {
-          id
-        }
-      }
-    }' -f project=$PROJECT_ID -f item=$item_id -f status_field=$STATUS_FIELD_ID -f status_value=$status_value --silent
+      }' -f project=$PROJECT_ID -f item=$item_id -f status_field=$STATUS_FIELD_ID -f status_value=$status_value --silent
+  fi
   if [[ "$published" = true ]]; then
     # set published
     echo "Set published: $PUBLISHED_TRUE_OPTION_ID"

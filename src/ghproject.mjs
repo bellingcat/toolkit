@@ -30,7 +30,7 @@ const items = JSON.parse(fs.readFileSync('project_items.json', 'utf-8')).map(fun
 });
 
 tools.forEach(async function(tool) {
-  let changed = false;
+  let changed = {};
   const space = findSpace(tool.title);
   if (!space) {
     return;
@@ -42,41 +42,39 @@ tools.forEach(async function(tool) {
   }
 
   if (item.space !== space.urls.app) {
-    item.space = space.urls.app;
-    changed = true;
+    changed.space = space.urls.app;
   }
 
   if (tool.updated && item.updatedAt !== tool.updated) {
-    item.updatedAt = tool.updated;
-    changed = true;
+    changed.updatedAt = tool.updated;
   }
 
   if (summary.match(path.relative('gitbook/', tool.filepath))) {
     if (!item.published) {
-      item.published = true;
-      changed = true;
+      changed.published = true;
     }
   }
 
   if (space.changeRequestsOpen) {
     if (item.status !== "Review Requested" && item.status != "Editing in Progress") {
-      item.status = "Review Requested";
-      changed = true;
+      changed.status = "Review Requested";
     }
     const changeRequests = await fetchChangeRequests(space);
     const request = changeRequests.items[0];
+
+    if (!request) {return;} // edge case: discrepency between space state and CR states
+
     const date = formatDate(request.updatedAt);
     if (item.date_submitted !== date) {
-      item.date_submitted = date
-      changed = true;
+      changed.date_submitted = date
     }
     if (item.url !== request.urls.app) {
-      item.url = request.urls.app;
-      changed = true;
+      changed.url = request.urls.app;
     }
   }
-  if (changed) {
-    console.log(JSON.stringify(item));
+  if (Object.keys(changed).length > 0) {
+    changed.id = item.id;
+    console.log(JSON.stringify(changed));
   }
 
 });
