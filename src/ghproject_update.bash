@@ -50,7 +50,7 @@ do
   fi
   if [[ "$published" = true ]]; then
     # set published
-    echo "Set published: $PUBLISHED_TRUE_OPTION_ID"
+    echo "Set published true"
     gh api graphql -f query='
       mutation (
         $project: ID!
@@ -97,7 +97,7 @@ do
       }' -f project=$PROJECT_ID -f item=$item_id -f url_field=$SPACE_URL_FIELD_ID -f url_value=$space --silent
   fi
   if [[ "$date_updated" != "null" ]]; then
-    echo $date_updated
+    echo "Set updated: $date_updated"
     gh api graphql -f query='
       mutation (
         $project: ID!
@@ -120,7 +120,7 @@ do
       }' -f project=$PROJECT_ID -f item=$item_id -f date_field=$UPDATED_DATE_FIELD_ID -f date_value=$date_updated  --silent
   fi
   if [[ "$date_submitted" != "null" ]]; then
-    echo "Update item $item_id in project $PROJECT_ID date_field $DATE_FIELD_ID url_field $URL_FIELD_ID"
+    echo "Update date_submitted $date_submitted url $url"
     gh api graphql -f query='
       mutation (
         $project: ID!
