@@ -58,7 +58,7 @@ do
         $status_field: ID!
         $status_value: String!
       ) {
-        set_status: updateProjectV2ItemFieldValue(input: {
+        set_published: updateProjectV2ItemFieldValue(input: {
           projectId: $project
           itemId: $item
           fieldId: $status_field
