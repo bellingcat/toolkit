@@ -1,8 +1,8 @@
 ---
+updated: '2025-08-31'
 description: >-
   A tool for analyzing content replication and site architecture to detect
   information laundering.
-updated: '2025-08-31'
 ---
 
 # The Information Laundromat
@@ -21,7 +21,7 @@ Information Laundromat is an open-source **lead generation tool** designed for i
 * Uses multiple sources—such as the [**Global Database of Events, Language, and Tone (GDELT)**](https://www.gdeltproject.org/), various search engines, and the [**Copyscape** ](https://www.copyscape.com/)plagiarism detection service—to identify near-duplicate or highly similar content. (Note: **GDELT** is a global database that logs worldwide broadcasts/online news, and **Copyscape** checks plagiarism by comparing text across its index.)
 * Provides similarity scores (e.g., 97% for near-identical copies) to help investigators see which sites replicate or closely mimic the queried text.
 * **Content Similarity** compares a URL, title or text snippet against search engines, GDELT and Copyscape, returning a match score; items scoring around **70%+** are often the most actionable leads
-* **Craig Silverman** (2024, [_Digital Investigations_](https://digitalinvestigations.substack.com/p/a-look-at-the-information-laundromat)) describes the Laundromat as “one of the newest and most interesting free website analysis tools I’ve come across,” and notes how ASD used it to detect repeated reprinting of Russia Today (RT) content.
+* **Craig Silverman** (2024, [Indicator](https://indicator.media/p/a-look-at-the-information-laundromat)) describes the Laundromat as “one of the newest and most interesting free website analysis tools I’ve come across,” and notes how ASD used it to detect repeated reprinting of Russia Today (RT) content.
 * According to Silverman’s interview with the tool’s developer, Peter Benzoni, items scoring [**70% or higher**](https://digitalinvestigations.substack.com/p/a-look-at-the-information-laundromat) on content similarity are “likely to be most of interest.”
 
 {% tabs %}
@@ -61,7 +61,7 @@ Scans domains to find shared infrastructure, such as [**IP addresses**](https://
     Adobe Analytics uses a unique ID to track site traffic and user behavior. If two sites share the same ID, it can suggest that a single entity or marketing team manages both. However, agencies managing multiple clients might reuse IDs, causing false positives.
 2.  **Domain Certificate (`1-cert-domain`)**
 
-    An SSL/TLS certificate authenticating a website’s identity for secure (HTTPS) connections. If a single certificate explicitly covers two or more domains, it is typically strong evidence they share ownership or management. \
+    An SSL/TLS certificate authenticating a website’s identity for secure (HTTPS) connections. If a single certificate explicitly covers two or more domains, it is typically strong evidence they share ownership or management.\
     However, DDoS protection services and Content Delivery Networks (CDNs) sometimes issue “universal” or “shared” certificates to multiple unrelated sites. These platforms, such as Cloudflare or Akamai, are designed to shield websites from Distributed denial-of-service (DDoS) attacks, which can overwhelm a site’s servers with malicious traffic. Similarly, CDNs are networks of servers distributed globally that cache and deliver web content (e.g., images and scripts) closer to end users, improving performance and reducing load times.
 3.  **Cryptocurrency Wallet (`1-crypto-wallet`)**
 
@@ -82,7 +82,7 @@ Scans domains to find shared infrastructure, such as [**IP addresses**](https://
     A unique identifier in Google Analytics for tracking site visitors. Shared Google Analytics IDs strongly hint at common site administration. However, third-party services or marketing agencies may reuse an ID, so confirm with additional indicators if possible.
 8.  **Google Analytics Tag ID (`1-ga_tag_id`)**
 
-    &#x20;A tag ID for Google Analytics events or user interactions, supplementing or refining the overall GA tracking. Similar to a general GA ID, a shared tag ID may indicate common ownership or marketing. Again, watch out for agencies or widely used templates that could cause overlaps.
+    A tag ID for Google Analytics events or user interactions, supplementing or refining the overall GA tracking. Similar to a general GA ID, a shared tag ID may indicate common ownership or marketing. Again, watch out for agencies or widely used templates that could cause overlaps.
 9.  **IP Address (`1-ip`)**
 
     A unique numeric identifier for a device or server on the internet. Shared IP addresses can reflect typical hosting or even the same physical server. However, **dynamic IP** allocation or large **shared hosting** environments make this a partial indicator; many unrelated sites can share one IP.
@@ -98,7 +98,7 @@ Scans domains to find shared infrastructure, such as [**IP addresses**](https://
 
 <details>
 
-<summary><strong>Tier 2</strong>: Moderate indicators  requiring more verification.</summary>
+<summary><strong>Tier 2</strong>: Moderate indicators requiring more verification.</summary>
 
 1.  **Ads.txt File (`2-ads_txt`)**
 
@@ -238,7 +238,7 @@ Scans domains to find shared infrastructure, such as [**IP addresses**](https://
     The URLs listed in a site’s sitemap.xml (an XML file for search engine indexing) are used for SEO or site indexing. Overlapping or identical sitemaps can suggest a shared approach or direct copying. Still, standard templates can generate similar structures.
 29. **Telegram Link (`3-telegram`)**\
     A link to **Telegram** (a chat/messaging platform) channels or posts.\
-    &#x20;Similar to other social links, it may indicate a shared Telegram community or operator. However, Telegram is widely used, so handle it as a supporting detail, not primary proof.
+    Similar to other social links, it may indicate a shared Telegram community or operator. However, Telegram is widely used, so handle it as a supporting detail, not primary proof.
 30. **Twitter Link (`3-twitter`)**\
     A link to a **Twitter** (a major social media platform) profile or tweet. Common or popular tweets/profiles might appear on many sites. If the same **unusual** handle or tweet is referenced, that’s more meaningful.
 31. **UUID (`3-uuid`)**\
@@ -253,7 +253,7 @@ Scans domains to find shared infrastructure, such as [**IP addresses**](https://
     Using the same WHOIS server often just means the same TLD or registrar, not necessarily a real connection.
 35. **WordPress Blocks (`3-wp-blocks`)**\
     Content blocks used in the **WordPress block editor** (nicknamed Gutenberg). Shared or custom WordPress blocks can suggest a common theme or developer, but default blocks are universal in WordPress sites.
-36. **WordPress Categories (`3-wp-categories`)** \
+36. **WordPress Categories (`3-wp-categories`)**\
     WordPress uses taxonomic “categories” to organize posts by topic. Identical category structures could indicate a cloned or commonly owned site, but generic categories (e.g., “News,” “Politics,” etc.) are too common to assume a link.
 37. **WordPress Pages (`3-wp-pages`)**\
     Static or special “pages” in **WordPress** (different from blog posts). Overlapping or identical page structures might point to a shared template or theme. Popular themes can produce coincidental parallels across many sites.
@@ -297,10 +297,10 @@ To identify websites that replicate or closely match specific content, helping t
    * For instance, to track the spread of a particular article, input its exact URL or a key excerpt.
 2. **Adjust Search Options**
    * **Country & Language**: If supported by the chosen search engines, narrow your query to specific regions or languages.
-   * **Search Engines & Databases**: Pick from [GDELT](https://www.gdeltproject.org/), [Copyscape](https://www.copyscape.com/), and other engines.&#x20;
+   * **Search Engines & Databases**: Pick from [GDELT](https://www.gdeltproject.org/), [Copyscape](https://www.copyscape.com/), and other engines.
 3. **Review Results**
    * [Results appear with **similarity scores**](https://informationlaundromat.com/dashboard) (e.g., 97% means near-duplicate).
-   * According to the developer Peter Benzoni (via Craig Silverman’s [interview](https://digitalinvestigations.substack.com/p/a-look-at-the-information-laundromat)), a 70% or higher similarity rating usually indicates that content is heavily replicated.
+   * According to the developer Peter Benzoni (via Craig Silverman’s [interview](https://indicator.media/p/a-look-at-the-information-laundromat)), a 70% or higher similarity rating usually indicates that content is heavily replicated.
    * If there are many hits, you can **export** them (e.g., .csv or .xlsx) for further filtering or pivot table analysis. (Excel pivot tables help by grouping data by domain or score.)
 4. **Interpret Carefully**
    * High similarity among multiple sites may imply a broader content-laundering network.
@@ -331,17 +331,11 @@ To identify websites that replicate or closely match specific content, helping t
    * Export results to cross-check using external OSINT platforms like [DNSlytics](https://dnslytics.com/), or passive DNS providers. **Passive DNS providers** log and display historical DNS data—like past IP addresses, name server changes, or subdomains—over time. These archives allow investigators to piece together domain ownership changes, prior hosting details, and hidden network relationships that typical live DNS lookups may no longer reveal.
    * Investigators should integrate these findings with manual verification.
 
-
-
-
-
 ## Cost
 
 * [x] Free
 * [ ] Partially Free
 * [ ] Paid
-
-
 
 ## Level of difficulty
 
@@ -349,7 +343,7 @@ To identify websites that replicate or closely match specific content, helping t
 
 ## Requirements
 
-* **Account Registration** (with a provided code) for batch features is done via email after validation.&#x20;
+* **Account Registration** (with a provided code) for batch features is done via email after validation.
 * Familiarity with domain analysis, IP addresses, and analytics tools is recommended.
 
 ## Limitations
@@ -365,11 +359,11 @@ To identify websites that replicate or closely match specific content, helping t
 
 ## Guides and articles
 
-Silverman, C. (2024, September 5). A look at the Information Laundromat website analysis tool \[Substack newsletter]. _Digital Investigations_. [https://digitalinvestigations.substack.com/p/a-look-at-the-information-laundromat](https://digitalinvestigations.substack.com/p/a-look-at-the-information-laundromat) (discusses how the tool was applied in ASD’s research into RT content laundering and interviews the tool’s developer, Peter Benzoni).
+Silverman, C. (2024, September 5). A look at the Information Laundromat website analysis tool \[Substack newsletter]. _Indicator_. [https://indicator.media/p/a-look-at-the-information-laundromat](https://indicator.media/p/a-look-at-the-information-laundromat) (discusses how the tool was applied in ASD’s research into RT content laundering and interviews the tool’s developer, Peter Benzoni).
 
 ## Tool provider
 
-[Alliance for Securing Democracy (German Marshall Fund](https://securingdemocracy.gmfus.org/) of the United States),&#x20;
+[Alliance for Securing Democracy (German Marshall Fund](https://securingdemocracy.gmfus.org/) of the United States),
 
 [Institute for Strategic Dialogue](https://www.isdglobal.org/) (based in the UK)
 
