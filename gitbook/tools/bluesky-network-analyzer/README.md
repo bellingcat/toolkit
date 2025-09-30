@@ -5,7 +5,7 @@ description: >-
   social graph analysis.
 ---
 
-# BskyFollowFinder/Bluesky network analyzer
+# BskyFollowFinder
 
 ## URL
 
@@ -16,6 +16,8 @@ description: >-
 BskyFollowFinder is a web-based tool that identifies **second-degree connections** on Bluesky—specifically, it finds accounts that are followed by the people you follow but that you haven’t followed yourself. By leveraging Bluesky’s [AT Protocol API](https://docs.bsky.app/docs/advanced-guides/atproto), the tool automates social network analysis to recommend potential new follows. This provides valuable insight into your network by ranking suggestions based on the frequency they appear among your followees.
 
 This functionality can be useful for open source researchers, investigative journalists, and analysts who need to map social relationships, identify key influencers, and understand community structures on the platform.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### Key Features:
 
