@@ -1611,7 +1611,7 @@
     "object": "team",
     "id": "Q163QrMgwIDMWtYPE1qy",
     "title": "Gongsi",
-    "members": 1,
+    "members": 2,
     "spaces": 1,
     "createdAt": "2025-06-20T17:07:04.836Z",
     "permissions": {
@@ -1779,7 +1779,7 @@
     "object": "team",
     "id": "So5K3EthknYYP5Jpxw6L",
     "title": "China-related resources",
-    "members": 0,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-09-10T10:45:25.892Z",
     "permissions": {
@@ -1923,7 +1923,7 @@
     "object": "team",
     "id": "W8EcOMhaTt7YT9BumqoA",
     "title": "Skopenow",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2024-09-25T13:21:19.153Z",
     "permissions": {
@@ -2235,7 +2235,7 @@
     "object": "team",
     "id": "bGvvonW5QcppL2JFDATi",
     "title": "Locust Hub",
-    "members": 0,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2025-06-30T10:21:39.178Z",
     "permissions": {
@@ -2619,7 +2619,7 @@
     "object": "team",
     "id": "iiwandq96eYFPR4117eX",
     "title": "Hunchly",
-    "members": 2,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-04-03T19:20:31.078Z",
     "permissions": {
@@ -2631,7 +2631,7 @@
     "object": "team",
     "id": "irsem9FAqebD8m2CiqmT",
     "title": "Aqueduct Water Risk Atlas",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2024-11-26T13:30:42.382Z",
     "permissions": {
@@ -3267,7 +3267,7 @@
     "object": "team",
     "id": "tG4a7jdDPpOwxdc9CaCb",
     "title": "Index Database",
-    "members": 2,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-03-30T03:08:28.670Z",
     "permissions": {
@@ -3315,7 +3315,7 @@
     "object": "team",
     "id": "uS6B43ZKCy654447MlQG",
     "title": "Global Forest Watch",
-    "members": 2,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-03-28T20:35:27.377Z",
     "permissions": {
