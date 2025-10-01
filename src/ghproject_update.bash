@@ -1,9 +1,86 @@
 #!/bin/bash
 
-# Calls gh cli to update a project item
-# Sets the value of the `Status` field
-# Sets the value of the `Date submitted` field.'
-# Sets the value of the `URL` field.'
+# Calls gh cli to update fields on a project item
+
+# Sets the value of a text field
+set_text_field() {
+  item_id=$1
+  field_id=$2
+  field_value=$3
+  echo "Set text field $1 $2 $3"
+  gh api graphql -f query='
+    mutation (
+      $project: ID!
+      $item: ID!
+      $field: ID!
+      $value: String!
+    ) {
+      set_text: updateProjectV2ItemFieldValue(input: {
+        projectId: $project
+        itemId: $item
+        fieldId: $field
+        value: {
+          text: $value
+        }
+      }) {
+        projectV2Item {
+          id
+        }
+      }
+    }' -f project=$PROJECT_ID -f item=$item_id -f field=$field_id -f value=$field_value --silent
+}
+
+set_select_field() {
+  item_id=$1
+  field_id=$2
+  field_value=$3
+  gh api graphql -f query='
+    mutation (
+      $project: ID!
+      $item: ID!
+      $status_field: ID!
+      $status_value: String!
+    ) {
+      set_status: updateProjectV2ItemFieldValue(input: {
+        projectId: $project
+        itemId: $item
+        fieldId: $status_field
+        value: {
+          singleSelectOptionId: $status_value
+        }
+      }) {
+        projectV2Item {
+          id
+        }
+      }
+    }' -f project=$PROJECT_ID -f item=$item_id -f status_field=$field_id -f status_value=$field_value --silent
+}
+
+set_date_field () {
+  item_id=$1
+  field_id=$2
+  field_value=$3
+  gh api graphql -f query='
+    mutation (
+      $project: ID!
+      $item: ID!
+      $date_field: ID!
+      $date_value: Date!
+    ) {
+      set_date: updateProjectV2ItemFieldValue(input: {
+        projectId: $project
+        itemId: $item
+        fieldId: $date_field
+        value: {
+          date: $date_value
+        }
+      }) {
+        projectV2Item {
+          id
+        }
+      }
+    }' -f project=$PROJECT_ID -f item=$item_id -f date_field=$field_id -f date_value=$field_value  --silent
+}
 while read -r project_item
 do
   echo $project_item
@@ -14,6 +91,8 @@ do
   published=$(echo $project_item | jq -r '.published')
   url=$(echo $project_item | jq -r '.url')
   space=$(echo $project_item | jq -r '.space')
+  author=$(echo $project_item | jq -r '.changeRequestAuthor')
+  reviewers=$(echo $project_item | jq -r '.reviewers')
   status_name=$(echo $project_item | jq -r '.status')
   status_value=""
   case $status_name in
@@ -27,133 +106,35 @@ do
   if [[ "$status_name" != "null" ]]; then
     # set status
     echo "Set status: $status_value"
-    gh api graphql -f query='
-      mutation (
-        $project: ID!
-        $item: ID!
-        $status_field: ID!
-        $status_value: String!
-      ) {
-        set_status: updateProjectV2ItemFieldValue(input: {
-          projectId: $project
-          itemId: $item
-          fieldId: $status_field
-          value: {
-            singleSelectOptionId: $status_value
-          }
-        }) {
-          projectV2Item {
-            id
-          }
-        }
-      }' -f project=$PROJECT_ID -f item=$item_id -f status_field=$STATUS_FIELD_ID -f status_value=$status_value --silent
+    set_select_field $item_id "$STATUS_FIELD_ID" $status_value
   fi
   if [[ "$published" = true ]]; then
     # set published
     echo "Set published true"
-    gh api graphql -f query='
-      mutation (
-        $project: ID!
-        $item: ID!
-        $status_field: ID!
-        $status_value: String!
-      ) {
-        set_published: updateProjectV2ItemFieldValue(input: {
-          projectId: $project
-          itemId: $item
-          fieldId: $status_field
-          value: {
-            singleSelectOptionId: $status_value
-          }
-        }) {
-          projectV2Item {
-            id
-          }
-        }
-      }' -f project=$PROJECT_ID -f item=$item_id -f status_field=$PUBLISHED_FIELD_ID -f status_value=$PUBLISHED_TRUE_OPTION_ID --silent
+    set_select_field $item_id "$PUBLISHED_FIELD_ID" $PUBLISHED_TRUE_OPTION_ID
 	fi
   if [[ "$space" != "null" ]]; then
-    # set space
     echo "Set space: $space"
-    gh api graphql -f query='
-      mutation (
-        $project: ID!
-        $item: ID!
-        $url_field: ID!
-        $url_value: String!
-      ) {
-        set_space: updateProjectV2ItemFieldValue(input: {
-          projectId: $project
-          itemId: $item
-          fieldId: $url_field
-          value: {
-            text: $url_value
-          }
-        }) {
-          projectV2Item {
-            id
-          }
-        }
-      }' -f project=$PROJECT_ID -f item=$item_id -f url_field=$SPACE_URL_FIELD_ID -f url_value=$space --silent
+    set_text_field $item_id "$SPACE_URL_FIELD_ID" $space
+  fi
+  if [[ "$author" != "null" ]]; then
+    echo "Set author: $author"
+    set_text_field $item_id "$AUTHOR_FIELD_ID" $author
+  fi
+  if [[ "$reviewers" != "null" ]]; then
+    echo "Set reviewers: $reviewers"
+    set_text_field $item_id "$REVIEWERS_FIELD_ID" $reviewers
   fi
   if [[ "$date_updated" != "null" ]]; then
     echo "Set updated: $date_updated"
-    gh api graphql -f query='
-      mutation (
-        $project: ID!
-        $item: ID!
-        $date_field: ID!
-        $date_value: Date!
-      ) {
-        set_date_updated: updateProjectV2ItemFieldValue(input: {
-          projectId: $project
-          itemId: $item
-          fieldId: $date_field
-          value: {
-            date: $date_value
-          }
-        }) {
-          projectV2Item {
-            id
-          }
-        }
-      }' -f project=$PROJECT_ID -f item=$item_id -f date_field=$UPDATED_DATE_FIELD_ID -f date_value=$date_updated  --silent
+    set_date_field $item_id "$UPDATED_DATE_FIELD_ID" $date_updated
   fi
   if [[ "$date_submitted" != "null" ]]; then
-    echo "Update date_submitted $date_submitted url $url"
-    gh api graphql -f query='
-      mutation (
-        $project: ID!
-        $item: ID!
-        $date_field: ID!
-        $date_value: Date!
-        $url_field: ID!
-        $url_value: String!
-      ) {
-        set_date_posted: updateProjectV2ItemFieldValue(input: {
-          projectId: $project
-          itemId: $item
-          fieldId: $date_field
-          value: {
-            date: $date_value
-          }
-        }) {
-          projectV2Item {
-            id
-          }
-        }
-        set_url: updateProjectV2ItemFieldValue(input: {
-          projectId: $project
-          itemId: $item
-          fieldId: $url_field
-          value: {
-            text: $url_value
-          }
-        }) {
-          projectV2Item {
-            id
-          }
-        }
-      }' -f project=$PROJECT_ID -f item=$item_id -f date_field=$DATE_FIELD_ID -f date_value=$date_submitted -f url_field=$URL_FIELD_ID -f url_value=$url  --silent
+    echo "Update date_submitted $date_submitted"
+    set_date_field $item_id "$DATE_FIELD_ID" $date_submitted
+  fi
+  if [[ "$url" != "null" ]]; then
+    echo "Update latest change request url $url"
+    set_text_field $item_id "$URL_FIELD_ID" $url
   fi
 done

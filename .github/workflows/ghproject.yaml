@@ -64,6 +64,8 @@ jobs:
           echo 'PUBLISHED_TRUE_OPTION_ID='$(jq -r '.data.organization.projectV2.fields.nodes[] | select(.name== "Published") | .options[] | select(.name=="True") |.id' project_data.json) >> $GITHUB_ENV
           echo 'UPDATED_DATE_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Last updated") | .id' project_data.json) >> $GITHUB_ENV
           echo 'SPACE_URL_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Tool Space") | .id' project_data.json) >> $GITHUB_ENV
+          echo 'REVIEWERS_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "CR Reviewers") | .id' project_data.json) >> $GITHUB_ENV
+          echo 'AUTHOR_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "CR Author") | .id' project_data.json) >> $GITHUB_ENV
 
 
       # Downloads all items from the project and adds missing ones
