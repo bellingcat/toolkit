@@ -62,14 +62,14 @@ tools.forEach(async function(tool) {
     const changeRequests = await fetchChangeRequests(space);
     const request = changeRequests.items[0];
 
-    if (!request) {return;} // edge case: discrepency between space state and CR states
-
-    const date = formatDate(request.updatedAt);
-    if (item.date_submitted !== date) {
-      changed.date_submitted = date
-    }
-    if (item.url !== request.urls.app) {
-      changed.url = request.urls.app;
+    if (request) {
+      const date = formatDate(request.updatedAt);
+      if (item.date_submitted !== date) {
+        changed.date_submitted = date
+      }
+      if (item.url !== request.urls.app) {
+        changed.url = request.urls.app;
+      }
     }
   }
   if (Object.keys(changed).length > 0) {
