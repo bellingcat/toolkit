@@ -342,6 +342,13 @@ async function fetchChangeRequests(space) {
   });
   return data;
 }
+
+async function fetchChangeRequestReviewers(space, changeRequest) {
+  const data = await apiCall(`https://api.gitbook.com/v1/spaces/${space.id}/change-requests/${changeRequest.id}/requested-reviewers`, {
+    method: 'GET'
+  });
+  return data;
+}
 function removeTool(toolName) {
   // Remove the tool directory
   if (fs.existsSync(`gitbook/tools/${toolName}`)) {
@@ -381,6 +388,7 @@ export default {
   fetchTeams,
   fetchSpaces,
   fetchChangeRequests,
+  fetchChangeRequestReviewers,
   findSpace,
   publishTool,
   removeTool,

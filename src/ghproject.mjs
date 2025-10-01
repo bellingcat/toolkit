@@ -3,7 +3,7 @@ import path from 'path'
 import pkg from './paths.mjs'
 const {getTools, getSummary} = pkg;
 import pkg2 from './tools.mjs'
-const {fetchChangeRequests, findSpace} = pkg2
+const {fetchChangeRequests, fetchChangeRequestReviewers, findSpace} = pkg2
 
 // Emits all changed project items in json with status info the repo and space
 const tools = getTools();
@@ -62,7 +62,21 @@ tools.forEach(async function(tool) {
     const changeRequests = await fetchChangeRequests(space);
     const request = changeRequests.items[0];
 
+    // edge case: discrepency between space state and CR states
     if (request) {
+      const changeRequestAuthor = request.createdBy.email;
+      if (item.changeRequestAuthor != changeRequestAuthor){
+        changed.changeRequestAuthor = changeRequestAuthor;
+      }
+
+      const reviewers = await fetchChangeRequestReviewers(space, request);
+      if (reviewers.count > 0) {
+        const names = reviewers.items.map((item) => item.user.email ).join(', ');
+        if (item.reviewers !== names) {
+          changed.reviewers = names;
+        }
+      }
+
       const date = formatDate(request.updatedAt);
       if (item.date_submitted !== date) {
         changed.date_submitted = date
