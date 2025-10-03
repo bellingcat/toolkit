@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-TelegramDB is a Telegram search engine you reach through the bot **@tgdb\_bot** or the companion site. It indexes every public group, channel and bot it can find – more than **30 million chats** and **11 billion membership records** as of January 2025 ([Telegram](https://t.me/s/tgdatabase?before=248)).\
+TelegramDB is a Telegram search engine you reach through the bot **@TgDBSearchBot** or the companion site (https://tgdb.org/bot). It indexes every public group, channel and bot it can find – more than **430 million chats** and **14 billion membership records** as of October 2025. On the website, you can also find the [Realtime stats](https://www.telegramdb.org/stats).\
 The bot lets you:
 
 1. **Look up public chats** by keyword, name or username.
@@ -20,12 +20,12 @@ The bot lets you:
 3. **Export data** (CSV) such as full member lists, overlapping users or “near” users for network analysis tools.
 4. **See live stats** on the TelegramDB index (`/stats`).
 
-Usage has grown fast – TelegramDB passed **1.5 million monthly active users in April 2025** ([TGStat.com](https://tgstat.com/channel/%40tgdatabase)).\
+Usage has grown fast – TelegramDB passed **1.5 million monthly active users in April 2025**, after the bot was banned from Telegram, the full version (https://tgdb.org/bot) was made available only on the website, along with a lite [@TgDBSearchBot](https://t.me/TgDBSearchBot) version to facilitate user experience and remain compliant with Telegram's terms of service.\
 &#xNAN;_&#x4E;otable 2024-25 updates:_ a redesigned menu (`/search`), searches that can now return **up to 1 000 results** instead of 20, a contact-picker for user-centric commands, and a new website where you can manage your account and buy credits.
 
 ### Commands
 
-The TelegramDB bot (@tgdb\_bot) offers a comprehensive set of commands to help users navigate and utilize Telegram data efficiently. Below is a detailed description of these commands and their functionalities:
+The TelegramDB bot (https://tgdb.org/bot) offers a comprehensive set of commands to help users navigate and utilize Telegram data efficiently. Below is a detailed description of these commands and their functionalities:
 
 <details>
 
@@ -63,7 +63,7 @@ TelegramDB uses a credit-based model for advanced searches and data extraction:
 
 **Pricing:** TelegramDB uses credits. The **first 20 results of every search are free**; anything further or any premium command consumes credits.
 
-_Inside the bot:_ Since April 2025, you can only buy credits with **Telegram Stars** due to Telegram and Apple rules ([TGStat.com](https://tgstat.com/channel/%40tgdatabase)). The bot shows the exact price before you confirm.\
+_Inside the bot:_ The bot shows the exact price before you confirm.\
 &#xNAN;_&#x4F;n the website:_ At ([tgdb.org](https://tgdb.org)) you can register and pay with **cryptocurrency, credit/debit card or PayPal** [TGStat.com](https://tgstat.com/channel/%40tgdatabase). Prices fluctuate, but typical bundles remain in the €2 – €10 range.
 
 Each command tells you how many credits it will cost before it runs. Example: `/where` costs 3 credits plus 1 credit for every 40 results, while `/members` uses a sliding scale.
@@ -98,21 +98,21 @@ Specific pricing for premium credits is not provided directly but operates on a 
 
 ## Requirements
 
-* **Telegram Account**: You must have Telegram to interact with the bot [@tgdb\_bot](https://t.me/tgdb_bot).
+* **Telegram Account**: You must have Telegram to interact with the bot https://tgdb.org/bot.
 * **Credits**: Needed for premium features (purchased in-bot)
 * **Data Analysis Skills**: Helpful for interpreting CSV files, especially if you plan to load them into visualization tools (e.g., Maltego).
 
 ## Limitations
 
-* **Public Content Only:** TelegramDB only indexes data from public or open Telegram chats. Private, invite-only, or deleted chats are not accessible via this tool. (All data is obtained by crawling public groups/channels visible to anyone, and TelegramDB is _not_ affiliated with Telegram itself​.
+* **Public Content Only:** TelegramDB only indexes data from public or open Telegram chats. Private, invite-only, or deleted chats are not accessible via this tool. (All data is obtained by crawling public groups/channels visible to anyone, and TelegramDB is _not_ affiliated with Telegram itself​).
 * **Unfiltered Data:** TelegramDB does not moderate or filter collected content, so search results may include pornography, hate speech, graphic violence, or other illegal or offensive material on Telegram. Users should exercise caution; content takedown requests can be made to remove personal data (see `/terms`)​.
-* **API Constraints:** The service relies on Telegram’s infrastructure (APIs and network). Data may be subject to Telegram’s rate limits or outages, and information might not instantly reflect edits or deletions. For example, if a user leaves a group or a message is removed, it may still appear in TelegramDB’s cache until the next update or a removal request​.
+* **API Constraints:** The service relies on Telegram’s infrastructure (APIs and network). Information might not instantly reflect edits or deletions. For example, if a user leaves a group or a message is removed, it may still appear in TelegramDB’s cache until the next update or a removal request​.
 * **Search Costs:** Extensive querying can become costly in credits. High-volume searches or bulk member exports may consume credits quickly, which can be a practical limitation for some users (though result previews and incremental costs are provided).
 * **Data Accuracy:** Information retrieved might not reflect very recent changes on Telegram. There can be lag in indexing new groups or updating member lists, and some data (like historical usernames or group membership) may be incomplete if the crawler didn’t capture it in time. Always double-check critical information on Telegram itself if possible.
 
 ### Terms & Conditions (Key Points Summary)
 
-* **Age Requirement:** You must be at least 18 years old (or the legal age in your jurisdiction) to use TelegramDB services and the @tgdb\_bot.
+* **Age Requirement:** You must be at least 18 years old (or the legal age in your jurisdiction) to use TelegramDB services.
 * **User Obligations:** Users must not use automated scripts or bots to scrape TelegramDB’s data without permission. All usage must comply with applicable laws – you may not use TelegramDB to harass, stalk, or inflict harm on others or for any unlawful purposes.
 * **Prohibited Activities:** Unauthorized mass collection or resale of TelegramDB’s data is forbidden, as is any attempt to commercially exploit the service’s data or to post abusive content via the bot. Attempts to circumvent the bot’s security or access controls are strictly prohibited.
 * **Governing Law & Disputes:** Use of TelegramDB is governed by the laws of Italy. In the event of disputes, the Terms specify resolution via arbitration in Milan, Italy, conducted in English (unless otherwise required by law).
@@ -129,11 +129,11 @@ _(Refer to the full Terms of Service via the `/terms` command in the bot for com
 
 ## Guide
 
-TelegramDB. (2024). _TelegramDB/TelegramDB_ \[Computer software]. [https://github.com/TelegramDB/TelegramDB](https://github.com/TelegramDB/TelegramDB) (Original work published 2022)
+TelegramDB. (2025). _TelegramDB/TelegramDB_ \[Computer software]. [https://github.com/TelegramDB/TelegramDB](https://github.com/TelegramDB/TelegramDB) (Original work published 2022)
 
 ## Tool provider
 
-[TelegramDB.org](https://telegramdb.org) maintains the service and its infrastructure (the developers have not publicly disclosed organizational details). The service operates[ servers in Europe​](https://telegramdb.org/article/introduction).
+[TelegramDB.org](https://telegramdb.org) maintains the service and its infrastructure (the developers have not publicly disclosed organizational details). The service operates [servers in Europe​](https://telegramdb.org/article/introduction).
 
 But they're listening to the community:\
 ![](.gitbook/assets/image.png)
