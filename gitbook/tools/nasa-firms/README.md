@@ -11,6 +11,17 @@ description: >-
 
 [**https://firms2.modaps.eosdis.nasa.gov/map/**](https://firms2.modaps.eosdis.nasa.gov/map/)
 
+{% hint style="warning" %}
+**AT  2/10/25  THE RECENT LAPSE IN US FEDERAL GOVERNMENT FUNDING MEANS THAT THIS TOOL IS CURRENTLY TEMPORARILY SUBJECT TO**&#x20;
+
+* SUSPENSION OF DATA UPDATES
+* UNAVAILABILITY OF SOME INFORMATION
+
+Much of the source data in NASA FIRMS from the Modis, Sentinel and VIIRS services can alternatively be accessed via the [Copernicus platform's European Forest Fire Information Service](https://forest-fire.emergency.copernicus.eu/) linked here.
+
+
+{% endhint %}
+
 <figure><img src=".gitbook/assets/FireMapsat.gif" alt=""><figcaption><p><strong>VIEWING DIFFERENT SATELLITES' DATA AND ADJUSTING THE TIME PERIOD DISPLAYED USING THE FIRMS INTERFACE</strong><br><em>We acknowledge the use of data and/or imagery from NASA's Fire Information for Resource Management System (FIRMS) (https://earthdata.nasa.gov/firms), part of NASA's Earth Science Data and Information System (ESDIS).</em></p></figcaption></figure>
 
 ### Description
