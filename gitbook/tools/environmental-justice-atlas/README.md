@@ -65,6 +65,8 @@ None.
 
 While not a guide, the site's [FAQ](https://ejatlas.org/backoffice/cms/en/faq/) can be helpful for context and background information.
 
+This [video](https://www.youtube.com/watch?v=BqoLo8OsB1c) provides an overview of the EJA.
+
 ## Tool provider
 
 EnvJustice Project ([Spain](http://www.envjustice.org/project/))
