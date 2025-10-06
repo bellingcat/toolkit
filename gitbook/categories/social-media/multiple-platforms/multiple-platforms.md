@@ -3,7 +3,7 @@
 | Name | Description | Cost | Tool Review and Guide |
 | --- | --- | --- | --- |
 | Blackbird | Check usernames and email addresses on websites and social networks | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/blackbird](../../../tools/blackbird/README.md) |
-| Have I Been Pwned? | Does an email or a phone number appear in data breaches? | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/have-i-been-pwned](../../../tools/have-i-been-pwned/README.md) |
+| Have I Been Pwned | Does an email or a phone number appear in data breaches? | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/have-i-been-pwned](../../../tools/have-i-been-pwned/README.md) |
 | holehe | holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function. | <mark style="background-color:green;">Free</mark> | <p><sub><em>Guide not available</em></sub></p><mark style="background-color:blue;"> [https://github.com/megadose/holehe](https://github.com/megadose/holehe) </mark> |
 | Intelx.io | Find user details in data breaches | <mark style="background-color:orange;">Partially Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/intelx.io](../../../tools/intelx.io/README.md) |
 | Namechk | A username and domain search tool that checks on which platforms or domain a given username is registered. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/namechk](../../../tools/namechk/README.md) |
