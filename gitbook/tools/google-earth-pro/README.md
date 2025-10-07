@@ -21,9 +21,9 @@ Google Earth is a comprehensive geographic and spatial information tool suite. I
 * **Google Earth Mobile**: Offers the core functionalities of Google Earth optimized for mobile devices, enabling users to explore geographic data on-the-go.
 * **Google Earth Pro Desktop:** The most powerful version offering advanced features (historical imagery, sunlight angle, other planets, video tour recording) for professional users. It is recommended for open source researchers to use this version.
 
-The example below shows a search for Amsterdam filtering layers to display only photo layers on Google Earth Pro Desktop:
+The example below shows a search for Amsterdam on Google Earth Pro Desktop with the "Photos" layer activated:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-06-24 at 1.07.47 PM.png" alt="Screenshot of a search for Amsterdam filtering layers to display only photo layers. The image shows a street map, a photo of a ship on a river and the left hand search menu filtering for photo layers."><figcaption><p>Screenshot of a search for Amsterdam filtering layers to display only photo layers on Google Earth Pro Desktop. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-06-24 at 1.07.47 PM.png" alt="Screenshot of a search for Amsterdam filtering layers to display only photo layers. The image shows a street map, a photo of a ship on a river and the left hand search menu filtering for photo layers."><figcaption></figcaption></figure>
 
 ## Example Use Cases
 
