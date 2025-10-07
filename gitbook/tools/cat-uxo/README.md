@@ -324,7 +324,7 @@ Unknown
 
 <details>
 
-<summary>List of "Country of Origin" filters vary based on the type of  explosive hazard</summary>
+<summary>List of "Country of Origin" filters varies based on the type of  explosive hazard</summary>
 
 Click on each type of EO, then navigate to the filtering section.&#x20;
 
@@ -332,119 +332,25 @@ Click on each type of EO, then navigate to the filtering section.&#x20;
 
 <details>
 
-<summary>The list of "Country Used In" filters vary based on the type of explosive hazard</summary>
+<summary>List of "Country Used In" filters varies based on the type of explosive hazard</summary>
 
-Click on each type of EO, then navigate to the filtering section. &#x20;
-
-</details>
-
-<details>
-
-<summary>List of "Diameter" filters for certain EO Types (CLICK TO EXPAND)</summary>
-
-12.7 MM
-
-48 MM
-
-49 MM
-
-50 MM
-
-60 MM
-
-61 MM
-
-64 MM
-
-81 MM
-
-82 MM
-
-152 MM
-
-457 MM
+Click on each type of EO, then click on the drop-down menu.  &#x20;
 
 </details>
 
 <details>
 
-<summary>List of "Length" filters for certain EO Types (CLICK TO EXPAND)</summary>
+<summary>List of "Diameter" filters varies based on the type of explosive hazard</summary>
 
-81 MM
+Click on each type of EO, then click on the drop-down menu.  &#x20;
 
-87 MM
+</details>
 
-90 MM
+<details>
 
-91 MM
+<summary>List of "Length" filters varies based on the type of explosive hazard</summary>
 
-98 MM
-
-104 MM
-
-108 MM
-
-127 MM
-
-149 MM
-
-152 MM
-
-153 MM
-
-277 MM
-
-282 MM
-
-300 MM
-
-369 MM
-
-370 MM
-
-380 MM
-
-381 MM
-
-382 MM
-
-410 MM
-
-426 MM
-
-427 MM
-
-430 MM
-
-431 MM
-
-432 MM
-
-451 MM
-
-520 MM
-
-521 MM
-
-555 MM
-
-563 MM
-
-571 MM
-
-575 MM
-
-643 MM
-
-1000 MM
-
-1295 MM
-
-1550 MM
-
-7150 MM
-
-\\
+Click on each type of EO, then click on the drop-down menu.  &#x20;
 
 </details>
 
