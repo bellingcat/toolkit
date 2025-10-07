@@ -30,7 +30,6 @@ The example below shows a search for Amsterdam on Google Earth Pro Desktop with 
 * **Geolocation:** Open source researchers use the satellite imagery provided by Google Earth Pro to geolocate photos and videos. &#x20;
 * **Investigative Reporting:** Research and investigate environmental changes, urban development, and other phenomena that are best observed from an aerial or geographic perspective.
 * **Historical Analysis:** Compare historical satellite images to present-day images to document changes in the environment, urbanization, and other significant transformations.
-* **Educational Content:** Produce educational material that explains geographical, political, and social issues in a visually engaging format.
 
 ## Features
 
