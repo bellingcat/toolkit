@@ -2,12 +2,11 @@
 
 # Calls gh cli to update fields on a project item
 
-# Sets the value of a text field
-set_text_field() {
+# Sets the value of a field
+set_field() {
   item_id=$1
   field_id=$2
-  field_value=$3
-  echo "Set text field $1 $2 $3"
+  field_value=$3 # json, e.g. '{ "text": "value" }'
   gh api graphql -f query='
     mutation (
       $project: ID!
@@ -19,15 +18,22 @@ set_text_field() {
         projectId: $project
         itemId: $item
         fieldId: $field
-        value: {
-          text: $value
-        }
+        value: $value
       }) {
         projectV2Item {
           id
         }
       }
-    }' -f project=$PROJECT_ID -f item=$item_id -f field=$field_id -f value=$field_value --silent
+    }' -f project=$PROJECT_ID -f item=$item_id -f field=$field_id -F value=$field_value --silent
+}
+
+# Sets the value of a text field
+set_text_field() {
+  echo "Set text field $1 $2 $3"
+  item_id=$1
+  field_id=$2
+  field_value=$3
+  set_field $item_id $field_id "{ 'text': '$3' }'
 }
 
 set_select_field() {
