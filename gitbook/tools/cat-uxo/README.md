@@ -23,7 +23,7 @@ The database is designed to help explosive disposal professionals ("[EOD operato
 
 Based on our examination, CAT-UXO has 16 categories of EO, an additional related category for IED (Improvised Explosive Device) Incidents and a separate [category ](#user-content-fn-1)[^1]for [Terrorist Groups](https://cat-uxo.com/explosive-hazards/terrorist-groups). It has categorized hundreds of unique models of EO from various countries.
 
-**EO TYPES COVERED BY THE TOOL:** Landmines, Submunitions, Grenades, Aircraft Bombs, Rockets, Missiles, Mortars, Projectiles, Firing Devices, Fuzes, Naval Devices, [SALW](https://www.nato.int/cps/en/natohq/topics_52142.htm), [UCAV](https://en.wikipedia.org/wiki/Unmanned_combat_aerial_vehicle), [AFV](https://app.gitbook.com/u/3aNONh26PSPQngxI26whadEBSbz2), Miscellaneous, IEDs, IED Incidents, Terrorist Groups
+**EO TYPES COVERED BY THE TOOL:** Landmines, Submunitions, Grenades, Aircraft Bombs, Rockets, Missiles, Mortars, Projectiles, Firing Devices, Fuzes, Naval Devices, [SALW](https://www.nato.int/cps/en/natohq/topics_52142.htm), [UCAV](https://en.wikipedia.org/wiki/Unmanned_combat_aerial_vehicle), [AFV](https://en.wikipedia.org/wiki/Armoured_fighting_vehicle), Miscellaneous, IEDs, IED Incidents, Terrorist Groups
 
 <figure><img src=".gitbook/assets/Screenshot 2025-09-15 072220.png" alt=""><figcaption><p>Search categories for EO on the landing page of the tool.</p></figcaption></figure>
 
@@ -62,7 +62,7 @@ If available for that category, click on the first result, with the icon identic
 {% endstep %}
 {% endstepper %}
 
-As of now, only these types of EO have introductory information, mostly sourced from Wikipedia: [Landmines](https://cat-uxo.com/explosive-hazards/landmines/01-landmine); [Submunitions](https://cat-uxo.com/explosive-hazards/submunitions/01-submunition); Grenade ([Hand Grenade](https://cat-uxo.com/explosive-hazards/grenades/01-hand-grenade) and [Projected Grenade](https://cat-uxo.com/explosive-hazards/grenades/02-projected-grenade)); [Rocket](https://cat-uxo.com/explosive-hazards/rockets/01-rocket); [Fuze](https://cat-uxo.com/explosive-hazards/fuzes/01-fuze) ([Delay Fuze](https://cat-uxo.com/explosive-hazards/fuzes/03-delay-fuze), [Pibd](https://cat-uxo.com/explosive-hazards/fuzes/04-pibd), [AWAF](https://cat-uxo.com/explosive-hazards/fuzes/05-awaf), [Firing Pin](https://cat-uxo.com/explosive-hazards/fuzes/06-firing-pin)).
+As of now, only these types of EO have introductory information, mostly sourced from Wikipedia: [Landmines](https://cat-uxo.com/explosive-hazards/landmines/01-landmine); [Submunitions](https://cat-uxo.com/explosive-hazards/submunitions/01-submunition); Grenade ([Hand Grenade](https://cat-uxo.com/explosive-hazards/grenades/01-hand-grenade) and [Projected Grenade](https://cat-uxo.com/explosive-hazards/grenades/02-projected-grenade)); [Rocket](https://cat-uxo.com/explosive-hazards/rockets/01-rocket); [Fuze](https://cat-uxo.com/explosive-hazards/fuzes/01-fuze) ([Delay Fuze](https://cat-uxo.com/explosive-hazards/fuzes/03-delay-fuze), [Pibd](https://cat-uxo.com/explosive-hazards/fuzes/04-pibd), [(AWAF) All-Ways Acting Fuze](https://cat-uxo.com/explosive-hazards/fuzes/05-awaf), [Firing Pin](https://cat-uxo.com/explosive-hazards/fuzes/06-firing-pin)).
 
 ### SEARCHING FOR EO
 
@@ -74,13 +74,21 @@ To get the best results, it is helpful to know how the search bar works. The sea
 
 It also handles logical combinations of attributes, such as “Chinese fuze” or “81mm mortar,” as well as exact model designations such as “type 58 landmine.” It returns results when keywords appear in either the description or title. Partial words (i.e. “frag” for fragmentation) will also return results.
 
-The system seems to search both the textual descriptions and visual identifiers, including markings, holes, grooves, and sometimes tail shape – if available.
+The system also seems to search the description for physical characteristics (also known as identifiers) if available. "Identifiers" can refer to distinctive markings (manufacturer stamps, lot numbers), number or arrangement of holes or attachment points, grooves or bands on the casing, tail shape, or colors.&#x20;
 
-* Terminology matters: Based on our own tests, the database appears to mostly index content using standardized military/technical naming conventions rather than casual language variations.
+Example: Searching for an identifier such as "Yellow band" generated results of EO types containing that physical feature&#x20;
+
+{% hint style="success" %}
+**TIPS FOR SEARCHING:**&#x20;
+
+1. **Terminology matters:** Based on our own tests, the database appears to mostly index content using standardized military/technical naming conventions rather than casual language variations.&#x20;
 
 Example: “anti-tank” ([the common EO term referring to a purpose or function of ordnance)](https://www.smallarmssurvey.org/sites/default/files/resources/SAS-Research-Note-16.pdf) returns more results than “anti tank” without the hyphen since it’s more likely to appear in formal descriptions.
 
-* Foreign Language Search: Based on our tests, it can search using the Cyrillic alphabet if the characters appear in the title or description.
+2. **Foreign Language Search:** Based on our tests, it can search using the Cyrillic alphabet if the characters appear in the title or description.
+{% endhint %}
+
+
 
 #### DROP-DOWN FILTERING OPTIONS
 
