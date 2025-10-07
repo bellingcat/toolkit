@@ -14,7 +14,7 @@ description: This is the JSON codeblock for this tool
     "automation",
     "privacy",
     "free",
-    "social-        media"
+    "social-media"
   ]
 }
 ```
