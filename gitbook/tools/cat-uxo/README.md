@@ -31,7 +31,7 @@ According to the tool provider, the data comes from:
 
 1. [“Varying open source information and individuals.”](https://cat-uxo.com/terms-conditions)
 2. [Gathered via social media](https://cat-uxo.com/about)
-3. [Paid member contributors](https://cat-uxo.com/sign-up). Supporting CAT-UXO via paid membership allows members to contribute technical information on existing EO or [contribute a new hazard](https://cat-uxo.com/contribute) to the online database.
+3. [Paid member contributors](https://cat-uxo.com/sign-up). Supporting CAT-UXO via paid membership allows members to contribute technical information on existing EO or contribute a new hazard to the online database.
 
 For each unique model, the database provides images of the EO and a detailed description.
 
