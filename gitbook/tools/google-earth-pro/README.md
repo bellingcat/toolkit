@@ -39,9 +39,9 @@ Google Earth Pro is widely used amongst open source researchers due to its free 
 
 <figure><img src=".gitbook/assets/unknown.png" alt=""><figcaption><p>As part of her <a href="https://www.bellingcat.com/news/2025/04/29/open-sources-show-myanmar-junta-airstrike-damages-despite-post-earthquake-ceasefire/">Myanmar research</a>, Bellingcat researcher Pooja Chaudhuri compared Google Earth Pro Imagery from 2020 (left) and 2024 (right) to show that parts of the town Indaw have been destroyed.</p></figcaption></figure>
 
-The use of historical images can be helpful for the following:
+The use of historical images can be helpful for:
 
-* Recognize changes in areas (e.g. nature, urban development, infrastructure). You can find an example for this in the Financial Times article ["How China is tearing down Islam"](https://ig.ft.com/china-mosques/).
+* Recognizing changes in areas (e.g. nature, urban development, infrastructure). You can find an example for this in the Financial Times article ["How China is tearing down Islam"](https://ig.ft.com/china-mosques/).
 * [Different views of the same building](https://www.bellingcat.com/resources/how-tos/2019/03/05/how-to-use-google-earths-three-dimensional-view-feat-syria-yemen-sudan/) and thus better recognize the dimensions. Each image varies slightly in the angle at which it is taken. This means that different images can provide different perspectives.&#x20;
 * Different times of locations and therefore different positions of the sun and shadows. [This helps when geolocating images ](https://www.bellingcat.com/resources/how-tos/2019/03/05/how-to-use-google-earths-three-dimensional-view-feat-syria-yemen-sudan/)
 
