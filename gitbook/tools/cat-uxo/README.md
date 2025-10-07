@@ -46,7 +46,7 @@ CAT-UXO groups its information according to 16 EO Types. It also provides introd
 
 {% stepper %}
 {% step %}
-#### Click on the EO Type
+**Click on the EO Type**
 
 On the landing page, click on the icon of the EO type you are searching for.
 
@@ -54,7 +54,7 @@ On the landing page, click on the icon of the EO type you are searching for.
 {% endstep %}
 
 {% step %}
-#### Click on the first result
+**Click on the first result**
 
 If available for that category, click on the first result, with the icon identical to the EO type of icon. For example, you can see that the rocket icon looks the same as on the results page.
 
@@ -324,17 +324,17 @@ Unknown
 
 <details>
 
-<summary>List of "Country of Origin" filters (CLICK TO EXPAND)</summary>
+<summary>List of "Country of Origin" filters vary based on the type of  explosive hazard</summary>
 
-USA, UK, Yugoslavia, Austria, Bulgaria, China, Colombia, France, Iran, Iraq, Ireland, Israel, Italy, Norway, Pakistan, Philippines, Russia, Singapore, South Korea
+Click on each type of EO, then navigate to the filtering section.&#x20;
 
 </details>
 
 <details>
 
-<summary>List of "Country Used In" filters (CLICK TO EXPAND)</summary>
+<summary>The list of "Country Used In" filters vary based on the type of explosive hazard</summary>
 
-Afghanistan, Australia, Austria, Azerbaijan, Bangladesh, Belarus, Belgium, Bolivia, Bosnia and Herzegovina, Brazil, Bulgaria, Cambodia, Canada, Chechnya, Chile, China, Colombia, Costa Rica, Cyprus, Denmark, Ecuador, El Salvador, Estonia, Ethiopia, France, Georgia, Greece, Nepal, Nigeria, Norway, Pakistan, Panama, Philippines, Romania, Russia, Saudi Arabia, Somalia, South Korea, Sudan, Sweden, Switzerland, Syria, Taiwan, Thailand, Tunisia, Turkey, Ukraine, United Kingdom, USA, Venezuela, Vietnam, Yemen, Yugoslavia
+Click on each type of EO, then navigate to the filtering section. &#x20;
 
 </details>
 
