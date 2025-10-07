@@ -9,7 +9,7 @@ description: >-
 
 ## URL
 
-[https://cat-uxo.com/](https://cat-uxo.com/)
+{% embed url="https://cat-uxo.com/" %}
 
 ## Description
 
@@ -420,7 +420,7 @@ Note on Accuracy:
 5. Images of intact EO vs. Remnants of EO – The site has limited images of EO on the battlefield or that are shown in fragments. Open-source investigators who look at social media to determine types of EO used in conflict are usually confronted with pieces of EO fragments or partial images. They are most likely seeing EO partially buried or obscured in conflict zones. It is helpful to filter based on what can be observed in this limited context, such as color, shape, and markings. However, to mitigate this, paid users can sometimes access additional information from contributors/other paid members, which may include social media images from conflict zones or images that show EO in partial form.
 6. No offline functionality - Absence of an offline version creates challenges for field users with limited connectivity (unlike, for example, [Bulletpicker.com](https://bellingcat.gitbook.io/toolkit/more/all-tools/bulletpicker.com))
 7. It's unclear what quality requirements CAT-UXO has for contributors or how they review information before adding it to the database.
-8. Possible Gaps in Country Coverage and Documentation - at the time of the current update, the tool covers about 71 manufacturing countries and approximately 165 countries where the EO are/were used. The tool has collated information from a representative list of conflict zones. However, it is possible that not all countries are equally documented. Some countries have more data than others.&#x20;
+8. Possible Gaps in Country Coverage and Documentation - At the time of the current update, the tool covers about 71 manufacturing countries and approximately 165 countries where the EO are/were used. The tool has collated information from a representative list of conflict zones. However, it is possible that not all countries are equally documented. Some countries have more data than others.&#x20;
 
 ## Ethical Considerations
 
