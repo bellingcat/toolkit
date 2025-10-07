@@ -4,6 +4,7 @@
 
 # Sets the value of a field
 set_field() {
+  echo "Set field $1 $2 $3"
   item_id=$1
   field_id=$2
   field_value=$3 # json, e.g. '{ "text": "value" }'
@@ -12,9 +13,9 @@ set_field() {
       $project: ID!
       $item: ID!
       $field: ID!
-      $value: String!
+      $value: ProjectV2FieldValue!
     ) {
-      set_text: updateProjectV2ItemFieldValue(input: {
+      set_field: updateProjectV2ItemFieldValue(input: {
         projectId: $project
         itemId: $item
         fieldId: $field
@@ -33,60 +34,21 @@ set_text_field() {
   item_id=$1
   field_id=$2
   field_value=$3
-  set_field $item_id $field_id "{ 'text': '$3' }'
+  set_field $item_id $field_id "{ \"text\": \"$3\" }"
 }
-
 set_select_field() {
   item_id=$1
   field_id=$2
   field_value=$3
-  gh api graphql -f query='
-    mutation (
-      $project: ID!
-      $item: ID!
-      $status_field: ID!
-      $status_value: String!
-    ) {
-      set_status: updateProjectV2ItemFieldValue(input: {
-        projectId: $project
-        itemId: $item
-        fieldId: $status_field
-        value: {
-          singleSelectOptionId: $status_value
-        }
-      }) {
-        projectV2Item {
-          id
-        }
-      }
-    }' -f project=$PROJECT_ID -f item=$item_id -f status_field=$field_id -f status_value=$field_value --silent
+  set_field $item_id $field_id "{ \"singleSelectOptionId\": \"$3\" }"
 }
-
 set_date_field () {
   item_id=$1
   field_id=$2
   field_value=$3
-  gh api graphql -f query='
-    mutation (
-      $project: ID!
-      $item: ID!
-      $date_field: ID!
-      $date_value: Date!
-    ) {
-      set_date: updateProjectV2ItemFieldValue(input: {
-        projectId: $project
-        itemId: $item
-        fieldId: $date_field
-        value: {
-          date: $date_value
-        }
-      }) {
-        projectV2Item {
-          id
-        }
-      }
-    }' -f project=$PROJECT_ID -f item=$item_id -f date_field=$field_id -f date_value=$field_value  --silent
+  set_field $item_id $field_id "{ \"date\": \"$3\" }"
 }
+
 while read -r project_item
 do
   echo $project_item
