@@ -434,7 +434,7 @@ Note on Accuracy:
 
 * Users must use this weapon information responsibly and legally. Follow all site warnings and restrictions.
 * There are liability and safety considerations. [The Terms and Conditions state that it does not teach or endorse EOD practices](https://cat-uxo.com/terms-conditions)
-* Sponsored by commercial EOD entities.
+* [Sponsored by commercial EOD entities.](https://cat-uxo.com/advertisement)
 
 ## Guide
 
