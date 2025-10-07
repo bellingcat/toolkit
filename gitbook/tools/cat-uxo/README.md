@@ -92,7 +92,7 @@ An additional list of filtering options can be found in the expandables.
 
 <details>
 
-<summary>List of additional "Category" filters (CLICK TO EXPAND)</summary>
+<summary>List of additional "Category" filters <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
 
 AFV - Armoured Personnel Carrier
 
@@ -324,33 +324,55 @@ Unknown
 
 <details>
 
-<summary>List of "Country of Origin" filters varies based on the type of  explosive hazard</summary>
+<summary>List of "Country of Origin" filters varies based on the type of  explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
 
-Click on each type of EO, then navigate to the filtering section.&#x20;
+_Click on each type of EO, then navigate to the filtering section._&#x20;
 
-</details>
+Afghanistan, Albania, Argentina, Armenia, Australia, Austria, Azerbaijan, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Canada, Chile, China, Christmas Island, Ireland, Israel, Italy, Ivory Coast, Jamaica, Japan, Jordan, Kazakhstan, Kenya, Kosovo, Kurdistan, Kuwait, Kyrgyzstan, Laos, Latvia, Lebanon, Liberia, Libya, Lithuania, Luxembourg, Macedonia, Madagascar, Malawi, Malaysia, Mali, Malta, Mauritania, Mexico, Moldova, Monaco, Mongolia, Morocco, Mozambique, Myanmar, Namibia, Nepal, Netherlands, New Zealand, Nicaragua, Niger, Nigeria, North Korea, Norway, Oman, Pakistan, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Qatar, Romania, Russia, Rwanda, Saudi Arabia, Senegal, Serbia, Sierra Leone, Singapore, Slovakia, Slovenia, Somalia, South Africa, South Korea, South Sudan, Spain, Sri Lanka, Sudan, Sweden, Switzerland, Syria, Taiwan, Tajikistan, Tanzania, Thailand, Tunisia, Turkey, Turkmenistan, Uganda, Ukraine, United Arab Emirates, United Kingdom, United States of America, Uruguay, Uzbekistan, Venezuela, Vietnam, Western Sahara, Yemen, Yugoslavia, Zambia, Zimbabwe
 
-<details>
-
-<summary>List of "Country Used In" filters varies based on the type of explosive hazard</summary>
-
-Click on each type of EO, then click on the drop-down menu.  &#x20;
+**Misc categories:** Unknown, Various
 
 </details>
 
 <details>
 
-<summary>List of "Diameter" filters varies based on the type of explosive hazard</summary>
+<summary>List of "Country Used In" filters varies based on the type of explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
 
-Click on each type of EO, then click on the drop-down menu.  &#x20;
+_Click on each type of EO, then click on the drop-down menu._  &#x20;
+
+Afghanistan, Albania, Algeria, Angola, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahrain, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bermuda, Bhutan, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Brunei Darussalam, Bulgaria, Burkina Faso, Burundi, Cambodia, Cameroon, Canada, Cape Verde, Central African Republic, Chad, Chechnya, Chile, China, Colombia, Congo (DRC), Costa Rica, Croatia, Cuba, Cyprus, Czech Republic, Denmark, Djibouti, Ecuador, Egypt, El Salvador, Eritrea, Estonia, Ethiopia, Falkland Island, Finland, France, Gambia, Georgia, Germany, Ghana, Greece, Grenada, Guatemala, Guinea-Bissau, Honduras, Hong Kong, Hungary, Iceland, India, Indonesia, Iran, Iraq, Ireland, Israel, Italy, Japan, Lebanon, Montenegro, Myanmar, Netherlands, North Korea, Norway, Pakistan, Peru, Philippines, Poland, Portugal, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sweden, Switzerland, Syria, Taiwan, Thailand, Turkey, Ukraine, United Arab Emirates, United Kingdom, United States of America, Uruguay, Uzbekistan, Venezuela, Vietnam, Yemen, Yugoslavia, Zimbabwe
+
+**Misc categories:** Various, Unknown&#x20;
 
 </details>
 
 <details>
 
-<summary>List of "Length" filters varies based on the type of explosive hazard</summary>
+<summary>"Diameter" filters vary based on the type of explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
 
-Click on each type of EO, then click on the drop-down menu.  &#x20;
+_Click on each type of EO, then click on the drop-down menu._  &#x20;
+
+Input options: From 5.56 mm to 1,700 mm
+
+</details>
+
+<details>
+
+<summary>"Length" filters vary based on the type of explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
+
+_Click on each type of EO, then click on the drop-down menu._  &#x20;
+
+Input options: From 0.87 mm to 72,500 mm
+
+</details>
+
+<details>
+
+<summary>"Height" filters vary based on the type of explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
+
+_Click on each type of EO, then click on the drop-down menu._&#x20;
+
+Input options: 7 mm to 4,000 mm
 
 </details>
 
