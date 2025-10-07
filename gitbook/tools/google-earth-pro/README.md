@@ -37,7 +37,7 @@ Google Earth Pro is widely used amongst open source researchers due to its free 
 
 ### Past imagery (historical imagery)
 
-<figure><img src=".gitbook/assets/unknown.png" alt=""><figcaption><p>Bellingcat Researcher Pooja Chaudhuri compared during her <a href="https://www.bellingcat.com/news/2025/04/29/open-sources-show-myanmar-junta-airstrike-damages-despite-post-earthquake-ceasefire/">Myanmar research</a> Google Earth Pro Imagery from 2020 (left) and 2024 (right) to show that parts of the town Indaw have been destroyed.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/unknown.png" alt=""><figcaption><p>As part of her <a href="https://www.bellingcat.com/news/2025/04/29/open-sources-show-myanmar-junta-airstrike-damages-despite-post-earthquake-ceasefire/">Myanmar research</a>, Bellingcat researcher Pooja Chaudhuri compared Google Earth Pro Imagery from 2020 (left) and 2024 (right) to show that parts of the town Indaw have been destroyed.</p></figcaption></figure>
 
 The use of historical images can be helpful for the following:
 
