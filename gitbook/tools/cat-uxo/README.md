@@ -96,11 +96,11 @@ The interface also uses GUI-driven filtering without Boolean operators. This all
 
 <figure><img src=".gitbook/assets/2025-09-15_09-44-27-ed.png" alt=""><figcaption><p>Search results can be further refined by more filtering options, as seen above the search results. Once a user has entered the results page for the initial query, a filtering option becomes available.</p></figcaption></figure>
 
-An additional list of filtering options can be found in the expandables.
+An additional list of filtering options can be found in the expandables below.
 
 <details>
 
-<summary>List of additional "Category" filters <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
+<summary>List of additional "Category" filter <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
 
 AFV - Armoured Personnel Carrier
 
@@ -332,7 +332,7 @@ Unknown
 
 <details>
 
-<summary>List of "Country of Origin" filters varies based on the type of  explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
+<summary>List of "Country of Origin" filter varies based on the type of  explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
 
 _Click on each type of EO, then navigate to the filtering section._&#x20;
 
@@ -344,7 +344,7 @@ Afghanistan, Albania, Argentina, Armenia, Australia, Austria, Azerbaijan, Belgiu
 
 <details>
 
-<summary>List of "Country Used In" filters varies based on the type of explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
+<summary>List of "Country Used In" filter varies based on the type of explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
 
 _Click on each type of EO, then click on the drop-down menu._  &#x20;
 
@@ -356,7 +356,7 @@ Afghanistan, Albania, Algeria, Angola, Argentina, Armenia, Australia, Austria, A
 
 <details>
 
-<summary>"Diameter" filters vary based on the type of explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
+<summary>"Diameter" filter varies based on the type of explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
 
 _Click on each type of EO, then click on the drop-down menu._  &#x20;
 
@@ -366,7 +366,7 @@ Input options: From 5.56 mm to 1,700 mm
 
 <details>
 
-<summary>"Length" filters vary based on the type of explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
+<summary>"Length" filter varies based on the type of explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
 
 _Click on each type of EO, then click on the drop-down menu._  &#x20;
 
@@ -376,7 +376,7 @@ Input options: From 0.87 mm to 72,500 mm
 
 <details>
 
-<summary>"Height" filters vary based on the type of explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
+<summary>"Height" filter varies based on the type of explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
 
 _Click on each type of EO, then click on the drop-down menu._&#x20;
 
@@ -392,7 +392,7 @@ Input options: 7 mm to 4,000 mm
 
 Info on paid membership can be found here: [https://cat-uxo.com/sign-up](https://cat-uxo.com/sign-up)
 
-{% hint style="info" %}
+{% hint style="warning" %}
 You cannot sign up for a free account. Signing up for an account requires payment.
 {% endhint %}
 
