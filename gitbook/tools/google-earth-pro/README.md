@@ -75,7 +75,7 @@ It can be helpful to measure distances and areas on satellite images. For exampl
 
 2. Choose two or more points on the map
 
-<figure><img src=".gitbook/assets/unknown (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/unknown (8).png" alt=""><figcaption><p>The screenshot shows a path which has been measured: It is 1.71 kilometers long.</p></figcaption></figure>
 
 #### Areas
 
