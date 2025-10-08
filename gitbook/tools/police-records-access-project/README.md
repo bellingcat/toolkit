@@ -123,10 +123,8 @@ PDF reader
   * "Discharge of a weapon at a person by police (excluding tasers, paintball guns, or other weapons using less lethal ammunition)."
   * "Police uses of force resulting in death or 'great bodily injury'"
 * The database does not cover all cases of police misconduct, [its focus is on the following cases](https://clean.calmatters.org/about#Important-Notes): "cases of 'sustained' findings of sexual assault, excessive force, dishonesty, prejudical action, unlawful arrest, and unlawful search or where an officer was accused of those actions and left the agency before the investigation was completed".
-
-
-
-* Some of the sensitive content has been redacted. Records where government agencies failed to redact personally identifying sensitive information are not listed in search results and some cases will display no files where those files have sensitive information.
+* While information that can identify a person [has usually been redacted](https://clean.calmatters.org/about#Important-Notes), some files that still contained such type of information were excluded from the database.
+*
 * Searches can miss relevant documents if different terminology is used (e.g., “taser” vs. “electronic control weapon”). Users should always review the underlying government records.
 * There is a time lag as police agencies must conclude an investigation before it is added to the database.&#x20;
 * Some records may be added after an investigation into a police shooting is closed and the agencies release the requested records.
