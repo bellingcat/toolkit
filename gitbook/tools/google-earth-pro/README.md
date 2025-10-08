@@ -59,7 +59,7 @@ This is a simple, yet effective tool for your day to day work with Google Earth 
 <figure><img src=".gitbook/assets/unknown (4).png" alt=""><figcaption></figcaption></figure>
 
 1. Choose placemarks or polygons from the top menu. Placemarks tag a specific location whereas polygons are used to tag an area. You can save your placemarks and polygons in a folder on the left side to make navigation and orientation easier.
-2. You can now export a folder and share with other researchers. They can then import your tags to have a look at them in their Google Earth Pro by using drag and drop into the folder structure on the left.
+2. You can now export a folder and share it with other researchers. They can then import your tags to have a look at them in their Google Earth Pro by dragging and dropping it into the folder structure on the left hand side.
 
 You can also download KML data from other external sources and open them in your Google Earth Pro. KML is a data structure to save geographical data such as placemarks and polygons. Here is an example of free KML data: Nasa Firms publishes (almost) real time fire data (Available: [https://firms.modaps.eosdis.nasa.gov/api/kml\_fire\_footprints/](https://firms.modaps.eosdis.nasa.gov/api/kml_fire_footprints/) (Accessed: 2. October 2025)).
 
