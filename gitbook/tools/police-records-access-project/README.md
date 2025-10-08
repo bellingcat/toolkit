@@ -143,7 +143,7 @@ PDF reader
 
 ## Ethical Considerations&#x20;
 
-* Privacy and harm - although victim data is redacted it may still be possible to identify a victim though the incident itself so caution should be exercised in how the data is used. &#x20;
+* Privacy and harm - although victim data is redacted it may still be possible to identify a victim through the incident itself so caution should be exercised in how the data is used. &#x20;
 * Some documents contain text or images some people might consider sensitive or disturbing.
 * Accuracy - possible errors in data mean that any data should be independently verified.
 
