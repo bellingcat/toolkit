@@ -134,6 +134,7 @@ PDF reader
 <figure><img src=".gitbook/assets/2025-09-21_21-18-37-limitation.png" alt=""><figcaption><p>This caveat is mentioned at the bottom of the main search results. It includes a graphic content warning which can easily be overlooked. </p></figcaption></figure>
 
 * Be aware that records may change or be updated: "Information about a case can change as agencies submit new or updated records" is specified [on the top of the search bar](https://clean.calmatters.org/).&#x20;
+*
 * The tool shows a limitation in how it records or displays dates, since it is unclear whether the date provided refers to the incident, the request, or another point in time. For example, [one record](https://clean.calmatters.org/cases/1743019578959-kdy) lists the date as October 31, 2023, but the[ underlying document](https://cleanpdfs.blob.core.windows.net/pdfs/74/28/04/742804475f8535e404fa8eae232a8b80d1cf31f6) cites an incident date of September 2014. This inconsistency makes it difficult to determine which event the system’s listed date is actually tied to, reducing clarity and reliability for users reviewing case information.
 
 ## Ethical Considerations&#x20;
