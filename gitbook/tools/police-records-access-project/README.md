@@ -64,7 +64,7 @@ Note: Each record/case can belong to ONE OR ALL three categories.&#x20;
 
 _**Where To Access**_
 
-According to [this](https://news.stanford.edu/stories/2025/09/police-records-access-project-searchable-database-law-enforcement-transparency), the database is free to access through the websites of CalMatters and its partner news organizations:&#x20;
+According to this [StanfordReport article](https://news.stanford.edu/stories/2025/09/police-records-access-project-searchable-database-law-enforcement-transparency), the database is free to access through the websites of CalMatters and its partner news organizations:&#x20;
 
 * CalMatters - [https://clean.calmatters.org/](https://clean.calmatters.org/)&#x20;
 * KQED - [https://policerecords.kqed.org/](https://policerecords.kqed.org/)
