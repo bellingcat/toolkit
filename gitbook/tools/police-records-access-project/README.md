@@ -39,7 +39,7 @@ _**What types of records are available?**_&#x20;
 **Graphic Content Warning:** Items may contain disturbing images, videos, or descriptions
 {% endhint %}
 
-The records are wide-ranging. According to the [tool provider](https://clean.calmatters.org/about) (para 2), they include, among others: Investigative reports, autopsy reports, written transcripts of law enforcement officers' interviews, video interviews of law enforcement officers, photographs, investigative hearings, and body-cam footage. In addition, our tests show that the records also include meeting minutes from different police commissions. &#x20;
+The records are wide-ranging. According to the [tool provider](https://clean.calmatters.org/about) (paragraph 2), they include, among others: Investigative reports, autopsy reports, written transcripts of law enforcement officers' interviews, video interviews of law enforcement officers, photographs, investigative hearings, and body-cam footage. In addition, our tests show that the records also include meeting minutes from different police commissions. &#x20;
 
 _**How was the database built and categorized?**_&#x20;
 
