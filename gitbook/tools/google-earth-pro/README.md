@@ -77,7 +77,7 @@ It can be helpful to measure distances and areas on satellite images. For exampl
 
 <figure><img src=".gitbook/assets/unknown (8).png" alt=""><figcaption><p>The screenshot shows a path which has been measured at 1.71 kilometers.</p></figcaption></figure>
 
-#### Areas
+#### Measuring areas
 
 1. Choose the Polygon-tool in the toolbar
 
