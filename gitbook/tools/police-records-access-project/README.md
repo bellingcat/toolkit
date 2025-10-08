@@ -43,7 +43,7 @@ The records are wide-ranging. According to the [tool provider](https://clean.cal
 
 _**How was the database built and categorized?**_&#x20;
 
-According to the tool providers’ [methodology](https://clean.calmatters.org/about) (paragraph 3), the database was built using cutting-edge technologies such as generative AI, coupled with a manual review of a subset of cases per year.&#x20;
+According to the tool providers’ [methodology](https://clean.calmatters.org/about) (paragraph 3), the database was built using technologies such as generative AI, coupled with a manual review of a subset of cases per year.&#x20;
 
 Each record is labeled in a neutral manner, indicating only a date and who provided the documents.&#x20;
 
