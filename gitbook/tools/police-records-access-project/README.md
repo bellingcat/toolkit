@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-[The Police Record Access Project is a publicly searchable database containing previously confidential records on shootings by law enforcement officers, law enforcement misconduct, and serious uses of force in the State of California.](https://clean.calmatters.org/about)  The tool aims to [provide transparency](https://news.stanford.edu/stories/2025/09/police-records-access-project-searchable-database-law-enforcement-transparency) into some of the statewide law enforcement records. It was made possible by California’s transparency laws  (SB 1421 and SB 16). This centralized database also solves the challenge of having to file a public records request via numerous individual agencies.&#x20;
+The Police Record Access Project is a [publicly searchable database](https://clean.calmatters.org/about) containing previously confidential records on shootings by law enforcement officers, law enforcement misconduct, and serious uses of force in the State of California.  The tool aims to [provide transparency](https://news.stanford.edu/stories/2025/09/police-records-access-project-searchable-database-law-enforcement-transparency) into some of the statewide law enforcement records. It was made possible by California’s transparency laws  (SB 1421 and SB 16). This centralized database also solves the challenge of having to file a public records request via numerous individual agencies.&#x20;
 
 _**Where is the data from?**_
 
