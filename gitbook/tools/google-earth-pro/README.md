@@ -83,7 +83,7 @@ It can be helpful to measure distances and areas on satellite images. For exampl
 
 <figure><img src=".gitbook/assets/unknown (9).png" alt=""><figcaption></figcaption></figure>
 
-2. A window will open, one tab is "Measured values", click on it.
+2. A window will open. One tab is called "Measurements". Click on it.
 
 <figure><img src=".gitbook/assets/unknown (10).png" alt=""><figcaption></figcaption></figure>
 
