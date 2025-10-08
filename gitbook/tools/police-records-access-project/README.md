@@ -73,7 +73,7 @@ According to this [StanfordReport article](https://news.stanford.edu/stories/202
 
 _**How To Search**_
 
-The search functionality is straightforward to use. The key features are keyword search, filter, and viewing records as PDF
+The search functionality is straightforward to use. The key features are keyword search, filter, and viewing records as PDF:
 
 1. Keyword search:  Users can perform a general search for officer names, locations or specific terms&#x20;
 2. Filters: Search can be refined by
