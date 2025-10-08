@@ -79,7 +79,7 @@ It can be helpful to measure distances and areas on satellite images. For exampl
 
 #### Measuring areas
 
-1. Choose the Polygon-tool in the toolbar
+1. Choose the Polygon tool in the toolbar
 
 <figure><img src=".gitbook/assets/unknown (9).png" alt=""><figcaption></figcaption></figure>
 
