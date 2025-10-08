@@ -50,11 +50,11 @@ Each record is labeled in a neutral manner, indicating only a date and who provi
 **Example:** 2/18/2024 - Documents provided by the San Diego Police Department, San Diego County&#x20;
 
 \
-The broad categories are Force, Shooting, and Misconduct.  These are defined by the tool providers as follows:&#x20;
+The broad categories of included cases are Force, Shooting, and Misconduct.  These are defined by the tool providers [as follows](https://clean.calmatters.org/about#Methodology):&#x20;
 
-* **FORCE:** [“Police use-of-force incidents causing “great bodily injury” or death”](https://clean.calmatters.org/about#Methodology)
-* **SHOOTING:** [“Police shootings, fatal or not, including accidental and missed shots”](https://clean.calmatters.org/about#Methodology)
-* **MISCONDUCT:** [“Sustained findings by agencies that an officer committed specific types of misconduct, including sexual assault, excessive force, dishonesty, prejudical action, unlawful arrest, and unlawful search”](https://clean.calmatters.org/about#Methodology)
+* **FORCE:** “Police use-of-force incidents causing “great bodily injury” or death”
+* **SHOOTING:** “Police shootings, fatal or not, including accidental and missed shots”
+* **MISCONDUCT:** “Sustained findings by agencies that an officer committed specific types of misconduct, including sexual assault, excessive force, dishonesty, prejudical action, unlawful arrest, and unlawful search”
 
 {% hint style="success" %}
 Note: Each record/case can belong to ONE OR ALL three categories.&#x20;
