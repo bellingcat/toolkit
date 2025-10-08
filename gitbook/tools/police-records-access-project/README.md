@@ -52,9 +52,9 @@ Each record is labeled in a neutral manner, indicating only a date and who provi
 \
 The broad categories of included cases are Force, Shooting, and Misconduct.  These are defined by the tool providers [as follows](https://clean.calmatters.org/about#Methodology):&#x20;
 
-* **FORCE:** “Police use-of-force incidents causing 'great bodily injury' or death”
-* **SHOOTING:** “Police shootings, fatal or not, including accidental and missed shots”
-* **MISCONDUCT:** “Sustained findings by agencies that an officer committed specific types of misconduct, including sexual assault, excessive force, dishonesty, prejudical action, unlawful arrest, and unlawful search”
+* **FORCE:** “Police use-of-force incidents causing 'great bodily injury' or death”;
+* **SHOOTING:** “Police shootings, fatal or not, including accidental and missed shots”;
+* **MISCONDUCT:** “Sustained findings by agencies that an officer committed specific types of misconduct, including sexual assault, excessive force, dishonesty, prejudical action, unlawful arrest, and unlawful search”.
 
 {% hint style="success" %}
 Note: Each record/case can belong to ONE OR ALL three categories.&#x20;
