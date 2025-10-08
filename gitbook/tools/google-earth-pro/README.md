@@ -87,9 +87,7 @@ It can be helpful to measure distances and areas on satellite images. For exampl
 
 <figure><img src=".gitbook/assets/unknown (10).png" alt=""><figcaption></figcaption></figure>
 
-3\. Set as many points as you like on the Google Earth Pro map to create a polygon that covers your area of interest as accurately as possible. To do so, make sure sure to set one point after the other along the borders of the area in order to get a uniform surface. You can also move points afterwards (hover over them until the hand tool appears); the blue point is the one from which you can continue drawing.
-
-4\. Remove erroneously set points with the Del key
+3\. Set as many points as you like on the Google Earth Pro map to create a polygon that covers your area of interest as accurately as possible. To do so, make sure sure to set one point after the other along the borders of the area in order to get a uniform surface. You can also move points afterwards (hover over them until the hand tool appears); the blue point is the one from which you can continue drawing. Remove erroneously set points with the Delete key on your keyboard
 
 ### Show elevation profile
 
