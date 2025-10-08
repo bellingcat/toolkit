@@ -87,7 +87,7 @@ It can be helpful to measure distances and areas on satellite images. For exampl
 
 <figure><img src=".gitbook/assets/unknown (10).png" alt=""><figcaption></figcaption></figure>
 
-3\. Set as many points as you like on the Google Earth map to create a polygon that covers your area of interest as accurately as possible. You have to set the points in the right order to get a uniform surface, you can also move points afterwards (hover over them until the hand tool appears); the blue point is the one from which you continue drawing.
+3\. Set as many points as you like on the Google Earth map to create a polygon that covers your area of interest as accurately as possible. You have to set the points in the right order to get a uniform surface. You can also move points afterwards (hover over them until the hand tool appears); the blue point is the one from which you continue drawing.
 
 While setting points on the map, moving around is possible on the keyboard (arrows or WASD).
 
