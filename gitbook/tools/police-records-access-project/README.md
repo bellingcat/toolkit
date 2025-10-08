@@ -75,10 +75,10 @@ _**How To Search**_
 
 The search functionality is straightforward to use. The key features are keyword search, filter, and viewing records as PDF:
 
-1. Keyword search:  Users can perform a general search for officer names, locations or specific terms&#x20;
+1. Keyword search: Users can perform a general search for officer names, locations or specific terms.
 2. Filters: Search can be refined by
 
-* County.&#x20;
+* County
 
 Based on our tests, the records have been categorized from approximately 56 out of the [58 counties](https://www.counties.org/counties/) in California.&#x20;
 
