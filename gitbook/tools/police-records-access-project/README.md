@@ -127,7 +127,6 @@ PDF reader
 * Searches can miss relevant documents if different terminology is used ([e.g., “taser” vs. “electronic control weapon”](https://clean.calmatters.org/about#Important-Notes)). Users should always review the underlying government records.
 * There is a time lag as police agencies must [conclude an investigation](https://clean.calmatters.org/about#Important-Notes) before it is added to the database.&#x20;
 * A successful public records request must be completed to access some _**\[@afton not clear here what gets auto included and what doesn't]**_ of the data.
-* Some information may appear in multiple files.
 * Images, video and audio from incidents is not included.
 * There is no immediately visible graphic content warning. The warning sign is small and not easy to find.&#x20;
 * There is a caveat in the below image indicating that the search results may not necessarily identify all relevant documents/cases. Search results may also have incomplete information and that users should verify information found in the database. &#x20;
