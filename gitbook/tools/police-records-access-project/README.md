@@ -83,8 +83,8 @@ The search functionality is straightforward to use. The key features are keyword
 Based on our tests, the records have been categorized from approximately 56 out of the [58 counties](https://www.counties.org/counties/) in California.&#x20;
 
 * Law enforcement agency
-* Date range&#x20;
-* Case type
+* Case type&#x20;
+* Date range
 
 \
 
