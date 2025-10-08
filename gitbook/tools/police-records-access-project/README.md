@@ -125,8 +125,7 @@ PDF reader
 * The database does not cover all cases of police misconduct, [its focus is on the following cases](https://clean.calmatters.org/about#Important-Notes): "cases of 'sustained' findings of sexual assault, excessive force, dishonesty, prejudical action, unlawful arrest, and unlawful search or where an officer was accused of those actions and left the agency before the investigation was completed".
 * While information that can identify a person [has usually been redacted](https://clean.calmatters.org/about#Important-Notes), some files that still contained such type of information were excluded from the database.
 * Searches can miss relevant documents if different terminology is used ([e.g., “taser” vs. “electronic control weapon”](https://clean.calmatters.org/about#Important-Notes)). Users should always review the underlying government records.
-* There is a time lag as police agencies must conclude an investigation before it is added to the database.&#x20;
-* Some records may be added after an investigation into a police shooting is closed and the agencies release the requested records.
+* There is a time lag as police agencies must [conclude an investigation](https://clean.calmatters.org/about#Important-Notes) before it is added to the database.&#x20;
 * A successful public records request must be completed to access some _**\[@afton not clear here what gets auto included and what doesn't]**_ of the data.
 * Some information may appear in multiple files.
 * Images, video and audio from incidents is not included.
