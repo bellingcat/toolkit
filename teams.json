@@ -3610,5 +3610,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "1PT2OqQ5Q1C75xLoFq59",
+    "title": "OpenAerialMap",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-10-08T20:45:17.557Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]

@@ -9707,5 +9707,42 @@
     "mergeRules": {
       "type": "inherit"
     }
+  },
+  {
+    "object": "space",
+    "id": "L8Yq1EcHwa8KyMQeYT5Q",
+    "title": "OpenAerialMap",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-10-08T20:45:17.157Z",
+    "updatedAt": "2025-10-08T20:45:17.157Z",
+    "editMode": "locked",
+    "urls": {
+      "location": "/spaces/L8Yq1EcHwa8KyMQeYT5Q",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/L8Yq1EcHwa8KyMQeYT5Q/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "H7HdQQbugoU5VAdlxKdh",
+    "revision": "4fpIDfRiZIk8RtCoasP0",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "viewInviteLinks": true,
+      "edit": true,
+      "triggerGitSync": true,
+      "comment": true,
+      "merge": true,
+      "review": true,
+      "installIntegration": true
+    },
+    "mergeRules": {
+      "type": "inherit"
+    }
   }
 ]
