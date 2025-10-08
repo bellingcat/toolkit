@@ -65,7 +65,7 @@ You can also download KML data from other external sources and open them in Goog
 
 ### Measuring distances and areas
 
-It can be helpful to measure distances and areas on satellite images. For example, you can calculate the size of [ships](https://www.bellingcat.com/resources/2015/05/22/back-of-the-envelope-on-the-dprks-new-slbm/?utm_.com), helicopters, cars or plots of land using Google Earth Pro.
+It can be helpful to measure distances and areas on satellite images. For example, you can calculate the size of [ships](https://www.bellingcat.com/resources/2015/05/22/back-of-the-envelope-on-the-dprks-new-slbm/?utm_.com), helicopters, or plots of land using Google Earth Pro.
 
 #### **Measuring distances**
 
