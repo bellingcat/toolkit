@@ -16,7 +16,7 @@ The Police Record Access Project is a [publicly searchable database](https://cle
 
 _**Where is the data from?**_
 
-Since 2019, members of the [California Reporting Project](https://projects.scpr.org/california-reporting-project/) have requested data from [“nearly 700 law enforcement agencies”](https://clean.calmatters.org/about) in California
+Since 2019, members of the [California Reporting Project](https://projects.scpr.org/california-reporting-project/) have requested data from [“nearly 700 law enforcement agencies”](https://clean.calmatters.org/about) in California.
 
 [According to the tool provider](https://clean.calmatters.org/about), these agencies include:&#x20;
 
