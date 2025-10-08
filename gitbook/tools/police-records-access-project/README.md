@@ -128,7 +128,7 @@ PDF reader
 * There is a time lag as police agencies must [conclude an investigation](https://clean.calmatters.org/about#Important-Notes) before it is added to the database.&#x20;
 * A successful public records request must be completed to access some _**\[@afton not clear here what gets auto included and what doesn't]**_ of the data.
 * Images, video and audio from incidents is not included.
-* There is no immediately visible graphic content warning. The warning sign is small and not easy to find.&#x20;
+* There is no graphic content warning which is immediately visible. The warning sign is small and not easy to find.&#x20;
 * There is a caveat in the below image indicating that the search results may not necessarily identify all relevant documents/cases. Search results may also have incomplete information and that users should verify information found in the database. &#x20;
 
 <figure><img src=".gitbook/assets/2025-09-21_21-18-37-limitation.png" alt=""><figcaption><p>This is a caveat at the bottom of the main search results - and a graphic content warning that is not easy to find.</p></figcaption></figure>
