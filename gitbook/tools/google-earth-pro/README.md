@@ -54,7 +54,7 @@ To see historical imagery on Google Earth Pro (the desktop version), select the 
 
 ### Label map
 
-This is a simple, yet effective tool for your day to day work with Google Earth Pro. Labeling different items on your map helps you mark places that are relevant for your research allowing you to come back to them at a later point in time.
+This is a simple, yet effective tool for your day to day work with Google Earth Pro. Labeling different items on your map helps you mark places that are relevant for your research which allows you to come back to them at a later point in time.
 
 <figure><img src=".gitbook/assets/unknown (4).png" alt=""><figcaption></figcaption></figure>
 
