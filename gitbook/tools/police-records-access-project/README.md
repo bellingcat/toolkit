@@ -92,7 +92,7 @@ The search functionality is straightforward to use. The key features are keyword
 
 _**How to View and Search Specific Records**_
 
-Each case provides access to the original, redacted PDF documents. Each case can contain more than one document, and each document can contain several pages. Users can search through all documentes related to a case by using a dedicated search bar.&#x20;
+Each case provides access to the original, redacted PDF documents. Each case can contain more than one document, and each document can contain several pages. Users can search through all documents related to a case via a dedicated search bar.&#x20;
 
 <figure><img src=".gitbook/assets/unknown (1).png" alt=""><figcaption><p>When clicking on a specific search result, users are shown the list of documents associated with that case. Note the search bar that searches documents specific to the case in question. </p></figcaption></figure>
 
