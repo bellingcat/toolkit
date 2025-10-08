@@ -122,7 +122,7 @@ PDF reader
 * The dataset does not include all use-of-force cases. [Only two types of use-of-force incidents are covered](https://clean.calmatters.org/about#Important-Notes) in the database:
   * "Discharge of a weapon at a person by police (excluding tasers, paintball guns, or other weapons using less lethal ammunition)."
   * "Police uses of force resulting in death or 'great bodily injury'"
-* The database also does not include all allegations of police misconduct. It only contains cases of “sustained” findings of sexual assault, excessive force, dishonesty, prejudical action, unlawful arrest, and unlawful search or where an officer was accused of those actions and left the agency before the investigation was completed.
+* The database does not cover all cases of police misconduct, [its focus is on the following cases](https://clean.calmatters.org/about#Important-Notes): "cases of 'sustained' findings of sexual assault, excessive force, dishonesty, prejudical action, unlawful arrest, and unlawful search or where an officer was accused of those actions and left the agency before the investigation was completed".
 * Some of the sensitive content has been redacted. Records where government agencies failed to redact personally identifying sensitive information are not listed in search results and some cases will display no files where those files have sensitive information.
 * Searches can miss relevant documents if different terminology is used (e.g., “taser” vs. “electronic control weapon”). Users should always review the underlying government records.
 * There is a time lag as police agencies must conclude an investigation before it is added to the database.&#x20;
