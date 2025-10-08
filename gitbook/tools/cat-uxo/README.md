@@ -37,7 +37,7 @@ For each unique model, the database provides images of the EO and a detailed des
 
 **Some of the practical applications of this tool for open-source researchers are:**
 
-1. **Visual Aids/ Visual Matching: O**pen-source researchers verifying conflict-related imagery can use the repository to check if any physical characteristics match or if they are similar.
+1. **Visual Aids/ Visual Matching:** Open-source researchers verifying conflict-related imagery can use the repository to check if any physical characteristics match or if they are similar.
 2. **Applicable technical specifications:** Open-source researchers can find useful specific technical information (i.e. dimensions, colors, documented markings) to verify munitions identified in news reports or on social media platforms.
 
 ### EO TYPES AND EXPLAINERS
