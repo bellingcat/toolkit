@@ -184,7 +184,7 @@ You can insert satellite imagery from other sources into Google Earth Pro. That 
 
 ## Limitations
 
-While Google Earth is a powerful tool for geographical information systems, it does have some limitations that researchers should consider:
+While Google Earth is a powerful tool for geographical information systems, it does have some limitations that researchers should keep in mind:
 
 * **Availability of up to date satellite imagery:** While Google Earth Pro offers satellite imagery for free, it is not always very recent and it depends on the location how often it is updated. Open source researchers who need both up to date and high resolution imagery will need to use another satellite imagery provider.
 * **Data Accuracy and Currency**: Data in Google Earth may not always be up to date, leading to potential discrepancies with current conditions. Users should verify important information through other sources. For more information see [How accurate is Google Earth’s measurements?](https://www.ncesc.com/geographic-faq/how-accurate-is-google-earths-measurements/)
