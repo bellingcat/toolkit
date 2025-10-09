@@ -100,7 +100,7 @@ Choose this tool if you wish to see how the height changes along a path.
 ### Measuring building (or another object) height
 
 1. Check if the building is rendered in 3D through enabling the 3D-mode in the layer section. Note: Not all regions are covered by 3D.
-2. Enable the terrain layer
+2. Enable the terrain layer.
 
 <figure><img src=".gitbook/assets/unknown (11).png" alt="" width="234"><figcaption></figcaption></figure>
 
