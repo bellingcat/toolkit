@@ -143,7 +143,7 @@ Primary use: Geolocating photos and videos. By comparing shadow patterns, you ca
 
 1. First step: Activate the 3D Buildings layer to view realistic shadows.
 
-Note: not all regions are covered with 3D view
+Note: not all regions have 3D views.
 
 2. Click on the sun symbol in the top menu
 
