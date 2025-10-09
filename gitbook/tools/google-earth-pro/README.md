@@ -147,7 +147,7 @@ Note: not all regions have 3D views.
 
 2. Click on the sun symbol in the top menu
 
-Note: you can simulate the sun's movement for an entire year – meaning a full earth orbit around the sun. This allows you to view shadow patterns for any day and time of the year.
+Note: You can simulate the sun's movement for an entire year – meaning a full earth orbit around the sun. This allows you to view shadow patterns for any day and time of the year.
 
 <figure><img src=".gitbook/assets/unknown (15).png" alt=""><figcaption></figcaption></figure>
 
