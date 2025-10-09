@@ -48,7 +48,7 @@ The use of historical images can be helpful for:
 
 <figure><img src=".gitbook/assets/unknown (1).png" alt=""><figcaption><p>In a <a href="https://www.bellingcat.com/resources/how-tos/2019/03/05/how-to-use-google-earths-three-dimensional-view-feat-syria-yemen-sudan/">Bellingcat article</a>, digital investigator Benjamin Strick describes how the past imagery feature of Google Earth Pro helped him see different views of <a href="https://www.youtube.com/watch?v=AuNDd_pteRQ">a prison in Sudan</a> by using satellite images taken from several angles. He also explains how the positions of shadows in a video of Sudan’s security forces firing in the air during a protest build-up in 2018 made it possible to geolocate the footage.</p></figcaption></figure>
 
-To see historical imagery in Google Earth Pro (the desktop version), select the clock symbol with the arrow in the top menu. A bar now appears in the top left-hand corner showing all available images from the past. You can use the arrow buttons to jump between the individual recordings. The width of the slider shows the time span of available recordings, the vertical colored strips show the approximate time of the recording.
+To see historical imagery in Google Earth Pro (the desktop version), select the clock symbol with the arrow in the top menu. A bar now appears in the top left-hand corner showing all available images from the past. You can use the arrow buttons to jump between the different images. The width of the slider shows the time span of available images, the vertical colored strips show the approximate time when the imagery was taken.
 
 <figure><img src=".gitbook/assets/unknown (3).png" alt=""><figcaption></figcaption></figure>
 
