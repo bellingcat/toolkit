@@ -105,7 +105,7 @@ Choose this tool if you wish to see how the height changes along a path.
 <figure><img src=".gitbook/assets/unknown (11).png" alt=""><figcaption></figcaption></figure>
 
 3. Find the highest point of the building. Move your cursor to the highest point of the building. The height will be displayed in the status bar at the bottom (make sure to check the correct unit!).
-4.  Determine the ground level: Identify the elevation at the base of the building.\\
+4.  Determine the ground level: Identify the elevation at the base of the building.
 
     <figure><img src=".gitbook/assets/Bildschirmfoto 2025-10-02 um 17.50.31.png" alt=""><figcaption></figcaption></figure>
 5. Calculate the height. Subtract the ground elevation from the building’s highest point – and there you have it!
