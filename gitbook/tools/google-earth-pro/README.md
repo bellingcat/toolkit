@@ -139,7 +139,7 @@ Note: If you import something into the “Temporary Places” folder it won’t 
 
 ### Shadow and Sun simulation tool
 
-Primary use: Geolocating photos and videos. By comparing shadow patterns, you can estimate the time a photo was taken, if the shadow in Google Earth matches the one in the image. But there are things to consider: Google Earth does not show exact shadow projections for all regions – the accuracy depends on the underlying data.
+Primary use: Geolocating photos and videos. By comparing shadow patterns, you can estimate at which time a photo was taken, if the shadow in Google Earth matches the one in the image. But there are things to consider: Google Earth does not show exact shadow projections for all regions – the accuracy depends on the underlying data.
 
 1. First step: Activate the 3D Buildings layer to view realistic shadows.
 
