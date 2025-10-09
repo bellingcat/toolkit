@@ -163,7 +163,7 @@ In Historical Mode, 3D buildings remain visible, but they do not adjust to refle
 
 You can insert satellite imagery from other sources into Google Earth Pro. That might be helpful whenever you have access to more recent imagery or a higher resolution, as the quality of Google Earth Pro data varies a lot depending on the region.
 
-1. All you have to do is download the image in .tif format.
+1. All you have to do is download the image in [.tif](https://en.wikipedia.org/wiki/TIFF) format.
 2. Then drag and drop it into “places” on the left side.
 
 ## Cost
