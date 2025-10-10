@@ -118,7 +118,7 @@ PDF reader
 
 ## Limitations&#x20;
 
-* Although the database is updated every 24 hours it currently only contains records from 2015 to 2023.&#x20;
+* [Records have a lag time between when they are requested via public records requests and when they appear in the database. At launch, the database covered 2015-2023 and updates every 24 hours with newly available records (see minute 3:15).](https://www.youtube.com/watch?v=svPcA5XvJ6U)&#x20;
 * The dataset does not include all use-of-force cases. [Only two types of use-of-force incidents are covered](https://clean.calmatters.org/about#Important-Notes) in the database:
   * "Discharge of a weapon at a person by police (excluding tasers, paintball guns, or other weapons using less lethal ammunition)."
   * "Police uses of force resulting in death or 'great bodily injury'"
