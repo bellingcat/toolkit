@@ -45,7 +45,7 @@ _**How was the database built and categorized?**_&#x20;
 
 According to the tool providers’ [methodology](https://clean.calmatters.org/about) (paragraph 3), the database was built using technologies such as generative AI, coupled with a manual review of a subset of cases per year.&#x20;
 
-Each record is labeled in a neutral manner, indicating only a date and who provided the documents.&#x20;
+Each record is labeled neutrally, indicating only the incident date and the agency that provided the documents.&#x20;
 
 **Example:** 2/18/2024 - Documents provided by the San Diego Police Department, San Diego County&#x20;
 
@@ -133,8 +133,12 @@ PDF reader
 
 <figure><img src=".gitbook/assets/2025-09-21_21-18-37-limitation.png" alt=""><figcaption><p>This caveat is mentioned at the bottom of the main search results. It includes a graphic content warning which can easily be overlooked. </p></figcaption></figure>
 
-* Be aware that records may change or be updated: "Information about a case can change as agencies submit new or updated records" is specified [on the top of the search bar](https://clean.calmatters.org/).&#x20;
-* The tool has weaknesses in terms of how it records or displays dates. It is often unclear whether the date provided refers to the incident, the request, or another point in time. For example, [one record](https://clean.calmatters.org/cases/1743019578959-kdy) lists the date as October 31, 2023, but the[ underlying document](https://cleanpdfs.blob.core.windows.net/pdfs/74/28/04/742804475f8535e404fa8eae232a8b80d1cf31f6) cites an incident date of September 2014. This inconsistency makes it difficult for users to determine to which event the system’s listed date is actually tied to, reducing clarity and reliability for users reviewing case information.
+* Be aware that records may change or be updated: "Information about a case can change as agencies submit new or updated records" is specified at[ the top of the search bar](https://clean.calmatters.org/).&#x20;
+* Be aware of potential errors in some record dates. During our tests, we found that the dates in the records list (see screenshot below) refer to the incident date.&#x20;
+
+<figure><img src=".gitbook/assets/2025-10-10_14-21-43.png" alt=""><figcaption><p>The date highlighted in the blue box is the date of the incident. However, a few records may not display the correct date. Users are encouraged to cross check with other sources. </p></figcaption></figure>
+
+However, some dates are not accurately displayed. For example, [one record](https://clean.calmatters.org/cases/1743019578959-kdy) lists the date as October 31, 2023, but the[ underlying document](https://cleanpdfs.blob.core.windows.net/pdfs/74/28/04/742804475f8535e404fa8eae232a8b80d1cf31f6) cites an incident date of September 2014. This inconsistency makes it difficult for users to determine to which event the system’s listed date is actually tied to.&#x20;
 
 ## Ethical Considerations&#x20;
 
