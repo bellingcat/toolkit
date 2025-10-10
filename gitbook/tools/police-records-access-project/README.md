@@ -161,43 +161,7 @@ PDF reader
 
 ## Tool providers&#x20;
 
-Based on [this](https://clean.calmatters.org/about#Who-we-are):
-
-[ACLU of Southern California](https://www.aclusocal.org/)
-
-[ACLU of Northern California](https://www.aclunc.org/)
-
-[Bay Area News Group](https://www.mercurynews.com/) / [Southern California News Group](https://www.ocregister.com/)
-
-[Berkeley Institute for Data Science](https://bids.berkeley.edu/)
-
-[Big Local News at Stanford University](https://biglocalnews.org/content/about/)
-
-[CapRadio](https://www.capradio.org/)
-
-[EPIC Data Lab](https://epic.berkeley.edu/)
-
-[Human Rights Data Analysis Group](https://hrdag.org/)
-
-[Innocence Project](https://innocenceproject.org/)
-
-[The Investigative Reporting Program at the UC Berkeley School of Journalism](https://journalism.berkeley.edu/)
-
-[LAist](https://laist.com/)
-
-[KQED](https://www.kqed.org/news/)
-
-[Los Angeles Times](https://www.latimes.com/)
-
-[National Association of Criminal Defense Lawyers](https://www.nacdl.org/)
-
-[UC Berkeley School of Law](https://www.law.berkeley.edu/)
-
-[UC Irvine School of Law](https://www.law.uci.edu/)
-
-## Similar tools
-
-
+Community Law Enforcement Accountability Network, USA. See the list of members [here. ](https://clean.calmatters.org/about#Who-we-are)
 
 ## Advertising Trackers
 
