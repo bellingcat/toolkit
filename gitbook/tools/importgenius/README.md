@@ -37,8 +37,8 @@ A wide range of other sites provide a similar service, with  different country c
 ## Cost
 
 * [ ] Free
-* [x] Partially Free
-* [ ] Paid
+* [ ] Partially Free
+* [x] Paid
 
 See [pricing](https://www.importgenius.com/pricing) here. Data pulls and temporary complimentary access are available to journalists and journalism students. This is provided at ImportGenius' discretion, and the length of access will vary by project. They will work with students in other fields and universities on a case-by-case basis.
 
