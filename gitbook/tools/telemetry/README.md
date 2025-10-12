@@ -1,6 +1,6 @@
 ---
-description: An analytical search tool for Telegram groups and channels.
 updated: '2025-08-18'
+description: An analytical search tool for Telegram groups and channels.
 ---
 
 # Telemetry
@@ -11,20 +11,16 @@ updated: '2025-08-18'
 
 ## Description
 
-According to its [website](https://www.telemetryapp.io/product) Telemetry has data from more than 1m+ Telegram channels and 2.5b+ messages, and supports boolean search queries that return results from public Telegram messages, groups, and channels, allowing for analysis of group and individual activity on the platform.&#x20;
+According to its [website](https://www.telemetryapp.io/product) Telemetry has data from more than 1m+ Telegram channels and 2.5b+ messages, and supports boolean search queries that return results from public Telegram messages, groups, and channels, allowing for analysis of group and individual activity on the platform.
 
 The platform can be used to identify in which groups certain topics or terminology are being discussed or to search for conversations taking place in certain groups or channels.
 
-
-
 * _For example, searching for "climate" in "Messages" returned results of public Telegram messages using the term, and provided information on each message's view count, reply count, and an option to dive into channel analytics_
 
-&#x20;      ![](<.gitbook/assets/image (4).png>)
-
-
+![](<.gitbook/assets/image (4).png>)
 
 * _Searching the same query within "Channels" provides a list of possible channels utilising the terminology._\
-  &#x20;![](<.gitbook/assets/image (5).png>)
+  <img src=".gitbook/assets/image (5).png" alt="" data-size="original">
 
 The platform also offers analytics pages for a given group or channel, allowing access to metadata and analytics about the group or channel, such as the total engagement, number of subscribers/members, mentioned groups and channels, a filtered view of post types, and more.
 
