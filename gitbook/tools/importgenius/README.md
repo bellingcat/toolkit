@@ -10,7 +10,7 @@ description: Commercial supplier of trade data for 23 countries.
 
 ## Description
 
-ImportGenius is an online database of trade data (imports and exports) for countries including the US, Russia and India. The list of countries is on the [pricing page](https://www.importgenius.com/pricing) (scroll down to 'Global trade data'), though ImportGenius can provide journalists with records for countries which they haven't yet added to their platform. Data sources include government public records, customs agencies and trade databases.
+ImportGenius is an online database of trade data (imports and exports) for countries including the US, Russia and India. The list of countries is on the [pricing page](https://www.importgenius.com/pricing) (scroll down to 'Global trade data'), though ImportGenius can provide journalists with records for countries which they haven't yet added to their platform. [Data sources include](https://www.importgenius.com/how-it-works) government public records, customs agencies and trade databases.
 
 When logged in you can do custom searches:
 
