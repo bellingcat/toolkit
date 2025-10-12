@@ -1,8 +1,7 @@
 ---
 description: >-
-  A natural language (i.e. human conversational language) interface for querying
-  the OpenStreetMap database to find locations which meet the search criteria
-  described by the user.
+  A natural language interface for querying the OpenStreetMap database to find
+  locations which meet the search criteria described by the user.
 ---
 
 # Spot
