@@ -48,7 +48,7 @@ Spot works in 4 stages, from natural language input to streetview comparison of 
 {% step %}
 ### Natural Language Query Input
 
-Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language, and converts these sentences into query language  code with a formal structure (which is displayed to the user in a separate box in the interface) called [Overpass Query Language](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL).
+Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language, and converts these sentences into query language code with a formal structure (which is displayed to the user in a separate box in the interface) called [Overpass Query Language](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL).
 
 ![](<.gitbook/assets/image (6) (1).png>)![](<.gitbook/assets/image (8) (1).png>)
 {% endstep %}
@@ -56,7 +56,7 @@ Spot takes natural language prompts as input from the user, i.e. sentences writt
 {% step %}
 ### Run Overpass Query on the OpenStreetMap Database
 
-Spot  uses the query  language code to perform a search of OpenStreetMap (by building an Overpass query and running it with the [Overpass API](https://wiki.openstreetmap.org/wiki/Overpass_API)).
+Spot uses the query  language code to perform a search of OpenStreetMap (by building an Overpass query and running it with the [Overpass API](https://wiki.openstreetmap.org/wiki/Overpass_API)).
 {% endstep %}
 
 {% step %}
@@ -70,7 +70,7 @@ Spot displays all the features which satisfy the user's input search on a map. I
 {% step %}
 ### Offer A Choice of Streetview Options for Each Solution Feature
 
-For each feature marked on the output map, Spot offers the user the option to open a [street view](#user-content-fn-4)[^4] window within the tool, using data from a choice of three of the largest providers of street view photography (Google, Yandex, and Bing).
+For each feature marked on the output map, Spot offers the user the option to open a [street view](#user-content-fn-4)[^4] window within the tool, using data from a choice of three of the largest providers of street view photography ([Google](https://app.gitbook.com/u/ViCSKrNRRpZOOjQVlfLHkPMJAqw1), [Yandex](https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps), and [Bing](https://bellingcat.gitbook.io/toolkit/more/all-tools/bing-maps)).
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
