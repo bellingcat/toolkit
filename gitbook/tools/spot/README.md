@@ -267,7 +267,7 @@ It is possible for users to disable cookiless tracking
 | Anisa Shabir and Sophie Tedling GMT 31/8/25 |
 |                                             |
 
-[^1]: [Open Street Map](https://www.openstreetmap.org/) is a free, open map database of the world, which is updated and maintained by a community of volunteers via collaborative working. 
+[^1]: [Open Street Map](https://www.openstreetmap.org/) is a free, open map database of the world, which is updated and maintained by a community of volunteer contributors.
 
 [^2]: i.e. human conversational language
 
