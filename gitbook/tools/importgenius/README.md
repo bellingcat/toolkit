@@ -60,7 +60,7 @@ Data provided to ImportGenius varies in quality and completeness.
 
 ## Guides and articles
 
-Watch the first 14 minutes of [this video](https://youtu.be/-j-T3PCcLNg?feature=shared) for an intro to trade data and tips for using it.
+Watch the first 14 minutes of [this video](https://youtu.be/-j-T3PCcLNg?feature=shared) (by the Pulitzer Center) for an intro to trade data and tips for using it.
 
 [ImportGenius webinars and videos](https://www.importgenius.com/webinars)
 
