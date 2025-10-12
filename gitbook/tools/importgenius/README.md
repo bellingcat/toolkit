@@ -26,7 +26,7 @@ ImportGenius has a 'Visual Mapping' view that gives you a network diagram of shi
 
 The network diagram allows you to explore relationships between trading entities. In the diagram above, you can see the other companies to which the exporter (in blue) provided shipments.
 
-You can export search results, save searches so it's easy to repeat them, and get email alerts when when new shipments matching your search criteria clear Customs.
+You can export search results, save searches so it's easy to repeat them, and get email alerts when new shipments matching your search criteria clear Customs.
 
 Fields provided include at least one of the parties involved in the transaction, a description of the goods involved and their weight, and the origin and destination of the shipment. There are additional fields that depend on the source data - report fields differ per country. Note that data for different countries is updated at different intervals.
 
