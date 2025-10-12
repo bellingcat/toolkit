@@ -48,7 +48,7 @@ See [pricing](https://www.importgenius.com/pricing) here. Data pulls and tempora
 
 ## Requirements
 
-\-
+E-Mail address
 
 ## Limitations
 
