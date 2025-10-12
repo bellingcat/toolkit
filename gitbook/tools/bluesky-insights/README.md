@@ -2,6 +2,7 @@
 description: >-
   Bluesky Insights is a free web-based analytics tool for the Bluesky social
   network.
+updated: '2025-10-11'
 ---
 
 # Bluesky Insights
