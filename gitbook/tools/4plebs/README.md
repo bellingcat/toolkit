@@ -1,8 +1,8 @@
 ---
+updated: '2025-08-18'
 description: >-
   Searchable archive of specific 4chan boards that makes it possible to read
   threads after they are purged from 4chan.
-updated: '2025-08-18'
 ---
 
 # 4plebs
@@ -17,14 +17,24 @@ updated: '2025-08-18'
 
 **Features**
 
-* **Search:** filter searches across `Thread No.`, `Subject`, `Username` etc. and search for content in specific boards.
-* **Browse archives:** you can browse the following boards which have been archived:&#x20;
-  * `adv/` Advice `/f/` Flash `/hr/` High Resolution `/o/` Auto `/pol/` Politically Incorrect `[s4s]` Sh\*t 4chan Says `/sp/` Sports `/tg/` Traditional Games `/trv/` Travel `/tv/` Television & Film `/x/` Paranormal
+* **Search:** filter searches across Thread No., Subject, Username etc. and search for content in specific boards.
+* **Browse archives:** you can browse the following boards which have been archived:
+  * `adv/` Advice
+  * `/f/` Flash
+  * `/hr/` High Resolution
+  * `/o/` Auto
+  * `/pol/` Politically Incorrect
+  * `[s4s]` Sh\*t 4chan Says
+  * `/sp/` Sports
+  * `/tg/` Traditional Games
+  * `/trv/` Travel
+  * `/tv/` Television & Film
+  * `/x/` Paranormal
 * **API:** access to a programmable interface to download and search for content.
 
 The example below shows the results of searching for the term _Bellingcat_ across all archives:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-04-23 at 12.49.40 PM.png" alt=""><figcaption><p>Screenshot of search results for the term 'Bellingcat' </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-04-23 at 12.49.40 PM.png" alt=""><figcaption><p>Screenshot of search results for the term 'Bellingcat'</p></figcaption></figure>
 
 ## Cost
 
@@ -59,11 +69,11 @@ The example below shows the results of searching for the term _Bellingcat_ acros
 
 To effectively use 4plebs, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
 
-**Official Wiki**&#x20;
+**Official Wiki**
 
 * [https://archive.4plebs.org/\_/articles/faq/](https://archive.4plebs.org/_/articles/faq/)
 
-&#x20;**Articles**
+**Articles**
 
 4plebs has been used in the course of various online investigations, including:
 
