@@ -26,7 +26,7 @@ Spot is one amongst [a range of OSM search tools](./#similar-tools) which exists
 
 The Spot user can describe a location search in terms of :-
 
-* logical groupings of these map features, e.g. a pharmacy AND[^3] a traffic light
+* groupings of OSM map features, e.g. a pharmacy AND[^3] a traffic light
 * their relative distance from one another, e.g. within 70m of one another
 * the location of a geographical search area, e.g. in Cologne
 
