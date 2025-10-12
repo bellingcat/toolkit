@@ -24,7 +24,7 @@ These features are labelled according to [OSM's own detailed classification syst
 
 Spot is one amongst [a range of OSM search tools](./#similar-tools) which exists to allow users to query OpenStreetMap. These tools all run a search of OpenStreetMap in the same way, but they use different methods to build the user's search query: some involve writing in a formal language, some use a graphical interface. Spot is characterised by the use of [natural language](#user-content-fn-2)[^2] to express the users' search query, and this is a relatively new approach.&#x20;
 
-The Spot user can describe a location search in terms of :-
+The Spot user can describe a location search in terms of :
 
 * groupings of OSM map features, e.g. a pharmacy AND[^3] a traffic light
 * their relative distance from one another, e.g. within 70m of one another
