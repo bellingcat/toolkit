@@ -9744,5 +9744,42 @@
     "mergeRules": {
       "type": "inherit"
     }
+  },
+  {
+    "object": "space",
+    "id": "Pcf6hBMh7H3522okDddO",
+    "title": "ImportGenius",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-10-12T14:59:36.111Z",
+    "updatedAt": "2025-10-12T14:59:36.111Z",
+    "editMode": "locked",
+    "urls": {
+      "location": "/spaces/Pcf6hBMh7H3522okDddO",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/Pcf6hBMh7H3522okDddO/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "svFhzrsOy9kqEP1YTGBh",
+    "revision": "1h78jWbIjLIYoUyyUreP",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "viewInviteLinks": true,
+      "edit": true,
+      "triggerGitSync": true,
+      "comment": true,
+      "merge": true,
+      "review": true,
+      "installIntegration": true
+    },
+    "mergeRules": {
+      "type": "inherit"
+    }
   }
 ]
