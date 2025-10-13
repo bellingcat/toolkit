@@ -173,7 +173,7 @@ To explore a specific result, use the slider to zoom in on the result of your ch
 
 The exact location where the entity is situated can also be opened in the integrated mapping services like Google Maps, Bing, and Yandex. This ensures location verification through multiple mapping services in one place, thus saving time and allowing for greater flexibility. Here, opening the location for church in Google Maps reveals it's located at coordinates [51.5187148,-0.0963922](https://www.google.com/maps/place/@51.5187148,-0.0963922,543m/data=!3m1!1e3!4m6!1m5!3m4!2zNTHCsDMxJzA3LjQiTiAwwrAwNSczNy43Ilc!8m2!3d51.5187222!4d-0.0938056?entry=ttu\&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D).
 
-Use the integrated Google Street View for location verification. Clicking on any blob on the map allows to view the street-level photography of the church's location. On Spot, select one of the points highlighting water from this area, and then open the Google Street view. By exploring the location through street view confirms that this location matches the one in the photo from Instagram above as shown here:
+Use the integrated Google Street View for location verification. Clicking on any blob on the map allows to view the street-level photography of the church's location. On Spot, select one of the points highlighting water from this area, and then open the Google Street view. Exploring the location through street view confirms that this location matches the one in the photo from Instagram above as shown here:
 
 <figure><img src=".gitbook/assets/Screenshot 2025-08-31 at 15.24.35.png" alt=""><figcaption></figcaption></figure>
 
