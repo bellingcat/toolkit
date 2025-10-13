@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-ImportGenius is an online database of trade data (imports and exports) for countries including the US, Russia and India. The list of countries is on the [pricing page](https://www.importgenius.com/pricing) (scroll down to 'Global trade data'), though ImportGenius can provide journalists with records for countries which they haven't yet added to their platform. [Data sources include](https://www.importgenius.com/how-it-works) government public records, customs agencies and trade databases.
+ImportGenius is an online database of trade data (imports and exports) for countries including the US, Russia and India. [Data sources include](https://www.importgenius.com/how-it-works) government public records, customs agencies and trade databases.
 
 When logged in you can do custom searches:
 
@@ -20,7 +20,7 @@ When logged in you can do custom searches:
 
 In the search results, you can see details for a specific shipment by clicking on the 'Details' icon:
 
-<figure><img src=".gitbook/assets/Screenshot 2025-08-26 at 11.24.15.png" alt=""><figcaption><p>Click the eye-shaped  icon to see details for a specific shipment</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-08-26 at 11.24.15.png" alt=""><figcaption><p>Click the eye-shaped  icon to see details for a specific shipment. </p></figcaption></figure>
 
 ImportGenius has a 'Visual Mapping' view that gives you a network diagram of shipments for importers and exporters:
 
@@ -42,7 +42,7 @@ A wide range of other sites provide a similar service, with  different country c
 * [ ] Partially Free
 * [x] Paid
 
-See [pricing](https://www.importgenius.com/pricing) here. Data pulls and temporary complimentary access are available to journalists and journalism students. This is provided at ImportGenius' discretion, and the length of access will vary by project. They will work with students in other fields and universities on a case-by-case basis. Email media@importgenius.com to ask about free access.
+See [pricing](https://www.importgenius.com/pricing) here. Data pulls and temporary complimentary access are available to journalists and journalism students. The free access is usually limited to specific countries and/or periods of time. This is provided at ImportGenius' discretion, and the length of access will vary by project. They will work with students in other fields and universities on a case-by-case basis. Email media@importgenius.com to ask about free access.
 
 ## Level of difficulty
 
@@ -50,11 +50,11 @@ See [pricing](https://www.importgenius.com/pricing) here. Data pulls and tempora
 
 ## Requirements
 
-E-Mail address
+Getting free access (see [Cost](./#cost)).
 
 ## Limitations
 
-Data provided to ImportGenius varies in quality and completeness.
+Data provided to ImportGenius varies in quality and completeness. Like all trade data providers, ImportGenius covers countries for which they can get data - see the [pricing page](https://www.importgenius.com/pricing) (scroll down to 'Global trade data'), though journalists getting free access can email to request data for countries which they haven't yet added to their platform.&#x20;
 
 ## Ethical Considerations
 
@@ -66,7 +66,7 @@ Watch the first 14 minutes of [this video](https://youtu.be/-j-T3PCcLNg?feature=
 
 [ImportGenius webinars and videos](https://www.importgenius.com/webinars)
 
-ImportGenius can provide demos and training to journalists.
+ImportGenius can provide demos and training to journalists who have been given free access.
 
 ## Tool provider
 
