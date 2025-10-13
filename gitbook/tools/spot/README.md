@@ -165,9 +165,9 @@ Taking these features into account, a query for Spot can be constructed that rea
 
 <figure><img src=".gitbook/assets/Screenshot 2025-08-31 at 15.10.38.png" alt=""><figcaption></figcaption></figure>
 
-The red blobs on the map legend represent churches, blue indicates water, and yellow signifies buildings with 10 or more stories. The church, water, and the building are features from an image or video showing a specific location that a user is geolocating.
+The red blobs on the map legend represent churches, blue indicates water, and yellow signifies buildings with 10 or more stories.&#x20;
 
-To explore a specific solution, use the slider to zoom in on the result of your choice.
+To explore a specific result, use the slider to zoom in on the result of your choice.
 
 Then clicking on a specific feature from one of the results shows its details, which include a link to its OSM ID. This link opens a new tab to its location on the OpenStreetMap website, where you can find this entity and explore further. In this case, clicking on the church (higlighted in red) indicates that it's called "St-Giles-without-Cripplegate", its “denomination” is “Anglican” and was “rebuilt” in “1906.” Click on the OSM ID link for more details.
 
