@@ -259,7 +259,7 @@ The tool was developed by [DW Innovation](https://innovation.dw.com/about), Germ
 * [x] This tool uses cookieless tracking.&#x20;
 * [ ] This tool does not appear to use tracking cookies.
 
-It is possible for users to disable cookieless tracking
+It is possible for users to disable cookieless tracking.
 
 | Page maintainer                 |
 | ------------------------------- |
