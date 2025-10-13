@@ -245,7 +245,7 @@ And a video on viewing and interpreting Spot results:
 
 ## Similar Tools
 
-* Bellingcat OpenStreetMap Search
+* [Bellingcat OpenStreetMap Search](https://bellingcat.gitbook.io/toolkit/more/all-tools/openstreetmap-search-tool)
 * [Overpass Turbo](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/yNF6qm7Ej1iALSmdkA3h/)
 
 ## Tool provider
