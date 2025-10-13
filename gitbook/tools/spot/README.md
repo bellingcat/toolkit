@@ -259,12 +259,12 @@ The tool was developed by [DW Innovation](https://innovation.dw.com/en/articles)
 * [x] This tool uses cookieless tracking.&#x20;
 * [ ] This tool does not appear to use tracking cookies.
 
-It is possible for users to disable cookiless tracking
+It is possible for users to disable cookieless tracking
 
-| Page maintainer                             |
-| ------------------------------------------- |
-| Anisa Shabir and Sophie Tedling GMT 31/8/25 |
-|                                             |
+| Page maintainer                 |
+| ------------------------------- |
+| Anisa Shabir and Sophie Tedling |
+|                                 |
 
 [^1]: [Open Street Map](https://www.openstreetmap.org/) is a free, open map database of the world, which is updated and maintained by a community of volunteer contributors.
 
