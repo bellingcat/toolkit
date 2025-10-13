@@ -120,7 +120,7 @@ Search features are highlighted in different colours, and users can select or de
 
 To confirm which result matches our required location, one must sift through all the available possibilities on the map.&#x20;
 
-The exact location where the entity is situated can also be viewed in integrated mapping services, such as Google Maps, Bing, and Yandex. This ensures location verification through multiple mapping services in one place, thus saving time and allowing for greater flexibility.
+The exact location where the entity is situated can also be viewed in integrated mapping services, such as [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps), [Bing](https://app.gitbook.com/u/ViCSKrNRRpZOOjQVlfLHkPMJAqw1), and [Yandex](https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps). This ensures location verification through multiple mapping services in one place, thus saving time and allowing for greater flexibility.
 
 Spot has also integrated Google Street View for location verification. Clicking on “Open Google Street View” opens a window displaying the location's street-level photography. Use this feature to match entities and features against the photo or video being geolocated.
 
