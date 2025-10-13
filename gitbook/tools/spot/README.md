@@ -231,15 +231,15 @@ All tools which query OpenStreetMap share the limitations which the structure of
 
 ## Guides and articles
 
-Spot offers a introductory tutorial on how to use the tool on its website
+Spot offers a introductory tutorial on how to use the tool on its website:
 
 {% embed url="https://www.youtube.com/watch?t=10s&v=vwsfaiy_5ck" fullWidth="false" %}
 
-There is a more detailed video on Prompting
+There is also a more detailed video on Prompting:
 
 {% embed url="https://www.youtube.com/watch?v=wfLSdDrWMC4" %}
 
-There is also training on viewing and interpreting Spot results
+And a video on viewing and interpreting Spot results:
 
 {% embed url="https://www.youtube.com/watch?v=RMRumWNf298" %}
 
