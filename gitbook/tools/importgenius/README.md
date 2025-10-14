@@ -24,9 +24,9 @@ In the search results, you can see details for a specific shipment by clicking o
 
 The [HS code](https://www.wcoomd.org/en/topics/nomenclature/overview/what-is-the-harmonized-system.aspx) is a standardised, multi-digit code that classifies traded products. The first six digits are used by [over 200 countries](https://www.maersk.com/logistics-explained/shipping-documentation/2023/08/27/what-are-hs-codes), but the subsequent ones are nationally defined. In the screenshot above, 300409 is for 'Pharmaceutical products, Other' (see the World Customs Organisation's [search](https://www.wcotradetools.org/en/harmonized-system)). ImportGenius covers different modes of transport for different countries, depending on what data they are able to source. In the picture above, the Indian port 'Delhi Air' means that the goods were airfreighted from New Delhi.
 
-ImportGenius has a 'Visual Mapping' view that gives you a network diagram of shipments for importers and exporters:
+ImportGenius has a 'Visual Mapping' view that gives you a knowledge graph of shipments for importers and exporters:
 
-<figure><img src=".gitbook/assets/Screenshot 2025-08-27 at 08.57.54.png" alt=""><figcaption><p>Network diagram for an exporter (blue) showing all importers who received their products for a given period</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-08-27 at 08.57.54.png" alt=""><figcaption><p>Knowledge graph for an exporter (blue) showing all importers who received their products for a given period</p></figcaption></figure>
 
 The network diagram allows you to explore relationships between trading entities. In the diagram above, you can see the other companies to which the exporter (in blue) provided shipments.
 
