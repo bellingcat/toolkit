@@ -56,7 +56,7 @@ Getting free access (see [Cost](./#cost)).
 
 ## Limitations
 
-Data provided to ImportGenius varies in quality and completeness. They provide data 24 countries and the Panama Canal. South and Central America have the best coverage.
+Data provided to ImportGenius varies in quality and completeness. They provide data for 24 countries and the Panama Canal. South and Central America have the best coverage.
 
 ## Ethical Considerations
 
