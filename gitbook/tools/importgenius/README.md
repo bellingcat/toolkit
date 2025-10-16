@@ -36,7 +36,7 @@ Fields provided include at least one of the parties involved in the transaction,
 
 All modes of transport (e.g. ship, road) are covered, except for the United States, which is maritime only.
 
-A wide range of other sites provide a similar service, with  different country coverage. Most do not offer free access to journalists. Free access to US trade data is available through [ImportYeti](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/GJyHaCYBR6gnNIW1tHhY/).
+A wide range of other sites provide a similar service, with  different country coverage. Most do not offer free access to journalists. Free access to US trade data is available through [ImportYeti](https://bellingcat.gitbook.io/toolkit/more/all-tools/importyeti).
 
 ## Cost
 
