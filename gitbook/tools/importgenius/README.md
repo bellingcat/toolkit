@@ -52,7 +52,7 @@ See [pricing](https://www.importgenius.com/pricing) here. Data pulls and tempora
 
 ## Requirements
 
-Getting free access (see [Cost](./#cost)).
+Pay a yearly or monthly fee or ask for free access if you are a journalist (see [Cost](./#cost)).
 
 ## Limitations
 
