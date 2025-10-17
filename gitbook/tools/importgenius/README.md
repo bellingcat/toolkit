@@ -2,6 +2,7 @@
 description: >-
   Commercial supplier of trade data for 23 countries. Paid service but
   journalists can ask for free access.
+updated: '2025-10-16'
 ---
 
 # ImportGenius
