@@ -58,7 +58,7 @@ Josephine Lulamae's article, [War Crimes OSINT, Harassment, Doxxing Police and P
 
 ## Tool provider
 
-No information provided beyond [https://www.toolpie.com/](https://www.toolpie.com/).
+Tool provider unknown. No information provided beyond [https://www.toolpie.com/](https://www.toolpie.com/).
 
 ## Similar tools
 
