@@ -26,8 +26,6 @@ Upload two separate photos to the "Upload face photo" sections, then click on "S
 
 In this example, two known photos of a missing person were used, and the results came back at a 95% match that it was them. Ten different photos of the same missing person were used to test the site; all returned a 90% or higher match. Then ten photos of different people were used, some who had similar facial features to the missing person. All returned, "Two photos is not a match", with the percentages varying between 13 and 65%.&#x20;
 
-_(Screenshot taken on September 1, 2025, from_ [_https://facecomparison.toolpie.com/_](https://facecomparison.toolpie.com/)_)_.&#x20;
-
 ## Cost
 
 * [x] Free
