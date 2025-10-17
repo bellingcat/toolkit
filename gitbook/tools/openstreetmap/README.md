@@ -1,5 +1,7 @@
 ---
-description: OpenStreetMap is a collaborative project to create a free editable map of the world.
+description: >-
+  OpenStreetMap is a collaborative project to create a free editable map of the
+  world.
 ---
 
 # OpenStreetMap
@@ -10,7 +12,7 @@ http://openstreetmap.org/
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+OpenStreetMap is an open-source, open-license online map created and maintained by an online community. Users contribute to the map by adding locations and updating location data. The tool allows for location searching as well as directions. OSM includes tools and communities designed for humanitarian mapping by NGOs or individuals.
 
 ## Cost
 
@@ -18,7 +20,7 @@ http://openstreetmap.org/
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+
 
 ## Level of difficulty
 
@@ -26,32 +28,33 @@ http://openstreetmap.org/
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+Users must log in or sign up to use Open Street Map.
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+OSM's place names are crowdsourced, so they may not always be accurate. Additionally, locations can be difficult to search if the place name was entered in a different language (for example, the localized name versus an anglicized version).
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+OpenStreetMap receives funds from corporate entities such as Microsoft, Amazon Web Services, and Meta.
 
 ## Guide
 
-\[\[Link to a guide on this tool]]
+[LearnOSM](https://learnosm.org/en/)
+
+[OSM Wiki](https://wiki.openstreetmap.org/wiki/Beginners'_guide)
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+OpenStreetMap is operated by the OpenStreetMap Foundation.
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer               |
+| ----------------------------- |
+| Bellingcat Volunteer Team/Aly |
+|                               |
