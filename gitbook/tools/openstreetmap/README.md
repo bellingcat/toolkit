@@ -8,7 +8,7 @@ description: >-
 
 ## URL
 
-http://openstreetmap.org/
+[http://openstreetmap.org/](https://www.openstreetmap.org/)
 
 ## Description
 
