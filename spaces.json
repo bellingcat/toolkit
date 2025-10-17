@@ -9781,5 +9781,42 @@
     "mergeRules": {
       "type": "inherit"
     }
+  },
+  {
+    "object": "space",
+    "id": "kqpH85YQdl9E10QPutxm",
+    "title": "OSINT Industries",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-10-17T12:46:27.932Z",
+    "updatedAt": "2025-10-17T12:46:27.932Z",
+    "editMode": "locked",
+    "urls": {
+      "location": "/spaces/kqpH85YQdl9E10QPutxm",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/kqpH85YQdl9E10QPutxm/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "d9QXWHW4alemIUzkPF6l",
+    "revision": "IPOtg5Pigc5Vt66sb45W",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "viewInviteLinks": true,
+      "edit": true,
+      "triggerGitSync": true,
+      "comment": true,
+      "merge": true,
+      "review": true,
+      "installIntegration": true
+    },
+    "mergeRules": {
+      "type": "inherit"
+    }
   }
 ]

@@ -3622,5 +3622,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "riVvrv6Z2QxtmIgz0j3X",
+    "title": "OSINT Industries",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-10-17T12:46:28.233Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
