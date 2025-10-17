@@ -3634,5 +3634,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "5FSWW1iTufXAJ7UbG7SR",
+    "title": "Octoparse",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-10-17T13:23:56.227Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]

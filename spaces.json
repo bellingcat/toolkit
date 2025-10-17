@@ -9818,5 +9818,42 @@
     "mergeRules": {
       "type": "inherit"
     }
+  },
+  {
+    "object": "space",
+    "id": "QErhSaayUmjHcV4vULLY",
+    "title": "Octoparse",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-10-17T13:23:55.964Z",
+    "updatedAt": "2025-10-17T13:23:55.964Z",
+    "editMode": "locked",
+    "urls": {
+      "location": "/spaces/QErhSaayUmjHcV4vULLY",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/QErhSaayUmjHcV4vULLY/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "EWkYTKTTUxj3V6CKwjKl",
+    "revision": "OQwrXcowvRJ6vh6Lnp4K",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "viewInviteLinks": true,
+      "edit": true,
+      "triggerGitSync": true,
+      "comment": true,
+      "merge": true,
+      "review": true,
+      "installIntegration": true
+    },
+    "mergeRules": {
+      "type": "inherit"
+    }
   }
 ]
