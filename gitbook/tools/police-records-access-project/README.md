@@ -149,6 +149,31 @@ However, some dates are not accurately displayed. For example, [one record](http
 * Some documents contain text or images that can be potentially disturbing for viewers.
 * Accuracy - possible errors in data mean that any data should be independently verified.
 
+## Similar Tools
+
+There are similar tools out there that cover a similar topic, compiling data on police violence. They are primarily:&#x20;
+
+1. [Mapping Police Violence](https://mappingpoliceviolence.us/) (MPV)
+2. [Fatal Encounters](https://fatalencounters.org/)
+3. [Police Violence Report](https://policeviolencereport.org/)
+
+However, the Police Records Access Project is fundamentally different from the other three tools. [It provides the primary source documents, which are the actual government investigative files, autopsy reports, body camera transcripts, and photos. ](https://clean.calmatters.org/about) While MPV, Fatal Encounters, and Police Violence Report provide structured data such as visualizations, spreadsheets, databases, and not the original investigative documents. The Police Records Access Project is more of a document repository than an analytical report or a compilation of data drawn mostly from secondary sources, rather than the law enforcement agencies (see data sources below).&#x20;
+
+COMPARISON TABLE
+
+| Database                                                            | Geographic Scope                                | Data Sources                                                                                                                                                                                                                                                                                                                                                                                                      | What can I do with it?                                                                                                                                                                                                    |
+| ------------------------------------------------------------------- | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Police Records Access Project](https://clean.calmatters.org/about) | California only                                 | [Official government records obtained through public records requests to approximately 700 California law enforcement agencies including police departments, sheriff's departments, public school/university police, California Highway Patrol, prisons, probation departments, district attorneys, Attorney General's office, coroners, medical examiners, oversight boards](https://clean.calmatters.org/about) | Searchable database of primary documents and records (see limitations above)                                                                                                                                              |
+| [Mapping Police Violence (MPV)](https://mappingpoliceviolence.us/)  | National (United States)                        | [Official police use of force data collection programs from California, Texas, and Virginia; The Gun Violence Archive; Fatal Encounters database](https://mappingpoliceviolence.us/aboutthedata); [Google Alerts for news media mentions](https://mappingpoliceviolence.org/methodology); Original research through social media, obituaries, criminal records databases, and police reports                      | <p>Downloadable CSV dataset</p><p><br></p><p>Interactive maps </p><p><br><br></p>                                                                                                                                         |
+| [Fatal Encounters](https://fatalencounters.org/)                    | National - all 50 states and DC (United States) | [Three primary sources: 1) Paid researchers conducting systematic searches (85% of records), 2) Public records requests to law enforcement agencies (\~2,500 requests made), 3) Crowdsourced internet searches](https://fatalencounters.org/methodology/) by volunteers; [Cross-checking with The Guardian and Washington Post](https://pmc.ncbi.nlm.nih.gov/articles/PMC10109543/)                               | <p>Google Sheets or downloadable CSV full data or of smaller custom datasets</p><p><br></p><p>Search interface (Structured data fields with demographic info, location data, circumstances - but no source documents)</p> |
+| [Police Violence Report](https://policeviolencereport.org/)         | National (United States)                        | [Media reports, obituaries, public records, Gun Violence Archive, and Washington Post databases](https://policeviolencereport.org/) (it also synthesizes Mapping Police Violence data)                                                                                                                                                                                                                            | These are annual reports  based on MPV data                                                                                                                                                                               |
+
+***
+
+\
+\
+
+
 ## Guides and articles
 
 ### Articles
