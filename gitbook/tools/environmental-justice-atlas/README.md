@@ -55,7 +55,7 @@ Internet access is required to access the atlas.
 
 In its [FAQ](https://ejatlas.org/backoffice/cms/en/faq/), EJAtlas specifically acknowledges that there are limitations to the data. For instance, the extent to which conflicts are covered varies and information on changing conflicts might not be kept up to date. In addition, volunteers' interests may shape how conflicts are portrayed and there is uneven global coverage. Some entries may only be available in English.
 
-In the FAQ, the team also addresses issues of data quality, stating that all data that can be found on their site is "based and derived from secondary sources” which they aim to have from “trusted publications”. However, the team behind the site does not verify the information that can be found in those secondary sources.
+In the FAQ, the team also addresses issues of data quality, stating that all data that can be found on their site is "based and derived from secondary sources” which they aim to have from “trusted publications." However, the team behind the site does not verify the information that can be found in those secondary sources.
 
 ## Ethical Considerations
 
