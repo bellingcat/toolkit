@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-05'
+updated: '2025-10-18'
 description: >-
   Maps environmental conflicts around the world to provide information about who
   is involved, their impact and other information.

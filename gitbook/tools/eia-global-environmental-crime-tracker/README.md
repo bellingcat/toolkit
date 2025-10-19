@@ -2,6 +2,7 @@
 description: >-
   Map/tracking of environmental crimes including trade in ivory, rhino, big
   cats, and other exotic animals.
+updated: '2025-10-18'
 ---
 
 # EIA Global Environmental Crime Tracker
