@@ -60,9 +60,17 @@ Overview guide and an example of analysis of the data [here](https://www.belling
 
 ## Tool provider
 
-Managed by the Food and Agriculture Organization (FAO) of the United Nations.
+Managed by the Food and Agriculture Organization (FAO) of the United Nations headquartered in Rome, Italy.
 
 ## Similar tools
+
+Tools similar to Locust Hub:
+
+[eLocust3m](https://apps.apple.com/th/app/fao-elocust3m/id1673483386):This is a smartphone app developed by Food and Agriculture Organization of the United Nations (FAO) in collaboration with PlantVillage / Penn State, designed for field teams and even community observers to report locusts.
+
+[eLocust3](https://www.fao.org/locust-watch/activities/dlis-home): This includes a field survey device with tablet and satellite antenna used by national survey/control teams, especially in remote areas where connectivity is poor. It includes features like mapping, navigation, recording of infestation polygons (via GPS) and data transmission via satellite so that even remote survey teams can send data.
+
+[EarthRanger](https://www.earthranger.com/success-stories/fao): Developed for wildlife management, EarthRanger has been enhanced to ensure ingestion of eLocust3m and eLocust3g data as well as exporting manually entered data in a compatible format for inclusion in the RAMSES GIS used by national locust authorities. It is used to manage survey and control aircraft / assets, track spray operations, visualize maps of where swarms and control interventions are happening.
 
 For predictive modelling, Locust Hub is best used in conjunction with other tools such as:
 
