@@ -22,7 +22,7 @@ Data is [validated by the country’s national locust centre](https://www.fao.or
 
 Green dots represent the presence of groups of hoppers or young locusts that cannot fly but are a threat to ground-level crops, while yellow dots represent groups of adult, winged locusts. Blue dots represent bands or larger groups of hoppers, while red dots represent adult swarms, which are the most damaging group as they can fly long distances and wipe out entire fields within hours. Light blue dots represent where control operations are being carried out.
 
-The locust data explorer interface is updated every four hours and provides additional information on the location, maturity, behavior and breeding status by clicking on a particular location where locusts have been identified.
+The [locust data explorer](https://www.arcgis.com/apps/dashboards/d8df827fc77340b29740e7b151de1674/) interface is updated every four hours and provides additional information on the location, maturity, behavior and breeding status by clicking on a particular location where locusts have been identified.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-10-20 161310.png" alt=""><figcaption><p><sub>Location-specific data on maturity, behaviour and breeding status. Screenshot taken on 20 October 2025.</sub></p></figcaption></figure>
 
