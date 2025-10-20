@@ -66,7 +66,7 @@ Managed by the Food and Agriculture Organization (FAO) of the United Nations hea
 
 Tools similar to Locust Hub:
 
-[eLocust3m](https://apps.apple.com/th/app/fao-elocust3m/id1673483386):This is a smartphone app developed by Food and Agriculture Organization of the United Nations (FAO) in collaboration with PlantVillage / Penn State, designed for field teams and even community observers to report locusts.
+[eLocust3m](https://apps.apple.com/th/app/fao-elocust3m/id1673483386): This is a smartphone app developed by FAO in collaboration with PlantVillage / Penn State, designed for field teams and even community observers to report locusts.
 
 [eLocust3](https://www.fao.org/locust-watch/activities/dlis-home): This includes a field survey device with tablet and satellite antenna used by national survey/control teams, especially in remote areas where connectivity is poor. It includes features like mapping, navigation, recording of infestation polygons (via GPS) and data transmission via satellite so that even remote survey teams can send data.
 
