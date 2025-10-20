@@ -12,7 +12,9 @@ description: A repository for desert locust data with maps and other resources.
 
 A public portal managed by the Food and Agriculture Organization (FAO) of the United Nations. The portal offers a geographic and time sensitive visualization of both desert locust hopper groups and swarms.&#x20;
 
-The desert Locust Data Explorer on Locust Hub can help in early detection, analyse locust movement and plan for locust control interventions. It provides a [weekly tracker](https://www.arcgis.com/apps/dashboards/d8df827fc77340b29740e7b151de1674) on the number of swarms, hoppers, locust control operations; data on the current and previous months as well as collated information on the last three months. The data is updated frequently with the latest observations [from the field.](https://locust-hub-hqfao.hub.arcgis.com/)
+Locust Hub can help in early detection, analyze locust movement and plan for locust control interventions. It provides a [weekly tracker](https://www.arcgis.com/apps/dashboards/d8df827fc77340b29740e7b151de1674) on the number of swarms, hoppers, locust control operations; data on the current and previous months as well as collated information on the last three months. The data is updated frequently with the latest observations [from the field](https://locust-hub-hqfao.hub.arcgis.com/) by assigned locust teams supplemented by additional field staff. '
+
+Data is validated by the country’s national locust centre and then sent to the Desert Locust Information Service at FAO Headquarters before being [made public](https://www.fao.org/locusts/faqs/en/?utm_source=chatgpt.com).
 
 <figure><img src=".gitbook/assets/Screenshot 2025-10-20 084108.png" alt=""><figcaption></figcaption></figure>
 
