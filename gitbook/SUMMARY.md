@@ -129,6 +129,7 @@
   * [LinkdTime](tools/linkdtime/README.md)
   * [LittleSis](tools/littlesis/README.md)
   * [Liveuamap](tools/liveuamap/README.md)
+  * [Locust Hub](tools/locust-hub/README.md)
   * [Logseq](tools/logseq/README.md)
   * [Lumen](tools/lumen/README.md)
   * [Maigret](tools/maigret/README.md)
