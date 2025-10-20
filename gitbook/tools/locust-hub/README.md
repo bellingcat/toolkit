@@ -10,19 +10,21 @@ description: A repository for desert locust data.
 
 ## Description
 
-A public portal managed by the Food and Agriculture Organization (FAO) of the United Nations. The portal offers a geographic and time sensitive visualization of both desert locust hopper groups and swarms. The data is updated frequently with the latest observations from the field including [from reports to the FAO from affected countries](https://www.bellingcat.com/resources/how-tos/2020/06/23/how-to-track-desert-locust-swarms/).
+A public portal managed by the Food and Agriculture Organization (FAO) of the United Nations. The portal offers a geographic and time sensitive visualization of both desert locust hopper groups and swarms.&#x20;
+
+The desert Locust Data Explorer on Locust Hub can help to analyse locust movement. It provides a [weekly tracker](https://www.arcgis.com/apps/dashboards/d8df827fc77340b29740e7b151de1674) on the number of swarms, hoppers, locust control operations, as well as how the number changes every month and every three months.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2025-10-20 084108.png" alt=""><figcaption></figcaption></figure>
 
 <sub>The desert locust data explorer on Locust Hub displaying all reports of desert locusts in the last 3 months, screenshot taken on 20 October 2025.</sub>
 
-The desert Locust Data Explorer on Locust Hub can help to analyse locust movement. It provides a [weekly tracker](https://www.arcgis.com/apps/dashboards/d8df827fc77340b29740e7b151de1674) on the number of swarms, hoppers, locust control operations, as well as how the number changes every month and every three months. Data is updated every four hours.&#x20;
-
 Green dots represent the presence of groups of hoppers or young locusts that cannot fly but are a threat to ground-level crops, while yellow dots represent groups of adult, winged locusts. Blue dots represent bands or larger groups of hoppers which tend to be easier to eliminate than swarms. Red dots represent adult swarms, which are the most damaging group as they can fly long distances and wipe out entire fields within hours. Light blue dots represent where control operations are being carried out.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-10-20 123702.png" alt=""><figcaption></figcaption></figure>
+Data is updated every four hours and provides information on the location, maturity, behaviour and breeding status.
 
-The data can be used to predict movement of swarms, when used in conjunction with tools such as  [windfinder.com](https://www.windfinder.com/) which offers a map of wind speeds in the region, or [soil moisture viewer](https://locust-hub-hqfao.hub.arcgis.com/pages/lobelia-viewer), as locusts thrive after heavy periods of rainfall.
+<figure><img src=".gitbook/assets/Screenshot 2025-10-20 161310.png" alt=""><figcaption></figcaption></figure>
+
+The data can also be used to predict movement of swarms, when used in conjunction with tools such as  [windfinder.com](https://www.windfinder.com/) which offers a map of wind speeds in the region, or [soil moisture viewer](https://locust-hub-hqfao.hub.arcgis.com/pages/lobelia-viewer), as locusts thrive after heavy periods of rainfall.
 
 ## Cost
 
