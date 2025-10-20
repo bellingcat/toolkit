@@ -46,13 +46,15 @@ Users can create an account to create a custom dashboard and save results.
 
 The hub is mostly descriptive (i.e., past and current sightings). The data quality will vary per country as it depends on inputs by local teams.&#x20;
 
-Some familiarity with ArcGIS tools will be required for non-specialists.&#x20;
+Some familiarity with GIS tools will be required for non-specialists.&#x20;
 
-Although the data is regularly updated, it may not always be updated in time for highly time-sensitive decision making or making real-time predictions.
+Although the data is regularly updated, it may not always be updated in time for research on the real-time status or for making predictions.
 
 ## Ethical Considerations
 
-It is advisable to avoid mixing Locust Hub data with personally identifiable or politically sensitive datasets to avoid identification of communities or individuals.
+If using Locust Hub data with personally identifiable or politically sensitive datasets it is advisable to avoid unintentionally exposing individuals or communities to risk.&#x20;
+
+Data should be contextualized, anonymized where necessary, and presented with transparency about its limitations and sources.
 
 ## Guides and articles
 
