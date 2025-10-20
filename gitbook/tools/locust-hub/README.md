@@ -24,9 +24,7 @@ Green dots represent the presence of groups of hoppers or young locusts that can
 
 The locust data explorer interface is updated every four hours and provides additional information on the location, maturity, behavior and breeding status by clicking on a particular location where locusts have been identified.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-10-20 161310.png" alt=""><figcaption></figcaption></figure>
-
-<sub>Location-specific data on maturity, behaviour and breeding status. Screenshot taken on 20 October 2025.</sub>
+<figure><img src=".gitbook/assets/Screenshot 2025-10-20 161310.png" alt=""><figcaption><p><sub>Location-specific data on maturity, behaviour and breeding status. Screenshot taken on 20 October 2025.</sub></p></figcaption></figure>
 
 The data can also be used to predict movement of swarms, when used in conjunction with tools such as  [windfinder.com](https://www.windfinder.com/) which offers a map of wind speeds in the region, or [soil moisture viewer](https://locust-hub-hqfao.hub.arcgis.com/pages/lobelia-viewer), as locusts thrive after heavy periods of rainfall.
 
