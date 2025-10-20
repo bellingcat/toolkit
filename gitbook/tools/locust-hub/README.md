@@ -60,7 +60,7 @@ If using Locust Hub data with personally identifiable or politically sensitive d
 
 ## Guides and articles
 
-Overview guide and an example of analysis of the data [here](https://www.bellingcat.com/resources/how-tos/2020/06/23/how-to-track-desert-locust-swarms/).
+Edward Tian: [How To Track Desert Locus Swarms](https://app.gitbook.com/u/6y2N6G6AUxNY2NKZVl45zbF8ctr1), Bellingcat.
 
 ## Tool provider
 
