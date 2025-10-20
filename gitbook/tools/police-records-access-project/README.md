@@ -157,7 +157,7 @@ There are similar tools out there that cover a similar topic, compiling data on 
 2. [Fatal Encounters](https://fatalencounters.org/)
 3. [Police Violence Report](https://policeviolencereport.org/)
 
-However, the Police Records Access Project is fundamentally different from the other three tools. [It provides the primary source documents, which are the actual government investigative files, autopsy reports, body camera transcripts, and photos. ](https://clean.calmatters.org/about) While MPV, Fatal Encounters, and Police Violence Report provide structured data such as visualizations, spreadsheets, databases, and not the original investigative documents. The Police Records Access Project is more of a document repository than an analytical report or a compilation of data drawn mostly from secondary sources, rather than the law enforcement agencies (see data sources below).&#x20;
+However, the Police Records Access Project is fundamentally different from the other three tools. It provides the [primary source documents](https://clean.calmatters.org/about), which are the actual government investigative files, autopsy reports, body camera transcripts, and photos.  While MPV, Fatal Encounters, and Police Violence Report provide structured data such as visualizations, spreadsheets, databases, and not the original investigative documents. The Police Records Access Project is more of a document repository than an analytical report or a compilation of data drawn mostly from secondary sources, rather than the law enforcement agencies (see data sources below).&#x20;
 
 COMPARISON TABLE
 
