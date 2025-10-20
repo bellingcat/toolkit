@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-A public portal managed by the Food and Agriculture Organization (FAO) of the United Nations. The portal offers a geographic and time sensitive visualization of both desert locust hopper groups and swarms.&#x20;
+A public portal managed by the [Food and Agriculture Organization (FAO) of the United Nations](https://www.fao.org/home/en). The portal offers a geographic and time sensitive visualization of both desert locust hopper groups and swarms.&#x20;
 
 It provides a [weekly tracker](https://www.arcgis.com/apps/dashboards/d8df827fc77340b29740e7b151de1674) on the number of swarms, hoppers, locust control operations; data on the current and previous months as well as collated information on the last three months. The data is updated frequently with the latest observations [from the field](https://locust-hub-hqfao.hub.arcgis.com/) by assigned locust teams supplemented by additional field staff. '
 
