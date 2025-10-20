@@ -12,9 +12,9 @@ description: A repository for desert locust data.
 
 A public portal managed by the Food and Agriculture Organization (FAO) of the United Nations. The portal offers a geographic and time sensitive visualization of both locust hopper groups and swarms. The data is concatenated [from reports to the FAO from affected countries](https://www.bellingcat.com/resources/how-tos/2020/06/23/how-to-track-desert-locust-swarms/).
 
-[<img src="https://www.bellingcat.com/app/uploads/2020/06/Locust-1.png" alt="" data-size="original">](https://www.bellingcat.com/app/uploads/2020/06/Locust-1.png)
+<figure><img src=".gitbook/assets/Screenshot 2025-10-20 084108.png" alt=""><figcaption></figcaption></figure>
 
-<sub>The desert locust data explorer on Locust Hub displaying all reports of desert locusts since June 5th 2018, screenshot taken on June 5th 2020</sub>
+<sub>The desert locust data explorer on Locust Hub displaying all reports of desert locusts in the last 3 months, screenshot taken on 20 October 2025.</sub>
 
 Green dots represent the presence of hopper groups, which are immature desert locusts that have not yet developed wings, and are much easier for pesticides to eliminate. Red dots represent adult swarms — far more destructive locust groups that can fly and travel longer distances.
 
