@@ -10,23 +10,17 @@ description: A repository for desert locust data.
 
 ## Description
 
-A public portal managed by the Food and Agriculture Organization (FAO) of the United Nations. The portal offers a geographic and time sensitive visualization of both locust hopper groups and swarms. The data is concatenated [from reports to the FAO from affected countries](https://www.bellingcat.com/resources/how-tos/2020/06/23/how-to-track-desert-locust-swarms/).
+A public portal managed by the Food and Agriculture Organization (FAO) of the United Nations. The portal offers a geographic and time sensitive visualization of both desert locust hopper groups and swarms. The data is updated frequently with the latest observations from the field including [from reports to the FAO from affected countries](https://www.bellingcat.com/resources/how-tos/2020/06/23/how-to-track-desert-locust-swarms/).
 
 <figure><img src=".gitbook/assets/Screenshot 2025-10-20 084108.png" alt=""><figcaption></figcaption></figure>
 
 <sub>The desert locust data explorer on Locust Hub displaying all reports of desert locusts in the last 3 months, screenshot taken on 20 October 2025.</sub>
 
-Green dots represent the presence of hopper groups, which are immature desert locusts that have not yet developed wings, and are much easier for pesticides to eliminate. Red dots represent adult swarms — far more destructive locust groups that can fly and travel longer distances.
+Green dots represent the presence of groups of hoppers or young locusts that cannot fly but are a threat to ground-level crops, while yellow dots represent groups of adult, winged locusts. Blue dots represent bands or larger groups of hoppers which tend to be easier to eliminate than swarms. Red dots represent adult swarms, which are the most damaging group as they can fly long distances and wipe out entire fields within hours.
 
-LocustHub can help to analyse locust movement. It also provides a [weekly tracker](https://www.arcgis.com/apps/dashboards/d8df827fc77340b29740e7b151de1674) on the number of swarms, hoppers, locust control operations, as well as how the number changes every month and every three months.
+LocustHub can help to analyse locust movement. It provides a [weekly tracker](https://www.arcgis.com/apps/dashboards/d8df827fc77340b29740e7b151de1674) on the number of swarms, hoppers, locust control operations, as well as how the number changes every month and every three months. Data is updated every four hours.&#x20;
 
 The data can be used to predict movement of swarms, when used in conjunction with tools such as  [windfinder.com](https://www.windfinder.com/) which offers a map of wind speeds in the region, or [soil moisture viewer](https://locust-hub-hqfao.hub.arcgis.com/pages/lobelia-viewer), as locusts thrive after heavy periods of rainfall.
-
-In an effort to scale up data collection, the [FAO is calling](https://twitter.com/FAOLocust/status/1258032596224749568) for people in affected regions to report locust sightings through an app, [eLocust3m](https://apps.apple.com/us/app/elocust3m/id1510684948?ls=1), which is available on both Android and IOS.
-
-In eLocust3m, users enable location tracking in order to submit a report, which includes relevant details on the locust swarm and photo evidence. All frontline countries affected by desert locusts have a National Locust Control Centre, where the reports are initially received.
-
-Data from each country is then collated into a single file and sent daily to FAO Headquarters in Rome, where the reports are validated. The FAO also trains groups of local users to maintain consistent updates on locust presence.
 
 ## Cost
 
@@ -40,11 +34,11 @@ Data from each country is then collated into a single file and sent daily to FAO
 
 ## Requirements
 
-Users will need to create an account through this [online form](https://docs.google.com/forms/d/e/1FAIpQLSeagLDm9KkPYVe2fiJ7mmU0Zs6f98lIBAXRGqgrjMEPhOPxAg/viewform) to have access to the full historical archives dataset of Desert Locust. The data provided are "archival" data, from 1965 to last year.&#x20;
+Users will need to create an account through this [online form](https://docs.google.com/forms/d/e/1FAIpQLSeagLDm9KkPYVe2fiJ7mmU0Zs6f98lIBAXRGqgrjMEPhOPxAg/viewform) and create a [FAO Data in Emergency Community ](https://hqfao.maps.arcgis.com/sharing/oauth2/signup?oauth_state=ag8BfOHP4NbKhIToav6RUSQ..q9CeqT6GCT0imEsisBKnMyLVmTGYfuLyuYZmbENjAHBMLovUvi2_OWGPRABHAYoX2S5z30r508VMWI0l24Y40WCx45QNS99pqbIHLbD09XVEIKrngTOZFuMK-Dv1SbYzkGQwWf3TNB-yIIPrXPkBzVC1fPfTjtrGJJyIjHLjfbFxd3vpF6MAoBhNVFeLKr_0WGzcWEcjRSX1rYJlit19McM79mmF5RWYeOayhW-hbCeGacufop8fICiadjCiQU13bbWNLLMSgG-EQ89Fbk6LkPJem4du0Irk9jSYdcDPZDSTaFOjcaRB0fmFXGl_Rgrytnv70ZnJOOZPKfoxXHoHX3Au3mMxBZtLCpaYzjKgKFfBn29RFZRDMq89R5YW2IVpDa1nUvCAF9wKbv-cBpqkfm9i0fUFXYAqQZ0.)account to have access to the full historical archives dataset of Desert Locust. The data provided are "archival" data, from 1965 to last year.&#x20;
 
 Real-time data are not available but can be seen through the [Locust-Hub data explorer.](https://locust-hub-hqfao.hub.arcgis.com/)
 
-Users can also use an ArcGIS login if provided by their institution or if relevant, create a [FAO Data in Emergency Community ](https://hqfao.maps.arcgis.com/sharing/oauth2/signup?oauth_state=ag8BfOHP4NbKhIToav6RUSQ..q9CeqT6GCT0imEsisBKnMyLVmTGYfuLyuYZmbENjAHBMLovUvi2_OWGPRABHAYoX2S5z30r508VMWI0l24Y40WCx45QNS99pqbIHLbD09XVEIKrngTOZFuMK-Dv1SbYzkGQwWf3TNB-yIIPrXPkBzVC1fPfTjtrGJJyIjHLjfbFxd3vpF6MAoBhNVFeLKr_0WGzcWEcjRSX1rYJlit19McM79mmF5RWYeOayhW-hbCeGacufop8fICiadjCiQU13bbWNLLMSgG-EQ89Fbk6LkPJem4du0Irk9jSYdcDPZDSTaFOjcaRB0fmFXGl_Rgrytnv70ZnJOOZPKfoxXHoHX3Au3mMxBZtLCpaYzjKgKFfBn29RFZRDMq89R5YW2IVpDa1nUvCAF9wKbv-cBpqkfm9i0fUFXYAqQZ0.)account.
+Users can also use an ArcGIS login if provided by their institution.
 
 ## Limitations
 
