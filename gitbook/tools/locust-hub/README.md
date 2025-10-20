@@ -18,7 +18,7 @@ A public portal managed by the Food and Agriculture Organization (FAO) of the Un
 
 Green dots represent the presence of hopper groups, which are immature desert locusts that have not yet developed wings, and are much easier for pesticides to eliminate. Red dots represent adult swarms — far more destructive locust groups that can fly and travel longer distances.
 
-LocustHub can help to analyse locust movement. It also provides a weekly tracker on the number of swarms, hoppers, locust control operations, as well as how the number changes weekly.
+LocustHub can help to analyse locust movement. It also provides a [weekly tracker](https://www.arcgis.com/apps/dashboards/d8df827fc77340b29740e7b151de1674) on the number of swarms, hoppers, locust control operations, as well as how the number changes weekly.
 
 The data can be used to predict movement of swarms, when used in conjunction with tools such as  [windfinder.com](https://www.windfinder.com/) which offers a map of wind speeds in the region, or [soil moisture viewer](https://locust-hub-hqfao.hub.arcgis.com/pages/lobelia-viewer), as locusts thrive after heavy periods of rainfall.
 
