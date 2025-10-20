@@ -18,9 +18,7 @@ It provides a [weekly tracker](https://www.arcgis.com/apps/dashboards/d8df827fc7
 
 Data is validated by the country’s national locust centre and then sent to the Desert Locust Information Service at FAO Headquarters before being [made public](https://www.fao.org/locusts/faqs/en/?utm_source=chatgpt.com).
 
-<figure><img src=".gitbook/assets/Screenshot 2025-10-20 084108.png" alt=""><figcaption></figcaption></figure>
-
-<sub>The desert locust data explorer on Locust Hub displaying all reports of desert locusts in the last 3 months, screenshot taken on 20 October 2025.</sub>
+<figure><img src=".gitbook/assets/Screenshot 2025-10-20 084108.png" alt=""><figcaption><p><sub>The desert locust data explorer on Locust Hub displaying all reports of desert locusts in the last 3 months, screenshot taken on 20 October 2025.</sub></p></figcaption></figure>
 
 Green dots represent the presence of groups of hoppers or young locusts that cannot fly but are a threat to ground-level crops, while yellow dots represent groups of adult, winged locusts. Blue dots represent bands or larger groups of hoppers, while red dots represent adult swarms, which are the most damaging group as they can fly long distances and wipe out entire fields within hours. Light blue dots represent where control operations are being carried out.
 
