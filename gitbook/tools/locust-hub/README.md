@@ -16,7 +16,7 @@ A public portal managed by the [Food and Agriculture Organization (FAO) of the U
 
 It provides a [weekly tracker](https://www.arcgis.com/apps/dashboards/d8df827fc77340b29740e7b151de1674) on the number of swarms, hoppers, locust control operations; data on the current and previous months as well as collated information on the last three months. The site states that "[The data is updated frequently with the latest observations from the field](https://locust-hub-hqfao.hub.arcgis.com/)" by assigned locust teams supplemented by additional field staff.&#x20;
 
-Data is validated by the country’s national locust centre and then sent to the Desert Locust Information Service at FAO Headquarters before being [made public](https://www.fao.org/locusts/faqs/en/?utm_source=chatgpt.com).
+Data is [validated by the country’s national locust centre](https://www.fao.org/locusts/faqs/en/?utm_source=chatgpt.com) and then sent to the Desert Locust Information Service at FAO Headquarters before being made public.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-10-20 084108.png" alt=""><figcaption><p><sub>The desert locust data explorer on Locust Hub displaying all reports of desert locusts in the last 3 months, screenshot taken on 20 October 2025.</sub></p></figcaption></figure>
 
