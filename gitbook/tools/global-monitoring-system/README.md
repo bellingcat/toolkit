@@ -1,6 +1,6 @@
 ---
 updated: '2025-09-02'
-description: 'Illicit online wildlife markets data from Brazil, South Africa and Thailand.'
+description: Illicit online wildlife markets data from Brazil, South Africa and Thailand.
 ---
 
 # Global Monitoring System - ECOSOLVE
@@ -67,7 +67,7 @@ EU’s Global Illicit Flows programme (GIFP) and the Global Initiative against T
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Lieth Carrillo  |
-|                 |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
+|                           |
