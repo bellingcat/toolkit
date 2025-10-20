@@ -18,7 +18,7 @@ A public portal managed by the Food and Agriculture Organization (FAO) of the Un
 
 Green dots represent the presence of hopper groups, which are immature desert locusts that have not yet developed wings, and are much easier for pesticides to eliminate. Red dots represent adult swarms — far more destructive locust groups that can fly and travel longer distances.
 
-LocustHub can help to analyse locust movement. It also provides a [weekly tracker](https://www.arcgis.com/apps/dashboards/d8df827fc77340b29740e7b151de1674) on the number of swarms, hoppers, locust control operations, as well as how the number changes weekly.
+LocustHub can help to analyse locust movement. It also provides a [weekly tracker](https://www.arcgis.com/apps/dashboards/d8df827fc77340b29740e7b151de1674) on the number of swarms, hoppers, locust control operations, as well as how the number changes every month and every three months.
 
 The data can be used to predict movement of swarms, when used in conjunction with tools such as  [windfinder.com](https://www.windfinder.com/) which offers a map of wind speeds in the region, or [soil moisture viewer](https://locust-hub-hqfao.hub.arcgis.com/pages/lobelia-viewer), as locusts thrive after heavy periods of rainfall.
 
@@ -40,7 +40,11 @@ Data from each country is then collated into a single file and sent daily to FAO
 
 ## Requirements
 
-Users can create an account to create a custom dashboard and save results.
+Users will need to create an account through this [online form](https://docs.google.com/forms/d/e/1FAIpQLSeagLDm9KkPYVe2fiJ7mmU0Zs6f98lIBAXRGqgrjMEPhOPxAg/viewform) to have access to the full historical archives dataset of Desert Locust. The data provided are "archival" data, from 1965 to last year.&#x20;
+
+Real-time data are not available but can be seen through the [Locust-Hub data explorer.](https://locust-hub-hqfao.hub.arcgis.com/)
+
+Users can also use an ArcGIS login if provided by their institution or if relevant, create a [FAO Data in Emergency Community ](https://hqfao.maps.arcgis.com/sharing/oauth2/signup?oauth_state=ag8BfOHP4NbKhIToav6RUSQ..q9CeqT6GCT0imEsisBKnMyLVmTGYfuLyuYZmbENjAHBMLovUvi2_OWGPRABHAYoX2S5z30r508VMWI0l24Y40WCx45QNS99pqbIHLbD09XVEIKrngTOZFuMK-Dv1SbYzkGQwWf3TNB-yIIPrXPkBzVC1fPfTjtrGJJyIjHLjfbFxd3vpF6MAoBhNVFeLKr_0WGzcWEcjRSX1rYJlit19McM79mmF5RWYeOayhW-hbCeGacufop8fICiadjCiQU13bbWNLLMSgG-EQ89Fbk6LkPJem4du0Irk9jSYdcDPZDSTaFOjcaRB0fmFXGl_Rgrytnv70ZnJOOZPKfoxXHoHX3Au3mMxBZtLCpaYzjKgKFfBn29RFZRDMq89R5YW2IVpDa1nUvCAF9wKbv-cBpqkfm9i0fUFXYAqQZ0.)account.
 
 ## Limitations
 
@@ -52,9 +56,7 @@ Although the data is regularly updated, it may not always be updated in time for
 
 ## Ethical Considerations
 
-If using Locust Hub data with personally identifiable or politically sensitive datasets it is advisable to avoid unintentionally exposing individuals or communities to risk.&#x20;
-
-Data should be contextualized, anonymized where necessary, and presented with transparency about its limitations and sources.
+If using Locust Hub data with personally identifiable or politically sensitive datasets, it is advisable to avoid unintentionally exposing individuals or communities to risk. Data should be contextualized, anonymized where necessary, and presented with transparency about its limitations and sources.
 
 ## Guides and articles
 
