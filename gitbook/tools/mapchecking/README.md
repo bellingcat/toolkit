@@ -28,7 +28,7 @@ Based on the steps below, MapChecking can calculate the estimated density of par
 
 The number of crowds can often be a [point of dispute ](https://apnews.com/general-news-f445adb3d0cf468ba0eb9caeab549577)between [participants and official statements](https://www.salon.com/2003/01/24/crowds/). Crowd sizes can also serve as evidence of how many people participated in a demonstration and [can be indicative of the significance](https://nixintel.info/osint/counting-crowds-in-public-spaces/) or reach of the event. Crowd counting is not only relevant for open source researchers. According to [this article](https://pmc.ncbi.nlm.nih.gov/articles/PMC10116033/), “\[e]stimation of crowd size for large gatherings is an indispensable metric for \[...] local authorities, and emergency management.”&#x20;
 
-Traditional crowd counting methods are either[ less publicly available](https://pmc.ncbi.nlm.nih.gov/articles/PMC10116033/), such as entrance censors/turnstiles and ticket sales, or are a [tedious and time-consuming procedure](https://pmc.ncbi.nlm.nih.gov/articles/PMC10116033/) that includes cumbersome manual processes such as using people counters.
+Traditional crowd counting methods are either[ less publicly available](https://pmc.ncbi.nlm.nih.gov/articles/PMC10116033/), such as entrance censors/turnstiles and ticket sales, or are a [tedious and time-consuming procedure](https://pmc.ncbi.nlm.nih.gov/articles/PMC10116033/) that includes cumbersome manual processes, such as using people counters.
 
 For this reason, open-source investigators may find MapChecking a valuable tool for verification.&#x20;
 
@@ -46,18 +46,18 @@ Our source image is a clip from a [video uploaded to X](https://x.com/BarakRavid
 It is helpful if the location you put in the tool is **already geolocated/verified.**&#x20;
 {% endhint %}
 
-Input the address of an already verified location into the map interface. For simplicity of this demonstration, we will use only the image above of the event to demonstrate the tool’s features. However, you must do due diligence by looking at multiple images of the event you are investigating.&#x20;
+Input the address of an already verified location into the map interface. For simplicity, we will use only the image above of the event to demonstrate the tool’s features. However, you must conduct due diligence by reviewing multiple images of the event you are investigating.&#x20;
 
 We geolocated this area and found it in Democracy Square in Tel Aviv, at the intersection of Eli'ezer Kaplan Street and Giv'at HaTah̠moshet Street. The coordinates are 32.073368, 34.790295.&#x20;
 
 {% hint style="info" %}
-NOTE: Putting the coordinates on the map does not seem to work at the time of testing the tool on both Firefox and Chrome browsers. Use street address instead to find location in question.
+NOTE: Placing the coordinates on the map does not seem to work during testing in both Firefox and Chrome. Use the street address instead to find the location in question.
 {% endhint %}
 
 {% hint style="warning" %}
 **TIP: Why is it important to look at multiple images?**
 
-When analyzing images, especially those depicting large crowds, combining multiple source images taken from different angles is often beneficial. This is helpful to capture the full scope of the event and to avoid blind spots caused by obstructions.
+When analyzing images, especially those depicting large crowds, combining multiple source images taken from different angles is often beneficial. This helps capture the full scope of the event and avoid blind spots caused by obstructions.
 
 _Remember:_ Even with combined images, obstructions like buildings or bridges can limit visibility. Always be mindful of these factors and consider the potential limitations of the visual data.
 {% endhint %}
@@ -78,9 +78,9 @@ Double-check whether your area of interest in the source image matches the polyg
 
 The next step consists of estimating crowd density per square meter, which helps determine the total estimated number of people in a specific area. Does the crowd appear light, crowded or packed?
 
-First, it can help to gather reference images. Find close-up crowd photos. If possible, look for high-resolution images or verified footage from the event that show the crowd density up close. This helps assess how packed different sections are.
+First, it can help to gather reference images. Find close-up crowd photos. If possible, look for high-resolution images or verified footage from the event that show the crowd density up close. This helps assess how packed each section is.
 
-Second, compare that same close up reference image to the visual guides the tool provides. This step may sound complicated at first but fortunately, users can utilize resources like the research by Keith Still (linked below). These guides show what different crowd densities may look like (e.g., 1 person per square meter, 2 people per square meter).
+Second, compare that same close-up reference image to the visual guides the tool provides. This step may sound complicated at first, but fortunately, users can utilize resources like the research by Keith Still (linked below). These guides show what different crowd densities may look like (e.g., 1 person per square meter, 2 people per square meter).
 
 <figure><img src=".gitbook/assets/Screenshot 2024-09-04 133753-marked.png" alt="" width="563"><figcaption><p>To find the reference guides on what the crowd density may look like, click on either link to have an idea of how packed the event in question is. Use these guides to make comparisons with the image from your protest. </p></figcaption></figure>
 
