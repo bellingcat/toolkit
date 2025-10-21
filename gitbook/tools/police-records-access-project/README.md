@@ -2,6 +2,7 @@
 description: >-
   A database providing searchable access to California law enforcement records
   including police use-of-force incidents, shootings, and misconduct cases.
+updated: '2025-10-20'
 ---
 
 # Police Records Access Project

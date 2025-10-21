@@ -1,6 +1,6 @@
 ---
-updated: '2025-09-02'
-description: Illicit online wildlife markets data from Brazil, South Africa and Thailand.
+updated: '2025-10-20'
+description: 'Illicit online wildlife markets data from Brazil, South Africa and Thailand.'
 ---
 
 # Global Monitoring System - ECOSOLVE

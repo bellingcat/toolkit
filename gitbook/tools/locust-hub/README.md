@@ -2,6 +2,7 @@
 description: >-
   A repository for desert locust data with maps and other resources for tracking
   movements, early detection and planning locust control interventions.
+updated: '2025-10-20'
 ---
 
 # Locust Hub
