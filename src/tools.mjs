@@ -139,7 +139,6 @@ function createTool(tool, opts={}) {
 
 async function fetchSpaces(page='', collectionId='jQKvylm6WgaH5IFrlIMh') {
   const collections = await _fetchCollections();
-  console.log(collections);
   const collectionIds = ['jQKvylm6WgaH5IFrlIMh'].concat( collections.filter((c) => c.parent === 'jQKvylm6WgaH5IFrlIMh').map((c) => c.id) );
   console.log(collectionIds);
 
