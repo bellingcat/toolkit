@@ -5,7 +5,7 @@ description: >-
   the movements of ships and their locations in harbours and ports.
 ---
 
-# MarineTraffic\#
+# MarineTraffic
 
 ## URL
 
