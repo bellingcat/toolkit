@@ -138,10 +138,9 @@ function createTool(tool, opts={}) {
 }
 
 async function fetchSpaces(page='', collectionId='jQKvylm6WgaH5IFrlIMh') {
-  const collections = await apiCall(`https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/collections?` + new URLSearchParams({ nested: true }), {
-    method: 'GET',
-  });
-  const collectionIds = ['jQKvylm6WgaH5IFrlIMh'].concat( collections.items.filter((c) => c.parent === 'jQKvylm6WgaH5IFrlIMh').map((c) => c.id) );
+  const collections = await _fetchCollections();
+  console.log(collections);
+  const collectionIds = ['jQKvylm6WgaH5IFrlIMh'].concat( collections.filter((c) => c.parent === 'jQKvylm6WgaH5IFrlIMh').map((c) => c.id) );
   console.log(collectionIds);
 
   let results = [];
@@ -157,6 +156,22 @@ async function fetchSpaces(page='', collectionId='jQKvylm6WgaH5IFrlIMh') {
   return results;
 }
 
+async function _fetchCollections(page='') {
+  const data = await apiCall(`https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/collections?` + new URLSearchParams({ nested: true, page: page}), {
+    method: 'GET',
+  });
+  if (data.next) {
+    if (data.next.page === data.items[0].id) {
+      console.warn("next page is same as current page!");
+      // hack! gitbook api bug: the last item is the same as the first time. take the id of the second to last item as the next page
+      return data.items.concat(await _fetchCollections(data.items[data.items.length-2].id));
+    }
+    if (data.next.page) {
+      return data.items.concat(await _fetchCollections(data.next.page));
+    }
+  }
+  return data.items;
+}
 async function _fetchSpaces(page='', collectionId='jQKvylm6WgaH5IFrlIMh') {
   const data = await apiCall(`https://api.gitbook.com/v1/collections/${collectionId}/spaces?` + new URLSearchParams({ page: page }), {
     method: 'GET',
