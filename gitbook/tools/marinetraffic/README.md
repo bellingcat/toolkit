@@ -5,13 +5,15 @@ description: >-
   the movements of ships and their locations in harbours and ports.
 ---
 
-# MarineTraffic
+# MarineTraffic\#
 
 ## URL
 
 [https://marinetraffic.com/](https://www.marinetraffic.com/en/ais/home/centerx:25.0/centery:-34.5/zoom:8)
 
 ## Description
+
+<figure><img src=".gitbook/assets/MarineTrafficGIFOptimised.gif" alt=""><figcaption><p><strong>VIEW OF THE MARINE TRAFFIC INTERFACE SHOWING SOME AVAILABLE VESSEL DATA</strong></p></figcaption></figure>
 
 The MarineTraffic website and mobile app offer near real-time tracking of vessels and can be used to monitor marine traffic in general or of a particular vessel of a custom fleet. It has a map-based interface with search, filtering and map layers functions for vessels, ports and traffic.
 
@@ -172,5 +174,5 @@ Guides provided by MarineTraffic:
 
 | Page maintainer:-            |
 | ---------------------------- |
-| LPetrova and Sophie Tedling: |
+| LPetrova and Sophie Tedling. |
 |                              |
