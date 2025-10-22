@@ -1,13 +1,13 @@
 ---
-description: Links to beneficial ownership registers.
 updated: '2025-07-14'
+description: Links to beneficial ownership registers.
 ---
 
 # Open Ownership
 
 ## URL
 
-[ https://www.openownership.org/en/](https://www.openownership.org/en/)
+[https://www.openownership.org/en/](https://www.openownership.org/en/)
 
 ## Description
 
@@ -23,9 +23,9 @@ To search for a country's page on OpenOwnership, scroll down to 'Find a specific
 
 The 'Worldwide action on beneficial ownership transparency' [map](https://www.openownership.org/en/map/) shows which countries have BO registers:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-10-21 at 11.48.58.png" alt=""><figcaption><p>Map showing which countries are planning or implementing BO transparency reforms, or have live online registers</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-10-21 at 11.48.58.png" alt=""><figcaption><p>Map showing which countries are planning (light blue), implementing (purple), or have live online registers (green)</p></figcaption></figure>
 
-An efficient way to get to see which countries have BO registers freely available online is to download the [CSV](https://www.openownership.org/en/map/oo_all_country_data.csv) that covers all the countries, and filter the 'Who can access' column by 'general public':&#x20;
+An efficient way to get to see which countries have BO registers freely available online is to download the [CSV](https://www.openownership.org/en/map/oo_all_country_data.csv) that covers all the countries, and filter the 'Who can access' column by 'general public':
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-21 at 12.00.23.png" alt=""><figcaption><p>Some of the country data in a filtered CSV opened in Excel</p></figcaption></figure>
 
@@ -55,7 +55,7 @@ While a consolidated database of all BO registers would be incredibly useful, it
 
 OpenOwnership: [Beneficial ownership primer](https://www.openownership.org/en/about/what-is-beneficial-ownership-transparency/)
 
-OpenOwnership: '[What makes a beneficial owner? Exploring global differences](https://www.openownership.org/en/about/what-is-beneficial-ownership-transparency/)' - a useful article that discusses country differences in definition and type of beneficial ownership.&#x20;
+OpenOwnership: '[What makes a beneficial owner? Exploring global differences](https://www.openownership.org/en/about/what-is-beneficial-ownership-transparency/)' - a useful article that discusses country differences in definition and type of beneficial ownership.
 
 ## Tool provider
 
