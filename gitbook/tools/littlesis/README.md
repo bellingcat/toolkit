@@ -16,15 +16,19 @@ LittleSis is a database that houses information from a range of online sources o
 
 According to their [website](https://littlesis.org/database), LittleSis includes data from "government filings, news articles, and other reputable sources". It is maintained through automatic updates and manual edits. Links to data sources are provided.
 
-If you search for keywords via the search box at the top of the LittleSis main website (circled in green), you'll get LittleSis news articles:
+If you search for keywords via the search box (circled in green) at the top of the LittleSis [main website](https://littlesis.org/), you'll get LittleSis news articles:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-29 at 08.53.42.png" alt=""><figcaption><p>Search results from the LittleSis main website</p></figcaption></figure>
 
-LittleSis' main offering is their database - to access it, click on '[Database](https://littlesis.org/database)' in the top menu. You'll get to the main database page:
+LittleSis' main offering is their database - to access it, click '[Database](https://littlesis.org/database)' in the top menu. You'll get to the main database page:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-10-29 at 08.57.20.png" alt=""><figcaption><p>Main LittleSis database page</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-10-22 at 12.06.10.png" alt=""><figcaption><p>The home page for the LittleSis database</p></figcaption></figure>
 
-When you search, you'll get a list of results (people or organisations). Here's an example of a person's page:
+When you search the database, you'll get entities that match your search term(s), and network maps that include search term(s):
+
+<figure><img src=".gitbook/assets/Screenshot 2025-10-22 at 12.13.34.png" alt=""><figcaption><p>An example of a results page based on a search of the LittleSis database</p></figcaption></figure>
+
+When you click on an entity name in the search results above, you'll a person's or company/organisation page. Here is a person page:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-29 at 09.00.54.png" alt=""><figcaption><p>A person's page with data housed in LittleSis.</p></figcaption></figure>
 
@@ -44,7 +48,7 @@ LittleSis includes 'network maps' for all entities (people and organisations):
 
 <figure><img src=".gitbook/assets/Screenshot 2024-09-25 at 14.59.22.png" alt=""><figcaption><p>A network map for Donald Trump</p></figcaption></figure>
 
-Access the network maps from a person's or organisation's search results page. The map will show you relationships that illustrate the topic of the map like donations (e.g. in the map above, Henry R Kravis donated US$1 million to Trump's inauguration). You can create your own maps, but you need to be registered to do that. (Once you have logged in, go to Add>Map.)
+Access the network maps from a person's or organisation's search results page. The map will show you relationships that illustrate the topic of the map like donations (e.g. in the map above, Henry R Kravis donated US$1 million to Trump's inauguration). You can create your own maps, but you need to be registered to do that. (To create a map, log in and go to Add>Map.)
 
 LittleSis data is searchable online, can be accessed through an [API](https://littlesis.org/api), and can be [downloaded](https://littlesis.org/database/bulk_data) as JSON files.
 
