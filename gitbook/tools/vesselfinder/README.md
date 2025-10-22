@@ -11,7 +11,9 @@ description: Live marine vessel tracker
 
 ## Description
 
-<figure><img src=".gitbook/assets/vesselfinder2opt.gif" alt=""><figcaption><p>VesselFinder Global Location Coverage, Vessel Details, Tracking and Filtering</p></figcaption></figure>
+<div data-full-width="false"><figure><img src=".gitbook/assets/vesselfinder2opt.gif" alt=""><figcaption></figcaption></figure></div>
+
+
 
 VesselFinder is a maritime tracking application and an online desktop tool that provides real-time data on vessel movements globally. Its offers detailed insights into maritime activities, shipping patterns, and vessel operations. The tool also features a [news section](https://www.vesselfinder.com/news) with selected maritime-related information.
 
@@ -138,4 +140,4 @@ Some of the vessels are government-owned and a small part of those are intended 
 
 | Page maintainer:-            |
 | ---------------------------- |
-| LPetrova and Sophie Tedling: |
+| LPetrova and Sophie Tedling. |
