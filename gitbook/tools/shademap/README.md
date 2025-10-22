@@ -252,7 +252,13 @@ ShadeMap offers a [paid for API](https://shademap.app/about/) with the following
 * [x] Partially Free
 * [ ] Paid
 
-ShadeMap provides data and the service for free, but if higher quality data is required, ShadeMap helps users purchase it from a third party. A free browser extension is offered, as well as a paid for API.
+Previously, ShadeMap provided data and the service for free, but if higher quality data was required, ShadeMap helps users purchase it from a third party. A free browser extension was offered, as well as a paid for API. As of 2025, Shade Map presents this model as two services, the paid one being charge per square kilometre:
+
+Free - using estimates and volunteer data, accurate for 1-3 metres
+
+Paid - LIDAR data and photogrammetry, accurate to 0.25 m
+
+<figure><img src=".gitbook/assets/Shademap2025 free and paid services.JPG" alt=""><figcaption></figcaption></figure>
 
 ## Level of difficulty
 
@@ -322,5 +328,5 @@ ShadeMap, US
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling:   |
+| Sophie Tedling.   |
 |                   |
