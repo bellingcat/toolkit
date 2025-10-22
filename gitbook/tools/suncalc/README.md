@@ -231,12 +231,16 @@ Torsten Hoffmann, Germany
 ## Advertising Trackers
 
 * [ ] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [x] This tool does not appear to use tracking cookies.
+* [x] This tool uses tracking cookies. Use with caution.
+* [ ] This tool does not appear to use tracking cookies.
+
+<figure><img src=".gitbook/assets/Cookie Notice 2025.JPG" alt="" width="536"><figcaption><p><strong>SUNCALC'S NEW COOKIE POLICY WINDOW WITH USER SELECTION.</strong></p></figcaption></figure>
+
+In 2025, SunCalc began to use detectable cookies, and therefore added a user choice window on cookies, with the option to select only Essential cookies - see above. This gives users control over their risk from tracking activity and allows them to minimise it.
 
 ***
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling:   |
+| Sophie Tedling.   |
 |                   |
