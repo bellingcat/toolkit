@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-<figure><img src=".gitbook/assets/MarineTrafficGIFOptimised.gif" alt=""><figcaption><p><strong>VIEW OF THE MARINE TRAFFIC INTERFACE SHOWING SOME AVAILABLE VESSEL DATA</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/LostMarineTrafficGIF.gif" alt=""><figcaption><p><strong>SOME VESSEL DATA AVAILABLE VIA THE MARINE TRAFFIC INTERFACE</strong></p></figcaption></figure>
 
 The MarineTraffic website and mobile app offer near real-time tracking of vessels and can be used to monitor marine traffic in general or of a particular vessel of a custom fleet. It has a map-based interface with search, filtering and map layers functions for vessels, ports and traffic.
 
