@@ -1,8 +1,8 @@
 ---
+updated: '2025-07-14'
 description: >-
   Online database of politically exposed persons in Russia, Belarus and
   Kazakhstan.
-updated: '2025-07-14'
 ---
 
 # RuPEP
@@ -13,7 +13,7 @@ updated: '2025-07-14'
 
 ## Description
 
-RuPEP can help you to dig into the network of people and organisations around a politically exposed person (PEP). A PEP is someone in a prominent public position, which makes them a higher risk for bribery and corruption (though this does not mean that they are actually involved in such activities). RuPEP is a database of PEPs that also includes:
+RuPEP can help you to dig into the network of people and organisations around a politically exposed person (PEP). A [PEP](https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Peps-r12-r22.html) is someone in a prominent public position, which makes them a higher risk for bribery and corruption (though this does not mean that they are actually involved in such activities). RuPEP is a database of PEPs that also includes:
 
 * Family members and business partners of PEPs
 * Others associated with them according to media reports
@@ -34,19 +34,19 @@ A PEP's page will start with biographical and sanctions information:
 
 <figure><img src=".gitbook/assets/Screenshot 2025-02-24 at 16.06.22.png" alt=""><figcaption><p>The top of a PEP's page</p></figcaption></figure>
 
-On the left, the sections of information on this page are listed. On the right are listed alternative spellings for the  PEP's name. In the centre, the sanctions information is well curated: It includes a last checked date, and hyperlinks to sources:
+On the left, the sections of information on this page are listed. On the right are listed alternative spellings for the PEP's name. In the centre, the sanctions information is well curated: It includes a last checked date, and hyperlinks to sources:
 
-![](<.gitbook/assets/Screenshot 2024-10-02 at 09.09.40.png>)&#x20;
+![Click on the 'i' icon to get more information about those sanctions](<.gitbook/assets/Screenshot 2024-10-02 at 09.09.40.png>)
 
-Lower on the  page, each PEP has a [network visualisation](#user-content-fn-1)[^1]:
+Lower on the page, each PEP has a network visualisation:
 
-<figure><img src=".gitbook/assets/Screenshot 2025-02-24 at 16.10.09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-10-22 at 15.03.28.png" alt=""><figcaption><p>The network visualisation shows various entities (PEPs and organisations such as companies) and the relationships between them</p></figcaption></figure>
 
 On the diagram you can:
 
-* Zoom in to see detail on the PEP's network
+* Zoom in to see detail on the PEP's network (by using the scroll wheel on your mouse)
 * Click on a round icon to see the details
-* Hover over a line to see the nature of the relationship.
+* Hover over the arrows to see the nature of the relationship.
 
 RuPEP might indicate that more information is available in the Russian version of the site, so rather use that one if you can (e.g. by getting your browser to translate the page):
 
@@ -112,5 +112,3 @@ RuPEP.org
 | ------------------ |
 | Katherine de Tolly |
 |                    |
-
-[^1]: Also known as a graph visualisation or link analysis. It's a way of showing relationships between entities within a network.
