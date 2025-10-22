@@ -11,7 +11,7 @@ description: Live marine vessel tracker
 
 ## Description
 
-<div data-full-width="false"><figure><img src=".gitbook/assets/vesselfinder2opt.gif" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/vesselfinder2opt.gif" alt=""><figcaption><p><strong>SOME VESSELFINDER FUNCTIONALITY AVAILABLE THROUGH THE INTERFACE</strong></p></figcaption></figure></div>
 
 
 
