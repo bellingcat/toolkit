@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-<div data-full-width="false"><figure><img src=".gitbook/assets/OPENINFRAMAP1.gif" alt=""><figcaption><p>OPEN INFRASTRUCTURE MAP INTERFACE, SHOWING THE USER ZOOMING IN ON A LOCATION, SELECTING AN OFFSHORE WIND TURBINE THEN A POWER PLANT, AND SUMMONING AN INFORMATION WINDOW FOR EACH USING LEFT CLICK.</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/OPENINFRAMAP1.gif" alt=""><figcaption><p>OPEN INFRASTRUCTURE MAP INTERFACE, SHOWING THE USER ZOOMING IN ON A LOCATION, SELECTING AN OFFSHORE WIND TURBINE THEN A POWER PLANT, AND SUMMONING AN INFORMATION WINDOW FOR EACH USING LEFT MOUSE CLICK.</p></figcaption></figure></div>
 
 Open Infrastructure Map allows users to search for and view global infrastructure networks which include:
 
@@ -101,5 +101,5 @@ Using the nighttime lights feature: [https://mapyourgrid.org/tools/](https://map
 
 | Page maintainer |
 | --------------- |
-| Sophie/Sarah    |
+| Sophie/Sarah.   |
 |                 |
