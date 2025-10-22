@@ -227,7 +227,7 @@ Current pricing can be found at [https://shadowmap.org/pricing](https://shadowma
 
 At the time of writing in August 2024, paid versions varied from Explorer at £2.50/month, through Home at £8.33/month to Studio at £50/month.
 
-<figure><img src=".gitbook/assets/ShadwoMapPricing.JPG" alt=""><figcaption><p><strong>CHECK THE SHADOWMAP SITE FOR CURRENT PRICING. ABOVE PRICES AS AT SEPTEMBER 2024</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/Pricingoct2025.JPG" alt=""><figcaption><p><strong>SHADOWMAP PRICING OF PAID SERVICES AS AT OCTOBER 2025</strong></p></figcaption></figure>
 
 ## Level of difficulty
 
@@ -271,5 +271,5 @@ Founder (2021) and CEO Georg Molzer.
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling:   |
+| Sophie Tedling.   |
 |                   |
