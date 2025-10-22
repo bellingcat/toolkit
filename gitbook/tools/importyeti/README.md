@@ -1,6 +1,6 @@
 ---
 updated: '2025-07-17'
-description: 'Search 70 million US customs sea shipment records, find company suppliers.'
+description: Search 70 million US customs sea shipment records, find company suppliers.
 ---
 
 # ImportYeti
@@ -53,7 +53,7 @@ You'll need to be granted 'custom plan' access in order to use the [power query]
 
 ## Limitations
 
-The data is only for shipments into the United States. Good transported by land and air are not included.
+The data is only for sea shipments into the United States. Goods transported by road and air are not included.
 
 Companies can request that their import records are made private (see the US Customs and Border Protection's '[Electronic Vessel Manifest Confidentiality](https://www.cbp.gov/trade/automated/electronic-vessel-manifest-confidentiality)').
 
@@ -70,6 +70,10 @@ To access trade data for countries other than the US, there are a range of comme
 ## Guide
 
 Steve Chou: [How To Use ImportYeti To Find Your Competitor’s Suppliers For Free](https://mywifequitherjob.com/importyeti/#What_Is_ImportYeti) (Ignore the site's funny name, the guide is useful! It includes a comparison with three similar tools, Panjiva, ImportGenius and Jungle Scout.)
+
+ImportYeti: [FAQ page](https://www.importyeti.com/faqs)
+
+ShipHub: [Up your sourcing game with ImportYeti](https://www.shiphub.co/up-your-sourcing-game-with-importyeti/)
 
 ## Tool provider
 
