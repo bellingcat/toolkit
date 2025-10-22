@@ -1,6 +1,6 @@
 ---
-description: Search companies and individuals in the United Kingdom.
 updated: '2025-07-10'
+description: Search companies and individuals in the United Kingdom.
 ---
 
 # Companies House
@@ -13,7 +13,7 @@ updated: '2025-07-10'
 
 Use Companies House to get information on companies registered in the UK - it's the official register of companies (so a government agency collates the data).
 
-Anyone wanting to operate a limited company in the UK has to register with them. This includes a limited company (Ltd), public limited company (PLC), or limited liability partnership (LLP). The size of the company does not determine the requirement to register. Sole traders don't have to register; nor do partnerships (without limited liability) - those are companies that involve two or more people that share ownership. Companies House is also responsible for dissolving companies.
+Anyone wanting to operate a limited company in the UK has to register with them. This includes a limited company (Ltd), public limited company (PLC), or limited liability partnership (LLP). Sole traders don't have to register; nor do partnerships (without limited liability) - those are companies that involve two or more people that share ownership. Companies House is also responsible for dissolving companies.
 
 For each company, Companies House publishes:
 
@@ -26,7 +26,7 @@ The site has a [simple search](https://find-and-update.company-information.servi
 
 You can also search for UK companies on [OpenCorporates](https://bellingcat.gitbook.io/toolkit/more/all-tools/opencorporates) and [North Data](https://bellingcat.gitbook.io/toolkit/more/all-tools/north-data), but you are more likely to find up-to-date financial statements on Companies House. North Data may have other useful information (e.g. a graphic timeline of the company history and a network diagram of people and related companies).
 
-The [Register of Overseas Entities](https://www.gov.uk/government/collections/register-of-overseas-entities) is also published on Companies House. It's the register of overseas entities that own land or property in the UK, which are required to declare their beneficial owners and/or managing officers. To search for them use the [advanced search](https://find-and-update.company-information.service.gov.uk/advanced-search) function and change the company type filter to ‘overseas entity’. If you then select search, you'll see the first 10,000 records on the register. Use other filters (e.g. the incorporation date filter, or part of the company name) to narrow down your search results.
+The [Register of Overseas Entities](https://www.gov.uk/government/collections/register-of-overseas-entities) is also published on Companies House. It's the register of overseas entities that want to buy, sell or transfer property in the UK - they are required to declare their beneficial owners and/or managing officers. To search for them use the [advanced search](https://find-and-update.company-information.service.gov.uk/advanced-search) function and change the company type filter to ‘overseas entity’. If you then select search, you'll see the first 10,000 records on the register. Use other filters (e.g. the incorporation date filter, or part of the company name) to narrow down your search results.
 
 You can [download](https://download.companieshouse.gov.uk/en_output.html) all the basic company data of live companies on the register. This would be useful for things like compiling statistics on the number of company formations in a particular year, or a geographical analysis of all registered addresses.
 
@@ -58,7 +58,7 @@ Applications can be made to redact Companies House data. This is usually done fo
 
 ## Ethical Considerations
 
-This is public facing information. As company officers have the option to remove sensitive information about themselves, the ethical considerations are limited (see more here: [Removing your home address from the Companies House register](https://www.gov.uk/guidance/removing-your-home-address-from-the-companies-house-register)).
+This is public-facing information. As company officers have the option to remove sensitive information about themselves, the ethical considerations are limited (see more here: [Removing your home address from the Companies House register](https://www.gov.uk/guidance/removing-your-home-address-from-the-companies-house-register)).
 
 ## Guide
 
