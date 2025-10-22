@@ -2,7 +2,7 @@
 description: South Korean mapping service
 ---
 
-# Kakao Map
+# KakaoMap
 
 ## URL
 
