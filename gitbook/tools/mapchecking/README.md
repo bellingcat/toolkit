@@ -2,6 +2,7 @@
 description: >-
   This tool helps you estimate and fact-check the maximum number of people
   standing in a given area.
+updated: '2025-10-21'
 ---
 
 # MapChecking
