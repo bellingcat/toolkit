@@ -1,5 +1,5 @@
 ---
-updated: '2025-07-10'
+updated: '2025-10-22'
 description: Search companies and individuals in the United Kingdom.
 ---
 

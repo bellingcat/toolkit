@@ -3,6 +3,7 @@ description: >-
   GeoHints is a website that provides information about things like traffic
   lights, utility poles, bollards etc. for different regions of the world to
   help geolocate a location.
+updated: '2025-10-22'
 ---
 
 # GeoHints

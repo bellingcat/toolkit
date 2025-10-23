@@ -1,5 +1,5 @@
 ---
-updated: '2025-07-14'
+updated: '2025-10-22'
 description: Links to beneficial ownership registers.
 ---
 

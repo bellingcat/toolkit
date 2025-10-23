@@ -2,6 +2,7 @@
 description: >-
   Connects dots between influential / wealthy individuals in (mostly US)
   politics and business.
+updated: '2025-10-22'
 ---
 
 # LittleSis

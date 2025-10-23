@@ -1,5 +1,5 @@
 ---
-updated: '2025-07-14'
+updated: '2025-10-22'
 description: >-
   Online database of politically exposed persons in Russia, Belarus and
   Kazakhstan.
