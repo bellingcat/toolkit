@@ -12,9 +12,17 @@ description: >-
 
 ## Description
 
-**Nullschool Earth Map** is an interactive, animated visualization of global environmental data. It displays near real-time information on wind, ocean currents, waves, air pollutants and more. Users can explore different data layers, projections and dates to observe environmental conditions across the planet.&#x20;
+{% hint style="warning" %}
+Due to disruptions to U.S. federal funding, this tool is vulnerable to suspension of data updates and unavailability or some information.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-06-08 at 10.14.28 PM.png" alt="A globe with South America in focus. The land and oceans are blue, and there are large green swirls with white streaks flowing through the swirls. The swirls appear mostly in the ocean, but not exclusively."><figcaption><p>Surface Winds;  June 8, 2025</p></figcaption></figure>
+As of October 2025, the tool provider has not issued alerts regarding data suspensions. We know, however, that one or more data sources underlying this map have suspended updates.
+
+Use this tool with caution, and verify data through its original source. Data sources for each map layer are listed [here](https://earth.nullschool.net/about).
+{% endhint %}
+
+**Nullschool Earth Map** is an interactive, animated visualization of global environmental data. It displays information on wind, ocean currents, waves, air pollutants and more. Users can explore various data layers, projections and dates to observe environmental conditions across the planet.&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2025-06-08 at 10.14.28 PM.png" alt="A globe with South America in focus. The land and oceans are blue, and there are large green swirls with white streaks flowing through the swirls. The swirls appear mostly in the ocean, but not exclusively."><figcaption><p>Surface Winds:  June 8, 2025</p></figcaption></figure>
 
 In addition to viewing global environmental trends, by clicking on a specific location or specifying latitude/longitude coordinates in the URL, users can get interpolated data values of any given metric for a specified location.
 
@@ -22,7 +30,79 @@ In addition to viewing global environmental trends, by clicking on a specific lo
 
 To change the date, mode and other metrics, click the "earth" label with the three-line menu icon in the bottom-left corner of the screen.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-06-08 at 10.23.04 PM.png" alt="Interface menu showing options for date, mode (air, ocean, chem, particulates, space, bio), animate (wind, currents, waves), overlay (DUex, PM1, PM2.5, PM10, OMaot, SO4ex), and map projection. "><figcaption><p>Available data layers</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-06-08 at 10.23.04 PM.png" alt="Interface menu showing options for date, mode (air, ocean, chem, particulates, space, bio), animate (wind, currents, waves), overlay (DUex, PM1, PM2.5, PM10, OMaot, SO4ex), and map projection. "><figcaption><p>Available metrics</p></figcaption></figure>
+
+### Available Metrics
+
+#### Date
+
+Each metric can be viewed by specified date and time, in some cases as far back as January 2013. (View [#limitations](./#limitations "mention")section for more info.)
+
+#### Air Mode
+
+Each metric can be viewed at surface temperature, or at 1000, 850, 700, 500, 250, 70 or 10 hectopascals (hPa).
+
+* **Wind:** Wind speed
+* **Temp**: Temperature
+* **RH**: Relative humidity
+* **Dew**: Dew point temperature&#x20;
+* **WBT**: Wet bulb temperature
+* **3HPA**: 3-hour precipitation accumulation
+* **CAPE**: Convective available potential energy from surface
+* **TPW**: Total precipitable water
+* **TCW**: Total cloud water
+* **MSLP**: Mean sea level pressure
+* **MI**: Misery index
+* **UVI**: Ultraviolet index and erythemal dose rate
+* **WPD**: Instantaneous wind power density
+
+#### Ocean Mode
+
+* **Currents**: Ocean currents
+* **Waves**: Peak wave period
+* **HTSGW**: Significant wave height
+* **SST**: Sea surface temperature
+* **SSTA**: Sea surface temperature anomaly (relative to 1981-2011 daily average)
+* **BAA**: Bleaching alert area
+
+#### Atmospheric Chemistry Mode
+
+* **CO**<sub>**sc**</sub>: Carbon monoxide surface concentration
+* **CO**<sub>**2**</sub>**sc**: Carbon dioxide surface concentration
+* **SO**<sub>**2**</sub>**sm**: Sulfur dioxide surface mass
+* **NO**<sub>**2**</sub>: Nitrogen dioxide
+
+#### Particulates Mode
+
+* **DUex**: Dust extinction (aerosol optical thickness, 550 nm)
+* **PM**<sub>**1**</sub>: Particulate matter < 1 µm
+* **PM**<sub>**2.5**</sub>: Particulate matter < 2.5 µm
+* **PM**<sub>**10**</sub>: Particulate matter < 10 µm
+* **OMaot**: Organic matter aerosol optical thickness (550 nm)
+* **SO**<sub>**4**</sub>**ex**: Sulfate extinction (aerosol optical thickness, 550 nm)
+
+#### Space Mode
+
+* **Aurora**: Probability of visible aurora
+
+#### Bio Mode
+
+* **BAA**: Bleaching alert area
+* **Fires**: Active fires
+
+#### Animations
+
+In any mode, the following animations can be viewed on the map:
+
+* **Wind**
+* **Currents**: Ocean surface currents
+* **Waves**: Peak wave period
+
+### Use Cases
+
+* Identify anomalies in climate-related conditions
+* Track density and spread of pollutants over time
+* Identify and track the spread of fires
 
 ## Cost
 
@@ -36,7 +116,7 @@ To change the date, mode and other metrics, click the "earth" label with the thr
 
 ## Requirements
 
-No special setup is needed. The map works well on mobile devices and is optimized to handle large, graphics-intensive data smoothly. However, performance may be slower on older devices or outdated browsers.
+No special setup is needed. The map works well on mobile devices and is optimized to handle graphics-intensive, large datasets smoothly. However, performance may be slower on older devices or outdated browsers.
 
 ## Limitations
 
@@ -56,8 +136,9 @@ No special setup is needed. The map works well on mobile devices and is optimize
 * [Using: Earth.nullschool.net: How to view this beautiful interactive global view of our weather and climate.](https://arcg.is/1L9H4n0) (Storymap)
 * [Tutorial by Michael Pidwirny](https://pressbooks.bccampus.ca/physgeoglabmanual1/back-matter/appendix-4-earth-nullschool-net-tutorial/), via British Columbia/Yukon Pressbooks
 * [How to Use Earth Null School: Ultimate Guide to Interactive Weather Maps and Climate Data](https://www.youtube.com/watch?v=ORglL1utOV0) (Youtube tutorial)
-* The site's [About page](https://earth.nullschool.net/about.html) includes an explanation of the abbreviations used on the site.
+* The site's [About page](https://earth.nullschool.net/about.html) includes detailed information about each layer of this map.
 * More information about the map is also provided via Nullschool Earth Map's social media accounts ([Facebook](https://www.facebook.com/EarthWindMap), [Instagram](https://www.instagram.com/nullschool/), [Youtube](https://www.youtube.com/channel/UCZyd1nnJuvS-EZvAV-IDtPg)).
+* [earth.nullschool.net news](https://news.nullschool.net/) (tool provider's newsletter)
 
 ## Tool provider
 
@@ -71,7 +152,7 @@ Feedback about the map can be provided via [this form](https://docs.google.com/f
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer          |
-| ------------------------ |
-| Courtney Cox (@mapcourt) |
-|                          |
+| Page maintainer                                        |
+| ------------------------------------------------------ |
+| [Courtney Cox](https://www.linkedin.com/in/court-cox/) |
+|                                                        |
