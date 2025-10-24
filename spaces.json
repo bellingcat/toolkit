@@ -12152,5 +12152,42 @@
     "mergeRules": {
       "type": "inherit"
     }
+  },
+  {
+    "object": "space",
+    "id": "o65K1tNurYmsDPssbPAU",
+    "title": "OSoMeNet",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-10-24T17:53:04.529Z",
+    "updatedAt": "2025-10-24T17:53:04.529Z",
+    "editMode": "locked",
+    "urls": {
+      "location": "/spaces/o65K1tNurYmsDPssbPAU",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/o65K1tNurYmsDPssbPAU/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "8SB4cANB9OcQ69Ify27J",
+    "revision": "c9VnaohlJ9D1CN8gZYdY",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "viewInviteLinks": true,
+      "edit": true,
+      "triggerGitSync": true,
+      "comment": true,
+      "merge": true,
+      "review": true,
+      "installIntegration": true
+    },
+    "mergeRules": {
+      "type": "inherit"
+    }
   }
 ]

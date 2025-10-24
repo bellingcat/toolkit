@@ -3658,5 +3658,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "nK9IT6ws3phOfFie4hXE",
+    "title": "OSoMeNet",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-10-24T17:53:04.901Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
