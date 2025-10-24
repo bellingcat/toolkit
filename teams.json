@@ -3646,5 +3646,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "xnJ9mHO5uXFn269X7Yl3",
+    "title": "Spectator Earth",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-10-24T17:20:03.277Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]

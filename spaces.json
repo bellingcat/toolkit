@@ -12115,5 +12115,42 @@
     "mergeRules": {
       "type": "inherit"
     }
+  },
+  {
+    "object": "space",
+    "id": "EgMXorDFab71dWkJKxyv",
+    "title": "Spectator Earth",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-10-24T17:20:02.937Z",
+    "updatedAt": "2025-10-24T17:20:02.937Z",
+    "editMode": "locked",
+    "urls": {
+      "location": "/spaces/EgMXorDFab71dWkJKxyv",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/EgMXorDFab71dWkJKxyv/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "H7HdQQbugoU5VAdlxKdh",
+    "revision": "wZiXNlolEJRiC6cWmnam",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "viewInviteLinks": true,
+      "edit": true,
+      "triggerGitSync": true,
+      "comment": true,
+      "merge": true,
+      "review": true,
+      "installIntegration": true
+    },
+    "mergeRules": {
+      "type": "inherit"
+    }
   }
 ]
