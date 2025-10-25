@@ -92,6 +92,43 @@ The exact location where the entity is situated can also be viewed in integrated
 
 Spot has also integrated [Google Street View](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps#street-view) for location verification. Clicking on “Open Google Street View” opens a window displaying the location's street-level photography. Use this feature to match entities and features against the photo or video being geolocated.
 
+***
+
+1
+
+#### &#x20;<a href="#natural-language-query-input" id="natural-language-query-input"></a>
+
+#### Natural Language Query Input <a href="#natural-language-query-input" id="natural-language-query-input"></a>
+
+Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language, and converts these sentences into query language code with a formal structure (which is displayed to the user in a separate box in the interface) called [Overpass Query Language](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL).​​​2
+
+#### &#x20;<a href="#run-overpass-query-on-the-openstreetmap-database" id="run-overpass-query-on-the-openstreetmap-database"></a>
+
+#### Run Overpass Query on the OpenStreetMap Database <a href="#run-overpass-query-on-the-openstreetmap-database" id="run-overpass-query-on-the-openstreetmap-database"></a>
+
+Spot uses the query language code to perform a search of OpenStreetMap (by building an Overpass query and running it with the [Overpass API](https://wiki.openstreetmap.org/wiki/Overpass_API)).This stage of the Spot service uses exactly the same process as the other OSM search tools.3
+
+#### &#x20;<a href="#display-all-solution-features-on-a-map" id="display-all-solution-features-on-a-map"></a>
+
+#### Display All Solution Features on A Map <a href="#display-all-solution-features-on-a-map" id="display-all-solution-features-on-a-map"></a>
+
+Spot displays all the features which satisfy the user's input search on a map.Spot does not sort and group features which relate to different candidate location solutions, so if there is more than one potential solution (which is often the case):
+
+*
+* the existence of multiple candidate location solutions may not be apparent to the user
+*
+* the number of candidate location solutions may well not to be apparent to the user
+*
+* which discovered features belong to which propsed candidate locations may not be to discernible to the user
+
+4
+
+#### &#x20;<a href="#offer-a-choice-of-streetview-options-for-each-solution-feature" id="offer-a-choice-of-streetview-options-for-each-solution-feature"></a>
+
+#### Offer A Choice of Streetview Options for Each Solution Feature <a href="#offer-a-choice-of-streetview-options-for-each-solution-feature" id="offer-a-choice-of-streetview-options-for-each-solution-feature"></a>
+
+For each feature marked on the output map, Spot offers the user the option to open the location in any one of the largest three mapping services (Google, [Yandex](https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps), and [Bing](https://bellingcat.gitbook.io/toolkit/more/all-tools/bing-maps)) and additionally provides the option directly to view Google's street view information (mainly user-supplied ground-levelphotography) on the location which is invaluable for geolocation purposes.
+
 
 
 [^1]: Street view photographs are taken at ground level (as opposed to satellite view imagery, taken from above), giving a view of what a human would see at a location by looking around.
