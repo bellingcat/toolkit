@@ -151,7 +151,7 @@ Users can also switch between map layers that include “[vector map](#user-cont
 
 <summary>The  “Search Parameters” box can be explanded to show more detail of location, entities, and the relationship between them, including the distance... (<em>Click here to see more on Search Parameters...)</em></summary>
 
-
+This feature is similar to [Bellingcat’s OpenStreetMap](https://bellingcat.gitbook.io/toolkit/more/all-tools/openstreetmap-search-tool) search tool, which uses a custom setting for adding features, enabling adjustments via the OSM key and value.
 
 </details>
 
