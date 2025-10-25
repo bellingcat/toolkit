@@ -147,6 +147,14 @@ To explore a specific result, use the slider to zoom in on the result of your ch
 
 Users can also switch between map layers that include “[vector map](#user-content-fn-2)[^2]”, “[hybrid view](#user-content-fn-3)[^3]” and “[OSM Style Map](#user-content-fn-4)[^4]”. The screenshot below shows a location from search results in the hybrid view on the left, and the Google Street View tab showing street-level photography over satellite imagery of the selected result on the right.
 
+<details>
+
+<summary>The  “Search Parameters” box can be explanded to show more detail of location, entities, and the relationship between them, including the distance... (<em>Click here to see more on Search Parameters...)</em></summary>
+
+
+
+</details>
+
 [^1]: Street view photographs are taken at ground level (as opposed to satellite view imagery, taken from above), giving a view of what a human would see at a location by looking around.
 
 [^2]: “Vector maps are two-dimensional maps that use geometrical shapes such as points, lines, and polygons to represent geographical features,” according to LocationIQ’s [website](https://blog.locationiq.com/vector-or-raster-maps-which-one-is-best-for-you/).&#x20;

@@ -106,8 +106,6 @@ This feature is similar to [Bellingcat’s OpenStreetMap](https://bellingcat.git
 
 </details>
 
-<figure><img src=".gitbook/assets/SpotSearchParameters (1) (1).JPG" alt="" width="215"><figcaption></figcaption></figure>
-
 To confirm which result matches our required location, one must sift through all the available possibilities on the map.&#x20;
 
 ### Data Input, Output and Formats
