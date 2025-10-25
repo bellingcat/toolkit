@@ -24,17 +24,17 @@ These features are labelled according to [OSM's own detailed classification syst
 
 </details>
 
-Spot is one amongst [a range of OSM search tools](./#similar-tools) which exists to allow users to query OpenStreetMap.&#x20;
+Spot is one amongst [a range of OSM search](#user-content-fn-2)[^2] tools which exists to allow users to query OpenStreetMap.&#x20;
 
-<mark style="color:$primary;">**Query Building Methods:**</mark> These tools all run a search of OpenStreetMap in the same way, but they use different methods to build the user's search query:&#x20;
+<mark style="color:$primary;">**Query-Building Methods:**</mark> These tools all run a search of OpenStreetMap in the same way, but they use different methods to build the user's search query:&#x20;
 
 * some involve writing the query in a formal language&#x20;
 * some use a graphical interface to build the query.&#x20;
-* Spot is characterised by the use of [natural language](#user-content-fn-2)[^2] to express the users' search query, and this is a relatively new approach.&#x20;
+* Spot is characterised by the use of [natural language](#user-content-fn-3)[^3] to express the users' search query, and this is a relatively new approach.&#x20;
 
 <mark style="color:$primary;">**Location Descriptors:**</mark> The Spot user can describe a location search in terms of :
 
-1. groupings of OSM map features, e.g. a pharmacy AND[^3] a traffic light
+1. groupings of OSM map features, e.g. a pharmacy AND[^4] a traffic light
 2. their relative distance from one another, e.g. within 70m of one another
 3. the location of a geographical search area, e.g. in Cologne
 
@@ -86,7 +86,7 @@ Spot does not sort and group features which relate to different candidate locati
 {% step %}
 ### Offer A Choice of Streetview Options for Each Solution Feature
 
-For each feature marked on the output map, Spot offers the user the option to open a [street view](#user-content-fn-4)[^4] window within the tool, using data from a choice of three of the largest providers of street view photography ([Google](https://app.gitbook.com/u/ViCSKrNRRpZOOjQVlfLHkPMJAqw1), [Yandex](https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps), and [Bing](https://bellingcat.gitbook.io/toolkit/more/all-tools/bing-maps)).
+For each feature marked on the output map, Spot offers the user the option to open the location in any one of the largest three mapping services ([Google](https://app.gitbook.com/u/ViCSKrNRRpZOOjQVlfLHkPMJAqw1), [Yandex](https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps), and [Bing](https://bellingcat.gitbook.io/toolkit/more/all-tools/bing-maps)) and additionally provides the option directly to view Google's [street view](#user-content-fn-5)[^5] information (mainly user-supplied ground-levelphotography) on the location which is invaluable for geolocation purposes.
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
@@ -193,7 +193,7 @@ Use the integrated Google Street View for location verification. Clicking on any
 
 <figure><img src=".gitbook/assets/Screenshot 2025-08-31 at 15.24.35.png" alt=""><figcaption></figcaption></figure>
 
-Users can also switch between map layers that include “[vector map](#user-content-fn-5)[^5]”, “[hybrid view](#user-content-fn-6)[^6]” and “[OSM Style Map](#user-content-fn-7)[^7]”. The screenshot below shows a location from search results in the hybrid view and the Google Street View tab showing street-level photography of the selected result.
+Users can also switch between map layers that include “[vector map](#user-content-fn-6)[^6]”, “[hybrid view](#user-content-fn-7)[^7]” and “[OSM Style Map](#user-content-fn-8)[^8]”. The screenshot below shows a location from search results in the hybrid view and the Google Street View tab showing street-level photography of the selected result.
 
 <figure><img src=".gitbook/assets/hybrid view .png" alt=""><figcaption></figcaption></figure>
 
@@ -281,14 +281,16 @@ The tool uses “cookieless tracking”. Although the “tracking” feature can
 
 [^1]: [Open Street Map](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/TSRCKcxTTIGI6g9ZTkHy/) is a free, open map database of the world, which is updated and maintained by a community of volunteer contributors.
 
-[^2]: i.e. human conversational language
+[^2]: e.g. Overpass Turbo, Bellingcat OSM Search, GeoGuessr GPT, GeoSpy, EarthKit,...
 
-[^3]: AND is a [logical operator](https://www.w3schools.com/programming/prog_operators_logical.php) here, like OR.
+[^3]: i.e. human conversational language
 
-[^4]: Street view photographs are taken at ground level (as opposed to satellite view imagery, taken from above), giving a view of what a human would see at a location by looking around.
+[^4]: AND is a [logical operator](https://www.w3schools.com/programming/prog_operators_logical.php) here, like OR.
 
-[^5]: “Vector maps are two-dimensional maps that use geometrical shapes such as points, lines, and polygons to represent geographical features,” according to LocationIQ’s [website](https://blog.locationiq.com/vector-or-raster-maps-which-one-is-best-for-you/).&#x20;
+[^5]: Street view photographs are taken at ground level (as opposed to satellite view imagery, taken from above), giving a view of what a human would see at a location by looking around.
 
-[^6]: A Hybrid Map displays the map interface combining both satellite and vector maps.
+[^6]: “Vector maps are two-dimensional maps that use geometrical shapes such as points, lines, and polygons to represent geographical features,” according to LocationIQ’s [website](https://blog.locationiq.com/vector-or-raster-maps-which-one-is-best-for-you/).&#x20;
 
-[^7]: An OSM-style map, as the name suggests, displays the interface in OpenStreetMap view format.
+[^7]: A Hybrid Map displays the map interface combining both satellite and vector maps.
+
+[^8]: An OSM-style map, as the name suggests, displays the interface in OpenStreetMap view format.
