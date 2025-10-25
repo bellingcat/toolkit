@@ -135,4 +135,12 @@ To use Spot for geolocation and understand how to use its interface, we used thi
 
 <figure><img src=".gitbook/assets/Blurred Insta users.png" alt="" width="375"><figcaption><p><strong>INSTAGRAM POST USED FOR SPOT GEOLOCATION EXERCISE</strong></p></figcaption></figure>
 
+The visual clues in the image provide an opportunity to locate the exact area using Spot. In this particular case, tall buildings that are 10 stories or more also appear behind the church. More importantly, a water body with fountains side by side is also visible in the image. One can also roughly estimate the distance as the features in the image seem to be close to each other.\
+Taking these features into account, a query for Spot can be constructed that reads: “Find a church within 100m of a building with 10 stories or more and water in the City of London.” The interface displays all possible solutions, which looks like this:
+
+
+
+The red blobs on the map legend represent churches, blue indicates water, and yellow signifies buildings with 10 or more stories. There are 3 different churches returned by Spot which meet the criteria.\
+To explore a specific result, use the slider to zoom in on the result of your choice. Clicking on a specific feature from one of the results shows its details, including a link to its OSM ID. This link opens a new tab to its location on the OpenStreetMap website, where you can find this entity and explore further. In this case, clicking on the church (higlighted in red) indicates that it's called "St-Giles-without-Cripplegate", its “denomination” is “Anglican” and was “rebuilt” in “1906.” Click on the OSM ID link for more details.
+
 [^1]: Street view photographs are taken at ground level (as opposed to satellite view imagery, taken from above), giving a view of what a human would see at a location by looking around.
