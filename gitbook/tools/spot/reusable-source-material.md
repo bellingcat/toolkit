@@ -151,6 +151,8 @@ Users can also switch between map layers that include “[vector map](#user-cont
 
 <summary>The  “Search Parameters” box can be explanded to show more detail of location, entities, and the relationship between them, including the distance... (<em>Click here to see more on Search Parameters...)</em></summary>
 
+A tag is made of two [items](https://wiki.openstreetmap.org/wiki/Tags): a key and a value. A key describes the category or type of feature. A [value](https://wiki.openstreetmap.org/wiki/Tags#Keys_and_values) “provides detail for the key-specified feature." For example, an OSM key, “waterway”, can have multiple values that define this key. Some of them include a stream, ditch, river, drain, canal, and dam, among others. These can be adjusted depending on the needs of the search
+
 This feature is similar to [Bellingcat’s OpenStreetMap](https://bellingcat.gitbook.io/toolkit/more/all-tools/openstreetmap-search-tool) search tool, which uses a custom setting for adding features, enabling adjustments via the OSM key and value.
 
 </details>
