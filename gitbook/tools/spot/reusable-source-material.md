@@ -26,6 +26,60 @@ docs.google.com
 
 ***
 
+<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+<details>
+
+<summary>Search Parameters</summary>
+
+Here, you can edit the OSM tags assigned to each feature. OSM tags define features of map [elements](https://wiki.openstreetmap.org/wiki/Tags) which “add meaning to geographic objects.”&#x20;
+
+According to the TagInfo site for OSM tags, “there is no fixed list of those tags. New tags can be invented and used as needed. Everybody can come up with a new tag and add it to new or existing objects.”
+
+A tag is made of two [items](https://wiki.openstreetmap.org/wiki/Tags): a key and a value. A key describes the category or type of feature. A [value](https://wiki.openstreetmap.org/wiki/Tags) “provides detail for the key-specified feature." For example, an OSM key, “waterway”, can have multiple values that define this key. Some of them include a stream, ditch, river, drain, canal, and dam, among others. These can be adjusted depending on the needs of the search.
+
+This feature is similar to [Bellingcat’s OpenStreetMap](https://osm-search.bellingcat.com/) search tool, which uses a custom setting for adding features, enabling adjustments via the OSM key and value.
+
+</details>
+
+After conducting a search, you can always adjust the Search Parameters to refine criteria and update results.
+
+Spot displays the results on an interactive map. These are potential location solutions from the search appearing on the map simultaneously.&#x20;
+
+Search features are highlighted in different colours, and users can select or deselect the ones they want to see on the interface through the “Map Legend” at the bottom left, or just make them flash momentarily by hovring the mouse over the Map Legend. The slider on the right allows you to zoom in on a single location or zoom out to view all results.
+
+To confirm which result matches our required location, one must sift through all the available possibilities on the map.&#x20;
+
+The exact location where the entity is situated can also be viewed in integrated mapping services, such as [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps), [Bing](https://app.gitbook.com/u/ViCSKrNRRpZOOjQVlfLHkPMJAqw1), and [Yandex](https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps). This ensures location verification through multiple mapping services in one place, thus saving time and allowing for greater flexibility.
+
+Spot has also integrated [Google Street View](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps#street-view) for location verification. Clicking on “Open Google Street View” opens a window displaying the location's street-level photography. Use this feature to match entities and features against the photo or video being geolocated.
+
+## The Interface
+
+The first thing a user sees when they visit the Spot website is a modal window (a pop-up). This box includes a search box, where an example query is typed out word by word and then disappears automatically. “Find me a tram stop next to a park within 150 meters of a traffic light and a parking garage in Prague,” says the animated auto-query. This demonstrates how to phrase a search for the tool to understand. Text for the search prompt can be entered here or performed after closing this window.
+
+<figure><img src=".gitbook/assets/Animated aut-query.png" alt="" width="188"><figcaption></figcaption></figure>
+
+In the top left corner, a query can be entered into the search box. This is the first step, also explained in the description above, where Spot takes the input as natural language prompts.
+
+<figure><img src=".gitbook/assets/Search parameters.png" alt=""><figcaption></figcaption></figure>
+
+Just below the search bar is an expandable “Search Parameters” box, where the location, entities, and the relationship between them —specifically, how far apart they are from each other— can be viewed. Entities are features labelled according to OpenStreetMap’s own classification system.&#x20;
+
+<details>
+
+<summary>Here, you can edit the OSM tags assigned to each feature. OSM tags define features of map <a href="https://wiki.openstreetmap.org/wiki/Tags">elements</a> which “add meaning to geographic objects.” </summary>
+
+According to the TagInfo site for OSM tags, “there is no fixed list of those tags. New tags can be invented and used as needed. Everybody can come up with a new tag and add it to new or existing objects.”
+
+A tag is made of two [items](https://wiki.openstreetmap.org/wiki/Tags): a key and a value. A key describes the category or type of feature. A [value](https://wiki.openstreetmap.org/wiki/Tags) “provides detail for the key-specified feature." For example, an OSM key, “waterway”, can have multiple values that define this key. Some of them include a stream, ditch, river, drain, canal, and dam, among others. These can be adjusted depending on the needs of the search.
+
+This feature is similar to [Bellingcat’s OpenStreetMap](https://osm-search.bellingcat.com/) search tool, which uses a custom setting for adding features, enabling adjustments via the OSM key and value.
+
+</details>
+
+
+
 
 
 [^1]: Street view photographs are taken at ground level (as opposed to satellite view imagery, taken from above), giving a view of what a human would see at a location by looking around.
