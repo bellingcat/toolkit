@@ -49,7 +49,7 @@ Exercise caution and/or check with your parent organization before uploading sen
 
 According to [Pinpoint Additional Terms of Service](https://support.google.com/pinpoint/answer/13071911?hl=en), "if you upload content to Pinpoint, you give Google permission to use that content, including to operate and promote Pinpoint, in accordance with the [Google Terms of Service](https://policies.google.com/terms) and Google’s Privacy Policy."
 
-Google does [state](https://support.google.com/pinpoint/answer/14338615?hl=en) that the uploaded documents are private by default - unless actively published - and will not be used for training Large Language Models (LLMs).&#x20;
+Google does also [state](https://support.google.com/pinpoint/answer/14338615?hl=en) that the uploaded documents are private by default - unless actively published - and will not be used for training Large Language Models (LLMs).&#x20;
 
 Keep in mind that Pinpoint's generative AI features are currently only available in a [list of countries](https://support.google.com/pinpoint/answer/14338615?hl=en#support_countries).
 
@@ -57,7 +57,9 @@ Keep in mind that Pinpoint's generative AI features are currently only available
 
 [Getting Started with Pinpoint](https://support.google.com/pinpoint/answer/11948320?hl=en\&ref_topic=11949739\&sjid=5429787754045626721-NC), and [video](https://newsinitiative.withgoogle.com/resources/trainings/pinpoint/video-getting-started-with-pinpoint/)
 
-[How to make the most of Pinpoint](https://www.fastcompany.com/90841519/how-to-make-the-most-of-pinpoint-part-of-googles-toolkit-for-journalists) by Fast Company
+National Press Foundation: [How to use Google Pinpoint](https://www.youtube.com/watch?v=Dt7g-0TcbLY)
+
+{% embed url="https://www.youtube.com/watch?v=Dt7g-0TcbLY" %}
 
 ## Tool provider
 
