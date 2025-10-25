@@ -40,7 +40,7 @@ Public Scans Visibility: By default, scans are public. If a URL contains sensiti
 
 Scope: urlscan will not work for all sites as some block automated scanners, are on deny lists and/or urlscan cannot reach them.
 
-Authentication Requirements: If a site requires a session cookie, token, orlogin, urlscan can't get past the authentication wall. This could result in only the login page being captured or no result at all.
+Authentication Requirements: If a site requires a session cookie, token, or login, urlscan can't get past the authentication wall. This could result in only the login page being captured or no result at all.
 
 ## Ethical Considerations
 
