@@ -1,8 +1,8 @@
 ---
 description: >-
-  Whoxy is a domain search engine or "whois lookup" tool to find registration
-  information on a domain, such as the registrar, the status of the domain and
-  the date of registration.
+  Whoxy is a domain search engine or "whois lookup" tool to find (the history
+  of) registration information on a domain, such as the registrar, the status of
+  the domain and the date of registration.
 ---
 
 # Whoxy
@@ -78,7 +78,7 @@ There are no limitations found while writing this description.
 
 ## Ethical Considerations
 
-Personally identifiable information (abbreviated as [PII](https://en.wikipedia.org/wiki/Personal\_data)) is often redacted in order to adhere to privacy rulings. \*
+Personally identifiable information (abbreviated as [PII](https://en.wikipedia.org/wiki/Personal_data)) is often redacted in order to adhere to privacy rulings. \*
 
 The results may still show names, addresses and contact information. Keep in mind that the names that are shown may not be the same person that is investigated on.
 
@@ -96,11 +96,11 @@ The tool provider is Whoxy.com, powered by [Autowhois.com](https://www.autowhois
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat Volunteer Team |
-|                           |
+| Page maintainer |
+| --------------- |
+| Lavache         |
+|                 |
