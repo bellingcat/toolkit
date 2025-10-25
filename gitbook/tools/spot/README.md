@@ -136,10 +136,6 @@ This feature is similar to [Bellingcat’s OpenStreetMap](https://bellingcat.git
 
 To confirm which result matches our required location, one must sift through all the available possibilities on the map.&#x20;
 
-The exact location where the entity is situated can also be viewed in integrated mapping services, such as [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps), [Bing](https://app.gitbook.com/u/ViCSKrNRRpZOOjQVlfLHkPMJAqw1), and [Yandex](https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps). This ensures location verification through multiple mapping services in one place, thus saving time and allowing for greater flexibility.
-
-Spot has also integrated [Google Street View](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps#street-view) for location verification. Clicking on “Open Google Street View” opens a window displaying the location's street-level photography. Use this feature to match entities and features against the photo or video being geolocated.
-
 ### Data Input, Output and Formats
 
 {% tabs %}
@@ -171,9 +167,9 @@ Use the search parameters box to adjust existing search features and their relat
 
 ### Spot’s Output Result Map&#x20;
 
-To use Spot for geolocation and understand how to use its interface, we used this image of a church by the user “[jirashimosu](https://www.instagram.com/p/DK0UTHwIDIA/)” ([archive](https://archive.md/sxYZ2)) on Instagram. The caption, “London Summer Fragments Day #1”, indicates that the photo was taken somewhere in London. However, in OSINV, finding the exact location is paramount, as accuracy is crucial.
+To use Spot for geolocation and understand how to use its interface, we used this image of a church posted on Instagram. The caption, “London Summer Fragments Day #1”, indicates that the photo was taken somewhere in London. However, in OSINV, finding the exact location is paramount, as accuracy is crucial.
 
-<figure><img src=".gitbook/assets/Blurred Insta users.png" alt=""><figcaption><p>Instagram post by "jirashimosu".</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Blurred Insta users.png" alt=""><figcaption><p><strong>INSTAGRAM POST USED FOR SPOT GEOLOCATION EXERCISE</strong></p></figcaption></figure>
 
 The visual clues in the image provide an opportunity to locate the exact area using Spot. In this particular case, tall buildings that are 10 stories or more also appear behind the church. More importantly, a water body with fountains side by side is also visible in the image. One can also roughly estimate the distance as the features in the image seem to be close to each other.
 
