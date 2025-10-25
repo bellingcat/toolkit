@@ -317,6 +317,9 @@ And a video on viewing and interpreting Spot results:
 
 * [Bellingcat OpenStreetMap Search](https://bellingcat.gitbook.io/toolkit/more/all-tools/openstreetmap-search-tool)
 * [Overpass Turbo](https://bellingcat.gitbook.io/toolkit/more/all-tools/overpass-turbo)
+* [GeoGuessr GPT](https://aichatonline.org/gpts-ZxX4ERaY-GeoGuessr-GPT)
+* [GeoSpy](https://geospy.ai/)
+* [EarthKi](https://earthkit.ecmwf.int/)[t](https://earthkit.ecmwf.int/)
 
 ## Tool provider
 
