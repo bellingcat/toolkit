@@ -49,7 +49,7 @@ Exercise caution and/or check with your parent organization before uploading sen
 
 According to [Pinpoint Additional Terms of Service](https://support.google.com/pinpoint/answer/13071911?hl=en), "if you upload content to Pinpoint, you give Google permission to use that content, including to operate and promote Pinpoint, in accordance with the [Google Terms of Service](https://policies.google.com/terms) and Google’s Privacy Policy."
 
-Google does [state](https://support.google.com/pinpoint/answer/14338615?hl=en) that the documents that are uploaded to pinpoint are private by default - unless actively published - and will not be used for training Large Language Models (LLMs).&#x20;
+Google does [state](https://support.google.com/pinpoint/answer/14338615?hl=en) that the uploaded documents are private by default - unless actively published - and will not be used for training Large Language Models (LLMs).&#x20;
 
 Keep in mind that Pinpoint's generative AI features are currently only available in a [list of countries](https://support.google.com/pinpoint/answer/14338615?hl=en#support_countries).
 
