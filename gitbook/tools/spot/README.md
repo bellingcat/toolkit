@@ -72,6 +72,26 @@ The Spot interface uses text boxes for input data, set over a background map for
 
 <figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption><p><strong>THE SPOT INTERFACE</strong></p></figcaption></figure>
 
+{% columns %}
+{% column %}
+**THE SEARCH PARAMETERS SUBWINDOW**
+
+Here, you can edit the OSM tags assigned to each feature. OSM tags define features of map [elements](https://taginfo.openstreetmap.org/about) which “add meaning to geographic objects.”&#x20;
+
+According to the TagInfo site for OSM tags, “there is no fixed list of those tags. New tags can be invented and used as needed. Everybody can come up with a new tag and add it to new or existing objects.”
+
+A tag is made of two [items](https://wiki.openstreetmap.org/wiki/Tags): a key and a value. A key describes the category or type of feature. A [value](https://wiki.openstreetmap.org/wiki/Tags#Keys_and_values) “provides detail for the key-specified feature." For example, an OSM key, “waterway”, can have multiple values that define this key. Some of them include a stream, ditch, river, drain, canal, and dam, among others. These can be adjusted depending on the needs of the search.
+
+This feature is similar to [Bellingcat’s OpenStreetMap](https://bellingcat.gitbook.io/toolkit/more/all-tools/openstreetmap-search-tool) search tool, which uses a custom setting for adding features, enabling adjustments via the OSM key and value.
+{% endcolumn %}
+
+{% column %}
+**SEARCH PARAMETERS EDITING SCHEM**A
+
+<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2kIW8Z8_2Fuploads_2FaRZD6UaIw207sEIqbBhC_2FSpotSearchParameters (1).avif" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
 <details>
 
 <summary>The  “Search Parameters” box can be explanded to show more detail of location, entities, and the relationship between them, including the distance... (<em>Click here to see more on Search Parameters...)</em></summary>
@@ -104,7 +124,7 @@ Overpass Turbo query search parameters - references entities with the appropriat
 {% endtab %}
 
 {% tab title="SPOT OUTPUT DATA" %}
-<figure><img src=".gitbook/assets/InterfaceSpot.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/InterfaceSpot.jpg" alt="" width="563"><figcaption></figcaption></figure>
 
 Location map marking all features in candidate solutions which satisfy the search criteria, but not marking those groups individually, giving the number of candidate solutions for the search, or providing an approximate location for viewpoints which could include them all.
 {% endtab %}
@@ -128,6 +148,30 @@ Use the search parameters box to adjust existing search features and their relat
 {% endtabs %}
 
 ### Spot’s Output Result Map&#x20;
+
+Spot does **not** directly identify specific locations which meet the input search criteria (unlike other tools, e.g. Bellingcat OpenStreetMap Search). Instead, it identifies all those features which belong to any  and all locations which meet the search criteria, and draws them together on the same map. Therefore if there is more than one candidate location which meets the search criteria, it may not be possible to distinguish one from another, particularly if they are geographically close.
+
+{% columns %}
+{% column width="50%" %}
+**SPOT'S OUTPUT MAP**
+
+Spot delivers a smap marked with all the features which meet the search criteria, but not the actual associated locations. \[Where there is only one candidate location, this is not an issue]. The single map without associations between features and candidate locations makes comparison with StreetView photography very difficult.
+
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column width="50%" %}
+**ACTUAL GEOGRAPHY**
+
+If the features which meet the search criteria are grouped into candidate locations, this makes examination of multiple candidate locations possible. Bellingcat OSM search delivers this type of result, with a separate map for each candidate location.
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+For examples where there are multiple solution locations meeting the search criteria, Spot's output map may not allow
+
+
 
 To use Spot for geolocation and understand how to use its interface, we used this image of a church posted on Instagram. The caption, “London Summer Fragments Day #1”, indicates that the photo was taken somewhere in London. However, in OSINV, finding the exact location is paramount, as accuracy is crucial.
 
