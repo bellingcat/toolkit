@@ -24,4 +24,8 @@ docs.google.com
 
 ​[Test slides](https://docs.google.com/presentation/d/1VdYgTcq0P77UH44QVfEEWExu5bAzhtscxkCfDOkyfMs/edit?usp=sharing)
 
+***
+
+
+
 [^1]: Street view photographs are taken at ground level (as opposed to satellite view imagery, taken from above), giving a view of what a human would see at a location by looking around.
