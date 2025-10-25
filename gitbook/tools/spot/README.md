@@ -46,6 +46,8 @@ e.g. Enter "_**Find a pharmacy and a traffic light and a bus stop and a bridge w
 
 Spot works in 4 stages, from natural language input to streetview comparison of outputs.&#x20;
 
+<table><thead><tr><th width="109.66668701171875">STEP</th><th>PROCESS</th><th></th></tr></thead><tbody><tr><td><strong>1) Natural Language Query Input</strong></td><td>Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language, and converts these sentences into query language code with a formal structure (which is displayed to the user in a separate box in the interface) called <a href="https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL">Overpass Query Language</a>.</td><td></td></tr><tr><td><strong>2) Run Overpass Query on the OpenStreetMap Database</strong></td><td>Spot uses the query  language code to perform a search of OpenStreetMap (by building an Overpass query and running it with the <a href="https://wiki.openstreetmap.org/wiki/Overpass_API">Overpass API</a>).</td><td></td></tr><tr><td><strong>3) Display Solution Features on a Map</strong></td><td>Spot displays all the features which satisfy the user's input search on a map. </td><td></td></tr><tr><td><strong>4) Offer A Choice of StreetView Options for Each Solution Feature</strong></td><td>For each feature marked on the output map, Spot offers the user the option to open the location in any one of the largest three mapping services (<a href="https://app.gitbook.com/u/ViCSKrNRRpZOOjQVlfLHkPMJAqw1">Google</a>, <a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps">Yandex</a>, and <a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/bing-maps">Bing</a>) and additionally provides the option directly to view Google's <a data-footnote-ref href="#user-content-fn-5">street view</a> information (mainly user-supplied ground-levelphotography) on the location which is invaluable for geolocation purposes.</td><td></td></tr></tbody></table>
+
 {% stepper %}
 {% step %}
 ### Natural Language Query Input
@@ -86,7 +88,7 @@ Spot does not sort and group features which relate to different candidate locati
 
 For each feature marked on the output map, Spot offers the user the option to open the location in any one of the largest three mapping services ([Google](https://app.gitbook.com/u/ViCSKrNRRpZOOjQVlfLHkPMJAqw1), [Yandex](https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps), and [Bing](https://bellingcat.gitbook.io/toolkit/more/all-tools/bing-maps)) and additionally provides the option directly to view Google's [street view](#user-content-fn-5)[^5] information (mainly user-supplied ground-levelphotography) on the location which is invaluable for geolocation purposes.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -130,7 +132,7 @@ This feature is similar to [Bellingcat’s OpenStreetMap](https://bellingcat.git
 
 </details>
 
-<figure><img src=".gitbook/assets/SpotSearchParameters (1).JPG" alt="" width="322"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/SpotSearchParameters (1) (1).JPG" alt="" width="322"><figcaption></figcaption></figure>
 
 To confirm which result matches our required location, one must sift through all the available possibilities on the map.&#x20;
 
