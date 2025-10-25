@@ -179,7 +179,7 @@ Use the search parameters box to adjust existing search features and their relat
 
 To use Spot for geolocation and understand how to use its interface, we used this image of a church by the user “[jirashimosu](https://www.instagram.com/p/DK0UTHwIDIA/)” ([archive](https://archive.md/sxYZ2)) on Instagram. The caption, “London Summer Fragments Day #1”, indicates that the photo was taken somewhere in London. However, in OSINV, finding the exact location is paramount, as accuracy is crucial.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-08-31 at 15.06.10.png" alt="" width="375"><figcaption><p>An image on Instagram showing a church in London. (Credit: Gerasimos Evangelatos)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Blurred Insta users.png" alt=""><figcaption><p>Instagram post by "jirashimosu".</p></figcaption></figure>
 
 The visual clues in the image provide an opportunity to locate the exact area using Spot. In this particular case, tall buildings that are 10 stories or more also appear behind the church. More importantly, a water body with fountains side by side is also visible in the image. One can also roughly estimate the distance as the features in the image seem to be close to each other.
 
@@ -280,10 +280,10 @@ The tool was developed by [DW Innovation](https://innovation.dw.com/about), Germ
 
 The tool uses “cookieless tracking”. Although the “tracking” feature can be disabled on the “Legal & Privacy Statement” page, may want to consider taking precautions, such as using VPNs and browser extensions, to block tracking and prevent the potential revealing of their location.
 
-| Page maintainer                                           |
-| --------------------------------------------------------- |
-| Anisa Shabir and Sophie Tedling (Sophie 2 10 25 11:45 UK) |
-|                                                           |
+| Page maintainer                                                       |
+| --------------------------------------------------------------------- |
+| Anisa Shabir 5:00 pm PKT and Sophie Tedling (Sophie 2 10 25 11:45 UK) |
+|                                                                       |
 
 [^1]: [Open Street Map](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/TSRCKcxTTIGI6g9ZTkHy/) is a free, open map database of the world, which is updated and maintained by a community of volunteer contributors.
 
