@@ -129,6 +129,10 @@ Spot displays all the features which satisfy the user's input search on a map.Sp
 
 For each feature marked on the output map, Spot offers the user the option to open the location in any one of the largest three mapping services (Google, [Yandex](https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps), and [Bing](https://bellingcat.gitbook.io/toolkit/more/all-tools/bing-maps)) and additionally provides the option directly to view Google's street view information (mainly user-supplied ground-levelphotography) on the location which is invaluable for geolocation purposes.
 
+### Spot’s Output Result Map&#x20;
 
+To use Spot for geolocation and understand how to use its interface, we used this image of a church posted on Instagram. The caption, “London Summer Fragments Day #1”, indicates that the photo was taken somewhere in London. However, in OSINV, finding the exact location is paramount, as accuracy is crucial.
+
+<figure><img src=".gitbook/assets/Blurred Insta users.png" alt="" width="375"><figcaption><p><strong>INSTAGRAM POST USED FOR SPOT GEOLOCATION EXERCISE</strong></p></figcaption></figure>
 
 [^1]: Street view photographs are taken at ground level (as opposed to satellite view imagery, taken from above), giving a view of what a human would see at a location by looking around.

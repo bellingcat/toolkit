@@ -48,8 +48,6 @@ Spot works in 4 stages, from natural language input to streetview comparison of 
 
 <table><thead><tr><th width="109.66668701171875">STEP</th><th>PROCESS</th><th>DESCRIPTION</th></tr></thead><tbody><tr><td><strong>1) Natural Language Query Input</strong></td><td>Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language, and converts these sentences into query language code with a formal structure (which is displayed to the user in a separate box in the interface) called <a href="https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL">Overpass Query Language</a>.</td><td><div><figure><img src=".gitbook/assets/step1 (4).JPG" alt=""><figcaption></figcaption></figure></div></td></tr><tr><td><strong>2) Run Overpass Query on the OpenStreetMap Database</strong></td><td>Spot uses the query  language code to perform a search of OpenStreetMap (by building an Overpass query and running it with the <a href="https://wiki.openstreetmap.org/wiki/Overpass_API">Overpass API</a>).</td><td>This stage of the Spot service uses exactly the same process as the other OSM search tools.<img src=".gitbook/assets/SpotSearchParametersSMALLEST (1).jpg" alt=""></td></tr><tr><td><strong>3) Display Solution Features on a Map</strong></td><td>Spot displays all the features which satisfy the user's input search on a map.<img src=".gitbook/assets/Spot Paris ex 5 (1).JPG" alt=""> </td><td><p></p><p>Spot does not sort and group features which relate to different candidate location solutions, so if there is more than one potential solution (which is often the case):</p><ul><li> the existence of multiple candidate location solutions may not be apparent to the user</li><li>the number of candidate location solutions may well not to be apparent to the user</li><li>which discovered features belong to which propsed candidate locations may not be to discernible to the user</li></ul></td></tr><tr><td><strong>4) Offer A Choice of StreetView Options for Each Solution Feature</strong></td><td>For each feature marked on the output map, Spot offers the user the option to open the location in any one of the largest three mapping services (<a href="https://app.gitbook.com/u/ViCSKrNRRpZOOjQVlfLHkPMJAqw1">Google</a>, <a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps">Yandex</a>, and <a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/bing-maps">Bing</a>) and additionally provides the option directly to view Google's <a data-footnote-ref href="#user-content-fn-5">street view</a> information (mainly user-supplied ground-levelphotography) on the location which is invaluable for geolocation purposes.</td><td><div><figure><img src=".gitbook/assets/step4.JPG" alt=""><figcaption></figcaption></figure></div></td></tr></tbody></table>
 
-
-
 {% hint style="warning" %}
 **USE OF 'AI' TECHNOLOGY IN SPOT IS LIMITED TO CONVERTING THE LANGUAGE OF THE SEARCH QUERY, I.E. STAGE 1 ONLY**
 
@@ -72,7 +70,7 @@ Spot's landing page includes a modal window (a pop-up) where example queries are
 
 The Spot interface uses text boxes for input data, set over a background map for result display, and an additional Street View pop up window.
 
-<figure><img src=".gitbook/assets/SPOTINTERFACE.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption><p><strong>THE SPOT INTERFACE</strong></p></figcaption></figure>
 
 <details>
 
@@ -88,7 +86,7 @@ This feature is similar to [Bellingcat’s OpenStreetMap](https://bellingcat.git
 
 </details>
 
-<figure><img src=".gitbook/assets/SpotSearchParameters (1) (1).JPG" alt="" width="322"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/SpotSearchParameters (1) (1).JPG" alt="" width="215"><figcaption></figcaption></figure>
 
 To confirm which result matches our required location, one must sift through all the available possibilities on the map.&#x20;
 
@@ -96,6 +94,8 @@ To confirm which result matches our required location, one must sift through all
 
 {% tabs %}
 {% tab title="INPUT DATA" %}
+<figure><img src=".gitbook/assets/step1 (5).JPG" alt="" width="563"><figcaption></figcaption></figure>
+
 Natural language description of a location to be found - includes entities at the location, their relative proximity and the geographic search area.
 
 OR
@@ -104,6 +104,8 @@ Overpass Turbo query search parameters - references entities with the appropriat
 {% endtab %}
 
 {% tab title="SPOT OUTPUT DATA" %}
+<figure><img src=".gitbook/assets/InterfaceSpot.jpg" alt=""><figcaption></figcaption></figure>
+
 Location map marking all features in candidate solutions which satisfy the search criteria, but not marking those groups individually, giving the number of candidate solutions for the search, or providing an approximate location for viewpoints which could include them all.
 {% endtab %}
 
@@ -113,11 +115,15 @@ Location map marking all features in candidate solutions which satisfy the searc
 {% endtab %}
 
 {% tab title="DATA INPUT OPTIONS" %}
+NB Locations can be input as Proper Place Names, or Geographic co-ordinates.
+
 Enter a natural language sentence in the search box
 
 OR
 
 Use the search parameters box to adjust existing search features and their relative distances via a part text, part graphic subwindow.
+
+<figure><img src=".gitbook/assets/SpotSearchParametersSMALLEST (3).jpg" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
