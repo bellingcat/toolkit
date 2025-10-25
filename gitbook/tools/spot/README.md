@@ -114,7 +114,9 @@ Spot's landing page includes a modal window (a pop-up) where example queries are
 {% endcolumn %}
 {% endcolumns %}
 
-<figure><img src=".gitbook/assets/SPOTINTERFACE.jpg" alt=""><figcaption><p><strong>THE SPOT INTERFACE, SHOWING THE MAIN FEATURES OF DATA INPUT AND OUTPUT</strong></p></figcaption></figure>
+The Spot interface uses text boxes for input data, set over a background map for result display, and an additional Street View pop up window.
+
+<figure><img src=".gitbook/assets/SPOTINTERFACE.jpg" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -130,13 +132,7 @@ This feature is similar to [Bellingcat’s OpenStreetMap](https://osm-search.bel
 
 </details>
 
-<figure><img src=".gitbook/assets/SpotSearchParameters (1).JPG" alt=""><figcaption></figcaption></figure>
-
-After conducting a search, you can always adjust the Search Parameters to refine criteria and update results.
-
-Spot displays the results on an interactive map. These are potential location solutions from the search appearing on the map simultaneously.&#x20;
-
-Search features are highlighted in different colours, and users can select or deselect the ones they want to see on the interface through the “Map Legend” at the bottom left, or just make them flash momentarily by hovring the mouse over the Map Legend. The slider on the right allows you to zoom in on a single location or zoom out to view all results.
+<figure><img src=".gitbook/assets/SpotSearchParameters (1).JPG" alt="" width="322"><figcaption></figcaption></figure>
 
 To confirm which result matches our required location, one must sift through all the available possibilities on the map.&#x20;
 
