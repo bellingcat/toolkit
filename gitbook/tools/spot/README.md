@@ -181,8 +181,6 @@ The red blobs on the map legend represent churches, blue indicates water, and ye
 
 To explore a specific result, use the slider to zoom in on the result of your choice. Clicking on a specific feature from one of the results shows its details, including a link to its OSM ID. This link opens a new tab to its location on the OpenStreetMap website, where you can find this entity and explore further. In this case, clicking on the church (higlighted in red) indicates that it's called "St-Giles-without-Cripplegate", its “denomination” is “Anglican” and was “rebuilt” in “1906.” Click on the OSM ID link for more details.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-08-31 at 15.15.05.png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src=".gitbook/assets/StGilesCripplegatecrop (1).jpg" alt=""><figcaption></figcaption></figure>
 
 The exact location where the entity is situated can also be opened in the integrated mapping services like Google Maps, Bing, and Yandex. This ensures location verification through multiple mapping services in one place, thus saving time and allowing for greater flexibility. Here, opening the location for church in Google Maps reveals it's located at coordinates [51.5187148,-0.0963922](https://www.google.com/maps/place/@51.5187148,-0.0963922,543m/data=!3m1!1e3!4m6!1m5!3m4!2zNTHCsDMxJzA3LjQiTiAwwrAwNSczNy43Ilc!8m2!3d51.5187222!4d-0.0938056?entry=ttu\&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D).
