@@ -104,19 +104,21 @@ For each feature marked on the output map, Spot offers the user the option to op
 
 ## The Interface
 
-The first thing a user sees when they visit the Spot website is a modal window (a pop-up). This box includes a search box, where an example query is typed out word by word and then disappears automatically. “Find me a tram stop next to a park within 150 meters of a traffic light and a parking garage in Prague,” says the animated auto-query. This demonstrates how to phrase a search for the tool to understand. Text for the search prompt can be entered here or performed after closing this window.
+{% columns %}
+{% column %}
+Spot's landing page includes a modal window (a pop-up) where example queries are continuously typed out word by word to guide the user on what their input should look like.
+{% endcolumn %}
 
-<figure><img src=".gitbook/assets/Animated aut-query.png" alt="" width="375"><figcaption></figcaption></figure>
+{% column %}
+<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2kIW8Z8_2Fuploads_2F5pwxT2xJdDjsccHt8Hld_2FAnimated_20aut-query.avif" alt="" width="188"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
-In the top left corner, a query can be entered into the search box. This is the first step, also explained in the description above, where Spot takes the input as natural language prompts.
-
-Just below the search bar is an expandable “Search Parameters” box, where the location, entities, and the relationship between them —specifically, how far apart they are from each other— can be viewed. Entities are features labelled according to OpenStreetMap’s own classification system.&#x20;
-
-<figure><img src=".gitbook/assets/Search parameters.png" alt=""><figcaption><p>Search Parameters and the search box.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/SPOTINTERFACE.jpg" alt=""><figcaption><p><strong>THE SPOT INTERFACE, SHOWING THE MAIN FEATURES OF DATA INPUT AND OUTPUT</strong></p></figcaption></figure>
 
 <details>
 
-<summary>Search Parameters</summary>
+<summary>The  “Search Parameters” box can be explanded to show more detail of location, entities, and the relationship between them, including the distance... (<em>Click here to see more on Search Parameters...)</em></summary>
 
 Here, you can edit the OSM tags assigned to each feature. OSM tags define features of map [elements](https://wiki.openstreetmap.org/wiki/Tags) which “add meaning to geographic objects.”&#x20;
 
@@ -127,6 +129,8 @@ A tag is made of two [items](https://wiki.openstreetmap.org/wiki/Tags): a key an
 This feature is similar to [Bellingcat’s OpenStreetMap](https://osm-search.bellingcat.com/) search tool, which uses a custom setting for adding features, enabling adjustments via the OSM key and value.
 
 </details>
+
+<figure><img src=".gitbook/assets/SpotSearchParameters (1).JPG" alt=""><figcaption></figcaption></figure>
 
 After conducting a search, you can always adjust the Search Parameters to refine criteria and update results.
 
