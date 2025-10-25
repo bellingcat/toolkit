@@ -1,8 +1,8 @@
 ---
+updated: '2025-09-10'
 description: >-
   A platform that maintains a database of compromised credentials, with a
   newly-launched web domain registration search tool.
-updated: '2025-09-10'
 ---
 
 # DeHashed
@@ -120,5 +120,5 @@ Not so clear. The website's privacy policy suggests that DeHashed is registered 
 
 | Page maintainer |
 | --------------- |
-| Ana.            |
+| Ana             |
 |                 |
