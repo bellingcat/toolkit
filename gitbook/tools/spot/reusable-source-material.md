@@ -143,4 +143,14 @@ Taking these features into account, a query for Spot can be constructed that rea
 The red blobs on the map legend represent churches, blue indicates water, and yellow signifies buildings with 10 or more stories. There are 3 different churches returned by Spot which meet the criteria.\
 To explore a specific result, use the slider to zoom in on the result of your choice. Clicking on a specific feature from one of the results shows its details, including a link to its OSM ID. This link opens a new tab to its location on the OpenStreetMap website, where you can find this entity and explore further. In this case, clicking on the church (higlighted in red) indicates that it's called "St-Giles-without-Cripplegate", its “denomination” is “Anglican” and was “rebuilt” in “1906.” Click on the OSM ID link for more details.
 
+
+
+Users can also switch between map layers that include “[vector map](#user-content-fn-2)[^2]”, “[hybrid view](#user-content-fn-3)[^3]” and “[OSM Style Map](#user-content-fn-4)[^4]”. The screenshot below shows a location from search results in the hybrid view on the left, and the Google Street View tab showing street-level photography over satellite imagery of the selected result on the right.
+
 [^1]: Street view photographs are taken at ground level (as opposed to satellite view imagery, taken from above), giving a view of what a human would see at a location by looking around.
+
+[^2]: “Vector maps are two-dimensional maps that use geometrical shapes such as points, lines, and polygons to represent geographical features,” according to LocationIQ’s [website](https://blog.locationiq.com/vector-or-raster-maps-which-one-is-best-for-you/).&#x20;
+
+[^3]: A Hybrid Map displays the map interface combining both satellite and vector maps.
+
+[^4]: An OSM-style map, as the name suggests, displays the interface in OpenStreetMap view format.
