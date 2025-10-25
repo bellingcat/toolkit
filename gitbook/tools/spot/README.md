@@ -185,7 +185,7 @@ The exact location where the entity is situated can also be opened in the integr
 
 Use the integrated Google Street View for location verification. Clicking on any blob on the map allows to view the street-level photography of the church's location. On Spot, select one of the points highlighting water from this area, and then open the Google Street view. Exploring the location through street view confirms that this location matches the one in the photo from Instagram above as shown here:
 
-Users can also switch between map layers that include “[vector map](#user-content-fn-6)[^6]”, “[hybrid view](#user-content-fn-7)[^7]” and “[OSM Style Map](#user-content-fn-8)[^8]”. The screenshot below shows a location from search results in the hybrid view and the Google Street View tab showing street-level photography of the selected result.
+Users can also switch between map layers that include “[vector map](#user-content-fn-6)[^6]”, “[hybrid view](#user-content-fn-7)[^7]” and “[OSM Style Map](#user-content-fn-8)[^8]”. The screenshot below shows a location from search results in the hybrid view on the left, and the Google Street View tab showing street-level photography over satellite imagery of the selected result on the right.
 
 {% columns %}
 {% column %}
