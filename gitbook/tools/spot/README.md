@@ -30,9 +30,9 @@ Spot is one amongst [a range of OSM search tools](./#similar-tools) which exists
 
 The Spot user can describe a location search in terms of :
 
-* groupings of OSM map features, e.g. a pharmacy AND[^3] a traffic light
-* their relative distance from one another, e.g. within 70m of one another
-* the location of a geographical search area, e.g. in Cologne
+1. groupings of OSM map features, e.g. a pharmacy AND[^3] a traffic light
+2. their relative distance from one another, e.g. within 70m of one another
+3. the location of a geographical search area, e.g. in Cologne
 
 e.g. Enter "_**Find a pharmacy and a traffic light and a bus stop and a bridge within 70m in Cologne**_" and, in response, Spot will return a map showing those candidate groups of features whenever they meet the user's distance criteria within the given geographical search area.&#x20;
 
@@ -42,7 +42,7 @@ e.g. Enter "_**Find a pharmacy and a traffic light and a bus stop and a bridge w
 
 Spot works in 4 stages, from natural language input to streetview comparison of outputs.&#x20;
 
-<table><thead><tr><th width="200" align="center">STAGE</th><th width="298" align="center">ACTION</th><th align="center">INTERFACE FEATURE</th></tr></thead><tbody><tr><td align="center"><h3>1. Natural </h3><h3>Language </h3><h3>Query Input</h3></td><td align="center">Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language, and converts these sentences into query language  code with a formal structure (which is displayed to the user in a separate box in the interface) called <a href="https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL">Overpass Query Language</a>.</td><td align="center"><div><figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div></td></tr><tr><td align="center"><h3>2. Run Overpass </h3><h3>Query on the </h3><h3>OpenStreetMap </h3><h3>Database</h3></td><td align="center">Spot  uses the query  language code to perform a search of OpenStreetMap (by building an Overpass query and running it with the <a href="https://wiki.openstreetmap.org/wiki/Overpass_API">Overpass API</a>).</td><td align="center"><div><figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div></td></tr><tr><td align="center"><h3>3. Dipslay All </h3><h3>Solution </h3><h3>Features </h3><h3>on A Map</h3></td><td align="center">Spot displays all the features which satisfy the user's input search on a map. It does not sort features which relate to different candidate location solutions, so if there is more than one potential solution this may not be apparent.</td><td align="center"><div><figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div></td></tr><tr><td align="center"><h3>4. Offer A Choice of </h3><h3>of Streetview </h3><h3>Options for </h3><h3>Each Solution </h3><h3>Feature</h3></td><td align="center">For each feature marked on the output map, Spot offers the user the option to open a <a data-footnote-ref href="#user-content-fn-4">street view</a> window within the tool, using data from a choice of three of the largest providers of street view photography (Google, Yandex, and Bing).</td><td align="center"><div><figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div></td></tr></tbody></table>
+<table><thead><tr><th width="200" align="center">STAGE</th><th width="298" align="center">ACTION</th><th align="center">INTERFACE FEATURE</th></tr></thead><tbody><tr><td align="center"><h3>1. Natural </h3><h3>Language </h3><h3>Query Input</h3></td><td align="center">Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language, and converts these sentences into query language  code with a formal structure (which is displayed to the user in a separate box in the interface) called <a href="https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL">Overpass Query Language</a>.</td><td align="center"><div><figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div></td></tr><tr><td align="center"><h3>2. Run Overpass </h3><h3>Query on the </h3><h3>OpenStreetMap </h3><h3>Database</h3></td><td align="center">Spot  uses the query  language code to perform a search of OpenStreetMap (by building an Overpass query and running it with the <a href="https://wiki.openstreetmap.org/wiki/Overpass_API">Overpass API</a>).</td><td align="center"><div><figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div></td></tr><tr><td align="center"><h3>3. Display All </h3><h3>Solution </h3><h3>Features </h3><h3>on A Map</h3></td><td align="center">Spot displays all the features which satisfy the user's input search on a map. N.B. It does <strong>not</strong> sort and group features which relate to different candidate location solutions, so if there is more than one potential solution this may not be apparent.</td><td align="center"><div><figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div></td></tr><tr><td align="center"><h3>4. Offer A Choice of </h3><h3>of Streetview </h3><h3>Options for </h3><h3>Each Solution </h3><h3>Feature</h3></td><td align="center">For each feature marked on the output map, Spot offers the user the option to open a <a data-footnote-ref href="#user-content-fn-4">street view</a> window within the tool, using data from a choice of three of the largest providers of street view photography (Google, Yandex, and Bing).</td><td align="center"><div><figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div></td></tr></tbody></table>
 
 ***
 
@@ -54,6 +54,10 @@ Spot works in 4 stages, from natural language input to streetview comparison of 
 
 Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language, and converts these sentences into query language code with a formal structure (which is displayed to the user in a separate box in the interface) called [Overpass Query Language](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL).
 
+{% hint style="warning" %}
+Note that this language translation stage is the ONLY stage of the Spot service which uses the Large Language Model which is considered to be "AI". The actual search of the OSM database uses exactly the same process as other types of OSM search tools.
+{% endhint %}
+
 ![](<.gitbook/assets/image (6) (1).png>)![](<.gitbook/assets/image (8) (1).png>)
 {% endstep %}
 
@@ -61,14 +65,28 @@ Spot takes natural language prompts as input from the user, i.e. sentences writt
 ### Run Overpass Query on the OpenStreetMap Database
 
 Spot uses the query  language code to perform a search of OpenStreetMap (by building an Overpass query and running it with the [Overpass API](https://wiki.openstreetmap.org/wiki/Overpass_API)).
+
+{% hint style="success" %}
+This stage of the Spot service uses exactly the same process as the other OSM search tools.
+{% endhint %}
 {% endstep %}
 
 {% step %}
 ### Display All Solution Features on A Map
 
-Spot displays all the features which satisfy the user's input search on a map. It does not sort features which relate to different candidate location solutions, so if there is more than one potential solution this may not be apparent.
+Spot displays all the features which satisfy the user's input search on a map.&#x20;
 
-<p align="center"><img src=".gitbook/assets/image (9) (1).png" alt=""></p>
+{% hint style="warning" %}
+Spot does not sort and group features which relate to different candidate location solutions, so if there is more than one potential solution (which is often the case):
+
+* &#x20;the existence of multiple candidate location solutions may not be apparent to the user
+* the number of candidate location solutions may well not to be apparent to the user
+* which discovered features belong to which propsed candidate locations may not be to discernible to the user
+{% endhint %}
+
+<figure><img src=".gitbook/assets/Spot Paris ex 5 CROP.jpg" alt=""><figcaption></figcaption></figure>
+
+
 {% endstep %}
 
 {% step %}
@@ -262,10 +280,10 @@ The tool was developed by [DW Innovation](https://innovation.dw.com/about), Germ
 
 The tool uses “cookieless tracking”. Although the “tracking” feature can be disabled on the “Legal & Privacy Statement” page, may want to consider taking precautions, such as using VPNs and browser extensions, to block tracking and prevent the potential revealing of their location.
 
-| Page maintainer                 |
-| ------------------------------- |
-| Anisa Shabir and Sophie Tedling |
-|                                 |
+| Page maintainer                                           |
+| --------------------------------------------------------- |
+| Anisa Shabir and Sophie Tedling (Sophie 2 10 25 11:45 UK) |
+|                                                           |
 
 [^1]: [Open Street Map](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/TSRCKcxTTIGI6g9ZTkHy/) is a free, open map database of the world, which is updated and maintained by a community of volunteer contributors.
 
