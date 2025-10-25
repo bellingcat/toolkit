@@ -193,6 +193,16 @@ Users can also switch between map layers that include “[vector map](#user-cont
 
 <figure><img src=".gitbook/assets/hybrid view .png" alt=""><figcaption></figcaption></figure>
 
+{% columns %}
+{% column %}
+<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2kIW8Z8_2Fuploads_2FbTkbLE5vkDEHdaixSCha_2FScreenshot_202025-08-31_20at_2015.24.35.avif" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2kIW8Z8_2Fuploads_2FvVFfiktlPlV7rIkbqvP6_2Fhybrid_20view_20.avif" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
 ### Cost
 
 * [x] Free
@@ -215,9 +225,9 @@ Any web browser and a sign-up through GitHub or Google are required to use the t
 All tools which query OpenStreetMap share the limitations which the structure of the OpenStreetMap tagging scheme imposes. Knowledge of the relationship between different but connected tagging categories is needed to perform efficient searches where one tag is deemed to be a subset of another, e.g. if the stream tag is a subset of river tag, if the river tag is a subset of the water tag. Searching with the tag 'stream' will return a smaller set of results than 'river', and likewise 'river' will return a smaller set of results than 'water'. Knowing which tag to use for a search affects the number and quality of search results returned, and therefore the speed of the overall search.
 {% endhint %}
 
-1. The format of Spot's output is imprecise relative to other tools which clearly group the features supporting each different solution location proposed in response to the user's query. Spot puts all the features supporting each solution location onto the same output map, without counting the number of different solution locations and indicating the supporting features for each one. So Spot does **not** answer the question "How many different locations satisfy my criteria in the given search area? "
+1. The format of Spot's output is imprecise relative to other tools which clearly group the features supporting each different solution location proposed in response to the user's query e.g. [Bellingcat OpenStreetMap Search](https://bellingcat.gitbook.io/toolkit/more/all-tools/openstreetmap-search-tool). Spot puts all the features supporting each solution location onto the same output map, without counting the number of different solution locations and indicating the supporting features for each one. So Spot does **not** answer the question "How many different locations satisfy my criteria in the given search area? "
 2. Spot's valuable integrated street view access operates at the location of each feature on the solution map. Given that usually all the features mentioned in a query will be visible in the source image which is being geolocated, the view **at** a feature location is not likely to be a match. e.g. street view imagery taken at the central co-ordinates of the Eiffel Tower is unlikely to include images where the Eiffel Tower is clearly visible.
-3. When we tested the tool, Spot sometimes gave us errors (as at testing on 31/8/25). These are some of the different errors we came across:
+3. When we tested the tool, Spot sometimes gave us errors (as at testing on 25/10/25). These are some of the different errors we came across:
 
 <div><figure><img src=".gitbook/assets/Cologne system hickup.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/geometry2025-07-05 at 22.04.20.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/London Unknown error copy.png" alt=""><figcaption></figcaption></figure></div>
 
