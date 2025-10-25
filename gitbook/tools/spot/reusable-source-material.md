@@ -80,6 +80,18 @@ This feature is similar to [Bellingcat’s OpenStreetMap](https://osm-search.bel
 
 
 
+After conducting a search, you can always adjust the Search Parameters to refine criteria and update results.
+
+Spot displays the results on an interactive map. These are potential location solutions from the search appearing on the map simultaneously.&#x20;
+
+Search features are highlighted in different colours, and users can select or deselect the ones they want to see on the interface through the “Map Legend” at the bottom left, or just make them flash momentarily by hovring the mouse over the Map Legend. The slider on the right allows you to zoom in on a single location or zoom out to view all results.
+
+To confirm which result matches our required location, one must sift through all the available possibilities on the map.&#x20;
+
+The exact location where the entity is situated can also be viewed in integrated mapping services, such as [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps), [Bing](https://app.gitbook.com/u/ViCSKrNRRpZOOjQVlfLHkPMJAqw1), and [Yandex](https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps). This ensures location verification through multiple mapping services in one place, thus saving time and allowing for greater flexibility.
+
+Spot has also integrated [Google Street View](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps#street-view) for location verification. Clicking on “Open Google Street View” opens a window displaying the location's street-level photography. Use this feature to match entities and features against the photo or video being geolocated.
+
 
 
 [^1]: Street view photographs are taken at ground level (as opposed to satellite view imagery, taken from above), giving a view of what a human would see at a location by looking around.
