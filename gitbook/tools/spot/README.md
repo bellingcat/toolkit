@@ -14,7 +14,7 @@ description: >-
 
 <figure><img src=".gitbook/assets/Screenshot 2025-08-31 at 15.24.35.png" alt=""><figcaption><p><strong>THE SPOT INTERFACE DISPLAYING RESULTS OF A SEARCH OF OPEN STREET MAP EXPRESSED IN ENGLISH LANGUAGE AT TOP LEFT, WITH RESULTS COLOURED ON THE MAP AND ONE CANDIDATE LOCATION ALSO SHOWN AS STREET VIEW IMAGERY</strong></p></figcaption></figure>
 
-Spot provides an interface for searching OpenStreetMap[^1] using everyday language as input (multiple languages are supported in addition to English, but not specified by the Tool authors).
+Spot provides an interface for searching OpenStreetMap[^1] using everyday language as input (our testing shows that multiple languages are supported in addition to English, but these are not specified by the Spot authors).
 
 <details>
 
