@@ -57,6 +57,7 @@ ShipFinder's online version does not require a user to sign up or input an email
 * **AIS Data**: ShipFinder's platform is based on [AIS](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/y4PuseOaDGmxp1otYeL9/) data. This means that if ships are broadcasting too far from a receiver that the platform has access to, it will be lacking data on that vessel. This can occur when a ship is too far from shore for a receiver to pick up its signals. Another limitation is that AIS devices can simply be [switched off](https://globalfishingwatch.org/article/hotspots-of-unseen-fishing-vessels-qa/) to hide a vessel's location.
 * **Past vessel movements:** The option to see past vessel movements is limited in the free version.
 * **Subscription Costs**: The premium version of the app on the Apple Store, which offers additional features, currently [costs ](https://apps.apple.com/us/developer/pinkfroot-limited/id319726822)USD 4.99.
+* **Tool updates**: Certain elements of the tool don't appear to receive frequent updates by its developer. The latest entry to the news section of the website dates back to 2014. The tool's IOS app was last updated in 2018 according to its version history. Despite this, the app is still functional. Other apps by the developer do continue to be updated and the [spotting community](https://my.pinkfroot.com/) related to the tool is still very active as well.&#x20;
 
 ## Similar Tools
 
