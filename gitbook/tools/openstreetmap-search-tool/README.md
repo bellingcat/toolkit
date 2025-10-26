@@ -1,8 +1,8 @@
 ---
+updated: '2025-08-31'
 description: >-
   A user interface to search OpenStreetMap data for features in proximity to
   each other.
-updated: '2025-08-31'
 ---
 
 # Bellingcat OpenStreetMap Search
@@ -17,7 +17,7 @@ Bellingcat has built a tool for searching OpenStreetMap data to help geolocate i
 
 With the OpenStreetMap search tool, a researcher can find geolocation leads by searching for several features on OpenStreetMap that are placed within a certain maximum distance to each other. Large queries may take a minute to run - to increase the speed search a smaller area by zooming in on the map. Results can be browsed directly, opened in Google Maps by clicking the lat/long, or downloaded as a CSV or KML file.
 
-The example below shows a search for _bridge_ amenities around Amsterdam on a satellite map:&#x20;
+The example below shows a search for _bridge_ amenities around Amsterdam on a satellite map:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-06-23 at 11.14.25 AM.png" alt="Screenshot of search for bridge amenities around Amsterdam on a satellite map. The image show the selectable tags, a map of Amsterdam with blue dots highlighting the bridges and individual selectable bridges below."><figcaption><p>Screenshot of a search for bridge amenities around Amsterdam.</p></figcaption></figure>
 
@@ -32,7 +32,7 @@ Online Open Source Investigators can leverage the Bellingcat OpenStreetMap Searc
 
 In each of these use cases, users can precisely tailor their queries to extract specific data points from the vast repository of geographic information available on OpenStreetMap.
 
-Latest changes and features: [https://github.com/bellingcat/osm-search/commits/main/](https://github.com/bellingcat/osm-search/commits/main/)&#x20;
+Latest changes and features: [https://github.com/bellingcat/osm-search/commits/main/](https://github.com/bellingcat/osm-search/commits/main/)
 
 ## Cost
 
@@ -51,12 +51,12 @@ Latest changes and features: [https://github.com/bellingcat/osm-search/commits/m
 
 ## Limitations
 
-* **Automatic logouts:** It can happen that the tool logs users out during a user session. It is recommended to refresh the tool page from time to time and to simply log in another time with the same Google account in case this happens.&#x20;
+* **Automatic logouts:** It can happen that the tool logs users out during a user session. It is recommended to refresh the tool page from time to time and to simply log in another time with the same Google account in case this happens.
 * **Doesn't Support Complex Queries:** The tool only supports a constrained subset of the query language (Overpass QL).
 * **Query Complexity and Performance:** Overpass Turbo might struggle with very complex queries or large data sets, leading to long response times or timeouts.
 * **Data Currency:** While the tool provides access to up-to-date OSM data, there may be a minor delay in data refresh rates which could impact real-time data analysis needs.
 * **Geographical Limitations:** Performance and efficiency can degrade for queries that span very large geographical areas or the entire globe.
-* **OpenStreetMap:** very detailed but accuracy and completeness varies significantly around the world. This tool can be used to find possible leads, but it should not be considered exhaustive or used to exclude areas of interest.&#x20;
+* **OpenStreetMap:** very detailed but accuracy and completeness varies significantly around the world. This tool can be used to find possible leads, but it should not be considered exhaustive or used to exclude areas of interest.
 
 ## Ethical Considerations
 
@@ -97,8 +97,7 @@ To effectively use Bellingcat OpenStreetMap Search, especially for beginners or 
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                             |
-| ------------------------------------------- |
-| Sophie Tedling and Anisa Shabir GAP members |
-|                                             |
-
+| Page maintainer                  |
+| -------------------------------- |
+| Sophie Tedling and Anisa Shabir  |
+|                                  |
