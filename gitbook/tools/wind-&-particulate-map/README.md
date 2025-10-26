@@ -13,24 +13,45 @@ description: >-
 ## Description
 
 {% hint style="warning" %}
-Due to disruptions to U.S. federal funding, this tool is vulnerable to suspension of data updates and unavailability or some information.
+As of October 2025, some of the data underlying this tool is no longer being updated due to U.S. federal funding disruptions.
 
-As of October 2025, the tool provider has not issued alerts regarding data suspensions. We know, however, that one or more data sources underlying this map have suspended updates.
+This tool visualizes both historic and near real-time data. Especially when dealing with recent data, use this tool with caution. Always verify data through its original source.&#x20;
 
-Use this tool with caution, and verify data through its original source. Data sources for each map layer are listed [here](https://earth.nullschool.net/about).
+Data sources for each map layer are listed [here](https://earth.nullschool.net/about).
 {% endhint %}
 
-**Nullschool Earth Map** is an interactive, animated visualization of global environmental data. It displays information on wind, ocean currents, waves, air pollutants and more. Users can explore various data layers, projections and dates to observe environmental conditions across the planet.&#x20;
+**Nullschool Earth Map** is an interactive visualization of global environmental data. It displays information on wind, ocean currents, waves, air pollutants and more. Users can specify a date and explore various data layers to observe environmental conditions across the planet.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2025-06-08 at 10.14.28 PM.png" alt="A globe with South America in focus. The land and oceans are blue, and there are large green swirls with white streaks flowing through the swirls. The swirls appear mostly in the ocean, but not exclusively."><figcaption><p>Surface Winds:  June 8, 2025</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-10-26 at 4.20.10 PM.png" alt="A globe with the Atlantic Ocean in focus. The land and oceans are blue, and there are large green swirls with white streaks flowing through the swirls. The swirls appear mostly in the ocean, but not exclusively."><figcaption><p>Surface winds on June 8, 2025</p></figcaption></figure>
 
-In addition to viewing global environmental trends, by clicking on a specific location or specifying latitude/longitude coordinates in the URL, users can get interpolated data values of any given metric for a specified location.
+### Potential Uses
 
-<figure><img src=".gitbook/assets/Screenshot 2025-06-08 at 10.33.04 PM.png" alt="A globe with India roughly in the center. The land and oceans are greenish blue, with patches of sand-colored land, particularly in India and southeast Asia. A few areas in Asia and Africa stand out as bright pink or purple."><figcaption><p>Winds and Carbon Monoxide Surface Concentration; January 1, 2021</p></figcaption></figure>
+Open source researchers may find this tool useful for:
 
-To change the date, mode and other metrics, click the "earth" label with the three-line menu icon in the bottom-left corner of the screen.
+* tracking the spread of particulate matter over time to infer the presence of dust & smoke
+* corroborating weather conditions at a specified date/time
+* analyzing ocean currents and wind conditions to support ship movement tracking
+* tracking and discovering fires anywhere in the world
 
-<figure><img src=".gitbook/assets/Screenshot 2025-06-08 at 10.23.04 PM.png" alt="Interface menu showing options for date, mode (air, ocean, chem, particulates, space, bio), animate (wind, currents, waves), overlay (DUex, PM1, PM2.5, PM10, OMaot, SO4ex), and map projection. "><figcaption><p>Available metrics</p></figcaption></figure>
+This is not a comprehensive list. This tool contains a wealth of data which may be useful in many ways, especially as related to environmental investigations.
+
+### Tips & Tricks
+
+* To open the interface panel that allows you to change the data layer, date and more, click "earth" in the bottom left corner of the screen.
+
+<figure><img src=".gitbook/assets/Screenshot 2025-10-26 at 4.44.36 PM.png" alt=""><figcaption></figcaption></figure>
+
+* Specify a date/time to view by clicking the calendar icon in the 'Control' row.
+
+<figure><img src=".gitbook/assets/Screenshot 2025-10-26 at 5.36.03 PM.png" alt="User interface panel that enables users to change the date and data metric displayed on map. This screenshot highlights the calendar icon."><figcaption></figcaption></figure>
+
+* Click a point on the map to get the interpolated value for a given metric at any given location.
+
+<figure><img src=".gitbook/assets/Screenshot 2025-10-26 at 5.17.56 PM.png" alt="The map in Wind Mode, showing the DUex value for a point in Africa"><figcaption></figcaption></figure>
+
+* To specify an exact latitude/longitude coordinate, select the metrics you'd like to see, then edit the end of the URL by adding `loc=YOUR_LONGITUDE_POINT,YOUR_LATITUDE_POINT`.
+  * Example:
+    * [https://earth.nullschool.net/#2018/08/04/2000Z/particulates/surface/level/overlay=duexttau/orthographic=54.12,6.65,449/loc=_**11.539,19.014**_](https://earth.nullschool.net/#2018/08/04/2000Z/particulates/surface/level/overlay=duexttau/orthographic=54.12,6.65,449/loc=11.539,19.014)
 
 ### Available Metrics
 
