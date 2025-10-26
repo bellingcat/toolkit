@@ -9,17 +9,11 @@ description: >-
 
 ## URL
 
-{% embed url="https://soar.earth/" %}
+[https://soaratlas.com/discover](https://soaratlas.com/discover)
 
 ## Description
 
-\[Insert graphic of gif showing overlay of candidate Soar map over OSM background and increasing transparency to show perfect fit of Georeferenced map]
-
-
-
-
-
-<figure><img src=".gitbook/assets/SOAR57secs VERSION2 ezgif-2389f6798f6c69.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/SOAR57secs VERSION2 ezgif-2389f6798f6c69.gif" alt=""><figcaption><p><strong>SEARCHING FOR MAPS FOR A GIVEN LOCATION, VIEWING OVERLAY ON OPENSTREETMAP AND SATELLITE DATA USING GEOREFERENCED TRANSPARENCY FEATURE, SELECTING APPROPRIATE SATELLITES PASSING OVERHEAD</strong></p></figcaption></figure>
 
 Soar is described as a Digital Atlas containing over a million maps. Its main functions are:
 
@@ -35,7 +29,7 @@ Selection and acquisition of satellite imagery from a range of providers, both f
 
 Provision of online visualisation features allowing the creation of multi-image narratives. User Data Sharing. Facility to upload and share user imagery, including narrative formats
 
-These constitute some of the major tasks which Open Source researchers undertake during investigations, making Soar a multi-purpose platform for OSINV.
+These constitute some of the major tasks which Open Source researchers undertake during investigations, making Soar **a multi-purpose platform for OSINV**.
 
 {% hint style="success" %}
 Note that some satellite imagery maps in the Soar database are of very high quality, i.e. 8cm per pixel resolution, making them particularly valuable resources.
@@ -94,17 +88,17 @@ Note that some satellite imagery maps in the Soar database are of very high qual
 
 ### <mark style="color:$info;">Summarise in an expandable because this may change again</mark>
 
-_<mark style="color:$info;">The</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**Discover**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">section leans more into visual storytelling. This takes you</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**directly**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">to the atlas' user-uploaded maps,imagery etc.  It is a collection of both georeferenced maps and what Soar calls "LoFi" maps, which are designed for data visualization and artistic expression, rather than geographic precision.  For georeferenced maps, you can use a transparency slider to adjust how much of the basemap underneath shows through. This helps compare features or blend historical and current views. LoFi maps don't offer this, since they are not spatially aligned, but stand out for their design and narrative focus.</mark>_  \
-_<mark style="color:$info;">GIFS</mark>_\
+~~_<mark style="color:$info;">The</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**Discover**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">section leans more into visual storytelling. This takes you</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**directly**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">to the atlas' user-uploaded maps,imagery etc.  It is a collection of both georeferenced maps and what Soar calls "LoFi" maps, which are designed for data visualization and artistic expression, rather than geographic precision.  For georeferenced maps, you can use a transparency slider to adjust how much of the basemap underneath shows through. This helps compare features or blend historical and current views. LoFi maps don't offer this, since they are not spatially aligned, but stand out for their design and narrative focus.</mark>_~~  \
+~~_<mark style="color:$info;">GIFS</mark>_~~\
 
 
-_<mark style="color:$info;">The</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**Maps**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">section works like a traditional GIS interface. You can search by coordinates, view satellite imagery, and layer your own georeferenced maps over basemaps. It is ideal for users who need accuracy and spatial detail. Zooming in or out triggers a dynamic sidebar to the left with related user-uploaded maps from Soar's Atlas, adding a curated browsing experience to the more technical side of the platform. The Maps takes you</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**indirectly**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">to the Atlas of user-uploaded maps, imagery.</mark>_  \
+~~_<mark style="color:$info;">The</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**Maps**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">section works like a traditional GIS interface. You can search by coordinates, view satellite imagery, and layer your own georeferenced maps over basemaps. It is ideal for users who need accuracy and spatial detail. Zooming in or out triggers a dynamic sidebar to the left with related user-uploaded maps from Soar's Atlas, adding a curated browsing experience to the more technical side of the platform. The Maps takes you</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**indirectly**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">to the Atlas of user-uploaded maps, imagery.</mark>_~~  \
 
 
-_<mark style="color:$info;">There is, however, a crossover between these two sections. Features like the Atlas appearing on both and the transparency tool help bridge them. But that being said, the platform seems to lean slightly more toward showcasing its Atlas and visual content than emphasizing traditional mapping workflows. However, it does so in a way that still supports both audiences.</mark>_&#x20;
+~~_<mark style="color:$info;">There is, however, a crossover between these two sections. Features like the Atlas appearing on both and the transparency tool help bridge them. But that being said, the platform seems to lean slightly more toward showcasing its Atlas and visual content than emphasizing traditional mapping workflows. However, it does so in a way that still supports both audiences.</mark>_~~&#x20;
 
 \
-_<mark style="color:$info;">Quote from the creator: "Soar could become as ubiquitous as Google Maps but with more context and community." (https://www.popsci.com/technology/soar-online-atlas-open-source-intelligence/)</mark>_&#x20;
+~~_<mark style="color:$info;">Quote from the creator: "Soar could become as ubiquitous as Google Maps but with more context and community." (https://www.popsci.com/technology/soar-online-atlas-open-source-intelligence/)</mark>_~~&#x20;
 
 ### &#x20;<mark style="color:$info;">(The Interface) Sophie try to put into a graphic or Tabs</mark>
 
@@ -146,8 +140,6 @@ _<mark style="color:$info;">Filtering:</mark>_ <mark style="color:$info;"></mark
 
 <mark style="color:$info;">Explain that DISCOVER AND MAPS are designed for different routes to the same information, the first centred round categories (?list them or just give examples again), the second centred around locations.</mark>
 
-SATELLITES (Interface)
-
 ### ~~<mark style="color:$info;">DISCOVER</mark>~~
 
 ~~<mark style="color:$danger;">**Discover section for 2 Map Types:**</mark>~~&#x20;
@@ -173,11 +165,11 @@ SATELLITES (Interface)
 * location (Maps Section designed for this)&#x20;
 * **category (Discover Section designed for this)**
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 * georeference - i.e. can it scale to fit over a modern scientifically derived world map? (Discover s~~ection filters by this)~~
 
@@ -187,7 +179,13 @@ SATELLITES (Interface)
 
 Another very valuable feature is that Soar inserts connective links between maps which cover the same area. <mark style="color:$danger;">**TEST. Need to check this carefully and either bin or provide an example see**</mark> [<mark style="color:$danger;">**https://opengislab.com/blog/2021/7/11/exploring-a-digital-atlas-of-maps-and-imagery-on-soarearth**</mark>](https://opengislab.com/blog/2021/7/11/exploring-a-digital-atlas-of-maps-and-imagery-on-soarearth)
 
-<mark style="color:$danger;">**NB Note that Soar puts labels over Thumbnail maps to give information as to format, but these formats don't correspond exactly to the filters offered by Soar - labels include "GIF", "REAL TIME", "DAILY", POPULAR", "NEW", "LoFi (which IS one of the filterable categories)**</mark>
+## SATELLITES (Interface)
+
+<mark style="color:$danger;">**?Turn into a Hint??**</mark>
+
+<mark style="color:$danger;">**\[NB Note that Soar puts labels over Thumbnail maps to give information as to format, but these formats don't correspond exactly to the filters offered by Soar - labels include "GIF", "REAL TIME", "DAILY", POPULAR", "NEW", "LoFi (which IS one of the filterable categories)]**</mark>
+
+
 
 2.  An interface supporting access to satellite imagery for areas of interest and timeframes specified by the user, offering both free and charged data:
 
@@ -203,19 +201,26 @@ Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceani
 
 
 
-### <mark style="color:$primary;">NARRATIVES (INTERFACE)</mark>
+### <mark style="color:$primary;">NARRATIVES (INTERFACE) and upload - Afton</mark>&#x20;
 
 <mark style="color:$danger;">**\[We thought we might illustrate a stoary**</mark>**&#x20;**<mark style="color:$info;">**(I think maybe we tested the GIF feature for Evergreen instead of a Stoary?)**</mark>**&#x20;**<mark style="color:$danger;">**with the Evergreen Ship incident,stuck in the Suez canal 23-29/3/21**</mark>
 
-AND/OR we can use the Tajikistan insciprtions visible from satellite.]
+GREAT SO&#x20;
+
+* WE CAN USE THE EVERGREEN ANIMATED GIF EXAMPLE FOR GIF FEATURE
+* WE CAN USE TAJIKISTAN FOR THE STOARY FEATURE(Tajikistan inscriptions visible from satellite.]
 
 
 
 3. The facility to upload and share user maps (Formats are Georeferenced maps=GeoTIFF, ECW and JP2, LoFi Map formats = PNG and JPEG and create geographical media (called Stoaries <mark style="color:$danger;">**need to check the exact definition of a Stoary - is it a set of digital pages which can include gif animation? Stoaries - you can annotate a map (TEST maybe only an OSB background map, not a Soar upload**</mark>**&#x20;**<mark style="color:$info;">**(Tested and it looks like you can annotate a Soar upload (see my attempt at explaining the step below)**</mark><mark style="color:$danger;">**) and it will allow you to add the coordinates of a map pin in any chosen metric system. You can add photos or video to locations**</mark> to communicate complex information, e.g. changes over time.
 
+### <mark style="color:$primary;">Maybe a Hint? Definitely a limitation!</mark>
+
 <mark style="color:$danger;">**NB There are quite a few things which don't actually export to GeoJSON format when you export**</mark>
 
-<div data-full-width="true"><figure><img src=".gitbook/assets/image.png" alt="" width="305"><figcaption><p><mark style="color:$danger;">Dont necessarily intend this to be in the finished entry, just showing it here</mark></p></figcaption></figure></div>
+<div data-full-width="true"><figure><img src=".gitbook/assets/image (4).png" alt="" width="305"><figcaption><p><mark style="color:$danger;">Dont necessarily intend this to be in the finished entry, just showing it here</mark></p></figcaption></figure></div>
+
+### <mark style="color:$primary;">Is there a separate item about making animated GIFS? Is that just Satellite site functionality, passed through?</mark>
 
 ### <mark style="color:$info;">"Stoary": What is it?</mark>
 
@@ -233,7 +238,7 @@ _<mark style="color:$info;">(Post on X:</mark>_ [_<mark style="color:$info;">htt
    1. <mark style="color:$info;">Each page of a Stoary can use a basemap (OSM, Satellite, etc) provided</mark>
    2.  <mark style="color:$info;">Can use user-uploaded Soar maps! (screenshot below)</mark>
 
-       <mark style="color:$info;">NOTE: If using a Soar uploaded map for your Stoary, the transparency feature can be used.</mark>&#x20;
+       <mark style="color:$info;">NOTE: If using a Soar uploaded map for your Stoary, the transparency feature can be used. YES!!</mark>
 
 <figure><img src=".gitbook/assets/Screenshot 2025-09-11 094916-ed.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -247,8 +252,6 @@ _<mark style="color:$info;">(Post on X:</mark>_ [_<mark style="color:$info;">htt
 4. <mark style="color:$info;">Sharing and Exporting</mark>&#x20;
 
 To demonstrate the visualization capability of a "Stoary", we used the feature below using information [from a 2024 investigation by Bellingcat](https://www.bellingcat.com/news/2024/12/18/ukraine-outraged-at-yemen-grain-shipment-from-occupied-crimea/). NOTE: This is for demonstration purposes only.&#x20;
-
-{% embed url="https://soar.earth/draw/2427" fullWidth="true" %}
 
 <mark style="color:$info;">(We don't have to include this demo if we don't think it is that helpful.)</mark>&#x20;
 
@@ -308,15 +311,17 @@ Soar data is particularly strong across different time modalities, e.g.&#x20;
 * animated gif maps displaying a sequence of changing information over time
 {% endhint %}
 
-<mark style="color:$info;">Soar hosts about 1,043,975 maps \[define what types]. The data comes from, but is not limited to:</mark>&#x20;
+<mark style="color:$info;">Sophie to condense and add this section to Interface info:</mark>
 
-<mark style="color:$info;">1. Individuals (example https://soar.earth/profile/Warmapper and https://soar.earth/profile/spacefromspace)</mark>
+_<mark style="color:$info;">\[Soar hosts about 1,043,975 maps \[define what types]. The data comes from, but is not limited to:</mark>_&#x20;
 
-<mark style="color:$info;">2. Organizations (https://soar.earth/profile/UN or https://soar.earth/profile/EU)</mark>
+_<mark style="color:$info;">1. Individuals (example https://soar.earth/profile/Warmapper and https://soar.earth/profile/spacefromspace)</mark>_
 
-<mark style="color:$info;">3. Government agency (https://soar.earth/profile/USGS)</mark>&#x20;
+_<mark style="color:$info;">2. Organizations (https://soar.earth/profile/UN or https://soar.earth/profile/EU)</mark>_
 
-<mark style="color:$info;">4. Other satellite image providers (https://soar.earth/profile/Umbra)</mark>&#x20;
+_<mark style="color:$info;">3. Government agency (https://soar.earth/profile/USGS)</mark>_&#x20;
+
+_<mark style="color:$info;">4. Other satellite image providers (https://soar.earth/profile/Umbra) ]</mark>_
 
 <mark style="color:$danger;">**We need to detail the tools for measurement, annotation and sharing, and link to the Toolkit QGIS entry**</mark>
 
@@ -340,7 +345,7 @@ Soar data is particularly strong across different time modalities, e.g.&#x20;
 
 Source: [Soar.Earth Digital Atlas QGIS Plugin - North Road](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)
 
-3\. Collaboration Features: <mark style="color:$info;">The pin feature and embed maps are not features that are available anymore. So this must be outdated. I will strike through for now instead of delete.</mark>&#x20;
+~~3. Collaboration Features: <mark style="color:$info;">The pin feature and embed maps are not features that are available anymore. So this must be outdated. I will strike through for now instead of delete.</mark>~~&#x20;
 
 * "<mark style="color:$info;">P</mark>~~<mark style="color:$info;">in" feature to save and overlay layers.</mark>~~
 * ~~<mark style="color:$info;">Annotations visible in embedded maps for collaborative context.</mark>~~
@@ -445,10 +450,18 @@ Soar, Perth, Australia<mark style="color:$danger;">**?**</mark>
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                               |
-| ------------------------------------------------------------- |
-| Afton 14/9/25 16:12 GMT and Sophie Tedling 26/10/25 20:15 GMT |
-|                                                               |
+<details>
+
+<summary>Soar volunteers the identities of the cookies used on the site. <em>Click the arrow for more information...</em></summary>
+
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+| Page maintainer                             |
+| ------------------------------------------- |
+| Afton and Sophie Tedling 26/10/25 20:15 GMT |
+|                                             |
 
 
 
