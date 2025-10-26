@@ -14,10 +14,19 @@ Soar is a database of over a million diverse maps & images , on a platform where
 
 Soar is described as a Digital Atlas containing over a million maps. Its main functions are:
 
-* Provision of [read and write access](#user-content-fn-1)[^1] to a large and growing searchable database of maps from all geographies, indexed in many dimensions, such as resolution, georeference status,  topical interest category. These include maps animated to show change over time and drone imagery, as well as satellite imagery.
-* Selection and acquisition of satellite imagery from a range of providers, both free and purchased. Available satellite paths can be displayed and filtered over any map of interest, so that users can direct their search for relevant satellite imagery to the appropriate satellite service, date and time.
-* Provision of online visualisation features allowing the creation of multi-image narratives using Soar content: "Stoary" presentations and animated GIFs.
-* Content-sharing platform for maps, satellite imagery, aerial imagery and&#x20;
+* **Map Database access**
+
+Provision of [read and write access](#user-content-fn-1)[^1] to a large and growing searchable database of maps from all geographies, indexed in many dimensions, such as resolution, georeference status,  topical interest category. These include maps animated to show change over time and drone imagery, as well as satellite imagery.
+
+* **Selection and acquisition of Satellite Imagery**
+
+Selection and acquisition of satellite imagery from a range of providers, both free and purchased. Available satellite paths can be displayed and filtered over any map of interest, so that users can direct their search for relevant satellite imagery to the appropriate satellite service, date and time.
+
+* **Narrative Creation**
+
+Provision of online visualisation features allowing the creation of multi-image narratives.&#x20;
+
+These constitute some of the major tasks which Open Source researchers undertake during investigations, making Soar a multi-purpose platform for OSINV.
 
 
 
