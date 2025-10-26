@@ -79,7 +79,7 @@ These Soar database entries are searchable by : <mark style="color:$danger;">**N
 
 \ <mark style="color:$info;">Quote from the creator: "Soar could become as ubiquitous as Google Maps but with more context and community." (https://www.popsci.com/technology/soar-online-atlas-open-source-intelligence/)</mark>&#x20;
 
-### <mark style="color:$info;">MAPS</mark>
+### <mark style="color:$info;">MAPS (The Interface) Sophie try to put into a graphic or Tabs</mark>
 
 <mark style="color:$info;">The default view is a zoomed-out satellite imagery of the Earth in the middle. To the left is a sidebar with a list of maps, to the right is a search box, zoom in, zoom out, and</mark> [<mark style="color:$info;">box zoom.</mark>](#user-content-fn-1)[^1]&#x20;
 
@@ -211,7 +211,7 @@ To demonstrate the visualization capability of a "Stoary", we used the feature b
 
 
 
-## The Interface <mark style="color:$danger;">is weird in my view, seems to have changed over time and old versions look better, need to c</mark>heck
+## The Interface <mark style="color:$danger;">is weird in my view, seems to have changed over time and old versions look better, need to c</mark>heck    !!Sophie to do these tabs!!
 
 {% tabs fullWidth="true" %}
 {% tab title="DATA INPUT" %}
@@ -304,6 +304,7 @@ Overall: For a casual user exploring maps, the difficulty is moderate <mark styl
 
 <mark style="color:$danger;">**Do we move some of the content above from the Level of Difficulty section?**</mark>**&#x20;**<mark style="color:$info;">**Yes, I have moved some**</mark>
 
+* <mark style="color:$info;">Some maps are georeferenced, some are not (usually old ones)</mark>
 * <mark style="color:$info;">Some Satellite images that are high quality - can take long to load when zooming in and out (i.e.</mark> [<mark style="color:$info;">https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69</mark>](https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69)<mark style="color:$info;">)</mark>&#x20;
 * <mark style="color:$info;">Confusing user interface</mark>
 *   <mark style="color:$info;">Stoaries are very difficult to edit. Going to the "page" of the map you want to edit does not take you to that location. Instead, you have to re-input the location or coordinates in the search bar.</mark> &#x20;
@@ -369,10 +370,10 @@ Soar, Perth, Australia<mark style="color:$danger;">**?**</mark>
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                             |
-| ----------------------------------------------------------- |
-| Afton 14/9/25 16:12 GMT and Sophie Tedling 2/9/25 20:15 GMT |
-|                                                             |
+| Page maintainer                                               |
+| ------------------------------------------------------------- |
+| Afton 14/9/25 16:12 GMT and Sophie Tedling 26/10/25 20:15 GMT |
+|                                                               |
 
 
 
