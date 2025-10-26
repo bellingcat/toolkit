@@ -1,21 +1,21 @@
 ---
-description: A tool that brings several maps into one place for easy location search.
 updated: '2025-08-30'
+description: A tool that brings several maps into one place for easy location search.
 ---
 
 # Quick geolocation search
 
 ## URL
 
-[https://cybdetective.com/quickgeolocationsearch.html](https://cybdetective.com/quickgeolocationsearch.html)&#x20;
+[https://cybdetective.com/quickgeolocationsearch.html](https://cybdetective.com/quickgeolocationsearch.html)
 
 ## Description
 
-Quick Geolocation Search is a repository of various maps, all in one place, which allows researchers to look at the same location on several maps.&#x20;
+Quick Geolocation Search is a repository of various maps, all in one place, which allows researchers to look at the same location on several maps.
 
 Enter coordinates in the longitude and latitude fields, or select a location on the map and choose a map you are interested in. The map will open in a new tab.
 
-Categories include **General** maps such as Google Maps, Yandex, Open Street Map, and Wikimapia.&#x20;
+Categories include **General** maps such as Google Maps, Yandex, Open Street Map, and Wikimapia.
 
 Other categories to explore are History, Nature, Satellite, Transport, Social Media.
 
@@ -25,19 +25,15 @@ Some maps from the **Nature** category are: Light Pollution Map, Shadow Map, Sun
 
 The **Satellite** maps section features [Sentinel Hub also known as Copernicus Browser](https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground), and Virtual Globetrotting. Both can be used for exploring satellite imagery from across the globe. Virtual Globetrotting can be used to view high-resolution imagery of landmarks, and much more!
 
-[Marine Traffic](https://www.marinetraffic.com/en/ais/home/centerx:2.514/centery:48.336/zoom:13) in the **Transport** section, maps and tracks the positions of shipping vessels across the globe.&#x20;
+[Marine Traffic](https://www.marinetraffic.com/en/ais/home/centerx:2.514/centery:48.336/zoom:13) in the **Transport** section, maps and tracks the positions of shipping vessels across the globe.
 
 Quick Geolocation Search also features **tools** that lets users "[draw on map and share](https://gribrouillon.fr/?sid=F6wMVp7o56#10/48.2100/2.2800)" the location of your choice.
-
-
 
 ## Cost
 
 * [x] Free
 * [ ] Partially Free
 * [ ] Paid
-
-
 
 ## Level of difficulty
 
@@ -53,7 +49,7 @@ Look at the tool description of a particular map in the[ Maps category of this t
 
 ## Ethical Considerations
 
-Have a look at our overview article on [ethical considerations for maps & satellites](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites).&#x20;
+Have a look at our overview article on [ethical considerations for maps & satellites](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites).
 
 ## Guides and articles
 
@@ -61,7 +57,7 @@ Have a look at our overview article on [ethical considerations for maps & satell
 
 ## Tool provider
 
-Cyber Detective: X profile [here](https://x.com/cyb_detective).  Website: [https://cybdetective.com/](https://cybdetective.com/), country unknown.
+Cyber Detective: X profile [here](https://x.com/cyb_detective). Website: [https://cybdetective.com/](https://cybdetective.com/), country unknown.
 
 ## Advertising Trackers
 
@@ -69,7 +65,7 @@ Cyber Detective: X profile [here](https://x.com/cyb_detective).  Website: [https
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Anisa Shabir    |
-|                 |
+| Page maintainer         |
+| ----------------------- |
+| Anisa Shabir GAP member |
+|                         |
