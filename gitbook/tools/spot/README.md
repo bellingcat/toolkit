@@ -330,10 +330,10 @@ The tool was developed by [DW Innovation](https://innovation.dw.com/about), Germ
 
 The tool uses “cookieless tracking”. Although the “tracking” feature can be disabled on the “Legal & Privacy Statement” page, may want to consider taking precautions, such as using VPNs and browser extensions, to block tracking and prevent the potential revealing of their location.
 
-| Page maintainer                                                       |
-| --------------------------------------------------------------------- |
-| Anisa Shabir 5:00 pm PKT and Sophie Tedling (Sophie 2 10 25 11:45 UK) |
-|                                                                       |
+| Page maintainer                                                        |
+| ---------------------------------------------------------------------- |
+| Sophie Tedling (Sophie 2 10 25 11:45 UK) and Anisa Shabir 5:00 pm PKT  |
+|                                                                        |
 
 [^1]: [Open Street Map](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/TSRCKcxTTIGI6g9ZTkHy/) is a free, open map database of the world, which is updated and maintained by a community of volunteer contributors.
 
