@@ -1,9 +1,9 @@
 ---
+updated: '2025-08-30'
 description: >-
   Autostitch is a free tool for seamlessly combining multiple photos into a
   single panoramic image, making it ideal for creating wide-angle photography
   without needing specialized equipment.
-updated: '2025-08-30'
 ---
 
 # AutoStitch
@@ -14,7 +14,7 @@ updated: '2025-08-30'
 
 ## Description
 
-Autostitch is an image stitching tool that automatically combines multiple photographs into a single panoramic image. It uses advanced algorithms to blend the edges of overlapping photos to form a cohesive panorama.&#x20;
+Autostitch is an image stitching tool that automatically combines multiple photographs into a single panoramic image. It uses advanced algorithms to blend the edges of overlapping photos to form a cohesive panorama.
 
 Open source researchers can use the tool to create a panoramic image of a location that is visible in a video, in particular if the video includes shots from several perspectives and has been filmed with a moving camera.
 
@@ -37,7 +37,7 @@ Users can adjust the output setting for panorama. The setting options include th
 ## Limitations
 
 * Limited control over stitching parameters.
-* May struggle with images that have very minimal overlap. Users often face the error “failed to align images.” One may need to sort images individually and remove those that have minimum overlap. Works better with a large set of images that have been sorted meticulously - including images having considerable overlap.                                                                                                    Autostitch works best for sequential images from a video. A video can be converted to sequential images, for example by using video splitting sites like ezgif.com/video-to-jpg (not recommended for sensitive video material).
+* May struggle with images that have very minimal overlap. Users often face the error “failed to align images.” One may need to sort images individually and remove those that have minimum overlap. Works better with a large set of images that have been sorted meticulously - including images having considerable overlap. Autostitch works best for sequential images from a video. A video can be converted to sequential images, for example by using video splitting sites like ezgif.com/video-to-jpg (not recommended for sensitive video material).
 * **Performance Issues**: Performance can degrade with large image sets and Auotostitch has been found to have [performance issues](https://www.neopanoramic.com/review/autostitch).
 * **Limited support and documentation.**
 
@@ -45,7 +45,7 @@ Users can adjust the output setting for panorama. The setting options include th
 
 To effectively use Autostitch, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
 
-**Official Wiki**&#x20;
+**Official Wiki**
 
 * [https://mattabrown.github.io/autostitch.html](https://mattabrown.github.io/autostitch.html)
 
@@ -64,7 +64,7 @@ To effectively use Autostitch, especially for beginners or those looking to refi
 
 ## Tool provider
 
-Matthew Alun Brown - United States&#x20;
+Matthew Alun Brown - United States
 
 Licensed by the University of British Columbia (Canada) to multiple companies including [ILM](https://www.ilm.com) (United States) and it appeared in several commercial products including Autopano Pro and Serif PanoramaPlus
 
@@ -74,7 +74,7 @@ Licensed by the University of British Columbia (Canada) to multiple companies in
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Anisa Shabir    |
-|                 |
+| Page maintainer         |
+| ----------------------- |
+| Anisa Shabir GAP member |
+|                         |
