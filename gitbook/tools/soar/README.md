@@ -15,6 +15,12 @@ description: >-
 
 \[Insert graphic of gif showing overlay of candidate Soar map over OSM background and increasing transparency to show perfect fit of Georeferenced map]
 
+
+
+
+
+<figure><img src=".gitbook/assets/SOAR57secs VERSION2 ezgif-2389f6798f6c69.gif" alt=""><figcaption></figcaption></figure>
+
 <figure><img src=".gitbook/assets/SOAR57secs ezgif-2389f6798f6c69.gif" alt=""><figcaption><p>SEARCHING &#x26; SELECTING A MAP USING SOAR, THEN OVERLAYING IT ON OPENSTREETMAP &#x26; SATELLITE VIEWS, USING TRANSPARENCY FEATURE TO COMPARE, AND FINALLY TESTING FOR OVERHEAD SATELLITE PATHS</p></figcaption></figure>
 
 <mark style="color:$info;">Soar is primarily a comprehensive digital atlas where users can discover, explore, navigate, and upload diverse maps and imagery. But it also functions as both a GIS exploration/navigation tool and a social platform for the global cartography community. The platform also enables satellite acquisition, user uploads, and visualization through its "Stoary" and GIFs feature for creating multi-slide map narratives with community-driven content sharing.</mark>
