@@ -163,7 +163,7 @@ Take this Instagram post “London Summer Fragments Day #1” as source material
 {% endcolumn %}
 
 {% column %}
-<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2kIW8Z8_2Fuploads_2F8VsZdwMZLWVV1bTzEybf_2FBlurred_20Insta_20users-1.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Blurred Insta users.jpg" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
