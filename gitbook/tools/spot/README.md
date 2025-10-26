@@ -92,20 +92,6 @@ This feature is similar to [Bellingcat’s OpenStreetMap](https://bellingcat.git
 {% endcolumn %}
 {% endcolumns %}
 
-<details>
-
-<summary>The  “Search Parameters” box can be explanded to show more detail of location, entities, and the relationship between them, including the distance... (<em>Click here to see more on Search Parameters...)</em></summary>
-
-Here, you can edit the OSM tags assigned to each feature. OSM tags define features of map [elements](https://taginfo.openstreetmap.org/about) which “add meaning to geographic objects.”&#x20;
-
-According to the TagInfo site for OSM tags, “there is no fixed list of those tags. New tags can be invented and used as needed. Everybody can come up with a new tag and add it to new or existing objects.”
-
-A tag is made of two [items](https://wiki.openstreetmap.org/wiki/Tags): a key and a value. A key describes the category or type of feature. A [value](https://wiki.openstreetmap.org/wiki/Tags#Keys_and_values) “provides detail for the key-specified feature." For example, an OSM key, “waterway”, can have multiple values that define this key. Some of them include a stream, ditch, river, drain, canal, and dam, among others. These can be adjusted depending on the needs of the search.
-
-This feature is similar to [Bellingcat’s OpenStreetMap](https://bellingcat.gitbook.io/toolkit/more/all-tools/openstreetmap-search-tool) search tool, which uses a custom setting for adding features, enabling adjustments via the OSM key and value.
-
-</details>
-
 To confirm which result matches our required location, one must sift through all the available possibilities on the map.&#x20;
 
 ### Data Input, Output and Formats
@@ -153,39 +139,43 @@ Spot does **not** directly identify specific locations which meet the input sear
 {% column width="50%" %}
 **SPOT'S OUTPUT MAP**
 
-Spot delivers a smap marked with all the features which meet the search criteria, but not the actual associated locations. \[Where there is only one candidate location, this is not an issue]. The single map without associations between features and candidate locations makes comparison with StreetView photography very difficult.
+Spot delivers a smap marked with all the features which meet the search criteria, but not the actual associated locations. \[Where there is only one candidate location, this is not an issue]. The single map without associations between features and candidate locations makes comparison with StreetView photography very difficult in situations with multiple candidate locations.
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/venn2.JPG" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column width="50%" %}
 **ACTUAL GEOGRAPHY**
 
-If the features which meet the search criteria are grouped into candidate locations, this makes examination of multiple candidate locations possible. Bellingcat OSM search delivers this type of result, with a separate map for each candidate location.
+If the features which meet the search criteria are grouped into candidate locations, this makes examination of multiple candidate locations (and cross-checking with other imagery) possible. Bellingcat OSM search delivers this type of result, with a separate map for each candidate location. Spot does not output specific locations,or map them to located image features.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/venn1.JPG" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 For examples where there are multiple solution locations meeting the search criteria, Spot's output map may not allow
 
+### Example Use Case
 
+{% columns %}
+{% column %}
+Take this Instagram post “London Summer Fragments Day #1” as source material to be geolocated.
+{% endcolumn %}
 
-To use Spot for geolocation and understand how to use its interface, we used this image of a church posted on Instagram. The caption, “London Summer Fragments Day #1”, indicates that the photo was taken somewhere in London. However, in OSINV, finding the exact location is paramount, as accuracy is crucial.
+{% column %}
+<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2kIW8Z8_2Fuploads_2F8VsZdwMZLWVV1bTzEybf_2FBlurred_20Insta_20users-1.webp" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
-<figure><img src=".gitbook/assets/Blurred Insta users.png" alt="" width="375"><figcaption><p><strong>INSTAGRAM POST USED FOR SPOT GEOLOCATION EXERCISE</strong></p></figcaption></figure>
+Features visible in the source image include tall buildings that are 10 stories or more high, and a water body with fountains, side by side. The location, within the City of London, is given in the image title.  One can also roughly estimate the distance as the features in the image are shown next to items providing scale, e.g. fountain, skyscraper, tree.
 
-The visual clues in the image provide an opportunity to locate the exact area using Spot. In this particular case, tall buildings that are 10 stories or more also appear behind the church. More importantly, a water body with fountains side by side is also visible in the image. One can also roughly estimate the distance as the features in the image seem to be close to each other.
-
-Taking these features into account, a query for Spot can be constructed that reads: “Find a church within 100m of a building with 10 stories or more and water in the City of London.”  The interface displays all possible solutions, which looks like this:
+A corresponding query for Spot could read: “Find a church within 100m of a building with 10 stories or more and water in the City of London.”  The interface displays all possible solutions (there are 3 churches which fit the search criteria), which looks like this:
 
 <figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-The red blobs on the map legend represent churches, blue indicates water, and yellow signifies buildings with 10 or more stories. There are 3 different churches returned by Spot which meet the criteria.
-
 To explore a specific result, use the slider to zoom in on the result of your choice. Clicking on a specific feature from one of the results shows its details, including a link to its OSM ID. This link opens a new tab to its location on the OpenStreetMap website, where you can find this entity and explore further. In this case, clicking on the church (higlighted in red) indicates that it's called "St-Giles-without-Cripplegate", its “denomination” is “Anglican” and was “rebuilt” in “1906.” Click on the OSM ID link for more details.
 
-<figure><img src=".gitbook/assets/StGilesCripplegatecrop (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/StGilesCripplegatecrop (1).jpg" alt=""><figcaption><p><strong>GOOGLE MAPS SHOWING THE CANDIDATE LOCATION WITH A CHURCH, AGAINST A SATELLITE BACKGROUND</strong> </p></figcaption></figure>
 
 The exact location where the entity is situated can also be opened in the integrated mapping services like Google Maps, Bing, and Yandex. This ensures location verification through multiple mapping services in one place, thus saving time and allowing for greater flexibility. Here, opening the location for church in Google Maps reveals it's located at coordinates [51.5187148,-0.0963922](https://www.google.com/maps/place/@51.5187148,-0.0963922,543m/data=!3m1!1e3!4m6!1m5!3m4!2zNTHCsDMxJzA3LjQiTiAwwrAwNSczNy43Ilc!8m2!3d51.5187222!4d-0.0938056?entry=ttu\&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D).
 
