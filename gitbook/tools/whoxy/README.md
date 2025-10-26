@@ -3,6 +3,7 @@ description: >-
   Whoxy is a domain search engine or "whois lookup" tool to find (the history
   of) registration information on a domain, such as the registrar, the status of
   the domain and the date of registration.
+updated: '2025-10-25'
 ---
 
 # Whoxy
