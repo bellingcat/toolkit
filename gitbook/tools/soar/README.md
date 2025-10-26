@@ -31,9 +31,9 @@ Provision of [read and write access](#user-content-fn-1)[^1] to a large and grow
 
 Selection and acquisition of satellite imagery from a range of providers, both free and purchased. Available satellite paths can be displayed and filtered over any map of interest, so that users can direct their search for relevant satellite imagery to the appropriate satellite service, date and time.
 
-* **Narrative Creation**
+* **Narrative Creation and Data Sharing**
 
-Provision of online visualisation features allowing the creation of multi-image narratives.&#x20;
+Provision of online visualisation features allowing the creation of multi-image narratives. User Data Sharing. Facility to upload and share user imagery, including narrative formats
 
 These constitute some of the major tasks which Open Source researchers undertake during investigations, making Soar a multi-purpose platform for OSINV.
 
@@ -106,7 +106,9 @@ _<mark style="color:$info;">There is, however, a crossover between these two sec
 \
 _<mark style="color:$info;">Quote from the creator: "Soar could become as ubiquitous as Google Maps but with more context and community." (https://www.popsci.com/technology/soar-online-atlas-open-source-intelligence/)</mark>_&#x20;
 
-### <mark style="color:$info;">MAPS (The Interface) Sophie try to put into a graphic or Tabs</mark>
+### &#x20;<mark style="color:$info;">(The Interface) Sophie try to put into a graphic or Tabs</mark>
+
+MAPS
 
 <mark style="color:$info;">The default view is a zoomed-out satellite imagery of the Earth in the middle. To the left is a sidebar with a list of maps, to the right is a search box, zoom in, zoom out, and</mark> [<mark style="color:$info;">box zoom.</mark>](#user-content-fn-3)[^3]&#x20;
 
@@ -142,6 +144,10 @@ _<mark style="color:$info;">Filtering:</mark>_ <mark style="color:$info;"></mark
 
 
 
+<mark style="color:$info;">Explain that DISCOVER AND MAPS are designed for different routes to the same information, the first centred round categories (?list them or just give examples again), the second centred around locations.</mark>
+
+SATELLITES (Interface)
+
 ### ~~<mark style="color:$info;">DISCOVER</mark>~~
 
 ~~<mark style="color:$danger;">**Discover section for 2 Map Types:**</mark>~~&#x20;
@@ -150,15 +156,15 @@ _<mark style="color:$info;">Filtering:</mark>_ <mark style="color:$info;"></mark
 
 ~~<mark style="color:$info;">(Afton's try at definition --Feel free to rephrase!)</mark>~~&#x20;
 
-<mark style="color:$info;">**LoFi Maps**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">- short for "low-fidelity". According to a June 25, 2025 Newsletter (mailing list) - these maps focus more on visual appeal than technical accuracy. In other words, these are image files that can't be layered on top of standard geographic basemaps like OSM due to the lack of necessary data to position them on a map accurately. Users may still zoom in and pan around, but it's best to treat them as standalone images that can't be integrated with geographic layers.</mark>&#x20;
+~~<mark style="color:$info;">**LoFi Maps**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">- short for "low-fidelity". According to a June 25, 2025 Newsletter (mailing list) - these maps focus more on visual appeal than technical accuracy. In other words, these are image files that can't be layered on top of standard geographic basemaps like OSM due to the lack of necessary data to position them on a map accurately. Users may still zoom in and pan around, but it's best to treat them as standalone images that can't be integrated with geographic layers.</mark>~~&#x20;
 
-<mark style="color:$info;">Users cannot use the transparency slider for LoFi maps.</mark>&#x20;
+~~<mark style="color:$info;">Users cannot use the transparency slider for LoFi maps.</mark>~~&#x20;
 
 <figure><img src=".gitbook/assets/lofi.png" alt="" width="375"><figcaption><p><mark style="color:$info;">for reference only (we dont have to keep it in the final description)</mark> </p></figcaption></figure>
 
-**(The verbatim from the newsletter: "**<mark style="color:$info;">At Soar, we often come across maps that are more visual or artistic in nature. These are what we call LoFi Maps - short for low-fidelity. Put simply, LoFi Maps are maps that don't include the data that places them over the base map. Instead, they're viewable as a standard image which you can zoom into, pan around, and explore, just without the base map.")</mark>
+~~**(The verbatim from the newsletter: "**<mark style="color:$info;">At Soar, we often come across maps that are more visual or artistic in nature. These are what we call LoFi Maps - short for low-fidelity. Put simply, LoFi Maps are maps that don't include the data that places them over the base map. Instead, they're viewable as a standard image which you can zoom into, pan around, and explore, just without the base map.")</mark>~~
 
-<mark style="color:$info;">**Georeferenced Maps -**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">maps or images (whether satellite, aerial, or drone capture) that contain specific Earth coordinates and allow for precise geographic positioning. These coordinate-linking allows for layering additional map data on top or making transparency adjustments.</mark>&#x20;
+~~<mark style="color:$info;">**Georeferenced Maps -**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">maps or images (whether satellite, aerial, or drone capture) that contain specific Earth coordinates and allow for precise geographic positioning. These coordinate-linking allows for layering additional map data on top or making transparency adjustments.</mark>~~&#x20;
 
 <figure><img src=".gitbook/assets/2025-09-03_21-39-44.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -173,9 +179,11 @@ _<mark style="color:$info;">Filtering:</mark>_ <mark style="color:$info;"></mark
 
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-* georeference - i.e. can it scale to fit over a modern scientifically derived world map? (Discover section filters by this)
+* georeference - i.e. can it scale to fit over a modern scientifically derived world map? (Discover s~~ection filters by this)~~
 
-One of Soar's most immediately valuable features is the ability to overlay imagery and maps in layers and the adjust transparency. <mark style="color:$danger;">**TEST**</mark> <mark style="color:$danger;">**Need to test can we adjust the relative scale of the maps to get them to fit over one another in the same location?? Which of the two maps can we rescale? One or both? Or is the interaction with the satellite imagery different in these two modes of Map and Discover?**</mark>
+~~One of Soar's most immediately valuable features is the ability to overlay imagery and maps in layers and the adjust transparency. <mark style="color:$danger;">**TEST**</mark>~~ ~~<mark style="color:$danger;">**Need to test can we adjust the relative scale of the maps to get them to fit over one another in the same location?? Which of the two maps can we rescale? One or both? Or is the interaction with the satellite imagery different in these two modes of Map and Discover?**</mark>~~
+
+### **AFTON TO TEST PLEASE??**
 
 Another very valuable feature is that Soar inserts connective links between maps which cover the same area. <mark style="color:$danger;">**TEST. Need to check this carefully and either bin or provide an example see**</mark> [<mark style="color:$danger;">**https://opengislab.com/blog/2021/7/11/exploring-a-digital-atlas-of-maps-and-imagery-on-soarearth**</mark>](https://opengislab.com/blog/2021/7/11/exploring-a-digital-atlas-of-maps-and-imagery-on-soarearth)
 
@@ -189,9 +197,19 @@ Another very valuable feature is that Soar inserts connective links between maps
 
     _&#x61;_&#x6E;d providing the ability to combine sequential satellite images into an animated gif.
 
+### **AFTON TO RESEARCH THE VALIDITY OF THE SKYMAP 50 SATELLITE DATA SOURCE, AND WHETHER THIS SITE COULD BE LINKED TO DISINFORMATION.**
+
 Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99](https://soar.earth/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99)
 
-<mark style="color:$danger;">**We thought we might illustrate a stoary**</mark>**&#x20;**<mark style="color:$info;">**(I think maybe we tested the GIF feature for Evergreen instead of a Stoary?)**</mark>**&#x20;**<mark style="color:$danger;">**with the Evergreen Ship incident,stuck in the Suez canal 23-29/3/21**</mark>
+
+
+### <mark style="color:$primary;">NARRATIVES (INTERFACE)</mark>
+
+<mark style="color:$danger;">**\[We thought we might illustrate a stoary**</mark>**&#x20;**<mark style="color:$info;">**(I think maybe we tested the GIF feature for Evergreen instead of a Stoary?)**</mark>**&#x20;**<mark style="color:$danger;">**with the Evergreen Ship incident,stuck in the Suez canal 23-29/3/21**</mark>
+
+AND/OR we can use the Tajikistan insciprtions visible from satellite.]
+
+
 
 3. The facility to upload and share user maps (Formats are Georeferenced maps=GeoTIFF, ECW and JP2, LoFi Map formats = PNG and JPEG and create geographical media (called Stoaries <mark style="color:$danger;">**need to check the exact definition of a Stoary - is it a set of digital pages which can include gif animation? Stoaries - you can annotate a map (TEST maybe only an OSB background map, not a Soar upload**</mark>**&#x20;**<mark style="color:$info;">**(Tested and it looks like you can annotate a Soar upload (see my attempt at explaining the step below)**</mark><mark style="color:$danger;">**) and it will allow you to add the coordinates of a map pin in any chosen metric system. You can add photos or video to locations**</mark> to communicate complex information, e.g. changes over time.
 
@@ -248,7 +266,9 @@ In expanded graphic, address Transparency slider and LoFi and Georeferencing.&#x
 
 <figure><img src=".gitbook/assets/lofi.png" alt="" width="375"><figcaption><p><mark style="color:$info;">for reference only (we dont have to keep it in the final description)</mark> </p></figcaption></figure>
 
+<mark style="color:$info;">**Georeferenced Maps -**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">maps or images (whether satellite, aerial, or drone capture) that contain specific Earth coordinates and allow for precise geographic positioning. These coordinate-linking allows for layering additional map data on top or making transparency adjustments.</mark>&#x20;
 
+<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2F2U83UEO8KjkX3jGLBsBn_2Fuploads_2FdcI1dFHcn1wkuH9HV5iT_2F2025-09-03_21-39-44.avif" alt="" width="188"><figcaption></figcaption></figure>
 
 {% tabs fullWidth="true" %}
 {% tab title="DATA INPUT" %}
