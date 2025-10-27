@@ -15,6 +15,10 @@ description: >-
 
 <figure><img src=".gitbook/assets/SOAR57secs VERSION2 ezgif-2389f6798f6c69.gif" alt=""><figcaption><p><strong>SEARCHING FOR MAPS FOR A GIVEN LOCATION, VIEWING OVERLAY ON OPENSTREETMAP AND SATELLITE DATA USING GEOREFERENCED TRANSPARENCY FEATURE, SELECTING APPROPRIATE SATELLITES PASSING OVERHEAD</strong></p></figcaption></figure>
 
+{% hint style="info" %}
+The Tajikistan National Mosaic map was chosen from the database because it was made many decades ago by the Soviet military (as part of a much larger project) before the break up of the Soviet Union. The skill and survey manpower which were employed in its creation mean that it remains some of the best information which is available today on such remote regions. Soar provides a wealth of maps made in the past, which is a useful reminder of their value, as well as an important resource for Open Source researchers.
+{% endhint %}
+
 Soar is described as a Digital Atlas containing over a million maps. Its main functions are:
 
 * **Map Database access**
