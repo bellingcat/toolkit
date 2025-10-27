@@ -1,5 +1,5 @@
 ---
-updated: '2025-08-30'
+updated: '2025-10-26'
 description: >-
   A database providing otherwise secret information about more than 810k
   offshore companies, foundations, and trusts based on leaks like the Panama

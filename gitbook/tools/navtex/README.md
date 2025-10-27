@@ -2,6 +2,7 @@
 description: >-
   A historical database providing vital navigational and meteorological
   warnings, forecasts, and urgent maritime safety information to ships.
+updated: '2025-10-26'
 ---
 
 # Navtex

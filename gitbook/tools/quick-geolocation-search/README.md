@@ -1,5 +1,5 @@
 ---
-updated: '2025-08-30'
+updated: '2025-10-26'
 description: A tool that brings several maps into one place for easy location search.
 ---
 
