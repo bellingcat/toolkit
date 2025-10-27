@@ -5,7 +5,7 @@ description: >-
   the movements of ships and their locations in harbours and ports.
 ---
 
-# MarineTraffic
+# MarineTraffic\#
 
 ## URL
 
@@ -19,7 +19,7 @@ The MarineTraffic website and mobile app offer near real-time tracking of vessel
 
 It can be used without an account to just monitor general vessel movements and point and click a specific vessel, but creating a free account will unlock some additional useful features.
 
-After creating an account, users can access a search portal to search for vessels by name, IMO or MMSI number, tonnage, flag, dimensions, etc., which can help to identify a vessel for which only some identifying information is known.
+After creating an account, users can access a search portal to search for vessels by name, IMO or MMSI number, tonnage, flag, dimensions, etc., which can help to identify a vessel for which only some identifying information is known.&#x20;
 
 {% hint style="info" %}
 IMO numbers are unique, seven-digit tracking numbers assigned to ships and shipping companies by S\&P Global Market Intelligence on behalf of the International Maritime Organization. Unlike ship names and company names which can change, IMO numbers remain constant. More information about IMO numbers can be found on the [International Maritime Organization's website](https://www.imo.org/en/OurWork/IIIS/Pages/IMO-Identification-Number-Schemes.aspx).
@@ -172,7 +172,7 @@ Guides provided by MarineTraffic:
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer:-            |
-| ---------------------------- |
-| LPetrova and Sophie Tedling. |
-|                              |
+| Page maintainer:-           |
+| --------------------------- |
+| LPetrova and Sophie Tedling |
+|                             |
