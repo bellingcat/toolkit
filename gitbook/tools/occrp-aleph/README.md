@@ -21,11 +21,11 @@ Type the name of an individual, an organization, a company or a keyword in the s
 
 <figure><img src=".gitbook/assets/Ale1.png" alt="" width="563"><figcaption><p>The search term Dmitry Medvedev returns over 4,000 results.</p></figcaption></figure>
 
-To narrow down the search results, use the menu on the left to filter by date, country, language of the document, and datasets[^1].
+To narrow down the search results, use the menu on the left to filter by date, country, language of the document, and datasets[^1].&#x20;
 
 <figure><img src=".gitbook/assets/Ale2.png" alt="" width="375"><figcaption><p>Example of all the available filters.</p></figcaption></figure>
 
-To view a particular entry, click on the hyperlink you are interested in. This opens a pop-up in the same window. From here you can review the document online or download it.
+To view a particular entry, click on the hyperlink you are interested in. This opens a pop-up in the same window. From here you can review the document online or download it. .
 
 <figure><img src=".gitbook/assets/Ale3.png" alt="" width="563"><figcaption><p>View of a selected document from the results page</p></figcaption></figure>
 
@@ -33,7 +33,7 @@ The OCCRP Aleph website has a handy [video tutorial](https://www.youtube.com/wat
 
 ### How to perform an advanced search
 
-In addition to basic keyword searches, Aleph offers advanced search capabilities, enabling users to find matches based on spelling variations, term proximity, and other sophisticated criteria.
+In addition to basic keyword searches, Aleph offers advanced search capabilities, enabling users to find matches based on spelling variations, term proximity, and other sophisticated criteria.&#x20;
 
 The advanced search options can be helpful in cases when there are too many results and you need to narrow down your search further. You can use the fields in the advanced search, or you can use search operators.
 
