@@ -3670,5 +3670,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "JrIRzu15HiFIC4RyBKjB",
+    "title": "Darkside",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-10-28T12:40:38.040Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]

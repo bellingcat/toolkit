@@ -12189,5 +12189,42 @@
     "mergeRules": {
       "type": "inherit"
     }
+  },
+  {
+    "object": "space",
+    "id": "lQAIaiYshgRhAqef4Srd",
+    "title": "Darkside",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-10-28T12:40:37.719Z",
+    "updatedAt": "2025-10-28T12:40:37.719Z",
+    "editMode": "locked",
+    "urls": {
+      "location": "/spaces/lQAIaiYshgRhAqef4Srd",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/lQAIaiYshgRhAqef4Srd/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "d9QXWHW4alemIUzkPF6l",
+    "revision": "VEMEmK8pSXKUlZTkbcOT",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "viewInviteLinks": true,
+      "edit": true,
+      "triggerGitSync": true,
+      "comment": true,
+      "merge": true,
+      "review": true,
+      "installIntegration": true
+    },
+    "mergeRules": {
+      "type": "inherit"
+    }
   }
 ]
