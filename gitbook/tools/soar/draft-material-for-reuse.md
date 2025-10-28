@@ -35,7 +35,29 @@ Note that some satellite imagery maps in the Soar database are of very high qual
 ### The Soar Interface
 
 {% hint style="info" %}
-The Discover and Maps sections of the Soar interface are in fact just different routes to the same information - the maps database. Discover is centred around searching information by category, whilst Maps is centred around searching for information by location, eithe.
+The Discover and Maps sections of the Soar interface are in fact just different routes to the same information - the maps database. Discover is centred around searching information by category, whilst Maps is centred around searching for information by location.
 {% endhint %}
+
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+#### Navigating the Interface to the Soar Map Database
+
+<figure><img src=".gitbook/assets/ANNOTATEDEXPLODED.JPG" alt=""><figcaption></figcaption></figure>
+
+When working from a location, users can:
+
+{% stepper %}
+{% step %}
+###
+
+
+{% endstep %}
+
+{% step %}
+###
+
+
+{% endstep %}
+{% endstepper %}
 
 [^1]: Soar allows users to view maps in the database, and also make their own annotated copies of those maps. Users can upload their own maps to be added to the database
