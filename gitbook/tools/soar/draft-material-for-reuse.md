@@ -2,7 +2,7 @@
 
 ## Soar
 
-Soar is a database of over a million diverse maps & images , on a platform where users can explore, upload, share and interact with a vast collection of content (including satellite, aerial & radar).
+Soar is a platform sharing a growing database of over a million entries (maps, satellite, aerial & radar imagery), access to imagery from statellite providers, and tools to create geographic narratives
 
 ## URL
 
@@ -26,10 +26,8 @@ Selection and acquisition of satellite imagery from a range of providers, both f
 
 Provision of online visualisation features allowing the creation of multi-image narratives.&#x20;
 
-These constitute some of the major tasks which Open Source researchers undertake during investigations, making Soar a multi-purpose platform for OSINV.
+These functions constitute some of the major tasks which Open Source researchers undertake during investigations, making Soar **a multi-purpose platform for OSINV.**
 
 
-
-<mark style="color:$info;">Soar is primarily a comprehensive digital atlas where users can discover, explore, navigate, and upload diverse maps and imagery. But it also functions as both a GIS exploration/navigation tool and a social platform for the global cartography community. The platform also enables satellite acquisition, user uploads, and visualization through its "Stoary" and GIFs feature for creating multi-slide map narratives with community-driven content sharing.</mark>
 
 [^1]: Soar allows users to view maps in the database, and also make their own annotated copies of those maps. Users can upload their own maps to be added to the database
