@@ -34,7 +34,7 @@ The Wikipedia list of registers will help you to find an online register for a p
 
 ## Limitations
 
-The page contains a range of other registers (e.g. property registers), so make sure that you have selected the right type.
+The page contains a range of other registers (e.g. property registers), so make sure that you have selected the right type of register.
 
 ## Ethical Considerations
 
