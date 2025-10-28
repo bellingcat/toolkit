@@ -46,18 +46,13 @@ The Discover and Maps sections of the Soar interface are in fact just different 
 
 When working from a location, users can:
 
-{% stepper %}
-{% step %}
-###
-
-
-{% endstep %}
-
-{% step %}
-###
-
-
-{% endstep %}
-{% endstepper %}
+* Enter a name or co-ordinates, Zoom to a region and select an exact bounding box location.
+* View and filter the maps presented by Soar around this specific location
+* Select a map and, if available, change Transparency to inspect the overlay of the georeferenced map against the base map, comparing features
+* Change the base map to inspect against OpenStreetMap, OpenElevation, Satellite and Hybrid views
+* Open and filter satellite paths to establish which could provide imagery of the region
+* Invoke SATELLITE mode to find historic imagery or to commission immediate satellite imagery of the specifc location (both free and paid offered)
+* Invoke STOARY mode to create narrative content
+* Invoke UPLOAD mode to add content to the Soar database
 
 [^1]: Soar allows users to view maps in the database, and also make their own annotated copies of those maps. Users can upload their own maps to be added to the database
