@@ -32,6 +32,8 @@ These functions constitute some of the major tasks which Open Source researchers
 Note that some satellite imagery maps in the Soar database are of very high quality, i.e. 8cm per pixel resolution, making them particularly valuable resources.
 {% endhint %}
 
+### The Soar Interface
+
 
 
 [^1]: Soar allows users to view maps in the database, and also make their own annotated copies of those maps. Users can upload their own maps to be added to the database
