@@ -1,9 +1,9 @@
 ---
 updated: '2025-09-04'
 description: >-
-  Wikimapia is a long-running collaborative mapping project that provides open
-  source researchers with a unique database of historical, user-generated
-  content.
+  Wikimapia was a long-running collaborative mapping project that remains
+  partially accessible, providing open source researchers with a unique database
+  of historical, user-generated content.
 ---
 
 # Wikimapia
@@ -16,7 +16,9 @@ description: >-
 
 Wikimapia is a collaborative mapping project that combines an interactive map with a wiki system. While it aims to describe every location on Earth, researchers must understand that the tool is a historical archive, not a current map. The platform is [no longer actively maintained](https://en.wikipedia.org/wiki/Wikimapia#Decline_and_current_status), a fact supported by several key observations.
 
-Firstly, many of the site's secondary features, such as the official "Wikimapia statistics" pages, are broken and have been non-functional for years. Secondly, while a live "Countries watchlist" feed shows that a handful of users are still making minor edits, the rate of adding new, significant places is extremely low—roughly 100-150 per week based on our analysis of the "New places" feed. This low rate of meaningful updates means the vast majority of the data is several years out of date and cannot be considered a reflection of the current reality.
+Firstly, many of the site’s secondary features—such as the official Wikimapia Statistics pages—are still reachable but no longer functional. The interface loads, but the underlying data have not updated for years, leaving the charts empty. Archived versions (for example, [this 2023 Wayback capture showing historical user counts](https://web.archive.org/web/20231115072150/http://wikimapia.org/stats/action_stats/?fstat=6\&period=3\&year=2009\&month=6)) confirm that these pages once displayed detailed metrics such as total users and added places, but the feature itself has long since gone dormant.
+
+Secondly, while a live Countries Watchlist feed indicates that a small number of users continue to make minor edits, the rate of adding new, significant places remains very low—around 100–150 per week according to the New Places feed. This minimal level of ongoing activity means that the vast majority of Wikimapia’s data are several years old and can no longer be considered an accurate reflection of current ground conditions.
 
 Despite its age, Wikimapia's historical dataset can be a valuable source for open-source researchers in specific contexts:
 
