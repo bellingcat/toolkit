@@ -49,7 +49,7 @@ This platform is open source (see [here](https://github.com/atlosdotorg/atlos)),
 * [x] Partially Free
 * [ ] Paid
 
-Free for a limited number of incidents that can be created and modified per month. Even with this free version, you have unlimited view access, your team can be of any size, and you can export your data whenever you want.
+Free for individuals for a limited number of incidents that can be created and modified per month. Even with this free version, you have unlimited view access, your team can be of any size, and you can export your data whenever you want.
 
 Further pricing information can be found [here](https://docs.atlos.org/overview/pricing/).
 
