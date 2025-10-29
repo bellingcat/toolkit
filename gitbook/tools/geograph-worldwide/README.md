@@ -110,7 +110,7 @@ It is a not-for-profit company, limited by guarantee, whose objects are educatio
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                       |
-| ------------------------------------- |
-| Paul - Bellingcat Volunteer Community |
-|                                       |
+| Page maintainer                                                |
+| -------------------------------------------------------------- |
+| Paul - Bellingcat Volunteer Community reviewed Sophie Tedling. |
+|                                                                |
