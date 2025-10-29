@@ -101,5 +101,5 @@ Using the nighttime lights feature: [https://mapyourgrid.org/tools/](https://map
 
 | Page maintainer |
 | --------------- |
-| Sophie/Sarah.   |
+| Sophie./Sarah.  |
 |                 |
