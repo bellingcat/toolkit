@@ -105,6 +105,12 @@ Natural language description of a location to be found - includes entities at th
 OR
 
 Overpass Turbo query search parameters - references entities with the appropriate OSM tags, describes their relative proximity with distances and provides the geographic search area.&#x20;
+
+Spot provides the facility to edit the search parameters, once input via the natural language text input box. The editing window is shown below:
+
+<figure><img src=".gitbook/assets/editOSMTags.JPG" alt=""><figcaption><p><strong>SPOT'S QUERY PARAMETER EDITING WINDOW PROVIDES DIRECT ACCESS TO THE STRUCTURE AND PROPERTIES OF THE QUERY, ENTITY BY ENTITY. THIS WINDOW PROVIDES EDITING FOR THE ENTITY 'FOUNTAIN'</strong></p></figcaption></figure>
+
+
 {% endtab %}
 
 {% tab title="SPOT OUTPUT DATA" %}
@@ -127,7 +133,7 @@ OR
 
 Use the search parameters box to adjust existing search features and their relative distances via a part text, part graphic subwindow.
 
-<figure><img src=".gitbook/assets/SpotSearchParametersSMALLEST (3).jpg" alt=""><figcaption></figcaption></figure>
+<div><figure><img src=".gitbook/assets/SpotSearchParametersSMALLEST (3).jpg" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/editOSMTags.JPG" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endtab %}
 {% endtabs %}
 
