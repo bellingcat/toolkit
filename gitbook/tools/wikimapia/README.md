@@ -1,5 +1,5 @@
 ---
-updated: '2025-09-04'
+updated: '2025-10-28'
 description: >-
   Wikimapia was a long-running collaborative mapping project that remains
   partially accessible, providing open source researchers with a unique database

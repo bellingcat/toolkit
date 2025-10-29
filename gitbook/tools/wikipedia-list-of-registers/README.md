@@ -1,5 +1,6 @@
 ---
 description: Wikipedia list of official business registers around the world.
+updated: '2025-10-28'
 ---
 
 # Wikipedia list of registers
