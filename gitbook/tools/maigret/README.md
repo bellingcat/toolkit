@@ -44,7 +44,7 @@ A short text report is also shown in the command line after the search phase.
 ## Requirements
 
 * Python3 (for installation).
-* Telegram account (required to use the bot).
+* Telegram account: only required if you wish to use Maigret Telegram bot version.
 
 ## Installation and usage
 
@@ -101,7 +101,7 @@ Here, you can enter one or more usernames to initiate a search. After the search
 
 <figure><img src=".gitbook/assets/bellingcat_web_maigret.png" alt=""><figcaption><p>Maigret Web Interface displays search results for the username “Bellingcat,” with a combined graph of linked accounts and individual report options.</p></figcaption></figure>
 
-## Limitations and Ethical Consideration
+## Limitations and Ethical Considerations
 
 It is important to understand Maigret's limitations. The tool can be hampered by bot protection and CAPTCHAs, which may lead to incomplete searches. Results can also include false positives, meaning accounts may be incorrectly attributed to your target.
 
@@ -109,7 +109,7 @@ Recent updates, such as the user-friendly web interface and username permutator,
 
 ## Guides and articles
 
-* Information regarding the tool and documentation: [https://maigret.readthedocs.io/en/latest/index.html](https://maigret.readthedocs.io/en/latest/index.html)
+* Documentation: [https://maigret.readthedocs.io/en/latest/index.html](https://maigret.readthedocs.io/en/latest/index.html)
 * GitHub repo and instruction for installation: [https://github.com/soxoj/maigret](https://github.com/soxoj/maigret)
 * Youtube video for Windows installation and usage: [https://www.youtube.com/watch?v=qIgwTZOmMmM](https://www.youtube.com/watch?v=qIgwTZOmMmM)
 
