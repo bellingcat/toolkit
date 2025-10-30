@@ -3694,5 +3694,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "09qUIFpdENYWOBNK8AJA",
+    "title": "US custody databases",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-10-30T16:56:53.424Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
