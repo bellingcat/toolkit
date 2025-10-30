@@ -1,8 +1,8 @@
 ---
+updated: '2025-10-20'
 description: >-
   A repository for desert locust data with maps and other resources for tracking
   movements, early detection and planning locust control interventions.
-updated: '2025-10-20'
 ---
 
 # Locust Hub
@@ -13,9 +13,9 @@ updated: '2025-10-20'
 
 ## Description
 
-A public portal managed by the [Food and Agriculture Organization (FAO) of the United Nations](https://www.fao.org/home/en). The portal offers a geographic and time sensitive visualization of both desert locust hopper groups and swarms.&#x20;
+A public portal managed by the [Food and Agriculture Organization (FAO) of the United Nations](https://www.fao.org/home/en). The portal offers a geographic and time sensitive visualization of both desert locust hopper groups and swarms.
 
-It provides a [weekly tracker](https://www.arcgis.com/apps/dashboards/d8df827fc77340b29740e7b151de1674) on the number of swarms, hoppers, locust control operations; data on the current and previous months as well as collated information on the last three months. The site states that "[The data is updated frequently with the latest observations from the field](https://locust-hub-hqfao.hub.arcgis.com/)" by assigned locust teams supplemented by additional field staff.&#x20;
+It provides a [weekly tracker](https://www.arcgis.com/apps/dashboards/d8df827fc77340b29740e7b151de1674) on the number of swarms, hoppers, locust control operations; data on the current and previous months as well as collated information on the last three months. The site states that "[The data is updated frequently with the latest observations from the field](https://locust-hub-hqfao.hub.arcgis.com/)" by assigned locust teams supplemented by additional field staff.
 
 Data is [validated by the country’s national locust centre](https://www.fao.org/locusts/faqs/en/?utm_source=chatgpt.com) and then sent to the Desert Locust Information Service at FAO Headquarters before being made public.
 
@@ -27,7 +27,7 @@ The [locust data explorer](https://www.arcgis.com/apps/dashboards/d8df827fc77340
 
 <figure><img src=".gitbook/assets/Screenshot 2025-10-20 161310.png" alt=""><figcaption><p><sub>Location-specific data on maturity, behaviour and breeding status. Screenshot taken on 20 October 2025.</sub></p></figcaption></figure>
 
-The data can also be used to predict movement of swarms, when used in conjunction with tools such as  [windfinder.com](https://www.windfinder.com/) which offers a map of wind speeds in the region, or [soil moisture viewer](https://locust-hub-hqfao.hub.arcgis.com/pages/lobelia-viewer), as locusts thrive after heavy periods of rainfall.
+The data can also be used to predict movement of swarms, when used in conjunction with tools such as [windfinder.com](https://www.windfinder.com/) which offers a map of wind speeds in the region, or [soil moisture viewer](https://locust-hub-hqfao.hub.arcgis.com/pages/lobelia-viewer), as locusts thrive after heavy periods of rainfall.
 
 ## Cost
 
@@ -41,17 +41,17 @@ The data can also be used to predict movement of swarms, when used in conjunctio
 
 ## Requirements
 
-Users will need to submit this [online form](https://docs.google.com/forms/d/e/1FAIpQLSeagLDm9KkPYVe2fiJ7mmU0Zs6f98lIBAXRGqgrjMEPhOPxAg/viewform) and create a [FAO Data in Emergency Community ](https://hqfao.maps.arcgis.com/sharing/oauth2/signup?oauth_state=ag8BfOHP4NbKhIToav6RUSQ..q9CeqT6GCT0imEsisBKnMyLVmTGYfuLyuYZmbENjAHBMLovUvi2_OWGPRABHAYoX2S5z30r508VMWI0l24Y40WCx45QNS99pqbIHLbD09XVEIKrngTOZFuMK-Dv1SbYzkGQwWf3TNB-yIIPrXPkBzVC1fPfTjtrGJJyIjHLjfbFxd3vpF6MAoBhNVFeLKr_0WGzcWEcjRSX1rYJlit19McM79mmF5RWYeOayhW-hbCeGacufop8fICiadjCiQU13bbWNLLMSgG-EQ89Fbk6LkPJem4du0Irk9jSYdcDPZDSTaFOjcaRB0fmFXGl_Rgrytnv70ZnJOOZPKfoxXHoHX3Au3mMxBZtLCpaYzjKgKFfBn29RFZRDMq89R5YW2IVpDa1nUvCAF9wKbv-cBpqkfm9i0fUFXYAqQZ0.)account to have access to the full historical archives dataset. The data provided are "archival" data, from 1965 to last year.&#x20;
+Users will need to submit this [online form](https://docs.google.com/forms/d/e/1FAIpQLSeagLDm9KkPYVe2fiJ7mmU0Zs6f98lIBAXRGqgrjMEPhOPxAg/viewform) and create a [FAO Data in Emergency Community ](https://hqfao.maps.arcgis.com/sharing/oauth2/signup?oauth_state=ag8BfOHP4NbKhIToav6RUSQ..q9CeqT6GCT0imEsisBKnMyLVmTGYfuLyuYZmbENjAHBMLovUvi2_OWGPRABHAYoX2S5z30r508VMWI0l24Y40WCx45QNS99pqbIHLbD09XVEIKrngTOZFuMK-Dv1SbYzkGQwWf3TNB-yIIPrXPkBzVC1fPfTjtrGJJyIjHLjfbFxd3vpF6MAoBhNVFeLKr_0WGzcWEcjRSX1rYJlit19McM79mmF5RWYeOayhW-hbCeGacufop8fICiadjCiQU13bbWNLLMSgG-EQ89Fbk6LkPJem4du0Irk9jSYdcDPZDSTaFOjcaRB0fmFXGl_Rgrytnv70ZnJOOZPKfoxXHoHX3Au3mMxBZtLCpaYzjKgKFfBn29RFZRDMq89R5YW2IVpDa1nUvCAF9wKbv-cBpqkfm9i0fUFXYAqQZ0.)account to have access to the full historical archives dataset. The data provided are "archival" data, from 1965 to last year.
 
-Real-time data are not available but can be seen through the [Locust-Hub data explorer.](https://locust-hub-hqfao.hub.arcgis.com/)
+The website states that "real-time data are not available but can be seen through the [Locust-Hub data explorer.](https://locust-hub-hqfao.hub.arcgis.com/)"
 
 Users can also use an ArcGIS login if this is already provided by their institution.
 
 ## Limitations
 
-The hub is mostly descriptive (i.e., past and current sightings). The data quality will vary per country as it depends on inputs by local teams.&#x20;
+The hub is mostly descriptive (i.e., past and current sightings). The data quality will vary per country as it depends on inputs by local teams.
 
-Some familiarity with GIS tools will be required for non-specialists.&#x20;
+Some familiarity with GIS tools will be required for non-specialists.
 
 Although the data is regularly updated, it may not always be updated in time for research on the real-time status or for making predictions.
 
