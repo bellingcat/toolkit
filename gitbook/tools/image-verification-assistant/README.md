@@ -1,5 +1,5 @@
 ---
-description: A tool that allows forensic analysis of images.
+description: A tools
 ---
 
 # Image Verification Assistant
@@ -10,40 +10,29 @@ description: A tool that allows forensic analysis of images.
 
 ## Description
 
-The Image Verification Assistant can help users detect manipulations in images. The tool uses multiple image tampering detection algorithms, and provides features such as an in-depth metadata analysis of an image.
+Image Verification Assistant detects image manipulations. Users can upload either upload an image or provide a link to an online photo to get started.
 
-With increasing disinformation, the tool is essential for fact-checkers who regularly analyze altered images. It features various forensic filters, allowing users to switch between them, which effectively enables them to spot the sneakiest alterations that would otherwise go unnoticed.
+The tool employs multiple image tampering detection algorithms and provides features such as detailed photo metadata analysis. Specifically, MeVer integrates 12 filters and displays the results on individual maps, each with a different detection filter for each type of inconsistency or tampering. One such filter, JPEG Ghosts, detects traces left when a part of a JPEG image is copied and pasted into another photo with a different compression quality, appearing as areas of high contrast when viewed through this filter.
 
-The tool has also been [integrated](https://weverify.eu/tools/image-verification-assistant/) into InVid’s Verification Plugin, which offers a range of video and image forensic capabilities. However, it can be used as a standalone tool for image verification. Read more about InVid in our toolkit [here](https://bellingcat.gitbook.io/toolkit/more/all-tools/invid).
+Similarly, Error Level Analysis (ELA) looks for differences in compression quality. Areas of interest appear brighter in ELA than the rest of the image, especially when comparing similar regions, such as edges with edges. To explore other filters, hover over “What does it mean?” to open a pop-up box that explains its function and result.
 
-To get started, copy paste the link or “drag and drop an image from the web” into the top-most field and click “analyze.” You can also upload an image into the field below the first option for local files.
+<figure><img src=".gitbook/assets/12 forensic mapping.png" alt=""><figcaption><p>12 forensic filters and Fusion on the result page.</p></figcaption></figure>
 
-## **The results page**
+The tool also provides an overall probability via Fusion for forgery, which combines multiple forensic filters. A higher percentage through fusion warrants further investigation of the image, either via each filter or similar tools such as Forensically and FotoForensics.
 
-After uploading the image, users can view the collective results or analyze each applied filter individually.
+MeVer allows users to verify the origins of potentially tampered images through an integrated Google Reverse Image Search. By simply clicking the option below the input image on the results page, a new tab opens with Google results. This enables users to perform reverse searches without leaving the tool, providing greater convenience and flexibility.
 
-The **Fusion** section displays collective results. OMGFuser highlights altered areas in red, and provides a net probability of image forgery based on various “AI-based filters that analyze different low-level traces of the image, using a novel deep-learning framework, thus greatly reducing the amount of false-positives.”
+Just above the reverse search option, hovering over the input image activates the zoom option, allowing one to view the photo's granular details. &#x20;
 
-The TruFor algorithm provides an overall probability for image manipulation, and highlights visually altered areas in red against the blue background. It uses an AI-based filter, called Noiseprint++, which captures noise patterns in the image.
+<figure><img src=".gitbook/assets/Input image and zoom.png" alt="" width="375"><figcaption><p>Input image, zoom option, and Google reverse image search.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Fusion screenshot image.png" alt=""><figcaption><p>Fusion section provides collective results</p></figcaption></figure>
+The tool’s most essential feature is detailed metadata analysis of images, which reveals information such as the software used to create each photo. Although metadata yields crucial information in any investigation, most social media platforms strip images of their metadata, limiting the tool’s usefulness in those cases.
 
-MM-Fusion and OW-Fusion do not assign an overall probability, but when combined with the above algorithms, can help in a deeper understanding of image forgery.\
-&#x20;
+<figure><img src=".gitbook/assets/Metadata analysis mever.png" alt="" width="375"><figcaption><p>Metadata analysis of the test image available on the websit of Image Verification Assistant.</p></figcaption></figure>
 
-The **Forensic** section on the results page allows users to apply individual filters for forensic analysis. One option is Double JPEG quantization which identifies “the traces left by consecutive JPEG compressions on an image.” JPEG Ghosts detects forgeries that result from “a splice \[that] is taken from a JPEG image and placed in another one of different quality, traces of the original JPEG compression are carried over.”  Users can also try JPEG blocking artifact inconsistencies (BLOCK), Error Level analysis, high-frequency noise (WAVELET) among the range of available filters for effective forensic analysis of a forged image.
+The InVid Verification Plugin has also [incorporated](https://weverify.eu/tools/image-verification-assistant/) Mever into its suite of tools for journalists and fact-checkers, offering a range of forensic options for video and image analysis. As a result, it can be used independently for verification or integrated within InVid. Read more about InVid in [Bellingcat’s Online Investigation Toolkit](https://bellingcat.gitbook.io/toolkit/more/all-tools/invid).
 
-## Reverse image search, Zooming and metadata analysis
-
-This tool brings Google reverse image search, zoom option and metadata analysis in one place. After uploading an image, clicking on the reverse-search option beneath the image will open a new tab displaying the results.
-
-To use the zoom, hover your pointer on the image under the results page; this feature allows granular analysis of an image.
-
-Metadata analysis is highly relevant for open-source researchers who want a deeper understanding of an image. It provides details about the software used to create the photo. For example, if an image is from social media, it will identify the platform such as Facebook. This section will show details such as the file size and type, file modification date, and much more.
-
-<figure><img src=".gitbook/assets/metadata analysis.png" alt=""><figcaption><p>Metadata section</p></figcaption></figure>
-
-## &#x20;Cost
+### Cost
 
 * [x] Free
 * [ ] Partially Free
@@ -57,7 +46,7 @@ Understanding the forensic filters may require some experience.
 
 ## Requirements
 
-None.
+A web browser to use the tool.
 
 ## Limitations
 
@@ -73,7 +62,15 @@ Metadata associated with an image may raise privacy concerns. While metadata is 
 
 Image Verification Assistant's webpage provides an interactive [tutorial](https://mever.iti.gr/forensics/?tour=start) for the tool. For understanding results and forensic filters, click on "What does it mean?" that appears with each filter and result.&#x20;
 
-## Tool provider
+### **Similar tools**
+
+Tools similar to Mever include [Forensically](https://bellingcat.gitbook.io/toolkit/more/all-tools/forensically), [FotoForensics](https://fotoforensics.com/), and the [InVid Verification Plugin](https://bellingcat.gitbook.io/toolkit/more/all-tools/invid).&#x20;
+
+Since InVid has incorporated Mever into its suite of verification tools, both platforms share the same image analysis filters. However, InVid allows users to verify video and audio in addition to images, and Mever does not. Both Mever and InVid support reverse image searches via Google, but InVid also integrates other search engines like Yandex, Bing, and TinEye for broader results, which Mever does not.
+
+Furthermore, Mever, Forensically, and FotoForensics all offer forensic image analysis through features like Error Level Analysis (ELA) and metadata examination. Among these, FotoForensics provides a more limited set of features than Mever and Forensically, which offer a broader range of forensic tools and analysis options.
+
+### Tool provider
 
 Image Verification Assistant is [developed](https://mever.iti.gr/forensics/about.html) by CERTH-ITI, a research organization and Deutsche Welle (DW), Germany’s international broadcaster.
 
