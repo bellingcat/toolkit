@@ -165,6 +165,7 @@
   * [PixPlot](tools/pixplot/README.md)
   * [Planet Labs](tools/planet-labs/README.md)
   * [Police Records Access Project](tools/police-records-access-project/README.md)
+  * [PublicWWW](tools/publicwww/README.md)
   * [QGIS](tools/qgis/README.md)
   * [Quick geolocation search](tools/quick-geolocation-search/README.md)
   * [Radar Interference Tracker](tools/radar-interference-tracker/README.md)
