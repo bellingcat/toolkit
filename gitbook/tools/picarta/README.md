@@ -18,7 +18,7 @@ It also offers [georeferencing for aerial imagery](https://picarta.ai/aerial-ima
 
 The API can return up to 100 results with [confidence scores](https://picarta.ai/how-to-use?utm_source=chatgpt.com).&#x20;
 
-The aerial imagery function can be used to for land use monitoring, and environmental assessments and other OSINT research.&#x20;
+The aerial imagery function can be used to for land use monitoring, environmental assessments, and other OSINT research.&#x20;
 
 ## Cost
 
@@ -26,7 +26,7 @@ The aerial imagery function can be used to for land use monitoring, and environm
 * [x] Partially Free
 * [ ] Paid
 
-The free plan allows for two searches per day and 100 API Calls. Additional features are available in [paid plans](https://picarta.ai/pricing) to varying degrees.
+The free plan allows for two searches per day and 25 API Calls. Additional features are available in [paid plans](https://picarta.ai/pricing) to varying degrees.
 
 ## Level of difficulty
 
@@ -44,7 +44,7 @@ While it can help to narrow down on the possible locations, it will still requir
 
 ## Ethical Considerations
 
-The website states that uploaded pictures will be deleted.
+The website states that uploaded pictures will be deleted and that it does not collect or store EXIF data, geotags, or any embedded metadata.
 
 ## Guides and articles
 
@@ -56,9 +56,9 @@ Picarta.ai
 
 ## Similar tools
 
-It can predict the GPS location of an outdoor image by looking at the top 100 predictions for the input image with a probability of[ 70 percent](https://picarta.ai/how-to-use?).&#x20;
+Picarta claims to predict the GPS location of an outdoor image by looking at the top 100 predictions for the input image with a probability of[ 70 percent](https://picarta.ai/how-to-use?).&#x20;
 
-It is useful for determining geolocation compared to Google Reverse Search which can only determine duplicate images or identify people and objects.
+It is useful for determining geolocation compared to Google Reverse Search which can only determine duplicate images or identify similar pictures with people and objects rather than pinpointing a specific location.
 
 ## Advertising Trackers
 
