@@ -21,7 +21,7 @@ The following example search returns indexed websites with code referencing chat
 
 The platform enables users to identify specific code snippets, analytics codes, embedded widgets, themes, and other hidden elements used across the web - these can all be examined to identify possible links between different websites. It can detect the use of content management systems, JavaScript libraries, tracking codes, and server-side technologies. PublicWWW also provides statistical insights such as file types analysed, generator tags, server headers, and technology adoption trends, allowing for detailed examination of website structures and code usage patterns across a large portion of the internet.
 
-The following example search returns results with embedded widgets related to VKontakte (VK), Russia's largest social media platform. The `VK.init({apiId: ...})` code links a website to a specific VK app or community via a unique numeric API ID. If multiple domains share the same API ID, they’re all connected to the same VK account or group. For OSINT work, this ID acts as a digital fingerprint and helps investigators identify related Russian-language sites or coordinated networks managed by the same entity.
+The following example search returns results with embedded widgets related to VKontakte (VK), Russia's largest social media platform. The `VK.init({apiId: ...})` code links a website to a specific VK app or community via a unique numeric API ID. For OSINT work, this ID acts as a digital fingerprint. If multiple domains share the same API ID, investigators might be able to identify related Russian-language sites or coordinated networks managed by the same entity.
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
