@@ -1,23 +1,21 @@
 ---
-description: Collection of tools and maps for discerning license plates by country
 updated: '2025-09-15'
+description: Collection of tools and maps for discerning license plates by country
 ---
 
 # License Plate Maps
 
 ## Description
 
-All countries require registration plates for commercial road vehicles such as cars, trucks, and motorcycles. Requirements for other vehicles, such as bicycles, boats, or tractors vary by jurisdiction. Each country has a different design for their vehicle registration plates, and some designs might look similar.&#x20;
+All countries require registration plates for commercial road vehicles such as cars, trucks, and motorcycles. Requirements for other vehicles, such as bicycles, boats, or tractors vary by jurisdiction. Each country has a different design for their vehicle registration plates, and some designs might look similar.
 
 Recognizing the origin country or the purpose of the vehicle by a license plate can sometimes add another data point to research, especially if that research is multi-layered.
 
-Below is a list of websites that provide images and information on license plates around the world. Please note that this list should not be considered exhaustive.&#x20;
+Below is a list of websites that provide images and information on license plates around the world. Please note that this list should not be considered exhaustive.
 
-<table><thead><tr><th>Website Name</th><th width="356">Description</th><th data-type="rating" data-max="5">Quality</th></tr></thead><tbody><tr><td><a href="https://licenseplatemania.com/">License Plate Mania</a></td><td>Hobby project with info on when the license plates were first introduced, some breakdown by vehicle use available, but limited. Missing information on most countries. </td><td>1</td></tr><tr><td><a href="http://www.worldlicenseplates.com/">World License Plates</a></td><td>Multiple pictures of plates for each country, additional snippets for the jurisdictions and explanations on the plates. Breakdowns by region where available. Regular updates.</td><td>5</td></tr><tr><td><a href="https://platesmania.com/">Plates Mania</a></td><td>Basic picture gallery grouped by country. Includes photos of the vehicles themselves (make and model) and the date spotted.</td><td>2</td></tr><tr><td><a href="https://www.plateshack.com/y2k/index.html">Plate Shack</a></td><td>Image galleries by country with some details on the meaning of letters and numerals on plates. Descriptions for some of the more obscure license plates. Updated semi-regularly.</td><td>4</td></tr><tr><td><a href="http://plates.portal.free.fr/">License Plates Portal</a></td><td>A page with numerous outbound links to other pages for license plates. Searchable by continent, country, provinces with links to local plates images and information.</td><td>5</td></tr><tr><td><a href="https://francoplaque.fr/site_html/">Francoplaque</a></td><td>Maintained by plates aficionados. Thousands of plates images grouped by country with regional breakdowns where available plus tags for the vehicles' purpose.</td><td>4</td></tr><tr><td><a href="https://www.europlates.eu/">Europlates</a></td><td>Updated regularly, focus is on Europe only. Provides just images of plates with minimal info on the vehicles' purpose (diplomatic, military, etc.)</td><td>3</td></tr><tr><td><a href="http://alpca8123.50webs.com/">License Plate Gallery</a><mark style="color:yellow;"><strong>***</strong></mark></td><td>Grouped by country, rarely updated, but good for checking older versions of plates. </td><td>1</td></tr></tbody></table>
+<table><thead><tr><th>Website Name</th><th width="356">Description</th><th data-type="rating" data-max="5">Quality</th></tr></thead><tbody><tr><td><a href="https://licenseplatemania.com/">License Plate Mania</a></td><td>Hobby project with info on when the license plates were first introduced, some breakdown by vehicle use available, but limited. Missing information on most countries.</td><td>1</td></tr><tr><td><a href="http://www.worldlicenseplates.com/">World License Plates</a></td><td>Multiple pictures of plates for each country, additional snippets for the jurisdictions and explanations on the plates. Breakdowns by region where available. Regular updates.</td><td>5</td></tr><tr><td><a href="https://platesmania.com/">Plates Mania</a></td><td>Basic picture gallery grouped by country. Includes photos of the vehicles themselves (make and model) and the date spotted.</td><td>2</td></tr><tr><td><a href="https://www.plateshack.com/y2k/index.html">Plate Shack</a></td><td>Image galleries by country with some details on the meaning of letters and numerals on plates. Descriptions for some of the more obscure license plates. Updated semi-regularly.</td><td>4</td></tr><tr><td><a href="http://plates.portal.free.fr/">License Plates Portal</a></td><td>A page with numerous outbound links to other pages for license plates. Searchable by continent, country, provinces with links to local plates images and information.</td><td>5</td></tr><tr><td><a href="https://francoplaque.fr/site_html/">Francoplaque</a></td><td>Maintained by plates aficionados. Thousands of plates images grouped by country with regional breakdowns where available plus tags for the vehicles' purpose.</td><td>4</td></tr><tr><td><a href="https://www.europlates.eu/">Europlates</a></td><td>Updated regularly, focus is on Europe only. Provides just images of plates with minimal info on the vehicles' purpose (diplomatic, military, etc.)</td><td>3</td></tr><tr><td><a href="http://alpca8123.50webs.com/">License Plate Gallery</a><mark style="color:yellow;"><strong>***</strong></mark></td><td>Grouped by country, rarely updated, but good for checking older versions of plates.</td><td>1</td></tr></tbody></table>
 
-<mark style="color:yellow;">**\*\*\***</mark> The owner of the website has since [switched to Facebook](https://www.facebook.com/alpca8123/photos_albums), where content is not searchable, but is still grouped by year, specific area or country.&#x20;
-
->
+<mark style="color:yellow;">**\*\*\***</mark> The owner of the website has since [switched to Facebook](https://www.facebook.com/alpca8123/photos_albums), where content is not searchable, but is still grouped by year, specific area or country.
 
 ## Cost
 
@@ -35,9 +33,9 @@ No specific requirements.
 
 ## Limitations
 
-Keep in mind that all of the above websites are run by license plates enthusiasts and should not be considered comprehensive databases of information or official sources.&#x20;
+Keep in mind that all of the above websites are run by license plates enthusiasts and should not be considered comprehensive databases of information or official sources.
 
-Those websites may not keep up with changes to local license plate requirements by country, so their information may be out of date. For example, License Plate Mania reported on their website that the latest addition was done on March 10, 2024.&#x20;
+Those websites may not keep up with changes to local license plate requirements by country, so their information may be out of date. For example, License Plate Mania reported on their website that the latest addition was done on March 10, 2024.
 
 ## Ethical Considerations
 
@@ -48,7 +46,7 @@ While obtaining publicly available data may be lawful, ethical OSINT practitione
 Being able to easily find the country of origin of a license plate will open additional venues of research. Once the license plate is placed as issued by a certain jurisdiction, a researcher may follow these additional steps:
 
 * Find whether the country of origin has a government or a commercial directory for looking up information based on license plates.
-* Once such a directory is located, check for fines, traffic infractions, taxes paid or due, partial VIN numbers or even ownership if the jurisdiction allows for such information to be shared with the wider public. One such example is [Mexico](https://www2.repuve.gob.mx:8443/ciudadania/).&#x20;
+* Once such a directory is located, check for fines, traffic infractions, taxes paid or due, partial VIN numbers or even ownership if the jurisdiction allows for such information to be shared with the wider public. One such example is [Mexico](https://www2.repuve.gob.mx:8443/ciudadania/).
 
 [OSINT for Car Enthusiasts: How to Lookup License Plate with Vehicle OSINT](https://molfar.com/en/blog/yak-pereviryty-avto-na-aresht-ta-znaity-vin-kod) - Molfar
 
