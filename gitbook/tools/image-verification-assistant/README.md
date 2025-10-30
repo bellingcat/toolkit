@@ -1,5 +1,5 @@
 ---
-description: A tools
+description: A web-based tool for verifying the authenticity of images.
 ---
 
 # Image Verification Assistant
@@ -16,7 +16,7 @@ The tool employs multiple image tampering detection algorithms and provides feat
 
 Similarly, Error Level Analysis (ELA) looks for differences in compression quality. Areas of interest appear brighter in ELA than the rest of the image, especially when comparing similar regions, such as edges with edges. To explore other filters, hover over “What does it mean?” to open a pop-up box that explains its function and result.
 
-<figure><img src=".gitbook/assets/12 forensic mapping.png" alt=""><figcaption><p>12 forensic filters and Fusion on the result page.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Maps latest.png" alt=""><figcaption><p>12 forensic filters are displayed on an individual map for each result.</p></figcaption></figure>
 
 The tool also provides an overall probability via Fusion for forgery, which combines multiple forensic filters. A higher percentage through fusion warrants further investigation of the image, either via each filter or similar tools such as Forensically and FotoForensics.
 
