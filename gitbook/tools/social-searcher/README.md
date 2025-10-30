@@ -1,5 +1,5 @@
 ---
-description: Search hashtags and usernames across various platforms.
+description: Search social media mentions and content across various platforms.
 ---
 
 # Social-searcher
@@ -10,36 +10,27 @@ https://www.social-searcher.com/
 
 ## Description
 
-Users can search by keyword, source, and content type (link, status, photo, video) but this may vary slightly by platform due to API limitations. It tracks mentions across 11 platforms including: Facebook, Twitter, LinkedIn, YouTube, Instagram, Tumblr, Reddit, Flickr, Dailymotion, and VKontakte.&#x20;
+Users can search by keyword, exclude specific keywords, or for multiple keywords with the "or" option across Facebook, Twitter, LinkedIn, Instagram, TikTok and Pinterest.
 
-The results analyze sentiment, engagement and number of users. It also allows you to explore popular hashtags on Instagram, Twitter and other social networks. It has a feature for monitoring searches, saving search history, and to receive live notifications when a keyword is mentioned (only available in the paid plan).&#x20;
+The results show all mentions of the specific term and related images.
 
 How to Use:
 
 1. Go to [Social Searcher website](https://www.social-searcher.com/).
-2. Enter your keyword or hashtag.
-3. Choose filters (platform, time, etc.) if needed.
-4. View and analyze the results
+2. Enter your keyword.
+3. View and analyze the results
 
 Each result includes:
 
 * Post preview (with content and author)
-* Engagement (likes, comments, shares)
-* Sentiment (positive, neutral, negative)
 * Date and platform source
 * Direct link to the original post
 
-The paid plan offers a user dashboard for tracking results over time.
-
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-
 ## Cost
 
-* [ ] Free
-* [x] Partially Free
+* [x] Free
+* [ ] Partially Free
 * [ ] Paid
-
-Users can conduct basic searches for free. Additional features require signing up for a free or a [paid account](https://www.social-searcher.com/2014/08/25/social-searcher-now-with-social-monitoring/?utm_source=chatgpt.com). The paid plan offers “social monitoring” – which includes saved search history, exporting data, API integration and more advanced tracking including email alerts.
 
 ## Level of difficulty
 
@@ -47,21 +38,21 @@ Users can conduct basic searches for free. Additional features require signing u
 
 ## Requirements
 
-Anything beyond basic searches requires users to sign up with their email to get a free or paid account.
+Users do not need to create an account to use the tool.
 
 ## Limitations
 
-Instagram and Facebook data is more limited than in the past (due to API restrictions), especially for personal accounts.
+The current version of the tool no longer offers filters for more detailed analysis of keyword mentions, namely by sentiment, engagement and number of users.
 
 ## Ethical Considerations
 
-Social Searcher only accesses publicly available posts, but users may not always realize their content is being mined for analysis. Informed consent may be required when quoting or analyzing posts from identifiable individuals. Even public posts can carry ethical concerns if the data is used out of context or in ways the poster wouldn’t expect, and special attention needs to be paid to protecting the identities of private citizens, minors, and vulnerable groups.&#x20;
+Social Searcher[ only accesses publicly available posts](https://www.social-searcher.com/about/). Informed consent may be required when quoting posts from identifiable individuals. Even public posts can carry ethical concerns if the data is used out of context or in ways the poster wouldn’t expect, and special attention needs to be paid to protecting the identities of private citizens, minors, and vulnerable groups.
 
-Each social platform (e.g., Twitter/X, Instagram) has its own terms of service regarding scraping, API use, and content reuse, and bypassing these rules could could breach platform terms or even legal boundaries, especially in regions with strong data privacy laws (like GDPR in the EU).
+The platform states that it does not engage in the collection, storage, or scraping of data from any social media websites and that it does not access private user content or utilize either official or unofficial APIs.
 
 ## Guide
 
-[https://www.social-searcher.com/help/](https://www.social-searcher.com/help/)
+[https://www.social-searcher.com/google-social-search/](https://www.social-searcher.com/google-social-search/)
 
 ## Tool provider
 
