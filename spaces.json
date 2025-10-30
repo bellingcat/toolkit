@@ -12226,5 +12226,42 @@
     "mergeRules": {
       "type": "inherit"
     }
+  },
+  {
+    "object": "space",
+    "id": "h2W0MFd7s3sP7sFoWO2I",
+    "title": "US court case databases",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-10-30T16:48:49.627Z",
+    "updatedAt": "2025-10-30T16:48:49.627Z",
+    "editMode": "locked",
+    "urls": {
+      "location": "/spaces/h2W0MFd7s3sP7sFoWO2I",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/h2W0MFd7s3sP7sFoWO2I/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "svFhzrsOy9kqEP1YTGBh",
+    "revision": "QfaVhxzrMZlJQRzm5N5l",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "viewInviteLinks": true,
+      "edit": true,
+      "triggerGitSync": true,
+      "comment": true,
+      "merge": true,
+      "review": true,
+      "installIntegration": true
+    },
+    "mergeRules": {
+      "type": "inherit"
+    }
   }
 ]

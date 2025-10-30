@@ -3682,5 +3682,17 @@
       "admin": true,
       "view": true
     }
+  },
+  {
+    "object": "team",
+    "id": "BcZljhOTL3wDnhmSCdFk",
+    "title": "US court case databases",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2025-10-30T16:48:49.962Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
   }
 ]
