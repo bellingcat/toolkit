@@ -11,11 +11,11 @@ description: >-
 
 [https://exiftool.org/](https://exiftool.org/)
 
-(current version: **13.34 – August 2025**)
+current version: **13.40 (2025‑10‑24)**; latest **production** (MetaCPAN) release is **13.36 (2025‑09‑09)**
 
 ## Description
 
-ExifTool is a platform-independent library and command-line application designed for reading, writing, and editing meta information in a wide range of file formats. It supports well-known metadata standards like EXIF and GPS, as well as lesser-known formats such as IPTC, XMP, and JFIF. For example, IPTC (International Press Telecommunications Council) metadata is commonly used in news and photojournalism workflows, XMP (Extensible Metadata Platform) is an Adobe-designed standard that enables structured, extensible metadata within files, and JFIF (JPEG File Interchange Format) is a standardized method for including metadata in JPEG images. With the ability to process images, audio, and video files, ExifTool is a versatile solution for photographers, archivists, and digital forensics professionals. It can extract detailed information, batch process entire collections, rename files based on embedded metadata, and even use hidden GPS coordinates to locate where images were made.
+ExifTool is a cross‑platform Perl library and command‑line application for reading, writing and editing metadata across thousands of file types (images, video, audio, documents). It supports major standards (EXIF, IPTC, XMP, ICC) plus extensive camera maker notes, and can output JSON/CSV/XML/HTML for downstream analysis. It also reads timed/video metadata (e.g., GPS tracks), computes image‑data hashes, and (since 2025) can generate SVG plots of tag values via `-plot`. Typical OSINT pivots include extracting capture dates/locations, identifying editing software, reconciling sidecars, and comparing metadata deltas between versions.
 
 ## Using ExifTool for Open Source Research: Code Examples and Applications
 
@@ -250,11 +250,20 @@ This command checks for any warnings or errors in the metadata structure of `sus
 
 ## Requirements
 
-Requires Perl 5.004 or later for the Perl version.
-
-The Windows executable version does not require Perl.
-
-The MacOS package installs the ExifTool command-line application and libraries.
+* **Runtime**: Perl **≥5.004** for the full Perl distribution; **not required** when using the Windows executable or macOS package. [exiftool.org](https://exiftool.org/)
+* **Install methods**:\
+  – Official downloads (Windows `.zip` with bundled Perl; macOS `.pkg`; full `Image-ExifTool-13.40.tar.gz`). [exiftool.org](https://exiftool.org/)\
+  – Package managers (e.g., **Homebrew**: `brew install exiftool`; **Arch Linux** package `perl-image-exiftool` 13.36). [Homebrew Formulae](https://formulae.brew.sh/formula/exiftool?utm_source=chatgpt.com)
+* **Auth/tokens**: None; ExifTool runs locally/offline. (Verified in upstream docs.) [exiftool.org](https://exiftool.org/exiftool_pod2.html)
+* **Supported modules/features (selection)**:\
+  – Read/write EXIF, IPTC, XMP, ICC; extensive MakerNotes. [exiftool.org](https://exiftool.org/)\
+  – Read **C2PA/JUMBF** (not currently writable; JUMBF can be deleted). [exiftool.org](https://exiftool.org/)\
+  – Timed/video metadata (`-ee` to extract embedded streams). [exiftool.org](https://exiftool.org/exiftool_pod2.html)\
+  – Output formats: JSON/CSV/XML/HTML; CSV/JSON import for writing. [exiftool.org](https://exiftool.org/exiftool_pod2.html)\
+  – Geotag from GPX (`-geotag`) and generate GPS track logs. [exiftool.org](https://exiftool.org/)\
+  – Generate **MD5/SHA256/SHA512 of image data** (for comparison/validation). [exiftool.org](https://exiftool.org/)\
+  – **`-plot`** to create SVG plots from tag values. [exiftool.org](https://exiftool.org/plot.html?utm_source=chatgpt.com)
+* **Optional**: For more flexible date parsing with `-d` when writing, Perl modules `POSIX::strptime` or `Time::Piece` may be used if installed. [exiftool.org](https://exiftool.org/faq.html?utm_source=chatgpt.com)
 
 ## Limitations
 
@@ -280,8 +289,7 @@ The MacOS package installs the ExifTool command-line application and libraries.
 
 ## Ethical Considerations Specific to Open Source Research
 
-* **Data Protection Laws:** Be aware of regulations like GDPR, CCPA, and others that govern the handling of personal information.
-* **Responsible Disclosure:** If you discover sensitive information, handle it responsibly and consider notifying affected parties if appropriate.
+Use ExifTool lawfully and proportionately. Limit collection to what is necessary, retain audit trails (input files, command logs, outputs), and avoid exposing sensitive personal data inadvertently contained in metadata (e.g., GPS). Investigators should align workflows with the **Berkeley Protocol on Digital Open Source Investigations** for documentation, chain‑of‑custody and verification standards.
 
 ***
 
@@ -295,6 +303,14 @@ For further learning and community support:
 
 ## Guide
 
+**Installing ExifTool** (official): platform‑specific steps and troubleshooting. [exiftool.org](https://exiftool.org/install.html)
+
+**Application Documentation** (`exiftool` options reference). [exiftool.org](https://exiftool.org/exiftool_pod2.html)
+
+**Command‑Line Examples** (curated upstream snippets). [exiftool.org](https://exiftool.org/examples.html?utm_source=chatgpt.com)
+
+**Plot Feature** (`-plot` usage and examples). [exiftool.org](https://exiftool.org/plot.html?utm_source=chatgpt.com)
+
 Kris Occhipinti. (2010, December 12). _**Working with jpg Metadata Comments—Exiftool—BASH - Linux Command Line**_ \[Video recording]. [https://www.youtube.com/watch?v=WchknYwbFJY](https://www.youtube.com/watch?v=WchknYwbFJY)
 
 spartaco80. (2015). _**exiftool1line—Useful one-line ExifTool commands**_**.** [https://sourceforge.net/projects/exiftool1line/files/](https://sourceforge.net/projects/exiftool1line/files/)
@@ -306,6 +322,8 @@ Harvey, P. (2021). _**Common ExifTool Mistakes**_**.** [https://exiftool.org/mis
 ## Tool provider
 
 Phil Harvey (will respond to inquiries in the [https://exiftool.org/forum/](https://exiftool.org/forum/))
+
+**License**: Artistic‑1.0‑Perl OR GPL‑1.0‑or‑later (dual license).
 
 ## Advertising Trackers
 
