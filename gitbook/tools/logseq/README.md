@@ -1,8 +1,8 @@
 ---
+updated: '2025-08-31'
 description: >-
   Logseq is an open-source knowledge management tool that enables users to
   organize their notes, tasks, and projects.
-updated: '2025-08-31'
 ---
 
 # Logseq
@@ -10,11 +10,11 @@ updated: '2025-08-31'
 ## URL
 
 [https://logseq.com/](https://logseq.com/)\
-(version 0.10.13; August 2025)
+(version 0.10.14; October 2025)
 
 ## Description
 
-Logseq is an open-source knowledge management and note-taking platform that supports Markdown and Org-mode formats. It emphasizes bidirectional linking and networked note-taking. Designed to organize information in a flexible, interconnected way, Logseq enables users to map out ideas, track research, and manage notes in a structured “digital garden.” Core features include a journaling function, visualization through graphs, and plugin support, including Zotero integration for managing references.
+Logseq is an open‑source, local‑first knowledge management app for desktop and mobile. It works with **Markdown and Org‑mode** file graphs and (in current betas) a **database (DB) graph** that adds reliability and collaboration features. Core capabilities include block‑based outliner notes, **bidirectional links and graph view**, **tasks/flashcards**, **whiteboards**, **advanced (Datalog‑style) queries**, **PDF annotation**, plugins/themes, and **Zotero integration**. Typical OSINT workflows include journaling timelines, linking entities across sources, annotating PDFs, and pivoting through backlinks/queries.
 
 The example below shows some of the features of Logseq, including a whiteboard diagram, a 'focused' page, and a page with a graph and other navigation.
 
@@ -22,8 +22,8 @@ The example below shows some of the features of Logseq, including a whiteboard d
 
 ### Key Features
 
-1. **Markdown-Based Storage**: Logseq’s reliance on Markdown makes it compatible with various editors (e.g., VS Code, Obsidian), ensuring data longevity and easy integration with other tools.
-2. **Journaling and Daily Logs:** Daily log pages function as journaling tools, allowing users to capture ideas and tasks sequentially. This is ideal for tracking research or investigation timelines.
+1. **Markdown-Based Storage**: Logseq’s reliance on Markdown ensures compatibility with various editors (e.g., VS Code, Obsidian), thereby promoting data longevity and facilitating easy integration with other tools.
+2. **Journaling and Daily Logs:** Daily log pages serve as journaling tools, enabling users to record ideas and tasks in sequence. This is ideal for tracking research or investigation timelines.
 3. **Block-Based Structure**: As a block-based outliner, Logseq allows hierarchical organization of notes and content, similar to Roam Research and Notion.
 4. **Bidirectional Linking and Graph Database**: Users can create interconnected notes or "nodes" and view relationships between topics visually in the graph view, which is especially valuable for tracking complex networks.
 5. **Task Management Integration:** Built-in task workflows allow users to assign tasks and monitor progress, providing an efficient project management tool within their notes.
@@ -37,11 +37,11 @@ The example below shows some of the features of Logseq, including a whiteboard d
 * **Customize Task Workflows:** For adaptable project management, set up personalized task states, such as “To Do,” “Doing,” and “Waiting. "
 * **Use Sidebar Panels**: Open multiple pages in the sidebars to reference, compare, and work on parallel projects simultaneously.
 * **CSS Customization**: Personalize the interface using custom CSS for visual clarity and improved readability.
-* **PDF Annotation Retrieval**: Use hashtags and bidirectional links to tag PDF notes, making them easy to retrieve across contexts.
+* **PDF Annotation Retrieval**: Utilize hashtags and bidirectional links to tag PDF notes, enabling easy retrieval across various contexts.
 
 ### Use Cases
 
-Logseq is suitable for various use cases that exploit its unique features, such as bidirectional linking and easy organization of notes. Here are some specific use cases where Logseq excels in the context of journalism:
+Logseq is well-suited for various use cases that leverage its unique features, such as bidirectional linking and easy note organization. Here are some specific use cases where Logseq excels in the context of journalism:
 
 #### Story Development and Organization
 
@@ -51,7 +51,7 @@ Logseq is suitable for various use cases that exploit its unique features, such 
 #### Investigative Journalism
 
 * **Evidence Tracking:** Keep track of evidence and link related pieces across different sources.
-* **Timeline Construction:** Use the journaling feature to build event timelines, helping uncover patterns or inconsistencies.
+* **Timeline Construction:** Utilize the journaling feature to create event timelines, which helps uncover patterns or inconsistencies.
 * **Network Graphs:** Develop a network of interconnected notes to identify relationships and connections among individuals or entities.
 
 ### **Comparisons with Similar Tools**
@@ -68,21 +68,22 @@ Latest changes: [https://github.com/logseq/logseq/releases](https://github.com/l
 * [ ] Partially Free
 * [ ] Paid
 
-Free for personal use, paid features might be introduced for teams in the future [according to Logseq](https://blog.logseq.com/contribute/).
+Core app is free/open‑source (AGPL‑3.0‑only). Optional **Logseq Sync** is offered to supporters and is transitioning from beta; **Logseq Pro** (sync with own storage, real‑time collaboration) has been announced, but pricing is not finalized publicly. **Status can change; check current offers.**
 
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
+Getting started (notes, links, tags, tasks) is straightforward. Power features, **advanced queries (Datalog)**, custom properties, and heavy plugin use require some learning and comfort with structured data concepts. Investigators can work productively without code but will benefit from reading the query explainer and official documentation.
+
 ## Requirements
 
-Logseq is available on the following platforms:
-
-* MacOS
-* Windows
-* Linux
-* iOS
-* Android
+* **Platforms:** Windows (x64), **macOS ≥ 11** (Intel & Apple Silicon), Linux; **iOS ≥ 14.0**; **Android ≥ 5.1**.
+* **Install methods:**\
+  – **Desktop:** GitHub Releases (Win EXE, macOS DMG/ZIP \[Intel/ARM], Linux AppImage/ZIP); macOS via **Homebrew** (`brew install --cask logseq`); Windows via **winget** (`Logseq.Logseq`). \
+  – **Linux helper script:** `install-linux.sh` from the official repo. [GitHub](https://github.com/logseq/logseq)\
+  – **Mobile:** iOS App Store; Android via **F‑Droid** (Logseq is not listed on Google Play as of 2025‑10).
+* **Auth/tokens:** Not required for local graphs. **Logseq Sync** and RTC features require a Logseq account (historically provisioned via OpenCollective backer access during beta).
 
 ## Limitations
 
