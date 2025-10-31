@@ -1,5 +1,5 @@
 # Table of contents
 
-* [QGIS](README.md)
+* [QGIS:](README.md)
 * [Categories](categories.md)
 * [Regions](regions.md)
