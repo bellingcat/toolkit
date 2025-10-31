@@ -104,15 +104,7 @@ Urban
 
 </details>
 
-### &#x20;
-
-<mark style="color:$info;">Categories or types of maps are: \[list]</mark>
-
-\ <mark style="color:$info;">Summarise in an expandable because this may change again</mark>
-
-
-
-### &#x20;<mark style="color:$info;">(The Interface) Sophie try to put into a graphic or Tabs</mark>
+### &#x20; <mark style="color:$info;">(The Interface) Sophie try to put into a graphic or Tabs</mark>
 
 MAPS
 
