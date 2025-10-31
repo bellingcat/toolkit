@@ -8,11 +8,14 @@ description: >-
 
 ## URL
 
-[https://tgdb.org](https://www.tgdb.org/page/index)
+[https://www.telegramdb.org/](https://www.telegramdb.org/)\
+(October 2025, [github](https://github.com/TelegramDB/TelegramDB))
 
 ## Description
 
-TelegramDB is a Telegram search engine you reach through the bot **@tgdb\_bot** or the companion site. It indexes every public group, channel and bot it can find – more than **30 million chats** and **11 billion membership records** as of January 2025 ([Telegram](https://t.me/s/tgdatabase?before=248)).\
+TelegramDB (“TgDB”) is a searchable index of public Telegram spaces exposed through two products: **TgDB Search Lite** (a free bot at `@tgdb_search_bot`) and **TgDB Search Plus** (a web bot/webchat at tgdb.org for advanced/credit‑based queries). Core functions include keyword discovery of public channels, groups and bots, resolving IDs/usernames, and footprinting a user’s public group/channel history. Recent additions include network/affinity discovery (similar users or “near” users; groups with similar communities) and expanded result volumes for paid searches.
+
+\
 The bot lets you:
 
 1. **Look up public chats** by keyword, name or username.
@@ -56,15 +59,14 @@ The TelegramDB bot (@tgdb\_bot) offers a comprehensive set of commands to help u
 
 ## Cost
 
-TelegramDB uses a credit-based model for advanced searches and data extraction:
+* **Partially Free**
+* **Free tier** (Search Lite): discovery commands remain 100% free on `@tgdb_search_bot`. [Telegram](https://t.me/s/tgdatabase?before=318\&utm_source=chatgpt.com)
+* **Credits** (Search Plus / web bot): first \~20 results per search are free; requesting more or running premium commands consumes credits purchased in‑bot via `/credits` (Telegram Payments) or via the site (crypto payments are periodically available). Exact pricing is shown in‑app before purchase.
 
-* **Free:** Basic searches (returns \~20 results max) and limited info queries are free​. This includes commands like `/search`/`/title` for keywords and basic `/info` lookups.
-* **Paid:** Expanded searches and premium data commands (e.g. `/where`, `/members`, `/network`, `/near`) require spending credits. These allow larger result sets and detailed data exports beyond the free limits.
-
-**Pricing:** TelegramDB uses credits. The **first 20 results of every search are free**; anything further or any premium command consumes credits.
+**Pricing:** TelegramDB uses credits. The **first 20 results of every search are free**; any additional results or premium commands consume credits.
 
 _Inside the bot:_ Since April 2025, you can only buy credits with **Telegram Stars** due to Telegram and Apple rules ([TGStat.com](https://tgstat.com/channel/%40tgdatabase)). The bot shows the exact price before you confirm.\
-&#xNAN;_&#x4F;n the website:_ At ([tgdb.org](https://tgdb.org)) you can register and pay with **cryptocurrency, credit/debit card or PayPal** [TGStat.com](https://tgstat.com/channel/%40tgdatabase). Prices fluctuate, but typical bundles remain in the €2 – €10 range.
+&#xNAN;_&#x4F;n the website:_ At ([tgdb.org](https://tgdb.org)) you can register and pay with **cryptocurrency, credit/debit card, or PayPal** [TGStat.com](https://tgstat.com/channel/%40tgdatabase). Prices fluctuate, but typical bundles remain in the €2 – €10 range.
 
 Each command tells you how many credits it will cost before it runs. Example: `/where` costs 3 credits plus 1 credit for every 40 results, while `/members` uses a sliding scale.
 
@@ -93,11 +95,14 @@ Specific pricing for premium credits is not provided directly but operates on a 
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
-* **Beginner**: Basic searches are straightforward via simple commands.
-* **Intermediate to Advanced**: Premium features (CSV exports, group network mapping) can be used for deeper OSINT investigations or data analytics.
+* For most workflows this is **easy**: you interact with a Telegram bot or a simple web UI—no CLI, coding, or API keys. Investigators should be comfortable with Telegram usernames/IDs and basic search/refinement. Advanced outputs (CSV exports, larger result sets, user/network analysis) require using the web bot and credit management.
+* Premium features (CSV exports, group network mapping) can be used for deeper OSINT investigations or data analytics.
 
 ## Requirements
 
+* **Platform/runtime:** Any modern browser (tgdb.org web bot) or Telegram app (bot). [tgdb.org](https://www.tgdb.org/bot?utm_source=chatgpt.com)
+* **Access & install:** No local install. Start the bot at `@tgdb_search_bot` (Lite) or sign in to the web bot at https://tgdb.org/bot (Plus). [Telegram](https://t.me/tgdb_search_bot)
+* **Auth/tokens:** Telegram account required. Credits purchased via `/credits` in bot (Telegram Payments) or site account; card/crypto availability varies over time. [GitHub](https://github.com/TelegramDB/TelegramDB)
 * **Telegram Account**: You must have Telegram to interact with the bot [@tgdb\_bot](https://t.me/tgdb_bot).
 * **Credits**: Needed for premium features (purchased in-bot)
 * **Data Analysis Skills**: Helpful for interpreting CSV files, especially if you plan to load them into visualization tools (e.g., Maltego).
@@ -125,11 +130,15 @@ _(Refer to the full Terms of Service via the `/terms` command in the bot for com
 * **Data Privacy:** Even though TelegramDB only uses publicly available data, be mindful of privacy implications. Avoid using the tool to expose private individuals unnecessarily, and remember that public membership in a group does not always imply endorsement.
 * **Compliance:** Ensure your use of TelegramDB aligns with data protection laws (e.g. GDPR) and ethical OSINT guidelines. If you retrieve personal data (like lists of users), handle it responsibly and respect any deletion requests.
 * **Content Verification:** Results from TelegramDB might include misinformation, extremist propaganda, or spam accounts. Always verify content and identities through additional sources. Treat data as leads or clues rather than absolute facts until confirmed.
-* **Responsible Usage:** Use TelegramDB in the spirit of research and investigation. Do not misuse the data for doxxing, harassment, or other unethical behavior. You are accountable for how you leverage information from the tool – always consider the potential impact on individuals’ privacy and safety.
+* **Responsible Usage:** Use TelegramDB for **lawful, proportionate and necessary** OSINT only. Minimize collection of personal data, preserve context, and document methods. For methodology and evidentiary handling, see the **Berkeley Protocol on Digital Open Source Investigations** (OHCHR) and related guidance. Toolkit volunteers should also follow Bellingcat’s internal standards on neutrality and updates.
 
 ## Guide
 
-TelegramDB. (2024). _TelegramDB/TelegramDB_ \[Computer software]. [https://github.com/TelegramDB/TelegramDB](https://github.com/TelegramDB/TelegramDB) (Original work published 2022)
+* TelegramDB – **README / product overview** (commands, credits, policies). [GitHub](https://github.com/TelegramDB/TelegramDB)
+* TelegramDB – **Introduction** (service summary). [telegramdb.org](https://www.telegramdb.org/article/introduction?utm_source=chatgpt.com)
+* TgDB Search Lite – **Bot page** (`@tgdb_search_bot`). [Telegram](https://t.me/tgdb_search_bot)
+* TelegramDB – **Data removal / GDPR page** (process & contact). [tgdb.org](https://www.tgdb.org/page/data_removal?utm_source=chatgpt.com)
+* Authentic8 – **Understanding Telegram for OSINT research** (contextual how‑to, 2025‑06‑05). [authentic8](https://www.authentic8.com/blog/telegram-osint-research?blaid=7711207\&utm_source=chatgpt.com)
 
 ## Tool provider
 
