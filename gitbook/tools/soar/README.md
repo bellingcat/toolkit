@@ -170,6 +170,8 @@ LOFI MAPS - NOT GEOREFERENCED
 
 Can't be linked to real-world co-ordinates
 
+These are image files which can't be layered on top of standard geographic basemaps like OSM, due to the lack of necessary data to position them on a map accurately. Users may still zoom in and pan around using Soar, but it's best to treat them as standalone images that can't be integrated with geographic layers.&#x20;
+
 <figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2F2U83UEO8KjkX3jGLBsBn_2Fuploads_2FdcI1dFHcn1wkuH9HV5iT_2F2025-09-03_21-39-44 (1).avif" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
@@ -178,9 +180,17 @@ GEOREFERENCED MAPS
 
 Has been linked to real-world co-ordinates
 
+These are maps or images (whether satellite, aerial, or drone capture) which contain specific Earth coordinates and allow for precise geographic positioning. This coordinate-linking allows for layering additional map data on top or making transparency adjustments.&#x20;
+
+
+
 <figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2F2U83UEO8KjkX3jGLBsBn_2Fuploads_2FWvCTgEs5h8kkyymksYR5_2Flofi (1).avif" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
+
+{% hint style="warning" %}
+Users cannot use the transparency slider for LoFi maps.&#x20;
+{% endhint %}
 
 ### ~~<mark style="color:$info;">DISCOVER</mark>~~
 
