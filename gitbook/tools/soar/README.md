@@ -200,6 +200,10 @@ The transparency slider is not available for LoFi maps.&#x20;
 
 #### At Satellite Level
 
+
+
+
+
 {% tabs fullWidth="false" %}
 {% tab title="DATA INPUT" %}
 * Location&#x20;
@@ -233,9 +237,7 @@ NB Location can be input as co-ordinates or a location name in MAPS section, but
 {% endtab %}
 {% endtabs %}
 
-### **AFTON TO TEST PLEASE??**
-
-Another very valuable feature is that Soar inserts connective links between maps which cover the same area. <mark style="color:$danger;">**TEST. Need to check this carefully and either bin or provide an example see**</mark> [<mark style="color:$danger;">**https://opengislab.com/blog/2021/7/11/exploring-a-digital-atlas-of-maps-and-imagery-on-soarearth**</mark>](https://opengislab.com/blog/2021/7/11/exploring-a-digital-atlas-of-maps-and-imagery-on-soarearth)
+###
 
 ## SATELLITES (Interface)
 
@@ -274,9 +276,11 @@ GREAT SO&#x20;
 
 ### <mark style="color:$primary;">Maybe a Hint? Definitely a limitation!</mark>
 
-<mark style="color:$danger;">**NB There are quite a few things which don't actually export to GeoJSON format when you export**</mark>
+{% hint style="danger" %}
+There are quite a few elements which don't actually export to GeoJSON format from Soar
 
-<div data-full-width="true"><figure><img src=".gitbook/assets/image (4).png" alt="" width="305"><figcaption><p><mark style="color:$danger;">Dont necessarily intend this to be in the finished entry, just showing it here</mark></p></figcaption></figure></div>
+![](.gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2F2U83UEO8KjkX3jGLBsBn_2Fuploads_2FmmIJfxQeBq0m9UeOd1j0_2Fimage.avif)
+{% endhint %}
 
 ### <mark style="color:$primary;">Is there a separate item about making animated GIFS? Is that just Satellite site functionality, passed through?</mark>
 
