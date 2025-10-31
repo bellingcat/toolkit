@@ -1,8 +1,8 @@
 ---
+updated: '2025-10-11'
 description: >-
   Bluesky Insights is a free web-based analytics tool for the Bluesky social
   network.
-updated: '2025-10-11'
 ---
 
 # Bluesky Insights
@@ -13,7 +13,7 @@ updated: '2025-10-11'
 
 ## Description
 
-Bluesky Insights is a free web-based analytics platform designed specifically for the Bluesky social network. It provides detailed insights into user activity, engagement trends, and content themes without requiring account authentication. Think of it like a “Social Blade” for Bluesky: a third-party website that lets anyone plug in a publicly available Bluesky handle to see at-a-glance metrics and in-depth data visualizations.
+Bluesky Insights is a free, browser‑based analytics site for the Bluesky social network. It pulls publicly viewable profile and post data and turns it into at‑a‑glance metrics (followers/posts), engagement summaries, word‑clouds, and time‑of‑day activity charts; it also surfaces a profile’s current **Top Post** and “interesting stats” (e.g., favorite hashtag/emoji, average post length). No account authentication is required to view public content on Bluesky, allowing you to analyze any public handle directly in the browser.
 
 ## **Features**
 
@@ -75,9 +75,13 @@ By enabling analytics on Bluesky profiles, Bluesky Insights can provide valuable
 * [ ] Partially Free
 * [ ] Paid
 
+**Free**. The site states it “provides a free analytics service for Bluesky users” [Terms of Service, 2024‑12‑07](https://bskyinsights.com/terms-of-service)
+
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+
+Point‑and‑click, no install. Enter any **public** Bluesky handle in a modern browser and read the charts; basic familiarity with social‑media engagement metrics helps when interpreting results. No API keys, cookies, or command line required [OSINT Combine guide](https://www.osintcombine.com/post/bluesky-osint-guide)
 
 ## Requirements
 
@@ -87,8 +91,11 @@ By enabling analytics on Bluesky profiles, Bluesky Insights can provide valuable
 
 ## Limitations
 
-* **Bluesky-Only Scope**: The tool is limited to analyzing Bluesky profiles; it does not support other social networks like Twitter/X or Mastodon.
-* **No Network Graphs**: Follower/following relationships are displayed numerically, but there is no built-in visualization of social network links.
+* **Public‑data only.** Private/DM content and posts hidden by labels/moderation workflows will not be available; Bluesky uses an open labeling system that can affect visibility of some content [moderation architecture, 2024‑03‑15](https://docs.bsky.app/blog/blueskys-moderation-architecture).
+* **Rate limits & stability.** The tool depends on Bluesky’s public APIs/streams and can be throttled by service rate limits; Bluesky documents rate‑limiting and developers have discussed a **global** IP rate cap (e.g., 3,000 calls/5 min) that may affect high‑volume services [rate‑limits guide](https://docs.bsky.app/docs/advanced-guides/rate-limits?utm_source=chatgpt.com), [atproto discussion, 2024‑02‑08](https://github.com/bluesky-social/atproto/discussions/2160).
+* **Realtime leaderboard caveats.** The “Live Hashtag Leaderboard” relies on Jetstream (websocket firehose); transient disconnects or client‑side aggregation choices may lead to gaps or brief skew [developer thread](https://www.reddit.com/r/BlueskySocial/comments/1in9okk/i_made_a_live_hashtag_leaderboard_for_bluesky_to/?utm_source=chatgpt.com).
+* **Pinned‑posts viewer constraints.** Some posts cannot render off‑site due to Bluesky embed restrictions; the developer notes API limitations and falls back to linking out to the post feature [post/comments, 2025‑02.](https://www.reddit.com/r/BlueskySocial/comments/1j4ecc4/i_built_a_bluesky_bookmarks_page_to_quickly/)
+* **ToS/affiliation.** The site is unaffiliated with Bluesky Social; use in line with Bluesky’s Terms and Developer Guidelines site ToS, [Bluesky developer guidelines](https://docs.bsky.app/docs/support/developer-guidelines), [Bluesky ToS, 2025‑08‑14](https://bsky.social/about/support/tos).
 
 ## Ethical Considerations
 
@@ -97,11 +104,19 @@ By enabling analytics on Bluesky profiles, Bluesky Insights can provide valuable
 
 ## Guides and articles
 
-**OSINT Resources on Bluesky**: [OSINT Combine Guide](https://www.osintcombine.com/post/bluesky-osint-guide)
+**Blueprint for Bluesky: An OSINT Guide** (OSINT Combine, 2024‑12‑17) — search tips, public‑data access without auth, and monitoring workflows. [Link](https://www.osintcombine.com/post/bluesky-osint-guide)
+
+**Bluesky Developer APIs** — official docs hub and HTTP reference. [Link](https://docs.bsky.app/?utm_source=chatgpt.com)
+
+**Advanced Guides: Rate Limits** — practical guidance on Bluesky service throttling. [Link](https://docs.bsky.app/docs/advanced-guides/rate-limits?utm_source=chatgpt.com)
+
+**Advanced Guides: Posts** — record schema and API examples (useful for interpreting what the tool surfaces). [Link](https://docs.bsky.app/docs/advanced-guides/posts?utm_source=chatgpt.com)
 
 ## Tool provider
 
-Independent developer "Sahaj" ([@](https://bsky.app/profile/iamsahaj.xyz)[iamsahaj.xyz](https://bsky.app/profile/iamsahaj.xyz); Gurugram, India)
+**Developer:** _Sahaj Jain_ — [Bluesky Insights profile (directory)](https://blueskydirectory.com/profiles/bskyinsights.com?utm_source=chatgpt.com) • [Personal site](https://iamsahaj.xyz/?utm_source=chatgpt.com) • GitHub: jnsahaj (Gurugram, India; currently @ Vercel) [bio](https://iamsahaj.xyz/).
+
+**License:** **Unknown / Closed source** (no public repository or open‑source license published for Bluesky Insights). See site [Terms of Service.](https://bskyinsights.com/terms-of-service)
 
 ## Advertising Trackers
 
