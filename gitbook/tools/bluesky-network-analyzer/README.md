@@ -1,9 +1,9 @@
 ---
+updated: '2025-09-30'
 description: >-
   A tool that identifies which Bluesky accounts are followed by a profile’s
   contacts but not by that profile. Can be used for expanding networks and
   social graph analysis.
-updated: '2025-09-30'
 ---
 
 # BskyFollowFinder
@@ -14,7 +14,9 @@ updated: '2025-09-30'
 
 ## Description
 
-BskyFollowFinder is a web-based tool that identifies **second-degree connections** on Bluesky—specifically, it finds accounts that are followed by the people you follow but that you haven’t followed yourself. By leveraging Bluesky’s [AT Protocol API](https://docs.bsky.app/docs/advanced-guides/atproto), the tool automates social network analysis to recommend potential new follows. This provides valuable insight into your network by ranking suggestions based on the frequency they appear among your followees.
+BskyFollowFinder is a small web app for Bluesky that surfaces **second‑degree** connection suggestions: it lists accounts that many of your followees follow but that **you** don’t (yet). You can run it on **any handle** (including other users) without logging in; an optional app password lets you follow results directly from the page. Output is a ranked list by count, with a toggle to **“Sort by proportion (favours niche accounts)”** that highlights less‑popular but highly shared follows among your network.
+
+&#x20;By leveraging Bluesky’s [AT Protocol API](https://docs.bsky.app/docs/advanced-guides/atproto), the tool automates social network analysis to recommend potential new follows. This provides valuable insight into your network by ranking suggestions based on the frequency they appear among your followees.
 
 This functionality can be useful for open source researchers, investigative journalists, and analysts who need to map social relationships, identify key influencers, and understand community structures on the platform.
 
@@ -27,7 +29,7 @@ This functionality can be useful for open source researchers, investigative jour
 * **Filtering for Niche Accounts**
   * A toggle option allows the filtering of results to prioritize smaller or more specialized accounts over universally popular ones, enabling the discovery of unique voices that might otherwise be overshadowed by mainstream profiles.
 * **One-Click Following (Optional)**
-  * Suggestions can be viewed without requiring a login. However, for users who wish to follow accounts directly from the tool, a password integration is available to facilitate authenticated API calls for one-click following. (Thus, when a password is supplied after the analysis, "follow" buttons appear next to the results.)&#x20;
+  * Suggestions can be viewed without requiring a login. However, for users who wish to follow accounts directly from the tool, a password integration is available to facilitate authenticated API calls for one-click following. (Thus, when a password is supplied after the analysis, "follow" buttons appear next to the results.)
 * **Efficient Data Retrieval**
   * By leveraging Bluesky’s public APIs, the tool efficiently retrieves connection information.
 
@@ -57,7 +59,7 @@ Using **BskyFollowFinder** to pinpoint influential hubs in a disinformation netw
 5. **Enhance Your Analysis with Visualization Tools:**\
    For a broader picture, consider exporting the data and using network visualization tools like [**Gephi**](https://bellingcat.gitbook.io/toolkit/more/all-tools/gephi) or [**Maltego**](https://bellingcat.gitbook.io/toolkit/more/all-tools/maltego). Import the common nodes and their connections to visualize the network structure, which can help confirm the hub’s influence and reveal additional relationships.
 6. **Document Your Findings:**\
-   Record your methodology, the handles analyzed, common nodes identified, and any corroborating evidence from further investigation.&#x20;
+   Record your methodology, the handles analyzed, common nodes identified, and any corroborating evidence from further investigation.
 {% endtab %}
 {% endtabs %}
 
@@ -92,7 +94,7 @@ To leverage BskyFollowFinder for community growth and influence mapping—helpin
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
-**Beginner-friendly:** No technical skills are required – just enter your Bluesky handle and review the ranked list of recommendations.
+Beginner‑friendly, point‑and‑click web UI. Enter a Bluesky handle and review the ranked suggestions. Optional app‑password entry enables one‑click follow; no scripting or API setup required.
 
 ## Requirements
 
@@ -104,18 +106,23 @@ To leverage BskyFollowFinder for community growth and influence mapping—helpin
 
 ## Limitations
 
-* **"One-Hop" Analysis only:** BskyFollowFinder looks only at the user’s direct connections (the accounts they follow or who follow them), and doesn’t go further into “friends of friends” or deeper network layers.
+* **"One-Hop" Analysis only:** BskyFollowFinder examines only the user’s direct connections (the accounts they follow or who follow them) and doesn’t delve into “friends of friends” or deeper network layers.
 * **No Graph Visualization:** Outputs are provided as a ranked list; it does not generate visual network maps like [Gephi ](https://bellingcat.gitbook.io/toolkit/more/all-tools/gephi)or [Maltego](https://bellingcat.gitbook.io/toolkit/more/all-tools/maltego).
+* **Performance:** Processing can be slow for high‑follower accounts (the app must compile many lists).&#x20;
+* **Rate limits:** Subject to Bluesky/AT Protocol limits (write & other limits vary by service); heavy use or bursts may trigger throttling.&#x20;
+* **Maintenance/versions:** No tagged releases; repo shows updates through 2024‑11‑18; license not stated (unknown).&#x20;
 
 ## Ethical Considerations
 
 * **Social Graph Exposure:** Revealing connections can inadvertently expose personal networks. Investigators should use insights responsibly, particularly when analyzing vulnerable subjects.
-* **Best Practices:** Use the tool as part of a broader investigative methodology, ensuring conclusions are corroborated with additional data.
+* Use only for lawful, proportionate purposes. Avoid exposing or amplifying sensitive social‑graph information about vulnerable individuals or groups. When authentication is used, prefer **app passwords** and revoke them when done. For best practices in investigative handling of open-source information (planning, preservation, verification, and minimizing harm), refer to the **Berkeley Protocol on Digital Open Source Investigations**.
 
 ## Guides and articles
 
 * **Theo Sanderson’s Bluesky Post:** [Introduction to BskyFollowFinder](https://bsky.app/profile/theo.io/post/3lapjzzqtrc2e)
 * **Bluesky API Documentation:** [AT Protocol for Social Graphs](https://docs.bsky.app/docs/api/app-bsky-graph-get-follows)
+* [GIGAZINE walkthrough](https://gigazine.net/gsc_news/en/20241204-bluesky-network-analyser/) of the tool UI, including **app‑password** and **niche‑sort** steps.
+* [Bluesky User FAQ](https://bsky.social/about/blog/5-19-2023-user-faq) – app passwords for third‑party tools.
 
 ### Complementary OSINT & Social Graph Tools to Use with BskyFollowFinder
 
@@ -131,7 +138,7 @@ To leverage BskyFollowFinder for community growth and influence mapping—helpin
 
 ## Tool provider
 
-[Theo Sanderson](https://theo.io/) (London)
+[Theo Sanderson](https://theo.io/) (London) [theo.io](https://theo.io/?utm_source=chatgpt.com) and GitHub repo: `theosanderson/bsky-follows`
 
 ## Advertising Trackers
 
