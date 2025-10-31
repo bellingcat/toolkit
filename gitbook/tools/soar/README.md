@@ -51,7 +51,7 @@ The Discover and Maps sections of the Soar interface are in fact just different 
 
 {% columns %}
 {% column %}
-SOAR DATA SOURCES
+**SOAR DATA SOURCES**
 
 Data sources for Soar's million maps include:&#x20;
 
@@ -65,7 +65,7 @@ Data sources for Soar's million maps include:&#x20;
 {% endcolumn %}
 
 {% column %}
-SOAR MAP INFORMATION TYPES
+**SOAR MAP INFORMATION TYPES**
 
 The database includes:
 
@@ -103,6 +103,8 @@ Transport\
 Urban
 
 </details>
+
+<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td></td></tr></tbody></table>
 
 ### **Navigating the Interface to the Soar Map Database**
 
@@ -192,40 +194,38 @@ These are maps or images (whether satellite, aerial, or drone capture) which con
 Users cannot use the transparency slider for LoFi maps.&#x20;
 {% endhint %}
 
-### ~~<mark style="color:$info;">DISCOVER</mark>~~
-
-~~<mark style="color:$danger;">**Discover section for 2 Map Types:**</mark>~~&#x20;
-
-[~~<mark style="color:$danger;">**LoFi**</mark>~~](#user-content-fn-4)[^4] ~~<mark style="color:$danger;">**and Georeferenced (use Soar definitions of these two terms - i.e. either fits over a geo world map or not), which we should probably define (I can't right now) and then about 15 categorisations (Afton finds categorisation to be arbitrary - TEST RESULT: one map can be categorised under more than one heading - test):**</mark>**&#x20;**<mark style="color:$info;">**Are GIFs part of georeferenced maps? (they have the transparency slider on most of them, and the search results in the Discover section include, lofi, standard maps, and GIFs)**</mark>~~&#x20;
-
-~~<mark style="color:$info;">(Afton's try at definition --Feel free to rephrase!)</mark>~~&#x20;
-
-~~<mark style="color:$info;">**LoFi Maps**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">- short for "low-fidelity". According to a June 25, 2025 Newsletter (mailing list) - these maps focus more on visual appeal than technical accuracy. In other words, these are image files that can't be layered on top of standard geographic basemaps like OSM due to the lack of necessary data to position them on a map accurately. Users may still zoom in and pan around, but it's best to treat them as standalone images that can't be integrated with geographic layers.</mark>~~&#x20;
-
-~~<mark style="color:$info;">Users cannot use the transparency slider for LoFi maps.</mark>~~&#x20;
-
-<figure><img src=".gitbook/assets/lofi.png" alt="" width="375"><figcaption><p><mark style="color:$info;">for reference only (we dont have to keep it in the final description)</mark> </p></figcaption></figure>
-
-~~**(The verbatim from the newsletter: "**<mark style="color:$info;">At Soar, we often come across maps that are more visual or artistic in nature. These are what we call LoFi Maps - short for low-fidelity. Put simply, LoFi Maps are maps that don't include the data that places them over the base map. Instead, they're viewable as a standard image which you can zoom into, pan around, and explore, just without the base map.")</mark>~~
-
-~~<mark style="color:$info;">**Georeferenced Maps -**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">maps or images (whether satellite, aerial, or drone capture) that contain specific Earth coordinates and allow for precise geographic positioning. These coordinate-linking allows for layering additional map data on top or making transparency adjustments.</mark>~~&#x20;
-
-<figure><img src=".gitbook/assets/2025-09-03_21-39-44.png" alt="" width="375"><figcaption></figcaption></figure>
 
 
+{% tabs fullWidth="false" %}
+{% tab title="DATA INPUT" %}
+* Location&#x20;
+* Map filtering properties, e.g Map category, Map format, Map indexing tags
+* Satellite filtering properties
+* Animated satellite GIF sequence properties
+* Media for graphical narrative creation
+{% endtab %}
 
-* location (Maps Section designed for this)&#x20;
-* **category (Discover Section designed for this)**
+{% tab title="SOAR OUTPUT" %}
+* Maps
+* Satellite imagery
+* Graphic Narratives
+{% endtab %}
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+{% tab title="USE CASES" %}
+* Looking for a map
+* Looking for satellite imagery
+* Triangulating a problem by overlaying two data sources and using transparency
+* Communicating and sharing a narrative in graphical format
+{% endtab %}
 
-<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+{% tab title="GRAPHICAL INPUT OPTIONS" %}
+* Input text name of location OR
+* Geographical co-ordinates OR
+* Point and click at a location on a map
 
-<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
-
-* georeference - i.e. can it scale to fit over a modern scientifically derived world map? (Discover s~~ection filters by this)~~
-
-~~One of Soar's most immediately valuable features is the ability to overlay imagery and maps in layers and the adjust transparency. <mark style="color:$danger;">**TEST**</mark>~~ ~~<mark style="color:$danger;">**Need to test can we adjust the relative scale of the maps to get them to fit over one another in the same location?? Which of the two maps can we rescale? One or both? Or is the interaction with the satellite imagery different in these two modes of Map and Discover?**</mark>~~
+NB Location can be input as co-ordinates or a location name in MAPS section, but only as location name in DISCOVERY section
+{% endtab %}
+{% endtabs %}
 
 ### **AFTON TO TEST PLEASE??**
 
@@ -311,49 +311,7 @@ To demonstrate the visualization capability of a "Stoary", we used the feature b
 
 
 
-## The Interface <mark style="color:$danger;">is weird in my view, seems to have changed over time and old versions look better, need to c</mark>heck    !!Sophie to do these tabs!!
-
-In expanded graphic, address Transparency slider and LoFi and Georeferencing.&#x20;
-
-<mark style="color:$info;">**LoFi Maps**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">- short for "low-fidelity". According to a June 25, 2025 Newsletter (mailing list) - these maps focus more on visual appeal than technical accuracy. In other words, these are image files that can't be layered on top of standard geographic basemaps like OSM due to the lack of necessary data to position them on a map accurately. Users may still zoom in and pan around, but it's best to treat them as standalone images that can't be integrated with geographic layers.</mark>&#x20;
-
-<mark style="color:$info;">Users cannot use the transparency slider for LoFi maps.</mark>&#x20;
-
-<figure><img src=".gitbook/assets/lofi.png" alt="" width="375"><figcaption><p><mark style="color:$info;">for reference only (we dont have to keep it in the final description)</mark> </p></figcaption></figure>
-
-<mark style="color:$info;">**Georeferenced Maps -**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">maps or images (whether satellite, aerial, or drone capture) that contain specific Earth coordinates and allow for precise geographic positioning. These coordinate-linking allows for layering additional map data on top or making transparency adjustments.</mark>&#x20;
-
-<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2F2U83UEO8KjkX3jGLBsBn_2Fuploads_2FdcI1dFHcn1wkuH9HV5iT_2F2025-09-03_21-39-44.avif" alt="" width="188"><figcaption></figcaption></figure>
-
-{% tabs fullWidth="true" %}
-{% tab title="DATA INPUT" %}
-Location (can be input as co-ordinates or a location name in MAPS section, but only as location name in DISCOVERY SECTION
-
-Location and time
-{% endtab %}
-
-{% tab title="SOAR OUTPUT" %}
-Maps
-
-Satellite imagery
-{% endtab %}
-
-{% tab title="USE CASES" %}
-Looking for a map
-
-Looking for satellite imagery
-
-Triangulating a problem by overlaying two data sources and using transparency
-{% endtab %}
-
-{% tab title="GRAPHICAL INPUT OPTIONS" %}
-Input text name of location OR
-
-Geographical co-ordinates OR
-
-Point and click at a location on a map
-{% endtab %}
-{% endtabs %}
+## Soar Data&#x20;
 
 {% hint style="success" %}
 Soar data is particularly strong across different time modalities, e.g.&#x20;
@@ -522,5 +480,3 @@ Soar, Perth, Australia<mark style="color:$danger;">**?**</mark>
 [^2]: The set of categories offered by Soar varies over time, but includes topics as wide as Conflict, Vintage and Spaceport
 
 [^3]: Maps can be categorised as to whether or not they can be [georeferenced](https://en.wikipedia.org/wiki/Georeferencing)
-
-[^4]: Another terms is schematic
