@@ -47,6 +47,10 @@ Typing this incomplete URL into search engines brought up the the name "The Fron
 
 The search brought up several pictures of Zulfikar Ali Bhutto from the website of The Frontier Post, including the photo that had also showed up in our Pimeyes search results. We could simply click on the URL to this photo to learn more.
 
+### OSINT by PimEyes
+
+Pimeyes has launched a new product, "OSINT by Pimeyes". According to the tool provider, this is an invite-only platform for verified organizations, including law enforcement, investigators, banks, financial institutions among others. See more about the new product and its purpose [here](https://osint.pimeyes.com/about-us).
+
 ## Cost
 
 * [ ] Free
