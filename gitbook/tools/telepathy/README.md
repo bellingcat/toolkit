@@ -10,9 +10,9 @@ description: >-
 
 ## URL
 
-[https://github.com/jordanwildon/Telepathy](https://github.com/jordanwildon/Telepathy)
+[https://github.com/proseltd/Telepathy-Community](https://github.com/proseltd/Telepathy-Community?utm_source=chatgpt.com)
 
-Version: Telepathy 2.3.4 (as of August 25)
+Version: Telepathy 2.3.4 (released 2024‑07‑12, as of Oct 25)
 
 ## Description
 
@@ -267,6 +267,8 @@ Free, with enterprise-grade versions (Telepathy Pro & TelepathyDB) available at 
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
+
+Telepathy is CLI‑only. Users should be comfortable installing Python packages, obtaining Telegram API credentials, and running terminal commands. Familiarity with CSV analysis (e.g., in pandas/Excel) and graph tools (e.g., Gephi) is helpful for downstream analysis.
 
 ## Requirements
 
