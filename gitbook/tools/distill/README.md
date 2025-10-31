@@ -1,8 +1,8 @@
 ---
+updated: '2025-08-31'
 description: >-
   Distill.io is a website change monitoring tool that allows users to track
   changes on web pages.
-updated: '2025-08-31'
 ---
 
 # Distill.io
@@ -14,7 +14,7 @@ updated: '2025-08-31'
 
 ## Description
 
-Distill.io is a website‑change monitoring tool that tracks **web pages, PDFs, JSON, Word docs, XML, RSS/Atom feeds, uptime endpoints and, new in 2024, crawler‑based Sitemap monitors (alpha)**. Alerts can arrive by email, SMS, push, Discord, Slack, MS Teams or custom webhooks. Distill is available as a **web app, browser extension, mobile apps (iOS & Android) and a desktop app for Windows & macOS (public alpha)**
+Distill Web Monitor tracks changes to webpages and documents and alerts you via push, email, SMS, webhooks, or Slack/Discord/Teams when a change is detected; monitors can run locally in your browser or on Distill’s cloud. Typical inputs are a URL or feed; outputs are diffs and a change history with optional AI change summaries. Supported source types include web pages, PDFs, JSON, XML, RSS/Atom feeds and simple uptime checks; a crawler‑based sitemap monitor helps discover new URLs on a site. Advanced workflows use conditions, proxies, macros and webhooks to reduce noise, handle logins, and route alerts into other systems. [What is Distill?](https://distill.io/docs/web-monitor/what-is-distill/); [Using Conditions](https://distill.io/docs/web-monitor/using-conditions-to-get-alert-on-important-changes/); [Macro & Automated Actions](https://distill.io/docs/web-monitor/macro-to-record-replay-actions/); [Feed](https://distill.io/docs/web-monitor/feed-monitor/); [Uptime](https://distill.io/docs/web-monitor/uptime-monitor/)
 
 #### **Practical Applications for Open Source Researchers**
 
@@ -79,7 +79,7 @@ After you click save, your monitor will be active.
   * You can use Distill.io with other open-source research tools to integrate data from Distill.io with databases or visualization tools.
 * **Use Cloud Monitors for Reliability:**
   * One option is to run monitors on Distill.io's servers, ensuring continuous monitoring even when your device is offline. For monitoring tasks where information can change quickly, this can be critical because uptime is constant.
-* **API (Enterprise only)**&#x20;
+* **API (Enterprise only)**
   * Request programmatic access to watchlists and change data for full automation.
 * **Monitor Authentication-Protected Pages:**
   * Distill.io supports monitoring pages that require a login. This can ensure compliance with the terms of service and legal considerations when monitoring such content.
@@ -91,18 +91,9 @@ After you click save, your monitor will be active.
 * [x] Partially Free
 * [ ] Paid
 
-- **Free Plan:**
-  * Up to 25 local monitors
-  * 5 cloud monitors
-  * 1,000 checks per month
-  * 30 email alerts
-  * **Limitations:** Maximum check interval of 6 hours for cloud monitors
-- **Paid Plans:**
-- Starter $15 / Professional $35 / Flexi $80+ per month; see [pricing page](https://distill.io/pricing/) for full resource tables.
-  * **Starter Plan:** Increased limits and faster check frequencies (e.g., every 10 minutes)
-  * **Professional Plan:** More monitors, higher check frequency (e.g., every 5 minutes), SMS alerts
-  * **Enterprise Plan:** Custom solutions with the highest limits and priority support
-  * **Pricing:** Detailed pricing is available on the Distill.io pricing page
+- Free plan: up to 25 local monitors; 5 cloud monitors; 1,000 checks per month; 30 email alerts; cloud minimum interval 6 hours.&#x20;
+- Paid plans: Starter USD 15 per month; Professional USD 35 per month; Flexi from USD 80 per month; see pricing tables for per‑plan resources and limits.&#x20;
+- [Pricing](https://distill.io/pricing)
 
 ## Level of difficulty
 
@@ -124,25 +115,22 @@ After you click save, your monitor will be active.
 
 #### **Limitations**
 
-* **Free Plan Limitations:**
-  * Limited to 25 local monitors and 5 cloud monitors
-  * Minimum check interval of 6 hours for cloud monitors
-  * Limited number of email alerts per month
-* **Cloud Checks:**
-  * Limited by the subscription plan
-  * Faster check frequencies require higher-tier plans
+* Free plan constraints - cloud checks no faster than every 6 hours; 1,000 checks and 30 email alerts per month; local monitors must have the browser or app running for checks to execute.&#x20;
+* Firefox and Opera extensions have older public versions at time of writing; Firefox 3.6.12 released 2023‑08‑01; Opera 3.3.12 updated 2023‑11‑22; feature parity may lag behind Chrome. [AMO versions](https://addons.mozilla.org/en-US/firefox/addon/distill-web-monitor-ff/versions/); [Opera listing](https://addons.opera.com/en/extensions/details/distill-web-monitor?utm_source=chatgpt.com).&#x20;
+* Dynamic or login‑gated pages may require Macros or Dedicated Cloud Devices; sessions can expire and must be refreshed. [Macros](https://distill.io/docs/web-monitor/macro-to-record-replay-actions/); [Dedicated Cloud Devices](https://distill.io/docs/web-monitor/dedicated-cloud-devices/).&#x20;
+* Sitemap monitor is marked “alpha” and available only on Professional+; behavior and UI may change. [Sitemap guide](https://distill.io/docs/web-monitor/sitemap-monitor-using-a-crawler/?utm_source=chatgpt.com).&#x20;
+* Legal/ToS - Distill’s ToS requires lawful use; do not use the service to violate site terms or access controls. Providers may request suspension if their sites object to scraping. [Distill ToS](https://distill.io/terms-of-service/).&#x20;
 * **Local Checks:**
   * Require the browser or desktop app to be running
   * Less reliable if the device is turned off or disconnected from the internet
 * **Dynamic Content:**
   * Monitoring JavaScript-rendered content may require advanced configuration
-  * Some dynamic elements might not be captured without using cloud monitors or by running a macro with loop support (added 2024) to pre‑load dynamic sections.
+  * Some dynamic elements may not be captured without using cloud monitors or by running a macro with loop support (added in 2024) to pre-load dynamic sections.
 
 ## Ethical Considerations
 
 * **Privacy and Legal Compliance:**
-  * Keep the website's terms of service in mind when monitoring website changes
-  * Be aware of legal regulations regarding automated access or scraping
+  * Use Distill only on sources for which you are legally authorized to monitor; avoid circumventing technical access controls; minimize the collection of personal data; and retain only what is necessary. When working with sensitive material, consider recognized guidance like the Berkeley Protocol on Open Source Investigations for documentation and verification practices.
 * **Responsible Use:**
   * Avoid overloading target websites with excessive requests
   * Use appropriate check intervals to minimize impact
@@ -160,7 +148,7 @@ Distill (Director). (2023, May 26). _How to Use the Visual Selector in Distill_ 
 
 ## Tool provider
 
-**Distill.io by** Neemb LLC (Delaware), U.S.
+**Distill.io by** Neemb LLC / Neemb Web Services Pvt Ltd (Delaware), U.S.
 
 * **Contact Information:** Available on their [Contact Us page](https://distill.io/docs/contact-us/)
 
