@@ -1,14 +1,18 @@
 ---
-description: South Korean mapping service
+description: A mapping application provided by South Korean technology company
 ---
 
-# KakaoMap
+# Kakao Map
 
 ## URL
 
-[**https://map.kakao.com**](https://map.kakao.com)
+Site: [https://map.kakao.com](https://map.kakao.com)
+
+API Documentation: [https://apis.map.kakao.com/](https://apis.map.kakao.com/)
 
 ## Description
+
+Kakao Maps offer&#x20;
 
 <figure><img src=".gitbook/assets/Kakao.JPG" alt=""><figcaption><p>KAKOA MAP RUNNING WITH GOOGLE TRANSLATE CHROME BROWSER EXTENTION FOR ENGLISH VERSION.</p></figcaption></figure>
 
@@ -32,26 +36,23 @@ Includes traffic information, weather, pollutants, cadastral information, CCTV l
 
 Korean Language skills or run a translator extension on the webpage version whilst using the tool (only partially successful).
 
-When using iOS app, translation is automatically applied (UK-based).&#x20;
+When using iOS app, translation is automatically applied (UK-based).
 
 ## Limitations
 
 Korean language requirement when viewed on webpage
 
-Detailed information provided is limited to South Korea.&#x20;
+Detailed information provided is limited to South Korea.
 
 ## Ethical Considerations
 
-**Accidental Public Disclosure**&#x20;
-
+**Accidental Public Disclosure**\
 [https://www.koreatimes.co.kr/business/tech-science/20210119/kakao-hit-for-mishandling-customer-data](https://www.koreatimes.co.kr/business/tech-science/20210119/kakao-hit-for-mishandling-customer-data)
 
-**Unclear Consent Mechanisms**&#x20;
-
+**Unclear Consent Mechanisms**\
 [https://www.koreaherald.com/article/2539309#:\~:text=Jan.,layout%2C%20making%20it%20hardly%20recognizable.](https://www.koreaherald.com/article/2539309)
 
-**Misclassification of Data**
-
+**Misclassification of Data**\
 [https://journals.sagepub.com/doi/full/10.1177/20570473231224818](https://journals.sagepub.com/doi/full/10.1177/20570473231224818)
 
 ## Guides and articles
@@ -60,7 +61,7 @@ Guides on [Kakao Map Official Blog](https://kakaomap.tistory.com/category/%EC%B9
 
 ## Tool provider
 
-[Kakao Corporation](https://www.kakaocorp.com/page/)&#x20;
+[Kakao Corporation](https://www.kakaocorp.com/page/)
 
 ## Advertising Trackers
 
