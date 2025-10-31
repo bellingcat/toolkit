@@ -1,8 +1,8 @@
 ---
+updated: '2025-09-25'
 description: >-
   A tool that converts various geographic coordinates to support diverse mapping
   and spatial analysis needs.
-updated: '2025-09-25'
 ---
 
 # Convert Geographic Units
@@ -24,6 +24,10 @@ Montana State University's Convert Geographic Units tool converts latitude and l
 * **NATO UTM:** Convert to and from latitude zone and longitude zone, digraph, Easting and Northing.
 * **Basic Interactive Google Map:** Zoom, map/satellite options & labels option.
 
+This tool can be used by researchers to translate coordinates between formats so geolocated claims, EXIF GPS dumps or witness-reported DMS coordinates can be placed precisely onto satellite imagery or map grids. The datum selector can also be used to ensure the coordinate system matches the map or imagery used. In addition, for investigations involving military activity or NATO reporting, the tool’s NATO/UTM outputs let researchers generate standard grid references for cross-checking logs, manifests, or witness reports.
+
+For example, select the WGS 84 datum and enter the Decimal Degrees for the Eiffel Tower (48.858222, 2.2945) to convert them into Degrees Minutes Seconds (DMS) or Standard UTM coordinates.
+
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Cost
@@ -42,7 +46,7 @@ Montana State University's Convert Geographic Units tool converts latitude and l
 
 ## Limitations
 
-* **UTM and NATO**: UTM and NATO easting and northing values are rounded to the nearest meter. Conversions to NATO coordinates are only done for the WGS84 ellipsoid (according to the tool).
+* **UTM and NATO**: UTM and NATO easting and northing values are rounded to the nearest meter. Conversions to NATO coordinates are only done for the WGS84 ellipsoid.
 
 ## Ethical Considerations
 
