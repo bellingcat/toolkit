@@ -1,6 +1,6 @@
 ---
 description: A comprehensive database of current and historical OFAC/UN/EU sanctions
-updated: '2025-08-30'
+updated: '2025-10-30'
 ---
 
 # SanctionsExplorer

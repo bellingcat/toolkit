@@ -1,6 +1,6 @@
 ---
 description: 'Data on campaign finance, lobbying, and spending in U.S. politics'
-updated: '2025-08-30'
+updated: '2025-10-30'
 ---
 
 # OpenSecrets

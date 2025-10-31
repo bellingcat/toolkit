@@ -1,6 +1,6 @@
 ---
 description: Comprehensive repository of company registries around the world
-updated: '2025-08-30'
+updated: '2025-10-30'
 ---
 
 # OpenCorporates

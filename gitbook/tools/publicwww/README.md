@@ -3,6 +3,7 @@ description: >-
   PublicWWW is a source code search engine that allows you to search for any
   alphanumeric snippet, signature, or keyword within the HTML, JavaScript, and
   CSS code of millions of web pages.
+updated: '2025-10-30'
 ---
 
 # PublicWWW
