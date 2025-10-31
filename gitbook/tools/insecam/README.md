@@ -15,7 +15,7 @@ http://insecam.org \
 
 Insecam shows live feeds of internet protocol (IP) surveillance cameras around the world. The live feeds are made available on this site because the camera owners did not change the camera's password to be different from the default factory setting. \
 \
-Insecam allows searches by location (city, country), camera brand, and date, i.e., date since camera setup.&#x20;
+Insecam allows searches by location (city, country, type of place, timezone) and camera brand.
 
 The camera feeds show a variety of public spaces. Camera feeds of private residences are not shown on the site.&#x20;
 
@@ -41,7 +41,7 @@ No account registration required.&#x20;
 
 ## Ethical Considerations
 
-**Privacy and legal concerns**: People who appear in the video feeds have not explicitly consented to do so. Researchers should exercise ample caution when using the site, and in particular if sharing any images from the site. &#x20;
+**Privacy and legal concerns**: People who appear in the video feeds have not explicitly consented to do so. Researchers should exercise caution when using the site, and in particular if sharing any images from the site. &#x20;
 
 ## Guides and articles
 
