@@ -104,7 +104,69 @@ Urban
 
 </details>
 
-### &#x20; <mark style="color:$info;">(The Interface) Sophie try to put into a graphic or Tabs</mark>
+### **Navigating the Interface to the Soar Map Database**
+
+<figure><img src=".gitbook/assets/ANNOTATEDEXPLODED.JPG" alt=""><figcaption></figcaption></figure>
+
+When working from a location, users can:
+
+* Enter a name or co-ordinates, Zoom to a region and select an exact bounding box location.
+* View and filter the maps presented by Soar around this specific location
+* Select a map and, if available, change Transparency to inspect the overlay of the georeferenced map against the base map, comparing features
+* Change the base map to inspect against OpenStreetMap, OpenElevation, Satellite and Hybrid views
+* Open and filter satellite paths to establish which could provide imagery of the region
+* Invoke SATELLITE mode to find historic imagery or to commission immediate satellite imagery of the specifc location (both free and paid offered)
+* Invoke STOARY mode to create narrative content
+* Invoke UPLOAD mode to add content to the Soar database
+
+\
+
+
+{% stepper %}
+{% step %}
+### Define
+
+Enter a name or co-ordinates, Zoom to a region and select an exact bounding box location.
+{% endstep %}
+
+{% step %}
+### View
+
+View and filter the maps presented by Soar around this specific location
+{% endstep %}
+
+{% step %}
+### Select
+
+Select a map and, if available, change Transparency to inspect the overlay of the georeferenced map against the base map, comparing features
+{% endstep %}
+
+{% step %}
+### Compare
+
+Change the base map to inspect against OpenStreetMap, OpenElevation, Satellite and Hybrid views
+{% endstep %}
+
+{% step %}
+### Find Satellite Imagery
+
+Open and filter satellite paths to establish which could provide imagery of the region
+
+Invoke SATELLITE mode to find historic imagery or to commission immediate satellite imagery of the specifc location (both free and paid offered)
+{% endstep %}
+
+{% step %}
+### Create and Share A Narrative
+
+Invoke STOARY mode to create narrative content
+
+Invoke UPLOAD mode to add content to the Soar database
+{% endstep %}
+{% endstepper %}
+
+<figure><img src=".gitbook/assets/Interface MAP annotated2.JPG" alt=""><figcaption></figcaption></figure>
+
+&#x20;<mark style="color:$info;">(The Interface) Sophie try to put into a graphic or Tabs</mark>
 
 MAPS
 

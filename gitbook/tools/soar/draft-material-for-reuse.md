@@ -44,7 +44,7 @@ The Discover and Maps sections of the Soar interface are in fact just different 
 
 #### Navigating the Interface to the Soar Map Database
 
-<figure><img src=".gitbook/assets/ANNOTATEDEXPLODED.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ANNOTATEDEXPLODED (1).JPG" alt=""><figcaption></figcaption></figure>
 
 When working from a location, users can:
 
