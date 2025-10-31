@@ -74,9 +74,7 @@ The database includes:
 {% endcolumn %}
 {% endcolumns %}
 
-Soar maps are searchable by features including location, map category, indexing tags, uploading username .
-
-<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td>Agriculture</td></tr><tr><td>Climate </td></tr><tr><td>Conflict Zone</td></tr><tr><td>Culture</td></tr><tr><td>Demographics</td></tr><tr><td></td></tr></tbody></table>
+Soar maps are searchable by features including location, map category, indexing tags, uploading username, georeference[^3] status,...
 
 <details>
 
@@ -118,7 +116,7 @@ Urban
 
 MAPS
 
-<mark style="color:$info;">The default view is a zoomed-out satellite imagery of the Earth in the middle. To the left is a sidebar with a list of maps, to the right is a search box, zoom in, zoom out, and</mark> [<mark style="color:$info;">box zoom.</mark>](#user-content-fn-3)[^3]&#x20;
+<mark style="color:$info;">The default view is a zoomed-out satellite imagery of the Earth in the middle. To the left is a sidebar with a list of maps, to the right is a search box, zoom in, zoom out, and</mark> [<mark style="color:$info;">box zoom.</mark>](#user-content-fn-4)[^4]&#x20;
 
 <mark style="color:$info;">**LEFT SIDEBAR**</mark>
 
@@ -138,7 +136,7 @@ _<mark style="color:$info;">Filtering:</mark>_ <mark style="color:$info;"></mark
 
 <mark style="color:$info;">**Search box -**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">Input: coordinates, city names, Country, neighborhoods, some famous landmarks, but not specific addresses (house number street name + city)  (what are these location data called? gazetteer? reference data? address locator?)</mark>
 
-<mark style="color:$info;">**Zoom options -**</mark> <mark style="color:$info;"></mark> <mark style="color:$info;"></mark><mark style="color:$info;">zoom in, zoom out, and</mark> [<mark style="color:$info;">box zoom.</mark>](#user-content-fn-3)[^3]&#x20;
+<mark style="color:$info;">**Zoom options -**</mark> <mark style="color:$info;"></mark> <mark style="color:$info;"></mark><mark style="color:$info;">zoom in, zoom out, and</mark> [<mark style="color:$info;">box zoom.</mark>](#user-content-fn-4)[^4]&#x20;
 
 <mark style="color:$info;">**BOTTOM RIGHT:**</mark>
 
@@ -158,7 +156,7 @@ _<mark style="color:$info;">Filtering:</mark>_ <mark style="color:$info;"></mark
 
 ~~<mark style="color:$danger;">**Discover section for 2 Map Types:**</mark>~~&#x20;
 
-[~~<mark style="color:$danger;">**LoFi**</mark>~~](#user-content-fn-4)[^4] ~~<mark style="color:$danger;">**and Georeferenced (use Soar definitions of these two terms - i.e. either fits over a geo world map or not), which we should probably define (I can't right now) and then about 15 categorisations (Afton finds categorisation to be arbitrary - TEST RESULT: one map can be categorised under more than one heading - test):**</mark>**&#x20;**<mark style="color:$info;">**Are GIFs part of georeferenced maps? (they have the transparency slider on most of them, and the search results in the Discover section include, lofi, standard maps, and GIFs)**</mark>~~&#x20;
+[~~<mark style="color:$danger;">**LoFi**</mark>~~](#user-content-fn-5)[^5] ~~<mark style="color:$danger;">**and Georeferenced (use Soar definitions of these two terms - i.e. either fits over a geo world map or not), which we should probably define (I can't right now) and then about 15 categorisations (Afton finds categorisation to be arbitrary - TEST RESULT: one map can be categorised under more than one heading - test):**</mark>**&#x20;**<mark style="color:$info;">**Are GIFs part of georeferenced maps? (they have the transparency slider on most of them, and the search results in the Discover section include, lofi, standard maps, and GIFs)**</mark>~~&#x20;
 
 ~~<mark style="color:$info;">(Afton's try at definition --Feel free to rephrase!)</mark>~~&#x20;
 
@@ -483,6 +481,8 @@ Soar, Perth, Australia<mark style="color:$danger;">**?**</mark>
 
 [^2]: The set of categories offered by Soar varies over time, but includes topics as wide as Conflict, Vintage and Spaceport
 
-[^3]: using your cursor to draw a box and the map zooms in on that area of interest
+[^3]: Maps can be categorised as to whether or not they can be [georeferenced](https://en.wikipedia.org/wiki/Georeferencing)
 
-[^4]: Another terms is schematic
+[^4]: using your cursor to draw a box and the map zooms in on that area of interest
+
+[^5]: Another terms is schematic
