@@ -48,7 +48,7 @@ e.g. Enter "_**Find a pharmacy and a traffic light and a bus stop and a bridge w
 {% endcolumn %}
 
 {% column %}
-<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2kIW8Z8_2Fuploads_2FiNBrEZXDUczSTr58q2MK_2Fhttps___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2.avif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2kIW8Z8_2Fuploads_2FiNBrEZXDUczSTr58q2MK_2Fhttps___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2 (3).avif" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -229,17 +229,29 @@ If the features which meet the search criteria are grouped into candidate locati
 
 For examples where there are multiple solution locations meeting the search criteria, Spot's output map may not allow the user  to identify how many different solution locations there are, or their exact boundaries.  This could lead to extended time taken to check the options against StreetView maps and other forms of confirmation.
 
-A very useful and original time-saving feature in Spot, is the option to view any feature listed on the map legend using a variety of mapping services: Google Maps, Bing, and Yandex. Most importantly, direct access to Google StreeView is provided to support location verification through multiple mapping services. Google StreetView and Spot source imagery can be compared side by side on screen
+{% columns %}
+{% column %}
+A very useful and original time-saving feature in Spot, is the option to view any feature listed on the map legend using a variety of mapping services: Google Maps, Bing, and Yandex.&#x20;
+
+Most importantly, direct access to Google StreeView is provided to support location verification through multiple mapping services.&#x20;
+{% endcolumn %}
+
+{% column %}
+<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2kIW8Z8_2Fuploads_2FiNBrEZXDUczSTr58q2MK_2Fhttps___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2 (2).avif" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+Spot source imagery and Google StreetView can be compared side by side on screen
 
 
 
 {% columns %}
-{% column %}
-<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2kIW8Z8_2Fuploads_2FbTkbLE5vkDEHdaixSCha_2FScreenshot_202025-08-31_20at_2015.24.35.avif" alt=""><figcaption></figcaption></figure>
+{% column width="41.66666666666667%" %}
+<figure><img src=".gitbook/assets/Another error croppedANNOTATED2.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
-{% column %}
-<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2kIW8Z8_2Fuploads_2FvVFfiktlPlV7rIkbqvP6_2Fhybrid_20view_20.avif" alt=""><figcaption></figcaption></figure>
+{% column width="58.33333333333333%" %}
+<figure><img src=".gitbook/assets/Another error croppedANNOTATED.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
