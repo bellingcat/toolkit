@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-North Data is an online platform offering detailed company information sourced from public records like trade registers, annual reports, funding registers, trademark registers, and patent registers. The platform, primarily focuses on European countries. Coverage (Aug 2025): **78 million+ companies in 24 European jurisdictions** ([newest additions](https://www.linkedin.com/company/northdata/): Netherlands, Czech Republic & Portugal).
+North Data is a business intelligence platform for investigating companies, executives, and financial relationships across [21](https://www.northdata.com/_coverage#countries) European countries (some in beta) + a ‘Tax Havens’ bundle. It aggregates official registry data, court publications, and financial statements, making it a useful resource for financial and corporate OSINT investigations.
 
 Key features and content include:
 
@@ -27,7 +27,8 @@ Key features and content include:
 3. **Data Accessibility**: Free basic access, premium services, and API integration.
 4. **Visualization Tools**: Plotting financial information and link analysis.
 5. **Power Search & EUID look-ups:** over 60 field filters (including geo, turnover, ESG keywords, and EUID) with export to CSV/XLSX.
-6. **Google Sheets integration:** official Apps Script template fetches live indicators into a spreadsheet.
+6. **Search & IDs.** The **Quick Search accepts EUID and VAT IDs** directly. For discovery at scale, use **Power Search**; for automation, use the **Data API**.
+7. **Google Sheets integration:** official Apps Script template fetches live indicators into a spreadsheet.
 
 ## Cost
 
@@ -36,16 +37,17 @@ Key features and content include:
 * [ ] Paid
 
 {% hint style="success" %}
-#### Accredited journalists can[ ask for a free Premium account.](https://www.northdata.com/_journalism)&#x20;
+**Accredited journalists can**[ **request a complimentary Premium account.**](https://www.northdata.com/_journalism)
 {% endhint %}
 
-| Tier                       | Monthly price\*                  | What you get                                                                             |
-| -------------------------- | -------------------------------- | ---------------------------------------------------------------------------------------- |
-| **Free (no login)**        | €0                               | Simple company & person look-up, first-degree network graph, last 3 years of key figures |
-| **Free (registered)**      | €0                               | Custom watchlists, e-mail alerts, CSV export (≤ 1 000 rows), basic event history         |
-| **Premium**                | from **€39 / mth** (single-user) | Full financials, multi-degree graphs, Power Search, PDF filings, unlimited export        |
-| **API / Quarterly Export** | quote                            | JSON / XML API (OpenAPI 3), bulk dumps for data warehouses                               |
+* **Free (no login):** Quick lookups and basic company/person pages
+* **Premium Service Account**: Starts at €49/month or €490/year (single user).
+* **API Access**: Starts at €500/month and includes all jurisdictions.
+* **Data Export**: Starts at €2,250/quarter per country.
+* **Investigative Accounts for Journalists**: Free premium access for journalists upon request and approval (email-based process).
+* No free tier is available; event tracking and data saving are premium-only features.
 
+\
 \* Prices from Help-Center billing FAQ; multi-seat & NGO concessions on request.
 
 | Free                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Paid                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -56,20 +58,26 @@ Key features and content include:
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
+North Data has a user-friendly search interface and auto-generated relationship diagrams. However, deeper insights (e.g., ownership webs, financial figures, watchlists) require paid access and some experience navigating corporate records.
+
 ## Requirements
 
-User registration is required for accessing certain features (see cost section).
+User registration is required to access certain features (see the cost section).
 
 ## Limitations
 
-* Interactive graph starts with first-degree relations (company ↔︎ persons/companies). You can click nodes to reveal second-degree links, but bulk export/API still returns first-degree only.
-* Our own tests showed that some financial data or indicators are limited under a free account, are inconsistently updated or unavailable.
-* The data is only limited to 24 countries, the full list of sources with update frequency can be found [here](https://www.northdata.com/_coverage#sources).
-* Network graph initially shows first-degree relations; you can click nodes to reveal deeper levels, but **CSV / API export is still limited to one hop**.
+* The interactive graph starts with first-degree relations (company ↔︎ persons/companies). You can click nodes to reveal second-degree links, but bulk export/API still returns first-degree only.
+* Our own tests showed that some financial data or indicators are limited under a free account, are inconsistently updated, or unavailable.
+* **Person location may be stale.** It’s taken from the trade register at the time of filing and isn’t maintained thereafter.
+* **Legal status is standardized.** Labels such as Active, Liquidation, and Terminated are North-Data standardizations and may differ from jurisdiction-specific terms.
+* **Financials appear only if published.** Availability varies by size and filing rules; some figures are estimates (flagged as “uncertain”) or not published.
+* **VAT search caveat.** VAT isn’t a universal key in every jurisdiction (e.g., constraints in Germany).
+* **Network depth.** Network graph initially shows first-degree relations; you can click nodes to reveal deeper levels, but **CSV / API export is still limited to one hop**. API/CSV can include **direct relations**; multi-hop graphs generally require iterative calls.
 
 ## Ethical Considerations
 
 * Individuals with common names or aliases can be misidentified without using additional information about the target, leading to false allegations.
+* North Data surfaces PII from official filings (e.g., addresses, dates of birth). Minimize collection, preserve only what’s necessary, and document your methodology. For open-source investigations standards on **accuracy**, **data minimization**, **preservation**, and **privacy**, see the _Berkeley Protocol on Digital Open Source Investigations_ (OHCHR/UC Berkeley).
 * Data contains sensitive information such as addresses or contact information.
 * It can reveal personal relationships that aren’t widely known. (For example, birthdays, passport information, addresses, etc., depending on the company-related documents retained by governmental bodies.)
 
@@ -78,6 +86,22 @@ User registration is required for accessing certain features (see cost section).
 [Northdata help center and FAQs (contains detailed usage guides)](https://help.northdata.com/en/center)
 
 [API Documentation](https://github.com/northdata/api/blob/master/doc/data-api-userguide/data-api-userguide.md)
+
+**For developers**
+
+* **Data API (OpenAPI):** [https://northdata.github.io/doc/api/](https://northdata.github.io/doc/api/)
+* **Power Search overview:** [https://help.northdata.com/en/center/power-search-overview](https://help.northdata.com/en/center/power-search-overview)
+* **Filters:**&#x20;
+  * Events: [https://help.northdata.com/en/center/event-filter ](https://help.northdata.com/en/center/event-filter)
+  * Performance indicators: [https://help.northdata.com/en/center/power-search-performance-indicator ](https://help.northdata.com/en/center/power-search-performance-indicator)
+  * Legal forms: [https://help.northdata.com/en/center/power-search-legal-forms](https://help.northdata.com/en/center/power-search-legal-forms)
+* **Data API & Exports (when quarterly exports still matter):** [https://help.northdata.com/en/center/data-api-and-export](https://help.northdata.com/en/center/data-api-and-export)
+* **Google Sheets tutorial (Apps Script):** [https://blog.northdata.com/company-data-on-your-google-sheets-spreadsheet](https://blog.northdata.com/company-data-on-your-google-sheets-spreadsheet)
+
+### **See also**
+
+* **OpenCorporates:** broader global registry aggregation and an open data posture: [https://bellingcat.gitbook.io/toolkit/more/all-tools/opencorporates](https://bellingcat.gitbook.io/toolkit/more/all-tools/opencorporates)
+* **Companies House (UK):** freshest UK filings and the ROE (overseas entities): [https://bellingcat.gitbook.io/toolkit/more/all-tools/companies-house](https://bellingcat.gitbook.io/toolkit/more/all-tools/companies-house)
 
 ## Tool provider
 
