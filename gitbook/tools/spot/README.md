@@ -54,11 +54,11 @@ e.g. Enter "_**Find a pharmacy and a traffic light and a bus stop and a bridge w
 
 {% columns %}
 {% column %}
-
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-
+So the user can write a natural language query like "Find a church within 100m of a building with 10 stories or more and water in the City of London" and Spot returns a map of the City of London, with all the churches which have tower blocks and water within 100m. See Spot's [Output Result Map](./#spots-output-result-map) below to learn how to use Spot to check these locations using StreetView photography.
 {% endcolumn %}
 {% endcolumns %}
 
@@ -159,33 +159,13 @@ Use the search parameters box to adjust existing search features and their relat
 
 ### Spot’s Output Result Map&#x20;
 
-Spot does **not** directly identify specific locations which meet the input search criteria (unlike other tools, e.g. Bellingcat OpenStreetMap Search). Instead, it identifies all those features which belong to any and all locations which meet the search criteria, and draws them together on the same map. Therefore if there is more than one candidate location which meets the search criteria, it may not be possible to distinguish one from another, particularly if they are geographically close.
-
 {% columns %}
 {% column width="50%" %}
-**SPOT'S OUTPUT MAP**
 
-Spot delivers a map marked with all the features which meet the search criteria, but not the actual associated locations. \[Where there is only one candidate location, this is not an issue]. The single map without associations between features and candidate locations makes comparison with StreetView photography very difficult in situations with multiple candidate locations.
 
-<figure><img src=".gitbook/assets/venn2.JPG" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
 
-{% column width="50%" %}
-**ACTUAL GEOGRAPHY**
 
-If the features which meet the search criteria are grouped into candidate locations, this makes examination of multiple candidate locations (and cross-checking with other imagery) possible. Bellingcat OSM search delivers this type of result, with a separate map for each candidate location. Spot does not output specific locations,or map them to located image features.
-
-<figure><img src=".gitbook/assets/venn1.JPG" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-For examples where there are multiple solution locations meeting the search criteria, Spot's output map may not allow
-
-### Example Use Case
-
-{% columns %}
-{% column width="50%" %}
-Take this Instagram post “London Summer Fragments Day #1” as source material to be geolocated.
+Using the City of London example mentioned above, “Find a church within 100m of a building with 10 stories or more and water in the City of London.”...
 {% endcolumn %}
 
 {% column width="50%" %}
@@ -193,17 +173,41 @@ Take this Instagram post “London Summer Fragments Day #1” as source material
 {% endcolumn %}
 {% endcolumns %}
 
-Features visible in the source image include tall buildings that are 10 stories or more high, and a water body with fountains, side by side. The location, within the City of London, is given in the image title.  One can also roughly estimate the distance as the features in the image are shown next to items providing scale, e.g. fountain, skyscraper, tree.
-
-A corresponding query for Spot could read: “Find a church within 100m of a building with 10 stories or more and water in the City of London.”  The interface displays all possible solutions (there are 3 churches which fit the search criteria), which looks like this:
+...the Spot output map displays all the features (churches, water, 10 storey buildings) which fit the search criteria, see below:
 
 <figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption><p><strong>THE NUMBER AND EXTENT OF THOSE LOCATIONS MEETING THE 3 SEARCH CRITERIA OF CHURCH, 10+ STOREY BUILDING AND WATER WITHIN THE CITY OF LONDON (BOUNDED IN TURQUOISE) ARE NOT OBVIOUS FROM SPOT OUTPUT. WHEN SPOT RETURNS MORE THAN ONE CANDIDATE LOCATION, THIS MAKES THE USE OF STREETVIEW IMAGERY FOR CONFIRMATION/ELIMINATION OF POTENTIAL GEOLOCATIONS  A SIGNIFICANT WORKLOAD</strong></p></figcaption></figure>
 
-To explore a specific result, use the slider to zoom in on the result of your choice. Clicking on a specific feature from one of the results shows its details, including a link to its OSM ID. This link opens a new tab to its location on the OpenStreetMap website, where you can find this entity and explore further. In this case, clicking on the church (highlighted in red) indicates that it's called "St-Giles-without-Cripplegate", its “denomination” is “Anglican” and was “rebuilt” in “1906.” Click on the OSM ID link for more details.
+Spot does **not** directly identify specific locations which meet the input search criteria (unlike other tools, e.g. Bellingcat OpenStreetMap Search). Instead, it identifies all those features which belong to any and all locations which meet the search criteria, and draws them together on the same map. Therefore if there is more than one candidate location which meets the search criteria, it may not be possible to distinguish one from another, particularly if they are geographically close.
+
+{% columns %}
+{% column width="50%" %}
+**SPOT'S OUTPUT MAP**
+
+Spot delivers a map marked with all the features which meet the search criteria, but not the actual associated locations. \[Where there is only one candidate location, this is not an issue]. In queries with multiple solution locations, the single map without associations between features and candidate locations makes comparison with StreetView photography more difficult.
+
+<figure><img src=".gitbook/assets/venn2.JPG" alt=""><figcaption></figcaption></figure>
+
+**EXAMPLE OUTPUT WHERE FEATURES ARE MARKED ON THE MAP, BUT NOT GROUPED INTO SOLUTION LOCATIONS**
+{% endcolumn %}
+
+{% column width="50%" %}
+**ACTUAL GEOGRAPHY**
+
+If the features which meet the search criteria are grouped into candidate locations, this makes examination of multiple candidate locations (and cross-checking with other imagery) possible. Bellingcat OSM Search tool delivers this type of result, with a separate map for each candidate location. Spot does not output specific locations,or map them to located image features.
+
+<figure><img src=".gitbook/assets/venn1.JPG" alt=""><figcaption></figcaption></figure>
+
+**EXAMPLE OUTPUT WHERE FEATURES ARE GROUPED INTO SOLUTION LOCATIONS**
+{% endcolumn %}
+{% endcolumns %}
+
+For examples where there are multiple solution locations meeting the search criteria, Spot's output map may not allow the user  to identify how many different solution locations there are, or their exact boundaries.  This could lead to extended time taken to check the options against StreetView maps and other forms of confirmation.
+
+Clicking on a specific feature from one of the results shows its details, including a link to its OSM ID. This link opens a new tab to its location on the OpenStreetMap website, where you can find this entity and explore further. In this case, clicking on the church (highlighted in red) indicates that it's called "St-Giles-without-Cripplegate", its “denomination” is “Anglican” and was “rebuilt” in “1906.” Click on the OSM ID link for more details.
 
 <figure><img src=".gitbook/assets/StGilesCripplegatecrop (1).jpg" alt=""><figcaption><p><strong>GOOGLE MAPS SHOWING THE CANDIDATE LOCATION WITH A CHURCH, AGAINST A SATELLITE BACKGROUND</strong> </p></figcaption></figure>
 
-The exact location where the entity is situated can also be opened in the integrated mapping services like Google Maps, Bing, and Yandex. This ensures location verification through multiple mapping services in one place, thus saving time and allowing for greater flexibility. Here, opening the location for church in Google Maps reveals it's located at coordinates [51.5187148,-0.0963922](https://www.google.com/maps/place/@51.5187148,-0.0963922,543m/data=!3m1!1e3!4m6!1m5!3m4!2zNTHCsDMxJzA3LjQiTiAwwrAwNSczNy43Ilc!8m2!3d51.5187222!4d-0.0938056?entry=ttu\&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D).
+A very useful and original time-saving feature in Spot, is the option to view any feature listed on the map legend using a variety of mapping services To explore a specific feature, use the slider to zoom in on the result of your choice. The exact location where the entity is situated can also be opened in the integrated mapping services like Google Maps, Bing, and Yandex. This ensures location verification through multiple mapping services in one place, thus saving time and allowing for greater flexibility. Here, opening the location for church in Google Maps reveals it's located at coordinates [51.5187148,-0.0963922](https://www.google.com/maps/place/@51.5187148,-0.0963922,543m/data=!3m1!1e3!4m6!1m5!3m4!2zNTHCsDMxJzA3LjQiTiAwwrAwNSczNy43Ilc!8m2!3d51.5187222!4d-0.0938056?entry=ttu\&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D).
 
 Use the integrated Google Street View for location verification. Clicking on any blob on the map allows to view the street-level photography of the church's location. On Spot, select one of the points highlighting water from this area, and then open the Google Street view. Exploring the location through street view confirms that this location matches the one in the photo from Instagram above as shown here:
 
