@@ -486,16 +486,6 @@ The search results section lists advertisers based on the selected filters. Each
 * **Evaluating Impact:** Tracking changes in advertising activity over time allows researchers to correlate spikes with significant events. This can reveal how disinformation campaigns are timed and adjusted to maximize impact, potentially providing a strategic understanding of these operations.
 {% endhint %}
 
-***
-
-### API
-
-Telemetr.io offers a REST API (OpenAPI v3). Recent additions include the fields **`ads_index_grade`** (ad saturation) and **`err24_percent`** (24-hour error ratio).
-
-Tariffs: **Free, S, M, L, XL** – €0 / 25 / 65 / 199 / 499 per month, covering 5 to 10 000 verified channels and 1 000 to 2 000 000 calls. API keys are issued by @telemetrio\_api\_bot.
-
-The API follows the OpenAPI v3 specification for compatibility with various programming environments. It currently supports operations such as: searching for channels by name/keywords, retrieving basic information about a channel (ID, name, description, etc.), accessing channel statistics (subscriber counts, growth, engagement metrics), viewing recent channel messages, tracking changes in subscribers, and getting the history of message reach (views over time for messages). It also provides reference data like lists of supported languages, countries, and categories for channels (to interpret codes or filter data).
-
 ## Cost
 
 * [ ] Free
@@ -510,14 +500,20 @@ The API follows the OpenAPI v3 specification for compatibility with various prog
 - **API access** is available to export a larger set of channel metrics, but this is priced separately from the main subscriptions and has its own tiers and limits.
 {% endhint %}
 
-| Plan           | Monthly price\* | Key allowances                                      |
-| -------------- | --------------- | --------------------------------------------------- |
-| **Basic**      | free            | analyse 5 channels and 5 post searches per day      |
-| **Pro**        | €69             | 40 channels, ads search, limited event tracking     |
-| **Advanced**   | €149            | unlimited channels, full exports, multi-seat access |
-| **Enterprise** | from €265       | custom limits, SLA support, white-label API         |
+| Plan                  | Monthly price\* | Key allowances                                                                                                                                                                                                                                                                                                                                       |
+| --------------------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Free**              | free            | Access **TOP 100** channels in the catalog, overview analytics, channel verification, TG Bots Cleaner, and channel collections. **Post Search:** 5 queries/month (7 sources, 7‑day window, up to 4 posts). **Event Tracking:** 1 tracking with up to 100 mentions and Telegram notifications. **Advertising Posts:** 3 posts, up to 30 days history. |
+| **Pro**               | €25             | Everything in Free plus full catalog (currently labeled **9.7M+**), unlimited channel analysis, Cheater Tag & Ads Index, Advertising Posts and Channel Networks Rating.                                                                                                                                                                              |
+| **Advanced**          | €55             | Adds Post Search (**50 queries/day**, 100 sources, full history, **1,000 posts**/query), Event Tracking (**8 trackings**, **10,000 mentions**), Advertisers rating, Telegram Ads analytics, and **Excel export** (up to **1,000 channels/month**).                                                                                                   |
+| **Team** / **Custom** | from €265       | Team access, custom limits and **export any data**; contact @telemetrio\_contact.                                                                                                                                                                                                                                                                    |
 
-\*Prices published April 2025. Payments are made in the web dashboard with card, PayPal or cryptocurrency after signing in with a **Telegram or Google account**.
+\*Subscriptions renew automatically via Stripe; Always confirm [current pricing on the site](https://telemetr.io/en/pricing)
+
+### API
+
+Telemetr.io provides a REST API (OpenAPI v3).&#x20;
+
+**Tariffs:** Free, S, M, L, XL — **$0 / $25 / $65 / $199 / $499** per month. Free plan includes **1,000 requests/month**, **5 verified channels**, and **7 days** of history; higher tiers raise limits up to **10,000 channels** and **2 million** requests with longer history. API keys are issued via **@telemetrio\_api\_bot**. Recent doc notes: free‑plan access is limited to verified channels (**2025‑01‑20**)
 
 ## Level of difficulty
 
