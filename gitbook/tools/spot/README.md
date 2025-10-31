@@ -229,11 +229,9 @@ If the features which meet the search criteria are grouped into candidate locati
 
 For examples where there are multiple solution locations meeting the search criteria, Spot's output map may not allow the user  to identify how many different solution locations there are, or their exact boundaries.  This could lead to extended time taken to check the options against StreetView maps and other forms of confirmation.
 
-A very useful and original time-saving feature in Spot, is the option to view any feature listed on the map legend using a variety of mapping services To explore a specific feature, use the slider to zoom in on the result of your choice. The exact location where the entity is situated can also be opened in the integrated mapping services like Google Maps, Bing, and Yandex. This ensures location verification through multiple mapping services in one place, thus saving time and allowing for greater flexibility. Here, opening the location for church in Google Maps reveals it's located at coordinates [51.5187148,-0.0963922](https://www.google.com/maps/place/@51.5187148,-0.0963922,543m/data=!3m1!1e3!4m6!1m5!3m4!2zNTHCsDMxJzA3LjQiTiAwwrAwNSczNy43Ilc!8m2!3d51.5187222!4d-0.0938056?entry=ttu\&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D).
+A very useful and original time-saving feature in Spot, is the option to view any feature listed on the map legend using a variety of mapping services: Google Maps, Bing, and Yandex. Most importantly, direct access to Google StreeView is provided to support location verification through multiple mapping services. Google StreetView and Spot source imagery can be compared side by side on screen
 
-Use the integrated Google Street View for location verification. Clicking on any blob on the map allows to view the street-level photography of the church's location. On Spot, select one of the points highlighting water from this area, and then open the Google Street view. Exploring the location through street view confirms that this location matches the one in the photo from Instagram above as shown here:
 
-Users can also switch between map layers that include “[vector map](#user-content-fn-6)[^6]”, “[hybrid view](#user-content-fn-7)[^7]” and “[OSM Style Map](#user-content-fn-8)[^8]”. The screenshot below shows a location from search results in the hybrid view on the left, and the Google Street View tab showing street-level photography over satellite imagery of the selected result on the right.
 
 {% columns %}
 {% column %}
@@ -395,9 +393,3 @@ The tool uses “cookieless tracking”. Although the “tracking” feature can
 [^4]: AND is a [logical operator](https://www.w3schools.com/programming/prog_operators_logical.php) here, like OR.
 
 [^5]: Street view photographs are taken at ground level (as opposed to satellite view imagery, taken from above), giving a view of what a human would see at a location by looking around.
-
-[^6]: “Vector maps are two-dimensional maps that use geometrical shapes such as points, lines, and polygons to represent geographical features,” according to LocationIQ’s [website](https://blog.locationiq.com/vector-or-raster-maps-which-one-is-best-for-you/).&#x20;
-
-[^7]: A Hybrid Map displays the map interface combining both satellite and vector maps.
-
-[^8]: An OSM-style map, as the name suggests, displays the interface in OpenStreetMap view format.
