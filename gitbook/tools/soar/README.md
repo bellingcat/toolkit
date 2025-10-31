@@ -384,17 +384,17 @@ Overall: For a casual user exploring maps, the difficulty is moderate <mark styl
 
 ## Limitations
 
-<mark style="color:$danger;">**Do we move some of the content above from the Level of Difficulty section?**</mark>**&#x20;**<mark style="color:$info;">**Yes, I have moved some**</mark>
+* Some maps are georeferenced, some are not (usually old ones)
+* Some Satellite images that are high quality - can take long to load when zooming in and out (i.e. [https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69](https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69))&#x20;
+* Confusing user interface
+*   Stoaries are very difficult to edit. Going to the "page" of the map you want to edit does not take you to that location. Instead, you have to re-input the location or coordinates in the search bar. &#x20;
 
-* <mark style="color:$info;">Some maps are georeferenced, some are not (usually old ones)</mark>
-* <mark style="color:$info;">Some Satellite images that are high quality - can take long to load when zooming in and out (i.e.</mark> [<mark style="color:$info;">https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69</mark>](https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69)<mark style="color:$info;">)</mark>&#x20;
-* <mark style="color:$info;">Confusing user interface</mark>
-*   <mark style="color:$info;">Stoaries are very difficult to edit. Going to the "page" of the map you want to edit does not take you to that location. Instead, you have to re-input the location or coordinates in the search bar.</mark> &#x20;
+    Use a browser that does not go into "efficiency mode," as this can freeze the Soar and the Stoary interface consistently.&#x20;
+* Intermediate to Advanced Use: The difficulty level increases for more advanced functionalities. Some of them are:
 
-    <mark style="color:$info;">Use a browser that does not go into "efficiency mode," as this can freeze the Soar and the Stoary interface consistently.</mark>&#x20;
-* <mark style="color:$info;">Intermediate to Advanced Use: The difficulty level increases for more advanced functionalities. Some of them are:</mark>
-
-&#x20;  <mark style="color:$info;">- Uploading and Georeferencing: While the process is streamlined,</mark> [<mark style="color:$info;">users uploading their own maps or imagery need to ensure proper georeferencing and rectification. The platform has strict guidelines for alignment, which may require some prior knowledge or learning on the user's part,</mark>](https://about.soar.earth/help) <mark style="color:$info;">especially if their original data lacks precise georeferencing.</mark> [<mark style="color:$info;">The QGIS plugin helps with this process,</mark> ](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)<mark style="color:$info;">however this may be limited to for GIS-savvy users and may mean a higher barrier for those without GIS software experience.</mark>&#x20;
+{% hint style="danger" %}
+Uploading and Georeferencing: While the process is streamlined, [users uploading their own maps or imagery need to ensure proper georeferencing and rectification. The platform has strict guidelines for alignment, which may require some prior knowledge or learning on the user's part,](https://about.soar.earth/help) especially if their original data lacks precise georeferencing. [The QGIS plugin helps with this process, ](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)however this may be limited to for GIS-savvy users and may mean a higher barrier for those without GIS software experience.&#x20;
+{% endhint %}
 
 
 
