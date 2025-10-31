@@ -44,7 +44,7 @@ A sign up is required to use Hiya's Chrome extension.
 
 ## Limitations
 
-1. As deepfake technology advances, it is becoming increasingly difficult for tools to detect fake media. Hiya may not always detect deepfake audio or video. False positives are likely to occur.
+1. As deepfake technology advances, it is becoming increasingly difficult for tools to detect fake media. Hiya may not always detect deepfake audio or video. False positives or negatives are likely to occur.
 2. The tool just analyses small parts by playing the media over the Chrome extension. Analyzing larger audio and video may become more time-consuming. Switching to the InVid plugin, which allows larger file uploads, might help. Even with the InVid version, it is recommended to test smaller portions of the audio sample to achieve effective testing and precise results. “Hiya.com offers a voice cloning detection tool to pinpoint AI-generated text-to-speech in audio files. Suspect a track has been tampered with? Test smaller sections for a more precise analysis. Please note, this tool cannot identify human voice mimicry or post-processing alterations,” reads a cautionary note above the InVid version integrating Hiya.
 3. The tool only provides the probability that the sample is fake or real, without any contextual information. It is crucial to find other ways to verify the media, such as reaching out to experts, finding contextual information in news reports, or using other deepfake detection tools to double-check Hiya's results.
 
