@@ -1,6 +1,6 @@
 ---
-description: Open-source network analysis and visualization software
 updated: '2025-08-31'
+description: Open-source network analysis and visualization software
 ---
 
 # Gephi
@@ -8,7 +8,7 @@ updated: '2025-08-31'
 ## URL
 
 [https://gephi.org](https://gephi.org)\
-(0.10.1 as of August 2025)
+(0.10.1 as of October 2025)
 
 ## Description
 
@@ -22,30 +22,27 @@ Gephi has the ability to create [detailed](https://www.youtube.com/watch?v=GXtbL
 
 Gephi includes built-in support for computing **key metrics** that help identify important nodes in a network. Three core metrics commonly used are **degree centrality**, **betweenness centrality**, and **closeness centrality:**
 
-* [**Degree Centrality**](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/) measures how many direct connections (edges) a node has. A node with a high degree centrality has **many links to others**, making it well-connected. It’s essentially a count of immediate neighbors.&#x20;
-  * _What it indicates:_ Nodes with higher degree centrality can be influencers or hubs that directly reach many others.&#x20;
-  * _Example:_ In a Twitter network, a user with connections to many others (through follows or mentions) would have high degree centrality.&#x20;
-* [**Betweenness Centrality**](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/) measures how often a node lies on the **shortest paths between other nodes**​. In other words, a node with high betweenness centrality is a critical **broker or bridge** in the network.&#x20;
-  * _What it indicates:_ Such nodes connect different clusters or sections of the graph; they may not have the most connections, but they control information or resource flow by being on the paths that link others. A higher betweenness means a greater brokerage role. They act as gatekeepers or intermediaries.&#x20;
-  * _Example:_ In a criminal network, a person who links two otherwise separate groups (even with only a few connections themselves) likely has high betweenness – remove that person and the network might fragment.&#x20;
-*   [**Closeness Centrality**](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/)**:** Measures how “close” a node is to all others in the network, typically defined as the **reciprocal of the total distance** from that node to all other nodes. A node with high closeness centrality can reach all others _quickly_ (in few hops on average).
-
-    * _What it indicates:_ This can identify nodes that are centrally positioned overall (not in a geographical sense, but in network topology). Such nodes could quickly disseminate information to the entire network.&#x20;
-    * _Example:_ In a social network, someone at the “center” of the friend-of-friend graph (even if they aren’t connected to everyone directly) will have a high closeness score, meaning they are on average a short distance from anyone in the network.
-
-
+* [**Degree Centrality**](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/) measures how many direct connections (edges) a node has. A node with a high degree centrality has **many links to others**, making it well-connected. It’s essentially a count of immediate neighbors.
+  * _What it indicates:_ Nodes with higher degree centrality can be influencers or hubs that directly reach many others.
+  * _Example:_ In a Twitter network, a user with connections to many others (through follows or mentions) would have high degree centrality.
+* [**Betweenness Centrality**](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/) measures how often a node lies on the **shortest paths between other nodes**​. In other words, a node with high betweenness centrality is a critical **broker or bridge** in the network.
+  * _What it indicates:_ Such nodes connect different clusters or sections of the graph; they may not have the most connections, but they control information or resource flow by being on the paths that link others. A higher betweenness means a greater brokerage role. They act as gatekeepers or intermediaries.
+  * _Example:_ In a criminal network, a person who links two otherwise separate groups (even with only a few connections themselves) likely has high betweenness – remove that person and the network might fragment.
+* [**Closeness Centrality**](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/)**:** Measures how “close” a node is to all others in the network, typically defined as the **reciprocal of the total distance** from that node to all other nodes. A node with high closeness centrality can reach all others _quickly_ (in few hops on average).
+  * _What it indicates:_ This can identify nodes that are centrally positioned overall (not in a geographical sense, but in network topology). Such nodes could quickly disseminate information to the entire network.
+  * _Example:_ In a social network, someone at the “center” of the friend-of-friend graph (even if they aren’t connected to everyone directly) will have a high closeness score, meaning they are on average a short distance from anyone in the network.
 
 <details>
 
 <summary>Further important concepts and metrics available in Gephi</summary>
 
-### **Core Concepts**
+#### **Core Concepts**
 
 * **Weighted vs. Unweighted Metrics:** Many of these measures (degree, clustering coefficient, path length, centralities) can be computed in both unweighted (treating all edges equally) and weighted modes (if your edges have an associated weight).
 * **Directed vs. Undirected Graphs:** For directed graphs (e.g., Twitter follow networks), some metrics like in-degree/out-degree, PageRank, and HITS become crucial. In undirected graphs (e.g., co-appearance networks), you only have a single “degree” measure.
 * **Plugins & Experimental Metrics:** Gephi’s plugin repository may offer additional statistical measures or variants (for example, advanced community detection algorithms, [Hierarchical Edge Bundling](https://gephi.wordpress.com/tag/edge-bundling/), [timeline-based metrics](https://gephi.org/plugins/#/plugin/eventgraphlayout), or [new centrality formulas](https://gephi.org/plugins/#/plugin/bridge-gephi-plugin)). Be sure to check the Gephi Plugin Center if you need specialized metrics.
 
-### Graph-Level Metrics
+#### Graph-Level Metrics
 
 1. **Average Degree**
    * **What it is:** The mean number of connections (edges) each node has.
@@ -71,7 +68,7 @@ Gephi includes built-in support for computing **key metrics** that help identify
 
 ***
 
-### Node-Level Metrics
+#### Node-Level Metrics
 
 8. **Degree** / **Weighted Degree**
    * **What it is:** The count of direct connections each node has. In weighted graphs, edges can have a “weight,” and Weighted Degree sums those edge weights.
@@ -100,8 +97,6 @@ Gephi includes built-in support for computing **key metrics** that help identify
 
 </details>
 
-
-
 After running the statistical analysis functions, results can be used to visually style the graph (e.g., sizing nodes by centrality values). In sum, Gephi visualizes networks and quantifies network structure with built-in measures of centrality (degree, betweenness, closeness, etc.), which can be helpful for investigative analysis.
 
 ### Gephi in Investigative Journalism
@@ -118,8 +113,6 @@ Social network analysis has been used to investigate [political ](https://www.ca
 * [ ] Partially Free
 * [ ] Paid
 
-
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
@@ -128,23 +121,50 @@ Social network analysis has been used to investigate [political ](https://www.ca
 
 Due to its extensive features, Gephi has a moderate learning curve. Still, beginners can start with basic tutorials and sample datasets to understand the interface and critical functions like layouts, filters, and metrics. A good strategy is to focus on one feature at a time: experiment with layouts to arrange nodes, use filters to simplify complex networks, and apply basic metrics like centrality to interpret relationships. As they become comfortable, users can explore plugins and advanced features like[ time-based visualizations](https://github.com/gephi/gephi/wiki/Import-Dynamic-Data) for more tailored analyses.
 
-Gephi has an **active user community** that can provide help and share tips. The primary hub in recent years has been the [**Gephi Facebook Group**](https://www.facebook.com/groups/gephi/), which serves as the main place to ask questions and get support​. This Facebook group effectively replaced the older official forum. (The legacy [**Gephi Forum**](https://forum-gephi.org/) exists, but as of 2018–2019 it saw declining activity and new questions are directed to the Facebook ​forum.) Additionally, Gephi’s developers and power users monitor the [**GitHub issue tracker**](https://github.com/gephi/gephi/issues)**.**&#x20;
+Gephi has an **active user community** that can provide help and share tips. The primary hub in recent years has been the [**Gephi Facebook Group**](https://www.facebook.com/groups/gephi/), which serves as the main place to ask questions and get support​. This Facebook group effectively replaced the older official forum. (The legacy [**Gephi Forum**](https://forum-gephi.org/) exists, but as of 2018–2019 it saw declining activity and new questions are directed to the Facebook ​forum.) Additionally, Gephi’s developers and power users monitor the [**GitHub issue tracker**](https://github.com/gephi/gephi/issues)**.**
 
 ## Requirements
 
-No account is needed, but Java installation is required.
+* **Platforms:** Windows 10/11, macOS (Intel & Apple Silicon), Linux (desktop). [Supported systems](https://docs.gephi.org/desktop/User_Manual/Supported_Systems/)
+* **Java runtime:** **Bundled since 0.9.3**; you don’t install Java separately. [Docs → Troubleshooting](https://docs.gephi.org/desktop/User_Manual/Troubleshooting?utm_source=chatgpt.com)
+* **Install methods:**\
+  – Windows/macOS installers from the official site. [Gephi Desktop](https://gephi.org/desktop/?utm_source=chatgpt.com)\
+  – Linux: `snap` (**official Snap**) or **Flathub** package. [Snapcraft](https://snapcraft.io/gephi), [Flathub](https://flathub.org/en/apps/org.gephi.Gephi)
+* **Auth/tokens:** None (local desktop app).
+* **Supported modules/features:**\
+  – **Importers:** CSV (nodes/edges), GEXF, GraphML, GDF, Pajek NET, GraphViz DOT, UCINET DL, Netdraw VNA, spreadsheets. FAQ: Supported formats, [CSV import doc](https://docs.gephi.org/desktop/User_Manual/Import/CSV_Format/?utm_source=chatgpt.com), [GraphML import doc](https://docs.gephi.org/desktop/User_Manual/Import/GraphML_Format/?utm_source=chatgpt.com)\
+  – **Layouts:** ForceAtlas2 (Gephi’s default), Fruchterman‑Reingold, Yifan Hu. [Quickstart (ForceAtlas2)](https://gephi.org/quickstart/?utm_source=chatgpt.com), ForceAtlas2 paper\
+  – **Metrics/Statistics:** Degree, betweenness/closeness (via Network Diameter), modularity/community detection, average path length, clustering coefficient. FAQ: Betweenness via Network Diameter, [Toolkit Javadoc (Modularity)](https://javadoc.io/doc/org.gephi/gephi-toolkit/0.10.0/org/gephi/statistics/plugin/Modularity.html?utm_source=chatgpt.com)\
+  – **Filtering/Queries:** Attribute & topology filters; interactive selection. [Quickstart](https://gephi.org/quickstart/?utm_source=chatgpt.com)\
+  – **Export:** PNG/SVG/PDF images; GEXF/Graph files; **multi‑export** since 0.10.0. [0.10.0 highlights](https://newreleases.io/project/github/gephi/gephi/release/v0.10.0?utm_source=chatgpt.com)\
+  – **Plugins:** Install from **Tools → Plugins** (Plugin Center); compatibility indicated by Gephi version. [Plugin Center](https://gephi.org/desktop/plugins/?utm_source=chatgpt.com), [Plugin quick start](https://docs.gephi.org/Plugins/Plugin_Quick_Start/?utm_source=chatgpt.com)\
+  – **Programmatic use:** **Gephi Toolkit** 0.10.0 (released **2023‑03‑08**). Toolkit releases
+
+• **Optional dependencies:**\
+– A GPU/driver with stable **OpenGL** support improves interactivity; outdated/virtualized graphics can cause rendering issues.&#x20;
 
 ## Limitations
 
-Gephi can be run most modern computers, but computing requirements [increase with graph size](https://gephi.org/users/requirements/). It can be less intuitive for beginners, and certain advanced functions may require plugins or scripting knowledge.
+* **Scale & performance:** Interactivity can degrade on very large graphs; careful styling/filters are often needed. (Example: a user report with \~384k nodes/9.4M edges where UI becomes near‑unresponsive.) GitHub issue
+* **Updates:** **Only patch versions auto‑update**; major updates require manual download. [Gephi 0.10.0 announcement](https://gephi.wordpress.com/2023/01/09/gephi-0-10-released/?utm_source=chatgpt.com)
+* **Plugins:** Not all community plugins are updated for **0.10.x**; check the Plugin Center’s compatibility tags before installing. [Plugin Center](https://gephi.org/desktop/plugins/?utm_source=chatgpt.com)
+* **No built‑in data collection:** You must build your network (APIs, exports, scraping) before importing into Gephi. [Quickstart](https://gephi.org/quickstart/?utm_source=chatgpt.com)
+* **Gephi Lite differences:** Gephi Lite (web) is a separate application and currently lacks CSV import (GraphML/GEXF only); it is useful for quick viewing rather than full desktop analysis. [Gephi Lite issue with CSV](https://github.com/gephi/gephi-lite/issues/179)
+* **Legal/ToS:** Importing personal-data graphs may trigger data-protection and platform-ToS obligations; ensure lawful sources/processing.
 
 ## Ethical Considerations
 
-Using Gephi to visualize networks from **sensitive or personal data** requires ethical handling, particularly regarding privacy and consent, and careful interpretation to avoid misrepresenting the connections shown.
+Use network visualization lawfully and proportionately, minimizing collection and retention of personal data and avoiding harm (e.g., doxxing, exposing sensitive relationships). For methodology and evidentiary handling, see the **Berkeley Protocol on Digital Open Source Investigations** (OHCHR/UC Berkeley) for standards on identification, collection, verification, and preservation of digital open‑source information. [OHCHR Berkeley Protocol hub](https://www.ohchr.org/en/publications/policy-and-methodological-publications/berkeley-protocol-digital-open-source?utm_source=chatgpt.com)
 
-**Data integrity is crucial** for users of Gephi, as the accuracy and reliability of network visualizations depend directly on the quality of input data. For investigative journalism, any insights or patterns revealed through Gephi's analysis are only as trustworthy as the data provided. Poor data quality — such as incomplete records, unverified sources, or outdated information — can lead to misleading visualizations that misrepresent relationships or inflate the importance of specific network nodes. To ensure meaningful results, Gephi users must verify data sources, validate accuracy, and cross-check information before visualizing it. Maintaining high data integrity not only strengthens the credibility of the analysis but also allows for responsible storytelling, helping to prevent the spread of misinformation and ensuring that network insights are grounded in factual, well-vetted data.
+**Data integrity is crucial** for Gephi users, as the accuracy and reliability of network visualizations depend directly on the quality of the input data. For investigative journalism, any insights or patterns revealed through Gephi's analysis are only as trustworthy as the data provided. Poor data quality — such as incomplete records, unverified sources, or outdated information — can lead to misleading visualizations that misrepresent relationships or inflate the importance of specific network nodes. To ensure meaningful results, Gephi users must verify data sources, validate accuracy, and cross-check information before visualizing it. Maintaining high data integrity not only strengthens the credibility of the analysis but also allows for responsible storytelling, helping to prevent the spread of misinformation and ensuring that network insights are grounded in factual, well-vetted data.
 
 ## Guides
+
+* **Quickstart (official):** basic import → layout → style → export workflow. [gephi.org/quickstart](https://gephi.org/quickstart/?utm_source=chatgpt.com)
+* **Importing CSV:** node/edge table expectations and wizard. [docs.gephi.org/…/Import/CSV\_Format](https://docs.gephi.org/desktop/User_Manual/Import/CSV_Format/?utm_source=chatgpt.com)
+* **Importing GraphML:** format support and caveats. [docs.gephi.org/…/Import/GraphML\_Format](https://docs.gephi.org/desktop/User_Manual/Import/GraphML_Format/?utm_source=chatgpt.com)
+* **0.10.0 release notes (official blog):** Apple Silicon support, better search, multi‑export; patch‑only auto‑updates. [Gephi blog, 2023‑01‑09](https://gephi.wordpress.com/2023/01/09/gephi-0-10-released/?utm_source=chatgpt.com)
+* **ForceAtlas2 paper:** canonical description of the default layout. PLOS ONE (2014)
 
 #### Official Wiki
 
@@ -158,7 +178,7 @@ Levallois, C. (2017, January 20). _Simple Gephi Project from A to Z_. [https://s
 
 Levallois, C. (2024, November 27). _Gephi Tutorials_. [https://seinecle.github.io/gephi-tutorials/](https://seinecle.github.io/gephi-tutorials/)
 
-Grandjean, M. (2024). _Gephi_. Retrieved November 30, 2024, from [https://www.martingrandjean.ch/gephi/](https://www.martingrandjean.ch/gephi/) \
+Grandjean, M. (2024). _Gephi_. Retrieved November 30, 2024, from [https://www.martingrandjean.ch/gephi/](https://www.martingrandjean.ch/gephi/)\
 (Tutorials incl 30 Gephi examples)
 
 #### Videos
@@ -175,26 +195,28 @@ Cherven, K. (2015). _Mastering Gephi Network Visualization_. Packt Pub Ltd.
 
 _Gephi Cookbook | Cloud & Networking | Print_. (n.d.). Packt. Retrieved November 10, 2024, from [https://www.packtpub.com/en-us/product/gephi-cookbook-9781783987405?type=print](https://www.packtpub.com/en-us/product/gephi-cookbook-9781783987405?type=print)
 
-Barabási, A.-L. (2016). _Network Science_. [http://networksciencebook.com/](http://networksciencebook.com/) \
+Barabási, A.-L. (2016). _Network Science_. [http://networksciencebook.com/](http://networksciencebook.com/)\
 (this is EXCELLENT!)
 
-#### Open Datasets&#x20;
+#### Open Datasets
 
 _Datasets_. GitHub. Retrieved November 30, 2024, from [https://github.com/gephi/gephi/wiki/Datasets](https://github.com/gephi/gephi/wiki/Datasets)
 
-_ASNR - Animal Network Data_. Retrieved November 30, 2024, from [https://bansallab.github.io/asnr/data.html](https://bansallab.github.io/asnr/data.html) \
+_ASNR - Animal Network Data_. Retrieved November 30, 2024, from [https://bansallab.github.io/asnr/data.html](https://bansallab.github.io/asnr/data.html)\
 (ASNR aims to assemble and provide a comprehensive index of real-world animal interaction data sets across all taxa. Only high-value peer-reviewed data.)
 
 ### Comparison with similar software
 
-* [**NodeXL**](https://nodexl.com/): _NodeXL_ is an add-in for Microsoft Excel that provides network analysis and visualization within a spreadsheet interface. It is **Windows-only** (as it hooks into Excel) and comes in a free “NodeXL Basic” version and a paid Pro version.[ It allows users to import edge lists into Excel and generates graphs from those tables](https://en.wikipedia.org/wiki/NodeXL). This approach makes it simple to edit data (you can leverage Excel formulas, etc. for node attributes). Brant Houston explained that NodeXL is **integrated with Excel, making it very simple for beginners** who are comfortable with spreadsheets​. It’s suitable for **quick, small to medium-sized network analysis**; however, it may struggle with large graphs. Also, advanced visualization customizations and real-time manipulation are more limited than those of Gephi. NodeXL offers a more gentle learning curve and even has built-in data importers for social media (in the Pro version) but lacks the visual polish and plugin extensibility of Gephi. (One might use NodeXL to **gather or preprocess data** and then use Gephi to fine-tune the visualization​, [as some workflows suggest](https://www.fromthelabbench.com/from-the-lab-bench-science-blog/mapping-a-social-network).)
-* [**Palladio** ](https://hdlab.stanford.edu/palladio/)is a **web-based network visualization tool** developed at Stanford’s Humanities + Design lab. It runs entirely in the browser – no installation required – and is geared towards historians and humanists for exploring complex historical datasets. Palladio is described as a [_“simple but powerful exploratory data visualization tool”_](https://matthewlincoln.net/mapping-knoedler-palladio/) that focuses on ease of use. You can upload spreadsheet data (nodes and links) and interactively create network views, maps, and timelines. It’s great for quickly visualizing a dataset and finding patterns without coding. However, Palladio has **notable limitations:** since it’s in-browser and meant for lightweight use, it can become **slow or unstable with very large datasets**. It also [hasn't seen active development in a few years](https://github.com/humanitiesplusdesign/palladio) but still works in digital humanities classrooms for introducing network analysis before moving to more comprehensive tools. Compared to Gephi, Palladio is **less feature-rich** – it doesn’t compute advanced network metrics or offer extensive styling options.
-* [**PyVis**](https://pypi.org/project/pyvis/): is a **Python library for interactive network visualization**. It allows you to generate network graphs in Python and output them as an HTML page (using the JavaScript library vis.js under the hood). Essentially, PyVis is a wrapper that brings the interactivity of vis.js to Python users, so you can script the creation of a network visualization and then view it in a web browser. PyVis is **not a GUI tool** – it requires writing Python code. It works well with [Jupyter notebooks](https://jupyter.org/): you can create a Network object, add nodes/edges, and then display an interactive network within the notebook or export it to an HTML file. The result is a web-based visualization where you can pan, zoom, and even click on nodes for details. PyVis offers **flexibility for developers** (since you can automate tasks and integrate with data analysis pipelines in Python), but it’s less user-friendly for non-coders. It also depends on the browser for rendering, so extremely large networks may be hard to handle (just as any web-based viz would). Gephi might handle larger networks better performance-wise (using OpenGL), whereas PyVis/vis.js running in a browser could hit memory or speed limits for huge graphs. Also, PyVis itself doesn’t compute SNA metrics – you’d use Python libraries (like [NetworkX](https://networkx.org/)) to do analysis, then use PyVis purely for visualization. PyVis is good for creating [interactive visuals with a few lines of code](https://stackoverflow.com/tags/pyvis/info). This makes it a complementary tool: Gephi for point-and-click exploration and PyVis for scripted, shareable interactive diagrams.
-* **Neo4j** (with Datashare Plugin): _Neo4j_ is **fundamentally different** from the above – it’s a[ **graph database**](https://en.wikipedia.org/wiki/Graph_database) rather than a dedicated visualization tool. It's optimized for storing and querying graph data (nodes and relationships) and managing very large, complex networks. It allows the user to run complex queries (using its query language [Cypher](https://en.wikipedia.org/wiki/Cypher_\(query_language\))) to find patterns, shortest paths, sub-networks, etc., in the data. In practice, one might use Neo4j to crunch the data (find communities, run graph algorithms, handle millions of records), then use a visualization front-end (like Gephi, or Neo4j’s own [Bloom ](https://neo4j.com/product/bloom/)and Browser interfaces, or [Linkurious](https://linkurious.com/)) to visualize the result​. Neo4j does come with basic visualization: the Neo4j Browser GUI can display query results as a node-link diagram, but these are not as customizable as Gephi’s visualizations. A key difference: Gephi works on static data you load into it (good for snapshot analysis and visual exploration), whereas Neo4j is a continuously running database that can be updated and queried in real-time (good for **dynamic or very large datasets** where you need to sift through data systematically). In short, **Neo4j vs Gephi** is not an either-or; they often complement each other. Gephi is for **visual interactive analysis**, Neo4j is for **data storage and algorithmic analysis**. Also of note: Neo4j is not purely open-source in all its editions (the [Community edition ](https://github.com/neo4j/neo4j)is open-source, and [enterprise features](https://neo4j.com/licensing/) are commercial), whereas Gephi is fully open-source. For an investigator, choosing Neo4j would depend on needing to handle huge networks or integrate the graph with other systems; choosing Gephi would be about interactive exploration and presentation-quality visuals.
+* [**NodeXL**](https://nodexl.com/): _NodeXL_ is an add-in for Microsoft Excel that provides network analysis and visualization within a spreadsheet interface. It is **Windows-only** (as it hooks into Excel) and comes in a free “NodeXL Basic” version and a paid Pro version.[ It allows users to import edge lists into Excel and generates graphs from those tables](https://en.wikipedia.org/wiki/NodeXL). This approach makes it simple to edit data (you can leverage Excel formulas, etc., for node attributes). Brant Houston explained that NodeXL is **integrated with Excel, making it very simple for beginners** who are comfortable with spreadsheets​. It’s suitable for **quick, small to medium-sized network analysis**; however, it may struggle with large graphs. Also, advanced visualization customizations and real-time manipulation are more limited than those of Gephi. NodeXL offers a more gentle learning curve and even has built-in data importers for social media (in the Pro version), but lacks the visual polish and plugin extensibility of Gephi. (One might use NodeXL to **gather or preprocess data** and then use Gephi to fine-tune the visualization​, [as some workflows suggest](https://www.fromthelabbench.com/from-the-lab-bench-science-blog/mapping-a-social-network).)
+* [**Palladio** ](https://hdlab.stanford.edu/palladio/)is a **web-based network visualization tool** developed at Stanford’s Humanities + Design lab. It runs entirely in the browser – no installation required – and is geared towards historians and humanists for exploring complex historical datasets. Palladio is described as a [_“simple but powerful exploratory data visualization tool”_](https://matthewlincoln.net/mapping-knoedler-palladio/) that focuses on ease of use. You can upload spreadsheet data (nodes and links) and interactively create network views, maps, and timelines. It’s great for quickly visualizing a dataset and finding patterns without coding. However, Palladio has **notable limitations:** since it’s in-browser and meant for lightweight use, it can become **slow or unstable with very large datasets**. It also [hasn't seen active development in a few years](https://github.com/humanitiesplusdesign/palladio), but still works in digital humanities classrooms for introducing network analysis before moving to more comprehensive tools. Compared to Gephi, Palladio is **less feature-rich** – it doesn’t compute advanced network metrics or offer extensive styling options.
+* [**PyVis**](https://pypi.org/project/pyvis/): is a **Python library for interactive network visualization**. It allows you to generate network graphs in Python and output them as an HTML page (using the JavaScript library vis.js under the hood). Essentially, PyVis is a wrapper that brings the interactivity of vis.js to Python users, so you can script the creation of a network visualization and then view it in a web browser. PyVis is **not a GUI tool** – it requires writing Python code. It works well with [Jupyter notebooks](https://jupyter.org/): you can create a Network object, add nodes/edges, and then display an interactive network within the notebook or export it to an HTML file. The result is a web-based visualization that allows you to pan, zoom, and click on nodes for detailed information. PyVis offers **flexibility for developers** (since you can automate tasks and integrate with data analysis pipelines in Python), but it’s less user-friendly for non-coders. It also depends on the browser for rendering, so extremely large networks may be hard to handle (just as any web-based viz would). Gephi might handle larger networks better in terms of performance (using OpenGL), whereas PyVis/vis.js running in a browser could hit memory or speed limits for huge graphs. Also, PyVis itself doesn’t compute SNA metrics – you’d use Python libraries (like [NetworkX](https://networkx.org/)) to do analysis, then use PyVis purely for visualization. PyVis is good for creating [interactive visuals with a few lines of code](https://stackoverflow.com/tags/pyvis/info). This makes it a complementary tool: Gephi for point-and-click exploration and PyVis for scripted, shareable interactive diagrams.
+* **Neo4j** (with Datashare Plugin): _Neo4j_ is **fundamentally different** from the above – it’s a[ **graph database**](https://en.wikipedia.org/wiki/Graph_database) rather than a dedicated visualization tool. It's optimized for storing and querying graph data (nodes and relationships) and managing very large, complex networks. It allows the user to run complex queries (using its query language [Cypher](https://en.wikipedia.org/wiki/Cypher_\(query_language\))) to find patterns, shortest paths, sub-networks, etc., in the data. In practice, one might use Neo4j to crunch the data (find communities, run graph algorithms, and handle millions of records), then use a visualization front-end (such as Gephi, Neo4j’s own Bloom and Browser interfaces, or Linkurious) to visualize the results. Neo4j comes with basic visualization capabilities: the Neo4j Browser GUI can display query results as a node-link diagram, but these are not as customizable as Gephi’s visualizations. A key difference: Gephi works on static data you load into it (good for snapshot analysis and visual exploration), whereas Neo4j is a continuously running database that can be updated and queried in real-time (good for **dynamic or very large datasets** where you need to sift through data systematically). In short, **Neo4j vs Gephi** is not an either-or; they often complement each other. Gephi is for **visual interactive analysis**, Neo4j is for **data storage and algorithmic analysis**. Also of note: Neo4j is not purely open-source in all its editions (the [Community edition ](https://github.com/neo4j/neo4j)is open-source, and [enterprise features](https://neo4j.com/licensing/) are commercial), whereas Gephi is fully open-source. For an investigator, choosing Neo4j would depend on needing to handle huge networks or integrate the graph with other systems; choosing Gephi would be about interactive exploration and presentation-quality visuals.
 
 ## Tool provider
 
-Gephi Consortium (open-source community, CTO : Mathieu Bastian)
+**Developer/org:** Gephi project / **Gephi Consortium** (open‑source community). Presences: [gephi.org/about](https://gephi.org/about/?utm_source=chatgpt.com), [GitHub: gephi/gephi](https://github.com/gephi/gephi?utm_source=chatgpt.com) (open-source community, CTO : Mathieu Bastian)
+
+**License:** **CDDL‑1.0 OR GPL‑3.0‑only** (dual licensing). License texts: cddl‑1.0.txt, gpl‑3.0.txt, and repo license note
 
 ## Advertising Trackers
 
@@ -206,4 +228,3 @@ Gephi Consortium (open-source community, CTO : Mathieu Bastian)
 | --------------- |
 | Martin Sona     |
 |                 |
-
