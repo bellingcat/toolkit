@@ -15,22 +15,24 @@ description: >-
 
 ## Description
 
-Telemetr.io is a Telegram analytics suite aimed at journalists and researchers. It now tracks **more than 9.7 million public channels and groups** (May 2025) and stores historical data on posts, ads and audience metrics. Key features:
+Telemetr.io is a browser‑based analytics platform for public Telegram content. It indexes Telegram channels/chats at scale (homepage currently advertises “11M+” channels and 72B posts) and exposes rankings, channel pages, ad‑creative intel, post search, and “Spy” (real‑time keyword mentions). It also maintains a public catalog of Telegram Mini Apps (currently 4,411), and offers a REST API for programmatic access. Typical OSINT pivots include: finding origin channels for viral posts, mapping “channel networks,” tracing ad placements, and monitoring new mentions of names/keywords.
 
-* **Channel & Post Search** – keyword or ID look-ups with comment, reaction and share stats.
-* **Rankings & Collections** – leader-boards by country, category and “channel network”.
+### Key features:
+
+* **Channel & Post Search** – keyword or ID look-ups with comment, reaction, and share stats.
+* **Rankings & Collections** – leader-boards by country, category, and “channel network”.
 * **Cheater Tag & Ads Index** – fraud score plus advertising intensity for every channel.
-* **Mini-App analytics** – metrics for over 4 000 Telegram Mini Apps.
+* **Mini-App analytics** – metrics for over 4,000 Telegram Mini Apps.
 * **Event tracking & alerts** – real-time keyword or channel monitoring with Telegram bot notifications.
 
 {% hint style="danger" %}
-**Exports:** _Advanced_ and _Enterprise_ plans allow full CSV/Excel export of every metric shown on the site. _Basic_ and _Pro_ can only export the public channel catalogue. Check the pricing page or message **@telemetrio\_contact** for a custom quota.
+**Exports:** _Advanced_ and _Enterprise_ plans allow full CSV/Excel export of every metric shown on the site. _Basic_ and _Pro_ can only export the public channel catalog. Check the pricing page or message **@telemetrio\_contact** for a custom quota.
 {% endhint %}
 
 Features:
 
 * Global Channel Search and Ranking
-* Channel Advertising Effectiveness metrics
+* Channel Advertising Effectiveness Metrics
 * Channel Quoting analysis
 * Channel Publication Analysis
 * Channel Audience Overview
@@ -42,7 +44,7 @@ Features:
 * Mini Apps Catalog _(new)_ – analytics for Telegram Mini Apps
 * API
 
-The examples show the results of a free-tier user account logged in and searching for the term Bellingcat. This result page shows Bellingcat's Telegram channel with several analytical data points, including subscriber counts across time, post views, engagement rate, category, etc.
+The examples illustrate the results of a free-tier user account logged in and searching for the term "Bellingcat." This result page displays Bellingcat's Telegram channel, featuring several analytical data points, including subscriber counts over time, post views, engagement rate, and category.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-04-20 at 2.35.57 PM.png" alt=""><figcaption><p>Telemtrio example search result depicting the Bellingcat channel.</p></figcaption></figure>
 
@@ -50,7 +52,7 @@ The examples show the results of a free-tier user account logged in and searchin
 
 ### Ranking Options on Telemetr.io
 
-The Primary Catalog includes an extensive database that provides a broad overview of available channels. It helps researchers identify channels of interest and understand the overall scope of Telegram's ecosystem. The catalog is useful for initial exploration and broad searches.
+The Primary Catalog features an extensive database that offers a comprehensive overview of available channels. It helps researchers identify channels of interest and understand the overall scope of Telegram's ecosystem. The catalog is useful for initial exploration and broad searches.
 
 <details>
 
@@ -105,7 +107,7 @@ When viewing the landing pages of individual channels, several metrics are prese
 {% hint style="info" %}
 Some example use-cases:
 
-* **Assessing Influence:** Looking at subscriber numbers, growth trends, and engagement rates is useful if you want to gauge the channel's influence and reach quickly.
+* **Assessing Influence:** Examining subscriber numbers, growth trends, and engagement rates is useful for quickly gauging the channel's influence and reach.
 * **Monitoring Activity:** Understanding the frequency of posts and the level of engagement helps identify active channels and the effectiveness of their content strategies.
 * **Analyzing Engagement:** Detailed metrics on views, reactions, comments, and reposts offer insights into how the audience interacts with the content, which can reveal the effectiveness of disinformation campaigns or propaganda efforts.
 * **Tracking Visibility:** Mentions and their trends over time provide information on the channel's visibility and impact within the Telegram community and beyond.
@@ -282,7 +284,7 @@ _Publication Tab: publication analysis_
 </details>
 
 {% hint style="info" %}
-Example use cases:
+receive the most views and shares to understand what content resonates most effectivelyExample use cases:
 
 * **Analyze Content Impact:** Identify which posts have the most views and shares to understand what content resonates most. This can indicate topics of high interest or importance to the audience.
 * **Analyze the posting time distributions** to identify peak times for posting, helping to allocate monitoring resources effectively during high-activity periods.
@@ -319,7 +321,7 @@ This area is only accessible to channel owners who have subscribed to the servic
 
 <figure><img src=".gitbook/assets/grafik (23).png" alt=""><figcaption><p>Bellingcat's historical changes to their channel descriptions.</p></figcaption></figure>
 
-The **About the Channel tab** provides details about the history of changes in the channel names, descriptions, and external links.
+The **"About the Channel" tab provides details about the history of changes to** the channel names, descriptions, and external links.
 
 <details>
 
@@ -335,7 +337,7 @@ The **About the Channel tab** provides details about the history of changes in t
 **Example Use Cases:**
 
 * **Channel Evolution:** Examining the timeline of changes in channel names and descriptions helps to learn about the channel’s evolution, noting any significant shifts in focus or strategy.
-* **Verification of Authenticity:** Identifying the official channels and their associated platforms helps distinguish authentic sources from potential imposters.
+* **Verification of Authenticity:** Identifying the official channels and their associated platforms helps distinguish authentic sources from potential impostors.
 * **Network Mapping:** Use public links to create a network map of associated channels and projects to visualize the entity’s digital footprint and influence outside of Telegram
 {% endhint %}
 
@@ -354,11 +356,11 @@ Telemetr.io offers several tools for monitoring and analyzing Telegram channels:
 
 #### Event tracking
 
-The event tracking tool provides the functionality to focus on relevant channels or keywords, track deleted mentions to identify potential censorship or narrative manipulation and receive real-time notifications to stay updated on significant developments.
+The event tracking tool provides the functionality to focus on relevant channels or keywords, track deleted mentions to identify potential censorship or narrative manipulation, and receive real-time notifications to stay updated on significant developments.
 
 <figure><img src=".gitbook/assets/grafik (20).png" alt=""><figcaption><p>Word and phrase event tracking dialogue</p></figcaption></figure>
 
-The **word tracking tool** allows users to monitor specific words or phrases within Telegram channels and chats to track discussions on particular topics, events, or individuals.
+The **word tracking tool** enables users to monitor specific words or phrases within Telegram channels and chats, allowing them to track discussions on particular topics, events, or individuals.
 
 <details>
 
@@ -395,7 +397,7 @@ The **word tracking tool** allows users to monitor specific words or phrases wit
 {% hint style="info" %}
 **Info:** Example use cases for the Event Tracking tool:
 
-* **Comprehensive Monitoring:** Keep track of a developing story or rumor by monitoring keywords across Telegram. For example, during breaking news, monitor a key term to see how information spreads.
+* **Comprehensive Monitoring:** Track the development of a story or rumor by monitoring relevant keywords across Telegram. For example, during breaking news, monitor a key term to see how information spreads.
 * **Focused Investigation:** If you're researching a specific group, you might track their channel name (to see who talks about them) and exclude unrelated groups to avoid noise.
 * **Detecting Emerging Trends:** Real-time alerts for certain phrases can tip you off when a narrative is starting to go viral or when a new hashtag or slogan emerges in chats/channels you watch.
 * **Contextual Understanding:** By monitoring both public channels and private chats for a keyword, you can gauge differences in public messaging vs. grassroots discussion on that topic.
@@ -529,14 +531,17 @@ The API follows the OpenAPI v3 specification for compatibility with various prog
 
 ## Limitations
 
-* **Access thresholds** – The **free** tier lets you analyse up to **5 channels per day** and run **5 post-search queries per day**; Event Tracking is limited to one keyword or one channel. [telemetr.io](https://telemetr.io/en/channels/2166657568-official77menang?utm_source=chatgpt.com)
-* **Historical data** – Free users see roughly the **last 30 days** of metrics. _Pro_ extends this to 90 days; _Advanced_ and higher tiers unlock **up to 12 months** of history.
-* **Real-time delay** – Updates are not instantaneous; stats refresh every **10–15 minutes**, which can miss very short-lived posts or rapid edits.
-* **API restrictions** – The free API plan allows **1 000 calls per month, 5 verified channels and 7 days of history**; paid plans (S → XL) raise those limits to 10 000 channels and 2 million calls, with history up to 365 days. [api.telemetr.io](https://api.telemetr.io/docs/intro/overview?utm_source=chatgpt.com)
-* **Geographical coverage** – Certain languages and smaller regions may have patchy or delayed coverage, so local trends can be under-represented.
-* **Miscategorisation** – Automatic topic tagging can be wrong (the “Facts” category is especially noisy); always review a channel manually if precision matters.
+* **Coverage & counts**: The homepage advertises “11M+” channels and 72B posts overall, while pricing mentions “9.7M+ channels,” and category pages display 41 categories; counts and scopes differ by page and may reflect channels versus channels and chats, or curated subsets. Treat totals as approximate.&#x20;
+* **Free/Pro quotas**: Post Search and Spy are heavily limited on Free/Pro (Post Search: 5 queries/month, 7 sources, 7‑day window, max 4 posts; Spy: 1 tracking, 100 mentions, Telegram notifications only). Advanced increases these (Post Search: 50 queries/day, 100 sources, all‑time, 1,000 posts; Spy: 8 trackings, 10,000 mentions).&#x20;
+* **API**: The free plan is rate-limited (1,000 requests/month; 5 verified channels; 7-day history). Broader history and unverified channels require paid API plans.&#x20;
+* **Data integrity**: Views, ER, and subscriber counts can be manipulated by channel owners; Telemetrio flags suspicious channels (Cheater Tag) and provides an Ads Index, but these are heuristics. Validate critical findings with multiple sources.
+* **Legal/ToS**: Telemetrio is not affiliated with Telegram and uses the official Telegram API under Telegram’s API TOS; abide by Telemetrio’s Terms/Privacy.
+* **Historical data:** _Free_ users have access to metrics from the last 30 days. _Pro_ extends this to 90 days; _Advanced_ and higher tiers unlock **up to 12 months** of history.
+* **Real-time delay:** Updates are not instantaneous; stats refresh every **10–15 minutes**, which can miss very short-lived posts or rapid edits.
+* **Geographical coverage** – Certain languages and smaller regions may have patchy or delayed coverage, which can underrepresent local trends.
+* **Miscategorization** – Automatic topic tagging can be incorrect (the “Facts” category is especially prone to errors); always review a channel manually if precision is crucial.
 
-Researchers should keep these limitations in mind when deciding if Telemetr.io meets their needs and when interpreting the data it provides.
+Researchers should consider these limitations when determining whether Telemetr.io meets their needs and when interpreting the data it provides.
 
 ## Ethical Considerations
 
@@ -573,7 +578,9 @@ To effectively use Telemetr.io, especially for beginners or those looking to ref
 
 ## Tool provider
 
-Telemetr.io [https://telemetr.io/en/terms-of-use](https://telemetr.io/en/terms-of-use) - Estonia
+• **Developer**: Telemetrio OÜ (Estonia). Official presences: **website** and **API docs**.\
+• **Legal**: Terms/Privacy identify TELEMETRIO OÜ, Narva mnt 5, 10117 Tallinn; governing law: Estonia.\
+• **License**: Proprietary (SaaS). See **Terms of Use**.
 
 ## Advertising Trackers
 
