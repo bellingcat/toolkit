@@ -1,5 +1,5 @@
 ---
-description: A mapping application provided by South Korean technology company
+description: A mapping application provided by South Korean technology company Kakao Corp.
 ---
 
 # Kakao Map
@@ -12,7 +12,7 @@ API Documentation: [https://apis.map.kakao.com/](https://apis.map.kakao.com/)
 
 ## Description
 
-Kakao Maps offer&#x20;
+Kakao Maps offer route planning for public transportations, car, walk, and bike, live navigation, push notificaiton for transits, location sharing with contacts, and recommendations for local hot spots.
 
 <figure><img src=".gitbook/assets/Kakao.JPG" alt=""><figcaption><p>KAKOA MAP RUNNING WITH GOOGLE TRANSLATE CHROME BROWSER EXTENTION FOR ENGLISH VERSION.</p></figcaption></figure>
 
