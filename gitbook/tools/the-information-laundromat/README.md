@@ -9,20 +9,23 @@ description: >-
 
 ## URL
 
-[https://informationlaundromat.com](https://informationlaundromat.com)
+[https://informationlaundromat.com](https://informationlaundromat.com)\
+(latest commit on 2025‑01‑21 on [github](https://github.com/ASD-at-GMF/disinfo-laundromat), as of October 31, 25)
 
 ## Description
 
-Information Laundromat is an open-source **lead generation tool** designed for identifying patterns of **content laundering -** that is, reprinting or republishing content (often from state-sponsored or otherwise questionable sources) in ways that mask or obscure its original publisher - and **infrastructural connections** across websites. Developed by the Alliance for Securing Democracy (ASD) with contributions from the University of Amsterdam and the Institute for Strategic Dialogue (ISD), it provides two main functions:
+Information Laundromat is an open-source, lead-generation web tool for detecting content laundering (near-duplicate or syndicated text) and mapping infrastructural overlap between websites. It offers **Content Similarity** searches (URL/title/snippet against search engines, GDELT, and a plagiarism checker) and **Metadata Similarity** (domain forensics indicators such as analytics IDs, certificates, IPs, headers, CMS, and CSS overlaps). An **Image Similarity** (reverse‑image) feature is available and marked experimental. Typical pivots include finding copy-paste networks for an article, then pivoting to shared analytics IDs or certificates to trace website ownership/affiliation.
+
+Developed by the Alliance for Securing Democracy (ASD) with contributions from the University of Amsterdam and the Institute for Strategic Dialogue (ISD), it provides two main functions:
 
 ### **1. Content Similarity Search**
 
 * Compares URLs, titles, or text snippets (≥15 words) across the open web.
 * Uses multiple sources—such as the [**Global Database of Events, Language, and Tone (GDELT)**](https://www.gdeltproject.org/), various search engines, and the [**Copyscape** ](https://www.copyscape.com/)plagiarism detection service—to identify near-duplicate or highly similar content. (Note: **GDELT** is a global database that logs worldwide broadcasts/online news, and **Copyscape** checks plagiarism by comparing text across its index.)
 * Provides similarity scores (e.g., 97% for near-identical copies) to help investigators see which sites replicate or closely mimic the queried text.
-* **Content Similarity** compares a URL, title or text snippet against search engines, GDELT and Copyscape, returning a match score; items scoring around **70%+** are often the most actionable leads
+* **Content Similarity** compares a URL, title, or text snippet against search engines, GDELT and Copyscape, returning a match score; items scoring around **70%+** are often the most actionable leads
 * **Craig Silverman** (2024, [Indicator](https://indicator.media/p/a-look-at-the-information-laundromat)) describes the Laundromat as “one of the newest and most interesting free website analysis tools I’ve come across,” and notes how ASD used it to detect repeated reprinting of Russia Today (RT) content.
-* According to Silverman’s interview with the tool’s developer, Peter Benzoni, items scoring [**70% or higher**](https://digitalinvestigations.substack.com/p/a-look-at-the-information-laundromat) on content similarity are “likely to be most of interest.”
+* According to Silverman’s interview with the tool’s developer, Peter Benzoni, items scoring [**70% or higher**](https://digitalinvestigations.substack.com/p/a-look-at-the-information-laundromat) on content similarity are “likely to be of most interest.”
 
 {% tabs %}
 {% tab title="Content Similarity Search" %}
@@ -36,7 +39,7 @@ Information Laundromat is an open-source **lead generation tool** designed for i
 
 ### **2. Metadata Similarity Search**
 
-**Metadata Similarity** extracts and compares site indicators (e.g., analytics IDs, certificates, IPs) and ranks overlaps by evidence tier; optional toggles include **Run URLSCAN** and **In‑group matching**.
+**Metadata Similarity** extracts and compares site indicators (e.g., analytics IDs, certificates, IPs) and ranks overlaps by evidence tier. Optional toggles include Run URLSCAN and In-group **matching**.
 
 {% tabs %}
 {% tab title="Metadata Similarity Search" %}
@@ -341,6 +344,8 @@ To identify websites that replicate or closely match specific content, helping t
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
+GUI is straightforward (point‑and‑click) but interpreting results requires OSINT familiarity. Users should understand how indicator tiers work (e.g., why shared Cloudflare certs or shared hosting can be spurious) and how to judge textual match scores.
+
 ## Requirements
 
 * **Account Registration** (with a provided code) for batch features is done via email after validation.
@@ -348,8 +353,15 @@ To identify websites that replicate or closely match specific content, helping t
 
 ## Limitations
 
-* **Content Similarity**: Does not establish content provenance or direct relationships between sites; high similarity scores only indicate content replication. Common phrases may yield high similarity scores with irrelevant results, especially if they are frequently discussed topics.
-* **Metadata Similarity**: Connections based on shared infrastructure, such as hosting providers, can produce false positives. Researchers should carefully assess indicators, especially when connections rely on Tier 3 indicators (e.g., shared CSS), as these can be coincidental without further corroboration.
+* **Text matches are indicative, not provenance:** The tool does not determine original source; high scores show similarity, not authorship. Accuracy varies with text length/uniqueness; URLs often yield lower scores due to sidebars/boilerplate. Always manually verify. [informationlaundromat.com](https://informationlaundromat.com/about)
+* **Infrastructure signals can be spurious:** CDNs, DDoS protection (e.g., Cloudflare) and shared hosts can produce false links; treat Tier 2–3 indicators cautiously. [informationlaundromat.com](https://informationlaundromat.com/about)
+* **Image Similarity is experimental** and may fail or return loose matches. [informationlaundromat.com](https://informationlaundromat.com/)
+* **Hosted usage data:** site logs IP/page/time and deletes logs after \~30 days; analytics anonymized (GDPR notice). [informationlaundromat.com](https://informationlaundromat.com/)
+* **Batch use restricted on hosted instance** (registration code required). [informationlaundromat.com](https://informationlaundromat.com/about)
+* **Releases:** No tagged releases as of today; repository is active (latest commit 2025‑01‑21). Pin your environment when self‑hosting. [GitHub](https://github.com/ASD-at-GMF/disinfo-laundromat)
+* **External service dependencies:** Availability and rate limits depend on search engines/GDELT/Copyscape/URLScan; outages or throttling can affect results. (_Specific quotas not published — To verify_). [informationlaundromat.com](https://informationlaundromat.com/)
+* **Corpus note:** As stated “as of May 2024, no user‑input sites are included” — current policy may have changed. (_To verify when using_). [informationlaundromat.com](https://informationlaundromat.com/about)
+* **Legal/ToS:** Respect third‑party site terms and local law when querying/storing data.
 
 ## Ethical Considerations
 
@@ -359,7 +371,15 @@ To identify websites that replicate or closely match specific content, helping t
 
 ## Guides and articles
 
-Silverman, C. (2024, September 5). A look at the Information Laundromat website analysis tool \[Substack newsletter]. _Indicator_. [https://indicator.media/p/a-look-at-the-information-laundromat](https://indicator.media/p/a-look-at-the-information-laundromat) (discusses how the tool was applied in ASD’s research into RT content laundering and interviews the tool’s developer, Peter Benzoni).
+**Silverman, C.** (2024, September 5). A look at the Information Laundromat website analysis tool. _Indicator_. [https://indicator.media/p/a-look-at-the-information-laundromat](https://indicator.media/p/a-look-at-the-information-laundromat) (discusses how the tool was applied in ASD’s research into RT content laundering and interviews the tool’s developer, Peter Benzoni).
+
+**ASD/GMF:** _The Russian Propaganda Nesting Doll_ (method & results using the tool), 2024‑05‑30. [Alliance For Securing Democracy](https://securingdemocracy.gmfus.org/the-russian-propaganda-nesting-doll-how-rt-is-layered-into-the-digital-information-environment/?utm_source=chatgpt.com)
+
+**ASD/GMF:** _Guarding Against Russian Information Laundering_ (dashboard + methodology), 2024‑09‑05. [Alliance For Securing Democracy](https://securingdemocracy.gmfus.org/guarding-against-russian-information-laundering/)
+
+**GIJN:** _Look Inside the Open Source “Information Laundromat”_ (walkthrough/interview), 2024‑11‑08. [gijn.org](https://gijn.org/stories/open-source-information-laundromat/?utm_source=chatgpt.com)
+
+**EDMO:** _Online training: The Information Laundromat_, 2024‑06‑12. [edmo.eu](https://edmo.eu/edmo-news/edmo-online-training-the-information-laundromat/?utm_source=chatgpt.com)
 
 ## Tool provider
 
