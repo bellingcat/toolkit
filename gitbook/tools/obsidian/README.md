@@ -1,8 +1,8 @@
 ---
+updated: '2025-08-31'
 description: >-
   A knowledge management and note-taking app with extensive customization
   options.
-updated: '2025-08-31'
 ---
 
 # Obsidian
@@ -11,7 +11,7 @@ updated: '2025-08-31'
 
 [https://obsidian.md/](https://obsidian.md/)
 
-(version 1.9.12 as of Aug, 2025)
+(version **1.9.14,** 2025‑10‑01, as of Aug, 2025)
 
 ## Description
 
@@ -19,11 +19,11 @@ Obsidian is a knowledge management tool built on top of a local folder of plain 
 
 The user interface is highly customizable, and the software is supported by a large community that can contribute to a core library of plugins. Obsidian supports different user groups' various individual needs, from academic research to personal note-taking to project management.
 
-One of the standout features of Obsidian is its streamlined capability to create and navigate links between notes. Additionally, it allows for the easy integration of various document types, such as PDFs, voice memos, and images, into markdown pages using simple cut-and-paste techniques. A synergy of interconnected pages, tags, and organized folder structures forms a dynamic information network. This network is easy to explore and expand and can be visualized as a comprehensive web of interconnected knowledge nodes.&#x20;
+One of the standout features of Obsidian is its streamlined capability to create and navigate links between notes. Additionally, it allows for the easy integration of various document types, such as PDFs, voice memos, and images, into markdown pages using simple cut-and-paste techniques. A synergy of interconnected pages, tags, and organized folder structures forms a dynamic information network. This network is easy to explore and expand and can be visualized as a comprehensive web of interconnected knowledge nodes.
 
 Although mastering markdown editing in Obsidian may initially challenge new users, the learning curve is manageable, and the basics of the software are straightforward to grasp. As users become more proficient in using advanced markdown features, program functionalities can be seamlessly integrated, enhancing Obsidian's interface and user experience to reflect individual preferences and needs.
 
-The tool also supports advanced Markdown editing, customizable themes, and community-developed plugins that extend its functionality further.&#x20;
+The tool also supports advanced Markdown editing, customizable themes, and community-developed plugins that extend its functionality further.
 
 ### Functionality
 
@@ -41,7 +41,7 @@ The tool also supports advanced Markdown editing, customizable themes, and commu
 2. **Story Development**: Journalists can organize their story or article outlines, connecting different pieces of research and notes to flesh out their texts.
 3. **Interview Management**: Keeping track of interview notes is simplified, as each interview can be linked to topics, stories, or other interviews, creating a web of information that is easy to reference.
 4. **Archiving**: The platform enables journalists to archive their stories, notes, and sources in a searchable, interconnected format, facilitating easy retrieval and future reuse of information.
-5. **Collaboration**: Though primarily designed for personal use, Obsidian's ability to work with local Markdown files means journalists can use third-party tools to sync and collaborate on files with colleagues. Markdown files are inherently safe.&#x20;
+5. **Collaboration**: Though primarily designed for personal use, Obsidian's ability to work with local Markdown files means journalists can use third-party tools to sync and collaborate on files with colleagues. Markdown files are inherently safe.
 
 ## Cost
 
@@ -49,15 +49,18 @@ The tool also supports advanced Markdown editing, customizable themes, and commu
 * [x] Partially Free
 * [ ] Paid
 
-- **Personal use:** free.&#x20;
-- **Commercial use**: Obsidian offers licenses at $50 per user per year.
-- **Sync across devices**: This service enables end-to-end encrypted synchronization across devices. The standard plan is priced at $5 per month or $48 per year, while the Plus plan is available at $10 or $96 per year.
-- **Publish to the cloud**: Obsidian Publish is available at $8 USD per site per month when billed annually or $10 USD per site per month with monthly billing.
-- For students, faculty members, and nonprofit employees, Obsidian offers a 40% discount on add-on services, including Obsidian Publish.
+- **Free** (personal _and_ commercial use). Optional paid services and licenses below.
+- **Sync**: Standard **$4/user/mo (billed annually)** or **$5/user/mo (monthly)**; **Plus $8/$10** adds more vaults, storage, and history.
+- **Publish**: **$8/site/mo (billed annually)** or **$10/site/mo (monthly)**. [Obsidian](https://obsidian.md/publish)
+- **Catalyst** (optional early‑access license): **$25 one‑time**.&#x20;
+- **Commercial** (optional org supporter license): **$50/user/year**.&#x20;
+- Education and non‑profit employees get **40% off Sync/Publish**.
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
+
+Low to medium. The core app is GUI‑driven and usable without coding, but effective use benefits from basic Markdown, internal links/backlinks, and properties. Advanced setups (e.g., complex properties/Bases, data queries, or larger plugin stacks) require some configuration literacy and careful plugin selection.
 
 ## Requirements
 
@@ -88,19 +91,19 @@ While Obsidian as a tool focuses on enhancing personal and professional producti
 * **Data Privacy**: Given its offline-first approach, users have significant control over their data. However, users must be vigilant about exporting or sharing their notes through external services, which may not uphold the same privacy standards.
 * While Obsidian is highly customizable and feature-rich, it is **not open-source**. This means that its source code is not publicly available for review or modification, which could be a consideration for users concerned about transparency, security, and data privacy. For those who prefer open-source solutions, [Logseq](https://logseq.com/) is an alternative that offers similar capabilities with full transparency.
 * **Plugin Security**: The capacity to extend Obsidian's functionality with plugins is powerful but also introduces the need to trust third-party developers. Users must exercise caution, ensuring they install reputable plugins to avoid potential security risks.
-* **Accessibility**: Although Obsidian offers a wide range of features, its learning curve and interface may pose accessibility challenges for users who are not tech-savvy or have disabilities.&#x20;
-* **Sustainability of the Free Model**: While Obsidian’s core functions are free, the long-term sustainability of such a model depends on a sufficient number of users opting for paid features.&#x20;
+* **Accessibility**: Although Obsidian offers a wide range of features, its learning curve and interface may pose accessibility challenges for users who are not tech-savvy or have disabilities.
+* **Sustainability of the Free Model**: While Obsidian’s core functions are free, the long-term sustainability of such a model depends on a sufficient number of users opting for paid features.
   * **Longevity and Exportability:** Ensuring long-term accessibility of data is important; reliance on proprietary plugins may pose challenges.
-* **Collaboration Equity**: Obsidian is conceptualized as a personal note-taking tool. While there are available plugins and workarounds, the limited real-time collaboration functionality makes it less than ideal for collaborative settings, especially in educational or low-income environments.&#x20;
+* **Collaboration Equity**: Obsidian is conceptualized as a personal note-taking tool. While there are available plugins and workarounds, the limited real-time collaboration functionality makes it less than ideal for collaborative settings, especially in educational or low-income environments.
   * **Collaboration Ethics:** Respect for collaborators’ contributions and transparent changes in shared documents is crucial.
 
 ## Guide
 
 To effectively use Obsidian, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
 
-**Official Wiki**&#x20;
+**Official Wiki**
 
-* [**Official help and documentation**](https://help.obsidian.md/Home): Obsidian Help site.&#x20;
+* [**Official help and documentation**](https://help.obsidian.md/Home): Obsidian Help site.
 
 **Tutorials and Articles**
 
@@ -135,4 +138,3 @@ Dynalist Inc. [https://obsidian.md/](https://obsidian.md/) - Canada
 | --------------- |
 | Martin Sona     |
 |                 |
-
