@@ -1,8 +1,8 @@
 ---
+updated: '2025-08-31'
 description: >-
   A tool for collecting, organizing, annotating, citing, and sharing research
   sources.
-updated: '2025-08-31'
 ---
 
 # Zotero
@@ -11,18 +11,14 @@ updated: '2025-08-31'
 
 [https://www.zotero.org](https://www.zotero.org)
 
-Current version: **7.0.24 (August  2025)**
+Current version: Zotero **7.0.29** (2025‑10‑28) **(Oct. 31, 2025)**
 
 ## Description
 
-Zotero is a free, open‑source reference‑management tool for macOS, Windows, Linux, **iOS , and Android**. It lets you collect, organize, annotate, cite, and share research materials. A browser connector captures sources from the web, while word‑processor plugins (Microsoft Word, LibreOffice, Google Docs) streamline citation workflows.
-
-While Zotero primarily targets academic research, it can also serve as a powerful **archiving** tool for OSINT practitioners. You can save snapshots of web pages, attach PDFs or any other file types, and maintain detailed metadata, making it valuable for both scholarly and investigative needs.
-
-&#x20;Official **iOS & Android** apps provide full‑library sync, PDF readin,g and annotation on the go
+Zotero is a free, open‑source reference manager for **Windows, macOS, Linux, iOS, and Android** that helps you collect, organize, annotate, cite, and share research materials. A desktop app works with browser “Connectors” (Chrome, Firefox, Edge, Safari) to save sources and snapshots; a built‑in reader supports **PDF/EPUB/HTML** annotation with notes that can be cited into Word, LibreOffice, and Google Docs. Libraries sync across devices via a Zotero account; attachments can sync via Zotero Storage or **WebDAV**. Group libraries support collaborative OSINT workflows and shared source curation.
 
 {% hint style="info" %}
-**These examples assume you have made a free account and installed Zotero and the browser plugin on your system.**
+**These examples assume you have created a free account and installed Zotero, as well as the browser plugin, on your system.**
 {% endhint %}
 
 ### Phase A - Research
@@ -40,13 +36,13 @@ This is a review article of Elltio Higgins' book. We click on it.
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
 
-We want to save the review for later referencing. If somebody asks our opinion about the book, now we have evidence to back it up. (The review says it's good.)
+We want to save the review for later referencing. If someone asks for our opinion about the book, we now have evidence to back it up. (The review says it's good.)
 
 ### Phase B - Archiving
 
 * **Snapshots & Attachments**
   * **Snapshots** – Save a local **HTML snapshot** of any webpage (static copy of source & assets)
-  * **Attachments** – Drag‑and‑drop or auto‑download PDFs, images and other files.
+  * **Attachments** – Drag‑and‑drop or auto‑download PDFs, images, and other files.
 * **Adding Full-Text PDFs**
   * Zotero can auto-download PDFs if it detects open-access links. Otherwise, you can attach PDFs manually.
   * Annotations can be made directly on the PDF within Zotero’s built-in reader (available in Zotero 7+).
@@ -55,11 +51,11 @@ We want to save the review for later referencing. If somebody asks our opinion a
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption><p>My browser on the page containing the review.</p></figcaption></figure></div>
 
-Sleuths among you may have noticed that one icon in particular has changed. The Zotero icon has been changed from a folder to a paper. This means that Zotero has identified this as, you guessed it, a paper.
+Sleuths among you may have noticed that one icon in particular has undergone a change. The Zotero icon has been changed from a folder to a paper. This means that Zotero has identified this as, you guessed it, a paper.
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption><p>Upon clicking the 'paper' icon, this box appears, indicating that the paper was sucessfully retrieved and archived.</p></figcaption></figure></div>
 
-When you click the icon, you'll see identified metadata, you can select a folder to archive your paper in, and you notice that a full-text PDF is available and has conveniently already been attached to your entry.
+When you click the icon, you'll see identified metadata, and you can select a folder to archive your paper in. You'll also notice that a full-text PDF is available and has been conveniently attached to your entry.
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption><p>A screenshot of my Zotero window where you can find the review we just archived for future reference.</p></figcaption></figure></div>
 
@@ -132,7 +128,7 @@ Oh, and if you select multiple entries, the bibliography will also contain multi
 
 _Gefälschter BBC-Bericht: Bellingcat berichtete nicht über Waffenschmuggel der Ukraine an Hamas_. (n.d.). Retrieved August 2, 2024, from [https://correctiv.org/faktencheck/2023/10/23/ukraine-hamas-gefaelschter-bbc-bericht-bellingcat-bestaetigte-keinen-waffenschmuggel/](https://correctiv.org/faktencheck/2023/10/23/ukraine-hamas-gefaelschter-bbc-bericht-bellingcat-bestaetigte-keinen-waffenschmuggel/)
 
-Here, you also see that it sometimes doesn't work correctly. You can go back to the software and change things manually very easily, though.
+Here, you also see that it sometimes doesn't work correctly. You can easily go back to the software and make manual changes.
 
 <figure><img src=".gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
@@ -153,7 +149,7 @@ Bellingcat. (2024, February 9). _Command Line Fundamentals: Bellingcat Tech Seri
 Proper documentation is essential if the material is used in legal, academic, or policy advocacy contexts. [The Berkeley Protocol ](https://www.ohchr.org/sites/default/files/2024-01/OHCHR_BerkeleyProtocol.pdf)outlines how OSINT data should be handled to be admissible in court (at least in the context of international proceedings).
 
 * **Berkeley Protocol Alignment**: Properly stored OSINT data improves evidentiary value in legal and policy contexts. Zotero’s ability to capture full snapshots, along with timestamps, aids transparency and reproducibility.
-* **Local & Cloud Sync** – Data stay local unless you enable sync. When you do, traffic is encrypted in transit and files in new accounts are **AES‑256 encrypted at rest on Zotero’s AWS servers** (not end‑to‑end)
+* **Local & Cloud Sync** – Data stays local unless you enable sync. When you do, traffic is encrypted in transi,t and files in new accounts are **AES‑256 encrypted at rest on Zotero’s AWS servers** (not end‑to‑end)
 * **Limitations**:
   1. No native encryption of local files.
   2. No automatic hashing of archived material.
@@ -171,11 +167,13 @@ Proper documentation is essential if the material is used in legal, academic, or
 * [ ] Partially Free
 * [ ] Paid
 
-With optional paid storage plans. (300MB - free; 2GB - 20$/yr; 6GB - 60$/yr; unlimited - 120$/yr)
+Free core software with **300 MB** of free cloud attachment storage. Paid tiers: **2 GB $20/year**, **6 GB $60/year**, **Unlimited $120/year**; group libraries draw from the owner’s storage; institutional/lab plans available.
 
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
+
+GUI‑first and beginner‑friendly. Most users only install the desktop app and a browser connector; citing requires a supported word processor. Optional features (custom translators, API use, WebDAV) benefit from intermediate technical comfort.
 
 ## Requirements
 
@@ -210,11 +208,19 @@ Ensure proper citation of sources to avoid plagiarism. Be cautious with sensitiv
 
 ## Guide
 
+* **Quick Start Guide** (official). [zotero.org](https://www.zotero.org/support/quick_start_guide?utm_source=chatgpt.com)
+* **System requirements & plugin support** (official). [zotero.org](https://www.zotero.org/support/system_requirements)
+* **Connectors: how saving works** (official doc). [zotero.org](https://www.zotero.org/support/connector?utm_source=chatgpt.com)
+* **Zotero 7 release overview** (official blog). [zotero.org](https://www.zotero.org/blog/zotero-7/?utm_source=chatgpt.com)
+* **Zotero for Android** announcement (official blog, 2025‑06‑05). [zotero.org](https://www.zotero.org/blog/zotero-for-android/?utm_source=chatgpt.com)
+
 Quinn, T. (2024). _Research Guides: Zotero: A Beginner’s Guide: About Zotero_. [https://libguides.unm.edu/Zotero/About](https://libguides.unm.edu/Zotero/About)
 
 ## Tool provider
 
-[Corporation for Digital Scholarship](https://digitalscholar.org/), Vienna, Virginia-based nonprofit technology organization that is committed to the development of open-source software for cultural heritage institutions and researchers.
+**Developer/Org:**[ Digital Scholar](https://digitalscholar.org/) (formerly [Corporation for Digital Scholarship](https://digitalscholar.org/)), Vienna, Virginia-based nonprofit technology organization that is committed to the development of open-source software for cultural heritage institutions and researchers.
+
+**License:** **AGPL‑3.0** — see license text in the Zotero repository; Zotero site states source is AGPLv3
 
 ## Advertising Trackers
 
@@ -222,7 +228,7 @@ Quinn, T. (2024). _Research Guides: Zotero: A Beginner’s Guide: About Zotero_.
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-Zotero uses cookies primarily to facilitate core functionality, such as user authentication (e.g., via reCAPTCHA when creating an account) and server-side logging to ensure service stability, security, and to diagnose technical issues. If you opt to sync your library with the Zotero servers, additional data (including IP addresses and usage logs) may be gathered for account management and fraud prevention. Zotero stores these logs for up to 90 days, after which they are anonymized or deleted. While cookies are employed to maintain certain features—like checking for translator updates or managing payment services via Stripe or PayPal—Zotero’s privacy policy emphasizes that it does not monetize user information, and you can minimize sharing by disabling or restricting syncing and update checks in the application’s preferences.
+Zotero uses cookies primarily to facilitate core functionality, such as user authentication (e.g., via reCAPTCHA when creating an account) and server-side logging to ensure service stability, security, and to diagnose technical issues. If you opt to sync your library with the Zotero servers, additional data (including IP addresses and usage logs) may be gathered for account management and fraud prevention. Zotero stores these logs for up to 90 days, after which they are anonymized or deleted. While cookies are employed to maintain certain features, like checking for translator updates or managing payment services via Stripe or PayPal. Zotero’s privacy policy emphasizes that it does not monetize user information, and you can minimize sharing by disabling or restricting syncing and update checks in the application’s preferences.
 
 | Page maintainer |
 | --------------- |
