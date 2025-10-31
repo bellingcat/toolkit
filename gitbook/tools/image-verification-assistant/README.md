@@ -16,7 +16,7 @@ The tool employs multiple image tampering detection algorithms and provides feat
 
 Similarly, Error Level Analysis (ELA) looks for differences in compression quality. Areas of interest appear brighter in ELA than the rest of the image, especially when comparing similar regions, such as edges with edges. To explore other filters, hover over “What does it mean?” to open a pop-up box that explains its function and result.
 
-<figure><img src=".gitbook/assets/Maps latest.png" alt=""><figcaption><p>12 forensic filters are displayed on an individual map for each result.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Maps latest.png" alt=""><figcaption><p>12 forensic filters are displayed on an individual map for each result (source: test image results available on the tool's website).</p></figcaption></figure>
 
 The tool also provides an overall probability via Fusion for forgery, which combines multiple forensic filters. A higher percentage through fusion warrants further investigation of the image, either via each filter or similar tools such as Forensically and FotoForensics.
 
@@ -26,9 +26,9 @@ Just above the reverse search option, hovering over the input image activates th
 
 <figure><img src=".gitbook/assets/Input image and zoom.png" alt="" width="375"><figcaption><p>Input image, zoom option, and Google reverse image search.</p></figcaption></figure>
 
-The tool’s most essential feature is detailed metadata analysis of images, which reveals information such as the software used to create each photo. Although metadata yields crucial information in any investigation, most social media platforms strip images of their metadata, limiting the tool’s usefulness in those cases.
+The tool’s most essential feature is detailed metadata analysis of images, which reveals information such as the software used to create each photo. Although metadata yields crucial information in any investigation, most [social](https://datajournalism.com/read/handbook/verification-1/verifying-images/4-verifying-images) media platforms strip images of their metadata, limiting the tool’s usefulness in those cases.
 
-<figure><img src=".gitbook/assets/Metadata analysis mever.png" alt="" width="375"><figcaption><p>Metadata analysis of the test image available on the websit of Image Verification Assistant.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Metadata analysis mever.png" alt="" width="375"><figcaption><p>Metadata analysis of the test image available on the website of the Image Verification Assistant.</p></figcaption></figure>
 
 The InVid Verification Plugin has also [incorporated](https://weverify.eu/tools/image-verification-assistant/) Mever into its suite of tools for journalists and fact-checkers, offering a range of forensic options for video and image analysis. As a result, it can be used independently for verification or integrated within InVid. Read more about InVid in [Bellingcat’s Online Investigation Toolkit](https://bellingcat.gitbook.io/toolkit/more/all-tools/invid).
 
@@ -50,7 +50,9 @@ A web browser to use the tool.
 
 ## Limitations
 
-The tool may be slow and take a while to display the results. Additionally, social media strips images of its metadata, which can hinder the tool's ability to analyze metadata effectively.
+The tool is sometimes  slow and takes time to display results.&#x20;
+
+Additionally, social media strips images of its metadata, which prevents the tool's ability to analyze metadata.
 
 It is possible the results may include false positives. Cross-check the results with other verification methods or available verification tools.
 
