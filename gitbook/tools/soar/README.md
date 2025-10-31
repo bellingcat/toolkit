@@ -39,16 +39,42 @@ These constitute some of the major tasks which Open Source researchers undertake
 Note that some satellite imagery maps in the Soar database are of very high quality, i.e. 8cm per pixel resolution, making them particularly valuable resources.
 {% endhint %}
 
+### The Soar Interface
+
+{% hint style="info" %}
+The Discover and Maps sections of the Soar interface are in fact just different routes to the same information - the maps database. Discover is centred around searching information by category, whilst Maps is centred around searching for information by location.
+{% endhint %}
+
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption><p><strong>COMPARISON OF THE MAP AND DISCOVERY MODES OFFERED BY SOAR</strong></p></figcaption></figure>
 
 
 
+{% columns %}
+{% column %}
+SOAR DATA SOURCES
 
-1. ~~A large database of maps and imagery displaying~~&#x20;
+Data sources for Soar's million maps include:&#x20;
 
-* ~~a wide variety of geographically distributed information,e.g. weather, maritime tides, distribution of dust and ash, soil moisture, population, radar, ...~~&#x20;
-* ~~different time modalities, e.g. static maps created over a long time period stretching back to  <mark style="color:$danger;">**1800 (looking for read date of oldest),**</mark> maps displaying real-time information feeds, animated gif maps displaying a sequence of changing information over time~~
+1\. **Individuals** (example https://soar.earth/profile/Warmapper and https://soar.earth/profile/spacefromspace)
 
-~~These Soar database entries are searchable by : <mark style="color:$danger;">**Need to test what other search keys apart from Location can be used - there are filters in**</mark>~~&#x20;
+**2. Organizations** (https://soar.earth/profile/UN or https://soar.earth/profile/EU)
+
+**3. Government agency** (https://soar.earth/profile/USGS)&#x20;
+
+**4. Other satellite image providers** (https://soar.earth/profile/Umbra)&#x20;
+{% endcolumn %}
+
+{% column %}
+SOAR MAP INFORMATION TYPES
+
+The database includes:
+
+* a wide variety of geographically distributed information,e.g. weather, maritime tides, distribution of dust and ash, soil moisture, population, radar, ...&#x20;
+* different time modalities, e.g. static maps created over a long time period stretching back at the time of writing (Oct 25) to at least 1572, maps displaying real-time information feeds, animated gif maps displaying a sequence of changing information over time.
+{% endcolumn %}
+{% endcolumns %}
+
+Soar maps are searchable by features including location, map category, indexing tags, uploading username .
 
 ### ~~<mark style="color:$info;">Defining Soar's Atlas - What is it?</mark>~~&#x20;
 
