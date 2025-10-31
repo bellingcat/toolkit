@@ -191,8 +191,6 @@ Cicking on a particular feature pops up...
 {% endcolumn %}
 {% endcolumns %}
 
-<figure><img src=".gitbook/assets/StGilesCripplegatecrop (1).jpg" alt=""><figcaption><p><strong>GOOGLE MAPS SHOWING THE CANDIDATE LOCATION WITH A CHURCH, AGAINST A SATELLITE BACKGROUND</strong> </p></figcaption></figure>
-
 Spot does **not** directly identify specific _**locations**_ which meet the input search criteria (unlike other tools, e.g. Bellingcat OpenStreetMap Search). Instead, it identifies all those _**features**_ which belong to any and all locations which meet the search criteria, and draws them together on the same map. Therefore if there is more than one candidate location which meets the search criteria, it may not be possible to distinguish one from another, particularly if they are geographically close.
 
 {% columns %}
