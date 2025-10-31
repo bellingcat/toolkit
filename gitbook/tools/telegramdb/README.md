@@ -28,7 +28,7 @@ Usage has grown fast – TelegramDB passed **1.5 million monthly active users in
 
 ### Commands
 
-The TelegramDB bot (@tgdb\_bot) offers a comprehensive set of commands to help users navigate and utilize Telegram data efficiently. Below is a detailed description of these commands and their functionalities:
+As of 2025, **free search** runs on **@TgDBSearchBot (Search Lite)**; **premium/advanced** commands run in the **web chat (Search Plus)** at **tgdb.org/bot**.
 
 <details>
 
@@ -36,23 +36,20 @@ The TelegramDB bot (@tgdb\_bot) offers a comprehensive set of commands to help u
 
 **Free Commands**
 
-* **`/search`** – Opens an interactive menu to search by title, user, group, channel, or bot. (The legacy keyword search functionality is now under `/title`)
+* **`/search`** – Search for public channels and groups (first 20 results free; more via credits). (The legacy keyword search functionality is now under `/title`)
 * **`/title [name]`** – Search for public groups and channels by title or keyword (text-based search).
-* **`/info [id or @username]`** – Show basic profile information for a given user, group, or channel. (With premium credits, this includes historical details and alerts like scam/fake account flags​.)
 * **`/resolve [id or @username]`** – Convert a user, group, or channel ID to its username (and vice versa) and display additional information such as past usernames, Telegram Premium status, verification badge, or scam flags.
 * **`/group [name]`** / **`/channel [name]`** – Find public groups or channels by name. (Free mode returns limited results.)
 * **`/bot [name]`** – Search for public bot accounts by name.
-* **`/add [id or @username]`** – Add a user, group, or channel to TelegramDB’s index (useful for newly created or previously unindexed entities).
 * **`/help`**, **`/faq`**, **`/terms`**, **`/support`**, **`/language`** – Access help and info: usage instructions, FAQs, terms and conditions, a link to the support chat, and language settings (English, Italian, etc.).
-* **`/stats`** – Show live database statistics (total chats, groups, users, bots, etc.) indexed by TelegramDB​.
 * **`/cancel`** – Cancel the current operation or menu.
 
 #### Premium Commands (Credits Required)
 
-* **`/where [id or @username]`** – Reveal the public groups in which a user has been a member. (Requires credits for a full list; without credits it will only report the count of groups, up to 5 uses per day​.)
-* **`/members [id or @username]`** – Retrieve a CSV list of members of a specified group, including hidden or historical members (useful for archival member lists).
-* **`/network [chat]`** – Identify related chats (groups, channels, or forums) that share a significant number of members with the target, returned as a CSV ranked by overlap relevance.
-* **`/near [id or @username]`** – Find “nearest” users to a given user based on shared group memberships, outputting a CSV of users who have the most groups in common (with usernames and overlap counts)​.
+* **`/where [id or @username]`** – Reveal the public groups in which a user has been a member. (Requires credits for a full list; without credits, it will only report the count of groups, up to 5 uses per day​.)
+* **`/members [id or @username]`** – Export a CSV list of members of a specified group.
+* **`/network [chat]`** – Identify related chats (groups/channels) and export results to CSV.
+* **`/near [id or @username]`** – Find ‘nearest’ users to a given user and export results to CSV.
 * **`/credits`** – Check your credit balance and purchase additional credits through the bot’s payment interface​.
 
 </details>
