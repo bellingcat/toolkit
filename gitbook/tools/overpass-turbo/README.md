@@ -95,12 +95,12 @@ To effectively use Overpass Turbo, especially for beginners or those looking to 
 
 #### Tutorials and Articles
 
-* [_Overpass Tutorial_](https://osm-queries.ldodds.com/tutorial/index.html) (no date). Available at: [https://osm-queries.ldodds.com/tutorial/index.html](https://osm-queries.ldodds.com/tutorial/index.html) (Accessed: 31 August 2025).
-* [_Learn Overpass._](https://osmlab.github.io/learnoverpass/en/) (no date). Available at: [https://osmlab.github.io/learnoverpass//en/](https://osmlab.github.io/learnoverpass/en/) (Accessed: 31 August 2025).
+* [_Overpass Tutorial_](https://osm-queries.ldodds.com/tutorial/index.html) (no date). Available at: [https://osm-queries.ldodds.com/tutorial/index.html](https://osm-queries.ldodds.com/tutorial/index.html) (Accessed: 31 October 2025).
+* [_Learn Overpass._](https://osmlab.github.io/learnoverpass/en/) (no date). Available at: [https://osmlab.github.io/learnoverpass//en/](https://osmlab.github.io/learnoverpass/en/) (Accessed: 31 October 2025).
 
 #### Video Tutorials
 
-* [_A turbo introduction to Overpass_](https://www.youtube.com/watch?v=q9QI4AfwHoM) _- MInh Nguyễn_ (2019). Available at: [https://www.youtube.com/watch?v=q9QI4AfwHoM](https://www.youtube.com/watch?v=q9QI4AfwHoM) (Accessed: 31 August 2025).
+* [_A turbo introduction to Overpass_](https://www.youtube.com/watch?v=q9QI4AfwHoM) _- MInh Nguyễn_ (2019). Available at: [https://www.youtube.com/watch?v=q9QI4AfwHoM](https://www.youtube.com/watch?v=q9QI4AfwHoM) (Accessed: 31 October 2025).
 
 #### Community and Support
 
