@@ -68,7 +68,7 @@ Image Verification Assistant's webpage provides an interactive [tutorial](https:
 
 Tools similar to Mever include [Forensically](https://bellingcat.gitbook.io/toolkit/more/all-tools/forensically), [FotoForensics](https://fotoforensics.com/), and the [InVid Verification Plugin](https://bellingcat.gitbook.io/toolkit/more/all-tools/invid).&#x20;
 
-Since InVid has incorporated Mever into its suite of verification tools, both platforms share the same image analysis filters. However, InVid allows users to verify video and audio in addition to images, and Mever does not. Both Mever and InVid support reverse image searches via Google, but InVid also integrates other search engines like Yandex, Bing, and TinEye for broader results, which Mever does not.
+Since InVid has incorporated Mever into its suite of verification tools, both platforms share the same image analysis filters. However, InVid allows users to verify video and audio in addition to images, and Mever does not. Both Mever and InVid support reverse image searches via Google, but InVid also integrates other search engines like Yandex, Bing, and TinEye for conducting a wider search, which Mever does not.
 
 Furthermore, Mever, Forensically, and FotoForensics all offer forensic image analysis through features like Error Level Analysis (ELA) and metadata examination. Among these, FotoForensics provides a more limited set of features than Mever and Forensically, which offer a broader range of forensic tools and analysis options.
 
