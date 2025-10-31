@@ -1,8 +1,8 @@
 ---
 description: >-
-  Soar is a database of over a million diverse maps & images , on a platform
-  where users can explore, upload, share and interact with  a vast collection of
-  content (including satellite, aerial & radar).
+  Soar is a platform sharing a growing database of over a million entries (maps,
+  satellite, aerial & radar imagery), access to imagery from statellite
+  providers, and tools to create geographic narrative
 ---
 
 # Soar
