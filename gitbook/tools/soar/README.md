@@ -31,33 +31,13 @@ Selection and acquisition of satellite imagery from a range of providers, both f
 
 * **Narrative Creation and Data Sharing**
 
-Provision of online visualisation features allowing the creation of multi-image narratives. User Data Sharing. Facility to upload and share user imagery, including narrative formats
+Provision of online visualisation features allowing the creation of multi-image narratives, and the facility to upload and share user imagery, including narrative formats.
 
 These constitute some of the major tasks which Open Source researchers undertake during investigations, making Soar **a multi-purpose platform for OSINV**.
 
 {% hint style="success" %}
 Note that some satellite imagery maps in the Soar database are of very high quality, i.e. 8cm per pixel resolution, making them particularly valuable resources.
 {% endhint %}
-
-~~<mark style="color:$info;">Soar is primarily a comprehensive digital atlas where users can discover, explore, navigate, and upload diverse maps and imagery. But it also functions as both a GIS exploration/navigation tool and a social platform for the global cartography community. The platform also enables satellite acquisition, user uploads, and visualization through its "Stoary" and GIFs feature for creating multi-slide map narratives with community-driven content sharing.</mark>~~
-
-~~<mark style="color:$info;">The main features are: DISCOVER, MAPS, SATELLITE, BOOKMARKS, UPLOAD</mark>~~&#x20;
-
-~~<mark style="color:$danger;">**NOTE: NOT ALL MAPS HAVE TRANSPARENCY FEATURE**</mark>~~&#x20;
-
-~~<mark style="color:$info;">NOTE: Based on our tests, the category "geo-referenced maps" mostly has the transparency feature. However, this feature cannot be used on "lo-fi" maps</mark>~~<mark style="color:$info;">.</mark>&#x20;
-
-~~<mark style="color:$danger;">**NOTE: Check base data is OSM**</mark>~~
-
-~~<mark style="color:$danger;">**NOTE: Afton discovered some very high resolution 8cm per pixel maps from sources like EU on Soar**</mark>~~
-
-~~<mark style="color:$danger;">**TEST is it the LoFi maps which don't have transparency by definition? TEST: Do all Georeferenced maps have transparency feature?**</mark>~~
-
-~~<mark style="color:$danger;">**TEST: Does LoFi mean "Soar didn't fit over OSM" and Georeferenced mean "Soar did fit over OSM"? See LoFi defined Christian Triebert Crimean Bridge damage map**</mark>~~
-
-~~<mark style="color:$danger;">**AMAZING FEATURE: TEST Does Soar AUTOFIT all Georeferenced maps over the basic OSM background by scaling and orientating them?**</mark>~~ [~~<mark style="color:$danger;">**Norte de Chile old map**</mark>~~](https://soar.earth/maps/america-argentina-bolivia-chile-mapa-de-la-puna-de-atacama-1892-136229?pos=-25.748184947866637%2C-71.36701986521231%2C6.64) ~~<mark style="color:$danger;">**is a really good example**</mark>**&#x20;**<mark style="color:$info;">**(particularly striking when the basemap is OpenElevation because the mountain range on the old map lines up well with the basemap!)**</mark><mark style="color:$danger;">**.**</mark>~~
-
-~~The Soar platform provides a number of services: <mark style="color:$danger;">**QUESTION: What is the difference between the features "Maps" and "Discover"? Is it actually just two routes to the same database, Maps being searched by location and Discover doing searching by topic and type? Afton's research shows different priorities in the search algorithms: TEST The Discover section offers no geo co-ordinates  input location but its search algorithm prioritises newly added material and regular contributors of content.**</mark>~~
 
 
 
@@ -72,37 +52,25 @@ Note that some satellite imagery maps in the Soar database are of very high qual
 
 ### ~~<mark style="color:$info;">Defining Soar's Atlas - What is it?</mark>~~&#x20;
 
+### Soar's Data Sources
+
 \
-~~<mark style="color:$info;">Soar hosts about 1,043,975 maps \[define what types]. The data comes from, but is not limited to:</mark>~~&#x20;
+Data sources for Soar's million maps include:&#x20;
 
-~~<mark style="color:$info;">1. Individuals (example https://soar.earth/profile/Warmapper and https://soar.earth/profile/spacefromspace)</mark>~~
+1\. **Individuals** (example https://soar.earth/profile/Warmapper and https://soar.earth/profile/spacefromspace)
 
-~~<mark style="color:$info;">2. Organizations (https://soar.earth/profile/UN or https://soar.earth/profile/EU)</mark>~~
+**2. Organizations** (https://soar.earth/profile/UN or https://soar.earth/profile/EU)
 
-~~<mark style="color:$info;">3. Government agency (https://soar.earth/profile/USGS)</mark>~~&#x20;
+**3. Government agency** (https://soar.earth/profile/USGS)&#x20;
 
-~~<mark style="color:$info;">4. Other satellite image providers (https://soar.earth/profile/Umbra)</mark>~~ \
+**4. Other satellite image providers** (https://soar.earth/profile/Umbra) \
 
 
 <mark style="color:$info;">Categories or types of maps are: \[list]</mark>
 
-\
-~~_<mark style="color:$info;">(The more I think about it, the clearer it becomes that) Soar is both a tool for working on geospatial data and a space for creative/custom map-making. When entering the Soar landing page, it offers users two main ways to engage with its atlas. Each reflects a different approach and a purpose. Do you want to use it like Google Earth /Sentinel Hub? Or do you want visually compelling map content?</mark>_~~\
+\ <mark style="color:$info;">Summarise in an expandable because this may change again</mark>
 
 
-### <mark style="color:$info;">Summarise in an expandable because this may change again</mark>
-
-~~_<mark style="color:$info;">The</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**Discover**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">section leans more into visual storytelling. This takes you</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**directly**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">to the atlas' user-uploaded maps,imagery etc.  It is a collection of both georeferenced maps and what Soar calls "LoFi" maps, which are designed for data visualization and artistic expression, rather than geographic precision.  For georeferenced maps, you can use a transparency slider to adjust how much of the basemap underneath shows through. This helps compare features or blend historical and current views. LoFi maps don't offer this, since they are not spatially aligned, but stand out for their design and narrative focus.</mark>_~~  \
-~~_<mark style="color:$info;">GIFS</mark>_~~\
-
-
-~~_<mark style="color:$info;">The</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**Maps**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">section works like a traditional GIS interface. You can search by coordinates, view satellite imagery, and layer your own georeferenced maps over basemaps. It is ideal for users who need accuracy and spatial detail. Zooming in or out triggers a dynamic sidebar to the left with related user-uploaded maps from Soar's Atlas, adding a curated browsing experience to the more technical side of the platform. The Maps takes you</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**indirectly**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">to the Atlas of user-uploaded maps, imagery.</mark>_~~  \
-
-
-~~_<mark style="color:$info;">There is, however, a crossover between these two sections. Features like the Atlas appearing on both and the transparency tool help bridge them. But that being said, the platform seems to lean slightly more toward showcasing its Atlas and visual content than emphasizing traditional mapping workflows. However, it does so in a way that still supports both audiences.</mark>_~~&#x20;
-
-\
-~~_<mark style="color:$info;">Quote from the creator: "Soar could become as ubiquitous as Google Maps but with more context and community." (https://www.popsci.com/technology/soar-online-atlas-open-source-intelligence/)</mark>_~~&#x20;
 
 ### &#x20;<mark style="color:$info;">(The Interface) Sophie try to put into a graphic or Tabs</mark>
 
