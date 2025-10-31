@@ -76,21 +76,37 @@ The database includes:
 
 Soar maps are searchable by features including location, map category, indexing tags, uploading username .
 
-### ~~<mark style="color:$info;">Defining Soar's Atlas - What is it?</mark>~~&#x20;
+<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td>Agriculture</td></tr><tr><td>Climate </td></tr><tr><td>Conflict Zone</td></tr><tr><td>Culture</td></tr><tr><td>Demographics</td></tr><tr><td></td></tr></tbody></table>
 
-### Soar's Data Sources
+<details>
 
-\
-Data sources for Soar's million maps include:&#x20;
+<summary>Soar groups maps under a developing framework of categories. <em>Click the arrow to see some typical Soar categories as at Oct 25...</em></summary>
 
-1\. **Individuals** (example https://soar.earth/profile/Warmapper and https://soar.earth/profile/spacefromspace)
+Agriculture\
+Climate&#x20;
 
-**2. Organizations** (https://soar.earth/profile/UN or https://soar.earth/profile/EU)
+Agriculture\
+Conflict Zone\
+Culture\
+Demographics\
+Earth Art\
+Economic\
+Environment\
+Geology\
+History\
+Imagery\
+Marine/Nautical\
+Politics\
+Radar
 
-**3. Government agency** (https://soar.earth/profile/USGS)&#x20;
+Spaceport\
+Elevation/Topography\
+Transport\
+Urban
 
-**4. Other satellite image providers** (https://soar.earth/profile/Umbra) \
+</details>
 
+### &#x20;
 
 <mark style="color:$info;">Categories or types of maps are: \[list]</mark>
 
