@@ -278,12 +278,9 @@ All tools which query OpenStreetMap share the limitations which the structure of
 4.  Behaviour of the LLM which converts the natural language to Overpass Turbo query language does not always produce identical results for the same query and very small (apparently semantically identical) changes in the input text can yield different solution results. Note in the example below that the particular phrasing of the query has resulted in Spot identifying two, rather than three, search features. The three relevant features are 1 "pylon", 2 "public transport" and 3 "water" but spot has only recognised two: "pylon" and "public transport near water".  See how this is shown in the Map Legend - this is very likely to affect the results returned.
 
     <figure><img src=".gitbook/assets/France_query_101.png" alt=""><figcaption></figcaption></figure>
-
-
-
-4. Some queries may take time to get results. This is because search time increases with the size of the search area, the number of search terms involved and the complexity of the logical combinations of search terms used in the query.
-5. Spot is based on crowdsourced OpenStreet Map Data. Anything not found in OSM’s database will not be returned in results (but this does not mean that other results do not exist, they might just not have been added to OSM).&#x20;
-6. Results may not always be accurate and should be double-checked against other mapping tools like Google Maps, Yandex Maps, Bing Maps, including street-view photography.&#x20;
+5. Some queries may take time to get minutes to retrieve results, since search time increases with the size of the search area, the number of search terms involved and the complexity of the logical combinations of search terms used in the query.
+6. Spot is based on crowdsourced OpenStreet Map Data. Anything not found in OSM’s database will not be returned in results (but this does not mean that other results do not exist, they might just not have been added to OSM).&#x20;
+7. Results may not always be accurate and should be double-checked against other mapping tools like Google Maps, Yandex Maps, Bing Maps, including street-view photography.&#x20;
 
 ## **Ethical Considerations**
 
@@ -382,12 +379,12 @@ The tool was developed by [DW Innovation](https://innovation.dw.com/about), Germ
 * [x] This tool uses cookieless tracking.&#x20;
 * [ ] This tool does not appear to use tracking cookies.
 
-The tool uses “cookieless tracking”. Although the “tracking” feature can be disabled on the “Legal & Privacy Statement” page, may want to consider taking precautions, such as using VPNs and browser extensions, to block tracking and prevent the potential revealing of their location.
+The tool uses “cookieless tracking”. Although the “tracking” feature can be disabled on the “Legal & Privacy Statement” page, users may want to consider taking precautions, such as using VPNs and browser extensions, to block tracking and prevent the potential revealing of their location.
 
-| Page maintainer                                                        |
-| ---------------------------------------------------------------------- |
-| Sophie Tedling (Sophie 2 10 25 11:45 UK) and Anisa Shabir 5:00 pm PKT  |
-|                                                                        |
+| Page maintainer                  |
+| -------------------------------- |
+| Sophie Tedling and Anisa Shabir  |
+|                                  |
 
 [^1]: [Open Street Map](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/TSRCKcxTTIGI6g9ZTkHy/) is a free, open map database of the world, which is updated and maintained by a community of volunteer contributors.
 
