@@ -29,7 +29,7 @@ Provision of online visualisation features allowing the creation of multi-image 
 These functions constitute some of the major tasks which Open Source researchers undertake during investigations, making Soar **a multi-purpose platform for OSINV.**
 
 {% hint style="success" %}
-Note that some satellite imagery maps in the Soar database are of very high quality, i.e. 8cm per pixel resolution, making them particularly valuable resources.
+Note that some satellite imagery maps in the Soar database are of very high quality, i.e. 8cm per pixel resolution, making them particularly valuable resources when they cover a researcher's region of interest.
 {% endhint %}
 
 ### The Soar Interface
