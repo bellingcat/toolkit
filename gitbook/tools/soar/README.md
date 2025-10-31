@@ -204,6 +204,28 @@ The transparency slider is not available for LoFi maps.&#x20;
 
 
 
+###
+
+## SATELLITES (Interface)
+
+<mark style="color:$danger;">**?Turn into a Hint??**</mark>
+
+<mark style="color:$danger;">**\[NB Note that Soar puts labels over Thumbnail maps to give information as to format, but these formats don't correspond exactly to the filters offered by Soar - labels include "GIF", "REAL TIME", "DAILY", POPULAR", "NEW", "LoFi (which IS one of the filterable categories)]**</mark>
+
+
+
+2.  An interface supporting access to satellite imagery for areas of interest and timeframes specified by the user, offering both free and charged data:
+
+    1. Sentinel-2 : Medium resolution, free
+    2. NASA : Low resolution, free
+    3. Pics from Space, charged [https://www.picsfromspace.com/](https://www.picsfromspace.com/) <mark style="color:$danger;">**Need to research this, needs login. Does it only provide SkyMap50 high resolution imagery? Looks like yes - See**</mark> [<mark style="color:$danger;">**https://spymesat.com/skymap.html**</mark>](https://spymesat.com/skymap.html) <mark style="color:$danger;">**"**</mark>_<mark style="color:$warning;">**Launched in 2018 (01 & 02) and 2018 (03 & 04) from the Taiyuan Satellite Launch Center in China, the four syn-synchronous satellites operate at an altitude of 500km and can monitor daily any location on the Earth at 50cm per pixel image resolution. At this zoom level, ground features such as individual trees, fences, cars and trucks can be all seen...**</mark><mark style="color:$warning;">SkyMap50 archival imagery orders can take between 2 to 5 working days to process and is available only in GeoTIFF format"</mark>_
+
+    _&#x61;_&#x6E;d providing the ability to combine sequential satellite images into an animated gif.
+
+### **AFTON TO RESEARCH THE VALIDITY OF THE SKYMAP 50 SATELLITE DATA SOURCE, AND WHETHER THIS SITE COULD BE LINKED TO DISINFORMATION.**
+
+Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99](https://soar.earth/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99)
+
 {% tabs fullWidth="false" %}
 {% tab title="DATA INPUT" %}
 * Location&#x20;
@@ -236,28 +258,6 @@ The transparency slider is not available for LoFi maps.&#x20;
 NB Location can be input as co-ordinates or a location name in MAPS section, but only as location name in DISCOVERY section
 {% endtab %}
 {% endtabs %}
-
-###
-
-## SATELLITES (Interface)
-
-<mark style="color:$danger;">**?Turn into a Hint??**</mark>
-
-<mark style="color:$danger;">**\[NB Note that Soar puts labels over Thumbnail maps to give information as to format, but these formats don't correspond exactly to the filters offered by Soar - labels include "GIF", "REAL TIME", "DAILY", POPULAR", "NEW", "LoFi (which IS one of the filterable categories)]**</mark>
-
-
-
-2.  An interface supporting access to satellite imagery for areas of interest and timeframes specified by the user, offering both free and charged data:
-
-    1. Sentinel-2 : Medium resolution, free
-    2. NASA : Low resolution, free
-    3. Pics from Space, charged [https://www.picsfromspace.com/](https://www.picsfromspace.com/) <mark style="color:$danger;">**Need to research this, needs login. Does it only provide SkyMap50 high resolution imagery? Looks like yes - See**</mark> [<mark style="color:$danger;">**https://spymesat.com/skymap.html**</mark>](https://spymesat.com/skymap.html) <mark style="color:$danger;">**"**</mark>_<mark style="color:$warning;">**Launched in 2018 (01 & 02) and 2018 (03 & 04) from the Taiyuan Satellite Launch Center in China, the four syn-synchronous satellites operate at an altitude of 500km and can monitor daily any location on the Earth at 50cm per pixel image resolution. At this zoom level, ground features such as individual trees, fences, cars and trucks can be all seen...**</mark><mark style="color:$warning;">SkyMap50 archival imagery orders can take between 2 to 5 working days to process and is available only in GeoTIFF format"</mark>_
-
-    _&#x61;_&#x6E;d providing the ability to combine sequential satellite images into an animated gif.
-
-### **AFTON TO RESEARCH THE VALIDITY OF THE SKYMAP 50 SATELLITE DATA SOURCE, AND WHETHER THIS SITE COULD BE LINKED TO DISINFORMATION.**
-
-Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99](https://soar.earth/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99)
 
 
 
@@ -321,27 +321,9 @@ To demonstrate the visualization capability of a "Stoary", we used the feature b
 
 
 
-## Soar Data&#x20;
-
 {% hint style="success" %}
-Soar data is particularly strong across different time modalities, e.g.&#x20;
 
-* static maps created over a long time period stretching back to  <mark style="color:$danger;">**1800 (looking for read date of oldest),**</mark>&#x20;
-* maps displaying real-time information feeds
-* animated gif maps displaying a sequence of changing information over time
 {% endhint %}
-
-<mark style="color:$info;">Sophie to condense and add this section to Interface info:</mark>
-
-_<mark style="color:$info;">\[Soar hosts about 1,043,975 maps \[define what types]. The data comes from, but is not limited to:</mark>_&#x20;
-
-_<mark style="color:$info;">1. Individuals (example https://soar.earth/profile/Warmapper and https://soar.earth/profile/spacefromspace)</mark>_
-
-_<mark style="color:$info;">2. Organizations (https://soar.earth/profile/UN or https://soar.earth/profile/EU)</mark>_
-
-_<mark style="color:$info;">3. Government agency (https://soar.earth/profile/USGS)</mark>_&#x20;
-
-_<mark style="color:$info;">4. Other satellite image providers (https://soar.earth/profile/Umbra) ]</mark>_
 
 <mark style="color:$danger;">**We need to detail the tools for measurement, annotation and sharing, and link to the Toolkit QGIS entry**</mark>
 
