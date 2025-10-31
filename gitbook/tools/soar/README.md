@@ -110,7 +110,9 @@ Urban
 
 The Soar interface has been regularly updated and redesigned since its launch.&#x20;
 
-**At Database level:** the Soar interface provides lists of maps relating to a given location, ways to filter them, a selection of base world map views, and a filterable selection of satellite paths.
+#### **At Database Level**
+
+**T**he Soar interface provides lists of maps relating to a given location, ways to filter them, a selection of base world map views, and a filterable selection of satellite paths.
 
 <figure><img src=".gitbook/assets/ANNOTATEDEXPLODED.JPG" alt=""><figcaption><p><strong>THE SOAR INTERFACE WHEN SEARCHING FOR MAPS</strong></p></figcaption></figure>
 
@@ -158,7 +160,9 @@ Invoke UPLOAD mode to add content to the Soar database
 {% endstep %}
 {% endstepper %}
 
-**At Map Level:** the Soar interface offers data on the account which posted the map, the facility to read and post comments, the set of tags describing the map, and the ability to adjust the map transparency against the base map underlay, and a tool to create graphic narratives.
+#### **At Map Level**
+
+**T**he Soar interface offers data on the account which posted the map, the facility to read and post comments, the set of tags describing the map, and the ability to adjust the map transparency against the base map underlay, and a tool to create graphic narratives.
 
 <figure><img src=".gitbook/assets/Interface MAP annotated2.JPG" alt=""><figcaption><p><strong>THE SOAR INTERFACE WHEN VIEWING A SELECTED MAP FROM THE DATABASE</strong></p></figcaption></figure>
 
@@ -194,7 +198,7 @@ These are maps or images (whether satellite, aerial, or drone capture) which con
 The transparency slider is not available for LoFi maps.&#x20;
 {% endhint %}
 
-
+#### At Satellite Level
 
 {% tabs fullWidth="false" %}
 {% tab title="DATA INPUT" %}
