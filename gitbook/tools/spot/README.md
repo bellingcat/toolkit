@@ -135,6 +135,8 @@ Spot provides the facility to edit the search parameters, once input via the nat
 <figure><img src=".gitbook/assets/InterfaceSpot.jpg" alt="" width="563"><figcaption></figcaption></figure>
 
 Location map marking all features in candidate solutions which satisfy the search criteria, but not marking those groups individually, giving the number of candidate solutions for the search, or providing an approximate location for viewpoints which could include them all.
+
+Note that Spot very clearly marks the overall search area for the query on its output map, which avoids confusion.&#x20;
 {% endtab %}
 
 {% tab title="USE CASES" %}
@@ -257,19 +259,21 @@ All tools which query OpenStreetMap share the limitations which the structure of
 
 1. The format of Spot's output is imprecise relative to other tools which clearly group the features supporting each different solution location proposed in response to the user's query e.g. [Bellingcat OpenStreetMap Search](https://bellingcat.gitbook.io/toolkit/more/all-tools/openstreetmap-search-tool). Spot puts all the features supporting each solution location onto the same output map, without counting the number of different solution locations and indicating the supporting features for each one. So Spot does **not** answer the question "How many different locations satisfy my criteria in the given search area? "
 2. Spot's valuable integrated street view access operates at the location of each feature on the solution map. Given that usually all the features mentioned in a query will be visible in the source image which is being geolocated, the view **at** a feature location is not likely to be a match. e.g. street view imagery taken at the central co-ordinates of the Eiffel Tower is unlikely to include images where the Eiffel Tower is clearly visible.
-3. When we tested the tool, Spot sometimes gave us errors (as at testing on 25/10/25). These are some of the different errors we came across:
+3. When we tested the tool, Spot sometimes gave us errors (as at testing on 25/10/25), as shown below. Sometimes refreshing the browser and/or slightly rephrasing the query may overcome issues:
 
-<div><figure><img src=".gitbook/assets/Cologne system hickup.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/geometry2025-07-05 at 22.04.20.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/London Unknown error copy.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/Cologne system hickup.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/geometry2025-07-05 at 22.04.20.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/London Unknown error copy.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/Another error cropped.png" alt=""><figcaption></figcaption></figure></div>
 
 &#x20; &#x20;
 
+4.  Behaviour of the LLM which converts the natural language to Overpass Turbo query language does not always produce identical results for the same query and very small (apparently semantically identical) changes in the input text can yield different solution results. Note in the example below that the particular phrasing of the query has resulted in Spot identifying two, rather than three, search features. The three relevant features are 1 "pylon", 2 "public transport" and 3 "water" but spot has only recognised two: "pylon" and "public transport near water".  See how this is shown in the Map Legend - this is very likely to affect the results returned.
+
+    <figure><img src=".gitbook/assets/France_query_101.png" alt=""><figcaption></figcaption></figure>
 
 
-4. Complex queries can return no results so users should simplify their search criteria as far as possible.
-5. The tool exhibits strange behaviour at the time of writing in August 2025. Sometimes results may not meet the search criteria.
-6. Some queries may take time to get results. This is because search time increases with the size of the search area, the number of search terms involved and the complexity of the logical combinations of search terms used in the query.
-7. Spot is based on crowdsourced OpenStreet Map Data. Anything not found in OSM’s database will not be returned in results (but this does not mean that other results do not exist, they might just not have been added to OSM).&#x20;
-8. Results may not always be accurate and should be double-checked against other mapping tools like Google Maps, Yandex Maps, Bing Maps, including street-view photography.&#x20;
+
+4. Some queries may take time to get results. This is because search time increases with the size of the search area, the number of search terms involved and the complexity of the logical combinations of search terms used in the query.
+5. Spot is based on crowdsourced OpenStreet Map Data. Anything not found in OSM’s database will not be returned in results (but this does not mean that other results do not exist, they might just not have been added to OSM).&#x20;
+6. Results may not always be accurate and should be double-checked against other mapping tools like Google Maps, Yandex Maps, Bing Maps, including street-view photography.&#x20;
 
 ## **Ethical Considerations**
 
