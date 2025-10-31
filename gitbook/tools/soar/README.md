@@ -114,7 +114,7 @@ The Soar interface has been regularly updated and redesigned since its launch.&#
 
 When working from a location, users can:
 
-* Enter a name or co-ordinates, Zoom to a region and select an exact bounding box location.
+* Enter a name or co-ordinates, Zoom to a region and select an exact bounding box location with the box zoom function.
 * View and filter the maps presented by Soar around this specific location
 * Select a map and, if available, change Transparency to inspect the overlay of the georeferenced map against the base map, comparing features
 * Change the base map to inspect against OpenStreetMap, OpenElevation, Satellite and Hybrid views
@@ -130,7 +130,7 @@ When working from a location, users can:
 {% step %}
 ### Define
 
-Enter a name or co-ordinates, Zoom to a region and select an exact bounding box location.
+Enter a name or co-ordinates, Zoom to a region and select an exact bounding box location with the box zoom function.
 {% endstep %}
 
 {% step %}
@@ -172,51 +172,33 @@ Invoke UPLOAD mode to add content to the Soar database
 
 <figure><img src=".gitbook/assets/Interface MAP annotated2.JPG" alt=""><figcaption><p><strong>THE SOAR INTERFACE WHEN VIEWING A SELECTED MAP FROM THE DATABASE</strong></p></figcaption></figure>
 
-&#x20;<mark style="color:$info;">(The Interface) Sophie try to put into a graphic or Tabs</mark>
+{% hint style="info" %}
+Note that Soar categorises maps as either Georeferences or LoFi as per the definitions below:
+{% endhint %}
 
-MAPS
+{% columns %}
+{% column %}
+LOFI MAPS - NOT GEOREFERENCED
 
-<mark style="color:$info;">The default view is a zoomed-out satellite imagery of the Earth in the middle. To the left is a sidebar with a list of maps, to the right is a search box, zoom in, zoom out, and</mark> [<mark style="color:$info;">box zoom.</mark>](#user-content-fn-4)[^4]&#x20;
+Can't be linked to real-world co-ordinates
 
-<mark style="color:$info;">**LEFT SIDEBAR**</mark>
+<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2F2U83UEO8KjkX3jGLBsBn_2Fuploads_2FdcI1dFHcn1wkuH9HV5iT_2F2025-09-03_21-39-44 (1).avif" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
 
-<mark style="color:$info;">On the left is a sidebar with a list of user-uploaded maps.</mark>&#x20;
+{% column %}
+GEOREFERENCED MAPS
 
-_<mark style="color:$info;">Filtering:</mark>_ <mark style="color:$info;"></mark><mark style="color:$info;">This list can be filtered as: Agriculture, Climate, Culture, Demographics, Earth Art, Economic, Environment, Geology, History, Imagery, Marine/Nautical, Politics, Radar, Elevation/Topography, Transport, Urban.</mark>&#x20;
+Has been linked to real-world co-ordinates
 
-<mark style="color:$info;">**User view 1: Zoomed-out.**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">This will show maps organized according to what is featured by the tool provider, followed by new uploads.</mark>&#x20;
-
-<mark style="color:$info;">Map results can also be filtered as above.</mark>&#x20;
-
-<mark style="color:$info;">**User view 2: Zoomed-in on a specific location.**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">This will show maps (all types) available related to that area in particular or the neighboring region (i.e, zooming in on Algeria, gave us a list of maps, first showing Algeria Soviet National Map, followed by aerial imagery of Spain, and conflict map in Libya);</mark> &#x20;
-
-<mark style="color:$info;">Map results can also be filtered as above.</mark>&#x20;
-
-<mark style="color:$info;">**ON THE RIGHT:**</mark>
-
-<mark style="color:$info;">**Search box -**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">Input: coordinates, city names, Country, neighborhoods, some famous landmarks, but not specific addresses (house number street name + city)  (what are these location data called? gazetteer? reference data? address locator?)</mark>
-
-<mark style="color:$info;">**Zoom options -**</mark> <mark style="color:$info;"></mark> <mark style="color:$info;"></mark><mark style="color:$info;">zoom in, zoom out, and</mark> [<mark style="color:$info;">box zoom.</mark>](#user-content-fn-4)[^4]&#x20;
-
-<mark style="color:$info;">**BOTTOM RIGHT:**</mark>
-
-<mark style="color:$info;">Basemaps: OpenStreetMaps, Open Elevation, Satellite, Hybrid, White Base, Dark Base, White Blank, Dark Blank</mark>
-
-<mark style="color:$info;">Satellite Paths: Day/night, Sentinel 1A, Sentinel 2A, Sentinel 1B, Sentinel 2B, Landsat 8, International Space Station</mark>&#x20;
-
-<mark style="color:$info;">**BOTTOM CENTER:**</mark>&#x20;
-
-<mark style="color:$info;">"Create a Map" or a "Stoary" (See below for detailed description of this feature).</mark>&#x20;
-
-
-
-<mark style="color:$info;">Explain that DISCOVER AND MAPS are designed for different routes to the same information, the first centred round categories (?list them or just give examples again), the second centred around locations.</mark>
+<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2F2U83UEO8KjkX3jGLBsBn_2Fuploads_2FWvCTgEs5h8kkyymksYR5_2Flofi (1).avif" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 ### ~~<mark style="color:$info;">DISCOVER</mark>~~
 
 ~~<mark style="color:$danger;">**Discover section for 2 Map Types:**</mark>~~&#x20;
 
-[~~<mark style="color:$danger;">**LoFi**</mark>~~](#user-content-fn-5)[^5] ~~<mark style="color:$danger;">**and Georeferenced (use Soar definitions of these two terms - i.e. either fits over a geo world map or not), which we should probably define (I can't right now) and then about 15 categorisations (Afton finds categorisation to be arbitrary - TEST RESULT: one map can be categorised under more than one heading - test):**</mark>**&#x20;**<mark style="color:$info;">**Are GIFs part of georeferenced maps? (they have the transparency slider on most of them, and the search results in the Discover section include, lofi, standard maps, and GIFs)**</mark>~~&#x20;
+[~~<mark style="color:$danger;">**LoFi**</mark>~~](#user-content-fn-4)[^4] ~~<mark style="color:$danger;">**and Georeferenced (use Soar definitions of these two terms - i.e. either fits over a geo world map or not), which we should probably define (I can't right now) and then about 15 categorisations (Afton finds categorisation to be arbitrary - TEST RESULT: one map can be categorised under more than one heading - test):**</mark>**&#x20;**<mark style="color:$info;">**Are GIFs part of georeferenced maps? (they have the transparency slider on most of them, and the search results in the Discover section include, lofi, standard maps, and GIFs)**</mark>~~&#x20;
 
 ~~<mark style="color:$info;">(Afton's try at definition --Feel free to rephrase!)</mark>~~&#x20;
 
@@ -543,6 +525,4 @@ Soar, Perth, Australia<mark style="color:$danger;">**?**</mark>
 
 [^3]: Maps can be categorised as to whether or not they can be [georeferenced](https://en.wikipedia.org/wiki/Georeferencing)
 
-[^4]: using your cursor to draw a box and the map zooms in on that area of interest
-
-[^5]: Another terms is schematic
+[^4]: Another terms is schematic
