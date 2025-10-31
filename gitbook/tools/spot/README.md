@@ -136,7 +136,7 @@ Spot provides the facility to edit the search parameters, once input via the nat
 
 Location map marking all features in candidate solutions which satisfy the search criteria, but not marking those groups individually, giving the number of candidate solutions for the search, or providing an approximate location for viewpoints which could include them all.
 
-Note that Spot very clearly marks the overall search area for the query on its output map, which avoids confusion.&#x20;
+Note that Spot very clearly marks the overall search area for the query on its output map, and includes it in the map legend, which avoids confusion.&#x20;
 {% endtab %}
 
 {% tab title="USE CASES" %}
@@ -156,6 +156,16 @@ Use the search parameters box to adjust existing search features and their relat
 <div><figure><img src=".gitbook/assets/SpotSearchParametersSMALLEST (3).jpg" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/editOSMTags.JPG" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endtab %}
 {% endtabs %}
+
+{% hint style="danger" %}
+The user can input the location part of the search in two ways, and these often return different results:
+
+1\) Enter the location in the search box on the top right hand of the screen - the search will be conducted on a rectangle centred around a point representing the location
+
+2\) Enter the location in natural language as part of the text query entered into the "Your search" box in the top left of the screen - the search will look for a polygon of geographic map boundaries and search within that.
+
+The natural language query method (number 2) generally provides a smaller search space, which is beneficial for researchers.
+{% endhint %}
 
 ### Spot’s Output Result Map&#x20;
 
