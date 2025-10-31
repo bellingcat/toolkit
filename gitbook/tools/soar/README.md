@@ -168,7 +168,7 @@ Note that Soar categorises maps as either Georeferences or LoFi as per the defin
 
 {% columns %}
 {% column %}
-LOFI MAPS - NOT GEOREFERENCED
+**LOFI MAPS - NOT GEOREFERENCED**
 
 Can't be linked to real-world co-ordinates
 
@@ -178,7 +178,7 @@ These are image files which can't be layered on top of standard geographic basem
 {% endcolumn %}
 
 {% column %}
-GEOREFERENCED MAPS
+**GEOREFERENCED MAPS**
 
 Has been linked to real-world co-ordinates
 
@@ -191,7 +191,7 @@ These are maps or images (whether satellite, aerial, or drone capture) which con
 {% endcolumns %}
 
 {% hint style="warning" %}
-Users cannot use the transparency slider for LoFi maps.&#x20;
+The transparency slider is not available for LoFi maps.&#x20;
 {% endhint %}
 
 
@@ -208,6 +208,7 @@ Users cannot use the transparency slider for LoFi maps.&#x20;
 {% tab title="SOAR OUTPUT" %}
 * Maps
 * Satellite imagery
+* Animated GIFs of satellite imagery
 * Graphic Narratives
 {% endtab %}
 
@@ -215,6 +216,7 @@ Users cannot use the transparency slider for LoFi maps.&#x20;
 * Looking for a map
 * Looking for satellite imagery
 * Triangulating a problem by overlaying two data sources and using transparency
+* Creating an animated GIF to display satellite imagery changing over time
 * Communicating and sharing a narrative in graphical format
 {% endtab %}
 
