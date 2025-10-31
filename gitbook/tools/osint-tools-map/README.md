@@ -5,7 +5,7 @@ description: >-
   research.
 ---
 
-# Osint Tools Map
+# OSINT Tools Map
 
 ## URL
 
@@ -13,13 +13,13 @@ description: >-
 
 ## Description
 
-The Worldwide OSINT Tools Map, created by Cyberdetective, is an interactive platform that makes it easy for researchers to access publicly available information from across the globe. The website organizes data into different categories, including now-defunct states, continents, regions (like states, provinces, and areas), as well as cities and towns. This structure helps users find relevant resources even when they’re unfamiliar with a specific country or region.
+The OSINT Tools Map is an interactive, continuously updated map created by Cyber Detective that lists open-source intelligence (OSINT) resources from around the world. Each country entry contains links to official and unofficial data sources such as business registries, land cadastres, court databases, phone directories, and media archives. Its structured layout allows users to quickly locate national or regional information sources, making it a valuable starting point for investigators researching unfamiliar countries or sectors.
 
-The platform offers a wide range of tools that tap into various public records and sources. These include cadastral maps, which provide details about land ownership and property, business registries for information on registered companies, yellow pages for local business listings, and court documents that can be essential for legal and investigative work.
+The map offers a wide range of tools that draw from various public records and datasets. These include cadastral maps with land ownership details, business registries for company information, yellow pages for local listings, and court databases that can be essential for legal and investigative work.
 
-While the available resources may differ by country, with some offering more comprehensive data than others, the website still provides plenty of useful options for users, even when researching less familiar or harder-to-research locations.
+Although the depth of information varies by country—with some offering more extensive data than others—the OSINT Tools Map still provides a broad and practical entry point for users, even when exploring regions with limited digital transparency.
 
-<figure><img src=".gitbook/assets/osint-map1.png" alt=""><figcaption><p>Front page of OSINT tools map.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/osint-tool-maps.png" alt=""><figcaption><p>Screenshot of the OSINT Tools Map (October 2025), showing global coverage of OSINT resources by country and category.</p></figcaption></figure>
 
 To start using the OSINT tools map, click directly to explore specific countries, cities, or regions, or use the search bar to quickly find the location you are interested in. Additionally, the platform offers a list of countries, cities, territories, and services, which can be accessed by scrolling down, providing an alternative way to navigate through the various available resources.
 
@@ -27,7 +27,15 @@ For example, for France, various online resources provide valuable information a
 
 The French Yellow Pages can be explored through the Yellow/White pages directory, which lists businesses and services. For transport-related updates, the live map on sncf.com provides real-time information about train schedules. Additionally, papers.fr offers access to over 25 million death notices since 1970, as well as company information, contributing to a comprehensive resource for historical and business data.
 
-<figure><img src=".gitbook/assets/osint-map-france.png" alt=""><figcaption><p>France OSINT resources</p></figcaption></figure>
+<figure><img src=".gitbook/assets/france-osint-map.png" alt=""><figcaption><p>France OSINT resources page(October 2025)</p></figcaption></figure>
+
+## Features
+
+* Interactive map: navigate visually by country and region.
+* Categorized sources – includes business registries, cadastral maps, vehicle databases, phonebooks, court records, and local archives.
+* Regular updates – new data sources and links are added frequently.
+* Direct access – each entry links directly to third-party public data sites (availability may vary by country).
+* Simple interface – lightweight, browser-based map that requires no registration or login.
 
 ## Cost
 
@@ -45,7 +53,7 @@ The French Yellow Pages can be explored through the Yellow/White pages directory
 
 ## Limitations
 
-The map is a directory and not a database. Some of the external databases may require a subscription or payment for full access. The page also doesn’t show a date when it was last updated, so some site might go offline or change their access policies.
+While the OSINT Tools Map is regularly maintained, it primarily serves as a directory rather than a database. Linked sources may change or become unavailable over time, and the map itself does not display update timestamps for each dataset.
 
 ## Ethical Considerations
 
