@@ -10,7 +10,7 @@ description: A web-based tool for verifying the authenticity of images.
 
 ## Description
 
-Image Verification Assistant detects image manipulations. Users can upload either upload an image or provide a link to an online photo to get started.
+Image Verification Assistant by [Media Analysis, Verification and Retrieval group](https://mever.gr/post/mever-tools-for-image-and-video-verification-within-weverify/) (MeVer) detects image manipulations. Users can upload either upload an image or provide a link to an online photo to get started.
 
 The tool employs multiple image tampering detection algorithms and provides features such as detailed photo metadata analysis. Specifically, MeVer integrates 12 filters and displays the results on individual maps, each with a different detection filter for each type of inconsistency or tampering. One such filter, JPEG Ghosts, detects traces left when a part of a JPEG image is copied and pasted into another photo with a different compression quality, appearing as areas of high contrast when viewed through this filter.
 
@@ -72,7 +72,7 @@ Furthermore, Mever, Forensically, and FotoForensics all offer forensic image ana
 
 ### Tool provider
 
-Image Verification Assistant is [developed](https://mever.iti.gr/forensics/about.html) by CERTH-ITI, a research organization and Deutsche Welle (DW), Germany’s international broadcaster.
+The Image Verification Assistant was [developed](https://mever.iti.gr/forensics/about.html) by CERTH-ITI in collaboration with Deutsche Welle (DW), Germany’s international broadcaster.
 
 ## Advertising Trackers
 
