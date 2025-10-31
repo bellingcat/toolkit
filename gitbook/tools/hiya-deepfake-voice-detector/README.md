@@ -6,17 +6,15 @@ description: A tool for detecting audio deepfakes.
 
 ## URL
 
-[https://example.com](https://www.hiya.com/products/deepfake-voice-detector)
+[https://www.hiya.com/products/deepfake-voice-detector](https://www.hiya.com/products/deepfake-voice-detector)
 
 ## Description
 
-Hiya identifies deepfake audio. A deepfake is synthetic media, such as audio, video, or images, that mimics or copies the appearance of a real person created using artificial intelligence.
+Hiya identifies deepfake audio. A deepfake is [synthetic](https://www.turing.ac.uk/blog/what-are-deepfakes-and-how-can-we-detect-them) media, such as audio, video, or images, that mimics or copies the appearance of a real person created using artificial intelligence. This technology has been misused to spread disinformation and scam people, for example, by faking audio messages from [officials](https://www.abc.net.au/news/2024-01-23/ai-phonecall-posing-as-joe-biden-being-investigated/103378702) or [loved ones](https://archive.fo/cn2UV).
 
-This technology has been misused to spread disinformation and scam people, for example, by faking audio messages from [officials](https://www.abc.net.au/news/2024-01-23/ai-phonecall-posing-as-joe-biden-being-investigated/103378702) or [loved ones](https://archive.fo/cn2UV).
+To tackle this issue, Hiya launched its Chrome extension in [2024](https://blog.hiya.com/hiyas-new-chrome-extension-identifies-deepfakes) to help combat disinformation and prevent scams. This US-based company, which offers [call](https://www.hiya.com/) protection, introduced its deepfake-detection technology after acquiring [Loccus.ai](https://web.archive.org/web/20240307181036/https://www.loccus.ai/), a deepfake-detection firm, in July 2024. Subsequently, after Loccus’ acquisition, its deepfake detection solution became known as [Hiya AI Voice Detection](https://www.hiya.com/newsroom/press-releases/hiya-acquires-deepfake-voice-detection-leader-loccus-ai).
 
-To tackle this issue, Hiya launched its Chrome extension in [2024](https://blog.hiya.com/hiyas-new-chrome-extension-identifies-deepfakes) to help combat disinformation and prevent scams. This US-based company, which offers [call](https://www.hiya.com/) protection, introduced its deepfake-detection technology after acquiring Loccus.ai, a deepfake-detection firm, in July 2024. Subsequently, after Loccus’ acquisition, its deepfake detection solution became known as [Hiya AI Voice Detection](https://www.hiya.com/newsroom/press-releases/hiya-acquires-deepfake-voice-detection-leader-loccus-ai).
-
-Hiya is available as both a standalone Chrome extension and an integrated tool within the InVID Verification Plugin — a suite of verification tools used by journalists, researchers and fact-checkers to verify digital media. Once installed in the browser, it can detect audio deepfakes across social media, news, and other websites. After signing up for the extension, users get 20 daily credits for analyzing media.
+Hiya is available as both a standalone [Chrome](https://chromewebstore.google.com/detail/hiya-deepfake-voice-detec/akmieeldmgcllmokbpaibfelofjiilpc) extension and an integrated tool within the [InVID Verification Plugin](https://bellingcat.gitbook.io/toolkit/more/all-tools/invid) — a suite of verification tools used by journalists, researchers and fact-checkers to verify digital media. Once installed in the browser, it can detect audio deepfakes across social media, news, and other websites. After signing up for the extension, users get 20 daily credits for analyzing media.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-10-31 at 02.05.24.png" alt=""><figcaption><p>Hiya's Chrome extension shows a score of 3/100 for a portion of this video (from 0:17 to 0:25), featuring the Indian Army Chief, purportedly admitting that India lost six jets to Pakistan in the India-Pakistan conflict in May 2025. This author investigated and debunked the claim circulating online in August 2025 using Hiya's Chrome extension and inspected the original footage of the army chief, which was likely digitally altered to create this short deepfake clip.</p></figcaption></figure>
 
@@ -26,7 +24,7 @@ Moreover, this deepfake detection solution supports multiple languages, [accordi
 
 Hiya’s extension then rates the audio on a scale of 1 to 100: the lower the score, the higher the likelihood that the sample is fake, and as the score nears 100, the higher the probability that it is real.
 
-Although, the tool is not perfect and may lead to false positives, [fact-check](https://factcheck.afp.com/doc.afp.com.78448G3) [organizations](https://factcheck.afp.com/doc.afp.com.78448G3) have increasingly used Hiya (both Chrome extension and InVid’s integrated version) to investigate and debunk deepfake audio and voice in videos, thus making it a handy tool against the rising tide of fake news.
+Although, the tool is not perfect and may lead to false positives, [fact-check](https://factcheck.afp.com/doc.afp.com.78448G3) [organizations](https://factcheck.afp.com/doc.afp.com.78448G3) have increasingly used Hiya (both Chrome extension and InVid’s integrated version) to investigate and debunk deepfake audio and voice in videos, thus making it a handy tool against the rising tide of disinformation.
 
 ### Cost
 
@@ -52,7 +50,9 @@ A sign up is required to use Hiya's Chrome extension.
 
 ## Ethical Considerations
 
-The use of the tool increases the risk of abuse by those seeking to bypass it and improve their methods of creating deepfakes.
+The tool may produce false positives or negatives. Users, especially journalists and researchers, have an ethical obligation to double-check results before drawing conclusions or publishing findings.
+
+Public access to detection tools may help malicious actors improve evasion strategies, increasing the sophistication of future deepfakes.
 
 ## Guides and articles
 
