@@ -28,8 +28,8 @@ Spot is one amongst [a range of OSM search](#user-content-fn-2)[^2] tools which 
 
 <mark style="color:$primary;">**Query-Building Methods:**</mark> These tools all run a search of OpenStreetMap in the same way, but they use different methods to build the user's search query:&#x20;
 
-* some involve writing the query in a formal language&#x20;
-* some use a graphical interface to build the query.&#x20;
+* some involve writing the query in a formal language, e.g. [OverpassTurbo](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/yNF6qm7Ej1iALSmdkA3h/)&#x20;
+* some use a graphical interface to build the query, e.g. [Bellingcat OpenStreetmap Search](https://bellingcat.gitbook.io/toolkit/more/all-tools/openstreetmap-search-tool)
 * Spot is characterised by the use of [natural language](#user-content-fn-3)[^3] to express the users' search query, and this is a relatively new approach.&#x20;
 
 <mark style="color:$primary;">**Location Descriptors:**</mark> The Spot user can describe a location search in terms of :
@@ -40,7 +40,27 @@ Spot is one amongst [a range of OSM search](#user-content-fn-2)[^2] tools which 
 
 e.g. Enter "_**Find a pharmacy and a traffic light and a bus stop and a bridge within 70m in Cologne**_" and, in response, Spot will return a map showing those candidate groups of features whenever they meet the user's distance criteria within the given geographical search area.&#x20;
 
-<mark style="color:$primary;">**A common OSINV use case**</mark> involves the user describing an image or video frame which they want to geolocate, and using Spot to generate and visually inspect potential solution locations around a particular geographic region like a named city.&#x20;
+#### **A Common OSINV Use Case for Spot...**
+
+{% columns %}
+{% column %}
+...involves the user describing an image which they want to geolocate, and using Spot to generate and visually inspect potential solution locations around a particular geographic region like a named city.  This example opposite from a social media platform shows a fountain and a tower block and a church labelled as being in London, UK. Features in the image are shown next to items providing scale, e.g. trees, and help estimate the distance between them.
+{% endcolumn %}
+
+{% column %}
+<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2kIW8Z8_2Fuploads_2FiNBrEZXDUczSTr58q2MK_2Fhttps___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2.avif" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+
+{% endcolumn %}
+
+{% column %}
+
+{% endcolumn %}
+{% endcolumns %}
 
 ### What Spot Does
 
@@ -164,11 +184,11 @@ For examples where there are multiple solution locations meeting the search crit
 ### Example Use Case
 
 {% columns %}
-{% column %}
+{% column width="50%" %}
 Take this Instagram post “London Summer Fragments Day #1” as source material to be geolocated.
 {% endcolumn %}
 
-{% column %}
+{% column width="50%" %}
 <figure><img src=".gitbook/assets/Blurred Insta users.jpg" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
