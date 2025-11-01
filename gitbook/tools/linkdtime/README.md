@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-LinkdTime is a command-line Python tool that scrapes LinkedIn pages to recover the precise date and time of posts, comments, replies and profile-image changes, then lays them out chronologically. You can feed it one URL to see when that action happened or pass a text file of many links to generate an HTML or TXT timeline with optional embedded images. Recognised activities include posts, comments, profile-picture changes, background-image changes and company-logo swaps (see [GitHub](https://github.com/Lucksi/LinkdTime)).\
+LinkdTime is a small CLI Python tool that **derives precise timestamps from LinkedIn activity URLs** (posts, comments/replies, profile‑photo/background‑image/company‑logo changes) and can assemble them into a chronological timeline (HTML/TXT). For timestamping, it **decodes the numeric ID embedded in LinkedIn URLs** rather than scraping page HTML, so the time extraction itself works **without network access**; optional flags can **save/download images** for timelines. Outputs are a single timestamp for one URL or an HTML/TXT timeline for a list, with **timezone, date, and clock format configurable**. (see [GitHub](https://github.com/Lucksi/LinkdTime)).\
 
 
 It accepts either:\
@@ -27,14 +27,24 @@ It accepts either:\
 ## Typical Workflow
 
 ```
-# 1. Clone & run a single-URL lookup
-git clone https://github.com/Lucksi/LinkdTime
-cd LinkdTime
-python3 main.py https://www.linkedin.com/feed/update/urn:li:activity:7123…
+# Installation
+git clone https://github.com/Lucksi/LinkdTime && cd LinkdTime
 
-# 2. Build a bulk timeline
-python3 main.py timeline links.txt --autoname --description "Suspect A activity"
-# flags: --save  (embed Base64)  •  --download  (save images)
+# Auth / first-run
+# No login or API keys required for timestamp extraction (works offline).
+# Ensure Python 3 is installed on Linux.  # Docs: see README.
+
+# Example usage
+# 1) Single URL → print timestamp
+python3 main.py "https://www.linkedin.com/feed/update/urn:li:activity:1234567890123456789/"
+
+# 2) Bulk timeline (one URL per line in links.txt), with auto-names and description
+python3 main.py timeline links.txt --autoname --description "Subject A activity"
+
+# Optional assets for timeline output:
+#   --save      # embed images as Base64 into HTML
+#   --download  # save original images alongside the HTML
+#   --timezone "GMT+4:00"   # override default timezone
 ```
 
 The script [returns ](https://github.com/Lucksi/LinkdTime)either a single timestamp or a full HTML / TXT timeline (optional embedded images or Base64). Investigators can therefore spot coordination patterns, for example, discovering that replies labelled “organic” landed within minutes of each other. The tool prints either one [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) timestamp or writes `timeline.html` / `timeline.txt`. Investigators can visualise coordination, e.g. _five “organic” replies_ landing **< 3 min** after a post may indicate **astroturfing** (see definition above).
@@ -79,7 +89,8 @@ Open-source under the GPL-3.0 licence; no paid tier ([GitHub](https://github.com
 
 ## Tool provider
 
-Created and maintained by [**Luca Garofalo**](https://github.com/Lucksi) **(Lucksi)**, an Italy-based open-source developer.
+• **Developer:** Luca Garofalo (**Lucksi**) – GitHub profile and repository. [GitHub](https://github.com/Lucksi?utm_source=chatgpt.com)\
+• **License:** **GPL‑3.0** (see LICENSE in repo). [GitHub](https://github.com/Lucksi/LinkdTime)
 
 ## Similar tools
 
