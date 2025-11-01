@@ -1,5 +1,5 @@
 # Table of contents
 
-* [World Database Protected Areas](README.md)
+* [World Database on Protected and Conserved Areas](README.md)
 * [Categories](categories.md)
 * [Regions](regions.md)
