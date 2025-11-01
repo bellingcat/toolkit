@@ -9,7 +9,7 @@ description: A toolkit that supports the verification of videos and images.
 
 [https://weverify.eu/verification-plugin/](https://weverify.eu/verification-plugin/)
 
-(v. 0.87 - July 2025; last checked: August 31 st 2025)
+(v. 0.87 - July 2025; last checked: Oct 31 st 2025)
 
 ### Description
 
