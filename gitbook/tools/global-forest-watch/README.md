@@ -19,9 +19,11 @@ As of October 2025, some of the data underlying this tool is no longer being upd
 This tool visualizes both historic and near real-time data. Especially when dealing with recent data, use this tool with caution. Always verify data through its original source.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/Screenshot_1forest cahnge.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot_1forest cahnge.png" alt=""><figcaption><p>Tree cover gain and loss layers</p></figcaption></figure>
 
-**Global Forest Watch** is an interactive map featuring a wide variety of data layers. On initial launch, the map shows global tree cover along with areas of recent tree cover loss and gain.
+**Global Forest Watch** is an interactive map featuring a wide variety of data layers.&#x20;
+
+On initial launch, you'll see global tree cover, tree cover loss, and tree cover gain.
 
 The map's layers are organized into five categories:
 
@@ -39,11 +41,17 @@ In the **Legend** panel, layers can be reordered and their opacity adjusted to h
 
 Layers specific to **Brazil**, **Cambodia**, **Indonesia** and **Peru** can be accessed by clicking 'Add country' under 'Country-specific data' at the top of the layers panel.
 
-Clicking on a region generates a detailed analysis of that area. By default, the area is defined by political boundaries, but in the **Analysis** panel (next to **Legend**), you can switch to river basin or terrestrial ecoregion boundaries. Alternatively, analyze custom boundaries by uploading a geospatial file (<1MB) or by drawing your own area on the map.
+Clicking on a region prompts an option to generate a detailed analysis of that area.&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2025-11-01 at 1.30.01 AM.png" alt="Analysis tab and a popup over France with an option to Analyze"><figcaption></figcaption></figure>
+
+By default, the area is defined by political boundaries, but in the **Analysis** panel (next to **Legend**), you can switch to river basin or terrestrial ecoregion boundaries. Alternatively, analyze custom boundaries by uploading a geospatial file (<1MB) or by drawing your own area on the map.
+
+<figure><img src=".gitbook/assets/Screenshot 2025-11-01 at 1.33.20 AM.png" alt="The map is zoomed into France, and on the left is a side panel with a detailed analysis of France&#x27;s tree cover loss."><figcaption><p>An analysis of tree cover loss in France</p></figcaption></figure>
 
 ### Forest Change
 
-<figure><img src=".gitbook/assets/Screenshot_1 fires.png" alt="Global Forest watch map showing fire alerts, fire weather and tree cover loss due to fires "><figcaption><p>Fire layers and their visual representation on the map.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot_1 fires.png" alt="Global Forest watch map showing fire alerts, fire weather and tree cover loss due to fires "><figcaption><p>Fire layers</p></figcaption></figure>
 
 Forest Change layers show where and how forests are lost, gained and disturbed, as well as near real-time fire alerts and more.
 
@@ -68,7 +76,7 @@ Forest Change layers show where and how forests are lost, gained and disturbed, 
 
 ### **Land Cover**
 
-<figure><img src=".gitbook/assets/Screenshot 2025-11-01 at 12.52.31 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-11-01 at 12.52.31 AM.png" alt="Map showing tree cover and tree cover height"><figcaption><p>Tree cover and tree cover height layers</p></figcaption></figure>
 
 Land Cover layers map the various types of natural and human-altered surfaces that cover Earth.
 
@@ -92,7 +100,7 @@ Land Cover layers map the various types of natural and human-altered surfaces th
 
 ### **Land Use**
 
-<figure><img src=".gitbook/assets/Screenshot 2025-10-31 at 11.42.29 PM.png" alt="Global Forest Watch map with mining concessions layer toggled on"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-10-31 at 11.42.29 PM.png" alt="Global Forest Watch map with mining concessions layer toggled on"><figcaption><p>Mining concessions layer</p></figcaption></figure>
 
 Layers in this section show how and where humans use land for agriculture, forestry, mining, conservation and infrastructure.&#x20;
 
@@ -125,7 +133,7 @@ Layers in this section show how and where humans use land for agriculture, fores
 
 ### **Climate**
 
-<figure><img src=".gitbook/assets/Screenshot_1 climate.png" alt="Global Forest Watch map with climate layers toggled on"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot_1 climate.png" alt="Global Forest Watch map with climate layers toggled on"><figcaption><p>Carbon flux layers</p></figcaption></figure>
 
 Climate layers in this section show how forests store and release carbon, including greenhouse gas emissions, carbon removals, and biomass density. They also estimate the potential for new forests to absorb carbon over time.
 
@@ -142,7 +150,7 @@ Climate layers in this section show how forests store and release carbon, includ
 
 ### **Biodiversity**
 
-<figure><img src=".gitbook/assets/Screenshot_1 Biodeversity.png" alt="Biodiversity layers toggled on, with map in view"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot_1 Biodeversity.png" alt="Biodiversity layers toggled on, with map in view"><figcaption><p>Biodiversity layers</p></figcaption></figure>
 
 Biodiversity layers provide insight into species richness, habitat ranges, conservation priorities and threats to biodiversity.
 
