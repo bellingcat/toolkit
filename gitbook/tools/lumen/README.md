@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-**Lumen** is a research project housed at Harvard Law School (originating at the Berkman Klein Center) that, as of mid‑2025, hosts **≈ 43 million** takedown notices referencing almost **10 billion** URLs and is growing by **over 200 000 notices every week**. It aggregates legal and extra‑legal removal demands from platforms such as Google Search, Meta (Facebook & Instagram), GitHub, Reddit, Medium, Vimeo, Wikipedia, DuckDuckGo, Cloudflare, WordPress and others. **Twitter/X paused data‑sharing on 15 Apr 2023**, and **YouTube is not currently contributing**. Formerly known as _Chilling Effects_, Lumen’s goal is to provide transparency around online content‑removal requests.
+Lumen is a Harvard‑affiliated research database of **legal complaints and content‑removal requests** (e.g., DMCA, defamation, court orders) submitted to online services. As of mid‑2025 it hosts **≈43 million** notices that reference **almost 10 billion URLs**. Investigators can search notices by keywords, entities (sender/recipient/principal), topics, and jurisdictions; exact‑phrase searching is available by quoting terms. A researcher login adds a per‑notice **“watch”** feature that emails updates when new documents (e.g., follow‑up court orders) are added.
 
 ### Key use cases and features:
 
@@ -260,7 +260,7 @@ You can iterate through pages by appending **`&page=2`**, **`&page=3`**, and so 
 * [ ] Partially Free
 * [ ] Paid
 
-Lumen is a free and open source project.
+API access is free for **research purposes**; tokens are issued on request to the Lumen team and use is governed by the API Terms of Use.
 
 ## Level of difficulty
 
@@ -278,7 +278,7 @@ Lumen is a free and open source project.
 
 ## Limitations
 
-* **Partial Coverage**: Coverage depends on voluntary submissions; **Twitter/X (since Apr 2023) and YouTube currently absent**.
+* **Coverage depends on participating platforms.** Notable gaps/changes: **YouTube does not currently share** copies of notices; **Twitter/X paused** data‑sharing on **2023‑04‑15**; **Automattic/WordPress** is “not currently sending”; **GitHub (paused)**; **Stack Exchange stopped in 2017**
 * **Redacted Fields:** Personally identifying information and entire text explanations may be redacted. For unregistered visitors, full URLs are truncated.
 * **No Bulk Export via Website**: For large-scale or automated retrieval, you **must** use the API.
 * **Date & Result Limits**: Extremely large or unfiltered searches might be capped or require date-slicing. Large, unfiltered queries can hit the 10 000‑result cap; slice by date when pulling data. Database growth now **> 200 k notices/week**.
