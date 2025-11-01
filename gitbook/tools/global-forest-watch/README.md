@@ -81,7 +81,21 @@ Each layer has unique limitations, and data collection dates vary. Each link bel
   * People
     * [**Indigenous and Community Lands**](https://www.globalforestwatch.org/map/?map=eyJjZW50ZXIiOnsibGF0IjozOC4zMzgzMjc5NDg4OTM5NCwibG5nIjotNzUuNTQ4NDAzNzMxOTgxMDR9LCJ6b29tIjozLjY2NDMxNDI1ODQ1MTk3MSwiZGF0YXNldHMiOlt7ImRhdGFzZXQiOiJsYW5kbWFyayIsIm9wYWNpdHkiOjEsInZpc2liaWxpdHkiOnRydWUsImxheWVycyI6WyJpbmRpZ2Vub3VzLWFuZC1jb21tdW5pdHktbGFuZHMtMjAxOSIsImluZGlnZW5vdXMtYW5kLWNvbW11bml0eS1sYW5kcy1wb2ludHMtMSJdfSx7ImRhdGFzZXQiOiJwb2xpdGljYWwtYm91bmRhcmllcyIsImxheWVycyI6WyJkaXNwdXRlZC1wb2xpdGljYWwtYm91bmRhcmllcyIsInBvbGl0aWNhbC1ib3VuZGFyaWVzIl0sIm9wYWNpdHkiOjEsInZpc2liaWxpdHkiOnRydWV9XX0%3D\&mapMenu=eyJtZW51U2VjdGlvbiI6ImRhdGFzZXRzIiwiZGF0YXNldENhdGVnb3J5IjoibGFuZFVzZSJ9\&mapPrompts=eyJzdGVwc0tleSI6ImFuYWx5emVBbkFyZWEiLCJzdGVwc0luZGV4IjowLCJmb3JjZSI6dHJ1ZX0%3D\&modalMeta=landmark_ip_lc_and_indicative_poly): global, non-comprehensive
 * Climate
+  * Carbon Flux
+    * [**Forest greenhouse gas emissions**](https://www.globalforestwatch.org/map/?map=eyJjZW50ZXIiOnsibGF0IjoyMS4xMzE3NjA1NDMyNTQxNDIsImxuZyI6LTk4LjAwNDAzMTA5MjU2MDEzfSwiem9vbSI6My4xODQ0NTg1MDgyMzUyMDY2LCJkYXRhc2V0cyI6W3siZGF0YXNldCI6ImNhcmJvbi1lbWlzc2lvbnMiLCJvcGFjaXR5IjoxLCJ2aXNpYmlsaXR5Ijp0cnVlLCJsYXllcnMiOlsiY2FyYm9uLWVtaXNzaW9ucy0yMDAxLTIwMjAiXX0seyJkYXRhc2V0IjoicG9saXRpY2FsLWJvdW5kYXJpZXMiLCJsYXllcnMiOlsiZGlzcHV0ZWQtcG9saXRpY2FsLWJvdW5kYXJpZXMiLCJwb2xpdGljYWwtYm91bmRhcmllcyJdLCJvcGFjaXR5IjoxLCJ2aXNpYmlsaXR5Ijp0cnVlfV19\&mapMenu=eyJtZW51U2VjdGlvbiI6ImRhdGFzZXRzIiwiZGF0YXNldENhdGVnb3J5IjoiY2xpbWF0ZSJ9\&mapPrompts=eyJzdGVwc0tleSI6ImFuYWx5emVBbkFyZWEiLCJzdGVwc0luZGV4IjowLCJmb3JjZSI6dHJ1ZX0%3D\&modalMeta=gfw_forest_carbon_gross_emissions): annual greenhouse gases released from tree loss, excluding carbon absorbed by forest growth | global
+    * [**Forest greenhouse gas net flux**](https://www.globalforestwatch.org/map/?map=eyJjZW50ZXIiOnsibGF0IjoyMS4xMzE3NjA1NDMyNTQxNDIsImxuZyI6LTk4LjAwNDAzMTA5MjU2MDEzfSwiem9vbSI6My4xODQ0NTg1MDgyMzUyMDY2LCJkYXRhc2V0cyI6W3siZGF0YXNldCI6Im5ldC1jYXJib24tZmx1eCIsIm9wYWNpdHkiOjEsInZpc2liaWxpdHkiOnRydWUsImxheWVycyI6WyJuZXQtY2FyYm9uLWZsdXgtMjAwMS0yMDIwIl19LHsiZGF0YXNldCI6InBvbGl0aWNhbC1ib3VuZGFyaWVzIiwibGF5ZXJzIjpbImRpc3B1dGVkLXBvbGl0aWNhbC1ib3VuZGFyaWVzIiwicG9saXRpY2FsLWJvdW5kYXJpZXMiXSwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZX1dfQ%3D%3D\&mapMenu=eyJtZW51U2VjdGlvbiI6ImRhdGFzZXRzIiwiZGF0YXNldENhdGVnb3J5IjoiY2xpbWF0ZSJ9\&mapPrompts=eyJzdGVwc0tleSI6ImFuYWx5emVBbkFyZWEiLCJzdGVwc0luZGV4IjowLCJmb3JjZSI6dHJ1ZX0%3D\&modalMeta=gfw_forest_carbon_net_flux): the balance between the emissions of forests and the carbon they absorb | global Forest carbon removals: total carbon dioxide absorbed by growing forests and stored in trees and their roots | global
+    * [**Forest carbon removals**](https://www.globalforestwatch.org/map/?map=eyJjZW50ZXIiOnsibGF0IjoyMS4xMzE3NjA1NDMyNTQxNDIsImxuZyI6LTk4LjAwNDAzMTA5MjU2MDEzfSwiem9vbSI6My4xODQ0NTg1MDgyMzUyMDY2LCJkYXRhc2V0cyI6W3siZGF0YXNldCI6ImNhcmJvbi1yZW1vdmFscyIsIm9wYWNpdHkiOjEsInZpc2liaWxpdHkiOnRydWUsImxheWVycyI6WyJjYXJib24tcmVtb3ZhbHMtMjAwMS0yMDIwIl19LHsiZGF0YXNldCI6InBvbGl0aWNhbC1ib3VuZGFyaWVzIiwibGF5ZXJzIjpbImRpc3B1dGVkLXBvbGl0aWNhbC1ib3VuZGFyaWVzIiwicG9saXRpY2FsLWJvdW5kYXJpZXMiXSwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZX1dfQ%3D%3D\&mapMenu=eyJtZW51U2VjdGlvbiI6ImRhdGFzZXRzIiwiZGF0YXNldENhdGVnb3J5IjoiY2xpbWF0ZSJ9\&mapPrompts=eyJzdGVwc0tleSI6ImFuYWx5emVBbkFyZWEiLCJzdGVwc0luZGV4IjowLCJmb3JjZSI6dHJ1ZX0%3D\&modalMeta=gfw_forest_carbon_gross_removals): total carbon dioxide absorbed by growing forests and stored in trees and their roots | global
+  * Carbon Density
+    * [**Tree biomass density**](https://www.globalforestwatch.org/map/?map=eyJjZW50ZXIiOnsibGF0IjoyMS4xMzE3NjA1NDMyNTQxNDIsImxuZyI6LTk4LjAwNDAzMTA5MjU2MDEzfSwiem9vbSI6My4xODQ0NTg1MDgyMzUyMDY2LCJkYXRhc2V0cyI6W3siZGF0YXNldCI6InRyZWUtYmlvbWFzcy1kZW5zaXR5Iiwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZSwibGF5ZXJzIjpbInRyZWUtYmlvbWFzcy1kZW5zaXR5Il19LHsiZGF0YXNldCI6InBvbGl0aWNhbC1ib3VuZGFyaWVzIiwibGF5ZXJzIjpbImRpc3B1dGVkLXBvbGl0aWNhbC1ib3VuZGFyaWVzIiwicG9saXRpY2FsLWJvdW5kYXJpZXMiXSwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZX1dfQ%3D%3D\&mapMenu=eyJtZW51U2VjdGlvbiI6ImRhdGFzZXRzIiwiZGF0YXNldENhdGVnb3J5IjoiY2xpbWF0ZSJ9\&mapPrompts=eyJzdGVwc0tleSI6ImFuYWx5emVBbkFyZWEiLCJzdGVwc0luZGV4IjowLCJmb3JjZSI6dHJ1ZX0%3D\&modalMeta=whrc_aboveground_biomass_stock_2000): amount of carbon stored in the above-ground wood of living trees | global
+  * Potential Carbon Gains
+    * [**Potential carbon sequestration rate**](https://www.globalforestwatch.org/map/?map=eyJjZW50ZXIiOnsibGF0IjoyMS4xMzE3NjA1NDMyNTQxNDIsImxuZyI6LTk4LjAwNDAzMTA5MjU2MDEzfSwiem9vbSI6My4xODQ0NTg1MDgyMzUyMDY2LCJkYXRhc2V0cyI6W3siZGF0YXNldCI6InBvdGVudGlhbC1jYXJib24tc2VxdWVzdHJhdGlvbi1yYXRlIiwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZSwibGF5ZXJzIjpbInBvdGVudGlhbC1jYXJib24tc2VxdWVzdHJhdGlvbi1yYXRlLTIwMjAiXX0seyJkYXRhc2V0IjoiZW5kZW1pYy1iaXJkLWFyZWFzIiwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZSwibGF5ZXJzIjpbImJpcmRsaWZlLWVuZGVtaWMtYmlyZC1hcmVhcy0yMDE0Il0sImlzbyI6IiJ9LHsiZGF0YXNldCI6InBvbGl0aWNhbC1ib3VuZGFyaWVzIiwibGF5ZXJzIjpbImRpc3B1dGVkLXBvbGl0aWNhbC1ib3VuZGFyaWVzIiwicG9saXRpY2FsLWJvdW5kYXJpZXMiXSwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZX1dfQ%3D%3D\&mapMenu=eyJtZW51U2VjdGlvbiI6ImRhdGFzZXRzIiwiZGF0YXNldENhdGVnb3J5IjoiY2xpbWF0ZSJ9\&mapPrompts=eyJzdGVwc0tleSI6ImFuYWx5emVBbkFyZWEiLCJzdGVwc0luZGV4IjowLCJmb3JjZSI6dHJ1ZX0%3D\&modalMeta=gfw_reforestable_extent_aboveground_carbon_potential_sequestration): estimated rates at which new forests could absorb carbon from the atmosphere and store it is trees over the first 30 years of natural growth | global, with specified data limitations&#x20;
 * Biodiversity
+  * [**Global biodiversity intactness**](https://www.globalforestwatch.org/map/?map=eyJjZW50ZXIiOnsibGF0IjoyMS4xMzE3NjA1NDMyNTQxNDIsImxuZyI6LTk4LjAwNDAzMTA5MjU2MDEzfSwiem9vbSI6My4xODQ0NTg1MDgyMzUyMDY2LCJkYXRhc2V0cyI6W3siZGF0YXNldCI6Imdsb2JhbC1iaW9kaXZlcnNpdHktaW50YWN0bmVzcyIsIm9wYWNpdHkiOjEsInZpc2liaWxpdHkiOnRydWUsImxheWVycyI6WyJiaW9kaXZlcnNpdHktaW50YWN0bmVzcy0yMDE5Il19LHsiZGF0YXNldCI6InBvbGl0aWNhbC1ib3VuZGFyaWVzIiwibGF5ZXJzIjpbImRpc3B1dGVkLXBvbGl0aWNhbC1ib3VuZGFyaWVzIiwicG9saXRpY2FsLWJvdW5kYXJpZXMiXSwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZX1dfQ%3D%3D\&mapMenu=eyJtZW51U2VjdGlvbiI6ImRhdGFzZXRzIiwiZGF0YXNldENhdGVnb3J5IjoiYmlvZGl2ZXJzaXR5In0%3D\&mapPrompts=eyJzdGVwc0tleSI6ImFuYWx5emVBbkFyZWEiLCJzdGVwc0luZGV4IjowLCJmb3JjZSI6dHJ1ZX0%3D\&modalMeta=birdlife_biodiversity_intactness): how in tact ecosystems remain in light of forest changes | global
+  * [**Global biodiversity significance**](https://www.globalforestwatch.org/map/?map=eyJjZW50ZXIiOnsibGF0IjozNC43NzcxNzkxMTY3Njc3NywibG5nIjotODQuNzU5NDk4NjgyODYxOTJ9LCJ6b29tIjo1LjQxMjI0MDQ5MTUzNzU2OTUsImRhdGFzZXRzIjpbeyJkYXRhc2V0IjoiZ2xvYmFsLWJpb2RpdmVyc2l0eS1zaWduaWZpY2FuY2UiLCJvcGFjaXR5IjoxLCJ2aXNpYmlsaXR5Ijp0cnVlLCJsYXllcnMiOlsiYmlvZGl2ZXJzaXR5LXNpZ25pZmljYW5jZS0yMDE5Il19LHsiZGF0YXNldCI6InBvbGl0aWNhbC1ib3VuZGFyaWVzIiwibGF5ZXJzIjpbImRpc3B1dGVkLXBvbGl0aWNhbC1ib3VuZGFyaWVzIiwicG9saXRpY2FsLWJvdW5kYXJpZXMiXSwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZX1dfQ%3D%3D\&mapMenu=eyJtZW51U2VjdGlvbiI6ImRhdGFzZXRzIiwiZGF0YXNldENhdGVnb3J5IjoiYmlvZGl2ZXJzaXR5In0%3D\&mapPrompts=eyJzdGVwc0tleSI6ImFuYWx5emVBbkFyZWEiLCJzdGVwc0luZGV4IjowLCJmb3JjZSI6dHJ1ZX0%3D\&modalMeta=birdlife_biodiversity_significance): the relative contribution of each forest pixel to the global distributions of mammals, birds, amphibians and conifers | global
+  * [**Alliance for Zero Extinction sites**](https://www.globalforestwatch.org/map/?map=eyJjZW50ZXIiOnsibGF0IjozNC43NzcxNzkxMTY3Njc3NywibG5nIjotODQuNzU5NDk4NjgyODYxOTJ9LCJ6b29tIjo1LjQxMjI0MDQ5MTUzNzU2OTUsImRhdGFzZXRzIjpbeyJkYXRhc2V0IjoiYWxsaWFuY2UtZm9yLXplcm8tZXh0aW5jdGlvbi1zaXRlcyIsIm9wYWNpdHkiOjEsInZpc2liaWxpdHkiOnRydWUsImxheWVycyI6WyJhbGxpYW5jZS1mb3ItemVyby1leHRpbmN0aW9uLXNpdGVzLTIwMTkiXX0seyJkYXRhc2V0IjoicG9saXRpY2FsLWJvdW5kYXJpZXMiLCJsYXllcnMiOlsiZGlzcHV0ZWQtcG9saXRpY2FsLWJvdW5kYXJpZXMiLCJwb2xpdGljYWwtYm91bmRhcmllcyJdLCJvcGFjaXR5IjoxLCJ2aXNpYmlsaXR5Ijp0cnVlfV19\&mapMenu=eyJtZW51U2VjdGlvbiI6ImRhdGFzZXRzIiwiZGF0YXNldENhdGVnb3J5IjoiYmlvZGl2ZXJzaXR5In0%3D\&mapPrompts=eyJzdGVwc0tleSI6ImFuYWx5emVBbkFyZWEiLCJzdGVwc0luZGV4IjowLCJmb3JjZSI6dHJ1ZX0%3D): critical sites for conservation that contain endangered species with limited ranges and populations found nowhere else on the planet | global
+  * [**Key biodiversity areas**](https://www.globalforestwatch.org/map/?map=eyJjZW50ZXIiOnsibGF0IjozMS43NDA3OTEwNTEyODg2OTIsImxuZyI6LTg0LjA5NjExODUwMzgwNTAyfSwiem9vbSI6NS40NzUwMDMyNTQ3NDY5MzgsImRhdGFzZXRzIjpbeyJkYXRhc2V0Ijoia2V5LWJpb2RpdmVyc2l0eS1hcmVhcyIsIm9wYWNpdHkiOjEsInZpc2liaWxpdHkiOnRydWUsImxheWVycyI6WyJrZXktYmlvZGl2ZXJzaXR5LWFyZWFzLTIwMTkiXX0seyJkYXRhc2V0IjoicG9saXRpY2FsLWJvdW5kYXJpZXMiLCJsYXllcnMiOlsiZGlzcHV0ZWQtcG9saXRpY2FsLWJvdW5kYXJpZXMiLCJwb2xpdGljYWwtYm91bmRhcmllcyJdLCJvcGFjaXR5IjoxLCJ2aXNpYmlsaXR5Ijp0cnVlfV19\&mapMenu=eyJtZW51U2VjdGlvbiI6ImRhdGFzZXRzIiwiZGF0YXNldENhdGVnb3J5IjoiYmlvZGl2ZXJzaXR5In0%3D\&mapPrompts=eyJzdGVwc0tleSI6ImFuYWx5emVBbkFyZWEiLCJzdGVwc0luZGV4IjowLCJmb3JjZSI6dHJ1ZX0%3D\&modalMeta=birdlife_key_biodiversity_areas): sites contributing significantly to the global persistence of biodiversity | global
+  * [**Biodiversity hotspots**](https://www.globalforestwatch.org/map/?map=eyJjZW50ZXIiOnsibGF0IjozMS43NDA3OTEwNTEyODg2OTIsImxuZyI6LTg0LjA5NjExODUwMzgwNTAyfSwiem9vbSI6NS40NzUwMDMyNTQ3NDY5MzgsImRhdGFzZXRzIjpbeyJkYXRhc2V0IjoiYmlvZGl2ZXJzaXR5LWhvdHNwb3RzIiwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZSwibGF5ZXJzIjpbImJpb2RpdmVyc2l0eS1ob3Qtc3BvdHMtMjAxNiJdfSx7ImRhdGFzZXQiOiJwb2xpdGljYWwtYm91bmRhcmllcyIsImxheWVycyI6WyJkaXNwdXRlZC1wb2xpdGljYWwtYm91bmRhcmllcyIsInBvbGl0aWNhbC1ib3VuZGFyaWVzIl0sIm9wYWNpdHkiOjEsInZpc2liaWxpdHkiOnRydWV9XX0%3D\&mapMenu=eyJtZW51U2VjdGlvbiI6ImRhdGFzZXRzIiwiZGF0YXNldENhdGVnb3J5IjoiYmlvZGl2ZXJzaXR5In0%3D\&mapPrompts=eyJzdGVwc0tleSI6ImFuYWx5emVBbkFyZWEiLCJzdGVwc0luZGV4IjowLCJmb3JjZSI6dHJ1ZX0%3D\&modalMeta=ci_biodiversity_hotspots)**:** regions where biodiversity conservation is most urgent | global
+  * [**Endemic bird areas**](https://www.globalforestwatch.org/map/?map=eyJjZW50ZXIiOnsibGF0IjozMi4yMzM3MjgxMTAxOTA4OSwibG5nIjotODQuMjc3NTc3ODI2NTMzNTZ9LCJ6b29tIjozLjk0Mjk3OTkxMTM3NTk4MDcsImRhdGFzZXRzIjpbeyJkYXRhc2V0IjoiZW5kZW1pYy1iaXJkLWFyZWFzIiwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZSwibGF5ZXJzIjpbImJpcmRsaWZlLWVuZGVtaWMtYmlyZC1hcmVhcy0yMDE0Il0sImlzbyI6IiJ9LHsiZGF0YXNldCI6InBvbGl0aWNhbC1ib3VuZGFyaWVzIiwibGF5ZXJzIjpbImRpc3B1dGVkLXBvbGl0aWNhbC1ib3VuZGFyaWVzIiwicG9saXRpY2FsLWJvdW5kYXJpZXMiXSwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZX1dfQ%3D%3D\&mapMenu=eyJtZW51U2VjdGlvbiI6ImRhdGFzZXRzIiwiZGF0YXNldENhdGVnb3J5IjoiYmlvZGl2ZXJzaXR5In0%3D\&mapPrompts=eyJzdGVwc0tleSI6ImFuYWx5emVBbkFyZWEiLCJzdGVwc0luZGV4IjowLCJmb3JjZSI6dHJ1ZX0%3D\&modalMeta=birdlife_endemic_bird_areas): regions where the ranges of multiple range-restricted bird species overlap | global
 
 ### Forest Change
 
@@ -171,7 +185,7 @@ Biodiversity layers can be combined with **forest change data, land use data, an
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
@@ -181,21 +195,19 @@ However, researchers who want to optimize their research can create an account u
 
 ## Limitations
 
-\-
+Each data layer has unique limitations. These are listed on each layer's info page, which can be accessed via the links above under [#available-map-layers](./#available-map-layers "mention") or by clicking the information icon in line with each layer's toggle button.
 
-## Ethical Considerations
 
-\-
 
 ## Guide
 
-Global Forest Watch provides a [step-by-step guide](https://www.globalforestwatch.org/help/map/guides/) on how to use the map.
+Global Forest Watch provides [step-by-step instructions](https://www.globalforestwatch.org/help/map/guides/) on how to use the map.
 
 The Global Forest Watch Fire Report Map is mentioned in Wim Zwijnenburg's Bellingcat article [Black Gold Burning: In Search Of South Sudan’s Oil Pollution](https://www.bellingcat.com/news/africa/2020/01/23/black-gold-burning-in-search-of-south-sudans-oil-pollution/)
 
 ## Tool provider
 
-The World Resources Institute (WRI).
+[World Resources Institute, Washington, D.C.](https://www.wri.org/north-america/united-states)
 
 ## Advertising Trackers
 
@@ -203,7 +215,7 @@ The World Resources Institute (WRI).
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat Volunteer Team |
-|                           |
+| Page maintainer                                        |
+| ------------------------------------------------------ |
+| [Courtney Cox](https://www.linkedin.com/in/court-cox/) |
+|                                                        |
