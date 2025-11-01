@@ -164,7 +164,7 @@ Invoke UPLOAD mode to add content to the Soar database
 
 **T**he Soar interface offers data on the account which posted the map, the facility to read and post comments, the set of tags describing the map, and the ability to adjust the map transparency against the base map underlay, and a tool to create graphic narratives.
 
-<figure><img src=".gitbook/assets/Interface MAP annotated2.JPG" alt=""><figcaption><p><strong>THE SOAR INTERFACE WHEN VIEWING A SELECTED MAP FROM THE DATABASE</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/Interface MAP annotated2.JPG" alt="" width="563"><figcaption><p><strong>THE SOAR INTERFACE WHEN VIEWING A SELECTED MAP FROM THE DATABASE</strong></p></figcaption></figure>
 
 {% hint style="info" %}
 Note that Soar categorises maps as either Georeferences or LoFi as per the definitions below:
@@ -338,11 +338,9 @@ Source: [Soar.Earth Digital Atlas QGIS Plugin - North Road](https://north-road.c
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
-
-
 Difficulty Level and Learning Curve:
 
-Overall: For a casual user exploring maps, the difficulty is moderate <mark style="color:$info;">(?)</mark>. For an investigator requiring precise data or intending to contribute advanced imagery, the difficulty is high <mark style="color:$info;">(?)</mark>, requiring some understanding of geospatial data principles or reliance on integrated GIS tools.
+Overall: For a casual user exploring maps, the difficulty is moderate. For an investigator requiring precise data or intending to contribute advanced imagery, the difficulty is high, requiring some understanding of geospatial data principles or reliance on integrated GIS tools.
 
 ## Requirements
 
