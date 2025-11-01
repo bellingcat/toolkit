@@ -81,9 +81,7 @@ Soar maps are searchable by features including location, map category, indexing 
 <summary>Soar groups maps under a developing framework of categories. <em>Click the arrow to see some typical Soar categories as at Oct 25...</em></summary>
 
 Agriculture\
-Climate&#x20;
-
-Agriculture\
+Climate\
 Conflict Zone\
 Culture\
 Demographics\
@@ -95,16 +93,13 @@ History\
 Imagery\
 Marine/Nautical\
 Politics\
-Radar
-
+Radar\
 Spaceport\
 Elevation/Topography\
 Transport\
 Urban
 
 </details>
-
-<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td>Agriculture</td></tr><tr><td>Climate</td></tr><tr><td>Conflict Zone</td></tr><tr><td>Culture</td></tr><tr><td>Demographics</td></tr><tr><td>Earth Art</td></tr><tr><td>Economic</td></tr><tr><td>Environment</td></tr></tbody></table>
 
 ### **Navigating the Interface to the Soar Map Database**
 
@@ -206,13 +201,13 @@ The Soar satellite interface supports access to satellite imagery for areas of i
 
 1. Sentinel-2 : Medium resolution, free
 2. NASA : Low resolution, free
-3. Pics from Space, a charged service at [https://www.picsfromspace.com/](https://www.picsfromspace.com/) which offers charged data from two [Chinese satellite services](#user-content-fn-4)[^4], including the ability to commission new satellite imagery according to user specification. &#x20;
+3. Pics from Space, a charged service at [https://www.picsfromspace.com/](https://www.picsfromspace.com/), which offers charged data from two [Chinese satellite services](#user-content-fn-4)[^4], including the ability to commission new satellite imagery according to user specification. &#x20;
 
 _&#x61;_&#x6E;d providing the ability to combine sequential satellite images into an animated gif via the Sentinel interface.
 
-### **AFTON TO RESEARCH THE VALIDITY OF THE SKYMAP 50 SATELLITE DATA SOURCE, AND WHETHER THIS SITE COULD BE LINKED TO DISINFORMATION.**
+Here's an uploaded [gif map example of a wildfire](https://soar.earth/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99)
 
-Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99](https://soar.earth/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99)
+### Soar Data: Input, Output and Use Cases
 
 {% tabs fullWidth="false" %}
 {% tab title="DATA INPUT" %}
@@ -249,6 +244,8 @@ Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceani
 NB Location can be input as co-ordinates or a location name in MAPS section, but only as location name in DISCOVERY section
 {% endtab %}
 {% endtabs %}
+
+### **AFTON TO RESEARCH THE VALIDITY OF THE SKYMAP 50 SATELLITE DATA SOURCE, AND WHETHER THIS SITE COULD BE LINKED TO DISINFORMATION.**
 
 
 
@@ -308,7 +305,7 @@ To demonstrate the visualization capability of a "Stoary", we used the feature b
 
 #### A**t Narrative Creation Level**
 
-<figure><img src=".gitbook/assets/INTERFACE CREATE A MAPS1.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/StoaryInterface.JPG" alt=""><figcaption></figcaption></figure>
 
 &#x20;  1\. On-Map Tools:
 
