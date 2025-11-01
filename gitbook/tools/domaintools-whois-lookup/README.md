@@ -1,8 +1,8 @@
 ---
+updated: '2025-09-10'
 description: >-
   DomainTools Whois provides detailed domain name registration information, and
   can be used to investigate details about domains or IP addresses.
-updated: '2025-09-10'
 ---
 
 # DomainTools Whois Lookup
@@ -29,15 +29,26 @@ Of these Tools, the following can be used without a DomainTools license:
 * **Current screenshot preview:** see the most recent screenshot of the content hosted on the website (if available)
 * **Available TLDs:** see an overview of other domains with the same website name but different top level domains (TLDs) such as ".net", ".org" or ".info". This can be used to discover other domains associated with the website, which may be used to host discover or outdated content.
 
-#### Advantages of a paid subscription
+## Advantages of a paid subscription
 
-From an investigations standpoint, one of the most valuable aspects of a paid subscription is that it will allow you to view historical information about a domain. This is increasingly important as more registrants are choosing to anonymise their identities. If the domain in question has historical ownership information, and you can compare the live version of the website to a previous version by using a web archiving tool like Wayback Machine, you might be able to infer (perhaps inconclusively) that the historical owner continues to run the webpage in question. &#x20;
+From an investigations standpoint, one of the most valuable aspects of a paid subscription is that it will allow you to view historical information about a domain. This is increasingly important as more registrants are choosing to anonymise their identities. If the domain in question has historical ownership information, and you can compare the live version of the website to a previous version by using a web archiving tool like Wayback Machine, you might be able to infer (perhaps inconclusively) that the historical owner continues to run the webpage in question.
+
+### Additional tools available for subscribers
+
+Several tools are available for paying subscribers - a comprehensive breakdown can be found [here](https://www.domaintools.com/products/domain-research/pricing/). DNSDB Scout and IRIS Investigate are particularly useful in investigations:
+
+* [DNSDB Scout](https://scout.dnsdb.info/dashboard) allows users to search an extensive database of current and historical Domain Name System (DNS) records that link domain names to IP addresses and name servers.
+* [IRIS Investigate](https://www.domaintools.com/products/platform/iris-investigate/) collates a range of information on domain names, from Whois to DNS data, and presents this in one place.
 
 ## Cost
 
 * [ ] Free
 * [x] Partially Free
 * [ ] Paid
+
+### DomainTools Investigative Journalism Grant Program
+
+Investigative journalists can [apply ](https://www.domaintools.com/company/press/grant-program/)for a grant to access IRIS Investigate and DNSDB Scout at no cost (or a reduced cost). Prospective users must meet a set of criteria and can apply via email.&#x20;
 
 ## Level of difficulty
 
@@ -57,7 +68,7 @@ As part of domain privacy measures, most domain registrars offer Whois privacy s
 
 ## Guides and articles
 
-User guides by DomainsTools can be found [here](https://www.domaintools.com/wp-content/uploads/Whois-User-Guide.pdf) and [here](https://www.domaintools.com/resources/user-guides/whois-history/).
+All [DomainTools ](https://www.domaintools.com/resources/user-guides/?_resources_products=farsight-dnsdb-scout\&referrer=Scout)resources can be accessed in one place. User guides by DomainsTools can be found [here](https://www.domaintools.com/wp-content/uploads/Whois-User-Guide.pdf) and [here](https://www.domaintools.com/resources/user-guides/whois-history/), and guidance is also available for [DNSDB Scout](https://docs.domaintools.com/dnsdb/scout/userguide/#common-pivot-exercise-2-ip-addresses-to-fqdns) and [IRIS Investigate](https://docs.domaintools.com/iris/investigate/userguide/#domain-profile-data-panel).&#x20;
 
 API documentation can be found [here](https://www.domaintools.com/resources/api-documentation/whois-lookup/).
 
