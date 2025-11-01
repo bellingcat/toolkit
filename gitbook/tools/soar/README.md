@@ -346,8 +346,6 @@ Overall: For a casual user exploring maps, the difficulty is moderate <mark styl
 
 ## Requirements
 
-<mark style="color:$info;">Account sign up / Email Address</mark>
-
 * Account sign up / Email Address
 * Modern browser - This will avoid 'freezing' where loading maps and zooming in for details can cause the browser to stop working.
 
