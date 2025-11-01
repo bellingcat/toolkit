@@ -159,7 +159,7 @@ Invoke UPLOAD mode to add content to the Soar database
 
 **T**he Soar interface offers data on the account which posted the map, the facility to read and post comments, the set of tags describing the map, and the ability to adjust the map transparency against the base map underlay, and a tool to create graphic narratives.
 
-<figure><img src=".gitbook/assets/Interface MAP annotated2.JPG" alt="" width="563"><figcaption><p><strong>THE SOAR INTERFACE WHEN VIEWING A SELECTED MAP FROM THE DATABASE</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/Interface MAP annotated2.JPG" alt=""><figcaption><p><strong>THE SOAR INTERFACE WHEN VIEWING A SELECTED MAP FROM THE DATABASE</strong></p></figcaption></figure>
 
 {% hint style="info" %}
 Note that Soar categorises maps as either Georeferences or LoFi as per the definitions below:
@@ -195,7 +195,7 @@ The transparency slider is not available for LoFi maps.&#x20;
 
 #### At Satellite Level
 
-<figure><img src=".gitbook/assets/satellitemenuannotated2.jpg" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/satellitemenuannotated2.jpg" alt=""><figcaption></figcaption></figure>
 
 The Soar satellite interface supports access to satellite imagery for areas of interest and timeframes specified by the user, offering both free and charged data:
 
@@ -245,9 +245,11 @@ NB Location can be input as co-ordinates or a location name in MAPS section, but
 {% endtab %}
 {% endtabs %}
 
+Sophie completed to here - >
+
+***
+
 ### **AFTON TO RESEARCH THE VALIDITY OF THE SKYMAP 50 SATELLITE DATA SOURCE, AND WHETHER THIS SITE COULD BE LINKED TO DISINFORMATION.**
-
-
 
 ### <mark style="color:$primary;">NARRATIVES (INTERFACE) and upload - Afton</mark>&#x20;
 
@@ -307,15 +309,15 @@ To demonstrate the visualization capability of a "Stoary", we used the feature b
 
 <figure><img src=".gitbook/assets/StoaryInterface.JPG" alt=""><figcaption></figcaption></figure>
 
-&#x20;  1\. On-Map Tools:
+&#x20;  1\. **On-Map Tools for Drawing, Map-making and Image Import include:**
 
-* &#x20; Area Measurement: Calculate area in km².
+* Area Measurement: Calculate area in km².
 * Ruler: Measure linear distances in km.
 * KML Import: Import KML files for overlay and AOI definition.
 * Text, Arrow, Circle, Square tools for annotations.
 * Latitude/Longitude display.
 
-2\. QGIS Plugin (for advanced users): <mark style="color:$info;">**TO TEST !! AFTON TO TEST AGAIN!! THEN SOPHIE ADD TO INTERFACE**</mark>
+2\. **QGIS Plugin (for advanced users) provides:** <mark style="color:$info;">**TO TEST !! AFTON TO TEST AGAIN!! THEN SOPHIE ADD TO INTERFACE**</mark>
 
 * Direct export of QGIS maps and images to Soar.
 * Browse and load Soar's public catalog into QGIS projects.
@@ -325,11 +327,9 @@ Source: [Soar.Earth Digital Atlas QGIS Plugin - North Road](https://north-road.c
 
 ## Cost
 
-* [x] Free
+* [ ] Free
 * [x] Partially Free
 * [ ] Paid
-
-\[\[Pricing or subscription information, if relevant.]]
 
 ## Level of difficulty
 
@@ -397,7 +397,7 @@ For satellite image combination into animated gif, compare with integrated Senti
 
 ## Tool provider
 
-Soar, Perth, Australia<mark style="color:$danger;">**?**</mark>
+Soar, Perth, Australia
 
 ## Advertising Trackers
 
