@@ -312,29 +312,17 @@ _<mark style="color:$info;">(Post on X:</mark>_ [_<mark style="color:$info;">htt
 
 To demonstrate the visualization capability of a "Stoary", we used the feature below using information [from a 2024 investigation by Bellingcat](https://www.bellingcat.com/news/2024/12/18/ukraine-outraged-at-yemen-grain-shipment-from-occupied-crimea/). NOTE: This is for demonstration purposes only.&#x20;
 
-<mark style="color:$info;">(We don't have to include this demo if we don't think it is that helpful.)</mark>&#x20;
+#### A**t Narrative Creation Level**
 
+<figure><img src=".gitbook/assets/INTERFACE CREATE A MAPS1.JPG" alt=""><figcaption></figcaption></figure>
 
+&#x20;  1\. On-Map Tools:
 
-
-
-{% hint style="success" %}
-
-{% endhint %}
-
-<mark style="color:$danger;">**We need to detail the tools for measurement, annotation and sharing, and link to the Toolkit QGIS entry**</mark>
-
-&#x20;  1\. On-Map Tools: <mark style="color:$danger;">**graphics helpful here   SOPHIE ON THE INTERFACE SECTION**</mark>
-
-&#x20; Area Measurement: Calculate area in km².
-
-&#x20; Ruler: Measure linear distances in km.
-
-&#x20; KML Import: Import KML files for overlay and AOI definition.
-
-&#x20; Text, Arrow, Circle, Square tools for annotations.
-
-&#x20; Latitude/Longitude display.
+* &#x20; Area Measurement: Calculate area in km².
+* Ruler: Measure linear distances in km.
+* KML Import: Import KML files for overlay and AOI definition.
+* Text, Arrow, Circle, Square tools for annotations.
+* Latitude/Longitude display.
 
 2\. QGIS Plugin (for advanced users): <mark style="color:$info;">**TO TEST !! AFTON TO TEST AGAIN!! THEN SOPHIE ADD TO INTERFACE**</mark>
 
