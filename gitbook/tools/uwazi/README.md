@@ -11,7 +11,7 @@ description: >-
 ## URL
 
 [https://uwazi.io/](https://uwazi.io/)\
-latest stable 1.227.9 (August 2025)&#x20;
+latest stable 1.228.82 (2025‑10‑29); checked October 31st, 2025
 
 ## Description
 
@@ -24,6 +24,8 @@ Uwazi can be useful for organizations and individuals who need a user-friendly, 
 Uwazi offers two deployment options: **self-hosted (free)** and **hosted**. With the [**self-hosted**](https://github.com/huridocs/uwazi) option, users can download and set up Uwazi on their own servers at no cost. This option provides full control over the platform, including customization and data security, but it requires technical expertise to install, manage, and maintain the server environment. Self-hosting also implies responsibility for implementing security measures, performing updates, and ensuring system reliability, which might be challenging for organizations without a dedicated IT team.
 
 On the other hand, the **hosted** option involves using Uwazi’s managed hosting service, where the platform is hosted and maintained by [HURIDOCS](https://huridocs.org/). This option is ideal for organizations that prefer a hassle-free setup with support and regular updates handled by the Uwazi team. While hosted services typically involve a cost beyond the initial free 30-day trial, they offer the convenience of professional management, enhanced security, and reliable uptime, making it a suitable choice for organizations with limited technical resources.
+
+Since April 2025, HURIDOCS has shipped[ integrated machine‑learning features](https://huridocs.org/2025/04/using-machine-learning-in-uwazi-to-support-human-rights-documentation-work/) that assist with translation, metadata/NER extraction, topic suggestions, and PDF‑focused workflows (segmentation and table‑of‑contents generation). Some functions are powered by optional external services HURIDOCS maintains as open source.&#x20;
 
 <div><figure><img src=".gitbook/assets/Screenshot 2024-09-25 115523.png" alt=""><figcaption><p>This screenshot illustrates Uwazi’s geospatial mapping capability, allowing users to visually pinpoint and organize documented information by location.</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2024-09-25 115546.png" alt=""><figcaption><p>Uwazi’s functionality for defining and managing relationships between different categories or templates of information. It shows how various entity types (e.g., Organization, Incident, Individuals) can be connected, enabling users to structure their data and understand links between different records.</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2024-09-25 115606.png" alt=""><figcaption><p>This screenshot illustrates Uwazi’s metadata configuration capabilities, showing how administrators can define, edit, and organize custom fields (e.g., text, numeric, relationships, links) to structure the information collected about a particular entity type.</p></figcaption></figure></div>
 
