@@ -248,6 +248,9 @@ Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceani
 * Input text name of location OR
 * Geographical co-ordinates OR
 * Point and click at a location on a map
+* Media content for upload to the Soar platform must comply with the following formats:&#x20;
+  * Georeferenced maps=GeoTIFF, ECW and JP
+  * LoFi Map formats = PNG and JPEG and create geographical media
 
 NB Location can be input as co-ordinates or a location name in MAPS section, but only as location name in DISCOVERY section
 {% endtab %}
@@ -340,13 +343,6 @@ To demonstrate the visualization capability of a "Stoary", we used the feature b
 * Batch upload functionality.
 
 Source: [Soar.Earth Digital Atlas QGIS Plugin - North Road](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)
-
-~~3. Collaboration Features: <mark style="color:$info;">The pin feature and embed maps are not features that are available anymore. So this must be outdated. I will strike through for now instead of delete.</mark>~~&#x20;
-
-* "<mark style="color:$info;">P</mark>~~<mark style="color:$info;">in" feature to save and overlay layers.</mark>~~
-* ~~<mark style="color:$info;">Annotations visible in embedded maps for collaborative context.</mark>~~
-
-[~~<mark style="color:$info;">https://about.soar.earth/blog-pages/soar-earth-launches-interactive-maps-on-any-website-with-new-embedded-map-tool</mark>~~](https://about.soar.earth/blog-pages/soar-earth-launches-interactive-maps-on-any-website-with-new-embedded-map-tool)
 
 ## Cost
 
