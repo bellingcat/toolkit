@@ -9,12 +9,22 @@ description: >-
 
 ## URL
 
-[https://discordleaks.unicornriot.ninja/discord/server/](https://discordleaks.unicornriot.ninja/discord/server/)\
-(last accessed Aug 31. 2025)
+[https://discordleaks.unicornriot.ninja/](https://discordleaks.unicornriot.ninja/)\
+(last accessed Oct 31. 2025)
 
 ## Description
 
-Unicorn Riot is a non-profit media organization in the United States. In the course of its reporting on hate groups and extremist networks, Unicorn Riot’s reporters have collected Discord and Rocket. Chat, and Skype chat logs—often by monitoring or infiltrating private servers—and made them publicly accessible for journalistic and research purposes. The “DiscordLeaks” web app allows the public to browse, search, and investigate these leaked chat logs, primarily focusing on far-right groups.
+**DiscordLeaks** is a Unicorn Riot–run web app for searching and browsing leaked chat logs from extremist communities. It exposes message archives (usernames, timestamps, channel context and, where available, attachments) across multiple platforms—primarily **Discord**, with additional corpora for **Rocket.Chat** and **Skype**—to support accountability journalism and research. Typical workflows include pivoting from a server to channels to users, running keyword queries, and using the **Advanced Search** date filters to constrain results. The database is static archival material; Unicorn Riot cautions that logs are published “as‑is” and external links may be risky.
+
+{% hint style="danger" %}
+Follow the site’s safety advice (use Tor/VPN, JS/privacy controls) when opening external links.
+{% endhint %}
+
+– [**Discord corpus**](https://discordleaks.unicornriot.ninja/discord/server/) — Server index shows **291 total servers** (100/page). \[as of 2025‑10‑31] \
+– [**User index**](https://discordleaks.unicornriot.ninja/discord/users) — **175,620 total users** (100/page). \[as of 2025‑10‑31]\
+– **Keyword search** and **Advanced Search** with **From/To** date filters. \
+– [**Rocket.Chat corpus**](https://unicornriot.ninja/2022/patriot-front-fascist-leak-exposes-nationwide-racist-campaigns/) — includes **Patriot Front** leak; UR notes **55,249 Rocket.Chat messages** hosted with attachments and “Vault” downloads. \
+– [**Skype corpus**](https://discordleaks.unicornriot.ninja/skype/) — browsable conversations and user listings.&#x20;
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
