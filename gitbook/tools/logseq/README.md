@@ -1,5 +1,5 @@
 ---
-updated: '2025-08-31'
+updated: '2025-10-31'
 description: >-
   Logseq is an open-source knowledge management tool that enables users to
   organize their notes, tasks, and projects.

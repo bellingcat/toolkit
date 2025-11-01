@@ -1,5 +1,5 @@
 ---
-updated: '2025-09-30'
+updated: '2025-10-31'
 description: >-
   A tool that identifies which Bluesky accounts are followed by a profile’s
   contacts but not by that profile. Can be used for expanding networks and

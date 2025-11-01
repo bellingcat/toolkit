@@ -1,5 +1,5 @@
 ---
-updated: '2025-08-31'
+updated: '2025-11-01'
 description: >-
   Search hundreds of thousands of messages leaked from 290+ white-supremacist /
   nazi discord servers.

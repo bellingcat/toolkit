@@ -1,5 +1,5 @@
 ---
-updated: '2025-08-31'
+updated: '2025-10-31'
 description: Open-source network analysis and visualization software
 ---
 

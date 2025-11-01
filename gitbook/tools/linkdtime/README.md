@@ -2,6 +2,7 @@
 description: >-
   Build a clean timeline of any LinkedIn activity from a single URL or a whole
   list of links.
+updated: '2025-11-01'
 ---
 
 # LinkdTime
