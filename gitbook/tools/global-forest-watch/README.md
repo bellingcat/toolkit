@@ -49,7 +49,7 @@ The system also provides a global vegetation disturbance alert but for now this 
 
 #### **Fires**
 
-GFW also provides detailed monitoring of active fires, which are a major cause of forest degradation and greenhouse gas emissions. The fire alerts come from NASA’s VIIRS (Visible Infrared Imaging Radiometer Suite) satellite sensor and are updated several times daily.
+GFW also provides detailed monitoring of active fires, which are a major cause of forest degradation and greenhouse gas emissions. The fire alerts come from [NASA’s VIIRS (Visible Infrared Imaging Radiometer Suite)](https://www.earthdata.nasa.gov/data/instruments/viirs) satellite sensor and are updated several times daily.
 
 These VIIRS active fire alerts identify thermal anomalies—or “hotspots”—that are likely to be caused by open burning, including wildfires, slash-and-burn agriculture, or land-clearing fires. With a resolution of approximately 375 meters, these alerts offer global coverage and are essential for detecting both natural and human-induced fires.
 
@@ -59,7 +59,7 @@ On the GFW map, users can view fire alerts in near real time, filter by date, an
 
 ### **Land Cover**
 
-Land Cover provides essential spatial data about **what types of natural or human-altered surfaces** exist across the globe. On the left-hand side of the GFW map interface, under the **“Land Cover”** section, users can select from multiple global and regional datasets.&#x20;
+Land Cover provides essential spatial data about **what types of natural or human-altered surfaces** exist across the globe. On the left-hand side of the GFW map interface, under the **“Land Cover”** section, users can select from multiple global and regional datasets.
 
 <div align="left"><figure><img src=".gitbook/assets/Screenshot 2025-09-15 at 18.09.39.png" alt="" width="188"><figcaption><p>The Land Cover section offers different types of layers including "Tree cover", "Natural Forests" or "Mangrove forests".</p></figcaption></figure></div>
 
@@ -67,7 +67,7 @@ These layers can be toggled on/off and displayed simultaneously with forest chan
 
 For certain land cover datasets, the Land Cover section lets users view data by year (e.g., to see land cover classification from 2015 through 2022), using the **timeline slider**.
 
-Users can also adjust the **opacity** of the land cover layers and rearrange their **layer order** in the map interface, allowing for better comparison between multiple datasets.&#x20;
+Users can also adjust the **opacity** of the land cover layers and rearrange their **layer order** in the map interface, allowing for better comparison between multiple datasets.
 
 The map’s **Analysis Tool** lets users draw a custom area, upload a shapefile, or select predefined administrative/ecological zones (like countries or river basins). GFW then calculates the **distribution of land cover classes** within the selected region.
 
