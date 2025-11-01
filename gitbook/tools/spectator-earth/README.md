@@ -1,5 +1,7 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  Live Satellite Monitoring and Centralized Data Access, providing seamless
+  access the world of earth observation satellites.
 ---
 
 # Spectator Earth
