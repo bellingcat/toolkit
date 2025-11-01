@@ -3,7 +3,7 @@ updated: '2025-10-31'
 description: QGIS is a free Open Source Geographic Information System (GIS).
 ---
 
-# QGIS:
+# QGIS
 
 ## URL
 
