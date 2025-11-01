@@ -35,7 +35,7 @@ The map's layers are organized into five categories:
 
 All layers can be toggled on or off.
 
-Below, each layer is listed under its corresponding category, each with a link to more info on its data source(s), limitations, curation date and update schedule.
+Each layer is listed under its corresponding category below, each with a link to more info on its data source(s), limitations, curation date and update schedule.
 
 In the **Legend** panel, layers can be reordered and their opacity adjusted to help compare multiple datasets. Some layers can also be filtered by date in this panel.
 
