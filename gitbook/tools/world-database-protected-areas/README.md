@@ -40,6 +40,18 @@ The database is known for its comprehensiveness. Note that protected or conserve
 
 Data are reported at any time by national governments, international convention secretariats, intergovernmental organizations and nonprofits that are responsible for designating areas for protection or conservation.&#x20;
 
+The following data are available for each area with a unique ID:
+
+* Name
+* WDPA ID
+* Coverage area in km<sup>2</sup>
+* Designation, IUCN Management category, designation type, designation name, year
+* Governance type and management authority (e.g., a government ministry name)
+* Management Plan - reported or not, implemented or not. Provides link to management plan if available.
+* International criteria
+
+
+
 > **💡Recent and announced changes**
 >
 > Two databases from this website have been newly combined since [October 2025](https://www.protectedplanet.net/en/news-and-stories/introducing-the-wdpca). One of these databases focused on protected areas, and the other on Other Effective Area-based Conservation Measures (OECMs).&#x20;
@@ -61,16 +73,6 @@ If you are seeking information for a continent or country level, select Regions 
 * **Individual Areas**: Enter the name of a specific protected or conserved area.&#x20;
 
 Data are updated every month, with changelogs available on the website's [Update Tracker](https://www.protectedplanet.net/en/monthly-release-news) page.&#x20;
-
-The following data are available for each area with a unique ID:
-
-* Name
-* WDPA ID
-* Coverage area in km<sup>2</sup>
-* Designation, IUCN Management category, designation type, designation name, year
-* Governance type and management authority (e.g., a government ministry name)
-* Management Plan - reported or not, implemented or not. Provides link to management plan if available.
-* International criteria
 
 ### Tips for searching for a specific area
 
@@ -98,7 +100,10 @@ For example, if you are looking for protected areas in Egypt, make sure to selec
 
 After finding the data you need, click the "Download" button on the top-right corner and choose your preferred format: CSV for tabular data, SHP for shapefiles, or file geodatabase.&#x20;
 
-The download will be in a zip file. When you unzip it, you will find that apart from the data files, a data dictionary and the user manual are included. (The user manual is automatically downloaded in 5 languages / 5 files: English, Spanish, French, Arabic, and Russian.)&#x20;
+The download will be in a zip file. When you unzip it, you will find that apart from the data files, a data dictionary and the user manual are included. (The user manual is automatically downloaded in 5 languages / 5 files: English, Spanish, French, Arabic, and Russian.) \
+\
+• See below on a quick way to view and visualize shapefiles. \
+• File geodatabase can be opened in ArcGIS or QGIS. (Bellingcat Toolkit entry on QGIS [here](https://bellingcat.gitbook.io/toolkit/more/all-tools/qgis).)
 
 <details>
 
@@ -138,14 +143,13 @@ Now you can click on an area to see the data available.&#x20;
 ## Requirements
 
 * Any modern web browser (e.g., Google Chrome, Microsoft Edge, Mozilla Firefox).&#x20;
-* A basic spreadsheet tool (e.g., Google Sheets, Microsoft Excel) if working with .csv files.&#x20;
 * A basic GIS tool (e.g., Google Earth Pro, or a browser-based tool such as shapefile.io) if working with shapefiles.&#x20;
 
 ## Limitations
 
 #### Lag time
 
-There may be a lag time before newly protected or conserved areas appear on the database. This can be due to delays in reporting from national governments, or time taken for compiling and processing the data, according to the [user manual](https://doi.org/10.34892/CF8P-8D35).&#x20;
+There may be some lag time before newly protected or conserved areas appear on the database. This can be due to delays in reporting from national governments, or time taken for compiling and processing the data, according to the [user manual](https://doi.org/10.34892/CF8P-8D35).&#x20;
 
 #### **Historical data can be lost**
 
@@ -168,7 +172,7 @@ The WDPCA is best used for answering _what_ and _where_ questions about protecte
 ## Ethical Considerations
 
 * **Invest time to understand local contexts:** Issues related to protected areas and conserved areas can involve frictions or conflicting interests among indigenous communities, prospective or current commercial entities, and governments at different levels. Researchers would need to invest time to understand local contexts and narratives, in order to ensure that they are interpreting their data in valid and relevant ways. This [brief article from the Global Investigative Journalism Network (GIJN)](https://gijn.org/stories/10-common-mistakes-data-journalism/) gives some pointers on do's and don'ts in data journalism.&#x20;
-* **Understand what the metrics mean:** If using the WDPCA with other datasets or information that evaluate the effectiveness of measures taken to manage protected and conserved areas (e.g., from the [Global Database on Protected Area Management Effectiveness, GD-PAME](https://www.protectedplanet.net/en/thematic-areas/protected-areas-management-effectiveness-pame?tab=Data)), make sure to understand what the metrics mean, and whether and how data should be appropriately compared across years or geographies.&#x20;
+* **Understand what the metrics mean:** If using the WDPCA with other datasets that evaluate the effectiveness of measures taken to manage protected and conserved areas (e.g., from the [Global Database on Protected Area Management Effectiveness, GD-PAME](https://www.protectedplanet.net/en/thematic-areas/protected-areas-management-effectiveness-pame?tab=Data)), make sure to understand what the metrics mean, and whether and how data should be appropriately compared across years or geographies.&#x20;
 
 ## Similar Tools
 
