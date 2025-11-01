@@ -210,12 +210,6 @@ The Soar satellite interface supports access to satellite imagery for areas of i
 
 _&#x61;_&#x6E;d providing the ability to combine sequential satellite images into an animated gif via the Sentinel interface.
 
-<mark style="color:$danger;">**?Turn into a Hint??**</mark>
-
-<mark style="color:$danger;">**\[NB Note that Soar puts labels over Thumbnail maps to give information as to format, but these formats don't correspond exactly to the filters offered by Soar - labels include "GIF", "REAL TIME", "DAILY", POPULAR", "NEW", "LoFi (which IS one of the filterable categories)]**</mark>
-
-
-
 ### **AFTON TO RESEARCH THE VALIDITY OF THE SKYMAP 50 SATELLITE DATA SOURCE, AND WHETHER THIS SITE COULD BE LINKED TO DISINFORMATION.**
 
 Here's an uploaded gif map example of a wildfire [https://soar.earth/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99](https://soar.earth/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99)
@@ -350,15 +344,12 @@ Difficulty Level and Learning Curve:
 
 Overall: For a casual user exploring maps, the difficulty is moderate <mark style="color:$info;">(?)</mark>. For an investigator requiring precise data or intending to contribute advanced imagery, the difficulty is high <mark style="color:$info;">(?)</mark>, requiring some understanding of geospatial data principles or reliance on integrated GIS tools.
 
-
-
 ## Requirements
 
 <mark style="color:$info;">Account sign up / Email Address</mark>
 
-<mark style="color:$info;">Modern browser - There are definitely moments where loading maps and zooming in for details can cause the browser to freeze.</mark>&#x20;
-
-
+* Account sign up / Email Address
+* Modern browser - This will avoid 'freezing' where loading maps and zooming in for details can cause the browser to stop working.
 
 ## Limitations
 
