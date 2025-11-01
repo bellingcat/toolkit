@@ -42,20 +42,20 @@ Example: assemble posts, press releases, and footage timestamps into a single sc
 
 **2. Data Visualization and Comparison**
 
-* **Multi-Statistics Tool**: Combines multiple datasets into a single event for easy comparison. For instance, users can plot GDP or COVID-19 recovery rates of different countries side-by-side.
+* **Multi-Statistics Tool**: Combines multiple datasets into a single event for easy comparison. For instance, users can plot the GDP or COVID-19 recovery rates of different countries side by side.
 * **Geolocation Maps**: Users can add locations to events using map coordinates, suitable for highlighting the geographical context of events.
-* **Customizable Graphs and Charts**: Data visualizations can be tailored with colors, line widths, and heights, making it easy to differentiate datasets visually.
+* **Customizable Graphs and Charts**: Data visualizations can be tailored with colors, line widths, and heights, making it easy to visually differentiate datasets.
 
 **3. Data Import and Export**
 
 * **Google Integration**: Import events directly from Google Calendar, integrate locations with Google Maps, and pull data from Google Sheets.
-* **JSON Data Import**: Add real-time data from JSON files hosted on platforms like Pastebin. This allows researchers to pull in continuously updated information, such as stock prices or live statistics.
+* **JSON Data Import**: Add real-time data from JSON files hosted on platforms like Pastebin. This enables researchers to access continuously updated information, such as stock prices or live statistics.
 * **World Bank Data Access**: Retrieve and plot various economic, health, and social indicators by country, powered by the World Bank's open database.
 * **Export Options**: Users can download their timelines in multiple formats for offline viewing or further analysis.
 
 **4. Embedding and Sharing**
 
-* **Embed Timelines on Websites**: Generate HTML code to embed interactive timelines into external websites or articles. This feature is particularly valuable for presenting research findings or timelines to a wider audience.
+* **Embed Timelines on Websites**: Generate HTML code to embed interactive timelines into external websites or articles. This feature is particularly valuable for presenting research findings or timelines to a broader audience.
 * **Public and Private Timelines**: Timelines can be set to public, private, or link-access only (premium feature), allowing users to manage who can view and interact with the content.
 
 **5. Collaboration and Team Management**
@@ -67,7 +67,7 @@ Example: assemble posts, press releases, and footage timestamps into a single sc
 
 * **Themes and Colors**: Customize timeline elements with various themes and colors to align with specific visual preferences or presentation standards.
 * **Tags and Labels**: Add tags to categorize events, making it easier to filter and locate related data on complex timelines.
-* **Interactive Elements**: Each timeline event can include interactive elements like links to external resources, images, and videos, enhancing the depth and engagement of the timeline.
+* **Interactive Elements**: Each timeline event can include interactive elements, such as links to external resources, images, and videos, to enhance the depth and engagement of the timeline.
 
 ## Cost
 
@@ -75,7 +75,7 @@ Example: assemble posts, press releases, and footage timestamps into a single sc
 * [x] Partially Free
 * [ ] Paid
 
-&#x20;Free accounts create public timelines. Premium unlocks private or link-only timelines and removes watermarks. Pricing listed by the provider on 2025-08-31: 1 day 4.90 USD; 1 month 18.90 USD; 1 year 99 USD; education pricing available.
+&#x20;Free accounts create public timelines. Premium unlocks private or link-only timelines and removes watermarks. Pricing listed by the provider: 1 day 4.90 USD; 1 month 18.90 USD; 1 year 99 USD; education pricing available.
 
 ## Level of difficulty
 
@@ -87,7 +87,7 @@ Generally beginner-friendly for basic timelines. More advanced features (JSON da
 
 * Account registration; email confirmation required.
 * Modern web browser.
-* Premium required for private or link-only timelines.
+* A premium is required for private or link-only timelines.
 * Google account needed to import from Google Calendar and to export to Google Drive; Dropbox export also supported.
 
 ## Limitations
@@ -104,11 +104,11 @@ Generally beginner-friendly for basic timelines. More advanced features (JSON da
 **Privacy Controls**: Free timelines default to public; upgrade to premium for full privacy settings and controlled link-based sharing.
 {% endhint %}
 
-For effective privacy management on Time.Graphics, users should carefully consider the privacy settings for each timeline, especially when handling sensitive or confidential data. By default, timelines created in the free version are set to public, meaning they are accessible to anyone online. For users requiring privacy or limited access, the **premium version** provides essential options, including the ability to set timelines to private or restrict access to those with a direct link. This link-restricted access is beneficial for sharing information with a controlled audience without making it publicly visible. Users should regularly review and update privacy settings, particularly when working in collaborative settings, to prevent accidental public sharing. For highly sensitive content, it’s advisable to enable premium features that allow complete control over who can view and interact with each timeline, ensuring data is kept secure and accessible only to authorized individuals.
+For effective privacy management on Time.Graphics, users should carefully consider the privacy settings for each timeline, especially when handling sensitive or confidential data. By default, timelines created in the free version are set to public, making them accessible to anyone online. For users requiring privacy or limited access, the **premium version** provides essential options, including the ability to set timelines to private or restrict access to those with a direct link. This link-restricted access is beneficial for sharing information with a controlled audience without making it publicly visible. Users should regularly review and update privacy settings, particularly when working in collaborative settings, to prevent accidental public sharing. For highly sensitive content, it’s advisable to enable premium features that allow complete control over who can view and interact with each timeline, ensuring data is kept secure and accessible only to authorized individuals.
 
-* Avoid publishing sensitive personal data; get consent where appropriate.
+* Avoid publishing sensitive personal data and obtain consent where appropriate.
 * Respect copyright and platform terms when attaching media.
-* For minors or educational use, ensure compliance with local law and institutional policy.
+* For minors or educational purposes, ensure compliance with local laws and institutional policies.
 
 ## Guides and articles
 
@@ -121,7 +121,9 @@ Timeline Maker. (2019, July 15). [How-to video: Grouping](https://www.youtube.co
 
 ## Tool provider
 
-Time.Graphics, is a service recognized by the American Association of School Librarians for online learning resources. Provided by Selected Technologies LLC, Morgan Hill, CA&#x20;
+Time.Graphics, is a service recognized by the American Association of School Librarians for online learning resources.&#x20;
+
+Provided by Selected Technologies LLC, Morgan Hill, CA&#x20;
 
 ## Advertising Trackers
 
