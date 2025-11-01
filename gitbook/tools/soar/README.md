@@ -368,15 +368,12 @@ Overall: For a casual user exploring maps, the difficulty is moderate <mark styl
 *   Stoaries are very difficult to edit. Going to the "page" of the map you want to edit does not take you to that location. Instead, you have to re-input the location or coordinates in the search bar. &#x20;
 
     Use a browser that does not go into "efficiency mode," as this can freeze the Soar and the Stoary interface consistently.&#x20;
+* Soar puts labels over Thumbnail maps to give information as to format, but these formats don't correspond exactly to the filters offered by Soar - labels include "GIF", "REAL TIME", "DAILY", POPULAR", "NEW", "LoFi (which IS one of the filterable categories).
 * Intermediate to Advanced Use: The difficulty level increases for more advanced functionalities. Some of them are:
 
 {% hint style="danger" %}
 Uploading and Georeferencing: While the process is streamlined, [users uploading their own maps or imagery need to ensure proper georeferencing and rectification. The platform has strict guidelines for alignment, which may require some prior knowledge or learning on the user's part,](https://about.soar.earth/help) especially if their original data lacks precise georeferencing. [The QGIS plugin helps with this process, ](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)however this may be limited to for GIS-savvy users and may mean a higher barrier for those without GIS software experience.&#x20;
 {% endhint %}
-
-
-
-
 
 ## Ethical Considerations
 
@@ -395,17 +392,13 @@ C. Misinformation and Disinformation:
 
 * Be aware that user-generated content, while valuable, may not always be authoritative. Always verify the source and context of shared maps/imagery.
 
-## Guides and articles <mark style="color:$danger;">Soar seems to have good YouTube videos? need to find more</mark>
-
-
+## Guides and articles&#x20;
 
 [Exploring a Digital Atlas of Maps and Imagery on Soar.Earth - open.gis.lab](https://opengislab.com/blog/2021/7/11/exploring-a-digital-atlas-of-maps-and-imagery-on-soarearth), [Soar Tutorials - YouTube](https://www.google.com/search?q=https://www.youtube.com/playlist%3Flist%3DPL44e5M4E2bX-x1Q-y3d2f-1h9zV5r3jP5)
 
 [Exploring a Digital Atlas of Maps and Imagery on Soar.Earth from Open.gis.lab](https://opengislab.com/blog/2021/7/11/exploring-a-digital-atlas-of-maps-and-imagery-on-soarearth)
 
 <mark style="color:$info;">Possible Use Case:</mark> [<mark style="color:$info;">https://x.com/Soar\_Earth/status/1037937241979412481</mark>](https://x.com/Soar_Earth/status/1037937241979412481)&#x20;
-
-##
 
 ## Similar Tools
 
@@ -417,8 +410,6 @@ For satellite image combination into animated gif, compare with integrated Senti
 
 1. <mark style="color:$info;">Sentinel Hub Playground (</mark>[<mark style="color:$info;">https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground</mark>](https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground)<mark style="color:$info;">)</mark>&#x20;
 2. <mark style="color:$info;">Nasa Worldview (</mark>[<mark style="color:$info;">https://bellingcat.gitbook.io/toolkit/more/all-tools/nasa-worldview</mark>](https://bellingcat.gitbook.io/toolkit/more/all-tools/nasa-worldview)<mark style="color:$info;">)</mark>
-
-~~<mark style="color:$info;">Free online tool, EZgif (</mark>~~[~~<mark style="color:$info;">https://ezgif.com/</mark>~~](https://ezgif.com/)~~<mark style="color:$info;">)</mark>~~&#x20;
 
 ## Tool provider
 
