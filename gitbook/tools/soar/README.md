@@ -200,27 +200,21 @@ The transparency slider is not available for LoFi maps.&#x20;
 
 #### At Satellite Level
 
+<figure><img src=".gitbook/assets/satellitemenuannotated2.jpg" alt="" width="563"><figcaption></figcaption></figure>
 
+The Soar satellite interface supports access to satellite imagery for areas of interest and timeframes specified by the user, offering both free and charged data:
 
+1. Sentinel-2 : Medium resolution, free
+2. NASA : Low resolution, free
+3. Pics from Space, a charged service at [https://www.picsfromspace.com/](https://www.picsfromspace.com/) which offers charged data from two [Chinese satellite services](#user-content-fn-4)[^4], including the ability to commission new satellite imagery according to user specification. &#x20;
 
-
-###
-
-## SATELLITES (Interface)
+_&#x61;_&#x6E;d providing the ability to combine sequential satellite images into an animated gif via the Sentinel interface.
 
 <mark style="color:$danger;">**?Turn into a Hint??**</mark>
 
 <mark style="color:$danger;">**\[NB Note that Soar puts labels over Thumbnail maps to give information as to format, but these formats don't correspond exactly to the filters offered by Soar - labels include "GIF", "REAL TIME", "DAILY", POPULAR", "NEW", "LoFi (which IS one of the filterable categories)]**</mark>
 
 
-
-2.  An interface supporting access to satellite imagery for areas of interest and timeframes specified by the user, offering both free and charged data:
-
-    1. Sentinel-2 : Medium resolution, free
-    2. NASA : Low resolution, free
-    3. Pics from Space, charged [https://www.picsfromspace.com/](https://www.picsfromspace.com/) <mark style="color:$danger;">**Need to research this, needs login. Does it only provide SkyMap50 high resolution imagery? Looks like yes - See**</mark> [<mark style="color:$danger;">**https://spymesat.com/skymap.html**</mark>](https://spymesat.com/skymap.html) <mark style="color:$danger;">**"**</mark>_<mark style="color:$warning;">**Launched in 2018 (01 & 02) and 2018 (03 & 04) from the Taiyuan Satellite Launch Center in China, the four syn-synchronous satellites operate at an altitude of 500km and can monitor daily any location on the Earth at 50cm per pixel image resolution. At this zoom level, ground features such as individual trees, fences, cars and trucks can be all seen...**</mark><mark style="color:$warning;">SkyMap50 archival imagery orders can take between 2 to 5 working days to process and is available only in GeoTIFF format"</mark>_
-
-    _&#x61;_&#x6E;d providing the ability to combine sequential satellite images into an animated gif.
 
 ### **AFTON TO RESEARCH THE VALIDITY OF THE SKYMAP 50 SATELLITE DATA SOURCE, AND WHETHER THIS SITE COULD BE LINKED TO DISINFORMATION.**
 
@@ -472,3 +466,5 @@ Soar, Perth, Australia<mark style="color:$danger;">**?**</mark>
 [^2]: The set of categories offered by Soar varies over time, but includes topics as wide as Conflict, Vintage and Spaceport
 
 [^3]: Maps can be categorised as to whether or not they can be [georeferenced](https://en.wikipedia.org/wiki/Georeferencing)
+
+[^4]: "_**Launched in 2018 (01 & 02) and 2018 (03 & 04) from the Taiyuan Satellite Launch Center in China, the four syn-synchronous satellites operate at an altitude of 500km and can monitor daily any location on the Earth at 50cm per pixel image resolution. At this zoom level, ground features such as individual trees, fences, cars and trucks can be all seen...**&#x53;kyMap50 archival imagery orders can take between 2 to 5 working days to process and is available only in GeoTIFF format" Soar website_
