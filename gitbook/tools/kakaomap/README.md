@@ -69,7 +69,7 @@ Guides on [Kakao Map Official Blog](https://kakaomap.tistory.com/category/%EC%B9
 
 ## Tool provider
 
-[Kakao Corporation](https://www.kakaocorp.com/page/)
+[Kakao Corporation](https://www.kakaocorp.com/page/), based in Jeju, South Korea
 
 ## Advertising Trackers
 
