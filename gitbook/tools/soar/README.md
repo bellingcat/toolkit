@@ -206,13 +206,11 @@ The Soar satellite interface supports access to satellite imagery for areas of i
 2. NASA : Low resolution, free
 3. Pics from Space, a charged service at [https://www.picsfromspace.com/](https://www.picsfromspace.com/), which offers charged data from two [Chinese satellite services](#user-content-fn-4)[^4], including the ability to commission new satellite imagery according to user specification. &#x20;
 
-_&#x61;_&#x6E;d providing the ability to combine sequential satellite images into an animated gif via the Sentinel interface.
+_&#x61;_&#x6E;d providing the ability to combine sequential satellite images into an animated gif via the Sentinel interface. This GIF map uploaded to soar is [an example about a wildfire](https://soaratlas.com/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99).
 
 {% hint style="warning" %}
 **BROWSER ISSUE:** The picsfromspace.com platform to which Soar connects users ordering paid satellite imagery does not function properly using the Firefox browser, since the basemap used to select a location is not visible in Firefox, though it works in Chrome browser.
 {% endhint %}
-
-Here's an uploaded [gif map example of a wildfire](https://soar.earth/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99)
 
 ### Soar User Data: Input, Output and Use Cases
 
