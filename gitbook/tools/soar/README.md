@@ -209,7 +209,7 @@ The transparency slider is not available for LoFi maps.&#x20;
 
 #### VIEW THREE: At Satellite Image Acquisition Level
 
-<figure><img src=".gitbook/assets/satellitemenuannotated2.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/satellitemenuannotated2.jpg" alt=""><figcaption><p><strong>SOAR'S SATELLITE IMAGERY ACQUISITION INTERFACE, OFFERING FREE LOWER RESOLUTION IMAGERY FROM SENTINEL-2 AND NASA SERVICES AND PAID HIGH RESOLUTION IMAGERY FROM TWO CHINESE SATELLITE SERVICES</strong></p></figcaption></figure>
 
 The Soar satellite interface supports access to satellite imagery for areas of interest and timeframes specified by the user, offering both free and charged data:
 
@@ -263,7 +263,7 @@ NB Location can be input as co-ordinates or a location name in MAPS section, but
 {% endtab %}
 {% endtabs %}
 
-Sophie completed to here - >
+<mark style="color:yellow;">Sophie completed to here - ></mark>
 
 ***
 
