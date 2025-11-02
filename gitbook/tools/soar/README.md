@@ -40,7 +40,13 @@ Note that some satellite imagery maps in the Soar database are of very high qual
 {% endhint %}
 
 {% hint style="danger" %}
-**DATA ORIGINS: Soar offers free satellite imagery from the Sentinel and NASA services, which are relatively low resolution. The paid satellite imagery options at higher resolution are both Chinese satellite services. It is always advisable to consider any potential conflicts of interest between the suppliers of geographical data and the locations for which researchers are requesting imagery. Cross-checking of satellite data from multiple sources may not always be possible either because of lack availability at comparable resolutions, or high prices attachd to images required for confirmation.**
+**DATA ORIGINS:**&#x20;
+
+**Soar offers free satellite imagery from the Sentinel and NASA services, which are relatively low resolution. The paid satellite imagery options offered at higher resolution are both Chinese satellite services.**&#x20;
+
+**There are locations for which no imagery and a 'restricted' message is returned by these Chinese services.**
+
+**It is always advisable to consider any potential conflicts of interest between the suppliers of geographical data and the locations for which researchers are requesting imagery. Cross-checking of satellite data from multiple sources may not always be possible either because of lack availability at comparable resolutions, or high prices attachd to images required for confirmation.**
 {% endhint %}
 
 ### The Soar Interface
