@@ -103,6 +103,26 @@ There are quite a few elements which don't actually export to GeoJSON format fro
 
 ### <mark style="color:$primary;">Is there a separate item about making animated GIFS? Is that just Satellite site functionality, passed through?</mark>
 
+#### A**t Narrative Creation Level**
+
+<figure><img src=".gitbook/assets/StoaryInterface.JPG" alt=""><figcaption></figcaption></figure>
+
+&#x20;  1\. **On-Map Tools for Drawing, Map-making and Image Import include:**
+
+* Area Measurement: Calculate area in km².
+* Ruler: Measure linear distances in km.
+* KML Import: Import KML files for overlay and AOI definition.
+* Text, Arrow, Circle, Square tools for annotations.
+* Latitude/Longitude display.
+
+2\. **QGIS Plugin (for advanced users) provides:** <mark style="color:$info;">**TO TEST !! AFTON TO TEST AGAIN!! THEN SOPHIE ADD TO INTERFACE**</mark>
+
+* Direct export of QGIS maps and images to Soar.
+* Browse and load Soar's public catalog into QGIS projects.
+* Batch upload functionality.
+
+Source: [Soar.Earth Digital Atlas QGIS Plugin - North Road](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)
+
 [^1]: Soar allows users to view maps in the database, and also make their own annotated copies of those maps. Users can upload their own maps to be added to the database
 
 [^2]: "_**Launched in 2018 (01 & 02) and 2018 (03 & 04) from the Taiyuan Satellite Launch Center in China, the four syn-synchronous satellites operate at an altitude of 500km and can monitor daily any location on the Earth at 50cm per pixel image resolution. At this zoom level, ground features such as individual trees, fences, cars and trucks can be all seen...**&#x53;kyMap50 archival imagery orders can take between 2 to 5 working days to process and is available only in GeoTIFF format" Soar website_
