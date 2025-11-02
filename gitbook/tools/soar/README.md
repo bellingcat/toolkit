@@ -117,9 +117,9 @@ Urban
 
 ### **Navigating the Interface to the Soar Map Database**
 
-The Soar interface has been regularly updated and redesigned since its launch.&#x20;
+The Soar interface has been regularly updated and redesigned since its launch. The Interface offers 4 main views: Database Query, Map Inspection, Satellite Image Acquisition and Narrative Creation
 
-#### **At Database Level**
+#### **VIEW ONE: At Database Query Level**
 
 **T**he Soar interface provides lists of maps relating to a given location, ways to filter them, a selection of base world map views, and a filterable selection of satellite paths.
 
@@ -169,7 +169,7 @@ Invoke UPLOAD mode to add content to the Soar database
 {% endstep %}
 {% endstepper %}
 
-#### **At Map Level**
+#### **VIEW TWO: At Map Inspection Level**
 
 **T**he Soar interface offers data on the account which posted the map, the facility to read and post comments, the set of tags describing the map, and the ability to adjust the map transparency against the base map underlay, and a tool to create graphic narratives.
 
@@ -207,7 +207,7 @@ These are maps or images (whether satellite, aerial, or drone capture) which con
 The transparency slider is not available for LoFi maps.&#x20;
 {% endhint %}
 
-#### At Satellite Level
+#### VIEW THREE: At Satellite Image Acquisition Level
 
 <figure><img src=".gitbook/assets/satellitemenuannotated2.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -323,7 +323,7 @@ _<mark style="color:$info;">(Post on X:</mark>_ [_<mark style="color:$info;">htt
 
 To demonstrate the visualization capability of a "Stoary", we used the feature below using information [from a 2024 investigation by Bellingcat](https://www.bellingcat.com/news/2024/12/18/ukraine-outraged-at-yemen-grain-shipment-from-occupied-crimea/). NOTE: This is for demonstration purposes only.&#x20;
 
-#### A**t Narrative Creation Level**
+#### VIEW FOUR: A**t Narrative Creation Level**
 
 <figure><img src=".gitbook/assets/StoaryInterface.JPG" alt=""><figcaption><p><strong>THE SOAR INTERFACE FOR NARRATIVE CREATION OF 'STOARIES' SHOWING PAGE MANAGEMENT MENU AND ANNOTATION TOOLS</strong></p></figcaption></figure>
 
