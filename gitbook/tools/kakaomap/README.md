@@ -14,7 +14,7 @@ API Documentation: [https://apis.map.kakao.com/](https://apis.map.kakao.com/)
 
 Kakao Maps offer route planning for public transportations, car, walk, and bike, live navigation, push notificaiton for transits, location sharing with contacts, and recommendations for local hot spots. The service is available in web version and as an app on mobile devices.
 
-### The Basics
+### Top Row
 
 #### Views
 
@@ -30,13 +30,21 @@ You can select multiple options among the eight icons in the top menu. The eight
 
 The bottom menu contains weather information and air polluton types. They are as follows (top to bottom, left to right): temperature, fine dust, yellow dust, nitrogen dioxide, sulfer dioxide, integrated air quality, ultrafine dust, ozone, carbon monoxide.&#x20;
 
+
+
+The rest of the two buttons on the top row are "Export" and "Log in".
+
 <figure><img src=".gitbook/assets/Kakao.JPG" alt=""><figcaption><p>KAKOA MAP RUNNING WITH GOOGLE TRANSLATE CHROME BROWSER EXTENTION FOR ENGLISH VERSION.</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/IMG_6448.jpeg" alt="" width="188"><figcaption><p>Kakao Map running on the iOS system without additional translation extension</p></figcaption></figure>
 
-A mapping tool in Korean focusing on the region.
+### Side Bar
 
-Includes traffic information, weather, pollutants, cadastral information, CCTV locations, places of interest, and the facility to export data.
+### Coordinates
+
+### Coverage
+
+### Technology Providers
 
 ## Cost
 
