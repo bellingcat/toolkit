@@ -28,7 +28,7 @@ Use the button to the right of the street view pin, with an icon of two stacked 
 
 You can select multiple options among the eight icons in the top menu. The eight options are as follows (left to right, top to bottom): live traffic, CCTV, accidents and construction works, bike lanes, terrain, cadastral, legal economic areas, and administrative areas.&#x20;
 
-The bottom menu contains weather information and air polluton types. They are as follows (top to bottom, left to right): temperature, fine dust, yellow dust, nitrogen dioxide, sulfer dioxide, ???, ultrafine dust, ozone, carbon monoxide.&#x20;
+The bottom menu contains weather information and air polluton types. They are as follows (top to bottom, left to right): temperature, fine dust, yellow dust, nitrogen dioxide, sulfer dioxide, integrated air quality, ultrafine dust, ozone, carbon monoxide.&#x20;
 
 <figure><img src=".gitbook/assets/Kakao.JPG" alt=""><figcaption><p>KAKOA MAP RUNNING WITH GOOGLE TRANSLATE CHROME BROWSER EXTENTION FOR ENGLISH VERSION.</p></figcaption></figure>
 
