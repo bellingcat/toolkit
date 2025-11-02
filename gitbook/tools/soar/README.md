@@ -407,7 +407,7 @@ Soar, Perth, Australia
 
 <details>
 
-<summary>Soar volunteers the identities of the cookies used on the site. <em>Click the arrow for more information...</em></summary>
+<summary>Soar tranparently volunteers the identities of the cookies used on the site. <em>Click the arrow for more information...</em></summary>
 
 <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -415,7 +415,7 @@ Soar, Perth, Australia
 
 | Page maintainer                             |
 | ------------------------------------------- |
-| Afton and Sophie Tedling 31/10/25 00:34 GMT |
+| Afton and Sophie Tedling 02/11/25 00:34 GMT |
 |                                             |
 
 
