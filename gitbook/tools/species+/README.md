@@ -18,13 +18,9 @@ This website provides information on all species currently listed in the Convent
 
 The tool is useful for researchers and individuals who want to know or confirm the current status of a species, i.e., whether it can be traded or not, what type of regulations, quotas, suspensions, or decisions apply in certain regions.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-09-22 at 9.59.53 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-09-22 at 9.59.53 AM.png" alt=""><figcaption><p>For example, here I searched for “pangolin.” I already know that all pangolin species are listed in Appendix I of CITES, which means they are completely prohibited from international trade. I got 8 results.</p></figcaption></figure>
 
-For example, here I searched for “pangolin.” I already know that all pangolin species are listed in Appendix I of CITES, which means they are completely prohibited from international trade. I got 8 results.
-
-<figure><img src=".gitbook/assets/Screenshot 2025-09-22 at 10.02.40 AM.png" alt=""><figcaption></figcaption></figure>
-
-When I clicked on the first result, I obtained information about the species and the CITES list, which confirmed my ideas about the pangolin ban.
+<figure><img src=".gitbook/assets/Screenshot 2025-09-22 at 10.02.40 AM.png" alt=""><figcaption><p>When I clicked on the first result, I obtained information about the species and the CITES list, which confirmed my ideas about the pangolin ban.</p></figcaption></figure>
 
 In addition, this tool is useful for finding information on geographical distribution and other names for species. It also has a repository of documents for each species, which is very useful for finding out about CITES proposals, reviews, and identification materials.
 
