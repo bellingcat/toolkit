@@ -90,7 +90,7 @@ Soar maps are searchable by features including location, map category, indexing 
 
 <summary>Soar groups maps under a developing framework of categories. <em>Click the arrow to see some typical Soar categories as at October 25...</em></summary>
 
-<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td>Agriculture</td></tr><tr><td>Climate</td></tr><tr><td>Conflict Zone</td></tr><tr><td>Culure</td></tr><tr><td>Demographics</td></tr><tr><td>Earth Art</td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td>Agriculture</td></tr><tr><td>Climate</td></tr><tr><td>Conflict Zone</td></tr><tr><td>Culure</td></tr><tr><td>Demographics</td></tr><tr><td>Earth Art</td></tr><tr><td>Economic</td></tr><tr><td>Environment</td></tr><tr><td>Geology</td></tr><tr><td>History</td></tr><tr><td>Imagery</td></tr><tr><td>Marine/Nautical</td></tr><tr><td>Politics</td></tr><tr><td>Radar</td></tr><tr><td>Spaceport</td></tr><tr><td>Elevation/Topography</td></tr><tr><td>Transport</td></tr><tr><td>Urban</td></tr></tbody></table>
 
 Agriculture\
 Climate\
