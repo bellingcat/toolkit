@@ -65,4 +65,34 @@ When working from a location, users can:
 * Invoke STOARY mode to create narrative content
 * Invoke UPLOAD mode to add content to the Soar database
 
+
+
+#### At Satellite Level
+
+<figure><img src=".gitbook/assets/satellitemenuannotated2.jpg" alt=""><figcaption></figcaption></figure>
+
+The Soar satellite interface supports access to satellite imagery for areas of interest and timeframes specified by the user, offering both free and charged data:
+
+1. Sentinel-2 : Medium resolution, free
+2. NASA : Low resolution, free
+3. Pics from Space, a charged service at [https://www.picsfromspace.com/](https://www.picsfromspace.com/), which offers charged data from two [Chinese satellite services](#user-content-fn-2)[^2], including the ability to commission new satellite imagery according to user specification. &#x20;
+
+_&#x61;_&#x6E;d providing the ability to combine sequential satellite images into an animated gif via the Sentinel interface.
+
+Here's an uploaded [gif map example of a wildfire](https://soar.earth/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99)
+
+### Soar Data: Input, Output and Use Cases
+
+{% tabs fullWidth="false" %}
+{% tab title="DATA INPUT" %}
+* Location&#x20;
+* Map filtering properties, e.g Map category, Map format, Map indexing tags
+* Satellite filtering properties
+* Animated satellite GIF sequence properties
+* Media for graphical narrative creation
+{% endtab %}
+{% endtabs %}
+
 [^1]: Soar allows users to view maps in the database, and also make their own annotated copies of those maps. Users can upload their own maps to be added to the database
+
+[^2]: "_**Launched in 2018 (01 & 02) and 2018 (03 & 04) from the Taiyuan Satellite Launch Center in China, the four syn-synchronous satellites operate at an altitude of 500km and can monitor daily any location on the Earth at 50cm per pixel image resolution. At this zoom level, ground features such as individual trees, fences, cars and trucks can be all seen...**&#x53;kyMap50 archival imagery orders can take between 2 to 5 working days to process and is available only in GeoTIFF format" Soar website_
