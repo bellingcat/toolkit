@@ -101,6 +101,14 @@ Urban
 
 </details>
 
+<details>
+
+<summary>Soar's repository of over a million maps covers diverse locations, topics and timeframes. <em><strong>Click the arrow to see Soar maps demonstrating the variety of content...</strong></em></summary>
+
+<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><strong>Russian Map dated 1776</strong></td><td><a href="https://soaratlas.com/maps/16958?pos=39.94681663720949%2C67.28800356363985%2C6.29">https://soaratlas.com/maps/16958?pos=39.94681663720949%2C67.28800356363985%2C6.29</a></td><td><a href=".gitbook/assets/russia1776.JPG">russia1776.JPG</a></td></tr><tr><td><strong>Construction Timelapse of Wenchang Space Launch Site, China</strong></td><td><a href="https://soaratlas.com/maps/asia-construction-timelapse-of-wenchang-space-launch-site-china-135903?basemap=Satellite&#x26;pos=19.616924298644264%2C110.92303733295931%2C13.83">https://soaratlas.com/maps/asia-construction-timelapse-of-wenchang-space-launch-site-china-135903?basemap=Satellite&#x26;pos=19.616924298644264%2C110.92303733295931%2C13.83</a></td><td><a href=".gitbook/assets/wenchanglaunchchina.JPG">wenchanglaunchchina.JPG</a></td></tr></tbody></table>
+
+</details>
+
 ### **Navigating the Interface to the Soar Map Database**
 
 The Soar interface has been regularly updated and redesigned since its launch.&#x20;
