@@ -16,6 +16,8 @@ You will also see a results page with a list of the incident, a map that locates
 
 For example, you can see the number of people by government involvement over time or the number of incidents by type of transit over time. You can also search for multiple species. In this way, you can find incidents related to all the species you are looking for.&#x20;
 
+<figure><img src=".gitbook/assets/Screenshot 2025-11-01 at 9.07.19 PM.png" alt=""><figcaption><p>Search example: Seizures of pangolins in Nigeria in recent years.</p></figcaption></figure>
+
 The results can be exported. Have a look at [this user guide (pdf) ](https://www.wildlifetradeportal.org/wildlife-trade-portal-guide.pdf)to get a sense of how the dashboard looks like.&#x20;
 
 You can contribute to this site by providing the source, the date, the country of an incident, any associated countries on the trade route, any associated species, the type of commodity, and the quantity of commodity of a seizure of which you are aware.
@@ -36,7 +38,7 @@ To date, this tool continues to receive frequent updates. Recently, the tool pro
 
 ## Requirements
 
-Access is immediate, but you have to “request an account”. You have to provide your workplace and personal information, plus some details of your work or you put “Freelance” in the workplace section and a brief explanation of what you are working on. A confirmation email will be sent and after clicking on it, you are all set.
+You have to “request an account” but access is immediate. To get an account you need to provide your workplace and personal information, plus some details of your work/freelance activities. A confirmation email will be sent and after clicking on it, you are all set.
 
 ## Limitations
 
