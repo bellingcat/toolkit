@@ -123,6 +123,31 @@ There are quite a few elements which don't actually export to GeoJSON format fro
 
 Source: [Soar.Earth Digital Atlas QGIS Plugin - North Road](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)
 
+<details>
+
+<summary>Soar groups maps under a developing framework of categories. <em>Click the arrow to see some typical Soar categories as at October 25...</em></summary>
+
+Agriculture\
+Climate\
+Conflict Zone\
+Culture\
+Demographics\
+Earth Art\
+Economic\
+Environment\
+Geology\
+History\
+Imagery\
+Marine/Nautical\
+Politics\
+Radar\
+Spaceport\
+Elevation/Topography\
+Transport\
+Urban
+
+</details>
+
 [^1]: Soar allows users to view maps in the database, and also make their own annotated copies of those maps. Users can upload their own maps to be added to the database
 
 [^2]: "_**Launched in 2018 (01 & 02) and 2018 (03 & 04) from the Taiyuan Satellite Launch Center in China, the four syn-synchronous satellites operate at an altitude of 500km and can monitor daily any location on the Earth at 50cm per pixel image resolution. At this zoom level, ground features such as individual trees, fences, cars and trucks can be all seen...**&#x53;kyMap50 archival imagery orders can take between 2 to 5 working days to process and is available only in GeoTIFF format" Soar website_
