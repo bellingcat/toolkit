@@ -93,6 +93,16 @@ Here's an uploaded [gif map example of a wildfire](https://soar.earth/maps/ocean
 {% endtab %}
 {% endtabs %}
 
+### <mark style="color:$primary;">Maybe a Hint? Definitely a limitation!</mark>
+
+{% hint style="danger" %}
+There are quite a few elements which don't actually export to GeoJSON format from Soar
+
+![](.gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2F2U83UEO8KjkX3jGLBsBn_2Fuploads_2FmmIJfxQeBq0m9UeOd1j0_2Fimage.avif)
+{% endhint %}
+
+### <mark style="color:$primary;">Is there a separate item about making animated GIFS? Is that just Satellite site functionality, passed through?</mark>
+
 [^1]: Soar allows users to view maps in the database, and also make their own annotated copies of those maps. Users can upload their own maps to be added to the database
 
 [^2]: "_**Launched in 2018 (01 & 02) and 2018 (03 & 04) from the Taiyuan Satellite Launch Center in China, the four syn-synchronous satellites operate at an altitude of 500km and can monitor daily any location on the Earth at 50cm per pixel image resolution. At this zoom level, ground features such as individual trees, fences, cars and trucks can be all seen...**&#x53;kyMap50 archival imagery orders can take between 2 to 5 working days to process and is available only in GeoTIFF format" Soar website_
