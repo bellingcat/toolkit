@@ -2,6 +2,7 @@
 description: >-
   A research project collecting and publishing legal takedown notices for online
   content transparency
+updated: '2025-11-01'
 ---
 
 # Lumen

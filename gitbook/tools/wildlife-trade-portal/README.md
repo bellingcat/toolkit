@@ -1,5 +1,6 @@
 ---
 description: An open-source tool to search wildlife seizure data worldwide.
+updated: '2025-11-02'
 ---
 
 # Wildlife Trade Portal
