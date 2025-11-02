@@ -219,8 +219,8 @@ The Soar satellite interface supports access to satellite imagery for areas of i
 
 _&#x61;_&#x6E;d providing the ability to combine sequential satellite images into an animated gif via the Sentinel interface.
 
-{% hint style="info" %}
-
+{% hint style="warning" %}
+**BROWSER ISSUE:** The picsfromspace.com platform to which Soar connects users ordering paid satellite imagery does not function properly using the Firefox browser, since the basemap used to select a location is not visible in Firefox, though it works in Chrome browser.
 {% endhint %}
 
 Here's an uploaded [gif map example of a wildfire](https://soar.earth/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99)
