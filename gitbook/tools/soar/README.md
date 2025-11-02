@@ -78,7 +78,7 @@ Soar maps are searchable by features including location, map category, indexing 
 
 <details>
 
-<summary>Soar groups maps under a developing framework of categories. <em>Click the arrow to see some typical Soar categories as at Oct 25...</em></summary>
+<summary>Soar groups maps under a developing framework of categories. <em>Click the arrow to see some typical Soar categories as at October 25...</em></summary>
 
 Agriculture\
 Climate\
