@@ -46,7 +46,9 @@ Note that some satellite imagery maps in the Soar database are of very high qual
 
 **There are locations for which no imagery and a 'restricted' message is returned by these Chinese services.**
 
-**It is always advisable to consider any potential conflicts of interest between the suppliers of geographical data and the locations for which researchers are requesting imagery. Cross-checking of satellite data from multiple sources may not always be possible either because of lack availability at comparable resolutions, or high prices attachd to images required for confirmation.**
+**It is always advisable to consider any potential conflicts of interest between the suppliers of geographical data and the locations for which researchers are requesting imagery. Cross-checking of satellite data from multiple sources may not always be possible, either because of lack availability at comparable resolutions, or high prices attachd to images required for confirmation.**
+
+Note that Soar does not provide dates for the satellite base layer it provides from OpenStreetMap, which could affect the usefulness of Soar's map overlay facility.
 {% endhint %}
 
 ### The Soar Interface
