@@ -36,7 +36,11 @@ Provision of online visualisation features allowing the creation of multi-image 
 These constitute some of the major tasks which Open Source researchers undertake during investigations, making Soar **a multi-purpose platform for OSINV**.
 
 {% hint style="success" %}
-Note that some satellite imagery maps in the Soar database are of very high quality, i.e. 8cm per pixel resolution, making them particularly valuable resources.
+Note that some satellite imagery maps in the Soar database are of very high quality, i.e. 8cm per pixel resolution, making them particularly valuable resources. Such imagery is expensive to obtain if specifically purchased or commissioned.
+{% endhint %}
+
+{% hint style="danger" %}
+**DATA ORIGINS: Soar offers free satellite imagery from the Sentinel and NASA services, which are relatively low resolution. The paid satellite imagery options at higher resolution are both Chinese satellite services. It is always advisable to consider any potential conflicts of interest between the suppliers of geographical data and the locations for which researchers are requesting imagery. Cross-checking of satellite data from multiple sources may not always be possible either because of lack availability at comparable resolutions, or high prices attachd to images required for confirmation.**
 {% endhint %}
 
 ### The Soar Interface
@@ -237,6 +241,10 @@ The Soar satellite interface supports access to satellite imagery for areas of i
 3. Pics from Space, a charged service at [https://www.picsfromspace.com/](https://www.picsfromspace.com/), which offers charged data from two [Chinese satellite services](#user-content-fn-4)[^4], including the ability to commission new satellite imagery according to user specification. &#x20;
 
 _&#x61;_&#x6E;d providing the ability to combine sequential satellite images into an animated gif via the Sentinel interface.
+
+{% hint style="info" %}
+
+{% endhint %}
 
 Here's an uploaded [gif map example of a wildfire](https://soar.earth/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99)
 
