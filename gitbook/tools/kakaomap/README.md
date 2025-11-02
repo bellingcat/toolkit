@@ -12,7 +12,15 @@ API Documentation: [https://apis.map.kakao.com/](https://apis.map.kakao.com/)
 
 ## Description
 
-Kakao Maps offer route planning for public transportations, car, walk, and bike, live navigation, push notificaiton for transits, location sharing with contacts, and recommendations for local hot spots.
+Kakao Maps offer route planning for public transportations, car, walk, and bike, live navigation, push notificaiton for transits, location sharing with contacts, and recommendations for local hot spots. The service is available in web version and as an app on mobile devices.
+
+#### The Basics
+
+In web version, you can select with the top centre switch between regular map view or satellite view (translated as "sky view"), which also contains past data dated back to 2008.&#x20;
+
+The button to the right of the view switch works like the yellow man in Google Maps. Click on the button, and the streets with street view available will be marked in light blue. Then click the location you want street view for.
+
+
 
 <figure><img src=".gitbook/assets/Kakao.JPG" alt=""><figcaption><p>KAKOA MAP RUNNING WITH GOOGLE TRANSLATE CHROME BROWSER EXTENTION FOR ENGLISH VERSION.</p></figcaption></figure>
 
