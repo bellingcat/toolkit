@@ -14,13 +14,21 @@ API Documentation: [https://apis.map.kakao.com/](https://apis.map.kakao.com/)
 
 Kakao Maps offer route planning for public transportations, car, walk, and bike, live navigation, push notificaiton for transits, location sharing with contacts, and recommendations for local hot spots. The service is available in web version and as an app on mobile devices.
 
-#### The Basics
+### The Basics
 
-In web version, you can select with the top centre switch between regular map view or satellite view (translated as "sky view"), which also contains past data dated back to 2008.&#x20;
+#### Views
+
+In web version, you can select with the top centre switch between regular road map view or satellite view (translated as "sky view"), which also contains past data dated back to 2008.&#x20;
 
 The button to the right of the view switch works like the yellow man in Google Maps. Click on the button, and the streets with street view available will be marked in light blue. Then click the location you want street view for.
 
+#### Layers
 
+Use the button to the right of the street view pin, with an icon of two stacked squares, to control what informaiton is shown on the map.&#x20;
+
+You can select multiple options among the eight icons in the top menu. The eight options are as follows (left to right, top to bottom): live traffic, CCTV, accidents and construction works, bike lanes, terrain, cadastral, legal economic areas, and administrative areas.&#x20;
+
+The bottom menu contains weather information and air polluton types. They are as follows (top to bottom, left to right): temperature, fine dust, yellow dust, nitrogen dioxide, sulfer dioxide, ???, ultrafine dust, ozone, carbon monoxide.&#x20;
 
 <figure><img src=".gitbook/assets/Kakao.JPG" alt=""><figcaption><p>KAKOA MAP RUNNING WITH GOOGLE TRANSLATE CHROME BROWSER EXTENTION FOR ENGLISH VERSION.</p></figcaption></figure>
 
