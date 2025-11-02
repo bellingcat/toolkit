@@ -315,7 +315,7 @@ To demonstrate the visualization capability of a "Stoary", we used the feature b
 
 #### A**t Narrative Creation Level**
 
-<figure><img src=".gitbook/assets/StoaryInterface.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/StoaryInterface.JPG" alt=""><figcaption><p><strong>THE SOAR INTERFACE FOR NARRATIVE CREATION OF 'STOARIES' SHOWING PAGE MANAGEMENT MENU AND ANNOTATION TOOLS</strong></p></figcaption></figure>
 
 &#x20;  1\. **On-Map Tools for Drawing, Map-making and Image Import include:**
 
