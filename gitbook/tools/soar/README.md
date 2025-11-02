@@ -354,6 +354,10 @@ Overall: For a casual user exploring maps, the difficulty is moderate. For an in
 ## Limitations
 
 * Some maps are georeferenced, some are not (usually old ones)
+* If many users are accessing a particular Soar map, the feed may be rate limited and so load very slowly or not at all, in which case an information message like the one below will be displayed
+
+<figure><img src=".gitbook/assets/overuseerrorsoar.png" alt="" width="207"><figcaption></figcaption></figure>
+
 * Some Satellite images that are high quality - can take long to load when zooming in and out (i.e. [https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69](https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69))&#x20;
 * Confusing user interface
 *   Stoaries are very difficult to edit. Going to the "page" of the map you want to edit does not take you to that location. Instead, you have to re-input the location or coordinates in the search bar. &#x20;
