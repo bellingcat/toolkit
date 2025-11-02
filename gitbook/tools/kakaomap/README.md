@@ -58,13 +58,13 @@ The rest of the two buttons on the top row are "Export" and "Log in".
 
 ## Requirements
 
-Korean Language skills or run a translator extension on the webpage version whilst using the tool (only partially successful).
+Korean Language skills or run a translator extension on the webpage version whilst using the tool (accuracy varies).
 
-When using iOS app, translation is automatically applied (UK-based).
+When downloaded as mobile app, translation is automatically applied on both iOS and Android.
 
 ## Limitations
 
-Korean language requirement when viewed on webpage
+Korean language skills or translation tools required when viewed on webpage
 
 Detailed information provided is limited to South Korea.
 
