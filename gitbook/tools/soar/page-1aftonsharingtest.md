@@ -12,7 +12,7 @@ We utilized research conducted by Bellingcat Volunteer Community members on Taji
 
 * Interactive slide presentation (not a video): View the actual Soar narrative output based on our tests here: [https://soaratlas.com/draw/2523](https://soaratlas.com/draw/2523)
 
-<div data-full-width="false" data-with-frame="true"><figure><img src=".gitbook/assets/2025-11-03_14-21-22-gif.gif" alt=""><figcaption><p><strong>DEMONSTRATION ANIMATION: THE GIF ABOVE SHOWS HOW USERS NAVIGATE THROUGH SOAR'S SLIDE-BASED STORYTELLING FORMAT. WHAT SOAR PRODUCES AS A "STOARY" IS AN INTERACTIVE SLIDE PRESENTATION (NOT A VIDEO). THIS CAN BE ACCESSED VIA THE LINK:</strong> <a href="https://soaratlas.com/draw/2523"><strong>https://soaratlas.com/draw/2523</strong></a></p></figcaption></figure></div>
+{% include ".gitbook/includes/tajikistan-stoary-demo-for-soar.md" %}
 
 {% hint style="warning" %}
 NOTE: This is for demonstration purposes only and does not constitute an investigation.
