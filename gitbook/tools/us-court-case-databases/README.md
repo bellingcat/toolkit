@@ -1,24 +1,30 @@
 ---
-description: A brief one line description of this tool
+description: State-by-state guide for researching criminal and civil court cases
 ---
 
 # US court case databases
 
-## URL
-
-https://example.com
-
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+Criminal and civil court case information in the United States is publicly available and maintained in databases by each individual state or county. If you want to run a background check on an individual or are seeking information about a particular court case, these databases allow you to access details such as: \
+\--Case number\
+\--Assigned attorneys\
+\--DOB and address of parties\
+\--Charges and statutes\
+\--Dispositions\
+\--Copies of court documents
+
+
+
+
 
 ## Cost
 
 * [x] Free
-* [ ] Partially Free
-* [ ] Paid
+* [x] Partially Free
+* [x] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+Cost varies by state. Some jurisdictions allow you to search and obtain information for free, and some require a fee.
 
 ## Level of difficulty
 
@@ -31,6 +37,8 @@ https://example.com
 ## Limitations
 
 \[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+
+Certain case information is not publicly available, such as juvenile records or cases involving protective and restraining orders. Additionally, cases older than \~2010 might not be digitized — if you find yourself in this situation, you can make a records request to the respective county to recieve scanned copies of the records you're looking for.&#x20;
 
 ## Ethical Considerations
 
@@ -48,13 +56,15 @@ https://example.com
 
 \[\[Compare this tool with similar tools which can be used for the same research purpose. What are the strengths and weaknesses of each tool?]]
 
+There are aggregate tools that attempt to search civil and criminal databases nation-wide and give you the information all in one place. While this can be a good starting point, beware that none of these tools are comprehensive. If you want to perform a proper check, you should check the actual databases.
+
 ## Advertising Trackers
 
 * [x] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| Emma            |
+|                 |
