@@ -261,12 +261,11 @@ NB Location can be input as co-ordinates or a location name in MAPS section, but
 
 ### <mark style="color:$primary;">NARRATIVES (INTERFACE) and upload - Afton</mark>&#x20;
 
-<mark style="color:$danger;">**\[We thought we might illustrate a stoary**</mark>**&#x20;**<mark style="color:$info;">**(I think maybe we tested the GIF feature for Evergreen instead of a Stoary?)**</mark>**&#x20;**<mark style="color:$danger;">**with the Evergreen Ship incident,stuck in the Suez canal 23-29/3/21**</mark>
 
-GREAT SO&#x20;
 
 * WE CAN USE THE EVERGREEN ANIMATED GIF EXAMPLE FOR GIF FEATURE
-* WE CAN USE TAJIKISTAN FOR THE STOARY FEATURE(Tajikistan inscriptions visible from satellite.]
+
+
 
 
 
@@ -306,8 +305,7 @@ Rather than using static imagery or a map screenshot, users can use pages of map
 
 When creating a narrative, each page of Soar's 'Stoary' represents a distinct location/view where users can add context.
 
-\
-\[placeholder for interface graphics]
+<figure><img src=".gitbook/assets/2025-11-03_10-50-56.png" alt=""><figcaption></figcaption></figure>
 
 
 
