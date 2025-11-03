@@ -2,7 +2,7 @@
 
 2. **Page Management Tools**
 
-**\[placeholder for interface graphics]**
+<figure><img src=".gitbook/assets/2025-11-03_10-50-56.png" alt=""><figcaption></figcaption></figure>
 
 Soar's step-by-step guide to creating a Stoary is found [here](https://youtu.be/G97wi-zaTfM?si=5d4vcSnTD4l_RgNj).
 
