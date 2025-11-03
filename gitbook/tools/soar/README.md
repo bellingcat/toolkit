@@ -242,8 +242,9 @@ _&#x61;_&#x6E;d providing the ability to combine sequential satellite images int
 
 {% tab title="GRAPHICAL INPUT OPTIONS" %}
 * Input text name of location OR
-* Geographical co-ordinates OR
+* Geographical co-ordinates of the location OR
 * Point and click at a location on a map
+* Define an Area of Interest by drawing a bounding box rectangle on the base map with the mouse.
 * Media content for upload to the Soar platform must comply with the following formats:&#x20;
   * Georeferenced maps=GeoTIFF, ECW and JP
   * LoFi Map formats = PNG and JPEG and create geographical media
