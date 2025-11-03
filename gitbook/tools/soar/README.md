@@ -321,16 +321,21 @@ We utilized research conducted by Bellingcat Volunteer Community members on Taji
 NOTE: This is for demonstration purposes only and does not constitute an investigation.
 {% endhint %}
 
-**QGIS Plugin (for advanced users) provides:**&#x20;
+#### **QGIS Plugin (for advanced users) provides:**&#x20;
 
-* Direct export of QGIS maps and images to Soar.
+* Direct export of QGIS maps and images to Soar..&#x20;
+
+This allows publishing QGIS projects directly to Soar without intermediate file conversions.
+
 * Browse and load Soar's public catalog into QGIS projects.
-* Batch upload functionality. <mark style="color:$info;">(Afton to elaborate)</mark>
-* See the steps on how to install and use the Soar Maps via QGIS [here.](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)
 
+This allows access to Soar's entire repository of public maps and imagery as layers within QGIS projects for analysis and mapping.
 
+* Batch upload functionality.&#x20;
 
+This allows uploading an entire folder of raster data to Soar via the plugin.&#x20;
 
+* Installation and usage guide:  Follow the step-by-step instructions for installing and using the Soar Maps QGIS plugin [here.](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)
 
 ## Cost
 
