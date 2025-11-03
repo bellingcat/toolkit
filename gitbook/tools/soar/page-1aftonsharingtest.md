@@ -13,13 +13,13 @@ To demonstrate narrative creation on Soar's "Stoary", we utilized research condu
 * Interactive slide presentation (not a video): View the actual Soar output here: [https://soaratlas.com/draw/2523](https://soaratlas.com/draw/2523)
 * Demonstration animation: The GIF below shows how users navigate through Soar's slide-based storytelling format
 
-{% hint style="info" %}
-Note: Soar creates interactive slide presentations that users click through, while Google Earth web produces interactive maps. The animation below demonstrates the slide navigation experience, but the actual Soar output is accessed via the link above.
+{% hint style="success" %}
+Note: Soar creates interactive slide presentations that users click through. The GIF animation below demonstrates the slide navigation experience, but the actual Soar output is accessed via the link above.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/pamiristoary-ezgif.com-added-text.gif" alt=""><figcaption></figcaption></figure>
+<div data-full-width="true" data-with-frame="true"><figure><img src=".gitbook/assets/pamiristoary-ezgif.com-added-text.gif" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 NOTE: This is for demonstration purposes only and does not constitute an investigation.
 {% endhint %}
 
