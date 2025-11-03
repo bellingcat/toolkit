@@ -281,36 +281,7 @@ There are quite a few elements which don't actually export to GeoJSON format fro
 
 ### <mark style="color:$primary;">Is there a separate item about making animated GIFS? Is that just Satellite site functionality, passed through?</mark>
 
-### <mark style="color:$info;">"Stoary": What is it?</mark>
 
-_<mark style="color:$info;">(Post on X:</mark>_ [_<mark style="color:$info;">https://x.com/Soar\_Earth/status/1825483446816223415</mark>_](https://x.com/Soar_Earth/status/1825483446816223415)_<mark style="color:$info;">, but I believe this is similar to "ESRI StoryMaps")</mark>_\ <mark style="color:$info;">Based on our tests, a Stoary seems to be a visualization feature of the Soar platform that allows storytelling based on maps or imagery. Rather than using static imagery or a map screenshot, users can use</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**pages**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">of maps/imagery to add context, descriptions, icons, and additional multimedia. This helps walk readers through a story arc tied to a place or several places.</mark>&#x20;
-
-<mark style="color:$info;">It allows creators to combine text, imagery, user-uploaded maps, and geospatial layers.</mark>&#x20;
-
-<mark style="color:$info;">Each page of a "Stoary" is scene-based. The user can choose a location/view and add context.</mark>&#x20;
-
-<mark style="color:$info;">Soar's step-by-step guide to creating a Stoary is found</mark> [<mark style="color:$info;">here</mark>](https://www.youtube.com/watch?v=G97wi-zaTfM)<mark style="color:$info;">.</mark>&#x20;
-
-<mark style="color:$info;">**Stoary Features:**</mark>
-
-1. <mark style="color:$info;">Pages of maps/imagery — This feature is helpful if, for instance, users are following one event in different locations (i.e., St. Patrick’s Day Parades worldwide. One can track it in cities like Dublin, Boston, and New York, and visualize that.</mark> &#x20;
-   1. <mark style="color:$info;">Each page of a Stoary can use a basemap (OSM, Satellite, etc) provided</mark>
-   2.  <mark style="color:$info;">Can use user-uploaded Soar maps! (screenshot below)</mark>
-
-       <mark style="color:$info;">NOTE: If using a Soar uploaded map for your Stoary, the transparency feature can be used. YES!!</mark>
-
-<figure><img src=".gitbook/assets/Screenshot 2025-09-11 094916-ed.png" alt="" width="375"><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/Screenshot 2025-09-11 095007.png" alt="" width="375"><figcaption></figcaption></figure>
-
-2. <mark style="color:$info;">Annotation (especially the coordinates feature)</mark>
-
-<mark style="color:$danger;">\[Insert screenshot graphic of the location co-ordinates feature for annotating maps in Stoary section.]</mark>
-
-3. <mark style="color:$info;">Photo Overlay - overlay photos from news or stock sites (with attribution), or social media, which can be good for corroboration.</mark>
-4. <mark style="color:$info;">Sharing and Exporting</mark>&#x20;
-
-To demonstrate the visualization capability of a "Stoary", we used the feature below using information [from a 2024 investigation by Bellingcat](https://www.bellingcat.com/news/2024/12/18/ukraine-outraged-at-yemen-grain-shipment-from-occupied-crimea/). NOTE: This is for demonstration purposes only.&#x20;
 
 #### VIEW FOUR: A**t Narrative Creation Level**
 
@@ -324,13 +295,12 @@ To demonstrate the visualization capability of a "Stoary", we used the feature b
 * Text, Arrow, Circle, Square tools for annotations.
 * Latitude/Longitude display.
 
-2\. **QGIS Plugin (for advanced users) provides:** <mark style="color:$info;">**TO TEST !! AFTON TO TEST AGAIN!! THEN SOPHIE ADD TO INTERFACE**</mark>
+2\. **QGIS Plugin (for advanced users) provides:**&#x20;
 
 * Direct export of QGIS maps and images to Soar.
 * Browse and load Soar's public catalog into QGIS projects.
-* Batch upload functionality.
-
-Source: [Soar.Earth Digital Atlas QGIS Plugin - North Road](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)
+* Batch upload functionality. <mark style="color:$info;">(Afton to elaborate)</mark>
+* See the steps on how to install and use the Soar Maps via QGIS [here.](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)
 
 ## Cost
 
