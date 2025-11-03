@@ -285,6 +285,10 @@ There are quite a few elements which don't actually export to GeoJSON format fro
 
 #### VIEW FOUR: A**t Narrative Creation Level**
 
+**Narrative Creation Use Case**
+
+Rather than using static imagery or a map screenshot, users can use pages of maps/imagery to add context, descriptions, icons, and additional multimedia. This helps walk readers through a story arc tied to a place or several places.
+
 <figure><img src=".gitbook/assets/StoaryInterface.JPG" alt=""><figcaption><p><strong>THE SOAR INTERFACE FOR NARRATIVE CREATION OF 'STOARIES' SHOWING PAGE MANAGEMENT MENU AND ANNOTATION TOOLS</strong></p></figcaption></figure>
 
 &#x20;  1\. **On-Map Tools for Drawing, Map-making and Image Import include:**
@@ -295,12 +299,27 @@ There are quite a few elements which don't actually export to GeoJSON format fro
 * Text, Arrow, Circle, Square tools for annotations.
 * Latitude/Longitude display.
 
-2\. **QGIS Plugin (for advanced users) provides:**&#x20;
+
+
+2. **Page Management Tools**
+
+When creating a narrative, each page of Soar's 'Stoary' represents a distinct location/view where users can add context.
+
+\
+\[placeholder for interface graphics]
+
+
+
+&#x20;3\. **QGIS Plugin (for advanced users) provides:**&#x20;
 
 * Direct export of QGIS maps and images to Soar.
 * Browse and load Soar's public catalog into QGIS projects.
 * Batch upload functionality. <mark style="color:$info;">(Afton to elaborate)</mark>
 * See the steps on how to install and use the Soar Maps via QGIS [here.](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)
+
+
+
+
 
 ## Cost
 
