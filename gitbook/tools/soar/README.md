@@ -253,6 +253,10 @@ NB Location can be input as co-ordinates or a location name in MAPS section, but
 {% endtab %}
 {% endtabs %}
 
+{% hint style="danger" %}
+&#x20;There are quite a few elements which, in practice, don't actually export to GeoJSON format from Soar. ![](.gitbook/assets/geoJSONexport.JPG) GeoJSON export is described as a 'basic geometry' export'.
+{% endhint %}
+
 <mark style="color:yellow;">Sophie completed to here - ></mark>
 
 ***
@@ -272,12 +276,6 @@ NB Location can be input as co-ordinates or a location name in MAPS section, but
 3. The facility to upload and share user maps (Formats are Georeferenced maps=GeoTIFF, ECW and JP2, LoFi Map formats = PNG and JPEG and create geographical media (called Stoaries <mark style="color:$danger;">**need to check the exact definition of a Stoary - is it a set of digital pages which can include gif animation? Stoaries - you can annotate a map (TEST maybe only an OSB background map, not a Soar upload**</mark>**&#x20;**<mark style="color:$info;">**(Tested and it looks like you can annotate a Soar upload (see my attempt at explaining the step below)**</mark><mark style="color:$danger;">**) and it will allow you to add the coordinates of a map pin in any chosen metric system. You can add photos or video to locations**</mark> to communicate complex information, e.g. changes over time.
 
 ### <mark style="color:$primary;">Maybe a Hint? Definitely a limitation!</mark>
-
-{% hint style="danger" %}
-There are quite a few elements which don't actually export to GeoJSON format from Soar
-
-![](.gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2F2U83UEO8KjkX3jGLBsBn_2Fuploads_2FmmIJfxQeBq0m9UeOd1j0_2Fimage.avif)
-{% endhint %}
 
 ### <mark style="color:$primary;">Is there a separate item about making animated GIFS? Is that just Satellite site functionality, passed through?</mark>
 
