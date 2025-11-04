@@ -88,6 +88,7 @@
   * [EU Sanctions Map](tools/eu-sanctions-map/README.md)
   * [ExifTool](tools/exiftool/README.md)
   * [F4Map](tools/f4map/README.md)
+  * [Face Comparison by ToolPie](tools/face-comparison-toolpie/README.md)
   * [FaceCheck.ID](tools/facecheck.id/README.md)
   * [FlightAware](tools/flightaware/README.md)
   * [Flightradar24](tools/flightradar24/README.md)
