@@ -86,6 +86,7 @@ do
   echo $project_item
   item_id=$(echo $project_item | jq '.id')
   title=$(echo $project_item | jq '.title')
+  tool_id=$(echo $project_item | jq -r '.toolId')
   date_submitted=$(echo $project_item | jq -r '.date_submitted')
   date_updated=$(echo $project_item | jq -r '.updatedAt')
   published=$(echo $project_item | jq -r '.published')
@@ -136,5 +137,9 @@ do
   if [[ "$url" != "null" ]]; then
     echo "Update latest change request url $url"
     set_text_field $item_id "$URL_FIELD_ID" $url
+  fi
+  if [[ "$tool_id" != "null" ]]; then
+    echo "Update tool Id $tool_id"
+    set_text_field $item_id "$TOOLID_FIELD_ID" $tool_id
   fi
 done

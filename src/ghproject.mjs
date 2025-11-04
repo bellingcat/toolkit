@@ -26,6 +26,7 @@ const items = JSON.parse(fs.readFileSync('project_items.json', 'utf-8')).map(fun
     url: getField("Latest change request", item).text,
     updatedAt: getField("Last updated", item).date,
     space: getField("Tool Space", item).text,
+    toolId: getField("Tool ID", item).text,
   }
 });
 
@@ -53,6 +54,9 @@ tools.forEach(async function(tool) {
     if (!item.published) {
       changed.published = true;
     }
+  }
+  if (item.toolId != tool.directory) {
+      changed.toolId = tool.directory
   }
 
   if (space.changeRequestsOpen) {
