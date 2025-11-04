@@ -400,9 +400,19 @@ C. Misinformation and Disinformation:
 
 ## Similar Tools
 
-Similar for creating Stoaries, seeing satellite imagery...
+<mark style="color:yellow;">Breaking down Soar functionality to find similar tools:</mark>
 
-For satellite image combination into animated gif, compare with integrated Sentinel functionality, also ezgif free online tool,...
+<mark style="color:yellow;">For databases of map imagery</mark>
+
+<mark style="color:yellow;">For databases of Satellite imagery</mark>
+
+<mark style="color:yellow;">For Satellite imagery purchase/commissioning</mark>
+
+<mark style="color:yellow;">For geographic narrative creation</mark>
+
+
+
+For satellite image combination into animated gif, compare with integrated Sentinel functionality,&#x20;
 
 <mark style="color:$info;">Gif-creating tools on the toolkit include:</mark>
 
@@ -429,7 +439,7 @@ Soar, Perth, Australia
 
 | Page maintainer                             |
 | ------------------------------------------- |
-| Afton and Sophie Tedling 02/11/25 00:34 GMT |
+| Afton and Sophie Tedling 04/11/25 14:38 GMT |
 |                                             |
 
 
