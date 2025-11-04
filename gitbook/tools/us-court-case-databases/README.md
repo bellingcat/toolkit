@@ -6,15 +6,13 @@ description: State-by-state guide for researching criminal and civil court cases
 
 ## Description
 
-Criminal and civil court case information in the United States is publicly available and maintained in databases by each individual state or county. If you want to run a background check on an individual or are seeking information about a particular court case, these databases allow you to access details such as: \
-\--Case number\
-\--Assigned attorneys\
-\--DOB and address of parties\
-\--Charges and statutes\
-\--Dispositions\
-\--Copies of court documents
+Criminal and civil court case information in the United States is publicly available and maintained in databases by each individual state or county. If you want to run a background check on an individual or are seeking information about a particular court case, these databases allow you to access details such as:&#x20;
 
-
+* Case number
+* Assigned attorneys
+* DOB and address of parties
+* Charges and statutes
+* Disposition summaries
 
 
 
@@ -32,17 +30,19 @@ Cost varies by state. Some jurisdictions allow you to search and obtain informat
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+Many databases require that you create an account with an email and password to access content.&#x20;
 
 ## Limitations
 
 \[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
 
-Certain case information is not publicly available, such as juvenile records or cases involving protective and restraining orders. Additionally, cases older than \~2010 might not be digitized — if you find yourself in this situation, you can make a records request to the respective county to recieve scanned copies of the records you're looking for.&#x20;
+Certain case information is not publicly available, such as juvenile records or cases subject to the federal Violence Against Women Act (VAWA). Additionally, older cases might not be digitized — if you find yourself in this situation, you can make a records request to the respective county to receive scanned copies of the records you're looking for.&#x20;
 
 ## Ethical Considerations
 
 \[\[The ethical considerations of each tool should be described.]]
+
+Even though this information is publicly available, legal cases often contain personal or sensitive information about the parties involved. An ethical OSINT practitioner should take this into account when doing such research.&#x20;
 
 ## Guides and articles
 
