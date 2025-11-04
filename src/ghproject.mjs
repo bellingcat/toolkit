@@ -39,6 +39,7 @@ const REVIEWERS_FIELD_ID = "$REVIEWERS_FIELD_ID";
 const DATE_FIELD_ID = "$DATE_FIELD_ID";
 const URL_FIELD_ID = "$URL_FIELD_ID";
 const REVIEW_OPTION_ID = "$REVIEW_OPTION_ID";
+const TOOLID_FIELD_ID = "$TOOLID_FIELD_ID";
 
 tools.forEach(async function(tool) {
   let changed = {};
@@ -71,9 +72,6 @@ tools.forEach(async function(tool) {
       changed.published = true;
       changes.push(graphql.setSelectField(PUBLISHED_FIELD_ID, PUBLISHED_TRUE_OPTION_ID));
     }
-  }
-  if (item.toolId != tool.filename) {
-      changed.toolId = tool.filename
   }
 
   if (space.changeRequestsOpen) {
