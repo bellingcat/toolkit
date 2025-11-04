@@ -55,8 +55,8 @@ tools.forEach(async function(tool) {
       changed.published = true;
     }
   }
-  if (item.toolId != tool.directory) {
-      changed.toolId = tool.directory
+  if (item.toolId != tool.filename) {
+      changed.toolId = tool.filename
   }
 
   if (space.changeRequestsOpen) {
