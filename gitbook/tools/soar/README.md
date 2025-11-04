@@ -263,24 +263,6 @@ NB Location can be input as co-ordinates or a location name in MAPS section, but
 
 ### **AFTON TO RESEARCH THE VALIDITY OF THE SKYMAP 50 SATELLITE DATA SOURCE, AND WHETHER THIS SITE COULD BE LINKED TO DISINFORMATION.**
 
-### <mark style="color:$primary;">NARRATIVES (INTERFACE) and upload - Afton</mark>&#x20;
-
-
-
-* WE CAN USE THE EVERGREEN ANIMATED GIF EXAMPLE FOR GIF FEATURE
-
-
-
-
-
-3. The facility to upload and share user maps (Formats are Georeferenced maps=GeoTIFF, ECW and JP2, LoFi Map formats = PNG and JPEG and create geographical media (called Stoaries <mark style="color:$danger;">**need to check the exact definition of a Stoary - is it a set of digital pages which can include gif animation? Stoaries - you can annotate a map (TEST maybe only an OSB background map, not a Soar upload**</mark>**&#x20;**<mark style="color:$info;">**(Tested and it looks like you can annotate a Soar upload (see my attempt at explaining the step below)**</mark><mark style="color:$danger;">**) and it will allow you to add the coordinates of a map pin in any chosen metric system. You can add photos or video to locations**</mark> to communicate complex information, e.g. changes over time.
-
-### <mark style="color:$primary;">Maybe a Hint? Definitely a limitation!</mark>
-
-### <mark style="color:$primary;">Is there a separate item about making animated GIFS? Is that just Satellite site functionality, passed through?</mark>
-
-
-
 #### VIEW FOUR: A**t Narrative Creation Level**
 
 **Narrative Creation Use Case**
