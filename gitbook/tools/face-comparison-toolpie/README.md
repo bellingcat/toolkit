@@ -55,7 +55,7 @@ Internet access and a web browser to view the results, as well as two images in 
 * Toolpie does not have any privacy details outlined on their website, although two of their tool pages ([Face Comparison](https://facecomparison.toolpie.com/), [Encrypt & Decrypt Text](https://encrypt.toolpie.com/)) mention that user data is not stored on the website for privacy reasons.&#x20;
 * There is no mention of what happens to the pictures uploaded to the website. For instance, does the tool provider know or have access to what it is I am researching?&#x20;
 
-Wang, Woo, Zhou and Fo (2024) in their paper, [Beyond surveillance: privacy, ethics, and regulations in face recognition technology](https://doi.org/10.3389/fdata.2024.1337465) provides an analysis of international regulatory frameworks and ethical considerations for facial recognition technology, examining global privacy laws and surveillance contexts. GDPR Advisor also has an article, [GDPR and Facial Recognition: Privacy Implications and Legal Considerations](https://www.gdpr-advisor.com/gdpr-and-facial-recognition-privacy-implications-and-legal-considerations/#Privacy_Implications_of_Facial_Recognition), that's worth a read.&#x20;
+Wang, Woo, Zhou and Fo (2024) in their paper, [Beyond surveillance: privacy, ethics, and regulations in face recognition technology](https://doi.org/10.3389/fdata.2024.1337465) provides an analysis of international regulatory frameworks and ethical considerations for facial recognition technology, examining global privacy laws and surveillance contexts.&#x20;
 
 ## Tool provider
 
