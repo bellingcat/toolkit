@@ -333,8 +333,6 @@ This allows uploading an entire folder of raster data to Soar via the plugin.&#x
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
-Difficulty Level and Learning Curve:
-
 Overall: For a casual user exploring maps, the difficulty is moderate. For an investigator requiring precise data or intending to contribute advanced imagery, the difficulty is high, requiring some understanding of geospatial data principles or reliance on integrated GIS tools.
 
 ## Requirements
