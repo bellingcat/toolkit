@@ -297,11 +297,11 @@ We utilized research conducted by Bellingcat Volunteer Community members on Taji
 
 <p align="center"><a href="https://researcherera.github.io/soar-embed/soar-map.html"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F2U83UEO8KjkX3jGLBsBn%2Fuploads%2Fy6FHvbEVOHkA7UntthGd%2F2025-11-05_03-01-09.png?alt=media&#x26;token=beeeed3d-8155-41e7-ab49-ab1723c160a9" alt="Interactive Soar Atlas Map"></a></p>
 
-<p align="center"><em>Click the image to explore the visualization we created to test this tool.</em> </p>
+<p align="center"><em>Click the image to explore the visualization we created to test this feature.</em> </p>
 
 **OUTPUT: What Soar Produces**
 
-* Interactive slide presentation (not a video): View the actual Soar narrative output based on our tests here: [https://soaratlas.com/draw/2523](https://soaratlas.com/draw/2523)
+* Interactive slide presentation (not a video): View the actual Soar narrative output based on our tests here: [Stoary Demonstration for Soar](https://soaratlas.com/draw/2523)
 
 {% hint style="warning" %}
 NOTE: This is for demonstration purposes only and does not constitute an investigation.
