@@ -96,8 +96,6 @@ Soar maps are searchable by features including location, map category, indexing 
 
 </details>
 
-
-
 <details>
 
 <summary>Soar's repository of over a million maps covers diverse locations, topics and timeframes. <em><strong>Click the arrow to see Soar map examples demonstrating the variety of content...</strong></em></summary>
@@ -260,8 +258,6 @@ NB Location can be input as co-ordinates or a location name in MAPS section, but
 <mark style="color:yellow;">Sophie completed to here - ></mark>
 
 ***
-
-### **AFTON TO RESEARCH THE VALIDITY OF THE SKYMAP 50 SATELLITE DATA SOURCE, AND WHETHER THIS SITE COULD BE LINKED TO DISINFORMATION.**
 
 #### VIEW FOUR: A**t Narrative Creation Level**
 

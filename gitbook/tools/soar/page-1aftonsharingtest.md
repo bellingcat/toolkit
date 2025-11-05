@@ -24,6 +24,8 @@ NOTE: This is for demonstration purposes only and does not constitute an investi
 
 <p align="center"><a href="https://researcherera.github.io/soar-embed/soar-map.html"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F2U83UEO8KjkX3jGLBsBn%2Fuploads%2Fy6FHvbEVOHkA7UntthGd%2F2025-11-05_03-01-09.png?alt=media&#x26;token=beeeed3d-8155-41e7-ab49-ab1723c160a9" alt="Open Interactive Soar Map"></a></p>
 
+<p align="center">Testing for embed options</p>
+
 #### 🗺️ Interactive Soar Atlas Map
 
 [![Open Interactive Soar Map](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F2U83UEO8KjkX3jGLBsBn%2Fuploads%2Fy6FHvbEVOHkA7UntthGd%2F2025-11-05_03-01-09.png?alt=media\&token=beeeed3d-8155-41e7-ab49-ab1723c160a9)](https://researcherera.github.io/soar-embed/soar-map.html)
@@ -33,6 +35,12 @@ _Click the image to explore the live Soar Atlas visualization._
 [![Interactive Soar Atlas Map](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F2U83UEO8KjkX3jGLBsBn%2Fuploads%2Fy6FHvbEVOHkA7UntthGd%2F2025-11-05_03-01-09.png?alt=media\&token=beeeed3d-8155-41e7-ab49-ab1723c160a9)](https://researcherera.github.io/soar-embed/soar-map.html)
 
 <p align="center"><em>Click the image to explore the live Soar Atlas visualization</em></p>
+
+***
+
+### **AFTON TO RESEARCH THE VALIDITY OF THE SKYMAP 50 SATELLITE DATA SOURCE, AND WHETHER THIS SITE COULD BE LINKED TO DISINFORMATION.**
+
+
 
 <p align="center"></p>
 
