@@ -304,7 +304,9 @@ We utilized research conducted by Bellingcat Volunteer Community members on Taji
 * Interactive slide presentation (not a video): View the actual Soar narrative output based on our tests here: [Stoary Demonstration for Soar](https://soaratlas.com/draw/2523)
 
 {% hint style="warning" %}
-NOTE: This is for demonstration purposes only and does not constitute an investigation.
+IMPORTANT: SOAR only produces slides, not videos.
+
+This is for demonstration purposes only and does not constitute an investigation.
 {% endhint %}
 
 #### **QGIS Plugin (for advanced users) provides:**&#x20;
