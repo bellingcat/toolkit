@@ -206,7 +206,7 @@ The Soar satellite interface supports access to satellite imagery for areas of i
 
 1. Sentinel-2 : Medium resolution, free
 2. NASA : Low resolution, free
-3. Pics from Space, a charged service at [https://www.picsfromspace.com/](https://www.picsfromspace.com/), which offers charged data from two [Chinese satellite services](#user-content-fn-4)[^4], including the ability to commission new satellite imagery according to user specification. &#x20;
+3. Pics from Space, a charged service at [https://www.picsfromspace.com/](https://www.picsfromspace.com/), which offers charged data from two [Chinese satellite services](#user-content-fn-4)[^4], including the ability to commission new satellite imagery according to user specification.  The providers are: CG Satellite or ([Chang Guang Satellite Technology, Co., LTD.](https://www.jl1.cn/)) and [Skymap50. ](https://www.spymesat.com/skymap.html)&#x20;
 
 _&#x61;_&#x6E;d providing the ability to combine sequential satellite images into an animated gif via the Sentinel interface. This GIF map uploaded to Soar is [an example about a wildfire](https://soaratlas.com/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99).
 
