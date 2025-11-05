@@ -36,7 +36,23 @@ _Click the image to explore the live Soar Atlas visualization._
 
 <p align="center"><em>Click the image to explore the live Soar Atlas visualization</em></p>
 
+<p align="center"></p>
+
+### _**QGIS Explainer**_
+
+[_QGIS (Quantum Geographic Information System)_](https://bellingcat.gitbook.io/toolkit/more/all-tools/qgis) is a free and open-source geographic information system (GIS) software. It lets users create, view, edit, and analyze maps. It lets users layer different types of geographic information like satellite imagery, roads, boundaries, and other points of interest, to create custom maps. &#x20;
+
+For Soar users, QGIS can be a complementary tool. While Soar hosts maps and imagery online, QGIS enables users to download them for offline analysis, combine them with other data sources, perform measurements, and create maps with multiple data layers.&#x20;
+
+The workflow also goes both ways. Users can process and enhance imagery in QGIS then export the results back to Soar.&#x20;
+
+
+
+
+
 ***
+
+### **To Do:**
 
 ### **AFTON TO RESEARCH THE VALIDITY OF THE SKYMAP 50 SATELLITE DATA SOURCE, AND WHETHER THIS SITE COULD BE LINKED TO DISINFORMATION.**
 
