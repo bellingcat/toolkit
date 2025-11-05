@@ -382,8 +382,6 @@ C. Misinformation and Disinformation:
 
 [Exploring a Digital Atlas of Maps and Imagery on Soar.Earth from Open.gis.lab](https://opengislab.com/blog/2021/7/11/exploring-a-digital-atlas-of-maps-and-imagery-on-soarearth)
 
-<mark style="color:$info;">Possible Use Case:</mark> [<mark style="color:$info;">https://x.com/Soar\_Earth/status/1037937241979412481</mark>](https://x.com/Soar_Earth/status/1037937241979412481)&#x20;
-
 ## Similar Tools
 
 <mark style="color:yellow;">Breaking down Soar functionality to find similar tools:</mark>
