@@ -36,7 +36,7 @@ tools.forEach(async function(tool) {
   if (!space) {
     return;
   }
-  const item = items.find((item) => item.title === tool.title);
+  const item = items.find((item) => item.toolId === tool.filename);
   if (!item) {
     console.error("No gh project item for tool", tool.title);
     return;
