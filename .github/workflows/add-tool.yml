@@ -72,7 +72,8 @@ jobs:
       - name: Create new tool folder (look here for git sync config!)
         id: add-folder
         run: |
-          node src/add-tool.mjs "$TOOL_NAME"
+          toolId = $(node src/add-tool.mjs "$TOOL_NAME")
+          echo "toolId=$toolId" >> "$GITHUB_OUTPUT"
           if [ -n "$(git status --porcelain)" ]; then
             echo "changes=true" >> "$GITHUB_OUTPUT"
           fi
@@ -142,9 +143,7 @@ jobs:
             }' -f org=$ORGANIZATION -F number=$PROJECT_NUMBER > project_data.json
 
           echo 'PROJECT_ID='$(jq '.data.organization.projectV2.id' project_data.json) >> $GITHUB_ENV
-          echo 'DATE_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Date submitted") | .id' project_data.json) >> $GITHUB_ENV
-          echo 'STATUS_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .id' project_data.json) >> $GITHUB_ENV
-          echo 'DRAFT_OPTION_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .options[] | select(.name=="Draft") |.id' project_data.json) >> $GITHUB_ENV
+          echo 'TOOLID_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Tool ID") | .id' project_data.json) >> $GITHUB_ENV
 
       - name: Add to Project
         env:
@@ -165,3 +164,29 @@ jobs:
             echo 'ITEM_ID='$item_id >> $GITHUB_ENV
 
 
+      - name: Update id
+        env:
+          GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
+          TOOL_ID: ${{ steps.add-folder.outputs.toolId }}
+        run: |
+          gh api graphql -f query='
+            mutation (
+              $project: ID!
+              $item: ID!
+              $field: ID!
+            ) {
+              set_status: updateProjectV2ItemFieldValue(input: {
+                projectId: $project
+                itemId: $item
+                fieldId: $field
+                value: {
+                  text: $value
+                  }
+              }) {
+                projectV2Item {
+                  id
+                  }
+              }
+            }' -f project=$PROJECT_ID -f item=$ITEM_ID -f field=$TOOLID_FIELD_ID -f value=${{ env.TOOL_ID }} -f --silent
+
+            #'

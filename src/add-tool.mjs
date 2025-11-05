@@ -17,3 +17,4 @@ const slug = createTool({
   name: toolName,
   tags: tags
 });
+console.log(slug);

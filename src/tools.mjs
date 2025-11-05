@@ -13,7 +13,7 @@ createTool({
 });
 */
 function debug(...args) {
-    console.debug(...args);
+    console.warn(...args);
 }
 function checkBoxes(tool, choices, template) {
   for (const choice of choices) {
