@@ -347,9 +347,17 @@ Overall: For a casual user exploring maps, the difficulty is moderate. For an in
 
 * Some Satellite images that are high quality - can take long to load when zooming in and out (i.e. [https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69](https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69))&#x20;
 * Confusing user interface
-*   Stoaries are very difficult to edit. Going to the "page" of the map you want to edit does not take you to that location. Instead, you have to re-input the location or coordinates in the search bar. &#x20;
+*   "Stoaries" are difficult to edit. Going to the "page" of the map you want to edit does not take you to that location. Instead, you have to re-input the location or coordinates in the search bar. &#x20;
 
-    Use a browser that does not go into "efficiency mode," as this can freeze the Soar and the Stoary interface consistently.&#x20;
+    Use a browser that does not enter "efficiency mode," as this can freeze the Soar and Stoary interfaces. &#x20;
+*   Soar's satellite imagery basemap doesn’t display the date when the image was captured.
+
+    This is a limitation if doing any kind of time-sensitive or verification work. Without the date,\
+    users can’t be sure whether:
+
+    * A building, road, or structure actually existed at that time,
+    * The image is recent or years old,
+    * Environmental changes (like floods, fires, or deforestation) happened before or after that snapshot.
 * Soar puts labels over Thumbnail maps to give information as to format, but these formats don't correspond exactly to the filters offered by Soar - labels include "GIF", "REAL TIME", "DAILY", POPULAR", "NEW", "LoFi (which IS one of the filterable categories).
 * Intermediate to Advanced Use: The difficulty level increases for more advanced functionalities. Some of them are:
 
