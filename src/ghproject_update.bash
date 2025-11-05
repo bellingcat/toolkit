@@ -104,6 +104,10 @@ do
       status_value=$REVIEW_OPTION_ID
       ;;
   esac
+  if [[ "$title" != "null" ]]; then
+    echo "Set title: $title"
+    set_text_field $item_id "$TITLE_FIELD_ID" $title
+  fi
   if [[ "$status_name" != "null" ]]; then
     # set status
     echo "Set status: $status_value"

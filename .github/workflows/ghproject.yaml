@@ -67,6 +67,7 @@ jobs:
           echo 'REVIEWERS_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "CR Reviewers") | .id' project_data.json) >> $GITHUB_ENV
           echo 'AUTHOR_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "CR Author") | .id' project_data.json) >> $GITHUB_ENV
           echo 'TOOLID_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Tool ID") | .id' project_data.json) >> $GITHUB_ENV
+          echo 'TITLE_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Title") | .id' project_data.json) >> $GITHUB_ENV
 
 
       # Downloads all items from the project and adds missing ones

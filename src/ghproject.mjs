@@ -42,6 +42,9 @@ tools.forEach(async function(tool) {
     return;
   }
 
+  if (item.title !== tool.title) {
+    changed.title = tool.title;
+  }
   if (item.space !== space.urls.app) {
     changed.space = space.urls.app;
   }
