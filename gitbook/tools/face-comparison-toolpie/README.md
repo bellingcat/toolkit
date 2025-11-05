@@ -1,5 +1,6 @@
 ---
 description: Compares two human face photos to determine similarity.
+updated: '2025-11-04'
 ---
 
 # Face Comparison by ToolPie
