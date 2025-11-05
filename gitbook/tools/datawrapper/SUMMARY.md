@@ -3,4 +3,4 @@
 * [Datawrapper](README.md)
 * [Categories](categories.md)
 * [Regions](regions.md)
-* [Draft/Testint Page](draft-testint-page.md)
+* [Draft/Testing Page](draft-testing-page.md)
