@@ -408,8 +408,6 @@ Both Datawrapper's Locator Map Function and Soar's Stoary/Narrative Feature are 
 
 {% include ".gitbook/includes/soar-stoary-v-datawrapper-distinct-features.md" %}
 
-{% include ".gitbook/includes/soar-stoary-v-datawrapper-distinct-features.md" %}
-
 For satellite image combination into animated gif, compare with integrated Sentinel functionality,&#x20;
 
 <mark style="color:$info;">Gif-creating tools on the toolkit include:</mark>
