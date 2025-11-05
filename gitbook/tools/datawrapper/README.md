@@ -235,7 +235,7 @@ A symbol map, sometimes called a point map or dot map, is a type of thematic map
 
 <details>
 
-<summary><strong>Key Features of Symbol Maps</strong> (CLICK TO EXPAND)</summary>
+<summary><strong>Key Features of Symbol Maps</strong> <mark style="color:$success;">(CLICK TO EXPAND)</mark></summary>
 
 1. Symbols Represent Data: Each symbol on the map represents a specific quantity or value. For instance, a dot might represent a certain number of people, a business, or an event.
 2. Size and Color: The size and color of the symbols can vary to convey different magnitudes or categories. Larger or differently colored symbols can indicate higher values or different categories.
@@ -247,7 +247,7 @@ Comparing Values: Symbol maps allow users to see patterns, trends, and distribut
 
 <details>
 
-<summary>Potential open-source use cases of symbol map (CLICK TO EXPAND)</summary>
+<summary>Potential open-source use cases of symbol map <mark style="color:$success;">(CLICK TO EXPAND)</mark></summary>
 
 Tracking the outbreak of armed clashes in a region or disease outbreaks:
 
@@ -377,7 +377,7 @@ TIP: Users can adjust the zoom level, rotation, tilt, and height of the map. Dec
 **Publish and Embed**
 
 * Once you're satisfied with your map, click on "Publish."
-* Choose the desired embed code format (HTML, iframe, etc.) to integrate the map into your website or other platforms.
+* Choose the desired embed code format (HTML, iframe, static image - depending on what your platform allow) to integrate the map into your website or other platforms.
 
 NOTE: Locator maps can be exported in GeoJSON format
 
