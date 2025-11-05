@@ -18,7 +18,7 @@ We utilized research conducted by Bellingcat Volunteer Community members on Taji
 NOTE: This is for demonstration purposes only and does not constitute an investigation.
 {% endhint %}
 
+```html
+https://soaratlas.com/draw/2523
+```
 
-
-\
-\
