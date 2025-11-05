@@ -307,21 +307,19 @@ IMPORTANT: SOAR only produces slides, not videos.
 This is for demonstration purposes only and does not constitute an investigation.
 {% endhint %}
 
-#### **QGIS Plugin (for advanced users) provides:**&#x20;
+#### **Soar QGIS Plugin (for advanced users) provides:**&#x20;
 
-* Direct export of QGIS maps and images to Soar..&#x20;
+[_QGIS (Quantum Geographic Information System)_](https://bellingcat.gitbook.io/toolkit/more/all-tools/qgis) is a free and open-source geographic information system (GIS) software. It lets users create, view, edit, and analyze maps. It lets users layer different types of geographic information, like satellite imagery, roads, boundaries, and other points of interest, to create custom maps. &#x20;
 
-This allows publishing QGIS projects directly to Soar without intermediate file conversions.
+For Soar users, QGIS can be a complementary tool. While Soar hosts maps and imagery online, QGIS enables users to download them for offline analysis, combine them with other data sources, perform measurements, and create maps with multiple data layers.&#x20;
 
-* Browse and load Soar's public catalog into QGIS projects.
+The workflow also goes both ways. Users can process and enhance imagery in QGIS, then export the results back to Soar.&#x20;
 
-This allows access to Soar's entire repository of public maps and imagery as layers within QGIS projects for analysis and mapping.
+**Soar QGIS Plugin features are:**&#x20;
 
-* Batch upload functionality.&#x20;
+<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Direct export of QGIS maps and images to Soar</strong></td><td>This allows publishing QGIS projects directly to Soar without intermediate file conversions.</td></tr><tr><td><strong>Browse and load Soar's public catalog into QGIS projects</strong></td><td>This allows access to Soar's entire repository of public maps and imagery as layers within QGIS projects for analysis and mapping.</td></tr><tr><td><strong>Batch upload functionality</strong> </td><td>This allows uploading an entire folder of <a data-footnote-ref href="#user-content-fn-5">raster</a> data to Soar via the plugin. </td></tr></tbody></table>
 
-This allows uploading an entire folder of raster data to Soar via the plugin.&#x20;
-
-* Installation and usage guide:  Follow the step-by-step instructions for installing and using the Soar Maps QGIS plugin here: [Soar QGIS Plugin Step-By-Step Instruction](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)
+Follow the step-by-step instructions for installing and using the Soar Maps QGIS plugin here: [Soar QGIS Plugin Step-By-Step Instruction](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)
 
 ## Cost
 
@@ -439,3 +437,5 @@ Soar, Perth, Australia
 
 
     _"SkyMap50 archival imagery orders can take between 2 to 5 working days to process and is available only in GeoTIFF format" (_[_https://about.soaratlas.com/help#Satellite-Imagery_](https://about.soaratlas.com/help#Satellite-Imagery)_)_
+
+[^5]: **Raster layers** are one of the two main data types in QGIS (the other being vector), consisting of a grid of pixels where each pixel has a value - like a digital photograph but for geographic data, commonly used for satellite imagery, elevation models, or heat maps. In QGIS, you can stack multiple raster layers on top of each other with different transparency levels to compare things like land use changes over time or overlay terrain data with aerial photos.
