@@ -289,13 +289,19 @@ When creating a narrative, each page of Soar's 'Stoary' represents a distinct lo
 
 Soar's step-by-step guide to creating a Stoary is found [here](https://youtu.be/G97wi-zaTfM?si=5d4vcSnTD4l_RgNj).
 
+#### Narrative Creation Demonstration
+
 We utilized research conducted by Bellingcat Volunteer Community members on Tajikistan to demonstrate narrative creation on Soar's 'Stoary.'
+
+<h4 align="center">🗺️ Interactive Soar Atlas Map</h4>
+
+<p align="center"><a href="https://researcherera.github.io/soar-embed/soar-map.html"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F2U83UEO8KjkX3jGLBsBn%2Fuploads%2Fy6FHvbEVOHkA7UntthGd%2F2025-11-05_03-01-09.png?alt=media&#x26;token=beeeed3d-8155-41e7-ab49-ab1723c160a9" alt="Interactive Soar Atlas Map"></a></p>
+
+<p align="center"><em>Click the image to explore the visualization we created to test this tool.</em> </p>
 
 **OUTPUT: What Soar Produces**
 
 * Interactive slide presentation (not a video): View the actual Soar narrative output based on our tests here: [https://soaratlas.com/draw/2523](https://soaratlas.com/draw/2523)
-
-{% include ".gitbook/includes/tajikistan-stoary-demo-for-soar.md" %}
 
 {% hint style="warning" %}
 NOTE: This is for demonstration purposes only and does not constitute an investigation.
