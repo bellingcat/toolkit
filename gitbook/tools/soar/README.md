@@ -96,6 +96,8 @@ Soar maps are searchable by features including location, map category, indexing 
 
 </details>
 
+
+
 <details>
 
 <summary>Soar's repository of over a million maps covers diverse locations, topics and timeframes. <em><strong>Click the arrow to see Soar map examples demonstrating the variety of content...</strong></em></summary>
@@ -436,4 +438,8 @@ Soar, Perth, Australia
 
 [^3]: Maps can be categorised as to whether or not they can be [georeferenced](https://en.wikipedia.org/wiki/Georeferencing)
 
-[^4]: "_**Launched in 2018 (01 & 02) and 2018 (03 & 04) from the Taiyuan Satellite Launch Center in China, the four syn-synchronous satellites operate at an altitude of 500km and can monitor daily any location on the Earth at 50cm per pixel image resolution. At this zoom level, ground features such as individual trees, fences, cars and trucks can be all seen...**&#x53;kyMap50 archival imagery orders can take between 2 to 5 working days to process and is available only in GeoTIFF format" Soar website_
+[^4]: "_Launched in 2018 (01 & 02) and 2018 (03 & 04) from the Taiyuan Satellite Launch Center in China, the four synchronous satellites operate at an altitude of 500km and can monitor daily any location on the Earth at 50cm per pixel image resolution. At this zoom level, ground features such as individual trees, fences, cars and trucks can be all seen" (_[_https://www.spymesat.com/skymap.html_](https://www.spymesat.com/skymap.html)_)_&#x20;
+
+
+
+    _"SkyMap50 archival imagery orders can take between 2 to 5 working days to process and is available only in GeoTIFF format" (_[_https://about.soaratlas.com/help#Satellite-Imagery_](https://about.soaratlas.com/help#Satellite-Imagery)_)_
