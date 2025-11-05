@@ -108,7 +108,7 @@ Soar maps are searchable by features including location, map category, indexing 
 
 ### **Navigating the Interface to the Soar Map Database**
 
-The Soar interface has been regularly updated and redesigned since its launch. The Interface offers 4 main views: Database Query, Map Inspection, Satellite Image Acquisition and Narrative Creation
+The Soar interface has been regularly updated and redesigned since its launch. The Interface offers 4 main views: 1) Database Query, 2) Map Inspection, 3) Satellite Image Acquisition & 4) Narrative Creation
 
 #### **VIEW ONE: At Database Query Level**
 
