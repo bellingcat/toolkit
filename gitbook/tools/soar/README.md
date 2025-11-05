@@ -398,9 +398,17 @@ C. Misinformation and Disinformation:
 
 <mark style="color:yellow;">For Satellite imagery purchase/commissioning</mark>
 
-<mark style="color:yellow;">For geographic narrative creation</mark>
+**For geographic narrative creation**
 
+1. Datawrapper's Locator Map
 
+Both Datawrapper's Locator Map Function and Soar's Stoary/Narrative Feature are similar because they both let users create interactive, story-driven maps directly in a browser without coding. They can both turn geographic information into visual narratives that are easy to share. However, there are some features that are different. Click on the expandables below to see the list of similar and distinc features between the two.&#x20;
+
+{% include ".gitbook/includes/datawrapper-v-stoary-similar-features.md" %}
+
+{% include ".gitbook/includes/soar-stoary-v-datawrapper-distinct-features.md" %}
+
+{% include ".gitbook/includes/soar-stoary-v-datawrapper-distinct-features.md" %}
 
 For satellite image combination into animated gif, compare with integrated Sentinel functionality,&#x20;
 
