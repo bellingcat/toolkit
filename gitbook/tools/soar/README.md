@@ -285,7 +285,7 @@ When creating a narrative, each page of Soar's 'Stoary' represents a distinct lo
 
 <figure><img src=".gitbook/assets/2025-11-03_10-50-56.png" alt=""><figcaption></figcaption></figure>
 
-Soar's step-by-step guide to creating a Stoary is found [here](https://youtu.be/G97wi-zaTfM?si=5d4vcSnTD4l_RgNj).
+Soar's step-by-step guide to creating a Stoary is found here: [Soar's Step-by-Step Guide on YouTube](https://youtu.be/G97wi-zaTfM?si=5d4vcSnTD4l_RgNj).
 
 #### Narrative Creation Demonstration
 
@@ -321,7 +321,7 @@ This allows access to Soar's entire repository of public maps and imagery as lay
 
 This allows uploading an entire folder of raster data to Soar via the plugin.&#x20;
 
-* Installation and usage guide:  Follow the step-by-step instructions for installing and using the Soar Maps QGIS plugin [here.](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)
+* Installation and usage guide:  Follow the step-by-step instructions for installing and using the Soar Maps QGIS plugin here: [Soar QGIS Plugin Step-By-Step Instruction](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)
 
 ## Cost
 
