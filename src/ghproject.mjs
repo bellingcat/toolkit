@@ -39,7 +39,7 @@ const REVIEWERS_FIELD_ID = "$REVIEWERS_FIELD_ID";
 const DATE_FIELD_ID = "$DATE_FIELD_ID";
 const URL_FIELD_ID = "$URL_FIELD_ID";
 const REVIEW_OPTION_ID = "$REVIEW_OPTION_ID";
-const TOOLID_FIELD_ID = "$TOOLID_FIELD_ID";
+const TITLE_FIELD_ID = "$TITLE_FIELD_ID";
 
 tools.forEach(async function(tool) {
   let changed = {};
@@ -56,6 +56,7 @@ tools.forEach(async function(tool) {
 
   if (item.title !== tool.title) {
     changed.title = tool.title;
+    changes.push(grqphql.setTextField(TITLE_FIELD_ID, tool.title));
   }
   if (item.space !== space.urls.app) {
     changed.space = space.urls.app;
