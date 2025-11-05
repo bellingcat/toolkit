@@ -160,11 +160,11 @@ jobs:
                   id
                 }
               }
-            }' -f project=$PROJECT_ID -F tool=$TOOL_NAME --jq '.data.addProjectV2DraftIssue.projectItem.id' )"
+            }' -f project=$PROJECT_ID -F tool="$TOOL_NAME" --jq '.data.addProjectV2DraftIssue.projectItem.id' )"
             echo 'ITEM_ID='$item_id >> $GITHUB_ENV
 
 
-      - name: Update id
+      - name: Update Tool ID field
         env:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
           TOOL_ID: ${{ steps.add-folder.outputs.toolId }}
