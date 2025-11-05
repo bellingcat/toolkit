@@ -46,7 +46,7 @@ Note that some satellite imagery maps in the Soar database are of very high qual
 
 **There are locations for which no imagery and a 'restricted' message is returned by these Chinese services.**
 
-**It is always advisable to consider any potential conflicts of interest between the suppliers of geographical data and the locations for which researchers are requesting imagery. Cross-checking of satellite data from multiple sources may not always be possible, either because of lack availability at comparable resolutions, or high prices attachd to images required for confirmation.**
+**It is always advisable to consider any potential conflicts of interest between the suppliers of geographical data and the locations for which researchers are requesting imagery. Cross-checking of satellite data from multiple sources may not always be possible, either because of lack availability at comparable resolutions, or high prices attached to images required for confirmation.**
 
 Note that Soar does not provide dates for the satellite base layer it provides from OpenStreetMap, which could affect the usefulness of Soar's map overlay facility.
 {% endhint %}
@@ -90,7 +90,7 @@ Soar maps are searchable by features including location, map category, indexing 
 
 <details>
 
-<summary>Soar groups maps under a developing framework of categories. <em>Click the arrow to see some typical Soar categories as at October 25...</em></summary>
+<summary>Soar groups maps under a developing framework of categories. <em><mark style="color:blue;"><strong>Click the arrow to see some typical Soar categories as at October 25...</strong></mark></em></summary>
 
 <table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td>Agriculture</td></tr><tr><td>Climate</td></tr><tr><td>Conflict Zone</td></tr><tr><td>Culture</td></tr><tr><td>Demographics</td></tr><tr><td>Earth Art</td></tr><tr><td>Economic</td></tr><tr><td>Environment</td></tr><tr><td>Geology</td></tr><tr><td>History</td></tr><tr><td>Imagery</td></tr><tr><td>Marine/Nautical</td></tr><tr><td>Politics</td></tr><tr><td>Radar</td></tr><tr><td>Spaceport</td></tr><tr><td>Elevation/Topography</td></tr><tr><td>Transport</td></tr><tr><td>Urban</td></tr></tbody></table>
 
@@ -100,7 +100,7 @@ Soar maps are searchable by features including location, map category, indexing 
 
 <details>
 
-<summary>Soar's repository of over a million maps covers diverse locations, topics and timeframes. <em><strong>Click the arrow to see Soar map examples demonstrating the variety of content...</strong></em></summary>
+<summary>Soar's repository of over a million maps covers diverse locations, topics and timeframes. <em><mark style="color:blue;"><strong>Click the arrow to see Soar map examples demonstrating the variety of content...</strong></mark></em></summary>
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><a href="https://soaratlas.com/maps/16958?pos=39.94681663720949%2C67.28800356363985%2C6.29"><strong>Russian Map dated 1776</strong></a></td><td>Despite its age, this map is georeferenced to fit over a modern OpenStreetMap  worldmap. </td><td><a href=".gitbook/assets/russia1776.JPG">russia1776.JPG</a></td></tr><tr><td><a href="https://soaratlas.com/maps/asia-construction-timelapse-of-wenchang-space-launch-site-china-135903?basemap=Satellite&#x26;pos=19.616924298644264%2C110.92303733295931%2C13.83"><strong>Construction Timelapse of Wenchang Space Launch Site, China</strong></a></td><td>This animated GIF of satellite imagery shows the construction of a Chinese spaceport.</td><td><a href=".gitbook/assets/ezgif-18f0d12cf6dc6a.gif">ezgif-18f0d12cf6dc6a.gif</a></td></tr><tr><td><a href="https://soaratlas.com/maps/global-world-sea-surface-temperature-last-24-hrs-1-2-15100?basemap=Satellite&#x26;pos=8.56359579134514%2C-21.14956646078772%2C2.5"><strong>World Sea Surface Temperatures, Last 24 hours from NASA</strong></a></td><td>This data feed map shows sea temperatures in degrees Centrigrade and usually updates daily.</td><td><a href=".gitbook/assets/nasaworldseatemps.JPG">nasaworldseatemps.JPG</a></td></tr></tbody></table>
 
