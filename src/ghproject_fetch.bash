@@ -9,7 +9,7 @@ PROJECT_ID=$1
 
 # Calls gh cli to download project items using cursor-based pagination
 while [[ "$HAS_NEXT_PAGE" != false ]]; do
-  gh api graphql -f query='
+  result=$(gh api graphql -f query='
     query (
       $project: ID!
       $after: String!
@@ -62,11 +62,11 @@ while [[ "$HAS_NEXT_PAGE" != false ]]; do
             }
           }
         }
-      }' -f project=$PROJECT_ID -f after=$END_CURSOR > temp.json
-      export 'END_CURSOR='$(jq -r '.data.node.items.pageInfo.endCursor' temp.json)
-      export 'HAS_NEXT_PAGE='$(jq '.data.node.items.pageInfo.hasNextPage' temp.json)
+      }' -f project=$PROJECT_ID -f after=$END_CURSOR)
+      export 'END_CURSOR='$(echo $result | jq -r '.data.node.items.pageInfo.endCursor')
+      export 'HAS_NEXT_PAGE='$(echo $result | jq '.data.node.items.pageInfo.hasNextPage')
       if [[ "$END_CURSOR" != "null" ]]; then
-        jq '.data.node.items.nodes' temp.json > nodes_$END_CURSOR.json
+        echo $result | jq '.data.node.items.nodes' > nodes_$END_CURSOR.json
       fi
 done
 
