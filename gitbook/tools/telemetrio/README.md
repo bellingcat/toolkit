@@ -11,7 +11,7 @@ description: >-
 ## URL
 
 [https://telemetr.io/](https://telemetr.io/)\
-(as of August 2025)
+(as of Oct. 2025)
 
 ## Description
 
@@ -511,7 +511,7 @@ The search results section lists advertisers based on the selected filters. Each
 
 ### API
 
-Telemetr.io provides a REST API (OpenAPI v3).&#x20;
+Telemetr.io provides a REST API (OpenAPI v3).
 
 **Tariffs:** Free, S, M, L, XL — **$0 / $25 / $65 / $199 / $499** per month. Free plan includes **1,000 requests/month**, **5 verified channels**, and **7 days** of history; higher tiers raise limits up to **10,000 channels** and **2 million** requests with longer history. API keys are issued via **@telemetrio\_api\_bot**. Recent doc notes: free‑plan access is limited to verified channels (**2025‑01‑20**)
 
@@ -527,9 +527,9 @@ Telemetr.io provides a REST API (OpenAPI v3).&#x20;
 
 ## Limitations
 
-* **Coverage & counts**: The homepage advertises “11M+” channels and 72B posts overall, while pricing mentions “9.7M+ channels,” and category pages display 41 categories; counts and scopes differ by page and may reflect channels versus channels and chats, or curated subsets. Treat totals as approximate.&#x20;
-* **Free/Pro quotas**: Post Search and Spy are heavily limited on Free/Pro (Post Search: 5 queries/month, 7 sources, 7‑day window, max 4 posts; Spy: 1 tracking, 100 mentions, Telegram notifications only). Advanced increases these (Post Search: 50 queries/day, 100 sources, all‑time, 1,000 posts; Spy: 8 trackings, 10,000 mentions).&#x20;
-* **API**: The free plan is rate-limited (1,000 requests/month; 5 verified channels; 7-day history). Broader history and unverified channels require paid API plans.&#x20;
+* **Coverage & counts**: The homepage advertises “11M+” channels and 72B posts overall, while pricing mentions “9.7M+ channels,” and category pages display 41 categories; counts and scopes differ by page and may reflect channels versus channels and chats, or curated subsets. Treat totals as approximate.
+* **Free/Pro quotas**: Post Search and Spy are heavily limited on Free/Pro (Post Search: 5 queries/month, 7 sources, 7‑day window, max 4 posts; Spy: 1 tracking, 100 mentions, Telegram notifications only). Advanced increases these (Post Search: 50 queries/day, 100 sources, all‑time, 1,000 posts; Spy: 8 trackings, 10,000 mentions).
+* **API**: The free plan is rate-limited (1,000 requests/month; 5 verified channels; 7-day history). Broader history and unverified channels require paid API plans.
 * **Data integrity**: Views, ER, and subscriber counts can be manipulated by channel owners; Telemetrio flags suspicious channels (Cheater Tag) and provides an Ads Index, but these are heuristics. Validate critical findings with multiple sources.
 * **Legal/ToS**: Telemetrio is not affiliated with Telegram and uses the official Telegram API under Telegram’s API TOS; abide by Telemetrio’s Terms/Privacy.
 * **Historical data:** _Free_ users have access to metrics from the last 30 days. _Pro_ extends this to 90 days; _Advanced_ and higher tiers unlock **up to 12 months** of history.
