@@ -58,7 +58,8 @@ const items = JSON.parse(fs.readFileSync(projectItemsFilename, 'utf-8')).map(fun
     updatedAt: getField("Last updated", item).date,
     space: getField("Tool Space", item).text,
     toolId: getField("Tool ID", item).text,
-    author: getField("CR Author", item).text,
+    changeRequestAuthor: getField("CR Author", item).text,
+    reviewers: getField("CR Reviewers", item).text,
   }
 });
 
