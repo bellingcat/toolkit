@@ -1,5 +1,12 @@
 #!/bin/bash
 
+if [ "$#" -ne 1 ]; then
+  echo "Usage: $0 <PROJECT_ID>"
+  exit 1
+fi
+
+PROJECT_ID=$1
+
 # Calls gh cli to download project items using cursor-based pagination
 while [[ "$HAS_NEXT_PAGE" != false ]]; do
   gh api graphql -f query='
@@ -58,7 +65,9 @@ while [[ "$HAS_NEXT_PAGE" != false ]]; do
       }' -f project=$PROJECT_ID -f after=$END_CURSOR > temp.json
       export 'END_CURSOR='$(jq -r '.data.node.items.pageInfo.endCursor' temp.json)
       export 'HAS_NEXT_PAGE='$(jq '.data.node.items.pageInfo.hasNextPage' temp.json)
-      jq '.data.node.items.nodes' temp.json > nodes_$END_CURSOR.json
+      if [[ "$END_CURSOR" != "null" ]]; then
+        jq '.data.node.items.nodes' temp.json > nodes_$END_CURSOR.json
+      fi
 done
 
-jq -s '[.[]] | flatten' nodes_*.json > project_items.json
+jq -s '[.[]] | flatten' nodes_*.json
