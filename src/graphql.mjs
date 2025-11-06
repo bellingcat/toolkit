@@ -1,13 +1,13 @@
 function mutation(changes) {
   return `mutation ( $project: ID!) { ${changes.join(' ')} }`;
 }
-function setField(itemId, fieldId, name, value) {
+function setField(itemId, fieldId, key, value) {
   return (`
   set_field_${fieldId}: updateProjectV2ItemFieldValue(input: {
     projectId: $project
     itemId: "${itemId}"
     fieldId: "${fieldId}"
-    value: { ${name}: ${JSON.stringify(value)} }
+    value: { ${key}: ${JSON.stringify(value)} }
   }) { projectV2Item { id } }
   `).replace(/\n/g, ' ');
 }
