@@ -8,6 +8,9 @@ on:
 jobs:
   sync_crs:
     runs-on: ubuntu-latest
+    env:
+      PROJECT_DATA_JSON: project_data.json
+      PROJECT_ITEMS_JSON: project_items.json
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -26,16 +29,16 @@ jobs:
           ORGANIZATION: bellingcat
           PROJECT_NUMBER: 6
         run: |
-          ./src/ghproject_data.bash $ORGANIZATION $PROJECT_NUMBER > project_data.json
-          echo 'PROJECT_ID='$(jq '.data.organization.projectV2.id' project_data.json) >> $GITHUB_ENV
+          ./src/ghproject_data.bash $ORGANIZATION $PROJECT_NUMBER > $PROJECT_DATA_JSON
+          echo 'PROJECT_ID='$(jq '.data.organization.projectV2.id' $PROJECT_DATA_JSON) >> $GITHUB_ENV
 
       # Downloads all items from the project and adds missing ones
       - name: Add missing project items
         env:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
         run: |
-          ./src/ghproject_fetch.bash $PROJECT_ID > project_items.json
-          node src/ghproject_missing_items.mjs project_items.json | src/ghproject_add.bash
+          ./src/ghproject_fetch.bash $PROJECT_ID > $PROJECT_ITEMS_JSON
+          node src/ghproject_missing_items.mjs $PROJECT_ITEMS_JSON | src/ghproject_add.bash
 
       # Downloads all items from the project and updates them
       - name: Update project items
@@ -43,6 +46,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
         run: |
-          ./src/ghproject_fetch.bash $PROJECT_ID > project_items.json
-          node src/ghproject.mjs project_data.json project_items.json | src/ghproject_update.bash
+          ./src/ghproject_fetch.bash $PROJECT_ID > $PROJECT_ITEMS_JSON
+          node src/ghproject.mjs $PROJECT_DATA_JSON $PROJECT_ITEMS_JSON | src/ghproject_update.bash
 
