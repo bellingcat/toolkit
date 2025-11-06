@@ -95,7 +95,7 @@ tools.forEach(async function(tool) {
   if (space.changeRequestsOpen) {
     if (item.status !== "Review Requested" && item.status != "Editing in Progress") {
       changed.status = "Review Requested";
-      changes.push(graphql.setSelectField(item.id, PUBLISHED_FIELD_ID, REVIEW_OPTION_ID));
+      changes.push(graphql.setSelectField(item.id, STATUS_FIELD_ID, REVIEW_OPTION_ID));
     }
     const changeRequests = await fetchChangeRequests(space);
     const request = changeRequests.items[0];
