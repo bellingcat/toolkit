@@ -129,8 +129,7 @@ tools.forEach(async function(tool) {
     }
   }
   if (Object.keys(changed).length > 0) {
-    changed.id = item.id;
-    //console.log(JSON.stringify(changed));
+    console.warn(tool.title, JSON.stringify(changed));
     console.log(graphql.mutation(changes));
   }
 
