@@ -171,17 +171,17 @@ Note that Soar categorises maps as either Georeferences or LoFi as per the defin
 {% endhint %}
 
 {% columns %}
-{% column %}
+{% column width="50%" %}
 **LOFI MAPS - NOT GEOREFERENCED**
 
 Can't be linked to real-world co-ordinates
 
 These are image files which can't be layered on top of standard geographic basemaps like OSM, due to the lack of necessary data to position them on a map accurately. Users may still zoom in and pan around using Soar, but it's best to treat them as standalone images that can't be integrated with geographic layers.&#x20;
 
-<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2F2U83UEO8KjkX3jGLBsBn_2Fuploads_2FdcI1dFHcn1wkuH9HV5iT_2F2025-09-03_21-39-44 (1).avif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2F2U83UEO8KjkX3jGLBsBn_2Fuploads_2FWvCTgEs5h8kkyymksYR5_2Flofi.avif" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
-{% column %}
+{% column width="50%" %}
 **GEOREFERENCED MAPS**
 
 Has been linked to real-world co-ordinates
@@ -190,7 +190,7 @@ These are maps or images (whether satellite, aerial, or drone capture) which con
 
 
 
-<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2F2U83UEO8KjkX3jGLBsBn_2Fuploads_2FWvCTgEs5h8kkyymksYR5_2Flofi (1).avif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2F2U83UEO8KjkX3jGLBsBn_2Fuploads_2FdcI1dFHcn1wkuH9HV5iT_2F2025-09-03_21-39-44 (1).avif" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
