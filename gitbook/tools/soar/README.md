@@ -253,21 +253,17 @@ The transparency slider is not available for LoFi maps.&#x20;
 
 <figure><img src=".gitbook/assets/satellitemenuannotated2.jpg" alt=""><figcaption><p><strong>SOAR'S SATELLITE IMAGERY ACQUISITION INTERFACE, OFFERING FREE LOWER RESOLUTION IMAGERY FROM SENTINEL-2 AND NASA SERVICES AND PAID HIGH RESOLUTION IMAGERY FROM TWO CHINESE SATELLITE SERVICES</strong></p></figcaption></figure>
 
-The Soar satellite interface supports access to satellite imagery for areas of interest and timeframes specified by the user, offering both free and charged data:
+The Soar satellite imagery interface supports access to satellite imagery for areas of interest and timeframes specified by the user, offering both free and charged data:
 
-1. Sentinel-2 : Medium resolution, free
-2. NASA : Low resolution, free
-3. Pics from Space, a charged service at [https://www.picsfromspace.com/](https://www.picsfromspace.com/), which offers charged data from two [Chinese satellite services](#user-content-fn-4)[^4], including the ability to commission new satellite imagery according to user specification.&#x20;
+1. Sentinel-2 : Medium resolution, free images from European satellites at 10m/pixel resolution upwards
+2. NASA : Low resolution, free imagery from US government satellites at 30m/pixel resolution
+3. Pics from Space, a charged service at [https://www.picsfromspace.com/](https://www.picsfromspace.com/), which offers two charged data services from [Chinese satellite](#user-content-fn-4)[^4]s, including the ability to commission new satellite imagery according to user specification.&#x20;
 
 _&#x61;_&#x6E;d providing the ability to combine sequential satellite images into an animated gif via the Sentinel interface. This GIF map uploaded to Soar is [an example about a wildfire](https://soaratlas.com/maps/oceania-judbarra-national-park-wildfire-australia-august-2025-136339?basemap=Hybrid\&pos=-16.199419136431956%2C130.41824000000003%2C9.99).
 
 {% hint style="warning" %}
 **BROWSER ISSUE:** The picsfromspace.com platform to which Soar connects users ordering paid satellite imagery does not function properly using the Firefox browser, since the basemap used to select a location is not visible in Firefox, though it works in Chrome browser.
 {% endhint %}
-
-<mark style="color:yellow;">Sophie completed to here - ></mark>
-
-***
 
 #### VIEW FOUR: A**t Narrative Creation Level**
 

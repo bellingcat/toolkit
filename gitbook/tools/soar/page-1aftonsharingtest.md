@@ -18,7 +18,7 @@ We utilized research conducted by Bellingcat Volunteer Community members on Taji
 NOTE: This is for demonstration purposes only and does not constitute an investigation.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/2025-11-05_03-01-09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-11-05_03-01-09 (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://researcherera.github.io/soar-embed/soar-map.html" alt=""><figcaption></figcaption></figure>
 
