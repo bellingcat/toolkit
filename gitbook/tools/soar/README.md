@@ -42,7 +42,7 @@ Note that some satellite imagery maps in the Soar database are of very high qual
 {% hint style="danger" %}
 **DATA ORIGINS:**&#x20;
 
-**Soar offers free satellite imagery from the Sentinel and NASA services, which are relatively low resolution. The paid satellite imagery options offered at higher resolution are both Chinese satellite services.**&#x20;
+**Soar offers free satellite imagery from the Sentinel and NASA services, which are relatively low resolution. The paid satellite imagery options offered at higher resolution are Chinese satellite services.**&#x20;
 
 **There are locations for which no imagery and a 'restricted' message is returned by these Chinese services.**
 
@@ -96,7 +96,7 @@ Soar maps are searchable by features including location, map category, indexing 
 
 </details>
 
-
+***
 
 <details>
 
@@ -152,6 +152,10 @@ What different options does the user have for data input to Soar?
 NB Location can be input as co-ordinates or a location name in MAPS section, but only as location name in DISCOVERY section
 {% endtab %}
 {% endtabs %}
+
+{% hint style="danger" %}
+&#x20;There are quite a few elements which, in practice, don't actually export to GeoJSON format from Soar. ![](.gitbook/assets/geoJSONexport.JPG) GeoJSON export is described as a 'basic geometry' export'.
+{% endhint %}
 
 ### **Navigating the Interface to the Soar Map Database**
 
@@ -261,10 +265,6 @@ _&#x61;_&#x6E;d providing the ability to combine sequential satellite images int
 **BROWSER ISSUE:** The picsfromspace.com platform to which Soar connects users ordering paid satellite imagery does not function properly using the Firefox browser, since the basemap used to select a location is not visible in Firefox, though it works in Chrome browser.
 {% endhint %}
 
-{% hint style="danger" %}
-&#x20;There are quite a few elements which, in practice, don't actually export to GeoJSON format from Soar. ![](.gitbook/assets/geoJSONexport.JPG) GeoJSON export is described as a 'basic geometry' export'.
-{% endhint %}
-
 <mark style="color:yellow;">Sophie completed to here - ></mark>
 
 ***
@@ -297,13 +297,13 @@ Soar's step-by-step guide to creating a Stoary is found here: [Soar's Step-by-St
 
 #### Narrative Creation Demonstration
 
-We utilized research conducted by Bellingcat Volunteer Community members on Tajikistan to demonstrate narrative creation on Soar's 'Stoary.'
+Research conducted by Bellingcat Volunteer Community members on Tajikistan is used below to demonstrate narrative creation on Soar's 'Stoary.'
 
 <h4 align="center">🗺️ Interactive Soar Atlas Map</h4>
 
 <p align="center"><a href="https://researcherera.github.io/soar-embed/soar-map.html"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F2U83UEO8KjkX3jGLBsBn%2Fuploads%2Fy6FHvbEVOHkA7UntthGd%2F2025-11-05_03-01-09.png?alt=media&#x26;token=beeeed3d-8155-41e7-ab49-ab1723c160a9" alt="Interactive Soar Atlas Map"></a></p>
 
-<p align="center"><em>Click the image to explore the visualization we created to test this feature.</em> </p>
+<p align="center"><em><mark style="color:blue;"><strong>Click the image</strong></mark><strong> to explore the visualization created to test this feature.</strong></em> </p>
 
 **OUTPUT: What Soar Produces**
 
