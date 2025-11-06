@@ -3,16 +3,12 @@ function mutation(changes) {
 }
 function setField(itemId, fieldId, value) {
   return (`
-    set_field: updateProjectV2ItemFieldValue(input: {
-      projectId: $project
-      itemId: ${itemId}
-      fieldId: ${fieldId}
-      value: ${JSON.stringify(value)}
-    }) {
-      projectV2Item {
-        id
-      }
-    }
+  set_field: updateProjectV2ItemFieldValue(input: {
+    projectId: $project
+    itemId: ${itemId}
+    fieldId: ${fieldId}
+    value: ${JSON.stringify(value)}
+  }) { projectV2Item { id } }
   `).replace(/\n/g, ' ');
 }
 function setTextField(itemId, fieldId, value) {
