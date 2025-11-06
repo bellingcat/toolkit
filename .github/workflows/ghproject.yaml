@@ -25,58 +25,17 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
           ORGANIZATION: bellingcat
           PROJECT_NUMBER: 6
-        # Uses [GitHub CLI](https://cli.github.com/manual/) to query the API for the ID of the project and return the name and ID of the first 20 fields in the project. `fields` returns a union and the query uses inline fragments (`... on`) to return information about any `ProjectV2Field` and `ProjectV2SingleSelectField` fields. The response is stored in a file called `project_data.json`.
         run: |
-          gh api graphql -f query='
-            query($org: String!, $number: Int!) {
-              organization(login: $org){
-                projectV2(number: $number) {
-                  id
-                  fields(first:20) {
-                    nodes {
-                      ... on ProjectV2Field {
-                        id
-                        name
-                      }
-                      ... on ProjectV2SingleSelectField {
-                        id
-                        name
-                        options {
-                          id
-                          name
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }' -f org=$ORGANIZATION -F number=$PROJECT_NUMBER > project_data.json
-
-          #' Parses the response from the API query and stores the relevant IDs as environment variables
-
+          ./src/ghproject_data.bash $ORGANIZATION $PROJECT_NUMBER > project_data.json
           echo 'PROJECT_ID='$(jq '.data.organization.projectV2.id' project_data.json) >> $GITHUB_ENV
-          echo 'DATE_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Date submitted") | .id' project_data.json) >> $GITHUB_ENV
-          echo 'URL_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Latest change request") | .id' project_data.json) >> $GITHUB_ENV
-          echo 'STATUS_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .id' project_data.json) >> $GITHUB_ENV
-          echo 'PUBLISHED_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Published") | .id' project_data.json) >> $GITHUB_ENV
-          echo 'REVIEW_OPTION_ID='$(jq -r '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .options[] | select(.name=="Review Requested") |.id' project_data.json) >> $GITHUB_ENV
-          echo 'PUBLISHED_OPTION_ID='$(jq -r '.data.organization.projectV2.fields.nodes[] | select(.name== "Status") | .options[] | select(.name=="Published") |.id' project_data.json) >> $GITHUB_ENV
-          echo 'PUBLISHED_TRUE_OPTION_ID='$(jq -r '.data.organization.projectV2.fields.nodes[] | select(.name== "Published") | .options[] | select(.name=="True") |.id' project_data.json) >> $GITHUB_ENV
-          echo 'UPDATED_DATE_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Last updated") | .id' project_data.json) >> $GITHUB_ENV
-          echo 'SPACE_URL_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Tool Space") | .id' project_data.json) >> $GITHUB_ENV
-          echo 'REVIEWERS_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "CR Reviewers") | .id' project_data.json) >> $GITHUB_ENV
-          echo 'AUTHOR_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "CR Author") | .id' project_data.json) >> $GITHUB_ENV
-          echo 'TOOLID_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Tool ID") | .id' project_data.json) >> $GITHUB_ENV
-          echo 'TITLE_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Title") | .id' project_data.json) >> $GITHUB_ENV
-
 
       # Downloads all items from the project and adds missing ones
       - name: Add missing project items
         env:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
         run: |
-          ./src/ghproject_fetch.bash
-          node src/ghproject_missing_items.mjs | src/ghproject_add.bash
+          ./src/ghproject_fetch.bash $PROJECT_ID > project_items.json
+          node src/ghproject_missing_items.mjs project_items.json | src/ghproject_add.bash
 
       # Downloads all items from the project and updates them
       - name: Update project items
@@ -84,6 +43,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
         run: |
-          ./src/ghproject_fetch.bash
-          node src/ghproject.mjs | src/ghproject_update.bash
+          ./src/ghproject_fetch.bash $PROJECT_ID > project_items.json
+          node src/ghproject.mjs project_data.json project_items.json | src/ghproject_update.bash
 

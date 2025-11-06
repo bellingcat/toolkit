@@ -9,8 +9,9 @@ const {fetchChangeRequests, findSpace} = pkg2
 // Reads the existing list of project items from project_items.json
 // Identifies tools in the github repo with gitbook spaces but no project item.
 // Emits the names of tools that need to be added to the github project.
-
-const items = JSON.parse(fs.readFileSync('project_items.json', 'utf-8'));
+//
+const inputFilename = process.argv[2]
+const items = JSON.parse(fs.readFileSync(inputFilename, 'utf-8'));
 const tools = getTools();
 
 function itemTitle(item) {
