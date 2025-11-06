@@ -295,7 +295,7 @@ Soar's step-by-step guide to creating a Stoary is found here: [Soar's Step-by-St
 
 Research conducted by Bellingcat Volunteer Community members on Tajikistan is used below to demonstrate and compare narrative creation using
 
-**1 Soar's 'Stoary' Function**
+**1) Soar's 'Stoary' Function**
 
 <h4 align="center">🗺️ Interactive Soar Atlas Map</h4>
 
@@ -315,11 +315,15 @@ This is for demonstration purposes only and does not constitute an investigation
 
 2\) Google Earth Web's Narrative Creation Function
 
+
+
+<p align="center"><a href="https://researcherera.github.io/soar-embed/soar-map.html"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F2U83UEO8KjkX3jGLBsBn%2Fuploads%2Fy6FHvbEVOHkA7UntthGd%2F2025-11-05_03-01-09.png?alt=media&#x26;token=beeeed3d-8155-41e7-ab49-ab1723c160a9" alt="Interactive Soar Atlas Map"></a></p>
+
 <figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2F2U83UEO8KjkX3jGLBsBn_2Fuploads_2FOILhsvC0mRWzSemZPgyM_2FGOOGLE_20EARTH_20WEB_20SAMPLE_20TAJIK_20NARRATIVE.avif" alt=""><figcaption><p><em><strong>GOOGLE EARTH WEB FUNCTIONALITY: INTERACTIVE MAP WITH OVERLAID IMAGERY AND TEXT</strong></em></p></figcaption></figure>
 
 {% embed url="https://earth.google.com/earth/d/10nbP4XjKWxw_csBqB461lS8w6xx0IOZS?usp=sharing" %}
 
-Alternative Presentation&#x20;
+<mark style="color:$danger;">Alternative Presentation</mark>&#x20;
 
 {% columns %}
 {% column %}
