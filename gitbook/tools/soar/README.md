@@ -164,7 +164,7 @@ Invoke UPLOAD mode to add content to the Soar database
 
 **T**he Soar interface offers data on the account which posted the map, the facility to read and post comments, the set of tags describing the map, and the ability to adjust the map transparency against the base map underlay, and a tool to create graphic narratives.
 
-<figure><img src=".gitbook/assets/Interface MAP annotated2.JPG" alt=""><figcaption><p><strong>THE SOAR INTERFACE WHEN VIEWING A SELECTED MAP FROM THE DATABASE</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/MAPVIEWIWITH ADDED PIN ANNOTATION.JPG" alt=""><figcaption><p><strong>SOAR MAP VIEW SHOWING SHARE &#x26; COMMENT, PIN &#x26; BOOKMARK &#x26; TRANPARENCY SLIDER FEATURES</strong></p></figcaption></figure>
 
 {% hint style="info" %}
 Note that Soar categorises maps as either Georeferences or LoFi as per the definitions below:
