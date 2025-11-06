@@ -78,11 +78,11 @@ tools.forEach(async function(tool) {
 
   if (item.title !== tool.title) {
     changed.title = tool.title;
-    changes.push(grqphql.setTextField(item.id, TITLE_FIELD_ID, tool.title));
+    changes.push(graphql.setTextField(item.id, TITLE_FIELD_ID, tool.title));
   }
   if (item.space !== space.urls.app) {
     changed.space = space.urls.app;
-    changes.push(grqphql.setTextField(item.id, SPACE_FIELD_ID, space.urls.app));
+    changes.push(graphql.setTextField(item.id, SPACE_FIELD_ID, space.urls.app));
   }
 
   if (tool.updated && item.updatedAt !== tool.updated) {
