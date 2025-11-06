@@ -315,7 +315,7 @@ This is for demonstration purposes only and does not constitute an investigation
 
 2\) Google Earth Web's Narrative Creation Function
 
-<figure><img src=".gitbook/assets/GOOGLE EARTH WEB SAMPLE TAJIK NARRATIVE.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2F2U83UEO8KjkX3jGLBsBn_2Fuploads_2FOILhsvC0mRWzSemZPgyM_2FGOOGLE_20EARTH_20WEB_20SAMPLE_20TAJIK_20NARRATIVE.avif" alt=""><figcaption><p><em><strong>GOOGLE EARTH WEB FUNCTIONALITY: INTERACTIVE MAP WITH OVERLAID IMAGERY AND TEXT</strong></em></p></figcaption></figure>
 
 {% embed url="https://earth.google.com/earth/d/10nbP4XjKWxw_csBqB461lS8w6xx0IOZS?usp=sharing" %}
 
@@ -339,11 +339,11 @@ Alternative Presentation&#x20;
 
 <figure><img src=".gitbook/assets/GOOGLE EARTH WEB SAMPLE TAJIK NARRATIVE.JPG" alt=""><figcaption></figcaption></figure>
 
-<p align="center"><em><mark style="color:blue;"><strong>Click the image</strong></mark><strong> </strong><strong>to explore the visualization created to test this feature</strong></em></p>
+<p align="center"><em><mark style="color:blue;"><strong>Click the 'Open' button below</strong></mark><strong> </strong><strong>to compare the visualization created to test this feature</strong></em></p>
 
-<p align="center"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F2U83UEO8KjkX3jGLBsBn%2Fuploads%2Fy6FHvbEVOHkA7UntthGd%2F2025-11-05_03-01-09.png?alt=media&#x26;token=beeeed3d-8155-41e7-ab49-ab1723c160a9" alt="Interactive Soar Atlas Map"></p>
+<p align="center">What Google Earth Web Produces</p>
 
-<p align="center"><a href="https://earth.google.com/earth/d/10nbP4XjKWxw_csBqB461lS8w6xx0IOZS?usp=sharing">.</a>.<img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2F2U83UEO8KjkX3jGLBsBn_2Fuploads_2FOILhsvC0mRWzSemZPgyM_2FGOOGLE_20EARTH_20WEB_20SAMPLE_20TAJIK_20NARRATIVE (1).avif" alt=""></p>
+<p align="center">Interactive map (not video or slide show)</p>
 
 {% embed url="https://earth.google.com/earth/d/10nbP4XjKWxw_csBqB461lS8w6xx0IOZS?usp=sharing" %}
 {% endcolumn %}
