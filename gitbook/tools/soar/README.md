@@ -106,6 +106,53 @@ Soar maps are searchable by features including location, map category, indexing 
 
 </details>
 
+### Soar User Data: Input, Output and Use Cases
+
+{% tabs fullWidth="false" %}
+{% tab title="DATA INPUT" %}
+What types of data can the user give Soar?
+
+* Location&#x20;
+* Map filtering properties, e.g Map category, Map format, Map indexing tags
+* Satellite filtering properties
+* Animated satellite GIF sequence properties
+* Media for graphical narrative creation
+{% endtab %}
+
+{% tab title="SOAR OUTPUT" %}
+What types of output does Soar give users?
+
+* Maps
+* Satellite imagery
+* Animated GIFs of satellite imagery (Sentinel images only, processed via the Sentinel site)
+* Graphic Narratives
+{% endtab %}
+
+{% tab title="USE CASES" %}
+Why might a user approach Soar?
+
+* Looking for a map
+* Looking for satellite imagery
+* Triangulating a problem by overlaying two data sources and using transparency
+* Creating an animated GIF to display satellite imagery changing over time
+* Communicating and sharing a narrative in graphical formatInput text name of location OR
+{% endtab %}
+
+{% tab title="GRAPHICAL INPUT OPTIONS" %}
+What different options does the user have for data input to Soar?
+
+* Text name of a location OR
+* Geographical co-ordinates of the location OR
+* Point and click at a location on a map
+* Define an Area of Interest by drawing a bounding box rectangle on the base map with the mouse.
+* Media content for upload to the Soar platform must comply with the following formats:&#x20;
+  * Georeferenced maps=GeoTIFF, ECW and JP
+  * LoFi Map formats = PNG and JPEG and create geographical media
+
+NB Location can be input as co-ordinates or a location name in MAPS section, but only as location name in DISCOVERY section
+{% endtab %}
+{% endtabs %}
+
 ### **Navigating the Interface to the Soar Map Database**
 
 The Soar interface has been regularly updated and redesigned since its launch. The Interface offers 4 main views: 1) Database Query, 2) Map Inspection, 3) Satellite Image Acquisition & 4) Narrative Creation
@@ -213,45 +260,6 @@ _&#x61;_&#x6E;d providing the ability to combine sequential satellite images int
 {% hint style="warning" %}
 **BROWSER ISSUE:** The picsfromspace.com platform to which Soar connects users ordering paid satellite imagery does not function properly using the Firefox browser, since the basemap used to select a location is not visible in Firefox, though it works in Chrome browser.
 {% endhint %}
-
-### Soar User Data: Input, Output and Use Cases
-
-{% tabs fullWidth="false" %}
-{% tab title="DATA INPUT" %}
-* Location&#x20;
-* Map filtering properties, e.g Map category, Map format, Map indexing tags
-* Satellite filtering properties
-* Animated satellite GIF sequence properties
-* Media for graphical narrative creation
-{% endtab %}
-
-{% tab title="SOAR OUTPUT" %}
-* Maps
-* Satellite imagery
-* Animated GIFs of satellite imagery
-* Graphic Narratives
-{% endtab %}
-
-{% tab title="USE CASES" %}
-* Looking for a map
-* Looking for satellite imagery
-* Triangulating a problem by overlaying two data sources and using transparency
-* Creating an animated GIF to display satellite imagery changing over time
-* Communicating and sharing a narrative in graphical format
-{% endtab %}
-
-{% tab title="GRAPHICAL INPUT OPTIONS" %}
-* Input text name of location OR
-* Geographical co-ordinates of the location OR
-* Point and click at a location on a map
-* Define an Area of Interest by drawing a bounding box rectangle on the base map with the mouse.
-* Media content for upload to the Soar platform must comply with the following formats:&#x20;
-  * Georeferenced maps=GeoTIFF, ECW and JP
-  * LoFi Map formats = PNG and JPEG and create geographical media
-
-NB Location can be input as co-ordinates or a location name in MAPS section, but only as location name in DISCOVERY section
-{% endtab %}
-{% endtabs %}
 
 {% hint style="danger" %}
 &#x20;There are quite a few elements which, in practice, don't actually export to GeoJSON format from Soar. ![](.gitbook/assets/geoJSONexport.JPG) GeoJSON export is described as a 'basic geometry' export'.
