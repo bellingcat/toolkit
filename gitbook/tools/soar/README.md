@@ -293,7 +293,9 @@ Soar's step-by-step guide to creating a Stoary is found here: [Soar's Step-by-St
 
 #### Narrative Creation Demonstration
 
-Research conducted by Bellingcat Volunteer Community members on Tajikistan is used below to demonstrate narrative creation on Soar's 'Stoary.'
+Research conducted by Bellingcat Volunteer Community members on Tajikistan is used below to demonstrate and compare narrative creation using
+
+**1 Soar's 'Stoary' Function**
 
 <h4 align="center">🗺️ Interactive Soar Atlas Map</h4>
 
@@ -310,6 +312,42 @@ IMPORTANT: SOAR only produces slides, not videos.
 
 This is for demonstration purposes only and does not constitute an investigation.
 {% endhint %}
+
+2\) Google Earth Web's Narrative Creation Function
+
+<figure><img src=".gitbook/assets/GOOGLE EARTH WEB SAMPLE TAJIK NARRATIVE.JPG" alt=""><figcaption></figcaption></figure>
+
+{% embed url="https://earth.google.com/earth/d/10nbP4XjKWxw_csBqB461lS8w6xx0IOZS?usp=sharing" %}
+
+Alternative Presentation&#x20;
+
+{% columns %}
+{% column %}
+1. <p align="center">SOAR'S "STOARY" FUNCTIONALITY</p>
+
+<p align="center"><a href="https://researcherera.github.io/soar-embed/soar-map.html"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F2U83UEO8KjkX3jGLBsBn%2Fuploads%2Fy6FHvbEVOHkA7UntthGd%2F2025-11-05_03-01-09.png?alt=media&#x26;token=beeeed3d-8155-41e7-ab49-ab1723c160a9" alt="Interactive Soar Atlas Map"></a></p>
+
+<p align="center"><em><mark style="color:blue;"><strong>Click the image</strong></mark><strong> </strong><strong>to explore the visualization created to test this feature</strong></em></p>
+
+**OUTPUT: What Soar Produces**
+
+* Interactive slide presentation (not a video): View the actual Soar narrative output based  [Stoary Demonstration for Soar](https://soaratlas.com/draw/2523), which is based on our testing.
+{% endcolumn %}
+
+{% column %}
+2. GOOGLE EARTH WEB FUNCTIONALITY
+
+<figure><img src=".gitbook/assets/GOOGLE EARTH WEB SAMPLE TAJIK NARRATIVE.JPG" alt=""><figcaption></figcaption></figure>
+
+<p align="center"><em><mark style="color:blue;"><strong>Click the image</strong></mark><strong> </strong><strong>to explore the visualization created to test this feature</strong></em></p>
+
+<p align="center"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F2U83UEO8KjkX3jGLBsBn%2Fuploads%2Fy6FHvbEVOHkA7UntthGd%2F2025-11-05_03-01-09.png?alt=media&#x26;token=beeeed3d-8155-41e7-ab49-ab1723c160a9" alt="Interactive Soar Atlas Map"></p>
+
+<p align="center"><a href="https://earth.google.com/earth/d/10nbP4XjKWxw_csBqB461lS8w6xx0IOZS?usp=sharing">.</a>.<img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2F2U83UEO8KjkX3jGLBsBn_2Fuploads_2FOILhsvC0mRWzSemZPgyM_2FGOOGLE_20EARTH_20WEB_20SAMPLE_20TAJIK_20NARRATIVE (1).avif" alt=""></p>
+
+{% embed url="https://earth.google.com/earth/d/10nbP4XjKWxw_csBqB461lS8w6xx0IOZS?usp=sharing" %}
+{% endcolumn %}
+{% endcolumns %}
 
 #### **Soar QGIS Plugin (for advanced users) provides:**&#x20;
 
@@ -344,16 +382,6 @@ Overall: For a casual user exploring maps, the difficulty is moderate. For an in
 
 ## Limitations
 
-* Some maps are georeferenced, some are not (usually old ones)
-* If many users are accessing a particular Soar map, the feed may be rate limited and so load very slowly or not at all, in which case an information message like the one below will be displayed
-
-<figure><img src=".gitbook/assets/overuseerrorsoar.png" alt="" width="207"><figcaption></figcaption></figure>
-
-* Some Satellite images that are high quality - can take long to load when zooming in and out (i.e. [https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69](https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69))&#x20;
-* Confusing user interface
-*   "Stoaries" are difficult to edit. Going to the "page" of the map you want to edit does not take you to that location. Instead, you have to re-input the location or coordinates in the search bar. &#x20;
-
-    Use a browser that does not enter "efficiency mode," as this can freeze the Soar and Stoary interfaces. &#x20;
 *   Soar's satellite imagery basemap doesn’t display the date when the image was captured.
 
     This is a limitation if doing any kind of time-sensitive or verification work. Without the date,\
@@ -362,8 +390,17 @@ Overall: For a casual user exploring maps, the difficulty is moderate. For an in
     * A building, road, or structure actually existed at that time,
     * The image is recent or years old,
     * Environmental changes (like floods, fires, or deforestation) happened before or after that snapshot.
+* Some maps are georeferenced, some are not (usually old ones), so they are not always comparable using the Transparency slider.
+* If many users are accessing a particular Soar map, the feed may be rate limited and so load very slowly or not at all, in which case an information message like the one below will be displayed
+
+<figure><img src=".gitbook/assets/overuseerrorsoar.png" alt="" width="207"><figcaption></figcaption></figure>
+
+* Some Satellite images that are high quality - can take long to load when zooming in and out (i.e. [https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69](https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69))&#x20;
+* The user interface comprises multiple complex views which can be hard to navigate for beginners.
+*   "Stoaries" are difficult to edit. Going to the "page" of the map you want to edit does not take you to that location. Instead, you have to re-input the location or coordinates in the search bar. &#x20;
+
+    Use a browser that does not enter "efficiency mode," as this can freeze the Soar and Stoary interfaces. &#x20;
 * Soar puts labels over Thumbnail maps to give information as to format, but these formats don't correspond exactly to the filters offered by Soar - labels include "GIF", "REAL TIME", "DAILY", POPULAR", "NEW", "LoFi (which IS one of the filterable categories).
-* Intermediate to Advanced Use: The difficulty level increases for more advanced functionalities. Some of them are:
 
 {% hint style="danger" %}
 Uploading and Georeferencing: While the process is streamlined, [users uploading their own maps or imagery need to ensure proper georeferencing and rectification. The platform has strict guidelines for alignment, which may require some prior knowledge or learning on the user's part,](https://about.soar.earth/help) especially if their original data lacks precise georeferencing. [The QGIS plugin helps with this process, ](https://north-road.com/2023/08/24/soar-earth-digital-atlas-qgis-plugin/)however this may be limited to for GIS-savvy users and may mean a higher barrier for those without GIS software experience.&#x20;
@@ -414,6 +451,10 @@ Both Datawrapper's Locator Map Function and Soar's Stoary/Narrative Feature are 
 
 For satellite image combination into animated gif display format, Soar provides a portal for users to access the tools to do this (1) via the functionality of the Sentinel website (2) via the functionality of the NASA Worldview website.
 
+2. Google Earth Web
+
+Google Earth Web has developed into an access-controlled online collaborative platform which produces map-based displays capable of communicating a narrative using pop-up text and imagery.&#x20;
+
 ## Tool provider
 
 Soar, Perth, Australia
@@ -426,16 +467,16 @@ Soar, Perth, Australia
 
 <details>
 
-<summary>Soar transparently volunteers the identities of the cookies used on the site. <em>Click the arrow for more information...</em></summary>
+<summary>Soar transparently volunteers the identities of the cookies used on the site. <em><mark style="color:blue;"><strong>Click the arrow for more information...</strong></mark></em></summary>
 
 <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
-| Page maintainer                             |
-| ------------------------------------------- |
-| Afton and Sophie Tedling 04/11/25 14:38 GMT |
-|                                             |
+| Page maintainer                            |
+| ------------------------------------------ |
+| Afton and Sophie Tedling 06/11/25 22:34GMT |
+|                                            |
 
 
 
