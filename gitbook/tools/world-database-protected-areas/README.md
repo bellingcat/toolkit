@@ -6,10 +6,9 @@ description: A comprehensive global database on terrestrial and marine protected
 
 ## URL
 
+[https://www.protectedplanet.net/en/search-areas?geo_type=site](https://www.protectedplanet.net/en/search-areas?geo_type=site)
+
 Landing page, https://www.protectedplanet.net/en
-
-Start searching, https://www.protectedplanet.net/en/search-areas?geo\_type=site \
-
 
 ## Description
 
