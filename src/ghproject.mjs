@@ -6,6 +6,10 @@ import pkg2 from './tools.mjs'
 const {fetchChangeRequests, fetchChangeRequestReviewers, findSpace} = pkg2
 import graphql from './graphql.mjs';
 
+if (process.argv.length !== 4) {
+  console.warn("Usage: node ", process.argv[1], " <project_data.json> <project_items.json>");
+  process.exit(1);
+}
 const projectDataFilename = process.argv[2]
 const projectItemsFilename = process.argv[3]
 
