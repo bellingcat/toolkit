@@ -42,9 +42,9 @@ Note that some satellite imagery maps in the Soar database are of very high qual
 {% hint style="danger" %}
 **DATA ORIGINS:**&#x20;
 
-**Soar offers free satellite imagery from the Sentinel and NASA services, which are relatively low resolution. The paid satellite imagery options offered at higher resolution are Chinese satellite services.**&#x20;
+**Soar offers free satellite imagery from the Sentinel (European-owned) and  NASA (US-owned) services, which are relatively low resolution. The paid satellite imagery options offered at higher resolution are Jilin-1 satellite (Chinese-owned) services.**&#x20;
 
-**There are locations for which no imagery and a 'restricted' message is returned by these Chinese services.**
+**There are locations for which no imagery and a 'restricted' message is returned by some of these  services, e.g.**&#x20;
 
 **It is always advisable to consider any potential conflicts of interest between the suppliers of geographical data and the locations for which researchers are requesting imagery. Cross-checking of satellite data from multiple sources may not always be possible, either because of lack availability at comparable resolutions, or high prices attached to images required for confirmation.**
 
@@ -406,18 +406,13 @@ C. Misinformation and Disinformation:
 
 1. [Datawrapper's ](https://bellingcat.gitbook.io/toolkit/more/all-tools/datawrapper#url)[Locator Map](https://academy.datawrapper.de/article/161-how-to-create-a-locator-map)
 
-Both Datawrapper's Locator Map Function and Soar's Stoary/Narrative Feature are similar because they both let users create interactive, story-driven maps directly in a browser without coding. They can both turn geographic information into visual narratives that are easy to share. However, there are some features that are different. Click on the expandables below to see the list of similar and distinct features between the two.&#x20;
+Both Datawrapper's Locator Map Function and Soar's Stoary/Narrative Feature are similar because they both let users create interactive, story-driven maps directly in a browser without coding. They can both turn geographic information into visual narratives that are easy to share. However, there are some features that are different. <mark style="color:blue;">Click on the expandables below</mark> to see the list of similar and distinct features between the two.&#x20;
 
 {% include ".gitbook/includes/datawrapper-v-stoary-similar-features.md" %}
 
 {% include ".gitbook/includes/soar-stoary-v-datawrapper-distinct-features.md" %}
 
-For satellite image combination into animated gif, compare with integrated Sentinel functionality,&#x20;
-
-<mark style="color:$info;">Gif-creating tools on the toolkit include:</mark>
-
-1. <mark style="color:$info;">Sentinel Hub Playground (</mark>[<mark style="color:$info;">https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground</mark>](https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground)<mark style="color:$info;">)</mark>&#x20;
-2. <mark style="color:$info;">Nasa Worldview (</mark>[<mark style="color:$info;">https://bellingcat.gitbook.io/toolkit/more/all-tools/nasa-worldview</mark>](https://bellingcat.gitbook.io/toolkit/more/all-tools/nasa-worldview)<mark style="color:$info;">)</mark>
+For satellite image combination into animated gif display format, Soar provides a portal for users to access the tools to do this (1) via the functionality of the Sentinel website (2) via the functionality of the NASA Worldview website.
 
 ## Tool provider
 
