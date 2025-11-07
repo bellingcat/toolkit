@@ -44,11 +44,9 @@ Note that some satellite imagery maps in the Soar database are of very high qual
 
 **Soar offers free satellite imagery from the Sentinel (European-owned) and  NASA (US-owned) services, which are relatively low resolution. The paid satellite imagery options offered at higher resolution are Jilin-1 satellite (Chinese-owned) services.**&#x20;
 
-**There are locations for which no imagery and a 'restricted' message is returned by some of these  services**
+**There are locations for which no imagery and a 'restricted' message is returned by some of these  services,  e.g. these messages from Chinese-owned services re:requests for imagery for areas in Taiwan & Mongolia.**
 
-<img src=".gitbook/assets/image (8).png" alt="" data-size="original">
-
-<img src=".gitbook/assets/SKYMAP50UNAVAILABLEMESSAGE CROPPED.JPG" alt="" data-size="original">
+<img src=".gitbook/assets/No Sat Data Msgs.JPG" alt="" data-size="original">
 
 **It is always advisable to consider any potential conflicts of interest between the suppliers of geographical data and the investigative locations for which researchers are requesting imagery. Cross-checking of satellite data from multiple sources may not always be possible, either because of lack availability at comparable resolutions, or high prices attached to images required for confirmation.**
 
