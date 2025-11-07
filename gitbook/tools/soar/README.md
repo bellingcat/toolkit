@@ -431,13 +431,11 @@ B. Privacy / Consent:
 
 ## Guides and articles&#x20;
 
-[Exploring a Digital Atlas of Maps and Imagery on Soar.Earth - open.gis.lab](https://opengislab.com/blog/2021/7/11/exploring-a-digital-atlas-of-maps-and-imagery-on-soarearth), [Soar Tutorials - YouTube](https://www.google.com/search?q=https://www.youtube.com/playlist%3Flist%3DPL44e5M4E2bX-x1Q-y3d2f-1h9zV5r3jP5)
+[Exploring a Digital Atlas of Maps and Imagery on Soar.Earth - open.gis.lab](https://opengislab.com/blog/2021/7/11/exploring-a-digital-atlas-of-maps-and-imagery-on-soarearth)
+
+[Soar Tutorials - YouTube](https://www.google.com/search?q=https://www.youtube.com/playlist%3Flist%3DPL44e5M4E2bX-x1Q-y3d2f-1h9zV5r3jP5)
 
 [Exploring a Digital Atlas of Maps and Imagery on Soar.Earth from Open.gis.lab](https://opengislab.com/blog/2021/7/11/exploring-a-digital-atlas-of-maps-and-imagery-on-soarearth)
-
-{% embed url="https://www.youtube.com/@SoarAtlas" %}
-
-
 
 ## Similar Tools
 
@@ -491,7 +489,8 @@ Soar, Perth, Australia
 
 | Page maintainer                             |
 | ------------------------------------------- |
-| Afton and Sophie Tedling 06/11/25 20:10 CST |
+| Afton and Sophie Tedling 07/11/25 19:28 GMT |
+|                                             |
 
 [^1]: Soar allows users to view maps in the database, and also make their own annotated copies of those maps. Users can upload their own maps to be added to the database
 
