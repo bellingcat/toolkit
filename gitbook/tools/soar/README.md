@@ -386,7 +386,7 @@ Overall: For a casual user exploring maps, the difficulty is moderate. For an in
     * A building, road, or structure actually existed at that time.
     * The image is recent or years old.
     * Environmental changes (like floods, fires, or deforestation) happened before or after that snapshot.
-* Some maps are georeferenced, some are not (usually old ones), so they are not always comparable&#x20;
+* Some maps are georeferenced, some are not (usually old ones), so they are not always comparable via overlay and transparency adjustment.&#x20;
 
 {% columns fullWidth="true" %}
 {% column width="66.66666666666666%" %}
