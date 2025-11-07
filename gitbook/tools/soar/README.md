@@ -309,39 +309,13 @@ Research conducted by Bellingcat Volunteer Community members on Tajikistan is us
 {% endcolumn %}
 {% endcolumns %}
 
-This is compared below with the popular standard Google Earth Web interactive map functionality, using example research material on imagery of inscriptions from Tajikistan.
-
-**1) Soar's 'Stoary' Function**
-
-<h4 align="center">🗺️ Interactive Soar Atlas Map</h4>
-
-<p align="center"><a href="https://researcherera.github.io/soar-embed/soar-map.html"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F2U83UEO8KjkX3jGLBsBn%2Fuploads%2Fy6FHvbEVOHkA7UntthGd%2F2025-11-05_03-01-09.png?alt=media&#x26;token=beeeed3d-8155-41e7-ab49-ab1723c160a9" alt="Interactive Soar Atlas Map"></a></p>
-
-<p align="center"><em><mark style="color:blue;"><strong>Click the image</strong></mark><strong> to explore the visualization created to test this feature.</strong></em> </p>
-
-**OUTPUT: What Soar Produces**
-
-* Interactive slide presentation (not a video): View the actual Soar narrative output based on our tests here: [Stoary Demonstration for Soar](https://soaratlas.com/draw/2523)
+In the table below, Soar's narrative output is compared below with the popular standard Google Earth Web interactive map functionality, using example research material on imagery of inscriptions from Tajikistan.
 
 {% hint style="warning" %}
-IMPORTANT: SOAR only produces slides, not videos.
+IMPORTANT: SOAR only produces slides, not animations or videos.
 
-This is for demonstration purposes only and does not constitute an investigation.
+This material is for demonstration purposes only (and does not constitute an investigation.)
 {% endhint %}
-
-2\) Google Earth Web's Narrative Creation Function
-
-
-
-<p align="center"><a href="https://researcherera.github.io/soar-embed/soar-map.html"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F2U83UEO8KjkX3jGLBsBn%2Fuploads%2Fy6FHvbEVOHkA7UntthGd%2F2025-11-05_03-01-09.png?alt=media&#x26;token=beeeed3d-8155-41e7-ab49-ab1723c160a9" alt="Interactive Soar Atlas Map"></a></p>
-
-[https://earth.google.com/earth/d/10nbP4XjKWxw\_csBqB461lS8w6xx0IOZS?usp=sharing](https://earth.google.com/earth/d/10nbP4XjKWxw_csBqB461lS8w6xx0IOZS?usp=sharing)
-
-<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2F2U83UEO8KjkX3jGLBsBn_2Fuploads_2FOILhsvC0mRWzSemZPgyM_2FGOOGLE_20EARTH_20WEB_20SAMPLE_20TAJIK_20NARRATIVE.avif" alt=""><figcaption><p><em><strong>GOOGLE EARTH WEB FUNCTIONALITY: INTERACTIVE MAP WITH OVERLAID IMAGERY AND TEXT</strong></em></p></figcaption></figure>
-
-{% embed url="https://earth.google.com/earth/d/10nbP4XjKWxw_csBqB461lS8w6xx0IOZS?usp=sharing" %}
-
-<mark style="color:$danger;">Alternative Presentation</mark>&#x20;
 
 {% columns %}
 {% column %}
@@ -353,7 +327,7 @@ This is for demonstration purposes only and does not constitute an investigation
 
 **OUTPUT: What Soar Produces**
 
-Interactive slide presentation (not a video) with the facility to use multiple map bases. View the actual Soar narrative output based  [Stoary Demonstration for Soar](https://soaratlas.com/draw/2523), which is based on our testing.
+Interactive slide presentation (not an animation or video) with the facility to use multiple map bases. View the actual Soar narrative output based  [Stoary Demonstration for Soar](https://soaratlas.com/draw/2523), which is based on our testing.
 {% endcolumn %}
 
 {% column %}
@@ -363,11 +337,11 @@ Interactive slide presentation (not a video) with the facility to use multiple m
 
 <p align="center"><em><mark style="color:blue;"><strong>Click the 'Open' button below</strong></mark><strong> </strong><strong>to compare the visualization created to test this feature</strong></em></p>
 
-<p align="center"><strong>OUTPUT:</strong> What Google Earth Web Produces</p>
-
-<p align="center">Interactive single page map (not video or slide show)</p>
+<p align="center"><strong>OUTPUT: What Google Earth Web Produces</strong></p>
 
 {% embed url="https://earth.google.com/earth/d/10nbP4XjKWxw_csBqB461lS8w6xx0IOZS?usp=sharing" %}
+
+<p align="center">Interactive single page map (not an animation, video or slide show)</p>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -409,13 +383,20 @@ Overall: For a casual user exploring maps, the difficulty is moderate. For an in
     This is a limitation if doing any kind of time-sensitive or verification work. Without the date,\
     users can’t be sure whether:
 
-    * A building, road, or structure actually existed at that time,
-    * The image is recent or years old,
+    * A building, road, or structure actually existed at that time.
+    * The image is recent or years old.
     * Environmental changes (like floods, fires, or deforestation) happened before or after that snapshot.
-* Some maps are georeferenced, some are not (usually old ones), so they are not always comparable using the Transparency slider.
-* If many users are accessing a particular Soar map, the feed may be rate limited and so load very slowly or not at all, in which case an information message like the one below will be displayed
+* Some maps are georeferenced, some are not (usually old ones), so they are not always comparable&#x20;
 
-<figure><img src=".gitbook/assets/overuseerrorsoar.png" alt="" width="207"><figcaption></figcaption></figure>
+{% columns fullWidth="true" %}
+{% column width="66.66666666666666%" %}
+- If many users are accessing a particular Soar map, the feed may be rate limited and so load very slowly or not at all, in which case an information message like this one will be displayed
+{% endcolumn %}
+
+{% column width="33.33333333333334%" %}
+<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2F2U83UEO8KjkX3jGLBsBn_2Fuploads_2FDC1IGNxldkijOTSBalJQ_2Foveruseerrorsoar.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
 
 * Some Satellite images that are high quality - can take long to load when zooming in and out (i.e. [https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69](https://soar.earth/maps/world-cloud-properties-western-hemisphere-last-10-minutes-132716?pos=-26.623553540465934%2C-23.02786284286767%2C3.69))&#x20;
 * The user interface comprises multiple complex views which can be hard to navigate for beginners.
@@ -442,8 +423,6 @@ B. Privacy / Consent:
 * Be mindful of privacy implications when analyzing high-resolution imagery, particularly concerning private property or individuals.
 * Adhere to ethical guidelines regarding data collection and dissemination.
 
-
-
 ## Guides and articles&#x20;
 
 [Exploring a Digital Atlas of Maps and Imagery on Soar.Earth - open.gis.lab](https://opengislab.com/blog/2021/7/11/exploring-a-digital-atlas-of-maps-and-imagery-on-soarearth), [Soar Tutorials - YouTube](https://www.google.com/search?q=https://www.youtube.com/playlist%3Flist%3DPL44e5M4E2bX-x1Q-y3d2f-1h9zV5r3jP5)
@@ -452,27 +431,35 @@ B. Privacy / Consent:
 
 ## Similar Tools
 
-<mark style="color:yellow;">Breaking down Soar functionality to find similar tools:</mark>
+Soar's mulitfunction provision is best broken down  to find similar tools:
 
-<mark style="color:yellow;">For databases of map imagery</mark>
+**For open databases of global map imagery**
 
-<mark style="color:yellow;">For databases of Satellite imagery</mark>
+[**Natural Earth Data**](http://www.naturalearthdata.com/downloads)
 
-<mark style="color:yellow;">For Satellite imagery purchase/commissioning</mark>
+also see [GISGeography's Top 10 global map sources](https://gisgeography.com/best-free-gis-data-sources-raster-vector/)
+
+**For open databases of global satellite imagery**
+
+[USGS Earth Explorer](https://earthexplorer.usgs.gov/)
+
+also see [GISGeography's To 10 free satellite sources](https://gisgeography.com/free-satellite-imagery-data-list/)
 
 **For geographic narrative creation**
 
-1. DataWrapper's Locator MapBoth Datawrapper's Locator Map Function and Soar's Stoary/Narrative Feature are similar because they both let users create interactive, story-driven maps directly in a browser without coding. They can both turn geographic information into visual narratives that are easy to share. However, there are some features that are different. Click on the expandables below to see the list of similar and distinct features between the two.&#x20;
+1. **DataWrapper's Locator Map**
+
+Both [Datawrapper's](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/gCXqT5ijX1OzGWGC1LLj/) Locator Map Function and Soar's Stoary/Narrative Feature are similar because they both let users create interactive, story-driven maps directly in a browser without coding. They can both turn geographic information into visual narratives that are easy to share. However, there are some features that are different. Click on the expandables below to see the list of similar and distinct features between the two.&#x20;
 
 {% include ".gitbook/includes/datawrapper-v-stoary-similar-features.md" %}
 
 {% include ".gitbook/includes/soar-stoary-v-datawrapper-distinct-features.md" %}
 
-For satellite image combination into animated gif display format, Soar provides a portal for users to access the tools to do this (1) via the functionality of the Sentinel website (2) via the functionality of the **NASA Worldview website.**
+For satellite image combination into animated gif display format, Soar provides a portal for users to access the tools to do this (1) via the functionality of the Sentinel website (2) via the functionality of the [**NASA Worldview website**](https://worldview.earthdata.nasa.gov/)**.**
 
 2. **Google Earth Web**
 
-Google Earth Web has developed into an access-controlled online collaborative platform which produces map-based displays capable of communicating a narrative using pop-up text and imagery.&#x20;
+Google Earth Web has developed into an access-controlled online collaborative platform which produces map-based displays capable of communicating a narrative using pop-up text and imagery. See table above for [comparison of narrative functionality](./#narrative-creation-demonstration)
 
 ## Tool provider
 
