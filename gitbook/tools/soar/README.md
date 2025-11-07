@@ -416,7 +416,8 @@ Uploading and Georeferencing: While the process is streamlined, [users uploading
 
 A. Data Verification and Accuracy:
 
-* Cross-reference Soar.earth imagery with other sources (e.g., commercial satellite providers, ground reports) to ensure accuracy
+* Cross-reference Soar imagery with other sources (e.g., commercial satellite providers, ground reports) to ensure accuracy. Be aware that user-generated content, while valuable, may not always be authoritative. For every map uploaded, the posting account writes a title and description. [Some maps](https://soaratlas.com/maps/africa-morocco-telouet-morocco-u-s-army-map-service-1943-136145?pos=31.249292688932762%2C-7.472745439290146%2C10.46) include their source and context, while [some](https://soaratlas.com/maps/13833?pos=14.219496077349637%2C116.3708428831533%2C5.73) lack sufficient context.&#x20;
+* Be aware that user-generated content, while valuable, may not always be authoritative. Always verify the source and context of shared maps/imagery.
 * Understand the limitations of satellite imagery (e.g., cloud cover, revisit times, resolution).
 * Source: [Help - Soar (on real-time imagery limitations)](https://about.soar.earth/help)
 
@@ -425,9 +426,7 @@ B. Privacy / Consent:
 * Be mindful of privacy implications when analyzing high-resolution imagery, particularly concerning private property or individuals.
 * Adhere to ethical guidelines regarding data collection and dissemination.
 
-C. Misinformation and Disinformation:
 
-* Be aware that user-generated content, while valuable, may not always be authoritative. Always verify the source and context of shared maps/imagery.
 
 ## Guides and articles&#x20;
 
