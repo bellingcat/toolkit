@@ -323,8 +323,6 @@ This material is for demonstration purposes only (and does not constitute an inv
 
 <p align="center"><a href="https://researcherera.github.io/soar-embed/soar-map.html"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F2U83UEO8KjkX3jGLBsBn%2Fuploads%2Fy6FHvbEVOHkA7UntthGd%2F2025-11-05_03-01-09.png?alt=media&#x26;token=beeeed3d-8155-41e7-ab49-ab1723c160a9" alt="Interactive Soar Atlas Map"></a></p>
 
-<p align="center"><a href="https://researcherera.github.io/soar-embed/soar-map.html"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F2U83UEO8KjkX3jGLBsBn%2Fuploads%2Fy6FHvbEVOHkA7UntthGd%2F2025-11-05_03-01-09.png?alt=media&#x26;token=beeeed3d-8155-41e7-ab49-ab1723c160a9" alt="Interactive Soar Atlas Map"></a></p>
-
 <p align="center"><em><mark style="color:blue;"><strong>Click the image</strong></mark><strong> </strong><strong>to explore the visualization created to test this feature</strong></em></p>
 
 **OUTPUT: What Soar Produces**
