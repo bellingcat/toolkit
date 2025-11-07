@@ -1,5 +1,17 @@
 # Draft Material for ReUse
 
+Testing how to embed external data
+
+This is an Embed block of a Google doc
+
+{% embed url="https://docs.google.com/document/d/1gKsAM16urvuPUyj1nbaGmOq2KjWWyvKjnsL7akNthRU/edit?usp=sharing" %}
+
+This is an iframely
+
+{% embed url="https://docs.google.com/document/d/1gKsAM16urvuPUyj1nbaGmOq2KjWWyvKjnsL7akNthRU/edit?usp=sharing" %}
+
+
+
 ## Soar
 
 <h4 align="center">🗺️ Interactive Soar Atlas Map</h4>
