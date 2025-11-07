@@ -449,7 +449,7 @@ C. Misinformation and Disinformation:
 
 1. [Datawrapper's ](https://bellingcat.gitbook.io/toolkit/more/all-tools/datawrapper#url)[Locator Map](https://academy.datawrapper.de/article/161-how-to-create-a-locator-map)
 
-Both Datawrapper's Locator Map Function and Soar's Stoary/Narrative Feature are similar because they both let users create interactive, story-driven maps directly in a browser without coding. They can both turn geographic information into visual narratives that are easy to share. However, there are some features that are different. <mark style="color:blue;">Click on the expandables below</mark> to see the list of similar and distinct features between the two.&#x20;
+Both Datawrapper's Locator Map Function and Soar's Stoary/Narrative Feature are similar because they both let users create interactive, story-driven maps directly in a browser without coding. They can both turn geographic information into visual narratives that are easy to share. However, there are some features that are different. Click on the expandables below to see the list of similar and distinct features between the two.&#x20;
 
 {% include ".gitbook/includes/datawrapper-v-stoary-similar-features.md" %}
 
