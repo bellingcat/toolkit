@@ -309,7 +309,7 @@ Research conducted by Bellingcat Volunteer Community members on Tajikistan is us
 {% endcolumn %}
 {% endcolumns %}
 
-
+This is compared below with the popular standard Google Earth Web interactive map functionality, using example research material on imagery of inscriptions from Tajikistan.
 
 **1) Soar's 'Stoary' Function**
 
