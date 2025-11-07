@@ -2,6 +2,12 @@
 
 ## Soar
 
+<h4 align="center">🗺️ Interactive Soar Atlas Map</h4>
+
+<p align="center"><a href="https://researcherera.github.io/soar-embed/soar-map.html"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F2U83UEO8KjkX3jGLBsBn%2Fuploads%2Fy6FHvbEVOHkA7UntthGd%2F2025-11-05_03-01-09.png?alt=media&#x26;token=beeeed3d-8155-41e7-ab49-ab1723c160a9" alt="Interactive Soar Atlas Map"></a></p>
+
+<p align="center"><em><mark style="color:blue;"><strong>Click the image</strong></mark><strong> to explore the visualization created to test this feature.</strong></em> </p>
+
 Soar is a platform sharing a growing database of over a million entries (maps, satellite, aerial & radar imagery), access to imagery from statellite providers, and tools to create geographic narratives
 
 Soar is a database of over a million diverse maps & images , on a platform where users can explore, upload, share and interact with a vast collection of content (including satellite, aerial & radar).

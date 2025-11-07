@@ -110,6 +110,8 @@ Soar maps are searchable by features including location, map category, indexing 
 
 ### Soar User Data: Input, Output and Use Cases
 
+_<mark style="color:blue;">**Click on the different tabs below**</mark>_ to view Soar's data input, output and use cases...
+
 {% tabs fullWidth="false" %}
 {% tab title="DATA INPUT" %}
 What types of data can the user give Soar?
@@ -298,6 +300,10 @@ Soar's step-by-step guide to creating a Stoary is found here: [Soar's Step-by-St
 Research conducted by Bellingcat Volunteer Community members on Tajikistan is used below to demonstrate and compare narrative creation using
 
 **1) Soar's 'Stoary' Function**
+
+![](<.gitbook/assets/image (9).png>)   Soar's "Create a Map" button allows the user to create a Soar map, which can contain multiple pages and annotations, and can be run to display the pages in sequence, like a form of 'slide show'.
+
+
 
 <h4 align="center">🗺️ Interactive Soar Atlas Map</h4>
 
