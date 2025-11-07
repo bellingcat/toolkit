@@ -383,8 +383,8 @@ Overall: For a casual user exploring maps, the difficulty is moderate. For an in
 
 ## Requirements
 
-* Account sign up / Email Address
-* Modern browser - This will avoid 'freezing' where loading maps and zooming in for details can cause the browser to stop working.
+1. Account sign up / Email Address: Users need to create an account to save maps, upload images and access all features on Soar. Users can still explore some public maps, but the ability to upload, bookmark, purchase imagery will not be possible.&#x20;
+2. &#x20;Modern up-to-date browser - This will avoid 'freezing' where loading maps and zooming in for details can cause the browser to stop working. Soar displays detailed, high-resolution maps and interactive features and older browsers may not be able to handle some of these features.&#x20;
 
 ## Limitations
 
