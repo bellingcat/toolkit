@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-31'
+updated: '2025-11-06'
 description: >-
   Telemetr.io offers a range of Telegram-related services based on a catalog of
   Telegram channels: country and category-specific rankings, curated
