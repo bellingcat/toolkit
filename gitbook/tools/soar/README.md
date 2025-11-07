@@ -318,7 +318,7 @@ This material is for demonstration purposes only (and does not constitute an inv
 {% endhint %}
 
 {% columns %}
-{% column %}
+{% column width="50%" %}
 1. <p align="center">SOAR'S "STOARY" FUNCTIONALITY</p>
 
 <p align="center"><a href="https://researcherera.github.io/soar-embed/soar-map.html"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F2U83UEO8KjkX3jGLBsBn%2Fuploads%2Fy6FHvbEVOHkA7UntthGd%2F2025-11-05_03-01-09.png?alt=media&#x26;token=beeeed3d-8155-41e7-ab49-ab1723c160a9" alt="Interactive Soar Atlas Map"></a></p>
@@ -334,18 +334,20 @@ The animation below was created to showcase Soar's output. _<mark style="color:b
 <figure><img src=".gitbook/assets/2025-11-03_14-21-22-gif.gif" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
-{% column %}
+{% column width="50%" %}
 2. GOOGLE EARTH WEB FUNCTIONALITY
 
 <figure><img src=".gitbook/assets/GOOGLE EARTH WEB SAMPLE TAJIK NARRATIVE.JPG" alt=""><figcaption></figcaption></figure>
 
-<p align="center"><em><mark style="color:blue;"><strong>Click the 'Open' button below</strong></mark><strong> </strong><strong>to compare the visualization created to test this feature in Google Earth Web with Soar's narrative creation functionality.</strong></em></p>
+<p align="center"><em><mark style="color:blue;"><strong>Click this</strong></mark></em>  <a href="https://earth.google.com/earth/d/10nbP4XjKWxw_csBqB461lS8w6xx0IOZS?usp=sharing"><em><mark style="color:blue;"><strong>Google Earth Web project link</strong></mark></em></a> <em><strong>to compare this feature in Google Earth Web with Soar's narrative creation functionality.</strong></em></p>
 
 <p align="center"><strong>OUTPUT: What Google Earth Web Produces</strong></p>
 
-{% embed url="https://earth.google.com/earth/d/10nbP4XjKWxw_csBqB461lS8w6xx0IOZS?usp=sharing" %}
+<p align="center">Interactive single page map which can be run as a slide presentation (not an animation, video or slide show)</p>
 
-<p align="center">Interactive single page map (not an animation, video or slide show)</p>
+The animation below was created to showcase Google Earth Web's output. _<mark style="color:blue;">**Click the image below**</mark>_ to enlarge and watch.
+
+<figure><img src=".gitbook/assets/GoogleEarth Web Tajik animation.gif" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
