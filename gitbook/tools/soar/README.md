@@ -299,11 +299,19 @@ Soar's step-by-step guide to creating a Stoary is found here: [Soar's Step-by-St
 
 Research conducted by Bellingcat Volunteer Community members on Tajikistan is used below to demonstrate and compare narrative creation using
 
+{% columns %}
+{% column width="25%" %}
+![](<.gitbook/assets/image (9).png>)&#x20;
+{% endcolumn %}
+
+{% column width="75%" %}
+&#x20;Soar's "Create a Map" button allows the user to create a Soar map, which can contain multiple pages and annotations, and can be run to display the pages in sequence, like a form of 'slide show'.
+{% endcolumn %}
+{% endcolumns %}
+
+
+
 **1) Soar's 'Stoary' Function**
-
-![](<.gitbook/assets/image (9).png>)   Soar's "Create a Map" button allows the user to create a Soar map, which can contain multiple pages and annotations, and can be run to display the pages in sequence, like a form of 'slide show'.
-
-
 
 <h4 align="center">🗺️ Interactive Soar Atlas Map</h4>
 
@@ -327,6 +335,8 @@ This is for demonstration purposes only and does not constitute an investigation
 
 <p align="center"><a href="https://researcherera.github.io/soar-embed/soar-map.html"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F2U83UEO8KjkX3jGLBsBn%2Fuploads%2Fy6FHvbEVOHkA7UntthGd%2F2025-11-05_03-01-09.png?alt=media&#x26;token=beeeed3d-8155-41e7-ab49-ab1723c160a9" alt="Interactive Soar Atlas Map"></a></p>
 
+[https://earth.google.com/earth/d/10nbP4XjKWxw\_csBqB461lS8w6xx0IOZS?usp=sharing](https://earth.google.com/earth/d/10nbP4XjKWxw_csBqB461lS8w6xx0IOZS?usp=sharing)
+
 <figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2F2U83UEO8KjkX3jGLBsBn_2Fuploads_2FOILhsvC0mRWzSemZPgyM_2FGOOGLE_20EARTH_20WEB_20SAMPLE_20TAJIK_20NARRATIVE.avif" alt=""><figcaption><p><em><strong>GOOGLE EARTH WEB FUNCTIONALITY: INTERACTIVE MAP WITH OVERLAID IMAGERY AND TEXT</strong></em></p></figcaption></figure>
 
 {% embed url="https://earth.google.com/earth/d/10nbP4XjKWxw_csBqB461lS8w6xx0IOZS?usp=sharing" %}
@@ -343,7 +353,7 @@ This is for demonstration purposes only and does not constitute an investigation
 
 **OUTPUT: What Soar Produces**
 
-* Interactive slide presentation (not a video): View the actual Soar narrative output based  [Stoary Demonstration for Soar](https://soaratlas.com/draw/2523), which is based on our testing.
+Interactive slide presentation (not a video) with the facility to use multiple map bases. View the actual Soar narrative output based  [Stoary Demonstration for Soar](https://soaratlas.com/draw/2523), which is based on our testing.
 {% endcolumn %}
 
 {% column %}
@@ -353,9 +363,9 @@ This is for demonstration purposes only and does not constitute an investigation
 
 <p align="center"><em><mark style="color:blue;"><strong>Click the 'Open' button below</strong></mark><strong> </strong><strong>to compare the visualization created to test this feature</strong></em></p>
 
-<p align="center">What Google Earth Web Produces</p>
+<p align="center"><strong>OUTPUT:</strong> What Google Earth Web Produces</p>
 
-<p align="center">Interactive map (not video or slide show)</p>
+<p align="center">Interactive single page map (not video or slide show)</p>
 
 {% embed url="https://earth.google.com/earth/d/10nbP4XjKWxw_csBqB461lS8w6xx0IOZS?usp=sharing" %}
 {% endcolumn %}
@@ -452,17 +462,15 @@ B. Privacy / Consent:
 
 **For geographic narrative creation**
 
-1. [Datawrapper's ](https://bellingcat.gitbook.io/toolkit/more/all-tools/datawrapper#url)[Locator Map](https://academy.datawrapper.de/article/161-how-to-create-a-locator-map)
-
-Both Datawrapper's Locator Map Function and Soar's Stoary/Narrative Feature are similar because they both let users create interactive, story-driven maps directly in a browser without coding. They can both turn geographic information into visual narratives that are easy to share. However, there are some features that are different. Click on the expandables below to see the list of similar and distinct features between the two.&#x20;
+1. DataWrapper's Locator MapBoth Datawrapper's Locator Map Function and Soar's Stoary/Narrative Feature are similar because they both let users create interactive, story-driven maps directly in a browser without coding. They can both turn geographic information into visual narratives that are easy to share. However, there are some features that are different. Click on the expandables below to see the list of similar and distinct features between the two.&#x20;
 
 {% include ".gitbook/includes/datawrapper-v-stoary-similar-features.md" %}
 
 {% include ".gitbook/includes/soar-stoary-v-datawrapper-distinct-features.md" %}
 
-For satellite image combination into animated gif display format, Soar provides a portal for users to access the tools to do this (1) via the functionality of the Sentinel website (2) via the functionality of the NASA Worldview website.
+For satellite image combination into animated gif display format, Soar provides a portal for users to access the tools to do this (1) via the functionality of the Sentinel website (2) via the functionality of the **NASA Worldview website.**
 
-2. Google Earth Web
+2. **Google Earth Web**
 
 Google Earth Web has developed into an access-controlled online collaborative platform which produces map-based displays capable of communicating a narrative using pop-up text and imagery.&#x20;
 
