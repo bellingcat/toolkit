@@ -435,6 +435,10 @@ B. Privacy / Consent:
 
 [Exploring a Digital Atlas of Maps and Imagery on Soar.Earth from Open.gis.lab](https://opengislab.com/blog/2021/7/11/exploring-a-digital-atlas-of-maps-and-imagery-on-soarearth)
 
+{% embed url="https://www.youtube.com/@SoarAtlas" %}
+
+
+
 ## Similar Tools
 
 Soar's mulitfunction provision is best broken down  to find similar tools:
