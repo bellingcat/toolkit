@@ -479,10 +479,10 @@ Soar, Perth, Australia
 
 </details>
 
-| Page maintainer                            |
-| ------------------------------------------ |
-| Afton and Sophie Tedling 06/11/25 22:34GMT |
-|                                            |
+| Page maintainer                             |
+| ------------------------------------------- |
+| Afton and Sophie Tedling 06/11/25 19:08 CST |
+|                                             |
 
 
 
