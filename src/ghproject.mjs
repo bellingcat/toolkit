@@ -36,7 +36,7 @@ const AUTHOR_FIELD_ID = field("CR Author").id;
 const TOOLID_FIELD_ID = field("Tool ID").id;
 const TITLE_FIELD_ID = field("Title").id;
 const REVIEW_OPTION_ID = field("Status").options.find(byName("Review Requested")).id;
-const PUBLISHED_OPTION_ID = field("Status").options.find(byName("Published")).id;
+const MERGED_OPTION_ID = field("Status").options.find(byName("Merged")).id;
 const PUBLISHED_TRUE_OPTION_ID=field("Published").options.find(byName("True")).id;
 
 function getField(field, item) {
