@@ -3,7 +3,7 @@ function mutation(changes) {
 }
 function setField(itemId, fieldId, key, value) {
   return (`
-  set_field_${fieldId}: updateProjectV2ItemFieldValue(input: {
+  set_field_${fieldId.replace(/-/g, '_')}: updateProjectV2ItemFieldValue(input: {
     projectId: $project
     itemId: "${itemId}"
     fieldId: "${fieldId}"
