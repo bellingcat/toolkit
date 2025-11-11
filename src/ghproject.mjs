@@ -167,7 +167,8 @@ tools.forEach(async function(tool) {
   }
 
   if (changes.length > 0) {
-    console.warn(tool.title, JSON.stringify(changed));
+    console.warn(tool.title)
+    console.warn(JSON.stringify(changed, null, 2));
     console.log(graphql.mutation(changes));
   }
 
