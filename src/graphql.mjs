@@ -18,7 +18,8 @@ function setSelectField(itemId, fieldId, value) {
   return setField(itemId, fieldId, 'singleSelectOptionId', value);
 }
 function setDateField(itemId, fieldId, value) {
-  return setField(itemId, fieldId, 'date', value);
+  var dateString = (new Date(value)).toISOString().replace(/T.*/,'');
+  return setField(itemId, fieldId, 'date', dateString);
 }
 export default {
   mutation,

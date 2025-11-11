@@ -6,6 +6,8 @@ import pkg2 from './tools.mjs'
 const {fetchCollection, fetchLatestChangeRequest, fetchChangeRequestReviewers, findSpace} = pkg2
 import graphql from './graphql.mjs';
 
+// Emits graphql mutations to update project items based on data from gitbook API
+
 if (process.argv.length !== 4) {
   console.warn("Usage: node ", process.argv[1], " <project_data.json> <project_items.json>");
   process.exit(1);
@@ -13,57 +15,70 @@ if (process.argv.length !== 4) {
 const projectDataFilename = process.argv[2]
 const projectItemsFilename = process.argv[3]
 
-// Emits all changed project items in json with status info the repo and space
+const FIELDS = {
+  date: { name: "Date submitted"},
+  url: { name: "Latest change request"},
+  status: { name: "Status"},
+  published: { name: "Published"},
+  updatedAt: { name: "Last updated"},
+  space: { name: "Tool Space"},
+  reviewers: { name: "CR Reviewers"},
+  author: { name: "CR Author"},
+  toolId: { name: "Tool ID"},
+  title: { name: "Title"},
+  collection: { name: "Collection"},
+};
+const OPTIONS = {
+  reviewRequested: { name: "Review Requested", field: "Status"},
+  merged: { name: "Merged", field: "Status"},
+  editing: { name: "Editing in Process", field: "Status"},
+  publishedTrue: { name: "True", field: "Published"},
+};
+
+(function processProjectData() {
+  // read project data and parse out project fields and options
+  const project  = JSON.parse(fs.readFileSync(projectDataFilename, 'utf-8'));
+  const nodes = project.data.organization.projectV2.fields.nodes;
+  // helpers
+  const byName = name => (n => n.name == name);
+  const field = name => nodes.find(byName(name));
+  // iterate over FIELDS and OPTIONS and populate their IDs in place
+  for (const key in FIELDS) {
+    FIELDS[key].id = field(FIELDS[key].name).id;
+  }
+  for (const key in OPTIONS) {
+    OPTIONS[key].id = field(OPTIONS[key].field).options.find(byName(OPTIONS[key].name)).id;
+  }
+})();
+
+const items = (function processProjectItems() {
+  // read and parse project items
+
+  // helper to get field value by name
+  function getField(fieldName, item) {
+    return item.fieldValues.nodes.find((node) => node.field.name === fieldName) || {};
+  }
+
+  return JSON.parse(fs.readFileSync(projectItemsFilename, 'utf-8')).map(function(item) {
+    return {
+      id: item.id,
+      title: getField(FIELDS.title.name, item).text,
+      status: getField(FIELDS.status.name, item).name,
+      published: getField(FIELDS.published.name, item).name,
+      date_submitted: getField(FIELDS.date.name, item).date,
+      url: getField(FIELDS.url.name, item).text,
+      updatedAt: getField(FIELDS.updatedAt.name, item).date,
+      space: getField(FIELDS.space.name, item).text,
+      toolId: getField(FIELDS.toolId.name, item).text,
+      changeRequestAuthor: getField(FIELDS.author.name, item).text,
+      reviewers: getField(FIELDS.reviewers.name, item).text,
+      collection: getField(FIELDS.collection.name, item).text,
+    }
+  });
+})();
+
 const tools = getTools();
 const summary = getSummary('gitbook');
-
-const project = JSON.parse(fs.readFileSync(projectDataFilename, 'utf-8')).data.organization.projectV2;
-const fields = project.fields.nodes;
-
-// helpers
-const byName = name => (n => n.name == name);
-const field = name => fields.find(byName(name));
-const option = (name, fieldName) => field(fieldName).options.find(byName(name));
-
-const DATE_FIELD_ID = field("Date submitted").id;
-const URL_FIELD_ID = field("Latest change request").id;
-const STATUS_FIELD_ID = field("Status").id;
-const PUBLISHED_FIELD_ID = field("Published").id;
-const UPDATED_DATE_FIELD_ID = field("Last updated").id;
-const SPACE_FIELD_ID = field("Tool Space").id;
-const REVIEWERS_FIELD_ID = field("CR Reviewers").id;
-const AUTHOR_FIELD_ID = field("CR Author").id;
-const TOOLID_FIELD_ID = field("Tool ID").id;
-const TITLE_FIELD_ID = field("Title").id;
-const REVIEW_OPTION_ID = field("Status").options.find(byName("Review Requested")).id;
-const MERGED_OPTION_ID = field("Status").options.find(byName("Merged")).id;
-const PUBLISHED_TRUE_OPTION_ID=field("Published").options.find(byName("True")).id;
-const COLLECTION_FIELD_ID = field("Collection").id;
-
-function getField(fieldName, item) {
-  return item.fieldValues.nodes.find((node) => node.field.name === fieldName) || {};
-}
-function formatDate(dateString) {
-  var date = new Date(dateString);
-  return date.toISOString().replace(/T.*/,'');
-}
-
-const items = JSON.parse(fs.readFileSync(projectItemsFilename, 'utf-8')).map(function(item) {
-  return {
-    id: item.id,
-    title: getField("Title", item).text,
-    status: getField("Status", item).name,
-    published: getField("Published", item).name,
-    date_submitted: getField("Date submitted", item).date,
-    url: getField("Latest change request", item).text,
-    updatedAt: getField("Last updated", item).date,
-    space: getField("Tool Space", item).text,
-    toolId: getField("Tool ID", item).text,
-    changeRequestAuthor: getField("CR Author", item).text,
-    reviewers: getField("CR Reviewers", item).text,
-    collection: getField("Collection", item).text,
-  }
-});
 
 tools.forEach(async function(tool) {
   let changed = {};
@@ -81,26 +96,26 @@ tools.forEach(async function(tool) {
 
   if (item.title !== tool.title) {
     changed.title = tool.title;
-    changes.push(graphql.setTextField(item.id, TITLE_FIELD_ID, tool.title));
+    changes.push(graphql.setTextField(item.id, FIELDS.title.id, tool.title));
   }
   if (item.space !== space.urls.app) {
     changed.space = space.urls.app;
-    changes.push(graphql.setTextField(item.id, SPACE_FIELD_ID, space.urls.app));
+    changes.push(graphql.setTextField(item.id, FIELDS.space.id, space.urls.app));
   }
   if (item.collection !== collection.title) {
     changed.collection = collection.title;
-    changes.push(graphql.setTextField(item.id, COLLECTION_FIELD_ID, collection.title));
+    changes.push(graphql.setTextField(item.id, FIELDS.collection.id, collection.title));
   }
 
   if (tool.updated && item.updatedAt !== tool.updated) {
     changed.updatedAt = tool.updated;
-    changes.push(graphql.setDateField(item.id, UPDATED_DATE_FIELD_ID, tool.updated));
+    changes.push(graphql.setDateField(item.id, FIELDS.updatedAt.id, tool.updated));
   }
 
   if (summary.match(path.relative('gitbook/', tool.filepath))) {
     if (!item.published) {
       changed.published = true;
-      changes.push(graphql.setSelectField(item.id, PUBLISHED_FIELD_ID, PUBLISHED_TRUE_OPTION_ID));
+      changes.push(graphql.setSelectField(item.id, FIELDS.published.id, OPTIONS.publishedTrue.id));
     }
   }
 
@@ -109,7 +124,7 @@ tools.forEach(async function(tool) {
     const changeRequestAuthor = request.createdBy.email;
     if (item.changeRequestAuthor != changeRequestAuthor){
       changed.changeRequestAuthor = changeRequestAuthor;
-      changes.push(graphql.setTextField(item.id, AUTHOR_FIELD_ID, changeRequestAuthor));
+      changes.push(graphql.setTextField(item.id, FIELDS.author.id, changeRequestAuthor));
     }
 
     const reviewers = await fetchChangeRequestReviewers(space, request);
@@ -117,34 +132,33 @@ tools.forEach(async function(tool) {
       const names = reviewers.items.map((item) => item.user.email ).join(', ');
       if (item.reviewers !== names) {
         changed.reviewers = names;
-        changes.push(graphql.setTextField(item.id, REVIEWERS_FIELD_ID, names));
+        changes.push(graphql.setTextField(item.id, FIELDS.reviewers.id, names));
       }
     }
 
-    const date = formatDate(request.updatedAt);
-    if (item.date_submitted !== date) {
-      changed.date_submitted = date
-      changes.push(graphql.setDateField(DATE_FIELD_ID, date));
+    if (item.date_submitted !== request.updatedAt) {
+      changed.date_submitted = request.updatedAt
+      changes.push(graphql.setDateField(item.id, FIELDS.date.id, request.updatedAt));
     }
     if (item.url !== request.urls.app) {
       changed.url = request.urls.app;
-      changes.push(graphql.setTextField(URL_FIELD_ID, request.urls.app));
+      changes.push(graphql.setTextField(FIELDS.url.id, request.urls.app));
     }
 
     switch (request.status) {
       case 'merged':
-        if (item.status !== 'Merged') {
-          changed.status = 'Merged';
-          changes.push(graphql.setSelectField(item.id, STATUS_FIELD_ID, MERGED_OPTION_ID));
+        if (item.status !== OPTIONS.merged.name) {
+          changed.status = OPTIONS.merged.name;
+          changes.push(graphql.setSelectField(item.id, FIELDS.status.id, OPTIONS.merged.id));
         }
         break;
       case 'open':
-        if (item.status == "Editing in Progress") {
+        if (item.status == OPTIONS.editing.name) {
           break; // ignore these, don't revert to review requested.
         }
-        if (item.status !== "Review Requested") {
-          changed.status = "Review Requested";
-          changes.push(graphql.setSelectField(item.id, STATUS_FIELD_ID, REVIEW_OPTION_ID));
+        if (item.status !== OPTIONS.reviewRequested.name) {
+          changed.status = OPTIONS.reviewRequested.name;
+          changes.push(graphql.setSelectField(item.id, FIELDS.status.id, OPTIONS.reviewRequested.id));
         }
         break;
       default:
