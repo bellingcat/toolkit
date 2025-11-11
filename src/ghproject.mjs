@@ -3,7 +3,7 @@ import path from 'path'
 import pkg from './paths.mjs'
 const {getTools, getSummary} = pkg;
 import pkg2 from './tools.mjs'
-const {fetchCollection, fetchChangeRequests, fetchChangeRequestReviewers, findSpace} = pkg2
+const {fetchCollection, fetchLatestChangeRequest, fetchChangeRequestReviewers, findSpace} = pkg2
 import graphql from './graphql.mjs';
 
 if (process.argv.length !== 4) {
@@ -104,42 +104,54 @@ tools.forEach(async function(tool) {
     }
   }
 
-  if (space.changeRequestsOpen) {
-    if (item.status !== "Review Requested" && item.status != "Editing in Progress") {
-      changed.status = "Review Requested";
-      changes.push(graphql.setSelectField(item.id, STATUS_FIELD_ID, REVIEW_OPTION_ID));
+  const request = await fetchLatestChangeRequest(space);
+  if (request) {
+    const changeRequestAuthor = request.createdBy.email;
+    if (item.changeRequestAuthor != changeRequestAuthor){
+      changed.changeRequestAuthor = changeRequestAuthor;
+      changes.push(graphql.setTextField(item.id, AUTHOR_FIELD_ID, changeRequestAuthor));
     }
-    const changeRequests = await fetchChangeRequests(space);
-    const request = changeRequests.items[0];
 
-    // edge case: discrepency between space state and CR states
-    if (request) {
-      const changeRequestAuthor = request.createdBy.email;
-      if (item.changeRequestAuthor != changeRequestAuthor){
-        changed.changeRequestAuthor = changeRequestAuthor;
-        changes.push(graphql.setTextField(item.id, AUTHOR_FIELD_ID, changeRequestAuthor));
+    const reviewers = await fetchChangeRequestReviewers(space, request);
+    if (reviewers.count > 0) {
+      const names = reviewers.items.map((item) => item.user.email ).join(', ');
+      if (item.reviewers !== names) {
+        changed.reviewers = names;
+        changes.push(graphql.setTextField(item.id, REVIEWERS_FIELD_ID, names));
       }
+    }
 
-      const reviewers = await fetchChangeRequestReviewers(space, request);
-      if (reviewers.count > 0) {
-        const names = reviewers.items.map((item) => item.user.email ).join(', ');
-        if (item.reviewers !== names) {
-          changed.reviewers = names;
-          changes.push(graphql.setTextField(item.id, REVIEWERS_FIELD_ID, names));
+    const date = formatDate(request.updatedAt);
+    if (item.date_submitted !== date) {
+      changed.date_submitted = date
+      changes.push(graphql.setDateField(DATE_FIELD_ID, date));
+    }
+    if (item.url !== request.urls.app) {
+      changed.url = request.urls.app;
+      changes.push(graphql.setTextField(URL_FIELD_ID, request.urls.app));
+    }
+
+    switch (request.status) {
+      case 'merged':
+        if (item.status !== 'Merged') {
+          changed.status = 'Merged';
+          changes.push(graphql.setSelectField(item.id, STATUS_FIELD_ID, MERGED_OPTION_ID));
         }
-      }
-
-      const date = formatDate(request.updatedAt);
-      if (item.date_submitted !== date) {
-        changed.date_submitted = date
-        changes.push(graphql.setDateField(DATE_FIELD_ID, date));
-      }
-      if (item.url !== request.urls.app) {
-        changed.url = request.urls.app;
-        changes.push(grqphql.setTextField(URL_FIELD_ID, request.urls.app));
-      }
+        break;
+      case 'open':
+        if (item.status == "Editing in Progress") {
+          break; // ignore these, don't revert to review requested.
+        }
+        if (item.status !== "Review Requested") {
+          changed.status = "Review Requested";
+          changes.push(graphql.setSelectField(item.id, STATUS_FIELD_ID, REVIEW_OPTION_ID));
+        }
+        break;
+      default:
+        console.error('Bad change request status', request.status);
     }
   }
+
   if (changes.length > 0) {
     console.warn(tool.title, JSON.stringify(changed));
     console.log(graphql.mutation(changes));

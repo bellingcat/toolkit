@@ -356,11 +356,26 @@ async function createTeam(name) {
   return data;
 }
 
-async function fetchChangeRequests(space) {
-  const data = await apiCall(`https://api.gitbook.com/v1/spaces/${space.id}/change-requests`, {
+async function fetchMergedChangeRequests(space) {
+  const data = await apiCall(`https://api.gitbook.com/v1/spaces/${space.id}/change-requests?` + new URLSearchParams({ status: 'merged', limit: 1}), {
     method: 'GET'
   });
   return data;
+}
+async function fetchOpenChangeRequests(space) {
+  const data = await apiCall(`https://api.gitbook.com/v1/spaces/${space.id}/change-requests?` + new URLSearchParams({ status: 'open', limit: 1}), {
+    method: 'GET'
+  });
+  return data;
+}
+async function fetchLatestChangeRequest(space) {
+  const openChangeRequests = await fetchOpenChangeRequests(space);
+  let request = openChangeRequests.items[0];
+  if (!request) {
+    const mergedChangeRequests = await fetchMergedChangeRequests(space);
+    request = mergedChangeRequests.items[0];
+  }
+  return request;
 }
 
 async function fetchChangeRequestReviewers(space, changeRequest) {
@@ -407,8 +422,8 @@ export default {
   createToolOnGitbook,
   fetchTeams,
   fetchSpaces,
-  fetchChangeRequests,
   fetchChangeRequestReviewers,
+  fetchLatestChangeRequest,
   fetchCollection,
   findSpace,
   publishTool,
