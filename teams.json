@@ -13,6 +13,18 @@
   },
   {
     "object": "team",
+    "id": "09qUIFpdENYWOBNK8AJA",
+    "title": "US custody databases",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-10-30T16:56:53.424Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
     "id": "0PwHSqQV7tXnrA7Ij7Pp",
     "title": "ImportGenius",
     "members": 1,
@@ -697,6 +709,18 @@
   },
   {
     "object": "team",
+    "id": "BcZljhOTL3wDnhmSCdFk",
+    "title": "US court case databases",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-10-30T16:48:49.962Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
     "id": "Bs75ftG9ExvdyIGql2jP",
     "title": "Internet Archive",
     "members": 1,
@@ -1230,6 +1254,18 @@
     "members": 1,
     "spaces": 1,
     "createdAt": "2025-06-30T09:42:40.107Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "JrIRzu15HiFIC4RyBKjB",
+    "title": "Darkside",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-10-28T12:40:38.040Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2905,6 +2941,18 @@
   },
   {
     "object": "team",
+    "id": "nK9IT6ws3phOfFie4hXE",
+    "title": "OSoMeNet",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-10-24T17:53:04.901Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
     "id": "nOVJpjZ69hF01fB4zPTu",
     "title": "FleetMon",
     "members": 2,
@@ -3541,6 +3589,18 @@
   },
   {
     "object": "team",
+    "id": "xnJ9mHO5uXFn269X7Yl3",
+    "title": "Spectator Earth",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2025-10-24T17:20:03.277Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
     "id": "xsa1bEWGINGp6TZfHc3P",
     "title": "Open Infrastructure Map",
     "members": 2,
@@ -3642,66 +3702,6 @@
     "members": 1,
     "spaces": 1,
     "createdAt": "2024-03-28T16:53:42.448Z",
-    "permissions": {
-      "admin": true,
-      "view": true
-    }
-  },
-  {
-    "object": "team",
-    "id": "xnJ9mHO5uXFn269X7Yl3",
-    "title": "Spectator Earth",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-10-24T17:20:03.277Z",
-    "permissions": {
-      "admin": true,
-      "view": true
-    }
-  },
-  {
-    "object": "team",
-    "id": "nK9IT6ws3phOfFie4hXE",
-    "title": "OSoMeNet",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-10-24T17:53:04.901Z",
-    "permissions": {
-      "admin": true,
-      "view": true
-    }
-  },
-  {
-    "object": "team",
-    "id": "JrIRzu15HiFIC4RyBKjB",
-    "title": "Darkside",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-10-28T12:40:38.040Z",
-    "permissions": {
-      "admin": true,
-      "view": true
-    }
-  },
-  {
-    "object": "team",
-    "id": "BcZljhOTL3wDnhmSCdFk",
-    "title": "US court case databases",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-10-30T16:48:49.962Z",
-    "permissions": {
-      "admin": true,
-      "view": true
-    }
-  },
-  {
-    "object": "team",
-    "id": "09qUIFpdENYWOBNK8AJA",
-    "title": "US custody databases",
-    "members": 0,
-    "spaces": 0,
-    "createdAt": "2025-10-30T16:56:53.424Z",
     "permissions": {
       "admin": true,
       "view": true
