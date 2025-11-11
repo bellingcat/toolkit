@@ -40,8 +40,8 @@ const MERGED_OPTION_ID = field("Status").options.find(byName("Merged")).id;
 const PUBLISHED_TRUE_OPTION_ID=field("Published").options.find(byName("True")).id;
 const COLLECTION_FIELD_ID = field("Collection").id;
 
-function getField(field, item) {
-  return item.fieldValues.nodes.find((node) => node.field.name === field) || {};
+function getField(fieldName, item) {
+  return item.fieldValues.nodes.find((node) => node.field.name === fieldName) || {};
 }
 function formatDate(dateString) {
   var date = new Date(dateString);
