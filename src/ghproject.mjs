@@ -38,6 +38,7 @@ const TITLE_FIELD_ID = field("Title").id;
 const REVIEW_OPTION_ID = field("Status").options.find(byName("Review Requested")).id;
 const MERGED_OPTION_ID = field("Status").options.find(byName("Merged")).id;
 const PUBLISHED_TRUE_OPTION_ID=field("Published").options.find(byName("True")).id;
+const COLLECTION_FIELD_ID = field("Collection").id;
 
 function getField(field, item) {
   return item.fieldValues.nodes.find((node) => node.field.name === field) || {};
@@ -60,6 +61,7 @@ const items = JSON.parse(fs.readFileSync(projectItemsFilename, 'utf-8')).map(fun
     toolId: getField("Tool ID", item).text,
     changeRequestAuthor: getField("CR Author", item).text,
     reviewers: getField("CR Reviewers", item).text,
+    collection: getField("Collection", item).text,
   }
 });
 
@@ -67,10 +69,10 @@ tools.forEach(async function(tool) {
   let changed = {};
   let changes = [];
   const space = findSpace(tool.title);
-  const collection = fetchCollection(space.parent);
   if (!space) {
     return;
   }
+  const collection = await fetchCollection(space.parent);
   const item = items.find((item) => item.toolId === tool.filename);
   if (!item) {
     console.error("No gh project item for tool", tool.title);
@@ -84,6 +86,10 @@ tools.forEach(async function(tool) {
   if (item.space !== space.urls.app) {
     changed.space = space.urls.app;
     changes.push(graphql.setTextField(item.id, SPACE_FIELD_ID, space.urls.app));
+  }
+  if (item.collection !== collection.title) {
+    changed.collection = collection.title;
+    changes.push(graphql.setTextField(item.id, COLLECTION_FIELD_ID, collection.title));
   }
 
   if (tool.updated && item.updatedAt !== tool.updated) {
