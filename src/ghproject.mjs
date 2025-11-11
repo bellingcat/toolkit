@@ -3,7 +3,7 @@ import path from 'path'
 import pkg from './paths.mjs'
 const {getTools, getSummary} = pkg;
 import pkg2 from './tools.mjs'
-const {fetchChangeRequests, fetchChangeRequestReviewers, findSpace} = pkg2
+const {fetchCollection, fetchChangeRequests, fetchChangeRequestReviewers, findSpace} = pkg2
 import graphql from './graphql.mjs';
 
 if (process.argv.length !== 4) {
@@ -67,6 +67,7 @@ tools.forEach(async function(tool) {
   let changed = {};
   let changes = [];
   const space = findSpace(tool.title);
+  const collection = fetchCollection(space.parent);
   if (!space) {
     return;
   }

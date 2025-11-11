@@ -155,6 +155,12 @@ async function fetchSpaces(page='', collectionId='jQKvylm6WgaH5IFrlIMh') {
   return results;
 }
 
+async function fetchCollection(collectionId) {
+  return await apiCall(`https://api.gitbook.com/v1/collections/${collectionId}`, {
+    method: 'GET',
+  });
+}
+
 async function _fetchCollections(page='') {
   const data = await apiCall(`https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/collections?` + new URLSearchParams({ nested: true, page: page}), {
     method: 'GET',
@@ -403,6 +409,7 @@ export default {
   fetchSpaces,
   fetchChangeRequests,
   fetchChangeRequestReviewers,
+  fetchCollection,
   findSpace,
   publishTool,
   removeTool,
