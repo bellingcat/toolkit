@@ -142,7 +142,7 @@ tools.forEach(async function(tool) {
     }
     if (item.url !== request.urls.app) {
       changed.url = request.urls.app;
-      changes.push(graphql.setTextField(FIELDS.url.id, request.urls.app));
+      changes.push(graphql.setTextField(item.id, FIELDS.url.id, request.urls.app));
     }
 
     switch (request.status) {
