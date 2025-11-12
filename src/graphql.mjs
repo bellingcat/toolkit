@@ -18,10 +18,14 @@ function setSelectField(itemId, fieldId, value) {
   return setField(itemId, fieldId, 'singleSelectOptionId', value);
 }
 function setDateField(itemId, fieldId, value) {
-  var dateString = (new Date(value)).toISOString().replace(/T.*/,'');
+  var dateString = formatDate(value);
   return setField(itemId, fieldId, 'date', dateString);
 }
+function formatDate(date) {
+  return (new Date(value)).toISOString().replace(/T.*/,'');
+}
 export default {
+  formatDate,
   mutation,
   setDateField,
   setSelectField,

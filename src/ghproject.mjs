@@ -136,9 +136,10 @@ tools.forEach(async function(tool) {
       }
     }
 
-    if (item.date_submitted !== request.updatedAt) {
-      changed.date_submitted = request.updatedAt
-      changes.push(graphql.setDateField(item.id, FIELDS.date.id, request.updatedAt));
+    const date = graphql.formatDate(request.udpatedAt);
+    if (item.date_submitted !== date) {
+      changed.date_submitted = date
+      changes.push(graphql.setDateField(item.id, FIELDS.date.id, date));
     }
     if (item.url !== request.urls.app) {
       changed.url = request.urls.app;
