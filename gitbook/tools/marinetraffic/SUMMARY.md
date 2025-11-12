@@ -1,5 +1,5 @@
 # Table of contents
 
-* [MarineTraffic#](README.md)
+* [MarineTraffic](README.md)
 * [Categories](categories.md)
 * [Regions](regions.md)
