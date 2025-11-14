@@ -65,7 +65,7 @@ const items = (function processProjectItems() {
       title: getField(FIELDS.title.name, item).text,
       status: getField(FIELDS.status.name, item).name,
       published: getField(FIELDS.published.name, item).name,
-      date_submitted: getField(FIELDS.date.name, item).date,
+      submittedAt: getField(FIELDS.date.name, item).date,
       url: getField(FIELDS.url.name, item).text,
       updatedAt: getField(FIELDS.updatedAt.name, item).date,
       space: getField(FIELDS.space.name, item).text,
@@ -136,10 +136,10 @@ tools.forEach(async function(tool) {
       }
     }
 
-    const date = graphql.formatDate(request.udpatedAt);
-    if (item.date_submitted !== date) {
-      changed.date_submitted = date
-      changes.push(graphql.setDateField(item.id, FIELDS.date.id, date));
+    const dateString = graphql.formatDate(request.udpatedAt);
+    if (item.submittedAt !== dateString) {
+      changed.submittedAt = dateString
+      changes.push(graphql.setDateField(item.id, FIELDS.date.id, dateString));
     }
     if (item.url !== request.urls.app) {
       changed.url = request.urls.app;
