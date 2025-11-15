@@ -136,7 +136,7 @@ tools.forEach(async function(tool) {
       }
     }
 
-    const dateString = graphql.formatDate(request.udpatedAt);
+    const dateString = graphql.formatDate(request.updatedAt);
     if (item.submittedAt !== dateString) {
       changed.submittedAt = dateString
       changes.push(graphql.setDateField(item.id, FIELDS.date.id, dateString));
