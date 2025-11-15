@@ -21,7 +21,7 @@ function setDateField(itemId, fieldId, value) {
   var dateString = formatDate(value);
   return setField(itemId, fieldId, 'date', dateString);
 }
-function formatDate(date) {
+function formatDate(value) {
   return (new Date(value)).toISOString().replace(/T.*/,'');
 }
 export default {
