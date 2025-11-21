@@ -91,4 +91,3 @@ Google
 | Page maintainer |
 | --------------- |
 | Arsen Drobakha  |
-|                 |
