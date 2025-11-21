@@ -1,5 +1,5 @@
 ---
-description: A brief one line description of this tool
+description: An AI powered expansive research/learning tool
 ---
 
 # NotebookLM
