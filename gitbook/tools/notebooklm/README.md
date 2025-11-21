@@ -6,7 +6,7 @@ description: A brief one line description of this tool
 
 ## URL
 
-https://example.com
+[https://notebooklm.google.com/](https://notebooklm.google.com/)
 
 ## Description
 
