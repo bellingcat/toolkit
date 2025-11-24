@@ -74,21 +74,19 @@ To get the best results, it is helpful to know how the search bar works. The sea
 
 It also handles logical combinations of attributes, such as “Chinese fuze” or “81mm mortar,” as well as exact model designations such as “type 58 landmine.” It returns results when keywords appear in either the description or title. Partial words (i.e. “frag” for fragmentation) will also return results.
 
-The system also seems to search the description for physical characteristics (also known as identifiers) if available. "Identifiers" can refer to distinctive markings (manufacturer stamps, lot numbers), number or arrangement of holes or attachment points, grooves or bands on the casing, tail shape, or colors.&#x20;
+The system also seems to search the description for physical characteristics (also known as identifiers) if available. "Identifiers" can refer to distinctive markings (manufacturer stamps, lot numbers), number or arrangement of holes or attachment points, grooves or bands on the casing, tail shape, or colors.
 
-Example: Searching for an identifier such as "Yellow band" generated results of EO types containing that physical feature&#x20;
+Example: Searching for an identifier such as "Yellow band" generated results of EO types containing that physical feature
 
 {% hint style="success" %}
-**TIPS FOR SEARCHING:**&#x20;
+**TIPS FOR SEARCHING:**
 
-1. **Terminology matters:** Based on our own tests, the database appears to mostly index content using standardized military/technical naming conventions rather than casual language variations.&#x20;
+1. **Terminology matters:** Based on our own tests, the database appears to mostly index content using standardized military/technical naming conventions rather than casual language variations.
 
 Example: “anti-tank” ([the common EO term referring to a purpose or function of ordnance)](https://www.smallarmssurvey.org/sites/default/files/resources/SAS-Research-Note-16.pdf) returns more results than “anti tank” without the hyphen since it’s more likely to appear in formal descriptions.
 
 2. **Foreign Language Search:** Based on our tests, it can search using the Cyrillic alphabet if the characters appear in the title or description.
 {% endhint %}
-
-
 
 #### DROP-DOWN FILTERING OPTIONS
 
@@ -96,7 +94,11 @@ The interface also uses GUI-driven filtering without Boolean operators. This all
 
 <figure><img src=".gitbook/assets/2025-09-15_09-44-27-ed.png" alt=""><figcaption><p>Search results can be further refined by more filtering options, as seen above the search results. Once a user has entered the results page for the initial query, a filtering option becomes available.</p></figcaption></figure>
 
-An additional list of filtering options can be found in the expandables below.
+An additional list of filtering options can be found in the expandable below.&#x20;
+
+{% hint style="info" %}
+Note that these lists may change and be updated.&#x20;
+{% endhint %}
 
 <details>
 
@@ -332,9 +334,9 @@ Unknown
 
 <details>
 
-<summary>List of "Country of Origin" filter varies based on the type of  explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
+<summary>List of "Country of Origin" filter varies based on the type of explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
 
-_Click on each type of EO, then navigate to the filtering section._&#x20;
+_Click on each type of EO, then navigate to the filtering section._
 
 Afghanistan, Albania, Argentina, Armenia, Australia, Austria, Azerbaijan, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Canada, Chile, China, Christmas Island, Colombia, Congo (DRC), Croatia, Cuba, Czech Republic, Denmark, Egypt, Estonia, Finland, France, Germany, Greece, Hungary, India, Iran, Iraq, Ireland, Israel, Italy, Japan, Lebanon, Montenegro, Myanmar, Netherlands, North Korea, Norway, Pakistan, Peru, Philippines, Poland, Portugal, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sweden, Switzerland, Syria, Taiwan, Thailand, Turkey, Ukraine, United Arab Emirates, United Kingdom, United States of America, Unknown, Various, Vietnam, Yemen, Yugoslavia, Zimbabwe
 
@@ -346,11 +348,11 @@ Afghanistan, Albania, Argentina, Armenia, Australia, Austria, Azerbaijan, Belgiu
 
 <summary>List of "Country Used In" filter varies based on the type of explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
 
-_Click on each type of EO, then click on the drop-down menu._  &#x20;
+_Click on each type of EO, then click on the drop-down menu._
 
 Afghanistan, Albania, Algeria, Angola, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahrain, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bermuda, Bhutan, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Brunei Darussalam, Bulgaria, Burkina Faso, Burundi, Cambodia, Cameroon, Canada, Cape Verde, Central African Republic, Chad, Chechnya, Chile, China, Colombia, Congo (DRC), Costa Rica, Croatia, Cuba, Cyprus, Czech Republic, Denmark, Djibouti, Ecuador, Egypt, El Salvador, Eritrea, Estonia, Ethiopia, Falkland Island, Finland, France, Gambia, Georgia, Germany, Ghana, Greece, Grenada, Guatemala, Guinea-Bissau, Honduras, Hong Kong, Hungary, Iceland, India, Indonesia, Iran, Iraq, Ireland, Israel, Italy, Ivory Coast, Jamaica, Japan, Jordan, Kazakhstan, Kenya, Kosovo, Kurdistan, Kuwait, Kyrgyzstan, Laos, Latvia, Lebanon, Liberia, Libya, Lithuania, Luxembourg, Macedonia, Madagascar, Malawi, Malaysia, Mali, Malta, Mauritania, Mexico, Moldova, Monaco, Mongolia, Morocco, Mozambique, Myanmar, Namibia, Nepal, Netherlands, New Zealand, Nicaragua, Niger, Nigeria, North Korea, Norway, Oman, Pakistan, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Qatar, Romania, Russia, Rwanda, Saudi Arabia, Senegal, Serbia, Sierra Leone, Singapore, Slovakia, Slovenia, Somalia, South Africa, South Korea, South Sudan, Spain, Sri Lanka, Sudan, Sweden, Switzerland, Syria, Taiwan, Tajikistan, Tanzania, Thailand, Tunisia, Turkey, Turkmenistan, Uganda, Ukraine, United Arab Emirates, United Kingdom, United States of America, Unknown, Uruguay, Uzbekistan, Various, Venezuela, Vietnam, Western Sahara, Yemen, Yugoslavia, Zambia, Zimbabwe
 
-**Misc categories:** Various, Unknown&#x20;
+**Misc categories:** Various, Unknown
 
 </details>
 
@@ -358,7 +360,7 @@ Afghanistan, Albania, Algeria, Angola, Argentina, Armenia, Australia, Austria, A
 
 <summary>"Diameter" filter varies based on the type of explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
 
-_Click on each type of EO, then click on the drop-down menu._  &#x20;
+_Click on each type of EO, then click on the drop-down menu._
 
 Input options: From 5.56 mm to 1,700 mm
 
@@ -368,7 +370,7 @@ Input options: From 5.56 mm to 1,700 mm
 
 <summary>"Length" filter varies based on the type of explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
 
-_Click on each type of EO, then click on the drop-down menu._  &#x20;
+_Click on each type of EO, then click on the drop-down menu._
 
 Input options: From 0.87 mm to 72,500 mm
 
@@ -378,7 +380,7 @@ Input options: From 0.87 mm to 72,500 mm
 
 <summary>"Height" filter varies based on the type of explosive hazard <mark style="color:orange;">(CLICK TO EXPAND)</mark></summary>
 
-_Click on each type of EO, then click on the drop-down menu._&#x20;
+_Click on each type of EO, then click on the drop-down menu._
 
 Input options: 7 mm to 4,000 mm
 
@@ -428,7 +430,7 @@ Note on Accuracy:
 5. Images of intact EO vs. Remnants of EO – The site has limited images of EO on the battlefield or that are shown in fragments. Open-source investigators who look at social media to determine types of EO used in conflict are usually confronted with pieces of EO fragments or partial images. They are most likely seeing EO partially buried or obscured in conflict zones. It is helpful to filter based on what can be observed in this limited context, such as color, shape, and markings. However, to mitigate this, paid users can sometimes access additional information from contributors/other paid members, which may include social media images from conflict zones or images that show EO in partial form.
 6. No offline functionality - Absence of an offline version creates challenges for field users with limited connectivity (unlike, for example, [Bulletpicker.com](https://bellingcat.gitbook.io/toolkit/more/all-tools/bulletpicker.com))
 7. It's unclear what quality requirements CAT-UXO has for contributors or how they review information before adding it to the database.
-8. Possible Gaps in Country Coverage and Documentation - At the time of the current update, the tool covers about 71 manufacturing countries and approximately 165 countries where the EO are/were used. The tool has collated information from a representative list of conflict zones. However, it is possible that not all countries are equally documented. Some countries have more data than others.&#x20;
+8. Possible Gaps in Country Coverage and Documentation - At the time of the current update, the tool covers about 71 manufacturing countries and approximately 165 countries where the EO are/were used. The tool has collated information from a representative list of conflict zones. However, it is possible that not all countries are equally documented. Some countries have more data than others.
 
 ## Ethical Considerations
 
