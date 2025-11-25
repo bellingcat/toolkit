@@ -17,7 +17,13 @@ Users can discover posts from specific geographic areas by utilizing X's built-i
 
 ### How does it work?
 
-Understanding how location data is incorporated into the platform is key to effectively leveraging location-based searches. [According to X](https://help.x.com/en/using-x/post-location), users have the option to share location details on posts. The platform seems to figure out where a tweet is from by looking at a few things: (1) The location information a user provides, (2) Guessing by user profile (3) Using a user’s device location, if enabled.&#x20;
+Understanding how location data is incorporated into the platform is key to effectively leveraging location-based searches. [According to X](https://help.x.com/en/using-x/post-location), users have the option to share location details on posts. The platform seems to figure out where a tweet is from by looking at a few things:&#x20;
+
+(1) the location information a user provides,&#x20;
+
+(2) guessing by user profile,
+
+(3) using a user’s device location, if enabled.&#x20;
 
 #### _**Self-reported location vs. Profile location**_&#x20;
 
@@ -33,7 +39,7 @@ X frequently uses these two types of location data.&#x20;
 
 #### _**Location from the user's device**_
 
-&#x20;If users choose to turn on location settings on their devices, X can[ identify ](https://developer.x.com/en/docs/x-api/v1/geo/places-near-location/api-reference/get-geo-search)the GPS coordinates of this device at the time of the post. This is particularly helpful when users want to take advantage of the search results near their respective locations.
+&#x20;If users choose to enable location settings on their devices, X can[ identify ](https://developer.x.com/en/docs/x-api/v1/geo/places-near-location/api-reference/get-geo-search)the GPS coordinates of this device at the time of the post. This is particularly helpful when users want to take advantage of the search results near their respective locations.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-07-29 024311.png" alt="" width="375"><figcaption><p>If you're looking to find posts near your current location, there's a quicker method available. Use the “posts near me” location feature. Here are the steps: Open X on a browser or the mobile app, and enter a hashtag or search term. Choose “Near you” under the “Location” heading to filter the search results to show only posts from nearby.</p></figcaption></figure>
 
@@ -76,7 +82,7 @@ Open-source researchers may find this tool helpful for tracking crises and event
 
 ## Limitations
 
-1. **Reliance on User’s Report of Data/Location Spoofing**
+1. **The Reliance on the Users’ Reports of Data/Location Spoofing**
 
 Self-reported location affects the reliability of results in two ways primarily: (1) Incomplete data set: X relies on users to share their location, but many don't. This means location data can be incomplete. (2) Location spoofing: it is possible that users report an incorrect or misleading location. And because the location is entered manually, it can be easy to fake this information. It's essential to remember that X's location estimates aren't always accurate.
 
@@ -118,8 +124,7 @@ See Bellingcat’s Case Study into tweets during the COVID-19 crisis in India, s
 
 * [ ] This tool has not been checked for advertising trackers yet.&#x20;
 * [ ] This tool uses tracking cookies. Use with caution.
-* [x] This tool does not appear to use tracking cookies.\
-
+* [x] This tool does not appear to use tracking cookies.<br>
 
 | Page Maintainer |
 | --------------- |
