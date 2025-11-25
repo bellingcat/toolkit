@@ -14,7 +14,7 @@ description: >-
 
 ## Description
 
-The Telegram Phone Number Checker is a Python-based command line tool that takes phone numbers and uses the Telegram API to find information about the number. It does this by trying to add the number as a contact on your Telegram account.
+The Telegram Phone Number Checker is a Python-based command-line tool that takes phone numbers and uses the Telegram API to find information about the number. It does this by trying to add the number as a contact on your Telegram account.
 
 When investigating a phone number of interest, this tool may help a user find more information about the owner of the phone number.\
 \
@@ -56,7 +56,7 @@ To mitigate this risk, it is recommended to avoid using your personal account wi
 
 ## Ethical Considerations
 
-It is possible to gain access to people's names and images using this tool, and should be used as part of tightly scoped investigations. Users should be cautious not to disclose personal information about individuals they are investigating when sharing their findings.&#x20;
+It is possible to gain access to people's names and images using this tool, and it should be used as part of tightly scoped investigations. Users should be cautious not to disclose personal information about individuals they are investigating when sharing their findings.&#x20;
 
 ## Guides and articles
 
