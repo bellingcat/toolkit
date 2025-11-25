@@ -1,16 +1,18 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  grep.app is a free web-based search engine that allows users to search the
+  contents of public GitHub repositories.
 ---
 
 # Grep.app
 
 ## URL
 
-https://example.com
+[https://grep.app/](https://grep.app/)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+grep.app is a free web-based search engine that allows users to search the contents of public GitHub repositories using keywords or regular expressions (regex). It is primarily used by developers, security researchers, and OSINT investigators to locate code snippets, context data, or sensitive information that may have been committed to public repositories.
 
 ## Cost
 
@@ -18,43 +20,68 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+N/A – No account required to search
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+Public Repositories Only: grep.app can only search code that is publicly available on GitHub. Any private repositories, internal servers, or non-GitHub codebases are not accessible.
+
+Incomplete Indexing: Not all public repositories are indexed immediately. Some updates or smaller repos may not appear in searches.
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+Attribution Accuracy: Code matches do not necessarily prove authorship.
+
+Sensitive Information: Credentials and other private information may be included in public repositories.
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+Use the main page to search for key words or regex. You can use this to search for domains, companies, contact details, code, and much more.
+
+There are options on the right side of the search bar: Match case, Match whole words, and Use regular expression.
+
+You can also toggle Compact or Expanded view in the top right corner to change how much peripheral context is included in the results.
+
+
+
+Key word search example - searching for code referencing "Bellingcat".
+
+<figure><img src=".gitbook/assets/grep1.png" alt=""><figcaption></figcaption></figure>
+
+
+
+Regex search example - searching a Twitter repository for email addresses.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Regex syntax guidance: [https://github.com/google/re2/wiki/Syntax](https://github.com/google/re2/wiki/Syntax)
+
+Each result shows a snippet of matching code, the repository name and the file path. Click the filename to view it directly on GitHub.
+
+You can filter results by Repository, Path and/or Programming Language using the left hand panel.&#x20;
+
+Tip: Use the GitHub link to check commit history, contributors, and issues for further context.
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+Vercel Inc. (USA) - Cloud application company that provides developer tools, frameworks, and cloud infrastructure to build and maintain websites.
 
 ## Similar tools
 
-\[\[Compare this tool with similar tools which can be used for the same research purpose. What are the strengths and weaknesses of each tool?]]
+No other tools listed with the same purpose... yet!
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer |
+| --------------- |
+| Freya           |
