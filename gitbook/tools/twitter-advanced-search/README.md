@@ -204,14 +204,6 @@ The research process of open-source researchers is often iterative. We often sta
 
 Using different combinations of parameters, such as locations, languages, and hashtags in Advanced Search, is beneficial during this evolving process. It allows investigators to refine their search queries throughout the research process continuously.
 
-### Radar
-
-As of Oct 18, 2024, [X launche](https://x.com/premium/status/1847338164412960802?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1847338164412960802%7Ctwgr%5Ef5e8ad612c44f76b06a5eb49d841c99bd0e3b8b1%7Ctwcon%5Es1_\&ref_url=https%3A%2F%2Ftechcrunch.com%2F2024%2F10%2F21%2Fx-rolls-out-its-real-time-search-tool-radar-to-premium-subscribers%2F)[d](https://x.com/premium/status/1847338164412960802?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1847338164412960802%7Ctwgr%5Ef5e8ad612c44f76b06a5eb49d841c99bd0e3b8b1%7Ctwcon%5Es1_\&ref_url=https%3A%2F%2Ftechcrunch.com%2F2024%2F10%2F21%2Fx-rolls-out-its-real-time-search-tool-radar-to-premium-subscribers%2F) a real-time search and analysis tool called "Radar". However, this is only available to Premium+ subscribers, and this is so far an early version. It is a feature that was previously available to businesses and was formerly known as "Insights." [It claims to allow account holders to track topics and trends in real-time.](https://web.swipeinsight.app/posts/x-expands-radar-access-real-time-trend-analysis-tool-for-premium-users-11939) According to [TechCrunch](https://techcrunch.com/2024/10/21/x-rolls-out-its-real-time-search-tool-radar-to-premium-subscribers/?guccounter=1\&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8\&guce_referrer_sig=AQAAAHGYJM6G7eP7gNxD5RPmmGqFmcTuiKDJaUCDUeihLCuq_1HXhEoG897iZ3OZGqQHXuHe7vwZWKdDljXzXkiJjJPGXFjACfjbS_Up7YW37YR7581V3BZI-N64ou8laovrZAIQGkhTy-kP6DAOvpx8_Qk2jgwgm1ARWBKhPnN7zqqo), this could "perform keyword analyses, visualize trend activity, and filter conversations in real-time". According to this source, one of its "Core Features" is to track conversation volume over time and conversation velocity.
-
-We are unable to test this paid feature at the moment, but a short demo is available here: https://x.com/premium/status/1847338164412960802 and here: https://x.com/premium/status/1848510511916494970
-
-Based on this[ user's testing](https://x.com/VijarKohli/status/1848133497602322676), Radar cannot search beyond 3 days at the moment and cannot subfilter using keywords or using accounts.
-
 ## Cost
 
 * [x] Free
@@ -272,7 +264,18 @@ One can also use the search bar using keywords, and click on the Media tab under
 
 ## Ethical Considerations
 
+Existing Biases: Users have a responsibility to be aware of their own biases and to seek out diverse viewpoints when using advanced search tools actively.
 
+Verification and Source Evaluation: Critically evaluating the source and credibility of information found through advanced search is crucial to avoid spreading misinformation.
+
+Data Privacy and Responsible Search Practices:
+
+* Be Mindful of Exposed Information: Advanced search results, especially for media content (photos, videos), can inadvertently reveal personal information like faces, locations, or identifying details.
+* Minimize Privacy Risks: When incorporating search results into reports, be cautious not to include any information that could compromise someone's privacy. Consider techniques like blurring faces or redacting sensitive details.
+
+Transparency with Users: If your research involves searching for potentially sensitive information, be transparent with users about the data collection practices involved and obtain their informed consent before proceeding.
+
+Verification and Source Evaluation: Critically evaluating the source and credibility of information found through advanced search is crucial to avoid spreading misinformation.
 
 ## Guide
 
