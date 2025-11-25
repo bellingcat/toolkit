@@ -241,8 +241,7 @@ TGStat was also used to analyze the far reaching influence of Telegram communiti
 
 According to[ TGStat’s website](https://tgstat.ru/agreement), these are the administrator’s details:
 
-Name: Individual entrepreneur Kizhikin Yuriy Aleksandrovich, Russia.\
-e-mail: ceo@tgstat.ru
+Name: Individual entrepreneur Kizhikin Yuriy Aleksandrovich, Russia.
 
 ### Advertising Trackers
 
