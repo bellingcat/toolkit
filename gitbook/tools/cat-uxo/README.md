@@ -94,10 +94,10 @@ The interface also uses GUI-driven filtering without Boolean operators. This all
 
 <figure><img src=".gitbook/assets/2025-09-15_09-44-27-ed.png" alt=""><figcaption><p>Search results can be further refined by more filtering options, as seen above the search results. Once a user has entered the results page for the initial query, a filtering option becomes available.</p></figcaption></figure>
 
-An additional list of filtering options can be found in the expandable below.&#x20;
+An additional list of filtering options can be found in the expandable below.
 
 {% hint style="info" %}
-Note that these lists may change and be updated.&#x20;
+Note that these lists may change and be updated.
 {% endhint %}
 
 <details>
@@ -385,6 +385,40 @@ _Click on each type of EO, then click on the drop-down menu._
 Input options: 7 mm to 4,000 mm
 
 </details>
+
+### Offline Version On The Mobile App
+
+For those who want to use CAT-UXO in remote areas or those experiencing connectivity issues, the mobile app may be used.&#x20;
+
+However, based on our tests, there is no offline version of the whole catalogue. Instead users can download one item at a time, instead of in bulk. To do this:
+
+{% stepper %}
+{% step %}
+**Open the CAT-UXO mobile app while you have an internet connection**
+
+Navigate to the EO Category of interest or the item of interest. Look for the cloud icon highlighted below.&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot_20251124-094341.png" alt="" width="375"><figcaption></figcaption></figure>
+
+
+{% endstep %}
+
+{% step %}
+**Click on the cloud icon to begin downloading**&#x20;
+
+Once downloaded, the cloud icon will switch from white to black. Users will see a confirmation at the bottom of the screen as shown in the image below.&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot_20251124-094354.png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+**Downloaded items are now available offline.**
+
+To check the downloaded items, turn off your internet connection and open the CAT-UXO app. Users will see a black cloud icon on each EO category. Click on each category to double check.&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot_20251124-094418.png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+{% endstepper %}
 
 ## Cost
 
