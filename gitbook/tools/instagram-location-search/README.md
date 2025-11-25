@@ -18,18 +18,18 @@ or
 
 Instagram Location Search is a tool that helps users find Instagram location IDs near specified coordinates. It uses Instagram's API to retrieve location data.&#x20;
 
-Open-source investigators can use this Python-based command-line tool to get geolocation leads on Instagram's platform or to search for photos or videos of an incident under investigation.&#x20;
+Open-source investigators can use this Python-based command-line tool to obtain geolocation leads on Instagram or to search for photos or videos of an incident under investigation.&#x20;
 
 ### What Problem Does It Solve?
 
-When looking for media from a particular location, searching for just an address or the name of a location on Instagram can be confusing, especially for popular spots. The problem is that Instagram suggests an abundance of location options for a single place (see [video](https://www.youtube.com/watch?v=equWt9Dq5b0) at 1:11).
+When looking for media from a particular location, searching for just an address or the name of a location on Instagram can be confusing, especially for popular spots. The problem is that Instagram suggests too many location options for a single place (see the [video](https://www.youtube.com/watch?v=equWt9Dq5b0) at 1:11).
 
 This could mean the investigator will have to manually compile a list of all those possible locations and then potentially sift through the individual location tags to look for media.
 
 <figure><img src=".gitbook/assets/ScreenRecording2024-09-15195317-ezgif.com-censor.gif" alt="" width="563"><figcaption><p>This is an example of a post of Bayon Temple, a popular tourist destination in Siem Reap, Cambodia. However, the challenge is that when a user tags the image, various location suggestions appear. Searching for relevant media through individual location tags is inefficient and may risk excluding pertinent potential images/videos for the investigation.</p></figcaption></figure>
 
 1. This tool solves the problem of efficiency. Instagram Location Search casts a broader net by compiling all the location tags near a set of coordinates along with their respective links to Instagram’s Explore page.
-2. This tool also addresses the issue of exporting data in various output formats tailored to the individual needs of the investigator.
+2. This tool also addresses the issue of exporting data in various output formats tailored to the investigator's individual needs.
 
 <details>
 
@@ -85,7 +85,7 @@ Chrome Browser
 
 Instagram Account
 
-Some beginner understanding of command line tools
+command-lineSome beginner understanding of command-line tools
 
 ## Limitations
 
@@ -93,7 +93,7 @@ Some beginner understanding of command line tools
 
 One of the tool's limitations is that users are required to have a fundamental knowledge of both the command line and Python programming. Without this, they may struggle with basic operations and troubleshooting. However, simple guides are available.
 
-2. Potential flagging of user account
+2. Potential flagging of the user account
 
 Using Bellingcat's Instagram location search tool may pose certain risks. As mentioned above, granting access to your Instagram account through this tool could potentially violate Instagram’s Terms of Service, which might result in your account being flagged or suspended. Mitigate by using a dedicated research account.
 
