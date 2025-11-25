@@ -18,7 +18,7 @@ GPSJam.org is a website that provides information on GPS interference on aircraf
 {% hint style="info" %}
 NOTE:
 
-[GNSS (Global Navigation Satellite System)](https://eos-gnss.com/knowledge-base/gps-overview-1-what-is-gps-and-gnss-positioning) is an umbrella term that refers to any satellite navigation system that provides global coverage. It's a broader category that includes all satellite-based positioning systems. Examples: GPS (Global Positioning System) (United States), GLONASS (Russia), Galileo (European Union), BeiDou (China).
+[GNSS (Global Navigation Satellite System)](https://eos-gnss.com/knowledge-base/gps-overview-1-what-is-gps-and-gnss-positioning) is an umbrella term that refers to any satellite navigation system that provides global coverage. It's a broader category that includes all satellite-based positioning systems. Examples: [GPS (Global Positioning System) (United States)](https://www.gps.gov/), [GLONASS (Russia)](https://glonass-iac.ru/en/about_glonass/), [Galileo (European Union)](https://galileognss.eu/), [BeiDou (China).](http://en.beidou.gov.cn/SYSTEMS/System/)
 {% endhint %}
 
 ### How does it work?
@@ -156,7 +156,6 @@ _“Bad planes”_ are planes experiencing GPS issues.
 
 To figure out the color of the hex, the tool calculates a percentage based on the ratio of good planes to bad planes within that zone. If a lot of planes have GPS problems, the percentage of bad planes will be higher, turning the hex yellow or red. If most planes are fine, the hex stays green.
 
-\
 However, here’s the catch: in areas with very few planes, a single bad GPS reading could make it seem like there’s a serious issue, even if it’s just a one-off problem. To correct for this, they subtract one "bad plane" from the total count to reduce false alarms in zones with fewer planes.
 
 The downside of this process is that in areas with very few planes, this adjustment may cause the system to miss real problems because there is not enough data to confidently indicate that something is wrong.
@@ -177,9 +176,11 @@ In short, they balance showing accurate issues without overreacting to random ba
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
+
+Google Fonts can be found on this website, which is considered a "hosting" tracker by Ghostery. Some may indicate that this has potential privacy implications since [Google logs IP addresses, browser details without user consent ](https://www.theregister.com/2022/01/31/website_fine_google_fonts_gdpr/)(para 3) when loading fonts from Google servers, it may create a profile of the individual's browsing profile.  According to [this German court case](https://thehackernews.com/2022/01/german-court-rules-websites-embedding.html),  websites embedding Google Fonts violates the GDPR.&#x20;
 
 | Page maintainer |
 | --------------- |
