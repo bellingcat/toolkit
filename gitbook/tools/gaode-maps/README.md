@@ -1,8 +1,8 @@
 ---
+updated: '2025-08-19'
 description: >-
   Gaode Maps (also known as AMap) is a mapping application and technology from
   the Chinese company Alibaba.
-updated: '2025-08-19'
 ---
 
 # Gaode Maps
@@ -96,7 +96,7 @@ API documentation for [3D map](https://lbs.amap.com/demo/javascript-api/example/
 
 ### User generated reviews
 
-User-generated reviews are available in the mobile app only (without account login).
+User-generated reviews are available in the mobile app only, without account login.
 
 ### Using AMap in English (mobile app only)
 
