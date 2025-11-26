@@ -16,7 +16,9 @@ For open-source researchers, KartaView can serve as an additional or alternative
 
 KartaView's imagery is [licensed](https://kartaview.org/terms) under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en), which means that users can share or adapt the imagery with attribution and under the same or compatible license.
 
-KartaView is owned by GrabMaps, a mapping technology arm of Grab Holdings. Leveraging Grab's operations in Southeast Asia (in ride-sharing, food and grocery delivery, and digital payment), GrabMaps regularly commissions Grab drivers and [provides equipment](https://www.gizguide.com/2025/04/grab-hardware-innovations.html) and training for drivers to contribute to mapping.&#x20;
+KartaView is owned by GrabMaps, a mapping technology arm of Grab Holdings. Leveraging Grab's operations in Southeast Asia (in ride-sharing, food and grocery delivery, and digital payment), GrabMaps regularly commissions Grab drivers and [provides equipment](https://www.gizguide.com/2025/04/grab-hardware-innovations.html) and training for drivers to contribute to mapping. \
+\
+A note on the name: KartaView was originally founded in 2009 as OpenStreetView, it was renamed to OpenStreetCam in 2016, and to KartaView in 2020. Each change was due to a change in ownership.&#x20;
 
 ### Finding available street view imagery
 
