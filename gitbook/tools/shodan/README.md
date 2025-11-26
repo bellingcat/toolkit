@@ -1,5 +1,5 @@
 ---
-description: A search engine for devices that are connected to the internet.
+description: A search engine for internet-connected devices, from webcams to databases.
 ---
 
 # Shodan
@@ -10,61 +10,29 @@ description: A search engine for devices that are connected to the internet.
 
 ## Description
 
-With Shodan it is possible to find devices - in the broadest sense - that are connected to the internet.&#x20;
+Shodan is a search engine that indexes internet-connected devices. Shodan covers devices from servers, routers, webcams, and industrial control systems to IoT devices and databases. It allows users to explore what is exposed to the public internet and gather technical information such as IP addresses, open ports, protocols, software versions, and geographic locations.
 
-\*\*\* add to this section
+Researchers can search by keyword, organization, country, network range, or device type, and combine filters (e.g. `country:DE port:21`) to narrow results. Each result links to detailed host information, including banners, metadata, and sometimes screenshots (for example, login interfaces or webcams visible online). Device searches may use a variety of filters, including location (city, country, etc.), device name, IP address, and organisation.
 
-When entering the main site there is a small menu in the top left:&#x20;
+Shodan also includes several integrated tools:
 
-<figure><img src=".gitbook/assets/Shodan1 c.jpg" alt=""><figcaption><p>Main left menu</p></figcaption></figure>
+* Maps – visualizes device locations globally.
+* Images – displays screenshots of accessible web interfaces captured by Shodan’s crawlers.
+* Monitor – allows registered users to track specific IPs or networks over time.
+* Developer – provides API access for automation or integration into investigative workflows.
 
-* The first listing "Shodan" takes you to the main site (see below About Shodan)
-* "Maps" leads to the maps that Shodan offers at the [maps section](https://maps.shodan.io) (see below About Maps)
-* "Images" leads to the first page of [images](https://images.shodan.io/) that are available (see below About Images)
-* With ["Monitor"](https://monitor.shodan.io) you can keep an eye on specific IP-addresses or ranges (when logged in) (see below About Monitor)
-* "Developer" leads to the section of the site that is of interest to [developers and the API](https://developer.shodan.io/) (see below About Developer)
+<figure><img src=".gitbook/assets/Shodan1 c.jpg" alt=""><figcaption><p>Main menu on the site</p></figcaption></figure>
 
-## About Shodan
+For OSINT investigations, Shodan can help:
 
-## About Maps
+* Identify infrastructure operated by a specific organisation.
+* Assess exposed devices within a geographic region.
+* Track changes in publicly accessible assets over time.
+* Correlate technical fingerprints (such as SSL certificates or banners) with other data sources.
 
-## About Images
+Below is an example of the detailed host information available for a device. This has been redacted for privacy purposes.&#x20;
 
-When clicking on the "Images" menu item, the first 20 images are shown. Those can be login screens, webcam images and such. Below is an example of such a login screen (altered for privacy).
-
-<figure><img src=".gitbook/assets/Administrator - c.jpg" alt="" width="375"><figcaption><p>A sample image available from Shodan</p></figcaption></figure>
-
-When an image as presented by Shodan is clicked, a new page is shown with specifics about the image. These specifics can be very detailed, and a lot of information can be retrieved from it. Below is an example which is altered for provacy:&#x20;
-
-<figure><img src=".gitbook/assets/Details - c.jpg" alt="" width="375"><figcaption><p>A sample of a detail page after clicking an image</p></figcaption></figure>
-
-
-
-
-
-## About Monitor
-
-## About Developer
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\--> -->Text from Max:&#x20;
-
-Device searches may use a variety of filters, including location (city, country, etc.), device name, IP address, and organization. It can be used to monitor specific assets, to search a geographic area for internet-connect devices, to discover devices tied to an organization, etc.
-
-
+<figure><img src=".gitbook/assets/Details - c.jpg" alt="" width="563"><figcaption><p>An example of available host details</p></figcaption></figure>
 
 ## Cost
 
@@ -72,17 +40,15 @@ Device searches may use a variety of filters, including location (city, country,
 * [x] Partially Free
 * [ ] Paid
 
-\-->--> Text from Max
+There are multiple membership plans available for Shodan and there is also a free account option. The free account provides limited results and restricted features but can be used for basic searching.
 
-There are multiple account levels for Shodan:
+Full details of the pricing plans and their associated features are available here: [https://account.shodan.io/billing](https://account.shodan.io/billing)
 
-* The most basic is the free account. This currently provides only two pages of search results.
-* A membership may be purchased for a one-time fee of $49, which provides 100 query credits and 100 scan credits per month, access to Maps, Images, Monitor, etc.
-* [Monthly subscriptions ](https://account.shodan.io/billing)with varying prices and offerings.
+A free membership is available for academics and students: [https://help.shodan.io/the-basics/academic-upgrade](https://help.shodan.io/the-basics/academic-upgrade)
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 ## Requirements
 
@@ -90,13 +56,31 @@ A web browser and email address are required to sign up for an account and use t
 
 ## Limitations
 
-The information that Shodan retrieves varies in its efficacy. For instance, the use of a VPN may obscure a device's IP address, as well as change it's apparent geographical location. The service banners that Shodan uses for much of it's information may be limited/trimmed by the service owner.
+**Restricted data access:** Free Shodan accounts can view only a limited number of search results and filters. Many advanced functions, such as exporting data, monitoring networks, or using the API extensively, require a paid plan.
+
+**Incomplete coverage:** Shodan does not index all devices on the internet. Its crawlers scan at intervals and may miss or temporarily exclude certain regions, networks, or ports.
+
+**Data freshness:** Search results represent a snapshot in time. Devices may have since gone offline or changed configuration.
+
+**False positives:** Some devices may appear misclassified or linked to erroneous locations due to shared IP ranges, virtual hosting, VPN usage, or proxy services. Manual verification is required before drawing conclusions.
+
+**Limited context:** Shodan provides technical exposure data but not ownership confirmation or intent. Additional corroboration is essential for accurate attribution.
+
+**Data integrity:** The service banners that Shodan uses for much of it's information may be configured/limited by the device owner.
+
+**Restricted Email Addresses:** Shodan explicitly rejects disposable/temporary email services during signup to prevent abuse. Occasional rejections have also been reported for some providers, e.g. ProtonMail, and this is likely due to anti-abuse rules or blocklists.
 
 ## Ethical Considerations
 
-Shodan indexes publicly available information, so there is nothing inherently unethical about browsing the results of your searches. Using the tool is akin to walking down a public street and knocking on doors as you pass by. However, using the results of your searches in order to gain (or attempt to gain) unauthorized access to devices is both unethical and illegal in most countries.
+**Respect privacy and minimise harm:** Shodan surfaces information about publicly accessible devices, but that data can still belong to private individuals or small organisations. Furthermore, these individuals and organisation may be unaware that this data is publicly available. Investigators should avoid use of potentially unauthorised data unless strictly necessary for public good and avoid sharing identifiable IPs, login screens, or images that could expose personal data or locations. Sensitive details in publications should be redacted accordingly.
 
-## Guide
+**Use data for verification, not intrusion:** Shodan should be used to observe rather than to interact with online systems. Accessing or probing devices beyond what Shodan already provides is unethical and may be unlawful.
+
+**Verify and contextualise findings:** Banner data and screenshots can be misleading or outdated. Always cross-check results with other open sources (WHOIS, DNS, satellite imagery, organisational records) before drawing conclusions or attributing ownership.
+
+**Be transparent about limitations:** When referencing Shodan data in an investigation, clearly note its time of capture and potential for error or partial visibility. Transparency about uncertainty strengthens credibility.
+
+## Guides
 
 The Shodan [Help Center](https://help.shodan.io/) contains essentially all of the information you need to know in order to effectively use the tool. This includes:
 
@@ -107,15 +91,14 @@ The Shodan [Help Center](https://help.shodan.io/) contains essentially all of th
 
 ## Tool provider
 
-Shodan - USA
+Shodan is privately owned and run by John Matherly.
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer |
 | --------------- |
-| Max Louthain    |
-|                 |
+| Freya           |
