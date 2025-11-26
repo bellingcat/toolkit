@@ -115,6 +115,9 @@ Note that all three mapping tools use (at least in part - for their China covera
 
 Researchers and developers should consider several limitations:
 
+* **Street view imagery can become outdated quickly**: Researchers should be aware that street view imagery available from China's map services can become outdated within 2 to 3 years and therefore could be unreliable for verifications. This applies to both urban and rural areas, due to [urban development](https://www.science.org/doi/10.1126/science.adw3443), [poverty alleviation](https://www.worldbank.org/en/news/press-release/2022/04/01/lifting-800-million-people-out-of-poverty-new-report-looks-at-lessons-from-china-s-experience), and [demographic shifts](https://www.piie.com/blogs/realtime-economics/2024/will-chinas-latest-urbanization-push-work). \
+  \
+  To verify geolocations, researchers are encouraged to additionally search for user-generated content in Chinese platforms (equivalents of Youtube), including [Bilibili](https://www.bilibili.com/) (nicknamed B站 in Chinese, meaning "B station"), [Youku](https://www.youku.com/), [Tencent Video](https://v.qq.com/), and [Baidu Kaokan](https://haokan.baidu.com/). Also check short-form social media (equivalents of Tiktok), including [Douyin](https://www.piie.com/blogs/realtime-economics/2024/will-chinas-latest-urbanization-push-work) and [Kuaishou](https://www.kuaishou.com/).&#x20;
 * **Language Barrier**: The user interface is only available in Chinese.
 * **Access Speed**: International users will experience slower access speeds, especially if using a VPN.
 * **Barriers accessing the API**: Non-Chinese individuals will have difficulty registering a Baidu developer account, preventing them from using Baidu's location-based services APIs. (See FAQ #23 for Baidu location-based services account authentication - in [Chinese](https://lbsyun.baidu.com/index.php?title=FAQ/authentication) and [English](https://lbsyun-baidu-com.translate.goog/index.php?title=FAQ/authentication&_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp); [Baidu Developer Account Registration Procedure](https://app.baidu.com/newapp/docs/%E5%BC%80%E5%8F%91%E8%80%85%E5%87%86%E5%85%A5/%E5%BC%80%E5%8F%91%E8%80%85%E6%B3%A8%E5%86%8C%E6%B5%81%E7%A8%8B/) - in Chinese).
@@ -135,6 +138,11 @@ Researchers and developers should consider several limitations:
 **Video Tutorial**
 
 * _Baidu Maps : The Chinese Google Maps_ (2023). Available at: [https://www.youtube.com/watch?v=hKVUOgoDUxs](https://www.youtube.com/watch?v=hKVUOgoDUxs) (French with English transcription).
+
+**Bellingcat Articles**
+
+* What Can Open Sources Reveal About Beijing’s Deadly Floods? Bellingcat. (August 8, 2025) [https://www.bellingcat.com/news/2025/08/08/strongwhat-can-open-sources-reveal-about-beijings-deadly-floods-strong/](https://www.bellingcat.com/news/2025/08/08/strongwhat-can-open-sources-reveal-about-beijings-deadly-floods-strong/)
+* Europol’s Asian City Child Abuse Photographs Geolocated. Bellingcat. (November 8, 2018) [https://www.bellingcat.com/resources/case-studies/2018/11/08/europols-asian-city-child-abuse-photographs-geolocated/](https://www.bellingcat.com/resources/case-studies/2018/11/08/europols-asian-city-child-abuse-photographs-geolocated/)
 
 **Articles**
 
