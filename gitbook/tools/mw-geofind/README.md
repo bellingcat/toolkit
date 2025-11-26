@@ -36,8 +36,7 @@ To access the metadata, scroll down to view the search results and click "View m
 
 Here is an excerpt showing some of the JSON data available. (JSON is a format for structuring and storing data, where information is stored in text and as name-value pairs.) For each video, you will find metadata such as the date and time of upload, the geotag, and other information such as counts for the number of views, likes, favorites, and comments for the video. \
 \
-<img src=".gitbook/assets/json ex.png" alt="" data-size="original">\
-
+<img src=".gitbook/assets/json ex.png" alt="" data-size="original"><br>
 
 Unfortunately, a bulk export function is not available [due to Youtube policy](https://github.com/mattwright324/youtube-metadata/discussions/150).
 
@@ -79,6 +78,10 @@ Based on our testing, searching directly on Youtube can lead to more comprehensi
 * On YouTube, the user can only search by location name and not by coordinates.
 * On YouTube, geotags are in the video creator's chosen language. E.g., a French speaker may geotag their video "États-Unis" instead of "United States". If you search by location name, you would need to use the French name if you want this video to show up in your search results. However, if you type in "United States", it will never show up in your results. In comparison, if you use MW Geofind and search by coordinates, the language a creator chose does not affect the search results.
 * On YouTube, the time frame selected must be recent (i.e., the choices are limited to "last hour", "today", "this week", "this month", "this year"). MW Geofind allows more flexibility (e.g., between Jan 1 to Feb 15, 2017), enabling searches for older videos.
+
+For those comfortable with using command line tools, [yt-dlp](https://github.com/yt-dlp/yt-dlp) might be preferable with its broader functionalities (e.g., faster downloads, audio extraction). To load the video's metadata, use: `yt-dlp --print-json [VIDEO_URL]` \
+\
+The metadata would include the video location only if the video was geotagged by the creator. Note that since September 2025, [additional JavaScript components are required](https://github.com/yt-dlp/yt-dlp/issues/14404) for yt-dlp to function properly.&#x20;
 
 ## Cost
 
