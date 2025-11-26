@@ -1,5 +1,5 @@
 ---
-updated: '2025-11-24'
+updated: '2025-11-25'
 description: >-
   A repository for professionals working in the explosive ordnance disposal
   (EOD) space.

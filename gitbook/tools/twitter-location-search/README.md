@@ -3,6 +3,7 @@ description: >-
   Discover real-time conversations and trends in any area with X's built-in
   location search. Search by latitude and longitude coordinates or distance for
   targeted local content.
+updated: '2025-11-25'
 ---
 
 # Twitter/X Location Search

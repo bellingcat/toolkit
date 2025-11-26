@@ -2,6 +2,7 @@
 description: >-
   A command line tool that allows users to find location tags near a specified
   latitude and longitude.
+updated: '2025-11-26'
 ---
 
 # Instagram Location Search

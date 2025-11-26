@@ -3,6 +3,7 @@ description: >-
   Twitter/X Advanced Search is X's own tool to help users find more precise
   information on the platform by filtering posts according to criteria such as
   location, user, date or popularity.
+updated: '2025-11-25'
 ---
 
 # Twitter/X Advanced Search

@@ -2,6 +2,7 @@
 description: >-
   Command line tool for checking if phone numbers are connected to Telegram
   accounts and retrieving related information where available.
+updated: '2025-11-26'
 ---
 
 # Telegram Phone Number Checker
