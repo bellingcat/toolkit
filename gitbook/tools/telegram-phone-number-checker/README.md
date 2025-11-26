@@ -26,7 +26,7 @@ If adding the contact is successful, the tool extracts public information that c
 
 id, username, usernames, first\_name, last\_name, fake, verified, premium, mutual\_contact, bot, bot\_chat\_history, restricted, restriction\_reason, user\_was\_online, phone
 
-The profile\_photo can be optionally requested
+The profile\_photo can be optionally requested.
 
 </details>
 
