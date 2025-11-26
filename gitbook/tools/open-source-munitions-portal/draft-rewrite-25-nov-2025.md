@@ -18,8 +18,17 @@ Any researcher or investigator interested in determining the type of munition us
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/2025-11-26_00-49-07-ed2.png" alt=""><figcaption></figcaption></figure></div>
 
-\
-<br>
+{% hint style="success" %}
+**TIP:** Based on our tests, the portal is more beneficial for current conflicts and images of munition fragments than for unexploded munitions.
+{% endhint %}
+
+<details>
+
+<summary>What is the difference between munitions and explosive ordnance? <mark style="color:$success;"><strong>(CLICK TO EXPAND)</strong></mark></summary>
+
+
+
+</details>
 
 <br>
 
