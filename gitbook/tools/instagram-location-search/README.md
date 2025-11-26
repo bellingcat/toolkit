@@ -85,7 +85,7 @@ Chrome Browser
 
 Instagram Account
 
-command-lineSome beginner understanding of command-line tools
+Some beginner understanding of command-line tools
 
 ## Limitations
 
