@@ -65,7 +65,7 @@ Alternatively, you can also choose from a list of industrial sectors ("按行业
 {% hint style="info" %}
 _Checking the business scope of Chinese companies:_
 
-Chinese companies are required to operate on a business license, which lists the "business scope" -- this refers to the industries and business activities that the company is allowed to operate in. There are strict delineation for the business scope (e.g., battery company CATL has its business scope listed as: "general items: battery manufacturing, battery sales, technology services, technology development, technology consulting, technical exchange, technology transfer, technology promotion"). If any company were to change its business scope, they are legally required to update their business license.\
+Chinese companies are required to operate on a business license, which lists the "business scope" -- this refers to the industries and business activities that the company is allowed to operate in. There are strict delineations for the business scope (e.g., battery company CATL has its business scope listed as: "general items: battery manufacturing, battery sales, technology services, technology development, technology consulting, technical exchange, technology transfer, technology promotion"). If any company were to change its business scope, they are legally required to update their business license.\
 \
 If open source researchers find a company that appears to be operating outside its scope, this could be a red flag.
 {% endhint %}
@@ -121,8 +121,6 @@ Tools similar to Gongsi Wang (满商公司网) include Tianyancha and Qichacha.&
 Gongsi Wang, Tianyancha and Qichacha obtain their data sources from government registries, and provide enterprise credit and background information on Chinese companies.
 
 There are some small differences. Qichacha, for instance, allows API services and provides visual network graphs. Gongsi Wang is slightly dated and does not provide such services.
-
-
 
 ## Advertising Trackers
 
