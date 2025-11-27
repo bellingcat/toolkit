@@ -23,6 +23,10 @@ Here WeGo is a navigation app that serves as a robust alternative to popular ser
 
 <figure><img src=".gitbook/assets/signal-2025-07-21-174523.jpeg" alt="" width="375"><figcaption></figcaption></figure>
 
+Additional modes:
+
+* Here WeGo also offers users the option to overlay environmental zones over the map they are viewing. This provides an easily digestible view of low-emissions or similar types of other zones in a particular area.
+
 ## Cost
 
 * [x] Free
@@ -53,7 +57,7 @@ A guide to what Here WeGo, its setup and its use is available on a community-run
 
 ## Tool provider
 
-The tool is created and maintained by an entity named Here Technologies. They are a Dutch multinational headquartered in Amsterdam that is majority owned by a consortium of German automotive companies. The entity's core business revolves around lisencing mapping content to other companies. Here Technologies was created after a 2012 rebranding of what was formerly Nokia Maps.
+The tool is created and maintained by an entity named Here Technologies. They are a Dutch multinational headquartered in Amsterdam that is majority owned by a consortium of German automotive companies. The entity's core business revolves around lisencing mapping content to other companies.&#x20;
 
 ## Advertising Trackers
 
