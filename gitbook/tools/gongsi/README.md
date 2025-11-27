@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-A Chinese database providing information about Chinese companies. The [website](https://gongsi.com.cn) states that the database provides data obtained from over 100 official sources various Chinese authority websites (e.g., [National Enterprise Credit Information Publicity System](https://www.gsxt.gov.cn/), [China Court Judgment Documents Network](https://english.court.gov.cn/2024-02/28/c_965997.htm)), as well as enforcement notices.
+A Chinese database providing information about Chinese companies. The [website](https://gongsi.com.cn) states that the database provides data obtained from over 100 official sources from various Chinese authority websites (e.g., [National Enterprise Credit Information Publicity System](https://www.gsxt.gov.cn/), [China Court Judgment Documents Network](https://english.court.gov.cn/2024-02/28/c_965997.htm)), as well as enforcement notices. It is unclear to which extent the database aims to provide a complete copy of those sources.
 
 **Search by Enterprise:**&#x20;
 
