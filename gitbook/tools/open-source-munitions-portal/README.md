@@ -1,5 +1,5 @@
 ---
-updated: '2025-09-17'
+updated: '2025-11-26'
 description: >-
   A searchable library of verified images for researchers, journalists, and
   practitioners trying to learn more about munitions and their use and impact in

@@ -1,5 +1,6 @@
 ---
 description: KartaView is a crowdsourced platform for street view imagery.
+updated: '2025-11-26'
 ---
 
 # KartaView
