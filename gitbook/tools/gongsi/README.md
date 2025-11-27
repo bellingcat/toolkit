@@ -36,7 +36,7 @@ If you have a particular enterprise in mind, you can input it into the search ba
 The search results starts with listings that match the name of the company but they also show companies with similar names.&#x20;
 
 {% hint style="info" %}
-_Background on Chinese company names:_
+_Understanding Chinese company names:_
 
 Chinese company names contain several parts: \[Location of registration] + \[Chosen name] + \[industry descriptor] + \[legal structure], e.g., world-leading battery company CATL is registered in China as, "Ningde Era New Energy Technology Co. Ltd." Ningde is a city name. The industry is new energy technology. It's a limited liability company. \
 This means that even if open source researchers don't know the full company name, they may be able to guess it by this logic.&#x20;
