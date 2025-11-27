@@ -23,17 +23,6 @@ Here WeGo is a navigation app that serves as a robust alternative to popular ser
 
 <figure><img src=".gitbook/assets/signal-2025-07-21-174523.jpeg" alt="" width="375"><figcaption></figcaption></figure>
 
-* Comprehensive Navigation:
-  * The app provides detailed turn-by-turn directions for driving, walking, cycling, and public transit.
-  * The app also integrates real-time traffic data to help users avoid congestion and find the fastest routes. This allows it to offer information on public transportation schedules and options.
-
-<div align="center" data-full-width="false"><figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
-
-* Performance and accuracy:
-  * Tested routes proposed by Here WeGo appear to be reliable and accurate. This is also the case in offline mode, where the app manages to maintain functionality even without an internet connection. However, it can be heavy on battery usage when used extensively in standalone mode, so keeping a charger or battery pack handy is advisable​​.
-
-
-
 ## Cost
 
 * [x] Free
