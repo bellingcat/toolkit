@@ -44,7 +44,7 @@ This means that even if open source researchers don't know the full company name
 
 The status of enterprises are colour coded. For example, the status of active enterprises is displayed in green, with the words "存续" ("existing"). The status of de-registered companies is displayed in orange, with the words "注销" ("de-registered").
 
-When you click on a search result, it will bring you to the details of the enterprise. Details include enterprise name, name of legal shareholder ("法定代表人"), date of company establishment ("成立时间") etc.
+When you click on a search result, it will bring you to the details of the enterprise. Details include enterprise name, name of legal shareholder ("法定代表人"), date of company establishment ("成立时间") etc.:
 
 <figure><img src=".gitbook/assets/Screenshot 2025-08-25 143742.png" alt=""><figcaption></figcaption></figure>
 
