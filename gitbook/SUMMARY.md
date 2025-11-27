@@ -221,6 +221,7 @@
   * [Wikipedia list of registers](tools/wikipedia-list-of-registers/README.md)
   * [WildEye](tools/wildeye/README.md)
   * [Wildlife Trade Portal](tools/wildlife-trade-portal/README.md)
+  * [World Database on Protected and Conserved Areas](tools/world-database-protected-areas/README.md)
   * [xIFr](tools/xifr/README.md)
   * [Yandex Maps](tools/yandex-maps/README.md)
   * [Zeeschuimer](tools/zeeschuimer/README.md)
