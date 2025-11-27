@@ -10,9 +10,7 @@ description: Mapping service that can serve as an alternative to Google Maps or 
 
 ## Description
 
-Here WeGo is a navigation app that serves as a robust alternative to popular services like [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps) and [Apple Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/apple-maps). It offers a range of features tailored for both casual users and those requiring more detailed navigation tools.&#x20;
-
-The app functions much like Google or Apple Maps. Users that are familiar with either platform will find many of the same basic features present on the Here WeGo website or application. Key features as well as downsides are highlighted in the points below.
+Here WeGo is a navigation app that serves as a robust alternative to popular services like [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps) and [Apple Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/apple-maps). Open source researchers that are familiar with either platform will find many of the same basic features present on the Here WeGo website or application. However, Here WeGo does not offer a StreetView feature.
 
 #### Key Features:
 
@@ -34,16 +32,7 @@ The app functions much like Google or Apple Maps. Users that are familiar with e
 * Performance and accuracy:
   * Tested routes proposed by Here WeGo appear to be reliable and accurate. This is also the case in offline mode, where the app manages to maintain functionality even without an internet connection. However, it can be heavy on battery usage when used extensively in standalone mode, so keeping a charger or battery pack handy is advisable​​.
 
-#### Drawbacks:
 
-* Advanced Features:
-  * While Here WeGo covers the basics well, some advanced features found in other apps, such as street view or augmented reality navigation, are missing. Enhancing these aspects could improve its competitiveness​​.
-* Voice Navigation:
-  * Some users have noted that the voice directions can sound digital and processed. Smoother and more natural-sounding voices would enhance the overall user experience​​.
-
-#### Conclusion
-
-Here WeGo is a powerful navigation tool, particularly strong in offline capabilities and user privacy. It is a great choice for travelers who need reliable directions without relying on constant internet access. While there are areas for enhancement, such as voice navigation and advanced features, the app remains a solid option for both daily commuting and international travel. For users seeking an alternative to Google Maps with a focus on offline use and privacy, Here WeGo is definitely worth considering​.
 
 ## Cost
 
