@@ -171,7 +171,7 @@ Researchers can use WDPCA data in conjunction with several other free data sourc
 The following data sources provide detailed maps or satellite data:
 
 * ArcGIS [Living Atlas of the World](https://livingatlas.arcgis.com/en/home/), provided by Esri
-* [Global Forest Watch](https://www.globalforestwatch.org/map/) (see Bellingcat Toolkit guide [here](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-forest-watch))
+* [Global Forest Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-forest-watch)
 
 Key Biodiversity Areas (KBAs) are sites of global significance for biodiversity, based on scientific criteria. KBAs are designated by IUCN, and may or may not be protected areas.
 
