@@ -75,7 +75,7 @@ As the same geographical area can receive more than one designation for protecti
 
 For example, if we enter the keyword "Cotswold" — referring to the protected landscape in England known for a limestone grassland habitat and ancient beechwood — we will see five results. (See the screenshot in the above section.) This is because the area received four national-level designations and a European one.
 
-Of these five entries, two have them have an identical name, "Cotswold Commons and Beechwoods". However, their WDPA IDs (140047 and 10966) and land areas (6.91km<sup>2</sup> and 4.13km<sup>2</sup>) refer to overlapping but different geographic areas. The former is a Site of Special Scientific Interest designated in 1987 and the latter is a National Nature Reserve designated in 1981. (Each designation have different definitions about the land area to be protected.)
+Of these five entries, two of them have an identical name, "Cotswold Commons and Beechwoods". However, their WDPA IDs (140047 and 10966) and land areas (6.91km<sup>2</sup> and 4.13km<sup>2</sup>) refer to overlapping but different geographic areas. The former is a Site of Special Scientific Interest designated in 1987 and the latter is a National Nature Reserve designated in 1981. (Each designation have different definitions about the land area to be protected.)
 
 **If you are trying to determine whether a plot of land falls within the perimeters of a protected area, these finer details can make a difference.**
 
