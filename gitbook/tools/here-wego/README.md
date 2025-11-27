@@ -10,7 +10,7 @@ description: Mapping service that can serve as an alternative to Google Maps or 
 
 ## Description
 
-Here WeGo is a navigation app that serves as a robust alternative to popular services like [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps) and [Apple Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/apple-maps). Open source researchers that are familiar with either platform will find many of the same basic features present on the Here WeGo website or application. However, Here WeGo does not offer a StreetView feature.
+Here WeGo is a navigation app that can as an alternative to popular services like [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps) and [Apple Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/apple-maps). Open source researchers that are familiar with either platform will find many of the same basic features present on the Here WeGo website or application. However, Here WeGo does not offer a StreetView feature.
 
 One of the standout features of Here WeGo is its offline maps capability. Users can download maps for entire cities, regions, or countries, enabling navigation without an internet connection.&#x20;
 
