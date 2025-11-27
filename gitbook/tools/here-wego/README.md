@@ -12,20 +12,13 @@ description: Mapping service that can serve as an alternative to Google Maps or 
 
 Here WeGo is a navigation app that serves as a robust alternative to popular services like [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps) and [Apple Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/apple-maps). Open source researchers that are familiar with either platform will find many of the same basic features present on the Here WeGo website or application. However, Here WeGo does not offer a StreetView feature.
 
-#### Key Features:
-
-* Privacy Focus:
-  * Unlike some competitors, Here WeGo emphasizes user privacy. It collects minimal data compared to other navigation apps, which is a significant plus for privacy-conscious users​​. The sharing of traffic data on the mobile application is optional and users are informed that any data that they do share will be anonymised.
-* Offline Maps:
-  * One of the standout features of Here WeGo is its offline maps capability. Users can download maps for entire cities, regions, or countries, enabling navigation without an internet connection. This is particularly useful for travelers in areas with poor network coverage or those looking to save on data costs​​.
-* Additional modes:
-  * Here WeGo also offers users the option to overlay environmental zones over the map they are viewing. This provides an easily digestible view of low-emissions or similar types of other zones in a particular area.
+One of the standout features of Here WeGo is its offline maps capability. Users can download maps for entire cities, regions, or countries, enabling navigation without an internet connection. This is particularly useful for travelers in areas with poor network coverage or those looking to save on data costs​​.
 
 <figure><img src=".gitbook/assets/signal-2025-07-21-174523.jpeg" alt="" width="375"><figcaption></figcaption></figure>
 
-Additional modes:
+Here WeGo also offers users the option to overlay environmental zones over the map they are viewing. This provides an easily digestible view of low-emissions or similar types of other zones in a particular area.
 
-* Here WeGo also offers users the option to overlay environmental zones over the map they are viewing. This provides an easily digestible view of low-emissions or similar types of other zones in a particular area.
+Unlike some competitors, Here WeGo emphasizes user privacy. It collects minimal data compared to other navigation apps, which is a significant plus for privacy-conscious users​​. The sharing of traffic data on the mobile application is optional and users are informed that any data that they do share will be anonymised.
 
 ## Cost
 
