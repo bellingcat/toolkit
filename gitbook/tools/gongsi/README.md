@@ -62,6 +62,16 @@ Alternatively, you can also choose from a list of industrial sectors ("按行业
 
 <figure><img src=".gitbook/assets/Screenshot 2025-08-25 141238.png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" %}
+_Checking the business scope of Chinese companies:_
+
+Chinese companies are required to operate on a business license, which lists the "business scope" -- this refers to the industries and business activities that the company is allowed to operate in. There are strict delineation for the business scope (e.g., battery company CATL has its business scope listed as: "general items: battery manufacturing, battery sales, technology services, technology development, technology consulting, technical exchange, technology transfer, technology promotion"). If any company were to change its business scope, they are legally required to update their business license.\
+\
+If open source researchers find a company that appears to be operating outside its scope, this could be a red flag.
+{% endhint %}
+
+
+
 **Search by Geographical Cities ("热门城市"):**
 
 You can also search for enterprises via geographical cities, such as Beijing, Tianjin, Shanghai, Nanjing, etc. You can find this function by scrolling down on the main landing page.
