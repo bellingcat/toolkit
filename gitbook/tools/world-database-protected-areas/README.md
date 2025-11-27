@@ -17,7 +17,7 @@ The database is used for several reporting mechanisms, including:
 * Reporting to the UN on progress towards the 2030 Sustainable Development Goals
 * Measuring progress towards [Target 3 of the Kunming-Montreal Global Biodiversity Framework](https://www.cbd.int/gbf/targets/3) (KMGBF), a goal adopted in December 2022 at the 15th Conference of the Parties (COP15) of the Convention on Biological Diversity (CBD).
 
-**Target 3** aims to expand the global network of protected areas and OECMs to 30% coverage, in a way that is “effectively conserved and managed” and “equitably governed”. Effective conservation refers to selecting and managing these areas so that they are well-connected systems, in places that are most important for biodiversity and ecosystems. Equitable governance refers to respecting the rights of indigeous peoples and local communities.
+**Target 3** aims to expand the global network of protected areas and OECMs to 30% coverage, in a way that is “[effectively conserved and managed](https://www.cbd.int/gbf/targets/3)” and “[equitably governed](https://www.cbd.int/gbf/targets/3)”. Effective conservation refers to selecting and managing these areas so that they are well-connected systems, in places that are most important for biodiversity and ecosystems. Equitable governance refers to respecting the rights of indigeous peoples and local communities.
 
 The database is produced and maintained by Protected Planet, an initiative of the UN Environment Programme's World Conservation Monitoring Centre (UNEP-WCMC) and the International Union for Conservation of Nature (IUCN).
 
