@@ -96,11 +96,11 @@ The usage of a Chinese translation tool (e.g. DeepL) can be useful.
 
 ## Limitations
 
-Not all search returned information will be displayed if you do not log in with a registered account (which would require a Chinese mobile number) as non-registered account users would have basic search functions (as elaborated in the article). While creating a registered account is free, this would require a Chinese mobile number.&#x20;
+Not all available information will be displayed if you do not log in with a registered account. Non-registered account users can only use the basic search functions (as elaborated in this text). While registering an account is free, this would require a Chinese mobile number.&#x20;
 
-Search results displayed without logging in with a registered account would not provide all the data that is available. For more comprehensive results, it is advisable to cross-check with other similar websites (e.g., Tianyancha, Qichacha).
+Since the results displayed without logging in with a registered account does not provide all the data that is available, it is advisable to cross-check the results with other similar websites (e.g., Tianyancha, Qichacha).
 
-Depending on your internet connection, the website may not turn up results on first search. It is advisable to try and refresh the webpage again - this step usually returns search results.
+Depending on your internet connection, the website may not turn up results when you try to search for the first time. It is advisable to try and refresh the webpage again - this step usually returns search results.
 
 ## Ethical Considerations
 
