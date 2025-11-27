@@ -12,7 +12,7 @@ description: Mapping service that can serve as an alternative to Google Maps or 
 
 Here WeGo is a navigation app that can serve as an alternative to popular services like [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps) and [Apple Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/apple-maps). Open source researchers that are familiar with either platform will find many of the same basic features present on the Here WeGo website or application. However, Here WeGo does not offer a StreetView feature.
 
-Here WeGo also offers users the option to overlay environmental zones over the map they are viewing. This provides an easily digestible view of low-emissions or similar types of other zones in a particular area.
+Here WeGo offers users the option to overlay environmental zones over the map they are viewing. This provides an easily digestible view of low-emissions or similar types of other zones in a particular area.
 
 Unlike some competitors, Here WeGo emphasizes user privacy. It collects minimal data compared to other navigation apps, which is a significant plus for privacy-conscious users​​. The sharing of traffic data on the mobile application is optional and users are informed that any data that they do share will be anonymised.
 
