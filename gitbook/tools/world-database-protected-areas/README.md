@@ -12,7 +12,7 @@ description: A comprehensive global database on terrestrial and marine protected
 
 The World Database on Protected and Conserved Areas (WDPCA) is a comprehensive global database of marine and terrestrial protected areas, with information on [over 303,000 protected areas and over 6,500 conserved areas](https://www.protectedplanet.net/en/monthly-release-news/november-2025-update-of-the-wdpca-and-gd-pame) (Other Effective Area-based Conservation Measure, OECM).&#x20;
 
-Using the database, researchers can download geographical (GIS) data on protected areas and quickly map the areas' geographical boundaries on Google Earth Pro or other mapping software. This could help with factchecking on issues such as land disputes or unauthorized development of protected areas.&#x20;
+Using the database, researchers can download geographical (GIS) data on protected areas and quickly map the areas' geographical boundaries on Google Earth Pro or other mapping software which might be a valuable piece of information for various types of open source investigations.
 
 The database is used for several reporting mechanisms, including:
 
