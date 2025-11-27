@@ -10,22 +10,26 @@ description: A comprehensive global database on terrestrial and marine protected
 
 ## Description
 
-The World Database on Protected and Conserved Areas (WDPCA) is a comprehensive global database of marine and terrestrial protected areas, with information on over 303,000 protected areas and over 6,500 conserved areas (Other Effective Area-based Conservation Measure, OECM).
+The World Database on Protected and Conserved Areas (WDPCA) is a comprehensive global database of marine and terrestrial protected areas, with information on [over 303,000 protected areas and over 6,500 conserved areas](https://www.protectedplanet.net/en/monthly-release-news/november-2025-update-of-the-wdpca-and-gd-pame) (Other Effective Area-based Conservation Measure, OECM).&#x20;
+
+Using the database, researchers can download geographical (GIS) data on protected areas and quickly map the areas' geographical boundaries on Google Earth Pro or other mapping software. This could help with factchecking on issues such as land disputes or unauthorized development of protected areas.&#x20;
 
 The database is used for several reporting mechanisms, including:
 
 * Reporting to the UN on progress towards the 2030 Sustainable Development Goals
 * Measuring progress towards [Target 3 of the Kunming-Montreal Global Biodiversity Framework](https://www.cbd.int/gbf/targets/3) (KMGBF), a goal adopted in December 2022 at the 15th Conference of the Parties (COP15) of the Convention on Biological Diversity (CBD).
 
-**Target 3** aims to expand the global network of protected areas and OECMs to 30% coverage, in a way that is “[effectively conserved and managed](https://www.cbd.int/gbf/targets/3)” and “[equitably governed](https://www.cbd.int/gbf/targets/3)”. Effective conservation refers to selecting and managing these areas so that they are well-connected systems, in places that are most important for biodiversity and ecosystems. Equitable governance refers to respecting the rights of indigeous peoples and local communities.
+**Target 3** aims to expand the global network of protected areas and [OECMs](https://www.protectedplanet.net/en/thematic-areas/oecms?tab=OECMs) to 30% coverage, in a way that is “[effectively conserved and managed](https://www.cbd.int/gbf/targets/3)” and “[equitably governed](https://www.cbd.int/gbf/targets/3)”. Effective conservation refers to selecting and managing these areas so that they are well-connected systems, in places that are most important for biodiversity and ecosystems. Equitable governance refers to respecting the rights of indigeous peoples and local communities.
 
-The database is produced and maintained by [Protected Planet](https://www.protectedplanet.net/en), an initiative of the UN Environment Programme's World Conservation Monitoring Centre (UNEP-WCMC) and the International Union for Conservation of Nature ([IUCN](https://iucn.org/)).
+The database is produced and maintained by [Protected Planet](https://www.protectedplanet.net/en), an initiative of the UN Environment Programme's World Conservation Monitoring Centre ([UNEP-WCMC](https://www.unep-wcmc.org/en)) and the International Union for Conservation of Nature ([IUCN](https://iucn.org/)).
 
 #### **What are 'protected areas' and 'conserved areas'?**
 
 A **protected area** is a clearly defined area of land and/or sea especially dedicated to the protection and maintenance of biological diversity, and of natural and associated cultural resources, and managed through legal or other effective means. ([IUCN](https://portals.iucn.org/library/sites/library/files/documents/2008-106.pdf) conference summary 2007, p.9)
 
-A **conserved area** is a geographical area that is not an official protected area, and where conservation of biodiversity is achieved as a by-product of other management. Military reserves (e.g., [Canadian Forces Base Shilo in Manitoba, Canada](https://panorama.solutions/en/solution/natural-areas-canadian-forces-base-shilo-recognized-oecm)) or shipwrecks (e.g., the [Scapa Flow Wreck](https://www.bbc.com/news/articles/c776ng7xe02o) in Scotland, and the [SS Yongala](https://statements.qld.gov.au/statements/103195) in Queensland, Australia) have been defined as conserved areas.
+A **conserved area** is a geographical area that is not an official protected area, and where conservation is a by-product. For example, conserved areas include military reserves (e.g., [Canadian Forces Base Shilo in Manitoba, Canada](https://panorama.solutions/en/solution/natural-areas-canadian-forces-base-shilo-recognized-oecm)) or shipwrecks (e.g., the [Scapa Flow Wreck](https://www.bbc.com/news/articles/c776ng7xe02o) in Scotland, [whose conserved area status took effect on 1st November, 2025](https://www.gov.scot/publications/scapa-flow-historic-marine-protected-area-order-2025/)).&#x20;
+
+<figure><img src=".gitbook/assets/shilo (1).png" alt="Screenshot of the Canadian Forces Base Shilo. Left panel shows a Site ID and the reported area, and the right side shows a terrain map marking the land area. The military base is an example of an OECM." width="563"><figcaption><p>Information on the Canadian Forces Base Shilo, as shown on the WDPCA, <br><a href="https://www.protectedplanet.net/555705170">https://www.protectedplanet.net/555705170</a></p></figcaption></figure>
 
 (Conserved areas are formally known as Other Effective Area-based Conservation Measure, OECM, [defined in 2018 at CBD COP14](https://www.cbd.int/doc/decisions/cop-14/cop-14-dec-08-en.pdf). In this guide, we will use "conserved areas" for readability.)
 
@@ -33,9 +37,9 @@ A **conserved area** is a geographical area that is not an official protected ar
 
 WDPCA provides basic facts and geospatial data about the world's protected areas and conserved areas.
 
-The database is known for its comprehensiveness. Note that protected or conserved areas can receive several designations under international conventions and national programmes — the WDPCA lists all of them.
+Note that protected or conserved areas can receive several designations under international conventions and national programmes — the WDPCA lists all of them.
 
-Data are reported at any time by national governments, international convention secretariats, intergovernmental organizations and nonprofits that are responsible for designating areas for protection or conservation.
+Data are [reported at any time](https://www.protectedplanet.net/en/resources/data-contributor-agreements) by national governments, international convention secretariats, intergovernmental organizations, nonprofits that are responsible for designating or governing areas for protection or conservation. Additionally, some protected areas can be [privately governed](https://www.protectedplanet.net/en/resources/guidance-on-the-reporting-of-privately-governed-protected-and-conserved-areas), e.g., owned by for-profit enterprises or religious entities. &#x20;
 
 The following data are available for each area with a unique ID:
 
@@ -45,7 +49,7 @@ The following data are available for each area with a unique ID:
 * Designation, IUCN Management category, designation type, designation name, year
 * Governance type and management authority (e.g., a government ministry name)
 * Management Plan - reported or not, implemented or not. Provides link to management plan if available.
-* International criteria
+* International criteria. If the site is a UNESCO World Heritage Site or Ramsar site, this field [describes](https://wdpa.s3-eu-west-1.amazonaws.com/WDPA_Manual/English/WDPA_WDOECM_Manual_1_6.pdf) the criteria that qualify them for designation.
 
 > **💡Recent and announced changes**
 >
@@ -91,12 +95,14 @@ For example, if you are looking for protected areas in Egypt, make sure to selec
 
 ### Downloading the data
 
-After finding the data you need, click the "Download" button on the top-right corner and choose your preferred format: CSV for tabular data, SHP for shapefiles, or file geodatabase.
+After finding the data you need, click the "Download" button on the top-right corner and choose your preferred format: CSV for tabular data, SHP for shapefiles, or file geodatabase.\
+\
+Note that you can search for protected areas of a whole country or a region (e.g., [the Polar region](https://www.protectedplanet.net/region/PO)) and download data for all protected and conserved areas for the country or region in one batch.&#x20;
 
 The download will be in a zip file. When you unzip it, you will find that apart from the data files, a data dictionary and the user manual are included. (The user manual is automatically downloaded in 5 languages / 5 files: English, Spanish, French, Arabic, and Russian.)\
 \
 • See below on a quick way to view and visualize shapefiles.\
-• File geodatabase can be opened in ArcGIS or QGIS. (Bellingcat Toolkit entry on QGIS [here](https://bellingcat.gitbook.io/toolkit/more/all-tools/qgis).)
+• File geodatabase can be opened in ArcGIS or QGIS. (Bellingcat Toolkit entry on QGIS [here](https://bellingcat.gitbook.io/toolkit/more/all-tools/qgis).)<br>
 
 <details>
 
@@ -145,7 +151,7 @@ There may be some lag time before newly protected or conserved areas appear on t
 
 The database currently does not support seeing changes of protection status over time. If some protected areas are degazetted by national governments, those areas are simply removed from the database.\
 \
-Legal changes that downgrade, downsize or degazette protected areas are referred to as PADDD events. Examples include:
+Legal changes that downgrade, downsize or degazette protected areas are referred to as [PADDD events](https://www.science.org/doi/10.1126/science.aau5525). Examples include:
 
 * In 2007, Oman downsized its Arabian Oryx Sanctuary by 90% to allow for oil prospecting and construction. This downsizing resulted in the sanctuary [losing its Unesco World Heritage List designation](https://whc.unesco.org/en/news/362).
 * Between 2010 and 2022, the Democratic Republic of the Congo (DRC) government made [several attempts](https://news.mongabay.com/2025/04/through-colonization-conflicts-and-conservation-100-years-of-virunga-national-park/) to [downgrade](https://www.nationalgeographic.com/science/article/140612-virunga-warden-shooting-congo-gorillas-soco-oil) and [downsize](https://www.bbc.com/news/world-africa-31876577) the Virunga National Park to allow for oil drilling.
