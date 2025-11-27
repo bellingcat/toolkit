@@ -35,6 +35,13 @@ If you have a particular enterprise in mind, you can input it into the search ba
 
 The search results starts with listings that match the name of the company but they also show companies with similar names.&#x20;
 
+{% hint style="info" %}
+_Background on Chinese company names:_
+
+Chinese company names contain several parts: \[Location of registration] + \[Chosen name] + \[industry descriptor] + \[legal structure], e.g., world-leading battery company CATL is registered in China as, "Ningde Era New Energy Technology Co. Ltd." Ningde is a city name. The industry is new energy technology. It's a limited liability company. \
+This means that even if open source researchers don't know the full company name, they may be able to guess it by this logic.&#x20;
+{% endhint %}
+
 The status of enterprises are colour coded. For example, the status of active enterprises is displayed in green, with the words "存续" ("existing"). The status of de-registered companies is displayed in orange, with the words "注销" ("de-registered").
 
 When you click on a search result, it will bring you to the details of the enterprise. Details include enterprise name, name of legal shareholder ("法定代表人"), date of company establishment ("成立时间") etc.
