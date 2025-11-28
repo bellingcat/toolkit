@@ -41,10 +41,8 @@ Submissions must include decent-quality images where the munition/remnant is vis
 
 ### Munition Categories
 
-{% hint style="warning" %}
-**IMPORTANT NOTE:** The three munitions ID databases have different scopes that create overlap and categorization inconsistencies. CAT-UXO catalogs explosive ordnance only and uses **'type'** as its organizing term. OSMP covers all munitions (including non-explosive) and uses **'munitions category.'** Bulletpicker has the broadest scope—ordnance plus related items like fuzes, containers, training aids, and components—organized under **'ordnance and related items.'** The same munition can appear in multiple databases but may be categorized differently depending on each tool's scope and organizational structure.
-{% endhint %}
+{% include ".gitbook/includes/hint-on-munitions-id-tools-lexicon.md" %}
 
-
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><ul><li><a href="https://www.youtube.com/watch?v=Bw2Jji323ik"><strong>Air-Delivered Bomb</strong> </a></li></ul><p>Unpowered munitions dropped from an aerial vehicle, such as a plane or drone. They can be either guided or unguided and range in weight from only a few kilograms to more than 2,000 kilograms — roughly the weight of a car. Heavier air-delivered bombs are among the most destructive munitions in military arsenals. https://osmp.ngo/resources/glossary/</p></td><td></td><td data-object-fit="contain"><a href=".gitbook/assets/2025-11-25_19-32-54.png">2025-11-25_19-32-54.png</a></td></tr><tr><td><a href="https://www.youtube.com/watch?v=UlLCAvMztfE"><strong>Artillery Gun Projectile</strong></a></td><td>Indirect-fire projectiles that typically have a cylindrical shape and conical (ogival) nose, generally fired from artillery guns. Most artillery gun projectiles are unguided and range from 35 to 87 centimetres in length. With a typical range of between 30 and 40 kilometres, artillery guns are deemed medium-range munition. https://osmp.ngo/resources/glossary/</td><td data-object-fit="fill"><a href=".gitbook/assets/2025-11-25_19-37-39.png">2025-11-25_19-37-39.png</a></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
 [^1]: The munition has either partially or fully operated, and the intended effect has occurred. For explosive munitions, this usually means a detonation. (Source: [https://osmp.ngo/resources/glossary/](https://osmp.ngo/resources/glossary/) )&#x20;
