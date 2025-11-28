@@ -28,13 +28,15 @@ Any researcher or investigator interested in determining the type of munition us
 
 The portal’s data comes from various sources.&#x20;
 
-1. Social Media - According to the tool providers, the portal sources its images from social media platforms sync as Twitter/X, Telegram, and Facebook (see timestamp 00:16:11). It predominantly uses Arabic- and Ukrainian-language social media (see timestamp 00:30:48)
-2. Partner organizations
+1. Social Media - According to the tool providers, the portal sources its images from social media platforms sync as Twitter/X, Telegram, and Facebook [(see timestamp 00:16:11)](https://rss.com/podcasts/bellingcatstagetalk/1965759/). It predominantly uses Arabic- and Ukrainian-language social media ([see timestamp 00:30:48](https://rss.com/podcasts/bellingcatstagetalk/1965759/))
+2. Partner organizations - OSMP signed formal agreements with these organizations [(timestamp 00:17:00)](https://rss.com/podcasts/bellingcatstagetalk/1965759/) to use their images in the portal and link them to the source and external reference page.&#x20;
 
-|                                                             |                                                                    |
-| ----------------------------------------------------------- | ------------------------------------------------------------------ |
-| [Airwars](https://airwars.org)                              | [ARES (Armament Research Services)](https://armamentresearch.com/) |
-| [Bellingcat](https://bellingcat.com)                        | [Human Rights Watch](https://hrw.org)                              |
-| [Mwatana for Human Rights](https://www.mwatana.org/en/home) | [Myanmar Witness](https://www.info-res.org/myanmar-witness/)       |
+<table><thead><tr><th width="352"></th><th></th></tr></thead><tbody><tr><td><a href="https://airwars.org">Airwars</a></td><td><a href="https://armamentresearch.com/">ARES (Armament Research Services)</a></td></tr><tr><td><a href="https://bellingcat.com">Bellingcat</a></td><td><a href="https://hrw.org">Human Rights Watch</a></td></tr><tr><td><a href="https://www.mwatana.org/en/home">Mwatana for Human Rights</a></td><td><a href="https://www.info-res.org/myanmar-witness/">Myanmar Witness</a></td></tr></tbody></table>
+
+3. Public Submissions - The portal allows the public to submit an image and contribute to the portal’s archive via [this form. ](https://docs.google.com/forms/d/e/1FAIpQLSc27fdYPQEvV6lKHwEpddw4nZdU1YD0GOIvXRBKimIh35g0RA/viewform)
+
+{% hint style="info" %}
+Submissions must include decent-quality images where the munition/remnant is visible and a source link. The team runs reverse-image searches on submitted content to seek the most reliable, closest-to-original sources before expert classification begins. [(Timestamp 00:29:02 - 00:30:21)](https://rss.com/podcasts/bellingcatstagetalk/1965759/)&#x20;
+{% endhint %}
 
 [^1]: The munition has either partially or fully operated, and the intended effect has occurred. For explosive munitions, this usually means a detonation. (Source: [https://osmp.ngo/resources/glossary/](https://osmp.ngo/resources/glossary/) )&#x20;
