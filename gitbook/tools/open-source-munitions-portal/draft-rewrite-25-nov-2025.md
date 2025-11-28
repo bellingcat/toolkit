@@ -8,6 +8,8 @@ Disclaimer: Munitions are dangerous. Do not approach them.&#x20;
 This website contains information about ordnance, explosives and related items for educational and reference purposes only. The content should not be used for (1) attempting self-guided disposal of explosive devices; (2) manufacturing explosive devices or components; (3) handling explosive ordnance without proper training; (4) any illegal activities involving explosive materials.
 {% endhint %}
 
+&#x20;&#x20;
+
 Open Source Munitions Portal (OSMP) is a verified image repository of munition types. [It is a tool for researchers and journalists interested in learning about munition use and impact in conflicts.](https://osmp.ngo/about/) It contains more than 1000 images of [functioned munitions](#user-content-fn-1)[^1] and is particularly helpful for researchers, as it allows them to visually compare their image source with what is in the repository.
 
 Any researcher or investigator interested in determining the type of munition used in a particular attack can visit the portal with their source imagery. They can then search through the portal’s images to make comparisons and see if they can find a match. If available, users will be able to find some, if not all of the following information about the munition: **Reported Location, Reported Year, Munition Category, Functional Use, Tentative Model, Base Color, Condition, Mechanical Feature, Guidance, Domain, Fins Characteristics, Caliber, Related Images, Research Organization, Marking Color, Marking Script.**
@@ -26,7 +28,14 @@ Any researcher or investigator interested in determining the type of munition us
 
 <summary>What is the difference between munitions and explosive ordnance? <mark style="color:$success;"><strong>(CLICK TO EXPAND)</strong></mark></summary>
 
+**Munitions** - “An expendable item which is designed to achieve lethal or non-lethal operational effects by means of an effect mechanism (e.g., blast, fragmentation, or smoke), and which travels from a source (e.g., individual weapon, vehicle, etc.), via a method of delivery (e.g., dropped from an aircraft, fired from a gun, etc.), to a target or target area.” [Source: OSMP Glossary](https://osmp.ngo/resources/glossary/)
 
+The condition of munitions are sometimes referred to as “functioned” or “unfunctioned” munitions.&#x20;
+
+* **Functioned** munitions - “The munition has either partially or fully operated and the intended effect has occurred. For explosive munitions, this usually means a detonation.” [Source: OSMP Glossary](https://osmp.ngo/resources/glossary/)
+* **Unfunctioned** munitions - “The munition has not operated and the intended effect has not occurred.” [Source: OSMP Glossary](https://osmp.ngo/resources/glossary/)
+
+**Explosive Ordnance (EO) -** is a subtype of munition “that contains explosives, including bombs and warheads; guided and ballistic missiles; artillery, mortar, rocket, and small arms ammunition; mines, torpedoes, and depth and demolition charges.” [Source: Oxford Reference](https://www.oxfordreference.com/display/10.1093/oi/authority.20110810104853749)<br>
 
 </details>
 
