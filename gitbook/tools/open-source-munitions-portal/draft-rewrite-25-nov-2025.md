@@ -63,13 +63,13 @@ This functions as a standard search bar, and users can input keywords of interes
 {% endtab %}
 
 {% tab title="Reported Location" %}
-Country or territory where the image was reported.&#x20;
+_(Country or territory where the image was reported.)_&#x20;
 
 Afghanistan, Armenia, Azerbaijan, Cambodia, Cyprus, Democratic Republic of the Congo, Ethiopia, Gulf of Oman, Haiti, Iran, Iraq, Israel, Israeli-occupied Golan Heights, Jordan, Kazakhstan, Laos, Lebanon, Libya, Mali, Marshall Islands, Myanmar, Nigeria, Pakistan, Palestinian Territories, Philippine Sea, Qatar, Red Sea, Russia, Saudi Arabia, Somalia, Sudan, Syria, Thailand, Ukraine, United Kingdom, United States, Yemen
 {% endtab %}
 
 {% tab title="Year" %}
-Year the image is reported to have been taken
+_(Year the image is reported to have been taken)_
 
 2003, 2006, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 {% endtab %}
@@ -81,12 +81,16 @@ See [OSMP's Glossary](https://osmp.ngo/glossary) for the definition of each cate
 {% endtab %}
 
 {% tab title="Functional Use" %}
+_(The impact or effect the munition is intended to have.)_
+
 Blast Munition, Chemical Munition, Cluster Munition, Decoy Munition, Fragmentation Munition, Illumination Munition, Incendiary Munition, Kinetic Munition, Shaped Charge Munition, Smoke Munition
 
 See [OSMP's Glossary](https://osmp.ngo/glossary) for the definition of each category.&#x20;
 {% endtab %}
 
 {% tab title="Tentative Model" %}
+_(Specific model of the munition pictured)_
+
 3-Z-2, 3M-14 / 3M-54 Kalibr series, 3M-14 Kalibr series, 3M-54 Kalibr series, 3M22 Zircon series, 3OF22, 3S9, 3VOF32, 3VOF81, 40M11, 57E6 Pantsir, 5V24/5V27 (S-125), 5V27 (S-125), 5V55 (S-300), 5V55 (S-300)/48N6 (S-400), 9M120, 9M14 Malyutka, 9M22 Grad series, 9M22S Grad, 9M22U Grad, 9M27 Uragan series, 9M27K Uragan, 9M27K Uragan series, 9M27K2, 9M27K3, 9M28-1 Grad, 9M28S Grad, 9M317 Series, 9M33 series, 9M330/9M331, 9M38 series, 9M38M1, 9M39, 9M51, 9M54 Smerch series, 9M544, 9M55 Smerch series, 9M55K Smerch series, 9M7 Iskander series, 9M723K1 Iskander, 9M79 Tochka series, 9M79K Tochka series, 9M79M Tochka, 9M83 series, A1Zh, A1ZhD, AASM-250 HAMMER series, ADM-160B MALD, AGM-114 Hellfire series, AGM-114 Hellfire/AGM-179 JAGM, AGM-114R9X Hellfire, AGM-142 Popeye series, AGM-154 JSOW series, AGM-154C JSOW, AGM-84 series, AGM-84H and AGM-84K SLAM-ER series, AGM-88 HARM and AARGM series, AGM-88E AARGM, APKWS series, Arash series, Arash-2, Arrow 2, Arrow 3, BGM-71 TOW, BK18M, BLU-108, BLU-109, BLU-111, BLU-117, Blue Sparrow series, BM-15, Brimstone I, Carpet, CBU-105D/B, CBU-52B/B, CBU-58A/B, Chameleon 3, D-5, DM 105, Emad, ERFB, EXTRA series, F-843, F-864, FAB-500 M54, FAB-500 M62, FAB-500Sh series, Fadak 2, Fajr 1, Falaq-1, Fattah-1, Fateh-110 series, FGM-148 Javelin missile, GBU-12 Paveway II series, GBU-16 Paveway II series, GBU-24 Paveway III series, GBU-31 JDAM, GBU-32 JDAM, GBU-38 JDAM, GBU-39 series, GBU-53/B StormBreaker, Gerbera series, GMLRS, Grom, Harop, Haseb Fajr-1, HE 60MA, HE 82M, HE ER FB-BB, J-M49A2, JDAM kit, JDAM-ER kit, JROF-K, JVA 1571, Kh-101, Kh-22 series, Kh-31 series, Kh-47M2 Kinzhal series, Kh-55 Series, Kh-59 series, Kh-59MK2, Kheibar Shekan, Kheibar Shekan / Fattah-1, KN-23/KN-24/Hwasong-11 series, Lizard kit, M-302/Khaibar-1/Fadi-2, M1, M107, M1101, M117 series, M150, M26 series, M302A1 / A2, M325, M329 APAM, M339, M344, M44A2, M48, M485, M485 series, M49A2, M712 Copperhead, M77/M101, M795, M824, M825 series, M825A1, M91, M927, M933 series, M982 Excalibur, M996, MAB-10B6, MAB-25E3, MAB-5B3, MAM-L, MAM-T, MGM-140 ATACMS series, Mikholit, MIM-401 Talon series (THAAD), MK 80 series, MK 82 series, MK 83 series, MK 84 series, MO.I.01.04 series, Nasr-1/Nasr-2, NLAW Missile, NR269, O-832, O-832 series, O-832D, OF-19, OF-25, OF-25T, OF-26, OF-29, OF-36, OF-39 Krasnopol, OF-43, OF-462, OF-462Zh, OF-482M, OF-540, OF-56-1, OF-843, OF-843B, OF-NMR, OF45, OF49, OF5, OF56, OF56-1, OF59, OFAB-100-120, OFAB-250 ShN, OFAB-500 ShR, OFZAB-500, OG-9 series, Osa series, P1A1, Paveh/Quds series, Paveway kit, PFM-1 series, PG-7 series, PG-7VL, PG-9, PTM-1 series, Qaem-5, R-122, R-13, R-27, R-73, R-77, Rampage series, RBK-250, RBK-500 PTAB-1M, RBK-500 series, RGM/UGM-109 Tomahawk Land Attack Missile (TLAM) series, RIM-161 Standard Missile 3 (SM-3) Blk I series, Romach/Bar series, S-25-O, S-25-OFM, S-5 series, S-5KPB, S-8, S-832S, S-843, S6, Shahab-3 series, Shahed-101 series, Shahed-131 series, Shahed-131/136 series, Shahed-136 series, Shahed-238 series, SkyStriker, SPICE 1000, SPICE 1000 kit, SPICE 2000, SPICE 2000 kit, SPICE 250, Spike Firefly, Spike series, Storm Shadow/SCALP-EG, Stunner, SUU-30H/B, Tamir, Type 63, Type 63 series, VOF-463M, ZAB-250-200
 {% endtab %}
 {% endtabs %}
