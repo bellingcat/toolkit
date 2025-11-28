@@ -12,7 +12,7 @@ description: Identify bird sounds - find bird sounds on a global map.
 
 BirdNET LiveMap is an online interactive map that displays bird sound detections and the associated bird species from around the world in near real time. &#x20;
 
-As part of a wider research project to use computers to learn and identify bird sounds, the LiveMap aggregates anonymized user-inputted data and bird recordings, displaying results of bird sightings across the world from the last 24 hours.
+As part of a wider research project to use AI to learn and identify bird sounds, the LiveMap aggregates anonymized user-inputted data and bird recordings, displaying results of bird sightings across the world from the last 24 hours.
 
 Additionally the LiveMap provides a list of recent sightings along with hourly observations and number of species observed, along with the most frequently observed birds for Europe and North America, with plans to expand the geographical remit.
 
