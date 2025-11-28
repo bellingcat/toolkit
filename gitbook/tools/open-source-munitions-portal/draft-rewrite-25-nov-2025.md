@@ -39,4 +39,12 @@ The partner organizations are: [Mwatana for Human Rights](https://www.mwatana.or
 Submissions must include decent-quality images where the munition/remnant is visible and a source link. The team runs reverse-image searches on submitted content to seek the most reliable, closest-to-original sources before expert classification begins. [(Timestamp 00:29:02 - 00:30:21)](https://rss.com/podcasts/bellingcatstagetalk/1965759/)&#x20;
 {% endhint %}
 
+### Munition Categories
+
+{% hint style="warning" %}
+**IMPORTANT NOTE:** The three munitions ID databases have different scopes that create overlap and categorization inconsistencies. CAT-UXO catalogs explosive ordnance only and uses **'type'** as its organizing term. OSMP covers all munitions (including non-explosive) and uses **'munitions category.'** Bulletpicker has the broadest scope—ordnance plus related items like fuzes, containers, training aids, and components—organized under **'ordnance and related items.'** The same munition can appear in multiple databases but may be categorized differently depending on each tool's scope and organizational structure.
+{% endhint %}
+
+
+
 [^1]: The munition has either partially or fully operated, and the intended effect has occurred. For explosive munitions, this usually means a detonation. (Source: [https://osmp.ngo/resources/glossary/](https://osmp.ngo/resources/glossary/) )&#x20;
