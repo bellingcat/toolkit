@@ -97,7 +97,9 @@ _(Specific model of the munition pictured)_
 
 {% tabs %}
 {% tab title="Research Organization" %}
+_(The external organization that documented the munition)_&#x20;
 
+[Mwatana for Human Rights](https://www.mwatana.org/en/home), [Airwars](https://airwars.org), [ARES (Armament Research Services)](https://armamentresearch.com/), [Bellingcat](https://bellingcat.com), [Human Rights Watch](https://hrw.org), [Myanmar Witness](https://www.info-res.org/myanmar-witness/).
 {% endtab %}
 
 {% tab title="Base Colour" %}
