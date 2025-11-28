@@ -1,5 +1,6 @@
 ---
 description: A comprehensive global database on terrestrial and marine protected areas.
+updated: '2025-11-27'
 ---
 
 # World Database on Protected and Conserved Areas
