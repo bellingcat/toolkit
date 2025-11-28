@@ -13,7 +13,7 @@ Open Source Munitions Portal (OSMP) is a verified image repository of munition t
 Any researcher or investigator interested in determining the type of munition used in a particular attack can visit the portal with their source imagery. They can then search through the portal’s images to make comparisons and see if they can find a match. If available, users will be able to find some, if not all of the following information about the munition: **Reported Location, Reported Year, Munition Category, Functional Use, Tentative Model, Base Color, Condition, Mechanical Feature, Guidance, Domain, Fins Characteristics, Caliber, Related Images, Research Organization, Marking Color, Marking Script.**
 
 {% hint style="info" %}
-[Every image has been reviewed by at least two specialists](https://osmp.ngo/about/) (See methodology) before it is published in the portal. Every entry has been classified under at least one munition category.
+[Every image has been reviewed by at least two specialists](https://osmp.ngo/about/) (See methodology) before it is published in the portal. Every entry has been classified under at least one munition category. Researchers using this portal will, at the very least, **be able to classify** the munition they are inquiring about.&#x20;
 {% endhint %}
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/2025-11-26_00-49-07-ed2.png" alt=""><figcaption></figcaption></figure></div>
