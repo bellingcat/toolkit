@@ -18,9 +18,7 @@ Additionally the LiveMap provides a list of recent sightings along with hourly o
 
 It is based on data of sound recordings provided through the [BirdNET app](https://apps.apple.com/us/app/birdnet/id1541842885) which can be uploaded by any user. Users in turn can use the app to ID birds based on machine learning of common bird species.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-11-01 095429.png" alt=""><figcaption></figcaption></figure>
-
-The LiveMap also displays the total number of observations, the number of observations in the last 24 hours, the number of species identified, the number of users in the last 24 hours and other details.
+<figure><img src=".gitbook/assets/Screenshot 2025-11-01 095429.png" alt=""><figcaption><p>The LiveMap also displays the total number of observations, the number of observations in the last 24 hours, the number of species identified, the number of users in the last 24 hours and other details.</p></figcaption></figure>
 
 BirdNet can not only be useful for open source researchers who are researching environmental topics but also for those who need to identify birdcalls captured in video or audio recordings, especially if they want to narrow down the regions of the world in which they could have been taken.
 
