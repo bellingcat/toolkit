@@ -13,9 +13,9 @@ http://insecam.org \
 
 ## Description
 
-Insecam shows live feeds of internet protocol (IP) surveillance cameras around the world. The live feeds are made available on this site because the camera owners did not change the camera's password to be different from the default factory setting. \
+Insecam shows live feeds of internet protocol (IP) surveillance cameras around the world. The live feeds are made available on this site because the camera owners did not change the camera's password from the default factory setting. \
 \
-Insecam allows searches by location (city, country, type of place, timezone) and camera brand.
+Insecam allows searches by location (city, country, type of place, timezone), popularity and camera brand.
 
 The camera feeds show a variety of public spaces. Camera feeds of private residences are not shown on the site.&#x20;
 
@@ -33,7 +33,7 @@ No account registration required.&#x20;
 
 ## Requirements
 
-**Proceed with caution**: Please note the high number of advertising trackers and potential privacy issues.&#x20;
+**Proceed with caution**: The website has a high number of advertising trackers.
 
 ## Limitations
 
@@ -49,8 +49,7 @@ The following articles describe the general user experience and do not refer spe
 
 What I Discovered After Watching 24-Hour Surveillance Footage for a Week (VICE, 22 May, 2018, by Daisy Jones) [https://www.vice.com/en/article/what-i-discovered-after-watching-24-hour-surveillance-footage-for-a-week/](https://www.vice.com/en/article/what-i-discovered-after-watching-24-hour-surveillance-footage-for-a-week/)
 
-Insecam: the website that allows users to spy on strangers (Northeast Bylines, 4 March, 2025, by Gabriel Pazmiño) [https://northeastbylines.co.uk/business/technology/insecam-the-website-that-allows-users-to-spy-on-strangers/](https://northeastbylines.co.uk/business/technology/insecam-the-website-that-allows-users-to-spy-on-strangers/)\
-
+Insecam: the website that allows users to spy on strangers (Northeast Bylines, 4 March, 2025, by Gabriel Pazmiño) [https://northeastbylines.co.uk/business/technology/insecam-the-website-that-allows-users-to-spy-on-strangers/](https://northeastbylines.co.uk/business/technology/insecam-the-website-that-allows-users-to-spy-on-strangers/)<br>
 
 ## Tool provider
 
