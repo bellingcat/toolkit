@@ -22,7 +22,7 @@ It is based on data of sound recordings provided through the [BirdNET app](https
 
 The LiveMap also displays the total number of observations, the number of observations in the last 24 hours, the number of species identified, the number of users in the last 24 hours and other details.
 
-BirdNet can not only be useful for open source researchers who are researching environmental topics but also for those who need to identify birdcalls captured in video or audio recordings to find out in what regions of the world it could have been taken.
+BirdNet can not only be useful for open source researchers who are researching environmental topics but also for those who need to identify birdcalls captured in video or audio recordings, especially if they want to narrow down the regions of the world in which they could have been taken.
 
 ## Cost
 
