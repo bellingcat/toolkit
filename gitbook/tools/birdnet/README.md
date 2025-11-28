@@ -24,6 +24,8 @@ The LiveMap is intended to be used by scientists and researchers for monitoring 
 
 The LiveMap also displays the total number of observations, the number of observations in the last 24 hours, the number of species identified, the number of users in the last 24 hours and other details.
 
+## Similar Tools
+
 ## Cost
 
 * [x] Free
