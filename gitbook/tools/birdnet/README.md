@@ -24,8 +24,6 @@ The LiveMap is intended to be used by scientists and researchers for monitoring 
 
 The LiveMap also displays the total number of observations, the number of observations in the last 24 hours, the number of species identified, the number of users in the last 24 hours and other details.
 
-## Similar Tools
-
 ## Cost
 
 * [x] Free
@@ -65,6 +63,8 @@ A [repository of use cases](https://birdnet-team.github.io/BirdNET-Analyzer/proj
 ## Tool provider
 
 Developed by BirdNET, a collaboration between the Cornell Lab of Ornithology and Chemnitz University of Technology.
+
+## Similar Tools
 
 ## Advertising Trackers
 
