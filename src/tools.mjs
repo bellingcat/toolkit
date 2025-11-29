@@ -238,7 +238,7 @@ async function createToolOnGitbook(toolName, category, email) {
   }
 
   if (space.urls) {
-    return space.urls.app;
+    return space;
   } else {
     debug('Error: No URL found');
     debug(space);

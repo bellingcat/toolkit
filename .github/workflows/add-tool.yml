@@ -55,7 +55,8 @@ jobs:
         env:
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
         run: |
-          node src/add-space.mjs "$TOOL_NAME" "$EMAIL" "$CATEGORY"
+          SPACE_ID=$(node src/add-space.mjs "$TOOL_NAME" "$EMAIL" "$CATEGORY")
+          echo "spaceId=$SPACE_ID" >> "$GITHUB_OUTPUT"
           if [ -n "$(git status --porcelain)" ]; then
             echo "changes=true" >> "$GITHUB_OUTPUT"
           fi
@@ -144,6 +145,7 @@ jobs:
 
           echo 'PROJECT_ID='$(jq '.data.organization.projectV2.id' project_data.json) >> $GITHUB_ENV
           echo 'TOOLID_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Tool ID") | .id' project_data.json) >> $GITHUB_ENV
+          echo 'SPACEID_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Space ID") | .id' project_data.json) >> $GITHUB_ENV
 
       - name: Add to Project
         env:
@@ -168,6 +170,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
           TOOL_ID: ${{ steps.add-folder.outputs.toolId }}
+          SPACE_ID: ${{ steps.add-space.outputs.spaceId }}
         run: |
           gh api graphql -f query='
             mutation (
@@ -175,18 +178,30 @@ jobs:
               $item: ID!
               $field: ID!
             ) {
-              set_status: updateProjectV2ItemFieldValue(input: {
+              set_tool_id: updateProjectV2ItemFieldValue(input: {
                 projectId: $project
                 itemId: $item
-                fieldId: $field
+                fieldId: $tool_field
                 value: {
-                  text: $value
+                  text: $tool_value
                   }
               }) {
                 projectV2Item {
                   id
                   }
               }
-            }' -f project=$PROJECT_ID -f item=$ITEM_ID -f field=$TOOLID_FIELD_ID -f value=${{ env.TOOL_ID }} -f --silent
+              set_space_id: updateProjectV2ItemFieldValue(input: {
+                projectId: $project
+                itemId: $item
+                fieldId: $space_field
+                value: {
+                  text: $space_value
+                  }
+              }) {
+                projectV2Item {
+                  id
+                  }
+              }
+            }' -f project=$PROJECT_ID -f item=$ITEM_ID -f tool_field=$TOOLID_FIELD_ID -f tool_value=${{ env.TOOL_ID }} -f space_field=$SPACEID_FIELD_ID -f space_value=${{ env.SPACE_ID }} --silent
 
             #'
