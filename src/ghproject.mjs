@@ -25,6 +25,7 @@ const FIELDS = {
   reviewers: { name: "CR Reviewers"},
   author: { name: "CR Author"},
   toolId: { name: "Tool ID"},
+  spaceId: { name: "Space ID"},
   title: { name: "Title"},
   collection: { name: "Collection"},
 };
@@ -70,6 +71,7 @@ const items = (function processProjectItems() {
       updatedAt: getField(FIELDS.updatedAt.name, item).date,
       space: getField(FIELDS.space.name, item).text,
       toolId: getField(FIELDS.toolId.name, item).text,
+      spaceId: getField(FIELDS.spaceId.name, item).text,
       changeRequestAuthor: getField(FIELDS.author.name, item).text,
       reviewers: getField(FIELDS.reviewers.name, item).text,
       collection: getField(FIELDS.collection.name, item).text,
@@ -97,6 +99,10 @@ tools.forEach(async function(tool) {
   if (item.title !== tool.title) {
     changed.title = tool.title;
     changes.push(graphql.setTextField(item.id, FIELDS.title.id, tool.title));
+  }
+  if (item.spaceId !== space.id) {
+    changed.spaceId = space.id;
+    changes.push(graphql.setTextField(item.id, FIELDS.spaceId.id, space.id));
   }
   if (item.space !== space.urls.app) {
     changed.space = space.urls.app;
