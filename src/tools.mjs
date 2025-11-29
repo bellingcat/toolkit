@@ -137,6 +137,11 @@ function createTool(tool, opts={}) {
   return slug;
 }
 
+async function fetchSpace(spaceId) {
+  return await apiCall(`https://api.gitbook.com/v1/spaces/${spaceId}`, {
+    method: 'GET',
+  });
+}
 async function fetchSpaces(page='', collectionId='jQKvylm6WgaH5IFrlIMh') {
   const collections = await _fetchCollections();
   const collectionIds = ['jQKvylm6WgaH5IFrlIMh'].concat( collections.filter((c) => c.parent === 'jQKvylm6WgaH5IFrlIMh').map((c) => c.id) );
@@ -421,6 +426,7 @@ export default {
   createTool,
   createToolOnGitbook,
   fetchTeams,
+  fetchSpace,
   fetchSpaces,
   fetchChangeRequestReviewers,
   fetchLatestChangeRequest,

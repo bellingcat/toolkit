@@ -3,7 +3,7 @@ import path from 'path'
 import pkg from './paths.mjs'
 const {getTools, getSummary} = pkg;
 import pkg2 from './tools.mjs'
-const {fetchCollection, fetchLatestChangeRequest, fetchChangeRequestReviewers, findSpace} = pkg2
+const {fetchCollection, fetchLatestChangeRequest, fetchChangeRequestReviewers, fetchSpace} = pkg2
 import graphql from './graphql.mjs';
 
 // Emits graphql mutations to update project items based on data from gitbook API
@@ -85,24 +85,20 @@ const summary = getSummary('gitbook');
 tools.forEach(async function(tool) {
   let changed = {};
   let changes = [];
-  const space = findSpace(tool.title);
-  if (!space) {
-    return;
-  }
-  const collection = await fetchCollection(space.parent);
   const item = items.find((item) => item.toolId === tool.filename);
   if (!item) {
     console.error("No gh project item for tool", tool.title);
     return;
   }
+  const space = await fetchSpace(item.spaceId);
+  if (!space) {
+    return;
+  }
+  const collection = await fetchCollection(space.parent);
 
   if (item.title !== tool.title) {
     changed.title = tool.title;
     changes.push(graphql.setTextField(item.id, FIELDS.title.id, tool.title));
-  }
-  if (item.spaceId !== space.id) {
-    changed.spaceId = space.id;
-    changes.push(graphql.setTextField(item.id, FIELDS.spaceId.id, space.id));
   }
   if (item.space !== space.urls.app) {
     changed.space = space.urls.app;
