@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  sync_crs:
+  sync:
     runs-on: ubuntu-latest
     env:
       PROJECT_DATA_JSON: project_data.json
