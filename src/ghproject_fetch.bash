@@ -7,6 +7,9 @@ fi
 
 PROJECT_ID=$1
 
+# Delete any existing temporary files
+rm nodes_*.json 2> /dev/null
+
 # Calls gh cli to download project items using cursor-based pagination
 while [[ "$HAS_NEXT_PAGE" != false ]]; do
   result=$(gh api graphql -f query='
