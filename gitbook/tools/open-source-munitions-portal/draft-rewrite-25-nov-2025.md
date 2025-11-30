@@ -61,7 +61,7 @@ Users have 17 ways to filter for information. See the tabs below for the differe
 
 {% tabs %}
 {% tab title="Search Tab" %}
-This functions as a standard search bar, and users can input keywords of interest.&#x20;
+This functions as a standard search bar, allowing users to enter keywords of interest.&#x20;
 {% endtab %}
 
 {% tab title="Reported Location" %}
@@ -105,25 +105,37 @@ _(The external organization that documented the munition)_&#x20;
 {% endtab %}
 
 {% tab title="Base Colour" %}
+_(Colour of the munition pictured)_&#x20;
 
+&#x20;Black, Blue, Brown, Copper, Gold, Green, Grey/Silver, Orange, Purple, Red, White, Yellow/Tan
 {% endtab %}
 
 {% tab title="Marking Colour" %}
+_(Colour of all, or some of the markings on the munition)_
 
+Black, Blue, Brown, Gold, Green, Grey/Silver, Orange, Red, White, Yellow
 {% endtab %}
 
 {% tab title="Marking Script" %}
+_(Language or script of the marking on a munition)_
 
+Chinese, Cyrillic, Farsi, Hebrew, Japanese, Latin, Numerical, Symbols, Turkish
 {% endtab %}
 
 {% tab title="Condition" %}
+_(Condition of the munition pictured)_
 
+Delivered Munition
 {% endtab %}
 
 {% tab title="Mechanical Feature" %}
 
 {% endtab %}
 {% endtabs %}
+
+
+
+
 
 {% tabs %}
 {% tab title="Guidance" %}
