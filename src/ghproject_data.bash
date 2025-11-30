@@ -13,7 +13,7 @@ gh api graphql -f query='
     organization(login: $org){
       projectV2(number: $number) {
         id
-        fields(first:20) {
+        fields(first:100) {
           nodes {
             ... on ProjectV2Field {
               id

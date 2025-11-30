@@ -19,7 +19,7 @@ while [[ "$HAS_NEXT_PAGE" != false ]]; do
             items(first: 100, after: $after) {
               nodes {
                 id
-                fieldValues(first: 20) {
+                fieldValues(first: 100) {
                   nodes{
                     ... on ProjectV2ItemFieldTextValue {
                       text
