@@ -55,6 +55,8 @@ Users can find information in the portal through different ways. Users can:
 
 ### **FILTER**
 
+<figure><img src=".gitbook/assets/2025-11-14_18-04-14-ed1.png" alt=""><figcaption><p>This image shows the various ways to search for munitions in the portal. This shows the landing page of OSMP. Immediately at the top (PURPLE BOX) are filtering and search options; Below (YELLOW ARROW) are munitions grouped as a "collection" either by munition type (those commonly used); by conflict area; or by research organization (munitions documented by external organizations). Users can also find 3D models of common munition types like the Shahed and the GBU-39 (RED CIRCLE).</p></figcaption></figure>
+
 Users have 17 ways to filter for information. See the tabs below for the different input options.&#x20;
 
 {% tabs %}
