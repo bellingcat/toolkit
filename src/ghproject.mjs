@@ -90,6 +90,11 @@ tools.forEach(async function(tool) {
     console.error("No gh project item for tool", tool.title);
     return;
   }
+  if (!item.spaceId) {
+    console.error("No space ID for tool", tool.title);
+    console.error("Item data:", JSON.stringify(item, null, 2));
+    throw new Error("No space ID for tool " + tool.title);
+  }
   const space = await fetchSpace(item.spaceId);
   if (!space) {
     return;
