@@ -202,7 +202,11 @@ There are two ways to do it.&#x20;
 <figure><img src=".gitbook/assets/2025-12-01_14-35-19-ed.png" alt=""><figcaption><p>METHOD 2:  Click on an individual entry, in this case, OSMP 1700 and scroll to the bottom. If available, OSMP will link additional images that is related to the current image being investigated.  </p></figcaption></figure>
 
 {% hint style="success" %}
-TIP: Use&#x20;
+TIP: Use this feature to boost investigation in two ways:&#x20;
+
+1\) Gain a fuller picture - Start with fragment → find match → see related entries with different angles/components → gain fuller picture of more than just a remnant.&#x20;
+
+2\) Backward discovery/ Finding more leads: Those related images reveal **what else to look for** → researcher returns to original incident site/footage → searches for previously unrecognized components now that they know what the complete munition looks like
 {% endhint %}
 
 [^1]: The munition has either partially or fully operated, and the intended effect has occurred. For explosive munitions, this usually means a detonation. (Source: [https://osmp.ngo/resources/glossary/](https://osmp.ngo/resources/glossary/) )&#x20;
