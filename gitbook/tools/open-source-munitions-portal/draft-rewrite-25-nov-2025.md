@@ -175,24 +175,34 @@ _(Weight class of the aerial bomb pictured)_
 
 **Analyst Notes** are sometimes added to an OSMP entry after review by two ARES specialists. These notes provide extra details that may not necessarily be obvious from the basic classification. These are sometimes used to highlight diagnostic features or explain how they arrived at a tentative identification of a munition. This sometimes includes notes on specific variants when identifiable.&#x20;
 
-giving users a more intermediate understanding of how the munition was identified without Based on our tests, this bridges the gap between a simple tag and a full technical explanation, which gives users a more intermediate understanding of how the munition was identified without it being overly complicated.&#x20;
+Based on our tests, this bridges the gap between a simple tag and a full technical explanation, which gives users a more intermediate understanding of how the munition was identified without it being overly complicated.&#x20;
+
+{% hint style="warning" %}
+NOTE: This feature is not available on all entries. But it is recommended to check them if available.&#x20;
+{% endhint %}
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><strong>FIRST:</strong> <strong>If available, researchers can find the "Analyst Notes" immediately at the landing page with the munition entry.</strong> </td><td><a href=".gitbook/assets/2025-12-01_14-00-07.png">2025-12-01_14-00-07.png</a></td></tr><tr><td><strong>SECOND: If available, researchers can find the "Analysts Notes"  when clicking on an individual OSMP entry, at the bottom of the classification and other information.</strong> </td><td><a href=".gitbook/assets/2025-12-01_14-01-09.png">2025-12-01_14-01-09.png</a></td></tr></tbody></table>
 
 ### RELATED MUNITIONS
 
-A key feature of OSMP is it's "Related" function. A user can hover over one image/entry and it will immediately show the users other images related to their source imagery.
+A key feature of OSMP is its "Related" function.  The "Related" feature works like a cross-referencing tool in OSMP. It visually links other images or entries that show: (1) [Different parts or components of the same munition type](https://osmp.ngo/osmp1641/); (2) [Different views or angles of the same munition remnants that the user may not have previously seen](https://osmp.ngo/osmp1700/); (3) Additional remnants that may help with proper identification.&#x20;
 
-<figure><img src=".gitbook/assets/2025-12-01_14-34-33-ed.gif" alt=""><figcaption><p>Users can hover over a particular munition entry, and the tool automatically highlights possible related munitions to what they are searching. Seen here, we hover over OSMP 1701 which automatically highlights in BLUE/GREY the other entries that are related to OSMP 1701. </p></figcaption></figure>
+{% hint style="warning" %}
+Note that this feature is not available on all entries.&#x20;
+{% endhint %}
 
+There are two ways to do it.&#x20;
 
+**METHOD 1: From the landing page, users can hover over one image/entry, and it will immediately highlight the other images related to their source imagery.**
 
-The "Related" feature works like a cross-referencing tool in OSMP. It visually links other images or entries that show: (1) [Different parts or components of the same munition type](https://osmp.ngo/osmp1641/); (2) [Different views or angles of the same munition remnants that the user may not have previously seen](https://osmp.ngo/osmp1700/); (3) Same munition type used in different incidents or locations; (4) Additional remnants that may help with proper identification.&#x20;
+<figure><img src=".gitbook/assets/2025-12-01_14-34-33-ed.gif" alt=""><figcaption><p>METHOD 1: Users can hover over a particular munition entry, and the tool automatically highlights possible related munitions to what they are searching. Seen here, we hover over OSMP 1701 which automatically highlights in BLUE/GREY the other entries that are related to OSMP 1701. </p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/2025-12-01_14-35-19-ed.png" alt=""><figcaption></figcaption></figure>
+**METHOD 2: Click on an individual entry and scroll below to see related entries.**&#x20;
 
+<figure><img src=".gitbook/assets/2025-12-01_14-35-19-ed.png" alt=""><figcaption><p>METHOD 2:  Click on an individual entry, in this case, OSMP 1700 and scroll to the bottom. If available, OSMP will link additional images that is related to the current image being investigated.  </p></figcaption></figure>
 
-
-
+{% hint style="success" %}
+TIP: Use&#x20;
+{% endhint %}
 
 [^1]: The munition has either partially or fully operated, and the intended effect has occurred. For explosive munitions, this usually means a detonation. (Source: [https://osmp.ngo/resources/glossary/](https://osmp.ngo/resources/glossary/) )&#x20;
