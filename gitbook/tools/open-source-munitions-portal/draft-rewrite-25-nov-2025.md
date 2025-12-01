@@ -53,11 +53,11 @@ Users can find information in the portal through different ways. Users can:
 
 1. Filter; (2)  Use the search bar; (3) Use the collection of “Featured Materials”; (4) Use the “Related” Feature
 
-### **FILTER**
+### **KEYWORD SEARCH AND FILTER**
 
 <figure><img src=".gitbook/assets/2025-11-14_18-04-14-ed1.png" alt=""><figcaption><p>This image shows the various ways to search for munitions in the portal. This shows the landing page of OSMP. Immediately at the top (PURPLE BOX) are filtering and search options; Below (YELLOW ARROW) are munitions grouped as a "collection" either by munition type (those commonly used); by conflict area; or by research organization (munitions documented by external organizations). Users can also find 3D models of common munition types like the Shahed and the GBU-39 (RED CIRCLE).</p></figcaption></figure>
 
-Users have 17 ways to filter for information. See the tabs below for the different input options.&#x20;
+_**Users have 17 ways to filter for information. See the tabs below for the different input options.**_&#x20;
 
 {% tabs %}
 {% tab title="Search Tab" %}
@@ -167,8 +167,18 @@ _(Nominal diameter of a projectile in mm or inches)_
 {% tab title="Weight Class" %}
 _(Weight class of the aerial bomb pictured)_
 
-2.5 kg, 20 kg, 49 kg, 50 kg, 200 kg, 250 kg, 250 lbs, 500 kg, 500 lbs, 700 kg, 750 lbs, 1000 lbs, 2000 lbs, 3000 lb
+2.5 kg, 20 kg, 49 kg, 50 kg, 200 kg, 250 kg, 250 lbs, 500 kg, 500 lbs, 700 kg, 750 lbs, 1000 lbs, 2000 lbs, 3000 lbs
 {% endtab %}
 {% endtabs %}
+
+### ANALYST NOTES
+
+**Analyst Notes** are sometimes added to an OSMP entry after review by two ARES specialists. These notes provide extra details that may not necessarily be obvious from the basic classification. These are sometimes used to highlight diagnostic features or explain how they arrived at a tentative identification of a munition. This sometimes includes notes on specific variants when identifiable.&#x20;
+
+giving users a more intermediate understanding of how the munition was identified without Based on our tests, this bridges the gap between a simple tag and a full technical explanation, which gives users a more intermediate understanding of how the munition was identified without it being overly complicated.&#x20;
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><strong>FIRST:</strong> <strong>If available, researchers can find the "Analyst Notes" immediately at the landing page with the munition entry.</strong> </td><td><a href=".gitbook/assets/2025-12-01_14-00-07.png">2025-12-01_14-00-07.png</a></td></tr><tr><td><strong>SECOND: If available, researchers can find the "Analysts Notes"  when clicking on an individual OSMP entry, at the bottom of the classification and other information.</strong> </td><td><a href=".gitbook/assets/2025-12-01_14-01-09.png">2025-12-01_14-01-09.png</a></td></tr></tbody></table>
+
+
 
 [^1]: The munition has either partially or fully operated, and the intended effect has occurred. For explosive munitions, this usually means a detonation. (Source: [https://osmp.ngo/resources/glossary/](https://osmp.ngo/resources/glossary/) )&#x20;
