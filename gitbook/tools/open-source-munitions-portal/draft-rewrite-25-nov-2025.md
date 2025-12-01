@@ -179,6 +179,20 @@ giving users a more intermediate understanding of how the munition was identifie
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><strong>FIRST:</strong> <strong>If available, researchers can find the "Analyst Notes" immediately at the landing page with the munition entry.</strong> </td><td><a href=".gitbook/assets/2025-12-01_14-00-07.png">2025-12-01_14-00-07.png</a></td></tr><tr><td><strong>SECOND: If available, researchers can find the "Analysts Notes"  when clicking on an individual OSMP entry, at the bottom of the classification and other information.</strong> </td><td><a href=".gitbook/assets/2025-12-01_14-01-09.png">2025-12-01_14-01-09.png</a></td></tr></tbody></table>
 
+### RELATED MUNITIONS
+
+A key feature of OSMP is it's "Related" function. A user can hover over one image/entry and it will immediately show the users other images related to their source imagery.
+
+<figure><img src=".gitbook/assets/2025-12-01_14-34-33-ed.gif" alt=""><figcaption><p>Users can hover over a particular munition entry, and the tool automatically highlights possible related munitions to what they are searching. Seen here, we hover over OSMP 1701 which automatically highlights in BLUE/GREY the other entries that are related to OSMP 1701. </p></figcaption></figure>
+
+
+
+The "Related" feature works like a cross-referencing tool in OSMP. It visually links other images or entries that show: (1) [Different parts or components of the same munition type](https://osmp.ngo/osmp1641/); (2) [Different views or angles of the same munition remnants that the user may not have previously seen](https://osmp.ngo/osmp1700/); (3) Same munition type used in different incidents or locations; (4) Additional remnants that may help with proper identification.&#x20;
+
+<figure><img src=".gitbook/assets/2025-12-01_14-35-19-ed.png" alt=""><figcaption></figcaption></figure>
+
+
+
 
 
 [^1]: The munition has either partially or fully operated, and the intended effect has occurred. For explosive munitions, this usually means a detonation. (Source: [https://osmp.ngo/resources/glossary/](https://osmp.ngo/resources/glossary/) )&#x20;
