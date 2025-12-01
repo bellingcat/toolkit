@@ -141,23 +141,33 @@ Driving Bands; Flat Base; Hydraulic and/or Electronic Components; Obturating Rin
 
 {% tabs %}
 {% tab title="Guidance" %}
+_(whether a munition is guided or unguided)_
 
+_&#x47;_&#x75;ided munition, Unguided munition
 {% endtab %}
 
 {% tab title="Domain" %}
+_(Where a munition is launched from and what it targets)_&#x20;
 
+Air-to-Air; Air-to-Surface; Drone (UAV); Surface-to-Air; Surface-to-Surface
 {% endtab %}
 
 {% tab title="Fins Characteristic" %}
+_(The type of fins visible on the munition)_
 
+Fins Attached to Perforated Cylinder; Fixed Fins; Hinged/Actuated Fins; Multiple Fins; Wide Fins
 {% endtab %}
 
 {% tab title="Calibre" %}
+_(Nominal diameter of a projectile in mm or inches)_
 
+55 mm, 57 mm, 60 mm, 70 mm, 72 mm, 73 mm, 76 mm, 80 mm, 81 mm, 82 mm, 85 mm, 90 mm, 93 mm, 105 mm, 106 mm, 107 mm, 120 mm, 122 mm, 125 mm, 127 mm, 130 mm, 150 mm, 152 mm, 155 mm, 160 mm, 165 mm, 178 mm, 180 mm, 200 mm, 203 mm, 206 mm, 220 mm, 227 mm, 230 mm, 235 mm, 240 mm, 254 mm, 265 mm, 266 mm, 300 mm, 302 mm, 306 mm, 310 mm, 343 mm, 350 mm, 357 mm, 360 mm, 370 mm, 375 mm, 380 mm, 400 mm, 500 mm, 514 mm, 518 mm, 533 mm, 600 mm, 610 mm, 630 mm, 650 mm, 740 mm, 800 mm, 910 mm, 920 mm, 1000 mm, 1250 mm, 1380 mm
 {% endtab %}
 
 {% tab title="Weight Class" %}
+_(Weight class of the aerial bomb pictured)_
 
+2.5 kg, 20 kg, 49 kg, 50 kg, 200 kg, 250 kg, 250 lbs, 500 kg, 500 lbs, 700 kg, 750 lbs, 1000 lbs, 2000 lbs, 3000 lb
 {% endtab %}
 {% endtabs %}
 
