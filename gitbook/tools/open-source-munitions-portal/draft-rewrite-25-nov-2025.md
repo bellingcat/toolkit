@@ -237,9 +237,9 @@ Users can also find munition information in the featured materials collection on
 
 #### 3D MODELS
 
-OSMP also features a few 3D Models of common munition types. This contains a short introduction and an interactive 3D model with tips on how to identify the munition.&#x20;
+OSMP also features a few 3D Models of common munition types. This includes a short introduction and an interactive 3D model with tips on identifying or differentiating the munition.&#x20;
 
-<figure><img src=".gitbook/assets/2025-12-02_16-55-40.gif" alt=""><figcaption><p>Seen here is a 3D model of a GBU-39</p></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-12-02_16-55-40.gif" alt=""><figcaption><p>Seen here is a 3D model of a GBU-39. To the left are key features to help users identify this particular munition. </p></figcaption></figure>
 
 
 
