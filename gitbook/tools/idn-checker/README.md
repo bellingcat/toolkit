@@ -1,6 +1,6 @@
 ---
-description: IDN Checker detects visually similar versions of a domain.
 updated: '2025-08-19'
+description: IDN Checker detects visually similar versions of a domain.
 ---
 
 # IDN Checker
@@ -55,8 +55,6 @@ This is important because the punycode of a domain may be used for automated det
 
 _(Warning/alert displaying homograph domains along with their punycode representation)_
 
-
-
 ## Cost
 
 * [x] Free
@@ -65,21 +63,15 @@ _(Warning/alert displaying homograph domains along with their punycode represent
 
 IDN Checker is a free tool, however it is part of a broader premium suite of domain integrity services from Hold Security: [https://holdsecurity.com/solutions/domain-integrity-service/](https://holdsecurity.com/solutions/domain-integrity-service/)
 
-
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 IDN Checker has an easy-to-understand user interface, it does not require any technical knowledge to search and does not ask the user to create an account.
 
-
-
 ## Requirements
 
 There are no specific requirements to use the free version of IDN Checker. You only need to know the target domain you want to investigate.
-
-
 
 ## Limitations
 
@@ -90,8 +82,6 @@ It should be noted that the free version of IDN Checker does not enable any auto
 **Accuracy:**
 
 Warnings and alerts do not seem always accurate, in some cases a WHOIS search of homograph domains (whether current or historical) will not correspond to the level of threat identified by IDN Checker.
-
-
 
 ## Ethical Considerations
 
@@ -104,8 +94,6 @@ Not all IDN usage is malicious, many legitimate websites use non-ASCII character
 Be cautious about making definitive attributions based solely on alphabet types. Using Cyrillic characters doesn't automatically indicate Russian origins, for example, as these scripts are used across many countries and cultures, or can simply be chosen by a malicious actor.
 
 The key is using IDN Checker as part of a broader, contextual analysis rather than as a single judgment mechanism.
-
-
 
 ## Guides and articles
 
@@ -121,14 +109,11 @@ For a recent example of how an internationalized domain name can be used malicio
 
 This tool is provided by Hold Security LLC, [https://holdsecurity.com/](https://holdsecurity.com/)
 
-This company is headquartered in the US (Wisconsin), and has offices in Ukraine and the Czech Republic.\
-
+This company is headquartered in the US (Wisconsin), and has offices in Ukraine and the Czech Republic.
 
 ## Similar tools
 
 While there exists many tools to monitor domain registrations, to our knowledge IDN Checker is the only free tool to verify IDN registrations from a target domain at this time.
-
-
 
 ## Advertising Trackers
 
