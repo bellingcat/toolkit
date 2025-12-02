@@ -177,8 +177,10 @@ _(Weight class of the aerial bomb pictured)_
 
 Based on our tests, this bridges the gap between a simple tag and a full technical explanation, which gives users a more intermediate understanding of how the munition was identified without it being overly complicated.&#x20;
 
-{% hint style="warning" %}
+{% hint style="success" %}
 NOTE: This feature is not available in all entries. But it is recommended to check them if available.&#x20;
+
+**TIP:** Use Analyst Notes to find information on alternative names for munitions. **Munitions are sometimes called by different names**, such as the[ GBU-39, which is also referred to as SDB (Small Diameter Bomb)](https://osmp.ngo/osmp537/) OSMP537.
 {% endhint %}
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><strong>FIRST:</strong> <strong>If available, researchers can find the "Analyst Notes" immediately at the landing page with the munition entry.</strong> </td><td><a href=".gitbook/assets/2025-12-01_14-00-07.png">2025-12-01_14-00-07.png</a></td></tr><tr><td><strong>SECOND: If available, researchers can find the "Analysts Notes"  when clicking on an individual OSMP entry, at the bottom of the classification and other information.</strong> </td><td><a href=".gitbook/assets/2025-12-01_14-01-09.png">2025-12-01_14-01-09.png</a></td></tr></tbody></table>
@@ -225,7 +227,21 @@ This feature is not available in all entries.&#x20;
 
 <figure><img src=".gitbook/assets/osmp airwars.png" alt=""><figcaption><p>TWO-WAY DATABASE: If available, <strong>scroll down</strong> to "External Research" for any individual OSMP entry to check if there are links to incidents of civilian harm. Each incident report is verified with geolocation information. <strong>Scroll down</strong> on the individual Airwars incident for reference to a particular munition back to OSMP's database. </p></figcaption></figure>
 
-### FEATURED MATERIALS AND 3D MODELS<br>
+### OSMP COLLECTION AND 3D MODELS
+
+#### **OSMP Collection**&#x20;
+
+Users can also find munition information in the featured materials collection on the landing page. At the moment, these are materials conveniently grouped according to conflict (i.e.[ Iran-Israel 12-day war](https://osmp.ngo/collection/iran-israel-conflict-june-2025/); [Ukraine 2022-2025](https://osmp.ngo/collection/ukraine-2022-2024/)) or according to research organization (i.e. [Human Rights Watch](https://osmp.ngo/research_organisation/human-rights-watch/))
+
+<div align="center"><figure><img src=".gitbook/assets/2025-12-02_16-03-12-ed.png" alt="" width="375"><figcaption><p>Featured Materials found on the landing page of the tool, below the filtering options. </p></figcaption></figure></div>
+
+#### 3D MODELS
+
+OSMP also features a few 3D Models of common munition types. This contains a short introduction and an interactive 3D model with tips on how to identify the munition.&#x20;
+
+<figure><img src=".gitbook/assets/2025-12-02_16-55-40.gif" alt=""><figcaption><p>Seen here is a 3D model of a GBU-39</p></figcaption></figure>
+
+
 
 
 
