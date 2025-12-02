@@ -209,4 +209,20 @@ TIP: Use this feature to boost investigation in two ways:&#x20;
 2\) Backward discovery/ Finding more leads: Those related images reveal **what else to look for** → researcher returns to original incident site/footage → searches for previously unrecognized components now that they know what the complete munition looks like
 {% endhint %}
 
+### OSMP AND CIVILIAN HARM INCIDENTS
+
+Use OSMP with [Airwars' database ](http://airwars.org/)of verified incidents of civilian harm.&#x20;
+
+OSMP also links munitions directly to Airwars’[ verified civilian harm incidents](https://airwars.org/civilian-casualties/) to keep the focus on human impact. If available, users can find this by clicking on an individual OSMP entry and scrolling to the bottom. It is labeled **“External Research”** and includes an excerpt on the number of civilian deaths, location, and a link to the external source. <br>
+
+**For example:**&#x20;
+
+[OSMP506](https://osmp.ngo/osmp506/) is associated with Airwars’s civilian harm incident [ISPT0283](https://airwars.org/civilian-casualties/ispt0283-october-17-2023/).
+
+<figure><img src=".gitbook/assets/osmp airwars.png" alt=""><figcaption><p>TWO-WAY DATABASE: If available, <strong>scroll down</strong> to "External Research" for any individual OSMP entry to check if there are links to incidents of civilian harm. Each incident report is verified with geolocation information. <strong>Scroll down</strong> on the individual Airwars incident for reference to a particular munition back to OSMP's database. </p></figcaption></figure>
+
+<br>
+
+
+
 [^1]: The munition has either partially or fully operated, and the intended effect has occurred. For explosive munitions, this usually means a detonation. (Source: [https://osmp.ngo/resources/glossary/](https://osmp.ngo/resources/glossary/) )&#x20;
