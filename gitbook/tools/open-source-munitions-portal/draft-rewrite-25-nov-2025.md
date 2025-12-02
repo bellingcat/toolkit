@@ -180,7 +180,10 @@ Based on our tests, this bridges the gap between a simple tag and a full technic
 {% hint style="success" %}
 NOTE: This feature is not available in all entries. But it is recommended to check them if available.&#x20;
 
-**TIP:** Use Analyst Notes to find information on alternative names for munitions. **Munitions are sometimes called by different names**, such as the[ GBU-39, which is also referred to as SDB (Small Diameter Bomb)](https://osmp.ngo/osmp537/) OSMP537.
+**TIPS:**&#x20;
+
+1. Use Analyst Notes to find information on alternative names for munitions. **Munitions are sometimes called by different names**, such as the[ GBU-39, which is also referred to as SDB (Small Diameter Bomb)](https://osmp.ngo/osmp537/) OSMP537.
+2. [GIJN's Tipsheet](https://gijn.org/stories/new-open-source-munitions-tool-investigate-bombing-civilians/) recommends checking this to counter misinformation and propaganda claims, as seen in [this entry ](https://osmp.ngo/osmp731/)
 {% endhint %}
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><strong>FIRST:</strong> <strong>If available, researchers can find the "Analyst Notes" immediately at the landing page with the munition entry.</strong> </td><td><a href=".gitbook/assets/2025-12-01_14-00-07.png">2025-12-01_14-00-07.png</a></td></tr><tr><td><strong>SECOND: If available, researchers can find the "Analysts Notes"  when clicking on an individual OSMP entry, at the bottom of the classification and other information.</strong> </td><td><a href=".gitbook/assets/2025-12-01_14-01-09.png">2025-12-01_14-01-09.png</a></td></tr></tbody></table>
@@ -247,8 +250,28 @@ Note that the portal is a work in progress, and new items are constantly being a
 
 1. There may not be enough munition categories currently represented, and users may not be able to find specific munition categories, such as Small Arms and Light Weapons (SALW).&#x20;
 2. There are not many entries on landmines at the moment, compared to CAT-UXO, [which has more than 400 entries. ](https://cat-uxo.com/explosive-hazards/landmines)
-3. Geographic distribution is currently limited. A majority of the entries are found in the Middle East and Ukraine. There are a few entries for Europe and North America. However, Haiti has one entry, and South America currently has no entries. If looking for munition related to these regions, it is advisable to look at other tools such as CAT-UXO.&#x20;
-4.
+3. Geographic distribution is currently limited. A majority of the entries are found in the Middle East and Ukraine. There are a few entries for Europe and North America. However, Haiti has one entry, and South America currently has no entries. If looking for munitions related to these regions, it is advisable to use other tools, such as CAT-UXO.&#x20;
+
+## Cost
+
+Free
+
+## Guides and Use Cases
+
+Aagaard, Charlotte. "Major civilian casualties: Danish-equipped fighter jets behind bloody attack in Gaza." _Danwatch_, 1 September 2024. [https://danwatch.dk/en/major-civilian-casualties-danish-equipped-fighter-jets-behind-bloody-attack-in-gaza/](https://danwatch.dk/en/major-civilian-casualties-danish-equipped-fighter-jets-behind-bloody-attack-in-gaza/)
+
+Ali, Taz. "Small, deadly GBU-39 bombs are Israel's weapons of choice." _i-news_, September 2024. [https://inews.co.uk/news/world/small-deadly-gbu-39-bombs-israel-weapons-choice-3261816](https://inews.co.uk/news/world/small-deadly-gbu-39-bombs-israel-weapons-choice-3261816)
+
+Open Source Munitions Portal (OSMP). "Resources." OSMP. Accessed 2 December 2025. [https://osmp.ngo/resources/](https://osmp.ngo/resources/)
+
+Philp, Rowan. "New Open Source Tools and Tips to Investigate Bombing of Civilians." _Global Investigative Journalism Network (GIJN)_, 2024. [https://gijn.org/stories/new-open-source-munitions-tool-investigate-bombing-civilians/](https://gijn.org/stories/new-open-source-munitions-tool-investigate-bombing-civilians/)
+
+## Tool Provider
+
+[Airwars](https://airwars.org/), UK and[ Armament Research Services (ARES)](https://aresarmament.com/), Australia
+
+\
+<br>
 
 
 
