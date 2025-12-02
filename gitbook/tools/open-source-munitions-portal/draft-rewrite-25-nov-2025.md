@@ -178,7 +178,7 @@ _(Weight class of the aerial bomb pictured)_
 Based on our tests, this bridges the gap between a simple tag and a full technical explanation, which gives users a more intermediate understanding of how the munition was identified without it being overly complicated.&#x20;
 
 {% hint style="warning" %}
-NOTE: This feature is not available on all entries. But it is recommended to check them if available.&#x20;
+NOTE: This feature is not available in all entries. But it is recommended to check them if available.&#x20;
 {% endhint %}
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><strong>FIRST:</strong> <strong>If available, researchers can find the "Analyst Notes" immediately at the landing page with the munition entry.</strong> </td><td><a href=".gitbook/assets/2025-12-01_14-00-07.png">2025-12-01_14-00-07.png</a></td></tr><tr><td><strong>SECOND: If available, researchers can find the "Analysts Notes"  when clicking on an individual OSMP entry, at the bottom of the classification and other information.</strong> </td><td><a href=".gitbook/assets/2025-12-01_14-01-09.png">2025-12-01_14-01-09.png</a></td></tr></tbody></table>
@@ -188,7 +188,7 @@ NOTE: This feature is not available on all entries. But it is recommended to che
 A key feature of OSMP is its "Related" function.  The "Related" feature works like a cross-referencing tool in OSMP. It visually links other images or entries that show: (1) [Different parts or components of the same munition type](https://osmp.ngo/osmp1641/); (2) [Different views or angles of the same munition remnants that the user may not have previously seen](https://osmp.ngo/osmp1700/); (3) Additional remnants that may help with proper identification.&#x20;
 
 {% hint style="warning" %}
-Note that this feature is not available on all entries.&#x20;
+Note that this feature is not available in all entries.&#x20;
 {% endhint %}
 
 There are two ways to do it.&#x20;
@@ -213,7 +213,11 @@ TIP: Use this feature to boost investigation in two ways:&#x20;
 
 Use OSMP with [Airwars' database ](http://airwars.org/)of verified incidents of civilian harm.&#x20;
 
-OSMP also links munitions directly to Airwars’[ verified civilian harm incidents](https://airwars.org/civilian-casualties/) to keep the focus on human impact. If available, users can find this by clicking on an individual OSMP entry and scrolling to the bottom. It is labeled **“External Research”** and includes an excerpt on the number of civilian deaths, location, and a link to the external source. <br>
+OSMP also links munitions directly to Airwars’[ verified civilian harm incidents](https://airwars.org/civilian-casualties/) to keep the focus on human impact. If available, users can find this by clicking on an individual OSMP entry and scrolling to the bottom. It is labeled **“External Research”** and includes an excerpt on the number of civilian deaths, location, and a link to the external source.&#x20;
+
+{% hint style="warning" %}
+This feature is not available in all entries.&#x20;
+{% endhint %}
 
 **For example:**&#x20;
 
