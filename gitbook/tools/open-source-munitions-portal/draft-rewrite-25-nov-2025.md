@@ -13,7 +13,7 @@ Open Source Munitions Portal (OSMP) is a verified image repository of munition t
 Any researcher or investigator interested in determining the type of munition used in a particular attack can visit the portal with their source imagery. They can then search through the portal’s images to make comparisons and see if they can find a match. If available, users will be able to find some, if not all of the following information about the munition: **Reported Location, Reported Year, Munition Category, Functional Use, Tentative Model, Base Color, Condition, Mechanical Feature, Guidance, Domain, Fins Characteristics, Caliber, Related Images, Research Organization, Marking Color, Marking Script.**
 
 {% hint style="info" %}
-[Every image has been reviewed by at least two specialists](https://osmp.ngo/about/) (See methodology) before it is published in the portal. Every entry has been classified under at least one munition category. Researchers using this portal will, at the very least, **be able to classify** the munition they are inquiring about.&#x20;
+[Every image has been reviewed by at least two specialists](https://osmp.ngo/about/) (See methodology) before it is published in the portal. Every entry has been classified under at least one munition category. Researchers using this portal will, at a minimum, **be able to classify** the munition they are inquiring about.&#x20;
 {% endhint %}
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/2025-11-26_00-49-07-ed2.png" alt=""><figcaption></figcaption></figure></div>
@@ -225,7 +225,7 @@ This feature is not available in all entries.&#x20;
 
 <figure><img src=".gitbook/assets/osmp airwars.png" alt=""><figcaption><p>TWO-WAY DATABASE: If available, <strong>scroll down</strong> to "External Research" for any individual OSMP entry to check if there are links to incidents of civilian harm. Each incident report is verified with geolocation information. <strong>Scroll down</strong> on the individual Airwars incident for reference to a particular munition back to OSMP's database. </p></figcaption></figure>
 
-<br>
+### FEATURED MATERIALS AND 3D MODELS<br>
 
 
 
