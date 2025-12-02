@@ -241,7 +241,14 @@ OSMP also features a few 3D Models of common munition types. This includes a sho
 
 <figure><img src=".gitbook/assets/2025-12-02_16-55-40.gif" alt=""><figcaption><p>Seen here is a 3D model of a GBU-39. To the left are key features to help users identify this particular munition. </p></figcaption></figure>
 
+## Limitations
 
+Note that the portal is a work in progress, and new items are constantly being added. This sometimes poses challenges, such as:
+
+1. There may not be enough munition categories currently represented, and users may not be able to find specific munition categories, such as Small Arms and Light Weapons (SALW).&#x20;
+2. There are not many entries on landmines at the moment, compared to CAT-UXO, [which has more than 400 entries. ](https://cat-uxo.com/explosive-hazards/landmines)
+3. Geographic distribution is currently limited. A majority of the entries are found in the Middle East and Ukraine. There are a few entries for Europe and North America. However, Haiti has one entry, and South America currently has no entries. If looking for munition related to these regions, it is advisable to look at other tools such as CAT-UXO.&#x20;
+4.
 
 
 
