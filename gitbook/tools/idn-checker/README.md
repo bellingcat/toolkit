@@ -1,5 +1,5 @@
 ---
-updated: '2025-08-19'
+updated: '2025-12-02'
 description: IDN Checker detects visually similar versions of a domain.
 ---
 
