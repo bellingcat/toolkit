@@ -303,13 +303,8 @@ function writeTeams(teams) {
 
 async function renameTool(tool, name) {
   const slug = slugify(name);
-  // Update the space name
-  // Update title in README
-  const content = tool.content.replace(/# .*\n/, `# ${name}\n`);
-  // Set the date in the markdown frontmatter
-  writeIfChanged(matter.stringify(content, tool.frontmatter), tool.filepath);
 
-  // rename the tool directory
+  // Rename the tool directory
   const newFilepath = path.join('gitbook/tools', slug);
   console.log('Moving tool from', tool.directory, 'to',  newFilepath);
   fs.renameSync(tool.directory, newFilepath);
