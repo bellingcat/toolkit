@@ -1,9 +1,9 @@
 ---
+updated: '2025-10-25'
 description: >-
   A tool by Google to catalogue uploaded documents and files, providing OCR,
   indexing, and other services. Full access only granted to journalists,
   academic researchers and university students.
-updated: '2025-10-25'
 ---
 
 # Pinpoint
@@ -16,11 +16,11 @@ updated: '2025-10-25'
 
 Pinpoint is a research tool designed to assist journalists and academics in examining and analyzing large document collections. With Pinpoint, users can upload and search through documents, images, emails, handwritten notes, and transcriptions of audio files to find specific keywords, locations, organizations, or individuals. It is part of the [Journalist Studio](https://journaliststudio.google.com/), Google’s free tool kit for research, data analysis, and data visualization. It also supports metadata extraction, so users can search by fields like date, sender, etc.
 
-Users can store up to [200,000 documents ](https://support.google.com/pinpoint/answer/11955480?hl=en-IN#upload_documents)in each collection, extract text from handwritten documents or non-searchable pdfs to make them searchable, query text from images, transcribe audio recordings and search for identifiers in image collections.&#x20;
+Users can store up to [200,000 documents ](https://support.google.com/pinpoint/answer/11955480?hl=en-IN#upload_documents)in each collection, extract text from handwritten documents or non-searchable pdfs to make them searchable, query text from images, transcribe audio recordings and search for identifiers in image collections.
 
-Its "extract structured data" (in beta) function allows you to convert similarly structured documents into a csv or spreadsheet which can be exported to Excel, Google Sheets or a database.
+Its ["extract structured data"](https://support.google.com/pinpoint/answer/13012346?hl=en) (in beta) function allows you to convert similarly structured documents into a csv or spreadsheet which can be exported to Excel, Google Sheets or a database.
 
-For example, using Pinpoint, you can search for mentions of keywords like "abuse" or "violence" in [Washington Post's public collection of COVID-19 Nursing Home Inspections](https://journaliststudio.google.com/pinpoint/search?collection=989c939c11b20432). Named entities inside the documents as persons, organisations and locations are recognised automatically and can be used as filters.&#x20;
+For example, using Pinpoint, you can search for mentions of keywords like "abuse" or "violence" in [Washington Post's public collection of COVID-19 Nursing Home Inspections](https://journaliststudio.google.com/pinpoint/search?collection=989c939c11b20432). Named entities inside the documents as persons, organisations and locations are recognised automatically and can be used as filters.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-11-12 at 1.51.56 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -50,7 +50,7 @@ Exercise caution and/or check with your parent organization before uploading sen
 
 According to [Pinpoint Additional Terms of Service](https://support.google.com/pinpoint/answer/13071911?hl=en), "if you upload content to Pinpoint, you give Google permission to use that content, including to operate and promote Pinpoint, in accordance with the [Google Terms of Service](https://policies.google.com/terms) and Google’s Privacy Policy."
 
-Google does also [state](https://support.google.com/pinpoint/answer/14338615?hl=en) that the uploaded documents are private by default - unless actively published - and will not be used for training Large Language Models (LLMs).&#x20;
+Google does also [state](https://support.google.com/pinpoint/answer/14338615?hl=en) that the uploaded documents are private by default - unless actively published - and will not be used for training Large Language Models (LLMs).
 
 Keep in mind that Pinpoint's generative AI features are currently only available in a [list of countries](https://support.google.com/pinpoint/answer/14338615?hl=en#support_countries).
 
