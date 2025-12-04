@@ -28,7 +28,7 @@ Spot is one amongst [a range of OSM search](#user-content-fn-2)[^2] tools which 
 
 <mark style="color:$primary;">**Query-Building Methods:**</mark> These tools all run a search of OpenStreetMap in the same way, but they use different methods to build the user's search query:&#x20;
 
-* some involve writing the query in a formal language, e.g. [OverpassTurbo](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/yNF6qm7Ej1iALSmdkA3h/)&#x20;
+* some involve writing the query in a formal language, e.g.[ OverpassTurbo](https://bellingcat.gitbook.io/toolkit/more/all-tools/overpass-turbo)&#x20;
 * some use a graphical interface to build the query, e.g. [Bellingcat OpenStreetmap Search](https://bellingcat.gitbook.io/toolkit/more/all-tools/openstreetmap-search-tool)
 * Spot is characterised by the use of [natural language](#user-content-fn-3)[^3] to express the users' search query, and this is a relatively new approach.&#x20;
 
