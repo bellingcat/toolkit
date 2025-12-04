@@ -1,0 +1,52 @@
+name: Rename Tool
+run-name: Rename ${{ inputs.toolName }} by @${{ github.actor }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      oldToolName:
+        description: 'Old Tool Name'
+        type: string
+        required: true
+      newToolName:
+        description: 'New Tool Name'
+        type: string
+        required: true
+
+jobs:
+  rename-tool:
+    runs-on: ubuntu-latest
+    env:
+      OLD_TOOL_NAME: ${{ inputs.oldToolName }}
+      NEW_TOOL_NAME: ${{ inputs.newToolName }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Rename tool
+        id: rename-tool
+        run: |
+          node src/rename-tool.mjs "$OLD_TOOL_NAME" "$NEW_TOOL_NAME"
+          if [ -n "$(git status gitbook --porcelain)" ]; then
+            echo "changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit changes ${{ steps.rename-tool.outputs.changes }}
+        if: ${{ steps.rename-tool.outputs.changes == 'true' }}
+        run: |
+          git status --porcelain
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add gitbook
+          git commit -m "Rename '$TOOL_NAME' to '$NEW_TOOL_NAME'"
+
+      - name: Push changes
+        if: ${{ steps.rename-tool.outputs.changes == 'true' }}
+        uses: ad-m/github-push-action@master
+        with:
+          branch: main
+
