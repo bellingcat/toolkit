@@ -2,6 +2,7 @@
 description: >-
   A site dedicated to connect suppliers and buyers of goods from all over the
   world.
+updated: '2025-12-04'
 ---
 
 # Global Suppliers Online
