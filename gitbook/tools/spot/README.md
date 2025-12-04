@@ -58,7 +58,7 @@ e.g. Enter "_**Find a pharmacy and a traffic light and a bus stop and a bridge w
 {% endcolumn %}
 
 {% column %}
-So the user can write a natural language query like "Find a church within 100m of a building with 10 stories or more and water in the City of London" and Spot returns a map of the City of London, with all the churches which have tower blocks and water within 100m. See Spot's [Output Result Map](./#spots-output-result-map) below to learn how to use Spot to check these locations using StreetView photography.
+So the user can write a natural language query like "Find a church within 100m of a building with 10 stories or more and water in the City of London" and Spot returns a map of the City of London, with all the churches which have tower blocks and water within 100m (see on the left). See Spot's [Output Result Map](./#spots-output-result-map) below to learn how to use Spot to check these locations using StreetView photography.
 {% endcolumn %}
 {% endcolumns %}
 
