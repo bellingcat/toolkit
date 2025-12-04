@@ -44,7 +44,7 @@ e.g. Enter "_**Find a pharmacy and a traffic light and a bus stop and a bridge w
 
 {% columns %}
 {% column %}
-...involves the user describing an image which they want to geolocate, and using Spot to generate and visually inspect potential solution locations around a particular geographic region like a named city.  This example opposite from a social media platform shows a fountain and a tower block and a church labelled as being in London, UK. Features in the image are shown next to items providing scale, e.g. trees, and help estimate the distance between them.
+...involves the user describing an image which they want to geolocate, and using Spot to generate and visually inspect potential solution locations around a particular geographic region like a named city.  This example on the right from a social media platform shows a fountain and a tower block and a church labelled as being in London, UK. Features in the image are shown next to items providing scale, e.g. trees, and help estimate the distance between them.
 {% endcolumn %}
 
 {% column %}
