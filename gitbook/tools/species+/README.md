@@ -47,11 +47,11 @@ None so far.&#x20;
 
 ## Guides and articles
 
-[About page](https://www.speciesplus.net/about)
+The [Species+ About page](https://www.speciesplus.net/about) provides information on how to use the site.
 
 ## Tool provider
 
-UNEP-WCMC, based in Cambridge (United Kingdom), and the CITES Secretariat, based in Geneva (Switzerland).
+[UNEP-WCMC](https://www.unep-wcmc.org/en), based in Cambridge (United Kingdom), and the [CITES Secretariat](https://cites.org/eng/disc/sec/index.php), based in Geneva (Switzerland).
 
 ## Similar tools
 
