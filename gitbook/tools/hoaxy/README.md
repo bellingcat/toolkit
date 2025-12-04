@@ -8,7 +8,11 @@ description: >-
 
 ## URL
 
-[https://hoaxy.osome.iu.edu/](https://hoaxy.osome.iu.edu/)
+{% embed url="https://hoaxy.osome.iu.edu/" %}
+
+{% hint style="danger" %}
+This tool has been retired as of [July 2025.](https://x.com/OSoMe_IU/status/1949394974262350098) See the new unified tool with similar functionalities at [OSoMeNet](https://osome.iu.edu/tools/osomenet/). &#x20;
+{% endhint %}
 
 ## Description
 
