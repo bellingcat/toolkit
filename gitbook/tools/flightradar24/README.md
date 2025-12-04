@@ -10,7 +10,7 @@ description: >-
 
 ## URL
 
-[https://www.flightradar24.com](https://www.flightradar24.com)
+{% embed url="https://www.flightradar24.com" %}
 
 ## Description
 
@@ -429,7 +429,7 @@ Flight tracking websites often have terms of service regarding the use of data. 
 
 ## Comparison with Other Flight Tracking Tools
 
-While both Flightradar24 and FlightAware offer similar core functionality, open-source investigators may prefer to use Flightradar24 for a more extended flight history, a playback function, the ability to track more specialized aircraft, and comprehensive international flight data. However, FlightAware may have some advantages for US-focused flight tracking.
+While both Flightradar24 and FlightAware offer similar core functionality, open-source investigators may prefer to use Flightradar24 for a more extended flight history, a playback function, the ability to track more specialized aircraft, and comprehensive international flight data. However, FlightAware can sometimes have some advantages for US-focused flight tracking.
 
 Based on our tests, the following is a comparison of some key features of various flight tracking tools.
 
