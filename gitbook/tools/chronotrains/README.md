@@ -1,34 +1,36 @@
 ---
+updated: '2025-09-02'
 description: >-
   Chronotrains is a free interactive map designed to explore the reach of
   Europe’s extensive rail network. Enter a starting point and travel time to see
   reachable destinations by train.
-updated: '2025-09-02'
 ---
 
 # Chronotrains
 
 ## URL
 
-[https://www.chronotrains.com/en](https://www.chronotrains.com/en)
+{% embed url="https://www.chronotrains.com/en" %}
 
 ## Description
 
-This tool helps users visualize train destinations within Europe. When users hover with the cursor over a city or a particular train station on the map, Chronotrains unveils a map where concentric zones radiate outward. This depicts all the destinations reachable by train within a chosen duration of up to eight hours.&#x20;
+This tool helps users visualize train destinations within Europe. When users hover the cursor over a city or a particular train station on the map, Chronotrains unveils a map where concentric zones radiate outward. This depicts all the destinations reachable by train within a chosen duration of up to eight hours.
 
-<figure><img src=".gitbook/assets/ChronotrainsPreviewEdit-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>Chronotrains can be used in two primary ways: (1) Users can hover their mouse over a particular location (or starting point) and the map will show all the possible destinations by train. (2) A second way is to click on a specific station and it will show all the results. In this second example, I clicked on the city of Bordeaux, and a range of colors appeared. These correspond to the different travel times, 1 hour (darkest red) up to 8 hours (lightest yellow). Users can also click on the left panel to select the different times they are interested in. As shown here, I selected 1 hour from Bordeaux, followed by 2 hours, etc. (<em>Image from Chronotrains.com</em>)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-12-04_15-43-08-newlarge.gif" alt=""><figcaption><p>Chronotrains can be used in two primary ways: (1) Users can hover their mouse over a particular location (or starting point) and the map will show all the possible destinations by train. (2) A second way is to click on a specific station and it will show all the results. In this second example, I clicked on the city of Bordeaux, and a range of colors appeared. These correspond to the different travel times, 1 hour (darkest green) up to 8 hours (lightest green). Users can also click on the left panel to select the different times they are interested in. As shown here, I selected 1 hour from Bordeaux, followed by 2 hours, etc. (<em>Image from Chronotrains.com</em>)</p></figcaption></figure>
 
 **Using the Map:**
 
-\- Click on any train station to set it as your starting point.
+1. Click on the choice of All Trains or Night Trains
 
-\- Select the amount of time you want to travel (e.g., minimum 1 hour, up to 8 hours maximum).
+<figure><img src=".gitbook/assets/2025-12-04_15-34-52.png" alt=""><figcaption></figcaption></figure>
 
-\- The map will update to show the areas you can reach within the selected time frame.&#x20;
+2. Type or click on any train station to set it as your starting point.
+3. Select the amount of time you want to travel (e.g., minimum 1 hour, up to 8 hours maximum).
+4. The map will update to show the areas you can reach within the selected time frame.
 
-* As of Dec 2024, the map may sometimes include not just information on the approximate travel time but also the trip's price.&#x20;
+* As of Dec 2024, the map may sometimes include not just information on the approximate travel time but also the trip's price.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-12-08 235600.png" alt=""><figcaption><p>If the data is available, the map will sometimes show not just the approximate travel time but also the price. Click to enlarge the the map of Krakow, Poland for a sample of this new map feature. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-12-08 235600.png" alt=""><figcaption><p>If the data is available, the map will sometimes show not just the approximate travel time but also the price. Click to enlarge the the map of Krakow, Poland for a sample of this new map feature.</p></figcaption></figure>
 
 **Exploring Options:**
 
@@ -67,7 +69,7 @@ The platform’s [GitHub page](https://github.com/benjamintd/chronotrains) expla
 
 **What the Map Shows:**
 
-Isochrones: Imagine you start at a specific train station. An isochrone map shows you how far you can travel from that station within a certain amount of time and in multiple directions. For example, it can show all the places you can reach in 1 hour, 2 hours, and so on, heading North, South, East, or West.&#x20;
+Isochrones: Imagine you start at a specific train station. An isochrone map shows you how far you can travel from that station within a certain amount of time and in multiple directions. For example, it can show all the places you can reach in 1 hour, 2 hours, and so on, heading North, South, East, or West.
 
 **How It Works:**
 
@@ -107,8 +109,7 @@ For each station, the system checks which other stations you can get to in a cer
 Currently, Chronotrains.com does not seem to provide train data for outgoing journeys from Bosnia and Herzegovina, Albania, and Belarus. However, data is available for neighboring countries, and some connections are displayed. For instance, train stations in Croatia include destinations that extend into Bosnia and Herzegovina, which are then visible on the map.
 
 {% hint style="info" %}
-NOTE: To determine if data is available for a specific location, check the individual train stations represented as dots on the map. Filled dots indicate available data, while empty (white) dots signify the absence of outgoing train information.\
-
+NOTE: To determine if data is available for a specific location, check the individual train stations represented as dots on the map. Filled dots indicate available data, while empty (white) dots signify the absence of outgoing train information.\\
 {% endhint %}
 
 As of January 2025, the map started including some train data in Turkey and Montenegro. Russia still does not have any data available on the tool.
@@ -127,7 +128,7 @@ According to its [GitHub page](https://github.com/benjamintd/chronotrains), “c
 
 **Assumed speed:** The system also assumes that you can walk/travel between these stations at a speed of 9/km/h (5.59 mph) - which is described as [“faster than walking but slower than biking.”](https://github.com/benjamintd/chronotrains)
 
-It is important to note that this speed can vary from person to person and that this is an average estimate. So, whenever examining  data on Chronotrains, keep these limitations in mind.
+It is important to note that this speed can vary from person to person and that this is an average estimate. So, whenever examining data on Chronotrains, keep these limitations in mind.
 
 4. **Local Transit Exclusion**
 
@@ -147,7 +148,7 @@ These types of multi-modal journeys, which involve switching from a train to a b
 
 4. **Assumed Interchange Time**
 
-According to its [GitHub page](https://github.com/benjamintd/chronotrains), when switching from one train to another, the system assumes it takes 20 minutes. Since this can be variable depending on the person or unforeseen transit delays,  the data should be taken as an estimate and needs to be cross-checked with other train schedules.
+According to its [GitHub page](https://github.com/benjamintd/chronotrains), when switching from one train to another, the system assumes it takes 20 minutes. Since this can be variable depending on the person or unforeseen transit delays, the data should be taken as an estimate and needs to be cross-checked with other train schedules.
 
 6. **Some Trains May Not Be Reflected on the Map**
 
