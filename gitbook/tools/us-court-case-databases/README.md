@@ -12,7 +12,7 @@ Criminal and civil court case information in the United States is publicly avail
 
 * Case number
 * Assigned attorneys
-* DOB and address of parties
+* Date of birth and address of parties
 * Charges and statutes
 * Disposition summaries
 
