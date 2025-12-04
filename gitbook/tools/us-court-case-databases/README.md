@@ -14,8 +14,6 @@ Criminal and civil court case information in the United States is publicly avail
 * Charges and statutes
 * Disposition summaries
 
-
-
 ## Cost
 
 * [ ] Free
@@ -34,13 +32,9 @@ Many databases require that you create an account with an email and password to 
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
-
 Certain case information is not publicly available, such as juvenile records or cases subject to the federal Violence Against Women Act (VAWA). Additionally, older cases might not be digitized — if you find yourself in this situation, you can make a records request to the respective county to receive scanned copies of the records you're looking for.&#x20;
 
 ## Ethical Considerations
-
-\[\[The ethical considerations of each tool should be described.]]
 
 Even though this information is publicly available, legal cases often contain personal or sensitive information about the parties involved. An ethical OSINT practitioner should take this into account when doing such research.&#x20;
 
@@ -53,8 +47,6 @@ Even though this information is publicly available, legal cases often contain pe
 \[\[Name the tool provider (and potentially info on them)]]
 
 ## Similar tools
-
-\[\[Compare this tool with similar tools which can be used for the same research purpose. What are the strengths and weaknesses of each tool?]]
 
 There are aggregate tools that attempt to search civil and criminal databases nation-wide and give you the information all in one place. While this can be a good starting point, beware that none of these tools are comprehensive. If you want to perform a proper check, you should check the actual databases.
 
