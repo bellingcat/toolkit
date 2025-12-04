@@ -247,7 +247,7 @@ Most importantly, direct access to Google StreeView is provided to support locat
 {% endcolumn %}
 {% endcolumns %}
 
-Spot source imagery and Google StreetView can be compared side by side on screen
+Spot source imagery and Google StreetView can be compared side by side on screen:
 
 
 
