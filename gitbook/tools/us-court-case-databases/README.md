@@ -18,9 +18,9 @@ Criminal and civil court case information in the United States is publicly avail
 
 ## Cost
 
-* [x] Free
+* [ ] Free
 * [x] Partially Free
-* [x] Paid
+* [ ] Paid
 
 Cost varies by state. Some jurisdictions allow you to search and obtain information for free, and some require a fee.
 
