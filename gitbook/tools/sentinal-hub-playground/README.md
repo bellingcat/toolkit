@@ -1,8 +1,8 @@
 ---
 description: >-
-  A user-friendly platform for visualising Sentinel data, updated every 5-10
-  days with new imagery. The interface includes a number of features, including
-  built-in indices and a timelapse tool.
+  A free web-based platform for viewing, analyzing, and downloading satellite
+  imagery from the European Space Agency's Sentinel missions, with data updated
+  every 5-10 days.
 ---
 
 # Copernicus Browser (formerly Sentinel Hub Playground, EO Browser)
@@ -13,13 +13,30 @@ description: >-
 
 ## Description
 
-[Copernicus Browser](https://browser.dataspace.copernicus.eu/) provides a web-based GUI to visualise imagery from the [Sentinel satellites](https://en.wikipedia.org/wiki/Copernicus_Programme#Sentinel_missions), and a range of other satellite data. Every workflow starts by choosing relevant datasets, searching by location (determined by zooming into the map), timespan, and optionally cloud cover, and plot these as an overlay onto a geographical area. Once data has been selected, the platform contains a toolkit to measure and visualise different features.
+#### How does it work?
 
-One convenient feature is the inclusion of imaging indices, including the [NDVI](https://eos.com/make-an-analysis/ndvi/) (Normalised Difference Vegetation Index) and [NDWI](https://eos.com/make-an-analysis/ndwi/) (Normalised Difference Water Index). These create false-colour images from information outside of the visible spectrum that allow for changes in vegetation coverage and water quality to be measured.
+[Copernicus Browser](https://browser.dataspace.copernicus.eu/) provides an intuitive web interface for accessing satellite imagery from the Sentinel constellation. Users begin by zooming into their area of interest on the map, then selecting a date range and cloud coverage threshold. The platform automatically displays available imagery matching these criteria.
 
-For an introduction to using the tool to create a timelapse, Annique Moussou's [guide](https://www.bellingcat.com/resources/2024/05/17/how-to-use-free-satellite-imagery-to-monitor-the-expansion-of-west-bank-settlements/) to using free satellite imagery to monitor the expansion of illegal settlements in the West Bank is a good place to start. While Annique's guide is for the due-to-be-deprecated EO browser, the functionality of Copernicus Browser is extremely similar.
+The tool offers multiple visualization options, including true color imagery, false color composites, and specialized indices like NDVI (vegetation health) and NDWI (water quality). Users can create timelapses to observe changes over time, compare multiple images side-by-side, and download high-resolution images for further analysis.
 
-Confusingly, this is a project that has been renamed multiple times, and has also briefly co-existed as two very similar tools (EO and Copernicus Browser), where EO browser's free tier also currently allows access to other satellites, such as NASA's MODIS and Landsat Programs. EO Browser is now due to be replaced by the paid [Planet Insights Platform](./#url). Older links to the 'Sentinel Hub Playground' will redirect to Copernicus Browser. Copernicus Browser allows use with or without an account and does not at present have a paid tier.&#x20;
+A particularly powerful feature is the Custom Scripts functionality, which allows users to apply JavaScript-based processing algorithms to satellite data. These can be written from scratch or selected from the community-maintained Custom Scripts Repository, which includes specialized algorithms for detecting features like forest disturbances or monitoring agricultural growth.&#x20;
+
+#### What problem does it solve?
+
+Copernicus Browser democratizes access to high-quality satellite imagery that was previously difficult to obtain or required specialized software. It eliminates the need for researchers to download large datasets or install complex desktop GIS software for basic satellite image analysis.
+
+**What are some use cases for open-source researchers?**
+
+* **Environmental monitoring**: Track deforestation, urban expansion, agricultural development, or natural disasters over time
+* **Geolocation verification**: Confirm the location and timing of events by comparing satellite imagery with photos or videos from the ground
+* **Conflict monitoring**: Observe changes to military installations, refugee camps, or infrastructure damage in conflict zones
+* **Chronolocation**: Determine when events occurred by identifying the most recent imagery showing specific features
+* **Climate change documentation**: Monitor glacier retreat, drought conditions, flooding, or vegetation changes
+* **Infrastructure analysis**: Track construction projects, mining operations, or land development
+
+Open-source investigators have used satellite imagery tools to monitor illegal settlement expansion, verify reports of military activity, and document environmental degradation. The tool's timelapse feature is particularly valuable for creating visual evidence of changes over months or years.
+
+**Note on naming history**: This tool has been renamed multiple times (formerly Sentinel Hub Playground, then EO Browser). As of February 2025, EO Browser has been shut down and its functionality transitioned to Copernicus Browser and the paid Planet Insights Platform. Copernicus Browser is the free successor focusing on Sentinel data.
 
 ## Cost
 
@@ -27,9 +44,9 @@ Confusingly, this is a project that has been renamed multiple times, and has als
 * [ ] Partially Free
 * [ ] Paid
 
-Copernicus Browser is free, while EO Browser has a paid tier (though the same functionality as Copernicus remains available for free). It is due to be deprecated, but there is no precise date given for this.
+Free. Account registration is optional but unlocks additional features like saving work and accessing a personal workspace.
 
-The paid tier of EO browser is managed using Sentinel Hub's [subscription model pricing](https://www.sentinel-hub.com/pricing/), which includes quotas and credits for commercial data, with plans starting at €25/mo for not-for-profit use.&#x20;
+**Note**: EO Browser, a related tool that provided access to additional satellite datasets (Landsat, MODIS), was shut down in February 2025. Its functionality has been split between Copernicus Browser (free, Sentinel data) and Planet Insights Platform (paid, starting at €25/month for non-profit use, includes commercial satellite data).
 
 ## Level of difficulty
 
@@ -41,9 +58,13 @@ For Copernicus Browser -- just a browser. To use EO Browser, an email login is r
 
 ## Limitations
 
-Copernicus Browser is limited to Sentinel Data. General limitations of satellite imagery, such as the presence of clouds, will also be an issue. Sentinel data is limited to surface reflectance, and does not include Spatial Aperture Radar, or high spatial resolution imagery.
-
-Because these tools are a browser-based GUI and do not have an option to write code, there is a fine-grained control and customisation afforded by more specialised tools such as [Google Earth Engine](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-engine) (code-based) or [QGIS](https://bellingcat.gitbook.io/toolkit/more/all-tools/qgis) (desktop application).
+* **Satellite-specific constraints**: Limited to Sentinel mission data only (no Landsat, MODIS, or high-resolution commercial imagery)
+* **Resolution limits**: Sentinel-2 imagery maxes out at 10-meter resolution, meaning individual people or small vehicles cannot be distinguished, only buildings and larger features are visible
+* **Radar limitations**: While Sentinel-1 provides radar imagery that penetrates clouds, Copernicus Browser's interface for radar data is less developed than for optical imagery
+* **Browser-based constraints**: Cannot perform complex geospatial analysis that desktop software like [QGIS](https://bellingcat.gitbook.io/toolkit/more/all-tools/qgis) (desktop application) or code-based platforms like [Google Earth Engine](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-earth-engine) can accomplish
+* **Revisit frequency**: While Sentinel-2 revisits most areas every 5-6 days, rapidly changing situations may not be captured frequently enough
+* **No access to commercial imagery**: Unlike the deprecated EO Browser, Copernicus Browser cannot access high-resolution commercial satellite datasets
+* **Custom script requirement**: Advanced analysis techniques require learning JavaScript and understanding satellite data processing
 
 ## Ethical Considerations
 
@@ -51,11 +72,11 @@ Like any tool using remote sensing data, it's important to remember that a satel
 
 ## Guide
 
-Annique Mossou: [How to use free satellite imagery to monitor the expansion of West Bank settlements](https://www.bellingcat.com/resources/2024/05/17/how-to-use-free-satellite-imagery-to-monitor-the-expansion-of-west-bank-settlements/)(Bellingcat) (for EO browser, but instructions are the same)
+Annique Mossou: [How to use free satellite imagery to monitor the expansion of West Bank settlements](https://www.bellingcat.com/resources/2024/05/17/how-to-use-free-satellite-imagery-to-monitor-the-expansion-of-west-bank-settlements/) (Bellingcat) - Originally written for EO Browser, but functionality is nearly identical in Copernicus Browser
 
 ## Tool provider
 
-The European Space Agency (Copernicus Browser) (pan-European but main offices in Germany)
+The European Space Agency (Copernicus Browser) (pan-European but headquarters are in Paris, France)
 
 ## Advertising Trackers
 
@@ -65,5 +86,5 @@ The European Space Agency (Copernicus Browser) (pan-European but main offices in
 
 | Page maintainer |
 | --------------- |
-| Agnes Cameron.  |
+| Arsen Drobakha  |
 |                 |
