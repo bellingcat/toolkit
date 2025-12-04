@@ -10,7 +10,7 @@ description: An AI powered expansive research/learning tool
 
 ## Description
 
-AI powered research tool powered by Google's Gemini LLM. Bears a similarity to ChatGPT or Claude but only has the ability to reference sources that you've uploaded yourself. Essentially, it's a research assistant that can generate summaries, answers, or insights based your source data. It's remarkably useful for learning about a topic quickly by being able to directly communicate with your sources via text, voice, or visually.&#x20;
+AI powered research tool powered by Google's Gemini LLM. Bears a similarity to ChatGPT or Claude but only has the ability to reference sources that you've uploaded yourself. Essentially, it's a research assistant that can generate summaries, answers, or insights based your source data. It's remarkably useful for learning about a topic quickly by being able to directly communicate with your sources via text, voice, or visually. &#x20;
 
 Why choose this over ChatGPT/Claude?: it only uses your source documents so it's far less likely to hallucinate or use unverified information from the wider web. \
 \
@@ -21,7 +21,7 @@ Use cases:
 * Summarizing interviews for a documentary
 * Creating learning material for a crash-course on a complex topic<br>
 
-#### Imagined Specific use case:
+#### Specific use case:
 
 If you're looking to verify similarities between source documents/interviews/social media posts to understand where a specific disinformation campaign has spawned from, this could potentially allow you to quickly learn, understand, and analyze this information to make sense out of a jumbled mess.
 
