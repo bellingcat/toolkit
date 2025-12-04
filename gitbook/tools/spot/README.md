@@ -205,6 +205,8 @@ Cicking on a particular feature pops up...
 
 Spot does **not** directly identify specific _**locations**_ which meet the input search criteria (unlike other tools, e.g. Bellingcat OpenStreetMap Search). Instead, it identifies all those _**features**_ which belong to any and all locations which meet the search criteria, and draws them together on the same map. Therefore if there is more than one candidate location which meets the search criteria, it may not be possible to distinguish one from another, particularly if they are geographically close.
 
+
+
 {% columns %}
 {% column width="50%" %}
 **SPOT'S OUTPUT MAP DISPLAYS CANDIDATE FEATURES, NOT LOCATIONS**
@@ -213,7 +215,7 @@ Spot delivers a map marked with all the features (Spot calls them Entities) whic
 
 <figure><img src=".gitbook/assets/venn2.JPG" alt=""><figcaption></figcaption></figure>
 
-**EXAMPLE OUTPUT WHERE FEATURES ARE MARKED ON THE MAP, BUT NOT GROUPED INTO SOLUTION LOCATIONS**
+EXAMPLE OUTPUT WHERE FEATURES ARE MARKED ON THE MAP, BUT NOT GROUPED INTO SOLUTION LOCATIONS
 {% endcolumn %}
 
 {% column width="50%" %}
@@ -223,7 +225,7 @@ If the features which meet the search criteria are grouped into candidate locati
 
 <figure><img src=".gitbook/assets/venn1.JPG" alt=""><figcaption></figcaption></figure>
 
-**EXAMPLE OUTPUT WHERE FEATURES ARE GROUPED INTO SOLUTION LOCATIONS**
+EXAMPLE OUTPUT WHERE FEATURES ARE GROUPED INTO SOLUTION LOCATIONS
 {% endcolumn %}
 {% endcolumns %}
 
