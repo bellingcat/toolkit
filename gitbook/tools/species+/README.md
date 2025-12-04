@@ -1,7 +1,5 @@
 ---
-description: >-
-  Centralized website with vulnerable species information listed in CITES, CMS
-  and other multilateral environmental agreements (MEAs).
+description: Centralized website with vulnerable species information.
 ---
 
 # Species+
@@ -10,9 +8,8 @@ description: >-
 
 [https://www.speciesplus.net/species](https://www.speciesplus.net/species)
 
-Description\
-
-
+Description<br>
+---------------
 
 This website provides information on all species currently listed in the Convention on International Trade in Endangered Species (CITES), the Convention on the Conservation of Migratory Species of Wild Animals (CMS), and other environmental agreements (MEAs). You can search by species, higher taxon, synonym, common name, or directly by CITES document. The entire database can be downloaded.
 
@@ -60,8 +57,7 @@ UNEP-WCMC, based in Cambridge (United Kingdom), and the CITES Secretariat, based
 
 Within Species+ there is a list of related websites/applications that serve a similar purpose: listing vulnerable species in the CITES and CMS agreements in comprehensive databases, which sometimes contain trade data. The sites are:
 
-[Checklist of CITES Species\
-](https://checklist.cites.org/#/en)[CITES Trade Database](https://trade.cites.org/)\
+[Checklist of CITES Species<br>](https://checklist.cites.org/#/en)[CITES Trade Database](https://trade.cites.org/)\
 [Species+ / CITES Checklist API](https://api.speciesplus.net/)\
 [EU Captive breeding database](https://captivebreeding.unep-wcmc.org/)\
 [CITES Wildlife TradeView](https://tradeview.cites.org/) \[[Here our profile](https://bellingcat.gitbook.io/toolkit/more/all-tools/cites-trade-database)]\
