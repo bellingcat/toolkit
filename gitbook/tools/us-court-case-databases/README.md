@@ -4,6 +4,8 @@ description: State-by-state guide for researching criminal and civil court cases
 
 # US court case databases
 
+## URL
+
 ## Description
 
 Criminal and civil court case information in the United States is publicly available and maintained in databases by each individual state or county. If you want to run a background check on an individual or are seeking information about a particular court case, these databases allow you to access details such as:&#x20;
