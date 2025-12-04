@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import pkg from './paths.mjs'
 const {apiCall, getCategories, getTools, getRegions, writeIfChanged, getSummary} = pkg;
+import matter from 'gray-matter'
 
 /* Example
 createTool({
@@ -300,6 +301,28 @@ function writeTeams(teams) {
   fs.writeFileSync('teams.json', JSON.stringify(teams, null, 2));
 }
 
+async function renameTool(tool, name) {
+  const slug = slugify(name);
+  // Update the space name
+  // Update title in README
+  const content = tool.content.replace(/# .*\n/, `# ${name}\n`);
+  // Set the date in the markdown frontmatter
+  writeIfChanged(matter.stringify(content, tool.frontmatter), tool.filepath);
+
+  // rename the tool directory
+  const newFilepath = path.join('gitbook/tools', slug);
+  console.log('Moving tool from', tool.directory, 'to',  newFilepath);
+  fs.renameSync(tool.directory, newFilepath);
+
+  //is it  in the summary?
+  const link = path.join('tools', slug, 'README.md');
+  const summary = getSummary('gitbook');
+  if (summary.match(link)) {
+
+    summary.replace(link, newLink);
+  }
+  return;
+}
 async function renameSpace(space, name) {
   debug('Renaming space to', name);
   const data = await apiCall(`https://api.gitbook.com/v1/spaces/${space.id}`, {
@@ -434,6 +457,7 @@ export default {
   findSpace,
   publishTool,
   removeTool,
+  renameTool,
   updateToolJSON,
   updateToolCategories,
   updateToolSummary,
