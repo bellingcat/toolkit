@@ -57,7 +57,7 @@ The [Species+ About page](https://www.speciesplus.net/about) provides informatio
 
 Within Species+ there is a list of related websites/applications that serve a similar purpose: listing vulnerable species in the CITES and CMS agreements in comprehensive databases, which sometimes contain trade data. The sites are:
 
-[Checklist of CITES Species<br>](https://checklist.cites.org/#/en)[CITES Trade Database](https://trade.cites.org/)\
+[Checklist of CITES Species<br>](https://checklist.cites.org/#/en)[CITES Trade Database](https://bellingcat.gitbook.io/toolkit/more/all-tools/cites-trade-database)\
 [Species+ / CITES Checklist API](https://api.speciesplus.net/)\
 [EU Captive breeding database](https://captivebreeding.unep-wcmc.org/)\
 [CITES Wildlife TradeView](https://tradeview.cites.org/) \[[Here our profile](https://bellingcat.gitbook.io/toolkit/more/all-tools/cites-trade-database)]\
