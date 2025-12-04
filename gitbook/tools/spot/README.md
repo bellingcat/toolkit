@@ -229,7 +229,11 @@ EXAMPLE OUTPUT WHERE FEATURES ARE GROUPED INTO SOLUTION LOCATIONS
 {% endcolumn %}
 {% endcolumns %}
 
-For examples where there are multiple solution locations meeting the search criteria, Spot's output map may not allow the user  to identify how many different solution locations there are, or their exact boundaries.  This could lead to extended time taken to check the options against StreetView maps and other forms of confirmation.
+
+
+For example, if there are multiple solution locations meeting the search criteria, Spot's output map may not allow the user to identify how many different solution locations there are, or their exact boundaries.  This could lead to extended time taken to check the options against StreetView maps and other forms of confirmation.
+
+
 
 {% columns %}
 {% column %}
