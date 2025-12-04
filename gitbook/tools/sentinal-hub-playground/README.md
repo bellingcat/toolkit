@@ -15,7 +15,7 @@ description: >-
 
 #### How does it work?
 
-[Copernicus Browser](https://browser.dataspace.copernicus.eu/) provides an intuitive web interface for accessing satellite imagery from the Sentinel constellation. Users begin by zooming into their area of interest on the map, then selecting a date range and cloud coverage threshold. The platform automatically displays available imagery matching these criteria.
+[Copernicus Browser](https://browser.dataspace.copernicus.eu/) provides an intuitive web interface for accessing satellite imagery from the Sentinel constellation. Users can zoom into their area of interest on the map, and select a date range and cloud coverage threshold. The platform automatically displays available imagery matching these criteria.
 
 The tool offers multiple visualization options, including true color imagery, false color composites, and specialized indices like NDVI (vegetation health) and NDWI (water quality). Users can create timelapses to observe changes over time, compare multiple images side-by-side, and download high-resolution images for further analysis.
 
