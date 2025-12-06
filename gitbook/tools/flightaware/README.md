@@ -1,5 +1,5 @@
 ---
-updated: '2025-09-06'
+updated: '2025-12-05'
 description: >-
   FlightAware is a global flight-tracking platform that provides real-time data
   on aircraft movements. It offers live tracking, historical data, and
