@@ -73,7 +73,7 @@ The tool typically requires only entering an IP address or domain to get locatio
 
 ## Requirements
 
-No specific requirements, except having access to an IP address or domain name.
+No specific requirements.
 
 ## Limitations
 
