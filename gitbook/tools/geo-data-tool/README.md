@@ -16,7 +16,7 @@ GeoDataTool is an IP geolocation service that allows users to identify the geogr
 
 For researchers, it is important to note that GeoDataTool will not enable you to precisely geolocate a person or an end-user's device such as their smartphone or laptop.
 
-Due to how [IP addresses are assigned](https://en.wikipedia.org/wiki/IP_address#IP_address_assignment), GeoDataTool will only allow you to obtain an approximate geolocation of the network point to which your target IP address is assigned (a home router, a data center server, or any other [network point](https://en.wikipedia.org/wiki/Networking_hardware)).
+Due to how [IP addresses are assigned](https://en.wikipedia.org/wiki/IP_address#IP_address_assignment), GeoDataTool will only allow you to obtain an approximate location of the network point to which your target IP address is assigned (a home router, a data center server, or any other [network point](https://en.wikipedia.org/wiki/Networking_hardware)).
 
 Whether or not this network point actually corresponds to the location of your target can vary greatly.
 
