@@ -27,7 +27,7 @@ Therefore, before using GeoDataTool, it is important for you to understand how t
 
 Once you are more familiar with the limitations of using IP addresses for geolocation, GeoDataTool may still be useful to gain some insights:
 
-* Does the IP address I am researching remain at the same location over time? If so, it is likely a static IP address, which could be a reliable location information about my target.
+* Does the IP address I am researching remain at the same location over time? If so, it is likely a static IP address, which might hint to location information about my target.
 * Is the hostname the IP address is pointing to under a specific name? If so, it is possible this IP address is associated with a particular hosting provider or company. Is there any notable information about this company I can infer, such as a country/region of operation?
 * How do the information found above contrast with the claimed or perceived location of the target of my researches?<br>
 
