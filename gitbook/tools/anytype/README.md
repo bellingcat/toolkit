@@ -8,9 +8,9 @@ description: >-
 
 ## URL
 
-Tool page: [Anytype](https://anytype.io/?utm_source=chatgpt.com) \
+Tool page: [https://anytype.io/](https://anytype.io/)\
 (Version current as of 2025‑08)\
-GitHub: [anyproto/anytype](https://github.com/anyproto/anytype?utm_source=chatgpt.com)
+GitHub: [https://github.com/anyproto/anytype-ts](https://github.com/anyproto/anytype-ts)
 
 ## Description
 
