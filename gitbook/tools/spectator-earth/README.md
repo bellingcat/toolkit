@@ -8,19 +8,48 @@ description: >-
 
 ## URL
 
-https://example.com
+[https://app.spectator.earth/](https://app.spectator.earth/)
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+A tool to identify satellites which can provide usable imagery for a given area of interest, either historically or in the future. Some imagery is free, higher resolution imagery can be bought from certain providers direct from the site.&#x20;
+
+The interface can take a drawn area of interest on a map, or location co-ordinates.
+
+\-----------------------------------------------------------
+
+* Organize your observations in channels
+* Build public observations and share them with others
+* Plan future satellite acquisitions
+* Get full data archive access
+* Access commercial very high-resolution imagery on a Pay-As-You-Go basis
+
+
+
+### API
+
+* Explore all the functionalities programmatically
+* Automate your workflow
+* Integrate information from Spectator into your application
+* Start immediately with a free API key
+
+\---------------------------------------------------------------------------------
+
+<mark style="color:$warning;">NB Research what the "Trending" setting does - does it show what other users are looking at? This is something to beware of as a user, if so.</mark>
+
+> For Sentinels the acquisition plans usually have a range of 10-15 days, while for Landsats it’s 2-4 days. The time range that you can view is limited to 24 hours due to a large number of polygons. You can also access this data as GeoJSON from our[ API](https://api.spectator.earth/).
+
+> **Data source**
+
+The files are retrieved from ESA and USGS websites. Links to raw data:[ Sentinel-1](https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-1/acquisition-plans),[ Sentinel-2](https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-2/acquisition-plans),[ Landsat](https://landsat.usgs.gov/landsat_acq)
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
+Free historical satellite imagery is offered from lower resolution services like Sentinel and Landsat. Paid historical and tasked imagery is sold from the Pleiades service.
 
 ## Level of difficulty
 
@@ -28,7 +57,7 @@ https://example.com
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+An account is needed to access the imagery.&#x20;
 
 ## Limitations
 
@@ -40,7 +69,7 @@ https://example.com
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+[\[\[Link to guides on this tool and to articles on research that was done with the help of this tool\]\]](https://spectator.earth/blog/)
 
 ## Tool provider
 
