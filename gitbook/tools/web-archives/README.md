@@ -8,7 +8,9 @@ description: >-
 
 ## URL
 
-[Github](https://github.com/dessant/web-archives) | [Chrome](https://chrome.google.com/webstore/detail/web-archives/hkligngkgcpcolhcnkgccglchdafcnao) | [Firefox](https://addons.mozilla.org/firefox/addon/view-page-archive/) | [Edge](https://microsoftedge.microsoft.com/addons/detail/web-archives/apcfghlggldjdjepjnahfdjgdcdekhda) | [Opera](https://addons.opera.com/extensions/details/view-page-archive-cache/) | [Safari](https://apps.apple.com/us/app/web-archives-for-safari/id1603181853?platform=mac)\
+[https://github.com/dessant/web-archives](https://github.com/dessant/web-archives)
+
+[Chrome](https://chrome.google.com/webstore/detail/web-archives/hkligngkgcpcolhcnkgccglchdafcnao) | [Firefox](https://addons.mozilla.org/firefox/addon/view-page-archive/) | [Edge](https://microsoftedge.microsoft.com/addons/detail/web-archives/apcfghlggldjdjepjnahfdjgdcdekhda) | [Opera](https://addons.opera.com/extensions/details/view-page-archive-cache/) | [Safari](https://apps.apple.com/us/app/web-archives-for-safari/id1603181853?platform=mac)\
 (current version: 7.1.0, Oct 2025)
 
 ## Description
