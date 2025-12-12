@@ -77,17 +77,35 @@ No specific requirements.
 
 ## Limitations
 
-GeoDataTool will provide you with the estimated location of an IP address, however this IP address does not correspond to the actual physical location of the target of your research (a person, an organization, a website).
+GeoDataTool will provide you with location information on an IP address, however this location is an estimation, and rarely corresponds to the actual physical location of the target of your research (a person, an organization, a website).
+
+One of the [IP geolocation industry leader](https://support.maxmind.com/knowledge-base/articles/maxmind-geolocation-accuracy) estimates as of the time of this writing that:
+
+'\[...] our GeoIP products can identify users at the country level with 99.8% accuracy. For IPs located within the U.S., we estimate around an 80% accuracy at the state/region level, and a 66% accuracy for cities (within a 50km radius of that city).'
+
+Therefore, it is important to understand the limitations of IP address geolocation, both due to methodologies used to geolocate them, as well as how IP addresses change assignment and ownership over time.
+
+For more in-depths analysis on IP geolocation methodologies and accuracy, here are a few sources:
+
+* IP Geolocation databases: Unreliable?, by Ingmar Poese, Mohamed Ali Kaafar, Benoit Donnet, Bamba Gueye and Steve Uhlig (2011): [https://www.researchgate.net/publication/220195017\_IP\_Geolocation\_databases\_Unreliable](https://www.researchgate.net/publication/220195017_IP_Geolocation_databases_Unreliable)
+* A deep dive into the accuracy of IP Geolocation Databases and its impact on online advertising, by Patricia Callejo, Marco Gramaglia, Ruben Cuevas, and Angel Cuevas (2022): [https://arxiv.org/pdf/2109.13665](https://arxiv.org/pdf/2109.13665)
+* IAB Workshop on IP Address Geolocation, workshop material and contributions (2025): [https://datatracker.ietf.org/group/ipgeows/about/](https://datatracker.ietf.org/group/ipgeows/about/)
 
 ## Ethical Considerations
 
-There are no specific ethical considerations for this tool.
+**Publishing IP addresses:**
+
+Publishing IP addresses publicly—whether in security reports, blog posts, or forums—carries the risk of false identification. Should an IP address change ownership, because it is a dynamic IP address, or because it is a static IP address now leased to a different entity, records linking that IP to harmful activity can lead to undeserved suspicion, blacklisting, or harassment.
+
+It is important to understand and relay the context associated to the IP address you are publishing: timestamps and clear documentation of when an IP was associated with specific activity will avoid viewers incorrectly assuming current association with past behavior.
+
+**IP addresses as personally identifiable information (PII):**
+
+In case an IP address enables you to identify a person—whether through geolocation or association—it is important to note that it becomes personally identifiable information (PII). Depending on the scope of your research, this may have significant legal and ethical implications. The IP address itself, along with any derived data such as approximate location, ISP information, or connection details, will become subject to [data protection regulations](https://en.wikipedia.org/wiki/Privacy_law).
 
 ## Guides and articles
 
 If you are not familiar with basic networking concepts, we advise that you read through Geodatatool's information page on IP addresses: [https://www.geodatatool.com/en/ip\_info](https://www.geodatatool.com/en/ip_info)
-
-
 
 ## Tool provider
 
@@ -95,15 +113,11 @@ There isn't much public information available about the specific individual or o
 
 ## Similar tools
 
-There are quite a few similar tools providing the same IP location capabilities:
+There are many IP geolocation services, depending on how often and at what scale you need them. Examples:
 
-* [https://ip-geolocation.whoisxmlapi.com/](https://ip-geolocation.whoisxmlapi.com/)
-* [https://ipgeolocation.io/](https://ipgeolocation.io/)
-* [https://www.geolocation.com/](https://www.geolocation.com/)
-
-
-
-If you are looking for a Reverse DNS lookup tool specifically, you may use MXToolbox: [https://mxtoolbox.com/ReverseLookup.aspx](https://mxtoolbox.com/ReverseLookup.aspx)
+* Maxmind [https://www.maxmind.com/](https://www.maxmind.com/) - for businesses or organizations, comprehensive suite of IP geolocation services, including purchasing complete GeoIP databases.
+* IPgeolocation [https://ipgeolocation.io/pricing.html](https://ipgeolocation.io/pricing.html) - for smaller businesses, provides access to a Free tier API enabling up to 1K requests per day.
+* WhoisXMLAPI [https://ip-geolocation.whoisxmlapi.com/](https://ip-geolocation.whoisxmlapi.com/) - hybrid solution, offers free single IP geolocation, or provides access to a paid API.
 
 ## Advertising Trackers
 
