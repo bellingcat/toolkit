@@ -36,7 +36,7 @@ OSM's place names are crowdsourced, so they may not always be accurate. Addition
 
 ## Ethical Considerations
 
-OpenStreetMap receives funds from corporate entities such as Microsoft, Amazon Web Services, and Meta.
+OpenStreetMap receives [funds from corporate entities](https://osmfoundation.org/wiki/Corporate_Members) such as Microsoft, Amazon Web Services, and Meta.
 
 ## Guide
 
@@ -44,9 +44,11 @@ OpenStreetMap receives funds from corporate entities such as Microsoft, Amazon W
 
 [OSM Wiki](https://wiki.openstreetmap.org/wiki/Beginners'_guide)
 
+An example of open-source research using OSM, AidData's Geospatial Global Chinese Development Finance Dataset, can be found [here](https://www.aiddata.org/data/aiddatas-geospatial-global-chinese-development-finance-dataset-version-3-0). This dataset uses OSM to geolocate international development projects financed by the Chinese government and visualize the impact of China's foreign aid program.
+
 ## Tool provider
 
-OpenStreetMap is operated by the OpenStreetMap Foundation.
+OpenStreetMap is operated by the OpenStreetMap Foundation, a company limited by guarantee registered in England and Wales.
 
 ## Advertising Trackers
 
