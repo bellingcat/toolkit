@@ -14,7 +14,11 @@ Here WeGo is a navigation app that can serve as an alternative to popular servic
 
 Here WeGo offers users the option to overlay environmental zones over the map they are viewing. This provides an easily digestible view of low-emissions or similar types of other zones in a particular area.
 
-Unlike some competitors, Here WeGo emphasizes user privacy. It collects minimal data compared to other navigation apps, which is a significant plus for privacy-conscious users​​. The sharing of traffic data on the mobile application is optional and users are informed that any data that they do share will be anonymised.
+<figure><img src=".gitbook/assets/Screenshot 2025-12-13 113957.png" alt="" width="563"><figcaption><p>Screenshot showing the default view of Here WeGo, not indicating low emissions/environmental zones.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/Screenshot 2025-12-13 114007.png" alt="" width="563"><figcaption><p>Screenshot showing the low-emissions/environmental zone around the city of Antwerp, Belgium.</p></figcaption></figure>
+
+Unlike some competitors, Here WeGo emphasizes user privacy. It collects minimal data compared to other navigation apps, which is a significant plus for privacy-conscious users​​. More information on their privacy features have been detailed [here](https://falconlinkvpn.com/blog/best-google-maps-alternatives/) and [here](https://www.routific.com/blog/google-maps-alternatives). The sharing of traffic data on the mobile application is optional and users are informed that any data that they do share will be anonymised.
 
 ## Cost
 
@@ -34,7 +38,7 @@ Registering for an account can be done via Facebook or with an email address. Th
 
 ## Limitations
 
-Unlike some other satellite imagery tools, Here WeGo does not appear to indicate the date of the images it displays. Nor does it offer different chronological options, which may be limiting for researchers looking to assign a specific time to an image.&#x20;
+Unlike some other satellite imagery tools, Here WeGo does not appear to indicate the date of the images it displays. Nor does it offer different chronological options, which may be limiting for researchers looking to assign a specific time to an image.
 
 ## Ethical Considerations
 
@@ -46,7 +50,7 @@ A guide to what Here WeGo, its setup and its use is available on a community-run
 
 ## Tool provider
 
-The tool is created and maintained by an entity named Here Technologies. They are a Dutch multinational headquartered in Amsterdam that is majority owned by a consortium of German automotive companies. The entity's core business revolves around lisencing mapping content to other companies.&#x20;
+The tool is created and maintained by an entity named Here Technologies. They are a Dutch multinational headquartered in Amsterdam that is majority owned by a consortium of German automotive companies. The entity's core business revolves around lisencing mapping content to other companies.
 
 ## Advertising Trackers
 
