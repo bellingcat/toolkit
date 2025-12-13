@@ -2,6 +2,7 @@
 description: >-
   IP geolocation service to identify the location and other technical
   information associated to IP addresses.
+updated: '2025-12-12'
 ---
 
 # Geo Data Tool
