@@ -10,7 +10,7 @@ description: >-
 ## URL
 
 [https://acleddata.com/](https://acleddata.com/)\
-(as of Oct 28, 2025)
+(as of Dec 12, 2025)
 
 ## Description
 
@@ -62,28 +62,17 @@ ACLED Trendfinder provides interactive tools for tracking global political viole
 <summary>Trendfinder Functions</summary>
 
 * **Annual Trend graph**: a bar chart and line graph with a time range slider.
-
-- **Compare**: compare events to the previous month or year.
-
+* **Compare**: compare events to the previous month or year.
 * **Dark theme toggle**
-
-- **Data download:** download data in `.xlsx` format.
-
+* **Data download:** download data in `.xlsx` format.
 * **Filter by Event / Sub event Types**: filter events e.g., Battles, Protests, Riots, etc.
-
-- **Individual event details**: when viewing subnational results, these are viewable on the map and include event and sub-event type and actors involved,
-
+* **Individual event details**: when viewing subnational results, these are viewable on the map and include event and sub-event type and actors involved,
 * **Map view:** see events plotted on a map.
-
-- **Table view**: see a table of events by country or subnational area.
-
+* **Table view**: see a table of events by country or subnational area.
 * **Reset button**
-
-- **Select country**: filter by a specific country.
-
+* **Select country**: filter by a specific country.
 * **Table View - Event Count and Change Statistics**: filterable by country, Provinces or District, Events in the current Week, Yearly Average, and Percentage Change.
-
-- **Zoom tool:** zoom in and out on the map.
+* **Zoom tool:** zoom in and out on the map.
 
 </details>
 
