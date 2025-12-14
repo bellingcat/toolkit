@@ -239,6 +239,8 @@ Spot source imagery and Google StreetView can be compared side by side on screen
 
 
 
+<figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+
 {% columns %}
 {% column width="41.66666666666667%" %}
 <figure><img src=".gitbook/assets/Another error croppedANNOTATED2.png" alt=""><figcaption></figcaption></figure>
