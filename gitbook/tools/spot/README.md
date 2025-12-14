@@ -243,7 +243,7 @@ Most importantly, direct access to Google StreeView is provided to support locat
 {% endcolumn %}
 
 {% column %}
-<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2kIW8Z8_2Fuploads_2FiNBrEZXDUczSTr58q2MK_2Fhttps___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2 (2).avif" alt=""><figcaption></figcaption></figure>
+
 {% endcolumn %}
 {% endcolumns %}
 
