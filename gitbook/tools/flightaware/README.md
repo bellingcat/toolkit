@@ -255,14 +255,14 @@ The different paid tiers are:
 
 #### Filtering and Categorization
 
-* **Limited Filtering:** FlightAware does not allow to filter flights based on specific categories on the live map, making it difficult to focus on particular aircraft or routes.
-* **Insufficient Categories:** The available flight categories are limited, especially regarding military aircraft, which can hinder investigations into military aviation activities. Although, in theory, one can find a military aircraft on the live map and through the search bar, or by knowing ahead of time which call signs may be related to military or government aircraft. However, if this is a consideration for researchers, websites like[ flightradar24.com](https://www.flightradar24.com/blog/an-all-new-way-to-filter-flights-on-flightradar24-com/) may be able to help users by filtering for various categories including ["Military and Government"](https://www.flightradar24.com/blog/an-all-new-way-to-filter-flights-on-flightradar24-com/).
+* **Limited Filtering:** FlightAware does not allow filtering flights based on specific categories on the live map, making it difficult to focus on particular aircraft or routes.
+* **Insufficient Categories:** The available flight categories are limited, especially regarding military aircraft, which can hinder investigations into military aviation activities. Although in theory, one can find a military aircraft on the live map and through the search bar, or by knowing ahead of time which call signs may be related to military or government aircraft. However, if this is a consideration for researchers, websites like[ flightradar24.com](https://www.flightradar24.com/blog/an-all-new-way-to-filter-flights-on-flightradar24-com/) may be able to help users by filtering for various categories, including ["Military and Government"](https://www.flightradar24.com/blog/an-all-new-way-to-filter-flights-on-flightradar24-com/).
 
 #### Visual Representation
 
-* **Visual crowding:** The density of flight icons on the live map can sometimes hinder the ability to easily identify and track specific aircraft. The live map may experience visual crowding due to the number of flight icons, potentially making it difficult to focus on individual aircraft.
-* **Unrepresentative Icons:** The icons used on the live map may not precisely reflect the actual aircraft types, leading to potential delays in accessing or retrieving data you are interested in. In contrast to websites like flightradar24, different icons show different aircraft types at first glance. Navigating through this amount of information may be an issue for some researchers.
-* **Photo Matching** - If photos are used for verification, matching can be a slightly longer process on FlightAware. Aircraft photos refer to similar aircraft types (Boeing 777 or Airbus A380, etc) instead of the exact airplane in the air that the user is currently tracking. To find the right aircraft in the gallery, users need to know the tail number from a different source and put it in the search bar. It may save researchers time by going to flightradar24 or ADS-B Exchange and other sites to do a photo match since the photo on its flight page corresponds to the actual aircraft of interest instead of a type.
+* **Visual crowding:** The density of flight icons on the live map can sometimes hinder the ability to easily identify and track specific aircraft. The live map may experience visual crowding from the number of flight icons, making it difficult to focus on individual aircraft.
+* **Unrepresentative Icons:** The icons on the live map may not accurately reflect the actual aircraft types, which can delay access to or retrieval of the data you are interested in. In contrast to websites like Flightradar24, different icons show different aircraft types at first glance. Navigating through this amount of information may be an issue for some researchers.
+* **Photo Matching** - If photos are used for verification, matching can be a slightly longer process on FlightAware. Aircraft photos refer to similar aircraft types (Boeing 777 or Airbus A380, etc) instead of the exact airplane in the air that the user is currently tracking. To find the right aircraft in the gallery, users need to know the tail number from a different source and put it in the search bar. It may save researchers time by going to Flightradar24 or ADS-B Exchange and other sites to do a photo match since the photo on its flight page corresponds to the actual aircraft of interest instead of a type.
 
 #### Data Limitations
 
@@ -279,7 +279,7 @@ The different paid tiers are:
 
 **Privacy vs. Transparency:**
 
-The ethical dilemma here revolves around the conflict between public transparency and individual privacy. Make careful determinations about how to publish research that involves tracking patterns of individuals. This [case](https://amp.cnn.com/cnn/2024/02/06/tech/taylor-swift-private-jet-tracker/index.html), for example, highlights the tension between the right to information and the potential consequences of exposing individuals to danger.
+The ethical dilemma here revolves around the conflict between public transparency and individual privacy. Make careful determinations about how to publish research that involves tracking individuals' patterns. This [case](https://amp.cnn.com/cnn/2024/02/06/tech/taylor-swift-private-jet-tracker/index.html), for example, highlights the tension between the right to information and the potential consequences of exposing individuals to danger.
 
 **Context matters:**
 
