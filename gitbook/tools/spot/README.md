@@ -294,6 +294,14 @@ All tools which query OpenStreetMap share the limitations which the structure of
 
 <details>
 
+<summary>Legal and Privacy statement provided on the Spot Website <em>(Click the arrow for more detail...)</em></summary>
+
+<figure><img src=".gitbook/assets/Spot Links Legal and Privacy.jpg" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+<details>
+
 <summary>Trusted AI Principles provided on the Spot Website. <em>(Click the arrow for more detail...)</em></summary>
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
