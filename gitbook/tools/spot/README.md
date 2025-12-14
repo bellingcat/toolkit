@@ -233,19 +233,7 @@ EXAMPLE OUTPUT WHERE FEATURES ARE GROUPED INTO SOLUTION LOCATIONS
 
 For example, if there are multiple solution locations meeting the search criteria, Spot's output map may not allow the user to identify how many different solution locations there are, or their exact boundaries.  This could lead to extended time taken to check the options against StreetView maps and other forms of confirmation.
 
-
-
-{% columns %}
-{% column %}
-A very useful and original time-saving feature in Spot, is the option to view any feature listed on the map legend using a variety of mapping services: Google Maps, Bing, and Yandex.&#x20;
-
-Most importantly, direct access to Google StreeView is provided to support location verification through multiple mapping services.&#x20;
-{% endcolumn %}
-
-{% column %}
-
-{% endcolumn %}
-{% endcolumns %}
+A very useful and original time-saving feature in Spot, is the option to view any feature listed on the map legend using a variety of mapping services: Google Maps, Bing, and Yandex. Most importantly, direct access to Google StreeView is provided to support location verification through multiple mapping services. See example insert picture labelled Google Street View in the right hand image below.
 
 Spot source imagery and Google StreetView can be compared side by side on screen:
 
