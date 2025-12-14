@@ -160,13 +160,15 @@ Use the search parameters box to adjust existing search features and their relat
 {% endtabs %}
 
 {% hint style="danger" %}
-The user can input the location part of the search in two ways, and these often return different results:
+The user can input the location part of the search in three ways, and these often return different results:
 
-1\) Enter the location in the search box on the top right hand of the screen - the search will be conducted on a rectangle centred around a point representing the location
+1\) Enter the location in the search box on the top right hand of the screen (either as place name or co-ordinates) - the search will be conducted on a rectangle centred around a point representing the location
 
 2\) Enter the location in natural language as part of the text query entered into the "Your search" box in the top left of the screen - the search will look for a polygon of geographic map boundaries and search within that.
 
-The natural language query method (number 2) generally provides a smaller search space, which is beneficial for researchers.
+3\) Set the search region as the rectangular map area showing in the interface by pressing the "Search Current Area" button in the centre top of the screen
+
+Note that attempts to use different methods to define the same search area may produce different results in practice.
 {% endhint %}
 
 ### Spot’s Output Result Map&#x20;
