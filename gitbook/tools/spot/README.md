@@ -54,7 +54,7 @@ e.g. Enter "_**Find a pharmacy and a traffic light and a bus stop and a bridge w
 
 {% columns %}
 {% column %}
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
@@ -294,59 +294,11 @@ All tools which query OpenStreetMap share the limitations which the structure of
 
 <details>
 
-<summary>Trusted AI Principles quoted directly from the Spot Website. <em>(Click the arrow for more detail...)</em></summary>
+<summary>Trusted AI Principles provided on the Spot Website. <em>(Click the arrow for more detail...)</em></summary>
 
-### Explainability&#x20;
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-How and why did an AI system arrive at a particular conclusion?&#x20;
-
-The Spot application makes use of a fine-tuned Llama3 model in order to perform three tasks; entity detection, understanding of the relationship between these entities and location detection. This understanding is then translated to a graph representation of the query (Spot Query) in order to query OpenStreetMap (OSM) for this information. The information that is found in OSM is then rendered on the front-end of the Spot application, including contextual data like the metadata from OSM and visual data from Google Street View.&#x20;
-
-### Robustness&#x20;
-
-Has the AI system been defended against malicious attacks -- is it secure and robust?&#x20;
-
-Yes.&#x20;
-
-### Privacy&#x20;
-
-Have aspects of consumer privacy and data rights been prioritized?&#x20;
-
-The user prompts that are entered in the Spot application are being used to re-train the model on real user queries to improve the user relevance of the AI model.&#x20;
-
-Other than that, the Spot application does not archive/transfer/use any user data other than mentioned in the privacy policy.&#x20;
-
-### Transparency&#x20;
-
-Is it clear how the AI system works and what its limitations are?&#x20;
-
-The fine-tuned Llama3 model is developed and trained by the DW Research and Cooperation team. &#x20;
-
-The AI models are limited by the training data that has been used. This training data was developed by the DW Research & Cooperations team. The following training datasets are implemented and available via our GitHub repository:&#x20;
-
-* Gold standard queries -- a human generated dataset including xxx prompt on location searches. Used for understanding human location search prompts and benchmarking the performance of the system&#x20;
-* Large query dataset -- based on the gold standard dataset GPT 4o was used to create a body of 119 queries to diversify & train the many ways humans could prompt the Spot application.&#x20;
-* OSM key-value pairs and clusters that are relevant for verification queries -- all OSM tags and key-value pairs have been analyzed and clustered for specific location verification queries. By clustering key-value pair combinations we aim to provide relevant answers to users because OSM data is rather diverse in how entities are tagged&#x20;
-* Spatial relative terms - this is a dataset that translates relative spatial terms like 'next to' or 'opposite of' into fixed spatial terms.&#x20;
-* Etc.&#x20;
-
-The general limitations of the system are based on:&#x20;
-
-* The training data that was used, e.g. what the system did not learn it will not be able to do&#x20;
-* The data available in OSM, if an entity has not been tagged (correctly) we will not be able to find it. Generally, we see that there is more OSM data available in specific regions (Europe, North America, etc.) as in others (Africa, Mena, etc.) \[link to research on this]&#x20;
-* Etc.&#x20;
-
-SPOT on [GitHub](https://github.com/dw-innovation/kid2-spot).
-
-### Governance&#x20;
-
-Is the AI system controlled and managed in a responsible way -- in terms of wider risk, impact on people, legal compliance, and ethics guidelines?&#x20;
-
-* OSM copyright & usage guidelines&#x20;
-* AI development guidelines DW&#x20;
-* User control -- no publicly anonymous available access but certain monitoring of users will be done via login functionality.&#x20;
-
-If you feel that we have missed something, or you need clarification of something specific please feel free to reach out to [hey@findthatspot.io](mailto:hey@findthatspot.io).
+###
 
 </details>
 
