@@ -13,30 +13,59 @@ description: >-
 
 ## Description
 
-4CAT is a containerised [Docker](https://www.docker.com/) application that can be installed on a server to create an accessible web-based tool that enables users to gather and analyze online data. It supports researchers by providing a streamlined way to explore and identify trends within data from social media and other digital platforms. The tool is structured to accommodate a variety of online datasets. 4CAT can be used to conduct comprehensive studies on the dynamics of online communities and the dissemination of information across virtual networks.
+4CAT is an open-source, containerised web application (commonly deployed via Docker) for capturing, importing, and analysing online data through an accessible browser interface. Researchers create datasets from supported platforms or import datasets collected with companion tools; they can then run a large library of “processors” to explore trends, content, networks, and media. 4CAT is designed to make repeatable capture and analysis workflows available without requiring programming for day-to-day use, but installation and maintenance do require technical setup.
 
-Although the tool's installation requires technical knowledge once installed the application can be used by a team as a normal web application. There is no need for programming or scraping skills to use the tool.
+### **Features**
 
-**Features:**
+#### Data Sources
 
-_**Data Sources**_
+**Direct capture in 4CAT** (actively supported in the project README)
 
-* **Data sources (actively supported)**: _4chan, Telegram, Tumblr_
-* **Data sources (additional support through Zeeschuimer)**: _TikTok (posts and comments), Instagram (posts only), Twitter, LinkedIn, 9gag, Imgur, Douyin, Gab_
-* **Data sources (additional support)**: _Facebook and Instagram_ (via CrowdTangle or Facepager exports), _YouTube_ videos and comments (via the YouTube Data Tools), _Weibo_ (via Bazhuayu)
-* **Scheduling:** once data sources are configured a scheduler can be set up to regularly import data from a data source.
+* 4chan and 8kun
+* Bluesky
+* Telegram
+* TikTok (from a list of TikTok post URLs)
+* Tumblr
+
+**Import via Zeeschuimer** (browser-based capture, then import to 4CAT)
+
+* TikTok (posts and comments)
+* Instagram (posts only)
+* X/Twitter
+* LinkedIn
+* 9gag
+* Imgur
+* Douyin
+* Gab
+* Truth Social
+* Threads
+* Pinterest
+* RedNote/Xiaohongshu
+
+**Import from other tools or files**
+
+* Facebook and Instagram: via [Facepager exports](https://github.com/strohne/Facepager) (CrowdTangle is discontinued; only legacy exports apply if already obtained)
+* YouTube videos and comments: via [YouTube Data Tools](https://ytdt.digitalmethods.net/)
+* Weibo: via [Bazhuayu](https://www.bazhuayu.com/)
+* Generic imports: CSV files and common media formats (audio, video, images) can also be uploaded for analysis.
+
+#### Scheduling
+
+Once data sources are configured, 4CAT can be used in ongoing workflows, including collecting datasets repeatedly and running processors over time, depending on the connector and deployment setup.
 
 _**Processors**_
 
-* **Combined:** across the data sources there are a series of combined processors for common processing tasks e.g. annotate images with Google Vision API, histogram with the number of posts per month.
-* **Conversion:** convert date source output file formats e.g. CSV, JSON, NDJSON, etc.
-* **Cross Platform:** download YouTube thumbnails.
-* **Filtering:** filter by value, date, words or phrases and support for processing tasks like anonymise datasets.
-* **Networks:** analyse and output datasets for network visualisation in various GEXF formats.
-* **Post metrics:** visualise and export various metrics including counts of values, posts, Hatebase analysis, Extract Text from Images, Extract YouTube metadata
-* **Text Analysis:** various text analysis processors including extracting named entities, generating topic models, word counts, etc.
-* **Thread metrics:** debate metrics.
-* **Visual:** including histogram, download images, word trees and clouds, image walls.
+&#x20;(examples; the library evolves across releases)
+
+* Filtering and transformation: filter by value/date/keywords; anonymise fields; convert between common formats (CSV, JSON, NDJSON)
+* Metrics and exploration: counts and distributions over time; “top terms” style summaries; thread and post metrics
+* Text analysis: entity extraction, topic modelling, word counts, and other NLP-style processors
+* Networks: exports and processors for network analysis and visualisation (including GEXF outputs)
+* Media analysis: image walls, downloading media, and image-oriented processors; newer releases also add processors that support LLM-assisted annotation and evaluation depending on configuration.
+
+#### Examples
+
+
 
 The example below shows creating a new dataset and customising the visualisation.
 
@@ -108,7 +137,7 @@ To effectively use 4Cat, especially for beginners or those looking to refine the
 
 **Tutorials and Articles**
 
-* _4CAT exercises_ (no date) _Google Docs_. Available at: [https://docs.google.com/document/d/1po-sOB8tDRZlvWrEayu97cGh\_qsBuW0URd4md0\_tv7k/edit?usp=embed\_facebook](https://docs.google.com/document/d/1po-sOB8tDRZlvWrEayu97cGh\_qsBuW0URd4md0\_tv7k/edit?usp=embed\_facebook) (Accessed: 12 May 2024).
+* _4CAT exercises_ (no date) _Google Docs_. Available at: [https://docs.google.com/document/d/1po-sOB8tDRZlvWrEayu97cGh\_qsBuW0URd4md0\_tv7k/edit?usp=embed\_facebook](https://docs.google.com/document/d/1po-sOB8tDRZlvWrEayu97cGh_qsBuW0URd4md0_tv7k/edit?usp=embed_facebook) (Accessed: 12 May 2024).
 * ‘CAT4SMR – Capture and Anaysis Tools for Social Media Research’ (no date). Available at: [https://cat4smr.humanities.uva.nl/](https://cat4smr.humanities.uva.nl/) (Accessed: 13 May 2024).Peeters, S. and Hagen, S. (2022) ‘The 4CAT Capture and Analysis Toolkit: A Modular Tool for Transparent and Traceable Social Media Research’, _Computational Communication Research_, 4(2), pp. 571–589.
 * _"As a researcher, this tool saves me a lot of work and stress” - News - Utrecht University_ (2023). Available at: [https://www.uu.nl/en/news/as-a-researcher-this-tool-saves-me-a-lot-of-work-and-stress](https://www.uu.nl/en/news/as-a-researcher-this-tool-saves-me-a-lot-of-work-and-stress) (Accessed: 13 May 2024).
 
