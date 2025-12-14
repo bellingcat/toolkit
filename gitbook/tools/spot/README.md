@@ -92,13 +92,11 @@ The Spot interface uses text boxes for input data, set over a background map for
 
 <figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption><p><strong>THE SPOT INTERFACE</strong></p></figcaption></figure>
-
 {% columns %}
 {% column %}
 **THE SEARCH PARAMETERS SUBWINDOW**
 
-Here, you can edit the OSM tags assigned to each feature. OSM tags define features of map [elements](https://taginfo.openstreetmap.org/about) which “add meaning to geographic objects.”&#x20;
+Here, you can edit the OSM tags assigned to each feature in the search location. OSM tags define features of map [elements](https://taginfo.openstreetmap.org/about) which “add meaning to geographic objects.”&#x20;
 
 According to the [TagInfo site](https://taginfo.openstreetmap.org/about) for OSM tags, “there is no fixed list of those tags. New tags can be invented and used as needed. Everybody can come up with a new tag and add it to new or existing objects.”
 
@@ -122,7 +120,7 @@ To confirm which result matches our required location, one must sift through all
 {% tab title="INPUT DATA" %}
 <figure><img src=".gitbook/assets/step1 (5).JPG" alt="" width="563"><figcaption></figcaption></figure>
 
-Natural language description of a location to be found - includes entities at the location, their relative proximity and the geographic search area.
+Natural language description of a location to be found - includes geographical location (not just rectangular areas of interest but also irregularly-shaped regions, e.g. "The City of London") entities at the location, their relative proximity and the geographic search area.
 
 OR
 
@@ -147,7 +145,9 @@ Note that Spot very clearly marks the overall search area for the query on its o
 {% endtab %}
 
 {% tab title="DATA INPUT OPTIONS" %}
-NB Locations can be input as Proper Place Names, or Geographic co-ordinates.
+NB Locations can be input as:
+
+&#x20;Proper Place Names of search regions, e.g. a city, or Geographic co-ordinates or a rectangular area of interest defined by the visible map region displayed in the Spot interface when pressing the "Search Current Area" button on the interface.
 
 Enter a natural language sentence in the search box
 
