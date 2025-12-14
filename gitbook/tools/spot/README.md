@@ -48,7 +48,7 @@ e.g. Enter "_**Find a pharmacy and a traffic light and a bus stop and a bridge w
 {% endcolumn %}
 
 {% column %}
-<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2kIW8Z8_2Fuploads_2FiNBrEZXDUczSTr58q2MK_2Fhttps___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2 (3).avif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
