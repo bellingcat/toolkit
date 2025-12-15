@@ -1,9 +1,9 @@
 ---
+updated: '2025-10-25'
 description: >-
   Whoxy is a domain search engine or "whois lookup" tool to find (the history
   of) registration information on a domain, such as the registrar, the status of
   the domain and the date of registration.
-updated: '2025-10-25'
 ---
 
 # Whoxy
@@ -22,7 +22,7 @@ There are 6 options to query information.
 * Enter a domain name to retrieve historical information. Results will show the same information as for a regular whois query, and further down on the page it is shown who owned that domain in the past.
 * Enter an owner name for reverse whois results on which domain names are linked to that owner. The results will show domain names which are linked to that particular name. If the amount of results is substantial, a subset will be shown with the remark to use the Reverse Whois API.
 * Enter a company name for reverse whois results on which domain names are linked with that company. The results will show a list of domain names. If the amount of results is substantial, a subset will be shown with the remark to use the Reverse Whois API.
-* Enter a valid e-mail address for reversed whois results on which domain names are linked with that e-mail address.&#x20;
+* Enter a valid e-mail address for reversed whois results on which domain names are linked with that e-mail address.
 * Enter a domain keyword (for instance "iPhone") for reversed whois results on which domain names include that specific keyword. The results will show a list of domain names with that keyword. If the amount of results is substantial, a subset will be shown with the remark to use the Reverse Whois API.
 
 \*\*\*
@@ -50,6 +50,8 @@ Compared to other services that offer information on domain names, for instance 
 * [ ] Paid
 
 Single searches are free and do not require an account. Whoxy does not require a monthly fee, and has a "pay as you go" policy if an API is used. Pricing information for API access can be found [here](https://www.whoxy.com/pricing.php), and is also visible on the front page, including comparisons to other tools.
+
+Free API access is available on request for academics, those working in non-profit organisations and research on non-commercial basis.&#x20;
 
 ## Level of difficulty
 
@@ -83,7 +85,7 @@ Personally identifiable information (abbreviated as [PII](https://en.wikipedia.o
 
 The results may still show names, addresses and contact information. Keep in mind that the names that are shown may not be the same person that is investigated on.
 
-Domain data may be incomplete or outdated so the information should always be checked against other sources before concluding the information is correct.&#x20;
+Domain data may be incomplete or outdated so the information should always be checked against other sources before concluding the information is correct.
 
 ( \* There are multiple laws, rulings and articles which address the need for privacy protection in WHOIS data. See for instance [https://icann.org](https://icann.org), [https://www.eff.org/](https://www.eff.org/), [https://gdpr.eu/](https://gdpr.eu/)or resources from domain registration companies which explain their WHOIS privacy services.)
 
