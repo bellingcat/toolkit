@@ -33,7 +33,7 @@ Many databases require that you create an account with an email and password to 
 
 ## Limitations
 
-Certain case information is not publicly available, such as juvenile records or cases subject to the federal Violence Against Women Act (VAWA). Additionally, older cases might not be digitized. Note that if your goal is to run a comprehensive background check, many of these databases will not be sufficient. Most jurisdictions provide full access public cases at courthouse kiosks. If you are not local, you can make an online records request to the respective county to receive scanned copies of the records you're looking for.
+Case information related to vulnerable populations — such as [juveniles](https://www.justia.com/criminal/offenses/other-crimes/juvenile-crimes/confidentiality-of-juvenile-court-records/) or [victims of domestic violence](https://www.techsafety.org/confidentiality-in-vawa-fvpsa) — is not publicly available. In most states, you must be an attorney or authorized user to access such information. Additionally, older cases might not be digitized. Note that if your goal is to run a comprehensive background check, many of these databases will not be sufficient. Most jurisdictions provide full access to public case information at courthouse kiosks. If you are not local, you can make an online records request to the respective county to receive scanned copies of the records you're looking for.
 
 ## Ethical Considerations
 
