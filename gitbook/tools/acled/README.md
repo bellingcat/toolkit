@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-28'
+updated: '2025-12-14'
 description: >-
   ACLED provides data and analysis on political violence and protest around the
   world, facilitating research, policy making, and journalistic reporting.
