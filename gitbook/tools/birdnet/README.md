@@ -58,7 +58,7 @@ After 15 days it anonymizes the IP address. Users may submit a [written request]
 
 ## Guide
 
-[What is BirdNet?](https://birdnet.cornell.edu/home/?utm_source=chatgpt.com)&#x20;
+[What is BirdNet?](https://www.birds.cornell.edu/ccb/birdnet/)&#x20;
 
 A [repository of use cases](https://birdnet-team.github.io/BirdNET-Analyzer/projects.html) based on the LiveMap
 
