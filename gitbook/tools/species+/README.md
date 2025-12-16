@@ -57,11 +57,11 @@ The [Species+ About page](https://www.speciesplus.net/about) provides informatio
 
 Within Species+ there is a list of related websites/applications that serve a similar purpose: listing vulnerable species in the CITES and CMS agreements in comprehensive databases, which sometimes contain trade data. The sites are:
 
-[Checklist of CITES Species<br>](https://checklist.cites.org/#/en)[CITES Trade Database](https://bellingcat.gitbook.io/toolkit/more/all-tools/cites-trade-database)\
-[Species+ / CITES Checklist API](https://api.speciesplus.net/)\
-[EU Captive breeding database](https://captivebreeding.unep-wcmc.org/)\
-[CITES Wildlife TradeView](https://tradeview.cites.org/) \[[Here our profile](https://bellingcat.gitbook.io/toolkit/more/all-tools/cites-trade-database)]\
-[CITES Non-Detriment Findings Support Tool](https://ndfsupport.unep-wcmc.org/en)
+* [Checklist of CITES Species ](https://checklist.cites.org/#/en) - This tool focuses on providing information about the level of protection assigned to each CITES-listed species.
+* [CITES Trade Database](https://bellingcat.gitbook.io/toolkit/more/all-tools/cites-trade-database) - Provides commercial information on species by country.
+* [EU Captive breeding database](https://captivebreeding.unep-wcmc.org/) - Contains captive bred, ranching and mariculture information of animal species listed in the EU Wildlife Trade Regulations.
+* [CITES Wildlife TradeView](https://tradeview.cites.org/) \[[Here our profile](https://bellingcat.gitbook.io/toolkit/more/all-tools/cites-trade-database)] - It focuses on commercial behavior with regard to protected species using visual elements.
+* [CITES Non-Detriment Findings Support Tool](https://ndfsupport.unep-wcmc.org/en) - Specialized in providing  information about whether international trade in CITES listed-species is detrimental or not.
 
 ## Advertising Trackers
 
