@@ -11,7 +11,7 @@ description: Centralized website with vulnerable species information.
 Description<br>
 ---------------
 
-This website provides information on all species currently listed in the Convention on International Trade in Endangered Species (CITES), the Convention on the Conservation of Migratory Species of Wild Animals (CMS), and other environmental agreements (MEAs). You can search by species, higher taxon, synonym, common name, or directly by CITES document. The entire database can be downloaded.
+This website provides information on all species currently listed in the [Convention on International Trade in Endangered Species (CITES)](https://cites.org/eng/disc/text.php), the [Convention on the Conservation of Migratory Species of Wild Animals (CMS)](https://www.cms.int/), and other environmental agreements ([MEAs](https://environment.ec.europa.eu/international-cooperation/multilateral-environmental-agreements-meas_en)). You can search by species, higher taxon, synonym, common name, or directly search for a  document produced by CITES, such as reports, on a specific species. The entire database can be downloaded.
 
 The tool is useful for researchers and individuals who want to know or confirm the current status of a species, i.e., whether it can be traded or not, what type of regulations, quotas, suspensions, or decisions apply in certain regions.
 
