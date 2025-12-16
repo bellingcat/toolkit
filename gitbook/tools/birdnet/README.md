@@ -14,7 +14,7 @@ BirdNET LiveMap is an online interactive map that displays bird sound detections
 
 As part of a [wider research project](https://www.birds.cornell.edu/ccb/birdnet/) to use Machine Learning to learn and identify bird sounds, the [LiveMap](https://birdnet.cornell.edu/api2/live) aggregates anonymized user-inputted data and bird recordings, displaying results of bird sightings across the world from the last 24 hours.
 
-Additionally the LiveMap provides a list of recent sightings along with hourly observations and number of species observed, along with the most frequently observed birds for Europe and North America, with plans to expand the geographical remit.
+Additionally the LiveMap provides a list of recent sightings along with hourly observations and number of species observed, along with the most frequently observed birds for Europe and North America.
 
 It is based on data of sound recordings provided through the [BirdNET app](https://apps.apple.com/us/app/birdnet/id1541842885) which can be uploaded by any user. Users in turn can use the app to ID birds based on machine learning of common bird species.
 
