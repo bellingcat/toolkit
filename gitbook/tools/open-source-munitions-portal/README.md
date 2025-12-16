@@ -15,7 +15,7 @@ description: >-
 ## Description
 
 {% hint style="danger" %}
-Disclaimer: Munitions are dangerous. Do not approach them.&#x20;
+Disclaimer: Munitions are dangerous. Do not approach them.
 
 This website contains information about ordnance, explosives and related items for educational and reference purposes only. The content should not be used for (1) attempting self-guided disposal of explosive devices; (2) manufacturing explosive devices or components; (3) handling explosive ordnance without proper training; (4) any illegal activities involving explosive materials.
 {% endhint %}
@@ -25,7 +25,7 @@ Open Source Munitions Portal (OSMP) is a verified image repository of munition t
 Any researcher or investigator interested in determining the type of munition used in a particular attack can visit the portal with their source imagery. They can then search through the portal’s images to make comparisons and see if they can find a match. If available, users will be able to find some, if not all of the following information about the munition: **Reported Location, Reported Year, Munition Category, Functional Use, Tentative Model, Base Color, Condition, Mechanical Feature, Guidance, Domain, Fins Characteristics, Caliber, Related Images, Research Organization, Marking Color, Marking Script.**
 
 {% hint style="info" %}
-[Every image has been reviewed by at least two specialists](https://osmp.ngo/about/) (See methodology) before it is published in the portal. Every entry has been classified under at least one munition category. Researchers using this portal will, at a minimum, **be able to classify** the munition they are inquiring about.&#x20;
+[Every image has been reviewed by at least two specialists](https://osmp.ngo/about/) (See methodology) before it is published in the portal. Every entry has been classified under at least one munition category. Researchers using this portal will, at a minimum, **be able to classify** the munition they are inquiring about.
 {% endhint %}
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/2025-11-26_00-49-07-ed2.png" alt=""><figcaption></figcaption></figure></div>
@@ -38,46 +38,46 @@ Any researcher or investigator interested in determining the type of munition us
 
 ### Data Source
 
-The portal’s data comes from various sources.&#x20;
+The portal’s data comes from various sources.
 
 1. Social Media - According to the tool providers, the portal sources its images from social media platforms sync as Twitter/X, Telegram, and Facebook [(see timestamp 00:16:11)](https://rss.com/podcasts/bellingcatstagetalk/1965759/). It predominantly uses Arabic- and Ukrainian-language social media ([see timestamp 00:30:48](https://rss.com/podcasts/bellingcatstagetalk/1965759/))
-2. Partner organizations - OSMP signed formal agreements with these organizations [(timestamp 00:17:00)](https://rss.com/podcasts/bellingcatstagetalk/1965759/) to use their images in the portal and link them to the source and external reference page.&#x20;
+2. Partner organizations - OSMP signed formal agreements with these organizations [(timestamp 00:17:00)](https://rss.com/podcasts/bellingcatstagetalk/1965759/) to use their images in the portal and link them to the source and external reference page.
 
 The partner organizations are: [Mwatana for Human Rights](https://www.mwatana.org/en/home), [Airwars](https://airwars.org), [ARES (Armament Research Services)](https://armamentresearch.com/), [Bellingcat](https://bellingcat.com), [Human Rights Watch](https://hrw.org), [Myanmar Witness](https://www.info-res.org/myanmar-witness/).
 
-3. Public Submissions - The portal allows the public to submit an image and contribute to the portal’s archive via [this form. ](https://docs.google.com/forms/d/e/1FAIpQLSc27fdYPQEvV6lKHwEpddw4nZdU1YD0GOIvXRBKimIh35g0RA/viewform)
+3. Public Submissions - The portal allows the public to submit an image and contribute to the portal’s archive via [this form.](https://docs.google.com/forms/d/e/1FAIpQLSc27fdYPQEvV6lKHwEpddw4nZdU1YD0GOIvXRBKimIh35g0RA/viewform)
 
 {% hint style="info" %}
-Submissions must include decent-quality images where the munition/remnant is visible and a source link. The team runs reverse-image searches on submitted content to seek the most reliable, closest-to-original sources before expert classification begins. [(Timestamp 00:29:02 - 00:30:21)](https://rss.com/podcasts/bellingcatstagetalk/1965759/)&#x20;
+Submissions must include decent-quality images where the munition/remnant is visible and a source link. The team runs reverse-image searches on submitted content to seek the most reliable, closest-to-original sources before expert classification begins. [(Timestamp 00:29:02 - 00:30:21)](https://rss.com/podcasts/bellingcatstagetalk/1965759/)
 {% endhint %}
 
 ### Munition Categories
 
 {% include ".gitbook/includes/hint-on-munitions-id-tools-lexicon.md" %}
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><ul><li><a href="https://www.youtube.com/watch?v=Bw2Jji323ik"><strong>Air-Delivered Bomb</strong> </a></li></ul></td><td data-object-fit="contain"><a href=".gitbook/assets/2025-11-25_19-32-54.png">2025-11-25_19-32-54.png</a></td></tr><tr><td><a href="https://www.youtube.com/watch?v=UlLCAvMztfE"><strong>Artillery Gun Projectile</strong></a></td><td data-object-fit="contain"><a href=".gitbook/assets/2025-11-25_19-37-39.png">2025-11-25_19-37-39.png</a></td></tr><tr><td><a href="https://www.youtube.com/watch?v=8FTuKLzQkYg"><strong>Rockets and Missiles</strong></a></td><td data-object-fit="contain"><a href=".gitbook/assets/2025-11-25_20-36-41.png">2025-11-25_20-36-41.png</a></td></tr><tr><td><a href="https://youtu.be/zwlbretmEis?si=730m0Ds9CQMCv6Ee"><strong>Mortar Projectiles</strong></a></td><td data-object-fit="contain"><a href=".gitbook/assets/2025-11-25_20-32-25.png">2025-11-25_20-32-25.png</a></td></tr><tr><td><a href="https://www.youtube.com/watch?v=2kH1kEPCJI8"><strong>Tank Gun Projectiles</strong></a></td><td data-object-fit="contain"><a href=".gitbook/assets/2025-11-27_19-08-28.png">2025-11-27_19-08-28.png</a></td></tr><tr><td><a href="https://osmp.ngo/munition-category/mines/"><strong>Mines</strong></a></td><td></td></tr><tr><td><a href="https://osmp.ngo/munition-category/recoilless-munitions/"><strong>Recoiless Munitions</strong> </a></td><td></td></tr><tr><td><a href="https://osmp.ngo/munition-category/submunitions/"><strong>Submunitions</strong></a></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><ul><li><a href="https://www.youtube.com/watch?v=Bw2Jji323ik"><strong>Air-Delivered Bomb</strong></a></li></ul></td><td data-object-fit="contain"><a href=".gitbook/assets/2025-11-25_19-32-54.png">2025-11-25_19-32-54.png</a></td></tr><tr><td><a href="https://www.youtube.com/watch?v=UlLCAvMztfE"><strong>Artillery Gun Projectile</strong></a></td><td data-object-fit="contain"><a href=".gitbook/assets/2025-11-25_19-37-39.png">2025-11-25_19-37-39.png</a></td></tr><tr><td><a href="https://www.youtube.com/watch?v=8FTuKLzQkYg"><strong>Rockets and Missiles</strong></a></td><td data-object-fit="contain"><a href=".gitbook/assets/2025-11-25_20-36-41.png">2025-11-25_20-36-41.png</a></td></tr><tr><td><a href="https://youtu.be/zwlbretmEis?si=730m0Ds9CQMCv6Ee"><strong>Mortar Projectiles</strong></a></td><td data-object-fit="contain"><a href=".gitbook/assets/2025-11-25_20-32-25.png">2025-11-25_20-32-25.png</a></td></tr><tr><td><a href="https://www.youtube.com/watch?v=2kH1kEPCJI8"><strong>Tank Gun Projectiles</strong></a></td><td data-object-fit="contain"><a href=".gitbook/assets/2025-11-27_19-08-28.png">2025-11-27_19-08-28.png</a></td></tr><tr><td><a href="https://osmp.ngo/munition-category/mines/"><strong>Mines</strong></a></td><td></td></tr><tr><td><a href="https://osmp.ngo/munition-category/recoilless-munitions/"><strong>Recoiless Munitions</strong></a></td><td></td></tr><tr><td><a href="https://osmp.ngo/munition-category/submunitions/"><strong>Submunitions</strong></a></td><td></td></tr></tbody></table>
 
-Note that this category list is regularly updated. Check the OSMP website directly for the most current version.&#x20;
+Note that this category list is regularly updated. Check the OSMP website directly for the most current version.
 
 ## How to Use: Interface and Navigation
 
 Users can find information in the portal through different ways. Users can:
 
-1. Filter; (2)  Use the search bar; (3) Use the collection of “Featured Materials”; (4) Use the “Related” Feature
+1. Filter; (2) Use the search bar; (3) Use the collection of “Featured Materials”; (4) Use the “Related” Feature
 
 ### **KEYWORD SEARCH AND FILTER**
 
 <figure><img src=".gitbook/assets/2025-11-14_18-04-14-ed1.png" alt=""><figcaption><p>This image shows the various ways to search for munitions in the portal. This shows the landing page of OSMP. Immediately at the top (PURPLE BOX) are filtering and search options; Below (YELLOW ARROW) are munitions grouped as a "collection" either by munition type (those commonly used); by conflict area; or by research organization (munitions documented by external organizations). Users can also find 3D models of common munition types like the Shahed UAV and the GBU-39 (RED CIRCLE).</p></figcaption></figure>
 
-_**Users have 17 ways to filter for information. See the tabs below for the different input options.**_&#x20;
+_**Users have 17 ways to filter for information. See the tabs below for the different input options.**_
 
 {% tabs %}
 {% tab title="Search Tab" %}
-This functions as a standard search bar, allowing users to enter keywords of interest.&#x20;
+This functions as a standard search bar, allowing users to enter keywords of interest.
 {% endtab %}
 
 {% tab title="Reported Location" %}
-_(Country or territory where the image was reported.)_&#x20;
+_(Country or territory where the image was reported.)_
 
 Afghanistan, Armenia, Azerbaijan, Cambodia, Cyprus, Democratic Republic of the Congo, Ethiopia, Gulf of Oman, Haiti, Iran, Iraq, Israel, Israeli-occupied Golan Heights, Jordan, Kazakhstan, Laos, Lebanon, Libya, Mali, Marshall Islands, Myanmar, Nigeria, Pakistan, Palestinian Territories, Philippine Sea, Qatar, Red Sea, Russia, Saudi Arabia, Somalia, Sudan, Syria, Thailand, Ukraine, United Kingdom, United States, Yemen
 {% endtab %}
@@ -91,7 +91,7 @@ _(Year the image is reported to have been taken)_
 {% tab title="Munition Category" %}
 Air-Delivered Bomb, Artillery Gun Projectile, Mines, Mortar Projectile, Recoilless Munitions, Rocket or Missile, Submunitions, Tank Gun Projectile
 
-See [OSMP's Glossary](https://osmp.ngo/glossary) for the definition of each category.&#x20;
+See [OSMP's Glossary](https://osmp.ngo/glossary) for the definition of each category.
 {% endtab %}
 
 {% tab title="Functional Use" %}
@@ -99,7 +99,7 @@ _(The impact or effect the munition is intended to have.)_
 
 Blast Munition, Chemical Munition, Cluster Munition, Decoy Munition, Fragmentation Munition, Illumination Munition, Incendiary Munition, Kinetic Munition, Shaped Charge Munition, Smoke Munition
 
-See [OSMP's Glossary](https://osmp.ngo/glossary) for the definition of each category.&#x20;
+See [OSMP's Glossary](https://osmp.ngo/glossary) for the definition of each category.
 {% endtab %}
 
 {% tab title="Tentative Model" %}
@@ -111,15 +111,15 @@ _(Specific model of the munition pictured)_
 
 {% tabs %}
 {% tab title="Research Organization" %}
-_(The external organization that documented the munition)_&#x20;
+_(The external organization that documented the munition)_
 
 [Mwatana for Human Rights](https://www.mwatana.org/en/home), [Airwars](https://airwars.org), [ARES (Armament Research Services)](https://armamentresearch.com/), [Bellingcat](https://bellingcat.com), [Human Rights Watch](https://hrw.org), [Myanmar Witness](https://www.info-res.org/myanmar-witness/).
 {% endtab %}
 
 {% tab title="Base Colour" %}
-_(Colour of the munition pictured)_&#x20;
+_(Colour of the munition pictured)_
 
-&#x20;Black, Blue, Brown, Copper, Gold, Green, Grey/Silver, Orange, Purple, Red, White, Yellow/Tan
+Black, Blue, Brown, Copper, Gold, Green, Grey/Silver, Orange, Purple, Red, White, Yellow/Tan
 {% endtab %}
 
 {% tab title="Marking Colour" %}
@@ -138,16 +138,12 @@ Chinese, Cyrillic, Farsi, Hebrew, Japanese, Latin, Numerical, Symbols, Turkish
 _(Condition of the munition pictured. See:_ [_OSMP Glossary_](https://osmp.ngo/glossary) _for the precise meaning of these terms. )_
 
 Delivered Munition, Functioned Munition, Part, Undelivered Munition, Unfunctioned Munition, Whole
-
-
-
-
 {% endtab %}
 
 {% tab title="Mechanical Feature" %}
 _(Key features defining the operation mechanisms of a projectile)_
 
-Driving Bands; Flat Base; Hydraulic and/or Electronic Components; Obturating Rings or Gas Check Bands; Rivet Holes, Screws, Rivets; Rocket Assisted; Suspension Lugs; Venturi Nozzle; Welding Seams&#x20;
+Driving Bands; Flat Base; Hydraulic and/or Electronic Components; Obturating Rings or Gas Check Bands; Rivet Holes, Screws, Rivets; Rocket Assisted; Suspension Lugs; Venturi Nozzle; Welding Seams
 {% endtab %}
 {% endtabs %}
 
@@ -159,7 +155,7 @@ _&#x47;_&#x75;ided munition, Unguided munition
 {% endtab %}
 
 {% tab title="Domain" %}
-_(Where a munition is launched from and what it targets)_&#x20;
+_(Where a munition is launched from and what it targets)_
 
 Air-to-Air; Air-to-Surface; Drone (UAV); Surface-to-Air; Surface-to-Surface
 {% endtab %}
@@ -185,76 +181,76 @@ _(Weight class of the aerial bomb pictured)_
 
 ### ANALYST NOTES
 
-**Analyst Notes** are sometimes added to an OSMP entry after review by two ARES specialists. These notes provide extra details that may not necessarily be obvious from the basic classification. These are sometimes used to highlight diagnostic features or explain how they arrived at a tentative identification of a munition. This sometimes includes notes on specific variants when identifiable.&#x20;
+**Analyst Notes** are sometimes added to an OSMP entry after review by two ARES specialists. These notes provide extra details that may not necessarily be obvious from the basic classification. These are sometimes used to highlight diagnostic features or explain how they arrived at a tentative identification of a munition. This sometimes includes notes on specific variants when identifiable.
 
-Based on our tests, this bridges the gap between a simple tag and a full technical explanation, which gives users a more intermediate understanding of how the munition was identified without it being overly complicated.&#x20;
+Based on our tests, this bridges the gap between a simple tag and a full technical explanation, which gives users a more intermediate understanding of how the munition was identified without it being overly complicated.
 
 {% hint style="success" %}
-NOTE: This feature is not available in all entries. But it is recommended to check them if available.&#x20;
+NOTE: This feature is not available in all entries. But it is recommended to check them if available.
 
-**TIPS:**&#x20;
+**TIPS:**
 
 1. Use Analyst Notes to find information on alternative names for munitions. **Munitions are sometimes called by different names**, such as the[ GBU-39, which is also referred to as SDB (Small Diameter Bomb)](https://osmp.ngo/osmp537/) OSMP537.
-2. [GIJN's Tipsheet](https://gijn.org/stories/new-open-source-munitions-tool-investigate-bombing-civilians/) recommends checking this to counter misinformation and propaganda claims, as seen in [this entry ](https://osmp.ngo/osmp731/)
+2. [GIJN's Tipsheet](https://gijn.org/stories/new-open-source-munitions-tool-investigate-bombing-civilians/) recommends checking this to counter misinformation and propaganda claims, as seen in [this entry](https://osmp.ngo/osmp731/)
 {% endhint %}
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><strong>FIRST:</strong> <strong>If available, researchers can find the "Analyst Notes" immediately at the landing page with the munition entry.</strong> </td><td><a href=".gitbook/assets/2025-12-01_14-00-07.png">2025-12-01_14-00-07.png</a></td></tr><tr><td><strong>SECOND: If available, researchers can find the "Analysts Notes"  when clicking on an individual OSMP entry, at the bottom of the classification and other information.</strong> </td><td><a href=".gitbook/assets/2025-12-01_14-01-09.png">2025-12-01_14-01-09.png</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><strong>FIRST:</strong> <strong>If available, researchers can find the "Analyst Notes" immediately at the landing page with the munition entry.</strong></td><td><a href=".gitbook/assets/2025-12-01_14-00-07.png">2025-12-01_14-00-07.png</a></td></tr><tr><td><strong>SECOND: If available, researchers can find the "Analysts Notes" when clicking on an individual OSMP entry, at the bottom of the classification and other information.</strong></td><td><a href=".gitbook/assets/2025-12-01_14-01-09.png">2025-12-01_14-01-09.png</a></td></tr></tbody></table>
 
 ### RELATED MUNITIONS
 
-A key feature of OSMP is its "Related" function.  The "Related" feature works like a cross-referencing tool in OSMP. It visually links other images or entries that show: (1) [Different parts or components of the same munition type](https://osmp.ngo/osmp1641/); (2) [Different views or angles of the same munition remnants that the user may not have previously seen](https://osmp.ngo/osmp1700/); (3) Additional remnants that may help with proper identification.&#x20;
+A key feature of OSMP is its "Related" function. The "Related" feature works like a cross-referencing tool in OSMP. It visually links other images or entries that show: (1) [Different parts or components of the same munition type](https://osmp.ngo/osmp1641/); (2) [Different views or angles of the same munition remnants that the user may not have previously seen](https://osmp.ngo/osmp1700/); (3) Additional remnants that may help with proper identification.
 
 {% hint style="warning" %}
-Note that this feature is not available in all entries.&#x20;
+Note that this feature is not available in all entries.
 {% endhint %}
 
-There are two ways to do it.&#x20;
+There are two ways to do it.
 
 **METHOD 1: From the landing page, users can hover over one image/entry, and it will immediately highlight the other images related to their source imagery.**
 
-<figure><img src=".gitbook/assets/2025-12-01_14-34-33-ed.gif" alt=""><figcaption><p>METHOD 1: Users can hover over a particular munition entry, and the tool automatically highlights possible related munitions to what they are searching. Seen here, we hover over OSMP 1701 which automatically highlights in BLUE/GREY the other entries that are related to OSMP 1701. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-12-01_14-34-33-ed.gif" alt=""><figcaption><p>METHOD 1: Users can hover over a particular munition entry, and the tool automatically highlights possible related munitions to what they are searching. Seen here, we hover over OSMP 1701 which automatically highlights in BLUE/GREY the other entries that are related to OSMP 1701.</p></figcaption></figure>
 
-**METHOD 2: Click on an individual entry and scroll below to see related entries.**&#x20;
+**METHOD 2: Click on an individual entry and scroll below to see related entries.**
 
-<figure><img src=".gitbook/assets/2025-12-01_14-35-19-ed.png" alt=""><figcaption><p>METHOD 2:  Click on an individual entry, in this case, OSMP 1700 and scroll to the bottom. If available, OSMP will link additional images that is related to the current image being investigated.  </p></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-12-01_14-35-19-ed.png" alt=""><figcaption><p>METHOD 2: Click on an individual entry, in this case, OSMP 1700 and scroll to the bottom. If available, OSMP will link additional images that is related to the current image being investigated.</p></figcaption></figure>
 
 {% hint style="success" %}
-TIP: Use this feature to boost investigation in two ways:&#x20;
+TIP: Use this feature to boost investigation in two ways:
 
-1\) Gain a fuller picture - Start with fragment → find match → see related entries with different angles/components → gain fuller picture of more than just a remnant.&#x20;
+1\) Gain a fuller picture - Start with fragment → find match → see related entries with different angles/components → gain fuller picture of more than just a remnant.
 
 2\) Backward discovery/ Finding more leads: Those related images reveal **what else to look for** → researcher returns to original incident site/footage → searches for previously unrecognized components now that they know what the complete munition looks like
 {% endhint %}
 
 ### OSMP AND CIVILIAN HARM INCIDENTS
 
-Use OSMP with [Airwars' database ](http://airwars.org/)of verified incidents of civilian harm.&#x20;
+Use OSMP with [Airwars' database ](http://airwars.org/)of verified incidents of civilian harm.
 
-OSMP also links munitions directly to Airwars’[ verified civilian harm incidents](https://airwars.org/civilian-casualties/) to keep the focus on human impact. If available, users can find this by clicking on an individual OSMP entry and scrolling to the bottom. It is labeled **“External Research”** and includes an excerpt on the number of civilian deaths, location, and a link to the external source.&#x20;
+OSMP also links munitions directly to Airwars’[ verified civilian harm incidents](https://airwars.org/civilian-casualties/) to keep the focus on human impact. If available, users can find this by clicking on an individual OSMP entry and scrolling to the bottom. It is labeled **“External Research”** and includes an excerpt on the number of civilian deaths, location, and a link to the external source.
 
 {% hint style="warning" %}
-This feature is not available in all entries.&#x20;
+This feature is not available in all entries.
 {% endhint %}
 
-**For example:**&#x20;
+**For example:**
 
 [OSMP506](https://osmp.ngo/osmp506/) is associated with Airwars’s civilian harm incident [ISPT0283](https://airwars.org/civilian-casualties/ispt0283-october-17-2023/).
 
-<figure><img src=".gitbook/assets/osmp airwars.png" alt=""><figcaption><p>TWO-WAY DATABASE: If available, <strong>scroll down</strong> to "External Research" for any individual OSMP entry to check if there are links to incidents of civilian harm. Each incident report is verified with geolocation information. <strong>Scroll down</strong> on the individual Airwars incident for reference to a particular munition back to OSMP's database. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/osmp airwars.png" alt=""><figcaption><p>TWO-WAY DATABASE: If available, <strong>scroll down</strong> to "External Research" for any individual OSMP entry to check if there are links to incidents of civilian harm. Each incident report is verified with geolocation information. <strong>Scroll down</strong> on the individual Airwars incident for reference to a particular munition back to OSMP's database.</p></figcaption></figure>
 
 ### OSMP COLLECTION AND 3D MODELS
 
-#### **OSMP Collection**&#x20;
+#### **OSMP Collection**
 
 Users can also find munition information in the featured materials collection on the landing page. At the moment, these are materials conveniently grouped according to conflict (i.e.[ Iran-Israel 12-day war](https://osmp.ngo/collection/iran-israel-conflict-june-2025/); [Ukraine 2022-2025](https://osmp.ngo/collection/ukraine-2022-2024/)) or according to research organization (i.e. [Human Rights Watch](https://osmp.ngo/research_organisation/human-rights-watch/))
 
-<div align="center"><figure><img src=".gitbook/assets/2025-12-02_16-03-12-ed.png" alt="" width="375"><figcaption><p>Featured Materials found on the landing page of the tool, below the filtering options. </p></figcaption></figure></div>
+<div align="center"><figure><img src=".gitbook/assets/2025-12-02_16-03-12-ed.png" alt="" width="375"><figcaption><p>Featured Materials found on the landing page of the tool, below the filtering options.</p></figcaption></figure></div>
 
 #### 3D MODELS
 
-OSMP also features a few 3D Models of common munition types. This includes a short introduction and an interactive 3D model with tips on identifying or differentiating the munition.&#x20;
+OSMP also features a few 3D Models of common munition types. This includes a short introduction and an interactive 3D model with tips on identifying or differentiating the munition.
 
-<figure><img src=".gitbook/assets/2025-12-02_16-55-40.gif" alt=""><figcaption><p>Seen here is a 3D model of a GBU-39. To the left are key features to help users identify this particular munition. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-12-02_16-55-40.gif" alt=""><figcaption><p>Seen here is a 3D model of a GBU-39. To the left are key features to help users identify this particular munition.</p></figcaption></figure>
 
 ## Cost
 
@@ -272,12 +268,16 @@ Modern Web Browser
 
 ## Limitations
 
-The tool covers a small set of explosive ordnance types used mostly in Ukraine and only identifies them by type not specific model.
+Note that the portal is a work in progress, and new items are constantly being added. This sometimes poses challenges, such as:
+
+1. There may not be enough munition categories currently represented, and users may not be able to find specific munition categories, such as Small Arms and Light Weapons (SALW).&#x20;
+2. There are not many entries on landmines at the moment, compared to CAT-UXO, [which has more than 400 entries. ](https://cat-uxo.com/explosive-hazards/landmines)
+3. Geographic distribution is currently limited. A majority of the entries are found in the Middle East and Ukraine. There are a few entries for Europe and North America. However, Haiti has one entry, and South America currently has no entries. If looking for munitions related to these regions, it is advisable to use other tools, such as CAT-UXO.&#x20;
 
 ## Ethical Considerations
 
 1. OSMP notes that all identifications in the portal are tentative instead of exact. Always seek a specialist to get a positive identification of a munition. Communicate this limitation to be transparent to your audience. ([See Methodology](https://osmp.ngo/about/))
-2. OSMP is not a substitute for technical training on munitions and explosive ordnance. Use this for educational and reference purposes only.&#x20;
+2. OSMP is not a substitute for technical training on munitions and explosive ordnance. Use this for educational and reference purposes only.
 
 ## Guide
 
@@ -304,4 +304,4 @@ Philp, Rowan. "New Open Source Tools and Tips to Investigate Bombing of Civilian
 | Afton           |
 |                 |
 
-[^1]: The munition has either partially or fully operated, and the intended effect has occurred. For explosive munitions, this usually means a detonation. (Source: [https://osmp.ngo/resources/glossary/](https://osmp.ngo/resources/glossary/) )&#x20;
+[^1]: The munition has either partially or fully operated, and the intended effect has occurred. For explosive munitions, this usually means a detonation. (Source: [https://osmp.ngo/resources/glossary/](https://osmp.ngo/resources/glossary/) )
