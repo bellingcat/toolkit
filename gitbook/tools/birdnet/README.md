@@ -68,6 +68,14 @@ Developed by BirdNET, a collaboration between the Cornell Lab of Ornithology and
 
 ## Similar Tools
 
+Merlin app allows identification of birds similarly through sound recordings like the BirdNet app but also [visually](https://merlin.allaboutbirds.org/) through photo identification.
+
+This app has greater geographical reach and covers USA, Canada, Europe  and some commonly found species in Central and South America, and India.
+
+Both BirdNet and Merlin are developed by Cornell Lab.
+
+
+
 ## Advertising Trackers
 
 * [x] This tool has not been checked for advertising trackers yet.
