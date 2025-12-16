@@ -48,9 +48,11 @@ Detailed metadata and raw audio are not available making it difficult to conduct
 
 ## Ethical Considerations
 
-The LiveMap anonymizes the user details of all data entry points provided.&#x20;
+The LiveMap collects user data for the first 15 days including user devices inputting data via the app and stores this data for research purposes. The data collected includes the IP address, identification of the browser and potentially the operating system, the website referrer URL and the date and time.
 
-It states that it [generates a random user ID](https://birdnet.cornell.edu/privacy-policy/) to identify user devices inputting data via the app and stores this data for research purposes only.
+After 15 days it anonymizes the IP address. Users may submit a [written request](https://birdnet.cornell.edu/privacy/) to receive information on the data collected.
+
+
 
 ## Guide
 
