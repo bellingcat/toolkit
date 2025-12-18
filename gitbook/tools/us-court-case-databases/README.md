@@ -22,6 +22,10 @@ The level of information provided in search results varies by state. Below is a 
 
 <figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 9.45.00 PM.png" alt=""><figcaption></figcaption></figure>
 
+Many databases allow wildcard searches using an asterisk, which is useful if you don't know the full name or correct spelling of an individual. For example, if you are searching for a person named "Will Anderson" but want to account for it being spelled "William Andersen" you can search for it as:
+
+<figure><img src=".gitbook/assets/Screenshot 2025-12-18 at 10.33.26 AM.png" alt="" width="563"><figcaption></figcaption></figure>
+
 ## Cost
 
 * [ ] Free
@@ -36,7 +40,9 @@ Cost varies by state. Some jurisdictions allow you to search and obtain informat
 
 ## Limitations
 
-Case information related to vulnerable populations — such as [juveniles](https://www.justia.com/criminal/offenses/other-crimes/juvenile-crimes/confidentiality-of-juvenile-court-records/) or [victims of domestic violence](https://www.techsafety.org/confidentiality-in-vawa-fvpsa) — is not publicly available. In most states, you must be an attorney or authorized user to access such information. Additionally, older cases might not be digitized. Note that if your goal is to run a comprehensive background check, many of these databases will not be sufficient. Most jurisdictions provide full access to public case information at courthouse kiosks. If you are not local, any member of the public can make an online records request to the respective county to receive scanned copies of the records you're looking for.&#x20;
+Case information related to vulnerable populations — such as [juveniles](https://www.justia.com/criminal/offenses/other-crimes/juvenile-crimes/confidentiality-of-juvenile-court-records/) or [victims of domestic violence](https://www.techsafety.org/confidentiality-in-vawa-fvpsa) — is not publicly available. In most states, you must be an attorney or authorized user to access such information. \
+\
+Note that if your goal is to run a comprehensive background check, many of these databases will not be sufficient due to privacy laws or the fact that older cases might not be digitized. Most jurisdictions provide full access to _public_ case information at courthouse kiosks. If you are not local, any member of the public can make an online records request to the respective county to receive copies of the records you're looking for.&#x20;
 
 ## Ethical Considerations
 
