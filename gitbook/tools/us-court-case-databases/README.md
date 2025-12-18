@@ -52,7 +52,7 @@ Each individual state is in charge of their own database, and most contract with
 
 ## Similar tools
 
-There are numerous third-party aggregate tools and data broker sites that attempt to give you nation-wide court results. While these searches can be a good starting point and help point you in the right direction, beware that none of these tools are comprehensive. To be thorough, you need to check the state-run databases and/or make a record request.
+There are numerous third-party aggregate tools and data broker sites that attempt to give you nation-wide court results such as [WhitePages](https://www.whitepages.com/), [BeenVerified](https://www.beenverified.com/), and even professional platforms like [TLOxp](https://www.transunion.com/business-needs/investigations-tloxp). While these tools can be a good starting point, beware that none of them can provide comprehensive results. To be thorough, you need to check the state-run databases and/or make a record request to the appropriate jurisdiction.
 
 ## Advertising Trackers
 
