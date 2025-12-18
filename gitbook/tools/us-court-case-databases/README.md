@@ -18,6 +18,10 @@ Criminal and civil court case information in the United States is publicly avail
 * Disposition summaries
 * (In some states) Documents, pleadings, and motions submitted to the court
 
+{% hint style="danger" %}
+Some court documents contain descriptions of violent crimes that may be disturbing to read.
+{% endhint %}
+
 State databases will let you conduct a search using your choice of search variables. Below are examples of information you can use as a starting point to search court cases in Pennsylvania (left) and North Dakota (right).
 
 <div><figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 8.48.04 PM.png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 8.55.14 PM (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
@@ -32,6 +36,16 @@ The level of information provided in search results varies by state. Below is an
 <img src=".gitbook/assets/Screenshot 2025-12-18 at 1.25.10 PM.png" alt="" data-size="original">
 {% endhint %}
 
+<details>
+
+<summary>What is the difference between criminal and civil cases in the US?</summary>
+
+**Criminal** cases involve alleged violations of laws. In a criminal case, the government (through a prosecutor, such as a district attorney) brings charges against a person or organization accused of committing a crime, and the possible consequences can include jail or prison time, probation, fines, restitution, and a criminal record.
+
+**Civil** cases are legal disputes between private parties—such as individuals, businesses, or organizations—usually about things like contracts, property, money, injuries, or certain rights. In a civil case, the person bringing the case (the plaintiff) sues the other side (the defendant) asking for money damages and/or a court order requiring someone to do something or stop doing something, rather than jail time.&#x20;
+
+</details>
+
 ## Cost
 
 * [ ] Free
@@ -42,9 +56,7 @@ Cost varies by state. Some jurisdictions allow you to search and obtain informat
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
-
-
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Limitations
 
