@@ -6,7 +6,7 @@ description: State-by-state guide for researching criminal and civil court cases
 
 ## Description
 
-Criminal and civil court case information in the United States is publicly available and maintained in databases by each individual state or county. If you want to know about the civil or criminal history of an individual or are seeking information about a particular court case, these databases allow you to access details such as:&#x20;
+Criminal and civil court case information in the United States is publicly available and maintained in databases by each individual state or county (this article does not deal with federal cases, which have their own database called [PACER](https://pacer.uscourts.gov/)). If you want to know about the civil or criminal history of an individual or are seeking information about a particular court case handled at the state level, these databases allow you to access details such as:&#x20;
 
 * Case number
 * Assigned attorneys / judge
@@ -14,7 +14,7 @@ Criminal and civil court case information in the United States is publicly avail
 * Disposition summaries
 * (In some states) Documents, pleadings, and motions submitted to the court
 
-The databases will let you conduct a search using your choice of search variables. Below are examples of information you can use as a starting point to search court cases in Pennsylvania (left) and North Dakota (right).
+State databases will let you conduct a search using your choice of search variables. Below are examples of information you can use as a starting point to search court cases in Pennsylvania (left) and North Dakota (right).
 
 <div><figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 8.48.04 PM.png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 8.55.14 PM (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
@@ -48,11 +48,11 @@ Even though this information is publicly available, legal cases often contain pe
 
 ## Tool provider
 
-Most states contract with a third-party case management system to handle their records. The most widely used vendor is [Tyler Technologies](https://www.tylertech.com/), a Texas-based company that provides software to state and municipal governments.
+Each individual state is in charge of their own database, and most contract with a third-party case management system to handle records. The most widely used vendor is [Tyler Technologies](https://www.tylertech.com/), a Texas-based company that provides software to state and municipal governments.
 
 ## Similar tools
 
-There are aggregate tools that attempt to search civil and criminal databases nation-wide and give you the information all in one place. While this can be a good starting point, beware that none of these tools are comprehensive. If you want to perform a proper check, you should check the actual databases and/or make a record request.
+There are numerous third-party aggregate tools and data broker sites that attempt to give you nation-wide court results. While these searches can be a good starting point and help point you in the right direction, beware that none of these tools are comprehensive. To be thorough, you need to check the state-run databases and/or make a record request.
 
 ## Advertising Trackers
 
