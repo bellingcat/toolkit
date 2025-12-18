@@ -9,10 +9,14 @@ description: State-by-state guide for researching criminal and civil court cases
 Criminal and civil court case information in the United States is publicly available and maintained in databases by each individual state or county. If you want to know about the civil or criminal history of an individual or are seeking information about a particular court case, these databases allow you to access details such as:&#x20;
 
 * Case number
-* Assigned attorneys
+* Assigned attorneys / judge
 * Charges and convictions
 * Disposition summaries
-* (In some states) Documents submitted for court proceedings
+* (In some states) Documents, pleadings, and motions submitted to the court
+
+The databases will let you conduct a search using your choice of search variables. Below are examples of information you can use as a starting point to search court cases in Pennsylvania (left) and North Dakota (right).
+
+<div><figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 8.48.04 PM.png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 8.55.14 PM (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ## Cost
 
