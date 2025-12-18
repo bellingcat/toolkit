@@ -18,6 +18,10 @@ State databases will let you conduct a search using your choice of search variab
 
 <div><figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 8.48.04 PM.png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 8.55.14 PM (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
+The level of information provided in search results varies by state. Below is a snapshot of criminal case results for "John Doe" in Oregon. In many states, you can click on the case you're interested in to see more information or download documents.
+
+<figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 9.45.00 PM.png" alt=""><figcaption></figcaption></figure>
+
 ## Cost
 
 * [ ] Free
@@ -29,10 +33,6 @@ Cost varies by state. Some jurisdictions allow you to search and obtain informat
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
-
-## Requirements
-
-Many databases require that you create an account with an email and password to access content. Thirteen states do not have a state-wide database, and you must search by county. You can usually find the correct county database by searching "\[county name] online court records search."
 
 ## Limitations
 
