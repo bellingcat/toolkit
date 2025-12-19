@@ -191,7 +191,7 @@ NOTE: This feature is not available in all entries. But it is recommended to che
 **TIPS:**
 
 1. Use Analyst Notes to find information on alternative names for munitions. **Munitions are sometimes called by different names**, such as the[ GBU-39, which is also referred to as SDB (Small Diameter Bomb)](https://osmp.ngo/osmp537/) OSMP537.
-2. [GIJN's Tipsheet](https://gijn.org/stories/new-open-source-munitions-tool-investigate-bombing-civilians/) recommends checking this to counter misinformation and propaganda claims, as seen in [this entry](https://osmp.ngo/osmp731/)
+2. [GIJN's Tipsheet](https://gijn.org/stories/new-open-source-munitions-tool-investigate-bombing-civilians/) recommends checking this to counter misinformation and propaganda claims, as seen in [this entry](https://osmp.ngo/osmp731/).
 {% endhint %}
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><strong>FIRST:</strong> <strong>If available, researchers can find the "Analyst Notes" immediately at the landing page with the munition entry.</strong></td><td><a href=".gitbook/assets/2025-12-01_14-00-07.png">2025-12-01_14-00-07.png</a></td></tr><tr><td><strong>SECOND: If available, researchers can find the "Analysts Notes" when clicking on an individual OSMP entry, at the bottom of the classification and other information.</strong></td><td><a href=".gitbook/assets/2025-12-01_14-01-09.png">2025-12-01_14-01-09.png</a></td></tr></tbody></table>
