@@ -219,7 +219,7 @@ TIP: Use this feature to boost investigation in two ways:
 
 1\) Gain a fuller picture - Start with fragment → find match → see related entries with different angles/components → gain fuller picture of more than just a remnant.
 
-2\) Backward discovery/ Finding more leads: Those related images reveal **what else to look for** → researcher returns to original incident site/footage → searches for previously unrecognized components now that they know what the complete munition looks like
+2\) Backward discovery/ Finding more leads: Those related images reveal **what else to look for** → researcher returns to original incident site/footage → searches for previously unrecognized components now that they know what the complete munition looks like.
 {% endhint %}
 
 ### OSMP AND CIVILIAN HARM INCIDENTS
