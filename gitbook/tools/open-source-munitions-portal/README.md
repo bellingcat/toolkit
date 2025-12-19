@@ -181,7 +181,7 @@ _(Weight class of the aerial bomb pictured)_
 
 ### ANALYST NOTES
 
-**Analyst Notes** are sometimes added to an OSMP entry after review by two ARES specialists. These notes provide extra details that may not necessarily be obvious from the basic classification. These are sometimes used to highlight diagnostic features or explain how they arrived at a tentative identification of a munition. This sometimes includes notes on specific variants when identifiable.
+**Analyst Notes** are sometimes added to an OSMP entry after review by two [ARES](https://armamentresearch.com/) specialists. These notes provide extra details that may not necessarily be obvious from the basic classification. These are sometimes used to highlight diagnostic features or explain how they arrived at a tentative identification of a munition. This sometimes includes notes on specific variants when identifiable.
 
 Based on our tests, this bridges the gap between a simple tag and a full technical explanation, which gives users a more intermediate understanding of how the munition was identified without it being overly complicated.
 
