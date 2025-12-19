@@ -40,7 +40,7 @@ Any researcher or investigator interested in determining the type of munition us
 
 The portal’s data comes from various sources.
 
-1. Social Media - According to the tool providers, the portal sources its images from social media platforms sync as Twitter/X, Telegram, and Facebook [(see timestamp 00:16:11)](https://rss.com/podcasts/bellingcatstagetalk/1965759/). It predominantly uses Arabic- and Ukrainian-language social media ([see timestamp 00:30:48](https://rss.com/podcasts/bellingcatstagetalk/1965759/))
+1. Social Media - According to the tool providers, the portal sources its images from social media platforms sync as Twitter/X, Telegram, and Facebook [(see timestamp 00:16:11)](https://rss.com/podcasts/bellingcatstagetalk/1965759/). It predominantly uses Arabic- and Ukrainian-language social media ([see timestamp 00:30:48](https://rss.com/podcasts/bellingcatstagetalk/1965759/)).
 2. Partner organizations - OSMP signed formal agreements with these organizations [(timestamp 00:17:00)](https://rss.com/podcasts/bellingcatstagetalk/1965759/) to use their images in the portal and link them to the source and external reference page.
 
 The partner organizations are: [Mwatana for Human Rights](https://www.mwatana.org/en/home), [Airwars](https://airwars.org), [ARES (Armament Research Services)](https://armamentresearch.com/), [Bellingcat](https://bellingcat.com), [Human Rights Watch](https://hrw.org), [Myanmar Witness](https://www.info-res.org/myanmar-witness/).
@@ -270,9 +270,9 @@ Modern Web Browser
 
 Note that the portal is a work in progress, and new items are constantly being added. This sometimes poses challenges, such as:
 
-1. There may not be enough munition categories currently represented, and users may not be able to find specific munition categories, such as Small Arms and Light Weapons (SALW).&#x20;
-2. There are not many entries on landmines at the moment, compared to CAT-UXO, [which has more than 400 entries. ](https://cat-uxo.com/explosive-hazards/landmines)
-3. Geographic distribution is currently limited. A majority of the entries are found in the Middle East and Ukraine. There are a few entries for Europe and North America. However, Haiti has one entry, and South America currently has no entries. If looking for munitions related to these regions, it is advisable to use other tools, such as CAT-UXO.&#x20;
+1. There may not be enough munition categories currently represented, and users may not be able to find specific munition categories, such as Small Arms and Light Weapons (SALW).
+2. There are not many entries on landmines at the moment, compared to CAT-UXO, [which has more than 400 entries.](https://cat-uxo.com/explosive-hazards/landmines)
+3. Geographic distribution is currently limited. A majority of the entries are found in the Middle East and Ukraine. There are a few entries for Europe and North America. However, Haiti has one entry, and South America currently has no entries. If looking for munitions related to these regions, it is advisable to use other tools, such as CAT-UXO.
 
 ## Ethical Considerations
 
