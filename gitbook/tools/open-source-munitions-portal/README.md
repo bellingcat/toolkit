@@ -63,7 +63,7 @@ Note that this category list is regularly updated. Check the OSMP website direct
 
 Users can find information in the portal through different ways. Users can:
 
-1. Filter; (2) Use the search bar; (3) Use the collection of “Featured Materials”; (4) Use the “Related” Feature
+(1) Filter; (2) Use the search bar; (3) Use the collection of “Featured Materials”; (4) Use the “Related” Feature
 
 ### **KEYWORD SEARCH AND FILTER**
 
