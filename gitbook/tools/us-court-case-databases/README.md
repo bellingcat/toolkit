@@ -28,7 +28,7 @@ Some court documents contain descriptions of violent crimes that may be disturbi
 
 **Criminal** cases involve alleged violations of criminal laws. In a criminal case, the government (through a prosecutor) brings charges against a person accused of committing a crime, and the possible consequences can include jail or prison time, probation, fines, restitution, and a criminal record.
 
-**Civil** cases are legal disputes between two or more parties about things like contracts, property, money, injuries, or certain rights. In a civil case, the person bringing the case (the plaintiff) sues the other side (the defendant) asking for money damages and/or a court order requiring someone to do something or stop doing something, rather than jail time.&#x20;
+**Civil** cases are legal disputes between two or more parties about things like contracts, property, money, injuries, or certain rights. In a civil case, the person bringing the case (the plaintiff) sues the other side (the defendant) asking for money damages and/or a court order requiring someone to do something or stop doing something.&#x20;
 
 </details>
 
