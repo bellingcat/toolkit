@@ -11,7 +11,7 @@ description: Centralized website with vulnerable species information.
 Description<br>
 ---------------
 
-This website provides information on all species currently listed in the [Convention on International Trade in Endangered Species (CITES)](https://cites.org/eng/disc/text.php), the [Convention on the Conservation of Migratory Species of Wild Animals (CMS)](https://www.cms.int/), and other environmental agreements ([MEAs](https://environment.ec.europa.eu/international-cooperation/multilateral-environmental-agreements-meas_en)). You can search by species, higher taxon, synonym, common name, or directly search for a  document produced by CITES, such as reports, on a specific species. The entire database can be downloaded.
+This website provides information on all species currently listed in the [Convention on International Trade in Endangered Species (CITES)](https://cites.org/eng/disc/text.php), the [Convention on the Conservation of Migratory Species of Wild Animals (CMS)](https://www.cms.int/), and other environmental agreements ([MEAs](https://environment.ec.europa.eu/international-cooperation/multilateral-environmental-agreements-meas_en)). You can search by species, higher taxon, synonym, common name, or directly search for a document produced by CITES, such as reports, on a specific species. The entire database can be downloaded.
 
 The tool is useful for researchers and individuals who want to know or confirm the current status of a species, i.e., whether it can be traded or not, what type of regulations, quotas, suspensions, or decisions apply in certain regions.
 
@@ -60,7 +60,7 @@ Within Species+ there is a list of related websites/applications that serve a si
 * [Checklist of CITES Species ](https://checklist.cites.org/#/en) - This tool focuses on providing information about the level of protection assigned to each CITES-listed species.
 * [CITES Trade Database](https://bellingcat.gitbook.io/toolkit/more/all-tools/cites-trade-database) - Provides commercial information on species by country.
 * [EU Captive breeding database](https://captivebreeding.unep-wcmc.org/) - Contains captive bred, ranching and mariculture information of animal species listed in the EU Wildlife Trade Regulations.
-* [CITES Wildlife TradeView](https://tradeview.cites.org/) \[[Here our profile](https://bellingcat.gitbook.io/toolkit/more/all-tools/cites-trade-database)] - It focuses on commercial behavior with regard to protected species using visual elements.
+* [CITES Wildlife TradeView](https://tradeview.cites.org/) \[[Find our toolkit entry here](https://bellingcat.gitbook.io/toolkit/more/all-tools/cites-trade-database)] - It focuses on commercial behavior with regard to protected species using visual elements.
 * [CITES Non-Detriment Findings Support Tool](https://ndfsupport.unep-wcmc.org/en) - Specialized in providing  information about whether international trade in CITES listed-species is detrimental or not.
 
 ## Advertising Trackers
