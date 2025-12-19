@@ -250,7 +250,7 @@ Users can also find munition information in the featured materials collection on
 
 OSMP also features a few 3D Models of common munition types. This includes a short introduction and an interactive 3D model with tips on identifying or differentiating the munition.
 
-<figure><img src=".gitbook/assets/2025-12-02_16-55-40.gif" alt=""><figcaption><p>Seen here is a 3D model of a GBU-39. To the left are key features to help users identify this particular munition.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-12-02_16-55-40.gif" alt=""><figcaption><p>Seen here is a <a href="https://osmp.ngo/collection/small-diameter-bomb-gbu-39-visual-guide/">3D model of a GBU-39</a>. To the left are key features to help users identify this particular munition.</p></figcaption></figure>
 
 ## Cost
 
