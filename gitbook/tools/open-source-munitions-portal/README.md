@@ -242,7 +242,7 @@ This feature is not available in all entries.
 
 #### **OSMP Collection**
 
-Users can also find munition information in the featured materials collection on the landing page. At the moment, these are materials conveniently grouped according to conflict (i.e.[ Iran-Israel 12-day war](https://osmp.ngo/collection/iran-israel-conflict-june-2025/); [Ukraine 2022-2025](https://osmp.ngo/collection/ukraine-2022-2024/)) or according to research organization (i.e. [Human Rights Watch](https://osmp.ngo/research_organisation/human-rights-watch/))
+Users can also find munition information in the featured materials collection on the landing page. At the moment, these are materials conveniently grouped according to conflict (i.e.[ Iran-Israel 12-day war](https://osmp.ngo/collection/iran-israel-conflict-june-2025/); [Ukraine 2022-2025](https://osmp.ngo/collection/ukraine-2022-2024/)) or according to research organization (i.e. [Human Rights Watch](https://osmp.ngo/research_organisation/human-rights-watch/)).
 
 <div align="center"><figure><img src=".gitbook/assets/2025-12-02_16-03-12-ed.png" alt="" width="375"><figcaption><p>Featured Materials found on the landing page of the tool, below the filtering options.</p></figcaption></figure></div>
 
