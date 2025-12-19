@@ -34,7 +34,7 @@ Some court documents contain descriptions of violent crimes that may be disturbi
 
 State databases will let you conduct a search using your choice of search variables. Below are examples of information you can use as a starting point to search court cases in Pennsylvania (left) and North Dakota (right).
 
-<div><figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 8.48.04 PM.png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 8.55.14 PM (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 8.48.04 PM.png" alt="" width="375"><figcaption><p>Pennsylvania search variables</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 8.55.14 PM (1).png" alt="" width="375"><figcaption><p>North Dakota search variables</p></figcaption></figure></div>
 
 The level of information provided in search results varies by state. Below is another example: a snapshot of criminal case results for "John Doe" in Oregon. In many states, you can click on the case you're interested in to see more information or download documents.
 
