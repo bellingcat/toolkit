@@ -34,14 +34,14 @@ Some court documents contain descriptions of violent crimes that may be disturbi
 
 State databases will let you conduct a search using your choice of search variables. Below are examples of information you can use as a starting point to search court cases in Pennsylvania (left) and North Dakota (right).
 
-<div><figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 8.48.04 PM.png" alt="" width="375"><figcaption><p>Pennsylvania search variables</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 8.55.14 PM (1).png" alt="" width="375"><figcaption><p>North Dakota search variables</p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 8.48.04 PM.png" alt="" width="375"><figcaption><p><em>Pennsylvania search variables</em></p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 8.55.14 PM (1).png" alt="" width="375"><figcaption><p><em>North Dakota search variables</em></p></figcaption></figure></div>
 
 The level of information provided in search results varies by state. Below is another example: a snapshot of criminal case results for "John Doe" in Oregon. In many states, you can click on the case you're interested in to see more information or download documents.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 9.45.00 PM.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
-**TIP:** Many databases allow wildcard searches using an asterisk, which is useful if you don't know the full name or correct spelling of an individual. For example, if you are searching for a person named "Will Anderson" but want to account for it being spelled "Will**iam** Ander**sen**" you can search for it as:
+**TIP:** Many databases allow wildcard searches using an asterisk, which is useful if you don't know a full name or correct spelling. For example, if you are searching for a person named "Will Anderson" but want to account for it being spelled "Will**iam** Ander**sen**" you can search for it as:
 
 <img src=".gitbook/assets/Screenshot 2025-12-18 at 1.25.10 PM.png" alt="" data-size="original">
 {% endhint %}
@@ -61,7 +61,7 @@ Cost varies by state. Some jurisdictions allow you to search and obtain informat
 ## Limitations
 
 * **Privacy laws:** Case information related to vulnerable populations — such as [juveniles](https://www.justia.com/criminal/offenses/other-crimes/juvenile-crimes/confidentiality-of-juvenile-court-records/) or [victims of domestic violence](https://www.techsafety.org/confidentiality-in-vawa-fvpsa) — is not publicly available. In most states, you must be an attorney or authorized user to access such information.
-* **Paper archives:** Older cases may not be digitized, and to access them you would have to make a records request for scanned copies of the file. Some states have digitized their records as far back as the '80s, while others only provide online records for the past 10 years. Most jurisdictions provide full access to _public_ case information at courthouse kiosks. If you are not local, any member of the public can make an online records request to the respective county for copies of records.
+* **Paper archives:** Older cases may not be digitized, and to access them you would have to make a records request for scanned copies of the file. Some states have digitized their records as far back as the '80s, while others only have online records for the past 10 years. Most jurisdictions provide full access to _public_ case information at courthouse kiosks. If you are not local, any member of the public can make an online records request to the respective county for copies of records.
 
 ## Ethical Considerations
 
@@ -94,7 +94,6 @@ The following states provide guides for their databases:
 
 {% column %}
 [New Hampshire](https://www.courts.nh.gov/sites/g/files/ehbemt471/files/documents/2021-07/nhjb-case-access-portal-general-public-user-guide.pdf)\
-[New Mexico](https://caselookup.nmcourts.gov/caselookup/app?component=dl000\&page=NameSearch\&service=direct\&session=T)\
 [New York](https://iapps.courts.state.ny.us/webcivil/FCASFAQ)\
 [North Carolina](https://www.nccourts.gov/services/portal-training-and-resources)\
 [North Dakota](https://www.ndcourts.gov/public-access/help)\
