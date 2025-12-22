@@ -40,7 +40,7 @@ Any researcher or investigator interested in determining the type of munition us
 
 The portal’s data comes from various sources.
 
-1. Social Media - According to the tool providers, the portal sources its images from social media platforms sync as Twitter/X, Telegram, and Facebook [(see timestamp 00:16:11)](https://rss.com/podcasts/bellingcatstagetalk/1965759/). It predominantly uses Arabic- and Ukrainian-language social media ([see timestamp 00:30:48](https://rss.com/podcasts/bellingcatstagetalk/1965759/)).
+1. Social Media - According to the tool providers, the portal sources its images from social media platforms such as Twitter/X, Telegram, and Facebook [(see timestamp 00:16:11)](https://rss.com/podcasts/bellingcatstagetalk/1965759/). It predominantly uses Arabic- and Ukrainian-language social media ([see timestamp 00:30:48](https://rss.com/podcasts/bellingcatstagetalk/1965759/)).
 2. Partner organizations - OSMP signed formal agreements with these organizations [(timestamp 00:17:00)](https://rss.com/podcasts/bellingcatstagetalk/1965759/) to use their images in the portal and link them to the source and external reference page.
 
 The partner organizations are: [Mwatana for Human Rights](https://www.mwatana.org/en/home), [Airwars](https://airwars.org), [ARES (Armament Research Services)](https://armamentresearch.com/), [Bellingcat](https://bellingcat.com), [Human Rights Watch](https://hrw.org), [Myanmar Witness](https://www.info-res.org/myanmar-witness/).
