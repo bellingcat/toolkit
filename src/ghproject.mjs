@@ -61,7 +61,7 @@ const items = (function processProjectItems() {
   }
 
   return JSON.parse(fs.readFileSync(projectItemsFilename, 'utf-8')).map(function(item) {
-    return {
+    const ret = {
       id: item.id,
       title: getField(FIELDS.title.name, item).text,
       status: getField(FIELDS.status.name, item).name,
@@ -75,7 +75,19 @@ const items = (function processProjectItems() {
       changeRequestAuthor: getField(FIELDS.author.name, item).text,
       reviewers: getField(FIELDS.reviewers.name, item).text,
       collection: getField(FIELDS.collection.name, item).text,
+    };
+    if (!ret.toolId) {
+      console.error("No tool ID for item", ret.title);
+      console.error("Item data:", JSON.stringify(item, null, 2));
+      throw new Error("No tool ID for item " + ret.title);
     }
+    if (!ret.spaceId) {
+      console.error("No space ID for item", ret.title);
+      console.error("Item data:", JSON.stringify(item, null, 2));
+      throw new Error("No space ID for item " + ret.title);
+    }
+    return ret;
+
   });
 })();
 
@@ -89,11 +101,6 @@ tools.forEach(async function(tool) {
   if (!item) {
     console.error("No gh project item for tool", tool.title);
     return;
-  }
-  if (!item.spaceId) {
-    console.error("No space ID for tool", tool.title);
-    console.error("Item data:", JSON.stringify(item, null, 2));
-    throw new Error("No space ID for tool " + tool.title);
   }
   const space = await fetchSpace(item.spaceId);
   if (!space) {
