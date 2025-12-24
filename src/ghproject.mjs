@@ -105,7 +105,7 @@ tools.forEach(async function(tool) {
     changed.title = tool.title;
     changes.push(graphql.setTextField(item.id, FIELDS.title.id, tool.title));
   }
-  if (item.space !== space.urls.app) {
+  if (item.spaceUrl !== space.urls.app) {
     changed.space = space.urls.app;
     changes.push(graphql.setTextField(item.id, FIELDS.spaceUrl.id, space.urls.app));
   }
