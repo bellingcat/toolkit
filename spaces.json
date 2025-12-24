@@ -979,7 +979,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2025-01-14T11:02:40.806Z",
-    "updatedAt": "2025-10-31T18:59:31.000Z",
+    "updatedAt": "2025-12-14T19:50:02.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/ecVZbBL9rgIln2kIW8Z8",
@@ -993,11 +993,11 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2025-01-14T11:05:32.200Z"
     },
-    "revision": "ZYuzCiKNDbVPkyKYnEcJ",
+    "revision": "9ma5AwO0zWKrUhU77Fwk",
     "defaultLevel": "inherit",
-    "comments": 34,
-    "changeRequests": 172,
-    "changeRequestsDraft": 1,
+    "comments": 13,
+    "changeRequests": 207,
+    "changeRequestsDraft": 2,
     "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
@@ -1022,7 +1022,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2025-02-24T13:27:27.877Z",
-    "updatedAt": "2025-10-31T15:24:00.000Z",
+    "updatedAt": "2025-11-28T14:36:50.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/brQSJ4Ni6hHaTd7uPaGL",
@@ -1036,11 +1036,11 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2025-02-24T13:32:14.461Z"
     },
-    "revision": "F6bZ7cVVvPxJzFQI4sy7",
+    "revision": "1yV3uVMvn0gUkynqFLJa",
     "defaultLevel": "inherit",
     "comments": 0,
     "changeRequests": 7,
-    "changeRequestsDraft": 3,
+    "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
@@ -1194,7 +1194,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2025-05-05T18:23:46.062Z",
-    "updatedAt": "2025-07-12T12:54:23.000Z",
+    "updatedAt": "2025-12-04T05:42:34.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/mm9yQGUn4JHZzjgXw1tx",
@@ -1208,10 +1208,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2025-05-05T18:26:41.607Z"
     },
-    "revision": "syMI5HxemBI0JZLpZyEy",
+    "revision": "Kn1C8lKvvAfFZlqjHKcW",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 0,
+    "changeRequests": 6,
     "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -1237,7 +1237,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2025-06-03T11:20:36.249Z",
-    "updatedAt": "2025-10-23T17:50:07.000Z",
+    "updatedAt": "2025-12-13T02:33:54.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/w0RJhLBKHrXnq0LERm8u",
@@ -1251,11 +1251,11 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2025-06-03T11:22:26.466Z"
     },
-    "revision": "NQ8khdEYGbnVcAZrIAH7",
+    "revision": "O8UewD0MLm8gYlcmGj8M",
     "defaultLevel": "inherit",
-    "comments": 2,
-    "changeRequests": 3,
-    "changeRequestsDraft": 0,
+    "comments": 0,
+    "changeRequests": 13,
+    "changeRequestsDraft": 1,
     "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
@@ -1619,98 +1619,12 @@
   },
   {
     "object": "space",
-    "id": "VkB8hrKce2zkqCnuxvoP",
-    "title": "PublicWWW",
-    "emoji": "1f6e0",
-    "visibility": "private",
-    "createdAt": "2025-06-30T10:39:56.217Z",
-    "updatedAt": "2025-10-31T02:32:30.000Z",
-    "editMode": "locked",
-    "urls": {
-      "location": "/spaces/VkB8hrKce2zkqCnuxvoP",
-      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/VkB8hrKce2zkqCnuxvoP/"
-    },
-    "organization": "WQpOq5ZFue4N6m65QCJq",
-    "parent": "jQKvylm6WgaH5IFrlIMh",
-    "gitSync": {
-      "installationProvider": "github",
-      "integration": "github",
-      "url": "https://github.com/bellingcat/toolkit/blob/main",
-      "updatedAt": "2025-06-30T10:43:04.592Z"
-    },
-    "revision": "wvwvQCOq02IL19CWPDwC",
-    "defaultLevel": "inherit",
-    "comments": 0,
-    "changeRequests": 9,
-    "changeRequestsDraft": 0,
-    "changeRequestsOpen": 0,
-    "permissions": {
-      "view": true,
-      "access": true,
-      "admin": true,
-      "viewInviteLinks": true,
-      "edit": true,
-      "triggerGitSync": true,
-      "comment": true,
-      "merge": true,
-      "review": true,
-      "installIntegration": true
-    },
-    "mergeRules": {
-      "type": "inherit"
-    }
-  },
-  {
-    "object": "space",
-    "id": "s7phvC732wR2cU3luQld",
-    "title": "RAMMB SLIDER",
-    "emoji": "1f6e0",
-    "visibility": "private",
-    "createdAt": "2025-08-18T09:42:17.072Z",
-    "updatedAt": "2025-09-26T02:29:21.000Z",
-    "editMode": "locked",
-    "urls": {
-      "location": "/spaces/s7phvC732wR2cU3luQld",
-      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/s7phvC732wR2cU3luQld/"
-    },
-    "organization": "WQpOq5ZFue4N6m65QCJq",
-    "parent": "jQKvylm6WgaH5IFrlIMh",
-    "gitSync": {
-      "installationProvider": "github",
-      "integration": "github",
-      "url": "https://github.com/bellingcat/toolkit/blob/main",
-      "updatedAt": "2025-08-18T09:44:30.863Z"
-    },
-    "revision": "ydlSGB5FNxxoZbsEHspn",
-    "defaultLevel": "inherit",
-    "comments": 0,
-    "changeRequests": 3,
-    "changeRequestsDraft": 0,
-    "changeRequestsOpen": 0,
-    "permissions": {
-      "view": true,
-      "access": true,
-      "admin": true,
-      "viewInviteLinks": true,
-      "edit": true,
-      "triggerGitSync": true,
-      "comment": true,
-      "merge": true,
-      "review": true,
-      "installIntegration": true
-    },
-    "mergeRules": {
-      "type": "inherit"
-    }
-  },
-  {
-    "object": "space",
     "id": "MkQYFqyNdHYtaTvjClrl",
     "title": "Grep.app",
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2025-08-26T17:38:47.371Z",
-    "updatedAt": "2025-09-02T20:57:15.000Z",
+    "updatedAt": "2025-11-25T21:29:50.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/MkQYFqyNdHYtaTvjClrl",
@@ -1724,53 +1638,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2025-09-02T20:56:28.813Z"
     },
-    "revision": "Fm9890yVmnke9Akfvg5N",
+    "revision": "KxgXH6ZoZOKHCZ4IZCDX",
     "defaultLevel": "inherit",
-    "comments": 0,
-    "changeRequests": 1,
-    "changeRequestsDraft": 0,
-    "changeRequestsOpen": 1,
-    "permissions": {
-      "view": true,
-      "access": true,
-      "admin": true,
-      "viewInviteLinks": true,
-      "edit": true,
-      "triggerGitSync": true,
-      "comment": true,
-      "merge": true,
-      "review": true,
-      "installIntegration": true
-    },
-    "mergeRules": {
-      "type": "inherit"
-    }
-  },
-  {
-    "object": "space",
-    "id": "KClhAgs8D92tYtViRj3z",
-    "title": "Police Records Access Project",
-    "emoji": "1f6e0",
-    "visibility": "private",
-    "createdAt": "2025-09-02T20:20:41.710Z",
-    "updatedAt": "2025-10-21T02:31:15.000Z",
-    "editMode": "locked",
-    "urls": {
-      "location": "/spaces/KClhAgs8D92tYtViRj3z",
-      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/KClhAgs8D92tYtViRj3z/"
-    },
-    "organization": "WQpOq5ZFue4N6m65QCJq",
-    "parent": "jQKvylm6WgaH5IFrlIMh",
-    "gitSync": {
-      "installationProvider": "github",
-      "integration": "github",
-      "url": "https://github.com/bellingcat/toolkit/blob/main",
-      "updatedAt": "2025-09-02T20:23:53.899Z"
-    },
-    "revision": "Gj3AuTBGWIKtLP1Wsk5R",
-    "defaultLevel": "inherit",
-    "comments": 2,
-    "changeRequests": 77,
+    "comments": 9,
+    "changeRequests": 2,
     "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -1839,7 +1710,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-03-11T14:32:22.324Z",
-    "updatedAt": "2025-09-06T02:26:58.000Z",
+    "updatedAt": "2025-11-26T02:34:05.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/pnKS99EQFmj8v8WdziY0",
@@ -1853,11 +1724,11 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-03-13T23:47:28.371Z"
     },
-    "revision": "3VPfbvaW4CDY8nM8hwa6",
+    "revision": "a1VCiMuE1kE4EQ4dF69l",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 98,
-    "changeRequestsDraft": 3,
+    "changeRequests": 100,
+    "changeRequestsDraft": 1,
     "changeRequestsOpen": 1,
     "permissions": {
       "view": true,
@@ -1882,7 +1753,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-06-06T15:26:28.016Z",
-    "updatedAt": "2025-07-12T12:54:43.000Z",
+    "updatedAt": "2025-11-26T02:34:09.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/yDhVwWl9OPwarG1Cwar3",
@@ -1896,12 +1767,12 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2025-01-20T18:28:51.651Z"
     },
-    "revision": "eB9B5UKUmcNqxxWDOeCh",
+    "revision": "9pY1mWTIiSXlt9faxFzO",
     "defaultLevel": "inherit",
-    "comments": 1,
+    "comments": 2,
     "changeRequests": 16,
     "changeRequestsDraft": 3,
-    "changeRequestsOpen": 2,
+    "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
       "access": true,
@@ -2269,7 +2140,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-06-10T18:45:16.580Z",
-    "updatedAt": "2025-07-12T12:52:30.000Z",
+    "updatedAt": "2025-11-26T02:33:53.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/UvcqkTVIjJbw5j8S9JSN",
@@ -2283,12 +2154,12 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-06-10T18:48:29.452Z"
     },
-    "revision": "sATWqcNsMODckFiXi6Qz",
+    "revision": "rbGHyoKYCi8A1zRSiVZ3",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 29,
-    "changeRequestsDraft": 0,
-    "changeRequestsOpen": 1,
+    "changeRequests": 31,
+    "changeRequestsDraft": 1,
+    "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
       "access": true,
@@ -2312,7 +2183,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-05-08T11:04:45.311Z",
-    "updatedAt": "2025-09-07T02:30:40.000Z",
+    "updatedAt": "2025-11-26T02:33:47.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/OTX2TV3Snd12U7MmZnT8",
@@ -2326,11 +2197,11 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-06-29T12:18:50.346Z"
     },
-    "revision": "RHENhugWXQjQu3ne76eg",
+    "revision": "tYXsWwZ0gs5opTki1GTq",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 76,
-    "changeRequestsDraft": 7,
+    "changeRequests": 77,
+    "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
@@ -2693,7 +2564,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-03-10T15:09:20.200Z",
-    "updatedAt": "2025-07-12T12:52:32.000Z",
+    "updatedAt": "2025-12-13T02:33:43.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/kiIurwSNGTMGV0IQ8chH",
@@ -2707,10 +2578,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-08-08T20:29:35.961Z"
     },
-    "revision": "twADT16ylIUbnmjaIxZ8",
+    "revision": "CwMSAscFzowknMSjXg1A",
     "defaultLevel": "inherit",
     "comments": 2,
-    "changeRequests": 63,
+    "changeRequests": 65,
     "changeRequestsDraft": 1,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -2736,7 +2607,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-03-11T14:42:06.425Z",
-    "updatedAt": "2025-07-12T12:54:39.000Z",
+    "updatedAt": "2025-11-26T02:34:04.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/ncE8J4Sk2UF5nmkzADcX",
@@ -2750,11 +2621,11 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-07-30T16:58:34.619Z"
     },
-    "revision": "hZ4M30IJlBOxp0q6U9G1",
+    "revision": "0hZveLaYBm9KXwnWvFK8",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 38,
-    "changeRequestsDraft": 6,
+    "changeRequests": 39,
+    "changeRequestsDraft": 0,
     "changeRequestsOpen": 1,
     "permissions": {
       "view": true,
@@ -2988,7 +2859,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-05-05T02:16:19.663Z",
-    "updatedAt": "2025-08-17T17:04:59.000Z",
+    "updatedAt": "2025-11-27T02:32:59.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/d5s4o63i12fpNYQ2f36j",
@@ -3002,10 +2873,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-05-05T02:20:50.534Z"
     },
-    "revision": "qi1tiW1zG8QM4GzbdJWx",
+    "revision": "ZZ9HT4stvYLHOGKadiCL",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 33,
+    "changeRequests": 34,
     "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -3300,8 +3171,8 @@
     "revision": "z3wrobGk1QbJFKLHI4YY",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 17,
-    "changeRequestsDraft": 1,
+    "changeRequests": 23,
+    "changeRequestsDraft": 7,
     "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
@@ -3664,7 +3535,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-04-03T23:06:54.958Z",
-    "updatedAt": "2025-09-18T20:50:50.000Z",
+    "updatedAt": "2025-12-23T02:37:26.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/QWAEGiG9kkbEVBAFFXNR",
@@ -3678,11 +3549,11 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-07-10T13:07:24.786Z"
     },
-    "revision": "vRHl7dSSeJuH6LvowpLi",
+    "revision": "4wP3lro2D0zMsOToYYxk",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 9,
-    "changeRequestsDraft": 0,
+    "changeRequests": 70,
+    "changeRequestsDraft": 3,
     "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
@@ -3707,7 +3578,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-05-08T01:29:27.756Z",
-    "updatedAt": "2025-10-29T02:35:01.000Z",
+    "updatedAt": "2025-12-15T02:39:29.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/Lo238so4fUmUgFPnOktv",
@@ -3721,10 +3592,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-05-08T01:32:06.639Z"
     },
-    "revision": "lXdK2jjSpnNVmWdRGvc9",
+    "revision": "uusdOIQvtPOdTNCzySym",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 21,
+    "changeRequests": 22,
     "changeRequestsDraft": 2,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -3853,9 +3724,9 @@
     "revision": "OpqRFocl1P2jxsI63Y43",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 51,
-    "changeRequestsDraft": 5,
-    "changeRequestsOpen": 0,
+    "changeRequests": 52,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 1,
     "permissions": {
       "view": true,
       "access": true,
@@ -3879,7 +3750,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-04-03T23:13:36.489Z",
-    "updatedAt": "2025-10-09T02:29:10.000Z",
+    "updatedAt": "2025-11-26T02:33:59.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/e4EcEjgSq6CQ4z9iDPJB",
@@ -3893,10 +3764,53 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2025-10-08T08:50:47.346Z"
     },
-    "revision": "MthUFAE06DsSNEtc2PNj",
+    "revision": "uClqK2zWHonmmNrUkj93",
     "defaultLevel": "inherit",
     "comments": 3,
-    "changeRequests": 73,
+    "changeRequests": 75,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "viewInviteLinks": true,
+      "edit": true,
+      "triggerGitSync": true,
+      "comment": true,
+      "merge": true,
+      "review": true,
+      "installIntegration": true
+    },
+    "mergeRules": {
+      "type": "inherit"
+    }
+  },
+  {
+    "object": "space",
+    "id": "KClhAgs8D92tYtViRj3z",
+    "title": "Police Records Access Project",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-09-02T20:20:41.710Z",
+    "updatedAt": "2025-10-21T02:31:15.000Z",
+    "editMode": "locked",
+    "urls": {
+      "location": "/spaces/KClhAgs8D92tYtViRj3z",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/KClhAgs8D92tYtViRj3z/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "9Brj2NJvnGumfCKJbyIv",
+    "gitSync": {
+      "installationProvider": "github",
+      "integration": "github",
+      "url": "https://github.com/bellingcat/toolkit/blob/main",
+      "updatedAt": "2025-09-02T20:23:53.899Z"
+    },
+    "revision": "Gj3AuTBGWIKtLP1Wsk5R",
+    "defaultLevel": "inherit",
+    "comments": 2,
+    "changeRequests": 77,
     "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -4223,7 +4137,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-11-26T18:38:07.793Z",
-    "updatedAt": "2025-10-31T21:01:52.000Z",
+    "updatedAt": "2025-12-12T17:16:25.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/ejJGoZHxDRKWuxaUIHj8",
@@ -4237,10 +4151,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-11-26T18:46:35.801Z"
     },
-    "revision": "En0ahS4iIR6UOLOBgg9Y",
+    "revision": "21qcxMt28pde13sWYoU3",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 20,
+    "changeRequests": 21,
     "changeRequestsDraft": 1,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -4438,7 +4352,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-09-25T13:56:12.074Z",
-    "updatedAt": "2025-10-26T02:32:28.000Z",
+    "updatedAt": "2025-12-16T02:36:21.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/7MeNeExgLigwk8Er30nP",
@@ -4452,11 +4366,11 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-09-25T14:00:45.296Z"
     },
-    "revision": "VqECUe5x96GvJuxGVLta",
+    "revision": "xpc0N8sCs6HQOylEnTX2",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 17,
-    "changeRequestsDraft": 1,
+    "changeRequests": 21,
+    "changeRequestsDraft": 2,
     "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
@@ -4481,7 +4395,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-08-24T11:03:42.163Z",
-    "updatedAt": "2025-07-12T12:52:33.000Z",
+    "updatedAt": "2025-11-26T20:02:25.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/XRXKZm2ba2rcRvBDfhCz",
@@ -4495,12 +4409,12 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2025-01-16T19:32:54.642Z"
     },
-    "revision": "Z6P4yZomgZAIgpSTN5OA",
+    "revision": "pZxd1PNBKGyHydZSy3gT",
     "defaultLevel": "inherit",
-    "comments": 2,
+    "comments": 1,
     "changeRequests": 6,
     "changeRequestsDraft": 0,
-    "changeRequestsOpen": 1,
+    "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
       "access": true,
@@ -4707,8 +4621,8 @@
     "revision": "eslxdCC1IyIx8e5fNhG3",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 2,
-    "changeRequestsDraft": 1,
+    "changeRequests": 3,
+    "changeRequestsDraft": 2,
     "changeRequestsOpen": 1,
     "permissions": {
       "view": true,
@@ -4733,7 +4647,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2025-06-03T11:03:01.377Z",
-    "updatedAt": "2025-08-20T16:49:03.000Z",
+    "updatedAt": "2025-12-03T02:33:45.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/CmUJHut85cf2GhdnvUMM",
@@ -4747,10 +4661,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2025-06-03T11:05:15.315Z"
     },
-    "revision": "IUiBl4n8cekMpAwzXntM",
+    "revision": "qZ9QAoqJI4iEUrexxn2h",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 12,
+    "changeRequests": 13,
     "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -4792,7 +4706,7 @@
     },
     "revision": "RlKVMugZFd7OF1ajv5E4",
     "defaultLevel": "inherit",
-    "comments": 0,
+    "comments": 4,
     "changeRequests": 3,
     "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
@@ -4837,6 +4751,49 @@
     "defaultLevel": "inherit",
     "comments": 0,
     "changeRequests": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "viewInviteLinks": true,
+      "edit": true,
+      "triggerGitSync": true,
+      "comment": true,
+      "merge": true,
+      "review": true,
+      "installIntegration": true
+    },
+    "mergeRules": {
+      "type": "inherit"
+    }
+  },
+  {
+    "object": "space",
+    "id": "VkB8hrKce2zkqCnuxvoP",
+    "title": "PublicWWW",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-06-30T10:39:56.217Z",
+    "updatedAt": "2025-10-31T02:32:30.000Z",
+    "editMode": "locked",
+    "urls": {
+      "location": "/spaces/VkB8hrKce2zkqCnuxvoP",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/VkB8hrKce2zkqCnuxvoP/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "FjtL9eHx1MoDVJqVWeLR",
+    "gitSync": {
+      "installationProvider": "github",
+      "integration": "github",
+      "url": "https://github.com/bellingcat/toolkit/blob/main",
+      "updatedAt": "2025-06-30T10:43:04.592Z"
+    },
+    "revision": "wvwvQCOq02IL19CWPDwC",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 9,
     "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -4923,7 +4880,7 @@
     "defaultLevel": "inherit",
     "comments": 0,
     "changeRequests": 181,
-    "changeRequestsDraft": 27,
+    "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
@@ -4948,7 +4905,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-03-30T03:13:57.111Z",
-    "updatedAt": "2025-07-12T12:55:05.000Z",
+    "updatedAt": "2025-12-05T02:34:41.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/vvkWkiMEtcCeu6a4soJm",
@@ -4962,10 +4919,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-09-24T07:14:16.425Z"
     },
-    "revision": "ABy6FziWUQL68ZNnghgk",
+    "revision": "Lwd03Ou7BkrRpO3IZTLj",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 12,
+    "changeRequests": 14,
     "changeRequestsDraft": 2,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -5138,8 +5095,8 @@
     "defaultLevel": "inherit",
     "comments": 14,
     "changeRequests": 79,
-    "changeRequestsDraft": 1,
-    "changeRequestsOpen": 0,
+    "changeRequestsDraft": 0,
+    "changeRequestsOpen": 1,
     "permissions": {
       "view": true,
       "access": true,
@@ -5249,7 +5206,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-04-03T19:37:16.215Z",
-    "updatedAt": "2025-07-12T12:54:24.000Z",
+    "updatedAt": "2025-12-05T02:34:29.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/a1rJZbgG4Qv0tcT3IcYl",
@@ -5263,10 +5220,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-07-08T13:36:31.646Z"
     },
-    "revision": "7DUgeRERnTZlJaRPnAuo",
+    "revision": "YhxBSs004tWbP7FoanTI",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 17,
+    "changeRequests": 18,
     "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -5353,7 +5310,7 @@
     "defaultLevel": "inherit",
     "comments": 0,
     "changeRequests": 88,
-    "changeRequestsDraft": 9,
+    "changeRequestsDraft": 1,
     "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
@@ -5464,7 +5421,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-04-18T00:28:06.873Z",
-    "updatedAt": "2025-08-20T16:49:09.000Z",
+    "updatedAt": "2025-11-27T02:32:30.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/3AaGrS6ckMbRLHolh6Bv",
@@ -5478,12 +5435,12 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2025-04-04T13:16:32.379Z"
     },
-    "revision": "7WRPI2Kd1nMeR92KJcGC",
+    "revision": "k89pTV0IR1JugPfEjmzI",
     "defaultLevel": "inherit",
     "comments": 1,
     "changeRequests": 67,
     "changeRequestsDraft": 1,
-    "changeRequestsOpen": 1,
+    "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
       "access": true,
@@ -5507,7 +5464,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-04-21T19:56:03.390Z",
-    "updatedAt": "2025-08-20T16:49:10.000Z",
+    "updatedAt": "2025-11-27T02:32:24.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/12LRAEAqgAdS3uJS52nf",
@@ -5521,12 +5478,12 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-07-25T19:22:22.494Z"
     },
-    "revision": "EmrfgrI8ENLZrtmbp7NT",
+    "revision": "9F6mk9cdODsWnsY5Uy85",
     "defaultLevel": "inherit",
     "comments": 0,
     "changeRequests": 52,
     "changeRequestsDraft": 1,
-    "changeRequestsOpen": 1,
+    "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
       "access": true,
@@ -5636,7 +5593,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-05-04T23:27:49.465Z",
-    "updatedAt": "2025-08-15T05:59:21.000Z",
+    "updatedAt": "2025-11-27T02:32:23.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/071wbUxUiEuTp5Bb440H",
@@ -5650,10 +5607,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-05-04T23:34:42.779Z"
     },
-    "revision": "kjKtYjYfTEnn3U3MDOFQ",
+    "revision": "TE1YNlwCKIzMPTd2uOPp",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 22,
+    "changeRequests": 23,
     "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -5804,7 +5761,7 @@
   {
     "object": "space",
     "id": "UyWRhVoa82BuLGHmNKOn",
-    "title": "KakaoMap",
+    "title": "Kakao Map",
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-04-24T20:02:57.400Z",
@@ -5894,7 +5851,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-04-30T21:38:21.046Z",
-    "updatedAt": "2025-10-26T10:23:24.000Z",
+    "updatedAt": "2025-12-13T11:01:55.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/r8GcjV1kfxf0mlQG2GdQ",
@@ -5908,10 +5865,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-05-01T00:13:52.210Z"
     },
-    "revision": "GFkTyXNgJLz2zY3Fo3ec",
+    "revision": "OOExRumlbDmkaLvCgm9R",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 17,
+    "changeRequests": 31,
     "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -6293,14 +6250,14 @@
       "installationProvider": "github",
       "integration": "github",
       "url": "https://github.com/bellingcat/toolkit/blob/main",
-      "updatedAt": "2024-08-23T13:05:49.859Z"
+      "updatedAt": "2025-12-03T09:43:00.155Z"
     },
     "revision": "f53Idi2CDL7zukM0sWUr",
     "defaultLevel": "inherit",
-    "comments": 1,
-    "changeRequests": 10,
+    "comments": 0,
+    "changeRequests": 11,
     "changeRequestsDraft": 0,
-    "changeRequestsOpen": 0,
+    "changeRequestsOpen": 1,
     "permissions": {
       "view": true,
       "access": true,
@@ -6320,7 +6277,7 @@
   {
     "object": "space",
     "id": "D27wDK1IsGJ3yQ7zubMg",
-    "title": "Apollo Mapping",
+    "title": "Apollo Image Hunter",
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-08-23T13:28:22.393Z",
@@ -6496,7 +6453,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2025-03-13T10:21:14.925Z",
-    "updatedAt": "2025-08-20T16:49:08.000Z",
+    "updatedAt": "2025-11-27T02:32:39.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/EvsnnkJT58ftN3e9sVZr",
@@ -6510,10 +6467,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2025-03-13T10:23:51.589Z"
     },
-    "revision": "lKKTw07QFxoN3UEZjYRR",
+    "revision": "Sf4aJ6DHepxiEIwbz7vU",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 73,
+    "changeRequests": 74,
     "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -6582,7 +6539,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2025-06-23T12:23:07.775Z",
-    "updatedAt": "2025-10-17T09:37:57.000Z",
+    "updatedAt": "2025-12-13T13:56:30.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/TSRCKcxTTIGI6g9ZTkHy",
@@ -6596,10 +6553,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2025-06-23T12:25:45.769Z"
     },
-    "revision": "mjpYBcB2TZukyV8iZQZJ",
+    "revision": "E1BFodZ8VZ91cAprlINg",
     "defaultLevel": "inherit",
     "comments": 3,
-    "changeRequests": 3,
+    "changeRequests": 4,
     "changeRequestsDraft": 1,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -6642,9 +6599,9 @@
     "revision": "edjz1albO3WwQlOTacX3",
     "defaultLevel": "inherit",
     "comments": 2,
-    "changeRequests": 12,
+    "changeRequests": 13,
     "changeRequestsDraft": 5,
-    "changeRequestsOpen": 2,
+    "changeRequestsOpen": 3,
     "permissions": {
       "view": true,
       "access": true,
@@ -6883,7 +6840,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2025-10-24T17:20:02.937Z",
-    "updatedAt": "2025-11-01T22:28:58.000Z",
+    "updatedAt": "2025-12-12T20:34:31.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/EgMXorDFab71dWkJKxyv",
@@ -6897,10 +6854,53 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2025-10-24T17:24:36.937Z"
     },
-    "revision": "7ZGX7hYOeAxkLYnlwSLN",
+    "revision": "3xCz7xbGMmJS6HR4WUfe",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 1,
+    "changeRequests": 4,
+    "changeRequestsDraft": 1,
+    "changeRequestsOpen": 0,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "viewInviteLinks": true,
+      "edit": true,
+      "triggerGitSync": true,
+      "comment": true,
+      "merge": true,
+      "review": true,
+      "installIntegration": true
+    },
+    "mergeRules": {
+      "type": "inherit"
+    }
+  },
+  {
+    "object": "space",
+    "id": "s7phvC732wR2cU3luQld",
+    "title": "RAMMB SLIDER",
+    "emoji": "1f6e0",
+    "visibility": "private",
+    "createdAt": "2025-08-18T09:42:17.072Z",
+    "updatedAt": "2025-09-26T02:29:21.000Z",
+    "editMode": "locked",
+    "urls": {
+      "location": "/spaces/s7phvC732wR2cU3luQld",
+      "app": "https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/s7phvC732wR2cU3luQld/"
+    },
+    "organization": "WQpOq5ZFue4N6m65QCJq",
+    "parent": "H7HdQQbugoU5VAdlxKdh",
+    "gitSync": {
+      "installationProvider": "github",
+      "integration": "github",
+      "url": "https://github.com/bellingcat/toolkit/blob/main",
+      "updatedAt": "2025-08-18T09:44:30.863Z"
+    },
+    "revision": "ydlSGB5FNxxoZbsEHspn",
+    "defaultLevel": "inherit",
+    "comments": 0,
+    "changeRequests": 3,
     "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -7227,7 +7227,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-05-10T23:10:28.867Z",
-    "updatedAt": "2025-10-26T02:32:47.000Z",
+    "updatedAt": "2025-12-05T02:34:34.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/l3FmNR16IyLXPo9qaQuI",
@@ -7241,12 +7241,12 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-05-10T23:18:45.956Z"
     },
-    "revision": "4seuVf9WxPxvpcJJ01aN",
+    "revision": "CzTu4Cd31GOkrJHBM5Gt",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 28,
+    "changeRequests": 29,
     "changeRequestsDraft": 0,
-    "changeRequestsOpen": 1,
+    "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
       "access": true,
@@ -7442,7 +7442,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-05-08T00:55:06.152Z",
-    "updatedAt": "2025-07-12T12:52:40.000Z",
+    "updatedAt": "2025-12-14T20:14:17.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/vGobHKEKup4u0Ag2YI52",
@@ -7456,11 +7456,11 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-05-08T01:09:24.901Z"
     },
-    "revision": "GvOQaJWMvH2dUwRvcL16",
+    "revision": "OtBgnpETbpMb1aJ4WnwC",
     "defaultLevel": "inherit",
     "comments": 7,
-    "changeRequests": 7,
-    "changeRequestsDraft": 1,
+    "changeRequests": 9,
+    "changeRequestsDraft": 2,
     "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
@@ -7528,7 +7528,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2025-06-03T11:57:29.910Z",
-    "updatedAt": "2025-09-01T11:26:58.000Z",
+    "updatedAt": "2025-12-12T17:25:50.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/tEKVQze9um7ltMApxdqo",
@@ -7542,10 +7542,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2025-06-03T12:00:13.575Z"
     },
-    "revision": "vz1LeL58qZh84p2ZdFdl",
+    "revision": "OW08ywNSk6DSz2PTNtG6",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 5,
+    "changeRequests": 6,
     "changeRequestsDraft": 2,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -7571,7 +7571,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-04-10T22:18:27.215Z",
-    "updatedAt": "2025-09-22T02:31:54.000Z",
+    "updatedAt": "2025-12-05T02:34:03.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/9Rc3zarjVOemfslPnpTg",
@@ -7585,10 +7585,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2025-02-05T19:52:12.415Z"
     },
-    "revision": "puAj2QiO57nlDBs88owS",
+    "revision": "6mZH9LK8ZniXlj6xBMLf",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 130,
+    "changeRequests": 131,
     "changeRequestsDraft": 3,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -7614,7 +7614,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-04-24T20:25:07.170Z",
-    "updatedAt": "2025-10-28T02:31:23.000Z",
+    "updatedAt": "2025-12-24T07:35:56.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/R0RO66e1Iimql7ebHoes",
@@ -7628,10 +7628,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-04-25T18:50:10.926Z"
     },
-    "revision": "yGzqOaqNt5aaOCVFxMQx",
+    "revision": "eCJJ5Q6EkZ3nJ2Em7JP2",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 39,
+    "changeRequests": 40,
     "changeRequestsDraft": 1,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -7700,7 +7700,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-04-24T21:14:22.554Z",
-    "updatedAt": "2025-10-23T02:30:52.000Z",
+    "updatedAt": "2025-12-06T02:32:11.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/egQYJjcqsWk0D1CayQL7",
@@ -7714,10 +7714,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-04-25T18:48:45.058Z"
     },
-    "revision": "657ZsK9sy4vPy8HwfQYN",
+    "revision": "e0ZvFgBoDoeeM9zls7Rj",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 30,
+    "changeRequests": 31,
     "changeRequestsDraft": 1,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -7915,7 +7915,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-06-06T16:03:07.661Z",
-    "updatedAt": "2025-09-03T05:47:27.000Z",
+    "updatedAt": "2025-12-05T02:34:23.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/RI8BGmY7nnW3exuj1mEd",
@@ -7929,11 +7929,11 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-08-01T12:30:56.520Z"
     },
-    "revision": "CWXHfkdosFT4LWRgb1Gr",
+    "revision": "lRE2ph5Bka5WoJlFS5o1",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 42,
-    "changeRequestsDraft": 1,
+    "changeRequests": 43,
+    "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
@@ -8001,7 +8001,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-06-06T19:23:24.332Z",
-    "updatedAt": "2025-07-12T12:53:47.000Z",
+    "updatedAt": "2025-11-26T02:33:39.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/Id1kMbEhL4zDTxQTaXgq",
@@ -8015,12 +8015,12 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-08-22T10:48:52.770Z"
     },
-    "revision": "ofosrVmYD39d2sME1SSA",
+    "revision": "6E7d9mtD0EKFLd6TXRJ7",
     "defaultLevel": "inherit",
     "comments": 0,
     "changeRequests": 46,
     "changeRequestsDraft": 0,
-    "changeRequestsOpen": 1,
+    "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
       "access": true,
@@ -8044,7 +8044,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-06-06T18:16:42.883Z",
-    "updatedAt": "2025-09-07T02:30:54.000Z",
+    "updatedAt": "2025-12-15T02:39:43.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/w0HVLMpAzvUUjIR9jkr1",
@@ -8058,10 +8058,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2024-10-28T17:58:23.567Z"
     },
-    "revision": "opUP6WKZgGTdybaExxJB",
+    "revision": "CX4qbKh2exJOaLCaSBpN",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 103,
+    "changeRequests": 105,
     "changeRequestsDraft": 3,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -8104,8 +8104,8 @@
     "revision": "HNNT3yLMcxILGITZY6K8",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 9,
-    "changeRequestsDraft": 1,
+    "changeRequests": 10,
+    "changeRequestsDraft": 2,
     "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
@@ -8468,7 +8468,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2025-06-04T12:00:56.242Z",
-    "updatedAt": "2025-11-01T03:09:22.000Z",
+    "updatedAt": "2025-12-16T11:36:33.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/COKp6VIiUqtGT0GCmURC",
@@ -8482,10 +8482,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2025-06-04T12:05:20.325Z"
     },
-    "revision": "pw7AcCOfW4qYZAKDcLD3",
+    "revision": "kL6UWR9WK3Zit2oD8IHq",
     "defaultLevel": "inherit",
-    "comments": 0,
-    "changeRequests": 1,
+    "comments": 13,
+    "changeRequests": 19,
     "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -8980,11 +8980,11 @@
   {
     "object": "space",
     "id": "qnfRDGsJlxEWQT4KHQRe",
-    "title": "Wind & Particulate Map",
+    "title": "Nullschool Earth Map",
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2025-06-03T10:12:55.437Z",
-    "updatedAt": "2025-10-26T21:45:03.000Z",
+    "updatedAt": "2025-11-28T18:46:49.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/qnfRDGsJlxEWQT4KHQRe",
@@ -8996,13 +8996,13 @@
       "installationProvider": "github",
       "integration": "github",
       "url": "https://github.com/bellingcat/toolkit/blob/main",
-      "updatedAt": "2025-06-03T10:14:58.026Z"
+      "updatedAt": "2025-11-28T18:38:48.522Z"
     },
-    "revision": "pGOD3c8x9Xb9KTIagPJt",
+    "revision": "4ql5G1sEa5w5wybCYbc4",
     "defaultLevel": "inherit",
     "comments": 4,
     "changeRequests": 18,
-    "changeRequestsDraft": 6,
+    "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
@@ -9027,7 +9027,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2025-06-04T12:41:00.922Z",
-    "updatedAt": "2025-11-06T11:15:34.000Z",
+    "updatedAt": "2025-11-28T02:32:17.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/DrrUsLZDtrexXfusRNBl",
@@ -9041,10 +9041,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2025-06-04T12:46:41.607Z"
     },
-    "revision": "9IdLJfqDmF6YAVnOM303",
+    "revision": "N72pS2BoNSzq5yuEaRM6",
     "defaultLevel": "inherit",
-    "comments": 0,
-    "changeRequests": 2,
+    "comments": 2,
+    "changeRequests": 12,
     "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -9199,7 +9199,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2025-09-03T09:34:59.088Z",
-    "updatedAt": "2025-11-02T02:14:05.000Z",
+    "updatedAt": "2025-12-19T21:20:11.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/uwJq4w9CHhO3N6E0IriL",
@@ -9213,10 +9213,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2025-09-03T09:36:46.947Z"
     },
-    "revision": "ZHoXNCBgrtKDfDDWCiVz",
+    "revision": "E0wJeUFJU5HFammt7QT0",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 5,
+    "changeRequests": 14,
     "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -9672,7 +9672,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-01-25T06:57:03.793Z",
-    "updatedAt": "2025-07-11T12:49:16.000Z",
+    "updatedAt": "2025-11-22T01:28:43.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/mvJPLhESfJylE176Z6jG",
@@ -9686,10 +9686,10 @@
       "url": "https://github.com/bellingcat/toolkit/blob/staging",
       "updatedAt": "2025-07-11T12:32:33.504Z"
     },
-    "revision": "0hVElOxfG9S4QXoj5ZfL",
+    "revision": "Tuazmx8HUPSVcTG0D5mF",
     "defaultLevel": "inherit",
-    "comments": 0,
-    "changeRequests": 96,
+    "comments": 1,
+    "changeRequests": 97,
     "changeRequestsDraft": 20,
     "changeRequestsOpen": 1,
     "permissions": {
@@ -9705,7 +9705,18 @@
       "installIntegration": true
     },
     "mergeRules": {
-      "type": "inherit"
+      "type": "rules",
+      "rules": [
+        {
+          "rule": "require_up_to_date_change_request"
+        },
+        {
+          "rule": "require_change_request_subject"
+        },
+        {
+          "rule": "require_agent_review"
+        }
+      ]
     }
   },
   {
@@ -9990,9 +10001,9 @@
     "revision": "yDgodat80XqDcLTx6E1v",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 1,
+    "changeRequests": 2,
     "changeRequestsDraft": 0,
-    "changeRequestsOpen": 0,
+    "changeRequestsOpen": 1,
     "permissions": {
       "view": true,
       "access": true,
@@ -10163,7 +10174,7 @@
     "defaultLevel": null,
     "comments": 0,
     "changeRequests": 121,
-    "changeRequestsDraft": 29,
+    "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
@@ -10403,7 +10414,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-11-08T20:55:04.018Z",
-    "updatedAt": "2025-11-02T02:14:32.000Z",
+    "updatedAt": "2025-12-04T04:39:09.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/ency8GHQFFhmJluVTmq6",
@@ -10415,12 +10426,12 @@
       "installationProvider": "github",
       "integration": "github",
       "url": "https://github.com/bellingcat/toolkit/blob/main",
-      "updatedAt": "2025-09-15T13:05:38.668Z"
+      "updatedAt": "2025-12-04T04:24:56.362Z"
     },
-    "revision": "doF5eBVV7fzKzgENmDcb",
+    "revision": "gcbM3TgVN68DCwYDhFZE",
     "defaultLevel": "inherit",
     "comments": 1,
-    "changeRequests": 25,
+    "changeRequests": 26,
     "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
@@ -10463,8 +10474,8 @@
     "revision": "nyuvyEXRSecZ6Z9S3Mb6",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 30,
-    "changeRequestsDraft": 0,
+    "changeRequests": 31,
+    "changeRequestsDraft": 1,
     "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
@@ -11306,7 +11317,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2025-06-20T17:07:04.453Z",
-    "updatedAt": "2025-09-18T13:27:13.000Z",
+    "updatedAt": "2025-11-27T20:18:56.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/1jTzFjmUtRzL86YcdP5K",
@@ -11320,11 +11331,11 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2025-06-20T17:09:27.057Z"
     },
-    "revision": "d1dw6aMGYszYSaeFMO5l",
+    "revision": "77yFxaVurridHkMKkbw1",
     "defaultLevel": "inherit",
-    "comments": 9,
-    "changeRequests": 36,
-    "changeRequestsDraft": 2,
+    "comments": 3,
+    "changeRequests": 47,
+    "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
@@ -11349,7 +11360,7 @@
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2025-10-30T16:48:49.627Z",
-    "updatedAt": "2025-11-04T02:48:18.000Z",
+    "updatedAt": "2025-12-19T05:40:17.000Z",
     "editMode": "locked",
     "urls": {
       "location": "/spaces/h2W0MFd7s3sP7sFoWO2I",
@@ -11363,11 +11374,11 @@
       "url": "https://github.com/bellingcat/toolkit/blob/main",
       "updatedAt": "2025-10-30T16:51:21.714Z"
     },
-    "revision": "kjLfczuxzEd81QrvDoSv",
+    "revision": "ryHJCI8m97MlpVVKIzjg",
     "defaultLevel": "inherit",
-    "comments": 0,
-    "changeRequests": 3,
-    "changeRequestsDraft": 1,
+    "comments": 14,
+    "changeRequests": 30,
+    "changeRequestsDraft": 0,
     "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
@@ -11798,7 +11809,7 @@
     "comments": 0,
     "changeRequests": 26,
     "changeRequestsDraft": 5,
-    "changeRequestsOpen": 1,
+    "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
       "access": true,
@@ -12226,8 +12237,8 @@
     "revision": "NS88l0leQPknwiEyiUSf",
     "defaultLevel": "inherit",
     "comments": 0,
-    "changeRequests": 0,
-    "changeRequestsDraft": 0,
+    "changeRequests": 1,
+    "changeRequestsDraft": 1,
     "changeRequestsOpen": 0,
     "permissions": {
       "view": true,

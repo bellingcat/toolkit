@@ -159,7 +159,7 @@
     "object": "team",
     "id": "2KzzlDtilRcwg1LZM5MC",
     "title": "PixPlot",
-    "members": 1,
+    "members": 2,
     "spaces": 1,
     "createdAt": "2024-04-09T22:21:37.096Z",
     "permissions": {
@@ -279,7 +279,7 @@
     "object": "team",
     "id": "5qTFA148VnV46jTVaOpz",
     "title": "Mapillary",
-    "members": 1,
+    "members": 2,
     "spaces": 1,
     "createdAt": "2024-04-03T19:37:00.829Z",
     "permissions": {
@@ -375,7 +375,7 @@
     "object": "team",
     "id": "6P3eyKXCZp7msWScFBWU",
     "title": "Search by Image",
-    "members": 0,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-11-07T21:25:17.118Z",
     "permissions": {
@@ -723,7 +723,7 @@
     "object": "team",
     "id": "Bs75ftG9ExvdyIGql2jP",
     "title": "Internet Archive",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2024-04-21T19:28:05.715Z",
     "permissions": {
@@ -963,7 +963,7 @@
     "object": "team",
     "id": "Fj6deP4zeQuAwNt3CCGv",
     "title": "Satellites.pro",
-    "members": 1,
+    "members": 2,
     "spaces": 1,
     "createdAt": "2024-04-09T00:13:01.240Z",
     "permissions": {
@@ -1359,7 +1359,7 @@
     "object": "team",
     "id": "LXyMuXiNFof11xZ4QZYl",
     "title": "Equasis",
-    "members": 1,
+    "members": 2,
     "spaces": 1,
     "createdAt": "2024-05-22T14:03:02.653Z",
     "permissions": {
@@ -2091,7 +2091,7 @@
     "object": "team",
     "id": "Xl2VEy03Yg0YXf7PbIcr",
     "title": "Bing Maps",
-    "members": 1,
+    "members": 2,
     "spaces": 1,
     "createdAt": "2024-04-09T20:43:34.826Z",
     "permissions": {
@@ -2559,7 +2559,7 @@
     "object": "team",
     "id": "gZXAxCst965Dg8tWLrMS",
     "title": "NotebookLM",
-    "members": 0,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2025-05-05T18:23:46.416Z",
     "permissions": {
@@ -2679,7 +2679,7 @@
     "object": "team",
     "id": "iiwandq96eYFPR4117eX",
     "title": "Hunchly",
-    "members": 1,
+    "members": 2,
     "spaces": 1,
     "createdAt": "2024-04-03T19:20:31.078Z",
     "permissions": {
@@ -2691,7 +2691,7 @@
     "object": "team",
     "id": "irsem9FAqebD8m2CiqmT",
     "title": "Aqueduct Water Risk Atlas",
-    "members": 0,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-11-26T13:30:42.382Z",
     "permissions": {
@@ -2703,7 +2703,7 @@
     "object": "team",
     "id": "jN1LDab8zZ8eJZDVysHk",
     "title": "Satellite Tracker 3D",
-    "members": 2,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-08-01T18:20:13.536Z",
     "permissions": {
@@ -2835,7 +2835,7 @@
     "object": "team",
     "id": "kjQQe1ga4fClcr486hjg",
     "title": "Geograph Worldwide",
-    "members": 0,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-08-28T17:24:56.523Z",
     "permissions": {
@@ -2871,7 +2871,7 @@
     "object": "team",
     "id": "l9tWPBRFEhRj7KmYTZY0",
     "title": "Earth Online",
-    "members": 1,
+    "members": 2,
     "spaces": 1,
     "createdAt": "2024-03-30T03:32:23.524Z",
     "permissions": {
@@ -2931,7 +2931,7 @@
     "object": "team",
     "id": "nHHmg3frFFmY6eqWO1fz",
     "title": "GeoHints",
-    "members": 0,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-06-07T12:16:46.910Z",
     "permissions": {
@@ -3003,7 +3003,7 @@
     "object": "team",
     "id": "on97fn4oZRNgiktCENVI",
     "title": "Yaddnet",
-    "members": 2,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-04-30T17:38:26.185Z",
     "permissions": {
@@ -3471,7 +3471,7 @@
     "object": "team",
     "id": "w27MunK3CpygPB13FX4w",
     "title": "Sentinel Hub Playground",
-    "members": 1,
+    "members": 2,
     "spaces": 1,
     "createdAt": "2024-03-30T03:13:24.693Z",
     "permissions": {
@@ -3543,7 +3543,7 @@
     "object": "team",
     "id": "wsIf3vnIYnZ5tRA5PKIE",
     "title": "Amazon Rekognition",
-    "members": 0,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2025-06-03T09:38:01.659Z",
     "permissions": {
@@ -3591,7 +3591,7 @@
     "object": "team",
     "id": "xnJ9mHO5uXFn269X7Yl3",
     "title": "Spectator Earth",
-    "members": 1,
+    "members": 2,
     "spaces": 1,
     "createdAt": "2025-10-24T17:20:03.277Z",
     "permissions": {
@@ -3603,7 +3603,7 @@
     "object": "team",
     "id": "xsa1bEWGINGp6TZfHc3P",
     "title": "Open Infrastructure Map",
-    "members": 2,
+    "members": 1,
     "spaces": 1,
     "createdAt": "2024-10-22T09:21:58.081Z",
     "permissions": {
