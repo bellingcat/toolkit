@@ -17,19 +17,18 @@ const tools = getTools();
 function itemTitle(item) {
   return item.fieldValues.nodes.find((node) => node.field.name === "Title").text ;
 }
+function itemToolId(item) {
+  return item.fieldValues.nodes.find((node) => node.field.name === "Tool ID").text ;
+}
 function formatDate(dateString) {
   var date = new Date(dateString);
   return date.toISOString().replace(/T.*/,'');
 }
 tools.forEach(async function(tool) {
 
-  const space = findSpace(tool.title);
-  if (!space) {
-    return;
-  }
-  const item = items.find((item) => itemTitle(item) === tool.title);
+  const item = items.find((item) => itemToolId(item) === tool.filename);
   if (!item) {
-    console.log(tool.title);
+    console.log(tool.filename);
     return;
   }
 });

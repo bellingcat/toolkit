@@ -26,6 +26,7 @@ jobs:
         run: |
           ./src/ghproject_data.bash $ORGANIZATION $PROJECT_NUMBER > $PROJECT_DATA_JSON
           echo 'PROJECT_ID='$(jq '.data.organization.projectV2.id' $PROJECT_DATA_JSON) >> $GITHUB_ENV
+          echo 'TOOLID_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Tool ID") | .id' $PROJECT_DATA_JSON) >> $GITHUB_ENV
 
       # Downloads all items from the project and adds missing ones
       - name: Add missing project items
