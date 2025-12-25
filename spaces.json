@@ -136,7 +136,7 @@
     "comments": 0,
     "changeRequests": 24,
     "changeRequestsDraft": 1,
-    "changeRequestsOpen": 1,
+    "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
       "access": true,
@@ -2984,7 +2984,7 @@
   {
     "object": "space",
     "id": "qMVvJjRVbowgQ6oukqr3",
-    "title": "Bluesky network analyzer",
+    "title": "BskyFollowFinder",
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-12-10T19:48:29.212Z",
@@ -3273,7 +3273,7 @@
   {
     "object": "space",
     "id": "ROocMLnwvMnAONiFgfkw",
-    "title": "Meta Content Library and API",
+    "title": "Meta Content Library",
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-04-09T21:15:46.897Z",
@@ -3402,7 +3402,7 @@
   {
     "object": "space",
     "id": "kiPA5zSZL0LWEh807xSh",
-    "title": "Linkdtime",
+    "title": "LinkdTime",
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2025-03-12T20:52:12.426Z",
@@ -3617,7 +3617,7 @@
   {
     "object": "space",
     "id": "KFa8vh9GeAyJQVvTf1Vk",
-    "title": "Liveuamap",
+    "title": "LiveUAMap",
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-04-15T18:33:52.177Z",
@@ -3918,7 +3918,7 @@
   {
     "object": "space",
     "id": "Mu2KBwBkdRPlYzSkzaAo",
-    "title": "Distill",
+    "title": "Distill.io",
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-07-25T13:33:39.205Z",
@@ -4090,7 +4090,7 @@
   {
     "object": "space",
     "id": "WJe9Zxf6X0uTpaovheDI",
-    "title": "Internet Archive",
+    "title": "Wayback Machine",
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-04-21T19:28:01.219Z",
@@ -5245,7 +5245,7 @@
   {
     "object": "space",
     "id": "1qdzriTPhjC26EJpO1a4",
-    "title": "Satellites.pro",
+    "title": "satellites.pro",
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-04-09T00:13:18.391Z",
@@ -5546,7 +5546,7 @@
   {
     "object": "space",
     "id": "wj16aeUeCQ32BThaGKHz",
-    "title": "NASA Firms",
+    "title": "NASA FIRMS",
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-04-09T02:06:27.309Z",
@@ -7137,7 +7137,7 @@
   {
     "object": "space",
     "id": "zN2THeKre3FW0PtY09jc",
-    "title": "Maltego",
+    "title": "Maltego Graph",
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-03-30T01:31:05.687Z",
@@ -7997,7 +7997,7 @@
   {
     "object": "space",
     "id": "Id1kMbEhL4zDTxQTaXgq",
-    "title": "GPSJAM",
+    "title": "GPSJam",
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-06-06T19:23:24.332Z",
@@ -9324,7 +9324,7 @@
   {
     "object": "space",
     "id": "P4tFUfCDKzWMIm2cjWv6",
-    "title": "Truecaller",
+    "title": "TrueCaller",
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-06-06T15:17:40.232Z",
@@ -9691,7 +9691,7 @@
     "comments": 1,
     "changeRequests": 97,
     "changeRequestsDraft": 20,
-    "changeRequestsOpen": 1,
+    "changeRequestsOpen": 0,
     "permissions": {
       "view": true,
       "access": true,
@@ -10023,7 +10023,7 @@
   {
     "object": "space",
     "id": "dll34kRlUTzFgs1QYZa9",
-    "title": "Shadowmap",
+    "title": "ShadowMap",
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-06-07T10:49:31.748Z",
@@ -10152,7 +10152,7 @@
   {
     "object": "space",
     "id": "ScmcEIAcsvKXg7S4xa8P",
-    "title": "Suncalc",
+    "title": "SunCalc",
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-04-09T01:54:57.836Z",
@@ -10754,7 +10754,7 @@
   {
     "object": "space",
     "id": "C0WRjSQxU3ZUJN3vEipc",
-    "title": "OSINT tools map",
+    "title": "OSINT Tools Map",
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-09-25T14:50:18.520Z",
@@ -11399,7 +11399,7 @@
   {
     "object": "space",
     "id": "gGZIU5o9e6Gw6QA1M4Ef",
-    "title": "InVID",
+    "title": "InVID Verification Plugin",
     "emoji": "1f6e0",
     "visibility": "private",
     "createdAt": "2024-03-10T15:23:33.758Z",
