@@ -18,11 +18,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Get space data
-        env:
-          GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
-        run: node src/get-spaces.mjs
-
       - name: Get project data
         env:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
