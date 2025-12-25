@@ -1,6 +1,6 @@
 ---
-description: A comprehensive global database on terrestrial and marine protected areas.
 updated: '2025-11-27'
+description: A comprehensive global database on terrestrial and marine protected areas.
 ---
 
 # World Database on Protected and Conserved Areas
@@ -11,7 +11,7 @@ updated: '2025-11-27'
 
 ## Description
 
-The World Database on Protected and Conserved Areas (WDPCA) is a comprehensive global database of marine and terrestrial protected areas, with information on [over 303,000 protected areas and over 6,500 conserved areas](https://www.protectedplanet.net/en/monthly-release-news/november-2025-update-of-the-wdpca-and-gd-pame) (Other Effective Area-based Conservation Measure, OECM).&#x20;
+The World Database on Protected and Conserved Areas (WDPCA) is a comprehensive global database of marine and terrestrial protected areas, with information on [over 303,000 protected areas and over 6,500 conserved areas](https://www.protectedplanet.net/en/monthly-release-news/november-2025-update-of-the-wdpca-and-gd-pame) (Other Effective Area-based Conservation Measure, OECM).
 
 Using the database, researchers can download geographical (GIS) data on protected areas and quickly map the areas' geographical boundaries on Google Earth Pro or other mapping software which might be a valuable piece of information for various types of open source investigations.
 
@@ -28,9 +28,9 @@ The database is produced and maintained by [Protected Planet](https://www.protec
 
 A **protected area** is a clearly defined area of land and/or sea especially dedicated to the protection and maintenance of biological diversity, and of natural and associated cultural resources, and managed through legal or other effective means. ([IUCN](https://portals.iucn.org/library/sites/library/files/documents/2008-106.pdf) conference summary 2007, p.9)
 
-A **conserved area** is a geographical area that is not an official protected area, and where conservation is a by-product. For example, conserved areas include military reserves (e.g., [Canadian Forces Base Shilo in Manitoba, Canada](https://panorama.solutions/en/solution/natural-areas-canadian-forces-base-shilo-recognized-oecm)) or shipwrecks (e.g., the [Scapa Flow Wreck](https://www.bbc.com/news/articles/c776ng7xe02o) in Scotland, [whose conserved area status took effect on 1st November, 2025](https://www.gov.scot/publications/scapa-flow-historic-marine-protected-area-order-2025/)).&#x20;
+A **conserved area** is a geographical area that is not an official protected area, and where conservation is a by-product. For example, conserved areas include military reserves (e.g., [Canadian Forces Base Shilo in Manitoba, Canada](https://panorama.solutions/en/solution/natural-areas-canadian-forces-base-shilo-recognized-oecm)) or shipwrecks (e.g., the [Scapa Flow Wreck](https://www.bbc.com/news/articles/c776ng7xe02o) in Scotland, [whose conserved area status took effect on 1st November, 2025](https://www.gov.scot/publications/scapa-flow-historic-marine-protected-area-order-2025/)).
 
-<figure><img src=".gitbook/assets/shilo (1).png" alt="Screenshot of the Canadian Forces Base Shilo. Left panel shows a Site ID and the reported area, and the right side shows a terrain map marking the land area. The military base is an example of an OECM." width="375"><figcaption><p>Information on the Canadian Forces Base Shilo, as shown on the WDPCA, <br><a href="https://www.protectedplanet.net/555705170">https://www.protectedplanet.net/555705170</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/shilo (1).png" alt="Screenshot of the Canadian Forces Base Shilo. Left panel shows a Site ID and the reported area, and the right side shows a terrain map marking the land area. The military base is an example of an OECM." width="375"><figcaption><p>Information on the Canadian Forces Base Shilo, as shown on the WDPCA,<br><a href="https://www.protectedplanet.net/555705170">https://www.protectedplanet.net/555705170</a></p></figcaption></figure>
 
 (Conserved areas are formally known as Other Effective Area-based Conservation Measure, OECM, [defined in 2018 at CBD COP14](https://www.cbd.int/doc/decisions/cop-14/cop-14-dec-08-en.pdf). In this guide, we will use "conserved areas" for readability.)
 
@@ -40,7 +40,7 @@ WDPCA provides basic facts and geospatial data about the world's protected areas
 
 Note that protected or conserved areas can receive several designations under international conventions and national programmes — the WDPCA lists all of them.
 
-Data are [reported at any time](https://www.protectedplanet.net/en/resources/data-contributor-agreements) by national governments, international convention secretariats, intergovernmental organizations, nonprofits that are responsible for designating or governing areas for protection or conservation. Additionally, some protected areas can be [privately governed](https://www.protectedplanet.net/en/resources/guidance-on-the-reporting-of-privately-governed-protected-and-conserved-areas), e.g., owned by for-profit enterprises or religious entities. &#x20;
+Data are [reported at any time](https://www.protectedplanet.net/en/resources/data-contributor-agreements) by national governments, international convention secretariats, intergovernmental organizations, nonprofits that are responsible for designating or governing areas for protection or conservation. Additionally, some protected areas can be [privately governed](https://www.protectedplanet.net/en/resources/guidance-on-the-reporting-of-privately-governed-protected-and-conserved-areas), e.g., owned by for-profit enterprises or religious entities.
 
 The following data are available for each area with a unique ID:
 
@@ -98,7 +98,7 @@ For example, if you are looking for protected areas in Egypt, make sure to selec
 
 After finding the data you need, click the "Download" button on the top-right corner and choose your preferred format: CSV for tabular data, SHP for shapefiles, or file geodatabase.\
 \
-Note that you can search for protected areas of a whole country or a region (e.g., [the Polar region](https://www.protectedplanet.net/region/PO)) and download data for all protected and conserved areas for the country or region in one batch.&#x20;
+Note that you can search for protected areas of a whole country or a region (e.g., [the Polar region](https://www.protectedplanet.net/region/PO)) and download data for all protected and conserved areas for the country or region in one batch.
 
 The download will be in a zip file. When you unzip it, you will find that apart from the data files, a data dictionary and the user manual are included. (The user manual is automatically downloaded in 5 languages / 5 files: English, Spanish, French, Arabic, and Russian.)\
 \
@@ -226,7 +226,7 @@ Protected Planet, a joint initiative from:
 * [x] This tool has implemented optional tracking cookies, which users can choose to disable.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat Volunteer Team |
-|                           |
+| Page maintainer |
+| --------------- |
+| River N.        |
+|                 |
