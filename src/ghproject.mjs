@@ -94,17 +94,18 @@ const items = (function processProjectItems() {
 const tools = getTools();
 const summary = getSummary('gitbook');
 
-tools.forEach(async function(tool) {
+// make this loop sequential to avoid rate limiting
+for (const tool of tools) {
   let changed = {};
   let changes = [];
   const item = items.find((item) => item.toolId === tool.filename);
   if (!item) {
     console.error("No gh project item for tool", tool.title);
-    return;
+    continue;
   }
   const space = await fetchSpace(item.spaceId);
   if (!space) {
-    return;
+    continue;
   }
   const collection = await fetchCollection(space.parent);
 
@@ -186,5 +187,4 @@ tools.forEach(async function(tool) {
     console.warn(JSON.stringify(changed, null, 2));
     console.log(graphql.mutation(changes));
   }
-
-});
+} // end for tool
