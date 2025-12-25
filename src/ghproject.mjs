@@ -81,11 +81,6 @@ const items = (function processProjectItems() {
       console.error("Item data:", JSON.stringify(item, null, 2));
       throw new Error("No tool ID for item " + ret.title);
     }
-    if (!ret.spaceId) {
-      console.error("No space ID for item", ret.title);
-      console.error("Item data:", JSON.stringify(item, null, 2));
-      throw new Error("No space ID for item " + ret.title);
-    }
     return ret;
 
   });
@@ -103,85 +98,87 @@ for (const tool of tools) {
     console.error("No gh project item for tool", tool.title);
     continue;
   }
-  const space = await fetchSpace(item.spaceId);
-  if (!space) {
-    continue;
-  }
-  const collection = await fetchCollection(space.parent);
 
   if (item.title !== tool.title) {
     changed.title = tool.title;
     changes.push(graphql.setTextField(item.id, FIELDS.title.id, tool.title));
   }
-  if (item.spaceUrl !== space.urls.app) {
-    changed.space = space.urls.app;
-    changes.push(graphql.setTextField(item.id, FIELDS.spaceUrl.id, space.urls.app));
-  }
-  if (item.collection !== collection.title) {
-    changed.collection = collection.title;
-    changes.push(graphql.setTextField(item.id, FIELDS.collection.id, collection.title));
-  }
-
-  if (tool.updated && item.updatedAt !== tool.updated) {
-    changed.updatedAt = tool.updated;
-    changes.push(graphql.setDateField(item.id, FIELDS.updatedAt.id, tool.updated));
-  }
-
   if (summary.match(path.relative('gitbook/', tool.filepath))) {
     if (!item.published) {
       changed.published = true;
       changes.push(graphql.setSelectField(item.id, FIELDS.published.id, OPTIONS.publishedTrue.id));
     }
   }
-
-  const request = await fetchLatestChangeRequest(space);
-  if (request) {
-    const changeRequestAuthor = request.createdBy.email;
-    if (item.changeRequestAuthor != changeRequestAuthor){
-      changed.changeRequestAuthor = changeRequestAuthor;
-      changes.push(graphql.setTextField(item.id, FIELDS.author.id, changeRequestAuthor));
-    }
-
-    const reviewers = await fetchChangeRequestReviewers(space, request);
-    if (reviewers.count > 0) {
-      const names = reviewers.items.map((item) => item.user.email ).join(', ');
-      if (item.reviewers !== names) {
-        changed.reviewers = names;
-        changes.push(graphql.setTextField(item.id, FIELDS.reviewers.id, names));
-      }
-    }
-
-    const dateString = graphql.formatDate(request.updatedAt);
-    if (item.submittedAt !== dateString) {
-      changed.submittedAt = dateString
-      changes.push(graphql.setDateField(item.id, FIELDS.date.id, dateString));
-    }
-    if (item.url !== request.urls.app) {
-      changed.url = request.urls.app;
-      changes.push(graphql.setTextField(item.id, FIELDS.url.id, request.urls.app));
-    }
-
-    switch (request.status) {
-      case 'merged':
-        if (item.status !== OPTIONS.merged.name) {
-          changed.status = OPTIONS.merged.name;
-          changes.push(graphql.setSelectField(item.id, FIELDS.status.id, OPTIONS.merged.id));
-        }
-        break;
-      case 'open':
-        if (item.status == OPTIONS.editing.name) {
-          break; // ignore these, don't revert to review requested.
-        }
-        if (item.status !== OPTIONS.reviewRequested.name) {
-          changed.status = OPTIONS.reviewRequested.name;
-          changes.push(graphql.setSelectField(item.id, FIELDS.status.id, OPTIONS.reviewRequested.id));
-        }
-        break;
-      default:
-        console.error('Bad change request status', request.status);
-    }
+  if (tool.updated && item.updatedAt !== tool.updated) {
+    changed.updatedAt = tool.updated;
+    changes.push(graphql.setDateField(item.id, FIELDS.updatedAt.id, tool.updated));
   }
 
+
+  if (item.spaceId) {
+    const space = await fetchSpace(item.spaceId);
+    if (!space) {
+      continue;
+    }
+    const collection = await fetchCollection(space.parent);
+
+    if (item.spaceUrl !== space.urls.app) {
+      changed.space = space.urls.app;
+      changes.push(graphql.setTextField(item.id, FIELDS.spaceUrl.id, space.urls.app));
+    }
+    if (item.collection !== collection.title) {
+      changed.collection = collection.title;
+      changes.push(graphql.setTextField(item.id, FIELDS.collection.id, collection.title));
+    }
+
+    const request = await fetchLatestChangeRequest(space);
+    if (request) {
+      const changeRequestAuthor = request.createdBy.email;
+      if (item.changeRequestAuthor != changeRequestAuthor){
+        changed.changeRequestAuthor = changeRequestAuthor;
+        changes.push(graphql.setTextField(item.id, FIELDS.author.id, changeRequestAuthor));
+      }
+
+      const reviewers = await fetchChangeRequestReviewers(space, request);
+      if (reviewers.count > 0) {
+        const names = reviewers.items.map((item) => item.user.email ).join(', ');
+        if (item.reviewers !== names) {
+          changed.reviewers = names;
+          changes.push(graphql.setTextField(item.id, FIELDS.reviewers.id, names));
+        }
+      }
+
+      const dateString = graphql.formatDate(request.updatedAt);
+      if (item.submittedAt !== dateString) {
+        changed.submittedAt = dateString
+        changes.push(graphql.setDateField(item.id, FIELDS.date.id, dateString));
+      }
+      if (item.url !== request.urls.app) {
+        changed.url = request.urls.app;
+        changes.push(graphql.setTextField(item.id, FIELDS.url.id, request.urls.app));
+      }
+
+      switch (request.status) {
+        case 'merged':
+          if (item.status !== OPTIONS.merged.name) {
+            changed.status = OPTIONS.merged.name;
+            changes.push(graphql.setSelectField(item.id, FIELDS.status.id, OPTIONS.merged.id));
+          }
+          break;
+        case 'open':
+          if (item.status == OPTIONS.editing.name) {
+            break; // ignore these, don't revert to review requested.
+          }
+          if (item.status !== OPTIONS.reviewRequested.name) {
+            changed.status = OPTIONS.reviewRequested.name;
+            changes.push(graphql.setSelectField(item.id, FIELDS.status.id, OPTIONS.reviewRequested.id));
+          }
+          break;
+        default:
+          console.error('Bad change request status', request.status);
+      }
+    }
+  }
   if (changes.length > 0) {
     console.warn(tool.title)
     console.warn(JSON.stringify(changed, null, 2));
