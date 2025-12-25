@@ -166,7 +166,7 @@ Alibaba Group [https://www.alibabagroup.com](https://www.alibabagroup.com/en-US/
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat Volunteer Team |
-|                           |
+| Page maintainer |
+| --------------- |
+| River N.        |
+|                 |
