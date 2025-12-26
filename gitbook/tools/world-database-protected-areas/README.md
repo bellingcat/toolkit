@@ -1,5 +1,5 @@
 ---
-updated: '2025-11-27'
+updated: '2025-12-25'
 description: A comprehensive global database on terrestrial and marine protected areas.
 ---
 

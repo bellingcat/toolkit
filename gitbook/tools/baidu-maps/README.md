@@ -1,5 +1,5 @@
 ---
-updated: '2025-11-26'
+updated: '2025-12-25'
 description: A mapping application provided by Chinese technology company Baidu Inc.
 ---
 
