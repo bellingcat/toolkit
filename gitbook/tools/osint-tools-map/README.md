@@ -1,9 +1,9 @@
 ---
+updated: '2025-10-31'
 description: >-
   An interactive worldwide map, showcasing business registries, court records,
   and other publicly available information to aid OSINT investigations and
   research.
-updated: '2025-10-31'
 ---
 
 # OSINT Tools Map
@@ -54,15 +54,15 @@ The French Yellow Pages can be explored through the Yellow/White pages directory
 
 ## Limitations
 
-While the OSINT Tools Map is regularly maintained, it primarily serves as a directory rather than a database. Linked sources may change or become unavailable over time, and the map itself does not display update timestamps for each dataset.
+While the OSINT Tools Map is regularly maintained, it functions primarily as a directory of links to external resources, rather than as a database containing the data itself. Linked sources may change, move, or become unavailable over time, and the map does not display update timestamps for individual datasets. As a result, availability and relevance of listed resources can vary, and researchers should verify the current status of any linked source.
 
 ## Ethical Considerations
 
-It is always important to keep an eye on local privacy regulations and ethical standards. Be aware that improper use of personal data from publicly available information may have legal implications.
+Researchers should be mindful of local privacy laws, access restrictions, and ethical standards when using resources linked through the OSINT Tools Map. Many listed sources provide access to public records or personal data that may be subject to jurisdiction-specific legal or ethical constraints. Information obtained through these sources should be used responsibly and in accordance with applicable laws, particularly when handling personal or sensitive data.
 
 ## Guide and articles
 
-* You can find the official GitHub repository here: [https://github.com/cipher387/osintmap](https://github.com/cipher387/osintmap)&#x20;
+* You can find the official GitHub repository here: [https://github.com/cipher387/osintmap](https://github.com/cipher387/osintmap)
 
 ## Tool provider
 
