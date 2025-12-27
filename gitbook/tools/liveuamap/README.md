@@ -1,8 +1,8 @@
 ---
+updated: '2025-10-28'
 description: >-
   LiveUAMap is a mapping tool that provides up-to-date information on global
   geopolitical events, conflicts, and crises.
-updated: '2025-10-28'
 ---
 
 # LiveUAMap
@@ -38,7 +38,7 @@ One of the key features of LiveUAMap is its ability to display a wide range of e
 Liveuamap is available in the following formats:
 
 * Web: accessible through any web browser, providing full access to the map and all features.
-* Mobile: available as a mobile app for both iOS and Android.&#x20;
+* Mobile: available as a mobile app for both iOS and Android.
 
 The screenshot below shows events including shelling, armed conflict, anti-air surface-to-air missile launches for the current day (in this case 16 February 2025):
 
@@ -102,16 +102,17 @@ To effectively use Liveuamap, especially for beginners or those looking to refin
 
 **Tutorials and Articles**
 
-* ‘Mapping Territorial Control and Contestation in Syria’ (no date) _ACLED_. Available at: [https://acleddata.com/knowledge-base/mapping-territorial-control-contestation-and-activity-in-syria/](https://acleddata.com/knowledge-base/mapping-territorial-control-contestation-and-activity-in-syria/) (Accessed: 16 February 2025).
-* Team, B.I. (2017) _Tanks of Buhaivka: A training facility in Eastern Ukraine_, B\_ellingcat\_. Available at: [https://www.bellingcat.com/news/uk-and-europe/2017/03/17/tanks-buhaivka-training-facility-eastern-ukraine/](https://www.bellingcat.com/news/uk-and-europe/2017/03/17/tanks-buhaivka-training-facility-eastern-ukraine/) (Accessed: 16 February 2025).
-* Zwijnenburg, W. (2020) _Yemen’s Disappearing Date Palms: Applied Environmental OSINT_, B\_ellingcat\_. Available at: [https://www.bellingcat.com/news/mena/2020/07/24/yemens-disappearing-date-palms-applied-environmental-osint/](https://www.bellingcat.com/news/mena/2020/07/24/yemens-disappearing-date-palms-applied-environmental-osint/) (Accessed: 16 February 2025).
+* ‘Mapping Territorial Control and Contestation in Syria’ (no date) _ACLED_. Available at: [https://acleddata.com/knowledge-base/mapping-territorial-control-contestation-and-activity-in-syria/](https://acleddata.com/knowledge-base/mapping-territorial-control-contestation-and-activity-in-syria/) (Accessed: 27 December 2025).
+* Team, B.I. (2017) _Tanks of Buhaivka: A training facility in Eastern Ukraine_, B\_ellingcat\_. Available at: [https://www.bellingcat.com/news/uk-and-europe/2017/03/17/tanks-buhaivka-training-facility-eastern-ukraine/](https://www.bellingcat.com/news/uk-and-europe/2017/03/17/tanks-buhaivka-training-facility-eastern-ukraine/) (Accessed: 27 December 2025).
+* Zwijnenburg, W. (2020) _Yemen’s Disappearing Date Palms: Applied Environmental OSINT_, B\_ellingcat\_. Available at: [https://www.bellingcat.com/news/mena/2020/07/24/yemens-disappearing-date-palms-applied-environmental-osint/](https://www.bellingcat.com/news/mena/2020/07/24/yemens-disappearing-date-palms-applied-environmental-osint/) (Accessed: 27 December 2025).
 
 **Video Tutorials**
 
 * [https://www.youtube.com/@LiveMap](https://www.youtube.com/@LiveMap)
-* _Liveuamap - Creating own map_ (2018). Available at: [https://www.youtube.com/watch?v=SDZS1-yysx8](https://www.youtube.com/watch?v=SDZS1-yysx8) (Accessed: 16 February 2025).
-* _Liveuamap API and KML (GeoJSON) export_ (2018). Available at: [https://www.youtube.com/watch?v=Ee4TkyHpMIk](https://www.youtube.com/watch?v=Ee4TkyHpMIk) (Accessed: 16 February 2025).
-* _Liveuamap HOW TO: selecting optional categories at website_ (2017). Available at: [https://www.youtube.com/watch?v=oTlHyS4gxPQ](https://www.youtube.com/watch?v=oTlHyS4gxPQ) (Accessed: 16 February 2025).
+* _Liveuamap - Creating own map_ (2018). Available at: [https://www.youtube.com/watch?v=SDZS1-yysx8](https://www.youtube.com/watch?v=SDZS1-yysx8) (Accessed: 27 December 2025).
+* _Liveuamap API and KML (GeoJSON) export_ (2018). Available at: [https://www.youtube.com/watch?v=Ee4TkyHpMIk](https://www.youtube.com/watch?v=Ee4TkyHpMIk) (Accessed: 27 December 2025).
+* _Liveuamap HOW TO: selecting optional categories at website_ (2017). Available at: [https://www.youtube.com/watch?v=oTlHyS4gxPQ](https://www.youtube.com/watch?v=oTlHyS4gxPQ) (Accessed: 27 December 2025).
+* _LiveUAMap – animated conflict map (Ukraine), 2025._ Available at: [https://www.youtube.com/watch?v=XSGwxw2LnNw](https://www.youtube.com/watch?v=XSGwxw2LnNw) (Accessed: 27 December 2025).
 
 #### Developer Resources
 
