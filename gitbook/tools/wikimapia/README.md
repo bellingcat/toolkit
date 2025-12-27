@@ -45,7 +45,7 @@ The log shows user activity from the year 2014, specifically highlighting two ke
 
 ### Use Case examples for Open Source Researchers
 
-1. **Corooborating Old Evidence:** Use the map's historical annotations to find supplementary information on claims or events mentioned in old news reports, videos, or documents from the 2007-2015 period.
+1. **Corroborating Old Evidence:** Use the map's historical annotations to find supplementary information on claims or events mentioned in old news reports, videos, or documents from the 2007-2015 period.
 2. **Discovering Informal Place Names:** Identify local, unofficial, or historical names for locations that do not appear on official maps, which can be crucial for keyword searching in local languages.
 3. **Analyzing Historical Site Layouts:** Examine the detailed, user-drawn layouts of industrial sites, military bases, or critical infrastructure as they existed before being altered, expanded, or destroyed.
 4. **Cultural and Historical Context:** Gain insights into the significance of local landmarks or historical sites based on what users were documenting and describing during the platform's most active years.
@@ -88,7 +88,7 @@ While both are crowdsourced, they are fundamentally different in their purpose a
 
 Researchers must be aware of Wikimapia's significant limitations. The data should never be used as a standalone source and must be treated with extreme caution.
 
-* **Data Accuracy**: Wikimapia's content is user-generated, leading to potential inaccuracies.
+* **Data Accuracy**: Wikimapia’s content is user-generated, leading to potential inaccuracies. In addition, there is no standardized validation process for user-submitted data, which means errors or assumptions may persist without correction.
 * **Outdated information:** This is the most critical limitation. The overwhelming majority of the data may not reflect the current reality of a location and must be verified using contemporary sources.
 * **Inconsistent Coverage:** Data density varies dramatically. While areas like Eastern Europe are heavily detailed with historical data, many other regions have sparse or non-existent information.
 * **API Rate Limiting**: There might be limitations on the number of API requests that can be made in a certain timeframe, impacting extensive data retrieval tasks. The actual [rate limits](https://api.wikimedia.org/wiki/Rate_limits) are not clearly documented at this time.
@@ -99,6 +99,7 @@ When using Wikimapia, ethical considerations include:
 
 * **Responsibility for Verification:** Given that the platform contains unverified, outdated, and potentially false information, researchers have an ethical responsibility to rigorously verify any claims before using them in publications or reports. Publishing unverified data from Wikimapia risks spreading misinformation.
 * **Handling Sensitive and Private Information:** The map's archive may contain labels for private homes or other sensitive locations added without consent. Researchers must be cautious not to amplify or republish information that could infringe on the privacy and security of individuals.
+* **Contextual use and attribution:** When Wikimapia data is referenced in analysis or reporting, researchers should clearly indicate that the information originates from a crowdsourced platform and does not represent an official or authoritative mapping source. Presenting such data without context or attribution may mislead audiences even when individual claims have been verified.
 
 ## Guide
 
