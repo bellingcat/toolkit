@@ -17,7 +17,8 @@ do
     mutation (
       $project: ID!
       $item: ID!
-      $field: ID!
+      $tool_field: ID!
+      $tool_value: String!
     ) {
       set_tool_id: updateProjectV2ItemFieldValue(input: {
         projectId: $project

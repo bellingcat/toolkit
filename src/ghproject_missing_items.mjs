@@ -25,7 +25,10 @@ function formatDate(dateString) {
   return date.toISOString().replace(/T.*/,'');
 }
 tools.forEach(async function(tool) {
-
+  const space = findSpace(tool);
+  if (!space) {
+    return;
+  }
   const item = items.find((item) => itemToolId(item) === tool.filename);
   if (!item) {
     console.log(tool.filename);
