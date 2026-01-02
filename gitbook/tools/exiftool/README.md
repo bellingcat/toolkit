@@ -25,19 +25,95 @@ ExifTool can be a helpful utility for open-source researchers. It allows for the
 Remember that all metadata can be manipulated and should never be taken at face value. Always verify metadata through independent sources or methods before drawing conclusions.
 {% endhint %}
 
-***
+### Getting started (install, PATH, and first commands)
 
-### **Extracting Metadata to Identify File Origin**
+ExifTool is designed to be used from the command line (Terminal on macOS/Linux, Command Prompt/PowerShell on Windows). The quickest workflow is: **install → confirm it runs → `cd` into your case folder → run `exiftool` on files**.
+
+#### **1) Install ExifTool**
+
+**Windows (standalone executable)**
+
+1. Download the Windows package from the [official ExifTool site](https://exiftool.org/) and unzip it.&#x20;
+2. Rename `exiftool(-k).exe` to `exiftool.exe`. (The **`(-k)`** part is intentional: it makes ExifTool **pause at the end** with a “press any key” prompt when you run it by double-clicking, so the window doesn’t immediately close.)
+3. Move **both** `exiftool.exe` **and** the `exiftool_files` folder into a directory that is in your [**PATH** (or keep them together in a folder you’ll add to PATH).](https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/)&#x20;
+
+**macOS (Homebrew)**
+
+```bash
+brew install exiftool
+```
+
+**Linux (package manager)**\
+On Debian/Ubuntu-family systems, ExifTool is commonly installed via:
+
+```bash
+sudo apt update
+sudo apt install libimage-exiftool-perl
+```
+
+### **2) Add ExifTool to your PATH (so it runs from any folder)**
+
+If `exiftool -ver` works anywhere, you can skip this step.
+
+**Windows (recommended approach)**
+
+1. Create a folder such as `C:\Tools\exiftool\` and place `exiftool.exe` + `exiftool_files\` inside it.
+2. Add `C:\Tools\exiftool\` to your [**Path** environment variable (User or System PATH).](https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/)
+3. Open a _new_ Command Prompt/PowerShell window and test:
+
+```powershell
+exiftool -ver
+```
+
+<div align="left"><figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+
+**macOS/Linux**\
+Homebrew and most package-manager installs place `exiftool` on your PATH automatically. Test:
+
+```bash
+exiftool -ver
+```
+
+Tip: If you’re unsure what’s being executed, check:
+
+* Windows: `where exiftool`
+* macOS/Linux: `which exiftool`
+
+### **3) Work from a case folder (and navigate to it)**
+
+Keeping a dedicated folder per investigation makes it easier to track inputs/outputs and avoid overwriting originals.
+
+**macOS/Linux**
+
+```bash
+mkdir -p ~/osint/case
+cd ~/osint/case
+ls
+```
+
+**Windows (PowerShell)**
+
+```bat
+mkdir D:\osint\case
+cd D:\osint\case
+dir
+```
+
+**4) Run your first commands**
+
+**Read all metadata from one file**
 
 ```bash
 exiftool image.jpg
 ```
 
-This command displays all metadata from `image.jpg`. This can help identify the camera model, software used, and other details that may point to the file's origin or authenticity.
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-### **Extracting GPS Coordinates from Images**
+### **Example Commands**
+
+#### **Extracting GPS Coordinates from Images**
 
 ```bash
 exiftool -gpslatitude -gpslongitude suspect_image.jpg
@@ -47,7 +123,7 @@ This command extracts GPS latitude and longitude data from `suspect_image.jpg`. 
 
 ***
 
-### **Analyzing Timestamps to Build Timelines**
+#### **Analyzing Timestamps to Build Timelines**
 
 ```bash
 exiftool -AllDates suspect_image.jpg
@@ -57,7 +133,7 @@ This command retrieves all date and time metadata tags from the image, such as `
 
 ***
 
-### **Comparing Metadata Across Multiple Files**
+#### **Comparing Metadata Across Multiple Files**
 
 ```bash
 exiftool -T -FileName -CreateDate -Model *.jpg > metadata_report.txt
@@ -67,7 +143,7 @@ This command generates a tab-delimited report (`metadata_report.txt`) for all `.
 
 ***
 
-### **Identifying Software Used for Editing**
+#### **Identifying Software Used for Editing**
 
 ```bash
 exiftool -Software suspect_image.jpg
@@ -77,7 +153,7 @@ This command extracts the `Software` tag, indicating any software used to edit o
 
 ***
 
-### **Detecting Metadata Anomalies**
+#### **Detecting Metadata Anomalies**
 
 ```bash
 exiftool -G1 -a -s suspect_image.jpg
@@ -87,7 +163,7 @@ This command displays all metadata tags, including duplicates, with group names 
 
 ***
 
-### **Extracting Thumbnail Images**
+#### **Extracting Thumbnail Images**
 
 ```bash
 exiftool -b -ThumbnailImage suspect_image.jpg > extracted_thumbnail.jpg
@@ -97,7 +173,7 @@ Extracting the embedded thumbnail can reveal the original image before any edits
 
 ***
 
-### **Retrieving Metadata from Documents**
+#### **Retrieving Metadata from Documents**
 
 ```bash
 exiftool suspect_document.pdf
@@ -107,7 +183,7 @@ For documents, this command extracts metadata from `suspect_document.pdf`, poten
 
 ***
 
-### **Extracting Metadata from Video Files**
+#### **Extracting Metadata from Video Files**
 
 ```bash
 exiftool -Title -CreationDate -Duration suspect_video.mp4
@@ -117,7 +193,7 @@ This command retrieves specific metadata from `suspect_video.mp4`, such as the t
 
 ***
 
-### **Filtering Files with Specific Metadata Attributes**
+#### **Filtering Files with Specific Metadata Attributes**
 
 ```bash
 exiftool -if '$Make eq "Apple"' -FileName *.jpg
@@ -127,7 +203,7 @@ This command processes all `.jpg` files and lists filenames where the `Make` tag
 
 ***
 
-### **Searching for Files Created in a Specific Timeframe**
+#### **Searching for Files Created in a Specific Timeframe**
 
 ```bash
 exiftool -if '$CreateDate ge "2024:01:01 00:00:00" and $CreateDate le "2024:12:31 23:59:59"' -FileName *.jpg
