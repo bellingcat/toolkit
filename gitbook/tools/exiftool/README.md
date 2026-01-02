@@ -121,27 +121,19 @@ exiftool -gpslatitude -gpslongitude suspect_image.jpg
 
 This command extracts GPS latitude and longitude data from `suspect_image.jpg`. After obtaining the GPS coordinates, you can input them into mapping services like Google Earth to visualize the location.
 
-***
-
 #### **Analyzing Timestamps to Build Timelines**
 
 ```bash
 exiftool -AllDates suspect_image.jpg
 ```
 
-This command retrieves all date and time metadata tags from the image, such as `CreateDate`, `ModifyDate`, and `DateTimeOriginal`. This information can help establish a timeline of events.
-
-***
-
-#### **Comparing Metadata Across Multiple Files**
+This command retrieves all date and time metadata tags from the image, such as `CreateDate`, `ModifyDate`, and `DateTimeOriginal`. This information can help establish a timeline of events.**Comparing Metadata Across Multiple Files**
 
 ```bash
 exiftool -T -FileName -CreateDate -Model *.jpg > metadata_report.txt
 ```
 
 This command generates a tab-delimited report (`metadata_report.txt`) for all `.jpg` files in the directory, listing filenames, creation dates, and camera models.
-
-***
 
 #### **Identifying Software Used for Editing**
 
@@ -151,8 +143,6 @@ exiftool -Software suspect_image.jpg
 
 This command extracts the `Software` tag, indicating any software used to edit or process the image. Detecting editing software can suggest whether an image has been manipulated.
 
-***
-
 #### **Detecting Metadata Anomalies**
 
 ```bash
@@ -160,8 +150,6 @@ exiftool -G1 -a -s suspect_image.jpg
 ```
 
 This command displays all metadata tags, including duplicates, with group names (`-G1`), and in short format (`-s`). Anomalies or inconsistencies in metadata can indicate tampering or provide investigative leads.
-
-***
 
 #### **Extracting Thumbnail Images**
 
@@ -171,8 +159,6 @@ exiftool -b -ThumbnailImage suspect_image.jpg > extracted_thumbnail.jpg
 
 Extracting the embedded thumbnail can reveal the original image before any edits were made, which is useful if the main image has been altered but the thumbnail hasn't.
 
-***
-
 #### **Retrieving Metadata from Documents**
 
 ```bash
@@ -180,8 +166,6 @@ exiftool suspect_document.pdf
 ```
 
 For documents, this command extracts metadata from `suspect_document.pdf`, potentially revealing the author's name, creation date, software used, and more.
-
-***
 
 #### **Extracting Metadata from Video Files**
 
@@ -191,8 +175,6 @@ exiftool -Title -CreationDate -Duration suspect_video.mp4
 
 This command retrieves specific metadata from `suspect_video.mp4`, such as the title, creation date, and duration, aiding in video analysis during investigations.
 
-***
-
 #### **Filtering Files with Specific Metadata Attributes**
 
 ```bash
@@ -200,8 +182,6 @@ exiftool -if '$Make eq "Apple"' -FileName *.jpg
 ```
 
 This command processes all `.jpg` files and lists filenames where the `Make` tag equals "Apple". This is useful for identifying images taken with specific devices.
-
-***
 
 #### **Searching for Files Created in a Specific Timeframe**
 
@@ -211,9 +191,7 @@ exiftool -if '$CreateDate ge "2024:01:01 00:00:00" and $CreateDate le "2024:12:3
 
 This command lists all images taken within the year 2024, helping to narrow down files relevant to a specific period.
 
-***
-
-### **Automating Metadata Extraction for Web Downloads**
+#### **Automating Metadata Extraction for Web Downloads**
 
 When downloading media from the web, you can automate metadata extraction:
 
@@ -223,9 +201,7 @@ wget -O downloaded_image.jpg http://example.com/image.jpg && exiftool downloaded
 
 This command downloads an image and immediately extracts its metadata, streamlining the process during an investigation.
 
-***
-
-### **Extracting Hidden Metadata from Social Media Images**
+#### **Extracting Hidden Metadata from Social Media Images**
 
 **Note:** Many social media platforms strip metadata from images. However, some may retain certain metadata.
 
@@ -235,9 +211,7 @@ exiftool social_media_image.jpg
 
 This command attempts to extract any remaining metadata from an image downloaded from social media. While limited, any recovered data could be valuable.
 
-***
-
-### **Extracting Metadata from Audio Files**
+#### **Extracting Metadata from Audio Files**
 
 ```bash
 exiftool -Artist -Album -Track suspect_audio.mp3
@@ -245,9 +219,7 @@ exiftool -Artist -Album -Track suspect_audio.mp3
 
 This command retrieves metadata from `suspect_audio.mp3`, which can reveal artist information, album names, and track numbers, helpful in tracking the distribution of audio files.
 
-***
-
-### **Generating KML Files for Geospatial Analysis**
+#### **Generating KML Files for Geospatial Analysis**
 
 ```bash
 exiftool -p kml.fmt -q -n images/ > photos.kml
@@ -257,9 +229,7 @@ This command creates a KML file (`photos.kml`) from images in the `images/` dire
 
 **Note:** You'll need to create a `kml.fmt` formatting file as per ExifTool documentation.
 
-***
-
-### **Verifying File Authenticity with Checksums**
+#### **Verifying File Authenticity with Checksums**
 
 ```bash
 exiftool -MD5Checksum suspect_file.jpg
@@ -271,8 +241,6 @@ This command calculates the MD5 checksum of `suspect_file.jpg`, which can be use
 
 Keep in mind that MD5 is just one type of hash, and while it’s useful for basic integrity checks, it’s considered less secure against certain attacks. For higher assurance, especially in forensic contexts, consider using more robust hashing algorithms like SHA-256 or SHA-512.
 
-***
-
 ### **Identifying Embedded Files or Steganography**
 
 ```bash
@@ -280,8 +248,6 @@ exiftool -ee -b suspect_file.jpg > embedded_data.bin
 ```
 
 The `-ee` option extracts embedded data streams. This command attempts to extract any embedded files or data within `suspect_file.jpg`, which may be hidden intentionally.
-
-***
 
 ### **Extracting Metadata from Emails**
 
@@ -292,8 +258,6 @@ exiftool email.eml
 ```
 
 This command extracts metadata from `email.eml`, including headers that reveal sender IP addresses, email clients, and routing information.
-
-***
 
 ### **Checking for Metadata Inconsistencies**
 
