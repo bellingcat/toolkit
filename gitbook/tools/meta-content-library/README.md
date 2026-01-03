@@ -3,7 +3,7 @@ description: >-
   Meta Content Library is a controlled-access tool that lets approved academic
   and non-profit researchers search the full public archive of Facebook,
   Instagram, and Threads posts, in near-real-time.
-updated: '2025-10-31'
+updated: '2026-01-02'
 ---
 
 # Meta Content Library
