@@ -65,7 +65,7 @@ Cost varies by state. Some jurisdictions allow you to search and obtain informat
 
 ## Ethical Considerations
 
-Even though this information is publicly available, legal cases often contain personal or sensitive information about the parties involved. An ethical OSINT practitioner should take this into account when doing such research.&#x20;
+Even though this information is publicly available, legal cases often contain personal or sensitive information about the parties involved. An ethical open source investigations practitioner should take this into account when doing such research.&#x20;
 
 ## Guides and articles
 
