@@ -32,7 +32,7 @@ Internet access is required for accessing the NIFC.&#x20;
 
 ## Limitations
 
-The NIFC has a lot of information that may be overwhelming to sort through depending on the needs of the user and may require time to find the specific needed information.
+The NIFC has a lot of information that may be overwhelming to sort through depending on the needs of the user and may require time to find the specific information.
 
 The NIFC is also located in Boise, Idaho, which is located in the Mountain Time Zone. Updates to the website including daily situation reports, news and other information may be dependent on when employees can access the site. There may also be delays if the area is under the threat of wildfires in the area.
 
