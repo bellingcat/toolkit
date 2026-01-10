@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-Launched in 2012, the Environmental Justice Atlas (also known as the EJAtlas) is a project based on the work of [hundreds of contributors](https://ejatlas.org/backoffice/cms/en/faq/) including academics, citizens, informal committees, NGOs and other activist groups. The database is meant to be a resource for teaching, networking and advocacy of social conflicts involving environmental issues around the world. It can also be a helpful resource for open source researchers due to its archive of information that can provide history and context of conflict.
+Launched in 2012, the Environmental Justice Atlas (also known as the EJAtlas) is a project based on the work of [hundreds of contributors](https://ejatlas.org/backoffice/cms/en/faq/) including academics, citizens, informal committees, NGOs and other activist groups. The database aims to be a resource for teaching, networking and advocacy of social conflicts involving environmental issues around the world. It can also be a helpful resource for open source researchers due to its archive of information that can provide history and context of conflict.
 
 The map covers conflicts across 10 [categories](https://ejatlas.org/backoffice/cms/en/faq/) including:
 
