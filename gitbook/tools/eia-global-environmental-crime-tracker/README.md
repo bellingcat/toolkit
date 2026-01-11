@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-18'
+updated: '2026-01-10'
 description: >-
   Map/tracker of environmental crimes including trade in ivory, rhino, big cats,
   and other exotic animals.
