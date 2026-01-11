@@ -118,7 +118,7 @@ International Consortium of Investigative Journalists (ICIJ). Link to detailed c
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Anisa Shabir    |
-|                 |
+| Page maintainer         |
+| ----------------------- |
+| Anisa Shabir GAP member |
+|                         |
