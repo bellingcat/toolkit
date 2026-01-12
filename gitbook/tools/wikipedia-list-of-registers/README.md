@@ -1,6 +1,6 @@
 ---
-description: Wikipedia list of official business registers around the world.
 updated: '2025-10-28'
+description: Wikipedia list of official business registers around the world.
 ---
 
 # Wikipedia list of registers
@@ -35,7 +35,7 @@ The Wikipedia list of registers will help you to find an online register for a p
 
 ## Limitations
 
-The page contains a range of other registers (e.g. property registers), so make sure that you have selected the right type of register.
+The page contains a range of other types of registers (e.g. property registers), so make sure that you have selected the right one.
 
 ## Ethical Considerations
 
