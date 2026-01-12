@@ -116,7 +116,11 @@ The following states provide guides for their databases:
 
 
 
-Journalistic examples of stories supported by state database research:
+**How-to articles for researchers:**
+
+
+
+**Journalistic examples of stories supported by state database research:**
 
 _ProPublica_: ["These Health Centers Are Supposed to Make Care Affordable. One Has Sued Patients for as Little as $59 in Unpaid Bills."](https://www.propublica.org/article/federally-qualified-health-centers-unpaid-bills-lawsuits)
 
