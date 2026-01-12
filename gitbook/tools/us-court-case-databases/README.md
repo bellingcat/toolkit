@@ -112,6 +112,8 @@ The following states provide guides for their databases:
 
 
 
+Journalistic examples of stories supported by state database research:
+
 _ProPublica_: ["These Health Centers Are Supposed to Make Care Affordable. One Has Sued Patients for as Little as $59 in Unpaid Bills."](https://www.propublica.org/article/federally-qualified-health-centers-unpaid-bills-lawsuits)
 
 _The Oregonian_: ["Carmen Rubio, a leading candidate for Portland mayor, racked up 150 parking, traffic violations, 6 driver’s license suspensions."](https://www.oregonlive.com/politics/2024/09/carmen-rubio-a-leading-candidate-for-portland-mayor-racked-up-150-parking-traffic-violations-6-drivers-license-suspensions.html)
