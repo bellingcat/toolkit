@@ -1,8 +1,8 @@
 ---
 updated: '2025-10-22'
 description: >-
-  Online database of politically exposed persons in Russia, Belarus and
-  Kazakhstan.
+  Online database of politically exposed persons in Russia, Belarus, Kyrgyzstan
+  and Kazakhstan.
 ---
 
 # RuPEP
@@ -22,6 +22,12 @@ RuPEP can help you to dig into the network of people and organisations around a 
 * Heads of military-civilian administrations in Russian-occupied territories in the Ukraine
 * Organisations associated with PEPs.
 
+RuPEP also contains information on legal entities associated with PEPs and their relatives, and those associated with people on the EU, US and other sanctions lists. This includes legal entities that:
+
+* Have employed PEPs or other persons
+* Have PEPs or other persons as founders, co-owners, shareholders or beneficial owners
+* Provide PEPs or others with company or other property management services or nominee services.
+
 See the criteria for inclusion on [this page](https://rupep.org/en/about/).
 
 An important note: PEPs are not necessarily involved in anything illegal - they have just been identified as being at greater risk of involvement in bribery and corruption. Being a PEP does not mean that they have been identified as having used their position for inappropriate gain.
@@ -32,11 +38,11 @@ RuPEP says the data is collated from public sources. They detail their criteria 
 
 A PEP's page will start with biographical and sanctions information:
 
-<figure><img src=".gitbook/assets/Screenshot 2025-02-24 at 16.06.22.png" alt=""><figcaption><p>The top of a PEP's page</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-01-12 at 11.33.01.png" alt=""><figcaption><p>The top of a PEP's page</p></figcaption></figure>
 
 On the left, the sections of information on this page are listed. On the right are listed alternative spellings for the PEP's name. In the centre, the sanctions information is well curated: It includes a last checked date, and hyperlinks to sources:
 
-![Click on the 'i' icon to get more information about those sanctions](<.gitbook/assets/Screenshot 2024-10-02 at 09.09.40.png>)
+<figure><img src=".gitbook/assets/Screenshot 2026-01-12 at 11.49.22.png" alt=""><figcaption><p>Click on the 'i' icon to get more information about those sanctions</p></figcaption></figure>
 
 Lower on the page, each PEP has a network visualisation:
 
