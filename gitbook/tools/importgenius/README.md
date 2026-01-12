@@ -1,8 +1,8 @@
 ---
+updated: '2025-10-16'
 description: >-
   Commercial supplier of trade data for 23 countries. Paid service but
   journalists can ask for free access.
-updated: '2025-10-16'
 ---
 
 # ImportGenius
@@ -13,7 +13,7 @@ updated: '2025-10-16'
 
 ## Description
 
-ImportGenius is an online database of trade data (imports and exports) for countries including the US, Russia and India. [Data sources include](https://www.importgenius.com/how-it-works) government public records, customs agencies and trade databases. ImportGenius covers countries for which they can get data - see the [pricing page](https://www.importgenius.com/pricing) (scroll down to 'Global trade data'). Note that journalists getting free access can email to request data for countries which they haven't yet added to their platform.&#x20;
+ImportGenius is an online database of trade data (imports and exports) for countries including the US, Russia and India. [Data sources include](https://www.importgenius.com/how-it-works) government public records, customs agencies and trade databases. ImportGenius covers countries for which they can get data - see the [pricing page](https://www.importgenius.com/pricing) (scroll down to '[Global trade data](https://www.importgenius.com/pricing)'). Note that journalists getting free access can email to request data for countries which they haven't yet added to their platform.
 
 When logged in you can do custom searches:
 
@@ -21,7 +21,7 @@ When logged in you can do custom searches:
 
 In the search results, you can see details for a specific shipment by clicking on the 'Details' icon:
 
-<figure><img src=".gitbook/assets/Screenshot 2025-08-26 at 11.24.15.png" alt=""><figcaption><p>Click the eye-shaped  icon to see details for a specific shipment. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-08-26 at 11.24.15.png" alt=""><figcaption><p>Click the eye-shaped icon to see details for a specific shipment.</p></figcaption></figure>
 
 The [HS code](https://www.wcoomd.org/en/topics/nomenclature/overview/what-is-the-harmonized-system.aspx) is a standardised, multi-digit code that classifies traded products. The first six digits are used by [over 200 countries](https://www.maersk.com/logistics-explained/shipping-documentation/2023/08/27/what-are-hs-codes), but the subsequent ones are nationally defined. In the screenshot above, 300409 is for 'Pharmaceutical products, Other' (see the World Customs Organisation's [search](https://www.wcotradetools.org/en/harmonized-system)). ImportGenius covers different modes of transport for different countries, depending on what data they are able to source. In the picture above, the Indian port 'Delhi Air' means that the goods were airfreighted from New Delhi.
 
@@ -37,7 +37,7 @@ Fields provided include at least one of the parties involved in the transaction,
 
 All modes of transport (e.g. ship, road) are covered, except for the United States, which is maritime only.
 
-A wide range of other sites provide a similar service, with  different country coverage. Most do not offer free access to journalists. Free access to US trade data is available through [ImportYeti](https://bellingcat.gitbook.io/toolkit/more/all-tools/importyeti).
+A wide range of other sites provide a similar service, with different country coverage. Most do not offer free access to journalists. Free access to US trade data is available through [ImportYeti](https://bellingcat.gitbook.io/toolkit/more/all-tools/importyeti).
 
 ## Cost
 
