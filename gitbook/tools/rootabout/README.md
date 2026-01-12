@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-26'
+updated: '2026-01-11'
 description: >-
   RootAbout is a reverse image search tool that pulls indexed images from the
   Internet Archive.
