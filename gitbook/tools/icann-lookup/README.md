@@ -63,7 +63,9 @@ Check out the [FAQ ](https://lookup.icann.org/en/faq)page on the ICANN Lookup we
 
 ## Tool provider
 
-ICANN, U.S. ICANN stands for the Internet Corporation for Assigned Names and Numbers.
+ICANN, U.S.&#x20;
+
+ICANN stands for the Internet Corporation for Assigned Names and Numbers.
 
 ## Advertising Trackers
 
