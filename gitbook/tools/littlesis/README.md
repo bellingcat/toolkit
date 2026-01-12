@@ -1,8 +1,8 @@
 ---
-description: >-
-  Connects dots between influential / wealthy individuals in (mostly US)
-  politics and business.
 updated: '2025-10-22'
+description: >-
+  Connects the dots between influential / wealthy individuals in (mostly US)
+  politics and business.
 ---
 
 # LittleSis
@@ -25,17 +25,21 @@ LittleSis' main offering is their database - to access it, click '[Database](htt
 
 <figure><img src=".gitbook/assets/Screenshot 2025-10-22 at 12.06.10.png" alt=""><figcaption><p>The home page for the LittleSis database</p></figcaption></figure>
 
-When you search the database, you'll get entities that match your search term(s), and network maps that include search term(s):
+When you search the database, you'll get entities that match your search term(s), and network maps that include the search term(s):
 
 <figure><img src=".gitbook/assets/Screenshot 2025-10-22 at 12.13.34.png" alt=""><figcaption><p>An example of a results page based on a search of the LittleSis database</p></figcaption></figure>
 
-When you click on an entity name in the search results above, you'll a person's or company/organisation page. Here is a person page:
+When you click on an entity name in the search results above, you'll see a person's or company/organisation page. Here is a person page:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-29 at 09.00.54.png" alt=""><figcaption><p>A person's page with data housed in LittleSis.</p></figcaption></figure>
 
 The person page has links to a wide range of relationships that the person has (for which LittleSis has data). The types of relationships in the example above include business positions, board memberships, positions, federal election campaign contributions, universities attended, holdings (companies in which they have ownership), family, and others.
 
-The 'Interlocks' tab lists people with positions in the same organisations as the person you searched - this can help you see the networks of people with whom they are associated. The 'Giving' tab lists people who also received donations from organisations and people to whom the person donated. The 'Data' tab allows you to filter and search the person's relationships. For instance, here are the lobbying firms in which Hunter Biden holds current or past positions:
+The 'Interlocks' tab lists people with positions in the same organisations as the person you searched - this can help you see the networks of people with whom they are associated. The 'Giving' tab lists people who also received donations from organisations and people to whom the person donated:&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2026-01-12 at 12.41.46.png" alt=""><figcaption><p>The 'Giving' tab lists donors who also donated to orgs and people to whom Hunter Biden donated</p></figcaption></figure>
+
+The 'Data' tab allows you to filter and search the person's relationships. For instance, here are the lobbying firms in which Hunter Biden holds current or past positions:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-29 at 09.35.03.png" alt=""><figcaption><p>Example of a search on Hunter Biden's data tab</p></figcaption></figure>
 
