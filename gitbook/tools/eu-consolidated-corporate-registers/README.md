@@ -13,9 +13,9 @@ description: >-
 
 ## Description
 
-The data on the portal is gathered in real time from national registers, and only info provided free of charge on national registers is available for free on the portal (see the [general info page](https://e-justice.europa.eu/topics/registers-business-insolvency-land/business-registers-search-company-eu/general-information-find-company_en)). These are the countries covered:
+The data on the 'Business Registers Interconnection System (BRIS)' portal is gathered in real time from national registers, and only info provided free of charge on national registers is available for free on the portal (see the [general info page](https://e-justice.europa.eu/topics/registers-business-insolvency-land/business-registers-search-company-eu/general-information-find-company_en)). These are the countries covered:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-11-27 at 09.12.44.png" alt=""><figcaption><p>Countries included in the consolidated register - you can 'select all'</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-11-27 at 09.12.44.png" alt=""><figcaption><p>Countries included in the consolidated register - you can select all</p></figcaption></figure>
 
 However, some data that is free in a national register does not appear on the portal. For example, here is the portal's data for a French company:
 
