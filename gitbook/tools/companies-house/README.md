@@ -1,6 +1,6 @@
 ---
 updated: '2025-10-22'
-description: Search companies and individuals in the United Kingdom.
+description: Search limited companies and related people in the United Kingdom.
 ---
 
 # Companies House
@@ -11,7 +11,7 @@ description: Search companies and individuals in the United Kingdom.
 
 ## Description
 
-Use Companies House to get information on companies registered in the UK - it's the official register of companies (so a government agency collates the data).
+Use Companies House to get information about limited companies registered in the UK - it's the official register of those companies (so a government agency collates the data). (Limited companies are ones where the company is a legally registered entity, which makes it a separate entity from the owners. This limits the liabilities of the owners.)
 
 Anyone wanting to operate a limited company in the UK has to register with them. This includes a limited company (Ltd), public limited company (PLC), or limited liability partnership (LLP). Sole traders don't have to register; nor do partnerships (without limited liability) - those are companies that involve two or more people that share ownership. Companies House is also responsible for dissolving companies.
 
