@@ -19,11 +19,11 @@ Open Ownership makes it easy to see if a country has a BO register, and if it is
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-21 at 11.54.16.png" alt=""><figcaption><p>The Bulgaria country page on OpenOwnership, which includes a hyperlink to the register</p></figcaption></figure>
 
-To search for a country's page on OpenOwnership, scroll down to 'Find a specific country' on the [map page](https://www.openownership.org/en/map/).
-
 The 'Worldwide action on beneficial ownership transparency' [map](https://www.openownership.org/en/map/) shows which countries have BO registers:
 
 <figure><img src=".gitbook/assets/Screenshot 2024-10-21 at 11.48.58.png" alt=""><figcaption><p>Map showing which countries are planning (light blue), implementing (purple), or have live online registers (green)</p></figcaption></figure>
+
+To search for a country's page on OpenOwnership, scroll down to 'Find a specific country' on the [map page](https://www.openownership.org/en/map/).
 
 An efficient way to get to see which countries have BO registers freely available online is to download the [CSV](https://www.openownership.org/en/map/oo_all_country_data.csv) that covers all the countries, and filter the 'Who can access' column by 'general public':
 
