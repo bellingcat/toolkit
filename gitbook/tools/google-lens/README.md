@@ -67,7 +67,9 @@ Make sure you analyse the search results critically and cross-reference these wi
 
 ## Tool provider
 
-Google [https://about.google/](https://about.google/) - United States
+Google
+
+[https://about.google/](https://about.google/) - United States
 
 ## Advertising Trackers
 
