@@ -110,7 +110,7 @@ The following YouTube [tutorial ](https://www.youtube.com/watch?v=UeI7wEdLPn8)de
 
 ## Tool provider
 
-Not so clear. The website's privacy policy suggests that DeHashed is registered to an address in Las Vegas, Nevada.
+Not clear. The website's privacy policy suggests that DeHashed is registered to an address in Las Vegas, Nevada.
 
 ## Advertising Trackers
 
