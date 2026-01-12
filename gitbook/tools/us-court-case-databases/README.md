@@ -116,21 +116,17 @@ The following states provide guides for their databases:
 
 
 
-**How-to articles for researchers:**
+How-to articles for researchers:
 
-_Reporters Committee for Freedom of the Press:_ [Open Government Guide](https://www.rcfp.org/open-government-guide/)
+* _Reporters Committee for Freedom of the Press:_ [Open Government Guide](https://www.rcfp.org/open-government-guide/)
+* _The Marshall Project:_ [_"_&#x4A;ournalists: How to Get Records the Criminal Justice System Doesn’t Want You to Have"](https://www.themarshallproject.org/2025/07/18/journalism-foia-public-records-law)
+* _Poynter:_ ["6 tips for reporters tracking state legal cases"](https://www.poynter.org/reporting-editing/2013/6-tips-for-reporters-tracking-state-legal-cases)
+* _The Journalist's Resource:_ ["How to find facts and stories in civil court dockets"](https://journalistsresource.org/home/court-dockets-tips)<br>
 
-_The Marshall Project:_ [_"_&#x4A;ournalists: How to Get Records the Criminal Justice System Doesn’t Want You to Have"](https://www.themarshallproject.org/2025/07/18/journalism-foia-public-records-law)
+Journalistic examples of stories supported by state database research:
 
-_Poynter:_ ["6 tips for reporters tracking state legal cases"](https://www.poynter.org/reporting-editing/2013/6-tips-for-reporters-tracking-state-legal-cases)
-
-
-
-**Journalistic examples of stories supported by state database research:**
-
-_ProPublica_: ["These Health Centers Are Supposed to Make Care Affordable. One Has Sued Patients for as Little as $59 in Unpaid Bills."](https://www.propublica.org/article/federally-qualified-health-centers-unpaid-bills-lawsuits)
-
-_The Oregonian_: ["Carmen Rubio, a leading candidate for Portland mayor, racked up 150 parking, traffic violations, 6 driver’s license suspensions."](https://www.oregonlive.com/politics/2024/09/carmen-rubio-a-leading-candidate-for-portland-mayor-racked-up-150-parking-traffic-violations-6-drivers-license-suspensions.html)
+* _ProPublica_: ["These Health Centers Are Supposed to Make Care Affordable. One Has Sued Patients for as Little as $59 in Unpaid Bills."](https://www.propublica.org/article/federally-qualified-health-centers-unpaid-bills-lawsuits)
+* _The Oregonian_: ["Carmen Rubio, a leading candidate for Portland mayor, racked up 150 parking, traffic violations, 6 driver’s license suspensions."](https://www.oregonlive.com/politics/2024/09/carmen-rubio-a-leading-candidate-for-portland-mayor-racked-up-150-parking-traffic-violations-6-drivers-license-suspensions.html)
 
 ## Tool provider
 
