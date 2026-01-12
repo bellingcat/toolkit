@@ -118,6 +118,12 @@ The following states provide guides for their databases:
 
 **How-to articles for researchers:**
 
+_Reporters Committee for Freedom of the Press:_ [Open Government Guide](https://www.rcfp.org/open-government-guide/)
+
+_The Marshall Project:_ [_"_&#x4A;ournalists: How to Get Records the Criminal Justice System Doesn’t Want You to Have"](https://www.themarshallproject.org/2025/07/18/journalism-foia-public-records-law)
+
+_Poynter:_ ["6 tips for reporters tracking state legal cases"](https://www.poynter.org/reporting-editing/2013/6-tips-for-reporters-tracking-state-legal-cases)
+
 
 
 **Journalistic examples of stories supported by state database research:**
