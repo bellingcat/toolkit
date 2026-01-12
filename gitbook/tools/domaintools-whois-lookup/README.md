@@ -46,10 +46,6 @@ Several tools are available for paying subscribers - a comprehensive breakdown c
 * [x] Partially Free
 * [ ] Paid
 
-### DomainTools Investigative Journalism Grant Program
-
-Investigative journalists can [apply ](https://www.domaintools.com/company/press/grant-program/)for a grant to access IRIS Investigate and DNSDB Scout at no cost (or a reduced cost). Prospective users must meet a set of criteria and can apply via email.&#x20;
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
@@ -68,9 +64,9 @@ As part of domain privacy measures, most domain registrars offer Whois privacy s
 
 ## Guides and articles
 
-All [DomainTools ](https://www.domaintools.com/resources/user-guides/?_resources_products=farsight-dnsdb-scout\&referrer=Scout)resources can be accessed in one place. User guides by DomainsTools can be found [here](https://www.domaintools.com/wp-content/uploads/Whois-User-Guide.pdf) and [here](https://www.domaintools.com/resources/user-guides/whois-history/), and guidance is also available for [DNSDB Scout](https://docs.domaintools.com/dnsdb/scout/userguide/#common-pivot-exercise-2-ip-addresses-to-fqdns) and [IRIS Investigate](https://docs.domaintools.com/iris/investigate/userguide/#domain-profile-data-panel).&#x20;
+All [DomainTools ](https://www.domaintools.com/resources/user-guides/?_resources_products=farsight-dnsdb-scout\&referrer=Scout)resources can be accessed in one place. User guides by DomainsTools can be found [here](https://www.domaintools.com/wp-content/uploads/Whois-User-Guide.pdf) and [here](https://www.domaintools.com/resources/user-guides/whois-history/), and guidance is also available for [DNSDB Scout](https://docs.domaintools.com/dnsdb/scout/userguide/#common-pivot-exercise-2-ip-addresses-to-fqdns) and [IRIS Investigate](https://docs.domaintools.com/iris/investigate/userguide/#domain-profile-data-panel).
 
-API documentation can be found [here](https://www.domaintools.com/resources/api-documentation/whois-lookup/).
+API documentation can be found [here](https://docs.domaintools.com/api/).
 
 ## Tool provider
 
