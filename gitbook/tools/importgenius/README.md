@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-ImportGenius is an online database of trade data (imports and exports) for countries including the US, Russia and India. [Data sources include](https://www.importgenius.com/how-it-works) government public records, customs agencies and trade databases. ImportGenius covers countries for which they can get data - see the [pricing page](https://www.importgenius.com/pricing) (scroll down to '[Global trade data](https://www.importgenius.com/pricing)'). Note that journalists getting free access can email to request data for countries which they haven't yet added to their platform.
+ImportGenius is an online database of trade data (imports and exports) for countries including the US, Russia and India. [Data sources include](https://www.importgenius.com/how-it-works) government public records, customs agencies and trade databases. ImportGenius covers countries for which they can get data - see the [pricing page](https://www.importgenius.com/pricing) (scroll down to 'Global trade data'). Note that journalists getting free access can email to request data for countries which they haven't yet added to their platform.
 
 When logged in you can do custom searches:
 
@@ -23,13 +23,13 @@ In the search results, you can see details for a specific shipment by clicking o
 
 <figure><img src=".gitbook/assets/Screenshot 2025-08-26 at 11.24.15.png" alt=""><figcaption><p>Click the eye-shaped icon to see details for a specific shipment.</p></figcaption></figure>
 
-The [HS code](https://www.wcoomd.org/en/topics/nomenclature/overview/what-is-the-harmonized-system.aspx) is a standardised, multi-digit code that classifies traded products. The first six digits are used by [over 200 countries](https://www.maersk.com/logistics-explained/shipping-documentation/2023/08/27/what-are-hs-codes), but the subsequent ones are nationally defined. In the screenshot above, 300409 is for 'Pharmaceutical products, Other' (see the World Customs Organisation's [search](https://www.wcotradetools.org/en/harmonized-system)). ImportGenius covers different modes of transport for different countries, depending on what data they are able to source. In the picture above, the Indian port 'Delhi Air' means that the goods were airfreighted from New Delhi.
+The [HS code](https://www.wcoomd.org/en/topics/nomenclature/overview/what-is-the-harmonized-system.aspx) is a standardised, multi-digit code that classifies traded products. The first six digits are used by over 200 countries, but the subsequent ones are nationally defined. In the screenshot above, 300409 is for 'Pharmaceutical products, Other' (see the World Customs Organisation's [search](https://www.wcotradetools.org/en/harmonized-system)). ImportGenius covers different modes of transport for different countries, depending on what data they are able to source. In the picture above, the Indian port 'Delhi Air' means that the goods were airfreighted from New Delhi.
 
 ImportGenius has a 'Visual Mapping' view that gives you a knowledge graph of shipments for importers and exporters:
 
 <figure><img src=".gitbook/assets/Screenshot 2025-08-27 at 08.57.54.png" alt=""><figcaption><p>Knowledge graph for an exporter (blue) showing all importers who received their products for a given period</p></figcaption></figure>
 
-The network diagram allows you to explore relationships between trading entities. In the diagram above, you can see the other companies to which the exporter (in blue) provided shipments.
+The network diagram allows you to explore relationships between trading entities. In the diagram above, you can see the other people and companies to which the exporter (in blue) provided shipments.
 
 You can export search results, save searches so it's easy to repeat them, and get email alerts when new shipments matching your search criteria clear Customs.
 
