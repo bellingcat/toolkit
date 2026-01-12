@@ -59,7 +59,7 @@ Read the guide on the FaceCheck.ID [website](https://facecheck.id/Face-Search-Ef
 
 ## Tool provider
 
-The FaceCheck.ID website states it was created by Tech Solutions - Belize.
+The FaceCheck.ID website states that it was created by Tech Solutions - Belize.
 
 ## Advertising Trackers
 
