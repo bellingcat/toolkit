@@ -30,6 +30,12 @@ Some court documents contain descriptions of violent crimes that may be disturbi
 
 **Civil** cases are legal disputes between two or more parties about things like contracts, property, money, injuries, or civil rights. In a civil case, the person bringing the case (the plaintiff) sues the other side (the defendant) asking for money damages and/or a court order requiring someone to do something or stop doing something.&#x20;
 
+Learn more:
+
+* _American Bar Association:_ ["How Courts Work"](https://www.americanbar.org/groups/public_education/resources/law_related_education_network/how_courts_work/cases/)
+* _FindLaw:_ ["The Differences Between a Criminal Case and a Civil Case"](https://www.findlaw.com/criminal/criminal-law-basics/the-differences-between-a-criminal-case-and-a-civil-case.html)
+* _UW School of Law:_ ["How do Criminal and Civil Cases Differ?"](https://www.law.uw.edu/news-events/news/2025/how-do-criminal-and-civil-cases-differ)
+
 </details>
 
 State databases will let you conduct a search using your choice of search variables. Below are examples of information you can use as a starting point to search court cases in Pennsylvania (left) and North Dakota (right).
