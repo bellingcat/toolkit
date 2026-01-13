@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-25'
+updated: '2026-01-12'
 description: >-
   This tool allows you to search for the current registration data of internet
   domain names.

@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-28'
+updated: '2026-01-12'
 description: Wikipedia list of official business registers around the world.
 ---
 

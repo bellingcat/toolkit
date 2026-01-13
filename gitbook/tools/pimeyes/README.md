@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-31'
+updated: '2026-01-12'
 description: An AI-powered facial recognition reverse image search tool.
 ---
 

@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-22'
+updated: '2026-01-12'
 description: >-
   Connects the dots between influential / wealthy individuals in (mostly US)
   politics and business.
