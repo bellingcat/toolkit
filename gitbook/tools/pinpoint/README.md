@@ -18,11 +18,15 @@ Pinpoint is a research tool designed to assist journalists and academics in exam
 
 Users can store up to [200,000 documents ](https://support.google.com/pinpoint/answer/11955480?hl=en-IN#upload_documents)in each collection, extract text from handwritten documents or non-searchable pdfs to make them searchable, query text from images, transcribe audio recordings and search for identifiers in image collections.
 
+It is possible to upload audio files up to 2 hours long, which can be transcribed in txt files in 15 languages.
+
 Its ["extract structured data"](https://support.google.com/pinpoint/answer/13012346?hl=en) (in beta) function allows you to convert similarly structured documents into a csv or spreadsheet which can be exported to Excel, Google Sheets or a database.
 
 For example, using Pinpoint, you can search for mentions of keywords like "abuse" or "violence" in [Washington Post's public collection of COVID-19 Nursing Home Inspections](https://journaliststudio.google.com/pinpoint/search?collection=989c939c11b20432). Named entities inside the documents as persons, organisations and locations are recognised automatically and can be used as filters.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-11-12 at 1.51.56 PM.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ## Cost
 
@@ -50,9 +54,11 @@ Exercise caution and/or check with your parent organization before uploading sen
 
 According to [Pinpoint Additional Terms of Service](https://support.google.com/pinpoint/answer/13071911?hl=en), "if you upload content to Pinpoint, you give Google permission to use that content, including to operate and promote Pinpoint, in accordance with the [Google Terms of Service](https://policies.google.com/terms) and Google’s Privacy Policy."
 
-Google does also [state](https://support.google.com/pinpoint/answer/14338615?hl=en) that the uploaded documents are private by default - unless actively published - and will not be used for training Large Language Models (LLMs).
+Google does also [state](https://support.google.com/pinpoint/answer/14338615?hl=en) that the uploaded documents are private by default - unless actively published - and will not be used for training Large Language Models (LLMs). However, all uploaded files are copied to google's servers and processed by Gemini.&#x20;
 
 Keep in mind that Pinpoint's generative AI features are currently only available in a [list of countries](https://support.google.com/pinpoint/answer/14338615?hl=en#support_countries).
+
+<figure><img src=".gitbook/assets/unknown.png" alt=""><figcaption><p>Be aware that alll uploaded files are copied and processed with Gemini. </p></figcaption></figure>
 
 ## Guides and articles
 
