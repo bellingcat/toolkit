@@ -1,6 +1,6 @@
 ---
-updated: '2025-10-27'
-description: Search US customs inbound sea shipment records, find company suppliers.
+updated: '2026-01-13'
+description: 'Search US customs inbound sea shipment records, find company suppliers.'
 ---
 
 # ImportYeti
