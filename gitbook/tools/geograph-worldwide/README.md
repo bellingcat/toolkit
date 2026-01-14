@@ -68,9 +68,9 @@ Geograph like any other geolocation tool, presents several ethical consideration
 
 [https://www.geograph.org.uk/content/documentation.php](https://www.geograph.org.uk/content/documentation.php)
 
+**GitHub:**<br>
 
-
-[**https://github.com/geograph-project/**](https://github.com/geograph-project/)
+* [https://github.com/geograph-project/](https://github.com/geograph-project/)
 
 **Video**
 
@@ -92,7 +92,7 @@ It is a not-for-profit company, limited by guarantee, whose objects are educatio
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| Paul - Bellingcat Volunteer Community reviewed Sophie Tedling. |
-|                                                                |
+| Page maintainer                                                                   |
+| --------------------------------------------------------------------------------- |
+| Paul - Bellingcat Volunteer Community reviewed Sophie Tedling, Riccardo Giannardi |
+|                                                                                   |
