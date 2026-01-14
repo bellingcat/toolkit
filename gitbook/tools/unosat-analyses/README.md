@@ -1,8 +1,8 @@
 ---
+updated: '2025-10-12'
 description: >-
   UNOSAT Analyses is a tool that maps humanitarian emergencies across the globe
   utilising United Nations Satellite Centre data.
-updated: '2025-10-12'
 ---
 
 # UNOSAT Analyses
@@ -38,7 +38,7 @@ Each activation may also provides the data as one or more of the following:
 
 ## Requirements
 
-None.
+None
 
 ## Limitations
 
@@ -46,7 +46,7 @@ Events can be filtered by date as far back as July 2003, and as recently as pres
 
 ## Ethical Considerations
 
-None.
+None
 
 ## Guides and articles
 
@@ -55,8 +55,6 @@ UNOSAT Analyses has been used in various publications and investigations, such a
 * [A New Tool Allows Researchers to Track Damage in Gaza ](https://www.bellingcat.com/resources/2023/11/15/a-new-tool-allows-researchers-to-track-damage-in-gaza/)by Ollie Ballinger, for Bellingcat
 * [Data from satellites reveal the vast extent of fighting in Ukraine](https://www.economist.com/interactive/briefing/2023/02/23/data-from-satellites-reveal-the-vast-extent-of-fighting-in-ukraine) by _The Economist_
 * [UNOSAT helps keep track of IDPs amid South Sudan clashes](https://reliefweb.int/report/south-sudan-republic/unosat-helps-keep-track-idps-amid-south-sudan-clashes) by ReliefWeb
-
-
 
 ## Tool provider
 
