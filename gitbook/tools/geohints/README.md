@@ -1,9 +1,9 @@
 ---
+updated: '2025-10-22'
 description: >-
   GeoHints is a website that provides information about things like traffic
   lights, utility poles, bollards etc. for different regions of the world to
   help geolocate a location.
-updated: '2025-10-22'
 ---
 
 # GeoHints
@@ -14,21 +14,19 @@ updated: '2025-10-22'
 
 ## Description
 
-Geohints provides example images of geographical entities from different countries around the world to help open source researchers identify what country an image may come from. &#x20;
+Geohints provides example images of geographical entities from different countries around the world to help open source researchers identify what country an image may come from.
 
-GeoHints shows pictures of things like license plates, post boxes, road signs, etc. from different countries or regions. Those pictures are often (but not always) taken from Google StreetView.&#x20;
+GeoHints shows pictures of things like license plates, post boxes, road signs, etc. from different countries or regions. Those pictures are often (but not always) taken from Google StreetView.
 
 Geohints was originally created for players of [https://www.geoguessr.com/](https://www.geoguessr.com/).
-
-
 
 **Features**
 
 * **Architecture**
 * **Bollards**
-* **Companies:** images of beers, petrol stations and post offices from different countries.&#x20;
+* **Companies:** images of beers, petrol stations and post offices from different countries.
 * **Camera Gens** - different Google camera gens Gen 1, Gen 2, Gen 3, Gen 4, Trekker
-* **Countries** - Google Street View country coverage.&#x20;
+* **Countries** - Google Street View country coverage.
 * **Currencies**
 * **Domains** url country domains
 * **Driving side**
@@ -83,7 +81,7 @@ GeoHints, like any other geolocation tool, presents several ethical consideratio
 
 To effectively use Geohints, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
 
-**Official Wiki**&#x20;
+**Official Wiki**
 
 * [https://geohints.com/FAQ](https://geohints.com/faq)
 
@@ -91,7 +89,7 @@ To effectively use Geohints, especially for beginners or those looking to refine
 
 * _Beginner’s Guide to Geoguessr 3_ (no date) _Plonk It_. Available at: [https://www.plonkit.net/beginners-guide-3](https://www.plonkit.net/beginners-guide-3) (Accessed: 13 June 2024).
 
-**Video**&#x20;
+**Video**
 
 * _Twitch_ (no date) _Twitch_. Available at: [https://www.twitch.tv/geohints](https://www.twitch.tv/geohints) (Accessed: 13 June 2024).
 * _What is the Best Way to Learn Geoguessr in 2023?_ (2023). Available at: [https://www.youtube.com/watch?v=j-PidoFqZFY](https://www.youtube.com/watch?v=j-PidoFqZFY) (Accessed: 13 June 2024).
@@ -104,11 +102,11 @@ To effectively use Geohints, especially for beginners or those looking to refine
 
 Not clear
 
-_Research & website: MouseWithBeer_&#x20;
+_Research & website: MouseWithBeer_
 
-_Graphical work & research: PV\_93_&#x20;
+_Graphical work & research: PV\_93_
 
-_United States part of Geohints: Oddtom_&#x20;
+_United States part of Geohints: Oddtom_
 
 _Interactive maps: Sören_
 
@@ -118,7 +116,7 @@ _Interactive maps: Sören_
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| Paul - Bellingcat Volunteer Community. Review: Sophie Tedling. |
-|                                                                |
+| Page maintainer                                                                    |
+| ---------------------------------------------------------------------------------- |
+| Paul - Bellingcat Volunteer Community. Review: Sophie Tedling, Riccardo Giannardi. |
+|                                                                                    |
