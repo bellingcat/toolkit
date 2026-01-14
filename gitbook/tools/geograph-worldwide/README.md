@@ -43,8 +43,6 @@ Geograph is an invaluable resource for anyone interested in the geographical and
 * Web: any modern web browser.
 * contributing photos - email address to set up an account
 
-
-
 ## Limitations
 
 Geograph has the following limitations:
@@ -62,13 +60,11 @@ Geograph like any other geolocation tool, presents several ethical consideration
 
 ## Guides and articles
 
-
-
 **Official Wiki**
 
 [https://www.geograph.org.uk/content/documentation.php](https://www.geograph.org.uk/content/documentation.php)
 
-**GitHub:**<br>
+**GitHub:**
 
 * [https://github.com/geograph-project/](https://github.com/geograph-project/)
 
