@@ -12,23 +12,7 @@ description: >-
 
 ## Description
 
-Geograph is a community project concept and [open source code](https://www.geograph.org.uk/article/Geograph-for-Developers) for an online website to create a comprehensive collection of photographs capturing every part of a given region.
-
-Currently there are three [active projects](https://www.geograph.org/projects.php), built on the Geograph Concept of collecting photos by 1km grid square.
-
-Britain and Ireland, Germany and the Channel Islands.
-
-
-
-
-
-## Description
-
-Geograph is a project that aims to collect geographically representative photographs and information for every square kilometer of the British Isles. The site provides a comprehensive and searchable collection of images, allowing users to explore different locations through visual documentation. It solves the problem of geographically contextualizing locations with real photographic evidence.
-
-Example use case: A geography teacher can use Geograph to show students real pictures of various landscapes across the British Isles, enhancing their understanding of geographical diversity.
-
-
+Geograph is a community project concept and open [source code](https://www.geograph.org.uk/article/Geograph-for-Developers) for an online website designed to create a comprehensive and searchable collection of photographs that capture every part of a given region. Built around the idea of collecting geographically representative images by 1km grid square, it aims to document locations with real photographic evidence and contextual information. Currently, there are three [active projects](https://www.geograph.org/projects.php) based on the Geograph concept: Britain and Ireland, Germany, and the Channel Islands. The platform solves the problem of exploring and understanding places through accurate, location-based visual documentation. Example use case: a geography teacher can use Geograph to show students real pictures of different landscapes across the British Isles, helping them better understand geographical diversity and variation.
 
 ## Additional Features
 
@@ -92,11 +76,9 @@ Geograph like any other geolocation tool, presents several ethical consideration
 
 * _Geograph Britain and Ireland - Intro_ (2024). Available at: [https://www.youtube.com/watch?v=Y6QNJDEQ58Y](https://www.youtube.com/watch?v=Y6QNJDEQ58Y) (Accessed: 8 September 2024).
 
+**Contacts:**&#x20;
 
-
-
-
-[https://www.geograph.org.uk/contact.php](https://www.geograph.org.uk/contact.php)
+* [https://www.geograph.org.uk/contact.php](https://www.geograph.org.uk/contact.php)
 
 ## Tool provider
 
