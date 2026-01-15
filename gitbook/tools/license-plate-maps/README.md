@@ -62,4 +62,4 @@ All of the above websites are created and maintained by license plate hobbyists 
 
 | Page maintainer |
 | --------------- |
-| LPetrova        |
+| LPetrova;       |
