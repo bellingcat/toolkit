@@ -1,8 +1,8 @@
 ---
+updated: '2025-08-31'
 description: >-
   Chrome extension switches  between online map apps, maintaining (as far as
   possible) the map centre, zoom level, & directions of the source map.
-updated: '2025-08-31'
 ---
 
 # MapSwitcher
@@ -90,5 +90,5 @@ GitHub user and developer details: [https://github.com/david-r-edgar/MapSwitcher
 
 | Page maintainer: |
 | ---------------- |
-| Sophie Tedling:  |
+| Sophie Tedling;  |
 |                  |
