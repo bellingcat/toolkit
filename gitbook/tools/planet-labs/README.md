@@ -1,8 +1,8 @@
 ---
+updated: '2025-09-24'
 description: >-
   Planet Labs PBC is an American optical satellite imagery company that sells
   access to imagery.
-updated: '2025-09-24'
 ---
 
 # Planet Labs
@@ -65,7 +65,7 @@ Planet, U.S.
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Logan Williams  |
-|                 |
+| Page maintainer                          |
+| ---------------------------------------- |
+| Logan Williams, Reviewer Sophie Tedling; |
+|                                          |
