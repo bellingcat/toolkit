@@ -16,7 +16,7 @@ description: >-
 
 <figure><img src=".gitbook/assets/Screenshot (1).JPG" alt=""><figcaption><p><strong>THE SHADOW &#x26; OBJECT MEASURED CAN ONLY LIE SOMEWHERE ON THE BRIGHT CIRCLE .</strong></p></figcaption></figure>
 
-Enter shadow length and object height, (or, instead, [the angle of elevation of the sun](#user-content-fn-1)[^1]) for a research source image, then also the date and time of the image, and see the potential locations at which such a shadow could be created for that point in time as the bright area (circle) on the world map.
+Enter shadow length and object height, (or, instead, the angle of elevation of the sun) for a research source image, then also the date and time of the image, and see the potential locations at which such a shadow could be created for that point in time as the bright area (circle) on the world map.
 
 * The bright yellow area of the circle marks all the locations which perfectly match your input information.
 * The purple areas of the circle mark locations within a 20% error band (included because your input information may not be perfectly measured).
@@ -32,7 +32,7 @@ Shadow Finder is an open source tool which can be found on GitHub. It requires u
 {% endhint %}
 
 {% hint style="danger" %}
-Shadow Finder needs the date and time of the source image containing the shadow to be able to generate potential locations. This is not always available, particularly as social media sites usually remove this type of metadata (called [EXIF data](#user-content-fn-2)[^2]) before allowing an image to be posted. Researchers also need to be aware that the time and date an image is posted online is not often the same as when it was taken. HOWEVER Shadow Finder may still be useful as a "What If?" tool to exclude potential locations.
+Shadow Finder needs the date and time of the source image containing the shadow to be able to generate potential locations. This is not always available, particularly as social media sites usually remove this type of metadata (called [EXIF data](#user-content-fn-1)[^1]) before allowing an image to be posted. Researchers also need to be aware that the time and date an image is posted online is not often the same as when it was taken. HOWEVER Shadow Finder may still be useful as a "What If?" tool to exclude potential locations.
 {% endhint %}
 
 <details>
@@ -63,7 +63,7 @@ b. the elevation angle of the sun in degrees
 
 <img src=".gitbook/assets/SUNCALCTRAILSscjpg.jpg" alt="" data-size="original">
 
-6. and then enter the date[^3], time[^4] (and [time zone](https://en.wikipedia.org/wiki/Time_zone) you are using):
+6. and then enter the date[^2], time[^3] (and [time zone](https://en.wikipedia.org/wiki/Time_zone) you are using):
 
 <img src=".gitbook/assets/dateandtime.JPG" alt="" data-size="original">
 
@@ -71,11 +71,11 @@ b. the elevation angle of the sun in degrees
 
 <img src=".gitbook/assets/image (2) (1).png" alt="" data-size="original">
 
-8. If you get this warning message, click the "Run anyway" button if you're happy that [the code isn't abusing your privacy](#user-content-fn-5)[^5].
+8. If you get this warning message, click the "Run anyway" button if you're happy that [the code isn't abusing your privacy](#user-content-fn-4)[^4].
 
 <img src=".gitbook/assets/Warning message.JPG" alt="" data-size="original">
 
-9. Be aware that the code may not always run instantaneously and could 'queue' for a brief time. The elapsed run time will be shown whilst executing the code and the total time taken displayed upon completion next to the Run arrow button. The output takes the form of a world map (see top of page) showing all possible points satisfying the input conditions on date, time, object height and shadow length (the circular locus[^6]).
+9. Be aware that the code may not always run instantaneously and could 'queue' for a brief time. The elapsed run time will be shown whilst executing the code and the total time taken displayed upon completion next to the Run arrow button. The output takes the form of a world map (see top of page) showing all possible points satisfying the input conditions on date, time, object height and shadow length (the circular locus[^5]).
 10. Change the input values at will and re-run as required.
 
 </details>
@@ -201,22 +201,18 @@ Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling.   |
+| Sophie Tedling;   |
 |                   |
 
+[^1]: EXIF data can contain non-visual information about an image, e.g. type of camera and lens, date and time the image was taken, location at which it was taken,...
 
+[^2]: Date format "dd/mm/yyyy"
 
-[^1]: 
+[^3]: Time format "hh:mm:ss"
 
-[^2]: EXIF data can contain non-visual information about an image, e.g. type of camera and lens, date and time the image was taken, location at which it was taken,...
+[^4]: You can view the code by clicking on "Show code" in blue at the bottom of the section under "time type:"
 
-[^3]: Date format "dd/mm/yyyy"
-
-[^4]: Time format "hh:mm:ss"
-
-[^5]: You can view the code by clicking on "Show code" in blue at the bottom of the section under "time type:"
-
-[^6]: **Definitions**
+[^5]: **Definitions**
 
     from The American Heritage® Dictionary of the English Language, 5th Edition.
 
