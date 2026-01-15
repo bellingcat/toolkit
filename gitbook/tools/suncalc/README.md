@@ -226,7 +226,7 @@ Satellite orbit tracking at [https://www.orbtrack.org/](https://www.orbtrack.org
 
 ## Tool provider
 
-Torsten Hoffmann, Germany
+Torsten Hoffmann, [Hoffisoft](https://www.torsten-hoffmann.de/web.html), Germany
 
 ## Advertising Trackers
 
@@ -242,5 +242,5 @@ In 2025, SunCalc began to use detectable cookies, and therefore added a user cho
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling.   |
+| Sophie Tedling;   |
 |                   |
