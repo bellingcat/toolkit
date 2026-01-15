@@ -4,7 +4,7 @@ description: >-
   several free satellite imagery and mapping services.
 ---
 
-# satellites.pro
+# Satellites.pro
 
 ## URL
 
@@ -51,6 +51,7 @@ satellites.pro has the following limitations that researchers should consider:
 
 * **Data Accuracy and Currency**: Data may not always be up to date, leading to potential discrepancies with current conditions. Users should verify important information through other sources. For Apple, Google and Open Street Map see the toolkit entries for the associated maps. [Yandex Maps Editor Support](https://yandex.com/support/mapeditor/sputnik.html) says Yandex imagery is updated irregularly but does not specify how often imagery is updated.
 * **Resolution and Detail**: Image resolution varies across different regions and services, with some areas having detailed imagery and others being less clear. Again, see [Apple Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/apple-maps), [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps) and Open Street Map toolkit entries for more details. [Yandex Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps) does not provide further information on this.   &#x20;
+* There are ads present in various areas of the screen, and the site may ask the user to watch an ad in order to gain full access for 24 hours.<br>
 
 ## Ethical Considerations
 
