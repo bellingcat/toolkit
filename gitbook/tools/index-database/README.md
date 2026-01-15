@@ -47,11 +47,11 @@ Verena Henricht and Ktharina Brüser, Institue of Crop Science and Resource Cons
 ## Advertising Trackers
 
 * [ ] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [x] This tool does not appear to use tracking cookies.
+* [x] This tool uses tracking cookies. Use with caution.
+* [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Agnes Cameron   |
-|                 |
+| Page maintainer                        |
+| -------------------------------------- |
+| Agnes Cameron, Reviewer Sophie Tedling |
+|                                        |
 
