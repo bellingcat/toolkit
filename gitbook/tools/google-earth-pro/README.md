@@ -187,11 +187,11 @@ You can insert satellite imagery from other sources into Google Earth Pro. That 
 While Google Earth is a powerful tool, it does have some limitations that researchers should keep in mind:
 
 * **Availability of up to date satellite imagery:** While Google Earth Pro offers satellite imagery for free, it is [not always very recent](https://support.google.com/earth/community-guide/259934888/google-earth-imagery-updates?hl=en) and it depends on the location how often it is updated. Open source researchers who need both up to date and high resolution imagery will need to use another satellite imagery provider.
-* **Data Accuracy and Currency**: Data in Google Earth [may not always be up to date](https://support.google.com/earth/community-guide/259934888/google-earth-imagery-updates?hl=en), leading to potential discrepancies with current conditions. Users should verify important information through other sources.&#x20;
+* **Data Accuracy and Currency**: Data in Google Earth [may not always be up to date](https://support.google.com/earth/community-guide/259934888/google-earth-imagery-updates?hl=en), leading to potential discrepancies with current conditions. Users should verify important information through other sources.
 * **Resolution and Detail**: Image resolution varies across different regions, with some areas having detailed imagery and others being less clear. See [Spatial resolution of Google Earth Imagery](https://gis.stackexchange.com/questions/11395/spatial-resolution-of-google-earth-imagery).
 * **3D Modeling**: While Google Earth provides 3D models of some cities, not all geographical areas have detailed 3D representations. See [List of 3D Locations in Google Earth](https://list.fandom.com/wiki/List_of_3D_locations_in_Google_Earth).
 * **Data Privacy**: There are concerns regarding the exposure of sensitive locations, potentially compromising privacy and security so some areas are blurred out on Google Eart Pro. See Wikipedia's [List of satellite map images with missing or unclear data](https://en.wikipedia.org/wiki/List_of_satellite_map_images_with_missing_or_unclear_data).
-* **Performance**: High-quality imagery and 3D models can be resource-intensive, possibly affecting performance on less powerful computers or devices. Too many _My Places_ locations can for instance cause laggy performance.&#x20;
+* **Performance**: High-quality imagery and 3D models can be resource-intensive, possibly affecting performance on less powerful computers or devices. Too many _My Places_ locations can for instance cause laggy performance.
 * **Network Dependency**: Google Earth requires an internet connection for access to maps and imagery, limiting use in offline settings.
 
 ## Ethical Considerations
@@ -247,7 +247,7 @@ Google [https://about.google/](https://about.google/) - United States of America
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                    |
-| ---------------------------------- |
-| Bellingcat Volunteer Team/Clara D. |
-|                                    |
+| Page maintainer                                              |
+| ------------------------------------------------------------ |
+| Bellingcat Volunteer Team/Clara D., Reviewer Sophie Tedling; |
+|                                                              |
