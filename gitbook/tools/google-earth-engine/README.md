@@ -116,7 +116,7 @@ Google [https://about.google/](https://about.google/) - United States.
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat Volunteer Team |
-|                           |
+| Page maintainer                                     |
+| --------------------------------------------------- |
+| Bellingcat Volunteer Team, Reviewed Sophie Tedling; |
+|                                                     |
