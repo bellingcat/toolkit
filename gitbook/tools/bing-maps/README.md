@@ -14,9 +14,9 @@ description: >-
 
 ## Description
 
-Bing Maps is a web mapping service provided by Microsoft. It offers users access to detailed maps and driving directions, the tool serves various purposes, from helping users navigate from point A to B efficiently, to planning trips, and conducting geographical research.&#x20;
+Bing Maps is a web mapping service provided by Microsoft. It offers users access to detailed maps and driving directions, the tool serves various purposes, from helping users navigate from point A to B efficiently, to planning trips, and conducting geographical research.
 
-The imagery includes samples taken by satellite sensors, aerial cameras (including 45 degree oblique "bird's eye" aerial imagery licensed from [Pictometry International](https://en.wikipedia.org/wiki/Pictometry_International)), Streetside imagery, 3D city models and terrain.&#x20;
+The imagery includes samples taken by satellite sensors, aerial cameras, 3D city models and terrain.
 
 **Features:**
 
@@ -27,8 +27,7 @@ The imagery includes samples taken by satellite sensors, aerial cameras (includi
 * Developer support options available.
 *   Set of APIs available upon which developers can build applications.
 
-    \
-
+    \\
 
 Bing Maps is available in the following formats:
 
@@ -76,6 +75,7 @@ Developer API may incur costs depending on usage (see: [https://www.microsoft.co
 * **Developer API Limits**: There are daily rate limits on API calls, which may impact large-scale applications or services requiring high numbers of requests (see: [https://www.microsoft.com/en-us/maps/bing-maps/product/](https://www.microsoft.com/en-us/maps/bing-maps/product/)).
 * **Update Frequency**: The frequency of map updates for certain areas may not be as regular as some users require, potentially affecting the accuracy of the maps. See [How often are Bing satellite Maps ?](https://www.studycountry.com/wiki/how-often-are-bing-satellite-maps-updated) for more information.
 * **Feature Set**: Although Bing Maps offers a wide range of functionalities, it lacks features found in other mapping services, such as the more advanced analytical tools and detailed terrain information found in Google Earth Pro.
+* **Bird Eye and Streetside View:** As of January 2026, Bing Maps Bird’s Eye View and Streetside View are no longer available.
 
 ## Ethical Considerations
 
