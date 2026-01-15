@@ -11,13 +11,13 @@ description: >-
 
 [**https://firms2.modaps.eosdis.nasa.gov/map/**](https://firms2.modaps.eosdis.nasa.gov/map/)
 
-{% hint style="warning" %}
-**AT  2/10/25  THE RECENT LAPSE IN US FEDERAL GOVERNMENT FUNDING MEANS THAT THIS TOOL IS CURRENTLY TEMPORARILY SUBJECT TO**&#x20;
+{% hint style="info" %}
+**DURING PERIODIC LAPSES IN US FEDERAL GOVERNMENT FUNDING, THIS TOOL CAN BE TEMPORARILY SUBJECT TO**
 
 * SUSPENSION OF DATA UPDATES
 * UNAVAILABILITY OF SOME INFORMATION
 
-Much of the source data in NASA FIRMS from the Modis, Sentinel 2 and VIIRS services, so other portals based on the same services as NASA FIRMS will be similarly affected. Alternative data sources are being sought in the interim.
+Much of the source data in NASA FIRMS from the Modis, Sentinel 2 and VIIRS services, so other portals based on the same services as NASA FIRMS can be similarly affected. Alternative data sources should be sought during these periods.
 {% endhint %}
 
 <figure><img src=".gitbook/assets/FireMapsat.gif" alt=""><figcaption><p><strong>VIEWING DIFFERENT SATELLITES' DATA AND ADJUSTING THE TIME PERIOD DISPLAYED USING THE FIRMS INTERFACE</strong><br><em>We acknowledge the use of data and/or imagery from NASA's Fire Information for Resource Management System (FIRMS) (https://earthdata.nasa.gov/firms), part of NASA's Earth Science Data and Information System (ESDIS).</em></p></figcaption></figure>
@@ -135,7 +135,7 @@ There are a large number of user selection menus available to filter data, confi
 **FIRMS-Level Options on Map Selection, Resources, Tutorials, Archive Download.**\
 A section of NASA FIRMS information can be selected under the three horizontal bars icon on the top left side of the screen, which offers sections on:
 
-<figure><img src=".gitbook/assets/image (46).png" alt=""><figcaption><p><em><strong>(I</strong>magery from NASA FIRMS )</em></p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (44) (1).png" alt=""><figcaption><p><em><strong>(I</strong>magery from NASA FIRMS )</em></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="TOP RIGHT  MENU" %}
@@ -147,7 +147,7 @@ A display mode can be selected under the three horizontal bars icon on the right
 {% tab title="DATE SLIDER" %}
 The Date Slider appears across the bottom of the screen when the corresponding button is pressed on the Centre Floating Toolbar. It is used to select date ranges for display, in addition to the Buttons and Calendar Option on the Top Right Menu (shown below)
 
-<div><figure><img src=".gitbook/assets/TimeOptions.JPG" alt="" width="263"><figcaption><p><strong>TIME PERIOD BUTTONS AND CALENDAR OPTION</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/DATESLIDER.JPG" alt=""><figcaption><p><strong>TIME SLIDER FOR SELECTING DATE RANGES</strong></p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/TimeOptions.JPG" alt="" width="263"><figcaption><p><strong>TIME PERIOD BUTTONS AND CALENDAR OPTION</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/DATESLIDER (1).JPG" alt=""><figcaption><p><strong>TIME SLIDER FOR SELECTING DATE RANGES</strong></p></figcaption></figure></div>
 {% endtab %}
 
 {% tab title="CENTRE TOOLBAR" %}
@@ -157,7 +157,7 @@ NASA FIRMS floating toolbar (found Bottom Centre of the Screen) calls floating w
 
 **The Location Tool** accepts input as names, co-ordinates or auto-detected current user location.
 
-<figure><img src=".gitbook/assets/Location Selection (3).JPG" alt="" width="298"><figcaption><p><strong>NB MULTIPLE LOCATIONS CAN BE SELECTED SIMULTANEOUSLY</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/Location Selection (1).JPG" alt="" width="298"><figcaption><p><strong>NB MULTIPLE LOCATIONS CAN BE SELECTED SIMULTANEOUSLY</strong></p></figcaption></figure>
 
 The Layers Tool allows configuration of a selection of Overlays, as well as Backgrounds
 
@@ -249,7 +249,7 @@ NB Algorithms have been adapted to avoid the effects of sun glint causing false 
 
 ...Regular approximately monthly on-orbit mission calibration manoeuvres are conducted for both satellites to maintain performance. These involve briefly rolling the satellite over in orbit to view the moon, using it to calibrate the reflective solar bands of the sensor. Anomalous observation data is often collected as the satellite rolls back to point the sensor at the earth, see example:
 
-<img src=".gitbook/assets/image (21).png" alt="ANOMALOUS OBSERVATION DATA CAUSED BY MONTHLY CALIBRATION MANOUEVRES (COURESTY NASA FIRMS)" data-size="original">\
+<img src=".gitbook/assets/image (20) (1).png" alt="ANOMALOUS OBSERVATION DATA CAUSED BY MONTHLY CALIBRATION MANOUEVRES (COURESTY NASA FIRMS)" data-size="original">\
 \&#xNAN;_**(I**magery from NASA FIRMS )_
 
 </details>
@@ -295,4 +295,4 @@ NASA (North American Space Agency) via: Sentinel Hub and Copernicus Browser
 
 ***
 
-Sophie Tedling:
+Sophie Tedling;
