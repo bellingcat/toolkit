@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-12'
+updated: '2026-01-14'
 description: >-
   UNOSAT Analyses is a tool that maps humanitarian emergencies across the globe
   utilising United Nations Satellite Centre data.

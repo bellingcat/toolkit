@@ -2,7 +2,7 @@
 description: >-
   A username and domain search tool that checks on which platforms or domain a
   given username is registered.
-updated: '2025-10-12'
+updated: '2026-01-14'
 ---
 
 # Namechk
