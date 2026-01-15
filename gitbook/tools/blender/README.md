@@ -59,7 +59,7 @@ When considering the use of Blender, it's essential to address certain ethical c
 
 * **Open Source Contribution Ethics**: As an open-source tool, the ethics around contribution and use should be discussed. Users and developers should consider how they contribute back to the community, either through code, documentation, or financial support.
 * **Data Privacy**: The Blender software tool does not collect user data for improvement or analytics purposes. Only if you download and contribute to [https://opendata.blender.org/](https://opendata.blender.org/) do they do this. The Blender website collects minimal with no third party tracking user data detailed here: [https://www.blender.org/privacy-policy/](https://www.blender.org/privacy-policy/)
-* **Sustainability**: The environmental impact of running high-performance software like Blender, especially in terms of energy consumption during rendering processes, should be considered. Users and developers might look for ways to minimize this impact.
+* **Sustainability**: The environmental impact of running high-performance software like Blender, especially in terms of energy consumption during rendering processes, should be considered. Users and developers might look for ways to minimise this impact.
 
 ## Guide
 
@@ -71,11 +71,11 @@ To effectively use Blender, especially for beginners or those looking to refine 
 
 **Tutorials and Articles**
 
-* _Blender Guru_ (2022) _Blender Guru_. Available at: [https://www.blenderguru.com](https://www.blenderguru.com) (Accessed: 30 October 2025).
-* PremiumBeat (2021) _Complete Beginner’s Guide to Blender - PremiumBeat_, _The Beat: A Blog by PremiumBeat_. Available at: [https://www.premiumbeat.com/blog/blender-software-guide/](https://www.premiumbeat.com/blog/blender-software-guide/) (Accessed: 30 October 2025).
-* _Blender for Forensic Architecture - M2 Hospital Bombing in Aleppo_ (2017) _BlenderNation_. Available at: [https://www.blendernation.com/2017/02/25/blender-forensic-architecture-m2-hospital-aleppo/](https://www.blendernation.com/2017/02/25/blender-forensic-architecture-m2-hospital-aleppo/) (Accessed: 30 October).
-* Sheldon, M. (2023) _Anatomy of a Shelling: How Russian Rocket Artillery Struck Mykolaiv_, _bellingcat_. Available at: [https://www.bellingcat.com/news/2023/01/27/anatomy-of-a-shelling-how-russian-rocket-artillery-struck-mykolaiv/](https://www.bellingcat.com/news/2023/01/27/anatomy-of-a-shelling-how-russian-rocket-artillery-struck-mykolaiv/) (Accessed: 30 October 2025).
-* Gonzales, M.S., Giancarlo Fiorella, Jake Godin, Carlos (2024) _Russian Missile Identified in Kyiv Children’s Hospital Attack_, _bellingcat_. Available at: [https://www.bellingcat.com/news/2024/07/09/russian-missile-identified-in-kyiv-childrens-hospital-attack/](https://www.bellingcat.com/news/2024/07/09/russian-missile-identified-in-kyiv-childrens-hospital-attack/) (Accessed: 30 October 2025).
+* _Blender Guru_ (2022) _Blender Guru_. Available at: [https://www.blenderguru.com](https://www.blenderguru.com) (Accessed: 15 January 2026).
+* PremiumBeat (2021) _Complete Beginner’s Guide to Blender - PremiumBeat_, _The Beat: A Blog by PremiumBeat_. Available at: [https://www.premiumbeat.com/blog/blender-software-guide/](https://www.premiumbeat.com/blog/blender-software-guide/) (Accessed: 15 January 2026).
+* _Blender for Forensic Architecture - M2 Hospital Bombing in Aleppo_ (2017) _BlenderNation_. Available at: [https://www.blendernation.com/2017/02/25/blender-forensic-architecture-m2-hospital-aleppo/](https://www.blendernation.com/2017/02/25/blender-forensic-architecture-m2-hospital-aleppo/) (Accessed: 15 January 2026).
+* Sheldon, M. (2023) _Anatomy of a Shelling: How Russian Rocket Artillery Struck Mykolaiv_, _bellingcat_. Available at: [https://www.bellingcat.com/news/2023/01/27/anatomy-of-a-shelling-how-russian-rocket-artillery-struck-mykolaiv/](https://www.bellingcat.com/news/2023/01/27/anatomy-of-a-shelling-how-russian-rocket-artillery-struck-mykolaiv/) (Accessed: 15 January 2026).
+* Gonzales, M.S., Giancarlo Fiorella, Jake Godin, Carlos (2024) _Russian Missile Identified in Kyiv Children’s Hospital Attack_, _bellingcat_. Available at: [https://www.bellingcat.com/news/2024/07/09/russian-missile-identified-in-kyiv-childrens-hospital-attack/](https://www.bellingcat.com/news/2024/07/09/russian-missile-identified-in-kyiv-childrens-hospital-attack/) (Accessed: 15 January 2026).
 
 **Books**
 
@@ -84,12 +84,12 @@ To effectively use Blender, especially for beginners or those looking to refine 
 
 #### **Video Tutorials**
 
-* [**YouTube Official Blender Channel**](https://www.youtube.com/user/BlenderFoundation)**:** Official YouTube channel for Blender, the Free and Open Source 3D Creation Suite.
-* _Blender 4.0 Beginner Donut Tutorial (NEW) - YouTube_ (no date). Available at: [https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z](https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z) (Accessed: 30 October 2025).
-* _Modelling from a Photograph - Blender_ (2019). Available at: [https://www.youtube.com/watch?v=7DfSDCFgINE](https://www.youtube.com/watch?v=7DfSDCFgINE) (Accessed: 30 October 2025).
-* _Camera Matching in Blender – Forensic Architecture Investigative Toolkit 01_ (2023). Available at: [https://www.youtube.com/watch?v=MoEwL2fbtDM](https://www.youtube.com/watch?v=MoEwL2fbtDM) (Accessed: 30 October 2025).
-* _Camera Calibration - fSpy to Blender_ (2019). Available at: [https://www.youtube.com/watch?v=9ZPFuVQ\_MFQ](https://www.youtube.com/watch?v=9ZPFuVQ_MFQ) (Accessed: 30 October 2025).
-* _Perfect Photo and Camera Match with fSpy and Blender_ (2018). Available at: [https://www.youtube.com/watch?v=VRgqMvy16IU](https://www.youtube.com/watch?v=VRgqMvy16IU) (Accessed: 30 October 2025).
+* [**YouTube Official Blender Channel**](https://www.youtube.com/user/BlenderFoundation)**:** Official YouTube channel for Blender, the Free and Open Source 3D Creation Suite. (Accessed: 15 January 2026)
+* _Blender 4.0 Beginner Donut Tutorial (NEW) - YouTube_ (no date). Available at: [https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z](https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z) (Accessed: 15 January 2026).
+* _Modelling from a Photograph - Blender_ (2019). Available at: [https://www.youtube.com/watch?v=7DfSDCFgINE](https://www.youtube.com/watch?v=7DfSDCFgINE) (Accessed: 15 January 2026).
+* _Camera Matching in Blender – Forensic Architecture Investigative Toolkit 01_ (2023). Available at: [https://www.youtube.com/watch?v=MoEwL2fbtDM](https://www.youtube.com/watch?v=MoEwL2fbtDM) (Accessed: 15 January 2026).
+* _Camera Calibration - fSpy to Blender_ (2019). Available at: [https://www.youtube.com/watch?v=9ZPFuVQ\_MFQ](https://www.youtube.com/watch?v=9ZPFuVQ_MFQ) (Accessed: 15 January 2026).
+* _Perfect Photo and Camera Match with fSpy and Blender_ (2018). Available at: [https://www.youtube.com/watch?v=VRgqMvy16IU](https://www.youtube.com/watch?v=VRgqMvy16IU) (Accessed: 15 January 2026).
 
 #### Developer Resources
 
