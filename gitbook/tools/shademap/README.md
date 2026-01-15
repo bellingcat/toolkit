@@ -229,7 +229,7 @@ If this data is available in a given region, an Add Trees button will appear whe
 {% endembed %}
 
 {% hint style="success" %}
-Purchased data costs can be controlled because users are offered data only for the area in which they are interested, charged per square kilometre (USD $2.49 as at August 2024).
+Purchased data costs can be controlled because users are offered data only for the area in which they are interested, charged per square kilometre (USD $3.99 as at Jamuary 2026).
 {% endhint %}
 
 {% embed url="https://youtu.be/Q6tc4k6l-_k" %}
@@ -328,5 +328,5 @@ ShadeMap, US
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling.   |
+| Sophie Tedling;   |
 |                   |
