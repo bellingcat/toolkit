@@ -1,9 +1,9 @@
 ---
+updated: '2025-08-31'
 description: >-
   Predicts & describes the position & path of >10K satellites in Earth orbit,
   relative to points on the earth's surface input by the user, for 5 days ahead,
   + International Space Station video feed.
-updated: '2025-08-31'
 ---
 
 # OrbTrack
@@ -144,11 +144,11 @@ Torsten Hoffman (Germany) with satellite data from Dr T. S. Kelso via [www.celes
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer: |
 | ---------------- |
-| Sophie Tedling:  |
+| Sophie Tedling;  |
 |                  |
