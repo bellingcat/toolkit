@@ -157,9 +157,9 @@ NB Yandex was sold in 2024, so observers are checking to see if this affects dat
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-The author's own checks in May 2025 showed Yandex using trackers.
+The author's own checks in January 2026 showed Yandex using trackers.
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling:   |
+| Sophie Tedling;   |
 |                   |
