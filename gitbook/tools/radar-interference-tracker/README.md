@@ -102,7 +102,7 @@ To effectively use the Radar Interference Tracker, especially for beginners or t
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat Volunteer Team/Unassigned |
-|                                      |
+| Page maintainer                                               |
+| ------------------------------------------------------------- |
+| Bellingcat Volunteer Team/Unassigned. Reviewer Sophie Tedling |
+|                                                               |
