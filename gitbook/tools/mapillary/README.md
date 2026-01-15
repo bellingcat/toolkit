@@ -1,6 +1,6 @@
 ---
-description: Mapillary is a crowdsourced street-level imagery platform.
 updated: '2025-12-04'
+description: Mapillary is a crowdsourced street-level imagery platform.
 ---
 
 # Mapillary
@@ -21,9 +21,7 @@ Available in the following formats:
 * Mobile
 * Command line and desktop image uploaders are also available
 
-
-
-<figure><img src=".gitbook/assets/Screenshot 2024-04-06 at 1.25.01 PM.png" alt="Screenshot of a search for street level imagery in Amsterdam with Mapillary shows a map with individual markers as dots on the map where street level imagery exists.."><figcaption><p>Screenshot of a search for street level imagery in <em>Amsterdam with</em> Mapillary </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-04-06 at 1.25.01 PM.png" alt="Screenshot of a search for street level imagery in Amsterdam with Mapillary shows a map with individual markers as dots on the map where street level imagery exists.."><figcaption><p>Screenshot of a search for street level imagery in <em>Amsterdam with</em> Mapillary</p></figcaption></figure>
 
 ### **Example Use Cases**
 
@@ -65,7 +63,7 @@ Mapillary, while providing an extensive database of street-level imagery, carrie
 When embedding or using data from Mapillary, several ethical considerations should be taken into account:
 
 * **Privacy Concerns**: Images on Mapillary may include individuals or property inadvertently, despite efforts to blur faces and license plates. Consider the impact of sharing such images especially in sensitive or private areas.
-* **Data Usage**: Understand and respect the terms of use set by Mapillary regarding how their data can be used, especially for commercial purposes. Misusing the data could have legal and ethical implications,  see [Mapillary Vistas Dataset](https://www.mapillary.com/dataset/vistas) and the [Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+* **Data Usage**: Understand and respect the terms of use set by Mapillary regarding how their data can be used, especially for commercial purposes. Misusing the data could have legal and ethical implications, see [Mapillary Vistas Dataset](https://www.mapillary.com/dataset/vistas) and the [Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 * **Bias in Data**: Acknowledge any potential bias in the geographic coverage and content of the images. Some areas may be over-represented while others are under-represented, which could affect the fairness and inclusivity of projects using Mapillary data. For a general overview of bias in crowd sourced applications like Mapillary see [Crowdsourced geospatial data quality: challenges and future directions](https://www.tandfonline.com/doi/full/10.1080/13658816.2019.1593422).
 
 It's important to weigh these considerations carefully and engage in best practices to mitigate any potential harm.
@@ -97,11 +95,10 @@ Meta [https://about.meta.com/](https://about.meta.com/) - United States (Mapilla
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Arsen Drobakha  |
-
+| Page maintainer                         |
+| --------------------------------------- |
+| Arsen Drobakha. Reviewer Sophie Tedling |
