@@ -17,7 +17,7 @@ You can configurate the results based on your preferences. For example, you can 
 
 Let's say you are looking for China imports of species for medical purposes from 2000 to 2024. You will then get a detailed table with over 100 results that gives you species information, importer and exporter data, reported quantity, purpose, source, among other findings.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-01-16 at 4.00.56 PM.png" alt=""><figcaption><p>This is part of the table I obtained after searching for species imports from China with medical purposes.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-01-16 at 4.00.56 PM.png" alt=""><figcaption><p>This is part of the table I obtained after searching for China's species imports with medical purposes.</p></figcaption></figure>
 
 The tool allows you to bulk download the whole database. With a relatively fast internet connection (145.9 Mbps download and 9.92 Mbps upload when I tried) you can get it in under 2 minutes. It is divided into csv archives.
 
