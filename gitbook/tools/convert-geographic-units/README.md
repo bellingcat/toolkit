@@ -65,9 +65,9 @@ Montana State University [https://www.montana.edu/](https://www.montana.edu/) - 
 ## Advertising Trackers
 
 * [ ] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [x] This tool does not appear to use tracking cookies.
+* [x] This tool uses tracking cookies. Use with caution.
+* [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Freya           |
+| Page maintainer                 |
+| ------------------------------- |
+| Freya. Reviewer Sophie Tedling; |
