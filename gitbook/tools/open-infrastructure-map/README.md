@@ -99,7 +99,7 @@ Using the nighttime lights feature: [https://mapyourgrid.org/tools/](https://map
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Sophie./Sarah.  |
-|                 |
+| Page maintainer       |
+| --------------------- |
+| Sophie Tedling/Sarah. |
+|                       |
