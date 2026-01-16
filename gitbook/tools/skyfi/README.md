@@ -1,8 +1,8 @@
 ---
+updated: '2025-09-24'
 description: >-
   SkyFi is used to purchase commercial satellite imagery and task (order the
   collection of images) satellites without a subscription.
-updated: '2025-09-24'
 ---
 
 # SkyFi
@@ -64,7 +64,7 @@ Taskings are generally not exclusive and other people will be able to order the 
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                |
-| ------------------------------ |
-| Logan Williams/Bellingcat Team |
-|                                |
+| Page maintainer                                         |
+| ------------------------------------------------------- |
+| Logan Williams/Bellingcat Team. Reviewer Sophie Tedling |
+|                                                         |
