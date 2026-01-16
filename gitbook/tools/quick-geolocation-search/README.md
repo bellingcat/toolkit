@@ -61,11 +61,11 @@ Cyber Detective: X profile [here](https://x.com/cyb_detective). Website: [https:
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Anisa Shabir    |
-|                 |
+| Page maintainer                        |
+| -------------------------------------- |
+| Anisa Shabir. Reviewer Sophie Tedling; |
+|                                        |
