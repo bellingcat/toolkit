@@ -57,6 +57,8 @@ As mentioned under [limitations](./#limitations), researchers using Equasis shou
 
 ## Guides and articles
 
+Equasis features in this general tutorial by the [Pulitzer Center](https://pulitzercenter.org/) ‘How to track ships like a pro using OSINT’, [Part I](https://pulitzercenter.org/resource/how-track-ships-pro-using-osint-part-i) and [Part II](https://pulitzercenter.org/resource/how-track-ships-pro-using-osint-part-ii).
+
 In 2016 Forbes used Equasis to show there were "[nearly 100 safety flaws with Mauritius oil spill ship Wakashio.](https://www.forbes.com/sites/nishandegnarain/2020/11/25/96-safety-flaws-with-mauritius-oil-spill-ship-wakashio-identified-by-eu-database/)"
 
 Bellingcat has previously used Equasis as part of investigations into [Russian grain smuggling](https://www.bellingcat.com/news/2024/04/23/from-crimea-to-iran-two-more-ships-join-russias-grain-smuggling-fleet/), an [oil spill in Tobago](https://www.bellingcat.com/news/2024/02/14/identifying-the-mystery-vessel-at-the-site-of-trinidad-tobagos-national-emergency-oil-spill/), and a [superyacht that Equatorial Guinea’s Vice President claimed was a military vessel](https://www.bellingcat.com/news/2023/11/02/public-holidays-equatorial-guineas-vice-president-insists-superyacht-in-italian-vacation-hotspots-is-a-military-vessel/).
@@ -70,8 +72,3 @@ Equasis is a non-profit organization founded by the European Commission and the 
 * [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
-
-| Page maintainer                    |
-| ---------------------------------- |
-| Thomas - Bellingcat Volunteer Team |
-|                                    |
