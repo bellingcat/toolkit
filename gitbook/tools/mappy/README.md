@@ -42,7 +42,7 @@ Mappy describes itself as "100% made in France which respects privacy." &#x20;
 
 ## Guide
 
-[\[\[Link to a guide on this tool\]\]](https://www.manua.ls/mappy/iti-s449/manual)
+[https://faq.mappy.com/#at\_medium=self\_promotion\&at\_campaign=faq\_web](https://faq.mappy.com/#at_medium=self_promotion\&at_campaign=faq_web)
 
 ## Tool provider
 
@@ -51,10 +51,10 @@ Mappy's parent company is Mappy S.A., a technological services company based in 
 ## Advertising Trackers
 
 * [ ] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [x] This tool does not appear to use tracking cookies.
+* [x] This tool uses tracking cookies. Use with caution.
+* [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer               |
 | ----------------------------- |
-| Aly. Reviewed Sophie Tedling. |
+| Aly. Reviewed Sophie Tedling; |
 |                               |
