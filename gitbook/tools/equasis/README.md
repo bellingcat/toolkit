@@ -46,7 +46,10 @@ Registering for an account with Equasis requires providing an email address and 
 
 ## Limitations
 
-Data in Equasis comes from [56 different providers](https://www.equasis.org/EquasisWeb/public/About?fs=SurveyList\&P\_ABOUT=Providers.html) and is collated by Equasis. However, data from these providers could be incorrect or not up to date. Additionally, in some cases, vessels may be listed as reported sold without providing a new listed owner. As such additional research work should be undertaken to verify information provided by Equasis.
+* Data in Equasis comes from different providers and is collated by Equasis. Data can be contradicting, incorrect or incomplete. It can hold double reporting, when a ship is inspected by port states that are members of more than one PSC.&#x20;
+* Data is not updated real-time. Class related info is updated weekly and sometimes daily. The frequency of the updates differs from provider to provider but can be checked in the tab/field Last update.&#x20;
+* Equasis is primarily built for individual searches and has a limit on search results. A maximum of 20 ships and owners can be saved and _exported from ‘MyEquasis’. For heavier use, Equasis points to commercial tools as S\&P Glo&#x62;_&#x61;l Market Intelligence, Loyds List Intelligence, Clarkson, AXS-Marine, etc.
+* Reuse of the data: The data remains property of the data providers. No data can be harvested and reused in bulk without [permission](https://www.equasis.org/EquasisWeb/public/About?fs=HomePage\&P_ABOUT=MainConcern.html) from Equasis. This includes webservices and API’s.&#x20;
 
 ## Ethical Considerations
 
