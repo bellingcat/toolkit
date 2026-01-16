@@ -210,6 +210,7 @@
   * [Umbra Space](tools/umbra-space/README.md)
   * [UN Comtrade Database](tools/un-comtrade-database/README.md)
   * [UNOSAT Analyses](tools/unosat-analyses/README.md)
+  * [US court case databases](tools/us-court-case-databases/README.md)
   * [Uwazi](tools/uwazi/README.md)
   * [VesselFinder](tools/vesselfinder/README.md)
   * [Wayback Machine](tools/internet-archive/README.md)
