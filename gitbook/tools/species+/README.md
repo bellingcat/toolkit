@@ -13,7 +13,7 @@ Description<br>
 
 This website provides information on all species currently listed in the [Convention on International Trade in Endangered Species (CITES)](https://cites.org/eng/disc/text.php), the [Convention on the Conservation of Migratory Species of Wild Animals (CMS)](https://www.cms.int/), and other environmental agreements ([MEAs](https://environment.ec.europa.eu/international-cooperation/multilateral-environmental-agreements-meas_en)). You can search by species, higher taxon, synonym, common name, or directly search for a document produced by CITES, such as reports, on a specific species. The entire database can be downloaded.
 
-The tool is useful for researchers and individuals who want to know or confirm the current status of a species, i.e., whether it can be traded or not, what type of regulations, quotas, suspensions, or decisions apply in certain regions.
+The tool can be used by researchers and individuals who want to know or confirm the current status of a species, i.e., whether it can be traded or not, what type of regulations, quotas, suspensions, or decisions apply in certain regions.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-09-22 at 9.59.53 AM.png" alt=""><figcaption><p>For example, here I searched for “pangolin.” To give some context, all pangolin species are listed in Appendix I of CITES, which means they are completely prohibited from international trade. I got 8 results.</p></figcaption></figure>
 
