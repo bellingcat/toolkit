@@ -2,6 +2,7 @@
 description: >-
   Apple Maps is a digital mapping service with detailed, interactive maps,
   satellite imagery, and location-based information.
+updated: '2026-01-15'
 ---
 
 # Apple Maps

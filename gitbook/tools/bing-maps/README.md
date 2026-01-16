@@ -1,5 +1,5 @@
 ---
-updated: '2025-08-23'
+updated: '2026-01-15'
 description: >-
   Bing Maps is a web mapping service provided by Microsoft that offers detailed
   geographical information and tools for route planning, location search, and

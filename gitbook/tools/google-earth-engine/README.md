@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-31'
+updated: '2026-01-15'
 description: >-
   Google Earth Engine is a platform for environmental monitoring and analysis
   through satellite imagery and geospatial data.

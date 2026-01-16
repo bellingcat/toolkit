@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-22'
+updated: '2026-01-15'
 description: >-
   To analyse shadows in source imagery, Shadow Finder maps all points on the
   earth where a shadow of given length could occur at a given date & time, IF

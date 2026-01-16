@@ -1,5 +1,6 @@
 ---
 description: A database of remote sensing indices and satellite imaging sensors
+updated: '2026-01-15'
 ---
 
 # Index Database

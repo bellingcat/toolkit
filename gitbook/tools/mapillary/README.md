@@ -1,5 +1,5 @@
 ---
-updated: '2025-12-04'
+updated: '2026-01-15'
 description: Mapillary is a crowdsourced street-level imagery platform.
 ---
 

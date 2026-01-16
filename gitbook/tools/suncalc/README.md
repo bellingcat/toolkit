@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-22'
+updated: '2026-01-15'
 description: >-
   Suncalc models the relationship between the date, time of day, the geographic
   location of a place, and the position of the sun in the sky, together with the

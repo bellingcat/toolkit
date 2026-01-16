@@ -1,5 +1,5 @@
 ---
-updated: '2025-08-23'
+updated: '2026-01-15'
 description: >-
   A platform offering detailed maps, satellite imagery, street views (static &
   sometimes dynamic imagery, including aerial views). Often the best available

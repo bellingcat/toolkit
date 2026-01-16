@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-21'
+updated: '2026-01-15'
 description: >-
   This tool helps you estimate and fact-check the maximum number of people
   standing in a given area.

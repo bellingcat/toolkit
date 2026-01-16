@@ -1,5 +1,5 @@
 ---
-updated: '2025-09-24'
+updated: '2026-01-15'
 description: >-
   Planet Labs PBC is an American optical satellite imagery company that sells
   access to imagery.

@@ -1,5 +1,5 @@
 ---
-updated: '2025-11-12'
+updated: '2026-01-15'
 description: >-
   An open, community-based project, providing (near) real-time information on
   the movements of ships and their locations in harbours and ports.

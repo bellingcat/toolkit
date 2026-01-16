@@ -2,6 +2,7 @@
 description: >-
   Bellingcat's radar interference tracker can be used to locate and monitor
   active military radar systems.
+updated: '2026-01-15'
 ---
 
 # Radar Interference Tracker (RIT)

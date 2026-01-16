@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-30'
+updated: '2026-01-15'
 description: >-
   Blender is an open-source 3D creation suite supporting the 3D
   pipeline—modeling, rigging, animation, simulation, rendering, compositing, and

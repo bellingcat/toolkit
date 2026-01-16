@@ -3,6 +3,7 @@ description: >-
   GovMap provides an interactive map of Israel, offering users a wide range of
   data including property boundaries, planning information, and infrastructure
   details.
+updated: '2026-01-15'
 ---
 
 # GovMap
