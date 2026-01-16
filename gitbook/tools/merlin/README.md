@@ -1,6 +1,6 @@
 ---
-description: 'Identify birds (visually), through an app.'
 updated: '2025-11-02'
+description: Identify birds (visually), through an app.
 ---
 
 # Merlin
@@ -23,7 +23,7 @@ Enter characteristics such as the color of the bird and size to find your bird. 
 
 2. Sound ID
 
-You can record birds and Merlin will match them with birds near you based on your location. The sounds you upload are saved in the app with location and time information. The recognition system is good enough to detect the sound of birds even with a little background noise.
+You can record birds and Merlin will match them with birds near you based on your location. The sounds you upload are saved in the app with location and time information. The recognition system is good enough to detect the sound of birds even with a little background noise. They have [2066 bird species sounds](https://ebird.org/region/AU-WA-WAN/post/merlin-sound-id-is-coming-to-australia)!&#x20;
 
 3. Photo ID
 
@@ -31,9 +31,9 @@ You can take a photo of your bird of interest or upload an existing one from you
 
 <div align="left"><figure><img src=".gitbook/assets/WhatsAppVideo2025-04-04at16.47.231-ezgif.com-video-to-gif-converter.gif" alt="" width="208"><figcaption><p>An example of this option looking for a blue and yellow macaw in Colombia.</p></figcaption></figure></div>
 
-For a successful identification, be sure to enter as many characteristics as you can. This way the system can provide more specific results. In testing the app, 8 out of 10 times the system returned the bird I was looking for. The app gives many options and can be confusing if searching for a bird with similar colors and characteristics to others.&#x20;
+For a successful identification, be sure to enter as many characteristics as you can. This way the system can provide more specific results. In testing the app, 8 out of 10 times the system returned the bird I was looking for. The app gives many options and can be confusing if searching for a bird with similar colors and characteristics to others.
 
-For example, if you search for a medium-sized black bird that was seen flying, the system will return a lot of black birds in your area, and there may be too many to recognize yours. But if you also add red in the system because you saw that the bird's eyes were that color, the app will give you more particular results (in my case, I got as second choice the bronzed cowbird and this was my bird!).&#x20;
+For example, if you search for a medium-sized black bird that was seen flying, the system will return a lot of black birds in your area, and there may be too many to recognize yours. But if you also add red in the system because you saw that the bird's eyes were that color, the app will give you more particular results (in my case, I got as second choice the bronzed cowbird and this was my bird!).
 
 It is not necessary to create an account to use the application. However, one of the advantages of creating one is that you can create lists of the birds you search for and save them. In addition, Merlin allows [data packets ](https://support.ebird.org/en/support/solutions/articles/48000966223-my-offline-birds?__hstc=75100365.51452a210e378915111e1d498b0f7aab.1742251458388.1747844962673.1748267627622.6&__hssc=75100365.6.1748267627622&__hsfp=4052119064&_gl=1*xlayd4*_gcl_au*MTE5NzM5MjUxMC4xNzQyMjUxNDU0*_ga*MTk4OTY0NDkzOS4xNzQyMjUxNDU1*_ga_QR4NVXZ8BM*czE3NDgyNjYyMzEkbzckZzEkdDE3NDgyNjgwNTckajYwJGwwJGgwJGR4bzhKSmdmcWRIVzF3dXlQYU9XWHNlY2JZSENWY3Z3c1JR&_ga=2.263960904.513365111.1748267626-1989644939.1742251455)downloads based on the location of interest. For example, you can download a Paraguayan birds packet to get more specific results when searching for birds in this country.
 
@@ -61,7 +61,7 @@ Merlin can be [downloaded](https://merlin.allaboutbirds.org/download/) for free 
 
 Keep in mind that the system may not always be successful in identifying birds.
 
-Merlin [only runs](https://support.ebird.org/en/support/solutions/articles/48000966221-install-merlin) on Android devices with Android 6 or newer, iPhones and iPads with iOS 16 or newer, and M1/M2-equipped Apple computers. There is no desktop version or website.&#x20;
+Merlin [only runs](https://support.ebird.org/en/support/solutions/articles/48000966221-install-merlin) on Android devices with Android 6 or newer, iPhones and iPads with iOS 16 or newer, and M1/M2-equipped Apple computers. There is no desktop version or website.
 
 ## Ethical Considerations
 
