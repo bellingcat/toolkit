@@ -15,13 +15,15 @@ The tool hosts around [23 million records](https://trade.cites.org/cites_trade_g
 
 You can configurate the results based on your preferences. For example, you can get a csv report with customized configurations or a web version.
 
-Let's say you are looking for China imports of wild species for biomedical purposes from 2018 to 2023. You will then get a detailed table with over 100 results that gives you species information, importer and exporter data, reported quantity, purpose, source, among other findings.
+Let's say you are looking for China imports of species for medical purposes from 2000 to 2024. You will then get a detailed table with over 100 results that gives you species information, importer and exporter data, reported quantity, purpose, source, among other findings.
+
+<figure><img src=".gitbook/assets/Screenshot 2026-01-16 at 4.00.56 PM.png" alt=""><figcaption><p>This is part of the table I obtained after searching for species imports from China with medical purposes.</p></figcaption></figure>
 
 The tool allows you to bulk download the whole database. With a relatively fast internet connection (145.9 Mbps download and 9.92 Mbps upload when I tried) you can get it in under 2 minutes. It is divided into csv archives.
 
 The tool also links to the [CITES Wildlife TradeView](https://tradeview.cites.org/en), a interactive online tool for exploring and visualising CITES trade data. You can explore visuals provided in a global view (data of all CITES-listed species), country view (data for one or more countries) and taxon view (data for one or more species or taxonomic groups).
 
-I reviewed the 2025.1 version.
+I reviewed the 2025.1 version, which contains data from 1975 to 2025.
 
 ## Cost
 
