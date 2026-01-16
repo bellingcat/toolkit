@@ -60,7 +60,7 @@ Umbra, U.S.
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                |
-| ------------------------------ |
-| Logan Williams/Bellingcat Team |
-|                                |
+| Page maintainer                                          |
+| -------------------------------------------------------- |
+| Logan Williams/Bellingcat Team, Reviewer Sophie Tedling; |
+|                                                          |
