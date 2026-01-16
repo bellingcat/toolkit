@@ -1,9 +1,9 @@
 ---
+updated: '2025-09-24'
 description: >-
   Image Hunter is a search engine for finding and purchasing commercial
   satellite imagery (including Planet, Airbus, Maxar, and many Chinese satellite
   companies) without a subscription.
-updated: '2025-09-24'
 ---
 
 # Apollo Image Hunter
@@ -59,7 +59,7 @@ It is operated by Apollo Mapping, an American satellite imagery broker.
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Logan Williams  |
-|                 |
+| Page maintainer                          |
+| ---------------------------------------- |
+| Logan Williams. Reviewer Sophie Tedling; |
+|                                          |
