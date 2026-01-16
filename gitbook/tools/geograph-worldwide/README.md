@@ -12,7 +12,7 @@ description: >-
 
 ## Description
 
-Geograph is a community project concept and open [source code](https://www.geograph.org.uk/article/Geograph-for-Developers) for an online website designed to create a comprehensive and searchable collection of photographs that capture every part of a given region. Built around the idea of collecting geographically representative images by 1km grid square, it aims to document locations with real photographic evidence and contextual information. Currently, there are three [active projects](https://www.geograph.org/projects.php) based on the Geograph concept: Britain and Ireland, Germany, and the Channel Islands. The platform solves the problem of exploring and understanding places through accurate, location-based visual documentation. Example use case: a geography teacher can use Geograph to show students real pictures of different landscapes across the British Isles, helping them better understand geographical diversity and variation.
+Geograph is a community project concept and [open source code](https://www.geograph.org.uk/article/Geograph-for-Developers) for an online website designed to create a comprehensive and searchable collection of photographs that capture every part of a given region. Built around the idea of collecting geographically representative images by 1km grid square, it aims to document locations with real photographic evidence and contextual information. Currently, there are three [active projects](https://www.geograph.org/projects.php) based on the Geograph concept: Britain and Ireland, Germany, and the Channel Islands. The platform solves the problem of exploring and understanding places through accurate, location-based visual documentation. Example use case: a geography teacher can use Geograph to show students real pictures of different landscapes across the British Isles, helping them better understand geographical diversity and variation.
 
 ## Additional Features
 
@@ -84,11 +84,11 @@ It is a not-for-profit company, limited by guarantee, whose objects are educatio
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                                   |
-| --------------------------------------------------------------------------------- |
-| Paul - Bellingcat Volunteer Community reviewed Sophie Tedling, Riccardo Giannardi |
-|                                                                                   |
+| Page maintainer                                                                               |
+| --------------------------------------------------------------------------------------------- |
+| Paul - Bellingcat Volunteer Community. Reviewer Sophie Tedling; Maintainer Riccardo Giannardi |
+|                                                                                               |
