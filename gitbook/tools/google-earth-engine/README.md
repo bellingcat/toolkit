@@ -99,7 +99,7 @@ To effectively use Google Earth Engine, especially for beginners or those lookin
 
 **Video Tutorials**
 
-* [**Spatial Data Management with Google Earth Engine**](https://www.youtube.com/playlist?list=PLAxJ4-o7ZoPdz9LHIJIxHlZe3t-MRCn61)**:** 2024).
+* [**Spatial Data Management with Google Earth Engine**](https://www.youtube.com/playlist?list=PLAxJ4-o7ZoPdz9LHIJIxHlZe3t-MRCn61)
 
 **Community and Support**
 
