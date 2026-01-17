@@ -1,5 +1,5 @@
 ---
-updated: '2025-09-24'
+updated: '2026-01-16'
 description: >-
   Image Hunter is a search engine for finding and purchasing commercial
   satellite imagery (including Planet, Airbus, Maxar, and many Chinese satellite

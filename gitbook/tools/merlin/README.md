@@ -1,6 +1,6 @@
 ---
-updated: '2025-11-02'
-description: Identify birds (visually), through an app.
+updated: '2026-01-16'
+description: 'Identify birds (visually), through an app.'
 ---
 
 # Merlin

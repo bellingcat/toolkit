@@ -2,7 +2,7 @@
 description: >-
   Tracking tool for data on environmental and wildlife crime cases, including
   court cases and convictions, across the globe.
-updated: '2025-11-02'
+updated: '2026-01-16'
 ---
 
 # WildEye

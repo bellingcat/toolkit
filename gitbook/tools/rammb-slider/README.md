@@ -1,5 +1,5 @@
 ---
-updated: '2025-09-25'
+updated: '2026-01-16'
 description: Real-time weather satellites of the entire globe
 ---
 

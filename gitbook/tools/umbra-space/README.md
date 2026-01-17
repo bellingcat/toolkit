@@ -2,6 +2,7 @@
 description: >-
   Umbra is an American synthetic aperture radar (SAR) satellite imaging company
   that sells on-demand taskings for satellite imagery.
+updated: '2026-01-16'
 ---
 
 # Umbra Space
