@@ -1,9 +1,9 @@
 ---
+updated: '2025-08-12'
 description: >-
   Hugin is a free and open-source panorama photo stitching and HDR (High Dynamic
   Range imaging) merging software that helps users create seamless panoramic
   images from multiple photographs.
-updated: '2025-08-12'
 ---
 
 # Hugin
@@ -36,6 +36,8 @@ Hugin is available on the following platforms:
 * Mac (not Silicon)
 * Windows
 
+Hugin is available in 22 languages: Brazilian Portuguese, Bulgarian, Catalan, Chinese Simplified, Chinese Traditional, Czech, Dutch, Danish, English, French, German, Hungarian, Italian, Japanese, Korean, Polish, Russian, Slovakian, Slovenian, Spanish, Swedish and Ukranian.
+
 ## Limitations
 
 Hugin, like many open-source tools, may have the following limitations:
@@ -57,7 +59,7 @@ Using Hugin raises several ethical considerations:
 
 To effectively use Hugin, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
 
-**Official Wiki**&#x20;
+**Official Wiki**
 
 * [https://hugin.sourceforge.io/](https://hugin.sourceforge.io/)
 
@@ -69,9 +71,9 @@ To effectively use Hugin, especially for beginners or those looking to refine th
 
 **Video Tutorials**
 
-* _How To: Hi-Res Panos in Hugin - Advanced_ (2020). Available at: [https://www.youtube.com/watch?v=06jXEJMTQds](https://www.youtube.com/watch?v=06jXEJMTQds) (Accessed: 4 August 2025).
-* _Panorama stitching with Hugin Tutorial Part 1 - Introduction_ (2020). Available at: [https://www.youtube.com/watch?v=DMYlm3D3NhY](https://www.youtube.com/watch?v=DMYlm3D3NhY) (Accessed: 4 August 2025).
-* _Panorama stitching with Hugin Tutorial Part 2 - Expert Mode_ (2020). Available at: [https://www.youtube.com/watch?v=\_Ad1Mi5BzGk](https://www.youtube.com/watch?v=_Ad1Mi5BzGk) (Accessed: 4 August 2025).
+* _How To: Hi-Res Panos in Hugin - Advanced_ (2020). Available at: [https://www.youtube.com/watch?v=06jXEJMTQds](https://www.youtube.com/watch?v=06jXEJMTQds) (Accessed: 12 January 2026).
+* _Panorama stitching with Hugin Tutorial Part 1 - Introduction_ (2020). Available at: [https://www.youtube.com/watch?v=DMYlm3D3NhY](https://www.youtube.com/watch?v=DMYlm3D3NhY) (Accessed: 12 January 2026).
+* _Panorama stitching with Hugin Tutorial Part 2 - Expert Mode_ (2020). Available at: [https://www.youtube.com/watch?v=\_Ad1Mi5BzGk](https://www.youtube.com/watch?v=_Ad1Mi5BzGk) (Accessed: 12 January 2026).
 
 #### Developer Resources
 
