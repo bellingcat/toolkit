@@ -36,7 +36,7 @@ Hugin is available on the following platforms:
 * Mac (not Silicon)
 * Windows
 
-Hugin is available in 22 languages: Brazilian Portuguese, Bulgarian, Catalan, Chinese Simplified, Chinese Traditional, Czech, Dutch, Danish, English, French, German, Hungarian, Italian, Japanese, Korean, Polish, Russian, Slovakian, Slovenian, Spanish, Swedish and Ukranian.
+Hugin is available in 22 [languages](https://hugin.sourceforge.io/): Brazilian Portuguese, Bulgarian, Catalan, Chinese Simplified, Chinese Traditional, Czech, Dutch, Danish, English, French, German, Hungarian, Italian, Japanese, Korean, Polish, Russian, Slovakian, Slovenian, Spanish, Swedish and Ukranian.
 
 ## Limitations
 
