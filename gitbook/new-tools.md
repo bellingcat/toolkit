@@ -6,5 +6,4 @@ description: These tools were added to the toolkit within the last four weeks.
 
 | Name | Description | Cost | Tool Review and Guide |
 | --- | --- | --- | --- |
-| Species+ | Centralized website with vulnerable species information. | <mark style="background-color:green;">Free</mark> | <p><sub><em>Guide not available</em></sub></p><mark style="background-color:blue;"> [https://www.speciesplus.net/species](https://www.speciesplus.net/species) </mark> |
 | US court case databases | State-by-state guide for researching criminal and civil court cases | <mark style="background-color:orange;">Partially Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/us-court-case-databases](tools/us-court-case-databases/README.md) |
