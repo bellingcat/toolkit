@@ -21,7 +21,7 @@ Gephi has the ability to create [detailed](https://www.youtube.com/watch?v=GXtbL
 \
 [Gephi Lite is Gephi’s web-based companion](https://gephi.wordpress.com/2025/10/08/gephi-lite-v1/) for lightweight, installation-free network exploration and sharing. Gephi Lite is designed to run client-side (“serverless”), so graphs you open locally stay on your device unless you choose to use sharing/cloud workflows (for example, saving/loading graphs via GitHub gists or opening hosted graphs via a shareable URL / iframe embed). Compared with the desktop application, Lite currently targets smaller networks (roughly ≤10k nodes / ≤20k edges) and focuses on web-friendly formats (GEXF and GraphML, plus its own workspace JSON), while omitting heavier desktop capabilities such as the Preview workflow (SVG/PDF export), timeline/dynamic graphs, and the plugin ecosystem, so it’s best treated as a lightweight viewer/editor and publishing layer alongside Gephi Desktop.
 
-<figure><img src=".gitbook/assets/Sequence 01.gif" alt="X-social network visualized using Gephi Lite "><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/gephi.gif" alt=""><figcaption></figcaption></figure>
 
 ### Core Social Network Analysis Metrics
 
