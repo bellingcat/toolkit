@@ -1,15 +1,16 @@
 ---
+updated: '2025-11-01'
 description: >-
   A research project collecting and publishing legal takedown notices for online
   content transparency
-updated: '2025-11-01'
 ---
 
 # Lumen
 
 ## URL
 
-[https://lumendatabase.org](https://lumendatabase.org/)
+[https://lumendatabase.org](https://lumendatabase.org/)\
+(last update Jan, 2026)
 
 ## Description
 
@@ -89,7 +90,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 
 <summary>Advanced API examples</summary>
 
-#### 1. Searching for a Keyword with Date Range
+**1. Searching for a Keyword with Date Range**
 
 **Scenario:** You want to see all takedown notices referring to “piracy” from January 1, 2023 through January 1, 2024.
 
@@ -107,7 +108,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 
 ***
 
-#### 2. Exact Phrase Searches
+**2. Exact Phrase Searches**
 
 **Scenario:** You suspect certain notices mention an exact phrase—e.g. “copyright troll”—and want only those that contain that _entire_ phrase, not just the words separately.
 
@@ -123,7 +124,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 
 ***
 
-#### 3. Filtering by Sender Name and Topic
+**3. Filtering by Sender Name and Topic**
 
 **Scenario:** You want to find all notices **sent by** a specific party (the _sender\_name_) who has repeatedly filed DMCA takedowns about “videos.” Also, you only want notices classified under **Copyright** topics.
 
@@ -140,7 +141,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 
 ***
 
-#### 4. Looking Up Notices by Principal (Rightsholder)
+**4. Looking Up Notices by Principal (Rightsholder)**
 
 **Scenario:** You suspect a major law firm is filing notices on behalf of a big music label. You want to see everything posted _on behalf of_ that label.
 
@@ -156,7 +157,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 
 ***
 
-#### 5. Searching by Tag, Action Taken, and Language
+**5. Searching by Tag, Action Taken, and Language**
 
 **Scenario:** You want takedown notices about “fake news” specifically tagged with “misinformation,” and you only want to see those that had “Partial” action taken, in Spanish.
 
@@ -174,7 +175,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 
 ***
 
-#### 6. Combining Multiple Queries (Sender & Keyword & Date Range)
+**6. Combining Multiple Queries (Sender & Keyword & Date Range)**
 
 **Scenario:** You suspect the same actor used different angles—defamation, copyright, trademark—to remove social media criticism. Combine a keyword (`“criticism”`), a date range, and the **sender's name**.
 
@@ -191,7 +192,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 
 ***
 
-#### 7. Retrieving a Specific Notice by ID
+**7. Retrieving a Specific Notice by ID**
 
 **Scenario:** You want the full record of a known notice with ID `123456` to see original or supporting documents.
 
@@ -206,7 +207,7 @@ You will receive a JSON object listing all matching takedown notices, each with 
 
 ***
 
-#### 8. Filtering by “Safe Harbor” or “Court Order”
+**8. Filtering by “Safe Harbor” or “Court Order”**
 
 **Scenario:** You want all the **Court Orders** posted this year, focusing on possibly sealed or partially redacted legal documents.
 
