@@ -1,8 +1,8 @@
 ---
+updated: '2025-10-31'
 description: >-
   TelegramDB is a searchable database service that allows users to explore
   public Telegram groups and channels via a dedicated bot.
-updated: '2025-10-31'
 ---
 
 # TelegramDB
@@ -29,11 +29,11 @@ Usage has grown fast – TelegramDB passed **1.5 million monthly active users in
 
 ### Commands
 
-As of 2025, **free search** runs on **@TgDBSearchBot (Search Lite)**; **premium/advanced** commands run in the **web chat (Search Plus)** at **tgdb.org/bot**.
+As of 2025, TelegramDB straddles a freemium model: a free “Search Lite” bot for basic discovery and a “Search Plus” web bot for premium features and heavy usage. Telegram’s bot info page shows a public monthly-user count for TgDB Search Lite (@tgdb\_search\_bot); treat this as a rough indicator that changes over time.
 
 <details>
 
-<summary>Full Command Overview </summary>
+<summary>Full Command Overview</summary>
 
 **Free Commands**
 
@@ -45,7 +45,7 @@ As of 2025, **free search** runs on **@TgDBSearchBot (Search Lite)**; **premiu
 * **`/help`**, **`/faq`**, **`/terms`**, **`/support`**, **`/language`** – Access help and info: usage instructions, FAQs, terms and conditions, a link to the support chat, and language settings (English, Italian, etc.).
 * **`/cancel`** – Cancel the current operation or menu.
 
-#### Premium Commands (Credits Required)
+**Premium Commands (Credits Required)**
 
 * **`/where [id or @username]`** – Reveal the public groups in which a user has been a member. (Requires credits for a full list; without credits, it will only report the count of groups, up to 5 uses per day​.)
 * **`/members [id or @username]`** – Export a CSV list of members of a specified group.
@@ -58,15 +58,10 @@ As of 2025, **free search** runs on **@TgDBSearchBot (Search Lite)**; **premiu
 ## Cost
 
 * **Partially Free**
-* **Free tier** (Search Lite): discovery commands remain 100% free on `@tgdb_search_bot`. [Telegram](https://t.me/s/tgdatabase?before=318\&utm_source=chatgpt.com)
-* **Credits** (Search Plus / web bot): first \~20 results per search are free; requesting more or running premium commands consumes credits purchased in‑bot via `/credits` (Telegram Payments) or via the site (crypto payments are periodically available). Exact pricing is shown in‑app before purchase.
+* **Free tier** (Search Lite): discovery commands remain 100% free on @tgdb\_search\_bot. [Telegram](https://t.me/s/tgdatabase?before=318\&utm_source=chatgpt.com)
+* **Paid tier** (Search Plus): advanced commands use a credit system. Credits are purchased via the /credits flow (Telegram’s payment system) and/or via the TgDB website account; available payment methods can vary over time.
 
-**Pricing:** TelegramDB uses credits. The **first 20 results of every search are free**; any additional results or premium commands consume credits.
-
-_Inside the bot:_ Since April 2025, you can only buy credits with **Telegram Stars** due to Telegram and Apple rules ([TGStat.com](https://tgstat.com/channel/%40tgdatabase)). The bot shows the exact price before you confirm.\
-&#xNAN;_&#x4F;n the website:_ At ([tgdb.org](https://tgdb.org)) you can register and pay with **cryptocurrency, credit/debit card, or PayPal** [TGStat.com](https://tgstat.com/channel/%40tgdatabase). Prices fluctuate, but typical bundles remain in the €2 – €10 range.
-
-Each command tells you how many credits it will cost before it runs. Example: `/where` costs 3 credits plus 1 credit for every 40 results, while `/members` uses a sliding scale.
+Search costs scale with result volume. Example (from TelegramDB’s GitHub README): /search is free up to 20 results, while /where has a base credit cost plus additional credits per extra results; the bot previews cost/results before you spend credits.
 
 #### Free
 
@@ -99,15 +94,17 @@ Specific pricing for premium credits is not provided directly but operates on a 
 ## Requirements
 
 * **Platform/runtime:** Any modern browser (tgdb.org web bot) or Telegram app (bot). [tgdb.org](https://www.tgdb.org/bot?utm_source=chatgpt.com)
-* **Access & install:** No local install. Start the bot at `@tgdb_search_bot` (Lite) or sign in to the web bot at https://tgdb.org/bot (Plus). [Telegram](https://t.me/tgdb_search_bot)
-* **Auth/tokens:** Telegram account required. Credits purchased via `/credits` in bot (Telegram Payments) or site account; card/crypto availability varies over time. [GitHub](https://github.com/TelegramDB/TelegramDB)
+* **Access & install:** No local install. Start the bot at @tgdb\_search\_bot (Lite) or use TgDB Search Plus via the web bot (tgdb.org/bot; some announcements also reference tgdb.org/page/bot). [Telegram](https://t.me/tgdb_search_bot)
+* **Auth / tokens:** TgDB Search Lite requires a Telegram account. TgDB Search Plus uses a TgDB website account; credits are purchased via /credits and availability of payment methods can vary over time. [GitHub](https://github.com/TelegramDB/TelegramDB)
 * **Telegram Account**: You must have Telegram to interact with the bot [@tgdb\_bot](https://t.me/tgdb_bot).
 * **Credits**: Needed for premium features (purchased in-bot)
 * **Data Analysis Skills**: Helpful for interpreting CSV files, especially if you plan to load them into visualization tools (e.g., Maltego).
 
 ## Limitations
 
-* **Public Content Only:** TelegramDB only indexes data from public or open Telegram chats. Private, invite-only, or deleted chats are not accessible via this tool. (All data is obtained by crawling public groups/channels visible to anyone, and TelegramDB is _not_ affiliated with Telegram itself​.
+* Public Content Only: TelegramDB indexes only publicly accessible Telegram groups/channels. It cannot search private chats or hidden groups. (All data is obtained by crawling public groups/channels visible to anyone, and TelegramDB is not affiliated with Telegram itself.)
+  * Availability/maintenance: TgDB Search Plus has periodic maintenance windows and occasional outages; if results look inconsistent, check the TgDB News channel for service announcements.
+  * Search behavior changes: Recent updates reverted channel/group search to “precise match” results only; a broader search mode is planned, so search behavior may change again.
 * **Unfiltered Data:** TelegramDB does not moderate or filter collected content, so search results may include pornography, hate speech, graphic violence, or other illegal or offensive material on Telegram. Users should exercise caution; content takedown requests can be made to remove personal data (see `/terms`)​.
 * **API Constraints:** The service relies on Telegram’s infrastructure (APIs and network). Data may be subject to Telegram’s rate limits or outages, and information might not instantly reflect edits or deletions. For example, if a user leaves a group or a message is removed, it may still appear in TelegramDB’s cache until the next update or a removal request​.
 * **Search Costs:** Extensive querying can become costly in credits. High-volume searches or bulk member exports may consume credits quickly, which can be a practical limitation for some users (though result previews and incremental costs are provided).
@@ -155,4 +152,3 @@ But they're listening to the community:\
 | --------------- |
 | Martin Sona     |
 |                 |
-
