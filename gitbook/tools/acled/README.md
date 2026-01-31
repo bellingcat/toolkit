@@ -10,7 +10,7 @@ description: >-
 ## URL
 
 [https://acleddata.com/](https://acleddata.com/)\
-(as of Dec 12, 2025)
+(as of Jan 31, 2025)
 
 ## Description
 
