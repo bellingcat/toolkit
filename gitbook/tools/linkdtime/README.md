@@ -1,8 +1,8 @@
 ---
+updated: '2025-11-01'
 description: >-
   Build a clean timeline of any LinkedIn activity from a single URL or a whole
   list of links.
-updated: '2025-11-01'
 ---
 
 # LinkdTime
@@ -10,13 +10,13 @@ updated: '2025-11-01'
 ## URL
 
 [https://github.com/Lucksi/LinkdTime](https://github.com/Lucksi/LinkdTime)\
-**no tagged releases**; latest commit **2025‑04‑11 (as of October 31, 2025)**\
-
+**no tagged releases**; latest commit **2025‑04‑11 (as of January, 2026)**
 
 ## Description
 
-LinkdTime is a small CLI Python tool that **derives precise timestamps from LinkedIn activity URLs** (posts, comments/replies, profile‑photo/background‑image/company‑logo changes) and can assemble them into a chronological timeline (HTML/TXT). For timestamping, it **decodes the numeric ID embedded in LinkedIn URLs** rather than scraping page HTML, so the time extraction itself works **without network access**; optional flags can **save/download images** for timelines. Outputs are a single timestamp for one URL or an HTML/TXT timeline for a list, with **timezone, date, and clock format configurable**. (see [GitHub](https://github.com/Lucksi/LinkdTime)).\
+LinkdTime is a small CLI Python tool that **derives precise timestamps from LinkedIn activity URLs** (posts, comments/replies, profile‑photo/background‑image/company‑logo changes) and can assemble them into a chronological timeline (HTML/TXT). For timestamping, it **decodes the numeric ID embedded in LinkedIn URLs** rather than scraping page HTML, so the time extraction itself works **without network access**; optional flags can **save/download images** for timelines. Outputs are a single timestamp for one URL or an HTML/TXT timeline for a list, with **timezone, date, and clock format configurable**. (see [GitHub](https://github.com/Lucksi/LinkdTime)).
 
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 It accepts either:\
 • **A single LinkedIn URL** – e.g. `https://www.linkedin.com/feed/update/urn:li:activity:...` or a comment permalink – and prints the precise UTC time the action occurred;\
@@ -32,21 +32,21 @@ It accepts either:\
 # Installation
 git clone https://github.com/Lucksi/LinkdTime && cd LinkdTime
 
-# Auth / first-run
-# No login or API keys required for timestamp extraction (works offline).
-# Ensure Python 3 is installed on Linux.  # Docs: see README.
+# Run (interactive)
+python3 main.py
 
-# Example usage
-# 1) Single URL → print timestamp
-python3 main.py "https://www.linkedin.com/feed/update/urn:li:activity:1234567890123456789/"
+# At the prompt, paste ONE of the following:
 
-# 2) Bulk timeline (one URL per line in links.txt), with auto-names and description
-python3 main.py timeline links.txt --autoname --description "Subject A activity"
+# A) Single URL → print timestamp
+https://www.linkedin.com/feed/update/urn:li:activity:1234567890123456789/
 
-# Optional assets for timeline output:
-#   --save      # embed images as Base64 into HTML
-#   --download  # save original images alongside the HTML
-#   --timezone "GMT+4:00"   # override default timezone
+# B) Build timeline from file (one URL per line)
+timeline links.txt --autoname --description --timezone GMT+0:00
+
+# Optional (timeline only):
+#   --save      # embed images as base64 into HTML
+#   --download  # save original images to disk (also controlled by AUTO-DOWNLOAD config)
+
 ```
 
 The script [returns ](https://github.com/Lucksi/LinkdTime)either a single timestamp or a full HTML / TXT timeline (optional embedded images or Base64). Investigators can therefore spot coordination patterns, for example, discovering that replies labelled “organic” landed within minutes of each other. The tool prints either one [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) timestamp or writes `timeline.html` / `timeline.txt`. Investigators can visualise coordination, e.g. _five “organic” replies_ landing **< 3 min** after a post may indicate **astroturfing** (see definition above).
@@ -77,11 +77,13 @@ Open-source under the GPL-3.0 licence; no paid tier ([GitHub](https://github.com
 * Heavy, rapid queries may trigger LinkedIn's anti-bot defences; use rate-limiting or rotating proxies;
 * No graphical interface, terminal only.
 * LinkedIn deploys rate-limits, CAPTCHAs and UA/velocity-based WAF rules against automated scraping. Plan pauses or proxy rotation. See LinkedIn’s own note on [anti-scraping defences](https://www.linkedin.com/blog/member/trust-and-safety/linkedin-safety-series-what-is-scraping).
+* Timestamp extraction depends on LinkedIn URL patterns and the numeric ID encoding scheme (not HTML scraping).
+* LinkdTime doesn’t log in; it can’t fetch private content. Image download features only work if the media URL is accessible and may trigger anti-bot controls if used at scale.
 
 ## Ethical Considerations
 
-* Scraping LinkedIn may violate its [terms of service](https://app.gitbook.com/s/y4PuseOaDGmxp1otYeL9/); check your legal context before large-scale use.
-* LinkdTime extracts only information already **publicly visible**; nevertheless, assembling complete timelines can expose behavioural or work-pattern insights that the subject did not expect to be profiled.&#x20;
+* Scraping LinkedIn may violate its [terms of service](https://www.linkedin.com/legal/user-agreement); check your legal context before large-scale use.
+* LinkdTime extracts only information already **publicly visible**; nevertheless, assembling complete timelines can expose behavioural or work-pattern insights that the subject did not expect to be profiled.
 
 ## Guides and articles
 
