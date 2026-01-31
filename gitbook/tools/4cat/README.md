@@ -68,13 +68,13 @@ _**Processors**_
 
 The example below shows creating a new dataset and then visualising results with a stream graph (a stacked time-series view that helps you compare how topics/terms rise and fall over time).
 
-+In this example, Tumblr is selected to collect posts/comments. Here, the dataset is defined via tags entered in the Tags/blogs field (e.g., `#liminalspaces`), and the results are visualised over time to compare term/topic trends.&#x20;
+In this example, Tumblr is selected to collect posts/comments. Here, the dataset is defined via tags entered in the Tags/blogs field (e.g., `#liminalspaces`), and the results are visualised over time to compare term/topic trends.&#x20;
 
 <figure><img src="https://lh7-us.googleusercontent.com/iEJanp6kHwwHU7RW7A9eYfTC3N6hBkdvZz5AUyBYE8yDyHUgfGeKS6KuqxaOLT0GF1Dg_bSSVQipQtb6_K4jX2bVpxXGfCQ-RRwq_nL5mil3COBxkOBWou14ETrr0XFQILrbko-g3TkFMumnDTjCx-o" alt="[Screenshot: “Create dataset” screen showing Tumblr selected + Tags/blogs field filled]"><figcaption><p>Screenshot of 4Cat create new dataset screen.</p></figcaption></figure>
 
 Example of the customisation of a steam graph visualisation in 4Cat.
 
-<figure><img src="https://lh7-us.googleusercontent.com/qjR2UY8Xbt_M-Vb4DiRJZJcWhBtaeXgdekAo_Bl6eeYvJoGlZ7sFczznJDuxXnDkX1c2PvPCYhNh4qnbY0Xa6F6IjFmM8aCNQEp6laPkT4RTICZ90GwocoJ-bOwW9m2YDHqA82bo3lneCdNhair9Fw" alt=""><figcaption><p>screenshot of steam graph customisation screen. </p></figcaption></figure>
+<figure><img src="https://lh7-us.googleusercontent.com/qjR2UY8Xbt_M-Vb4DiRJZJcWhBtaeXgdekAo_Bl6eeYvJoGlZ7sFczznJDuxXnDkX1c2PvPCYhNh4qnbY0Xa6F6IjFmM8aCNQEp6laPkT4RTICZ90GwocoJ-bOwW9m2YDHqA82bo3lneCdNhair9Fw" alt=""><figcaption><p>Example of stream graph visualisation in 4CAT: a stacked time-series that shows how the volume of selected terms/topics/categories changes over time, making it easier to spot peaks, sustained growth, and shifts in relative prominence.</p></figcaption></figure>
 
 4Cat, once installed, is available in the following formats:
 
@@ -108,12 +108,12 @@ For more information on hardware requirements see: [https://github.com/digitalme
 ## Limitations
 
 * **Technical Installation:** the primary limitation of 4Cat is that to install it you need specialised technical knowledge of tools like [Docker](https://www.docker.com/) and a server to run it on.    &#x20;
-* **Data Access:** coverage and depth vary by platform. Some sources require special API access, and some “built-in” sources are described as untested; platform policy changes can also break capture.
+* **Data Access:** coverage and depth vary by platform. The [project notes](https://github.com/digitalmethodsinitiative/4cat) that some built-in sources are untested or require special API access, and platform policy/technical changes can reduce what is collectible.
 * **Complex Queries:** Users with limited technical expertise may find it challenging to construct complex queries or fully utilize the tool's capabilities without a steep learning curve.
 * **Processing Time:** Large datasets or complex analysis tasks may require significant processing time, which could impact efficiency for time-sensitive research.
-* **Update Frequency:** The tool’s ability to keep pace with rapid changes in social media platforms and internet technology may be limited, potentially affecting its long-term utility.
+* **Update Frequency:** platform coverage can change quickly. The [4CAT project notes](https://github.com/digitalmethodsinitiative/4cat) that some built-in platform support is untested or requires special API access, and platform policy/technical changes can break capture. Treat the platform list as “as of last checked” and verify against the README/wiki before relying on it for time-sensitive work.
 * **Cost:** While 4CAT itself may be free to use, significant analyses might require substantial computational resources or access to premium data sources, incurring potential costs.
-* **Rate Limits:** some services throttle or block collection (e.g., aggressive rate limiting can force you to import externally collected data instead of capturing directly).
+* **Rate Limits**: some services throttle collection. In 4CAT’s own docs, some sources are explicitly documented as hard to scrape “within 4CAT itself” due to aggressive rate limiting (e.g., [TikTok comments](https://docs.4cat.nl/datasources/tiktok_comments/search_tiktok_comments.html), [Imgur](https://docs.4cat.nl/datasources/imgur/search_imgur.html)), with a recommendation to import data collected elsewhere.&#x20;
 
 ## Ethical Considerations
 
