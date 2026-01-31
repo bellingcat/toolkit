@@ -8,7 +8,7 @@ description: A command line tool for obtaining information about Google accounts
 ## URL
 
 [https://github.com/mxrch/GHunt](https://github.com/mxrch/GHunt)\
-(current [version 2.3.3](https://pypi.org/project/ghunt/), 2025‑01‑25; latest on PyPI. GitHub tag: **v2.2.0** released 2024‑06‑06)
+(current [version 2.3.3](https://pypi.org/project/ghunt/), Jan 25, 2025; latest on PyPI. GitHub tag: **v2.2.0** released 2024‑06‑06)
 
 ## Description
 
@@ -16,7 +16,7 @@ description: A command line tool for obtaining information about Google accounts
 
 GHunt is a local, CLI‑based framework for investigating Google accounts and artifacts. It authenticates with a Google session (via the [**GHunt Companion** browser extension](https://github.com/mxrch/ghunt_companion); [Mozilla addon](https://addons.mozilla.org/en-US/firefox/addon/ghunt-companion/)) and exposes modules to pivot from inputs such as Gmail address, GAIA ID, Google Drive links, Wi‑Fi BSSID, and Digital Asset Links (DAL). Typical outputs include GAIA ID discovery from an email, service associations, Drive file/folder metadata, and approximate BSSID geolocation; JSON export is supported for several modules. As of v2.1.0, GHunt moved to an OAuth‑token based login flow while remaining compatible with the Companion extension.
 
-Ghunt runs locally as a Python application. After installation with pipx and authenticating via the Ghunt Companion browser extension, users can run modules from the command line to search for information. The **email** module takes a Gmail address and returns the [GAIA ID](https://developers.google.com/issue-tracker/concepts/access-control), associated YouTube channel, public photos, Drive files and other data. The **gaia** module queries a GAIA ID to find related Google services; the **drive** module extracts metadata from a shared Drive link; the **geolocate** module geolocates a BSSID, showing the approximate location of a Wi‑Fi access point.&#x20;
+Ghunt runs locally as a Python application. After installation with pipx and authenticating via the Ghunt Companion browser extension, users can run modules from the command line to search for information. The **email** module takes a Gmail address and returns the [GAIA ID](https://developers.google.com/issue-tracker/concepts/access-control), associated YouTube channel, public photos, Drive files and other data. The **gaia** module queries a GAIA ID to find related Google services; the **drive** module extracts metadata from a shared Drive link; the **geolocate** module geolocates a BSSID, showing the approximate location of a Wi‑Fi access point.
 
 Version 2 introduced **Spiderdal, which follows** [**digital asset links (DALs)**](https://developers.google.com/digital-asset-links) **to uncover assets, such as apps,** associated with the target.
 
@@ -90,11 +90,11 @@ Jake Creps: [OSINT Newsletter - Ghunt](https://osintnewsletter.com/p/ghunt)
 
 Joseph Jones: [Investigating Google Accounts with GHunt](https://web.archive.org/web/20221116232718/https://os2int.com/toolbox/investigating-google-accounts-with-ghunt/)
 
-**GHunt** [**README** ](https://github.com/mxrch/GHunt)**(setup & usage).**&#x20;
+**GHunt** [**README** ](https://github.com/mxrch/GHunt)**(setup & usage).**
 
 [**PyPI**](https://pypi.org/project/ghunt/) **project page (install, releases).**
 
-[**GHunt Companion**](https://addons.mozilla.org/en-US/firefox/addon/ghunt-companion/) **Firefox Add‑ons listing.**&#x20;
+[**GHunt Companion**](https://addons.mozilla.org/en-US/firefox/addon/ghunt-companion/) **Firefox Add‑ons listing.**
 
 ## Tool provider
 
