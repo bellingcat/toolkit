@@ -11,7 +11,7 @@ description: >-
 ## URL
 
 [https://app.rawgraphs.io/](https://app.rawgraphs.io/)\
-(v. 2.0.1 tag created **2023‑11‑08**; public release blog **2023‑11‑09;** as of January 2026)
+Current release: v2.0.1 (GitHub release: 26 Jan 2024; tag created: 8 Nov 2023) as of Jan 2026
 
 ## Description
 
@@ -33,6 +33,10 @@ Data is processed **only in your browser** (no server‑side storage/processing)
 * **Flexible Data Import:** Data can be imported in various ways, as long as it’s in a tabular (table-like) format. You can copy and paste data from spreadsheets, [upload text-based data files](https://www.rawgraphs.io/learning/how-to-load-and-format-your-data-for-rawgraphs) (CSV, [TSV ](https://en.wikipedia.org/wiki/Tab-separated_values)or other delimiter-separated values, and [JSON](https://en.wikipedia.org/wiki/JSON) formats)​, or [fetch data directly from a URL](https://www.rawgraphs.io/learning/how-to-load-and-format-your-data-for-rawgraphs) or a live [**SPARQL** ](https://en.wikipedia.org/wiki/SPARQL)query endpoint (a way to retrieve data from databases like Wikidata). RAWGraphs also provides some sample datasets, and it allows importing previously saved project files (with a `.rawgraphs` extension) to resume work.
 * **Customization and Extensibility:** Advanced users can extend RAWGraphs by adding new chart types. In version 2.0.1, support for custom charts was introduced, [allowing users to load their own visualization modules “on the fly” ](https://www.rawgraphs.io/post/rawgraphs-updates-with-version-2-0-1)without modifying the core code​. This means if a needed chart type is not available by default, you can code it (following RAWGraphs’ chart specifications) and plug it into the interface for others to use.
 * **Export and Editing:** RAWGraphs visualizations can be refined and exported for different uses. The tool allows adjustments to colors, shapes, and visual settings, then exports as SVG or PNG images. SVG files are particularly useful for opening in vector graphic editors like Adobe Illustrator or Inkscape for lossless editing.
+
+### Offline Use
+
+You can run RAWGraphs locally via the `rawgraphs-app` repository (Node + Yarn) and/or build a static version for internal hosting. The official [**rawgraphs-app** README](https://github.com/rawgraphs/rawgraphs-app) includes local install requirements (Git, Node.js, Yarn), `yarn start` for dev mode and `yarn build` for a self-hostable build.<br>
 
 <details>
 
@@ -111,7 +115,7 @@ Data is processed **only in your browser** (no server‑side storage/processing)
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
-Most workflows are point‑and‑click (GUI). Users should understand basic chart types and be familiar with tidy/tabular data. Optional advanced use—developing/adding custom charts or self-hosting—benefits from familiarity with basic JavaScript/Node and front-end build tools.
+Beginner-friendly GUI; advanced if self-hosting / custom charts. Most workflows are point‑and‑click (GUI). Users should understand basic chart types and be familiar with tidy/tabular data. Optional advanced use benefits from familiarity with basic JavaScript/Node and front-end build tools.
 
 ## Requirements
 
@@ -155,7 +159,7 @@ RAWGraphs was first released in 2013 as “RAW” by researchers at the DensityD
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-The main site **rawgraphs.io** states it uses **Google Analytics** for anonymous usage analytics; app data processing remains client‑side. [rawgraphs.io](https://www.rawgraphs.io/privacy)
+The RAWGraphs website uses analytics cookies (per its privacy info). If this is a concern, consider self-hosting to avoid third‑party analytics. [rawgraphs.io](https://www.rawgraphs.io/privacy)
 
 | Page maintainer |
 | --------------- |
