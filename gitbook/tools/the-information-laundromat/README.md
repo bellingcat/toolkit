@@ -10,7 +10,7 @@ description: >-
 ## URL
 
 [https://informationlaundromat.com](https://informationlaundromat.com)\
-(latest commit on 2025‑01‑21 on [github](https://github.com/ASD-at-GMF/disinfo-laundromat), as of October 31, 25)
+(latest commit on 2025‑01‑21 on [github](https://github.com/ASD-at-GMF/disinfo-laundromat), as of Jan 2026)
 
 ## Description
 
