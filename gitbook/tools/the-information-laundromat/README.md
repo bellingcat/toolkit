@@ -283,10 +283,6 @@ By combining these searches, users can quickly spot patterns of content launderi
 {% tab title="Image Similarity" %}
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
-
-{% tab title="Second Tab" %}
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>For now I wasn't able to generate useful results, but the scope is impressive. Watch this space!</p></figcaption></figure>
-{% endtab %}
 {% endtabs %}
 
 ## Using Information Laundromat
