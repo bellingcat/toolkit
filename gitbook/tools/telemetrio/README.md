@@ -26,7 +26,7 @@ Telemetr.io is a browser‑based analytics platform for public Telegram content.
 * **Event tracking & alerts** – real-time keyword or channel monitoring with Telegram bot notifications.
 
 {% hint style="danger" %}
-**Exports:** _Advanced_ and _Enterprise_ plans allow full CSV/Excel export of every metric shown on the site. _Basic_ and _Pro_ can only export the public channel catalog. Check the pricing page or message **@telemetrio\_contact** for a custom quota.
+**Exports:** The pricing page lists Excel export on the Advanced plan (up to 1,000 channels/month) and Team / Custom (custom; can export any data). Free/Pro do not list Excel export and may be limited to exporting the public channel catalog, confirm current limits on the pricing page or with @telemetrio\_contact.
 {% endhint %}
 
 Features:
@@ -60,7 +60,7 @@ The Primary Catalog features an extensive database that offers a comprehensive o
 
 **Country Ranking**
 
-Country Ranking organizes Telegram channels based on their popularity and influence within 83 countries. This allows the identification of the most prominent channels in specific regions, which can be helpful for geographic-specific investigations and understanding regional variations in channel popularity.
+Country Ranking organizes Telegram channels based on their popularity and influence within 100+ countries (104 listed at time of check). This allows the identification of the most prominent channels in specific regions, which can be helpful for geographic-specific investigations and understanding regional variations in channel popularity.
 
 **Ratings by Category**
 
@@ -496,16 +496,16 @@ The search results section lists advertisers based on the selected filters. Each
 - The free tier may suffice for basic orientation and initial exploration, but its limitations (on a number of channels tracked, search functions, event tracking, and data export) make it inadequate for most in-depth investigations.
 - The Pro tier offers some improvements (more ad post tracking and limited audience analytics), serving as a starting point for research, but it remains significantly limited in scope.
 - The Advanced tier provides extensive search capabilities and some data export, but even here, the export functionality is minimal (mostly just channel list data).
-- The Enterprise tier includes fully customizable options and is ideal for large-scale or institutional research needs, offering the most comprehensive access.
+- The Team / Custom tier includes fully customizable options and is ideal for large-scale or institutional research needs, offering the most comprehensive access.
 - **API access** is available to export a larger set of channel metrics, but this is priced separately from the main subscriptions and has its own tiers and limits.
 {% endhint %}
 
 | Plan                  | Monthly price\* | Key allowances                                                                                                                                                                                                                                                                                                                                       |
 | --------------------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Free**              | free            | Access **TOP 100** channels in the catalog, overview analytics, channel verification, TG Bots Cleaner, and channel collections. **Post Search:** 5 queries/month (7 sources, 7‑day window, up to 4 posts). **Event Tracking:** 1 tracking with up to 100 mentions and Telegram notifications. **Advertising Posts:** 3 posts, up to 30 days history. |
-| **Pro**               | €25             | Everything in Free plus full catalog (currently labeled **9.7M+**), unlimited channel analysis, Cheater Tag & Ads Index, Advertising Posts and Channel Networks Rating.                                                                                                                                                                              |
-| **Advanced**          | €55             | Adds Post Search (**50 queries/day**, 100 sources, full history, **1,000 posts**/query), Event Tracking (**8 trackings**, **10,000 mentions**), Advertisers rating, Telegram Ads analytics, and **Excel export** (up to **1,000 channels/month**).                                                                                                   |
-| **Team** / **Custom** | from €265       | Team access, custom limits and **export any data**; contact @telemetrio\_contact.                                                                                                                                                                                                                                                                    |
+| **Pro**               | $25             | Everything in Free plus full catalog (currently labeled **9.7M+**), unlimited channel analysis, Cheater Tag & Ads Index, Advertising Posts and Channel Networks Rating.                                                                                                                                                                              |
+| **Advanced**          | $55             | Adds Post Search (**50 queries/day**, 100 sources, full history, **1,000 posts**/query), Event Tracking (**8 trackings**, **10,000 mentions**), Advertisers rating, Telegram Ads analytics, and **Excel export** (up to **1,000 channels/month**).                                                                                                   |
+| **Team** / **Custom** | Custom          | Team access, custom limits and **export any data**; contact @telemetrio\_contact.                                                                                                                                                                                                                                                                    |
 
 \*Subscriptions renew automatically via Stripe; Always confirm [current pricing on the site](https://telemetr.io/en/pricing)
 
@@ -584,9 +584,9 @@ To effectively use Telemetr.io, especially for beginners or those looking to ref
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-**Tracking and Cookies:** Telemetr.io uses advertising trackers and cookies on its website. A scan with Privacy Badger reported the presence of a Google AdSense advertising tracker and a Cloudflare analytics beacon​, indicating that user activity on the site may be tracked for advertising or analytical purposes. Use the site with appropriate caution (e.g., browser extensions or settings to block trackers if desired).
+**Tracking and Cookies:** Telemetr.io discloses the use of cookies and other tracking technologies, including analytics/marketing tools such as Google Analytics, Hotjar, Segment, ContentSquare, and Beamer (see Cookie Notice). Use the site with appropriate caution (e.g., browser extensions or settings to block trackers if desired).
 
-**Data Collection:** According to Telemetr.io’s[ terms of use](https://telemetr.io/en/use-of-cookies), the platform may collect certain personal data via cookies, including the date and time of visits, a masked IP address, and approximate location (country, region, city, and latitude/longitude) of users. Users should be aware that by logging in through Google or Telegram and using the service, some of their data (albeit limited and anonymized) is being recorded.
+**Data Collection:** According to [Telemetr.io’s Cookie Notice](https://telemetr.io/en/use-of-cookies), the platform may process certain personal data via cookies, including the date and time of visits, a masked IP address, and approximate location (country, region, city, and latitude/longitude) of users. Users should be aware that by logging in through Google or Telegram and using the service, some of their data (albeit limited and anonymized) is being recorded
 
 | Page maintainer |
 | --------------- |
