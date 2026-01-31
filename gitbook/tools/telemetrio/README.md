@@ -11,7 +11,7 @@ description: >-
 ## URL
 
 [https://telemetr.io/](https://telemetr.io/)\
-(as of Oct. 2025)
+(as of Jan 2026)
 
 ## Description
 
@@ -247,7 +247,7 @@ The Publication Analysis tab offers detailed insights into a channel's average d
 
 _Publication Tab: posting time distributions_
 
-<figure><img src=".gitbook/assets/grafik (2).png" alt=""><figcaption><p>A: Posting time distribution of an "alternative news" channel.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/grafik (1) (1).png" alt=""><figcaption><p>A: Posting time distribution of an "alternative news" channel.</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/grafik (15).png" alt=""><figcaption><p>B: Posting time distribution of Bellingcat's channel</p></figcaption></figure>
 
