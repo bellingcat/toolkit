@@ -11,7 +11,7 @@ description: >-
 
 [https://www.zotero.org](https://www.zotero.org)
 
-Current version: Zotero **7.0.29** (2025‑10‑28) **(Oct. 31, 2025)**
+Current version: Zotero 8.0.1 (2026‑01‑27) (Jan. 31, 2026)
 
 ## Description
 
@@ -32,7 +32,7 @@ Zotero is a free, open‑source reference manager for **Windows, macOS, Linux, i
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Search results at scholar.google.nl using the search term "Bellingcat"</p></figcaption></figure></div>
 
-This is a review article of Elltio Higgins' book. We click on it.
+This is a review article of Eliot Higgins' book. We click on it.
 
 <div data-full-width="false"><figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
 
@@ -146,10 +146,10 @@ Bellingcat. (2024, February 9). _Command Line Fundamentals: Bellingcat Tech Seri
 
 ### Zotero as an archive tool & the Berkeley Protocol
 
-Proper documentation is essential if the material is used in legal, academic, or policy advocacy contexts. [The Berkeley Protocol ](https://www.ohchr.org/sites/default/files/2024-01/OHCHR_BerkeleyProtocol.pdf)outlines how OSINT data should be handled to be admissible in court (at least in the context of international proceedings).
+Proper documentation is essential if the material is used in legal, academic, or policy advocacy contexts. [The Berkeley Protocol](https://www.ohchr.org/sites/default/files/2024-01/OHCHR_BerkeleyProtocol.pdf) outlines how OSINT data should be handled to be admissible in court (at least in the context of international proceedings).
 
 * **Berkeley Protocol Alignment**: Properly stored OSINT data improves evidentiary value in legal and policy contexts. Zotero’s ability to capture full snapshots, along with timestamps, aids transparency and reproducibility.
-* **Local & Cloud Sync** – Data stays local unless you enable sync. When you do, traffic is encrypted in transi,t and files in new accounts are **AES‑256 encrypted at rest on Zotero’s AWS servers** (not end‑to‑end)
+* **Local & Cloud Sync** – Data stays local unless you enable sync. When you do, file sync traffic is encrypted in transit, and files in new accounts are AES‑256 encrypted at rest on Zotero’s AWS servers (not end‑to‑end).
 * **Limitations**:
   1. No native encryption of local files.
   2. No automatic hashing of archived material.
@@ -179,6 +179,8 @@ GUI‑first and beginner‑friendly. Most users only install the desktop app and
 
 * Account creation (optional; for cloud storage and syncing)
 * Browser plugin for web capture (optional but strongly recommended by the author)
+* Zotero 8 desktop app: macOS 10.15+, Windows 10+, or Linux (same library requirements as Firefox 140)
+  * Account creation (optional; for cloud storage and syncing)
 
 ### Strengths & Limitations
 
@@ -191,10 +193,10 @@ GUI‑first and beginner‑friendly. Most users only install the desktop app and
 
 #### Limitations
 
-* **No Local Encryption**: Data stored locally on your device is **not** encrypted by default.
-* **No Native Hashing**: Zotero doesn’t generate or manage hashes for file integrity.
-* **Manual Cleanup**: Some websites’ metadata extraction can be incomplete or inaccurate, requiring manual edits.
-* **Sync Privacy**: Relying on Zotero’s servers for sync, while encrypted, may not suffice for highly sensitive investigations.
+* **Sync Privacy:** Relying on Zotero’s servers for sync, while encrypted, may not suffice for highly sensitive investigations.
+* **No Local Encryption:** Data stored locally on your device is not encrypted by default.
+  * No Native Hashing: Zotero doesn’t generate or manage hashes for file integrity.
+  * Manual Cleanup: Some websites’ metadata extraction can be incomplete or inaccurate, requiring manual edits.
 
 ### Additional Tips
 
@@ -211,7 +213,11 @@ Ensure proper citation of sources to avoid plagiarism. Be cautious with sensitiv
 * **Quick Start Guide** (official). [zotero.org](https://www.zotero.org/support/quick_start_guide?utm_source=chatgpt.com)
 * **System requirements & plugin support** (official). [zotero.org](https://www.zotero.org/support/system_requirements)
 * **Connectors: how saving works** (official doc). [zotero.org](https://www.zotero.org/support/connector?utm_source=chatgpt.com)
-* **Zotero 7 release overview** (official blog). [zotero.org](https://www.zotero.org/blog/zotero-7/?utm_source=chatgpt.com)
+* **Zotero for Android announcement** (official blog, 2025‑06‑05).
+* Quinn, T. (2024). **Research Guides: Zotero: A Beginner’s Guide**: About Zotero. https://libguides.unm.edu/Zotero/About
+
+[rg](https://www.zotero.org/blog/zotero-7/?utm_source=chatgpt.com)
+
 * **Zotero for Android** announcement (official blog, 2025‑06‑05). [zotero.org](https://www.zotero.org/blog/zotero-for-android/?utm_source=chatgpt.com)
 
 Quinn, T. (2024). _Research Guides: Zotero: A Beginner’s Guide: About Zotero_. [https://libguides.unm.edu/Zotero/About](https://libguides.unm.edu/Zotero/About)
@@ -228,7 +234,7 @@ Quinn, T. (2024). _Research Guides: Zotero: A Beginner’s Guide: About Zotero_.
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-Zotero uses cookies primarily to facilitate core functionality, such as user authentication (e.g., via reCAPTCHA when creating an account) and server-side logging to ensure service stability, security, and to diagnose technical issues. If you opt to sync your library with the Zotero servers, additional data (including IP addresses and usage logs) may be gathered for account management and fraud prevention. Zotero stores these logs for up to 90 days, after which they are anonymized or deleted. While cookies are employed to maintain certain features, like checking for translator updates or managing payment services via Stripe or PayPal. Zotero’s privacy policy emphasizes that it does not monetize user information, and you can minimize sharing by disabling or restricting syncing and update checks in the application’s preferences.
+Zotero’s privacy policy describes first-party data collection for account/service operation (e.g., IP addresses for sync requests and standard web server logs retained up to 90 days). You can disable sync and various automatic requests (such as update checks and translator updates) in Zotero’s preferences if you want to minimize network traffic.
 
 | Page maintainer |
 | --------------- |
