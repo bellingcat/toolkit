@@ -12,9 +12,11 @@ description: Check usernames across more than 400 websites and social networks.
 
 ## Description
 
-Sherlock is an open-source command-line tool (CLI) by the Sherlock Project that finds social media and online accounts by username across [**400+ websites**](https://sherlockproject.xyz/) and platforms. Users can enter one or more usernames, and Sherlock will check each against a maintained list of sites to find profiles matching that username. [It supports](https://sherlockproject.xyz/usage) limiting the search to specific sites (using `--site` flags) and can output results in various formats, including writing found account URLs to text files or exporting data as CSV and Excel (XLSX) spreadsheets. The tool also allows bulk username input via a JSON file and offers options to use proxies or Tor for the queries.
+Sherlock is an open-source OSINT tool designed to find usernames across a wide range of social networks and websites. It can currently check for a given username across [400+ websites](https://sherlockproject.xyz/sites) and platforms, enabling investigators to quickly determine where a username is active. The full list of supported sites is available at [sherlockproject.xyz/sites](https://sherlockproject.xyz/sites).
 
-Sherlock is designed to be straightforward for OSINT investigations: it does not require API keys or login credentials for the sites it checks; instead, it simply constructs the expected profile URL for each site and observes the response to determine whether[ the username exists](https://www.hackercoolmagazine.com/complete-guide-to-sherlock-tool/k). This means it only accesses publicly available information and cannot bypass privacy settings or account restrictions.
+Users can enter one or more usernames, and Sherlock will check each against a maintained list of sites to find profiles matching that username. [It supports](https://sherlockproject.xyz/usage) limiting the search to specific sites (using `--site` flags) and can output results in various formats, including writing found account URLs to text files or exporting data as CSV and Excel (XLSX) spreadsheets. The tool also allows bulk username input via a JSON file and offers options to use proxies or Tor for the queries.
+
+SSherlock is designed to be straightforward for OSINT investigations: it does not require API keys or login credentials for the sites it checks; instead, it simply constructs the expected profile URL for each site and observes the response to determine whether the username [exists on a given platform](https://www.hackercoolmagazine.com/complete-guide-to-sherlock-tool/). This means it only accesses publicly available information and cannot bypass privacy settings or account restrictions.
 
 Sherlock is primarily a CLI tool, so some familiarity with the command line is required to install and run it. However, installation is relatively accessible: the latest version is published on PyPI for one-command install (e.g. `pipx install sherlock-project` or `pip install --user sherlock-project`). There is also an official Docker image available (`sherlock/sherlock` on Docker Hub) for containerized use, as well as community packages (e.g. in [Homebrew for macOS](https://formulae.brew.sh/cask/sherlock-app), [APT in Kali Linux](https://www.kali.org/tools/sherlock/), [DNF in Fedora](https://docs.fedoraproject.org/en-US/fedora/f40/system-administrators-guide/package-management/DNF/), and BlackArch). Once installed, running Sherlock involves executing the `sherlock` command with the desired username(s) as arguments. For example, `sherlock user123` will search for “user123” on all supported sites, while adding `--csv` or `--xlsx` will save results to a file. The output lists each found profile URL (or indicates 'not found'), and by default, also saves each username’s results to a separate text file for review.
 
@@ -119,7 +121,7 @@ sherlock user123 --json https://example.org/custom-sites.json
 
 #### Verbosity, version & help
 
-```
+```python
 # Extra debugging/metrics in console
 sherlock user123 --verbose
 # short forms also supported: -v  -d  --debug
