@@ -13,7 +13,59 @@ description: >-
 
 ## Description &#x20;
 
-The European Space Agency's Earth Online is a portal dedicated to providing a wealth of information on ESA's Earth observation activities and datasets. It serves as a comprehensive platform for scientists, researchers, and the general public interested in Earth science and environmental monitoring. Users can access up-to-date satellite imagery, data from Earth observation missions, and a range of tools designed to facilitate the analysis and interpretation of environmental data. Earth Online also features news, educational resources, and detailed mission information, making it a useful resource for anyone looking to understand our planet's dynamics and changes.
+The European Space Agency's Earth Online (ESA-EO) is a portal dedicated to providing a wealth of information on ESA's Earth observation activities and datasets. It serves as a comprehensive platform for Earth science and environmental monitoring. Users can retrieve up-to-date satellite imagery, open data from specific Earth observation missions, and a range of tools for analysis and interpretation of raw environmental data. Earth Online also shines when it comes to news, visuals and infographics plus detailed mission information and 3D models of the satellites, making it a useful resource for anyone looking to understand the planet's dynamics and changes.
+
+ESA’s EO universe holds something for everyone. It's not only for experts - there’s enough to explore if you’re new to the field.
+
+<figure><img src=".gitbook/assets/unknown.png" alt=""><figcaption><p><a href="https://visuals.earth.esa.int/">https://visuals.earth.esa.int/</a></p></figcaption></figure>
+
+{% hint style="info" %}
+ESA’s Earth Observation ecosystem is evolving from a collection of isolated, specialised tools toward integrated, cloud-based platforms that combine complete workflows of data discovery, access, processing and analysis in one single environment.&#x20;
+{% endhint %}
+
+The main components of the ESA Earth Observation platform are:
+
+1. **Mission documentation** and data feeding into:
+2. Cloudplatforms **Copernicus Data Space Ecosystem (CDSE)** and **Multi-Mission Algorithm and Analysis Platform (MAAP)**&#x20;
+3. **Sentinel Application Platform (SNAP)** and other standalone (mostly mission-specific) tools
+4. Tool documentation, learning and community knowledge exchange
+
+{% hint style="info" %}
+_European Space Agency_ vs _Copernicus_ - ESA is an intergovernmental European space agency and implementing partner for EU space programmes, and a key-partner in Copernicus. Copernicus is the EU programme providing open satellite data and operational services. ESA designs and operates the satellites that generate the data, both for the EU Copernicus programme and for ESA’s own (research-focused) missions.&#x20;
+
+_ESA Earth Online (ESA EO)_ vs _Copernicus Data Space Ecosystem (CDSE) -_ The data platforms overlap. The core of (cloud-based) CDSE consists of the Sentinel Data. ESA EO links to CDSE but also offers ESA mission-specific data and tools, plus all mission documentation.
+
+_Copernicus Browser_ vs _Copernicus Data Space Ecosystem_ - The Copernicus Browser is the main visual exploration tool within the Copernicus Data Space Ecosystem and has its own [tool description](https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground) in the Bellingcat Toolguide. They use the same Sentinel data, but CDSE serves different users with advanced features as cloud-based processing, access via API’s and support for batch analysis. The browser remains the main web-based visual interface for exploring imagery, while CDSE enables more complex and automated workflows.
+
+_SNAP_ vs _CDSE_ - Both make use of the same Copernicus Sentinel data. The difference lies in the workflow: SNAP is designed for local download and processing, while the Data Space Ecosystem enables cloud-based access and analysis without requiring local storage.
+{% endhint %}
+
+### Missions
+
+ESA EO offers detailed information on the [mission](https://earth.esa.int/eogateway/missions) programmes and separate missions:&#x20;
+
+* Earth Explorers: dedicated to specific domains, as the cryosphere, athmosphere etc. See [visuals](https://visuals.earth.esa.int/)
+* Heritage Missions: data from over 45 missions, dating back to 1977
+* Third Party Missions
+* Copernicus Sentinel Missions (also in CDSE)
+
+All mission pages link to extensive mission documentation, datasets and notebooks, research environment or webservices. Data from older, inactive missions is included in the platform to be reused in different contexts. The available datasets can also be filtered by domain and scientific instruments. ESA data and tools may gradually be integrated in one of the cloudplatforms mentioned below.&#x20;
+
+### Copernicus Data Space Ecosystem
+
+The [CDSE](./#url) provides wide range of data and services from the Copernicus Sentinel missions and some complementary data. The user-friendly Copernicus browser is a part of the wider ecosystem. The cloud-based data and processing platform provides data and documentation, with advanced features that include cloud computing, integrated jupyter notebooks, APIs, batch operations, and building workflows with openEO.&#x20;
+
+[Sentinel Online](https://sentinels.copernicus.eu/web/success-stories/europe-s-eye-on-earth-with-sentinel-satellites-and-earth-observation-data) is the ESA/Copernicus Sentinal reference site for a broad audience, with interactive views (Sentivista), visual explainers (Sentinel Succes Stories) and technical satellite documentation (SentiWiki). Feeling lost? The [Copernicus AI assistant](https://ask.copernicus.eu/) (in beta) may lead you to the right sources.&#x20;
+
+### **Multi-Mission Algorithm and Analysis Platform (MAAP)**&#x20;
+
+Where CDSE is more focused on browsing, processing and analysing, [ESA MAAP](https://earth.esa.int/eogateway/tools/esa-maap) is oriented toward scientific collaboration, with more focus on computing and advanced research and experimental workflows. The ESA Exploring Earth Catalogue and Thematic Exploitation Platforms (TEPs), previously separate entities in the EO platform and useful in OSINT research, are moving to MAAP.&#x20;
+
+### SNAP
+
+[Sentinel Application Platform (SNAP)](https://step.esa.int/main/download/snap-download/) is a desktop software application for analysing and processing Sentinel data. It contains the same Sentinel data as the CDSE and they are often used together. SNAP is available as a local download and designed for working with raw and semi-processed data. A strong point is its radar (SAR) analysis. SNAP has a GUI and can be used without any technical coding skills, but does require some technical understanding of satellite data. The STEP platform (Science Toolbox Application Platform) offers help in the form of practical guides and [tutorials](https://step.esa.int/main/doc/tutorials/) and an active [user community forum](https://forum.step.esa.int/).&#x20;
+
+
 
 ### Use Cases for European Space Agency's Earth Online
 
@@ -25,7 +77,7 @@ The European Space Agency's Earth Online portal offers a broad array of use case
 
 <figure><img src=".gitbook/assets/Screenshot 2024-07-18 at 10.36.48 AM.png" alt="The screenshot  shows the Cryo2ice tool with a search for Arctic sea ice 2022-02-06 the results show a satellite map with satellite paths and imagery of ice cover for a specific area as an inset box lower right."><figcaption><p>Screenshot of the Cryo2ice Arctic sea ice 2022-02-06 09:24</p></figcaption></figure>
 
-* **The atmosphere:**  The [Atmosphere Virtual Lab (AVL)](https://atmospherictoolbox.org/media/usecases/Usecase\_5\_aeolus.html) tool provides [Jupyter Notebooks](https://jupyter.org/) that can be used to analyze and visualize atmospheric earth observation data and the [GHGSat archive](https://earth.esa.int/eogateway/catalog/ghgsat-archive-and-tasking) contains data that monitors greenhouse gas emissions (currently CH4, but eventually CO2).
+* **The atmosphere:**  The [Atmosphere Virtual Lab (AVL)](https://atmospherictoolbox.org/media/usecases/Usecase_5_aeolus.html) tool provides [Jupyter Notebooks](https://jupyter.org/) that can be used to analyze and visualize atmospheric earth observation data and the [GHGSat archive](https://earth.esa.int/eogateway/catalog/ghgsat-archive-and-tasking) contains data that monitors greenhouse gas emissions (currently CH4, but eventually CO2).
 * **Human Activity:** The [Urban Thematic Exploitation Platform](https://urban-tep.eu/) tool requires registration but provides data and visualisation of the Global Urban Footprint and population density. The [Geohazards TEP](https://geohazards-tep.eu/) is a glacier and landslide monitoring tool that has data processed over the eastern Alps Ground Motion Service.
 * **Disaster Monitoring:** Earth Online provides a number of tools that can be used for disaster monitoring, like the [SMOS Tropical Cyclone Wind Radii Fixes](https://earth.esa.int/eogateway/catalog/smos-tropical-cyclone-wind-radii-fixes-wrf) (Registration required) and provides Near Real Time tropical cyclones forecasts.
 * **Educational Resources:** Earth online also serves as a tool for educators and students in the fields of earth sciences, geography, and environmental studies with tools like the [Heritage Missions app for iOS](https://apps.apple.com/lt/app/esa-heritage-missions/id1584783729) providing 3D visualisations of satellite instrumentation.
@@ -53,14 +105,14 @@ Some of the tools provided require Jupyter Notebook and Python programming exper
 
 * **Data Availability**: While ESA's Earth Online offers extensive datasets, certain historical data or high-resolution imagery is not be readily available due to the limitations of past missions, data retention policies or registration requirements. For instance the [The Urban Thematic Exploitation Platform](https://urban-tep.eu/) only has data available for 2015. See individual dataset for more details. There are a number of 'sample' datasets that are free but may not be up to date.
 * **Learning Curve**: New users may find the array of tools and associated interfaces challenging to navigate without prior experience in satellite data analysis or familiarity with similar platforms.
-* **Access Restrictions**: Some datasets require specific permissions or qualifications for access, limiting use for certain research or educational purposes. This also applies to tools like: the Food Security Thematic Exploitation Platform (TEP), the Hydrology TEP, and the Forestry TEP all of which require registration and organisational affiliation. See [How to Access Data](https://www.esa.int/Applications/Observing\_the\_Earth/How\_to\_access\_data) for more information.
+* **Access Restrictions**: Some datasets require specific permissions or qualifications for access, limiting use for certain research or educational purposes. This also applies to tools like: the Food Security Thematic Exploitation Platform (TEP), the Hydrology TEP, and the Forestry TEP all of which require registration and organisational affiliation. See [How to Access Data](https://www.esa.int/Applications/Observing_the_Earth/How_to_access_data) for more information.
 * **Processing Power**: Advanced data analysis and processing tasks demand significant computational resources, which may not be feasible for all users. Different tools will have different processing requirements. See the individual tool's documentation.
 * **Update Frequency**: The update intervals for some datasets may not meet the needs of users requiring real-time or near-real-time information. Different datasets will have different update frequency. See the individual dataset's documentation.
 * **Tool Functionality**: Not all the of tools are maintained and working. For instance the [Heritage Missions app for iOS](https://apps.apple.com/lt/app/esa-heritage-missions/id1584783729) doesn't allow users to search for current satellite data.
 
 ## Guide
 
-The platform acts as a guide to the tools it hosts, the main way of discovering tools is through the search interface: [https://earth.esa.int/eogateway/search?category=Tools+and+toolboxes\&tools\_type=analysis\&sortby=RELEVANCE](https://earth.esa.int/eogateway/search?category=Tools+and+toolboxes\&tools\_type=analysis\&sortby=RELEVANCE) from here filters for the different tool types (Analysis, Processing and Visualisation) can be applied. &#x20;
+The platform acts as a guide to the tools it hosts, the main way of discovering tools is through the search interface: [https://earth.esa.int/eogateway/search?category=Tools+and+toolboxes\&tools\_type=analysis\&sortby=RELEVANCE](https://earth.esa.int/eogateway/search?category=Tools+and+toolboxes\&tools_type=analysis\&sortby=RELEVANCE) from here filters for the different tool types (Analysis, Processing and Visualisation) can be applied. &#x20;
 
 The example below shows the default analysis tools search interface:
 
