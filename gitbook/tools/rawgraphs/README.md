@@ -11,7 +11,7 @@ description: >-
 ## URL
 
 [https://app.rawgraphs.io/](https://app.rawgraphs.io/)\
-(v. 2.0.1 tag created **2023‑11‑08**; public release blog **2023‑11‑09;** as of October 2025)
+(v. 2.0.1 tag created **2023‑11‑08**; public release blog **2023‑11‑09;** as of January 2026)
 
 ## Description
 
@@ -133,9 +133,9 @@ Use the tool lawfully and proportionately. Only visualize and share what is nece
 
 ## Guides and articles
 
-* **Tutorials** [**(official learning hub)**](https://www.rawgraphs.io/learning) — getting started, data loading, mapping, customization, exporting.&#x20;
+* **Tutorials** [**(official learning hub)**](https://www.rawgraphs.io/learning) — getting started, data loading, mapping, customization, exporting.
 * [**How to load & format your data**](https://www.rawgraphs.io/learning/how-to-load-and-format-your-data-for-rawgraphs) (inputs: paste/files/URL/SPARQL/samples/.rawgraphs) — _2022‑01‑28_.
-* **How to** [**export your visualization**](https://www.rawgraphs.io/learning/how-to-export-your-visualization-and-how-to-edit-it) (SVG/PNG/JPG/.rawgraphs) — _2022‑01‑28_.&#x20;
+* **How to** [**export your visualization**](https://www.rawgraphs.io/learning/how-to-export-your-visualization-and-how-to-edit-it) (SVG/PNG/JPG/.rawgraphs) — _2022‑01‑28_.
 * **On‑the‑Fly** [**Custom Charts**](https://www.rawgraphs.io/post/introducing-a-new-feature-in-rgraphs-on-the-fly-custom-chart) (feature overview & sharing) — _2023‑07‑07_.
 * **How to** [**load a custom chart**](https://www.rawgraphs.io/learning/how-to-load-a-custom-chart) (file/URL/NPM) — _2022‑01‑28_.
 
