@@ -10,7 +10,7 @@ description: >-
 ## URL
 
 [https://github.com/bellingcat/auto-archiver](https://github.com/bellingcat/auto-archiver)\
-v1.1.6 (2025‑10‑23); as of October 31, 2025
+v1.2.0 (Jan 08, 26); as of January 31, 2026
 
 ## Description
 
@@ -229,9 +229,9 @@ _(Most platform credentials are only needed if you intend to archive from that p
 * **Platform & API Dependence:** The Auto Archiver relies on third-party platforms’ APIs and front-end structures, which are subject to change. If a social media platform alters its URL format, API access, or introduces new anti-scraping measures, some extractor modules might break until updated. The tool’s maintainers actively push updates (and the tool can auto-update its yt-dlp component) to adapt to changes, but there may be [short lapses in functionality for certain sites](https://data.safetycli.com/changelogs/auto-archiver/). Additionally, some platforms (e.g. Instagram, Facebook) do not provide easy methods for third-party archiving of content, meaning the Archiver might not capture those perfectly without an authorized session or may require workarounds like providing your login cookies.
 * **Archiving Gaps for Certain Content:** The [Wayback Machine fallback does **not** fully preserve videos](https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/) or interactive media. While the Auto Archiver attempts to download media content directly (using platform APIs or scraping) so that videos are saved, if all automated methods fail and only a Wayback snapshot is taken, the result may be a page without the actual video or dynamic elements. Highly dynamic or encrypted content (such as livestreams, ephemeral stories, or posts behind certain paywalls) may not be captured completely. Furthermore, very large files or high volumes of links may exceed rate limits or cause timeouts on some services. Users should be aware of these edge cases and, when possible, manually verify that critical videos and images have been successfully saved (for example, by checking the output folder or cloud storage to confirm that media files are present).
 * **Platform volatility:** Site layout, rate‑limits and anti‑bot controls change frequently; success rates improve with valid cookies/API tokens. The [**Antibot Extractor/Enricher**](https://auto-archiver.readthedocs.io/en/latest/modules/autogen/extractor/antibot_extractor_enricher.html) mitigates some blocks but does not guarantee access.
-* **Scope:** Private/geo‑restricted/age‑gated content may require logins; [some dynamic elements or comments may be partially captured](https://auto-archiver.readthedocs.io/en/latest/modules/autogen/extractor/generic_extractor.html) depending on the module and settings. \
+* **Scope:** Private/geo‑restricted/age‑gated content may require logins; [some dynamic elements or comments may be partially captured](https://auto-archiver.readthedocs.io/en/latest/modules/autogen/extractor/generic_extractor.html) depending on the module and settings.\
   • **Web UI/API:** Hosted UI availability can fluctuate; the[ **API DB** module](https://auto-archiver.readthedocs.io/en/latest/modules/autogen/database/api_db.html) requires an API instance and token.\
-  • **Legal/ToS:** Archiving must take platform terms and applicable law into account; some workflows (e.g., automated scraping) may breach site terms if misused.&#x20;
+  • **Legal/ToS:** Archiving must take platform terms and applicable law into account; some workflows (e.g., automated scraping) may breach site terms if misused.
 
 ## Ethical Considerations
 
