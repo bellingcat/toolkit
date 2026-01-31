@@ -12,7 +12,7 @@ description: >-
 
 [https://github.com/proseltd/Telepathy-Community](https://github.com/proseltd/Telepathy-Community?utm_source=chatgpt.com)
 
-Version: Telepathy 2.3.4 (released 2024‑07‑12, as of Oct 25)
+Version: Telepathy 2.3.4 (released 2024‑07‑12; latest PyPI release as of 2026‑01‑31)
 
 ## Description
 
@@ -194,7 +194,7 @@ This feature is handy for profiling or investigating specific users in connectio
 
 {% tabs %}
 {% tab title="info" %}
-Finds users near a specific location based on longitude and latitude coordinates. It works only if the user's Telegram profile has a public image.
+Finds users near a specific location based on longitude and latitude coordinates. This feature only works if your Telegram account has a profile image set to be publicly viewable; as of v2.3.4 it also includes channel lookups. Telegram may limit how quickly an account can cycle through locations (reported as \~10 minutes).
 
 **Use Case:** This can help geolocate users based on publicly available information, which may assist in regional investigations or geospatial analysis.
 {% endtab %}
@@ -204,9 +204,9 @@ Finds users near a specific location based on longitude and latitude coordinates
 
 {% tabs %}
 {% tab title="info" %}
-Telepathy supports running multiple accounts simultaneously using alternative phone numbers. It allows users to perform parallel scans or bypass Telegram's rate limitations.
+Telepathy supports running multiple accounts simultaneously using alternative phone numbers (or alternative API details), allowing multiple scans to run at the same time (still subject to Telegram API limits per account).
 
-**Use Case:** Useful for large-scale investigations requiring multiple scans at once without being constrained by Telegram's API limitations
+**Use Case:** Useful for parallelizing large scans across accounts (e.g., when one account is cooling down), but it does not remove Telegram API limits.
 {% endtab %}
 {% endtabs %}
 
@@ -262,7 +262,7 @@ Automatically translates messages retrieved from a target chat into English, whi
 * [ ] Partially Free
 * [ ] Paid
 
-Free, with enterprise-grade versions (Telepathy Pro & TelepathyDB) available at prose.ltd for advanced needs.
+Free, with enterprise-grade versions (Telepathy Pro & TelepathyDB) available at https://prose.ltd/ for advanced needs.
 
 ## Level of difficulty
 
