@@ -519,6 +519,8 @@ Telemetr.io provides a REST API (OpenAPI v3).
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
+Basic use is point-and-click. More advanced use comes from choosing the right archive engines and interpreting gaps/partial captures across services.
+
 ## Requirements
 
 * Modern web browser.
