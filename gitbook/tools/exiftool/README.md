@@ -11,7 +11,7 @@ description: >-
 
 [https://exiftool.org/](https://exiftool.org/)
 
-current version: **13.40 (2025‑10‑24)**; latest **production** (MetaCPAN) release is **13.36 (2025‑09‑09)**
+current version: **13.48 (Jan 31, 2026)**
 
 ## Description
 
@@ -19,7 +19,7 @@ ExifTool is a cross‑platform Perl library and command‑line application for r
 
 ## Using ExifTool for Open Source Research: Code Examples and Applications
 
-ExifTool can be a helpful utility for open-source researchers. It allows for the extraction and analysis of metadata from various file types, which can reveal hidden information about digital media.
+ExifTool can be a helpful utility for open-source researchers. It allows the extraction and analysis of metadata from various file types, revealing hidden information about digital media.
 
 {% hint style="warning" %}
 Remember that all metadata can be manipulated and should never be taken at face value. Always verify metadata through independent sources or methods before drawing conclusions.
@@ -33,9 +33,9 @@ ExifTool is designed to be used from the command line (Terminal on macOS/Linux, 
 
 **Windows (standalone executable)**
 
-1. Download the Windows package from the [official ExifTool site](https://exiftool.org/) and unzip it.&#x20;
+1. Download the Windows package from the [official ExifTool site](https://exiftool.org/) and unzip it.
 2. Rename `exiftool(-k).exe` to `exiftool.exe`. (The **`(-k)`** part is intentional: it makes ExifTool **pause at the end** with a “press any key” prompt when you run it by double-clicking, so the window doesn’t immediately close.)
-3. Move **both** `exiftool.exe` **and** the `exiftool_files` folder into a directory that is in your [**PATH** (or keep them together in a folder you’ll add to PATH).](https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/)&#x20;
+3. Move **both** `exiftool.exe` **and** the `exiftool_files` folder into a directory that is in your [**PATH** (or keep them together in a folder you’ll add to PATH).](https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/)
 
 **macOS (Homebrew)**
 
