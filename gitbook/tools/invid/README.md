@@ -318,21 +318,21 @@ Uses Hiya.ai’s classifier to spot AI text-to-speech or cloned voices in WAV/MP
 
 **X Search**
 
-Performs advanced search queries on X (formerly Twitter), including precise time intervals, enhancing the ability to find relevant content.
+Performs advanced search queries on X (formerly Twitter), including precise time intervals, enhancing the ability to find relevant content. This uses the[ X's advanced search](https://bellingcat.gitbook.io/toolkit/more/all-tools/twitter-advanced-search) function.&#x20;
 
 {% tabs %}
 {% tab title="X-Search Tab" %}
-<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results" %}
-![](<.gitbook/assets/image (1).png>)
+![](<.gitbook/assets/image (1) (1).png>)
 {% endtab %}
 {% endtabs %}
 
 **Fact Check Semantic Search (Locked Feature)**
 
-Paste a sentence, paragraph or whole social-media post and the tool looks for **semantically similar fact-checks** in a [multilingual database of ≈ 300 000 verified debunks](https://cedmohub.eu/ai-solutions/tools/) from more than [160 IFCN-signatory](https://edmo.eu/edmo-news/ai-and-disinformation-edmo-hubs-initiatives/) organisations. It therefore answers the question _“Has anyone already debunked this claim?”_ even when the input language differs from the fact-check language. Claims are pulled hourly from the [**Database of Known Fakes** (DBKF)](https://arxiv.org/pdf/2504.20668) back-end, which aggregates RSS, ClaimReview, and custom scrapers.
+Paste a sentence, paragraph, or whole social-media post, and the tool looks for **semantically similar fact-checks** in a [multilingual database of ≈ 300 000 verified debunks](https://cedmohub.eu/ai-solutions/tools/) from more than [160 IFCN-signatory](https://edmo.eu/edmo-news/ai-and-disinformation-edmo-hubs-initiatives/) organisations. It therefore answers the question _“Has anyone already debunked this claim?”_ even when the input language differs from the fact-check language. Claims are pulled hourly from the [**Database of Known Fakes** (DBKF)](https://arxiv.org/pdf/2504.20668) back-end, which aggregates RSS, ClaimReview, and custom scrapers.
 
 {% tabs %}
 {% tab title="Fact Check Semantic Search" %}
@@ -397,10 +397,6 @@ CrowdTangle is permanently gone. We hope that this feature will not disappear bu
 <figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
-
-#### WACZ Export _(Locked Feature)_
-
-Packages selected URLs, keyframes, or images into a forensically sound **WACZ** bundle for long-term preservation and evidence sharing. Accessible to registered fact-checkers under the IFCN DisinfoArchiving project (2024-25). The feature description appears in the [extension overview](https://chromewebstore.google.com/detail/fake-news-debunker-by-inv/mhccpoafgdgbhnjfhkcmgknndkeenfhe?hl=en), but didn't appear to work at the time of testing.
 
 ## Cost
 
