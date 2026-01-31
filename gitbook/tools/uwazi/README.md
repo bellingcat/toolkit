@@ -11,7 +11,7 @@ description: >-
 ## URL
 
 [https://uwazi.io/](https://uwazi.io/)\
-latest stable 1.228.82 (2025‑10‑29); checked October 31st, 2025
+latest stable 1.228.180 (Jan 30, 2026)
 
 ## Description
 
@@ -25,7 +25,9 @@ Uwazi offers two deployment options: **self-hosted (free)** and **hosted**. With
 
 On the other hand, the **hosted** option involves using Uwazi’s managed hosting service, where the platform is hosted and maintained by [HURIDOCS](https://huridocs.org/). This option is ideal for organizations that prefer a hassle-free setup with support and regular updates handled by the Uwazi team. While hosted services typically involve a cost beyond the initial free 30-day trial, they offer the convenience of professional management, enhanced security, and reliable uptime, making it a suitable choice for organizations with limited technical resources.
 
-Since April 2025, HURIDOCS has shipped[ integrated machine‑learning features](https://huridocs.org/2025/04/using-machine-learning-in-uwazi-to-support-human-rights-documentation-work/) that assist with translation, metadata/NER extraction, topic suggestions, and PDF‑focused workflows (segmentation and table‑of‑contents generation). Some functions are powered by optional external services HURIDOCS maintains as open source.&#x20;
+Since April 2025, HURIDOCS has shipped[ integrated machine‑learning features](https://huridocs.org/2025/04/using-machine-learning-in-uwazi-to-support-human-rights-documentation-work/) that assist with translation, metadata/NER extraction, topic suggestions, and PDF‑focused workflows (segmentation and table‑of‑contents generation). Some functions are powered by optional external services HURIDOCS maintains as open source.
+
+[Integration with Tella](https://huridocs.org/2026/01/the-new-tella-app-lets-uwazi-users-document-violations-safely-and-while-offline/): Tella (by Horizontal) is a secure mobile documentation app that can connect to a private or public Uwazi collection. It supports encrypted capture/storage of photos, videos, audio and documents (separate from the device gallery), optional ‘verification mode’ metadata, and offline data entry with ‘submit later’ syncing once connectivity returns. Uwazi templates can be downloaded into Tella for structured field documentation.
 
 <div><figure><img src=".gitbook/assets/Screenshot 2024-09-25 115523.png" alt=""><figcaption><p>This screenshot illustrates Uwazi’s geospatial mapping capability, allowing users to visually pinpoint and organize documented information by location.</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2024-09-25 115546.png" alt=""><figcaption><p>Uwazi’s functionality for defining and managing relationships between different categories or templates of information. It shows how various entity types (e.g., Organization, Incident, Individuals) can be connected, enabling users to structure their data and understand links between different records.</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2024-09-25 115606.png" alt=""><figcaption><p>This screenshot illustrates Uwazi’s metadata configuration capabilities, showing how administrators can define, edit, and organize custom fields (e.g., text, numeric, relationships, links) to structure the information collected about a particular entity type.</p></figcaption></figure></div>
 
@@ -81,7 +83,7 @@ Uwazi offers a flexible pricing structure. The **self-hosted** version is **free
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>4</td></tr></tbody></table>
 
 ## Requirements
 
