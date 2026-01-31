@@ -16,7 +16,7 @@ Gephi is a free, open-source tool for network visualization and analysis, widely
 
 Gephi has the ability to create [detailed](https://www.youtube.com/watch?v=GXtbL8avpik), interactive, and [visually compelling ](https://gephi.wordpress.com/2018/11/01/is-gephi-obsolete-situation-and-perspectives/)network graphs. This visual appeal helps to highlight complex relationships within data, making it easier for journalists to uncover hidden links between entities like individuals, companies, or groups. This capability can be particularly valuable for investigative stories where clear visual representation of connections can be crucial for audience understanding.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Visualization of a network of Telegram actors. (by J.Weißer, M.Engel, C.Jelonek, M. Hallbach, 2024, used with permission)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Sequence 01.gif" alt="X-social network visualized using Gephi Lite "><figcaption></figcaption></figure>
 
 ### Core Social Network Analysis Metrics
 
@@ -36,13 +36,13 @@ Gephi includes built-in support for computing **key metrics** that help identify
 
 <summary>Further important concepts and metrics available in Gephi</summary>
 
-#### **Core Concepts**
+**Core Concepts**
 
 * **Weighted vs. Unweighted Metrics:** Many of these measures (degree, clustering coefficient, path length, centralities) can be computed in both unweighted (treating all edges equally) and weighted modes (if your edges have an associated weight).
 * **Directed vs. Undirected Graphs:** For directed graphs (e.g., Twitter follow networks), some metrics like in-degree/out-degree, PageRank, and HITS become crucial. In undirected graphs (e.g., co-appearance networks), you only have a single “degree” measure.
 * **Plugins & Experimental Metrics:** Gephi’s plugin repository may offer additional statistical measures or variants (for example, advanced community detection algorithms, [Hierarchical Edge Bundling](https://gephi.wordpress.com/tag/edge-bundling/), [timeline-based metrics](https://gephi.org/plugins/#/plugin/eventgraphlayout), or [new centrality formulas](https://gephi.org/plugins/#/plugin/bridge-gephi-plugin)). Be sure to check the Gephi Plugin Center if you need specialized metrics.
 
-#### Graph-Level Metrics
+**Graph-Level Metrics**
 
 1. **Average Degree**
    * **What it is:** The mean number of connections (edges) each node has.
@@ -68,7 +68,7 @@ Gephi includes built-in support for computing **key metrics** that help identify
 
 ***
 
-#### Node-Level Metrics
+**Node-Level Metrics**
 
 8. **Degree** / **Weighted Degree**
    * **What it is:** The count of direct connections each node has. In weighted graphs, edges can have a “weight,” and Weighted Degree sums those edge weights.
@@ -141,7 +141,7 @@ Gephi has an **active user community** that can provide help and share tips. The
   – **Programmatic use:** **Gephi Toolkit** 0.10.0 (released **2023‑03‑08**). Toolkit releases
 
 • **Optional dependencies:**\
-– A GPU/driver with stable **OpenGL** support improves interactivity; outdated/virtualized graphics can cause rendering issues.&#x20;
+– A GPU/driver with stable **OpenGL** support improves interactivity; outdated/virtualized graphics can cause rendering issues.
 
 ## Limitations
 
