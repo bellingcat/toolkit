@@ -8,7 +8,7 @@ description: Download pictures or videos (with metadata) from Instagram.
 ## URL
 
 [https://instaloader.github.io](https://instaloader.github.io)\
-v4.14.2 (2025‑07‑18), last checked Oct. 31st 2025
+v4.15 (Nov 18, 2025), as of Jan 2026
 
 {% hint style="warning" %}
 Usage may lead to the loss of the Instagram account being used. Please see Limitations and Ethical Considerations before using this tool.
@@ -16,8 +16,8 @@ Usage may lead to the loss of the Instagram account being used. Please see Limit
 
 ## Description
 
-Instaloader lets you save Instagram content for documentation and analysis. It can download posts, videos, Stories, Highlights, Reels, and profile pictures. It also exports captions, timestamps, and geotags so you keep context with the media.\
-Investigators typically use it to archive a profile, collect evidence before takedowns, or fetch posts for later review. Logged-in mode provides access to your feed, saved posts, and followed accounts, where permitted.\
+Instaloader lets you save Instagram content for documentation and analysis. It can download posts, videos, Stories, Highlights, Reels, and profile pictures. It also exports captions, timestamps, and geotags, so you keep context with the media.\
+Investigators typically use it to archive profiles, collect evidence before takedowns, or retrieve posts for later review. Logged-in mode provides access to your feed, saved posts, and followed accounts, where permitted.\
 You can run it from the command line or script it in Python. It supports resuming interrupted downloads and only grabs new items to keep an archive up to date.
 
 1. **Media Downloading**:
@@ -26,8 +26,8 @@ You can run it from the command line or script it in Python. It supports resumin
    * Allows downloading from private profiles if you follow the account or provide valid credentials.
    * Offers optional parameters to limit downloads (e.g., specific sidecar slides, date ranges, post filters).
 2. **Automation and Customization**:
-   * Automatically detects profile name changes and renames the target directory accordingly.
-   * It supports resuming downloads from previously interrupted sessions, both at the command-line level (JSON resume files) and via the Python API.
+   * Automatically detects changes to the profile name and renames the target directory accordingly.
+   * It supports resuming downloads from previously interrupted sessions, both via the command line (JSON resume files) and via the Python API.
    * Offers fine-grained control over what to download through various filters (e.g., specific date ranges, post types) and customization of directory and filename patterns.
    * Can be configured for automated tasks (e.g., cron jobs) using `--quiet` mode and persistent session files.
 
