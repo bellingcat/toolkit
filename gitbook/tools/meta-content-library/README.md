@@ -1,9 +1,9 @@
 ---
+updated: '2026-01-02'
 description: >-
   Meta Content Library is a controlled-access tool that lets approved academic
   and non-profit researchers search the full public archive of Facebook,
   Instagram, and Threads posts, in near-real-time.
-updated: '2026-01-02'
 ---
 
 # Meta Content Library
@@ -22,7 +22,7 @@ While this is a free tool, access is strictly limited. However, _any_ researcher
 Free compute on SOMAR’s Virtual Data Enclave ends on **2025‑12‑31**. Starting **January 2026**, SOMAR will charge **$371 USD per research team per month** of VDE access; **new VDE teams** created in 2026 or later will also incur a **one‑time $1,000 USD** project‑start fee. Meta’s Secure Research Environment (SRE) continues to offer **free compute**. See [SOMAR’s FAQ for details](https://somar.atlassian.net/wiki/spaces/somardocs/pages/395149314/FAQ+New+secure+computing+options+for+Meta+Content+Library+API) published Sept. 15th 2025.
 {% endhint %}
 
-<p align="center">(as of Oct 31st, 2025)<br></p>
+<p align="center">(as of Jan 31st, 2026)<br></p>
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -85,9 +85,9 @@ The platform features:
 * [ ] Partially Free
 * [ ] Paid
 
-**UI access:** free for approved researchers.&#x20;
+**UI access:** free for approved researchers.
 
-**API compute:** free on Meta’s Secure Research Environment (SRE).&#x20;
+**API compute:** free on Meta’s Secure Research Environment (SRE).
 
 **SOMAR VDE:** ICPSR notes fees begin **January 2026** (one‑time **USD 1,000** per new team + **USD 371/month**).
 
@@ -102,12 +102,12 @@ The **web UI** is point‑and‑click and suitable for non‑coders. The **API**
 * **Access limits:** Combined UI+API retrieval cap of **500,000 records per rolling 7 days** per researcher; **CSV downloads count against this total**. API rate caps: **60 synchronous searches/min** and **1 asynchronous job/min**. [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library-api/guides/rate-limiting/?utm_source=chatgpt.com)
 * **Coverage notes:** Threads is currently **UI‑only** for browsing; CSV downloads are documented for **Facebook & Instagram** content posted by widely‑known accounts. [Transparency](https://transparency.meta.com/researchtools/meta-content-library?utm_source=chatgpt.com)
 * **Feature scope:** OCR matches are **not phrase‑searchable** and are limited to ≈**180 days** of images. [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library/?utm_source=chatgpt.com)
-* **Changelog awareness:** Meta’s 2025‑06‑30 update added new surfaces (e.g., Instagram **Story highlights**, **Facebook Gaming** videos) and filters; **MCL v3.0** was deprecated on **2025‑07‑31**.  [Transparency](https://transparency.meta.com/MCL-API-update-supporting-independent-research?utm_source=chatgpt.com)
+* **Changelog awareness:** Meta’s 2025‑06‑30 update added new surfaces (e.g., Instagram **Story highlights**, **Facebook Gaming** videos) and filters; **MCL v3.0** was deprecated on **2025‑07‑31**. [Transparency](https://transparency.meta.com/MCL-API-update-supporting-independent-research?utm_source=chatgpt.com)
 * **Legal/ToS:** Use is governed by ICPSR agreements and Meta developer policies; some fields/surfaces vary by region or legal restrictions. [somar.atlassian.net](https://somar.atlassian.net/wiki/spaces/somardocs/pages/249397299/SOMAR%2BData%2BAccess%2BApplication%2BGuide?utm_source=chatgpt.com)
 
 ## Requirements
 
-* **Eligibility & application:** Affiliation with a **qualified academic or research institution**; [apply](https://developers.facebook.com/docs/content-library-and-api/get-access/) via [**ICPSR**](https://somar.atlassian.net/wiki/spaces/somardocs/pages/249397299/SOMAR%2BData%2BAccess%2BApplication%2BGuide)**/SOMAR** (UI and [API ](https://developers.facebook.com/docs/content-library-and-api/content-library/)have different application steps). ICPSR reviews and coordinates approvals; downloads are enabled only for ICPSR‑approved users.&#x20;
+* **Eligibility & application:** Affiliation with a **qualified academic or research institution**; [apply](https://developers.facebook.com/docs/content-library-and-api/get-access/) via [**ICPSR**](https://somar.atlassian.net/wiki/spaces/somardocs/pages/249397299/SOMAR%2BData%2BAccess%2BApplication%2BGuide)**/SOMAR** (UI and [API ](https://developers.facebook.com/docs/content-library-and-api/content-library/)have different application steps). ICPSR reviews and coordinates approvals; downloads are enabled only for ICPSR‑approved users.
 * **Environments:** Choose **SOMAR Virtual Data Enclave (VDE)** or **Meta Secure Research Environment (SRE)** for API work. UI access is hosted by Meta and is separate. [somar.atlassian.net](https://somar.atlassian.net/wiki/spaces/somardocs/pages/249397299/SOMAR%2BData%2BAccess%2BApplication%2BGuide?utm_source=chatgpt.com)
 * **Access & auth:** After approval, log in to SRE and launch a **Jupyter** session via **Amazon WorkSpaces Secure Browser** to use the API client. [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library-api/getting-started/?utm_source=chatgpt.com)
 * **Supported modules/features (selected):**\
