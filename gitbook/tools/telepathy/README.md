@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-31'
+updated: '2026-01-31'
 description: >-
   Telepathy is a versatile Telegram toolkit for OSINT analysts, enabling chat
   archiving, memberlist gathering, user location lookup, top poster analysis,

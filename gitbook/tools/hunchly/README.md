@@ -2,6 +2,7 @@
 description: >-
   An archiving tool that tracks online activities and preserves essential
   information about the web pages researchers visit.
+updated: '2026-02-01'
 ---
 
 # Hunchly

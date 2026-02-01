@@ -1,5 +1,5 @@
 ---
-updated: '2025-11-01'
+updated: '2026-01-31'
 description: >-
   Bellingcat's tool to automatically archive social media posts, videos, and
   images. Free and Open-Source.

@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-02'
+updated: '2026-01-31'
 description: Check usernames across more than 400 websites and social networks.
 ---
 
