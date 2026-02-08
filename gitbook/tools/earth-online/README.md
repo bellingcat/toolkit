@@ -134,6 +134,8 @@ Complement ESA raw data with thematic platforms such as [Global Forest Watch](ht
 
 See the specific tools for documentation and guides. The [ESA EO platform](https://earth.esa.int/eogateway/tools) directs to all platforms and tools. Filters for the different tool types (Analysis, Processing and Visualisation) can be applied, but note that most of those steps are now combined in growing cloud platforms.&#x20;
 
+The Copernicus Data Space Ecosystem offers introductory videos and tutorials on [Youtube](https://www.youtube.com/@copernicusdataspaceecosystem/videos).
+
 ## Tool provider
 
 European Space Agency [https://www.esa.int/](https://www.esa.int/)
