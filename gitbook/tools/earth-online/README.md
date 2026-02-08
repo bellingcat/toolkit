@@ -99,6 +99,10 @@ The European Space Agency's Earth Online portal offers a broad array of use case
 
 These use cases highlight the versatility of the Earth Online portal in supporting a wide range of scientific research, educational, and applied environmental management activities.
 
+{% hint style="success" %}
+Complement with thematic platforms such as [Global Forest Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-forest-watch) (deforestation), [Aqueduct](https://www.wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false\&basemap=hydro\&indicator=w_awr_def_tot_cat\&lat=30\&lng=-80\&mapMode=view\&month=1\&opacity=0.5\&ponderation=DEF\&predefined=false\&projection=absolute\&scenario=optimistic\&scope=baseline\&threshold\&timeScale=annual\&year=baseline\&zoom=3) (water stress, flood risks), [Global Fishing Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map) (fishing activity) or [Deep Sea Mining Watch](https://www.deepseaminingwatch.msi.ucsb.edu/) (seabed mining); those tools can be used to find patterns or hot spots. Then use the ESA Earth Online data and tools for raw satellite imagery to verify or analyse changes over time.&#x20;
+{% endhint %}
+
 ## Cost
 
 * [x] Free
@@ -109,29 +113,23 @@ These use cases highlight the versatility of the Earth Online portal in supporti
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>4</td></tr></tbody></table>
 
-Some of the tools provided require Jupyter Notebook and Python programming experience or a high degree of knowledge about remote sensing and satellite imagery.
-
 ## Requirements
 
-* Web: any modern web browser (individual tools will have specific requirements documented inline)
-* Desktop: many of the tools provided can be run on a desktop or cloud provider (see the individual tool for further details).
+* [**EO Sign-In**](https://eoiam-idp.eo.esa.int/): the majority of tools and platforms use one and the same SSO (single sign on) account. Registering is free and only requires an email adress and basic profile information, and is open to independent journalists and researchers. Documentation and local installed tools (such as SNAP) are accessible without login. Some of the advanced tools (MAAP) may need an addittional request to access workspaces.&#x20;
+* **Cloud access** does not require more than a modern web browser and a solid connection. Locally installed tools will need sufficient memory and storage for processing the generally large Earth Observation files. See the individual tools for further details.&#x20;
+* **Advanced skills:** Some of the tools require Jupyter Notebook and Python programming experience or higher level expertise in methodology, remote sensing and satellite imagery.
 
 ## Limitations
 
-* **Data Availability**: While ESA's Earth Online offers extensive datasets, certain historical data or high-resolution imagery is not be readily available due to the limitations of past missions, data retention policies or registration requirements. For instance the [The Urban Thematic Exploitation Platform](https://urban-tep.eu/) only has data available for 2015. See individual dataset for more details. There are a number of 'sample' datasets that are free but may not be up to date.
-* **Learning Curve**: New users may find the array of tools and associated interfaces challenging to navigate without prior experience in satellite data analysis or familiarity with similar platforms.
-* **Access Restrictions**: Some datasets require specific permissions or qualifications for access, limiting use for certain research or educational purposes. This also applies to tools like: the Food Security Thematic Exploitation Platform (TEP), the Hydrology TEP, and the Forestry TEP all of which require registration and organisational affiliation. See [How to Access Data](https://www.esa.int/Applications/Observing_the_Earth/How_to_access_data) for more information.
-* **Processing Power**: Advanced data analysis and processing tasks demand significant computational resources, which may not be feasible for all users. Different tools will have different processing requirements. See the individual tool's documentation.
+* **Data Availability**: While ESA's Earth Online offers extensive datasets, certain historical data or high-resolution imagery is not be readily available due to the limitations of past missions, data retention policies or registration requirements. Some older or sample datasets may not be up to date.&#x20;
 * **Update Frequency**: The update intervals for some datasets may not meet the needs of users requiring real-time or near-real-time information. Different datasets will have different update frequency. See the individual dataset's documentation.
-* **Tool Functionality**: Not all the of tools are maintained and working. For instance the [Heritage Missions app for iOS](https://apps.apple.com/lt/app/esa-heritage-missions/id1584783729) doesn't allow users to search for current satellite data.
+* **Tool Functionality**: Older tools may not be maintained and working.&#x20;
 
 ## Guide
 
-The platform acts as a guide to the tools it hosts, the main way of discovering tools is through the search interface: [https://earth.esa.int/eogateway/search?category=Tools+and+toolboxes\&tools\_type=analysis\&sortby=RELEVANCE](https://earth.esa.int/eogateway/search?category=Tools+and+toolboxes\&tools_type=analysis\&sortby=RELEVANCE) from here filters for the different tool types (Analysis, Processing and Visualisation) can be applied.
+<figure><img src=".gitbook/assets/afbeelding (1).png" alt=""><figcaption></figcaption></figure>
 
-The example below shows the default analysis tools search interface:
-
-<figure><img src=".gitbook/assets/Screenshot 2024-04-16 at 12.57.28 PM.png" alt="Screenshot of default analysis tools search interface."><figcaption><p>Screenshot of default analysis tools search interface.</p></figcaption></figure>
+See the specific tools for documentation and guides. The [ESA EO platform](https://earth.esa.int/eogateway/tools) points to the cloud platforms and tools. Filters for the different tool types (Analysis, Processing and Visualisation) can be applied, but note that most of those steps are now combined in growing cloud platforms.&#x20;
 
 ## Tool provider
 
@@ -143,7 +141,7 @@ European Space Agency [https://www.esa.int/](https://www.esa.int/)
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat Volunteer Team/Unassigned |
-|                                      |
+| Page maintainer                   |
+| --------------------------------- |
+| Bellingcat Volunteer Team/Lavache |
+|                                   |
