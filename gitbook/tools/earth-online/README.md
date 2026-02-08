@@ -115,21 +115,21 @@ Complement with thematic platforms such as [Global Forest Watch](https://belling
 
 ## Requirements
 
-* [**EO Sign-In**](https://eoiam-idp.eo.esa.int/): the majority of tools and platforms use one and the same SSO (single sign on) account. Registering is free and only requires an email adress and basic profile information, and is open to independent journalists and researchers. Documentation and local installed tools (such as SNAP) are accessible without login. Some of the advanced tools (MAAP) may need an addittional request to access workspaces.&#x20;
+* [**EO Sign-In**](https://eoiam-idp.eo.esa.int/): the majority of tools and platforms use one and the same SSO (single sign on) account. Registering is free and only requires an email adress and basic profile information, and is open to independent journalists and researchers. Documentation and local installed tools (such as SNAP) are accessible without login. Some of the advanced tools (MAAP) may need an additional request to access workspaces.&#x20;
 * **Cloud access** does not require more than a modern web browser and a solid connection. Locally installed tools will need sufficient memory and storage for processing the generally large Earth Observation files. See the individual tools for further details.&#x20;
 * **Advanced skills:** Some of the tools require Jupyter Notebook and Python programming experience or higher level expertise in methodology, remote sensing and satellite imagery.
 
 ## Limitations
 
-* **Data Availability**: While ESA's Earth Online offers extensive datasets, certain historical data or high-resolution imagery is not be readily available due to the limitations of past missions, data retention policies or registration requirements. Some older or sample datasets may not be up to date.&#x20;
-* **Update Frequency**: The update intervals for some datasets may not meet the needs of users requiring real-time or near-real-time information. Different datasets will have different update frequency. See the individual dataset's documentation.
+* **Data Availability**: While ESA's Earth Online offers extensive datasets, certain historical data or high-resolution imagery may not be readily available due to the limitations of past missions, data retention policies or registration requirements.&#x20;
+* **Update Frequency**: The update intervals for some datasets may not meet the needs of users requiring real-time or near-real-time information. Different datasets will have different update frequency. Some older or sample datasets may not be up to date. See the individual dataset's documentation.
 * **Tool Functionality**: Older tools may not be maintained and working.&#x20;
 
 ## Guide
 
 <figure><img src=".gitbook/assets/afbeelding (1).png" alt=""><figcaption></figcaption></figure>
 
-See the specific tools for documentation and guides. The [ESA EO platform](https://earth.esa.int/eogateway/tools) points to the cloud platforms and tools. Filters for the different tool types (Analysis, Processing and Visualisation) can be applied, but note that most of those steps are now combined in growing cloud platforms.&#x20;
+See the specific tools for documentation and guides. The [ESA EO platform](https://earth.esa.int/eogateway/tools) points to the platforms and tools. Filters for the different tool types (Analysis, Processing and Visualisation) can be applied, but note that most of those steps are now combined in growing cloud platforms.&#x20;
 
 ## Tool provider
 
