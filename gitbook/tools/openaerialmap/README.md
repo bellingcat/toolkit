@@ -20,7 +20,7 @@ OpenAerialMap (OAM) is a platform providing open access to a wide range of satel
 
 Note that OAM provides static imagery that can be aligned onto a map layer. This is not a platform for accessing drone videos.
 
-OAM imagery are uploaded by various sources such as humanitarian organizations, drone operators (including individuals), satellite imagery providers, government surveying agencies. All imagery are publicly licensed, and should be attributed to the [Open Imagery Network (OIN)](https://openimagerynetwork.github.io/) of the Humanitarian OpenStreetMap Team. See Licensing information on the [About](https://openaerialmap.org/about/) page.&#x20;
+OAM imagery are uploaded by various sources such as humanitarian organizations, drone operators (including individuals), satellite imagery providers, government surveying agencies. All imagery are publicly licensed, and should be attributed to the [Open Imagery Network](https://openimagerynetwork.github.io/) (OIN) of the Humanitarian OpenStreetMap Team. See Licensing information on the [About](https://openaerialmap.org/about/) page.&#x20;
 
 Compared to aerial imagery captured by aircraft, UAV (or drones) fly at lower altitudes, allowing granular close-ups of small, specific sites. However, UAV imagery will be limited in range and weather conditions.&#x20;
 
