@@ -160,7 +160,7 @@ Login is not required to access the imagery. (A user account is needed for API a
 
 * The website has a graphical user interface where users can request the dataset they need — users will specify the location (coordinates or indicate on map), data output type (e.g., ARC ASCII Grid, GeoTiff), and the type of visualization needed. The DEM (Digital Elevation Model) from LiDAR data will then be available for download.&#x20;
 
-**Environmental monitoring purposes**: [Global Forest Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-forest-watch) currently offers low resolution Sentinel-2 (10m res) & Landsat 8 (30m res) imagery for near real-time checks. See the [Bellingcat Toolkit guide to Global Forest Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-forest-watch) here.&#x20;
+**Environmental monitoring purposes**: [Global Forest Watch](https://www.globalforestwatch.org/map/) currently offers low resolution Sentinel-2 (10m res) & Landsat 8 (30m res) imagery for near real-time checks. See the [Bellingcat Toolkit guide to Global Forest Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-forest-watch) here.&#x20;
 
 **National portals of geodata:** At the national level, sites such as the [USGS Earth Explorer](https://earthexplorer.usgs.gov/) or [UK Environment Agency’s LIDAR portal](https://environment.data.gov.uk/DefraDataDownload/) have some aerial imagery, but usually from aircrafts and not from UAVs.&#x20;
 
