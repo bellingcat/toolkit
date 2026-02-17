@@ -128,7 +128,7 @@ Login is not required to access the imagery. (A user account is needed for API a
 * **Coverage:** Not all locations will have up-to-date or high-resolution imagery.
 * **Licensing:** Most content is openly licensed under Creative Commons, but some datasets may have attribution or use restrictions; check the metadata.
 * **Delay:** Compared to low-res satellite imagery, there may be a significant delay between drone image capture and upload to the platform.
-* **Data accuracy considerations**: Researchers should be aware that drone imagery could have been uploaded with inaccuracies in date/time stamps and GPS coordinates. Inaccuracies can be caused bby GPS drift, firmware bugs, incorrect software settings, or manual input errors, leading to misalignment. As always, researchers should inspect images for missing data or corruption, and use checkpoints (known points not used in processing) to verify the image-to-map accuracy.
+* **Data accuracy considerations**: Researchers should be aware that drone imagery could have been uploaded with inaccuracies in date/time stamps and GPS coordinates. Inaccuracies can be caused by GPS drift, firmware bugs, incorrect software settings, or manual input errors, leading to misalignment. As always, researchers should inspect images for missing data or corruption, and use checkpoints (known points not used in processing) to verify the image-to-map accuracy.
 
 ## Ethical Considerations
 
