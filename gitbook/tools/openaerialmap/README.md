@@ -22,7 +22,7 @@ Note that OAM provides static imagery that can be aligned onto a map layer. This
 
 OAM imagery are uploaded by various sources such as humanitarian organizations, drone operators (including individuals), satellite imagery providers, government surveying agencies. All imagery are publicly licensed, and should be attributed to the [Open Imagery Network](https://openimagerynetwork.github.io/) (OIN) of the Humanitarian OpenStreetMap Team. See Licensing information on the [About](https://openaerialmap.org/about/) page.&#x20;
 
-Compared to aerial imagery captured by aircraft, UAV (or drones) fly at lower altitudes, allowing granular close-ups of small, specific sites. However, UAV imagery will be limited in range and weather conditions.&#x20;
+Compared to aerial imagery captured by aircraft, UAV (or drones) fly at lower altitudes, allowing granular close-ups of small, specific sites. However, UAV imagery will be limited in [range](https://beyondsky.xyz/blog/hardware/how-far-do-drones-fly-explore-flight-range-and-real-world-limits-in-2025) and [weather conditions](https://doi.org/10.1038/s41598-021-91325-w).&#x20;
 
 #### OAM - Basic navigation
 
