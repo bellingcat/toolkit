@@ -46,7 +46,7 @@ An example image is shown below.&#x20;
 
 <figure><img src=".gitbook/assets/ueswatini (3).png" alt="Example imagery of the University of Eswatini"><figcaption><p>Example: image of University of Eswatini uploaded by Mdumiseni Wisdom D. Dlamini.  </p></figcaption></figure>
 
-Marked in the orange rectangle, click the download button (left) to download the raw .tiff file. Or click the zoom button (right) to fit the imagery on the screen. The imagery is aligned to the map layer.&#x20;
+Marked in the orange rectangle, click the download button (left) to download the raw [.tiff](https://en.wikipedia.org/wiki/TIFF) file. Or click the zoom button (right) to fit the imagery on the screen. The imagery is aligned to the map layer.&#x20;
 
 **Tips**:&#x20;
 
