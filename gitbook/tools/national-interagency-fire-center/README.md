@@ -42,7 +42,7 @@ None.
 
 ## Guides and articles
 
-None.
+[Scientific Data](https://www.nature.com/articles/s41597-025-05208-0): This study is an example of how NIFC data can be used.
 
 ## Tool provider
 
