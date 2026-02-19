@@ -150,7 +150,7 @@ Login is not required to access the imagery. (A user account is needed for API a
 
 ## Tool provider
 
-&#x20;[Humanitarian OpenStreetMap Team (HOT)](https://www.hotosm.org/en/tools-resources/tech-product-suite/open-aerial-map/)
+&#x20;[Humanitarian OpenStreetMap Team (HOT)](https://www.hotosm.org/en/tools-resources/tech-product-suite/open-aerial-map/), United States.
 
 ## Similar tools
 
