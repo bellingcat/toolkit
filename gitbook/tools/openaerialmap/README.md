@@ -20,7 +20,7 @@ OpenAerialMap (OAM) is a platform providing open access to a wide range of satel
 
 Note that OAM provides static imagery that can be aligned onto a map layer. This is not a platform for accessing drone videos.
 
-OAM imagery are uploaded by various sources such as humanitarian organizations, drone operators (including individuals), satellite imagery providers, government surveying agencies. All imagery are publicly licensed, and should be attributed to the [Open Imagery Network](https://openimagerynetwork.github.io/) (OIN) of the Humanitarian OpenStreetMap Team. See Licensing information on the [About](https://openaerialmap.org/about/) page.&#x20;
+Anyone can [upload aerial or UAV imagery](https://docs.openaerialmap.org/uploader/uploader-form/) to OAM. Through various initiatives, OAM imagery have been provided by [humanitarian organizations](https://www.hotosm.org/en/news/collaborating-and-reaching-greater-impact-in-emergency-response/), [drone operators](https://uav-guidelines.openaerialmap.org/pdfs/09-after-the-flight.pdf) (including individuals), satellite imagery providers, and government [surveying](https://documents1.worldbank.org/curated/en/439981584943367620/pdf/Technical-Guidelines-for-Small-Island-Mapping-with-UAVs.pdf) [agencies](https://www.elrha.org/projects/openaerialmap-diffusion). All imagery are publicly licensed, and should be attributed to the [Open Imagery Network](https://openimagerynetwork.github.io/) (OIN) of the Humanitarian OpenStreetMap Team. See Licensing information on the [About](https://openaerialmap.org/about/) page.&#x20;
 
 Compared to aerial imagery captured by aircraft, UAV (or drones) fly at lower altitudes, allowing granular close-ups of small, specific sites. However, UAV imagery will be limited in [range](https://beyondsky.xyz/blog/hardware/how-far-do-drones-fly-explore-flight-range-and-real-world-limits-in-2025) and [weather conditions](https://doi.org/10.1038/s41598-021-91325-w).&#x20;
 
@@ -128,7 +128,7 @@ Login is not required to access the imagery. (A user account is needed for API a
 * **Coverage:** Not all locations will have up-to-date or high-resolution imagery.
 * **Licensing:** Most content is openly licensed under Creative Commons, but some datasets may have attribution or use restrictions; check the metadata.
 * **Delay:** Compared to low-res satellite imagery, there may be a significant delay between drone image capture and upload to the platform.
-* **Data accuracy considerations**: Researchers should be aware that drone imagery could have been uploaded with inaccuracies in date/time stamps and GPS coordinates. Inaccuracies can be caused by GPS drift, firmware bugs, incorrect software settings, or manual input errors, leading to misalignment. As always, researchers should inspect images for missing data or corruption, and use checkpoints (known points not used in processing) to verify the image-to-map accuracy.
+* **Data accuracy considerations**: Researchers should be aware that drone imagery could have been uploaded with inaccuracies in date/time stamps and GPS coordinates. Inaccuracies can be caused by [GPS drift](https://pocketfinder.com/docs/drift-inaccurate-tracking/), firmware bugs, incorrect software settings, or manual input errors, leading to misalignment. As always, researchers should inspect images for missing data or corruption, and use checkpoints (known points not used in processing) to verify the image-to-map accuracy.
 
 ## Ethical Considerations
 
