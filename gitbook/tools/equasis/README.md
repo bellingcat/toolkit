@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-16'
+updated: '2026-02-20'
 description: >-
   Equasis provides vessel ownership and safety records, as well as shipping
   company fleet information.
