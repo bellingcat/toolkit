@@ -1,3 +1,5 @@
 # Table of contents
 
-* [Page](README.md)
+* [deep-sea-mining-watch](README.md)
+* [Categories](categories.md)
+* [Regions](regions.md)
