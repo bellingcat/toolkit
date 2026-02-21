@@ -255,7 +255,7 @@
     "object": "team",
     "id": "5FSWW1iTufXAJ7UbG7SR",
     "title": "Octoparse",
-    "members": 1,
+    "members": 2,
     "spaces": 1,
     "createdAt": "2025-10-17T13:23:56.227Z",
     "permissions": {
@@ -651,7 +651,7 @@
     "object": "team",
     "id": "Ax1mKKSv2d13nA1wg2Ul",
     "title": "Blackbird",
-    "members": 1,
+    "members": 2,
     "spaces": 1,
     "createdAt": "2024-06-04T01:28:01.781Z",
     "permissions": {
@@ -975,7 +975,7 @@
     "object": "team",
     "id": "FjELTrFVzBsg2ktE3wKZ",
     "title": "Auto Archiver",
-    "members": 2,
+    "members": 3,
     "spaces": 1,
     "createdAt": "2024-07-25T17:43:23.232Z",
     "permissions": {
@@ -1194,6 +1194,18 @@
     "members": 1,
     "spaces": 1,
     "createdAt": "2024-09-04T08:51:39.190Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "ItA6mYd4in19XhQLCoZ3",
+    "title": "Deepfake Total",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2026-02-19T21:51:42.396Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2370,6 +2382,18 @@
     "members": 2,
     "spaces": 1,
     "createdAt": "2024-04-03T22:35:35.548Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "dPit7gtVh8SRmCFIqCaj",
+    "title": "Deep-Sea Mining Watch",
+    "members": 1,
+    "spaces": 1,
+    "createdAt": "2026-02-17T11:14:11.246Z",
     "permissions": {
       "admin": true,
       "view": true
