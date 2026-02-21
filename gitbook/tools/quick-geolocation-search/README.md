@@ -67,5 +67,5 @@ Cyber Detective: X profile [here](https://x.com/cyb_detective). Website: [https:
 
 | Page maintainer                        |
 | -------------------------------------- |
-| Anisa Shabir. Reviewer Sophie Tedling; |
+| Anisa Shabir. Reviewer Sophie Tedling. |
 |                                        |
