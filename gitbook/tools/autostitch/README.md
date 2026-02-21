@@ -76,5 +76,5 @@ Licensed by the University of British Columbia (Canada) to multiple companies in
 
 | Page maintainer |
 | --------------- |
-| Anisa Shabir    |
+| Anisa Shabir.   |
 |                 |
