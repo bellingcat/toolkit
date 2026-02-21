@@ -13,23 +13,39 @@ description: >-
 
 ## Description
 
-Uses geospatial data from satellites, ground sensors and web scraping to provide insights on topics such as climate change, poverty, water risk, state instability, air pollution and human migration.
+Resourcewatch is a webbased, open source environmental data aggregating platform that excels in user-friendly interactive maps and customisable dashboards. It combines geospatial and research data to provide insights on topics such as climate change, poverty, water risk, state instability, air pollution and human migration.
 
-It allows a user to explore and overlay different datasets and also to create custom dashboards based on one’s specific area of research.
+The datasets can be browsed by topic: Food and agriculture, Energy, Climate, Forests, Water, Society, Ocean, Cities, Coral Reefs and Air Quality. It is also possible to select on recent updates or by zooming in on geographic areas of interest, directly on the map.&#x20;
 
-Datasets are sourced from governments, intergovernmental organizations, research institutions, and scientific publications.
+<figure><img src=".gitbook/assets/Screenshot 2026-02-21 at 16.24.00.png" alt=""><figcaption><p>Specific layers of datasets can be explored on a world map. </p></figcaption></figure>
 
-Some data are updated every hour, every 12 hours, monthly, annually, and some less frequently. There is the possibility to sign up for alerts every time a dataset is updated.
+With an account it is possible to save and select geographical areas of interest, by selecting countries from a list or by drawing a polygon on the world map. Some datasets then provide alerts when datasets relevant for this area have been updated.&#x20;
 
-It has an open-source API which lets developers build customized tools. For example, it has informed offshoot thematic data initiatives such as [Ocean Watch](https://blog.resourcewatch.org/2021/11/29/how-listening-to-a-sea-of-voices-can-transform-ocean-management/) and [Land & Carbon Lab](https://dobecology.foleon.com/go/4-optimism-in-times-of-crises/wri-resource-watch/#block-100185753).
+<figure><img src=".gitbook/assets/Screenshot 2026-02-14 at 14.54.25.png" alt=""><figcaption><p>With an account it is possible to focus on geographical areas of interest. </p></figcaption></figure>
+
+
+
+\[embedding of world map]
+
+dashboard building, share link&#x20;
+
+
+
+Advanced data users can directly access the [Resourcewatch Github](https://github.com/resource-watch) page and build upon the open source code or [pull data by API](https://resourcewatch.org/get-involved/develop-your-app) to use in own applications. Examples of this are thematic data initiatives such as [Ocean Watch](https://blog.resourcewatch.org/2021/11/29/how-listening-to-a-sea-of-voices-can-transform-ocean-management/) and [Land & Carbon Lab](https://dobecology.foleon.com/go/4-optimism-in-times-of-crises/wri-resource-watch/#block-100185753).
+
+## Data sources
+
+Data comes from a wide range of external data providers: National governments, international organisations and UN agencies, research institutions and scientific publications . The dataproviders and update frequency are listed on the dataset detail pages.&#x20;
+
+Resourcewatch is an aggregating platform and is not built for creating or correcting data, but does perform some preprocessing and standardisation to make the data usable in visualisations. Curating takes place by WRI domain experts or by peer review. It is possible to add your own datasets; check the [data policy](https://resourcewatch.org/get-involved/data-policy) for more information.&#x20;
+
+## Use cases
 
 Data from Resource Watch has been used for example, for:
 
 * [monitoring tree cover loss and fires ](https://blog.resourcewatch.org/2019/04/11/how-resource-watch-changed-the-way-we-monitor-the-planets-pulse/?utm_source=chatgpt.com)within protected areas
 * [providing data on environmental trends](https://blog.resourcewatch.org/2019/04/11/how-resource-watch-changed-the-way-we-monitor-the-planets-pulse/?utm_source=chatgpt.com) and risks to financial institutions
 * informing early warning systems for local officials in predicting when water stress can influence conflict and political instability before it spreads through the [Water, Peace and Security (WPS) initiative](https://www.un-ihe.org/news/water-peace-and-security-initiative)
-
-
 
 ## Cost
 
@@ -43,53 +59,35 @@ Data from Resource Watch has been used for example, for:
 
 ## Requirements
 
-Some familiarity with using large datasets will be necessary. A basic understanding of geospatial mapping techniques is desirable.  &#x20;
+* Some familiarity with using large datasets will be necessary. A basic understanding of geospatial mapping techniques is desirable.  &#x20;
+* Functionality as saving favourite datasets, defining areas of interest or creating custom dashboards require registration by email.&#x20;
 
 ## Limitations
 
-The tool is still currently in Beta mode and there may be bugs or errors.
+{% hint style="danger" %}
+Overlaying different datasets are a strong feature of Resourcewatch but can also lead to wrong conclusions. It can help uncover new patterns of areas of research, but be aware that correlations or patterns do not imply causation. Ensure that the time frame and spatial scales for the overlayed datasets are compatible before analysing the data or drawing conclusions.
+{% endhint %}
 
-Using the available may be more useful and time-efficient if the researcher has a pre-specified area of investigation set out before accessing the database.&#x20;
-
-Overlaying different datasets can help uncover new patterns of areas of research but this will require more time investment by the researcher.
-
-A caveat is that correlations or patterns do not imply causation.&#x20;
-
-It is also important to ensure that the time frame and spatial scales for the overlayed datasets are compatible before analyzing the data or drawing conclusions.
-
-## Ethical Considerations
-
-The platform is convened and hosted by the non-profit research organization World Resources Institute (WRI) with over 30 partners that include universities, private and public organizations as well as international organizations and the UN.
-
-Data is [independently verified](https://resourcewatch.org/about/faqs) through WRI which works through its partners for peer review and quality assurance.&#x20;
+* data is not real-time, however some datasets are near-real-time.&#x20;
+* coverage: while the global map is always shown, the scope per dataset can differ. Be aware that data coverage gaps may occur; regions can be over- or underrepresented, specific environmental topics not included, and that governmental data could reflect reporting bias.&#x20;
+* loading of interactive visualisation layers and widgets can be slow, or sometimes not load at all.&#x20;
+* the provided dashboards per environmental category are insightful, but based on data from before 2018; complement with more recent data if needed.
 
 ## Guide
 
-Overview Tutorial: [https://www.youtube.com/watch?v=yA0lLHmpgwI](https://www.youtube.com/watch?v=yA0lLHmpgwI)
-
-Exploring & Overlaying different data-sets: [https://www.youtube.com/watch?v=Z\_\_BPZ0sNzk](https://www.youtube.com/watch?v=Z__BPZ0sNzk)
+The platform is user-friendly and offers help per page. Watch [short video tutorials](./#url) on functionality as how to explore and overlay data, or how to create a custom dashboard.&#x20;
 
 ## Tool provider
 
-World Resources Institute (host and convenor)&#x20;
-
-Resource Watch is financially supported by:
-
-* DOB Ecology, a private family foundation
-* The Tilia Fund, which is a partnership of private donors interested in solutions to environmental problems
-* Skoll Global Threats Fund, a private foundation&#x20;
-* Bloomberg Philanthropies, a private foundation
-* The Ministry of Foreign Affairs of the Netherlands, government
-* The Royal Danish Ministry of Foreign Affairs, government
-* The Swedish International Development Cooperation Agency, government development agency
+[World Resources Institute](https://www.wri.org/) (US based); the platform was developed in partnership with over 30 founding partners including universities and private and public organisations worldwide.
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat Volunteer Team |
-|                           |
+| Page maintainer                     |
+| ----------------------------------- |
+| Bellingcat Volunteer Team / Lavache |
+|                                     |
