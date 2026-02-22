@@ -53,7 +53,7 @@ Compared to other services that offer information on domain names, for instance 
 
 Single searches are free and do not require an account. Whoxy does not require a monthly fee, and has a "pay as you go" policy if an API is used. Pricing information for API access can be found [here](https://www.whoxy.com/pricing.php), and is also visible on the front page, including comparisons to other tools.
 
-{% hint style="info" %}
+{% hint style="success" %}
 Free API access is available on request for academics, those working in non-profit organisations and researchers on non-commercial basis.
 {% endhint %}
 
