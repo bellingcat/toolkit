@@ -40,14 +40,16 @@ The Floods tool shows Hazard, Risk and a Cost-Benefit Analysis. It lets you sele
 
 ## Data sources&#x20;
 
-Data comes from international organizations (as the UN), government hydrological and international climate research institutions, and satellite data providers (as NASA, ESA). The raw data is further processed and standardised by the World Resources Institute into global water risk indicators.
+Data comes from international organizations (as the UN), government hydrological and international climate research institutions, and satellite data providers (as NASA, ESA).&#x20;
+
+The raw data is further processed and standardised by the World Resources Institute into global water risk indicators. See the info on [Water Risk Indicators](https://www.wri.org/aqueduct/help-center/water-risk-indicators) and the [release notes](https://www.wri.org/research/aqueduct-40-updated-decision-relevant-global-water-risk-indicators) for more details on the used methodology.&#x20;
 
 ## Use cases
 
 {% hint style="success" %}
-Looking for real time events (live flooding) instead of long term risk analysis? Use [Google Flood Hub](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-flood-hub). &#x20;
+Looking for real time events (live flooding) instead of long term risk analysis? Use [Google Flood Hub](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-flood-hub).  &#x20;
 
-Acqueduct can be complemented with [Resource Watch](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/hDFhX74TLSYmA27QoYi7/ "mention") for context and data from other environmental domains.&#x20;
+Aqueduct can be complemented with [Resource Watch](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/hDFhX74TLSYmA27QoYi7/ "mention") for context and data from other environmental domains.&#x20;
 {% endhint %}
 
 The Aqueduct water risk atlas can be a useful resource for (open source) researchers who are investigating the following topics:
@@ -59,7 +61,7 @@ The Aqueduct water risk atlas can be a useful resource for (open source) researc
 * Policy development\
   For example: Provide recommendations for sustainable water management.
 
-For more inspiration and practical use cases, see the WRI Acqueduct [blog](https://www.wri.org/aqueduct/blog) and the [user stories](https://www.wri.org/aqueduct/user-stories) (mostly focused on corporate risk).&#x20;
+For more inspiration and practical use cases, see the WRI Aqueduct [blog](https://www.wri.org/aqueduct/blog) and the [user stories](https://www.wri.org/aqueduct/user-stories) (mostly focused on corporate risk).&#x20;
 
 ## Cost
 
@@ -73,14 +75,13 @@ For more inspiration and practical use cases, see the WRI Acqueduct [blog](https
 
 ## Requirements
 
-The Aqueduct tools are webbased so require not more than an internet connection. Some familiarity with GIS and water risk indicators is a plus.
-
-No login is required. WRI supports open data and datasets can be freely downloaded and shared, with attribution to WRI/Aqueduct.&#x20;
+* The Aqueduct tools are webbased so require not more than an internet connection. Some familiarity with GIS and water risk indicators is a plus.
+* No login is required. WRI supports open data and datasets can be freely downloaded and shared, with attribution to WRI/Aqueduct.&#x20;
 
 ## Limitations
 
-* Some regions, like remote regions or certain developing countries, might lack data due to limited water monitoring infrastructure. Zooming in on micro-level is not possible.&#x20;
-* Be aware that Aqueduct does not offer raw data, but normalizes to pre-defined indicators that may not exactly fit your research question. See the info on [Water Risk Indicators](https://www.wri.org/aqueduct/help-center/water-risk-indicators) and the [release notes](https://www.wri.org/research/aqueduct-40-updated-decision-relevant-global-water-risk-indicators) for more details on the used methodology.&#x20;
+* Some regions, like remote regions or certain developing countries, might lack data due to limited water monitoring infrastructure. Zooming in on micro-level is not or not always possible.&#x20;
+* Be aware that Aqueduct does not offer raw data, but normalizes to pre-defined indicators that may not exactly fit your research question.&#x20;
 * Projection models are based on climate and socioeconomic scenarios (optimistic, pessimistic and business-as-usual) and may not reflect actual outcomes.&#x20;
 
 ## Ethical Considerations
@@ -95,7 +96,7 @@ There are some [video tutorials](https://www.youtube.com/playlist?list=PLHC2pCeW
 
 ## Tool provider
 
-The Aqueduct Water Risk Atlas is developed and maintained by the [World Resources Institute](https://www.wri.org/) (WRI), a global research organisation committed to sustainability and environmental resource management.
+[World Resources Institute](https://www.wri.org/) (WRI), a global research organisation committed to sustainability and environmental resource management.
 
 ## Advertising Trackers
 
