@@ -73,7 +73,7 @@ The platform is user-friendly and offers help per page. Watch [short video tutor
 
 ## Tool provider
 
-[World Resources Institute](https://www.wri.org/) (US based); the platform was developed in partnership with over 30 founding partners including universities and private and public organisations worldwide.
+[World Resources Institute](https://www.wri.org/); the platform was developed in partnership with over 30 founding partners including universities and private and public organisations worldwide.
 
 ## Advertising Trackers
 
