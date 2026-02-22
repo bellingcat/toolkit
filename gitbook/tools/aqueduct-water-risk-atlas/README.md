@@ -12,19 +12,35 @@ description: >-
 
 ## Description
 
-The Aqueduct water Risk Atlas, developed by the World Resources Institute (WRI), is an interactive platform for assessing water-related risks globally. It provides a detailed, visual analysis of water stress, scarcity, and other water risk indicators using geographic information system (GIS). Researchers, policymakers, and environmentalists widely use it to identify and address water resource challenges.
+The Aqueduct Water Risk Atlas, developed by the World Resources Institute (WRI), is a global water risk assessment platform. It facilitates detailed, visual analysis of water stress, drought, flood risk, scarcity, and other modeled water risk indicators using geographic information system (GIS). Researchers, policymakers, and environmentalists widely use it to identify and address water resource challenges.&#x20;
 
-### What does this tool do?
+Aqueduct consists of four analytical tools:&#x20;
 
-The tool provides access to a lot of data regarding global water risks, such as water scarcity, flood risks, and drought severity. \
-You can **explore the water risks** on a map on different levels, like country, basin, or sub-basin levels. \
-It’s also possible to **watch various scenarios**, such as optimistic, pessimistic, and business-as-usual models. You can customize visualisations  based on specific timeframes, for example annual or monthly. Zoom in on the area you are interested in and select the Future option. After this you can select your timeframe, scenario and an indicator.
+1. [Water Risk Atlas](https://www.wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false\&basemap=hydro\&indicator=w_awr_def_tot_cat\&lat=-14.445396942837744\&lng=-142.85354599620152\&mapMode=view\&month=1\&opacity=0.5\&ponderation=DEF\&predefined=false\&projection=absolute\&scenario=optimistic\&scope=baseline\&timeScale=annual\&year=baseline\&zoom=2)
+2. [Floods ](https://www.wri.org/applications/aqueduct/floods/)
+3. [Country Rankings](https://www.wri.org/applications/aqueduct/country-rankings/)
+4. [Food](https://www.wri.org/applications/aqueduct/food/#/)
+
+The Water Risk Atlas and Floods tools will be most widely used by (OSINT) researchers.&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2026-02-22 at 10.34.40.png" alt=""><figcaption></figcaption></figure>
+
+The interactive Water Risk Atlas projects all data on a zoomable map that can be explored on country, basin or sub-basin levels. Options include:
+
+* View overall water risk, with possibility to adjust indicators and weightings
+* View per year or month time period&#x20;
+* Select specific water risk indicators (such as Baseline Water Stress, Groundwater decline, Drinking Water access) and prioritize per basin
+* Show future models: for 2030, 2050 or 2080 and by optimistic or pessimistic scenarios
+
+Advanced users can upload their own data (csv or xlsx with adresses or coordinates, in beta) or use and build upon the [Aqueduct 4.0 code](https://github.com/wri/Aqueduct40).&#x20;
 
 
 
-### What can researchers use it for?
 
-The Aqueduct water risk atlas can be a useful resource  for (open source) researchers who are investigating the following topics:
+
+## Use cases
+
+The Aqueduct water risk atlas can be a useful resource for (open source) researchers who are investigating the following topics:
 
 * Environmental investigations\
   For example: Analyse regions facing acute water stress or shortages.
@@ -32,6 +48,8 @@ The Aqueduct water risk atlas can be a useful resource  for (open source) resear
   For example: overlay population density data with water scarcity layers.
 * Policy development\
   For example: Provide recommendations for sustainable water management.
+
+see user stories&#x20;
 
 ## Cost
 
@@ -45,24 +63,28 @@ Registration is not required to use the tool.
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
-The map has a user-friendly interface and is easy to use, but users with a familiarity with water risk indicators may benefit more.
-
 ## Requirements
 
-The only requirements are internet access and a browser like Chrome or Firefox. Some knowledge with GIS or water risk indicators might come in handy, but it's not a dealbreaker.
+The Aqueduct tools are webbased so require an internet connection. Some familiarity with GIS or water risk indicators is a plus.
+
+Data can be freely downloaded and shared with attribution to WRI/Aqueduct.&#x20;
 
 ## Limitations
 
 There are a few limitations to keep in mind when using the tool:\
 Some regions, like remote regions or certain developing countries, might lack data due to limited water monitoring infrastructure.\
-The tool includes historical and future projections, but there might not be enough data for real-time analysis.\
-The projections for optimistic, pessimistic and business-as-usual, are based on assumptions.
+The tool includes historical and future projections, but there might not be enough data for real-time analysis.<br>
+
+* Be aware that Aqueduct does not offer raw data, but pre-defined indicators that may not exactly fit your research question. See the info on [Water Risk Indicators](https://www.wri.org/aqueduct/help-center/water-risk-indicators) and the [release notes](https://www.wri.org/research/aqueduct-40-updated-decision-relevant-global-water-risk-indicators) for more details on the used methodology.&#x20;
+* Projection models are based on climate and socioeconomic scenarios (optimistic, pessimistic and business-as-usual) and may not reflect actual outcomes.&#x20;
 
 ## Ethical Considerations
 
 Like every tool, ensure that the use of the tool is within the law, the site's terms of services, and ethical OSINT guidelines.
 
 ## Guides and articles
+
+The tool is user-friendly and offers tailored help and info within the tool.&#x20;
 
 {% embed url="https://www.wri.org/aqueduct/user-stories" %}
 
@@ -72,15 +94,15 @@ Like every tool, ensure that the use of the tool is within the law, the site's t
 
 ## Tool provider
 
-The Aqueduct Water Risk Atlas is developed and maintained by the World Resoucres institute (WRI), a global research organisation committed to sustainability and environmental resource management.
+The Aqueduct Water Risk Atlas is developed and maintained by the [World Resources Institute](https://www.wri.org/) (WRI), a global research organisation committed to sustainability and environmental resource management.
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat Volunteer Team |
-|                           |
+| Page maintainer                     |
+| ----------------------------------- |
+| Bellingcat Volunteer Team / Lavache |
+|                                     |
