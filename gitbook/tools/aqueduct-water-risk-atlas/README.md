@@ -63,6 +63,8 @@ The Aqueduct water risk atlas can be a useful resource for (open source) researc
 
 For more inspiration and practical use cases, see the WRI Aqueduct [blog](https://www.wri.org/aqueduct/blog) and the [user stories](https://www.wri.org/aqueduct/user-stories) (mostly focused on corporate risk).&#x20;
 
+Aqueduct was used in this article '[How data centers are deepening the water crisis](https://www.businessinsider.com/how-data-centers-are-deepening-the-water-crisis-2025-6)' (D. Campbelll, Business Insider).&#x20;
+
 ## Cost
 
 * [x] Free
