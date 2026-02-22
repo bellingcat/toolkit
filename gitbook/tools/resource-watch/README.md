@@ -29,7 +29,7 @@ Advanced data users can directly access the [Resourcewatch Github](https://githu
 
 ## Data sources
 
-Data comes from a wide range of external data providers: National governments, international organisations and UN agencies, research institutions and scientific publications . The dataproviders and update frequency are listed on the dataset detail pages.&#x20;
+Data comes from a wide range of external data providers: National governments, international organisations and UN agencies, research institutions and scientific publications. The dataproviders and update frequency are listed on the dataset detail pages.&#x20;
 
 Resourcewatch is an aggregating platform and is not built for creating or correcting data, but does perform some preprocessing and standardisation to make the data usable in visualisations. Curating takes place by WRI domain experts or by peer review. It is possible to add your own datasets; check the [data policy](https://resourcewatch.org/get-involved/data-policy) for more information.&#x20;
 
