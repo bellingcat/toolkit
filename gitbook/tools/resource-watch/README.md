@@ -17,19 +17,13 @@ Resourcewatch is a webbased, open source environmental data aggregating platform
 
 The datasets can be browsed by topic: Food and agriculture, Energy, Climate, Forests, Water, Society, Ocean, Cities, Coral Reefs and Air Quality. It is also possible to select on recent updates or by zooming in on geographic areas of interest, directly on the map.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2026-02-21 at 16.24.00.png" alt=""><figcaption><p>Specific layers of datasets can be explored on a world map. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-02-21 at 16.24.00.png" alt=""><figcaption><p>Specific layers of datasets can be explored on a world map, and some datasets can be combined. </p></figcaption></figure>
 
-With an account it is possible to save and select geographical areas of interest, by selecting countries from a list or by drawing a polygon on the world map. Some datasets then provide alerts when datasets relevant for this area have been updated.&#x20;
+With an account it is possible to save and select geographical areas of interest, by selecting countries from a list or by drawing a polygon on the world map. Some datasets then provide alerts when relevant data to this area has been updated or added.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2026-02-14 at 14.54.25.png" alt=""><figcaption><p>With an account it is possible to focus on geographical areas of interest. </p></figcaption></figure>
 
-
-
-\[embedding of world map]
-
-dashboard building, share link&#x20;
-
-
+Informative thematic dashboards are available, but do not include recent data. For some visualisations, it is possible to create a custom dashboard and to create public links so that they can be used in reports.&#x20;
 
 Advanced data users can directly access the [Resourcewatch Github](https://github.com/resource-watch) page and build upon the open source code or [pull data by API](https://resourcewatch.org/get-involved/develop-your-app) to use in own applications. Examples of this are thematic data initiatives such as [Ocean Watch](https://blog.resourcewatch.org/2021/11/29/how-listening-to-a-sea-of-voices-can-transform-ocean-management/) and [Land & Carbon Lab](https://dobecology.foleon.com/go/4-optimism-in-times-of-crises/wri-resource-watch/#block-100185753).
 
@@ -64,8 +58,8 @@ Data from Resource Watch has been used for example, for:
 
 ## Limitations
 
-{% hint style="danger" %}
-Overlaying different datasets are a strong feature of Resourcewatch but can also lead to wrong conclusions. It can help uncover new patterns of areas of research, but be aware that correlations or patterns do not imply causation. Ensure that the time frame and spatial scales for the overlayed datasets are compatible before analysing the data or drawing conclusions.
+{% hint style="success" %}
+Overlaying different datasets are a strong feature of Resourcewatch. It can help uncover new patterns of areas of research, but be aware that correlations or patterns do not imply causation. Ensure that the time frame and spatial scales for the overlayed datasets are compatible before analysing the data or drawing conclusions.
 {% endhint %}
 
 * data is not real-time, however some datasets are near-real-time.&#x20;
