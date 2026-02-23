@@ -155,6 +155,7 @@
   * [Open Measures](tools/open-measures/README.md)
   * [Open Ownership](tools/open-ownership/README.md)
   * [Open Source Munitions Portal](tools/open-source-munitions-portal/README.md)
+  * [OpenAerialMap](tools/openaerialmap/README.md)
   * [OpenCorporates](tools/opencorporates/README.md)
   * [OpenSanctions](tools/opensanctions/README.md)
   * [OpenSecrets](tools/opensecrets/README.md)
