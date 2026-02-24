@@ -172,7 +172,7 @@ You can insert satellite imagery from other sources into Google Earth Pro. That 
 * [x] Partially Free
 * [ ] Paid
 
-All of the functions described are included in the free version of Google Earth Pro. There are now also two subscription models. Subscribing to the 'Professional' model for $75 per user per month gives users access to additional data layers for the US, such as contour lines and ground temperature. They also have the option of creating up to 500 designs for solar and building models. The 'Extended Professional' model provides users with even more data layers for the US, such as charging points for electric vehicles, and the ability to create up to 1,000 designs for solar installations and buildings.
+All of the functions described are included in the free version of Google Earth Pro. There are now also [two subscription models](https://mapsplatform.google.com/maps-products/earth/plans/). Subscribing to the 'Professional' model for $75 per user per month gives users access to additional data layers for the US, such as contour lines and ground temperature. They also have the option of creating up to 500 designs for solar and building models. The 'Extended Professional' model provides users with even more data layers for the US, such as charging points for electric vehicles, and the ability to create up to 1,000 designs for solar installations and buildings.
 
 ## Level of difficulty
 
@@ -249,7 +249,7 @@ Google [https://about.google/](https://about.google/) - United States of America
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                              |
-| ------------------------------------------------------------ |
-| Bellingcat Volunteer Team/Clara D., Reviewer Sophie Tedling; |
-|                                                              |
+| Page maintainer |
+| --------------- |
+| Clara D.        |
+|                 |
