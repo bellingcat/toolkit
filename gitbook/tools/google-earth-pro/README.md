@@ -59,6 +59,9 @@ This is a simple, yet effective tool for your day to day work with Google Earth 
 <figure><img src=".gitbook/assets/unknown (4).png" alt=""><figcaption></figcaption></figure>
 
 1. Choose placemarks or polygons from the top menu. Placemarks tag a specific location whereas polygons are used to tag an area. You can save your placemarks and polygons in a folder on the left side to make navigation and orientation easier.
+
+<figure><img src=".gitbook/assets/Bildschirmfoto 2025-10-19 um 15.00.16.png" alt=""><figcaption></figcaption></figure>
+
 2. You can now export a folder and share it with other researchers. They can then import your tags to have a look at them in their Google Earth Pro by dragging and dropping it into the folder structure on the left hand side.
 
 You can also download KML data from other external sources and open them in Google Earth Pro. KML is a data structure that is used to save geographical data such as placemarks and polygons. Here is an example of free KML data: [Nasa Firms](https://bellingcat.gitbook.io/toolkit/more/all-tools/nasa-firms) publishes (almost) real time fire data (Available: [https://firms.modaps.eosdis.nasa.gov/api/kml\_fire\_footprints/](https://firms.modaps.eosdis.nasa.gov/api/kml_fire_footprints/), accessed: 2. October 2025).
@@ -94,8 +97,14 @@ It can be helpful to measure distances and areas on satellite images. For exampl
 Choose this tool if you wish to see how the height changes along a path.
 
 1. If you have a path saved already, click on it using right-click , select “show elevation profile”.
+
+<figure><img src=".gitbook/assets/Bildschirmfoto 2025-10-19 um 15.28.23.png" alt=""><figcaption></figcaption></figure>
+
 2. If you don’t have a path saved yet, open the ruler from the top menu, choose “path” and tick “show elevation profile”, then select the markers along your path. When your path has reached its destination, click “save”. It’ll appear in the folders on the right side.
-3. Now you can see the elevation profile on the bottom of your screen. It’ll change as you navigate through the path.
+
+<figure><img src=".gitbook/assets/Bildschirmfoto 2025-10-19 um 16.19.16.png" alt=""><figcaption></figcaption></figure>
+
+2. Now you can see the elevation profile on the bottom of your screen. It’ll change as you navigate through the path.
 
 ### Measuring building (or another object) height
 
@@ -104,20 +113,11 @@ Choose this tool if you wish to see how the height changes along a path.
 
 <figure><img src=".gitbook/assets/unknown (11).png" alt="" width="234"><figcaption></figcaption></figure>
 
-3. Find the highest point of the building. Move your cursor to the highest point of the building. The height will be displayed in the status bar at the bottom (make sure to check the correct unit!).
+3. Find the highest point of the building. Move your cursor to the highest point of the building. The height will be displayed in the status bar at the bottom (make sure to check the correct unit, so for example depending on your preference meters or feet. You find that information in the right corner of your screen!).
 4.  Determine the ground level: Identify the elevation at the base of the building.
 
     <figure><img src=".gitbook/assets/Bildschirmfoto 2025-10-02 um 17.50.31.png" alt=""><figcaption></figcaption></figure>
-5. Calculate the height. Subtract the ground elevation from the building’s highest point – and there you have it!
-
-### Exploring a route via video
-
-You can define and then explore a route as a POV-video in GEP. This might help if you want to examine a path leading to a specific destination or to get accustomed to a path you wish to take later.
-
-1. Select the ruler from the top menu, choose “path”.
-2. Place dots along the route you wish to explore and then save your path. For more precise measurements and a fluent video, it helps to place the dots closer to each other whenever there is a curve or a cross section as the line between the dots is always straight. Also, if the video is more important to you than the precise measurements of the route: Whenever you encounter a mountain, place the dots on the side opposite of the slope. Otherwise the camera will dive through the mountain and your view onto the path will not be good. But you’ll learn as you go. After saving the path appears in the folder structure on the left side.
-3. Make sure your path is selected in the menu on the left side. Choose “Tools” from the top left menu → “Options” → “Touring”. Here you can select different camera settings for watching the tour. Just go by trial and error. For longer paths you might want to choose a quicker pace than for short paths. Save your settings clicking on “OK”.
-4. Then click on the path symbol (three connected dots) right above the layers in the bottom left menu. Then it’ll play the tour. For more information you can view the elevation profile of your path as the tour goes along.
+5. Calculate the height. Subtract the ground elevation from the building’s highest point – and there you have it!&#x20;
 
 ### Viewing GPS Data
 
@@ -139,7 +139,7 @@ Note: If you import something into the “Temporary Places” folder it won’t 
 
 ### Shadow and Sun simulation tool
 
-Primary use: Geolocating photos and videos. By comparing shadow patterns, you can estimate at which time a photo was taken, if the shadow in Google Earth matches the one in the image. But there are things to consider: Google Earth does not show exact shadow projections for all regions – the accuracy depends on the underlying data.
+Primary use: Geolocating photos and videos. By comparing shadow patterns, you can estimate at which time a photo was taken, if the shadow in Google Earth matches the one in the image. But there are things to consider: Google Earth does not show exact shadow projections for all regions – the accuracy depends on the underlying data. Google only provides the information that at the moment you can view 3D-Buildings in [2.500 places in 49 countries](https://mapsplatform.google.com/maps-products/earth/capabilities/). Google doesn't provide an exact list though.&#x20;
 
 1. First step: Activate the 3D Buildings layer to view realistic shadows.
 
@@ -168,9 +168,11 @@ You can insert satellite imagery from other sources into Google Earth Pro. That 
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
+
+All of the functions described are included in the free version of Google Earth Pro. There are now also two subscription models. Subscribing to the 'Professional' model for $75 per user per month gives users access to additional data layers for the US, such as contour lines and ground temperature. They also have the option of creating up to 500 designs for solar and building models. The 'Extended Professional' model provides users with even more data layers for the US, such as charging points for electric vehicles, and the ability to create up to 1,000 designs for solar installations and buildings.
 
 ## Level of difficulty
 
