@@ -30,9 +30,9 @@ The interactive Water Risk Atlas projects all data on a zoomable map that can be
 * View overall water risk, with adjustable indicators and weightings
 * View per year or month time period&#x20;
 * Select specific water risk indicators (such as Baseline Water Stress, Groundwater decline, Drinking Water access) and prioritize per basin
-* Show future models: for 2030, 2050 or 2080 and view by optimistic or pessimistic scenarios
+* Show future models: for 2030, 2050 or 2080 and view by optimistic or pessimistic scenarios.
 
-Advanced users can upload their own data (csv or xlsx with adresses or coordinates, in beta) or use and build upon the [Aqueduct 4.0 code](https://github.com/wri/Aqueduct40).&#x20;
+Advanced users can upload their own data (csv or xlsx with addresses or coordinates, in beta) or use and build upon the [Aqueduct 4.0 code](https://github.com/wri/Aqueduct40).&#x20;
 
 The Floods tool shows Hazard, Risk and a Cost-Benefit Analysis. It lets you select on coastal or riverine flood risks. Adjustable parameters include the same timeframes as the Water Risk Atlas, and a choice of Projection Model. The Risk Analyzer can be used to show and compare future flooding risks per country, time period and scenario. A shareable public link can be created per visual, so that it can be included in reports.&#x20;
 
