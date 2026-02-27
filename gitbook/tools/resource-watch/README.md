@@ -15,7 +15,7 @@ description: >-
 
 Resourcewatch is a web-based, open source environmental data aggregating platform that excels in interactive maps and customisable dashboards. It combines geospatial and research data to provide insights on topics such as climate change, poverty, water risk, state instability, air pollution and human migration.
 
-The datasets can be browsed by topic: Food and agriculture, Energy, Climate, Forests, Water, Society, Ocean, Cities, Coral Reefs and Air Quality. It is also possible to select on recent updates or by zooming in on geographic areas of interest, directly on the map.&#x20;
+The datasets can be browsed by topic: Food and agriculture, Energy, Climate, Forests, Water, Society, Ocean, Cities, Coral Reefs and Air Quality. It is also possible to select recent updates or to zoom in on geographic areas of interest, directly on the map.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2026-02-21 at 16.24.00.png" alt=""><figcaption><p>Specific layers of datasets can be explored on a world map, and some datasets can be combined. </p></figcaption></figure>
 
