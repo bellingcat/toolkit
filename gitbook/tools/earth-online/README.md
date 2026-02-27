@@ -21,7 +21,7 @@ ESA’s EO universe holds something for everyone. It's not only for experts - th
 <figure><img src=".gitbook/assets/unknown.png" alt=""><figcaption><p><a href="https://visuals.earth.esa.int/">https://visuals.earth.esa.int/</a></p></figcaption></figure>
 
 {% hint style="info" %}
-ESA’s Earth Observation ecosystem is evolving from a collection of isolated, specialised tools toward integrated, cloud-based platforms that combine complete workflows of data discovery, access, processing and analysis in one single environment.
+ESA’s Earth Observation ecosystem is evolving from a collection of isolated, specialised tools toward integrated, cloud-based platforms that combine workflows of data discovery, access, processing and analysis in one single environment.
 {% endhint %}
 
 The main components of the ESA Earth Observation platform are:
@@ -86,8 +86,8 @@ Where CDSE is more focused on browsing, processing and analysing, [ESA MAAP](htt
 
 The European Space Agency's Earth Online portal offers a broad array of use cases. Individual tools can be used for multiple use cases. Some of these use cases focus on environment monitoring (tracking changes in climate, land use, and natural habitats over time) others could be used for monitoring more human focused activity. Use cases for both the [Copernicus Data Space Ecosystem (CDSE)](https://dataspace.copernicus.eu/) and specific tools include:
 
-* **(Environmental) changes over time:**  To analyse environmental shift or urban growth over decades, combine satellite imagery from third party mission [Landsat](https://earth.esa.int/eogateway/missions/landsat) (NASA/USGS, since 1972), [ERS-1/ERS-2](https://earth.esa.int/eogateway/missions/ers) (SAR, 1990s), [Envisat ](https://earth.esa.int/eogateway/missions/envisat)(2002-2012) and more recent [Sentinel ](https://sentinels.copernicus.eu/)data (since 2014).&#x20;
-* **Maritime and vessel detection:** [Sentinel-1](https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-1); SAR (radar) imagery detection enables identifying dark vessels or movements without AIS; [Sentinel-2](https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-2) for optical data. [Φsat-2/Phisat-2](https://earth.esa.int/eogateway/missions/phisat-2) uses AI for cloud filtering and vessel detection.&#x20;
+* **(Environmental) changes over time:** To analyse environmental shift or urban growth over decades, combine satellite imagery from third party mission [Landsat](https://earth.esa.int/eogateway/missions/landsat) (NASA/USGS, since 1972), [ERS-1/ERS-2](https://earth.esa.int/eogateway/missions/ers) (SAR, 1990s), [Envisat ](https://earth.esa.int/eogateway/missions/envisat)(2002-2012) and more recent [Sentinel ](https://sentinels.copernicus.eu/)data (since 2014).
+* **Maritime and vessel detection:** [Sentinel-1](https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-1); SAR (radar) imagery detection enables identifying dark vessels or movements without AIS; [Sentinel-2](https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-2) for optical data. [Φsat-2/Phisat-2](https://earth.esa.int/eogateway/missions/phisat-2) uses AI for cloud filtering and vessel detection.
 * **Water**: [SMOS](https://www.esa.int/Applications/Observing_the_Earth/FutureEO/SMOS) (Soil Moisture and Ocean Salinity): Monitor threats by soil moisture, drought, salinity and fresh water availability.
 * **Ice**: [CryoSat-2](https://earth.esa.int/eogateway/missions/cryosat) data and tools for analyzing ice thickness, changes in sea levels.
 * **Agricultural Analysis:** Assisting in the monitoring of crop health, forecasting yields, and managing agricultural resources. For instance the [IRS-P5 (Cartosat-1) Sample Data](https://earth.esa.int/eogateway/missions/irs-p5/sample-data) provides high resolution 2.5 m resolution crop inventory and monitoring agricultural productivity.
@@ -98,12 +98,12 @@ The European Space Agency's Earth Online portal offers a broad array of use case
 
 * **The atmosphere:** The [Atmosphere Virtual Lab (AVL)](https://atmospherictoolbox.org/media/usecases/Usecase_5_aeolus.html) tool provides [Jupyter Notebooks](https://jupyter.org/) that can be used to analyze and visualize atmospheric earth observation data and the [GHGSat archive](https://earth.esa.int/eogateway/catalog/ghgsat-archive-and-tasking) contains data that monitors greenhouse gas emissions (currently CH4, but eventually CO2).
 * **Human Activity:** The [Urban Thematic Exploitation Platform](https://urban-tep.eu/) tool requires registration but provides data and visualisation of the Global Urban Footprint and population density. The [Geohazards TEP](https://geohazards-tep.eu/) is a glacier and landslide monitoring tool that has data processed over the eastern Alps Ground Motion Service.
-* **Disaster Monitoring:** Earth Online provides a number of tools that can be used for disaster monitoring, like the [SMOS Tropical Cyclone Wind Radii Fixes](https://earth.esa.int/eogateway/catalog/smos-tropical-cyclone-wind-radii-fixes-wrf) (Registration required) and provides Near Real Time tropical cyclones forecasts. Within the [CDSE](https://dataspace.copernicus.eu/): [Sentinel-1](https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-1) (SAR) for floods, [Sentinel-2](https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-2) (optical) for fires, landslides.&#x20;
+* **Disaster Monitoring:** Earth Online provides a number of tools that can be used for disaster monitoring, like the [SMOS Tropical Cyclone Wind Radii Fixes](https://earth.esa.int/eogateway/catalog/smos-tropical-cyclone-wind-radii-fixes-wrf) (Registration required) and provides Near Real Time tropical cyclones forecasts. Within the [CDSE](https://dataspace.copernicus.eu/): [Sentinel-1](https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-1) (SAR) for floods, [Sentinel-2](https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-2) (optical) for fires, landslides.
 
 These use cases highlight the versatility of the Earth Online portal in supporting a wide range of scientific research, educational, and applied environmental management activities.
 
 {% hint style="success" %}
-Complement ESA raw data with thematic platforms such as [Global Forest Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-forest-watch) (deforestation), [Aqueduct](https://www.wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false\&basemap=hydro\&indicator=w_awr_def_tot_cat\&lat=30\&lng=-80\&mapMode=view\&month=1\&opacity=0.5\&ponderation=DEF\&predefined=false\&projection=absolute\&scenario=optimistic\&scope=baseline\&threshold\&timeScale=annual\&year=baseline\&zoom=3) (water stress, flood risks), [Global Fishing Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map) (fishing activity) or [Deep Sea Mining Watch](https://www.deepseaminingwatch.msi.ucsb.edu/) (seabed mining); those tools can be used to find patterns or hot spots. Then use the ESA Earth Online data and tools for raw satellite imagery to verify or analyse changes over time.&#x20;
+Complement ESA raw data with thematic platforms such as [Global Forest Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-forest-watch) (deforestation), [Aqueduct](https://www.wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false\&basemap=hydro\&indicator=w_awr_def_tot_cat\&lat=30\&lng=-80\&mapMode=view\&month=1\&opacity=0.5\&ponderation=DEF\&predefined=false\&projection=absolute\&scenario=optimistic\&scope=baseline\&threshold\&timeScale=annual\&year=baseline\&zoom=3) (water stress, flood risks), [Global Fishing Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map) (fishing activity) or [Deep Sea Mining Watch](https://www.deepseaminingwatch.msi.ucsb.edu/) (seabed mining); those tools can be used to find patterns or hot spots. Then use the ESA Earth Online data and tools for raw satellite imagery to verify or analyse changes over time.
 {% endhint %}
 
 ## Cost
@@ -118,21 +118,21 @@ Complement ESA raw data with thematic platforms such as [Global Forest Watch](ht
 
 ## Requirements
 
-* [**EO Sign-In**](https://eoiam-idp.eo.esa.int/): the majority of tools and platforms use one and the same SSO (single sign on) account. Registering is free and only requires an email adress and basic profile information, and is open to independent journalists and researchers. Documentation and local installed tools (such as SNAP) are accessible without login. Some of the advanced tools (MAAP) may need an additional request to access workspaces.&#x20;
-* **Cloud access** does not require more than a modern web browser and a solid connection. Locally installed tools will need sufficient memory and storage for processing the generally very large Earth Observation files. See the individual tools for further details.&#x20;
+* [**EO Sign-In**](https://eoiam-idp.eo.esa.int/): the majority of tools and platforms use one and the same SSO (single sign on) account. Registering is free and only requires an email adress and basic profile information, and is open to independent journalists and researchers. Documentation and local installed tools (such as SNAP) are accessible without login. Some of the advanced tools (MAAP) may need an additional request to access workspaces.
+* **Cloud access** does not require more than a modern web browser and a solid connection. Locally installed tools will need sufficient memory and storage for processing the generally very large Earth Observation files. See the individual tools for further details.
 * **Advanced skills:** Some of the tools require Jupyter Notebook and Python programming experience or higher level expertise in methodology, remote sensing and satellite imagery.
 
 ## Limitations
 
-* **Data Availability**: While ESA's Earth Online offers extensive datasets, certain historical data or high-resolution imagery may not be readily available due to the limitations of past missions, data retention policies or registration requirements.&#x20;
+* **Data Availability**: While ESA's Earth Online offers extensive datasets, certain historical data or high-resolution imagery may not be readily available due to the limitations of past missions, data retention policies or registration requirements.
 * **Update Frequency**: The update intervals for some datasets may not meet the needs of users requiring real-time or near-real-time information. Different datasets will have different update frequency. Some older or sample datasets may not be up to date. See the individual dataset's documentation.
-* **Tool Functionality**: Older tools may not be maintained and working.&#x20;
+* **Tool Functionality**: Older tools may not be maintained and working.
 
 ## Guide
 
 <figure><img src=".gitbook/assets/afbeelding (1).png" alt=""><figcaption></figcaption></figure>
 
-See the specific tools for documentation and guides. The [ESA EO platform](https://earth.esa.int/eogateway/tools) directs to all platforms and tools. Filters for the different tool types (Analysis, Processing and Visualisation) can be applied, but note that most of those steps are now combined in growing cloud platforms.&#x20;
+See the specific tools for documentation and guides. The [ESA EO platform](https://earth.esa.int/eogateway/tools) directs to all platforms and tools. Filters for the different tool types (Analysis, Processing and Visualisation) can be applied, but note that most of those steps are now combined in growing cloud platforms.
 
 The Copernicus Data Space Ecosystem offers introductory videos and tutorials on [Youtube](https://www.youtube.com/@copernicusdataspaceecosystem/videos).
 
