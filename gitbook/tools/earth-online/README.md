@@ -56,7 +56,7 @@ All mission pages link to extensive mission documentation, datasets and notebook
 
 ### Copernicus Data Space Ecosystem
 
-The [CDSE](./#url) provides a wide range of data and services from the Copernicus Sentinel missions and some complementary data. The Copernicus browser (see [Bellingcat toolguide](https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground)) is a part of the wider ecosystem. The cloud-based data and processing platform provides data and documentation, with advanced features that include cloud computing, integrated jupyter notebooks, APIs, batch operations, and building workflows with openEO.
+The [CDSE](./#url) provides a wide range of data and services from the Copernicus Sentinel missions and some complementary data. The Copernicus browser (see [Bellingcat tool guide](https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground)) is a part of the wider ecosystem. The cloud-based data and processing platform provides data and documentation, with advanced features that include cloud computing, integrated jupyter notebooks, APIs, batch operations, and building workflows with openEO.
 
 [Sentinel Online](https://sentinels.copernicus.eu/web/success-stories/europe-s-eye-on-earth-with-sentinel-satellites-and-earth-observation-data) is the ESA/Copernicus Sentinal reference site for a broad audience, with interactive views (Sentivista), visual explainers (Sentinel Succes Stories) and technical satellite documentation (SentiWiki). Feeling lost? The [Copernicus AI assistant](https://ask.copernicus.eu/) (in beta) may lead you to the right sources.
 
