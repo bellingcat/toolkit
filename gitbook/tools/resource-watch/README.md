@@ -1,7 +1,7 @@
 ---
 description: >-
   A free open-data platform that hosts 300+ datasets on different topics
-  relating to the environment, people and resources, including real-time
+  relating to the environment and human well-being, including real-time
   datasets.
 ---
 
