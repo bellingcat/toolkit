@@ -52,7 +52,7 @@ ESA-EO offers detailed information on the [mission](https://earth.esa.int/eogate
 * Third Party Missions: by other space agencies or commercial providers, sometimes restricted access
 * Copernicus Sentinel Missions (also in CDSE)
 
-All mission pages link to extensive mission documentation, datasets and notebooks, research environment or webservices. Data from older, inactive missions is included in the platform to be reused in different contexts. The available datasets can also be filtered by domain and scientific instruments. ESA data and tools may gradually be integrated in one of the cloudplatforms mentioned below.
+All mission pages link to extensive mission documentation, datasets and notebooks, research environment or webservices. Data from older, inactive missions is included in the platform to be reused in different contexts. The available datasets can also be filtered by domain and scientific instruments. ESA data and tools may gradually be integrated in one of the cloud platforms mentioned below.
 
 ### Copernicus Data Space Ecosystem
 
