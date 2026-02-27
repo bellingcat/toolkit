@@ -92,7 +92,7 @@ Like every tool, ensure that the use of the tool is within the law, the site's t
 
 ## Guides
 
-Aqueduct is user-friendly and offers tailored help and info within the tool. For general info, see the [Frequently Asked Questions](https://www.wri.org/aqueduct/faq).&#x20;
+Aqueduct can be considered user-friendly and offers tailored help and info within the tool. For general info, see the [Frequently Asked Questions](https://www.wri.org/aqueduct/faq).&#x20;
 
 There are some [video tutorials](https://www.youtube.com/playlist?list=PLHC2pCeWNG2tkE0sXzusU17HSHKIiqyzI) specific for the Floods Cost-Benefit Analyzer, a scenario-based tool that estimates potential economic damages from floods.
 
