@@ -64,7 +64,7 @@ Overlaying different datasets are a strong feature of Resourcewatch. It can help
 
 * Data is not real-time, however some datasets are near-real-time.&#x20;
 * Coverage: while the global map is always shown, the scope per dataset can differ. Be aware that data coverage gaps may occur; regions can be over- or underrepresented, specific environmental topics not included, and that governmental data could reflect reporting bias.&#x20;
-* Loading of interactive visualisation layers and widgets can be slow, or sometimes not load at all.&#x20;
+* Loading of interactive visualisation layers and widgets can be slow, or sometimes they do not load at all.&#x20;
 * The provided dashboards per environmental category are insightful, but based on data from before 2018; complement with more recent data if needed.
 
 ## Guide
