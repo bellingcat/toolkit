@@ -21,7 +21,7 @@ Aqueduct consists of four analytical tools:&#x20;
 3. [Country Rankings](https://www.wri.org/applications/aqueduct/country-rankings/)
 4. [Food](https://www.wri.org/applications/aqueduct/food/#/)
 
-The Water Risk Atlas and Floods tools will be most widely used by open source researchers.&#x20;
+The Water Risk Atlas and Floods tools can be particularly useful for open source researchers.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2026-02-22 at 10.34.40.png" alt=""><figcaption><p>View of the Water Risk Atlas by drinking water levels (feb 2026)</p></figcaption></figure>
 
