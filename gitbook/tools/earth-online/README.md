@@ -45,7 +45,7 @@ _SNAP_ vs _CDSE_ - Both make use of the same Copernicus Sentinel data. The diffe
 
 ### Missions
 
-ESA EO offers detailed information on the [mission](https://earth.esa.int/eogateway/missions) programmes and separate missions:
+ESA-EO offers detailed information on the [mission](https://earth.esa.int/eogateway/missions) programmes and separate missions:
 
 * Earth Explorers: dedicated to specific domains, as the cryosphere, athmosphere etc. See [visuals](https://visuals.earth.esa.int/)
 * Heritage Missions: data from over 45 missions, dating back to 1977
