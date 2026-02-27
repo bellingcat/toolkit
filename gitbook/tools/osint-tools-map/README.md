@@ -76,5 +76,5 @@ The OSINT Tools Map was created by [@cyb\_detective ](https://cybdetective.com/)
 
 | Page maintainer |
 | --------------- |
-| Unassigned      |
+| tsvetelina      |
 |                 |
