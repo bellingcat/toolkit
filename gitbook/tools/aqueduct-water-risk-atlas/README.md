@@ -77,7 +77,7 @@ Aqueduct was used in this article '[How data centers are deepening the water cri
 
 ## Requirements
 
-* The Aqueduct tools are webbased so require not more than an internet connection. Some familiarity with GIS and water risk indicators is a plus.
+* The Aqueduct tools are web-based so require not more than an internet connection. Some familiarity with GIS and water risk indicators is a plus.
 * No login is required. WRI supports open data and datasets can be freely downloaded and shared, with attribution to WRI/Aqueduct.&#x20;
 
 ## Limitations
