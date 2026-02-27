@@ -297,7 +297,7 @@ function readTeams() {
   return JSON.parse(fs.readFileSync('teams.json', 'utf-8'));
 }
 function writeTeams(teams) {
-  console.log('writing', teams.length, 'teams to',  'teams.json');
+  debug('writing', teams.length, 'teams to',  'teams.json');
   fs.writeFileSync('teams.json', JSON.stringify(teams, null, 2));
 }
 
