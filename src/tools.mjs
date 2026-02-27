@@ -354,7 +354,7 @@ async function _createTeam(name) {
     return data;
   } catch (e) {
     if (e.message === "This name is already taken by another team in your organization. (400)") {
-      console.log("Edge case: the team exists on gitbook but we don't know about it.");
+      debug("Edge case: the team exists on gitbook but we don't know about it.");
       const teams = await fetchTeams();
       return teams.find((element) => element.title === name);
     }
