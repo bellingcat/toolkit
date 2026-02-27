@@ -88,7 +88,7 @@ Aqueduct was used in this article '[How data centers are deepening the water cri
 
 ## Ethical Considerations
 
-Like every tool, ensure that the use of the tool is within the law, the site's terms of services, and ethical OSINT guidelines.
+Like every tool, ensure that the use of the tool is within the law, the site's terms of services, and ethical open source research guidelines.
 
 ## Guides
 
