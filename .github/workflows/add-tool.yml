@@ -73,8 +73,8 @@ jobs:
       - name: Create new tool folder (look here for git sync config!)
         id: add-folder
         run: |
-          toolId = $(node src/add-tool.mjs "$TOOL_NAME")
-          echo "toolId=$toolId" >> "$GITHUB_OUTPUT"
+          TOOL_ID=$(node src/add-tool.mjs "$TOOL_NAME")
+          echo "toolId=$TOOL_ID" >> "$GITHUB_OUTPUT"
           if [ -n "$(git status --porcelain)" ]; then
             echo "changes=true" >> "$GITHUB_OUTPUT"
           fi
