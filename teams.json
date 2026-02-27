@@ -447,7 +447,7 @@
     "object": "team",
     "id": "7AREPoMY0Hl1mGcXlZUu",
     "title": "Geo Data Tool",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-06-03T11:20:36.612Z",
     "permissions": {
@@ -1431,7 +1431,7 @@
     "object": "team",
     "id": "Ml9SyMwpZ8ckRmApG2yr",
     "title": "WHOIS History",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-06-03T10:54:29.966Z",
     "permissions": {
@@ -1441,9 +1441,21 @@
   },
   {
     "object": "team",
+    "id": "Mq58UEWQqBdrtHxxo2nc",
+    "title": "IUCN Red List",
+    "members": 0,
+    "spaces": 0,
+    "createdAt": "2026-02-25T20:14:43.460Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
     "id": "Mz6IjmFyuBXSxm0SOKCV",
     "title": "Moz Link Explorer",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-06-03T11:31:13.824Z",
     "permissions": {
@@ -1599,7 +1611,7 @@
     "object": "team",
     "id": "OyiLdXxZCL0FI2GoIrJN",
     "title": "IDN Checker",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-06-03T11:03:01.656Z",
     "permissions": {
@@ -1878,6 +1890,18 @@
     "members": 1,
     "spaces": 1,
     "createdAt": "2024-05-08T00:51:54.832Z",
+    "permissions": {
+      "admin": true,
+      "view": true
+    }
+  },
+  {
+    "object": "team",
+    "id": "TnWPN2XQpG68ktI0djBV",
+    "title": "Apify",
+    "members": 2,
+    "spaces": 1,
+    "createdAt": "2026-02-24T16:33:11.882Z",
     "permissions": {
       "admin": true,
       "view": true
@@ -2235,7 +2259,7 @@
     "object": "team",
     "id": "aL8hZBCuPnCp7oFk1WKM",
     "title": "DNS History",
-    "members": 1,
+    "members": 0,
     "spaces": 1,
     "createdAt": "2025-06-03T11:12:53.726Z",
     "permissions": {
@@ -2403,7 +2427,7 @@
     "object": "team",
     "id": "dWHULTzDLV0qnMLzI7Mb",
     "title": "Domain Research Suite",
-    "members": 1,
+    "members": 0,
     "spaces": 0,
     "createdAt": "2025-07-22T10:05:07.548Z",
     "permissions": {
