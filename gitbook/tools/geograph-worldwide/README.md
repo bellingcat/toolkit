@@ -24,10 +24,6 @@ Geograph is a community project concept and [open source code](https://www.geogr
 
 Geograph is an invaluable resource for anyone interested in the geographical and cultural diversity of Great Britain and Ireland. Whether you're looking to contribute to this growing repository or simply explore the rich collection of images, Geograph provides a unique way to understand and appreciate these regions.
 
-**Features**
-
-
-
 ## Cost
 
 * [x] Free
