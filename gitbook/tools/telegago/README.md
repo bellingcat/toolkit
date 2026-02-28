@@ -1,8 +1,8 @@
 ---
+updated: '2025-08-31'
 description: >-
   Telegago is a Google Custom Search Engine tailored for searching public
   Telegram content for OSINT purposes.
-updated: '2025-08-31'
 ---
 
 # Telegago
@@ -10,8 +10,6 @@ updated: '2025-08-31'
 ## URL
 
 [https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg](https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg) – Official Telegago Google Custom Search Engine
-
-(short: [http://bit.ly/telegago](http://bit.ly/telegago))
 
 ## Description
 
@@ -119,7 +117,7 @@ No technical expertise is required beyond basic internet browsing skills.
 * **Public Content Only:** Telegago indexes only publicly accessible information on Telegram. Private or deleted content will not appear in search results.
 * **CSE preview limitations:** Search results usually show channel-level pages; single messages don’t always appear
 * **Search Effectiveness:** The quality of results depends on the specificity and effectiveness of your search terms.
-* **EU limitations:** Some links are hidden in the EU (from EU IPs) due to legal takedown requests.&#x20;
+* **EU limitations:** Some links are hidden in the EU (from EU IPs) due to legal takedown requests.
 
 ## Ethical Considerations
 
