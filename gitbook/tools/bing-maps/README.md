@@ -25,9 +25,7 @@ The imagery includes samples taken by satellite sensors, aerial cameras, 3D city
 * The ability to overlay standard or custom data points and layers with different themes.
 * Building-level geocoding for more than 70 million addresses in the United States.
 * Developer support options available.
-*   Set of APIs available upon which developers can build applications.
-
-    \\
+* Set of APIs available upon which developers can build applications.
 
 Bing Maps is available in the following formats:
 
@@ -123,7 +121,7 @@ Microsoft [https://www.microsoft.com](https://www.microsoft.com) - United States
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                       |
-| ------------------------------------- |
-| Paul - Bellingcat Volunteer Community |
-|                                       |
+| Page maintainer                                            |
+| ---------------------------------------------------------- |
+| Paul - Bellingcat Volunteer Community, Riccardo Giannardi. |
+|                                                            |
