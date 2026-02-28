@@ -1,8 +1,8 @@
 ---
+updated: '2026-01-15'
 description: >-
   Satellites.pro allows open source researchers to quickly switch between
   several free satellite imagery and mapping services.
-updated: '2026-01-15'
 ---
 
 # Satellites.pro
@@ -13,7 +13,7 @@ updated: '2026-01-15'
 
 ## Description
 
-Satellites.pro lets you view satellite imagery and mapping services including maps from:&#x20;
+Satellites.pro lets you view satellite imagery and mapping services including maps from:
 
 * [Apple Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/apple-maps)
 * OpenStreetMap
@@ -51,7 +51,7 @@ Any modern web browser.
 satellites.pro has the following limitations that researchers should consider:
 
 * **Data Accuracy and Currency**: Data may not always be up to date, leading to potential discrepancies with current conditions. Users should verify important information through other sources. For Apple, Google and Open Street Map see the toolkit entries for the associated maps. [Yandex Maps Editor Support](https://yandex.com/support/mapeditor/sputnik.html) says Yandex imagery is updated irregularly but does not specify how often imagery is updated.
-* **Resolution and Detail**: Image resolution varies across different regions and services, with some areas having detailed imagery and others being less clear. Again, see [Apple Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/apple-maps), [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps) and Open Street Map toolkit entries for more details. [Yandex Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps) does not provide further information on this.   &#x20;
+* **Resolution and Detail**: Image resolution varies across different regions and services, with some areas having detailed imagery and others being less clear. Again, see [Apple Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/apple-maps), [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps) and Open Street Map toolkit entries for more details. [Yandex Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps) does not provide further information on this.
 * There are ads present in various areas of the screen, and the site may ask the user to watch an ad in order to gain full access for 24 hours.<br>
 
 ## Ethical Considerations
@@ -90,8 +90,7 @@ Unknown but the site has been registered via a Russian domain name service
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                       |
-| ------------------------------------- |
-| Paul - Bellingcat Volunteer Community |
-|                                       |
-
+| Page maintainer                                            |
+| ---------------------------------------------------------- |
+| Paul - Bellingcat Volunteer Community, Riccardo Giannardi  |
+|                                                            |
