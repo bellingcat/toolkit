@@ -1,5 +1,5 @@
 ---
-updated: '2025-12-27'
+updated: '2026-02-27'
 description: >-
   An interactive worldwide map, showcasing business registries, court records,
   and other publicly available information to aid OSINT investigations and
