@@ -1,6 +1,6 @@
 ---
-description: A database of remote sensing indices and satellite imaging sensors
 updated: '2026-01-15'
+description: A database of remote sensing indices and satellite imaging sensors
 ---
 
 # Index Database
@@ -39,7 +39,7 @@ Like any tool related to or making use of remote sensing data, the ethical consi
 
 ## Guide
 
-[https://www.indexdatabase.de/info/help.php](https://www.indexdatabase.de/info/help.php)&#x20;
+[https://www.indexdatabase.de/info/help.php](https://www.indexdatabase.de/info/help.php)
 
 ## Tool provider
 
@@ -51,8 +51,7 @@ Verena Henricht and Ktharina Brüser, Institue of Crop Science and Resource Cons
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                        |
-| -------------------------------------- |
-| Agnes Cameron, Reviewer Sophie Tedling |
-|                                        |
-
+| Page maintainer                                  |
+| ------------------------------------------------ |
+| Author: Agnes Cameron, Reviewed: Sophie Tedling: |
+|                                                  |
