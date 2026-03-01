@@ -1,8 +1,8 @@
 ---
+updated: '2026-01-15'
 description: >-
   Bellingcat's radar interference tracker can be used to locate and monitor
   active military radar systems.
-updated: '2026-01-15'
 ---
 
 # Radar Interference Tracker (RIT)
@@ -13,7 +13,7 @@ updated: '2026-01-15'
 
 ## Description
 
-The Bellingcat radar interference tracker is a web-based tool that visualises radar interference which can then be used to search for and potentially locate active military radar systems around the globe.&#x20;
+The Bellingcat radar interference tracker is a web-based tool that visualises radar interference which can then be used to search for and potentially locate active military radar systems around the globe.
 
 The tool exploits a known flaw in Sentinel-1 Synthetic Aperture Radar (SAR) imagery. Systems like Patriot missile batteries emit a radar pulse when turned on that interferes with Sentinel's SAR signal creating a stripe of interference perpendicular to the orbital path of the satellite.
 
@@ -33,7 +33,7 @@ Although the RIT tool can help hone in on areas of interest, a manual search of 
 * **Labels:** and toggle labels on satellite imagery off or on.
 * **Search**: search by address, general location or latitude and longitude.
 * **Radio interference graph:** shows dates with spikes representing when the radar source was most active.
-* **Layers:** change opacity of layers.&#x20;
+* **Layers:** change opacity of layers.
 * **Example Locations:**
   * Dammam, Saudi Arabia
   * Dimona Radar Facility, Israel
@@ -65,7 +65,7 @@ The screenshot below show the White Sands Missile Range, USA example included wi
 * **Other sources of interference:** Not every instance of C-band radio frequency interference is caused by a military radar. Weather radar and telecommunications infrastructure among others use the same frequency – all of which are picked up by Sentinel-1, see Ollie Ballinger's [original article](https://www.bellingcat.com/resources/2022/02/11/radar-interference-tracker-a-new-open-source-tool-to-locate-active-military-radar-systems/).
 * **Processing time**: Aggregating by year can be slow according to the [original article](https://www.bellingcat.com/resources/2022/02/11/radar-interference-tracker-a-new-open-source-tool-to-locate-active-military-radar-systems/).
 * **Data Currency:** High resolution satellite imagery is not necessarily current. Although imagery is generally fairly recent, it can be a few years old, see Ollie Ballinger's [original article](https://www.bellingcat.com/resources/2022/02/11/radar-interference-tracker-a-new-open-source-tool-to-locate-active-military-radar-systems/).
-* **Temporal refresh rates:** Sentinel-1 has a five-day revisit time as the satellites circle the globe. However, a [recent issue](https://www.space.com/europe-sentinel-1b-earth-observation-satellite-anomaly) with one of the satellites in the constellation has doubled that time.&#x20;
+* **Temporal refresh rates:** Sentinel-1 has a five-day revisit time as the satellites circle the globe. However, a [recent issue](https://www.space.com/europe-sentinel-1b-earth-observation-satellite-anomaly) with one of the satellites in the constellation has doubled that time.
 * **Facility verification:** there could be multiple potential sources (weather, telecommunications, etc.) in the interference stripe, and just because something looks like a military base, it doesn’t mean that it is according to the [original article](https://www.bellingcat.com/resources/2022/02/11/radar-interference-tracker-a-new-open-source-tool-to-locate-active-military-radar-systems/).
 
 ## Ethical Considerations
@@ -80,12 +80,12 @@ To effectively use the Radar Interference Tracker, especially for beginners or t
 
 * [https://github.com/bellingcat/sar-interference-tracker](https://github.com/bellingcat/sar-interference-tracker)
 
-**Tutorials and Articles**&#x20;
+**Tutorials and Articles**
 
 * Ballinger, O. (2022) _Radar Interference Tracker: A New Open Source Tool to Locate Active Military Radar Systems_, _bellingcat_. Available at: [https://www.bellingcat.com/resources/2022/02/11/radar-interference-tracker-a-new-open-source-tool-to-locate-active-military-radar-systems/](https://www.bellingcat.com/resources/2022/02/11/radar-interference-tracker-a-new-open-source-tool-to-locate-active-military-radar-systems/) (Accessed: 8 August 2024).
 * Leng, X., Ji, K. and Kuang, G. (2021) ‘Radio Frequency Interference Detection and Localization in Sentinel-1 Images’, _IEEE Transactions on Geoscience and Remote Sensing_, 59(11), pp. 9270–9281. Available at: [https://doi.org/10.1109/TGRS.2021.3049472](https://doi.org/10.1109/TGRS.2021.3049472).
 
-**Video Tutorials**&#x20;
+**Video Tutorials**
 
 * _Radar Interference Tracker within SAR data - Ollie Ballinger (UCL)_ (2022). Available at: [https://www.youtube.com/watch?v=qZ96MaXJmGY](https://www.youtube.com/watch?v=qZ96MaXJmGY) (Accessed: 10 August 2024).
 
@@ -99,11 +99,11 @@ To effectively use the Radar Interference Tracker, especially for beginners or t
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                               |
-| ------------------------------------------------------------- |
-| Bellingcat Volunteer Team/Unassigned. Reviewer Sophie Tedling |
-|                                                               |
+| Page maintainer                                                  |
+| ---------------------------------------------------------------- |
+| Bellingcat Volunteer Team/Unassigned. Reviewed:r Sophie Tedling: |
+|                                                                  |
