@@ -2,7 +2,7 @@
 updated: '2026-01-15'
 description: >-
   ShipFinder is an application designed to track vessels in near real-time
-  across the globe.
+  across the globe, available on iPhone and Android platforms (but no longer PC)
 ---
 
 # ShipFinder
@@ -15,7 +15,13 @@ description: >-
 
 <figure><img src=".gitbook/assets/shipfinderinterface.JPG" alt=""><figcaption><p><strong>SHIPFINDER INTERFACE SHOWING VESSELS AROUND ISTANBUL, AND DETAILS OF A SELECTED VESSEL</strong></p></figcaption></figure>
 
-ShipFinder is an application designed to track vessels in near real-time across the globe. It has a map-based interactive interface which allows users to search for vessels based on location, name MMSI (Maritime Mobile Service Identities), destination, IMO (International Maritime Organisation) number or callsign.&#x20;
+ShipFinder is an application designed to track vessels in near real-time across the globe.&#x20;
+
+{% hint style="info" %}
+ShipFinder has recently discontinued the version previously available on web browser, and is now available only on iPhone and Android.
+{% endhint %}
+
+It has a map-based interactive interface which allows users to search for vessels based on location, name MMSI (Maritime Mobile Service Identities), destination, IMO (International Maritime Organisation) number or callsign.
 
 {% hint style="info" %}
 IMO numbers are unique, seven-digit tracking numbers assigned to ships and shipping companies by S\&P Global Market Intelligence on behalf of the International Maritime Organization. Unlike ship names and company names which can change, IMO numbers remain constant. More information about IMO numbers can be found on the [International Maritime Organization's website](https://www.imo.org/en/OurWork/IIIS/Pages/IMO-Identification-Number-Schemes.aspx).
@@ -57,7 +63,7 @@ ShipFinder's online version does not require a user to sign up or input an email
 * **AIS Data**: ShipFinder's platform is based on [AIS](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/y4PuseOaDGmxp1otYeL9/) data. This means that if ships are broadcasting too far from a receiver that the platform has access to, it will be lacking data on that vessel. This can occur when a ship is too far from shore for a receiver to pick up its signals. Another limitation is that AIS devices can simply be [switched off](https://globalfishingwatch.org/article/hotspots-of-unseen-fishing-vessels-qa/) to hide a vessel's location.
 * **Past vessel movements:** The option to see past vessel movements is limited in the free version.
 * **Subscription Costs**: The premium version of the app on the Apple Store, which offers additional features, currently [costs ](https://apps.apple.com/us/developer/pinkfroot-limited/id319726822)USD 4.99.
-* **Tool updates**: Certain elements of the tool don't appear to receive frequent updates by its developer. The latest entry to the news section of the website dates back to 2014. The tool's IOS app was last updated in 2018 according to its version history. Despite this, the app is still functional. Other apps by the developer do continue to be updated and the [spotting community](https://my.pinkfroot.com/) related to the tool is still very active as well.&#x20;
+* **Tool updates**: Certain elements of the tool don't appear to receive frequent updates by its developer. The latest entry to the news section of the website dates back to 2014. The tool's IOS app was last updated in 2018 according to its version history. Despite this, the app is still functional. Other apps by the developer do continue to be updated and the [spotting community](https://my.pinkfroot.com/) related to the tool is still very active as well.
 
 ## Similar Tools
 
@@ -81,7 +87,7 @@ ShipFinder is developed and maintained by an entity by the name of Pinkfroot. Th
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer  |
-| ---------------- |
-| ForgottenPidgeon |
-|                  |
+| Page maintainer                                    |
+| -------------------------------------------------- |
+| Author: ForgottenPidgeon, Reviewer: Sophie Tedling |
+|                                                    |
