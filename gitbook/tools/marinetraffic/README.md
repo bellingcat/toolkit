@@ -174,5 +174,5 @@ Guides provided by MarineTraffic:
 
 | Page maintainer:-            |
 | ---------------------------- |
-| LPetrova and Sophie Tedling; |
+| LPetrova and Sophie Tedling: |
 |                              |
