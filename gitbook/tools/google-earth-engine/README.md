@@ -118,5 +118,5 @@ Google [https://about.google/](https://about.google/) - United States.
 
 | Page maintainer                                     |
 | --------------------------------------------------- |
-| Bellingcat Volunteer Team, Reviewed Sophie Tedling; |
+| Bellingcat Volunteer Team, Reviewed Sophie Tedling: |
 |                                                     |
