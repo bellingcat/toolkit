@@ -60,6 +60,6 @@ All of the above websites are created and maintained by license plate hobbyists 
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| LPetrova;       |
+| Page maintainer                            |
+| ------------------------------------------ |
+| Author: LPetrova Reviewed: Sophie Tedling: |
