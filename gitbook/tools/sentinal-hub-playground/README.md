@@ -1,9 +1,9 @@
 ---
+updated: '2025-12-04'
 description: >-
   A free web-based platform for viewing, analyzing, and downloading satellite
   imagery from the European Space Agency's Sentinel missions, with data updated
   every 5-10 days.
-updated: '2025-12-04'
 ---
 
 # Copernicus Browser (formerly Sentinel Hub Playground, EO Browser)
@@ -20,7 +20,7 @@ updated: '2025-12-04'
 
 The tool offers multiple visualization options, including true color imagery, false color composites, and specialized indices like NDVI (vegetation health) and NDWI (water quality). Users can create timelapses to observe changes over time, compare multiple images side-by-side, and download high-resolution images for further analysis.
 
-A particularly powerful feature is the Custom Scripts functionality, which allows users to apply JavaScript-based processing algorithms to satellite data. These can be written from scratch or selected from the community-maintained Custom Scripts Repository, which includes specialized algorithms for detecting features like forest disturbances or monitoring agricultural growth.&#x20;
+A particularly powerful feature is the Custom Scripts functionality, which allows users to apply JavaScript-based processing algorithms to satellite data. These can be written from scratch or selected from the community-maintained Custom Scripts Repository, which includes specialized algorithms for detecting features like forest disturbances or monitoring agricultural growth.
 
 #### What problem does it solve?
 
@@ -85,7 +85,7 @@ The European Space Agency (Copernicus Browser) (pan-European but headquarters ar
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Arsen Drobakha  |
-|                 |
+| Page maintainer                                  |
+| ------------------------------------------------ |
+| Author: Arsen Drobakha Reviewed: Sophie Tedling: |
+|                                                  |
