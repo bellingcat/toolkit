@@ -93,7 +93,7 @@ Guides on [Kakao Map Official Blog](https://kakaomap.tistory.com/category/%EC%B9
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer               |
-| ----------------------------- |
-| Renn. Reviewer Sophie Tedling |
-|                               |
+| Page maintainer                        |
+| -------------------------------------- |
+| Author: Renn. Reviewed: Sophie Tedling |
+|                                        |
