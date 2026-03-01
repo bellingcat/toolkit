@@ -341,7 +341,7 @@ The tool uses “cookieless tracking”. Although the “tracking” feature can
 
 | Page maintainer                  |
 | -------------------------------- |
-| Sophie Tedling and Anisa Shabir  |
+| Sophie Tedling and Anisa Shabir: |
 |                                  |
 
 [^1]: [Open Street Map](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/TSRCKcxTTIGI6g9ZTkHy/) is a free, open map database of the world, which is updated and maintained by a community of volunteer contributors.
