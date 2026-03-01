@@ -160,7 +160,7 @@ Baidu Inc [http://www.baidu.com/](http://www.baidu.com/) - China
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| River N.        |
-|                 |
+| Page maintainer                           |
+| ----------------------------------------- |
+| Author: River N. Reviewed: Sophie Tedling |
+|                                           |
