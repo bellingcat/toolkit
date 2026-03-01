@@ -55,7 +55,7 @@ NOAA's [radar page](https://radar.weather.gov/) provides a map of current precip
 * [x] This tool uses tracking cookies (Google Analytics). Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                         |
-| --------------------------------------- |
-| Logan Williams, Reviewer Sophie Tedling |
-|                                         |
+| Page maintainer                                   |
+| ------------------------------------------------- |
+| Author: Logan Williams, Reviewed: Sophie Tedling: |
+|                                                   |
