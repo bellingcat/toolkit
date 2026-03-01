@@ -117,5 +117,5 @@ To effectively use F4Map, especially for beginners or those looking to refine th
 
 | Page maintainer                                     |
 | --------------------------------------------------- |
-| Bellingcat Volunteer Team. Reviewer Sophie Tedling; |
+| Bellingcat Volunteer Team. Reviewer Sophie Tedling: |
 |                                                     |
