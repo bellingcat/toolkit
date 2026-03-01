@@ -150,5 +150,5 @@ Torsten Hoffman (Germany) with satellite data from Dr T. S. Kelso via [www.celes
 
 | Page maintainer: |
 | ---------------- |
-| Sophie Tedling;  |
+| Sophie Tedling:  |
 |                  |
