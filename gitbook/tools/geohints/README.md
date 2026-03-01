@@ -118,5 +118,5 @@ _Interactive maps: Sören_
 
 | Page maintainer                                                                    |
 | ---------------------------------------------------------------------------------- |
-| Paul - Bellingcat Volunteer Community. Review: Sophie Tedling, Riccardo Giannardi. |
+| Paul - Bellingcat Volunteer Community. Review: Sophie Tedling, Riccardo Giannardi: |
 |                                                                                    |
