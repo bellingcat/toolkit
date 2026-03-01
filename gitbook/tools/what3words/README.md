@@ -124,5 +124,5 @@ what3words provides a [How to Use](https://what3words.com/how-to-use-the-what3wo
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling;   |
+| Sophie Tedling:   |
 |                   |
