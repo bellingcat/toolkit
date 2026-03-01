@@ -1,8 +1,8 @@
 ---
+updated: '2026-01-15'
 description: >-
   A historical database providing vital navigational and meteorological
   warnings, forecasts, and urgent maritime safety information to ships.
-updated: '2026-01-15'
 ---
 
 # Navtex
@@ -37,20 +37,18 @@ The navtex.net homepage also includes a [guide](https://www.navtex.net/index.htm
 
 #### [Reading](https://www.imorules.com/GUID-1015C87C-8D59-42A8-B42A-047ED191CBF1.html) an example of a NAVTEX message:
 
-ZCZC IA96\
-122211 UTC APR\
-BALTIC SEA NAV WARN 015/25\
-BALTIC SEA AREA AND INLAND WATERWAYS.\
-AFTER THE WINTER SEASON FLOATING NAVIGATIONAL AIDS AND ALSO SOME LIGHTS\
-LEADING LIGHTS AND MARKS COULD BE UNLIT OFF POSITION OR CAPSIZED. MANY BUOYS\
-AND MARKS HAVE BEEN WITHDRAWN. REPAIR WORKS WILL TAKE SEVERAL WEEKS.\
-NAVIGATE WITH CAUTION.\
+ZCZC IA96\
+122211 UTC APR\
+BALTIC SEA NAV WARN 015/25\
+BALTIC SEA AREA AND INLAND WATERWAYS.\
+AFTER THE WINTER SEASON FLOATING NAVIGATIONAL AIDS AND ALSO SOME LIGHTS\
+LEADING LIGHTS AND MARKS COULD BE UNLIT OFF POSITION OR CAPSIZED. MANY BUOYS\
+AND MARKS HAVE BEEN WITHDRAWN. REPAIR WORKS WILL TAKE SEVERAL WEEKS.\
+NAVIGATE WITH CAUTION.\
 NNNN
 
-
-
 * ZCZC = This indicates the start of the NAVTEX message.
-* L = This is the ID of the station transmitting the message. This character is called B1.&#x20;
+* L = This is the ID of the station transmitting the message. This character is called B1.
 * A = This is the type of subject of the message. This character is called the B2. In this case "A" = Navigational Warning).
 * 83 = This is a serial number for each B2 message, these are added to differentiate the NAVEX message from similar ones that might be sent from the same transmitter. In the example above, this indicates Navigational Warning no. 96 from.
 * 122211 = These numbers are the day, hour and minute that the message arrived.
@@ -88,7 +86,7 @@ The guide to reading the various parts of a NAVTEX message is located on the web
 
 ## Tool provider
 
-The NAVTEX website is a passion project set up by what appears to be just one individual, or a very small team at best. The website itself credits its creation to an individual by the name of Geir Laastad, a former sailor who goes by the nickname/call sign of "LA6LU".  Laastad's country of origin is unclear. The aim of the website's creation is to provide a secondary source of NAVTEX data for ships that may have a reliable internet connection, but not a reliable NAVTEX receiver.
+The NAVTEX website is a passion project set up by what appears to be just one individual, or a very small team at best. The website itself credits its creation to an individual by the name of Geir Laastad, a former sailor who goes by the nickname/call sign of "LA6LU". Laastad's country of origin is unclear. The aim of the website's creation is to provide a secondary source of NAVTEX data for ships that may have a reliable internet connection, but not a reliable NAVTEX receiver.
 
 ## Advertising Trackers
 
@@ -96,7 +94,7 @@ The NAVTEX website is a passion project set up by what appears to be just one in
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer  |
-| ---------------- |
-| ForgottenPidgeon |
-|                  |
+| Page maintainer                                     |
+| --------------------------------------------------- |
+| Author: ForgottenPidgeon, Reviewed: Sophie Tedling: |
+|                                                     |
