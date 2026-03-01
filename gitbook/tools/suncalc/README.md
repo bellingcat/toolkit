@@ -242,5 +242,5 @@ In 2025, SunCalc began to use detectable cookies, and therefore added a user cho
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling;   |
+| Sophie Tedling:   |
 |                   |
