@@ -65,7 +65,7 @@ Planet, U.S.
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                          |
-| ---------------------------------------- |
-| Logan Williams, Reviewer Sophie Tedling; |
-|                                          |
+| Page maintainer                                   |
+| ------------------------------------------------- |
+| Author: Logan Williams, Reviewed: Sophie Tedling: |
+|                                                   |
