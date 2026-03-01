@@ -146,7 +146,7 @@ European Space Agency [https://www.esa.int/](https://www.esa.int/)
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                     |
-| ----------------------------------- |
-| Bellingcat Volunteer Team / Lavache |
-|                                     |
+| Page maintainer                                                      |
+| -------------------------------------------------------------------- |
+| Author: Bellingcat Volunteer Team / Lavache Reviewed: Sophie Tedling |
+|                                                                      |
