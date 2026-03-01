@@ -264,5 +264,5 @@ Founder (2021) and CEO Georg Molzer.
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling;   |
+| Sophie Tedling:   |
 |                   |
