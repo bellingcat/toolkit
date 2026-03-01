@@ -201,7 +201,7 @@ Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling;   |
+| Sophie Tedling:   |
 |                   |
 
 [^1]: EXIF data can contain non-visual information about an image, e.g. type of camera and lens, date and time the image was taken, location at which it was taken,...
