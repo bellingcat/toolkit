@@ -129,7 +129,7 @@ Wikimapia was created by the Russian software company Wikimapia Ltd., founded in
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                     |
-| --------------------------------------------------- |
-| Bellingcat Volunteer Team. Reviewer Sophie Tedling; |
-|                                                     |
+| Page maintainer                                      |
+| ---------------------------------------------------- |
+| Bellingcat Volunteer Team. Reviewed: Sophie Tedling: |
+|                                                      |
