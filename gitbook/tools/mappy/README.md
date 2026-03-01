@@ -54,7 +54,7 @@ Mappy's parent company is Mappy S.A., a technological services company based in 
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer               |
-| ----------------------------- |
-| Aly. Reviewed Sophie Tedling; |
-|                               |
+| Page maintainer                        |
+| -------------------------------------- |
+| Author: Aly. Reviewed: Sophie Tedling: |
+|                                        |
