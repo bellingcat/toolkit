@@ -58,21 +58,21 @@ To effectively use QGIS, especially for beginners or those looking to refine the
 
 **Tutorials and Articles**
 
-* _Introduction to QGIS_ (2022) _Spatial Thoughts_. Available at: [https://spatialthoughts.com/courses/introduction-to-qgis/](https://spatialthoughts.com/courses/introduction-to-qgis/) (Accessed: 15 January 2026).
-* _NICAR 2016: QGIS 2_ (no date). Available at: [http://www.mikejcorey.com/nicar\_qgis\_advanced/](http://www.mikejcorey.com/nicar_qgis_advanced/) (Accessed: 15 January 2026).
-* _The Fast & The Mapped: QGIS Basics_ (no date). Available at: [http://dhmontgomery.com/ire2017/](http://dhmontgomery.com/ire2017/) (Accessed: 15 January 2026).
+* _Introduction to QGIS_ (2022) _Spatial Thoughts_. Available at: [https://spatialthoughts.com/courses/introduction-to-qgis/](https://spatialthoughts.com/courses/introduction-to-qgis/) (Accessed: 2 March 2026).
+* _NICAR 2016: QGIS 2_ (no date). Available at: [http://www.mikejcorey.com/nicar\_qgis\_advanced/](http://www.mikejcorey.com/nicar_qgis_advanced/) (Accessed: 2 March 2026).
+* _The Fast & The Mapped: QGIS Basics_ (no date). Available at: [http://dhmontgomery.com/ire2017/](http://dhmontgomery.com/ire2017/) (Accessed: 2 March 2026).
 
 **Use Cases**
 
 * **Environmental Impact Analysis in Conflict Zones**: Using QGIS to visualize and analyze the reduction of tree cover in areas affected by war, providing insight into environmental degradation. This can be seen in the work by **Godin, P.C., Jake** (2024) on [Gaza’s Trees Disappear, Showing a Humanitarian Crisis](https://www.bellingcat.com/news/2024/03/15/gazas-trees-disappear-showing-a-humanitarian-crisis/), highlighting how GIS data can indicate broader humanitarian issues.
-* **Spatial Analysis of Conflict Effects**: Employing count-point-in-polygon calculations with QGIS to quantify the impact of conflict on natural resources, such as the number of conflict events within a specified area affecting forest land. An example is **Giles, C.** (2023) detailing how [A New Tool Shows What War Has Done to Ukraine’s Forests](https://www.bellingcat.com/resources/2023/08/18/a-new-tool-shows-what-war-has-done-to-ukraines-forests/), which utilizes spatial data to draw connections between warfare and environmental harm.
+* **Spatial Analysis of Conflict Effects**: Employing count-point-in-polygon calculations with QGIS to quantify the impact of conflict on natural resources, such as the number of conflict events within a specified area affecting forest land. An example is **Giles, C.** (2023) detailing how [A New Tool Shows What War Has Done to Ukraine’s Forests](https://www.bellingcat.com/resources/2023/08/18/a-new-tool-shows-what-war-has-done-to-ukraines-forests/), which utilises spatial data to draw connections between warfare and environmental harm.
 
 **Video Tutorials**
 
-* _Map Academy - YouTube_ (no date). Available at: [https://www.youtube.com/@automaticknowledge](https://www.youtube.com/@automaticknowledge) (Accessed: 15 January 2026).
-* _Video course: Mapping for Journalists_ (no date) _DataJournalism.com_. Available at: [https://datajournalism.com/watch/mapping-for-journalists](https://datajournalism.com/watch/mapping-for-journalists) (Accessed: 15 January 2026).
-* _Learn GIS - QGIS Full Course for Beginners (New for 2024)_ (2024). Available at: [https://www.youtube.com/watch?v=SovdBaus7pM](https://www.youtube.com/watch?v=SovdBaus7pM) (Accessed: 15 January 2026).
-* _Introduction to QGIS_ (2022) _Spatial Thoughts_. Available at: [https://spatialthoughts.com/courses/introduction-to-qgis/](https://spatialthoughts.com/courses/introduction-to-qgis/) (Accessed: 15 January 2026).
+* _Map Academy - YouTube_ (no date). Available at: [https://www.youtube.com/@automaticknowledge](https://www.youtube.com/@automaticknowledge) (Accessed: 2 March 2026).
+* _Video course: Mapping for Journalists_ (no date) _DataJournalism.com_. Available at: [https://datajournalism.com/watch/mapping-for-journalists](https://datajournalism.com/watch/mapping-for-journalists) (Accessed: 2 March 2026).
+* _Learn GIS - QGIS Full Course for Beginners (New for 2024)_ (2024). Available at: [https://www.youtube.com/watch?v=SovdBaus7pM](https://www.youtube.com/watch?v=SovdBaus7pM) (Accessed: 2 March 2026).
+* _Introduction to QGIS_ (2022) _Spatial Thoughts_. Available at: [https://spatialthoughts.com/courses/introduction-to-qgis/](https://spatialthoughts.com/courses/introduction-to-qgis/) (Accessed: 2 March 2026).
 
 **Community and Support**
 
