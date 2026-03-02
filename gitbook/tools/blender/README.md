@@ -14,7 +14,7 @@ description: >-
 
 ## Description
 
-Blender is a tool for 3D creation, designed to support a wide range of tasks from modeling and animation to rendering and video editing. It is developed as an open-source project, making it entirely free to use for both personal and commercial purposes. The software is well-suited for artists, animators, and designers looking to create detailed 3D models, engaging animations, and realistic visual effects. One of the key features of Blender is its ability to support the entire 3D pipeline, simplifying the workflow for users by providing a single platform for all 3D creation needs. It has a role in open source investigations as a tool for visualising, simulating and geospatial analysis.
+Blender is a tool for 3D creation, designed to support a wide range of tasks from modeling and animation to rendering and video editing. It is developed as an open-source project, making it entirely free to use for both personal and commercial purposes. The software is well-suited for artists, animators, and designers looking to create detailed 3D models, engaging animations, and realistic visual effects. One of the key features of Blender is its ability to support the entire 3D pipeline, simplifying the workflow for users by providing a single platform for all 3D creation needs. It has a role in open source investigations as a tool for visualising, simulating and geo-spatial analysis.
 
 The image below shows a Blender model on the left used in Bellingcat's [_Russian Missile Identified in Kyiv Children’s Hospital Attack_ investigation](https://www.bellingcat.com/news/2024/07/09/russian-missile-identified-in-kyiv-childrens-hospital-attack/).
 
@@ -71,11 +71,11 @@ To effectively use Blender, especially for beginners or those looking to refine 
 
 **Tutorials and Articles**
 
-* _Blender Guru_ (2022) _Blender Guru_. Available at: [https://www.blenderguru.com](https://www.blenderguru.com) (Accessed: 15 January 2026).
-* PremiumBeat (2021) _Complete Beginner’s Guide to Blender - PremiumBeat_, _The Beat: A Blog by PremiumBeat_. Available at: [https://www.premiumbeat.com/blog/blender-software-guide/](https://www.premiumbeat.com/blog/blender-software-guide/) (Accessed: 15 January 2026).
-* _Blender for Forensic Architecture - M2 Hospital Bombing in Aleppo_ (2017) _BlenderNation_. Available at: [https://www.blendernation.com/2017/02/25/blender-forensic-architecture-m2-hospital-aleppo/](https://www.blendernation.com/2017/02/25/blender-forensic-architecture-m2-hospital-aleppo/) (Accessed: 15 January 2026).
-* Sheldon, M. (2023) _Anatomy of a Shelling: How Russian Rocket Artillery Struck Mykolaiv_, _bellingcat_. Available at: [https://www.bellingcat.com/news/2023/01/27/anatomy-of-a-shelling-how-russian-rocket-artillery-struck-mykolaiv/](https://www.bellingcat.com/news/2023/01/27/anatomy-of-a-shelling-how-russian-rocket-artillery-struck-mykolaiv/) (Accessed: 15 January 2026).
-* Gonzales, M.S., Giancarlo Fiorella, Jake Godin, Carlos (2024) _Russian Missile Identified in Kyiv Children’s Hospital Attack_, _bellingcat_. Available at: [https://www.bellingcat.com/news/2024/07/09/russian-missile-identified-in-kyiv-childrens-hospital-attack/](https://www.bellingcat.com/news/2024/07/09/russian-missile-identified-in-kyiv-childrens-hospital-attack/) (Accessed: 15 January 2026).
+* _Blender Guru_ (2022) _Blender Guru_. Available at: [https://www.blenderguru.com](https://www.blenderguru.com) (Accessed: 2 March 2026).
+* PremiumBeat (2021) _Complete Beginner’s Guide to Blender - PremiumBeat_, _The Beat: A Blog by PremiumBeat_. Available at: [https://www.premiumbeat.com/blog/blender-software-guide/](https://www.premiumbeat.com/blog/blender-software-guide/) (Accessed: 2 March 2026).
+* _Blender for Forensic Architecture - M2 Hospital Bombing in Aleppo_ (2017) _BlenderNation_. Available at: [https://www.blendernation.com/2017/02/25/blender-forensic-architecture-m2-hospital-aleppo/](https://www.blendernation.com/2017/02/25/blender-forensic-architecture-m2-hospital-aleppo/) (Accessed: 2 March 2026).
+* Sheldon, M. (2023) _Anatomy of a Shelling: How Russian Rocket Artillery Struck Mykolaiv_, _Bellingcat_. Available at: [https://www.bellingcat.com/news/2023/01/27/anatomy-of-a-shelling-how-russian-rocket-artillery-struck-mykolaiv/](https://www.bellingcat.com/news/2023/01/27/anatomy-of-a-shelling-how-russian-rocket-artillery-struck-mykolaiv/) (Accessed: 2 March 2026).
+* Gonzales, M.S., Giancarlo Fiorella, Jake Godin, Carlos (2024) _Russian Missile Identified in Kyiv Children’s Hospital Attack_, &#x42;_&#x65;llingcat_. Available at: [https://www.bellingcat.com/news/2024/07/09/russian-missile-identified-in-kyiv-childrens-hospital-attack/](https://www.bellingcat.com/news/2024/07/09/russian-missile-identified-in-kyiv-childrens-hospital-attack/) (Accessed: 2 March 2026).
 
 **Books**
 
@@ -84,12 +84,12 @@ To effectively use Blender, especially for beginners or those looking to refine 
 
 #### **Video Tutorials**
 
-* [**YouTube Official Blender Channel**](https://www.youtube.com/user/BlenderFoundation)**:** Official YouTube channel for Blender, the Free and Open Source 3D Creation Suite. (Accessed: 15 January 2026)
-* _Blender 4.0 Beginner Donut Tutorial (NEW) - YouTube_ (no date). Available at: [https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z](https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z) (Accessed: 15 January 2026).
-* _Modelling from a Photograph - Blender_ (2019). Available at: [https://www.youtube.com/watch?v=7DfSDCFgINE](https://www.youtube.com/watch?v=7DfSDCFgINE) (Accessed: 15 January 2026).
-* _Camera Matching in Blender – Forensic Architecture Investigative Toolkit 01_ (2023). Available at: [https://www.youtube.com/watch?v=MoEwL2fbtDM](https://www.youtube.com/watch?v=MoEwL2fbtDM) (Accessed: 15 January 2026).
-* _Camera Calibration - fSpy to Blender_ (2019). Available at: [https://www.youtube.com/watch?v=9ZPFuVQ\_MFQ](https://www.youtube.com/watch?v=9ZPFuVQ_MFQ) (Accessed: 15 January 2026).
-* _Perfect Photo and Camera Match with fSpy and Blender_ (2018). Available at: [https://www.youtube.com/watch?v=VRgqMvy16IU](https://www.youtube.com/watch?v=VRgqMvy16IU) (Accessed: 15 January 2026).
+* [**YouTube Official Blender Channel**](https://www.youtube.com/user/BlenderFoundation)**:** Official YouTube channel for Blender, the Free and Open Source 3D Creation Suite. (Accessed: 2 March 2026)
+* _Blender 4.0 Beginner Donut Tutorial (NEW) - YouTube_ (no date). Available at: [https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z](https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z) (Accessed: 2 March 2026).
+* _Modelling from a Photograph - Blender_ (2019). Available at: [https://www.youtube.com/watch?v=7DfSDCFgINE](https://www.youtube.com/watch?v=7DfSDCFgINE) (Accessed: 2 March 2026).
+* _Camera Matching in Blender – Forensic Architecture Investigative Toolkit 01_ (2023). Available at: [https://www.youtube.com/watch?v=MoEwL2fbtDM](https://www.youtube.com/watch?v=MoEwL2fbtDM) (Accessed: 2 March 2026).
+* _Camera Calibration - fSpy to Blender_ (2019). Available at: [https://www.youtube.com/watch?v=9ZPFuVQ\_MFQ](https://www.youtube.com/watch?v=9ZPFuVQ_MFQ) (Accessed: 2 March 2026).
+* _Perfect Photo and Camera Match with fSpy and Blender_ (2018). Available at: [https://www.youtube.com/watch?v=VRgqMvy16IU](https://www.youtube.com/watch?v=VRgqMvy16IU) (Accessed: 2 March 2026).
 
 #### Developer Resources
 
