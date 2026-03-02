@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-Google Earth Engine is a cloud-based platform for environmental data analysis, object and change detection. It brings together a large collection of satellite imagery and geospatial datasets with planetary-scale analysis capabilities. This tool is designed for researchers and analysts engaged in environmental monitoring, land-use change detection and object and infrastructure detection. It solves the problem of managing and analyzing large datasets that require significant computational resources and creating sophisticated interactive visualisations.
+Google Earth Engine (GEE) is a cloud-based platform for environmental data analysis, object and change detection. It brings together a large collection of satellite imagery and geospatial datasets with planetary-scale analysis capabilities. This tool is designed for researchers and analysts engaged in environmental monitoring, land-use change detection and object and infrastructure detection. It solves the problem of managing and analyzing large datasets that require significant computational resources and creating sophisticated interactive visualisations.
 
 GEE can be used with the following programming languages and tools:
 
