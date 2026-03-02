@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-16'
+updated: '2026-03-01'
 description: >-
   SkyFi is used to purchase commercial satellite imagery and task (order the
   collection of images) satellites without a subscription.

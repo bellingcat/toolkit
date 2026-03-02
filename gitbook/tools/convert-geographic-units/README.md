@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-16'
+updated: '2026-03-01'
 description: >-
   A tool that converts various geographic coordinates to support diverse mapping
   and spatial analysis needs.

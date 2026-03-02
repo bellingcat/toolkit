@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-15'
+updated: '2026-03-01'
 description: >-
   Bellingcat's radar interference tracker can be used to locate and monitor
   active military radar systems.

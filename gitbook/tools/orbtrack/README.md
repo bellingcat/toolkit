@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-15'
+updated: '2026-03-01'
 description: >-
   Predicts & describes the position & path of >10K satellites in Earth orbit,
   relative to points on the earth's surface input by the user, for 5 days ahead,

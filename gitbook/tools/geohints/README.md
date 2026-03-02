@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-14'
+updated: '2026-03-01'
 description: >-
   GeoHints is a website that provides information about things like traffic
   lights, utility poles, bollards etc. for different regions of the world to

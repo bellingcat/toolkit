@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-15'
+updated: '2026-03-01'
 description: A database of remote sensing indices and satellite imaging sensors
 ---
 

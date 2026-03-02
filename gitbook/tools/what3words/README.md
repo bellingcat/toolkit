@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-15'
+updated: '2026-03-01'
 description: >-
   A proprietary geocode system which identifies any location on the surface of
   the earth to a resolution of 3 metres. The identifier is a unique combination

@@ -1,5 +1,5 @@
 ---
-updated: '2025-12-04'
+updated: '2026-03-01'
 description: >-
   A free web-based platform for viewing, analyzing, and downloading satellite
   imagery from the European Space Agency's Sentinel missions, with data updated

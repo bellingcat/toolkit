@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-15'
+updated: '2026-03-01'
 description: >-
   ShadeMap is a global simulation of mountain, building & tree shadows for a
   given date & time. Base data is free, but users can buy 30cm accurate data per

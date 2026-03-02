@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-15'
+updated: '2026-03-01'
 description: >-
   Tilting global map of 3D buildlings and the shadows they cast at a specific
   time of the day, but date fixed at "today" in free version. Paid versions
