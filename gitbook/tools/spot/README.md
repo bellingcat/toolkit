@@ -44,7 +44,7 @@ e.g. Enter "_**Find a pharmacy and a traffic light and a bus stop and a bridge w
 
 {% columns %}
 {% column %}
-...involves the user describing an image which they want to geolocate, and using Spot to generate and visually inspect potential solution locations around a particular geographic region like a named city.  This example on the right from a social media platform shows a fountain and a tower block and a church labelled as being in London, UK. Features in the image are shown next to items providing scale, e.g. trees, and help estimate the distance between them.
+...involves the user describing an image which they want to geolocate, and using Spot to generate and visually inspect potential solution locations around a particular geographic region like a named city. This example on the right from a social media platform shows a fountain and a tower block and a church labelled as being in London, UK. Features in the image are shown next to items providing scale, e.g. trees, and help estimate the distance between them.
 {% endcolumn %}
 
 {% column %}
@@ -147,7 +147,7 @@ Note that Spot very clearly marks the overall search area for the query on its o
 {% tab title="DATA INPUT OPTIONS" %}
 NB Locations can be input as:
 
-&#x20;Proper Place Names of search regions, e.g. a city, or Geographic co-ordinates or a rectangular area of interest defined by the visible map region displayed in the Spot interface when pressing the "Search Current Area" button on the interface.
+Proper Place Names of search regions, e.g. a city, or Geographic co-ordinates or a rectangular area of interest defined by the visible map region displayed in the Spot interface when pressing the "Search Current Area" button on the interface.
 
 Enter a natural language sentence in the search box
 
@@ -162,11 +162,11 @@ Use the search parameters box to adjust existing search features and their relat
 {% hint style="danger" %}
 The user can input the location part of the search in three ways, and these often return different results:
 
-1\) Enter the location in the search box on the top right hand of the screen (either as place name or co-ordinates) - the search will be conducted on a rectangle centred around a point representing the location
+1\) Enter the location in the search box on the top right hand of the screen (either as place name or co-ordinates) - the search will be conducted on a rectangle centred around a point representing the location.
 
 2\) Enter the location in natural language as part of the text query entered into the "Your search" box in the top left of the screen - the search will look for a polygon of geographic map boundaries and search within that.
 
-3\) Set the search region as the rectangular map area showing in the interface by pressing the "Search Current Area" button in the centre top of the screen
+3\) Set the search region as the rectangular map area showing in the interface by pressing the "Search Current Area" button in the centre top of the screen.
 
 Note that attempts to use different methods to define the same search area may produce different results in practice.
 {% endhint %}
