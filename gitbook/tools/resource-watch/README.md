@@ -17,19 +17,23 @@ Resourcewatch is a web-based, open source environmental data aggregating platfor
 
 The datasets can be browsed by topic: Food and agriculture, Energy, Climate, Forests, Water, Society, Ocean, Cities, Coral Reefs and Air Quality. It is also possible to select recent updates or to zoom in on geographic areas of interest, directly on the map.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2026-02-21 at 16.24.00.png" alt=""><figcaption><p>Specific layers of datasets can be explored on a world map, and some datasets can be combined. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-02-21 at 16.24.00.png" alt=""><figcaption><p>Specific layers of datasets can be explored on a world map, and some datasets can be combined. In this screenshot, the datasets are filtered on the topic 'Air Quality' and the Global Power Plant Database is selected for the world map.</p></figcaption></figure>
 
 With an account it is possible to save and select geographical areas of interest, by selecting countries from a list or by drawing a polygon on the world map. Some datasets then provide alerts when relevant data to this area has been updated or added.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2026-02-14 at 14.54.25.png" alt=""><figcaption><p>With an account it is possible to focus on geographical areas of interest. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-02-14 at 14.54.25.png" alt=""><figcaption><p>With an account it is possible to focus on geographical areas of interest. In this case, the countries Greenland and Iran have been chosen from a dropdown list and an area near Taiwan is drawn on the map. </p></figcaption></figure>
 
-Informative thematic dashboards are available, but do not include recent data. For some visualisations, it is possible to create a custom dashboard and to create public links to charts and visualisations so that they can be used in reports.&#x20;
+Informative thematic dashboards with short articles and visualisations are available, but do not include recent data. The ready-made dashboards follow the same thematic categories as the datasets, such as Energy, Forests, Ocean Watch, and Air Quality.
+
+For some visualisations, it is possible to create your own custom dashboard and to create public links to charts and visualisations so that they can be used in reports.&#x20;
 
 Advanced data users can directly access the [Resourcewatch Github](https://github.com/resource-watch) page and build upon the open source code or [pull data by API](https://resourcewatch.org/get-involved/develop-your-app) to use in own applications. Examples of this are thematic data initiatives such as [Ocean Watch](https://blog.resourcewatch.org/2021/11/29/how-listening-to-a-sea-of-voices-can-transform-ocean-management/) and [Land & Carbon Lab](https://dobecology.foleon.com/go/4-optimism-in-times-of-crises/wri-resource-watch/#block-100185753).
 
 ## Data sources
 
 Data comes from a wide range of external data providers: National governments, international organisations and UN agencies, research institutions and scientific publications. The data providers and update frequency are listed on the dataset detail pages.&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2026-03-07 at 19.00.05.png" alt=""><figcaption><p>The dataset detail page provides descriptions of dataset layers and methodology, along with information on sources, update frequency, reuse licenses, and related datasets</p></figcaption></figure>
 
 Resourcewatch is an aggregating platform and is not built for creating or correcting data, but does perform some preprocessing and standardisation to make the data usable in visualisations. Curating takes place by WRI domain experts or by peer review. It is possible to add your own datasets; check the [data policy](https://resourcewatch.org/get-involved/data-policy) for more information.&#x20;
 
