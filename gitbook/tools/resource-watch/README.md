@@ -23,7 +23,7 @@ The datasets can be browsed by topic: Food and agriculture, Energy, Climate, For
 
 With an account it is possible to save and select geographical areas of interest, by selecting countries from a list or by drawing a polygon on the world map. Some datasets then provide alerts when relevant data to this area has been updated or added.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2026-02-14 at 14.54.25.png" alt=""><figcaption><p>With an account it is possible to focus on geographical areas of interest. In this case, the countries Greenland and Iran have been chosen from a dropdown list and an area near Taiwan is drawn on the map. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-02-14 at 14.54.25.png" alt=""><figcaption><p>With an account, users can define geographical areas of interest. In this example, the countries Greenland and Iran were selected from a preset list, and a custom area near Taiwan was drawn on the map.</p></figcaption></figure>
 
 Informative thematic dashboards with short articles and visualisations are available, but do not include recent data. The ready-made dashboards follow the same thematic categories as the datasets, such as Energy, Forests, Ocean Watch, and Air Quality.
 
