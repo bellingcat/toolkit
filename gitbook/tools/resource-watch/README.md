@@ -29,7 +29,7 @@ Informative thematic dashboards with short articles and visualisations are avail
 
 For some visualisations, it is possible to create your own custom dashboard and to create public links to charts and visualisations so that they can be used in reports.&#x20;
 
-Advanced data users can directly access the [Resourcewatch Github](https://github.com/resource-watch) page and build upon the open source code or [pull data by API](https://resourcewatch.org/get-involved/develop-your-app) to use in own applications. Examples of this are thematic data initiatives such as [Ocean Watch](https://blog.resourcewatch.org/2021/11/29/how-listening-to-a-sea-of-voices-can-transform-ocean-management/) and [Land & Carbon Lab](https://dobecology.foleon.com/go/4-optimism-in-times-of-crises/wri-resource-watch/#block-100185753).
+Advanced data users can directly access the [Resourcewatch Github](https://github.com/resource-watch) page and build upon the open source code or [pull data by API](https://resourcewatch.org/get-involved/develop-your-app) to use in own applications. Examples of this are thematic data initiatives such as [Ocean Watch](https://blog.resourcewatch.org/2021/11/29/how-listening-to-a-sea-of-voices-can-transform-ocean-management/) and [Global Forest Watch](https://dobecology.foleon.com/go/4-optimism-in-times-of-crises/wri-resource-watch/#block-100185753).
 
 ## Data sources
 
