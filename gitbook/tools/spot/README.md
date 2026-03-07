@@ -14,7 +14,8 @@ description: >-
 
 <figure><img src=".gitbook/assets/Screenshot 2025-08-31 at 15.24.35.png" alt=""><figcaption><p><strong>THE SPOT INTERFACE DISPLAYING RESULTS OF A SEARCH OF OPEN STREET MAP EXPRESSED IN ENGLISH LANGUAGE AT TOP LEFT, WITH RESULTS COLOURED ON THE MAP AND ONE CANDIDATE LOCATION ALSO SHOWN AS STREET VIEW IMAGERY</strong></p></figcaption></figure>
 
-Spot provides an interface for searching OpenStreetMap[^1] using everyday language as input (our testing shows that multiple languages are supported in addition to English, but these are not specified by the Spot authors).
+Spot provides an interface for searching OpenStreetMap[^1] using everyday language as input (The Spot authors in their paper "[SPOT: Bridging Natural Language and Geospatial Search for\
+Investigative Journalists](https://arxiv.org/pdf/2506.13188)" state: "Although not specifically fine-tuned in languages other than English, the model appears to be able to interpret queries in a variety of languages, although this was not further tested.").
 
 <details>
 
@@ -233,10 +234,6 @@ EXAMPLE OUTPUT WHERE FEATURES ARE GROUPED INTO SOLUTION LOCATIONS
 {% endcolumn %}
 {% endcolumns %}
 
-
-
-For example, if there are multiple solution locations meeting the search criteria, Spot's output map may not allow the user to identify how many different solution locations there are, or their exact boundaries. This could lead to extended time taken to check the options against StreetView maps and other forms of confirmation.
-
 A very useful and original time-saving feature in Spot, is the option to view any feature listed on the map legend using a variety of mapping services: Google Maps, Bing, and Yandex. Most importantly, direct access to Google StreeView is provided to support location verification through multiple mapping services. See example insert picture labelled Google Street View in the right hand image below.
 
 Spot source imagery and Google StreetView can be compared side by side on screen:
@@ -267,7 +264,7 @@ All tools which query OpenStreetMap share the limitations which the structure of
 
 1. The format of Spot's output is imprecise relative to other tools which clearly group the features supporting each different solution location proposed in response to the user's query e.g. [Bellingcat OpenStreetMap Search](https://bellingcat.gitbook.io/toolkit/more/all-tools/openstreetmap-search-tool). Spot puts all the features supporting each solution location onto the same output map, without counting the number of different solution locations and indicating the supporting features for each one. So Spot does **not** answer the question "How many different locations satisfy my criteria in the given search area?"
 2. Spot's valuable integrated street view access operates at the location of each feature on the solution map. Given that usually all the features mentioned in a query will be visible in the source image which is being geolocated, the view **at** a feature location is not likely to be a match. e.g. street view imagery taken at the central co-ordinates of the Eiffel Tower is unlikely to include images where the Eiffel Tower is clearly visible.
-3. When we tested the tool, Spot sometimes gave us errors (as at testing on 25/10/25), as shown below. Sometimes refreshing the browser and/or slightly rephrasing the query may overcome issues:
+3. Spot traps certain conditions when input is difficult to intepret. Users can expect to see the following messages when this happens. Sometimes refreshing the browser and/or slightly rephrasing the query may overcome issues:
 
 <div><figure><img src=".gitbook/assets/Cologne system hickup.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/geometry2025-07-05 at 22.04.20.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/London Unknown error copy.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/Another error cropped.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -282,17 +279,7 @@ All tools which query OpenStreetMap share the limitations which the structure of
 
 ## **Ethical Considerations**
 
-1. Spot’s Trusted AI principles page (see expandable reference below) states that “The user prompts that are entered in the Spot application are being used to re-train the model on real user queries to improve the user relevance of the AI model.” Furthermore, the same page says, “User control -- no publicly anonymous available access but certain monitoring of users will be done via login functionality.” Therefore, entering any information in the query or users’ login credentials may potentially end up revealing information about the individual or the investigation to the SPOT team.
-2. In their Legal & Privacy Statement (see expandable reference below), the tool provider says that the data collected is usually kept for 30 days, after which it is deleted. However, it also reiterates that “under exceptional circumstances, we need them for a longer period for the above-mentioned purposes. In such a case, we erase the data as soon as they're no longer required.”
-3. Spot also uses third-party services like [Nominatim](https://nominatim.org/), [Maptiler](https://www.maptiler.com/), [Mapbox](https://www.mapbox.com/), [Versatiles](https://versatiles.org/), [OSM Tiles](https://openmaptiles.org/), [Google Street View](https://www.google.com/streetview/) and [MongoDB](https://www.mongodb.com/) to make the application work when a user enters a search prompt. Make sure to check their Legal & Privacy Statement to understand how the data is processed.
-
-<details>
-
-<summary>Legal and Privacy statement provided on the Spot Website. <em>(Click the arrow for more detail...)</em></summary>
-
-<figure><img src=".gitbook/assets/Spot Links Legal and Privacy.jpg" alt=""><figcaption></figcaption></figure>
-
-</details>
+* Spot’s Trusted AI principles page (see expandable reference below) states that “The user prompts that are entered in the Spot application are being used to re-train the model on real user queries to improve the user relevance of the AI model.” Furthermore, the same page says, “User control -- no publicly anonymous available access but certain monitoring of users will be done via login functionality.” Therefore, entering any information in the query or users’ login credentials may potentially end up revealing information about the individual or the investigation to the SPOT team.
 
 <details>
 
@@ -303,6 +290,18 @@ All tools which query OpenStreetMap share the limitations which the structure of
 ###
 
 </details>
+
+* In their Legal & Privacy Statement (see expandable reference below), the tool provider says that the data collected is usually kept for 30 days, after which it is deleted. However, it also reiterates that “under exceptional circumstances, we need them for a longer period for the above-mentioned purposes. In such a case, we erase the data as soon as they're no longer required.”
+
+<details>
+
+<summary>Legal and Privacy statement provided on the Spot Website. <em>(Click the arrow for more detail...)</em></summary>
+
+<figure><img src=".gitbook/assets/Spot Links Legal and Privacy.jpg" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+* Spot also uses third-party services like [Nominatim](https://nominatim.org/), [Maptiler](https://www.maptiler.com/), [Mapbox](https://www.mapbox.com/), [Versatiles](https://versatiles.org/), [OSM Tiles](https://openmaptiles.org/), [Google Street View](https://www.google.com/streetview/) and [MongoDB](https://www.mongodb.com/) to make the application work when a user enters a search prompt. Make sure to check their Legal & Privacy Statement to understand how the data is processed.
 
 ## Guides and articles
 
