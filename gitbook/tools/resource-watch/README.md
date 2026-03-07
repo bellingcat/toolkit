@@ -29,7 +29,7 @@ Informative thematic dashboards with short articles and visualisations are avail
 
 For some visualisations, it is possible to create your own custom dashboard and to create public links to charts and visualisations so that they can be used in reports.&#x20;
 
-Advanced data users can directly access the [Resourcewatch Github](https://github.com/resource-watch) page and build upon the open source code or [pull data by API](https://resourcewatch.org/get-involved/develop-your-app) to use in own applications. Examples of this are thematic data initiatives such as [Ocean Watch](https://blog.resourcewatch.org/2021/11/29/how-listening-to-a-sea-of-voices-can-transform-ocean-management/) and [Global Forest Watch](https://dobecology.foleon.com/go/4-optimism-in-times-of-crises/wri-resource-watch/#block-100185753).
+Advanced data users can directly access the [Resourcewatch Github](https://github.com/resource-watch) page and build upon the open source code or [pull data by API](https://resourcewatch.org/get-involved/develop-your-app) to use in own applications.&#x20;
 
 ## Data sources
 
@@ -78,6 +78,10 @@ Data from Resource Watch has been used for example, for:
 ## Tool provider
 
 The US-based [World Resources Institute](https://www.wri.org/); the platform was developed in partnership with over 30 founding partners including universities and private and public organisations worldwide.
+
+## Similar tools
+
+[Ocean Watch](https://resourcewatch.org/dashboards/ocean-watch), [Global Forest Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-forest-watch) and [Acqueduct](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/nQx2i2gdPYTV0gJTrgxp/) are developed by the same tool provider and have an overlap in data, but where Resourcewatch is a general environmental visualisation platform, the others are more specialised and analytical tools focusing on specific environmental topics.
 
 ## Advertising Trackers
 
