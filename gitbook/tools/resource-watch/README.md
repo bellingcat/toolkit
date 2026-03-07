@@ -19,6 +19,8 @@ The datasets can be browsed by topic: Food and agriculture, Energy, Climate, For
 
 <figure><img src=".gitbook/assets/Screenshot 2026-02-21 at 16.24.00.png" alt=""><figcaption><p>Specific layers of datasets can be explored on a world map, and some datasets can be combined. In this screenshot, the datasets are filtered on the topic 'Air Quality' and the Global Power Plant Database is selected for the world map.</p></figcaption></figure>
 
+<figure><img src=".gitbook/assets/Screenshot 2026-03-07 at 20.17.58.png" alt=""><figcaption><p>Each data point, in the case of the Power Plant Database a specific power plant on the map, shows more detail when selected.</p></figcaption></figure>
+
 With an account it is possible to save and select geographical areas of interest, by selecting countries from a list or by drawing a polygon on the world map. Some datasets then provide alerts when relevant data to this area has been updated or added.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2026-02-14 at 14.54.25.png" alt=""><figcaption><p>With an account it is possible to focus on geographical areas of interest. In this case, the countries Greenland and Iran have been chosen from a dropdown list and an area near Taiwan is drawn on the map. </p></figcaption></figure>
@@ -33,17 +35,9 @@ Advanced data users can directly access the [Resourcewatch Github](https://githu
 
 Data comes from a wide range of external data providers: National governments, international organisations and UN agencies, research institutions and scientific publications. The data providers and update frequency are listed on the dataset detail pages.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2026-03-07 at 19.00.05.png" alt=""><figcaption><p>The dataset detail page provides descriptions of dataset layers and methodology, along with information on sources, update frequency, reuse licenses, and related datasets</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-03-07 at 19.00.05.png" alt=""><figcaption><p>The dataset detail page provides descriptions of dataset layers and methodology, information on sources, update frequency, reuse licenses, and related datasets</p></figcaption></figure>
 
 Resourcewatch is an aggregating platform and is not built for creating or correcting data, but does perform some preprocessing and standardisation to make the data usable in visualisations. Curating takes place by WRI domain experts or by peer review. It is possible to add your own datasets; check the [data policy](https://resourcewatch.org/get-involved/data-policy) for more information.&#x20;
-
-## Use cases
-
-Data from Resource Watch has been used for example, for:
-
-* [monitoring tree cover loss and fires ](https://blog.resourcewatch.org/2019/04/11/how-resource-watch-changed-the-way-we-monitor-the-planets-pulse/?utm_source=chatgpt.com)within protected areas
-* [providing data on environmental trends](https://blog.resourcewatch.org/2019/04/11/how-resource-watch-changed-the-way-we-monitor-the-planets-pulse/?utm_source=chatgpt.com) and risks to financial institutions
-* informing early warning systems for local officials in predicting when water stress can influence conflict and political instability before it spreads through the [Water, Peace and Security (WPS) initiative](https://www.un-ihe.org/news/water-peace-and-security-initiative)
 
 ## Cost
 
@@ -75,9 +69,15 @@ Overlaying different datasets are a strong feature of Resourcewatch. It can help
 
 The platform offers help per page. Watch [short video tutorials](./#url) on functionality as how to explore and overlay data, or how to create a custom dashboard.&#x20;
 
+Data from Resource Watch has been used for example, for:
+
+* [monitoring tree cover loss and fires ](https://blog.resourcewatch.org/2019/04/11/how-resource-watch-changed-the-way-we-monitor-the-planets-pulse/?utm_source=chatgpt.com)within protected areas
+* [providing data on environmental trends](https://blog.resourcewatch.org/2019/04/11/how-resource-watch-changed-the-way-we-monitor-the-planets-pulse/?utm_source=chatgpt.com) and risks to financial institutions
+* informing early warning systems for local officials in predicting when water stress can influence conflict and political instability before it spreads through the [Water, Peace and Security (WPS) initiative](https://www.un-ihe.org/news/water-peace-and-security-initiative)
+
 ## Tool provider
 
-[World Resources Institute](https://www.wri.org/); the platform was developed in partnership with over 30 founding partners including universities and private and public organisations worldwide.
+The US-based [World Resources Institute](https://www.wri.org/); the platform was developed in partnership with over 30 founding partners including universities and private and public organisations worldwide.
 
 ## Advertising Trackers
 
