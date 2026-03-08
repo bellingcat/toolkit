@@ -36,7 +36,7 @@ The interactive Water Risk Atlas projects all data on a zoomable map that can be
 
 Advanced users can upload their own data (csv or xlsx with addresses or coordinates, in beta) or use and build upon the [Aqueduct 4.0 code](https://github.com/wri/Aqueduct40).&#x20;
 
-The Floods tool shows Hazard (a threatening event or condition), Risk and a Cost-Benefit Analysis. It lets you select on coastal or riverine flood risks. Adjustable parameters include the same timeframes as the Water Risk Atlas, and a choice of Projection Model. The Risk Analyzer can be used to show and compare future flooding risks per country, time period and scenario. A shareable public link can be created per visual, so that it can be included in reports.&#x20;
+The Floods tool shows Hazard (a threatening event or condition; such as flood event, water stress condition), Risk and a Cost-Benefit Analysis. It lets you select on coastal or riverine flood risks. Adjustable parameters include the same timeframes as the Water Risk Atlas, and a choice of Projection Model. The Risk Analyzer can be used to show and compare future flooding risks per country, time period and scenario. A shareable public link can be created per visual, so that it can be included in reports.&#x20;
 
 {% hint style="info" %}
 Aqueduct 4.0 uses the United Nations Office for [Disaster Risk Reduction (UNDRR)](https://www.undrr.org/drr-glossary/terminology) risk element terminology of hazard, exposure and vulnerability. See the [Aqueduct 4.0 release notes](https://doi.org/10.46830/writn.23.00061) for details.&#x20;
