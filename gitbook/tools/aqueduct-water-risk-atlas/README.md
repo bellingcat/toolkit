@@ -39,7 +39,7 @@ Advanced users can upload their own data (csv or xlsx with addresses or coordina
 The Floods tool shows Hazard (a threatening event or condition; such as flood event, water stress condition), Risk and a Cost-Benefit Analysis. It lets you select on coastal or riverine flood risks. Adjustable parameters include the same timeframes as the Water Risk Atlas, and a choice of Projection Model. The Risk Analyzer can be used to show and compare future flooding risks per country, time period and scenario. A shareable public link can be created per visual, so that it can be included in reports.&#x20;
 
 {% hint style="info" %}
-Aqueduct 4.0 uses the United Nations Office for [Disaster Risk Reduction (UNDRR)](https://www.undrr.org/drr-glossary/terminology) risk element terminology of hazard, exposure and vulnerability. See the [Aqueduct 4.0 release notes](https://doi.org/10.46830/writn.23.00061) for details.&#x20;
+Aqueduct 4.0 uses the [United Nations Office for Disaster Risk Reduction (UNDRR)](https://www.undrr.org/drr-glossary/terminology) risk element terminology of hazard, exposure and vulnerability. See the [Aqueduct 4.0 release notes](https://doi.org/10.46830/writn.23.00061) for details.&#x20;
 {% endhint %}
 
 <figure><img src=".gitbook/assets/Screenshot 2026-02-22 at 11.02.11.png" alt=""><figcaption><p>The risk and cost-benefit analysis of the flood tool lets you select two locations (on country, state or water basin level) to compare; in this case, Japan and Netherlands were selected. </p></figcaption></figure>
