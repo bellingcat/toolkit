@@ -3,6 +3,7 @@ description: >-
   NASA Worldview is an online tool for visualizing and downloading near
   real-time satellite imagery and scientific data of Earth's atmosphere, land,
   and oceans.
+updated: '2026-03-08'
 ---
 
 # NASA Worldview
