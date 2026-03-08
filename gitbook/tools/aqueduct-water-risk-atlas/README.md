@@ -21,7 +21,7 @@ Aqueduct consists of four analytical tools:&#x20;
 3. [Country Rankings](https://www.wri.org/applications/aqueduct/country-rankings/)
 4. [Food](https://www.wri.org/applications/aqueduct/food/#/)
 
-The Water Risk Atlas and Floods tools can be particularly useful for open source researchers.&#x20;
+The Water Risk Atlas and Floods tools can be particularly useful for open source researchers, as they provide almost global coverage and detailed indicators. The Country Rankings tool shows highly aggregated data and does not zoom in on geographic locations more detailed than the country level, and the Food tool also has less geographical detail, is more sector-specific and focuses on harvest and food security.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2026-02-22 at 10.34.40.png" alt=""><figcaption><p>View of the Water Risk Atlas by drinking water levels (feb 2026)</p></figcaption></figure>
 
@@ -32,38 +32,23 @@ The interactive Water Risk Atlas projects all data on a zoomable map that can be
 * Select specific water risk indicators (such as Baseline Water Stress, Groundwater decline, Drinking Water access) and prioritize per basin
 * Show future models: for 2030, 2050 or 2080 and view by optimistic or pessimistic scenarios.
 
+<figure><img src=".gitbook/assets/Screenshot 2026-03-08 at 16.24.38.png" alt=""><figcaption><p>Definitions of indicators such as Water Stress are available by clicking on the question mark icon. The weighting of the indicators can be adjusted, in fixed steps.</p></figcaption></figure>
+
 Advanced users can upload their own data (csv or xlsx with addresses or coordinates, in beta) or use and build upon the [Aqueduct 4.0 code](https://github.com/wri/Aqueduct40).&#x20;
 
-The Floods tool shows Hazard, Risk and a Cost-Benefit Analysis. It lets you select on coastal or riverine flood risks. Adjustable parameters include the same timeframes as the Water Risk Atlas, and a choice of Projection Model. The Risk Analyzer can be used to show and compare future flooding risks per country, time period and scenario. A shareable public link can be created per visual, so that it can be included in reports.&#x20;
+The Floods tool shows Hazard (a threatening event or condition), Risk and a Cost-Benefit Analysis. It lets you select on coastal or riverine flood risks. Adjustable parameters include the same timeframes as the Water Risk Atlas, and a choice of Projection Model. The Risk Analyzer can be used to show and compare future flooding risks per country, time period and scenario. A shareable public link can be created per visual, so that it can be included in reports.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2026-02-22 at 11.02.11.png" alt=""><figcaption></figcaption></figure>
+{% hint style="info" %}
+Aqueduct 4.0 uses the United Nations Office for [Disaster Risk Reduction (UNDRR)](https://www.undrr.org/drr-glossary/terminology) risk element terminology of hazard, exposure and vulnerability. See the [Aqueduct 4.0 release notes](https://doi.org/10.46830/writn.23.00061) for details.&#x20;
+{% endhint %}
+
+<figure><img src=".gitbook/assets/Screenshot 2026-02-22 at 11.02.11.png" alt=""><figcaption><p>The risk and cost-benefit analysis of the flood tool lets you select two locations (on country, state or water basin level) to compare; in this case, Japan and Netherlands were selected. </p></figcaption></figure>
 
 ## Data sources&#x20;
 
 Data comes from international organizations (as the UN), government hydrological and international climate research institutions, and satellite data providers (as NASA, ESA).&#x20;
 
-The raw data is further processed and standardised by the World Resources Institute into global water risk indicators. See the info on [Water Risk Indicators](https://www.wri.org/aqueduct/help-center/water-risk-indicators) and the [release notes](https://www.wri.org/research/aqueduct-40-updated-decision-relevant-global-water-risk-indicators) for more details on the used methodology.&#x20;
-
-## Use cases
-
-{% hint style="success" %}
-Looking for real time events (live flooding) instead of long term risk analysis? Use [Google Flood Hub](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-flood-hub).  &#x20;
-
-Aqueduct can be complemented with [Resource Watch](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/hDFhX74TLSYmA27QoYi7/ "mention") for context and data from other environmental domains.&#x20;
-{% endhint %}
-
-The Aqueduct water risk atlas can be a useful resource for (open source) researchers who are investigating the following topics:
-
-* Environmental investigations\
-  For example: Analyse regions facing acute water stress or shortages.
-* Conflict and security\
-  For example: overlay population density data with water scarcity layers.
-* Policy development\
-  For example: Provide recommendations for sustainable water management.
-
-For more inspiration and practical use cases, see the WRI Aqueduct [blog](https://www.wri.org/aqueduct/blog) and the [user stories](https://www.wri.org/aqueduct/user-stories) (mostly focused on corporate risk).&#x20;
-
-Aqueduct was used in this article '[How data centers are deepening the water crisis](https://www.businessinsider.com/how-data-centers-are-deepening-the-water-crisis-2025-6)' (D. Campbelll, Business Insider).&#x20;
+The raw data is further processed and standardised by the [World Resources Institute](https://www.wri.org/) into global water risk indicators. See the info on [Water Risk Indicators](https://www.wri.org/aqueduct/help-center/water-risk-indicators) and the [Aqueduct 4.0 release notes](https://www.wri.org/research/aqueduct-40-updated-decision-relevant-global-water-risk-indicators) for detailed information per indicator on the data providers and the used methodology.&#x20;
 
 ## Cost
 
@@ -92,13 +77,34 @@ Like every tool, ensure that the use of the tool is within the law, the site's t
 
 ## Guides
 
+The Aqueduct water risk atlas can be a useful resource for (open source) researchers who are investigating the following topics:
+
+* Environmental investigations\
+  For example: Analyse regions facing acute water stress or shortages.
+* Conflict and security\
+  For example: overlay population density data with water scarcity layers.
+* Policy development\
+  For example: Provide recommendations for sustainable water management.
+
+For more inspiration and practical use cases, see the WRI Aqueduct [blog](https://www.wri.org/aqueduct/blog) and the [user stories](https://www.wri.org/aqueduct/user-stories) (mostly focused on corporate risk).&#x20;
+
+Aqueduct was used in this article '[How data centers are deepening the water crisis](https://www.businessinsider.com/how-data-centers-are-deepening-the-water-crisis-2025-6)' (D. Campbelll, Business Insider).&#x20;
+
 Aqueduct can be considered user-friendly and offers tailored help and info within the tool. For general info, see the [Frequently Asked Questions](https://www.wri.org/aqueduct/faq).&#x20;
 
 There are some [video tutorials](https://www.youtube.com/playlist?list=PLHC2pCeWNG2tkE0sXzusU17HSHKIiqyzI) specific for the Floods Cost-Benefit Analyzer, a scenario-based tool that estimates potential economic damages from floods.
 
 ## Tool provider
 
-[World Resources Institute](https://www.wri.org/) (WRI), a global research organisation committed to sustainability and environmental resource management.
+The US-based [World Resources Institute](https://www.wri.org/) (WRI), a global research organisation committed to sustainability and environmental resource management.
+
+## Similar Tools
+
+{% hint style="success" %}
+Looking for real time events (live flooding) instead of long term risk analysis? Use [Google Flood Hub](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-flood-hub).  &#x20;
+
+Aqueduct can be complemented with [Resource Watch](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/hDFhX74TLSYmA27QoYi7/ "mention") for context and data from other environmental domains.&#x20;
+{% endhint %}
 
 ## Advertising Trackers
 
