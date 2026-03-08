@@ -25,7 +25,7 @@ The Water Risk Atlas and Floods tools can be particularly useful for open source
 
 <figure><img src=".gitbook/assets/Screenshot 2026-02-22 at 10.34.40.png" alt=""><figcaption><p>View of the Water Risk Atlas by drinking water levels (feb 2026)</p></figcaption></figure>
 
-The interactive Water Risk Atlas projects all data on a zoomable map that can be explored on country, basin or sub-basin levels. Options include:
+The interactive Water Risk Atlas projects all data on a zoomable map that can be explored on country, basin or sub-basin levels. The risks of not having access to (drinking or irrigation) water, declining water quality or the risk of drought or flooding can be visualised and compared. Options include:
 
 * View overall water risk, with adjustable indicators and weightings
 * View per year or month time period&#x20;
