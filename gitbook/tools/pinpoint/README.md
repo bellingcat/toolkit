@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-13'
+updated: '2026-03-08'
 description: >-
   A tool by Google to catalogue uploaded documents and files, providing OCR,
   indexing, and other services. Full access only granted to journalists,
