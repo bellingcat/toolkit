@@ -2,8 +2,6 @@ import pkg from './paths.mjs'
 const { getRegions, getTools, writeIfChanged } = pkg;
 import { renderCategory, getToolsForCategory } from './render.mjs';
 
-const allTools = getTools().filter((tool) => !tool.draft );
-
 function generateTemplateRegionsMarkdown(categories) {
   const topLevel = [];
   const groups = categories.map((category) => {
@@ -25,8 +23,13 @@ function generateTemplateRegionsMarkdown(categories) {
   writeIfChanged(content, 'template/regions.md');
 }
 
-const allCategories = getRegions();
-allCategories.forEach((category) => {
-  writeIfChanged(renderCategory(category, getToolsForCategory(category, allTools)), category.filepath);
-});
-generateTemplateRegionsMarkdown(allCategories);
+function main() {
+  const allTools = getTools().filter((tool) => !tool.draft );
+  const allCategories = getRegions();
+  allCategories.forEach((category) => {
+    writeIfChanged(renderCategory(category, getToolsForCategory(category, allTools)), category.filepath);
+  });
+  generateTemplateRegionsMarkdown(allCategories);
+}
+
+main();

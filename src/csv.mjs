@@ -3,28 +3,32 @@ import path from 'path';
 import pkg from './paths.mjs'
 const { writeIfChanged, getCategories, getTools, inSummary } = pkg;
 
-const allTools = getTools().filter((tool) => !tool.draft );
+function main() {
+  const allTools = getTools().filter((tool) => !tool.draft );
 
-fs.mkdirSync('csv', { recursive: true });
-const allCategories = getCategories();
-const allContent = [];
-allCategories.forEach((category) => {
-  if (category.hasSubcategories) { return; }
+  fs.mkdirSync('csv', { recursive: true });
+  const allCategories = getCategories();
+  const allContent = [];
+  allCategories.forEach((category) => {
+    if (category.hasSubcategories) { return; }
 
-  const categoryTools = allTools.filter((tool) => {
-    return tool.tags && tool.tags.includes(category.tag);
-  }).map((tool) => {
-    return {
-      ...tool,
-      rel: renderLink(category, tool)
-    }
+    const categoryTools = allTools.filter((tool) => {
+      return tool.tags && tool.tags.includes(category.tag);
+    }).map((tool) => {
+      return {
+        ...tool,
+        rel: renderLink(category, tool)
+      }
+    });
+    const content = renderTools(categoryTools, category);
+    allContent.push(content.trim());
+    writeIfChanged(renderIntro(category) + content, `csv/${category.slug.join('-')}.csv`);
   });
-  const content = renderTools(categoryTools, category);
-  allContent.push(content.trim());
-  writeIfChanged(renderIntro(category) + content, `csv/${category.slug.join('-')}.csv`);
-});
 
-writeIfChanged(renderIntro() + allContent.join('\n'), `csv/all-tools.csv`);
+  writeIfChanged(renderIntro() + allContent.join('\n'), `csv/all-tools.csv`);
+}
+
+main();
 
 function renderCategory(category, categoryTools = []) {
   return renderIntro(category) + renderTools(categoryTools, category);

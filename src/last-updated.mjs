@@ -4,11 +4,12 @@ import child_process from 'node:child_process';
 const { getTools, inSummary } = pkg;
 const exec = util.promisify(child_process.exec);
 
-// find out when each tool page was last updated
-const publishedTools = getTools().filter((tool) => inSummary(tool));
-Promise.all(publishedTools.map(function(tool) {
-  return isUpdated(tool).then(function(result) { tool.isUpdated = result; });
-})).then(function() {
+async function main() {
+  // find out when each tool page was last updated
+  const publishedTools = getTools().filter((tool) => inSummary(tool));
+  await Promise.all(publishedTools.map(function(tool) {
+    return isUpdated(tool).then(function(result) { tool.isUpdated = result; });
+  }));
   const needUpdate = publishedTools.filter((tool) => !tool.isUpdated);
   if (needUpdate.length === 0) {
     console.log('All tools are up to date');
@@ -20,7 +21,9 @@ Promise.all(publishedTools.map(function(tool) {
     });
     process.exit(1);
   }
-});
+}
+
+main();
 
 async function isUpdated(tool) {
   // search git history for commits starting with GITBOOK-tool-slug-{number}: 

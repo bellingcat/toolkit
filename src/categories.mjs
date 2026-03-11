@@ -2,17 +2,6 @@ import pkg from './paths.mjs'
 const { getCategories, getTools, writeIfChanged } = pkg;
 import { renderCategory, getToolsForCategory } from './render.mjs';
 
-const allTools = getTools().filter((tool) => !tool.draft );
-(function renderNewlyPublished() {
-  const newlyPublished = {
-        title: 'Newly Published',
-        content: '---\ndescription: These tools were added to the toolkit within the last four weeks.\n---\n# New Tools\n',
-        filepath: 'gitbook/new-tools.md'
-  };
-  const newTools = allTools.filter((x) => x.publishedAt && Date.now()-x.publishedAt < 4 * 7 * 24 * 60 * 60 * 1000);
-  writeIfChanged(renderCategory(newlyPublished, newTools), newlyPublished.filepath);
-})();
-
 function generateTemplateCategoriesMarkdown(categories) {
   const topLevel = [];
   const groups = categories.map((category) => {
@@ -34,8 +23,23 @@ function generateTemplateCategoriesMarkdown(categories) {
   writeIfChanged(content, 'template/categories.md');
 }
 
-const allCategories = getCategories();
-allCategories.forEach((category) => {
-  writeIfChanged(renderCategory(category, getToolsForCategory(category, allTools)), category.filepath);
-});
-generateTemplateCategoriesMarkdown(allCategories);
+function main() {
+  const allTools = getTools().filter((tool) => !tool.draft );
+  (function renderNewlyPublished() {
+    const newlyPublished = {
+          title: 'Newly Published',
+          content: '---\ndescription: These tools were added to the toolkit within the last four weeks.\n---\n# New Tools\n',
+          filepath: 'gitbook/new-tools.md'
+    };
+    const newTools = allTools.filter((x) => x.publishedAt && Date.now()-x.publishedAt < 4 * 7 * 24 * 60 * 60 * 1000);
+    writeIfChanged(renderCategory(newlyPublished, newTools), newlyPublished.filepath);
+  })();
+
+  const allCategories = getCategories();
+  allCategories.forEach((category) => {
+    writeIfChanged(renderCategory(category, getToolsForCategory(category, allTools)), category.filepath);
+  });
+  generateTemplateCategoriesMarkdown(allCategories);
+}
+
+main();

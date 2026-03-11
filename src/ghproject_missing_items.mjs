@@ -10,10 +10,6 @@ const {fetchChangeRequests, findSpace} = pkg2
 // Identifies tools in the github repo with gitbook spaces but no project item.
 // Emits the names of tools that need to be added to the github project.
 //
-const inputFilename = process.argv[2]
-const items = JSON.parse(fs.readFileSync(inputFilename, 'utf-8'));
-const tools = getTools();
-
 function itemTitle(item) {
   return item.fieldValues.nodes.find((node) => node.field.name === "Title").text ;
 }
@@ -24,14 +20,22 @@ function formatDate(dateString) {
   var date = new Date(dateString);
   return date.toISOString().replace(/T.*/,'');
 }
-tools.forEach(async function(tool) {
-  const space = findSpace(tool);
-  if (!space) {
-    return;
-  }
-  const item = items.find((item) => itemToolId(item) === tool.filename);
-  if (!item) {
-    console.log(tool.filename);
-    return;
-  }
-});
+function main() {
+  const inputFilename = process.argv[2];
+  const items = JSON.parse(fs.readFileSync(inputFilename, 'utf-8'));
+  const tools = getTools();
+
+  tools.forEach(function(tool) {
+    const space = findSpace(tool);
+    if (!space) {
+      return;
+    }
+    const item = items.find((item) => itemToolId(item) === tool.filename);
+    if (!item) {
+      console.log(tool.filename);
+      return;
+    }
+  });
+}
+
+main();
