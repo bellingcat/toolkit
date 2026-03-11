@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import pkg from './paths.mjs'
 const { apiCall } = pkg;
+import { ORG_ID } from './config.mjs';
 
 // Create a new tool directory from the command line
 const categoryName = process.argv[2]
@@ -49,7 +50,7 @@ function createCategory(category) {
 
 async function createCategorySpace(name) {
   console.log('Creating a new category space', name);
-  const data = await apiCall('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/spaces', {
+  const data = await apiCall(`https://api.gitbook.com/v1/orgs/${ORG_ID}/spaces`, {
     method: 'POST',
     body: {
       title: name,

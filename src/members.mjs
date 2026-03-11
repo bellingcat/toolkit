@@ -1,5 +1,7 @@
+import { ORG_ID } from './config.mjs';
+
 async function getMembers() {
-  const response = await fetch('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/members', {
+  const response = await fetch(`https://api.gitbook.com/v1/orgs/${ORG_ID}/members`, {
     method: 'GET',
     headers: {
           "Authorization": `Bearer ${process.env.GITBOOK_API_TOKEN}`

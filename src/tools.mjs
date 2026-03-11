@@ -3,6 +3,7 @@ import path from 'path';
 import pkg from './paths.mjs'
 const {apiCall, getCategories, getTools, getRegions, writeIfChanged, getSummary} = pkg;
 import matter from 'gray-matter'
+import { ORG_ID, DEFAULT_COLLECTION_ID, TOOL_PAGE_MAINTAINERS_TEAM_ID, CATEGORY_COLLECTION_IDS } from './config.mjs';
 
 /* Example
 createTool({
@@ -138,9 +139,9 @@ async function fetchSpace(spaceId) {
     method: 'GET',
   });
 }
-async function fetchSpaces(page='', collectionId='jQKvylm6WgaH5IFrlIMh') {
+async function fetchSpaces(page='', collectionId=DEFAULT_COLLECTION_ID) {
   const collections = await _fetchCollections();
-  const collectionIds = ['jQKvylm6WgaH5IFrlIMh'].concat( collections.filter((c) => c.parent === 'jQKvylm6WgaH5IFrlIMh').map((c) => c.id) );
+  const collectionIds = [DEFAULT_COLLECTION_ID].concat( collections.filter((c) => c.parent === DEFAULT_COLLECTION_ID).map((c) => c.id) );
   console.log(collectionIds);
 
   let results = [];
@@ -163,7 +164,7 @@ async function fetchCollection(collectionId) {
 }
 
 async function _fetchCollections(page='') {
-  const data = await apiCall(`https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/collections?` + new URLSearchParams({ nested: true, page: page}), {
+  const data = await apiCall(`https://api.gitbook.com/v1/orgs/${ORG_ID}/collections?` + new URLSearchParams({ nested: true, page: page}), {
     method: 'GET',
   });
   if (data.next) {
@@ -178,7 +179,7 @@ async function _fetchCollections(page='') {
   }
   return data.items;
 }
-async function _fetchSpaces(page='', collectionId='jQKvylm6WgaH5IFrlIMh') {
+async function _fetchSpaces(page='', collectionId=DEFAULT_COLLECTION_ID) {
   const data = await apiCall(`https://api.gitbook.com/v1/collections/${collectionId}/spaces?` + new URLSearchParams({ page: page }), {
     method: 'GET',
   });
@@ -198,7 +199,7 @@ async function _fetchSpaces(page='', collectionId='jQKvylm6WgaH5IFrlIMh') {
 }
 
 async function fetchTeams(page='') {
-  const data = await apiCall('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams?' + new URLSearchParams({ page: page }), {
+  const data = await apiCall(`https://api.gitbook.com/v1/orgs/${ORG_ID}/teams?` + new URLSearchParams({ page: page }), {
     method: 'GET',
   });
   if (data.next && data.next.page) {
@@ -212,29 +213,14 @@ async function createToolOnGitbook(toolName, category, email) {
   debug('Guardian Category', category);
 
   // Convert category to collection id.
-  const collection = {
-    // These labels should match the options in the github workflow add-tool.yml
-    'archiving': 'EWkYTKTTUxj3V6CKwjKl',
-    'image-video': 'ycJZDnUDWVHM2L6lInVS',
-    'companies-and-finance': 'svFhzrsOy9kqEP1YTGBh',
-    'conflict': '9Brj2NJvnGumfCKJbyIv',
-    'data': 'IfM4GXWV1raqMAPhkSbu',
-    'environment-and-wildlife': 'NsaGq3UKUoOVccdZdMco',
-    'geolocation': 'hHz5Z3bwIXn3SiIeIaRz',
-    'maps-and-satellites': 'H7HdQQbugoU5VAdlxKdh',
-    'people': 'd9QXWHW4alemIUzkPF6l',
-    'social-media': '8SB4cANB9OcQ69Ify27J',
-    'transport': 'K3X10wt5UK7xDSRT8gar',
-    'websites': 'FjtL9eHx1MoDVJqVWeLR',
-    'none': 'jQKvylm6WgaH5IFrlIMh'
-  }[category];
+  const collection = CATEGORY_COLLECTION_IDS[category];
 
   const space = await createSpace(toolName, collection);
   const team = await createTeam(toolName);
 
   if (email) {
     await addTeamMember(team, email);
-    await addTeamMember({id : "6RIWbZ6uKR8m6kwje0s7"}, email); // Tool Page Maintainers team
+    await addTeamMember({id : TOOL_PAGE_MAINTAINERS_TEAM_ID}, email); // Tool Page Maintainers team
     debug("Added 1 team member");
   }
 
@@ -262,12 +248,12 @@ async function createSpace(name, collection) {
   }
 
   debug('Creating a new empty space', name);
-  const data = await apiCall('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/spaces', {
+  const data = await apiCall(`https://api.gitbook.com/v1/orgs/${ORG_ID}/spaces`, {
     method: 'POST',
     body: {
       title: name,
       emoji: '🛠️',
-      parent: collection || 'jQKvylm6WgaH5IFrlIMh'
+      parent: collection || DEFAULT_COLLECTION_ID
     },
   });
 
@@ -331,7 +317,7 @@ function findTeam(name) {
 }
 
 async function addTeamMember(team, email) {
-  const response = await apiCall(`https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams/${team.id}/members`, {
+  const response = await apiCall(`https://api.gitbook.com/v1/orgs/${ORG_ID}/teams/${team.id}/members`, {
     method: 'PUT',
     body: { "add": [email] }
   });
@@ -342,7 +328,7 @@ async function addTeamMember(team, email) {
 
 async function _createTeam(name) {
   try {
-    const data = await apiCall('https://api.gitbook.com/v1/orgs/WQpOq5ZFue4N6m65QCJq/teams', {
+    const data = await apiCall(`https://api.gitbook.com/v1/orgs/${ORG_ID}/teams`, {
       method: 'PUT',
       body: { "title": name },
     });
