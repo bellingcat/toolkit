@@ -6,7 +6,7 @@
     "proj-data": "./src/ghproject_data.bash bellingcat 6 > project_data.json",
     "proj-item": "./src/ghproject_fetch.bash $PROJECT_ID > project_items.json",
     "proj": "npm run proj-data && npm run proj-item",
-    "build": "node src/lint-json.mjs && node src/categories.mjs && node src/regions.mjs && node src/lint-json.mjs"
+    "build": "node src/normalize.mjs && node src/categories.mjs && node src/regions.mjs && node src/normalize.mjs"
   },
   "dependencies": {
     "marked": "^12.0.0"

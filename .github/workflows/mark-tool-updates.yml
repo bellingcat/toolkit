@@ -19,7 +19,7 @@ jobs:
         run: npm install
 
       - name: Validate and format JSON
-        run: node src/lint-json.mjs
+        run: node src/normalize.mjs
 
       - name: Mark tool updates
         run: node src/mark-tool-updates.mjs
