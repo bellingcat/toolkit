@@ -15,25 +15,23 @@
 
 ## Social Media
 
-* [ ] [Discord](https://bellingcat.gitbook.io/toolkit/categories/social-media/discord)
 * [ ] [Facebook](https://bellingcat.gitbook.io/toolkit/categories/social-media/facebook)
 * [ ] [Instagram](https://bellingcat.gitbook.io/toolkit/categories/social-media/instagram)
-* [ ] [LinkedIn](https://bellingcat.gitbook.io/toolkit/categories/social-media/linkedin)
-* [ ] [Multiple Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/multiple-networks)
-* [ ] [Other Networks](https://bellingcat.gitbook.io/toolkit/categories/social-media/other-networks)
-* [ ] [Reddit](https://bellingcat.gitbook.io/toolkit/categories/social-media/reddit)
+* [ ] [Multiple Platforms](https://bellingcat.gitbook.io/toolkit/categories/social-media/multiple-platforms)
+* [ ] [Other Platforms](https://bellingcat.gitbook.io/toolkit/categories/social-media/other-platforms)
 * [ ] [Telegram](https://bellingcat.gitbook.io/toolkit/categories/social-media/telegram)
 * [ ] [Tiktok](https://bellingcat.gitbook.io/toolkit/categories/social-media/tiktok)
 * [x] [Twitter/X](https://bellingcat.gitbook.io/toolkit/categories/social-media/twitter)
-* [ ] [Vkontakte](https://bellingcat.gitbook.io/toolkit/categories/social-media/vkontakte)
 * [ ] [Youtube](https://bellingcat.gitbook.io/toolkit/categories/social-media/youtube)
 
 ## Other
 
 * [ ] [Archiving](https://bellingcat.gitbook.io/toolkit/categories/archiving)
 * [ ] [Companies & Finance](https://bellingcat.gitbook.io/toolkit/categories/companies-and-finance)
-* [ ] [Data Visualization](https://bellingcat.gitbook.io/toolkit/categories/data-visualization)
+* [ ] [Conflict](https://bellingcat.gitbook.io/toolkit/categories/conflict)
+* [ ] [Data Organization & Analysis](https://bellingcat.gitbook.io/toolkit/categories/data)
 * [ ] [Environment & Wildlife](https://bellingcat.gitbook.io/toolkit/categories/environment-and-wildlife)
+* [ ] [Geolocation](https://bellingcat.gitbook.io/toolkit/categories/geolocation)
 * [ ] [People](https://bellingcat.gitbook.io/toolkit/categories/people)
 * [ ] [Transport](https://bellingcat.gitbook.io/toolkit/categories/transport)
 * [ ] [Websites](https://bellingcat.gitbook.io/toolkit/categories/websites)
