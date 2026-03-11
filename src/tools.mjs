@@ -163,49 +163,41 @@ async function fetchCollection(collectionId) {
   });
 }
 
-async function _fetchCollections(page='') {
-  const data = await apiCall(`https://api.gitbook.com/v1/orgs/${ORG_ID}/collections?` + new URLSearchParams({ nested: true, page: page}), {
-    method: 'GET',
-  });
+// Generic paginator for GitBook list endpoints.
+// buildUrl(page) must return the full URL string for a given page cursor.
+// Handles the GitBook API bug where next.page can equal the first item's id.
+async function fetchPaginated(buildUrl, page='') {
+  const data = await apiCall(buildUrl(page), { method: 'GET' });
   if (data.next) {
     if (data.next.page === data.items[0].id) {
       console.warn("next page is same as current page!");
       // hack! gitbook api bug: the last item is the same as the first time. take the id of the second to last item as the next page
-      return data.items.concat(await _fetchCollections(data.items[data.items.length-2].id));
+      return data.items.concat(await fetchPaginated(buildUrl, data.items[data.items.length-2].id));
     }
     if (data.next.page) {
-      return data.items.concat(await _fetchCollections(data.next.page));
-    }
-  }
-  return data.items;
-}
-async function _fetchSpaces(page='', collectionId=DEFAULT_COLLECTION_ID) {
-  const data = await apiCall(`https://api.gitbook.com/v1/collections/${collectionId}/spaces?` + new URLSearchParams({ page: page }), {
-    method: 'GET',
-  });
-  //console.log(data.items.map((item) => `${item.id} ${item.title}`));
-  if (data.next) {
-    //console.log('next', data.next);
-    if (data.next.page === data.items[0].id) {
-      console.log("next page is same as current page!");
-      // hack! gitbook api bug: the last item is the same as the first time. take the id of the second to last item as the next page
-      return data.items.concat(await _fetchSpaces(data.items[data.items.length-2].id, collectionId));
-    }
-    if (data.next.page) {
-      return data.items.concat(await _fetchSpaces(data.next.page, collectionId));
+      return data.items.concat(await fetchPaginated(buildUrl, data.next.page));
     }
   }
   return data.items;
 }
 
-async function fetchTeams(page='') {
-  const data = await apiCall(`https://api.gitbook.com/v1/orgs/${ORG_ID}/teams?` + new URLSearchParams({ page: page }), {
-    method: 'GET',
-  });
-  if (data.next && data.next.page) {
-    return data.items.concat(await fetchTeams(data.next.page));
-  }
-  return data.items;
+function _fetchCollections(page='') {
+  return fetchPaginated(
+    (p) => `https://api.gitbook.com/v1/orgs/${ORG_ID}/collections?` + new URLSearchParams({ nested: true, page: p }),
+    page
+  );
+}
+function _fetchSpaces(page='', collectionId=DEFAULT_COLLECTION_ID) {
+  return fetchPaginated(
+    (p) => `https://api.gitbook.com/v1/collections/${collectionId}/spaces?` + new URLSearchParams({ page: p }),
+    page
+  );
+}
+function fetchTeams(page='') {
+  return fetchPaginated(
+    (p) => `https://api.gitbook.com/v1/orgs/${ORG_ID}/teams?` + new URLSearchParams({ page: p }),
+    page
+  );
 }
 
 async function createToolOnGitbook(toolName, category, email) {
