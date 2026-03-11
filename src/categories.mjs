@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import pkg from './paths.mjs'
-const { apiCall, getCategories, getTools, writeIfChanged, getSummary, processMarkdownFile} = pkg;
+const { apiCall, getCategories, getTools, writeIfChanged, processMarkdownFile, inSummary } = pkg;
 
 const allTools = getTools().filter((tool) => !tool.draft );
 (function renderNewlyPublished() {
@@ -91,8 +91,7 @@ function renderCost(cost) {
 }
 
 function renderRelativeLink(category, tool) {
-  const summary = getSummary('gitbook');
-  if (!summary.match(path.relative('gitbook/', tool.filepath))) {
+  if (!inSummary(tool)) {
     return tool.title;
   }
   return `[**${tool.title}**](${relativeUrl(category, tool)})`;
@@ -106,8 +105,7 @@ function relativeUrl(category, tool) {
   return path.relative(path.dirname(category.filepath), tool.filepath);
 }
 function renderLink(category, tool) {
-  const summary = getSummary('gitbook');
-  if (!summary.match(path.relative('gitbook/', tool.filepath))) {
+  if (!inSummary(tool)) {
     const url = tool.url;
     return `<p><sub><em>Guide not available</em></sub></p><mark style="background-color:blue;"> [${url}](${url}) </mark>`;
   }

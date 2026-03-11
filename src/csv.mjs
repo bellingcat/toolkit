@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import pkg from './paths.mjs'
-const { writeIfChanged, getSummary, getCategories, getTools } = pkg;
+const { writeIfChanged, getCategories, getTools, inSummary } = pkg;
 
 const allTools = getTools().filter((tool) => !tool.draft );
 
@@ -49,8 +49,7 @@ function renderCost(cost) {
 }
 
 function renderLink(category, tool) {
-  const summary = getSummary('gitbook');
-  if (!summary.match(path.relative('gitbook/', tool.filepath))) {
+  if (!inSummary(tool)) {
     if (tool.guide) {
       return `Guide: ${tool.guide}`;
     }

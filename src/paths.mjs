@@ -84,6 +84,10 @@ function getPaths(root) {
   });
 }
 
+function inSummary(tool) {
+  return !!getSummary('gitbook').match(path.relative('gitbook/', tool.filepath));
+}
+
 function markdownToCategories(filepath) {
   if (fs.existsSync(filepath)) {
     const markdown = fs.readFileSync(filepath, 'utf-8');
@@ -215,4 +219,4 @@ async function apiCall(url, params) {
   }
 }
 
-export default { apiCall, getTools, getCategories, getRegions, writeIfChanged, getSummary, processMarkdownFile };
+export default { apiCall, getTools, getCategories, getRegions, writeIfChanged, getSummary, processMarkdownFile, inSummary };

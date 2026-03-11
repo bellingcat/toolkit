@@ -1,9 +1,7 @@
-import fs from 'fs';
-import path from 'path';
 import pkg from './paths.mjs'
 import util from 'node:util';
 import child_process from 'node:child_process';
-const { getTools } = pkg;
+const { getTools, inSummary } = pkg;
 const exec = util.promisify(child_process.exec);
 
 // find out when each tool page was last updated
@@ -39,7 +37,3 @@ async function isUpdated(tool) {
   return true;
 }
 
-function inSummary(tool) {
-  const summary = fs.readFileSync(path.join('gitbook', 'SUMMARY.md'), 'utf-8');
-  return !!summary.match(path.relative('gitbook/', tool.filepath));
-}
