@@ -300,12 +300,11 @@ async function renameSpace(space, name) {
   return data;
 }
 
-function findTeam(name) {
-  const teams = readTeams();
-  const team = teams.find((team) => team.title === name);
-  if (team) {
-    return team;
-  }
+async function findTeam(name) {
+  const teams = await fetchPaginated(
+    (p) => `https://api.gitbook.com/v1/orgs/${ORG_ID}/teams?` + new URLSearchParams({ title: name, page: p })
+  );
+  return teams.find((team) => team.title === name);
 }
 
 async function addTeamMember(team, email) {
@@ -336,7 +335,7 @@ async function _createTeam(name) {
 }
 
 async function createTeam(name) {
-  const team = findTeam(name);
+  const team = await findTeam(name);
   if (team) {
     debug('Team already exists');
     return team;
