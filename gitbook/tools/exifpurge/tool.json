@@ -1,0 +1,9 @@
+{
+  "name": "ExifPurge",
+  "url": "http://www.exifpurge.com/",
+  "description": "EXIF Purge is a small portable application to remove EXIF metadata from multiple images at once. With the click of a button you can remove the camera, location and other technical information from a batch of photos which is embedded by the camera or the photo editing software.",
+  "cost": "Free",
+  "tags": [
+    "metadata"
+  ]
+}

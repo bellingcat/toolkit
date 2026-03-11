@@ -1,0 +1,10 @@
+{
+  "name": "OpenRailwayMap",
+  "url": "https://wiki.openstreetmap.org/wiki/OpenRailwayMap",
+  "description": "a detailed online map of the world's railway infrastructure",
+  "cost": "Free",
+  "details": "🚂\n",
+  "tags": [
+    "transport"
+  ]
+}

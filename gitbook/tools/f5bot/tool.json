@@ -1,0 +1,9 @@
+{
+  "tags": [
+    "reddit"
+  ],
+  "name": "F5Bot",
+  "url": "https://f5bot.com/",
+  "description": "Sends you an email when a keyword is mentioned on Reddit.",
+  "cost": "Free"
+}

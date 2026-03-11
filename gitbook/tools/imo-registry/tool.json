@@ -1,0 +1,10 @@
+{
+  "name": "IMO Registry",
+  "url": "http://webaccounts.imo.org/",
+  "description": "Ship/shipping-related information from the IMO",
+  "cost": "Free",
+  "details": "⛵\n",
+  "tags": [
+    "transport"
+  ]
+}

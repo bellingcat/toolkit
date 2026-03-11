@@ -1,0 +1,10 @@
+{
+  "name": "Epieos",
+  "url": "https://tools.epieos.com/holehe.php",
+  "description": "Checks where an email has been used. Based on Holehe.",
+  "cost": "Paid",
+  "details": "📧\nRegistration required",
+  "tags": [
+    "people"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "tags": [
+    "image-misc"
+  ],
+  "name": "IPVM Calculator",
+  "url": "https://calculator.ipvm.com/",
+  "description": "Tool for simulating camera views (for geolocations).",
+  "cost": "Free"
+}

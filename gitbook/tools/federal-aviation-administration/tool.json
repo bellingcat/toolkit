@@ -1,0 +1,10 @@
+{
+  "name": "Federal Aviation Administration",
+  "url": "http://registry.faa.gov/aircraftinquiry/NNum\\_inquiry.aspx",
+  "description": "Nationwide Plane Registry. Search by N-Number (a.k.a. callsign). Comprehensive list of privately owned planes in the US.",
+  "cost": "Free",
+  "details": "✈️\n",
+  "tags": [
+    "transport"
+  ]
+}

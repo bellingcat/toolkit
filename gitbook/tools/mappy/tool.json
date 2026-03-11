@@ -1,0 +1,10 @@
+{
+  "name": "Mappy",
+  "url": "http://en.mappy.com/",
+  "description": "Mapping service (and streetview in a couple of French cities \\[double check this!])",
+  "cost": "Free",
+  "tags": [
+    "maps-and-satellites",
+    "satellite-imagery"
+  ]
+}

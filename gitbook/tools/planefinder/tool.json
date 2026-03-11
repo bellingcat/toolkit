@@ -1,0 +1,10 @@
+{
+  "name": "PlaneFinder",
+  "url": "http://planefinder.net/",
+  "description": "Live flight tracker.",
+  "cost": "Free",
+  "details": "✈️\n",
+  "tags": [
+    "transport"
+  ]
+}

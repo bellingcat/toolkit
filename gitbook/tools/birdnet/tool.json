@@ -1,0 +1,10 @@
+{
+  "name": "BirdNet",
+  "url": "https://birdnet.cornell.edu/map",
+  "description": "Identify bird sounds - find bird sounds on a global map.",
+  "cost": "Free",
+  "details": "🐦",
+  "tags": [
+    "environment-and-wildlife"
+  ]
+}

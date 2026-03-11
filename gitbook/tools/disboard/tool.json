@@ -1,0 +1,9 @@
+{
+  "name": "Disboard",
+  "url": "https://disboard.org/servers",
+  "description": "Search for public discord servers",
+  "tags": [
+    "discord"
+  ],
+  "cost": "Free"
+}

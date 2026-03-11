@@ -1,0 +1,12 @@
+{
+  "name": "Tencent Maps",
+  "url": "http://map.qq.com/",
+  "description": "Tencent Maps (formerly SOSO Maps) is a desktop and web mapping service application and technology provided by Chinese company Tencent, offering satellite imagery, street maps, street view (coverage) and historical view perspectives.",
+  "cost": "Free",
+  "tags": [
+    "maps-and-satellites",
+    "maps",
+    "street-view",
+    "satellite-imagery"
+  ]
+}

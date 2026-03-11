@@ -37,11 +37,6 @@ function toolToCategories(tool) {
   let template = fs.readFileSync('template/categories.md', 'utf-8');
   return checkBoxes(tool, categories, template);
 }
-function toolToJson(tool) {
-  const json = JSON.stringify(tool, null, 2);
-  const jsonTemplate = fs.readFileSync('template/json.md', 'utf-8');
-  return jsonTemplate.replace(/```(json)?\n([\s\S]+)\n```/, '```json\n'+json+'\n```');
-}
 
 function toolToReadme(tool) {
   const template = fs.readFileSync('template/README.md', 'utf-8');
@@ -92,7 +87,7 @@ function publishTool(name) {
   const json = tool.json;
   delete json.draft;
   json.publishedAt = Date.now();
-  fs.writeFileSync(tool.jsonFilePath, toolToJson(json));
+  fs.writeFileSync(tool.jsonFilePath, JSON.stringify(json, null, 2));
 }
 function slugify(toolName) {
   const safe = toolName
@@ -113,7 +108,7 @@ function createTool(tool, opts={}) {
     debug("Tool already exists");
   } else {
     fs.mkdirSync(pathname, { recursive: true });
-    fs.writeFileSync(`${pathname}/json.md`, toolToJson(json));
+    fs.writeFileSync(`${pathname}/tool.json`, JSON.stringify(json, null, 2));
     fs.writeFileSync(`${pathname}/README.md`, toolToReadme(tool));
     fs.writeFileSync(`${pathname}/SUMMARY.md`, toolToSummary(tool));
     fs.writeFileSync(`${pathname}/categories.md`, toolToCategories(tool));
@@ -426,7 +421,7 @@ function updateToolJSON(tool, json) {
     json = tool.json;
   }
   const pathname = tool.jsonFilePath;
-  writeIfChanged(toolToJson(json), pathname);
+  writeIfChanged(JSON.stringify(json, null, 2), pathname);
   tool.json = json;
 }
 

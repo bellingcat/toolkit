@@ -1,0 +1,10 @@
+{
+  "name": "Aviation Safety Network",
+  "url": "https://aviation-safety.net/",
+  "description": "Aircraft incident database; can be searched by country, registration, year, etc.",
+  "cost": "Free",
+  "details": "✈️\n",
+  "tags": [
+    "transport"
+  ]
+}

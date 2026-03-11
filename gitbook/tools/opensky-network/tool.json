@@ -1,0 +1,10 @@
+{
+  "name": "OpenSky-Network",
+  "url": "http://opensky-network.org/",
+  "description": "Community, open source flight tracking network.",
+  "cost": "Free",
+  "details": "✈️\n",
+  "tags": [
+    "transport"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Transit Visualisation",
+  "url": "https://mobility.portal.geops.io/?baselayers=geops.travic,ch.sbb.netzkarte,ch.sbb.netzkarte.dark\\&lang=en\\&layers=strassennamen,haltekanten,haltestellen,pois,p%C3%A4rke,geops.travic.live\\&x=810000\\&y=5900000\\&z=5.5",
+  "description": "(public) transit routes visualized - near global",
+  "cost": "Free",
+  "details": "🚂\n",
+  "tags": [
+    "transport"
+  ]
+}

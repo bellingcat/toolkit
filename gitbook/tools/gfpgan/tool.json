@@ -1,0 +1,9 @@
+{
+  "tags": [
+    "facial-recognition"
+  ],
+  "name": "GFPGAN",
+  "url": "https://replicate.com/tencentarc/gfpgan",
+  "description": "Practical face restoration algorithm for *old photos* or *AI-generated faces*",
+  "cost": "Free"
+}

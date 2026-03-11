@@ -1,0 +1,10 @@
+{
+  "name": "WikiRoutes",
+  "url": "http://wikiroutes.info/",
+  "description": "Public transport database.",
+  "cost": "Free",
+  "details": "🚂\n",
+  "tags": [
+    "transport"
+  ]
+}

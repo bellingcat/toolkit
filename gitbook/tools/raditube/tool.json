@@ -1,0 +1,9 @@
+{
+  "name": "RadiTube",
+  "url": "https://tool.raditube.com/",
+  "description": "A search engine that searches the subtitles of about 380 (right/left) radical YouTube channels. You query for example for \"q says\" of \"voter fraud\" in 170,000 videos, and the search results will link you to the specific time-code in the video.",
+  "cost": "Free",
+  "tags": [
+    "youtube"
+  ]
+}

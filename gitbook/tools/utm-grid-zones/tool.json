@@ -1,0 +1,10 @@
+{
+  "name": "UTM grid zones",
+  "url": "http://dmap.co.uk/utmworld.htm",
+  "description": "An overview of the Universal Transverse Mercator coordinate system.",
+  "cost": "Free",
+  "tags": [
+    "maps-and-satellites",
+    "maps"
+  ]
+}

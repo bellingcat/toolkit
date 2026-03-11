@@ -1,0 +1,10 @@
+{
+  "name": "Airframes",
+  "url": "http://www.airframes.org/",
+  "description": "A database of aircraft details",
+  "cost": "Free",
+  "details": "✈️\n",
+  "tags": [
+    "transport"
+  ]
+}

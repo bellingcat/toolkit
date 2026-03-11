@@ -1,0 +1,10 @@
+{
+  "name": "Mapa.sk",
+  "url": "http://mapa.sk/",
+  "description": "Mapping service for Slovakia",
+  "cost": "Free",
+  "tags": [
+    "maps-and-satellites",
+    "satellite-imagery"
+  ]
+}

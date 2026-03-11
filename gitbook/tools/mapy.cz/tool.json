@@ -1,0 +1,11 @@
+{
+  "name": "mapy.cz",
+  "url": "http://mapy.cz",
+  "description": "Mapping service for Czechia",
+  "cost": "Free",
+  "tags": [
+    "maps-and-satellites",
+    "maps",
+    "czechia"
+  ]
+}

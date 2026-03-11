@@ -97,17 +97,13 @@ function markdownToCategories(filepath) {
   return [];
 }
 
-function markdownToJson(filepath) {
+function readToolJson(filepath) {
   if (fs.existsSync(filepath)) {
-    const markdown = fs.readFileSync(filepath, 'utf-8');
-    const matches = markdown.match(/```(json)?\n([\s\S]+)\n```/);
-    if (matches) {
-      try {
-        return JSON.parse(matches[2]);
-      } catch (e) {
-        console.error(`Error parsing JSON in ${filepath}`);
-        throw e;
-      }
+    try {
+      return JSON.parse(fs.readFileSync(filepath, 'utf-8'));
+    } catch (e) {
+      console.error(`Error parsing JSON in ${filepath}`);
+      throw e;
     }
   }
   return {};
@@ -128,9 +124,9 @@ function getTools() {
       // try to get the cost from the content
       const cost = (content.match(/\[x\] Partially Free/) && 'Partially Free') || (content.match(/\[x\] Free/) && 'Free') || (content.match(/\[x\] Paid/) && 'Paid') || null;
 
-      // get JSON data from JSON.md if it exists
-      const jsonFilePath = path.join(toolDir, 'json.md');
-      const json = markdownToJson(jsonFilePath);
+      // get JSON data from tool.json if it exists
+      const jsonFilePath = path.join(toolDir, 'tool.json');
+      const json = readToolJson(jsonFilePath);
 
       // try to get the URL from the content
       // it may be a markdown link

@@ -1,0 +1,10 @@
+{
+  "name": "Geograph",
+  "url": "http://geograph.org/",
+  "description": "Georeferenced images.",
+  "cost": "Free",
+  "tags": [
+    "maps-and-satellites",
+    "street-view"
+  ]
+}

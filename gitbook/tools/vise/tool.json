@@ -1,0 +1,9 @@
+{
+  "tags": [
+    "reverse-image-search"
+  ],
+  "name": "VISE",
+  "url": "http://robots.ox.ac.uk/~vgg/software/vise",
+  "description": "(VGG Image Search Engine) This standalone application can be used to do a reverse image search on a large collection of images.",
+  "cost": "Free"
+}
