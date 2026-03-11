@@ -4,7 +4,7 @@ import path from 'path'
 import pkg from './paths.mjs'
 const {getTools, getSummary} = pkg;
 import pkg2 from './tools.mjs'
-const {fetchChangeRequests, findSpace} = pkg2
+const {fetchChangeRequests} = pkg2
 
 // Reads the existing list of project items from project_items.json
 // Identifies tools in the github repo with gitbook spaces but no project item.
@@ -26,10 +26,6 @@ function main() {
   const tools = getTools();
 
   tools.forEach(function(tool) {
-    const space = findSpace(tool);
-    if (!space) {
-      return;
-    }
     const item = items.find((item) => itemToolId(item) === tool.filename);
     if (!item) {
       console.log(tool.filename);

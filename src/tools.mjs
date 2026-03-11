@@ -422,7 +422,6 @@ export default {
   fetchChangeRequestReviewers,
   fetchLatestChangeRequest,
   fetchCollection,
-  findSpace,
   publishTool,
   removeTool,
   renameTool,
