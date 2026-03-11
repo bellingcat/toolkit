@@ -50,6 +50,7 @@
   * [AllTrails](tools/alltrails/README.md)
   * [Apollo Mapping](tools/apollo-mapping/README.md)
   * [Apple Maps](tools/apple-maps/README.md)
+  * [Aqueduct Water Risk Atlas](tools/aqueduct-water-risk-atlas/README.md)
   * [Archive.today](tools/archive.today/README.md)
   * [Atlos](tools/atlos/README.md)
   * [Auto Archiver](tools/auto-archiver/README.md)
