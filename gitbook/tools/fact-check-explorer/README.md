@@ -1,12 +1,12 @@
 ---
-description: A brief one line description of this tool
+description: A brief, one line description of this tool
 ---
 
 # Fact Check Explorer
 
 ## URL
 
-https://example.com
+[https://toolbox.google.com/factcheck/explorer/](https://toolbox.google.com/factcheck/explorer/)
 
 ## Description
 
@@ -36,17 +36,13 @@ https://example.com
 
 \[\[The ethical considerations of each tool should be described.]]
 
-## Guides and articles
+## Guide
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+\[\[Link to a guide on this tool]]
 
 ## Tool provider
 
 \[\[Name the tool provider (and potentially info on them)]]
-
-## Similar tools
-
-\[\[Compare this tool with similar tools which can be used for the same research purpose. What are the strengths and weaknesses of each tool?]]
 
 ## Advertising Trackers
 
@@ -58,3 +54,4 @@ https://example.com
 | -------------------------------------------------------------- |
 | \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
 |                                                                |
+
