@@ -266,14 +266,6 @@ function writeSpaces(spaces) {
   console.log('writing', spaces.length, 'spaces to',  'spaces.json');
   fs.writeFileSync('spaces.json', JSON.stringify(spaces, null, 2));
 }
-function readTeams() {
-  return JSON.parse(fs.readFileSync('teams.json', 'utf-8'));
-}
-function writeTeams(teams) {
-  debug('writing', teams.length, 'teams to',  'teams.json');
-  fs.writeFileSync('teams.json', JSON.stringify(teams, null, 2));
-}
-
 async function renameTool(tool, name) {
   const slug = slugify(name);
 
@@ -343,11 +335,6 @@ async function createTeam(name) {
   debug('Creating team', name);
   const data = await _createTeam(name);
 
-  // update teams.json
-  const teams = readTeams();
-  teams.push(data);
-  writeTeams(teams);
-
   return data;
 }
 
@@ -415,7 +402,6 @@ function updateToolSummary(tool) {
 export default {
   createTool,
   createToolOnGitbook,
-  fetchTeams,
   fetchSpace,
   fetchSpaces,
   fetchChangeRequestReviewers,
@@ -428,5 +414,4 @@ export default {
   updateToolCategories,
   updateToolSummary,
   writeSpaces,
-  writeTeams,
 };
