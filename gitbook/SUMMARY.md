@@ -191,6 +191,7 @@
   * [SkyFi](tools/skyfi/README.md)
   * [Snap Map](tools/snap-map/README.md)
   * [Species+](tools/species+/README.md)
+  * [Spot](tools/spot/README.md)
   * [Strava](tools/strava/README.md)
   * [Suncalc](tools/suncalc/README.md)
   * [Telegago](tools/telegago/README.md)
