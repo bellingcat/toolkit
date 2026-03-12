@@ -206,8 +206,9 @@ async function createToolOnGitbook(toolName, category, email) {
 
   // Convert category to collection id.
   const collection = CATEGORY_COLLECTION_IDS[category];
+  const slug = slugify(toolName);
 
-  const space = await createSpace(toolName, collection);
+  const space = await createSpace(slug, collection);
   const team = await createTeam(toolName);
 
   if (email) {
