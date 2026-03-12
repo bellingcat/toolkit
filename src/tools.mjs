@@ -267,14 +267,20 @@ async function renameTool(tool, name) {
   console.log('Moving tool from', tool.directory, 'to',  newFilepath);
   fs.renameSync(tool.directory, newFilepath);
 
-  //is it  in the summary?
+  // Update link in the summary if it exists
   const link = path.join('tools', slug, 'README.md');
   const summary = getSummary('gitbook');
   if (summary.match(link)) {
-
     summary.replace(link, newLink);
   }
-  return;
+
+  // Rename the GitBook space to match the new slug
+  const space = await findSpace(tool.directory);
+  if (space) {
+    await renameSpace(space, slug);
+  } else {
+    debug('No space found for', oldSlug);
+  }
 }
 async function renameSpace(space, name) {
   debug('Renaming space to', name);
