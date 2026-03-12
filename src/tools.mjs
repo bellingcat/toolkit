@@ -225,11 +225,17 @@ async function createToolOnGitbook(toolName, category, email) {
   }
 }
 
-function findSpace(name) {
-  const spaces = readSpaces();
-  const space = spaces.find((space) => space.title === name);
-  if (space) {
-    return space;
+async function findSpace(name) {
+  let page = '';
+  while (true) {
+    const data = await apiCall(
+      `https://api.gitbook.com/v1/orgs/${ORG_ID}/spaces?` + new URLSearchParams({ page }),
+      { method: 'GET' }
+    );
+    const match = data.items.find((s) => s.title === name);
+    if (match) return match;
+    if (!data.next?.page || data.next.page === data.items[0]?.id) break;
+    page = data.next.page;
   }
 }
 
