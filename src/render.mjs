@@ -1,5 +1,5 @@
 import path from 'path';
-import pkg from './paths.mjs';
+import pkg from './data.mjs';
 const { inSummary } = pkg;
 
 export function renderCategory(category, categoryTools = []) {

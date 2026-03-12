@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import pkg from './paths.mjs'
+import pkg from './data.mjs'
 const { apiCall } = pkg;
 import { ORG_ID } from './config.mjs';
 

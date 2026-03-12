@@ -1,7 +1,7 @@
 import { execSync } from 'child_process'
 import fs from 'fs'
 import path from 'path'
-import pkg from './paths.mjs'
+import pkg from './data.mjs'
 const {getTools, getSummary} = pkg;
 import pkg2 from './tools.mjs'
 const {fetchChangeRequests} = pkg2

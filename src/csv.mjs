@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import pkg from './paths.mjs'
+import pkg from './data.mjs'
 const { writeIfChanged, getCategories, getTools, inSummary } = pkg;
 
 function main() {

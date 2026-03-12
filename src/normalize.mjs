@@ -1,5 +1,5 @@
 import fs from 'fs';
-import paths from './paths.mjs'
+import paths from './data.mjs'
 const {getTools, getSummary} = paths;
 import pkg from './tools.mjs'
 const {updateToolJSON, updateToolCategories} = pkg;

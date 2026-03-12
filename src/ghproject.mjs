@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import pkg from './paths.mjs'
+import pkg from './data.mjs'
 const {getTools, getSummary} = pkg;
 import pkg2 from './tools.mjs'
 const {fetchCollection, fetchLatestChangeRequest, fetchChangeRequestReviewers, fetchSpace} = pkg2

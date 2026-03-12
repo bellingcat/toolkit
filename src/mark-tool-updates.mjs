@@ -1,4 +1,4 @@
-import pkg from './paths.mjs'
+import pkg from './data.mjs'
 import util from 'node:util';
 import matter from 'gray-matter'
 import child_process from 'node:child_process';

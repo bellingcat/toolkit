@@ -1,4 +1,4 @@
-import pkg from './paths.mjs'
+import pkg from './data.mjs'
 const {getTools} = pkg;
 import pkg2 from './tools.mjs'
 const {renameTool} = pkg2

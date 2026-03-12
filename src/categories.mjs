@@ -1,4 +1,4 @@
-import pkg from './paths.mjs'
+import pkg from './data.mjs'
 const { getCategories, getTools, writeIfChanged } = pkg;
 import { renderCategory, getToolsForCategory } from './render.mjs';
 
