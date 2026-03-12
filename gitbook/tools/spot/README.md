@@ -287,8 +287,6 @@ All tools which query OpenStreetMap share the limitations which the structure of
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-###
-
 </details>
 
 * In their Legal & Privacy Statement (see expandable reference below), the tool provider says that the data collected is usually kept for 30 days, after which it is deleted. However, it also reiterates that “under exceptional circumstances, we need them for a longer period for the above-mentioned purposes. In such a case, we erase the data as soon as they're no longer required.”
