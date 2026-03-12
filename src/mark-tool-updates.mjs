@@ -1,40 +1,54 @@
-import pkg from './data.mjs'
-import util from 'node:util';
-import matter from 'gray-matter'
-import child_process from 'node:child_process';
+import fs from 'fs';
+import matter from 'gray-matter';
+import pkg from './data.mjs';
+import toolsPkg from './tools.mjs';
 const { writeIfChanged, getTools, inSummary } = pkg;
-const exec = util.promisify(child_process.exec);
+const { fetchMergedChangeRequests } = toolsPkg;
+
+// Build toolSlug → spaceId map from project_items.json
+function buildSpaceMap() {
+  if (!fs.existsSync('project_items.json')) return {};
+  const items = JSON.parse(fs.readFileSync('project_items.json', 'utf-8'));
+  const map = {};
+  for (const item of items) {
+    const toolId = item.fieldValues.nodes.find(n => n.field?.name === 'Tool ID')?.text;
+    const spaceId = item.fieldValues.nodes.find(n => n.field?.name === 'Space ID')?.text;
+    if (toolId && spaceId) map[toolId] = spaceId;
+  }
+  return map;
+}
 
 async function main() {
-  // find out when each published tool page was last updated
+  const spaceMap = buildSpaceMap();
   const publishedTools = getTools().filter((tool) => inSummary(tool));
-  await Promise.all(publishedTools.map(function(tool) {
-    return getUpdatedAt(tool).then(function(updatedAt) {
-      if (!updatedAt) { return null; }
+  const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000);
 
-      // Set the date in the markdown frontmatter
-      tool.frontmatter.updated = updatedAt;
-      writeIfChanged(matter.stringify(tool.content, tool.frontmatter), tool.filepath);
+  await Promise.all(publishedTools.map(async (tool) => {
+    const spaceId = spaceMap[tool.filename];
+    if (!spaceId) return null;
 
-      return updatedAt;
-    });
+    let data;
+    try {
+      data = await fetchMergedChangeRequests({ id: spaceId });
+    } catch (e) {
+      console.error(`Error fetching CRs for ${tool.filename}: ${e.message}`);
+      return null;
+    }
+
+    const cr = data.items?.[0];
+    if (!cr?.updatedAt) return null;
+
+    const crDate = new Date(cr.updatedAt);
+    if (crDate < oneDayAgo) return null;
+
+    // Format as YYYY-MM-DD (same as previous git log --date=short output)
+    const updatedAt = crDate.toISOString().slice(0, 10);
+
+    tool.frontmatter.updated = updatedAt;
+    writeIfChanged(matter.stringify(tool.content, tool.frontmatter), tool.filepath);
+
+    return updatedAt;
   }));
 }
 
 main();
-
-async function getUpdatedAt(tool) {
-  // search git history for commits in the last 24 hours starting with
-  // GITBOOK-tool-slug-{number} and find the most recent commit date
-  const cmd = `git log --since="1 day ago" --grep="GITBOOK-${tool.filename}-[0-9][0-9]*" --format=%cd --date=short | head -n 1`;
-  const { stdout, stderr } = await exec(cmd);
-  if (stderr) {
-    console.error(stderr);
-  }
-  const commitDate = stdout.trim();
-  if (!commitDate) {
-    return null;
-  }
-  return commitDate;
-}
-

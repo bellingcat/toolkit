@@ -409,6 +409,7 @@ export default {
   createToolOnGitbook,
   fetchSpace,
   fetchSpaces,
+  fetchMergedChangeRequests,
   fetchChangeRequestReviewers,
   fetchLatestChangeRequest,
   fetchCollection,
