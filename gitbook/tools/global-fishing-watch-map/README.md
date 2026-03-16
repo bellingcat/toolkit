@@ -24,7 +24,7 @@ Global Fishing Watch has been used to combat illegal, unreported, and unregulate
 
 ### Potential use cases
 
-GFW offers different possibilities in investigating issues in coastal waters or at sea. Here are some potential use cases:&#x20;
+GFW offers different possibilities to investigate issues in coastal waters or at sea. Here are some potential use cases:&#x20;
 
 {% tabs %}
 {% tab title="Environmental & IUU Issues" %}
