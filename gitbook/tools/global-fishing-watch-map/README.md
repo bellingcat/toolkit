@@ -98,7 +98,7 @@ Loitering is when a single vessel exhibits behavior indicative of a potential en
 
 According to [Kroodsma, Miller, & Roan](https://imcsnet.org/resource/global-view-transshipment-revised-preliminary-findings) (2017) and [Miller et al.](./#url) (2018), 47% of transshipment events occur on the high seas, and 42% involve vessels flying flags of convenience.&#x20;
 
-Researchers should take these estimated loitering events as leads to their investigations, subject to further verification. (For example, a transshipment vessel may be loitering with no other AIS signal nearby. An additional view from satellite imagery might be needed to verify whether a fishing vessel was present.)&#x20;
+Researchers can take these estimated loitering events as leads for their investigations, subject to further verification. (For example, a transshipment vessel may be loitering with no other AIS signal nearby. An additional view from satellite imagery might be needed to verify whether a fishing vessel was present.)&#x20;
 
 #### Monitor a protected area
 
