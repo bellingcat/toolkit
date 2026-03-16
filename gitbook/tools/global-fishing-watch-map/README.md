@@ -54,7 +54,7 @@ From the [GFW Map](https://globalfishingwatch.org/map) page, a world map is show
 
 As an example, below is a heatmap visualizing vessel activity off the coast of Mauritania from Dec 1 to 10, 2025.&#x20;
 
-View a higher (or lower) resolution heatmaps by selecting the icons (shown in the gray rectangle, side panel - see left of image).&#x20;
+View a higher (or lower) resolution heatmap by selecting the icons (shown in the gray rectangle, side panel - see left of image).&#x20;
 
 <figure><img src=".gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
 
