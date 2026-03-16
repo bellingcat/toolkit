@@ -1,7 +1,7 @@
 ---
 description: >-
-  urlscan.io is a powerful online tool that allows investigators to analyse,
-  monitor, and document websites in real time.
+  urlscan.io is an online tool that allows investigators to analyse, monitor,
+  and document websites in real time.
 ---
 
 # Urlscan.io
