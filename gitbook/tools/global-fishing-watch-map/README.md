@@ -75,7 +75,7 @@ GFW data are published with a 72-hour delay, considered near real-time. A timeli
 <figure><img src=".gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * To see the heat map changing over your chosen duration, press the Play button.&#x20;
-* Historical data are available dating to January 1, 2012.&#x20;
+* Historical data are available dating back to January 1, 2012.&#x20;
 
 #### Search for vessels, view vessel tracks and fishing events
 
