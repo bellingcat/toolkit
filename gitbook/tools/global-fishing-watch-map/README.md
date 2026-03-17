@@ -2,6 +2,7 @@
 description: >-
   A digital platform for investigating fishing activities and vessel movements
   worldwide by utilising satellite and AIS data.
+updated: '2026-03-16'
 ---
 
 # Global Fishing Watch
