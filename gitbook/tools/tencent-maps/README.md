@@ -68,7 +68,7 @@ Steps:
 
 Two limitations to be aware of:
 
-1. Be aware that street views may be outdated, restricted or unavailable. In such cases, there may be glitches.
+1. Street views may be outdated, restricted or unavailable. In such cases, there may be glitches.
 2. Metadata such as the date of image capture or the approval reference are not available.
 
 Due to a [2021 merger between Tencent and Sogou](https://www.techinasia.com/tencent-completes-merger-chinese-search-engine-sogou), older street view imagery captured by SOSO Maps was integrated into Tencent Maps. (SOSO Maps, now defunct, was formerly a subsidiary of Sogou.) Tencent Maps users still often see SOSO Maps' vehicles in the street view imagery (as shown above), indicating that the image was taken some time before the merger.
@@ -108,7 +108,7 @@ APK, or Android Package Kit, refers to the core format which Android uses to dis
 
 ## Limitations
 
-* **Street view imagery can become outdated quickly**: Researchers should be aware that street view imagery available from China's map services can become outdated within 2 to 3 years and therefore could be unreliable for verifications. This applies to both urban and rural areas, due to [urban development](https://www.science.org/doi/10.1126/science.adw3443), [poverty alleviation](https://www.worldbank.org/en/news/press-release/2022/04/01/lifting-800-million-people-out-of-poverty-new-report-looks-at-lessons-from-china-s-experience), and [demographic shifts](https://www.piie.com/blogs/realtime-economics/2024/will-chinas-latest-urbanization-push-work).\
+* **Street view imagery can become outdated quickly**: Researchers should be aware that street view imagery available from China's map services can become outdated within 2 to 3 years and therefore could be unreliable for verification. This applies to both urban and rural areas, due to [urban development](https://www.science.org/doi/10.1126/science.adw3443), [poverty alleviation](https://www.worldbank.org/en/news/press-release/2022/04/01/lifting-800-million-people-out-of-poverty-new-report-looks-at-lessons-from-china-s-experience), and [demographic shifts](https://www.piie.com/blogs/realtime-economics/2024/will-chinas-latest-urbanization-push-work).\
   \
   To verify geolocations, researchers are encouraged to additionally search for user-generated content in Chinese platforms (equivalents of Youtube), including [Bilibili](https://www.bilibili.com/) (nicknamed B站 in Chinese, meaning "B station"), [Youku](https://www.youku.com/), [Tencent Video](https://v.qq.com/), and [Baidu Kaokan](https://haokan.baidu.com/). Also check short-form social media (equivalents of Tiktok), including [Douyin](https://www.piie.com/blogs/realtime-economics/2024/will-chinas-latest-urbanization-push-work) and [Kuaishou](https://www.kuaishou.com/).
 * **Geographical restrictions to account registration and API access**: A QQ account is required for registering for API access. In order to register a QQ account, a Chinese phone number is needed. Given this, international users will find it difficult to create an account by which they can obtain API access keys.\
@@ -141,7 +141,7 @@ Tencent Holdings Ltd. [https://www.tencent.com/](https://www.tencent.com/) - Chi
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer   |
-| ----------------- |
-| Author: River N.  |
-|                   |
+| Page maintainer  |
+| ---------------- |
+| Author: River N. |
+|                  |
