@@ -75,7 +75,7 @@ A 3D view is available. Baidu Maps also offers an API for building third-party a
 
 **Global coverage**
 
-Baidu Maps' coverage and capabilities are available globally, though the user interface is only available in Chinese. When searching for locations outside China, English search terms can be used.
+Baidu Maps' coverage and capabilities are available globally, but the user interface is only available in Chinese. When searching for locations outside China, English search terms can be used.
 
 ### **Underlying technologies and data providers**
 
@@ -160,7 +160,7 @@ Baidu Inc [http://www.baidu.com/](http://www.baidu.com/) - China
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer   |
-| ----------------- |
-| Author: River N.  |
-|                   |
+| Page maintainer  |
+| ---------------- |
+| Author: River N. |
+|                  |
