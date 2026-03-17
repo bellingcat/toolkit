@@ -60,7 +60,9 @@ Find the code and latest commits on Github: [https://github.com/mattwright324/yo
 
 ### Similar tools
 
-YouTube's search can perform a similar search by location.
+Using Google dorking (or the equivalent in other search engines) can lead to more results. For example, use `intitle:"keyword"` or `intext:"keyword"` to find videos whose title or text description mention your targeted location.&#x20;
+
+Another approach is to use YouTube's search by location function.&#x20;
 
 <details>
 
