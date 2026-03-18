@@ -1,5 +1,5 @@
 ---
-updated: '2026-03-16'
+updated: '2026-03-17'
 description: >-
   Tencent Maps is a mapping service provided by the Chinese technology company
   Tencent. Tencent Maps provides maps, satellite imagery, and street view.

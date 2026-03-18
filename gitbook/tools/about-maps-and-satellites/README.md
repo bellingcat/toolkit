@@ -1,5 +1,6 @@
 ---
 description: A guide to using map and satellite tools.
+updated: '2026-03-17'
 ---
 
 # About Maps and Satellites
