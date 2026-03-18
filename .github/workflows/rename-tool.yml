@@ -50,3 +50,37 @@ jobs:
         with:
           branch: main
 
+      - name: Sync project data and extract IDs
+        run: |
+          npm run proj
+          echo 'PROJECT_ID='$(jq '.data.organization.projectV2.id' project_data.json) >> $GITHUB_ENV
+          echo 'TOOLID_FIELD_ID='$(jq '.data.organization.projectV2.fields.nodes[] | select(.name== "Tool ID") | .id' project_data.json) >> $GITHUB_ENV
+          echo 'ITEM_ID='$(jq -r --arg slug '${{ env.NEW_TOOL_NAME }}' '.[] | select(.fieldValues.nodes[] | select(.field.name == "Tool ID" and .text == $slug)) | .id' project_items.json) >> $GITHUB_ENV
+
+
+      - name: Update Tool ID field
+        env:
+          GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
+        run: |
+          gh api graphql -f query='
+            mutation (
+              $project: ID!
+              $item: ID!
+              $tool_field: ID!
+              $tool_value: String!
+            ) {
+              set_tool_id: updateProjectV2ItemFieldValue(input: {
+                projectId: $project
+                itemId: $item
+                fieldId: $tool_field
+                value: {
+                  text: $tool_value
+                  }
+              }) {
+                projectV2Item {
+                  id
+                  }
+              }
+            }' -f project=$PROJECT_ID -f item=$ITEM_ID -f tool_field=$TOOLID_FIELD_ID -f tool_value=${{ env.NEW_TOOL_NAME }} --silent
+
+            #'
