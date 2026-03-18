@@ -76,7 +76,7 @@ Data are updated every month, with changelogs available on the website's [Update
 
 #### **1. Understanding multiple entries**
 
-As the same geographical area can receive more than one designation for protection or conservation, each designation will show up as a different entry in the WDPCA database, with different names, IDs and geographical coverage sizes. This could become a source of confusion.
+As the same geographical area can receive more than one designation for protection or conservation, each designation will display as a different entry in the WDPCA database, with different names, IDs and geographical coverage sizes. This could become a source of confusion.
 
 For example, if we enter the keyword "Cotswold" — referring to the protected landscape in England known for a limestone grassland habitat and ancient beechwood — we will see five results. (See the screenshot in the above section.) This is because the area received four national-level designations and a European one.
 
@@ -146,7 +146,7 @@ Now you can click on an area to see the data available.
 
 #### Lag time
 
-There may be some lag time before newly protected or conserved areas appear on the database. This can be due to delays in reporting from national governments, or time taken for compiling and processing the data, according to the [user manual](https://doi.org/10.34892/CF8P-8D35).
+There may be some lag time before new protected or conserved areas appear on the database. This can be due to delays in reporting from national governments, or time taken for compiling and processing the data, according to the [user manual](https://doi.org/10.34892/CF8P-8D35).
 
 #### **Historical data can be lost**
 
