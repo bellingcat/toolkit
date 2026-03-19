@@ -230,3 +230,7 @@ The original creator is [Siddharth Dushantha](https://github.com/sdushantha). Th
 * [x] This tool does not appear to use tracking cookies.
 
 Since Sherlock is a Python CLI program, it doesn’t load ads or trackers – it simply sends web requests and prints results. (If using a third-party web service or GUI for Sherlock, be aware that those platforms might have their own analytics or cookies, but the Sherlock CLI itself has no such components.)
+
+| Paige Maintainer |
+| ---------------- |
+| Freya            |
