@@ -14,7 +14,7 @@ description: >-
 
 grep.app is a free web-based search engine that allows users to search the contents of public GitHub repositories using keywords or [regular expressions (regex)](https://github.com/google/re2/wiki/Syntax). It is primarily used by developers, security researchers, and open source investigators to locate code snippets, context data, or sensitive information that may have been committed to public repositories.
 
-Use the main page to search for key words or regex. You can use this to search for domains, companies, contact details, code, and much more. There are options on the right side of the search bar: Match case, Match whole words, and Use regular expression.
+Use the main page to search for keywords or regex. You can use this to search for domains, companies, contact details, code, and much more. There are options on the right side of the search bar: Match case, Match whole words, and Use regular expression.
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
