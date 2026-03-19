@@ -1,14 +1,13 @@
 ---
 updated: '2026-01-31'
-description: Check usernames across more than 400 websites and social networks.
+description: >-
+  Allows a user to search for the presence of specific usernames across more
+  than 400 websites and social networks.
 ---
 
 # Sherlock
 
 ## URL
-
-[https://github.com/sherlock-project/sherlock](https://github.com/sherlock-project/sherlock)\
-(current version 0.16.0, published Sept 16th 2024, as of 31. Dec 2025)
 
 ## Description
 
@@ -192,6 +191,10 @@ Using Sherlock requires basic familiarity with command-line usage and software i
 * **Optional – Tor**: If you wish to mask your requests or avoid hitting sites from your IP, Sherlock can route queries through Tor (with `--tor` or `--unique-tor` flags). Using these options **requires** that the Tor service is installed and running on your system, and accessible in your PATH [github.com](https://github.com/sherlock-project/sherlock). Without Tor, Sherlock will use your direct internet connection.
 * **Optional – Proxy**: Sherlock also allows using a custom proxy (`--proxy`) for all requests, which could be a VPN or SOCKS proxy. If you plan to use this, you must have the proxy service set up; otherwise, there are no additional requirements.
 
+Local application works on MacOS, Linux and Windows. Python version 3.6 or higher required.
+
+An account must be created to use Sherlock in the browser via Apify.
+
 ## Limitations & Ethical Considerations
 
 * **Exact username matching:** Sherlock only checks for _exact_ matches of a given username. It does not support fuzzy search, alternate spellings, or regular expressions (regex). The sole variation is a `{?}` wildcard, which substitutes common delimiters like underscores, hyphens, or periods (e.g. `john{?}doe` → `john-doe`, `john.doe`). If a user employs different aliases across sites, Sherlock must be run separately for each one.
@@ -209,22 +212,12 @@ Using Sherlock requires basic familiarity with command-line usage and software i
 * **Twisted Circuits –** [**"Sherlock: The OSINT tool to discover usernames"**](https://medium.com/@twistedcircuits/sherlock-the-osint-tool-to-discover-usernames-bdac2d82b431) **(Medium, June 12, 2023):** A short introduction to Sherlock for a hacking audience. It undergoes manual installation from GitHub and performs a basic search, highlighting the tool’s ability to find accounts on over 300 platforms. Good for a quick start, though note the number of supported sites has since grown.
 * [“Sherlock OSINT Tool – Find Social Media Accounts!”](https://osintteam.blog/sherlock-osint-tool-find-social-media-accounts-3153c3bfeae3?gi=190718162b88) by Shahzaib (OSINT Team blog, Sep 22, 2025) – an article discussing how Sherlock can trace a person’s digital footprint and the privacy implications, aimed at raising awareness for both investigators and the general public.
 
+The tool can be downloaded and used locally, or used free of charge in the browser via Apify: [https://apify.com/misceres/sherlock?fpr=sherlock](https://apify.com/misceres/sherlock?fpr=sherlock).
+
+Additional documentation here: [https://sherlockproject.xyz/](https://sherlockproject.xyz/)
+
 ## Tool provider
-
-The original creator is [Siddharth Dushantha](https://github.com/sdushantha). The Sherlock Project has more than 200+ contributors.
-
-* [https://github.com/sherlock-project](https://github.com/sherlock-project)
-* [https://sherlockproject.xyz/](https://sherlockproject.xyz/)
 
 ## Advertising Trackers
 
-* [ ] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [x] This tool does not appear to use tracking cookies.
-
 Since Sherlock is a Python CLI program, it doesn’t load ads or trackers – it simply sends web requests and prints results. (If using a third-party web service or GUI for Sherlock, be aware that those platforms might have their own analytics or cookies, but the Sherlock CLI itself has no such components.)
-
-| Page maintainer |
-| --------------- |
-| Martin Sona     |
-|                 |
