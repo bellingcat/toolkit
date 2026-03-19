@@ -23,7 +23,7 @@ Shodan also includes several integrated tools:
 
 <figure><img src=".gitbook/assets/Shodan1 c.jpg" alt=""><figcaption><p>Main menu on the site</p></figcaption></figure>
 
-For OSINT investigations, Shodan can help:
+For open source investigations, Shodan can help:
 
 * Identify infrastructure operated by a specific organisation.
 * Assess exposed devices within a geographic region.
