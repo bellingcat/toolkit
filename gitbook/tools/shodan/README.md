@@ -72,7 +72,7 @@ A web browser and email address are required to sign up for an account and use t
 
 ## Ethical Considerations
 
-**Respect privacy and minimise harm:** Shodan surfaces information about publicly accessible devices, but that data can still belong to private individuals or small organisations. Furthermore, these individuals and organisation may be unaware that this data is publicly available. Investigators should avoid use of potentially unauthorised data unless strictly necessary for public good and avoid sharing identifiable IPs, login screens, or images that could expose personal data or locations. Sensitive details in publications should be redacted accordingly.
+**Respect privacy and minimise harm:** Shodan surfaces information about publicly accessible devices, but that data can still belong to private individuals or organisations. Furthermore, these individuals and organisation may be unaware that this data is publicly available. Investigators should avoid use of potentially unauthorised data unless strictly necessary for public good and avoid sharing identifiable IPs, login screens, or images that could expose personal data or locations. Sensitive details in publications should be redacted accordingly.
 
 **Use data for verification, not intrusion:** Shodan should be used to observe rather than to interact with online systems. Accessing or probing devices beyond what Shodan already provides is unethical and may be unlawful.
 
