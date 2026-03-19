@@ -110,6 +110,7 @@
   * [Google Maps](tools/google-maps/README.md)
   * [GovMap](tools/govmap/README.md)
   * [GPSJam](tools/gpsjam/README.md)
+  * [Grep.app](tools/grep.app/README.md)
   * [Have I Been Pwned](tools/have-i-been-pwned/README.md)
   * [Hitta.se](tools/hitta.se/README.md)
   * [Hoaxy](tools/hoaxy/README.md)
