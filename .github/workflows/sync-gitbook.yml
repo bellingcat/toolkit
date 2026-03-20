@@ -32,6 +32,13 @@ jobs:
           GH_REPO_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
         run: node src/sync-from-gitbook.mjs
 
+      # GitBook pushes exported content directly to the remote during the step above.
+      # Rebase our local clone on top of those commits before we commit the checkpoint,
+      # otherwise the checkpoint push would either fail (non-fast-forward) or, if forced,
+      # overwrite the exported content with a stale tree.
+      - name: Pull GitBook exports
+        run: git pull --rebase origin main
+
       - name: Detect changes
         uses: dorny/paths-filter@v3
         id: changes
@@ -54,6 +61,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           branch: main
+          force: false
 
   import:
     name: Import (GitHub → GitBook)
