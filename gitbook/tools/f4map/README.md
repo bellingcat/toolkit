@@ -17,24 +17,11 @@ F4Map is a browser-based application that allows users to explore detailed 3D re
 
 ## Features
 
-* **3D View**: toggle between 2D and 3D views, rotate and tilt the camera — note that ground-level views are not supported and 3D must be manually activated.
-* **Coverage:** Global but can be limited in some areas.
-* **Graphic Options**:
-  * Ground Elevation: On/off toggle for terrain; no other elevation options available.
-  * Weather: Sun, rain or snow
-  * Time (current date): Live, Night, Morning, Noon, Evening
-  * Traffic: Boats
-  * Display: Includes building names, landmarks, and detailed urban or natural elements (walls, power lines, forests). Visual effects include water reflections, dynamic shadows, and SSAO ([Screen Space Ambient Occlusion](https://en.wikipedia.org/wiki/Screen_space_ambient_occlusion)) for depth realism, with an option to keep SSAO active during movement.
-* **Language:** interface in English only; map labels appear in multiple languages based on OpenStreetMap data.
-* **Location search:** search by location name or coordinates.
-* **Locate user**: share your location to centre it on the map.
-* **Zoom tool:** zoom in and out on the map.
-
 The example below shows a search result for the term Paris, displaying a detailed 3D view of the Eiffel Tower and its surroundings. The visualization includes nearby embassies, schools, parks, and urban infrastructure—making it useful for geographic orientation, urban analysis, or OSINT research.
 
 When first opening F4Map, users may not immediately see buildings rendered in 3D. These elements only appear once zoomed in closely enough, as seen in this example. Since the platform does not follow standard 3D navigation conventions, users may need to manually zoom, tilt the view, or adjust the URL parameters (e.g., zoom, pitch, bearing) in the address bar to reach the desired perspective.
 
-<figure><img src=".gitbook/assets/paris_4fmap.png" alt=""><figcaption><p>F4Map 3D view of central Paris, featuring the Eiffel Tower and nearby landmarks.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/paris_4fmap.png" alt=""><figcaption><p>F4Map 3D view of central Paris, featuring the Eiffel Tower and surrounding urban environment, illustrating the platform's aerial 3D visualization of cities. </p></figcaption></figure>
 
 F4Map is available in the following formats:
 
@@ -115,7 +102,7 @@ To effectively use F4Map, especially for beginners or those looking to refine th
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                     |
-| --------------------------------------------------- |
-| Bellingcat Volunteer Team. Reviewer Sophie Tedling: |
-|                                                     |
+| Page maintainer             |
+| --------------------------- |
+| Bellingcat Volunteer Team.  |
+|                             |
