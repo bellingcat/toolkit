@@ -2,6 +2,7 @@
 description: >-
   grep.app is a free web-based search engine that allows users to search the
   contents of public GitHub repositories.
+updated: '2026-03-19'
 ---
 
 # Grep.app
