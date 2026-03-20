@@ -9,7 +9,7 @@ description: >-
 
 ## URL
 
-​https://github.com/sherlock-project/sherlock \
+[​https://github.com/sherlock-project/sherlock](./#url) \
 (current version 0.16.0, published Sept 16th 2025, as of 31. Jan 2026)
 
 ## Description
