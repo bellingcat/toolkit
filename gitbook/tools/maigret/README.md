@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-Maigret is a command-line tool that collects information about a person using their username. It checks for accounts across over [3000](https://github.com/soxoj/maigret/blob/main/sites.md) sites, gathering available information directly from web pages, without the need for API keys. The tool itself is a fork of the[ Sherlock project.](https://github.com/sherlock-project/sherlock)
+Maigret is a command-line tool that collects information about a person using their username. It checks for accounts across over [3000](https://github.com/soxoj/maigret/blob/main/sites.md) sites, gathering available information directly from web pages, without the need for API keys. The tool itself is a fork of the [Sherlock project](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock).
 
 If not explicitly specified with a tag, Maigret will start its search with the top 500 sites from its database, including many popular social platforms. Users have the option to expand the search by including different options, ranging from specific sites to countries and identifiers.
 
