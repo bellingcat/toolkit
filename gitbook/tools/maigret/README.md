@@ -62,6 +62,13 @@ For local installation, you can use pip3, Docker, or clone the GitHub repository
 // pip3 install maigret
 ```
 
+**Using Docker:**
+
+```python
+// docker pull soxoj/maigret 
+// docker run soxoj/maigret <username>
+```
+
 **Cloning the repository:**
 
 ```python
@@ -107,6 +114,18 @@ It is important to understand Maigret's limitations. The tool can be hampered by
 
 Recent updates, such as the user-friendly web interface and username permutator, make the tool more accessible but do not change these core limitations. With enhanced usability comes a greater ethical responsibility. Users must verify all findings and use Maigret legally, respecting individual privacy and the websites' terms of service.
 
+## Similar Tools
+
+While Maigret is designed for in-depth username enumeration and verification, other solutions offer overlapping functionality with different levels of depth, speed, and platform coverage. Some are better suited for quick checks or initial triage, while others focus on identifying the presence of usernames across a more limited set of platforms.&#x20;
+
+In practice, these options may be used alongside Maigret or as preliminary steps before conducting more exhaustive username enumeration.
+
+* [**Namechk**](https://bellingcat.gitbook.io/toolkit/more/all-tools/namechk) **:** a web-based service for checking the availability of usernames and domain names across popular platforms. It allows investigators to quickly determine whether a specific username is already in use on well-known social media services or registered as a domain. Namechk is most useful for rapid initial checks and does not verify whether an account is actively used or linked to a specific individual.
+* [What’s My Name](https://bellingcat.gitbook.io/toolkit/more/all-tools/whats-my-name) : a browser-based username checker that searches for a given username across multiple online platforms and returns links to accounts where the username appears to exist. It provides a straightforward way to identify potential matches on commonly used services without requiring local setup. This approach is best suited for quick cross-platform checks rather than detailed or large-scale enumeration.
+* [Blackbird](https://bellingcat.gitbook.io/toolkit/more/all-tools/blackbird) :  an OSINT utility for identifying the presence of a username across a wide range of social media platforms and online services. Blackbird can be used via both a command-line interface and a web-based interface, depending on the deployment and use case. Results include direct links to detected profiles, but additional verification is recommended to confirm relevance.
+* [Sherlock](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock) : an open-source, command-line application that searches for usernames across many social networks and online platforms. It supports local execution and automation, making it suitable for repeatable or scriptable OSINT workflows. As with other enumeration approaches, results should be reviewed carefully to account for false positives or platform changes.
+* [Skopenow](https://bellingcat.gitbook.io/toolkit/more/all-tools/skopenow) : a commercial OSINT platform designed for automated people search, social media profiling, and digital footprint analysis. It aggregates data from multiple online sources and presents findings through a web-based interface. Skopenow is typically used in professional or institutional contexts and differs from open-source options in terms of access, cost, and methodology.
+
 ## Guides and articles
 
 * Documentation: [https://maigret.readthedocs.io/en/latest/index.html](https://maigret.readthedocs.io/en/latest/index.html)
@@ -122,8 +141,3 @@ The tool provider of Maigret is [Dmitry Danilov](https://www.linkedin.com/in/dan
 * [x] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
-
-| Page maintainer |
-| --------------- |
-| tsvetelina      |
-|                 |
