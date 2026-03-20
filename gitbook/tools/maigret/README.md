@@ -141,3 +141,8 @@ The tool provider of Maigret is [Dmitry Danilov](https://www.linkedin.com/in/dan
 * [x] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
+
+| Paige Maintainer |
+| ---------------- |
+| tsvetelina       |
+
