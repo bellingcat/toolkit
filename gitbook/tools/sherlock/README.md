@@ -9,6 +9,9 @@ description: >-
 
 ## URL
 
+​https://github.com/sherlock-project/sherlock \
+(current version 0.16.0, published Sept 16th 2025, as of 31. Jan 2026)
+
 ## Description
 
 Sherlock is an open-source OSINT tool designed to find usernames across a wide range of social networks and websites. It can currently check for a given username across [400+ websites](https://sherlockproject.xyz/sites) and platforms, enabling investigators to quickly determine where a username is active. The full list of supported sites is available at [sherlockproject.xyz/sites](https://sherlockproject.xyz/sites).
