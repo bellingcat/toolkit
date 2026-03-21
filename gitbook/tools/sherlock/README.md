@@ -1,5 +1,5 @@
 ---
-updated: '2026-03-19'
+updated: '2026-03-20'
 description: >-
   Allows a user to search for the presence of specific usernames across more
   than 400 websites and social networks.

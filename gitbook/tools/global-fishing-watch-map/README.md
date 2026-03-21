@@ -1,5 +1,5 @@
 ---
-updated: '2026-03-16'
+updated: '2026-03-20'
 description: >-
   A digital platform for investigating fishing activities and vessel movements
   worldwide by utilising satellite and AIS data.
