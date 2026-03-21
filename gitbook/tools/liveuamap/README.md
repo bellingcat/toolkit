@@ -136,7 +136,7 @@ Liveuamap LLC [https://liveuamap.com/about#team](https://liveuamap.com/about#tea
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                      |
-| ------------------------------------ |
-| Bellingcat Volunteer Team/Unassigned |
-|                                      |
+| Page maintainer |
+| --------------- |
+| tsvetelina      |
+|                 |
