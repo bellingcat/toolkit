@@ -21,7 +21,7 @@ The example below shows a search result for the term Paris, displaying a detaile
 
 When first opening F4Map, users may not immediately see buildings rendered in 3D. These elements only appear once zoomed in closely enough, as seen in this example. Since the platform does not follow standard 3D navigation conventions, users may need to manually zoom, tilt the view, or adjust the URL parameters (e.g., zoom, pitch, bearing) in the address bar to reach the desired perspective.
 
-<figure><img src=".gitbook/assets/paris_4fmap.png" alt=""><figcaption><p>F4Map 3D view of central Paris, featuring the Eiffel Tower and surrounding urban environment, illustrating the platform's aerial 3D visualization of cities. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/paris_4fmap.png" alt=""><figcaption><p>F4Map 3D view of central Paris, featuring the Eiffel Tower and surrounding urban environment, illustrating the platform's aerial 3D visualization of cities.</p></figcaption></figure>
 
 F4Map is available in the following formats:
 
@@ -102,7 +102,7 @@ To effectively use F4Map, especially for beginners or those looking to refine th
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer             |
-| --------------------------- |
-| Bellingcat Volunteer Team.  |
-|                             |
+| Page maintainer |
+| --------------- |
+| tsvetelina      |
+|                 |
