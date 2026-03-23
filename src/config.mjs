@@ -18,3 +18,6 @@ export const CATEGORY_COLLECTION_IDS = {
   'websites': 'FjtL9eHx1MoDVJqVWeLR',
   'none': DEFAULT_COLLECTION_ID,
 };
+
+export const GITHUB_ORG = 'bellingcat';
+export const GITHUB_PROJECT_NUMBER = 6;
