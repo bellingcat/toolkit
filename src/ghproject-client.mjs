@@ -46,6 +46,8 @@ function getProjectFields() {
             nodes {
               ... on ProjectV2Field { id name }
               ... on ProjectV2SingleSelectField { id name options { id name } }
+              ... on ProjectV2DateField { id name }
+              ... on ProjectV2IterationField { id name }
             }
           }
         }
@@ -61,7 +63,7 @@ function getProjectFields() {
 // --- Item queries ---
 
 const ITEMS_QUERY = `
-  query($project: ID!, $after: String!) {
+  query($project: ID!, $after: String) {
     node(id: $project) {
       ... on ProjectV2 {
         items(first: 100, after: $after) {
