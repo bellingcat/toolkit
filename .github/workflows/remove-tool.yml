@@ -28,6 +28,74 @@ jobs:
           node src/remove-tool.mjs $TOOL_NAME
           npm run build
 
+      - name: Get project ID
+        env:
+          GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
+          ORGANIZATION: bellingcat
+          PROJECT_NUMBER: 6
+        run: |
+          echo 'PROJECT_ID='$(gh api graphql -f query='
+            query($org: String!, $number: Int!) {
+              organization(login: $org){
+                projectV2(number: $number) {
+                  id
+                }
+              }
+            }' -f org=$ORGANIZATION -F number=$PROJECT_NUMBER --jq '.data.organization.projectV2.id') >> $GITHUB_ENV
+
+      - name: Delete from GitHub Project
+        env:
+          GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
+          TOOL_NAME: ${{ inputs.toolName }}
+        run: |
+          END_CURSOR=""
+          HAS_NEXT_PAGE=true
+          ITEM_ID=""
+
+          while [[ "$HAS_NEXT_PAGE" == "true" && -z "$ITEM_ID" ]]; do
+            RESULT=$(gh api graphql -f query='
+              query($project: ID!, $after: String!) {
+                node(id: $project) {
+                  ... on ProjectV2 {
+                    items(first: 100, after: $after) {
+                      nodes {
+                        id
+                        fieldValues(first: 20) {
+                          nodes {
+                            ... on ProjectV2ItemFieldTextValue {
+                              text
+                              field { ... on ProjectV2FieldCommon { name } }
+                            }
+                          }
+                        }
+                      }
+                      pageInfo { endCursor hasNextPage }
+                    }
+                  }
+                }
+              }' -f project=$PROJECT_ID -f after="$END_CURSOR")
+
+            ITEM_ID=$(echo $RESULT | jq -r --arg tool "$TOOL_NAME" '
+              .data.node.items.nodes[] |
+              select(.fieldValues.nodes[] | select(.field.name == "Tool ID" and .text == $tool)) |
+              .id' 2>/dev/null | head -1)
+
+            HAS_NEXT_PAGE=$(echo $RESULT | jq -r '.data.node.items.pageInfo.hasNextPage')
+            END_CURSOR=$(echo $RESULT | jq -r '.data.node.items.pageInfo.endCursor')
+          done
+
+          if [[ -z "$ITEM_ID" ]]; then
+            echo "::warning::No GitHub project item found for $TOOL_NAME — skipping deletion"
+          else
+            gh api graphql -f query='
+              mutation($project: ID!, $item: ID!) {
+                deleteProjectV2Item(input: { projectId: $project itemId: $item }) {
+                  deletedItemId
+                }
+              }' -f project=$PROJECT_ID -f item=$ITEM_ID --silent
+            echo "Deleted project item $ITEM_ID for $TOOL_NAME"
+          fi
+
       - name: Commit changes
         env:
           TOOL_NAME: ${{ inputs.toolName }}
