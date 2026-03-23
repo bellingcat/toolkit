@@ -167,6 +167,6 @@ for (const tool of tools) {
   if (changes.length > 0) {
     console.warn(tool.title);
     console.warn(JSON.stringify(changed, null, 2));
-    client.ghql(graphql.mutation(changes), { project: client.getProjectId() });
+    client.executeMutation(graphql.mutation(changes), { project: client.getProjectId() });
   }
 } // end for tool
