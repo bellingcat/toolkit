@@ -1,5 +1,3 @@
-import { spawnSync } from 'child_process'
-import fs from 'fs'
 import path from 'path'
 import pkg from './data.mjs'
 const {getTools, getSummary} = pkg;
@@ -169,9 +167,6 @@ for (const tool of tools) {
   if (changes.length > 0) {
     console.warn(tool.title);
     console.warn(JSON.stringify(changed, null, 2));
-    const projectId = client.getProjectId();
-    const mutationStr = graphql.mutation(changes);
-    const result = spawnSync('gh', ['api', 'graphql', '-f', `query=${mutationStr}`, '-F', `project=${projectId}`], { encoding: 'utf-8' });
-    if (result.status !== 0) console.error('Mutation failed:', result.stderr);
+    client.ghql(graphql.mutation(changes), { project: client.getProjectId() });
   }
 } // end for tool

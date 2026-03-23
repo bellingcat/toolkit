@@ -202,4 +202,4 @@ function updateToolId(oldSlug, newSlug) {
   console.log(`Updated Tool ID from "${oldSlug}" to "${newSlug}"`);
 }
 
-export default { addItemToProject, removeItemFromProject, updateToolId, fetchAllItems, getProjectId, getProjectFields };
+export default { addItemToProject, removeItemFromProject, updateToolId, fetchAllItems, getProjectId, getProjectFields, ghql };
