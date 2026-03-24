@@ -21,15 +21,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Fetch project items
-        env:
-          GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
-        run: npm run proj
-
       - name: Export from GitBook
         env:
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
           GH_REPO_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
         run: node src/sync-from-gitbook.mjs
 
       # GitBook pushes exported content directly to the remote during the step above.
@@ -78,13 +74,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Fetch project items
-        env:
-          GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
-        run: npm run proj
-
       - name: Import to GitBook
         env:
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
           GH_REPO_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
         run: node src/import-to-gitbook.mjs

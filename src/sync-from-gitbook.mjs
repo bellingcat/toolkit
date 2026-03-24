@@ -19,6 +19,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import pkg from './data.mjs';
+import client from './ghproject-client.mjs';
 const { apiCall } = pkg;
 
 const GH_REPO_TOKEN = process.env.GH_REPO_TOKEN;
@@ -77,7 +78,7 @@ async function exportSpace(spaceId, toolSlug) {
 }
 
 async function main() {
-  const items = JSON.parse(fs.readFileSync('project_items.json', 'utf-8'));
+  const items = client.fetchAllItems();
   const checkpoint = loadCheckpoint();
   let exported = 0;
   let skipped = 0;

@@ -1,14 +1,13 @@
-import fs from 'fs';
 import matter from 'gray-matter';
 import pkg from './data.mjs';
 import toolsPkg from './tools.mjs';
+import client from './ghproject-client.mjs';
 const { writeIfChanged, getTools, inSummary } = pkg;
 const { fetchMergedChangeRequests } = toolsPkg;
 
-// Build toolSlug → spaceId map from project_items.json
+// Build toolSlug → spaceId map from GitHub Project
 function buildSpaceMap() {
-  if (!fs.existsSync('project_items.json')) return {};
-  const items = JSON.parse(fs.readFileSync('project_items.json', 'utf-8'));
+  const items = client.fetchAllItems();
   const map = {};
   for (const item of items) {
     const toolId = item.fieldValues.nodes.find(n => n.field?.name === 'Tool ID')?.text;
