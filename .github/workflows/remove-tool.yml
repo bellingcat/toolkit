@@ -20,10 +20,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run node script to generate new tool
+      - name: Run node script to remove tool
         id: node
         env:
           TOOL_NAME: ${{ inputs.toolName }}
+          GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
         run: |
           node src/remove-tool.mjs $TOOL_NAME
           npm run build

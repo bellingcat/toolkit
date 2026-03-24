@@ -1,37 +1,26 @@
-import { execSync } from 'child_process'
-import fs from 'fs'
-import path from 'path'
 import pkg from './data.mjs'
-const {getTools, getSummary} = pkg;
-import pkg2 from './tools.mjs'
-const {fetchChangeRequests} = pkg2
+const {getTools} = pkg;
+import client from './ghproject-client.mjs';
 
-// Reads the existing list of project items from project_items.json
-// Identifies tools in the github repo with gitbook spaces but no project item.
-// Emits the names of tools that need to be added to the github project.
-//
-function itemTitle(item) {
-  return item.fieldValues.nodes.find((node) => node.field.name === "Title").text ;
-}
-function itemToolId(item) {
-  return item.fieldValues.nodes.find((node) => node.field.name === "Tool ID").text ;
-}
-function formatDate(dateString) {
-  var date = new Date(dateString);
-  return date.toISOString().replace(/T.*/,'');
-}
 function main() {
-  const inputFilename = process.argv[2];
-  const items = JSON.parse(fs.readFileSync(inputFilename, 'utf-8'));
-  const tools = getTools();
+  const rawItems = client.fetchAllItems();
 
+  function getToolId(item) {
+    return item.fieldValues.nodes.find((node) => node.field?.name === 'Tool ID')?.text;
+  }
+
+  const tools = getTools();
   tools.forEach(function(tool) {
-    const item = items.find((item) => itemToolId(item) === tool.filename);
+    const item = rawItems.find((item) => getToolId(item) === tool.filename);
     if (!item) {
-      console.log(tool.filename);
-      return;
+      console.log(`Adding missing project item: ${tool.filename}`);
+      client.addItemToProject(tool.filename, '', tool.title);
     }
   });
 }
 
-main();
+if (process.env.GH_TOKEN) {
+  main();
+} else {
+  console.warn('GH_TOKEN not set — skipping missing project items check');
+}

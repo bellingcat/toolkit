@@ -1,90 +1,75 @@
-import fs from 'fs'
 import path from 'path'
 import pkg from './data.mjs'
 const {getTools, getSummary} = pkg;
 import pkg2 from './tools.mjs'
 const {fetchCollection, fetchLatestChangeRequest, fetchChangeRequestReviewers, fetchSpace} = pkg2
 import graphql from './graphql.mjs';
+import client from './ghproject-client.mjs';
 
-// Emits graphql mutations to update project items based on data from gitbook API
+// Field/option name constants — resolved lazily via client
+const FIELD_NAMES = {
+  date: 'Date submitted',
+  url: 'Latest change request',
+  status: 'Status',
+  published: 'Published',
+  updatedAt: 'Last updated',
+  spaceUrl: 'Tool Space',
+  reviewers: 'CR Reviewers',
+  author: 'CR Author',
+  toolId: 'Tool ID',
+  spaceId: 'Space ID',
+  title: 'Title',
+  collection: 'Collection',
+};
+const OPTION_NAMES = {
+  reviewRequested: { name: 'Review Requested', field: 'Status' },
+  merged: { name: 'Merged', field: 'Status' },
+  editing: { name: 'Editing in Process', field: 'Status' },
+  publishedTrue: { name: 'True', field: 'Published' },
+};
 
-if (process.argv.length !== 4) {
-  console.warn("Usage: node ", process.argv[1], " <project_data.json> <project_items.json>");
-  process.exit(1);
+// Resolve field and option IDs from the live project
+const fields = client.getProjectFields();
+const FIELDS = {};
+for (const [key, name] of Object.entries(FIELD_NAMES)) {
+  FIELDS[key] = { id: fields[name].id, name };
 }
-const projectDataFilename = process.argv[2]
-const projectItemsFilename = process.argv[3]
+const OPTIONS = {};
+for (const [key, { name, field }] of Object.entries(OPTION_NAMES)) {
+  OPTIONS[key] = {
+    id: fields[field].options.find(o => o.name === name).id,
+    name,
+  };
+}
 
-const FIELDS = {
-  date: { name: "Date submitted"},
-  url: { name: "Latest change request"},
-  status: { name: "Status"},
-  published: { name: "Published"},
-  updatedAt: { name: "Last updated"},
-  spaceUrl: { name: "Tool Space"},
-  reviewers: { name: "CR Reviewers"},
-  author: { name: "CR Author"},
-  toolId: { name: "Tool ID"},
-  spaceId: { name: "Space ID"},
-  title: { name: "Title"},
-  collection: { name: "Collection"},
-};
-const OPTIONS = {
-  reviewRequested: { name: "Review Requested", field: "Status"},
-  merged: { name: "Merged", field: "Status"},
-  editing: { name: "Editing in Process", field: "Status"},
-  publishedTrue: { name: "True", field: "Published"},
-};
-
-(function processProjectData() {
-  // read project data and parse out project fields and options
-  const project  = JSON.parse(fs.readFileSync(projectDataFilename, 'utf-8'));
-  const nodes = project.data.organization.projectV2.fields.nodes;
-  // helpers
-  const byName = name => (n => n.name == name);
-  const field = name => nodes.find(byName(name));
-  // iterate over FIELDS and OPTIONS and populate their IDs in place
-  for (const key in FIELDS) {
-    FIELDS[key].id = field(FIELDS[key].name).id;
+// Fetch all project items live
+function getField(fieldName, item) {
+  return item.fieldValues.nodes.find((node) => node.field?.name === fieldName) || {};
+}
+const rawItems = client.fetchAllItems();
+const items = rawItems.map(function(item) {
+  return {
+    id: item.id,
+    title: getField(FIELDS.title.name, item).text,
+    status: getField(FIELDS.status.name, item).name,
+    published: getField(FIELDS.published.name, item).name,
+    submittedAt: getField(FIELDS.date.name, item).date,
+    url: getField(FIELDS.url.name, item).text,
+    updatedAt: getField(FIELDS.updatedAt.name, item).date,
+    spaceUrl: getField(FIELDS.spaceUrl.name, item).text,
+    toolId: getField(FIELDS.toolId.name, item).text,
+    spaceId: getField(FIELDS.spaceId.name, item).text,
+    changeRequestAuthor: getField(FIELDS.author.name, item).text,
+    reviewers: getField(FIELDS.reviewers.name, item).text,
+    collection: getField(FIELDS.collection.name, item).text,
+  };
+}).filter(item => {
+  if (!item.toolId) {
+    console.error('No tool ID for item', item.title);
+    return false;
   }
-  for (const key in OPTIONS) {
-    OPTIONS[key].id = field(OPTIONS[key].field).options.find(byName(OPTIONS[key].name)).id;
-  }
-})();
-
-const items = (function processProjectItems() {
-  // read and parse project items
-
-  // helper to get field value by name
-  function getField(fieldName, item) {
-    return item.fieldValues.nodes.find((node) => node.field.name === fieldName) || {};
-  }
-
-  return JSON.parse(fs.readFileSync(projectItemsFilename, 'utf-8')).map(function(item) {
-    const ret = {
-      id: item.id,
-      title: getField(FIELDS.title.name, item).text,
-      status: getField(FIELDS.status.name, item).name,
-      published: getField(FIELDS.published.name, item).name,
-      submittedAt: getField(FIELDS.date.name, item).date,
-      url: getField(FIELDS.url.name, item).text,
-      updatedAt: getField(FIELDS.updatedAt.name, item).date,
-      spaceUrl: getField(FIELDS.spaceUrl.name, item).text,
-      toolId: getField(FIELDS.toolId.name, item).text,
-      spaceId: getField(FIELDS.spaceId.name, item).text,
-      changeRequestAuthor: getField(FIELDS.author.name, item).text,
-      reviewers: getField(FIELDS.reviewers.name, item).text,
-      collection: getField(FIELDS.collection.name, item).text,
-    };
-    if (!ret.toolId) {
-      console.error("No tool ID for item", ret.title);
-      console.error("Item data:", JSON.stringify(item, null, 2));
-      throw new Error("No tool ID for item " + ret.title);
-    }
-    return ret;
-
-  });
-})();
+  return true;
+});
 
 const tools = getTools();
 const summary = getSummary('gitbook');
@@ -180,8 +165,8 @@ for (const tool of tools) {
     }
   }
   if (changes.length > 0) {
-    console.warn(tool.title)
+    console.warn(tool.title);
     console.warn(JSON.stringify(changed, null, 2));
-    console.log(graphql.mutation(changes));
+    client.executeMutation(graphql.mutation(changes), { project: client.getProjectId() });
   }
 } // end for tool
