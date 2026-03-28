@@ -46,7 +46,6 @@ function getProjectFields() {
             nodes {
               ... on ProjectV2Field { id name }
               ... on ProjectV2SingleSelectField { id name options { id name } }
-              ... on ProjectV2DateField { id name }
               ... on ProjectV2IterationField { id name }
             }
           }
