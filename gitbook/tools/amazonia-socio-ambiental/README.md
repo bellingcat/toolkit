@@ -21,7 +21,7 @@ This data would be useful for researchers investigating land use or land exploit
 
 <figure><img src=".gitbook/assets/Screenshot 2025-12-02 at 9.41.04 PM.png" alt=""><figcaption></figcaption></figure>
 
-Using RAISG's online map, researchers can compare assessed forest cover in 2000 (in green), deforestation that occurred between 2001-2010 (red/orange points), and Indigenous territory (light green/orange overlay). Users can also compare data related to protected natural areas, deforestation-related activities, and hotspots in the last 24 hours.&#x20;
+Using RAISG's online map, researchers can compare assessed forest cover in the year 2000 (in green), deforestation that occurred between 2001-2010 (red/orange points), and Indigenous territory (light green/orange overlay). Users can also compare data related to protected natural areas, deforestation-related activities, and hotspots in the last 24 hours.&#x20;
 
 Users can customize the appearance of the data visualizations by adjusting the layers and transparency of each. For additional customization, users can download individual files for use in their own models.
 
