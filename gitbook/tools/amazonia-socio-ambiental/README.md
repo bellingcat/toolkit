@@ -53,8 +53,6 @@ RAISG is financed by several nonprofits from the Global North and the government
 
 ## Guide
 
-[\[\[Link to a guide on this tool\]\]](https://www.raisg.org/en/about/)
-
 [Video tutorial (español)](https://www.youtube.com/watch?v=ejAqZsN3-Wk)
 
 Some examples of investigations using RAISG:
