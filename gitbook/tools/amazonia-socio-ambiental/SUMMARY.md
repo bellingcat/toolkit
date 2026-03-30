@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Amazonia Socio Ambiental](README.md)
+* [Amazonia Socio Ambiental (RAISG)](README.md)
 * [Categories](categories.md)
 * [Regions](regions.md)
