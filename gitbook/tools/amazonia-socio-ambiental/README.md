@@ -1,8 +1,8 @@
 ---
 description: >-
-  Amazon rainforest maps and shapefiles of protected areas, concessions,
-  indigenous territories, oil, mining, roads, fires, and deforestation in
-  Bolivia, Brazil, Colombia, Ecuador, Guyanas and Suriname
+  Amazon rainforest maps and shapefiles of natural protected areas, concessions,
+  indigenous territories, oil, mining, roads, fires, deforestation in bolivia,
+  brazil, colombia, ecuador, guyanas and surin
 ---
 
 # Amazonia Socio Ambiental (RAISG)
