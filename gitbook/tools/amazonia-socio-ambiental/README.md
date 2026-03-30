@@ -57,7 +57,7 @@ RAISG is financed by several nonprofits from the Global North and the government
 
 Some examples of investigations using RAISG:
 
-[Mongabay](https://es.mongabay.com/2023/11/la-region-amazonica-perdio-un-millon-de-hectareas-de-superficie-de-agua-dulce-en-diez-anos/)
+[Mongabay](https://es.mongabay.com/2023/11/la-region-amazonica-perdio-un-millon-de-hectareas-de-superficie-de-agua-dulce-en-diez-anos/): La región amazónica perdió un millón de hectáreas de superficie de agua dulce en diez años.
 
 [Ecociencia](https://ecociencia.org/publicaciones-ecociencia/publicaciones-raisg/)
 
