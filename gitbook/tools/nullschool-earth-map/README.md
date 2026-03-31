@@ -50,8 +50,9 @@ This is not a comprehensive list. This tool contains a wealth of data which may 
 <figure><img src=".gitbook/assets/Screenshot 2025-10-26 at 5.17.56 PM.png" alt="The map in Wind Mode, showing the DUex value for a point in Africa"><figcaption></figcaption></figure>
 
 * To specify an exact latitude/longitude coordinate, select the metrics you'd like to see, then edit the end of the URL by adding `loc=YOUR_LONGITUDE_POINT,YOUR_LATITUDE_POINT`.
-  * Example:
-    * [https://earth.nullschool.net/#2018/08/04/2000Z/particulates/surface/level/overlay=duexttau/orthographic=54.12,6.65,449/loc=_**11.539,19.014**_](https://earth.nullschool.net/#2018/08/04/2000Z/particulates/surface/level/overlay=duexttau/orthographic=54.12,6.65,449/loc=11.539,19.014)
+  *   Example:
+
+      [https://earth.nullschool.net/#2018/08/04/2000Z/particulates/surface/level/overlay=duexttau/orthographic=54.12,6.65,449/loc=_**11.539,19.014**_](https://earth.nullschool.net/#2018/08/04/2000Z/particulates/surface/level/overlay=duexttau/orthographic=54.12,6.65,449/loc=11.539,19.014)
 
 ### Available Metrics
 
