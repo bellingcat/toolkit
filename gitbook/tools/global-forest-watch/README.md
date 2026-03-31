@@ -197,7 +197,7 @@ The Global Forest Watch Fire Report Map is mentioned in Wim Zwijnenburg's Bellin
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                        |
-| ------------------------------------------------------ |
-| [Courtney Cox](https://www.linkedin.com/in/court-cox/) |
-|                                                        |
+| Page maintainer |
+| --------------- |
+| Courtney Cox    |
+|                 |
