@@ -173,7 +173,7 @@ Feedback about the map can be provided via [this form](https://docs.google.com/f
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                        |
-| ------------------------------------------------------ |
-| [Courtney Cox](https://www.linkedin.com/in/court-cox/) |
-|                                                        |
+| Page maintainer |
+| --------------- |
+| Courtney Cox    |
+|                 |
