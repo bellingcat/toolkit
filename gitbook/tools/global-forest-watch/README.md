@@ -1,5 +1,5 @@
 ---
-updated: '2025-11-01'
+updated: '2026-03-31'
 description: >-
   Explore tree cover loss and gain data, recent deforestation and fire alerts,
   land use designations, carbon emissions, biodiversity metrics and more.
