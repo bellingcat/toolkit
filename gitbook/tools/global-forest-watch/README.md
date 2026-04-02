@@ -21,7 +21,7 @@ This tool visualizes both historic and near real-time data. Especially when deal
 
 <figure><img src=".gitbook/assets/Screenshot_1forest cahnge.png" alt=""><figcaption><p>Tree cover gain and loss layers</p></figcaption></figure>
 
-**Global Forest Watch** is an interactive map featuring a wide variety of data layers.&#x20;
+**Global Forest Watch** is an interactive map featuring a wide variety of data layers.
 
 On initial launch, you'll see global tree cover, tree cover loss, and tree cover gain.
 
@@ -41,7 +41,7 @@ In the **Legend** panel, layers can be reordered and their opacity adjusted to h
 
 Layers specific to **Brazil**, **Cambodia**, **Indonesia** and **Peru** can be accessed by clicking 'Add country' under 'Country-specific data' at the top of the layers panel.
 
-Clicking on a region prompts an option to generate a detailed analysis of that area.&#x20;
+Clicking on a region prompts an option to generate a detailed analysis of that area.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-11-01 at 1.30.01 AM.png" alt="Analysis tab and a popup over France with an option to Analyze"><figcaption></figcaption></figure>
 
@@ -51,7 +51,7 @@ By default, the area is defined by political boundaries, but in the **Analysis**
 
 ### Forest Change
 
-<figure><img src=".gitbook/assets/Screenshot_1 fires.png" alt="Global Forest watch map showing fire alerts, fire weather and tree cover loss due to fires "><figcaption><p>Fire layers</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot_1 fires.png" alt="Global Forest watch map showing fire alerts, fire weather and tree cover loss due to fires"><figcaption><p>Fire layers</p></figcaption></figure>
 
 Forest Change layers show where and how forests are lost, gained and disturbed, as well as near real-time fire alerts and more.
 
@@ -102,7 +102,7 @@ Land Cover layers map the various types of natural and human-altered surfaces th
 
 <figure><img src=".gitbook/assets/Screenshot 2025-10-31 at 11.42.29 PM.png" alt="Global Forest Watch map with mining concessions layer toggled on"><figcaption><p>Mining concessions layer</p></figcaption></figure>
 
-Layers in this section show how and where humans use land for agriculture, forestry, mining, conservation and infrastructure.&#x20;
+Layers in this section show how and where humans use land for agriculture, forestry, mining, conservation and infrastructure.
 
 #### Layers
 
@@ -146,7 +146,7 @@ Climate layers in this section show how forests store and release carbon, includ
 * Carbon Density
   * [**Tree biomass density**](https://www.globalforestwatch.org/map/?map=eyJjZW50ZXIiOnsibGF0IjoyMS4xMzE3NjA1NDMyNTQxNDIsImxuZyI6LTk4LjAwNDAzMTA5MjU2MDEzfSwiem9vbSI6My4xODQ0NTg1MDgyMzUyMDY2LCJkYXRhc2V0cyI6W3siZGF0YXNldCI6InRyZWUtYmlvbWFzcy1kZW5zaXR5Iiwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZSwibGF5ZXJzIjpbInRyZWUtYmlvbWFzcy1kZW5zaXR5Il19LHsiZGF0YXNldCI6InBvbGl0aWNhbC1ib3VuZGFyaWVzIiwibGF5ZXJzIjpbImRpc3B1dGVkLXBvbGl0aWNhbC1ib3VuZGFyaWVzIiwicG9saXRpY2FsLWJvdW5kYXJpZXMiXSwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZX1dfQ%3D%3D\&mapMenu=eyJtZW51U2VjdGlvbiI6ImRhdGFzZXRzIiwiZGF0YXNldENhdGVnb3J5IjoiY2xpbWF0ZSJ9\&mapPrompts=eyJzdGVwc0tleSI6ImFuYWx5emVBbkFyZWEiLCJzdGVwc0luZGV4IjowLCJmb3JjZSI6dHJ1ZX0%3D\&modalMeta=whrc_aboveground_biomass_stock_2000): amount of carbon stored in the above-ground wood of living trees | global
 * Potential Carbon Gains
-  * [**Potential carbon sequestration rate**](https://www.globalforestwatch.org/map/?map=eyJjZW50ZXIiOnsibGF0IjoyMS4xMzE3NjA1NDMyNTQxNDIsImxuZyI6LTk4LjAwNDAzMTA5MjU2MDEzfSwiem9vbSI6My4xODQ0NTg1MDgyMzUyMDY2LCJkYXRhc2V0cyI6W3siZGF0YXNldCI6InBvdGVudGlhbC1jYXJib24tc2VxdWVzdHJhdGlvbi1yYXRlIiwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZSwibGF5ZXJzIjpbInBvdGVudGlhbC1jYXJib24tc2VxdWVzdHJhdGlvbi1yYXRlLTIwMjAiXX0seyJkYXRhc2V0IjoiZW5kZW1pYy1iaXJkLWFyZWFzIiwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZSwibGF5ZXJzIjpbImJpcmRsaWZlLWVuZGVtaWMtYmlyZC1hcmVhcy0yMDE0Il0sImlzbyI6IiJ9LHsiZGF0YXNldCI6InBvbGl0aWNhbC1ib3VuZGFyaWVzIiwibGF5ZXJzIjpbImRpc3B1dGVkLXBvbGl0aWNhbC1ib3VuZGFyaWVzIiwicG9saXRpY2FsLWJvdW5kYXJpZXMiXSwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZX1dfQ%3D%3D\&mapMenu=eyJtZW51U2VjdGlvbiI6ImRhdGFzZXRzIiwiZGF0YXNldENhdGVnb3J5IjoiY2xpbWF0ZSJ9\&mapPrompts=eyJzdGVwc0tleSI6ImFuYWx5emVBbkFyZWEiLCJzdGVwc0luZGV4IjowLCJmb3JjZSI6dHJ1ZX0%3D\&modalMeta=gfw_reforestable_extent_aboveground_carbon_potential_sequestration): estimated rates at which new forests could absorb carbon from the atmosphere and store it in trees over the first 30 years of natural growth | global, with specified data limitations&#x20;
+  * [**Potential carbon sequestration rate**](https://www.globalforestwatch.org/map/?map=eyJjZW50ZXIiOnsibGF0IjoyMS4xMzE3NjA1NDMyNTQxNDIsImxuZyI6LTk4LjAwNDAzMTA5MjU2MDEzfSwiem9vbSI6My4xODQ0NTg1MDgyMzUyMDY2LCJkYXRhc2V0cyI6W3siZGF0YXNldCI6InBvdGVudGlhbC1jYXJib24tc2VxdWVzdHJhdGlvbi1yYXRlIiwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZSwibGF5ZXJzIjpbInBvdGVudGlhbC1jYXJib24tc2VxdWVzdHJhdGlvbi1yYXRlLTIwMjAiXX0seyJkYXRhc2V0IjoiZW5kZW1pYy1iaXJkLWFyZWFzIiwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZSwibGF5ZXJzIjpbImJpcmRsaWZlLWVuZGVtaWMtYmlyZC1hcmVhcy0yMDE0Il0sImlzbyI6IiJ9LHsiZGF0YXNldCI6InBvbGl0aWNhbC1ib3VuZGFyaWVzIiwibGF5ZXJzIjpbImRpc3B1dGVkLXBvbGl0aWNhbC1ib3VuZGFyaWVzIiwicG9saXRpY2FsLWJvdW5kYXJpZXMiXSwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZX1dfQ%3D%3D\&mapMenu=eyJtZW51U2VjdGlvbiI6ImRhdGFzZXRzIiwiZGF0YXNldENhdGVnb3J5IjoiY2xpbWF0ZSJ9\&mapPrompts=eyJzdGVwc0tleSI6ImFuYWx5emVBbkFyZWEiLCJzdGVwc0luZGV4IjowLCJmb3JjZSI6dHJ1ZX0%3D\&modalMeta=gfw_reforestable_extent_aboveground_carbon_potential_sequestration): estimated rates at which new forests could absorb carbon from the atmosphere and store it in trees over the first 30 years of natural growth | global, with specified data limitations
 
 ### **Biodiversity**
 
@@ -175,7 +175,7 @@ Biodiversity layers provide insight into species richness, habitat ranges, conse
 
 ## Requirements
 
-No account is required to use this tool. Signing up allows for customized tracking and analysis of areas of interest. You can also receive optional email alerts for new deforestation events.
+No account is required to use this tool. Signing up via e-mail allows for customized tracking and analysis of areas of interest. You can also receive optional email alerts for new deforestation events.
 
 ## Limitations
 
