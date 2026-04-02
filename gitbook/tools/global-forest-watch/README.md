@@ -175,7 +175,7 @@ Biodiversity layers provide insight into species richness, habitat ranges, conse
 
 ## Requirements
 
-No account is required to use this tool. Signing up via e-mail allows for customized tracking and analysis of areas of interest. You can also receive optional email alerts for new deforestation events.
+No account is required to use this tool. Signing up via e-mail allows for customized tracking and analysis of areas of interest. You can also receive optional e-mail alerts for new deforestation events.
 
 ## Limitations
 
