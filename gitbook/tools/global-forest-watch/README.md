@@ -189,7 +189,7 @@ The Global Forest Watch Fire Report Map is mentioned in Wim Zwijnenburg's Bellin
 
 ## Tool provider
 
-[World Resources Institute, Washington, D.C.](https://www.wri.org/north-america/united-states)
+[World Resources Institute, Washington, D.C.](https://www.wri.org/north-america/united-states), U.S.
 
 ## Advertising Trackers
 
