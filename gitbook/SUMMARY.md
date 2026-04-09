@@ -61,7 +61,6 @@
   * [Bing Maps](tools/bing-maps/README.md)
   * [Blackbird](tools/blackbird/README.md)
   * [Blender](tools/blender/README.md)
-  * [Bluesky Insights](tools/bluesky-insights/README.md)
   * [BskyFollowFinder/Bluesky network analyzer](tools/bluesky-network-analyzer/README.md)
   * [BskyThreadReader](tools/bskythreadreader/README.md)
   * [Bulletpicker.com](tools/bulletpicker.com/README.md)
