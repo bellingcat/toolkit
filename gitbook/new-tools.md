@@ -6,7 +6,6 @@ description: These tools were added to the toolkit within the last four weeks.
 
 | Name | Description | Cost | Tool Review and Guide |
 | --- | --- | --- | --- |
-| Aqueduct Water Risk Atlas | The Aqueduct water Risk Atlas, developed by the World Resources Institute (WRI), is an interactive platform for assessing water-related risks globally. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/aqueduct-water-risk-atlas](tools/aqueduct-water-risk-atlas/README.md) |
 | Grep.app | grep.app is a free web-based search engine that allows users to search the contents of public GitHub repositories. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/grep.app](tools/grep.app/README.md) |
 | Resource Watch | A free open-data platform that hosts 300+ datasets on different topics relating to the environment and human well-being, including real-time datasets. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/resource-watch](tools/resource-watch/README.md) |
 | Spot | A natural language interface for querying the OpenStreetMap database to find locations which meet the search criteria described by the user. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/spot](tools/spot/README.md) |
