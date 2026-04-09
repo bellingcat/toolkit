@@ -121,7 +121,7 @@ Microsoft [https://www.microsoft.com](https://www.microsoft.com) - United States
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                            |
-| ---------------------------------------------------------- |
-| Paul - Bellingcat Volunteer Community, Riccardo Giannardi. |
-|                                                            |
+| Page maintainer    |
+| ------------------ |
+| Riccardo Giannardi |
+|                    |
