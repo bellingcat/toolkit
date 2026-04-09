@@ -94,9 +94,7 @@ To effectively use Geohints, especially for beginners or those looking to refine
 * _Twitch_ (no date) _Twitch_. Available at: [https://www.twitch.tv/geohints](https://www.twitch.tv/geohints) (Accessed: 13 June 2024).
 * _What is the Best Way to Learn Geoguessr in 2023?_ (2023). Available at: [https://www.youtube.com/watch?v=j-PidoFqZFY](https://www.youtube.com/watch?v=j-PidoFqZFY) (Accessed: 13 June 2024).
 
-#### Community and Support
 
-* Discord service not working
 
 ## Tool provider
 
