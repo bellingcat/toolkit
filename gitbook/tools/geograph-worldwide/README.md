@@ -84,7 +84,7 @@ It is a not-for-profit company, limited by guarantee, whose objects are educatio
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                                               |
-| --------------------------------------------------------------------------------------------- |
-| Paul - Bellingcat Volunteer Community. Reviewer Sophie Tedling; Maintainer Riccardo Giannardi |
-|                                                                                               |
+| Page maintainer    |
+| ------------------ |
+| Riccardo Giannardi |
+|                    |
