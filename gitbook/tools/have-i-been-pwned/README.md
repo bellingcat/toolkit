@@ -1,9 +1,9 @@
 ---
-description: Does an email or a phone number appear in data breaches?
 updated: '2025-09-19'
+description: Does an email address appear in data breaches?
 ---
 
-# Have I Been Pwned
+# Have I Been Pwned?
 
 ## URL
 
@@ -11,9 +11,9 @@ updated: '2025-09-19'
 
 ## Description
 
-Have I Been Pwned allows you to search across multiple data breaches to see if your email address or phone number has been compromised.  It searches through [13 billion breached records](https://www.techopedia.com/interview-with-have-you-been-pwned-creator-troy-hunt). When you search for an email address or phone number, the screen will either turn green, indicating no compromised accounts found, or red, indicating compromised accounts. If the screen turns red, you'll see a list of platforms or websites where your account details were compromised, along with additional information on when and what kind of data was affected.&#x20;
+Have I Been Pwned (HIBP) allows you to search across multiple data breaches to see if your email address has been compromised. It searches through 17 billion breached records. When you search for an email address, a box will appear either in green, indicating no compromised accounts found, or red, indicating compromised accounts. In case of a red box, you'll see the number of data breaches your email address was found in, as well as a list of platforms or websites where your account details were compromised, along with additional information on when and what kind of data was affected.
 
-This tool is especially useful for finding where a person of interest had accounts and using those for further research. Say you have an email address you want to investigate. By running it on HIBP you find they had breaches on Twitter, Duolingo, and Last.fm -- this means they had accounts on those platforms and you can start researching these further until you find the connected accounts on the platforms.  HIPB is a starting point for researching email addresses / phone numbers.&#x20;
+This tool is especially useful for finding where a person of interest had accounts and using those for further research. Say you have an email address you want to investigate. By running it on HIBP you find they had breaches on Twitter, Duolingo, and Last.fm -- this means they had accounts on those platforms and you can start researching these further until you find the connected accounts on the platforms. HIPB is a starting point for researching email addresses / phone numbers.
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>A result page after searching for a particular email address that was found in 6 Data breaches including one from Twitter.</p></figcaption></figure>
 
@@ -37,7 +37,7 @@ None
 
 The result page only shows the type of data breached - "username", "ip address", "password", it does not show you the breached data itself. There are websites that collect the breached databases and let users perform searches (usually for a fee). Do not try to find out passwords via means like that with the goal to hack into accounts!
 
-"Whilst HIBP is kept up to date with as much data as possible, it contains but a small subset of all the records that have been breached over the years",[ the tool providers write](https://haveibeenpwned.com/FAQs). Hence, do not expect to see all data breaches that exist will be included in this website. Again, use this tool as the starting point of your research into an email address/ phone number.&#x20;
+"Whilst HIBP is kept up to date with as much data as possible, it contains but a small subset of all the records that have been breached over the years",[ the tool providers write](https://haveibeenpwned.com/FAQs). Hence, do not expect to see all data breaches that exist will be included in this website. Again, use this tool as the starting point of your research into an email address/ phone number.
 
 It might occur that an email address shows up in connection with a data breach related to a specific site even though the email address was never used to sign up for this specific site. This can have [various reasons](https://www.troyhunt.com/why-am-i-in-a-data-breach-for-a-site-i-never-signed-up-for/), one of them is the possibility that a user signed up for a site that was later bought by another company and this company took over the user data from the acquired site which then became part of the leak.
 
