@@ -16,7 +16,7 @@ As part of a [wider research project](https://www.birds.cornell.edu/ccb/birdnet/
 
 Additionally the LiveMap provides a list of recent sightings along with hourly observations and number of species observed, along with the most frequently observed birds for Europe and North America.
 
-It is based on data of sound recordings provided through the [BirdNET app](https://apps.apple.com/us/app/birdnet/id1541842885) which can be uploaded by any user. Users in turn can use the app to ID birds based on machine learning of common bird species.
+It is based on data of sound recordings provided through the [BirdNET app](https://apps.apple.com/us/app/birdnet/id1541842885) which can be uploaded by any user. Users in turn can use the app to ID birds.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-11-01 095429.png" alt=""><figcaption><p>The LiveMap also displays the total number of observations, the number of observations in the last 24 hours, the number of species identified, the number of users in the last 24 hours and other details.</p></figcaption></figure>
 
