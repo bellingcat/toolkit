@@ -28,7 +28,7 @@ description: >-
 * TikTok (from a list of TikTok post URLs)
 * Tumblr
 
-**Import via Zeeschuimer** (browser-based capture, then import to 4CAT)
+**Import via** [**Zeeschuimer**](https://bellingcat.gitbook.io/toolkit/more/all-tools/zeeschuimer) (browser-based capture, then import to 4CAT)
 
 * TikTok (posts and comments)
 * Instagram (posts only)
