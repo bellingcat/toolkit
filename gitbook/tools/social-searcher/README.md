@@ -6,7 +6,7 @@ description: Search social media mentions and content across various platforms.
 
 ## URL
 
-https://www.social-searcher.com/
+[https://www.social-searcher.com/](https://www.social-searcher.com/)
 
 ## Description
 
@@ -64,4 +64,6 @@ A1 Social Searcher GmbH
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-<table><thead><tr><th data-type="users" data-multiple>Page maintainer</th></tr></thead><tbody><tr><td><a href="https://app.gitbook.com/u/sJIljbKbFva9PHVVmkcbA9IcbRj1">Kai's Test Account</a></td></tr><tr><td></td></tr></tbody></table>
+| Paige Maintainer          |
+| ------------------------- |
+| Bellingcat Volunteer Team |
