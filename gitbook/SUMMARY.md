@@ -59,6 +59,7 @@
   * [Baidu Maps](tools/baidu-maps/README.md)
   * [Bellingcat OpenStreetMap Search](tools/openstreetmap-search-tool/README.md)
   * [Bing Maps](tools/bing-maps/README.md)
+  * [BirdNet](tools/birdnet/README.md)
   * [Blackbird](tools/blackbird/README.md)
   * [Blender](tools/blender/README.md)
   * [BskyFollowFinder/Bluesky network analyzer](tools/bluesky-network-analyzer/README.md)
