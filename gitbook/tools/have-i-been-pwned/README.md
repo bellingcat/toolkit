@@ -1,5 +1,5 @@
 ---
-updated: '2025-09-19'
+updated: '2026-04-17'
 description: Does an email address appear in data breaches?
 ---
 

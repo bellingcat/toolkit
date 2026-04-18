@@ -2,6 +2,7 @@
 description: >-
   An explorer that allows researchers to track wallets, transactions and more on
   the Ethereum blockchain.
+updated: '2026-04-17'
 ---
 
 # Etherscan
