@@ -36,7 +36,7 @@ BirdNet can not only be useful for open source researchers who are researching e
 
 The LiveMap is free to use with no sign up requirements.
 
-Similarly, the associated BirdNet app has no sign up requirements and allows for recording and identification of bird species. It also provides a checklist of birds in the users location and predicts those likely to occur depending on the time of year.
+Similarly, the associated BirdNet app has no sign up requirements and allows for recording and identification of bird species. It also provides a checklist of birds in the user's location and predicts those likely to occur depending on the time of year.
 
 ## Limitations
 
