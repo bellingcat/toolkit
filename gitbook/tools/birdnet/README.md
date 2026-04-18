@@ -54,8 +54,6 @@ The LiveMap collects user data for 15 days including user devices inputting data
 
 After 15 days it anonymizes the IP address. Users may submit a [written request](https://birdnet.cornell.edu/privacy/) to receive information on the data collected.
 
-
-
 ## Guide
 
 [What is BirdNet?](https://www.birds.cornell.edu/ccb/birdnet/)&#x20;
@@ -68,7 +66,7 @@ Developed by BirdNET, a collaboration between the Cornell Lab of Ornithology and
 
 ## Similar Tools
 
-Merlin app allows identification of birds similarly through sound recordings like the BirdNet app but also [visually](https://merlin.allaboutbirds.org/) through photo identification.
+[Merlin](https://bellingcat.gitbook.io/toolkit/more/all-tools/merlin) allows identification of birds similarly through sound recordings like the BirdNet app but also [visually](https://merlin.allaboutbirds.org/) through photo identification.
 
 This app has greater geographical reach and covers USA, Canada, Europe  and some commonly found species in Central and South America, and India.
 
