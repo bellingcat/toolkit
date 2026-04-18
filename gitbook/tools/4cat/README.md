@@ -156,7 +156,7 @@ To effectively use 4Cat, especially for beginners or those looking to refine the
 
 ## Tool provider
 
-Digital Methods Initiative [https://digitalmethods.net/](https://digitalmethods.net/) - Amsterdam
+Digital Methods Initiative [https://digitalmethods.net/](https://digitalmethods.net/), Netherlands
 
 ## Advertising Trackers
 
