@@ -1,5 +1,6 @@
 ---
 description: Identify bird sounds - find bird sounds on a global map.
+updated: '2026-04-18'
 ---
 
 # BirdNet
