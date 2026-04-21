@@ -85,7 +85,7 @@ The European Space Agency (Copernicus Browser) (pan-European but headquarters ar
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                  |
-| ------------------------------------------------ |
-| Author: Arsen Drobakha Reviewed: Sophie Tedling: |
-|                                                  |
+| Page maintainer        |
+| ---------------------- |
+| Author: Arsen Drobakha |
+|                        |
