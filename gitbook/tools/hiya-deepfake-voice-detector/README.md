@@ -62,7 +62,7 @@ Hiya, [Seattle](https://chromewebstore.google.com/detail/hiya-deepfake-voice-det
 
 ## Similar tools
 
-A tool similar to Hiya is [Deepfake-O-Meter](https://zinc.cse.buffalo.edu/ubmdfl/deep-o-meter/landing_page), which is an initiative of the [University at Buffalo](https://ubmdfl.cse.buffalo.edu). While Hiya only verifies deepfake audio or AI-generated voice in a video, Deepfake-o-Meter allows users to analyze deepfake audio, video, and images. Both can be used simultaneously to cross-check the same sample, thus reducing the risk of false positives or false negatives.
+A tool similar to Hiya is [Deepfake-O-Meter](https://zinc.cse.buffalo.edu/ubmdfl/deep-o-meter/landing_page), which is an initiative of the [University at Buffalo](https://www.buffalo.edu/home/story-repository.host.html/content/shared/university/news/ub-reporter-articles/stories/2024/09/deep-fake-o-meter.detail.html). While Hiya only verifies deepfake audio or AI-generated voice in a video, Deepfake-o-Meter allows users to analyze deepfake audio, video, and images. Both can be used simultaneously to cross-check the same sample, thus reducing the risk of false positives or false negatives.
 
 Hiya and DeepFake-O-Meter are free to use, but they require users to sign up. Hiya’s Chrome extension verifies content across social platforms, websites, etc., allowing users to check for deepfake voices or AI-generated media directly in their browser. Whereas DeepFake-O-Meter requires users to download media and upload it manually to the platform for analysis.
 
