@@ -42,7 +42,7 @@ http://fastpeoplesearch.com/
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+The tool provider does not publicly share who runs the organization.&#x20;
 
 ## Advertising Trackers
 
@@ -50,8 +50,7 @@ http://fastpeoplesearch.com/
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
-
+| Page maintainer |
+| --------------- |
+| Bonny           |
+|                 |
