@@ -20,9 +20,9 @@ The tool rates the audio on a scale of 1 to 100 points. The lower the score, the
 
 The Chrome extension checks just [one second](https://blog.hiya.com/hiyas-new-chrome-extension-identifies-deepfakes) of audio or video to determine whether the tool considers it as fake or real, while the version integrated into the InVID Verification Plugin allows longer media uploads ranging from two seconds to five minutes.&#x20;
 
-[According](https://www.hiya.com/newsroom/press-releases/hiya-acquires-deepfake-voice-detection-leader-loccus-ai) to Hiya's July 2024 press release, the deepfake detection tool can analyze audios and videos in multiple languages.&#x20;
+[According](https://www.hiya.com/newsroom/press-releases/hiya-acquires-deepfake-voice-detection-leader-loccus-ai) to Hiya's July 2024 press release, the deepfake detection tool is able to analyze audios and videos in multiple languages.&#x20;
 
-Although, the tool is not perfect and may lead to false positives, [fact-check](https://factcheck.afp.com/doc.afp.com.78448G3) [organizations](https://factcheck.afp.com/doc.afp.com.78448G3) are increasingly using Hiya to investigate and debunk deepfake audio and voice in videos, thus making it a handy tool when researching the rising tide of AI generated disinformation.
+It is important to note that tool is not perfect and may lead to false positives. Hiya can nevertheless be a handy tool when researching the rising tide of AI generated disinformation. Fact-checking teams like [AFP Fact Check](https://factcheck.afp.com/doc.afp.com.78448G3) have used it as part of their research workflows.
 
 ### Cost
 
