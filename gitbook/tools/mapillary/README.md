@@ -99,6 +99,6 @@ Meta [https://about.meta.com/](https://about.meta.com/) - United States (Mapilla
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                         |
-| --------------------------------------- |
-| Arsen Drobakha. Reviewer Sophie Tedling |
+| Page maintainer |
+| --------------- |
+| Arsen Drobakha  |
