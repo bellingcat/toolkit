@@ -49,7 +49,7 @@ Mapillary is completely free for all users, including commercial use. After Meta
 
 ## Limitations
 
-Mapillary, while providing an extensive database of street-level imagery, carries certain limitations that researchers and users must be aware of:
+Mapillary, while providing an extensive database of street-level imagery, Mapillary carries certain limitations that researchers and users must be aware of:
 
 * **Coverage Gaps**: Not all locations are equally covered. Remote or less-traveled areas may have sparse or outdated imagery. For instance, [The State of Mapillary: An Exploratory Analysis](https://www.mdpi.com/2220-9964/9/1/10) found data coverage showing less contributor inequality than in OpenStreetMap but significant seasonal variation.
 * **Data Accuracy**: like other services Mapillary has data accuracy issues (for instance [Cleaning up Mapillary Coverage](https://forum.mapillary.com/t/cleaning-up-mapillary-coverage/5487)) that researchers should be aware of.
