@@ -76,7 +76,7 @@ To effectively use Mapillary, especially for beginners or those looking to refin
 
 * [Mapillary Help Centre](https://help.mapillary.com/)
 
-#### Tutorials and Articles
+#### Articles
 
 * Team, B.I. (2022) _Unravelling the Killing of Shireen Abu Akleh_, _bellingcat_. Available at: [https://www.bellingcat.com/news/mena/2022/05/14/unravelling-the-killing-of-shireen-abu-akleh/](https://www.bellingcat.com/news/mena/2022/05/14/unravelling-the-killing-of-shireen-abu-akleh/) (Accessed: 6 April 2024).
 * Fiorella, G. (2020) _Geolocating Venezuelan Lawmakers In Europe_, _bellingcat_. Available at: [https://www.bellingcat.com/news/2020/01/21/geolocating-venezuelan-lawmakers-in-europe/](https://www.bellingcat.com/news/2020/01/21/geolocating-venezuelan-lawmakers-in-europe/) (Accessed: 6 April 2024).
