@@ -24,7 +24,7 @@ Moreover, this deepfake detection solution supports multiple languages, [accordi
 
 Hiya’s extension then rates the audio on a scale of 1 to 100: the lower the score, the higher the likelihood that the sample is fake, and as the score nears 100, the higher the probability that it is real.
 
-Although, the tool is not perfect and may lead to false positives, [fact-check](https://factcheck.afp.com/doc.afp.com.78448G3) [organizations](https://factcheck.afp.com/doc.afp.com.78448G3) have increasingly used Hiya (both Chrome extension and InVid’s integrated version) to investigate and debunk deepfake audio and voice in videos, thus making it a handy tool against the rising tide of disinformation.
+Although, the tool is not perfect and may lead to false positives, [fact-check](https://factcheck.afp.com/doc.afp.com.78448G3) [organizations](https://factcheck.afp.com/doc.afp.com.78448G3) are increasingly using Hiya to investigate and debunk deepfake audio and voice in videos, thus making it a handy tool when researching the rising tide of AI generated disinformation.
 
 ### Cost
 
