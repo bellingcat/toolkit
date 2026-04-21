@@ -94,8 +94,8 @@ async function main() {
     }
 
     // Bootstrap: if no checkpoint entry, use the tool's last-known updated date
-    if (!(spaceId in checkpoint)) {
-      checkpoint[spaceId] = getToolUpdatedAt(toolSlug) ?? new Date(0).toISOString();
+    if (!(toolSlug in checkpoint)) {
+      checkpoint[toolSlug] = getToolUpdatedAt(toolSlug) ?? new Date(0).toISOString();
     }
 
     let cr;
@@ -112,7 +112,7 @@ async function main() {
       continue;
     }
 
-    if (cr.updatedAt <= checkpoint[spaceId]) {
+    if (cr.updatedAt <= checkpoint[toolSlug]) {
       skipped++;
       continue;
     }
@@ -122,14 +122,14 @@ async function main() {
     if (!DRY_RUN) {
       try {
         await exportSpace(spaceId, toolSlug);
-        checkpoint[spaceId] = new Date().toISOString();
+        checkpoint[toolSlug] = new Date().toISOString();
         exported++;
       } catch (e) {
         console.error(`ERROR exporting ${toolSlug} (${spaceId}): ${e.message}`);
         errors++;
       }
     } else {
-      checkpoint[spaceId] = new Date().toISOString();
+      checkpoint[toolSlug] = new Date().toISOString();
       exported++;
     }
   }
