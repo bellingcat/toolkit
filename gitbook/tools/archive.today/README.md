@@ -10,6 +10,10 @@ description: Archive any webpage, including Facebook and search for archived pag
 
 ## Description
 
+{% hint style="danger" %}
+Please carefully review [recent developments](https://arstechnica.com/tech-policy/2026/02/wikipedia-bans-archive-today-after-site-executed-ddos-and-altered-web-captures/) regarding archive.today before you decide to use the tool.
+{% endhint %}
+
 Archive.today is a web archiving service that allows users to manually save snapshots of webpages. Each snapshot keeps an exact copy of the page as it looked at that moment, including text, images, and design. This way the content is preserved, even if the original page changes or is taken down. Open source researchers can use Archive.today to save online information for future reference or to search for archived information. It can therefore also be used as a search tool.
 
 **Features**
