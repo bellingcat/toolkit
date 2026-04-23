@@ -22,7 +22,7 @@ The Chrome extension needs to check just [one second](https://blog.hiya.com/hiya
 
 [According](https://www.hiya.com/newsroom/press-releases/hiya-acquires-deepfake-voice-detection-leader-loccus-ai) to Hiya's July 2024 press release, the deepfake detection tool is able to analyze audios and videos in multiple languages.&#x20;
 
-It is important to note that tool is not perfect and may lead to false positives. Hiya can nevertheless be a handy tool when researching the rising tide of AI generated disinformation. Fact-checking teams like [AFP Fact Check](https://factcheck.afp.com/doc.afp.com.78448G3) have used it as part of their research workflows.
+It is important to note that the tool is not perfect and may lead to false positives. Hiya can nevertheless be a handy tool when researching the rising tide of AI generated disinformation. Fact-checking teams like [AFP Fact Check](https://factcheck.afp.com/doc.afp.com.78448G3) have used it as part of their research workflows.
 
 ### Cost
 
