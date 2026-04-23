@@ -44,6 +44,10 @@ function loadCheckpoint() {
   return {};
 }
 
+function saveCheckpoint(checkpoint) {
+  fs.writeFileSync(CHECKPOINT_FILE, JSON.stringify(checkpoint, null, 2) + '\n');
+}
+
 // Returns true if any commits have touched the tool's directory since the given ISO timestamp.
 function hasCommitsSince(toolSlug, since) {
   const result = execSync(
@@ -81,7 +85,7 @@ async function main() {
       continue;
     }
 
-    const since = checkpoint[spaceId] ?? new Date(0).toISOString();
+    const since = checkpoint[toolSlug] ?? new Date(0).toISOString();
     if (!hasCommitsSince(toolSlug, since)) {
       skipped++;
       continue;
@@ -92,15 +96,19 @@ async function main() {
     if (!DRY_RUN) {
       try {
         await importSpace(spaceId, toolSlug);
+        checkpoint[toolSlug] = new Date().toISOString();
         imported++;
       } catch (e) {
         console.error(`ERROR importing ${toolSlug} (${spaceId}): ${e.message}`);
         errors++;
       }
     } else {
+      checkpoint[toolSlug] = new Date().toISOString();
       imported++;
     }
   }
+
+  saveCheckpoint(checkpoint);
 
   console.log('');
   console.log(`Done.${DRY_RUN ? ' (dry run)' : ''}`);
