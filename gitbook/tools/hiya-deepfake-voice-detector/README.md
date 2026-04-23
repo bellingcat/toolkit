@@ -48,7 +48,7 @@ A sign up is required to use Hiya's Chrome extension.
 
 ## Ethical Considerations
 
-The tool may produce false positives or negatives. Users, especially journalists and researchers, have an ethical obligation to double-check results before drawing conclusions or publishing findings.
+The tool may produce false positives or negatives. Users, especially journalists and researchers, need to be aware that it is crucial to double-check any results before drawing conclusions or publishing findings. It is recommended to be transparent about the limitations of the this tool when including Hiya scores in publications or when communicating them to others.
 
 Public access to detection tools may help malicious actors improve evasion strategies, increasing the sophistication of future deepfakes.
 
