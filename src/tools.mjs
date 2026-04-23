@@ -199,6 +199,12 @@ function fetchTeams(page='') {
     page
   );
 }
+function fetchMembers(page='') {
+  return fetchPaginated(
+    (p) => `https://api.gitbook.com/v1/orgs/${ORG_ID}/members?` + new URLSearchParams({ page: p }),
+    page
+  );
+}
 
 async function createToolOnGitbook(toolName, category, email) {
   debug('Creating tool on Gitbook', toolName);
@@ -406,6 +412,7 @@ export default {
   fetchChangeRequestReviewers,
   fetchLatestChangeRequest,
   fetchCollection,
+  fetchMembers,
   publishTool,
   removeTool,
   renameTool,
