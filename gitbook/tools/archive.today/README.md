@@ -1,5 +1,6 @@
 ---
-description: Archive any webpage, including Facebook and search for archived pages.
+description: 'Archive any webpage, including Facebook and search for archived pages.'
+updated: '2026-04-22'
 ---
 
 # Archive.today
