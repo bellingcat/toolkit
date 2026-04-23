@@ -43,7 +43,7 @@ A sign up is required to use Hiya's Chrome extension.
 ## Limitations
 
 1. As deepfake technology advances, it is becoming increasingly difficult for tools to detect fake media. Hiya may not always detect deepfake audio or video. False positives or negatives are likely to occur.
-2. The Chrome extension just analyses small parts of any video or audio and may therefore not be the best choice for analyzing longer audios and videos. Switching to the Hiya version within the InVid plugin could be one option to mitigate this since it allows larger file uploads. However, even the InVid version suggests to "Test smaller sections for a more precise analysis.”, as a cautionary note above the integrated Hiya version in InVid states.
+2. The Chrome extension just analyses small parts of any video or audio and may therefore not be the best choice for analyzing longer audios and videos. Switching to the Hiya version within the [InVid](https://bellingcat.gitbook.io/toolkit/more/all-tools/invid) plugin could be one option to mitigate this since it allows larger file uploads. However, even the InVid version suggests to "Test smaller sections for a more precise analysis.”
 3. The tool only provides a probability score of how likely it is that the sample is fake or real but it does not provide any contextual information. It is crucial to find other ways of verification, such as reaching out to experts, finding contextual information in news reports, or using other deepfake detection tools to double-check Hiya's results.
 
 ## Ethical Considerations
