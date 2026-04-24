@@ -124,7 +124,6 @@
   * [Index Database](tools/index-database/README.md)
   * [Instagram Location Search](tools/instagram-location-search/README.md)
   * [InstaLoader](tools/instaloader/README.md)
-  * [Instant Data Scraper](tools/instant-data-scraper/README.md)
   * [Intelx.io](tools/intelx.io/README.md)
   * [InVID](tools/invid/README.md)
   * [KartaView](tools/kartaview/README.md)
