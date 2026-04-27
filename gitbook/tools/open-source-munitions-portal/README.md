@@ -242,7 +242,7 @@ This feature is not available in all entries.
 
 #### **OSMP Collection**
 
-Users can also find munition information in the featured materials collection on the landing page. At the moment, these are materials conveniently grouped according to conflict (i.e.[ Iran-Israel 12-day war](https://osmp.ngo/collection/iran-israel-conflict-june-2025/); [Ukraine 2022-2025](https://osmp.ngo/collection/ukraine-2022-2024/)) or according to research organization (i.e. [Human Rights Watch](https://osmp.ngo/research_organisation/human-rights-watch/)).
+Users can also find munition information in the featured materials collection on the landing page. At the moment, these are materials conveniently grouped according to conflict (i.e. [The Iran War 2026,](https://osmp.ngo/collection/the-iran-war-2026/)[ Iran-Israel 12-day war](https://osmp.ngo/collection/iran-israel-conflict-june-2025/); [Ukraine 2022-2025](https://osmp.ngo/collection/ukraine-2022-2024/)) or according to research organization (i.e. [Human Rights Watch](https://osmp.ngo/research_organisation/human-rights-watch/)).
 
 <div align="center"><figure><img src=".gitbook/assets/2025-12-02_16-03-12-ed.png" alt="" width="375"><figcaption><p>Featured Materials found on the landing page of the tool, below the filtering options.</p></figcaption></figure></div>
 
@@ -277,7 +277,21 @@ Note that the portal is a work in progress, and new items are constantly being a
 ## Ethical Considerations
 
 1. OSMP notes that all identifications in the portal are tentative instead of exact. Always seek a specialist to get a positive identification of a munition. Communicate this limitation to be transparent to your audience. ([See Methodology](https://osmp.ngo/about/))
-2. OSMP is not a substitute for technical training on munitions and explosive ordnance. Use this for educational and reference purposes only.
+2. OSMP is not a substitute for technical training on munitions and explosive ordnance. Please use this for educational and reference purposes only.
+
+## Similar Tools
+
+Similar tools for munitions identification include [CAT-UXO](https://bellingcat.gitbook.io/toolkit/more/all-tools/cat-uxo), [Bulletpicker](https://bellingcat.gitbook.io/toolkit/more/all-tools/bulletpicker.com), and the [Basic Identification of Ammunition in Ukraine Guide](https://www.btwob.org/updates/basic-identification-of-ammunition-in-ukraine-version-40). &#x20;
+
+Based on our tests, OSMP is helpful for core conventional munitions.&#x20;
+
+Bulletpicker.com functions more as a vast technical library with emphasis on fillers, fuzes, and historical manuals.&#x20;
+
+CAT-UXO has the broadest scope at the moment. It contains more munitions categories and non-munitions categories, such as IED incidents, terrorist groups, and munition delivery platforms (UCAVs and AFVs).&#x20;
+
+{% hint style="info" icon="triangle-exclamation" %}
+NOTE: CAT-UXO sometimes contains mistakes. Always cross-check with other sources.&#x20;
+{% endhint %}
 
 ## Guide
 
