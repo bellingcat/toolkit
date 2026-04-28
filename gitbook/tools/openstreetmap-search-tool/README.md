@@ -1,5 +1,5 @@
 ---
-updated: '2026-02-28'
+updated: '2026-04-27'
 description: >-
   A user interface to search OpenStreetMap data for features in proximity to
   each other.
