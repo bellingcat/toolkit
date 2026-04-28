@@ -109,5 +109,5 @@ The website does not provide details about the tool provider. The CEO of PimEyes
 
 | Page maintainer |
 | --------------- |
-| Anisa Shabir    |
+| Anisa Shabir.   |
 |                 |
