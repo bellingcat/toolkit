@@ -51,16 +51,16 @@ To effectively use Autostitch, especially for beginners or those looking to refi
 
 **Tutorials and Articles**
 
-* _Autostitch_ (no date) _Kate Hailey_. Available at: [https://www.katehailey.com/blog/2012/05/23/autostitch](https://www.katehailey.com/blog/2012/05/23/autostitch) (Accessed: 18 June 2024).
-* _Autostitch Panorama Software Review_ (no date). Available at: [https://www.neopanoramic.com/review/autostitch](https://www.neopanoramic.com/review/autostitch) (Accessed: 18 June 2024).
+* _Autostitch_ (no date) _Kate Hailey_. Available at: [https://www.katehailey.com/blog/2012/05/23/autostitch](https://www.katehailey.com/blog/2012/05/23/autostitch) (Accessed: 30 April 2026).
+* _Autostitch Panorama Software Review_ (no date). Available at: [https://www.neopanoramic.com/review/autostitch](https://www.neopanoramic.com/review/autostitch) (Accessed: 30 April 2026).
 * Brown and Lowe (2003) ‘Recognising panoramas’, in _Proceedings Ninth IEEE International Conference on Computer Vision_. _ICCV 2003: 9th International Conference on Computer Vision_, Nice, France: IEEE, pp. 1218–1225 vol.2. Available at: [https://doi.org/10.1109/ICCV.2003.1238630](https://doi.org/10.1109/ICCV.2003.1238630).
 * Brown, M. and Lowe, D.G. (2007) ‘Automatic Panoramic Image Stitching using Invariant Features’, _International Journal of Computer Vision_, 74(1), pp. 59–73. Available at: [https://doi.org/10.1007/s11263-006-0002-3](https://doi.org/10.1007/s11263-006-0002-3).
-* _How To Make a Panorama Photo Tutorial_ (no date). Available at: [https://www.neopanoramic.com/make\_panorama.php](https://www.neopanoramic.com/make_panorama.php) (Accessed: 18 June 2024).
-* _Matthew Alun Brown_ (no date). Available at: [https://mattabrown.github.io/autostitch.html](https://mattabrown.github.io/autostitch.html) (Accessed: 18 June 2024).
+* _How To Make a Panorama Photo Tutorial_ (no date). Available at: [https://www.neopanoramic.com/make\_panorama.php](https://www.neopanoramic.com/make_panorama.php) (Accessed: 30 April 2026).
+* _Matthew Alun Brown_ (no date). Available at: [https://mattabrown.github.io/autostitch.html](https://mattabrown.github.io/autostitch.html) (Accessed: 30 April 2026).
 
 **Video Tutorials**
 
-* _Easy Panoramas with Rawtherapee and Autostitch_ (2021). Available at: [https://www.youtube.com/watch?v=8XjUIG4sZO8](https://www.youtube.com/watch?v=8XjUIG4sZO8) (Accessed: 18 June 2024).
+* _Easy Panoramas with Rawtherapee and Autostitch_ (2021). Available at: [https://www.youtube.com/watch?v=8XjUIG4sZO8](https://www.youtube.com/watch?v=8XjUIG4sZO8) (Accessed: 30 April 2026).
 
 ## Tool provider
 
