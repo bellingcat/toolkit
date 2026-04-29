@@ -30,7 +30,7 @@ Available as a Google Chrome plugin, Mobile application, or [using Hunchly Cloud
 Hunchly offers [a range of pricing options](https://hunch.ly/pricing), starting with a **free 30-day trial** that provides access to all features without requiring a credit card. After the trial, the pricing for classic is on their page, but other plans requires contacting their sales team. The different plans are structured as follows:
 
 * **Classic Subscription**: Priced per year, suitable for use on multiple computers or virtual machines by a single user.
-* **Cloud Subscription**: from you browser you can investigate in a similar way as from a virtual machine, with encrypted cloud storage provided by Kasm Workspaces. Storage is limited to 15GB on your account in the Hunchly cloud. (It is possible to convert from classic to Cloud with help of their team).&#x20;
+* **Cloud Subscription**: from you browser you can investigate in a similar way as from a virtual machine, with encrypted cloud storage provided by Kasm Workspaces. Storage is limited to 15GB on your account in the Hunchly cloud. (It is possible to convert from classic to Cloud with help of their team).
 * **Discounts**: Teams, organizations, educational institutions, non-profit organizations, and students are eligible for special discounts.
 
 ## Level of difficulty
@@ -63,7 +63,7 @@ Hunchly _recommends_ the following minimum system specifications:
 Hunchly highlights potential evidentiary challenges:
 
 * **Requires Chrome(ium):** Depending on your subscription, Hunchly requires installation on your computer, but it's usage relies on a Chrome Plug-in to be used.
-* **Memory Usage:** As default, Hunchly stores data locally, you will need to allocate space on you own HD (or external HD) dedicated to all captures. Longer investigations will generate a bigger volume of data. Hunchly Cloud can be set up
+* **Memory Usage:** As default, Hunchly stores data locally, you will need to allocate space on your own HD (or external HD) dedicated to all captures. Longer investigations will generate a bigger volume of data. Alternatively, you can pay for [Hunchly Cloud](https://hunch.ly/pricing).
 * **Timestamp Mismatches**: Differences in time zones or delays in processing can cause discrepancies between the time recorded in Hunchly and the actual time of data capture, complicating evidence validation.
 * **Non-Continuous Page IDs**: Universal Page IDs across multiple cases can result in gaps or non-sequential IDs in the evidence record, which may require additional explanation in legal proceedings.
 * **Hash Integrity Issues**: Although Hunchly uses SHA-256 hashing to verify data integrity, this does not prevent tampering before the MHTML capture is reviewed. Modified content can be re-hashed to appear legitimate. Hunchly advises using additional verification methods such as GPG signatures, comparing live or archived web content, or securing original material through legal avenues to combat potential tampering.
@@ -72,7 +72,7 @@ Hunchly highlights potential evidentiary challenges:
 
 ## Integrations
 
-* **Maltego Transforms:** The Hunchly API enables users to pull Hunchly data into other software tools such as Maltego. We have developed transforms and a configuration file for Maltego users so they can easily pull Hunchly data.&#x20;
+* **Maltego Transforms:** The Hunchly API enables users to pull Hunchly data into other software tools such as Maltego. We have developed transforms and a configuration file for Maltego users so they can easily pull Hunchly data.
 * **Data Forwarding:** Hunchly has the ability to forward captured data to an HTTP(S) endpoint of your choosing. Hunchly will then POST JSON data to that endpoint for each new page that is captured. This can enable teams to store content in a central database such as Elasticsearch or Splunk as well as being able to perform analysis on the data across an entire team or do full text keyword searches.
 
 ## Ethical Considerations
