@@ -23,6 +23,8 @@ Users can also navigate through image sequences or switch between nearby capture
 
 <figure><img src=".gitbook/assets/mapillary.png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src=".gitbook/assets/mapillary2.png" alt=""><figcaption></figcaption></figure>
+
 Available in the following formats:
 
 * Web
