@@ -83,18 +83,16 @@ To effectively use Geohints, especially for beginners or those looking to refine
 
 **Official Wiki**
 
-* [https://geohints.com/FAQ](https://geohints.com/faq)
+* Useful Resources: [https://geohints.com/usefulResources](https://geohints.com/usefulResources)&#x20;
 
 **Articles**
 
-* _Beginner’s Guide to Geoguessr 3_ (no date) _Plonk It_. Available at: [https://www.plonkit.net/beginners-guide-3](https://www.plonkit.net/beginners-guide-3) (Accessed: 13 June 2024).
+* _Beginner’s Guide to Geoguessr 3_ (no date) _Plonk It_. Available at: [https://www.plonkit.net/beginners-guide-3](https://www.plonkit.net/beginners-guide-3) (Accessed: 30 April 2026).
 
 **Video**
 
-* _Twitch_ (no date) _Twitch_. Available at: [https://www.twitch.tv/geohints](https://www.twitch.tv/geohints) (Accessed: 13 June 2024).
-* _What is the Best Way to Learn Geoguessr in 2023?_ (2023). Available at: [https://www.youtube.com/watch?v=j-PidoFqZFY](https://www.youtube.com/watch?v=j-PidoFqZFY) (Accessed: 13 June 2024).
-
-
+* _Twitch_ (no date). Available at: [https://www.twitch.tv/geohints](https://www.twitch.tv/geohints) (Accessed: 30 April 2026).
+* _What is the Best Way to Learn Geoguessr in 2023?_ (2023). Available at: [https://www.youtube.com/watch?v=j-PidoFqZFY](https://www.youtube.com/watch?v=j-PidoFqZFY) (Accessed: 30 April 2026).
 
 ## Tool provider
 
