@@ -61,7 +61,7 @@ Mapillary is completely free for all users, including commercial use. After Meta
 
 ## Requirements
 
-* **Web**: any modern web browser and an account requires an email address
+* **Web**: Any modern web browser can be used to access Mapillary. While the map can be explored without an account, creating an account (requires an email address) allows users to upload imagery, save contributions, and access additional features such as managing image sequences and using developer tools.
 * **Mobile**: Android and iOS
 
 ## Limitations
