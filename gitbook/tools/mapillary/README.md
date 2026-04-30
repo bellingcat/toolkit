@@ -13,7 +13,9 @@ description: Mapillary is a crowdsourced street-level imagery platform.
 
 Mapillary is a crowdsourced street-level imagery platform where users upload photos and videos from around the world to build a global visual map. It’s especially useful in places where traditional services like Google Street View don’t have good coverage.
 
-The platform uses computer vision to process and organize the imagery, detecting things like road signs, infrastructure, and other objects. You can explore images by location, filter by date, and search for specific features, which makes it a useful tool for geolocation and verification work.
+The platform uses computer vision to process and organize the imagery, detecting things like road signs, infrastructure, and other objects. You can explore images by location, filter by date, and search for specific features, which makes it a useful tool for geolocation and verification work.\
+\
+The primary use for Mapillary is geolocation, where users identify the location of an image by matching visible features (buildings, road signs, terrain) with known locations. For a detailed explanation of this method, see [this](https://www.bellingcat.com/resources/how-tos/2014/07/09/a-beginners-guide-to-geolocation/) guide from Bellingcat.
 
 Mapillary lets you filter results by date and feature e.g. streetlights, rubbish bins, traffic signs, CCTV cameras, etc.
 
