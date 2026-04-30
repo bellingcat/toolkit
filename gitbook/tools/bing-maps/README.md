@@ -94,17 +94,16 @@ To effectively use Bing Maps, especially for beginners or those looking to refin
 
 **Tutorials and Articles**
 
-* Hanham, M. (2015) _There’s a Map for That_, _bellingcat_. Available at: [https://www.bellingcat.com/resources/how-tos/2015/04/10/theres-a-map-for-that/](https://www.bellingcat.com/resources/how-tos/2015/04/10/theres-a-map-for-that/) (Accessed: 10 April 2024).
-* Khachatryan, N. (2019) _The Mysterious Disappearance of Jeannette Island (on Google Maps)_, _bellingcat_. Available at: [https://www.bellingcat.com/news/rest-of-world/2019/01/09/the-mysterious-disappearance-of-jeannette-island-on-google-maps/](https://www.bellingcat.com/news/rest-of-world/2019/01/09/the-mysterious-disappearance-of-jeannette-island-on-google-maps/) (Accessed: 10 April 2024).
+* Hanham, M. (2015) _There’s a Map for That_, _bellingcat_. Available at: [https://www.bellingcat.com/resources/how-tos/2015/04/10/theres-a-map-for-that/](https://www.bellingcat.com/resources/how-tos/2015/04/10/theres-a-map-for-that/) (Accessed: 30 April 2026).
+* Khachatryan, N. (2019) _The Mysterious Disappearance of Jeannette Island (on Google Maps)_, _bellingcat_. Available at: [https://www.bellingcat.com/news/rest-of-world/2019/01/09/the-mysterious-disappearance-of-jeannette-island-on-google-maps/](https://www.bellingcat.com/news/rest-of-world/2019/01/09/the-mysterious-disappearance-of-jeannette-island-on-google-maps/) (Accessed: 30 April 2026).
 
 **Video Tutorials**
 
-* _How to Create and Share Collections in Bing Maps_ (2022). Available at: [https://www.youtube.com/watch?v=F8Xk5nqImAM](https://www.youtube.com/watch?v=F8Xk5nqImAM) (Accessed: 10 April 2024).
-* _How to use Bing Maps for Routing Multiple Addresses_ (2021). Available at: [https://www.youtube.com/watch?v=btCzoDX9WmI](https://www.youtube.com/watch?v=btCzoDX9WmI) (Accessed: 10 April 2024).
+* _How to Create and Share Collections in Bing Maps_ (2022). Available at: [https://www.youtube.com/watch?v=F8Xk5nqImAM](https://www.youtube.com/watch?v=F8Xk5nqImAM) (Accessed: 30 April 2026).
+* _How to use Bing Maps for Routing Multiple Addresses_ (2021). Available at: [https://www.youtube.com/watch?v=btCzoDX9WmI](https://www.youtube.com/watch?v=btCzoDX9WmI) (Accessed: 30 April 2026).
 
 #### Developer Resources
 
-* **Getting Started:** Familiarize yourself with Bing Maps by exploring the official [Bing Maps documentation](https://www.microsoft.com/maps/).
 * **Developing with Bing Maps:** Discover how to integrate Bing Maps into your applications with [developer resources](https://docs.microsoft.com/en-us/bingmaps/).
 
 **Community and Support**
