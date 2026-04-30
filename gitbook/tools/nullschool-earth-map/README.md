@@ -45,7 +45,7 @@ This is not a comprehensive list. This tool contains a wealth of data which may 
 
 <figure><img src=".gitbook/assets/Screenshot 2025-10-26 at 5.36.03 PM.png" alt="User interface panel that enables users to change the date and data metric displayed on map. This screenshot highlights the calendar icon."><figcaption></figcaption></figure>
 
-* Click a point on the map to get the interpolated value for a given metric at any given location.
+* Click a point on the map to get the [interpolated](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/understanding-interpolation-analysis.htm) value for a given metric at any given location.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-10-26 at 5.17.56 PM.png" alt="The map in Wind Mode, showing the DUex value for a point in Africa"><figcaption></figcaption></figure>
 
