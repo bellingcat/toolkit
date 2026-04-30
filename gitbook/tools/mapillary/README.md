@@ -27,7 +27,9 @@ Available in the following formats:
 
 * Web
 * Mobile
-* Command line and desktop image uploaders are also available
+* Command line and desktop image uploaders are also available\
+  [https://github.com/mapillary/mapillary\_tools](https://github.com/mapillary/mapillary_tools)\
+  [https://www.mapillary.com/desktop-uploader](https://www.mapillary.com/desktop-uploader)
 
 <figure><img src=".gitbook/assets/Screenshot 2024-04-06 at 1.25.01 PM.png" alt="Screenshot of a search for street level imagery in Amsterdam with Mapillary shows a map with individual markers as dots on the map where street level imagery exists.."><figcaption><p>Screenshot of a search for street level imagery in <em>Amsterdam with</em> Mapillary</p></figcaption></figure>
 
