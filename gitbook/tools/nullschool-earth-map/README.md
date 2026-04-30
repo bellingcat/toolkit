@@ -8,19 +8,15 @@ description: >-
 
 ## URL
 
-[https://earth.nullschool.net](https://earth.nullschool.net/#current)
+Web page: [https://earth.nullschool.net](https://earth.nullschool.net/#current)
+
+Mobile apps (iOS and Android): [https://nullschool.net/app](https://nullschool.net/app)
 
 ## Description
 
-{% hint style="warning" %}
-As of October 2025, some of the data underlying this tool is no longer being updated due to U.S. federal funding disruptions.
+**Nullschool Earth Map** is an interactive visualization of global environmental data. It displays information on wind, ocean currents, waves, air pollutants and more. Users can specify a date and explore various data layers to observe environmental conditions across the planet.
 
-This tool visualizes both historic and near real-time data. Especially when dealing with recent data, use this tool with caution. Always verify data through its original source.&#x20;
-
-Data sources for each map layer are listed [here](https://earth.nullschool.net/about).
-{% endhint %}
-
-**Nullschool Earth Map** is an interactive visualization of global environmental data. It displays information on wind, ocean currents, waves, air pollutants and more. Users can specify a date and explore various data layers to observe environmental conditions across the planet.&#x20;
+There is a web version and a mobile app version. Core features are available in both versions.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-10-26 at 4.20.10 PM.png" alt="A globe with the Atlantic Ocean in focus. The land and oceans are blue, and there are large green swirls with white streaks flowing through the swirls. The swirls appear mostly in the ocean, but not exclusively."><figcaption><p>Surface winds on June 8, 2025</p></figcaption></figure>
 
@@ -52,7 +48,7 @@ This is not a comprehensive list. This tool contains a wealth of data which may 
 * To specify an exact latitude/longitude coordinate, select the metrics you'd like to see, then edit the end of the URL by adding `loc=YOUR_LONGITUDE_POINT,YOUR_LATITUDE_POINT`.
   *   Example:
 
-      [https://earth.nullschool.net/#2018/08/04/2000Z/particulates/surface/level/overlay=duexttau/orthographic=54.12,6.65,449/loc=_**11.539,19.014**_](https://earth.nullschool.net/#2018/08/04/2000Z/particulates/surface/level/overlay=duexttau/orthographic=54.12,6.65,449/loc=11.539,19.014)
+      [https://earth.nullschool.net/#2018/08/04/2000Z/particulates/surface/level/overlay=duexttau/orthographic=54.12,6.65,449/<mark style="background-color:yellow;">**loc=11.539,19.014**</mark>](https://earth.nullschool.net/#2018/08/04/2000Z/particulates/surface/level/overlay=duexttau/orthographic=54.12,6.65,449/loc=11.539,19.014)
 
 ### Available Metrics
 
@@ -128,9 +124,11 @@ In any mode, the following animations can be viewed on the map:
 
 ## Cost
 
-* [x] Free
-* [ ] Partially Free
+* [ ] Free
+* [x] Partially Free
 * [ ] Paid
+
+All core features are free. The mobile app offers an optional paid subscription, which includes extra features such as snapshot sharing and a Favorites gallery to save notable weather events.&#x20;
 
 ## Level of difficulty
 
@@ -142,6 +140,7 @@ No special setup is needed. The map works well on mobile devices and is optimize
 
 ## Limitations
 
+* **Secondary Source**: This tool processes both historic and near real-time data from a number of sources. Data sources for each map layer are listed [here](https://earth.nullschool.net/about). Always verify data through its original source.&#x20;
 * **Approximate Data Between Grid Points:** Layers in Air Mode use [Global Forecast System](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00631) data, which is is based on a global grid with points spaced [**1° apart**](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00631)**.** This means the map is divided into squares that are 1 degree of latitude by 1 degree of longitude in size. For any location selected between these points, your browser computes a **best-guess** value using an estimation technique called [bilinear interpolation](http://en.wikipedia.org/wiki/Bilinear_interpolation). If the map's projection is changed while in Air Mode, [an algorithm](https://en.wikipedia.org/wiki/Finite_difference) is used to estimate distortion during the interpolation process.&#x20;
   * Air Mode is the only mode [performing real-time interpolation](https://github.com/kkpoon/nullschool-earth/blob/master/README.md#implementation-notes). Other modes' layers should deliver the data exactly as their providers serve it.
 * **Configuration Complexity and Inconsistencies:** The site stores your settings (like chosen layer, date, projection and selected point) in the URL itself. While this allows for easy sharing and bookmarking, and specifying exact latitude/longitude, it can sometimes cause strange behavior when switching between layers, leading to temporary glitches that usually quickly fix themselves.
@@ -164,7 +163,7 @@ No special setup is needed. The map works well on mobile devices and is optimize
 
 ## Tool provider
 
-This map was created and is maintained by Cameron Beccario, who was born in the United States and is based in Japan. He can be found on [Bluesky](https://bsky.app/profile/cambecc.bsky.social) and [LinkedIn](https://www.linkedin.com/in/cambecc/).
+This map was created and is maintained by Cameron Beccario, who was born in the United States and is based in Japan. He can be found on [Bluesky](https://bsky.app/profile/cambecc.nullschool.net) and [LinkedIn](https://www.linkedin.com/in/cambecc/).
 
 Feedback about the map can be provided via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfL0NFHIL2TXx6afSyrXCSd15liLDDfVyOTfKKHhj3ZcopZgQ/viewform).
 
