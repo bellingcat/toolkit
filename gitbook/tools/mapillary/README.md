@@ -52,7 +52,8 @@ Online Open Source Investigators can leverage Mapilliary in numerous ways:
 * [ ] Partially Free
 * [ ] Paid
 
-Mapillary is completely free for all users, including commercial use. After Meta's acquisition in 2020, the platform eliminated its paid tier and made all imagery available for both non-commercial and commercial purposes at no cost. API access is also free but subject to rate limits
+Mapillary is completely free for all users, including commercial use. After Meta's acquisition in 2020, the platform eliminated its paid tier and made all imagery available for both non-commercial and commercial purposes at no cost. API access is also free but subject to rate limits\
+[https://blog.mapillary.com/news/2020/06/18/Mapillary-joins-Facebook.html](https://blog.mapillary.com/news/2020/06/18/Mapillary-joins-Facebook.html)
 
 ## Level of difficulty
 
