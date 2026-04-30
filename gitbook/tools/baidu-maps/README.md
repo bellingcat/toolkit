@@ -162,5 +162,5 @@ Baidu Inc [http://www.baidu.com/](http://www.baidu.com/) - China
 
 | Page maintainer  |
 | ---------------- |
-| Author: River N. |
+| Author: river\_n |
 |                  |
