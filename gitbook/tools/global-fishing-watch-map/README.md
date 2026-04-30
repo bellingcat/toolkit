@@ -79,11 +79,11 @@ A call sign is an alphanumeric identifier assigned to a vessel when it receives 
 
 <summary><strong>What is MMSI?</strong></summary>
 
-The MMSI (Maritime Mobile Service Identity) number is a 9-digit identifier used in communication. It is sometimes described as the mobile number for a maritime object, which can be a vessel, fixed offshore installation, maritime search and rescue (SAR) aircraft, coast station, or navigational aid. \
+The MMSI (Maritime Mobile Service Identity) number is a 9-digit identifier used in communication. It is sometimes described as the mobile number for a maritime object, which can be a vessel, fixed offshore installation, maritime search and rescue (SAR) aircraft, coast station, or navigational aid.\
 \
-The first 3 digits of the MMSI refer to the vessel's flag state, i.e., the country where the vessel is registered. These digits are called [maritime identification digits (MID)](https://en.wikipedia.org/wiki/Maritime_identification_digits). For example, vessels with Chinese flags have MIDs 412, 413, or 414. When a vessel changes its country of registration, this part of the MMSI will change. This is why a vessel can have multiple MMSI numbers. \
+The first 3 digits of the MMSI refer to the vessel's flag state, i.e., the country where the vessel is registered. These digits are called [maritime identification digits (MID)](https://en.wikipedia.org/wiki/Maritime_identification_digits). For example, vessels with Chinese flags have MIDs 412, 413, or 414. When a vessel changes its country of registration, this part of the MMSI will change. This is why a vessel can have multiple MMSI numbers.\
 \
-The remaining 6 digits are unique identifiers. \
+The remaining 6 digits are unique identifiers.\
 \
 Sometimes, vessel operators at sea may enter the wrong MMSI number in their communication, either intentionally or accidentally. [Read more here](https://globalfishingwatch.org/data/spoofing-one-identity-shared-by-multiple-vessels/) about how to interpret the data if you see such instances when accessing GFW.
 
@@ -93,17 +93,17 @@ Sometimes, vessel operators at sea may enter the wrong MMSI number in their comm
 
 <summary><strong>What is an IMO number?</strong></summary>
 
-The IMO (International Maritime Organization) number is a 7-digit unique and permanent identifier assigned to vessels. The identifier is permanent throughout the vessel's life cycle, and does not change regardless of changes in the vessel's ownership, country of registration, flag, or name. \
+The IMO (International Maritime Organization) number is a 7-digit unique and permanent identifier assigned to vessels. The identifier is permanent throughout the vessel's life cycle, and does not change regardless of changes in the vessel's ownership, country of registration, flag, or name.\
 \
-The [IMO number is mandatory](https://www.imo.org/en/ourwork/iiis/pages/imo-identification-number-schemes.aspx) for all propelled sea-going merchant ships of 100 gross tonnage (GT) and above, including fishing vessels, cargo vessels, and refrigerated cargo vessels, and also mandatory for: \
+The [IMO number is mandatory](https://www.imo.org/en/ourwork/iiis/pages/imo-identification-number-schemes.aspx) for all propelled sea-going merchant ships of 100 gross tonnage (GT) and above, including fishing vessels, cargo vessels, and refrigerated cargo vessels, and also mandatory for:\
 \- passenger ships under 100 gross tonnage\
 \- high-speed passenger craft\
 \- mobile offshore drilling units on international voyages\
-\- all motorized inboard fishing vessels of less than 100 gross tonnage down to a size limit of 12 metres in length overall (LOA). \
+\- all motorized inboard fishing vessels of less than 100 gross tonnage down to a size limit of 12 metres in length overall (LOA).\
 \
-Further information about exceptions, such as unpropelled ships, pleasure yachts, and ships of war, [can be found here](https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1117\(30\).pdf.). \
+Further information about exceptions, such as unpropelled ships, pleasure yachts, and ships of war, [can be found here](https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1117\(30\).pdf.).\
 \
-By [IMO regulations](https://www.imo.org/en/ourwork/iiis/pages/imo-identification-number-schemes.aspx), the number must be permanently on a visible place on the vessel, usually on the hull or superstructure.&#x20;
+By [IMO regulations](https://www.imo.org/en/ourwork/iiis/pages/imo-identification-number-schemes.aspx), the number must be permanently on a visible place on the vessel, usually on the hull or superstructure.
 
 </details>
 
@@ -259,6 +259,5 @@ Global Fishing Watch (GFW) [https://globalfishingwatch.org](https://globalfishin
 
 | Page maintainer  |
 | ---------------- |
-| Author: River N. |
+| Author: river\_n |
 |                  |
-
