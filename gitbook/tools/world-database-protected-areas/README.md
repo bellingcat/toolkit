@@ -228,5 +228,4 @@ Protected Planet, a joint initiative from:
 
 | Page maintainer |
 | --------------- |
-| River N.        |
-|                 |
+| river\_n        |
