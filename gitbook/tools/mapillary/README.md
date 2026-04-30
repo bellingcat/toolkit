@@ -17,7 +17,11 @@ The platform uses computer vision to process and organize the imagery, detecting
 \
 The primary use for Mapillary is geolocation, where users identify the location of an image by matching visible features (buildings, road signs, terrain) with known locations. For a detailed explanation of this method, see [this](https://www.bellingcat.com/resources/how-tos/2014/07/09/a-beginners-guide-to-geolocation/) guide from Bellingcat.
 
-Mapillary lets you filter results by date and feature e.g. streetlights, rubbish bins, traffic signs, CCTV cameras, etc.
+Mapillary allows users to filter imagery by date and detected features (streetlights, traffic signs, CCTV cameras). When selecting an image, metadata such as the capture date is displayed, allowing users to understand when the imagery was taken.
+
+Users can also navigate through image sequences or switch between nearby captures from different dates to compare how a location has changed over time. This is especially useful for identifying when certain features appeared or were modified.
+
+<figure><img src=".gitbook/assets/mapillary.png" alt=""><figcaption></figcaption></figure>
 
 Available in the following formats:
 
