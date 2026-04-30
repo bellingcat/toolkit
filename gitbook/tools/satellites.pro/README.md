@@ -68,7 +68,7 @@ None
 
 #### Tutorials and Articles
 
-Toler, A. (2022) _How we Geolocated a Photo of a Russian Missile Programming Team_, _bellingcat_. Available at: [https://www.bellingcat.com/resources/2022/10/28/how-we-geolocated-a-photo-of-a-russian-missile-programming-team/](https://www.bellingcat.com/resources/2022/10/28/how-we-geolocated-a-photo-of-a-russian-missile-programming-team/) (Accessed: 9 April 2024).
+Toler, A. (2022) _How we Geolocated a Photo of a Russian Missile Programming Team_, _bellingcat_. Available at: [https://www.bellingcat.com/resources/2022/10/28/how-we-geolocated-a-photo-of-a-russian-missile-programming-team/](https://www.bellingcat.com/resources/2022/10/28/how-we-geolocated-a-photo-of-a-russian-missile-programming-team/) (Accessed: 30 April 2026).
 
 Note: The piece made use of the Yandex Imagery via satellite.pro
 
@@ -90,7 +90,7 @@ Unknown but the site has been registered via a Russian domain name service
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                            |
-| ---------------------------------------------------------- |
-| Paul - Bellingcat Volunteer Community, Riccardo Giannardi  |
-|                                                            |
+| Page maintainer                                           |
+| --------------------------------------------------------- |
+| Paul - Bellingcat Volunteer Community, Riccardo Giannardi |
+|                                                           |
