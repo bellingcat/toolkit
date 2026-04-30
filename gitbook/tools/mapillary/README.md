@@ -41,7 +41,9 @@ Available in the following formats:
 
 Online Open Source Investigators can leverage Mapilliary in numerous ways:
 
-* **Geolocation** The primary use for Mapilliary is geolocation where users can identify and confirm the geographic position of an image or video from landmarks, public utilities, and service locations.
+*   **Geolocation: Geolocation:** The primary use for Mapillary is geolocation, where users identify and confirm the location of an image or video by comparing visible details (buildings, road signs, street layout, infrastructure) with Mapillary imagery.
+
+    Users can match features from a photo they have to what appears in Mapillary, such as the shape of intersections, placement of signs, or nearby landmarks, to narrow down and confirm the exact location.
 * **Fact-Checking:** Mapillary can also serve as a tool for fact-checking statements or claims about specific locations. Open source researchers can verify the existence of certain buildings, street signs, or other landmarks to authenticate claims.
 
 ## Cost
