@@ -174,5 +174,4 @@ Login is not required to access the imagery. (A user account is needed for API a
 
 | Page maintainer |
 | --------------- |
-| River N.        |
-|                 |
+| river\_n        |
