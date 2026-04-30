@@ -27,9 +27,13 @@ Available in the following formats:
 
 * Web
 * Mobile
-* Command line and desktop image uploaders are also available\
-  [https://github.com/mapillary/mapillary\_tools](https://github.com/mapillary/mapillary_tools)\
-  [https://www.mapillary.com/desktop-uploader](https://www.mapillary.com/desktop-uploader)
+*   Mapillary also provides command-line tools and desktop uploaders for users who want to upload larger image datasets or automate the process.
+
+    The command-line interface (CLI) allows users to upload images in bulk, manage sequences, and integrate uploads into automated workflows. This is particularly useful for processing footage from dashcams or action cameras.
+
+    The desktop uploader offers a more user-friendly interface for uploading and reviewing images before submission.\
+    [https://github.com/mapillary/mapillary\_tools](https://github.com/mapillary/mapillary_tools)\
+    [https://www.mapillary.com/desktop-uploader](https://www.mapillary.com/desktop-uploader)
 
 <figure><img src=".gitbook/assets/Screenshot 2024-04-06 at 1.25.01 PM.png" alt="Screenshot of a search for street level imagery in Amsterdam with Mapillary shows a map with individual markers as dots on the map where street level imagery exists.."><figcaption><p>Screenshot of a search for street level imagery in <em>Amsterdam with</em> Mapillary</p></figcaption></figure>
 
