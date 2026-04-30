@@ -66,7 +66,7 @@ Geograph like any other geolocation tool, presents several ethical consideration
 
 **Video**
 
-* _Geograph Britain and Ireland - Intro_ (2024). Available at: [https://www.youtube.com/watch?v=Y6QNJDEQ58Y](https://www.youtube.com/watch?v=Y6QNJDEQ58Y) (Accessed: 8 September 2024).
+* _Geograph Britain and Ireland - Intro_ (2024). Available at: [https://www.youtube.com/watch?v=Y6QNJDEQ58Y](https://www.youtube.com/watch?v=Y6QNJDEQ58Y) (Accessed: 30 April 2026).
 
 **Contacts:**&#x20;
 
