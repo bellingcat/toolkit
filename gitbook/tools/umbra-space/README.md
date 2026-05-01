@@ -1,8 +1,8 @@
 ---
+updated: '2026-01-16'
 description: >-
   Umbra is an American synthetic aperture radar (SAR) satellite imaging company
   that sells on-demand taskings for satellite imagery.
-updated: '2026-01-16'
 ---
 
 # Umbra Space
@@ -17,6 +17,8 @@ Use Umbra to task (request) a high resolution SAR image in most places of the wo
 
 Unlike conventional optical satellite imagery, SAR works by sending a radio wave and listening to the reflection. Some objects, such as metallic vehicles and the 90 degree angles of buildings, reflect lots of the radio signal back to the satellite. Other features, like soil and vegetation, scatter the signal in many directions and reflect less. Still others, like the surface of calm water, reflect almost all of the signal away from the satellite. This variation produces an image of the Earth's surface. Other SAR satellites include Sentinel-1, which can be accessed from [Sentinel Hub and Copernicus Browser](https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground).
 
+Umbra can also "dwell" a satellite for a period of time to capture multiple images or a video of a particular location up to 25 seconds in length.
+
 Umbra images can be tasked through Umbra Canopy, Umbra's online interface. Contact Umbra's sales team to create an account, or use [SkyFi](https://bellingcat.gitbook.io/toolkit/more/all-tools/skyfi).
 
 Archival Umbra images can be purchased from [SkyFi](https://bellingcat.gitbook.io/toolkit/more/all-tools/skyfi).
@@ -28,6 +30,8 @@ Archival Umbra images can be purchased from [SkyFi](https://bellingcat.gitbook.i
 * [x] Paid
 
 Requesting an image from Umbra starts at $675 for 1-meter resolution, and can be over $5000 for the highest quality. Umbra's price sheet is [public](https://umbra.space/pricing/).
+
+A very limited selection of images are available through Umbra's [open data program](https://umbra.space/open-data/).
 
 ## Level of difficulty
 
