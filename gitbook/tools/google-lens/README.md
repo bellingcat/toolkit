@@ -69,7 +69,7 @@ Make sure you analyse the search results critically and cross-reference these wi
 
 Google
 
-[https://about.google/](https://about.google/) - United States
+[https://about.google/](https://about.google/) United States
 
 ## Advertising Trackers
 
