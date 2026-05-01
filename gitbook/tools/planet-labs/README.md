@@ -35,6 +35,8 @@ Planet Labs [provides limited access](https://www.planet.com/industries/educatio
 
 Access to high resolution imagery and taskings requires a paid subscription plan with Planet. The cost and tiers of subscriptions are not publicly available.
 
+A limited selection of data is available for free through Planet's [Open Data Program](https://www.planet.com/data/stac/browser/?.language=en).
+
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
@@ -45,7 +47,7 @@ Any modern web browser is sufficient to access Planet Explorer and order satelli
 
 ## Limitations
 
-\-
+Since mid-March, Planet has [not released imagery](https://www.reuters.com/business/media-telecom/satellite-firm-planet-labs-indefinitely-withhold-iran-war-images-2026-04-05/) of much of the Middle East, including Iran, Israel, Lebanon, and military bases across the region through Planet Explorer.
 
 ## Ethical Considerations
 
