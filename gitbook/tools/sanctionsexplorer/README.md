@@ -1,6 +1,6 @@
 ---
-description: A comprehensive database of current and historical OFAC/UN/EU sanctions
 updated: '2025-10-30'
+description: A comprehensive database of current and historical OFAC/UN/EU sanctions
 ---
 
 # SanctionsExplorer
@@ -11,13 +11,13 @@ updated: '2025-10-30'
 
 ## Description
 
-Explorer was developed by C4ADS as a "[comprehensive source](https://sanctionsexplorer.org/about) of all current and historical sanctions data across all major sanctioning authorities." Sanctions Explorer is a joint project between non-profits [Archer](https://archerimpact.com/about) and [C4ADS](https://c4ads.org/about-us/).&#x20;
+Explorer was developed by C4ADS as a "[comprehensive source](https://sanctionsexplorer.org/about) of all current and historical sanctions data across all major sanctioning authorities." Sanctions Explorer is a joint project between non-profits [Archer](https://archerimpact.com/about) and [C4ADS](https://c4ads.org/about-us/).
 
-It includes sanctions imposed by the U.S. Office of Foreign Assets Control (OFAC), the United Nations (UN), the European Union (EU), the United Kingdom (UK), the U.S. Department of Commerce, Bureau of Industry and Security (BIS) and Japan. Sanctions Explorer persistently monitors the UN, EU, and OFAC websites for updates to the sanctions lists and publishes the new data to the website as it goes active. The home page shows the time of the most recent update of the sanctions database which is updated daily.
+It includes sanctions imposed by the U.S. Office of Foreign Assets Control (OFAC), the United Nations (UN), the European Union (EU), the United Kingdom (UK), the U.S. Department of Commerce, Bureau of Industry and Security (BIS) and Japan. Sanctions Explorer persistently monitors the UN, EU, and OFAC websites for updates to the sanctions lists and publishes the new data to the website as it goes active. The database is updated daily.
 
-Sanctions Explorer derives its data from the following four sources: [Historical OFAC Data](https://ofac.treasury.gov/), Current [OFAC Data](https://sanctionslist.ofac.treas.gov/Home/SdnList), [EU Data](https://data.europa.eu/data/datasets/consolidated-list-of-persons-groups-and-entities-subject-to-eu-financial-sanctions-fisma?locale=en), and [UN Data](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list).
+Sanctions Explorer derives its data from the following four sources: [Historical OFAC Data](https://ofac.treasury.gov/), current [OFAC Data](https://sanctionslist.ofac.treas.gov/Home/SdnList), [EU Data](https://data.europa.eu/data/datasets/consolidated-list-of-persons-groups-and-entities-subject-to-eu-financial-sanctions-fisma?locale=en), and [UN Data](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list).
 
-The data contains sanctioned individuals, entities, vessels and aircraft. To search for any of these categories, type a keyword in the search bar. The search is designed in such a way to also run "fuzzy" keywords - words that are only a few characters different than the search query. For example, the words 'Hong' and 'Hone' only differ by one letter. Matches are sorted by relevance and get more inexact the further you scroll. Source: [SanctionsExporer FAQ](https://sanctionsexplorer.org/faq).
+The data contains sanctioned individuals, entities, vessels and aircraft. To search for any of these categories, type a keyword in the search bar. The search is designed to also run "fuzzy" keywords - words that are only a few characters different than the search query. For example, the words 'Hong' and 'Hone' only differ by one letter. Matches are sorted by relevance and get more inexact the further you scroll. Source: [SanctionsExporer FAQ](https://sanctionsexplorer.org/faq).
 
 <figure><img src=".gitbook/assets/SE1.png" alt="" width="375"><figcaption><p>Search bar for keyword queries</p></figcaption></figure>
 
@@ -25,7 +25,7 @@ The data contains sanctioned individuals, entities, vessels and aircraft. To sea
 
 <figure><img src=".gitbook/assets/SE2.png" alt="" width="563"><figcaption><p>Results page for search query Defense Engineering</p></figcaption></figure>
 
-Clicking on any of the Entity Names will open the profile for that specific entity.&#x20;
+Clicking on any of the Entity Names will open the profile for that specific entity.
 
 * An example of what a profile for an organization looks like. The information includes current and previous names of a company of organizations, the date they were registered or incorporated with the relevant authorities in the country, possible addresses and the sanctions they are subject to.
 
@@ -43,12 +43,12 @@ Clicking on any of the Entity Names will open the profile for that specific enti
 
 <div><figure><img src=".gitbook/assets/SE8.png" alt=""><figcaption><p>Profile for MSN 615 aircraft. Click to expand and view explanation notes.</p></figcaption></figure> <figure><img src=".gitbook/assets/SE9.png" alt=""><figcaption><p>Profile for MSN 615 aircraft. Click to expand and view explanation notes.</p></figcaption></figure></div>
 
-* Sanctions Explorer has an [Analytics](https://sanctionsexplorer.org/analytics) section, where you can see statistics for the number of sanctions added over time, by type of entity (aircraft, vessel, individual, organization), the number of sanctions by authority, as well as an interactive map which shows the number of sanctioned entities year by year.&#x20;
+* Sanctions Explorer has an [Analytics](https://sanctionsexplorer.org/analytics) section, where you can see statistics for the number of sanctions added over time, by type of entity (aircraft, vessel, individual, organization), the number of sanctions by authority, as well as an interactive map which shows the number of sanctioned entities year by year.
 
 <figure><img src=".gitbook/assets/SE10.png" alt=""><figcaption><p>Interactive map with the number of sanctioned entities by country and over time</p></figcaption></figure>
 
 {% hint style="info" %}
-Searching for delisted/unsanctioned entities is available for data collected from OFAC.&#x20;
+Searching for delisted/unsanctioned entities is available for data collected from OFAC.
 
 Delisted/unsanctioned entities by the EU and UN are included, but go back only to August 2020 when SanctionsExplorer started collecting this data. EU and UN do not publish historical data or announce when an entity has been delisted.
 {% endhint %}
@@ -65,11 +65,11 @@ Delisted/unsanctioned entities by the EU and UN are included, but go back only t
 
 ## Requirements
 
-Internet connection &#x20;
+Internet connection
 
 ## Limitations
 
-Our research shows that this resource only provides information on sanctioned entities. It does not provide information on politically exposed persons (PEPs).&#x20;
+Our research shows that this resource only provides information on sanctioned entities. It does not provide information on politically exposed persons (PEPs).
 
 SanctionsExplorer does not have an API integration feature, so downloading data in bulk might be more difficult.
 
