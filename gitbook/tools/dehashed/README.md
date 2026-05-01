@@ -38,13 +38,13 @@ You might also find IP addresses and location-specific accounts that can help yo
 
 Pay attention to their usernames and passwords. Do they contain numbers that could represent dates of birth? Or the name of the city they live in?
 
-Record any relevant results and data points as you go to map out a subject's online footprint. How many usernames, email addresses, IP addresses are they linked to? What do these tell us about their online activities, interestes, location etc.?
+Record any relevant results and data points as you go to map out a subject's online footprint. How many usernames, email addresses, IP addresses are they linked to? What do these tell us about their online activities, interests, location etc.?
 
 #### Step-by-step guide on how to use Search
 
 The search engine is extremely simple to use and user-friendly. You can run a keyword search either by field or across all fields:
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Screenshot 1. Search interface.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Screenshot 1. Search interface.</p></figcaption></figure>
 
 If you search by, say, email address, you will get a list of various data points associated with that email, including names and passwords. You can then run more searches against, for example, the names and passwords you identified during your original search with a view to finding more accounts and generating fresh research leads.
 
@@ -80,11 +80,11 @@ You will need to purchase credits to run a search.
 
 You can use Search for free, but you need to purchase a subscription to view the results.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Screenshot 4. Search pricing.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Screenshot 4. Search pricing.</p></figcaption></figure>
 
 To use WHOIS, you need to buy credits.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Screenshot 5. WHOIS pricing.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Screenshot 5. WHOIS pricing.</p></figcaption></figure>
 
 The current pricing information for each one of its four offerings can be found [here](https://app.dehashed.com/subscriptions) (click 'Purchase').
 
