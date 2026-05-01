@@ -10,20 +10,24 @@ description: An AI powered expansive research/learning tool
 
 ## Description
 
-AI powered research tool powered by Google's Gemini LLM. Bears a similarity to ChatGPT or Claude but only has the ability to reference sources that you've uploaded yourself. Essentially, it's a research assistant that can generate summaries, answers, or insights based your source data. It's remarkably useful for learning about a topic quickly by being able to directly communicate with your sources via text, voice, or visually. &#x20;
+NotebookLM is an AI-powered research tool built on Google’s Gemini models that allows users to upload their own documents and interact with them through a chat-based interface. Instead of pulling information from the wider web, it only references the sources you provide, which makes its outputs more grounded in a specific dataset.
 
-Why choose this over ChatGPT/Claude?: it only uses your source documents so it's far less likely to hallucinate or use unverified information from the wider web. \
+Once documents are uploaded, NotebookLM can generate summaries, answer questions, and highlight connections across multiple sources. It can also point to where specific information comes from within the uploaded material, allowing users to trace responses back to original documents.
+
+For open source researchers, this is useful when working with large collections of data such as social media posts, reports, transcripts, or archived content. Rather than manually reviewing each source, researchers can use NotebookLM to quickly extract key information, compare narratives across sources, and identify patterns within a dataset. This can help speed up the analysis phase of an investigation, especially when dealing with large or unstructured amounts of information.\
 \
 Use cases:
 
-* Comparison of information or viewpoints from different source documents
-* Creating clarity from a tangle of sources or documents
-* Summarizing interviews for a documentary
-* Creating learning material for a crash-course on a complex topic<br>
+* Summarizing large collections of social media posts, reports, or leaked documents
+* Comparing claims across multiple sources to identify inconsistencies or overlaps
+* Identifying repeated narratives or patterns in disinformation campaigns
+* Organizing and extracting key points from large datasets used in investigations<br>
 
 #### Specific use case:
 
-If you're looking to verify similarities between source documents/interviews/social media posts to understand where a specific disinformation campaign has spawned from, this could potentially allow you to quickly learn, understand, and analyze this information to make sense out of a jumbled mess.
+NotebookLM can be used to analyze a collection of social media posts or documents related to a potential disinformation campaign. By uploading multiple sources, researchers can quickly identify repeated phrases, shared narratives, or overlapping claims, helping trace how information spreads.
+
+<figure><img src=".gitbook/assets/lm.png" alt=""><figcaption></figcaption></figure>
 
 ## Cost
 
@@ -33,7 +37,22 @@ If you're looking to verify similarities between source documents/interviews/soc
 
 The free tier of this app has daily limits on amount of sources, notebooks, chat queries and audio/video generations.\
 \
-The price for the paid version is $19.99/month for higher limits.
+The price for the paid version is $19.99/month for higher limits.\
+\
+Free version:
+
+* Up to 50 sources per notebook
+* Up to 100 notebooks total
+* Up to 500,000 words per source (very large docs)
+* Up to 200MB per file upload
+* 50 chat queries per day
+* [https://support.google.com/notebooklm/answer/16269187?hl=en\&sjid=10357465133907705294-NC#zippy=%2Cfile-size-limit-for-sources-in-notebooklm%2Climits-for-notebooklm](https://support.google.com/notebooklm/answer/16269187?hl=en\&sjid=10357465133907705294-NC#zippy=%2Cfile-size-limit-for-sources-in-notebooklm%2Climits-for-notebooklm)
+
+Paid version:
+
+* 300 sources per notebook (much larger scale)
+
+**Note**: Researchers can partially work around this limitation by consolidating multiple pieces of information into fewer documents (combining social media posts or notes into a single file). However, this requires additional preprocessing and may reduce clarity or traceability between individual sources.
 
 ## Level of difficulty
 
@@ -45,10 +64,11 @@ The price for the paid version is $19.99/month for higher limits.
 
 ## Limitations
 
-* this is not an LLM, although it is powered by Gemini. It can only reference from inside of your notebook (your sources)
-* Doesn't seem to be useful for technical tasks, primarily a research/learning tool
-* Size/document/chat limits on the free version
-* Google stores and processes your information/source documents.
+* NotebookLM only works with uploaded sources and cannot independently browse or retrieve external data
+* The number of sources per notebook is limited (approximately 50 sources in the free version), which can be restrictive for large-scale investigations
+* It is primarily designed for analysis and summarization, not for data collection or scraping
+* While more grounded than general-purpose LLMs, it can still misinterpret or incorrectly summarize source material
+* Uploaded documents are stored and processed by Google
 
 
 
@@ -56,6 +76,10 @@ The price for the paid version is $19.99/month for higher limits.
 
 * Documents are stored and processed by Google, so this is not ideal for sensitive/classified information.
 * Still has potential for hallucinating/misunderstanding your source information, although this seems to be substantially lower than LLMs like Claude and ChatGPT given that doesn't reference the wider web.
+* According to Google, NotebookLM does not use uploaded documents to train its models. However, documents are still processed and stored by Google, meaning sensitive or high-risk data should be handled with caution.\
+  More info: [https://support.google.com/notebooklm/answer/17004255?hl=en\&sjid=10357465133907705294-NC](https://support.google.com/notebooklm/answer/17004255?hl=en\&sjid=10357465133907705294-NC)
+
+
 
 ## Guides and articles
 
