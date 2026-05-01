@@ -119,9 +119,9 @@ _Overpass Turbo_ is maintained by Martin Raifer (tyr.asd at gmail.com) [_Open St
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                            |
-| ---------------------------------------------------------- |
-| Author: Bellingcat Volunteer Team Reviewer: Sophie Tedling |
+| Page maintainer                                             |
+| ----------------------------------------------------------- |
+| Author: Bellingcat Volunteer Team Reviewer: Sophie Tedling. |
 
 ## See Also
 
