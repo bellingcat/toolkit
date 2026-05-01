@@ -2,6 +2,7 @@
 description: >-
   Platform for accessing open-licensed satellite and unmanned aerial vehicle
   (UAV) imagery
+updated: '2026-04-30'
 ---
 
 # OpenAerialMap
