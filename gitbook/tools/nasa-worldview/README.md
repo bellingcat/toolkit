@@ -1,9 +1,9 @@
 ---
+updated: '2026-03-08'
 description: >-
   NASA Worldview is an online tool for visualizing and downloading near
   real-time satellite imagery and scientific data of Earth's atmosphere, land,
   and oceans.
-updated: '2026-03-08'
 ---
 
 # NASA Worldview
@@ -53,7 +53,7 @@ Only available as a web application.
 
 Example of a search results for the term _Amsterdam_
 
-<figure><img src=".gitbook/assets/Screenshot 2024-04-29 at 6.31.20 PM.png" alt="Screenshot of NASA World View search results for Amsterdam shows satellite imagery including clouds, land and sea. "><figcaption><p>Screenshot of NASA World View search for Amsterdam</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-04-29 at 6.31.20 PM.png" alt="Screenshot of NASA World View search results for Amsterdam shows satellite imagery including clouds, land and sea."><figcaption><p>Screenshot of NASA World View search for Amsterdam</p></figcaption></figure>
 
 Platform updates and changes [https://github.com/nasa-gibs/worldview/releases/](https://github.com/nasa-gibs/worldview/releases/)
 
@@ -76,7 +76,7 @@ Platform updates and changes [https://github.com/nasa-gibs/worldview/releases/](
 NASA Worldview has several limitations users should be aware of:
 
 * **Data Availability:** Not all satellite data are available in near real-time or with a high temporal resolution. Some datasets may have a lag of several days or are updated less frequently. There are a number of imagery products available in Near Real Time. Both MODIS (Moderate Resolution Imaging Spectroradiometer) and VIIRS (Visible Infrared Imaging Radiometer Suite) have data sets that are available daily like the VIIRS [Corrected Reflectance (True Color)](https://modaps.modaps.eosdis.nasa.gov/services/about/products/viirs-c2-nrt/VNP03MOD_nrt.html). Use the Base Layers menu to filter for _Period:_ Daily to find more datasets.
-* **Resolution:** The spatial resolution of images and data can vary significantly between datasets. Some regions or types of data might not be available at the desired resolution for detailed analysis. The highest resolution [Sentinel-2](https://lpdaac.usgs.gov/documents/1698/HLS_User_Guide_V2.pdf) imagery is 10 meters per pixel for RGB and near-infrared bands, 20 meters per pixel for shortwave infrared bands and can be added as a base layer from the Base Layers menu.&#x20;
+* **Resolution:** The spatial resolution of images and data can vary significantly between datasets. Some regions or types of data might not be available at the desired resolution for detailed analysis. The highest resolution [Sentinel-2](https://lpdaac.usgs.gov/documents/1698/HLS_User_Guide_V2.pdf) imagery is 10 meters per pixel for RGB and near-infrared bands, 20 meters per pixel for shortwave infrared bands and can be added as a base layer from the Base Layers menu.
 * **Learning Curve:** New users may find the interface and array of datasets overwhelming, requiring time to learn how to effectively navigate and utilize the tool.
 * **Analysis Capabilities:** While Worldview allows for visualization, it does not offer extensive built-in tools for data analysis. Users might need to use other software for detailed analysis.
 * **Data for download:** Data will not be available on dates outside of each layer's respective coverage date range. In addition, some layers in Worldview do not have corresponding source data products available for download, including Geostationary, Reference, Orbit Tracks, Earth at Night, and MODIS Corrected Reflectance products.
@@ -89,7 +89,7 @@ See **Remote Sensing Ethical Considerations**.
 
 To effectively use NASA Worldview, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
 
-**Official Wiki**&#x20;
+**Official Wiki**
 
 * [https://www.earthdata.nasa.gov/learn/webinars-and-tutorials/new-getting-started-with-nasa-worldview-tutorial](https://www.earthdata.nasa.gov/learn/webinars-and-tutorials/new-getting-started-with-nasa-worldview-tutorial)
 
@@ -123,7 +123,7 @@ To effectively use NASA Worldview, especially for beginners or those looking to 
 
 ## Tool provider
 
-United States Government as represented by the Administrator of the National Aeronautics and Space Administration [https://www.nasa.gov/](https://www.nasa.gov/) - United States&#x20;
+United States Government as represented by the Administrator of the National Aeronautics and Space Administration [https://www.nasa.gov/](https://www.nasa.gov/) - United States
 
 ## Advertising Trackers
 
@@ -133,5 +133,5 @@ United States Government as represented by the Administrator of the National Aer
 
 | Page maintainer                                                        |
 | ---------------------------------------------------------------------- |
-| Author: Bellingcat Volunteer Team/Unassigned Reviewed: Sophie Tedling: |
+| Author: Bellingcat Volunteer Team/Unassigned Reviewed: Sophie Tedling. |
 |                                                                        |
