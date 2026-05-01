@@ -33,6 +33,8 @@ No sign in is necessary. The tool is free to use.
 
 The weather satellites are low resolution and only suitable for viewing large-scale events like wildfires, hurricanes, dust storms, and other weather patterns.
 
+The tool can be slow to load and somewhat buggy. If it appears to not load images after changing the visualization settings or zooming in, refresh the page. It will retain all settings and load more reliably.&#x20;
+
 ## Ethical Considerations
 
 \-
