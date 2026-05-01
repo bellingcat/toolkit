@@ -38,7 +38,7 @@ From an investigations standpoint, one of the most valuable aspects of a paid su
 Several tools are available for paying subscribers - a comprehensive breakdown can be found [here](https://www.domaintools.com/products/domain-research/pricing/). DNSDB Scout and IRIS Investigate are particularly useful in investigations:
 
 * [DNSDB Scout](https://scout.dnsdb.info/dashboard) allows users to search an extensive database of current and historical Domain Name System (DNS) records that link domain names to IP addresses and name servers.
-* [IRIS Investigate](https://www.domaintools.com/products/platform/iris-investigate/) collates a range of information on domain names, from Whois to DNS data, and presents this in one place.
+* [IRIS Investigate](https://account.domaintools.com/log-in/?r=https%3A%2F%2Firis.domaintools.com%2Finvestigate%2F) collates a range of information on domain names, from Whois to DNS data, and presents this in one place.
 
 ## Cost
 
