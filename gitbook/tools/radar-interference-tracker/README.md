@@ -105,5 +105,5 @@ To effectively use the Radar Interference Tracker, especially for beginners or t
 
 | Page maintainer                                                  |
 | ---------------------------------------------------------------- |
-| Bellingcat Volunteer Team/Unassigned. Reviewed:r Sophie Tedling: |
+| Bellingcat Volunteer Team/Unassigned. Reviewed:r Sophie Tedling. |
 |                                                                  |
