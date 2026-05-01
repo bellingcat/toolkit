@@ -486,10 +486,10 @@ Soar, Perth, Australia
 
 </details>
 
-| Page maintainer                             |
-| ------------------------------------------- |
-| Afton and Sophie Tedling 07/11/25 18:14 CST |
-|                                             |
+| Page maintainer           |
+| ------------------------- |
+| Afton and Sophie Tedling. |
+|                           |
 
 [^1]: Soar allows users to view maps in the database, and also make their own annotated copies of those maps. Users can upload their own maps to be added to the database
 
