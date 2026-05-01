@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-The main objective of Atlos is to enable teams of investigators to collaborate easily, even on large-scale investigations. Investigations are divided into several cases or occurrences, also called ‘incidents’.
+The main objective of Atlos is to enable teams of investigators to collaborate easily, even on large-scale investigations. Investigations are divided into several cases or occurrences called ‘incidents’.
 
 <figure><img src=".gitbook/assets/index.png" alt=""><figcaption><p>View of an ‘incident’ page on Atlos.<br>The 'Feed' section shows all the activity on the Atlos platform including when researchers have created an incident or added a new file.<br>Source: <a href="https://docs.atlos.org/overview/">https://docs.atlos.org/overview/</a></p></figcaption></figure>
 
@@ -35,7 +35,7 @@ You can, on a single page:
 
 <figure><img src=".gitbook/assets/map.png" alt=""><figcaption><p>Geolocated incidents are visualised on a map.<br>Source: <a href="https://docs.atlos.org/">https://docs.atlos.org/</a></p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/searchdata (1) (2).png" alt=""><figcaption><p>Example for a project overview which shows a list of incidents, their status, date and incident type.<br>Source: <a href="https://docs.atlos.org/investigations/searching-and-visualizing-data/">https://docs.atlos.org/investigations/searching-and-visualizing-data/</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/searchdata.png" alt=""><figcaption><p>Example for a project overview which shows a list of incidents, their status, date and incident type.<br>Source: <a href="https://docs.atlos.org/investigations/searching-and-visualizing-data/">https://docs.atlos.org/investigations/searching-and-visualizing-data/</a></p></figcaption></figure>
 
 This platform is open source (see [here](https://github.com/atlosdotorg/atlos)), and you can:
 
