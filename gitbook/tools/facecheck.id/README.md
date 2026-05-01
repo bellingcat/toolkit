@@ -53,9 +53,7 @@ Josephine Lulamae reflects on ethical questions around the use of facial recogni
 
 ## Guides and articles
 
-Read the guide on the FaceCheck.ID [website](https://facecheck.id/Face-Search-Effective-Face-Lookup). The following is also a really useful comparison between PimEyes and FaceCheck.ID:
-
-* 'FaceCheck ID: Ultimate Review and PimEyes Comparison', 11 September 2023, [_SoftGist_ ](https://softgist.com/facecheck-id-review)(accessed on 30 September 2024).
+Read the guide on the FaceCheck.ID [website](https://facecheck.id/Face-Search-Effective-Face-Lookup).&#x20;
 
 ## Tool provider
 
