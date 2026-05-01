@@ -91,7 +91,7 @@ Agricultural Impact: [https://app.gro-intelligence.com/displays/WdK0QlkqK](https
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat volunteer team |
-|                           |
+| Page maintainer                                   |
+| ------------------------------------------------- |
+| Bellingcat volunteer team Reviewed Sophie Tedling |
+|                                                   |
