@@ -17,10 +17,9 @@ OpenSanctions provides a structured database of people and entities subject to s
 
 The data includes information on individuals, organizations, and vessels that are subject to sanctions, as well as the legal frameworks and sanctions regimes that apply to them. OpenSanctions is intended to help individuals and organizations comply with international sanctions laws, as well as to facilitate research and investigative journalism into financial crime and corruption.
 
-```markdown
-> [!NOTE]
-> Most of the PEP data is collected via Wikidata and relies heavily on it as a data source. Wikidata contains more than 120 million entities.
-```
+{% hint style="info" %}
+Most of the PEP data is collected via Wikidata and relies heavily on it as a data source. Wikidata contains more than 120 million entities.
+{% endhint %}
 
 OpenSanctions over 320 separate dataset collections with multiple sources of data. All the data collected and provided by OpenSanctions is publicly available. The full list of sources can be found and explored [here](https://www.opensanctions.org/datasets/sources/). Each dataset has its own page with a description, options for a bulk download of data and information on where the data has been sourced from. The page also features consolidated sanctions on 75,746 entities.
 
