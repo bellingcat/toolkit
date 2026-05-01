@@ -1,6 +1,6 @@
 ---
 updated: '2025-10-27'
-description: Database of sanctions imposed by the European Union
+description: Database of sanctions imposed by the European Union and the United Nations
 ---
 
 # EU Sanctions Map
@@ -91,7 +91,7 @@ At the top of the page there is a list of additional resources, pertaining to or
 3. [TARIC Database](https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en) - an EU-wide customs tariff database that allows searching by goods code, origin and destination.
 4. [Consolidated List of Travel Bans](https://www.sanctionsmap.eu/#/main/travel/ban) - a downloadable file with a list of persons subject, under EU sanctions, to travel restrictions. The file is regularly updated and offers a subscription to an email alert when a new version is added.
 5. [Consolidated List of Financial Sanctions](https://data.europa.eu/data/datasets/consolidated-list-of-persons-groups-and-entities-subject-to-eu-financial-sanctions?locale=en) - a list of persons, groups and entities subject to EU financial sanctions.
-6. [EU Sanctions Tracker](https://data.europa.eu/apps/eusanctionstracker/) - A website geared more towards statistics and data sets over time. Contains overall charts, but also charts for each sanctioned country, entity or individual. It also provides the same information as the EU Sanctions Map but in an interactive form. Allows for data downloads in a CSV format.
+6. [EU Sanctions Tracker](https://data.europa.eu/apps/eusanctionstracker/) - A website geared towards statistics and data sets over time. Contains overall charts, but also charts for each sanctioned country, entity or individual. It also provides the same information as the EU Sanctions Map but in an interactive form. Allows for data downloads in a CSV format.
 
 ## Cost
 
@@ -113,7 +113,7 @@ Our research shows that this resource only provides information on sanctioned en
 
 EU Sanctions Map does not have an API integration feature, so downloading data in bulk might be more difficult.
 
-This tool only contains the names of persons and entities sanctioned by the EU and the UN, and does not provide sanctions imposed by other countries.
+This tool only contains the names of persons and entities sanctioned by the EU and the UN, and does not include sanctions imposed by other countries.
 
 ## Ethical Considerations
 
