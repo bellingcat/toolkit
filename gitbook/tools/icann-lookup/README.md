@@ -53,7 +53,7 @@ The results may contain personal information. Make sure you carefully analyse an
 
 ## Guides and articles
 
-Check out the [FAQ ](https://lookup.icann.org/en/faq)page on the ICANN Lookup website and the RDRS [FAQ](https://www.icann.org/rdrs-en).
+Check out the [FAQ ](https://lookup.icann.org/en/faq)page on the ICANN Lookup website.
 
 **For more information on how to retrieve historical domain registration data, see the following guides:**
 
@@ -63,7 +63,7 @@ Check out the [FAQ ](https://lookup.icann.org/en/faq)page on the ICANN Lookup we
 
 ## Tool provider
 
-ICANN, U.S.&#x20;
+ICANN, U.S.
 
 ICANN stands for the Internet Corporation for Assigned Names and Numbers.
 
