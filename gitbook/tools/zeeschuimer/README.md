@@ -12,7 +12,7 @@ description: >-
 
 \
 **Tool page:** [Digital Methods Initiative – Zeeschuimer](https://medialab.sciencespo.fr/en/tools/zeeschuimer/)\
-v1.13.5 (2026‑01‑22) reviewed on 31. January 2026
+v1.13.6 reviewed May 2026
 
 **GitHub:** [https://github.com/digitalmethodsinitiative/zeeschuimer](https://github.com/digitalmethodsinitiative/zeeschuimer) – (Firefox extension download and source code)
 
@@ -42,9 +42,9 @@ This approach enables researchers to collect data from platforms that lack a pub
 
 In practical terms, this means a journalist could **capture a personalized feed or search results,** preserving not just URLs but metadata like timestamps, captions, and comments, and then analyze that collection for patterns (such as which accounts or themes dominated the feed).
 
-**Supported Platforms:**&#x20;
+**Supported Platforms:**
 
-Supported Platforms: As of 2026‑01 (v1.13.5), Zeeschuimer works with a range of social networks and content-sharing platforms, including: TikTok (posts & comments), Instagram (posts), X/Twitter, LinkedIn, 9gag, Imgur, Douyin, Gab, Truth Social, Pinterest, RedNote/Xiaohongshu.  [GitHub](https://github.com/digitalmethodsinitiative/zeeschuimer)\
+Supported Platforms: As of 2026‑01 (v1.13.5), Zeeschuimer works with a range of social networks and content-sharing platforms, including: TikTok (posts & comments), Instagram (posts), X/Twitter, LinkedIn, 9gag, Imgur, Douyin, Gab, Truth Social, Pinterest, RedNote/Xiaohongshu. [GitHub](https://github.com/digitalmethodsinitiative/zeeschuimer)\
 – **Threads** module exists and was updated for **threads.com** in **v1.13.1 (2025‑04‑25)**. [GitHub](https://github.com/digitalmethodsinitiative/zeeschuimer/releases)\
 – **Exports:** NDJSON; **direct upload to 4CAT** (shows last 10 uploaded datasets in the UI). [GitHub](https://github.com/digitalmethodsinitiative/zeeschuimer)
 
