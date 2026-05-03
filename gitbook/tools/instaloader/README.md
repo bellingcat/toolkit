@@ -8,7 +8,7 @@ description: Download pictures or videos (with metadata) from Instagram.
 ## URL
 
 [https://instaloader.github.io](https://instaloader.github.io)\
-v4.15 (Nov 18, 2025), as of Jan 2026
+v4.15 (Nov 18, 2025), as of May 2026
 
 {% hint style="warning" %}
 Usage may lead to the loss of the Instagram account being used. Please see Limitations and Ethical Considerations before using this tool.
