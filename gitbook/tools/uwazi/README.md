@@ -11,7 +11,7 @@ description: >-
 ## URL
 
 [https://uwazi.io/](https://uwazi.io/)\
-latest stable 1.228.180 (Jan 30, 2026)
+latest stable 1.228.290 (as of May 2026)
 
 ## Description
 
