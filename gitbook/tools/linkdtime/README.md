@@ -10,7 +10,7 @@ description: >-
 ## URL
 
 [https://github.com/Lucksi/LinkdTime](https://github.com/Lucksi/LinkdTime)\
-**no tagged releases**; latest commit **2025‑04‑11 (as of January, 2026)**
+**no tagged releases**; latest commit **2025‑04‑11 (as of May, 2026)**
 
 ## Description
 
