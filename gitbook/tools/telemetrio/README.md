@@ -11,7 +11,7 @@ description: >-
 ## URL
 
 [https://telemetr.io/](https://telemetr.io/)\
-(as of Jan 2026)
+(as of May 2026)
 
 ## Description
 
