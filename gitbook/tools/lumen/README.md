@@ -10,7 +10,7 @@ description: >-
 ## URL
 
 [https://lumendatabase.org](https://lumendatabase.org/)\
-(last update Jan, 2026)
+(last update May, 2026)
 
 ## Description
 
