@@ -22,7 +22,7 @@ While this is a free tool, access is strictly limited. However, _any_ researcher
 Free compute on SOMAR’s Virtual Data Enclave ends on **2025‑12‑31**. Starting **January 2026**, SOMAR will charge **$371 USD per research team per month** of VDE access; **new VDE teams** created in 2026 or later will also incur a **one‑time $1,000 USD** project‑start fee. Meta’s Secure Research Environment (SRE) continues to offer **free compute**. See [SOMAR’s FAQ for details](https://somar.atlassian.net/wiki/spaces/somardocs/pages/395149314/FAQ+New+secure+computing+options+for+Meta+Content+Library+API) published Sept. 15th 2025.
 {% endhint %}
 
-<p align="center">(as of Jan 31st, 2026)<br></p>
+<p align="center">(as of Jan May, 2026)<br></p>
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
