@@ -8,7 +8,7 @@ description: A command line tool for obtaining information about Google accounts
 ## URL
 
 [https://github.com/mxrch/GHunt](https://github.com/mxrch/GHunt)\
-(current [version 2.3.3](https://pypi.org/project/ghunt/), Jan 25, 2025; latest on PyPI. GitHub tag: **v2.2.0** released 2024‑06‑06)
+(current [version 2.3.3](https://pypi.org/project/ghunt/), April 2025; latest on PyPI. GitHub tag: **v2.2.0** released 2024‑06‑06)
 
 ## Description
 
