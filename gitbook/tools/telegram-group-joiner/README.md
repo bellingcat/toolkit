@@ -10,7 +10,7 @@ description: >-
 ## URL
 
 [https://bellingcat.github.io/telegram-group-joiner/](https://bellingcat.github.io/telegram-group-joiner/)\
-(latest commit on **2023‑12‑18,** last checked Jan 2026)
+(latest commit on **2023‑12‑18,** last checked May 2026)
 
 ## Description
 
