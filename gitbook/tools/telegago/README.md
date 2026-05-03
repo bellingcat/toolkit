@@ -9,7 +9,7 @@ description: >-
 
 ## URL
 
-[https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg](https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg) – Official Telegago Google Custom Search Engine
+[https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg](https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg) – Official Telegago Google Custom Search Engine (as of May 2026)
 
 ## Description
 
