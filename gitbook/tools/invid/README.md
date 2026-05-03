@@ -9,7 +9,7 @@ description: A toolkit that supports the verification of videos and images.
 
 [https://weverify.eu/verification-plugin/](https://weverify.eu/verification-plugin/)
 
-(v. 0.87 - July 2025; last checked: Oct 31 st 2025)
+(v. 0.90; last checked: May 2026)
 
 ### Description
 
@@ -51,7 +51,7 @@ Segments YouTube or Facebook videos into keyframes for detailed analysis and rev
 {% endtab %}
 
 {% tab title="Results" %}
-<figure><img src="broken-reference" alt=""><figcaption><p>If you click "Show Detailed View" the number of keyframes will increase.</p></figcaption></figure>
+
 {% endtab %}
 {% endtabs %}
 
@@ -318,7 +318,7 @@ Uses Hiya.ai’s classifier to spot AI text-to-speech or cloned voices in WAV/MP
 
 **X Search**
 
-Performs advanced search queries on X (formerly Twitter), including precise time intervals, enhancing the ability to find relevant content. This uses the[ X's advanced search](https://bellingcat.gitbook.io/toolkit/more/all-tools/twitter-advanced-search) function.&#x20;
+Performs advanced search queries on X (formerly Twitter), including precise time intervals, enhancing the ability to find relevant content. This uses the[ X's advanced search](https://bellingcat.gitbook.io/toolkit/more/all-tools/twitter-advanced-search) function.
 
 {% tabs %}
 {% tab title="X-Search Tab" %}
