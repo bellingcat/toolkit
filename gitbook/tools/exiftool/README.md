@@ -11,7 +11,7 @@ description: >-
 
 [https://exiftool.org/](https://exiftool.org/)
 
-current version: **13.48 (Jan 31, 2026)**
+current version: **13.57 (April 30, 2026)**
 
 ## Description
 
