@@ -11,7 +11,7 @@ description: >-
 
 [https://obsidian.md/](https://obsidian.md/)
 
-(version **1.9.14,** 2025‑10‑01, as of Aug, 2025)
+(version **1.12.7,** March 3rd 2026; as of May, 2025)
 
 ## Description
 
@@ -52,8 +52,8 @@ The tool also supports advanced Markdown editing, customizable themes, and commu
 - **Free** (personal _and_ commercial use). Optional paid services and licenses below.
 - **Sync**: Standard **$4/user/mo (billed annually)** or **$5/user/mo (monthly)**; **Plus $8/$10** adds more vaults, storage, and history.
 - **Publish**: **$8/site/mo (billed annually)** or **$10/site/mo (monthly)**. [Obsidian](https://obsidian.md/publish)
-- **Catalyst** (optional early‑access license): **$25 one‑time**.&#x20;
-- **Commercial** (optional org supporter license): **$50/user/year**.&#x20;
+- **Catalyst** (optional early‑access license): **$25 one‑time**.
+- **Commercial** (optional org supporter license): **$50/user/year**.
 - Education and non‑profit employees get **40% off Sync/Publish**.
 
 ## Level of difficulty
