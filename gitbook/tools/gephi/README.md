@@ -8,7 +8,7 @@ description: Open-source network analysis and visualization software
 ## URL
 
 [https://gephi.org](https://gephi.org)\
-(0.10.1 as of Jan 2026)\
+(0.10.1 as of April 2026)\
 \
 [https://lite.gephi.org/](https://lite.gephi.org/)\
 (1.0.2)
