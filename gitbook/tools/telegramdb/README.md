@@ -10,7 +10,7 @@ description: >-
 ## URL
 
 [https://www.telegramdb.org/](https://www.telegramdb.org/)\
-(October 2025, [github](https://github.com/TelegramDB/TelegramDB))
+(May 2025, [github](https://github.com/TelegramDB/TelegramDB))
 
 ## Description
 
@@ -25,7 +25,7 @@ The bot lets you:
 4. **See live stats** on the TelegramDB index (`/stats`).
 
 Usage has grown fast – TelegramDB passed **1.5 million monthly active users in April 2025** ([TGStat.com](https://tgstat.com/channel/%40tgdatabase)).\
-&#xNAN;_&#x4E;otable 2024-25 updates:_ a redesigned menu (`/search`), searches that can now return **up to 1 000 results** instead of 20, a contact-picker for user-centric commands, and a new website where you can manage your account and buy credits.
+\&#xNAN;_Notable 2024-25 updates:_ a redesigned menu (`/search`), searches that can now return **up to 1 000 results** instead of 20, a contact-picker for user-centric commands, and a new website where you can manage your account and buy credits.
 
 ### Commands
 
