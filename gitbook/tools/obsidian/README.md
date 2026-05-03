@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-31'
+updated: '2026-05-03'
 description: >-
   A knowledge management and note-taking app with extensive customization
   options.

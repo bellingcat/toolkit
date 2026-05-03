@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-31'
+updated: '2026-05-03'
 description: >-
   Zeeschuimer is a browser extension for collecting social media posts that are
   visible in your web browser, enabling systematic analysis of content from

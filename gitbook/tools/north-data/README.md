@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-31'
+updated: '2026-05-03'
 description: >-
   Search for people and companies in EU corporate and trade registers +
   visualize relationships

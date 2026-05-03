@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-31'
+updated: '2026-05-03'
 description: >-
   RAWGraphs is an open-source data visualization tool designed for non-technical
   users, enabling the creation of customizable, editable charts without coding
