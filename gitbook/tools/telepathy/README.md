@@ -12,7 +12,7 @@ description: >-
 
 [https://github.com/proseltd/Telepathy-Community](https://github.com/proseltd/Telepathy-Community?utm_source=chatgpt.com)
 
-Version: Telepathy 2.3.4 (released 2024‑07‑12; latest PyPI release as of 2026‑01‑31)
+Version: Telepathy 2.3.4 (released 2024‑07‑12; last checked May 2026)
 
 ## Description
 
