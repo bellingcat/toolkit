@@ -9,7 +9,8 @@ description: >-
 
 ## URL
 
-[https://northdata.com](https://northdata.com)
+[https://northdata.com](https://northdata.com)\
+(last checked April 30, 2026)
 
 ## Description
 
@@ -91,9 +92,9 @@ User registration is required to access certain features (see the cost section).
 
 * **Data API (OpenAPI):** [https://northdata.github.io/doc/api/](https://northdata.github.io/doc/api/)
 * **Power Search overview:** [https://help.northdata.com/en/center/power-search-overview](https://help.northdata.com/en/center/power-search-overview)
-* **Filters:**&#x20;
-  * Events: [https://help.northdata.com/en/center/event-filter ](https://help.northdata.com/en/center/event-filter)
-  * Performance indicators: [https://help.northdata.com/en/center/power-search-performance-indicator ](https://help.northdata.com/en/center/power-search-performance-indicator)
+* **Filters:**
+  * Events: [https://help.northdata.com/en/center/event-filter](https://help.northdata.com/en/center/event-filter)
+  * Performance indicators: [https://help.northdata.com/en/center/power-search-performance-indicator](https://help.northdata.com/en/center/power-search-performance-indicator)
   * Legal forms: [https://help.northdata.com/en/center/power-search-legal-forms](https://help.northdata.com/en/center/power-search-legal-forms)
 * **Data API & Exports (when quarterly exports still matter):** [https://help.northdata.com/en/center/data-api-and-export](https://help.northdata.com/en/center/data-api-and-export)
 * **Google Sheets tutorial (Apps Script):** [https://blog.northdata.com/company-data-on-your-google-sheets-spreadsheet](https://blog.northdata.com/company-data-on-your-google-sheets-spreadsheet)
