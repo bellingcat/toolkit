@@ -6,7 +6,8 @@ description: Open source software for processing and analyzing images.
 
 ## URL
 
-[https://imagej.net/ij/](https://imagej.net/ij/)
+[https://imagej.net/ij/](https://imagej.net/ij/)\
+(v 1.54s as of May 2026)
 
 ## Description
 
