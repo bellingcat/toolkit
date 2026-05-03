@@ -11,7 +11,7 @@ description: >-
 ## URL
 
 [https://app.rawgraphs.io/](https://app.rawgraphs.io/)\
-Current release: v2.0.1 (GitHub release: 26 Jan 2024; tag created: 8 Nov 2023) as of Jan 2026
+Current release: v2.0.1 (GitHub release: 26 Jan 2024; tag created: 8 Nov 2023) as of May 2026
 
 ## Description
 
