@@ -10,7 +10,7 @@ description: >-
 ## URL
 
 [https://logseq.com/](https://logseq.com/)\
-(version 0.10.14; October 2025)
+(version 0.10.15; May 2026)
 
 ## Description
 
@@ -80,7 +80,7 @@ Getting started (notes, links, tags, tasks) is straightforward. Power features, 
 
 * **Platforms:** Windows (x64), **macOS ≥ 11** (Intel & Apple Silicon), Linux; **iOS ≥ 14.0**; **Android ≥ 5.1**.
 * **Install methods:**\
-  – **Desktop:** GitHub Releases (Win EXE, macOS DMG/ZIP \[Intel/ARM], Linux AppImage/ZIP); macOS via **Homebrew** (`brew install --cask logseq`); Windows via **winget** (`Logseq.Logseq`). \
+  – **Desktop:** GitHub Releases (Win EXE, macOS DMG/ZIP \[Intel/ARM], Linux AppImage/ZIP); macOS via **Homebrew** (`brew install --cask logseq`); Windows via **winget** (`Logseq.Logseq`).\
   – **Linux helper script:** `install-linux.sh` from the official repo. [GitHub](https://github.com/logseq/logseq)\
   – **Mobile:** iOS App Store; Android via **F‑Droid** (Logseq is not listed on Google Play as of 2025‑10).
 * **Auth/tokens:** Not required for local graphs. **Logseq Sync** and RTC features require a Logseq account (historically provisioned via OpenCollective backer access during beta).
