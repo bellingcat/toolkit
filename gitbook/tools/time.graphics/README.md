@@ -6,7 +6,8 @@ description: A tool for creating, visualizing, and managing timelines online.
 
 ## URL
 
-[https://time.graphics](https://time.graphics)
+[https://time.graphics](https://time.graphics) \
+(last checked: May 2026)
 
 ## Description
 
