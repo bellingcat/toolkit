@@ -23,7 +23,7 @@ If you search for keywords via the search box (circled in green) at the top of t
 
 LittleSis' main offering is their database - to access it, click '[Database](https://littlesis.org/database)' in the top menu. You'll get to the main database page:
 
-<figure><img src=".gitbook/assets/Screenshot 2025-10-22 at 12.06.10.png" alt=""><figcaption><p>The home page for the LittleSis database</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-05-06 at 15.27.57.png" alt=""><figcaption><p>The home page for the LittleSis database</p></figcaption></figure>
 
 When you search the database, you'll get entities that match your search term(s), and network maps that include the search term(s):
 
@@ -35,7 +35,7 @@ When you click on an entity name in the search results above, you'll see a perso
 
 The person page has links to a wide range of relationships that the person has (for which LittleSis has data). The types of relationships in the example above include business positions, board memberships, positions, federal election campaign contributions, universities attended, holdings (companies in which they have ownership), family, and others.
 
-The 'Interlocks' tab lists people with positions in the same organisations as the person you searched - this can help you see the networks of people with whom they are associated. The 'Giving' tab lists people who also received donations from organisations and people to whom the person donated:&#x20;
+The 'Interlocks' tab lists people with positions in the same organisations as the person you searched - this can help you see the networks of people with whom they are associated. The 'Giving' tab lists people who also received donations from organisations and people to whom the person donated:
 
 <figure><img src=".gitbook/assets/Screenshot 2026-01-12 at 12.41.46.png" alt=""><figcaption><p>The 'Giving' tab lists donors who also donated to orgs and people to whom Hunter Biden donated</p></figcaption></figure>
 
