@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-RuPEP can help you to dig into the network of people and organisations around a politically exposed person (PEP). A [PEP](https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Peps-r12-r22.html) is someone in a prominent public position, which makes them a higher risk for bribery and corruption (though this does not mean that they are actually involved in such activities). RuPEP is a database of PEPs that also includes:
+RuPEP can help you to dig into the network of people and organisations around a politically exposed person (PEP). A [PEP](https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Peps-r12-r22.html) is someone in a prominent public position, which makes them a higher risk for bribery and corruption (though this does not mean that they are actually involved in such activities). RuPEP is a database of PEPs that [also includes](https://rupep.org/en/about/):
 
 * Family members and business partners of PEPs
 * Others associated with them according to media reports
@@ -38,7 +38,7 @@ RuPEP says the data is collated from public sources. They detail their criteria 
 
 A PEP's page will start with biographical and sanctions information:
 
-<figure><img src=".gitbook/assets/Screenshot 2026-01-12 at 11.33.01.png" alt=""><figcaption><p>The top of a PEP's page</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-05-06 at 14.46.27.png" alt=""><figcaption><p>The top of a PEP's page</p></figcaption></figure>
 
 On the left, the sections of information on this page are listed. On the right are listed alternative spellings for the PEP's name. In the centre, the sanctions information is well curated: It includes a last checked date, and hyperlinks to sources:
 
@@ -68,7 +68,7 @@ You can also search RuPEP for legal entities (companies and organisations). Here
 
 The legal entity page contains links to page sections on the left, and some basic entity information:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-10-02 at 09.27.43.png" alt=""><figcaption><p>Legal entity's page</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-05-06 at 15.15.55.png" alt=""><figcaption><p>Legal entity's page</p></figcaption></figure>
 
 The legal entity network visualisation, like the one for PEPs, allows you to: Zoom in more more detail, click on the icons to see the details of the people or entities with which the legal entity has relationships, and view the nature of the relationship by hovering over the line:
 
