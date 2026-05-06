@@ -28,7 +28,7 @@ You can also search for UK companies on [OpenCorporates](https://bellingcat.gitb
 
 The [Register of Overseas Entities](https://www.gov.uk/government/collections/register-of-overseas-entities) is also published on Companies House. It's the register of overseas entities that want to buy, sell or transfer property in the UK - they are required to declare their beneficial owners and/or managing officers. To search for them use the [advanced search](https://find-and-update.company-information.service.gov.uk/advanced-search) function and change the company type filter to ‘overseas entity’. If you then select search, you'll see the first 10,000 records on the register. Use other filters (e.g. the incorporation date filter, or part of the company name) to narrow down your search results.
 
-You can [download](https://download.companieshouse.gov.uk/en_output.html) all the basic company data of live companies on the register. This would be useful for things like compiling statistics on the number of company formations in a particular year, or a geographical analysis of all registered addresses.
+You can [download](https://download.companieshouse.gov.uk/en_output.html) all the basic company data of live companies on the register ([here](https://resources.companieshouse.gov.uk/toolsToHelp/pdf/freeDataProductDataset.pdf) is a list of the fields included). This would be useful for things like compiling statistics on the number of company formations in a particular year, or a geographical analysis of all registered addresses.
 
 Companies House has various APIs - see the list [here](https://developer-specs.company-information.service.gov.uk/). An API allows you to query data in bulk and can make data analysis much more efficient.
 
