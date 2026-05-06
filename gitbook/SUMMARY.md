@@ -182,6 +182,7 @@
   * [satellites.pro](tools/satellites.pro/README.md)
   * [Search by Image](tools/search-by-image/README.md)
   * [Search4Faces](tools/search4faces/README.md)
+  * [SEC Filing Microtools](tools/sec-filing-microtools/README.md)
   * [Sentinel Hub Playground](tools/sentinal-hub-playground/README.md)
   * [ShadeMap](tools/shademap/README.md)
   * [Shadow Finder](tools/shadow-finder/README.md)
