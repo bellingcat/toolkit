@@ -1,14 +1,15 @@
 {
   "name": "SEC Filing Microtools",
-  "description": "Browser-only worksheets for SEC filing fee, Schedule 13D/13G, and Form D date checks.",
-  "details": "SEC filing date and fee worksheets",
+  "description": "Browser-only worksheets for SEC filing fee, Schedule 13D/13G, Form D, and Section 16 date checks.",
+  "details": "SEC filing date, fee, and ownership-reporting worksheets",
   "tags": [
     "companies-and-finance",
     "us",
     "law",
     "sec",
     "finance",
-    "filings"
+    "filings",
+    "section-16"
   ],
   "publishedAt": 1778075032000
 }
