@@ -14,13 +14,13 @@ description: >-
 
 ## Description
 
-The European Space Agency's Earth Online (ESA-EO) is a portal dedicated to providing a wealth of information on ESA's Earth observation activities and datasets. It serves as a comprehensive platform for Earth science and environmental monitoring. Users can retrieve up-to-date satellite imagery, open data from specific Earth observation missions, and a range of tools for analysis and interpretation of raw environmental data. Earth Online also shines when it comes to news, visuals and infographics plus detailed mission information and 3D models of the satellites, making it a useful resource for anyone looking to verify, to monitor or to analyze the planet's changes over time.&#x20;
+The European Space Agency's Earth Online (ESA-EO) is a portal dedicated to providing a wealth of information on ESA's Earth observation activities and datasets. It serves as a comprehensive platform for Earth science and environmental monitoring. Users can retrieve up-to-date satellite imagery, open data from specific Earth observation missions, and a range of tools for analysis and interpretation of raw environmental data. Earth Online also shines when it comes to news, visuals and infographics plus detailed mission information and 3D models of the satellites, making it a useful resource for anyone looking to verify, to monitor or to analyze the planet's changes over time.
 
 <figure><img src=".gitbook/assets/Screenshot 2026-03-14 at 17.16.29.png" alt=""><figcaption></figcaption></figure>
 
-ESA’s EO tools and datasets are not only useful for experts - there’s also much to explore for researchers new to the field. The visuals per mission include background info on the satellites and scientific measurements, providing a broader context to the use and interpretation of satellite data.&#x20;
+ESA’s EO tools and datasets are not only useful for experts - there’s also much to explore for researchers new to the field. The visuals per mission include background info on the satellites and scientific measurements, providing a broader context to the use and interpretation of satellite data.
 
-<figure><img src=".gitbook/assets/unknown.png" alt=""><figcaption><p>The EO visuals connect the satellite info to related data applications (thematic visuals), mission information, satellite data and tools.  t<a href="https://visuals.earth.esa.int/">https://visuals.earth.esa.int/</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/unknown.png" alt=""><figcaption><p>The EO visuals connect the satellite info to related data applications (thematic visuals), mission information, satellite data and tools. t<a href="https://visuals.earth.esa.int/">https://visuals.earth.esa.int/</a></p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/afbeelding.png" alt=""><figcaption></figcaption></figure>
 
@@ -64,7 +64,7 @@ The [CDSE](./#url) provides a wide range of data and services from the Copernicu
 
 ### **Multi-Mission Algorithm and Analysis Platform (MAAP)**
 
-Where CDSE is more focused on browsing, processing and analysing, [ESA MAAP](https://earth.esa.int/eogateway/tools/esa-maap) is oriented toward scientific collaboration, with more focus on computing and advanced research and experimental workflows. Some of the ESA Exploring Earth Catalogue and Thematic Exploitation Platforms (TEPs; for instance Forestry TEP, Polar TEP), previously separate entities in the EO platform and useful in OSINT research for environmental monitoring, are moving to MAAP. &#x20;
+Where CDSE is more focused on browsing, processing and analysing, [ESA MAAP](https://earth.esa.int/eogateway/tools/esa-maap) is oriented toward scientific collaboration, with more focus on computing and advanced research and experimental workflows. Some of the ESA Exploring Earth Catalogue and Thematic Exploitation Platforms (TEPs; for instance Forestry TEP, Polar TEP), previously separate entities in the EO platform and useful in OSINT research for environmental monitoring, are moving to MAAP.
 
 ### SNAP
 
@@ -94,7 +94,7 @@ The European Space Agency's Earth Online portal offers a broad array of use case
 * **Ice**: [CryoSat-2](https://earth.esa.int/eogateway/missions/cryosat) data and tools for analyzing ice thickness, changes in sea levels.
 * **Agricultural Analysis:** Assisting in the monitoring of crop health, forecasting yields, and managing agricultural resources. For instance the [IRS-P5 (Cartosat-1) Sample Data](https://earth.esa.int/eogateway/missions/irs-p5/sample-data) provides high resolution 2.5 m resolution crop inventory and monitoring agricultural productivity.
 * **Deforestation, carbon:** [SMOS](https://www.esa.int/Applications/Observing_the_Earth/FutureEO/SMOS) or [Biomass](https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Biomass) for monitoring vegetation and carbon. The [BIOMASS Product Algorithm Laboratory (BioPAL)](https://www.biopal.org/) tool offers processing scripts and Jupyter Notebooks for monitoring Above Ground Biomass, Forest Height and Forest Disturbance.
-* **Oceanography and Marine Sciences:** Supporting the study of ocean currents, sea surface temperatures, and marine ecosystems. Tools like the [cs2eo browser](https://earth.esa.int/eogateway/tools/cs2eo)/ [Cryo2ice tool](https://cs2eo.org/cryo2ice) can monitor ocean ice cover which can impact shipping routes and the [Ocean and Coastal Topography Thematic Data Product (TDP)](https://earth.esa.int/eogateway/catalog/tdp-for-ocean-and-coastal-topography) dataset which contains improved sea surface height anomaly data.&#x20;
+* **Oceanography and Marine Sciences:** Supporting the study of ocean currents, sea surface temperatures, and marine ecosystems. Tools like the [cs2eo browser](https://earth.esa.int/eogateway/tools/cs2eo)/ [Cryo2ice tool](https://cs2eo.org/cryo2ice) can monitor ocean ice cover which can impact shipping routes and the [Ocean and Coastal Topography Thematic Data Product (TDP)](https://earth.esa.int/eogateway/catalog/tdp-for-ocean-and-coastal-topography) dataset which contains improved sea surface height anomaly data.
 * **The atmosphere:** The [Atmosphere Virtual Lab (AVL)](https://atmospherictoolbox.org/media/usecases/Usecase_5_aeolus.html) tool provides [Jupyter Notebooks](https://jupyter.org/) that can be used to analyze and visualize atmospheric earth observation data and the [GHGSat archive](https://earth.esa.int/eogateway/catalog/ghgsat-archive-and-tasking) contains data that monitors greenhouse gas emissions (currently CH4, but eventually CO2).
 * **Human Activity:** The [Urban Thematic Exploitation Platform](https://urban-tep.eu/) tool requires registration but provides data and visualisation of the Global Urban Footprint and population density. The [Geohazards TEP](https://geohazards-tep.eu/) is a glacier and landslide monitoring tool that has data processed over the eastern Alps Ground Motion Service.
 * **Disaster Monitoring:** Earth Online provides a number of tools that can be used for disaster monitoring, like the [SMOS Tropical Cyclone Wind Radii Fixes](https://earth.esa.int/eogateway/catalog/smos-tropical-cyclone-wind-radii-fixes-wrf) (Registration required) and provides Near Real Time tropical cyclones forecasts. Within the [CDSE](https://dataspace.copernicus.eu/): [Sentinel-1](https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-1) (SAR) for floods, [Sentinel-2](https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-2) (optical) for fires, landslides.
@@ -135,7 +135,7 @@ The Copernicus Data Space Ecosystem offers introductory videos and tutorials on 
 
 ## Tool provider
 
-European Space Agency [https://www.esa.int/](https://www.esa.int/)
+European Space Agency [https://www.esa.int/](https://www.esa.int/), with [23 member states](https://www.esa.int/About_Us/Corporate_news/Member_States_Cooperating_States).&#x20;
 
 ## Advertising Trackers
 
