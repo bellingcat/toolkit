@@ -14,7 +14,7 @@ description: >-
 
 ## Description
 
-Pinpoint is a research tool designed to assist journalists and academics in examining and analyzing large document collections. With Pinpoint, users can upload and search through documents, images, emails, handwritten notes, and transcriptions of audio files to find specific keywords, locations, organizations, or individuals. It is part of the [Journalist Studio](https://journaliststudio.google.com/), Google’s free tool kit for research, data analysis, and data visualization. It supports manual document labeling (tagging by subject or other custom definition) and AI-powered entity extraction, so users can search by fields like date, sender, etc.
+Pinpoint is an AI-powered research tool designed to assist journalists and academics in examining and analyzing large document collections. With Pinpoint, users can upload and search through documents, images, emails, handwritten notes, and transcriptions of audio files to find specific keywords, locations, organizations, or individuals. It is part of the [Journalist Studio](https://journaliststudio.google.com/), Google’s free tool kit for research, data analysis, and data visualization. It supports manual document labeling (tagging by subject or other custom definition) and automated entity extraction, so users can search by fields like date, sender, etc.
 
 Users can store up to [200,000 documents ](https://support.google.com/pinpoint/answer/11955480?hl=en-IN#upload_documents)in each collection, extract text from handwritten documents or non-searchable pdfs to make them searchable, query text from images, transcribe audio recordings and search for identifiers in image collections.
 
