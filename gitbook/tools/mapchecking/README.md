@@ -126,18 +126,18 @@ You can also read through Nixintel's article [Counting crowds in public spaces ]
 
 ## Limitations
 
-_Field of View Restrictions_
+1. _Field of View Restrictions_
 
 The tool works better if you can clearly delineate the area visible in the image. There could be more people outside the camera's view or areas where the camera did not pan. Any such exclusions should be clearly mentioned.
 
-_Snapshot in Time_
+2. _Snapshot in Time_
 
 The estimate is only valid for the specific point in time when the image was captured. Any changes in crowd size or movement before or after that moment are not reflected.
 
-_Static vs. Dynamic Crowds_
+3. _Static vs. Dynamic Crowds_
 
 The tool is less effective for[ dynamic or moving crowds ](https://www.aware-online.com/en/calculate-the-number-of-people-during-a-demonstration/)since crowd locations can shift rapidly. It works best when counting static crowds at a given moment.\
-&#xNAN;_&#x55;neven Crowd Density_
+\&#xNAN;_Uneven Crowd Density_
 
 Crowd density [is not uniform](https://www.aware-online.com/en/calculate-the-number-of-people-during-a-demonstration/) across all areas of an image. Some patches may have fewer people, while others may be densely packed. As seen in the source image above, there are patches in the protest area that are loosely packed and there are patches that are fully packed. For greater accuracy, it may be beneficial to draw separate polygons for areas with lower and higher crowd densities.
 
