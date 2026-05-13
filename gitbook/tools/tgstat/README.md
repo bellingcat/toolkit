@@ -10,9 +10,9 @@ description: >-
 
 ## URL
 
-{% embed url="https://tgstat.com/" %}
+[https://tgstat.com/](https://tgstat.com/)
 
-{% embed url="https://tgstat.ru/" %}
+[https://tgstat.ru/  ](https://tgstat.ru/)
 
 ## Description
 
@@ -52,7 +52,11 @@ TGStat solves a discovery and time management issue. Telegram’s search functio
 
 It helps researchers find relevant channels to follow on specific topics. Some features are:
 
-1. _Filter by country:_ Users can filter channels by country. The list of countries available in the search filters are: Russia, Ukraine, Belarus, Uzbekistan, Kazakhstan, Kyrgyzstan, Iran, China, India, and Ethiopia.
+1. _Filter by country:_ Users can filter channels by country. The list of countries available in the search filters on the website: Russia, Ukraine, Belarus, Uzbekistan, Kazakhstan, Kyrgyzstan, Iran, China, India, and Ethiopia.
+
+{% hint style="info" icon="triangle-exclamation" %}
+NOTE: This is a limited list, [TGSTAT includes content from a number of other countries f](https://www.grabon.in/indulge/tech/telegram-users-statistics/)rom South Asia, Southeast Asia and MENA.&#x20;
+{% endhint %}
 
 <figure><img src=".gitbook/assets/IMG_0178.jpg" alt=""><figcaption><p>This shows a catalog of public Telegram channels and open groups categorzed by country. The user can navigate to this feature by clicking “Catalog” in the upper left, then clicking “channels and groups catalog”.</p></figcaption></figure>
 
@@ -98,7 +102,7 @@ To get to the advanced search feature, users can click "Catalog" in the upper le
 
 ### **Comparison**
 
-This tool also solves the problem of visualizing posts' reach and their relationship with other user accounts, channels, and content. TGstat can pull up a specific channel's analytics and show the relationship between accounts through the “citation” section. This section shows who cites whom.
+This tool also solves the problem of visualizing posts' reach and their relationship with other user accounts, channels, and content. TGstat can pull up a specific channel's analytics and show the relationship between accounts through the “Citation” section. This section shows who cites whom.
 
 <figure><img src=".gitbook/assets/IMG_0214.jpeg" alt=""><figcaption><p>This image displays "incoming mentions" on the left and "outgoing mentions" on the right. "Incoming mentions" are channels or groups that mention this channel, while "outgoing mentions" are accounts this channel mentions. To access this feature, go to the main page of the channel you are researching, click on the blue bar labeled "Channel Statistics" on the right side of the page, then select "Citation" from the left-hand menu.</p></figcaption></figure>
 
@@ -127,40 +131,15 @@ TGStat helps analyze content and reach. It provides insight into the channel or 
 * [x] Partially Free
 * [ ] Paid
 
-TGStat has both free and paid versions. However, the most important features of the tool are available for free.
+TGStat has both free and paid versions.&#x20;
 
-The versions are: Free, Premium Analytics, Premium Search (see website for pricing)
+The versions are: Free, Personal, Corporate (see website for pricing)
 
-**Free vs. Premium Analytics**
+Below is a quick comparison of their subscription plan.&#x20;
 
-Below are some of the different features available in a free account vis a vis a Premium Analytics subscription. (List is not exhaustive but focuses on main features that may be helpful for open source researchers)
+<figure><img src=".gitbook/assets/IMG_0702.jpeg" alt=""><figcaption><p>Paid plans for three different tiers and their corresponding content. (Image credit: TGSTAT.COM websites)</p></figcaption></figure>
 
-|                                     | **Free**                                        | **Premium Analytics**                                                             |
-| ----------------------------------- | ----------------------------------------------- | --------------------------------------------------------------------------------- |
-| “View Analysis” section             | Last 5 posts available for analysis             | Unlimited                                                                         |
-| “Advertising Effectiveness” section | Latest 5 activities available for analysis      | Unlimited                                                                         |
-| “Attracting Subscribers” section    | Last 6 months available for analysis            | Unlimited                                                                         |
-| “Invitation Links” section          | Last 10 invitation links available for analysis | Unlimited                                                                         |
-| “Top Posts” section                 | Not available                                   | Unlimited time period, customized view, and available for export of data to Excel |
-| Citation                            | Not available                                   | Available                                                                         |
-| Similar Channels/ Related Channels  | Not available                                   | Available                                                                         |
 
-**Free v. Premium Search**
-
-Below are some of the different features available in a free account vis a vis a Premium Search subscription. The number of channels users can search, and the number of requests for advanced search is limited. (List is not exhaustive but focuses on main features that may be helpful for open source researchers)
-
-|                                                      |               |                    |
-| ---------------------------------------------------- | ------------- | ------------------ |
-|                                                      | **Free**      | **Premium Search** |
-| Number of channels per day                           | 10            | Unlimited          |
-| Number of channels per month                         | 200           | Unlimited          |
-| Number of channel search requests per day            | 30            | Unlimited          |
-| Number of channel search requests per month          | 500           | Unlimited          |
-| Search through full catalog of posts                 | Limited       | Available          |
-| Filter by time period                                | Limited       | Available          |
-| Filter by language, country, subject and source type |               | Available          |
-| Filter by channel and group mentions                 | Not available | Available          |
-| Export of search results to Excel                    | Not Available | Available          |
 
 Other paid features are: Access to Stat API (fee comparison here: [https://tgstat.ru/en/api/stat](https://tgstat.ru/en/api/stat)), Access to Search API ([https://tgstat.ru/en/api/search](https://tgstat.ru/en/api/search)), Access to Callback API ([https://tgstat.ru/en/api/callback](https://tgstat.ru/en/api/callback))
 
