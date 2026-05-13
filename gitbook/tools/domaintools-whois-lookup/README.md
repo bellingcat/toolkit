@@ -80,5 +80,5 @@ API documentation can be found [here](https://docs.domaintools.com/api/).
 
 | Page maintainer |
 | --------------- |
-|                 |
+| Ana             |
 |                 |
