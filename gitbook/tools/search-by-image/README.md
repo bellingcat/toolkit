@@ -78,7 +78,7 @@ This tool is designed to support journalists, investigators, and fact-checkers i
 
 ### Additional Features
 
-* **Support for** [**41 search engines and image services**](https://github.com/dessant/search-by-image/wiki/Search-engines) in addition to the default options. You can toggle and re-order them in the extension’s settings.
+* **Support for** [**44 search engines and image services**](https://github.com/dessant/search-by-image/wiki/Search-engines) in addition to the default options. You can toggle and re-order them in the extension’s settings.
 
 <figure><img src=".gitbook/assets/9 (1).webp" alt=""><figcaption><p>You can add additional search engines in the Options</p></figcaption></figure>
 
