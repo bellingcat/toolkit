@@ -1,5 +1,6 @@
 ---
 description: A browser extension to reverse search an image on multiple search engines.
+updated: '2026-05-14'
 ---
 
 # Search by Image
