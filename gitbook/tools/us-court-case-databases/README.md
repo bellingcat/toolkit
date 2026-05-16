@@ -1,5 +1,6 @@
 ---
 description: State-by-state guide for researching criminal and civil court cases
+updated: '2026-05-15'
 ---
 
 # USA court case databases
