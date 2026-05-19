@@ -1,13 +1,16 @@
 name: Build
 
 on:
-  schedule:
-    - cron: '0 3 * * *'
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout code
@@ -20,12 +23,10 @@ jobs:
         run: node src/normalize.mjs
 
       - name: Run node script to update categories
-        run: |
-          node src/categories.mjs
+        run: node src/categories.mjs
 
       - name: Run node script to update regions
-        run: |
-          node src/regions.mjs
+        run: node src/regions.mjs
 
       - name: Detect changes
         uses: dorny/paths-filter@v3
@@ -33,8 +34,6 @@ jobs:
         with:
           base: HEAD
           filters: |
-            all:
-              - '**'
             categories:
               - 'gitbook/categories/**'
             tools:
@@ -57,18 +56,8 @@ jobs:
           git commit -m "Build: Update Tools"
 
       - name: Push changes
-        if: steps.changes.outputs.all == 'true'
+        if: steps.changes.outputs.categories == 'true' || steps.changes.outputs.tools == 'true'
         uses: ad-m/github-push-action@master
         with:
-          branch: build
-          force: true
-
-      - name: Create Pull Request
-        if: steps.changes.outputs.all == 'true'
-        uses: peter-evans/create-pull-request@v7
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: build
-          commit-message: "Build: Update all"
-          title: "Update Build"
-          body: "This pull request updates the build based on latest changes."
+          branch: main
+          force: false
