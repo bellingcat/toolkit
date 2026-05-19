@@ -213,8 +213,14 @@ async function apiCall(url, params) {
     if (data.error) {
       throw new Error(`${data.error.message} (${data.error.code})`);
     }
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
     return data;
   } else {
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
     return response;
   }
 }
