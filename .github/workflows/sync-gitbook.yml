@@ -47,10 +47,9 @@ jobs:
 
       - name: Push changes
         if: steps.changes.outputs.all == 'true'
-        uses: ad-m/github-push-action@master
-        with:
-          branch: main
-          force: false
+        run: |
+          git pull --rebase origin main
+          git push origin main
 
   build:
     runs-on: ubuntu-latest
