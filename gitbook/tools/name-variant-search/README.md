@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-19'
+updated: '2026-05-26'
 description: Quickly search many variants of a person's name on Google
 ---
 
