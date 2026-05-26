@@ -10,7 +10,7 @@ description: A search engine for internet-connected devices, from webcams to dat
 
 ## Description
 
-Shodan is a search engine that indexes internet-connected devices. Shodan covers devices from servers, routers, webcams, and industrial control systems to IoT devices and databases. It allows users to explore what is exposed to the public internet and gather technical information such as IP addresses, open ports, protocols, software versions, and geographic locations.
+Shodan is a search engine that indexes internet-connected devices. Shodan covers devices from servers, routers, webcams, and industrial control systems to [Internet of Things (IoT)](https://www.ibm.com/think/topics/internet-of-things) devices and databases. It allows users to explore what is exposed to the public internet and gather technical information such as IP addresses, open ports, protocols, software versions, and geographic locations.
 
 Researchers can search by keyword, organization, country, network range, or device type, and combine filters (e.g. `country:DE port:21`) to narrow results. Each result links to detailed host information, including banners, metadata, and sometimes screenshots (for example, login interfaces or webcams visible online). Device searches may use a variety of filters, including location (city, country, etc.), device name, IP address, and organisation.
 
@@ -21,8 +21,6 @@ Shodan also includes several integrated tools:
 * Monitor – allows registered users to track specific IPs or networks over time.
 * Developer – provides API access for automation or integration into investigative workflows.
 
-<figure><img src=".gitbook/assets/Shodan1 c.jpg" alt=""><figcaption><p>Main menu on the site</p></figcaption></figure>
-
 For open source investigations, Shodan can help:
 
 * Identify infrastructure operated by a specific organisation.
@@ -32,7 +30,7 @@ For open source investigations, Shodan can help:
 
 Below is an example of the detailed host information available for a device. This has been redacted for privacy purposes.&#x20;
 
-<figure><img src=".gitbook/assets/Details - c.jpg" alt="" width="563"><figcaption><p>An example of available host details</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Details - c.jpg" alt="" width="563"><figcaption><p>An example of available host details, including ISP (Internet Service Provider) &#x26; ASN (Autonomous System Number)</p></figcaption></figure>
 
 ## Cost
 
@@ -66,9 +64,7 @@ A web browser and email address are required to sign up for an account and use t
 
 **Limited context:** Shodan provides technical exposure data but not ownership confirmation or intent. Additional corroboration is essential for accurate attribution.
 
-**Data integrity:** The service banners that Shodan uses for much of it's information may be configured/limited by the device owner.
-
-**Restricted Email Addresses:** Shodan explicitly rejects disposable/temporary email services during signup to prevent abuse. Occasional rejections have also been reported for some providers, e.g. ProtonMail, and this is likely due to anti-abuse rules or blocklists.
+**Data integrity:** Much of Shodan’s information comes from ‘service banners’ returned by internet-facing devices. These banners are controlled by the device owner and may be hidden, modified, outdated, or misleading, so results are not always fully accurate.
 
 ## Ethical Considerations
 
@@ -91,7 +87,7 @@ The Shodan [Help Center](https://help.shodan.io/) contains essentially all of th
 
 ## Tool provider
 
-Shodan is privately owned and run by John Matherly.
+Shodan is privately owned and run by John Matherly (United States)
 
 ## Advertising Trackers
 
@@ -99,6 +95,6 @@ Shodan is privately owned and run by John Matherly.
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
+| Page Maintainer |
 | --------------- |
 | Freya           |
