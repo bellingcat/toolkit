@@ -188,6 +188,7 @@
   * [ShadowMap](tools/shadowmap/README.md)
   * [Sherlock](tools/sherlock/README.md)
   * [ShipFinder](tools/shipfinder/README.md)
+  * [Shodan](tools/shodan/README.md)
   * [Skopenow](tools/skopenow/README.md)
   * [SkyFi](tools/skyfi/README.md)
   * [Snap Map](tools/snap-map/README.md)
