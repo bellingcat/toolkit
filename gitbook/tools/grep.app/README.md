@@ -1,8 +1,8 @@
 ---
+updated: '2026-03-19'
 description: >-
   grep.app is a free web-based search engine that allows users to search the
   contents of public GitHub repositories.
-updated: '2026-03-19'
 ---
 
 # Grep.app
@@ -21,15 +21,11 @@ Use the main page to search for keywords or regex. You can use this to search fo
 
 You can also toggle Compact or Expanded view in the top right corner to change how much peripheral context is included in the results.
 
-
-
 **Key word search example** - searching for code referencing "Bellingcat".
 
 <figure><img src=".gitbook/assets/grep1.png" alt=""><figcaption></figcaption></figure>
 
 This example search returns all indexed public repositories which include the word "Bellingcat".
-
-
 
 **Regex search example** - searching a Twitter repository for email addresses.
 
@@ -81,6 +77,6 @@ Vercel Inc. (USA) - Cloud application company that provides developer tools, fra
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
+| Page Maintainer |
 | --------------- |
 | Freya           |
