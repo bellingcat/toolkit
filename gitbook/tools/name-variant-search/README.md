@@ -1,6 +1,6 @@
 ---
 updated: '2026-05-19'
-description: Simple tool to help search for different ways of writing a name.
+description: Quickly search many variants of a person's name on Google
 ---
 
 # Bellingcat Name Variant Search
@@ -11,7 +11,7 @@ description: Simple tool to help search for different ways of writing a name.
 
 ## Description <a href="#description" id="description"></a>
 
-Given a person's name, this tool will generate various plausible alternative forms of the name and smooth out the work of researching each one. It also offers a few filters for various social media platforms.
+Given a person's name, this tool will generate various plausible alternative forms of the name and smooth out the work of researching each one. It also offers links to search on Duck Duck Go, and Facebook.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-01-25 at 16.58.10.png" alt=""><figcaption></figcaption></figure>
 
