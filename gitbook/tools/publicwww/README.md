@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-30'
+updated: '2026-05-26'
 description: >-
   PublicWWW is a source code search engine that allows you to search for any
   alphanumeric snippet, signature, or keyword within the HTML, JavaScript, and

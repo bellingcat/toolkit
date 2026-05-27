@@ -1,5 +1,6 @@
 ---
-description: A search engine for internet-connected devices, from webcams to databases.
+description: 'A search engine for internet-connected devices, from webcams to databases.'
+updated: '2026-05-26'
 ---
 
 # Shodan

@@ -1,5 +1,5 @@
 ---
-updated: '2026-03-19'
+updated: '2026-05-26'
 description: >-
   grep.app is a free web-based search engine that allows users to search the
   contents of public GitHub repositories.
