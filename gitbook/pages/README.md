@@ -2,6 +2,27 @@
 description: A toolkit for open source researchers
 cover: .gitbook/assets/Bellingcat_Toolkit_Ann_Kiernan stretched.png
 coverY: 0
+layout:
+  width: default
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: false
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: false
+  pagination:
+    visible: false
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # About
@@ -45,6 +66,12 @@ _Lora_ is a linguist by education, media and corporate intel analyst by trade, a
 _Martin Sona_ is an interdisciplinary researcher and lecturer with a social psychology, cognitive neuroscience, and tech innovation background. He's passionate about science, community coordination, and making complex information meaningful and accessible. Here, he serves as the Volunteer Toolkit Guardian for the [Social Media](https://bellingcat.gitbook.io/toolkit/categories/social-media) category.
 
 _Sophie Tedling_ has worked with Bellingcat as a volunteer, Tech Fellow & contributor. Her background is engineering, AI & risk, and she runs [PeakVisorforOSINV on X](https://x.com/PVforOSINV) which collects input from the research community with the goal to communicate the needs of open source researchers to the PeakVisor developer team. She is the Volunteer Toolkit Guardian for the [Maps & Satellites](https://bellingcat.gitbook.io/toolkit/categories/maps-and-satellites) category.
+
+
+
+Special thanks to everyone who contributed to the toolkit in the past:
+
+Fraser, hande
 
 </details>
 
