@@ -272,7 +272,7 @@ Note that the portal is a work in progress, and new items are constantly being a
 
 1. There may not be enough munition categories currently represented, and users may not be able to find specific munition categories, such as Small Arms and Light Weapons (SALW).
 2. There are not many entries on landmines at the moment, compared to [CAT-UXO](https://bellingcat.gitbook.io/toolkit/more/all-tools/cat-uxo), [which has more than 400 entries.](https://cat-uxo.com/explosive-hazards/landmines)
-3. Geographic distribution is currently limited. A majority of the entries are found in the Middle East and Ukraine. There are a few entries for Europe and North America. However, Haiti has one entry, and South America currently has no entries. If looking for munitions related to these regions, it is advisable to use other tools, such as CAT-UXO.
+3. Geographic distribution is currently limited. A majority of the entries are found in the Middle East and Ukraine. There are a few entries for Europe and North America. However, Haiti has one entry, and South America currently contains munitions from Venezuela. If looking for munitions related to these regions, it is advisable to use other tools.&#x20;
 
 ## Ethical Considerations
 
@@ -281,16 +281,16 @@ Note that the portal is a work in progress, and new items are constantly being a
 
 ## Similar Tools
 
-Similar tools for munitions identification include [CAT-UXO](https://bellingcat.gitbook.io/toolkit/more/all-tools/cat-uxo), [Bulletpicker](https://bellingcat.gitbook.io/toolkit/more/all-tools/bulletpicker.com), and the [Basic Identification of Ammunition in Ukraine Guide](https://www.btwob.org/updates/basic-identification-of-ammunition-in-ukraine-version-40). &#x20;
+Similar tools for munitions identification include [CAT-UXO](https://bellingcat.gitbook.io/toolkit/more/all-tools/cat-uxo), [Bulletpicker](https://bellingcat.gitbook.io/toolkit/more/all-tools/bulletpicker.com), and the [Basic Identification of Ammunition in Ukraine Guide](https://www.btwob.org/updates/basic-identification-of-ammunition-in-ukraine-version-40).
 
-Based on our tests, OSMP is helpful for core conventional munitions.&#x20;
+Based on our tests, OSMP is helpful for core conventional munitions.
 
-Bulletpicker.com functions more as a vast technical library with emphasis on fillers, fuzes, and historical manuals.&#x20;
+Bulletpicker.com functions more as a vast technical library with emphasis on fillers, fuzes, and historical manuals.
 
-CAT-UXO has the broadest scope at the moment. It contains more munitions categories and non-munitions categories, such as IED incidents, terrorist groups, and munition delivery platforms (UCAVs and AFVs).&#x20;
+CAT-UXO has the broadest scope at the moment. It contains more munitions categories and non-munitions categories, such as IED incidents, terrorist groups, and munition delivery platforms (UCAVs and AFVs).
 
 {% hint style="info" icon="triangle-exclamation" %}
-NOTE: CAT-UXO sometimes contains mistakes. Always cross-check with other sources.&#x20;
+NOTE: CAT-UXO sometimes contains mistakes. Always cross-check with other sources.
 {% endhint %}
 
 ## Guide
@@ -300,6 +300,12 @@ Aagaard, Charlotte. "Major civilian casualties: Danish-equipped fighter jets beh
 Ali, Taz. "Small, deadly GBU-39 bombs are Israel's weapons of choice." _i-news_, September 2024. [https://inews.co.uk/news/world/small-deadly-gbu-39-bombs-israel-weapons-choice-3261816](https://inews.co.uk/news/world/small-deadly-gbu-39-bombs-israel-weapons-choice-3261816)
 
 Open Source Munitions Portal (OSMP). "Resources." OSMP. Accessed 2 December 2025. [https://osmp.ngo/resources/](https://osmp.ngo/resources/)
+
+{% hint style="info" %}
+The Resources section is available in Ukrainian on the following link: [https://osmp.ngo/resources-ukr/](https://osmp.ngo/resources-ukr/)&#x20;
+{% endhint %}
+
+
 
 Philp, Rowan. "New Open Source Tools and Tips to Investigate Bombing of Civilians." _Global Investigative Journalism Network (GIJN)_, 2024. [https://gijn.org/stories/new-open-source-munitions-tool-investigate-bombing-civilians/](https://gijn.org/stories/new-open-source-munitions-tool-investigate-bombing-civilians/)
 
