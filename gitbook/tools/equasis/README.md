@@ -37,8 +37,6 @@ Finally, under the "Ship History" tab we can view prior information about the Da
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
-
 ## Requirements
 
 Registering for an account with Equasis requires providing an email address and password, as well as your name, address, and role concerning Equasis.
@@ -50,6 +48,11 @@ Registering for an account with Equasis requires providing an email address and 
 * Equasis is primarily built for individual searches and has a limit on search results. A maximum of 20 ships and owners can be saved and exported from ‘MyEquasis’. For heavier use, Equasis points to commercial tools as S\&P Global Market Intelligence, Loyds List Intelligence, Clarkson, AXS-Marine, etc.
 * Reuse of the data: The data remains property of the data providers. No data can be harvested and reused in bulk without [permission](https://www.equasis.org/EquasisWeb/public/About?fs=HomePage\&P_ABOUT=MainConcern.html) from Equasis. This includes webservices and API’s.
 
+- Data in Equasis comes from different providers and is collated by Equasis. Data can be contradicting, incorrect or incomplete. It can hold double reporting, when a ship is inspected by port states that are members of more than one PSC.&#x20;
+- Data is not updated real-time. Class related info is updated weekly and sometimes daily. The frequency of the updates differs from provider to provider but can be checked in the tab/field last update
+- Equasis is primarily built for individual searches and has a limit on search results. A maximum of 20 ships and owners can be saved and exported from ‘MyEquasis’. For heavier use, Equasis points to commercial tools as S\&P Global Market Intelligence, Loyds List Intelligence, Clarkson, AXS-Marine, etc.
+- Reuse of the data: The data remains property of the data providers. No data can be harvested and reused in bulk without [permission](https://www.equasis.org/EquasisWeb/public/About?fs=HomePage\&P_ABOUT=MainConcern.html) from Equasis. This includes webservices and API’s.&#x20;
+
 ## Ethical Considerations
 
 As mentioned under [limitations](./#limitations), researchers using Equasis should undertake additional work to verify the information provided by Equasis, particularly when investigating ships and companies suspected of engaging in deceptive shipping practices.
@@ -58,7 +61,7 @@ As mentioned under [limitations](./#limitations), researchers using Equasis shou
 
 Equasis features in this general tutorial by the [Pulitzer Center](https://pulitzercenter.org/) ‘How to track ships like a pro using OSINT’, [Part I](https://pulitzercenter.org/resource/how-track-ships-pro-using-osint-part-i) and [Part II](https://pulitzercenter.org/resource/how-track-ships-pro-using-osint-part-ii).
 
-Bellingcat has used Equasis in [Shipwrecks, Sham Papers and False Flags: Tracking the Company](https://www.bellingcat.com/news/2026/02/19/shipwrecks-sham-papers-and-false-flags-tracking-the-company-behind-it-all/) and previously on investigations into  [Russian grain smuggling](https://www.bellingcat.com/news/2024/04/23/from-crimea-to-iran-two-more-ships-join-russias-grain-smuggling-fleet/), an [oil spill in Tobago](https://www.bellingcat.com/news/2024/02/14/identifying-the-mystery-vessel-at-the-site-of-trinidad-tobagos-national-emergency-oil-spill/), and a [superyacht that Equatorial Guinea’s Vice President claimed was a military vessel](https://www.bellingcat.com/news/2023/11/02/public-holidays-equatorial-guineas-vice-president-insists-superyacht-in-italian-vacation-hotspots-is-a-military-vessel/).
+Bellingcat has used Equasis in [Shipwrecks, Sham Papers and False Flags: Tracking the Company](https://www.bellingcat.com/news/2026/02/19/shipwrecks-sham-papers-and-false-flags-tracking-the-company-behind-it-all/) and previously on investigations into [Russian grain smuggling](https://www.bellingcat.com/news/2024/04/23/from-crimea-to-iran-two-more-ships-join-russias-grain-smuggling-fleet/), an [oil spill in Tobago](https://www.bellingcat.com/news/2024/02/14/identifying-the-mystery-vessel-at-the-site-of-trinidad-tobagos-national-emergency-oil-spill/), and a [superyacht that Equatorial Guinea’s Vice President claimed was a military vessel](https://www.bellingcat.com/news/2023/11/02/public-holidays-equatorial-guineas-vice-president-insists-superyacht-in-italian-vacation-hotspots-is-a-military-vessel/).
 
 ## Tool provider
 
