@@ -141,3 +141,26 @@ jobs:
           GH_REPO_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
         run: node src/import-to-gitbook.mjs
+
+      - name: Detect changes
+        uses: dorny/paths-filter@v3
+        id: changes
+        with:
+          base: HEAD
+          filters: |
+            checkpoint:
+              - 'last-synced.json'
+
+      - name: Commit changes
+        if: steps.changes.outputs.checkpoint == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add last-synced.json
+          git commit -m "Sync: Import to GitBook"
+
+      - name: Push changes
+        if: steps.changes.outputs.all == 'true'
+        run: |
+          git pull --rebase origin main
+          git push origin main
