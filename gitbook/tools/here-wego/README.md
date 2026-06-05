@@ -10,7 +10,7 @@ description: Mapping service that can serve as an alternative to Google Maps or 
 
 ## Description
 
-Here WeGo is a navigation app that can serve as an alternative to popular services like [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps) and [Apple Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/apple-maps). Open source researchers that are familiar with either platform will find many of the same basic features present on the Here WeGo website or application. However, Here WeGo does not offer a StreetView feature.&#x20;
+Here WeGo is a navigation app that can serve as an alternative to popular services like [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps) and [Apple Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/apple-maps). Open source researchers that are familiar with either platform will find many of the same basic features present on the Here WeGo website or application. However, Here WeGo does not offer a StreetView feature.
 
 Here WeGo offers users the option to overlay environmental zones over the map they are viewing. This provides an easily digestible view of low-emissions or similar types of other zones in a particular area.
 
@@ -50,7 +50,7 @@ A guide to what Here WeGo, its setup and its use is available on a community-run
 
 ## Tool provider
 
-The tool is created and maintained by an entity named Here Technologies. They are a Dutch multinational headquartered in Amsterdam that is majority owned by a consortium of German automotive companies. The entity's core business revolves around lisencing mapping content to other companies.&#x20;
+The tool is created and maintained by an entity named [Here Technologies](https://www.here.com/). They are a Dutch multinational headquartered in Amsterdam that is majority owned by a consortium of German automotive companies. The entity's core business revolves around lisencing mapping content to other companies.
 
 ## Advertising Trackers
 
