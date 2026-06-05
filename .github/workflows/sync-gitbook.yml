@@ -103,7 +103,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add gitbook/categories
-          git commit -m "Build: Update Categories"
+          git commit -m "Sync: Update Categories"
 
       - name: Commit tools
         if: steps.changes.outputs.tools == 'true'
@@ -111,7 +111,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add gitbook/tools
-          git commit -m "Build: Update Tools"
+          git commit -m "Sync: Update Tools"
 
       - name: Push changes
         if: steps.changes.outputs.all == 'true'
