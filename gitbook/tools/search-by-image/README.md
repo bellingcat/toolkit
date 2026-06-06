@@ -1,6 +1,6 @@
 ---
-description: A browser extension to reverse search an image on multiple search engines.
 updated: '2026-05-14'
+description: A browser extension to reverse search an image on multiple search engines.
 ---
 
 # Search by Image
@@ -81,7 +81,7 @@ This tool is designed to support journalists, investigators, and fact-checkers i
 
 * **Support for** [**44 search engines and image services**](https://github.com/dessant/search-by-image/wiki/Search-engines) in addition to the default options. You can toggle and re-order them in the extension’s settings.
 
-<figure><img src=".gitbook/assets/9 (1).webp" alt=""><figcaption><p>You can add additional search engines in the Options</p></figcaption></figure>
+<figure><img src=".gitbook/assets/9.webp" alt=""><figcaption><p>You can add additional search engines in the Options</p></figcaption></figure>
 
 * Reverse search an image in multiple search engines at once
 
@@ -109,7 +109,7 @@ You can set the context menu default behavior to either use the URL (default), I
 * [ ] Partially Free
 * [ ] Paid
 
-The tool is free and open-source.
+The tool is free and [open-source](https://github.com/dessant/search-by-image).
 
 ## Level of difficulty
 
@@ -121,13 +121,14 @@ Most search engines need Javascript to be enabled.
 
 ## Limitations
 
-Even though the extension seems to be actively maintained, certain events—such as browser updates, engine inaccessibility, or changes in how an engine processes image queries—may require updates to the extension.
+* Not all features are available for each search engine; some are restricted by local data protection laws, such as people and face recognition (lenso.ai), or require a paid account for full functionality (PimEyes).
+* Even though the extension seems to be actively maintained, certain events—such as browser updates, engine inaccessibility, or changes in how an engine processes image queries—may require updates to the extension.
 
 ## Ethical Considerations
 
-Make sure you have the right to use the selected search engines in your location.
-
-Engaging in doxxing, harassment, or sharing explicit content without consent is illegal and carries serious consequences under many jurisdictions' laws.
+* Especially for sensitive or unpublished imagery, be aware that using the ‘select image’ function uploads the file to third party servers, and can mean a wider exposure than intended. Search engines with less transparent privacy policies may retain or reuse the images.
+* Make sure you have the right to use the selected search engines in your location.
+* Engaging in doxxing, harassment, or sharing explicit content without consent is illegal and carries serious consequences under many jurisdictions' laws. Use images as leads for verification, as reusing images found through deep search may infringe copyright.
 
 ## Guides and articles
 
