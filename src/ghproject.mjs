@@ -2,7 +2,7 @@ import path from 'path'
 import pkg from './data.mjs'
 const {getTools, getSummary} = pkg;
 import pkg2 from './tools.mjs'
-const {fetchCollection, fetchLatestChangeRequest, fetchChangeRequestReviewers, fetchSpace} = pkg2
+const {fetchCollection, fetchLatestChangeRequest, fetchChangeRequestReviewers, fetchSpace, updateSpaceEmoji} = pkg2
 import graphql from './graphql.mjs';
 import client from './ghproject-client.mjs';
 
@@ -106,6 +106,11 @@ for (const tool of tools) {
       continue;
     }
     const collection = await fetchCollection(space.parent);
+
+    const isPublished = !!summary.match(path.relative('gitbook/', tool.filepath));
+    if (isPublished && space.emoji !== '🟢') {
+      await updateSpaceEmoji(space, '🟢');
+    }
 
     if (item.spaceUrl !== space.urls.app) {
       changed.space = space.urls.app;

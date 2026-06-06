@@ -297,6 +297,13 @@ async function renameSpace(space, name) {
   return data;
 }
 
+async function updateSpaceEmoji(space, emoji) {
+  return await apiCall(`https://api.gitbook.com/v1/spaces/${space.id}`, {
+    method: 'PATCH',
+    body: { emoji },
+  });
+}
+
 async function findTeam(name) {
   const teams = await fetchPaginated(
     (p) => `https://api.gitbook.com/v1/orgs/${ORG_ID}/teams?` + new URLSearchParams({ title: name, page: p })
@@ -417,6 +424,7 @@ export default {
   publishTool,
   removeTool,
   renameTool,
+  updateSpaceEmoji,
   updateToolJSON,
   updateToolCategories,
   updateToolSummary,
