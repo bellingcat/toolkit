@@ -99,9 +99,19 @@ You can set the context menu default behavior to either use the URL (default), I
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Change the Context menu default behavior</p></figcaption></figure>
 
+\{% hint style="success" %\}
+
+In case right-clicking an image does not work: use the Search by Image extension from the toolbar.&#x20;
+
+\{% endhint %\}
+
 ### Mechanics
 
 **Search by Image** detects images by parsing the entire web page, identifying images embedded in various ways (like canvas, CSS, or object elements) rather than relying solely on `<img>` tags. This approach ensures compatibility across diverse websites, capturing images regardless of how they’re embedded. Read [this post](https://github.com/dessant/search-by-image/wiki/Why-is-the-extension-always-visible-in-the-context-menu%3F) for more details.
+
+<figure><img src=".gitbook/assets/Screenshot 2026-06-06 at 17.06.52.png" alt=""><figcaption></figcaption></figure>
+
+In case the extension does not find the right image because it’s protected for download, embedded or layered in a non-standard way, try the (default disabled) toggle ‘Use deep search when selecting images’ under ‘Options’. This may surface several image candidates. Note that deep search works within what's already loaded in your browser, it will not go past logins or paywalls.
 
 ## Cost
 
