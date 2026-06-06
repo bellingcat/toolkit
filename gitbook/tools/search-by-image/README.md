@@ -99,11 +99,7 @@ You can set the context menu default behavior to either use the URL (default), I
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Change the Context menu default behavior</p></figcaption></figure>
 
-\{% hint style="success" %\}
-
-In case right-clicking an image does not work: use the Search by Image extension from the toolbar.&#x20;
-
-\{% endhint %\}
+\{% hint style="success" %\} In case right-clicking an image does not work: use the Search by Image extension from the toolbar. \{% endhint %\}
 
 ### Mechanics
 
