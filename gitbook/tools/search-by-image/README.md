@@ -156,6 +156,6 @@ The Search by Image Extension does not use tracking cookies but most of the sear
 
 Read the extension's [privacy policy](https://github.com/dessant/search-by-image/wiki/Privacy-policy) here.
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat Volunteer Team |
+| Page maintainer                     |
+| ----------------------------------- |
+| Bellingcat Volunteer Team / Lavache |
