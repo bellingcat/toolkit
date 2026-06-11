@@ -74,6 +74,14 @@ const ITEMS_QUERY = `
                   text
                   field { ... on ProjectV2FieldCommon { name } }
                 }
+                ... on ProjectV2ItemFieldDateValue {
+                  date
+                  field { ... on ProjectV2FieldCommon { name } }
+                }
+                ... on ProjectV2ItemFieldSingleSelectValue {
+                  name
+                  field { ... on ProjectV2FieldCommon { name } }
+                }
               }
             }
           }
