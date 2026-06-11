@@ -6,22 +6,22 @@ const { fetchMembers } = pkg;
 
 const SPREADSHEET_ID = process.env.GOOGLE_SHEET_ID;
 
-const TOOLS_HEADER = ['Title', 'Status', 'Published', 'Date submitted', 'Last updated', 'Tool Space', 'Latest change request', 'CR Author', 'CR Reviewers', 'Collection', 'Tool ID', 'Space ID'];
+const TOOLS_HEADER = ['Title', 'Published', 'Last updated', 'Collection', 'Tool Space', 'Latest change request', 'Status', 'Date submitted', 'CR Author', 'CR Reviewers', 'Tool ID', 'Space ID'];
 const MEMBERS_HEADER = ['Email', 'Role', 'Last seen at', 'Joined at'];
 
 // Order must match TOOLS_HEADER. Synchronous: getProjectItems() shells out to `gh` synchronously.
 function toolsRows() {
   return getProjectItems().map((item) => [
     item.title || '',
-    item.status || '',
     item.published || '',
-    item.submittedAt || '',
     item.updatedAt || '',
+    item.collection || '',
     item.spaceUrl || '',
     item.url || '',
+    item.status || '',
+    item.submittedAt || '',
     item.changeRequestAuthor || '',
     item.reviewers || '',
-    item.collection || '',
     item.toolId || '',
     item.spaceId || '',
   ]);
