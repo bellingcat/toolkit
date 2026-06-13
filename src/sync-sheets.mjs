@@ -38,47 +38,59 @@ function toolValues(item) {
   };
 }
 
-// Plans how to sync `items` into the Tools sheet without clearing it: existing
-// rows are matched by Tool ID and have their TOOLS_HEADER columns updated in
-// place (any other columns are left untouched), and items with no matching
-// row are appended. `existingValues` is the sheet's current values (row 0 is
-// the header), as returned by spreadsheets.values.get.
-function planToolsSync(existingValues, items) {
-  const header = existingValues[0] ? [...existingValues[0]] : [];
+// Maps a GitBook org member to its MEMBERS_HEADER column values, keyed by header name.
+function memberValues(member) {
+  return {
+    'Email': member.user?.email || '',
+    'Role': member.role || '',
+    'Last seen at': member.lastSeenAt || '',
+    'Joined at': member.joinedAt || '',
+  };
+}
+
+// Plans how to sync `items` into a sheet without clearing it: existing rows
+// are matched on `matchColumn` (via `matchValue(item)`) and have their
+// `header` columns updated in place (any other columns are left untouched),
+// and items with no matching row are appended. `existingValues` is the
+// sheet's current values (row 0 is the header), as returned by
+// spreadsheets.values.get. `rowValues(item)` returns {headerName: value} for
+// the managed columns.
+function planSheetSync(existingValues, header, items, matchColumn, rowValues, matchValue) {
+  const newHeader = existingValues[0] ? [...existingValues[0]] : [];
   let headerChanged = false;
-  for (const name of TOOLS_HEADER) {
-    if (!header.includes(name)) {
-      header.push(name);
+  for (const name of header) {
+    if (!newHeader.includes(name)) {
+      newHeader.push(name);
       headerChanged = true;
     }
   }
 
-  const toolIdCol = header.indexOf('Tool ID');
-  const rowByToolId = new Map();
+  const matchCol = newHeader.indexOf(matchColumn);
+  const rowByKey = new Map();
   for (let row = 1; row < existingValues.length; row++) {
-    const toolId = existingValues[row][toolIdCol];
-    if (toolId) rowByToolId.set(toolId, row);
+    const key = existingValues[row][matchCol];
+    if (key) rowByKey.set(key, row);
   }
 
   const cellUpdates = [];
   const appendRows = [];
   for (const item of items) {
-    const values = toolValues(item);
-    const row = rowByToolId.get(item.toolId);
+    const values = rowValues(item);
+    const row = rowByKey.get(matchValue(item));
     if (row !== undefined) {
-      for (const name of TOOLS_HEADER) {
-        cellUpdates.push({ row, col: header.indexOf(name), value: values[name] });
+      for (const name of header) {
+        cellUpdates.push({ row, col: newHeader.indexOf(name), value: values[name] });
       }
     } else {
-      const newRow = new Array(header.length).fill('');
-      for (const name of TOOLS_HEADER) {
-        newRow[header.indexOf(name)] = values[name];
+      const newRow = new Array(newHeader.length).fill('');
+      for (const name of header) {
+        newRow[newHeader.indexOf(name)] = values[name];
       }
       appendRows.push(newRow);
     }
   }
 
-  return { header, headerChanged, cellUpdates, appendRows };
+  return { header: newHeader, headerChanged, cellUpdates, appendRows };
 }
 
 // Converts a 0-based column index to its A1 letter(s), e.g. 0 -> 'A', 26 -> 'AA'.
@@ -88,17 +100,6 @@ function columnLetter(index) {
     letters = String.fromCharCode(65 + (n % 26)) + letters;
   }
   return letters;
-}
-
-// Order must match MEMBERS_HEADER.
-async function membersRows() {
-  const members = await fetchMembers();
-  return members.map((member) => [
-    member.user?.email || '',
-    member.role || '',
-    member.lastSeenAt || '',
-    member.joinedAt || '',
-  ]);
 }
 
 async function ensureSheetExists(sheets, title) {
@@ -113,42 +114,16 @@ async function ensureSheetExists(sheets, title) {
   }
 }
 
-async function writeSheet(sheets, title, header, rows) {
-  await ensureSheetExists(sheets, title);
-
-  await sheets.spreadsheets.values.clear({
-    spreadsheetId: SPREADSHEET_ID,
-    range: title,
-  });
-
-  await sheets.spreadsheets.values.update({
-    spreadsheetId: SPREADSHEET_ID,
-    range: `${title}!A1`,
-    valueInputOption: 'RAW',
-    requestBody: { values: [header, ...rows] },
-  });
-
-  console.log(`Wrote ${rows.length} rows to "${title}"`);
-}
-
-// Syncs project items into the Tools sheet in place: existing rows are
-// matched by Tool ID and updated, unmatched items are appended, and the
-// sheet is never cleared.
-async function syncToolsSheet(sheets) {
-  await ensureSheetExists(sheets, 'Tools');
-
-  const existing = await sheets.spreadsheets.values.get({
-    spreadsheetId: SPREADSHEET_ID,
-    range: 'Tools',
-  });
-  const existingValues = existing.data.values || [];
-
-  const { header, headerChanged, cellUpdates, appendRows } = planToolsSync(existingValues, toolsItems());
+// Applies a plan from planSheetSync to the given sheet tab: writes the header
+// (only if it changed), updates matched rows' cells, and appends new rows.
+// Never clears the sheet.
+async function applySheetSync(sheets, title, plan) {
+  const { header, headerChanged, cellUpdates, appendRows } = plan;
 
   if (headerChanged) {
     await sheets.spreadsheets.values.update({
       spreadsheetId: SPREADSHEET_ID,
-      range: 'Tools!A1',
+      range: `${title}!A1`,
       valueInputOption: 'RAW',
       requestBody: { values: [header] },
     });
@@ -160,7 +135,7 @@ async function syncToolsSheet(sheets) {
       requestBody: {
         valueInputOption: 'RAW',
         data: cellUpdates.map(({ row, col, value }) => ({
-          range: `Tools!${columnLetter(col)}${row + 1}`,
+          range: `${title}!${columnLetter(col)}${row + 1}`,
           values: [[value]],
         })),
       },
@@ -170,14 +145,32 @@ async function syncToolsSheet(sheets) {
   if (appendRows.length > 0) {
     await sheets.spreadsheets.values.append({
       spreadsheetId: SPREADSHEET_ID,
-      range: 'Tools!A1',
+      range: `${title}!A1`,
       valueInputOption: 'RAW',
       insertDataOption: 'INSERT_ROWS',
       requestBody: { values: appendRows },
     });
   }
 
-  console.log(`Tools: updated ${cellUpdates.length / TOOLS_HEADER.length} row(s), appended ${appendRows.length} row(s)`);
+  const updatedRows = new Set(cellUpdates.map((update) => update.row)).size;
+  console.log(`${title}: updated ${updatedRows} row(s), appended ${appendRows.length} row(s)`);
+}
+
+// Syncs `items` into `title`'s sheet tab in place, matching existing rows on
+// `matchColumn` via `matchValue(item)` and updating `header`'s columns
+// (via `rowValues(item)`). Unmatched items are appended; the sheet is never
+// cleared and any other columns are left untouched.
+async function syncSheet(sheets, title, header, items, matchColumn, rowValues, matchValue) {
+  await ensureSheetExists(sheets, title);
+
+  const existing = await sheets.spreadsheets.values.get({
+    spreadsheetId: SPREADSHEET_ID,
+    range: title,
+  });
+  const existingValues = existing.data.values || [];
+
+  const plan = planSheetSync(existingValues, header, items, matchColumn, rowValues, matchValue);
+  await applySheetSync(sheets, title, plan);
 }
 
 async function main() {
@@ -187,8 +180,8 @@ async function main() {
   });
   const sheets = google.sheets({ version: 'v4', auth });
 
-  await syncToolsSheet(sheets);
-  await writeSheet(sheets, 'Members', MEMBERS_HEADER, await membersRows());
+  await syncSheet(sheets, 'Tools', TOOLS_HEADER, toolsItems(), 'Tool ID', toolValues, (item) => item.toolId);
+  await syncSheet(sheets, 'Members', MEMBERS_HEADER, await fetchMembers(), 'Email', memberValues, (member) => member.user?.email || '');
 }
 
 const isMain = import.meta.url === `file://${process.argv[1]}`;
@@ -196,4 +189,4 @@ if (isMain) {
   main();
 }
 
-export { planToolsSync, toolsItems, toolValues, membersRows };
+export { planSheetSync, toolsItems, toolValues, memberValues };
