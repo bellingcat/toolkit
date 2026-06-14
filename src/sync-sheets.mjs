@@ -24,7 +24,7 @@ function toolsItems() {
 function toolValues(item) {
   return {
     'Title': item.title || '',
-    'Published': item.published || '',
+    'Published': item.published ? 'TRUE' : '',
     'Last updated': item.updatedAt || '',
     'Collection': item.collection || '',
     'Tool Space': item.spaceUrl || '',
