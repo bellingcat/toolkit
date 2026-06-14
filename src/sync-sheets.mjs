@@ -116,8 +116,11 @@ async function ensureSheetExists(sheets, title) {
 
 // Applies a plan from planSheetSync to the given sheet tab: writes the header
 // (only if it changed), updates matched rows' cells, and appends new rows.
-// Never clears the sheet.
-async function applySheetSync(sheets, title, plan) {
+// Never clears the sheet. `typedColumns` lists header names whose values
+// should be written with valueInputOption 'USER_ENTERED' so Sheets parses
+// them into real booleans/dates (e.g. "TRUE" or "2026-01-15") instead of
+// storing them as forced text; all other columns are written as 'RAW'.
+async function applySheetSync(sheets, title, plan, typedColumns = []) {
   const { header, headerChanged, cellUpdates, appendRows } = plan;
 
   if (headerChanged) {
@@ -129,27 +132,55 @@ async function applySheetSync(sheets, title, plan) {
     });
   }
 
-  if (cellUpdates.length > 0) {
-    await sheets.spreadsheets.values.batchUpdate({
-      spreadsheetId: SPREADSHEET_ID,
-      requestBody: {
-        valueInputOption: 'RAW',
-        data: cellUpdates.map(({ row, col, value }) => ({
-          range: `${title}!${columnLetter(col)}${row + 1}`,
-          values: [[value]],
-        })),
-      },
-    });
+  const typedCols = new Set(typedColumns.map((name) => header.indexOf(name)).filter((col) => col >= 0));
+
+  for (const [valueInputOption, updates] of [
+    ['RAW', cellUpdates.filter(({ col }) => !typedCols.has(col))],
+    ['USER_ENTERED', cellUpdates.filter(({ col }) => typedCols.has(col))],
+  ]) {
+    if (updates.length > 0) {
+      await sheets.spreadsheets.values.batchUpdate({
+        spreadsheetId: SPREADSHEET_ID,
+        requestBody: {
+          valueInputOption,
+          data: updates.map(({ row, col, value }) => ({
+            range: `${title}!${columnLetter(col)}${row + 1}`,
+            values: [[value]],
+          })),
+        },
+      });
+    }
   }
 
   if (appendRows.length > 0) {
-    await sheets.spreadsheets.values.append({
+    const response = await sheets.spreadsheets.values.append({
       spreadsheetId: SPREADSHEET_ID,
       range: `${title}!A1`,
       valueInputOption: 'RAW',
       insertDataOption: 'INSERT_ROWS',
       requestBody: { values: appendRows },
     });
+
+    // Re-write typed columns of the newly appended rows with USER_ENTERED so
+    // they're parsed as booleans/dates rather than left as forced text.
+    if (typedCols.size > 0) {
+      const startCell = response.data.updates.updatedRange.split('!')[1].split(':')[0];
+      const startRow = parseInt(startCell.match(/\d+/)[0], 10);
+
+      const data = [];
+      appendRows.forEach((rowValues, i) => {
+        for (const col of typedCols) {
+          data.push({
+            range: `${title}!${columnLetter(col)}${startRow + i}`,
+            values: [[rowValues[col]]],
+          });
+        }
+      });
+      await sheets.spreadsheets.values.batchUpdate({
+        spreadsheetId: SPREADSHEET_ID,
+        requestBody: { valueInputOption: 'USER_ENTERED', data },
+      });
+    }
   }
 
   const updatedRows = new Set(cellUpdates.map((update) => update.row)).size;
@@ -159,8 +190,9 @@ async function applySheetSync(sheets, title, plan) {
 // Syncs `items` into `title`'s sheet tab in place, matching existing rows on
 // `matchColumn` via `matchValue(item)` and updating `header`'s columns
 // (via `rowValues(item)`). Unmatched items are appended; the sheet is never
-// cleared and any other columns are left untouched.
-async function syncSheet(sheets, title, header, items, matchColumn, rowValues, matchValue) {
+// cleared and any other columns are left untouched. `typedColumns` lists
+// header names to write as USER_ENTERED so Sheets recognizes booleans/dates.
+async function syncSheet(sheets, title, header, items, matchColumn, rowValues, matchValue, typedColumns = []) {
   await ensureSheetExists(sheets, title);
 
   const existing = await sheets.spreadsheets.values.get({
@@ -170,8 +202,12 @@ async function syncSheet(sheets, title, header, items, matchColumn, rowValues, m
   const existingValues = existing.data.values || [];
 
   const plan = planSheetSync(existingValues, header, items, matchColumn, rowValues, matchValue);
-  await applySheetSync(sheets, title, plan);
+  await applySheetSync(sheets, title, plan, typedColumns);
 }
+
+// Columns written as USER_ENTERED so Sheets parses them into real booleans/dates.
+const TOOLS_TYPED_COLUMNS = ['Published', 'Last updated', 'Date submitted'];
+const MEMBERS_TYPED_COLUMNS = ['Last seen at', 'Joined at'];
 
 async function main() {
   const auth = new google.auth.GoogleAuth({
@@ -180,8 +216,8 @@ async function main() {
   });
   const sheets = google.sheets({ version: 'v4', auth });
 
-  await syncSheet(sheets, 'Tools', TOOLS_HEADER, toolsItems(), 'Tool ID', toolValues, (item) => item.toolId);
-  await syncSheet(sheets, 'Members', MEMBERS_HEADER, await fetchMembers(), 'Email', memberValues, (member) => member.user?.email || '');
+  await syncSheet(sheets, 'Tools', TOOLS_HEADER, toolsItems(), 'Tool ID', toolValues, (item) => item.toolId, TOOLS_TYPED_COLUMNS);
+  await syncSheet(sheets, 'Members', MEMBERS_HEADER, await fetchMembers(), 'Email', memberValues, (member) => member.user?.email || '', MEMBERS_TYPED_COLUMNS);
 }
 
 const isMain = import.meta.url === `file://${process.argv[1]}`;
