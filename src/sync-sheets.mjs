@@ -102,16 +102,33 @@ function columnLetter(index) {
   return letters;
 }
 
+// Ensures `title`'s sheet tab exists, creating it if necessary, and returns its sheetId.
 async function ensureSheetExists(sheets, title) {
   const spreadsheet = await sheets.spreadsheets.get({ spreadsheetId: SPREADSHEET_ID });
-  const exists = spreadsheet.data.sheets.some((sheet) => sheet.properties.title === title);
-  if (!exists) {
-    await sheets.spreadsheets.batchUpdate({
-      spreadsheetId: SPREADSHEET_ID,
-      requestBody: { requests: [{ addSheet: { properties: { title } } }] },
-    });
-    console.log(`Created sheet tab "${title}"`);
-  }
+  const existing = spreadsheet.data.sheets.find((sheet) => sheet.properties.title === title);
+  if (existing) return existing.properties.sheetId;
+
+  const response = await sheets.spreadsheets.batchUpdate({
+    spreadsheetId: SPREADSHEET_ID,
+    requestBody: { requests: [{ addSheet: { properties: { title } } }] },
+  });
+  console.log(`Created sheet tab "${title}"`);
+  return response.data.replies[0].addSheet.properties.sheetId;
+}
+
+// Sorts the sheet's data rows (excluding the header) by its first column, ascending.
+async function sortSheet(sheets, sheetId) {
+  await sheets.spreadsheets.batchUpdate({
+    spreadsheetId: SPREADSHEET_ID,
+    requestBody: {
+      requests: [{
+        sortRange: {
+          range: { sheetId, startRowIndex: 1, startColumnIndex: 0 },
+          sortSpecs: [{ dimensionIndex: 0, sortOrder: 'ASCENDING' }],
+        },
+      }],
+    },
+  });
 }
 
 // Applies a plan from planSheetSync to the given sheet tab: writes the header
@@ -192,8 +209,9 @@ async function applySheetSync(sheets, title, plan, typedColumns = []) {
 // (via `rowValues(item)`). Unmatched items are appended; the sheet is never
 // cleared and any other columns are left untouched. `typedColumns` lists
 // header names to write as USER_ENTERED so Sheets recognizes booleans/dates.
+// If any rows were appended, the sheet is re-sorted by its first column.
 async function syncSheet(sheets, title, header, items, matchColumn, rowValues, matchValue, typedColumns = []) {
-  await ensureSheetExists(sheets, title);
+  const sheetId = await ensureSheetExists(sheets, title);
 
   const existing = await sheets.spreadsheets.values.get({
     spreadsheetId: SPREADSHEET_ID,
@@ -203,6 +221,10 @@ async function syncSheet(sheets, title, header, items, matchColumn, rowValues, m
 
   const plan = planSheetSync(existingValues, header, items, matchColumn, rowValues, matchValue);
   await applySheetSync(sheets, title, plan, typedColumns);
+
+  if (plan.appendRows.length > 0) {
+    await sortSheet(sheets, sheetId);
+  }
 }
 
 // Columns written as USER_ENTERED so Sheets parses them into real booleans/dates.
