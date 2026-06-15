@@ -93,6 +93,24 @@ function planSheetSync(existingValues, header, items, matchColumn, rowValues, ma
   return { header: newHeader, headerChanged, cellUpdates, appendRows };
 }
 
+// Plans which of `toolIds` are missing from column A of a reference tab and
+// where to write them. `existingValues` is the tab's current values (row 0
+// is the header; column A holds Tool IDs referenced by formulas in the other
+// columns). Returns the missing IDs (in order) and the 0-indexed rows (within
+// existingValues) of the first rows with an empty column A — one row per
+// missing ID, up to however many empty rows are available.
+function planToolIdReferences(existingValues, toolIds) {
+  const present = new Set(existingValues.slice(1).map((row) => row[0]).filter(Boolean));
+  const missing = toolIds.filter((id) => !present.has(id));
+
+  const emptyRows = [];
+  for (let row = 1; row < existingValues.length && emptyRows.length < missing.length; row++) {
+    if (!existingValues[row][0]) emptyRows.push(row);
+  }
+
+  return { missing, emptyRows };
+}
+
 // Converts a 0-based column index to its A1 letter(s), e.g. 0 -> 'A', 26 -> 'AA'.
 function columnLetter(index) {
   let letters = '';
@@ -102,11 +120,17 @@ function columnLetter(index) {
   return letters;
 }
 
+// Returns the sheetId of `title`'s tab, or null if no such tab exists.
+async function findSheetId(sheets, title) {
+  const spreadsheet = await sheets.spreadsheets.get({ spreadsheetId: SPREADSHEET_ID });
+  const sheet = spreadsheet.data.sheets.find((sheet) => sheet.properties.title === title);
+  return sheet ? sheet.properties.sheetId : null;
+}
+
 // Ensures `title`'s sheet tab exists, creating it if necessary, and returns its sheetId.
 async function ensureSheetExists(sheets, title) {
-  const spreadsheet = await sheets.spreadsheets.get({ spreadsheetId: SPREADSHEET_ID });
-  const existing = spreadsheet.data.sheets.find((sheet) => sheet.properties.title === title);
-  if (existing) return existing.properties.sheetId;
+  const sheetId = await findSheetId(sheets, title);
+  if (sheetId !== null) return sheetId;
 
   const response = await sheets.spreadsheets.batchUpdate({
     spreadsheetId: SPREADSHEET_ID,
@@ -227,6 +251,49 @@ async function syncSheet(sheets, title, header, items, matchColumn, rowValues, m
   }
 }
 
+// Tabs (besides Tools) whose column A holds Tool IDs referenced by formulas
+// in their other columns. Any Tool ID present in the Tools sheet but missing
+// from a tab's column A is written into that tab's first rows with an empty
+// column A; other columns (the formulas) are left untouched. Names may
+// change in the future, so missing tabs are skipped with a warning.
+const TOOL_ID_REFERENCE_TABS = ['Overview', 'Signup', 'Admin'];
+
+// Adds any of `toolIds` missing from `title`'s column A into the first rows
+// with an empty column A. Skips tabs that don't exist.
+async function syncToolIdReferences(sheets, title, toolIds) {
+  const sheetId = await findSheetId(sheets, title);
+  if (sheetId === null) {
+    console.warn(`${title}: sheet tab not found, skipping tool ID sync`);
+    return;
+  }
+
+  const existing = await sheets.spreadsheets.values.get({
+    spreadsheetId: SPREADSHEET_ID,
+    range: title,
+  });
+  const existingValues = existing.data.values || [];
+
+  const { missing, emptyRows } = planToolIdReferences(existingValues, toolIds);
+  if (missing.length === 0) return;
+
+  if (emptyRows.length < missing.length) {
+    console.warn(`${title}: only ${emptyRows.length} empty row(s) for ${missing.length} new tool ID(s) — add more template rows`);
+  }
+
+  const data = missing.slice(0, emptyRows.length).map((id, i) => ({
+    range: `${title}!A${emptyRows[i] + 1}`,
+    values: [[id]],
+  }));
+
+  if (data.length > 0) {
+    await sheets.spreadsheets.values.batchUpdate({
+      spreadsheetId: SPREADSHEET_ID,
+      requestBody: { valueInputOption: 'RAW', data },
+    });
+    console.log(`${title}: added ${data.length} tool ID(s)`);
+  }
+}
+
 // Columns written as USER_ENTERED so Sheets parses them into real booleans/dates.
 const TOOLS_TYPED_COLUMNS = ['Published', 'Last updated', 'Date submitted'];
 const MEMBERS_TYPED_COLUMNS = ['Last seen at', 'Joined at'];
@@ -238,8 +305,14 @@ async function main() {
   });
   const sheets = google.sheets({ version: 'v4', auth });
 
-  await syncSheet(sheets, 'Tools', TOOLS_HEADER, toolsItems(), 'Tool ID', toolValues, (item) => item.toolId, TOOLS_TYPED_COLUMNS);
+  const tools = toolsItems();
+  await syncSheet(sheets, 'Tools', TOOLS_HEADER, tools, 'Tool ID', toolValues, (item) => item.toolId, TOOLS_TYPED_COLUMNS);
   await syncSheet(sheets, 'Members', MEMBERS_HEADER, await fetchMembers(), 'Email', memberValues, (member) => member.user?.email || '', MEMBERS_TYPED_COLUMNS);
+
+  const toolIds = tools.map((item) => item.toolId);
+  for (const title of TOOL_ID_REFERENCE_TABS) {
+    await syncToolIdReferences(sheets, title, toolIds);
+  }
 }
 
 const isMain = import.meta.url === `file://${process.argv[1]}`;
@@ -247,4 +320,4 @@ if (isMain) {
   main();
 }
 
-export { planSheetSync, toolsItems, toolValues, memberValues };
+export { planSheetSync, planToolIdReferences, toolsItems, toolValues, memberValues };
