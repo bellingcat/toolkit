@@ -311,6 +311,13 @@ async function findTeam(name) {
   return teams.find((team) => team.title === name);
 }
 
+function fetchTeamMembers(teamId, page='') {
+  return fetchPaginated(
+    (p) => `https://api.gitbook.com/v1/orgs/${ORG_ID}/teams/${teamId}/members?` + new URLSearchParams({ page: p }),
+    page
+  );
+}
+
 async function addTeamMember(team, email) {
   const response = await apiCall(`https://api.gitbook.com/v1/orgs/${ORG_ID}/teams/${team.id}/members`, {
     method: 'PUT',
@@ -416,6 +423,8 @@ export default {
   createToolOnGitbook,
   fetchSpace,
   fetchSpaces,
+  fetchTeams,
+  fetchTeamMembers,
   fetchMergedChangeRequests,
   fetchChangeRequestReviewers,
   fetchLatestChangeRequest,

@@ -2,7 +2,7 @@ import path from 'path'
 import pkg from './data.mjs'
 const {getTools, getSummary} = pkg;
 import pkg2 from './tools.mjs'
-const {fetchCollection, fetchLatestChangeRequest, fetchChangeRequestReviewers, fetchSpace, updateSpaceEmoji} = pkg2
+const {fetchCollection, fetchLatestChangeRequest, fetchChangeRequestReviewers, fetchSpace, fetchTeamMembers, updateSpaceEmoji} = pkg2
 import graphql from './graphql.mjs';
 import client from './ghproject-client.mjs';
 import projectFields from './ghproject-fields.mjs';
@@ -44,6 +44,14 @@ for (const tool of tools) {
     changes.push(graphql.setDateField(item.id, FIELDS.updatedAt.id, tool.updated));
   }
 
+  if (item.teamId) {
+    const members = await fetchTeamMembers(item.teamId);
+    const emails = members.map((member) => member.user?.email).filter(Boolean).join(', ');
+    if (item.teamMembers !== emails) {
+      changed.teamMembers = emails;
+      changes.push(graphql.setTextField(item.id, FIELDS.teamMembers.id, emails));
+    }
+  }
 
   if (item.spaceId) {
     const space = await fetchSpace(item.spaceId);
