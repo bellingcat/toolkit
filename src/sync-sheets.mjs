@@ -6,7 +6,7 @@ const { fetchMembers } = pkg;
 
 const SPREADSHEET_ID = process.env.GOOGLE_SHEET_ID;
 
-const TOOLS_HEADER = ['Title', 'Published', 'Last updated', 'Collection', 'Tool Space', 'Latest change request', 'Status', 'Date submitted', 'CR Author', 'CR Reviewers', 'Tool ID', 'Space ID', 'Team ID'];
+const TOOLS_HEADER = ['Title', 'Published', 'Last updated', 'Collection', 'Tool Space', 'Latest change request', 'Status', 'Date submitted', 'CR Author', 'CR Reviewers', 'Tool ID', 'Space ID', 'Team ID', 'Team Members'];
 const MEMBERS_HEADER = ['Email', 'Role', 'Last seen at', 'Joined at'];
 
 // Project items that correspond to a tool (i.e. have a Tool ID).
@@ -36,6 +36,7 @@ function toolValues(item) {
     'Tool ID': item.toolId || '',
     'Space ID': item.spaceId || '',
     'Team ID': item.teamId || '',
+    'Team Members': item.teamMembers || '',
   };
 }
 
