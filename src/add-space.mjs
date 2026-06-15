@@ -11,6 +11,6 @@ if (!toolName) {
   process.exit(1);
 }
 createToolOnGitbook(toolName, category, email).then(function(space) {
-  console.log(space.id);
+  console.log(`${space.id} ${space.teamId}`);
   console.warn(space.urls.app);
 });

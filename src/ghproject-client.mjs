@@ -129,8 +129,8 @@ function findItemByToolId(toolSlug) {
 
 // --- High-level operations ---
 
-// Creates a draft project item for a tool and sets Tool ID + Space ID fields.
-function addItemToProject(toolSlug, spaceId, toolTitle) {
+// Creates a draft project item for a tool and sets Tool ID + Space ID + Team ID fields.
+function addItemToProject(toolSlug, spaceId, teamId, toolTitle) {
   const projectId = getProjectId();
   const fields = getProjectFields();
 
@@ -145,8 +145,8 @@ function addItemToProject(toolSlug, spaceId, toolTitle) {
   ghql(`
     mutation(
       $project: ID! $item: ID!
-      $toolField: ID! $spaceField: ID!
-      $toolValue: String! $spaceValue: String!
+      $toolField: ID! $spaceField: ID! $teamField: ID!
+      $toolValue: String! $spaceValue: String! $teamValue: String!
     ) {
       set_tool_id: updateProjectV2ItemFieldValue(input: {
         projectId: $project itemId: $item fieldId: $toolField
@@ -156,13 +156,19 @@ function addItemToProject(toolSlug, spaceId, toolTitle) {
         projectId: $project itemId: $item fieldId: $spaceField
         value: { text: $spaceValue }
       }) { projectV2Item { id } }
+      set_team_id: updateProjectV2ItemFieldValue(input: {
+        projectId: $project itemId: $item fieldId: $teamField
+        value: { text: $teamValue }
+      }) { projectV2Item { id } }
     }`, {
     project: projectId,
     item: itemId,
     toolField: fields['Tool ID'].id,
     spaceField: fields['Space ID'].id,
+    teamField: fields['Team ID'].id,
     toolValue: toolSlug,
     spaceValue: spaceId,
+    teamValue: teamId || '',
   });
 
   console.log(`Added project item ${itemId} for ${toolSlug}`);

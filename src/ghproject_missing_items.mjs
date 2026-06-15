@@ -14,7 +14,7 @@ function main() {
     const item = rawItems.find((item) => getToolId(item) === tool.filename);
     if (!item) {
       console.log(`Adding missing project item: ${tool.filename}`);
-      client.addItemToProject(tool.filename, '', tool.title);
+      client.addItemToProject(tool.filename, '', '', tool.title);
     }
   });
 }

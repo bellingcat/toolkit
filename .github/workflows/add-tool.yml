@@ -55,8 +55,9 @@ jobs:
         env:
           GITBOOK_API_TOKEN: ${{ secrets.GITBOOK_API_TOKEN }}
         run: |
-          SPACE_ID=$(node src/add-space.mjs "$TOOL_NAME" "$EMAIL" "$CATEGORY")
+          read -r SPACE_ID TEAM_ID <<< "$(node src/add-space.mjs "$TOOL_NAME" "$EMAIL" "$CATEGORY")"
           echo "spaceId=$SPACE_ID" >> "$GITHUB_OUTPUT"
+          echo "teamId=$TEAM_ID" >> "$GITHUB_OUTPUT"
           if [ -n "$(git status --porcelain)" ]; then
             echo "changes=true" >> "$GITHUB_OUTPUT"
           fi
@@ -97,4 +98,4 @@ jobs:
       - name: Add to GitHub Project
         env:
           GH_TOKEN: ${{ secrets.GH_PROJECT_TOKEN }}
-        run: node src/add-project-item.mjs "${{ steps.add-folder.outputs.toolId }}" "${{ steps.add-space.outputs.spaceId }}"
+        run: node src/add-project-item.mjs "${{ steps.add-folder.outputs.toolId }}" "${{ steps.add-space.outputs.spaceId }}" "${{ steps.add-space.outputs.teamId }}"
