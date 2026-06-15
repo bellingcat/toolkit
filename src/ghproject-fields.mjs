@@ -12,6 +12,7 @@ const FIELD_NAMES = {
   author: 'CR Author',
   toolId: 'Tool ID',
   spaceId: 'Space ID',
+  teamId: 'Team ID',
   title: 'Title',
   collection: 'Collection',
 };
@@ -55,6 +56,7 @@ function getProjectItems() {
       spaceUrl: getField(FIELDS.spaceUrl.name, item).text,
       toolId: getField(FIELDS.toolId.name, item).text,
       spaceId: getField(FIELDS.spaceId.name, item).text,
+      teamId: getField(FIELDS.teamId.name, item).text,
       changeRequestAuthor: getField(FIELDS.author.name, item).text,
       reviewers: getField(FIELDS.reviewers.name, item).text,
       collection: getField(FIELDS.collection.name, item).text,
