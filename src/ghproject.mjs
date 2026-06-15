@@ -46,7 +46,7 @@ for (const tool of tools) {
 
   if (item.teamId) {
     const members = await fetchTeamMembers(item.teamId);
-    const emails = members.map((member) => member.user?.email).filter(Boolean).join(', ');
+    const emails = members.map((member) => member.organization?.user?.email).filter(Boolean).join(', ');
     if (item.teamMembers !== emails) {
       changed.teamMembers = emails;
       changes.push(graphql.setTextField(item.id, FIELDS.teamMembers.id, emails));
