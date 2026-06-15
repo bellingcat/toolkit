@@ -216,6 +216,7 @@ async function createToolOnGitbook(toolName, category, email) {
 
   const space = await createSpace(slug, collection);
   const team = await createTeam(toolName);
+  await addTeamToSpace(space, team, 'review');
 
   if (email) {
     await addTeamMember(team, email);
@@ -316,6 +317,18 @@ function fetchTeamMembers(teamId, page='') {
     (p) => `https://api.gitbook.com/v1/orgs/${ORG_ID}/teams/${teamId}/members?` + new URLSearchParams({ page: p }),
     page
   );
+}
+
+// Grants a team access to a space at the given permission role
+// (admin, create, edit, review, comment, read, or null for guest).
+async function addTeamToSpace(space, team, role) {
+  const response = await apiCall(`https://api.gitbook.com/v1/spaces/${space.id}/permissions`, {
+    method: 'POST',
+    body: { teams: [team.id], role },
+  });
+  if (response.status !== 204) {
+    throw new Error(`Failed to grant team access to space ${space.id}`);
+  }
 }
 
 async function addTeamMember(team, email) {
