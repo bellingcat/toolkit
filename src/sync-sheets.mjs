@@ -291,6 +291,7 @@ async function syncToolIdReferences(sheets, title, toolIds) {
       requestBody: { valueInputOption: 'RAW', data },
     });
     console.log(`${title}: added ${data.length} tool ID(s)`);
+    await sortSheet(sheets, sheetId);
   }
 }
 
