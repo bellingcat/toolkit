@@ -212,7 +212,7 @@ async function applySheetSync(sheets, title, plan, typedColumns = [], headerRow 
       spreadsheetId: SPREADSHEET_ID,
       range: `${title}!A${headerRow}`,
       valueInputOption: 'RAW',
-      insertDataOption: 'INSERT_ROWS',
+      insertDataOption: 'OVERWRITE',
       requestBody: { values: appendRows },
     });
 
