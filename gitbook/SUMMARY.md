@@ -62,7 +62,7 @@
   * [BirdNet](tools/birdnet/README.md)
   * [Blackbird](tools/blackbird/README.md)
   * [Blender](tools/blender/README.md)
-  * [BskyFollowFinder/Bluesky network analyzer](tools/bluesky-network-analyzer/README.md)
+  * [BskyFollowFinder](tools/bluesky-network-analyzer/README.md)
   * [BskyThreadReader](tools/bskythreadreader/README.md)
   * [Bulletpicker.com](tools/bulletpicker.com/README.md)
   * [CAT UXO](tools/cat-uxo/README.md)
