@@ -122,51 +122,20 @@ function columnLetter(index) {
   return letters;
 }
 
-// Converts A1 column letters to a 0-based index, e.g. 'A' -> 0, 'AA' -> 26.
-function columnIndex(letters) {
-  let index = 0;
-  for (const char of letters.toUpperCase()) {
-    index = index * 26 + (char.charCodeAt(0) - 64);
-  }
-  return index - 1;
-}
-
-// Parses a table range string (e.g. "Sheet1!A5:N500" or "A5:N500") into grid bounds.
-// Returns { startRowIndex, endRowIndex, startColIndex, endColIndex, readRange } where
-// indices are 0-based and end values are exclusive, or null if tableRange is falsy.
-function parseTableRange(tableRange) {
-  if (!tableRange) return null;
-  const rangeStr = tableRange.includes('!') ? tableRange.split('!')[1] : tableRange;
-  const [startCell, endCell] = rangeStr.split(':');
-  const startCol = startCell.match(/[A-Z]+/i)[0];
-  const startRow = parseInt(startCell.match(/\d+/)[0], 10);
-  const endCol = endCell.match(/[A-Z]+/i)[0];
-  const endRow = parseInt(endCell.match(/\d+/)[0], 10);
-  return {
-    startRowIndex: startRow - 1,
-    endRowIndex: endRow,             // 0-based exclusive = 1-based inclusive
-    startColIndex: columnIndex(startCol),
-    endColIndex: columnIndex(endCol) + 1,  // exclusive
-    readRange: rangeStr,
-  };
-}
-
-// Returns { sheetId, tableRange } for the named tab, or null if the tab doesn't exist.
-// tableRange is the first embedded Table's range string (e.g. "Sheet1!A5:N500"), or null.
+// Returns { sheetId, table } for the named tab, or null if the tab doesn't exist.
+// table is the first embedded Table's GridRange ({ startRowIndex, endRowIndex,
+// startColumnIndex, endColumnIndex }, all 0-based, end exclusive), or null.
 async function getSheetMeta(sheets, title) {
-  const spreadsheet = await sheets.spreadsheets.get({
-    spreadsheetId: SPREADSHEET_ID,
-    fields: 'sheets.properties,sheets.tables',
-  });
+  const spreadsheet = await sheets.spreadsheets.get({ spreadsheetId: SPREADSHEET_ID });
   const sheet = spreadsheet.data.sheets?.find((s) => s.properties.title === title);
   if (!sheet) return null;
   return {
     sheetId: sheet.properties.sheetId,
-    tableRange: sheet.tables?.[0]?.tableRange ?? null,
+    table: sheet.tables?.[0]?.range ?? null,
   };
 }
 
-// Ensures the named tab exists (creating it if necessary) and returns { sheetId, tableRange }.
+// Ensures the named tab exists (creating it if necessary) and returns { sheetId, table }.
 async function ensureSheetMeta(sheets, title) {
   const meta = await getSheetMeta(sheets, title);
   if (meta) return meta;
@@ -178,7 +147,7 @@ async function ensureSheetMeta(sheets, title) {
   console.log(`Created sheet tab "${title}"`);
   return {
     sheetId: response.data.replies[0].addSheet.properties.sheetId,
-    tableRange: null,
+    table: null,
   };
 }
 
@@ -282,14 +251,17 @@ async function applySheetSync(sheets, title, plan, typedColumns = [], headerRow 
 // If the sheet contains a Google Sheets Table, all operations are scoped to
 // the table's range so that rows above the table are not disturbed.
 async function syncSheet(sheets, title, header, items, matchColumn, rowValues, matchValue, typedColumns = []) {
-  const { sheetId, tableRange } = await ensureSheetMeta(sheets, title);
-  const table = parseTableRange(tableRange);
-  const tableStart = table?.startRowIndex ?? 0;  // 0-based row index of the table header
+  const { sheetId, table } = await ensureSheetMeta(sheets, title);
+  const tableStart = table?.startRowIndex ?? 0;  // 0-based row of the table header
   const headerRow = tableStart + 1;              // 1-based sheet row of the table header
 
+  // Read only the table's range when a Table exists; otherwise read the whole sheet.
+  const readRange = table
+    ? `${title}!${columnLetter(table.startColumnIndex)}${table.startRowIndex + 1}:${columnLetter(table.endColumnIndex - 1)}${table.endRowIndex}`
+    : title;
   const existing = await sheets.spreadsheets.values.get({
     spreadsheetId: SPREADSHEET_ID,
-    range: table ? `${title}!${table.readRange}` : title,
+    range: readRange,
   });
   const existingValues = existing.data.values || [];
 
@@ -297,12 +269,11 @@ async function syncSheet(sheets, title, header, items, matchColumn, rowValues, m
   await applySheetSync(sheets, title, plan, typedColumns, headerRow);
 
   if (plan.appendRows.length > 0) {
-    const totalRows = existingValues.length + plan.appendRows.length;
     await sortSheet(
       sheets, sheetId,
-      tableStart + 1,                              // 0-based first data row (skip header)
-      tableStart + totalRows,                      // 0-based exclusive end row
-      table?.endColIndex ?? plan.header.length,    // 0-based exclusive end column
+      tableStart + 1,                                    // 0-based first data row (skip header)
+      table?.endRowIndex ?? (tableStart + existingValues.length + plan.appendRows.length),
+      table?.endColumnIndex ?? plan.header.length,
     );
   }
 }
@@ -323,14 +294,16 @@ async function syncToolIdReferences(sheets, title, toolIds) {
     return;
   }
 
-  const { sheetId, tableRange } = meta;
-  const table = parseTableRange(tableRange);
-  const tableStart = table?.startRowIndex ?? 0;  // 0-based row index of the table header
+  const { sheetId, table } = meta;
+  const tableStart = table?.startRowIndex ?? 0;  // 0-based row of the table header
   const headerRow = tableStart + 1;              // 1-based sheet row of the table header
 
+  const readRange = table
+    ? `${title}!${columnLetter(table.startColumnIndex)}${table.startRowIndex + 1}:${columnLetter(table.endColumnIndex - 1)}${table.endRowIndex}`
+    : title;
   const existing = await sheets.spreadsheets.values.get({
     spreadsheetId: SPREADSHEET_ID,
-    range: table ? `${title}!${table.readRange}` : title,
+    range: readRange,
   });
   const existingValues = existing.data.values || [];
 
@@ -356,8 +329,8 @@ async function syncToolIdReferences(sheets, title, toolIds) {
     await sortSheet(
       sheets, sheetId,
       tableStart + 1,                                              // 0-based first data row
-      tableStart + existingValues.length,                          // 0-based exclusive end row
-      table?.endColIndex ?? (existingValues[0]?.length ?? 1),     // 0-based exclusive end column
+      table?.endRowIndex ?? (tableStart + existingValues.length),  // 0-based exclusive end row
+      table?.endColumnIndex ?? (existingValues[0]?.length ?? 1),   // 0-based exclusive end column
     );
   }
 }
