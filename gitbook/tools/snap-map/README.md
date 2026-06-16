@@ -1,8 +1,6 @@
 ---
 updated: '2025-08-31'
-description: >-
-  A mobile searchable map of geotagged public Snaps, offering real-time
-  visibility into user-generated content tied to specific locations.
+description: Searchable map of geotagged snaps.
 ---
 
 # Snap Map
@@ -12,6 +10,12 @@ description: >-
 [https://map.snapchat.com/](https://map.snapchat.com)
 
 ## Description
+
+
+
+
+
+<figure><img src=".gitbook/assets/snapchat (3).jpeg" alt="" width="311"><figcaption></figcaption></figure>
 
 Snap Map is a feature within [Snapchat](https://www.snapchat.com/) that displays publicly shared Snaps on an interactive map. When a user posts a Story to "Our Story", Snapchat geotags that content so it appears as a hotspot on the map. The intensity of the hotspot reflects posting volume - warmer colours indicate higher activity. Clicking a hotspot opens the associated public Snaps for that location.
 
