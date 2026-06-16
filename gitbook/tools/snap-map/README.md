@@ -51,8 +51,6 @@ Together, the two views support both granular location analysis and broader patt
 
 ### Cost
 
-
-
 * [x] Free
 * [ ] Partially Free
 * [ ] Paid
@@ -71,7 +69,7 @@ Together, the two views support both granular location analysis and broader patt
 * **Limited filtering:** Search is keyword-based only. There is no way to sort by date, time, or specific username unless you are friends with that user, making targeted searches difficult.
 * **Temporary posts:** Most Snaps remain visible for approximately 24 hours. There is no guarantee content will still be available by the time an investigator accesses it.
 * **Commercial content mixed with organic posts:** Promoted Places surfaces brand locations and sponsored content directly on the map alongside user-generated Snaps, which can distort activity signals in commercial areas.
-* **Possible inaccuracies:** User-generated posts may carry incorrect or spoofed location tags, and content may lack sufficient context to verify independently.
+* **Possible inaccuracies:** User-generated posts may carry incorrect or spoofed location tags, and content may lack sufficient context to allow researchers to verify the location independently.
 * **No built-in archive:** There is no native export or save function. Investigators should capture references -  screenshots, URLs, or use of a third-party archiving tool - while viewing, as content may disappear within hours.
 * **Country availability:** Snap Map may be restricted in certain jurisdictions and availability is subject to change.
 
