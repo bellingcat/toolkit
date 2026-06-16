@@ -92,11 +92,11 @@ The following tools also allow investigators to discover and analyse user-genera
 
 * Sung, Morgan: People are turning to Snap Map for firsthand perspectives from Gaza, [https://techcrunch.com/2023/11/03/snapchat-snap-map-israel-hamas-war-gaza-palestine/](https://techcrunch.com/2023/11/03/snapchat-snap-map-israel-hamas-war-gaza-palestine/).
 
-
-
 ## Tool provider
 
 Snapchat, Snap Inc., USA
+
+## Advertising Trackers
 
 * [ ] This tool has not been checked for advertising trackers yet.
 * [x] This tool uses tracking cookies. Use with caution.
