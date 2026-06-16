@@ -56,7 +56,7 @@ A free Strava account registered with an email address, Google, or Apple ID is r
 
 ## Limitations
 
-Using Strava for OSINT research has several limitations:
+Using Strava for open source research has several limitations:
 
 1. **Privacy settings:** Many users have set their profiles to private or followers-only, limiting visibility to non-connections. Activities marked "Only You" or "Followers" are excluded from the heatmap automatically.
 2. **Hidden start and end points:** Strava hides the first and last 200 metres of activity maps by default after a user's first login, and users can extend this to up to one mile. This can obscure home and work locations.
