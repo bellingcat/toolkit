@@ -122,34 +122,75 @@ function columnLetter(index) {
   return letters;
 }
 
-// Returns the sheetId of `title`'s tab, or null if no such tab exists.
-async function findSheetId(sheets, title) {
-  const spreadsheet = await sheets.spreadsheets.get({ spreadsheetId: SPREADSHEET_ID });
-  const sheet = spreadsheet.data.sheets.find((sheet) => sheet.properties.title === title);
-  return sheet ? sheet.properties.sheetId : null;
+// Converts A1 column letters to a 0-based index, e.g. 'A' -> 0, 'AA' -> 26.
+function columnIndex(letters) {
+  let index = 0;
+  for (const char of letters.toUpperCase()) {
+    index = index * 26 + (char.charCodeAt(0) - 64);
+  }
+  return index - 1;
 }
 
-// Ensures `title`'s sheet tab exists, creating it if necessary, and returns its sheetId.
-async function ensureSheetExists(sheets, title) {
-  const sheetId = await findSheetId(sheets, title);
-  if (sheetId !== null) return sheetId;
+// Parses a table range string (e.g. "Sheet1!A5:N500" or "A5:N500") into grid bounds.
+// Returns { startRowIndex, endRowIndex, startColIndex, endColIndex, readRange } where
+// indices are 0-based and end values are exclusive, or null if tableRange is falsy.
+function parseTableRange(tableRange) {
+  if (!tableRange) return null;
+  const rangeStr = tableRange.includes('!') ? tableRange.split('!')[1] : tableRange;
+  const [startCell, endCell] = rangeStr.split(':');
+  const startCol = startCell.match(/[A-Z]+/i)[0];
+  const startRow = parseInt(startCell.match(/\d+/)[0], 10);
+  const endCol = endCell.match(/[A-Z]+/i)[0];
+  const endRow = parseInt(endCell.match(/\d+/)[0], 10);
+  return {
+    startRowIndex: startRow - 1,
+    endRowIndex: endRow,             // 0-based exclusive = 1-based inclusive
+    startColIndex: columnIndex(startCol),
+    endColIndex: columnIndex(endCol) + 1,  // exclusive
+    readRange: rangeStr,
+  };
+}
+
+// Returns { sheetId, tableRange } for the named tab, or null if the tab doesn't exist.
+// tableRange is the first embedded Table's range string (e.g. "Sheet1!A5:N500"), or null.
+async function getSheetMeta(sheets, title) {
+  const spreadsheet = await sheets.spreadsheets.get({
+    spreadsheetId: SPREADSHEET_ID,
+    fields: 'sheets.properties,sheets.tables',
+  });
+  const sheet = spreadsheet.data.sheets?.find((s) => s.properties.title === title);
+  if (!sheet) return null;
+  return {
+    sheetId: sheet.properties.sheetId,
+    tableRange: sheet.tables?.[0]?.tableRange ?? null,
+  };
+}
+
+// Ensures the named tab exists (creating it if necessary) and returns { sheetId, tableRange }.
+async function ensureSheetMeta(sheets, title) {
+  const meta = await getSheetMeta(sheets, title);
+  if (meta) return meta;
 
   const response = await sheets.spreadsheets.batchUpdate({
     spreadsheetId: SPREADSHEET_ID,
     requestBody: { requests: [{ addSheet: { properties: { title } } }] },
   });
   console.log(`Created sheet tab "${title}"`);
-  return response.data.replies[0].addSheet.properties.sheetId;
+  return {
+    sheetId: response.data.replies[0].addSheet.properties.sheetId,
+    tableRange: null,
+  };
 }
 
-// Sorts the sheet's data rows (excluding the header) by its first column, ascending.
-async function sortSheet(sheets, sheetId) {
+// Sorts the table's data rows (below the header) by the first column, ascending.
+// All bounds are 0-based; endRowIndex and endColIndex are exclusive.
+async function sortSheet(sheets, sheetId, startRowIndex, endRowIndex, endColIndex) {
   await sheets.spreadsheets.batchUpdate({
     spreadsheetId: SPREADSHEET_ID,
     requestBody: {
       requests: [{
         sortRange: {
-          range: { sheetId, startRowIndex: 1, startColumnIndex: 0 },
+          range: { sheetId, startRowIndex, startColumnIndex: 0, endRowIndex, endColumnIndex: endColIndex },
           sortSpecs: [{ dimensionIndex: 0, sortOrder: 'ASCENDING' }],
         },
       }],
@@ -163,13 +204,14 @@ async function sortSheet(sheets, sheetId) {
 // should be written with valueInputOption 'USER_ENTERED' so Sheets parses
 // them into real booleans/dates (e.g. "TRUE" or "2026-01-15") instead of
 // storing them as forced text; all other columns are written as 'RAW'.
-async function applySheetSync(sheets, title, plan, typedColumns = []) {
+// `headerRow` is the 1-based sheet row where the table header lives (default 1).
+async function applySheetSync(sheets, title, plan, typedColumns = [], headerRow = 1) {
   const { header, headerChanged, cellUpdates, appendRows } = plan;
 
   if (headerChanged) {
     await sheets.spreadsheets.values.update({
       spreadsheetId: SPREADSHEET_ID,
-      range: `${title}!A1`,
+      range: `${title}!A${headerRow}`,
       valueInputOption: 'RAW',
       requestBody: { values: [header] },
     });
@@ -186,8 +228,9 @@ async function applySheetSync(sheets, title, plan, typedColumns = []) {
         spreadsheetId: SPREADSHEET_ID,
         requestBody: {
           valueInputOption,
+          // row is 1-based within existingValues (0 = header); map to sheet row via headerRow
           data: updates.map(({ row, col, value }) => ({
-            range: `${title}!${columnLetter(col)}${row + 1}`,
+            range: `${title}!${columnLetter(col)}${row + headerRow}`,
             values: [[value]],
           })),
         },
@@ -198,7 +241,7 @@ async function applySheetSync(sheets, title, plan, typedColumns = []) {
   if (appendRows.length > 0) {
     const response = await sheets.spreadsheets.values.append({
       spreadsheetId: SPREADSHEET_ID,
-      range: `${title}!A1`,
+      range: `${title}!A${headerRow}`,
       valueInputOption: 'RAW',
       insertDataOption: 'INSERT_ROWS',
       requestBody: { values: appendRows },
@@ -236,20 +279,31 @@ async function applySheetSync(sheets, title, plan, typedColumns = []) {
 // cleared and any other columns are left untouched. `typedColumns` lists
 // header names to write as USER_ENTERED so Sheets recognizes booleans/dates.
 // If any rows were appended, the sheet is re-sorted by its first column.
+// If the sheet contains a Google Sheets Table, all operations are scoped to
+// the table's range so that rows above the table are not disturbed.
 async function syncSheet(sheets, title, header, items, matchColumn, rowValues, matchValue, typedColumns = []) {
-  const sheetId = await ensureSheetExists(sheets, title);
+  const { sheetId, tableRange } = await ensureSheetMeta(sheets, title);
+  const table = parseTableRange(tableRange);
+  const tableStart = table?.startRowIndex ?? 0;  // 0-based row index of the table header
+  const headerRow = tableStart + 1;              // 1-based sheet row of the table header
 
   const existing = await sheets.spreadsheets.values.get({
     spreadsheetId: SPREADSHEET_ID,
-    range: title,
+    range: table ? `${title}!${table.readRange}` : title,
   });
   const existingValues = existing.data.values || [];
 
   const plan = planSheetSync(existingValues, header, items, matchColumn, rowValues, matchValue);
-  await applySheetSync(sheets, title, plan, typedColumns);
+  await applySheetSync(sheets, title, plan, typedColumns, headerRow);
 
   if (plan.appendRows.length > 0) {
-    await sortSheet(sheets, sheetId);
+    const totalRows = existingValues.length + plan.appendRows.length;
+    await sortSheet(
+      sheets, sheetId,
+      tableStart + 1,                              // 0-based first data row (skip header)
+      tableStart + totalRows,                      // 0-based exclusive end row
+      table?.endColIndex ?? plan.header.length,    // 0-based exclusive end column
+    );
   }
 }
 
@@ -263,15 +317,20 @@ const TOOL_ID_REFERENCE_TABS = ['Overview', 'Signup', 'Admin'];
 // Adds any of `toolIds` missing from `title`'s column A into the first rows
 // with an empty column A. Skips tabs that don't exist.
 async function syncToolIdReferences(sheets, title, toolIds) {
-  const sheetId = await findSheetId(sheets, title);
-  if (sheetId === null) {
+  const meta = await getSheetMeta(sheets, title);
+  if (meta === null) {
     console.warn(`${title}: sheet tab not found, skipping tool ID sync`);
     return;
   }
 
+  const { sheetId, tableRange } = meta;
+  const table = parseTableRange(tableRange);
+  const tableStart = table?.startRowIndex ?? 0;  // 0-based row index of the table header
+  const headerRow = tableStart + 1;              // 1-based sheet row of the table header
+
   const existing = await sheets.spreadsheets.values.get({
     spreadsheetId: SPREADSHEET_ID,
-    range: title,
+    range: table ? `${title}!${table.readRange}` : title,
   });
   const existingValues = existing.data.values || [];
 
@@ -283,7 +342,8 @@ async function syncToolIdReferences(sheets, title, toolIds) {
   }
 
   const data = missing.slice(0, emptyRows.length).map((id, i) => ({
-    range: `${title}!A${emptyRows[i] + 1}`,
+    // emptyRows[i] is 1-based within existingValues (0 = header); map to sheet row via headerRow
+    range: `${title}!A${emptyRows[i] + headerRow}`,
     values: [[id]],
   }));
 
@@ -293,7 +353,12 @@ async function syncToolIdReferences(sheets, title, toolIds) {
       requestBody: { valueInputOption: 'RAW', data },
     });
     console.log(`${title}: added ${data.length} tool ID(s)`);
-    await sortSheet(sheets, sheetId);
+    await sortSheet(
+      sheets, sheetId,
+      tableStart + 1,                                              // 0-based first data row
+      tableStart + existingValues.length,                          // 0-based exclusive end row
+      table?.endColIndex ?? (existingValues[0]?.length ?? 1),     // 0-based exclusive end column
+    );
   }
 }
 
