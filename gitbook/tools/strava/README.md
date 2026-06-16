@@ -34,7 +34,7 @@ Strava is accessible via desktop at [strava.com](https://strava.com) and via mob
 * [x] Partially Free
 * [ ] Paid
 
-Strava operates on a freemium model. The free tier is sufficient for most OSINT investigations - it provides access to the global heatmap, segment leaderboards, public profiles, and user search. Some features relevant to investigators, such as community photos on routes, are restricted to paying subscribers.
+Strava operates on a freemium model. The free tier is sufficient for most open source investigations - it provides access to the global heatmap, segment leaderboards, public profiles, and user search. Some features relevant to investigators, such as community photos on routes, are restricted to paying subscribers.
 
 The paid subscription (Strava Premium) is oriented toward personal athletic performance and adds training analysis tools that have limited investigative value. Current pricing in the United States is $11.99 per month or $79.99 per year. A Family Plan is available at $139.99 per year. Pricing may vary by region.
 
