@@ -84,7 +84,7 @@ The following tools also allow investigators to discover and analyse user-genera
 ## Ethical Considerations
 
 * Public Snaps often reveal exact locations, daily routines, and identifiable details about individuals who may not fully understand their content is publicly visible. Investigators should handle this data with care and avoid any use that could enable doxxing or harassment.
-* Content from public gatherings, protests, or crisis situations may include minors or people in vulnerable circumstances. Exercise particular caution when capturing, sharing, or publishing such material.
+* Content from public gatherings, protests, or crisis situations may include minors or people in vulnerable circumstances. Exercise particular caution sharing or publishing such material.
 * Snaps appear on the map before moderation. Investigators should be prepared to encounter disturbing material, particularly when monitoring conflict zones or emergency situations.
 * Ghost Mode prevents friends from seeing a user's location on the map, but Snapchat continues to process location data internally per its privacy policy. Investigators should not assume that a user in Ghost Mode has no location footprint within the platform.
 
