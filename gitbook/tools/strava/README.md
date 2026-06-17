@@ -3,6 +3,7 @@ description: >-
   A fitness tracking platform where publicly shared GPS activity data can reveal
   movement patterns, routines, and precise locations of individuals, including
   military personnel and public staff.
+updated: '2026-06-16'
 ---
 
 # Strava
