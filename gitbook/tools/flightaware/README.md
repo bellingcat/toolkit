@@ -35,7 +35,7 @@ When used for open-source investigations, flight-tracking websites like FlightAw
 
 ### Key Features
 
-### SEARCH TAB
+### SEARCH
 
 Depending on what information a researcher already has, he/she can go to the main search tab. One can enter [**a flight number, tail number, airport, city**](https://pilotinstitute.com/tail-number-vs-call-sign-vs-flight-number/) (See detailed description below).
 
@@ -69,7 +69,7 @@ In addition, users can flip through the different tabs for weather information, 
 
 <figure><img src=".gitbook/assets/ScreenRecording2024-08-26145034-ezgif.com-speed.gif" alt=""><figcaption><p>This shows how to get to the airport page from the live map. Click on an airport code. In this case, we chose MNL (Manila International Airport). We can also flip through the tabs for more information about this airport.</p></figcaption></figure>
 
-### VIEWING RESULTS
+### FLIGHT DETAILS
 
 FlightAware will display a list of matching flight/s. The information available is grouped into two main sections: Flight information and Aircraft Information. In addition, a live map with the flight in question is available at the lower left of the webpage.
 
@@ -92,7 +92,7 @@ First, click on the URL, hover over the “Community” link on the top right, a
 
 When you click on a particular flight, the full, detailed page will load (See the image in the “Viewing Results” section above) and navigate to the bottom right of the page.
 
-### **KML OF FLIGHT LOG FOR CERTAIN GEOLOCATION TASKS**
+### **KML EXPORT FOR CERTAIN GEOLOCATION TASKS**
 
 Lastly, for flights that have already landed or are completed, FlightAware allows users to download a KML file of the flight log. This will contain all the coordinates of its flight path, altitude, and other information that helps users visualize it. To do this, click on the flight page of a flight in question, and click on “View track log”. Then navigate to the upper left corner of the page and click the “+ Google Earth” icon, as shown below.
 
@@ -112,22 +112,9 @@ Here is an example of a [geolocation by Nixintel](https://nixintel.info/osint/us
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-27 173912.png" alt=""><figcaption><p>(Source: Nixintel, Steven Harris, <a href="https://nixintel.info/osint/using-flight-tracking-for-geolocation-quiztime-30th-october-2019/">https://nixintel.info/osint/using-flight-tracking-for-geolocation-quiztime-30th-october-2019/</a>) This is an example of a flight KML file used as a layer on Google Earth Pro. On the left is the source image for geolocation, while on the right is a screenshot of the Google Earth Pro in 3D Street View, with the flight path visible in the sky. The author uses the diagonal trajectory of the flight path on the right to match the trajectory of the aircraft contrail (diagonal line in the sky) on the left photo. The KML file assisted in narrowing down whether the location of the source image is north or south of the flight path.</p></figcaption></figure>
 
-### Use case
+### Identifiers and Where to Find Them
 
-First, flight-tracking websites like FlightAware not only assist with geolocation but also help create flight databases for countries with issues that require continuous monitoring. For instance, Bellingcat has created an open-source flight database for [Kazakhstan](https://www.bellingcat.com/resources/2022/01/08/launching-an-open-source-flight-database-for-kazakhstan-in-wake-of-protests/) and [Venezuela](https://www.bellingcat.com/resources/case-studies/2021/03/11/launching-an-open-source-aircraft-database-for-venezuela/).
-
-Second, investigators who monitor aircraft, [such as those at OCCRP,](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) focus on two key tasks:
-
-1. Determining which planes are owned or regularly utilized by individuals of interest.
-2. Following their flight histories or pinpointing their current whereabouts.
-
-However, as pointed out in OCCRP's [Plane Tracking FAQ](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking), figuring out who really owns a plane is often the more challenging part because people often hide ownership through shell companies and other methods to keep it secret. But because flight tracking is mostly publicly available, the second option can be a useful method for receiving clues to fill the information.
-
-See this website: [https://dictatoralert.org/](https://dictatoralert.org/). It is a project that monitors the flight paths of authoritarian regimes' aircraft and alerts people on Twitter when these planes land in major European cities.
-
-### Identifiers and Where to Find Them on FlightAware
-
-When doing flight tracking for investigations, it is essential to know what data to look for and which information can potentially provide leads in an investigation. However, note that not all information may be immediately available on one flight tracking website. Expand each identifier below to see what it is, why it is important and where to find it in the tool.
+When doing flight tracking for investigations, it is essential to know what data to look for and which information can potentially provide leads in an investigation. However, note that not all information may be immediately available on one flight tracking website. Expand each identifier below to see what it is, why it is important, and where to find it in the tool.
 
 <details>
 
@@ -145,7 +132,7 @@ _Call signs also often vary with each flight, and occasionally, they may change 
 
 **Where can you find the call sign on FlightAware?**
 
-The call sign is usually located primarily in two places. If looking at the flight map (left image), hover over the airplane you are interested in, and the flight and aircraft information appears. The call sign is highlighted with a yellow box. If looking at the flight data page (right image), the call sign is immediately to the right of the airliner’s logo (highlighted in the red square).
+The call sign is usually located primarily in two places. If looking at the flight map (left image), hover over the airplane you are interested in, and the flight and aircraft information appear. The call sign is highlighted with a yellow box. If looking at the flight data page (right image), the call sign is immediately to the right of the airliner’s logo (highlighted in the red square).
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-23 135843 - MARKEDmerge.png" alt=""><figcaption><p>There are two places where users can find the call sign within the tool. One is through the live map on the landing page (left), and the other is through the specific flight page of the aircraft of interest (right).</p></figcaption></figure>
 
@@ -170,7 +157,7 @@ The registration number can be found on the flight summary page, if available. A
 <div data-full-width="true"><figure><img src=".gitbook/assets/ScreenRecording2024-08-28111801-ezgif.com-overlay.gif" alt=""><figcaption><p>This is an example of an aircraft whose registration information is available under a free account. You can look at the Flight Summary section of the page for the registration number or click the “Registration” link in the bottom right to take you to a page with a more detailed description.</p></figcaption></figure></div>
 
 {% hint style="warning" %}
-NOTE #1: Based on our tests, this registration information seems only available for most commercial airlines, some MEDEVAC flights, some general aviation flights, and some cargo flights.
+NOTE #1: Based on our tests, this registration information seems to be available only for most commercial airlines, some MEDEVAC flights, some general aviation flights, and some cargo flights.
 
 NOTE #2: According to the [tool](https://www.flightaware.com/resources/registration/ZSTMB), “FlightAware is currently only able to display limited information for aircraft that is not identified with a United States “N-Number” (e.g., N123AB)”
 {% endhint %}
@@ -222,6 +209,19 @@ NOTE: This website responds to [take-down requests](https://gijn.org/resource/pl
 This tool uses the term "Serial Number" instead of MSN. The serial number can be found on the registration page of the aircraft. Navigate to the page as shown above (See section for registration/tail number). Find the right column under “Aircraft Summary.” The serial number is found on the fourth line.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-28 133917-marked.png" alt=""><figcaption><p>Locating the serial number on FlightAware is the same as finding the registration and hex code. The details are in the left column under "Aircraft Summary." Note again that some aircraft may require a paid subscription to the tool to get this information.</p></figcaption></figure>
+
+### Use case
+
+First, flight-tracking websites like FlightAware not only assist with geolocation but also help create flight databases for countries with issues that require continuous monitoring. For instance, Bellingcat has created an open-source flight database for [Kazakhstan](https://www.bellingcat.com/resources/2022/01/08/launching-an-open-source-flight-database-for-kazakhstan-in-wake-of-protests/) and [Venezuela](https://www.bellingcat.com/resources/case-studies/2021/03/11/launching-an-open-source-aircraft-database-for-venezuela/).
+
+Second, investigators who monitor aircraft, [such as those at OCCRP,](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking) focus on two key tasks:
+
+1. Determining which planes are owned or regularly utilized by individuals of interest.
+2. Following their flight histories or pinpointing their current whereabouts.
+
+However, as pointed out in OCCRP's [Plane Tracking FAQ](https://www.occrp.org/en/project/russian-asset-tracker/faq-what-is-plane-tracking), figuring out who really owns a plane is often the more challenging part because people often hide ownership through shell companies and other methods to keep it secret. But because flight tracking is mostly publicly available, the second option can be a useful method for receiving clues to fill the information.
+
+See this website: [https://dictatoralert.org/](https://dictatoralert.org/). It is a project that monitors the flight paths of aircraft from authoritarian regimes and alerts people on X when these planes land in major European cities.
 
 ## Cost
 
@@ -308,7 +308,7 @@ Based on our tests, below is a comparison of some of the features of different f
 | Ownership Information            | Primarily displays US registration numbers                                                                                                                                                                                                                                                                                                                             | Broader international registration coverage                                                                                                                                                                                                                                                                                                                             |
 | Map Customization                | Limited customization options                                                                                                                                                                                                                                                                                                                                          | Highly customizable map layers and widgets                                                                                                                                                                                                                                                                                                                              |
 | UI Learning Curve                | Moderate (★★★)                                                                                                                                                                                                                                                                                                                                                         | Moderate (★★★)                                                                                                                                                                                                                                                                                                                                                          |
-| Cost Structure                   | <p>Basic (Free), Premium, Enterprise, Enterprise WX</p><p><br></p><p>(https://www.flightaware.com/commercial/premium/#subscriptions )</p>                                                                                                                                                                                                                              | <p>Basic (Free), Silver, Gold, Business</p><p><br></p><p>(<a href="https://www.flightradar24.com/premium/?change=true">https://www.flightradar24.com/premium/?change=true</a>)</p>                                                                                                                                                                                      |
+| Cost Structure                   | <p>Basic (Free), Premium, Enterprise, Enterprise WX</p><p><br></p><p>(https://www.flightaware.com/commercial/premium/#subscriptions) </p>                                                                                                                                                                                                                              | <p>Basic (Free), Silver, Gold, Business</p><p><br></p><p>(<a href="https://www.flightradar24.com/premium/?change=true">https://www.flightradar24.com/premium/?change=true</a>)</p>                                                                                                                                                                                      |
 
 ## Guides and articles
 
