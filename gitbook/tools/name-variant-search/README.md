@@ -11,7 +11,7 @@ description: Quickly search many variants of a person's name on Google
 
 ## Description <a href="#description" id="description"></a>
 
-Given a person's name, this tool will generate various plausible alternative forms of the name and smooth out the work of researching each one. It also offers links to search on Duck Duck Go, and Facebook.
+Given a person's name, this awesome tool will generate various plausible alternative forms of the name and smooth out the work of researching each one. It also offers links to search on Duck Duck Go, and Facebook.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-01-25 at 16.58.10.png" alt=""><figcaption></figcaption></figure>
 
@@ -21,21 +21,19 @@ Given a person's name, this tool will generate various plausible alternative for
 * [ ] Partially Free
 * [ ] Paid
 
-### Level of difficulty <a href="#level-of-difficulty" id="level-of-difficulty"></a>
+## Level of difficulty <a href="#level-of-difficulty" id="level-of-difficulty"></a>
 
 <table data-header-hidden><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
-### Requirements <a href="#requirements" id="requirements"></a>
+## Requirements <a href="#requirements" id="requirements"></a>
 
 Internet
 
-### Guide <a href="#guide" id="guide"></a>
+## Guide <a href="#guide" id="guide"></a>
 
 Enter a name and press enter. Add suggested variants to refine results. Use the checkboxes to filter by site.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-01-25 at 16.58.10.png" alt=""><figcaption></figcaption></figure>
-
-### Tool provider <a href="#tool-provider" id="tool-provider"></a>
+## Tool provider <a href="#tool-provider" id="tool-provider"></a>
 
 Bellingcat, NL
 
