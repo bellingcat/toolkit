@@ -9,28 +9,33 @@ description: >-
 
 ## URL
 
-[https://github.com/bellingcat/auto-archiver](https://github.com/bellingcat/auto-archiver)\
-v1.2.0 (Jan 08, 26); as of January 31, 2026
+[https://github.com/bellingcat/auto-archiver](https://github.com/bellingcat/auto-archiver)
+
+Official documentation: [https://auto-archiver.readthedocs.io/en/latest/](https://auto-archiver.readthedocs.io/en/latest/)
+
+PyPI package: [https://pypi.org/project/auto-archiver/](https://pypi.org/project/auto-archiver/)
+
+Current version checked: v1.2.7, released 2026-04-27. Last checked: 2026-06-18.
 
 ## Description
 
 <figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>A screen grab of an Auto Archiver execution for the Tajik-Kyrgyz border conflict. <a href="https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/">Source</a>.</p></figcaption></figure>
 
-The Auto Archiver is an open-source tool developed by Bellingcat that automates the process of archiving online content. It's designed for journalists, researchers, and human rights defenders who need to preserve digital evidence from the web. With Auto Archiver, you can systematically save social media posts, videos, images, and entire webpages to ensure they remain accessible even if the original content is taken down.
+Auto Archiver is an open-source Python tool from Bellingcat for archiving URLs in a repeatable, verifiable way. It is designed for researchers who need to process many links, preserve content before it disappears, and keep useful metadata about what was archived, when, and how.
 
-### How It Works
+Auto Archiver can take URLs from the command line, a CSV file, Google Sheets, Atlos, or API-based/shared-instance workflows. Depending on the configured modules, it can archive webpages, social media posts, images, videos, screenshots, metadata, hashes, timestamps, and links to third-party archive services.
 
-The tool works by taking a list of URLs from a Google Sheet or a CSV file. It then processes each link, using the best archiving strategy for the given platform. It can handle content from a wide range of sources, including Twitter, YouTube, TikTok, Telegram, and Facebook.
+**Inputs:** URLs supplied through CLI, CSV, Google Sheets, Atlos, or API/shared-instance workflows.
 
-The archived content, including media files and a screenshot of the original page, is saved to your chosen storage location. You can configure Auto Archiver to use your local machine, a Google Drive folder, or an S3-compatible object store (like Amazon S3 or Digital Ocean Spaces). The tool then reports the status of each archiving job back to your original spreadsheet, giving you a clear overview of what has been preserved.
+**Outputs:** archived files and metadata, usually saved locally or to configured storage such as Google Drive, S3, or Atlos; status and metadata can be written back to CSV, Google Sheets, console output, API/database modules, or reports.
 
-#### New Features: Web Interface and API
-
-The latest version of Auto Archiver includes a user-friendly web interface and an API, built with FastAPI. This makes it even easier to manage your archiving tasks. You can now submit URLs directly through the web UI, monitor the progress of your archives, and manage your archived content without needing to interact with the command line.
+Most individual users will run Auto Archiver through Docker or the command line. Bellingcat also maintains API and web-interface components for team or shared-instance deployments, but those require additional setup and administration.
 
 ## An archiving tool for open source researchers
 
-The Auto Archiver’s automation, expanded platform support, and use of robust archiving techniques can make it a useful tool for open-source investigations. Unlike manual archiving, which can be time-consuming and inconsistent, this tool enables a more rapid and reliable capture of information, ensuring that valuable online content remains accessible even if it is deleted or altered. Its open-source nature means the community can verify its methods and adapt the tool to specific needs, providing transparency and flexibility. Still, as any automated tool to scrape the web it will find walls and blocking attempts so it is recommended to regularly check the archived results match expectations.&#x20;
+Use Auto Archiver when you have more than a few URLs to preserve, when several people are collaborating from a shared list such as Google Sheets, or when you need a repeatable workflow that records hashes, timestamps, screenshots, metadata, and storage locations.
+
+For a small number of public webpages, tools such as the Wayback Machine or archive.today may be quicker. For video-only workflows, yt-dlp may be simpler. For manual browser-session capture or replayable WACZ archives, ArchiveWeb.page, Browsertrix, or Hunchly may be more appropriate depending on the case. Auto Archiver is strongest when you need batch processing, structured outputs, and configurable modules.
 
 Bellingcat and others in the OSINT community have actively used Auto Archiver in fast-moving crises and major conflict investigations (for example, during Russia’s invasion of Ukraine) to save evidence that might disappear ([gijn.org](https://gijn.org/stories/new-reporting-tools-to-archive-videos-find-qanon-networks-and-track-targets-via-online-reviews/)). It has also been adopted by organizations like the [Centre for Information Resilience](https://www.info-res.org/) and [OSR4Rights](https://osr4rights.org/) to systematically archive content from conflict zones ([bellingcat.com](https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/)). In practice, once the tool is set up, an investigator can simply copy-paste links of interest (from Telegram, TikTok, Twitter, _etc._) into the designated sheet or interface, and the Auto Archiver will quickly preserve the content – a process described as “a life-saver for investigators” when dealing with volatile information ([gijn.org](https://gijn.org/stories/new-reporting-tools-to-archive-videos-find-qanon-networks-and-track-targets-via-online-reviews/)).
 
@@ -52,23 +57,22 @@ To run Auto Archiver locally, some technical knowledge is needed for the initial
 
 ### Supported Platforms
 
-The tool uses a modular system of "extractors" to target different sites. If a primary method fails, it defaults to submitting the URL to the Wayback Machine for a basic snapshot.
+Auto Archiver works by sending each URL through the modules enabled in your configuration. Coverage depends on the URL, the extractor module, whether the content is public or login-restricted, and whether a platform blocks automated access. Treat the table below as a practical guide, not a guarantee.
 
-| **Platform**         | **How It Archives**                                                                                                                   | **Login/API Needed?**                                                                                                                                                                              |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Twitter (X)**      | Uses Twitter’s API v2 _if_ a token is provided; otherwise attempts web scraping of the tweet content.                                 | API Bearer token **optional** (for higher reliability). If no API, adding your login cookies can help.                                                                                             |
-| **Telegram**         | Uses Telegram APIs (Telethon/Bot API) or public web access to fetch messages and media.                                               | Telegram API ID & bot token **optional** (provides expanded access, e.g. private chats). Public channel posts can archive without login.                                                           |
-| **TikTok**           | Uses a native web scraper to grab video and metadata (continually updated for TikTok’s site changes).                                 | No official API. **May require** a session cookie for some videos (especially region-locked or private content).                                                                                   |
-| **Instagram**        | Can use an unofficial API or headless browser to scrape posts. Often requires an authenticated session for full media (e.g. stories). | Instagram login **optional** but recommended. Without an account, some posts or media might not be accessible. (An optional “InstagrAPI” service can be set up with your IG credentials for this.) |
-| **VKontakte (VK)**   | Uses web scraping (the older VK API support has been deprecated). Provides better results when logged in.                             | VK username & password **optional** (needed for content behind login or to avoid limits). Public posts may be captured without login in some cases.                                                |
-| **YouTube**          | Downloads videos directly using **yt-dlp** integration (for video/audio) and saves page info.                                         | No login needed for public videos. (For age-restricted or unlisted videos, providing cookies from a YouTube account may be necessary.)                                                             |
-| **Reddit**           | Uses a headless browser “drop-in” to capture posts (including comments), effectively simulating a logged-in user.                     | Reddit login **recommended**. The latest version added Reddit support via user session cookies. Without login, some content (e.g. certain subreddits or NSFW media) might not load.                |
-| **LinkedIn**         | Uses a headless browser with anti-bot measures to capture posts or profiles.                                                          | LinkedIn **requires** login. You’ll need to provide your LinkedIn session cookie or credentials in the config to archive content.                                                                  |
-| **Bluesky**          | Uses Bluesky’s AT Protocol (official API) or public feed data to save posts.                                                          | Bluesky account **optional**. Public posts can be archived without logging in. Providing an account login can help if content is limited to logged-in users.                                       |
-| **Truth Social**     | Uses public web scraping to capture posts (Truth Social’s web is openly accessible).                                                  | No login needed for public Truth Social posts. (No known API key required.)                                                                                                                        |
-| **General Webpages** | Saves a full webpage via a headless browser crawler (e.g. Browsertrix) or direct HTML fetch.                                          | No login needed for public webpages. _(Optional:_ Provide an Internet Archive account to use its Save Page Now service, which can improve Wayback archiving rates.)                                |
+| Content type / platform                                                          | Main module(s) to check                                                                                        | Login / API notes                                                                                                               | Important caveats                                                                                                                                        |
+| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| General webpages                                                                 | `antibot_extractor_enricher`, `wacz_extractor_enricher`, `wayback_extractor_enricher`, `ghostarchive_enricher` | Public pages may work without login. Login-restricted pages may need cookies or browser profiles.                               | Dynamic pages, paywalls, CAPTCHAs, and heavy JavaScript can reduce capture quality.                                                                      |
+| Video platforms supported by yt-dlp, including YouTube and some social platforms | `generic_extractor`                                                                                            | Public videos may work without login. YouTube or X/Twitter may require cookies or Proof of Origin Token handling in some cases. | Coverage follows yt-dlp support and can break when platforms change. Comments, subtitles, and livestream handling depend on settings.                    |
+| X/Twitter                                                                        | `twitter_api_extractor` and/or `generic_extractor`                                                             | Structured API capture requires X/Twitter API credentials. Cookies may be needed for some web-accessed content.                 | The current docs prefer `bearer_tokens` over the older singular `bearer_token` setting. Access depends on the user’s API tier and platform restrictions. |
+| Telegram public message links                                                    | `telegram_extractor`                                                                                           | No login required for public `t.me` message links.                                                                              | Best for simple public message/media links.                                                                                                              |
+| Telegram channels, groups, private channels, or invite links                     | `telethon_extractor`                                                                                           | Requires Telegram API ID/hash and usually a logged-in session. First login may prompt for a phone number/code.                  | Use only accounts with legitimate access to the channel/group. Bot tokens have limitations for private-channel archiving.                                |
+| LinkedIn                                                                         | `antibot_extractor_enricher` LinkedIn drop-in                                                                  | Authentication is required for most content. First login from a new IP may trigger email verification.                          | Antibot extraction is still described as trial/development-stage; expect failures.                                                                       |
+| Reddit                                                                           | `antibot_extractor_enricher` Reddit drop-in                                                                    | Can work without authentication until Reddit flags the IP; authentication is advised.                                           | Rate limits and anti-bot measures may affect reliability.                                                                                                |
+| VKontakte                                                                        | `antibot_extractor_enricher` VK drop-in                                                                        | Some public content may work without authentication.                                                                            | Login may be needed for restricted or media-heavy content.                                                                                               |
+| TikTok                                                                           | `generic_extractor`; TikTok drop-in exists under Antibot                                                       | Public content may work without login.                                                                                          | Official docs say the TikTok Antibot drop-in is susceptible to TikTok bot detection and recommend the Generic Extractor for TikTok.                      |
+| Instagram                                                                        | Instagram-related extractor modules                                                                            | May require configured credentials/API-related setup depending on workflow.                                                     | Unauthenticated access is often limited; verify outputs carefully.                                                                                       |
 
-_All platforms:_ if the primary method fails (due to login requirements, errors, etc.), Auto Archiver will submit the URL to the **Wayback Machine** for a [basic snapshot](https://bellingcat.gitbook.io/toolkit/more/all-tools/auto-archiver). This ensures at[ least a raw copy is preserved](https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/), though dynamic content or videos in that snapshot may be missing.
+Archiving is not the same as verification. Auto Archiver can preserve a copy, metadata, hashes, timestamps, and archive links, but researchers still need to assess authenticity, context, source reliability, and whether the archived material is complete.
 
 <details>
 
@@ -88,24 +92,39 @@ _All platforms:_ if the primary method fails (due to login requirements, errors,
 
 **Option A: Docker (simplest)**
 
-*   If you don’t want to fuss with Python environments, use Docker. First, install Docker. Then, pull the Auto Archiver image and run it in a single command. For example:
+Docker is the easiest installation route for most users because it packages more dependencies and is the recommended path for WACZ/Browsertrix-related workflows.
 
-    ```bash
-    docker pull bellingcat/auto-archiver 
-    docker run -it --rm -v $(pwd)/secrets:/app/secrets bellingcat/auto-archiver --config /app/secrets/config.yaml
-    ```
+```bash
+docker pull bellingcat/auto-archiver
 
-    The above will download the latest container and execute the archiver using a config file located at `./secrets/config.yaml` (mounted into the container). Docker already includes all required [dependencies](https://www.sonatype.com/resources/articles/what-are-software-dependencies) (Python, browser, etc.), which simplifies setup.
+docker run -it --rm \
+  -v $PWD/secrets:/app/secrets \
+  -v $PWD/local_archive:/app/local_archive \
+  bellingcat/auto-archiver -- "https://example.com/1/"
+```
+
+To run with a configuration file:
+
+```bash
+docker run -it --rm \
+  -v $PWD/secrets:/app/secrets \
+  -v $PWD/local_archive:/app/local_archive \
+  bellingcat/auto-archiver \
+  --config secrets/orchestration.yaml
+```
 
 **Option B: Python/**[**Pip**](https://packaging.python.org/tutorials/installing-packages/)
 
-Ensure you have Python 3.10 or higher installed. Then install the package from PyPI:
+For local installation, use Python 3.10 or newer. PyPI currently lists support for Python `>=3.10,<3.13`.
 
 ```bash
 pip install auto-archiver
+auto-archiver --help
+auto-archiver --config secrets/orchestration.yaml
 ```
 
-This adds an `auto-archiver` command to your [system path](https://realpython.com/add-python-to-path/). You can check it by running `auto-archiver --help` for available options. (Advanced users can also [clone the GitHub repo](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop) and install manually, but pip is easier.)
+This adds an `auto-archiver` command to your [system path](https://realpython.com/add-python-to-path/). You can check it by running `auto-archiver --help` for available options. (Advanced users can also [clone the GitHub repo](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop) and install manually, but pip is easier.)\
+Local installs may require extra dependencies for some modules. For example, WACZ/Browsertrix workflows need Docker or Browsertrix support, and some YouTube workflows may need additional token/POT handling unless you use the Docker image.
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Diagram: How Auto Archiver routes finished files to different storage back-ends—Local disk, S3, Google Drive, or Atlos DB—and returns the corresponding public/CDN or Drive URLs.</p></figcaption></figure>
 
@@ -132,30 +151,31 @@ Make sure to keep this config file secure (don’t share it publicly) since it c
 
 {% code overflow="wrap" lineNumbers="true" fullWidth="true" %}
 ```yaml
-feeder:
-  module: GoogleSheetsFeeder
-  options:
-    sheet_id: "YourGoogleSheetID"
-    credentials_file: "path/to/service_account.json"
+steps:
+  feeders:
+    - cli_feeder
+  extractors:
+    - generic_extractor
+    - telegram_extractor
+  enrichers:
+    - thumbnail_enricher
+    - meta_enricher
+    - pdq_hash_enricher
+    - ssl_enricher
+    - hash_enricher
+  databases:
+    - console_db
+    - csv_db
+  storages:
+    - local_storage
+  formatters:
+    - html_formatter
 
-storage:
-  module: LocalStorage
-  options:
-    output_dir: "archives_output"
+local_storage:
+  save_to: ./local_archive
 
-# Enable screenshot capture
-enrichers:
-  - ScreenshotEnricher
-
-# Credentials
-credentials:
-  twitter_bearer_token: "YOUR_TWITTER_BEARER_TOKEN"
-  telegram_api_id: "YOUR_TELEGRAM_ID"
-  telegram_api_hash: "YOUR_TELEGRAM_HASH"
-  telegram_bot_token: "YOUR_TELEGRAM_BOT_TOKEN"
-  # ... etc.
-  
-  # In practice, you would adjust this to your needs and ensure the modules listed match the latest version’s naming (note: in v1.1+, ScreenshotEnricher has been replaced under the hood by an Antibot mechanism, but you can still enable screenshots in config and the tool will handle it)
+hash_enricher:
+  algorithm: SHA-256
 ```
 {% endcode %}
 
@@ -211,7 +231,7 @@ By default, archives save to your local disk (or wherever you run the Docker con
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>4</td></tr></tbody></table>
 
 ## Requirements
 
@@ -244,6 +264,13 @@ _(Most platform credentials are only needed if you intend to archive from that p
 * **Keep sensitive sheets private.** When you use the [**Google Sheets Feeder**](https://auto-archiver.readthedocs.io/en/v1.0.1/how_to/gsheets_setup.html) share the sheet only with your service‑account email, not “Anyone with the link,” to avoid leaking raw evidence.
 * **Import only the cookies you truly need.** The “Logging in to sites” guide shows how to attach a single `cookies.txt` per domain; don’t dump your whole browser profile.
 * Use Auto Archiver **lawfully and proportionately**, obtain consent where appropriate, and minimize the collection of personal data not needed for your purpose. For investigations with potential legal or human rights implications, align collection, preservation, and chain-of-custody practices with the **Berkeley Protocol on Digital Open Source Investigations** (OHCHR/UC Berkeley).
+
+{% hint style="warning" %}
+
+
+* Cookies, API keys and service-account files can expose you or your organisation.
+* Do not use personal accounts for high-risk archiving workflows. Use credentials that you are authorised to use, keep them outside public repositories, and limit them to the smallest scope needed for the task. If you use cookies, avoid exporting your everyday browser profile; use a separate browser profile or working environment and import only what the workflow requires.
+{% endhint %}
 
 #### **Verify, don't assume.**
 
@@ -299,6 +326,15 @@ GIJN Article: [New Reporting Tools to Archive Videos, Find QAnon Networks, and T
   * The Bellingcat [**online community**](https://www.bellingcat.com/follow-bellingcat-on-social-media/) (on Twitter, Reddit, or [Discord groups](https://discord.gg/bellingcat)) can be helpful – many researchers use Auto Archiver, so if you ask in a forum like the _r/OSINT_ subreddit or the GIJN mailing list, someone might have an answer.
   * The GitHub repository has a [**Discussions** tab](https://github.com/bellingcat/auto-archiver/discussions) where you can ask how-to questions outside of formal bug reports.
 
+#### Similar tools
+
+* [**Wayback Machine**](https://web.archive.org/)  Use for quick public snapshots and historical captures of webpages. It is fast for simple pages, but may miss videos, comments, interactive elements, or content behind login walls.
+* [**archive.today**](https://archive.ph/)  Use as a secondary public snapshot service for individual pages. Treat it as a third-party archive and manually review captures before relying on them.
+* [**yt-dlp**](https://github.com/yt-dlp/yt-dlp)  Use when your main task is downloading video or audio from a supported platform. Auto Archiver may be more useful when you also need structured logs, hashes, screenshots, and storage routing.
+* [**ArchiveWeb.page**](https://archiveweb.page/)  Use when you want to capture pages manually while browsing and save replayable web archives.
+* [**Browsertrix** ](https://webrecorder.net/browsertrix/) Use when you need larger or scheduled browser-based crawls rather than a list of individual URLs.
+* [**Hunchly** ](https://hunch.ly/) Use when you want browser-based case capture, tagging, timestamps, hashes, and an audit trail while manually browsing.
+
 ## Tool provider
 
 **Developer:** Bellingcat — repo & docs. [GitHub](https://github.com/bellingcat/auto-archiver)
@@ -311,7 +347,9 @@ GIJN Article: [New Reporting Tools to Archive Videos, Find QAnon Networks, and T
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-_The tool itself does not appear to use any advertising trackers._ However, if you use the Google Sheets integration, be aware that Google’s services use tracking cookies. In operational use, the Auto Archiver runs locally or on your own server, so your data stays under your control.
+Auto Archiver is usually run locally, in Docker, or on infrastructure controlled by the researcher or organisation. In that setup, it is not a tracking-based web service by default.
+
+However, connected services may log requests or account activity under their own policies. This can include Google Sheets, Google Drive, S3 providers, X/Twitter, Telegram, proxies, Ghost Archive, the Wayback Machine, or any other third-party service configured in the workflow. Treat URLs, cookies, API keys, service-account files and archive logs as sensitive.
 
 | Page maintainer |
 | --------------- |
