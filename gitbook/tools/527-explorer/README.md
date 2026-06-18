@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-10'
+updated: '2026-06-17'
 description: >-
   ProPublica's 527 Explorer is a database that allows users to examine the
   finances of organizations known as 527s in the United States, which can raise
