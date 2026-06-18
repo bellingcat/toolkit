@@ -22,7 +22,7 @@ While this is a free tool, access is strictly limited. However, _any_ researcher
 Free compute on SOMAR’s Virtual Data Enclave ends on **2025‑12‑31**. Starting **January 2026**, SOMAR will charge **$371 USD per research team per month** of VDE access; **new VDE teams** created in 2026 or later will also incur a **one‑time $1,000 USD** project‑start fee. Meta’s Secure Research Environment (SRE) continues to offer **free compute**. See [SOMAR’s FAQ for details](https://somar.atlassian.net/wiki/spaces/somardocs/pages/395149314/FAQ+New+secure+computing+options+for+Meta+Content+Library+API) published Sept. 15th 2025.
 {% endhint %}
 
-<p align="center">(as of Jan May, 2026)<br></p>
+<p align="center">(as of June, 2026)<br></p>
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -99,17 +99,17 @@ The **web UI** is point‑and‑click and suitable for non‑coders. The **API**
 
 ## Limitations
 
-* **Access limits:** Combined UI+API retrieval cap of **500,000 records per rolling 7 days** per researcher; **CSV downloads count against this total**. API rate caps: **60 synchronous searches/min** and **1 asynchronous job/min**. [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library-api/guides/rate-limiting/?utm_source=chatgpt.com)
-* **Coverage notes:** Threads is currently **UI‑only** for browsing; CSV downloads are documented for **Facebook & Instagram** content posted by widely‑known accounts. [Transparency](https://transparency.meta.com/researchtools/meta-content-library?utm_source=chatgpt.com)
-* **Feature scope:** OCR matches are **not phrase‑searchable** and are limited to ≈**180 days** of images. [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library/?utm_source=chatgpt.com)
-* **Changelog awareness:** Meta’s 2025‑06‑30 update added new surfaces (e.g., Instagram **Story highlights**, **Facebook Gaming** videos) and filters; **MCL v3.0** was deprecated on **2025‑07‑31**. [Transparency](https://transparency.meta.com/MCL-API-update-supporting-independent-research?utm_source=chatgpt.com)
+* **Access limits:** Combined UI+API retrieval cap of **500,000 records per rolling 7 days** per researcher; **CSV downloads count against this total**. API rate caps: **60 synchronous searches/min** and **1 asynchronous job/min**. [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library-api/guides/rate-limiting/)
+* **Coverage notes:** Threads is currently **UI‑only** for browsing; CSV downloads are documented for **Facebook & Instagram** content posted by widely‑known accounts. [Transparency](https://transparency.meta.com/researchtools/meta-content-library)
+* **Feature scope:** OCR matches are **not phrase‑searchable** and are limited to ≈**180 days** of images. [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library/)
+* **Changelog awareness:** Meta’s 2025‑06‑30 update added new surfaces (e.g., Instagram **Story highlights**, **Facebook Gaming** videos) and filters; **MCL v3.0** was deprecated on **2025‑07‑31**. [Transparency](https://transparency.meta.com/MCL-API-update-supporting-independent-research)
 * **Legal/ToS:** Use is governed by ICPSR agreements and Meta developer policies; some fields/surfaces vary by region or legal restrictions. [somar.atlassian.net](https://somar.atlassian.net/wiki/spaces/somardocs/pages/249397299/SOMAR%2BData%2BAccess%2BApplication%2BGuide?utm_source=chatgpt.com)
 
 ## Requirements
 
 * **Eligibility & application:** Affiliation with a **qualified academic or research institution**; [apply](https://developers.facebook.com/docs/content-library-and-api/get-access/) via [**ICPSR**](https://somar.atlassian.net/wiki/spaces/somardocs/pages/249397299/SOMAR%2BData%2BAccess%2BApplication%2BGuide)**/SOMAR** (UI and [API ](https://developers.facebook.com/docs/content-library-and-api/content-library/)have different application steps). ICPSR reviews and coordinates approvals; downloads are enabled only for ICPSR‑approved users.
-* **Environments:** Choose **SOMAR Virtual Data Enclave (VDE)** or **Meta Secure Research Environment (SRE)** for API work. UI access is hosted by Meta and is separate. [somar.atlassian.net](https://somar.atlassian.net/wiki/spaces/somardocs/pages/249397299/SOMAR%2BData%2BAccess%2BApplication%2BGuide?utm_source=chatgpt.com)
-* **Access & auth:** After approval, log in to SRE and launch a **Jupyter** session via **Amazon WorkSpaces Secure Browser** to use the API client. [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library-api/getting-started/?utm_source=chatgpt.com)
+* **Environments:** Choose **SOMAR Virtual Data Enclave (VDE)** or **Meta Secure Research Environment (SRE)** for API work. UI access is hosted by Meta and is separate. [somar.atlassian.net](https://somar.atlassian.net/wiki/spaces/somardocs/pages/249397299/SOMAR%2BData%2BAccess%2BApplication%2BGuide)
+* **Access & auth:** After approval, log in to SRE and launch a **Jupyter** session via **Amazon WorkSpaces Secure Browser** to use the API client. [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library-api/getting-started/)
 * **Supported modules/features (selected):**\
   – **Dashboards** in the UI for monitoring queries. [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library/dashboards/)\
   – **Text‑in‑image search (OCR)** covering ≈**180 days**. [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library/)\
@@ -117,10 +117,10 @@ The **web UI** is point‑and‑click and suitable for non‑coders. The **API**
   – **Comments** (Facebook & Instagram) via API. [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library-api/guides/fb-comments/)\
   – **Asynchronous searches & ID‑based retrieval** for large jobs. [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library-api/guides/search-guide/)\
   – **Marketplace listings** and **Fundraisers** (Facebook). [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library-api/guides/fb-marketplace/)\
-  – **Threads** content visible in the **UI**. [Transparency](https://transparency.meta.com/researchtools/meta-content-library?utm_source=chatgpt.com)\
+  – **Threads** content visible in the **UI**. [Transparency](https://transparency.meta.com/researchtools/meta-content-library)\
   – **CSV downloads** for “widely‑known” accounts (see thresholds) and counted toward rate quota. [Transparency](https://transparency.meta.com/researchtools/meta-content-library)
 * **“Widely‑known” thresholds for downloadable data:** **Facebook Pages ≥15,000** likes/followers; **public profiles ≥25,000** followers or **verified badge**. (Developer docs/Meta comms.) [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library/)
-* **Optional dependencies:** None installed locally; code runs within SRE/VDE notebooks provided by Meta/ICPSR. [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library-api/getting-started/?utm_source=chatgpt.com)
+* **Optional dependencies:** None installed locally; code runs within SRE/VDE notebooks provided by Meta/ICPSR. [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library-api/getting-started/)
 * **Versioning note:** Current API docs show **v5.0** (release date not published in docs). **To verify:** confirm version and publication date in your environment. [developers.facebook.com](https://developers.facebook.com/docs/content-library-and-api/content-library-api/)
 
 ## Ethical Considerations
@@ -134,7 +134,7 @@ The **web UI** is point‑and‑click and suitable for non‑coders. The **API**
 * **Official Documentation:** [Meta Transparency Center](https://transparency.meta.com/researchtools/meta-content-library)
 * **ICPSR Social Media Archive:** [https://www.icpsr.umich.edu/](https://www.icpsr.umich.edu/)
 * ["Public Data Access Programs: A First Look"](https://assets.mofoprod.net/network/documents/Public_Data_Access_Programs__A_First_Look_Final_cExWfcH.pdf) is a comprehensive evaluation by Hickey, Dowling, Navia, and Pershan (2024, Mozilla Foundation). The study assesses how major platforms, including Meta, provide researchers access to public data under the **Digital Services Act**, with a focus on usability, transparency, and technical limitations. It highlights the platform's dual-access approach via a user-friendly dashboard and API while also noting challenges such as data consistency and limited documentation that can affect replicability and broader research applications.
-* In this **two-part webinar series**, led by [Professor Anja Neundorf](https://www.aneundorf.net/) under the [DEMED project](https://www.gla.ac.uk/research/az/democracyresearch/), researchers at the University of Glasgow and specialists from Meta discuss the Meta Content Library’s evolving capabilities. The [first session (2023)](https://youtu.be/zny6y4VgNM4?si=3eppfWKo8kTKGCPh) focuses on core concepts such as keyword-based searches and privacy safeguards for analyzing public Facebook and Instagram data. The [second session (2025)](https://youtu.be/3Qd3K82VTGg?si=gk5n7UGRYoKNWF5B) highlights newly added features, including comment-level data, text-in-image matching, and Threads integration, to support more advanced social media research.
+* In this **two-part webinar series**, led by [Professor Anja Neundorf](https://www.aneundorf.net/) under the [DEMED project](https://www.gla.ac.uk/research/az/democracyresearch/), researchers at the University of Glasgow and specialists from Meta discuss the Meta Content Library’s evolving capabilities. The [first session (2023)](https://youtu.be/zny6y4VgNM4) focuses on core concepts such as keyword-based searches and privacy safeguards for analyzing public Facebook and Instagram data. The [second session (2025)](https://youtu.be/3Qd3K82VTGg?si=gk5n7UGRYoKNWF5B) highlights newly added features, including comment-level data, text-in-image matching, and Threads integration, to support more advanced social media research.
 
 <details>
 
