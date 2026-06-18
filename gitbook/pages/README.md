@@ -33,10 +33,6 @@ This is your place to discover tools! Our toolkit includes satellite and mapping
 
 Click on the name of a tool to view an in-depth review and guide for the tool (if available). You can also [download this toolkit](https://github.com/bellingcat/toolkit/releases/tag/csv) (or some of its categories) as a csv.
 
-{% hint style="info" %}
-If you like our toolkit and feel like supporting it, please consider [donating](https://www.bellingcat.com/donate-bellingcat-toolkit/). Your donation helps us keep this resource collaborative, up to date and freely accessible.
-{% endhint %}
-
 #### Browse tools by category:
 
 {% include "https://app.gitbook.com/s/FuL0vtRVpXHiKZgFkMFR/~/reusable/nacdywZl5kcBINjHUpMh/" %}
@@ -119,3 +115,6 @@ We also provide [workshops](https://www.bellingcat.com/workshops/) on open sourc
 
 </details>
 
+{% hint style="info" %}
+If you like our toolkit and feel like supporting it, please consider [donating](https://www.bellingcat.com/donate-bellingcat-toolkit/). Your donation helps us keep this resource collaborative, up to date and freely accessible.
+{% endhint %}
