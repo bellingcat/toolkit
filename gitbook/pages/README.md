@@ -114,3 +114,5 @@ You can follow [Bellingcat](https://www.bellingcat.com)'s work here:
 We also provide [workshops](https://www.bellingcat.com/workshops/) on open source investigative methods and tools. For those of you interested in becoming a Bellingcat volunteer, have a look at our [volunteer community page](https://sites.google.com/bellingcat.com/bellingcat-volunteer-community/home).
 
 </details>
+
+If you like our toolkit and feel like supporting it, please consider [donating](https://www.bellingcat.com/donate-bellingcat-toolkit/). Your donation helps us keep this resource collaborative, up to date and freely accessible.
