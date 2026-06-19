@@ -8,10 +8,10 @@ description: Open-source network analysis and visualization software
 ## URL
 
 [https://gephi.org](https://gephi.org)\
-(0.10.1 as of April 2026)\
+(Gephi Desktop 0.11.2 as of 2026-06-19)\
 \
 [https://lite.gephi.org/](https://lite.gephi.org/)\
-(1.0.2)
+(Gephi Lite 1.0.2 as of 2026-06-19)
 
 ## Description
 
@@ -131,7 +131,7 @@ Gephi has an **active user community** that can provide help and share tips. The
 ## Requirements
 
 * **Platforms:** Windows 10/11, macOS (Intel & Apple Silicon), Linux (desktop). [Supported systems](https://docs.gephi.org/desktop/User_Manual/Supported_Systems/)
-* **Java runtime:** **Bundled since 0.9.3**; you don’t install Java separately. [Docs → Troubleshooting](https://docs.gephi.org/desktop/User_Manual/Troubleshooting?utm_source=chatgpt.com)
+* **Java runtime:** bundled with the desktop application, so end users do not need to install Java separately. Developers building or running Gephi from source should note that the repository currently lists JDK 17 as the runtime requirement. [Docs → Troubleshooting](https://docs.gephi.org/desktop/User_Manual/Troubleshooting?utm_source=chatgpt.com)
 * **Install methods:**\
   – Windows/macOS installers from the official site. [Gephi Desktop](https://gephi.org/desktop/?utm_source=chatgpt.com)\
   – Linux: `snap` (**official Snap**) or **Flathub** package. [Snapcraft](https://snapcraft.io/gephi), [Flathub](https://flathub.org/en/apps/org.gephi.Gephi)
@@ -143,16 +143,17 @@ Gephi has an **active user community** that can provide help and share tips. The
   – **Filtering/Queries:** Attribute & topology filters; interactive selection. [Quickstart](https://gephi.org/quickstart/?utm_source=chatgpt.com)\
   – **Export:** PNG/SVG/PDF images; GEXF/Graph files; **multi‑export** since 0.10.0. [0.10.0 highlights](https://newreleases.io/project/github/gephi/gephi/release/v0.10.0?utm_source=chatgpt.com)\
   – **Plugins:** Install from **Tools → Plugins** (Plugin Center); compatibility indicated by Gephi version. [Plugin Center](https://gephi.org/desktop/plugins/?utm_source=chatgpt.com), [Plugin quick start](https://docs.gephi.org/Plugins/Plugin_Quick_Start/?utm_source=chatgpt.com)\
-  – **Programmatic use:** **Gephi Toolkit** 0.10.0 (released **2023‑03‑08**). Toolkit releases
+  – **Programmatic use:** Gephi Toolkit 0.10.1 (released 2023-03-08) is the latest Gephi Toolkit release listed on GitHub; it is based on Gephi 0.10.1, so do not assume it includes all Gephi Desktop 0.11.x behavior.
 
 • **Optional dependencies:**\
 – A GPU/driver with stable **OpenGL** support improves interactivity; outdated/virtualized graphics can cause rendering issues.
 
 ## Limitations
 
-* **Scale & performance:** Interactivity can degrade on very large graphs; careful styling/filters are often needed. (Example: a user report with \~384k nodes/9.4M edges where UI becomes near‑unresponsive.) GitHub issue
+* **Scale & performance:** Interactivity can degrade on very large graphs; careful styling/filters are often needed. (Example: a user report with \~384k nodes/9.4M edges where UI becomes near‑unresponsive.) \
+  [Gephi 0.11 introduced](https://gephi.wordpress.com/2026/05/05/gephi-0-11-major-performance-upgrade-and-new-features/) a rewritten OpenGL visualization engine and the Gephi team says it can visualize up to 10M elements on modern hardware. Performance still depends on hardware, graph structure, layout choice, styling, filters, and graphics drivers.
 * **Updates:** **Only patch versions auto‑update**; major updates require manual download. [Gephi 0.10.0 announcement](https://gephi.wordpress.com/2023/01/09/gephi-0-10-released/?utm_source=chatgpt.com)
-* **Plugins:** Not all community plugins are updated for **0.10.x**; check the Plugin Center’s compatibility tags before installing. [Plugin Center](https://gephi.org/desktop/plugins/?utm_source=chatgpt.com)
+* **Plugins:** Not all community plugins update at the same pace as Gephi Desktop; check the Plugin Center’s compatibility tags for 0.11.x before installing. [Plugin Center](https://gephi.org/desktop/plugins/?utm_source=chatgpt.com)
 * **No built‑in data collection:** You must build your network (APIs, exports, scraping) before importing into Gephi. [Quickstart](https://gephi.org/quickstart/?utm_source=chatgpt.com)
 * **Gephi Lite differences:** Gephi Lite (web) is a separate application and currently lacks CSV import (GraphML/GEXF only); it is useful for quick viewing rather than full desktop analysis. [Gephi Lite issue with CSV](https://github.com/gephi/gephi-lite/issues/179)
 * **Legal/ToS:** Importing personal-data graphs may trigger data-protection and platform-ToS obligations; ensure lawful sources/processing.
@@ -160,6 +161,8 @@ Gephi has an **active user community** that can provide help and share tips. The
 ## Ethical Considerations
 
 Use network visualization lawfully and proportionately, minimizing collection and retention of personal data and avoiding harm (e.g., doxxing, exposing sensitive relationships). For methodology and evidentiary handling, see the **Berkeley Protocol on Digital Open Source Investigations** (OHCHR/UC Berkeley) for standards on identification, collection, verification, and preservation of digital open‑source information. [OHCHR Berkeley Protocol hub](https://www.ohchr.org/en/publications/policy-and-methodological-publications/berkeley-protocol-digital-open-source?utm_source=chatgpt.com)
+
+For sensitive projects, **review Gephi’s crash-reporting or analytics settings before use and avoid sending diagnostic data that could expose project names, graph metadata, file paths, or other investigative details.**
 
 **Data integrity is crucial** for Gephi users, as the accuracy and reliability of network visualizations depend directly on the quality of the input data. For investigative journalism, any insights or patterns revealed through Gephi's analysis are only as trustworthy as the data provided. Poor data quality — such as incomplete records, unverified sources, or outdated information — can lead to misleading visualizations that misrepresent relationships or inflate the importance of specific network nodes. To ensure meaningful results, Gephi users must verify data sources, validate accuracy, and cross-check information before visualizing it. Maintaining high data integrity not only strengthens the credibility of the analysis but also allows for responsible storytelling, helping to prevent the spread of misinformation and ensuring that network insights are grounded in factual, well-vetted data.
 
