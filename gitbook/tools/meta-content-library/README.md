@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-03'
+updated: '2026-06-18'
 description: >-
   Meta Content Library is a controlled-access tool that lets approved academic
   and non-profit researchers search the full public archive of Facebook,
