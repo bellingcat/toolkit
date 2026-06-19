@@ -26,6 +26,8 @@ Our shared ideas on topics
 {% column %}
 The interface is simple but not easy to interpret - our Toolkit entry could help interpret the interface output, how to input data (eg can it do co-ordinates as input), what data the system takes as input, how the two graphics - the graph and the satellite+radar image - are connected.
 
+OBVIOUS QUESTION: Explain the difference between red and blue streaks!&#x20;
+
 It might help to point out some undocumented interface features like the fact that the graph can be expanded to full screen, and that its x axis can be compressed/expanded using the mouse scroll wheel (is that the same for you?)
 
 The context for the tool could be explained quickly at the outset and a little more basic tuition within the Toolkit entry on the main parameters to be interpreted in (a) the graph (b) the coloured map.
