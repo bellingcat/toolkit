@@ -15,8 +15,6 @@ Our shared ideas on topics
 
 {% column %}
 #### Sophie
-
-<a href="https://gitbook.com/docs/getting-started/import" class="button primary">Learn more</a>
 {% endcolumn %}
 {% endcolumns %}
 
