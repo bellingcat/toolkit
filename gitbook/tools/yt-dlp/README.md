@@ -1,5 +1,7 @@
 ---
-description: A brief one line description of this tool
+description: >-
+  Versatile CLI tool for downloading videos, audio, subtitles, metadata and
+  livestream recordings from thousands of websites
 ---
 
 # yt-dlp
