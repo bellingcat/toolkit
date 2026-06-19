@@ -10,7 +10,7 @@ description: >-
 ## URL
 
 [https://northdata.com](https://northdata.com)\
-(last checked April 30, 2026)
+(last checked June 19th, 2026)
 
 ## Description
 
