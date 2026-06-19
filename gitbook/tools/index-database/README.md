@@ -55,7 +55,7 @@ Verena Henricht and Ktharina Brüser, Institute of Crop Science and Resource Con
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                               |
-| ------------------------------------------------------------- |
-| Author: Agnes Cameron, Reviewed: Sophie Tedling, Nathan Burke |
-|                                                               |
+| Page maintainer                                                     |
+| ------------------------------------------------------------------- |
+| Initial Author: Agnes Cameron, Updated by Nathan Burke in June 2026 |
+|                                                                     |
