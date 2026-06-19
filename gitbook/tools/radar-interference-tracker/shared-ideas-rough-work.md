@@ -33,6 +33,10 @@ Maybe we don't need a new example, maybe we take an existing example and explain
 The Features section reads as an expert's checklist and would be improved for the general reader with more explanation/context/graphics. Do we mention that the graph can be expanded to full screen? We should, or show it, if not.
 
 It's often really important for practical use of such tools to understand when apparently significant results are actually random artefacts and not what we're looking for. This is mentioned, but could be expanded upon.
+
+An explanation of the workflow would be useful, as we are searching both space and time. e.g. first, look at the Yearly aggregate data, then find the big spikes, then zoom in on these dates using Daily aggregate. That's not the workflow, cos I don't know what it should look like, just an example of the format.
+
+Users should have an idea of how sensitive the system is i.e. what kinds of graphs and radar imagery on satellite are significant.
 {% endcolumn %}
 {% endcolumns %}
 
