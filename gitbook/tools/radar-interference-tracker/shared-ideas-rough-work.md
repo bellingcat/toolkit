@@ -39,6 +39,8 @@ It's often really important for practical use of such tools to understand when a
 An explanation of the workflow would be useful, as we are searching both space and time. e.g. first, look at the Yearly aggregate data, then find the big spikes, then zoom in on these dates using Daily aggregate. That's not the workflow, cos I don't know what it should look like, just an example of the format.
 
 Users should have an idea of how sensitive the system is i.e. what kinds of graphs and radar imagery on satellite are significant.
+
+We should test all 3 download formats and think about screenshotting examples if appropriate.
 {% endcolumn %}
 {% endcolumns %}
 
