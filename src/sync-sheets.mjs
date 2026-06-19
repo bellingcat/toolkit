@@ -174,7 +174,9 @@ async function sortSheet(sheets, sheetId, startRowIndex, endRowIndex, endColInde
 // them into real booleans/dates (e.g. "TRUE" or "2026-01-15") instead of
 // storing them as forced text; all other columns are written as 'RAW'.
 // `headerRow` is the 1-based sheet row where the table header lives (default 1).
-async function applySheetSync(sheets, title, plan, typedColumns = [], headerRow = 1) {
+// `existingRowCount` is the number of rows in existingValues (header + data) so
+// new rows can be written directly to the correct position instead of using append.
+async function applySheetSync(sheets, title, plan, typedColumns = [], headerRow = 1, existingRowCount = 1) {
   const { header, headerChanged, cellUpdates, appendRows } = plan;
 
   if (headerChanged) {
@@ -208,25 +210,25 @@ async function applySheetSync(sheets, title, plan, typedColumns = [], headerRow 
   }
 
   if (appendRows.length > 0) {
-    const response = await sheets.spreadsheets.values.append({
+    // Write directly to the first empty row after existing data; existingValues[0]
+    // is the header at headerRow, so data rows occupy headerRow+1 .. headerRow+existingRowCount-1,
+    // and the first empty slot is headerRow+existingRowCount.
+    const appendStartRow = headerRow + existingRowCount;
+
+    await sheets.spreadsheets.values.update({
       spreadsheetId: SPREADSHEET_ID,
-      range: `${title}!A${headerRow}`,
+      range: `${title}!A${appendStartRow}`,
       valueInputOption: 'RAW',
-      insertDataOption: 'OVERWRITE',
       requestBody: { values: appendRows },
     });
 
-    // Re-write typed columns of the newly appended rows with USER_ENTERED so
-    // they're parsed as booleans/dates rather than left as forced text.
+    // Re-write typed columns with USER_ENTERED so Sheets parses them as booleans/dates.
     if (typedCols.size > 0) {
-      const startCell = response.data.updates.updatedRange.split('!')[1].split(':')[0];
-      const startRow = parseInt(startCell.match(/\d+/)[0], 10);
-
       const data = [];
       appendRows.forEach((rowValues, i) => {
         for (const col of typedCols) {
           data.push({
-            range: `${title}!${columnLetter(col)}${startRow + i}`,
+            range: `${title}!${columnLetter(col)}${appendStartRow + i}`,
             values: [[rowValues[col]]],
           });
         }
@@ -266,7 +268,7 @@ async function syncSheet(sheets, title, header, items, matchColumn, rowValues, m
   const existingValues = existing.data.values || [];
 
   const plan = planSheetSync(existingValues, header, items, matchColumn, rowValues, matchValue);
-  await applySheetSync(sheets, title, plan, typedColumns, headerRow);
+  await applySheetSync(sheets, title, plan, typedColumns, headerRow, existingValues.length);
 
   if (plan.appendRows.length > 0) {
     await sortSheet(
