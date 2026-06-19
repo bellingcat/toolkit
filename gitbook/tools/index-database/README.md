@@ -11,7 +11,7 @@ description: A database of remote sensing indices and satellite imaging sensors
 
 ## Description
 
-A searchable web index of remote sensing indices (e.g. metrics for things like vegetation health, land use, water stress) that allows users to search for relevant satellite sensors for a given application. This search may also be inverted, listing the indices it's possible to calculate from a given remote sensing dataset. The index also links different indices to their respective applications, providing references to academic literature demonstrating their usage.
+A searchable web database of remote sensing indices (e.g. metrics for things like vegetation health, land use, water stress) that allows users to search for relevant satellite sensors for a given application. This search may also be inverted, listing the indices it's possible to calculate from a given remote sensing dataset. The database also links different indices to their respective applications, providing references to academic literature demonstrating their usage.
 
 ## Cost
 
@@ -23,9 +23,11 @@ A searchable web index of remote sensing indices (e.g. metrics for things like v
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
+The Index Database interface is not difficult to use: the difficulty rating reflects the contextual understanding necessary to apply the indices to produce useful imagery that accomplishes what the user intends.&#x20;
+
 ## Requirements
 
-Just a web browser.
+Just a web browser to use the database, however you will need access to corresponding remote sensing data in order to apply the index to produce any data or imagery.
 
 ## Limitations
 
@@ -41,9 +43,11 @@ Like any tool related to or making use of remote sensing data, the ethical consi
 
 [https://www.indexdatabase.de/info/help.php](https://www.indexdatabase.de/info/help.php)
 
+Examples of use cases for various band indices: [https://www.bellingcat.com/resources/2025/01/10/satellite-imagery-bands-guide/](https://www.bellingcat.com/resources/2025/01/10/satellite-imagery-bands-guide/)
+
 ## Tool provider
 
-Verena Henricht and Ktharina Brüser, Institue of Crop Science and Resource Conservation (INRES)
+Verena Henricht and Ktharina Brüser, Institute of Crop Science and Resource Conservation (INRES)
 
 ## Advertising Trackers
 
@@ -51,7 +55,7 @@ Verena Henricht and Ktharina Brüser, Institue of Crop Science and Resource Cons
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                  |
-| ------------------------------------------------ |
-| Author: Agnes Cameron, Reviewed: Sophie Tedling: |
-|                                                  |
+| Page maintainer                                               |
+| ------------------------------------------------------------- |
+| Author: Agnes Cameron, Reviewed: Sophie Tedling, Nathan Burke |
+|                                                               |
