@@ -11,7 +11,11 @@ description: >-
 
 [https://exiftool.org/](https://exiftool.org/)
 
-current version: **13.57 (April 30, 2026)**
+current version: 13.59 (2026-05-27; security update)
+
+{% hint style="info" %}
+If the main exiftool.org pages are unavailable, use the [SourceForge ExifTool mirror](https://exiftool.sourceforge.net/) for documentation and downloads.
+{% endhint %}
 
 ## Description
 
@@ -107,7 +111,7 @@ dir
 exiftool image.jpg
 ```
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -292,7 +296,7 @@ This command checks for any warnings or errors in the metadata structure of `sus
 
 * **Runtime**: Perl **≥5.004** for the full Perl distribution; **not required** when using the Windows executable or macOS package. [exiftool.org](https://exiftool.org/)
 * **Install methods**:\
-  – Official downloads (Windows `.zip` with bundled Perl; macOS `.pkg`; full `Image-ExifTool-13.40.tar.gz`). [exiftool.org](https://exiftool.org/)\
+  – Official downloads include Windows 32-bit and 64-bit .zip files with Perl bundled, a macOS .pkg installer, and the full Image-ExifTool-13.59.tar.gz Perl distribution. [exiftool.org](https://exiftool.org/)\
   – Package managers (e.g., **Homebrew**: `brew install exiftool`; **Arch Linux** package `perl-image-exiftool` 13.36). [Homebrew Formulae](https://formulae.brew.sh/formula/exiftool?utm_source=chatgpt.com)
 * **Auth/tokens**: None; ExifTool runs locally/offline. (Verified in upstream docs.) [exiftool.org](https://exiftool.org/exiftool_pod2.html)
 * **Supported modules/features (selection)**:\
@@ -361,7 +365,7 @@ Harvey, P. (2021). _**Common ExifTool Mistakes**_**.** [https://exiftool.org/mis
 
 ## Tool provider
 
-Phil Harvey (will respond to inquiries in the [https://exiftool.org/forum/](https://exiftool.org/forum/))
+Phil Harvey. The main ExifTool forum was unavailable when checked; use the ExifTool discussions on GitHub or SourceForge for support while that outage notice remains in place.
 
 **License**: Artistic‑1.0‑Perl OR GPL‑1.0‑or‑later (dual license).
 
