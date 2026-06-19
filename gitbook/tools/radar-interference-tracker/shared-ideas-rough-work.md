@@ -20,10 +20,11 @@ Our shared ideas on topics
 
 {% columns %}
 {% column %}
-####
+#### - look into background
 {% endcolumn %}
 
 {% column %}
 
 {% endcolumn %}
 {% endcolumns %}
+
