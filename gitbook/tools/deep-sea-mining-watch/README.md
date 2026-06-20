@@ -38,15 +38,25 @@ https://example.com
 
 ## Guides and articles
 
-\[\[Link to guides on this tool and to articles on research that was done with the help of this tool]]
+This [interactive tutorial](https://www.deepseaminingwatch.msi.ucsb.edu/tutorial) on the website of Deep Sea Mining Watch will lead you through all screens and options of the tool.&#x20;
+
+Deep Sea Mining Watch was used in The Mongabay/CNN investigation into China’s deep-sea mining fleet (march 2026), combining [MarineTraffic](https://bellingcat.gitbook.io/toolkit/more/all-tools/marinetraffic), [QGIS](https://bellingcat.gitbook.io/toolkit/more/all-tools/qgis) and Deep Sea Mining Watch. [Mongabay](https://news.mongabay.com/custom-story/2026/03/chinas-deep-sea-mining-fleet-may-also-track-us-submarines/) | [interactive CNN version](https://cnn.com/interactive/2026/03/world/china-deep-sea-mining-military-vis-intl/)&#x20;
+
+Interesting for Open Source Researchers is this article for details on the used methodology: [How (and Why) We Tracked China’s Deep-Sea Mining Fleet | Pulitzer Center](https://pulitzercenter.org/resource/how-and-why-we-tracked-chinas-deep-sea-mining-fleet)
 
 ## Tool provider
 
-\[\[Name the tool provider (and potentially info on them)]]
+[Benioff Ocean Science Laboratory](https://bosl.ucsb.edu), University of California. The platform is powered by [Global Fishing Watch’](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map)s Open Ocean Project and uses the same engine and interface.
 
 ## Similar tools
 
-\[\[Compare this tool with similar tools which can be used for the same research purpose. What are the strengths and weaknesses of each tool?]]
+Deep Sea Mining Watch can be combined with:&#x20;
+
+* [Global Fishing Watch ](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map)for a broader scope of vessels
+* [MarineTraffic](https://bellingcat.gitbook.io/toolkit/more/all-tools/marinetraffic) and [VesselFinder](https://bellingcat.gitbook.io/toolkit/more/all-tools/vesselfinder) as general AIS vessel trackers for (almost) live locations
+* [Copernicus Browser](https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground) for Sentinel SAR data when AIS is unavailable or unreliable
+* [Equasis](https://bellingcat.gitbook.io/toolkit/more/all-tools/equasis) for details on ownership of vessel and fleet
+*
 
 ## Advertising Trackers
 
