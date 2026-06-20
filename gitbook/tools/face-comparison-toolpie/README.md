@@ -45,7 +45,7 @@ Internet access and a web browser to view the results, as well as two images in 
 
 ## Limitations
 
-* Can provide inconclusive results (65%\~79% match) for two pictures of the same person with different accessories (hat, sunglasses etc.) or after important physical changes (face tattoos, plastic surgery, age in some instances etc.).
+* Can provide inconclusive results (65%\~79% match) for two pictures of the same person with different accessories (hat, sunglasses, etc.) or after important physical changes (face tattoos, plastic surgery, age, etc. in some instances).
 * Does not provide any reasoning or explanation as to how the AI comes to the conclusion around the similarity or dissimilarity of the images.
 * Does not provide any output, including the images themselves, other than the ratio percentage and ensuing yes/no (over 80% match gives a yes, under gives a no).
 * [The website states the tool exceeds 99% accuracy](https://facecomparison.toolpie.com/), which means the tool cannot be correct 100% of the time and will need secondary verification. There is no way for researchers to know if this percentage is accurate.
