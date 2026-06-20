@@ -1,12 +1,12 @@
 ---
-description: A brief one line description of this tool
+description: Deep-Sea Mining Watch maps and monitors vessels involved in deep sea mining.
 ---
 
 # deep-sea-mining-watch
 
 ## URL
 
-https://example.com
+[https://www.deepseaminingwatch.msi.ucsb.edu/](https://www.deepseaminingwatch.msi.ucsb.edu/)
 
 ## Description
 
@@ -18,23 +18,24 @@ https://example.com
 * [ ] Partially Free
 * [ ] Paid
 
-\[\[Pricing or subscription information, if relevant.]]
-
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
 ## Requirements
 
-\[\[Information on the requirement for using a tool, for instance, API key, e-mail address etc.]]
+*
 
 ## Limitations
 
-\[\[The limitations of each tool should be described. This is important for researchers if they want to decide whether they should invest the time to learn how to use a new tool.]]
+* It is a curated list; ships involved in deep sea mining may have been missed.&#x20;
+* Relies on Automatic Identification System (AIS) data only; if a vessel turns off the transponder, it will disappear from the map.&#x20;
+* Data is not real time, but approximately 72 hours behind.&#x20;
+* Limited analysis functionality: for raw data and export functionality, use [Global Fishing Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map#search-for-vessels-view-vessel-tracks-and-fishing-events).&#x20;
 
 ## Ethical Considerations
 
-\[\[The ethical considerations of each tool should be described.]]
+*
 
 ## Guides and articles
 
@@ -61,11 +62,11 @@ Deep Sea Mining Watch can be combined with:&#x20;
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
+* [ ] This tool has not been checked for advertising trackers yet.
+* [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| \[\[Your name here (optional) or "Bellingcat volunteer team"]] |
-|                                                                |
+| Page maintainer                     |
+| ----------------------------------- |
+| Bellingcat Volunteer Team / Lavache |
+|                                     |
