@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-01'
+updated: '2026-06-19'
 description: >-
   ATLOS is a platform for collaborative and large-scale open source
   investigations.

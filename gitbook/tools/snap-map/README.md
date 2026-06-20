@@ -1,5 +1,5 @@
 ---
-updated: '2026-06-16'
+updated: '2026-06-19'
 description: Searchable map of geotagged snaps.
 ---
 
