@@ -10,7 +10,13 @@ description: Deep-Sea Mining Watch maps and monitors vessels involved in deep se
 
 ## Description
 
-\[\[ A full description of the tool, any background information needed to use it. What problem does it solve? Can you give an example use case? ]]
+{% hint style="info" %}
+Deep Sea Mining is the extraction of mineral deposits from the ocean floor. Metals such as nickel and cobalt are among the most sought after, because of soaring demands for batteries, electric vehicles and spacecraft. There is still ongoing debate on environmental concerns, licensing and costs and full-scale mining has not yet been realized.
+
+See the [FAQ](https://isa.org.jm/faq-for-media/) of the International Seabed Authority (ISA) for details on deep sea mining and the [Critical Minerals Data Explorer](https://www.iea.org/data-and-statistics/data-tools/critical-minerals-data-explorer) from the International Energy Agency (IEA) for the latest demand projections and industrial and domestic applications.&#x20;
+{% endhint %}
+
+
 
 ## Cost
 
@@ -28,8 +34,8 @@ description: Deep-Sea Mining Watch maps and monitors vessels involved in deep se
 
 ## Limitations
 
-* It is a curated list; ships involved in deep sea mining may have been missed.&#x20;
-* Relies on Automatic Identification System (AIS) data only; if a vessel turns off the transponder, it will disappear from the map.&#x20;
+* Deep Sea Mining Watch provides a curated list; ships involved in deep sea mining may have been missed.&#x20;
+* The data relies on Automatic Identification System (AIS) data only; if a vessel turns off the transponder, it will disappear from the map.&#x20;
 * Data is not real time, but approximately 72 hours behind.&#x20;
 * Limited analysis functionality: for raw data and export functionality, use [Global Fishing Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map#search-for-vessels-view-vessel-tracks-and-fishing-events).&#x20;
 
@@ -58,7 +64,7 @@ Deep Sea Mining Watch can be combined with:&#x20;
 * [Copernicus Browser](https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground) for Sentinel SAR data when AIS is unavailable or unreliable
 * [Equasis](https://bellingcat.gitbook.io/toolkit/more/all-tools/equasis) for details on ownership of vessel and fleet
 * [International Seabed Authority](https://isa.org.jm/exploration-contracts/) (ISA) or [NOAA](https://oceanservice.noaa.gov/deep-seabed-mineral-resources/deep-seabed-mining/) (US only) for info on authority and running contracts
-* The [Global Critical Minerals Outlook 2025 report](https://www.iea.org/reports/global-critical-minerals-outlook-2025) of the International Energy Agency (IEA) for market trends and supply and demand projections.&#x20;
+* The [Global Critical Minerals Outlook yearly reports](https://www.iea.org/reports/global-critical-minerals-outlook-2025) of the International Energy Agency (IEA) for market trends and supply and demand projections.&#x20;
 
 ## Advertising Trackers
 
