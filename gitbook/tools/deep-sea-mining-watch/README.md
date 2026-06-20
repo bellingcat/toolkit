@@ -11,7 +11,7 @@ description: Deep-Sea Mining Watch maps and monitors vessels involved in deep se
 ## Description
 
 {% hint style="info" %}
-Deep Sea Mining is the extraction of mineral deposits from the ocean floor. Metals such as nickel and cobalt are among the most sought after, because of soaring demands for use in batteries, electric vehicles and spacecraft. There is still ongoing debate on environmental concerns, licensing and costs and full-scale mining has not yet been realized.
+Deep Sea Mining is the extraction of mineral deposits from the ocean floor. Metals such as nickel and cobalt are among the most sought after, because of soaring demands for use in batteries, electric vehicles and spacecraft. There is still ongoing debate on environmental concerns, licensing and costs and full-scale mining has not yet been realized. The legal and political landscape is changing fast.
 
 See the [FAQ](https://isa.org.jm/faq-for-media/) of the International Seabed Authority (ISA) for details on deep sea mining and the [Critical Minerals Data Explorer](https://www.iea.org/data-and-statistics/data-tools/critical-minerals-data-explorer) from the International Energy Agency (IEA) for the latest demand projections and industrial and domestic applications.&#x20;
 {% endhint %}
