@@ -16,6 +16,20 @@ Deep Sea Mining is the extraction of mineral deposits from the ocean floor. Meta
 See the [FAQ](https://isa.org.jm/faq-for-media/) of the International Seabed Authority (ISA) for details on deep sea mining and the [Critical Minerals Data Explorer](https://www.iea.org/data-and-statistics/data-tools/critical-minerals-data-explorer) from the International Energy Agency (IEA) for the latest demand projections and industrial and domestic applications.&#x20;
 {% endhint %}
 
+Deep Sea Mining Watch shows deep sea mining vessel presence on a global map, showing a heatmap in areas with high mining activity.&#x20;
+
+As deep sea mining occurs far offshore and out of sight in deep waters, open source research holds extra value for monitoring. Deep Sea Mining Watch shows vessels associated with mining activity on a map together with license boundaries and protected zones. Open researchers can use this tool to verify mining claims and activities, by checking whether a vessel's tracked position and movement pattern matches its licensed block, and investigate unexplained activity, such as a vessel operating outside its license area or inside a protected zone.
+
+
+
+\[zoom in]&#x20;
+
+\[How, screens]
+
+\[detail screen]&#x20;
+
+\[what data, historical data]
+
 
 
 ## Cost
@@ -30,7 +44,7 @@ See the [FAQ](https://isa.org.jm/faq-for-media/) of the International Seabed Aut
 
 ## Requirements
 
-*
+* \[features after login]&#x20;
 
 ## Limitations
 
