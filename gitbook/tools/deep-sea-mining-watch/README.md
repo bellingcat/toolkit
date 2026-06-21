@@ -28,17 +28,19 @@ The USA is not a member of the international ISA and issues own licenses through
 
 <figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 15.29.40.png" alt=""><figcaption><p>The Clarion-Clipperton Zone (CCZ) in international waters of the central Pacific, south-east of Hawaii; the current epicentre of deep sea mining activity. In purple the ISA licensed areas by resourcetype, in red the areas per contractor (not always visible due to overlap). Vessels appearing in an appointed area of particular environmental interest, the larger square boxes in this view, are a red flag.</p></figcaption></figure>
 
+\[screen details]
 
+The Deep Sea Mining Watch is a filter on the Global Fishing Watch map and uses the same interface. See the [Global Fishing Watch toolkit description](./#url) for details on all available features: they are the same for both tools. As Deep Sea Mining Watch runs inside the GFW platform, logins point to the same account and saved views, vessel groups, reports and other customized parts will carry over. The main difference is that the Deep Sea Mining Watch data is not avaible by API.&#x20;
 
+Data goes back to januari 2012 and a comparison between two dates can be made, or a timeframe of the last 30 days, 3/6 months or the past year.
 
+By zooming in on period or vessel, other data from the GFW platform can be reached.&#x20;
 
-\[How, screens]
+Specific Deep Sea Mining Watch reference layers are:&#x20;
 
-\[detail screen]&#x20;
-
-\[what data, historical data]
-
-
+* Areas by **resource type**: Areas of Particular Environmental Interest (APEI), CFC Exploration Areas: Cobalt-rich ferromanganese crust (CFC) Exploration and Reserved Areas, Polymetallic nodule (PMN) Exploration and Reserved Areas, Clarion-Clipperton Zone (CCZ).&#x20;
+* Areas by **contractor**: Contractor information
+* ISA **license areas**: South Atlantic ISA License Areas, Indian Ocean ISA License Areas, Mid-Atlantic ISA License Areas, Northwest Pacific ISA License Areas, Clarion-Clipperton Zone ISA License Areas.&#x20;
 
 ## Cost
 
@@ -52,12 +54,12 @@ The USA is not a member of the international ISA and issues own licenses through
 
 ## Requirements
 
-* \[features after login]&#x20;
+* Viewing is freely accessible; extra features for workspaces and collaboration (saving, annotating, sharing, uploading custom datasets) are available after registering by email.&#x20;
 * The tool is actively maintained, so check the [Platform and Data Updates](https://globalfishingwatch.org/platform-and-data-updates/) section (for Global Fishing Watch platform, so not all will be relevant to the Deep Sea Mining Watch) for the latest developments.&#x20;
 
 ## Limitations
 
-* Deep Sea Mining Watch provides the vessels as a curated list; ships involved in deep sea mining may have been missed.&#x20;
+* Deep Sea Mining Watch provides the vessels as a curated list, but it may not be complete; ships involved in deep sea mining may have been missed due to AIS evasion or they have no current activity in deep sea mining.&#x20;
 * The filter on the curated Deep Sea Mining Vessels layer relies on Automatic Identification System (AIS) data only; if a vessel turns off the transponder, it will disappear from the map.&#x20;
 * Other layers such as Radar Detections (SAR), Night light detections (VIIRS) or Events as Port Visits can be added from the layer library, but are based on the complete Global Fishing Watch Map and have no connection to the Deep Sea Mining Vessels filter. Vessels found from the added general GFW layers need to be cross-checked manually as they may not be associated with deep sea mining.&#x20;
 * The reference data layer for license areas is based on ISA licenses only and does not show claims and contracts for other jurisdictions such as NOAA. The vessels will be visible on the map, but without this context layer. &#x20;
@@ -66,7 +68,7 @@ The USA is not a member of the international ISA and issues own licenses through
 
 ## Ethical Considerations
 
-* \[disclaimer BOS]
+* Be careful in flagging vessels and owners. The Deep Sea Mining Watch list contains 55 ids and is curated by experts. The 'Deep Sea Mining Vessels' filter suggests that this is a definite list of active deep sea miners, but that may not be the case. The [FAQ](https://www.deepseaminingwatch.msi.ucsb.edu/faq) does state that inclusion on the list does not mean that they are currently involved in deep sea mining; vessels were selected because they were once associated with mineral-related activities, but this can include environmental research and seismic monitoring. Cross-referencing with other sources and combining with license reference layers is recommended. &#x20;
 
 ## Guides and articles
 
