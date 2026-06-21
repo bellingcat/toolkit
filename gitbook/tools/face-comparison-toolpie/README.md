@@ -1,5 +1,5 @@
 ---
-updated: '2025-11-04'
+updated: '2026-06-20'
 description: Compares two human face photos to determine similarity.
 ---
 
