@@ -28,13 +28,15 @@ The USA is not a member of the international ISA and issues own licenses through
 
 <figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 15.29.40.png" alt=""><figcaption><p>The Clarion-Clipperton Zone (CCZ) in international waters of the central Pacific, south-east of Hawaii; the current epicentre of deep sea mining activity. In purple the ISA licensed areas by resourcetype, in red the areas per contractor (not always visible due to overlap). Vessels appearing in an appointed area of particular environmental interest, the larger square boxes in this view, are a red flag.</p></figcaption></figure>
 
-\[screen details]
+<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 18.31.06.png" alt=""><figcaption><p>Selecting highlighted areas show associated vessels, the vessel presence in hours, area contracts and license area</p></figcaption></figure>
 
-The Deep Sea Mining Watch is a filter on the Global Fishing Watch map and uses the same interface. See the [Global Fishing Watch toolkit description](./#url) for details on all available features: they are the same for both tools. As Deep Sea Mining Watch runs inside the GFW platform, logins point to the same account and saved views, vessel groups, reports and other customized parts will carry over. The main difference is that the Deep Sea Mining Watch data is not avaible by API.&#x20;
+<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 18.35.39.png" alt=""><figcaption><p>Zooming in on a specific vessel shows all data from Global Fishing Watch, including IMO and MMSI numbers, past voyages, port calls and owners. </p></figcaption></figure>
 
-Data goes back to januari 2012 and a comparison between two dates can be made, or a timeframe of the last 30 days, 3/6 months or the past year.
+The Deep Sea Mining Watch is a filter on the Global Fishing Watch map and uses the same interface. See the [Global Fishing Watch toolkit description](./#url) for details on all available features: they are the same for both tools. As Deep Sea Mining Watch runs inside the GFW platform, logins point to the same account and saved views, vessel groups, reports and other customized parts will carry over. The main difference is that the Deep Sea Mining Watch data is not available by API.&#x20;
 
-By zooming in on period or vessel, other data from the GFW platform can be reached.&#x20;
+Data goes back to January 2012 and a comparison between two dates can be made, or a timeframe of the last 30 days, 3/6 months or the past year.
+
+By zooming in on a specific period or vessel, other data from the GFW platform can be reached.&#x20;
 
 Specific Deep Sea Mining Watch reference layers are:&#x20;
 
