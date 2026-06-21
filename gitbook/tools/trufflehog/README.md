@@ -12,7 +12,7 @@ GitHub Repository - [https://github.com/trufflesecurity/trufflehog](https://gith
 
 ## Description
 
-TruffleHog is a tool that is capable of finding, verifying, and analyzing leaked credentials. Credentials can be API keys, passwords, authentication tokens, private keys, etc. TruffleHog is capable of searching through multiple data sources, including local and remote git repositories, Dockerfiles, AWS S3 buckets, file-systems, CI/CD systems, and more. Once a secret is detected, TruffleHog (since version 3) will additionally validate the secret in order to identify which detections are still active and not previously disabled and/or rotated. Lastly, the tool comes with an analyze command that is capable of of taking a detected secret and giving you more information about the permissions and resources it has access to.&#x20;
+TruffleHog is an open source secret scanning tool that discovers, classifies, validates, and analyses leaked credentials. Credentials like API keys, passwords, authentication tokens, private keys, and similar machine-to-machine secrets. It scans across Git, chats, wikis, logs, API testing platforms, object stories, filesystems and more, including git history, Dockerfiles, S3 buckets, and CI/CD pipelines. Since v3, detected secrets are automatically validated against the live service to confirm whether they're still active rather than already rotated or revoked. For many common credential types, its analyse command goes further, querying the provider's API to establish who created it, what resouces it can access, and what permissions it has on those resouces, rather than confirming it works.&#x20;
 
 ## Cost
 
@@ -20,7 +20,7 @@ TruffleHog is a tool that is capable of finding, verifying, and analyzing leaked
 * [ ] Partially Free
 * [ ] Paid
 
-While TruffleHog is free at it's core, there is an [Enterprise version](https://trufflesecurity.com/trufflehog-enterprise) available. However, there is little functionality provided in Enterprise that is of much use to an individual researcher.
+TruffleHog's core scanning, validation, and analysis capabilities are fully open-source and free. Truffle security also sells an [Enterprise version](https://trufflesecurity.com/trufflehog-enterprise) , but this adds continuous monitoring, integrations, and team management for organisations, it doesn't extend the detection capabilities themselves, so it offers little to an individual reseaercer running one-off scans.
 
 ## Level of difficulty
 
@@ -28,21 +28,25 @@ While TruffleHog is free at it's core, there is an [Enterprise version](https://
 
 ## Requirements
 
-A terminal emulator is required to install and use the tool.
+Requires a terminal and one of: the official install script (curl), Go (for go install), Docker, or Homebrew. Runs on Windows, macOS, and Linux. Internet access is needed for secret validations. Scanning private or cloud-hosted sources (e.g. GitHub, S3) requires appropriate credentials for that source.
 
 ## Limitations
 
-The tool is limited to detecting types of credentials that it has pre-configured detectors for. See a list [here](https://github.com/trufflesecurity/trufflehog/tree/main/pkg/detectors). You may also define [custom detectors](https://docs.trufflesecurity.com/custom-detectors).
+TruffleHog can only detect credential types with a built in detector, see a list [here](https://github.com/trufflesecurity/trufflehog/tree/main/pkg/detectors) and [custom detectors](https://docs.trufflesecurity.com/custom-detectors). You can extend coverage with customer regex based detectors via config, or write more complex Go-based detectors (including verification logic) and compile them into the binary - this is a more involved process than basic configuration. Detection itself relies on regex and entropy matching, so it can produce false positives/negatives. Verification only works for credential types with an active verifier and requires network access to the relevant services; secrets without a verifier are reported as unverified rather than confirmed live.&#x20;
 
 ## Ethical Considerations
 
-Using credentials found by TruffleHog to gain (or attempt to gain) unauthorized access is unethical and illegal in most countries.
+Running the tool against systems or repositories without authorisation to do so is ethically and often legally questionable, independent of what is found. Using credentials found by TruffleHog to gain or attempt to gain unauthorised access is unethical and illegal in most jurisdictions (e.g. under the UK Computer Misuse Act 1990 or the US CFAA). Any live secrets discovered should be handled minimally, not retained or shared beyond what's needed to verify and report the finding, and disclosed responsibly to the credential's owner rather than published.
 
 ## Guides and articles
 
 The [TruffleHog README](https://github.com/trufflesecurity/trufflehog/blob/main/README.md) has information on how to install and use the tool, including advanced usage.&#x20;
 
 The [TruffleHog Documentation](https://docs.trufflesecurity.com/) provides additional information, though there are Enterprise features co-mingled with the open source features. If a feature is Enterprise-only, the page will have a banner that indicates this, as seen on the [Google Drive page](https://docs.trufflesecurity.com/google-drive) (as of: 27 August, 2024).
+
+The [Introducing TruffleHog v3](https://trufflesecurity.com/blog/introducing-trufflehog-v3) is the primary source explaining the shift from regex/entropy-only detection to validated detection.
+
+The [TruffleHog The Kitchen](https://trufflesecurity.com/the-kitchen) covers practical things like git vs filesystem command differences and per-source scanning guides, useful for running the tool.
 
 ## Tool provider
 
@@ -52,9 +56,9 @@ Truffle Security Co. - USA
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
 | Page maintainer |
 | --------------- |
