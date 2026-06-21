@@ -16,7 +16,7 @@ Deep Sea Mining is the extraction of mineral deposits from the ocean floor. Meta
 See the [FAQ](https://isa.org.jm/faq-for-media/) of the International Seabed Authority (ISA) for details on deep sea mining and the [Critical Minerals Data Explorer](https://www.iea.org/data-and-statistics/data-tools/critical-minerals-data-explorer) from the International Energy Agency (IEA) for the latest demand projections and industrial and domestic applications.&#x20;
 {% endhint %}
 
-Deep Sea Mining Watch shows deep sea mining vessel presence on a global map, showing a heatmap in areas with high mining activity.&#x20;
+Deep Sea Mining Watch displays deep sea mining vessel presence on a global map, using a heatmap to highlight areas with high mining activity.&#x20;
 
 As deep sea mining occurs far offshore and out of sight in deep waters, open source research holds extra value for monitoring. Deep Sea Mining Watch shows vessels associated with mining activity on a map together with license boundaries and protected zones. Open researchers can use this tool to verify mining claims and activities, by checking whether a vessel's tracked position and movement pattern matches its licensed block, and investigate unexplained activity, such as a vessel operating outside its license area or inside a protected zone.
 
@@ -45,11 +45,12 @@ As deep sea mining occurs far offshore and out of sight in deep waters, open sou
 ## Requirements
 
 * \[features after login]&#x20;
+* The tool is actively maintained, so check the [Platform and Data Updates](https://globalfishingwatch.org/platform-and-data-updates/) section (for Global Fishing Watch platform, so not all will be relevant to the Deep Sea Mining Watch) for the latest developments.&#x20;
 
 ## Limitations
 
-* Deep Sea Mining Watch provides a curated list; ships involved in deep sea mining may have been missed.&#x20;
-* The data relies on Automatic Identification System (AIS) data only; if a vessel turns off the transponder, it will disappear from the map.&#x20;
+* Deep Sea Mining Watch provides the vessels as a curated list; ships involved in deep sea mining may have been missed.&#x20;
+* The filter on the curated Deep Sea Mining Vessels layer relies on Automatic Identification System (AIS) data only; if a vessel turns off the transponder, it will disappear from the map. Another layer such as&#x20;
 * Data is not real time, but approximately 72 hours behind.&#x20;
 * Limited analysis functionality: for raw data and export functionality, use [Global Fishing Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map#search-for-vessels-view-vessel-tracks-and-fishing-events).&#x20;
 
@@ -59,7 +60,7 @@ As deep sea mining occurs far offshore and out of sight in deep waters, open sou
 
 ## Guides and articles
 
-This [interactive tutorial](https://www.deepseaminingwatch.msi.ucsb.edu/tutorial) on the website of Deep Sea Mining Watch will lead you through all screens and options of the tool.&#x20;
+This [interactive tutorial](https://www.deepseaminingwatch.msi.ucsb.edu/tutorial) on the website of Deep Sea Mining Watch will lead you through all screens and options of the tool. Inline help is also available when clicking the icon with the question mark.&#x20;
 
 Deep Sea Mining Watch was used in The Mongabay/CNN investigation into China’s deep-sea mining fleet (march 2026), combining [MarineTraffic](https://bellingcat.gitbook.io/toolkit/more/all-tools/marinetraffic), [QGIS](https://bellingcat.gitbook.io/toolkit/more/all-tools/qgis) and Deep Sea Mining Watch. [Mongabay](https://news.mongabay.com/custom-story/2026/03/chinas-deep-sea-mining-fleet-may-also-track-us-submarines/) | [interactive CNN version](https://cnn.com/interactive/2026/03/world/china-deep-sea-mining-military-vis-intl/)&#x20;
 
@@ -82,8 +83,8 @@ Deep Sea Mining Watch can be combined with:&#x20;
 
 ## Advertising Trackers
 
-* [ ] This tool has not been checked for advertising trackers yet.
-* [x] This tool uses tracking cookies. Use with caution.
+* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
 | Page maintainer                     |
