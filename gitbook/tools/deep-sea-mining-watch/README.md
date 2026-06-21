@@ -57,12 +57,10 @@ The USA is not a member of the international ISA and issues own licenses through
 
 ## Limitations
 
-\[only showing isa licenses? noaa?]
-
 * Deep Sea Mining Watch provides the vessels as a curated list; ships involved in deep sea mining may have been missed.&#x20;
-* The reference data layer for license areas is based on ISA licenses only; that means that overlapping claims and contracts for the very same waters (especially relevant in the Clarion-Clipperton zone) will not be visible. &#x20;
 * The filter on the curated Deep Sea Mining Vessels layer relies on Automatic Identification System (AIS) data only; if a vessel turns off the transponder, it will disappear from the map.&#x20;
 * Other layers such as Radar Detections (SAR), Night light detections (VIIRS) or Events as Port Visits can be added from the layer library, but are based on the complete Global Fishing Watch Map and have no connection to the Deep Sea Mining Vessels filter. Vessels found from the added general GFW layers need to be cross-checked manually as they may not be associated with deep sea mining.&#x20;
+* The reference data layer for license areas is based on ISA licenses only and does not show claims and contracts for other jurisdictions such as NOAA. The vessels will be visible on the map, but without this context layer. &#x20;
 * Data is not real time, but approximately 72 hours behind.&#x20;
 * Limited analysis functionality: for raw data and export functionality, use [Global Fishing Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map#search-for-vessels-view-vessel-tracks-and-fishing-events).&#x20;
 
