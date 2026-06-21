@@ -28,7 +28,7 @@ The USA is not a member of the international ISA and issues own licenses through
 
 <figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 15.29.40.png" alt=""><figcaption><p>The Clarion-Clipperton Zone (CCZ) in international waters of the central Pacific, south-east of Hawaii; the current epicentre of deep sea mining activity. In purple the ISA licensed areas by resourcetype, in red the areas per contractor (not always visible due to overlap). Vessels appearing in an appointed area of particular environmental interest, the larger square boxes in this view, are a red flag.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 18.31.06.png" alt=""><figcaption><p>Selecting highlighted areas show associated vessels, the vessel presence in hours, area contracts and license area</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 18.31.06.png" alt=""><figcaption><p>Selecting highlighted areas show associated vessels, the vessel presence in hours, area contracts and license area.</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 18.35.39.png" alt=""><figcaption><p>Zooming in on a specific vessel shows all data from Global Fishing Watch, including IMO and MMSI numbers, past voyages, port calls and owners. </p></figcaption></figure>
 
@@ -70,7 +70,7 @@ Specific Deep Sea Mining Watch reference layers are:&#x20;
 
 ## Ethical Considerations
 
-* Be careful in flagging vessels and owners. The Deep Sea Mining Watch list contains 55 ids and is curated by experts. The 'Deep Sea Mining Vessels' filter suggests that this is a definite list of active deep sea miners, but that may not be the case. The [FAQ](https://www.deepseaminingwatch.msi.ucsb.edu/faq) does state that inclusion on the list does not mean that they are currently involved in deep sea mining; vessels were selected because they were once associated with mineral-related activities, but this can include environmental research and seismic monitoring. Cross-referencing with other sources and combining with license reference layers is recommended. &#x20;
+Be careful in flagging vessels and owners. The Deep Sea Mining Watch list contains 55 ids and is curated by experts. The 'Deep Sea Mining Vessels' filter suggests that this is a definite list of active deep sea miners, but that may not be the case. The [FAQ](https://www.deepseaminingwatch.msi.ucsb.edu/faq) does state that inclusion on the list does not mean that they are currently involved in deep sea mining; vessels were selected because they were once associated with mineral-related activities, but this can include environmental research and seismic monitoring. Cross-referencing with other sources and combining with license reference layers is recommended. &#x20;
 
 ## Guides and articles
 
