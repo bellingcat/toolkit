@@ -20,7 +20,7 @@ Deep Sea Mining Watch displays deep sea mining vessel presence on a global map, 
 
 As deep sea mining occurs far offshore and out of sight in deep waters, open source research holds extra value for monitoring. Deep Sea Mining Watch shows vessels associated with mining activity on a map together with license boundaries and protected zones. Open researchers can use this tool to verify mining claims and activities, by checking whether a vessel's tracked position and movement pattern matches its licensed block, and investigate unexplained activity, such as a vessel operating outside its license area or inside a protected zone.
 
-
+<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 12.19.34.png" alt=""><figcaption></figcaption></figure>
 
 \[zoom in]&#x20;
 
@@ -50,7 +50,7 @@ As deep sea mining occurs far offshore and out of sight in deep waters, open sou
 ## Limitations
 
 * Deep Sea Mining Watch provides the vessels as a curated list; ships involved in deep sea mining may have been missed.&#x20;
-* The filter on the curated Deep Sea Mining Vessels layer relies on Automatic Identification System (AIS) data only; if a vessel turns off the transponder, it will disappear from the map. Another layer such as SAR Radar Detections can be added from the layer library, but is applicable for the complete Global Fishing Watch and not connected to the Deep Sea Mining Vessels filter.&#x20;
+* The filter on the curated Deep Sea Mining Vessels layer relies on Automatic Identification System (AIS) data only; if a vessel turns off the transponder, it will disappear from the map. Another layer such as Radar Detections (SAR) or Night light detections (VIIRS) can be added from the layer library, but is based on the complete Global Fishing Watch and not connected to the Deep Sea Mining Vessels filter. Vessels found from the added general GFW layers need to be cross-checked manually as they may may not be associated with deep sea mining.&#x20;
 * Data is not real time, but approximately 72 hours behind.&#x20;
 * Limited analysis functionality: for raw data and export functionality, use [Global Fishing Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map#search-for-vessels-view-vessel-tracks-and-fishing-events).&#x20;
 
@@ -68,7 +68,7 @@ Interesting for Open Source Researchers is this article for details on the used 
 
 ## Tool provider
 
-[Benioff Ocean Science Laboratory](https://bosl.ucsb.edu), University of California. The platform is powered by [Global Fishing Watch’](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map)s Open Ocean Project and uses the same engine and interface.
+[Benioff Ocean Science Laboratory](https://bosl.ucsb.edu), University of California. The platform is powered by [Global Fishing Watch’](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map)s Open Ocean Project.
 
 ## Similar tools
 
