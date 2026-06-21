@@ -50,7 +50,7 @@ As deep sea mining occurs far offshore and out of sight in deep waters, open sou
 ## Limitations
 
 * Deep Sea Mining Watch provides the vessels as a curated list; ships involved in deep sea mining may have been missed.&#x20;
-* The filter on the curated Deep Sea Mining Vessels layer relies on Automatic Identification System (AIS) data only; if a vessel turns off the transponder, it will disappear from the map. Another layer such as&#x20;
+* The filter on the curated Deep Sea Mining Vessels layer relies on Automatic Identification System (AIS) data only; if a vessel turns off the transponder, it will disappear from the map. Another layer such as SAR Radar Detections can be added from the layer library, but is applicable for the complete Global Fishing Watch and not connected to the Deep Sea Mining Vessels filter.&#x20;
 * Data is not real time, but approximately 72 hours behind.&#x20;
 * Limited analysis functionality: for raw data and export functionality, use [Global Fishing Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-fishing-watch-map#search-for-vessels-view-vessel-tracks-and-fishing-events).&#x20;
 
