@@ -22,8 +22,6 @@ Although the depth of information varies by country—with some offering more ex
 
 <figure><img src=".gitbook/assets/osint-map.png" alt=""><figcaption><p>Screenshot of the OSINT Tools Map (March 2026), showing global coverage of OSINT resources by country and category.</p></figcaption></figure>
 
-
-
 To start using the OSINT tools map, click directly to explore specific countries, cities, or regions, or use the search bar to quickly find the location you are interested in. Additionally, the platform offers a list of countries, cities, territories, and services, which can be accessed by scrolling down, providing an alternative way to navigate through the various available resources.
 
 For example, for France, various online resources provide valuable information across different sectors. The official cadastral map can be accessed through cadastre.gouv.fr, offering detailed property records. For business registry information, verif.com serves as a useful platform, helping users check company details. Vehicle information can be found on siv-auto.fr, which provides registration and status updates.
@@ -58,7 +56,7 @@ The French Yellow Pages can be explored through the Yellow/White pages directory
 
 While the OSINT Tools Map functions as a practical archive of links to external resources, researchers should be aware of the following limitations:
 
-* **Maintenance status:** The creator, [@cyb\_detective](https://cybdetective.com/), remains active in the OSINT community, but the [GitHub repository](https://github.com/cipher387/osintmap) shows open, unresolved user requests with no confirmed recent commits. Researchers should treat the map as a historical reference rather than a continuously updated directory.
+* **Maintenance status:** The creator, @cyb\_detective, remains active in the OSINT community, but the [GitHub repository](https://github.com/cipher387/osintmap/deployments) was last deployed in September 2023. While the owner has indicated that some updates are applied directly to the live map at [cybdetective.com/osintmap](https://cybdetective.com/osintmap), the frequency of these updates is not publicly verifiable. Researchers should verify the current status of any linked source before use.
 * **No direct data access:** The map links to external sources rather than containing data itself. Linked sources may change, move, or become unavailable over time.
 * **No update timestamps:** The map does not display update timestamps for individual entries, making it difficult to assess how current any given link is.
 * **Variable coverage:** Availability and depth of resources varies significantly by country, and researchers should verify the current status of any linked source before relying on it.
