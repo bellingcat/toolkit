@@ -337,6 +337,73 @@ async function syncToolIdReferences(sheets, title, toolIds) {
   }
 }
 
+// Copies Tools[Team Members] → Admin[Maintainer], matching rows by Tool ID.
+async function syncTeamMembersToAdmin(sheets) {
+  const [toolsMeta, adminMeta] = await Promise.all([
+    getSheetMeta(sheets, 'Tools'),
+    getSheetMeta(sheets, 'Admin'),
+  ]);
+  if (!toolsMeta) { console.warn('Tools sheet not found, skipping Team Members→Maintainer sync'); return; }
+  if (!adminMeta) { console.warn('Admin sheet not found, skipping Team Members→Maintainer sync'); return; }
+
+  const { table: toolsTable } = toolsMeta;
+  const toolsReadRange = toolsTable
+    ? `Tools!${columnLetter(toolsTable.startColumnIndex)}${toolsTable.startRowIndex + 1}:${columnLetter(toolsTable.endColumnIndex - 1)}${toolsTable.endRowIndex}`
+    : 'Tools';
+  const toolsValues = (await sheets.spreadsheets.values.get({ spreadsheetId: SPREADSHEET_ID, range: toolsReadRange })).data.values || [];
+  if (toolsValues.length === 0) return;
+
+  const toolsHeader = toolsValues[0];
+  const toolIdCol = toolsHeader.indexOf('Tool ID');
+  const teamMembersCol = toolsHeader.indexOf('Team Members');
+  if (toolIdCol === -1 || teamMembersCol === -1) {
+    console.warn('Tools sheet missing Tool ID or Team Members column, skipping sync');
+    return;
+  }
+
+  const teamMembersMap = new Map();
+  for (let i = 1; i < toolsValues.length; i++) {
+    const id = toolsValues[i][toolIdCol];
+    if (id) teamMembersMap.set(id, toolsValues[i][teamMembersCol] ?? '');
+  }
+
+  const { table: adminTable } = adminMeta;
+  const adminReadRange = adminTable
+    ? `Admin!${columnLetter(adminTable.startColumnIndex)}${adminTable.startRowIndex + 1}:${columnLetter(adminTable.endColumnIndex - 1)}${adminTable.endRowIndex}`
+    : 'Admin';
+  const adminValues = (await sheets.spreadsheets.values.get({ spreadsheetId: SPREADSHEET_ID, range: adminReadRange })).data.values || [];
+  if (adminValues.length === 0) return;
+
+  const adminHeader = adminValues[0];
+  const adminToolIdCol = adminHeader.indexOf('Tool ID');
+  const adminMaintainerCol = adminHeader.indexOf('Maintainer');
+  if (adminToolIdCol === -1) { console.warn('Admin sheet missing Tool ID column, skipping sync'); return; }
+  if (adminMaintainerCol === -1) { console.warn('Admin sheet missing Maintainer column, skipping sync'); return; }
+
+  const adminHeaderRow = (adminTable?.startRowIndex ?? 0) + 1;
+
+  const updates = [];
+  for (let i = 1; i < adminValues.length; i++) {
+    const toolId = adminValues[i][adminToolIdCol];
+    if (!toolId) continue;
+    const teamMembers = teamMembersMap.get(toolId);
+    if (teamMembers === undefined) continue;
+    if ((adminValues[i][adminMaintainerCol] ?? '') === teamMembers) continue;
+    updates.push({
+      range: `Admin!${columnLetter(adminMaintainerCol)}${i + adminHeaderRow}`,
+      values: [[teamMembers]],
+    });
+  }
+
+  if (updates.length === 0) { console.log('Admin: Maintainer already up to date'); return; }
+
+  await sheets.spreadsheets.values.batchUpdate({
+    spreadsheetId: SPREADSHEET_ID,
+    requestBody: { valueInputOption: 'RAW', data: updates },
+  });
+  console.log(`Admin: updated ${updates.length} Maintainer value(s)`);
+}
+
 // Columns written as USER_ENTERED so Sheets parses them into real booleans/dates.
 const TOOLS_TYPED_COLUMNS = ['Published', 'Last updated', 'Date submitted'];
 const MEMBERS_TYPED_COLUMNS = ['Last seen at', 'Joined at'];
@@ -356,6 +423,8 @@ async function main() {
   for (const title of TOOL_ID_REFERENCE_TABS) {
     await syncToolIdReferences(sheets, title, toolIds);
   }
+
+  await syncTeamMembersToAdmin(sheets);
 }
 
 const isMain = import.meta.url === `file://${process.argv[1]}`;
