@@ -129,17 +129,17 @@ For AI analysis, the documentation says only discovered site names are sent to t
 
 ## Similar Tools
 
-Blackbird sits in the middle ground between quick, browser-based username checkers and deeper enumeration tools that extract extensive metadata. Its strength lies in alternative and NSFW platform coverage through its WhatsMyName integration, but investigators will often need to combine it with other tools to cover mainstream social networks and extract richer profile data.
+Blackbird sits in the middle ground between quick, browser-based username checkers and deeper enumeration tools that extract extensive metadata. Its strength lies in alternative and NSFW platform coverage through its WhatsMyName integration, but  OSINT investigators will often need to combine it with other tools to cover mainstream social networks and extract richer profile data.
 
-* [**Namechk**](https://bellingcat.gitbook.io/toolkit/more/all-tools/namechk)
-* [**WhatsMyName**](https://bellingcat.gitbook.io/toolkit/more/all-tools/whats-my-name)
-* [**Maigret**](https://bellingcat.gitbook.io/toolkit/more/all-tools/maigret)
-* [**Sherlock**](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock)
-* [**Skopenow**](https://bellingcat.gitbook.io/toolkit/more/all-tools/skopenow)
+* [**Namechk**](https://bellingcat.gitbook.io/toolkit/more/all-tools/namechk) **-** a username and domain availability checker across multiple platforms. While it overlaps with Blackbird in checking username presence, Namechk is primarily aimed at verifying availability for registration purposes rather than OSINT investigations.
+* [**WhatsMyName**](https://bellingcat.gitbook.io/toolkit/more/all-tools/whats-my-name) **-** a browser-based username checker searching across 500+ platforms. Unlike Blackbird, it requires no installation and can be used directly in a browser, making it well suited for quick checks, though it lacks Blackbird's advanced querying options and email search capability.
+* [**Maigret**](https://bellingcat.gitbook.io/toolkit/more/all-tools/maigret) **-** a CLI tool that searches for usernames across 3000+ sites and extracts additional profile metadata such as account creation dates and follower counts. Maigret covers significantly more sites than Blackbird, but Blackbird has the advantage of also supporting email address searches alongside username lookups.
+* [**Sherlock**](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock) **-** an open-source CLI tool that searches for usernames across 400+ websites and social networks. Like Blackbird, it returns direct links to found profiles, but has stronger coverage of mainstream social networks such as LinkedIn and Letterboxd, while Blackbird covers more NSFW and alternative platforms such as Gab and Truth Social. Both require installation, but Blackbird additionally offers a web interface.
+* [**Skopenow**](https://bellingcat.gitbook.io/toolkit/more/all-tools/skopenow) **-** a paid, all-in-one people intelligence platform that searches social media usernames alongside addresses, corporate records, dark web leaks, and vehicle information. Unlike Blackbird, which is a free, open-source username enumeration tool, Skopenow is a commercial product aimed at professional investigators requiring consolidated reporting across multiple data types.
 
 ## Tool provider
 
-Original developer is [Lucas Antoniaci](https://www.linkedin.com/in/lucas-antoniaci/).
+Original developer is [Lucas Antoniaci](https://www.linkedin.com/in/lucas-antoniaci/), Brasil.&#x20;
 
 ## Advertising Trackers
 
