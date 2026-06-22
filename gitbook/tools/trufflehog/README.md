@@ -1,5 +1,6 @@
 ---
 description: Find leaked credentials.
+updated: '2026-06-21'
 ---
 
 # TruffleHog
