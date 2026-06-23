@@ -15,7 +15,7 @@ description: Identify bird sounds and find bird sounds on a global map.
 
 BirdNET is a machine-learning bird sound identification project that can help users identify bird species from audio recordings and view recent anonymised bird sound detections on a global map.\
 \
-The main public map, [BirdNET LiveMap](https://birdnet.cornell.edu/api2/live), displays anonymised BirdNET observations from around the world. It shows recent detections, species names, broad map markers, total observations, observations in the last 24 hours, hourly activity, and the most frequently observed species in different regions. It is useful for getting a quick view of where BirdNET users are detecting bird sounds, but it should not be treated as a complete representative biodiversity dataset.
+The main public map, [BirdNET LiveMap](https://birdnet.cornell.edu/api2/live), displays anonymised BirdNET observations from around the world. It shows recent detections, species names, total observations, observations in the last 24 hours, hourly activity, and the most frequently observed species in different regions. It is useful for getting a quick view of where BirdNET users are detecting bird sounds, but it should not be treated as a complete representative biodiversity dataset.
 
 BirdNET can be useful in two main ways.
 
@@ -23,7 +23,7 @@ The LiveMap can provide environmental context by showing recent bird sound detec
 
 The BirdNET browser demo and mobile apps help identify bird calls captured in video or audio recordings, especially for narrowing down the regions of the world in which those recordings could have been taken. This can support geolocation or chronolocation work by suggesting whether a recording is consistent with a particular region, habitat, or season.
 
-The newer BirdNET Live mobile app is designed for continuous real-time identification and can run on device without an internet connection.
+The newer BirdNET Live mobile app is designed for continuous real-time identification and can run on devices without an internet connection.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-11-01 095429.png" alt=""><figcaption><p>The LiveMap also displays the total number of observations, the number of observations in the last 24 hours, the number of species identified, the number of users in the last 24 hours and other details.</p></figcaption></figure>
 
