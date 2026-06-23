@@ -75,7 +75,7 @@ Tool provider unknown. No information provided beyond [https://www.toolpie.com/]
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| Pols            |
-|                 |
+| Page maintainer                                         |
+| ------------------------------------------------------- |
+| Bellingcat Volunteer Team. Updated by Pols in June 2026 |
+|                                                         |
