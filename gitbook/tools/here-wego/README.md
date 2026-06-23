@@ -38,7 +38,7 @@ Registering for an account can be done via Facebook or with an email address. Th
 
 ## Limitations
 
-Unlike some other satellite imagery tools, Here WeGo does not appear to indicate the date of the images it displays. Nor does it offer different chronological options, which may be limiting for researchers looking to assign a specific time to an image.
+Unlike some other satellite imagery tools, Here WeGo does not appear to indicate the date of the images it displays. Nor does it offer Street View images with different chronological options like [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps), which may be limiting for researchers looking to assign a specific time to an image.
 
 ## Ethical Considerations
 
@@ -50,7 +50,7 @@ A guide to what Here WeGo, its setup and its use is available on a community-run
 
 ## Tool provider
 
-The tool is created and maintained by an entity named [Here Technologies](https://www.here.com/). They are a Dutch multinational headquartered in Amsterdam that is majority owned by a consortium of German automotive companies. The entity's core business revolves around lisencing mapping content to other companies.
+The tool is created and maintained by an entity named [Here Technologies](https://www.here.com/). They are a Dutch multinational headquartered in Amsterdam that is majority owned by a consortium of German automotive companies. The entity's core business revolves around licencing mapping content to other companies.
 
 ## Advertising Trackers
 
