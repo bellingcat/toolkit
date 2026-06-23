@@ -95,7 +95,7 @@ Both BirdNet and Merlin are developed by Cornell Lab.
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                       |
-| ------------------------------------- |
-| Piya Garg / Bellingcat Volunteer Team |
-|                                       |
+| Page maintainer                                               |
+| ------------------------------------------------------------- |
+| Bellingcat Volunteer Team. Updated by Piya Garg in June 2026. |
+|                                                               |
