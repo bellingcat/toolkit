@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-14'
+updated: '2026-06-22'
 description: >-
   Searchable archive of specific 4chan boards that makes it possible to read
   threads after they are purged from 4chan.

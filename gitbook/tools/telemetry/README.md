@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-14'
+updated: '2026-06-22'
 description: An analytical search tool for Telegram groups and channels.
 ---
 
