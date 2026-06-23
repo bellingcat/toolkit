@@ -1,5 +1,5 @@
 ---
-description: Mapping service that can serve as an alternative to Google Maps or Apple Maps.
+description: Mapping service similar to Google Maps or Apple Maps.
 ---
 
 # HERE WeGo
