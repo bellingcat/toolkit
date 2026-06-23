@@ -21,7 +21,7 @@ TruffleHog is an open source secret scanning tool that discovers, classifies, va
 * [ ] Partially Free
 * [ ] Paid
 
-TruffleHog's core scanning, validation, and analysis capabilities are fully open-source and free. Truffle security also sells an [Enterprise version](https://trufflesecurity.com/trufflehog-enterprise) , but this adds continuous monitoring, integrations, and team management for organisations, it doesn't extend the detection capabilities themselves, so it offers little to an individual reseaercer running one-off scans.
+TruffleHog's core scanning, validation, and analysis capabilities are fully open-source and free. Truffle security also sells an [Enterprise version](https://trufflesecurity.com/trufflehog-enterprise) , but this adds continuous monitoring, integrations, and team management for organisations, it doesn't extend the detection capabilities themselves, so it offers little to an individual reseaercher running one-off scans.
 
 ## Level of difficulty
 
