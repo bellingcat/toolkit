@@ -6,4 +6,4 @@ description: These tools were added to the toolkit within the last four weeks.
 
 | Name | Description | Cost | Tool Review and Guide |
 | --- | --- | --- | --- |
-| Shodan | A search engine for internet-connected devices, from webcams to databases. | <mark style="background-color:orange;">Partially Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/shodan](tools/shodan/README.md) |
+| HERE WeGo | Mapping service similar to Google Maps or Apple Maps. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/here-wego](tools/here-wego/README.md) |
