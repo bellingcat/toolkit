@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import pkg from './data.mjs'
 const {apiCall, getCategories, getTools, getRegions, writeIfChanged, getSummary} = pkg;
-import matter from 'gray-matter'
+import matter from './frontmatter.mjs'
 import { ORG_ID, DEFAULT_COLLECTION_ID, TOOL_PAGE_MAINTAINERS_TEAM_ID, CATEGORY_COLLECTION_IDS } from './config.mjs';
 
 /* Example

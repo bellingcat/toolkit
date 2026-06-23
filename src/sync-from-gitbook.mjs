@@ -17,7 +17,7 @@
 
 import fs from 'fs';
 import path from 'path';
-import matter from 'gray-matter';
+import matter from './frontmatter.mjs';
 import pkg from './data.mjs';
 import client from './ghproject-client.mjs';
 const { apiCall } = pkg;

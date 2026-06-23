@@ -1,4 +1,4 @@
-import matter from 'gray-matter';
+import matter from './frontmatter.mjs';
 import pkg from './data.mjs';
 import toolsPkg from './tools.mjs';
 import client from './ghproject-client.mjs';

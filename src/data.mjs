@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import matter from 'gray-matter'
+import matter from './frontmatter.mjs'
 
 function writeIfChanged(content, filepath) {
   const old = fs.existsSync(filepath) ? fs.readFileSync(filepath, 'utf-8') : '';

@@ -7,9 +7,7 @@
   },
   "dependencies": {
     "googleapis": "^173.0.0",
+    "js-yaml": "^4.2.0",
     "marked": "^12.0.0"
-  },
-  "devDependencies": {
-    "gray-matter": "^4.0.3"
   }
 }
