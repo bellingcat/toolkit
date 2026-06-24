@@ -77,7 +77,7 @@ embed charts—without needing a backend developer.
 
 * [x] Free (self-hosted)
 * [ ] Partially Free
-* [x] Paid
+* [ ] Paid
 
 Cloud pricing on request.
 
@@ -105,12 +105,9 @@ Cloud pricing on request.
 
 ## Ethical Considerations
 
-* **Risk of exposing personal data**: once a Datasette instance is public, search\
-  engines can index it. Scrub or password-protect sensitive tables.
-* **Licensing clarity**: publishing a DB does not change the licence of the\
-  underlying data; ensure you have redistribution rights.
-* **Query logs**: enable or disable query-logging based on newsroom\
-  confidentiality policies.
+* **Risk of exposing personal data**: once a Datasette instance is public, search engines can index it. Scrub or password-protect sensitive tables.
+* **Licensing clarity**: publishing a DB does not change the licence of the underlying data; ensure you have redistribution rights.
+* **Query logs**: enable or disable query-logging based on newsroom confidentiality policies.
 
 ## Guides and articles
 
@@ -121,8 +118,7 @@ Cloud pricing on request.
 
 ## Tool provider
 
-**Simon Willison / Datasette Project** – independent open-source developer;\
-Datasette Cloud is operated by **Datasette Labs Ltd.**
+**Simon Willison / Datasette Project** – independent open-source developer; Datasette Cloud is operated by **Datasette Labs Ltd.**
 
 ## Advertising Trackers
 
