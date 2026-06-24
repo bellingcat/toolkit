@@ -35,10 +35,10 @@ Credits are required for all services, including:
 ## Cost
 
 * [ ] Free
-* [x] Partially Free
-* [ ] Paid
+* [ ] Partially Free
+* [x] Paid
 
-
+A small number of free base credits are provided upon sign-up.
 
 ## Level of difficulty
 
