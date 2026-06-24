@@ -24,7 +24,7 @@ Datasette is an Apache-2.0-licensed tool that turns one or more SQLite databases
 
 In simpler terms, if you have information in a spreadsheet or CSV file and want to find insights or share it with others, Datasette helps you publish that data online in a searchable, user-friendly format.&#x20;
 
-For example, the investigative journalism group Bellingcat has used Datasette to examine leaked data – [in one case](https://www.newsroomrobots.com/p/how-datasette-helps-with-investigative), analyzing a leaked food delivery company database to uncover links to a Russian security agency. This means that whether you’re a journalist sifting through thousands of records or a researcher sharing data with the public, Datasette can make the job easier by providing an intuitive way to browse and query your information.
+According to Datasette creator Simon Willison, ["One of the most compelling use cases of Datasette"](https://www.newsroomrobots.com/p/how-datasette-helps-with-investigative) was Bellingcat's use of Datasette to examine leaked data – analyzing a leaked food delivery company database to uncover links to Russia's security agency. This means that whether you’re a journalist sifting through thousands of records or a researcher sharing data with the public, Datasette can make the job easier by providing an intuitive way to browse and query your information.
 
 <figure><img src=".gitbook/assets/Screenshot 2026-06-23 at 12.24.12 pm.png" alt=""><figcaption><p>An example of how Datasette can be used (screenshot from Datasette website)</p></figcaption></figure>
 
