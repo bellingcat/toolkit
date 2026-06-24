@@ -53,8 +53,6 @@ Search results for the search term _Stockholm:_
 
 <figure><img src=".gitbook/assets/Screenshot 2024-04-26 at 1.11.40 PM.png" alt="Screenshot of a search for the term Stockholm on the hitta.se map shows a map with roads and boundaries around Stockholm."><figcaption><p>Screenshot of search results for the term Stockholm</p></figcaption></figure>
 
-
-
 ## Cost
 
 * [ ] Free
@@ -95,10 +93,6 @@ For researchers using hitta.se, ethical considerations include:
 ## Guides and articles
 
 To effectively use Hitta.se, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
-
-**Official Wiki**&#x20;
-
-* No official wiki.
 
 **Tutorials and Articles**
 
