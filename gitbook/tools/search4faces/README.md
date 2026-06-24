@@ -100,5 +100,4 @@ It is recommended to be cautious when using any of those tools since it the tool
 
 | Page maintainer |
 | --------------- |
-| hande           |
-|                 |
+| Anisa Shabir    |
