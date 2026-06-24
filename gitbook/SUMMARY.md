@@ -166,7 +166,6 @@
   * [PeakVisor](tools/peakvisor/README.md)
   * [PimEyes](tools/pimeyes/README.md)
   * [Pinpoint](tools/pinpoint/README.md)
-  * [PixPlot](tools/pixplot/README.md)
   * [Planet Labs](tools/planet-labs/README.md)
   * [Police Records Access Project](tools/police-records-access-project/README.md)
   * [PublicWWW](tools/publicwww/README.md)
