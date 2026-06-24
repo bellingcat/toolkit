@@ -47,11 +47,7 @@ Search results for a neighborhood in Stockhom:
 
 <figure><img src=".gitbook/assets/Hitta sample image.jpg" alt="" width="563"><figcaption></figcaption></figure>
 
-#### Formats:
 
-* iPad
-* Mobile
-* Web
 
 Search results for the search term _Stockholm:_
 
