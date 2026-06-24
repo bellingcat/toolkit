@@ -131,7 +131,7 @@ Datasette Cloud is operated by **Datasette Labs Ltd.**
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| William Summers |
-|                 |
+| Page maintainer                                                                          |
+| ---------------------------------------------------------------------------------------- |
+| Bellingcat Volunteer Team and Martin Sona. Last updated by William Summers in June 2026. |
+|                                                                                          |
