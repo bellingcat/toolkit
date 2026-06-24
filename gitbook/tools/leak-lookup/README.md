@@ -66,11 +66,13 @@ Up to date [pricing information can be found here](https://leak-lookup.com/packa
 
 Users must register an account to conduct searches; account registration is free of charge.
 
-## Ethical Considerations & Limitations
+## Limitations
 
 A subscription to the service is needed in order to view the full breach details for any given record. Without a subscription, API keys have limitations on how many API calls a user can make — approximately 10 API calls per day per user.&#x20;
 
 Both public and private API keys offer 5 requests per minute and 10,000 maximum results per search query. However, with purchase of a private API key, a manual export of queries that trigger more than 10,000 results can be completed by contacting the Leak Lookup [support team](https://leak-lookup.com/support/contact).&#x20;
+
+## Ethical Considerations
 
 ## Similar Tools
 
