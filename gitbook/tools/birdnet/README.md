@@ -9,11 +9,11 @@ description: Identify bird sounds and find bird sounds on a global map.
 
 [https://birdnet.cornell.edu/map](https://birdnet.cornell.edu/map)
 
-[https://birdnet.cornell.edu/app/](https://birdnet.cornell.edu/app/)&#x20;
+[https://birdnet.cornell.edu/app/](https://birdnet.cornell.edu/app/)
 
 ## Description
 
-BirdNET is a machine-learning bird sound identification project that can help users identify bird species from audio recordings and view recent anonymised bird sound detections on a global map.\
+BirdNET is a machine-learning based bird sound identification project that can help users identify bird species from audio recordings and view recent anonymised bird sound detections on a global map.\
 \
 The main public map, [BirdNET LiveMap](https://birdnet.cornell.edu/api2/live), displays anonymised BirdNET observations from around the world. It shows recent detections, species names, total observations, observations in the last 24 hours, hourly activity, and the most frequently observed species in different regions. It is useful for getting a quick view of where BirdNET users are detecting bird sounds, but it should not be treated as a complete representative biodiversity dataset.
 
@@ -59,11 +59,11 @@ BirdNET results are not definitive identifications. High-confidence results can 
 
 ## Ethical Considerations
 
-The LiveMap collects user data for 15 days including user devices inputting data via the app and stores this data for research purposes. The data collected includes the IP address, identification of the browser and potentially the operating system, the website referrer URL and the date and time.
+The LiveMap [collects user data for 15 days](https://birdnet.cornell.edu/privacy/) including user devices inputting data via the app and stores this data for research purposes. The data collected includes the IP address, identification of the browser and potentially the operating system, the website referrer URL and the date and time.
 
 After 15 days it anonymizes the IP address. Users may submit a [written request](https://birdnet.cornell.edu/privacy/) to receive information on the data collected.
 
-Do not upload or submit audio that may contain private conversations, sensitive personal information, or material you do not have permission to share.&#x20;
+Do not upload or submit audio that may contain private conversations, sensitive personal information, or material you do not have permission to share.
 
 Do not treat BirdNET identifications as forensic proof.
 
