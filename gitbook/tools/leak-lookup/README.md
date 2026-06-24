@@ -16,8 +16,6 @@ Leak Lookup is an online tool and database search platform that allows users to 
 
 Leak Lookup's collection appears to contain publicly available databases from web applications and services that have been breached, leaked or scraped as well as collections of credentials or personally identifiable information (PII) such as [Collection 1](https://en.wikipedia.org/wiki/Collection_No._1). For each "breach", users are able to see the data types that have been exposed such as email address, username, full name, cleartext or hashed password.&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 3.30.09 PM.png" alt=""><figcaption><p>Sample Dashboard</p></figcaption></figure>
-
 <figure><img src=".gitbook/assets/Screenshot 2025-01-24 at 3.20.21 PM.png" alt=""><figcaption><p>Sample record of breach information</p></figcaption></figure>
 
 As of June 2026, Leak-Lookup also has the following API offerings:
@@ -58,12 +56,7 @@ Four **Search Options** are available:
 * [x] Partially Free
 * [ ] Paid
 
-As of June 2026, the [pricing information](https://leak-lookup.com/packages/credits) for credits are as follows:
-
-* 20 credits for $10
-* 50 credits for $20
-* 140 credits for $50
-* 300 credits for $100
+Up to date [pricing information can be found here](https://leak-lookup.com/packages/credits) after login in with your account.
 
 ## Level of difficulty
 
@@ -105,6 +98,6 @@ Leak-Lookup can be reached at info(at)leak-lookup.com or on X, the social media 
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer |
-| --------------- |
-| hande, lekha    |
+| Page maintainer                                               |
+| ------------------------------------------------------------- |
+| Bellingcat Volunteer Team, Last updated by lekha in June 2026 |
