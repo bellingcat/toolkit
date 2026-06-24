@@ -44,8 +44,7 @@ Some key things you can do with Datasette include:
 
 #### What problem does it solve?
 
-Researchers and newsrooms often sit on CSVs or spreadsheets that are hard to\
-search or share. Import them with `sqlite-utils` (or drag-and-drop in\
+Researchers and newsrooms often sit on CSVs or spreadsheets that are hard to search or share. Import them with `sqlite-utils` (or drag-and-drop in\
 Datasette Desktop), then run:
 
 ```bash
