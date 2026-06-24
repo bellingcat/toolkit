@@ -41,6 +41,11 @@ Hitta.se is a tool that specializes in providing comprehensive information, rang
 * **Sharing:** share a link to the selected location.&#x20;
 * **Your location:** share your location and automatically see it on the map (if you are in Sweden).&#x20;
 * **Zoom tool:** zoom in and out on the map.
+* **Demographic insights:** view neighborhood data including average incomes, loan amounts and voting patterns. Coverage may vary by location.&#x20;
+
+Search results for a neighborhood in Stockhom:
+
+<figure><img src=".gitbook/assets/Hitta sample image.jpg" alt="" width="563"><figcaption></figcaption></figure>
 
 #### Formats:
 
@@ -60,7 +65,7 @@ Search results for the search term _Stockholm:_
 * [x] Partially Free
 * [ ] Paid
 
-API usage incurs fees (English translation [https://www-hitta-se.translate.goog/api?\_x\_tr\_sl=auto&\_x\_tr\_tl=en&\_x\_tr\_hl=en&\_x\_tr\_hist=true#pricing](https://www-hitta-se.translate.goog/api?\_x\_tr\_sl=auto&\_x\_tr\_tl=en&\_x\_tr\_hl=en&\_x\_tr\_hist=true#pricing))
+API usage incurs fees (English translation [https://www-hitta-se.translate.goog/api?\_x\_tr\_sl=auto&\_x\_tr\_tl=en&\_x\_tr\_hl=en&\_x\_tr\_hist=true#pricing](https://www-hitta-se.translate.goog/api?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_hist=true#pricing))
 
 ## Level of difficulty
 
@@ -107,7 +112,7 @@ To effectively use Hitta.se, especially for beginners or those looking to refine
 
 #### Developer Resources
 
-* &#x20;[https://www.hitta.se/api](https://www.hitta.se/api) (English Translation: [https://www-hitta-se.translate.goog/api?\_x\_tr\_sl=auto&\_x\_tr\_tl=en&\_x\_tr\_hl=en&\_x\_tr\_hist=true](https://www-hitta-se.translate.goog/api?\_x\_tr\_sl=auto&\_x\_tr\_tl=en&\_x\_tr\_hl=en&\_x\_tr\_hist=true))
+* &#x20;[https://www.hitta.se/api](https://www.hitta.se/api) (English Translation: [https://www-hitta-se.translate.goog/api?\_x\_tr\_sl=auto&\_x\_tr\_tl=en&\_x\_tr\_hl=en&\_x\_tr\_hist=true](https://www-hitta-se.translate.goog/api?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_hist=true))
 
 **Community and Support**
 
