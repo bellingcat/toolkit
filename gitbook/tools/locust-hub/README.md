@@ -125,7 +125,7 @@ Weather and Rainfall data offered by [Nasa Worldview](https://bellingcat.gitbook
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                   |
-| ------------------------------------------------- |
-| Bellingcat volunteer team Reviewed Sophie Tedling |
-|                                                   |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
+|                           |
