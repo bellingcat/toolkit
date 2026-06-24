@@ -36,7 +36,7 @@ For more information on PGP and how it is used by Proton Mail, check these two g
 
 The tool supports two modes:
 
-* **Light Mode (API Mode):** Uses Proton Mail's API to check email validity. This mode is best suited for quick checking a few usernames or emails as the API has a request limit.
+* **Light Mode (API Mode):** Uses Proton Mail's API (`/api/users/available`) to check email validity. This mode is best suited for quickly checking a few usernames or emails as the API has a request limit.
 * **Selenium Mode (Browser-automated mode):** Connects with your own Proton Mail credentials to check email addresses. Use this mode to test a consequent list of usernames or emails without getting a cooldown. Also use it when you need to verify [business emails](https://proton.me/blog/business-email-address).
 
 ## Cost
@@ -49,7 +49,7 @@ The tool is free and open source.
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
 The tool requires users to run Python scripts and configure API access or credentials.
 
@@ -57,14 +57,15 @@ The tool requires users to run Python scripts and configure API access or creden
 
 * **Python** (compatible with Python 3.6+)
 * **Optional:** Google Chrome (for Selenium Mode)
-* **Optional:** Proton Mail credentials (for Selenium Mode)
+* **Optional:** Proton Mail account with an active subscription (for Selenium Mode)
 * **Optional:** Proxy configuration if needed (for bypassing the API's request limit).
 * **Optional:** A file containing the list of email addresses for batch operations
 
 ## Limitations
 
 * **On PGP Key Creation Date**: The PGP Key Creation Date isn't always the email address creation date as a new PGP Key can be generated from the Proton Mail settings.
-* **API Limits:** The light mode relies on Proton Mail's API that has request limit of 100 requests per hour.
+* **API Limits:** The Light Mode relies on Proton Mail's API that has a request limit of 100 requests per hour.
+* **2**F**A-enabled Accounts:** The script does not currently support Selenium-mode logins for accounts protected by 2-Factor-Authentication. Either modify the script locally to add the functionality, or use a throw-away Proton Mail account with no 2FA enabled.
 
 ## How to Use
 
@@ -189,7 +190,7 @@ Output:
 
 **Example 4: Validate Multiple Emails from a File**
 
-Create a file named **emails.txt** with one entry (email or username) per line:
+Create a file named `emails.txt` with one entry (email or username) per line:
 
 ```
 testemail1@proton.me
@@ -198,7 +199,7 @@ invalidemail@proton.me
 testemail
 ```
 
-Run the command below. It will also save the results in a results.txt file.
+Run the command below. It will also save the results in a `results.txt` file.
 
 ```
 neutrosint -f emails.txt -o results.txt
@@ -219,10 +220,27 @@ Output:
 
 **Example 5: Using Selenium Mode**
 
+**Allow the script to log into an investigative ProtonMail account in order to access PGP key information.**
+
+<pre><code><strong>neutrosint -e testemail@proton.me -u 'myemail@protonmail.com' -p 'MyPassword123!'
+</strong></code></pre>
+
+Output:
+
+```
+[?] Connecting to ProtonMail with credentials...
+[+] Connected to ProtonMail
+
+[?] Accessing 'New email' to check email addresses...
+[?] Checking email addresses...
+
+[+] Valid email: testemail@proton.me - PGP key creation date: 2016-04-19 16:00:56 - Fingerprint: 747752ef11868e4bfb4c0c3e9f832cbb57f25faa - Algorithm: RSA 2048
+```
+
 The request limit of the API in Light Mode is 100 requests. When you reach the API limit, the following message will be displayed:
 
 ```
-[+] Valid email: someemail@protonmail.com - Can't retrieve PGP keys. API limit reached
+[+] Valid email: testemail@proton.me - Can't retrieve PGP keys. API limit reached
 ```
 
 If you reach this limit or if you know you have a lot of entries to test, then you can use Selenium Mode which requires to have a valid set of credentials. The Selenium Mode will automate a browser to simulate a human-like interaction with the Proton Mail website. It will login using your credentials, start composing a new email and check for the target availability.
@@ -232,10 +250,6 @@ When you type in an email in the destination field, a request is made to check f
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>The lock shows that the email is valid and the encryption is possible.</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>When the email does not exist, an error message is displayed.</p></figcaption></figure>
-
-The Selenium Mode will leverage the UI's capabilities to retrieve this information. To use it you need to specify your email and password using the **-u** and **-e** options.
-
-This example will use a file containing more than 100 usernames.
 
 
 
@@ -362,9 +376,9 @@ The tool is developed and maintained by [KrowZ](https://blog.synoslabs.com/about
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
 | Page maintainer           |
 | ------------------------- |
