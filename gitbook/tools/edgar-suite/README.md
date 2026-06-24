@@ -11,7 +11,7 @@ description: >-
 
 [https://pypi.org/project/edgar-tool/](https://pypi.org/project/edgar-tool/)
 
-* Source code is freely available on [GitHub](https://github.com/bellingcat/EDGAR) (v 2.1.2 – 15 May 2025, last checked April 30, 2025.)
+* Source code is freely available on [GitHub](https://github.com/bellingcat/EDGAR) (v 2.1.2 – 15 May 2025, last checked June 24, 2026.)
 * Users can download `edgar-tool` (the CLI) directly from [PyPI](https://pypi.org/project/edgar-tool/)
 
 ## EDGAR Database Overview
@@ -34,11 +34,11 @@ Despite [EDGAR](https://bellingcat.gitbook.io/toolkit/more/all-tools/edgar)’s 
 * **edgar-tool Solution**: **Text Search** automates queries, segmenting them into manageable “chunks.” It then merges all pages into a single `.csv` or `.jsonl` file and can optionally download the linked filings themselves.
   * **Example**: Searching for references to “ESG,” “cybersecurity,” or any specific phrase across 1,000 documents becomes a single command instead of manual page-by-page clicks.
 
-#### 2. Standardized Financial Data from XBRL
+#### 2. Access to Standardized Financial Data from XBRL (Companion Dataset)
 
 * **Challenge with EDGAR Web**: While EDGAR makes data from **XBRL** filings available, companies often define their own custom tags. Basic direct comparisons of net income or total assets across different issuers can be messy or incomplete.
-* **edgar-tool Solution**: It references a custom library of commonly used GAAP/XBRL tags mapped to plain-English financial metrics. This leads to more consistent results (e.g., “revenue,” “net income,” “debt,” etc.) for each company.
-  * **Example**: Instantly fetch a unified time-series for any public company’s key statements (balance sheet, income statement, cash flow) without sifting through dozens of custom tag variations.
+* **edgar-tool Solution**: While the `edgar-tool` CLI itself is dedicated to text and metadata retrieval, the tools' maintainers provide a separate, standalone financial profile `.csv` dataset as a companion resource. This dataset uses a custom library to map commonly used GAAP/XBRL tags to plain-English financial metric (e.g., “revenue,” “net income,” “debt,” etc.).
+  * **Example**: Instead of writing complex Python scripts to parse live XBRL data or sift through dozens of custom tag variations, journalists can download this tool's pre=compiled dataset to instantly view a unified historical time-series for public companies' key financial statements.
 
 #### 3. Flexible, Filtered RSS Feed for Company Monitoring
 
@@ -60,8 +60,8 @@ Despite [EDGAR](https://bellingcat.gitbook.io/toolkit/more/all-tools/edgar)’s 
 
 #### 5. Command-Line Simplicity & Python Integration
 
-* **CLI Usage**: A single terminal command (e.g., `edgar text_search "John Doe"`) runs queries with optional arguments for specialized tasks.
-* **Python Compatibility**: If deeper analysis or automated workflows are desired, you can embed `edgar-tool` results in Jupyter notebooks, or orchestrate them within a Python pipeline (particularly helpful for large OSINT or data-mining projects).
+* **CLI Usage**: A single terminal command (e.g., `edgar text-search "John Doe"`) runs queries with optional arguments for specialized tasks.
+* **Python / Jupyter Compatibility**: If deeper analysis or automated workflows are desired, you can integrate `edgar-tool` results in Jupyter Notebooks, or orchestrate them within a Python pipeline (particularly helpful for large OSINT or data-mining projects).
 
 #### 6. Support for Large Queries & Retry Logic
 
@@ -123,6 +123,7 @@ George Dyer (former Bellingcat Tech Fellow)
 * [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not use tracking cookies.
+  * **note:** _actually the CLI tool will improve on direct browser access to_ [_https://www.sec.gov/edgar/search/_](https://www.sec.gov/edgar/search/) _that has generic trackers in place last time we checked: Google Tag Manager (GTM) and Akamai._
 
 | Page maintainer |
 | --------------- |
