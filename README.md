@@ -1,5 +1,7 @@
 #  Bellingcat’s Online Open Source Investigation Toolkit
 
+[<img src="assets/donate-button.svg" alt="Donate" height="44">](https://www.bellingcat.com/donate)
+
 This is the github repository for Bellingcat's Online Investigation Toolkit 2.0
 
 Markdown content for each tool is managed on gitbook and synced to this repository.
