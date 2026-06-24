@@ -15,7 +15,7 @@ Locust Dashboard: [https://www.arcgis.com/apps/dashboards/d8df827fc77340b29740e7
 
 ## Description
 
-A public portal managed by the Food and Agriculture Organization [(FAO)](https://www.fao.org/home/en) of the United Nations, the Locust Hub provides information "about the state of the locust upsurge and the UN's ongoing response efforts". It offers a geographic and time-sensitive visualization of recent desert locust activity, such as hopper groups and bands, adult groups and swarms. It also shows where control operations have been carried out.
+A public portal managed by the Food and Agriculture Organization [(FAO)](https://www.fao.org/home/en) of the United Nations, the Locust Hub provides information ["about the state of the locust upsurge and the UN's response efforts"](https://locust-hub-hqfao.hub.arcgis.com/). It offers a geographic and time-sensitive visualization of recent desert locust activity, such as hopper groups and bands, adult groups and swarms. It also shows where control operations have been carried out.
 
 According to FAO, the data is "[updated frequently with the latest observations from the field](https://locust-hub-hqfao.hub.arcgis.com/)" by assigned locust teams, supplemented by additional field staff. These reports are then [validated by the country’s national locust centre](https://www.fao.org/locusts/faqs/en/), before being transmitted to FAO’s Desert Locust Information Service which publishes it through the public portal.
 
