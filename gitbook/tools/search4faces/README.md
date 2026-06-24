@@ -78,7 +78,7 @@ An example of how Search4Faces was used to reveal a TikTok profile can be found 
 
 Search4Faces was used by Bellingcat in the following investigation to find a Odnoklassniki profile of a person of interest: [Tracking the Faceless Killers who Mutilated and Executed a Ukrainian POW](https://www.bellingcat.com/news/2022/08/05/tracking-the-faceless-killers-who-mutilated-and-executed-a-ukrainian-pow/), 2022.
 
-GIJN’s Guide “[Beyond Facial Recognition: State-of-the-Art Research Techniques](https://gijn.org/stories/beyond-facial-recognition-state-of-the-art-research-techniques/)” from October 2023 provides an instance of the tool's usefulness in an investigation. In one instance, when Pimeyes failed to return any results, the researcher turned to Search4Faces as an alternative, and found the relevant information.
+GIJN’s Guide “[Beyond Facial Recognition: State-of-the-Art Research Techniques](https://gijn.org/stories/beyond-facial-recognition-state-of-the-art-research-techniques/)” from October 2023 demonstrates tool's usefulness in an investigation. In one instance, when Pimeyes failed to return any results, the researcher turned to Search4Faces as an alternative, and found the relevant information.
 
 ## Tool provider
 
