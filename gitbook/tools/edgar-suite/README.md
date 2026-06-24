@@ -125,6 +125,6 @@ George Dyer (former Bellingcat Tech Fellow)
 * [x] This tool does not use tracking cookies.
   * **note:** _actually the CLI tool will improve on direct browser access to_ [_https://www.sec.gov/edgar/search/_](https://www.sec.gov/edgar/search/) _that has generic trackers in place last time we checked: Google Tag Manager (GTM) and Akamai._
 
-| Page maintainer |
-| --------------- |
-| Martin Sona     |
+| Page maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
