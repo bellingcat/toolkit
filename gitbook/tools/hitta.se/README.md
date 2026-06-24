@@ -124,6 +124,14 @@ By utilizing these resources, users can enhance their Hitta.se experience, wheth
 
 [Hittapunktse AB](./#url)- Sweden
 
+## Similar Tools
+
+[Eniro.se](https://eniro.se), [ratsit.se](https://ratsit.se), and [merinfo.se](https://merinfo.se) are similar public search platforms providing information on individuals, addresses, and businesses in Sweden. Notably, eniro includes a mapping tool that allows users to view historical aerial photos from 1950-1960s side-by-side with modern maps.&#x20;
+
+Because these sites aggregate data from public records, researchers may also look directly to the source, requesting official civil registration and tax data from the Swedish Tax Agency: [https://www.skatteverket.se/servicelankar/otherlanguages/englishengelska/moreonskatteverket/publicinformation.4.2106219b17988b0d2314cf.html](https://www.skatteverket.se/servicelankar/otherlanguages/englishengelska/moreonskatteverket/publicinformation.4.2106219b17988b0d2314cf.html).
+
+Additionally, standard information for the property registration can be requested free of charge from Sweden’s mapping and land registration authority: [https://www.lantmateriet.se/en/real-property/property-information/order-information-from-the-property-register/](https://www.lantmateriet.se/en/real-property/property-information/order-information-from-the-property-register/).
+
 ## Advertising Trackers
 
 * [x] This tool has not been checked for advertising trackers yet.
