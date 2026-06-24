@@ -51,7 +51,7 @@ The data can also be used to predict movement of swarms, when used in conjunctio
 
 This tool (accessible [here](https://locust-hub-hqfao.hub.arcgis.com/pages/lobelia-viewer)) provides soil moisture data at 1 km resolution across desert locust breeding areas. Developed for FAO's global Desert Locust early warning system, it can help identify moist sandy soil areas favourable to locust reproduction in Africa, the Near East and southwest Asia.
 
-According to FAO, the service is updated every ten days and allows users to explore changes in soil moisture over the previous three months.
+According to [FAO](https://locust-hub-hqfao.hub.arcgis.com/pages/lobelia-viewer), the service is updated every ten days and allows users to explore changes in soil moisture over the previous three months.
 
 <figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 00.24.26.png" alt=""><figcaption><p>A generic view of the Soil Moisture Viewer. Screenshot taken on 20 June 2026.</p></figcaption></figure>
 
