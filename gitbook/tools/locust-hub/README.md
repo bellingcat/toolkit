@@ -11,8 +11,7 @@ description: >-
 
 Locust Hub Website: [https://locust-hub-hqfao.hub.arcgis.com/](https://locust-hub-hqfao.hub.arcgis.com/)
 
-Locust Dashboard:\
-[https://www.arcgis.com/apps/dashboards/d8df827fc77340b29740e7b151de1674](https://www.arcgis.com/apps/dashboards/d8df827fc77340b29740e7b151de1674)
+Locust Dashboard: [https://www.arcgis.com/apps/dashboards/d8df827fc77340b29740e7b151de1674](https://www.arcgis.com/apps/dashboards/d8df827fc77340b29740e7b151de1674)
 
 ## Description
 
