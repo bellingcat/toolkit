@@ -71,6 +71,7 @@
   * [CITES Trade Database](tools/cites-trade-database/README.md)
   * [Companies House](tools/companies-house/README.md)
   * [Convert Geographic Units](tools/convert-geographic-units/README.md)
+  * [Datasette](tools/datasette/README.md)
   * [Datawrapper](tools/datawrapper/README.md)
   * [DeHashed](tools/dehashed/README.md)
   * [Discord Chat Exporter](tools/discord-chat-exporter/README.md)
