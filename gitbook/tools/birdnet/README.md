@@ -1,5 +1,5 @@
 ---
-updated: '2026-04-18'
+updated: '2026-06-23'
 description: Identify bird sounds and find bird sounds on a global map.
 ---
 

@@ -1,5 +1,5 @@
 ---
-updated: '2026-06-21'
+updated: '2026-06-23'
 description: Find leaked credentials.
 ---
 
