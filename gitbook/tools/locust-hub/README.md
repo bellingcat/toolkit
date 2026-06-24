@@ -59,7 +59,7 @@ Slider buttons allow users to adjust the mean soil moisture range shown on the m
 
 Clicking on a location displays the mean soil moisture over the selected period, and opens a small chart in the interface showing earlier measurements in that same place.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-23 at 16.34.44.png" alt=""><figcaption><p>The SM Viewer showing all areas with a mean soil moisture of 20-50 m<sup>3</sup>/100m<sup>3</sup> at the beginning of June 2026.<br>Screenshot taken on 23 June 2026.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-06-23 at 16.34.44.png" alt=""><figcaption><p>The Soil Moisture Viewer showing all areas with a mean soil moisture of 20-50 m<sup>3</sup>/100m<sup>3</sup> at the beginning of June 2026.<br>Screenshot taken on 23 June 2026.</p></figcaption></figure>
 
 The “Compare” function offers a comparison of soil moisture levels between two selected time periods. This indicates whether the soil is drier (in red) or wetter (in blue) than during the chosen reference time period.
 
