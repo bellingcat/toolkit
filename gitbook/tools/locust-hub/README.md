@@ -30,10 +30,12 @@ Data can be filtered by time period (last week, this month, last month, last thr
 <figure><img src=".gitbook/assets/Screenshot 2026-06-20 at 23.36.52.png" alt=""><figcaption><p>The Locust Hub displaying all reports of desert locusts found during control operations in the last three months.<br>Screenshot taken on 20 June 2026.</p></figcaption></figure>
 
 {% hint style="info" icon="lightbulb-gear" %}
-**Green dots** indicate hopper groups (young wingless locusts that can still damage ground-level crops).\
+**Green dots** indicate hopper groups (young wingless locusts that can still damage ground-level crops).
+
 **Blue dots** indicate larger groups, or bands, of hoppers.
 
-**Yellow dots** indicate groups of adult locusts.\
+**Yellow dots** indicate groups of adult locusts.&#x20;
+
 **Red dots** indicate adult swarms, which can fly long distances and wipe out entire fields within hours.
 
 **Light blue dots** represent where control operations have been carried out.
