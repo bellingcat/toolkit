@@ -1,59 +1,94 @@
 ---
-description: >-
-  Apple Maps is a digital mapping service with detailed, interactive maps,
-  satellite imagery, and location-based information.
 updated: '2026-01-15'
+description: >-
+  Apple Maps is a digital mapping service with detailed maps, satellite imagery,
+  and location-based information.
 ---
 
 # Apple Maps
 
 ## URL
 
-[https://www.apple.com/maps/](https://www.apple.com/maps/)
+[https://maps.apple.com](https://maps.apple.com)
 
 ## Description
 
-Apple Maps can be useful for open source researchers due to its high-resolution imagery and detailed mapping capabilities. Here are some features of interest:
+Apple Maps is the default map app pre-installed on Mac and iOS devices, and is also available via the web browser in any operating system.
 
-* **High-Resolution Imagery:** Provides clear satellite views, useful for analyzing geographical and structural details.
-* **Detailed City Data:** Includes 3D views and indoor maps of significant landmarks, airports, and shopping centers.
-* **Search Functions:** Location search by name, coordinates, or landmarks.
-* **Environmental Data:** Offers data on air quality and weather, helpful for tracking environmental conditions in specific areas.
-* **Privacy-Focused:** Ensures that data collected from usage isn't tied to user profiles, maintaining researcher anonymity. See [Apple Map's Privacy](https://www.apple.com/maps/) and the [Apple Privacy terms](https://www.apple.com/legal/privacy/).&#x20;
+Apple Maps is known to have [particularly detailed data](https://www.apple.com/newsroom/2021/09/apple-maps-introduces-new-ways-to-explore-major-cities-in-3d/) in metropolitan areas and landmarks. Researchers can use it as an additional tool to complement their searches in other map and street view apps.
 
-Features (MacOS and mobile):
+**Privacy focus**: Apple Maps is noteworthy for better [privacy](https://www.apple.com/legal/privacy/). The mobile and desktop app processes route data on-device and uses rotating, anonymous identifiers that cannot be linked to the user's personal Apple ID. Due to this privacy model, the browser Duckduckgo has [opted to use Apple Maps](https://spreadprivacy.com/duckduckgo-apple-mapkit-js/) in its search results related to addresses and mapping.
 
-* **3D view**
-* **Compass North**: realign the map to compass north.
-* **Current Location**: option to centre map at users location.
-* **Directions**: get directions from your current location or between two locations by car, walking, public transport or bike including travel time.
-* **Favourites**: add new place to favourites
-* **Guides**: create collections of locations in a guide.
-* **Language:** supports multiple languages.
-* **Layers**: multiple map layers available including Explore, Driving, Public Transport and Satellite.
-* **Look Around (Street View)**: see current street view imagery ([Look around in Maps on Mac](https://support.apple.com/en-ca/guide/maps/mps9a83e0730/mac)).
-* **Print**: print the current map or save it to PDF.
-* **Search**: search by address, general location or latitude and longitude.
-* **Send to phone (from the desktop)**: share the current view to your phone.
-* **Sharing and embedding:** share selected locations as a link or to Apple Desktop applications.
-* **Weather**: see the current weather at the selected location.
-* **Zoom tool:** zoom in and out on the map.
+#### Basic functionalities
 
-The example below shows a 3D view in Apple Maps Desktop of a search for _Amsterdam_: &#x20;
+Apple Maps is similar to other global or regional map and navigation apps in offering:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-06-21 at 11.47.28 AM.png" alt=" Screenshot of 3D view in Apple Maps Desktop of a search for Amsterdam shows a 3D street map in green and white with the sea in blue."><figcaption><p> Screenshot of 3D view in Apple Maps Desktop of a search for <em>Amsterdam.</em></p></figcaption></figure>
+* **High-resolution Imagery:** 2D view, real-time traffic, and satellite imagery.
+* **Detailed city data:** [3D views and indoor maps](https://en.wikipedia.org/wiki/Detailed_City_Experience) of significant landmarks, airports, and shopping centers.
+* **Search functions:** Location search by place name or coordinates.
+* **Look Around:** Equivalent to Google's Street View. The function was [expanded](https://virtualstreets.org/index.php/2025/07/08/apple-look-around-whats-happening-behind-the-scenes/) [since 2023](https://9to5mac.com/2023/04/07/new-apple-maps-features/?fbclid=IwY2xjawSoWsNleHRuA2FlbQIxMQBicmlkETFWVjJyeGljQXg0akVKbWI3c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHu2m3RjoxsnA0oc6QrckDkMBJFr8xt_fKFKFFMNZYFjENYQd5NzbiQ42dyLF_aem_YWdncwCDSYOkTP7Yh554pxvB5TjQ\&brid=YWdncwHsBzzNnWWj_tXmYsvRj90Y) to cover larger urban areas beyond capital cities in Europe, Asia, and the Middle East.
 
-Limited functionality available on the web at: [https://maps.apple.com/imagecollection/map?path=amsterdam](https://maps.apple.com/imagecollection/map?path=amsterdam)
+#### Getting coordinates
 
-### Use Cases
+{% tabs %}
+{% tab title="Desktop app (MacOS only)" %}
+Left-click and choose 'Marked Location from the menu.&#x20;
 
-Apple Maps, with its rich features and extensive data, can be a powerful tool in the realm of open source research. Here are some potential use cases:
+<figure><img src=".gitbook/assets/markedlocation2.png" alt="" width="177"><figcaption></figcaption></figure>
 
-* **Geolocation Verification:** Verifying the location of a photo or video shared on social media to confirm the authenticity of claims made online.
-* **Investigative Reporting:** Tracking and mapping out relevant locations to a story, thereby providing readers with a clearer understanding of the spatial relationships and geographical details of the investigation.
-* **Historical Analysis:** Comparing current maps with historical data to highlight changes over time in areas of interest, which can add depth to stories on urban development, environmental changes, or socio-economic shift.
-* **Infrastructure Analysis:** Analyzing satellite images and 3D maps of infrastructure for changes or developments that might indicate political, military, or economic events.
-* **Environmental Monitoring:** Monitoring changes in landscapes, forest cover, water bodies, etc., to report on environmental issues or natural disasters.
+This will drop a pin on the map. The pin will be automatically shown with a place name, usually the nearest landmark.&#x20;
+
+<figure><img src=".gitbook/assets/pin2.png" alt="" width="124"><figcaption></figcaption></figure>
+
+Click on the pin, and a left panel appears. You will see the coordinates shown. Copy and paste from there.&#x20;
+
+<figure><img src=".gitbook/assets/panel_annotated.png" alt="" width="250"><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Web browser (any operating system)" %}
+Drop a pin by double-clicking on the map. A pin will appear as "Marked Location".&#x20;
+
+<figure><img src=".gitbook/assets/markedlocation (1).png" alt="" width="116"><figcaption></figcaption></figure>
+
+To obtain the coordinates, look at the URL in your web browser.&#x20;
+
+<figure><img src=".gitbook/assets/URL.png" alt=""><figcaption></figcaption></figure>
+
+In the example above, the coordinates are 40.731013, -73.999495.&#x20;
+{% endtab %}
+{% endtabs %}
+
+#### Accessing street level imagery
+
+{% tabs %}
+{% tab title="Desktop app (Mac only)" %}
+Once you click on the pin, the street-level imagery appears in a small box to the lower-left corner, adjacent to the information panels. (See the red rectangle below.) <br>
+
+![](<.gitbook/assets/street2 (1).png>)
+
+Simply click on the street level image to enlarge to fullscreen view.&#x20;
+{% endtab %}
+
+{% tab title="Web browser (any operating system)" %}
+To use **Look Around**, click on the binoculars icon at the lower-left corner.
+
+![](<.gitbook/assets/Screenshot 2026-06-25 at 8.00.06 PM.png>)
+
+The street-level imagery will open at the lower-left corner. The binoculars icon is shown on the map to indicate where the street-level imagery was captured, and the direction of your view. You can enlarge the Look Around imagery.&#x20;
+
+<figure><img src=".gitbook/assets/newyorkuniv_lookaroundview (1).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
+#### Flyover (Future upgrade announced June 2026)
+
+The Flyover feature is broadly equivalent to Google Earth’s 3D imagery. The function is available on the desktop and mobile apps, and _not_ available via the web browser.
+
+In a planned upgrade for iOS 27 and MacOS 27, Flyover will be upgraded to combine 3D Gaussian splatting (3DGS) and aerial footage for a more visually appealing, photorealistic experience. The new Flyover experience will be available in 350 cities.
+
+{% hint style="warning" %}
+Researchers should be aware that the Flyover's underlying model blends current and historical data, as well as various information sources. Therefore, details observed in the Flyover (e.g., a tree, or graffiti on walls) should not be taken as the most factually accurate rendering of the places shown.
+{% endhint %}
 
 ## Cost
 
@@ -67,51 +102,49 @@ Apple Maps, with its rich features and extensive data, can be a powerful tool in
 
 ## Requirements
 
-* Web: any modern web browser
-* Mobile: iOS
+* Desktop app: built-in Maps app in the Mac operating system.
+* Web: any modern web browser.
+* Mobile: iOS. (Android users can access using the web browser.)
 * Developer Platform: Apple account with email address and a credit card.
 
 ## Limitations
 
-* **Coverage**: While Apple Maps has significantly improved its coverage over the years, there are still some regions, particularly in developing countries, where the map data might not be as detailed or up-to-date as in the US or Europe. Apple's [Feature Availability Page](https://www.apple.com/ios/feature-availability/) documents Apple Map's coverage.&#x20;
-* **Look Around (Street View)**: Apple Maps' _Look Around_ feature, similar to Google's Street View, is not as widely available globally. Its coverage is limited to major cities and places of interest. Apple's [Feature Availability Page](https://www.apple.com/ios/feature-availability/) documents Apple's _Look Around_ coverage and their [Apple Maps Image Collection](https://maps.apple.com/imagecollection/gb.) page detail where and when images are being collected.&#x20;
-* **Cross-Platform Availability**: Apple Maps is primarily available on iOS, macOS, and watchOS devices. Its limited availability on non-Apple platforms could be a drawback for users seeking cross-platform compatibility. Windows users can use [Apple Maps on the web](https://www.apple.com/newsroom/2024/07/apple-maps-on-the-web-launches-in-beta/) (in beta) or have a look at [satellites.pro](https://bellingcat.gitbook.io/toolkit/more/all-tools/satellites.pro).
-* **Limited Web Version:** the web version (Apple Maps on the web) lacks significant functionality like searching and street view.
-* **Screenshots Use:** screenshots may be used for non-commercial purposes but must be attributed e.g. Map data © 2024 Apple Inc.. For more information see [Apple Maps Terms of Use](https://www.apple.com/legal/internet-services/maps/terms-en.html).
-* **API Rate Limits:** the developer API has rate limits for more information, see [Apple Maps Server API](https://developer.apple.com/documentation/applemapsserverapi/). &#x20;
-* **API Use:** the Apple Maps API has specific restrictions on things like caching, see the [Apple Developer Program License Agreement](https://developer.apple.com/support/terms/apple-developer-program-license-agreement/) on this and for information about commercial use.
+* **Coverage**: Apple Maps provides rich data in developed countries, but lacks up-to-date coverage in some regions, particularly in developing countries. See Apple's [Feature Availability Page](https://www.apple.com/ios/feature-availability/) for information by country.
+* **Cross-Platform Compatibility**: Open-source research teams may need cross-platform compatibility. For example, one researhcer may need to share an Apple Maps URL (to a marked location, or a guide or review) with a Windows user or archive the linked page in a Windows system. One tool for converting Apple Maps shared URLs to a Google Maps link is: [GotoAppleMaps](https://gotoapplemaps.com/from/apple-maps/).
+* **API Rate Limits:** the developer API has rate limits. See [Apple Maps Server API](https://developer.apple.com/documentation/applemapsserverapi/) for more information.
+* **API Use:** the Apple Maps API has restrictions on things like caching. See the [Apple Developer Program License Agreement](https://developer.apple.com/support/terms/apple-developer-program-license-agreement/) for more information.
 
 ## Ethical Considerations
 
-Open source researchers using Apple Maps should consider the following ethical implications:
+* **Bias and Representation**: Apple Maps' limited coverage in developing countries and the focus on major metropolitan areas can create [implicit biases](https://www.deseret.com/u-s-world/2021/7/2/22537588/map-bias-the-world-probably-doesnt-look-like-you-think/). Researchers should seek other maps or location-based data sources for a more balanced view.
+* **Researchers' safety and privacy**: Researchers (especially those who keep a collection of marked places for their investigations within their on-device map apps) should regularly review their threat models in device safety and privacy, and take precautions accordingly.
 
-* **Bias and Representation**: The limited coverage in developing countries and the focus on major cities and tourist attractions can lead to an implicit bias, portraying a skewed image of the world. Researchers should be mindful of this in their reporting and seek to provide a balanced view. See [The world probably doesn’t look like you think it does — and that matters, a lot](https://www.deseret.com/u-s-world/2021/7/2/22537588/map-bias-the-world-probably-doesnt-look-like-you-think/)  and [Not All Digital Maps Are the Same](https://www.atlasobscura.com/articles/not-all-digital-maps-are-the-same).&#x20;
+## Similar tools
+
+Windows users can check [satellites.pro](https://satellites.pro/). See the Bellingcat Toolkit guide [here](https://bellingcat.gitbook.io/toolkit/more/all-tools/satellites.pro).
 
 ## Guide
 
-To effectively use Apple Maps, especially for beginners or those looking to refine their skills, the following resources are highly recommended:
+#### **Official guides**
 
-**Official Wiki**&#x20;
+The following may be helpful for non-Mac users needing to check Apple Maps temporarily or occasionally.
 
-* **No official wiki:** Apple provides limited information here: [https://www.apple.com/maps/](https://www.apple.com/maps/)
+* Apple Support: Change your map view in Maps on Ma&#x63;_,_ [_https://support.apple.com/en-gb/guide/maps/mpsaf9c43d8f/mac_](https://support.apple.com/en-gb/guide/maps/mpsaf9c43d8f/mac) (Retrieved 24 June, 2026)
+* _Apple Support: Organize places in My Guides in Maps on iPhone,_ [https://support.apple.com/guide/iphone/organize-places-in-my-guides-iph0a53d4d7f/ios](https://support.apple.com/guide/iphone/organize-places-in-my-guides-iph0a53d4d7f/ios) (Retrieved 24 June, 2026)
 
-**Tutorials and Articles**
+#### **Hand gestures and keyboard shortcuts**
 
-* _Learn – Apple Maps for iOS & Mac – TheMacU.com_ (no date). Available at: [https://themacu.com/all-tutorials/macos-ios-tutorials/learn-apple-maps-for-ios/](https://themacu.com/all-tutorials/macos-ios-tutorials/learn-apple-maps-for-ios/) (Accessed: 12 April 2024).
-* _Organize places in My Guides in Maps on iPhone_ (no date) _Apple Support_. Available at: [https://support.apple.com/guide/iphone/organize-places-in-my-guides-iph0a53d4d7f/ios](https://support.apple.com/guide/iphone/organize-places-in-my-guides-iph0a53d4d7f/ios) (Accessed: 12 April 2024).updated, T.P. last (2022)&#x20;
-* _Apple Maps: 17 essential tips and tricks_, _Tom’s Guide_. Available at: [https://www.tomsguide.com/how-to/apple-maps-15-essential-tips-and-tricks](https://www.tomsguide.com/how-to/apple-maps-15-essential-tips-and-tricks) (Accessed: 12 April 2024).
+Researchers who conduct open-source research on mobile devices would benefit from familiarising themselves with the Apple Maps hand gestures.
 
-**Video Tutorials**
+* GuideWise - Youtube Channel, 21 Nov 2025, How to Use One-Handed Zoom in Apple Maps on iPhone (Quick Guide), [https://www.youtube.com/watch?v=VaWKqNqnnVA](https://www.youtube.com/watch?v=VaWKqNqnnVA)
 
-* _Maps for iPhone is AWESOME now! (FULL Tutorial + iOS17)_ (2023). Available at: [https://www.youtube.com/watch?v=Ajo6zJEWnvY](https://www.youtube.com/watch?v=Ajo6zJEWnvY) (Accessed: 12 April 2024).
+Keyboard shortcuts and hand gestures are also available on the desktop app:
+
+* Keyboard shortcuts and hand gestures in Apple Maps on Mac, [https://support.apple.com/en-gb/guide/maps/mps36380d1ed/mac](https://support.apple.com/en-gb/guide/maps/mps36380d1ed/mac)
 
 #### Developer Resources
 
 * [https://developer.apple.com/maps/](https://developer.apple.com/maps/)
-
-**Community and Support**
-
-* provided as part of the Apple Maps app.&#x20;
 
 ## Tool provider
 
@@ -123,8 +156,6 @@ Apple Inc. [https://www.apple.com/](https://www.apple.com/) - United States
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                |
-| -------------------------------------------------------------- |
-| Bellingcat Volunteer Team/Unassigned. Reviewer Sophie Tedling; |
-|                                                                |
-
+| Page maintainer                                                                                        |
+| ------------------------------------------------------------------------------------------------------ |
+| <p>Author: Bellingcat Volunteer Team. (June 2026 update: river_n).</p><p>Reviewer: Sophie Tedling.</p> |
