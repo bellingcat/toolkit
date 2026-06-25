@@ -99,24 +99,23 @@ To effectively use NASA Worldview, especially for beginners or those looking to 
 
 **Tutorials and Articles**
 
-* Fittarelli, A. (2020) _Ghost In The Machine: From Chad, A Case Study On Why You Shouldn’t Blindly Trust Tech_, _Bellingcat_. Available at: [https://www.bellingcat.com/resources/2020/07/17/ghost-in-the-machine-from-chad-a-case-study-on-why-you-shouldnt-blindly-trust-tech/](https://www.bellingcat.com/resources/2020/07/17/ghost-in-the-machine-from-chad-a-case-study-on-why-you-shouldnt-blindly-trust-tech/) (Accessed: 28 April 2024).
-* _Leveraging emerging technologies to enable environmental monitoring and accountability in conflict zones_ (2023) _International Review of the Red Cross_. Available at: [http://international-review.icrc.org/articles/leveraging-emerging-technologies-to-enable-environmental-monitoring-and-accountability-in-conflict-zones-924](http://international-review.icrc.org/articles/leveraging-emerging-technologies-to-enable-environmental-monitoring-and-accountability-in-conflict-zones-924) (Accessed: 28 April 2024).
-* McIntosh, T. (2018) ‘10 places to get free satellite images for investigative journalists’, _Geospatial World_, 22 June. Available at: [https://www.geospatialworld.net/blogs/free-satellite-images-for-investigative-journalists/](https://www.geospatialworld.net/blogs/free-satellite-images-for-investigative-journalists/) (Accessed: 28 April 2024).
-* _Resources for Finding and Using Satellite Images_ (no date). Available at: [https://gijn.org/resource/resources-for-finding-and-using-satellite-images/](https://gijn.org/resource/resources-for-finding-and-using-satellite-images/) (Accessed: 28 April 2024).
-* _Using satellite data for journalism — what I learned from the experts_ (2021). Available at: [https://satellitejournalism.com/posts/best-practices/](https://satellitejournalism.com/posts/best-practices/) (Accessed: 28 April 2024).
+* Fittarelli, A. (2020) _Ghost In The Machine: From Chad, A Case Study On Why You Shouldn’t Blindly Trust Tech_, _Bellingcat_. Available at: [https://www.bellingcat.com/resources/2020/07/17/ghost-in-the-machine-from-chad-a-case-study-on-why-you-shouldnt-blindly-trust-tech/](https://www.bellingcat.com/resources/2020/07/17/ghost-in-the-machine-from-chad-a-case-study-on-why-you-shouldnt-blindly-trust-tech/) (Accessed: 25 June 2026).
+* _Leveraging emerging technologies to enable environmental monitoring and accountability in conflict zones_ (2023) _International Review of the Red Cross_. Available at: [http://international-review.icrc.org/articles/leveraging-emerging-technologies-to-enable-environmental-monitoring-and-accountability-in-conflict-zones-924](http://international-review.icrc.org/articles/leveraging-emerging-technologies-to-enable-environmental-monitoring-and-accountability-in-conflict-zones-924) (Accessed: 25 June 2026).
+* McIntosh, T. (2018) ‘10 places to get free satellite images for investigative journalists’, _Geospatial World_, 22 June. Available at: [https://www.geospatialworld.net/blogs/free-satellite-images-for-investigative-journalists/](https://www.geospatialworld.net/blogs/free-satellite-images-for-investigative-journalists/) (Accessed: 25 June 2026).
+* _Resources for Finding and Using Satellite Images_ (no date). Available at: [https://gijn.org/resource/resources-for-finding-and-using-satellite-images/](https://gijn.org/resource/resources-for-finding-and-using-satellite-images/) (Accessed: 25 June 2026).
 
 #### Use Cases:
 
-* Zoet, M, and Aidarbekova, A. (2025) _Wildfires Ravage One of Africa’s Largest Nature Reserves, Bellingcat. Available at:_ [_https://www.bellingcat.com/news/2025/10/07/wildfires-ravage-one-of-africas-largest-nature-reserves/_](https://www.bellingcat.com/news/2025/10/07/wildfires-ravage-one-of-africas-largest-nature-reserves/)
-* Zwijnenburg, W. (2018) _Burning Borderlands: Open-Source Monitoring of Conflict-caused Wildfires in Iraq_, _bellingcat_. Available at: [https://www.bellingcat.com/news/mena/2018/09/11/burning-borderlands-open-source-monitoring-conflict-caused-wildfires-iraq/](https://www.bellingcat.com/news/mena/2018/09/11/burning-borderlands-open-source-monitoring-conflict-caused-wildfires-iraq/) (Accessed: 28 April 2024).
-* Tian, E. (2020) _How To Track Desert Locust Swarms_, _bellingcat_. Available at: [https://www.bellingcat.com/resources/how-tos/2020/06/23/how-to-track-desert-locust-swarms/](https://www.bellingcat.com/resources/how-tos/2020/06/23/how-to-track-desert-locust-swarms/) (Accessed: 28 April 2024).
-* Gonzales, C. (2022) _Scorched Earth: Using NASA Fire Data to Monitor War Zones_, _bellingcat_. Available at: [https://www.bellingcat.com/resources/2022/10/04/scorched-earth-using-nasa-fire-data-to-monitor-war-zones/](https://www.bellingcat.com/resources/2022/10/04/scorched-earth-using-nasa-fire-data-to-monitor-war-zones/) (Accessed: 28 April 2024).
-* _My Favorite Tools: Geo-Journalist Gustavo Faleiros_ (no date). Available at: [https://gijn.org/stories/my-favorite-tools-geo-journalist-gustavo-faleiros/](https://gijn.org/stories/my-favorite-tools-geo-journalist-gustavo-faleiros/) (Accessed: 29 April 2024).
+* Zoet, M, and Aidarbekova, A. (2025) _Wildfires Ravage One of Africa’s Largest Nature Reserves, Bellingcat. Available at:_ [_https://www.bellingcat.com/news/2025/10/07/wildfires-ravage-one-of-africas-largest-nature-reserves/_](https://www.bellingcat.com/news/2025/10/07/wildfires-ravage-one-of-africas-largest-nature-reserves/) (Accessed: 25 June 2026).
+* Zwijnenburg, W. (2018) _Burning Borderlands: Open-Source Monitoring of Conflict-caused Wildfires in Iraq_, _bellingcat_. Available at: [https://www.bellingcat.com/news/mena/2018/09/11/burning-borderlands-open-source-monitoring-conflict-caused-wildfires-iraq/](https://www.bellingcat.com/news/mena/2018/09/11/burning-borderlands-open-source-monitoring-conflict-caused-wildfires-iraq/) (Accessed: 25 June 2026).
+* Tian, E. (2020) _How To Track Desert Locust Swarms_, _Bellingcat_. Available at: [https://www.bellingcat.com/resources/how-tos/2020/06/23/how-to-track-desert-locust-swarms/](https://www.bellingcat.com/resources/how-tos/2020/06/23/how-to-track-desert-locust-swarms/) (Accessed: 25 June 2026).
+* Gonzales, C. (2022) _Scorched Earth: Using NASA Fire Data to Monitor War Zones_, _Bellingcat_. Available at: [https://www.bellingcat.com/resources/2022/10/04/scorched-earth-using-nasa-fire-data-to-monitor-war-zones/](https://www.bellingcat.com/resources/2022/10/04/scorched-earth-using-nasa-fire-data-to-monitor-war-zones/) (Accessed: 25 June 2026).
+* _My Favorite Tools: Geo-Journalist Gustavo Faleiros_ (no date). Available at: [https://gijn.org/stories/my-favorite-tools-geo-journalist-gustavo-faleiros/](https://gijn.org/stories/my-favorite-tools-geo-journalist-gustavo-faleiros/) (Accessed: 25 June 2026).
 
 #### Video:
 
-* _Getting Started with NASA Worldview (December 2021)_ (2022). Available at: [https://www.youtube.com/watch?v=uMkuiRJr\_-E](https://www.youtube.com/watch?v=uMkuiRJr_-E) (Accessed: 29 April 2024).
-* _Using NASA FIRMS in Open Source Investigations_ (2022). Available at: [https://www.youtube.com/watch?v=BcXqcq4s7JE](https://www.youtube.com/watch?v=BcXqcq4s7JE) (Accessed: 28 April 2024).
+* _Getting Started with NASA Worldview (December 2021)_ (2022). Available at: [https://www.youtube.com/watch?v=uMkuiRJr\_-E](https://www.youtube.com/watch?v=uMkuiRJr_-E) (Accessed: 25 June 2026).
+* _Using NASA FIRMS in Open Source Investigations_ (2022). Available at: [https://www.youtube.com/watch?v=BcXqcq4s7JE](https://www.youtube.com/watch?v=BcXqcq4s7JE) (Accessed: 25 June 2026).
 
 #### Developer Resources
 
@@ -136,7 +135,7 @@ United States Government as represented by the Administrator of the National Aer
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                        |
-| ---------------------------------------------------------------------- |
-| Author: Bellingcat Volunteer Team/Unassigned Reviewed: Sophie Tedling. |
-|                                                                        |
+| Page maintainer                                    |
+| -------------------------------------------------- |
+| Author: Bellingcat Volunteer Team/Evy Coeckelbergs |
+|                                                    |
