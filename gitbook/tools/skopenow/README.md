@@ -1,5 +1,5 @@
 ---
-description: Social Media Investigations - name, phone, email, username searches
+description: Social Media Investigations - name, phone, email, username searches.
 ---
 
 # Skopenow
@@ -27,8 +27,8 @@ Products available to license include:
 * [Workbench](https://www.skopenow.com/workbench) (individual and corporate investigation)
 * [Link Analysis](https://www.skopenow.com/link-analysis) (network & link visualizations)
 * [Grid](https://www.skopenow.com/grid) (situational awareness)
-* [Analyst Help](https://www.skopenow.com/analyst-help) (hourly analyst assistance)
 * [Pre-Check](https://www.skopenow.com/pre-check) (automated fraud risk)
+* [Rabbit](https://www.skopenow.com/rabbit?) (rapid search tool)
 
 ## Level of difficulty
 
