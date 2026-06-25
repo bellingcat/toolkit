@@ -23,7 +23,7 @@ A searchable web database of remote sensing indices (e.g. metrics for things lik
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
-The Index Database interface is not difficult to use: the difficulty rating reflects the contextual understanding necessary to apply the indices to produce useful imagery that accomplishes what the user intends.&#x20;
+The Index Database interface is not difficult to use: the difficulty rating reflects the contextual understanding necessary to apply the indices to produce useful imagery that accomplishes what the user intends.
 
 ## Requirements
 
@@ -55,7 +55,7 @@ Verena Henricht and Ktharina Brüser, Institute of Crop Science and Resource Con
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                 |
-| --------------------------------------------------------------- |
-| Bellingcat Volunteer Team. Updated by Nathan Burke in June 2026 |
-|                                                                 |
+| Page maintainer                                                  |
+| ---------------------------------------------------------------- |
+| Bellingcat Volunteer Team. Updated by Nathan Burke in June 2026. |
+|                                                                  |
