@@ -123,7 +123,7 @@ for (const tool of tools) {
     }
   }
   if (changes.length > 0) {
-    console.warn("Updating" tool.title, Object.keys(changed));
+    console.warn("Updating", tool.title, Object.keys(changed));
     client.executeMutation(graphql.mutation(changes), { project: client.getProjectId() });
   }
 } // end for tool
