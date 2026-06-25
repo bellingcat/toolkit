@@ -3,6 +3,7 @@ description: >-
   Hitta.se is a comprehensive Swedish search engine and map that provides
   detailed information and contact details for businesses and individuals across
   Sweden.
+updated: '2026-06-24'
 ---
 
 # Hitta.se

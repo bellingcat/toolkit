@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-01'
+updated: '2026-06-24'
 description: >-
   A repository for desert locust data with maps and other resources for tracking
   movements, early detection and planning locust control interventions.

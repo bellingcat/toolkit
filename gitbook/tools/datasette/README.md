@@ -3,6 +3,7 @@ description: >-
   Open-source “WordPress-for-data” that turns any SQLite database into an
   interactive website and JSON API in seconds; ideal for publishing, exploring
   and collaborating on datasets.
+updated: '2026-06-24'
 ---
 
 # Datasette

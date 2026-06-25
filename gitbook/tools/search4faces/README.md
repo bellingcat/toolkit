@@ -2,6 +2,7 @@
 description: >-
   Upload the picture of a face and find pictures of similar looking people on
   VKontakte, Odnoklassniki, TikTok and Clubhouse.
+updated: '2026-06-24'
 ---
 
 # Search4Faces

@@ -1,5 +1,6 @@
 ---
 description: A tool for investigating Proton Mail addresses.
+updated: '2026-06-24'
 ---
 
 # NeutrOSINT
