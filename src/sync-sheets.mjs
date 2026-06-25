@@ -174,9 +174,8 @@ async function sortSheet(sheets, sheetId, startRowIndex, endRowIndex, endColInde
 // them into real booleans/dates (e.g. "TRUE" or "2026-01-15") instead of
 // storing them as forced text; all other columns are written as 'RAW'.
 // `headerRow` is the 1-based sheet row where the table header lives (default 1).
-// `existingRowCount` is the number of rows in existingValues (header + data) so
-// new rows can be written directly to the correct position instead of using append.
-async function applySheetSync(sheets, title, plan, typedColumns = [], headerRow = 1, existingRowCount = 1) {
+// `appendStartRow` is the 1-based sheet row where new rows should be written.
+async function applySheetSync(sheets, title, plan, typedColumns = [], headerRow = 1, appendStartRow = 2) {
   const { header, headerChanged, cellUpdates, appendRows } = plan;
 
   if (headerChanged) {
@@ -210,11 +209,6 @@ async function applySheetSync(sheets, title, plan, typedColumns = [], headerRow 
   }
 
   if (appendRows.length > 0) {
-    // Write directly to the first empty row after existing data; existingValues[0]
-    // is the header at headerRow, so data rows occupy headerRow+1 .. headerRow+existingRowCount-1,
-    // and the first empty slot is headerRow+existingRowCount.
-    const appendStartRow = headerRow + existingRowCount;
-
     await sheets.spreadsheets.values.update({
       spreadsheetId: SPREADSHEET_ID,
       range: `${title}!A${appendStartRow}`,
@@ -267,14 +261,56 @@ async function syncSheet(sheets, title, header, items, matchColumn, rowValues, m
   });
   const existingValues = existing.data.values || [];
 
+  // Trim: delete any empty trailing rows so the table tightly bounds its data.
+  // values.get stops at the last non-empty row, so rows beyond existingValues are empty.
+  if (table && tableStart + existingValues.length < table.endRowIndex) {
+    await sheets.spreadsheets.batchUpdate({
+      spreadsheetId: SPREADSHEET_ID,
+      requestBody: {
+        requests: [{
+          deleteDimension: {
+            range: {
+              sheetId,
+              dimension: 'ROWS',
+              startIndex: tableStart + existingValues.length,
+              endIndex: table.endRowIndex,
+            },
+          },
+        }],
+      },
+    });
+  }
+
   const plan = planSheetSync(existingValues, header, items, matchColumn, rowValues, matchValue);
-  await applySheetSync(sheets, title, plan, typedColumns, headerRow, existingValues.length);
+
+  // For a table, insert new rows inside it before writing so the table expands
+  // to include them rather than having data land outside the table boundary.
+  // We insert before the last table row (or after the header if table has no data)
+  // so the new rows are within the table; sorting corrects the order afterwards.
+  let appendStartRow = headerRow + existingValues.length;
+  if (plan.appendRows.length > 0 && table) {
+    const insertAt = tableStart + Math.max(existingValues.length - 1, 1);
+    await sheets.spreadsheets.batchUpdate({
+      spreadsheetId: SPREADSHEET_ID,
+      requestBody: {
+        requests: [{
+          insertDimension: {
+            range: { sheetId, dimension: 'ROWS', startIndex: insertAt, endIndex: insertAt + plan.appendRows.length },
+            inheritFromBefore: true,
+          },
+        }],
+      },
+    });
+    appendStartRow = insertAt + 1;  // 1-based sheet row of first inserted row
+  }
+
+  await applySheetSync(sheets, title, plan, typedColumns, headerRow, appendStartRow);
 
   if (plan.appendRows.length > 0) {
     await sortSheet(
       sheets, sheetId,
-      tableStart + 1,                                    // 0-based first data row (skip header)
-      table?.endRowIndex ?? (tableStart + existingValues.length + plan.appendRows.length),
+      tableStart + 1,
+      tableStart + existingValues.length + plan.appendRows.length,
       table?.endColumnIndex ?? plan.header.length,
     );
   }
@@ -287,8 +323,10 @@ async function syncSheet(sheets, title, header, items, matchColumn, rowValues, m
 // change in the future, so missing tabs are skipped with a warning.
 const TOOL_ID_REFERENCE_TABS = ['Overview', 'Signup', 'Admin'];
 
-// Adds any of `toolIds` missing from `title`'s column A into the first rows
-// with an empty column A. Skips tabs that don't exist.
+// Adds any of `toolIds` missing from `title`'s column A. Fills existing empty
+// rows (which may carry pre-set formulas) first; if more are needed and the tab
+// has a Table, inserts the remainder into the table with inheritFromBefore so
+// formulas are copied from the row above. Skips tabs that don't exist.
 async function syncToolIdReferences(sheets, title, toolIds) {
   const meta = await getSheetMeta(sheets, title);
   if (meta === null) {
@@ -297,8 +335,8 @@ async function syncToolIdReferences(sheets, title, toolIds) {
   }
 
   const { sheetId, table } = meta;
-  const tableStart = table?.startRowIndex ?? 0;  // 0-based row of the table header
-  const headerRow = tableStart + 1;              // 1-based sheet row of the table header
+  const tableStart = table?.startRowIndex ?? 0;
+  const headerRow = tableStart + 1;
 
   const readRange = table
     ? `${title}!${columnLetter(table.startColumnIndex)}${table.startRowIndex + 1}:${columnLetter(table.endColumnIndex - 1)}${table.endRowIndex}`
@@ -312,15 +350,40 @@ async function syncToolIdReferences(sheets, title, toolIds) {
   const { missing, emptyRows } = planToolIdReferences(existingValues, toolIds);
   if (missing.length === 0) return;
 
-  if (emptyRows.length < missing.length) {
+  // Insert any rows beyond what existing empty slots cover, within the table.
+  const insertCount = Math.max(0, missing.length - emptyRows.length);
+  let insertedStartRow = null;
+  if (insertCount > 0 && table) {
+    const insertAt = tableStart + Math.max(existingValues.length - 1, 1);
+    await sheets.spreadsheets.batchUpdate({
+      spreadsheetId: SPREADSHEET_ID,
+      requestBody: {
+        requests: [{
+          insertDimension: {
+            range: { sheetId, dimension: 'ROWS', startIndex: insertAt, endIndex: insertAt + insertCount },
+            inheritFromBefore: true,
+          },
+        }],
+      },
+    });
+    insertedStartRow = insertAt + 1;  // 1-based sheet row of first inserted row
+  } else if (insertCount > 0) {
     console.warn(`${title}: only ${emptyRows.length} empty row(s) for ${missing.length} new tool ID(s) — add more template rows`);
   }
 
-  const data = missing.slice(0, emptyRows.length).map((id, i) => ({
-    // emptyRows[i] is 1-based within existingValues (0 = header); map to sheet row via headerRow
-    range: `${title}!A${emptyRows[i] + headerRow}`,
-    values: [[id]],
-  }));
+  // Write IDs: existing empty rows first, then newly inserted rows.
+  const data = [];
+  for (let i = 0; i < missing.length; i++) {
+    let sheetRow;
+    if (i < emptyRows.length) {
+      sheetRow = emptyRows[i] + headerRow;
+    } else if (insertedStartRow !== null) {
+      sheetRow = insertedStartRow + (i - emptyRows.length);
+    } else {
+      break;
+    }
+    data.push({ range: `${title}!A${sheetRow}`, values: [[missing[i]]] });
+  }
 
   if (data.length > 0) {
     await sheets.spreadsheets.values.batchUpdate({
@@ -330,9 +393,9 @@ async function syncToolIdReferences(sheets, title, toolIds) {
     console.log(`${title}: added ${data.length} tool ID(s)`);
     await sortSheet(
       sheets, sheetId,
-      tableStart + 1,                                              // 0-based first data row
-      table?.endRowIndex ?? (tableStart + existingValues.length),  // 0-based exclusive end row
-      table?.endColumnIndex ?? (existingValues[0]?.length ?? 1),   // 0-based exclusive end column
+      tableStart + 1,
+      tableStart + existingValues.length + insertCount,
+      table?.endColumnIndex ?? (existingValues[0]?.length ?? 1),
     );
   }
 }
