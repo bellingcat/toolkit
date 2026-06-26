@@ -311,6 +311,13 @@ While Telegram offers robust encryption features, it's crucial to remain vigilan
 
 By adhering to these practices, you can enhance your security posture while using Telepathy and conducting investigations on Telegram.
 
+## Similar Tools
+
+[TGStat](https://bellingcat.gitbook.io/toolkit/more/all-tools/tgstat?utm_source=chatgpt.com): Web-based Telegram channel and group discovery and analytics; easier for quick channel research, but less suited to bespoke collection than Telepathy.\
+[Telethon](https://docs.telethon.dev/en/stable/): Python library for writing custom Telegram API collection scripts; more flexible than Telepathy, but requires coding.\
+[Pyrogram](https://github.com/pyrogram/pyrogram): Python MTProto framework for user and bot accounts; useful for custom scripts, but its main GitHub repository is archived and marked unmaintained.\
+[Telegram Chat Analyzer](https://github.com/avrtt/telegram-chat-analyzer): Local/Streamlit-style analysis of exported Telegram chats; useful after you already have an export, not a live collection tool.
+
 ## Guide
 
 EFIM. (2022, July 30). _Telepathy: OSINT toolkit for investigating Telegram chats_. ESPY - Fraud Prevention. [https://espysys.com/blog/telepathy-osint-toolkit-for-investigating-telegram-chats/](https://espysys.com/blog/telepathy-osint-toolkit-for-investigating-telegram-chats/)
