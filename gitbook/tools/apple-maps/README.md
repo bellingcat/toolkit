@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-15'
+updated: '2026-06-25'
 description: >-
   Apple Maps is a digital mapping service with detailed maps, satellite imagery,
   and location-based information.

@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-01'
+updated: '2026-06-25'
 description: >-
   NASA Worldview is an online tool for visualizing and downloading near
   real-time satellite imagery and scientific data of Earth's atmosphere, land,
