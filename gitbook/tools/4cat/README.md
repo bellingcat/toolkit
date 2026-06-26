@@ -14,7 +14,7 @@ description: >-
 
 ## Description
 
-4CAT is an open-source, containerized web application (commonly deployed via Docker) for capturing, importing, and analyzing online data through an accessible browser interface. Researchers create datasets from supported platforms or import datasets collected with companion tools; they can then run a large library of “processors” to explore trends, content, networks, and media. 4CAT is designed to make repeatable capture and analysis workflows available without requiring programming for day-to-day use, but installation and maintenance do require technical setup.
+4CAT is an open-source, containerized web application ([commonly deployed via Docker](https://docs.docker.com/get-started/)) for capturing, importing, and analyzing online data through an accessible browser interface. Researchers create datasets from supported platforms or import datasets collected with companion tools; they can then run a large library of “processors” to explore trends, content, networks, and media. 4CAT is designed to make repeatable capture and analysis workflows available without requiring programming for day-to-day use, but installation and maintenance do require technical setup.
 
 ### **Features**
 
