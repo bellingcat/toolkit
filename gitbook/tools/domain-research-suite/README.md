@@ -17,7 +17,7 @@ Domain Research Suite offers a set of tools for investigating domain names, enab
 
 The site enables users to search the ownership history of a domain, find domains containing specific search terms in their Whois records, look up domain names hosted on the same IP address, and determine whether a specific domain is available for registration. It can also be used to monitor registrant activity, changes to domains, and keywords associated with a specific brand.
 
-Domain Research Suite requires an email address to log in, and all users receive a small number of free base credits, which are required to access the various services, after which additional credits [can be purchased](https://drs.whoisxmlapi.com/pricing). API integration is offered for all tools.
+Domain Research Suite requires an email address to log in, and all users receive a small number of free base credits (500), which are required to access the various services, after which additional credits [can be purchased](https://drs.whoisxmlapi.com/pricing). API integration is offered for all tools.
 
 Credits are required for all services, including:
 
@@ -38,7 +38,7 @@ Credits are required for all services, including:
 * [ ] Partially Free
 * [x] Paid
 
-A small number of free base credits are provided upon sign-up.
+A small number of free base credits (500) are provided upon sign-up. Full pricing information is [available here](https://drs.whoisxmlapi.com/pricing).&#x20;
 
 ## Level of difficulty
 
@@ -50,7 +50,7 @@ You must enter a first name and valid email address to create an account. Other 
 
 ## Limitations
 
-The small number of free base credits that are provided upon sign-up will be used up quite quickly, so any long-term use of the site or deep research would require purchasing additional credits.
+The 500 free base credits that are provided upon sign-up will be used up quite quickly, so any long-term use of the site or deep research would require purchasing additional credits.
 
 Due to domain privacy measures, most registrars allow registrants to anonymize their details, so searches may not yield useful information.
 
@@ -58,23 +58,21 @@ Due to domain privacy measures, most registrars allow registrants to anonymize t
 
 **Privacy:** Tools like Domain Research Suite may reveal personal details of registrants, so any information gathered should be used and shared in a responsible manner.
 
-**Verification:** The information obtained from such tools may be incomplete and/or misleading, and should only be used in the context of a broader process of verification.
-
 ## Guides and articles
 
 Tutorials and FAQs can be accessed [here](https://knowledge.whoisxmlapi.com/domain-research-suite-drs-1).
 
 ## Tool provider
 
-[WhoisXML API](https://main.whoisxmlapi.com/) describes itself as providing "domain, IP, DNS, and cyber threat intelligence to all types of cybersecurity enterprises and organizations with a digital footprint".
+[WhoisXML API](https://main.whoisxmlapi.com/) is a US-based company that describes itself as providing "domain, IP, DNS, and cyber threat intelligence to all types of cybersecurity enterprises and organizations with a digital footprint".
 
 ## Similar tools
 
-[DomainTools Whois Lookup](https://bellingcat.gitbook.io/toolkit/more/all-tools/domaintools-whois-lookup)&#x20;
+[DomainTools Whois Lookup](https://bellingcat.gitbook.io/toolkit/more/all-tools/domaintools-whois-lookup): A similar site that also enables users to pinpoint Whois records, conduct reverse searches based on criteria such as IP address or name server, and monitor domain information on an ongoing basis. Both sites require payment for deeper investigative uses.&#x20;
 
-[IDN Checker](https://bellingcat.gitbook.io/toolkit/more/all-tools/idn-checker)
+[IDN Checker](https://bellingcat.gitbook.io/toolkit/more/all-tools/idn-checker): A much simpler tool that is primarily geared towards detecting visually similar versions of a domain.
 
-[Whoxy](https://bellingcat.gitbook.io/toolkit/more/all-tools/whoxy)
+[Whoxy](https://bellingcat.gitbook.io/toolkit/more/all-tools/whoxy): Compared with other services that offer information on domain names, Whoxy appears to be a cost-effective option with similar functionality.
 
 ## Advertising Trackers
 
