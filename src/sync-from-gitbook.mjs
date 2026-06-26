@@ -7,7 +7,7 @@
  *   - Update last-synced.json checkpoint
  *
  * Usage:
- *   GITBOOK_API_TOKEN=... GH_REPO_TOKEN=... node src/sync-from-gitbook.mjs [--dry-run]
+ *   GITBOOK_API_TOKEN=... GH_REPO_TOKEN=... node src/sync-from-gitbook.mjs [--dry-run] [--tool <slug>]
  *
  * Required env vars:
  *   GITBOOK_API_TOKEN  — GitBook API token
@@ -31,6 +31,9 @@ const REPO_URL = REPO_BASE_URL.replace('https://', `https://x-access-token:${GH_
 const GIT_REF = 'refs/heads/main';
 const CHECKPOINT_FILE = 'last-synced.json';
 const DRY_RUN = process.argv.includes('--dry-run');
+const TOOL_FILTER = process.argv.includes('--tool')
+  ? process.argv[process.argv.indexOf('--tool') + 1]
+  : null;
 
 function getField(item, fieldName) {
   return item.fieldValues.nodes.find(n => n.field?.name === fieldName)?.text;
@@ -89,6 +92,11 @@ async function main() {
     const toolSlug = getField(item, 'Tool ID');
 
     if (!spaceId || !toolSlug) {
+      skipped++;
+      continue;
+    }
+
+    if (TOOL_FILTER && toolSlug !== TOOL_FILTER) {
       skipped++;
       continue;
     }
