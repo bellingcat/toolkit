@@ -10,11 +10,11 @@ description: >-
 ## URL
 
 [https://4cat.nl/](https://4cat.nl/)\
-(Latest release: v1.52, 2025-12-19; last checked: 2026-01-31)
+(Latest release: v1.55, 2026-06-22; last checked: 2026-06-26)
 
 ## Description
 
-4CAT is an open-source, containerised web application (commonly deployed via Docker) for capturing, importing, and analysing online data through an accessible browser interface. Researchers create datasets from supported platforms or import datasets collected with companion tools; they can then run a large library of “processors” to explore trends, content, networks, and media. 4CAT is designed to make repeatable capture and analysis workflows available without requiring programming for day-to-day use, but installation and maintenance do require technical setup.
+4CAT is an open-source, containerized web application (commonly deployed via Docker) for capturing, importing, and analyzing online data through an accessible browser interface. Researchers create datasets from supported platforms or import datasets collected with companion tools; they can then run a large library of “processors” to explore trends, content, networks, and media. 4CAT is designed to make repeatable capture and analysis workflows available without requiring programming for day-to-day use, but installation and maintenance do require technical setup.
 
 ### **Features**
 
@@ -54,33 +54,27 @@ description: >-
 
 Once data sources are configured, 4CAT can be used in ongoing workflows (repeated collection + scheduled processor runs), depending on the connector and your deployment setup.
 
-_**Processors**_
+#### _**Processors**_
 
-&#x20;(examples; the library evolves across releases)
+Processors are 4CAT’s built-in tools for working with a dataset after it has been collected or imported. They can clean, filter, transform, visualise, export, or analyse the data. For example, a processor might create a frequency chart, show activity over time, extract terms, prepare a network export, or run a more advanced text-analysis workflow. In short: data sources get data into 4CAT; processors help you turn that data into something you can inspect, interpret, or export.<br>
 
 * Filtering and transformation: filter by value/date/keywords; anonymise fields; convert between common formats (CSV, JSON, NDJSON)
 * Metrics and exploration: counts and distributions over time; “top terms” style summaries; thread and post metrics
-* Text analysis: entity extraction, topic modelling, word counts, and other NLP-style processors
-* Networks: exports and processors for network analysis and visualisation (including GEXF outputs)
-* Media analysis: image walls, downloading media, and image-oriented processors; newer releases also add processors that support LLM-assisted annotation and evaluation depending on configuration.
+* Text analysis: entity extraction, topic modeling, word counts, and other NLP-style processors
+* Networks: exports and processors for network analysis and visualization (including GEXF outputs)
+* Media analysis: image walls, media downloads, and image-oriented processors; newer releases also add processors that support LLM-assisted annotation and evaluation, depending on configuration.
 
 #### Examples
 
-The example below shows creating a new dataset and then visualising results with a stream graph (a stacked time-series view that helps you compare how topics/terms rise and fall over time).
+The example below shows creating a new dataset and then visualizing results with a stream graph (a stacked time-series view that helps you compare how topics/terms rise and fall over time).
 
-In this example, Tumblr is selected to collect posts/comments. Here, the dataset is defined via tags entered in the Tags/blogs field (e.g., `#liminalspaces`), and the results are visualised over time to compare term/topic trends.&#x20;
+In this example, Tumblr is selected to collect posts/comments. Here, the dataset is defined via tags entered in the Tags/blogs field (e.g., `#liminalspaces`), and the results are visualized over time to compare term/topic trends.&#x20;
 
-<figure><img src="https://lh7-us.googleusercontent.com/iEJanp6kHwwHU7RW7A9eYfTC3N6hBkdvZz5AUyBYE8yDyHUgfGeKS6KuqxaOLT0GF1Dg_bSSVQipQtb6_K4jX2bVpxXGfCQ-RRwq_nL5mil3COBxkOBWou14ETrr0XFQILrbko-g3TkFMumnDTjCx-o" alt="[Screenshot: “Create dataset” screen showing Tumblr selected + Tags/blogs field filled]"><figcaption><p>Screenshot of 4Cat create new dataset screen.</p></figcaption></figure>
+<figure><img src="https://lh7-us.googleusercontent.com/iEJanp6kHwwHU7RW7A9eYfTC3N6hBkdvZz5AUyBYE8yDyHUgfGeKS6KuqxaOLT0GF1Dg_bSSVQipQtb6_K4jX2bVpxXGfCQ-RRwq_nL5mil3COBxkOBWou14ETrr0XFQILrbko-g3TkFMumnDTjCx-o" alt="[Screenshot: “Create dataset” screen showing Tumblr selected + Tags/blogs field filled]"><figcaption><p>4CAT’s “Create new dataset” screen for Tumblr. This example searches by tag, using <code>liminal spaces</code>, so 4CAT retrieves posts explicitly tagged with that phrase rather than generic keyword matches. The query is intentionally narrow to reduce load on the shared instance and avoid large, slow collections. Before creating the dataset, author information is pseudonymised/replaced and “Make dataset private” is enabled. Use the date range fields to narrow the collection further, then check the output for missing time periods or gaps.</p></figcaption></figure>
 
-Example of the customisation of a steam graph visualisation in 4Cat.
+Example of the customization of a steam graph visualization in 4Cat.
 
-<figure><img src="https://lh7-us.googleusercontent.com/qjR2UY8Xbt_M-Vb4DiRJZJcWhBtaeXgdekAo_Bl6eeYvJoGlZ7sFczznJDuxXnDkX1c2PvPCYhNh4qnbY0Xa6F6IjFmM8aCNQEp6laPkT4RTICZ90GwocoJ-bOwW9m2YDHqA82bo3lneCdNhair9Fw" alt=""><figcaption><p>Example of stream graph visualisation in 4CAT: a stacked time-series that shows how the volume of selected terms/topics/categories changes over time, making it easier to spot peaks, sustained growth, and shifts in relative prominence.</p></figcaption></figure>
-
-4Cat, once installed, is available in the following formats:
-
-* Web
-
-Latest changes: [https://github.com/digitalmethodsinitiative/4cat/releases](https://github.com/digitalmethodsinitiative/4cat/releases)
+<figure><img src="https://lh7-us.googleusercontent.com/qjR2UY8Xbt_M-Vb4DiRJZJcWhBtaeXgdekAo_Bl6eeYvJoGlZ7sFczznJDuxXnDkX1c2PvPCYhNh4qnbY0Xa6F6IjFmM8aCNQEp6laPkT4RTICZ90GwocoJ-bOwW9m2YDHqA82bo3lneCdNhair9Fw" alt=""><figcaption><p>Example of a 4CAT stream graph. Each colour is a selected term/category, and thicker bands mean more matching posts/items in that time period. The large peak near late summer 2021 marks a short burst of activity worth inspecting in the underlying dataset. Downward bands are not negative values; stream graphs are centred, so the important signal is band thickness over time.</p></figcaption></figure>
 
 ## Cost
 
@@ -111,19 +105,19 @@ For more information on hardware requirements see: [https://github.com/digitalme
 * **Data Access:** coverage and depth vary by platform. The [project notes](https://github.com/digitalmethodsinitiative/4cat) that some built-in sources are untested or require special API access, and platform policy/technical changes can reduce what is collectible.
 * **Complex Queries:** Users with limited technical expertise may find it challenging to construct complex queries or fully utilize the tool's capabilities without a steep learning curve.
 * **Processing Time:** Large datasets or complex analysis tasks may require significant processing time, which could impact efficiency for time-sensitive research.
-* **Update Frequency:** platform coverage can change quickly. The [4CAT project notes](https://github.com/digitalmethodsinitiative/4cat) that some built-in platform support is untested or requires special API access, and platform policy/technical changes can break capture. Treat the platform list as “as of last checked” and verify against the README/wiki before relying on it for time-sensitive work.
-* **Cost:** While 4CAT itself may be free to use, significant analyses might require substantial computational resources or access to premium data sources, incurring potential costs.
+* **Update Frequency:** Platform coverage can change quickly. The [4CAT project notes](https://github.com/digitalmethodsinitiative/4cat) that some built-in platform support is untested or requires special API access, and platform policy/technical changes can break capture. Treat the platform list as “as of last checked” and verify against the README/wiki before relying on it for time-sensitive work.
+* **Cost:** While 4CAT itself may be free to use, certain analyses may require substantial computational resources or access to premium data sources, which may incur costs.
 * **Rate Limits**: some services throttle collection. In 4CAT’s own docs, some sources are explicitly documented as hard to scrape “within 4CAT itself” due to aggressive rate limiting (e.g., [TikTok comments](https://docs.4cat.nl/datasources/tiktok_comments/search_tiktok_comments.html), [Imgur](https://docs.4cat.nl/datasources/imgur/search_imgur.html)), with a recommendation to import data collected elsewhere.&#x20;
 
 ## Ethical Considerations
 
 When using 4CAT for research, several ethical considerations must be taken into account:
 
-* **Privacy and Consent:** Researchers must navigate the complex landscape of user privacy, especially when collecting data from social media platforms. It is crucial to ensure that data collection complies with the privacy policies of the platforms and respects the consent of the users, especially in cases where users have not explicitly agreed to share their data for research purposes.
-* **Data Anonymization:** Ensuring that data is anonymized to protect the identities of individuals is paramount. This involves removing or obfuscating any identifiable information before analysis or publication of the research findings.
-* **Bias and Representation:** The tool's dependence on accessible data from platforms may introduce bias, given that not all voices and perspectives are equally represented online. Researchers should be aware of these limitations and consider them when drawing conclusions from their data.
-* **Impact on Subjects:** There should be careful consideration of the potential impact of the research on the subjects being studied, especially if the findings could negatively affect them or the communities they belong to.
-* **Compliance with Legal Standards:** Ensuring compliance with applicable laws and regulations, such as GDPR in the European Union, is essential. Researchers must be mindful of the legal implications of data collection, storage, and analysis practices.
+* **Privacy and Consent:** Researchers must navigate the complex landscape of user privacy, especially when collecting data from social media platforms. It is crucial to ensure that data collection complies with platform privacy policies and respects users' consent, especially when users have not explicitly agreed to share their data for research purposes.
+* **Data Anonymization:** Ensuring data is anonymized to protect individuals' identities is paramount. This involves removing or obfuscating any identifiable information before analysis or publication of the research findings.
+* **Bias and Representation:** The tool's reliance on accessible platform data may introduce bias, as not all voices and perspectives are equally represented online. Researchers should be aware of these limitations and consider them when drawing conclusions from their data.
+* **Impact on Subjects:** There should be careful consideration of the potential impact of the research on the subjects being studied, especially if the findings could adversely affect them or their communities.
+* **Compliance with Legal Standards:** Ensuring adherence to applicable laws and regulations, such as the GDPR in the European Union, is essential. Researchers must be mindful of the legal implications of data collection, storage, and analysis practices.
 
 ## Guides and articles
 
@@ -137,7 +131,7 @@ To effectively use 4Cat, especially for beginners or those looking to refine the
 **Tutorials and Articles**
 
 * 4CAT exercises (no date). Available via the official 4cat.nl “Exercises” link ([Accessed](https://docs.google.com/document/d/1po-sOB8tDRZlvWrEayu97cGh_qsBuW0URd4md0_tv7k/edit?usp=embed_facebook): 2026-01-31).
-* ‘CAT4SMR – Capture and Anaysis Tools for Social Media Research’ (no date). Available at: [https://cat4smr.humanities.uva.nl/](https://cat4smr.humanities.uva.nl/) (Accessed: 13 May 2024).Peeters, S. and Hagen, S. (2022) ‘The 4CAT Capture and Analysis Toolkit: A Modular Tool for Transparent and Traceable Social Media Research’, _Computational Communication Research_, 4(2), pp. 571–589.
+* ‘CAT4SMR – Capture and Analysis Tools for Social Media Research’ (no date). Available at: [https://cat4smr.humanities.uva.nl/](https://cat4smr.humanities.uva.nl/) (Accessed: 13 May 2024).Peeters, S. and Hagen, S. (2022) ‘The 4CAT Capture and Analysis Toolkit: A Modular Tool for Transparent and Traceable Social Media Research’, _Computational Communication Research_, 4(2), pp. 571–589.
 * _"As a researcher, this tool saves me a lot of work and stress” - News - Utrecht University_ (2023). Available at: [https://www.uu.nl/en/news/as-a-researcher-this-tool-saves-me-a-lot-of-work-and-stress](https://www.uu.nl/en/news/as-a-researcher-this-tool-saves-me-a-lot-of-work-and-stress) (Accessed: 13 May 2024).
 
 #### Video Tutorials
@@ -157,6 +151,18 @@ To effectively use 4Cat, especially for beginners or those looking to refine the
 ## Tool provider
 
 Digital Methods Initiative [https://digitalmethods.net/](https://digitalmethods.net/), Netherlands
+
+## Similar Tools
+
+[Zeeschuimer ](https://bellingcat.gitbook.io/toolkit/more/all-tools/zeeschuimer)- Best if you mainly need in-browser capture from hard-to-scrape platforms and do not yet need 4CAT’s processor library.&#x20;
+
+[Facepager](https://github.com/strohne/Facepager) - Better for API-based or custom web/API collection workflows; less of an end-to-end analysis environment than 4CAT.&#x20;
+
+[YouTube Data Tools](https://ytdt.digitalmethods.net/) - Better if your project is only about YouTube and you want dedicated extractors rather than a multi-platform toolkit.&#x20;
+
+[Gephi ](https://bellingcat.gitbook.io/toolkit/more/all-tools/gephi)- Better for advanced network exploration and visual styling after exporting GEXF or edge lists from 4CAT.&#x20;
+
+[Voyant Tools](https://voyant-tools.org/) - Better for lightweight browser-based text exploration when you already have a clean corpus and do not need 4CAT’s capture or import workflow.
 
 ## Advertising Trackers
 
