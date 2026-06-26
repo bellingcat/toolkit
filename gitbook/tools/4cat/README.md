@@ -137,8 +137,8 @@ To effectively use 4Cat, especially for beginners or those looking to refine the
 #### Video Tutorials
 
 * _4CAT Tutorial - Creating a Dataset - YouTube_ (no date). Available at: [https://www.youtube.com/watch?v=VZH9SQM3dmI\&list=PLWukutaRyIn31H0uPfkYlmbWvo83PnXXo\&index=2](https://www.youtube.com/watch?v=VZH9SQM3dmI\&list=PLWukutaRyIn31H0uPfkYlmbWvo83PnXXo\&index=2) (Accessed: 13 May 2024).
-* _4CAT Tutorial: Analysing a dataset using processors_ (2021). Available at: [https://www.youtube.com/watch?v=XIpGt3uzqNQ](https://www.youtube.com/watch?v=XIpGt3uzqNQ) (Accessed: 13 May 2024).
-* _4CAT Tutorial: Installing via Docker - YouTube_ (no date). Available at: [https://www.youtube.com/watch?v=oWsB7bvNfOY\&list=PLWukutaRyIn31H0uPfkYlmbWvo83PnXXo\&index=4](https://www.youtube.com/watch?v=oWsB7bvNfOY\&list=PLWukutaRyIn31H0uPfkYlmbWvo83PnXXo\&index=4) (Accessed: 13 May 2024).
+* _4CAT Tutorial: Analyzing a dataset using processors_ (2021). Available at: [https://www.youtube.com/watch?v=XIpGt3uzqNQ](https://www.youtube.com/watch?v=XIpGt3uzqNQ) (Accessed: 13 May 2024).
+* _4CAT Tutorial: Installing via Docker - YouTube_ (no date). Available at: [https://www.youtube.com/watch?v=oWsB7bvNfOY](https://www.youtube.com/watch?v=oWsB7bvNfOY) (Accessed: 13 May 2024).
 
 #### Developer Resources
 
