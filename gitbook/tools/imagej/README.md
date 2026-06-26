@@ -7,11 +7,58 @@ description: Open source software for processing and analyzing images.
 ## URL
 
 [https://imagej.net/ij/](https://imagej.net/ij/)\
-(v 1.54s as of May 2026)
+(v 1.54s as of June 2026)
 
 ## Description
 
 ImageJ provides a powerful toolkit to manipulate and analyze images at the pixel level. It supports operations like contrast enhancement, filtering (sharpening, blurring), edge detection, and color channel analysis. After calibrating the scale, the software can measure distances and areas, [count or detect objects, align and overlay multiple images, and perform mathematical image comparisons​](https://imagej.net/ij/docs/pdfs/Image_Processing_with_ImageJ.pdf). Its capabilities span many techniques, including image registration, segmentation, object tracking, and more​, all expandable through hundreds of community-developed [plugins](https://imagej.net/list-of-extensions)​. Because it is free and open-source with a large user community, new formats and features are constantly being added.
+
+## Examples
+
+<details>
+
+<summary>"Lost in the fog"  contrast enhancement</summary>
+
+[This image](https://challenge.bellingcat.com/assets/foggy_field-CVCShq-A.jpg), taken from a Bellingcat challenge, is intentionally low-contrast, which makes it a nice “before/after” example for basic enhancement steps.
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+**Simple ImageJ actions:**
+
+* Convert to grayscale: `Image > Type > 8-bit`
+* Boost visibility: `Process > Enhance Contrast…` (try “Normalize”)
+* Optional local contrast: `Plugins > CLAHE` (if using Fiji)
+* Highlight faint structure: `Process > Find Edges` (or `Process > Filters > Unsharp Mask` first)
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+<details>
+
+<summary>“Synoptic Code” counting dots</summary>
+
+ImageJ’s Color Threshold and Analyze Particles tools applied to a Bellingcat Challenge Morse-code image. The yellow symbols are isolated from the darker background, making the dots and dashes countable and measurable.
+
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+**Isolate the yellow symbols:**
+
+1. Open the image in ImageJ or Fiji.
+2. Go to `Image > Adjust > Color Threshold…`.
+3. Use an HSB/RGB threshold to isolate the yellow symbols.
+
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+**Count all dots:**
+
+1. Convert the result into a binary mask.
+2. Run `Analyze > Analyze Particles…`. (Here, I used circularity = 0.8 to select only the dots.)
+3. Show the detected particle outlines and results table. (44 dots.)<br>
+
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+</details>
 
 **Investigative Applications:** OSINT researchers can leverage ImageJ in various ways to support investigations:
 
