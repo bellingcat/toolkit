@@ -11,8 +11,7 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
-    steps:
+steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
