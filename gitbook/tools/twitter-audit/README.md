@@ -14,24 +14,24 @@ description: >-
 
 TwitterAudit runs an automated check of a public X/Twitter account’s followers and returns a simple “real vs fake” estimate. It is useful for a quick sense of follower quality before investing time in a deeper look at an account. Researchers can view some [existing public audits](https://www.twitteraudit.com/NARENDRAMODI); running a fresh or full audit adds more detail.
 
-The service originated as a follower‑quality checker and, since 2023, has been integrated into the broader Fedica analytics stack. It now markets additional [features like follower tracking and audience analytics](https://twitteraudit.com/landing/full-suite). For most users the core appeal remains the fast, high‑level audit.
+The service originated as a follower‑quality checker and, since 2023, has been integrated into the broader Fedica analytics stack. It markets additional [features like follower tracking and audience analytics](https://twitteraudit.com/landing/full-suite). For most users, the core appeal remains the fast, high‑level audit.
 
 Typical investigative use: spot accounts with unusually poor follower quality; compare public figures; or triage targets for closer validation using primary material on X. Treat the score as a heuristic rather than proof.
 
 ## Cost
 
-TwitterAudit is not free but many profiles show a free sample audit based on a subset of followers. Full audits and extras are only available with a paid plan. Plans start at $7/month to regularly audit your own followers. Higher-tier plans allow auditing anyone's followers.
+TwitterAudit is not free, but many profiles show a free sample audit based on a subset of followers. Full audits and extras are only available with a paid plan. Plans start at $7/month to regularly audit your own followers. Higher-tier plans allow auditing anyone's followers.
 
 ## Level of difficulty
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
-Easy; enter a handle and read a one‑page summary. Full or fresh audits may require connecting an X account.
+Easy: enter a handle and read a one‑page summary. Full or fresh audits may require connecting an X account.
 
 ## Requirements
 
 * Web browser with JavaScript and cookies enabled.
-* To run a new or full audit, you may need to sign in with an X account; viewing some existing audits does not require login.
+* To run a new or full audit, you may need to sign in with an X account; viewing some existing audits does not require a login.
 * No API key is required for manual use through the website.
 
 ## Limitations
@@ -44,11 +44,11 @@ Easy; enter a handle and read a one‑page summary. Full or fresh audits may req
 
 ## Guides
 
-[Beginner guide](https://blog.twitteraudit.com/check-fake-followers-twitter-x/?utm_source=chatgpt.com)
+[Beginner guide](https://blog.twitteraudit.com/check-fake-followers-twitter-x/)
 
 ## Tool provider
 
-[Fedica Inc](https://fedica.com/info/abou).; Canada. Fedica states the company was founded in Toronto and operates the integrated service.
+[Fedica Inc](https://fedica.com/).; Canada. Fedica states the company was founded in Toronto and operates the integrated service.
 
 | Page Maintainer |
 | --------------- |
