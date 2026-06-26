@@ -7,7 +7,7 @@ const { fetchMembers } = pkg;
 const SPREADSHEET_ID = process.env.GOOGLE_SHEET_ID;
 
 const TOOLS_HEADER = ['Title', 'Published', 'Last updated', 'Collection', 'Tool Space', 'Latest change request', 'Status', 'Date submitted', 'CR Author', 'CR Reviewers', 'Tool ID', 'Space ID', 'Team ID', 'Team Members'];
-const MEMBERS_HEADER = ['Email', 'Role', 'Last seen at', 'Joined at'];
+const MEMBERS_HEADER = ['Display Name', 'Email', 'Role', 'Last seen at', 'Joined at'];
 
 // Project items that correspond to a tool (i.e. have a Tool ID).
 function toolsItems() {
@@ -43,6 +43,7 @@ function toolValues(item) {
 // Maps a GitBook org member to its MEMBERS_HEADER column values, keyed by header name.
 function memberValues(member) {
   return {
+    'Display Name': member.user?.displayName || '',
     'Email': member.user?.email || '',
     'Role': member.role || '',
     'Last seen at': member.lastSeenAt || '',
