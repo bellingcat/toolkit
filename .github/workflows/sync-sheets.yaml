@@ -4,10 +4,14 @@ on:
   schedule:
     - cron: '0 4 * * *'
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Sync Github Project"]
+    types: [completed]
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
