@@ -11,7 +11,7 @@ description: >-
 
 [https://obsidian.md/](https://obsidian.md/)
 
-(version **1.12.7,** March 3rd 2026; as of May, 2025)
+(version 1.13.1 Desktop, released June 9, 2026; as of June 19, 2026)
 
 ## Description
 
@@ -41,7 +41,7 @@ The tool also supports advanced Markdown editing, customizable themes, and commu
 2. **Story Development**: Journalists can organize their story or article outlines, connecting different pieces of research and notes to flesh out their texts.
 3. **Interview Management**: Keeping track of interview notes is simplified, as each interview can be linked to topics, stories, or other interviews, creating a web of information that is easy to reference.
 4. **Archiving**: The platform enables journalists to archive their stories, notes, and sources in a searchable, interconnected format, facilitating easy retrieval and future reuse of information.
-5. **Collaboration**: Though primarily designed for personal use, Obsidian's ability to work with local Markdown files means journalists can use third-party tools to sync and collaborate on files with colleagues. Markdown files are inherently safe.
+5. **Collaboration**: Though primarily designed for personal use, Obsidian's ability to work with local Markdown files means journalists can use third-party tools to sync and collaborate on files with colleagues. Markdown files are portable plain-text files, but shared vaults can still include attachments, links, or plugin-dependent workflows that should be reviewed before sharing.
 
 ## Cost
 
@@ -54,7 +54,7 @@ The tool also supports advanced Markdown editing, customizable themes, and commu
 - **Publish**: **$8/site/mo (billed annually)** or **$10/site/mo (monthly)**. [Obsidian](https://obsidian.md/publish)
 - **Catalyst** (optional early‑access license): **$25 one‑time**.
 - **Commercial** (optional org supporter license): **$50/user/year**.
-- Education and non‑profit employees get **40% off Sync/Publish**.
+- Students, faculty members, and nonprofit employees get 40% off Sync/Publish.
 
 ## Level of difficulty
 
@@ -78,7 +78,7 @@ Obsidian is available on the following platforms:
 
 While Obsidian is a powerful note-taking and knowledge-base application, its focus on being a text-based editor comes with a few disadvantages:
 
-* **Not collaboration-friendly**: Obsidian is primarily designed for personal use and offers limited built-in collaboration features. While its premium sync service allows device synchronization, it is not optimized for real-time collaborative work, unlike cloud-based alternatives. Users can still collaborate by using third-party tools to sync local Markdown files, which are inherently safe for sharing. For more details on Obsidian's sync service, refer to the [Obsidian Sync documentation](https://obsidian.md/sync).
+* **Collaboration is not live co-editing**: Obsidian Sync supports shared vaults, but Obsidian does not yet support collaborative live editing on the same file. Collaborators do not see each other's cursors, edits appear after syncing, and the shared-vault limit is 20 users. Third-party sync or shared-folder workflows may create merge conflicts or expose files through another provider, so test the workflow before relying on it for team investigations. For more details on Obsidian's sync service, refer to the [Obsidian Sync documentation](https://obsidian.md/sync).
 * **Learning Curve**: At first glance, Obsidian's interface might appear plain due to its subtle integration of advanced customization options and markdown features. However, while mastering all available functions only comes with regular use, initial non-use of advanced functions does not compromise the software's effectiveness as a robust note-taking tool. That being said, users uncomfortable with markdown language might prefer a less powerful app.
 * **No Built-in Publish Feature**: Obsidian requires a paid service called Obsidian Publish to publish notes online. This service allows users to create simple websites with select pages, which can be secured with passwords. This limitation might be significant for users needing to share their work online without relying on third-party services. For more information, visit the [Obsidian Publish ](https://obsidian.md/publish)page.
 * **Limited External Integration**: Out of the box, Obsidian's native integration with external services such as Google Calendar is not extensive. However, a wide range of functionalities can be achieved using plugins.
