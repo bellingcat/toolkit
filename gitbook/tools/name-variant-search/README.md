@@ -21,7 +21,6 @@ layout:
     visible: true
 tags:
   - tag: bellingcat
-    primary: true
 ---
 
 # Bellingcat Name Variant Search
