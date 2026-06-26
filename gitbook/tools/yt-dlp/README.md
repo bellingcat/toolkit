@@ -230,7 +230,7 @@ Note: `--live-from-start` is experimental and is not supported for every site. T
 
 #### **Use cookies from a dedicated research browser**
 
-Use this only when you are lawfully allowed to view the content and you understand the account and privacy risks.
+Use this only when you understand the account and privacy risks.
 
 ```bash
 yt-dlp \
