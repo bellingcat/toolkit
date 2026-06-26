@@ -11,7 +11,7 @@ description: >-
 ## URL
 
 [https://app.rawgraphs.io/](https://app.rawgraphs.io/)\
-Current release: v2.0.1 (GitHub release: 26 Jan 2024; tag created: 8 Nov 2023) as of May 2026
+Current release: v2.0.1 (GitHub release: 26 Jan 2024; tag created: 8 Nov 2023) as of June 2026
 
 ## Description
 
@@ -19,7 +19,7 @@ RAWGraphs is a visualization tool that converts tabular data into clean, vector-
 
 RAWGraphs allows users to create a variety of charts and diagrams without any coding skills. It has an intuitive drag-and-drop interface where data columns can be mapped to visual variables of a chart. This approach lets journalists, designers, researchers, and other users quickly generate visualizations and then refine them using external graphic software if needed​.
 
-The hosted app offers \~“almost 30” visualization models and exports to SVG/PNG/JPG or a **.rawgraphs** project for re‑opening and editing later in vector editors.\
+The hosted app offers \~“almost 30” visualization models and exports to SVG/PNG/JPG or a .rawgraphs project file for reopening work in RAWGraphs; SVG files are the vector format intended for editing in graphics software\
 Data is processed **only in your browser** (no server‑side storage/processing).
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>The vast number of charts available.</p></figcaption></figure>
@@ -54,7 +54,7 @@ You can run RAWGraphs locally via the `rawgraphs-app` repository (Node + Yarn) a
 
 **Distribution:**
 
-* [**Scatter Plot**](https://www.westga.edu/academics/research/vrc/assets/docs/scatterplots_and_correlation_notes.pdf) **(**[**Bubble Chart**](https://en.wikipedia.org/wiki/Bubble_chart)**)** – Plots individual data points on two axes to display the joint distribution of two variables​. Each point’s position shows values of one variable vs. the other, revealing patterns, correlations, or clustering (and sometimes point size or color encodes additional dimensions).
+* [**Scatter Plot**](https://www.rawgraphs.io/learning/how-to-make-a-scatterplot) **(**[**Bubble Chart**](https://en.wikipedia.org/wiki/Bubble_chart)**)** – Plots individual data points on two axes to display the joint distribution of two variables​. Each point’s position shows values of one variable vs. the other, revealing patterns, correlations, or clustering (and sometimes point size or color encodes additional dimensions).
 * [**Beeswarm Plot**](https://r-graph-gallery.com/beeswarm.html) – A one-dimensional scatter plot (like a strip chart) where points are jittered and packed to avoid overlap​. It displays the distribution of a single variable (or one per category) by showing each data point, with the density indicated by how tightly the points cluster (wider sections indicate more data frequency).
 * [**Box Plot**](https://www.atlassian.com/data/charts/box-plot-complete-guide) – Uses a box and “whiskers” to summarize a distribution’s center and spread. The box spans the interquartile range (middle 50% of data) with a line for the median, and whiskers (with potential dots for outliers) extend to show the overall range, giving a quick view of median, variability, and outliers of one or more groups.
 * [**Violin Plot**](https://www.atlassian.com/data/charts/violin-plot-complete-guide) – Combines aspects of a box plot and a kernel density plot to show distribution. It displays the density of the data at different values (wider sections mean more frequent values) for one or more groups, usually mirrored symmetrically, while often also indicating median and quartiles inside the “violin.”
@@ -123,8 +123,8 @@ No registration or account is needed. RAWGraphs processes data entirely in the u
 
 ## Limitations
 
-* **Single‑table input:** RAWGraphs accepts only one table at a time; nested JSON must be flattened/selected to a level. [rawgraphs.io](https://www.rawgraphs.io/learning/how-to-load-and-format-your-data-for-rawgraphs?utm_source=chatgpt.com)
-* **Static outputs:** Exports are non‑interactive images (SVG/PNG/JPG) or project files; interactive embedding requires custom development with libraries (e.g., rawgraphs‑core/D3). [rawgraphs.io](https://www.rawgraphs.io/learning/how-to-export-your-visualization-and-how-to-edit-it?utm_source=chatgpt.com)
+* **Single‑table input:** RAWGraphs accepts only one table at a time; nested JSON must be flattened/selected to a level. [rawgraphs.io](https://www.rawgraphs.io/learning/how-to-load-and-format-your-data-for-rawgraphs)
+* **Static outputs:** Exports are non‑interactive images (SVG/PNG/JPG) or project files; interactive embedding requires custom development with libraries (e.g., rawgraphs‑core/D3). [rawgraphs.io](https://www.rawgraphs.io/learning/how-to-export-your-visualization-and-how-to-edit-it)
 * **Performance:** Client‑side processing means very large datasets can be slow/unstable depending on the browser/memory. **Unknown:** No official row/size limits have been published; test with representative slices before full loads.
 * **Legacy docs:** **RAWGraphs v1.x is archived**; avoid relying on v1 tutorials/components. [GitHub](https://github.com/rawgraphs/rawgraphs-v1)
 * **Legal/ToS:** Respect data rights/privacy for any uploaded/linked sources; check the terms of any remote endpoint when using **From URL**/**SPARQL**.
@@ -147,9 +147,20 @@ Polimi OpenKnowledge (Director). (2020, May 29). _Create data visualizations: RA
 
 UofILibrary (Director). (2022, November 30). _RAWGraphs—Data Hub Tool Talk_ \[Video recording]. [https://www.youtube.com/watch?v=A1iQb00FjUU](https://www.youtube.com/watch?v=A1iQb00FjUU)
 
+## Similar tools
+
+[Flourish](https://flourish.studio/pricing/)\
+Use when you need interactive, published data stories and templates rather than local-only static exports.\
+\
+[Datawrapper](https://www.datawrapper.de/)\
+Use when you need quick publishable charts, maps, or tables with a no-code publishing workflow.\
+\
+[Tableau Public](https://www.tableau.com/products/public)\
+Use it when you need larger public dashboards or portfolio-style visualizations; avoid it for private or sensitive data because published visualizations are public.
+
 ## Tool provider
 
-RAWGraphs was first released in 2013 as “RAW” by researchers at the DensityDesign Lab (Politecnico di Milano, Italy). It is maintained and developed by the [DensityDesign Lab ](https://densitydesign.org/)(Milan, Italy), the design studio [Calibro](https://calib.ro/) (Milan, Italy), and the development firm [Inmagik ](https://inmagik.com/)(Bergamo, Italy)​. [https://www.rawgraphs.io/about](https://www.rawgraphs.io/about)
+RAWGraphs was first released in 2013 as “RAW” by researchers at the DensityDesign Lab (Politecnico di Milano, Italy). It is maintained and developed by the [DensityDesign Lab ](https://densitydesign.org/)(Milan, Italy), the design studio [Calibro](https://calib.ro/) (Milan, Italy), and the development firm [Inmagik ](https://www.inmagik.com/en/)(Bergamo, Italy)​. [https://www.rawgraphs.io/about](https://www.rawgraphs.io/about)
 
 **License:** **Apache‑2.0** — see license text in the rawgraphs‑app repo. [GitHub](https://github.com/rawgraphs/rawgraphs-app/blob/v2.0.1/LICENSE)
 
