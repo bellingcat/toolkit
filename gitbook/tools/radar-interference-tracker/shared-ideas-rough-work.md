@@ -21,28 +21,15 @@ Our shared ideas on topics
 {% columns %}
 {% column %}
 #### - look into background
+
+* ~~(incorporated) discuss under limitations the "blackout" areas - sometimes the radar doesn't load, though that may not be the case and should be cross-referenced with other users.~~
+* ~~(incorporated) There should be no longer an issue with longer revisit times as the non-working satellite was replaced. The old OG satellite (Sentinel 1a) is also being replaced in June 2026.~~&#x20;
+* look into using GIF to show to to interact with the map when doing an investigation.&#x20;
+* In features, see if we can use colors for numbers and text to further clarify, though taking into account color blindness.&#x20;
 {% endcolumn %}
 
 {% column %}
-The interface is simple but not easy to interpret - our Toolkit entry could help interpret the interface output, how to input data (eg can it do co-ordinates as input), what data the system takes as input, how the two graphics - the graph and the satellite+radar image - are connected.
-
-OBVIOUS QUESTION: Explain the difference between red and blue streaks!&#x20;
-
-It might help to point out some undocumented interface features like the fact that the graph can be expanded to full screen, and that its x axis can be compressed/expanded using the mouse scroll wheel (is that the same for you?)
-
-The context for the tool could be explained quickly at the outset and a little more basic tuition within the Toolkit entry on the main parameters to be interpreted in (a) the graph (b) the coloured map.
-
-Maybe we don't need a new example, maybe we take an existing example and explain it in greater detail.
-
-The Features section reads as an expert's checklist and would be improved for the general reader with more explanation/context/graphics. Do we mention that the graph can be expanded to full screen? We should, or show it, if not.
-
-It's often really important for practical use of such tools to understand when apparently significant results are actually random artefacts and not what we're looking for. This is mentioned, but could be expanded upon.
-
-An explanation of the workflow would be useful, as we are searching both space and time. e.g. first, look at the Yearly aggregate data, then find the big spikes, then zoom in on these dates using Daily aggregate. That's not the workflow, cos I don't know what it should look like, just an example of the format.
-
-Users should have an idea of how sensitive the system is i.e. what kinds of graphs and radar imagery on satellite are significant.
-
-We should test all 3 download formats and think about screenshotting examples if appropriate.
+* Ideally we might be able to create a graphic to show the relationship between the military radar pulse, the SAR signal, the interference strips and the orbital path of the satellite. This is not mandatory now for this toolkit entry, just a thought on how we might improve it in the future..
 {% endcolumn %}
 {% endcolumns %}
 
