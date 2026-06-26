@@ -1,9 +1,7 @@
 name: Sync Google Sheets
 
 on:
-  schedule:
-    - cron: '0 4 * * *'
-  workflow_dispatch:
+workflow_dispatch:
   workflow_run:
     workflows: ["Sync Github Project"]
     types: [completed]
