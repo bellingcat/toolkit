@@ -189,39 +189,78 @@ function getTools() {
   });
 }
 
-async function apiCall(url, params) {
-  //debug('API call', url, params);
-  const response = await fetch(url, {
-    method: params.method,
-    headers: {
-      "Authorization": `Bearer ${process.env.GITBOOK_API_TOKEN}`,
-      "Content-Type": "application/json",
-      ...params.headers,
-    },
-    body: JSON.stringify(params.body),
-    signal: AbortSignal.timeout( 10 * 1000 ), // 10 seconds
-  });
+async function apiCall(url, params, { retries = 3, baseDelay = 1000 } = {}) {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    let response;
+    try {
+      response = await fetch(url, {
+        method: params.method,
+        headers: {
+          "Authorization": `Bearer ${process.env.GITBOOK_API_TOKEN}`,
+          "Content-Type": "application/json",
+          ...params.headers,
+        },
+        body: JSON.stringify(params.body),
+        signal: AbortSignal.timeout( 30 * 1000 ), // 30 seconds
+      });
+    } catch (err) {
+      // Timeout or network error — retry with backoff
+      if (attempt < retries) {
+        const delay = baseDelay * Math.pow(2, attempt);
+        console.warn(`Request failed (${err.message}), retrying in ${delay}ms...`);
+        await new Promise(resolve => setTimeout(resolve, delay));
+        continue;
+      }
+      throw err;
+    }
 
-  //debug('API response', response.status);
-  // check rate limit headers
-  if (response.headers.get('x-ratelimit-remaining') === '0') {
-    console.log('Rate limit exceeded');
-  }
-  const contentType = response.headers.get("content-type");
-  if (contentType && contentType.indexOf("application/json") !== -1) {
-    const data = await response.json();
-    if (data.error) {
-      throw new Error(`${data.error.message} (${data.error.code})`);
+    // Rate limited — respect Retry-After or x-ratelimit-reset, then retry
+    if (response.status === 429) {
+      if (attempt < retries) {
+        const retryAfter = response.headers.get('retry-after');
+        const resetAt = response.headers.get('x-ratelimit-reset');
+        let delay = baseDelay * Math.pow(2, attempt);
+        if (retryAfter) {
+          delay = parseFloat(retryAfter) * 1000;
+        } else if (resetAt) {
+          delay = Math.max(0, Number(resetAt) * 1000 - Date.now());
+        }
+        console.warn(`Rate limited, retrying in ${Math.round(delay / 1000)}s...`);
+        await new Promise(resolve => setTimeout(resolve, delay));
+        continue;
+      }
+      throw new Error('HTTP 429: rate limit exceeded after retries');
     }
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
+
+    // Server error — retry with backoff
+    if (response.status >= 500 && attempt < retries) {
+      const delay = baseDelay * Math.pow(2, attempt);
+      console.warn(`HTTP ${response.status}, retrying in ${delay}ms...`);
+      await new Promise(resolve => setTimeout(resolve, delay));
+      continue;
     }
-    return data;
-  } else {
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
+
+    const remaining = response.headers.get('x-ratelimit-remaining');
+    if (remaining !== null && Number(remaining) < 5) {
+      console.warn(`Rate limit low: ${remaining} requests remaining`);
     }
-    return response;
+
+    const contentType = response.headers.get("content-type");
+    if (contentType && contentType.indexOf("application/json") !== -1) {
+      const data = await response.json();
+      if (data.error) {
+        throw new Error(`${data.error.message} (${data.error.code})`);
+      }
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+      return data;
+    } else {
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+      return response;
+    }
   }
 }
 
