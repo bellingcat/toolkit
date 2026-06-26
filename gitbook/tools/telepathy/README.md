@@ -10,9 +10,9 @@ description: >-
 
 ## URL
 
-[https://github.com/proseltd/Telepathy-Community](https://github.com/proseltd/Telepathy-Community?utm_source=chatgpt.com)
+[https://github.com/prose-intelligence-ltd/Telepathy-Community](https://github.com/prose-intelligence-ltd/Telepathy-Community)
 
-Version: Telepathy 2.3.4 (released 2024‑07‑12; last checked May 2026)
+Version: Telepathy 2.3.4 (released 2024-07-12; last checked 2026-06-26)
 
 ## Description
 
@@ -285,9 +285,7 @@ Telepathy is CLI‑only. Users should be comfortable installing Python packages,
 * **Access to Private Groups and Channels:** The tool requires public access or an invitation link to analyze private groups and channels. Without proper access, investigating private communications is not possible.
 * **Dependence on User's Telegram Account:** Telepathy operates through your Telegram account. Any limitations or restrictions on your account will impact the tool's functionality. For example, features like user location lookup require your account to have a public profile picture, and some functions may only work if you've previously interacted with the target users or groups.
 * **Performance and Scalability Issues:** While installing the `cryptg` library can improve performance, especially for media downloads, Telepathy's efficiency depends on the volume of data and your hardware capabilities. Large-scale investigations may require significant time and resources.
-* **Technical Knowledge Requirement:** Setting up and effectively using Telepathy requires technical expertise, including familiarity with command-line interfaces, Python programming, and OSINT techniques. This may present challenges for less technically inclined users.
 * **Potential Changes in Telegram API:** Future modifications to the Telegram API or its policies could affect Telepathy's functionality or availability, as the tool relies on this third-party service.
-* **Windows Compatibility Issues:** Telepathy may encounter file management and error handling problems on Windows systems, hindering smooth operation and necessitating troubleshooting or updates.
 * **Data Analysis Limitations:** While the tool collects extensive data, analyzing and interpreting this information requires significant effort and expertise. Telepathy facilitates data collection but does not provide automatic, in-depth analytical insights; additional tools may be needed for complex analysis.
 
 ## Ethical Considerations
@@ -327,9 +325,7 @@ Cogliati, B., Ethan, J., Jha, A., 2023. Subverting Telegram’s End-to-End Encry
 
 ## Tool provider
 
-Jordan Wildon
-
-(Pro Version: Prose Ltd; [https://telepathydb.com/](https://telepathydb.com/))
+Jordan Wildon; commercial Telepathy products are provided by Prose Intelligence Ltd: [https://prose.ltd/](https://prose.ltd/?utm_source=chatgpt.com)
 
 ## Advertising Trackers
 
