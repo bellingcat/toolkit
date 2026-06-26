@@ -14,13 +14,13 @@ layout:
   pagination:
     visible: true
   metadata:
-    visible: false
+    visible: true
   tags:
     visible: true
   actions:
     visible: true
 tags:
-  - tag: bellingcat
+  - bellingcat
 ---
 
 # Bellingcat Name Variant Search
@@ -57,6 +57,6 @@ Enter a name and press enter. Add suggested variants to refine results. Use the 
 
 Bellingcat, NL
 
-| Page Maintainer           | Last Updated |
-| ------------------------- | ------------ |
-| Bellingcat Volunteer Team | 26-6-2025    |
+| Page Maintainer           |
+| ------------------------- |
+| Bellingcat Volunteer Team |
