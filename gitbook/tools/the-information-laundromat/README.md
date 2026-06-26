@@ -29,11 +29,11 @@ Developed by the Alliance for Securing Democracy (ASD) with contributions from t
 
 {% tabs %}
 {% tab title="Content Similarity Search" %}
-<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>"Content Similarity” input form: shows how to enter a URL or text snippet, select a country, language, and search engines, and then run a search for reprinted or near-identical content</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>"Content Similarity” input form: shows how to enter a URL or text snippet, select a country, language, and search engines, and then run a search for reprinted or near-identical content</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Results" %}
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption><p>“Results with Similar Titles or Content”: a table listing domains, article titles, text snippets, and match percentages, illustrating how the tool surfaces sites sharing overlapping text from the query.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>“Results with Similar Titles or Content”: a table listing domains, article titles, text snippets, and match percentages, illustrating how the tool surfaces sites sharing overlapping text from the query.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -47,7 +47,7 @@ Developed by the Alliance for Securing Democracy (ASD) with contributions from t
 {% endtab %}
 
 {% tab title="Results" %}
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>“Indicators” results page: a color-coded table (Tier 1 in green, Tier 2 in yellow, Tier 3 in teal) detailing unique or moderate-to-weak indicators (certificates, IPs, subnets, cookies, etc.) found for the queried domain(s).</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>“Indicators” results page: a color-coded table (Tier 1 in green, Tier 2 in yellow, Tier 3 in teal) detailing unique or moderate-to-weak indicators (certificates, IPs, subnets, cookies, etc.) found for the queried domain(s).</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -350,7 +350,7 @@ GUI is straightforward (point‑and‑click) but interpreting results requires O
 ## Limitations
 
 * **Text matches are indicative, not provenance:** The tool does not determine original source; high scores show similarity, not authorship. Accuracy varies with text length/uniqueness; URLs often yield lower scores due to sidebars/boilerplate. Always manually verify. [informationlaundromat.com](https://informationlaundromat.com/about)
-* **Infrastructure signals can be spurious:** CDNs, DDoS protection (e.g., Cloudflare) and shared hosts can produce false links; treat Tier 2–3 indicators cautiously. [informationlaundromat.com](https://informationlaundromat.com/about)
+* **Infrastructure signals can be spurious:** CDNs, DDoS protection (e.g., Cloudflare), and shared hosts can produce false links; treat Tier 2–3 indicators with caution. [informationlaundromat.com](https://informationlaundromat.com/about)
 * **Image Similarity is experimental** and may fail or return loose matches. [informationlaundromat.com](https://informationlaundromat.com/)
 * **Hosted usage data:** site logs IP/page/time and deletes logs after \~30 days; analytics anonymized (GDPR notice). [informationlaundromat.com](https://informationlaundromat.com/)
 * **Batch use restricted on hosted instance** (registration code required). [informationlaundromat.com](https://informationlaundromat.com/about)
@@ -369,13 +369,13 @@ GUI is straightforward (point‑and‑click) but interpreting results requires O
 
 **Silverman, C.** (2024, September 5). A look at the Information Laundromat website analysis tool. _Indicator_. [https://indicator.media/p/a-look-at-the-information-laundromat](https://indicator.media/p/a-look-at-the-information-laundromat) (discusses how the tool was applied in ASD’s research into RT content laundering and interviews the tool’s developer, Peter Benzoni).
 
-**ASD/GMF:** _The Russian Propaganda Nesting Doll_ (method & results using the tool), 2024‑05‑30. [Alliance For Securing Democracy](https://securingdemocracy.gmfus.org/the-russian-propaganda-nesting-doll-how-rt-is-layered-into-the-digital-information-environment/?utm_source=chatgpt.com)
+**ASD/GMF:** _The Russian Propaganda Nesting Doll_ (method & results using the tool), 2024‑05‑30. [Alliance For Securing Democracy](https://securingdemocracy.gmfus.org/the-russian-propaganda-nesting-doll-how-rt-is-layered-into-the-digital-information-environment/)
 
 **ASD/GMF:** _Guarding Against Russian Information Laundering_ (dashboard + methodology), 2024‑09‑05. [Alliance For Securing Democracy](https://securingdemocracy.gmfus.org/guarding-against-russian-information-laundering/)
 
 **GIJN:** _Look Inside the Open Source “Information Laundromat”_ (walkthrough/interview), 2024‑11‑08. [gijn.org](https://gijn.org/stories/open-source-information-laundromat/?utm_source=chatgpt.com)
 
-**EDMO:** _Online training: The Information Laundromat_, 2024‑06‑12. [edmo.eu](https://edmo.eu/edmo-news/edmo-online-training-the-information-laundromat/?utm_source=chatgpt.com)
+**EDMO:** _Online training: The Information Laundromat_, 2024‑06‑12. [edmo.eu](https://edmo.eu/edmo-news/edmo-online-training-the-information-laundromat/)
 
 ## Tool provider
 
