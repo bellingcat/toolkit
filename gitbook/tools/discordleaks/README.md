@@ -10,7 +10,7 @@ description: >-
 ## URL
 
 [https://discordleaks.unicornriot.ninja/](https://discordleaks.unicornriot.ninja/)\
-(last accessed April 30. 2026)
+(last accessed June 26. 2026)
 
 ## Description
 
