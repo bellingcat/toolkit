@@ -21,6 +21,7 @@ const summary = getSummary('gitbook');
 
 // make this loop sequential to avoid rate limiting
 for (const tool of tools) {
+  await new Promise(resolve => setTimeout(resolve, 300));
   let changed = {};
   let changes = [];
   const item = items.find((item) => item.toolId === tool.filename);
