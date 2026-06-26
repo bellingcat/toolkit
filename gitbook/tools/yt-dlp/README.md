@@ -342,7 +342,7 @@ A basic download is simple once yt-dlp is installed, but this is still a command
 
 ## Ethical Considerations
 
-* **Collect only what is relevant.** The Berkeley Protocol recommends assessing relevance before collection and warns against over-collection; collection should be justified, necessary and proportionate.
+* **Collect only what is relevant.**[ The Berkeley Protocol](https://www.ohchr.org/en/publications/policy-and-methodological-publications/berkeley-protocol-digital-open-source) recommends assessing relevance before collection and warns against over-collection; collection should be justified, necessary, and proportionate.
 * **Document the collection process.** Record the source URL, collection date/time, tool name, tool version, command used, account or browser profile used, and hash values for collected files. The Berkeley Protocol recommends recording collection data and hash values where relevant.
 * **Preserve an evidentiary copy.** Keep the original download unchanged and work from copies when clipping, converting or translating. The Berkeley Protocol describes the importance of evidentiary copies, working copies and chain of custody.
 * **Handle personal data carefully.** `.info.json` files, comments, captions and thumbnails may identify uploaders, commenters, bystanders or victims.
