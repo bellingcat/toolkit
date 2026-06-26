@@ -12,7 +12,7 @@ description: >-
 
 \
 **Tool page:** [Digital Methods Initiative – Zeeschuimer](https://medialab.sciencespo.fr/en/tools/zeeschuimer/)\
-v1.13.6 reviewed May 2026
+v1.14 reviewed June 2026
 
 **GitHub:** [https://github.com/digitalmethodsinitiative/zeeschuimer](https://github.com/digitalmethodsinitiative/zeeschuimer) – (Firefox extension download and source code)
 
