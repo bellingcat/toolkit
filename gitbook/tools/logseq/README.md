@@ -10,7 +10,7 @@ description: >-
 ## URL
 
 [https://logseq.com/](https://logseq.com/)\
-(version 0.10.15; May 2026)
+(version 0.10.15; June 2026)
 
 ## Description
 
