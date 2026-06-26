@@ -21,7 +21,7 @@ You can search for YouTube videos by keywords, location name, or coordinates. Ad
 * When searching by location, users can set a radius between 1 and 1000km.
 * Search results are automatically visualized on a map, which shows icons from the YouTube videos. Click on the icon to see the video's title, channel, and other details. Alternatively, scroll down the page to see the same details listed.
 
-<figure><img src="../../.gitbook/assets/map (1).png" alt=""><figcaption><p>Search results visualized on a map, for YouTube videos geotagged within 20km of the Hungarian State Opera House in Budapest. A radius of 20km is shown (in the green circle). Each icon represents a YouTube channel. Note that the map also shows some videos geotagged beyond the 20km radius.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/map.png" alt=""><figcaption><p>Search results visualized on a map, for YouTube videos geotagged within 20km of the Hungarian State Opera House in Budapest. A radius of 20km is shown (in the green circle). Each icon represents a YouTube channel. Note that the map also shows some videos geotagged beyond the 20km radius.</p></figcaption></figure>
 
 * Under **Geotags**, user can find a list of the search results, including a thumbnail, the video title, upload date, duration, and an excerpt of the video description. Due to restrictions from YouTube, an export function is not directly available.
 * Under **Share,** a link can be copied and shared so that others can access the search results.
@@ -32,11 +32,11 @@ You can search for YouTube videos by keywords, location name, or coordinates. Ad
 
 To access the metadata, scroll down to view the search results and click "View metadata". This opens a new tab in your web browser, showing the metadata through another tool, [MW Metadata - Bulk](https://mattw.io/youtube-metadata/bulk), by the same developer.
 
-<figure><img src="../../.gitbook/assets/geofind_ex.png" alt=""><figcaption><p>View metadata - marked in blue</p></figcaption></figure>
+<figure><img src=".gitbook/assets/geofind_ex.png" alt=""><figcaption><p>View metadata - marked in blue</p></figcaption></figure>
 
 Here is an excerpt showing some of the JSON data available. (JSON is a format for structuring and storing data, where information is stored in text and as name-value pairs.) For each video, you will find metadata such as the date and time of upload, the geotag, and other information such as counts for the number of views, likes, favorites, and comments for the video.\
 \
-<img src="../../.gitbook/assets/json ex.png" alt="" data-size="original"><br>
+<img src=".gitbook/assets/json ex.png" alt="" data-size="original"><br>
 
 Unfortunately, a bulk export function is not available [due to Youtube policy](https://github.com/mattwright324/youtube-metadata/discussions/150).
 
@@ -71,7 +71,7 @@ Another approach is to use YouTube's search by location function.
 1. Enter a location name in the search bar.
 2. Click "Filters".
 3. Select "Location".\
-   <img src="../../.gitbook/assets/options.png" alt="" data-size="original">
+   <img src=".gitbook/assets/options.png" alt="" data-size="original">
 
 </details>
 

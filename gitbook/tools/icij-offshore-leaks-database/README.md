@@ -30,15 +30,15 @@ There are various ways to explore the database:
 
 1. Users can do searches in the whole database. Write the entity name, its jurisdiction or location in the search bar. For instance, “Mossack Fonseca.” Mossack Fonseca is a law firm disclosed in the Panama Papers, [whose employees are facing money laundering charges](https://www.theguardian.com/world/2024/apr/09/panama-papers-trial-begins-of-27-mossack-fonseca-employees) in the Panamanian court.
 
-<figure><img src="../../.gitbook/assets/ICIJ step 1.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ICIJ step 1.png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. Results can be abundant. On the left, you can filter the results by “offshore entities,” “officers,” “intermediaries,” and “addresses.”
 
-<figure><img src="../../.gitbook/assets/ICIJ step 2.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ICIJ step 2.png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. For instance, when you filter by “officer,” the results for “Mossack Fonseca” show “396” results. After filtering, click on the result of your choice. An interactive map shows connections between categories like "officer" and "address". The visualization explains ties between an intermediary, entity, officer, etc. and it can also list an address. Click on the nodes to receive more information.
 
-<figure><img src="../../.gitbook/assets/ICIJ step w.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ICIJ step w.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ICIJ also provides a detailed section on “[How to use the Offshore Leaks Database.](https://offshoreleaks.icij.org/pages/howtouse)”
 

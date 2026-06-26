@@ -26,7 +26,7 @@ Follow the site’s safety advice (use Tor/VPN, JS/privacy controls) when openin
 – [**Rocket.Chat corpus**](https://unicornriot.ninja/2022/patriot-front-fascist-leak-exposes-nationwide-racist-campaigns/) — includes **Patriot Front** leak; UR notes **55,249 Rocket.Chat messages** hosted with attachments and “Vault” downloads.\
 – [**Skype corpus**](https://discordleaks.unicornriot.ninja/skype/) — browsable conversations and user listings.
 
-<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 <details>
 

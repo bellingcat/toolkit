@@ -1,9 +1,9 @@
 ---
-updated: '2026-06-24'
 description: >-
   Open-source “WordPress-for-data” that turns any SQLite database into an
   interactive website and JSON API in seconds; ideal for publishing, exploring
   and collaborating on datasets.
+updated: '2026-06-24'
 ---
 
 # Datasette
@@ -15,19 +15,19 @@ description: >-
 
 ## Description
 
-Datasette is a free, open-source tool that enables you to transform your datasets into an interactive database website, making it easy to explore and share data without requiring advanced technical skills.
+Datasette is a free, open-source tool that enables you to transform your datasets into an interactive database website, making it easy to explore and share data without requiring advanced technical skills.&#x20;
 
-It was created with data journalists and investigators in mind, but anyone who works with structured data can benefit from it.
+It was created with data journalists and investigators in mind, but anyone who works with structured data can benefit from it.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-06-23 at 12.12.02 pm.png" alt="Screenshot of Datasette home page"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-06-23 at 12.12.02 pm.png" alt="Screenshot of Datasette home page"><figcaption></figcaption></figure>
 
 Datasette is an Apache-2.0-licensed tool that turns one or more SQLite databases into an interactive website and stable JSON/CSV API within seconds. The growing ecosystem now counts 154+ plugins and 40+ companion tools, a macOS Desktop app (v0.2.3) with a one-click plugin manager, and the hosted Datasette Cloud service, with a new “Datasette for Newsrooms” bundle for investigative teams.
 
-In simpler terms, if you have information in a spreadsheet or CSV file and want to find insights or share it with others, Datasette helps you publish that data online in a searchable, user-friendly format.
+In simpler terms, if you have information in a spreadsheet or CSV file and want to find insights or share it with others, Datasette helps you publish that data online in a searchable, user-friendly format.&#x20;
 
 According to Datasette creator Simon Willison, ["One of the most compelling use cases of Datasette"](https://www.newsroomrobots.com/p/how-datasette-helps-with-investigative) was Bellingcat's use of Datasette to examine leaked data – analyzing a leaked food delivery company database to uncover links to Russia's security agency. This means that whether you’re a journalist sifting through thousands of records or a researcher sharing data with the public, Datasette can make the job easier by providing an intuitive way to browse and query your information.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-06-23 at 12.24.12 pm.png" alt=""><figcaption><p>An example of how Datasette can be used (screenshot from Datasette website)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-06-23 at 12.24.12 pm.png" alt=""><figcaption><p>An example of how Datasette can be used (screenshot from Datasette website)</p></figcaption></figure>
 
 Under the hood, Datasette packages your data (of almost any shape or size) into a lightweight SQLite database and automatically generates a web interface and URL [endpoints for it](https://datasette.io). However, you don’t need to know SQL or database programming to use the basic features – Datasette’s web UI lets you filter tables, sort results, and search your data through simple forms and links. More technically inclined users **can** leverage SQL queries for complex analysis or use the provided JSON API to integrate the data into other applications. In other words, Datasette works for beginners who just want point-and-click data exploration **and** for advanced users who might script queries or build upon the data.
 

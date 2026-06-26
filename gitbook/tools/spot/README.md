@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-08-31 at 15.24.35.png" alt=""><figcaption><p><strong>THE SPOT INTERFACE DISPLAYING RESULTS OF A SEARCH OF OPEN STREET MAP EXPRESSED IN ENGLISH LANGUAGE AT TOP LEFT, WITH RESULTS COLOURED ON THE MAP AND ONE CANDIDATE LOCATION ALSO SHOWN AS STREET VIEW IMAGERY</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-08-31 at 15.24.35.png" alt=""><figcaption><p><strong>THE SPOT INTERFACE DISPLAYING RESULTS OF A SEARCH OF OPEN STREET MAP EXPRESSED IN ENGLISH LANGUAGE AT TOP LEFT, WITH RESULTS COLOURED ON THE MAP AND ONE CANDIDATE LOCATION ALSO SHOWN AS STREET VIEW IMAGERY</strong></p></figcaption></figure>
 
 Spot provides an interface for searching OpenStreetMap[^1] using everyday language as input (The Spot authors in their paper "[SPOT: Bridging Natural Language and Geospatial Search for\
 Investigative Journalists](https://arxiv.org/pdf/2506.13188)" state: "Although not specifically fine-tuned in languages other than English, the model appears to be able to interpret queries in a variety of languages, although this was not further tested.").
@@ -50,13 +50,13 @@ e.g. Enter "_**Find a pharmacy and a traffic light and a bus stop and a bridge w
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (18) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 {% columns %}
 {% column %}
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
@@ -68,7 +68,7 @@ So the user can write a natural language query like "Find a church within 100m o
 
 Spot works in 4 stages, from natural language input to streetview comparison of outputs.
 
-<table><thead><tr><th width="109.66668701171875">STEP</th><th>PROCESS</th><th>DESCRIPTION</th></tr></thead><tbody><tr><td><strong>1) Natural Language Query Input</strong></td><td>Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language, and converts these sentences into query language code with a formal structure (which is displayed to the user in a separate box in the interface) called <a href="https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL">Overpass Query Language</a>.</td><td><img src="../../.gitbook/assets/step1 (4).JPG" alt="" data-size="original"></td></tr><tr><td><strong>2) Run Overpass Query on the OpenStreetMap Database</strong></td><td>Spot uses the query language code to perform a search of a specified area on OpenStreetMap (by building an Overpass query and running it with the <a href="https://wiki.openstreetmap.org/wiki/Overpass_API">Overpass API</a>).</td><td>This stage of the Spot service uses exactly the same process as the other OSM search tools.<img src="../../.gitbook/assets/SpotSearchParametersSMALLEST (1).jpg" alt=""></td></tr><tr><td><strong>3) Display Solution Features on a Map</strong></td><td>Spot displays all the features which satisfy the user's input search on a map.<img src="../../.gitbook/assets/Spot Paris ex 5 (1).JPG" alt=""></td><td><p>Spot does not sort and group features which relate to different candidate location solutions, so if there is more than one potential solution (which is often the case):</p><ul><li>the existence of multiple candidate location solutions may not be apparent to the user</li><li>the number of candidate location solutions may well not to be apparent to the user</li><li>which discovered features belong to which proposed candidate locations may not be to discernible to the user</li></ul></td></tr><tr><td><strong>4) Offer A Choice of StreetView Options for Each Solution Feature</strong></td><td>For each feature marked on the output map, Spot offers the user the option to open the location in any one of the largest three mapping services (<a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps">Google</a>, <a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps">Yandex</a>, and <a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/bing-maps">Bing</a>) and additionally provides the option to directly view Google's <a data-footnote-ref href="#user-content-fn-5">street view</a> information (mainly user-supplied ground-level photography) of the location, which is invaluable for geolocation purposes.</td><td><img src="../../.gitbook/assets/step4.JPG" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th width="109.66668701171875">STEP</th><th>PROCESS</th><th>DESCRIPTION</th></tr></thead><tbody><tr><td><strong>1) Natural Language Query Input</strong></td><td>Spot takes natural language prompts as input from the user, i.e. sentences written in everyday language, and converts these sentences into query language code with a formal structure (which is displayed to the user in a separate box in the interface) called <a href="https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL">Overpass Query Language</a>.</td><td><img src=".gitbook/assets/step1 (4).JPG" alt="" data-size="original"></td></tr><tr><td><strong>2) Run Overpass Query on the OpenStreetMap Database</strong></td><td>Spot uses the query language code to perform a search of a specified area on OpenStreetMap (by building an Overpass query and running it with the <a href="https://wiki.openstreetmap.org/wiki/Overpass_API">Overpass API</a>).</td><td>This stage of the Spot service uses exactly the same process as the other OSM search tools.<img src=".gitbook/assets/SpotSearchParametersSMALLEST (1).jpg" alt=""></td></tr><tr><td><strong>3) Display Solution Features on a Map</strong></td><td>Spot displays all the features which satisfy the user's input search on a map.<img src=".gitbook/assets/Spot Paris ex 5 (1).JPG" alt=""></td><td><p>Spot does not sort and group features which relate to different candidate location solutions, so if there is more than one potential solution (which is often the case):</p><ul><li>the existence of multiple candidate location solutions may not be apparent to the user</li><li>the number of candidate location solutions may well not to be apparent to the user</li><li>which discovered features belong to which proposed candidate locations may not be to discernible to the user</li></ul></td></tr><tr><td><strong>4) Offer A Choice of StreetView Options for Each Solution Feature</strong></td><td>For each feature marked on the output map, Spot offers the user the option to open the location in any one of the largest three mapping services (<a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps">Google</a>, <a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/yandex-maps">Yandex</a>, and <a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/bing-maps">Bing</a>) and additionally provides the option to directly view Google's <a data-footnote-ref href="#user-content-fn-5">street view</a> information (mainly user-supplied ground-level photography) of the location, which is invaluable for geolocation purposes.</td><td><img src=".gitbook/assets/step4.JPG" alt="" data-size="original"></td></tr></tbody></table>
 
 {% hint style="warning" %}
 **USE OF 'AI' TECHNOLOGY IN SPOT IS LIMITED TO CONVERTING THE LANGUAGE OF THE SEARCH QUERY INTO CODE, I.E. STAGE 1 ONLY**
@@ -86,13 +86,13 @@ Spot's landing page includes a modal window (a pop-up) where example queries are
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2kIW8Z8_2Fuploads_2F5pwxT2xJdDjsccHt8Hld_2FAnimated_20aut-query.avif" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2kIW8Z8_2Fuploads_2F5pwxT2xJdDjsccHt8Hld_2FAnimated_20aut-query.avif" alt="" width="188"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 The Spot interface uses text boxes for input data, set over a background map for result display, and an additional Street View pop up window.
 
-<figure><img src="../../.gitbook/assets/image (19) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 {% columns %}
 {% column %}
@@ -110,7 +110,7 @@ This feature is similar to [Bellingcat’s OpenStreetMap](https://bellingcat.git
 {% column %}
 **SEARCH PARAMETERS EDITING SCHEM**A
 
-<figure><img src="../../.gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2kIW8Z8_2Fuploads_2FaRZD6UaIw207sEIqbBhC_2FSpotSearchParameters (1).avif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2kIW8Z8_2Fuploads_2FaRZD6UaIw207sEIqbBhC_2FSpotSearchParameters (1).avif" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -120,7 +120,7 @@ To confirm which result matches our required location, one must sift through all
 
 {% tabs %}
 {% tab title="INPUT DATA" %}
-<figure><img src="../../.gitbook/assets/step1 (5).JPG" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/step1 (5).JPG" alt="" width="563"><figcaption></figcaption></figure>
 
 Natural language description of a location to be found - includes geographical location (not just rectangular areas of interest but also irregularly-shaped regions, e.g. "The City of London") entities at the location, their relative proximity and the geographic search area.
 
@@ -130,11 +130,11 @@ Overpass Turbo query search parameters - references entities with the appropriat
 
 Spot provides the facility to edit the search parameters, once input via the natural language text input box. The editing window is shown below:
 
-<div align="center"><figure><img src="../../.gitbook/assets/editOSMTags.JPG" alt="" width="563"><figcaption><p><strong>SPOT'S QUERY PARAMETER EDITING WINDOW PROVIDES DIRECT ACCESS TO THE STRUCTURE AND PROPERTIES OF THE QUERY, ENTITY BY ENTITY. THIS WINDOW PROVIDES EDITING FOR THE ENTITY 'FOUNTAIN'</strong></p></figcaption></figure></div>
+<div align="center"><figure><img src=".gitbook/assets/editOSMTags.JPG" alt="" width="563"><figcaption><p><strong>SPOT'S QUERY PARAMETER EDITING WINDOW PROVIDES DIRECT ACCESS TO THE STRUCTURE AND PROPERTIES OF THE QUERY, ENTITY BY ENTITY. THIS WINDOW PROVIDES EDITING FOR THE ENTITY 'FOUNTAIN'</strong></p></figcaption></figure></div>
 {% endtab %}
 
 {% tab title="SPOT OUTPUT DATA" %}
-<figure><img src="../../.gitbook/assets/InterfaceSpot.jpg" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/InterfaceSpot.jpg" alt="" width="563"><figcaption></figcaption></figure>
 
 Location map marking all features in candidate solutions which satisfy the search criteria, but not marking those groups individually, giving the number of candidate solutions for the search, or providing an approximate location for viewpoints which could include them all.
 
@@ -157,7 +157,7 @@ OR
 
 Use the search parameters box to adjust existing search features and their relative distances via a part text, part graphic subwindow.
 
-<div><figure><img src="../../.gitbook/assets/SpotSearchParametersSMALLEST (3).jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/editOSMTags.JPG" alt="" width="375"><figcaption></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/SpotSearchParametersSMALLEST (3).jpg" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/editOSMTags.JPG" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endtab %}
 {% endtabs %}
 
@@ -181,13 +181,13 @@ Using the City of London example mentioned above, “Find a church within 100m o
 {% endcolumn %}
 
 {% column width="50%" %}
-<figure><img src="../../.gitbook/assets/Blurred Insta users.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Blurred Insta users.jpg" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 ...the Spot output map displays all the features (churches, water, 10 storey buildings) which fit the search criteria, see below:
 
-<figure><img src="../../.gitbook/assets/image (13) (3).png" alt=""><figcaption><p><strong>THE NUMBER AND EXTENT OF THOSE LOCATIONS MEETING THE 3 SEARCH CRITERIA OF CHURCH, 10+ STOREY BUILDING AND WATER WITHIN THE CITY OF LONDON (BOUNDED IN TURQUOISE) ARE NOT OBVIOUS FROM SPOT OUTPUT. WHEN SPOT RETURNS MORE THAN ONE CANDIDATE LOCATION, THIS MAKES THE USE OF STREETVIEW IMAGERY FOR CONFIRMATION/ELIMINATION OF POTENTIAL GEOLOCATIONS A SIGNIFICANT WORKLOAD.</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption><p><strong>THE NUMBER AND EXTENT OF THOSE LOCATIONS MEETING THE 3 SEARCH CRITERIA OF CHURCH, 10+ STOREY BUILDING AND WATER WITHIN THE CITY OF LONDON (BOUNDED IN TURQUOISE) ARE NOT OBVIOUS FROM SPOT OUTPUT. WHEN SPOT RETURNS MORE THAN ONE CANDIDATE LOCATION, THIS MAKES THE USE OF STREETVIEW IMAGERY FOR CONFIRMATION/ELIMINATION OF POTENTIAL GEOLOCATIONS A SIGNIFICANT WORKLOAD.</strong></p></figcaption></figure>
 
 Clicking on a specific feature from one of the results shows its details, including a link to its OSM ID. This link opens a new tab to its location on the OpenStreetMap website, where you can find this feature (entity) and explore further. In this case, clicking on the church (highlighted in red) indicates that it's called "St-Giles-without-Cripplegate", its “denomination” is “Anglican” and was “rebuilt” in “1906.” Click on the OSM ID link for more details.
 
@@ -195,13 +195,13 @@ Clicking on a specific feature from one of the results shows its details, includ
 {% column %}
 Cicking on a particular feature pops up...
 
-<figure><img src="../../.gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2kIW8Z8_2Fuploads_2FbnecQL5cCMewzcn0rZCW_2FStGilesCripplegatecrop.avif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces_2FecVZbBL9rgIln2kIW8Z8_2Fuploads_2FbnecQL5cCMewzcn0rZCW_2FStGilesCripplegatecrop.avif" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
 ...ID and detail output from OpenStreetMap
 
-<figure><img src="../../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -213,7 +213,7 @@ Spot does **not** directly identify specific _**locations**_ which meet the inpu
 
 Spot delivers a map marked with all the features (Spot calls them Entities) which meet the search criteria, but not the actual associated locations. \[Where there is only one candidate location, this is not an issue]. In queries with multiple solution locations, the single map without associations between features and candidate locations makes comparison with StreetView photography more difficult.
 
-<figure><img src="../../.gitbook/assets/venn2.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/venn2.JPG" alt=""><figcaption></figcaption></figure>
 
 EXAMPLE OUTPUT WHERE FEATURES ARE MARKED ON THE MAP, BUT NOT GROUPED INTO SOLUTION LOCATIONS
 {% endcolumn %}
@@ -223,7 +223,7 @@ EXAMPLE OUTPUT WHERE FEATURES ARE MARKED ON THE MAP, BUT NOT GROUPED INTO SOLUTI
 
 If the features which meet the search criteria are grouped into candidate locations, this makes examination of multiple candidate locations (and cross-checking with other imagery) possible. Bellingcat OSM Search tool delivers this type of result, with a separate map for each candidate location. Spot does not output specific locations,or map them to located image features.
 
-<figure><img src="../../.gitbook/assets/venn1.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/venn1.JPG" alt=""><figcaption></figcaption></figure>
 
 EXAMPLE OUTPUT WHERE FEATURES ARE GROUPED INTO SOLUTION LOCATIONS
 {% endcolumn %}
@@ -233,7 +233,7 @@ A very useful and original time-saving feature in Spot, is the option to view an
 
 Spot source imagery and Google StreetView can be compared side by side on screen:
 
-<figure><img src="../../.gitbook/assets/image (17) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 ### Cost
 
@@ -261,11 +261,11 @@ All tools which query OpenStreetMap share the limitations which the structure of
 2. Spot's valuable integrated street view access operates at the location of each feature on the solution map. Given that usually all the features mentioned in a query will be visible in the source image which is being geolocated, the view **at** a feature location is not likely to be a match. e.g. street view imagery taken at the central co-ordinates of the Eiffel Tower is unlikely to include images where the Eiffel Tower is clearly visible.
 3. Spot traps certain conditions when input is difficult to intepret. Users can expect to see the following messages when this happens. Sometimes refreshing the browser and/or slightly rephrasing the query may overcome issues:
 
-<div><figure><img src="../../.gitbook/assets/Cologne system hickup.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/geometry2025-07-05 at 22.04.20.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/London Unknown error copy.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Another error cropped.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/Cologne system hickup.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/geometry2025-07-05 at 22.04.20.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/London Unknown error copy.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/Another error cropped.png" alt=""><figcaption></figcaption></figure></div>
 
 4.  Behaviour of the LLM which converts the natural language to Overpass Turbo query language does not always produce identical results for the same query and very small (apparently semantically identical) changes in the input text can yield different solution results. Note in the example below that the particular phrasing of the query has resulted in Spot identifying two, rather than three, search features. The three relevant features are 1 "pylon", 2 "public transport" and 3 "water" but spot has only recognised two: "pylon" and "public transport near water". See how this is shown in the Map Legend - this is very likely to affect the results returned.
 
-    <figure><img src="../../.gitbook/assets/France_query_101.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/France_query_101.png" alt=""><figcaption></figcaption></figure>
 5. Our own tests showed that some queries may take time to retrieve results, since search time increases with the size of the search area, the number of search terms involved and the complexity of the logical combinations of search terms used in the query.
 6. Spot is based on crowdsourced OpenStreet Map Data. Anything not found in OSM’s database will not be returned in results (but this does not mean that other results do not exist, they might just not have been added to OSM).
 7. Results may not always be accurate and should be double-checked against other mapping tools like Google Maps, Yandex Maps, Bing Maps, including street-view photography.
@@ -278,7 +278,7 @@ All tools which query OpenStreetMap share the limitations which the structure of
 
 <summary>Trusted AI Principles provided on the Spot Website. <em>(Click the arrow for more detail...)</em></summary>
 
-<figure><img src="../../.gitbook/assets/image (1) (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -288,7 +288,7 @@ All tools which query OpenStreetMap share the limitations which the structure of
 
 <summary>Legal and Privacy statement provided on the Spot Website. <em>(Click the arrow for more detail...)</em></summary>
 
-<figure><img src="../../.gitbook/assets/Spot Links Legal and Privacy.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Spot Links Legal and Privacy.jpg" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -314,7 +314,7 @@ And a video on viewing and interpreting Spot results:
 * [Overpass Turbo](https://bellingcat.gitbook.io/toolkit/more/all-tools/overpass-turbo)
 * [EarthKi](https://earthkit.app/sift)[t](https://earthkit.ecmwf.int/)
 
-<table data-full-width="true"><thead><tr><th width="147.5999755859375" align="center" valign="middle">Similar Tool to Spot</th><th width="227.20001220703125" align="center">Similarities to Spot</th><th>Differences from Spot</th></tr></thead><tbody><tr><td align="center" valign="middle"><a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/openstreetmap-search-tool">Bellingcat OpenStreetMap Search</a> provides a graphical interface to support the user in building a query of OpenStreetMap data, helping users geolocate an image. The user interface allows one to search a defined location area for structures and objects within a specified maximum distance from each other, as visible in a photo. It is a much-simplified (and consequently restricted) interface version of the Overpass Turbo query language for OpenStreetMap</td><td align="center"><p>Like Spot, this tool:</p><ul><li>exclusively searches the Open StreetMap database.</li><li>compiles an Overpass Turbo query from the user's input in order to run the search.</li><li>greatly restricts the potential format of the search query for the purposes of simplification: search for items which are within a given distance of one another inside a specified map region</li><li>presents output to the user in map format</li></ul></td><td><p>UNlike Spot, this tool:</p><ul><li>gives candidate location results as the geographical co-ordinates of one or more specific points on a map, whereas Spot does not return separate locations, but rather a single map containing all referenced search terms on the map which meet the search criteria, without grouping them per location.</li><li>provides a graphical interface for search term entry, <img src="../../.gitbook/assets/image (67).png" alt="">e.g. drag and drop labels to select search objects, numerical sliders to input distance and drop down selection lists for search operators and custom terms, whereas Spot uses a 'natural language' text input interface in the first instance.</li></ul></td></tr><tr><td align="center" valign="middle"><a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/overpass-turbo">Overpass Turbo</a> provides a web based data mining tool for OpenStreetMap. For OSINV purposes, it is often used to filter location data. It is a complex query language, but is supported by a Query Wizard, similar in some ways to the Bellingcat OSM Search tool in that the Wizard simplifies query construction via a graphical interface.</td><td align="center"><p>Like Spot, this tool:</p><ul><li>exclusively searches the Open StreetMap database.</li><li>compiles an Overpass Turbo query from the user's input in order to run the search.</li><li>greatly restricts the potential format of the search query for the purposes of simplification: search for items which are within a given distance of one another inside a specified map region</li><li>presents output to the user in map format</li></ul></td><td><ul><li>Candidate location results are given as the geographical co-ordinates of one or more specific points on a map, whereas Spot does not return separate locations, but rather a single map containing all referenced search terms on the map which meet the search criteria, without grouping them per location.</li></ul></td></tr><tr><td align="center" valign="middle"><p><a href="https://earthkit.app/osm">EarthKit</a></p><p>EarthKit is an Earth Sciences platform which has a number of functions which can be used for geolocation, one of which is "Overpass Query"</p></td><td align="center"><p>Like Spot, this tool feature:</p><ul><li>claims to use a natural language processing interface to convert user descriptions of a location into an Overpass Turbo query.</li><li>allows users to view StreetMap imagery at/near locations returned by the search.</li></ul><p><br></p><p><br></p></td><td><p>UNlike Spot, this tool:</p><ul><li>provides a range of additional features, e.g. <a href="https://earthkit.app/geoclip">Geoestimation</a>, <a href="https://earthkit.app/satellite">Satellite Geolocalization</a>, which support validation of results.</li></ul></td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="147.5999755859375" align="center" valign="middle">Similar Tool to Spot</th><th width="227.20001220703125" align="center">Similarities to Spot</th><th>Differences from Spot</th></tr></thead><tbody><tr><td align="center" valign="middle"><a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/openstreetmap-search-tool">Bellingcat OpenStreetMap Search</a> provides a graphical interface to support the user in building a query of OpenStreetMap data, helping users geolocate an image. The user interface allows one to search a defined location area for structures and objects within a specified maximum distance from each other, as visible in a photo. It is a much-simplified (and consequently restricted) interface version of the Overpass Turbo query language for OpenStreetMap</td><td align="center"><p>Like Spot, this tool:</p><ul><li>exclusively searches the Open StreetMap database.</li><li>compiles an Overpass Turbo query from the user's input in order to run the search.</li><li>greatly restricts the potential format of the search query for the purposes of simplification: search for items which are within a given distance of one another inside a specified map region</li><li>presents output to the user in map format</li></ul></td><td><p>UNlike Spot, this tool:</p><ul><li>gives candidate location results as the geographical co-ordinates of one or more specific points on a map, whereas Spot does not return separate locations, but rather a single map containing all referenced search terms on the map which meet the search criteria, without grouping them per location.</li><li>provides a graphical interface for search term entry, <img src=".gitbook/assets/image.png" alt="">e.g. drag and drop labels to select search objects, numerical sliders to input distance and drop down selection lists for search operators and custom terms, whereas Spot uses a 'natural language' text input interface in the first instance.</li></ul></td></tr><tr><td align="center" valign="middle"><a href="https://bellingcat.gitbook.io/toolkit/more/all-tools/overpass-turbo">Overpass Turbo</a> provides a web based data mining tool for OpenStreetMap. For OSINV purposes, it is often used to filter location data. It is a complex query language, but is supported by a Query Wizard, similar in some ways to the Bellingcat OSM Search tool in that the Wizard simplifies query construction via a graphical interface.</td><td align="center"><p>Like Spot, this tool:</p><ul><li>exclusively searches the Open StreetMap database.</li><li>compiles an Overpass Turbo query from the user's input in order to run the search.</li><li>greatly restricts the potential format of the search query for the purposes of simplification: search for items which are within a given distance of one another inside a specified map region</li><li>presents output to the user in map format</li></ul></td><td><ul><li>Candidate location results are given as the geographical co-ordinates of one or more specific points on a map, whereas Spot does not return separate locations, but rather a single map containing all referenced search terms on the map which meet the search criteria, without grouping them per location.</li></ul></td></tr><tr><td align="center" valign="middle"><p><a href="https://earthkit.app/osm">EarthKit</a></p><p>EarthKit is an Earth Sciences platform which has a number of functions which can be used for geolocation, one of which is "Overpass Query"</p></td><td align="center"><p>Like Spot, this tool feature:</p><ul><li>claims to use a natural language processing interface to convert user descriptions of a location into an Overpass Turbo query.</li><li>allows users to view StreetMap imagery at/near locations returned by the search.</li></ul><p><br></p><p><br></p></td><td><p>UNlike Spot, this tool:</p><ul><li>provides a range of additional features, e.g. <a href="https://earthkit.app/geoclip">Geoestimation</a>, <a href="https://earthkit.app/satellite">Satellite Geolocalization</a>, which support validation of results.</li></ul></td></tr></tbody></table>
 
 ## Tool provider
 

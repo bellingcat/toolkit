@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-<figure><img src="../../.gitbook/assets/LostMarineTrafficGIF.gif" alt=""><figcaption><p><strong>SOME VESSEL DATA AVAILABLE VIA THE MARINE TRAFFIC INTERFACE</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/LostMarineTrafficGIF.gif" alt=""><figcaption><p><strong>SOME VESSEL DATA AVAILABLE VIA THE MARINE TRAFFIC INTERFACE</strong></p></figcaption></figure>
 
 The MarineTraffic website and mobile app offer near real-time tracking of vessels and can be used to monitor marine traffic in general or of a particular vessel of a custom fleet. It has a map-based interface with search, filtering and map layers functions for vessels, ports and traffic.
 
@@ -41,7 +41,7 @@ Click anywhere on the map to view the exact coordinates,
 
 [Vessels](https://www.marinetraffic.com/en/data/?asset_type=vessels\&columns=flag%2Cshipname%2Cphoto%2Crecognized_next_port%2Creported_eta%2Creported_destination%2Ccurrent_port%2Cimo%2Cship_type%2Cshow_on_live_map%2Ctime_of_latest_position%2Clat_of_latest_position%2Clon_of_latest_position%2Cnotes): This menu moves away from the map to show a list of all vessels in MarineTraffic's database and a search bar that allows searching by vessel name, MMSI, IMO or callsign. Once a vessel is selected, you can access some basic information. More useful data like its port call logs, characteristics and ownership are only available through a paid plan.
 
-<div><figure><img src="../../.gitbook/assets/MT1.png" alt=""><figcaption><p>A detailed view for the vessel James R. Barker - its current voyage as of November 20, 2024 with place of departure and its final destination for this trip</p></figcaption></figure> <figure><img src="../../.gitbook/assets/MT2.png" alt=""><figcaption><p>A detailed view for the vessel James R. Barker - IMO and MMSI numbers, its call sign, the type of vessel, speed and draught (the determined depth of the vessel below the waterline, measured vertically to its hull's lowest)</p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/MT1.png" alt=""><figcaption><p>A detailed view for the vessel James R. Barker - its current voyage as of November 20, 2024 with place of departure and its final destination for this trip</p></figcaption></figure> <figure><img src=".gitbook/assets/MT2.png" alt=""><figcaption><p>A detailed view for the vessel James R. Barker - IMO and MMSI numbers, its call sign, the type of vessel, speed and draught (the determined depth of the vessel below the waterline, measured vertically to its hull's lowest)</p></figcaption></figure></div>
 
 This vessel view also has two shortcuts to follow a ship's past track (selecting this will return to the map and show this exact vessel's recent movements) for the past \~4 days. Custom past track dates are available through a paid subscription. Another shortcut that also returns the user to the main map is the route forecast, but free predictive routes are only shown for a 24-hour future period and again custom past track dates are available through a paid subscription.
 
@@ -71,7 +71,7 @@ If you have a paid subscription, the Ports menu also offers information on port 
 
 When you have selected a specific port, a new page opens with more details like photos and businesses located at the port. A paid subscription unlocks further details like number of terminals and berths, maximum deadweight, draught and length.
 
-<figure><img src="../../.gitbook/assets/MT3.png" alt=""><figcaption><p>Detailed view on Zhoushan Port: its LOCODE, number of terminals and berths user-contributed photos.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/MT3.png" alt=""><figcaption><p>Detailed view on Zhoushan Port: its LOCODE, number of terminals and berths user-contributed photos.</p></figcaption></figure>
 
 [Lighthouses & AtoN](https://www.marinetraffic.com/en/data/?asset_type=lights\&columns=flag,light_name,photo,location,light_type,characteristic,year_of_build,operational): A list of 16,170 lighthouses and Aids to Navigation (AtoN or also known as NAVAID) with their key details. The list can be searched by name, and additional filters can be applied to list lights and AtoNs by area, country, type of light or flashing, whether it is operational, number of flashes and interval of flashing, light color and range, focal height, admiralty code and The Amateur Radio Lighthouse Society (ARLHS) code.
 
@@ -81,7 +81,7 @@ In an effort to be able to readily identify lights for amateur radio contact pur
 You can read more on AtoN [here](https://en.wikipedia.org/wiki/Navigational_aid) for basic understanding of the concept and why aids of navigation are important for ships [here](https://www.marineinsight.com/marine-navigation/virtual-aids-of-navigation-are-important-for-ships/).
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/MT4.png" alt=""><figcaption><p>Detailed view of the Friedrichsort lighthouse, including photos and details on the color, shape and material of the construction.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/MT4.png" alt=""><figcaption><p>Detailed view of the Friedrichsort lighthouse, including photos and details on the color, shape and material of the construction.</p></figcaption></figure>
 
 [Companies](https://www.marinetraffic.com/en/maritime-companies/search): a list of 53,827 companies that are related in some way to doing business in ports, or provide maritime-related services. The companies are searchable by name and are categorized based in the sector they operate in. The business directory aims to give suppliers exposure to maritime professionals using MarineTraffic. This menu appears to be more B2B oriented and adds a pin for each listed business on the live map, as well as shows the business whenever a user is looking at port details or for a vessel that is nearby. It also appears participation in this is voluntary and anyone can list their business on the website.
 

@@ -19,7 +19,7 @@ Current version checked: v1.2.7, released 2026-04-27. Last checked: 2026-06-18.
 
 ## Description
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>A screen grab of an Auto Archiver execution for the Tajik-Kyrgyz border conflict. <a href="https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/">Source</a>.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>A screen grab of an Auto Archiver execution for the Tajik-Kyrgyz border conflict. <a href="https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/">Source</a>.</p></figcaption></figure>
 
 Auto Archiver is an open-source Python tool from Bellingcat for archiving URLs in a repeatable, verifiable way. It is designed for researchers who need to process many links, preserve content before it disappears, and keep useful metadata about what was archived, when, and how.
 
@@ -53,7 +53,7 @@ To run Auto Archiver locally, some technical knowledge is needed for the initial
 
 ## Usage of Auto-Archiver
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (4).png" alt=""><figcaption><p>Frontend of a fresh Auto Archiver in Bellingcat's hosted version of the tool.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Frontend of a fresh Auto Archiver in Bellingcat's hosted version of the tool.</p></figcaption></figure>
 
 ### Supported Platforms
 
@@ -78,7 +78,7 @@ Archiving is not the same as verification. Auto Archiver can preserve a copy, me
 
 <summary>Core Engine Deep Dive</summary>
 
-<figure><img src="../../.gitbook/assets/image (2) (9).png" alt=""><figcaption><p><em>Auto-Archiver processing pipeline.</em> The orchestrator runs each URL through configured modules in sequence. <strong>Feeder</strong> modules supply URLs (from user input, CSV, Google Sheets, etc.), then <strong>Extractor</strong> modules fetch the content (using site-specific archivers or web downloaders). <strong>Enricher</strong> modules add metadata (e.g. screenshots, hashes, timestamps). Outputs are written via <strong>Storage</strong> modules (saving files locally or to cloud storage) and <strong>Database</strong> modules (updating a Google Sheet, CSV log, etc.). A <strong>Formatter</strong> can generate a human-friendly report (e.g. an HTML page linking the archived media). The default pipeline (v1.0.1) uses the CLI feeder, generic and site-specific extractors (Twitter, Telegram, etc.), several enrichers (screenshot, SSL info, hashes, thumbnails, etc.), local storage, CSV/console logging, and an HTML formatter</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p><em>Auto-Archiver processing pipeline.</em> The orchestrator runs each URL through configured modules in sequence. <strong>Feeder</strong> modules supply URLs (from user input, CSV, Google Sheets, etc.), then <strong>Extractor</strong> modules fetch the content (using site-specific archivers or web downloaders). <strong>Enricher</strong> modules add metadata (e.g. screenshots, hashes, timestamps). Outputs are written via <strong>Storage</strong> modules (saving files locally or to cloud storage) and <strong>Database</strong> modules (updating a Google Sheet, CSV log, etc.). A <strong>Formatter</strong> can generate a human-friendly report (e.g. an HTML page linking the archived media). The default pipeline (v1.0.1) uses the CLI feeder, generic and site-specific extractors (Twitter, Telegram, etc.), several enrichers (screenshot, SSL info, hashes, thumbnails, etc.), local storage, CSV/console logging, and an HTML formatter</p></figcaption></figure>
 
 * Input Feeders: The tool is designed to ingest lists of URLs from a variety of sources, which it refers to as "feeders". The most common and well-documented method is using a Google Sheet, where a user simply pastes URLs into a designated column. This method requires the user to create a Google Cloud Service Account, generate a JSON credentials file, and share the target Google Sheet with the service account's unique email address, granting it editor permissions. The tool also supports simpler feeders, such as local CSV files or direct URL input from the command-line interface (CLI).
 * Modular Extractors: A key strength of the Auto Archiver is its modular design for handling different platforms. Upon receiving a URL, the tool intelligently routes it to a platform-specific "extractor" module designed to handle the unique structure and characteristics of that site. For example, a TikTok URL will be processed by the TikTok extractor, a YouTube link by the YouTube extractor, and a Telegram post by the Telegram extractor. This modularity allows the tool to be flexible and extensible, with the community able to contribute new extractors or update existing ones as platforms change.
@@ -126,13 +126,13 @@ auto-archiver --config secrets/orchestration.yaml
 This adds an `auto-archiver` command to your [system path](https://realpython.com/add-python-to-path/). You can check it by running `auto-archiver --help` for available options. (Advanced users can also [clone the GitHub repo](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop) and install manually, but pip is easier.)\
 Local installs may require extra dependencies for some modules. For example, WACZ/Browsertrix workflows need Docker or Browsertrix support, and some YouTube workflows may need additional token/POT handling unless you use the Docker image.
 
-<figure><img src="../../.gitbook/assets/image (1) (11).png" alt=""><figcaption><p>Diagram: How Auto Archiver routes finished files to different storage back-ends—Local disk, S3, Google Drive, or Atlos DB—and returns the corresponding public/CDN or Drive URLs.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Diagram: How Auto Archiver routes finished files to different storage back-ends—Local disk, S3, Google Drive, or Atlos DB—and returns the corresponding public/CDN or Drive URLs.</p></figcaption></figure>
 
 ### **Configuration**
 
 Auto Archiver is highly configurable via a [YAML file](https://circleci.com/blog/what-is-yaml-a-beginner-s-guide/) (often named `orchestration.yaml` or `config.yaml`). You can create this by hand or use the tool’s [built-in configuration editor](https://auto-archiver.readthedocs.io/en/v1.0.1/installation/config_editor.html) for guidance.
 
-<figure><img src="../../.gitbook/assets/image (3) (9).png" alt=""><figcaption><p>Auto Archiver’s web-based <strong>Configuration Editor</strong>: upload an existing <code>orchestration.yaml</code> (step 1), then tick or drag modules—Feeders, Extractors, Enrichers, Databases, Storages, Formatters—to build a custom archiving pipeline before saving the new YAML or copying it to your clipboard (steps 2-4).</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Auto Archiver’s web-based <strong>Configuration Editor</strong>: upload an existing <code>orchestration.yaml</code> (step 1), then tick or drag modules—Feeders, Extractors, Enrichers, Databases, Storages, Formatters—to build a custom archiving pipeline before saving the new YAML or copying it to your clipboard (steps 2-4).</p></figcaption></figure>
 
 Key settings in the config include:
 
@@ -266,8 +266,10 @@ _(Most platform credentials are only needed if you intend to archive from that p
 * Use Auto Archiver **lawfully and proportionately**, obtain consent where appropriate, and minimize the collection of personal data not needed for your purpose. For investigations with potential legal or human rights implications, align collection, preservation, and chain-of-custody practices with the **Berkeley Protocol on Digital Open Source Investigations** (OHCHR/UC Berkeley).
 
 {% hint style="warning" %}
-- Cookies, API keys and service-account files can expose you or your organisation.
-- Do not use personal accounts for high-risk archiving workflows. Use credentials that you are authorised to use, keep them outside public repositories, and limit them to the smallest scope needed for the task. If you use cookies, avoid exporting your everyday browser profile; use a separate browser profile or working environment and import only what the workflow requires.
+
+
+* Cookies, API keys and service-account files can expose you or your organisation.
+* Do not use personal accounts for high-risk archiving workflows. Use credentials that you are authorised to use, keep them outside public repositories, and limit them to the smallest scope needed for the task. If you use cookies, avoid exporting your everyday browser profile; use a separate browser profile or working environment and import only what the workflow requires.
 {% endhint %}
 
 #### **Verify, don't assume.**
@@ -326,12 +328,12 @@ GIJN Article: [New Reporting Tools to Archive Videos, Find QAnon Networks, and T
 
 #### Similar tools
 
-* [**Wayback Machine**](https://web.archive.org/) Use for quick public snapshots and historical captures of webpages. It is fast for simple pages, but may miss videos, comments, interactive elements, or content behind login walls.
-* [**archive.today**](https://archive.ph/) Use as a secondary public snapshot service for individual pages. Treat it as a third-party archive and manually review captures before relying on them.
-* [**yt-dlp**](https://github.com/yt-dlp/yt-dlp) Use when your main task is downloading video or audio from a supported platform. Auto Archiver may be more useful when you also need structured logs, hashes, screenshots, and storage routing.
-* [**ArchiveWeb.page**](https://archiveweb.page/) Use when you want to capture pages manually while browsing and save replayable web archives.
-* [**Browsertrix** ](https://webrecorder.net/browsertrix/)Use when you need larger or scheduled browser-based crawls rather than a list of individual URLs.
-* [**Hunchly** ](https://hunch.ly/)Use when you want browser-based case capture, tagging, timestamps, hashes, and an audit trail while manually browsing.
+* [**Wayback Machine**](https://web.archive.org/)  Use for quick public snapshots and historical captures of webpages. It is fast for simple pages, but may miss videos, comments, interactive elements, or content behind login walls.
+* [**archive.today**](https://archive.ph/)  Use as a secondary public snapshot service for individual pages. Treat it as a third-party archive and manually review captures before relying on them.
+* [**yt-dlp**](https://github.com/yt-dlp/yt-dlp)  Use when your main task is downloading video or audio from a supported platform. Auto Archiver may be more useful when you also need structured logs, hashes, screenshots, and storage routing.
+* [**ArchiveWeb.page**](https://archiveweb.page/)  Use when you want to capture pages manually while browsing and save replayable web archives.
+* [**Browsertrix** ](https://webrecorder.net/browsertrix/) Use when you need larger or scheduled browser-based crawls rather than a list of individual URLs.
+* [**Hunchly** ](https://hunch.ly/) Use when you want browser-based case capture, tagging, timestamps, hashes, and an audit trail while manually browsing.
 
 ## Tool provider
 

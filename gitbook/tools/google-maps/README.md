@@ -21,7 +21,7 @@ One of the advantages for open-source researchers when using Google Maps is that
 
 Google Maps' satellite mode can be switched on via the layers menu which is located at the bottom left of the map:
 
-<div align="left"><figure><img src="../../.gitbook/assets/Layers icon.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Satellite view selection.png" alt="" width="264"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/Layers icon.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/Satellite view selection.png" alt="" width="264"><figcaption></figcaption></figure></div>
 
 It must be noted that satellite imagery is not shown in real-time, as Google sources its imagery from [various](https://support.google.com/earth/community-guide/259934888/google-earth-imagery-updates-and-historical-imagery?hl=en) suppliers. If you need very recent satellite imagery, for instance to report on a news event, you need to find alternatives to the free satellite imagery provided on Google platforms.
 
@@ -35,13 +35,13 @@ You can activate 3D mode by switching to satellite view, which you access by cli
 
 Once activated, users can switch between 2D and 3D views by clicking on this icon on the right:
 
-<figure><img src="../../.gitbook/assets/2D or 3D.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/2D or 3D.png" alt=""><figcaption></figcaption></figure>
 
 Users can tilt, rotate, and zoom in and out to explore areas of interest in greater depth.
 
 The screenshot below shows the Brooklyn Bridge in New York City in 3D view.
 
-<figure><img src="../../.gitbook/assets/Brooklyn Bridge 3d view.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Brooklyn Bridge 3d view.png" alt=""><figcaption></figcaption></figure>
 
 From the 3D map interface, switch to the Street View option to view street-level photography of the area.
 
@@ -51,19 +51,19 @@ Street View offers 360-degree imagery, allowing users to explore an area from a 
 
 As of [2022](https://blog.google/intl/en-ca/products/devices-services/street-view-turns-15-were-celebrating-with-stunning-image-collections-from-canada-and-around-the-world/), “Google Street View cars equipped with cameras have captured and shared more than 220 billion Street View images and travelled over 10 million miles — the equivalent of circling the globe more than 400 times” since the launch of this service in 2007.
 
-<figure><img src="../../.gitbook/assets/Google street view image .png" alt=""><figcaption><p>This Blue areas on this <a href="https://www.google.com/streetview/how-it-works/">Google Map</a> indicate coverage of Google's Street View imagery. Keep in mind that it depends on the location how recent the imagery is.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Google street view image .png" alt=""><figcaption><p>This Blue areas on this <a href="https://www.google.com/streetview/how-it-works/">Google Map</a> indicate coverage of Google's Street View imagery. Keep in mind that it depends on the location how recent the imagery is.</p></figcaption></figure>
 
 In recent years, Street View has become an invaluable resource for journalists and open-source researchers. Using Google’s street-level photography, researchers from Bellingcat successfully geolocated the house of a Malaysian wildlife trafficker for the [story](https://www.bellingcat.com/news/2025/02/11/the-hunt-for-malaysias-elusive-wildlife-trafficker/) “The Hunt for Malaysia's Elusive Wildlife Trafficker” in February 2025. They matched the photos of the house posted online with the Street View imagery, revealing the location where illegal wildlife trafficking was taking place.
 
 To use this feature, search for an address or the coordinates of an area. Then, select the street view icon shown below:
 
-<figure><img src="../../.gitbook/assets/Streetview icon.png" alt="" width="181"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Streetview icon.png" alt="" width="181"><figcaption></figcaption></figure>
 
 Alternatively, one can select and drop the yellow "Pegman" from the bottom right corner of the screen and drop it onto your area of interest (depending on the available coverage).
 
 It is also possible to view the coverage of Street View available for any location by selecting "Street View" from the layers menu. The screenshot below shows the coverage available for Moscow, Russia:
 
-<figure><img src="../../.gitbook/assets/Street view covergae.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Street view covergae.png" alt=""><figcaption></figcaption></figure>
 
 Once in this mode, explore the location using the 360-degree interface. Rotate the view, move up or down, and one can navigate through the area, depending on the available coverage.
 
@@ -75,15 +75,15 @@ Open-source researchers can use the time travel feature to view older images of 
 
 To view past images of an area, open the street view photography of the location of your choice. Once in street view mode, click on the “see more dates” at the top left corner (if available).
 
-<figure><img src="../../.gitbook/assets/Historical imagery clik.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Historical imagery clik.png" alt=""><figcaption></figcaption></figure>
 
 This opens up different windows for imagery of the area for the available dates. For instance, the screenshot below shows imagery from November 2007 of a new building for the Walter Cronkite School of Journalism and Mass Communication, which was still under construction in Phoenix, Arizona, at the time.
 
-<figure><img src="../../.gitbook/assets/Cronkite 2007.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Cronkite 2007.png" alt=""><figcaption></figcaption></figure>
 
 The school celebrated its grand opening in Phoenix in [November 2008](https://cronkite.asu.edu/news/2008/cronkite-school-celebrates-opening/). Although there is no Street View imagery from the exact date of the opening, images from March 2009 are available and display the newly completed building:
 
-<figure><img src="../../.gitbook/assets/Cronkite 2009.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Cronkite 2009.png" alt=""><figcaption></figcaption></figure>
 
 Similarly, users can view imagery of the same area up to January 2023 and see how this region has changed over time! This feature is accessible in both the mobile and browser versions of Google Maps.
 
@@ -95,11 +95,11 @@ Another useful feature of Google Maps is its built-in measuring tool. A research
 
 On the location of your choice, right-click on the map and select “Measure Distance” from the menu. Click on the starting point, drag to create a path, and then click again to complete the line. To remove it, click on the ending point. A point can also be moved by clicking on the point, holding and dragging it.
 
-<figure><img src="../../.gitbook/assets/Measure Google Maos.png" alt="" width="177"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Measure Google Maos.png" alt="" width="177"><figcaption></figcaption></figure>
 
 The visual below shows the distance between the Eiffel Tower and Émile Anthoine Stadium in Paris, France, using the measuring feature.
 
-<figure><img src="../../.gitbook/assets/Measure distance Paris.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Measure distance Paris.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Other features
 

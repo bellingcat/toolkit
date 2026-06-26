@@ -45,7 +45,7 @@ Lumen’s overarching goal is to bring **transparency** to the ecosystem of onli
 
 ### **What Lumen Shows**
 
-<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption><p>A Lumen Database search query for “AfD” displaying multiple takedown notices, each labeled by complaint type (e.g., trademark, defamation) and showing key fields like sender, recipient, and date received. (Filtered by language DE.)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>A Lumen Database search query for “AfD” displaying multiple takedown notices, each labeled by complaint type (e.g., trademark, defamation) and showing key fields like sender, recipient, and date received. (Filtered by language DE.)</p></figcaption></figure>
 
 *   **Full or partially redacted copies of notices:**
 
@@ -53,7 +53,7 @@ Lumen’s overarching goal is to bring **transparency** to the ecosystem of onli
     * Recipient (Google, Vimeo, Medium, or others)
     * Target URLs and reason (e.g. copyright, defamation, trademark)
 
-    <figure><img src="../../.gitbook/assets/image (1) (8).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 * **Contextual metadata:**
   * Date sent/received
   * Claimed legal grounds (DMCA, local law, court order)

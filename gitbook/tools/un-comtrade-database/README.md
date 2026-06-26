@@ -15,7 +15,7 @@ This database contains import and export data for goods and services for about 2
 
 You will get the total trade value and quantity of the countries you are researching considering the year or month you have selected. This might be useful if you are looking for an estimate of official data on the quantity imported/exported from a country on a product.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-01-07 at 10.07.20 AM.png" alt=""><figcaption><p>Here's a preview of the default search</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-01-07 at 10.07.20 AM.png" alt=""><figcaption><p>Here's a preview of the default search</p></figcaption></figure>
 
 You can save your searches by clicking on the save button and giving each search a name to recognize it later.
 
@@ -41,15 +41,15 @@ There is a trial subscription for 15 days. You can [request](https://uncomtrade.
 
 The only difference between the premium service and the free one is the option to download bulk files.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-01-07 at 9.32.53 AM.png" alt=""><figcaption><p>Options before trial</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-01-07 at 9.32.53 AM.png" alt=""><figcaption><p>Options before trial</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-01-07 at 9.37.32 AM.png" alt=""><figcaption><p>Options after trial activation</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-01-07 at 9.37.32 AM.png" alt=""><figcaption><p>Options after trial activation</p></figcaption></figure>
 
 There are two types of downloads: classic and plus. Both will produce a document (.gz) that you will have to convert to XLS or CSV for analysis. I used this [tool](https://products.groupdocs.app/conversion/gz-to-xls) to help me with that process. With the plus version you will get more detailed info such as customs code, mode of transport, among others. You can also use the [API](https://comtradedeveloper.un.org/signin?returnUrl=%2F) version to download the data. Here the README [file](https://github.com/uncomtrade/comtradeapicall?tab=readme-ov-file). For this API version, they will send your account information to your registered email so you can log in. It can take a couple of days.
 
 Through the official account of the Trade Statistics Branch on X, the UN [informs](https://x.com/UNTradeStats) about new information available on the platform and released datasets. It also shares statistics and trends.
 
-<figure><img src="../../.gitbook/assets/GpO1AVXWkAA7AN9.png" alt=""><figcaption><p>Here an analytics of Ukraine in UN Comtrade <a href="https://x.com/UNTradeStats/status/1915073286586708420/photo/1">posted</a> by the Trade Statistics Branch on X.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/GpO1AVXWkAA7AN9.png" alt=""><figcaption><p>Here an analytics of Ukraine in UN Comtrade <a href="https://x.com/UNTradeStats/status/1915073286586708420/photo/1">posted</a> by the Trade Statistics Branch on X.</p></figcaption></figure>
 
 ## Level of difficulty
 

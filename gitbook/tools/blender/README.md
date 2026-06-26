@@ -18,7 +18,7 @@ Blender is a tool for 3D creation, designed to support a wide range of tasks fro
 
 The image below shows a Blender model on the left used in Bellingcat's [_Russian Missile Identified in Kyiv Children’s Hospital Attack_ investigation](https://www.bellingcat.com/news/2024/07/09/russian-missile-identified-in-kyiv-childrens-hospital-attack/).
 
-<figure><img src="../../.gitbook/assets/Screenshot-2024-07-09-at-07.39.11-1200x565.png" alt="Image from Russian Missile Identified in Kyiv Children’s Hospital Attack shows a Blender model of a missile on the left and the original image of the missile on the right."><figcaption><p>Image from <em>Russian Missile Identified in</em><a href="https://www.bellingcat.com/news/2024/07/09/russian-missile-identified-in-kyiv-childrens-hospital-attack/"> <em>Kyiv Children’s Hospital Attack</em></a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot-2024-07-09-at-07.39.11-1200x565.png" alt="Image from Russian Missile Identified in Kyiv Children’s Hospital Attack shows a Blender model of a missile on the left and the original image of the missile on the right."><figcaption><p>Image from <em>Russian Missile Identified in</em><a href="https://www.bellingcat.com/news/2024/07/09/russian-missile-identified-in-kyiv-childrens-hospital-attack/"> <em>Kyiv Children’s Hospital Attack</em></a></p></figcaption></figure>
 
 ### Use Cases
 

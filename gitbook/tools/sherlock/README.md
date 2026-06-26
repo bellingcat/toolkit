@@ -22,7 +22,7 @@ Sherlock is designed to be straightforward for open source investigations: it do
 
 Sherlock is primarily a CLI tool, so some familiarity with the command line is required to install and run it. However, installation is relatively accessible: the latest version is published on PyPI for one-command install (e.g. `pipx install sherlock-project` or `pip install --user sherlock-project`). There is also an official Docker image available (`sherlock/sherlock` on Docker Hub) for containerized use, as well as community packages (e.g. in [Homebrew for macOS](https://formulae.brew.sh/cask/sherlock-app), [APT in Kali Linux](https://www.kali.org/tools/sherlock/), [DNF in Fedora](https://docs.fedoraproject.org/en-US/fedora/f40/system-administrators-guide/package-management/DNF/), and BlackArch). Once installed, running Sherlock involves executing the `sherlock` command with the desired username(s) as arguments. For example, `sherlock user123` will search for “user123” on all supported sites, while adding `--csv` or `--xlsx` will save results to a file. The output lists each found profile URL (or indicates 'not found'), and by default, also saves each username’s results to a separate text file for review.
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-06-06 at 3.26.06 PM.png" alt=""><figcaption><p>A sample query on Sherlock looking for accounts that have the username "bellingcat"</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screen Shot 2024-06-06 at 3.26.06 PM.png" alt=""><figcaption><p>A sample query on Sherlock looking for accounts that have the username "bellingcat"</p></figcaption></figure>
 
 ### CLI Usage
 
@@ -139,7 +139,7 @@ sherlock --help
 
 In addition to the core CLI, there are **third-party web-based Sherlock integrations**. For instance, an [_Apify_ cloud actor](https://apify.com/misceres/sherlock) exists that can run Sherlock searches remotely – this allows using Sherlock via a web API or dashboard without local installation (Apify offers this free of charge within their platform’s limits).
 
-<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 You can run Sherlock on Apify on the website or from a Jupyter cell with an Apify API token + JSON input.\
 1\) Put your Apify API token in the APIFY\_TOKEN env var (recommended), or paste it below.\

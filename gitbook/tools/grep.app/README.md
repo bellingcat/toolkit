@@ -17,19 +17,19 @@ grep.app is a free web-based search engine that allows users to search the conte
 
 Use the main page to search for keywords or regex. You can use this to search for domains, companies, contact details, code, and much more. There are options on the right side of the search bar: Match case, Match whole words, and Use regular expression.
 
-<figure><img src="../../.gitbook/assets/image (1) (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 You can also toggle Compact or Expanded view in the top right corner to change how much peripheral context is included in the results.
 
 **Key word search example** - searching for code referencing "Bellingcat".
 
-<figure><img src="../../.gitbook/assets/grep1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/grep1.png" alt=""><figcaption></figcaption></figure>
 
 This example search returns all indexed public repositories which include the word "Bellingcat".
 
 **Regex search example** - searching a Twitter repository for email addresses.
 
-<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 This example search returns all indexed results matching the syntax of an email address within the selected repository (in this case, `twitter/the-algorithm`).
 

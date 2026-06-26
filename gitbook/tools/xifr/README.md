@@ -12,7 +12,7 @@ description: A Firefox add-on for extracting EXIF metadata by right-clicking an 
 
 xIFr is a Firefox extension designed to extract and display EXIF, IPTC, and XMP metadata from an image. This metadata can provide valuable insights on camera settings, timestamps, location (GPS data), copyright information, and editing history. If available, metadata can be useful for verifying the authenticity of images, understanding their origins, and analyzing their context.
 
-xIFr comes with a "Deep Search" feature that allows you to access metadata from images embedded in layers, set as backgrounds, or otherwise blurred or obscured.
+xIFr comes with a "Deep Search" feature that allows you to access metadata from images embedded in layers, set as backgrounds, or otherwise blurred or obscured.&#x20;
 
 Geotagged images can be viewed on OpenStreetMap, [Google Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/google-maps), [Bing Maps](https://bellingcat.gitbook.io/toolkit/more/all-tools/bing-maps), and [Flickr (explore nearby photos)](https://www.flickr.com/map?).
 
@@ -34,7 +34,7 @@ _For this guide, we'll use a photo taken by the tool developer himself as an exa
 
 Right click an image and select "View EXIF data" next to the icon with a camera and a hint bubble:
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (3).png" alt=""><figcaption><p>Viewing EXIF Data can be done via the context menu</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Viewing EXIF Data can be done via the context menu</p></figcaption></figure>
 
 A popup will open with two tabs: Image data and Map.
 
@@ -42,7 +42,7 @@ A popup will open with two tabs: Image data and Map.
 
 This first tab lists all metadata fields present in the image, although images found on the web may not include every field.
 
-<figure><img src="../../.gitbook/assets/FireShot Capture 018 - xIFr - Image meta data - .png" alt=""><figcaption><p>Metadata of a photo taken by Stig Nygaard, the tool developer, not very far from the <em>Mont Saint-Michel Tower</em> in <em>Brittany, France</em>.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/FireShot Capture 018 - xIFr - Image meta data - .png" alt=""><figcaption><p>Metadata of a photo taken by Stig Nygaard, the tool developer, not very far from the <em>Mont Saint-Michel Tower</em> in <em>Brittany, France</em>.</p></figcaption></figure>
 
 Information in the example can be classified as follows:
 
@@ -60,29 +60,29 @@ You can find a list of common EXIF and IPTC fields here:
 
 You can also notice small latin cross marks **✝** in front of the `GPS Longitude`, `GPS Latitude`, `Software` and `Color Space` fields. These are **clickable notices**. You can click on them to show additional data such as additional software or decimal latitude and longitude values.
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption><p>Before clicking on the notice</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Before clicking on the notice</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (10).png" alt=""><figcaption><p>After clicking on the notice</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>After clicking on the notice</p></figcaption></figure>
 
 Additionally, next to the GPS coordinates, you can find the **O**, **G**, **B** and **F** icons which allows you to open the GPS coordinates in _**O**penStreetMap_, _**G**oogle Maps_, _**B**ing Maps_ and the _Explore Nearby functionality by **F**lickr_ respectively. Clicking any of these icons will open the results in a separate browser tab.
 
-<figure><img src="../../.gitbook/assets/image (2) (7).png" alt=""><figcaption><p>You can fetch the GPS coordinates on four different services using the O, G, B and F icons.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>You can fetch the GPS coordinates on four different services using the O, G, B and F icons.</p></figcaption></figure>
 
 #### Map Tab
 
 If GPS data is available, the Map Tab will show up, allowing you to take a quick look on the location on OpenStreetMap.
 
-<figure><img src="../../.gitbook/assets/image (5) (4).png" alt=""><figcaption><p>Location of the example above on <a href="https://www.openstreetmap.org/?mlat=48.62388833333333&#x26;mlon=-1.5093333333333334#map=15/48.62388833333333/-1.5093333333333334">OpenStreetMap</a>.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>Location of the example above on <a href="https://www.openstreetmap.org/?mlat=48.62388833333333&#x26;mlon=-1.5093333333333334#map=15/48.62388833333333/-1.5093333333333334">OpenStreetMap</a>.</p></figcaption></figure>
 
 #### Options
 
 At the bottom-right of the popup you'll find a **Copy to clipboard** icon next to an **Options** icon. The first one copies the metadata to your clipboard and the second one opens xIFr's settings.
 
-<figure><img src="../../.gitbook/assets/image (6) (6).png" alt=""><figcaption><p>Copy to Clipboard and Options Icons</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption><p>Copy to Clipboard and Options Icons</p></figcaption></figure>
 
 When clicking on the Options a new tab opens with the following content:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-02-26 at 04-20-57 xIFr Options (1).png" alt=""><figcaption><p>xIFr's settings</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-02-26 at 04-20-57 xIFr Options (1).png" alt=""><figcaption><p>xIFr's settings</p></figcaption></figure>
 
 You can customize the following settings:
 

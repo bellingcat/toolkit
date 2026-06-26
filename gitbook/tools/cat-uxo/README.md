@@ -5,7 +5,7 @@ description: >-
   (EOD) space.
 ---
 
-# CAT UXO
+# CAT-UXO
 
 ## URL
 
@@ -25,7 +25,7 @@ Based on our examination, CAT-UXO has 16 categories of EO, an additional related
 
 **EO TYPES COVERED BY THE TOOL:** Landmines, Submunitions, Grenades, Aircraft Bombs, Rockets, Missiles, Mortars, Projectiles, Firing Devices, Fuzes, Naval Devices, [SALW](https://www.nato.int/cps/en/natohq/topics_52142.htm), [UCAV](https://en.wikipedia.org/wiki/Unmanned_combat_aerial_vehicle), [AFV](https://en.wikipedia.org/wiki/Armoured_fighting_vehicle), Miscellaneous, IEDs, IED Incidents, Terrorist Groups
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-09-15 072220.png" alt=""><figcaption><p>Search categories for EO on the landing page of the tool.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-09-15 072220.png" alt=""><figcaption><p>Search categories for EO on the landing page of the tool.</p></figcaption></figure>
 
 According to the tool provider, the data comes from:
 
@@ -50,7 +50,7 @@ CAT-UXO groups its information according to 16 EO Types. It also provides introd
 
 On the landing page, click on the icon of the EO type you are searching for.
 
-<figure><img src="../../.gitbook/assets/2025-09-16_12-58-36-st.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-09-16_12-58-36-st.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -58,7 +58,7 @@ On the landing page, click on the icon of the EO type you are searching for.
 
 If available for that category, click on the first result, with the icon identical to the EO type of icon. For example, you can see that the rocket icon looks the same as on the results page.
 
-<figure><img src="../../.gitbook/assets/2025-09-16_14-19-50st.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-09-16_14-19-50st.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -68,7 +68,7 @@ As of now, only these types of EO have introductory information, mostly sourced 
 
 #### _SEARCH BAR AND SEARCH QUERY_
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-09-15 073154.png" alt=""><figcaption><p>On the landing page of the tool, users can find the search bar and the various EO types for ease of search.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-09-15 073154.png" alt=""><figcaption><p>On the landing page of the tool, users can find the search bar and the various EO types for ease of search.</p></figcaption></figure>
 
 To get the best results, it is helpful to know how the search bar works. The search functionality is versatile. It operates on keyword-based retrieval, matching search queries against indexed fields.
 
@@ -92,7 +92,7 @@ Example: “anti-tank” ([the common EO term referring to a purpose or function
 
 The interface also uses GUI-driven filtering without Boolean operators. This allows users to refine searches further using a dropdown filtering menu rather than advanced search syntax.
 
-<figure><img src="../../.gitbook/assets/2025-09-15_09-44-27-ed.png" alt=""><figcaption><p>Search results can be further refined by more filtering options, as seen above the search results. Once a user has entered the results page for the initial query, a filtering option becomes available.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/2025-09-15_09-44-27-ed.png" alt=""><figcaption><p>Search results can be further refined by more filtering options, as seen above the search results. Once a user has entered the results page for the initial query, a filtering option becomes available.</p></figcaption></figure>
 
 An additional list of filtering options can be found in the expandable below.
 
@@ -388,7 +388,7 @@ Input options: 7 mm to 4,000 mm
 
 ### Offline Version On The Mobile App
 
-For those who want to use CAT-UXO in remote areas or those experiencing connectivity issues, the mobile app may be used.
+For those who want to use CAT-UXO in remote areas or those experiencing connectivity issues, the mobile app may be used.&#x20;
 
 However, based on our tests, there is no offline version of the whole catalogue. Instead users can download one item at a time, instead of in bulk. To do this:
 
@@ -396,25 +396,27 @@ However, based on our tests, there is no offline version of the whole catalogue.
 {% step %}
 **Open the CAT-UXO mobile app while you have an internet connection**
 
-Navigate to the EO Category of interest or the item of interest. Look for the cloud icon highlighted below.
+Navigate to the EO Category of interest or the item of interest. Look for the cloud icon highlighted below.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot_20251124-094341.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot_20251124-094341.png" alt="" width="375"><figcaption></figcaption></figure>
+
+
 {% endstep %}
 
 {% step %}
-**Click on the cloud icon to begin downloading**
+**Click on the cloud icon to begin downloading**&#x20;
 
-Once downloaded, the cloud icon will switch from white to black. Users will see a confirmation at the bottom of the screen as shown in the image below.
+Once downloaded, the cloud icon will switch from white to black. Users will see a confirmation at the bottom of the screen as shown in the image below.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot_20251124-094354.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot_20251124-094354.png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Downloaded items are now available offline.**
 
-To check the downloaded items, turn off your internet connection and open the CAT-UXO app. Users will see a black cloud icon on each EO category. Click on each category to double check.
+To check the downloaded items, turn off your internet connection and open the CAT-UXO app. Users will see a black cloud icon on each EO category. Click on each category to double check.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot_20251124-094418.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot_20251124-094418.png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

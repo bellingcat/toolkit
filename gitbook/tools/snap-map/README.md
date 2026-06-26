@@ -11,7 +11,7 @@ description: Searchable map of geotagged snaps.
 
 ## Description
 
-<figure><img src="../../.gitbook/assets/snapchat.jpeg" alt="" width="311"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/snapchat.jpeg" alt="" width="311"><figcaption></figcaption></figure>
 
 Snap Map is a feature within [Snapchat](https://www.snapchat.com/) that displays publicly shared Snaps on an interactive map. When a user posts a Story to "Our Story", Snapchat geotags that content so it appears as a hotspot on the map. The intensity of the hotspot reflects posting volume - warmer colours indicate higher activity. Clicking a hotspot opens the associated public Snaps for that location.
 
@@ -33,7 +33,7 @@ The right image shows the heatmap view at city scale. Activity is aggregated int
 
 Together, the two views support both granular location analysis and broader pattern detection across a city.
 
-<div><figure><img src="../../.gitbook/assets/snapchat2.jpeg" alt=""><figcaption><p>Snap Map standard view showing individual public Snaps and “Top Picks” in Neukölln, a district of Berlin.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/snapchat.jpeg" alt=""><figcaption><p>Snap Map heatmap view illustrating overall user activity intensity across Berlin.</p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/snapchat2.jpeg" alt=""><figcaption><p>Snap Map standard view showing individual public Snaps and “Top Picks” in Neukölln, a district of Berlin.</p></figcaption></figure> <figure><img src=".gitbook/assets/snapchat.jpeg" alt=""><figcaption><p>Snap Map heatmap view illustrating overall user activity intensity across Berlin.</p></figcaption></figure></div>
 
 ## How to use
 

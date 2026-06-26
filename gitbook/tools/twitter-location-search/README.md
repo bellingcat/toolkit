@@ -6,7 +6,7 @@ description: >-
   targeted local content.
 ---
 
-# Twitter Location Search
+# Twitter/X Location Search
 
 ## URL
 
@@ -32,17 +32,17 @@ X frequently uses these two types of location data.
 
 1. Manual User-Added Location: This allows users to directly add a location to posts and is displayed below the post.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-29 021003-marked2.png" alt=""><figcaption><p>This post shows a post with an explicit location reported by the user. This location info appears at the bottom of the post. For example, we are interested in discussions about the art community around Estes Park, Colorado. On the search bar, we enter our search term "art" and the location we are interested in, "near:estes-park"</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-07-29 021003-marked2.png" alt=""><figcaption><p>This post shows a post with an explicit location reported by the user. This location info appears at the bottom of the post. For example, we are interested in discussions about the art community around Estes Park, Colorado. On the search bar, we enter our search term "art" and the location we are interested in, "near:estes-park"</p></figcaption></figure>
 
 2. Profile Location: In the absence of a user-specified location, X may approximate it based on factors such as the location the user specifies on his/her account profile.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-29 015213-marked.png" alt=""><figcaption><p>On the other hand, user profiles sometimes indicate where they are based as shown in this image. The platform may then use this information when generating location-based search results.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-07-29 015213-marked.png" alt=""><figcaption><p>On the other hand, user profiles sometimes indicate where they are based as shown in this image. The platform may then use this information when generating location-based search results.</p></figcaption></figure>
 
 #### _**Location from the user's device**_
 
 If users choose to enable location settings on their devices, X can[ identify ](https://developer.x.com/en/docs/x-api/v1/geo/places-near-location/api-reference/get-geo-search)the GPS coordinates of this device at the time of the post. This is particularly helpful when users want to take advantage of the search results near their respective locations.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-29 024311.png" alt="" width="375"><figcaption><p>If you're looking to find posts near your current location, there's a quicker method available. Use the “posts near me” location feature. Here are the steps: Open X on a browser or the mobile app, and enter a hashtag or search term. Choose “Near you” under the “Location” heading to filter the search results to show only posts from nearby.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-07-29 024311.png" alt="" width="375"><figcaption><p>If you're looking to find posts near your current location, there's a quicker method available. Use the “posts near me” location feature. Here are the steps: Open X on a browser or the mobile app, and enter a hashtag or search term. Choose “Near you” under the “Location” heading to filter the search results to show only posts from nearby.</p></figcaption></figure>
 
 ### How to use geocode location search operators
 
@@ -88,12 +88,16 @@ Open-source researchers may find this tool helpful for tracking crises and event
 Self-reported location affects the reliability of results in two ways primarily: (1) Incomplete data set: X relies on users to share their location, but many don't. This means location data can be incomplete. (2) Location spoofing: It is possible that users report an incorrect or misleading location. And because the location is entered manually, it can be easy to fake this information. It's essential to remember that X's location estimates aren't always accurate.
 
 {% hint style="warning" %}
-NOTE: Location spoofing may be mitigated by a new [feature rolled out](https://x.com/xDaily/status/1991728882857525261) that now shows where the account is based and which regional app store it is connected to. However, the platform acknowledges that this new feature may be unreliable at times because it changes frequently. It is not based on the user's actual residence but on the user's recent travel or temporary IP changes.
+NOTE: Location spoofing may be mitigated by a new [feature rolled out](https://x.com/xDaily/status/1991728882857525261) that now shows where the account is based and which regional app store it is connected to. However, the platform acknowledges that this new feature may be unreliable at times because it changes frequently. It is not based on the user's actual residence but on the user's recent travel or temporary IP changes.&#x20;
 
-This new feature doesn't currently affect the way location search works. There are no new operators that particularly search for this information. The "near:" operator (see above) still relies on indexed self-reported location on the bio page or the device's GPS location if turned on.
+This new feature doesn't currently affect the way location search works. There are no new operators that particularly search for this information. The "near:" operator (see above) still relies on indexed self-reported location on the bio page or the device's GPS location if turned on.&#x20;
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/2025-12-04_11-28-48-ed.png" alt="" width="375"><figcaption><p>New feature rolled out by X to show where the account is based in. This can be acccessed by going to the user's main profile and clicking on "About this account". Please note that the "Account based in" information may continuously change.</p></figcaption></figure>
+
+
+<figure><img src=".gitbook/assets/2025-12-04_11-28-48-ed.png" alt="" width="375"><figcaption><p>New feature rolled out by X to show where the account is based in. This can be acccessed by going to the user's main profile and clicking on "About this account". Please note that the "Account based in" information may continuously change.  </p></figcaption></figure>
+
+
 
 2. **Limited Historical Data**
 

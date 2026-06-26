@@ -34,7 +34,7 @@ description: >-
 
 The example below shows the results of searching for the term _Bellingcat_ across all archives:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-04-23 at 12.49.40 PM.png" alt=""><figcaption><p>Screenshot of search results for the term 'Bellingcat'</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-04-23 at 12.49.40 PM.png" alt=""><figcaption><p>Screenshot of search results for the term 'Bellingcat'</p></figcaption></figure>
 
 ## Cost
 

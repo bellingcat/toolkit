@@ -12,11 +12,11 @@ description: A tool for exporting Discord chat logs in multiple formats.
 
 **DiscordChatExporter** is an open-source tool designed to export chats as HTML, CSV, JSON or Plain Text. It can be used for archiving and offline analysis of conversations in an investigation context.
 
-It comes as a command-line interface or a graphical interface and allows users to export messages from various sources: Discord's direct messages, group chats, servers' channels and threads.
+It comes as a command-line interface or a graphical interface and allows users to export messages from various sources: Discord's direct messages, group chats, servers' channels and threads.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2) (8).png" alt=""><figcaption><p>The GUI allows you to list and select the threads to export (We use this example to show you how the tool works. It is not allowed to archive Bellingcat's Discord).</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>The GUI allows you to list and select the threads to export (We use this example to show you how the tool works. It is not allowed to archive Bellingcat's Discord).</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3) (7).png" alt=""><figcaption><p>The CLI is more configurable but needs familiarity with command-line tools</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>The CLI is more configurable but needs familiarity with command-line tools</p></figcaption></figure>
 
 Some features include:
 
@@ -25,7 +25,7 @@ Some features include:
 * Support for Markdown, reactions and attachments
 * The CLI version can be used to schedule exports
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (13).png" alt=""><figcaption><p>Exporting comes up with various options ((We use this example to show you how the tool works. It is not allowed to archive Bellingcat's Discord).</p></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Exporting comes up with various options ((We use this example to show you how the tool works. It is not allowed to archive Bellingcat's Discord).</p></figcaption></figure></div>
 
 ## Cost
 
@@ -59,8 +59,8 @@ GUI is beginner-friendly. CLI requires command-line familiarity. Both versions n
 
 ## Ethical Considerations
 
-* Consider consulting your organization’s legal team to discuss Discord's [Terms of Service](https://discord.com/terms) and other legal and ethical questions before using this tool.
-* Only export chats you have permission to access; unauthorized exporting may violate privacy laws.
+* Consider consulting your organization’s legal team to discuss Discord's [Terms of Service](https://discord.com/terms) and other legal and ethical questions before using this tool.&#x20;
+* Only export chats you have permission to access; unauthorized exporting may violate privacy laws.&#x20;
 * Consider anonymizing data if used for public work.
 
 ## Guides and articles
@@ -82,3 +82,4 @@ Oleksii Holub ([Tyrrrz](https://github.com/Tyrrrz) on GitHub) is an open-source 
 | ------------------------- |
 | Bellingcat Volunteer Team |
 |                           |
+

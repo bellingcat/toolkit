@@ -24,7 +24,7 @@ Twitter Video Downloader is a free website that converts a public X (formerly Tw
 6. Right-click (or control-click on Mac) on the video and select **Save Video As**.
 7. Rename the file if needed and save it to your desired location.
 
-<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Cost
 

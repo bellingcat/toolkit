@@ -25,13 +25,13 @@ RootAbout also provides details about image [metadata](https://rootabout.com/faq
 
 To test the tool, we uploaded the image “Doradus Nebula” from NASA's Hubble Space [collection](https://hubblesite.org/contents/media/images/2001/21/1080-Image.html) (Internet Archive version [here](https://archive.org/details/NIX-PIA04200)). The search provided three results. The first result is shown here:
 
-<figure><img src="../../.gitbook/assets/Root About search result.png" alt=""><figcaption><p>The first RootAbout match is from 2003.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Root About search result.png" alt=""><figcaption><p>The first RootAbout match is from 2003.</p></figcaption></figure>
 
 This result informs us that it is a “strong match,” suggesting the image is a near or an exact match with the photo we uploaded. RootAbout provides metadata for its results as found on the Internet Archive. For instance, the RootAbout description states that this image was published in 2003, which is also stated on the Internet Archive’s [page](https://archive.org/details/NIX-PIA04200). It is owned/created by “NASA/Jet Propulsion Laboratory (NASA-JPL)." Finally, the size is 374,356 bytes and its unique identifier is "NIX-PIA04200."
 
 RootAbout displays all versions of the image it has indexed from the Wayback Machine. In this case, the second result which is also a strong match, was [published](https://archive.org/details/PLAN-PIA04200) in 2001.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-01-19 at 6.25.42 PM.png" alt=""><figcaption><p>The second match is the same image published in 2001.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-01-19 at 6.25.42 PM.png" alt=""><figcaption><p>The second match is the same image published in 2001.</p></figcaption></figure>
 
 **Important note**: Apart from a few exceptions, RootAbout does not work with [photos from the Wayback Machine](https://rootabout.com/faq.php#What%20has%20RootAbout%20indexed). For instance, we tested the images [here](https://archive.org/details/dr_future-map-of-the-world-10902000), [here](https://archive.org/details/speed-1970_20220823_1758), and [here](https://archive.org/details/contact_fingerlakes1_5381) and did not get any results. This limitation, along with other shortcomings of the tool, will be discussed in the **Limitation** section.
 
@@ -39,13 +39,13 @@ RootAbout displays all versions of the image it has indexed from the Wayback Mac
 
 To test this feature, we uploaded the cover of [Ghost Wars](https://en.wikipedia.org/wiki/Ghost_Wars) by Steve Coll. The search yielded two results, the top result is shown below:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-01-19 at 4.34.53 PM.png" alt=""><figcaption><p>The top result for the book cover of Ghost Wars using the Open Library Archive</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-01-19 at 4.34.53 PM.png" alt=""><figcaption><p>The top result for the book cover of Ghost Wars using the Open Library Archive</p></figcaption></figure>
 
 The search indicates that the top result is a “strong match". The description notes this book edition was published in 2008 (note the original version was published in 2004). It states that the file size is 31,842 bytes and it provides a link to Open Library’s [webpage](https://openlibrary.org/books/OL24251547M/Ghost_Wars) for the book.
 
 **Note**: This search also yielded a second “fair match” result. The publication date for this [version](https://openlibrary.org/books/OL7361460M/Ghost_Wars) is 2004, which shows that RootAbout can pull various versions of the same book that it has indexed from Open Library.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-01-19 at 4.49.28 PM.png" alt=""><figcaption><p>The second result shown by RootAbout</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-01-19 at 4.49.28 PM.png" alt=""><figcaption><p>The second result shown by RootAbout</p></figcaption></figure>
 
 ## Cost
 

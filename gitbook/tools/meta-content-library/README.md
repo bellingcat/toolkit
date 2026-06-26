@@ -24,7 +24,7 @@ Free compute on SOMAR’s Virtual Data Enclave ends on **2025‑12‑31**. Start
 
 <p align="center">(as of June, 2026)<br></p>
 
-<figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Description
 

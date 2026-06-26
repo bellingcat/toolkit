@@ -14,9 +14,9 @@ Here WeGo is a navigation app that can serve as an alternative to popular servic
 
 Here WeGo offers users the option to overlay environmental zones over the map they are viewing. This provides an easily digestible view of low-emissions or similar types of other zones in a particular area.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-12-13 113957.png" alt="" width="563"><figcaption><p>Screenshot showing the default view of Here WeGo, not indicating low emissions/environmental zones.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-12-13 113957.png" alt="" width="563"><figcaption><p>Screenshot showing the default view of Here WeGo, not indicating low emissions/environmental zones.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-12-13 114007.png" alt="" width="563"><figcaption><p>Screenshot showing the low-emissions/environmental zone around the city of Antwerp, Belgium.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-12-13 114007.png" alt="" width="563"><figcaption><p>Screenshot showing the low-emissions/environmental zone around the city of Antwerp, Belgium.</p></figcaption></figure>
 
 Unlike some competitors, Here WeGo emphasizes user privacy. It collects minimal data compared to other navigation apps, which is a significant plus for privacy-conscious users​​. More information on their privacy features have been detailed [here](https://falconlinkvpn.com/blog/best-google-maps-alternatives/) and [here](https://www.routific.com/blog/google-maps-alternatives). The sharing of traffic data on the mobile application is optional and users are informed that any data that they do share will be anonymised.
 

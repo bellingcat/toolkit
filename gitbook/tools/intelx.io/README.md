@@ -1,6 +1,6 @@
 ---
-updated: '2025-09-26'
 description: Find user details in data breaches
+updated: '2025-09-26'
 ---
 
 # Intelx.io
@@ -11,13 +11,13 @@ http://intelx.io/
 
 ## Description
 
-Intelligence X lets you search email addresses (and other inputs) in its database of information from the darknet, document sharing platforms, whois data, public data leaks and others. You can expect to find associated accounts, names, IP addresses, passwords, dates of birth, etc.
+Intelligence X lets you search email addresses (and other inputs) in its database of information from the darknet, document sharing platforms, whois data, public data leaks and others. You can expect to find associated accounts, names, IP addresses, passwords, dates of birth, etc.&#x20;
 
-In the example below, Intelx finds a particular email address in a leak of Twitter and Chegg. The twitter one shows info on names, screen names, followers and the creation time. The Chegg database shows email addresses and their passwords.
+&#x20;In the example below, Intelx finds a particular email address in a leak of Twitter and Chegg. The twitter one shows info on names, screen names, followers and the creation time. The Chegg database shows email addresses and their passwords.
 
-![](<../../.gitbook/assets/image (3) (1).png>)
+&#x20;![](<.gitbook/assets/image (3).png>)
 
-By clicking on the database you can see the whole file and make a search for an email of interest.
+By clicking on the database you can see the whole file and make a search for an email of interest.&#x20;
 
 ## Cost
 
@@ -25,7 +25,7 @@ By clicking on the database you can see the whole file and make a search for an 
 * [x] Partially Free
 * [ ] Paid
 
-A free account gives access to very limited results. Prices start at € 2.500 /Year. However, Intelx provides a limited number of free accounts to journalists and academics for research purposes.
+A free account gives access to very limited results. Prices start at € 2.500 /Year. However, Intelx provides a limited number of free accounts to journalists and academics for research purposes.&#x20;
 
 ## Level of difficulty
 
@@ -51,7 +51,7 @@ If you decide to proceed, do not use the data to hack into accounts. Instead, co
 
 ## Tool provider
 
-Czech Republic, Peter Kleissner, founder info can be found at [https://intelx.io/about](https://intelx.io/about)
+Czech Republic, Peter Kleissner, founder info can be found at [https://intelx.io/about](https://intelx.io/about)&#x20;
 
 ## Advertising Trackers
 

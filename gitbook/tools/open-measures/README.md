@@ -1,8 +1,8 @@
 ---
-updated: '2026-06-22'
 description: >-
   Open Measures helps open source researchers investigate harmful online
   activity such as extremism and disinformation.
+updated: '2026-06-22'
 ---
 
 # Open Measures
@@ -42,7 +42,7 @@ Open Measures provides a [Command Line Interface (CLI)](https://gitlab.com/openm
 
 Example of a timeline search result for the term _QAnon:_
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-04-25 at 11.54.20 AM.png" alt="Search result for the term QAnon"><figcaption><p>Search result for the term <em>QAnon</em></p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-04-25 at 11.54.20 AM.png" alt="Search result for the term QAnon"><figcaption><p>Search result for the term <em>QAnon</em></p></figcaption></figure>
 
 ## Cost
 

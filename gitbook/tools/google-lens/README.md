@@ -19,11 +19,11 @@ Google Lens now uses Google's AI tools to identify objects and places that featu
 
 ### Using the Google Photos mobile application
 
-Open a photograph in the [Google Photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos) mobile application and click the three dots in the top right-hand corner of your screen![](<../../.gitbook/assets/image (1) (15).png>) and then select Google Lens![](<../../.gitbook/assets/image (3) (5).png>) from the drop-down menu. The app will highlight a specific part of the image in a rectangle, which you can move by dragging, or re-size using one of the corners, to make sure it captures your specific area or object of interest.
+Open a photograph in the [Google Photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos) mobile application and click the three dots in the top right-hand corner of your screen![](<.gitbook/assets/image (1).png>) and then select Google Lens![](<.gitbook/assets/image (3).png>) from the drop-down menu. The app will highlight a specific part of the image in a rectangle, which you can move by dragging, or re-size using one of the corners, to make sure it captures your specific area or object of interest.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (10).png" alt="" width="298"><figcaption><p>Screenshot 1. Click the Google Lens icon on the bottom right of the screen (second from the right).</p></figcaption></figure> <figure><img src="../../.gitbook/assets/2.PNG" alt="" width="299"><figcaption><p>Screenshot 2. The application will start running and might suggest a specific area or object to search.</p></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/image (2).png" alt="" width="298"><figcaption><p>Screenshot 1. Click the Google Lens icon on the bottom right of the screen (second from the right).</p></figcaption></figure> <figure><img src=".gitbook/assets/2.PNG" alt="" width="299"><figcaption><p>Screenshot 2. The application will start running and might suggest a specific area or object to search.</p></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../.gitbook/assets/3.PNG" alt="" width="296"><figcaption><p>Screenshot 3. The suggested object or area will be highlighted in a rectangle, which you can click and drag to move, or use one of the corners to re-size it. The results will appear at the bottom of your phone screen.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/4.PNG" alt="" width="300"><figcaption><p>Screenshot 4. Drag the sidebar up to scroll through a full list of the hits and hyperlinks. You can also add keywords using the Google search bar, which is at the top of this screenshot, to narrow down your search.</p></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/3.PNG" alt="" width="296"><figcaption><p>Screenshot 3. The suggested object or area will be highlighted in a rectangle, which you can click and drag to move, or use one of the corners to re-size it. The results will appear at the bottom of your phone screen.</p></figcaption></figure> <figure><img src=".gitbook/assets/4.PNG" alt="" width="300"><figcaption><p>Screenshot 4. Drag the sidebar up to scroll through a full list of the hits and hyperlinks. You can also add keywords using the Google search bar, which is at the top of this screenshot, to narrow down your search.</p></figcaption></figure></div>
 
 You can also click 'About this image' (see Screenshot 4) to find out more information regarding the content of the image. There is now also an option to use AI mode, which integrates Google's Gemini AI with Google Lens's visual search capabilities.
 
@@ -31,7 +31,7 @@ You can also click 'About this image' (see Screenshot 4) to find out more inform
 
 Right click any photo you come across while browsing the Internet using Google Chrome and click 'Search with Google Lens'. The results will be shown on the right.
 
-<figure><img src="../../.gitbook/assets/image (6) (3).png" alt=""><figcaption><p>Screenshot 5. Using Google Lens in the browser on an image published as part of a Bellingcat investigation.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption><p>Screenshot 5. Using Google Lens in the browser on an image published as part of a Bellingcat investigation.</p></figcaption></figure>
 
 ## Cost
 

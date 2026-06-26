@@ -27,11 +27,11 @@ Despite its age, Wikimapia's historical dataset can be a valuable source for ope
 
 The screenshot below with the view of [Donetsk International Airport](https://www.theatlantic.com/photo/2015/02/a-year-of-war-completely-destroyed-the-donetsk-airport/386204/) demonstrates its value as a historical record. The main airport area is labeled "Ruined" on Wikimapia, a title updated by users following its destruction in 2014. The map is covered in detailed, user-added polygons that pinpoint specific locations, including historical events like the nearby "Il-76 shoot-down."
 
-<figure><img src="../../.gitbook/assets/donetsk_international_airport.png" alt=""><figcaption><p>A screenshot of the Wikimapia interface displays the map of Donetsk International Airport in Ukraine. The tag "Ruined Donetsk International Airport" is an example of how the platform was used by Wikimapia users to try to document the real-world impact of conflict.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/donetsk_international_airport.png" alt=""><figcaption><p>A screenshot of the Wikimapia interface displays the map of Donetsk International Airport in Ukraine. The tag "Ruined Donetsk International Airport" is an example of how the platform was used by Wikimapia users to try to document the real-world impact of conflict.</p></figcaption></figure>
 
 The log shows user activity from the year 2014, specifically highlighting two key changes in response to the battle for the airport. First, at Revision 56, a user adds a protection status of "(destroyed)"; this is immediately followed by Revision 58, where the same user performs an "Edit title \[en]", adding the word "Ruined" to the official name. This sequence demonstrates how Wikimapia was updated in near real-time by its users to try to document the consequences of a major conflict.
 
-<figure><img src="../../.gitbook/assets/wikimapia_airport_tag.png" alt=""><figcaption><p>This screenshot captures the edit history for the Donetsk International Airport entry on Wikimapia, providing a clear example of user efforts to use it as a historical ledger.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/wikimapia_airport_tag.png" alt=""><figcaption><p>This screenshot captures the edit history for the Donetsk International Airport entry on Wikimapia, providing a clear example of user efforts to use it as a historical ledger.</p></figcaption></figure>
 
 ### Features:
 
@@ -41,7 +41,7 @@ The log shows user activity from the year 2014, specifically highlighting two ke
 * **Measure distance:** measure distance between points in feet and metres.
 * **Multilingual Interface:** The user interface is available in multiple languages.
 
-<figure><img src="../../.gitbook/assets/berlin_hospital_search.png" alt=""><figcaption><p>This screenshot illustrates two of Wikimapia's features working together. The main map view shows the result of a category filter, displaying only locations tagged as a "hospital" in the Berlin area. By selecting one of these hospitals, the information panel on the left opens, revealing details about that specific place, including the "last modified" date located at the very bottom of the panel.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/berlin_hospital_search.png" alt=""><figcaption><p>This screenshot illustrates two of Wikimapia's features working together. The main map view shows the result of a category filter, displaying only locations tagged as a "hospital" in the Berlin area. By selecting one of these hospitals, the information panel on the left opens, revealing details about that specific place, including the "last modified" date located at the very bottom of the panel.</p></figcaption></figure>
 
 ### Use Case examples for Open Source Researchers
 

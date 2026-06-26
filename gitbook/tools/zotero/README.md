@@ -11,7 +11,7 @@ description: >-
 
 [https://www.zotero.org](https://www.zotero.org)
 
-Current version: Zotero 9.12 (May, 2026)
+Current version: Zotero 9.12  (May, 2026)
 
 ## Description
 
@@ -30,11 +30,11 @@ Zotero is a free, open‑source reference manager for **Windows, macOS, Linux, i
   * Add **tags** or create **collections** to group related items (e.g., by project or topic).
   * Bulk-edit metadata or manually correct fields if Zotero’s automatic capture is incomplete.
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (4) (4).png" alt=""><figcaption><p>Search results at scholar.google.nl using the search term "Bellingcat"</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Search results at scholar.google.nl using the search term "Bellingcat"</p></figcaption></figure></div>
 
 This is a review article of Eliot Higgins' book. We click on it.
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
 
 We want to save the review for later referencing. If someone asks for our opinion about the book, we now have evidence to back it up. (The review says it's good.)
 
@@ -47,17 +47,17 @@ We want to save the review for later referencing. If someone asks for our opinio
   * Zotero can auto-download PDFs if it detects open-access links. Otherwise, you can attach PDFs manually.
   * Annotations can be made directly on the PDF within Zotero’s built-in reader (available in Zotero 7+).
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption><p>My browser during the search results.</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>My browser during the search results.</p></figcaption></figure></div>
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (10) (2).png" alt=""><figcaption><p>My browser on the page containing the review.</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption><p>My browser on the page containing the review.</p></figcaption></figure></div>
 
 Sleuths among you may have noticed that one icon in particular has undergone a change. The Zotero icon has been changed from a folder to a paper. This means that Zotero has identified this as, you guessed it, a paper.
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (11) (2).png" alt=""><figcaption><p>Upon clicking the 'paper' icon, this box appears, indicating that the paper was sucessfully retrieved and archived.</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption><p>Upon clicking the 'paper' icon, this box appears, indicating that the paper was sucessfully retrieved and archived.</p></figcaption></figure></div>
 
 When you click the icon, you'll see identified metadata, and you can select a folder to archive your paper in. You'll also notice that a full-text PDF is available and has been conveniently attached to your entry.
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (12) (2).png" alt=""><figcaption><p>A screenshot of my Zotero window where you can find the review we just archived for future reference.</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption><p>A screenshot of my Zotero window where you can find the review we just archived for future reference.</p></figcaption></figure></div>
 
 Huzzah! Prolific researchers like us can't write about a review of the book without reading the book, though, can we? DEFINITELY good that we installed the browser plugin. It's totally possible to fill out these fields by hand.
 
@@ -67,15 +67,15 @@ Huzzah! Prolific researchers like us can't write about a review of the book with
 * Fields such as Author, Title, Publication Date, and Publisher are automatically populated.
 * For OSINT, this can extend to recognized metadata from news sites, specialized databases, or blog platforms.
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure></div>
 
 Oh, it was right there? Wait, but these lead to Google Books...
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure></div>
 
 Noticed something? Correct, Zotero knows we're looking at a page that contains book metadata.
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (18) (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure></div>
 
 And, obviously, we also grabbed the other one. Notice the Item Type change?
 
@@ -92,13 +92,13 @@ Higgins, E. (2021). _We Are Bellingcat: Global Crime, Online Sleuths, and the Bo
 
 How to cite neatly and without effort? "Create Bibliography from Item" is one way.
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (21) (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure></div>
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure></div>
 
 Depending on your field, preference, or journal, you pick a Citation Style. The above will create an in-text citation like (Higgins, 2021).
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure></div>
 
 While this creates, you guessed it:
 
@@ -107,19 +107,19 @@ Sullivan, J. P. (2022). \[Review of _Review of We Are Bellingcat: Global Crime, 
 
 Now, you're ready to write your paper. A Word plugin exists:\\
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Examples 2 ... n
 
 **Also works on news articles.**
 
-<figure><img src="../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 Mind, though, that if you want an excellent screen capture to accompany your reference, you'll need to scroll down after clicking the icon or wait a couple of seconds, depending on whether or not the content is dynamically generated. Just wait or scroll until the "Snapshot" is not greyed out anymore.
 
-<figure><img src="../../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 Oh, and if you select multiple entries, the bibliography will also contain multiple references:
 
@@ -130,7 +130,7 @@ _Gefälschter BBC-Bericht: Bellingcat berichtete nicht über Waffenschmuggel der
 
 Here, you also see that it sometimes doesn't work correctly. You can easily go back to the software and make manual changes.
 
-<figure><img src="../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 Knes, D. (2024, March 22). _Bellingcat-Analyst Nick Waters: Kriegsverbrechen in der Ukraine: „Unsere Beweise müssen vor Gericht halten“_. [https://www.kleinezeitung.at/politik/aussenpolitik/18296327/kriegsverbrechen-in-der-ukraine-unsere-beweise-muessen-vor-gericht](https://www.kleinezeitung.at/politik/aussenpolitik/18296327/kriegsverbrechen-in-der-ukraine-unsere-beweise-muessen-vor-gericht)
 
@@ -138,7 +138,7 @@ Max, B. (2023, October 23). _Gefälschter BBC-Bericht: Bellingcat berichtete nic
 
 ### **It also works on Videos.**
 
-<figure><img src="../../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 Bellingcat. (2024, February 9). _Command Line Fundamentals: Bellingcat Tech Series_ \[Video recording]. [https://www.youtube.com/watch?v=B3gm-ud91v0](https://www.youtube.com/watch?v=B3gm-ud91v0)
 

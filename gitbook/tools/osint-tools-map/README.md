@@ -6,7 +6,7 @@ description: >-
   created by Cyber Detective.
 ---
 
-# Osint Tools Map
+# OSINT Tools Map
 
 ## URL
 
@@ -20,7 +20,7 @@ The map offers a wide range of tools that draw from various public records and d
 
 Although the depth of information varies by country—with some offering more extensive data than others—the OSINT Tools Map still provides a broad and practical entry point for users, even when exploring regions with limited digital transparency.
 
-<figure><img src="../../.gitbook/assets/osint-map.png" alt=""><figcaption><p>Screenshot of the OSINT Tools Map (March 2026), showing global coverage of OSINT resources by country and category.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/osint-map.png" alt=""><figcaption><p>Screenshot of the OSINT Tools Map (March 2026), showing global coverage of OSINT resources by country and category.</p></figcaption></figure>
 
 To start using the OSINT tools map, click directly to explore specific countries, cities, or regions, or use the search bar to quickly find the location you are interested in. Additionally, the platform offers a list of countries, cities, territories, and services, which can be accessed by scrolling down, providing an alternative way to navigate through the various available resources.
 
@@ -28,7 +28,7 @@ For example, for France, various online resources provide valuable information a
 
 The French Yellow Pages can be explored through the Yellow/White pages directory, which lists businesses and services. For transport-related updates, the live map on sncf.com provides real-time information about train schedules. Additionally, papers.fr offers access to over 25 million death notices since 1970, as well as company information, contributing to a comprehensive resource for historical and business data.
 
-<figure><img src="../../.gitbook/assets/osint-map-france.png" alt=""><figcaption><p>France OSINT resources page(March 2026)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/osint-map-france.png" alt=""><figcaption><p>France OSINT resources page(March 2026)</p></figcaption></figure>
 
 ## Features
 

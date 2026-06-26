@@ -3,7 +3,7 @@ updated: '2026-03-02'
 description: QGIS is a free Open Source Geographic Information System (GIS).
 ---
 
-# QGIS
+# QGIS:
 
 ## URL
 
@@ -15,7 +15,7 @@ QGIS (Quantum GIS) is a free open-source Geographic Information System (GIS) sof
 
 With QGIS you can access various spatial datasets and perform analysis and visualisation. Here the [Natural Earth](https://www.naturalearthdata.com/) dataset displays state boundaries over Open Street Maps with vector lines highlighting roads:
 
-<figure><img src="../../.gitbook/assets/about-screenshot.png" alt="Screenshot of QGIS example with Natural Earth dataset."><figcaption><p>Screenshot of QGIS with Natural Earth dataset</p></figcaption></figure>
+<figure><img src=".gitbook/assets/about-screenshot.png" alt="Screenshot of QGIS example with Natural Earth dataset."><figcaption><p>Screenshot of QGIS with Natural Earth dataset</p></figcaption></figure>
 
 QGIS can be used by open source researchers for various tasks and projects, for instance to assess environmental and humanitarian issues within conflict zones through spatial analysis.
 

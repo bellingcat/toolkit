@@ -5,7 +5,7 @@ description: >-
   some, but not all of which may represent heat from fires and explosions.
 ---
 
-# NASA Firms
+# NASA FIRMS
 
 ## URL
 
@@ -20,7 +20,7 @@ description: >-
 Much of the source data in NASA FIRMS from the Modis, Sentinel 2 and VIIRS services, so other portals based on the same services as NASA FIRMS can be similarly affected. Alternative data sources should be sought during these periods.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/FireMapsat.gif" alt=""><figcaption><p><strong>VIEWING DIFFERENT SATELLITES' DATA AND ADJUSTING THE TIME PERIOD DISPLAYED USING THE FIRMS INTERFACE</strong><br><em>We acknowledge the use of data and/or imagery from NASA's Fire Information for Resource Management System (FIRMS) (https://earthdata.nasa.gov/firms), part of NASA's Earth Science Data and Information System (ESDIS).</em></p></figcaption></figure>
+<figure><img src=".gitbook/assets/FireMapsat.gif" alt=""><figcaption><p><strong>VIEWING DIFFERENT SATELLITES' DATA AND ADJUSTING THE TIME PERIOD DISPLAYED USING THE FIRMS INTERFACE</strong><br><em>We acknowledge the use of data and/or imagery from NASA's Fire Information for Resource Management System (FIRMS) (https://earthdata.nasa.gov/firms), part of NASA's Earth Science Data and Information System (ESDIS).</em></p></figcaption></figure>
 
 ### Description
 
@@ -59,17 +59,17 @@ For example, the NASA FIRMS infra-red satellite sensor data has been used for ge
 {% endtab %}
 
 {% tab title="USE CASES" %}
-<figure><img src="../../.gitbook/assets/USECase tableV4.jpg" alt=""><figcaption><p><strong>OPEN SOURCE RESEARCH TASKS OR 'USE CASES' SUPPORTED BY NASA FIRMS </strong><em><strong>(I</strong>magery from NASA's Fire Information for Resource Management System (FIRMS) (https://earthdata.nasa.gov/firms)</em></p></figcaption></figure>
+<figure><img src=".gitbook/assets/USECase tableV4.jpg" alt=""><figcaption><p><strong>OPEN SOURCE RESEARCH TASKS OR 'USE CASES' SUPPORTED BY NASA FIRMS </strong><em><strong>(I</strong>magery from NASA's Fire Information for Resource Management System (FIRMS) (https://earthdata.nasa.gov/firms)</em></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Data Input Options" %}
-<figure><img src="../../.gitbook/assets/menu table.jpg" alt=""><figcaption><p><strong>DIFFERENT WAYS FOR THE USER TO ENTER NECESSARY INFORMATION</strong><br><em><strong>(I</strong>magery from NASA FIRMS)</em></p></figcaption></figure>
+<figure><img src=".gitbook/assets/menu table.jpg" alt=""><figcaption><p><strong>DIFFERENT WAYS FOR THE USER TO ENTER NECESSARY INFORMATION</strong><br><em><strong>(I</strong>magery from NASA FIRMS)</em></p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
 ### **Example Imagery Relating to A Selection of Significant Natural and Man-made Instances where Infra-Red Radiation Was Detected**
 
-<table data-view="cards" data-full-width="true"><thead><tr><th></th><th></th><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>VOLCANIC ERUPTION AREA, ICELAND Q2 2010</strong><br>Intensity: Max>1000MW</td><td>Boundary: Varying Often</td><td>Duration: Months</td><td>Type: 1 (active volcano)</td><td></td><td><a href="../../.gitbook/assets/VOLANOsmallannotated.jpg">VOLANOsmallannotated.jpg</a></td></tr><tr><td><strong>GRENFELL FIRE AREA, LONDON 14/06/2017</strong></td><td>Intensity: Max &#x3C;10MW<br>Boundary: Relatively static<br>Duration: 2-3 days</td><td>Type: 0 (Presumed vegetation fire)</td><td></td><td></td><td><a href="../../.gitbook/assets/GRENFELL.JPG">GRENFELL.JPG</a></td></tr><tr><td><strong>PORT TALBOT STEELYARD, WALES 2010</strong></td><td>Intensity: Max=11MW</td><td>Boundary: Relatively static<br>Duration: Years</td><td>Types: 2 (static land source) &#x26; 3 (offshore)</td><td></td><td><a href="../../.gitbook/assets/port talbotsteelworks.JPG">port talbotsteelworks.JPG</a></td></tr></tbody></table>
+<table data-view="cards" data-full-width="true"><thead><tr><th></th><th></th><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>VOLCANIC ERUPTION AREA, ICELAND Q2 2010</strong><br>Intensity: Max>1000MW</td><td>Boundary: Varying Often</td><td>Duration: Months</td><td>Type: 1 (active volcano)</td><td></td><td><a href=".gitbook/assets/VOLANOsmallannotated.jpg">VOLANOsmallannotated.jpg</a></td></tr><tr><td><strong>GRENFELL FIRE AREA, LONDON 14/06/2017</strong></td><td>Intensity: Max &#x3C;10MW<br>Boundary: Relatively static<br>Duration: 2-3 days</td><td>Type: 0 (Presumed vegetation fire)</td><td></td><td></td><td><a href=".gitbook/assets/GRENFELL.JPG">GRENFELL.JPG</a></td></tr><tr><td><strong>PORT TALBOT STEELYARD, WALES 2010</strong></td><td>Intensity: Max=11MW</td><td>Boundary: Relatively static<br>Duration: Years</td><td>Types: 2 (static land source) &#x26; 3 (offshore)</td><td></td><td><a href=".gitbook/assets/port talbotsteelworks.JPG">port talbotsteelworks.JPG</a></td></tr></tbody></table>
 
 These images show the variety of I-R sources which researchers will encounter & need to interpret. _**(I**magery from NASA's Fire Information for Resource Management System FIRMS )_
 
@@ -88,7 +88,7 @@ The data from these satellites can be viewed in NASA FIRMS, but is also availabl
 
 The different satellites connected to NASA FIRMS have different sensor resolutions, so MODIS carries a coarse sensor where fire is represented in squares of 1km x 1km, whereas VIIRS has a finer sensor where fire is represented in squares of 375m x 375m. Thus more accurate location comes from the finer sensor, i.e. VIIRS.
 
-<figure><img src="../../.gitbook/assets/MODISvVIIRSareaswithMenu.jpg" alt=""><figcaption><p><strong>SELECTING SATELLITE SOURCES FROM TOP RIGHT MAP MENU, WITH A COMPARISON OF SATELLITE RESOLUTIONS</strong><br><em>(Images from NASA FIRMS)</em></p></figcaption></figure>
+<figure><img src=".gitbook/assets/MODISvVIIRSareaswithMenu.jpg" alt=""><figcaption><p><strong>SELECTING SATELLITE SOURCES FROM TOP RIGHT MAP MENU, WITH A COMPARISON OF SATELLITE RESOLUTIONS</strong><br><em>(Images from NASA FIRMS)</em></p></figcaption></figure>
 
 {% hint style="warning" %}
 The size of the fire on the ground may be smaller than the size of the entire pixel in NASA FIRMS which indicates its presence. The location of the fire is within the area covered by the pixel, but it is not necessarily in the centre and it is not possible to determine a more accurate location than this within NASA FIRMS
@@ -102,7 +102,7 @@ The orbits of different satellites can be followed using the [OrbTrack](https://
 
 The ability for the user to select a time period, using a horizontal slider across the bottom of the screen, or a menu calendar, is very powerful for analysis. The radio buttons labelled TODAY, 24 HOURS OR 7 DAYS filter the data according to the length of the time period of data capture.
 
-<div><figure><img src="../../.gitbook/assets/TimeOptions.JPG" alt="" width="263"><figcaption><p><strong>TIME PERIOD BUTTONS AND CALENDAR OPTION</strong></p></figcaption></figure> <figure><img src="../../.gitbook/assets/DATESLIDER (1).JPG" alt=""><figcaption><p>DATE PERIOD CALENDAR BAR ACROSS BOTTOM OF SCREEN</p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/TimeOptions.JPG" alt="" width="263"><figcaption><p><strong>TIME PERIOD BUTTONS AND CALENDAR OPTION</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/DATESLIDER (1).JPG" alt=""><figcaption><p>DATE PERIOD CALENDAR BAR ACROSS BOTTOM OF SCREEN</p></figcaption></figure></div>
 
 #### Different Properties of Fire
 
@@ -114,58 +114,58 @@ Metrics such as confidence value and FRP value are assigned to map squares.
 
 #### Viewing Hotspots Over Time
 
-<figure><img src="../../.gitbook/assets/FireMap3.gif" alt=""><figcaption><p><strong>USING NASA FIRMS TO VIEW FIRE DATA OVER A SPECIFIED TIME PERIOD IN A UKRAINIAN WAR ZONE</strong><br><em><strong>(I</strong>magery from NASA FIRMS )</em></p></figcaption></figure>
+<figure><img src=".gitbook/assets/FireMap3.gif" alt=""><figcaption><p><strong>USING NASA FIRMS TO VIEW FIRE DATA OVER A SPECIFIED TIME PERIOD IN A UKRAINIAN WAR ZONE</strong><br><em><strong>(I</strong>magery from NASA FIRMS )</em></p></figcaption></figure>
 
 #### Viewing Hotspots Close Up At Pixel Level
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p><strong>LEFT MOUSE CLICK (FIRMLY) ON PIXELS AT HIGH ZOOM GIVES A CIRCLE OF ANALYSIS AND PIXEL DATA ACQUISITION DETAILS</strong><br><em><strong>(I</strong>magery from NASA FIRMS )</em></p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption><p><strong>LEFT MOUSE CLICK (FIRMLY) ON PIXELS AT HIGH ZOOM GIVES A CIRCLE OF ANALYSIS AND PIXEL DATA ACQUISITION DETAILS</strong><br><em><strong>(I</strong>magery from NASA FIRMS )</em></p></figcaption></figure>
 
 Pixel data details displayed for the selected area include location, brightness, scan, track, acquire time, satellite name, confidence, FRP and day/night\\
 
-<figure><img src="../../.gitbook/assets/ConfidenceLevelScale.JPG" alt=""><figcaption><p><strong>AVAILABLE DATA FOR EACH FIRE PIXEL FOR MODIS SATELLITES, THE VIIRS SATELLITES ALSO HAVE A FIRE CATEGORY FIELD</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/ConfidenceLevelScale.JPG" alt=""><figcaption><p><strong>AVAILABLE DATA FOR EACH FIRE PIXEL FOR MODIS SATELLITES, THE VIIRS SATELLITES ALSO HAVE A FIRE CATEGORY FIELD</strong></p></figcaption></figure>
 
 ### The Interface
 
 There are a large number of user selection menus available to filter data, configure views, etc., and they are arranged in a hierarchy structure, which can be confusing to navigate:
 
-<figure><img src="../../.gitbook/assets/NASA FIRMS InterfaceMap.jpg" alt="" width="375"><figcaption><p>NAVIGATING THE NASA FIRMS INTERFACE</p></figcaption></figure>
+<figure><img src=".gitbook/assets/NASA FIRMS InterfaceMap.jpg" alt="" width="375"><figcaption><p>NAVIGATING THE NASA FIRMS INTERFACE</p></figcaption></figure>
 
 {% tabs %}
 {% tab title="LEFT SIDEBAR" %}
 **FIRMS-Level Options on Map Selection, Resources, Tutorials, Archive Download.**\
 A section of NASA FIRMS information can be selected under the three horizontal bars icon on the top left side of the screen, which offers sections on:
 
-<figure><img src="../../.gitbook/assets/image (44) (1) (1).png" alt=""><figcaption><p><em><strong>(I</strong>magery from NASA FIRMS )</em></p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (44) (1).png" alt=""><figcaption><p><em><strong>(I</strong>magery from NASA FIRMS )</em></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="TOP RIGHT  MENU" %}
 A display mode can be selected under the three horizontal bars icon on the right of the screen, the Main Map Menu:
 
-<figure><img src="../../.gitbook/assets/RightSideMenu.jpg" alt=""><figcaption><p><em><strong>(I</strong>magery from NASA FIRMS )</em></p></figcaption></figure>
+<figure><img src=".gitbook/assets/RightSideMenu.jpg" alt=""><figcaption><p><em><strong>(I</strong>magery from NASA FIRMS )</em></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="DATE SLIDER" %}
 The Date Slider appears across the bottom of the screen when the corresponding button is pressed on the Centre Floating Toolbar. It is used to select date ranges for display, in addition to the Buttons and Calendar Option on the Top Right Menu (shown below)
 
-<div><figure><img src="../../.gitbook/assets/TimeOptions.JPG" alt="" width="263"><figcaption><p><strong>TIME PERIOD BUTTONS AND CALENDAR OPTION</strong></p></figcaption></figure> <figure><img src="../../.gitbook/assets/DATESLIDER (1).JPG" alt=""><figcaption><p><strong>TIME SLIDER FOR SELECTING DATE RANGES</strong></p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/TimeOptions.JPG" alt="" width="263"><figcaption><p><strong>TIME PERIOD BUTTONS AND CALENDAR OPTION</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/DATESLIDER (1).JPG" alt=""><figcaption><p><strong>TIME SLIDER FOR SELECTING DATE RANGES</strong></p></figcaption></figure></div>
 {% endtab %}
 
 {% tab title="CENTRE TOOLBAR" %}
 NASA FIRMS floating toolbar (found Bottom Centre of the Screen) calls floating windows for Measurement, Location, Layers, Timeframe Ruler, Downloads, Link Sharing, Help, Screen Display Mode and Exit.
 
-<figure><img src="../../.gitbook/assets/image-1.png" alt=""><figcaption><p><strong>EACH BUTTON CALLS ANOTHER FLOATING TOOLBAR OR RULER</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/image-1.png" alt=""><figcaption><p><strong>EACH BUTTON CALLS ANOTHER FLOATING TOOLBAR OR RULER</strong></p></figcaption></figure>
 
 **The Location Tool** accepts input as names, co-ordinates or auto-detected current user location.
 
-<figure><img src="../../.gitbook/assets/Location Selection (1).JPG" alt="" width="298"><figcaption><p><strong>NB MULTIPLE LOCATIONS CAN BE SELECTED SIMULTANEOUSLY</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/Location Selection (1).JPG" alt="" width="298"><figcaption><p><strong>NB MULTIPLE LOCATIONS CAN BE SELECTED SIMULTANEOUSLY</strong></p></figcaption></figure>
 
 The Layers Tool allows configuration of a selection of Overlays, as well as Backgrounds
 
-<figure><img src="../../.gitbook/assets/Menus of Backgrounds.jpg" alt="" width="563"><figcaption><p>BACKGROUND OPTIONS ARE DUPLICATED IN THE RIGHT MAP MENU (which offers 4 of the total of 6 options)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Menus of Backgrounds.jpg" alt="" width="563"><figcaption><p>BACKGROUND OPTIONS ARE DUPLICATED IN THE RIGHT MAP MENU (which offers 4 of the total of 6 options)</p></figcaption></figure>
 
 Blue Marble background (satellite), Firefly (grey shades), Streets (streetview) and Topographic (map) are provided, plus two more shades of grey background.
 
-<figure><img src="../../.gitbook/assets/image-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image-2.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -227,7 +227,7 @@ FIRMS is usually most valuable when used in conjunction with other tools, often 
 
 <summary>Dates For which Data Are Available: MODIS from Nov 2000, VIIRS from Jan 2012. (Click the arrow for more detail on 5 specific services and dates...)</summary>
 
-<img src="../../.gitbook/assets/image (4).png" alt="" data-size="original">
+<img src=".gitbook/assets/image.png" alt="" data-size="original">
 
 </details>
 
@@ -249,7 +249,7 @@ NB Algorithms have been adapted to avoid the effects of sun glint causing false 
 
 ...Regular approximately monthly on-orbit mission calibration manoeuvres are conducted for both satellites to maintain performance. These involve briefly rolling the satellite over in orbit to view the moon, using it to calibrate the reflective solar bands of the sensor. Anomalous observation data is often collected as the satellite rolls back to point the sensor at the earth, see example:
 
-<img src="../../.gitbook/assets/image (20) (1).png" alt="ANOMALOUS OBSERVATION DATA CAUSED BY MONTHLY CALIBRATION MANOUEVRES (COURESTY NASA FIRMS)" data-size="original">\
+<img src=".gitbook/assets/image (20) (1).png" alt="ANOMALOUS OBSERVATION DATA CAUSED BY MONTHLY CALIBRATION MANOUEVRES (COURESTY NASA FIRMS)" data-size="original">\
 \&#xNAN;_**(I**magery from NASA FIRMS )_
 
 </details>

@@ -22,7 +22,7 @@ RAWGraphs allows users to create a variety of charts and diagrams without any co
 The hosted app offers \~“almost 30” visualization models and exports to SVG/PNG/JPG or a **.rawgraphs** project for re‑opening and editing later in vector editors.\
 Data is processed **only in your browser** (no server‑side storage/processing).
 
-<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption><p>The vast number of charts available.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>The vast number of charts available.</p></figcaption></figure>
 
 ## Key Features
 

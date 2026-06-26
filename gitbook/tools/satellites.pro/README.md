@@ -30,7 +30,7 @@ You also have the various options with each dedicated map selected (Apple Maps, 
 
 The example below shows a search for _Amsterdam_ using Apple Maps:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-06-21 at 11.41.54 AM.png" alt="Screenshot of a search for Amsterdam using Apple Maps shows a satellite image of the land and sea."><figcaption><p>Screenshot of a search for <em>Amsterdam</em> using Apple Maps. The box in the upper left area of the screen shows the different available map and satellite service options between which the user can switch.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-06-21 at 11.41.54 AM.png" alt="Screenshot of a search for Amsterdam using Apple Maps shows a satellite image of the land and sea."><figcaption><p>Screenshot of a search for <em>Amsterdam</em> using Apple Maps. The box in the upper left area of the screen shows the different available map and satellite service options between which the user can switch.</p></figcaption></figure>
 
 ## Cost
 

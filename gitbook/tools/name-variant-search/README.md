@@ -1,6 +1,6 @@
 ---
 updated: '2026-06-26'
-description: Quickly search many variants of a name on Google
+description: Quickly search many variants of a person's name on Google
 layout:
   width: default
   title:
@@ -33,7 +33,7 @@ tags:
 
 Given a person's name, this awesome tool will generate various plausible alternative forms of the name and smooth out the work of researching each one. It also offers links to search on Duck Duck Go, and Facebook.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-01-25 at 16.58.10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-01-25 at 16.58.10.png" alt=""><figcaption></figcaption></figure>
 
 ## Cost <a href="#is-it-free" id="is-it-free"></a>
 

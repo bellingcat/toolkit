@@ -24,7 +24,7 @@ Its ["extract structured data"](https://support.google.com/pinpoint/answer/13012
 
 For example, using Pinpoint, you can search for mentions of keywords like "abuse" or "violence" in [Washington Post's public collection of COVID-19 Nursing Home Inspections](https://journaliststudio.google.com/pinpoint/search?collection=989c939c11b20432). Named entities inside the documents as persons, organisations and locations are recognised automatically and can be used as filters.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-11-12 at 1.51.56 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-11-12 at 1.51.56 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Cost
 
@@ -42,7 +42,7 @@ Anyone with a [Google account](https://support.google.com/pinpoint/answer/119483
 
 Researchers can apply through [this form](https://docs.google.com/forms/d/e/1FAIpQLSd2owbRY5gLj6iXDSgPrPapsPoFo4xD2VLmrAhJ24d-Isq1xQ/viewform) for early access to generative AI features.
 
-<figure><img src="../../.gitbook/assets/image (1) (5).png" alt=""><figcaption><p>The sign-up process requires information like the user's full name and the name of the employer.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>The sign-up process requires information like the user's full name and the name of the employer.</p></figcaption></figure>
 
 ## Limitations & Ethical Considerations
 
@@ -56,7 +56,7 @@ Google does also [state](https://support.google.com/pinpoint/answer/14338615?hl=
 
 Keep in mind that Pinpoint's generative AI features are currently only available in a [list of countries](https://support.google.com/pinpoint/answer/14338615?hl=en#support_countries).
 
-<figure><img src="../../.gitbook/assets/unknown (7).png" alt=""><figcaption><p>Be aware that alll uploaded files are copied and processed with Gemini.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/unknown.png" alt=""><figcaption><p>Be aware that alll uploaded files are copied and processed with Gemini.</p></figcaption></figure>
 
 ## Guides and articles
 

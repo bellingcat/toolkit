@@ -25,21 +25,21 @@ A note on the name: KartaView was originally founded in 2009 as OpenStreetView, 
 
 Search by typing a keyword, address, or coordinates into the search box and clicking on the magnifier icon. If you see an empty map, make sure to zoom in using the mouse wheel or the “+” button to see the purple lines.
 
-<figure><img src="../../.gitbook/assets/KartaView_Nakhon Ratchasima.png" alt="" width="563"><figcaption><p>Purple lines indicate available street view imagery in KartaView. This is an example from searching Nakhon Ratchasima, Thailand.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/KartaView_Nakhon Ratchasima.png" alt="" width="563"><figcaption><p>Purple lines indicate available street view imagery in KartaView. This is an example from searching Nakhon Ratchasima, Thailand.</p></figcaption></figure>
 
 Zoom in even more and left-click on the purple line to reveal the available tracks. Green dots indicate that images are available, and the larger bubbles correspond to the thumbnails shown at the bottom.
 
-<figure><img src="../../.gitbook/assets/tracks_.png" alt=""><figcaption><p>Location in Bandung, Indonesia. Note that some street view images (green dots) are between buildings or inside buildings, indicating that these were captured by pedestrians or motorcycles.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/tracks_.png" alt=""><figcaption><p>Location in Bandung, Indonesia. Note that some street view images (green dots) are between buildings or inside buildings, indicating that these were captured by pedestrians or motorcycles.</p></figcaption></figure>
 
 Appearing at the bottom of the screen, the Tracks are series of images available for that location. Shown under the thumbnails are the distance traveled, the number of photos, and the date of image capture (note: not the date of upload).
 
-<figure><img src="../../.gitbook/assets/tracks (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/tracks (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Metadata
 
 Each uploaded image contains metadata including coordinates, date and time of recording, and the device used for image capture. The metadata is generated in the uploading process, either directly from the camera's EXIF info or from a custom GeoJSON file ([KartaView GitHub documentation](https://github.com/kartaview/upload-scripts) - scroll down to "2. Generate Exif info").
 
-<figure><img src="../../.gitbook/assets/metadata.png" alt=""><figcaption><p>Most of the images uploaded by KartaView users are sequences of still photos, and do not support 360° panning.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/metadata.png" alt=""><figcaption><p>Most of the images uploaded by KartaView users are sequences of still photos, and do not support 360° panning.</p></figcaption></figure>
 
 ### 3D mapping
 

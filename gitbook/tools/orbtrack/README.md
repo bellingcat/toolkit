@@ -18,7 +18,7 @@ description: >-
 
 ## Description
 
-<figure><img src="../../.gitbook/assets/OrbtrackwithcursorWIDE.gif" alt=""><figcaption><p><strong>ORBTRACK SHOWING SATELLITE PATH, LOCATING OBSERVER &#x26; GENERATING TIMED PASS GRAPHIC</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/OrbtrackwithcursorWIDE.gif" alt=""><figcaption><p><strong>ORBTRACK SHOWING SATELLITE PATH, LOCATING OBSERVER &#x26; GENERATING TIMED PASS GRAPHIC</strong></p></figcaption></figure>
 
 Satellites carry many different forms of sensor, e.g. photographic imaging, heat imaging ([Infra-Red](https://www.earthdata.nasa.gov/learn/find-data/near-real-time/viirs)) , LIDAR ([Laser Imaging/Light Detection and Ranging](https://www.synopsys.com/glossary/what-is-lidar.html)) imaging, SAR ([Synthetic Aperture Radar](https://www.keysight.com/blogs/en/inds/2020/08/28/what-is-synthetic-aperture-radar)) imaging,... Not all of these require the earth to be in sunlight to collect useful data and some of these can operate successfully in the presence of cloud cover.
 
@@ -63,7 +63,7 @@ Examples of features which affect the value of satellite imagery to an investiga
 {% endtab %}
 
 {% tab title="ORBTRACK OUTPUTS" %}
-<figure><img src="../../.gitbook/assets/DataOutpuTable (1).JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/DataOutpuTable (1).JPG" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="USE CASES" %}
@@ -78,13 +78,13 @@ Examples of features which affect the value of satellite imagery to an investiga
 {% endtab %}
 
 {% tab title="DATA INPUT OPTIONS" %}
-<figure><img src="../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
 ### The Interface
 
-<figure><img src="../../.gitbook/assets/StillImageAnnotated2.jpg" alt=""><figcaption><p><strong>THE ORBTRACK INTERFACE</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/StillImageAnnotated2.jpg" alt=""><figcaption><p><strong>THE ORBTRACK INTERFACE</strong></p></figcaption></figure>
 
 As well as satellite position information, the OrbTrack interface provides its speed, its height, its path over time, its position relative to a user-defined Observation location, the position of the sun, the areas of the earth in night and day, and the area of the earth below the satellite which has a positive elevation angle to the satellite.
 
@@ -102,7 +102,7 @@ The satellite database is provided from [www.celestrack.com](https://www.celestr
 
 An example of one service which is used in Open Source Research would be the Planet satellite service, which operates what is called 'constellations' of satellites, which have different spatial, temporal and radiometric resolutions.
 
-<figure><img src="../../.gitbook/assets/planetsatelliteanimation.gif" alt=""><figcaption><p>THE PLANET SERVICE SATELLITES IN MOTION AROUND THE ROTATING EARTH.<br>Courtesy of <a href="https://www.planet.com/">Planet</a> and <a href="https://www.visualcinnamon.com/about/">Nadieh Bremer</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/planetsatelliteanimation.gif" alt=""><figcaption><p>THE PLANET SERVICE SATELLITES IN MOTION AROUND THE ROTATING EARTH.<br>Courtesy of <a href="https://www.planet.com/">Planet</a> and <a href="https://www.visualcinnamon.com/about/">Nadieh Bremer</a></p></figcaption></figure>
 
 {% hint style="warning" %}
 OrbTrack includes a distance scale on all its earth maps.

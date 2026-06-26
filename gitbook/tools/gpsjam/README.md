@@ -1,9 +1,9 @@
 ---
-updated: '2025-11-25'
 description: >-
   GPSJam.org is a daily map that visualizes the GPS/GNSS disruptions on aircraft
   worldwide. It collects and presents 24-hour data showing areas experiencing
   interference.
+updated: '2025-11-25'
 ---
 
 # GPSJam
@@ -36,7 +36,7 @@ In simple terms, when aircraft use ADS-B Out, **not only are they sending their 
 
 The data seems to be [manually updated daily ](https://x.com/lemonodor/status/1553107534029828096)around midnight UTC.
 
-<figure><img src="../../.gitbook/assets/ScreenRecording2024-08-16103057-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>This shows GPSJam’s interference data on 13 Aug 2024. First, we enter the date we are interested in. By clicking on “More” under the calendar, we find the location we are interested in by entering the info i.e. Moscow. We can adjust the amount of flight traffic in that area by sliding the toggle on the “traffic threshold” menu.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ScreenRecording2024-08-16103057-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>This shows GPSJam’s interference data on 13 Aug 2024. First, we enter the date we are interested in. By clicking on “More” under the calendar, we find the location we are interested in by entering the info i.e. Moscow. We can adjust the amount of flight traffic in that area by sliding the toggle on the “traffic threshold” menu.</p></figcaption></figure>
 
 _**Filter by date**_
 
@@ -66,7 +66,7 @@ Users can toggle the slider under the "traffic threshold" option to filter inter
 
 The map shows areas where aircraft reported good, bad, or uncertain navigation accuracy based on 24 hours of data. The map features hexagonal divisions, [each color-coded.](https://gpsjam.org/)
 
-<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>This legend is located at the bottom left of the map. Each hexagon is grouped into three colors depending on the level of position accuracy reported by aircraft.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>This legend is located at the bottom left of the map. Each hexagon is grouped into three colors depending on the level of position accuracy reported by aircraft.</p></figcaption></figure>
 
 **GREEN:** Good navigation accuracy for over 98% of aircraft.
 
@@ -140,12 +140,12 @@ Internet connection
 1. [**Manual update:** ](https://x.com/lemonodor/status/1553107534029828096)According to the tool provider's tweet on Jul 2022, data is updated manually by the tool provider daily around midnight UTC. Sometimes there are delays before he is able to update the data.
 2. **Daily update of data susceptible to technical failures:** [Data loss or incomplete data are possible](https://gpsjam.org/faq) due to power outage, network issue, hardware failure, or data collection issues. Data are incomplete on:
 
-<table><thead><tr><th>2022</th><th>2024</th><th>2025</th><th data-hidden></th></tr></thead><tbody><tr><td>14 Feb</td><td>28 Jan</td><td>8 Jan</td><td></td></tr><tr><td>8 Jun</td><td>30 Jan</td><td>9 Jan</td><td></td></tr><tr><td>9 Jun</td><td>14 Jul</td><td></td><td></td></tr><tr><td>13 Oct</td><td></td><td></td><td></td></tr><tr><td>14 Oct</td><td></td><td></td><td></td></tr><tr><td>27 Dec</td><td></td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th>2022</th><th>2024</th><th>2025</th><th data-hidden></th></tr></thead><tbody><tr><td>14 Feb</td><td>28 Jan</td><td>8 Jan</td><td></td></tr><tr><td>8 Jun</td><td>30 Jan</td><td>9 Jan </td><td></td></tr><tr><td>9 Jun</td><td>14 Jul</td><td></td><td></td></tr><tr><td>13 Oct</td><td></td><td></td><td></td></tr><tr><td>14 Oct</td><td></td><td></td><td></td></tr><tr><td>27 Dec</td><td></td><td></td><td></td></tr></tbody></table>
 
 _**(**&#x53;ee also lack of ADS-B data on 8 Nov 2024, based on the tool provider's post_ [_here_](https://x.com/lemonodor/status/1854905782833496270?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet)_)_
 
 3. **Limited historical data:** Historical data only goes up to[ 14 February 2022](https://gpsjam.org/faq#incomplete-data). There is no data before this date.
-4. [**GPS interference on aircraft may not be the same as on the ground interference:** ](https://gpsjam.org/faq#i-live-in-one-of-the-red-zones)GPSJam only looks at aircraft data. Because airplanes fly high in the sky, they can "see" further than devices on the ground when it comes to radio signals. This means they are more likely to detect GPS interference. Ground-level impact might be less severe. While GPSJam data indicates potential issues with GPS signals in certain areas, the situation on the ground might not be as bad as the map suggests.
+4. [**GPS interference on aircraft may not be the same as on the ground interference:** ](https://gpsjam.org/faq#i-live-in-one-of-the-red-zones)GPSJam only looks at aircraft data. Because airplanes fly high in the sky, they can "see" further than devices on the ground when it comes to radio signals. This means they are more likely to detect GPS interference. Ground-level impact might be less severe. While GPSJam data indicates potential issues with GPS signals in certain areas, the situation on the ground might not be as bad as the map suggests.&#x20;
 
 As a potential consequence, the tool may sometimes not work for drones. Because GPSJam and ADS-B Exchange measurements are taken at a specific altitude, data for UAVs at a different altitude may not necessarily be captured. According to [this](https://www.helicomicro.com/2024/06/04/gpsjam-gps/), “In green or yellow zones, there is very little chance that GPS signals will be degraded for drones.” The only exception is [if drones are near the sources of interference. ](https://www.helicomicro.com/2024/06/04/gpsjam-gps/)GPSJam should be cross-checked with other sources and social media channels where instances of drone jamming are regularly published.
 
@@ -181,7 +181,7 @@ In short, they balance showing accurate issues without overreacting to random ba
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-Google Fonts can be found on this website, which is considered a "hosting" tracker by Ghostery. Some may indicate that this has potential privacy implications since [Google logs IP addresses, browser details without user consent ](https://www.theregister.com/2022/01/31/website_fine_google_fonts_gdpr/)(para 3) when loading fonts from Google servers, it may create a profile of the individual's browsing profile. According to [this German court case](https://thehackernews.com/2022/01/german-court-rules-websites-embedding.html), websites embedding Google Fonts violates the GDPR.
+Google Fonts can be found on this website, which is considered a "hosting" tracker by Ghostery. Some may indicate that this has potential privacy implications since [Google logs IP addresses, browser details without user consent ](https://www.theregister.com/2022/01/31/website_fine_google_fonts_gdpr/)(para 3) when loading fonts from Google servers, it may create a profile of the individual's browsing profile.  According to [this German court case](https://thehackernews.com/2022/01/german-court-rules-websites-embedding.html),  websites embedding Google Fonts violates the GDPR.&#x20;
 
 | Page maintainer |
 | --------------- |

@@ -16,7 +16,7 @@ Blackbird is a Python command-line tool that searches for accounts associated wi
 
 For username searches, the tool is integrated with the [WhatsMyName](https://github.com/WebBreacher/WhatsMyName) project, which maintains a community dataset of 700+ websites for reverse username lookups. The data sources maintained by the WhatsMyName team can be found [here](https://github.com/WebBreacher/WhatsMyName/blob/main/wmn-data.json).
 
-<figure><img src="../../.gitbook/assets/blackbird.png" alt=""><figcaption><p>Blackbird's logo, displayed in the terminal upon launching the tool</p></figcaption></figure>
+<figure><img src=".gitbook/assets/blackbird.png" alt=""><figcaption><p>Blackbird's logo, displayed in the terminal upon launching the tool</p></figcaption></figure>
 
 For email address searches, it queries the servers of websites in the WhatsMyName database to check whether an account exists for a given address. When a valid account is found, a direct URL to the user's profile is returned.
 
@@ -24,7 +24,7 @@ Beyond simply listing matched accounts, the tool automatically extracts publicly
 
 Like other username enumeration tools such as [Sherlock](https://bellingcat.gitbook.io/toolkit/more/all-tools/sherlock), it checks usernames against its own distinct collection of sources, meaning results for the same username will differ between tools. It provides broader coverage of NSFW and alternative social media platforms, including Gab and Truth Social, while Sherlock tends to surface stronger results on mainstream social networks that are currently or were previously popular, such as LinkedIn, ICQ, 9Gag, and Letterboxd.
 
-<figure><img src="../../.gitbook/assets/bellingcat.png" alt=""><figcaption><p>Blackbird's results for the username "bellingcat", showing 731 sites checked in 44.1 seconds, with matched accounts found on platforms including Tiktok, GitHub and Twitch.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/bellingcat.png" alt=""><figcaption><p>Blackbird's results for the username "bellingcat", showing 731 sites checked in 44.1 seconds, with matched accounts found on platforms including Tiktok, GitHub and Twitch.</p></figcaption></figure>
 
 A built-in AI analysis feature interprets discovered profiles to generate behavioural and technical summaries. This is available free of charge within daily usage limits. The documentation says only discovered site names are sent for AI analysis, but the setup prompt in the current code says the user's IP address is registered for API-key management and abuse prevention.
 
@@ -129,7 +129,7 @@ For AI analysis, the documentation says only discovered site names are sent to t
 
 ## Similar Tools
 
-Blackbird sits in the middle ground between quick, browser-based username checkers and deeper enumeration tools that extract extensive metadata. Its strength lies in alternative and NSFW platform coverage through its WhatsMyName integration, but OSINT investigators will often need to combine it with other tools to cover mainstream social networks and extract richer profile data.
+Blackbird sits in the middle ground between quick, browser-based username checkers and deeper enumeration tools that extract extensive metadata. Its strength lies in alternative and NSFW platform coverage through its WhatsMyName integration, but  OSINT investigators will often need to combine it with other tools to cover mainstream social networks and extract richer profile data.
 
 * [**Namechk**](https://bellingcat.gitbook.io/toolkit/more/all-tools/namechk) **-** a username and domain availability checker across multiple platforms. While it overlaps with Blackbird in checking username presence, Namechk is primarily aimed at verifying availability for registration purposes rather than OSINT investigations.
 * [**WhatsMyName**](https://bellingcat.gitbook.io/toolkit/more/all-tools/whats-my-name) **-** a browser-based username checker searching across 500+ platforms. Unlike Blackbird, it requires no installation and can be used directly in a browser, making it well suited for quick checks, though it lacks Blackbird's advanced querying options and email search capability.
@@ -139,7 +139,7 @@ Blackbird sits in the middle ground between quick, browser-based username checke
 
 ## Tool provider
 
-Original developer is [Lucas Antoniaci](https://www.linkedin.com/in/lucas-antoniaci/), Brasil.
+Original developer is [Lucas Antoniaci](https://www.linkedin.com/in/lucas-antoniaci/), Brasil.&#x20;
 
 ## Advertising Trackers
 

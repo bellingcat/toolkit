@@ -16,7 +16,7 @@ description: >-
 
 Whoxy offers several options to find information on domain names. It is free to sign up for an account but that is not a requirement for one or a few searches.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-12-15 at 21.23.43 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-12-15 at 21.23.43 (1).png" alt=""><figcaption></figcaption></figure>
 
 There are 6 options to query information.
 

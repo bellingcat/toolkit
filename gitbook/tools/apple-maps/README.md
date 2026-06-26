@@ -32,29 +32,29 @@ Apple Maps is similar to other global or regional map and navigation apps in off
 
 {% tabs %}
 {% tab title="Desktop app (MacOS only)" %}
-Left-click and choose 'Marked Location from the menu.
+Left-click and choose 'Marked Location from the menu.&#x20;
 
-<figure><img src="../../.gitbook/assets/markedlocation2.png" alt="" width="177"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/markedlocation2.png" alt="" width="177"><figcaption></figcaption></figure>
 
-This will drop a pin on the map. The pin will be automatically shown with a place name, usually the nearest landmark.
+This will drop a pin on the map. The pin will be automatically shown with a place name, usually the nearest landmark.&#x20;
 
-<figure><img src="../../.gitbook/assets/pin2.png" alt="" width="124"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/pin2.png" alt="" width="124"><figcaption></figcaption></figure>
 
-Click on the pin, and a left panel appears. You will see the coordinates shown. Copy and paste from there.
+Click on the pin, and a left panel appears. You will see the coordinates shown. Copy and paste from there.&#x20;
 
-<figure><img src="../../.gitbook/assets/panel_annotated.png" alt="" width="250"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/panel_annotated.png" alt="" width="250"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Web browser (any operating system)" %}
-Drop a pin by double-clicking on the map. A pin will appear as "Marked Location".
+Drop a pin by double-clicking on the map. A pin will appear as "Marked Location".&#x20;
 
-<figure><img src="../../.gitbook/assets/markedlocation (1).png" alt="" width="116"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/markedlocation (1).png" alt="" width="116"><figcaption></figcaption></figure>
 
-To obtain the coordinates, look at the URL in your web browser.
+To obtain the coordinates, look at the URL in your web browser.&#x20;
 
-<figure><img src="../../.gitbook/assets/URL.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/URL.png" alt=""><figcaption></figcaption></figure>
 
-In the example above, the coordinates are 40.731013, -73.999495.
+In the example above, the coordinates are 40.731013, -73.999495.&#x20;
 {% endtab %}
 {% endtabs %}
 
@@ -62,21 +62,21 @@ In the example above, the coordinates are 40.731013, -73.999495.
 
 {% tabs %}
 {% tab title="Desktop app (Mac only)" %}
-Once you click on the pin, the street-level imagery appears in a small box to the lower-left corner, adjacent to the information panels. (See the red rectangle below.)<br>
+Once you click on the pin, the street-level imagery appears in a small box to the lower-left corner, adjacent to the information panels. (See the red rectangle below.) <br>
 
-![](<../../.gitbook/assets/street2 (1).png>)
+![](<.gitbook/assets/street2 (1).png>)
 
-Simply click on the street level image to enlarge to fullscreen view.
+Simply click on the street level image to enlarge to fullscreen view.&#x20;
 {% endtab %}
 
 {% tab title="Web browser (any operating system)" %}
 To use **Look Around**, click on the binoculars icon at the lower-left corner.
 
-![](<../../.gitbook/assets/Screenshot 2026-06-25 at 8.00.06 PM.png>)
+![](<.gitbook/assets/Screenshot 2026-06-25 at 8.00.06 PM.png>)
 
-The street-level imagery will open at the lower-left corner. The binoculars icon is shown on the map to indicate where the street-level imagery was captured, and the direction of your view. You can enlarge the Look Around imagery.
+The street-level imagery will open at the lower-left corner. The binoculars icon is shown on the map to indicate where the street-level imagery was captured, and the direction of your view. You can enlarge the Look Around imagery.&#x20;
 
-<figure><img src="../../.gitbook/assets/newyorkuniv_lookaroundview (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/newyorkuniv_lookaroundview (1).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
