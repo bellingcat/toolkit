@@ -11,7 +11,7 @@ description: >-
 ## URL
 
 [https://uwazi.io/](https://uwazi.io/)\
-latest stable 1.228.290 (as of May 2026)
+latest stable 1.229.24 (released 2026-06-26; checked 2026-06-26)
 
 ## Description
 
@@ -23,11 +23,11 @@ Uwazi can be useful for organizations and individuals who need a user-friendly, 
 
 Uwazi offers two deployment options: **self-hosted (free)** and **hosted**. With the [**self-hosted**](https://github.com/huridocs/uwazi) option, users can download and set up Uwazi on their own servers at no cost. This option provides full control over the platform, including customization and data security, but it requires technical expertise to install, manage, and maintain the server environment. Self-hosting also implies responsibility for implementing security measures, performing updates, and ensuring system reliability, which might be challenging for organizations without a dedicated IT team.
 
-On the other hand, the **hosted** option involves using Uwazi’s managed hosting service, where the platform is hosted and maintained by [HURIDOCS](https://huridocs.org/). This option is ideal for organizations that prefer a hassle-free setup with support and regular updates handled by the Uwazi team. While hosted services typically involve a cost beyond the initial free 30-day trial, they offer the convenience of professional management, enhanced security, and reliable uptime, making it a suitable choice for organizations with limited technical resources.
+On the other hand, the **hosted** option involves using Uwazi’s managed hosting service, where the platform is hosted and maintained by [HURIDOCS](https://huridocs.org/). This option is ideal for organizations that prefer a hassle-free setup with support and regular updates handled by the Uwazi team. For hosted use, Uwazi’s Try page says users can request a database to test for free; the first 100MB are complementary, and continued hosting is offered through packages scaled to the data volume used in the collection.
 
 Since April 2025, HURIDOCS has shipped[ integrated machine‑learning features](https://huridocs.org/2025/04/using-machine-learning-in-uwazi-to-support-human-rights-documentation-work/) that assist with translation, metadata/NER extraction, topic suggestions, and PDF‑focused workflows (segmentation and table‑of‑contents generation). Some functions are powered by optional external services HURIDOCS maintains as open source.
 
-[Integration with Tella](https://huridocs.org/2026/01/the-new-tella-app-lets-uwazi-users-document-violations-safely-and-while-offline/): Tella (by Horizontal) is a secure mobile documentation app that can connect to a private or public Uwazi collection. It supports encrypted capture/storage of photos, videos, audio and documents (separate from the device gallery), optional ‘verification mode’ metadata, and offline data entry with ‘submit later’ syncing once connectivity returns. Uwazi templates can be downloaded into Tella for structured field documentation.
+[Integration with Tella](https://huridocs.org/2026/01/the-new-tella-app-lets-uwazi-users-document-violations-safely-and-while-offline/): Once set up, Uwazi databases can be populated via Tella, a secure mobile documentation app by Horizontal. It supports encrypted capture and import of photos, videos, audio and files, stores them separately from the device gallery, supports offline data entry, and can upload to Uwazi when connectivity returns.
 
 <div><figure><img src=".gitbook/assets/Screenshot 2024-09-25 115523.png" alt=""><figcaption><p>This screenshot illustrates Uwazi’s geospatial mapping capability, allowing users to visually pinpoint and organize documented information by location.</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2024-09-25 115546.png" alt=""><figcaption><p>Uwazi’s functionality for defining and managing relationships between different categories or templates of information. It shows how various entity types (e.g., Organization, Incident, Individuals) can be connected, enabling users to structure their data and understand links between different records.</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2024-09-25 115606.png" alt=""><figcaption><p>This screenshot illustrates Uwazi’s metadata configuration capabilities, showing how administrators can define, edit, and organize custom fields (e.g., text, numeric, relationships, links) to structure the information collected about a particular entity type.</p></figcaption></figure></div>
 
@@ -42,7 +42,7 @@ Since April 2025, HURIDOCS has shipped[ integrated machine‑learning features](
 7. **Public and Private Sharing**: The platform enables the sharing of document collections, with options for both public access and private, controlled sharing.
 8. **Security and Compliance**: Uwazi incorporates security measures, including encrypted data storage and secure access controls, to ensure compliance with privacy regulations and safeguard sensitive information.
 9. Integration with the Tella App: Once set up, Uwazi databases can be populated via the [Tella App](https://tella-app.org/), which provides encrypted asynchronous uploads of photos and videos from a user's phone, in an environment separate from the phone's gallery.
-10. **Machine-learning add-on (beta)** — [Since April 2025](https://huridocs.org/2025/04/using-machine-learning-in-uwazi-to-support-human-rights-documentation-work/), Uwazi ships with an optional ML module that you can enable from the new **“Machine Learning”** menu. It automatically (a) detects a document’s language and offers instant translation into 20-plus languages, (b) runs [named-entity recognition](https://www.geeksforgeeks.org/named-entity-recognition/) to pull out people, organisations, places, dates and other key fields, (c) [segments PDFs into text](https://huridocs.org/2024/08/new-open-source-ai-tool-unlocks-content-and-structure-of-pdfs-effortlessly/), tables and images, generating a ready-made table of contents, and (d) suggests topics and other metadata that users can accept or refine. In partner pilots ([CYRILLA](https://huridocs.org/resource-library/human-rights-research-databases/cyrilla/), [SOS-Defenders](https://huridocs.org/resource-library/human-rights-research-databases/sos-defenders/), [UPR Info](https://huridocs.org/2021/11/by-using-machine-learning-human-rights-organisations-can-better-curate-large-information-collections/)) the tool has cut manual tagging time by up to **90 %** and learns continuously from user feedback. All processing happens in self-hosted setups, or on HURIDOCS infrastructure for hosted clients. The module is still labeled beta and is disabled by default, but the API is already part of the stable 1.219 releas&#x65;**.x** line.
+10. **Machine-learning tools (beta)**: Uwazi includes optional ML-assisted workflows such as metadata extraction and paragraph extraction for PDF collections. Metadata extraction is human-in-the-loop: users define the field, label examples, train an extractor, apply it across documents and review suggested values before accepting them. HURIDOCS’ September 2025 [example](https://huridocs.org/2025/09/uwazi-ai-powered-metadata-extractor-a-game-changer-for-human-rights-documentation/) says UPR Info reduced a workflow from approximately three months of manual work for 228 documents to 43 hours to extract and process metadata from 30,267 recommendations in two languages. Official docs state that metadata extraction is in beta and is not activated automatically for all instances; paragraph extraction is also not enabled by default.
 
 ### **Security Measures**
 
@@ -79,7 +79,7 @@ For detailed instructions and configurations, refer to the [Sysadmin Guide](http
 * [x] Partially Free
 * [ ] Paid
 
-Uwazi offers a flexible pricing structure. The **self-hosted** version is **free**, allowing organizations to download and run the platform on their servers. For those preferring a managed solution, Uwazi provides [a **hosted** service starting with a free 30-day trial](https://uwazi.io/en/page/rf7so99k1p/try-uwazi). After the trial, the pricing is scaled based on the organization's needs, **with the first 100MB free for projects with a human rights impact**. Hosting fees support ongoing development and maintenance, with financial backing from partners like the [MacArthur Foundation](https://en.wikipedia.org/wiki/MacArthur_Foundation) and other organizations.
+Uwazi is partially free. The self-hosted version is free to download and run on your own server if you have the technical capacity to maintain it. The hosted option is request-based: users can request an Uwazi database to test for free; the first 100MB is complimentary, and continued hosting is offered through packages scaled to the data volume used in the collection. HURIDOCS says groups using Uwazi for human-rights-related collections receive free hosting services up to 100MB, with more details available on request.
 
 ## Level of difficulty
 
@@ -87,7 +87,7 @@ Uwazi offers a flexible pricing structure. The **self-hosted** version is **free
 
 ## Requirements
 
-To use Uwazi, particularly if you're opting for the self-hosted version, you'll need a server with sufficient resources to handle the platform and a level of technical expertise to manage installation and maintenance. For both hosted and self-hosted options, you need a valid email address to set up accounts and manage user permissions. No additional software is required if using the hosted version, as HURIDOCS handles all management. (Dependencies include Node.js ≥ 20.9, ElasticSearch 8.18.0 (+ optional ICU plugin), MongoDB 6.0 with replica set, Yarn)
+To use Uwazi, particularly if you're opting for the self-hosted version, you'll need a server with sufficient resources to handle the platform and a level of technical expertise to manage installation and maintenance. For both hosted and self-hosted options, you need a valid email address to set up accounts and manage user permissions. No additional software is required if using the hosted version, as HURIDOCS handles all management. (Self-hosting dependencies include NodeJs 20.19.6, ElasticSearch 8.18.0 with the ICU Analysis Plugin recommended, MongoDB 7.0.24 with a replica set, mongosh, Redis, Minio, pdftotext/Poppler, and Yarn 4+; the project currently uses Yarn 4.13.0.)
 
 ## Limitations
 
@@ -109,7 +109,7 @@ While Uwazi’s security capabilities help protect sensitive information, respon
 
 ## Requirements for a Self-Hosted UWAZI Instance
 
-While Uwazi’s managed hosting options range from free to competitively priced, self-hosting can still be appealing—or even necessary—for certain organizations. For example, if strict data protection laws prevent you from using external servers, or you need full control over configurations and integrations, a self-hosted instance provides more autonomy. Some NGOs or advocacy groups may also view self-hosting as a way to reduce ongoing costs, though it’s important to note that the IT overhead and complexity can outweigh initial savings.
+While Uwazi’s managed hosting options range from free to competitively priced, self-hosting can still be necessary for certain organizations. For example, if strict data protection laws prevent you from using external servers, or you need full control over configurations and integrations, a self-hosted instance provides more autonomy. Some NGOs or advocacy groups may also view self-hosting as a way to reduce ongoing costs, though it’s important to note that the IT overhead and complexity can outweigh initial savings.
 
 **When Does Self-Hosting Make Sense?**
 
@@ -118,18 +118,18 @@ While Uwazi’s managed hosting options range from free to competitively priced,
 * **In-House Expertise:** If you have team members with basic server administration experience who can handle ongoing maintenance.
 
 **Technical Requirements and Setup**\
-Running a self-hosted Uwazi instance can be done with a modest level of technical expertise, but it’s not entirely plug-and-play. At a minimum, you’ll need:
+Running a self-hosted Uwazi instance requires a modest level of technical expertise, but it’s not entirely plug-and-play. At a minimum, you’ll need:
 
-* **Server Environment:** A modern Linux-based server (e.g., Ubuntu, Debian) with at least 4GB RAM for stable Elasticsearch indexing and MongoDB queries.
+* **Server Environment:** The repo README lists a bare-minimum on-premise setup of 4GB RAM, 2 CPU cores, and 20GB disk, with more storage needed for large files such as video, audio, or image collections.
 * **Core Dependencies:** Node.js, MongoDB, and Elasticsearch correctly installed and configured.
 * **Storage and Backups:** Enough disk space for your documents and metadata, plus room for regular backups.
 * **Networking and Security:** A stable connection, proper firewall settings, and a reverse proxy (like Nginx) for HTTPS to ensure secure communication.
 * **Optional Email Setup:** If you need password resets or notifications, configure sendmail or SMTP.
 
 **Realistic Expectations for Small NGOs**\
-If your organization has limited IT resources, self-hosting may still be achievable if you have at least one technically inclined volunteer or staff member. However, without in-house expertise, you might find that managed hosting or hiring external support simplifies setup and reduces long-term hassle. Both approaches are valid—just weigh your need for data sovereignty and flexibility against the time, skills, and budget required to maintain a self-hosted instance.
+If your organization has limited IT resources, self-hosting may still be achievable if you have at least one technically inclined volunteer or staff member. However, without in-house expertise, you might find that managed hosting or hiring external support simplifies setup and reduces long-term hassle.&#x20;
 
-Uwazi has been employed in documenting war crimes, managing legal evidence, and archiving historical records. Its search, organization, and sharing capabilities can be used for projects that require rigorous documentation and easy access to large volumes of sensitive information. Below, you can find examples of how others have made use of UWAZI:
+Uwazi has been employed to document war crimes, manage legal evidence, and archive historical records. Its search, organization, and sharing capabilities can be used for projects that require rigorous documentation and easy access to large volumes of sensitive information. Below, you can find examples of how others have made use of UWAZI:
 
 ## Example Projects
 
@@ -141,10 +141,18 @@ Uwazi has been employed in documenting war crimes, managing legal evidence, and 
 * [End Reprisals](https://endreprisals.ishr.ch/): A platform recording retaliation against human rights defenders.
 * [Footprints](https://nkfootprints.info/): An archive sharing the experiences of North Korean defectors.
 * [Girls’ Human Rights Database](https://www.girlsrightsplatform.org/): A collection of legal texts and analysis related to girls’ rights.
-* [Global Legal Action Network](https://www.glanlaw.org/): An organization involved in transnational human rights litigation.
+* [Global Legal Action Network](https://glanlaw.org/): An organization involved in transnational human rights litigation.
 * [Justice Watch Archive](https://foreign-nationals.uwazi.io/): A database monitoring the treatment of foreign nationals in detention.
 
 You can view the full showcase [here](https://uwazi.io/en/page/k5htkcauq7i/showcase).
+
+### Guides and articles
+
+Uwazi Administrator’s Guide — official guide for configuring collections, users, templates, entities, translations, visualisations, extraction workflows and integrations: [https://uwazi.readthedocs.io/en/latest/admin-docs/index.html](https://uwazi.readthedocs.io/en/latest/admin-docs/index.html?utm_source=chatgpt.com)
+
+Uwazi Systems Administrator’s Guide — official guide for installation, backups, multi-tenancy and optional extraction services: [https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html?utm_source=chatgpt.com)
+
+Uwazi documentation source repository — GitHub repository for the Read the Docs documentation, including the admin-docs and sysadmin-docs folders: [https://github.com/huridocs/uwazi-documentation](https://github.com/huridocs/uwazi-documentation)
 
 ## Tool provider
 
