@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Social-searcher](README.md)
+* [Social Searcher](README.md)
 * [Categories](categories.md)
 * [Regions](regions.md)
