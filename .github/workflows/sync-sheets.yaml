@@ -1,7 +1,7 @@
 name: Sync Google Sheets
 
 on:
-workflow_dispatch:
+  workflow_dispatch:
   workflow_run:
     workflows: ["Sync Github Project"]
     types: [completed]
