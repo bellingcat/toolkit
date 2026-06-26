@@ -13,9 +13,9 @@ description: >-
 
 ## Description
 
-<figure><img src=".gitbook/assets/shipfinderinterface.JPG" alt=""><figcaption><p><strong>SHIPFINDER INTERFACE SHOWING VESSELS AROUND ISTANBUL, AND DETAILS OF A SELECTED VESSEL</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/shipfinderinterface.JPG" alt=""><figcaption><p><strong>SHIPFINDER INTERFACE SHOWING VESSELS AROUND ISTANBUL, AND DETAILS OF A SELECTED VESSEL</strong></p></figcaption></figure>
 
-ShipFinder is an application designed to track vessels in near real-time across the globe.&#x20;
+ShipFinder is an application designed to track vessels in near real-time across the globe.
 
 {% hint style="info" %}
 ShipFinder has recently discontinued the version previously available on web browser, and is now available only on iPhone and Android.

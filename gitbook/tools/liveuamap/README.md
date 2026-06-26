@@ -42,7 +42,7 @@ Liveuamap is available in the following formats:
 
 The screenshot below shows events including shelling, armed conflict, anti-air surface-to-air missile launches for the current day (in this case 16 February 2025):
 
-<figure><img src=".gitbook/assets/liveuamap.png" alt=""><figcaption><p>LiveUAMap screenshot showing real-time updates of military incidents and air defense activity in Ukraine and surrounding regions on February 16, 2025.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liveuamap.png" alt=""><figcaption><p>LiveUAMap screenshot showing real-time updates of military incidents and air defense activity in Ukraine and surrounding regions on February 16, 2025.</p></figcaption></figure>
 
 ### Use Cases
 

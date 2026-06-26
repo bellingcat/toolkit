@@ -46,7 +46,7 @@ Features:
 
 The examples illustrate the results of a free-tier user account logged in and searching for the term "Bellingcat." This result page displays Bellingcat's Telegram channel, featuring several analytical data points, including subscriber counts over time, post views, engagement rate, and category.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-04-20 at 2.35.57 PM.png" alt=""><figcaption><p>Telemtrio example search result depicting the Bellingcat channel.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-04-20 at 2.35.57 PM.png" alt=""><figcaption><p>Telemtrio example search result depicting the Bellingcat channel.</p></figcaption></figure>
 
 ## Functions
 
@@ -86,7 +86,7 @@ This feature allows users to add channels not listed in the catalog. It ensures 
 
 When viewing the landing pages of individual channels, several metrics are presented that can help you quickly judge a Telegram channel's size, influence, engagement, and activity.
 
-<figure><img src=".gitbook/assets/grafik (7).png" alt=""><figcaption><p>The results page of the Bellingcat channel showing several basic metrics. (see details below)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (7).png" alt=""><figcaption><p>The results page of the Bellingcat channel showing several basic metrics. (see details below)</p></figcaption></figure>
 
 <details>
 
@@ -117,7 +117,7 @@ Some example use-cases:
 
 #### The Overview Tab
 
-<figure><img src=".gitbook/assets/grafik (4).png" alt=""><figcaption><p>This section provides a visual representation of the channel's subscriber growth over time. The graph shows the number of subscribers on a daily basis, while the right column lists recent posts.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (4) (1).png" alt=""><figcaption><p>This section provides a visual representation of the channel's subscriber growth over time. The graph shows the number of subscribers on a daily basis, while the right column lists recent posts.</p></figcaption></figure>
 
 The "Overview" tab provides critical insights into the channel's growth, engagement, and recent activity. A line graph shows the total number of subscribers over a selected period, highlighting trends in subscriber growth, and a table lists the exact number of subscribers, daily growth, mentions, reposts, and posts according to the selected granularity.
 
@@ -146,7 +146,7 @@ Some use-cases:
 
 #### Advertising effectiveness
 
-<figure><img src=".gitbook/assets/grafik (5).png" alt=""><figcaption><p>Advertising effectiveness tab of an "alternative news" channel.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (5) (1).png" alt=""><figcaption><p>Advertising effectiveness tab of an "alternative news" channel.</p></figcaption></figure>
 
 The **Advertising Effectiveness tab** provides metrics for understanding a channel's advertising strategies and their impact. Investigating advertising can help trace funding sources or reveal connections between obfuscated networks of channels. Advertising is an aspect of research often worth looking into and a strength of the platform (compared to free or CLI tools).
 
@@ -187,7 +187,7 @@ The Quoting tab details how often a channel is mentioned or reposted by others, 
 
 _Quoting Tab: In/Outgoing Mentions:_
 
-<figure><img src=".gitbook/assets/grafik (11).png" alt=""><figcaption><p>Incoming and Outgoing Messages of an "alternative news" channel.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (11).png" alt=""><figcaption><p>Incoming and Outgoing Messages of an "alternative news" channel.</p></figcaption></figure>
 
 <details>
 
@@ -205,7 +205,7 @@ These metrics allow insights into key questions about the channel's interactions
 
 _Quoting Tab: Repost Graphs and Graphs by Category & GEO_
 
-<figure><img src=".gitbook/assets/grafik (12).png" alt=""><figcaption><p>Reposts and channel mentions of an "alternative news" channel.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (12).png" alt=""><figcaption><p>Reposts and channel mentions of an "alternative news" channel.</p></figcaption></figure>
 
 <details>
 
@@ -223,7 +223,7 @@ Together, these metrics help track a channel's visibility and influence, underst
 
 _Quoting Tab: Reposts and mentions table_
 
-<figure><img src=".gitbook/assets/grafik (6).png" alt=""><figcaption><p>Bellingcat's incoming reposts and mentions.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (6) (1).png" alt=""><figcaption><p>Bellingcat's incoming reposts and mentions.</p></figcaption></figure>
 
 The "Reposts and Mentions of the Channel" section provides a detailed view of how the analyzed channel interacts with and is referenced by other channels. This is divided into incoming and outgoing mentions.
 
@@ -247,9 +247,9 @@ The Publication Analysis tab offers detailed insights into a channel's average d
 
 _Publication Tab: posting time distributions_
 
-<figure><img src=".gitbook/assets/grafik (1) (1).png" alt=""><figcaption><p>A: Posting time distribution of an "alternative news" channel.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (1) (1).png" alt=""><figcaption><p>A: Posting time distribution of an "alternative news" channel.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/grafik (15).png" alt=""><figcaption><p>B: Posting time distribution of Bellingcat's channel</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (15).png" alt=""><figcaption><p>B: Posting time distribution of Bellingcat's channel</p></figcaption></figure>
 
 <details>
 
@@ -270,7 +270,7 @@ Analyzing posting times can help identify inauthentic behavior in several ways. 
 
 _Publication Tab: publication analysis_
 
-<figure><img src=".gitbook/assets/grafik (17).png" alt=""><figcaption><p><strong>Publication Analysis metrics table</strong> includes recent posts, publication times, total views, the number of shares, and a graphical representation of how views accumulate over time.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (17).png" alt=""><figcaption><p><strong>Publication Analysis metrics table</strong> includes recent posts, publication times, total views, the number of shares, and a graphical representation of how views accumulate over time.</p></figcaption></figure>
 
 <details>
 
@@ -302,7 +302,7 @@ The Audience tab on Telemetr.io provides essential metrics on the demographics, 
 This area is only accessible to channel owners who have subscribed to the service. The values in this tab are example values and will be the same for each channel.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/grafik (18).png" alt=""><figcaption><p>Example demographic metrics.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (18).png" alt=""><figcaption><p>Example demographic metrics.</p></figcaption></figure>
 
 <details>
 
@@ -319,7 +319,7 @@ This area is only accessible to channel owners who have subscribed to the servic
 
 #### About the channel
 
-<figure><img src=".gitbook/assets/grafik (23).png" alt=""><figcaption><p>Bellingcat's historical changes to their channel descriptions.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (23).png" alt=""><figcaption><p>Bellingcat's historical changes to their channel descriptions.</p></figcaption></figure>
 
 The **"About the Channel" tab provides details about the history of changes to** the channel names, descriptions, and external links.
 
@@ -358,7 +358,7 @@ Telemetr.io offers several tools for monitoring and analyzing Telegram channels:
 
 The event tracking tool provides the functionality to focus on relevant channels or keywords, track deleted mentions to identify potential censorship or narrative manipulation, and receive real-time notifications to stay updated on significant developments.
 
-<figure><img src=".gitbook/assets/grafik (20).png" alt=""><figcaption><p>Word and phrase event tracking dialogue</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (20).png" alt=""><figcaption><p>Word and phrase event tracking dialogue</p></figcaption></figure>
 
 The **word tracking tool** enables users to monitor specific words or phrases within Telegram channels and chats, allowing them to track discussions on particular topics, events, or individuals.
 
@@ -377,7 +377,7 @@ The **word tracking tool** enables users to monitor specific words or phrases wi
 
 </details>
 
-<figure><img src=".gitbook/assets/grafik (3).png" alt=""><figcaption><p>Channel and chat tracking dialogue</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (3).png" alt=""><figcaption><p>Channel and chat tracking dialogue</p></figcaption></figure>
 
 <details>
 
@@ -408,7 +408,7 @@ The **word tracking tool** enables users to monitor specific words or phrases wi
 
 #### Advertising Tool
 
-<figure><img src=".gitbook/assets/grafik (22).png" alt=""><figcaption><p>Comparing Advertisements for "Visa"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (22).png" alt=""><figcaption><p>Comparing Advertisements for "Visa"</p></figcaption></figure>
 
 The advertising search tool allows users to filter and analyze advertisement posts on Telegram, unrelated to individual channels. This tool may be used to understand advertising trends, find actors who advertise items or services of interest to your investigation, and track specific ad campaigns.
 
@@ -451,7 +451,7 @@ After applying filters, the results section will list advertisement posts that m
 
 The advertiser rankings tool allows users to analyze advertising activities on Telegram by ranking advertisers based on various criteria. Users can filter their search by category, specific channels, country, and time period to focus on industry-specific trends, targeted advertising efforts, and geographic-specific strategies. The search results provide detailed metrics for each advertiser, including brand name, total views, mentions, and the number of channels where ads are placed.
 
-<figure><img src=".gitbook/assets/grafik.png" alt=""><figcaption><p>Advertizer ranking showing the top advertizers in Germany. (Free version is limited to 3 results)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (8).png" alt=""><figcaption><p>Advertizer ranking showing the top advertizers in Germany. (Free version is limited to 3 results)</p></figcaption></figure>
 
 <details>
 

@@ -15,9 +15,9 @@ This website provides information on all species currently listed in the [Conven
 
 The tool can be used by researchers and individuals who want to know or confirm the current status of a species, i.e., whether it can be traded or not, what type of regulations, quotas, suspensions, or decisions apply in certain regions.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-09-22 at 9.59.53 AM.png" alt=""><figcaption><p>For example, here I searched for “pangolin.” To give some context, all pangolin species are listed in Appendix I of CITES, which means they are completely prohibited from international trade. I got 8 results.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-22 at 9.59.53 AM.png" alt=""><figcaption><p>For example, here I searched for “pangolin.” To give some context, all pangolin species are listed in Appendix I of CITES, which means they are completely prohibited from international trade. I got 8 results.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Screenshot 2025-09-22 at 10.02.40 AM.png" alt=""><figcaption><p>When I clicked on the first result, I obtained information about the species and the CITES list, which confirmed my ideas about the pangolin ban.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-22 at 10.02.40 AM.png" alt=""><figcaption><p>When I clicked on the first result, I obtained information about the species and the CITES list, which confirmed my ideas about the pangolin ban.</p></figcaption></figure>
 
 In addition, this tool is useful for finding information on geographical distribution and other names for species. It also has a repository of documents for each species, which is very useful for finding out about CITES proposals, reviews, and identification materials.
 
@@ -43,7 +43,7 @@ None so far.
 
 ## Ethical Considerations
 
-None so far.&#x20;
+None so far.
 
 ## Guides and articles
 
@@ -57,11 +57,11 @@ The [Species+ About page](https://www.speciesplus.net/about) provides informatio
 
 Within Species+ there is a list of related websites/applications that serve a similar purpose: listing vulnerable species in the CITES and CMS agreements in comprehensive databases, which sometimes contain trade data. The sites are:
 
-* [Checklist of CITES Species ](https://checklist.cites.org/#/en) - This tool focuses on providing information about the level of protection assigned to each CITES-listed species.
+* [Checklist of CITES Species ](https://checklist.cites.org/#/en)- This tool focuses on providing information about the level of protection assigned to each CITES-listed species.
 * [CITES Trade Database](https://bellingcat.gitbook.io/toolkit/more/all-tools/cites-trade-database) - Provides commercial information on species by country.
 * [EU Captive breeding database](https://captivebreeding.unep-wcmc.org/) - Contains captive bred, ranching and mariculture information of animal species listed in the EU Wildlife Trade Regulations.
 * [CITES Wildlife TradeView](https://tradeview.cites.org/) \[[Find our toolkit entry here](https://bellingcat.gitbook.io/toolkit/more/all-tools/cites-trade-database)] - It focuses on commercial behavior with regard to protected species using visual elements.
-* [CITES Non-Detriment Findings Support Tool](https://ndfsupport.unep-wcmc.org/en) - Specialized in providing  information about whether international trade in CITES listed-species is detrimental or not.
+* [CITES Non-Detriment Findings Support Tool](https://ndfsupport.unep-wcmc.org/en) - Specialized in providing information about whether international trade in CITES listed-species is detrimental or not.
 
 ## Advertising Trackers
 

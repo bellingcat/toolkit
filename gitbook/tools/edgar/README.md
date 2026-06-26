@@ -67,21 +67,21 @@ While EDGAR is public, using advanced scraping or automation tools to gain a spe
 * The largest amount of information is usually in the annual, quarterly and current reports. Some companies also have beneficial ownership filings.
 * The filings show up like this and can be opened in a `.htm` or `.xml` format.
 
-<figure><img src=".gitbook/assets/Image 3.png" alt="" width="563"><figcaption><p>Basic company name search in the search bar for Boeing</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Image 3.png" alt="" width="563"><figcaption><p>Basic company name search in the search bar for Boeing</p></figcaption></figure>
 
 * The `.xml` format is somewhat better, because it contains hyperlinks that lead to every associated document in a specific filing including each submitted SEC form and exhibit. To get to a specific filing in an `.xml` format, click on any of the hyperlinked results (in blue) in the Form & File column.
 
 _**Example**_: Search for Boeing in the search bar, select Boeing Co. Below are the results that show up when you hit the search button. From the Form & File column, click on the 8-K (Current report) or any other filing.
 
-<figure><img src=".gitbook/assets/Image 2.png" alt="" width="563"><figcaption><p>Search results page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Image 2.png" alt="" width="563"><figcaption><p>Search results page</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Image 4.png" alt="" width="563"><figcaption><p>Selected file from results page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Image 4.png" alt="" width="563"><figcaption><p>Selected file from results page</p></figcaption></figure>
 
 Select Open Document to reach the `.htm` file or Open filing to reach the `.xml` file (each option opens a new tab in the browser).
 
 The `.xml` file will contain different hyperlinks for document and data files. In this example the 8-K file (document ba-20240731.htm iXBRL) links to the full form 8-K filing (known as a “current report” and it is the report that companies must file with the SEC to announce major events that shareholders should know about).
 
-<figure><img src=".gitbook/assets/image 5.png" alt=""><figcaption><p>Example of an .xml file from a filing with the US Securities and Exchange Commission</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image 5.png" alt=""><figcaption><p>Example of an .xml file from a filing with the US Securities and Exchange Commission</p></figcaption></figure>
 
 If you want to parse EDGAR data, The Comprehensive R Archive Network have published this PDF guide - [Tool for the U.S. SEC EDGAR Retrieval and Parsing of Corporate Filings](ttps://cran.r-project.org/web/packages/edgar/edgar.pdf).
 

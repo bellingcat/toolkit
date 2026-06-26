@@ -36,7 +36,7 @@ Worldview has many pre-made animated Stories with explanation for inspiration. T
   * Corrected Reflectance (True Color) Suomi NPP/VIRRS 2015 NOV 24 - Present
   * Corrected Reflectance (True Color) Aqua/MODIS 2002 JUL 03 - Present
   * Corrected Reflectance (True Color) Terra/MODIS 2000 FEB 24 - Present
-  * Additional layers include: Hazards And Disaster (including air quality, dust storms, fires, smoke plumes, vegetation etc.), Science Disciplines (including atmosphere, oceans, human dimensions, land surface, etc.), and Featured (including Surface Water Extent, disaster response, aboveground biomass, etc.)&#x20;
+  * Additional layers include: Hazards And Disaster (including air quality, dust storms, fires, smoke plumes, vegetation etc.), Science Disciplines (including atmosphere, oceans, human dimensions, land surface, etc.), and Featured (including Surface Water Extent, disaster response, aboveground biomass, etc.)
 * **Layers (Reference/Overlays):** Place Labels, Coastlines / Borders / Roads, Coastlines.
 * **Location search:** search by location name or coordinates.
 * **Measure area:** measure area in kilometres.
@@ -56,7 +56,7 @@ Only available as a web application.
 
 Example of a search results for the term _Amsterdam_
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-25 101227.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-25 101227.png" alt=""><figcaption></figcaption></figure>
 
 Platform updates and changes [https://github.com/nasa-gibs/worldview/releases/](https://github.com/nasa-gibs/worldview/releases/)
 
@@ -79,7 +79,7 @@ Platform updates and changes [https://github.com/nasa-gibs/worldview/releases/](
 NASA Worldview has several limitations users should be aware of:
 
 * **Data Availability:** Not all satellite data are available in near real-time or with a high temporal resolution. Some datasets may have a lag of several days or are updated less frequently. There are a number of imagery products available in Near Real Time. Both MODIS (Moderate Resolution Imaging Spectroradiometer) and VIIRS (Visible Infrared Imaging Radiometer Suite) have data sets that are available daily like the VIIRS [Corrected Reflectance (True Color)](https://modaps.modaps.eosdis.nasa.gov/services/about/products/viirs-c2-nrt/VNP03MOD_nrt.html). Use the Base Layers menu to filter for _Period:_ Daily to find more datasets.
-* **Charting tool:** Currently, only a BETA version of the charting tool is available. Comments and feedback can still be submitted. The tool has some limitations. It's only available for layers with a color palette.&#x20;
+* **Charting tool:** Currently, only a BETA version of the charting tool is available. Comments and feedback can still be submitted. The tool has some limitations. It's only available for layers with a color palette.
 * **Resolution:** The spatial resolution of images and data can vary significantly between datasets. Some regions or types of data might not be available at the desired resolution for detailed analysis. The highest resolution [Sentinel-2](https://lpdaac.usgs.gov/documents/1698/HLS_User_Guide_V2.pdf) imagery is 10 meters per pixel for RGB and near-infrared bands, 20 meters per pixel for shortwave infrared bands and can be added as a base layer from the Base Layers menu.
 * **Learning Curve:** New users may find the interface and array of datasets overwhelming, requiring time to learn how to effectively navigate and utilize the tool.
 * **Analysis Capabilities:** While Worldview allows for visualization, it does not offer extensive built-in tools for data analysis besides the Charting tool which is still being tested. Users might need to use other software for detailed analysis.

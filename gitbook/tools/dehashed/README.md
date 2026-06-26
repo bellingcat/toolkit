@@ -44,11 +44,11 @@ Record any relevant results and data points as you go to map out a subject's onl
 
 The search engine is extremely simple to use and user-friendly. You can run a keyword search either by field or across all fields:
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Screenshot 1. Search interface.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption><p>Screenshot 1. Search interface.</p></figcaption></figure>
 
 If you search by, say, email address, you will get a list of various data points associated with that email, including names and passwords. You can then run more searches against, for example, the names and passwords you identified during your original search with a view to finding more accounts and generating fresh research leads.
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Screenshot 2. You need a paid subscription to view results.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (6).png" alt=""><figcaption><p>Screenshot 2. You need a paid subscription to view results.</p></figcaption></figure>
 
 It is free to search if you set up an account with just an email and password, but **you need a paid subscription to actually view the results**. See below for pricing information.
 
@@ -68,7 +68,7 @@ There are two main ways you can search:
 * The name of the domain (website) by using the WHOIS tab to find out current registration information, or the WHOIS History tab to retrieve information regarding previous owners or changes in ownership over the past ten years;
 * Any information you might have about the owner, ranging from name and physical address to their email address and phone number, by using Reverse WHOIS.
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Screenshot 3. WHOIS interface.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (7).png" alt=""><figcaption><p>Screenshot 3. WHOIS interface.</p></figcaption></figure>
 
 You will need to purchase credits to run a search.
 
@@ -80,11 +80,11 @@ You will need to purchase credits to run a search.
 
 You can use Search for free, but you need to purchase a subscription to view the results.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Screenshot 4. Search pricing.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (9).png" alt=""><figcaption><p>Screenshot 4. Search pricing.</p></figcaption></figure>
 
 To use WHOIS, you need to buy credits.
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Screenshot 5. WHOIS pricing.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (3).png" alt=""><figcaption><p>Screenshot 5. WHOIS pricing.</p></figcaption></figure>
 
 The current pricing information for each one of its four offerings can be found [here](https://app.dehashed.com/subscriptions) (click 'Purchase').
 

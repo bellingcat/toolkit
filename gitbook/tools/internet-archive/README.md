@@ -1,8 +1,8 @@
 ---
+updated: '2026-05-13'
 description: >-
   The Internet Archive's Wayback Machine lets users view and archive web pages,
   aiding in historical research and digital preservation.
-updated: '2026-05-13'
 ---
 
 # Wayback Machine
@@ -17,9 +17,9 @@ The Wayback Machine launched in 1996 and contains over 28 years of web history. 
 
 For example, here is how amazon.com looked in 1999 versus 2024:
 
-<figure><img src=".gitbook/assets/Screen Shot 2024-07-14 at 9.39.48 PM.png" alt="amazon.com in 1999" width="563"><figcaption><p>amazon.com in 1999</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-07-14 at 9.39.48 PM.png" alt="amazon.com in 1999" width="563"><figcaption><p>amazon.com in 1999</p></figcaption></figure>
 
-<div data-full-width="false"><figure><img src=".gitbook/assets/Screen Shot 2024-07-14 at 9.41.30 PM.png" alt="amazon.com in 2024" width="563"><figcaption><p>amazon.com in 2024</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../.gitbook/assets/Screen Shot 2024-07-14 at 9.41.30 PM.png" alt="amazon.com in 2024" width="563"><figcaption><p>amazon.com in 2024</p></figcaption></figure></div>
 
 The Wayback Machine can be accessed not only through the Internet Archive's website, but also through:
 
@@ -78,7 +78,7 @@ Watch an introduction video on [How to Use the Wayback Machine](https://help.arc
 1. Go to the Wayback Machine website at [https://web.archive.org/](https://web.archive.org/)
 2. On the homepage of the Wayback Machine, locate the "Save Page Now" section. It's usually found near the top of the page.
 
-<figure><img src=".gitbook/assets/Screen Shot 2024-07-07 at 9.06.49 PM.png" alt="Save Page Now section on https://web.archive.org/" width="315"><figcaption><p>Save Page Now section on <a href="https://web.archive.org/">https://web.archive.org/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-07-07 at 9.06.49 PM.png" alt="Save Page Now section on https://web.archive.org/" width="315"><figcaption><p>Save Page Now section on <a href="https://web.archive.org/">https://web.archive.org/</a></p></figcaption></figure>
 
 3. Enter the URL of the website you want to archive.
 4. Click the "Save Page" button. This will prompt the Wayback Machine to take a snapshot of the specified webpage.

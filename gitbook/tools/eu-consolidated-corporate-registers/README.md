@@ -15,15 +15,15 @@ description: >-
 
 The data on the 'Business Registers Interconnection System (BRIS)' portal is gathered in real time from national registers, and only info provided free of charge on national registers is available for free on the portal (see the [general info page](https://e-justice.europa.eu/topics/registers-business-insolvency-land/business-registers-search-company-eu/general-information-find-company_en)). These are the countries covered:
 
-<figure><img src=".gitbook/assets/Screenshot 2026-05-06 at 14.04.10.png" alt=""><figcaption><p>Countries included in the consolidated register</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-05-06 at 14.04.10.png" alt=""><figcaption><p>Countries included in the consolidated register</p></figcaption></figure>
 
 However, some data that is free in a national register does not appear on the portal. For example, here is the portal's data for a French company:
 
-<figure><img src=".gitbook/assets/Screenshot 2026-05-06 at 14.12.45.png" alt=""><figcaption><p>A company's page on the consolidated EU register</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-05-06 at 14.12.45.png" alt=""><figcaption><p>A company's page on the consolidated EU register</p></figcaption></figure>
 
 Here is the same company's [listing](https://www.infogreffe.fr/entreprise/monoprix/552018020/58b30ebc-d4b3-4e23-b3b7-27e468f6bb60) on the French register:
 
-<figure><img src=".gitbook/assets/Screenshot 2026-05-06 at 14.21.35.png" alt=""><figcaption><p>The same company's 'Identité' page on the French register</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-05-06 at 14.21.35.png" alt=""><figcaption><p>The same company's 'Identité' page on the French register</p></figcaption></figure>
 
 The French register provides data that the EU register does not, like the [NAF code](https://entreprendre.service-public.fr/vosdroits/F33050) (which classifies business activities), many more documents than you can order on the EU portal, and related companies. The leader data also includes other companies in which that person is involved. (Leaders are people like directors.) In the image above, you'll also see a link to the other leaders of the company, which is not provided on the EU register.
 

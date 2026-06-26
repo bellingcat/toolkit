@@ -19,25 +19,25 @@ Aleph is a platform by the Organized Crime and Corruption Reporting Project (OCC
 
 Type the name of an individual, an organization, a company or a keyword in the search bar. The results will display the total number of mentions of your search term and the <mark style="color:yellow;">yellow highlights</mark> will show the context in which the search term appears.
 
-<figure><img src=".gitbook/assets/Ale1.png" alt="" width="563"><figcaption><p>The search term Dmitry Medvedev returns over 4,000 results.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Ale1.png" alt="" width="563"><figcaption><p>The search term Dmitry Medvedev returns over 4,000 results.</p></figcaption></figure>
 
-To narrow down the search results, use the menu on the left to filter by date, country, language of the document, and datasets[^1].&#x20;
+To narrow down the search results, use the menu on the left to filter by date, country, language of the document, and datasets[^1].
 
-<figure><img src=".gitbook/assets/Ale2.png" alt="" width="375"><figcaption><p>Example of all the available filters.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Ale2.png" alt="" width="375"><figcaption><p>Example of all the available filters.</p></figcaption></figure>
 
 To view a particular entry, click on the hyperlink you are interested in. This opens a pop-up in the same window. From here you can review the document online or download it. .
 
-<figure><img src=".gitbook/assets/Ale3.png" alt="" width="563"><figcaption><p>View of a selected document from the results page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Ale3.png" alt="" width="563"><figcaption><p>View of a selected document from the results page</p></figcaption></figure>
 
 The OCCRP Aleph website has a handy [video tutorial](https://www.youtube.com/watch?v=I3AxSMBzJ14) on how to search and filter data as well as written detailed instructions on [search basics](https://docs.aleph.occrp.org/users/search/basics/).
 
 ### How to perform an advanced search
 
-In addition to basic keyword searches, Aleph offers advanced search capabilities, enabling users to find matches based on spelling variations, term proximity, and other sophisticated criteria.&#x20;
+In addition to basic keyword searches, Aleph offers advanced search capabilities, enabling users to find matches based on spelling variations, term proximity, and other sophisticated criteria.
 
 The advanced search options can be helpful in cases when there are too many results and you need to narrow down your search further. You can use the fields in the advanced search, or you can use search operators.
 
-<figure><img src=".gitbook/assets/Ale4.png" alt="" width="563"><figcaption><p>Advanced search options on the Aleph website</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Ale4.png" alt="" width="563"><figcaption><p>Advanced search options on the Aleph website</p></figcaption></figure>
 
 <details>
 
@@ -65,13 +65,13 @@ OCCRP Aleph does provide a step-by-step tutorial on advanced searches [here](htt
 
 At the top of the Aleph page there is a menu called Datasets which opens a search for each dataset in the OCCRP databank. You can use the search bar to find a specific dataset and browse its contents.
 
-<figure><img src=".gitbook/assets/Ale5.png" alt="" width="563"><figcaption><p>The top right menu Datasets takes you to the search bar. Use keywords to find datasets you are interested in.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Ale5.png" alt="" width="563"><figcaption><p>The top right menu Datasets takes you to the search bar. Use keywords to find datasets you are interested in.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Ale6.png" alt=""><figcaption><p>View of a specific dataset. Each of the names, emails, and entity types above is hyperlinked and opens a new page for the selected item.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Ale6.png" alt=""><figcaption><p>View of a specific dataset. Each of the names, emails, and entity types above is hyperlinked and opens a new page for the selected item.</p></figcaption></figure>
 
 Use the Source Documents menu to review each uploaded file in this dataset. The documents are all available for download. Additionally, you can chose the Cross-reference menu to check for different spellings of names, or variations in the names. The cross-reference results are also available for download and can help clear out uncertainties in your research.
 
-<div><figure><img src=".gitbook/assets/Ale7.png" alt=""><figcaption><p>Example of the Source documents view</p></figcaption></figure> <figure><img src=".gitbook/assets/Ale8.png" alt=""><figcaption><p>Example of the Cross-reference view</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Ale7.png" alt=""><figcaption><p>Example of the Source documents view</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Ale8.png" alt=""><figcaption><p>Example of the Cross-reference view</p></figcaption></figure></div>
 
 If you have created an account for Aleph, you can also make use of their Investigation workspaces. Here is a [detailed guide](https://docs.aleph.occrp.org/users/investigations/overview/) on how to create and handle a workspace.
 

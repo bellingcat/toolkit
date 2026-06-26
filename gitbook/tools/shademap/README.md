@@ -14,7 +14,7 @@ description: >-
 
 ## Description
 
-<div data-full-width="true"><figure><img src=".gitbook/assets/ShortShadeMapcropped.gif" alt=""><figcaption><p>SHADE MAP SIMULATES THE SHADOW PATTERNS FROM SUNRISE TO SUNSET AS THE USER MOVES THE TIME SLIDER<br>TO CHANGE THE TIME IN RUSHON, TAJIKISTAN ON 18TH MAY</p></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/ShortShadeMapcropped.gif" alt=""><figcaption><p>SHADE MAP SIMULATES THE SHADOW PATTERNS FROM SUNRISE TO SUNSET AS THE USER MOVES THE TIME SLIDER<br>TO CHANGE THE TIME IN RUSHON, TAJIKISTAN ON 18TH MAY</p></figcaption></figure></div>
 
 ShadeMap can calculate shadow locations in real time and display them on a map. ShadeMap can also aggregate shadows over time to calculate how many hours of sun or shadow a specific location gets over the course of a day or over the course of an entire year. Sunlight hours and time of year are used to calculate energy values of sunlight per unit area (square metre). In addition to mapping shadow patterns for a static location, ShadeMap's [Trail Shade feature](./#trail-shade-feature-accessible-from-the-search-bar-menu) handles changing location uploaded as a user trail.
 
@@ -41,7 +41,7 @@ ShadeMap's cumulative analyses of daily sunlight hours, annual sunlight hours an
 
 {% tabs %}
 {% tab title="USE CASES" %}
-<figure><img src=".gitbook/assets/ShadeMapUseCasesTablev2 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ShadeMapUseCasesTablev2 (1).jpg" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="USER INPUT" %}
@@ -57,16 +57,16 @@ ShadeMap's cumulative analyses of daily sunlight hours, annual sunlight hours an
 * Graph of annual sunlight & annual energy for the given location across the days and months of the year & time of day
 * Colour map of the given area showing daylight hours in the sun
 
-**Data downloads** are offered for users' generated results, and the developers offer assistance with large data set export. ![](<.gitbook/assets/image-1 (1).png>)
+**Data downloads** are offered for users' generated results, and the developers offer assistance with large data set export. ![](<../../.gitbook/assets/image-1 (1).png>)
 
 **SUN EXPOSURE VIEW DOWNLOAD MESSAGE**\
 **EXPLAINING THE OUTPUT AND OFFERING ASSISTANCE**
 
-A download file is generated for the current view using the File Download button <img src=".gitbook/assets/GEOtiff download button (2).JPG" alt="" data-size="line"> in [GeoTIFF format.](https://en.wikipedia.org/wiki/GeoTIFF) This output file contains a sun exposure value for units of area across the display, on a scale of 0 to 240. These exposure values can be scaled to minutes of sun exposure by multiplying by a factor of 6.
+A download file is generated for the current view using the File Download button <img src="../../.gitbook/assets/GEOtiff download button (2).JPG" alt="" data-size="line"> in [GeoTIFF format.](https://en.wikipedia.org/wiki/GeoTIFF) This output file contains a sun exposure value for units of area across the display, on a scale of 0 to 240. These exposure values can be scaled to minutes of sun exposure by multiplying by a factor of 6.
 {% endtab %}
 
 {% tab title="DATA INPUT OPTIONS" %}
-<figure><img src=".gitbook/assets/DataInputTableShadeMap3 (1).JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/DataInputTableShadeMap3 (1).JPG" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -88,7 +88,7 @@ Each can be shown with one of two backgrounds: either map (called Outdoors) or S
 {% tab title="SHADOW VIEW" %}
 Shadow View draws shadows in the colour selected by the user in Settings, for the date and time set by the user. The time slider changes the view over time between sunrise and sunset, the directions for which are shown in centre screen as gold and bright orange lines respectively. Current sun direction is shown as a yellow line which moves with the Time Slider.
 
-<figure><img src=".gitbook/assets/shademap shadowview.JPG" alt=""><figcaption><p><strong>SHADOW VIEW FOCUSES AROUND THE CENTRAL LOCATION AND ALLOWS THE USER TO SELECT DATE AND TIME</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/shademap shadowview.JPG" alt=""><figcaption><p><strong>SHADOW VIEW FOCUSES AROUND THE CENTRAL LOCATION AND ALLOWS THE USER TO SELECT DATE AND TIME</strong></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="HOURS IN THE SUN VIEW" %}
@@ -99,9 +99,9 @@ Possible Open Source applications include:
 * Analysis of the environmental causes of terrain change in a glacial region
 * Geolocation of imagery showing distinctive shadow patterns in a region of deep canyons
 
-<figure><img src=".gitbook/assets/sunhoursview.jpg" alt="" width="563"><figcaption><p><strong>HOURS IN THE SUN VIEW SHOWING COLOUR SCALE ABOVE DATE AND TIME RANGE AT THE BOTTOM OF THE SCREEN</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sunhoursview.jpg" alt="" width="563"><figcaption><p><strong>HOURS IN THE SUN VIEW SHOWING COLOUR SCALE ABOVE DATE AND TIME RANGE AT THE BOTTOM OF THE SCREEN</strong></p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/ShadeMapHoursinSunView.gif" alt=""><figcaption><p>SETTING THE DATE AND TIME PERIOD FOR HOURS IN THE SUN VIEW IN A REGION OF DEEP CANYONS</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ShadeMapHoursinSunView.gif" alt=""><figcaption><p>SETTING THE DATE AND TIME PERIOD FOR HOURS IN THE SUN VIEW IN A REGION OF DEEP CANYONS</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="ANNUAL SUNLIGHT VIEW" %}
@@ -109,7 +109,7 @@ ShadeMap calculates the annual hours of sunlight for the chosen location and dis
 
 Possible Open Source applications include analysing solar panel power generation parameters in environmental research.
 
-<figure><img src=".gitbook/assets/ShadeMapannualview.gif" alt=""><figcaption><p>MOVING THE CURSOR ACROSS THE TIME OF DAY V MONTH PLOT FOR THE LOCATION SHOWN ON THE LEFT: EXACT DATE AND TIME ARE SHOWN FOR THE POINT UNDER THE CROSSWIRES PLUS THE ENERGY ABSORBED, WITH CUMULATIVE TOTALS AT THE TOP OF THE SCREEN</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ShadeMapannualview.gif" alt=""><figcaption><p>MOVING THE CURSOR ACROSS THE TIME OF DAY V MONTH PLOT FOR THE LOCATION SHOWN ON THE LEFT: EXACT DATE AND TIME ARE SHOWN FOR THE POINT UNDER THE CROSSWIRES PLUS THE ENERGY ABSORBED, WITH CUMULATIVE TOTALS AT THE TOP OF THE SCREEN</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -125,7 +125,7 @@ DO use the "+" and "-" tool in the bottom left of the map window to zoom whilst 
 
 ## The Shade Map Interface
 
-<figure><img src=".gitbook/assets/InterfacExploded (1).jpg" alt="" width="563"><figcaption><p>THE SHADEMAP INTERFACE DOES NOT DISPLAY ALL MENUS SIMULTANEOUSLY: THIS GRAPHIC IS FOR ILLUSTRATION ONLY</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/InterfacExploded (1).jpg" alt="" width="563"><figcaption><p>THE SHADEMAP INTERFACE DOES NOT DISPLAY ALL MENUS SIMULTANEOUSLY: THIS GRAPHIC IS FOR ILLUSTRATION ONLY</p></figcaption></figure>
 
 {% hint style="success" %}
 Two advanced motion path-related features are available through the Project Menu: Trail Shade and GPX Replay. Users can model a route on the map over time and Shademap will generate the shadows visible across the terrain for that changing place and time. **This is a rare feature for OSINV researchers which can be powerful in assisting the geolocation and chronolocation of source material relating to travel along a route, e.g. photos or videos**
@@ -133,7 +133,7 @@ Two advanced motion path-related features are available through the Project Menu
 
 {% tabs %}
 {% tab title="DATA " %}
-<div><figure><img src=".gitbook/assets/shademapbottomleft menu (1).JPG" alt=""><figcaption><p>THE DATA TOOLBAR<br>SCREEN BOTTOM LEFT</p></figcaption></figure> <figure><img src=".gitbook/assets/ShademapSettings (1).JPG" alt="" width="375"><figcaption><p><strong>THE SETTINGS MENU: CALLED FROM THE DATA TOOLBAR</strong></p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/shademapbottomleft menu (1).JPG" alt=""><figcaption><p>THE DATA TOOLBAR<br>SCREEN BOTTOM LEFT</p></figcaption></figure> <figure><img src="../../.gitbook/assets/ShademapSettings (1).JPG" alt="" width="375"><figcaption><p><strong>THE SETTINGS MENU: CALLED FROM THE DATA TOOLBAR</strong></p></figcaption></figure></div>
 
 Data display and exchange is managed through the bottom left interface toolbar, which allows
 
@@ -147,7 +147,7 @@ Data display and exchange is managed through the bottom left interface toolbar, 
 {% endtab %}
 
 {% tab title="SEARCH" %}
-<figure><img src=".gitbook/assets/sEARCHmENU.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sEARCHmENU.JPG" alt=""><figcaption></figcaption></figure>
 
 Locations can be entered either as text or as co-ordinates.
 
@@ -155,11 +155,11 @@ The Project menu is launched from the 3 line icon in the Search bar.
 {% endtab %}
 
 {% tab title="PROJECT" %}
-<figure><img src=".gitbook/assets/ShadeMapLeft Side Menu.JPG" alt="" width="223"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ShadeMapLeft Side Menu.JPG" alt="" width="223"><figcaption></figcaption></figure>
 
 **Trail Shade Feature**
 
-<figure><img src=".gitbook/assets/ShadeMapTrailShade.JPG" alt=""><figcaption><p><strong>SHADEMAP'S TRAIL SHADE FEATURE MAPS SHADE ALONG A TRAIL OVER TIME</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ShadeMapTrailShade.JPG" alt=""><figcaption><p><strong>SHADEMAP'S TRAIL SHADE FEATURE MAPS SHADE ALONG A TRAIL OVER TIME</strong></p></figcaption></figure>
 
 A specialist application of ShadeMap technology focusing on the shade profile of a given user-defined path (trail) on a given day of the year. The trail must be uploaded in GPX or KML format. Above a map of the user's trail and date a graph of the distance along the trail versus time of day is drawn to show the changing shadow patterns.
 
@@ -169,11 +169,11 @@ Possible Open Source Research applications include confirmation of geolocation o
 
 GPX Replay plays progress along a user defined trail on a map whilst the changing shadow pattern is constantly redrawn throughout the trip.
 
-<figure><img src=".gitbook/assets/ShadeMapGPXPlay.gif" alt=""><figcaption><p>SHADE MAP'S GPX REPLAY FEATURE SHOWING THE SHADE PATTERN FOR A ROUND TRIP TRAIL</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ShadeMapGPXPlay.gif" alt=""><figcaption><p>SHADE MAP'S GPX REPLAY FEATURE SHOWING THE SHADE PATTERN FOR A ROUND TRIP TRAIL</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="LAYERS" %}
-<figure><img src=".gitbook/assets/shademapbottomrightmenu.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/shademapbottomrightmenu.JPG" alt=""><figcaption></figcaption></figure>
 
 Both the data view and the base map are selected in the Layers menu.
 {% endtab %}
@@ -190,13 +190,13 @@ View Orientation is managed through the bottom right interface toolbar, which al
 
 By default, shadows are displayed on top of the tree canopy. To view shadows underneath the tree canopy instead, change the radio button setting from 'Top of canopy' to 'below canopy'.
 
-<div><figure><img src=".gitbook/assets/shademapbottomrightmenu (1).JPG" alt="" width="170"><figcaption><p><strong>THE VIEW TOOLBAR ADJUSTS TILT AND ZOOM AND ALLOWS SELECTION OF THREE VIEW LAYERS AND TWO BASEMAPS</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/shademaptopright menu (1).JPG" alt=""><figcaption><p><strong>THE DRAWING TOOLBAR APPEARS SCREEN TOP RIGHT</strong><br><strong>IN SHADOW VIEW AND HOURS IN THE SUN VIEW</strong></p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/shademapbottomrightmenu (1).JPG" alt="" width="170"><figcaption><p><strong>THE VIEW TOOLBAR ADJUSTS TILT AND ZOOM AND ALLOWS SELECTION OF THREE VIEW LAYERS AND TWO BASEMAPS</strong></p></figcaption></figure> <figure><img src="../../.gitbook/assets/shademaptopright menu (1).JPG" alt=""><figcaption><p><strong>THE DRAWING TOOLBAR APPEARS SCREEN TOP RIGHT</strong><br><strong>IN SHADOW VIEW AND HOURS IN THE SUN VIEW</strong></p></figcaption></figure></div>
 
 The Drawing Toolbar buttons allow the addition of objects to the map as polygons with a specified height, object editing, deletion and saving.
 {% endtab %}
 
 {% tab title="TIME" %}
-<figure><img src=".gitbook/assets/TimeandDateSlider.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/TimeandDateSlider.JPG" alt=""><figcaption></figcaption></figure>
 
 * The two buttons switch the scale from date to time and back.
 * Use the Left Mouse to drag and drop the background scale under the orange arrow.
@@ -244,7 +244,7 @@ Setting height to zero will delete the building again.
 
 ShadeMap offers a [paid for API](https://shademap.app/about/) with the following features, where developer users can simulate, visualise and analyse sunlight and shadow in any current browser using their own data on terrain, buildings and vegetation and share it on the web.
 
-<figure><img src=".gitbook/assets/ShadeMapAPI.JPG" alt=""><figcaption><p><strong>FEATURES OF THE SHADEMAP API (APPLICATION PROGRAMMING INTERFACE)</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ShadeMapAPI.JPG" alt=""><figcaption><p><strong>FEATURES OF THE SHADEMAP API (APPLICATION PROGRAMMING INTERFACE)</strong></p></figcaption></figure>
 
 ## Cost
 
@@ -258,7 +258,7 @@ Free - using estimates and volunteer data, accurate for 1-3 metres
 
 Paid - LIDAR data and photogrammetry, accurate to 0.25 m
 
-<figure><img src=".gitbook/assets/Shademap2025 free and paid services.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Shademap2025 free and paid services.JPG" alt=""><figcaption></figcaption></figure>
 
 ## Level of difficulty
 

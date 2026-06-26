@@ -1,6 +1,6 @@
 ---
-description: 'A search engine for internet-connected devices, from webcams to databases.'
 updated: '2026-05-26'
+description: A search engine for internet-connected devices, from webcams to databases.
 ---
 
 # Shodan
@@ -29,9 +29,9 @@ For open source investigations, Shodan can help:
 * Track changes in publicly accessible assets over time.
 * Correlate technical fingerprints (such as SSL certificates or banners) with other data sources.
 
-Below is an example of the detailed host information available for a device. This has been redacted for privacy purposes.&#x20;
+Below is an example of the detailed host information available for a device. This has been redacted for privacy purposes.
 
-<figure><img src=".gitbook/assets/Details - c.jpg" alt="" width="563"><figcaption><p>An example of available host details, including ISP (Internet Service Provider) &#x26; ASN (Autonomous System Number)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Details - c.jpg" alt="" width="563"><figcaption><p>An example of available host details, including ISP (Internet Service Provider) &#x26; ASN (Autonomous System Number)</p></figcaption></figure>
 
 ## Cost
 

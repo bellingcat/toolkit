@@ -3,7 +3,7 @@ updated: '2026-04-17'
 description: Does an email address appear in data breaches?
 ---
 
-# Have I Been Pwned?
+# Have I Been Pwned
 
 ## URL
 
@@ -15,7 +15,7 @@ Have I Been Pwned (HIBP) allows you to search across multiple data breaches to s
 
 This tool is especially useful for finding where a person of interest had accounts and using those for further research. Say you have an email address you want to investigate. By running it on HIBP you find they had breaches on Twitter, Duolingo, and Last.fm -- this means they had accounts on those platforms and you can start researching these further until you find the connected accounts on the platforms. HIPB is a starting point for researching email addresses / phone numbers.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>A result page after searching for a particular email address that was found in 6 Data breaches including one from Twitter.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption><p>A result page after searching for a particular email address that was found in 6 Data breaches including one from Twitter.</p></figcaption></figure>
 
 ## Cost
 

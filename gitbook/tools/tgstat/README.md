@@ -12,7 +12,7 @@ description: >-
 
 [https://tgstat.com/](https://tgstat.com/)
 
-[https://tgstat.ru/  ](https://tgstat.ru/)
+[https://tgstat.ru/](https://tgstat.ru/)
 
 ## Description
 
@@ -55,20 +55,20 @@ It helps researchers find relevant channels to follow on specific topics. Some f
 1. _Filter by country:_ Users can filter channels by country. The list of countries available in the search filters on the website: Russia, Ukraine, Belarus, Uzbekistan, Kazakhstan, Kyrgyzstan, Iran, China, India, and Ethiopia.
 
 {% hint style="info" icon="triangle-exclamation" %}
-NOTE: This is a limited list, [TGSTAT includes content from a number of other countries f](https://www.grabon.in/indulge/tech/telegram-users-statistics/)rom South Asia, Southeast Asia and MENA.&#x20;
+NOTE: This is a limited list, [TGSTAT includes content from a number of other countries f](https://www.grabon.in/indulge/tech/telegram-users-statistics/)rom South Asia, Southeast Asia and MENA.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/IMG_0178.jpg" alt=""><figcaption><p>This shows a catalog of public Telegram channels and open groups categorzed by country. The user can navigate to this feature by clicking “Catalog” in the upper left, then clicking “channels and groups catalog”.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IMG_0178.jpg" alt=""><figcaption><p>This shows a catalog of public Telegram channels and open groups categorzed by country. The user can navigate to this feature by clicking “Catalog” in the upper left, then clicking “channels and groups catalog”.</p></figcaption></figure>
 
 However, users can also find other public channels or open groups not covered by the countries listed in the catalog.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-06-24 170220.png" alt=""><figcaption><p>This is a public news channel with a Telegram account. The screenshot shows the TGStat analytics for the channel. In the upper right corner, the "channel's geo and language" is displayed. The channel is primarily in Arabic, and the specific country is not mentioned. This means that users may not be able to find this channel by browsing the catalog grouped by country. Instead, they can search for the channel's username using the site's search bar. This demonstrates that TGStat provides information for public channels on Telegram, irrespective of their country and language.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-06-24 170220.png" alt=""><figcaption><p>This is a public news channel with a Telegram account. The screenshot shows the TGStat analytics for the channel. In the upper right corner, the "channel's geo and language" is displayed. The channel is primarily in Arabic, and the specific country is not mentioned. This means that users may not be able to find this channel by browsing the catalog grouped by country. Instead, they can search for the channel's username using the site's search bar. This demonstrates that TGStat provides information for public channels on Telegram, irrespective of their country and language.</p></figcaption></figure>
 
 2. _Filter by theme/region:_ When researching Telegram channels in Russia, channels are grouped by region and by theme/topics. For the other countries, channels can be filtered by theme but not by region.
 
-<figure><img src=".gitbook/assets/IMG_0184.jpg" alt=""><figcaption><p>For Russia-based channels, users can filter by region as shown in the image. You can navigate through this by clicking "Catalog" in the upper left corner, and then by clicking on "regional compilations."</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IMG_0184.jpg" alt=""><figcaption><p>For Russia-based channels, users can filter by region as shown in the image. You can navigate through this by clicking "Catalog" in the upper left corner, and then by clicking on "regional compilations."</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/IMG_0185.jpg" alt=""><figcaption><p>For Russia-based channels, users can filter by themes/subject as shown in the image. You can navigate through this by clicking "Catalog" in the upper left corner, and then by clicking on "thematic compilations."</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IMG_0185.jpg" alt=""><figcaption><p>For Russia-based channels, users can filter by themes/subject as shown in the image. You can navigate through this by clicking "Catalog" in the upper left corner, and then by clicking on "thematic compilations."</p></figcaption></figure>
 
 3. _Filter by rating:_ TGStat also has a rating system for channels, groups, and posts. This in turn, is a valuable indicator of channel popularity and audience engagement.
 
@@ -104,7 +104,7 @@ To get to the advanced search feature, users can click "Catalog" in the upper le
 
 This tool also solves the problem of visualizing posts' reach and their relationship with other user accounts, channels, and content. TGstat can pull up a specific channel's analytics and show the relationship between accounts through the “Citation” section. This section shows who cites whom.
 
-<figure><img src=".gitbook/assets/IMG_0214.jpeg" alt=""><figcaption><p>This image displays "incoming mentions" on the left and "outgoing mentions" on the right. "Incoming mentions" are channels or groups that mention this channel, while "outgoing mentions" are accounts this channel mentions. To access this feature, go to the main page of the channel you are researching, click on the blue bar labeled "Channel Statistics" on the right side of the page, then select "Citation" from the left-hand menu.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IMG_0214.jpeg" alt=""><figcaption><p>This image displays "incoming mentions" on the left and "outgoing mentions" on the right. "Incoming mentions" are channels or groups that mention this channel, while "outgoing mentions" are accounts this channel mentions. To access this feature, go to the main page of the channel you are researching, click on the blue bar labeled "Channel Statistics" on the right side of the page, then select "Citation" from the left-hand menu.</p></figcaption></figure>
 
 Users can use this feature during the preplanning stage to find other channels that might give them more information for their research. It can also show users what the channel tries to achieve and why.
 
@@ -117,13 +117,13 @@ Another way to see the relationship between channels is through the "Similar cha
 \
 In addition, users can see a channel or group's popularity over time.
 
-<figure><img src=".gitbook/assets/IMG_0211.jpeg" alt=""><figcaption><p>When trying to look for more information on a research topic, or to figure out which other channels may be discussing a particular incident under investigation, TGStat users can navigate the “similar channels” or “related channels”. This can be found on the main page of the user’s TGStat profile.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IMG_0211.jpeg" alt=""><figcaption><p>When trying to look for more information on a research topic, or to figure out which other channels may be discussing a particular incident under investigation, TGStat users can navigate the “similar channels” or “related channels”. This can be found on the main page of the user’s TGStat profile.</p></figcaption></figure>
 
 ### **Analytics**
 
 TGStat helps analyze content and reach. It provides insight into the channel or group’s performance, such as subscriber numbers, subscribers acquired over time, or those acquired based on the popularity of posts, reach, views per post, and engagement metrics (likes, comments, shares) per individual posts. This enables the user to understand what content resonates with a particular audience.
 
-<figure><img src=".gitbook/assets/IMG_0195 (1).PNG" alt=""><figcaption><p>This screenshot shows a TGStat feature called “Views Analysis”. This feature allows users to check a post’s popularity by date and by hour after it's been published. This feature can be accessed through the menu on the left of the page.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IMG_0195 (1).PNG" alt=""><figcaption><p>This screenshot shows a TGStat feature called “Views Analysis”. This feature allows users to check a post’s popularity by date and by hour after it's been published. This feature can be accessed through the menu on the left of the page.</p></figcaption></figure>
 
 ## Cost
 
@@ -131,15 +131,13 @@ TGStat helps analyze content and reach. It provides insight into the channel or 
 * [x] Partially Free
 * [ ] Paid
 
-TGStat has both free and paid versions.&#x20;
+TGStat has both free and paid versions.
 
 The versions are: Free, Personal, Corporate (see website for pricing)
 
-Below is a quick comparison of their subscription plan.&#x20;
+Below is a quick comparison of their subscription plan.
 
-<figure><img src=".gitbook/assets/IMG_0702.jpeg" alt=""><figcaption><p>Paid plans for three different tiers and their corresponding content. (Image credit: TGSTAT.COM websites)</p></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/IMG_0702.jpeg" alt=""><figcaption><p>Paid plans for three different tiers and their corresponding content. (Image credit: TGSTAT.COM websites)</p></figcaption></figure>
 
 Other paid features are: Access to Stat API (fee comparison here: [https://tgstat.ru/en/api/stat](https://tgstat.ru/en/api/stat)), Access to Search API ([https://tgstat.ru/en/api/search](https://tgstat.ru/en/api/search)), Access to Callback API ([https://tgstat.ru/en/api/callback](https://tgstat.ru/en/api/callback))
 
@@ -171,7 +169,7 @@ The tool has a few limitations.
 
 If not logged in, users can see the channel’s “Summary” analytics.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-05-30 061656 (1).png" alt="" width="563"><figcaption><p>This shows a summary of the analytics available to users who are not logged in. This can be accessed by searching for a Telegram username on the search bar on the top of the page. Once on the channel or group’s page, click on “Statistics” to the right. Then, click on “Summary” on the menu bar to the left.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-05-30 061656 (1).png" alt="" width="563"><figcaption><p>This shows a summary of the analytics available to users who are not logged in. This can be accessed by searching for a Telegram username on the search bar on the top of the page. Once on the channel or group’s page, click on “Statistics” to the right. Then, click on “Summary” on the menu bar to the left.</p></figcaption></figure>
 
 If not logged in, users cannot access the following features: subscribers, citation index, citation, average post reach, subscriber engagement, post views analysis, attracting subscribers, external traffic, and top posts.
 

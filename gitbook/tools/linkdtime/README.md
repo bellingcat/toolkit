@@ -16,7 +16,7 @@ description: >-
 
 LinkdTime is a small CLI Python tool that **derives precise timestamps from LinkedIn activity URLs** (posts, comments/replies, profile‑photo/background‑image/company‑logo changes) and can assemble them into a chronological timeline (HTML/TXT). For timestamping, it **decodes the numeric ID embedded in LinkedIn URLs** rather than scraping page HTML, so the time extraction itself works **without network access**; optional flags can **save/download images** for timelines. Outputs are a single timestamp for one URL or an HTML/TXT timeline for a list, with **timezone, date, and clock format configurable**. (see [GitHub](https://github.com/Lucksi/LinkdTime)).
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
 It accepts either:\
 • **A single LinkedIn URL** – e.g. `https://www.linkedin.com/feed/update/urn:li:activity:...` or a comment permalink – and prints the precise UTC time the action occurred;\

@@ -1,8 +1,8 @@
 ---
+updated: '2026-06-24'
 description: >-
   An online tool that allows you to search across public data breaches to
   surface credentials that may have been compromised.
-updated: '2026-06-24'
 ---
 
 # Leak-Lookup
@@ -13,32 +13,32 @@ updated: '2026-06-24'
 
 ## Description
 
-Leak Lookup is an online tool and database search platform that allows users to check whether their personal information, such as email addresses, usernames, or passwords, has been exposed in data breaches. By entering a query, users can search its database of leaked data to identify if their information has been compromised.&#x20;
+Leak Lookup is an online tool and database search platform that allows users to check whether their personal information, such as email addresses, usernames, or passwords, has been exposed in data breaches. By entering a query, users can search its database of leaked data to identify if their information has been compromised.
 
-Leak Lookup's collection appears to contain publicly available databases from web applications and services that have been breached, leaked or scraped as well as collections of credentials or personally identifiable information (PII) such as [Collection 1](https://en.wikipedia.org/wiki/Collection_No._1). For each "breach", users are able to see the data types that have been exposed such as email address, username, full name, cleartext or hashed password.&#x20;
+Leak Lookup's collection appears to contain publicly available databases from web applications and services that have been breached, leaked or scraped as well as collections of credentials or personally identifiable information (PII) such as [Collection 1](https://en.wikipedia.org/wiki/Collection_No._1). For each "breach", users are able to see the data types that have been exposed such as email address, username, full name, cleartext or hashed password.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-24 at 3.20.21 PM.png" alt=""><figcaption><p>Sample record of breach information</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-24 at 3.20.21 PM.png" alt=""><figcaption><p>Sample record of breach information</p></figcaption></figure>
 
 As of June 2026, Leak-Lookup also has the following API offerings:
 
-* [**Search**](https://leak-lookup.com/docs/search)**:** The "search" API is designed to provide a simple and easy to use endpoint for end-users to search across all indexed breaches. Users can search by types of indicators such as email address, username, IP address, phone number, domain etc.&#x20;
+* [**Search**](https://leak-lookup.com/docs/search)**:** The "search" API is designed to provide a simple and easy to use endpoint for end-users to search across all indexed breaches. Users can search by types of indicators such as email address, username, IP address, phone number, domain etc.
 * [**Hash**](https://leak-lookup.com/docs/=hash#requirements)**:** The "hash" API is designed to provide hash-cracking capabilities for end-users, meaning a user can submit a hashed value of a password and the API endpoint will return the cleartext value of the password if the hash has been "cracked." If the hash has been cracked a plain-text value will be returned, if not it will be added to the 'cracking' queue.
 * [**Stat**](https://leak-lookup.com/docs/=stats#requirements)**:** The "stats" API is used to retrieve information relating to the current API key, this includes information such as the current request limits, daily request limits etc.
 
-#### Understanding Public/Private API Access Tiers:&#x20;
+#### Understanding Public/Private API Access Tiers:
 
 * **Leak-Lookup's Public API Tier:** Free of cost, restricted to only returning the site name of the searched query — indexed columns are stripped from the response.
-* **Leak-Lookup's Private API Tier**: Priced on a credit/subscription basis oriented towards security teams, businesses, and organizations, subject to overhead charges. Returns all indexed columns for the provided search query.&#x20;
+* **Leak-Lookup's Private API Tier**: Priced on a credit/subscription basis oriented towards security teams, businesses, and organizations, subject to overhead charges. Returns all indexed columns for the provided search query.
 
 ## How to use it <a href="#how-to-use-it" id="how-to-use-it"></a>
 
-Leak-Lookup's investigative value stems from the comprehensive, easily accessible collection of data via public and private APIs.&#x20;
+Leak-Lookup's investigative value stems from the comprehensive, easily accessible collection of data via public and private APIs.
 
-**Step 1 - Log in and begin a search query:**&#x20;
+**Step 1 - Log in and begin a search query:**
 
-Create a free account at leak-lookup.com and log in.&#x20;
+Create a free account at leak-lookup.com and log in.
 
-**Step 2 - Run a search:**&#x20;
+**Step 2 - Run a search:**
 
 On the dashboard, open the Search panel and select one or more **Field(s)** to search by (Email, Username, IP Address, Phone, Domain, Password), then enter your **Query** and click search. Results list which breaches the identifier appears in and what data types were exposed in each.
 
@@ -49,7 +49,7 @@ Four **Search Options** are available:
 * **Wildcard Match** — greyed out; not yet released
 * **Automatic Unlock** — requires a paid subscription
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 3.51.21 PM.png" alt=""><figcaption><p>Sample search query </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-06-21 at 3.51.21 PM.png" alt=""><figcaption><p>Sample search query</p></figcaption></figure>
 
 ## Cost
 
@@ -69,32 +69,32 @@ Users must register an account to conduct searches; account registration is free
 
 ## Limitations
 
-A subscription to the service is needed in order to view the full breach details for any given record. Without a subscription, API keys have limitations on how many API calls a user can make — approximately 10 API calls per day per user.&#x20;
+A subscription to the service is needed in order to view the full breach details for any given record. Without a subscription, API keys have limitations on how many API calls a user can make — approximately 10 API calls per day per user.
 
-Both public and private API keys offer 5 requests per minute and 10,000 maximum results per search query. However, with purchase of a private API key, a manual export of queries that trigger more than 10,000 results can be completed by contacting the Leak Lookup [support team](https://leak-lookup.com/support/contact).&#x20;
+Both public and private API keys offer 5 requests per minute and 10,000 maximum results per search query. However, with purchase of a private API key, a manual export of queries that trigger more than 10,000 results can be completed by contacting the Leak Lookup [support team](https://leak-lookup.com/support/contact).
 
 ## Ethical Considerations
 
 ## Similar Tools
 
-The following tools in the Bellingcat toolkit similarly allow users to check whether sensitive information has been exposed in data breaches: &#x20;
+The following tools in the Bellingcat toolkit similarly allow users to check whether sensitive information has been exposed in data breaches:
 
 * [**TruffleHog**](https://bellingcat.gitbook.io/toolkit/more/all-tools/trufflehog) - TruffleHog is a tool that is capable of finding, verifying, and analyzing leaked credentials.
 * [**Have I Been Pwned?**](https://bellingcat.gitbook.io/toolkit/more/all-tools/have-i-been-pwned) - Have I Been Pwned (HIBP) allows you to search across multiple data breaches to see if your email address has been compromised.
 
-Leak-Lookup's collection of data appears comprehensive compared to other similar tools such as [HaveIBeenPwned](https://bellingcat.gitbook.io/toolkit/more/all-tools/have-i-been-pwned) (HIBP): as of June 2026, Leak-Lookup [has](https://leak-lookup.com/) approximately 28 million total records from 4,766 breaches while HIBP [has](https://haveibeenpwned.com/) approximately 17 million records from 1,011 websites. It should be noted that despite the larger number of records and "breaches" that Leak-Lookup has, the service appears to count every data field from a breach or leak as one record, while HIBP's record count is based on the number of accounts that have been compromised (which often involves multiple data fields). Additionally, HIBP has a [unique working relationship](https://cisomag.com/have-i-been-pwned-goes-open-source-partners-with-fbi/amp/) with law enforcement entities, specifically the FBI, and security researchers. As such, there have been times when the service was  given exclusive access to compromised data by law enforcement partners (including an [ongoing general partnership](https://therecord.media/the-fbi-will-feed-hacked-passwords-directly-into-have-i-been-pwned) with the FBI established in 2021) and security researchers, such as [data from People Data Labs (PDL) ](https://www.troyhunt.com/data-enrichment-people-data-labs-and-another-622m-email-addresses/)which was discovered by researchers Vinny Troia and Bob Diachenko.&#x20;
+Leak-Lookup's collection of data appears comprehensive compared to other similar tools such as [HaveIBeenPwned](https://bellingcat.gitbook.io/toolkit/more/all-tools/have-i-been-pwned) (HIBP): as of June 2026, Leak-Lookup [has](https://leak-lookup.com/) approximately 28 million total records from 4,766 breaches while HIBP [has](https://haveibeenpwned.com/) approximately 17 million records from 1,011 websites. It should be noted that despite the larger number of records and "breaches" that Leak-Lookup has, the service appears to count every data field from a breach or leak as one record, while HIBP's record count is based on the number of accounts that have been compromised (which often involves multiple data fields). Additionally, HIBP has a [unique working relationship](https://cisomag.com/have-i-been-pwned-goes-open-source-partners-with-fbi/amp/) with law enforcement entities, specifically the FBI, and security researchers. As such, there have been times when the service was given exclusive access to compromised data by law enforcement partners (including an [ongoing general partnership](https://therecord.media/the-fbi-will-feed-hacked-passwords-directly-into-have-i-been-pwned) with the FBI established in 2021) and security researchers, such as [data from People Data Labs (PDL) ](https://www.troyhunt.com/data-enrichment-people-data-labs-and-another-622m-email-addresses/)which was discovered by researchers Vinny Troia and Bob Diachenko.
 
 ## Guides and articles
 
-Leak-Lookup has a general support documentation and a FAQ page [here](https://leak-lookup.com/support/general). Status checks of 5-minute interval tests to the Leak-Lookup APIs can be found [here](https://status.leak-lookup.com/).&#x20;
+Leak-Lookup has a general support documentation and a FAQ page [here](https://leak-lookup.com/support/general). Status checks of 5-minute interval tests to the Leak-Lookup APIs can be found [here](https://status.leak-lookup.com/).
 
-Leak-Lookup has documentation on API capabilities here: [search](https://leak-lookup.com/docs/search), [hash](https://leak-lookup.com/docs/hash), [stat](https://leak-lookup.com/docs/stats).&#x20;
+Leak-Lookup has documentation on API capabilities here: [search](https://leak-lookup.com/docs/search), [hash](https://leak-lookup.com/docs/hash), [stat](https://leak-lookup.com/docs/stats).
 
 ## Tool provider
 
 Leak-Lookup, location unknown.
 
-Leak-Lookup can be reached at info(at)leak-lookup.com or on X, the social media platform formerly known as [Twitter](https://x.com/leaklookup).&#x20;
+Leak-Lookup can be reached at info(at)leak-lookup.com or on X, the social media platform formerly known as [Twitter](https://x.com/leaklookup).
 
 ## Advertising Trackers
 

@@ -140,7 +140,7 @@ _(Refer to the full Terms of Service via the `/terms` command in the bot for com
 [TelegramDB.org](https://telegramdb.org) maintains the service and its infrastructure (the developers have not publicly disclosed organizational details). The service operates[ servers in Europe​](https://telegramdb.org/article/introduction).
 
 But they're listening to the community:\
-![](.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (42).png>)
 
 ## Advertising Trackers
 

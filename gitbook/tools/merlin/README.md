@@ -1,6 +1,6 @@
 ---
 updated: '2026-01-16'
-description: 'Identify birds (visually), through an app.'
+description: Identify birds (visually), through an app.
 ---
 
 # Merlin
@@ -19,17 +19,17 @@ It has three identification methods:
 
 Enter characteristics such as the color of the bird and size to find your bird. Merlin offers numerous options depending on location and date. You will get a description of each bird found matching the search terms, sounds and geographic expansion of the birds.
 
-<div align="left"><figure><img src=".gitbook/assets/WhatsAppVideo2025-04-04at16.02.171-ezgif.com-video-to-gif-converter (1).gif" alt="" width="208"><figcaption><p>Here is an example of how to use this option looking for a Lesser kiskadee in a city in Colombia.</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/WhatsAppVideo2025-04-04at16.02.171-ezgif.com-video-to-gif-converter (1).gif" alt="" width="208"><figcaption><p>Here is an example of how to use this option looking for a Lesser kiskadee in a city in Colombia.</p></figcaption></figure></div>
 
 2. Sound ID
 
-You can record birds and Merlin will match them with birds near you based on your location. The sounds you upload are saved in the app with location and time information. The recognition system is good enough to detect the sound of birds even with a little background noise. They have [2066 bird species sounds](https://ebird.org/region/AU-WA-WAN/post/merlin-sound-id-is-coming-to-australia)!&#x20;
+You can record birds and Merlin will match them with birds near you based on your location. The sounds you upload are saved in the app with location and time information. The recognition system is good enough to detect the sound of birds even with a little background noise. They have [2066 bird species sounds](https://ebird.org/region/AU-WA-WAN/post/merlin-sound-id-is-coming-to-australia)!
 
 3. Photo ID
 
 You can take a photo of your bird of interest or upload an existing one from your gallery. You can also optionally add location and date information. The app will match the image with species in the database.
 
-<div align="left"><figure><img src=".gitbook/assets/WhatsAppVideo2025-04-04at16.47.231-ezgif.com-video-to-gif-converter.gif" alt="" width="208"><figcaption><p>An example of this option looking for a blue and yellow macaw in Colombia.</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/WhatsAppVideo2025-04-04at16.47.231-ezgif.com-video-to-gif-converter.gif" alt="" width="208"><figcaption><p>An example of this option looking for a blue and yellow macaw in Colombia.</p></figcaption></figure></div>
 
 For a successful identification, be sure to enter as many characteristics as you can. This way the system can provide more specific results. In testing the app, 8 out of 10 times the system returned the bird I was looking for. The app gives many options and can be confusing if searching for a bird with similar colors and characteristics to others.
 

@@ -30,7 +30,7 @@ A **protected area** is a clearly defined area of land and/or sea especially ded
 
 A **conserved area** is a geographical area that is not an official protected area, and where conservation is a by-product. For example, conserved areas include military reserves (e.g., [Canadian Forces Base Shilo in Manitoba, Canada](https://panorama.solutions/en/solution/natural-areas-canadian-forces-base-shilo-recognized-oecm)) or shipwrecks (e.g., the [Scapa Flow Wreck](https://www.bbc.com/news/articles/c776ng7xe02o) in Scotland, [whose conserved area status took effect on 1st November, 2025](https://www.gov.scot/publications/scapa-flow-historic-marine-protected-area-order-2025/)).
 
-<figure><img src=".gitbook/assets/shilo (1).png" alt="Screenshot of the Canadian Forces Base Shilo. Left panel shows a Site ID and the reported area, and the right side shows a terrain map marking the land area. The military base is an example of an OECM." width="375"><figcaption><p>Information on the Canadian Forces Base Shilo, as shown on the WDPCA,<br><a href="https://www.protectedplanet.net/555705170">https://www.protectedplanet.net/555705170</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/shilo (1).png" alt="Screenshot of the Canadian Forces Base Shilo. Left panel shows a Site ID and the reported area, and the right side shows a terrain map marking the land area. The military base is an example of an OECM." width="375"><figcaption><p>Information on the Canadian Forces Base Shilo, as shown on the WDPCA,<br><a href="https://www.protectedplanet.net/555705170">https://www.protectedplanet.net/555705170</a></p></figcaption></figure>
 
 (Conserved areas are formally known as Other Effective Area-based Conservation Measure, OECM, [defined in 2018 at CBD COP14](https://www.cbd.int/doc/decisions/cop-14/cop-14-dec-08-en.pdf). In this guide, we will use "conserved areas" for readability.)
 
@@ -64,7 +64,7 @@ By default, using the search bar toward the top of the page would perform a keyw
 \
 If you are seeking information for a continent or country level, select Regions or Country options respectively. These options are shown in the orange rectangle in the screenshot below.
 
-<p align="center"><img src=".gitbook/assets/WDPCA_search.png" alt="Search results in the World Database for Protected and Conserved Areas (WDPCA) for &#x27;Cotswold&#x27; - referring to a protected area in the UK. Five results are shown. Users can select Regions to search for data at a continental level (e.g., Polar), or select Country to search for data at a country level." data-size="original"><br>Example of searching WDPCA for 'Cotswold'</p>
+<p align="center"><img src="../../.gitbook/assets/WDPCA_search.png" alt="Search results in the World Database for Protected and Conserved Areas (WDPCA) for &#x27;Cotswold&#x27; - referring to a protected area in the UK. Five results are shown. Users can select Regions to search for data at a continental level (e.g., Polar), or select Country to search for data at a country level." data-size="original"><br>Example of searching WDPCA for 'Cotswold'</p>
 
 * **Regions** refer to different continents or regional groupings: Asia & Pacific, Africa, Europe, Latin America & Caribbean, Polar, North America, and West Asia
 * **Countries**: Data are available for 247 countries and jurisdictions.
@@ -115,11 +115,11 @@ Assuming that you have the Google Earth Pro software installed, open it, and dra
 
 For example, we downloaded the shapefiles for all protected and conserved areas in Egypt. Due to file size, the download was split into 3 zip files which contain 6 sets of shapefiles. We dragged the 6 .shp files onto Google Earth Pro.
 
-<figure><img src=".gitbook/assets/Egypt.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Egypt.png" alt=""><figcaption></figcaption></figure>
 
 Now you can click on an area to see the data available.
 
-![](.gitbook/assets/Hover.png)\\
+![](../../.gitbook/assets/Hover.png)\\
 
 :information\_source: If needed, **you can change the color scheme** within Google Earth Pro. Right-click on the shapefile layer in the Places panel and select "Properties". If you wish to change the color for an individual polygon, click "Get Info". This will open a properties window. Select the "Style, Color" tab to change the colors.
 

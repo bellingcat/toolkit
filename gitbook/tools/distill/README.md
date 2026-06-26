@@ -51,7 +51,7 @@ For Open Source Researchers, Distill.io can be an invaluable tool for:
 
 First, you can register using your own email or a dedicated email address or alias. You can see all running monitors on your [watchlist](https://distill.io/docs/web-monitor/what-is-watchlist/). You can monitor websites, feeds, JSONs, PDFs, Word documents, uptime, and whole sitemaps (alpha, may be buggy).
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Click on Add Monitor to configure a new monitor</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (5).png" alt=""><figcaption><p>Click on Add Monitor to configure a new monitor</p></figcaption></figure>
 
 When you add a new monitor, you make the following choices:
 
@@ -61,15 +61,15 @@ When you add a new monitor, you make the following choices:
 * Actions: The free service lets you send yourself an email, or, if you're running a local monitor, open the website, receive a notification, or [play a sound](https://distill.io/docs/web-monitor/audio-notification-on-change/). Starter unlocks webhooks & SMS; Professional adds unlimited emails/push & higher SMS caps; Flexi raises all limits. Noteworthy among those are push notifications if you're using the [phone app ](https://distill.io/docs/web-monitor/web-monitor-for-ios/)(be mindful of possible tracking), [SMS](https://distill.io/docs/web-monitor/get-sms-alert-on-webpage-change/), notifications on [Discord, Teams and Slack](https://distill.io/docs/web-monitor/change-notifications-on-slack-discord-and-teams/), [webhooks ](https://distill.io/docs/web-monitor/trigger-webhook-on-website-change/)(which allow developers to integrate it into 3rd party services)
 * [Schedule Checks](https://distill.io/docs/web-monitor/schedule-checks/): How often do you need your source to be checked for changes?
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Add a monitor for your website and configure source, schedule checks, and define alerts when changes occur.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (5).png" alt=""><figcaption><p>Add a monitor for your website and configure source, schedule checks, and define alerts when changes occur.</p></figcaption></figure>
 
 When you add a monitor, you can use the Visual Selector Tool to select only those parts of the website that you want to be alerted about if they change. These could be release versions, GitHub issue submissions, or parts of a text that contain information about a person or entity.
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>This monitor will check for updates on the author's bio in the toolkit guardian section.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (3).png" alt=""><figcaption><p>This monitor will check for updates on the author's bio in the toolkit guardian section.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption><p>This monitor shows will check a github repository for new issues, changes, and new releases.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (5).png" alt=""><figcaption><p>This monitor shows will check a github repository for new issues, changes, and new releases.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>This monitor will check whether a chrome extrension was updated recently. (It was!)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (3).png" alt=""><figcaption><p>This monitor will check whether a chrome extrension was updated recently. (It was!)</p></figcaption></figure>
 
 After you click save, your monitor will be active.
 

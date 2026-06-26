@@ -15,7 +15,7 @@ description: >-
 
 The main objective of Atlos is to enable teams of investigators to collaborate easily, even on large-scale investigations. Investigations are divided into several cases or occurrences called ‘incidents’.
 
-<figure><img src=".gitbook/assets/index.png" alt=""><figcaption><p>View of an ‘incident’ page on Atlos.<br>The 'Feed' section shows all the activity on the Atlos platform including when researchers have created an incident or added a new file.<br>Source: <a href="https://docs.atlos.org/overview/">https://docs.atlos.org/overview/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/index.png" alt=""><figcaption><p>View of an ‘incident’ page on Atlos.<br>The 'Feed' section shows all the activity on the Atlos platform including when researchers have created an incident or added a new file.<br>Source: <a href="https://docs.atlos.org/overview/">https://docs.atlos.org/overview/</a></p></figcaption></figure>
 
 You can, on a single page:
 
@@ -24,7 +24,7 @@ You can, on a single page:
 * collect digital material such as photos, videos and pdfs from all over the Internet (press articles, Telegram or X posts,...);
 * ... and archive it automatically;
 
-<figure><img src=".gitbook/assets/sourcematerial.png" alt=""><figcaption><p>View of an archived file, in this example a video.<br>Source: <a href="https://docs.atlos.org/incidents/source-material/">https://docs.atlos.org/incidents/source-material/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sourcematerial.png" alt=""><figcaption><p>View of an archived file, in this example a video.<br>Source: <a href="https://docs.atlos.org/incidents/source-material/">https://docs.atlos.org/incidents/source-material/</a></p></figcaption></figure>
 
 * see visual material displayed in default greyscale, or colour;
 * organise who is assigned to a case or will receive updates on it;
@@ -33,9 +33,9 @@ You can, on a single page:
 * specify the GPS coordinates and find the incident on a map;
 * analyse the progress of your investigation (How many incidents are waiting to be addressed? Where are incidents geolocated?...).
 
-<figure><img src=".gitbook/assets/map.png" alt=""><figcaption><p>Geolocated incidents are visualised on a map.<br>Source: <a href="https://docs.atlos.org/">https://docs.atlos.org/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/map.png" alt=""><figcaption><p>Geolocated incidents are visualised on a map.<br>Source: <a href="https://docs.atlos.org/">https://docs.atlos.org/</a></p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/searchdata.png" alt=""><figcaption><p>Example for a project overview which shows a list of incidents, their status, date and incident type.<br>Source: <a href="https://docs.atlos.org/investigations/searching-and-visualizing-data/">https://docs.atlos.org/investigations/searching-and-visualizing-data/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/searchdata.png" alt=""><figcaption><p>Example for a project overview which shows a list of incidents, their status, date and incident type.<br>Source: <a href="https://docs.atlos.org/investigations/searching-and-visualizing-data/">https://docs.atlos.org/investigations/searching-and-visualizing-data/</a></p></figcaption></figure>
 
 This platform is open source (see [here](https://github.com/atlosdotorg/atlos)), and you can:
 
@@ -61,7 +61,7 @@ Further pricing information can be found [here](https://docs.atlos.org/overview/
 
 At the top of the [tool webpage](https://www.atlos.org/), click on ‘Join Atlos’ and fill in the short form with your e-mail address and name and choose a password. You will be able to use multi-factor authentification to secure your access to Atlos.
 
-<figure><img src=".gitbook/assets/Capture d’écran 2025-02-26 à 22.10.51.png" alt=""><figcaption><p>Source: <a href="https://www.atlos.org/">https://www.atlos.org/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2025-02-26 à 22.10.51.png" alt=""><figcaption><p>Source: <a href="https://www.atlos.org/">https://www.atlos.org/</a></p></figcaption></figure>
 
 ## Limitations
 

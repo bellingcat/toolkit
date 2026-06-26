@@ -12,7 +12,7 @@ description: A command line tool for obtaining information about Google accounts
 
 ## Description
 
-<figure><img src=".gitbook/assets/Screenshot 2024-07-29 at 10.49.53 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-07-29 at 10.49.53 PM.png" alt=""><figcaption></figcaption></figure>
 
 GHunt is a local, CLI‑based framework for investigating Google accounts and artifacts. It authenticates with a Google session (via the [**GHunt Companion** browser extension](https://github.com/mxrch/ghunt_companion); [Mozilla addon](https://addons.mozilla.org/en-US/firefox/addon/ghunt-companion/)) and exposes modules to pivot from inputs such as Gmail address, GAIA ID, Google Drive links, Wi‑Fi BSSID, and Digital Asset Links (DAL). Typical outputs include GAIA ID discovery from an email, service associations, Drive file/folder metadata, and approximate BSSID geolocation; JSON export is supported for several modules. As of v2.1.0, GHunt moved to an OAuth‑token based login flow while remaining compatible with the Companion extension.
 
@@ -28,7 +28,7 @@ The developers have provided 2 scripts that leverage the tool [here](https://git
 
 The easiest way to authenticate into Ghunt is to use authentication option 2 alongside the Ghunt browser extension. After selecting option 2, go to your browser extension and obtain the base64-encoded credentials. You can use these to authenticate to Ghunt.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-07-29 at 10.47.52 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-07-29 at 10.47.52 PM.png" alt=""><figcaption></figcaption></figure>
 
 Once authenticated, you have the following search options:
 
@@ -37,7 +37,7 @@ Once authenticated, you have the following search options:
 * **drive**: Get information on a Drive file or folder.
 * **geolocate**: Geolocate a [BSSID](https://www.gorelo.io/blog/what-is-bssid/).
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-20 at 12.06.20 PM.png" alt=""><figcaption><p>A sample search using a Gmail email address</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-08-20 at 12.06.20 PM.png" alt=""><figcaption><p>A sample search using a Gmail email address</p></figcaption></figure>
 
 ## Cost
 

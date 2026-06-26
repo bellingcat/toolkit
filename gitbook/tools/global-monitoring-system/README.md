@@ -1,6 +1,6 @@
 ---
 updated: '2025-10-20'
-description: 'Illicit online wildlife markets data from Brazil, South Africa and Thailand.'
+description: Illicit online wildlife markets data from Brazil, South Africa and Thailand.
 ---
 
 # Global Monitoring System - ECOSOLVE
@@ -13,17 +13,17 @@ description: 'Illicit online wildlife markets data from Brazil, South Africa and
 
 This tool allows us to explore a [growing](https://globalinitiative.net/wp-content/uploads/2024/10/Monitoring-illegal-wildlife-trade-Brazil-and-South-Africa-GI-TOC-October-2024.pdf) phenomenon in the world of wildlife trafficking: the use of social networks and online marketplaces to offer live animals or parts of them. To date, the tool has [recorded](https://www.linkedin.com/pulse/september-2025-the-global-initiative-against-tran-hqs9f/) nearly 13,000 online wildlife trade ads on various platforms, written in 29 different languages, across 10 data hubs.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-01-27 at 11.19.37 AM.png" alt=""><figcaption><p>Traffickers use social networks and online marketplaces such as Facebook Marketplace to sell or ask for live animals for sale or animal parts. The trade is sometimes <a href="https://globalinitiative.net/wp-content/uploads/2024/10/Monitoring-illegal-wildlife-trade-Brazil-and-South-Africa-GI-TOC-October-2024.pdf">connected</a> with other illegal markets such as drugs trafficking. The screenshot above is from a video that you can find <a href="https://www.youtube.com/watch?v=WfEKg_pqYvs\">here</a>.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-27 at 11.19.37 AM.png" alt=""><figcaption><p>Traffickers use social networks and online marketplaces such as Facebook Marketplace to sell or ask for live animals for sale or animal parts. The trade is sometimes <a href="https://globalinitiative.net/wp-content/uploads/2024/10/Monitoring-illegal-wildlife-trade-Brazil-and-South-Africa-GI-TOC-October-2024.pdf">connected</a> with other illegal markets such as drugs trafficking. The screenshot above is from a video that you can find <a href="https://www.youtube.com/watch?v=WfEKg_pqYvs\">here</a>.</p></figcaption></figure>
 
 The system allows filtering by 31 species, 16 countries plus unknown location (among the countries you can find Brazil, South Africa, Bangladesh, Colombia, India, Turkey, Thailand) and 40 different online marketplaces such as Instagram, Facebook, OLX and Mercado Livre (the last two refer to online marketplaces). When you perform a search you will get different visuals showing the number of detections, a market tracker and a trend monitor, all very useful to understand the market prevalence in certain online marketplaces.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-02-28 at 5.57.41 PM.png" alt=""><figcaption><p>Here, for example, I have searched for Pangolin in all countries + all platforms covered by the site.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-28 at 5.57.41 PM.png" alt=""><figcaption><p>Here, for example, I have searched for Pangolin in all countries + all platforms covered by the site.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Screenshot 2025-02-28 at 6.04.04 PM.png" alt=""><figcaption><p>The visuals are set to show me how many ads are available on the topic.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-28 at 6.04.04 PM.png" alt=""><figcaption><p>The visuals are set to show me how many ads are available on the topic.</p></figcaption></figure>
 
 In addition, you will get a database that lists the website, name, species, type of product (live or parts), where it was sold, among other information. You can also download the whole database.
 
-<figure><img src=".gitbook/assets/Screenshot 2025-02-28 at 6.05.51 PM.png" alt=""><figcaption><p>This is what the database looks like when searching for Pangolin.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-28 at 6.05.51 PM.png" alt=""><figcaption><p>This is what the database looks like when searching for Pangolin.</p></figcaption></figure>
 
 Additionally, there is an [analysis section](https://www.ecosolve.eco/analysis) where you can find different publications and events on online wildlife trade, environmental trade, among other relevant topics from the Global Initiative against Transnational Organized Crime (GI TOC).
 

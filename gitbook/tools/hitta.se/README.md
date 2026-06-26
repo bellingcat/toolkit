@@ -1,9 +1,9 @@
 ---
+updated: '2026-06-24'
 description: >-
   Hitta.se is a comprehensive Swedish search engine and map that provides
   detailed information and contact details for businesses and individuals across
   Sweden.
-updated: '2026-06-24'
 ---
 
 # Hitta.se
@@ -14,7 +14,7 @@ updated: '2026-06-24'
 
 ## Description
 
-Hitta.se is a tool that specializes in providing comprehensive information, ranging from phone numbers and addresses to maps and driving directions for individuals and businesses in Sweden. It serves as a multi-purpose platform where users can search for detailed data on various types of entities within Sweden. Whether it's looking up a local restaurant, finding the contact information of a business, or mapping out a route. It has a significant amount of data about individuals which requires caution when using it.&#x20;
+Hitta.se is a tool that specializes in providing comprehensive information, ranging from phone numbers and addresses to maps and driving directions for individuals and businesses in Sweden. It serves as a multi-purpose platform where users can search for detailed data on various types of entities within Sweden. Whether it's looking up a local restaurant, finding the contact information of a business, or mapping out a route. It has a significant amount of data about individuals which requires caution when using it.
 
 #### People and Business Features:
 
@@ -25,7 +25,7 @@ Hitta.se is a tool that specializes in providing comprehensive information, rang
 * **Land boundaries:** map of different plot boundaries.
 * **Noteworthy People:** list of Sweden's most searched for people.
 * **Plot report**: overview map, areas, plans, regulations, and assessment information.
-* **People search:** search peoples' home address, phone number, date of birth, other members living in the same house, real estate value, mortgage rate.&#x20;
+* **People search:** search peoples' home address, phone number, date of birth, other members living in the same house, real estate value, mortgage rate.
 
 **Warning:** The Bellingcat volunteer community does not support the use of this tool for any form of doxxing or inappropriate use of this information (see: [**Ethical Considerations**](./#ethical-considerations)).
 
@@ -34,25 +34,23 @@ Hitta.se is a tool that specializes in providing comprehensive information, rang
 * **Coordinates tool:** latitude and longitude in multiple geographic coordinate systems.
 * **Coverage:** limited to Sweden.
 * **Measure distance:** measure distance between points in metres.
-* **Imagery:** Map, Satellite, 3D, Drone Imagery, Land boundary plots, Topographic Map, Open Air - House trends price.&#x20;
+* **Imagery:** Map, Satellite, 3D, Drone Imagery, Land boundary plots, Topographic Map, Open Air - House trends price.
 * **Language:** limited to Swedish.
 * **Location search:** search by location name.
 * **Directions:** cars and public transport directions and times.
-* **Print:** print the visible screen area.&#x20;
-* **Sharing:** share a link to the selected location.&#x20;
-* **Your location:** share your location and automatically see it on the map (if you are in Sweden).&#x20;
+* **Print:** print the visible screen area.
+* **Sharing:** share a link to the selected location.
+* **Your location:** share your location and automatically see it on the map (if you are in Sweden).
 * **Zoom tool:** zoom in and out on the map.
-* **Demographic insights:** view neighborhood data including average incomes, loan amounts and voting patterns. Coverage may vary by location.&#x20;
+* **Demographic insights:** view neighborhood data including average incomes, loan amounts and voting patterns. Coverage may vary by location.
 
 Search results for a neighborhood in Stockhom:
 
-<figure><img src=".gitbook/assets/Hitta sample image.jpg" alt="" width="563"><figcaption></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/Hitta sample image.jpg" alt="" width="563"><figcaption></figcaption></figure>
 
 Search results for the search term _Stockholm:_
 
-<figure><img src=".gitbook/assets/Screenshot 2024-04-26 at 1.11.40 PM.png" alt="Screenshot of a search for the term Stockholm on the hitta.se map shows a map with roads and boundaries around Stockholm."><figcaption><p>Screenshot of search results for the term Stockholm</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-04-26 at 1.11.40 PM.png" alt="Screenshot of a search for the term Stockholm on the hitta.se map shows a map with roads and boundaries around Stockholm."><figcaption><p>Screenshot of search results for the term Stockholm</p></figcaption></figure>
 
 ## Cost
 
@@ -69,7 +67,7 @@ API usage incurs fees (English translation [https://www-hitta-se.translate.goog/
 ## Requirements
 
 * **iPad**
-* **Mobile:** Android, iPhone and&#x20;
+* **Mobile:** Android, iPhone and
 * **Web:** any modern web browser.
 
 ## Limitations
@@ -103,7 +101,7 @@ To effectively use Hitta.se, especially for beginners or those looking to refine
 
 #### Developer Resources
 
-* &#x20;[https://www.hitta.se/api](https://www.hitta.se/api) (English Translation: [https://www-hitta-se.translate.goog/api?\_x\_tr\_sl=auto&\_x\_tr\_tl=en&\_x\_tr\_hl=en&\_x\_tr\_hist=true](https://www-hitta-se.translate.goog/api?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_hist=true))
+* [https://www.hitta.se/api](https://www.hitta.se/api) (English Translation: [https://www-hitta-se.translate.goog/api?\_x\_tr\_sl=auto&\_x\_tr\_tl=en&\_x\_tr\_hl=en&\_x\_tr\_hist=true](https://www-hitta-se.translate.goog/api?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_hist=true))
 
 **Community and Support**
 
@@ -117,7 +115,7 @@ By utilizing these resources, users can enhance their Hitta.se experience, wheth
 
 ## Similar Tools
 
-[Eniro.se](https://eniro.se), [ratsit.se](https://ratsit.se), and [merinfo.se](https://merinfo.se) are similar public search platforms providing information on individuals, addresses, and businesses in Sweden. Notably, eniro includes a mapping tool that allows users to view historical aerial photos from 1950-1960s side-by-side with modern maps.&#x20;
+[Eniro.se](https://eniro.se), [ratsit.se](https://ratsit.se), and [merinfo.se](https://merinfo.se) are similar public search platforms providing information on individuals, addresses, and businesses in Sweden. Notably, eniro includes a mapping tool that allows users to view historical aerial photos from 1950-1960s side-by-side with modern maps.
 
 Because these sites aggregate data from public records, researchers may also look directly to the source, requesting official civil registration and tax data from the Swedish Tax Agency: [https://www.skatteverket.se/servicelankar/otherlanguages/englishengelska/moreonskatteverket/publicinformation.4.2106219b17988b0d2314cf.html](https://www.skatteverket.se/servicelankar/otherlanguages/englishengelska/moreonskatteverket/publicinformation.4.2106219b17988b0d2314cf.html).
 

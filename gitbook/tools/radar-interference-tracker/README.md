@@ -5,7 +5,7 @@ description: >-
   active military radar systems.
 ---
 
-# Radar Interference Tracker (RIT)
+# Radar Interference Tracker
 
 ## URL
 
@@ -44,7 +44,7 @@ Although the RIT tool can help hone in on areas of interest, a manual search of 
 
 The screenshot below show the White Sands Missile Range, USA example included with the radar interference tool.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-08-08 at 1.55.25 PM.png" alt="Screenshot using the White Sands Missile Range, USA radar interference example in the radar interference tracker. The map show a satellite image of the area overlayed with a coloured stripe indicating the radar interference."><figcaption><p>Screenshot of White Sands Missile Range, USA radar interference</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-08-08 at 1.55.25 PM.png" alt="Screenshot using the White Sands Missile Range, USA radar interference example in the radar interference tracker. The map show a satellite image of the area overlayed with a coloured stripe indicating the radar interference."><figcaption><p>Screenshot of White Sands Missile Range, USA radar interference</p></figcaption></figure>
 
 ## Cost
 

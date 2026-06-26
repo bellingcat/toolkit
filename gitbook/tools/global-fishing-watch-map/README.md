@@ -45,7 +45,7 @@ GFW offers different possibilities to investigate issues in coastal waters or at
 
 _**What this page covers.**_ This page will discuss three tools under Global Fishing Watch, namely the [Map](https://globalfishingwatch.org/our-map/), [Marine Manager](https://globalfishingwatch.org/marine-manager-portal/), and [Vessel Viewer](https://globalfishingwatch.org/map/vessel-search). These tools can be considered mutually complementary for investigative purposes. All three can be accessed in the top-left corner navigation, as annotated below.
 
-<div align="left"><figure><img src=".gitbook/assets/image (3).png" alt="" width="143"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (3) (11).png" alt="" width="143"><figcaption></figcaption></figure></div>
 
 #### Viewing heatmap of vessel activities
 
@@ -55,17 +55,17 @@ As an example, below is a heatmap visualizing vessel activity off the coast of M
 
 View a higher (or lower) resolution heatmap by selecting the icons (shown in the gray rectangle, side panel - see left of image).
 
-<figure><img src=".gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (68).png" alt="" width="563"><figcaption></figcaption></figure>
 
 _**Note.**_ GFW is heavy on visual content. For those with slower internet speeds, a new page view can take 30 seconds or longer to load a new page view. Please be patient.
 
 Click on your location of interest to see the vessel activities there. For example, these vessels were apparently fishing in the coastal waters near Nouakchott, Mauritania.
 
-<figure><img src=".gitbook/assets/Screenshot 2026-01-09 at 1.15.27 AM.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-01-09 at 1.15.27 AM.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Clicking into each vessel will show you more information, including the MMSI and IMO identifiers and the call sign, what type of vessel and fishing gear, and information about its voyage(s) and port visit(s) during your selected time frame. An example is shown here. (Further discussion on finding vessel information is in a later section.)
 
-<figure><img src=".gitbook/assets/Screenshot 2026-01-09 at 1.55.08 AM.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-01-09 at 1.55.08 AM.png" alt="" width="375"><figcaption></figcaption></figure>
 
 <details>
 
@@ -112,7 +112,7 @@ By [IMO regulations](https://www.imo.org/en/ourwork/iiis/pages/imo-identificatio
 
 GFW data are published with a 72-hour delay, considered near real-time. A timeline is shown at the bottom of the screen. You can adjust the date range by adjusting the timeline, as shown below. Note that ranges can be Year, Month, Day, or Hours.
 
-<figure><img src=".gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (12).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * To see the heat map changing over your chosen duration, press the Play button.
 * Historical data are available dating back to January 1, 2012.
@@ -126,7 +126,7 @@ Select the magnifying glass icon 🔍 and you will reach the Vessel Finder tool.
 
 As an example below, searching for IMO 9447976, the vessel information is shown and its route in a selected time frame is visualized. The vessel's port visits, encounter events (e.g., meeting with another vessel) at sea, and loitering events are counted and mapped (if any).
 
-<figure><img src=".gitbook/assets/example_polymnia.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/example_polymnia.png" alt=""><figcaption></figcaption></figure>
 
 #### **What are loitering events?**
 
@@ -148,7 +148,7 @@ For example, the protected area near the Galapagos was [expanded in 2022](https:
 
 The boundaries of these protected areas, as well as the Exclusive Economic Zone (EEZ) of Ecuador around the Galapagos, are clearly shown in GFW.
 
-<figure><img src=".gitbook/assets/Galapagos.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Galapagos.png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### Downloading data
 
@@ -163,11 +163,11 @@ GFW supports users downloading the vessel activity dataset based on their chosen
 
 1. _**Languages:**_ Global Fishing Watch is available in English, Spanish, French, Bahasa Indonesia, and Portuguese. To switch languages, find this symbol in the bottom-left corner (circled in orange).
 
-<div align="left"><figure><img src=".gitbook/assets/Screenshot 2026-01-09 at 1.51.37 AM.png" alt="" width="260"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/Screenshot 2026-01-09 at 1.51.37 AM.png" alt="" width="260"><figcaption></figcaption></figure></div>
 
 2. _**Upload your own data**_: To create visualizations using GFW's data overlaid on your own dataset, you can upload your data.
 
-<div align="left"><figure><img src=".gitbook/assets/user_datasets.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/user_datasets.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ## Cost
 
