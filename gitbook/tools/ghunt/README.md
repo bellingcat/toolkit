@@ -8,25 +8,21 @@ description: A command line tool for obtaining information about Google accounts
 ## URL
 
 [https://github.com/mxrch/GHunt](https://github.com/mxrch/GHunt)\
-(current [version 2.3.3](https://pypi.org/project/ghunt/), April 2025; latest on PyPI. GitHub tag: **v2.2.0** released 2024‑06‑06)
+(Current version: 2.3.4, released on PyPI on 2026-03-16. PyPI is the current release source to watch. GitHub Releases currently stop at v2.2.0, released on 2024-06-06; seen June 2026)
 
 ## Description
 
 <figure><img src=".gitbook/assets/Screenshot 2024-07-29 at 10.49.53 PM.png" alt=""><figcaption></figcaption></figure>
 
-GHunt is a local, CLI‑based framework for investigating Google accounts and artifacts. It authenticates with a Google session (via the [**GHunt Companion** browser extension](https://github.com/mxrch/ghunt_companion); [Mozilla addon](https://addons.mozilla.org/en-US/firefox/addon/ghunt-companion/)) and exposes modules to pivot from inputs such as Gmail address, GAIA ID, Google Drive links, Wi‑Fi BSSID, and Digital Asset Links (DAL). Typical outputs include GAIA ID discovery from an email, service associations, Drive file/folder metadata, and approximate BSSID geolocation; JSON export is supported for several modules. As of v2.1.0, GHunt moved to an OAuth‑token based login flow while remaining compatible with the Companion extension.
+GHunt is a local command-line and Python framework for open-source research around Google accounts and Google-linked artefacts. It starts from identifiers such as a Gmail address, GAIA ID, Google Drive file or folder link, Wi-Fi BSSID, or Digital Asset Links data, then queries Google service surfaces and exposed metadata that are reachable to the authenticated session.
 
-Ghunt runs locally as a Python application. After installation with pipx and authenticating via the Ghunt Companion browser extension, users can run modules from the command line to search for information. The **email** module takes a Gmail address and returns the [GAIA ID](https://developers.google.com/issue-tracker/concepts/access-control), associated YouTube channel, public photos, Drive files and other data. The **gaia** module queries a GAIA ID to find related Google services; the **drive** module extracts metadata from a shared Drive link; the **geolocate** module geolocates a BSSID, showing the approximate location of a Wi‑Fi access point.
+The usual workflow is: install GHunt with pipx, run ghunt login, authenticate with a Google session using GHunt Companion, then run a module from the command line. GHunt Companion can either send the required Google cookies to a local GHunt listener on port 60067 or copy base64-encoded cookie material for pasting into the login prompt. Since the v2.1.0 rewrite, GHunt uses an OAuth-token and Android-master-token based approach internally, while the Companion extension remains the supported helper for setup.
 
-Version 2 introduced **Spiderdal, which follows** [**digital asset links (DALs)**](https://developers.google.com/digital-asset-links) **to uncover assets, such as apps,** associated with the target.
+The main modules are email, gaia, drive, geolocate, and spiderdal. The email module pivots from a Gmail address; gaia pivots from a Google account identifier; drive extracts metadata from shared Drive links; geolocate estimates the location of a Wi-Fi access point from a BSSID; and spiderdal follows Google Digital Asset Links declarations to identify related web or Android app assets. Several modules support JSON export for documentation or later analysis.
 
-Ghunt relies on your own Google session cookies to access publicly visible data. You authenticate by running `ghunt login` and selecting the option to paste base64‑encoded cookies from the browser extension. Once authenticated, you can run modules and optionally export results to JSON. The tool is widely used by OSINT practitioners, law enforcement, and journalists to pivot from basic identifiers into broader investigations.
+GHunt should be treated as a pivot and enrichment tool, not as a verification tool. Returned account details, service associations, Drive metadata, BSSID locations, and linked assets should be corroborated with other sources before being used in reporting or evidence workflows.
 
-GHunt is designed to gather detailed information about Google accounts using the target's Gmail address. By using publicly accessible data, Ghunt surfaces various aspects of a Google user's digital footprint, including their YouTube channels, Google Photos, Google Maps reviews, and more. By analyzing this information, GHunt can provide insights into the target's online activities and digital footprint.
 
-The developers have provided 2 scripts that leverage the tool [here](https://github.com/mxrch/GHunt/tree/master/examples).
-
-The easiest way to authenticate into Ghunt is to use authentication option 2 alongside the Ghunt browser extension. After selecting option 2, go to your browser extension and obtain the base64-encoded credentials. You can use these to authenticate to Ghunt.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-07-29 at 10.47.52 PM.png" alt=""><figcaption></figcaption></figure>
 
