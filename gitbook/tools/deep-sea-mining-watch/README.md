@@ -16,6 +16,8 @@ Deep Sea Mining is the extraction of mineral deposits from the ocean floor. Meta
 See the [FAQ](https://isa.org.jm/faq-for-media/) of the International Seabed Authority (ISA) for details on deep sea mining and the [Critical Minerals Data Explorer](https://www.iea.org/data-and-statistics/data-tools/critical-minerals-data-explorer) from the International Energy Agency (IEA) for the latest demand projections and industrial and domestic applications.&#x20;
 {% endhint %}
 
+<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 12.19.34.png" alt=""><figcaption><p>The Deep Sea Mining Vessels filter on the Global Fishing Watch map highlights areas with deep sea mining activity.</p></figcaption></figure>
+
 Deep Sea Mining Watch displays deep sea mining vessel presence on a global map, using a heatmap to highlight areas with high mining activity.&#x20;
 
 As deep sea mining occurs far offshore and out of sight in deep waters, open source research holds extra value for monitoring. Deep Sea Mining Watch shows vessels associated with mining activity on a map together with license boundaries and protected zones. Open researchers can use this tool to verify mining claims and activities, by checking whether a vessel's tracked position and movement pattern matches its licensed block, and investigate unexplained activity, such as a vessel operating outside its license area or inside a protected zone. As the International Seabed Authority (ISA) is the most widely acknowledged but not the only licensing authority, monitoring conflicting claims and mining activity as a source of potential geopolitical conflict is another usecase.&#x20;
@@ -23,8 +25,6 @@ As deep sea mining occurs far offshore and out of sight in deep waters, open sou
 {% hint style="info" %}
 The USA is not a member of the international ISA and issues own licenses through the National Oceanic and Atmospheric Administration (NOAA), sometimes for the same waters. See this [visual explainer](https://www.congress.gov/crs_external_products/IG/HTML/IG10053.web.html) for details.&#x20;
 {% endhint %}
-
-<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 12.19.34.png" alt=""><figcaption><p>The Deep Sea Mining Vessels filter on the Global Fishing Watch map highlights areas with deep sea mining activity.</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 15.29.40.png" alt=""><figcaption><p>The Clarion-Clipperton Zone (CCZ) in international waters of the central Pacific, south-east of Hawaii; the current epicentre of deep sea mining activity. In purple the ISA licensed areas by resourcetype, in red the areas per contractor (not always visible due to overlap). Vessels appearing in an appointed area of particular environmental interest, the larger square boxes in this view, are a red flag.</p></figcaption></figure>
 
