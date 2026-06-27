@@ -81,7 +81,7 @@ The US-based [World Resources Institute](https://www.wri.org/); the platform was
 
 ## Similar tools
 
-[Ocean Watch](https://resourcewatch.org/dashboards/ocean-watch), [Global Forest Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-forest-watch) and [Acqueduct](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/nQx2i2gdPYTV0gJTrgxp/) are developed by the same tool provider and have an overlap in data, but where Resourcewatch is a general environmental visualisation platform, the others are more specialised and analytical tools focusing on specific environmental topics.
+[Ocean Watch](https://resourcewatch.org/dashboards/ocean-watch), [Global Forest Watch](https://bellingcat.gitbook.io/toolkit/more/all-tools/global-forest-watch) and [Acqueduct](https://bellingcat.gitbook.io/toolkit/more/all-tools/aqueduct-water-risk-atlas) are developed by the same tool provider and have an overlap in data, but where Resourcewatch is a general environmental visualisation platform, the others are more specialised and analytical tools focusing on specific environmental topics.
 
 ## Advertising Trackers
 
