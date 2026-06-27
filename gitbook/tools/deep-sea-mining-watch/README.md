@@ -10,15 +10,15 @@ description: Deep-Sea Mining Watch maps and monitors vessels involved in deep se
 
 ## Description
 
+Deep Sea Mining Watch displays deep sea mining vessel presence on a global map, using a heatmap to highlight areas with high mining activity.&#x20;
+
+<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 12.19.34.png" alt=""><figcaption><p>The Deep Sea Mining Vessels filter on the Global Fishing Watch map highlights areas with deep sea mining activity.</p></figcaption></figure>
+
 {% hint style="info" %}
 Deep Sea Mining is the extraction of mineral deposits from the ocean floor. Metals such as nickel and cobalt are among the most sought after, because of soaring demands for use in batteries, electric vehicles and spacecraft. Exploration contracts can be held by (state-sponsored) private companies or state-owned entities. There is still ongoing debate on environmental concerns, licensing and costs and full-scale mining has not yet been realized. The legal and political landscape is changing fast.
 
 See the [FAQ](https://isa.org.jm/faq-for-media/) of the International Seabed Authority (ISA) for details on deep sea mining and the [Critical Minerals Data Explorer](https://www.iea.org/data-and-statistics/data-tools/critical-minerals-data-explorer) from the International Energy Agency (IEA) for the latest demand projections and industrial and domestic applications.&#x20;
 {% endhint %}
-
-<figure><img src=".gitbook/assets/Screenshot 2026-06-21 at 12.19.34.png" alt=""><figcaption><p>The Deep Sea Mining Vessels filter on the Global Fishing Watch map highlights areas with deep sea mining activity.</p></figcaption></figure>
-
-Deep Sea Mining Watch displays deep sea mining vessel presence on a global map, using a heatmap to highlight areas with high mining activity.&#x20;
 
 As deep sea mining occurs far offshore and out of sight in deep waters, open source research holds extra value for monitoring. Deep Sea Mining Watch shows vessels associated with mining activity on a map together with license boundaries and protected zones. Open researchers can use this tool to verify mining claims and activities, by checking whether a vessel's tracked position and movement pattern matches its licensed block, and investigate unexplained activity, such as a vessel operating outside its license area or inside a protected zone. As the International Seabed Authority (ISA) is the most widely acknowledged but not the only licensing authority, monitoring conflicting claims and mining activity as a source of potential geopolitical conflict is another usecase.&#x20;
 
