@@ -81,7 +81,7 @@ To effectively use F4Map, especially for beginners or those looking to refine th
 
 **Latest changes**
 
-* [https://core.f4map.com/changelog](https://core.f4map.com/changelog)
+* [https://core.f4map.com/changelog](https://core.f4map.com/changelog) - Last updated May 2026 - handling left-driving traffic and maxspeed units.
 
 #### Developer Resources
 
