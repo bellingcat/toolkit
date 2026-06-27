@@ -67,7 +67,7 @@ Overlaying different datasets are a strong feature of Resourcewatch. It can help
 
 ## Guide
 
-The platform offers help per page. Watch [short video tutorials](./#url) on functionality as how to explore and overlay data, or how to create a custom dashboard.&#x20;
+The platform offers help per page. Watch [short video tutorials](https://www.youtube.com/@resourcewatch6439) on functionality as how to explore and overlay data, or how to create a custom dashboard.&#x20;
 
 Data from Resource Watch has been used for example, for:
 
