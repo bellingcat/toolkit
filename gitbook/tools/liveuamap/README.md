@@ -19,7 +19,7 @@ One of the key features of LiveUAMap is its ability to display a wide range of e
 
 ### Features:
 
-* **Coverage:** global coverage with dedicated regional maps, including Ukraine, Israel–Palestine, Syria, Venezuela, and other conflict areas.
+* **Coverage:** global coverage with dedicated regional maps across [30+ regions](https://liveuamap.com/about), including Ukraine, Israel-Palestine, Syria, Venezuela, Libya, Asia, and other conflict areas.
 * **Language:** supports multiple languages including English, Spanish, Ukrainian, Russian, and Arabic (language can be switched via the interface).
 * **Polygons**: allows to draw shareable polygon shapes to select specific areas.
 * **Measure distance:** measure distance between points in feet and metres.
@@ -82,6 +82,7 @@ LiveUAMap.com, while a valuable resource for learning about geopolitical and con
 * **Geographical Coverage**: Although extensive, coverage might be uneven, with more focus on active conflict zones, potentially overlooking lesser-reported areas.
 * **Language Limitations**: Primarily English-based content may limit access or understanding for non-English speakers without translation tools.
 * **Subscription for Full Features**: Full access to certain features and in-depth analyses may require a subscription, limiting access to all content for non-subscribers.
+* **Mobile app quality**: User reviews on both the App Store and Google Play consistently report performance issues and intrusive advertising in the mobile app. The web version is recommended for investigative use.
 
 ## Ethical Considerations
 
