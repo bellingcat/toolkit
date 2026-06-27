@@ -2,8 +2,7 @@
 updated: '2026-05-10'
 description: >-
   A tool by Google to catalogue uploaded documents and files, providing OCR,
-  indexing, and other services. Full access only granted to journalists,
-  academic researchers and university students.
+  indexing, audiotranscriptions and other services.
 ---
 
 # Pinpoint
@@ -16,15 +15,19 @@ description: >-
 
 Pinpoint is an AI-powered research tool designed to assist journalists and academics in examining and analyzing large document collections. With Pinpoint, users can upload and search through documents, images, emails, handwritten notes, and transcriptions of audio files to find specific keywords, locations, organizations, or individuals. It is part of the [Journalist Studio](https://journaliststudio.google.com/), Google’s free tool kit for research, data analysis, and data visualization. It supports manual document labeling (tagging by subject or other custom definition) and automated entity extraction, so users can search by fields like date, sender, etc.
 
+Since june 2006,&#x20;
+
 Users can store up to [200,000 documents ](https://support.google.com/pinpoint/answer/11955480?hl=en-IN#upload_documents)in each collection, extract text from handwritten documents or non-searchable pdfs to make them searchable, query text from images, transcribe audio recordings and search for identifiers in image collections.
 
 It is possible to upload audio files up to 2 hours long, which can be transcribed in txt files in 15 languages.
 
-Its ["extract structured data"](https://support.google.com/pinpoint/answer/13012346?hl=en) (in beta) function allows you to convert similarly structured documents into a csv or spreadsheet which can be exported to Excel, Google Sheets or a database.
+Its ["extract structured data"](https://support.google.com/pinpoint/answer/13012346?hl=en) function allows you to convert similarly structured documents into a csv or spreadsheet which can be exported to Excel, Google Sheets or a database.
 
 For example, using Pinpoint, you can search for mentions of keywords like "abuse" or "violence" in [Washington Post's public collection of COVID-19 Nursing Home Inspections](https://journaliststudio.google.com/pinpoint/search?collection=989c939c11b20432). Named entities inside the documents as persons, organisations and locations are recognised automatically and can be used as filters.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-11-12 at 1.51.56 PM.png" alt=""><figcaption></figcaption></figure>
+
+Collections from your workspace can also be published so that they are searchable for everyone, even without a google or pinpoint account.&#x20;
 
 ## Cost
 
@@ -46,7 +49,7 @@ Researchers can apply through [this form](https://docs.google.com/forms/d/e/1FAI
 
 ## Limitations & Ethical Considerations
 
-Pinpoint has experimental features that use Google's Generative AI solutions, and according to [this notice](https://support.google.com/pinpoint/answer/14338615?hl=en) on Generative AI in Pinpoint, these features "may display inaccurate information, including information about people." Additionally, some of the information you provide may be used to improve functionality, and "Google [human reviewers may read, annotate and process a sample of your Pinpoint data](https://support.google.com/pinpoint/answer/14338615?hl=en), including your prompts and thumbs up or down feedback." As a result, Google cautions against including information "that can be used to identify you, such as phone numbers, email addresses, or birth dates when using Pinpoint’s generative AI features."
+Pinpoint has experimental features that use Google's Generative AI solutions, and according to [this notice](https://support.google.com/pinpoint/answer/14338615?hl=en) on Generative AI in Pinpoint, these features "may display inaccurate information, including information about people." Additionally, some of the information you provide may be used to improve functionality, and "Google [human reviewers may read, annotate and process a sample of your Pinpoint data](https://support.google.com/pinpoint/answer/14338615?hl=en), including your prompts and thumbs up or down feedback." As a result, Google cautions against including information "that can be used to identify you, such as phone numbers, email addresses, or birth dates when using Pinpoint’s generative AI features."There is no opt-out.
 
 Exercise caution and/or check with your parent organization before uploading sensitive or proprietary information, documents and data into Pinpoint.
 
