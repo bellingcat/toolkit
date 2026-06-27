@@ -143,9 +143,9 @@ Original developer is [Lucas Antoniaci](https://www.linkedin.com/in/lucas-antoni
 
 ## Advertising Trackers
 
-* [x] This tool has not been checked for advertising trackers yet.
+* [ ] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
-* [ ] This tool does not appear to use tracking cookies.
+* [x] This tool does not appear to use tracking cookies.
 
 | Paige Maintainer           |
 | -------------------------- |
