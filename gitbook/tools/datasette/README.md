@@ -1,5 +1,5 @@
 ---
-updated: '2026-06-24'
+updated: '2026-06-26'
 description: >-
   Open-source “WordPress-for-data” that turns any SQLite database into an
   interactive website and JSON API in seconds; ideal for publishing, exploring

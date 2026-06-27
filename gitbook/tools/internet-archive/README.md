@@ -2,7 +2,7 @@
 description: >-
   The Internet Archive's Wayback Machine lets users view and archive web pages,
   aiding in historical research and digital preservation.
-updated: '2026-05-13'
+updated: '2026-06-26'
 ---
 
 # Wayback Machine

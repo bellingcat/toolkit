@@ -1,5 +1,6 @@
 ---
 description: A tool for exporting and backing up Discord chat logs in multiple formats.
+updated: '2026-06-26'
 ---
 
 # Discord Chat Exporter

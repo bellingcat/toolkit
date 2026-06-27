@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-03'
+updated: '2026-06-26'
 description: >-
   TelegramDB is a searchable database service that allows users to explore
   public Telegram groups and channels via a dedicated bot.

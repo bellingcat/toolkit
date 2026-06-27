@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-03'
+updated: '2026-06-26'
 description: >-
   A tool for analyzing content replication and site architecture to detect
   information laundering.
