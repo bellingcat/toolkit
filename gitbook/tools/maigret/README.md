@@ -116,9 +116,15 @@ Here, you can enter one or more usernames to initiate a search. After the search
 
 <figure><img src=".gitbook/assets/bellingcat_web_maigret.png" alt=""><figcaption><p>Maigret Web Interface displays search results for the username “Bellingcat,” with a combined graph of linked accounts and individual report options.</p></figcaption></figure>
 
+As of v0.6.0, Maigret includes an optional AI analysis mode that generates a short investigation summary from search results using an OpenAI-compatible API. To enable it, add the --ai flag:
+
+```
+// maigret bellingcat --ai
+```
+
 ## Limitations and Ethical Considerations
 
-It is important to understand Maigret's limitations. The tool can be hampered by bot protection and CAPTCHAs, which may lead to incomplete searches. Results can also include false positives, meaning accounts may be incorrectly attributed to your target.
+It is important to understand Maigret's limitations. The tool can be hampered by bot protection and CAPTCHAs, which may lead to incomplete searches. False positives are actively addressed - the v0.6.0 and v0.6.1 changelogs document dozens of site-specific fixes.
 
 Recent updates, such as the user-friendly web interface and username permutator, make the tool more accessible but do not change these core limitations. With enhanced usability comes a greater ethical responsibility. Users must verify all findings and use Maigret legally, respecting individual privacy and the websites' terms of service.
 
