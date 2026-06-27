@@ -1,8 +1,8 @@
 ---
 updated: '2026-05-10'
 description: >-
-  A tool by Google to catalogue uploaded documents and files, providing OCR,
-  indexing, audiotranscriptions and other services.
+  A tool by Google to catalogue uploaded documents and files, providing
+  automated text recogntion, indexing, audiotranscriptions and other services.
 ---
 
 # Pinpoint
@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-Pinpoint is an AI-powered research tool designed to assist journalists and academics in structuring and analysing large document collections. Within Pinpoint, users can upload and search through documents, images, emails, handwritten notes, and transcriptions of audio files; pinpoint extracts entities as keywords, locations, organisations, and person names. It supports both manual document labeling (tagging by subject or other custom definition) and automated entity extraction, so users can search by fields like date, sender, etc. Pinpoint is part of the [Journalist Studio](https://journaliststudio.google.com/), Google’s free tool kit for research, data analysis, and data visualisation.&#x20;
+Pinpoint is an AI-powered research tool designed to assist journalists and academics in structuring and analysing large document collections. Within Pinpoint, users can upload and search through documents, images, emails, handwritten notes, and transcriptions of audio files; pinpoint extracts entities as keywords, locations, organisations, and person names. It supports both manual document labeling (tagging by subject or other custom definition) and automated entity extraction, so users can search by fields like date, sender, etc. Pinpoint is part of the [Journalist Studio](https://journaliststudio.google.com/), Google’s free tool kit for research, data analysis and data visualisation.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2024-11-12 at 1.51.56 PM.png" alt=""><figcaption><p>Upload documents to a Pinpoint collection and it will convert to pdf and automatically extract persons, organisations and locations. </p></figcaption></figure>
 
@@ -21,9 +21,9 @@ Since june 2026, Google Pinpoint's basic features are open to anyone with a goog
 
 Pinpoint Professional users can store up to [240.000 documents ](https://support.google.com/pinpoint/answer/11955480?hl=en-IN#upload_documents)in each collection, extract text from handwritten documents or non-searchable pdfs to make them searchable, query text from images, transcribe audio recordings and search for identifiers in image collections.
 
-It is possible to upload audio files up to 2 hours long, which can be transcribed in txt files in 15 languages.
+It is possible to upload audio files up to 2 hours long, which can be transcribed in txt files in [over 100 languages](https://support.google.com/pinpoint/answer/11991030).
 
-Its ["extract structured data"](https://support.google.com/pinpoint/answer/13012346?hl=en) function allows you to convert similarly structured documents into a csv or spreadsheet which can be exported to Excel, Google Sheets or a database.
+Its [extract structured data](https://support.google.com/pinpoint/answer/13012346?hl=en) function allows you to convert similarly structured documents into a csv or spreadsheet which can be exported to Excel, Google Sheets or a database.
 
 For example, using Pinpoint, you can search for mentions of keywords like "abuse" or "violence" in [Washington Post's public collection of COVID-19 Nursing Home Inspections](https://journaliststudio.google.com/pinpoint/search?collection=989c939c11b20432). Named entities inside the documents as persons, organisations and locations are recognised automatically and can be used as filters.
 
