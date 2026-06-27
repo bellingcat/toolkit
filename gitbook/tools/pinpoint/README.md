@@ -2,7 +2,8 @@
 updated: '2026-05-10'
 description: >-
   A tool by Google to catalogue uploaded documents and files, providing
-  automated text recogntion, indexing, audiotranscriptions and other services.
+  automated text recogntion, indexing, audiotranscriptions and other
+  (AI-powered) services.
 ---
 
 # Pinpoint
