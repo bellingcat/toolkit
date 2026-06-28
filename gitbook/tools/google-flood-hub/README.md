@@ -1,8 +1,8 @@
 ---
+updated: '2025-10-30'
 description: >-
   A visual tool to monitor river levels and forecast floods based on AI models
   developed by Google Research.
-updated: '2025-10-30'
 ---
 
 # Google Flood Hub
@@ -15,23 +15,23 @@ updated: '2025-10-30'
 
 Google Flood Hub is developed by Google Research and uses [AI models to forecast floods](https://www.nature.com/articles/s41586-024-07145-1). It [combines](https://sites.research.google/gr/floodforecasting/) two AI models that process diverse publicly available data sources: the [Hydrologic Model](https://sites.research.google/gr/floodforecasting/hydrology-model/) forecasts the amount of water flowing in a river, and the Inundation Model predicts what areas will be affected and how high the water level will be. Flood Hub offers users flood data and forecasts specific to their location, with predictions extending up to 7 days, and presents the data visually by showing local river flood maps and water trends.
 
-Open source researchers, especially those focusing on environmental research and natural disaster monitoring, can use Google Flood Hub's predictive analytics as well as real-time monitoring to keep track of developments in areas of interest.&#x20;
+Additionally, this tool also has has a model for flood predictions in urban areas. The model uses only global weather products ([NASA IMERG](https://gpm.nasa.gov/data/imerg), [NOAA CPC](https://psl.noaa.gov/data/gridded/data.cpc.globalprecip.html)), real-time global weather forecasts from the [ECMWF Integrated Forecast System (IFS) High Resolution (HRES) atmospheric model](https://www.ecmwf.int/en/forecasts/documentation-and-support/changes-ecmwf-model), and an AI-based medium-range global weather forecasting model by Google DeepMind.
 
 As of June 2025, Flood Hub [covers](https://sites.research.google/gr/floodforecasting/) river basins in over 80 countries worldwide, providing critical flood forecasting for over 1,800 sites and, covering a population of 460M people.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-11-21 at 4.18.55 PM.png" alt=""><figcaption><p>View of Pittsburgh, Pennsylvania on Google Flood Hub including current and expected river water and danger levels. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-11-21 at 4.18.55 PM.png" alt=""><figcaption><p>View of Pittsburgh, Pennsylvania on Google Flood Hub including current and expected river water and danger levels.</p></figcaption></figure>
 
 Scrolling around the world map will show different colored pins indicating points of measurement (called river gauges here). Each color represents the level of danger from a flood. The filters can be used to exclude/include the normal river levels and/or the ones marked as warnings and dangerous.
 
 **Additional coverage**
 
-Additionally, you can chose to see lower confidence gauges that do not meet Google's standards for the data necessary for evaluation, but can provide a more complete picture. The default setting shows only the high confidence data, but this can be toggled to show the lower confidence data points.&#x20;
+Additionally, you can chose to see lower confidence gauges that do not meet Google's standards for the data necessary for evaluation, but can provide a more complete picture. The default setting shows only the high confidence data, but this can be toggled to show the lower confidence data points.
 
 <figure><img src=".gitbook/assets/Screenshot 2025-02-25 at 8.29.32 PM.png" alt=""><figcaption><p>River gouges for Cuanza River in Angola - regular view (L) and the additional coverage (lower confidence gauges) turned on (R)</p></figcaption></figure>
 
 **Inundation probability and Inundation history**
 
-Inundation probability show the areas likely to be submerged under water during a flood. Please be advised that this metric is not supported for all gauges (sometimes the Google model may not have shown clear inundation patterns. In these regions [Google decided](https://support.google.com/flood-hub/answer/15637289) to only share the hydrologic information).&#x20;
+Inundation probability show the areas likely to be submerged under water during a flood. Please be advised that this metric is not supported for all gauges (sometimes the Google model may not have shown clear inundation patterns. In these regions [Google decided](https://support.google.com/flood-hub/answer/15637289) to only share the hydrologic information).
 
 Inundation history shows the frequency of inundation in the past. This helps identifying higher risk areas based on historical records. The different levels do not show how deep the water was, but how often the area was under water. According to [Google's documentation](https://support.google.com/flood-hub/#topic=15637286), this layer has limitations and "does not extend to the extreme northern or southern points." It is restricted to the following latitudes and longitudes:
 
@@ -42,7 +42,13 @@ Inundation history shows the frequency of inundation in the past. This helps ide
 
 <figure><img src=".gitbook/assets/Screenshot 2025-02-25 at 8.54.59 PM.png" alt="" width="375"><figcaption><p>Inundation history around Orinoco River in Venezuela</p></figcaption></figure>
 
-You can find details on how to read the gauge side panel [here](https://support.google.com/flood-hub/answer/15636998?hl=en\&ref_topic=15636596\&sjid=7162562628577014661-EU). To see a gauge panel, click on a gauge pin to find additional information for past trends and forecasts, water level measurements, coordinates and the size of the water basin, among others.&#x20;
+You can find details on how to read the gauge side panel [here](https://support.google.com/flood-hub/answer/15636998?hl=en\&ref_topic=15636596\&sjid=7162562628577014661-EU). To see a gauge panel, click on a gauge pin to find additional information for past trends and forecasts, water level measurements, coordinates and the size of the water basin, among others.
+
+**Urban flash floods**
+
+This layer displays the likelihood of rapid onset flooding in densely populated urban areas, caused by intense rainfall over a short period of time. The predictions from Google Research are for the coming 24hr period at a [resolution of 20x20 kilometers](https://research.google/blog/protecting-cities-with-ai-driven-flash-flood-forecasting/?_gl=1*xcd5pr*_ga*MTQ1NTUyMzU2Ni4xNzgyNjMxMTAw*_ga_163LFDWS1G*czE3ODI2MzExMDAkbzEkZzEkdDE3ODI2MzE1MDUkajQ0JGwwJGgw).
+
+<figure><img src=".gitbook/assets/Screenshot 2026-06-28 at 10.32.31 AM.png" alt=""><figcaption><p>View of a likely flash flood expected in the north of Switzerland on June 28, 2026 from the Rhine River</p></figcaption></figure>
 
 ## Cost
 
@@ -64,7 +70,7 @@ Access to the flood forecasting API is limited to pilot participants of the prog
 
 Currently this tool does not work without a connection to the web. However, [Google.org appears to be collaborating with organizations](https://blog.google/outreach-initiatives/sustainability/flood-hub-ai-flood-forecasting-more-countries/) to help offline alerting to areas where access to a smartphone or internet is limited or non-existent.
 
-An article from [Unite AI](https://www.unite.ai/why-ai-failed-during-the-2025-texas-floods-key-lessons-for-disaster-management/) dated July 23, 2025 points out to the following possible limitations for this tool: "Platforms like Google Flood Hub combine satellite imagery, radar data, sensor inputs and past flood records. But without real-time local data from gauges and sensors, these systems lose accuracy. During the 2025 floods, many data sources were not fully connected. Data from satellites, radars, and ground sensors were often processed separately, leading to delays and poor coordination."&#x20;
+An article from [Unite AI](https://www.unite.ai/why-ai-failed-during-the-2025-texas-floods-key-lessons-for-disaster-management/) dated July 23, 2025 points out to the following possible limitations for this tool: "Platforms like Google Flood Hub combine satellite imagery, radar data, sensor inputs and past flood records. But without real-time local data from gauges and sensors, these systems lose accuracy. During the 2025 floods, many data sources were not fully connected. Data from satellites, radars, and ground sensors were often processed separately, leading to delays and poor coordination."
 
 ## Ethical Considerations
 
