@@ -32,9 +32,9 @@ Whoxy offers several ways to look up domain information. An account is free but 
 
 Search options:
 
-* Whois Lookup. Standard whois: domain name, registrar, registered date, date of when the registry was updated, and the expiry date. Also the domain status, name servers and contact details.
-* Whois History. Also shows past owners of the domain.
-* Reverse Whois:
+* **Whois Lookup**. Standard whois: domain name, registrar, registered date, date of when the registry was updated, and the expiry date. Also the domain status, name servers and contact details.
+* **Whois History**. Also shows past owners of the domain.
+* **Reverse Whois**:
   * Owner Name. The results will show domain names which are linked to that particular name. If the amount of results is substantial, a subset will be shown with the remark to use the Reverse Whois API.
   * Company Name. To show on which domain names are linked with that company. The results will show a list of domain names. If the amount of results is substantial, a subset will be shown with the remark to use the Reverse Whois API.
   * Email address. Enter a valid e-mail address for reversed whois results on which domain names are linked with that e-mail address.
