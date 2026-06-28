@@ -49,6 +49,20 @@ The [Introducing TruffleHog v3](https://trufflesecurity.com/blog/introducing-tru
 
 The [TruffleHog The Kitchen](https://trufflesecurity.com/the-kitchen) covers practical things like git vs filesystem command differences and per-source scanning guides, useful for running the tool.
 
+## Similar Tools
+
+TruffleHog is the only free option that verifies whether a found secret is actually still active, and it scans beyond git (S3, Docker images, filesystems, CI/CD, Slack, etc).&#x20;
+
+[Gitleaks](https://github.com/gitleaks/gitleaks) is a regex and entropy based secret scanner for git repositories. It is very fast, easy to configure, good for quick CI checks. There are however no credential verification, so it can't confirm whether a found secret is still live.
+
+[detect\_secrets](https://github.com/Yelp/detect-secrets) Yelp's scanner, built around a baseline workflow for onboarding scanning into large existing codebases without being swamped by historical findings.  It is narrower in scope that TruffleHog or Gitleaks, no verification, and less suited to ad hoc one off OSINT scans.
+
+[git-secrets](https://github.com/awslabs/git-secrets) AWS Labs' tool focused mainly on preventing AWS credentials from being committed via git hooks. Narrow coverage, no verification, not really designed for investigation scanning of third party repos.&#x20;
+
+[GitGuardian](https://www.gitguardian.com) is a commercial platform for continuous monitoring across GitHub/GitLab and public commits, with dashboards and incident workflows. It isn't free, and not really a suitable tool for OSINT research, but similar to TruffleHog Enterprise.&#x20;
+
+For an individual researcher, the most appropriate options are TruffleHog for depth and verification, versus Gitleaks for speed, simplicity, but has no verification. The other options listed above are either narrower in scope or aimed at organisational monitoring rather than one off investigations.
+
 ## Tool provider
 
 Truffle Security Co. - USA
