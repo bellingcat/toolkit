@@ -4,7 +4,7 @@ description: >-
   information about Chinese companies.
 ---
 
-# Gongsi Wang (满商公司网)
+# Gongsi (满商公司网)
 
 ## URL
 
@@ -92,13 +92,19 @@ There are other search options available, including searching by contact informa
 
 ## Requirements
 
+A Chinese telephone number.
+
+A VPN with a server in mainland China.
+
 The usage of a Chinese translation tool (e.g. DeepL) can be useful.
 
 ## Limitations
 
-Not all available information will be displayed if you do not log in with a registered account. Non-registered account users can only use the basic search functions (as elaborated in this text). While registering an account is free, this would require a Chinese mobile number.&#x20;
+Accessing this tool requires a VPN that has a server location in mainland China. Hong Kong will not work. Before you start looking for a proper VPN please note that you'll also need a Chinese phone number (see below).
 
-Since the results displayed without logging in with a registered account does not provide all the data that is available, it is advisable to cross-check the results with other similar websites (e.g., Tianyancha, Qichacha).
+No information is available unless you login. Logging in requires a Chinese phone to receive SMS texts. While registering an account is free, this would require a Chinese mobile number.&#x20;
+
+Since the results displayed without logging in with a registered account does not provide any of the data that is available, it is advisable to cross-check the results with other similar websites (e.g., Tianyancha). Qichacha has the same limitations (VPN and account requirement) as Gongsi.
 
 Depending on your internet connection, the website may not turn up results when you try to search for the first time. It is advisable to try and refresh the webpage again - this step usually returns search results.
 
