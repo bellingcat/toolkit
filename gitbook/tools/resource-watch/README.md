@@ -3,6 +3,7 @@ description: >-
   A free open-data platform that hosts 300+ datasets on different topics
   relating to the environment and human well-being, including real-time
   datasets.
+updated: '2026-06-27'
 ---
 
 # Resource Watch
