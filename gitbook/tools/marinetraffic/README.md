@@ -47,8 +47,6 @@ This vessel view also has two shortcuts to follow a ship's past track (selecting
 
 In the main menu, you can select for free up to five vessels and add them to a custom fleet that you can track over time.
 
-In the main menu, you can select for free up to five vessels and add them to a custom fleet that you can track over time.
-
 [Ports](https://www.marinetraffic.com/en/data/?asset_type=ports\&columns=flag,portname,unlocode,photo,vessels_in_port,vessels_departures,vessels_arrivals,vessels_expected_arrivals,local_time,anchorage,geographical_area_one,geographical_area_two,coverage): A list of over 20,887 ports, anchorages, offshore terminals, marinas, canals, shelters, fishing harbors and shelters including description of the port, its location, information on the number of arrivals and departures in the past 24 hours, as well as the number of vessels currently anchored there, the number of expected arrivals and the local time of the port. Use the search bar to locate a specific port using a name or a United Nations Code for Trade and Transport Locations - LOCODE (a geographic coding scheme developed and maintained by the UN Economic Commission for Europe, the code consists of five letters with the first two designating the country, e.g. ESADR is the LOCODE for Port of Adra in Spain).
 
 <details>
