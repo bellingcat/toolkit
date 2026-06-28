@@ -90,6 +90,10 @@ An article from [Unite AI](https://www.unite.ai/why-ai-failed-during-the-2025-te
 
 [Google Research](https://research.google/), U.S.
 
+## Similar Tools
+
+The [European Flood Awareness System](https://data.jrc.ec.europa.eu/collection/id-0068) (EFAS), part of the can be viewed [here with a map view.](https://european-flood.emergency.copernicus.eu/react/map) It is part of the Copernicus EMS. However, this tool only covers the territory of Europe.
+
 ## Advertising Trackers
 
 * [ ] This tool has not been checked for advertising trackers yet.
