@@ -40,25 +40,38 @@ Note that if you input the domain name, the tool will automatically resolve its 
 
 Let's take the domain bellingcat.com as an example:
 
-![](.gitbook/assets/unknown.png)
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-_(GeoDataTool querry result for bellingcat.com)_
+_(GeoDataTool query result for bellingcat.com, on 19/06/2026)_
 
-* **Hostname**: _server-3-174-207-31.qro51.r.cloudfront.net_ appears to be a CloudFront hostname. A few quick searches will identify that Cloudfront is Amazon's [Content Delivery Network](http://en.wikipedia.org/wiki/Content_delivery_network) (CDN) service. In addition, the 'ord58' refers to CloudFront's [CDN Edge server](https://en.wikipedia.org/wiki/Content_delivery_network) location code. "ORD" typically refers to Chicago, Illinois, and "58" would be a specific edge server identifier.
-* **IP Address:** if you are searching from a domain, this is the IP address of the server hosting the domain you look up.
-* **Country/County code:** this shows which country the server is physically located in. The server hosting bellingcat.com is in the United States.
+* **Hostname:** `2606:4700:10::ac42:ac54`
+* **IP Address:** `2606:4700:10::ac42:ac54.` The address GeoDataTool resolved for this domain. Note this may be a CDN/proxy IP rather than the domain's origin server (see below).
+* **Country/Country code:** this shows which country the server is physically located in. The server hosting bellingcat.com is in the United States.
 * **Region/City/Postal code:** similar information on the server hosting bellingcat.com.
 * **Latitude/Longitude:** these are GPS coordinates that pinpoint the exact location on the map.
 
-**Why the hostname location and IP address location may be different?**
+**What does it mean when the hostname is the same as the IP address?**
 
-If you have read through the information presented above, there is a notable discrepancy in the information that GeoDataTool returns: the hostname points to a location in Chicago, Illinois, whereas all other IP location information are returning Seattle, Washington. How is this possible? This is because hostname is obtained through a process called [reverse DNS lookup](https://en.wikipedia.org/wiki/Reverse_DNS_lookup), where the tool queries the IP address to find its associated hostname. When you enter 'bellingcat.com' into GeoDataTool, it first finds the IP address assigned to the domain bellingcat.com (3.170.152.110), then performs a reverse lookup on that IP. This reverse lookup uses a [PTR (pointer) record](https://www.cloudflare.com/learning/dns/dns-records/dns-ptr-record/) that maps the IP back to a hostname.
+When you enter a domain into GeoDataTool, the tool first resolves it to an IP address, then performs a **reverse DNS lookup** on that IP address. It queries for a **PTR (pointer) record** that maps the address back to a hostname. In this case, no such record exists (or none was returned), so the tool simply displays the IP address again in the hostname field.
 
-In this case, Amazon CloudFront has configured their PTR record for this IP to point to server-3-170-152-110.**ord58**.r.cloudfront.net, which based on the 'ord58' code is located in Chicago.
+This tells you something useful: the organization operating this IP address hasn't configured a descriptive reverse DNS entry for it. This is common for large, multi-tenant CDN/proxy networks, where a single IP serves traffic for many unrelated customer websites at once, so there's no one specific name to assign it.
 
-On the other hand, the geolocation data showing Seattle likely comes from third-party databases that attempt to map IP addresses to physical locations based on registration records and historical data. These databases often show where an IP was originally administratively registered rather than where it's actually being used.
+Because the hostname gives you no clue here, identifying who actually operates this IP requires an extra step: a **WHOIS/RDAP lookup directly on the IP address** . Doing this for `2606:4700:10::ac42:ac54` shows it belongs to the block `2606:4700::/32`, registered to **Cloudflare, Inc.** (AS13335) as confirmed on [Cloudflare's published IP ranges page](https://www.cloudflare.com/ips/).
 
-Therefore, in this case, the hostname's location code ('ord58' for Chicago) is likely more accurate for indicating where the server for that IP address is actually located.<br>
+**What would it have meant if the hostname were different?**
+
+If the hostname field instead returned something like `server-x-x-x-x.ord58.r.cloudfront.net`, that would tell you two things directly, without needing a separate WHOIS lookup:
+
+1. **The provider** : a hostname pattern like `*.cloudfront.net` immediately identifies Amazon CloudFront as the CDN in use, the same way `*.fastly.net` would point to Fastly or `*.akamaiedge.net` to Akamai.
+2. **A possible edge location hint** : some providers encode an internal location code into the hostname itself (CloudFront's `ord58` segment, for example, refers to a Chicago-based edge server, using the same three-letter codes as airport IATA codes). This can sometimes be a more specific clue about where that particular server is physically located than the geolocation database fields above it, since it comes directly from the provider's own infrastructure naming rather than a third-party IP-to-location database.
+
+In short: a populated, provider-specific hostname can hand you the answer for free. A hostname that just mirrors the IP (as in this case) means you have to do that identification work yourself with a separate WHOIS/RDAP lookup.
+
+
+
+**A note on re-querying:** if you look up bellingcat.com again later, don't be surprised if you get a _different_ Cloudflare IPv6 address than the one shown here. This is because the same domain can be served from different addresses within its range over time. Interestingly, when this address was queried at a separate point, GeoDataTool returned `2606:4700:10::6814:1ec0` instead :  a different exact address but within the same `2606:4700:10::` block, and resolving to the same city (Dyersburg, TN) and identical coordinates. This suggests the underlying geolocation database assigns location at the level of the IP block rather than the individual address.&#x20;
+
+_The practical takeaway for researchers:_ treat the city/coordinates as describing "where this slice of Cloudflare's network is mapped to," not "where bellingcat.com's true origin server sits". If a high level of precision matters for your research, re-query at different times and note the timestamp and exact address each time.
 
 ## Cost
 
@@ -78,13 +91,15 @@ No specific requirements.
 
 ## Limitations
 
-GeoDataTool will provide you with location information on an IP address, however this location is an estimation, and rarely corresponds to the actual physical location of the target of your research (a person, an organization, a website).
+GeoDataTool will provide you with location information on an IP address, however this **location is an estimation**, and rarely corresponds to the actual physical location of the target of your research (a person, an organization, a website).
 
 One of the [IP geolocation industry leader](https://support.maxmind.com/knowledge-base/articles/maxmind-geolocation-accuracy) estimates as of the time of this writing that:
 
-'\[...] our GeoIP products can identify users at the country level with 99.8% accuracy. For IPs located within the U.S., we estimate around an 80% accuracy at the state/region level, and a 66% accuracy for cities (within a 50km radius of that city).'
+_'\[...] our GeoIP products can identify users at the country level with 99.8% accuracy. For IPs located within the U.S., we estimate around an 80% accuracy at the state/region level, and a 66% accuracy for cities (within a 50km radius of that city).'_
 
-Therefore, it is important to understand the limitations of IP address geolocation, both due to methodologies used to geolocate them, as well as how IP addresses change assignment and ownership over time.
+A related limitation applies to the **hostname field:** GeoDataTool obtains this through a reverse DNS lookup (a PTR record), but not every IP address has one configured. When no PTR record exists, the tool will simply display the IP address again in place of a hostname. (See the worked example above for how to identify the provider when this happens).
+
+_Overall, it is important to understand the limitations of IP address geolocation, both due to methodologies used to geolocate them, as well as how IP addresses change assignment and ownership over time._
 
 For more in-depths analysis on IP geolocation methodologies and accuracy, here are a few sources:
 
@@ -110,7 +125,11 @@ If you are not familiar with basic networking concepts, we advise that you read 
 
 ## Tool provider
 
-There isn't much public information available about the specific individual or organization providing GeoDataTool. The "wiroos.com" displayed on the tool's user interface suggests it may be part of a larger web services operation.
+Historical (cached) WHOIS records show a sibling tool in the same family (geoiptool.com, which shares the wiroos.com branding and nameservers `kiu.wiroos.com.ar` / `lanark.wiroos.com`). They list a registrant named Matias Botbol, "WIROOS internet hosting," based in Buenos Aires, Argentina.&#x20;
+
+GeoDataTool might therefore be part of a small Argentine-run network of IP/geolocation utility sites (wiroos.com, geoiptool.com, showmyip.com, spyber.com appear linked).&#x20;
+
+An important caveat : it's drawn from a historical/cached WHOIS record for a related domain, not geodatatool.com's own current WHOIS, since that one is privacy-shielded via Cloudflare.&#x20;
 
 ## Similar tools
 
@@ -120,13 +139,16 @@ There are many IP geolocation services, depending on how often and at what scale
 * IPgeolocation [https://ipgeolocation.io/pricing.html](https://ipgeolocation.io/pricing.html) - for smaller businesses, provides access to a Free tier API enabling up to 1K requests per day.
 * WhoisXMLAPI [https://ip-geolocation.whoisxmlapi.com/](https://ip-geolocation.whoisxmlapi.com/) - hybrid solution, offers free single IP geolocation, or provides access to a paid API.
 
+## Glossary&#x20;
+
+Add Glossary if relevant / needed.&#x20;
+
 ## Advertising Trackers
 
 * [x] This tool has not been checked for advertising trackers yet.
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat volunteer team |
-|                           |
+| Page maintainer                                                        |
+| ---------------------------------------------------------------------- |
+| Bellingcat volunteer team. Updated by Nadia Enesco Mollá in June 2026. |
