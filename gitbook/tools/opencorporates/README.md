@@ -26,7 +26,6 @@ OpenCorporates provides a unified search of corporate and legal entity-level dat
 
 * Searching by a partial name or if more than one entity has a similar or almost identical name, the results page will show all relevant entries corresponding to your search term (see above image). It will also show **BOTH** active and inactive entities. To exclude the inactive ones, click on the checkbox 'exclude inactive' located just below the search bar. The results page also has additional filters on the right for jurisdiction, as well as various filters for data associated with the entries, filters for company type and current status. These can be used to narrow down the search results.
 * The search bar in the results page also offers advanced search options - where the keyword occurs, search mode, non-profit status, include/exclude company branches.
-* The search bar in the results page also offers advanced search options - where the keyword occurs, search mode, non-profit status, include/exclude company branches.
 
 <figure><img src=".gitbook/assets/OC3.png" alt=""><figcaption><p>Advanced options filters in the results page</p></figcaption></figure>
 
