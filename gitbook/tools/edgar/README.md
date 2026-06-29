@@ -19,6 +19,8 @@ The EDGAR database provides access to corporate information, allowing research o
 
 Best uses are to track annual reports, top level management of companies, subsidiaries, shareholders, mergers & acquisitions.
 
+Best uses are to track annual reports, top level management of companies, subsidiaries, shareholders, mergers & acquisitions.
+
 Search by keyword, company name, ticker symbol, location or the name of an individual.
 
 ## Cost
