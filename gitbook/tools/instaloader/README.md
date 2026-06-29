@@ -8,7 +8,7 @@ description: Download pictures or videos (with metadata) from Instagram.
 ## URL
 
 [https://instaloader.github.io](https://instaloader.github.io)\
-v4.15 (Nov 18, 2025), as of May 2026
+v4.15.1 (released 2026-03-21), checked 2026-06-19
 
 {% hint style="warning" %}
 Usage may lead to the loss of the Instagram account being used. Please see Limitations and Ethical Considerations before using this tool.
@@ -34,8 +34,8 @@ You can run it from the command line or script it in Python. It supports resumin
 ### Key Features
 
 1. **Targeted Content Retrieval**:
-   * **Profiles**: Download posts, profile pictures, tagged posts, reels, long-form videos (formerly IGTV, stories, and highlights.
-   * **Hashtags and Locations**: Fetch posts associated with specific hashtags or geographical locations (requires login for location-based queries).
+   * **Profiles**: Download posts, profile pictures, tagged posts, Reels, IGTV videos, Stories, and Highlights.
+   * **Hashtags and Locations**: Fetch posts associated with specific hashtags or geographical locations; both hashtag and location targets require login..
    * **User Feed and Saved Posts**: For logged-in accounts, retrieve posts from a user’s feed or saved collections.
    * **Individual Posts**: Download specific posts using their unique shortcode (e.g., `instaloader -- -SHORTCODE`).
    * **Followee List**: Download all profiles followed by a user using `@username` syntax (requires login).
@@ -70,7 +70,7 @@ python3 -m pip install --upgrade instaloader
 {% endtab %}
 
 {% tab title="Option 2: pipx " %}
-**For isolated environments:** [Pipx](https://app.gitbook.com/s/yDhVwWl9OPwarG1Cwar3/regions) is a tool to install and run end-user Python applications in isolated virtual environments. It's an automation layer over pip and venv specifically for Python CLI applications. That means each app gets its own virtual environment (venv) to avoid conflicts with other installed scripts while still enabling console scripts globally.
+**For isolated environments:** [Pipx](https://pipx.pypa.io/stable/) is a tool to install and run end-user Python applications in isolated virtual environments. It's an automation layer over pip and venv specifically for Python CLI applications. That means each app gets its own virtual environment (venv) to avoid conflicts with other installed scripts while still enabling console scripts globally.
 
 ```bash
 pipx install instaloader
@@ -78,7 +78,7 @@ pipx install instaloader
 {% endtab %}
 
 {% tab title="Option 3: Conda" %}
-**For users of**[ **Anaconda via conda-forge**](https://github.com/pypa/pipx)**:**\
+**For users of**[ **Anaconda via conda-forge**](https://github.com/conda-forge/instaloader-feedstock)**:**\
 [Anaconda](https://domino.ai/data-science-dictionary/anaconda) is an open-source distribution of the Python and R languages for data science that simplifies package management and deployment by using the conda environment manager to resolve dependencies and avoid conflicts. [Conda](https://en.wikipedia.org/wiki/Conda_\(package_manager\)) is the cross-platform package and environment manager included in Anaconda; it supports multiple channels for sourcing packages. “[Conda-forge](https://conda-forge.org/docs/)” is a community-driven packaging effort and GitHub organization that maintains recipes for building conda packages. Built distributions are published to anaconda.org/conda-forge and can be installed into any conda-based environment, providing an open-source alternative to the default Anaconda channel.
 
 Just use your terminal or PowerShell, and make sure that the environment you want to install (just substitute "\<env-name>" with "myenvironment", the name is up to you), this package is activated:
@@ -404,7 +404,7 @@ for post in tqdm.tqdm(posts, total=MAX_ITEMS):
 Feel free to remix flags (e.g., add `download_comments=True`) or combine ideas (geofilter + hashtag counter) to suit your investigation.
 {% endhint %}
 
-### CLI-to-Python “cheat sheet” (v 4.14.1, 12 Jul 2025)
+### CLI-to-Python “cheat sheet” (Instaloader 4.15.1, checked 2026-06-19)
 
 Below you’ll find **every current command-line flag** grouped by purpose, with the _canonical_ Python call or argument that achieves the same effect.\
 Where the Instaloader **constructor** accepts a parameter mapped 1-to-1 to the flag, it is shown like `Instaloader(download_pictures=False)`.\
@@ -552,7 +552,7 @@ While basic usage (e.g., downloading all posts from a profile) is straightforwar
 
 ### **Python Environment**
 
-* **Python 3.9 or higher** (tested up to 3.13, 3.8 support was dropped in v4.14)
+* **Python 3.9 or higher** (PyPI lists support through Python 3.14; Python 3.8 support was dropped in v4.14).
 * Primary dependencies (installed automatically with pip):
   * [`requests`](https://pypi.org/project/requests/) Requests lets you send HTTP/1.1 requests effortlessly, with automatic query-string encoding, JSON support, and more
   * [`lxml`](https://github.com/lxml/lxml) is a feature-rich and easy-to-use library for processing XML and HTML in the Python language, with good performance, and memory efficiency,
@@ -560,7 +560,7 @@ While basic usage (e.g., downloading all posts from a profile) is straightforwar
 
 ### **Access Requirements**
 
-* **Anonymous Access**: Instaloader can scrape public profiles, hashtags, and posts without login.
+* **Anonymous Access**: Some public profile and single-post downloads may work without logging in, but hashtag and location targets require login, and Instagram may still rate-limit or block anonymous access.
 * **Logged-In Access**: To scrape private profiles or retrieve user-specific data (e.g., user feed, saved posts), you must log in with valid Instagram credentials. Instaloader stores a session file to avoid repeated logins.
 
 ## Limitations
@@ -573,7 +573,7 @@ _**Heavy scripted use can trigger temporary locks or permanent bans.**_
    * Command-line usage can pose a challenge for non-technical users.
    * Using the Python module requires basic programming knowledge.
 2. **Rate Limits and Restrictions**:
-   * Instagram actively attempts to detect and restrict automated scraping. Even moderate usage of Instaloader can lead to security warnings or [temporary locks](https://github.com/instaloader/instaloader/issues/2555) on your account.
+   * Instagram actively attempts to detect and restrict automated scraping, and Instaloader can break when Instagram changes the web or GraphQL endpoints it relies on. Even moderate usage of Instaloader can lead to security warnings or [temporary locks](https://github.com/instaloader/instaloader/issues/2555) on your account.
    * Instagram imposes strict rate limits that can trigger **429 Too Many Requests** errors if requests exceed certain thresholds.
    * Using proxies or VPNs may result in stricter rate limits for anonymous scraping.
 3. Instagram does **not publicly disclose** the exact thresholds for the web endpoints, so the limits can change without notice. Based on user experiences, the thresholds have become **much stricter in recent years**. For example, one user noted that previously, you could make on the order of _\~200 requests per minute_ without issues. Current [anecdotal](https://github.com/instaloader/instaloader/issues/2307) [ceiling ](https://github.com/instaloader/instaloader/issues/2524)is closer to **1–2 requests / 30s** for unauthenticated scrapes; thresholds vary by endpoint and change frequently. Community reports now place anonymous limits around 1–2 requests every 30 seconds, sometimes lower. In other words, Instagram dramatically lowered the allowed request rate for scraping. [Another Instaloader user](https://stackoverflow.com/questions/65067929/instagram-responded-with-http-error-429-too-many-requests) observed getting a 429 after analyzing just 2–3 posts in a row, even from different machines, indicating a very low threshold in effect​. The exact limit may vary over time or by content type – for instance, story downloads seem to [trigger limits faster than](https://github.com/instaloader/instaloader/issues/1711) regular posts (Instagram appears to “heavily rate-limit stories” requests).
@@ -590,11 +590,11 @@ _**Heavy scripted use can trigger temporary locks or permanent bans.**_
 
 If you encounter 429 errors or want to avoid them, consider these practices:
 
-* **Stay Logged In:** Always use `--login` with Instaloader so that you leverage a logged-in session (and reuse a session file). This not only grants access to more content but [may raise the rate limit ceiling](https://instaloader.github.io/troubleshooting.html) compared to anonymous use​. The Instaloader team advises [keeping the session file to avoid re-login](https://instaloader.github.io/troubleshooting.html) each run which prevents frequent login attempts that could trigger Instagram’s security checks.
+* **Stay Logged In:** Always use `--login` with Instaloader so that you leverage a logged-in session (and reuse a session file). This not only grants access to more content but [may raise the rate limit ceiling](https://instaloader.github.io/troubleshooting.html) compared to anonymous use​. The Instaloader team advises [keeping the session file to avoid re-login](https://instaloader.github.io/troubleshooting.html) each run, which prevents frequent login attempts that could trigger Instagram’s security checks.
 * **Do Not Parallelize or Re-run Quickly:** [Run a single instance of Instaloader at a time](https://stackoverflow.com/questions/65067929/instagram-responded-with-http-error-429-too-many-requests) and avoid launching multiple scrapes in parallel​. Also, avoid scheduling runs back-to-back without sufficient delay. Give some breathing room between Instaloader runs (or between different scraping scripts) so that Instagram’s counters can reset. For example, if you update a profile archive, you might schedule it hourly or daily, not every minute.
 * **Limit Request Frequency:** Instaloader already inserts delays between requests, but if you still hit 429s, you may need to slow down further. You can insert additional **sleep/delay** in your scraping logic or use a custom `RateController`. One user found success by **randomizing delays** between actions: e.g., waiting 10–30 seconds between different profiles or hashtag scrapes, 1–3 seconds between individual post downloads, and 3–10 seconds between story fetches​. These pauses mimic human browsing patterns and can help avoid tripping the automated limits.
 * **Use `--fast-update` or Smaller Batches:** If you are downloading a very large number of items (e.g. stories from hundreds of profiles, or thousands of posts), consider breaking the job into smaller chunks. The `--fast-update` option can help by stopping when you reach media that’s already downloaded, [reducing total requests on repeated runs](https://instaloader.github.io/cli-options.html). You can also specify `--count` to limit how many posts or items to fetch in one go​. Fetching in batches spread over time will be gentler on the rate limit.
-* **Rotate User Agents:** Instagram might flag automated clients partly by their HTTP User-Agent string. Instaloader by default uses its own UA, but you can override it. Some developers suggest [using a common browser User-Agent](https://stackoverflow.com/questions/65002504/would-it-be-possible-to-use-ip-rotation-to-avoid-the-exception-toomanyrequestsex) so the requests look more like normal web traffic​. In code, you can initialize Instaloader with a custom `user_agent`. For multiple runs, rotating through a list of user-agent strings for each session[ may slightly reduce the chance of detection](https://stackoverflow.com/questions/65002504/would-it-be-possible-to-use-ip-rotation-to-avoid-the-exception-toomanyrequestsex)​. _(Note: This is not foolproof, but may help at the margins.)_
+* **Rotate User Agents:** Instagram might flag automated clients partly by their HTTP User-Agent string. Instaloader’s current default user-agent is Chrome 142 on Linux, and you can still override it with a custom user-agent. Some developers suggest [using a common browser User-Agent](https://stackoverflow.com/questions/65002504/would-it-be-possible-to-use-ip-rotation-to-avoid-the-exception-toomanyrequestsex) so the requests look more like normal web traffic​. In code, you can initialize Instaloader with a custom `user_agent`. For multiple runs, rotating through a list of user-agent strings for each session[ may slightly reduce the chance of detection](https://stackoverflow.com/questions/65002504/would-it-be-possible-to-use-ip-rotation-to-avoid-the-exception-toomanyrequestsex)​. _(Note: This is not foolproof, but may help at the margins.)_
 * **Avoid Obvious Scraping Patterns:** Try not to scrape the same data repeatedly in a short period of time. For example, do not repeatedly download the same profile or hashtag in rapid succession. Likewise, if you are scraping stories, be aware that grabbing many stories in quick succession is a known trigger​. [Spreading out story downloads](https://github.com/instaloader/instaloader/issues/1711) (or limiting the number of story feeds you scrape per hour) can help.
 * **Handle 429 Gracefully:** If you get a 429 error, **stop requests and wait**. Instaloader’s built-in backoff will pause execution; respect it. If you’re writing a custom script and catch a `TooManyRequestsException`, implement a long sleep (e.g., 10–15 minutes or more) before retrying. [Do not aggressively retry failed requests](https://github.com/instaloader/instaloader/issues/834) or you risk extending the ban​.
 * **IP and Account Rotation (Last resort):** In extreme cases, if one IP address is consistently getting blocked, you might try switching to another network/IP or using a proxy with a different IP. This can bypass an IP-based throttle, but use caution: Instagram might detect account sharing or unusual IP changes. If you have multiple Instagram accounts, you could distribute your queries among them (log in with different accounts for different tasks) to stay under per-account limits. Only do this with accounts you control, and **never** use accounts without permission.e.
@@ -615,7 +615,7 @@ Ultimately, [**there is no way to completely “bypass” Instagram’s rate lim
 
 ## Tool provider
 
-The software is developed primarily by Alexander Graf (GitHub: [aandergr](https://github.com/aandergr)) and is currently sponsored by [@rocketapi-io](https://rocketapi.io), Estonia.
+The software is maintained by the Instaloader project. PyPI lists Alexander Graf and André Koch-Kramer as authors and aandergr as maintainer. The project website currently lists SocialAPIs and @rocketapi-io as sponsors. ([aandergr](https://github.com/aandergr) and [@rocketapi-io](https://rocketapi.io), Estonia.)
 
 ## Advertising Trackers
 
