@@ -88,5 +88,5 @@ The tool is provided by Hacker Factor, also known as Dr. Neal Krawetz. More deta
 
 | Page maintainer |
 | --------------- |
-| Anisa Shabir    |
+| Anisa Shabir.   |
 |                 |
