@@ -176,6 +176,7 @@
   * [Radar Interference Tracker](tools/radar-interference-tracker/README.md)
   * [RAMMB SLIDER](tools/rammb-slider/README.md)
   * [RAWGraphs](tools/rawgraphs/README.md)
+  * [RedditMetis](tools/redditmetis/README.md)
   * [Resource Watch](tools/resource-watch/README.md)
   * [RootAbout](tools/rootabout/README.md)
   * [RuPEP](tools/rupep/README.md)
