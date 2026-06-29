@@ -1,7 +1,7 @@
 ---
 description: >-
   Live Satellite Monitoring and Centralized Data Access, providing seamless
-  access the world of earth observation satellites.
+  access to the world of earth observation satellites.
 ---
 
 # Obsearth (formerly Spectator Earth)
