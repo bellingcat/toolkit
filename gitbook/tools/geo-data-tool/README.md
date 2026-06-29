@@ -1,8 +1,8 @@
 ---
+updated: '2025-12-12'
 description: >-
   IP geolocation service to identify the location and other technical
   information associated to IP addresses.
-updated: '2025-12-12'
 ---
 
 # Geo Data Tool
@@ -32,7 +32,11 @@ Once you are more familiar with the limitations of using IP addresses for geoloc
 * Is the hostname the IP address is pointing to under a specific name? If so, it is possible this IP address is associated with a particular hosting provider or company. Is there any notable information about this company I can infer, such as a country/region of operation?
 * How do the information found above contrast with the claimed or perceived location of the target of my researches?<br>
 
-With these limitations in mind, to use GeoDataTool, you will simply need to input the IP address or domain name you wish to locate. Note that if you input the domain name, the tool will automatically resolve its IP address, which can be useful as you may not necessarily know the IP address of a domain.
+With these limitations in mind, to use GeoDataTool, you will simply need to input the IP address or domain name you wish to locate.&#x20;
+
+GeoDataTool accepts both IPv4 and IPv6 addresses. If you are unfamiliar with IPv6, note that these addresses are much longer and use hexadecimal characters separated by colons. For example, an IPv4 address might look like `203.0.113.42`, while an IPv6 address could look like `2001:db8:85a3::8a2e:370:7334`.
+
+Note that if you input the domain name, the tool will automatically resolve its IP address, which can be useful as you may not necessarily know the IP address of a domain.
 
 Let's take the domain bellingcat.com as an example:
 
@@ -40,9 +44,7 @@ Let's take the domain bellingcat.com as an example:
 
 _(GeoDataTool querry result for bellingcat.com)_
 
-
-
-* **Hostname**: _server-3-174-207-31.qro51.r.cloudfront.net_ appears to be a CloudFront hostname. A few quick searches will identify that Cloudfront is Amazon's [Content Delivery Network](http://en.wikipedia.org/wiki/Content_delivery_network) (CDN) service. In addition, the 'ord58' refers to CloudFront's [CDN Edge server](https://en.wikipedia.org/wiki/Content_delivery_network) location code. "ORD" typically refers to Chicago, Illinois, and "58" would be a specific edge server identifier.&#x20;
+* **Hostname**: _server-3-174-207-31.qro51.r.cloudfront.net_ appears to be a CloudFront hostname. A few quick searches will identify that Cloudfront is Amazon's [Content Delivery Network](http://en.wikipedia.org/wiki/Content_delivery_network) (CDN) service. In addition, the 'ord58' refers to CloudFront's [CDN Edge server](https://en.wikipedia.org/wiki/Content_delivery_network) location code. "ORD" typically refers to Chicago, Illinois, and "58" would be a specific edge server identifier.
 * **IP Address:** if you are searching from a domain, this is the IP address of the server hosting the domain you look up.
 * **Country/County code:** this shows which country the server is physically located in. The server hosting bellingcat.com is in the United States.
 * **Region/City/Postal code:** similar information on the server hosting bellingcat.com.
@@ -52,7 +54,7 @@ _(GeoDataTool querry result for bellingcat.com)_
 
 If you have read through the information presented above, there is a notable discrepancy in the information that GeoDataTool returns: the hostname points to a location in Chicago, Illinois, whereas all other IP location information are returning Seattle, Washington. How is this possible? This is because hostname is obtained through a process called [reverse DNS lookup](https://en.wikipedia.org/wiki/Reverse_DNS_lookup), where the tool queries the IP address to find its associated hostname. When you enter 'bellingcat.com' into GeoDataTool, it first finds the IP address assigned to the domain bellingcat.com (3.170.152.110), then performs a reverse lookup on that IP. This reverse lookup uses a [PTR (pointer) record](https://www.cloudflare.com/learning/dns/dns-records/dns-ptr-record/) that maps the IP back to a hostname.
 
-In this case, Amazon CloudFront has configured their PTR record for this IP to point to server-3-170-152-110.**ord58**.r.cloudfront.net, which based on the 'ord58' code is located in Chicago.&#x20;
+In this case, Amazon CloudFront has configured their PTR record for this IP to point to server-3-170-152-110.**ord58**.r.cloudfront.net, which based on the 'ord58' code is located in Chicago.
 
 On the other hand, the geolocation data showing Seattle likely comes from third-party databases that attempt to map IP addresses to physical locations based on registration records and historical data. These databases often show where an IP was originally administratively registered rather than where it's actually being used.
 
@@ -68,7 +70,7 @@ Therefore, in this case, the hostname's location code ('ord58' for Chicago) is l
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>1</td></tr></tbody></table>
 
-The tool typically requires only entering an IP address or domain to get location information, however to fully understand the results provided, it is preferred to have networking knowledge.&#x20;
+The tool typically requires only entering an IP address or domain to get location information, however to fully understand the results provided, it is preferred to have networking knowledge.
 
 ## Requirements
 
