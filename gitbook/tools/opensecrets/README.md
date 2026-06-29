@@ -1,6 +1,6 @@
 ---
-description: 'Data on campaign finance, lobbying, and spending in U.S. politics'
 updated: '2025-10-30'
+description: Data on campaign finance, lobbying, and spending in U.S. politics
 ---
 
 # OpenSecrets
@@ -34,7 +34,7 @@ OpenSecrets is a nonpartisan, independent, and nonprofit organization tracking m
 **Elections & Fundraising Data - this section includes spending by candidates in presidential and congressional elections.** The two most relevant subsections are:
 
 * [Outside Spending](https://www.opensecrets.org/outside-spending) - data reported by outside spending groups to the Federal Election Commission. There is a separate section devoted to dark money groups – politically active nonprofits that aren't required to publicly disclose their donors. The information includes data on political recipients, however it only shows the amounts received and rarely the donors.
-* [Donor Lookup ](https://www.opensecrets.org/donor-lookup)- a search by name of a donor - these are individuals and companies. This is the most user-friendly and useful feature for small investigations as it allows searching by keyword.   &#x20;
+* [Donor Lookup ](https://www.opensecrets.org/donor-lookup)- a search by name of a donor - these are individuals and companies. This is the most user-friendly and useful feature for small investigations as it allows searching by keyword.
 
 <div align="left"><figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 7.15.56 PM.png" alt=""><figcaption><p>Donors search with filters</p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2024-09-03 at 6.51.58 PM.png" alt=""><figcaption><p><a href="https://web.archive.org/web/20220722103823/https://www.businessinsider.com/elon-musk-tesla-spacex-secret-service-special-agent-filing-donation-2021-4">Donor profile for Elon Musk</a> who donated twice to the Republican National Committee in 2021</p></figcaption></figure></div>
 
@@ -58,7 +58,8 @@ OpenSecrets is a nonpartisan, independent, and nonprofit organization tracking m
 
 <figure><img src=".gitbook/assets/Screenshot 2024-08-30 at 7.50.10 PM (1).png" alt="" width="563"><figcaption><p>2023 Spending by Russian individuals and entities</p></figcaption></figure>
 
-* [Revolving Door](https://www.opensecrets.org/revolving-door): database documenting the individuals who have worked in both the public sector and lobbying firms and may have conflicts of interest. Allows search by name of individuals, congressional committees, lobbying firms, or employment positions. This submenu can be used to research which PR or lobbying firms have hired former staffers of the White House, congressional or house committees, or which former members of the House or the Congress are lobbying for particular interests.&#x20;
+* [Revolving Door](https://www.opensecrets.org/revolving-door): database documenting the individuals who have worked in both the public sector and lobbying firms and may have conflicts of interest. Allows search by name of individuals, congressional committees, lobbying firms, or employment positions. This submenu can be used to research which PR or lobbying firms have hired former staffers of the White House, congressional or house committees, or which former members of the House or the Congress are lobbying for particular interests.
+* [Power Donor Planner](./#url) - and interactive guide tool for people to see the various ways they can donate to political campaigns and organizations, based on current federal campaign finance laws and donations caps for the upcoming cycle.
 
 **Other ways to get data from OpenSecrets**
 
