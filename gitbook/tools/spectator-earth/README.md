@@ -45,9 +45,9 @@ Place scenes and locations side by side to compare algorithms, patterns, and cha
 **Meta analytics**\
 Quickly assess area of interest with weather predictions and archive data analytics.
 
-<figure><img src=".gitbook/assets/obsearth_02.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/obsearth_02.jpg" alt="Split view mode showing map, calendar and meta analytics"><figcaption><p>Split view mode showing map, calendar and meta analytics</p></figcaption></figure>
 
-## Datasets
+### Datasets
 
 [Acquisition plans](#user-content-fn-2)[^2] show where and when satellites are scheduled to capture imagery.
 
@@ -82,14 +82,17 @@ The split view shown below is an example of a satellite overpass schedule for a 
 
 <figure><img src=".gitbook/assets/obsearth_03.jpg" alt="Example of a split view showing a satellite overpass schedule for a given location side-by-side with imagery of that location from a specified overpass."><figcaption><p>Example of a split view showing a satellite overpass schedule for a given location side-by-side with imagery of that location from a specified overpass.</p></figcaption></figure>
 
-## API[^5]
+### [API (Application Programming Interface)](https://dev.to/icornea/what-are-apis-a-beginners-guide-with-examples-4ok8)
 
-* Explore all the functionalities programmatically
-* Automate your workflow
-* Integrate information from Obsearth into your application
-* API access is available with the [Pro plan](https://obsearth.com/pricing/)
+The API can be used to interact programmatically with some of the web app’s capabilities. For example, you can:
 
-[API Documentation](https://api.spectator.earth/)
+* Search for data
+* Request images in a specified resolution
+* Track satellite passes
+
+API access is available with the [Pro Plan](https://obsearth.com/pricing/).
+
+The full API documentation is available at [API Documentation](https://api.spectator.earth/).
 
 ## Cost
 
@@ -109,9 +112,9 @@ Discounted access is offered for academic and non-profit research use. To apply,
 
 ## Level of difficulty
 
-<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
+<table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
-As of writing, documentation is sparse for this new release - hence the 3 stars. Subject to change when/if documentation is forthcoming.
+As of writing, documentation consists only of a "tour" of the user interface and a set of FAQs. The level of difficulty is thus subject to change when/if a robust set of documentation is forthcoming.
 
 ## Requirements
 
@@ -133,7 +136,9 @@ At this early stage, just days after the app's release, several factors combine 
 
 ## Guides and articles
 
-Just two days into the release of Obsearth - only a video "Tour" button on the interface and an FAQs section serve as documentation or guides as yet.
+Just a few days into the release of Obsearth, the only documentation that exists is an interactive "Tour" of the user interface (accessed via the help button at lower right) and an [FAQ page](https://obsearth.com/faq?q=).
+
+<figure><img src=".gitbook/assets/obsearth_tour.jpg" alt="Graphic showing an aggregate view of the tour of the user interface."><figcaption><p>Aggregate view of the "tour" of the user interface.</p></figcaption></figure>
 
 ## Tool provider
 
@@ -141,7 +146,9 @@ Obsearth Limited (Scotland) / Spectator sp. z o.o. (Poland)
 
 ## Similar tools
 
-Copernicus Browser
+[SpyMeSat](https://www.spymesat.com/) is similar to Obsearth in that they are both built around overpass awareness and imagery access workflows.
+
+[Copernicus Browser](https://bellingcat.gitbook.io/toolkit/more/all-tools/sentinal-hub-playground) and [EOSDA LandViewer](http://eos.com/landviewer) are access platforms for Earth-observation data but they emphasize data access, processing, and analysis rather than overpass planning and acquisition of future imagery.
 
 ## Advertising Trackers
 
@@ -161,5 +168,3 @@ Copernicus Browser
 [^3]: Imagery already captured (i.e. from an overpass in the past).
 
 [^4]: Imagery from a future overpass  that you have specified for capture.
-
-[^5]: Application Programming Interface
