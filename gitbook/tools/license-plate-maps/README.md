@@ -1,5 +1,5 @@
 ---
-updated: '2026-03-01'
+updated: '2026-06-28'
 description: Collection of tools and maps for discerning license plates by country
 ---
 

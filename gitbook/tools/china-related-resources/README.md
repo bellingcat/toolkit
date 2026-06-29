@@ -1,5 +1,6 @@
 ---
 description: Resources for research on companies in China.
+updated: '2026-06-28'
 ---
 
 # China-related resources

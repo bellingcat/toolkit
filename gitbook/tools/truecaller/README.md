@@ -1,5 +1,5 @@
 ---
-updated: '2025-09-21'
+updated: '2026-06-28'
 description: >-
   Truecaller is a caller ID app that identifies incoming calls, blocks unwanted
   numbers, and gathers phone numbers and names from contact lists. It also

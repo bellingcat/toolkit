@@ -1,5 +1,5 @@
 ---
-updated: '2026-06-27'
+updated: '2026-06-28'
 description: >-
   Whoxy is a domain search engine or "whois lookup" tool to find (the history
   of) registration information on a domain, such as the registrar, the status of
