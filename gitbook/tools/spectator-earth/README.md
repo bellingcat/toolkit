@@ -156,10 +156,10 @@ Obsearth Limited (Scotland) / Spectator sp. z o.o. (Poland)
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer                        |
-| -------------------------------------- |
-| Bellingcat Team. Updated Gregg 25/6/25 |
-|                                        |
+| Page maintainer                                           |
+| --------------------------------------------------------- |
+| Bellingcat Volunteer Team. Updated by Gregg in June 2026. |
+|                                                           |
 
 [^1]: Data sources are selected from a list of options in the "lens" in Obsearth. Refer to the Datasets section below for details.
 
