@@ -41,6 +41,7 @@ Clicking on the List paperclip icon will take you to the lists of persons, entit
 <figure><img src=".gitbook/assets/eusm7.png" alt="" width="375"><figcaption><p>View of the top right corner filters on the website</p></figcaption></figure>
 
 * Clicking on a country on the map - this will open a pop-up window with the type of sanctions imposed on this country. The additional information is accessible by clicking the small text that says "Info" at the bottom of the pop-up.
+* **Search by type of sanctioned product or goods -** at the top right of the page click the menu (three horizontal lines) and select whichever sancioned good you are interested in - fuel, diamonds, tobacco, etc.
 
 **What information can you find in the EU Sanctions Map?**
 
@@ -89,9 +90,10 @@ At the top of the page there is a list of additional resources, pertaining to or
 1. [EU Sanctions Whistleblower Tool](https://eusanctions.integrityline.com/frontpage) - can be used to report violations of sanctions. It allows to anonymously submit a report and also provides additional resources on what can be reported.
 2. [Competent Authorities](https://www.sanctionsmap.eu/#/main/authorities) - a list of the authorities in each EU Member State that deal with the sanctions. Each country links out to the specific website for that country.
 3. [TARIC Database](https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en) - an EU-wide customs tariff database that allows searching by goods code, origin and destination.
-4. [Consolidated List of Travel Bans](https://www.sanctionsmap.eu/#/main/travel/ban) - a downloadable file with a list of persons subject, under EU sanctions, to travel restrictions. The file is regularly updated and offers a subscription to an email alert when a new version is added.
+4. [Consolidated List of Travel Bans](https://www.sanctionsmap.eu/#/main/travel/ban) - a downloadable file with a list of persons who are subject, under EU sanctions, to travel restrictions. The file is regularly updated and offers a subscription to an email alert when a new version is added.
 5. [Consolidated List of Financial Sanctions](https://data.europa.eu/data/datasets/consolidated-list-of-persons-groups-and-entities-subject-to-eu-financial-sanctions?locale=en) - a list of persons, groups and entities subject to EU financial sanctions.
 6. [EU Sanctions Tracker](https://data.europa.eu/apps/eusanctionstracker/) - A website geared towards statistics and data sets over time. Contains overall charts, but also charts for each sanctioned country, entity or individual. It also provides the same information as the EU Sanctions Map but in an interactive form. Allows for data downloads in a CSV format.
+7. Consolidated list of designated vessels (link starts direct file download!) - a downloadable Excel file with a list of over 1,000 entries with vessel name, IMO number and a link to the relevant EU Official Journal announcing the designation.
 
 ## Cost
 
