@@ -14,7 +14,7 @@ description: >-
 
 ## Description
 
-Lumen is a Harvard‑affiliated research database of **legal complaints and content‑removal requests** (e.g., DMCA, defamation, court orders) submitted to online services. As of mid‑2025 it hosts **≈43 million** notices that reference **almost 10 billion URLs**. Investigators can search notices by keywords, entities (sender/recipient/principal), topics, and jurisdictions; exact‑phrase searching is available by quoting terms. A researcher login adds a per‑notice **“watch”** feature that emails updates when new documents (e.g., follow‑up court orders) are added.
+Lumen is a Harvard Law School Library research database of legal complaints and content-removal requests, including DMCA, defamation, court-order, trademark, privacy, and other takedown demands submitted to online services. As of June 2026, it hosts over 75 million notices that reference over 10 billion URLs, and Lumen says the database grows by more than 200,000 notices per week. Investigators can search notices by keywords, senders and recipients, topics, jurisdictions, dates, and quoted exact phrases.
 
 ### Key use cases and features:
 
@@ -275,29 +275,28 @@ API access is free for **research purposes**; tokens are issued on request to th
 
 ## Requirements
 
-* **Website Usage**: No registration to browse truncated info; an email-based request is needed to view unredacted URLs or attachments.
-* **API Usage**: Researchers must apply for an **API key** by emailing Lumen’s team with a brief description of intended usage.
+* **Website Usage:** Public browsing and search will usually be enough for finding notices, but full URLs may be limited. Non-researchers can request one-time, 24-hour access to one full notice per email address.
+* **API Usage:** Automated searches and notice-data requests require an authentication token, a code that authorizes API requests. Lumen generally issues researcher credentials only to individuals or nonprofit organizations planning journalistic, academic, legal, or policy-focused public research outputs, and may deny or revoke API access.
 
 ## Limitations
 
-* **Coverage depends on participating platforms.** Notable gaps/changes: **YouTube does not currently share** copies of notices; **Twitter/X paused** data‑sharing on **2023‑04‑15**; **Automattic/WordPress** is “not currently sending”; **GitHub (paused)**; **Stack Exchange stopped in 2017**
-* **Redacted Fields:** Personally identifying information and entire text explanations may be redacted. For unregistered visitors, full URLs are truncated.
-* **No Bulk Export via Website**: For large-scale or automated retrieval, you **must** use the API.
-* **Date & Result Limits**: Extremely large or unfiltered searches might be capped or require date-slicing. Large, unfiltered queries can hit the 10 000‑result cap; slice by date when pulling data. Database growth now **> 200 k notices/week**.
-* **No Guarantee of Accuracy**: Lumen does not confirm or endorse the validity of a notice; some notices may be fraudulent or contain misinformation.
-* Coverage gaps: Twitter/X paused data-sharing on 15 Apr 2023; some other services (e.g. Stack Exchange) stopped years earlier.
-* Google omits sender names from **defamation** notices for privacy reasons, so those fields will read “Redacted”.
-* Although the software is GPL-2.0, individual notice texts remain under the terms set by the submitter; bulk redistribution of raw data may require permission.
+* **Coverage** depends on participating submitters and can change. Lumen’s notice-basics page lists Google, Cloudflare, Medium, Meta, the University of California, Vimeo, and Wikipedia/Wikimedia without a pause note; it marks YouTube, Twitter/X, Automattic/WordPress, GitHub, Reddit, and Stack Exchange as not currently sending, no longer sending, or paused.
+* **Redacted Fields**: Personally identifying information and some notice text may be redacted.
+* **Public users** may see URLs truncated to the top-level domain, and some sensitive URLs are available only to affiliated researchers.
+* **No Bulk Export via Website:** For large-scale or automated retrieval, use the API and expect access controls.
+* **Date & Result Limits:** Large or unfiltered searches can hit the 10,000-result cap; narrow searches by date or another filter. Lumen says the database grows by more than 200,000 notices per week.
+* **No Guarantee of Accuracy:** Lumen does not confirm or endorse the validity of a notice, and some notices may be fraudulent, abusive, or inaccurate.
+* **Google-specific redactions:** Google omits some sender names and other details from defamation notices, so those fields may appear as “Redacted”.
 
 ## Ethical Considerations
 
 * **Potential Privacy Risks**: Notices sometimes include sensitive info (names, allegations, etc.). Even though Lumen redacts personal data, some details may still appear in the body or attachments. Handle carefully.
 * **Possibility of Misuse**: Some takedown requests are abusive or ‘fake DMCA’ attempts, aiming to silence speech or censor legitimate content.
-* **Caution with Publication**: If you cite Lumen notices, consider verifying with additional sources. A notice alone is not proof of wrongdoing or infringement.
+* **Caution with Publication**: If you cite Lumen notices, consider verifying with additional sources. A notice alone is not proof of wrongdoing or infringement. Treat notices as leads, not findings. A takedown notice is a claim or request, not proof that the targeted content was unlawful or infringing. Corroborate the parties, dates, URLs, platform action, and legal context before publishing conclusions.
 
 ## Guides and articles
 
-**Official API Docs (GitBook, Jan 2025)** – [berkman-klein-center.gitbook.io/lumen-database](https://berkman-klein-center.gitbook.io/lumen-database)
+Official Lumen API documentation – [https://berkman-klein-center.gitbook.io/lumen-database/api/documentation](https://berkman-klein-center.gitbook.io/lumen-database/api/documentation) seen 2026-06-29.
 
 Steve Vondran: [How to track Trump Twitter Takedowns on the lumen database](https://www.youtube.com/watch?v=tY5sOxznvEU)\*, Youtube.
 
