@@ -179,8 +179,3 @@ Created by GitHub user **jibalio** and hosted on AWS. Codebase is a fork of u/or
 * [ ] This tool does not appear to use tracking cookies.
 
 Cookies are limited to site preferences, Google Analytics and AdSense ads (Cookie policy).
-
-| Page maintainer |
-| --------------- |
-| Martin Sona     |
-|                 |
