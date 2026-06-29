@@ -43,6 +43,7 @@
 ## More
 
 * [All Tools](more/all-tools/README.md)
+  * [4CAT](tools/4cat/README.md)
   * [4plebs](tools/4plebs/README.md)
   * [527 Explorer](tools/527-explorer/README.md)
   * [About Maps and Satellites](tools/about-maps-and-satellites/README.md)

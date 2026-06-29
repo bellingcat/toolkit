@@ -2,6 +2,7 @@
 
 | Name | Description | Cost | Tool Review and Guide |
 | --- | --- | --- | --- |
+| 4CAT | 4CAT is a tool designed for the easy collection and analysis of online datasets. It allows researchers to uncover patterns and trends in data  from social media and other digital platforms. | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/4cat](../../../tools/4cat/README.md) |
 | Blackbird | Check usernames and email addresses on websites and social networks | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/blackbird](../../../tools/blackbird/README.md) |
 | Have I Been Pwned? | Does an email address appear in data breaches? | <mark style="background-color:green;">Free</mark> | [https://bellingcat.gitbook.io/toolkit/more/all-tools/have-i-been-pwned](../../../tools/have-i-been-pwned/README.md) |
 | holehe | holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function. | <mark style="background-color:green;">Free</mark> | <p><sub><em>Guide not available</em></sub></p><mark style="background-color:blue;"> [https://github.com/megadose/holehe](https://github.com/megadose/holehe) </mark> |
