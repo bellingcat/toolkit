@@ -15,13 +15,19 @@ description: >-
 
 Aleph is a platform by the Organized Crime and Corruption Reporting Project (OCCRP) to help journalists and investigators "follow the money". It provides access to many datasets on people and companies, and offers tools to organize and visualize data. Investigators can use Aleph to search sanctions lists, corporate registries, leaks, and more. They can also create workspaces to collaborate and upload their own data to cross-reference with Aleph's datasets.
 
+{% hint style="warning" %}
+While the tool was free and open to use before, currently everyone who who wants to use it, needs to submit a detailed application to be granted access. The new tool is called OCCRP Aleph Pro which is a SaaS platform. Aleph Pro will be available for [free for non-profit journalism](https://www.occrp.org/en/announcement/aleph-pro-frequently-asked-questions-on-the-future-of-occrps-investigative-data-platform), and at-cost for other public interest groups.
+
+The Data and Research Center (DARC) created a direct open-source fork called called [OpenAleph](https://search.openaleph.org/) that works in the same way.
+{% endhint %}
+
 ### How to search and filter data
 
 Type the name of an individual, an organization, a company or a keyword in the search bar. The results will display the total number of mentions of your search term and the <mark style="color:yellow;">yellow highlights</mark> will show the context in which the search term appears.
 
 <figure><img src=".gitbook/assets/Ale1.png" alt="" width="563"><figcaption><p>The search term Dmitry Medvedev returns over 4,000 results.</p></figcaption></figure>
 
-To narrow down the search results, use the menu on the left to filter by date, country, language of the document, and datasets[^1].&#x20;
+To narrow down the search results, use the menu on the left to filter by date, country, language of the document, and datasets[^1].
 
 <figure><img src=".gitbook/assets/Ale2.png" alt="" width="375"><figcaption><p>Example of all the available filters.</p></figcaption></figure>
 
@@ -33,7 +39,7 @@ The OCCRP Aleph website has a handy [video tutorial](https://www.youtube.com/wat
 
 ### How to perform an advanced search
 
-In addition to basic keyword searches, Aleph offers advanced search capabilities, enabling users to find matches based on spelling variations, term proximity, and other sophisticated criteria.&#x20;
+In addition to basic keyword searches, Aleph offers advanced search capabilities, enabling users to find matches based on spelling variations, term proximity, and other sophisticated criteria.
 
 The advanced search options can be helpful in cases when there are too many results and you need to narrow down your search further. You can use the fields in the advanced search, or you can use search operators.
 
