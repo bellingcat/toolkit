@@ -87,6 +87,10 @@ Whoxy.com is mentioned on Rae Baker's [website](https://www.raebaker.net/blog/10
 
 It is not clear who the tool provider behind [Whoxy.com](http://whoxy.com) is. There is only an emailadress and no company name, adress or legal entity mentioned on the website. A WHOIS lookup on [whoxy.com](http://whoxy.com) returns no information; the registrant details of the Whoxy domain are masked by a third-party privacy service. The raw whois output `Generator: x1.autowhois.com` shows that lookups are generated through [AutoWhois.com](http://autowhois.com), which may be part of the same organisation or company.
 
+## Similar tools
+
+[Icann Lookup](https://bellingcat.gitbook.io/toolkit/more/all-tools/icann-lookup) provides real-time whois information, but no history or reverse whois; [DomainTools](https://bellingcat.gitbook.io/toolkit/more/all-tools/domaintools-whois-lookup) has similar features as Whoxy but it does not offer free searches for reverse whois; [Domain Research Suite](https://bellingcat.gitbook.io/toolkit/more/all-tools/domain-research-suite) is a paid service for whois lookups, reverse whois and whois history.
+
 ## Advertising Trackers
 
 * [ ] This tool has not been checked for advertising trackers yet.
