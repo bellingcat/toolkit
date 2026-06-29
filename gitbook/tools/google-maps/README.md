@@ -198,5 +198,5 @@ Google [https://about.google/](https://about.google/) - United States
 
 | Page maintainer |
 | --------------- |
-| Anisa Shabir    |
+| Anisa Shabir.   |
 |                 |
