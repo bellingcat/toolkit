@@ -44,8 +44,9 @@ Blender, while primarily seen as a tool for 3D modeling and animation, can indir
 Desktop minimum requirements:
 
 * Windows 8.1 (64-bit), CPU: 4 cores with SSE4.2 support, RAM: 8 GB RAM, GPU: 2 GB VRAM with OpenGL 4.3.
-* macOS 11.2 (Big Sur), CPU: Apple Silicon or Intel, RAM: 8 GB, GPU: GPU with Metal 2.2.
+* macOS 13 (Ventura), CPU: Apple Silicon, RAM: 8 GB, GPU: GPU with Metal 2.2.
 * Linux Distribution with glibc 2.28 or newer (64-bit), CPU: 4 cores with SSE4.2 support, RAM: 8GB, GPU: 2 GB VRAM with OpenGL 4.3.
+* Older versions that have lower requirements are available at the bottom of Blender's Requirements page.
 
 ## Limitations
 
