@@ -136,6 +136,94 @@ Some of the vessels are government-owned and a small part of those are intended 
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
+<details>
+
+<summary>VesselFinder has a complex user selection window on cookies and privacy, where several non-essential permissions are set to ON by default. Click on the arrow to see full details below...</summary>
+
+TCF vendors
+
+#### Store and/or access information on a device
+
+Consent (178 vendors)
+
+#### Use limited data to select advertising
+
+Consent (112 vendors), Legitimate interest (52 vendors) <mark style="color:red;">**ON BY DEFAULT**</mark>
+
+#### Create profiles for personalised advertising
+
+Consent (145 vendors)
+
+#### Use profiles to select personalised advertising
+
+Consent (144 vendors)
+
+#### Create profiles to personalise content
+
+Consent (48 vendors)
+
+#### Use profiles to select personalised content
+
+Consent (44 vendors)
+
+#### Measure advertising performance
+
+Consent (119 vendors) Legitimate interest (65 vendors) <mark style="color:red;">**ON BY DEFAULT**</mark>
+
+#### Measure content performance
+
+Consent (50 vendors) Legitimate interest (23 vendors) <mark style="color:red;">**ON BY DEFAULT**</mark>
+
+#### Understand audiences through statistics or combinations of data from different sources
+
+Consent (83 vendors) Legitimate interest (37 vendors) <mark style="color:red;">**ON BY DEFAULT**</mark>
+
+#### Develop and improve services
+
+Consent (99 vendors) Legitimate interest (59 vendors) <mark style="color:red;">**ON BY DEFAULT**</mark>
+
+#### Use limited data to select content
+
+Consent (20 vendors )Legitimate interest (9 vendors) <mark style="color:red;">**ON BY DEFAULT**</mark>
+
+#### Ensure security, prevent and detect fraud, and fix errors
+
+#### Deliver and present advertising and content
+
+#### Save and communicate privacy choices
+
+#### Link different devices
+
+#### Identify devices based on information transmitted automatically
+
+#### Use precise geolocation data
+
+#### Store and/or access information on a device
+
+#### Use limited data to select advertising
+
+#### Create profiles for personalised advertising
+
+#### Use profiles to select personalised advertising
+
+#### Create profiles to personalise content
+
+
+
+How this consent management platform (CMP) works:
+
+CMP privacy choices
+
+### Storage, duration, and usage details
+
+The choices you make with this CMP regarding the purposes and entities will affect how personalized advertising is presented to you. We need to store these choices to respect them on future visits, and they are stored differently based on the type of site or app you're using:
+
+* For sites, your choices are saved in a cookie named “FCCDCF” for a maximum duration of 390 days.
+* For apps, your choices are saved in device storage prefixed by “IABTCF\_”. Your choices will be invalidated after 390 days and overwritten once you make new privacy choices on this app.
+* For accelerated mobile page (AMP) sites, your choices are saved in local storage prefixed by “amp-store”. Your choices will be invalidated after 390 days and overwritten once you make new privacy choices on this site.
+
+</details>
+
 | Page maintainer:-            |
 | ---------------------------- |
-| LPetrova and Sophie Tedling. |
+| LPetrova and Sophie Tedling: |
