@@ -21,7 +21,6 @@ The imagery includes samples taken by satellite sensors, aerial cameras, 3D city
 **Features:**
 
 * Supports multiple languages.
-* Photo-based images with features such as Streetside and 45 degree oblique "bird’s eye" views (nominally including 4 views at 90 degree viewpoint increments) that present data in context while simplifying orientation and navigation.
 * The ability to overlay standard or custom data points and layers with different themes.
 * Building-level geocoding for more than 70 million addresses in the United States.
 * Developer support options available.
@@ -94,12 +93,11 @@ To effectively use Bing Maps, especially for beginners or those looking to refin
 
 **Tutorials and Articles**
 
-* Hanham, M. (2015) _There’s a Map for That_, _bellingcat_. Available at: [https://www.bellingcat.com/resources/how-tos/2015/04/10/theres-a-map-for-that/](https://www.bellingcat.com/resources/how-tos/2015/04/10/theres-a-map-for-that/) (Accessed: 30 April 2026).
-* Khachatryan, N. (2019) _The Mysterious Disappearance of Jeannette Island (on Google Maps)_, _bellingcat_. Available at: [https://www.bellingcat.com/news/rest-of-world/2019/01/09/the-mysterious-disappearance-of-jeannette-island-on-google-maps/](https://www.bellingcat.com/news/rest-of-world/2019/01/09/the-mysterious-disappearance-of-jeannette-island-on-google-maps/) (Accessed: 30 April 2026).
+* Hanham, M. (2015) _There’s a Map for That_, _bellingcat_. Available at: [https://www.bellingcat.com/resources/how-tos/2015/04/10/theres-a-map-for-that/](https://www.bellingcat.com/resources/how-tos/2015/04/10/theres-a-map-for-that/) (Accessed: 30 June 2026).
+* Khachatryan, N. (2019) _The Mysterious Disappearance of Jeannette Island (on Google Maps)_, _bellingcat_. Available at: [https://www.bellingcat.com/news/rest-of-world/2019/01/09/the-mysterious-disappearance-of-jeannette-island-on-google-maps/](https://www.bellingcat.com/news/rest-of-world/2019/01/09/the-mysterious-disappearance-of-jeannette-island-on-google-maps/) (Accessed: 30 June 2026).
 
 **Video Tutorials**
 
-* _How to Create and Share Collections in Bing Maps_ (2022). Available at: [https://www.youtube.com/watch?v=F8Xk5nqImAM](https://www.youtube.com/watch?v=F8Xk5nqImAM) (Accessed: 30 April 2026).
 * _How to use Bing Maps for Routing Multiple Addresses_ (2021). Available at: [https://www.youtube.com/watch?v=btCzoDX9WmI](https://www.youtube.com/watch?v=btCzoDX9WmI) (Accessed: 30 April 2026).
 
 #### Developer Resources
