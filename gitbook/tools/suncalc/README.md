@@ -123,7 +123,7 @@ There are very many use cases for SunCalc in Open Source research because there 
 
 **THE AZIMUTH ANGLE OF THE SUN (HORIZONTAL COMPASS BEARING)**
 
-<img src=".gitbook/assets/suncalcelevationSC (2).jpg" alt="" data-size="original">
+<img src=".gitbook/assets/suncalcelevationSC.jpg" alt="" data-size="original">
 
 **THE ELEVATION ANGLE OF THE SUN (VERTICAL SEXTANT ANGLE)**
 
@@ -131,7 +131,7 @@ There are very many use cases for SunCalc in Open Source research because there 
 
 ### The SunCalc Interface
 
-<figure><img src=".gitbook/assets/basic interfaceANNOTATED (1).jpg" alt="" width="563"><figcaption><p><strong>THE SUNCALC INTERFACE MAIN WINDOW WITH EXPLANATORY LABELS</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/basic interfaceANNOTATED.jpg" alt="" width="563"><figcaption><p><strong>THE SUNCALC INTERFACE MAIN WINDOW WITH EXPLANATORY LABELS</strong></p></figcaption></figure>
 
 * The red centre circle shows the selected location over the map, with horizontal and vertical crosswires for accuracy.
 * The sun is shown over the earth as an orange disc.
@@ -234,13 +234,13 @@ Torsten Hoffmann, [Hoffisoft](https://www.torsten-hoffmann.de/web.html), Germany
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-<figure><img src=".gitbook/assets/Cookie Notice 2025.JPG" alt="" width="536"><figcaption><p><strong>SUNCALC'S NEW COOKIE POLICY WINDOW WITH USER SELECTION.</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/Cookie Notice jun 26.jpg" alt=""><figcaption><p><strong>SUNCALC'S 2026 COOKIE POLICY WINDOW WITH USER SELECTION.</strong></p></figcaption></figure>
 
-In 2025, SunCalc began to use detectable cookies, and therefore added a user choice window on cookies, with the option to select only Essential cookies - see above. This gives users control over their risk from tracking activity and allows them to minimise it.
+In 2025, SunCalc began to use detectable cookies, and therefore added a user choice window on cookies, which has been updated to name the Strictly Necessary Cookies in 2026. This gives users control over their risk from tracking activity and allows them to minimise it.
 
 ***
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling.   |
+| Sophie Tedling:   |
 |                   |
