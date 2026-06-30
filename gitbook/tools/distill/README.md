@@ -10,7 +10,7 @@ description: >-
 ## URL
 
 [https://distill.io/](https://distill.io/)\
-(last revised April 30., 2026)
+(last revised 2026-06-29)
 
 ## Description
 
@@ -22,9 +22,9 @@ For Open Source Researchers, Distill.io can be an invaluable tool for:
 
 * **Monitoring Target Websites:** Keep track of updates to investigation-related websites, including content changes, new posts, and removals.
 * **Tracking Social Media Profiles:** Monitor public social media pages or profiles for updates without logging in to the platform.
-* **Alerting on Keyword Changes:** Set up alerts for specific keywords or phrases that appear or disappear from web pages, which can signal significant events.
-* **Watching Dynamic Content:** Use advanced selection tools to monitor content that changes dynamically, such as JavaScript-rendered pages.
-* **Archiving Web Page Changes:** Maintaining a history of a web pageis changes helps document the evolution of information over time.
+* **Alerting on Keyword Changes:** Set up alerts for specific keywords or phrases that appear or disappear on web pages, as they can signal significant events.
+* **Watching Dynamic Content:** Use advanced selection tools to monitor dynamically changing content, such as JavaScript-rendered pages.
+* **Archiving Web Page Changes:** Maintaining a history of a web page's changes helps document how information evolves over time.
 * **Monitoring Hidden Elements:** Detect changes in hidden HTML elements or metadata that might not be immediately visible on the page.
 
 #### **Key Features Beneficial for Open Source Researchers**
@@ -63,7 +63,7 @@ When you add a new monitor, you make the following choices:
 
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Add a monitor for your website and configure source, schedule checks, and define alerts when changes occur.</p></figcaption></figure>
 
-When you add a monitor, you can use the Visual Selector Tool to select only those parts of the website that you want to be alerted about if they change. These could be release versions, GitHub issue submissions, or parts of a text that contain information about a person or entity.
+When you add a monitor, you can use the Visual Selector Tool to select only the parts of the website you want alerted to if they change. These could be release versions, GitHub issue submissions, or parts of a text that contain information about a person or entity.
 
 <figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>This monitor will check for updates on the author's bio in the toolkit guardian section.</p></figcaption></figure>
 
@@ -99,7 +99,7 @@ After you click save, your monitor will be active.
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>2</td></tr></tbody></table>
 
-#### **Requirements**
+## **Requirements**
 
 * **Account Creation:**
   * Required for synchronization across devices and accessing cloud monitoring features
@@ -113,24 +113,24 @@ After you click save, your monitor will be active.
   * Desktop App for Windows & macOS (public alpha – install links in Docs).
   * **Advantage:** Allows local monitoring without keeping the browser open
 
-#### **Limitations**
+## **Limitations**
 
 * Free plan constraints - cloud checks no faster than every 6 hours; 1,000 checks and 30 email alerts per month; local monitors must have the browser or app running for checks to execute.
-* Firefox and Opera extensions have older public versions at time of writing; Firefox 3.6.12 released 2023‑08‑01; Opera 3.3.12 updated 2023‑11‑22; feature parity may lag behind Chrome. [AMO versions](https://addons.mozilla.org/en-US/firefox/addon/distill-web-monitor-ff/versions/); [Opera listing](https://addons.opera.com/en/extensions/details/distill-web-monitor?utm_source=chatgpt.com).
+* Firefox and Opera extensions have older public versions at time of writing; Firefox 3.6.12 released 2023‑08‑01; Opera 3.3.12 updated 2023‑11‑22; feature parity may lag behind Chrome. [AMO versions](https://addons.mozilla.org/en-US/firefox/addon/distill-web-monitor-ff/versions/); [Opera listing](https://addons.opera.com/en/extensions/details/distill-web-monitor).
 * Dynamic or login‑gated pages may require Macros or Dedicated Cloud Devices; sessions can expire and must be refreshed. [Macros](https://distill.io/docs/web-monitor/macro-to-record-replay-actions/); [Dedicated Cloud Devices](https://distill.io/docs/web-monitor/dedicated-cloud-devices/).
-* Sitemap monitor is marked “alpha” and available only on Professional+; behavior and UI may change. [Sitemap guide](https://distill.io/docs/web-monitor/sitemap-monitor-using-a-crawler/?utm_source=chatgpt.com).
+* Sitemap monitor is marked “alpha” and available only on Professional+; behavior and UI may change. [Sitemap guide](https://distill.io/docs/web-monitor/sitemap-monitor-using-a-crawler/).
 * Legal/ToS - Distill’s ToS requires lawful use; do not use the service to violate site terms or access controls. Providers may request suspension if their sites object to scraping. [Distill ToS](https://distill.io/terms-of-service/).
 * **Local Checks:**
   * Require the browser or desktop app to be running
   * Less reliable if the device is turned off or disconnected from the internet
 * **Dynamic Content:**
   * Monitoring JavaScript-rendered content may require advanced configuration
-  * Some dynamic elements may not be captured without using cloud monitors or by running a macro with loop support (added in 2024) to pre-load dynamic sections.
+  * Some dynamic elements may not be captured without using cloud monitors or by running a macro with loop support (added in 2024) to preload dynamic sections.
 
 ## Ethical Considerations
 
 * **Privacy and Legal Compliance:**
-  * Use Distill only on sources for which you are legally authorized to monitor; avoid circumventing technical access controls; minimize the collection of personal data; and retain only what is necessary. When working with sensitive material, consider recognized guidance like the Berkeley Protocol on Open Source Investigations for documentation and verification practices.
+  * Use Distill only on sources for which you are legally authorized to monitor; avoid circumventing technical access controls; minimize the collection of personal data; and retain only what is necessary. When working with sensitive material, consider recognized guidance, such as the Berkeley Protocol on Open Source Investigations, for documentation and verification practices.
 * **Responsible Use:**
   * Avoid overloading target websites with excessive requests
   * Use appropriate check intervals to minimize impact
