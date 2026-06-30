@@ -14,7 +14,7 @@ description: >-
 
 ## Description
 
-<figure><img src=".gitbook/assets/Screenshot (1).JPG" alt=""><figcaption><p><strong>THE SHADOW &#x26; OBJECT MEASURED CAN ONLY LIE SOMEWHERE ON THE BRIGHT CIRCLE .</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot.JPG" alt=""><figcaption><p><strong>THE SHADOW &#x26; OBJECT MEASURED CAN ONLY LIE SOMEWHERE ON THE BRIGHT CIRCLE .</strong></p></figcaption></figure>
 
 Enter shadow length and object height, (or, instead, the angle of elevation of the sun) for a research source image, then also the date and time of the image, and see the potential locations at which such a shadow could be created for that point in time as the bright area (circle) on the world map.
 
@@ -196,12 +196,16 @@ Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen
 ## Advertising Trackers
 
 * [ ] This tool has not been checked for advertising trackers yet.
-* [ ] This tool uses tracking cookies. Use with caution.
-* [x] This tool does not appear to use tracking cookies.
+* [x] This tool uses tracking cookies. Use with caution.
+* [ ] This tool does not appear to use tracking cookies.
+
+{% hint style="warning" %}
+The GitHub page for this tool did not contain tracking cookies on inspection at 30/6/26 BUT use of the recommended Colab route to run the code DID generate several tracking cookie alerts.
+{% endhint %}
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling.   |
+| Sophie Tedling:   |
 |                   |
 
 [^1]: EXIF data can contain non-visual information about an image, e.g. type of camera and lens, date and time the image was taken, location at which it was taken,...
