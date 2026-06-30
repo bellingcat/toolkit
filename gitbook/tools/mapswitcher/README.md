@@ -19,6 +19,10 @@ or download the extension from the [Chrome Store here](https://chrome.google.com
 This article describes the MapSwitcher extension for the Google Chrome browser and should not be confused with another tool of the same name for Firefox browser, developed by [František Nesveda](https://addons.mozilla.org/mk/firefox/user/15224571/) which can be found here [https://addons.mozilla.org/mk/firefox/addon/map-switcher/](https://addons.mozilla.org/mk/firefox/addon/map-switcher/)
 {% endhint %}
 
+{% hint style="info" %}
+The Chrome Store posts a note next to MapSwitcher, saying it "may soon no longer be supported because it doesn't follow best practices for Chrome extensions". Despite this, MapSwitcher has remained in place since its Toolkit entry was first written over a year ago.
+{% endhint %}
+
 <figure><img src=".gitbook/assets/mapSwitcherScreenshot16thFeb.png" alt=""><figcaption><p><strong>THE MAPSWITCHER EXTENSION MENU OVER A GOOGLE CHROME BROWSER PAGE</strong></p></figcaption></figure>
 
 MapSwitcher is an extension for the Google Chrome browser, which can be downloaded from the [Google Chrome Store](https://app.gitbook.com/o/WQpOq5ZFue4N6m65QCJq/s/wj16aeUeCQ32BThaGKHz/). It aids Open Source research by assisting users to switch their focus of study from one geographical data app to another, whilst migrating the same location co-ordinates between apps. General aspect is also preserved as far as possible, i.e. zoom, direction, etc.
@@ -90,5 +94,5 @@ GitHub user and developer details: [https://github.com/david-r-edgar/MapSwitcher
 
 | Page maintainer: |
 | ---------------- |
-| Sophie Tedling.  |
+| Sophie Tedling:  |
 |                  |
