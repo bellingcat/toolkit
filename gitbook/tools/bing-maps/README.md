@@ -98,7 +98,7 @@ To effectively use Bing Maps, especially for beginners or those looking to refin
 
 **Video Tutorials**
 
-* _How to use Bing Maps for Routing Multiple Addresses_ (2021). Available at: [https://www.youtube.com/watch?v=btCzoDX9WmI](https://www.youtube.com/watch?v=btCzoDX9WmI) (Accessed: 30 April 2026).
+* _How to use Bing Maps for Routing Multiple Addresses_ (2021). Available at: [https://www.youtube.com/watch?v=btCzoDX9WmI](https://www.youtube.com/watch?v=btCzoDX9WmI) (Accessed: 30 June 2026).
 
 #### Developer Resources
 
