@@ -117,5 +117,5 @@ Microsoft, United States.
 
 | Page maintainer |
 | --------------- |
-| Anisa Shabir    |
+| Anisa Shabir.   |
 |                 |
