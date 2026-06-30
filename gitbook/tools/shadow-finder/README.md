@@ -16,7 +16,7 @@ description: >-
 
 <figure><img src=".gitbook/assets/Screenshot.JPG" alt=""><figcaption><p><strong>THE SHADOW &#x26; OBJECT MEASURED CAN ONLY LIE SOMEWHERE ON THE BRIGHT CIRCLE .</strong></p></figcaption></figure>
 
-Enter shadow length and object height, (or, instead, the angle of elevation of the sun) for a research source image, then also the date and time of the image, and see the potential locations at which such a shadow could be created for that point in time as the bright area (circle) on the world map.
+Enter shadow length and object height, (OR, instead, the angle of elevation of the sun in degrees) for a research source image, then also the date and time of the image, and see the potential locations at which such a shadow could be created for that point in time as the bright area (circle) on the world map.
 
 * The bright yellow area of the circle marks all the locations which perfectly match your input information.
 * The purple areas of the circle mark locations within a 20% error band (included because your input information may not be perfectly measured).
@@ -196,7 +196,7 @@ Bellingcat is the provider of this tool, authored by [Galen Reich](https://galen
 ## Advertising Trackers
 
 * [ ] This tool has not been checked for advertising trackers yet.
-* [x] This tool uses tracking cookies. Use with caution.
+* [x] This tool uses tracking cookies when run with Colab. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
 {% hint style="warning" %}
