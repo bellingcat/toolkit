@@ -36,7 +36,7 @@ The full list of searchable map features is available [here](https://wiki.openst
 
 The example below shows a query for Drinking Water fountain amenities:
 
-<figure><img src=".gitbook/assets/Screenshot 2024-03-31 at 12.44.00 PM (1).png" alt="Screenshot of Overpass Turbo with a query for drinking water fountains and a map with the fountains highlighted in red."><figcaption><p>Screenshot of search results for a query for Drinking Water fountain amenities.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-03-31 at 12.44.00 PM.png" alt="Screenshot of Overpass Turbo with a query for drinking water fountains and a map with the fountains highlighted in red."><figcaption><p>Screenshot of search results for a query for Drinking Water fountain amenities.</p></figcaption></figure>
 
 ### **Example Use Cases**
 
@@ -95,8 +95,8 @@ To effectively use Overpass Turbo, especially for beginners or those looking to 
 
 #### Tutorials and Articles
 
-* [_Overpass Tutorial_](https://osm-queries.ldodds.com/tutorial/index.html) (no date). Available at: [https://osm-queries.ldodds.com/tutorial/index.html](https://osm-queries.ldodds.com/tutorial/index.html) (Accessed: 2 March 2026).
-* [_Learn Overpass._](https://osmlab.github.io/learnoverpass/en/) (no date). Available at: [https://osmlab.github.io/learnoverpass//en/](https://osmlab.github.io/learnoverpass/en/) (Accessed: 2 March 2026).
+* [_Overpass Tutorial_](https://osm-queries.ldodds.com/tutorial/index.html) (no date). Available at: [https://osm-queries.ldodds.com/tutorial/index.html](https://osm-queries.ldodds.com/tutorial/index.html) (Accessed: 30 June 2026).
+* [_Learn Overpass._](https://osmlab.github.io/learnoverpass/en/) (no date). Available at: [https://osmlab.github.io/learnoverpass//en/](https://osmlab.github.io/learnoverpass/en/) (Accessed: 30 June 2026).
 
 #### Video Tutorials
 
