@@ -1,5 +1,6 @@
 # Table of contents
 
-* [Index Database](README.md)
+* [Index DataBase](README.md)
+* [Notes](notes.md)
 * [Categories](categories.md)
 * [Regions](regions.md)
