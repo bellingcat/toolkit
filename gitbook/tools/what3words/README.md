@@ -122,7 +122,11 @@ what3words provides a [How to Use](https://what3words.com/how-to-use-the-what3wo
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
+what3words has updated its cookie policy as below in 2026. It does not specify the cookies in use, as some tool providers are beginning to do, but it clearly states the purposes of cookie use:
+
+<figure><img src=".gitbook/assets/what3wordscookies.gif" alt=""><figcaption></figcaption></figure>
+
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling.   |
+| Sophie Tedling:   |
 |                   |
