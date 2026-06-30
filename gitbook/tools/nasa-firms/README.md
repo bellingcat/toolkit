@@ -102,7 +102,7 @@ The orbits of different satellites can be followed using the [OrbTrack](https://
 
 The ability for the user to select a time period, using a horizontal slider across the bottom of the screen, or a menu calendar, is very powerful for analysis. The radio buttons labelled TODAY, 24 HOURS OR 7 DAYS filter the data according to the length of the time period of data capture.
 
-<div><figure><img src=".gitbook/assets/TimeOptions.JPG" alt="" width="263"><figcaption><p><strong>TIME PERIOD BUTTONS AND CALENDAR OPTION</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/DATESLIDER (1).JPG" alt=""><figcaption><p>DATE PERIOD CALENDAR BAR ACROSS BOTTOM OF SCREEN</p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/TimeOptions.JPG" alt="" width="263"><figcaption><p><strong>TIME PERIOD BUTTONS AND CALENDAR OPTION</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/DATESLIDER.JPG" alt=""><figcaption><p>DATE PERIOD CALENDAR BAR ACROSS BOTTOM OF SCREEN</p></figcaption></figure></div>
 
 #### Different Properties of Fire
 
@@ -135,7 +135,7 @@ There are a large number of user selection menus available to filter data, confi
 **FIRMS-Level Options on Map Selection, Resources, Tutorials, Archive Download.**\
 A section of NASA FIRMS information can be selected under the three horizontal bars icon on the top left side of the screen, which offers sections on:
 
-<figure><img src=".gitbook/assets/image (44) (1).png" alt=""><figcaption><p><em><strong>(I</strong>magery from NASA FIRMS )</em></p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (44).png" alt=""><figcaption><p><em><strong>(I</strong>magery from NASA FIRMS )</em></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="TOP RIGHT  MENU" %}
@@ -147,7 +147,7 @@ A display mode can be selected under the three horizontal bars icon on the right
 {% tab title="DATE SLIDER" %}
 The Date Slider appears across the bottom of the screen when the corresponding button is pressed on the Centre Floating Toolbar. It is used to select date ranges for display, in addition to the Buttons and Calendar Option on the Top Right Menu (shown below)
 
-<div><figure><img src=".gitbook/assets/TimeOptions.JPG" alt="" width="263"><figcaption><p><strong>TIME PERIOD BUTTONS AND CALENDAR OPTION</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/DATESLIDER (1).JPG" alt=""><figcaption><p><strong>TIME SLIDER FOR SELECTING DATE RANGES</strong></p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/TimeOptions.JPG" alt="" width="263"><figcaption><p><strong>TIME PERIOD BUTTONS AND CALENDAR OPTION</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/DATESLIDER.JPG" alt=""><figcaption><p><strong>TIME SLIDER FOR SELECTING DATE RANGES</strong></p></figcaption></figure></div>
 {% endtab %}
 
 {% tab title="CENTRE TOOLBAR" %}
@@ -157,7 +157,7 @@ NASA FIRMS floating toolbar (found Bottom Centre of the Screen) calls floating w
 
 **The Location Tool** accepts input as names, co-ordinates or auto-detected current user location.
 
-<figure><img src=".gitbook/assets/Location Selection (1).JPG" alt="" width="298"><figcaption><p><strong>NB MULTIPLE LOCATIONS CAN BE SELECTED SIMULTANEOUSLY</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/Location Selection.JPG" alt="" width="298"><figcaption><p><strong>NB MULTIPLE LOCATIONS CAN BE SELECTED SIMULTANEOUSLY</strong></p></figcaption></figure>
 
 The Layers Tool allows configuration of a selection of Overlays, as well as Backgrounds
 
@@ -217,6 +217,10 @@ It is important to cite exact data sources in scientific publications and to be 
 
 </details>
 
+The tool provides its own disclaimer of which users are asked to confirm their understanding:
+
+<figure><img src=".gitbook/assets/firms disclaimer.gif" alt=""><figcaption><p><strong>USER DISCLAIMER ON FIRMS RE DATA USE</strong></p></figcaption></figure>
+
 FIRMS is usually most valuable when used in conjunction with other tools, often to narrow down satellite imagery searches.
 
 * The resolution of FIRMS data, which varies according to the satellite source, means that one or multiple active fires can be contained in one pixel.
@@ -249,7 +253,7 @@ NB Algorithms have been adapted to avoid the effects of sun glint causing false 
 
 ...Regular approximately monthly on-orbit mission calibration manoeuvres are conducted for both satellites to maintain performance. These involve briefly rolling the satellite over in orbit to view the moon, using it to calibrate the reflective solar bands of the sensor. Anomalous observation data is often collected as the satellite rolls back to point the sensor at the earth, see example:
 
-<img src=".gitbook/assets/image (20) (1).png" alt="ANOMALOUS OBSERVATION DATA CAUSED BY MONTHLY CALIBRATION MANOUEVRES (COURESTY NASA FIRMS)" data-size="original">\
+<img src=".gitbook/assets/image (20).png" alt="ANOMALOUS OBSERVATION DATA CAUSED BY MONTHLY CALIBRATION MANOUEVRES (COURESTY NASA FIRMS)" data-size="original">\
 \&#xNAN;_**(I**magery from NASA FIRMS )_
 
 </details>
@@ -295,4 +299,4 @@ NASA (North American Space Agency) via: Sentinel Hub and Copernicus Browser
 
 ***
 
-Sophie Tedling.
+Sophie Tedling:
