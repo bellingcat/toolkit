@@ -85,7 +85,7 @@ Disambiguation: ShadowMap is not the same tool as [ShadeMap](https://app.gitbook
 * 24 hour animation of the sun and shadow paths at a given location and time.
 * Yearly average solar energy value for a given location in kWh/square metre.
 
-<figure><img src=".gitbook/assets/SolarAnalyticsMenu (1).JPG" alt="" width="338"><figcaption><p>PAID VERSION "STUDIO" FEATURE: SOLAR ANALYTICS, INVOKED BY PRESSING "ANALYZE" MENU BUTTON</p></figcaption></figure>
+<figure><img src=".gitbook/assets/SolarAnalyticsMenu.JPG" alt="" width="338"><figcaption><p>PAID VERSION "STUDIO" FEATURE: SOLAR ANALYTICS, INVOKED BY PRESSING "ANALYZE" MENU BUTTON</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="USE CASES" %}
@@ -264,5 +264,5 @@ Founder (2021) and CEO Georg Molzer.
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling.   |
+| Sophie Tedling:   |
 |                   |
