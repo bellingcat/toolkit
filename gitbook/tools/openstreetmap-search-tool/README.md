@@ -99,5 +99,5 @@ To effectively use Bellingcat OpenStreetMap Search, especially for beginners or 
 
 | Page maintainer                  |
 | -------------------------------- |
-| Sophie Tedling and Anisa Shabir; |
+| Sophie Tedling and Anisa Shabir. |
 |                                  |
