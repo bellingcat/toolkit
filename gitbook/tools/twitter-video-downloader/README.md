@@ -38,7 +38,9 @@ This tool is easy to use and requires no technical knowledge.
 
 ## Requirements
 
-Internet, web browser
+* A modern web browser with JavaScript enabled.
+* A public X/Twitter post URL that contains an embedded video or GIF. The tool does not require an X account login, an API key, or cookies from a logged-in X session.
+* On desktop, the returned MP4 may open in a new browser tab before you save it manually. On mobile, the saved file location depends on the browser and operating system; check Downloads, Files, Gallery, or Photos.
 
 ## Limitations
 
@@ -51,24 +53,27 @@ Internet, web browser
 
 ## Ethical Considerations
 
-* Use only for lawful, necessary purposes and obtain permission where required. Minimize the collection of personal data and avoid redistributing sensitive content. For evidentiary work, follow recognized guidance such as the **Berkeley Protocol on Digital Open Source Investigations** for collection, preservation, and verification practices.
+* Use this only for public posts you are allowed to preserve or report on. X’s Terms restrict scraping and prohibit access through non-published interfaces, so third-party downloaders can create Terms of Service and account-risk issues.
+* Downloaded videos and GIFs may still be copyrighted or contain personal data. Keep attribution to the original post and creator where safe, and avoid republishing more than needed.
+* Treat the site as an anonymous third-party processor of every URL you paste. Use a separate browser profile or research VM for sensitive work, and do not paste links that reveal private sources, unpublished leads, or protected accounts.
+* For evidentiary workflows, save the original post URL, capture the visible post context, record the download time, hash the downloaded file, and keep an untouched evidence copy separate from working copies.
+* If the media is graphic or harmful, apply data minimization: collect only what is needed, label it clearly, and store it securely.
 
 ## Similar Tools
 
-| Tool                                                                | Platform     | Key Features                                              | Pricing         | Last Updated | Pros                                                 | Cons                                                       |
-| ------------------------------------------------------------------- | ------------ | --------------------------------------------------------- | --------------- | ------------ | ---------------------------------------------------- | ---------------------------------------------------------- |
-| [twittervideodownloader.com](https://twittervideodownloader.com/)   | Web-based    | • Paste tweet URL → direct MP4/GIF link• No ads or signup | Free            | May 2025     | • Fast, no-frills interface• No account required     | • No preview of file size/format• Occasional rate limits   |
-| [SSSTwitter](https://ssstwitter.com/)                               | Web-based    | • One-step download• Supports HD exports                  | Free; donations | Feb 2025     | • Reliable for high-res videos• Minimal UI           | • Can hit rate limits• Some redirections/shortened links   |
-| [SaveTweetVid](https://savetweetvid.com/)                           | Web-based    | • Preview gallery (size, format)• Select MP4, WEBM or GIF | Free            | Feb 2025     | • Preview before download• Format choices            | • Extra click to view previews• UI ads                     |
-| [SnapSave](https://snapsave.app/)                                   | Web-based    | • Batch downloads• Folder organization• API access        | Free tier; paid | Jan 2025     | • Ideal for multiple downloads• Organize projects    | • Requires free account• API limits on free plan           |
-| Twitter Video Downloader (v1.0.7)                                   | Browser ext. | • Adds “Download” button under videos• Auto-detect URLs   | Free            | Apr 20 2025  | • Seamless in-page integration• No copy-paste needed | • Must trust extension• Chrome/Firefox only                |
-| [X Saver](https://play.google.com/store/apps/details?id=com.xsaver) | Android app  | • Queue downloads• Background processing• Share to folder | Free; ads       | Apr 25 2025  | • Mobile-friendly• Batch queue on the go             | • Broad storage & network permissions• Ads in free version |
+| Tool                                                                                                                                                              | Platform     | Key Features                                                                       | Pricing   | Last Updated       | Pros                                                       | Cons                                                                                           |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------- | --------- | ------------------ | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| [SSSTwitter](https://ssstwitter.com/)                                                                                                                             | Web-based    | • One-step download• Supports HD exports                                           | Free      | Checked 2026-06-26 | • Reliable for high-res videos• Minimal UI                 | • Can hit rate limits• Some redirections/shortened links                                       |
+| [SnapSave](https://twitterdownloader.snapsave.app/)                                                                                                               | Web-based    | Paste public X/Twitter post URL → MP4/GIF/image download Browser-based, no account | Free      | Checked 2026-06-26 | • Ideal for multiple downloads• Organize projects          | • Public posts only• Still depends on X/Twitter availability                                   |
+| [Twitter Video Downloader - x video downloader - VidSaver.io](https://chromewebstore.google.com/detail/twitter-video-downloader/giallgikapfggjdeagapilcaiigofkoe) | Browser ext. | • Adds “Download” button under videos• Auto-detect URLs                            | Free      | Apr 20 2025        | • Seamless in-page integration• No copy-paste needed       | • Must trust extension• Chrome/Firefox only                                                    |
+| [X/Twitter Video GIF Saver](https://play.google.com/store/apps/details?id=com.xsaver.app)                                                                         | Android app  | Share post into Android app or paste URL• Preview media and choose quality         | Free; ads | Updated 2026-05-24 | • Android share-sheet workflow• Saves to Android Downloads | • Contains ads• Protected, private, unavailable, or non-embeddable media may not be accessible |
 
 ### Guides and Articles
 
-* Bellingcat Guide to Social Media Archiving
-* How to Download and Archive Social Media Videos
-* Internet Archive’s Guide on Media Preservation
+* Aric Toler, Bellingcat: How to Archive Open Source Materials - covers why to preserve source material, how common archive services handle social posts, and why embedded media often needs separate preservation. [https://www.bellingcat.com/resources/how-tos/2018/02/22/archive-open-source-materials/](https://www.bellingcat.com/resources/how-tos/2018/02/22/archive-open-source-materials/?utm_source=chatgpt.com)
+* Miguel Ramalho, Bellingcat: Preserve Vital Online Content With Bellingcat's Auto Archiver - explains link-based archiving of social posts and media attachments, including Twitter support, screenshots, metadata, and hashes. [https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/](https://www.bellingcat.com/resources/2022/09/22/preserve-vital-online-content-with-bellingcats-auto-archiver-tool/?utm_source=chatgpt.com)
+* Tristan Lee, Kolina Koltai and Giancarlo Fiorella, Bellingcat: OSHIT - Seven Deadly Sins of Bad Open Source Research - useful companion guidance on keeping original sources, avoiding overclaiming, and documenting uncertainty around social-media footage. [https://www.bellingcat.com/resources/2024/04/25/oshit-seven-deadly-sins-of-bad-open-source-research/](https://www.bellingcat.com/resources/2024/04/25/oshit-seven-deadly-sins-of-bad-open-source-research/)
+* WITNESS: Video as Evidence Field Guide - practical guidance on capturing, storing, sharing, and verifying video for human rights and accountability work. [https://vae.witness.org/video-as-evidence-field-guide/](https://vae.witness.org/video-as-evidence-field-guide/)
 
 ## Tool provider
 
@@ -79,6 +84,8 @@ Internet, web browser
 * [ ] This tool has not been checked for advertising trackers yet.
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
+
+The privacy policy names Google Analytics and browser cookies; no advertising placements were visible on the homepage, About page, Error page, or Privacy Policy page when checked on 2026-06-26.
 
 | Page Maintainer |
 | --------------- |
