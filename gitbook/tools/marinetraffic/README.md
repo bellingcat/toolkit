@@ -172,7 +172,32 @@ Guides provided by MarineTraffic:
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
+<details>
+
+<summary>Marine Traffic's complex user settings on privacy are shown below, where users can switch between REJECT ALL and ACCEPT ALL options. <strong>Click on the arrow</strong> to expand this section...</summary>
+
+
+
+We and our partners store or access information on devices, such as cookies and process personal data, such as unique identifiers and standard information sent by a device for the purposes described below. You may click to consent to our and our 716 partners’ processing for such purposes. Alternatively, you may click to refuse to consent, or access more detailed information and change your preferences before consenting. Your preferences will apply to this website only. Please note that some processing of your personal data may not require your consent, but you have a right to object to such processing. You can change your preferences or withdraw your consent at any time by returning to this site and clicking the "Privacy" button at the bottom of the webpage.
+
+REJECT ALL v ACCEPT ALL
+
+* Precise geolocation data, and identification through device scanning OFF by default
+* Personalised ads and content, ad and content measurement, audience insights and product development OFF by default
+* Store and/or access information on a device (12 partners) OFF by default
+* Special Purposes and Features
+  * **Ensure security, prevent fraud, and debug:** Your data can be used to monitor for and prevent fraudulent activity, and ensure systems and processes work properly and securely.
+  * **Technically deliver ads or content:** Your device can receive and send information that allows you to see and interact with ads and content.
+  * **Match and combine offline data sources:** Data from offline data sources can be combined with your online activity in support of one or more purposes
+  * **Link different devices:** Different devices can be determined as belonging to you or your household in support of one or more of purposes.
+  *   **Receive and use automatically-sent device characteristics for identification**Your device might be distinguished from other devices based on information it automatically sends, such as IP address or browser type:
+
+      Vendors can: Create an identifier using data collected automatically from a device for specific characteristics, e.g. IP address, user-agent string. Use such an identifier to attempt to re-identify a device. \
+      Vendors cannot: Create an identifier using data collected via actively scanning a device for specific characteristics, e.g. installed font or screen resolution without users’ separate opt-in to actively scanning device characteristics for identification. Use such an identifier to re-identify a device
+
+</details>
+
 | Page maintainer:-            |
 | ---------------------------- |
-| LPetrova and Sophie Tedling. |
+| LPetrova and Sophie Tedling: |
 |                              |
