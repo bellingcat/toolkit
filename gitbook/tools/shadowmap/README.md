@@ -218,9 +218,9 @@ Custom models (within a quota dependent upon subscription plan) up to 200MB can 
 
 Current pricing can be found at [https://shadowmap.org/pricing](https://shadowmap.org/pricing)
 
-At the time of writing in August 2024, paid versions varied from Explorer at £2.50/month, through Home at £8.33/month to Studio at £50/month.
+At the time of writing in June 2026, paid versions varied from Explorer at £30/year, through Home at £8.33/month to Studio at £50/month.
 
-<figure><img src=".gitbook/assets/Pricingoct2025.JPG" alt=""><figcaption><p><strong>SHADOWMAP PRICING OF PAID SERVICES AS AT OCTOBER 2025</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/Pricingjun2026.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Level of difficulty
 
