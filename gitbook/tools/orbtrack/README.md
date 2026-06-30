@@ -63,7 +63,7 @@ Examples of features which affect the value of satellite imagery to an investiga
 {% endtab %}
 
 {% tab title="ORBTRACK OUTPUTS" %}
-<figure><img src=".gitbook/assets/DataOutpuTable (1).JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/DataOutpuTable.JPG" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="USE CASES" %}
@@ -150,5 +150,5 @@ Torsten Hoffman (Germany) with satellite data from Dr T. S. Kelso via [www.celes
 
 | Page maintainer: |
 | ---------------- |
-| Sophie Tedling.  |
+| Sophie Tedling:  |
 |                  |
