@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-01'
+updated: '2026-06-29'
 description: Database of sanctions imposed by the European Union and the United Nations
 ---
 

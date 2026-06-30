@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-03'
+updated: '2026-06-29'
 description: Download pictures or videos (with metadata) from Instagram.
 ---
 

@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-03'
+updated: '2026-06-29'
 description: >-
   Automate joining multiple Telegram groups and channels, ideal for researchers
   monitoring specific topics.

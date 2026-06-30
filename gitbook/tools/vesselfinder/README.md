@@ -1,5 +1,5 @@
 ---
-updated: '2026-04-29'
+updated: '2026-06-29'
 description: Live marine vessel tracker
 ---
 

@@ -1,5 +1,5 @@
 ---
-updated: '2025-10-30'
+updated: '2026-06-29'
 description: Comprehensive repository of company registries around the world
 ---
 
