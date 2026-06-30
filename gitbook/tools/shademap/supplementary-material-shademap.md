@@ -51,17 +51,13 @@ Shade Map's cumulative analyses of daily sunlight hours, annual sunlight hours a
 {% endtab %}
 {% endtabs %}
 
+<table><thead><tr><th>USE CASE</th><th width="256">INPUT DATA</th><th>OUTPUT DATA</th></tr></thead><tbody><tr><td>Use of shadows in an image to determine a possible date or time at a given location.</td><td>Location of image plus one of:<br>- Date of image<br>- Time of image</td><td>The time/date variable can usually be established by trial and error. Time is most easily changed via the time slider on the interface. Date can be changed via the interface slider.</td></tr><tr><td>Confirmation of a proposed location, date and time through visual shadow matching of an image</td><td><ul><li>Source image</li><li>Proposed location</li><li>Date</li><li>Time</li></ul></td><td>ShadeMap model with shadows which visually match the source image.<img src=".gitbook/assets/image (4).png" alt=""></td></tr><tr><td>Determination of the sunlight exposure in hours for a given date over a specified time period up to a day</td><td><ul><li>Location</li><li>Start Time</li><li>End Time</li></ul></td><td>Map of the location area coloured to show sun hours over the time period, with numeric readouts under the cursor.<img src=".gitbook/assets/image (3).png" alt=""></td></tr><tr><td>Determination of the sunlight exposure and energy absorption of a given location over a time period up to a year</td><td><ul><li>Location</li><li>Start Date</li><li>End Date</li></ul></td><td><img src=".gitbook/assets/image (5).png" alt="" data-size="original">Map with graph of sunlight hours per month and yearly total</td></tr></tbody></table>
 
-
-<table><thead><tr><th>USE CASE</th><th width="256">INPUT DATA</th><th>OUTPUT DATA</th></tr></thead><tbody><tr><td>Use of shadows in an image to determine a possible date or time at a given location.</td><td>Location of image plus one of:<br>- Date of image<br>- Time of image</td><td>The time/date variable can usually be established by trial and error. Time is most easily changed via the time slider on the interface. Date can be changed via the interface slider. </td></tr><tr><td>Confirmation of a proposed location, date and time through visual shadow matching of an image</td><td><ul><li>Source image</li><li>Proposed location</li><li>Date</li><li>Time</li></ul></td><td>ShadeMap model with shadows which visually match the source image.<img src=".gitbook/assets/image (4).png" alt=""></td></tr><tr><td>Determination of the sunlight exposure in hours for a given date over a specified time period up to a day</td><td><ul><li>Location</li><li>Start Time</li><li>End Time</li></ul></td><td>Map of the location area coloured to show sun hours over the time period, with numeric readouts under the cursor.<img src=".gitbook/assets/image (3).png" alt=""></td></tr><tr><td>Determination of the sunlight exposure  and energy absorption of a given location over a time period up to a year</td><td><ul><li>Location</li><li>Start Date</li><li>End Date</li></ul></td><td><img src=".gitbook/assets/image (5).png" alt="" data-size="original">Map with graph of sunlight hours per month and yearly total</td></tr></tbody></table>
-
-| Input Data | Text Entry Method(s)                                                                                                                                                                                             | Graphical Interface Input                                                                                                                                                                                                                                                                                                                                   |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Location   | <p>Text location name OR<br>Numerical co-ordinates in the top left textbox.</p>                                                                                                                                  | Move the map using Left Mouse drag and drop to position the desired location centre screen under the sunrise/sunset/sun direction lines.                                                                                                                                                                                                                    |
-| Date       | <ul><li>In Shadow Map view:    N/A No text entry for date </li><li>In Hours in the Sun view: <br><img src=".gitbook/assets/image (1).png" alt=""></li></ul><p>use text entry or buttons to set date and time</p> | <p>NB There is no calendar graphic for date input except in Hours in the Sun view. <br><strong>In Shadow Map view:</strong> Clicking the date box bottom centre of the screen causes the date box to turn orange and the 'ruler' to display the months of the year. Use Left Mouse drag and drop to position the desired date under the orange pointer.</p> |
-| Time       | <ul><li>In Shadow Map View:    N/A No text entry for time</li><li>In Hours in the Sun view: <br><img src=".gitbook/assets/image (1).png" alt=""></li></ul><p>use text entry or buttons to set date and time</p>  | <p>NB There is no clock graphic for time input. <br><strong>In Shadow Map view:</strong> clicking the time box at bottom centre of the screen causes the 'ruler' display of the hours of the day, with daylight in green. Use Left Mouse drag and drop to position the desired time under the orange pointer.</p>                                           |
-
-
+| Input Data | Text Entry Method(s)                                                                                                                                                                                        | Graphical Interface Input                                                                                                                                                                                                                                                                                                                                  |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Location   | <p>Text location name OR<br>Numerical co-ordinates in the top left textbox.</p>                                                                                                                             | Move the map using Left Mouse drag and drop to position the desired location centre screen under the sunrise/sunset/sun direction lines.                                                                                                                                                                                                                   |
+| Date       | <ul><li>In Shadow Map view: N/A No text entry for date</li><li>In Hours in the Sun view:<br><img src=".gitbook/assets/image (1).png" alt=""></li></ul><p>use text entry or buttons to set date and time</p> | <p>NB There is no calendar graphic for date input except in Hours in the Sun view.<br><strong>In Shadow Map view:</strong> Clicking the date box bottom centre of the screen causes the date box to turn orange and the 'ruler' to display the months of the year. Use Left Mouse drag and drop to position the desired date under the orange pointer.</p> |
+| Time       | <ul><li>In Shadow Map View: N/A No text entry for time</li><li>In Hours in the Sun view:<br><img src=".gitbook/assets/image (1).png" alt=""></li></ul><p>use text entry or buttons to set date and time</p> | <p>NB There is no clock graphic for time input.<br><strong>In Shadow Map view:</strong> clicking the time box at bottom centre of the screen causes the 'ruler' display of the hours of the day, with daylight in green. Use Left Mouse drag and drop to position the desired time under the orange pointer.</p>                                           |
 
 {% hint style="danger" %}
 **Limitations of Trial and Error Solutions for Date, Time and Location:** Bear in mind that sometimes there may be more than one solution value for a given set of parameters.
@@ -75,20 +71,20 @@ Premium data is composed of precise measurements collected via LiDAR and photoga
 
 If this data is available in a given region, an Add Trees button will appear when you zoom into street level. Tree data is purchased by square kilometer and can be accessed for one month
 
-* Free building data comes from volunteers at [OpenStreetMap](https://www.openstreetmap.org)&#x20;
+* Free building data comes from volunteers at [OpenStreetMap](https://www.openstreetmap.org)
 * ShadeMap buys additional building data and building heights from [Mapbox](https://shademap.app/help/mapbox.com) when the cost is manageable
 * ShadeMap relies on the less detailed [Protomaps Basemaps](https://protomaps.com/) during periods of high traffic.
 * Users requiring accurate building height and roof shape data can purchase Tree Data, which is gathered through LiDAR and photogrammetry surveys.
 
 {% embed url="https://www.youtube.com/watch?v=CN7lQhNOv4I" %}
-**DEMONSTRATING THE DIFFERENCE IN DATA QUALITY BETWEEN FREE BASE AND PAID FOR PREMIUM DATA. THIS IS BEST OBSERVED WITH A SATELLITE VIEW  SO SHADOWS OF INDIVIDUAL VISIBLE TREES & BUILDINGS SHOW UP.**
+**DEMONSTRATING THE DIFFERENCE IN DATA QUALITY BETWEEN FREE BASE AND PAID FOR PREMIUM DATA. THIS IS BEST OBSERVED WITH A SATELLITE VIEW SO SHADOWS OF INDIVIDUAL VISIBLE TREES & BUILDINGS SHOW UP.**
 {% endembed %}
 
 {% hint style="success" %}
 Purchased data costs can be controlled because users are offered data only for the area in which they are interested, charged per square kilometre (USD $2.49 as at May 2024). Thus high resolution data need only be purchased for the user's area of interest.
 {% endhint %}
 
-* Users can add building data to the map via a drawing tool, which allows them to draw a building and set its height.&#x20;
+* Users can add building data to the map via a drawing tool, which allows them to draw a building and set its height.
 
 {% embed url="https://youtu.be/Q6tc4k6l-_k" %}
 **HOW TO ADD A USER DEFINED BUILDING TO SHADEMAP AND SET ITS HEIGHT**
@@ -103,24 +99,24 @@ Setting height to zero will delete the building again.
 ### ZOOMING THE MAP SCALE:
 
 {% hint style="warning" %}
-DON'T use the Mouse Scroll Wheel to Zoom the map scale BECAUSE the focus location is lost.&#x20;
+DON'T use the Mouse Scroll Wheel to Zoom the map scale BECAUSE the focus location is lost.
 {% endhint %}
 
 {% hint style="success" %}
 DO use the "+" and "-" tool in the bottom left of the map window to Zoom whilst maintaining a consistent focus location.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/shademapbottomleft menu (1).JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/shademapbottomleft menu.JPG" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/ShademapSettings.JPG" alt="" width="375"><figcaption><p><strong>SETTINGS FOR THE SHADEMAP INTERFACE</strong></p></figcaption></figure>
 
 By default, shadows are displayed on top of the tree canopy. To view shadows underneath the tree canopy instead, change the radio button setting from 'Top of canopy' to 'below canopy'.
 
-<figure><img src=".gitbook/assets/shademapbottomrightmenu (1).JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/shademapbottomrightmenu.JPG" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/ShadeMapannualview.gif" alt=""><figcaption><p>MOVING THE CURSOR ACROSS THE TIME OF DAY V MONTH PLOT FOR THE LOCATION SHOWN ON THE LEFT: EXACT DATE AND TIME ARE SHOWN FOR THE POINT UNDER THE CROSSWIRES PLUS THE ENERGY ABSORBED, WITH CUMULATIVE TOTALS AT THE TOP OF THE SCREEN</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/shademaptopright menu (1) (1).JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/shademaptopright menu.JPG" alt=""><figcaption></figcaption></figure>
 
 ### Trail Shade
 
@@ -144,7 +140,7 @@ ShadeMap provides data and the service for free, but if higher quality data is r
 
 <table><thead><tr><th data-type="rating" data-max="5"></th></tr></thead><tbody><tr><td>3</td></tr></tbody></table>
 
-ShadeMap basic features are not difficult to use, but a good understanding of the interplay of date, time, sun position and shadow direction and length is required to use its outputs effectively.&#x20;
+ShadeMap basic features are not difficult to use, but a good understanding of the interplay of date, time, sun position and shadow direction and length is required to use its outputs effectively.
 
 ## Requirements
 
@@ -152,13 +148,13 @@ ShadeMap basic features are not difficult to use, but a good understanding of th
 
 ## Limitations
 
-**Performance:**&#x20;
+**Performance:**
 
-ShadeMap relies heavily on the graphics processing unit (GPU) of the device it is running on.&#x20;
+ShadeMap relies heavily on the graphics processing unit (GPU) of the device it is running on.
 
 Where performance is an issue:-
 
-1. &#x20;Test whether your browser supports WebGL from this [Test Page here](https://webglreport.com/?v=2) since ShadeMap will only work with browsers which do support WebGL
+1. Test whether your browser supports WebGL from this [Test Page here](https://webglreport.com/?v=2) since ShadeMap will only work with browsers which do support WebGL
 2. Reduce the size of the browser window to increase the performance.
 
 **Data Quality**
@@ -166,7 +162,7 @@ Where performance is an issue:-
 Most ShadeMap free data does not contain accurate building heights and/or roof shapes. Users needing accurate data on these features can purchase Tree Data which provides exact measurements gathered through LiDAR and photogammetry surveys.
 
 {% hint style="info" %}
-There have been historical email issues around the delivery of purchased Tree Data where the data emails have been sent to Spam or blocked. A workaround is being implemented and the provider can be contacted [here](https://us6.list-manage.com/contact-form?u=e5e17c9e245874654e775b644\&form\_id=271345c0ff1a17865f8194ec099c597f) with any problems.
+There have been historical email issues around the delivery of purchased Tree Data where the data emails have been sent to Spam or blocked. A workaround is being implemented and the provider can be contacted [here](https://us6.list-manage.com/contact-form?u=e5e17c9e245874654e775b644\&form_id=271345c0ff1a17865f8194ec099c597f) with any problems.
 {% endhint %}
 
 **Interface**
@@ -181,7 +177,7 @@ Some users might find the interface counterintuitive, in that the user moves the
 
 ShadeMap's Online Help: [https://shademap.app/help/](https://shademap.app/help/)
 
-Guide for the Chrome Browser Extension:&#x20;
+Guide for the Chrome Browser Extension:
 
 {% embed url="https://www.youtube.com/watch?v=rReGMhMxUc8" %}
 **YOU TUBE VIDEO BY THE DEVELOPER ON THE SHADE MAP BROWSER EXTENSION FOR CHROME**
@@ -201,6 +197,3 @@ ShadeMap 9615 NE 195th Cir Bothell, WA 98011 US
 | --------------- |
 | Sophie Tedling  |
 |                 |
-
-
-

@@ -41,7 +41,7 @@ ShadeMap's cumulative analyses of daily sunlight hours, annual sunlight hours an
 
 {% tabs %}
 {% tab title="USE CASES" %}
-<figure><img src=".gitbook/assets/ShadeMapUseCasesTablev2 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ShadeMapUseCasesTablev2.jpg" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="USER INPUT" %}
@@ -57,16 +57,16 @@ ShadeMap's cumulative analyses of daily sunlight hours, annual sunlight hours an
 * Graph of annual sunlight & annual energy for the given location across the days and months of the year & time of day
 * Colour map of the given area showing daylight hours in the sun
 
-**Data downloads** are offered for users' generated results, and the developers offer assistance with large data set export. ![](<.gitbook/assets/image-1 (1).png>)
+**Data downloads** are offered for users' generated results, and the developers offer assistance with large data set export. ![](.gitbook/assets/image.png)
 
 **SUN EXPOSURE VIEW DOWNLOAD MESSAGE**\
 **EXPLAINING THE OUTPUT AND OFFERING ASSISTANCE**
 
-A download file is generated for the current view using the File Download button <img src=".gitbook/assets/GEOtiff download button (2).JPG" alt="" data-size="line"> in [GeoTIFF format.](https://en.wikipedia.org/wiki/GeoTIFF) This output file contains a sun exposure value for units of area across the display, on a scale of 0 to 240. These exposure values can be scaled to minutes of sun exposure by multiplying by a factor of 6.
+A download file is generated for the current view using the File Download button <img src=".gitbook/assets/GEOtiff download button.JPG" alt="" data-size="line"> in [GeoTIFF format.](https://en.wikipedia.org/wiki/GeoTIFF) This output file contains a sun exposure value for units of area across the display, on a scale of 0 to 240. These exposure values can be scaled to minutes of sun exposure by multiplying by a factor of 6.
 {% endtab %}
 
 {% tab title="DATA INPUT OPTIONS" %}
-<figure><img src=".gitbook/assets/DataInputTableShadeMap3 (1).JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/DataInputTableShadeMap3.JPG" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -133,7 +133,7 @@ Two advanced motion path-related features are available through the Project Menu
 
 {% tabs %}
 {% tab title="DATA " %}
-<div><figure><img src=".gitbook/assets/shademapbottomleft menu (1).JPG" alt=""><figcaption><p>THE DATA TOOLBAR<br>SCREEN BOTTOM LEFT</p></figcaption></figure> <figure><img src=".gitbook/assets/ShademapSettings (1).JPG" alt="" width="375"><figcaption><p><strong>THE SETTINGS MENU: CALLED FROM THE DATA TOOLBAR</strong></p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/shademapbottomleft menu.JPG" alt=""><figcaption><p>THE DATA TOOLBAR<br>SCREEN BOTTOM LEFT</p></figcaption></figure> <figure><img src=".gitbook/assets/ShademapSettings.JPG" alt="" width="375"><figcaption><p><strong>THE SETTINGS MENU: CALLED FROM THE DATA TOOLBAR</strong></p></figcaption></figure></div>
 
 Data display and exchange is managed through the bottom left interface toolbar, which allows
 
@@ -190,7 +190,7 @@ View Orientation is managed through the bottom right interface toolbar, which al
 
 By default, shadows are displayed on top of the tree canopy. To view shadows underneath the tree canopy instead, change the radio button setting from 'Top of canopy' to 'below canopy'.
 
-<div><figure><img src=".gitbook/assets/shademapbottomrightmenu (1).JPG" alt="" width="170"><figcaption><p><strong>THE VIEW TOOLBAR ADJUSTS TILT AND ZOOM AND ALLOWS SELECTION OF THREE VIEW LAYERS AND TWO BASEMAPS</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/shademaptopright menu (1).JPG" alt=""><figcaption><p><strong>THE DRAWING TOOLBAR APPEARS SCREEN TOP RIGHT</strong><br><strong>IN SHADOW VIEW AND HOURS IN THE SUN VIEW</strong></p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/shademapbottomrightmenu.JPG" alt="" width="170"><figcaption><p><strong>THE VIEW TOOLBAR ADJUSTS TILT AND ZOOM AND ALLOWS SELECTION OF THREE VIEW LAYERS AND TWO BASEMAPS</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/shademaptopright menu.JPG" alt=""><figcaption><p><strong>THE DRAWING TOOLBAR APPEARS SCREEN TOP RIGHT</strong><br><strong>IN SHADOW VIEW AND HOURS IN THE SUN VIEW</strong></p></figcaption></figure></div>
 
 The Drawing Toolbar buttons allow the addition of objects to the map as polygons with a specified height, object editing, deletion and saving.
 {% endtab %}
@@ -229,7 +229,7 @@ If this data is available in a given region, an Add Trees button will appear whe
 {% endembed %}
 
 {% hint style="success" %}
-Purchased data costs can be controlled because users are offered data only for the area in which they are interested, charged per square kilometre (USD $3.99 as at Jamuary 2026).
+Purchased data costs can be controlled because users are offered data only for the area in which they are interested, charged per square kilometre (USD $3.99 as at June 2026).
 {% endhint %}
 
 {% embed url="https://youtu.be/Q6tc4k6l-_k" %}
@@ -252,7 +252,7 @@ ShadeMap offers a [paid for API](https://shademap.app/about/) with the following
 * [x] Partially Free
 * [ ] Paid
 
-Previously, ShadeMap provided data and the service for free, but if higher quality data was required, ShadeMap helps users purchase it from a third party. A free browser extension was offered, as well as a paid for API. As of 2025, Shade Map presents this model as two services, the paid one being charge per square kilometre:
+Previously, ShadeMap provided data and the service for free, but if higher quality data was required, ShadeMap helps users purchase it from a third party. A free browser extension was offered, as well as a paid for API. As of 2026, Shade Map presents this model as two services, the paid one being charge per square kilometre:
 
 Free - using estimates and volunteer data, accurate for 1-3 metres
 
@@ -328,5 +328,5 @@ ShadeMap, US
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling.   |
+| Sophie Tedling:   |
 |                   |
