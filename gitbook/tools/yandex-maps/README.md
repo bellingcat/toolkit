@@ -149,7 +149,7 @@ Yandex Maps API: [https://yandex.com/maps-api/docs](https://yandex.com/maps-api/
 
 Yandex LLC. Headquarters in Russia
 
-NB Yandex was sold in 2024, so observers are checking to see if this affects data availability going forward. See [https://www.reuters.com/technology/yandex-nv-agrees-52-bln-sale-russian-assets-investor-consortium-2024-02-05/](https://www.reuters.com/technology/yandex-nv-agrees-52-bln-sale-russian-assets-investor-consortium-2024-02-05/)
+NB Yandex was sold in 2024, so observers have been checking to see if this affects data availability going forward. See [https://www.reuters.com/technology/yandex-nv-agrees-52-bln-sale-russian-assets-investor-consortium-2024-02-05/](https://www.reuters.com/technology/yandex-nv-agrees-52-bln-sale-russian-assets-investor-consortium-2024-02-05/)
 
 ## Advertising Trackers
 
@@ -157,9 +157,9 @@ NB Yandex was sold in 2024, so observers are checking to see if this affects dat
 * [x] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-The author's own checks in May 2026 showed Yandex using trackers.
+The author's own checks in June 2026 showed Yandex using trackers.
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling.   |
+| Sophie Tedling:   |
 |                   |
