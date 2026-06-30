@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-The data on the 'Business Registers Interconnection System (BRIS)' portal is gathered in real time from national registers, and only info provided free of charge on national registers is available for free on the portal (see the [general info page](https://e-justice.europa.eu/topics/registers-business-insolvency-land/business-registers-search-company-eu/general-information-find-company_en)). These are the countries covered:
+The data on the 'Business Registers Interconnection System (BRIS)' portal is gathered in real time from national registers, and only info provided free of charge on national registers is available for free on the portal (see the [general info page](https://e-justice.europa.eu/topics/registers-business-insolvency-land/business-registers-search-company-eu/general-information-find-company_en)). To get documents that require payment, go to the national register’s website. These are the countries covered:
 
 <figure><img src=".gitbook/assets/Screenshot 2026-05-06 at 14.04.10.png" alt=""><figcaption><p>Countries included in the consolidated register</p></figcaption></figure>
 
@@ -21,7 +21,7 @@ However, some data that is free in a national register does not appear on the po
 
 <figure><img src=".gitbook/assets/Screenshot 2026-05-06 at 14.12.45.png" alt=""><figcaption><p>A company's page on the consolidated EU register</p></figcaption></figure>
 
-Here is the same company's [listing](https://www.infogreffe.fr/entreprise/monoprix/552018020/58b30ebc-d4b3-4e23-b3b7-27e468f6bb60) on the French register:
+Here is the same company's [listing](https://www.infogreffe.fr/entreprise/monoprix/552018020/58b30ebc-d4b3-4e23-b3b7-27e468f6bb60) on the French register:w
 
 <figure><img src=".gitbook/assets/Screenshot 2026-05-06 at 14.21.35.png" alt=""><figcaption><p>The same company's 'Identité' page on the French register</p></figcaption></figure>
 
