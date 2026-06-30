@@ -69,7 +69,7 @@ The web-based version has been developed specifically for Open Source research s
 {% tab title="USE CASES" %}
 USE CASES: PeakVisor allows Open Source Researchers to geolocate and chronolocate source images by matching terrain profiles, sun/moon trails, shadows, slopes and weather.
 
-<figure><img src=".gitbook/assets/tablebig (1).jpg" alt=""><figcaption><p><strong>COMPARING THE DATA INPUTS AND OUTPUTS RELEVANT TO EACH USE CASE</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/tablebig.jpg" alt=""><figcaption><p><strong>COMPARING THE DATA INPUTS AND OUTPUTS RELEVANT TO EACH USE CASE</strong></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Data Input Options" %}
@@ -102,7 +102,7 @@ As a PhotoFit user you can:-
 PeakVisor will not search for a matching location for your source imagery, **you must provide a test location, i.e. a "guess"** in order to use PhotoFit for confirmation. Obviously you can repeat the process, testing different locations, until hopefully a match is found.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/PHOTOFIT EG CROP (1).jpg" alt=""><figcaption><p><strong>PHOTOFIT SUPERIMPOSES THE RENDERED TERRAIN OUTLINE AT THE TEST CO-ORDINATES OVER THE USER'S UPLOADED PHOTOGRAPH TO SEE IF THEY MATCH TO CONFIRM THE GEOLOCATION</strong>. A VISUALLY OBVIOUS EXAMPLE HAS BEEN CHOSEN FOR PROOF OF CONCEPT</p></figcaption></figure>
+<figure><img src=".gitbook/assets/PHOTOFIT EG CROP.jpg" alt=""><figcaption><p><strong>PHOTOFIT SUPERIMPOSES THE RENDERED TERRAIN OUTLINE AT THE TEST CO-ORDINATES OVER THE USER'S UPLOADED PHOTOGRAPH TO SEE IF THEY MATCH TO CONFIRM THE GEOLOCATION</strong>. A VISUALLY OBVIOUS EXAMPLE HAS BEEN CHOSEN FOR PROOF OF CONCEPT</p></figcaption></figure>
 
 IFF the PeakVisor terrain outline fits very well over the same characteristic features in the photograph, then this is very strong evidence of an accurate geolocation. The more points of inflexion\* there are in the contours being fitted, the stronger the confirmation of location. The example above is a very visually obvious geolocation, chosen to demonstrate the principle. The source image (a photograph of the Matterhorn mountain) has been uploaded to PeakVisor in "Explorer" view, and the user is moving the red silhouette of the model (which PeakVisor generated at the test location) across the photograph to try to adjust it to fit.\
 \* Point of inflexion = change in direction
@@ -134,7 +134,7 @@ This is because PeakVisor's high data quality (from LIDAR satellite and maps), a
 
 </details>
 
-<figure><img src=".gitbook/assets/comparemodelspvgep.jpg" alt=""><figcaption><p><strong>THE CENTRAL SOURCE IMAGE IS RECOGNISABLE IN THE PEAKVISOR RENDERED MODEL OF THE TEST LOCATION THROUGH ACCURATE DEPICTION OF KEY SKYLINE FEATURES</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/comparemodelspvgep.jpg" alt=""><figcaption><p><strong>THE CENTRAL SOURCE IMAGE IS RECOGNISABLE IN THE PEAKVISOR RENDERED MODEL OF THE TEST LOCATION (ON THE RIGHT) THROUGH ACCURATE DEPICTION OF KEY SKYLINE FEATURES</strong></p></figcaption></figure>
 
 {% hint style="success" %}
 Use PeakVisor in conjunction with other tools like Google Earth Pro and satellite imagery to obtain the fullest understanding of Test terrain and environment for which geolocation is needed. Exploit the differences of these tools, e.g. Google tools are quick to cover terrain in real time, strong on time-stamped historical data, strong on local photographic imagery, weak on exact photographic location, unclear on photographic aspect. PeakVisor is weak on cityscapes, sparse on local photographic imagery, slower to switch viewpoint, but strong on orientation, clear on numeric viewshed data and strong on distance measurement in 3D panoramas.
@@ -146,23 +146,22 @@ PeakVisor provides an elevation data download feature for a maximum ground surfa
 
 <div><figure><img src=".gitbook/assets/elevationdataapi.JPG" alt="" width="375"><figcaption><p><strong>PEAKVISOR'S DATA DOWNLOAD FEATURE REQUIRES A USER PROFILE TO DOWNLOAD ELEVATION DATA IN A USER-DEFINED RECTANGULAR AREA OF UP TO 0.5 DEGREES X 0.5 DEGREES</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/PVProfilePageTabs.JPG" alt=""><figcaption><p>PEAKVISOR USERS WITH AN ACCOUNT CAN ACCESS A PROFILE PAGE WHICH OFFERS THE ABILITY TO STORE PHOTOS, LOCATIONS AND PATHS, TO DOWNLOAD DATA FILES, SYNCH WITH GARMIN, EXPORT TO GPX, ETC.</p></figcaption></figure></div>
 
-### FIVE Different Views for Terrain in PeakVisor
+### Different Views for Terrain in PeakVisor
 
 {% hint style="warning" %}
-3D Map view feature is temporarily disabled as at 23/8/25, pending review.
+3D Map view feature has been incorporated into the Hiking Map and Ski Map views
 {% endhint %}
 
-1. [Explorer View](./#view-one-explorer-view-3d-rendered-terrain-model) (3D rendered terrain model displayed with 2D Map View)
-2. [2D Map View](./#view-two-2d-map-view)
-3. [3D Map View](./#view-three-3d-map-view)- Temporarily disabled as at 23/8/25
-4. [Hike Map View](./#view-four-hike-map-view)
-5. [Ski Map View](./#view-five-ski-map-view)
+* Panorama 3D (3D rendered terrain model displayed with 2D Map View)
+* [2D Map View](./#view-two-2d-map-view)
+* [Hike Map View](./#view-four-hike-map-view)
+* [Ski Map View](./#view-five-ski-map-view)
 
-As well as [**Explorer View**](./#view-three-explorer-view-3d-rendered-terrain-model), which always displays a 3D rendered terrain model of a given location next to [2D Map View](./#id-2d-map-view), PeakVisor provides a number of other view types for its topological data:, [3D Map View](./#id-3d-map-view), [Hike Map View](./#view-four-hike-map-view), and [Ski Map view](./#view-five-ski-map-view). These are accessible from the Drop Down menu under Explorer in the Toolbar - see below:
+As well as [**Explorer View**](./#view-three-explorer-view-3d-rendered-terrain-model), which always displays a 3D rendered terrain model of a given location next to [2D Map View](./#id-2d-map-view), PeakVisor provides two other view types for its topological data:, [Hike Map View](./#view-four-hike-map-view), and [Ski Map view](./#view-five-ski-map-view). These are accessible from the Drop Down menu  in the Toolbar - see below:
 
-<figure><img src=".gitbook/assets/3dmENUDROPDOWN.gif" alt="" width="487"><figcaption><p><strong>CHANGING PEAKVISOR'S VIEW SETTING USING THE DROP DOWN MENU UNDER "EXPLORER" IN THE TOOLBAR</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/peakVisor2026 menus.gif" alt=""><figcaption></figcaption></figure>
 
-### VIEW ONE: "Explorer" View (3D Rendered Terrain Model)
+### "Panorama" View (3D Rendered Terrain Model)
 
 <details>
 
@@ -179,9 +178,9 @@ As well as [**Explorer View**](./#view-three-explorer-view-3d-rendered-terrain-m
 
 </details>
 
-<figure><img src=".gitbook/assets/PV3Dpanorama (1).gif" alt=""><figcaption><p><strong>PEAKVISOR PANORAMA VIEW FROM GROUND LEVEL WITH TERRAIN &#x26; SUN TRAIL FOR DATE AND TIME</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/PV3Dpanorama.gif" alt=""><figcaption><p><strong>PEAKVISOR PANORAMA VIEW FROM GROUND LEVEL WITH TERRAIN &#x26; SUN TRAIL FOR DATE AND TIME</strong></p></figcaption></figure>
 
-#### Special Functions of Explorer View
+#### Special Functions of Panorama View
 
 <details>
 
@@ -198,7 +197,7 @@ In 3D Explorer View it is possible to select a point in the rendered terrain mod
 <figure><img src=".gitbook/assets/what is the difference between these 2 lines.JPG" alt=""><figcaption><p>THE DISTANCE MEASUREMENT FUNCTION IN THE 2D WINDOW AND THE TELEPORT FUNCTION IN THE 3D EXPLORER WINDOW, WHICH SWITCHES THE VIEWPOINT TO A LOCATION IN THE 3D RENDERED VIEW SELECTED BY THE USER</p></figcaption></figure>
 
 {% hint style="danger" %}
-The developers have reports of problem using the Teleport function from users and look to resolve them by July 24 during an major upgrade.
+The developers have reports of problem using the Teleport function from users and look to resolve them in the next upgrade.
 {% endhint %}
 
 <details>
@@ -235,7 +234,7 @@ When the sun is centre screen in the PeakVisor Explorer view, the yaw value in t
 
 There are also view types for Skiers and Hikers, each of which has functionality useful for Open Source research:
 
-### VIEW TWO: 2D Map View
+### 2D Map View
 
 <details>
 
@@ -249,21 +248,7 @@ There are also view types for Skiers and Hikers, each of which has functionality
 
 <figure><img src=".gitbook/assets/2Dwindowmatterhorn.JPG" alt="" width="563"><figcaption><p><strong>PEAKVISOR 2D MAP VIEW WITH CONTOUR LINES AND MAP LABELS (PLACES, PATHS, CONTOURS ETC)</strong></p></figcaption></figure>
 
-### VIEW THREE: 3D Map View - temporarily disabled pending review
-
-<details>
-
-<summary>Chosen from the View Selection Drop Down in the menu bar. View from an altitude above chosen viewpoint, including elevation contour lines and map feature labels, no terrain simulation.... (Click panel arrow for more)</summary>
-
-* Left Mouse Down changes location of map co-ordinates (latitude, longitude
-* Right Mouse Down changes viewing angles (pitch, yaw, roll) within limits
-* Use Left and Right Mouse Down simultaneously to 'tour' a landscape feature.
-
-</details>
-
-<figure><img src=".gitbook/assets/big3Dmatterhorn.gif" alt=""><figcaption><p><strong>PEAKVISOR 3D MAP VIEW SHOWING MOUSE CONTROLS: LEFT MOUSE FOR LOCATION, RIGHT MOUSE FOR PITCH (VERTICAL) AND YAW (HORIZONTAL)</strong></p></figcaption></figure>
-
-### **VIEW FOUR: Hike Map** View:-
+### **Hike Map** View:-
 
 <details>
 
@@ -279,7 +264,7 @@ There are also view types for Skiers and Hikers, each of which has functionality
 
 <figure><img src=".gitbook/assets/drawtrail.JPG" alt=""><figcaption><p><strong>DRAWING AND STORING A TRAIL IN HIKE MAP VIEW - TRAIL IS PURPLE, SIDEBAR SHOWS TRAIL ELEVATION PLOT</strong></p></figcaption></figure>
 
-### VIEW FIVE: Ski Map View
+### Ski Map View
 
 <details>
 
@@ -377,7 +362,7 @@ PeakVisor's promotion of remote/difficult-to-access locations and navigational a
 Almost all the tutorial and guide material currently online for PeakVisor refers to the Smartphone version of the tool and for this reason is not included here as much of the functionality is not yet available in the web version for Open Source Research, and some is not applicable. PeakVisor's developers have not yet created Help content for the web version of PeakVisor as the tool is so newly developed and major changes are ongoing.
 {% endhint %}
 
-<table><thead><tr><th width="187">Author +/ Source</th><th width="154">Format</th><th>Title and Link</th></tr></thead><tbody><tr><td>Sophie Tedling, Bellingcat Website</td><td>Article on an OS Investigation using PeakVisor</td><td><a href="https://www.bellingcat.com/resources/2023/07/13/more-than-mountaineering-using-peakvisor-for-geolocation/"><strong>More than Mountaineering: Using PeakVisor for Geolocation</strong></a></td></tr><tr><td>Sophie Tedling, YouTube, Bellingcat Channel</td><td><strong>Video Webinars:</strong></td><td><a href="https://www.youtube.com/watch?v=xNqSwL9j8h4">Using PeakVisor For Geolocations</a></td></tr><tr><td>Sophie Tedling, YouTube, Bellingcat Channel</td><td><strong>Video Webinars:</strong></td><td><a href="https://www.youtube.com/watch?v=pWlukJ0v-pw">How To Use PeakVisor, The Mountaineering App, For Open-Source Research</a></td></tr><tr><td>X/Twitter</td><td>X/(Twitter) Account</td><td><a href="https://x.com/PVforOSINV">@PVforOSINV</a></td></tr></tbody></table>
+<table><thead><tr><th width="187">Author +/ Source</th><th width="154">Format</th><th>Title and Link</th></tr></thead><tbody><tr><td>Sophie Tedling, Bellingcat Website</td><td>Article on an OS Investigation using PeakVisor</td><td><a href="https://www.bellingcat.com/resources/2023/07/13/more-than-mountaineering-using-peakvisor-for-geolocation/"><strong>More than Mountaineering: Using PeakVisor for Geolocation</strong></a></td></tr><tr><td>Sophie Tedling, YouTube, Bellingcat Channel</td><td><strong>Video Webinars:</strong></td><td><a href="https://www.youtube.com/watch?v=xNqSwL9j8h4">Using PeakVisor For Geolocations</a></td></tr><tr><td>Sophie Tedling, YouTube, Bellingcat Channel</td><td><strong>Video Webinars:</strong></td><td><a href="https://www.youtube.com/watch?v=pWlukJ0v-pw">How To Use PeakVisor, The Mountaineering App, For Open-Source Research</a></td></tr><tr><td>X/Twitter</td><td>X/(Twitter) Account</td><td><a href="https://x.com/PVforOSINV">@PVforOSINV</a> - Disabled by X/Twitter, seeking reinstatement</td></tr></tbody></table>
 
 #### Video Excerpts for Specific Topics:
 
@@ -423,7 +408,7 @@ Routes Software SRL, VIA CAVOUR 2 LOMAZZO, COMO, 22074 ITALY
 
 | Page maintainer:- |
 | ----------------- |
-| Sophie Tedling.   |
+| Sophie Tedling:   |
 |                   |
 
 [^1]: To be cross-referenced with other Toolbox tool entries.
