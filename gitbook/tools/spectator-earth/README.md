@@ -104,11 +104,11 @@ Some functionality and imagery is free. Advanced functions and higher resolution
 
 You can browse limited data and use some app features without paying. Paid options are mainly for advanced features and commercial high-resolution imagery access.
 
+You can find information about plans and pricing [here](https://obsearth.com/pricing/).
+
 {% hint style="info" %}
 Discounted access is offered for academic and non-profit research use. To apply, submit a request via the "apply for discount" link on the [pricing page](https://obsearth.com/pricing).
 {% endhint %}
-
-[Plans and pricing](https://obsearth.com/pricing/)
 
 ## Level of difficulty
 
