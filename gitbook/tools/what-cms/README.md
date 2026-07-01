@@ -23,7 +23,7 @@ Paid subscriptions also allow batch processing which allows the user to upload l
 
 Key Features
 
-* Detects over [1,540 technology signatures](https://whatcms.org/) across CMS, hosting, e-commerce, programming languages, databases, frameworks, analytics, and payment processors.
+* Detects over [1,540](https://whatcms.org/) technology signatures across CMS, hosting, e-commerce, programming languages, databases, frameworks, analytics, and payment processors.
 * Returns version numbers where the technology exposes them, which is useful for assessing whether software is current or has not been updated recently.
 * JSON export for integration with other tools or databases.
 * API access for automated, programmatic queries (free account required; rate-limited on the free tier).
