@@ -11,7 +11,7 @@ description: Links to beneficial ownership registers.
 
 ## Description
 
-OpenOwnership helps countries to publish standards-compliant beneficial ownership (BO) registers, which give details of the actual human owners and the people who can benefit from an entity's operations and profits, or control its activities.
+Open Ownership helps countries to publish standards-compliant beneficial ownership (BO) registers, which give details of the actual human owners and the people who can benefit from an entity's operations and profits, or control its activities.
 
 It's important to know a company's beneficial owners as sometimes other people or entities (e.g. a trust or shell company) are listed as owners on the corporate register, meaning that if you only search that register, you may not find the actual owners. An increasing number of countries are requiring disclosure of beneficial ownership.
 
