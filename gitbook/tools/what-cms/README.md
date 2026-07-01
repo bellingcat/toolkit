@@ -19,7 +19,7 @@ Users working across a large number of websites, WhatCMS offers a domain-wide sc
 
 Paid subscriptions also allow batch processing which allows the user to upload lists of URL's to be analysed simultaneously. It also has Private Detections which gives you the option to detect other technologies such as databases.
 
-<div align="center"><figure><img src=".gitbook/assets/Screenshot 2026-06-24 at 10.46.08.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src=".gitbook/assets/Screenshot 2026-06-24 at 10.46.08.png" alt="" width="563"><figcaption><p>What CMS shows that Bellingcat uses Wordpress as its CMS. It also lists other categories like the programming language or type of databases that is used. In addition, it tries to identify some of Bellingcat's social media channels.</p></figcaption></figure></div>
 
 <figure><img src=".gitbook/assets/Screenshot 2026-06-24 at 10.46.29.png" alt="" width="563"><figcaption></figcaption></figure>
 
