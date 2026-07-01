@@ -23,8 +23,6 @@ Datasets include:
 * Digital elevation models (DEMs) and terrain height information
 * Land cover (vegetation), hydrography (rivers, lakes), cartographic products (digitized maps, boundary data)
 
-EarthExplorer is a download portal for original, scientifically validated scenes.&#x20;
-
 ## Features
 
 EarthExplorer includes an interactive map interface for defining areas of interest, textual filtering criteria for date range, cloud cover, sensor type, and resolution. You can browse previews of individual scenes with full metadata.
