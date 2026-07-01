@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-03'
+updated: '2026-06-30'
 description: >-
   Distill.io is a website change monitoring tool that allows users to track
   changes on web pages.

@@ -2,6 +2,7 @@
 description: >-
   A browser extension to view archived and cached versions of a website on
   multiple archiving sites.
+updated: '2026-06-30'
 ---
 
 # Web Archives

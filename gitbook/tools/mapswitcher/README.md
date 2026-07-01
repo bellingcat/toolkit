@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-01'
+updated: '2026-06-30'
 description: >-
   Chrome extension switches  between online map apps, maintaining (as far as
   possible) the map centre, zoom level, & directions of the source map.

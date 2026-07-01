@@ -1,5 +1,5 @@
 ---
-updated: '2026-02-24'
+updated: '2026-06-30'
 description: >-
   Google Earth is a geospatial tool that provides detailed, global satellite
   imagery, maps, 3D terrain models, and the ability to explore geographic data

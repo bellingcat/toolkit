@@ -1,5 +1,5 @@
 ---
-updated: '2026-04-29'
+updated: '2026-06-30'
 description: AI video tool for facial detection and other types of insights.
 ---
 

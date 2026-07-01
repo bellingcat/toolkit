@@ -1,5 +1,5 @@
 ---
-updated: '2026-04-29'
+updated: '2026-06-30'
 description: >-
   A natural language interface for querying the OpenStreetMap database to find
   locations which meet the search criteria described by the user.
