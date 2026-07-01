@@ -13,8 +13,6 @@ description: >-
 
 ## Description
 
-<figure><img src=".gitbook/assets/Screenshot 2026-06-24 at 11.08.10.png" alt=""><figcaption></figcaption></figure>
-
 WhatCMS is a tool that can quickly help you understand the CMS, like WordPress, Joomla, or Drupal, are used by a website, the company hosting it, the platform it was built on (such as Wix or Shopify), the programming language running on the server, the database storing its content, and any analytics or payment tools embedded in its pages.
 
 Users working across a large number of websites, WhatCMS offers a domain-wide scan, a batch detection feature for uploading multiple URLs at once, and an API for automated queries. The batch and API features require registration and a paid subscription.
