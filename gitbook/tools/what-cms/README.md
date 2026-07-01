@@ -33,9 +33,9 @@ Key Features
 
 Go to whatcms.org, enter a URL, and click "Detect CMS". The results appear within seconds as a table listing each detected technology, its category, and version number where available. Users can analyse one URL every 10 seconds and perform up to 500 detections in total per month with a free account.&#x20;
 
-For larger investigations involving multiple websites, WhatCMS provides an API (Application Programming Interface), which allows researchers to automate detections instead of checking URLs manually. The free API plan allows up to 500 website detections per month, with requests limited to one URL every 10 seconds. This makes the free tier suitable for small-scale investigations, while large infrastructure-mapping projects require a paid subscription.\
-\
-Batch detection, which involves submitting multiple URLs simultaneously, is only available on paid plans.
+For larger investigations involving multiple websites, WhatCMS provides an API (Application Programming Interface), which allows researchers to automate detections instead of checking URLs manually. Batch detection, which involves submitting multiple URLs simultaneously, is only available on paid plans.
+
+This makes the free tier suitable for small-scale investigations, while large infrastructure-mapping projects require a paid subscription.
 
 <figure><img src=".gitbook/assets/batch detection CMS.png" alt=""><figcaption><p>Raw output from a batch detection submitted to the WhatCMS API. Each row represents one website from a list that was submitted all at once.</p></figcaption></figure>
 
