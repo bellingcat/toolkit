@@ -13,7 +13,7 @@ description: >-
 
 ## Description
 
-ImportGenius is an online database of trade data (imports and exports) for countries including the US, Russia and India. [Data sources include](https://www.importgenius.com/how-it-works) government public records, customs agencies and trade databases. ImportGenius covers countries for which they can get data - see the [pricing page](https://www.importgenius.com/pricing) (scroll down to 'Global trade data'). Note that journalists getting free access can email to request data for countries which they haven't yet added to their platform.
+ImportGenius is an online database of trade data (imports and exports) for countries including the US, Russia and India. [Data sources include](https://www.importgenius.com/how-it-works) government public records, customs agencies and trade databases. ImportGenius covers countries for which they can get data - see the [pricing page](https://www.importgenius.com/pricing) (scroll down to 'Global trade data'). Note that journalists getting free access can email to request data for countries that ImportGenius hasn't yet added to their platform.
 
 When logged in you can do custom searches:
 
@@ -29,7 +29,7 @@ ImportGenius has a 'Visual Mapping' view that gives you a knowledge graph of shi
 
 <figure><img src=".gitbook/assets/Screenshot 2025-08-27 at 08.57.54.png" alt=""><figcaption><p>Knowledge graph for an exporter (blue) showing all importers who received their products for a given period</p></figcaption></figure>
 
-The network diagram allows you to explore relationships between trading entities. In the diagram above, you can see the other people and companies to which the exporter (in blue) provided shipments.
+The knowledge graph allows you to explore relationships between trading entities. In the diagram above, you can see the other people and companies to which the exporter (in blue) provided shipments.
 
 You can export search results, save searches so it's easy to repeat them, and get email alerts when new shipments matching your search criteria clear customs.
 
