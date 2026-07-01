@@ -14,7 +14,9 @@ description: >-
 
 ## Description
 
-Hugin is an open-source panorama photo stitching and HDR (High Dynamic Range imaging) merging software. It assists users in combining multiple images to create seamless panoramas and can adjust for the optical distortions in camera lenses. A common use case is producing wide-angle shots by stitching together several overlapping photos.
+Hugin is an open-source panorama photo stitching and HDR (High Dynamic Range imaging) merging software. It assists users in combining multiple images to create seamless panoramas and can adjust for the optical distortions in camera lenses. A common use case is producing wide-angle shots by stitching together several overlapping photos. This can allow for the creation of multiple exposure images, as well as large composite shots that combine dozens of images. The tool offers some automated features for image stitching, though manual use is suggested to avoid artifacting or unintended errors.&#x20;
+
+<figure><img src=".gitbook/assets/Iceland Iceberg.jpeg" alt=""><figcaption><p>Composite of Two Separate Images, Stitched Together Automatically by Hugin, Image Source: Voulpe</p></figcaption></figure>
 
 ## Cost
 
@@ -42,17 +44,17 @@ Hugin is available in 22 [languages](https://hugin.sourceforge.io/): Brazilian P
 
 Hugin, like many open-source tools, may have the following limitations:
 
-* **Steeper Learning Curve**: Requires some experience to get the best results.
-* **Performance**: May be slower compared to commercial tools with optimized algorithms.
-* **User Interface**: The UI might be less intuitive and user-friendly for beginners.
-* **Support**: Limited official support; relies on community forums and documentation.
+* **Steeper Learning Curve**: Requires some experience to get the best results. When stitching together photos that are clear and closely aligned, Hugin can automate the selection of control points, used to estimate the relative position and lens parameters. To avoid artifacting, it is best practice to develop a basic understanding of control points and how Hugin stitches images together. &#x20;
+* **Performance**: May be slower compared to commercial tools with optimized algorithms. User experience can be inconsistent. For example, the Interface tab may not function while a project is ongoing.&#x20;
+* **User Interface**: The UI might be less intuitive and user-friendly for beginners. Hugin offers three UI variations under the Interface tab, these are: Beginner, Advanced, Expert. While Beginner provides the helpful visuals, users should employ the Advanced UI if possible. It provides a balance of accessibility and options. &#x20;
+* **Support**: Limited official support; relies on community forums and documentation. Receives regular updates, last modification to Hugin is listed as 2025/10/02.&#x20;
 
 ## Ethical Considerations
 
 Using Hugin raises several ethical considerations:
 
-* **Privacy**: Ensure that user data and images are handled securely and adhere to privacy regulations.
-* **Accuracy**: Ensure the accuracy of stitched images to avoid misleading results.
+* **Privacy**: Ensure that user data and images are handled securely and adhere to privacy regulations. Note: Project files appear to be saved only locally.&#x20;
+* **Accuracy**: Ensure the accuracy of stitched images to avoid misleading results. This is highly dependent on user ability and/or technical knowledge, as Hugin's automatic stitching feature is relatively simple and should not be overly relied on.&#x20;
 * **Attribution**: Give proper credit if using others' images, respecting copyright and intellectual property rights.
 
 ## Guides and articles
@@ -90,7 +92,9 @@ By utilizing these resources, users can enhance their Hugin experience.
 
 ## Tool provider
 
-Pablo d'Angelo (Original Author, GSoC 2007 and 2008 mentor, German translation, original CMake build, original Windows SDK)
+Pablo d'Angelo (Original Author, GSoC 2007 and 2008 mentor, German translation, original CMake build, original Windows SDK). Left position as Head Developer of Hugin in 2012.&#x20;
+
+Original developer based in Germany.&#x20;
 
 Full authors list: [https://sourceforge.net/p/hugin/hugin/ci/default/tree/authors.txt](https://sourceforge.net/p/hugin/hugin/ci/default/tree/authors.txt)
 
