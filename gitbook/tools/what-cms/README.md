@@ -1,5 +1,8 @@
 ---
-description: A tool that you can use to identify the technologies used to power a website.
+description: >-
+  WhatCMS is a web-based tool for anyone needing information about the
+  technologies behind any website, including the content management system
+  (CMS), e-commerce platforms, and hosting providers and web
 ---
 
 # What CMS
@@ -10,15 +13,39 @@ description: A tool that you can use to identify the technologies used to power 
 
 ## Description
 
-Whatcms is a tool that you can use to identify the technologies used to power a website. \
-A couple of examples of what the website is able to detect:\
-Content Management Systems (CMS)\
-Programming languages\
-Specific plugins
+<figure><img src=".gitbook/assets/Screenshot 2026-06-24 at 11.08.10.png" alt=""><figcaption></figcaption></figure>
 
-The website will help you understand what CMS is being used and to identify the less visible components. This information can help to create a digital footprint of an individual or organization or track changes over time.&#x20;
+WhatCMS is a tool that can quickly help you understand the CMS, like WordPress, Joomla, or Drupal, are used by a website, the company hosting it, the platform it was built on (such as Wix or Shopify), the programming language running on the server, the database storing its content, and any analytics or payment tools embedded in its pages.
+
+Users working across a large number of websites, WhatCMS offers a domain-wide scan, a batch detection feature for uploading multiple URLs at once, and an API for automated queries. The batch and API features require registration and a paid subscription.
 
 Paid subscriptions also allow batch processing which allows the user to upload lists of URL's to be analysed simultaneously. It also has Private Detections which gives you the option to detect other technologies such as databases.
+
+<div align="center"><figure><img src=".gitbook/assets/Screenshot 2026-06-24 at 10.46.08.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+<figure><img src=".gitbook/assets/Screenshot 2026-06-24 at 10.46.29.png" alt="" width="563"><figcaption></figcaption></figure>
+
+Key Features
+
+* Detects over 1,540 technology signatures across CMS, hosting, e-commerce, programming languages, databases, frameworks, analytics, and payment processors.
+* Returns version numbers where the technology exposes them, which is useful for assessing whether software is current or has not been updated recently.
+* JSON export for integration with other tools or databases.
+* API access for automated, programmatic queries (free account required; rate-limited on the free tier).
+* Batch URL detection for processing multiple sites in one operation (paid plans).
+
+### Using WhatCMS
+
+Go to whatcms.org, enter a URL, and click "Detect CMS". The results appear within seconds as a table listing each detected technology, its category, and version number where available. Users can analyse one URL every 10 seconds and perform up to 500 detections in total per month with a free account.&#x20;
+
+For larger investigations involving multiple websites, WhatCMS provides an API (Application Programming Interface), which allows researchers to automate detections instead of checking URLs manually. The free API plan allows up to 500 website detections per month, with requests limited to one URL every 10 seconds. This makes the free tier suitable for small-scale investigations, while large infrastructure-mapping projects require a paid subscription.\
+\
+Batch detection, which involves submitting multiple URLs simultaneously, is only available on paid plans.
+
+<figure><img src=".gitbook/assets/batch detection CMS.png" alt=""><figcaption><p>Raw output from a batch detection submitted to the WhatCMS API. Each row represents one website from a list that was submitted all at once.</p></figcaption></figure>
+
+The API batch detection feature returns structured data with one row per URL, including the number of detected technologies, the identified CMS, the full list of technologies, and their categories. For example, users can identify groups of websites using the same CMS, analytics services, JavaScript frameworks or other shared technologies. They can also flag websites with unusually few detected technologies, which may indicate deliberate attempts to obscure their underlying infrastructure or the use of custom-built systems.\
+\
+Batch detection is useful for infrastructure mapping, as it allows researchers to compare technical fingerprints across multiple websites. This can help identify clusters of sites using the same CMS, shared analytics tools, common JavaScript frameworks, or CDNs. Websites with unusually few detected technologies may also be flagged for further investigation, as this can indicate custom-built systems or deliberate attempts to obscure infrastructure. However, these results should be treated as indicators rather than proof, and ideally corroborated with additional sources such as domain registration or DNS analysis.
 
 ## Cost
 
