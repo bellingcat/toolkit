@@ -23,7 +23,7 @@ Datasets include:
 * Digital elevation models (DEMs) and terrain height information
 * Land cover (vegetation), hydrography (rivers, lakes), cartographic products (digitized maps, boundary data)
 
-EarthExplorer is a download portal for original, scientifically validated scenes. In contrast, map layer apps (Google Maps, Bing, satellite viewers) are rendered visualizations you can view but not cite as evidence.
+EarthExplorer is a download portal for original, scientifically validated scenes.&#x20;
 
 ## Features
 
