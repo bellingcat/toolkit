@@ -83,6 +83,8 @@ It's not clear what criteria are used to determine whether data should be includ
 
 LittleSis: [Help on their database](https://littlesis.org/help). It's worth using this if you are new to LittleSis, especially the '[Intro to the LittleSis Database](https://youtu.be/aWLnTqQb-BI)' video.
 
+LittleSis: All their [instructional videos](https://www.youtube.com/playlist?list=PLLT8_8t1lsddq42_VmrwIXSkXn0-bLfit).
+
 LittleSis: [Map the Power Toolkit](https://littlesis.org/toolkit)
 
 Public Accountancy Initiative: [How to Use the LittleSis.org database](https://www.youtube.com/watch?v=lFio2jpgn88)
