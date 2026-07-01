@@ -74,6 +74,6 @@ Like every tool, ensure that the use of the tool is within the law, the site's t
 
 whatcms.org, USA
 
-| Paige Maintainer          |
-| ------------------------- |
-| Bellingcat Volunteer Team |
+| Paige Maintainer                                           |
+| ---------------------------------------------------------- |
+| Bellingcat Volunteer Team. Last updated in June/July 2026. |
