@@ -26,7 +26,6 @@ Of these Tools, the following can be used without a DomainTools license:
 * **Reverse NS:** see what other domains are served by the selected name server. This can help you understand which websites are managed by the same hosting provider or server.
   * A name server is a computer that translates domain names (such as www.google.com) into IP addresses (like 8.8.8.8), enabling computers to find and connect with each other on the internet.
 * **Reverse IP Address Lookup:** find all the domain names associated with a specific IP address.
-* **Current screenshot preview:** see the most recent screenshot of the content hosted on the website (if available)
 * **Available TLDs:** see an overview of other domains with the same website name but different top level domains (TLDs) such as ".net", ".org" or ".info". This can be used to discover other domains associated with the website, which may be used to host discover or outdated content.
 
 ## Advantages of a paid subscription
@@ -64,7 +63,7 @@ As part of domain privacy measures, most domain registrars offer Whois privacy s
 
 ## Guides and articles
 
-All [DomainTools ](https://www.domaintools.com/resources/user-guides/?_resources_products=farsight-dnsdb-scout\&referrer=Scout)resources can be accessed in one place. User guides by DomainsTools can be found [here](https://www.domaintools.com/wp-content/uploads/Whois-User-Guide.pdf) and [here](https://www.domaintools.com/resources/user-guides/whois-history/), and guidance is also available for [DNSDB Scout](https://docs.domaintools.com/dnsdb/scout/userguide/#common-pivot-exercise-2-ip-addresses-to-fqdns) and [IRIS Investigate](https://docs.domaintools.com/iris/investigate/userguide/#domain-profile-data-panel).
+All [DomainTools ](https://www.domaintools.com/resources/user-guides/?_resources_products=farsight-dnsdb-scout\&referrer=Scout)resources can be accessed in one place. User guides by DomainsTools can be found [here](https://docs.domaintools.com/classics/whois/#tools) and [here](https://www.domaintools.com/resources/user-guides/whois-history/), and guidance is also available for [DNSDB Scout](https://docs.domaintools.com/dnsdb/scout/userguide/#common-pivot-exercise-2-ip-addresses-to-fqdns) and [IRIS Investigate](https://docs.domaintools.com/iris/investigate/userguide/#domain-profile-data-panel).
 
 API documentation can be found [here](https://docs.domaintools.com/api/).
 
