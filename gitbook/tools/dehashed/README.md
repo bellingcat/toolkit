@@ -1,8 +1,8 @@
 ---
 updated: '2026-05-01'
 description: >-
-  A platform that maintains a database of compromised credentials, with a
-  newly-launched web domain registration search tool.
+  A platform that maintains a database of compromised credentials and a web
+  domain registration search tool.
 ---
 
 # DeHashed
