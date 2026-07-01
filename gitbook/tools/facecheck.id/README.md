@@ -29,7 +29,7 @@ Simply drag and drop the image in the search engine. Once the search is complete
 * [ ] Partially Free
 * [x] Paid
 
-FaceCheck.ID will allow you to search for free, but you will have to [buy ](https://facecheck.id/buy)credits to view the results. It is important to note you can only pay with crypto currencies.
+FaceCheck.ID will allow you to search for free, but you will have to [buy ](https://facecheck.id/buy)credits to view the results. It is important to note you can only pay with cryptocurrencies.
 
 ## Level of difficulty
 
@@ -37,7 +37,7 @@ FaceCheck.ID will allow you to search for free, but you will have to [buy ](http
 
 ## Requirements
 
-You need to buy credits via crypto currency.
+You need to buy credits via cryptocurrency.
 
 ## Limitations
 
@@ -53,7 +53,7 @@ Josephine Lulamae reflects on ethical questions around the use of facial recogni
 
 ## Guides and articles
 
-Read the guide on the FaceCheck.ID [website](https://facecheck.id/Face-Search-Effective-Face-Lookup).&#x20;
+Read the guide on the FaceCheck.ID [website](https://facecheck.id/Face-Search-Effective-Face-Lookup).
 
 ## Tool provider
 
