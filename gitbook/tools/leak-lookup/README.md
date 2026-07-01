@@ -75,13 +75,13 @@ Both public and private API keys offer 5 requests per minute and 10,000 maximum 
 
 ## Ethical Considerations
 
-Leak-Lookup displays breach details that individuals may access without fully understanding the implications of viewing the data.&#x20;
+Leak-Lookup displays breach details that individuals may access without fully understanding the implications of viewing the data.
 
-1. **Use Without Consent**: Leak-Lookup can be used to search for another person's leaked data without their knowledge or consent. The platform's own [Terms of Service](https://leak-lookup.com/support/terms) state that "...searching for information on others without their consent is strictly prohibited" and the service may only be used for "...your own personal security and research... \[or] information about yourself or those who you are authorized in writing to do so." Despite this stated restriction, the platform does nothing to enforce it, leaving compliance entirely to the user.&#x20;
-2. **Sensitive Data Exposure:** Search results can include plaintext passwords, addresses and other PII— not just confirmation that a breach occurred. This data was never meant to be public, and its exposure through the platform compounds the original breach rather than mitigating it. Leak-Lookup attempts to mitigate abuse by [utilizing](https://leak-lookup.com/support/general) text vectorization and clustering algorithms to monitor for suspicious behavior and anomalies. However, this is a retroactive procedure as API keys are only flagged after suspicious activity for manual review.&#x20;
-3. **Uncertain Provenance:** Leak-Lookup's data comes from various [sources](https://www.threatngsecurity.com/glossary/leaklookup), and the accuracy and completeness of the information can not always be guaranteed. Investigators should treat results as leads to verify rather than confirmed fact. &#x20;
+1. **Use Without Consent**: Leak-Lookup can be used to search for another person's leaked data without their knowledge or consent. The platform's own [Terms of Service](https://leak-lookup.com/support/terms) state that "...searching for information on others without their consent is strictly prohibited" and the service may only be used for "...your own personal security and research... \[or] information about yourself or those who you are authorized in writing to do so." Despite this stated restriction, the platform does nothing to enforce it, leaving compliance entirely to the user.
+2. **Sensitive Data Exposure:** Search results can include plaintext passwords, addresses and other PII— not just confirmation that a breach occurred. This data was never meant to be public, and its exposure through the platform compounds the original breach rather than mitigating it. Leak-Lookup attempts to mitigate abuse by [utilizing](https://leak-lookup.com/support/general) text vectorization and clustering algorithms to monitor for suspicious behavior and anomalies. However, this is a retroactive procedure as API keys are only flagged after suspicious activity for manual review.
+3. **Uncertain Provenance:** Leak-Lookup's data comes from various [sources](https://www.threatngsecurity.com/glossary/leaklookup), and the accuracy and completeness of the information can not always be guaranteed. Investigators should treat results as leads to verify rather than confirmed fact.
 4. **Platform Legitimacy is Itself Contested:** Leak-Lookup has been the subject of its own scrutiny — it identified as the source of the "[Mother of All Breaches](https://cybernews.com/security/billions-passwords-credentials-leaked-mother-of-all-breaches/)" dataset after over 26 billion exposed records were traced back to the platform. Using a tool whose own data-handling practices are under question carries reputational and ethical weight beyond any single search.
-5. **No Accountability for Downstream Harm:** Leak-Lookup [states](https://leak-lookup.com/support/terms) that it is "not responsible for any harm or lawsuit that may derive from using this service", meaning the platform places full liability on the user for how the data is subsequently used, shared, or acted upon.&#x20;
+5. **No Accountability for Downstream Harm:** Leak-Lookup [states](https://leak-lookup.com/support/terms) that it is "not responsible for any harm or lawsuit that may derive from using this service", meaning the platform places full liability on the user for how the data is subsequently used, shared, or acted upon.
 
 ## Similar Tools
 
@@ -112,6 +112,6 @@ Leak-Lookup can be reached at info(at)leak-lookup.com or on X, the social media 
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                               |
-| ------------------------------------------------------------- |
-| Bellingcat Volunteer Team, Last updated by Lekha in June 2026 |
+| Page maintainer                                                      |
+| -------------------------------------------------------------------- |
+| Bellingcat Volunteer Team, Last updated by Lekha Sapers in June 2026 |
