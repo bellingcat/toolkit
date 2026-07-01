@@ -112,6 +112,6 @@ Leak-Lookup can be reached at info(at)leak-lookup.com or on X, the social media 
 * [ ] This tool uses tracking cookies. Use with caution.
 * [x] This tool does not appear to use tracking cookies.
 
-| Page maintainer                                                      |
-| -------------------------------------------------------------------- |
-| Bellingcat Volunteer Team, Last updated by Lekha Sapers in June 2026 |
+| Page maintainer |
+| --------------- |
+| Lekha Sapers    |
