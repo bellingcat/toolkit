@@ -1,6 +1,6 @@
 ---
-description: A tool for exporting and backing up Discord chat logs in multiple formats.
 updated: '2026-06-26'
+description: A tool for exporting and backing up Discord chat logs in multiple formats.
 ---
 
 # Discord Chat Exporter
@@ -41,7 +41,7 @@ Once downloaded and installed, the app requires the token linked to either a bot
 
 #### Step 3
 
-After inputting the token, the app allows to browse through joined Discord channels and direct messages. Channels and/or messages can be archived directly from the app, in different export formats.&#x20;
+After inputting the token, the app allows to browse through joined Discord channels and direct messages. Channels and/or messages can be archived directly from the app, in different export formats.
 
 <div align="center"><figure><img src=".gitbook/assets/Screenshot 2026-06-24 at 18.14.18.png" alt=""><figcaption><p>Exporting comes up with various options (shown here is the graphical user interface).</p></figcaption></figure></div>
 
@@ -61,7 +61,7 @@ Key features of DiscordChatExporter include:
 * [ ] Partially Free
 * [ ] Paid
 
-The tool is free and open-source. The developer has a donation page to support the development/updating of the platform, but it is by no means mandatory.
+The tool is free and open-source. The developer has a donation page to support the development/updating of the platform.
 
 ## Level of difficulty
 
@@ -111,4 +111,3 @@ Oleksii Holub ([Tyrrrz](https://github.com/Tyrrrz) on GitHub) is an open-source 
 | ------------------------- |
 | Bellingcat Volunteer Team |
 |                           |
-
