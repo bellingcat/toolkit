@@ -47,16 +47,15 @@ After querying and getting results you can:
   * Reproduce by showing someone exactly how to find the same scene
   * Verify independently by re-running the search
 
-### Why this matters for OSINT
+### Why this matters for open source research
 
-In open-source intelligence, you often need to:
+In open-source investigations, you often need to:
 
 * Prove a claim (e.g., "This military base was built in 2021")
 * Document changes over time with specific dates
-* Defend your findings against criticism or legal scrutiny
 * Reproduce your methodology so others can verify it
 
-A map layer alone (Google Maps, Bing Maps, satellite map apps) doesn't give you this. EarthExplorer gives you the source data with full metadata, which is what makes your OSINT work credible and verifiable.
+EarthExplorer gives you the source data with full metadata, which is what can make your open source research work credible and verifiable.
 
 ## Datasets
 
