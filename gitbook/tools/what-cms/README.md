@@ -75,3 +75,7 @@ Like every tool, ensure that the use of the tool is within the law, the site's t
 ## Tool Provider
 
 {% embed url="https://whatcms.org/" %}
+
+| Paige Maintainer          |
+| ------------------------- |
+| Bellingcat Volunteer Team |
