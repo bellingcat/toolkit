@@ -231,7 +231,8 @@ Another popular tool known for its proprietary AI and predictive analytics is [*
 
 **Bellingcat reporting**
 
-* Logan Williams, Thomas Bordeaux, Ethan Doyle, Lotte van de Waal. (2024). _How a Leaking Barge Became an Oil Spill Disaster Off the Tobago Coast_, &#x42;_&#x65;llingcat_. [https://www.bellingcat.com/news/2024/02/20/how-a-leaking-barge-became-an-oil-spill-disaster-off-the-tobago-coast/](https://www.bellingcat.com/news/2024/02/20/how-a-leaking-barge-became-an-oil-spill-disaster-off-the-tobago-coast/)
+* Financial Investigations Team. (March 14, 2026). _Ex-UFC Fighter and Kinahan 'Friend' Mounir Lazzez Linked to Iran Sanctions, Bellingcat_. [https://www.bellingcat.com/news/2026/03/14/ex-ufc-fighter-and-kinahan-friend-mounir-lazzez-linked-to-iran-sanctions/](https://www.bellingcat.com/news/2026/03/14/ex-ufc-fighter-and-kinahan-friend-mounir-lazzez-linked-to-iran-sanctions/)
+* Logan Williams, Thomas Bordeaux, Ethan Doyle, Lotte van de Waal. (February 20, 2024). _How a Leaking Barge Became an Oil Spill Disaster Off the Tobago Coast_, &#x42;_&#x65;llingcat_. [https://www.bellingcat.com/news/2024/02/20/how-a-leaking-barge-became-an-oil-spill-disaster-off-the-tobago-coast/](https://www.bellingcat.com/news/2024/02/20/how-a-leaking-barge-became-an-oil-spill-disaster-off-the-tobago-coast/)
 
 **Other journalism and investigative publications**
 
