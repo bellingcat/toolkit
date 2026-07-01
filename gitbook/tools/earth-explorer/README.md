@@ -112,8 +112,10 @@ EarthExplorer offers over 50 datasets presented in 20 categories. The categories
 * [ ] Partially Free
 * [ ] Paid
 
-- Most data is free and in the public domain (Landsat, NAIP, SRTM, MODIS, etc.).
-- Select datasets have fees/use restrictions (indicated within EarthExplorer during search) but this is rare.
+
+
+* Most data is free and in the public domain (Landsat, NAIP, SRTM, MODIS, etc.).
+* Select datasets have fees/use restrictions (indicated within EarthExplorer during search) but this is rare.
 
 ## Level of difficulty
 
