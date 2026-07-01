@@ -14,7 +14,7 @@ description: >-
 
 EarthExplorer is an archive portal for searching and downloading satellite, aerial, elevation, and other geospatial data.
 
-It is especially valuable when you need original scenes, acquisition dates, and a reproducible data trail rather than just a map layer.
+It is especially valuable when you need original scenes, acquisition dates, and a reproducible data trail.
 
 Datasets include:
 
