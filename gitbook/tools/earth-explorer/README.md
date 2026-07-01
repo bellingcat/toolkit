@@ -177,7 +177,7 @@ Note that, unlike with EarthExplorer and the other apps above, with many service
 * [ ] This tool uses tracking cookies. Use with caution.
 * [ ] This tool does not appear to use tracking cookies.
 
-| Page maintainer           |
-| ------------------------- |
-| Bellingcat Volunteer Team |
-|                           |
+| Page maintainer                                           |
+| --------------------------------------------------------- |
+| Bellingcat Volunteer Team. Last updated in June/July 2026 |
+|                                                           |
