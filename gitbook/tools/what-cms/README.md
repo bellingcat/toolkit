@@ -39,7 +39,7 @@ This makes the free tier suitable for small-scale investigations, while large in
 
 <figure><img src=".gitbook/assets/batch detection CMS.png" alt=""><figcaption><p>Raw output from a batch detection submitted to the WhatCMS API. Each row represents one website from a list that was submitted all at once.</p></figcaption></figure>
 
-The API batch detection feature returns structured data with one row per URL, including the number of detected technologies, the identified CMS, the full list of technologies, and their categories. For example, users can identify groups of websites using the same CMS, analytics services, JavaScript frameworks or other shared technologies. They can also flag websites with unusually few detected technologies, which may indicate deliberate attempts to obscure their underlying infrastructure or the use of custom-built systems.\
+The API batch detection feature returns structured data with one row per URL, including the number of detected technologies, the identified CMS, the full list of technologies, and their categories. For example, users can identify groups of websites using the same CMS, analytics services, JavaScript frameworks or other shared technologies. \
 \
 Batch detection is useful for infrastructure mapping, as it allows researchers to compare technical fingerprints across multiple websites. This can help identify clusters of sites using the same CMS, shared analytics tools, common JavaScript frameworks, or CDNs. Websites with unusually few detected technologies may also be flagged for further investigation, as this can indicate custom-built systems or deliberate attempts to obscure infrastructure. However, these results should be treated as indicators rather than proof, and ideally corroborated with additional sources such as domain registration or DNS analysis.
 
@@ -50,7 +50,7 @@ Batch detection is useful for infrastructure mapping, as it allows researchers t
 * [ ] Paid
 
 The website has a free version with limited features which allows 500 detections and the API will allow you to request 1 URL every 10 seconds. \
-The paid subscriptions range from 15 to 600 euros per month, with options for Batch Processing and Private Detections.&#x20;
+The paid [subscriptions](https://whatcms.org/API/Plans) range from 15 to 600 euros per month, with options for Batch Processing and Private Detections.&#x20;
 
 ## Requirements
 
@@ -62,7 +62,7 @@ According to their own[ website](https://whatcms.org/), there are some limitatio
 
 ## Ethical Considerations
 
-Like every tool, ensure that the use of the tool is within the law, the site's terms of services, and ethical OSINT guidelines.
+Like every tool, ensure that the use of the tool is within the law, the site's terms of services, and ethical open source research guidelines.
 
 ## Guides and Articles
 
