@@ -21,7 +21,7 @@ The tool can be used by researchers and individuals who want to know or confirm 
 
 In addition, this tool is useful for finding information on geographical distribution and other names for species. It also has a repository of documents for each species, which is very useful for finding out about CITES proposals, reviews, and identification materials.
 
-Also available as an app on [Google Play](https://play.google.com/store/apps/details?id=com.WCMC.speciesplus\&hl=en) and the [App Store.](https://apps.apple.com/co/app/species/id1641695320)
+Also available as an app on [Google Play](https://play.google.com/store/apps/details?id=com.WCMC.speciesplus\&hl=en) and the [App Store.](https://apps.apple.com/co/app/species/id1641695320) The tool receives feedback at [species@unep-wcmc.org](mailto:species@unep-wcmc.org)
 
 ## Cost
 
@@ -43,7 +43,7 @@ None so far.
 
 ## Ethical Considerations
 
-None so far.&#x20;
+None so far.
 
 ## Guides and articles
 
@@ -57,11 +57,11 @@ The [Species+ About page](https://www.speciesplus.net/about) provides informatio
 
 Within Species+ there is a list of related websites/applications that serve a similar purpose: listing vulnerable species in the CITES and CMS agreements in comprehensive databases, which sometimes contain trade data. The sites are:
 
-* [Checklist of CITES Species ](https://checklist.cites.org/#/en) - This tool focuses on providing information about the level of protection assigned to each CITES-listed species.
+* [Checklist of CITES Species ](https://checklist.cites.org/#/en)- This tool focuses on providing information about the level of protection assigned to each CITES-listed species.
 * [CITES Trade Database](https://bellingcat.gitbook.io/toolkit/more/all-tools/cites-trade-database) - Provides commercial information on species by country.
 * [EU Captive breeding database](https://captivebreeding.unep-wcmc.org/) - Contains captive bred, ranching and mariculture information of animal species listed in the EU Wildlife Trade Regulations.
 * [CITES Wildlife TradeView](https://tradeview.cites.org/) \[[Find our toolkit entry here](https://bellingcat.gitbook.io/toolkit/more/all-tools/cites-trade-database)] - It focuses on commercial behavior with regard to protected species using visual elements.
-* [CITES Non-Detriment Findings Support Tool](https://ndfsupport.unep-wcmc.org/en) - Specialized in providing  information about whether international trade in CITES listed-species is detrimental or not.
+* [CITES Non-Detriment Findings Support Tool](https://ndfsupport.unep-wcmc.org/en) - Specialized in providing information about whether international trade in CITES listed-species is detrimental or not.
 
 ## Advertising Trackers
 
