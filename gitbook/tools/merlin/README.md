@@ -1,6 +1,6 @@
 ---
 updated: '2026-01-16'
-description: 'Identify birds (visually), through an app.'
+description: Identify birds (visually), through an app.
 ---
 
 # Merlin
@@ -23,7 +23,7 @@ Enter characteristics such as the color of the bird and size to find your bird. 
 
 2. Sound ID
 
-You can record birds and Merlin will match them with birds near you based on your location. The sounds you upload are saved in the app with location and time information. The recognition system is good enough to detect the sound of birds even with a little background noise. They have [2066 bird species sounds](https://ebird.org/region/AU-WA-WAN/post/merlin-sound-id-is-coming-to-australia)!&#x20;
+You can record birds and Merlin will match them with birds near you based on your location. The sounds you upload are saved in the app with location and time information. The recognition system is good enough to detect the sound of birds even with a little background noise. They have [2066 bird species sounds](https://ebird.org/region/AU-WA-WAN/post/merlin-sound-id-is-coming-to-australia)!
 
 3. Photo ID
 
@@ -42,6 +42,8 @@ It is not necessary to create an account to use the application. However, one of
 There are other apps that help identify birds. There is [eBird](https://ebird.org/explore), an app where you can search photos and sounds, explore birds hotspots and explore various bird statistics in each region. This app has many more features than Merlin and is not as focused on identification as it is on recording birds in lists, which makes it ideal for birding. However, the good news is that Merlin is powered by eBird! This means that, after identifying your bird with Merlin, you can add it to lists in eBird if you wish (although you can also create lists in Merlin).
 
 Other popular bird identification apps feature region-specific information, such as [Birds in Backyards](https://www.birdsinbackyards.net/) for Australia and [Bird Spot](https://www.birdspot.co.uk/british-bird-identifier) for British birds.
+
+Reviewed version: 3.9
 
 ## Cost
 
