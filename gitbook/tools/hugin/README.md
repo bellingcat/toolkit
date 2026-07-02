@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-18'
+updated: '2026-07-01'
 description: >-
   Hugin is a free and open-source panorama photo stitching and HDR (High Dynamic
   Range imaging) merging software that helps users create seamless panoramic

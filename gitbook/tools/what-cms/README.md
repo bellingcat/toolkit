@@ -3,6 +3,7 @@ description: >-
   WhatCMS is a web-based tool for anyone needing information about the
   technologies behind any website, including the content management system
   (CMS), e-commerce platforms, and hosting providers and web
+updated: '2026-07-01'
 ---
 
 # What CMS

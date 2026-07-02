@@ -1,5 +1,5 @@
 ---
-updated: '2026-03-01'
+updated: '2026-07-01'
 description: >-
   A historical database providing vital navigational and meteorological
   warnings, forecasts, and urgent maritime safety information to ships.

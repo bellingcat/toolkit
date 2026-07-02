@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-06'
+updated: '2026-07-01'
 description: Search limited companies and related people in the United Kingdom.
 ---
 

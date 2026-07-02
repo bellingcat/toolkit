@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-01'
+updated: '2026-07-01'
 description: >-
   Google Lens is an image recognition tool that can be used to identify
   locations or objects in photographs.

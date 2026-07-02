@@ -1,5 +1,5 @@
 ---
-updated: '2026-06-28'
+updated: '2026-07-01'
 description: >-
   An online tool that allows you to search across public data breaches to
   surface credentials that may have been compromised.
