@@ -65,7 +65,7 @@ The tool does not provide specific trade information, only general values.
 
 ## Ethical Considerations
 
-None
+None.
 
 ## Guides and articles
 
