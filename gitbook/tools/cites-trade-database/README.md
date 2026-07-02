@@ -23,7 +23,7 @@ The tool allows you to bulk download the whole database. With a relatively fast 
 
 The tool also links to the [CITES Wildlife TradeView](https://tradeview.cites.org/en), a interactive online tool for exploring and visualising CITES trade data. You can explore visuals provided in a global view (data of all CITES-listed species), country view (data for one or more countries) and taxon view (data for one or more species or taxonomic groups).
 
-I reviewed the 2025.1 version, which contains data from 1975 to 2025.
+I reviewed the 2026.1 version, which contains data from 1975 to 2026.
 
 ## Cost
 
@@ -55,7 +55,7 @@ Full CITES Trade Database Download. Version \[year.x]. Compiled by UNEP-WCMC, Ca
 
 There are some studies that expose some tool limitations, including from the CITES Secretariat.
 
-At a CITES [meeting](https://cites.org/sites/default/files/eng/com/sc/69/E-SC69-28-02.pdf) it was noted that with the current functions of the platform it is not possible to analyze trade patterns including, for example, whether a specimen was found in one large shipment or in multiple small shipments or whether the specimen was shipped together with other specimens. A [study](https://www.sciencedirect.com/science/article/pii/S0006320718303045) on the limitations of CITES described, among other results, that 96% of the records are not complete, and that three-quarters of the data do not have the quantities of importers or exporters. Among some of the important results of another [study](https://www.sciencedirect.com/science/article/pii/S0006320720309757) it was found that more than one-third of the species had a different category of traded volume and that the number of shipments did not reflect traded volume in 15% of vertebrate species.
+At a CITES [meeting](https://cites.org/sites/default/files/eng/com/sc/69/E-SC69-28-02.pdf) it was noted that with the current platform functions it is not possible to analyze trade patterns including, for example, whether a specimen was found in one large shipment or in multiple small shipments or whether the specimen was shipped together with other specimens. A [study](https://www.sciencedirect.com/science/article/pii/S0006320718303045) on the limitations of CITES described, among other results, that 96% of the records are not complete, and that three-quarters of the data do not have the quantities of importers or exporters. Among some of the important results of another [study](https://www.sciencedirect.com/science/article/pii/S0006320720309757) it was found that more than one-third of the species had a different category of traded volume and that the number of shipments did not reflect traded volume in 15% of vertebrate species.
 
 ## Ethical Considerations
 
