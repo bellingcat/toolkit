@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-16'
+updated: '2026-07-02'
 description: Identify birds (visually), through an app.
 ---
 

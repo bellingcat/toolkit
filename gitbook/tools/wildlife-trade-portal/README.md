@@ -1,5 +1,5 @@
 ---
-updated: '2026-05-01'
+updated: '2026-07-02'
 description: An open-source tool to search wildlife seizure data worldwide.
 ---
 

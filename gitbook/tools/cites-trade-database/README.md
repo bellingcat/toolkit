@@ -1,5 +1,5 @@
 ---
-updated: '2026-01-16'
+updated: '2026-07-02'
 description: Around 23 million records of trade in wildlife since 1975.
 ---
 
