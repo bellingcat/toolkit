@@ -1,6 +1,7 @@
 # Table of contents
 
 * [About](README.md)
+* [Contributors](contributors.md)
 
 ## 📖 Resources
 
