@@ -33,6 +33,10 @@ This is your place to discover tools! Our toolkit includes satellite and mapping
 
 Click on the name of a tool to view an in-depth review and guide for the tool (if available). You can also [download this toolkit](https://github.com/bellingcat/toolkit/releases/tag/csv) (or some of its categories) as a csv.
 
+{% hint style="info" %}
+Inclusion in the toolkit does not imply that Bellingcat endorses or recommends a specific tool for investigative use. Some listed tools come with significant caveats.
+{% endhint %}
+
 #### Browse tools by category:
 
 {% include "https://app.gitbook.com/s/FuL0vtRVpXHiKZgFkMFR/~/reusable/nacdywZl5kcBINjHUpMh/" %}
@@ -107,7 +111,7 @@ Bellingcat is an independent investigative collective of researchers, investigat
 
 You can follow [Bellingcat](https://www.bellingcat.com)'s work here:
 
-[Bellingcat website](https://www.bellingcat.com/), [BlueSky](https://bsky.app/profile/bellingcat.com), [Discord](https://discord.com/invite/bellingcat), [Facebook](https://www.facebook.com/bellingcat), [Github](https://github.com/bellingcat), [Instagram](https://www.instagram.com/bellingcatofficial/), [LinkedIn](https://www.linkedin.com/company/bellingcat), [Mastodon](https://mstdn.social/@Bellingcat), [Patreon](https://www.patreon.com/bellingcat), [Reddit](https://www.reddit.com/r/bellingcat/), [RSS](https://rss.com/podcasts/bellingcatstagetalk/) (Stage Talks), [X](categories/social-media/youtube/youtube.md), [Youtube](https://www.youtube.com/@bellingcatofficial/videos), [WhatsApp](https://www.whatsapp.com/channel/0029VbB7PAn9RZAd6F1R1m2r). You can always find an updated list of our social media presence [here](https://www.bellingcat.com/follow-bellingcat-on-social-media/).
+[Bellingcat website](https://www.bellingcat.com/), [BlueSky](https://bsky.app/profile/bellingcat.com), [Discord](https://discord.com/invite/bellingcat), [Facebook](https://www.facebook.com/bellingcat), [Github](https://github.com/bellingcat), [Instagram](https://www.instagram.com/bellingcatofficial/), [LinkedIn](https://www.linkedin.com/company/bellingcat), [Mastodon](https://mstdn.social/@Bellingcat), [Patreon](https://www.patreon.com/bellingcat), [Reddit](https://www.reddit.com/r/bellingcat/), [RSS](https://rss.com/podcasts/bellingcatstagetalk/) (Stage Talks), [X](https://github.com/bellingcat/toolkit/blob/main/gitbook/pages/categories/social-media/youtube/youtube.md), [Youtube](https://www.youtube.com/@bellingcatofficial/videos), [WhatsApp](https://www.whatsapp.com/channel/0029VbB7PAn9RZAd6F1R1m2r). You can always find an updated list of our social media presence [here](https://www.bellingcat.com/follow-bellingcat-on-social-media/).
 
 [Bellingcat](https://www.bellingcat.com/) is a non-profit and the ability to carry out our work is dependent on the kind support of individual donors. If you would like to support our work, you can so [here](https://www.bellingcat.com/donate/).
 
