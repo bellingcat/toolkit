@@ -42,6 +42,7 @@
 
 ## More
 
+* [Contributors](pages/contributors.md)
 * [All Tools](more/all-tools/README.md)
   * [4CAT](tools/4cat/README.md)
   * [4plebs](tools/4plebs/README.md)
