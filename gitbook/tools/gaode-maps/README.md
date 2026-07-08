@@ -34,7 +34,7 @@ Unless specified, all functions described on this page can be accessed without r
 
 <summary>ⓘ Troubleshooting: If you downloaded the app in Chinese, and need to change the language to English</summary>
 
-<figure><img src="../../.gitbook/assets/gaode_english.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/gaode_english (1).png" alt=""><figcaption></figcaption></figure>
 
 1. Select the user icon (indicated by the blue arrow).
 2. Select the settings icon.
@@ -48,7 +48,7 @@ Unless specified, all functions described on this page can be accessed without r
 
 After searching in [pinyin](https://en.wikipedia.org/wiki/Pinyin) or Chinese characters, select the layer or function.
 
-<figure><img src="../../.gitbook/assets/gaode_search.png" alt="" width="563"><figcaption><p>Web browser view > after searching for a specific location (example: Pu'er Simao Airport, Yunnan)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/gaode_search (1).png" alt="" width="563"><figcaption><p>Web browser view > after searching for a specific location (example: Pu'er Simao Airport, Yunnan)</p></figcaption></figure>
 
 <details>
 
@@ -58,11 +58,11 @@ Here are the layers and functions, annotated in English. Your view may be differ
 \
 **Web browser toolbar**
 
-<figure><img src="../../.gitbook/assets/functions_annotated.png" alt=""><figcaption><p>Web browser view - select layer or function</p></figcaption></figure>
+<figure><img src=".gitbook/assets/functions_annotated (1).png" alt=""><figcaption><p>Web browser view - select layer or function</p></figcaption></figure>
 
 **Mobile view**
 
-<figure><img src="../../.gitbook/assets/annotated.png" alt="" width="176"><figcaption><p>Mobile view > select layer or function</p></figcaption></figure>
+<figure><img src=".gitbook/assets/annotated (1).png" alt="" width="176"><figcaption><p>Mobile view > select layer or function</p></figcaption></figure>
 
 </details>
 
@@ -80,7 +80,7 @@ Gaode Maps does not offer street view (the function was removed several years ag
 
 In the mobile app, a function called 奇境 (translates as "wonder", pinyin: _qijing_) is available for select locations, usually scenic places such as parks and tourist sites. The function allows users to view the location during different times of day, weather conditions, or seasons.
 
-<div align="center"><figure><img src="../../.gitbook/assets/park.png" alt="" width="188"><figcaption><p>Example: When the user moves the slider at the bottom, they can view the location during different times of the day.</p></figcaption></figure></div>
+<div align="center"><figure><img src=".gitbook/assets/park (1).png" alt="" width="188"><figcaption><p>Example: When the user moves the slider at the bottom, they can view the location during different times of the day.</p></figcaption></figure></div>
 
 </details>
 
@@ -88,7 +88,7 @@ In the mobile app, a function called 奇境 (translates as "wonder", pinyin: _qi
 
 The app provides global data for over 200 countries, including street maps, route navigation (driving, public transportation, or walking) and business locations. Here's an example:
 
-<figure><img src="../../.gitbook/assets/overseas.png" alt="" width="563"><figcaption><p>Left: Map in Vienna, Austria. Right: Walking route planning.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/overseas (1).png" alt="" width="563"><figcaption><p>Left: Map in Vienna, Austria. Right: Walking route planning.</p></figcaption></figure>
 
 Business owners from any country could add their locations and information onto AMap (for instance, to attract Chinese travellers who may visit their countries).
 
@@ -102,7 +102,7 @@ If you use Google Maps, the coordinates you obtain for China are already in the 
 \
 To search for a location in Gaode Maps using coordinates, go to [https://lbs.amap.com/tools/picker](https://lbs.amap.com/tools/picker), select the option to search by coordinates, and enter the coordinates in longitude-latitude format.
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/reverse_search.png" alt="" width="563"><figcaption><p>Page: <a href="https://lbs.amap.com/tools/picker">https://lbs.amap.com/tools/picker</a><br>Note: Without logging in, a keyword search will only yield coordinates with 2 decimal point only.</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/reverse_search (1).png" alt="" width="563"><figcaption><p>Page: <a href="https://lbs.amap.com/tools/picker">https://lbs.amap.com/tools/picker</a><br>Note: Without logging in, a keyword search will only yield coordinates with 2 decimal point only.</p></figcaption></figure></div>
 
 ### 3D maps
 
