@@ -23,7 +23,7 @@ Most of the PEP data is collected via Wikidata and relies heavily on it as a dat
 
 OpenSanctions over 320 separate dataset collections with multiple sources of data. All the data collected and provided by OpenSanctions is publicly available. The full list of sources can be found and explored [here](https://www.opensanctions.org/datasets/sources/). Each dataset has its own page with a description, options for a bulk download of data and information on where the data has been sourced from. The page also features consolidated sanctions on 75,746 entities.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-01-09 at 10.59.49 AM.png" alt=""><figcaption><p>Schedule of updates frequency on the OpenSantions website.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-01-09 at 10.59.49 AM (1).png" alt=""><figcaption><p>Schedule of updates frequency on the OpenSantions website.</p></figcaption></figure>
 
 For basic desktop research, go to [https://www.opensanctions.org/research/](https://www.opensanctions.org/research/) and type the name of an entity, a person or a vessel in the search bar.
 
@@ -31,40 +31,40 @@ For basic desktop research, go to [https://www.opensanctions.org/research/](http
 
 * Type the name of an entity in the search bar. In this case Ascotec Steel. The search returns 4 results, because this company has subsidiaries with the word Ascotec in the name, and because the data comes from separate data sources.
 
-<figure><img src="../../.gitbook/assets/OS1.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/OS1 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * Review all the results to locate the company of interest, in this case Ascotec Steel Trading GmbH. The profile for this company includes information on its incorporation date (November 11, 1999), jurisdiction (Germany), addresses and the sanctioning authority (OFAC).
 * Once you open a company profile, read through each line of the tables provided. Each line gives information on what the data represents. For example in the Relationships section the information lists two addresses, associated with Ascotec Steel Trading GmbH. The Data sources sections indicates where this information comes from. In this case from OpenSanctions databases compiled by scraping publicly available data from the US Trade Consolidated Screening List (a list of parties for which the U.S. government maintains restrictions on certain exports, reexports, or transfers of items), the U.S. SAM Procurement Exclusions (database of suppliers who have been excluded from participating in federal procurement), and the OFAC Specially Designated Nationals (SDN) List (the primary U.S. sanctions list, specially designated nationals (SDN) part).
 
-<div><figure><img src="../../.gitbook/assets/OS2.png" alt=""><figcaption><p>Basic information on the company - addresses associated with it, when it was incorporated and where, its registration number with the German authorities (HRB 48319).</p></figcaption></figure> <figure><img src="../../.gitbook/assets/OS3.png" alt=""><figcaption><p>The sanctioning authority is located in the Sanctions section, in this case OFAC which is listed in two different ways - TREAS-OFAC and Office of Foreign Assests Control.</p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/OS2 (1).png" alt=""><figcaption><p>Basic information on the company - addresses associated with it, when it was incorporated and where, its registration number with the German authorities (HRB 48319).</p></figcaption></figure> <figure><img src=".gitbook/assets/OS3 (1).png" alt=""><figcaption><p>The sanctioning authority is located in the Sanctions section, in this case OFAC which is listed in two different ways - TREAS-OFAC and Office of Foreign Assests Control.</p></figcaption></figure></div>
 
 * The little arrows next to each data point opens a pop-up window showing additional information regarding the type of sanction. For more details on a specific sanction, you can visit the websites provided in the URLs from OpenSanctions to conduct further research on the company.
 
-<div><figure><img src="../../.gitbook/assets/OS4.1.png" alt=""><figcaption><p>Info on the specific sanction: what was the reason (an executive order for blocking property of the Government of Iran and Iranian financial institutions), the sanctioning authority (OFAC), sanction ID No. (11613)</p></figcaption></figure> <figure><img src="../../.gitbook/assets/OS4.2.png" alt=""><figcaption><p>This sanction entry was sourced from the government procurement website of the US - SAM.gov and lists the fact that Ascotec Steel is prohibited from participating in public procurement bids.</p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/OS4.1 (1).png" alt=""><figcaption><p>Info on the specific sanction: what was the reason (an executive order for blocking property of the Government of Iran and Iranian financial institutions), the sanctioning authority (OFAC), sanction ID No. (11613)</p></figcaption></figure> <figure><img src=".gitbook/assets/OS4.2 (1).png" alt=""><figcaption><p>This sanction entry was sourced from the government procurement website of the US - SAM.gov and lists the fact that Ascotec Steel is prohibited from participating in public procurement bids.</p></figcaption></figure></div>
 
 **Example 2: Search for an individual**
 
 * Type the name of an individual in the search bar. If you are uncertain about the full legal name, try using the individual's last name. In this case Ivanov. The search returns 531 results for a last name Ivanov. The results can be filtered by topics, data sources and countries using the lists on the right.
 
-<figure><img src="../../.gitbook/assets/OS8.png" alt="" width="563"><figcaption><p>Results for searching by keyword 'Ivanov'</p></figcaption></figure>
+<figure><img src=".gitbook/assets/OS8 (1).png" alt="" width="563"><figcaption><p>Results for searching by keyword 'Ivanov'</p></figcaption></figure>
 
 * Once you have located the individual of interest, click on the name to open their profile. Please note that individuals appearing on the OpenSanctions website iclude sanctioned persons, as well as politically exposed persons (politicians, government officials, government employees). In this case the individual is a politician - member of a national parliament.
 
-<figure><img src="../../.gitbook/assets/OS9.png" alt="" width="563"><figcaption><p>Profile for Momchil Ivanov with information about his date of birth, his full legal name and why he is a politically exposed person - member of the Bulgarian parliament.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/OS9 (1).png" alt="" width="563"><figcaption><p>Profile for Momchil Ivanov with information about his date of birth, his full legal name and why he is a politically exposed person - member of the Bulgarian parliament.</p></figcaption></figure>
 
 **Example 3: Search for a vessel**
 
 * Type the name of a vessel. In this case the vessel is Artemis Offshore. The search returns two separate results because the data comes from separate data sources. However, looking into each result indicates that this vessel was sanctioned by the U.S. Office of Foreign Assets Control (OFAC).
 
-<figure><img src="../../.gitbook/assets/OS5.png" alt="" width="563"><figcaption><p>Search results for the Artemis Offshore vessel</p></figcaption></figure>
+<figure><img src=".gitbook/assets/OS5 (1).png" alt="" width="563"><figcaption><p>Search results for the Artemis Offshore vessel</p></figcaption></figure>
 
 * The first result does not provide a lot of information, other than the sanctioning authority and the data source for the entry. In this case the sanctioning autorithy - TREAS-OFAC refers to the [Office of Foreign Assets Control ("OFAC") of the U.S. Department of the Treasury](#user-content-fn-1)[^1]. A sanctioning authority in this context is a government body with the power to impose sanctions. These may include the United Nations, the European Union, OFAC, the Organization for Security and Cooperation in Europe (OSCE).
 
-<figure><img src="../../.gitbook/assets/OS6.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/OS6 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * The second result provides more detailed information, most importantly the call sign of the vessel (a unique ID number to ships and boats), under which flag it operates, and who owns it. In this case it is owned by the Russian Marine Rescue Service. This information can be used to cross-reference the vessel through other tools such as [VesselFinder](https://www.vesselfinder.com/) or [MarineTraffic](https://www.marinetraffic.com/).
 
-<figure><img src="../../.gitbook/assets/OS7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/OS7 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Cost
 
@@ -116,7 +116,7 @@ OpenSanctions Datenbanken GmbH, a for-profit entity based in Germany. From Septe
 
 There are various tools for researching sanctions on the web. Bellingcat also has descriptions and guides on SanctionsExplorer, EU Sanctions Map and OCCRP Aleph. Although they serve the same purpose, there are some major differences among them:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-01 at 5.58.12 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-05-01 at 5.58.12 PM (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Advertising Trackers
 
