@@ -11,7 +11,7 @@ description: Live marine vessel tracker
 
 ## Description
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/vesselfinder2opt.gif" alt=""><figcaption><p><strong>SOME VESSELFINDER FUNCTIONALITY AVAILABLE THROUGH THE INTERFACE</strong></p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/vesselfinder2opt (1).gif" alt=""><figcaption><p><strong>SOME VESSELFINDER FUNCTIONALITY AVAILABLE THROUGH THE INTERFACE</strong></p></figcaption></figure></div>
 
 VesselFinder is a maritime tracking application and an online desktop tool that provides real-time data on vessel movements globally. Its offers detailed insights into maritime activities, shipping patterns, and vessel operations. The tool also features a [news section](https://www.vesselfinder.com/news) with selected maritime-related information.
 
@@ -43,15 +43,15 @@ Below quick overview of the different capabilities and menus available:
 
 * [Vessels database](https://www.vesselfinder.com/vessels) - search for a specific vessel based on the following parameters: ship name, MMSI, IMO number, the flag the ship sails under (e.g. Austria), the type of vessel (cargo, passenger, tanker, military, fishing) and the dimensions of the ship (length, gross tonnage, deadweight tonnage, and the year it was built).
 
-<figure><img src="../../.gitbook/assets/VF1.png" alt="" width="563"><figcaption><p>Vessels database with search fields</p></figcaption></figure>
+<figure><img src=".gitbook/assets/VF1 (1).png" alt="" width="563"><figcaption><p>Vessels database with search fields</p></figcaption></figure>
 
 * [Photos](https://www.vesselfinder.com/gallery?page=2) - This area has thousands of user-contributed photos of vessels. It is a good way to see how a particular vessel looks like, the paint job on the hull, whether the vessel has any distinct features (technical equipment like satellite dishes, how the main mast looks, etc.). This view also allows searching by ship name, MMSI and IMO number. The photos include additional information about a vessel - its name, where and when the photo was taken, and also provides shortcuts with the current map position of said vessel and a link to its own profile on the website/app. And finally, more often than not there are multiple photos of the same vessel from different angles.
 
-<figure><img src="../../.gitbook/assets/VF2.png" alt="" width="563"><figcaption><p>Photo of a vessel from the Photos menu</p></figcaption></figure>
+<figure><img src=".gitbook/assets/VF2 (1).png" alt="" width="563"><figcaption><p>Photo of a vessel from the Photos menu</p></figcaption></figure>
 
 * [Ports](https://www.vesselfinder.com/ports) - A list of over 6,000 ports across the globe, including description of the port and its position on the map. When a port is selected, all vessels nearby are also visible on the map. The ports are searchable by country and by United Nations Code for Trade and Transport Locations - LOCODE (a geographic coding scheme developed and maintained by United Nations Economic Commission for Europe, the code consists of five letters with the first two designating the country, e.g. ESADR is the LOCODE for Port of Adra in Spain). The profile of each port shows information on how many ships are in port, how many are expected and how many have visited the port in the past month.
 
-<figure><img src="../../.gitbook/assets/VF3.png" alt="" width="563"><figcaption><p>Profile of the Port of Acapulco</p></figcaption></figure>
+<figure><img src=".gitbook/assets/VF3 (1).png" alt="" width="563"><figcaption><p>Profile of the Port of Acapulco</p></figcaption></figure>
 
 <details>
 
@@ -65,13 +65,13 @@ The list allows obtaining the UN/LOCODE Code List 2024-1 for each country or ter
 
 * [Containers](https://www.vesselfinder.com/containers) - A paid service both in the app and on the website. It offers real-time online track & trace service as well as Container Tracking API for monitoring of container shipments. This service comes with a dashboard, port activities (origin and destination port, transshipment ports also known as entrepôts, land transshipment, arrival and departure times and real-time position of the container ships). It is usually used by businesses to track the location and status of container shipments as they travel along the supply chain. This feature can also be useful for tracking suspected illicit trade.
 
-<figure><img src="../../.gitbook/assets/VF4.png" alt="" width="563"><figcaption><p>Demo view of container tracking</p></figcaption></figure>
+<figure><img src=".gitbook/assets/VF4 (1).png" alt="" width="563"><figcaption><p>Demo view of container tracking</p></figcaption></figure>
 
 #### Free desktop and in-app services
 
 * Map view - this is the most versatile view of the tool. Here you can save a particular map view that you need for future use, adjust the density of the map, turn on and off Satellite AIS (please note that when density is selected, the map will show much more vessels in an area; however clicking on most of them located via satellite will not provide information on the vessels), adjust what you want to see on the map, select the vessels based on their type, find a particular vessel in the search bar, or just select one from the map to view its profile.
 
-<figure><img src="../../.gitbook/assets/VF5.png" alt="" width="563"><figcaption><p>VesselFinder map view with vessels near the shore of Florianopolis and Rio de Janeiro</p></figcaption></figure>
+<figure><img src=".gitbook/assets/VF5 (1).png" alt="" width="563"><figcaption><p>VesselFinder map view with vessels near the shore of Florianopolis and Rio de Janeiro</p></figcaption></figure>
 
 * Embedding a map on a website - VesselFinder allows map embedding on websites by inserting HTML codes. Here is a [list of the codes](https://www.vesselfinder.com/embed) that can be used.
 * [Planning a route](https://route.vesselfinder.com/) - Enter a port of origin and destination port (or even mid-way ports) to see the route, estimated travel times depending on speed, distance between ports and which crossings the vessel has to pass through.
