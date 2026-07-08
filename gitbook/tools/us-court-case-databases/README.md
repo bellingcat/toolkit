@@ -41,16 +41,16 @@ Learn more:
 
 State databases will let you conduct a search using your choice of search variables. Below are examples of information you can use as a starting point to search court cases in Pennsylvania (left) and North Dakota (right).
 
-<div><figure><img src="../../.gitbook/assets/Screenshot 2025-12-17 at 8.48.04 PM.png" alt="" width="375"><figcaption><p><em>Pennsylvania search variables</em></p></figcaption></figure> <figure><img src="../../.gitbook/assets/Screenshot 2025-12-17 at 8.55.14 PM (1).png" alt="" width="375"><figcaption><p><em>North Dakota search variables</em></p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 8.48.04 PM (1).png" alt="" width="375"><figcaption><p><em>Pennsylvania search variables</em></p></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 8.55.14 PM (1) (1).png" alt="" width="375"><figcaption><p><em>North Dakota search variables</em></p></figcaption></figure></div>
 
 The level of information provided in search results varies by state. Below is another example: a snapshot of criminal case results for "John Doe" in Oregon. In many states, you can click on the case you're interested in to see more information or download documents.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-12-17 at 9.45.00 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-12-17 at 9.45.00 PM (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **TIP:** Many databases allow wildcard searches using an asterisk, which is useful if you don't know a full name or correct spelling. For example, if you are searching for a person named "Will Anderson" but want to account for it being spelled "Will**iam** Ander**sen**" you can search for it as:
 
-<img src="../../.gitbook/assets/Screenshot 2025-12-18 at 1.25.10 PM.png" alt="" data-size="original">
+<img src=".gitbook/assets/Screenshot 2025-12-18 at 1.25.10 PM (1).png" alt="" data-size="original">
 {% endhint %}
 
 ## Case databases by state <a href="#case-databases-by-state" id="case-databases-by-state"></a>
