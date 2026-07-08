@@ -3,13 +3,17 @@
  *
  * For each tool space in project_items.json:
  *   - Skip if no commits have touched gitbook/tools/{slug}/ since last-synced checkpoint
+ *   - Skip (with a warning) if the space has a merged CR newer than the checkpoint —
+ *     GitBook has changes the export step didn't pull down (e.g. it was skipped as a
+ *     conflict, or a CR merged mid-run), and importing would clobber them. Reconcile
+ *     manually, then re-run with --tool <slug> --ignore-conflicts.
  *   - Otherwise call POST /spaces/{id}/git/import to push current repo content into GitBook
  *
  * Import does NOT create a change request — it updates space content directly.
  * Running this after an export is safe: if content matches, GitBook is a no-op.
  *
  * Usage:
- *   GITBOOK_API_TOKEN=... GH_REPO_TOKEN=... node src/import-to-gitbook.mjs [--dry-run] [--tool <slug>]
+ *   GITBOOK_API_TOKEN=... GH_REPO_TOKEN=... node src/import-to-gitbook.mjs [--dry-run] [--tool <slug>] [--ignore-conflicts]
  *
  * Required env vars:
  *   GITBOOK_API_TOKEN  — GitBook API token
@@ -32,6 +36,7 @@ const REPO_URL = REPO_BASE_URL.replace('https://', `https://x-access-token:${GH_
 const GIT_REF = 'refs/heads/main';
 const CHECKPOINT_FILE = 'last-synced.json';
 const DRY_RUN = process.argv.includes('--dry-run');
+const IGNORE_CONFLICTS = process.argv.includes('--ignore-conflicts');
 const TOOL_FILTER = process.argv.includes('--tool')
   ? process.argv[process.argv.indexOf('--tool') + 1]
   : null;
@@ -51,13 +56,25 @@ function saveCheckpoint(checkpoint) {
   fs.writeFileSync(CHECKPOINT_FILE, JSON.stringify(checkpoint, null, 2) + '\n');
 }
 
-// Returns true if any commits have touched the tool's directory since the given ISO timestamp.
+// Returns true if any commits have touched the tool's directory since the
+// given ISO timestamp, excluding commits created by the GitBook export
+// ("Sync: Export ... from GitBook") — that content is already in GitBook,
+// so it neither needs importing nor counts as a repo-side change.
 function hasCommitsSince(toolSlug, since) {
   const result = execSync(
-    `git log --since="${since}" --format=%H -- "gitbook/tools/${toolSlug}/"`,
+    `git log --since="${since}" --grep="^Sync: Export" --invert-grep --format=%H -- "gitbook/tools/${toolSlug}/"`,
     { encoding: 'utf-8' }
   );
   return result.trim().length > 0;
+}
+
+async function getMostRecentMergedCR(spaceId) {
+  const data = await apiCall(
+    `https://api.gitbook.com/v1/spaces/${spaceId}/change-requests?` +
+      new URLSearchParams({ status: 'merged', limit: '1' }),
+    { method: 'GET' }
+  );
+  return data.items?.[0] ?? null;
 }
 
 async function importSpace(spaceId, toolSlug) {
@@ -77,6 +94,7 @@ async function main() {
   const checkpoint = loadCheckpoint();
   let imported = 0;
   let skipped = 0;
+  let conflicts = 0;
   let errors = 0;
 
   for (const item of items) {
@@ -97,6 +115,29 @@ async function main() {
     if (!hasCommitsSince(toolSlug, since)) {
       skipped++;
       continue;
+    }
+
+    // A merged CR newer than the checkpoint means GitBook has changes the
+    // export step didn't pull down — importing would clobber them. Leave the
+    // checkpoint alone so this keeps flagging until a human reconciles.
+    if (!IGNORE_CONFLICTS) {
+      let cr;
+      try {
+        cr = await getMostRecentMergedCR(spaceId);
+      } catch (e) {
+        console.error(`ERROR fetching CRs for ${toolSlug} (${spaceId}): ${e.message}`);
+        errors++;
+        continue;
+      }
+      if (cr && cr.updatedAt > since) {
+        console.log(
+          `::warning::Sync conflict for ${toolSlug}: repo has commits since ${since} ` +
+          `and GitBook has an unexported merged change request (${cr.updatedAt}). Skipping import ` +
+          `to avoid clobbering GitBook changes. Reconcile manually, then re-run with --tool ${toolSlug} --ignore-conflicts.`
+        );
+        conflicts++;
+        continue;
+      }
     }
 
     console.log(`Importing ${toolSlug} (changes since ${since})`);
@@ -120,9 +161,10 @@ async function main() {
 
   console.log('');
   console.log(`Done.${DRY_RUN ? ' (dry run)' : ''}`);
-  console.log(`  Imported: ${imported}`);
-  console.log(`  Skipped:  ${skipped}`);
-  console.log(`  Errors:   ${errors}`);
+  console.log(`  Imported:  ${imported}`);
+  console.log(`  Skipped:   ${skipped}`);
+  console.log(`  Conflicts: ${conflicts}`);
+  console.log(`  Errors:    ${errors}`);
 }
 
 main();

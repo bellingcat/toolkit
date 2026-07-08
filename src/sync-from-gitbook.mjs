@@ -3,11 +3,14 @@
  *
  * For each tool space in project_items.json:
  *   - Check if there's a merged CR newer than the last-synced checkpoint
- *   - If so, call POST /spaces/{id}/git/export to push content to GitHub
+ *   - Skip (with a warning) if the repo also has unsynced commits touching the
+ *     tool — both sides changed, and exporting would clobber the repo-side
+ *     edits. Reconcile manually, then re-run with --tool <slug> --ignore-conflicts.
+ *   - Otherwise call POST /spaces/{id}/git/export to push content to GitHub
  *   - Update last-synced.json checkpoint
  *
  * Usage:
- *   GITBOOK_API_TOKEN=... GH_REPO_TOKEN=... node src/sync-from-gitbook.mjs [--dry-run] [--tool <slug>]
+ *   GITBOOK_API_TOKEN=... GH_REPO_TOKEN=... node src/sync-from-gitbook.mjs [--dry-run] [--tool <slug>] [--ignore-conflicts]
  *
  * Required env vars:
  *   GITBOOK_API_TOKEN  — GitBook API token
@@ -17,6 +20,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { execSync } from 'child_process';
 import matter from './frontmatter.mjs';
 import pkg from './data.mjs';
 import client from './ghproject-client.mjs';
@@ -31,6 +35,7 @@ const REPO_URL = REPO_BASE_URL.replace('https://', `https://x-access-token:${GH_
 const GIT_REF = 'refs/heads/main';
 const CHECKPOINT_FILE = 'last-synced.json';
 const DRY_RUN = process.argv.includes('--dry-run');
+const IGNORE_CONFLICTS = process.argv.includes('--ignore-conflicts');
 const TOOL_FILTER = process.argv.includes('--tool')
   ? process.argv[process.argv.indexOf('--tool') + 1]
   : null;
@@ -56,6 +61,17 @@ function getToolUpdatedAt(toolSlug) {
   if (!fs.existsSync(readmePath)) return null;
   const { data } = matter(fs.readFileSync(readmePath, 'utf-8'));
   return data.updated ? new Date(data.updated).toISOString() : null;
+}
+
+// Returns true if any commits have touched the tool's directory since the
+// given ISO timestamp, excluding commits created by the GitBook export itself
+// ("Sync: Export ... from GitBook") — those are GitBook content, not repo-side edits.
+function hasUnsyncedCommits(toolSlug, since) {
+  const result = execSync(
+    `git log --since="${since}" --grep="^Sync: Export" --invert-grep --format=%H -- "gitbook/tools/${toolSlug}/"`,
+    { encoding: 'utf-8' }
+  );
+  return result.trim().length > 0;
 }
 
 async function getMostRecentMergedCR(spaceId) {
@@ -85,6 +101,7 @@ async function main() {
   const checkpoint = loadCheckpoint();
   let exported = 0;
   let skipped = 0;
+  let conflicts = 0;
   let errors = 0;
 
   for (const item of items) {
@@ -125,6 +142,19 @@ async function main() {
       continue;
     }
 
+    // Both sides changed since the last sync: exporting would clobber the
+    // repo-side commits. Leave the checkpoint alone so this keeps flagging
+    // until a human reconciles.
+    if (!IGNORE_CONFLICTS && hasUnsyncedCommits(toolSlug, checkpoint[toolSlug])) {
+      console.log(
+        `::warning::Sync conflict for ${toolSlug}: repo has commits since ${checkpoint[toolSlug]} ` +
+        `and GitBook has a newer merged change request (${cr.updatedAt}). Skipping export to avoid ` +
+        `clobbering repo changes. Reconcile manually, then re-run with --tool ${toolSlug} --ignore-conflicts.`
+      );
+      conflicts++;
+      continue;
+    }
+
     console.log(`Exporting ${toolSlug} (CR updated ${cr.updatedAt})`);
 
     if (!DRY_RUN) {
@@ -146,9 +176,10 @@ async function main() {
 
   console.log('');
   console.log(`Done.${DRY_RUN ? ' (dry run)' : ''}`);
-  console.log(`  Exported: ${exported}`);
-  console.log(`  Skipped:  ${skipped}`);
-  console.log(`  Errors:   ${errors}`);
+  console.log(`  Exported:  ${exported}`);
+  console.log(`  Skipped:   ${skipped}`);
+  console.log(`  Conflicts: ${conflicts}`);
+  console.log(`  Errors:    ${errors}`);
 }
 
 main();
