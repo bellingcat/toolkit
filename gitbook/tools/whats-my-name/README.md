@@ -17,7 +17,7 @@ By searching Bellingcat on WhatsMyName web, we get 37 places where this username
 
 By clicking on the "category filter" it is possible to narrow down the results to specifc categories of results, for example "business", "dating", or "shopping".
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Results for the username "bellingcat"</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Results for the username "bellingcat"</p></figcaption></figure>
 
 Beware that different people can use the same username.
 
