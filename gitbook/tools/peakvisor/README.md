@@ -18,7 +18,7 @@ description: >-
 
 PeakVisor is a multi-function OSINV tool for examining high-accuracy geographic data in the form of 2D and 3D maps and rendered terrain models of near-photographic quality. This geographic data is also overlaid with detailed sun/moon, slope, shadow, elevation and, where available, weather information. PeakVisor is a leading tool for dramatic terrains, e.g. mountains, coastlines, canyons...
 
-<figure><img src="../../.gitbook/assets/MoveRushonwithsun.gif" alt=""><figcaption><p><strong>PEAKVISOR RENDERING TERRAIN MODELS IN THE MAIN WINDOW (RIGHT) AT LOCATIONS SELECTED BY THE USER WITH THE MAP PIN IN THE INSET MAP WINDOW (LEFT)</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/MoveRushonwithsun (1).gif" alt=""><figcaption><p><strong>PEAKVISOR RENDERING TERRAIN MODELS IN THE MAIN WINDOW (RIGHT) AT LOCATIONS SELECTED BY THE USER WITH THE MAP PIN IN THE INSET MAP WINDOW (LEFT)</strong></p></figcaption></figure>
 
 {% hint style="danger" %}
 Beware that PeakVisor comes in 2 versions: the **Web-Based App, used for Open Source research, described here**, and the Smartphone App, used for outdoor navigation, which has significantly different functionality. Online resources can mislead as they often don't specify which version they cover.
@@ -69,13 +69,13 @@ The web-based version has been developed specifically for Open Source research s
 {% tab title="USE CASES" %}
 USE CASES: PeakVisor allows Open Source Researchers to geolocate and chronolocate source images by matching terrain profiles, sun/moon trails, shadows, slopes and weather.
 
-<figure><img src="../../.gitbook/assets/tablebig.jpg" alt=""><figcaption><p><strong>COMPARING THE DATA INPUTS AND OUTPUTS RELEVANT TO EACH USE CASE</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/tablebig (1).jpg" alt=""><figcaption><p><strong>COMPARING THE DATA INPUTS AND OUTPUTS RELEVANT TO EACH USE CASE</strong></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Data Input Options" %}
 There is often more than one method to input data in the PeakVisor interface. Some involve typing information into text boxes in the graphical interface, some involve editing the Browser Address Bar url (considered a short cut), and some involve mouse pointer interaction directly with maps, calendars and sliders. Here is a summary table:
 
-<figure><img src="../../.gitbook/assets/DataInputTable2.JPG" alt=""><figcaption><p>HOW TO ENTER DATA INTO PEAKVISOR</p></figcaption></figure>
+<figure><img src=".gitbook/assets/DataInputTable2 (1).JPG" alt=""><figcaption><p>HOW TO ENTER DATA INTO PEAKVISOR</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -83,7 +83,7 @@ There is often more than one method to input data in the PeakVisor interface. So
 
 PeakVisor's most widely-used and praised feature to date is that it provides a geolocation ["PhotoFit"](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=7590s)[ ](https://www.youtube.com/watch?v=pWlukJ0v-pw\&t=7590s)function - see below.
 
-<figure><img src="../../.gitbook/assets/anigifphotofit (1).gif" alt=""><figcaption><p><strong>THE PHOTOFITTING PROCESS: MATCHING THE PEAKVISOR TERRAIN MODEL TO THE USER'S SOURCE PHOTOGRAPH WATCH THE MOVEMENT OF THE RED LINE AGAINST THE PHOTOGRAPH SKYLINE</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/anigifphotofit (1) (1).gif" alt=""><figcaption><p><strong>THE PHOTOFITTING PROCESS: MATCHING THE PEAKVISOR TERRAIN MODEL TO THE USER'S SOURCE PHOTOGRAPH WATCH THE MOVEMENT OF THE RED LINE AGAINST THE PHOTOGRAPH SKYLINE</strong></p></figcaption></figure>
 
 <details>
 
@@ -102,7 +102,7 @@ As a PhotoFit user you can:-
 PeakVisor will not search for a matching location for your source imagery, **you must provide a test location, i.e. a "guess"** in order to use PhotoFit for confirmation. Obviously you can repeat the process, testing different locations, until hopefully a match is found.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/PHOTOFIT EG CROP.jpg" alt=""><figcaption><p><strong>PHOTOFIT SUPERIMPOSES THE RENDERED TERRAIN OUTLINE AT THE TEST CO-ORDINATES OVER THE USER'S UPLOADED PHOTOGRAPH TO SEE IF THEY MATCH TO CONFIRM THE GEOLOCATION</strong>. A VISUALLY OBVIOUS EXAMPLE HAS BEEN CHOSEN FOR PROOF OF CONCEPT</p></figcaption></figure>
+<figure><img src=".gitbook/assets/PHOTOFIT EG CROP (1).jpg" alt=""><figcaption><p><strong>PHOTOFIT SUPERIMPOSES THE RENDERED TERRAIN OUTLINE AT THE TEST CO-ORDINATES OVER THE USER'S UPLOADED PHOTOGRAPH TO SEE IF THEY MATCH TO CONFIRM THE GEOLOCATION</strong>. A VISUALLY OBVIOUS EXAMPLE HAS BEEN CHOSEN FOR PROOF OF CONCEPT</p></figcaption></figure>
 
 IFF the PeakVisor terrain outline fits very well over the same characteristic features in the photograph, then this is very strong evidence of an accurate geolocation. The more points of inflexion\* there are in the contours being fitted, the stronger the confirmation of location. The example above is a very visually obvious geolocation, chosen to demonstrate the principle. The source image (a photograph of the Matterhorn mountain) has been uploaded to PeakVisor in "Explorer" view, and the user is moving the red silhouette of the model (which PeakVisor generated at the test location) across the photograph to try to adjust it to fit.\
 \* Point of inflexion = change in direction
@@ -134,7 +134,7 @@ This is because PeakVisor's high data quality (from LIDAR satellite and maps), a
 
 </details>
 
-<figure><img src="../../.gitbook/assets/comparemodelspvgep.jpg" alt=""><figcaption><p><strong>THE CENTRAL SOURCE IMAGE IS RECOGNISABLE IN THE PEAKVISOR RENDERED MODEL OF THE TEST LOCATION (ON THE RIGHT) THROUGH ACCURATE DEPICTION OF KEY SKYLINE FEATURES</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/comparemodelspvgep (1).jpg" alt=""><figcaption><p><strong>THE CENTRAL SOURCE IMAGE IS RECOGNISABLE IN THE PEAKVISOR RENDERED MODEL OF THE TEST LOCATION (ON THE RIGHT) THROUGH ACCURATE DEPICTION OF KEY SKYLINE FEATURES</strong></p></figcaption></figure>
 
 {% hint style="success" %}
 Use PeakVisor in conjunction with other tools like Google Earth Pro and satellite imagery to obtain the fullest understanding of Test terrain and environment for which geolocation is needed. Exploit the differences of these tools, e.g. Google tools are quick to cover terrain in real time, strong on time-stamped historical data, strong on local photographic imagery, weak on exact photographic location, unclear on photographic aspect. PeakVisor is weak on cityscapes, sparse on local photographic imagery, slower to switch viewpoint, but strong on orientation, clear on numeric viewshed data and strong on distance measurement in 3D panoramas.
@@ -144,7 +144,7 @@ Use PeakVisor in conjunction with other tools like Google Earth Pro and satellit
 
 PeakVisor provides an elevation data download feature for a maximum ground surface rectangle area equating to 0.5 degrees square of latitude and longitude. The user can define the location and shape of the download rectangle data and save it as a \*.png file in the Data tab of the PROFILE page.
 
-<div><figure><img src="../../.gitbook/assets/elevationdataapi.JPG" alt="" width="375"><figcaption><p><strong>PEAKVISOR'S DATA DOWNLOAD FEATURE REQUIRES A USER PROFILE TO DOWNLOAD ELEVATION DATA IN A USER-DEFINED RECTANGULAR AREA OF UP TO 0.5 DEGREES X 0.5 DEGREES</strong></p></figcaption></figure> <figure><img src="../../.gitbook/assets/PVProfilePageTabs.JPG" alt=""><figcaption><p>PEAKVISOR USERS WITH AN ACCOUNT CAN ACCESS A PROFILE PAGE WHICH OFFERS THE ABILITY TO STORE PHOTOS, LOCATIONS AND PATHS, TO DOWNLOAD DATA FILES, SYNCH WITH GARMIN, EXPORT TO GPX, ETC.</p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/elevationdataapi (1).JPG" alt="" width="375"><figcaption><p><strong>PEAKVISOR'S DATA DOWNLOAD FEATURE REQUIRES A USER PROFILE TO DOWNLOAD ELEVATION DATA IN A USER-DEFINED RECTANGULAR AREA OF UP TO 0.5 DEGREES X 0.5 DEGREES</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/PVProfilePageTabs (1).JPG" alt=""><figcaption><p>PEAKVISOR USERS WITH AN ACCOUNT CAN ACCESS A PROFILE PAGE WHICH OFFERS THE ABILITY TO STORE PHOTOS, LOCATIONS AND PATHS, TO DOWNLOAD DATA FILES, SYNCH WITH GARMIN, EXPORT TO GPX, ETC.</p></figcaption></figure></div>
 
 ### Different Views for Terrain in PeakVisor
 
@@ -159,7 +159,7 @@ PeakVisor provides an elevation data download feature for a maximum ground surfa
 
 As well as [**Explorer View**](./#view-three-explorer-view-3d-rendered-terrain-model), which always displays a 3D rendered terrain model of a given location next to [2D Map View](./#id-2d-map-view), PeakVisor provides two other view types for its topological data:, [Hike Map View](./#view-four-hike-map-view), and [Ski Map view](./#view-five-ski-map-view). These are accessible from the Drop Down menu in the Toolbar - see below:
 
-<figure><img src="../../.gitbook/assets/peakVisor2026 menus.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/peakVisor2026 menus (1).gif" alt=""><figcaption></figcaption></figure>
 
 ### "Panorama" View (3D Rendered Terrain Model)
 
@@ -178,7 +178,7 @@ As well as [**Explorer View**](./#view-three-explorer-view-3d-rendered-terrain-m
 
 </details>
 
-<figure><img src="../../.gitbook/assets/PV3Dpanorama.gif" alt=""><figcaption><p><strong>PEAKVISOR PANORAMA VIEW FROM GROUND LEVEL WITH TERRAIN &#x26; SUN TRAIL FOR DATE AND TIME</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/PV3Dpanorama (1).gif" alt=""><figcaption><p><strong>PEAKVISOR PANORAMA VIEW FROM GROUND LEVEL WITH TERRAIN &#x26; SUN TRAIL FOR DATE AND TIME</strong></p></figcaption></figure>
 
 #### Special Functions of Panorama View
 
@@ -194,7 +194,7 @@ In 3D Explorer View it is possible to select a point in the rendered terrain mod
 
 </details>
 
-<figure><img src="../../.gitbook/assets/what is the difference between these 2 lines.JPG" alt=""><figcaption><p>THE DISTANCE MEASUREMENT FUNCTION IN THE 2D WINDOW AND THE TELEPORT FUNCTION IN THE 3D EXPLORER WINDOW, WHICH SWITCHES THE VIEWPOINT TO A LOCATION IN THE 3D RENDERED VIEW SELECTED BY THE USER</p></figcaption></figure>
+<figure><img src=".gitbook/assets/what is the difference between these 2 lines (1).JPG" alt=""><figcaption><p>THE DISTANCE MEASUREMENT FUNCTION IN THE 2D WINDOW AND THE TELEPORT FUNCTION IN THE 3D EXPLORER WINDOW, WHICH SWITCHES THE VIEWPOINT TO A LOCATION IN THE 3D RENDERED VIEW SELECTED BY THE USER</p></figcaption></figure>
 
 {% hint style="danger" %}
 The developers have reports of problem using the Teleport function from users and look to resolve them in the next upgrade.
@@ -224,7 +224,7 @@ The Distance measurement feature can be used as a rapid way to determine lines o
 
 </details>
 
-<figure><img src="../../.gitbook/assets/TCG729PeakVisorsuntrailcalc.jpg" alt=""><figcaption><p>EXAMPLE USE OF PEAKVISOR TO DETERMINE THE EXACT POSITION OF THE SUN AT A GIVEN DATE, TIME &#x26; LOCATION</p></figcaption></figure>
+<figure><img src=".gitbook/assets/TCG729PeakVisorsuntrailcalc (1).jpg" alt=""><figcaption><p>EXAMPLE USE OF PEAKVISOR TO DETERMINE THE EXACT POSITION OF THE SUN AT A GIVEN DATE, TIME &#x26; LOCATION</p></figcaption></figure>
 
 The PeakVisor view above could be used to test whether the location, time and date of geolocation source imagery were consistent and feasible, e.g. at the test location, could the sunset still be visible from the viewpoint at the time and date claimed?
 
@@ -246,7 +246,7 @@ There are also view types for Skiers and Hikers, each of which has functionality
 
 </details>
 
-<figure><img src="../../.gitbook/assets/2Dwindowmatterhorn.JPG" alt="" width="563"><figcaption><p><strong>PEAKVISOR 2D MAP VIEW WITH CONTOUR LINES AND MAP LABELS (PLACES, PATHS, CONTOURS ETC)</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/2Dwindowmatterhorn (1).JPG" alt="" width="563"><figcaption><p><strong>PEAKVISOR 2D MAP VIEW WITH CONTOUR LINES AND MAP LABELS (PLACES, PATHS, CONTOURS ETC)</strong></p></figcaption></figure>
 
 ### **Hike Map** View:-
 
@@ -262,7 +262,7 @@ There are also view types for Skiers and Hikers, each of which has functionality
 
 </details>
 
-<figure><img src="../../.gitbook/assets/drawtrail.JPG" alt=""><figcaption><p><strong>DRAWING AND STORING A TRAIL IN HIKE MAP VIEW - TRAIL IS PURPLE, SIDEBAR SHOWS TRAIL ELEVATION PLOT</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/drawtrail (1).JPG" alt=""><figcaption><p><strong>DRAWING AND STORING A TRAIL IN HIKE MAP VIEW - TRAIL IS PURPLE, SIDEBAR SHOWS TRAIL ELEVATION PLOT</strong></p></figcaption></figure>
 
 ### Ski Map View
 
@@ -279,7 +279,7 @@ In addition to Weather, Photo and Draw Trail functions, Ski Map Options addition
 
 * Slopes: Map colour shading to indicate degree of slope of the terrain, from white for flat, through yellow for mild to orange and red for steep.
 
-<figure><img src="../../.gitbook/assets/Slopes.JPG" alt=""><figcaption><p>THE SLOPE OVERLAY IN PEAKVISOR SKI VIEW COLOURS SLOPES OF SIMILAR GRADIENT ACCORDING TO A 'HEATMAP' SCALE</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Slopes (1).JPG" alt=""><figcaption><p>THE SLOPE OVERLAY IN PEAKVISOR SKI VIEW COLOURS SLOPES OF SIMILAR GRADIENT ACCORDING TO A 'HEATMAP' SCALE</p></figcaption></figure>
 
 {% hint style="success" %}
 Very useful for doing wide-area searches to match major slope terrain features and thus reduce search space in a geolocation.
@@ -287,7 +287,7 @@ Very useful for doing wide-area searches to match major slope terrain features a
 
 * **Shadows**: An overlay view generated around a user-input date and time, where the shadows cast by the landscape are rendered in detail.
 
-<figure><img src="../../.gitbook/assets/Shadows.JPG" alt=""><figcaption><p>SHADOWS CAST ACROSS THE LANDSCAPE AT THE DATE AND TIME SHOWN</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Shadows (1).JPG" alt=""><figcaption><p>SHADOWS CAST ACROSS THE LANDSCAPE AT THE DATE AND TIME SHOWN</p></figcaption></figure>
 
 {% hint style="success" %}
 Move the time slider to watch the major shadows cast by terrain features move across the landscape at the date, time and place you choose. Very powerful for confirmation of geolocation imagery containing terrain shadows, e.g. how far does the shadow of that mountain/canyon side reach at a certain time of day and year?
@@ -315,7 +315,7 @@ Similarly, the Sun and Moon trails feature takes time to master for chronolocati
 
 An email login is needed for some functions like elevation data download, location and path saving. This can be created using the SIGN IN feature in the centre of the top menu on the landing page - see below.
 
-<div><figure><img src="../../.gitbook/assets/PeakVisorSignInLanding.bmp" alt=""><figcaption><p><strong>PEAKVISOR LANDING PAGE SHOWS A "SIGN IN" FUNCTION UNTIL A USER REGISTERS AN ACCOUNT</strong></p></figcaption></figure> <figure><img src="../../.gitbook/assets/PeakVisorProfileLanding (1).bmp" alt=""><figcaption><p><strong>ONCE THE USER HAS AN ACTIVE ACCOUNT, THEY GAIN ACCESS TO THE PROFILE FEATURES VIA THE LANDING PAGE</strong></p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/PeakVisorSignInLanding (1).bmp" alt=""><figcaption><p><strong>PEAKVISOR LANDING PAGE SHOWS A "SIGN IN" FUNCTION UNTIL A USER REGISTERS AN ACCOUNT</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/PeakVisorProfileLanding (1) (1).bmp" alt=""><figcaption><p><strong>ONCE THE USER HAS AN ACTIVE ACCOUNT, THEY GAIN ACCESS TO THE PROFILE FEATURES VIA THE LANDING PAGE</strong></p></figcaption></figure></div>
 
 ## Limitations
 
@@ -324,7 +324,7 @@ An email login is needed for some functions like elevation data download, locati
 * **Resizing Windows:** PeakVisor 3D and 3D Explorer windows can switch zoom scale when Teleporting between viewpoint locations in the model, which means users often need to resize and adjust scale during their work.
 * **Buffering Effect at Capacity Limit:** PeakVisor operates at the limit of capacity when the user continuously adjusts viewpoint in 3D Explorer View, because it must constantly re-render the imagery. If buffering limits are reached, the system will 'boomerang' back to a previous location. The way to work around this is to move the viewpoint in increments.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/BOOMERANGEFFECT.gif" alt=""><figcaption><p><strong>DEMONSTRATING THE EFFECTS OF RESOURCE LIMITATIONS WHEN TRYING TO MOVE LOCATION TOO RAPIDLY</strong></p></figcaption></figure></div>
+<div data-full-width="true"><figure><img src=".gitbook/assets/BOOMERANGEFFECT (1).gif" alt=""><figcaption><p><strong>DEMONSTRATING THE EFFECTS OF RESOURCE LIMITATIONS WHEN TRYING TO MOVE LOCATION TOO RAPIDLY</strong></p></figcaption></figure></div>
 
 ## Ethical Considerations
 
