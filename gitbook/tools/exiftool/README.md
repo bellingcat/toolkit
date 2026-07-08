@@ -69,7 +69,7 @@ If `exiftool -ver` works anywhere, you can skip this step.
 exiftool -ver
 ```
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure></div>
 
 **macOS/Linux**\
 Homebrew and most package-manager installs place `exiftool` on your PATH automatically. Test:
@@ -111,7 +111,7 @@ dir
 exiftool image.jpg
 ```
 
-<figure><img src="../../.gitbook/assets/image (2) (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (13).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
