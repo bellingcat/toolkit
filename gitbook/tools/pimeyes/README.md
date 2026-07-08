@@ -21,11 +21,11 @@ To use Pimeyes, simply upload a photo of a person of interest. It is possible to
 
 Users can choose whether they want to search for pictures that have been indexed by Pimeyes recently or they can opt for "Any Time".
 
-<figure><img src="../../.gitbook/assets/Time_Date_Pimeyes.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Time_Date_Pimeyes (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Pimeyes shows when each picture in the results list has been indexed. This can be seen at the bottom of the information box that comes up when clicking on a listed picture:
 
-<figure><img src="../../.gitbook/assets/Date_Stamp.png" alt="" width="239"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Date_Stamp (1).png" alt="" width="239"><figcaption></figcaption></figure>
 
 The tool is sometimes (but not always) able to find pictures that have been indexed by Pimeyes on the same day. Keep in mind that this is not necessarily the day when the picture was published online. While working on long-term investigations, searching for the same picture at different points in time can yield new results.
 
@@ -39,11 +39,11 @@ To demonstrate this, we uploaded an image of the late former prime minister of P
 
 However, each of the photos in the results list displayed an incomplete URL, in this case "https://thefrontierpos....".
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-01-22 at 11.26.41 PM (1).png" alt=""><figcaption><p>Example of a Pimeyes search result. Each result comes with information on when the photo was indexed by Pimeyes (here on August 25, 2023).</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-01-22 at 11.26.41 PM (1) (1).png" alt=""><figcaption><p>Example of a Pimeyes search result. Each result comes with information on when the photo was indexed by Pimeyes (here on August 25, 2023).</p></figcaption></figure>
 
 Typing this incomplete URL into search engines brought up the the name "The Frontier Post", a local Pakistan site, and the full URL of their website. It was now possible to simply search for "_Zulfikar Ali Bhutto" site:thefrontierpost.com_ on Google:
 
-<figure><img src="../../.gitbook/assets/Zulfikar 2.png" alt=""><figcaption><p>The final result by using Google dorks</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Zulfikar 2 (1).png" alt=""><figcaption><p>The final result by using Google dorks</p></figcaption></figure>
 
 The search brought up several pictures of Zulfikar Ali Bhutto from the website of The Frontier Post, including the photo that had also showed up in our Pimeyes search results. We could simply click on the URL to this photo to learn more.
 
