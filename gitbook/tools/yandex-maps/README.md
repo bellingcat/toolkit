@@ -14,7 +14,7 @@ description: >-
 
 ## Description
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/YandexMirrors2.gif" alt=""><figcaption><p>"<strong>MIRRORS" FEATURE IN YANDEX MAPS, SHOWING SERIES OF IMAGES TAGGED TO LOCATIONS UPLOADED BY A PEDESTRIAN &#x26; THE ABILITY TO 'PLAY' THEM IN SEQUENCE AS A JERKY VIDEO</strong></p></figcaption></figure></div>
+<div data-full-width="true"><figure><img src=".gitbook/assets/YandexMirrors2 (1).gif" alt=""><figcaption><p>"<strong>MIRRORS" FEATURE IN YANDEX MAPS, SHOWING SERIES OF IMAGES TAGGED TO LOCATIONS UPLOADED BY A PEDESTRIAN &#x26; THE ABILITY TO 'PLAY' THEM IN SEQUENCE AS A JERKY VIDEO</strong></p></figcaption></figure></div>
 
 Yandex Maps is a mapping service provided on the Russian-owned integrated Yandex platform, which also offers services on Image Search, Video Search, Translation/Interpretation, Weather,... Its stated focus is primarily on cities (but remote areas seem covered to a good standard also), and also organisations. Its global data is generally stronger and more detailed around Russia, Eastern Europe and Asia, in contrast with Google's mapping tools, which are stronger in Western Europe and North America. Yandex Maps has a different interface from Google mapping tools, most noticeably:
 
@@ -28,7 +28,7 @@ Some map data is unavailable in Yandex Maps, e.g. some contemporary data on Ukra
 
 {% tabs %}
 {% tab title="Use Cases" %}
-<figure><img src="../../.gitbook/assets/UseCases.jpg" alt=""><figcaption><p><strong>YANDEX MAPS USE CASES WITH CORRESPONDING DATA INPUT AND OUTPUT</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/UseCases (1).jpg" alt=""><figcaption><p><strong>YANDEX MAPS USE CASES WITH CORRESPONDING DATA INPUT AND OUTPUT</strong></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="User Data Input" %}
@@ -63,7 +63,7 @@ Some map data is unavailable in Yandex Maps, e.g. some contemporary data on Ukra
 {% endtab %}
 
 {% tab title="Data Entry Options" %}
-<figure><img src="../../.gitbook/assets/DataInput2.jpg" alt=""><figcaption><p><strong>DATA ENTRY INPUT OPTIONS FOR YANDEX MAPS</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/DataInput2 (1).jpg" alt=""><figcaption><p><strong>DATA ENTRY INPUT OPTIONS FOR YANDEX MAPS</strong></p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -75,21 +75,21 @@ Many Toolbar Items and Features are only available at certain levels of map Zoom
 
 Yandex Maps offers FIVE VIEWS from the five feature icon toolbar at screen top right:
 
-<figure><img src="../../.gitbook/assets/YANDEX5featuresmenu.JPG" alt=""><figcaption><p>5 FEATURE TOOLBAR AT SCREEN TOP RIGHT</p></figcaption></figure>
+<figure><img src=".gitbook/assets/YANDEX5featuresmenu (1).JPG" alt=""><figcaption><p>5 FEATURE TOOLBAR AT SCREEN TOP RIGHT</p></figcaption></figure>
 
 {% tabs %}
 {% tab title="TRAFFIC" %}
-<figure><img src="../../.gitbook/assets/YandexMapsTrafficAlerts.JPG" alt=""><figcaption><p><strong>TRAFFIC FLOW IS INDICATED BY COLOUR (GREEN IS FREE-FLOWING, AMBER IS SLOW, RED IS A JAM)</strong><br><strong>ROADWORKS ARE SHOWN WITH THE RED TRIANGLE WITH WORKMAN SIGN</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/YandexMapsTrafficAlerts (1).JPG" alt=""><figcaption><p><strong>TRAFFIC FLOW IS INDICATED BY COLOUR (GREEN IS FREE-FLOWING, AMBER IS SLOW, RED IS A JAM)</strong><br><strong>ROADWORKS ARE SHOWN WITH THE RED TRIANGLE WITH WORKMAN SIGN</strong></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="STREET" %}
 Street panoramas and photos (rotating person icon):
 
-<figure><img src="../../.gitbook/assets/YandexPanoramasoptimised.gif" alt=""><figcaption><p><strong>PANORAMAS SHOW AS BLUE DOTS AND LINES. AIRBORNE PANORAMAS ARE MARKED WITH THE BALLOON ICON</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/YandexPanoramasoptimised (1).gif" alt=""><figcaption><p><strong>PANORAMAS SHOW AS BLUE DOTS AND LINES. AIRBORNE PANORAMAS ARE MARKED WITH THE BALLOON ICON</strong></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="" %}
-<figure><img src="../../.gitbook/assets/YandexMirrors2.gif" alt=""><figcaption><p>"<strong>MIRRORS" FEATURE IN YANDEX MAPS, SHOWING SERIES OF IMAGES TAGGED TO LOCATIONS UPLOADED BY A PEDESTRIAN &#x26; THE ABILITY TO 'PLAY' THEM IN SEQUENCE AS A JERKY VIDEO</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/YandexMirrors2 (1).gif" alt=""><figcaption><p>"<strong>MIRRORS" FEATURE IN YANDEX MAPS, SHOWING SERIES OF IMAGES TAGGED TO LOCATIONS UPLOADED BY A PEDESTRIAN &#x26; THE ABILITY TO 'PLAY' THEM IN SEQUENCE AS A JERKY VIDEO</strong></p></figcaption></figure>
 
 "Mirrors" = Uploaded image sequences
 {% endtab %}
@@ -97,11 +97,11 @@ Street panoramas and photos (rotating person icon):
 {% tab title="TRANSPORT" %}
 Public Transport (vehicle icon):
 
-<figure><img src="../../.gitbook/assets/YandexMovingTransport.gif" alt=""><figcaption><p><strong>EACH MOVING VEHICLE'S ROUTE CAN BE ACCESSED WITH LEFT MOUSE CLICK</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/YandexMovingTransport (1).gif" alt=""><figcaption><p><strong>EACH MOVING VEHICLE'S ROUTE CAN BE ACCESSED WITH LEFT MOUSE CLICK</strong></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="MAP" %}
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>USE TABS TO SELECT ONE OF 3 BACKGROUND VIEWS: MAP, SATELLITE OR HYBRID</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (15) (1).png" alt=""><figcaption><p>USE TABS TO SELECT ONE OF 3 BACKGROUND VIEWS: MAP, SATELLITE OR HYBRID</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
