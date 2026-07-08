@@ -124,9 +124,9 @@ Users need to note that when signing up with an email address, users outside the
 
 [Item 1.4 ](https://www.truecaller.com/privacy/our-privacy-policy/privacy-policy/row)of its Privacy Policy showsthat where you get the app matters. If users download it from sources other than the App Store or Google Play, such as on the web, it might collect your contact info if you turn on a specific feature called “Truecaller Enhanced Search Functionality.” If you use the Enhanced Search feature, Truecaller can collect names, phone numbers, Google IDs, and email addresses from your contacts list.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-09-09 172809-marked.png" alt="" width="563"><figcaption><p>(Image Source: truecaller.com) This is the sign-up page for Truecaller for users outside of the EU, geared explicitly towards email address sign-up instead of telephone number sign-up. Users are prompted to sign up with either their Google or Microsoft account. Immediately below, “Enhanced Search” is automatically selected. Any concerns about privacy during an investigation should take note of this feature.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-09-09 172809-marked (1).png" alt="" width="563"><figcaption><p>(Image Source: truecaller.com) This is the sign-up page for Truecaller for users outside of the EU, geared explicitly towards email address sign-up instead of telephone number sign-up. Users are prompted to sign up with either their Google or Microsoft account. Immediately below, “Enhanced Search” is automatically selected. Any concerns about privacy during an investigation should take note of this feature.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-09-09 172901.png" alt="" width="563"><figcaption><p>By contrast, users from within the EU do not have the Enhanced Search feature checked at the sign in page.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-09-09 172901 (1).png" alt="" width="563"><figcaption><p>By contrast, users from within the EU do not have the Enhanced Search feature checked at the sign in page.</p></figcaption></figure>
 
 ## Guides
 
