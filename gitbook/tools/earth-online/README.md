@@ -6,7 +6,7 @@ description: >-
   monitoring to natural disaster assessment.
 ---
 
-# Earth Online
+# The European Space Agency (ESA) - Earth Online
 
 ## URL
 
@@ -16,13 +16,13 @@ description: >-
 
 The European Space Agency's Earth Online (ESA-EO) is a portal dedicated to providing a wealth of information on ESA's Earth observation activities and datasets. It serves as a comprehensive platform for Earth science and environmental monitoring. Users can retrieve up-to-date satellite imagery, open data from specific Earth observation missions, and a range of tools for analysis and interpretation of raw environmental data. Earth Online also shines when it comes to news, visuals and infographics plus detailed mission information and 3D models of the satellites, making it a useful resource for anyone looking to verify, to monitor or to analyze the planet's changes over time.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-03-14 at 17.16.29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2026-03-14 at 17.16.29 (1).png" alt=""><figcaption></figcaption></figure>
 
 ESA’s EO tools and datasets are not only useful for experts - there’s also much to explore for researchers new to the field. The visuals per mission include background info on the satellites and scientific measurements, providing a broader context to the use and interpretation of satellite data.
 
-<figure><img src="../../.gitbook/assets/unknown (17).png" alt=""><figcaption><p>The EO visuals connect the satellite info to related data applications (thematic visuals), mission information, satellite data and tools. t<a href="https://visuals.earth.esa.int/">https://visuals.earth.esa.int/</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/unknown (17).png" alt=""><figcaption><p>The EO visuals connect the satellite info to related data applications (thematic visuals), mission information, satellite data and tools. t<a href="https://visuals.earth.esa.int/">https://visuals.earth.esa.int/</a></p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/afbeelding.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/afbeelding (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 ESA’s Earth Observation ecosystem is evolving from a collection of isolated, specialised tools toward integrated, cloud-based platforms that combine workflows of data discovery, access, processing and analysis in one single environment.
