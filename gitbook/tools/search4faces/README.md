@@ -34,11 +34,11 @@ Key features of Search4Faces include:
 
 The site is available in Russian and English. To start a search, users first need to choose a database. They can then upload the picture of a person of interest.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-06-16 at 18.09.44.png" alt=""><figcaption><p>A sample search within the "Avatar of Tiktok users" database. It is possible (but not required) to specify the gender, country, city or age of people of interest before starting a search.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-06-16 at 18.09.44 (1).png" alt=""><figcaption><p>A sample search within the "Avatar of Tiktok users" database. It is possible (but not required) to specify the gender, country, city or age of people of interest before starting a search.</p></figcaption></figure>
 
 For instance, after uploading a Donald Trump picture and selecting the VK and Odnoassniki avatars collection, we received various pictures of Donald Trump that are currently being used (or have been used) as avatars by VK users:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-06-16 at 19.06.43.png" alt=""><figcaption><p>The results include a probability score indicating how likely it is, according to the tool, that the pictures show the same person as the one in the image uploaded by the user. It also provides a name for the person but this name can be wrong (for instance if someone uses Donald Trump's for their personal social media account).</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-06-16 at 19.06.43 (1).png" alt=""><figcaption><p>The results include a probability score indicating how likely it is, according to the tool, that the pictures show the same person as the one in the image uploaded by the user. It also provides a name for the person but this name can be wrong (for instance if someone uses Donald Trump's for their personal social media account).</p></figcaption></figure>
 
 By clicking on any photo in the results list, users are taken directly to the social media profile where the picture appears. Keep in mind that the Search4Faces database is not updated on a regular basis. Social media account owners might have changed their avatars or their accounts might even have been deleted in the meantime.
 
