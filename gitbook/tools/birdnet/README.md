@@ -25,9 +25,9 @@ The BirdNET browser demo and mobile apps help identify bird calls captured in vi
 
 The newer BirdNET Live mobile app is designed for continuous real-time identification and can run on devices without an internet connection.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-11-01 095429.png" alt=""><figcaption><p>The LiveMap also displays the total number of observations, the number of observations in the last 24 hours, the number of species identified, the number of users in the last 24 hours and other details.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-11-01 095429 (1).png" alt=""><figcaption><p>The LiveMap also displays the total number of observations, the number of observations in the last 24 hours, the number of species identified, the number of users in the last 24 hours and other details.</p></figcaption></figure>
 
-<div align="left"><figure><img src="../../.gitbook/assets/IMG_3730.jpg" alt="" width="375"><figcaption><p>The BirdNET mobile app allows you to record audio, select a clip, and it will analyse the recorded bird sounds, displaying the detected species ranked by probability</p></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/IMG_3730 (1).jpg" alt="" width="375"><figcaption><p>The BirdNET mobile app allows you to record audio, select a clip, and it will analyse the recorded bird sounds, displaying the detected species ranked by probability</p></figcaption></figure></div>
 
 ## Cost
 
