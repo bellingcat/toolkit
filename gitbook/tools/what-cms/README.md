@@ -20,7 +20,7 @@ Users working across a large number of websites, WhatCMS offers a domain-wide sc
 
 Paid subscriptions also allow batch processing which allows the user to upload lists of URL's to be analysed simultaneously. It also has Private Detections which gives you the option to detect other technologies such as databases.
 
-<div align="center"><figure><img src="../../.gitbook/assets/Screenshot 2026-06-24 at 10.46.08.png" alt="" width="563"><figcaption><p>What CMS shows that Bellingcat uses Wordpress as its CMS. It also lists other categories like the programming language or type of databases that is used. In addition, it tries to identify some of Bellingcat's social media channels.</p></figcaption></figure></div>
+<div align="center"><figure><img src=".gitbook/assets/Screenshot 2026-06-24 at 10.46.08 (1).png" alt="" width="563"><figcaption><p>What CMS shows that Bellingcat uses Wordpress as its CMS. It also lists other categories like the programming language or type of databases that is used. In addition, it tries to identify some of Bellingcat's social media channels.</p></figcaption></figure></div>
 
 Key Features
 
@@ -38,7 +38,7 @@ For larger investigations involving multiple websites, WhatCMS provides an API (
 
 This makes the free tier suitable for small-scale investigations, while large infrastructure-mapping projects require a paid subscription.
 
-<figure><img src="../../.gitbook/assets/batch detection CMS.png" alt=""><figcaption><p>Raw output from a batch detection submitted to the WhatCMS API. Each row represents one website from a list that was submitted all at once.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/batch detection CMS (1).png" alt=""><figcaption><p>Raw output from a batch detection submitted to the WhatCMS API. Each row represents one website from a list that was submitted all at once.</p></figcaption></figure>
 
 The API batch detection feature returns structured data with one row per URL, including the number of detected technologies, the identified CMS, the full list of technologies, and their categories. For example, users can identify groups of websites using the same CMS, analytics services, JavaScript frameworks or other shared technologies.\
 \
