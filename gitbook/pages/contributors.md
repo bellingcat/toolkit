@@ -1,6 +1,6 @@
 # Contributors
 
-This page lists contributors who are publicly credited in this toolkit.<br>
+This page lists our current toolkit contributors who are publicly credited in Bellingcat's toolkit.<br>
 
 * Martin Sona
 * Sophie Tedling
@@ -15,33 +15,16 @@ This page lists contributors who are publicly credited in this toolkit.<br>
 * Ana
 * Freya
 * Logan Williams
-* Aly
 * Riccardo Giannardi
 * Aiganysh Aidarbekova
 * Arsen Drobakha
 * ForgottenPidgeon
-* Bonny
-* Courtney Cox
 * Emma
 * Scoot
-* Alexandra Malikova
-* Arabella Zadeh
 * Clara D.
-* Evy Coeckelbergs
 * Felipe Simoni
-* Galen Reich
-* Gregg
-* Johanna Wild
-* Lekha Sapers
-* Nadia Enesco Mollá
-* Nathan Burke
-* Piya Garg
-* Pols
-* Renn
-* Sarah
 * Stéphanie LADEL
-* Suying
-* William Summers
-* Viktorija Ignatavičiūtė
-* Fraser
-* hande<br>
+
+Special thanks to our June 2026 Toolkit Drive participants! The following individuals helped us update our toolkit during this community event:
+
+0ne-nine9, LPetrova, Anisa Shabir, Afton, river\_n, Tata Kvatchadze, PolS, Evy Coeckelbergs, Lekha Sapers, Monica Matin, Alexandra Malikova, Elliot Love, Nadia Enesco Mollá, Piya Garg, Nathan Burke, Justine Van Bloeme, Gordon Fitzpatrick, Voulpe, joaty, William Summers, Karl Riviera, Martin Sona, Sophie Tedling, Lieth Carrillo
