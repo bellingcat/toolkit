@@ -14,7 +14,7 @@ description: >-
 
 ## Description
 
-<figure><img src="../../.gitbook/assets/Screenshot.JPG" alt=""><figcaption><p><strong>THE SHADOW &#x26; OBJECT MEASURED CAN ONLY LIE SOMEWHERE ON THE BRIGHT CIRCLE .</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot (1).JPG" alt=""><figcaption><p><strong>THE SHADOW &#x26; OBJECT MEASURED CAN ONLY LIE SOMEWHERE ON THE BRIGHT CIRCLE .</strong></p></figcaption></figure>
 
 Enter shadow length and object height, (OR, instead, the angle of elevation of the sun in degrees) for a research source image, then also the date and time of the image, and see the potential locations at which such a shadow could be created for that point in time as the bright area (circle) on the world map.
 
@@ -43,11 +43,11 @@ Shadow Finder needs the date and time of the source image containing the shadow 
 2. Log in to GitHub on a browser and type "Shadow Finder" in the search bar at the top of the Home page and press the Search button.
 3. From the list which the search returns, select the "Shadow Finder" tool from Bellingcat with left mouse click:
 
-<img src="../../.gitbook/assets/image (2) (3).png" alt="" data-size="original">
+<img src=".gitbook/assets/image (2) (3).png" alt="" data-size="original">
 
 4. Scroll down the Shadow Finder page to README section and click the bright orange button labelled "TRY IT ON COLAB". This launches ShadowFinder in an easy-access environment called Colab.
 
-![](<../../.gitbook/assets/image (1) (8).png>)
+![](<.gitbook/assets/image (1) (8).png>)
 
 5. Scroll down to enter your shadow measurement details into the app. Input EITHER
 
@@ -57,23 +57,23 @@ OR
 
 b. the elevation angle of the sun in degrees
 
-<img src="../../.gitbook/assets/shadowdetails.JPG" alt="" data-size="original">
+<img src=".gitbook/assets/shadowdetails (1).JPG" alt="" data-size="original">
 
 **Definition:** The elevation angle of the sun is the inverse tangent of the ratio of the height of an object for which the sun casts a shadow to the length of that shadow. Shadow Finder needs that angle in degrees (not radians, be careful with units here).
 
-<img src="../../.gitbook/assets/SUNCALCTRAILSscjpg.jpg" alt="" data-size="original">
+<img src=".gitbook/assets/SUNCALCTRAILSscjpg (1).jpg" alt="" data-size="original">
 
 6. and then enter the date[^2], time[^3] (and [time zone](https://en.wikipedia.org/wiki/Time_zone) you are using):
 
-<img src="../../.gitbook/assets/dateandtime.JPG" alt="" data-size="original">
+<img src=".gitbook/assets/dateandtime (1).JPG" alt="" data-size="original">
 
 7. Click the dark Right Arrow button in the white circle in the left margin to Run the tool, as instructed by the sentence "Click to find possible locations that match the below information". \[The white Left arrow on the square blue background is \*not\* a button you can press!]
 
-<img src="../../.gitbook/assets/image (2) (1) (2).png" alt="" data-size="original">
+<img src=".gitbook/assets/image (2) (1) (2).png" alt="" data-size="original">
 
 8. If you get this warning message, click the "Run anyway" button if you're happy that [the code isn't abusing your privacy](#user-content-fn-4)[^4].
 
-<img src="../../.gitbook/assets/Warning message.JPG" alt="" data-size="original">
+<img src=".gitbook/assets/Warning message (1).JPG" alt="" data-size="original">
 
 9. Be aware that the code may not always run instantaneously and could 'queue' for a brief time. The elapsed run time will be shown whilst executing the code and the total time taken displayed upon completion next to the Run arrow button. The output takes the form of a world map (see top of page) showing all possible points satisfying the input conditions on date, time, object height and shadow length (the circular locus[^5]).
 10. Change the input values at will and re-run as required.
@@ -92,11 +92,11 @@ The length of the shadow fed into Shadow Finder can only be measured directly fr
 
 {% tabs %}
 {% tab title="1. GitHub Page: Press Orange Button > Colab)" %}
-<figure><img src="../../.gitbook/assets/ColabbuttonANNOTATED.jpg" alt=""><figcaption><p><strong>THIS IS WHAT THE SHADOW FINDER PAGE LOOKS LIKE ON GITHUB. PRESS THE ORANGE 'TRY IT ON COLAB' BUTTON TO RUN SHADOW FINDER USING THE COLAB ENVIRONMENT.</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/ColabbuttonANNOTATED (1).jpg" alt=""><figcaption><p><strong>THIS IS WHAT THE SHADOW FINDER PAGE LOOKS LIKE ON GITHUB. PRESS THE ORANGE 'TRY IT ON COLAB' BUTTON TO RUN SHADOW FINDER USING THE COLAB ENVIRONMENT.</strong></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="2. Colab Interface: Enter Data +Run" %}
-<figure><img src="../../.gitbook/assets/ColabInterfaceANNOTATED.jpg" alt=""><figcaption><p><strong>THIS SHADOW FINDER INTERFACE APPEARS AFTER YOU PRESS THE ORANGE 'TRY IT ON COLAB' BUTTON. FILL IN THE TEXT BOXES AND THEN PRESS THE 'RUN' BUTTON OUTLINED IN YELLOW FOR A RESULT.</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/ColabInterfaceANNOTATED (1).jpg" alt=""><figcaption><p><strong>THIS SHADOW FINDER INTERFACE APPEARS AFTER YOU PRESS THE ORANGE 'TRY IT ON COLAB' BUTTON. FILL IN THE TEXT BOXES AND THEN PRESS THE 'RUN' BUTTON OUTLINED IN YELLOW FOR A RESULT.</strong></p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -140,15 +140,15 @@ Data can only be input as numeric values into the text input boxes in Shadow Fin
 
 Comparison of Outputs for the same time and date with different types of input Data. The input area on the right (for input as lengths) yields a narrower output area than the one on the left (for input as an angle). So for the same measurement error, two lengths give a more accurate output than one angle.
 
-<table><thead><tr><th width="300">INPUT DATA GIVEN AS AN ANGLE</th><th>INPUT DATA GIVEN AS TWO LENGTHS</th></tr></thead><tbody><tr><td>i.e. The elevation angle of the sun in degrees.</td><td>i.e. the height of the observed object and the length of the shadow it casts</td></tr><tr><td><img src="../../.gitbook/assets/aNGLE INPUT comparison.jpg" alt="" data-size="original"></td><td><img src="../../.gitbook/assets/LENGTHS INPUT comparison.jpg" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th width="300">INPUT DATA GIVEN AS AN ANGLE</th><th>INPUT DATA GIVEN AS TWO LENGTHS</th></tr></thead><tbody><tr><td>i.e. The elevation angle of the sun in degrees.</td><td>i.e. the height of the observed object and the length of the shadow it casts</td></tr><tr><td><img src=".gitbook/assets/aNGLE INPUT comparison (1).jpg" alt="" data-size="original"></td><td><img src=".gitbook/assets/LENGTHS INPUT comparison (1).jpg" alt="" data-size="original"></td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
 The output map appears at the bottom of the page when Shadow Finder code has been run in Colab. Compare the Shadow Finder output for a given date and time with [a map showing the world's daylight, darkness and sun and moon positions](https://www.timeanddate.com/worldclock/sunearth.html?month=02\&day=29\&year=2024\&hour=12\&min=00\&sec=0\&n=%3A\&ntxt=\&earth=0) for the same point in time, shown below:
 
-<figure><img src="../../.gitbook/assets/Screenshot.JPG" alt=""><figcaption><p><strong>SHADOW FINDER MAP OUTPUT FOR NOON ON 29/2/24 WHERE THE BRIGHT RING LOCATES THE PLACES WHERE OBJECTS CAST SHADOWS 80% OF THEIR HEIGHT</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot (1).JPG" alt=""><figcaption><p><strong>SHADOW FINDER MAP OUTPUT FOR NOON ON 29/2/24 WHERE THE BRIGHT RING LOCATES THE PLACES WHERE OBJECTS CAST SHADOWS 80% OF THEIR HEIGHT</strong></p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/comparison sun location.JPG" alt=""><figcaption><p><a href="https://www.timeanddate.com/worldclock/sunearth.html"><strong>TIME &#x26; DATE MAP</strong></a> <strong>FOR NOON ON 29/2/24 WITH SUN &#x26; MOON POSITIONS OVERLAID</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/comparison sun location (1).JPG" alt=""><figcaption><p><a href="https://www.timeanddate.com/worldclock/sunearth.html"><strong>TIME &#x26; DATE MAP</strong></a> <strong>FOR NOON ON 29/2/24 WITH SUN &#x26; MOON POSITIONS OVERLAID</strong></p></figcaption></figure>
 
 The two representations concur on the daylight distribution and sun position for the same time and date shown:
 
@@ -175,11 +175,11 @@ GitHub code such as Shadow Finder requires a GitHub account so that a user can l
 
 Shadow Finder cannot find possible location points of a shadow from its length alone: the height of the object casting the shadow must also be known (or the elevation angle of the sun).
 
-<figure><img src="../../.gitbook/assets/suncalcelevationSC.jpg" alt="" width="563"><figcaption><p>THE VERTICAL ANGLE OF THE SUN IN THE SKY IS THE ELEVATION ANGLE</p></figcaption></figure>
+<figure><img src=".gitbook/assets/suncalcelevationSC (1).jpg" alt="" width="563"><figcaption><p>THE VERTICAL ANGLE OF THE SUN IN THE SKY IS THE ELEVATION ANGLE</p></figcaption></figure>
 
 Shadow Finder does not provide the direction of the sun (azimuth angle) at each potential location for the given date, time and elevation angle of the sun. This would only be useful if it was possible to establish the orientation of the source imagery to allow confirmation.
 
-<figure><img src="../../.gitbook/assets/suncalcazimuthSC.jpg" alt="" width="563"><figcaption><p><strong>THE HORIZONTAL DIRECTION OF THE SUN ON A COMPASS IS THE AZIMUTH ANGLE</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/suncalcazimuthSC (1).jpg" alt="" width="563"><figcaption><p><strong>THE HORIZONTAL DIRECTION OF THE SUN ON A COMPASS IS THE AZIMUTH ANGLE</strong></p></figcaption></figure>
 
 ## Guides and articles
 
